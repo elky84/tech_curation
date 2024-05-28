@@ -1,0 +1,14 @@
+/* Home.css */
+.slider-container {
+  text-align: center; /* 내부 요소를 수평으로 중앙에 정렬합니다. */
+}
+
+.slider-container .slick-slide {
+  display: inline-block; /* 슬라이드를 인라인 블록 요소로 설정합니다. */
+  text-align: center; /* 내부 이미지를 수평으로 중앙에 정렬합니다. */
+}
+
+.slider-container .slick-slide img {
+  display: block; /* 이미지를 블록 요소로 설정합니다. */
+  margin: 0 auto; /* 가운데 정렬을 위해 좌우 마진을 auto로 설정합니다. */
+}
