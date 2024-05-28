@@ -37,7 +37,7 @@ const Home = () => {
 
       <section>
         <h2>추천 글</h2>
-        <Articles />
+        <Articles isHome={true} />
       </section>
     </div>
   );

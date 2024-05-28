@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { Link, Route, Routes, useLocation } from 'react-router-dom';
+import { Link, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import Article from './Article';
 import ArticleDetail from './ArticleDetail';
 import articlesData from './articles.json';
@@ -53,9 +53,12 @@ const menuArr = [
   { name: 'Career', path: "/articles?category=career" },
 ];
 
-const Articles = () => {
+const Articles = ({ isHome = false }) => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [currentTab, setCurrentTab] = useState<number>(0);
+
+  const [filteredArticles, setFilteredArticles] = useState<ArticleData[]>(articlesData);
 
   useEffect(() => {
     const params = new URLSearchParams(location.search);
@@ -64,16 +67,21 @@ const Articles = () => {
     if (currentIndex !== -1) {
       setCurrentTab(currentIndex);
     }
-  }, [location.search]);
 
-  const hardCodedArticles: ArticleData[] = articlesData;
+    const filtered = articlesData.filter(article => article.category === category);
+    setFilteredArticles(filtered);
+  }, [location.search, isHome]);
 
-  const params = new URLSearchParams(location.search);
-  const category = params.get('category') ?? "product";
-
-  const filteredArticles = category 
-    ? hardCodedArticles.filter(article => article.category === category)
-    : hardCodedArticles;
+  const handleTabClick = (index: number) => {
+    const category = menuArr[index].path.split('=')[1];
+    if (isHome) {
+      setCurrentTab(index);
+      const filtered = articlesData.filter(article => article.category === category);
+      setFilteredArticles(filtered);
+    } else {
+      navigate(menuArr[index].path);
+    }
+  };
 
   return (
     <>
@@ -82,14 +90,17 @@ const Articles = () => {
           <li
             key={index}
             className={index === currentTab ? "submenu focused" : "submenu"}
+            onClick={() => handleTabClick(index)}
           >
-            <StyledLink to={el.path}>{el.name}</StyledLink>
+            <StyledLink to={isHome ? "#" : el.path}>{el.name}</StyledLink>
           </li>
         ))}
       </TabMenu>
-      <Routes>
-        <Route path="/article/:id" element={<ArticleDetail />} />
-      </Routes>
+      {!isHome && (
+        <Routes>
+          <Route path="/article/:id" element={<ArticleDetail />} />
+        </Routes>
+      )}
       <ArticlesContainer>
         {filteredArticles.map((article, index) => (
           <Article key={index} articleData={article} />
