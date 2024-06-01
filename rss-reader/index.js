@@ -11,7 +11,11 @@ const filterRecentPosts = (posts) => {
     const oneWeekAgo = new Date();
     oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
-    return posts.filter(post => new Date(post.isoDate) > oneWeekAgo);
+    return posts.filter(post => new Date(post.isoDate) > oneWeekAgo)
+                .map(post => {
+                    const { 'content:encoded': _, 'content:encoded': __, ...filteredPost } = post;  // Remove content:encoded
+                    return filteredPost;
+                });
 };
 
 const fetchAndFilterFeeds = async () => {

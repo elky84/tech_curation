@@ -26,9 +26,9 @@ const Header = () => {
                 Tech Curation
               </Typography>
             </Box>
-            {["/", "/about", "/articles", "/chat", "/community"].map((path, index) => (
+            {["/", "/about", "/articles", "/chat", "/feeds", "/community"].map((path, index) => (
                 <Button key={index} color="inherit"  component={RouterLink} to={path} sx={{ color: "primary.main" }}>
-                    {["홈", "서비스 소개", "트렌드", "채팅", "커뮤니티"][index]}
+                    {["홈", "서비스 소개", "트렌드", "채팅", "피드","커뮤니티"][index]}
                 </Button>
             ))}
           </Toolbar>

@@ -15,6 +15,7 @@ import Community from './pages/community/Community';
 import Chat from './pages/chat/Chat';
 import { CssBaseline } from '@mui/material';
 import ArticleDetail from './pages/articles/ArticleDetail';
+import { RssFeeds } from './pages/rss/RssFeeds';
 
 const customTheme = createTheme({
   palette: {
@@ -51,6 +52,7 @@ root.render(
           <Route path='/articles' element={<Articles />}></Route>
           <Route path='/article/:id' element={<ArticleDetail />}></Route> {/* ArticleDetail 컴포넌트 추가 */}
           <Route path='/chat' element={<Chat />}></Route>
+          <Route path='/feeds' element={<RssFeeds />}></Route>
           <Route path='/community' element={<Community />}></Route>
         </Routes>
         <Footer/>
