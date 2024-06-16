@@ -2,7 +2,7 @@ name: Update Feeds
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 * * *' # 매일 0시에 실행
   workflow_dispatch: # 수동 실행 가능하게 추가
 
 jobs:
