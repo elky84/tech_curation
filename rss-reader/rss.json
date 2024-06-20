@@ -35,18 +35,8 @@
       "category": "기업"
     },
     {
-      "url": "https://engineering.linkedin.com/blog.rss",
-      "name": "LinkedIn Engineering",
-      "category": "기업"
-    },
-    {
       "url": "https://medium.com/feed/airbnb-engineering",
       "name": "Airbnb Engineering & Data Science",
-      "category": "기업"
-    },
-    {
-      "url": "https://developer.amazon.com/blogs/home/feed/entries/atom",
-      "name": "Amazon Developer Blogs",
       "category": "기업"
     },
     {
@@ -117,11 +107,6 @@
     {
       "url": "https://wckhg89.github.io/feed.xml",
       "name": "줌구",
-      "category": "개인"
-    },
-    {
-      "url": "http://nolsigan.github.io/feed.xml",
-      "name": "김범준",
       "category": "개인"
     },
     {
@@ -255,11 +240,6 @@
       "category": "개인"
     },
     {
-      "url": "http://seokjun.kr/rss/",
-      "name": "김석준",
-      "category": "개인"
-    },
-    {
       "url": "http://www.dokyun.pe.kr/rss",
       "name": "김도균",
       "category": "개인"
@@ -310,11 +290,6 @@
       "category": "개인"
     },
     {
-      "url": "http://shiren.github.io/feed.xml",
-      "name": "김성호",
-      "category": "개인"
-    },
-    {
       "url": "http://blog.seulgi.kim/feeds/posts/default",
       "name": "김슬기",
       "category": "개인"
@@ -337,16 +312,6 @@
     {
       "url": "http://kangmyounghun.blogspot.com/feeds/posts/default",
       "name": "강명훈",
-      "category": "개인"
-    },
-    {
-      "url": "http://feeds.feedburner.com/theyearlyprophet/GGGO",
-      "name": "구종만",
-      "category": "개인"
-    },
-    {
-      "url": "https://b.luavis.kr/feed.xml",
-      "name": "강성일",
       "category": "개인"
     },
     {
@@ -440,11 +405,6 @@
       "category": "개인"
     },
     {
-      "url": "http://keyassist.tistory.com/rss",
-      "name": "김영웅",
-      "category": "개인"
-    },
-    {
       "url": "https://rss.blog.naver.com/lbs0718.xml",
       "name": "칡토스의 게임 개발",
       "category": "개인"
@@ -510,11 +470,6 @@
       "category": "개인"
     },
     {
-      "url": "http://blog.leekyoungil.com/?feed=rss2",
-      "name": "Kyoungil's Blog",
-      "category": "개인"
-    },
-    {
       "url": "http://blog.rss.naver.com/laster40.xml",
       "name": "일상을 여행처럼...",
       "category": "개인"
@@ -522,11 +477,6 @@
     {
       "url": "http://khrislog.net/rss",
       "name": "khris'log",
-      "category": "개인"
-    },
-    {
-      "url": "http://feedproxy.google.com/rickstrahl",
-      "name": "Rick Strahl's Web Log",
       "category": "개인"
     },
     {
@@ -690,11 +640,6 @@
       "category": "개인"
     },
     {
-      "url": "https://www.whiteship.me/rss/",
-      "name": "Whiteship's Epril",
-      "category": "개인"
-    },
-    {
       "url": "https://megayuchi.wordpress.com/feed/",
       "name": "yuchi's dev",
       "category": "개인"
@@ -730,7 +675,7 @@
       "category": "개인"
     },
     {
-      "url": "https://engineering.linecorp.com/ko/blog/rss2",
+      "url": "https://techblog.lycorp.co.jp/ko/feed/index.xml",
       "name": "LINE ENGINEERING",
       "category": "기업"
     },
@@ -750,23 +695,8 @@
       "category": "기업"
     },
     {
-      "url": "https://blog.weirdx.io/feed",
-      "name": "이상한모임",
-      "category": "기업"
-    },
-    {
       "url": "https://zuminternet.github.io/feed.xml",
       "name": "ZUM 기술 블로그",
-      "category": "기업"
-    },
-    {
-      "url": "http://tech.kakao.com/rss/",
-      "name": "tech.kakao.com",
-      "category": "기업"
-    },
-    {
-      "url": "https://tech.lezhin.com/rss",
-      "name": "레진 기술 블로그",
       "category": "기업"
     },
     {
@@ -785,23 +715,8 @@
       "category": "게임"
     },
     {
-      "url": "https://wit.nts-corp.com/feed",
-      "name": "NTS",
-      "category": "기업"
-    },
-    {
       "url": "https://blog.hanlee.io/rss.xml",
       "name": "이한",
-      "category": "개인"
-    },
-    {
-      "url": "https://gracefullight.dev/feed.xml",
-      "name": "Gracefullight Web.dev",
-      "category": "개인"
-    },
-    {
-      "url": "https://blog.roto.codes/rss/",
-      "name": "로토의 블로그",
       "category": "개인"
     },
     {
@@ -902,11 +817,6 @@
     {
       "name": "모나미",
       "url": "https://v2.velog.io/rss/monami",
-      "category": "개인"
-    },
-    {
-      "name": "황인서 (체커)",
-      "url": "https://hislogs.com/rss.xml",
       "category": "개인"
     },
     {
