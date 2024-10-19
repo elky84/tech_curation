@@ -1,0 +1,7 @@
+<script type="text/javascript">
+    // GitHub Pages에서 404가 발생할 때 index.html로 리다이렉트
+    var redirectTo = window.location.pathname;
+    if (redirectTo.indexOf('/tech_curation') !== 0) {
+      window.location = '/tech_curation' + redirectTo;
+    }
+  </script>
