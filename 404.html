@@ -4,8 +4,10 @@
   <meta http-equiv="refresh" content="0; url=/" />
   <script type="text/javascript">
     var path = window.location.pathname;
-    var repoName = '/tech_curation';
-    var newUrl = repoName + '/#' + path;
+    var newUrl = '/#/';
+    if (path !== '/') {
+      newUrl += path;
+    }
     window.location.href = newUrl;
   </script>
 </head>
