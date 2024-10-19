@@ -44,8 +44,8 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={customTheme}>
       <CssBaseline />
-      <BrowserRouter>
-        <Header/>
+      <BrowserRouter basename='tech_curation'> 
+      <Header/>
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>

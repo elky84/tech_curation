@@ -1,6 +1,7 @@
 {
   "name": "projects",
   "version": "0.1.0",
+  "homepage": "https://elky84.github.io/tech_curation",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",

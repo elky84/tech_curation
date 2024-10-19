@@ -29,7 +29,7 @@ export const RssFeeds: React.FC = () => {
     useEffect(() => {
         const fetchFeeds = async () => {
             try {
-                const response = await fetch('/feeds.json');
+                const response = await fetch(`${process.env.PUBLIC_URL}/feeds.json`);
                 const data: RSSData[] = await response.json();
                 const allPosts = data.flatMap(feed => feed.posts);
                 setPosts(allPosts);
@@ -100,7 +100,7 @@ export const RssFeeds: React.FC = () => {
                                     {parseFirstMarkdownImage(post.content) && (
                                         <img 
                                             src={parseFirstMarkdownImage(post.content)} 
-                                            alt="First Markdown Image" 
+                                            alt="Markdown" 
                                             style={{ maxWidth: '100%', maxHeight: '300px', marginTop: '10px', borderRadius: '5px' }} 
                                         />
                                     )}
