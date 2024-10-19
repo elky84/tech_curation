@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {   
+  HashRouter as Router,
+  Routes, 
+  Route 
+} from 'react-router-dom';
 
 import Home from './pages/home/Home';
 import About from './pages/about/About';
@@ -44,7 +48,7 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={customTheme}>
       <CssBaseline />
-      <BrowserRouter basename='tech_curation'> 
+      <Router> 
       <Header/>
         <Routes>
           <Route path='/' element={<Home />}></Route>
@@ -56,7 +60,7 @@ root.render(
           <Route path='/community' element={<Community />}></Route>
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </Router>
     </ThemeProvider>
   </React.StrictMode>
 );
