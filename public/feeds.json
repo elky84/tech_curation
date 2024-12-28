@@ -27,23 +27,7 @@
   {
     "name": "Netflix TechBlog",
     "category": "기업",
-    "posts": [
-      {
-        "creator": "Netflix Technology Blog",
-        "title": "Introducing Configurable Metaflow",
-        "link": "https://netflixtechblog.com/introducing-configurable-metaflow-d2fb8e9ba1c6?source=rss----2615bd06b42e---4",
-        "pubDate": "Fri, 20 Dec 2024 07:11:37 GMT",
-        "content:encodedSnippet": "David J. Berg*, David Casler^, Romain Cledat*, Qian Huang*, Rui Lin*, Nissan Pow*, Nurcan Sonmez*, Shashank Srikanth*, Chaoying Wang*, Regina Wang*, Darin Yu*\n*: Model Development Team, Machine Learning Platform\n^: Content Demand Modeling Team\nA month ago at QConSF, we showcased how Netflix utilizes Metaflow to power a diverse set of ML and AI use cases, managing thousands of unique Metaflow flows. This followed a previous blog on the same topic. Many of these projects are under constant development by dedicated teams with their own business goals and development best practices, such as the system that supports our content decision makers, or the system that ranks which language subtitles are most valuable for a specific piece of content.\nAs a central ML and AI platform team, our role is to empower our partner teams with tools that maximize their productivity and effectiveness, while adapting to their specific needs (not the other way around). This has been a guiding design principle with Metaflow since its inception.\nMetaflow infrastructure stack\nStanding on the shoulders of our extensive cloud infrastructure, Metaflow facilitates easy access to data, compute, and production-grade workflow orchestration, as well as built-in best practices for common concerns such as collaboration, versioning, dependency management, and observability, which teams use to setup ML/AI experiments and systems that work for them. As a result, Metaflow users at Netflix have been able to run millions of experiments over the past few years without wasting time on low-level concerns.\nA long standing FAQ: configurable flows\nWhile Metaflow aims to be un-opinionated about some of the upper levels of the stack, some teams within Netflix have developed their own opinionated tooling. As part of Metaflow’s adaptation to their specific needs, we constantly try to understand what has been developed and, more importantly, what gaps these solutions are filling.\nIn some cases, we determine that the gap being addressed is very team specific, or too opinionated at too high a level in the stack, and we therefore decide to not develop it within Metaflow. In other cases, however, we realize that we can develop an underlying construct that aids in filling that gap. Note that even in that case, we do not always aim to completely fill the gap and instead focus on extracting a more general lower level concept that can be leveraged by that particular user but also by others. One such recurring pattern we noticed at Netflix is the need to deploy sets of closely related flows, often as part of a larger pipeline involving table creations, ETLs, and deployment jobs. Frequently, practitioners want to experiment with variants of these flows, testing new data, new parameterizations, or new algorithms, while keeping the overall structure of the flow or flows intact.\nA natural solution is to make flows configurable using configuration files, so variants can be defined without changing the code. Thus far, there hasn’t been a built-in solution for configuring flows, so teams have built their bespoke solutions leveraging Metaflow’s JSON-typed Parameters, IncludeFile, and deploy-time Parameters or deploying their own home-grown solution (often with great pain). However, none of these solutions make it easy to configure all aspects of the flow’s behavior, decorators in particular.\nRequests for a feature like Metaflow Config\nOutside Netflix, we have seen similar frequently asked questions on the Metaflow community Slack as shown in the user quotes above:\n\nhow can I adjust the @resource requirements, such as CPU or memory, without having to hardcode the values in my flows?\nhow to adjust the triggering @schedule programmatically, so our production and staging deployments can run at different cadences?\n\nNew in Metaflow: Configs!\nToday, to answer the FAQ, we introduce a new — small but mighty — feature in Metaflow: a Config object. Configs complement the existing Metaflow constructs of artifacts and Parameters, by allowing you to configure all aspects of the flow, decorators in particular, prior to any run starting. At the end of the day, artifacts, Parameters and Configs are all stored as artifacts by Metaflow but they differ in when they are persisted as shown in the diagram below:\nDifferent data artifacts in Metaflow\nSaid another way:\n\nAn artifact is resolved and persisted to the datastore at the end of each task.\nA parameter is resolved and persisted at the start of a run; it can therefore be modified up to that point. One common use case is to use triggers to pass values to a run right before executing. Parameters can only be used within your step code.\nA config is resolved and persisted when the flow is deployed. When using a scheduler such as Argo Workflows, deployment happens when create’ing the flow. In the case of a local run, “deployment” happens just prior to the execution of the run — think of “deployment” as gathering all that is needed to run the flow. Unlike parameters, configs can be used more widely in your flow code, particularly, they can be used in step or flow level decorators as well as to set defaults for parameters. Configs can of course also be used within your flow.\n\nAs an example, you can specify a Config that reads a pleasantly human-readable configuration file, formatted as TOML. The Config specifies a triggering ‘@schedule’ and ‘@resource’ requirements, as well as application-specific parameters for this specific deployment:\n[schedule]\ncron = \"0 * * * *\"\n[model]\noptimizer = \"adam\"\nlearning_rate = 0.5\n[resources]\ncpu = 1\nUsing the newly released Metaflow 2.13, you can configure a flow with a Config like above, as demonstrated by this flow:\nimport pprint\nfrom metaflow import FlowSpec, step, Config, resources, config_expr, schedule\n@schedule(cron=config_expr(\"config.schedule.cron\"))\nclass ConfigurableFlow(FlowSpec):\n    config = Config(\"config\", default=\"myconfig.toml\", parser=\"tomllib.loads\")\n    @resources(cpu=config.resources.cpu)\n    @step\n    def start(self):\n        print(\"Config loaded:\")\n        pprint.pp(self.config)\n        self.next(self.end)\n    @step\n    def end(self):\n        pass\nif __name__ == \"__main__\":\n    ConfigurableFlow()\nThere is a lot going on in the code above, a few highlights:\n\nyou can refer to configs before they have been defined using ‘config_expr’.\nyou can define arbitrary parsers — using a string means the parser doesn’t even have to be present remotely!\n\nFrom the developer’s point of view, Configs behave like dictionary-like artifacts. For convenience, they support the dot-syntax (when possible) for accessing keys, making it easy to access values in a nested configuration. You can also unpack the whole Config (or a subtree of it) with Python’s standard dictionary unpacking syntax, ‘**config’. The standard dictionary subscript notation is also available.\nSince Configs turn into dictionary artifacts, they get versioned and persisted automatically as artifacts. You can access Configs of any past runs easily through the Client API. As a result, your data, models, code, Parameters, Configs, and execution environments are all stored as a consistent bundle — neatly organized in Metaflow namespaces — paving the way for easily reproducible, consistent, low-boilerplate, and now easily configurable experiments and robust production deployments.\nMore than a humble config file\nWhile you can get far by accompanying your flow with a simple config file (stored in your favorite format, thanks to user-definable parsers), Configs unlock a number of advanced use cases. Consider these examples from the updated documentation:\n\nYou can choose the right level of runtime configurability versus fixed deployments by mixing Parameters and Configs. For instance, you can use a Config to define a default value for a parameter which can be overridden by a real-time event as a run is triggered.\nYou can define a custom parser to validate the configuration, e.g. using the popular Pydantic library.\nYou are not limited to using a single file: you can leverage a configuration manager like OmegaConf or Hydra to manage a hierarchy of cascading configuration files. You can also use a domain-specific tool for generating Configs, such as Netflix’s Metaboost which we cover below.\nYou can also generate configurations on the fly, e.g. fetch Configs from an external service, or inspect the execution environment, such as the current GIT branch, and include it as an extra piece of context in runs.\n\nA major benefit of Config over previous more hacky solutions for configuring flows is that they work seamlessly with other features of Metaflow: you can run steps remotely and deploy flows to production, even when relying on custom parsers, without having to worry about packaging Configs or parsers manually or keeping Configs consistent across tasks. Configs also work with the Runner and Deployer.\nThe Hollywood principle: don’t call us, we’ll call you\nWhen used in conjunction with a configuration manager like Hydra, Configs enable a pattern that is highly relevant for ML and AI use cases: orchestrating experiments over multiple configurations or sweeping over parameter spaces. While Metaflow has always supported sweeping over parameter grids easily using foreaches, it hasn’t been easily possible to alter the flow itself, e.g. to change @resources or @pypi/@conda dependencies for every experiment.\nIn a typical case, you trigger a Metaflow flow that consumes a configuration file, changing how a run behaves. With Hydra, you can invert the control: it is Hydra that decides what gets run based on a configuration file. Thanks to Metaflow’s new Runner and Deployer APIs, you can create a Hydra app that operates Metaflow programmatically — for instance, to deploy and execute hundreds of variants of a flow in a large-scale experiment.\nTake a look at two interesting examples of this pattern in the documentation. As a teaser, this video shows Hydra orchestrating deployment of tens of Metaflow flows, each of which benchmarks PyTorch using a varying number of CPU cores and tensor sizes, updating a visualization of the results in real-time as the experiment progresses:\nhttps://medium.com/media/e1e6d120dc74e75d9e52956b6cee7efe/href\nMetaboosting Metaflow — based on a true story\nTo give a motivating example of what configurations look like at Netflix in practice, let’s consider Metaboost, an internal Netflix CLI tool that helps ML practitioners manage, develop and execute their cross-platform projects, somewhat similar to the open-source Hydra discussed above but with specific integrations to the Netflix ecosystem. Metaboost is an example of an opinionated framework developed by a team already using Metaflow. In fact, a part of the inspiration for introducing Configs in Metaflow came from this very use case.\nMetaboost serves as a single interface to three different internal platforms at Netflix that manage ETL/Workflows (Maestro), Machine Learning Pipelines (Metaflow) and Data Warehouse Tables (Kragle). In this context, having a single configuration system to manage a ML project holistically gives users increased project coherence and decreased project risk.\nConfiguration in Metaboost\nEase of configuration and templatizing are core values of Metaboost. Templatizing in Metaboost is achieved through the concept of bindings, wherein we can bind a Metaflow pipeline to an arbitrary label, and then create a corresponding bespoke configuration for that label. The binding-connected configuration is then merged into a global set of configurations containing such information as GIT repository, branch, etc. Binding a Metaflow, will also signal to Metaboost that it should instantiate the Metaflow flow once per binding into our orchestration cluster.\nImagine a ML practitioner on the Netflix Content ML team, sourcing features from hundreds of columns in our data warehouse, and creating a multitude of models against a growing suite of metrics. When a brand new content metric comes along, with Metaboost, the first version of the metric’s predictive model can easily be created by simply swapping the target column against which the model is trained.\nSubsequent versions of the model will result from experimenting with hyper parameters, tweaking feature engineering, or conducting feature diets. Metaboost’s bindings, and their integration with Metaflow Configs, can be leveraged to scale the number of experiments as fast as a scientist can create experiment based configurations.\nScaling experiments with Metaboost bindings — backed by Metaflow Config\nConsider a Metaboost ML project named `demo` that creates and loads data to custom tables (ETL managed by Maestro), and then trains a simple model on this data (ML Pipeline managed by Metaflow). The project structure of this repository might look like the following:\n├── metaflows\n│   ├── custom                               -> custom python code, used by\n|   |   |                                       Metaflow\n│   │   ├── data.py\n│   │   └── model.py\n│   └── training.py                          -> defines our Metaflow pipeline\n├── schemas\n│   ├── demo_features_f.tbl.yaml             -> table DDL, stores our ETL\n|   |                                           output, Metaflow input\n│   └── demo_predictions_f.tbl.yaml          -> table DDL,\n|                                               stores our Metaflow output\n├── settings\n│   ├── settings.configuration.EXP_01.yaml   -> defines the additive\n|   |                                           config for Experiment 1\n│   ├── settings.configuration.EXP_02.yaml   -> defines the additive\n|   |                                           config for Experiment 2\n│   ├── settings.configuration.yaml          -> defines our global\n|   |                                           configuration\n│   └── settings.environment.yaml            -> defines parameters based on\n|                                               git branch (e.g. READ_DB)\n├── tests\n├── workflows\n│   ├── sql\n│   ├── demo.demo_features_f.sch.yaml        -> Maestro workflow, defines ETL\n│   └── demo.main.sch.yaml                   -> Maestro workflow, orchestrates\n|                                               ETLs and Metaflow\n└── metaboost.yaml                           -> defines our project for\n                                                Metaboost\nThe configuration files in the settings directory above contain the following YAML files:\n# settings.configuration.yaml (global configuration)\nmodel:\n  fit_intercept: True\nconda:\n  numpy: '1.22.4'\n  \"scikit-learn\": '1.4.0'\n# settings.configuration.EXP_01.yaml\ntarget_column: metricA\nfeatures:\n  - runtime\n  - content_type\n  - top_billed_talent\n# settings.configuration.EXP_02.yaml\ntarget_column: metricA\nfeatures:\n  - runtime\n  - director\n  - box_office\nMetaboost will merge each experiment configuration (*.EXP*.yaml) into the global configuration (settings.configuration.yaml) individually at Metaboost command initialization. Let’s take a look at how Metaboost combines these configurations with a Metaboost command:\n(venv-demo) ~/projects/metaboost-demo [branch=demoX] \n$ metaboost metaflow settings show --yaml-path=configuration\nbinding=EXP_01:\nmodel:                     -> defined in setting.configuration.yaml (global)\n  fit_intercept: true\nconda:                     -> defined in setting.configuration.yaml (global)\n  numpy: 1.22.4\n  \"scikit-learn\": 1.4.0\ntarget_column: metricA     -> defined in setting.configuration.EXP_01.yaml\nfeatures:                  -> defined in setting.configuration.EXP_01.yaml\n- runtime\n- content_type\n- top_billed_talent\nbinding=EXP_02:\nmodel:                     -> defined in setting.configuration.yaml (global)\n  fit_intercept: true\nconda:                     -> defined in setting.configuration.yaml (global)\n  numpy: 1.22.4\n  \"scikit-learn\": 1.4.0\ntarget_column: metricA     -> defined in setting.configuration.EXP_02.yaml\nfeatures:                  -> defined in setting.configuration.EXP_02.yaml\n- runtime\n- director\n- box_office\nMetaboost understands it should deploy/run two independent instances of training.py — one for the EXP_01 binding and one for the EXP_02 binding. You can also see that Metaboost is aware that the tables and ETL workflows are not bound, and should only be deployed once. These details of which artifacts to bind and which to leave unbound are encoded in the project’s top-level metaboost.yaml file.\n(venv-demo) ~/projects/metaboost-demo [branch=demoX] \n$ metaboost project list\nTables (metaboost table list):\nschemas/demo_predictions_f.tbl.yaml (binding=default):\n    table_path=prodhive/demo_db/demo_predictions_f\nschemas/demo_features_f.tbl.yaml (binding=default):\n    table_path=prodhive/demo_db/demo_features_f\nWorkflows (metaboost workflow list):\nworkflows/demo.demo_features_f.sch.yaml (binding=default):\n    cluster=sandbox, workflow.id=demo.branch_demox.demo_features_f\nworkflows/demo.main.sch.yaml (binding=default):\n    cluster=sandbox, workflow.id=demo.branch_demox.main\nMetaflows (metaboost metaflow list):\nmetaflows/training.py (binding=EXP_01): -> EXP_01 instance of training.py\n    cluster=sandbox, workflow.id=demo.branch_demox.EXP_01.training   \nmetaflows/training.py (binding=EXP_02): -> EXP_02 instance of training.py\n    cluster=sandbox, workflow.id=demo.branch_demox.EXP_02.training\nBelow is a simple Metaflow pipeline that fetches data, executes feature engineering, and trains a LinearRegression model. The work to integrate Metaboost Settings into a user’s Metaflow pipeline (implemented using Metaflow Configs) is as easy as adding a single mix-in to the FlowSpec definition:\nfrom metaflow import FlowSpec, Parameter, conda_base, step\nfrom custom.data import feature_engineer, get_data\nfrom metaflow.metaboost import MetaboostSettings\n@conda_base(\n    libraries=MetaboostSettings.get_deploy_time_settings(\"configuration.conda\")\n)class DemoTraining(FlowSpec, MetaboostSettings):\n    prediction_date = Parameter(\"prediction_date\", type=int, default=-1)\n    @step\n    def start(self):\n        # get show_settings() for free with the mixin\n        # and get convenient debugging info\n        self.show_settings(exclude_patterns=[\"artifact*\", \"system*\"])\n        self.next(self.get_features)\n    @step\n    def get_features(self):\n        # feature engineers on our extracted data\n        self.fe_df = feature_engineer(\n            # loads data from our ETL pipeline\n            data=get_data(prediction_date=self.prediction_date),\n            features=self.settings.configuration.features +\n                [self.settings.configuration.target_column]\n        )\n        self.next(self.train)\n    @step\n    def train(self):\n        from sklearn.linear_model import LinearRegression\n        # trains our model\n        self.model = LinearRegression(\n            fit_intercept=self.settings.configuration.model.fit_intercept\n        ).fit(\n            X=self.fe_df[self.settings.configuration.features],\n            y=self.fe_df[self.settings.configuration.target_column]\n        )\n        print(f\"Fit slope: {self.model.coef_[0]}\")\n        print(f\"Fit intercept: {self.model.intercept_}\")\n        self.next(self.end)\n    @step\n    def end(self):\n        pass\n\nif __name__ == \"__main__\":\n    DemoTraining()\nThe Metaflow Config is added to the FlowSpec by mixing in the MetaboostSettings class. Referencing a configuration value is as easy as using the dot syntax to drill into whichever parameter you’d like.\nFinally let’s take a look at the output from our sample Metaflow above. We execute experiment EXP_01 with\nmetaboost metaflow run --binding=EXP_01\nwhich upon execution will merge the configurations into a single settings file (shown previously) and serialize it as a yaml file to the .metaboost/settings/compiled/ directory.\nYou can see the actual command and args that were sub-processed in the Metaboost Execution section below. Please note the –config argument pointing to the serialized yaml file, and then subsequently accessible via self.settings. Also note the convenient printing of configuration values to stdout during the start step using a mixed in function named show_settings().\n(venv-demo) ~/projects/metaboost-demo [branch=demoX] \n$ metaboost metaflow run --binding=EXP_01\nMetaboost Execution: \n - python3.10 /root/repos/cdm-metaboost-irl/metaflows/training.py\n   --no-pylint --package-suffixes=.py --environment=conda\n   --config settings\n   .metaboost/settings/compiled/settings.branch_demox.EXP_01.training.mP4eIStG.yaml\n   run --prediction_date20241006\nMetaflow 2.12.39+nflxfastdata(2.13.5);nflx(2.13.5);metaboost(0.0.27)\n  executing DemoTraining for user:dcasler\nValidating your flow...\n    The graph looks good!\nBootstrapping Conda environment... (this could take a few minutes)\nAll packages already cached in s3.\nAll environments already cached in s3.\nWorkflow starting (run-id 50), see it in the UI at\nhttps://metaflowui.prod.netflix.net/DemoTraining/50\n[50/start/251640833] Task is starting.\n[50/start/251640833] Configuration Values:\n[50/start/251640833]   settings.configuration.conda.numpy            = 1.22.4\n[50/start/251640833]   settings.configuration.features.0             = runtime\n[50/start/251640833]   settings.configuration.features.1             = content_type\n[50/start/251640833]   settings.configuration.features.2             = top_billed_talent\n[50/start/251640833]   settings.configuration.model.fit_intercept    = True\n[50/start/251640833]   settings.configuration.target_column          = metricA\n[50/start/251640833]   settings.environment.READ_DATABASE            = data_warehouse_prod\n[50/start/251640833]   settings.environment.TARGET_DATABASE          = demo_dev\n[50/start/251640833] Task finished successfully.\n[50/get_features/251640840] Task is starting.\n[50/get_features/251640840] Task finished successfully.\n[50/train/251640854] Task is starting.\n[50/train/251640854] Fit slope: 0.4702672504331096\n[50/train/251640854] Fit intercept: -6.247919678070083\n[50/train/251640854] Task finished successfully.\n[50/end/251640868] Task is starting.\n[50/end/251640868] Task finished successfully.\nDone! See the run in the UI at\nhttps://metaflowui.prod.netflix.net/DemoTraining/50\nTakeaways\nMetaboost is an integration tool that aims to ease the project development, management and execution burden of ML projects at Netflix. It employs a configuration system that combines git based parameters, global configurations and arbitrarily bound configuration files for use during execution against internal Netflix platforms.\nIntegrating this configuration system with the new Config in Metaflow is incredibly simple (by design), only requiring users to add a mix-in class to their FlowSpec — similar to this example in Metaflow documentation — and then reference the configuration values in steps or decorators. The example above templatizes a training Metaflow for the sake of experimentation, but users could just as easily use bindings/configs to templatize their flows across target metrics, business initiatives or any other arbitrary lines of work.\nTry it at home\nIt couldn’t be easier to get started with Configs! Just\npip install -U metaflow\nto get the latest version and head to the updated documentation for examples. If you are impatient, you can find and execute all config-related examples in this repository as well.\nIf you have any questions or feedback about Config (or other Metaflow features), you can reach out to us at the Metaflow community Slack.\nAcknowledgments\nWe would like to thank Outerbounds for their collaboration on this feature; for rigorously testing it and developing a repository of examples to showcase some of the possibilities offered by this feature.\n\nIntroducing Configurable Metaflow was originally published in Netflix TechBlog on Medium, where people are continuing the conversation by highlighting and responding to this story.",
-        "dc:creator": "Netflix Technology Blog",
-        "guid": "https://medium.com/p/d2fb8e9ba1c6",
-        "categories": [
-          "machine-learning",
-          "mlops",
-          "metaflow"
-        ],
-        "isoDate": "2024-12-20T07:11:37.000Z"
-      }
-    ]
+    "posts": []
   },
   {
     "name": "JetBrains: Developer Tools for Professionals and Teams – Company Blog | JetBrains",
@@ -65,24 +49,18 @@
           "newsletter"
         ],
         "isoDate": "2024-12-23T18:26:30.000Z"
-      },
-      {
-        "creator": "Maciej Gorywoda",
-        "title": "The IntelliJ Scala Plugin in 2024",
-        "link": "https://blog.jetbrains.com/scala/2024/12/20/the-intellij-scala-plugin-in-2024/",
-        "pubDate": "Fri, 20 Dec 2024 15:29:30 +0000",
-        "content:encodedSnippet": "The Year in Review\nTime flies. Only a year ago, we saw the release of Scala 3.4.0-RC1, and now we’re trying out Scala 3.6.2 with many new experimental features. The last 12 months have brought many new features to the IntelliJ Scala Plugin as well. A year ago we introduced X-Ray mode, which lets you easily augment the code you see in the editor with information about inferred types and other details. We’ve improved Scala 3 support, compiler-based highlighting, and the debugger. We’ve improved auto-completion, both the standard and the AI-powered versions. We’ve introduced support for named tuples, which are still an experimental feature, and we’ve implemented a new way to work with sbt projects. On top of all that, this year, JetBrains joined the Scala Advisory Board. You can read about those changes in our release notes and other blog posts:\nThe X-Ray Mode\nRelease Notes 2024.1\nRelease Notes 2024.2\nRelease Notes 2024.3\nNew Module Layout for sbt Projects\nJetBrains Joins the Scala Advisory Board\n\n\n\n\nState of Developer Ecosystem Survey\nThis year, JetBrains conducted its eighth annual State of Developer Ecosystem Survey. We compared your answers about your Scala development preferences to the results from last year, and we learned a few interesting things:\nWhich versions of Scala do you regularly use?\nThe most significant shift is the jump in Scala 3 usage from 45% in 2023 to 51% in 2024. However, the usage of Scala 2.13 fell a little bit, and even Scala 2.12, though it lost popularity, sits at a modest 23%. What can we make of this? The additional breakdown of responses regarding which versions are used at work and which are used for hobby projects gave us a pretty clear picture. The community has embraced Scala 3 in open-source projects, libraries, and new projects written from scratch, but Scala 2.13 still plays a prominent role in the professional world.\n\nWhich Scala 3 features do you use?\nWhen it comes to adopting Scala 3 features, the features with the most growth (enums, given and using clauses, top-level definitions) are those that simplify common patterns or reduce boilerplate. This suggests developers prioritize tools that enhance productivity and readability. Other, more advanced features have also become more popular, which corresponds to the rise in popularity of Scala 3 overall. Niche features – like dependent function types and kind polymorphism – will likely remain specialized tools for advanced library authors or specific applications.\nNext year, we will move this question from the main Developer Ecosystem Survey to a separate small opinion poll.\n\nWhich unit testing frameworks do you regularly use, if any?\nWith 71% of users, ScalaTest is the clear leader. This reflects its maturity, ease of use, and extensive feature set – all reasons why many teams see it as a go-to solution. MUnit and ScalaCheck have retained stable fan bases, even though they both lost a few points. On the other hand, the decline of ZIO Test’s popularity might be surprising, given that ZIO remains a popular framework.\n\nWhich frameworks and libraries do you regularly use?\nCats has experienced a small rise, solidifying its position as one of the most widely used libraries in the Scala ecosystem. This trend might be connected with a shift toward more rigorous functional programming in the community since F2 and ZIO, both mature projects built on functional programming principles, also experienced small bumps.\nAkka lost 5 points but maintained a solid user base. It looks like Pekko, a fully open-source fork of Akka, has attracted some Akka users seeking a familiar framework without licensing constraints. This is the first year we have asked about Pekko in the Developer Ecosystem Survey, and it already has a 15% share of the responses.\nThe other libraries either maintained their user bases or experienced slight losses. This may mean that Scala development is moving towards and consolidating around tried and trustworthy solutions. Scala developers still like to experiment but we leave it more for hobby projects, sticking instead to what we know in our full-time jobs. The results for frameworks and libraries used in web development seem to confirm this conclusion: not much has changed; we still see the dominance of a few mature solutions without any new experimental projects significantly rising in popularity.\n\n\n\n\nWhich editors or IDEs do you use for Scala development?\nFinally, when it comes to the popularity of IDEs and editors used to write Scala code, IntelliJ IDEA with the Scala Plugin is still on top at 80%. VS Code is next with 25%, and Emacs and Vim are in third and fourth place. Many people don’t use just one IDE for all their work, which is why the results don’t add up to 100%. As we already learned from the questions about Scala 3 and its features, Scala developers like to experiment in their hobby projects, but they stick to mature solutions in their professional work. Maybe this explains these results as well.\n\nShare of top-paid employees\nAnd one more thing before we finish: This year’s Developer Ecosystem Survey shows that, just as in 2023, Scala is the programming language with the largest percentage of top-paid developers, i.e. those whose salaries are in the top quartile of their country or region.\n\nCheck out the State of Developer Ecosystem Report to learn more about the results.\nTo conclude, we wish you a peaceful end of the year, a lovely holiday season, and… happy development!\nThe IntelliJ Scala Plugin team",
-        "dc:creator": "Maciej Gorywoda",
-        "content": "The Year in Review Time flies. Only a year ago, we saw the release of Scala 3.4.0-RC1, and now we&#8217;re trying out Scala 3.6.2 with many new experimental features. The last 12 months have brought many new features to the IntelliJ Scala Plugin as well. A year ago we introduced X-Ray mode, which lets you [&#8230;]",
-        "contentSnippet": "The Year in Review Time flies. Only a year ago, we saw the release of Scala 3.4.0-RC1, and now we’re trying out Scala 3.6.2 with many new experimental features. The last 12 months have brought many new features to the IntelliJ Scala Plugin as well. A year ago we introduced X-Ray mode, which lets you […]",
-        "guid": "https://blog.jetbrains.com/?post_type=scala&p=535934",
-        "categories": [
-          "intellij",
-          "scala"
-        ],
-        "isoDate": "2024-12-20T15:29:30.000Z"
       }
     ]
+  },
+  {
+    "name": "Airbnb Engineering & Data Science",
+    "category": "기업",
+    "posts": []
+  },
+  {
+    "name": "PayPal Engineering",
+    "category": "기업",
+    "posts": []
   },
   {
     "name": "Visual Studio Blog",
@@ -285,6 +263,16 @@
     "posts": []
   },
   {
+    "name": "권혁우",
+    "category": "개인",
+    "posts": []
+  },
+  {
+    "name": "김준형",
+    "category": "개인",
+    "posts": []
+  },
+  {
     "name": "강동혁",
     "category": "개인",
     "posts": []
@@ -346,6 +334,11 @@
   },
   {
     "name": "김민준",
+    "category": "개인",
+    "posts": []
+  },
+  {
+    "name": "강성훈",
     "category": "개인",
     "posts": []
   },
@@ -441,6 +434,17 @@
     "posts": [
       {
         "creator": "고명환",
+        "title": "스타트업 창업 사업계획서 작성법 - 문제인식 - 스타트업",
+        "link": "https://brunch.co.kr/@@LOc/244",
+        "pubDate": "Fri, 27 Dec 2024 05:30:14 GMT",
+        "author": "고명환",
+        "content": "예비창업패키지, 초기창업패키지, 청년창업사관학교 등 대부분의 스타트업 창업&nbsp;사업계획서의 양식은 1. 문제인식 2. 실현가능성 3. 성장전략 4. 팀구성으로 이루어져있습니다.  정부지원사업의 경우 짧은 시간에 심사위원의 이해를 돕고 설득을 시켜야 하는 과정이 중요하기 때문에 목차별로 몇 가지 조언을 드리겠습니다.  첫 번째 1. 문제인식 작성 시에 고려해야 <img src= \"https://img1.daumcdn.net/thumb/R1280x0/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fbrunch%2Fservice%2Fuser%2FLOc%2Fimage%2FiUhPIf9dhXiI0b19doImkV76BwQ.jpg\" width=\"500\" />",
+        "contentSnippet": "예비창업패키지, 초기창업패키지, 청년창업사관학교 등 대부분의 스타트업 창업 사업계획서의 양식은 1. 문제인식 2. 실현가능성 3. 성장전략 4. 팀구성으로 이루어져있습니다.  정부지원사업의 경우 짧은 시간에 심사위원의 이해를 돕고 설득을 시켜야 하는 과정이 중요하기 때문에 목차별로 몇 가지 조언을 드리겠습니다.  첫 번째 1. 문제인식 작성 시에 고려해야",
+        "guid": "https://brunch.co.kr/@@LOc/244",
+        "isoDate": "2024-12-27T05:30:14.000Z"
+      },
+      {
+        "creator": "고명환",
         "title": "특허 자본화를 통한 부채비율 낮추는 방법 - 스타트업",
         "link": "https://brunch.co.kr/@@LOc/243",
         "pubDate": "Thu, 26 Dec 2024 01:16:20 GMT",
@@ -473,6 +477,11 @@
         "isoDate": "2024-12-23T08:32:54.000Z"
       }
     ]
+  },
+  {
+    "name": "강성희",
+    "category": "개인",
+    "posts": []
   },
   {
     "name": "강병수",
@@ -758,6 +767,22 @@
     "posts": [
       {
         "creator": "SIDNFT",
+        "title": "심청전은 보험사기 가족의 이야기 일지도?",
+        "link": "http://serverdown.tistory.com/1074",
+        "pubDate": "Sat, 28 Dec 2024 03:50:25 +0900",
+        "author": "SIDNFT",
+        "comments": "http://serverdown.tistory.com/1074#entry1074comment",
+        "content": "<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/watch?v=8u4DxmVhbCE\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=8u4DxmVhbCE</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=8u4DxmVhbCE\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/eBUA2/hyXSqfc6ds/a4hutTVXWiMJghQQk1Ggj0/img.jpg?width=1280&amp;height=720&amp;face=664_310_854_516,https://scrap.kakaocdn.net/dn/cGcNC1/hyXSuvbyRg/Etk57XGD7uBu3iC3z0n4JK/img.jpg?width=1280&amp;height=720&amp;face=664_310_854_516\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"크툴루를 만난 심청이, 보험 사기를 친 심청이.. 심청 유니버스는 어디까지?\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/8u4DxmVhbCE\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">주의: 이야기가 엉망진창으로 진행됩니다.</p>\n<p data-ke-size=\"size16\">삼백석을 받기로하고 물에 빠진다.</p>\n<p data-ke-size=\"size16\">그러나 이미 심청이는 구해질 것을 알고 있었을 지도 모른다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>",
+        "contentSnippet": "영상: https://www.youtube.com/watch?v=8u4DxmVhbCE\n\n\n\n주의: 이야기가 엉망진창으로 진행됩니다.\n삼백석을 받기로하고 물에 빠진다.\n그러나 이미 심청이는 구해질 것을 알고 있었을 지도 모른다.",
+        "guid": "http://serverdown.tistory.com/1074",
+        "categories": [
+          "유튜브",
+          "사건사거"
+        ],
+        "isoDate": "2024-12-27T18:50:25.000Z"
+      },
+      {
+        "creator": "SIDNFT",
         "title": "2025년 1월 악재 2개 예상 / 트럼프 취임 / 일본 금리인상",
         "link": "http://serverdown.tistory.com/1073",
         "pubDate": "Fri, 27 Dec 2024 01:43:37 +0900",
@@ -898,22 +923,6 @@
           "간첩"
         ],
         "isoDate": "2024-12-22T15:18:12.000Z"
-      },
-      {
-        "creator": "SIDNFT",
-        "title": "MTS 기준으로 채권 사는법 알려주는 영상",
-        "link": "http://serverdown.tistory.com/1064",
-        "pubDate": "Sun, 22 Dec 2024 19:34:45 +0900",
-        "author": "SIDNFT",
-        "comments": "http://serverdown.tistory.com/1064#entry1064comment",
-        "content": "<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/watch?v=6eoLjo9vGx4\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=6eoLjo9vGx4</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=6eoLjo9vGx4\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/btT38L/hyXSEQ32z9/crPziIs3qrcZgoupNN0cSk/img.jpg?width=1280&amp;height=720&amp;face=846_118_990_274,https://scrap.kakaocdn.net/dn/bpNaIc/hyXStosE0s/160HX1qtL2emdIyPCUE0Gk/img.jpg?width=1280&amp;height=720&amp;face=846_118_990_274\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"고금리에 인기인 채권 투자! 직접 사는 방법 알려드려요 ｜채권투자의 A to Z｜채권 EP.01｜신화!\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/6eoLjo9vGx4\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">한국 주식은 어렵습니다.</p>\n<p data-ke-size=\"size16\">채권을 투자해보세요</p>\n<p data-ke-size=\"size16\">만기까지 기다리면 약정 이자를 받을 수 있으며</p>\n<p data-ke-size=\"size16\">중간에 오르는 경우도 있습니다. 이대는 팔면 됩니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>",
-        "contentSnippet": "영상: https://www.youtube.com/watch?v=6eoLjo9vGx4\n\n\n\n \n한국 주식은 어렵습니다.\n채권을 투자해보세요\n만기까지 기다리면 약정 이자를 받을 수 있으며\n중간에 오르는 경우도 있습니다. 이대는 팔면 됩니다.",
-        "guid": "http://serverdown.tistory.com/1064",
-        "categories": [
-          "투자",
-          "채권"
-        ],
-        "isoDate": "2024-12-22T10:34:45.000Z"
       }
     ]
   },
@@ -1020,12 +1029,32 @@
   {
     "name": "LINE ENGINEERING",
     "category": "기업",
-    "posts": []
+    "posts": [
+      {
+        "title": "Java 가상 스레드, 깊이 있는 소스 코드 분석과 작동 원리 3편 - 고정 이슈와 한계",
+        "link": "https://techblog.lycorp.co.jp/ko/about-java-virtual-thread-3",
+        "pubDate": "Fri, 27 Dec 2024 02:30:00 GMT",
+        "content": "지난 2편에서는 가상 스레드(virtual thread)의 컨텍스트 스위칭(context switching)이 구체적으로 어떤 과정으로 진행되는지 알아봤습니다. 마지막 3편에서는 ...",
+        "contentSnippet": "지난 2편에서는 가상 스레드(virtual thread)의 컨텍스트 스위칭(context switching)이 구체적으로 어떤 과정으로 진행되는지 알아봤습니다. 마지막 3편에서는 ...",
+        "guid": "https://techblog.lycorp.co.jp/ko/about-java-virtual-thread-3",
+        "isoDate": "2024-12-27T02:30:00.000Z"
+      }
+    ]
   },
   {
     "name": "뱅크샐러드 블로그",
     "category": "기업",
-    "posts": []
+    "posts": [
+      {
+        "title": "100여개의 대출 기관 API, 자동으로 운영하기",
+        "link": "https://blog.banksalad.com/tech/banksalad-loan-api/",
+        "pubDate": "Thu, 26 Dec 2024 00:00:00 GMT",
+        "content": "안녕하세요! 뱅크샐러드의 Server Engineer 조성민입니다. 이번 글에서는 제 팀인 금융쇼핑 PA…",
+        "contentSnippet": "안녕하세요! 뱅크샐러드의 Server Engineer 조성민입니다. 이번 글에서는 제 팀인 금융쇼핑 PA…",
+        "guid": "https://blog.banksalad.com/tech/banksalad-loan-api/",
+        "isoDate": "2024-12-26T00:00:00.000Z"
+      }
+    ]
   },
   {
     "name": "우아한형제들 기술 블로그",
@@ -1165,6 +1194,11 @@
     "posts": []
   },
   {
+    "name": "쿠팡 엔지니어링",
+    "category": "기업",
+    "posts": []
+  },
+  {
     "name": "지마켓 기술 블로그",
     "category": "기업",
     "posts": []
@@ -1237,16 +1271,6 @@
         "contentSnippet": "LG유플러스 익시 활용해 토스 캐치 캐릭터 만들기",
         "guid": "https://blog.toss.im/article/AI-character",
         "isoDate": "2024-12-23T00:00:00.000Z"
-      },
-      {
-        "title": "자연재해, 버스 사고, 스쿨존 사고 ‘시민안전보험’으로 보상 받으세요.",
-        "link": "https://blog.toss.im/article/money-policies-31",
-        "pubDate": "Fri, 20 Dec 2024 01:00:00 GMT",
-        "content:encodedSnippet": ".css-1vn47db{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:none;-ms-flex:none;flex:none;}\n.css-14on8x8{font-size:17px;letter-spacing:0em;line-height:1.6;font-weight:normal;color:var(--adaptiveGrey800);margin:24px 0 8px;}\n.css-1r3ko7u{line-height:0;display:block;}.css-1iisb9p{display:contents;line-height:1.6;}.css-1kxrhf3{white-space:pre-wrap;}내 주소지의 지방자치단체가 .css-16cuouw{white-space:pre-wrap;color:var(--adaptiveGrey800);background-color:#3fd59936;}‘시민안전보험’에 가입되어 있다면, 자연재해나 화재, 대중교통 이용 중 발생한 사고 등에 대한 피해를 보상받을 수 있어요. 개인 보험이 있더라도 중복 보상이 가능해요.\n시민안전보험이란 각종 사고로부터 시민의 생명과 신체 피해를 보상하기 위해 지자체가 자율적으로 가입한 보장제도를 말해요. 이 보험에 가입한 지자체에 거주하는 시민은 별도 절차 없이 자동으로 시민안전보험에 가입돼요.\n나도 모르게 가입된 보험, 보험료를 내야 하냐고요? 아니에요. 보험료는 지자체에서 부담하고 운영은 보험사 또는 공제사에서 담당해요.\n보장내역은 다음과 같아요. 자연재해나 화재, 강도, 스쿨존 사고, 대중교통 이용 중 발생한 사고 등에 대한 피해를 보상받을 수 있어요. 다만 보장 항목과 규모는 지자체가 가입한 보험에 따라 달라요.\n실제 사례를 살펴보면 부산 서구에서는 시내버스가 급회전하면서 시민들이 의자에서 떨어지는 사고로 골절을 당해 1인당 150만 원의 보상을 받았어요. 또 경기 군포시에서는 아파트 인테리어 공사 중 발생한 화재로 목숨을 잃은 시민에게 1,500만 원이 지급되기도 했어요.\n보상 청구는 시민이 직접 해야 해요. 사고가 발생한 뒤 시민안전보험 사고처리 전담 창구에 사고를 접수하면 돼요. 중요한 건 사고 사실을 안 날로부터 3년 이내에 청구해야 한다는 점이에요. 이때 개인적으로 가입한 보험이나 구민안전보험이 있더라도 중복해 보험금을 지급받을 수 있어요.\n다른 지자체나 해외에서 피해를 입은 경우라도 지자체가 이 같은 사고를 보장하는 안전보험에 가입했다면 보상을 받을 수 있어요. 실제로 네팔 해외봉사활동 중 눈사태로 사망한 대전 시민이 시민안전보험으로 2,000만 원의 보험금을 지급받기도 했어요.\n내가 사는 곳의 지자체가 시민안전보험에 가입했는지, 어떤 내용을 보장하는지 궁금하다면 .css-iynyr0{white-space:pre-wrap;cursor:pointer;color:var(--adaptiveGrey600);-webkit-text-decoration:underline!important;text-decoration:underline!important;}국민재난안전포털 웹사이트의 ‘풍수해·시민안전보험-시민안전보험 가입현황조회’을 통해 확인할 수 있어요.\n.css-1ifza5r{border:0;margin-top:0;margin-bottom:0;height:1px;opacity:1;background:var(--tHairlineBackground);margin:0;}\n.css-q3ktjb{white-space:pre-wrap;font-weight:bold;}Edit 이지영 Graphic 조수희 이제현",
-        "content": "보험료는 지자체가 부담, 개인 보험이 있더라도 중복 보상 가능해요.",
-        "contentSnippet": "보험료는 지자체가 부담, 개인 보험이 있더라도 중복 보상 가능해요.",
-        "guid": "https://blog.toss.im/article/money-policies-31",
-        "isoDate": "2024-12-20T01:00:00.000Z"
       }
     ]
   },
