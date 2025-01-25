@@ -34,6 +34,25 @@
     "posts": [
       {
         "creator": "",
+        "title": "Bringing Jetpack Compose to Instagram for Android",
+        "link": "https://engineering.fb.com/2025/01/24/android/bringing-jetpack-compose-to-instagram-for-android/",
+        "pubDate": "Fri, 24 Jan 2025 17:30:53 +0000",
+        "content:encodedSnippet": "Introducing a new Android UI framework like Jetpack Compose into an existing app is more complicated than importing some AARS and coding away. What if your app has specific performance goals to meet? What about existing design components, integrations with navigation, and logging frameworks?\nOn this episode of the Meta Tech Podcast Pascal Hartig is joined by Summer, a software engineer whose team handles large-scale migrations for Instagram. Summer walks through the various thoughtful and intricate phases that Instagram goes through to ensure that developers have the best possible experience when working on our codebases. She also discusses balancing all of this with Meta’s infrastructure teams, who have to maintain multiple implementations at once.\nLearn how Meta approaches the rollout of a new framework and more!\nDownload or listen to the podcast episode below:\n\nSpotify\nApple Podcasts\nPocket Casts\nOvercast\nThe Meta Tech Podcast is a podcast, brought to you by Meta, where we highlight the work Meta’s engineers are doing at every level – from low-level frameworks to end-user features.\nSend us feedback on Instagram, Threads, or X.\nAnd if you’re interested in learning more about career opportunities at Meta visit the Meta Careers page.\nThe post Bringing Jetpack Compose to Instagram for Android appeared first on Engineering at Meta.",
+        "dc:creator": "",
+        "content": "<p>Introducing a new Android UI framework like Jetpack Compose into an existing app is more complicated than importing some AARS and coding away. What if your app has specific performance goals to meet? What about existing design components, integrations with navigation, and logging frameworks? On this episode of the Meta Tech Podcast Pascal Hartig is [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2025/01/24/android/bringing-jetpack-compose-to-instagram-for-android/\">Read More...</a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://engineering.fb.com/2025/01/24/android/bringing-jetpack-compose-to-instagram-for-android/\">Bringing Jetpack Compose to Instagram for Android</a> appeared first on <a rel=\"nofollow\" href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>\n",
+        "contentSnippet": "Introducing a new Android UI framework like Jetpack Compose into an existing app is more complicated than importing some AARS and coding away. What if your app has specific performance goals to meet? What about existing design components, integrations with navigation, and logging frameworks? On this episode of the Meta Tech Podcast Pascal Hartig is [...]\nRead More...\nThe post Bringing Jetpack Compose to Instagram for Android appeared first on Engineering at Meta.",
+        "guid": "https://engineering.fb.com/?p=22155",
+        "categories": [
+          "Android",
+          "Culture",
+          "DevInfra",
+          "Instagram",
+          "Meta Tech Podcast"
+        ],
+        "isoDate": "2025-01-24T17:30:53.000Z"
+      },
+      {
+        "creator": "",
         "title": "How Meta discovers data flows via lineage at scale",
         "link": "https://engineering.fb.com/2025/01/22/security/how-meta-discovers-data-flows-via-lineage-at-scale/",
         "pubDate": "Thu, 23 Jan 2025 05:00:45 +0000",
@@ -82,20 +101,6 @@
           "article"
         ],
         "isoDate": "2025-01-23T08:00:00.000Z"
-      },
-      {
-        "creator": "Christian Herold and Shahram Khadivi",
-        "title": "Scaling Large Language Models for e-Commerce: The Development of a Llama-Based Customized LLM",
-        "link": "https://innovation.ebayinc.com/tech/features/scaling-large-language-models-for-e-commerce-the-development-of-a-llama-based-customized-llm-for-e-commerce/",
-        "pubDate": "Fri, 17 Jan 2025 00:00:00 -0800",
-        "dc:creator": "Christian Herold and Shahram Khadivi",
-        "content": "<div style=\"margin-bottom: 10px;\"><img src=\"https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/FitWzIwMCwxMTZd/Llama-Graphic.jpg?fs=238f37447da3cf46\" width=\"200\" height=\"116\" alt=\"Scaling Large Language Models for e-Commerce: The Development of a Llama-Based Customized LLM\" /></div><div>Third-party LLMs like Llama 3.1 allow us to adapt powerful tools for the e-commerce domain with a mix of eBay and general data to enable our magical AI experiences. </div>",
-        "contentSnippet": "Third-party LLMs like Llama 3.1 allow us to adapt powerful tools for the e-commerce domain with a mix of eBay and general data to enable our magical AI experiences.",
-        "guid": "https://innovation.ebayinc.com/tech/features/scaling-large-language-models-for-e-commerce-the-development-of-a-llama-based-customized-llm-for-e-commerce/",
-        "categories": [
-          "article"
-        ],
-        "isoDate": "2025-01-17T08:00:00.000Z"
       }
     ]
   },
@@ -113,6 +118,26 @@
     "name": "JetBrains: Developer Tools for Professionals and Teams – Company Blog | JetBrains",
     "category": "기업",
     "posts": [
+      {
+        "creator": "Regina Muradova",
+        "title": "JetBrains Academy: Top Courses and Projects of 2024",
+        "link": "https://blog.jetbrains.com/education/2025/01/24/jetbrains-academy-top-courses-and-projects-of-2024/",
+        "pubDate": "Fri, 24 Jan 2025 08:42:41 +0000",
+        "content:encodedSnippet": "This International Day of Education, we’re celebrating that in 2024 over 340,000 new coders joined JetBrains Academy, making our community almost 1.5 million members strong. \nTo mark this impressive milestone, we’re looking back at the most popular JetBrains Academy offerings of 2024 – including JetBrains IDE courses (designed exclusively for IDEs) and Hyperskill projects (available both in-browser and in-IDE). \nLet’s dive in!\nPython\nPython was a favorite topic among JetBrains Academy learners in 2024, and it’s no wonder why! The language is beginner-friendly and widely used in everything from web development to data science. \nIntroduction to Python (In-IDE course)\nOne of JetBrains Academy’s most loved offerings, this course is designed for absolute beginners wanting to learn Python from scratch. With easy-to-follow lessons, you’ll build a solid foundation in coding, understand core concepts, and gain the confidence to explore more advanced Python projects.\n\n\n\n\n100 Days of Code – The Complete Python Pro Bootcamp (In-IDE course) \nThis course by Angela Yu offers a practical way to learn Python by building 100 projects in 100 days. From web apps to automation tools, you’ll gain hands-on experience and develop the skills needed to code professionally.\nHyperskill projects \nFor those looking to build their developer portfolio with real-world projects from Hyperskill, these were the top picks in 2024, each of which was designed to make learning interactive and fun:\nMy First Project with Python – For mastering the basics. \nSimple Chat Bot – For sharpening logical thinking skills.\nZookeeper – For practicing data management.\nFor more advanced learners, the Password Hacker with Python project was a favorite, helping learners practice the skills needed for technical interviews at top tech companies.\nJava\nHyperskill projects \nJava projects in 2024 were all about having fun, overcoming challenges, and building practical skills to kickstart a developer career. Beginners started with My First Project with Java, Simple Chat Bot with Java, and Simple Tic-Tac-Toe. \nTo get a taste of Java, advanced learners programmed a virtual barista with Coffee Machine Simulator with Java.\n\n\n\n\nData Science\nHyperskill projects \nData science continues to be a top choice for our learners, blending analytical thinking with hands-on coding. Explore why our learners love this topic by trying out these projects: Nobel Laureates and House Classification.\nKotlin\nAtomicKotlin (In-IDE-course)\nDesigned for both beginners and experienced programmers, this course contains exercises that accompany the Atomic Kotlin book. You can read an “atom” of information in the book and lock in your understanding of the material by completing the exercises in the course.\n\n\n\n\nKotlin Koans (In-IDE-course)\nThis is an interactive course that helps you practice and understand Kotlin’s syntax, idioms, and core features. If you prefer hands-on problem-solving over lectures, this one’s for you.\nHyperskill projects \nTo update your developer portfolio and to have some fun learning Kotlin, try these popular projects:\nBuild a virtual animal caretaker in Zookeeper. \nCreate your own interactive game with Simple Tic-Tac-Toe. \n\n\n\n\nFrontend\nHyperskill project \nThe Color Guess Game was a hit among frontend enthusiasts. This project is a good opportunity to enhance the skills needed to create an engaging web interface while practicing DOM manipulations, managing user interactions, and controlling game flow with loops and conditions.\n\n\n\n\nRust\nLearn Rust (In-IDE-course)\nLast but not least, this Rust course was at the top of our list. Its hands-on exercises help beginners learn quickly to read and write Rust programs.\nAll in-IDE courses are free of charge, and, as a student, you can get a free license for any JetBrains IDE! \nInterested in learning more? Check out our full course catalog. With over 90 hands-on courses, JetBrains Academy helps you improve your CV, build a standout portfolio, and ace IT interviews. \nHappy learning!\nThe JetBrains Academy team",
+        "dc:creator": "Regina Muradova",
+        "content": "This International Day of Education, we’re celebrating that in 2024 over 340,000 new coders joined JetBrains Academy, making our community almost 1.5 million members strong.  To mark this impressive milestone, we’re looking back at the most popular JetBrains Academy offerings of 2024 – including JetBrains IDE courses (designed exclusively for IDEs) and Hyperskill projects (available [&#8230;]",
+        "contentSnippet": "This International Day of Education, we’re celebrating that in 2024 over 340,000 new coders joined JetBrains Academy, making our community almost 1.5 million members strong.  To mark this impressive milestone, we’re looking back at the most popular JetBrains Academy offerings of 2024 – including JetBrains IDE courses (designed exclusively for IDEs) and Hyperskill projects (available […]",
+        "guid": "https://blog.jetbrains.com/?post_type=education&p=540494",
+        "categories": [
+          "data-science",
+          "jetbrains-academy",
+          "project-based-learning",
+          "python",
+          "frontend",
+          "online-learning"
+        ],
+        "isoDate": "2025-01-24T08:42:41.000Z"
+      },
       {
         "creator": "Olga Bedrina",
         "title": "TeamCity Is Now Available on AWS Marketplace",
@@ -220,7 +245,7 @@
         "title": "Introducing  Perpetual Licenses on JetBrains Marketplace",
         "link": "https://blog.jetbrains.com/platform/2025/01/introducing-perpetual-licenses-on-jetbrains-marketplace/",
         "pubDate": "Tue, 21 Jan 2025 18:11:47 +0000",
-        "content:encodedSnippet": "JetBrains Marketplace provides various licensing models for paid plugins to suit different user preferences. Now, we are introducing a new option that may change how your users purchase your plugins – perpetual licensing.\nLicensing options on JetBrains Marketplace\nThe current licensing schemes available on JetBrains Marketplace include:\nAnnual/monthly subscription without a fallback license: Users can access your plugin only with an active subscription. This model is ideal for ensuring continuous revenue as users need to maintain their subscriptions to keep using the plugin.\nAnnual/monthly subscription with a fallback license: Users receive lifetime access to a specific version of your plugin. Updates and new features are only available with an active subscription. This model strikes a balance between providing long-term value to users and encouraging them to renew their subscriptions.\nThe licensing type (with or without fallback) and billing period (annual/monthly) can be selected under the Sales tab, in the Sales Info section of the plugin page.\nIn addition to the options described above, we are now introducing a perpetual license option. This new license type allows users to make a one-time payment for lifetime access to your plugin, including all future updates. It can be an appealing choice for users who prefer a single upfront payment rather than recurring charges.\n\n\n\n\nHow to implement perpetual licenses\nNow that you can opt for perpetual licensing for your new plugin, the perpetual license will be available as an option when you publish a new plugin on JetBrains Marketplace. \nAlternatively, if you prefer to switch your existing plugin to a perpetual licensing model, you can do so by contacting the JetBrains Marketplace team at marketplace@jetbrains.com. In this scenario, all current customers will automatically receive the perpetual license for free, while new customers will need to purchase it.\nNote that a plugin can currently have only one paid license option: either recurring or perpetual.\nChoosing the best licensing model for your plugin\nThe introduction of the perpetual license gives you more flexibility in how you monetize your plugin. However, it’s essential to consider the implications carefully.\nRevenue stability: While a one-time payment model may attract more users initially, it can lead to less predictable revenue in the long run compared to a subscription model.\nUser satisfaction: Perpetual licenses can increase customer satisfaction, as users appreciate the simplicity and long-term value of a single payment.\nIf you have any questions or need guidance on transitioning to the perpetual license model, feel free to reach out to the Marketplace Support team at marketplace@jetbrains.com.",
+        "content:encodedSnippet": "JetBrains Marketplace provides various licensing models for paid plugins to suit different user preferences. Now, we are introducing a new option that may change how your users purchase your plugins – perpetual licensing.\nLicensing options on JetBrains Marketplace\nThe current licensing schemes available on JetBrains Marketplace include:\nAnnual/monthly subscription without a fallback license: Users can access your plugin only with an active subscription. This model is ideal for ensuring continuous revenue as users need to maintain their subscriptions to keep using the plugin.\nAnnual/monthly subscription with a fallback license: Users receive lifetime access to a specific version of your plugin. Updates and new features are only available with an active subscription. This model strikes a balance between providing long-term value to users and encouraging them to renew their subscriptions.\nThe licensing type (with or without fallback) and billing period (annual/monthly) can be selected under the Sales tab, in the Sales Info section of the plugin page.\nIn addition to the options described above, we are now introducing a perpetual license option. This new license type allows users to make a one-time payment for lifetime access to your plugin, including all future updates. It can be an appealing choice for users who prefer a single upfront payment rather than recurring charges.\n\n\n\n\nHow to implement perpetual licenses\nNow that you can opt for perpetual licensing for your new plugin, the perpetual license will be available as an option when you publish a new plugin on JetBrains Marketplace. \nNote that a plugin can currently have only one paid license option: either recurring or perpetual.\nChoosing the best licensing model for your plugin\nThe introduction of the perpetual license gives you more flexibility in how you monetize your plugin. However, it’s essential to consider the implications carefully.\nRevenue stability: While a one-time payment model may attract more users initially, it can lead to less predictable revenue in the long run compared to a subscription model.\nUser satisfaction: Perpetual licenses can increase customer satisfaction, as users appreciate the simplicity and long-term value of a single payment.\nIf you have any questions or need guidance on transitioning to the perpetual license model, feel free to reach out to the Marketplace Support team at marketplace@jetbrains.com.",
         "dc:creator": "Elena Kerpeleva",
         "content": "JetBrains Marketplace provides various licensing models for paid plugins to suit different user preferences. Now, we are introducing a new option that may change how your users purchase your plugins – perpetual licensing. Licensing options on JetBrains Marketplace The current licensing schemes available on JetBrains Marketplace include: The licensing type (with or without fallback) and [&#8230;]",
         "contentSnippet": "JetBrains Marketplace provides various licensing models for paid plugins to suit different user preferences. Now, we are introducing a new option that may change how your users purchase your plugins – perpetual licensing. Licensing options on JetBrains Marketplace The current licensing schemes available on JetBrains Marketplace include: The licensing type (with or without fallback) and […]",
@@ -299,37 +324,8 @@
           "unreal-engine"
         ],
         "isoDate": "2025-01-20T11:00:47.000Z"
-      },
-      {
-        "creator": "Sasha Ivanova",
-        "title": "The Early Access Program for ReSharper and the .NET Tools 2025.1 Is Here!",
-        "link": "https://blog.jetbrains.com/dotnet/2025/01/17/resharper-2025-1-eap-1/",
-        "pubDate": "Fri, 17 Jan 2025 12:46:31 +0000",
-        "content:encodedSnippet": "We are excited to announce the launch of the Early Access Program (EAP) for the next major release of ReSharper and the .NET Tools! This initial EAP build is now available for download and offers a preview of the upcoming features and enhancements. Your feedback is crucial in helping us refine these updates, so we encourage you to try out the new build and share your thoughts.\nDownload ReSharper 2025.1 EAP 1\n                                                    \nIf you’re new to the Early Access Program, we encourage you to read this blog post where we outline what the program is all about and the benefits you can expect from participating in it.\nNow let’s take a look at the feature highlights of the first preview build!\ndotMemory\ndotMemory is now fully integrated with Visual Studio\nWith the 2025.1 update we’re elevating dotMemory from a standalone companion application to a fully integrated part of your Visual Studio workflow. The integration brings dotMemory’s complete feature set right into your development environment, accessible through the familiar ReSharper | Profile menu.\n\n\n\n\nHere’s how it works\nYou can now start profiling your application, capture memory snapshots, and analyze memory usage patterns without leaving Visual Studio. The dedicated dotMemory tool window gives you instant access to the collected profiling data. The profiling data is shown in the corresponding document tabs.\n\n\n\n\nThe dotMemory workspace inside Visual Studio\nA flashing memory profiling icon appears in the bottom-right corner of the Visual Studio window whenever a profiling session is running. Right-clicking this status bar icon allows you to:\nQuickly stop the current profiling session.\nOpen the dotMemory tool window if it’s not already visible.\n\n\n\n\nThis status bar menu also offers a faster way to access dotMemory than navigating through the main menu (Extensions | ReSharper | Profile | Show dotMemory Profiler), ensuring you can manage profiling sessions with ease. \n\n\n\n\nYou can also find your way to the dotMemory tool window by looking it up using the Search Everywhere action. \nGetting started\nFollow these steps to get started with dotMemory inside Visual Studio:\nInstall the ReSharper 2025.1 EAP 1 build\nGo to Extensions | ReSharper | Profile in the main menu\nChoose your target process or start a new profiling session\nConfigure your profiling parameters and start the profiling session.\nInvestigate the memory usage patterns in the dedicated Analysis tabs in the document window inside Visual Studio.  \nThe integration requires Visual Studio 2019 or later, and all your existing dotMemory workspaces will work seamlessly with the integrated version.\ndotMemory is part of the dotUltimate suite of tools, so if you already have a dotUltimate license, you can start using it right away!\nShould you encounter any issues with using the integrated version of dotMemory, please report them to this issue.\nReSharper C++\nThe 2025.1 EAP 1 build for ReSharper C++ comes with the following improvements:\nCross-platform code enhancements\nImproved support for conditionals with omitted operands. [RSCPP-35483]\nAdded support for the GNU #import directive. [RSCPP-35415]\nAdded support for _Float16, __bf16, and __float128 types. [RSCPP-35004, RSCPP-35814]\nCode editing and navigation\nIf no file with a matching name exists, the Switch header/source feature now suggests files containing symbols from the current file. [RSCPP-36341]\nThe __declspec(property) feature now parses get and put arguments and also supports Rename refactoring for them. [RSCPP-14090]\nCode analysis and formatting\nImproved handling of the Indent class member from access specifier formatter setting in typing assistance for a smoother editing experience. [RSCPP-31862]\nAn inspection has been added to detect redundant forward declarations within a single file. [RSCPP-35102]\nFor the full list of changes included in this build please see our issue tracker.\n[Download the EAP 1 build]\nWe encourage you to download the latest build and explore these new features. Your feedback is invaluable as we continue to refine and improve ReSharper for the upcoming release. Please share your thoughts and suggestions in the comments below or via our issue tracker.",
-        "dc:creator": "Sasha Ivanova",
-        "content": "We are excited to announce the launch of the Early Access Program (EAP) for the next major release of ReSharper and the .NET Tools! This initial EAP build is now available for download and offers a preview of the upcoming features and enhancements. Your feedback is crucial in helping us refine these updates, so we [&#8230;]",
-        "contentSnippet": "We are excited to announce the launch of the Early Access Program (EAP) for the next major release of ReSharper and the .NET Tools! This initial EAP build is now available for download and offers a preview of the upcoming features and enhancements. Your feedback is crucial in helping us refine these updates, so we […]",
-        "guid": "https://blog.jetbrains.com/?post_type=dotnet&p=538158",
-        "categories": [
-          "net-tools",
-          "dotmemory",
-          "resharpercplusplus",
-          "resharper",
-          "resharper-c"
-        ],
-        "isoDate": "2025-01-17T12:46:31.000Z"
       }
     ]
-  },
-  {
-    "name": "Airbnb Engineering & Data Science",
-    "category": "기업",
-    "posts": []
-  },
-  {
-    "name": "PayPal Engineering",
-    "category": "기업",
-    "posts": []
   },
   {
     "name": "Visual Studio Blog",
@@ -465,11 +461,6 @@
     "posts": []
   },
   {
-    "name": "김범진",
-    "category": "개인",
-    "posts": []
-  },
-  {
     "name": "김민서",
     "category": "개인",
     "posts": []
@@ -537,16 +528,6 @@
   },
   {
     "name": "김성준의 린스타트업과 디자인씽킹",
-    "category": "개인",
-    "posts": []
-  },
-  {
-    "name": "권혁우",
-    "category": "개인",
-    "posts": []
-  },
-  {
-    "name": "김준형",
     "category": "개인",
     "posts": []
   },
@@ -646,11 +627,6 @@
     "posts": []
   },
   {
-    "name": "강성훈",
-    "category": "개인",
-    "posts": []
-  },
-  {
     "name": "김만수",
     "category": "개인",
     "posts": []
@@ -673,22 +649,6 @@
           "OS"
         ],
         "isoDate": "2025-01-19T00:00:00.000Z"
-      },
-      {
-        "title": "윈도우도 훌륭한 개발머신이라구",
-        "link": "https://elky84.github.io/2025/01/18/good_dev_os_windows/",
-        "pubDate": "Sat, 18 Jan 2025 00:00:00 +0000",
-        "content": "<h1 id=\"개요\">개요</h1>\n\n<p>한국에서 많은 웹이나 앱 개발자의 많은 수가 맥을 선택하고 있다.</p>\n\n<p>나 역시 2018년 이후 맥을 병행해서 쓰고 있고, 특정한 시기에는 온리 맥도 썼던 입장에서 맥의 장점도 이해하고 공감하는 부분이 있다.</p>\n\n<p>특히 인텔 맥 때의 애매함을 이겨낸 애플 실리콘 칩 이후의 맥은 ARM 데스크탑의 시대를 열었고 그 만족도는 나 역시 체감하고 있다.</p>\n\n<p>M1 맥북 에어는 교체의 필요성을 못느낄 만큼 만족하고 있고, 특히 여행이나 집 안에서 가벼운 코딩이나, 타이핑에서 아주 잘 쓰고 있다.</p>\n\n<p>개인적으로 오래 써오던 리눅스 미니 데스크탑도 맥미니로 교체하고 싶을 정도니 말이다.</p>\n\n<p>나는 게임 개발자로써 살아온 커리어도 길고, 게이머로써의 아이덴티티도 강하다 보니 윈도우가 좋은 측면이 있다.</p>\n\n<p>하지만 개발에서 아쉬움이 있었다면 윈도우를 메인 데스크탑으로 쓸 이유가 없는 상황이다.</p>\n\n<p>이미 맥북만 써서 개발했던 기간도 5년이었고, 맥과 윈도우 (+WSL), 리눅스 데스크탑 OS (노트북으로) 사용한지도 8년이 넘었는데, 사실 어떤 OS를 써도 크게 이질감이 들지 않게 적응한 상황이기 때문이다.</p>\n\n<p>이렇게 다 사용해본 입장에서 종종 나오는 논란에 대해서 이야기해보고자 한다.</p>\n\n<h1 id=\"논란\">논란</h1>\n\n<h2 id=\"맥은-리눅스가-아니다\">맥은 리눅스가 아니다</h2>\n<p>종종 리눅스 서버 개발에 친화적이라는 이야기를 하는 사람을 자주 본다.</p>\n\n<p>맥은 Darwin 커널 기반의 별개의 OS지 리눅스가 아니다.</p>\n\n<p>리눅스 개발 환경과 유사한 점은 유닉스 라이크라고 보는 것이 맞고, 이로 인해 꽤 많은 차이가 나서 동일한 동작을 보장하지 않는다.</p>\n\n<h2 id=\"wsl2\">WSL2</h2>\n\n<p><strong>WSL(Windows Subsystem for Linux)</strong> 은 리눅스 호환률이 macOS보다 더 높은 편이다.</p>\n\n<p>이는 WSL의 구조와 설계 방식이 리눅스와 직접적인데, WSL2는 리눅스 커널을 실제로 실행한다.</p>\n\n<p>WSL1은 에뮬레이션 방식 이었지만, WSL2는 커널이다 커널.</p>\n\n<p>당연히 훨씬 더 높은 호환성을 보여준다.</p>\n<h2 id=\"리눅스-데스크탑은-어때\">리눅스 데스크탑은 어때?</h2>\n\n<p>리눅스 데스크탑을 쓰면 여러가지 지식이 늘어난다.</p>\n\n<p>각종 오류 (…) 발생 시 커맨드 라인 명령어를 써서 해결 해야 되는 상황들, 그리고 부족한 레퍼런스, 정식으로 지원되지 않은 수많은 앱 (다수의 앱이 윈도우나 맥 온리 또는 윈도우와 맥을 지원한다)이 개발자로써의 나를 강하게 성장시켜준다. (강해지고 싶다면 오라)</p>\n\n<h1 id=\"마치며\">마치며</h1>\n\n<p>조만간 리눅스 이야기를 좀 더 하게 되겠지만, 개인적으로 리눅스에 익숙해진 뒤에도 여전히 윈도우를 쓰는 이유에 게임이 무관하지 않다.</p>\n\n<p>다만 콘솔 켜듯이 충분히 윈도우도 스위칭해서 쓸 수 있음에도 개발 머신으로도 쓰는 것은, 철저히 윈도우가 개발 머신으로 훌륭하기 때문이다.</p>\n\n<p>특히 많은 사람들이 불편을 말하는 포인트 대다수가 WSL2+VS Code를 연동하면 해결되는 이슈이기도하고, 윈도우를 사용하면서 발생되는 문제도 과거에 비하면 매우 줄어들기도 했다.</p>\n\n<p>사실 개인적으로는 지금은 많이 해소 됐지만 m1 맥북 넘어오면서 아키텍쳐 변경으로 인한 호환성 이슈가 꽤 길기도 했고, 그러한 문제 이외에도 나는 리눅스 서버 개발에 더 편한 경험을 못했는데, 감안할만한 수준이라는 점은 나 역시 공감한다.</p>\n\n<p>또한 프론트엔드 개발자라면 맥 OS를 쓰면서 겪는 이슈나 문제가 없을 가능성도 높고 맥의 장점 위주로 체감할 확률이 높다는 것 역시 인정하한다.</p>\n\n<p>다만 맥을 써야만 개발이 편하다는 편견 대신 윈도우가 개발 머신으로 부족하거나 문제가 있는게 아니고 충분한 선택지이며, 리눅스 데스크탑도 쓸만하다는 이야기를 하고 싶었다.</p>\n\n",
-        "contentSnippet": "개요\n한국에서 많은 웹이나 앱 개발자의 많은 수가 맥을 선택하고 있다.\n나 역시 2018년 이후 맥을 병행해서 쓰고 있고, 특정한 시기에는 온리 맥도 썼던 입장에서 맥의 장점도 이해하고 공감하는 부분이 있다.\n특히 인텔 맥 때의 애매함을 이겨낸 애플 실리콘 칩 이후의 맥은 ARM 데스크탑의 시대를 열었고 그 만족도는 나 역시 체감하고 있다.\nM1 맥북 에어는 교체의 필요성을 못느낄 만큼 만족하고 있고, 특히 여행이나 집 안에서 가벼운 코딩이나, 타이핑에서 아주 잘 쓰고 있다.\n개인적으로 오래 써오던 리눅스 미니 데스크탑도 맥미니로 교체하고 싶을 정도니 말이다.\n나는 게임 개발자로써 살아온 커리어도 길고, 게이머로써의 아이덴티티도 강하다 보니 윈도우가 좋은 측면이 있다.\n하지만 개발에서 아쉬움이 있었다면 윈도우를 메인 데스크탑으로 쓸 이유가 없는 상황이다.\n이미 맥북만 써서 개발했던 기간도 5년이었고, 맥과 윈도우 (+WSL), 리눅스 데스크탑 OS (노트북으로) 사용한지도 8년이 넘었는데, 사실 어떤 OS를 써도 크게 이질감이 들지 않게 적응한 상황이기 때문이다.\n이렇게 다 사용해본 입장에서 종종 나오는 논란에 대해서 이야기해보고자 한다.\n논란\n맥은 리눅스가 아니다\n종종 리눅스 서버 개발에 친화적이라는 이야기를 하는 사람을 자주 본다.\n맥은 Darwin 커널 기반의 별개의 OS지 리눅스가 아니다.\n리눅스 개발 환경과 유사한 점은 유닉스 라이크라고 보는 것이 맞고, 이로 인해 꽤 많은 차이가 나서 동일한 동작을 보장하지 않는다.\nWSL2\nWSL(Windows Subsystem for Linux) 은 리눅스 호환률이 macOS보다 더 높은 편이다.\n이는 WSL의 구조와 설계 방식이 리눅스와 직접적인데, WSL2는 리눅스 커널을 실제로 실행한다.\nWSL1은 에뮬레이션 방식 이었지만, WSL2는 커널이다 커널.\n당연히 훨씬 더 높은 호환성을 보여준다.\n리눅스 데스크탑은 어때?\n리눅스 데스크탑을 쓰면 여러가지 지식이 늘어난다.\n각종 오류 (…) 발생 시 커맨드 라인 명령어를 써서 해결 해야 되는 상황들, 그리고 부족한 레퍼런스, 정식으로 지원되지 않은 수많은 앱 (다수의 앱이 윈도우나 맥 온리 또는 윈도우와 맥을 지원한다)이 개발자로써의 나를 강하게 성장시켜준다. (강해지고 싶다면 오라)\n마치며\n조만간 리눅스 이야기를 좀 더 하게 되겠지만, 개인적으로 리눅스에 익숙해진 뒤에도 여전히 윈도우를 쓰는 이유에 게임이 무관하지 않다.\n다만 콘솔 켜듯이 충분히 윈도우도 스위칭해서 쓸 수 있음에도 개발 머신으로도 쓰는 것은, 철저히 윈도우가 개발 머신으로 훌륭하기 때문이다.\n특히 많은 사람들이 불편을 말하는 포인트 대다수가 WSL2+VS Code를 연동하면 해결되는 이슈이기도하고, 윈도우를 사용하면서 발생되는 문제도 과거에 비하면 매우 줄어들기도 했다.\n사실 개인적으로는 지금은 많이 해소 됐지만 m1 맥북 넘어오면서 아키텍쳐 변경으로 인한 호환성 이슈가 꽤 길기도 했고, 그러한 문제 이외에도 나는 리눅스 서버 개발에 더 편한 경험을 못했는데, 감안할만한 수준이라는 점은 나 역시 공감한다.\n또한 프론트엔드 개발자라면 맥 OS를 쓰면서 겪는 이슈나 문제가 없을 가능성도 높고 맥의 장점 위주로 체감할 확률이 높다는 것 역시 인정하한다.\n다만 맥을 써야만 개발이 편하다는 편견 대신 윈도우가 개발 머신으로 부족하거나 문제가 있는게 아니고 충분한 선택지이며, 리눅스 데스크탑도 쓸만하다는 이야기를 하고 싶었다.",
-        "guid": "https://elky84.github.io/2025/01/18/good_dev_os_windows/",
-        "categories": [
-          "Windows",
-          "Mac",
-          "Linux",
-          "OS",
-          "OS"
-        ],
-        "isoDate": "2025-01-18T00:00:00.000Z"
       }
     ]
   },
@@ -784,6 +744,17 @@
     "posts": [
       {
         "creator": "고명환",
+        "title": "희망리턴패키지 사업계획서 작성 방법 및 사례 2 - 소상공인",
+        "link": "https://brunch.co.kr/@@LOc/261",
+        "pubDate": "Fri, 24 Jan 2025 01:46:57 GMT",
+        "author": "고명환",
+        "content": "희망리턴패키지 사업은 소상공인의 재창업 및 경영개선을 위한 사업으로 소상공인과 관련된 정부지원사업 중 가장 많은 사업화 자금이 지원됩니다. 소상공인 분들이 평소에 사업계획서를 작성할 일이 없어서 신청에 애로사항이 있기 때문에 이를 조금이나마 도움을 드리고자 사례를 들여서 작성 방법을 설명드리겠습니다. 2번째 목차를 설명하는 포스팅으로 이 전에 포스팅을 먼저<img src= \"https://img1.daumcdn.net/thumb/R1280x0/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fbrunch%2Fservice%2Fuser%2FLOc%2Fimage%2FZYLUskkbBOUvz7rmTRqb7mn4e_Y.jpg\" width=\"500\" />",
+        "contentSnippet": "희망리턴패키지 사업은 소상공인의 재창업 및 경영개선을 위한 사업으로 소상공인과 관련된 정부지원사업 중 가장 많은 사업화 자금이 지원됩니다. 소상공인 분들이 평소에 사업계획서를 작성할 일이 없어서 신청에 애로사항이 있기 때문에 이를 조금이나마 도움을 드리고자 사례를 들여서 작성 방법을 설명드리겠습니다. 2번째 목차를 설명하는 포스팅으로 이 전에 포스팅을 먼저",
+        "guid": "https://brunch.co.kr/@@LOc/261",
+        "isoDate": "2025-01-24T01:46:57.000Z"
+      },
+      {
+        "creator": "고명환",
         "title": "희망리턴패키지 사업계획서 작성 방법 및 사례 1 - 소상공인",
         "link": "https://brunch.co.kr/@@LOc/260",
         "pubDate": "Tue, 21 Jan 2025 04:41:12 GMT",
@@ -803,24 +774,8 @@
         "contentSnippet": "스타트업이 R&D 지원사업에 처음 도전할 때, 많은 시행착오를 겪는 경우가 많습니다. 특히, 예비창업패키지, 청년창업사관학교와 같은 사업과 혼돈해 R&D 지원사업을 진행하는 경우가 많은 데 성격이 매우 다른 사업인만큼 과제를 성공적으로 수행하기 위해서는 주요 실수를 미리 파악하고 방지하는 것이 중요합니다.   1. 목표 설정의 불명확성  1) 실수  많은",
         "guid": "https://brunch.co.kr/@@LOc/259",
         "isoDate": "2025-01-20T01:48:48.000Z"
-      },
-      {
-        "creator": "고명환",
-        "title": "R&amp;D 성능지표 선정 시 주의할 점 및 참고 웹사이트 - 스타트",
-        "link": "https://brunch.co.kr/@@LOc/258",
-        "pubDate": "Fri, 17 Jan 2025 02:00:06 GMT",
-        "author": "고명환",
-        "content": "R&amp;D 지원사업에서 '성능지표'는 과제의 성공 가능성을 평가하는 중요한 기준입니다. 성능지표를 잘 선정하면 사업계획서 평가에서 긍정적인 영향을 줄 뿐 아니라, 과제 종료 후 성과를 명확히 입증할 수 있습니다. 아래는 성능지표 선정 시 주의할 점과 참고할만한 웹사이트를 정리하였습니다   1. 성능지표 선정 시 주의할 점  가. 구체적이고 측정 가능해야 함(S<img src= \"https://img1.daumcdn.net/thumb/R1280x0/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fbrunch%2Fservice%2Fuser%2FLOc%2Fimage%2FqsgCb0yPb3Am8ZuXSfVlR2DoHf0.jpg\" width=\"500\" />",
-        "contentSnippet": "R&D 지원사업에서 '성능지표'는 과제의 성공 가능성을 평가하는 중요한 기준입니다. 성능지표를 잘 선정하면 사업계획서 평가에서 긍정적인 영향을 줄 뿐 아니라, 과제 종료 후 성과를 명확히 입증할 수 있습니다. 아래는 성능지표 선정 시 주의할 점과 참고할만한 웹사이트를 정리하였습니다   1. 성능지표 선정 시 주의할 점  가. 구체적이고 측정 가능해야 함(S",
-        "guid": "https://brunch.co.kr/@@LOc/258",
-        "isoDate": "2025-01-17T02:00:06.000Z"
       }
     ]
-  },
-  {
-    "name": "강성희",
-    "category": "개인",
-    "posts": []
   },
   {
     "name": "강병수",
@@ -940,27 +895,6 @@
           "키워드 지속 유지법"
         ],
         "isoDate": "2025-01-20T00:25:33.000Z"
-      },
-      {
-        "creator": "어떤오후의 프리웨어 이야기",
-        "title": "AI 노트북 고민 끝!: 에이서 스위프트 16 AI",
-        "link": "http://muzbox.tistory.com/483527",
-        "pubDate": "Fri, 17 Jan 2025 09:54:33 +0900",
-        "author": "어떤오후의 프리웨어 이야기",
-        "comments": "http://muzbox.tistory.com/483527#entry483527comment",
-        "content": "<p data-ke-size=\"size16\">&nbsp;요즘 AI 기술이 빠르게 발전하면서 관련 작업에 적합한 노트북을 찾는 일이 점점 더 중요해지고 있어요.</p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-filename=\"에이서 스위프트 16 AI 노트북 리뷰.jpg\" data-origin-width=\"775\" data-origin-height=\"460\"><span data-url=\"https://blog.kakaocdn.net/dn/bzu9UO/btsLQi1GVls/ad4Uf2qqMXKq5EYMVfb0X0/img.jpg\" data-phocus=\"https://blog.kakaocdn.net/dn/bzu9UO/btsLQi1GVls/ad4Uf2qqMXKq5EYMVfb0X0/img.jpg\"><img src=\"https://blog.kakaocdn.net/dn/bzu9UO/btsLQi1GVls/ad4Uf2qqMXKq5EYMVfb0X0/img.jpg\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbzu9UO%2FbtsLQi1GVls%2Fad4Uf2qqMXKq5EYMVfb0X0%2Fimg.jpg\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" alt=\"AI 노트북 고민 끝!: 에이서 스위프트 16 AI\" loading=\"lazy\" width=\"700\" height=\"415\" data-filename=\"에이서 스위프트 16 AI 노트북 리뷰.jpg\" data-origin-width=\"775\" data-origin-height=\"460\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;저도 비슷한 고민을 하던 중에 우연히 <b>에이서 스위프트 16 AI</b>를 발견하게 되었는데요. 단순히 \"AI 기술에 적합하다\"를 넘어서, <b>성능, 디자인, 휴대성, 배터리 지속 시간</b>까지 어느 하나 빠지지 않는 제품이더라고요. 그래서 오늘은 이 노트북의 각 특징을 구체적으로 살펴보며, 여러분께 추천드리고자 합니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">1️⃣ <b>최신 인텔 코어 울트라 7로 AI 작업에 최적화된 퍼포먼스</b></h2>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"773\" data-origin-height=\"614\"><span data-url=\"https://blog.kakaocdn.net/dn/bP9iqF/btsLPQEv2Xr/HmVQ0mgk7sqqFVnxURYoDK/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/bP9iqF/btsLPQEv2Xr/HmVQ0mgk7sqqFVnxURYoDK/img.png\"><img src=\"https://blog.kakaocdn.net/dn/bP9iqF/btsLPQEv2Xr/HmVQ0mgk7sqqFVnxURYoDK/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbP9iqF%2FbtsLPQEv2Xr%2FHmVQ0mgk7sqqFVnxURYoDK%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" alt=\"에이서 스위프트 16 AI CPU\" loading=\"lazy\" width=\"773\" height=\"614\" data-origin-width=\"773\" data-origin-height=\"614\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\"><b>에이서 스위프트 16 AI</b>가 특별히 주목받는 이유 중 하나는 최신형 <b>인텔 코어 울트라 7 258V 프로세서</b> 덕분이에요. 이 CPU는 일반적인 프로세서 성능 개선을 넘어, <b>AI 작업에 특화된 전용 하드웨어</b>를 탑재하고 있습니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">우선, 이 프로세서의 가장 큰 특징은 <b>NPU(신경망 처리 장치)</b>예요. 기존 CPU는 모든 작업을 동일한 프로세서 코어에서 처리했지만, 이 제품은 AI 연산을 NPU가 전담합니다. 예를 들어, 머신러닝 모델을 훈련시키거나 데이터 분석 작업을 수행할 때, NPU가 따로 일을 처리하기 때문에 작업 속도가 기존 프로세서 대비 월등히 빠르고 효율적이에요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">또한, <b>47TOPS(초당 연산 트릴리언 회수)</b>라는 AI 연산 성능은 복잡한 딥러닝 연산이나 대규모 시뮬레이션을 부드럽게 처리할 수 있는 수준입니다. 이 정도 성능은 데이터 과학자, AI 연구원, 개발자들이 주로 사용하는 고성능 워크스테이션과도 견줄 만하다고 할 수 있어요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">여기에 더해, 이 CPU는 전력 효율성이 뛰어나서 배터리 소모를 줄이면서도 고성능을 유지할 수 있습니다. 예를 들어, AI 기반 앱을 장시간 실행하더라도 발열과 배터리 문제가 크게 줄어든다는 점은 정말 매력적이에요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">2️⃣ <b>Intel Arc 140V 그래픽으로 AI와 비주얼 작업을 한 번에</b></h2>\n<p data-ke-size=\"size16\">AI 작업은 그래픽 성능과도 밀접한 연관이 있죠. 특히 데이터 시각화, 영상 편집, 3D 모델링 같은 고사양 작업은 CPU와 GPU의 조화가 중요합니다. 에이서 스위프트 16 AI는 <b>Intel Arc 140V 그래픽 카드</b>를 탑재해 이 두 가지를 완벽히 충족시켜 줍니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">이 그래픽 카드는 머신러닝 모델의 시각화 작업이나 대규모 데이터 처리 시 병렬 연산 성능을 극대화해줍니다. 예를 들어, 딥러닝 모델의 훈련 과정을 시각적으로 확인하거나 복잡한 데이터 분석 결과를 시뮬레이션할 때, 기존 대비 훨씬 빠르고 정확하게 결과를 얻을 수 있어요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">그래픽 성능이 뛰어난 덕분에, 영상 편집자나 디자이너처럼 고사양 작업이 잦은 분들에게도 큰 도움이 됩니다. <b>최대 1.5배 향상된 그래픽 처리 능력</b>은 4K 이상의 고해상도 영상 작업이나 3D 렌더링 프로젝트를 더욱 빠르게 처리할 수 있게 해줍니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">또한, 이 제품은 게이머들에게도 매력적입니다. 고사양 게임에서 요구하는 그래픽 처리량을 안정적으로 처리할 수 있어서, 업무와 오락 모두를 만족시킬 수 있는 만능형 노트북이에요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<div class=\"product-details-button-wrapper\">\n    <style>\n        .product-details-button-wrapper .button-container {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            padding: 20px 0;\n        }\n        .product-details-button-wrapper .product-details-button {\n            width: 600px;\n            height: 80px; /* 높이를 줄임 */\n            font-family: '맑은 고딕', 'Malgun Gothic', sans-serif;\n            font-weight: bold;\n            font-size: 28px; /* 글자 크기를 키움 */\n            color: white;\n            background: linear-gradient(145deg, #ff6b6b, #ee5253);\n            border: 4px solid #c0392b;\n            border-radius: 15px;\n            cursor: pointer;\n            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n            transition: all 0.3s ease;\n            overflow: hidden;\n            position: relative;\n            display: flex; /* 추가 */\n            justify-content: center; /* 추가 */\n            align-items: center; /* 추가 */\n        }\n        .product-details-button-wrapper .product-details-button:hover {\n            transform: scale(1.05);\n            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);\n        }\n        .product-details-button-wrapper .button-text {\n            position: relative;\n            z-index: 1;\n            animation: sparkle 1.5s infinite;\n        }\n        @keyframes sparkle {\n            0%, 100% { opacity: 1; }\n            50% { opacity: 0.7; }\n        }\n    </style>\n    <div class=\"button-container\">\n        <button class=\"product-details-button\">\n            <span class=\"button-text\">제품 상세 정보는 여기를 클릭하세요</span>\n        </button>\n    </div>\n    <script>\n        (function() {\n            var wrapper = document.currentScript.closest('.product-details-button-wrapper');\n            var button = wrapper.querySelector('.product-details-button');\n            // URL을 여기에 삽입하세요\n            var productDetailsUrl = \"https://link.coupang.com/a/cafzqG\";\n            button.addEventListener(\"click\", function() {\n                window.open(productDetailsUrl, '_self');\n            });\n        })();\n    </script>\n    <p style=\"text-align: center;\" data-ke-size=\"size14\"><span style=\"background-color: #ffffff; color: #0f0f0f; text-align: start;\">&lt;이 기사는 쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다.&gt;</span></p>\n</div>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">3️⃣ <b>초경량 디자인으로 휴대성과 편리함을 모두 잡다</b></h2>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"774\" data-origin-height=\"616\"><span data-url=\"https://blog.kakaocdn.net/dn/oznVM/btsLO8TfwWM/Q6Sk17gauKQJU2ONeW9cik/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/oznVM/btsLO8TfwWM/Q6Sk17gauKQJU2ONeW9cik/img.png\"><img src=\"https://blog.kakaocdn.net/dn/oznVM/btsLO8TfwWM/Q6Sk17gauKQJU2ONeW9cik/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoznVM%2FbtsLO8TfwWM%2FQ6Sk17gauKQJU2ONeW9cik%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" alt=\"에이서 스위프트 16 AI 디자인\" loading=\"lazy\" width=\"774\" height=\"616\" data-origin-width=\"774\" data-origin-height=\"616\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">노트북을 선택할 때 휴대성이 중요한 분들이 많으실 텐데요. 특히 매일같이 들고 다니는 직장인이나 학생들에게 <b>가벼운 무게와 슬림한 디자인</b>은 필수 조건이죠. 에이서 스위프트 16 AI는 <b>1.46kg</b>의 초경량 무게와 <b>15.95mm의 얇은 두께</b>로 휴대성을 극대화했어요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">가방에 넣고 다녀도 부담스럽지 않은 무게와 디자인 덕분에, 외근이 잦은 직장인이나 이동 중 작업이 많은 프리랜서들에게 특히 유용합니다. 더불어, <b>180도 힌지</b>가 적용되어 회의 중 다른 사람과 화면을 쉽게 공유하거나, 여러 각도로 화면을 조정하며 편리하게 작업할 수 있어요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">여기에 넓은 터치패드는 세밀한 작업이 필요할 때 큰 도움을 줍니다. 터치패드의 감도와 크기는 사용자의 편의성을 크게 좌우하는데, 이 제품은 그런 점에서도 아주 잘 설계되었어요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">4️⃣ <b>생산성을 높이는 16인치 WQXGA+ 디스플레이</b></h2>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"775\" data-origin-height=\"767\"><span data-url=\"https://blog.kakaocdn.net/dn/bbM2Ec/btsLQPYYSgC/4cjtK5e4D8mC0YknzNG8P1/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/bbM2Ec/btsLQPYYSgC/4cjtK5e4D8mC0YknzNG8P1/img.png\"><img src=\"https://blog.kakaocdn.net/dn/bbM2Ec/btsLQPYYSgC/4cjtK5e4D8mC0YknzNG8P1/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbbM2Ec%2FbtsLQPYYSgC%2F4cjtK5e4D8mC0YknzNG8P1%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" alt=\"에이서 스위프트 16 AI 디스플레이\" loading=\"lazy\" width=\"775\" height=\"767\" data-origin-width=\"775\" data-origin-height=\"767\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">노트북 화면은 단순히 크기만 중요한 게 아니라, 해상도와 화면 비율도 생산성에 큰 영향을 미쳐요. <b>에이서 스위프트 16 AI</b>의 <b>16인치 WQXGA+ 디스플레이</b>는 그런 면에서 최고의 선택이에요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\"><b>2880x1800 해상도</b>는 텍스트, 이미지, 영상 모두를 선명하게 표현해주며, 세부적인 작업에서도 왜곡 없이 명확한 화면을 제공합니다. 특히, 해상도가 높으면 영상 편집이나 그래픽 작업에서 작은 디테일까지 확인할 수 있어 작업 효율이 크게 높아집니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">또한, <b>16:10 화면 비율</b>은 기존 16:9 비율보다 더 넓은 작업 공간을 제공해 여러 창을 띄워도 답답하지 않아요. 이 비율은 멀티태스킹 작업에 최적화되어 있어, 영상 편집자나 코딩 작업을 하는 분들에게 특히 유용합니다.</p>\n<p data-ke-size=\"size16\"><b>120Hz 주사율</b>은 화면 전환이 빠르고 부드러워 눈의 피로를 줄여줍니다. 특히, 그래픽 디자인이나 사진 보정 작업 중 미세한 화면 움직임이 필요할 때 이 기능이 크게 도움됩니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">5️⃣ <b>강력한 배터리로 하루 종일 충전 걱정 없이</b></h2>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"772\" data-origin-height=\"652\"><span data-url=\"https://blog.kakaocdn.net/dn/bqu3mm/btsLP4CBYQY/7GKn2GczR3lAKqaRpkiNJ0/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/bqu3mm/btsLP4CBYQY/7GKn2GczR3lAKqaRpkiNJ0/img.png\"><img src=\"https://blog.kakaocdn.net/dn/bqu3mm/btsLP4CBYQY/7GKn2GczR3lAKqaRpkiNJ0/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbqu3mm%2FbtsLP4CBYQY%2F7GKn2GczR3lAKqaRpkiNJ0%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" alt=\"에이서 스위프트 16 AI 배터리\" loading=\"lazy\" width=\"772\" height=\"652\" data-origin-width=\"772\" data-origin-height=\"652\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">긴 배터리 지속 시간은 외부에서 장시간 작업해야 하는 사용자들에게 필수 조건이죠. 에이서 스위프트 16 AI는 <b>70Wh 배터리</b>를 탑재해 하루 종일 충전 걱정 없이 사용할 수 있어요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">비디오 재생 기준으로 <b>최대 20시간</b>, 일반 작업 기준으로 <b>17.5시간</b>, 웹 브라우징 기준으로 <b>13.5시간</b>까지 사용 가능합니다. 충전기를 따로 들고 다니지 않아도, 배터리가 오래 지속되니 가벼운 마음으로 이동할 수 있어요.</p>\n<p data-ke-size=\"size16\">특히, 출장이나 야외 촬영이 많은 분들에게 이 배터리 성능은 큰 장점으로 다가올 거예요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<div class=\"product-details-button-wrapper\">\n    <style>\n        .product-details-button-wrapper .button-container {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            padding: 20px 0;\n        }\n        .product-details-button-wrapper .product-details-button {\n            width: 600px;\n            height: 80px; /* 높이를 줄임 */\n            font-family: '맑은 고딕', 'Malgun Gothic', sans-serif;\n            font-weight: bold;\n            font-size: 28px; /* 글자 크기를 키움 */\n            color: white;\n            background: linear-gradient(145deg, #ff6b6b, #ee5253);\n            border: 4px solid #c0392b;\n            border-radius: 15px;\n            cursor: pointer;\n            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n            transition: all 0.3s ease;\n            overflow: hidden;\n            position: relative;\n            display: flex; /* 추가 */\n            justify-content: center; /* 추가 */\n            align-items: center; /* 추가 */\n        }\n        .product-details-button-wrapper .product-details-button:hover {\n            transform: scale(1.05);\n            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);\n        }\n        .product-details-button-wrapper .button-text {\n            position: relative;\n            z-index: 1;\n            animation: sparkle 1.5s infinite;\n        }\n        @keyframes sparkle {\n            0%, 100% { opacity: 1; }\n            50% { opacity: 0.7; }\n        }\n    </style>\n    <div class=\"button-container\">\n        <button class=\"product-details-button\">\n            <span class=\"button-text\">제품 상세 정보는 여기를 클릭하세요</span>\n        </button>\n    </div>\n    <script>\n        (function() {\n            var wrapper = document.currentScript.closest('.product-details-button-wrapper');\n            var button = wrapper.querySelector('.product-details-button');\n            // URL을 여기에 삽입하세요\n            var productDetailsUrl = \"https://link.coupang.com/a/cafzqG\";\n            button.addEventListener(\"click\", function() {\n                window.open(productDetailsUrl, '_self');\n            });\n        })();\n    </script>\n    <p style=\"text-align: center;\" data-ke-size=\"size14\"><span style=\"background-color: #ffffff; color: #0f0f0f; text-align: start;\">&lt;이 기사는 쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다.&gt;</span></p>\n</div>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">6️⃣ <b>Windows 11과 Copilot으로 AI 활용을 극대화</b></h2>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"757\" data-origin-height=\"703\"><span data-url=\"https://blog.kakaocdn.net/dn/bLNDWm/btsLRpMaSEW/PHaTwgUzuZmNKCmVYu0Hg1/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/bLNDWm/btsLRpMaSEW/PHaTwgUzuZmNKCmVYu0Hg1/img.png\"><img src=\"https://blog.kakaocdn.net/dn/bLNDWm/btsLRpMaSEW/PHaTwgUzuZmNKCmVYu0Hg1/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLNDWm%2FbtsLRpMaSEW%2FPHaTwgUzuZmNKCmVYu0Hg1%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" alt=\"에이서 스위프트 16 AI 코파일럿\" loading=\"lazy\" width=\"757\" height=\"703\" data-origin-width=\"757\" data-origin-height=\"703\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;AI 소프트웨어를 제대로 활용하려면 운영 체제와의 조화가 중요한데요, 에이서 스위프트 16 AI는 최신 <b>Windows 11</b>에 포함된 <b>Copilot</b> 기능을 탑재해 작업 효율을 극대화합니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">Copilot은 번역, 문서 분석, PDF 요약, 웹 검색 같은 다양한 작업을 AI 기반으로 더 빠르고 정확하게 처리할 수 있게 도와줍니다. 여기에 <b>AcerSense</b>가 추가돼 시스템 최적화와 성능 관리까지 자동으로 이루어지니, 사용자 입장에서는 더 편리하죠.</p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"784\" data-origin-height=\"602\"><span data-url=\"https://blog.kakaocdn.net/dn/GsI8g/btsLQt9S2u4/ydyzhKseBDe6hI4HZJRMuk/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/GsI8g/btsLQt9S2u4/ydyzhKseBDe6hI4HZJRMuk/img.png\"><img src=\"https://blog.kakaocdn.net/dn/GsI8g/btsLQt9S2u4/ydyzhKseBDe6hI4HZJRMuk/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGsI8g%2FbtsLQt9S2u4%2FydyzhKseBDe6hI4HZJRMuk%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" alt=\"에이서 스위프트 16 AI 카메라\" loading=\"lazy\" width=\"784\" height=\"602\" data-origin-width=\"784\" data-origin-height=\"602\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;또한, <b>1440p QHD 카메라</b>와 <b>AI 기반 Windows Studio Effects</b> 기능이 더해져 화상회의나 온라인 학습에서도 탁월한 품질을 제공합니다. 배경 흐림, 자동 프레이밍, 아이컨택 같은 기능은 화상 통화 중 더 자연스럽고 편리한 경험을 선사합니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">7️⃣ <b>튼튼한 내구성과 다양한 연결 옵션으로 완벽한 호환성 제공</b></h2>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"769\" data-origin-height=\"649\"><span data-url=\"https://blog.kakaocdn.net/dn/cRyruq/btsLP7zekvo/NQyMLvkKkE6uYRZ4uCUk8k/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/cRyruq/btsLP7zekvo/NQyMLvkKkE6uYRZ4uCUk8k/img.png\"><img src=\"https://blog.kakaocdn.net/dn/cRyruq/btsLP7zekvo/NQyMLvkKkE6uYRZ4uCUk8k/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcRyruq%2FbtsLP7zekvo%2FNQyMLvkKkE6uYRZ4uCUk8k%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" alt=\"에이서 스위프트 16 AI 내구성\" loading=\"lazy\" width=\"769\" height=\"649\" data-origin-width=\"769\" data-origin-height=\"649\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">노트북의 내구성은 장기적인 사용을 보장하는 중요한 요소인데요, 이 제품은 <b>MIL-STD-810G 인증</b>을 받아 다양한 환경에서도 안정적으로 사용할 수 있어요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">포트 구성도 완벽합니다. <b>Thunderbolt&trade; 4</b>, <b>USB 3.2 Gen1</b>, <b>HDMI 2.1</b> 등의 포트를 지원해 다양한 외부 장치와 연결이 가능합니다. 이 정도 연결 옵션이면 업무 환경이 훨씬 더 유연해질 거예요.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h3 data-ke-size=\"size23\"><b>결론: AI 노트북의 새로운 기준, 지금 바로 선택하세요!</b></h3>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"775\" data-origin-height=\"588\"><span data-url=\"https://blog.kakaocdn.net/dn/B8nOH/btsLRFOSUhk/xtsnbs1aczMioyiKeosvO0/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/B8nOH/btsLRFOSUhk/xtsnbs1aczMioyiKeosvO0/img.png\"><img src=\"https://blog.kakaocdn.net/dn/B8nOH/btsLRFOSUhk/xtsnbs1aczMioyiKeosvO0/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FB8nOH%2FbtsLRFOSUhk%2Fxtsnbs1aczMioyiKeosvO0%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" alt=\"에이서 스위프트 16 AI 제원\" loading=\"lazy\" width=\"775\" height=\"588\" data-origin-width=\"775\" data-origin-height=\"588\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\"><b>&nbsp;에이서 스위프트 16 AI</b>는 AI 기술을 제대로 활용하면서도, <b>성능, 디스플레이, 휴대성, 배터리</b>까지 완벽한 균형을 갖춘 제품이에요. 특히, 가격대비 뛰어난 성능 덕분에 가성비를 중시하는 사용자들에게 정말 좋은 선택이 될 거예요.<br /><br /></p>\n<p data-ke-size=\"size16\">최신 AI 기술을 활용해 생산성과 창의성을 높이고 싶으시다면, 더 이상 고민할 필요 없이 이 제품을 선택해 보세요.  ✨</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<div class=\"product-details-button-wrapper\">\n    <style>\n        .product-details-button-wrapper .button-container {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            padding: 20px 0;\n        }\n        .product-details-button-wrapper .product-details-button {\n            width: 600px;\n            height: 80px; /* 높이를 줄임 */\n            font-family: '맑은 고딕', 'Malgun Gothic', sans-serif;\n            font-weight: bold;\n            font-size: 28px; /* 글자 크기를 키움 */\n            color: white;\n            background: linear-gradient(145deg, #ff6b6b, #ee5253);\n            border: 4px solid #c0392b;\n            border-radius: 15px;\n            cursor: pointer;\n            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n            transition: all 0.3s ease;\n            overflow: hidden;\n            position: relative;\n            display: flex; /* 추가 */\n            justify-content: center; /* 추가 */\n            align-items: center; /* 추가 */\n        }\n        .product-details-button-wrapper .product-details-button:hover {\n            transform: scale(1.05);\n            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);\n        }\n        .product-details-button-wrapper .button-text {\n            position: relative;\n            z-index: 1;\n            animation: sparkle 1.5s infinite;\n        }\n        @keyframes sparkle {\n            0%, 100% { opacity: 1; }\n            50% { opacity: 0.7; }\n        }\n    </style>\n    <div class=\"button-container\">\n        <button class=\"product-details-button\">\n            <span class=\"button-text\">제품 상세 정보는 여기를 클릭하세요</span>\n        </button>\n    </div>\n    <script>\n        (function() {\n            var wrapper = document.currentScript.closest('.product-details-button-wrapper');\n            var button = wrapper.querySelector('.product-details-button');\n            // URL을 여기에 삽입하세요\n            var productDetailsUrl = \"https://link.coupang.com/a/cafzqG\";\n            button.addEventListener(\"click\", function() {\n                window.open(productDetailsUrl, '_self');\n            });\n        })();\n    </script>\n    <p style=\"text-align: center;\" data-ke-size=\"size14\"><span style=\"background-color: #ffffff; color: #0f0f0f; text-align: start;\">&lt;이 기사는 쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다.&gt;</span></p>\n</div>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"kakaotv\" data-video-url=\"https://tv.kakao.com/v/452396312\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/cEcAWC/hyX4nobXQb/BDmOOzuWlZXNdDr55YWw61/img.jpg?width=776&amp;height=442&amp;face=156_72_358_292,https://scrap.kakaocdn.net/dn/bj53RV/hyX0v9fYkz/yPQayThp8U0KkfXVUR2CG1/img.jpg?width=776&amp;height=442&amp;face=156_72_358_292\" data-video-width=\"776\" data-video-height=\"442\" data-video-origin-width=\"776\" data-video-origin-height=\"442\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"'어떤오후의 프리웨..'에서 업로드한 동영상\" data-video-play-service=\"daum_tistory\" data-original-url=\"\"><iframe src=\"https://play-tv.kakao.com/embed/player/cliplink/452396312?service=daum_tistory\" width=\"776\" height=\"442\" frameborder=\"0\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>",
-        "contentSnippet": "요즘 AI 기술이 빠르게 발전하면서 관련 작업에 적합한 노트북을 찾는 일이 점점 더 중요해지고 있어요.\n\n\n \n 저도 비슷한 고민을 하던 중에 우연히 에이서 스위프트 16 AI를 발견하게 되었는데요. 단순히 \"AI 기술에 적합하다\"를 넘어서, 성능, 디자인, 휴대성, 배터리 지속 시간까지 어느 하나 빠지지 않는 제품이더라고요. 그래서 오늘은 이 노트북의 각 특징을 구체적으로 살펴보며, 여러분께 추천드리고자 합니다.\n \n \n1️⃣ 최신 인텔 코어 울트라 7로 AI 작업에 최적화된 퍼포먼스\n\n\n \n에이서 스위프트 16 AI가 특별히 주목받는 이유 중 하나는 최신형 인텔 코어 울트라 7 258V 프로세서 덕분이에요. 이 CPU는 일반적인 프로세서 성능 개선을 넘어, AI 작업에 특화된 전용 하드웨어를 탑재하고 있습니다.\n \n우선, 이 프로세서의 가장 큰 특징은 NPU(신경망 처리 장치)예요. 기존 CPU는 모든 작업을 동일한 프로세서 코어에서 처리했지만, 이 제품은 AI 연산을 NPU가 전담합니다. 예를 들어, 머신러닝 모델을 훈련시키거나 데이터 분석 작업을 수행할 때, NPU가 따로 일을 처리하기 때문에 작업 속도가 기존 프로세서 대비 월등히 빠르고 효율적이에요.\n \n또한, 47TOPS(초당 연산 트릴리언 회수)라는 AI 연산 성능은 복잡한 딥러닝 연산이나 대규모 시뮬레이션을 부드럽게 처리할 수 있는 수준입니다. 이 정도 성능은 데이터 과학자, AI 연구원, 개발자들이 주로 사용하는 고성능 워크스테이션과도 견줄 만하다고 할 수 있어요.\n \n여기에 더해, 이 CPU는 전력 효율성이 뛰어나서 배터리 소모를 줄이면서도 고성능을 유지할 수 있습니다. 예를 들어, AI 기반 앱을 장시간 실행하더라도 발열과 배터리 문제가 크게 줄어든다는 점은 정말 매력적이에요.\n \n \n2️⃣ Intel Arc 140V 그래픽으로 AI와 비주얼 작업을 한 번에\nAI 작업은 그래픽 성능과도 밀접한 연관이 있죠. 특히 데이터 시각화, 영상 편집, 3D 모델링 같은 고사양 작업은 CPU와 GPU의 조화가 중요합니다. 에이서 스위프트 16 AI는 Intel Arc 140V 그래픽 카드를 탑재해 이 두 가지를 완벽히 충족시켜 줍니다.\n \n이 그래픽 카드는 머신러닝 모델의 시각화 작업이나 대규모 데이터 처리 시 병렬 연산 성능을 극대화해줍니다. 예를 들어, 딥러닝 모델의 훈련 과정을 시각적으로 확인하거나 복잡한 데이터 분석 결과를 시뮬레이션할 때, 기존 대비 훨씬 빠르고 정확하게 결과를 얻을 수 있어요.\n \n그래픽 성능이 뛰어난 덕분에, 영상 편집자나 디자이너처럼 고사양 작업이 잦은 분들에게도 큰 도움이 됩니다. 최대 1.5배 향상된 그래픽 처리 능력은 4K 이상의 고해상도 영상 작업이나 3D 렌더링 프로젝트를 더욱 빠르게 처리할 수 있게 해줍니다.\n \n또한, 이 제품은 게이머들에게도 매력적입니다. 고사양 게임에서 요구하는 그래픽 처리량을 안정적으로 처리할 수 있어서, 업무와 오락 모두를 만족시킬 수 있는 만능형 노트북이에요.\n \n제품 상세 정보는 여기를 클릭하세요\n        \n    \n<이 기사는 쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다.>\n \n3️⃣ 초경량 디자인으로 휴대성과 편리함을 모두 잡다\n\n\n노트북을 선택할 때 휴대성이 중요한 분들이 많으실 텐데요. 특히 매일같이 들고 다니는 직장인이나 학생들에게 가벼운 무게와 슬림한 디자인은 필수 조건이죠. 에이서 스위프트 16 AI는 1.46kg의 초경량 무게와 15.95mm의 얇은 두께로 휴대성을 극대화했어요.\n \n가방에 넣고 다녀도 부담스럽지 않은 무게와 디자인 덕분에, 외근이 잦은 직장인이나 이동 중 작업이 많은 프리랜서들에게 특히 유용합니다. 더불어, 180도 힌지가 적용되어 회의 중 다른 사람과 화면을 쉽게 공유하거나, 여러 각도로 화면을 조정하며 편리하게 작업할 수 있어요.\n \n여기에 넓은 터치패드는 세밀한 작업이 필요할 때 큰 도움을 줍니다. 터치패드의 감도와 크기는 사용자의 편의성을 크게 좌우하는데, 이 제품은 그런 점에서도 아주 잘 설계되었어요.\n \n \n4️⃣ 생산성을 높이는 16인치 WQXGA+ 디스플레이\n\n\n \n노트북 화면은 단순히 크기만 중요한 게 아니라, 해상도와 화면 비율도 생산성에 큰 영향을 미쳐요. 에이서 스위프트 16 AI의 16인치 WQXGA+ 디스플레이는 그런 면에서 최고의 선택이에요.\n \n2880x1800 해상도는 텍스트, 이미지, 영상 모두를 선명하게 표현해주며, 세부적인 작업에서도 왜곡 없이 명확한 화면을 제공합니다. 특히, 해상도가 높으면 영상 편집이나 그래픽 작업에서 작은 디테일까지 확인할 수 있어 작업 효율이 크게 높아집니다.\n \n또한, 16:10 화면 비율은 기존 16:9 비율보다 더 넓은 작업 공간을 제공해 여러 창을 띄워도 답답하지 않아요. 이 비율은 멀티태스킹 작업에 최적화되어 있어, 영상 편집자나 코딩 작업을 하는 분들에게 특히 유용합니다.\n120Hz 주사율은 화면 전환이 빠르고 부드러워 눈의 피로를 줄여줍니다. 특히, 그래픽 디자인이나 사진 보정 작업 중 미세한 화면 움직임이 필요할 때 이 기능이 크게 도움됩니다.\n \n \n5️⃣ 강력한 배터리로 하루 종일 충전 걱정 없이\n\n\n \n긴 배터리 지속 시간은 외부에서 장시간 작업해야 하는 사용자들에게 필수 조건이죠. 에이서 스위프트 16 AI는 70Wh 배터리를 탑재해 하루 종일 충전 걱정 없이 사용할 수 있어요.\n \n비디오 재생 기준으로 최대 20시간, 일반 작업 기준으로 17.5시간, 웹 브라우징 기준으로 13.5시간까지 사용 가능합니다. 충전기를 따로 들고 다니지 않아도, 배터리가 오래 지속되니 가벼운 마음으로 이동할 수 있어요.\n특히, 출장이나 야외 촬영이 많은 분들에게 이 배터리 성능은 큰 장점으로 다가올 거예요.\n \n제품 상세 정보는 여기를 클릭하세요\n        \n    \n<이 기사는 쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다.>\n \n6️⃣ Windows 11과 Copilot으로 AI 활용을 극대화\n\n\n \n AI 소프트웨어를 제대로 활용하려면 운영 체제와의 조화가 중요한데요, 에이서 스위프트 16 AI는 최신 Windows 11에 포함된 Copilot 기능을 탑재해 작업 효율을 극대화합니다.\n \nCopilot은 번역, 문서 분석, PDF 요약, 웹 검색 같은 다양한 작업을 AI 기반으로 더 빠르고 정확하게 처리할 수 있게 도와줍니다. 여기에 AcerSense가 추가돼 시스템 최적화와 성능 관리까지 자동으로 이루어지니, 사용자 입장에서는 더 편리하죠.\n\n\n \n 또한, 1440p QHD 카메라와 AI 기반 Windows Studio Effects 기능이 더해져 화상회의나 온라인 학습에서도 탁월한 품질을 제공합니다. 배경 흐림, 자동 프레이밍, 아이컨택 같은 기능은 화상 통화 중 더 자연스럽고 편리한 경험을 선사합니다.\n \n \n7️⃣ 튼튼한 내구성과 다양한 연결 옵션으로 완벽한 호환성 제공\n\n\n노트북의 내구성은 장기적인 사용을 보장하는 중요한 요소인데요, 이 제품은 MIL-STD-810G 인증을 받아 다양한 환경에서도 안정적으로 사용할 수 있어요.\n \n포트 구성도 완벽합니다. Thunderbolt™ 4, USB 3.2 Gen1, HDMI 2.1 등의 포트를 지원해 다양한 외부 장치와 연결이 가능합니다. 이 정도 연결 옵션이면 업무 환경이 훨씬 더 유연해질 거예요.\n \n \n결론: AI 노트북의 새로운 기준, 지금 바로 선택하세요!\n\n\n \n 에이서 스위프트 16 AI는 AI 기술을 제대로 활용하면서도, 성능, 디스플레이, 휴대성, 배터리까지 완벽한 균형을 갖춘 제품이에요. 특히, 가격대비 뛰어난 성능 덕분에 가성비를 중시하는 사용자들에게 정말 좋은 선택이 될 거예요.\n\n최신 AI 기술을 활용해 생산성과 창의성을 높이고 싶으시다면, 더 이상 고민할 필요 없이 이 제품을 선택해 보세요.  ✨\n \n제품 상세 정보는 여기를 클릭하세요\n        \n    \n<이 기사는 쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다.>",
-        "guid": "http://muzbox.tistory.com/483527",
-        "categories": [
-          "신제품 리뷰/컴퓨터",
-          "ai노트북추천",
-          "가성비노트북",
-          "노트북추천",
-          "에이서 스위프트 16 ai",
-          "에이서노트북",
-          "인공지능 노트북"
-        ],
-        "isoDate": "2025-01-17T00:54:33.000Z"
       }
     ]
   },
@@ -1038,8 +972,8 @@
         "link": "https://jeho.page/essay/2025/01/22/making-a-difference.html",
         "pubDate": "2025-01-22T14:41:00.000Z",
         "author": "김재호",
-        "content": "<p>Cursor로 코딩하니까 예전보다 분명 빨라졌는데 그래도 여전히 앱 하나 완성하기가 힘듭니다.<br />\n예전에는 이 힘든 노가다를 대체 어떻게 했는지 모르겠습니다.<br />\n그래서 그 많은 사람들이 매일 야근을 했던 걸까요?</p>\n\n<p>앱 개발이 쉬워진 건 분명하지만 돈 벌기까지 쉬워진 건 아닙니다. 돈 벌기는 항상 어려웠습니다.<br />\n오래전에 홈페이지만 만들면 몇백만 원 준다던 시절이 있었다지만, 그때도 돈 벌기는 어려웠을 겁니다. 그 시절에 컴퓨터를 가지고 있고 HTML 을 다룰 줄 안다는 것 자체가 특별한 일이었기에. 코딩을 하는 사람들이 많아지자 눈높이가 높아져 ajax를 이용한 복잡한 웹페이지를 만들어달라는 요구로 변해갔습니다.</p>\n\n<p>서비스를 잘 만들기만 하면 돈을 벌 수 있는 것은 아닙니다. <strong>경쟁자보다 더 잘 만들어야</strong> 돈을 벌 수 있습니다.<br />\n돈을 벌어주다 주는 것은 결국 <strong>차이</strong>인 것입니다. 기술의 차이, 사용자 경험의 차이. 마케팅의 차이.<br />\nAI가 며칠 만에 만들어준 앱으로 돈 벌기는 어려울 겁니다. 차이를 만들어 낼 수 없으니까.</p>\n\n<p>예전에는 <a href=\"/essay/2021/09/05/코딩은-어렵다.html\">그 힘든 노가다</a>를 하던 것 자체가 해자였습니다.<br />\n앱을 만든다는 것이 너무 고통스러웠기 때문에.<br />\n그 고통을 견뎌낼 수 있는 사람이 적었기 때문에.<br />\n이제 앱을 완성하는 것 자체는 많이 쉬워진 것 같습니다. 하지만 차이를 만들어 내려면 모든 면에서 예전보다 더 잘해야 합니다.</p>\n\n<p>3년쯤 지나면 이 시장이 어떻게 변해있을까요? 짐작도 가지 않습니다.<br />\n내가 언제까지 이 시장에서 살아남을 수 있을까? 이제 정말 끝물인 건 아닐까? 약간 초조한 마음도 듭니다.<br />\n지금이 마지막이라고 생각하고 하나라도 더 만들어봐야겠다는 생각입니다.<br />\n오늘 오랜만에 10시간 코딩을 했습니다. 다행인 것은 <a href=\"/essay/2024/12/23/writing-code.html\">AI로 코딩하면서도 꽤나 즐거웠다는 겁니다.</a></p>\n\n<p><br />\n<em>함께 읽으면 좋은 글:</em></p>\n<ul>\n  <li><a href=\"/essay/2024/07/26/good-day.html\">코딩 많이 한 날</a></li>\n  <li><a href=\"/essay/2021/09/05/코딩은-어렵다.html\">코딩은 어렵다</a></li>\n</ul>",
-        "contentSnippet": "Cursor로 코딩하니까 예전보다 분명 빨라졌는데 그래도 여전히 앱 하나 완성하기가 힘듭니다.\n앱 개발이 쉬워진 건 분명하지만 돈 벌기까지 쉬워진 건 아닙니다. 돈 벌기는 항상 어려웠습니다.\n서비스를 잘 만들기만 하면 돈을 벌 수 있는 것은 아닙니다. 경쟁자보다 더 잘 만들어야 돈을 벌 수 있습니다.\n차이인 것입니다. 기술의 차이, 사용자 경험의 차이. 마케팅의 차이.\n예전에는 그 힘든 노가다를 하던 것 자체가 해자였습니다.\n3년쯤 지나면 이 시장이 어떻게 변해있을까요? 짐작도 가지 않습니다.\nAI로 코딩하면서도 꽤나 즐거웠다는 겁니다.\n\n함께 읽으면 좋은 글:\n코딩 많이 한 날\n코딩은 어렵다",
+        "content": "<p>Cursor로 코딩하니까 예전보다 분명 빨라졌는데 그래도 여전히 앱 하나 완성하기가 힘듭니다.<br />\n예전에는 이 힘든 노가다를 대체 어떻게 했는지 모르겠습니다.<br />\n그래서 그 많은 사람들이 매일 야근을 했던 걸까요?</p>\n\n<p>앱 개발이 쉬워진 건 분명하지만 돈 벌기까지 쉬워진 건 아닙니다. 돈 벌기는 항상 어려웠습니다.<br />\n오래전에 홈페이지만 만들면 몇백만 원 준다던 시절이 있었습니다. 그때도 돈 벌기는 어려웠을 겁니다.<br />\n그 시절에 컴퓨터를 가지고 있고 HTML 을 다룰 줄 안다는 것 자체가 특별한 일이었기에.<br />\n코딩을 하는 사람들이 많아지자 눈높이가 높아져 ajax를 이용한 복잡한 웹페이지를 만들어달라는 요구로 변해갔습니다.</p>\n\n<p>서비스를 잘 만들기만 하면 돈을 벌 수 있는 것은 아닙니다. <strong>경쟁자보다 더 잘 만들어야</strong> 돈을 벌 수 있습니다.<br />\n돈을 벌어주다 주는 것은 결국 <strong>차이</strong>인 것입니다. 기술의 차이, 사용자 경험의 차이. 마케팅의 차이. 서비스의 차이.<br />\nAI가 며칠 만에 만들어준 앱으로 돈 벌기는 어려울 겁니다. 차이를 만들어 낼 수 없으니까.</p>\n\n<p>예전에는 <a href=\"/essay/2021/09/05/코딩은-어렵다.html\">그 힘든 노가다</a>를 하던 것 자체가 해자였습니다.<br />\n앱을 만든다는 것이 너무 고통스러웠기 때문에.<br />\n그 고통을 견뎌낼 수 있는 사람이 적었기 때문에.<br />\n이제 앱을 완성하는 것 자체는 많이 쉬워졌습니다. 차이를 만들어 내려면 모든 면에서 예전보다 더 잘해야 합니다.</p>\n\n<p>3년쯤 지나면 이 시장이 어떻게 변해있을까요? 짐작도 가지 않습니다.<br />\n내가 언제까지 이 시장에서 살아남을 수 있을까? 이제 정말 끝물인 건 아닐까? 약간 초조한 마음도 듭니다.<br />\n지금이 마지막이라고 생각하고 하나라도 더 만들어봐야겠다는 생각입니다.<br />\n오늘 오랜만에 10시간 코딩을 했습니다. 다행인 것은 <a href=\"/essay/2024/12/23/writing-code.html\">AI로 코딩하면서도 꽤나 즐거웠다는 겁니다.</a></p>\n\n<p><br />\n<em>함께 읽으면 좋은 글:</em></p>\n<ul>\n  <li><a href=\"/essay/2024/07/26/good-day.html\">코딩 많이 한 날</a></li>\n  <li><a href=\"/essay/2021/09/05/코딩은-어렵다.html\">코딩은 어렵다</a></li>\n</ul>",
+        "contentSnippet": "Cursor로 코딩하니까 예전보다 분명 빨라졌는데 그래도 여전히 앱 하나 완성하기가 힘듭니다.\n앱 개발이 쉬워진 건 분명하지만 돈 벌기까지 쉬워진 건 아닙니다. 돈 벌기는 항상 어려웠습니다.\n서비스를 잘 만들기만 하면 돈을 벌 수 있는 것은 아닙니다. 경쟁자보다 더 잘 만들어야 돈을 벌 수 있습니다.\n차이인 것입니다. 기술의 차이, 사용자 경험의 차이. 마케팅의 차이. 서비스의 차이.\n예전에는 그 힘든 노가다를 하던 것 자체가 해자였습니다.\n3년쯤 지나면 이 시장이 어떻게 변해있을까요? 짐작도 가지 않습니다.\nAI로 코딩하면서도 꽤나 즐거웠다는 겁니다.\n\n함께 읽으면 좋은 글:\n코딩 많이 한 날\n코딩은 어렵다",
         "summary": "Cursor로 코딩하니까 예전보다 분명 빨라졌는데 그래도 여전히 앱 하나 완성하기가 힘듭니다. 예전에는 이 힘든 노가다를 대체 어떻게 했는지 모르겠습니다. 그래서 그 많은 사람들이 매일 야근을 했던 걸까요?",
         "id": "https://jeho.page/essay/2025/01/22/making-a-difference",
         "isoDate": "2025-01-22T14:41:00.000Z"
@@ -1132,6 +1066,21 @@
     "name": "퇴근 후 서버다운",
     "category": "개인",
     "posts": [
+      {
+        "creator": "SIDNFT",
+        "title": "재판의 결과가 이상하게 나오는 이유 / 솜방망이",
+        "link": "http://serverdown.tistory.com/1120",
+        "pubDate": "Sat, 25 Jan 2025 01:20:04 +0900",
+        "author": "SIDNFT",
+        "comments": "http://serverdown.tistory.com/1120#entry1120comment",
+        "content": "<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/shorts/EyO5PSV8Wow\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/shorts/EyO5PSV8Wow</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/shorts/EyO5PSV8Wow\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/f3ydT/hyX4oa4H38/Epxp8v1AAN3lSKIYVvhfE0/img.jpg?width=405&amp;height=720&amp;face=142_237_272_379,https://scrap.kakaocdn.net/dn/cunsIg/hyX7SVRIZb/evqbthtcjago2nwzf86Ej0/img.jpg?width=405&amp;height=720&amp;face=142_237_272_379\" data-video-width=\"405\" data-video-height=\"720\" data-video-origin-width=\"405\" data-video-origin-height=\"720\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"한국 판결이 이상한 이유\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/EyO5PSV8Wow\" width=\"405\" height=\"720\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">특수한 선례를 남겨야</p>\n<p data-ke-size=\"size16\">은퇴후 로펌에 들어가서 그 판례를 이용해 빠저나가는 결과를 만들 수 있다고 합니다.</p>\n<p data-ke-size=\"size16\">즉 돈이 되기 때문입니다.</p>",
+        "contentSnippet": "영상: https://www.youtube.com/shorts/EyO5PSV8Wow\n\n\n\n특수한 선례를 남겨야\n은퇴후 로펌에 들어가서 그 판례를 이용해 빠저나가는 결과를 만들 수 있다고 합니다.\n즉 돈이 되기 때문입니다.",
+        "guid": "http://serverdown.tistory.com/1120",
+        "categories": [
+          "유튜브"
+        ],
+        "isoDate": "2025-01-24T16:20:04.000Z"
+      },
       {
         "creator": "SIDNFT",
         "title": "2차전지 바닥이다",
@@ -1246,40 +1195,6 @@
           "투자"
         ],
         "isoDate": "2025-01-19T14:25:08.000Z"
-      },
-      {
-        "creator": "SIDNFT",
-        "title": "미국 강의 - 자유가 무엇인지 설명하기위해 &quot;바이든 멍청이&quot; 를 시켜봅니다.",
-        "link": "http://serverdown.tistory.com/1112",
-        "pubDate": "Fri, 17 Jan 2025 15:45:37 +0900",
-        "author": "SIDNFT",
-        "comments": "http://serverdown.tistory.com/1112#entry1112comment",
-        "content": "<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/watch?v=1OfJGkltN_M\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=1OfJGkltN_M</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=1OfJGkltN_M\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/b8p1fr/hyX4otUrDw/YOqcBapLDK3LD74AKQRkn0/img.jpg?width=1280&amp;height=720&amp;face=128_254_654_424,https://scrap.kakaocdn.net/dn/dO6FbY/hyX0rFLG0a/N2wKJEkNajt90CLyUoGl01/img.jpg?width=1280&amp;height=720&amp;face=128_254_654_424\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"하버드 교수의 일침에 중국 찬양하던 중국 유학생이 1초만에 입 다문 이유\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/1OfJGkltN_M\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">사우디 와 중국 항생에게 이야기를 시키면서</p>\n<p data-ke-size=\"size16\">미국 학생에게 \"바이든 멍청이\" (현직 대통령) 이라고 말해보라고 시킵니다.<br />미국 항생은 당연히 말했지요.</p>\n<p data-ke-size=\"size16\">자유라는게 무엇인지 아주 간단하게 보여주는 강의 였습니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">자율라는건 이미 누리고 있다면 알 방법이 없습니다.</p>\n<p data-ke-size=\"size16\">공기 같은 것이죠.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>",
-        "contentSnippet": "영상: https://www.youtube.com/watch?v=1OfJGkltN_M\n\n\n\n사우디 와 중국 항생에게 이야기를 시키면서\n미국 학생에게 \"바이든 멍청이\" (현직 대통령) 이라고 말해보라고 시킵니다.\n미국 항생은 당연히 말했지요.\n자유라는게 무엇인지 아주 간단하게 보여주는 강의 였습니다.\n \n자율라는건 이미 누리고 있다면 알 방법이 없습니다.\n공기 같은 것이죠.",
-        "guid": "http://serverdown.tistory.com/1112",
-        "categories": [
-          "유튜브",
-          "미국"
-        ],
-        "isoDate": "2025-01-17T06:45:37.000Z"
-      },
-      {
-        "creator": "SIDNFT",
-        "title": "2차전지 중국의 폐베터리는 재홀용할 방법이 없다.",
-        "link": "http://serverdown.tistory.com/1111",
-        "pubDate": "Fri, 17 Jan 2025 15:31:21 +0900",
-        "author": "SIDNFT",
-        "comments": "http://serverdown.tistory.com/1111#entry1111comment",
-        "content": "<p data-ke-size=\"size16\">영상: <a href=\"https://youtu.be/1YlJg3y_8wQ?t=274\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://youtu.be/1YlJg3y_8wQ?t=274</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=1YlJg3y_8wQ\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/y5ycB/hyX4spxakF/OPlt3RiXfVLf024vLFbUS0/img.jpg?width=1280&amp;height=720&amp;face=882_264_1104_506,https://scrap.kakaocdn.net/dn/c9XFXF/hyX4rEaSar/nSOhj36XXAIzu8I7UikEO0/img.jpg?width=1280&amp;height=720&amp;face=882_264_1104_506\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"【중국인사이트】 2025년, 중국 경제의 추락? 숨겨진 진실 공개! (진태산 보도)\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/1YlJg3y_8wQ\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">4분 30초에 나옵니다.</p>\n<p data-ke-size=\"size16\">유럽에 많이 수출했지만 베터리를 교체하기위해 베터리를 중국에 다시 보낼텐데</p>\n<p data-ke-size=\"size16\">이 폐베터리는 환경에 문제 없이 폐기나 재활용할 방법이 중국에는 없습니다.</p>\n<p data-ke-size=\"size16\">왜냐하면 당연히 그런걸 고려안하고 만든 가격이 지금 가격이기 때문입니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">이런 베터리는 싸다고 많이 사용해봐야 환경문제를 일으키게 됩니다.</p>\n<p data-ke-size=\"size16\">비싼비용으로 재활용 하느니 땅에 뭍어버리는게 낫을 것입니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">그렇습니다. 중국의 베터리 가격은 뒷일을 생각하지 않은 그냥 원가 인것입니다.</p>\n<p data-ke-size=\"size16\">물론 유럽은 이 베터리를 자국에서 어떻게 하지 않고 중국으로 보내버릴 것입니다.</p>",
-        "contentSnippet": "영상: https://youtu.be/1YlJg3y_8wQ?t=274\n\n\n\n4분 30초에 나옵니다.\n유럽에 많이 수출했지만 베터리를 교체하기위해 베터리를 중국에 다시 보낼텐데\n이 폐베터리는 환경에 문제 없이 폐기나 재활용할 방법이 중국에는 없습니다.\n왜냐하면 당연히 그런걸 고려안하고 만든 가격이 지금 가격이기 때문입니다.\n \n이런 베터리는 싸다고 많이 사용해봐야 환경문제를 일으키게 됩니다.\n비싼비용으로 재활용 하느니 땅에 뭍어버리는게 낫을 것입니다.\n \n그렇습니다. 중국의 베터리 가격은 뒷일을 생각하지 않은 그냥 원가 인것입니다.\n물론 유럽은 이 베터리를 자국에서 어떻게 하지 않고 중국으로 보내버릴 것입니다.",
-        "guid": "http://serverdown.tistory.com/1111",
-        "categories": [
-          "투자",
-          "2차전지",
-          "중국",
-          "폐베터리"
-        ],
-        "isoDate": "2025-01-17T06:31:21.000Z"
       }
     ]
   },
@@ -1388,6 +1303,15 @@
     "category": "기업",
     "posts": [
       {
+        "title": "사용성을 지키면서 광고 매출 극대화하기, 가능할까요?",
+        "link": "https://techblog.lycorp.co.jp/ko/maximizing-ad-revenue-while-preserving-usability",
+        "pubDate": "Fri, 24 Jan 2025 02:00:00 GMT",
+        "content": "안녕하세요. LINE Plus ABC Studio 기획자 한영주입니다. 저는 일본 최대 규모의 배달 서비스인 데마에칸(Demaecan, 出前館) 앱을 기획하고 있습니다.\n한국의 배...",
+        "contentSnippet": "안녕하세요. LINE Plus ABC Studio 기획자 한영주입니다. 저는 일본 최대 규모의 배달 서비스인 데마에칸(Demaecan, 出前館) 앱을 기획하고 있습니다.\n한국의 배...",
+        "guid": "https://techblog.lycorp.co.jp/ko/maximizing-ad-revenue-while-preserving-usability",
+        "isoDate": "2025-01-24T02:00:00.000Z"
+      },
+      {
         "title": "코드 품질 개선 기법 4편: 문을 없애고 테스트하기",
         "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-4",
         "pubDate": "Wed, 22 Jan 2025 02:00:00 GMT",
@@ -1448,11 +1372,6 @@
     "posts": []
   },
   {
-    "name": "황의윤",
-    "category": "개인",
-    "posts": []
-  },
-  {
     "name": "호돌맨",
     "category": "개인",
     "posts": []
@@ -1483,57 +1402,6 @@
     "posts": []
   },
   {
-    "name": "STARTUP BIBLE",
-    "category": "개인",
-    "posts": [
-      {
-        "creator": "Kihong Bae",
-        "title": "세상의 모든 큰 것은 아주 작은 것에서 시작된다",
-        "link": "https://www.thestartupbible.com/2025/01/big-things-come-from-small-beginnings.html",
-        "pubDate": "Wed, 22 Jan 2025 21:29:00 +0000",
-        "content:encodedSnippet": "한인이 창업했고, 창업 5년 만에 한화로 거의 1조 원에 인수된 화장품 회사 Hero Cosmetics(Hero)의 팟캐스트를 얼마 전에 흥미롭게 들었다. 창업가들의 이야기는 그 결말이 해피엔딩이든 새드엔딩이든 항상 배울 점들이 많아서 재미있고, 한국에 사는 분들에겐 너무나 익숙한 여드름 패치 하나로 시작해서 1조 원짜리 회사를 만들어서 Church and Dwight에 매각한 이야기도 웬만한 케이드라마보다 더 흥미로웠다.\n이 팟캐스트를 며칠에 걸쳐 아침에 운동하면서 계속 들었는데, 그 기간 우리 투자사 대표와 미팅하면서, 이분이 하는 사업은 화장품 분야와는 완전히 다르지만, Hero가 고민하고 거쳐 온 과정에 대해서 같이 이야기하고, 나름대로 고민의 공통점들을 찾고 해답도 같이 찾는 이야기를 꽤 많이 했다.\nHero는 Mighty Patch라는 여드름 패치 제품 하나로 시작했고, 한국에서 만든 이 제품을 온, 오프라인 상점에서 팔기 시작했는데, 얼마 안 지나서 이 카테고리에서는 거의 1등 제품이 됐다. 1등 제품이긴 했지만, 없던 시장을 만들었기 때문에 일단 시장 자체가 작았고, 투자도 받고 사람도 더 고용하기 위해서 회사는 계속 성장을 해야 했다. 여기서 Hero의 창업가들은 더 큰 성장을 하기 위해서 여드름 패치보다 훨씬 큰 시장인 일반 화장품 분야로 확장하는 고민을 했다. 어차피 큰 카테고리로 보면 모두 다 화장품과 뷰티 분야였고, 다른 화장품도 한국의 공장에서 제조하기 때문에 제조사 소싱도 용이했다. 그리고 어느 시점에는 일반 화장품/뷰티 쪽으로 확장하는 게 너무 자연스러운 성장 공식이라서 여드름 패치 판매 시작 1년 후에 이런 고민을 했다.\n하지만, 이들이 내린 결론은, 일단 여드름 패치 분야에만 당분간 집중하는 것이었다. 여드름 패치 분야에서 더 많은, 더 좋은 제품을 더 싸게 판매해서 아예 다른 경쟁사들이 넘보지도 못할 정도로 압도적인 1등이 되고, 미국에서 말하는 소위 category dominator가 된 후에 다른 화장품 분야로 확장하기로 했다. 그리고 그 이후에 같은 여드름 패치를 다양한 색상, 다양한 용도, 그리고 다양한 크기로 만들어서 SKU를 다각화했고, 판매 채널 또한 온, 오프라인 모든 곳으로 확장했다. 이렇게 한 결과, 여드름 패치로만 연 매출 수백억 원대를 달성할 수 있었고, 이 정도의 매출을 하니 이 분야에서는 압도적인 1등이 됐고, 이 category dominator 해자(垓字)를 구축한 후에 다른 화장품 분야로 조금은 더 수월하고 편하게 진출했다.\n위에서 이야기했던 우리 투자사 대표도 이와 비슷한 고민을 하고 있었고, 아마도 꽤 많은 창업가들이 이런 고민을 하는 걸로 알고 있다. 아주 힘들게 한 분야를 열심히 팠고, 꽤 오랜 시간 동안 기반을 닦아 놓으니, 이 분야에서 돈을 내는 고객도 생기고, 아주 빠르진 않지만, 고객에게 서서히 입소문이 나면서 어느 순간 이 분야에서 꽤 알아주는 제품을 만드는 회사가 된 경우를 우린 자주 본다. 그런데 지금 내가 집중하고 있는 시장보다 훨씬 더 큰 수천억 원 ~ 수조 원짜리 시장에서 훨씬 더 빠르게 성장하고 싶어서, 완전히 다른 시장, 또는 같은 시장에서 다른 카테고리를 계속 기웃거리는 창업가들이 꽤 많다.\n이분들에게 내가 주로 하는 조언은 항상 비슷하다. Hero의 전략으로 가라고 한다. 즉, 내가 시작한 분야가 아무리 작아도, 고객이 존재하고, 우리가 의미 있는 제품을 만들어서 알만한 사람들은 이미 아는 브랜드를 만들고 있다면, 일단 이 시장을 완전히 장악해서 category leader를 넘어선 category dominator가 되라고 조언한다. 그 이후에 다른 곳으로 확장하라고 한다.\n예를 들며, 내가 지금까지 아주 오랜 시간 동안 기반을 잘 닦아 놓은 시장의 전체 크기가 100억 원이라면, 일단 이 시장에서 최소 30억 원의 매출을 해서 시장의 30%를 장악하라는 뜻이다. 한 시장의 30%를 장악하면 그 시장의 확실한 category dominator가 될 수 있기 때문이다. 꽤 재미있는 건, 이런 고민을 하는 대표들이 대부분 그 100억 원짜리 시장은 항상 너무 작다고 하면서도, 막상 본인들은 이 작은 시장에서 매출 1억 원도 못 하고 있다는 점이다.\n그래서 나는 항상 이들에게 일단 우리가 만들어 놓은 시장에서 작은 것부터 야금야금 먹자고 한다. 시장에서 압도적인 1등이 된 후에 다른 시장으로 진출하는 게 여러모로 봤을 때 훨씬 더 우리에게 유리하기 때문에, Hero와 같이 현재 시장에서, 현재 제품을 조금 더 다각화할 수 있는 전략을 고민해 보라는 조언을 한다. 전에도 한 번 내가 포스팅 한 적이 있는데, 일단 따기 쉬운 과일을 먼저 따먹는 전략이다.\n이런 조언을 열심히 해도, 두 마리의 토끼를 쫓거나, 아니면 우리 토끼보다 더 큰 다른 토끼를 쫓는 창업가들이 더 많다. 누가 맞고 틀렸다는 문제는 아니라서, 더 큰 카테고리로 지금 당장 진출하고 싶은 분들은 그렇게 하면 된다. 하지만, 이렇게 했을 때 조심해야 할 점은, 두 마리 토끼를 쫓다가 둘 다 놓칠 수도 있고, 더 큰 토끼를 쫓아서 힘들게 잡았는데 막상 보면 엉덩이면 커서 뒤에서만 봤을 때 큰 토끼일 가능성도 있고, 실은 내가 지금 잡고 있는 토끼가 나중에 엄청나게 커질 수 있는데 다른 토끼를 쫓다가 내 토끼를 다른 회사에 빼앗길 수도 있다는 것이다.\n왜 이런 무모한 전략을 계속 고집하는지 물어보면, 대부분의 창업가들은 더 짧은 기간에 더 빠르게 성장하고 싶다고 한다. 이분들에게 내가 한결같이 다시 해주는 조언은 세상의 모든 건 시간이 걸린다는 것이다. 100만 원 매출이 1,000만 원이 되고, 1,000만 원이 1억이 되고, 이런 느린 사이클을 타면서 언젠간 1조 원 매출이 된다. 한 번에 1,000억씩 할 수 있는 방법은 없다. 혹시 있다면 나한테 DM 부탁한다. 그땐 내가 VC를 그만둬야 할 것 같다.",
-        "dc:creator": "Kihong Bae",
-        "comments": "https://www.thestartupbible.com/2025/01/big-things-come-from-small-beginnings.html#respond",
-        "content": "한인이 창업했고, 창업 5년 만에 한화로 거의 1조 원에 인수된 화장품 회사 Hero Cosmetics(Hero)의 팟캐스트를 얼마 전에 흥미롭게 들었다. 창업가들의 이야기는 그 결말이 해피엔딩이든 새드엔딩이든 항상 배울 점들이 많아서 재미있고, 한국에 사는 분들에겐 너무나 익숙한 여드름 패치 하나로 시작해서 1조 원짜리 회사를 만들어서 Church and Dwight에 매각한 이야기도 웬만한 케이드라마보다 더 흥미로웠다. 이 팟캐스트를 며칠에(...)",
-        "contentSnippet": "한인이 창업했고, 창업 5년 만에 한화로 거의 1조 원에 인수된 화장품 회사 Hero Cosmetics(Hero)의 팟캐스트를 얼마 전에 흥미롭게 들었다. 창업가들의 이야기는 그 결말이 해피엔딩이든 새드엔딩이든 항상 배울 점들이 많아서 재미있고, 한국에 사는 분들에겐 너무나 익숙한 여드름 패치 하나로 시작해서 1조 원짜리 회사를 만들어서 Church and Dwight에 매각한 이야기도 웬만한 케이드라마보다 더 흥미로웠다. 이 팟캐스트를 며칠에(...)",
-        "guid": "https://www.thestartupbible.com/?p=9359",
-        "categories": [
-          "Uncategorized",
-          "B2B",
-          "consumer",
-          "FoundersAtWork",
-          "korea",
-          "strategy",
-          "Strong",
-          "스타트업 바이블 QA"
-        ],
-        "isoDate": "2025-01-22T21:29:00.000Z"
-      },
-      {
-        "creator": "Kihong Bae",
-        "title": "희망의 실종",
-        "link": "https://www.thestartupbible.com/2025/01/will-there-be-hope-in-2025.html",
-        "pubDate": "Sun, 19 Jan 2025 21:34:00 +0000",
-        "content:encodedSnippet": "2022년 하반기에 많은 분들이 나에게 앞으로 경기는 어떻게 될 것이고, 언제쯤, 이 불경기가 회복될지 물어봤다. 물론, 나는 경제학자도 아니고 미래학자도 아니라서 잘 모른다고 했지만, 속으론 2024년 상반기면 괜찮아질 것으로 생각했다. 그래서 계속 개인적인 생각을 물어보면, 그냥 2024년 상반기엔 좋아지지 않겠나,,,라고 이야기했다. 그런데 2023년 상반기가 되자, 여러 가지 분위기와 정성적인 지표는 – 예, 해외 투자자들과의 이야기와 느낌 – 2024년 경기도 매우 안 좋은 방향으로 향하고 있는 게 너무나 명확했다. 그래서 내가 했던 말을 번복하고, 2025년이 돼야 시장의 상황이 더 좋아질 것 같다고 했다.\n작년 사사분기에, 이런 내 생각에 한 번의 전환이 더 있었고, 내 말을 한 번 더 번복했다. 2025년은 어쩌면 우리가 스타트업을 하면서 경험할 수 있는 최악의 경기가 될지도 모르겠다. 특히나 한국은 그동안 국제적인 이미지가 너무 좋았고, 전반적인 분위기가 나쁘지 않았는데, 말도 안 되는 정치적인 사건으로 인해서 국가의 이미지가 실추되면서 그 누구도 상상하지 못했던 엄청난 경제적인 손실이 발생하고 있다.\n그동안 내가 외국인들에게 항상 자랑스럽게 주장했던 게 두 가지가 있었다.\n하나는, 한국은 그나마 다른 아시아 국가 중 정치적으로 안정된 국가라는 점이었고, 둘째는, 한국은 그나마 다른 아시아 국가보다 USD에 대한 환율이 강한 국가라는 점이었다.\n모두 잘 아시다시피, 내가 완전히 양치기 소년이 됐다. 어쨌든, 이 좋지 않은 세계 경제 상황에서 정치적, 경제적으로 일시적으로 최악의 상황에 놓인 한국은 힘든 한 해를 보낼 것이고, 한국에서 사업을 하는 스타트업, 그리고 우리 같은 투자자 모두 아주 힘든 한 해를 경험할 것이다.\n2025년에는 사라지는 회사들이 정말 많을 것이다. 우리 투자사들도 너무 다 힘들고, 이미 폐업 준비하는 대표들이 내 주변에도 너무 많아지고 있다. 가장 먼저 문 닫을 회사들은 원래 2024년도에 폐업을 해야 했는데, 2025년은 더 좋아질 것이라는 희망을 갖고, 오로지 이 희망 하나로 작년 한 해를 버틴 회사들이다. 이들의 희망과는 달리 2025년도 크게 좋아지지 않을 것이기 때문에, 매출은 작고, 돈은 없고, 직원들은 하나둘씩 해고되거나 나갈 회사들은 문을 닫아야 할 것이다. 이들에게 더 이상 희망으로 버틸 수 있는 체력과 돈은 없다.\n펀딩 시리즈 스펙트럼의 다른 극에 있는 유니콘 회사들도 많이 망하거나, 아니면 유니콘 왕관을 스스로 내려놔야 할 것이다. 돈도 못 벌고, 마이너스만 만들고 있는 유니콘들이 꽤 많은데, 이들이 작년 한 해 유니콘 밸류에이션을 유지할 수 있었던 이유는 두 가지다. 하나는 이들도 2025년은 시장이 더 좋아져서 다시 한번 유니콘 밸류에 투자를 받을 수 있을 것이라는 희망으로 힘든 2024년을 버텼을 것이다. 또 다른 이유는 이 회사에 마지막으로 투자한 VC들이 어떻게든 기업 가치를 유지해서 본인들 투자에 손실이 발생하지 않기 위해서 이 회사들을 하드캐리 했는데, 더 이상 이걸 할 순 없을 것이다. 실은, 이 VC들도 2025년에 대한 희망을 품고 힘든 2024년을 보냈는데, 더 이상 이런 희망으로 버틸 순 없을 것이다.\n2025년에는 스타트업만 돈이 없는 게 아니라, 이들에게 투자하는 VC들도 돈이 없어서 활발한 투자를 보긴 힘들 것이다. VC들도 누군가에게 돈을 받아서 투자해야 하는데, 이들에게 돈을 주는 LP들이 매우 보수적인 자세를 취하고 있어서, 펀드를 만드는 게 우리 같은 투자자들에겐 큰 도전이자 과제다. 돈이 나올 수 있는 구멍이 여러 면에서 막혀 있는 게 VC나 스타트업의 2025년도 현실이다.\n단도직입적으로 말하자면, 근대 벤처업계 역사상 최악의 한 해가 될 것이다. 인생 최고 공포의 롤러코스터 라이드가 될 것이니까, 안전띠 꽉 조이고, 허리띠는 더 꽉 조여야 할 것이다.",
-        "dc:creator": "Kihong Bae",
-        "comments": "https://www.thestartupbible.com/2025/01/will-there-be-hope-in-2025.html#comments",
-        "content": "2022년 하반기에 많은 분들이 나에게 앞으로 경기는 어떻게 될 것이고, 언제쯤, 이 불경기가 회복될지 물어봤다. 물론, 나는 경제학자도 아니고 미래학자도 아니라서 잘 모른다고 했지만, 속으론 2024년 상반기면 괜찮아질 것으로 생각했다. 그래서 계속 개인적인 생각을 물어보면, 그냥 2024년 상반기엔 좋아지지 않겠나,,,라고 이야기했다. 그런데 2023년 상반기가 되자, 여러 가지 분위기와 정성적인 지표는 – 예, 해외 투자자들과의 이야기와(...)",
-        "contentSnippet": "2022년 하반기에 많은 분들이 나에게 앞으로 경기는 어떻게 될 것이고, 언제쯤, 이 불경기가 회복될지 물어봤다. 물론, 나는 경제학자도 아니고 미래학자도 아니라서 잘 모른다고 했지만, 속으론 2024년 상반기면 괜찮아질 것으로 생각했다. 그래서 계속 개인적인 생각을 물어보면, 그냥 2024년 상반기엔 좋아지지 않겠나,,,라고 이야기했다. 그런데 2023년 상반기가 되자, 여러 가지 분위기와 정성적인 지표는 – 예, 해외 투자자들과의 이야기와(...)",
-        "guid": "https://www.thestartupbible.com/?p=9352",
-        "categories": [
-          "Uncategorized",
-          "failure",
-          "FoundersAtWork",
-          "fundraising",
-          "korea",
-          "unicorn",
-          "vc"
-        ],
-        "isoDate": "2025-01-19T21:34:00.000Z"
-      }
-    ]
-  },
-  {
     "name": "Build a Great Product",
     "category": "개인",
     "posts": []
@@ -1551,11 +1419,6 @@
   {
     "name": "요즘 IT",
     "category": "큐레이션",
-    "posts": []
-  },
-  {
-    "name": "쿠팡 엔지니어링",
-    "category": "기업",
     "posts": []
   },
   {
@@ -1582,6 +1445,16 @@
     "name": "토스",
     "category": "기업",
     "posts": [
+      {
+        "title": "토스, 2024년 ‘혜택’ 결산",
+        "link": "https://blog.toss.im/article/2024benefit",
+        "pubDate": "Fri, 24 Jan 2025 01:00:00 GMT",
+        "content:encodedSnippet": ".css-1vn47db{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:none;-ms-flex:none;flex:none;}\n.css-uswsmm{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:none;-ms-flex:none;flex:none;margin:24px 0 8px;padding:0;list-style:none;}.css-uswsmm ul,.css-uswsmm ol{margin:16px 0 0;}.css-uswsmm>li{margin-bottom:16px;padding-left:24px;}.css-uswsmm>li:last-of-type{margin-bottom:0;}.css-uswsmm>li>span{position:relative;}.css-uswsmm>li>span>:first-child::before{content:'•';font-weight:500;color:var(--adaptiveGrey800);position:absolute;left:-24px;}\n.css-1hwiibq{font-size:17px;line-height:1.6;word-break:keep-all;letter-spacing:0em;font-weight:400;color:var(--adaptiveGrey800);}\n.css-1r3ko7u{line-height:0;display:block;}.css-1iisb9p{display:contents;line-height:1.6;}.css-1kxrhf3{white-space:pre-wrap;}토스 고객 누구나 평생 무료 송금 혜택...지난해 약 9억 8000만 건 이루어져\n만보기, 함께 토스 켜고 포인트 받기 등 사용자에게 일상 속 소소한 혜택 제공\n.css-14on8x8{font-size:17px;letter-spacing:0em;line-height:1.6;font-weight:normal;color:var(--adaptiveGrey800);margin:24px 0 8px;}\n\n모바일 금융 서비스 ‘토스’를 운영하는 비바리퍼블리카(이하 ‘토스’)가 2024년 한 해 동안 사용자들에게 제공한 주요 혜택 데이터를 공개했다. 토스 '혜택'은 무료 송금과 같이 비용을 절감해 주는 서비스와 '만보기'처럼 리워드를 제공하는 서비스로 나뉜다.\n.css-of5acw{margin:24px 0 8px;text-align:center;}.css-1pgssrp{max-width:100%;border-radius:16px;}\n2024년 한 해 동안 토스 이용자들의 송금 횟수는 약 9억 8000만 회를 기록했다. 송금 수수료를 500원으로 계산하면, 1인당 연평균 약 4만 원의 송금 수수료를 아낀 셈이다. 토스는 2015년 간편송금 서비스를 시작했다. 2021년부터 업계에서 선도적으로 모든 고객에게 평생 무료 송금을 제공하고 있다.\n토스 앱 하단 ‘혜택’ 메뉴를 통해 현금성 포인트를 적립할 수 있는 서비스는 1월 말 현재 35가지에 이른다. 매일 새로운 혜택이 추가되고, 바로 참여할 수 있는 이벤트도 확인할 수 있다. 대표적인 서비스로는 ▲만보기 ▲함께 토스 켜고 포인트 받기 ▲고양이 키우고 간식 받기 등이 있다.\n‘만보기’는 토스 가입자의 40%가 넘는 약 1150만 명이 사용하고 있다. 만보기 이용자는 주당 평균 2회 이상 만보기를 사용하고, 하루 평균 약 5000보를 걸은 것으로 나타났다. 이용자들은 평균 약 2900원을 적립했다. 토스 만보기는 1만 보 이내에서 정해진 걸음 수에 따라 포인트와 복권을 제공한다.\n‘함께 토스 켜고 포인트 받기’는 2023년 처음 선보인 서비스로 이른바 ‘토스 성지’라는 유행어를 낳은 토스의 인기 혜택 서비스다. 오프라인에서 이용자 주변에 토스 앱을 켠 또 다른 이용자가 있을 때 포인트를 받는 방식이다. 지난해 ‘함께 토스 켜고 포인트 받기’를 통해 가장 많은 포인트를 적립한 이용자는 약 7만 원을 적립한 것으로 나타났다. 1인당 평균 약 3400원의 포인트를 적립했다.\n‘고양이 키우고 간식 받기’는 토스페이 결제 시 가상의 고양이를 키울 수 있는 서비스다. 결제 시 고양이를 키울 수 있는 아이템을 받고, 이를 e쿠폰으로 교환하는 식이다. 작년 한 해 동안 ‘고양이 키우고 간식 받기’에서 e쿠폰을 가장 많이 받은 이용자는 120장의 쿠폰을 수령했다. 이용자 1인당 평균은 약 2700원으로 햄버거 하나와 교환할 수 있는 e쿠폰을 받았다.\n이 밖에 ‘오늘의 행운복권’, ‘이번 주 미션’ 등도 토스 사용자가 즐겨 찾는 혜택 서비스로 나타났다. 이 혜택 서비스를 통해 가장 많은 포인트를 적립한 사용자는 1년 동안 약 99만 원을 모았다. 매일 2700원 이상의 혜택을 적립한 셈이다.\n토스 관계자는 \"토스는 이용자들에게 금융 서비스부터 일상 속 이벤트 등 다양한 영역에서 체감할 수 있는 혜택을 제공해 오고 있다\"며 \"앞으로도 사용자 친화적인 서비스로 편리하고 유익한 앱 사용 경험을 줄 수 있도록 노력하겠다\"고 말했다.",
+        "content": "인당 송금 수수료 4만 원 절약",
+        "contentSnippet": "인당 송금 수수료 4만 원 절약",
+        "guid": "https://blog.toss.im/article/2024benefit",
+        "isoDate": "2025-01-24T01:00:00.000Z"
+      },
       {
         "title": "2025년부터 달라지는 정책: 금융·경제·복지 제도 25가지",
         "link": "https://blog.toss.im/article/new-policies-2025",
