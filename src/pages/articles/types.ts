@@ -3,14 +3,10 @@ export interface ArticleData {
     imageUrl: string;
     title: string;
     description: string;
-    reviews: Review[];
     syllabus: string[];
     link: string;
-    category: string;
+    creator: string;
+    pubDate: string;
+    categories: string[];
 }
   
-export interface Review {
-    id: number;
-    comment: string;
-    rating: number;
-}

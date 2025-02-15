@@ -1,115 +1,128 @@
 import React, { useState, useEffect, ChangeEvent } from 'react';
+import styled from 'styled-components';
 import { Post, RSSData } from './types';
 
-const stripHtmlTagsAndImages = (html: string): string => {
-    const markdownImageRegex = /!\[.*?\]\((.*?)\)/g;
-    const contentWithoutImages = html.replace(markdownImageRegex, '');
-    const doc = new DOMParser().parseFromString(contentWithoutImages, 'text/html');
-    return doc.body.textContent || '';
-};
+const Container = styled.div`
+  background-color: ${({ theme }) => theme.palette.background.default};
+  color: ${({ theme }) => theme.palette.text.primary};
+  padding: 20px;
+  min-height: 100vh;
+`;
 
-const truncateText = (text: string, maxLength: number): string => {
-    if (text.length <= maxLength) {
-        return text;
+const Title = styled.h1`
+  color: ${({ theme }) => theme.palette.primary.main}; 
+`;
+
+const SearchInput = styled.input`
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid ${({ theme }) => theme.palette.primary.main};
+  border-radius: 5px;
+  background: ${({ theme }) => theme.palette.background.paper};
+  color: ${({ theme }) => theme.palette.text.primary};
+`;
+
+const PostContainer = styled.div`
+  border: 1px solid ${({ theme }) => theme.palette.divider};
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: ${({ theme }) => theme.palette.background.paper};
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    background-color: ${({ theme }) => theme.palette.action.hover};
+  }
+`;
+
+const PostTitle = styled.h2`
+  a {
+    color: ${({ theme }) => theme.palette.link.default};
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: ${({ theme }) => theme.palette.link.hover};
     }
-    return text.substring(0, maxLength) + '...';
-};
+  }
+`;
 
-const parseFirstMarkdownImage = (content: string): string | undefined => {
-    const markdownImageRegex = /!\[.*?\]\((.*?)\)/;
-    const match = content.match(markdownImageRegex);
-    return match ? match[1] : undefined;
-};
+const Category = styled.span`
+  color: ${({ theme }) => theme.palette.category};
+  font-weight: bold;
+`;
+
+const Creator = styled.span`
+  color: ${({ theme }) => theme.palette.creator};
+  font-weight: bold;
+`;
+
+const PubDate = styled.span`
+  color: ${({ theme }) => theme.palette.pubDate};
+  font-weight: bold;
+`;
 
 export const RssFeeds: React.FC = () => {
-    const [posts, setPosts] = useState<Post[]>([]);
-    const [searchTerm, setSearchTerm] = useState<string>('');
-    const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
+  const [posts, setPosts] = useState<Post[]>([]);
+  const [searchTerm, setSearchTerm] = useState<string>('');
+  const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
 
-    useEffect(() => {
-        const fetchFeeds = async () => {
-            try {
-                const response = await fetch(`${process.env.PUBLIC_URL}/feeds.json`);
-                const data: RSSData[] = await response.json();
-                const allPosts = data.flatMap(feed => feed.posts);
-                setPosts(allPosts);
-                setFilteredPosts(allPosts);
-            } catch (error) {
-                console.error('Error fetching the feeds:', error);
-            }
-        };
+  useEffect(() => {
+    const fetchFeeds = async () => {
+      try {
+        const response = await fetch(`${process.env.PUBLIC_URL}/feeds.json`);
+        const data: RSSData[] = await response.json();
+        const allPosts = data.flatMap(feed => feed.posts);
+        const sortedPosts = allPosts.sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
 
-        fetchFeeds();
-    }, []);
-
-    useEffect(() => {
-        setFilteredPosts(
-            posts.filter(post =>
-                post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                (post.creator && post.creator.toLowerCase().includes(searchTerm.toLowerCase()))
-            )
-        );
-    }, [searchTerm, posts]);
-
-    const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
-        setSearchTerm(event.target.value);
+        setPosts(sortedPosts);
+      } catch (error) {
+        console.error('Error fetching the feeds:', error);
+      }
     };
 
-    return (
-        <div style={{ padding: '20px' }}>
-            <h1 style={{ color: '#4169e1' }}>기술트렌드 살펴보기</h1>
-            <input
-                type="text"
-                placeholder="Search by title or creator..."
-                value={searchTerm}
-                onChange={handleSearchChange}
-                style={{ padding: '10px', width: '100%', marginBottom: '20px', border: '2px solid #87cefa', borderRadius: '5px' }}
-            />
-            <div>
-                {filteredPosts.map((post, index) => (
-                    <div 
-                        key={index} 
-                        style={{ 
-                            border: '1px solid #87cefa', 
-                            padding: '20px', 
-                            marginBottom: '10px', 
-                            borderRadius: '10px', 
-                            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
-                        }}
-                    >
-                        <h2>
-                            <a 
-                                href={post.link} 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                style={{ color: '#1e90ff', textDecoration: 'none' }}
-                                onMouseOver={(e) => (e.currentTarget.style.color = '#ff4500')}
-                                onMouseOut={(e) => (e.currentTarget.style.color = '#1e90ff')}
-                            >
-                                {post.title}
-                            </a>
-                        </h2>
-                        {post.categories && <p style={{ color: '#ffd700' }}><strong>Categories:</strong> {post.categories?.join(', ')}</p>}
-                        {post.creator && <p style={{ color: '#ff6347' }}><strong>Creator:</strong> {post.creator}</p>}
-                        <p style={{ color: '#2e8b57' }}><strong>Published Date:</strong> {new Date(post.pubDate).toLocaleString()}</p>
-                        
-                        {post.content && (
-                            <>
-                                <p>{truncateText(stripHtmlTagsAndImages(post.content), 300)}</p>
-                                <div>
-                                    {parseFirstMarkdownImage(post.content) && (
-                                        <img 
-                                            src={parseFirstMarkdownImage(post.content)} 
-                                            alt="Markdown" 
-                                            style={{ maxWidth: '100%', maxHeight: '300px', marginTop: '10px', borderRadius: '5px' }} 
-                                        />
-                                    )}
-                                </div>
-                            </>
-                        )}
-                    </div>
-                ))}
-            </div>
-        </div>
+    fetchFeeds();
+  }, []);
+
+  useEffect(() => {
+    setFilteredPosts(
+      posts.filter(post =>
+        post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        (post.creator && post.creator.toLowerCase().includes(searchTerm.toLowerCase()))
+      )
     );
+  }, [searchTerm, posts]);
+
+  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(event.target.value);
+  };
+
+  return (
+    <Container>
+      <Title>기술트렌드 살펴보기</Title>
+      <SearchInput
+        type="text"
+        placeholder="Search by title or creator..."
+        value={searchTerm}
+        onChange={handleSearchChange}
+      />
+      <div>
+        {filteredPosts.map((post, index) => (
+          <PostContainer key={index}>
+            <PostTitle>
+              <a href={post.link} target="_blank" rel="noopener noreferrer">
+                {post.title}
+              </a>
+            </PostTitle>
+            {post.categories && <p><Category>📌 Categories:</Category> {post.categories.join(', ')}</p>}
+            {post.creator && <p><Creator>🖊 Creator:</Creator> {post.creator}</p>}
+            <p><PubDate>📅 Published Date:</PubDate> {new Date(post.pubDate).toLocaleString()}</p>
+          </PostContainer>
+        ))}
+      </div>
+    </Container>
+  );
 };

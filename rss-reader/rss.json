@@ -40,18 +40,13 @@
       "category": "기업"
     },
     {
-      "url": "http://instagram-engineering.tumblr.com/rss",
+      "url": "https://instagram-engineering.tumblr.com/rss",
       "name": "Instagram Engineering",
       "category": "기업"
     },
     {
       "url": "https://medium.com/feed/paypal-engineering",
       "name": "PayPal Engineering",
-      "category": "기업"
-    },
-    {
-      "url": "https://techcommunity.microsoft.com/gxcuf89792/rss/message?board.id=PlannerBlog&message.id=200",
-      "name": "article New updates to Planner comment notifications and settings in Planner Blog",
       "category": "기업"
     },
     {
@@ -165,11 +160,6 @@
       "category": "개인"
     },
     {
-      "url": "https://nesoy.github.io/atom.xml",
-      "name": "권영재",
-      "category": "개인"
-    },
-    {
       "url": "http://alwayspr.tistory.com/rss",
       "name": "김민수",
       "category": "개인"
@@ -177,11 +167,6 @@
     {
       "url": "http://raccoonyy.github.io/rss",
       "name": "김승호",
-      "category": "개인"
-    },
-    {
-      "url": "http://kimbyeonghwan.tumblr.com/rss",
-      "name": "김병환",
       "category": "개인"
     },
     {
@@ -215,7 +200,7 @@
       "category": "개인"
     },
     {
-      "url": "https://cheese10yun.github.io/feed.xml",
+      "url": "https://cheese10yun.github.io/rss2.xml",
       "name": "cheese10yun",
       "category": "개인"
     },
@@ -350,11 +335,6 @@
       "category": "개인"
     },
     {
-      "url": "http://j.mearie.org/rss",
-      "name": "강성훈",
-      "category": "개인"
-    },
-    {
       "url": "https://01010011.blog/feed/",
       "name": "강병수",
       "category": "개인"
@@ -475,11 +455,6 @@
       "category": "개인"
     },
     {
-      "url": "http://khrislog.net/rss",
-      "name": "khris'log",
-      "category": "개인"
-    },
-    {
       "url": "http://justhackem.wordpress.com/feed/",
       "name": "Just hack'em",
       "category": "개인"
@@ -592,11 +567,6 @@
     {
       "url": "https://www.zerocho.com/api/rss.xml",
       "name": "ZeroCho Blog",
-      "category": "개인"
-    },
-    {
-      "url": "http://hybrid0.tumblr.com/rss",
-      "name": "Hybrid's Notes",
       "category": "개인"
     },
     {
@@ -715,11 +685,6 @@
       "category": "게임"
     },
     {
-      "url": "https://blog.hanlee.io/rss.xml",
-      "name": "이한",
-      "category": "개인"
-    },
-    {
       "url": "https://highfence.tistory.com/feed",
       "name": "근원님",
       "category": "개인"
@@ -795,7 +760,7 @@
       "category": "기업"
     },
     {
-      "url": "https://blog.dramancompany.com/feed/",
+      "url": "https://tech.remember.co.kr/feed",
       "name": "리멤버 (드라마 앤 컴퍼니)",
       "category": "기업"
     },
