@@ -2,6 +2,36 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "신나는 삼국지~ 아하~! 진·삼국무쌍 오리진",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2284",
+    "pubDate": "Thu, 13 Feb 2025 20:43:07 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "Introducing Impressions at Netflix",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/introducing-impressions-at-netflix-e2b67c88c9fb?source=rss----2615bd06b42e---4",
+    "pubDate": "Sat, 15 Feb 2025 01:13:20 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "distributed-systems",
+      "data",
+      "data-engineering"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
     "title": "Estimating Incremental Lift in Customer Value (Delta CV) using Synthetic Control",
     "description": "No description available",
     "reviews": [],
@@ -15,33 +45,6 @@
       "paypal",
       "causal-inference"
     ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "AI Assistant expands with cutting-edge models",
-    "description": "JetBrains AI Assistant offers you the flexibility to choose from a range of advanced cloud-based LLMs from leading providers or use locally hosted models for increased data privacy. We’re continuously updating the platform with the latest high-performance models. Starting from JetBrains IDEs 2024.3.2, you’ll have access to Anthropic’s Claude Sonnet 3.5 and Haiku 3.5, OpenAI’s […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/02/ai-assistant-expands-with-cutting-edge-models/",
-    "pubDate": "Tue, 11 Feb 2025 13:06:12 +0000",
-    "creator": "Daniela Bentrup",
-    "categories": [
-      "news",
-      "ai-assistant"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "게임 참고 리소스 - 벽돌 깨기 / 단순",
-    "description": "스토어 링크: Original Ballz : brick breaker demolition game - shoot the balls and break the blocks | Packs | Unity Asset Store\n\n \nOriginal Ballz : brick breaker demolition game - shoot the balls and break the blocks | 패키지 | Unity Asset Store\nUse Original Ballz : brick breaker demolition game - shoot the balls and break the blocks from Aleksa Racovic to elevate your next project. Find this & more 패키지 and templates on the Unity Asset Store.\nassetstore.unity.com\n\n \n소개 영상: 아이유의 깊은잠베개",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1140",
-    "pubDate": "Wed, 12 Feb 2025 00:20:10 +0900",
-    "creator": "SIDNFT",
-    "categories": []
   },
   {
     "id": 4,
@@ -58,60 +61,96 @@
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Leadership Insights on Managing Code Quality Conflict",
-    "description": "The competitive nature of today’s digital business environment makes it critical for software development teams to embrace change, especially if it leads to improved software quality and efficiency. As a manager or team lead, your leadership plays a role in guiding your team through these metamorphoses. At Qodana, we’re all about code quality and security […]",
+    "title": "Ktor 3.1.0 Release",
+    "description": "Ktor 3.1.0 is here! This is the first minor release of the year, bringing exciting new features, performance improvements, and bug fixes. This release includes improvements to server-sent events (SSE), documentation enhancements, WebAssembly (Wasm) support, dependency injection design updates, and some initial steps toward gRPC integration. 🚀 Get started with Ktor 3.1.0 now! Ready to […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/02/managing-conflict/",
-    "pubDate": "Wed, 12 Feb 2025 17:12:31 +0000",
-    "creator": "Kerry Beetge",
+    "link": "https://blog.jetbrains.com/kotlin/2025/02/ktor-3-1-0-release/",
+    "pubDate": "Thu, 13 Feb 2025 12:48:01 +0000",
+    "creator": "Leonid Stashevsky",
     "categories": [
-      "opinion",
-      "cto",
-      "kotlin",
-      "qodana",
-      "team-lead"
+      "ktor",
+      "news",
+      "release"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "이게 진정한 그램 노트북? LG 아닌 에이수스의 899g 젠북 A14 출시",
-    "description": "에이수스(ASUS)가 899g 무게의 초경량 노트북 젠북(ZenBook) A14를 출시했습니다.\n \n원래 우리나라에서 초경량 노트북하면 LG전자의 그램 시리즈를 들 수 있습니다만, 세월이 지나면서 이름의 원래 취지였던 1kg 미만의 제품이 잘 안 나오는 중입니다. 물론 LG 그램 시리즈가 가볍다는 특징을 버린 것은 아니지만 지금 시중에 나와있는 그램 시리즈 대부분이 1kg을 넘긴 상태죠.\n \n그런 와중에 대만의 에이수스에서 899g이라는 초경량의 무게를 달성한 젠북 A14를 대한민국에 출시합니다.\n \n\n \n \n14인치 노트북이 899g?\n \n젠북 A14는 노트북 상·하판 및 키보드 프레임에 알루미늄을 세라믹으로 바꾸는 공정을 거친 하이테크 세라믹 세랄루미늄(Ceraluminum) 소재를 적용, 내구성과 경량화를 달성했습니다. 세랄루미늄 소재는 스크래치 방지 기능과 함께 강력한 내마모성과 얼룩 방지 기능이 있습니다.\n \n화면 또한 14인치 크기에 WUXGA OLED 16:10 화면 비율의 나노엣지 디스플레이는 sRGB 색 영역 100%를 지원하고 400니트의 밝기, 깊은 명암비를 자랑합니다.\n \n배터리는 48Wh(0.9kg) 또는 70Wh(0.98kg)를 내장한 모델로 나뉘어 있으며 후자의 경우 최대 32시간 작업이 가능합니다.\n \n \n인텔/AMD 아닌 퀄컴 스냅드래곤 X/엘리트 채용\n \n젠북 A14는 퀄컴의 스냅드래곤 X 및 스냅드래곤 X 엘리트 프로세서를 탑재하여 높은 전력 효율을 보여줍니다.\n덕분에 최대 45 TOPS를 지원하는 퀄컴 헥사곤 NPU(Qualcomm Hexagon NPU)를 탑재한 코파일럿+ PC로 향상된 AI 기능을 지원합니다. 듀얼 경량 팬과 향상된 히트 파이프를 포함한 열 솔루션으로 0dB 엠비언트 쿨링(Ambient Cooling) 기능이 적용돼 조용하게 작업할 수 있습니다.\n이 밖에도 보안을 위한 어댑티브 락(Adaptive Lock) 및 어댑티브 디밍(Adaptive Dimming), 하드웨어 보호를 위한 마이크로소프트 플루톤 보안 칩 등의 스마트 개인정보보호 기능을 제공하며, 스마트 제스처를 지원하는 터치패드와 함께 다양한 입출력 포트를 제공합니다.\n \n\n \n \n젠북 A14 가격은 119만원부터\n에이수스는 오늘부터 젠북 A14를 공식 스토어 및 각종 오픈 마켓에서 판매하며, 다양한 이벤트를 진행하니 관심있는 분들은 방문해 보시기 바랍니다.\n \nㅇ\n\n \n(출처 : ASUS)",
+    "title": "모닝 마스터 - 계란 토스 커피 한번에",
+    "description": "영상: https://www.youtube.com/watch?v=wenw3J9aETY\n\n\n\n신기한건 쓰레기 입니다.\n절대 사지말것",
     "reviews": [],
     "syllabus": [],
-    "link": "http://lazion.com/2513733",
-    "pubDate": "Mon, 10 Feb 2025 14:10:07 +0900",
-    "creator": "늑돌이",
+    "link": "http://serverdown.tistory.com/1138",
+    "pubDate": "Mon, 10 Feb 2025 17:44:44 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "#작은PC/#노트북PC",
-      "A14",
-      "ASUS",
-      "Laptop",
-      "News",
-      "PC",
-      "Qualcomm",
-      "WOA",
-      "ZENBOOK"
+      "유튜브",
+      "오븐"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "다음 아파트 상승은 지방에서 일어난다.",
-    "description": "영상: https://www.youtube.com/watch?v=mZ3kb0-5GR8\n\n\n\n이번 버블 주기에는 서울이 어마어마하게 올랐습니다.\n기본적인 투자 방법은 많이 오른거 사선 얼마 못 먹습니다.\n싼걸 상합니다.\n여러방상을 보면 평택, 세종 같이 호재가 남아있는데 현재 망한물건이 매우 쌉니다.\n이런걸 줍줍해서 오랜기간 존버 하면 호재가 현실화 되면서 가격에 반영될 것입니다.\n반드시 싸게 사는걸 목표로 해야합니다.\n이번 사태로 지방에 직장과 인구수 유입이 발생하여 선순환 되길 기대합니다.\n1~2년 일이 아니고 10년정도 거쳐 일어날 것입니다.\n당장사지 마시고 금융위기를 한번 기다리는게 좋겠습니다.\n보통 미국 대통령 2년차에 위기가 자주 오더군요. \n26년 내년을 기대중입니다.",
+    "title": "Unity MP4 파일 UI 에 재생하기",
+    "description": "영상: https://www.youtube.com/watch?v=-XzVq7qIuys\n\n\n\n영상은 이걸 보시구요\n유니티6 로 해봤는데 에디터에서 잘됩니다.\n윈도우즈 빌드 - 확인중, 갑자기 빌드가 안되네요 \n웹 빌드 - 검은 화면으로 나오면서 영상이 나오지 않습니다.\n안드로이드 빌드 - 확인중\n \n1. 씬에서 UI Canvas 가 필요합니다. UI -> Image 를 생성하세요\n2. Image 에서 Image 콤포넌트는 삭제하고 Raw Image 를 Add 합니다.\n3. 파일에서 Create -> Rendering -> Renering Texture 해서 하나 만듭니다.\n5. 씬에서 빈 오브젝트를 하나 만듭니다.\n     Vide Player 를 Add 합니다.\n6. Vide Player 에 video clip 에는 mp3 파일을 넣어줍니다.\n     Target Texture 에너는 만들어둔 Rendering Texture 파일을 붙입니다.\n7. Image -> Raw Image 에는 Texture 에 Rendering Texture 파일을 붙입니다.\n이러면 UI 에 사각 이미지에 영상이 화면에 나오게 됩니다.\n결과 화면\n\n\n잘되네요",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1135",
-    "pubDate": "Sun, 9 Feb 2025 20:41:46 +0900",
+    "link": "http://serverdown.tistory.com/1144",
+    "pubDate": "Fri, 14 Feb 2025 23:41:18 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "투자",
-      "아파트"
+      "프로그래밍/개발메모",
+      "유니티"
     ]
   },
   {
     "id": 8,
+    "imageUrl": "",
+    "title": "VisualStudio.Extensibility: Managing .NET runtime versions",
+    "description": "We continue to invest in the VisualStudio.Extensibility SDK to allow developers like you to create extensions that run faster and smoother than ever before! VisualStudio.Extensibility helps you build extensions that run outside the main Visual Studio IDE process for improved performance and reliability, and that can be installed without the need to restart Visual Studio. […]\nThe post VisualStudio.Extensibility: Managing .NET runtime versions appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-managing-net-runtime-versions/",
+    "pubDate": "Mon, 10 Feb 2025 16:17:53 +0000",
+    "creator": "Tina Schrepfer (LI)",
+    "categories": [
+      "Accessibility",
+      "Extensibility",
+      "Visual Studio",
+      ".NET",
+      "visualstudio.extensibility",
+      "vsix"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Looking back at our Bug Bounty program in 2024",
+    "description": "In 2024, our bug bounty program awarded more than $2.3 million in bounties, bringing our total bounties since the creation of our program in 2011 to over $20 million.  As part of our defense-in-depth strategy, we continued to collaborate with the security research community in the areas of GenAI, AR/VR, ads tools, and more.  We [...]\nRead More...\nThe post Looking back at our Bug Bounty program in 2024 appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/02/13/security/looking-back-at-our-bug-bounty-program-in-2024/",
+    "pubDate": "Thu, 13 Feb 2025 17:00:46 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Security"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "토스, ‘페이스페이’ 첫선…편의점에서 얼굴로 결제",
+    "description": "오는 3월 CU, GS25 일부 매장에서 페이스페이 결제 가능",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/tosspay",
+    "pubDate": "Wed, 12 Feb 2025 00:26:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "Kotlin Multiplatform Tooling – Shifting Gears",
     "description": "A couple of years ago, we initiated the idea of creating a Kotlin Multiplatform IDE to help facilitate the development of KMP applications. We embarked on this venture, building on the Fleet platform, with the intention of releasing it as a standalone IDE. During this time, we have received feedback from our customers, specifically those […]",
@@ -126,110 +165,78 @@
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "C++ Language Updates in MSVC in Visual Studio 2022 17.13",
-    "description": "Introduction For this update, we have changed things up a little bit. We now have more distinct buckets of fixes/implemented features. This is to help guide readers who care about specific features to more easily see how the compiler front-end team is making progress on the things you care about. 17.12 notes for reference. C++23 […]\nThe post C++ Language Updates in MSVC in Visual Studio 2022 17.13 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-compiler-updates-in-visual-studio-2022-version-17-13/",
-    "pubDate": "Tue, 11 Feb 2025 19:00:52 +0000",
-    "creator": "Cameron DaCamara",
-    "categories": [
-      "Announcement",
-      "C++",
-      "Frontend",
-      "C++ language",
-      "compiler",
-      "VC++"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "New restrictions on package loading",
-    "description": "As Visual Studio transitions its core packages and services to an async loading/retrieval model, we’ve identified bugs in both the initial async implementation and the existing synchronous package loading mechanism. While most of these bug fixes have been transparent to extenders, one requires attention due to changed constraints. This post highlights that change. Note that […]\nThe post New restrictions on package loading appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/new-restrictions-on-package-loading/",
-    "pubDate": "Thu, 13 Feb 2025 22:45:37 +0000",
-    "creator": "Ryan Molden",
-    "categories": [
-      "Extensibility",
-      "Visual Studio",
-      "vsix",
-      "vssdk"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "dotInsights | February 2025",
-    "description": "Did you know? The GC.KeepAlive() method in the .NET Framework is not used to prevent garbage collection of an object for the entire method scope, as you might think. Instead, it explicitly ensures that the object remains referenced at a specific point in the code after it’s last used. It’s particularly useful when dealing with […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/02/12/dotinsights-february-2025/",
-    "pubDate": "Wed, 12 Feb 2025 14:47:01 +0000",
-    "creator": "Rachel Appel",
-    "categories": [
-      "net-tools",
-      "dotinsights"
-    ]
-  },
-  {
     "id": 12,
     "imageUrl": "",
-    "title": "What’s New for C++ Developers in Visual Studio 2022 17.13",
-    "description": "We are happy to announce that Visual Studio 2022 version 17.13 is now generally available! This post summarizes the new features you can find in this release for C++. You can download Visual Studio 2022 from the Visual Studio downloads page or upgrade your existing installation by following the Update Visual Studio Learn page. Standard Library and Compiler […]\nThe post What’s New for C++ Developers in Visual Studio 2022 17.13 appeared first on C++ Team Blog.",
+    "title": "LLM 앱의 제작에서 테스트와 배포까지, LLMOps 구축 사례 소개",
+    "description": "LLMOps란 무엇인가요?\n최근 GPT-4와 같은 대규모 언어 모델(large language model, 이하 LLM)의 사용이 보편화되면서 이를 활용한 애플리케이션이 활발히 개...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-for-c-developers-in-visual-studio-2022-17-13/",
-    "pubDate": "Tue, 11 Feb 2025 18:58:57 +0000",
-    "creator": "Sy Brand",
-    "categories": [
-      "Announcement",
-      "C++"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/building-llmops-for-creating-testing-deploying-of-llm-apps",
+    "pubDate": "Fri, 14 Feb 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "신나는 삼국지~ 아하~! 진·삼국무쌍 오리진",
+    "title": "Visual Studio 2022 v17.13 is Now Available!",
+    "description": "We are excited to announce the availability of Visual Studio 2022 v17.13. This update focuses on stability and security, along with continuous improvements for all developers using Visual Studio. Based on your feature requests, several new tools and enhancements have been added to this release. This update includes improvements for developers, such as advanced debugging […]\nThe post Visual Studio 2022 v17.13 is Now Available! appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-13-is-now-available/",
+    "pubDate": "Tue, 11 Feb 2025 18:34:45 +0000",
+    "creator": "Mads Kristensen",
+    "categories": [
+      "Accessibility",
+      "Azure",
+      "Data and Analytics",
+      "Debug",
+      "Extensibility",
+      "GitHub Copilot",
+      "performance",
+      "Productivity",
+      "Team and Development",
+      "Visual Studio",
+      "Aspire",
+      "Debugging and Diagnostics",
+      "Developer Productivity",
+      "Docker",
+      "Git",
+      "ssdt",
+      "UI Design"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "이번엔 스위치로 돌아왔다, 동키콩 리턴즈 HD",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2284",
-    "pubDate": "Thu, 13 Feb 2025 20:43:07 +0900",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2283",
+    "pubDate": "Mon, 10 Feb 2025 19:37:24 +0900",
     "creator": "｜RULIWEB｜",
     "categories": [
       "게임툰"
     ]
   },
   {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Splunk 대시보드 - 3rd",
-    "description": "스플렁크 대시보드 생성 시 조건 입력창은 다섯 가지인데 형태만 다를 뿐 기능은 모두 동일하다.\n\n\n\n\n프로토콜 조건 입력창 추가. 프로토콜 리스트는 최근 30일 데이터에서 선택.\n\n\n\n\n아직은 조건을 선택해도 차트에 적용되지 않는다.\n\n\n\n\n원본 소스를 보면 프로토콜 조건 입력창의 선택값은 field2 토큰에 저장된다. 해당 토큰을 검색어에 적용해줘야 차트에 반영된다는 얘기.\n\n<form version=\"1.1\" theme=\"light\">\n  <label>Windows Firewall</label>\n  <fieldset submitButton=\"false\" autoRun=\"true\">\n    <input type=\"time\" token=\"field1\">\n      <label></label>\n      <default>\n        <earliest>-15m</earliest>\n        <latest>now</latest>\n      </default>\n    </input>\n    <input type=\"radio\" token=\"field2\">\n      <label>Protocol</label>\n      <fieldForLabel>protocol</fieldForLabel>\n      <fieldForValue>protocol</fieldForValue>\n      <search>\n        <query>index=winfirewall\n| stats count by protocol</query>\n        <earliest>-30d@d</earliest>\n        <latest>now</latest>\n      </search>\n    </input>\n  </fieldset>\n  <row>\n    <panel>\n      <table>\n        <title>목적지별 발생 현황</title>\n        <search>\n          <query>index=winfirewall protocol=$field2$\n| stats count by protocol, dst_ip, dst_port, action, path\n| sort - count</query>\n          <earliest>$field1.earliest$</earliest>\n          <latest>$field1.latest$</latest>\n        </search>\n        <option name=\"drilldown\">none</option>\n      </table>\n    </panel>\n  </row>\n</form>\n\n\n\n\n\n\n다른 입력창 동작 방식도 모두 마찬가지.\n\n\n\n\nMultiselect(다중 선택)는 약간 다름. 다른 입력창은 검색 구문에 선택값만 반영하는 구조인데, 다중 입력은 둘 이상의 값을 선택하기 위한 구문까지 정해줘야 함.\n\n\n\n\n<form version=\"1.1\" theme=\"light\">\n  <label>Windows Firewall</label>\n  <fieldset submitButton=\"false\" autoRun=\"true\">\n    <input type=\"time\" token=\"field1\">\n      <label></label>\n      <default>\n        <earliest>-15m</earliest>\n        <latest>now</latest>\n      </default>\n    </input>\n    <input type=\"multiselect\" token=\"field2\">\n      <label>Protocol</label>\n      <valuePrefix>protocol=</valuePrefix>\n      <delimiter> OR </delimiter>\n      <fieldForLabel>protocol</fieldForLabel>\n      <fieldForValue>protocol</fieldForValue>\n      <search>\n        <query>index=winfirewall\n| stats count by protocol</query>\n        <earliest>-30d@d</earliest>\n        <latest>now</latest>\n      </search>\n    </input>\n  </fieldset>\n  <row>\n    <panel>\n      <table>\n        <title>목적지별 발생 현황</title>\n        <search>\n          <query>index=winfirewall $field2$\n| stats count by protocol, dst_ip, dst_port, action, path\n| sort - count</query>\n          <earliest>$field1.earliest$</earliest>\n          <latest>$field1.latest$</latest>\n        </search>\n        <option name=\"drilldown\">none</option>\n      </table>\n    </panel>\n  </row>\n</form>\n\n\n\n\n\n\n그냥 Text 옵션 이용해서 검색창을 붙이자.\n\n<form version=\"1.1\" theme=\"light\">\n  <label>Windows Firewall</label>\n  <fieldset submitButton=\"false\" autoRun=\"true\">\n    <input type=\"time\" token=\"field1\">\n      <label></label>\n      <default>\n        <earliest>-15m</earliest>\n        <latest>now</latest>\n      </default>\n    </input>\n    <input type=\"text\" token=\"search_keyword\">\n      <label></label>\n      <default></default>\n    </input>\n  </fieldset>\n  <row>\n    <panel>\n      <table>\n        <title>목적지별 발생 현황</title>\n        <search>\n          <query>index=winfirewall $search_keyword$\n| stats count by protocol, dst_ip, dst_port, action, path\n| sort - count</query>\n          <earliest>$field1.earliest$</earliest>\n          <latest>$field1.latest$</latest>\n        </search>\n        <option name=\"drilldown\">none</option>\n      </table>\n    </panel>\n  </row>\n\n</form>\n\n\n\n\n\n관련 글\n\nSplunk 대시보드 - 2nd\nSplunk 대시보드",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/02/splunk-3rd.html",
-    "pubDate": "2025-02-14T08:18:00.005Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "파이코인 상장 된다. 와 이건 몰랐다.",
-    "description": "영상: https://www.youtube.com/watch?v=p4ymqMYY1iQ\n\n\n\n처음 등당할때 무한 체굴이라 가치고 없어 보였는데\n이걸 상장한다는군요.\n와 미쳤다.\n역시 머리속에 있는건 우동사리가 맞나봅니다. \n인생에 도움이 안되네요\n나도 체굴하고 있을껄 아깝다..\n지금이라도 해봐야징",
+    "title": "First preview of Visual Studio 2022 v17.14",
+    "description": "We are pleased to announce the release of Visual Studio 2022 v17.14 Preview 1, marking the initial preview of our next update to Visual Studio. This update prioritizes delivering exceptional developer experiences, with an emphasis on stability and security, as well as AI enhancements. Download the preview and see the full list of enhancements in […]\nThe post First preview of Visual Studio 2022 v17.14 appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1142",
-    "pubDate": "Thu, 13 Feb 2025 16:40:56 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/visualstudio/first-preview-of-visual-studio-2022-v17-14/",
+    "pubDate": "Wed, 12 Feb 2025 14:45:47 +0000",
+    "creator": "Mads Kristensen",
     "categories": [
-      "코인",
-      "파이코인"
+      "Artificial Intelligence",
+      "GitHub Copilot",
+      "Reliability",
+      "Visual Studio",
+      "Preview",
+      "security"
     ]
   }
 ]
