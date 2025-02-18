@@ -2,155 +2,46 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "신나는 삼국지~ 아하~! 진·삼국무쌍 오리진",
+    "title": "[MULTI] 고전 1인칭 ARPG에 보내는 러브레터, '어바우드'",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2284",
-    "pubDate": "Thu, 13 Feb 2025 20:43:07 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2285",
+    "pubDate": "Thu, 13 Feb 2025 23:56:19 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "게임툰"
+      "리뷰"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Introducing Impressions at Netflix",
-    "description": "No description available",
+    "title": "AI Assistant expands with cutting-edge models",
+    "description": "JetBrains AI Assistant offers you the flexibility to choose from a range of advanced cloud-based LLMs from leading providers or use locally hosted models for increased data privacy. We’re continuously updating the platform with the latest high-performance models. Starting from JetBrains IDEs 2024.3.2, you’ll have access to Anthropic’s Claude Sonnet 3.5 and Haiku 3.5, OpenAI’s […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/introducing-impressions-at-netflix-e2b67c88c9fb?source=rss----2615bd06b42e---4",
-    "pubDate": "Sat, 15 Feb 2025 01:13:20 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://blog.jetbrains.com/ai/2025/02/ai-assistant-expands-with-cutting-edge-models/",
+    "pubDate": "Tue, 11 Feb 2025 13:06:12 +0000",
+    "creator": "Daniela Bentrup",
     "categories": [
-      "distributed-systems",
-      "data",
-      "data-engineering"
+      "news",
+      "ai-assistant"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Estimating Incremental Lift in Customer Value (Delta CV) using Synthetic Control",
+    "title": "GitHub Copilot으로 .NET 개발자 생산성 향상하기",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/paypal-tech/estimating-incremental-lift-in-customer-value-delta-cv-using-synthetic-control-522be5e3da3a?source=rss----6423323524ba---4",
-    "pubDate": "Fri, 14 Feb 2025 20:41:49 GMT",
-    "creator": "Mahshid Moha",
-    "categories": [
-      "synthetic-control",
-      "customer-value",
-      "paypal",
-      "causal-inference"
-    ]
+    "link": "https://jacking75.github.io/tech-ai_20250215/",
+    "pubDate": "Sat, 15 Feb 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 4,
-    "imageUrl": "",
-    "title": "토스, 앱 출시 10주년 기념 공간 ‘스퀘어 오브 토스’ 운영",
-    "description": "2월 26일부터 3월 2일까지 앤더슨씨 성수에서 전시 및 강연",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/squareoftoss",
-    "pubDate": "Thu, 13 Feb 2025 00:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Ktor 3.1.0 Release",
-    "description": "Ktor 3.1.0 is here! This is the first minor release of the year, bringing exciting new features, performance improvements, and bug fixes. This release includes improvements to server-sent events (SSE), documentation enhancements, WebAssembly (Wasm) support, dependency injection design updates, and some initial steps toward gRPC integration. 🚀 Get started with Ktor 3.1.0 now! Ready to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/02/ktor-3-1-0-release/",
-    "pubDate": "Thu, 13 Feb 2025 12:48:01 +0000",
-    "creator": "Leonid Stashevsky",
-    "categories": [
-      "ktor",
-      "news",
-      "release"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "모닝 마스터 - 계란 토스 커피 한번에",
-    "description": "영상: https://www.youtube.com/watch?v=wenw3J9aETY\n\n\n\n신기한건 쓰레기 입니다.\n절대 사지말것",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1138",
-    "pubDate": "Mon, 10 Feb 2025 17:44:44 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "오븐"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Unity MP4 파일 UI 에 재생하기",
-    "description": "영상: https://www.youtube.com/watch?v=-XzVq7qIuys\n\n\n\n영상은 이걸 보시구요\n유니티6 로 해봤는데 에디터에서 잘됩니다.\n윈도우즈 빌드 - 확인중, 갑자기 빌드가 안되네요 \n웹 빌드 - 검은 화면으로 나오면서 영상이 나오지 않습니다.\n안드로이드 빌드 - 확인중\n \n1. 씬에서 UI Canvas 가 필요합니다. UI -> Image 를 생성하세요\n2. Image 에서 Image 콤포넌트는 삭제하고 Raw Image 를 Add 합니다.\n3. 파일에서 Create -> Rendering -> Renering Texture 해서 하나 만듭니다.\n5. 씬에서 빈 오브젝트를 하나 만듭니다.\n     Vide Player 를 Add 합니다.\n6. Vide Player 에 video clip 에는 mp3 파일을 넣어줍니다.\n     Target Texture 에너는 만들어둔 Rendering Texture 파일을 붙입니다.\n7. Image -> Raw Image 에는 Texture 에 Rendering Texture 파일을 붙입니다.\n이러면 UI 에 사각 이미지에 영상이 화면에 나오게 됩니다.\n결과 화면\n\n\n잘되네요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1144",
-    "pubDate": "Fri, 14 Feb 2025 23:41:18 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "유니티"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "VisualStudio.Extensibility: Managing .NET runtime versions",
-    "description": "We continue to invest in the VisualStudio.Extensibility SDK to allow developers like you to create extensions that run faster and smoother than ever before! VisualStudio.Extensibility helps you build extensions that run outside the main Visual Studio IDE process for improved performance and reliability, and that can be installed without the need to restart Visual Studio. […]\nThe post VisualStudio.Extensibility: Managing .NET runtime versions appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-managing-net-runtime-versions/",
-    "pubDate": "Mon, 10 Feb 2025 16:17:53 +0000",
-    "creator": "Tina Schrepfer (LI)",
-    "categories": [
-      "Accessibility",
-      "Extensibility",
-      "Visual Studio",
-      ".NET",
-      "visualstudio.extensibility",
-      "vsix"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Looking back at our Bug Bounty program in 2024",
-    "description": "In 2024, our bug bounty program awarded more than $2.3 million in bounties, bringing our total bounties since the creation of our program in 2011 to over $20 million.  As part of our defense-in-depth strategy, we continued to collaborate with the security research community in the areas of GenAI, AR/VR, ads tools, and more.  We [...]\nRead More...\nThe post Looking back at our Bug Bounty program in 2024 appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/02/13/security/looking-back-at-our-bug-bounty-program-in-2024/",
-    "pubDate": "Thu, 13 Feb 2025 17:00:46 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Security"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "토스, ‘페이스페이’ 첫선…편의점에서 얼굴로 결제",
-    "description": "오는 3월 CU, GS25 일부 매장에서 페이스페이 결제 가능",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/tosspay",
-    "pubDate": "Wed, 12 Feb 2025 00:26:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "Kotlin Multiplatform Tooling – Shifting Gears",
     "description": "A couple of years ago, we initiated the idea of creating a Kotlin Multiplatform IDE to help facilitate the development of KMP applications. We embarked on this venture, building on the Fleet platform, with the intention of releasing it as a standalone IDE. During this time, we have received feedback from our customers, specifically those […]",
@@ -165,19 +56,22 @@
     ]
   },
   {
-    "id": 12,
+    "id": 5,
     "imageUrl": "",
-    "title": "LLM 앱의 제작에서 테스트와 배포까지, LLMOps 구축 사례 소개",
-    "description": "LLMOps란 무엇인가요?\n최근 GPT-4와 같은 대규모 언어 모델(large language model, 이하 LLM)의 사용이 보편화되면서 이를 활용한 애플리케이션이 활발히 개...",
+    "title": "dotInsights | February 2025",
+    "description": "Did you know? The GC.KeepAlive() method in the .NET Framework is not used to prevent garbage collection of an object for the entire method scope, as you might think. Instead, it explicitly ensures that the object remains referenced at a specific point in the code after it’s last used. It’s particularly useful when dealing with […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/building-llmops-for-creating-testing-deploying-of-llm-apps",
-    "pubDate": "Fri, 14 Feb 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/dotnet/2025/02/12/dotinsights-february-2025/",
+    "pubDate": "Wed, 12 Feb 2025 14:47:01 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
   },
   {
-    "id": 13,
+    "id": 6,
     "imageUrl": "",
     "title": "Visual Studio 2022 v17.13 is Now Available!",
     "description": "We are excited to announce the availability of Visual Studio 2022 v17.13. This update focuses on stability and security, along with continuous improvements for all developers using Visual Studio. Based on your feature requests, several new tools and enhancements have been added to this release. This update includes improvements for developers, such as advanced debugging […]\nThe post Visual Studio 2022 v17.13 is Now Available! appeared first on Visual Studio Blog.",
@@ -207,36 +101,134 @@
     ]
   },
   {
-    "id": 14,
+    "id": 7,
     "imageUrl": "",
-    "title": "이번엔 스위치로 돌아왔다, 동키콩 리턴즈 HD",
+    "title": "화면 최강? 조텍 AMOLED 게이밍 UMPC 존(ZOTAC ZONE), 99만9천원에 사전예약 시작",
+    "description": "조텍코리아에서 ZOTAC의 게이밍 UMPC 존(ZONE)의 대한민국 사전예약을 시작합니다.\n \n조텍(ZOTAC) 존(ZONE), 어떤 게이밍 UMPC인가?\n\n\n작년 컴퓨텍스 2024 행사에서 처음 소개되었던 조텍의 존(ZONE)은 밸브의 스팀덱과 에이수스 ROG 엘라이(Ally)가 불러온 게이밍 UMPC 바람을 타고 등장한 게이밍 UMPC/핸드헬드로 분류되는 제품입니다.\n\n\n기본적인 스타일이나 디자인, 그리고 AMD 라이젠 7 8840U를 채택한 성능은 최근의 경쟁 제품과 비슷한 점이 많지만 확실히 차별화되는 점이 있습니다.\n \n\n\n \n조텍 존의 디스플레이는 1920x1080 해상도의 7인치 AMOLED 패널을 채택했습니다.\n타사 제품과는 달리 LCD가 아닌 OLED 방식의 패널을 쓰기 때문에 높은 명암비와 사실적인 암부 표현이 강점입니다. 특히 최대 밝기가 무려 800nit나 된다는 점 또한 눈여겨 볼 만 합니다.\n \n게다가 화면 주사율은 120Hz까지 되니 화면 만큼은 시중의 게이밍 UMPC 가운데 최고라고 손 꼽아도 될 듯 합니다.\n\n  \n\nRAM은 16GB LPDDR5X-7500를, SSD는 M.2 NVME(2280) 512GB를 내장했으며 WiFi 6E, 블루투스 5.2를 지원합니다.\n \n\n\n \n이 밖에도 다양한 확장 포트를 제공하고 있습니다.\n \n \n조텍 존의 가격 및 사전예약 일정과 사은품\n \n\n\n \n우선 조텍 존의 대한민국 사전판매 일정은 2월 17일부터 2월 28일까지입니다.\n \n\n\n \n \n조텍 존의 사전예약 판매 가격은 99만9천원입니다.\n그리고 선착순 30명에 한해 한정판 캐릭케이스를 제공하며, 정식 출시 3일 전 무료 우선배송을 실시합니다.\n \n사전예약판매는 조텍의 공식 쇼핑몰인 탁탁몰에서 진행되니 자세한 내용은 이곳에서 살펴보시기 바랍니다.\n \n(출처 : 조텍)\n \n관련 글\n\n \n게이밍 UMPC 조텍 존(ZOTAC ZONE), 컴퓨텍스 2024에서 공개\n얼마 전 그 존재를 드러냈던 조텍(ZOTAC)의 게이밍 UMPC/핸드헬드가 대만에서 열리고 있는 컴퓨텍스 2024를 통해 존(ZONE)이라는 이름과 함께 그 모습을 공개했습니다.  조텍 게이밍(ZOTAC GAMING) 브랜\nlazion.com",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://lazion.com/2513736",
+    "pubDate": "Mon, 17 Feb 2025 07:30:18 +0900",
+    "creator": "늑돌이",
+    "categories": [
+      "#작은PC/#UMPC#핸드헬드PC",
+      "game",
+      "Gaming UMPC",
+      "News",
+      "PC",
+      "UMPC",
+      "zone",
+      "ZOTAC"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "두산 투자 쉽다곤 안했다. 매년 반토막이 나도 존버하신분",
+    "description": "영상: https://www.youtube.com/watch?v=C5k4GqpkCic&t=145s\n\n\n\n매년 반토막이 나면 최고점 다신 안올꺼 같지만\n꾸역꾸역 올라간다.\n한국 주식은 원래 그런것인가 보다 라는 생각이들면서\n \n에코프로비엠 열심히 존버해야겠다는 생각이 들었습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1146",
+    "pubDate": "Mon, 17 Feb 2025 14:38:50 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "한국주식"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "OpenAI vs. DeepSeek: Which AI Understands Kotlin Better?",
+    "description": "AI models are evolving fast, and DeepSeek-R1 is making waves as a serious competitor to OpenAI. But how well do these models understand Kotlin? Can they generate reliable code, explain tricky concepts, and help with debugging? JetBrains Research tested the latest AI models, including DeepSeek-R1, OpenAI o1, and OpenAI o3-mini, using KotlinHumanEval and a new […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/02/openai-vs-deepseek-which-ai-understands-kotlin-better/",
+    "pubDate": "Mon, 17 Feb 2025 11:44:00 +0000",
+    "creator": "Vera Kudrevskaia",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Unlocking global AI potential with next-generation subsea infrastructure",
+    "description": "Today, we’re announcing our most ambitious subsea cable endeavor yet: Project Waterworth. Once complete, the project will reach five major continents and span over 50,000 km (longer than the Earth’s circumference), making it the world’s longest subsea cable project using the highest-capacity technology available.  Project Waterworth will bring industry-leading connectivity to the U.S., India, Brazil, [...]\nRead More...\nThe post Unlocking global AI potential with next-generation subsea infrastructure appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/02/14/connectivity/project-waterworth-ai-subsea-infrastructure/",
+    "pubDate": "Fri, 14 Feb 2025 16:28:06 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Connectivity",
+      "Networking & Traffic"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Introducing Impressions at Netflix",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2283",
-    "pubDate": "Mon, 10 Feb 2025 19:37:24 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://netflixtechblog.com/introducing-impressions-at-netflix-e2b67c88c9fb?source=rss----2615bd06b42e---4",
+    "pubDate": "Sat, 15 Feb 2025 01:13:20 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "게임툰"
+      "distributed-systems",
+      "data",
+      "data-engineering"
     ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "토스, 앱 출시 10주년 기념 공간 ‘스퀘어 오브 토스’ 운영",
+    "description": "2월 26일부터 3월 2일까지 앤더슨씨 성수에서 전시 및 강연",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/squareoftoss",
+    "pubDate": "Thu, 13 Feb 2025 00:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "New restrictions on package loading",
+    "description": "As Visual Studio transitions its core packages and services to an async loading/retrieval model, we’ve identified bugs in both the initial async implementation and the existing synchronous package loading mechanism. While most of these bug fixes have been transparent to extenders, one requires attention due to changed constraints. This post highlights that change. Note that […]\nThe post New restrictions on package loading appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/new-restrictions-on-package-loading/",
+    "pubDate": "Thu, 13 Feb 2025 22:45:37 +0000",
+    "creator": "Ryan Molden",
+    "categories": [
+      "Extensibility",
+      "Visual Studio",
+      "vsix",
+      "vssdk"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "토스 페이스패스, 8가지 물음표에 대한 마침표",
+    "description": "페이스패스에 대해 자주 묻는 질문에 답해드릴게요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/facepass-qna",
+    "pubDate": "Thu, 13 Feb 2025 07:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "First preview of Visual Studio 2022 v17.14",
-    "description": "We are pleased to announce the release of Visual Studio 2022 v17.14 Preview 1, marking the initial preview of our next update to Visual Studio. This update prioritizes delivering exceptional developer experiences, with an emphasis on stability and security, as well as AI enhancements. Download the preview and see the full list of enhancements in […]\nThe post First preview of Visual Studio 2022 v17.14 appeared first on Visual Studio Blog.",
+    "title": "Splunk 대시보드 - 3rd",
+    "description": "스플렁크 대시보드 생성 시 조건 입력창은 다섯 가지인데 형태만 다를 뿐 기능은 모두 동일하다.\n\n\n\n\n프로토콜 조건 입력창 추가. 프로토콜 리스트는 최근 30일 데이터에서 선택.\n\n\n\n\n아직은 조건을 선택해도 차트에 적용되지 않는다.\n\n\n\n\n원본 소스를 보면 프로토콜 조건 입력창의 선택값은 field2 토큰에 저장된다. 해당 토큰을 검색어에 적용해줘야 차트에 반영된다는 얘기.\n\n<form version=\"1.1\" theme=\"light\">\n  <label>Windows Firewall</label>\n  <fieldset submitButton=\"false\" autoRun=\"true\">\n    <input type=\"time\" token=\"field1\">\n      <label></label>\n      <default>\n        <earliest>-15m</earliest>\n        <latest>now</latest>\n      </default>\n    </input>\n    <input type=\"radio\" token=\"field2\">\n      <label>Protocol</label>\n      <fieldForLabel>protocol</fieldForLabel>\n      <fieldForValue>protocol</fieldForValue>\n      <search>\n        <query>index=winfirewall\n| stats count by protocol</query>\n        <earliest>-30d@d</earliest>\n        <latest>now</latest>\n      </search>\n    </input>\n  </fieldset>\n  <row>\n    <panel>\n      <table>\n        <title>목적지별 발생 현황</title>\n        <search>\n          <query>index=winfirewall protocol=$field2$\n| stats count by protocol, dst_ip, dst_port, action, path\n| sort - count</query>\n          <earliest>$field1.earliest$</earliest>\n          <latest>$field1.latest$</latest>\n        </search>\n        <option name=\"drilldown\">none</option>\n      </table>\n    </panel>\n  </row>\n</form>\n\n\n\n\n\n\n다른 입력창 동작 방식도 모두 마찬가지.\n\n\n\n\nMultiselect(다중 선택)는 약간 다름. 다른 입력창은 검색 구문에 선택값만 반영하는 구조인데, 다중 입력은 둘 이상의 값을 선택하기 위한 구문까지 정해줘야 함.\n\n\n\n\n<form version=\"1.1\" theme=\"light\">\n  <label>Windows Firewall</label>\n  <fieldset submitButton=\"false\" autoRun=\"true\">\n    <input type=\"time\" token=\"field1\">\n      <label></label>\n      <default>\n        <earliest>-15m</earliest>\n        <latest>now</latest>\n      </default>\n    </input>\n    <input type=\"multiselect\" token=\"field2\">\n      <label>Protocol</label>\n      <valuePrefix>protocol=</valuePrefix>\n      <delimiter> OR </delimiter>\n      <fieldForLabel>protocol</fieldForLabel>\n      <fieldForValue>protocol</fieldForValue>\n      <search>\n        <query>index=winfirewall\n| stats count by protocol</query>\n        <earliest>-30d@d</earliest>\n        <latest>now</latest>\n      </search>\n    </input>\n  </fieldset>\n  <row>\n    <panel>\n      <table>\n        <title>목적지별 발생 현황</title>\n        <search>\n          <query>index=winfirewall $field2$\n| stats count by protocol, dst_ip, dst_port, action, path\n| sort - count</query>\n          <earliest>$field1.earliest$</earliest>\n          <latest>$field1.latest$</latest>\n        </search>\n        <option name=\"drilldown\">none</option>\n      </table>\n    </panel>\n  </row>\n</form>\n\n\n\n\n\n\n그냥 Text 옵션 이용해서 검색창을 붙이자.\n\n<form version=\"1.1\" theme=\"light\">\n  <label>Windows Firewall</label>\n  <fieldset submitButton=\"false\" autoRun=\"true\">\n    <input type=\"time\" token=\"field1\">\n      <label></label>\n      <default>\n        <earliest>-15m</earliest>\n        <latest>now</latest>\n      </default>\n    </input>\n    <input type=\"text\" token=\"search_keyword\">\n      <label></label>\n      <default></default>\n    </input>\n  </fieldset>\n  <row>\n    <panel>\n      <table>\n        <title>목적지별 발생 현황</title>\n        <search>\n          <query>index=winfirewall $search_keyword$\n| stats count by protocol, dst_ip, dst_port, action, path\n| sort - count</query>\n          <earliest>$field1.earliest$</earliest>\n          <latest>$field1.latest$</latest>\n        </search>\n        <option name=\"drilldown\">none</option>\n      </table>\n    </panel>\n  </row>\n\n</form>\n\n\n\n\n\n관련 글\n\nSplunk 대시보드 - 2nd\nSplunk 대시보드",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/first-preview-of-visual-studio-2022-v17-14/",
-    "pubDate": "Wed, 12 Feb 2025 14:45:47 +0000",
-    "creator": "Mads Kristensen",
-    "categories": [
-      "Artificial Intelligence",
-      "GitHub Copilot",
-      "Reliability",
-      "Visual Studio",
-      "Preview",
-      "security"
-    ]
+    "link": "https://kangmyounghun.blogspot.com/2025/02/splunk-3rd.html",
+    "pubDate": "2025-02-14T08:18:00.005Z",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
