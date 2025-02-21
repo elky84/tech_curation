@@ -2,74 +2,20 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "New restrictions on package loading",
-    "description": "As Visual Studio transitions its core packages and services to an async loading/retrieval model, we’ve identified bugs in both the initial async implementation and the existing synchronous package loading mechanism. While most of these bug fixes have been transparent to extenders, one requires attention due to changed constraints. This post highlights that change. Note that […]\nThe post New restrictions on package loading appeared first on Visual Studio Blog.",
+    "title": "MSVC C++ Code Analysis: Updates in Visual Studio 2022 version 17.13",
+    "description": "This post details the latest updates in Visual Studio 2022 version 17.13 for MSVC C++ Code Analysis. Driven by internal team insights and developer community feedback, these improvements significantly reduce false positives and strengthen production code security.\nThe post MSVC C++ Code Analysis: Updates in Visual Studio 2022 version 17.13 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/new-restrictions-on-package-loading/",
-    "pubDate": "Thu, 13 Feb 2025 22:45:37 +0000",
-    "creator": "Ryan Molden",
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-c-code-analysis-updates-in-visual-studio-2022-version-17-13/",
+    "pubDate": "Wed, 19 Feb 2025 15:14:30 +0000",
+    "creator": "Carson Radtke",
     "categories": [
-      "Extensibility",
-      "Visual Studio",
-      "vsix",
-      "vssdk"
+      "Announcement",
+      "C++"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "Database Migrations in the Real World",
-    "description": "Database migrations are critical to modern application development and deployment, enabling teams to evolve their database schema alongside their application code. However, as systems grow in complexity and scale, managing migrations becomes increasingly challenging. At scale, a simple schema update can impact several microservices, terabytes of data, and global user traffic. It requires careful planning, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/02/database-migrations-in-the-real-world/",
-    "pubDate": "Mon, 17 Feb 2025 11:02:11 +0000",
-    "creator": "Siva Katamreddy",
-    "categories": [
-      "idea",
-      "database",
-      "flyway",
-      "intellij-idea",
-      "liquibase",
-      "migrations"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Automate Your React App Deployment With TeamCity",
-    "description": "This tutorial was brought to you by Kumar Harsh, a software developer and technical author. If you regularly work with React projects, you probably already know how tricky it can be to deploy them smoothly. Issues like manual errors, inconsistent deployment practices, and slow iteration cycles often turn React app deployment into a challenging process […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/02/automate-your-react-app-deployment-with-teamcity/",
-    "pubDate": "Wed, 19 Feb 2025 15:43:45 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "all-things-web",
-      "best-practices",
-      "teamcity-2",
-      "tutorials",
-      "react",
-      "tutorial"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "올해 즐겼던 게임 중 일부~",
-    "description": "푸에르토리코 와이프랑 2인으로 자주 즐기는 게임 SE버전은 쫌... 인것 같아서 포기했었다. AR에서 아그리콜라 SE가 나올지도 모른다는 루머가 있던데... 엘드리치 호러 초창기 보린이 일때 샀었는데 지금도 와이프랑 2인플을 가끔 한다. 확장이 나온다는걸 기념해서 본판을 돌려봤다 ㅎㅎ 큐비토스 예전에 저렴하게 구매했는데 2만원 중반쯤. 저렴하게 구매했으면 꽤나 괜찮다. 돌팔이 약장수를 좋아하는 짝꿍에게 맞는 그런게임. 주사위 빌딩을 했는데 아쉽게끝난다는 평이 많은데 트랙을 두개 놓고 하던지 두바퀴 도는 방식으로 하면 후반에 주사위 빌드해놓은게 터지는 맛도 좋다. 주사위가 빌딩되어 있어 그다지 늘어지지않고 몇턴만 더돌고.......",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/223766587268?fromRss=true&trackingCode=rss",
-    "pubDate": "Wed, 19 Feb 2025 22:57:54 +0900",
-    "creator": "dlehddus84",
-    "categories": [
-      "플레이"
-    ]
-  },
-  {
-    "id": 5,
     "imageUrl": "",
     "title": "[MULTI] 좋은 소재 · 빈약한 추리 · 얼얼한 뒷통수, 도시전설 해체센터",
     "description": "No description available",
@@ -83,110 +29,134 @@
     ]
   },
   {
-    "id": 6,
+    "id": 3,
     "imageUrl": "",
-    "title": "와콤의 뿌리&middot;근본? 타블렛 인튜어스 프로(Intuos Pro) 타블렛 출시",
-    "description": "타블렛 명가 와콤(Wacom)이 인튜어스 프로(Intuos Pro) 타블렛 3종을 출시합니다.\n \n태블릿 컴퓨터가 아닌 그래픽 디지타이저를 칭하는 타블렛(tablet)의 원조 기업은 역시 와콤(WACOM)입니다. 요즘은 화면과 그래픽 디지타이저가 일체화된 제품이 유행합니다만, 와콤을 처음 유명하게 한 건 바로 화면없는 인튜어스(Intuous) 시리즈죠. 실제로 인튜어스3는 여전히 업계 최전방에서 활약 중입니다.\n \n바로 그 전통의 인튜어스 시리즈를 잇는 새로운 인튜어스 프로(Intuos Pro)는 무엇이 달라졌을까요?\n\n\n 인튜어스 프로의 특징 1. 기계식 다이얼\n \n소/중/대형 세 모델로 나뉘어 나온 인튜어스 프로(2025)에서 가장 먼저 눈에 띄는 점은 바로 기계식 다이얼이 되겠습니다.\n\n\n \n인튜어스 프로의 상단에 새롭게 추가된 다이얼은 아티스트에게 기계식 촉감을 제공하여 불필요하거나 의도하지 않은 입력을 줄였습니다. 이 기계식 다이얼은 중형과 대형 모델에 두개, 소형 모델에는 1개를 탑재했습니다.\n \n여기에 더해 익스프레스 키와 다이얼 버튼의 위치도 타블렛 상단으로 옮겼으며, 왼손과 오른손 사용자 모두 별도 설정 없이 쓸 수 있습니다. \n다이얼과 익스프레스 키는 프리셋 기능이 적용돼 와콤 이용자들이 가장 많이 사용하는 단축키/동작이 설정되어 있지만 원하는 대로 맞춤 설정할 수 있습니다.\n \n \n인튜어스 프로의 특징 - 2. 와콤 프로 펜 3\n \n와콤의 인기 제품인 신티크 프로 액정 타블렛에 적용된 와콤 프로 펜 3가 인튜어스 프로에도 들어갑니다.\n \n\n\n \n프로 펜 3는 모든 와콤 펜과 동일하게 무충전, 무배터리 펜으로 사용자 설정 가능한 단축키 버튼부터 그립의 종류, 펜의 무게 중심까지 커스터마이징할 수 있도록 만들어졌습니다. 각자 선호하는 프로 펜 3의 액세서리들을 조합해서 나만의 펜으로 커스텀 해서 쓸 수 있습니다.\n \n인튜어스 프로(2025)의 프로 펜 3에는 새로운 고무 펜심이 액세서리로 추가됐으며, 그 밖에 펠트 펜심, 표준 펜심까지 총 3가지 타입의 펜심도 제공됩니다.\n \n \n인튜어스 프로의 특징 - 3. 기타\n \n이 밖에도 인튜어스 프로는 디스플레이 크기에 맞춘 16:9 비율로 만들어졌으며 손이 닿는 하단을 4mm의 두께로 하여 작업자들은 책상 위에서 손과 손목을 유연하게 쓸 수 있습니다.\n \n\n\n인튜어스 프로의 모든 모델은 블루투스를 지원하며, 최대 16시간의 무선 작동 시간을 제공합니다. USB 케이블로 유선 연결 사용도 가능하고, 블루투스 무선 연결로 최대 2대의 장치와 연결할 수 있는데 총 3대의 연결된 장치 간 전환은 타블렛 상단의 슬라이드를 통해 쉽게 가능합니다.\n \n새로운 인튜어스 프로는 윈도우(Windows)와 맥(Mac) 운영 체제를 지원하며 스테들러(Staedtler), 라미(Lamy), 닥터 그립(Dr. Grip) 등 디지털 펜과 추가 설정 없이 호환됩니다.\n \n \n인튜어스 프로의 가격과 출시일자\n \n반응형\n\n    \n    (adsbygoogle = window.adsbygoogle || []).push({});\n  \n \n인튜어스 프로의 국내 출시가는 아직 밝혀지지 않았습니다만, 미국의 경우 대형-중형-소형이 각각 $499.95, $379.95, $249.95으로 대략 72만5천원-55만1천원-36만3천원에 해당하니 참고하시기 바랍니다.\n \n인튜어스 프로는 대한민국에 3월에 출시할 예정이며 정확한 가격 및 자세한 내용은 그때 다시 발표될 것으로 보입니다.\n \n(출처 : 와콤)\n \n \n와콤(WACOM) 관련 글 보기",
+    "title": "화면 최강? 조텍 AMOLED 게이밍 UMPC 존(ZOTAC ZONE), 99만9천원에 사전예약 시작",
+    "description": "조텍코리아에서 ZOTAC의 게이밍 UMPC 존(ZONE)의 대한민국 사전예약을 시작합니다.\n \n조텍(ZOTAC) 존(ZONE), 어떤 게이밍 UMPC인가?\n\n\n작년 컴퓨텍스 2024 행사에서 처음 소개되었던 조텍의 존(ZONE)은 밸브의 스팀덱과 에이수스 ROG 엘라이(Ally)가 불러온 게이밍 UMPC 바람을 타고 등장한 게이밍 UMPC/핸드헬드로 분류되는 제품입니다.\n\n\n기본적인 스타일이나 디자인, 그리고 AMD 라이젠 7 8840U를 채택한 성능은 최근의 경쟁 제품과 비슷한 점이 많지만 확실히 차별화되는 점이 있습니다.\n \n\n\n \n조텍 존의 디스플레이는 1920x1080 해상도의 7인치 AMOLED 패널을 채택했습니다.\n타사 제품과는 달리 LCD가 아닌 OLED 방식의 패널을 쓰기 때문에 높은 명암비와 사실적인 암부 표현이 강점입니다. 특히 최대 밝기가 무려 800nit나 된다는 점 또한 눈여겨 볼 만 합니다.\n \n게다가 화면 주사율은 120Hz까지 되니 화면 만큼은 시중의 게이밍 UMPC 가운데 최고라고 손 꼽아도 될 듯 합니다.\n\n  \n\nRAM은 16GB LPDDR5X-7500를, SSD는 M.2 NVME(2280) 512GB를 내장했으며 WiFi 6E, 블루투스 5.2를 지원합니다.\n \n\n\n \n이 밖에도 다양한 확장 포트를 제공하고 있습니다.\n \n \n조텍 존의 가격 및 사전예약 일정과 사은품\n \n\n\n \n우선 조텍 존의 대한민국 사전판매 일정은 2월 17일부터 2월 28일까지입니다.\n \n\n\n \n \n조텍 존의 사전예약 판매 가격은 99만9천원입니다.\n그리고 선착순 30명에 한해 한정판 캐릭케이스를 제공하며, 정식 출시 3일 전 무료 우선배송을 실시합니다.\n \n사전예약판매는 조텍의 공식 쇼핑몰인 탁탁몰에서 진행되니 자세한 내용은 이곳에서 살펴보시기 바랍니다.\n \n(출처 : 조텍)\n \n관련 글\n\n \n게이밍 UMPC 조텍 존(ZOTAC ZONE), 컴퓨텍스 2024에서 공개\n얼마 전 그 존재를 드러냈던 조텍(ZOTAC)의 게이밍 UMPC/핸드헬드가 대만에서 열리고 있는 컴퓨텍스 2024를 통해 존(ZONE)이라는 이름과 함께 그 모습을 공개했습니다.  조텍 게이밍(ZOTAC GAMING) 브랜\nlazion.com",
     "reviews": [],
     "syllabus": [],
-    "link": "https://lazion.com/2513735",
-    "pubDate": "Thu, 13 Feb 2025 12:38:35 +0900",
+    "link": "http://lazion.com/2513736",
+    "pubDate": "Mon, 17 Feb 2025 07:30:18 +0900",
     "creator": "늑돌이",
     "categories": [
-      "#주변기기/#키보드#마우스#컨트롤러",
-      "digitizer",
-      "Intuos",
-      "INTUOS PRO",
+      "#작은PC/#UMPC#핸드헬드PC",
+      "game",
+      "Gaming UMPC",
       "News",
-      "Tablet",
-      "wacom"
+      "PC",
+      "UMPC",
+      "zone",
+      "ZOTAC"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Splunk 대시보드 - 3rd",
+    "description": "스플렁크 대시보드 생성 시 조건 입력창은 다섯 가지인데 형태만 다를 뿐 기능은 모두 동일하다.\n\n\n\n\n프로토콜 조건 입력창 추가. 프로토콜 리스트는 최근 30일 데이터에서 선택.\n\n\n\n\n아직은 조건을 선택해도 차트에 적용되지 않는다.\n\n\n\n\n원본 소스를 보면 프로토콜 조건 입력창의 선택값은 field2 토큰에 저장된다. 해당 토큰을 검색어에 적용해줘야 차트에 반영된다는 얘기.\n\n<form version=\"1.1\" theme=\"light\">\n  <label>Windows Firewall</label>\n  <fieldset submitButton=\"false\" autoRun=\"true\">\n    <input type=\"time\" token=\"field1\">\n      <label></label>\n      <default>\n        <earliest>-15m</earliest>\n        <latest>now</latest>\n      </default>\n    </input>\n    <input type=\"radio\" token=\"field2\">\n      <label>Protocol</label>\n      <fieldForLabel>protocol</fieldForLabel>\n      <fieldForValue>protocol</fieldForValue>\n      <search>\n        <query>index=winfirewall\n| stats count by protocol</query>\n        <earliest>-30d@d</earliest>\n        <latest>now</latest>\n      </search>\n    </input>\n  </fieldset>\n  <row>\n    <panel>\n      <table>\n        <title>목적지별 발생 현황</title>\n        <search>\n          <query>index=winfirewall protocol=$field2$\n| stats count by protocol, dst_ip, dst_port, action, path\n| sort - count</query>\n          <earliest>$field1.earliest$</earliest>\n          <latest>$field1.latest$</latest>\n        </search>\n        <option name=\"drilldown\">none</option>\n      </table>\n    </panel>\n  </row>\n</form>\n\n\n\n\n\n\n다른 입력창 동작 방식도 모두 마찬가지.\n\n\n\n\nMultiselect(다중 선택)는 약간 다름. 다른 입력창은 검색 구문에 선택값만 반영하는 구조인데, 다중 입력은 둘 이상의 값을 선택하기 위한 구문까지 정해줘야 함.\n\n\n\n\n<form version=\"1.1\" theme=\"light\">\n  <label>Windows Firewall</label>\n  <fieldset submitButton=\"false\" autoRun=\"true\">\n    <input type=\"time\" token=\"field1\">\n      <label></label>\n      <default>\n        <earliest>-15m</earliest>\n        <latest>now</latest>\n      </default>\n    </input>\n    <input type=\"multiselect\" token=\"field2\">\n      <label>Protocol</label>\n      <valuePrefix>protocol=</valuePrefix>\n      <delimiter> OR </delimiter>\n      <fieldForLabel>protocol</fieldForLabel>\n      <fieldForValue>protocol</fieldForValue>\n      <search>\n        <query>index=winfirewall\n| stats count by protocol</query>\n        <earliest>-30d@d</earliest>\n        <latest>now</latest>\n      </search>\n    </input>\n  </fieldset>\n  <row>\n    <panel>\n      <table>\n        <title>목적지별 발생 현황</title>\n        <search>\n          <query>index=winfirewall $field2$\n| stats count by protocol, dst_ip, dst_port, action, path\n| sort - count</query>\n          <earliest>$field1.earliest$</earliest>\n          <latest>$field1.latest$</latest>\n        </search>\n        <option name=\"drilldown\">none</option>\n      </table>\n    </panel>\n  </row>\n</form>\n\n\n\n\n\n\n그냥 Text 옵션 이용해서 검색창을 붙이자.\n\n<form version=\"1.1\" theme=\"light\">\n  <label>Windows Firewall</label>\n  <fieldset submitButton=\"false\" autoRun=\"true\">\n    <input type=\"time\" token=\"field1\">\n      <label></label>\n      <default>\n        <earliest>-15m</earliest>\n        <latest>now</latest>\n      </default>\n    </input>\n    <input type=\"text\" token=\"search_keyword\">\n      <label></label>\n      <default></default>\n    </input>\n  </fieldset>\n  <row>\n    <panel>\n      <table>\n        <title>목적지별 발생 현황</title>\n        <search>\n          <query>index=winfirewall $search_keyword$\n| stats count by protocol, dst_ip, dst_port, action, path\n| sort - count</query>\n          <earliest>$field1.earliest$</earliest>\n          <latest>$field1.latest$</latest>\n        </search>\n        <option name=\"drilldown\">none</option>\n      </table>\n    </panel>\n  </row>\n\n</form>\n\n\n\n\n\n관련 글\n\nSplunk 대시보드 - 2nd\nSplunk 대시보드",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/02/splunk-3rd.html",
+    "pubDate": "2025-02-14T08:18:00.005Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "트럼프 패니(penny) 폐지에 대한 해설",
+    "description": "영상: https://www.youtube.com/watch?v=3LGxKqwIsgQ\n\n\n\n \n동전만드는데 돈이 많이 든다.\n역시 효율성 때문입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1148",
+    "pubDate": "Thu, 20 Feb 2025 12:30:05 +0900",
+    "creator": "SIDNFT",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "올해 즐겼던 게임 중 일부~",
+    "description": "푸에르토리코 와이프랑 2인으로 자주 즐기는 게임 SE버전은 쫌... 인것 같아서 포기했었다. AR에서 아그리콜라 SE가 나올지도 모른다는 루머가 있던데... 엘드리치 호러 초창기 보린이 일때 샀었는데 지금도 와이프랑 2인플을 가끔 한다. 확장이 나온다는걸 기념해서 본판을 돌려봤다 ㅎㅎ 큐비토스 예전에 저렴하게 구매했는데 2만원 중반쯤. 저렴하게 구매했으면 꽤나 괜찮다. 돌팔이 약장수를 좋아하는 짝꿍에게 맞는 그런게임. 주사위 빌딩을 했는데 아쉽게끝난다는 평이 많은데 트랙을 두개 놓고 하던지 두바퀴 도는 방식으로 하면 후반에 주사위 빌드해놓은게 터지는 맛도 좋다. 주사위가 빌딩되어 있어 그다지 늘어지지않고 몇턴만 더돌고.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/dlehddus84/223766587268?fromRss=true&trackingCode=rss",
+    "pubDate": "Wed, 19 Feb 2025 22:57:54 +0900",
+    "creator": "dlehddus84",
+    "categories": [
+      "플레이"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "Looking back at our Bug Bounty program in 2024",
-    "description": "In 2024, our bug bounty program awarded more than $2.3 million in bounties, bringing our total bounties since the creation of our program in 2011 to over $20 million.  As part of our defense-in-depth strategy, we continued to collaborate with the security research community in the areas of GenAI, AR/VR, ads tools, and more.  We [...]\nRead More...\nThe post Looking back at our Bug Bounty program in 2024 appeared first on Engineering at Meta.",
+    "title": "Adobe Firefly AI, 이제 영상도 만든다? AI 영상 생성 기능 완벽 정리!",
+    "description": "이제 Adobe Firefly AI가 영상까지 생성합니다! 텍스트 입력만으로 5초짜리 영상을 만들 수 있으며, Premiere Pro와 연동해 더욱 정교한 편집이 가능합니다. Firefly AI의 영상 생성 기능과 활용법을 자세히 알아보세요!\n\n\n \n \n  Adobe Firefly AI, 이제 영상 제작도 가능하다?\n\"이미지만 만들어주는 AI가 아니라, 이제는 영상까지 만들어준다?\"\n처음 이 소식을 접했을 때 솔직히 놀라웠어요.  \n \nAdobe는 AI 기반의 이미지 생성 도구 Firefly로 이미 많은 디자이너와 크리에이터들에게 사랑받고 있죠. 그런데 이제 텍스트 입력만으로 영상까지 자동 생성할 수 있다니, 콘텐츠 제작의 패러다임이 또 한 번 바뀌는 순간입니다.\n \n특히 이번 업데이트는 단순한 기능 추가가 아니라, Adobe Premiere Pro와의 강력한 연동까지 제공하면서 더 현실적인 영상 제작 환경을 만들어줍니다. 지금부터 Firefly AI의 영상 생성 기능과 활용법을 자세히 알려드릴게요!  \n \n \n  Adobe Firefly AI의 영상 생성 기능은?\n ️ 1. 텍스트로 5초짜리 영상 생성 - Generate Video (Beta)\nFirefly AI의 Generate Video (Beta) 기능은 텍스트 입력만으로 최대 5초 길이의 영상을 만들어주는 AI 도구예요.\n \n  이 기능이 왜 혁신적일까요?\n✔️ 텍스트만 입력하면 자동으로 영상 생성\n✔️ 최대 5초 길이의 고품질 영상 제작 가능\n✔️ Adobe Stock 기반 → 저작권 문제 없이 안전\n✔️ 현재 베타 버전으로 무료 체험 가능\n예를 들어, \"도시 위를 나는 드론의 멋진 야경\"이라고 입력하면 딱 맞는 5초짜리 영상이 자동 생성되는 거죠.  \n \n\n\n\n \n✨ 2. Generative Extend: 영상 길이 자연스럽게 연장하기\n영상 편집을 하다 보면, \"아, 여기 몇 초만 더 있었으면 좋겠는데!\" 하는 순간이 많죠?\nGenerative Extend 기능은 기존 영상의 마지막 부분을 분석해, 몇 초 더 자연스럽게 이어붙이는 AI 기능입니다.\n \n✔️ 영상의 흐름을 깨지 않고 연장 가능\n✔️ 편집 과정에서 부족한 장면을 자동 생성\n✔️ Premiere Pro에서 바로 사용 가능\n \n이 기능은 특히 CM(광고) 영상이나 단편 영상 편집자들에게 엄청난 시간을 절약해 줄 수 있을 거예요.\n ️ 3. Firefly 웹 앱과 Premiere Pro의 완벽한 조합\nFirefly AI는 웹 앱에서도 사용 가능하고, Adobe Premiere Pro와도 연동됩니다.\n  웹 앱에서 사용할 수 있는 기능\n  Generate Video (영상 생성)\n  Translate Video (영상 번역)\n  Translate Audio (오디오 번역)\n  Scene-to-Image (장면을 이미지로 변환)\n특히 영상 번역 기능은 AI가 입모양까지 조정해 최대 20개 언어로 자연스러운 더빙을 제공합니다.  \n \n \n  Adobe Firefly AI, 무료일까? 유료일까?\n현재 Firefly AI의 영상 생성 기능은 베타 버전으로 무료예요. 하지만 이후에는 크레딧 기반 유료 모델이 적용될 가능성이 큽니다.\n \n  크레딧 정책 (예상 모델)\n✔️ 무료 사용자: 25개 AI 크레딧 제공\n✔️ Creative Cloud All Apps 구독자: 1,000개 AI 크레딧 제공\n✔️ Firefly Standard 요금제: $9.99 → 2,000 크레딧\n✔️ Firefly Pro 요금제: $29.99 → 7,000 크레딧\n  1개 크레딧으로 5초짜리 영상 1개 생성 가능\n \n\n\n \n \n  Firefly AI 영상 생성, 이렇게 활용하세요!\n✅ 1. SNS 콘텐츠 제작을 빠르게!\n유튜브 쇼츠, 인스타그램 릴스 같은 숏폼 영상을 텍스트 입력만으로 자동 제작할 수 있어요. 마케팅 콘텐츠 제작 시간을 확 줄일 수 있겠죠?\n✅ 2. 스토리보드 제작\n애니메이션, 영화, 광고 기획 단계에서 **미리보기 영상(Previz)**을 빠르게 생성할 수 있어요.  ️\n✅ 3. AI 기반 영상 번역 및 더빙\nAI가 음성뿐만 아니라 입모양까지 자연스럽게 맞춰주는 번역 기능도 제공합니다. 해외 시장을 공략하는 크리에이터들에게는 엄청난 이점이죠.\n  Firefly AI는 이제 단순한 이미지 생성 AI를 넘어, 영상 제작까지 자동화하는 새로운 혁신을 이끌고 있습니다!\n \n \n✅ 마무리하며\nFirefly AI의 영상 생성 기능은 크리에이터들에게 정말 강력한 도구가 될 거예요.  \n✔️ 텍스트 입력만으로 영상 자동 생성!\n✔️ Premiere Pro와 연동해 편집까지 쉽게!\n✔️ 영상 번역, 장면 생성 기능까지 지원!\n  지금 바로 Adobe Firefly AI를 직접 체험해보세요!\n  Adobe Firefly AI 공식 웹사이트 바로가기\n❓ 자주 묻는 질문 (Q&A)\n1. Firefly AI의 영상 생성 기능은 무료인가요?\n현재는 베타 버전 무료 제공 중이지만, 이후 크레딧 기반의 유료 모델이 도입될 가능성이 높습니다.\n2. 한 번에 몇 초짜리 영상을 만들 수 있나요?\n현재는 최대 5초짜리 영상을 생성할 수 있으며, 향후 업데이트에서 길이가 늘어날 수도 있습니다.\n3. Premiere Pro에서 Firefly AI 영상 생성이 바로 되나요?\n아직 Firefly AI의 Generate Video 기능은 웹 앱에서만 지원되지만, Generative Extend 기능은 Premiere Pro에서 바로 사용할 수 있습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Firefly AI의 영상 생성 기능은 무료인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재는 베타 버전으로 무료 제공되지만, 이후 크레딧 기반 유료 모델이 도입될 가능성이 높습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"한 번에 몇 초짜리 영상을 만들 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 Firefly AI는 최대 5초짜리 영상을 생성할 수 있으며, 향후 업데이트에서 길이가 늘어날 가능성이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Premiere Pro에서 Firefly AI 영상 생성을 직접 할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 Firefly AI의 Generate Video 기능은 웹 앱에서만 지원되며, Premiere Pro에서는 Generative Extend 기능을 활용해 기존 영상의 길이를 자연스럽게 연장할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Firefly AI 영상 생성 기능은 어떤 용도로 활용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Firefly AI의 영상 생성 기능은 SNS 콘텐츠 제작, 스토리보드 제작, AI 기반 영상 번역 및 더빙 등에 활용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Firefly AI의 Generative Extend 기능이란?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Generative Extend 기능은 기존 영상의 마지막 부분을 분석해 자연스럽게 몇 초 더 이어붙이는 AI 기능으로, 광고 및 영상 편집 시 유용하게 활용할 수 있습니다.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/02/13/security/looking-back-at-our-bug-bounty-program-in-2024/",
-    "pubDate": "Thu, 13 Feb 2025 17:00:46 +0000",
-    "creator": "Unknown",
+    "link": "http://muzbox.tistory.com/483538",
+    "pubDate": "Fri, 14 Feb 2025 16:41:45 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "Security"
+      "AI, 미래기술/오디오,음악 생성,편집",
+      "adobe firefly ai",
+      "adobe premiere pro ai",
+      "ai 영상 생성",
+      "ai 자동 영상 편집",
+      "ai 콘텐츠 제작",
+      "firefly ai 기능",
+      "firefly ai 영상 활용",
+      "generative extend",
+      "크리에이티브 ai",
+      "텍스트 기반 영상 제작"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "How Do LLMs Benefit Developer Productivity?",
-    "description": "LLMs are everywhere! I am sure you have heard of large language models (LLMs) and may have seen demonstrations of what they can do. You may have even tried to play with some of the popular ones yourself. No matter your opinion of or experience with LLMs, you cannot deny that they are a popular […]",
+    "title": "2024 예창패 VS 2025 예창패 비교 분석 - 스타트업",
+    "description": "2025년 예비창업패키지는 2024년과 비교해서 어떤 부분이 바귀었는 지 확인해 보도록 합시다.  신청 웹사이트 : https://www.k-startup.go.kr/  1. 모집 규모 및 선정 인원  가. 2024년도  총 930명 내외(일반 분야 70명, 특화 분야 160명) 특화 분야 예 : 여성, 소셜벤처 등 사내벤처 분야는 별로 공고로 30팀 정도",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/02/how-do-llms-benefit-developer-productivity/",
-    "pubDate": "Tue, 18 Feb 2025 13:22:57 +0000",
-    "creator": "Cheuk Ting Ho",
+    "link": "https://brunch.co.kr/@@LOc/265",
+    "pubDate": "Thu, 20 Feb 2025 05:50:03 GMT",
+    "creator": "고명환",
     "categories": []
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "카지노 룰렛 예측으로 돈번 사람 이야기",
-    "description": "영상: https://www.youtube.com/watch?v=V0LMhevOlSk&list=WL&index=11\n\n\n\n공기 굴러가는 동안에도 베팅을 할 수 있었군요 ㄷㄷ\n엄청난 눈치로 이걸 맞춰버렸나 봅니다.",
+    "title": "VisualStudio.Extensibility: Tagger support and updates to settings",
+    "description": "We continue to invest in the VisualStudio.Extensibility SDK to allow users like you to create extensions that run faster and smoother than ever before! VisualStudio.Extensibility helps you build extensions that run outside the main Visual Studio IDE process for improved performance, reliability, and installation without restarting Visual Studio. Additional benefits include a sleek and intuitive […]\nThe post VisualStudio.Extensibility: Tagger support and updates to settings appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1145",
-    "pubDate": "Sun, 16 Feb 2025 15:12:18 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-tagger-support-and-updates-to-settings/",
+    "pubDate": "Tue, 18 Feb 2025 17:12:06 +0000",
+    "creator": "Tina Schrepfer (LI)",
     "categories": [
-      "유튜브",
-      "카지노"
+      "Extensibility",
+      "Visual Studio",
+      "visualstudio.extensibility",
+      "vsix"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.1 EAP 5: More LLMs in JetBrains AI Assistant, Improved Gutter for VCS, and More",
-    "description": "IntelliJ IDEA 2025.1 EAP 5 is out! You can download this version from our website, update directly from within the IDE, use the free Toolbox App, or install it via snap packages for Ubuntu. Download IntelliJ IDEA 2025.1 EAP 5 Let’s take a look at this week’s fresh additions! If you missed our previous overviews […]",
+    "title": "Visual Studio Code CMake Tools Extension 1.20 Release: Introducing Built-In CMake Language Services",
+    "description": "The February release of CMake Tools in VS Code is now available. With this release, we have some new updates to the extension to improve CMake integrations with the extension’s support. Some updates include the built-in support for CMake Language services, addressing our most highly-upvoted issues in the CMake Tools extension, and CMake presets v9 […]\nThe post Visual Studio Code CMake Tools Extension 1.20 Release: Introducing Built-In CMake Language Services appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/02/intellij-idea-2025-1-eap-5/",
-    "pubDate": "Tue, 18 Feb 2025 12:53:17 +0000",
-    "creator": "Irina Mariasova",
+    "link": "https://devblogs.microsoft.com/cppblog/visual-studio-code-cmake-tools-extension-1-20-release-introducing-built-in-cmake-language-services/",
+    "pubDate": "Thu, 20 Feb 2025 15:52:32 +0000",
+    "creator": "Sinem Akinci",
     "categories": [
-      "eap",
-      "2025-1-eap",
-      "intellij-idea",
-      "intellij-idea-2025-1-eap",
-      "intellij-idea-2025-1-2"
+      "CMake",
+      "Visual Studio Code"
     ]
   },
   {
     "id": 11,
-    "imageUrl": "",
-    "title": "대형언어모델 Gemma2 파인튜닝하기",
-    "description": "대형 언어 모델(LLM)인 Gemma2-2B를 미세 조정하면 특정 작업에 대한 성능을 크게 향상시킬 수 있다. 이 가이드는 Google Colab을 활용하여 Gemma2-2B를 미세 조정하는 과정을 단계별로 설명한다.  \n\n\n사전 준비 사항  \n미세 조정을 진행하기 위해 다음과 같은 준비가 필요하다.  \n- Google Colab(https://colab.research.google.com/) 계정이 있어야 한다. 혹은, NVIDIA GPU 환경(24GB 이상)이 구축된 컴퓨터가 있어야 한다.\n- Python 및 머신러닝 기초 개념을 이해하고 있어야 한다.  \n\n1단계: 환경 설정  \n1. Google Colab 접속  \n   - Google Colab(https://colab.research.google.com/)에 접속하여 새 노트북을 생성한다.  \n2. GPU 설정  \n   - 상단 메뉴에서 `편집(Edit) > 노트북 설정(Notebook settings)`으로 이동하여 하드웨어 가속기를 `GPU`로 변경한다.  \n3. 필요한 패키지 설치  \n   - 아래 명령어를 실행하여 필수 라이브러리를 설치한다.  \n   !pip install transformers datasets accelerate\n\n2단계: Gemma2-2B 모델 불러오기  \nHugging Face의 `transformers` 라이브러리를 사용하여 사전 학습된 Gemma2-2B 모델을 로드한다.  \nfrom transformers import AutoModelForCausalLM, AutoTokenizer\nmodel_name = \"google/gemma2-2b\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n3단계: 데이터셋 준비  \n미세 조정을 위해 작업에 맞는 데이터셋이 필요하다. Hugging Face의 `datasets` 라이브러리를 사용하여 데이터를 로드하고 토큰화할 수 있다.  \nfrom datasets import load_dataset\n# 'your_dataset'을 원하는 데이터셋 이름 또는 경로로 변경해야 한다. 데이터셋 예시: lavita/ChatDoctor-HealthCareMagic-100k · Datasets at Hugging Face\ndataset = load_dataset('your_dataset')\n# 토큰화 함수 정의\ndef tokenize_function(examples):\n    return tokenizer(examples['text'], padding=\"max_length\", truncation=True)\n# 데이터셋 토큰화 적용\ntokenized_dataset = dataset.map(tokenize_function, batched=True)\n\n\n4단계: 모델 미세 조정  \n데이터셋을 준비한 후, 아래 코드로 모델을 미세 조정할 수 있다.  \nfrom transformers import TrainingArguments, Trainer\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    evaluation_strategy=\"epoch\",\n    learning_rate=2e-5,\n    per_device_train_batch_size=4,\n    per_device_eval_batch_size=4,\n    num_train_epochs=3,\n    weight_decay=0.01,\n)trainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=tokenized_dataset[\"train\"],\n    eval_dataset=tokenized_dataset[\"validation\"],\n)trainer.train()\n\n5단계: 미세 조정된 모델 저장  \n학습이 완료된 모델을 저장하여 향후 사용할 수 있도록 한다.  \nmodel.save_pretrained(\"./fine_tuned_gemma2_2b\")\ntokenizer.save_pretrained(\"./fine_tuned_gemma2_2b\")\n\n결론  \n이 가이드를 따르면 Google Colab에서 Gemma2-2B 모델을 미세 조정하여 특정 작업에 최적화된 모델을 만들 수 있다. 미세 조정을 통해 모델의 성능을 향상시키고 특정 도메인 문제를 해결하는 데 도움을 줄 수 있다.  \n\n참고 \n대형 모델의 미세 조정은 많은 GPU 리소스(최소 24GB 이상)를 필요로 한다. Google Colab Pro 또는 TPU를 활용하면 더 원활한 학습이 가능하다. \n\nGoogle’s Gemma open models. Google has introduced Gemma, a new… | by Innovate Forge | Medium\nFine-Tuning Gemma 2 and Using it Locally | DataCamp\nGemma2–2B Fine Tuning Complete Guide on Colab | by Yogendra Sisodia | Medium\n[개발살집] Gemma 한국어 요약 모델 파인 튜닝 해보기. LLM 파인튜닝 해보기. 하지만, 장렬히 실패했다. | by zero86 | Medium\n구글 Gemma 2 분석: 최신 오픈소스 모델로 무료 챗봇 만들기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/02/gemma2.html",
-    "pubDate": "2025-02-16T03:49:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "다시 한 번 산업혁명",
-    "description": "커서를 쓰기 시작한 이후로 동영상 강의를 더 이상 구매하지 않고 있다는 걸 문득 깨달았습니다.\n그냥 커서랑 챗GPT로 하면 되니깐.\n2년여 전부터 그 좋아하던 스택오버플로에 전혀 들어가지 않게 된 것도 놀라운 일인데…\n이렇게 빠르게 바뀌어버린 제 모습을 보면서 놀라움과 두려움을 느낍니다.\n어제 유튜브에서 새로운 산업 혁명의 시작이라는 단테와 노정석 대표님의 대화를 들었습니다.\n어릴 때 산업 혁명 시대 사람들은 참 좋았겠다 생각했습니다. 돈 벌 기회가 널려있으니까.\n막상 산업 혁명 시기가 다시 돌아오니 그 시대 사람들의 두려움을 저도 이해하게 됐습니다.\n미래에 대한 기대도 물론 있지만 두려운 마음이 좀 더 큰 것 같습니다.\n닭장 속에서 모이만 받아먹는 닭이 되지 않기 위해 (영상에서 말씀해주시는 표현) 더 간절한 마음으로 공부하고 코딩해 보려 합니다.\n\n함께 읽으면 좋은 글:\nAI 도구를 써도 돈 벌기는 힘들다",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/02/14/ai-revolution.html",
-    "pubDate": "2025-02-14T03:01:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
     "imageUrl": "",
     "title": "퍼플렉시티 Deep Research, 단 3분 만에 전문가 수준 리서치 만드는 방법",
     "description": "Perplexity가 새롭게 선보인 'Deep Research'는 단 몇 분 만에 전문가 수준의 리서치를 수행하는 혁신적인 AI 도구입니다. 검색, 분석, 보고서 작성까지 자동으로 진행해 시간과 노력을 절약할 수 있습니다. 어떻게 활용할 수 있을까요?\n\n\n \n최근 AI 기술의 발전 속도가 눈부십니다. 특히, 정보를 빠르게 찾고 분석하는 능력이 중요한 시대죠. 하지만 우리가 원하는 '정확하고 신뢰할 수 있는' 정보를 얻기까지는 시간이 많이 걸립니다. 여기서 **Perplexity의 ‘Deep Research’**가 등장합니다. 이 도구는 단 몇 분 만에 전문가 수준의 심층 연구를 수행해 완전한 보고서를 제공합니다.\n \n이 글에서는 Deep Research가 어떻게 작동하는지, 실제 활용할 수 있는 방법은 무엇인지 살펴보겠습니다.\n \n \n  Deep Research란?\nPerplexity의 Deep Research는 단순한 검색 도구가 아닙니다. 일반적인 검색 엔진이 단순히 결과를 나열하는 것과 달리, 수십 개의 검색을 수행하고 수백 개의 출처를 분석하며, 논리적으로 정보를 정리하여 하나의 종합적인 보고서를 만들어냅니다.\n \n✅ AI 기반 자동 리서치 – 전문가가 몇 시간 걸릴 작업을 단 2~4분 만에 수행\n✅ 광범위한 출처 조사 – 검색, 문서 분석, 데이터 해석까지 한 번에\n✅ 정확한 정보 제공 – 단순한 요약이 아닌, 깊이 있는 통찰까지 포함\n✅ 편리한 공유 기능 – PDF, 문서 파일로 저장하거나 온라인에서 공유 가능\n \n쉽게 말해, 마치 개인 연구 보조원이 24시간 대기하고 있는 것과 같습니다.\n \n \n  어떻게 작동할까?\nDeep Research의 핵심 기능은 다음과 같은 3단계로 이루어집니다.\n1️⃣ 리서치 + 논리적 분석\nDeep Research는 먼저 사용자가 입력한 질문을 바탕으로 관련된 정보를 광범위하게 검색합니다. 그리고 출처를 평가하고 정보를 논리적으로 해석하며 연구 계획을 지속적으로 보완합니다.\n\n\n  예를 들어, \"2024년 AI 트렌드는?\" 라고 질문하면,\n최신 논문과 보고서를 찾아 분석\n신뢰할 수 있는 뉴스 기사와 블로그를 참고\nAI 산업 전문가들의 의견을 반영\n이 모든 과정을 자동으로 수행한 후, 신뢰할 수 있는 결론을 도출합니다.\n2️⃣ 보고서 작성\n일반적인 검색 결과와 달리, Deep Research는 단순한 정보 나열이 아니라 완전한 보고서 형태로 정리해 줍니다.\n\n\n  예를 들어, **\"스타트업 마케팅 전략\"**에 대해 리서치를 수행하면,\n트렌드 분석\n성공 사례\n예산별 전략 추천\n실전 적용 방법\n등을 포함한 완성도 높은 마케팅 리포트를 생성할 수 있습니다.\n3️⃣ 내보내기 & 공유 기능\n연구 결과가 정리된 후, Deep Research는 사용자가 이를 쉽게 활용할 수 있도록 다양한 내보내기 옵션을 제공합니다.\n\n\n\n✅ PDF 다운로드\n✅ Word 문서로 변환\n✅ Perplexity 페이지로 공유하여 협업 가능\n이제 단순한 검색을 넘어, 바로 활용할 수 있는 자료를 손쉽게 확보할 수 있는 것이죠.\n \n \n  언제 활용하면 좋을까?\nDeep Research는 단순한 질문이 아니라, 복잡한 주제에 대한 심층 분석이 필요할 때 특히 유용합니다.\n \n  금융 분석 – 주식 시장 트렌드, 투자 리포트 분석\n  마케팅 리서치 – 소비자 행동 분석, 광고 전략 수립\n  기술 조사 – 특정 기술 비교, 신제품 개발 리서치\n  국제 시사 – 글로벌 이슈, 최신 트렌드 분석\n  헬스케어 & 의학 – 질병 연구, 건강 관리 정보 조사\n  인물 & 역사 – 유명 인물 전기, 역사적 사건 조사\n✈️ 여행 계획 – 여행지 정보, 문화 및 기후 조사\n \n특히 기업 보고서 작성, 논문 연구, 시장 조사 등과 같은 전문가 수준의 분석이 필요한 경우에 큰 도움이 될 수 있습니다.\n \n \n  Deep Research의 성능은?\nPerplexity Deep Research는 AI 연구 벤치마크인 ‘Humanity’s Last Exam’에서 21.1%의 높은 정확도를 기록했습니다. 이는 Google의 Gemini, OpenAI의 여러 모델을 뛰어넘는 성과입니다.\n또한 수천 개의 질문에 대한 정확도를 평가하는 ‘SimpleQA’에서 93.9%의 정답률을 기록하며, 신뢰성을 입증했습니다.\n \n  속도까지 빠르다!\n대부분의 연구 과제를 3분 이내에 완료\n향후 업데이트를 통해 더욱 빠른 분석 가능\n \n  지금 바로 체험해 보세요!\nDeep Research는 현재 웹에서 무료로 사용 가능하며, 곧 iOS, Android, Mac에서도 출시될 예정입니다.\n \n  사용 방법:\n1️⃣ Perplexity.ai에 접속\n2️⃣ 검색창에서 ‘Deep Research’ 모드 선택\n3️⃣ 원하는 질문 입력 후 결과 확인!\n무료 사용자도 제한된 횟수 내에서 체험할 수 있으며, Pro 구독자는 무제한 사용 가능합니다.\n \n \n  마무리\nPerplexity의 Deep Research는 단순한 검색을 넘어, 진짜 ‘전문가 수준’의 연구를 자동으로 수행하는 도구입니다.\n \n✅ 빠르고 정확한 리서치\n✅ 전문가 수준의 분석 보고서\n✅ 쉽고 편리한 공유 기능\n시간이 부족한 현대인에게 강력한 무기가 될 수 있겠죠?\n이제 ‘검색’이 아니라 ‘리서치’하세요!\n  여러분은 Deep Research를 어떤 분야에서 활용하고 싶나요? 댓글로 의견을 나눠보세요!  \n  Q&A\n1. Deep Research는 무료인가요?\n네! 기본적으로 무료로 사용할 수 있으며, 하루 제한된 횟수 내에서 이용 가능합니다. Pro 구독자는 무제한으로 활용할 수 있습니다.\n2. 어떤 분야의 연구가 가능한가요?\n금융, 마케팅, 기술, 의료, 여행 등 다양한 분야의 심층 분석이 가능합니다.\n3. 기존 Perplexity 검색과 무엇이 다른가요?\n일반 검색보다 더 깊이 있는 분석을 제공하며, 검색-분석-보고서 작성까지 자동으로 진행됩니다.\n4. Perplexity Deep Research는 신뢰할 수 있나요?\n예! AI 벤치마크 테스트에서 높은 점수를 기록했으며, 신뢰할 수 있는 출처를 기반으로 정보를 제공합니다.\n5. 모바일에서도 사용 가능한가요?\n현재는 웹에서만 제공되지만, 곧 iOS, Android, Mac에서도 지원될 예정입니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Deep Research는 무료인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네! 기본적으로 무료로 사용할 수 있으며, 하루 제한된 횟수 내에서 이용 가능합니다. Pro 구독자는 무제한으로 활용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"어떤 분야의 연구가 가능한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"금융, 마케팅, 기술, 의료, 여행 등 다양한 분야의 심층 분석이 가능합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"기존 Perplexity 검색과 무엇이 다른가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"일반 검색보다 더 깊이 있는 분석을 제공하며, 검색-분석-보고서 작성까지 자동으로 진행됩니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Perplexity Deep Research는 신뢰할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"예! AI 벤치마크 테스트에서 높은 점수를 기록했으며, 신뢰할 수 있는 출처를 기반으로 정보를 제공합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"모바일에서도 사용 가능한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재는 웹에서만 제공되지만, 곧 iOS, Android, Mac에서도 지원될 예정입니다.\"\n      }\n    }\n  ]\n}",
@@ -210,45 +180,75 @@
     ]
   },
   {
-    "id": 14,
+    "id": 12,
     "imageUrl": "",
-    "title": "New Livestream: TDD and Generative AI – A Perfect Pairing?",
-    "description": "Join us for a new IntelliJ IDEA Livestream episode with Bouke Nijhuis, where we’ll explore how test-driven development (TDD) and AI can work together to generate production-ready code. Date: February 27, 2025 Time: 3:00–4:00 pm UTC REGISTER FOR THE LIVESTREAM Session abstract In this talk, we will explore whether generative AI can generate working code […]",
+    "title": "두산 투자 쉽다곤 안했다. 매년 반토막이 나도 존버하신분",
+    "description": "영상: https://www.youtube.com/watch?v=C5k4GqpkCic&t=145s\n\n\n\n매년 반토막이 나면 최고점 다신 안올꺼 같지만\n꾸역꾸역 올라간다.\n한국 주식은 원래 그런것인가 보다 라는 생각이들면서\n \n에코프로비엠 열심히 존버해야겠다는 생각이 들었습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/02/new-livestream-tdd-and-generative-ai-a-perfect-pairing/",
-    "pubDate": "Tue, 18 Feb 2025 11:10:22 +0000",
-    "creator": "Anna Rovinskaia",
+    "link": "http://serverdown.tistory.com/1146",
+    "pubDate": "Mon, 17 Feb 2025 14:38:50 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "livestreams",
-      "intellij-idea",
-      "intellijidealivestream",
-      "livestream",
-      "webinars"
+      "한국주식"
     ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "채용하지 말아라",
+    "description": "내가 만약에 투자자에서 다시 창업가로 돌아간다면, 해보고 싶은 게 정말 많지만, 안 하고 싶은 것도 많다. 그중 정말 하고 싶지 않은 게 두 가지가 있는데, 하나는 가능하면 투자를 받지 않고, 둘은 웬만하면 사람을 뽑지 않고 싶다. 본인은 열심히 투자하면서, 창업하면 투자를 안 받겠다는 말은 도대체 뭐지라는 생각을 하는 분들이 있을 것이다. VC가 싫다는 말이 아니라(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/02/when-in-doubt-do-not-hire.html",
+    "pubDate": "Sun, 16 Feb 2025 21:32:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork",
+      "fundraising",
+      "people",
+      "Strong",
+      "vc",
+      "스타트업 바이블 1",
+      "스타트업 바이블 2",
+      "스타트업 바이블 QA"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "맥오에스에서 launchd로 서비스 띄우기",
+    "description": "맥오에스에서 systemd와 같은 역할을 하는 기능이 있나 찾아보니 launchd가 있다고 한다. Launchd는 에이전트(agent)와 데몬(daemon) 두가지로 띄울 수 있는데 에이전트는 사용자 계정을 로그인 했을 때 뜨게 되고 데몬은 맥이 부팅되면 뜨게 된다. 에이전트는 ~/Library/LaunchAgents/에 넣고 데몬은 /Library/LaunchDaemons/에 넣는다. 데몬은 root 권한이 필요하다.\n\r\n\r\n형식은 plist XML파일로 한다.\n\r\n\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\r\n<plist version=\"1.0\">\r\n<dict>\r\n\t<key>Label</key>\r\n\t<string>com.beszel.beszel-agent</string>\r\n\r\n\t<key>ProgramArguments</key>\r\n\t<array>\r\n\t\t<string>/Users/hyeonseok/beszel-agent</string>\r\n\t</array>\r\n\r\n\t<key>EnvironmentVariables</key>\r\n\t<dict>\r\n\t\t<key>PORT</key>\r\n\t\t<string>45876</string>\r\n\t\t<key>KEY</key>\r\n\t\t<string>ssh-ed25519 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+aaaaaaaaaaaaaaaaaaaaaaa</string>\r\n\t</dict>\r\n\r\n\t<key>RunAtLoad</key>\r\n\t<true/>\r\n\r\n\t<key>KeepAlive</key>\r\n\t<true/>\r\n</dict>\r\n</plist>\n\r\n\r\n서비스 등록과 해제는 launchctl 명령을 이용한다.\n\r\n\r\nsudo launchctl load /Library/LaunchDaemons/com.beszel.beszel-agent.plist\r\nsudo launchctl unload /Library/LaunchDaemons/com.beszel.beszel-agent.plist\n\r\n\r\n서비스로 등록이 됐는지는 list를 이용해서 확인할 수 있다.\n\r\n\r\nsudo launchctl list | grep beszel-agent\n\r\n\r\n데몬으로 등록할 plist를 사용자 디렉토리 아래에 넣으면 접근이 되지 않을 수 있다니 주의해야 한다. 파일볼트가 활성화되어 있으면 로그인을 해야 데몬으로 기동이 되기 때문에 확인이 필요하다.\n\r\n\r\n노드 서버를 launchd로 띄울까 고민했었는데 챗지피티의 꼬임에 넘어가서 우분투로 밀까 생각중이다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hyeonseok.com/blog/930",
+    "pubDate": "Tue, 18 Feb 2025 21:21:08 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Adobe Firefly AI, 이제 영상도 만든다? AI 영상 생성 기능 완벽 정리!",
-    "description": "이제 Adobe Firefly AI가 영상까지 생성합니다! 텍스트 입력만으로 5초짜리 영상을 만들 수 있으며, Premiere Pro와 연동해 더욱 정교한 편집이 가능합니다. Firefly AI의 영상 생성 기능과 활용법을 자세히 알아보세요!\n\n\n \n \n  Adobe Firefly AI, 이제 영상 제작도 가능하다?\n\"이미지만 만들어주는 AI가 아니라, 이제는 영상까지 만들어준다?\"\n처음 이 소식을 접했을 때 솔직히 놀라웠어요.  \n \nAdobe는 AI 기반의 이미지 생성 도구 Firefly로 이미 많은 디자이너와 크리에이터들에게 사랑받고 있죠. 그런데 이제 텍스트 입력만으로 영상까지 자동 생성할 수 있다니, 콘텐츠 제작의 패러다임이 또 한 번 바뀌는 순간입니다.\n \n특히 이번 업데이트는 단순한 기능 추가가 아니라, Adobe Premiere Pro와의 강력한 연동까지 제공하면서 더 현실적인 영상 제작 환경을 만들어줍니다. 지금부터 Firefly AI의 영상 생성 기능과 활용법을 자세히 알려드릴게요!  \n \n \n  Adobe Firefly AI의 영상 생성 기능은?\n ️ 1. 텍스트로 5초짜리 영상 생성 - Generate Video (Beta)\nFirefly AI의 Generate Video (Beta) 기능은 텍스트 입력만으로 최대 5초 길이의 영상을 만들어주는 AI 도구예요.\n \n  이 기능이 왜 혁신적일까요?\n✔️ 텍스트만 입력하면 자동으로 영상 생성\n✔️ 최대 5초 길이의 고품질 영상 제작 가능\n✔️ Adobe Stock 기반 → 저작권 문제 없이 안전\n✔️ 현재 베타 버전으로 무료 체험 가능\n예를 들어, \"도시 위를 나는 드론의 멋진 야경\"이라고 입력하면 딱 맞는 5초짜리 영상이 자동 생성되는 거죠.  \n \n\n\n\n \n✨ 2. Generative Extend: 영상 길이 자연스럽게 연장하기\n영상 편집을 하다 보면, \"아, 여기 몇 초만 더 있었으면 좋겠는데!\" 하는 순간이 많죠?\nGenerative Extend 기능은 기존 영상의 마지막 부분을 분석해, 몇 초 더 자연스럽게 이어붙이는 AI 기능입니다.\n \n✔️ 영상의 흐름을 깨지 않고 연장 가능\n✔️ 편집 과정에서 부족한 장면을 자동 생성\n✔️ Premiere Pro에서 바로 사용 가능\n \n이 기능은 특히 CM(광고) 영상이나 단편 영상 편집자들에게 엄청난 시간을 절약해 줄 수 있을 거예요.\n ️ 3. Firefly 웹 앱과 Premiere Pro의 완벽한 조합\nFirefly AI는 웹 앱에서도 사용 가능하고, Adobe Premiere Pro와도 연동됩니다.\n  웹 앱에서 사용할 수 있는 기능\n  Generate Video (영상 생성)\n  Translate Video (영상 번역)\n  Translate Audio (오디오 번역)\n  Scene-to-Image (장면을 이미지로 변환)\n특히 영상 번역 기능은 AI가 입모양까지 조정해 최대 20개 언어로 자연스러운 더빙을 제공합니다.  \n \n \n  Adobe Firefly AI, 무료일까? 유료일까?\n현재 Firefly AI의 영상 생성 기능은 베타 버전으로 무료예요. 하지만 이후에는 크레딧 기반 유료 모델이 적용될 가능성이 큽니다.\n \n  크레딧 정책 (예상 모델)\n✔️ 무료 사용자: 25개 AI 크레딧 제공\n✔️ Creative Cloud All Apps 구독자: 1,000개 AI 크레딧 제공\n✔️ Firefly Standard 요금제: $9.99 → 2,000 크레딧\n✔️ Firefly Pro 요금제: $29.99 → 7,000 크레딧\n  1개 크레딧으로 5초짜리 영상 1개 생성 가능\n \n\n\n \n \n  Firefly AI 영상 생성, 이렇게 활용하세요!\n✅ 1. SNS 콘텐츠 제작을 빠르게!\n유튜브 쇼츠, 인스타그램 릴스 같은 숏폼 영상을 텍스트 입력만으로 자동 제작할 수 있어요. 마케팅 콘텐츠 제작 시간을 확 줄일 수 있겠죠?\n✅ 2. 스토리보드 제작\n애니메이션, 영화, 광고 기획 단계에서 **미리보기 영상(Previz)**을 빠르게 생성할 수 있어요.  ️\n✅ 3. AI 기반 영상 번역 및 더빙\nAI가 음성뿐만 아니라 입모양까지 자연스럽게 맞춰주는 번역 기능도 제공합니다. 해외 시장을 공략하는 크리에이터들에게는 엄청난 이점이죠.\n  Firefly AI는 이제 단순한 이미지 생성 AI를 넘어, 영상 제작까지 자동화하는 새로운 혁신을 이끌고 있습니다!\n \n \n✅ 마무리하며\nFirefly AI의 영상 생성 기능은 크리에이터들에게 정말 강력한 도구가 될 거예요.  \n✔️ 텍스트 입력만으로 영상 자동 생성!\n✔️ Premiere Pro와 연동해 편집까지 쉽게!\n✔️ 영상 번역, 장면 생성 기능까지 지원!\n  지금 바로 Adobe Firefly AI를 직접 체험해보세요!\n  Adobe Firefly AI 공식 웹사이트 바로가기\n❓ 자주 묻는 질문 (Q&A)\n1. Firefly AI의 영상 생성 기능은 무료인가요?\n현재는 베타 버전 무료 제공 중이지만, 이후 크레딧 기반의 유료 모델이 도입될 가능성이 높습니다.\n2. 한 번에 몇 초짜리 영상을 만들 수 있나요?\n현재는 최대 5초짜리 영상을 생성할 수 있으며, 향후 업데이트에서 길이가 늘어날 수도 있습니다.\n3. Premiere Pro에서 Firefly AI 영상 생성이 바로 되나요?\n아직 Firefly AI의 Generate Video 기능은 웹 앱에서만 지원되지만, Generative Extend 기능은 Premiere Pro에서 바로 사용할 수 있습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Firefly AI의 영상 생성 기능은 무료인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재는 베타 버전으로 무료 제공되지만, 이후 크레딧 기반 유료 모델이 도입될 가능성이 높습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"한 번에 몇 초짜리 영상을 만들 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 Firefly AI는 최대 5초짜리 영상을 생성할 수 있으며, 향후 업데이트에서 길이가 늘어날 가능성이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Premiere Pro에서 Firefly AI 영상 생성을 직접 할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 Firefly AI의 Generate Video 기능은 웹 앱에서만 지원되며, Premiere Pro에서는 Generative Extend 기능을 활용해 기존 영상의 길이를 자연스럽게 연장할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Firefly AI 영상 생성 기능은 어떤 용도로 활용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Firefly AI의 영상 생성 기능은 SNS 콘텐츠 제작, 스토리보드 제작, AI 기반 영상 번역 및 더빙 등에 활용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Firefly AI의 Generative Extend 기능이란?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Generative Extend 기능은 기존 영상의 마지막 부분을 분석해 자연스럽게 몇 초 더 이어붙이는 AI 기능으로, 광고 및 영상 편집 시 유용하게 활용할 수 있습니다.\"\n      }\n    }\n  ]\n}",
+    "title": "AI 딥리서치의 시대! 확장 프롬프트로 챗GPT, 그록3 활용도를 극대화하는 법 [무료GPTS]",
+    "description": "AI 추론과 딥리서치의 시대가 열렸습니다! 중국의 LLM 모델 ‘DEEPSEEK’이 촉발한 변화 속에서, 챗GPT의 ‘확장 프롬프트 생성기’는 보다 정교한 질문과 답변을 가능하게 합니다. 단순한 질문이 아닌, 다차원적 분석과 예측을 포함한 최적화된 프롬프트를 생성하는 방법을 알아보세요.\n\n\n \n \n불과 몇 년 전만 해도 AI 모델들은 단순한 질의응답이나 정보를 요약하는 역할에 머물렀습니다. 하지만 이제 상황이 달라졌습니다. 중국의 LLM 모델 ‘DEEPSEEK’이 등장하면서, AI의 추론 능력과 딥리서치 기능이 더욱 중요해지고 있어요. AI 모델이 단순한 검색 엔진을 넘어, ‘심층적인 분석과 예측’을 수행하는 도구로 자리 잡고 있는 겁니다.\n이러한 변화 속에서, 여러분이 AI를 더 효과적으로 활용할 수 있도록 ‘챗GPT 확장 프롬프트 생성기’를 소개하려고 해요. 단순한 질문을 넘어, 보다 정교하고 구체적인 답변을 이끌어낼 수 있는 방법을 살펴보겠습니다.\n \n확장 프롬프트란 무엇인가?\n기본적으로 AI에 질문을 하면, 가장 관련성이 높은 정보를 찾아 간략하게 응답하는 방식이 일반적이었어요. 하지만 ‘확장 프롬프트’는 단순한 질문을 넘어 구체적인 분석, 맥락, 예측, 데이터 연계까지 포함하여 AI가 더 정교한 답변을 생성하도록 유도하는 기법입니다.\n \n예를 들어,\n➡️ \"테슬라와 BYD 전기차의 차이점은?\" 이라는 질문을 하면 보통은 스펙 비교 정도의 답변이 나올 거예요.\n \n하지만 이를 확장 프롬프트로 변환하면?\n \n✅ \"2025년 2월 기준으로 테슬라와 BYD의 전기차를 기술적, 경제적, 시장 경쟁력 측면에서 비교하고, 최신 배터리 기술과 자율주행 성능의 차이를 분석해줘. 또한, 글로벌 시장에서 두 회사의 판매 전략과 소비자 선호도 차이를 반영하여 향후 5년간의 시장 점유율 변화를 예측해줘\"\n \n이제 AI는 단순 비교를 넘어 최신 데이터와 시장 예측까지 고려한 답변을 만들어낼 수 있겠죠?\n \n \n확장 프롬프트의 핵심 요소\n그렇다면, 어떻게 하면 AI가 더 유용하고 강력한 답변을 제공하도록 유도할 수 있을까요? 확장 프롬프트를 만들 때 꼭 포함해야 할 요소들을 살펴볼게요.\n1️⃣ 컨텍스트 설정\nAI가 적절한 답변을 생성하려면 맥락이 중요합니다.\n  시간적 맥락: \"2025년 2월 기준\"\n  상황적 맥락: \"현재 시장에서\"\n  기술적 맥락: \"최신 AI 발전을 고려하여\"\n2️⃣ 목적 명시\nAI가 답변을 더 명확하게 도출할 수 있도록 기대하는 결과물을 구체적으로 설정해야 해요.\n \n예시:\n✅ \"아이폰과 갤럭시를 성능, 디자인, 생태계, 가격 측면에서 비교 분석하고, 특정 사용자 유형별 추천을 제안해줘.\"\n이렇게 하면 AI는 단순 비교를 넘어 ‘누구에게 더 적합한지’까지 고려할 수 있어요.\n3️⃣ 데이터 소스 지정\n실시간 정보가 필요한지, 이미지나 그래프 등 멀티모달 데이터가 필요한지 명확하게 요구해야 합니다.\n \n✅ \"중국 로봇개의 최신 모델 사진을 분석해서 주요 기능과 디자인 특징을 설명하고, X에서 관련된 최신 논란이나 반응도 함께 정리해줘.\"\n \n이렇게 하면 AI가 보다 신뢰할 수 있는 정보를 바탕으로 답변을 만들 수 있어요.\n \n \n확장 프롬프트 적용 예시\n그럼 실전에서 어떻게 적용할 수 있는지 몇 가지 예시를 살펴볼까요?\n  예시 1: 기술 비교 질문\n사용자 입력: \"아이폰과 갤럭시 중 어떤 게 더 좋아?\"\n \n✅ 확장 프롬프트 변환:\n\" 2025년 2월 기준으로 최신 아이폰과 갤럭시 모델을 성능, 디자인, 카메라 품질, 소프트웨어 생태계, 배터리 수명, 가격 대비 가치 등의 측면에서 비교하고, 각 브랜드의 최신 기술 동향과 사용자 반응(예: X, 레딧, 주요 테크 리뷰)를 반영하여 어떤 제품이 더 나은 선택인지 분석해줘. 또한, 특정 사용자 유형(예: 게이머, 크리에이터, 일반 사용자)에 따라 추천 제품이 어떻게 달라질지도 설명해줘.\"\n \n  차별점: 단순 비교가 아닌, 사용자의 니즈별 분석과 맞춤 추천까지 제공\n  예시 2: 미래 예측 질문\n사용자 입력: \"AI가 인간의 일을 모두 대체할까?\"\n \n✅ 확장 프롬프트 변환:\n\" 2025년 2월 기준으로 AI 기술이 인간의 직업을 대체하는 속도와 범위를 분석하고, 특히 산업별(예: 제조업, 금융, 의료, 예술, 교육)로 어떤 변화가 일어나는지 설명해줘. 또한, 완전한 대체가 가능한 직업과 그렇지 않은 직업을 구분하고, 인간의 창의성, 감성적 소통, 윤리적 판단이 필요한 영역에서 AI의 한계를 논의해줘. 마지막으로, 향후 10년간 AI 발전이 노동시장에 미칠 경제적·사회적 영향을 예측하고, 인간과 AI가 공존할 수 있는 가능성 있는 시나리오(예: 협업 모델, 정책적 대응)도 제시해줘. \"\n \n  차별점: 단순 가능성 질문이 아니라 산업별 예측, 법적·윤리적 문제까지 포함\n  예시 3: 창의적 시나리오 질문\n사용자 입력: \" 만약 외계인이 지구를 방문하면 무슨 일이 벌어질까? \"\n \n✅ 확장 프롬프트 변환:\n\" 2025년 2월 기준으로, 외계인이 지구를 방문하는 시나리오를 과학적·사회적·정치적 관점에서 분석해줘. 먼저, 외계 생명체의 존재 가능성을 현대 천문학(예: 제임스 웹 우주망원경, 펌펀의 역설)과 SETI 프로젝트를 기반으로 평가하고, 만약 그들이 실제로 도착한다면 어떤 방식(평화적 교류 vs. 적대적 침공)으로 접촉할 가능성이 높은지 시뮬레이션해줘. 또한, 국제 사회(UN, 미국 NASA, 중국 CNSA 등)의 공식 대응 전략과 대중의 반응(소셜 미디어, 음모론 확산 등)을 분석하고, 외계인의 등장으로 인한 경제적·기술적·철학적 충격(예: 종교적 혼란, 과학 패러다임 변화, 신기술 습득 가능성)을 예측해줘. 마지막으로, SF 영화나 문학에서 다룬 다양한 외계인 접촉 사례(예: ‘컨택트’, ‘인터스텔라’, ‘화성침공’)를 비교하며, 현실적으로 가장 가능성 높은 시나리오를 도출해줘 .\"\n \n  차별점: 가상의 시나리오라도 현실적인 요소와 맥락을 반영하여 생동감 있는 대화 생성\n \n \n확장 프롬프트가 필요한 이유\n이제 AI는 단순 검색 엔진이 아닙니다. 사용자의 질문 방식에 따라 더욱 깊이 있는 분석과 인사이트를 제공할 수 있는 강력한 도구가 되었어요.\n \n  \"질문이 좋아야 답변도 좋다!\" 라는 말이 있죠? AI도 마찬가지예요. 단순한 질문이 아니라, 적절한 맥락과 분석 요구사항을 추가하면 훨씬 유용한 답변을 얻을 수 있습니다.\n \n \n결론\nDEEPSEEK을 비롯한 다양한 AI 모델들의 등장으로 이제 LLM 기술은 단순한 질의응답을 넘어 추론과 딥리서치의 시대로 접어들었습니다.\n✅ 보다 정교하고 심층적인 답변을 원한다면?\n✅ AI를 더 효과적으로 활용하고 싶다면?\n  확장 프롬프트를 활용하세요!\n질문을 확장하는 것만으로도, AI의 답변은 훨씬 유용하고 강력해질 수 있습니다. 여러분도 한번 실험해 보세요!  \n  관련 Q&A\nQ1. 확장 프롬프트는 모든 AI 모델에서 효과적인가요?\nA. 대부분의 최신 LLM 모델에서 효과적이지만, 모델의 학습 데이터와 추론 능력에 따라 차이가 있습니다.\nQ2. 실시간 데이터를 활용할 수도 있나요?\nA. 일부 모델은 웹 검색 기능과 연계할 수 있어 최신 정보를 반영할 수 있습니다.\nQ3. 확장 프롬프트는 어떻게 연습하면 좋을까요?\nA. 먼저 간단한 질문을 만들고, 위의 구조를 참고해 확장하는 연습을 해보세요.\nQ4. 다차원 분석이 꼭 필요한가요?\nA. 단순 정보 질문이라면 필요 없지만, 심층적 논의가 필요할 땐 매우 유용합니다.\nQ5. 창의적인 질문에도 활용할 수 있나요?\nA. 네! 맥락과 상황을 설정하면 더욱 현실감 있는 시나리오가 나올 수 있습니다.\n \n \n  GPTS 무료배포\n 약간의 지식과 시간만 투자하면 누구나 직접 제작하고 활용할 수 있는 유용한 GPTs가 이미 많이 존재합니다. 그러나 여전히 AI 기술에 대한 낯선 접근을 두려워하거나 IT 초보자, 또는 시간적 여유가 없거나 수익화에 대한 절실함 때문에 올바른 정보를 얻지 못하는 사람들이 많습니다. \n이러한 심리를 악용해 과도한 가격으로 유료 강의를 판매하며 불필요한 부담을 주는 사례들이 늘어나고 있습니다.\n \n 이에 본 블로그에서는 모든 사람이 AI의 혜택을 공정하고 자유롭게 누릴 수 있도록 GPTs를 무료로 배포하며, 불합리한 강의 판매 행위를 단호히 배척하고자 합니다. (당연히 저도 무료 그 이상의 가치가 있는 챗봇이라면 유료화를 검토중입니다.)\n\n \nChatGPT - 챗GPT 확장 프롬프트 생성기 (추론,딥리서치 최적화)\n바야흐로, 추론과 딥리서치 LLM의 춘추전국시대! 이에 적합한 확장된 프롬프트을 바로 생성합니다.\nchatgpt.com\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"확장 프롬프트는 모든 AI 모델에서 효과적인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"대부분의 최신 LLM 모델에서 효과적이지만, 모델의 학습 데이터와 추론 능력에 따라 차이가 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"실시간 데이터를 활용할 수도 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"일부 모델은 웹 검색 기능과 연계할 수 있어 최신 정보를 반영할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"확장 프롬프트는 어떻게 연습하면 좋을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"먼저 간단한 질문을 만들고, 확장 기법을 참고해 질문을 구체화하는 연습을 해보세요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"다차원 분석이 꼭 필요한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"단순 정보 질문이라면 필요 없지만, 심층적 논의가 필요할 땐 매우 유용합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"창의적인 질문에도 활용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네! 맥락과 상황을 설정하면 더욱 현실감 있는 시나리오가 나올 수 있습니다.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483538",
-    "pubDate": "Fri, 14 Feb 2025 16:41:45 +0900",
+    "link": "http://muzbox.tistory.com/483541",
+    "pubDate": "Thu, 20 Feb 2025 16:49:45 +0900",
     "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "AI, 미래기술/오디오,음악 생성,편집",
-      "adobe firefly ai",
-      "adobe premiere pro ai",
-      "ai 영상 생성",
-      "ai 자동 영상 편집",
-      "ai 콘텐츠 제작",
-      "firefly ai 기능",
-      "firefly ai 영상 활용",
-      "generative extend",
-      "크리에이티브 ai",
-      "텍스트 기반 영상 제작"
+      "AI, 미래기술/채팅",
+      "ai 검색",
+      "ai 질문 최적화",
+      "ai 추론",
+      "AI 활용법",
+      "deepseek",
+      "llm 모델",
+      "딥리서치",
+      "미래 예측 ai",
+      "챗GPT 프롬프트",
+      "프롬프트 확장"
     ]
   }
 ]
