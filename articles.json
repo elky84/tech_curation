@@ -2,80 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "구형 맥북 운영체제 복구하기",
-    "description": "2016 레티나 맥북(Retina Macbook)에 우분투 서버를 깔았는데 applespi spi-APP000D:00: SPI transfer timed out이라는 오류가 나면서 부팅이 제대로 안된다. 키보드, 터치패드, Wi-Fi 모듈이 제대로 작동 안 할때 발생한다고 한다. 드라이버를 설치하라고 하는데 Wi-Fi가 안되니 설치를 할 수가 없다. 랜선으로 연결하고 설치를 하면 되는 것 같은데 포기하고 다시 맥오에스로 돌아가기로 했다. 화면 해상도도 제대로 안잡힌다.\n\r\n\r\n복구 모드로 들어가서 설치를 할 수 있는데 파티션이 다 날라간 상태여도 인터넷만 되면 무선으로 운영체제 복구가 가능해서 좀 놀랐다. 부팅할 때 ⌘ + R 눌러서 복구 모드로 들어가서 운영체제를 설치할 수 있다. 설치할 디스크가 안나와서 잠시 당황했지만 설치 프로그램을 종료하고 디스크 유틸리티 들어가서 디스크를 다시 살려주고 설치하면 된다. 요세미티(10.10)가 깔렸다.\n\r\n\r\n설정을 하려다 보니 운영체제가 오래되어서 ssh도 ssh-rsa, ssh-dss 만 쓸 수 있고 결정적으로 clock_gettime이 없어서 베스젤(Beszel) 실행이 안된다. 엘 캐피탄(10.11)부터 제공된다고 한다. 운영체제 업그레이드를 하려고 보니 앱 스토어에는 최신 운영체제만 있어서 레티나 맥북에 설치할 수 있는 운영체제가 검색이 안된다.\n\r\n\r\n검색을 좀 해보니 옛날 운영체제를 다운 받을 수 있다는 안내가 있는데 재미 있는 것은 낮은 버전의 운영체제에서는 support.apple.com이 사파리에서 안열려서 설치 경로에 접근이 안된다. 몬터레이(12.0)까지는 설치가 가능하지만 빅서(11.0)에서 많이 느려졌던 기억이 나서 바로 직전인 카탈리나(10.15)를 깔려고 여차저차 링크를 밀어 넣고 설치를 시도 했다. 앱스토어 링크가 열려서 설치를 누르니 앱스토어 로그인이 안된다. OTP를 입력하는 창이 나와야 하는데 창이 안나와서 진행이 안된다.\n\r\n\r\n그나마 브라우저로 다운 받을 수 있는 더 오래된 운영체제들이 있어서 시에라(10.12)를 다운 받아서 설치를 했다. 설치가 금방 끝나버려서 당황했는데 Application 폴더에 들어가면 시에라 설치 프로그램이 있어서 이걸로 깔면 된다. 설치하고 다시 베스젤을 실행하니 이제는 SecTrustEvaluateWithError가 없다고 한다. 챗지피티가 시에라(10.12)에 있다고 했다가 카탈리나(10.15)가 필요하다고 하고 좀 왔다 갔다 한다. Security.framework은 시에라에 추가 됐는데 SecTrustEvaluateWithError는 카탈리나에 추가 됐나 보다. 카탈리나를 깐다. 이번에는 앱스토어 로그인을 물어보지 않고 바로 설치프로그램이 실행된다.\n\r\n\r\n카탈리나를 깔고 퍼피티어(puppeteer)를 실행하니 UniformTypeIdentifiers.framework이 없다고 하고 빅서(11.0)이상에서 지원한다고 한다. 끝이 없다. 바로 몬터레이로 올리려고 하니 지원하지 않는다고 오류가 나서 먼저 빅서를 깔았다. 여기도 앱스토어 링크로 그냥 진행이 된다. 빅서를 까니 퍼피티어가 제대로 실행이 된다. 몬터레이로 올리는 것은 나중에 해야 겠다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hyeonseok.com/blog/931",
-    "pubDate": "Fri, 21 Feb 2025 23:27:32 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "Database Migrations in the Real World",
-    "description": "Database migrations are critical to modern application development and deployment, enabling teams to evolve their database schema alongside their application code. However, as systems grow in complexity and scale, managing migrations becomes increasingly challenging. At scale, a simple schema update can impact several microservices, terabytes of data, and global user traffic. It requires careful planning, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/02/database-migrations-in-the-real-world/",
-    "pubDate": "Mon, 17 Feb 2025 11:02:11 +0000",
-    "creator": "Siva Katamreddy",
-    "categories": [
-      "idea",
-      "database",
-      "flyway",
-      "intellij-idea",
-      "liquibase",
-      "migrations"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "MSVC C++ Code Analysis: Updates in Visual Studio 2022 version 17.13",
-    "description": "This post details the latest updates in Visual Studio 2022 version 17.13 for MSVC C++ Code Analysis. Driven by internal team insights and developer community feedback, these improvements significantly reduce false positives and strengthen production code security.\nThe post MSVC C++ Code Analysis: Updates in Visual Studio 2022 version 17.13 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-c-code-analysis-updates-in-visual-studio-2022-version-17-13/",
-    "pubDate": "Wed, 19 Feb 2025 15:14:30 +0000",
-    "creator": "Carson Radtke",
-    "categories": [
-      "Announcement",
-      "C++"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "맥오에스에서 launchd로 서비스 띄우기",
-    "description": "맥오에스에서 systemd와 같은 역할을 하는 기능이 있나 찾아보니 launchd가 있다고 한다. Launchd는 에이전트(agent)와 데몬(daemon) 두가지로 띄울 수 있는데 에이전트는 사용자 계정을 로그인 했을 때 뜨게 되고 데몬은 맥이 부팅되면 뜨게 된다. 에이전트는 ~/Library/LaunchAgents/에 넣고 데몬은 /Library/LaunchDaemons/에 넣는다. 데몬은 root 권한이 필요하다.\n\r\n\r\n형식은 plist XML파일로 한다.\n\r\n\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\r\n<plist version=\"1.0\">\r\n<dict>\r\n\t<key>Label</key>\r\n\t<string>com.beszel.beszel-agent</string>\r\n\r\n\t<key>ProgramArguments</key>\r\n\t<array>\r\n\t\t<string>/Users/hyeonseok/beszel-agent</string>\r\n\t</array>\r\n\r\n\t<key>EnvironmentVariables</key>\r\n\t<dict>\r\n\t\t<key>PORT</key>\r\n\t\t<string>45876</string>\r\n\t\t<key>KEY</key>\r\n\t\t<string>ssh-ed25519 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+aaaaaaaaaaaaaaaaaaaaaaa</string>\r\n\t</dict>\r\n\r\n\t<key>RunAtLoad</key>\r\n\t<true/>\r\n\r\n\t<key>KeepAlive</key>\r\n\t<true/>\r\n</dict>\r\n</plist>\n\r\n\r\n서비스 등록과 해제는 launchctl 명령을 이용한다.\n\r\n\r\nsudo launchctl load /Library/LaunchDaemons/com.beszel.beszel-agent.plist\r\nsudo launchctl unload /Library/LaunchDaemons/com.beszel.beszel-agent.plist\n\r\n\r\n서비스로 등록이 됐는지는 list를 이용해서 확인할 수 있다.\n\r\n\r\nsudo launchctl list | grep beszel-agent\n\r\n\r\n데몬으로 등록할 plist를 사용자 디렉토리 아래에 넣으면 접근이 되지 않을 수 있다니 주의해야 한다. 파일볼트가 활성화되어 있으면 로그인을 해야 데몬으로 기동이 되기 때문에 확인이 필요하다.\n\r\n\r\n노드 서버를 launchd로 띄울까 고민했었는데 챗지피티의 꼬임에 넘어가서 우분투로 밀까 생각중이다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hyeonseok.com/blog/930",
-    "pubDate": "Tue, 18 Feb 2025 21:21:08 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "2030 대구 개발계획  / 부동산 / 아파트",
-    "description": "영상: https://www.youtube.com/watch?v=dbB3oPy9wrA&t=10s\n\n\n\n추천하는 곳은\n서대구\n안심  - 이시아폴리스 지하철 4호선\n동대구\n불로검단  - K2부지 엑스코선 ?\n이렇다고 합니다.\n쌀때 잘 주으면 되겠습니다.\n자율주행 나오면 지하철 필요한가 싶기도하고\n하지만 주욱 바온봐 지하철역 근처가 먼저 발전하더라는\n \n두번째 영상: https://www.youtube.com/watch?v=hSpBWe2zg0M\n\n\n\n대충 봤는데 UAM 이야기가 있군요 공항에서 도심까지 이동수단으로 생각 중이라는군요\n \n \n영상: https://www.youtube.com/watch?v=icVFDqPQbK4\n\n\n\n대구아파트 추천\n아직 짓고있는 중인건데 계약금만 있으면 판다는 식입니다. 미분양인 물량인거 같군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1151",
-    "pubDate": "Sat, 22 Feb 2025 17:19:38 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "대구",
-      "부동산",
-      "아파트"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
     "title": "VisualStudio.Extensibility: Tagger support and updates to settings",
     "description": "We continue to invest in the VisualStudio.Extensibility SDK to allow users like you to create extensions that run faster and smoother than ever before! VisualStudio.Extensibility helps you build extensions that run outside the main Visual Studio IDE process for improved performance, reliability, and installation without restarting Visual Studio. Additional benefits include a sleek and intuitive […]\nThe post VisualStudio.Extensibility: Tagger support and updates to settings appeared first on Visual Studio Blog.",
     "reviews": [],
@@ -91,36 +17,39 @@
     ]
   },
   {
-    "id": 7,
+    "id": 2,
     "imageUrl": "",
-    "title": "두산 투자 쉽다곤 안했다. 매년 반토막이 나도 존버하신분",
-    "description": "영상: https://www.youtube.com/watch?v=C5k4GqpkCic&t=145s\n\n\n\n매년 반토막이 나면 최고점 다신 안올꺼 같지만\n꾸역꾸역 올라간다.\n한국 주식은 원래 그런것인가 보다 라는 생각이들면서\n \n에코프로비엠 열심히 존버해야겠다는 생각이 들었습니다.",
+    "title": "YouTrack Introduces a New Design",
+    "description": "The YouTrack 2025.1 release introduces a bold new design that helps you navigate your projects and tasks more quickly. This new look and feel reflects years of learning about how teams work on projects. The new design introduces: Every day, hundreds of thousands of teams count on YouTrack to drive their business forward. We understand […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1146",
-    "pubDate": "Mon, 17 Feb 2025 14:38:50 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/youtrack/2025/02/youtrack-introduces-a-new-design/",
+    "pubDate": "Wed, 19 Feb 2025 07:00:00 +0000",
+    "creator": "Elena Pishkova",
     "categories": [
-      "한국주식"
+      "features",
+      "news",
+      "releases",
+      "youtrack-cloud",
+      "youtrack-server"
     ]
   },
   {
-    "id": 8,
+    "id": 3,
     "imageUrl": "",
-    "title": "Doc-Powered AI Assistant",
-    "description": "Starting with the 2024.3 version of JetBrains IDEs, AI Assistant can not only access the context from your project but also the IDE’s own documentation. Whenever you have a question about how to accomplish a task in a JetBrains IDE, such as WebStorm, IntelliJ IDEA, or PyCharm, AI Assistant is here to help. How do […]",
+    "title": "[MULTI] 변화와 발전을 갈무리하다, 몬스터 헌터 와일즈",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/02/doc-powered-ai-assistant/",
-    "pubDate": "Thu, 20 Feb 2025 14:45:49 +0000",
-    "creator": "Igor Kulakov",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2288",
+    "pubDate": "Tue, 25 Feb 2025 00:00:11 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "ai-assistant",
-      "jetbrains-ai"
+      "리뷰"
     ]
   },
   {
-    "id": 9,
+    "id": 4,
     "imageUrl": "",
     "title": "Unlocking More Power: Tool Calling in GitHub Copilot for Visual Studio",
     "description": "Have you ever been frustrated when Copilot doesn’t understand you? While it can’t read your mind, we’ve been working hard to make your coding experience smoother. Previously, Copilot in Visual Studio could look at files in your repository, but you needed to specify the context of your code manually. We understand this wasn’t the most […]\nThe post Unlocking More Power: Tool Calling in GitHub Copilot for Visual Studio appeared first on Visual Studio Blog.",
@@ -137,19 +66,172 @@
     ]
   },
   {
-    "id": 10,
+    "id": 5,
     "imageUrl": "",
-    "title": "토스, ‘오늘의 팁’ 누적 조회수 8억 회 돌파",
-    "description": "금융 콘텐츠 구독 서비스 ‘오늘의 팁’에서 금융 생활 팁 무료 제공",
+    "title": "Introducing Code Referencing for GitHub Copilot Completions in Visual Studio",
+    "description": "When GitHub Copilot completions (or “gray text”) pop up on your screen, have you ever wondered where does the completions come from and worried about if it matches with public code leading to license issues? If you have, we are introducing code referencing to support you and provide more transparency! We are excited to announce […]\nThe post Introducing Code Referencing for GitHub Copilot Completions in Visual Studio appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/tip",
-    "pubDate": "Thu, 20 Feb 2025 02:00:00 GMT",
+    "link": "https://devblogs.microsoft.com/visualstudio/introducing-code-referencing-for-github-copilot-completions-in-visual-studio/",
+    "pubDate": "Wed, 19 Feb 2025 16:40:08 +0000",
+    "creator": "Simona Liao",
+    "categories": [
+      "GitHub Copilot",
+      "Visual Studio",
+      "Artificial Intelligence",
+      "Code Referencing",
+      "GitHub Copilot Completions"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Rider 2025.1 EAP 5: Roslyn Syntax Tree Visualizer, Unity Profiler Integration, and More",
+    "description": "JetBrains Rider 2025.1 EAP 5 has just been released! You can now download this version from our website, update directly from within the IDE, use the free Toolbox App, or install it via snap packages for Ubuntu.  Here’s what you can expect from this update: Roslyn support enhancements Roslyn syntax tree visualizer Working with Roslyn […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/02/24/rider-2025-1-eap-5/",
+    "pubDate": "Mon, 24 Feb 2025 17:49:58 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "news",
+      "releases",
+      "rider",
+      "game-development",
+      "roslyn"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "MSVC C++ Code Analysis: Updates in Visual Studio 2022 version 17.13",
+    "description": "This post details the latest updates in Visual Studio 2022 version 17.13 for MSVC C++ Code Analysis. Driven by internal team insights and developer community feedback, these improvements significantly reduce false positives and strengthen production code security.\nThe post MSVC C++ Code Analysis: Updates in Visual Studio 2022 version 17.13 appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-c-code-analysis-updates-in-visual-studio-2022-version-17-13/",
+    "pubDate": "Wed, 19 Feb 2025 15:14:30 +0000",
+    "creator": "Carson Radtke",
+    "categories": [
+      "Announcement",
+      "C++"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "ChatGPT 구독 고민된다면 겜스고로 저렴하게 먼저 체험해보세요",
+    "description": "ChatGPT 플러스나 프로를 구독하기 전에, 먼저 저렴하게 체험해볼 수 있는 방법이 있습니다. 겜스고(Gamsgo)를 활용하면 공식 요금제 대비 최대 60~70% 저렴하게 AI를 경험할 수 있는데요. GPT를 처음 사용하거나, 활용법이 익숙하지 않다면 겜스고를 통해 저렴하게 먼저 사용해보는 것이 가장 좋은 선택입니다.\n\n\n \n  GPT 플러스가 필요한 이유: 무료로는 한계가 있다!\n최근 AI 활용이 늘어나면서 많은 분들이 ChatGPT를 적극적으로 사용하고 계신데요. 특히 블로그 작성, 데이터 분석, 자동화 작업 등에서 ChatGPT를 활용하는 경우가 많죠. 하지만 무료 버전(Free)으로는 한계가 있다는 걸 금방 느끼셨을 거예요.\n \n  ChatGPT 무료 버전의 한계점\n❌ 최신 GPT-4o 미니만 제공 (기존 GPT-4보다 성능 저하)\n❌ 하루 50회 정도로 사용량 제한\n❌ 이미지 생성, 음성 모드 등 일부 기능이 제한적\n \n그래서 많은 분들이 월 **$20(한화 약 3만 원)**을 내고 GPT 플러스(Plus) 요금제를 이용하고 있습니다. 플러스로 업그레이드하면 GPT-4o 정식 모델을 사용할 수 있고, 속도와 성능이 훨씬 개선되거든요.\n \n특히, 최근 AI 기술이 발전하면서 추론(Reasoning) 기능과 딥서치(Deep Search)가 GPT-4o 플러스 및 프로 요금제에 적용되면서, 더 강력한 AI 활용이 가능해졌습니다.\n  결론: 무료 버전은 간단한 용도로만 적합하고, 본격적인 AI 활용에는 플러스 이상이 필요하다\n \n \n  GPT 플러스 vs 프로 vs 무료 요금제 비교\nChatGPT에는 총 3가지 요금제가 있습니다.\n기능\n무료 (FREE)\n플러스 (PLUS)\n프로 (PRO)\n\n\n\n\nGPT 모델\nGPT-4o 미니 (시간당 16~50회 제한)\nGPT-4o (시간당 80회)\nGPT-4o 무제한\n\n\n추론 모델 (O1, O3 미니)\n하루 10회\n하루 150회\n무제한\n\n\n음성 모드\n표준 모드\n고급 모드 (15분 제한)\n무제한\n\n\n이미지 생성 (DALL-E)\n2회/일\n더 많은 생성 가능\n무제한\n\n\n동영상 생성 (Sora)\n불가능\n최대 50개, 해상도 제한\n최대 500개, 고해상도\n\n\n파일 업로드 및 분석\n가능\n가능\n가능\n\n\n웹 검색\n가능\n가능\n가능\n\n\n오퍼레이터 기능 (자동 브라우저 작업)\n불가능\n불가능\n미국에서만 사용 가능\n\n\n딥 리서치 (심층 연구 기능)\n불가능\n불가능\n가능\n\n\n\n \n✅ 무료(FREE): 가벼운 사용에는 충분하지만, 제한이 많아 장기적으로 활용하기 어려움.\n✅ 플러스(PLUS): GPT-4o 정식 모델을 사용할 수 있는 가장 현실적인 요금제.\n✅ 프로(PRO): 전문가용 요금제, AI 연구나 데이터 분석이 필요한 사용자에게 추천.\n \n  특히, OpenAI는 새로운 기능을 프로 → 플러스 → 무료 순서로 업데이트하기 때문에, 최신 AI 기능을 제대로 활용하려면 플러스 이상을 사용해야 합니다.\n \n \n  ChatGPT 플러스, 바로 결제해야 할까?\nChatGPT는 정말 강력한 AI 도구이지만, 모든 사람에게 절대적으로 필요한 건 아닙니다. 실제로 사용해보지 않고 무작정 유료 결제를 했다가 ‘내가 생각했던 것만큼 필요하지 않네?’ 하고 후회하는 분들도 많아요.\n \n특히, AI를 처음 접하는 분들이라면 고급 프롬프트 작성법이나 AI 활용법이 익숙하지 않기 때문에 GPT의 진짜 성능을 제대로 활용하지 못하는 경우가 많습니다.\n \n  그렇다면 정답은? 무작정 결제하지 말고, 겜스고(Gamsgo)에서 먼저 저렴하게 체험해보세요!\n \n겜스고를 이용하면 ChatGPT 플러스나 프로를 공식 요금제 대비 최대 60% 저렴하게 사용할 수 있습니다.\n \n \n  GPT 구독을 고민 중이라면, 겜스고를 먼저 사용해보세요!\nChatGPT 플러스(월 $20)나 프로(월 $200)를 구독하기 전에,\n❌ \"GPT가 나한테 정말 필요할까?\"\n❌ \"고급 프롬프트 없이도 원하는 결과를 얻을 수 있을까?\"\n❌ \"매달 3만 원 넘는 돈을 내고 쓸 만큼 가치가 있을까?\"\n \n위와 같은 고민이 든다면 겜스고를 통해 부담 없이 먼저 체험해보는 것이 가장 현명한 방법입니다.\n \n \n✅ 겜스고를 이용하면?\n✔ 공식 가격 대비 최대 60% 저렴하게 GPT 플러스 & 프로 사용 가능\n✔ Netflix, YouTube Premium, Canva 등 다양한 서비스도 함께 할인\n✔ 3개월 단위 구독 가능 (12개월보다 안전하고 부담 없음)\n✔ GPT를 활용해보고, 정말 필요하다면 그때 정식 구독하면 됨\n \n \n  GPT 플러스 요금제 비교: 공식 vs 겜스고\nChatGPT를 정식으로 구독하면 매달 $22(약 3만 원)이 필요하지만, 겜스고를 이용하면 월 8천 원 정도로 사용할 수 있어요.\n요금제\n공식 사이트 가격\n겜스고 할인 가격\n\n\n\n\n플러스 (Plus)\n$22/월 (약 3만 원)\n74%할인된 3개월 $16.99 (약 8천 원/월)\n\n\n\n  이 차이면, 무조건 겜스고를 먼저 이용해보고 결정하는 게 이득!\n  ChatGPT를 처음 사용한다면, 겜스고로 먼저 경험해보세요\nAI를 제대로 활용하려면 고급 프롬프트 작성법과 GPT 활용법을 익혀야 합니다.\n그런데, 유료 결제를 하고도 제대로 활용법을 모르거나, 원하는 결과를 얻지 못하면 돈만 낭비하는 셈이죠.\n \n✔ GPT 사용이 처음이라면?\n✔ 프롬프트 작성법이 익숙하지 않다면?\n✔ GPT 활용도가 아직 확실하지 않다면?\n  이런 경우, 정식 구독보다 겜스고로 먼저 사용해보는 것이 가장 좋은 선택!\n \n \n  ChatGPT뿐만 아니라 다양한 AI 도구도 저렴하게!\nAI를 활용하는 것은 이제 선택이 아니라 필수가 되어가고 있습니다. 하지만 여러 AI 도구를 정식으로 구독하려면 비용이 만만치 않죠. 다행히도, **겜스고(Gamsgo)**를 이용하면 다양한 AI 서비스를 공식 가격보다 훨씬 저렴하게 이용할 수 있습니다.\n특히, GAMMA PRO, Perplexity, Canva, Midjourney 같은 인기 AI 서비스도 큰 폭으로 할인되기 때문에, AI를 제대로 활용하고 싶다면 겜스고를 적극적으로 고려해보세요!\n \n \n✅ 겜스고 AI 도구 구독 가격 비교\n서비스\n공식 사이트 가격\n겜스고 할인 가격\n할인율\n\n\n\n\nGAMMA PRO\n$15\n$6.99\n  53% 할인\n\n\nPerplexity\n$20\n$4.47\n  78% 할인\n\n\nCanva\n$9.99\n$5.99\n  40% 할인\n\n\nMidjourney\n$24\n$8.99\n  62% 할인\n\n\n\n \n  이 정도면 AI 도구를 공식 사이트에서 정가로 구독하는 게 오히려 손해!\n  ChatGPT뿐만 아니라 다양한 AI 툴을 저렴하게 구독하고 싶다면, 겜스고를 활용해보세요!\n \n \n❗ 겜스고에서 GPTS 결재하고 할인 받는 방법\n물론, 겜스고는 공식 구독이 아니기 때문에 몇 가지 고려해야 할 점도 있습니다.\n \n1. 아래 제휴링크로 진입하셔야 더 많은 할인이 가능합니다.  ▼\n겜스고 할인 받기 - 할인코드 : MYD2B\n        \n    \n \n2.위 제휴링크로 겜스고 방문하신후 가입을 원하는 서비스에서 \"지금 구매하기\"를 클릭하세요. ▼\n\n\n \n \n3. 구매유형을 결정하신 후 결제전 프로모션 코드 [ MYD2B ] 를 입력하시면 기본할인에서 추가할인이 가능합니다. ▼\n\n\n \n \n \n❗ 겜스고를 이용할 때 주의할 점\n물론, 겜스고는 공식 구독이 아니기 때문에 몇 가지 고려해야 할 점도 있습니다.\n❌ 계정 공유 방식이라 보안 이슈가 있을 수 있음\n❌ 가끔 GPT 모델 변경이나 해제될 가능성이 있음 (고객센터 문의 시 해결 가능)\n❌ 환불 시 소액의 수수료(약 3,000~4,000원)가 발생할 수 있음\n  하지만, 이런 리스크를 감수하더라도 공식 가격보다 훨씬 저렴하게 사용할 수 있다는 것이 큰 장점!\n \n \n  결론: GPT 정식 구독 전, 겜스고로 먼저 체험해보세요!\n✔ ChatGPT 유료 모델을 써보고 싶다면?   겜스고에서 먼저 저렴하게 사용해보기\n✔ 프롬프트 작성법 & AI 활용법이 익숙하지 않다면?   겜스고로 연습 후 필요하면 정식 구독\n✔ AI를 활용할 일이 많을지 고민된다면?   먼저 체험해보고 결정\n  겜스고를 사용하면, ChatGPT를 부담 없이 경험해볼 수 있습니다.\n  괜히 비싼 요금제 구독하고 후회하지 말고, 먼저 겜스고로 체험해보세요!\n  지금 겜스고를 통해 GPT를 저렴하게 사용해보세요!  \n \n  Q&A (자주 묻는 질문)\nQ1. ChatGPT 플러스나 프로를 구독하기 전에 겜스고를 이용하는 것이 좋은 이유는?\nA. GPT 활용도가 절대적이지 않다면, 무작정 구독하지 말고 겜스고를 통해 저렴하게 체험해보는 것이 가장 현명한 방법입니다.\nQ2. 겜스고에서 제공하는 AI 서비스는 공식 서비스와 동일한가요?\nA. 네! 겜스고를 통해 결제하면 공식 사이트에서 제공하는 동일한 서비스를 이용할 수 있으며, 성능 차이는 없습니다.\nQ3. 겜스고를 이용하면 ChatGPT 외에 다른 AI 도구도 저렴하게 사용할 수 있나요?\nA. 네! GAMMA PRO, Perplexity, Canva, Midjourney 등 다양한 AI 서비스도 최대 78% 할인된 가격으로 이용할 수 있습니다.\nQ4. 겜스고를 사용할 때 주의해야 할 점이 있나요?\nA. 계정 공유 방식이기 때문에 보안 리스크가 있으며, 가끔 AI 서비스 접근이 제한될 가능성이 있습니다. 장기 구독보다는 3개월 단위로 이용하는 것이 안전합니다.\nQ5. 겜스고를 통해 AI 도구를 구독하면 환불이 가능한가요?\nA. 겜스고에서 결제 후 환불을 요청할 경우, 소액의 수수료(약 3,000~4,000원)가 부과될 수 있으므로 신중하게 결정하는 것이 좋습니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT 플러스나 프로를 구독하기 전에 겜스고를 이용하는 것이 좋은 이유는?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GPT 활용도가 절대적이지 않다면, 무작정 구독하지 말고 겜스고를 통해 저렴하게 체험해보는 것이 가장 현명한 방법입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"겜스고에서 제공하는 AI 서비스는 공식 서비스와 동일한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네! 겜스고를 통해 결제하면 공식 사이트에서 제공하는 동일한 서비스를 이용할 수 있으며, 성능 차이는 없습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"겜스고를 이용하면 ChatGPT 외에 다른 AI 도구도 저렴하게 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네! GAMMA PRO, Perplexity, Canva, Midjourney 등 다양한 AI 서비스도 최대 78% 할인된 가격으로 이용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"겜스고를 사용할 때 주의해야 할 점이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"계정 공유 방식이기 때문에 보안 리스크가 있으며, 가끔 AI 서비스 접근이 제한될 가능성이 있습니다. 장기 구독보다는 3개월 단위로 이용하는 것이 안전합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"겜스고를 통해 AI 도구를 구독하면 환불이 가능한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"겜스고에서 결제 후 환불을 요청할 경우, 소액의 수수료(약 3,000~4,000원)가 부과될 수 있으므로 신중하게 결정하는 것이 좋습니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483542",
+    "pubDate": "Fri, 21 Feb 2025 15:52:46 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/채팅",
+      "ai 구독 비용 절감",
+      "ai 도구 최저가",
+      "canva pro 구독 할인",
+      "chatgpt 프로 가격 비교",
+      "chatgpt 플러스 할인",
+      "gamma pro 할인",
+      "gpt 구독 저렴하게",
+      "midjourney 저렴한 사용법",
+      "perplexity 저렴하게",
+      "겜스고 gpt 할인"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "GitHub Copilot으로 디버깅 경험 혁신하기",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/tech-ai_20250223/",
+    "pubDate": "Sun, 23 Feb 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
+    "id": 10,
+    "imageUrl": "",
+    "title": "2030 대구 개발계획  / 부동산 / 아파트",
+    "description": "영상: https://www.youtube.com/watch?v=dbB3oPy9wrA&t=10s\n\n\n\n추천하는 곳은\n서대구\n안심  - 이시아폴리스 지하철 4호선\n동대구\n불로검단  - K2부지 엑스코선 ?\n이렇다고 합니다.\n쌀때 잘 주으면 되겠습니다.\n자율주행 나오면 지하철 필요한가 싶기도하고\n하지만 주욱 바온봐 지하철역 근처가 먼저 발전하더라는\n \n두번째 영상: https://www.youtube.com/watch?v=hSpBWe2zg0M\n\n\n\n대충 봤는데 UAM 이야기가 있군요 공항에서 도심까지 이동수단으로 생각 중이라는군요\n \n \n영상: https://www.youtube.com/watch?v=icVFDqPQbK4\n\n\n\n대구아파트 추천\n아직 짓고있는 중인건데 계약금만 있으면 판다는 식입니다. 미분양인 물량인거 같군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1151",
+    "pubDate": "Sat, 22 Feb 2025 17:19:38 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "대구",
+      "부동산",
+      "아파트"
+    ]
+  },
+  {
     "id": 11,
+    "imageUrl": "",
+    "title": "해야할 경험",
+    "description": "대학교때 학과나 학회 활동은 거의 하지 않고, 농구 동아리에서 동기들이랑 놀기만 하다가 같이 지방의 대회를 나갔다.\n농구라는 운동은 한 팀에서 5명만 출전할 수 있어서 10명이 넘는 동기들끼리 교체해가며 시합에 참여했다.\n경기에 출전하여 뛰고 있을때 그 경기는 스스로 생각해도 너무 못하다는 생각이 들었다.\n마침 내가 그 생각을 하는 중 나와 같은 포지션을 뛰는 친구가 감독을 보는 친구에게 이야기하는 것을 봤다.\n당시에 자존감도 낮고 자신감도 없던 나는 그 친구가 \"내가 너무 못하니 교체해야한다\" 고 이야기하는 것 같았다.\n그리고 실제로 이야기가 끝나자마자 나는 교체되서 벤치로 들어왔다.\n그 친구가 이야기해서 교체되었다는 생각에 벤치로 오자마자 친구에게 화를 냈다.\n\"왜 맘대로 나를 교체해야한다고 감독에게 이야기하냐고\" 말이다.\n근데 실상은 내가 못하니 교체하라고 했던 것이 아니라, \"지금의 작전이 통하지 않으니 다른 작전을 이야기 했던 것\" 이고, \"그 작전에 더 적합한 친구로 감독 친구가 교체 했던 것\"이였다.\n왜 내가 교체된 건지 감독 친구에게 물어보기만 해도 해결되는 것을 나 혼자만의 망상으로 큰 사건이 되었다.\n내 자격지심이 친구들을 오해하게 만들고, 나 스스로도 망가뜨린셈이다.\n너무 큰 오해를 해서 친구들한테도 사과를 연거푸 했다.\n너무 민망하고 부끄러웠다.\n친구들도 그럴수 있다고 넘겨줘서 남은 시합도 끝내고 이후 회식도 하면서 그 대회는 잘 마무리 되었다.\n친구들은 계속 괜찮다고 했는데, 나는 그 일이 너무 부끄러웠고 두고두고 곱씹었다.\n이 사건이 내 20대의 자아 형성에 큰 부분을 차지했다.\n\"직접적으로 확인하기 전까지는 무턱대고 부정적으로 해석해서 타인을 오해하면 안되고, 속단하지 말아야 한다\" 를 배우게 된 것이다.\n이 경험은 두고두고 큰 도움이 되었다.\n회사 생활이나 커뮤니티 활동 등 여러 사람들과 함께 지내면서 발생하는 많은 오해들에 대해 속단하지 않으려고 노력하게 되었다.\n미리부터 나를 미워할 것이라고 전제하고 타인을 의심할 필요가 없고 그러지 않기 위해 노력하게 되었다.\n누군가의 말, 제스처, 눈빛, 행동 등 오해할 수 있는 여지는 많지만 그걸 부정적으로 해석하는 것도, 해석하지 않는 것도 온전히 내가 선택할 수 있다는 것도 알게 되었다.\n20대의 부끄러운 경험 한번으로 두고두고 큰 도움을 받았다.\n침착맨 유튜브에서 가장 좋아하는 회차가 김풍, 주호민님과 함께한 연애상담편이다.\n\n연애에 관한 이야기이지만, 중간에 나오는 \"그 나이때에 해야할 경험이라는 것이 있다\" 는 김풍 작가님의 말을 특히 좋아한다.\n\"그 나이때에 해야할 경험을 해야 이상한 어른이 되지 않고, 건강한 어른이 될 수 있으니 부끄러움을 피하려고 하지말고 기꺼이 부끄러움을 감수하고서라도 많은 것들을 실행에 옮기라\" 는 내용이 20대의 부끄러웠던 그 경험을 생각나게 해서 좋았다.\n사람들과 함께 어울리다보면 부끄러운 경험을 언제든 할 수 있다.\n혹은 상처받는 경험도 언제든 할 수 있다.\n그런 부끄러운 경험, 상처받는 경험으로 인해 배우는게 정말 많다.\n그리고 그걸로 인해서 스스로가 더 건강하게 변한다.\n그러니 사람들로 인해 상처받는게 무서워서 피하려고만 하지말고, 가능하면 더 많이 대화하고 어울리고 하면서 여러 다양한 경험을 해보면 좋겠다.\n내 주변도, 미래의 나도 말이다.\n물론 이게 그 나이때에 맞는 경험을 하지 못하고 시간이 지났으니 늦었으니 큰일났음을 이야기하는 건 아니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://jojoldu.tistory.com/818",
+    "pubDate": "Mon, 24 Feb 2025 00:54:23 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "경험",
+      "김풍",
+      "침착맨",
+      "커리어"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Doc-Powered AI Assistant",
+    "description": "Starting with the 2024.3 version of JetBrains IDEs, AI Assistant can not only access the context from your project but also the IDE’s own documentation. Whenever you have a question about how to accomplish a task in a JetBrains IDE, such as WebStorm, IntelliJ IDEA, or PyCharm, AI Assistant is here to help. How do […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/02/doc-powered-ai-assistant/",
+    "pubDate": "Thu, 20 Feb 2025 14:45:49 +0000",
+    "creator": "Igor Kulakov",
+    "categories": [
+      "ai-assistant",
+      "jetbrains-ai"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "바코 BACO / 1인 게임 개발자 영상 요약",
+    "description": "영상: https://www.youtube.com/watch?v=3hWF6i2se3Y\n\n\n\n게임을 만들고 광고를 붙이고\n광고를 태우기도 하는군요\n1설치당 천원 정도 드나봅니다. \n많이 드는군요\n파이어베이스로 통계분석하는 부분도 있습니다.\n유익한 영상이였습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1150",
+    "pubDate": "Sat, 22 Feb 2025 15:08:01 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "올해 즐겼던 게임 중 일부~",
+    "description": "푸에르토리코 와이프랑 2인으로 자주 즐기는 게임 SE버전은 쫌... 인것 같아서 포기했었다. AR에서 아그리콜라 SE가 나올지도 모른다는 루머가 있던데... 엘드리치 호러 초창기 보린이 일때 샀었는데 지금도 와이프랑 2인플을 가끔 한다. 확장이 나온다는걸 기념해서 본판을 돌려봤다 ㅎㅎ 큐비토스 예전에 저렴하게 구매했는데 2만원 중반쯤. 저렴하게 구매했으면 꽤나 괜찮다. 돌팔이 약장수를 좋아하는 짝꿍에게 맞는 그런게임. 주사위 빌딩을 했는데 아쉽게끝난다는 평이 많은데 트랙을 두개 놓고 하던지 두바퀴 도는 방식으로 하면 후반에 주사위 빌드해놓은게 터지는 맛도 좋다. 주사위가 빌딩되어 있어 그다지 늘어지지않고 몇턴만 더돌고.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/dlehddus84/223766587268?fromRss=true&trackingCode=rss",
+    "pubDate": "Wed, 19 Feb 2025 22:57:54 +0900",
+    "creator": "dlehddus84",
+    "categories": [
+      "플레이"
+    ]
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "월 최대 20만 원, 올해부터 도입되는 대학생 주거안정장학금",
     "description": "원거리 대학에 진학한 저소득층 대학생에게 주거안정 비용을 지원해요.",
@@ -158,63 +240,6 @@
     "link": "https://blog.toss.im/article/money-policies-34",
     "pubDate": "Fri, 21 Feb 2025 00:38:00 GMT",
     "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Webinar – Uno Platform & Hot Design for Rider",
-    "description": "Join us Tuesday, March 11, 2025, 15:00 – 16:30 UTC (check other timezones) for our free live webinar, Uno Platform & Hot Design for Rider, with Andres Pineda. Register now and get a reminder, or join on YouTube Hot Design is the industry’s first visual designer for cross-platform .NET applications. It transforms your running app […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/02/19/webinar-uno-platform-amp-hot-design-for-rider/",
-    "pubDate": "Wed, 19 Feb 2025 15:52:14 +0000",
-    "creator": "Matthias Koch",
-    "categories": [
-      "net-tools",
-      "livestreams",
-      "oss",
-      "rider",
-      "uno"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "괴담 월드컵",
-    "description": "영상: https://www.youtube.com/watch?v=SwLo5bZvpIk\n\n\n\n무서운거 많네요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1149",
-    "pubDate": "Fri, 21 Feb 2025 19:15:05 +0900",
-    "creator": "SIDNFT",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Visual Studio Code CMake Tools Extension 1.20 Release: Introducing Built-In CMake Language Services",
-    "description": "The February release of CMake Tools in VS Code is now available. With this release, we have some new updates to the extension to improve CMake integrations with the extension’s support. Some updates include the built-in support for CMake Language services, addressing our most highly-upvoted issues in the CMake Tools extension, and CMake presets v9 […]\nThe post Visual Studio Code CMake Tools Extension 1.20 Release: Introducing Built-In CMake Language Services appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/visual-studio-code-cmake-tools-extension-1-20-release-introducing-built-in-cmake-language-services/",
-    "pubDate": "Thu, 20 Feb 2025 15:52:32 +0000",
-    "creator": "Sinem Akinci",
-    "categories": [
-      "CMake",
-      "Visual Studio Code"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "How Do LLMs Benefit Developer Productivity?",
-    "description": "LLMs are everywhere! I am sure you have heard of large language models (LLMs) and may have seen demonstrations of what they can do. You may have even tried to play with some of the popular ones yourself. No matter your opinion of or experience with LLMs, you cannot deny that they are a popular […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/02/how-do-llms-benefit-developer-productivity/",
-    "pubDate": "Tue, 18 Feb 2025 13:22:57 +0000",
-    "creator": "Cheuk Ting Ho",
     "categories": []
   }
 ]
