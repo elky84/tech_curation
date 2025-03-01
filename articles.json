@@ -2,17 +2,108 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "괴담 월드컵",
-    "description": "영상: https://www.youtube.com/watch?v=SwLo5bZvpIk\n\n\n\n무서운거 많네요",
+    "title": "Java 24: Build Games, Prototypes, Utilities, and More—With Less Boilerplate",
+    "description": "At ten, I sat in my school’s computer lab, in awe of a line drawing on the screen—my own code had brought it to life. “Yay! I coded that! I can code anything!”, I thought. My teacher, surprised, asked, “Wow! You did that?” It felt like magic, but it was more than that—I realized I […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1149",
-    "pubDate": "Fri, 21 Feb 2025 19:15:05 +0900",
-    "creator": "SIDNFT",
-    "categories": []
+    "link": "https://blog.jetbrains.com/idea/2025/02/java-24-build-games-prototypes-utilities-and-more-with-less-boilerplate/",
+    "pubDate": "Tue, 25 Feb 2025 12:31:20 +0000",
+    "creator": "Mala Gupta",
+    "categories": [
+      "idea",
+      "implicit-classes",
+      "java",
+      "java-24"
+    ]
   },
   {
     "id": 2,
+    "imageUrl": "",
+    "title": "Building a Better Developer Experience: A Collaboration Between Gradle, Google, and JetBrains",
+    "description": "The original blog post was published here. Developers are at the heart of everything we do. You are the ones who create all of those new things to make the world better. To do that effectively, you need tools to rely on that are powerful yet easy to use. That’s why Kotlin was created. But […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/02/building-a-better-developer-experience-a-collaboration-between-gradle-google-and-jetbrains/",
+    "pubDate": "Wed, 26 Feb 2025 14:30:21 +0000",
+    "creator": "Dmitriy Smirnov",
+    "categories": [
+      "news",
+      "collaboration",
+      "google",
+      "gradle",
+      "intellij-idea",
+      "jetbrains"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Faster and Local Shopping on eBay Just Got Simpler",
+    "description": "eBay has made several UX enhancements to help customers find local listings, fast-shipping items, and more.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://innovation.ebayinc.com/tech/features/faster-and-local-shopping-on-ebay-just-got-simpler/",
+    "pubDate": "Wed, 26 Feb 2025 00:00:00 -0800",
+    "creator": "Avital Derazon, Harshal Parikh, Abhishek Bishnoi, Prerna Dubey and Shuja  Rahman",
+    "categories": [
+      "article"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Spring Data MongoDB로 배열의 특정 요소 업데이트하기",
+    "description": "Spring Data MongoDB에서 arrayFilters를 활용해 배열의 특정 요소만 조건에 맞게 벌크 업데이트하여 대량 데이터 처리 성능을 최적화할 수 있습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://cheese10yun.github.io/spring-data-mongodb-update-arrayFilters/",
+    "pubDate": "Mon, 24 Feb 2025 15:00:00 GMT",
+    "creator": "Unknown",
+    "categories": [
+      {
+        "_": "Mongo",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/Mongo/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Integration Tests for Plugin Developers: UI Testing",
+    "description": "In our previous blog post, we created a basic integration test that:  Now, let’s explore how to interact with UI elements in our tests. UI hierarchy IntelliJ-based IDEs primarily use Swing and AWT for their user interface, while JCEF is used in specific cases like Markdown rendering. This UI framework organizes elements in a parent-child […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2025/02/integration-tests-for-plugin-developers-ui-testing/",
+    "pubDate": "Fri, 28 Feb 2025 18:30:11 +0000",
+    "creator": "Maxim Kolmakov",
+    "categories": [
+      "plugin-development",
+      "marketplace",
+      "plugins",
+      "testing"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "매출을 높이고 싶은 피부과라면 ‘부스트리’를 도입해야 하는 이유: 부스트리파트너스 이화랑 대표 인터뷰",
+    "description": "피부과 매출을 올려주는 CRM 부스트리 (2년 만에 50개 피부과 사용 중) 자기소개를 부탁드립니다. 피부과 의원의 경영, 마케팅, 운영을 함께하는 ‘부스트리’를 개발하는 부스트리파트너스 대표 이화랑입니다. 경영, 마케팅, 운영을 함께한다는 게 무슨 말이죠? MSO라 불리는 네트워크 병원들이 있는데요, 프렌차이즈 식당 같은 개념이에요. 의사 선생님들이 진료하기도 힘든데, 마케팅에 운영까지 하기 힘들잖아요. 그래서 MSO 본사에서 경영 지원, 마케팅, 운영 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://ppss.kr/archives/268749",
+    "pubDate": "Wed, 26 Feb 2025 03:08:58 +0000",
+    "creator": "리승환",
+    "categories": [
+      "IT",
+      "스타트업",
+      "인터뷰",
+      "sponsored"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "Rider 2025.1 EAP 5: Roslyn Syntax Tree Visualizer, Unity Profiler Integration, and More",
     "description": "JetBrains Rider 2025.1 EAP 5 has just been released! You can now download this version from our website, update directly from within the IDE, use the free Toolbox App, or install it via snap packages for Ubuntu.  Here’s what you can expect from this update: Roslyn support enhancements Roslyn syntax tree visualizer Working with Roslyn […]",
@@ -31,185 +122,7 @@
     ]
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Grok 3는 정말 &quot;검열 해제&quot;되었을까? AI 자유 표현의 한계와 가능성",
-    "description": "Grok 3는 xAI가 \"검열 해제\"된 AI 모델이라고 소개했지만, 이는 정확히 어떤 의미일까요? 정말로 다른 AI보다 자유로운 표현이 가능할까요? 성능, 기능, 그리고 윤리적 논란까지 깊이 있게 분석해 봅니다.\n\n\n \n \n최근 AI 업계에서 가장 뜨거운 이슈 중 하나가 바로 Grok 3입니다. Elon Musk가 이끄는 xAI에서 개발한 이 AI는 \"검열 해제(Uncensored)\"된 모델이라고 강조하며, 기존 AI와는 다른 차별점을 내세우고 있습니다.\n \n그런데 여기서 궁금한 점이 하나 있습니다.  \n✔️ Grok 3의 \"검열 해제\"란 정확히 무엇을 의미할까?\n✔️ 실제로 GPT-4나 Gemini보다 더 자유로운 AI일까?\n✔️ AI의 표현 자유가 확대되면, 사회적으로 어떤 영향을 미칠까?\n오늘은 **Grok 3의 성능, 기능, 그리고 논란이 되는 \"자유로운 표현\"**에 대해 하나씩 살펴보겠습니다.\n \n \n  Grok 3, 도대체 뭐가 다른가?\n ️ 핵심 기능\nGrok 3는 기존 Grok 1, 2에서 대폭 업그레이드된 고성능 AI 모델입니다. 특히 다음과 같은 특징을 갖고 있습니다.\n \n✅ 10배 향상된 연산 능력 – Grok 2보다 10배 강한 컴퓨팅 파워로 학습\n✅ Think Mode(심층 사고 모드) – 문제 해결을 위해 단계별 분석 가능\n✅ DeepSearch(심층 검색 기능) – 웹에서 최신 정보를 직접 분석하여 답변\n✅ 이미지 생성 기능 – 기존보다 확장된 AI 이미지 생성 (일부 제한 있음)\n✅ 코딩 능력 향상 – Python, JavaScript 등 다양한 언어 코드 생성 가능\n \n기존 AI 모델보다 더 강력한 연산 능력과 심층적인 사고력을 갖추고 있다는 점에서 주목할 만합니다.\n \n \n  정말 \"검열 해제\" 되었을까?\n  AI 검열이란?\n대부분의 AI 모델(GPT-4, Gemini 등)은 윤리적 가이드라인에 따라 특정 주제에 대한 답변을 제한합니다.\n❌ 혐오 표현, 가짜 뉴스 방지\n❌ 정치적 중립 유지\n❌ 폭력적이거나 성인 콘텐츠 차단\n그렇다면, Grok 3는 이러한 제한을 없앴을까?\n⚡ Elon Musk의 철학: \"진실을 있는 그대로\"\nElon Musk는 AI가 검열 없이 진실을 말해야 한다고 주장해 왔습니다. 이에 따라 Grok 3는 기존 AI보다 더 개방적인 답변을 제공하는 것이 특징입니다.\n  실제 테스트 결과\n✅ 정치적 질문 – GPT-4가 \"답변이 어렵습니다\"라고 회피하는 질문에도 Grok 3는 다양한 관점을 포함한 분석을 제공\n✅ 사회적 이슈 – 종교, 성 정체성, 전쟁 등 민감한 주제에 대해서도 답변 가능\n✅ 이미지 생성 – 일부 유명인 이미지 생성 가능 (단, 여전히 제약 존재)\n⚠️ 하지만 완전한 무제한은 아님\nGrok 3가 완전히 검열 없이 운영되는 것은 아닙니다.\n  명백한 가짜 뉴스나 조작된 정보는 제한됨\n  폭력적이거나 성인 콘텐츠 생성 불가\n즉, 기존 AI보다 훨씬 자유로운 표현이 가능하지만, 기본적인 규칙은 여전히 존재합니다.\n \n \n  성능 비교: Grok 3 vs. GPT-4 vs. Gemini\n  벤치마크 테스트 결과\n테스트 항목\nGrok 3\nGPT-4\nGemini\n\n\n\n\nChatbot Arena 점수\n1400+ (최초 기록)\n1370\n1340\n\n\n수학(AIME 테스트)\n✅ 최고 점수\n✅ 우수\n❌ 다소 부족\n\n\n과학(GPQA 테스트)\n✅ GPT-4보다 높음\n✅ 우수\n❌ 부족\n\n\n코딩(LCB Oct-Feb)\n✅ 최상위 성능\n✅ 비슷한 수준\n❌ 부족\n\n\n\n \n✅ Grok 3의 강점\n✔️ AI 챗봇 평가(Arena)에서 최초 1400점 이상 획득\n✔️ GPT-4보다 높은 수학, 과학, 코딩 성능\n✔️ DeepSearch 기능을 통한 실시간 정보 검색 가능\n \n❌ 단점\n⚠️ 여전히 \"AI 환각(잘못된 정보 생성)\" 문제 존재\n⚠️ 유료 플랜(X 프리미엄+)에서만 고급 기능 사용 가능 (월 $40)\n \n \n  AI 업계에 미칠 영향\n  AI 자유화 vs. 윤리적 문제\n✅ Musk가 주장하는 **\"진실을 가감 없이 전달하는 AI\"**는 기술적 진보를 의미하지만,\n❌ 악용될 가능성도 큼 (잘못된 정보 확산, AI의 편향성 문제)\n만약 Grok 3가 조작된 정보를 무분별하게 제공한다면?\n  사회적 혼란을 초래할 수도 있음.\n반대로, 기존 AI보다 더 창의적인 답변을 제공할 가능성도 있음.\n \n \n  향후 전망\n1️⃣ AI 검열 기준이 점점 완화될 가능성\n2️⃣ 책임 있는 AI 사용과 규제 논의가 더욱 활발해질 것\n3️⃣ 사용자가 정보를 어떻게 활용하느냐에 따라 AI의 가치가 결정될 것\n \n \n✍️ 마치며\nGrok 3는 AI의 표현 자유를 강조한 모델로, 기존 AI보다 개방적인 성격을 지니고 있습니다.\n그러나 \"검열을 줄이는 것\"이 AI의 발전에 도움이 될지, 새로운 문제를 초래할지는 아직 논란이 많습니다.\n여러분은 어떻게 생각하시나요?  \nGrok 3의 방향성이 옳다고 보시나요, 아니면 위험한 실험이라고 생각하시나요? 댓글로 의견을 남겨주세요!\n \n \n❓ Q&A\n1️⃣ Grok 3는 무료로 사용할 수 있나요?\n  기본 기능은 무료이지만, DeepSearch 등 고급 기능은 X 프리미엄+ 구독 필요(월 $40).\n2️⃣ Grok 3의 정보는 100% 신뢰할 수 있나요?\n  아니요. 여전히 \"AI 환각\" 현상이 있어 중요한 정보는 반드시 검증해야 합니다.\n3️⃣ Grok 3의 \"Think Mode\"는 무엇인가요?\n  AI가 단순히 답을 내놓는 것이 아니라, 단계적으로 논리적 사고 과정을 거쳐 답변을 제공하는 기능입니다.\n4️⃣ Grok 3는 정말로 GPT-4보다 뛰어난가요?\n  수학, 과학, 코딩 분야에서는 앞서지만, 언어적 창의성이나 안정성 면에서는 GPT-4가 우세하다는 평가도 있습니다.\n5️⃣ Grok 3는 어떤 윤리적 논란이 있나요?\n  \"검열 해제\"라는 개념이 자유로운 표현을 확대할 수도 있지만, 위험한 정보 확산 가능성도 내포하고 있다는 점이 논란입니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Grok 3는 무료로 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"기본 기능은 무료이지만, DeepSearch 등 고급 기능은 X 프리미엄+ 구독이 필요합니다. (월 $40)\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Grok 3의 정보는 100% 신뢰할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"아니요. 여전히 'AI 환각' 현상이 존재하며, 중요한 정보는 반드시 교차 검증해야 합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Grok 3의 'Think Mode'는 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Think Mode는 AI가 단순한 답변을 제공하는 것이 아니라, 단계적인 논리적 사고 과정을 거쳐 최적의 답변을 도출하는 기능입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Grok 3는 정말로 GPT-4보다 뛰어난가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"수학, 과학, 코딩 분야에서는 우수한 성능을 보이지만, 언어적 창의성이나 안정성 면에서는 GPT-4가 더 우세하다는 평가도 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Grok 3는 어떤 윤리적 논란이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"'검열 해제'라는 개념이 자유로운 표현을 확대할 수도 있지만, 위험한 정보 확산 가능성도 내포하고 있어 논란이 되고 있습니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483544",
-    "pubDate": "Mon, 24 Feb 2025 09:28:25 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "NEWS/IT 뉴스",
-      "ai 검열",
-      "AI 윤리",
-      "ai 자유 표현",
-      "elon musk",
-      "gemini ai",
-      "gpt-4 비교",
-      "grok 3",
-      "think mode",
-      "XAI",
-      "검열 해제 ai"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Computer Science and AI BSc Open Day in Cyprus",
-    "description": "The Computer Science and Artificial Intelligence bachelor’s program at Neapolis University Pafos is opening its doors! Join us for our Open Day, where you will have the opportunity to meet the program’s professors and students and visit the campus.  The JetBrains Foundation supports this bachelor’s program and offers 15 fully funded scholarships for the most […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/02/24/computer-science-and-ai-bsc-open-day-in-cyprus/",
-    "pubDate": "Mon, 24 Feb 2025 13:47:35 +0000",
-    "creator": "Alena Gupaisova",
-    "categories": [
-      "jetbrains-academy",
-      "offline-programs",
-      "csai",
-      "scholarships"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Visual Studio 2022 검색 범위를 설정하면 원하는 정보를 쉽게 찾을 수 있다",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/VS_20250227/",
-    "pubDate": "Thu, 27 Feb 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.1 EAP 6: Interactive Scratch Files in K2 Mode, Enhanced Dependency Resolution in Kotlin Script Files, and More",
-    "description": "IntelliJ IDEA 2025.1 EAP 6 is here! As we continue shaping the first major release of the year, you can get an early look at what’s coming by trying out the latest EAP build. You can download it from our website, update directly from within the IDE, use the free Toolbox App, or install it […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/02/intellij-idea-2025-1-eap-6/",
-    "pubDate": "Mon, 24 Feb 2025 07:59:12 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": [
-      "eap",
-      "2025-1-eap",
-      "intellij-idea",
-      "intellij-idea-2025-1",
-      "intellij-idea-2025-1-eap"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "세상은 노가다",
-    "description": "몇 년 전에 넷플릭스에서 화제가 됐던 요리 다큐멘터리 ‘길 위의 셰프들’을 이제서야 난 봤다. 한국 편에서는 광장시장도 소개되고 칼국수와 빈대떡 같은 한국 요리도 하이라이트 돼서 한국에서도 꽤 인기가 많았던 다큐멘터리였던 것 같다. 태국 편에서 태국 길거리 음식의 여왕이라는 쩨파이라는 분이 소개됐다. 방콕의 ‘란쩨파이(=쩨파이네 식당)’ 식당의 오너셰프인데 길거리 식당 치곤 드물게 미쉐린 1스타를 받은 식당이라서 태국뿐만(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/02/it-takes-years-and-years-to-get-that-one-successful-year.html",
-    "pubDate": "Sun, 23 Feb 2025 21:47:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "hustle",
-      "inspiring"
-    ]
-  },
-  {
     "id": 8,
-    "imageUrl": "",
-    "title": "Claude 3.7 Sonnet 공개 AI 추론과 코딩 능력의 새로운 기준",
-    "description": "Anthropic이 새로운 AI 모델 Claude 3.7 Sonnet을 공개했습니다. 하이브리드 추론 기능을 도입해 빠른 응답과 심층 사고를 자유롭게 전환할 수 있으며, 개발자를 위한 Claude Code 도구도 함께 발표되었습니다. GitHub 통합, 코드 자동화, 강화된 보안까지—최신 AI 기술을 만나보세요.\n\n\n \nAnthropic이 Claude 3.7 Sonnet을 발표했습니다. 이번 모델은 기존 AI와 차별화된 하이브리드 추론(hybrid reasoning) 기능을 최초로 제공하는 것이 특징인데요. 쉽게 말해, 단순한 답변을 빠르게 제공하는 것뿐만 아니라, 좀 더 깊이 있는 사고가 필요한 경우 사용자가 직접 고민하는 시간을 조절할 수 있는 기능까지 갖추고 있습니다.\n \n뿐만 아니라, 개발자를 위한 명령줄 기반 코딩 도구 Claude Code도 함께 공개되었는데요. 기존의 AI 코딩 도구들이 주로 코드 생성과 보조 역할을 했다면, Claude Code는 개발자의 직접적인 업무를 대신 수행하는 AI 에이전트라는 점이 돋보입니다. 코드 편집부터 테스트 실행, GitHub 푸시까지 명령 한 줄로 자동화할 수 있는 강력한 기능을 제공합니다.\n과연 Claude 3.7 Sonnet과 Claude Code가 어떤 혁신을 가져올지, 주요 특징을 하나씩 살펴보겠습니다.\n \n  Claude 3.7 Sonnet의 핵심 기능\n\n\n1️⃣ 하이브리드 추론 시스템 도입\n기존 AI 모델들은 답변을 빠르게 제공하는 것이 일반적이었지만, Claude 3.7 Sonnet은 단순 응답과 심층 사고를 자유롭게 오갈 수 있는 하이브리드 추론 시스템을 도입했습니다.\n✅ 간단한 질문에는 즉각적인 응답 제공\n✅ 복잡한 문제는 심층 분석 후 단계적인 사고로 답변\n✅ 사용자가 모델의 \"고민 시간\"을 조절 가능\n예를 들어, 단순한 수학 문제는 즉시 답변하지만, 프로젝트 아키텍처 설계 같은 복잡한 질문에는 더 깊은 사고를 적용해 최적의 답을 찾아준다는 것이죠.\n2️⃣ 개발자를 위한 강력한 코드 기능\nClaude 3.7 Sonnet은 기존 모델 대비 개발 및 코딩 작업에서 더욱 강력한 성능을 발휘합니다.\n  GitHub 통합 지원: AI가 직접 코드 변경 후 커밋 & 푸시\n  풀스택 코드 분석 가능: 대규모 코드베이스에서도 맥락을 정확히 이해\n  코딩 벤치마크 1위 기록: SWE-bench, TAU-bench에서 최고 성능 달성\n특히, SWE-bench Verified 평가에서 70.3%의 정답률을 기록하며 이전 모델보다 월등히 향상된 성능을 보였습니다.\n3️⃣ 다양한 플랫폼에서 사용 가능\nClaude 3.7 Sonnet은 Amazon Bedrock, Google Cloud Vertex AI 등에서 API로 사용할 수 있으며,\n✅ Free, Pro, Team, Enterprise 모든 요금제에서 지원\n✅ 심층 사고 모드는 무료 플랜을 제외한 모든 플랜에서 사용 가능\n즉, 개인 사용자부터 기업까지 확장성이 뛰어난 AI 모델이라는 점이 매력적입니다.\n항목\nClaude 3.7 Sonnet\nClaude 3.5 Sonnet\n개선점\n\n\n\n\n추론 방식\n하이브리드 (빠른 응답 + 심층 사고)\n일반 LLM\n심층 사고 가능\n\n\nAPI 제어\n출력 토큰 수 조절 가능\n고정 응답 방식\n유연한 제어 지원\n\n\n코딩 능력\nGitHub 통합, 코드 편집, 테스트 실행\n기본 코드 생성\n실전 개발 최적화\n\n\n수학 및 과학\n심층 사고 모드에서 개선\n일반적인 문제 해결\n정확도 향상\n\n\n안전성\n부적절한 요청 거부율 45% 감소\n기본 필터링\n정교한 필터링 도입\n\n\n\n \n \n  Claude Code: 개발 생산성을 극대화하는 AI 에이전트\n개발자라면 반복적인 작업에 많은 시간을 빼앗긴 경험이 있을 텐데요. Claude Code는 터미널에서 직접 AI에게 개발 업무를 맡길 수 있도록 도와줍니다.\n \n✅ 코드 검색 및 편집\n✅ 테스트 코드 자동 작성 & 실행\n✅ GitHub 저장소에 자동 커밋 및 푸시\n✅ 명령줄 도구 실행 자동화\n \n예를 들어, 기존에는 버그 수정 후 테스트 작성, 실행, GitHub 커밋까지 최소 45분 이상 걸리는 작업이었지만, Claude Code를 사용하면 단 한 줄의 명령으로 몇 초 만에 완료할 수 있습니다.\n \n \n  실험 결과: 실제 성능은 어떨까?\n  코딩 및 개발 성능\nCursor, Cognition, Replit, Canva 등 다양한 기업 테스트에서 최고 성능 기록\nSWE-bench Verified 평가에서 70.3% 정답률 달성\nTAU-bench에서도 기존 모델 대비 뛰어난 성과\n  일반적인 추론 및 멀티모달 능력\n복잡한 명령어 처리 능력 향상\n수학 및 과학 문제 해결 능력 업그레이드\n심지어 포켓몬 게임 플레이 실험에서도 기존 모델을 압도하는 성능을 보였다고 하네요!\n  강화된 보안 및 안전성\nClaude 3.7 Sonnet은 이전 모델 대비 45% 더 정교한 필터링 시스템을 도입했습니다.\n✅ 불필요한 콘텐츠 차단 강화\n✅ 프롬프트 주입(prompt injection) 공격 방어 기능 향상\n✅ 사용자의 정당한 요청은 거부하지 않도록 개선\n보안과 안전성을 더욱 강화하여, AI가 신뢰할 수 있는 도구로 자리 잡을 수 있도록 설계되었습니다.\n \n\n\n\n \n   Claude 3.7 Sonnet  API 사용 기준의 토큰당 과금 모델\n요금제\n입력 토큰 (1M 당)\n출력 토큰 (1M 당)\n지원 기능\n\n\n\n\n무료 (Free)\nN/A\nN/A\n기본 모델 사용 가능\n\n\nPro\n$3\n$15\n심층 사고 모드 포함\n\n\nTeam\n$3\n$15\nAPI 및 GitHub 연동\n\n\nEnterprise\n별도 협의\n별도 협의\n고급 커스터마이징 가능\n\n\n\n \n \n  앞으로의 계획\nAnthropic은 Claude 3.7 Sonnet과 Claude Code를 지속적으로 발전시켜 더 정교한 AI 협업 환경을 제공할 계획입니다.\n  장시간 실행되는 명령어 지원\n  인앱 렌더링 개선\n  도구 호출 안정성 강화\n앞으로 AI가 개발자뿐만 아니라, 다양한 분야에서 더욱 강력한 지원군이 될 것으로 기대됩니다.\n \n \n[참고]\n추론 및 딥리서치 기능이 탑재된 LLM 모델들이 대거 출시되면서 그 어느때보다 상세 프롬프트의 중요성이 고조되고 있습니다. 아래 무료 GPTS 는 이러한 추세에 부합하는 추론/딥리서치에 특화된 프롬프트를 생성해 줍니다.\n\n \nAI 딥리서치의 시대! 확장 프롬프트로 챗GPT, 그록3 활용도를 극대화하는 법 [무료GPTS]\nAI 추론과 딥리서치의 시대가 열렸습니다! 중국의 LLM 모델 ‘DEEPSEEK’이 촉발한 변화 속에서, 챗GPT의 ‘확장 프롬프트 생성기’는 보다 정교한 질문과 답변을 가능하게 합니다. 단순한 질문이 아\nmuzbox.tistory.com\n\n \n \n \n❓ 자주 묻는 질문 (Q&A)\nQ1. Claude 3.7 Sonnet의 가장 큰 장점은 무엇인가요?\nA. 하이브리드 추론 기능을 통해 빠른 응답과 심층 사고를 자유롭게 조절할 수 있습니다.\nQ2. Claude Code는 어떤 개발 환경에서 사용할 수 있나요?\nA. 명령줄 환경에서 실행되며, GitHub과 통합되어 코드 작업을 자동화할 수 있습니다.\nQ3. Claude 3.7 Sonnet은 무료로 사용 가능한가요?\nA. Free 플랜에서도 사용할 수 있지만, 심층 사고 모드는 Pro 이상 요금제에서만 가능합니다.\nQ4. 이 모델은 기존 Claude 3 Opus와 비교했을 때 얼마나 향상되었나요?\nA. SWE-bench 기준 70.3%의 정답률을 기록하며, 이전 모델 대비 정확도가 대폭 상승했습니다.\nQ5. Claude 3.7 Sonnet을 어디에서 사용할 수 있나요?\nA. Amazon Bedrock, Google Cloud Vertex AI 등의 플랫폼에서 API를 통해 활용할 수 있습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Claude 3.7 Sonnet의 가장 큰 장점은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"하이브리드 추론 기능을 통해 빠른 응답과 심층 사고를 자유롭게 조절할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Claude Code는 어떤 개발 환경에서 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"명령줄 환경에서 실행되며, GitHub과 통합되어 코드 작업을 자동화할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Claude 3.7 Sonnet은 무료로 사용 가능한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Free 플랜에서도 사용할 수 있지만, 심층 사고 모드는 Pro 이상 요금제에서만 가능합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"이 모델은 기존 Claude 3 Opus와 비교했을 때 얼마나 향상되었나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"SWE-bench 기준 70.3%의 정답률을 기록하며, 이전 모델 대비 정확도가 대폭 상승했습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Claude 3.7 Sonnet을 어디에서 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Amazon Bedrock, Google Cloud Vertex AI 등의 플랫폼에서 API를 통해 활용할 수 있습니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483545",
-    "pubDate": "Tue, 25 Feb 2025 08:35:29 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "NEWS/IT 뉴스",
-      "ai api",
-      "ai 개발 보조",
-      "ai 보안 강화",
-      "ai 코딩 도구",
-      "Anthropic AI",
-      "claude 3.7 sonnet",
-      "claude code",
-      "github 자동화",
-      "swe-bench 성능",
-      "하이브리드 추론"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Faster and Local Shopping on eBay Just Got Simpler",
-    "description": "eBay has made several UX enhancements to help customers find local listings, fast-shipping items, and more.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://innovation.ebayinc.com/tech/features/faster-and-local-shopping-on-ebay-just-got-simpler/",
-    "pubDate": "Wed, 26 Feb 2025 00:00:00 -0800",
-    "creator": "Avital Derazon, Harshal Parikh, Abhishek Bishnoi, Prerna Dubey and Shuja  Rahman",
-    "categories": [
-      "article"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "How Meta is translating its Java codebase to Kotlin",
-    "description": "Meta has been working to shift its Android codebase from Java to Kotlin, a newer language for Android development that offers some key advantages over Java. We’ve even open sourced various examples and utilities we used to in our migration to manipulate Kotlin code. So how do you translate roughly tens of millions of lines of Java [...]\nRead More...\nThe post How Meta is translating its Java codebase to Kotlin appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/02/25/android/how-meta-is-translating-its-java-codebase-to-kotlin/",
-    "pubDate": "Tue, 25 Feb 2025 19:00:59 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Android",
-      "DevInfra",
-      "Meta Tech Podcast"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "배달 라이더라면 꼭 알아야 하는 종합소득세 가이드",
-    "description": "한 번 읽어두면 두고두고 도움 될 거예요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/tossmoment-1",
-    "pubDate": "Thu, 27 Feb 2025 11:35:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "3월의 콘텐츠와 캘린더 by 머니그라피 ",
-    "description": "2025년 3월 문화 이벤트 달력 다운로드 받기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/moneygraphy-calendar-03",
-    "pubDate": "Wed, 26 Feb 2025 04:51:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "깔끔한 모니터링 도구 Beszel",
-    "description": "모니터릭스(Monitorix)라는 좀 된 모니터링 도구를 쓰다가 긱뉴스에 나온 베스젤(Beszel)을 깔아봤다. 명령어 각 한줄로 서버와 클라이언트를 설치할 수 있다. 시스템 데몬에 자동으로 등록까지 된다.\n\r\n\r\n  그래프를 확대한다든가 같은 세밀한 조작은 안되지만 화면도 깔끔하고 간편하게 쓰기 좋다. 터먹스에도 깔아봤는데 루팅을 안하면 권한때문에 값이 제대로 안올라온다.\n\r\n\r\n 설정 화면에 들어가면 뭔가 다른 화면이 나오는데 백엔드로 포켓베이스(PocketBase)를 사용하고 있다. 베스젤 화면은 기능이 좀 부족한데 서버 이름 수정 같은 것은 여기서 할 수 있다. 제품 컨셉이 아주 마음에 드는데 파일 하나로 백엔드를 구성할 수 있다고 한다. 아직 초기 단계 프로젝이기는 한데 기회될 때 써봐야 겠다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hyeonseok.com/blog/932",
-    "pubDate": "Sat, 22 Feb 2025 22:36:31 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
     "imageUrl": "",
     "title": "토스, 앱 출시 10주년 기념 기자간담회 개최",
     "description": "'토스, 글로벌 일상 수퍼앱으로'",
@@ -221,17 +134,115 @@
     "categories": []
   },
   {
-    "id": 15,
+    "id": 9,
     "imageUrl": "",
-    "title": "노래 / Call Me Maybe / Carly Rae Jepsen",
-    "description": "영상: https://youtu.be/fWNaR-rxAic?si=qvvEVk7rjAwPNfX0\n\n\n\n이게 원본이였군요\n \n영상2: https://youtu.be/F-omAqI1Phc?si=y_dL0rAUAQREktsb\n\n\n\n스크림 영화 노래가 원본인줄 알았는데 ㅎㅎ",
+    "title": "등잔 밑은 항상 어둡다",
+    "description": "(이 블로그에 쓰는 글은 당연히 다른 사람이 다 읽을 수 있지만, 이 글은 남보단 내 스스로의 반성, 배움, 그리고 성장을 위해서 쓴다.) 우리가 2018년도에 투자한 Norae라는 미국 스타트업이 있다. Ryan이라는, 한국 분은 아니지만, 한국인 보다 더 한국을 좋아하는 창업가가 시작한 회사다. 회사 이름 Norae(노래) 자체가 이 팀이 얼마나 케이팝을 좋아하는지 그대로 보여주는데, 첫 번째 비즈니스는(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1152",
-    "pubDate": "Sun, 23 Feb 2025 22:03:36 +0900",
+    "link": "https://www.thestartupbible.com/2025/02/a16z-invests-in-coverstar.html",
+    "pubDate": "Wed, 26 Feb 2025 21:32:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "B2C",
+      "consumer",
+      "FoundersAtWork",
+      "hustle",
+      "inspiring",
+      "Strong",
+      "vc"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "[MULTI] 야쿠자가 바다로 간 까닭은, 용과 같이 8 외전 파이리츠 인 하와이",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2289",
+    "pubDate": "Fri, 28 Feb 2025 19:22:58 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "로봇 / 인공근육 인공뼈",
+    "description": "영상: https://www.youtube.com/watch?v=j-CzUiTV6xA\n\n\n\n \n\n\n밤에 보면 무서울지도\n흐느적흐느적\n \n아무튼 기술은 발전하고 있군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1153",
+    "pubDate": "Wed, 26 Feb 2025 10:24:34 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브"
+      "투자"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Windows Server 2025 정식 릴리스, 핫 패치 제공, NVMe 최적화를 통한 스토리지 가속화, SMB over QUIC 등 새로운 기능",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/OS_windows_20250226/",
+    "pubDate": "Wed, 26 Feb 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Apply for Google Summer of Code 2025 and Contribute to the Kotlin Ecosystem",
+    "description": "The Kotlin Foundation is once again participating in Google Summer of Code (GSoC), offering contributors an opportunity to work on open-source projects that shape the Kotlin ecosystem. This year, the program is expanding to include even more projects from Kotlin Foundation member companies like JetBrains, Google, Uber, and Gradle, providing contributors with mentorship from some […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/02/google-summer-of-code-2025-kotlin/",
+    "pubDate": "Fri, 28 Feb 2025 13:27:00 +0000",
+    "creator": "Ksenia Shneyveys",
+    "categories": [
+      "news",
+      "education",
+      "gsoc",
+      "internship"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "JetBrains Academy – February Digest",
+    "description": "Here’s a roundup of all the good stuff from February  – AI skills to develop, scholarship opportunities, the latest programming and AI trends, and, as a little extra treat, a discount on a Hyperskill Premium subscription!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/education/2025/02/28/jetbrains-academy-december-february/",
+    "pubDate": "Fri, 28 Feb 2025 20:10:59 +0000",
+    "creator": "Maria Sharobaeva",
+    "categories": [
+      "digest",
+      "jetbrains-academy",
+      "newsletter"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "미니PC 강자 미니스포럼(MINISFORUM), 한국어 공식 홈페이지 오픈",
+    "description": "미니PC 업계에서 유명한 미니스포럼(MINISFORUM)의 한국어 공식 홈페이지가 열렸습니다.\n \n미니스포럼은 Kommend Technology Co., Limited의 브랜드로, 중국 심천(Shenzen)에서 2012년부터 시작하여 만들어진 컴퓨터 제조사입니다. 다만 글로벌 페이지에서는 2018년부터 미니스포럼 브랜드가 만들어졌다고 하니 좀 혼란스럽네요.\n아무튼 다양한 미니PC 관련 제품을 내놓으면서 조금씩 유명해진 회사입니다.\n \n국내에서는 AMD 라이젠 프로세서를 채용한 UM 시리즈로 유명합니다만, 공식 판매 채널이 없어서 직구로만 구입 가능했고 AS는 사실상 불가능했죠.\n \n\n\n \n이번에 오픈한 미니스포럼 한국어 페이지에서는 현재 몇몇 미니PC를 판매 중입니다. 다만 가격 면에서 직구보다는 아직 많이 비싸군요. 제품 보증이 중요한 분들이 선택하실 것 같습니다.\n \n참고로 미니스포럼 한국어 페이지에서 구입하는 경우 12개월의 제한적인 보증을 제공합니다. 그리고 제품을 받고 30일 안에 초기 불량에 대해서는 교환 또는 환불을 지원합니다.\n물론 우리나라에는 대리점이 없으므로 본사와 직접 제품을 주고 받아야 하니 시간은 좀 들어갈 것 같습니다.\n \n더 자세한 내용은 이곳을 확인하시기 바랍니다.\n \n당연한 이야기지만 여전히 리셀러를 통한 직구 방식의 구입에 대해서는 어떤 보증도 해주지 않습니다.\n \n(출처 : 미니스포럼)\n \n실제로 아직 구입하여 후기를 남긴 고객이 없는지라 직구에 비해 얼마나 이득을 줄지는 모르겠지만 일단 환영합니다.\n \n \n \n관련 글\n\n \n미니스포럼 고성능 미니워크스테이션 MS-A1, 라이젠 8700G AM5 플랫폼의 미니PC 출시\n미니PC로 유명한 미니스포럼(Minisforum)에서 AMD 라이젠7 8700G를 지원하는 MS-A1을 출시합니다.  Minisforum MS-A1의 주요 특징 이 제품은 미니스포럼에서 내놓은 인텔 플랫폼 기반의 MS-01과 비슷한 하우\nlazion.com\n\n\n \n미니스포럼, 최초의 터치스크린 코어 울트라 9 고성능 미니PC AtomMan X7 Ti 발표\n소형 PC 제조사 미니스포럼(MINISFORUM)에서 최초로 터치스크린과 인텔 코어 울트라 9 프로세서를 갖고 나온 미니PC AtomMan X7 Ti를 발표했습니다.  미니스포럼의 하이엔드 브랜드인 아톰맨(AtomMan)으\nlazion.com\n\n\n \n인텔 N100 스틱PC, MINISFORUM S100(미니스포럼 S100) 출시\n초소형 PC를 만드는 미니스포럼(MINISFORUM)에서 S100이라는 이름으로 인텔 N100 프로세서가 들어간 스틱PC를 출시합니다.  마치 좀 큰 USB 메모리스틱을 연상시키는 모양의 스틱PC는 주로 모니터 뒤에\nlazion.com",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://lazion.com/2513739",
+    "pubDate": "Fri, 28 Feb 2025 15:23:51 +0900",
+    "creator": "늑돌이",
+    "categories": [
+      "#작은PC/#미니PC",
+      "miniPC",
+      "Minisforum",
+      "News",
+      "PC"
     ]
   }
 ]
