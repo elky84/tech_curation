@@ -2,6 +2,47 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "dotInsights | March 2025",
+    "description": "Did you know? The [InternalsVisibleTo] attribute in .NET is a powerful feature that allows an assembly to expose its internal members (normally only accessible within the same assembly) to another specified assembly. This is typically used in scenarios like unit testing or multi-assembly projects where tight integration between assemblies is needed. Welcome to dotInsights by JetBrains! […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/03/05/dotinsights-march-2025/",
+    "pubDate": "Wed, 05 Mar 2025 13:45:36 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "TeamCity 2024.12.3 Bug Fix Is Out!",
+    "description": "The TeamCity On-Premises 2024.12.3 bug-fix update is out and ready to be installed on your servers! This update resolves over 10 issues and, as always, includes essential security and performance fixes. We highly recommend upgrading to keep your system secure and optimized. The list of resolved issues includes: See TeamCity 2024.12.3 Upgrade Notes for the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2025/03/teamcity-2024-12-3-bug-fix/",
+    "pubDate": "Fri, 07 Mar 2025 09:54:08 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "bug-fix"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Trino로 타임아웃 개선하기",
+    "description": "![NHN Cloud_meetup banner_trino_202502-01_900.png](https://image.toast.com/aaaadh/real/2025/techblog/NHN%20Cloudmeetup%20bannertrino20250201900.png)\r\r\n\r\r\n# 들어가며\r\r\n안녕하세요. NHN Cloud의 클라우드AI팀 이태형입니다.\r\r\n로그 데이터가 쌓일수록 조회 속도가 느려지는 문제, 한 번쯤 겪어 보셨을 텐데요. 이 글에서는 이러한 문제를 해결하기 위해 저희 팀에서 Trino를 도입하여 성능을 개선한 과정을 공유해 보려 합니다. 재미있게 읽어 주세요! \r\r\n\r\r\n# 개요: NHN AppGuard\r\r\n[NHN AppGuard](https://www.nhncloud.com/kr/service/security/nhn-appguard) 서비스에 Trino를 적용한 이야기를 드릴 예정이라서 먼저 해당 서비스를 소개하겠습니다.\r\r\n\r\r\nNHN AppGuard는 모바일 애플리케이션을 보호하기 위해 사용자의 이상 행위를 탐지하거나 차단하는 모바일 앱 보안 솔루션입니다. NHN AppGuard의 서버는 탐지/차단 로그를 안전하게 저장하고, 각종 조건 검색과 대시보드를 제공합니다.\r\r\n\r\r\n![Trino_1.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino1.png)\r\r\n\r\r\n## NHN AppGuard 로그\r\r\n\r\r\nNHN AppGuard는 평균 600만개/일 가량의 로그를 수집하고 있습니다. 이러한 로그는 NHN AppGuard 로그 워크플로에 따라 DB에 적재됩니다.\r\r\n\r\r\n![Trino_2_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino2900.png)\r\r\n\r\r\n## 이슈 발생\r\r\n\r\r\n대부분의 쿼리가 월 단위 집계 성격을 띠는 이유로 질의 대상 row 가 1억 건이 넘는 경우가 많아 이슈가 발생했습니다.\r\r\n발생한 이슈는 아래와 같습니다.\r\r\n\r\r\n1. 검색 조건 변경 시 대시보드 화면에서 타임아웃 발생\r\r\n![Trino_3.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino3.png)\r\r\n2. 집계 쿼리가 수행되는 새벽 시간대에 slow query 발생\r\r\n![Trino_4.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino4.png)\r\r\n\r\r\n## 일반적인 해결 방안\r\r\n\r\r\n위 이슈들은 결국 쿼리의 성능이 원인이기 때문에 먼저 쿼리 최적화를 수행했습니다.\r\r\n\r\r\n1. index 문제\r\r\n    1. 쿼리 검수를 통해 index의 순서를 변경하고\r\r\n    2. 의도한 index가 적용되도록 쿼리에 index hint를 추가했습니다.\r\r\n2. 쿼리의 문제\r\r\n    1. 한 달 기간 전체 데이터를 스캔하는 쿼리를 당일 증가분만 조회하도록 수정하고\r\r\n    2. 대시보드를 매번 조회하지 않고 일 배치 작업으로 미리 계산해 둔 데이터를 조회하고\r\r\n    3. 조회 가능한 기간을 제한했습니다.\r\r\n\r\r\n이러한 최적화를 통해 일시적으로 이슈가 해소되었습니다.\r\r\n하지만 NHN AppGuard의 로그는 점차 늘어나고, 집계할 데이터의 종류도 증가했으며, 조회 기간 감소에 대한 불만이 발생하여 다른 접근이 필요했습니다.\r\r\n\r\r\n## 로그 저장소 검토\r\r\n\r\r\nMySQL을 대신해 로그를 저장하기에 적절한 로그 저장소를 검토했습니다.\r\r\n\r\r\n1. Elasticsearch (LNCS)\r\r\n    1. 검색에 좋은 성능\r\r\n    2. 상품 스펙상 최대 120일 저장 제한\r\r\n2. Trino (DataQuery)\r\r\n    1. 복잡한 집계 쿼리에 좋은 성능\r\r\n    2. 여러 데이터 소스 간 federation 지원\r\r\n    3. 저장 기간 제한 없음\r\r\n\r\r\nNHN AppGuard는 로그의 저장 기간을 기존 90일에서 늘리는 것을 계획하고 있었고, 무엇보다 대부분의 쿼리가 집계 성격을 많이 띠어 Trino가 적절하다고 판단했습니다.\r\r\n\r\r\n# Trino와 DataQuery\r\r\n\r\r\n## Trino란\r\r\n\r\r\n[Trino 공식 홈페이지](https://trino.io)를 보면 아래와 같은 문구를 찾을 수 있습니다.\r\r\n\r\r\n> Trino, a query engine that runs at ludicrous speed\r\r\n> Fast distributed SQL query engine for big data analytics that helps you explore your data universe.\r\r\n\r\r\n키워드를 뽑아 보면 아래와 같습니다.\r\r\n\r\r\n1. Fast - 빠르다\r\r\n2. Distributed - 분산 처리한다\r\r\n3. analytics - 분석에 적절하다\r\r\n\r\r\n## Trino 특징\r\r\n\r\r\n마찬가지로 [Trino 공식 홈페이지](https://trino.io)에서는 아래와 같은 특징을 소개합니다.\r\r\n![Trino_5.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino5.png)\r\r\n\r\r\n여기서도 키워드를 뽑아보면 아래와 같습니다.\r\r\n\r\r\n1. distributed: 분산 처리로 빠르고\r\r\n2. ANSI SQL: 표준 SQL 을 호환하여 현재 쿼리문을 수정할 필요가 없고\r\r\n3. S3: OBS에 저장하여 스토리지 비용을 줄일 수 있고\r\r\n4. Query Federation: OBS의 데이터와 MySQL 데이터를 하나의 쿼리로 join할 수 있다.\r\r\n\r\r\n## Trino 동작 원리\r\r\n\r\r\nTrino의 동작 원리는 [Presto: SQL on Everything](https://trino.io/Presto_SQL_on_Everything.pdf)라는 논문에 자세히 소개하고 있습니다.\r\r\n해당 논문의 일부를 가볍게 살펴보겠습니다.\r\r\n\r\r\n### 구조도\r\r\n![Trino_6.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino6.png)\r\r\n\r\r\nTrino는 하나의 Coordinator 노드와 여러 개의 Worker 노드로 구성됩니다. Coordinator 노드는 쿼리의 인입 지점으로 admit, parsing, planning, optimizing, orchestration 등을 수행하고, worker node는 query processing을 담당합니다.\r\r\n\r\r\n### 요청 처리 순서\r\r\n\r\r\nCoordinator 노드가 분산 처리를 계획하면 worker node가 병렬로 처리해서 복잡한 쿼리가 더 빠르게 실행되는 원리입니다.\r\r\n\r\r\n1. client → coordinator: http request (SQL stmt)\r\r\n2. coordinator: evaluate request(parsing, analyzing, **optimizing distributed execution plan**)\r\r\n3. coordinator: plan to worker\r\r\n    1. task 생성\r\r\n    2. **splits** 생성(addressable chunk in external storage)\r\r\n    3. splits을 task에 할당\r\r\n4. worker: run task\r\r\n    1. fetching splits\r\r\n    2. 다른 worker에서 생성한 intermediate data 처리\r\r\n        1. worker 간에는 intermediate data를 memory에 저장하여 공유\r\r\n        2. **shuffle**이 발생할 수 있음\r\r\n             \\*shuffle = node 간 데이터 재분배\r\r\n    3. query의 shape에 따라 모든 데이터를 처리하지 않고 반환\r\r\n\r\r\n## Trino 쿼리 실행 예시\r\r\n\r\r\n### 그림으로 살펴보기\r\r\n* 쿼리문\r\r\n![Trino_7.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino7.png)\r\r\n\r\r\n* logical plan\r\r\n![Trino_8.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino8.png)\r\r\n\r\r\n* distributed plan (stage)\r\r\n![Trino_9.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino9.png)\r\r\n\r\r\n* optimized plan (pipeline, parallelism)\r\r\n![Trino_10.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino10.png)\r\r\n\r\r\n\r\r\n### 실행 순서\r\r\n\r\r\n1. Planner: SQL → SQL syntax tree → Logical Planning (IR 생성)\r\r\n    * IR = Intermediate Representation\r\r\n2. Optimizer: Logical Plan → evaluate transformation rules → **optimize** → Physical Structure\r\r\n    * transformation rules = sub-tree query plan + transformation\r\r\n    * 사용되는 optimizing 기법 = predicate and limit pushdown, column pruning, decorrelation, table and column statistics 기반 cost-based 최적화\r\r\n        * Data Layouts = Connector Data Layout API로 얻어내는 위치, 파티션, 정렬, 그룹화, 인덱스\r\r\n        * Predicate Pushdown = connector에 따른 filtering 최적화\r\r\n            * \\*pushdown : 읽어야 하는 데이터를 줄이는 것\r\r\n            * \\***Predicate Pushdown** : 조회 조건에 맞는 데이터만 읽는 것\r\r\n        * **Inter**-node Parallelism = stage 단위의 병렬 실행\r\r\n        * **Intra**-node Parallelism = stage 내에서 single node의 thread에 걸친 병렬 실행\r\r\n3. Scheduler: Stage Scheduling → Task Scheduling → Split Scheduling\r\r\n    * Task Scheduling = Leaf Stage / Intermediate Stage 분리하여 배치\r\r\n4. Query Execution = Local Data Flow → Shuffles → Writes\r\r\n\r\r\n## DataQuery\r\r\n\r\r\n[NHN Cloud의 DataQuery](https://www.nhncloud.com/kr/service/data-analytics/dataquery?lang=ko) 서비스는 위에서 소개한 Trino를 기반으로 대규모 데이터에 대해 쿼리를 실행할 수 있는 서비스입니다.\r\r\n이를 통해 원하는 클러스터 스펙을 지정하고 연결할 데이터 소스만 작성하면 Trino의 복잡한 설치와 설정 과정 없이 사용이 가능합니다.\r\r\n\r\r\n# Trino 적용 - 개념\r\r\nTrino를 적용하기 위해 알아야 할 개념을 소개합니다.\r\r\n\r\r\n## 데이터 소스 선정\r\r\nTrino는 여러 종류의 데이터 소스를 지원합니다.\r\r\n\r\r\nNHN AppGuard는 로그 저장 기간 증가를 계획하고 있어 저장 비용을 절약하기 위해 OBS를 데이터 소스로 선정하였습니다.\r\r\nOBS 데이터 소스를 사용하는 경우 데이터의 타입도 Parquet, JSON, ORC, CSV, Text 중에 선택해 주어야 해서, 위와 동일한 이유로 Parquet 파일 포맷을 선택하였습니다.\r\r\n\r\r\n### Apache Parquet\r\r\n\r\r\n[Apache Parquet 홈페이지](https://parquet.apache.org)에는 Parquet를 아래와 같이 설명합니다.\r\r\n\r\r\n> Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, Python, etc...\r\r\n\r\r\n여기서도 키워드를 뽑아보면 아래와 같습니다.\r\r\n\r\r\n* column-oriented data\r\r\n* efficient data storage and retrieval\r\r\n* efficient data compression\r\r\n* encoding schema\r\r\n* handle complex data in bulk\r\r\n\r\r\ncolumn-oriented data의 설명은 아래의 그림을 보시면 이해가 쉽습니다.\r\r\n![Trino_11.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino11.png)\r\r\n(Source: [https://devidea.tistory.com/92](https://devidea.tistory.com/92))\r\r\n\r\r\n동일한 타입의 데이터가 나열되기 때문에 압축 효율이 높아지는 효과가 있습니다.\r\r\n또한 footer에 데이터에 대한 메타데이터를 저장해 두어 reader에게 데이터에 대한 힌트를 주어 조회 성능을 높입니다.\r\r\n\r\r\n![Trino_12.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino12.png)\r\r\n(source: [https://parquet.apache.org/docs/file-format/](https://parquet.apache.org/docs/file-format/))\r\r\n\r\r\n## 구상안\r\r\n\r\r\nparquet는 columnar한 형식이기 때문에 row 단위로 데이터를 append하는 것은 비효율적입니다. 그러므로 데이터를 모아서 parquet 형식으로 파일을 생성하는 것이 효율적입니다. 이를 위해 NHN AppGuard에서는 3가지 구성 방법을 고려했고 3번째 안을 선택했습니다.\r\r\n\r\r\n1. micro batch\r\r\n    1. kafka → log-batch → create parquet / 1 minute → save obs → obs\r\r\n    2. trino는 OBS를 사용하는 경우 파일 기반으로 동작하기 때문에 파일의 개수가 많아지면 비효율적입니다.\r\r\n    3. 1분 단위로 파일을 쓸 경우 작은 파일이 많아져 조회 성능이 현저히 떨어지기 때문에 선택하지 않았습니다.\r\r\n2. hourly batch\r\r\n    1. kafka → log-batch → create parquet / 1 hour (save data in memory or redis) → save obs → obs\r\r\n    2. 메모리에 저장하는 경우 데이터 유실의 리스크가 걱정되었고\r\r\n    3. NHN AppGuard는 redis를 사용하고 있지 않아 trino와 redis 두 컴포넌트의 추가로 인한 운영 복잡도 증가가 부담되어 선택하지 않았습니다.\r\r\n3. **중간 DB 사용 - MySQL**\r\r\n    1. kafka → log-batch → save to mysql → mysql → tier down in daily-batch → save obs → obs\r\r\n    2. 기존에 사용하던 MySQL 구성을 변경하지 않아 수정 소요가 적었고\r\r\n    3. MySQL을 통해 실시간 데이터 또한 조회할 수 있어 실시간 데이터 조회가 쉬워 선택하였습니다.\r\r\n\r\r\n### 구성도\r\r\n\r\r\n* AS-IS\r\r\n![Trino_13_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino13900.png)\r\r\n\r\r\n* TO-BE\r\r\n![Trino_14_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino14900.png)\r\r\n\r\r\n\r\r\n### tier down 개념\r\r\n\r\r\nElasticSearch는 데이터의 역할 또는 접근 빈도에 따라 노드를 분배하는 기법으로 Data Tiering 을 사용합니다.\r\r\n\r\r\n![Trino_15.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino15.png)\r\r\n(source: [https://www.linkedin.com/pulse/navigating-data-tiers-optimizing-costs-reducing-risk-boosting-lim-yfeyc](https://www.linkedin.com/pulse/navigating-data-tiers-optimizing-costs-reducing-risk-boosting-lim-yfeyc))\r\r\n\r\r\n이렇게 tier를 적용한 데이터를 높은 티어에서 낮은 티어로 낮추는 것을 tier down이라고 부릅니다. hot tier는 일반적으로 성능이 좋고 반응이 빠르지만 비용이 비싸고, cold tier는 반응은 조금 느리지만 비용이 저렴한 저장소를 사용합니다.\r\r\n\r\r\nNHN AppGuard에서는 MySQL을 hot tier, Trino를 cold tier로 정의하고 daily-batch에서 MySQL 데이터를 Parquet로 변환해 Trino에 삽입시키는 작업을 tier down으로 정의했습니다.\r\r\n\r\r\n### Parquet 파일 생성 방법\r\r\n\r\r\nParquet는 원래 HDFS에 쓰는 용도로 고안되어서 Parquet 파일을 직접 쓰려면 `org.apache.hadoop:hadoop-common:3.3.6`과 같은 hdfs writer에 세그먼트 관리, 열 압축 등의 기능을 구현해야 합니다. 이러한 작업을 피하기 위해 일반적으로 Spark 등의 외부 컴포넌트를 쓰거나 avro 포맷의 파일을 거쳤다가 parquet로 변환하는 방법을 사용합니다.\r\r\n\r\r\n[Apache Avro](https://avro.apache.org)는 data를 serialize하기에 좋은 포맷으로 스키마를 갖습니다.\r\r\nParquetFileWriter를 지원하기 때문에 손쉽게 변환이 가능합니다.\r\r\n\r\r\n> Apache Avro™ is the leading serialization format for record data, and first choice for streaming data pipelines. It offers excellent schema evolution, and has implementations for the JVM (Java, Kotlin, Scala, …), Python, C/C++/C#, PHP, Ruby, Rust, JavaScript, and even Perl.\r\r\n\r\r\n# Trino 적용 - 구현\r\r\n\r\r\n## tier down 구현\r\r\n\r\r\n### 논리 구조\r\r\n![Trino_16_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino16900.png)\r\r\n\r\r\n\r\r\n### Trino 테이블 생성\r\r\n\r\r\nTrino 데이터 소스로 OBS를 사용하는 경우 Hive를 사용하기 때문에 HQL을 사용해야 합니다. HQL 또한 SQL 표준을 따르기 때문에 거의 유사하지만 묵시적 형 변환과 같은 편의 기능을 지원하지 않고, with 문의 external location, partitioned_by 등의 옵션이 추가됩니다.\r\r\n\r\r\n```sql\r\r\nCREATE TABLE log\r\r\n (\r\r\n    seq              bigint, \r\r\n    log_time         timestamp,\r\r\n    // 생략 \r\r\n    log_date         date,\r\r\n    appkey           varchar(64),\r\r\n ) \r\r\n WITH ( \r\r\n    format = 'Parquet',\r\r\n    external_location = 's3a://data-query/log',\r\r\n    partitioned_by = ARRAY['appkey','date']\r\r\n);\r\r\n```\r\r\n\r\r\n### avro schema 작성\r\r\n\r\r\n```javascript\r\r\n{\r\r\n  \"type\" : \"record\",\r\r\n  \"name\" : \"log\",\r\r\n  \"namespace\" : \"avro\",\r\r\n  \"fields\" : [\r\r\n    { \"name\" : \"seq\", \"type\" : \"long\" },\r\r\n    { \"name\" : \"log_time\", \"type\" : [ \"null\", \"string\" ], \"default\" : null },\r\r\n    // 생략\r\r\n  ]\r\r\n}\r\r\n```\r\r\n\r\r\n### tier down process\r\r\n![Trino_17.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino17.png)\r\r\n데이터를 메모리에 올려서 변환하기 때문에 장비와 데이터에 따라 적절한 페이징을 적용해야 합니다.\r\r\n\r\r\n### convert to parquet\r\r\n![Trino_18.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino18.png)\r\r\navro 변환은 apache avro 모듈의 schema.from 함수로 쉽게 변환이 가능합니다. parquet는 apache parquet 모듈의 PositionOutputStream 객체의 writer를 구현하여 변환할 수 있습니다.\r\r\n\r\r\n### 다른 방법은 없을까?\r\r\nCTAS(Create Table As Select)가 가장 쉬운 방법입니다. 수행 시간은 위 방법과 비슷하게 소요되지만 용량이 30% 정도 더 효율적인 것으로 확인하였습니다. 하지만 DataQuery에서 사내 DB를 아직 데이터 소스로 지원하지 않아 현재는 사용이 어렵습니다.\r\r\n여기에서는 방법만 소개하겠습니다.\r\r\n\r\r\n```sql\r\r\nCREATE TABLE obs.test.log_ctas\r\r\n    WITH (\r\r\n        format = 'Parquet',\r\r\n        external_location = 's3a://ctas-test/log-ctas',\r\r\n        partitioned_by = ARRAY['log_date', 'appkey']\r\r\n        )\r\r\nAS\r\r\nselect seq,\r\r\n// 생략\r\r\n       cast(log_time as date) as log_date,\r\r\n       appkey\r\r\nfrom \"mysql\".log\r\r\nwhere log_time >= date '2024-11-01'\r\r\n  and log_time < date '2024-11-02';\r\r\n```\r\r\n\r\r\n## 실시간 데이터 union 구현\r\r\n\r\r\n### 논리 구성도\r\r\n![Trino_19_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino19900.png)\r\r\n1. cold data에 마지막으로 저장된 시간을 조회하고\r\r\n2. cold data와 hot data를 조회해\r\r\n3. join / union 하여 응답합니다.\r\r\n\r\r\n### Data 조회\r\r\n\r\r\nCold - max cold data 기준 왼쪽을 조회합니다.\r\r\n![Trino_20.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino20.png)\r\r\n\r\r\nHot - max cold data 기준 오른쪽을 조회합니다.\r\r\n![Trino_21.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino21.png)\r\r\n\r\r\n### Data Join / Union\r\r\n\r\r\n집계의 경우 toMap과 id 값을 이용해 Join 합니다.\r\r\n![Trino_22.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino22.png)\r\r\n\r\r\n단순 조회의 경우 stream.concat으로 Union 합니다.\r\r\n![Trino_23.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino23.png)\r\r\n\r\r\n# 성능 테스트\r\r\n\r\r\n## 환경\r\r\n\r\r\n* DataQuery 스펙: c2m8 * 3\r\r\n* DataQuery 데이터는(log_date, appKey) 파티셔닝 되어 있고\r\r\n    * 참고 \\*partition = RDBMS의 index 와 유사. parquet 가 저장된 경로를 의미\r\r\n        ![Trino_24.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino24.png)\r\r\n* MySQL 데이터는 일 단위로 파티셔닝되어 있습니다.\r\r\n* MySQL 데이터는 log\\_time, appkey 각각의 인덱스와 (log\\_time, appkey) 복합 index 가 적용되어 있습니다.\r\r\n\r\r\n## 데이터 조회\r\r\n\r\r\n이슈 대응 등의 이유로 개발자가 쿼리 엔진에 자주 질의하는 **일반 쿼리**와 서비스에서 사용하는 **서비스 쿼리**로 구분하여 테스트했습니다.\r\r\n\r\r\n### 일반 쿼리\r\r\n\r\r\n단순한 select \\* 조회는 mysql이 7배가량 빠르고, count 등의 집계 함수가 포함된 쿼리는 DataQuery가 적게는 4배에서 6배가량 빠른 양상을 보였습니다.\r\r\nTrino + Parquet 조합은 열 기반 데이터 포맷으로 인한 행 조회의 비효율성, Trino의 쿼리 플래닝과 file fetch에서의 오버헤드로 인해 단순한 행 조회가 느리기 때문입니다.\r\r\n\r\r\n| 쿼리 | dataquery | mysql |\r\r\n| --- | --------- | ----- |\r\r\n| **단순** 조회 (select \\* limit 500) | 1 s 151 ms | 148 ms |\r\r\n| **count** 조회 (select count(\\*) 한 달 | 8 s 957 ms | 30.987 s |\r\r\n| filter - appkey \\& log\\_time **행 조회** | 1 s 323 ms | 393 ms |\r\r\n| filter - appkey \\& log\\_time **count** | 349 ms | 14.662 s |\r\r\n| group by - appkey 하루 | 814 ms | 2.385 s |\r\r\n| group by - appkey 한 달 | 18 s 530 ms | 2m 15s 538ms |\r\r\n\r\r\n### NHN AppGuard 서비스 쿼리\r\r\n\r\r\nDataQuery가 전반적으로 10배 정도 빨랐습니다.\r\r\n이상 행위 탐지 현황의 한 달치 데이터는 MySQL에서 30분 이상 소요되어 조회할 수 없었지만 DataQuery는 36초만에 조회하였습니다.\r\r\n\r\r\n| 쿼리 | dataquery | mysql |\r\r\n| --- | --------- | ----- |\r\r\n| 이상행위 탐지현황 - limit 50 하루 | 1 s 696 ms | 9.676s |\r\r\n| 이상행위 탐지현황 - limit 50 한 달 | 6 s 468 ms | 6m 19s 459ms |\r\r\n| 이상행위 탐지현황 report - 하루 | 7.06s | 21s 890ms |\r\r\n| 이상행위 탐지현황 report - 한 달 | 36.81s | **조회 불가(30분 이상)** |\r\r\n| 로그 조회 - 하루 | 1 s 531 ms | 7s 264ms |\r\r\n| 로그 조회 - 한 달 | 5 s 728 ms | 5m 58s 381ms |\r\r\n\r\r\n### Parquet 크기별 비교\r\r\n\r\r\nappkey로 파티션 되기 때문에 appkey별 로그 양이 달라 로그 개수에 따른 성능 차이를 비교해 보았습니다. 로그 수 기준 중위의 appkey까지도 MySQL이 더 빠른 양상을 보였습니다. 2-300ms가량의 차이를 보이는 만큼 로그가 적은 사용자 입장에서는 데이터가 없는데 굼뜨다는 느낌을 받을 수 있습니다. 이에 반해 로그 수가 평균을 넘어가면 MySQL은 30초가 넘어가는 응답을 보여 콘솔에서 서비스하기에 어려운 반응 속도를 보입니다.\r\r\n\r\r\n| 대시보드 조회 쿼리 | DataQuery | MySQL |\r\r\n| ---------- | --------- | ----- |\r\r\n| 데이터 없음 | 267 ms | 102 ms |\r\r\n| 최소 | 365 ms | 100 ms |\r\r\n| 중위 | 610 ms | 168 ms |\r\r\n| 평균 | 505 ms | 34 s 24 ms |\r\r\n| 최대 | 15s 85 ms | 10 m 23 s 982 ms |\r\r\n\r\r\n## 성능 테스트 결론\r\r\n\r\r\n1. 행 전체 조회, 데이터가 적은 경우는 MySQL이 빠르다.\r\r\n    1. 100ms VS 500ms의 차이 → **참을만하다.**\r\r\n2. 집계 조회, 데이터가 많은 경우에는 DataQuery가 빠르다.\r\r\n    1. 수십 초 VS 수 분 차이 → **참을 수 없다.**\r\r\n\r\r\n# 결과\r\r\n\r\r\n## 좋아졌나요?\r\r\n\r\r\n1. 이상 행위 탐지 현황의 30일치 데이터를 조회하지 못하던 고객이 이제 조회할 수 있게 되었습니다.\r\r\n2. 2024년 초 공개한 NHN AppGuard public api는 MySQL로는 30분 이상 소요되어 개발이 어려웠는데, DataQuery를 통해 7초 이내로 조회하여 개발할 수 있었습니다.\r\r\n3. 내부 집계 시간이 38m36s → 22m16s로 약 43% 개선했습니다.\r\r\n4. mysql에서의 집계로 인한 slow query가 제거되어 일 배치로 인한 서비스의 영향성이 없어졌습니다.\r\r\n5. 집계 연산이 빨라져서 집계 데이터의 종류를 늘리는 것에 부담이 없어졌습니다.\r\r\n6. 스토리지 비용 감소로 데이터 저장 기간을 60일에서 1년으로 늘렸습니다.\r\r\n\r\r\n## 나쁜 점은 없나요?\r\r\n\r\r\n1. 대시보드의 기본 응답 속도가 300ms 정도 느려졌습니다.\r\r\n2. tier down 실패 시 집계, 미터링 등에 영향을 주기 때문에 모니터링 요소가 늘어났습니다.\r\r\n3. DataQuery와 OBS 비용이 추가되었습니다. (대략 100만 원/월)\r\r\n\r\r\n## 앞으로 해야 할 것이 있을까요?\r\r\n\r\r\n1. 일 단위 tier down을 시간 단위로 변경하는 것을 고민하고 있습니다.\r\r\n2. 고객 로그 수에 따라 적절한 쿼리 엔진을 사용하도록 최적화하는 부분에 대해 고민하고 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n이상 NHN AppGuard에 Trino를 적용해 본 과정과 결과에 대해 정리하였습니다. 도움이 되셨길 바라며, 긴 글을 읽어 주셔서 감사합니다. \r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_gray_202408_900.png](https://image.toast.com/aaaadh/real/2025/techblog/NHN%20Cloudmeetup%20bannerfootergray202408900.png)](https://www.nhncloud.com/kr)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://meetup.nhncloud.com/posts/391",
+    "pubDate": "Tue, 04 Mar 2025 02:22:40 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
     "title": "The Angular Language Server: Understanding IDE Integration Approaches",
     "description": "The Language Server Protocol (LSP) has been a fundamental part of the code editor landscape for years, providing a consistent development experience across different editors. The Angular Language Server leverages this protocol to provide Angular-specific features to compatible editors. However, not all IDEs take the same approach to delivering these capabilities. Let’s look at the […]",
     "reviews": [],
@@ -16,33 +57,45 @@
     ]
   },
   {
-    "id": 2,
+    "id": 5,
     "imageUrl": "",
-    "title": "엘라스틱의 합집합 집계",
-    "description": "특정 프로세스 발생 통계.\n\n\n\n\n\n집계 분할 기준에 제작사 정보를 추가하면 집계 실패. 제작사 정보가 없으니까.\n\n\n\n\n이때 null값 추가 옵션을 사용하면 합집합 집계 가능.\n\n\n\n엘라스틱이 열심히 밀어주는 Lens에서는 이렇게.\n\n\n\n\n관련 글\n\n데이터 시인성\nSplunk의 fillnull",
+    "title": "2015년 여름",
+    "description": "이 여름에는 많은 일이 일어났다. 버팔로에서 탬파로 이사가고 이직하던 시기이다. 베를린에서 열렸던 TSL Workshop에서는 장영재 교수님을 처음으로 만나 카이스트 산업및시스템공학과와 연결고리가 생기기도 했다. 버팔로에서 많은 추억을 함께 쌓은 김진수 선생님의 초청으로 인천국제고와 인천과학고에서 세미나도...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/03/blog-post.html",
-    "pubDate": "2025-03-06T09:34:00.000Z",
+    "link": "https://thoughts.chkwon.net/2015-summer/",
+    "pubDate": "Mon, 03 Mar 2025 23:28:10 +0000",
+    "creator": "권창현",
+    "categories": [
+      "잡생각"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "대출 이자 줄이는 3가지 방법",
+    "description": "금리인하요구권부터 대환대출까지 개념 정리",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/loan-101-interest-rate",
+    "pubDate": "Fri, 07 Mar 2025 01:03:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 3,
+    "id": 7,
     "imageUrl": "",
-    "title": "관계의 아궁이",
-    "description": "예전에 본 갈망의 아궁이 발표를 좋아한다.\n\n\n갈망이란 아궁이 속 불씨와 같아서 한번 완전히 꺼지면 다시 살리기가 어렵다.\n그래서 아궁이 속 불이 완전히 꺼지기 전에 다른 아궁이로 불씨를 옮기듯이 갈망의 대상도 (본업, 취미, 연인관계, 사이드 프로젝트 등) 계속해서 옮겨가야 한다는 이야기이다.\n이 이야기를 듣고나서 회사에서의 일 외에도 기댈 곳을 만들어 두는 것이 얼마나 장기적으로 큰 힘이 되는 지 알게 되었다.\n이후로 블로그나 커뮤니티, 멘토링 등 여러 방면에서 본업에서의 갈망이 식었을때 완전히 연소되는 일을 막아주었다.\n요즘은 이 아궁이가 꼭 갈망에만 적용되는 것이 아니라는 생각이 들었다.\n사람간 관계에서도 비슷한 것 같다.\n어떤 인간 관계든 오랫동안 함께 하다보면 서운한 상황이 생길 수 있다.\n이를테면 내 주변에는 다음과 같은 관계들이 있다.\n와이프\n부모님을 비롯한 가족들\n학창 친구들\n(현재의) 회사 동료들\n(전) 회사 동료들\n회사 밖 지인들\n여러 관계가 있다보니 각 관계속에서의 여러 감정들이 서로 위로가 될 때가 많다.\n와이프와 어떤 문제를 가지고 주말에 싸우고 월요일에 출근을 하면 회사 동료들과 일 하면서 어느새 그 문제가 별것 아닌 일이 되어 있었다.\n평일에 회사일을 하면서 받은 여러 부정적 감정들이 주말에 와이프와 쉬거나 운동 선생님과 운동하면서 나누는 대화로 인해 금새 잊혀지게 된다.\n가족과 회사 일 모두에게 문제가 생길때는 친구들 혹은 전 회사 동료들과의 대화에서 위로를 받기도 한다.\n하나의 관계에만 너무 몰입했다면 그 관계에서 상처나 실망을 받았을 때 못 버티는 경우를 종종 봤다.\n여러 관계를 맺어두고, 그 관계에서 받은 여러 감정들을 다른 관계를 통해 해소할 수 있다.\n물론 어느 유튜브 속 대사처럼 나 자신에게 집중하면 굳이 타인과의 관계에 휩쓸리지 않을 수 있다.\n\n\n그렇지만 우리 같은 직장인 특히나 어느정도 커리어를 쌓은 입장에서는 전문직이나 연예인처럼 온전히 나에게만 집중할 수 없다.\n나도 꽤나 나에게 집중하는 성향이 강한데도, 사회적인 상황이 달라지면 나에게만 온전히 집중할 수 없었다.\n커리어가 쌓일수록 결국 사람과의 관계가 더 중요한 상황이 되기 때문이다.\n관계로서 만나는 문제는 또 다른 관계로 해결할 수 있다.\n여러 사람간의 관계가 의외로 여러 부정적 감정에 대해 위로 받을 수 있으니 굳이 멀리할 필요가 없고, 오히려 새로운 관계를 맺음으로 지금의 많은 문제들이 자연스레 해결될 수도 있다.\n물론 와이프에게 가장 집중해야하는 것은 두말할 필요 없지만 말이다.",
+    "title": "비주얼 스튜디오 빌드 인사이트 17.12의 새로운 기능",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/819",
-    "pubDate": "Sun, 2 Mar 2025 21:18:08 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리"
-    ]
+    "link": "https://jacking75.github.io/VS_20250303/",
+    "pubDate": "Mon, 03 Mar 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   },
   {
-    "id": 4,
+    "id": 8,
     "imageUrl": "",
     "title": "Google Play 앱 출시 오류 / 계정 세부정보 업데이트 / 대한민국에 거주하는 모든 개발자는 대한민국 법규를 준수하기 위해 Google Play에 추가 정보를 제공해야 합니다.",
     "description": "저는 남의 계정에 앱 올려주다 발생했습니다.\n비공개 테스트 까지 올리려고 하는데 발생했구요\n\n\n우측에 문제 보기 누르시면\n \n발견된 문제 1개\nclose\n검토를 위해 앱을 전송하는 것을 막는 몇 가지 일반적인 문제가 발견되었습니다. 검토를 위해 변경사항을 전송하기 전에 이러한 문제를 해결해야 합니다.\n계정 세부정보 업데이트\n대한민국에 거주하는 모든 개발자는 대한민국 법규를 준수하기 위해 Google Play에 추가 정보를 제공해야 합니다.\n이런 내용이구요\n출시국가랑은 관련 없습니다. 올리는 사람이 한국 사람이면 이걸 증명하라는 뜻입니다.\n \n\n\n버튼 누르시면 개발자 정보 메뉴로 넘어갑니다.\n아래쪽에 보시면 사업자 등록증 번호를 요구 합니다.\n \n\n\n이후 필요한 내용은 \n앱을 출시하려면 사업자등록번호\n인앱을 판매하려면 통신판매업 번호 및 통신판매업 등록 구청 이름 \n(통신판매업자 문서 받아보시면 거기 나옵니다.)\n \n제가 등록했던 방법 글 링크: https://serverdown.tistory.com/815\n\n \n1인개발자 개인사업자 등록에서 앱스토어 런칭까지 01 / 사람 안만나고 인터넷로만 진행가능\n순서1부 - 이글 입니다. 사업자 등록 같은 서류 준비 부분입니다.2부 - Googla play 스토어에 입력해야할 것 (작성중)  사전지식앱스토어에서 인앱을 팔려면 통신판매업자를 등록해야 합니다.통신\nserverdown.tistory.com\n\n \n수익나면 매달 국세청에 올리라고 했던거 같은데 수익이 안나서 그걸 못해봤군요 ㅠㅠ",
@@ -57,45 +110,22 @@
     ]
   },
   {
-    "id": 5,
+    "id": 9,
     "imageUrl": "",
-    "title": "최저임금 제도 개편의 모든 것",
-    "description": "최저임금을 두고 서로 생각이 다른 이유",
+    "title": "Announcing Guidelines Support Library v4.2.0",
+    "description": "Version 4.2.0 of Microsoft's Guidelines Support Library brings performance improvements, safety features, modern compiler support.\nThe post Announcing Guidelines Support Library v4.2.0 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/friendly-economics-1",
-    "pubDate": "Fri, 28 Feb 2025 02:10:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "레이 달리오 그는 훌륭하지도 투자자도 아니였다.",
-    "description": "영상: https://www.youtube.com/watch?v=3H9IzYweqAA&list=WL\n\n\n\n그는 엄청나게 고평가된 사람이며\n위기가 올때까지 7년을 위기라고 밀고 나간 사람이다.\n회사의 운영방식은 너무 이상했고\n돈을 번게 아니라 위기때 마다 인기를 얻어 투자금이 들어오면서 성공한것 처럼 보였다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1169",
-    "pubDate": "Fri, 7 Mar 2025 09:51:38 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/cppblog/announcing-guidelines-support-library-v4-2-0/",
+    "pubDate": "Thu, 06 Mar 2025 09:36:54 +0000",
+    "creator": "Carson Radtke",
     "categories": [
-      "투자"
+      "Announcement",
+      "C++"
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "토스페이 3월 할인 이벤트와 쿠폰 혜택 총정리",
-    "description": "지그재그, GS25, 알리익스프레스 할인·적립 쿠폰까지, 토스페이 2025년 3월 혜택 확인하기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/tosspay-2025-03",
-    "pubDate": "Wed, 05 Mar 2025 01:11:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
+    "id": 10,
     "imageUrl": "",
     "title": "중국 인구는 이미 5억명이 줄었다는 주장 / 괴담",
     "description": "영상: https://www.youtube.com/watch?v=cHY-ZiGFozA\n\n\n\n2억 ~ 5억명이 이미 사라졌을 가능성이 있다는 주장이 나왔습니다.\n이것은 코로나와 주택버블 붕괴로 여러명이 사망했을 가능성이 있다고 합니다.\n몇년째 화장터가 쉬지 않고 가동중이며 \n코로나 봉쇄가 너무 과했다고 생각했는데 \n그럴만한 이유가 있었던게 아닌가 하는 생각도 드는군요",
@@ -110,62 +140,7 @@
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "신뢰성 향상을 위한 SLI/SLO 도입 2편 - 플랫폼 적용 사례",
-    "description": "시작하며\n안녕하세요. Enablement Engineering 팀에서 SRE(site reliability engineer)로 일하고 있는 어다희입니다.\n저희 팀은 LINE 서비스...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/sli-and-slo-for-improving-reliability-2",
-    "pubDate": "Fri, 28 Feb 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "무쌍영걸들로 명토를 휩쓸어라! 무쌍:어비스",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2290",
-    "pubDate": "Thu, 06 Mar 2025 23:18:24 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
     "id": 11,
-    "imageUrl": "",
-    "title": "A case for QLC SSDs in the data center",
-    "description": "The growth of data and need for increased power efficiency are leading to innovative storage solutions. HDDs have been growing in density, but not performance, and TLC flash remains at a price point that is restrictive for scaling.  QLC technology addresses these challenges by forming a middle tier between HDDs and TLC SSDs.   QLC [...]\nRead More...\nThe post A case for QLC SSDs in the data center appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/03/04/data-center-engineering/a-case-for-qlc-ssds-in-the-data-center/",
-    "pubDate": "Tue, 04 Mar 2025 17:00:26 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Data Center Engineering"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "유니티 UIToolKit 배워보자 / 디자이너와 프로그래머의 협업이 쉬워진다.",
-    "description": "영상: https://www.youtube.com/watch?v=eeDjeziVEbA&t=23s\n\n\n\n기존에는 ...\nUI 디자이너와 프로그래머는 같은 씬파일을 사용해서\n서로 저장하다보면 합치는 과정에서 누구하나 피를 봐야합니다.\n하지만 서로 다른 파일을 사용한다면 쉽겠죠?\n프로그래머가 이런일에 익숙하다면 UI 디자이너에게 별도의 씬파일을 제공해주는 것도 괸찮은 방법이지만\n아예 유니티에서 만들어 줬습니다.\n그이름이 UIToolKit 입니다.\nuxml 이라는 파일을 사용하며 html 형식으로 제작됩니다.\n디자이너는 uxml 을 편집해서 작업을하고\n프로그래머는 uxml 에 있는 요소와 연결하여 상호작용하기 때문에 서로 겹칠일이 없게됩니다.\n씬은 계속 프로그래머가 사용하겠군요\n좋은 방식입니다. \n생소한 UI 에 적응하시기 바랍니다.\n \n코딩 부분\n영상: https://www.youtube.com/watch?v=_jtj73lu2Ko\n\n\n\n이영상을 참고해서 아래의 코드를 작성했다\n버튼을 누르면 어떤 box 의 배경색을 바꾸는 코드이다.\n프로그래머가 해야할 부분은 마우스로 UI 요소를 끌어다 놓는 일을\n이제 UI 엘리먼트 이름을 가져와 사용해야한다.\n이름은 서로 잘 협의 되어야겠다. 있던게 삭제되고 그러면 곤란하다.\n \nusing UnityEngine; \nusing UnityEngine.UIElements; \npublic class TestMyUIDoc : MonoBehaviour \n{ \n     public UIDocument doc; \n     Button button; \n     VisualElement box; \n     int index = 0; \n     Color[] colors = new Color[3] \n     { \n          Color.red, \n          Color.green, \n          Color.blue, \n     }; \n     void Start() \n     { \n          box = doc.rootVisualElement.Q<VisualElement>(\"mybox\"); \n          button = doc.rootVisualElement.Q<Button>(\"mybutton\"); \n          button.RegisterCallback<ClickEvent>(delegate \n          {\n                // 버튼 이벤트\n               Debug.Log(\"click\");\n                // 색깔을 바꾼다.\n               index++; \n               box.style.backgroundColor = colors[index % colors.Length]; \n          }); \n     } \n}\n \n\n\ndoc 정도는 마우스로 끌어다 놓아다.\n \n\n\n엘리먼트 이름들은 UI 편집기에서 표시되는 이름이다.\n디자이너랑 협의하던가 디자이너가 완성한 파일을 보고 찾아 쓰면 되겠다.\n \n코딩 자동완성으로 더 많은 기능에 접근 가능해서 편했다.\n위치 맞추는 법이 생각보다 어려웠고 이해가 잘 안되었다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1164",
-    "pubDate": "Sat, 1 Mar 2025 22:15:08 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "유니티"
-    ]
-  },
-  {
-    "id": 13,
     "imageUrl": "",
     "title": "분산락 적용하기 (개념)",
     "description": "📌 적용 배경\n이번에 회사에서 하는 프로젝트는 '오더 상태 관리'이다. '오더서밋, 오더취소, 배송, 오 더컨펌' 까지의 다양한 오더 상태에 대한 관리를 적용하는 프로젝트이다. \n우리 회사는 공급사 상품들의 묶음 단위인 딜을 이용해 주문을 한다. 상품이 있으니까 재고가 있겠지? 즉, 각 오더 상태의 역할별로 재고가 차감되거나 복원된다. \n오더 서밋시 : 재고 차감\n오더 취소시 : 재고 복원\n오더 컨펌시 : 재고 차감 / 재고 복원\n이러한 상태가 변경될때 각 딜에는 항상 중복되는 상품이 존재하기 때문에 동시성 문제가 발생하게 된다. 여기서 추가로 딜에는 여러 상품들이 있기 때문에 여러 상품을 동시에 락을 걸어야 하는 상황이다. \n📌 동시성 문제를 해결하는 방법\n여러가지 방법이 있는데 비관적락, 낙관적락, 분산락, 네임드락 등이 있다. 각각의 특징을 간단히 알아보자면,\n1) 비관적락(DB락)\nDB에서 직접 락을 걸어 다른 트랜잭션 차단\n장점 : 데이터 정합성 강하게 보장, 실시간 동시 수정 방지 가능\n단점 : 성능 저하(트랜잭션이 길어질수록 락 유지시간 증가), 데드락\n적용 예시) 은행 계좌 잔고 업데이트\n2) 낙관적락(버전 필드)\n충돌 감지 후 재시도 (rollback & retry)\n장점 : 락을 안걸어서 성능이 좋음\n단점 : 충돌이 빈번할 경우 계속 재시도하여 성능 저하를 일으킴. 정합성이 다소 낮음\n3) 분산락(Redis, Zookeeper)\n여러 서버에서 동일한 리소스를 동시에 수정하지 못하도록 제어\n장점 : 분산 시스템에도 동기화 가능\n단점 : 락 관리(해제, TTL 설정 등) 신경 써야 함, 분산 환경에서 네트워크 이슈로 인해 지연 가능\n우리 회사의 경우, 멀티 인스턴스 환경에서 오더상태 변경을 해야하고 재고관리에 있어서 강한 정합성을 요구하기 때문에 분산락을 적용하기로 결정하였다.\n📌 분산락\n분산락이란 무엇일까?\n앞서 언급했듯이 분산락은 여러 서버에서 동일한 리소스를 동시에 접근하지 못하도록 제어하는 것을 의미한다.(비관적 락이나 낙관적 락은 하나의 DB에서만 동작하는 락) 좀 더 기술적 용어를 사용해서 설명하자면, \n💡 분산락\n락을 획득한 프로세스 혹은 스레드만이 공유 자원 혹은 Critical Section 에 접근할 수 있도록 하는 것\n키(락)를 가진 사람(프로세스/스레드)만 보물이 있는 공간(공유자원)의 문을 열 수 있는 것이다 🗝\n분산락을 적용하는 방법은 여러가지가 있다. Redis, Zookeeper, MySql 등등.. 결론적으로 말하자면, 우린 Redis를 사용하였다.\n우선 Redis는 그동안 캐시용도로 이미 구성해놓은 반면에 Zookeeper는 추가적인 인프라 구성이 필요하기 때문에 제외하게 되었다. 그리고 알다시피 Redis는 싱글스레드로 작동하기 때문에 동시성 문제도 현저히 작다. 아 물론 Mysql도 있긴 한데, 락을 사용하기 위해 별도의 커넥션 풀을 관리해야 하고 락에 관련된 부하를 RDS에서 받으니 Redis를 사용하는 것이 더 효율적이다.\nRedisson을 사용한 이유는?\nRedis는 인메모리 데이터 저장소로 사용되지만 , 캐시 역할을 넘어서 다양한 분산 시스템 기능을 지원하는 구현제(라이브러리, 프레임워크)들이 존재한다. 그 중 난 분산락을 위한 구현체에 대해 간단히 알아보자면,\nJedis -> Lettuce가 성능이 더 좋아서 Lettuce로 대체됨\nLettuce\nRedisson\n1) Lettuce\nSpring Data Redis에서 기본적으로 사용하는 Redis 클라이언트\nsetnx를 활용한 스핀락 : 반복적으로 락 획득 시도 -> 레디스에 많은 부하 발생. CPU를 계속 사용하면서 재시도하는 방식\n락 획득 방식\n(1) SET NX 명령어로 락 획득을 시도\n(2) 락이 없으면 성공 → 작업 진행 후 DEL로 락 해제\n(3) 이미 락이 있으면 실패 → 일정 시간 대기 후 재시도 (스핀락 방식)\n(4) TTL(EX)을 설정하여 데드락 방지\n2) Redisson\n별도의 Lock interface를 지원 : RedLock, RLock(단일 인스턴스 락) 지원\n💡 RedLock\nRedis 기반의 분산 락을 더 안전하게 보장하기 위한 알고리즘\n멀티 Redis 노드 환경에서 장애 복구가 중요한 경우\n데이터 정합성이 중요한 글로벌 시스템\nRedis 장애가 발생해도 락을 유지해야 하는 경우\nRedLock은 과반수 이상의 Redis 노드에서 락을 획득해야 성공\nPub/Sub 방식을 이용하기에 락이 해제되면 락을 subscribe 하는 클라이언트는 락이 해제되었다는 신호를 받고 락 획득을 시도\nRedisson은 락 대기 및 해제 처리를 최적화하여 불필요한 CPU 낭비 없이 안정적으로 락을 관리\n락이 만료되기 전에 자동으로 TTL을 연장하여, 장시간 작업에서도 안정적인 락 유지가 가능\n( Lettuce는 TTL이 지나면 락이 풀릴 수 있어 작업 중 충돌 위험이 존재 )\n결론적으로, Lettuce보다 안정적인 분산 락이 필요했고, CPU 사용을 줄이면서 TTL 자동 연장과 다양한 락 기능을 활용하기 위해 Redisson을 선택하게 된것이다. 그럼 이제, RedLock을 이용할지, RLock을 이용해서 구현할지에 대한 고민이 생긴다.\nRedLock, RLock ? 어떤 것을 이용할까\n❌ RedLock이 과할 수 있는 경우\n싱글 Redis 노드 환경이거나, 락을 걸어야 하는 트랜잭션이 짧다면 RedLock은 오버헤드가 될 수도 있다\n단일 Redis 인스턴스 환경에서는 RedLock을 사용할 필요 없음\n과반수 노드가 죽으면 락 획득이 불가능해질 수도 있음\n현재 우리의 레디스 환경은 하나의 레디스 인스턴스에서 모든 데이터와 락을 관리하는 싱글 노드 형태이기 때문에 RedLock보다는 RLock을 선택하는 것이 낫다는 판단이 되었다.\n코드내에서 주목해야 할점\n코드 내에서 주목해야 할 점을 난 2가지를 뽑았다. \n1) RLock의 내부 코드 파헤치기\n2) 트랜잭션 분리\n🤔 RLock의 내부 코드 파헤치기\nRedission을 이용한 분산락 코드는 사실 인터넷을 조금은 서칭하면 거의 비슷하게 나온다. 그런데 정작 내부의 RLock의 코드를 파헤친 기록은 없더이다. 퇴근하고 남는게 시간인데 놀면 뭐하나,, 내부 코드 뒤적거리면서 시간이나 보내야지 ⏳\n적용한 코드를 크게 보면 간단하다\n락 객체 생성(열쇠 가져오기) → 락 걸기(열쇠로 잠그기) → 락 해제(열쇠로 잠금 풀기) \n1) 락 객체 생성(열쇠 가져오기)\n자.. 락 객체 생성부터 알아볼까?\n\n처음 시작은 getLock부터 시작한다. 이 코드를 따라가다보면, 최종적으로 RedissonLock 클래스의 생성자로 연결된다. \n\n첫번째 코드 줄을 통해, RedissonLock은 RedissonBaseLock을 상속받고, 기본적인 락 이름(name)과 명령 실행기(commandExecutor)가 초기화함을 알 수 있다. \n명령 실행기(commandExecutor)라는 것은 🎁 비동기 Redis 명령어 실행기를 의미한다. 음 Redis에 직접 명령을 보내는 역할인거다. 예를 들어 tryLock()을 호출하면, 내부적으로 SET NX PX 명령이 Redis에 전송되는 것이다. 그래서 명령 실행기를 초기화한다는 것은 commandExecutor를 통해 Redis와 통신할 준비를 한다는 거라고 생각하면 된다. \ninternalLockLeaseTime는 자동 락 해제 시간 설정하는 것이다. 여기서 우리가 주목해야 할것은 🎁 락 워치독 (Watchdog) 기능이다. 쉽게 말하면, 자동 연장 기능이다. \n📌 락 워치독(Watchdog)은 왜 필요할까?\n보통 Redis에서 락을 설정할 때 TTL(만료 시간)을 지정하는데, 작업이 TTL 안에 끝나지 않으면 락이 자동으로 해제되는 문제가 있다. \n예를 들어 TTL이 5초인데 작업이 6초걸린다고 치자. 5초 후 락이 만료되고 자동으로 해제되면?\n다른 프로세스가 같은 락을 획득할 수 있다 → 데이터 일관성 깨짐 😨\n그래서 락을 획득한 스레드가 살아 있는 동안 TTL이 자동으로 연장된다는 기능이다. TTL을 직접 설정하지 않으면 기본 30초 동안 유지된다고 한다. \n마지막 줄인 pubSub은 🎁 Pub/Sub 기능을 활용하여 락 해제 이벤트를 감지하는 역할이다. \nRedis에서 분산 락을 사용할 때, 다른 클라이언트가 락을 대기하는 방식에는 2가지 방식이 있다. \n폴링(Polling) 방식: 주기적으로 Redis를 조회해서 락이 해제되었는지 확인함.\n이벤트 기반 방식: 락이 해제될 때 Redis가 직접 알림(Pub/Sub)을 보내서 대기 중인 클라이언트가 즉시 실행됨.\n만약 폴링 방식이라면? 락을 얻으려는 클라이언트가 주기적으로 Redis에 요청을 보내 락이 해제되었는지 확인해야한다. 듣기만 해도, 불필요한 Redis 부하가 발생하고 클라이언트가 지속적으로 Redis에 요청을 보내므로 트래픽이 많아질 거라는 단점이 느껴지지?\n그래서 Redisson에서는 락이 해제될 때 이벤트를 발생시켜 다른 클라이언트가 즉시 실행될 수 있도록 처리한다. 언제? RLock.unlock() 이 호출될때!\n2) 락 걸기(열쇠로 잠그기)\n이제 락을 어떻게 거는지 알아보자. 코드를 따라가다보면 Redission 클래스에서 tryLock()의 구현체를 확인할 수 있다. \n코드에 대한 내용을 간단하게 정리하자면, \n주어진 대기 시간(waitTime) 내에 락을 획득하려 시도하며, 락을 획득하면 지정된 임대 시간(leaseTime) 동안 락을 유지한다. 락을 즉시 획득하지 못한 경우, 다른 클라이언트의 락 해제 이벤트를 대기하기 위해 Pub/Sub 메커니즘을 활용하고, 대기 시간 내에 락을 획득하지 못하면 false를 반환하는 매커니즘을 확인할 수 있다. \n\n3) 락 해제(열쇠로 잠금 풀기)\n비동기적으로 락을 해제하는 모습을 볼 수 있다. 앞서 언급했듯이  Redisson에서는 락이 해제될 때 이벤트를 발생시켜 다른 클라이언트가 즉시 실행될 수 있도록 처리한다 -> 이부분을 찾기 위해 코드를 엄청 뒤졌는데 사실 해당 역할을 하는 코드를 찾을 수가 없어서 좀 아쉽다..ㅠ\n\n🤔 트랜잭션 분리\n코드를 살펴보면 락을 걸고 나서 트랜잭션을 분리해서 비즈니스 로직을 실행하는 역할을 하는 것을 볼 수 있다. \n\n음..쉽게 말하면 DistributedLock 어노테이션이 선언된 메서드를 별도의 트랜잭션으로 실행하게 만든 코드인 것이다. \n\nPropagation.REQUIRES_NEW 옵션을 지정해 부모 트랜잭션의 유무에 관계없이 별도의 트랜잭션으로 동작하게끔 설정하고 반드시 트랜잭션 커밋 이후 락이 해제되게끔 처리하고 있다. 왜 이렇게 분리를 했을까?\n해당 내용은 컬리의 블로그에 너무 자세히 써져있다. 내가 진행한 프로젝트도 재고를 위한 분산락인데 여기서도 재고를 예시로 들어서 너무나 적절하게 써져있으니 해당 링크 참고하길 바란다. 결론을 말하자면 데이터 정합성을 위한 방법으로 트랜잭션 커밋 이후 락이 해제되게끔 처리 해놓았다. \n📌 추가된 요구사항\n실전으로 넘어가기 전에, 추가할 요구사항이 있다. 앞선 요구사항은 하나의 key 즉, 하나의 row만 락을 거는 형식으로 구현되어 있다. 하지만 우리 회사 특성상 주문시 여러 상품을 동시에 상태 변경하기 때문에 한번에 여러 상품의 재고를 변경해야한다. 따라서 하나의 row가 아닌 여러 row에 락을 걸어야 한다. \n그렇다면 기존에 받는 키도 하나에서 여러개를 받게 되고 락도 동시에 여러개를 건다는 말이겠지? 정리하자면, 여러 개의 락을 동시에 걸고, 하나라도 실패하면 전체 실패하도록 하고 싶다는 것이다. 이때 난 RedissonMultiLock이라는 것을 사용했다. \n\n즉, 하나의 트랜잭션처럼 모든 락이 성공해야만 실행되도록 할때 사용된다. 그렇다는 말은 락을 해제할때도 한꺼번에 해제한다는 말과 동일하다. \n이제 추가된 요구까지 알아보았으니 본격적으로 테스트를 해볼까? 해당 내용은 다음편에 있다. \n참고) \nhttps://velog.io/@a01021039107/%EB%B6%84%EC%82%B0%EB%9D%BD%EC%9C%BC%EB%A1%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94-%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C%EC%9D%B4%EB%A1%A0%ED%8E%B8\nhttps://helloworld.kurly.com/blog/distributed-redisson-lock/\nhttps://techblog.woowahan.com/17416/\nhttps://velog.io/@jinony/Spring-Boot-Apache-JMeter%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B6%80%ED%95%98-%ED%85%8C%EC%8A%A4%ED%8A%B8",
@@ -177,30 +152,77 @@
     "categories": []
   },
   {
-    "id": 14,
+    "id": 12,
     "imageUrl": "",
-    "title": "Admission for the Computer Science and AI BSc Is Open",
-    "description": "Admission to the Computer Science and Artificial Intelligence bachelor’s program at Neapolis University Pafos is open!  The JetBrains Foundation supports this bachelor’s program and offers 15 fully funded scholarships for the most talented applicants. The scholarships cover tuition, accommodation, medical insurance, visa fees, and spending money (€300 per month). Many students who graduate from bachelor’s […]",
+    "title": "New Debugging and Profiling Features in Visual Studio (v17.13)",
+    "description": "The latest Visual Studio update (v17.13) brings a strong set of debugging and profiling features designed to speed up troubleshooting, making it more efficient. With AI-driven features in this release, variable analysis and data inspection are smarter and more intuitive, and problems are easier to identify and debug. Profiling tool improvements also deliver better support […]\nThe post New Debugging and Profiling Features in Visual Studio (v17.13) appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/03/03/admission-for-the-computer-science-and-ai-bsc-is-open/",
-    "pubDate": "Mon, 03 Mar 2025 08:17:10 +0000",
-    "creator": "Alena Gupaisova",
+    "link": "https://devblogs.microsoft.com/visualstudio/new-debugging-and-profiling-features-in-visual-studio-v17-13/",
+    "pubDate": "Wed, 05 Mar 2025 15:39:27 +0000",
+    "creator": "Harshada Hole",
     "categories": [
-      "offline-programs",
-      "csai"
+      "Copilot",
+      "Debug",
+      "GitHub Copilot",
+      "Visual Studio",
+      "Debugging and Diagnostics",
+      "Profiling"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "눈 깜짝할 사이에 당하는 스맛폰 도난",
+    "description": "영상: https://www.youtube.com/watch?v=UEnx08n0amk\n\n\n\n저도 보고 도 어리둥절 했습니다.\n이런 방식이 있다니 ㄷㄷㄷ",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1165",
+    "pubDate": "Tue, 4 Mar 2025 01:32:22 +0900",
+    "creator": "SIDNFT",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "조금은 덜 최적화된 환경",
+    "description": "최근 배드 본 블러드라는 판타지 웹 소설을 완독했다.  \n지구가 망하고 행성 이주를 해서 살아가는 디스토피아를 그리고 있는데, 사람과 삶에 대해 되게 많은 생각을 하게 해준다.  \n소설에서는 3개의 국가가 배경이 되는데, 주인공이 태어난 국가는 상층과 하층으로 나뉠정도로 계급화가 되어있으며 기계국가로서 계급이 올라갈수록 신체를 좋은 기계 신체로 교체한다.\n그래서 좋은 기계 신체로 교체된 사람일수록 고위직임을 의미한다.  \n환경에 관계 없이 좋은 퍼포먼스를, 신체를 건강하게 하기 위해 했던 기존의 낭비적인 활동 (생리욕구, 음식 섭취, 오염된 환경에서의 적응등) 들을 모두 할 필요가 없는 최적의 신체가 되는 것이 국가적으로 최고의 목표인 것이다.  \n아이러니한 것은 이렇게 모든 신체를 기계로 바꾼 고위층들이 몰래 저지르는 범되이다.\n돈, 성, 마약 등에 대한 범죄 보다 더 극단적으로 취하고 있는 범죄가 바로 일반 신체에 대한 욕구이다.   \n생살, 피, 뼈에 대한 집착으로 기계신체를 갖지 못한 하위층 시민들을 납치해 생살을 찢고, 피를 뽑고, 뼈를 부수는 등 기계 신체가 아닌 인간의 신체에 대한 고문을 한다.  \n그렇게 효율적으로, 효과적으로 살기 위해 기계신체로 변경하고나서 보니 예전의 비효율적인 신체가 여러 감정들을 느끼게 해주는 장치들이였던 것이다.\n다시 돌아가지 못하는 것을 알기에 남의 신체에 고통을 주면서 상실감을 채운다.  \n최근 데브옵스 파트와 데일리 스크럼 시간에 잡담으로 1시간을 보냈다.\n원래 했어야할 스크럼 내용은 하나도 하지 못하고 당시 있었던 전사 주간 프리뷰 이야기, 중간 리더에 대한 이야기, 프로덕트 파트에 대한 이야기 등등을 나눴다.\n특히 효율, 비효율에 관한 이야기를 나눌때 팀원들과 다양하게 의견을 교류할 수 있었다.  \n데브옵스 파트가 해야하는 일이 결국 팀의 업무환경을 효율적으로 개선하는 것인데 이 조직의 효율화 개선이 가장 중요한 목표가 되면 우리가 놓치는 것들이 있지 않겠냐는 주제의 대화였다.  \n대화 중 \"회사에서 이런 인문학적인 이야기를 할 수 있어서 되게 좋은 것 같다\" 라는 이야기가 팀원에게서 나왔다.\n다른 팀원들도 동의하면서 같은 파트로서 일하는 \"우리가 서로 가치관이 어느 방향을 향하는지 알 수 있었다\"는 말에서 다시 한번 이 시간이 소중했다는 생각을 했다.\n각자가 어떻게 생각하는지 이야기를 나누고 데일리 스크럼 시간이 끝나버렸다.  \n빠르게 데일리 스크럼을 마치고 각자 자기 할 일을 하는게 회사 내 업무 시간을 가장 효율적으로 보내는 것이다.\n다만 그렇게 효율만 추구하는게 오히려 더 비효율을 추구할 수 있다.\n효율화, 최적화를 하면 할수록 눈엔 보이지 않지만 조직에 가장 중요한 것들인 유대감, 동질감, 전우애 등이 사라진다.  \n물론 시간을 낭비해야한다는 건 아니다.\n다만, 불순물이 하나도 없는 완전히 최적화된 환경을 지향할수록 부작용이 더 클 것이라는 이야기다.\n내가 버릴려고 했던 마지막 0.01%의 불순물은 실제로는 불순물이 아닌 다른 큰 사이드 이펙트를 막기 위한 방지턱일 수도 있다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://jojoldu.tistory.com/820",
+    "pubDate": "Tue, 4 Mar 2025 09:22:28 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "DevOps",
+      "데브옵스",
+      "배드 본 블러드",
+      "생산성",
+      "최적화"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "토스인사이트, 초대 연구소장에 홍기훈 홍익대학교 교수 선임",
-    "description": "“핀테크 산업의 발전과 금융정책 연구에 기여할 것”",
+    "title": "ChatGPT는 정말 공정할까? 편향된 답변 피하는 5가지 방법",
+    "description": "ChatGPT의 편향성을 최소화하는 방법이 궁금하신가요? 특정 역할을 부여하거나, 다양한 의견을 요청하는 등 균형 잡힌 답변을 얻는 방법을 알려드립니다. AI의 한계를 극복하는 스마트한 활용법을 지금 확인하세요!\n\n\n \n AI 챗봇을 사용하다 보면 \"이거 너무 한쪽으로 치우친 답변 아닌가?\"라는 생각이 들 때가 있죠. 저도 처음엔 ChatGPT가 공정하고 객관적인 답변을 줄 거라고 믿었어요. 하지만 쓰면 쓸수록 미묘하게 편향된 답변을 주는 경우가 많다는 걸 알게 됐어요. 특히 정치, 사회 이슈나 윤리적 논란이 있는 주제에서는 더욱 그렇죠. 그렇다면 어떻게 하면 ChatGPT가 보다 균형 잡힌 답변을 하도록 유도할 수 있을까요?\n \n \n1. ChatGPT에게 ‘역할’을 부여하기\n  “이제부터 너는 중립적인 컨설턴트야.”\n \n가장 효과적인 방법 중 하나는 ChatGPT에게 특정한 역할을 부여하는 거예요. 예를 들면, \"너는 공정한 저널리스트야\" 혹은 \"너는 객관적인 연구 분석가야\"라고 요청하는 거죠.\n \n  예제:\n“너는 정치적으로 중립적인 전문가야. 특정한 이념이나 정당을 지지하지 않고, 팩트에 기반해서만 설명해줘.”\n이렇게 역할을 정해주면 ChatGPT가 특정한 관점을 지양하고 좀 더 균형 잡힌 정보를 제공하려고 해요.\n \n \n \n2. 더 구체적인 프롬프트 사용하기\n✅ \"XX에 대한 객관적인 분석을 해줘.\"\n✅ \"찬반 의견을 모두 포함해서 정리해줘.\"\n✅ \"팩트 기반의 근거를 제시해줘.\"\n \n처음엔 저도 단순하게 \"이 주제에 대해 설명해줘\"라고만 요청했어요. 그런데 그럴 경우 ChatGPT가 제한된 정보만 제공하는 경향이 있더라고요. 그래서 더 구체적으로 요청하는 방식으로 바꿨어요.\n \n  예제\n❌ \"기후 변화에 대해 설명해줘.\"\n✔ \"기후 변화에 대한 주요 과학적 연구 결과를 중립적으로 정리해줘.\"\n이렇게 하면 ChatGPT가 다양한 관점을 반영해서 답변을 구성할 가능성이 커져요.\n \n \n \n3. 다양한 의견을 요청하기\n\"한 가지 답변만 주지 말고, 여러 가지 시각에서 분석해줘.\"\n \nChatGPT는 기본적으로 사용자가 원하는 대답을 해주려고 해요. 그렇다 보니 질문 방식이 편향되면 답변도 그에 맞춰지는 경우가 많죠. 그래서 저는 \"다른 시각에서 보면 어떨까?\"라는 질문을 자주 던져요.\n \n  예제:\n“이 주제에 대한 서로 다른 학파의 입장을 3가지 이상 정리해줘.”\n“반대 의견을 가진 사람들이 어떤 근거로 주장하는지 설명해줘.”\n이런 식으로 요청하면 ChatGPT가 한쪽으로 치우치지 않고 다양한 의견을 제공할 가능성이 높아져요.\n \n \n \n4. \"동의하냐\"고 묻지 않기\n\"너도 이 의견에 동의하지?\"\n \n라고 묻는 순간, ChatGPT는 동의하는 방향으로 답변을 만들어낼 가능성이 커요. 이건 심리학적으로도 자연스러운 반응이에요.\n \n  잘못된 질문\n“이 이론이 맞다고 생각해?”\n  동의하는 방향으로 답변을 생성할 확률이 높음\n \n✅ 올바른 질문\n“이 이론을 반대하는 학자들의 근거는 무엇이야?”\n  반대 의견까지 포함된 균형 잡힌 답변을 받을 확률이 높음\n이처럼 질문하는 방식만 바꿔도 답변의 질이 확 달라져요!\n \n \n \n5. ChatGPT 설정을 커스터마이징하기\nChatGPT를 사용할 때, 프로필 아이콘을 클릭하면 \"Customize ChatGPT\" 옵션이 있어요. 여기에서 답변 스타일을 조정할 수 있어요.\n \n✔ \"정치적으로 중립적인 답변을 원합니다.\"\n✔ \"객관적이고 공정한 분석을 제공해 주세요.\"\n이런 식으로 설정을 조정하면 AI가 좀 더 균형 잡힌 답변을 하도록 유도할 수 있어요.\n \n \n결론: AI는 도구일 뿐, 우리가 스마트하게 활용해야 한다\nChatGPT는 완벽한 도구가 아니에요. 여전히 편향된 데이터로 학습될 수도 있고, 사용자 질문 방식에 따라 답변이 왜곡될 수도 있어요. 하지만 위의 방법들을 활용하면 보다 객관적이고 균형 잡힌 답변을 얻을 수 있어요.\n \n✔ ChatGPT에게 역할을 부여하기\n✔ 더 구체적인 질문하기\n✔ 다양한 시각을 요청하기\n✔ \"동의하냐?\"는 질문을 피하기\n✔ 설정을 커스터마이징하기\n \n이 다섯 가지만 기억해도 훨씬 더 좋은 답변을 얻을 수 있을 거예요! 여러분은 AI를 사용할 때 어떤 방법을 활용하시나요? 댓글로 경험을 공유해 주세요  \n  Q&A\n1. ChatGPT는 왜 편향된 답변을 할까요?\nChatGPT는 인터넷의 방대한 데이터를 학습했기 때문에 원천 데이터가 편향적이라면 답변도 영향을 받을 수 있어요. 또한, 사용자의 질문 방식에 따라 특정한 방향으로 답변이 조정될 수도 있어요.\n2. ChatGPT의 답변이 공정한지 확인하는 방법은?\n하나의 답변만 믿지 말고, 같은 질문을 다르게 표현해서 여러 번 요청해보세요. 또한, 다른 정보 출처와 비교하는 것도 중요해요.\n3. AI의 편향성을 최소화하는 가장 효과적인 방법은?\nAI에게 특정한 역할을 부여하거나, 반대 의견을 요청하는 방식이 가장 효과적이에요.\n4. ChatGPT를 설정에서 중립적으로 만들 수 있나요?\n네! \"Customize ChatGPT\" 기능을 활용하면 원하는 답변 스타일을 설정할 수 있어요.\n5. ChatGPT가 제공하는 정보를 100% 신뢰해도 될까요?\n아니요! AI는 참고용으로만 사용하고, 중요한 결정은 반드시 다른 신뢰할 만한 정보와 함께 고려해야 해요.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT는 왜 편향된 답변을 할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"ChatGPT는 인터넷의 방대한 데이터를 학습했기 때문에 원천 데이터가 편향적이라면 답변도 영향을 받을 수 있어요. 또한, 사용자의 질문 방식에 따라 특정한 방향으로 답변이 조정될 수도 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT의 답변이 공정한지 확인하는 방법은?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"하나의 답변만 믿지 말고, 같은 질문을 다르게 표현해서 여러 번 요청해보세요. 또한, 다른 정보 출처와 비교하는 것도 중요해요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI의 편향성을 최소화하는 가장 효과적인 방법은?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"AI에게 특정한 역할을 부여하거나, 반대 의견을 요청하는 방식이 가장 효과적이에요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT를 설정에서 중립적으로 만들 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네! 'Customize ChatGPT' 기능을 활용하면 원하는 답변 스타일을 설정할 수 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT가 제공하는 정보를 100% 신뢰해도 될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"아니요! AI는 참고용으로만 사용하고, 중요한 결정은 반드시 다른 신뢰할 만한 정보와 함께 고려해야 해요.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/TOSSINSIGHTHONG",
-    "pubDate": "Fri, 28 Feb 2025 01:34:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://muzbox.tistory.com/483548",
+    "pubDate": "Tue, 4 Mar 2025 18:49:06 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/채팅",
+      "ai 답변 조정",
+      "ai 신뢰성",
+      "AI 편향성",
+      "ai 프롬프트",
+      "AI 활용법",
+      "ai와 정보 검증",
+      "chatgpt 설정",
+      "hatgpt",
+      "공정한 답변",
+      "중립적 ai"
+    ]
   }
 ]
