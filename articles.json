@@ -2,152 +2,115 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Title Launch Observability at Netflix Scale",
+    "title": "Visual Studio 17.12의 디버거 및 진단 업데이트",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-8efe69ebd653?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 05 Mar 2025 01:24:53 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "system-design-concepts",
-      "netflix",
-      "software-engineering",
-      "observability"
-    ]
+    "link": "https://jacking75.github.io/VS_20250309/",
+    "pubDate": "Sun, 09 Mar 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.1 Beta Is Out! ",
-    "description": "IntelliJ IDEA 2025.1 Beta is now available! This means we’re in the final stretch before the major release, and you can try out all the new features and improvements right now. You can download this version from our website, update directly from within the IDE, use the free Toolbox App, or install it via snap […]",
+    "title": "Unlock Free Access to Cloud Academy: A New Benefit for Visual Studio Subscribers",
+    "description": "I’m very excited to share some great news with you! Starting today, if you’re a Visual Studio Professional or Enterprise subscriber, you can get free access to Cloud Academy from QA—no trial, and no credit card required. This exclusive benefit is included with your Visual Studio subscription and provides 12 months of free access to […]\nThe post Unlock Free Access to Cloud Academy: A New Benefit for Visual Studio Subscribers appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/03/intellij-idea-2025-1-beta/",
-    "pubDate": "Wed, 05 Mar 2025 17:16:21 +0000",
-    "creator": "Maria Kosukhina",
+    "link": "https://devblogs.microsoft.com/visualstudio/cloud-academy-visual-studio-subscription-benefit/",
+    "pubDate": "Mon, 10 Mar 2025 12:00:55 +0000",
+    "creator": "Jim Harrer",
     "categories": [
-      "eap",
-      "2025-1-eap",
-      "intellij-idea-2025-1",
-      "intellij-idea-2025-1-eap"
+      "Visual Studio"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "성급한 널 처리의 오류",
-    "description": "절대 죽지 않는 프로그램을 짜고 싶었습니다. 널 처리만 잘하면 된다고 생각했습니다.\n첫 회사에 입사해서 윈도우 클라이언트 프로그램을 부여받았습니다.\n맨티스라는 도구에 버그가 올라오면 내가 고칠 수 있는 게 있을까 신이 나서 찾아 고쳤습니다.\n대부분 널 포인터만 감싸면 고쳐지는 에러였습니다.\n26살의 신입사원답게 아주 재빨랐습니다.\n\nif (pData != NULL)\n  return;\n\n\n그리고 다시 재현해 보고 더 이상 죽지 않으면 Fixed로 변경.\n저는 이걸 성급한 널 처리의 오류라고 부르고 싶습니다.\n경험이 쌓이면서 이게 그리 쉬운 문제가 아니라는 걸 알았습니다.\n\nASSERT(pData);\n\n\nASSERT 같은 코드를 왜 쓰는지도 그쯤에야 깨달았습니다. (학생 때는 도무지 이해가 되지 않았습니다)\n이후로는 변수가 널이어야 하는 경우와 절대 널이어선 안 되는 경우를 엄격하게 구분하기 시작했습니다. 애초에 널 상태를 만들지 않으려 애썼습니다.\n변수를 처음 선언할 때부터.\nDB 스키마를 만들 때부터.\n서버에서 클라이언트에 데이터를 내려줄 때도 함부로 null 을 사용하지 않았습니다.\nC/C++처럼 낡은 언어와는 다르게 요즘 언어들은 nullable 혹은 optional 타입 기능을 제공하는 것 같습니다.\n\n함께 읽으면 좋은 글:\n메모리를 해제하기 전에 왜 널 체크를 하는걸까?",
+    "title": "한국어 몰라요 - 글로벌 협업의 4가지 패턴",
+    "description": "요즘 우리나라는 어느 회사든 글로벌 진출을 염두에 두고 있습니다. 대부분의 분야에서 우리나라 시장은 가파른 속도로 축소될 전망이므로 해외 진출은 하고 싶은 것이 아닌 할 수밖에 없...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/03/11/fallacy-of-hasty-null-handling.html",
-    "pubDate": "2025-03-10T23:17:00.000Z",
+    "link": "https://techblog.lycorp.co.jp/ko/4-patterns-of-global-collaboration",
+    "pubDate": "Fri, 07 Mar 2025 04:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "IntelliJ IDEA’s Blog Feedback 2025",
-    "description": "Over the years, the IntelliJ IDEA blog has become your go-to hub for expert insights, handy tips, and tech inspiration. But we want more – we’re heading to perfection, and we need your ideas to get there. Fill out this survey to let us know what rocks and what could be even better. It only […]",
+    "title": "분산락 적용하기 (개념)",
+    "description": "📌 적용 배경\n이번에 회사에서 하는 프로젝트는 '오더 상태 관리'이다. '오더서밋, 오더취소, 배송, 오 더컨펌' 까지의 다양한 오더 상태에 대한 관리를 적용하는 프로젝트이다. \n우리 회사는 공급사 상품들의 묶음 단위인 딜을 이용해 주문을 한다. 상품이 있으니까 재고가 있겠지? 즉, 각 오더 상태의 역할별로 재고가 차감되거나 복원된다. \n오더 서밋시 : 재고 차감\n오더 취소시 : 재고 복원\n오더 컨펌시 : 재고 차감 / 재고 복원\n이러한 상태가 변경될때 각 딜에는 항상 중복되는 상품이 존재하기 때문에 동시성 문제가 발생하게 된다. 여기서 추가로 딜에는 여러 상품들이 있기 때문에 여러 상품을 동시에 락을 걸어야 하는 상황이다. \n📌 동시성 문제를 해결하는 방법\n여러가지 방법이 있는데 비관적락, 낙관적락, 분산락, 네임드락 등이 있다. 각각의 특징을 간단히 알아보자면,\n1) 비관적락(DB락)\nDB에서 직접 락을 걸어 다른 트랜잭션 차단\n장점 : 데이터 정합성 강하게 보장, 실시간 동시 수정 방지 가능\n단점 : 성능 저하(트랜잭션이 길어질수록 락 유지시간 증가), 데드락\n적용 예시) 은행 계좌 잔고 업데이트\n2) 낙관적락(버전 필드)\n충돌 감지 후 재시도 (rollback & retry)\n장점 : 락을 안걸어서 성능이 좋음\n단점 : 충돌이 빈번할 경우 계속 재시도하여 성능 저하를 일으킴. 정합성이 다소 낮음\n3) 분산락(Redis, Zookeeper)\n여러 서버에서 동일한 리소스를 동시에 수정하지 못하도록 제어\n장점 : 분산 시스템에도 동기화 가능\n단점 : 락 관리(해제, TTL 설정 등) 신경 써야 함, 분산 환경에서 네트워크 이슈로 인해 지연 가능\n우리 회사의 경우, 멀티 인스턴스 환경에서 오더상태 변경을 해야하고 재고관리에 있어서 강한 정합성을 요구하기 때문에 분산락을 적용하기로 결정하였다.\n📌 분산락\n분산락이란 무엇일까?\n앞서 언급했듯이 분산락은 여러 서버에서 동일한 리소스를 동시에 접근하지 못하도록 제어하는 것을 의미한다.(비관적 락이나 낙관적 락은 하나의 DB에서만 동작하는 락) 좀 더 기술적 용어를 사용해서 설명하자면, \n💡 분산락\n락을 획득한 프로세스 혹은 스레드만이 공유 자원 혹은 Critical Section 에 접근할 수 있도록 하는 것\n키(락)를 가진 사람(프로세스/스레드)만 보물이 있는 공간(공유자원)의 문을 열 수 있는 것이다 🗝\n분산락을 적용하는 방법은 여러가지가 있다. Redis, Zookeeper, MySql 등등.. 결론적으로 말하자면, 우린 Redis를 사용하였다.\n우선 Redis는 그동안 캐시용도로 이미 구성해놓은 반면에 Zookeeper는 추가적인 인프라 구성이 필요하기 때문에 제외하게 되었다. 그리고 알다시피 Redis는 싱글스레드로 작동하기 때문에 동시성 문제도 현저히 작다. 아 물론 Mysql도 있긴 한데, 락을 사용하기 위해 별도의 커넥션 풀을 관리해야 하고 락에 관련된 부하를 RDS에서 받으니 Redis를 사용하는 것이 더 효율적이다.\nRedisson을 사용한 이유는?\nRedis는 인메모리 데이터 저장소로 사용되지만 , 캐시 역할을 넘어서 다양한 분산 시스템 기능을 지원하는 구현제(라이브러리, 프레임워크)들이 존재한다. 그 중 난 분산락을 위한 구현체에 대해 간단히 알아보자면,\nJedis -> Lettuce가 성능이 더 좋아서 Lettuce로 대체됨\nLettuce\nRedisson\n1) Lettuce\nSpring Data Redis에서 기본적으로 사용하는 Redis 클라이언트\nsetnx를 활용한 스핀락 : 반복적으로 락 획득 시도 -> 레디스에 많은 부하 발생. CPU를 계속 사용하면서 재시도하는 방식\n락 획득 방식\n(1) SET NX 명령어로 락 획득을 시도\n(2) 락이 없으면 성공 → 작업 진행 후 DEL로 락 해제\n(3) 이미 락이 있으면 실패 → 일정 시간 대기 후 재시도 (스핀락 방식)\n(4) TTL(EX)을 설정하여 데드락 방지\n2) Redisson\n별도의 Lock interface를 지원 : RedLock, RLock(단일 인스턴스 락) 지원\n💡 RedLock\nRedis 기반의 분산 락을 더 안전하게 보장하기 위한 알고리즘\n멀티 Redis 노드 환경에서 장애 복구가 중요한 경우\n데이터 정합성이 중요한 글로벌 시스템\nRedis 장애가 발생해도 락을 유지해야 하는 경우\nRedLock은 과반수 이상의 Redis 노드에서 락을 획득해야 성공\nPub/Sub 방식을 이용하기에 락이 해제되면 락을 subscribe 하는 클라이언트는 락이 해제되었다는 신호를 받고 락 획득을 시도\nRedisson은 락 대기 및 해제 처리를 최적화하여 불필요한 CPU 낭비 없이 안정적으로 락을 관리\n락이 만료되기 전에 자동으로 TTL을 연장하여, 장시간 작업에서도 안정적인 락 유지가 가능\n( Lettuce는 TTL이 지나면 락이 풀릴 수 있어 작업 중 충돌 위험이 존재 )\n결론적으로, Lettuce보다 안정적인 분산 락이 필요했고, CPU 사용을 줄이면서 TTL 자동 연장과 다양한 락 기능을 활용하기 위해 Redisson을 선택하게 된것이다. 그럼 이제, RedLock을 이용할지, RLock을 이용해서 구현할지에 대한 고민이 생긴다.\nRedLock, RLock ? 어떤 것을 이용할까\n❌ RedLock이 과할 수 있는 경우\n싱글 Redis 노드 환경이거나, 락을 걸어야 하는 트랜잭션이 짧다면 RedLock은 오버헤드가 될 수도 있다\n단일 Redis 인스턴스 환경에서는 RedLock을 사용할 필요 없음\n과반수 노드가 죽으면 락 획득이 불가능해질 수도 있음\n현재 우리의 레디스 환경은 하나의 레디스 인스턴스에서 모든 데이터와 락을 관리하는 싱글 노드 형태이기 때문에 RedLock보다는 RLock을 선택하는 것이 낫다는 판단이 되었다.\n코드내에서 주목해야 할점\n코드 내에서 주목해야 할 점을 난 2가지를 뽑았다. \n1) RLock의 내부 코드 파헤치기\n2) 트랜잭션 분리\n🤔 RLock의 내부 코드 파헤치기\nRedission을 이용한 분산락 코드는 사실 인터넷을 조금은 서칭하면 거의 비슷하게 나온다. 그런데 정작 내부의 RLock의 코드를 파헤친 기록은 없더이다. 퇴근하고 남는게 시간인데 놀면 뭐하나,, 내부 코드 뒤적거리면서 시간이나 보내야지 ⏳\n적용한 코드를 크게 보면 간단하다\n락 객체 생성(열쇠 가져오기) → 락 걸기(열쇠로 잠그기) → 락 해제(열쇠로 잠금 풀기) \n1) 락 객체 생성(열쇠 가져오기)\n자.. 락 객체 생성부터 알아볼까?\n\n처음 시작은 getLock부터 시작한다. 이 코드를 따라가다보면, 최종적으로 RedissonLock 클래스의 생성자로 연결된다. \n\n첫번째 코드 줄을 통해, RedissonLock은 RedissonBaseLock을 상속받고, 기본적인 락 이름(name)과 명령 실행기(commandExecutor)가 초기화함을 알 수 있다. \n명령 실행기(commandExecutor)라는 것은 🎁 비동기 Redis 명령어 실행기를 의미한다. 음 Redis에 직접 명령을 보내는 역할인거다. 예를 들어 tryLock()을 호출하면, 내부적으로 SET NX PX 명령이 Redis에 전송되는 것이다. 그래서 명령 실행기를 초기화한다는 것은 commandExecutor를 통해 Redis와 통신할 준비를 한다는 거라고 생각하면 된다. \ninternalLockLeaseTime는 자동 락 해제 시간 설정하는 것이다. 여기서 우리가 주목해야 할것은 🎁 락 워치독 (Watchdog) 기능이다. 쉽게 말하면, 자동 연장 기능이다. \n📌 락 워치독(Watchdog)은 왜 필요할까?\n보통 Redis에서 락을 설정할 때 TTL(만료 시간)을 지정하는데, 작업이 TTL 안에 끝나지 않으면 락이 자동으로 해제되는 문제가 있다. \n예를 들어 TTL이 5초인데 작업이 6초걸린다고 치자. 5초 후 락이 만료되고 자동으로 해제되면?\n다른 프로세스가 같은 락을 획득할 수 있다 → 데이터 일관성 깨짐 😨\n그래서 락을 획득한 스레드가 살아 있는 동안 TTL이 자동으로 연장된다는 기능이다. TTL을 직접 설정하지 않으면 기본 30초 동안 유지된다고 한다. \n마지막 줄인 pubSub은 🎁 Pub/Sub 기능을 활용하여 락 해제 이벤트를 감지하는 역할이다. \nRedis에서 분산 락을 사용할 때, 다른 클라이언트가 락을 대기하는 방식에는 2가지 방식이 있다. \n폴링(Polling) 방식: 주기적으로 Redis를 조회해서 락이 해제되었는지 확인함.\n이벤트 기반 방식: 락이 해제될 때 Redis가 직접 알림(Pub/Sub)을 보내서 대기 중인 클라이언트가 즉시 실행됨.\n만약 폴링 방식이라면? 락을 얻으려는 클라이언트가 주기적으로 Redis에 요청을 보내 락이 해제되었는지 확인해야한다. 듣기만 해도, 불필요한 Redis 부하가 발생하고 클라이언트가 지속적으로 Redis에 요청을 보내므로 트래픽이 많아질 거라는 단점이 느껴지지?\n그래서 Redisson에서는 락이 해제될 때 이벤트를 발생시켜 다른 클라이언트가 즉시 실행될 수 있도록 처리한다. 언제? RLock.unlock() 이 호출될때!\n2) 락 걸기(열쇠로 잠그기)\n이제 락을 어떻게 거는지 알아보자. 코드를 따라가다보면 Redission 클래스에서 tryLock()의 구현체를 확인할 수 있다. \n코드에 대한 내용을 간단하게 정리하자면, \n주어진 대기 시간(waitTime) 내에 락을 획득하려 시도하며, 락을 획득하면 지정된 임대 시간(leaseTime) 동안 락을 유지한다. 락을 즉시 획득하지 못한 경우, 다른 클라이언트의 락 해제 이벤트를 대기하기 위해 Pub/Sub 메커니즘을 활용하고, 대기 시간 내에 락을 획득하지 못하면 false를 반환하는 매커니즘을 확인할 수 있다. \n\n3) 락 해제(열쇠로 잠금 풀기)\n비동기적으로 락을 해제하는 모습을 볼 수 있다. 앞서 언급했듯이  Redisson에서는 락이 해제될 때 이벤트를 발생시켜 다른 클라이언트가 즉시 실행될 수 있도록 처리한다 -> 이부분을 찾기 위해 코드를 엄청 뒤졌는데 사실 해당 역할을 하는 코드를 찾을 수가 없어서 좀 아쉽다..ㅠ\n\n🤔 트랜잭션 분리\n코드를 살펴보면 락을 걸고 나서 트랜잭션을 분리해서 비즈니스 로직을 실행하는 역할을 하는 것을 볼 수 있다. \n\n음..쉽게 말하면 DistributedLock 어노테이션이 선언된 메서드를 별도의 트랜잭션으로 실행하게 만든 코드인 것이다. \n\nPropagation.REQUIRES_NEW 옵션을 지정해 부모 트랜잭션의 유무에 관계없이 별도의 트랜잭션으로 동작하게끔 설정하고 반드시 트랜잭션 커밋 이후 락이 해제되게끔 처리하고 있다. 왜 이렇게 분리를 했을까?\n해당 내용은 컬리의 블로그에 너무 자세히 써져있다. 내가 진행한 프로젝트도 재고를 위한 분산락인데 여기서도 재고를 예시로 들어서 너무나 적절하게 써져있으니 해당 링크 참고하길 바란다. 결론을 말하자면 데이터 정합성을 위한 방법으로 트랜잭션 커밋 이후 락이 해제되게끔 처리 해놓았다. \n📌 추가된 요구사항\n실전으로 넘어가기 전에, 추가할 요구사항이 있다. 앞선 요구사항은 하나의 key 즉, 하나의 row만 락을 거는 형식으로 구현되어 있다. 하지만 우리 회사 특성상 주문시 여러 상품을 동시에 상태 변경하기 때문에 한번에 여러 상품의 재고를 변경해야한다. 따라서 하나의 row가 아닌 여러 row에 락을 걸어야 한다. \n그렇다면 기존에 받는 키도 하나에서 여러개를 받게 되고 락도 동시에 여러개를 건다는 말이겠지? 정리하자면, 여러 개의 락을 동시에 걸고, 하나라도 실패하면 전체 실패하도록 하고 싶다는 것이다. 이때 난 RedissonMultiLock이라는 것을 사용했다. \n\n즉, 하나의 트랜잭션처럼 모든 락이 성공해야만 실행되도록 할때 사용된다. 그렇다는 말은 락을 해제할때도 한꺼번에 해제한다는 말과 동일하다. \n이제 추가된 요구까지 알아보았으니 본격적으로 테스트를 해볼까? 해당 내용은 다음편에 있다. \n참고) \nhttps://velog.io/@a01021039107/%EB%B6%84%EC%82%B0%EB%9D%BD%EC%9C%BC%EB%A1%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94-%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C%EC%9D%B4%EB%A1%A0%ED%8E%B8\nhttps://helloworld.kurly.com/blog/distributed-redisson-lock/\nhttps://techblog.woowahan.com/17416/\nhttps://velog.io/@jinony/Spring-Boot-Apache-JMeter%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B6%80%ED%95%98-%ED%85%8C%EC%8A%A4%ED%8A%B8",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/03/intellij-idea-s-blog-feedback-2025/",
-    "pubDate": "Mon, 10 Mar 2025 10:13:32 +0000",
-    "creator": "Irina Mariasova",
-    "categories": [
-      "news",
-      "blogs",
-      "intellij-idea"
-    ]
+    "link": "https://velog.io/@sweet_sumin/%EB%B6%84%EC%82%B0%EB%9D%BD-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-%EA%B0%9C%EB%85%90",
+    "pubDate": "Wed, 05 Mar 2025 22:42:55 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Livestream: Essential Tools for JetBrains IDE Plugin Development",
-    "description": "Join us for an insightful session on the top tools every plugin developer should know. IntelliJ Platform Developer Advocates Yann Cébron and Jakub Chrzanowski will walk you through essential utilities that streamline plugin development for JetBrains IDEs. During the webinar, you will discover how: No matter your level of experience, this webinar will equip you […]",
+    "title": "TeamCity 2024.12.3 Bug Fix Is Out!",
+    "description": "The TeamCity On-Premises 2024.12.3 bug-fix update is out and ready to be installed on your servers! This update resolves over 10 issues and, as always, includes essential security and performance fixes. We highly recommend upgrading to keep your system secure and optimized. The list of resolved issues includes: See TeamCity 2024.12.3 Upgrade Notes for the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/03/livestream-essential-tools-for-jetbrains-ide-plugin-developmentlivestream/",
-    "pubDate": "Mon, 10 Mar 2025 16:52:03 +0000",
-    "creator": "Elena Kerpeleva",
+    "link": "https://blog.jetbrains.com/teamcity/2025/03/teamcity-2024-12-3-bug-fix/",
+    "pubDate": "Fri, 07 Mar 2025 09:54:08 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "plugin-development",
-      "intellij",
-      "livestreams",
-      "marketplace",
-      "news",
-      "busy-plugin-developers",
-      "jetbrains-marketplace",
-      "livestream"
+      "bug-fix"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "방향이 바겼다. 미국 주식은 안된다. / 중국 유럽 주식 / 미국 채권 / 2025-03-07",
-    "description": "영상: https://www.youtube.com/watch?v=vsSWm_-PnqM\n\n\n\n18분에 나오는 스샷\n\n\n \n요약\n미국 주식도 안좋고 달러도 안좋습니다. \n금 / 유럼 + 중국 주식 / 미국 채권은 좋습니다.\n \nTIGER 차이나항셍테크\nKIWOOM 차이나내수소비TOP CSI\n에셋플러스 차이나일등기업포커스10액티브\nKodex 미국30년국채액티브(H)",
+    "title": "Announcing Guidelines Support Library v4.2.0",
+    "description": "Version 4.2.0 of Microsoft's Guidelines Support Library brings performance improvements, safety features, modern compiler support.\nThe post Announcing Guidelines Support Library v4.2.0 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1173",
-    "pubDate": "Fri, 7 Mar 2025 17:56:24 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/cppblog/announcing-guidelines-support-library-v4-2-0/",
+    "pubDate": "Thu, 06 Mar 2025 09:36:54 +0000",
+    "creator": "Carson Radtke",
     "categories": [
-      "투자"
+      "Announcement",
+      "C++"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "토스, ‘미키 17’ 개봉 캠페인 성료…534만 회 참여",
-    "description": "이제 영화 광고도 토스로",
+    "title": "GPT-4o Copilot code completion model available now in Visual Studio public preview",
+    "description": "We are excited to announce that the new GPT-4o Copilot code completion model is now available for GitHub Copilot users in Visual Studio starting in 17.14 Preview 2! This new model, based on GPT-4o mini, has undergone additional training on over 275,000 high-quality public repositories across more than 30 popular programming languages. As a result, […]\nThe post GPT-4o Copilot code completion model available now in Visual Studio public preview appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/MICKEY17",
-    "pubDate": "Thu, 06 Mar 2025 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/visualstudio/gpt-4o-copilot-code-completion-model-available-now-in-visual-studio-public-preview/",
+    "pubDate": "Tue, 11 Mar 2025 15:00:21 +0000",
+    "creator": "Simona Liao",
+    "categories": [
+      "Artificial Intelligence",
+      "Copilot",
+      "GitHub Copilot",
+      "Productivity",
+      "Visual Studio",
+      "GitHub Copilot Completions"
+    ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "A case for QLC SSDs in the data center",
-    "description": "The growth of data and need for increased power efficiency are leading to innovative storage solutions. HDDs have been growing in density, but not performance, and TLC flash remains at a price point that is restrictive for scaling.  QLC technology addresses these challenges by forming a middle tier between HDDs and TLC SSDs.   QLC [...]\nRead More...\nThe post A case for QLC SSDs in the data center appeared first on Engineering at Meta.",
+    "title": "갤럭시S2에서 갤럭시S25로",
+    "description": "첫 스마트폰은 갤럭시 S2 였습니다. 개발자 치고는 스마트폰을 무척 늦게 샀습니다.\n갤럭시 S2를 쓴 이후로 스마트폰을 20개 정도는 써본 것 같습니다.\n이번에는 마음이 바뀌었습니다. 어쩌면 그동안 메인스트림에서 너무 멀어져 있던 건 아닐까?\n갤럭시 S25로 메인폰을 변경 후 한 달 정도 지난 것 같은데 아주 만족하며 잘 쓰고 있습니다.\n사소하게 한 가지 불편한 점이 있다면…\n크롬 브라우저의 숫자 키패드에 마이너스 키가 없다는 것.\n\n갤럭시에만 숫자 키패드에 마이너스 키가 없다. (크롬 브라우저)\n브라우저의 키패드는 각각의 제조사에서 구현을 하는 듯 보입니다.\n마이너스 숫자를 종종 입력해야 할 일이 생기는 저는 매번 고통을… 꼭 고쳐주시면 좋겠네요.\n10년 전쯤에는 안드로이드 대 아이폰의 점유율이 9:1에 가깝게 된 적도 있었습니다.\n\n함께 읽으면 좋은 글:\n그때 아이폰을 살 걸 그랬어\n아이폰과 안드로이드",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/03/04/data-center-engineering/a-case-for-qlc-ssds-in-the-data-center/",
-    "pubDate": "Tue, 04 Mar 2025 17:00:26 +0000",
+    "link": "https://jeho.page/essay/2025/03/10/galaxy-s2-to-s25.html",
+    "pubDate": "2025-03-10T09:01:00.000Z",
     "creator": "Unknown",
-    "categories": [
-      "Data Center Engineering"
-    ]
+    "categories": []
   },
   {
     "id": 9,
-    "imageUrl": "",
-    "title": "Trino로 타임아웃 개선하기",
-    "description": "![NHN Cloud_meetup banner_trino_202502-01_900.png](https://image.toast.com/aaaadh/real/2025/techblog/NHN%20Cloudmeetup%20bannertrino20250201900.png)\r\r\n\r\r\n# 들어가며\r\r\n안녕하세요. NHN Cloud의 클라우드AI팀 이태형입니다.\r\r\n로그 데이터가 쌓일수록 조회 속도가 느려지는 문제, 한 번쯤 겪어 보셨을 텐데요. 이 글에서는 이러한 문제를 해결하기 위해 저희 팀에서 Trino를 도입하여 성능을 개선한 과정을 공유해 보려 합니다. 재미있게 읽어 주세요! \r\r\n\r\r\n# 개요: NHN AppGuard\r\r\n[NHN AppGuard](https://www.nhncloud.com/kr/service/security/nhn-appguard) 서비스에 Trino를 적용한 이야기를 드릴 예정이라서 먼저 해당 서비스를 소개하겠습니다.\r\r\n\r\r\nNHN AppGuard는 모바일 애플리케이션을 보호하기 위해 사용자의 이상 행위를 탐지하거나 차단하는 모바일 앱 보안 솔루션입니다. NHN AppGuard의 서버는 탐지/차단 로그를 안전하게 저장하고, 각종 조건 검색과 대시보드를 제공합니다.\r\r\n\r\r\n![Trino_1.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino1.png)\r\r\n\r\r\n## NHN AppGuard 로그\r\r\n\r\r\nNHN AppGuard는 평균 600만개/일 가량의 로그를 수집하고 있습니다. 이러한 로그는 NHN AppGuard 로그 워크플로에 따라 DB에 적재됩니다.\r\r\n\r\r\n![Trino_2_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino2900.png)\r\r\n\r\r\n## 이슈 발생\r\r\n\r\r\n대부분의 쿼리가 월 단위 집계 성격을 띠는 이유로 질의 대상 row 가 1억 건이 넘는 경우가 많아 이슈가 발생했습니다.\r\r\n발생한 이슈는 아래와 같습니다.\r\r\n\r\r\n1. 검색 조건 변경 시 대시보드 화면에서 타임아웃 발생\r\r\n![Trino_3.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino3.png)\r\r\n2. 집계 쿼리가 수행되는 새벽 시간대에 slow query 발생\r\r\n![Trino_4.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino4.png)\r\r\n\r\r\n## 일반적인 해결 방안\r\r\n\r\r\n위 이슈들은 결국 쿼리의 성능이 원인이기 때문에 먼저 쿼리 최적화를 수행했습니다.\r\r\n\r\r\n1. index 문제\r\r\n    1. 쿼리 검수를 통해 index의 순서를 변경하고\r\r\n    2. 의도한 index가 적용되도록 쿼리에 index hint를 추가했습니다.\r\r\n2. 쿼리의 문제\r\r\n    1. 한 달 기간 전체 데이터를 스캔하는 쿼리를 당일 증가분만 조회하도록 수정하고\r\r\n    2. 대시보드를 매번 조회하지 않고 일 배치 작업으로 미리 계산해 둔 데이터를 조회하고\r\r\n    3. 조회 가능한 기간을 제한했습니다.\r\r\n\r\r\n이러한 최적화를 통해 일시적으로 이슈가 해소되었습니다.\r\r\n하지만 NHN AppGuard의 로그는 점차 늘어나고, 집계할 데이터의 종류도 증가했으며, 조회 기간 감소에 대한 불만이 발생하여 다른 접근이 필요했습니다.\r\r\n\r\r\n## 로그 저장소 검토\r\r\n\r\r\nMySQL을 대신해 로그를 저장하기에 적절한 로그 저장소를 검토했습니다.\r\r\n\r\r\n1. Elasticsearch (LNCS)\r\r\n    1. 검색에 좋은 성능\r\r\n    2. 상품 스펙상 최대 120일 저장 제한\r\r\n2. Trino (DataQuery)\r\r\n    1. 복잡한 집계 쿼리에 좋은 성능\r\r\n    2. 여러 데이터 소스 간 federation 지원\r\r\n    3. 저장 기간 제한 없음\r\r\n\r\r\nNHN AppGuard는 로그의 저장 기간을 기존 90일에서 늘리는 것을 계획하고 있었고, 무엇보다 대부분의 쿼리가 집계 성격을 많이 띠어 Trino가 적절하다고 판단했습니다.\r\r\n\r\r\n# Trino와 DataQuery\r\r\n\r\r\n## Trino란\r\r\n\r\r\n[Trino 공식 홈페이지](https://trino.io)를 보면 아래와 같은 문구를 찾을 수 있습니다.\r\r\n\r\r\n> Trino, a query engine that runs at ludicrous speed\r\r\n> Fast distributed SQL query engine for big data analytics that helps you explore your data universe.\r\r\n\r\r\n키워드를 뽑아 보면 아래와 같습니다.\r\r\n\r\r\n1. Fast - 빠르다\r\r\n2. Distributed - 분산 처리한다\r\r\n3. analytics - 분석에 적절하다\r\r\n\r\r\n## Trino 특징\r\r\n\r\r\n마찬가지로 [Trino 공식 홈페이지](https://trino.io)에서는 아래와 같은 특징을 소개합니다.\r\r\n![Trino_5.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino5.png)\r\r\n\r\r\n여기서도 키워드를 뽑아보면 아래와 같습니다.\r\r\n\r\r\n1. distributed: 분산 처리로 빠르고\r\r\n2. ANSI SQL: 표준 SQL 을 호환하여 현재 쿼리문을 수정할 필요가 없고\r\r\n3. S3: OBS에 저장하여 스토리지 비용을 줄일 수 있고\r\r\n4. Query Federation: OBS의 데이터와 MySQL 데이터를 하나의 쿼리로 join할 수 있다.\r\r\n\r\r\n## Trino 동작 원리\r\r\n\r\r\nTrino의 동작 원리는 [Presto: SQL on Everything](https://trino.io/Presto_SQL_on_Everything.pdf)라는 논문에 자세히 소개하고 있습니다.\r\r\n해당 논문의 일부를 가볍게 살펴보겠습니다.\r\r\n\r\r\n### 구조도\r\r\n![Trino_6.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino6.png)\r\r\n\r\r\nTrino는 하나의 Coordinator 노드와 여러 개의 Worker 노드로 구성됩니다. Coordinator 노드는 쿼리의 인입 지점으로 admit, parsing, planning, optimizing, orchestration 등을 수행하고, worker node는 query processing을 담당합니다.\r\r\n\r\r\n### 요청 처리 순서\r\r\n\r\r\nCoordinator 노드가 분산 처리를 계획하면 worker node가 병렬로 처리해서 복잡한 쿼리가 더 빠르게 실행되는 원리입니다.\r\r\n\r\r\n1. client → coordinator: http request (SQL stmt)\r\r\n2. coordinator: evaluate request(parsing, analyzing, **optimizing distributed execution plan**)\r\r\n3. coordinator: plan to worker\r\r\n    1. task 생성\r\r\n    2. **splits** 생성(addressable chunk in external storage)\r\r\n    3. splits을 task에 할당\r\r\n4. worker: run task\r\r\n    1. fetching splits\r\r\n    2. 다른 worker에서 생성한 intermediate data 처리\r\r\n        1. worker 간에는 intermediate data를 memory에 저장하여 공유\r\r\n        2. **shuffle**이 발생할 수 있음\r\r\n             \\*shuffle = node 간 데이터 재분배\r\r\n    3. query의 shape에 따라 모든 데이터를 처리하지 않고 반환\r\r\n\r\r\n## Trino 쿼리 실행 예시\r\r\n\r\r\n### 그림으로 살펴보기\r\r\n* 쿼리문\r\r\n![Trino_7.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino7.png)\r\r\n\r\r\n* logical plan\r\r\n![Trino_8.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino8.png)\r\r\n\r\r\n* distributed plan (stage)\r\r\n![Trino_9.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino9.png)\r\r\n\r\r\n* optimized plan (pipeline, parallelism)\r\r\n![Trino_10.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino10.png)\r\r\n\r\r\n\r\r\n### 실행 순서\r\r\n\r\r\n1. Planner: SQL → SQL syntax tree → Logical Planning (IR 생성)\r\r\n    * IR = Intermediate Representation\r\r\n2. Optimizer: Logical Plan → evaluate transformation rules → **optimize** → Physical Structure\r\r\n    * transformation rules = sub-tree query plan + transformation\r\r\n    * 사용되는 optimizing 기법 = predicate and limit pushdown, column pruning, decorrelation, table and column statistics 기반 cost-based 최적화\r\r\n        * Data Layouts = Connector Data Layout API로 얻어내는 위치, 파티션, 정렬, 그룹화, 인덱스\r\r\n        * Predicate Pushdown = connector에 따른 filtering 최적화\r\r\n            * \\*pushdown : 읽어야 하는 데이터를 줄이는 것\r\r\n            * \\***Predicate Pushdown** : 조회 조건에 맞는 데이터만 읽는 것\r\r\n        * **Inter**-node Parallelism = stage 단위의 병렬 실행\r\r\n        * **Intra**-node Parallelism = stage 내에서 single node의 thread에 걸친 병렬 실행\r\r\n3. Scheduler: Stage Scheduling → Task Scheduling → Split Scheduling\r\r\n    * Task Scheduling = Leaf Stage / Intermediate Stage 분리하여 배치\r\r\n4. Query Execution = Local Data Flow → Shuffles → Writes\r\r\n\r\r\n## DataQuery\r\r\n\r\r\n[NHN Cloud의 DataQuery](https://www.nhncloud.com/kr/service/data-analytics/dataquery?lang=ko) 서비스는 위에서 소개한 Trino를 기반으로 대규모 데이터에 대해 쿼리를 실행할 수 있는 서비스입니다.\r\r\n이를 통해 원하는 클러스터 스펙을 지정하고 연결할 데이터 소스만 작성하면 Trino의 복잡한 설치와 설정 과정 없이 사용이 가능합니다.\r\r\n\r\r\n# Trino 적용 - 개념\r\r\nTrino를 적용하기 위해 알아야 할 개념을 소개합니다.\r\r\n\r\r\n## 데이터 소스 선정\r\r\nTrino는 여러 종류의 데이터 소스를 지원합니다.\r\r\n\r\r\nNHN AppGuard는 로그 저장 기간 증가를 계획하고 있어 저장 비용을 절약하기 위해 OBS를 데이터 소스로 선정하였습니다.\r\r\nOBS 데이터 소스를 사용하는 경우 데이터의 타입도 Parquet, JSON, ORC, CSV, Text 중에 선택해 주어야 해서, 위와 동일한 이유로 Parquet 파일 포맷을 선택하였습니다.\r\r\n\r\r\n### Apache Parquet\r\r\n\r\r\n[Apache Parquet 홈페이지](https://parquet.apache.org)에는 Parquet를 아래와 같이 설명합니다.\r\r\n\r\r\n> Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, Python, etc...\r\r\n\r\r\n여기서도 키워드를 뽑아보면 아래와 같습니다.\r\r\n\r\r\n* column-oriented data\r\r\n* efficient data storage and retrieval\r\r\n* efficient data compression\r\r\n* encoding schema\r\r\n* handle complex data in bulk\r\r\n\r\r\ncolumn-oriented data의 설명은 아래의 그림을 보시면 이해가 쉽습니다.\r\r\n![Trino_11.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino11.png)\r\r\n(Source: [https://devidea.tistory.com/92](https://devidea.tistory.com/92))\r\r\n\r\r\n동일한 타입의 데이터가 나열되기 때문에 압축 효율이 높아지는 효과가 있습니다.\r\r\n또한 footer에 데이터에 대한 메타데이터를 저장해 두어 reader에게 데이터에 대한 힌트를 주어 조회 성능을 높입니다.\r\r\n\r\r\n![Trino_12.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino12.png)\r\r\n(source: [https://parquet.apache.org/docs/file-format/](https://parquet.apache.org/docs/file-format/))\r\r\n\r\r\n## 구상안\r\r\n\r\r\nparquet는 columnar한 형식이기 때문에 row 단위로 데이터를 append하는 것은 비효율적입니다. 그러므로 데이터를 모아서 parquet 형식으로 파일을 생성하는 것이 효율적입니다. 이를 위해 NHN AppGuard에서는 3가지 구성 방법을 고려했고 3번째 안을 선택했습니다.\r\r\n\r\r\n1. micro batch\r\r\n    1. kafka → log-batch → create parquet / 1 minute → save obs → obs\r\r\n    2. trino는 OBS를 사용하는 경우 파일 기반으로 동작하기 때문에 파일의 개수가 많아지면 비효율적입니다.\r\r\n    3. 1분 단위로 파일을 쓸 경우 작은 파일이 많아져 조회 성능이 현저히 떨어지기 때문에 선택하지 않았습니다.\r\r\n2. hourly batch\r\r\n    1. kafka → log-batch → create parquet / 1 hour (save data in memory or redis) → save obs → obs\r\r\n    2. 메모리에 저장하는 경우 데이터 유실의 리스크가 걱정되었고\r\r\n    3. NHN AppGuard는 redis를 사용하고 있지 않아 trino와 redis 두 컴포넌트의 추가로 인한 운영 복잡도 증가가 부담되어 선택하지 않았습니다.\r\r\n3. **중간 DB 사용 - MySQL**\r\r\n    1. kafka → log-batch → save to mysql → mysql → tier down in daily-batch → save obs → obs\r\r\n    2. 기존에 사용하던 MySQL 구성을 변경하지 않아 수정 소요가 적었고\r\r\n    3. MySQL을 통해 실시간 데이터 또한 조회할 수 있어 실시간 데이터 조회가 쉬워 선택하였습니다.\r\r\n\r\r\n### 구성도\r\r\n\r\r\n* AS-IS\r\r\n![Trino_13_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino13900.png)\r\r\n\r\r\n* TO-BE\r\r\n![Trino_14_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino14900.png)\r\r\n\r\r\n\r\r\n### tier down 개념\r\r\n\r\r\nElasticSearch는 데이터의 역할 또는 접근 빈도에 따라 노드를 분배하는 기법으로 Data Tiering 을 사용합니다.\r\r\n\r\r\n![Trino_15.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino15.png)\r\r\n(source: [https://www.linkedin.com/pulse/navigating-data-tiers-optimizing-costs-reducing-risk-boosting-lim-yfeyc](https://www.linkedin.com/pulse/navigating-data-tiers-optimizing-costs-reducing-risk-boosting-lim-yfeyc))\r\r\n\r\r\n이렇게 tier를 적용한 데이터를 높은 티어에서 낮은 티어로 낮추는 것을 tier down이라고 부릅니다. hot tier는 일반적으로 성능이 좋고 반응이 빠르지만 비용이 비싸고, cold tier는 반응은 조금 느리지만 비용이 저렴한 저장소를 사용합니다.\r\r\n\r\r\nNHN AppGuard에서는 MySQL을 hot tier, Trino를 cold tier로 정의하고 daily-batch에서 MySQL 데이터를 Parquet로 변환해 Trino에 삽입시키는 작업을 tier down으로 정의했습니다.\r\r\n\r\r\n### Parquet 파일 생성 방법\r\r\n\r\r\nParquet는 원래 HDFS에 쓰는 용도로 고안되어서 Parquet 파일을 직접 쓰려면 `org.apache.hadoop:hadoop-common:3.3.6`과 같은 hdfs writer에 세그먼트 관리, 열 압축 등의 기능을 구현해야 합니다. 이러한 작업을 피하기 위해 일반적으로 Spark 등의 외부 컴포넌트를 쓰거나 avro 포맷의 파일을 거쳤다가 parquet로 변환하는 방법을 사용합니다.\r\r\n\r\r\n[Apache Avro](https://avro.apache.org)는 data를 serialize하기에 좋은 포맷으로 스키마를 갖습니다.\r\r\nParquetFileWriter를 지원하기 때문에 손쉽게 변환이 가능합니다.\r\r\n\r\r\n> Apache Avro™ is the leading serialization format for record data, and first choice for streaming data pipelines. It offers excellent schema evolution, and has implementations for the JVM (Java, Kotlin, Scala, …), Python, C/C++/C#, PHP, Ruby, Rust, JavaScript, and even Perl.\r\r\n\r\r\n# Trino 적용 - 구현\r\r\n\r\r\n## tier down 구현\r\r\n\r\r\n### 논리 구조\r\r\n![Trino_16_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino16900.png)\r\r\n\r\r\n\r\r\n### Trino 테이블 생성\r\r\n\r\r\nTrino 데이터 소스로 OBS를 사용하는 경우 Hive를 사용하기 때문에 HQL을 사용해야 합니다. HQL 또한 SQL 표준을 따르기 때문에 거의 유사하지만 묵시적 형 변환과 같은 편의 기능을 지원하지 않고, with 문의 external location, partitioned_by 등의 옵션이 추가됩니다.\r\r\n\r\r\n```sql\r\r\nCREATE TABLE log\r\r\n (\r\r\n    seq              bigint, \r\r\n    log_time         timestamp,\r\r\n    // 생략 \r\r\n    log_date         date,\r\r\n    appkey           varchar(64),\r\r\n ) \r\r\n WITH ( \r\r\n    format = 'Parquet',\r\r\n    external_location = 's3a://data-query/log',\r\r\n    partitioned_by = ARRAY['appkey','date']\r\r\n);\r\r\n```\r\r\n\r\r\n### avro schema 작성\r\r\n\r\r\n```javascript\r\r\n{\r\r\n  \"type\" : \"record\",\r\r\n  \"name\" : \"log\",\r\r\n  \"namespace\" : \"avro\",\r\r\n  \"fields\" : [\r\r\n    { \"name\" : \"seq\", \"type\" : \"long\" },\r\r\n    { \"name\" : \"log_time\", \"type\" : [ \"null\", \"string\" ], \"default\" : null },\r\r\n    // 생략\r\r\n  ]\r\r\n}\r\r\n```\r\r\n\r\r\n### tier down process\r\r\n![Trino_17.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino17.png)\r\r\n데이터를 메모리에 올려서 변환하기 때문에 장비와 데이터에 따라 적절한 페이징을 적용해야 합니다.\r\r\n\r\r\n### convert to parquet\r\r\n![Trino_18.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino18.png)\r\r\navro 변환은 apache avro 모듈의 schema.from 함수로 쉽게 변환이 가능합니다. parquet는 apache parquet 모듈의 PositionOutputStream 객체의 writer를 구현하여 변환할 수 있습니다.\r\r\n\r\r\n### 다른 방법은 없을까?\r\r\nCTAS(Create Table As Select)가 가장 쉬운 방법입니다. 수행 시간은 위 방법과 비슷하게 소요되지만 용량이 30% 정도 더 효율적인 것으로 확인하였습니다. 하지만 DataQuery에서 사내 DB를 아직 데이터 소스로 지원하지 않아 현재는 사용이 어렵습니다.\r\r\n여기에서는 방법만 소개하겠습니다.\r\r\n\r\r\n```sql\r\r\nCREATE TABLE obs.test.log_ctas\r\r\n    WITH (\r\r\n        format = 'Parquet',\r\r\n        external_location = 's3a://ctas-test/log-ctas',\r\r\n        partitioned_by = ARRAY['log_date', 'appkey']\r\r\n        )\r\r\nAS\r\r\nselect seq,\r\r\n// 생략\r\r\n       cast(log_time as date) as log_date,\r\r\n       appkey\r\r\nfrom \"mysql\".log\r\r\nwhere log_time >= date '2024-11-01'\r\r\n  and log_time < date '2024-11-02';\r\r\n```\r\r\n\r\r\n## 실시간 데이터 union 구현\r\r\n\r\r\n### 논리 구성도\r\r\n![Trino_19_900.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino19900.png)\r\r\n1. cold data에 마지막으로 저장된 시간을 조회하고\r\r\n2. cold data와 hot data를 조회해\r\r\n3. join / union 하여 응답합니다.\r\r\n\r\r\n### Data 조회\r\r\n\r\r\nCold - max cold data 기준 왼쪽을 조회합니다.\r\r\n![Trino_20.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino20.png)\r\r\n\r\r\nHot - max cold data 기준 오른쪽을 조회합니다.\r\r\n![Trino_21.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino21.png)\r\r\n\r\r\n### Data Join / Union\r\r\n\r\r\n집계의 경우 toMap과 id 값을 이용해 Join 합니다.\r\r\n![Trino_22.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino22.png)\r\r\n\r\r\n단순 조회의 경우 stream.concat으로 Union 합니다.\r\r\n![Trino_23.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino23.png)\r\r\n\r\r\n# 성능 테스트\r\r\n\r\r\n## 환경\r\r\n\r\r\n* DataQuery 스펙: c2m8 * 3\r\r\n* DataQuery 데이터는(log_date, appKey) 파티셔닝 되어 있고\r\r\n    * 참고 \\*partition = RDBMS의 index 와 유사. parquet 가 저장된 경로를 의미\r\r\n        ![Trino_24.png](https://image.toast.com/aaaadh/real/2025/techblog/Trino24.png)\r\r\n* MySQL 데이터는 일 단위로 파티셔닝되어 있습니다.\r\r\n* MySQL 데이터는 log\\_time, appkey 각각의 인덱스와 (log\\_time, appkey) 복합 index 가 적용되어 있습니다.\r\r\n\r\r\n## 데이터 조회\r\r\n\r\r\n이슈 대응 등의 이유로 개발자가 쿼리 엔진에 자주 질의하는 **일반 쿼리**와 서비스에서 사용하는 **서비스 쿼리**로 구분하여 테스트했습니다.\r\r\n\r\r\n### 일반 쿼리\r\r\n\r\r\n단순한 select \\* 조회는 mysql이 7배가량 빠르고, count 등의 집계 함수가 포함된 쿼리는 DataQuery가 적게는 4배에서 6배가량 빠른 양상을 보였습니다.\r\r\nTrino + Parquet 조합은 열 기반 데이터 포맷으로 인한 행 조회의 비효율성, Trino의 쿼리 플래닝과 file fetch에서의 오버헤드로 인해 단순한 행 조회가 느리기 때문입니다.\r\r\n\r\r\n| 쿼리 | dataquery | mysql |\r\r\n| --- | --------- | ----- |\r\r\n| **단순** 조회 (select \\* limit 500) | 1 s 151 ms | 148 ms |\r\r\n| **count** 조회 (select count(\\*) 한 달 | 8 s 957 ms | 30.987 s |\r\r\n| filter - appkey \\& log\\_time **행 조회** | 1 s 323 ms | 393 ms |\r\r\n| filter - appkey \\& log\\_time **count** | 349 ms | 14.662 s |\r\r\n| group by - appkey 하루 | 814 ms | 2.385 s |\r\r\n| group by - appkey 한 달 | 18 s 530 ms | 2m 15s 538ms |\r\r\n\r\r\n### NHN AppGuard 서비스 쿼리\r\r\n\r\r\nDataQuery가 전반적으로 10배 정도 빨랐습니다.\r\r\n이상 행위 탐지 현황의 한 달치 데이터는 MySQL에서 30분 이상 소요되어 조회할 수 없었지만 DataQuery는 36초만에 조회하였습니다.\r\r\n\r\r\n| 쿼리 | dataquery | mysql |\r\r\n| --- | --------- | ----- |\r\r\n| 이상행위 탐지현황 - limit 50 하루 | 1 s 696 ms | 9.676s |\r\r\n| 이상행위 탐지현황 - limit 50 한 달 | 6 s 468 ms | 6m 19s 459ms |\r\r\n| 이상행위 탐지현황 report - 하루 | 7.06s | 21s 890ms |\r\r\n| 이상행위 탐지현황 report - 한 달 | 36.81s | **조회 불가(30분 이상)** |\r\r\n| 로그 조회 - 하루 | 1 s 531 ms | 7s 264ms |\r\r\n| 로그 조회 - 한 달 | 5 s 728 ms | 5m 58s 381ms |\r\r\n\r\r\n### Parquet 크기별 비교\r\r\n\r\r\nappkey로 파티션 되기 때문에 appkey별 로그 양이 달라 로그 개수에 따른 성능 차이를 비교해 보았습니다. 로그 수 기준 중위의 appkey까지도 MySQL이 더 빠른 양상을 보였습니다. 2-300ms가량의 차이를 보이는 만큼 로그가 적은 사용자 입장에서는 데이터가 없는데 굼뜨다는 느낌을 받을 수 있습니다. 이에 반해 로그 수가 평균을 넘어가면 MySQL은 30초가 넘어가는 응답을 보여 콘솔에서 서비스하기에 어려운 반응 속도를 보입니다.\r\r\n\r\r\n| 대시보드 조회 쿼리 | DataQuery | MySQL |\r\r\n| ---------- | --------- | ----- |\r\r\n| 데이터 없음 | 267 ms | 102 ms |\r\r\n| 최소 | 365 ms | 100 ms |\r\r\n| 중위 | 610 ms | 168 ms |\r\r\n| 평균 | 505 ms | 34 s 24 ms |\r\r\n| 최대 | 15s 85 ms | 10 m 23 s 982 ms |\r\r\n\r\r\n## 성능 테스트 결론\r\r\n\r\r\n1. 행 전체 조회, 데이터가 적은 경우는 MySQL이 빠르다.\r\r\n    1. 100ms VS 500ms의 차이 → **참을만하다.**\r\r\n2. 집계 조회, 데이터가 많은 경우에는 DataQuery가 빠르다.\r\r\n    1. 수십 초 VS 수 분 차이 → **참을 수 없다.**\r\r\n\r\r\n# 결과\r\r\n\r\r\n## 좋아졌나요?\r\r\n\r\r\n1. 이상 행위 탐지 현황의 30일치 데이터를 조회하지 못하던 고객이 이제 조회할 수 있게 되었습니다.\r\r\n2. 2024년 초 공개한 NHN AppGuard public api는 MySQL로는 30분 이상 소요되어 개발이 어려웠는데, DataQuery를 통해 7초 이내로 조회하여 개발할 수 있었습니다.\r\r\n3. 내부 집계 시간이 38m36s → 22m16s로 약 43% 개선했습니다.\r\r\n4. mysql에서의 집계로 인한 slow query가 제거되어 일 배치로 인한 서비스의 영향성이 없어졌습니다.\r\r\n5. 집계 연산이 빨라져서 집계 데이터의 종류를 늘리는 것에 부담이 없어졌습니다.\r\r\n6. 스토리지 비용 감소로 데이터 저장 기간을 60일에서 1년으로 늘렸습니다.\r\r\n\r\r\n## 나쁜 점은 없나요?\r\r\n\r\r\n1. 대시보드의 기본 응답 속도가 300ms 정도 느려졌습니다.\r\r\n2. tier down 실패 시 집계, 미터링 등에 영향을 주기 때문에 모니터링 요소가 늘어났습니다.\r\r\n3. DataQuery와 OBS 비용이 추가되었습니다. (대략 100만 원/월)\r\r\n\r\r\n## 앞으로 해야 할 것이 있을까요?\r\r\n\r\r\n1. 일 단위 tier down을 시간 단위로 변경하는 것을 고민하고 있습니다.\r\r\n2. 고객 로그 수에 따라 적절한 쿼리 엔진을 사용하도록 최적화하는 부분에 대해 고민하고 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n이상 NHN AppGuard에 Trino를 적용해 본 과정과 결과에 대해 정리하였습니다. 도움이 되셨길 바라며, 긴 글을 읽어 주셔서 감사합니다. \r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_gray_202408_900.png](https://image.toast.com/aaaadh/real/2025/techblog/NHN%20Cloudmeetup%20bannerfootergray202408900.png)](https://www.nhncloud.com/kr)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://meetup.nhncloud.com/posts/391",
-    "pubDate": "Tue, 04 Mar 2025 02:22:40 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "지각하지 않던 사람들",
-    "description": "딸을 학교에 보내고 돌아오며 저의 학창 시절이 떠올랐습니다.\n인생을 더 살면서 사소해 보이는 작은 약속을 잘 지키는 것이 얼마나 중요한지 깨닫게 되었습니다.\n어쩌면 아내의 이런 모습들이 저에게 좋은 영향을 끼친 것 아닐까?\n그럼에도 불구하고 최근 몇 년 간 약속 시간에 늦은 적이 몇 번 있음을 고백합니다.\n다시 회사에 간다면 걱정되는 한 가지는 바로 이 출근 시간입니다.\n한 편으로 몇 년 동안 한 번도 지각하지 않던 동료들도 떠오릅니다.\n\n함께 읽으면 좋은 글:\n가장 행복했던 출근길\n출근길의 강제 독서",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/03/06/time-to-work.html",
-    "pubDate": "2025-03-06T02:54:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "Try The New Toolbox App 2.6 EAP With Remote Development Support",
     "description": "With the latest update, the Toolbox App now supports remote development, allowing you to manage your JetBrains tools and projects both locally and on remote servers. This allows you to connect to cross-platform hosts, including Windows, macOS, and Linux, and use integrated OpenSSH for secure and customizable SSH connections. You can download the latest Toolbox […]",
@@ -162,36 +125,85 @@
     ]
   },
   {
-    "id": 12,
+    "id": 10,
     "imageUrl": "",
-    "title": "Visual Studio 17.12의 디버거 및 진단 업데이트",
+    "title": "Visual Studio v17.12 로 생산성을 높이기",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/VS_20250309/",
-    "pubDate": "Sun, 09 Mar 2025 00:00:00 +0900",
+    "link": "https://jacking75.github.io/VS_20250307/",
+    "pubDate": "Fri, 07 Mar 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 13,
+    "id": 11,
     "imageUrl": "",
-    "title": "AI Assistant Comes to Kotlin Developers in Android Studio",
-    "description": "Kotlin developers can now enhance their workflows in Android Studio with the new JetBrains AI Assistant plugin, which is now available in Beta. This plugin offers AI-powered coding assistance, including code suggestions, AI-driven explanations, refactorings, commit message generation, and more – all within Android Studio. Backed by large language models (LLMs) from both JetBrains and […]",
+    "title": "악순환에 빠지는 해커 이야기",
+    "description": "영상: https://www.youtube.com/watch?v=CILzHb_-ijc\n\n\n\n \n1. 컴터를 잘함\n2. 중졸이라 취업이 안됨 / 고등학교 자퇴\n3. 해킹을 함\n4. 잡혀감\n5. 잡혀간 경력때문에 취업이 더 안됨\n5. 또 해킹을 함\n...\n뭔가 슬프다",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/03/ai-assistant-comes-to-kotlin-developers-in-android-studio/",
-    "pubDate": "Mon, 10 Mar 2025 14:34:32 +0000",
-    "creator": "Anna Maltseva",
+    "link": "http://serverdown.tistory.com/1180",
+    "pubDate": "Tue, 11 Mar 2025 00:49:10 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "ai-assistant",
-      "android-studio",
-      "jetbrains-ai",
-      "kotlin"
+      "유튜브"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "미국주식 2025-03-12 현재 상황",
+    "description": "영상: https://www.youtube.com/watch?v=zkWobeFLAD4&t=307s\n\n\n\n미국채 금리를 4% 이하려 떨어드려야 주가 부양이 가능한거 같습니다.\n트럼프는 작정하고 침체를 만들어 국채 이자를 떨어트릴 생각입니다.\n미국채 투자를 고려해 봐야겠군요\n \n트럼프의 이 고집은 길면 6월까지 지속될 가능성이 있습니다.\n \n변곡점 예상\n3월 14일 부채 한도 협상\n4월 2일 관세 적용\n5월 fomc 금리 인하\n6월 fomc 금리 인하\n이벤트에 중에 하락이 끝날 가능성이 있어 보입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1182",
+    "pubDate": "Tue, 11 Mar 2025 14:01:40 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "투자"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "죄도 병으로 만들면 된다. / 도벽증 / 둔주 해리성 기억장애",
+    "description": "영상: https://www.youtube.com/watch?v=dmVYhc_w_ew\n\n\n\n어느시대엔 죄가 되고 어느 시대엔 죄가 안되고\n미국도 한때 천달라 이하의 절도는 죄가 안되는 벙이 있었고\n한국은 군대에 가지 않기 위해 장애 판정을 받기도 했습니다.\n돈이 있는 사람에게는 죄도 죄가 아니게 할 수 있었던 적도 있었습니다.\n시대의 흐름을 안보고 관념에 사로잡혀있으면 안된다는 것을 말하고 싶었습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1176",
+    "pubDate": "Sun, 9 Mar 2025 14:29:26 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "시대"
     ]
   },
   {
     "id": 14,
+    "imageUrl": "",
+    "title": "노트북 배터리가 빨리 닳는 이유? 절전 모드 때문일 수도",
+    "description": "윈도우 PC에서 '절전 모드'를 자주 사용하면 성능 저하, 배터리 문제, 하드웨어 부담 등의 문제가 발생할 수 있습니다. 절전 모드 대신 '완전 종료'나 '최대 절전 모드'를 활용하는 것이 더 나은 선택일 수 있습니다.\n\n\n \n\"PC를 켤 때 기다리는 게 싫어서 절전 모드를 자주 사용했는데, 오히려 성능이 나빠지는 느낌이에요.\" 이런 경험 있으신가요? 저도 한때는 절전 모드가 편리하다고 생각했어요. 하지만 사용하면 할수록 PC가 느려지고, 배터리도 예상보다 빨리 닳는 걸 깨닫고 나서 완전히 생각을 바꿨죠.\n \n윈도우의 절전 모드는 겉보기엔 편리하지만, 장기적으로 보면 여러 가지 문제가 생길 수 있습니다. 성능 저하, 배터리 소모, 시스템 충돌 등 다양한 이유로 저는 절전 모드를 피하는 편이에요. 그렇다면, 왜 절전 모드가 문제가 될까요? 그리고 대안은 무엇일까요?\n \n  최신 PC는 부팅 속도가 빠르다\n예전에는 PC를 완전히 종료하면 다시 켤 때 시간이 오래 걸렸어요. 하지만 요즘은 SSD가 대중화되면서 부팅 속도가 크게 개선됐습니다.\n \nSSD를 사용하면 부팅 시간이 평균 10초 내외로 줄어들어요. 게다가 윈도우의 '빠른 시작(Fast Startup)' 기능을 활성화하면 더욱 빠르게 사용할 수 있죠. 절전 모드를 쓰지 않아도 충분히 빠른 부팅이 가능하니, 굳이 사용할 이유가 적어집니다.\n \n⚠️ 절전 모드가 성능 저하를 유발할 수 있다\n절전 모드는 PC를 완전히 끄는 것이 아니라, 메모리에 현재 상태를 저장한 채 최소한의 전력을 유지하는 방식이에요. 그래서 계속 절전 모드만 반복해서 사용하면 시스템 메모리가 점점 쌓이고, 백그라운드에서 실행되는 프로그램이 많아져 PC 속도가 느려질 수 있어요.\n \n특히, 윈도우 업데이트 같은 중요한 작업은 시스템이 완전히 종료될 때 진행되는 경우가 많아서, 절전 모드를 너무 자주 사용하면 업데이트가 원활하게 이루어지지 않을 수도 있습니다.\n \n  배터리가 예상보다 빨리 닳는다\n\"노트북을 절전 모드로 두고 가방에 넣었는데, 몇 시간 후에 보니 배터리가 절반 이상 닳아 있었어요.\" 이런 경험 해보신 적 있나요?\n \n절전 모드는 전력을 완전히 차단하는 것이 아니라, 메모리를 유지하기 위해 계속 전력을 소비해요. 특히 'Modern Standby' 기능이 활성화된 상태에서는 네트워크 연결을 유지하면서도 절전 모드가 지속되기 때문에 배터리 소모가 심해질 수 있습니다.\n \n  시스템 프로세스가 중단될 가능성이 있다\n컴퓨터를 완전히 종료하면 실행 중인 프로세스들이 정상적으로 종료되지만, 절전 모드에서는 그렇지 않습니다. 작업 중이던 프로그램이 강제로 중단되면서 오류가 발생할 가능성이 높아지는 거죠.\n특히, 포토샵이나 프리미어 프로 같은 전문 소프트웨어를 사용하는 경우, 절전 모드를 반복하면 프로젝트 파일이 손상될 수도 있어요. 이런 프로그램을 사용한다면 절전 모드보다는 완전 종료 또는 최대 절전 모드를 사용하는 것이 더 안전합니다.\n \n  하드웨어 부담과 비정상적인 작동\n절전 모드를 지속적으로 사용하면 하드웨어에도 부담이 갈 수 있어요. 예를 들어, 노트북을 절전 모드 상태로 가방에 넣어두면 내부적으로 열이 발생하면서 장기적으로 부품에 영향을 줄 수 있습니다.\n또한, 배터리는 충전과 방전을 반복할수록 수명이 줄어드는데, 절전 모드를 자주 사용하면 배터리가 지속적으로 활성화된 상태가 되어 수명 감소가 빨라질 수 있어요.\n \n✅ 절전 모드 대신 사용할 수 있는 대안\n절전 모드를 꼭 사용해야 할까요? 더 좋은 방법이 있습니다.\n \n1️⃣ 완전 종료(Shut Down)\nPC를 장시간 사용하지 않을 때는 완전히 종료하는 것이 가장 깔끔한 방법이에요. 이렇게 하면 시스템이 완전히 리셋되면서 불필요한 프로세스가 종료되고, 성능이 최적화됩니다.\n \n2️⃣ 최대 절전 모드(Hibernate)\n노트북을 잠시 닫아야 하지만 배터리를 아끼고 싶다면, 최대 절전 모드를 활용해 보세요. 이 모드는 현재 작업 상태를 저장한 후 PC를 완전히 꺼버리기 때문에 전력 소모가 없습니다. 그리고 다시 켜면 원래 작업하던 상태로 바로 돌아올 수 있어요.\n \n3️⃣ 빠른 시작(Fast Startup) 활성화\n윈도우의 빠른 시작 기능을 활성화하면 부팅 속도를 더 빠르게 할 수 있어요. 설정 방법은 다음과 같습니다.\n\n\n\n제어판(Control Panel) > 전원 옵션(Power Options)으로 이동\n왼쪽 메뉴에서 전원 버튼 작동 설정(Choose what the power button does) 선택\n빠른 시작 켜기(Turn on fast startup) 옵션 활성화 후 저장\n이 기능을 활용하면 절전 모드를 사용하지 않아도 빠르게 PC를 켤 수 있습니다.\n \n✍️ 결론\n절전 모드는 편리한 기능이지만, 장기적으로 보면 성능 저하, 배터리 소모, 하드웨어 부담 등의 문제가 발생할 수 있습니다. 그래서 저는 절전 모드를 거의 사용하지 않고, 대신 완전 종료, 최대 절전 모드, 빠른 시작 기능을 활용하고 있어요.\n여러분도 혹시 절전 모드 때문에 불편을 겪고 계신가요? 그렇다면 오늘부터라도 더 효율적인 방법을 사용해 보세요!  \n  Q&A\n1. 절전 모드를 사용하면 배터리가 빨리 닳는 이유는?\n절전 모드에서도 메모리를 유지하기 위해 일정량의 전력을 계속 사용하기 때문입니다. 특히 최신 윈도우 노트북은 네트워크 연결까지 유지하려고 하면서 배터리 소모가 더 심해질 수 있습니다.\n2. 절전 모드 대신 가장 좋은 대안은?\nPC를 완전히 종료하는 것이 가장 좋습니다. 하지만 작업 상태를 유지해야 한다면 '최대 절전 모드'를 사용하는 것이 절전 모드보다 훨씬 효과적입니다.\n3. 절전 모드를 계속 사용하면 성능이 저하될 수 있나요?\n네, 절전 모드를 반복 사용하면 시스템 메모리가 점점 쌓이고, 백그라운드 프로세스가 제대로 종료되지 않아 PC가 느려질 수 있습니다.\n4. 빠른 시작(Fast Startup) 기능을 활성화하면 절전 모드가 필요 없을까요?\n네, 빠른 시작 기능을 켜면 부팅 속도가 절전 모드에서 깨어나는 것과 거의 비슷한 수준으로 빨라지므로 절전 모드를 굳이 사용할 필요가 없습니다.\n5. 노트북을 이동할 때 어떤 전원 옵션을 사용하는 것이 좋을까요?\n가방에 넣고 이동할 때는 반드시 '완전 종료'나 '최대 절전 모드'를 사용하는 것이 좋습니다. 절전 모드를 사용하면 내부 발열이 발생할 수 있어요.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"절전 모드를 사용하면 배터리가 빨리 닳는 이유는?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"절전 모드에서도 메모리를 유지하기 위해 일정량의 전력을 계속 사용하기 때문입니다. 특히 최신 윈도우 노트북은 네트워크 연결까지 유지하려고 하면서 배터리 소모가 더 심해질 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"절전 모드 대신 가장 좋은 대안은?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"PC를 완전히 종료하는 것이 가장 좋습니다. 하지만 작업 상태를 유지해야 한다면 '최대 절전 모드'를 사용하는 것이 절전 모드보다 훨씬 효과적입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"절전 모드를 계속 사용하면 성능이 저하될 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 절전 모드를 반복 사용하면 시스템 메모리가 점점 쌓이고, 백그라운드 프로세스가 제대로 종료되지 않아 PC가 느려질 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"빠른 시작(Fast Startup) 기능을 활성화하면 절전 모드가 필요 없을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 빠른 시작 기능을 켜면 부팅 속도가 절전 모드에서 깨어나는 것과 거의 비슷한 수준으로 빨라지므로 절전 모드를 굳이 사용할 필요가 없습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"노트북을 이동할 때 어떤 전원 옵션을 사용하는 것이 좋을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"가방에 넣고 이동할 때는 반드시 '완전 종료'나 '최대 절전 모드'를 사용하는 것이 좋습니다. 절전 모드를 사용하면 내부 발열이 발생할 수 있어요.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483551",
+    "pubDate": "Mon, 10 Mar 2025 15:43:41 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "윈도우 사용팁/윈도우11 사용법",
+      "노트북 배터리 관리",
+      "노트북 전원 관리",
+      "배터리 절약",
+      "빠른 시작",
+      "시스템 종료",
+      "윈도우 부팅 속도",
+      "윈도우 절전 모드",
+      "절전 모드 단점",
+      "절전 모드 성능 저하",
+      "최대 절전 모드"
+    ]
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "대출 이자 줄이는 3가지 방법",
     "description": "금리인하요구권부터 대환대출까지 개념 정리",
@@ -199,18 +211,6 @@
     "syllabus": [],
     "link": "https://blog.toss.im/article/loan-101-interest-rate",
     "pubDate": "Fri, 07 Mar 2025 01:03:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "토스페이 3월 할인 이벤트와 쿠폰 혜택 총정리",
-    "description": "지그재그, GS25, 알리익스프레스 할인·적립 쿠폰까지, 토스페이 2025년 3월 혜택 확인하기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/tosspay-2025-03",
-    "pubDate": "Wed, 05 Mar 2025 01:11:00 GMT",
     "creator": "Unknown",
     "categories": []
   }
