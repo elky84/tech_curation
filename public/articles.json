@@ -2,85 +2,26 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "토스플레이스, ISO 정보보호 국제표준 인증 2건 동시 획득",
-    "description": "자체 취득으로 뛰어난 정보보호 및 보안 수준 입증",
+    "title": "Livestream: Essential Tools for JetBrains IDE Plugin Development",
+    "description": "On Wednesday, March 26, at 2:00 PM UTC, join us for an insightful session on the top tools every plugin developer should know. IntelliJ Platform Developer Advocates Yann Cébron and Jakub Chrzanowski will walk you through essential utilities that streamline plugin development for JetBrains IDEs. During the webinar, you will discover how: No matter your […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/tossplaceISO",
-    "pubDate": "Wed, 12 Mar 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/platform/2025/03/livestream-essential-tools-for-jetbrains-ide-plugin-developmentlivestream/",
+    "pubDate": "Mon, 10 Mar 2025 16:52:03 +0000",
+    "creator": "Elena Kerpeleva",
+    "categories": [
+      "plugin-development",
+      "intellij",
+      "livestreams",
+      "marketplace",
+      "news",
+      "busy-plugin-developers",
+      "jetbrains-marketplace",
+      "livestream"
+    ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "New, Simpler Solution File Format",
-    "description": "For years, you’ve worked with Visual Studio’s solution file (*.SLN) format, and while it’s a core part of your project organization, we know the experience hasn’t always been smooth. Whether you’ve been modifying, maintaining, or trying to resolve merge conflicts, it’s often felt more like a hassle than it should be. We understand your frustrations, […]\nThe post New, Simpler Solution File Format appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/new-simpler-solution-file-format/",
-    "pubDate": "Thu, 13 Mar 2025 17:30:38 +0000",
-    "creator": "Nayana Srikanth",
-    "categories": [
-      "Productivity",
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "1인개발자 개인사업자 등록에서 앱 출시까지 03 / 구글 플레이 스토어 - 프로덕션 진행",
-    "description": "이전글에서 프로덕션 까지 올렸는데 출시는 안되는 상태이구요\n기다리는 동안 메뉴를 살펴보는 중입니다. \n상황마다 UI 가 달라서 스샷도 좀 찍구요\n \n프로덕션 현재 상황\n\n\n출시되면 모니터링 하라는 거 같군요 [출시] 탭으로가면 \n\n\n5 (5) 출시 누른걸 알 수 있습니다. \n버전 밑에 [임시] 라고 적혀있는 부분이 좀 걸리네요 일단 기다리는 중이구요\n6 (6) 공개 테스트 진행중이라 어떻게 바뀌는지 주시 중입니다.\n \n6 (6) 진행 완료후\n\n\n5 (5) 는 사라졌군요\n이로서 준비중인것과 진행중인것이 함깨 표시되는 것을 확인했습니다.\nUI 이해하기 너무 어렵네요\n이제 공개 테스트 빌드를 프로덕션으로 옮겨보겠습니다.\n우측에 [버전 승급] 매뉴가 있습니다.\n\n\n그런데 ... 꺼져있군요 물음표에 마우스를 올리면 이유를 알려줍니다.\n트랙에 이미 임시 버전이 있음\n이라고 하네요\n프로덕션으로 가보겠습니다.\n어제 올린게 올라간게 아닌가 봅니다.\n\n\n임시 이거 진행안되거 있다는 표시 인가 봅니다.\n버전 수정 누룹니다.\n\n\n어차피 구버전이라 버전 삭제 하고 6 (6) 으로 다시 진행해보겠습니다.\n우측 상단에 [임시 출시 삭제] 눌러줍니다.\n\n\n공개 테스트로 가서 버전 승급 시켜보겠습니다.\n이제는 누를 수 있군요\n\n\n공개 테스트 진행한거라 하단에 바로 [다음] 누를 수 있군요\n\n\n저장 눌러보겠습니다.\n\n\n프로덕션 제출 하나 봅니다. \n버전 확인하구요\n[변경 사항 저장] 을 하겠습니다.\n\n\n관리형 게시가 아니라 바로 게시 된다다고 하네요\n아직은 관리형 게시를 켜지 않았습니다.\n계속 진행합니다.\n\n\n게시 개요 보시면 출시 진행중이라는 글자가보입니다.\n문제가 없다면 출시는 이걸로 마무리 되겠군요\n출시를 해야 ADMOB 과 애널리틱스 기능을 확인해볼 수 있어서 날림으로 진행해봤습니다.\n하루 기다렸는데 출시를 안하고 있었다니 충격이군요\nUI 정말 이상합니다.\n앱 출시 후\n게시 개요 로가면 아무것도 없는 횡한 화면을 볼 수 있습니다.\n\n\n이 상태가 정상입니다\n출시 개요로 가면 프로덕션 정보가 있습니다.\n\n\n공개 테스트를 승급했지만 공개 테스트가 없어지진 않는군요.\n \n올라간 게임앱: https://play.google.com/store/apps/details?id=com.sidnft.add_force_1&hl=ko\n\n \nAdd Force 1 - Google Play 앱\n장애물은 힘차게 접근합니다.\nplay.google.com\n\n이번에 올린 것입니다.\n참고해주세요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1195",
-    "pubDate": "Fri, 14 Mar 2025 14:46:15 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "노트북 배터리가 빨리 닳는 이유? 절전 모드 때문일 수도",
-    "description": "윈도우 PC에서 '절전 모드'를 자주 사용하면 성능 저하, 배터리 문제, 하드웨어 부담 등의 문제가 발생할 수 있습니다. 절전 모드 대신 '완전 종료'나 '최대 절전 모드'를 활용하는 것이 더 나은 선택일 수 있습니다.\n\n\n \n\"PC를 켤 때 기다리는 게 싫어서 절전 모드를 자주 사용했는데, 오히려 성능이 나빠지는 느낌이에요.\" 이런 경험 있으신가요? 저도 한때는 절전 모드가 편리하다고 생각했어요. 하지만 사용하면 할수록 PC가 느려지고, 배터리도 예상보다 빨리 닳는 걸 깨닫고 나서 완전히 생각을 바꿨죠.\n \n윈도우의 절전 모드는 겉보기엔 편리하지만, 장기적으로 보면 여러 가지 문제가 생길 수 있습니다. 성능 저하, 배터리 소모, 시스템 충돌 등 다양한 이유로 저는 절전 모드를 피하는 편이에요. 그렇다면, 왜 절전 모드가 문제가 될까요? 그리고 대안은 무엇일까요?\n \n  최신 PC는 부팅 속도가 빠르다\n예전에는 PC를 완전히 종료하면 다시 켤 때 시간이 오래 걸렸어요. 하지만 요즘은 SSD가 대중화되면서 부팅 속도가 크게 개선됐습니다.\n \nSSD를 사용하면 부팅 시간이 평균 10초 내외로 줄어들어요. 게다가 윈도우의 '빠른 시작(Fast Startup)' 기능을 활성화하면 더욱 빠르게 사용할 수 있죠. 절전 모드를 쓰지 않아도 충분히 빠른 부팅이 가능하니, 굳이 사용할 이유가 적어집니다.\n \n⚠️ 절전 모드가 성능 저하를 유발할 수 있다\n절전 모드는 PC를 완전히 끄는 것이 아니라, 메모리에 현재 상태를 저장한 채 최소한의 전력을 유지하는 방식이에요. 그래서 계속 절전 모드만 반복해서 사용하면 시스템 메모리가 점점 쌓이고, 백그라운드에서 실행되는 프로그램이 많아져 PC 속도가 느려질 수 있어요.\n \n특히, 윈도우 업데이트 같은 중요한 작업은 시스템이 완전히 종료될 때 진행되는 경우가 많아서, 절전 모드를 너무 자주 사용하면 업데이트가 원활하게 이루어지지 않을 수도 있습니다.\n \n  배터리가 예상보다 빨리 닳는다\n\"노트북을 절전 모드로 두고 가방에 넣었는데, 몇 시간 후에 보니 배터리가 절반 이상 닳아 있었어요.\" 이런 경험 해보신 적 있나요?\n \n절전 모드는 전력을 완전히 차단하는 것이 아니라, 메모리를 유지하기 위해 계속 전력을 소비해요. 특히 'Modern Standby' 기능이 활성화된 상태에서는 네트워크 연결을 유지하면서도 절전 모드가 지속되기 때문에 배터리 소모가 심해질 수 있습니다.\n \n  시스템 프로세스가 중단될 가능성이 있다\n컴퓨터를 완전히 종료하면 실행 중인 프로세스들이 정상적으로 종료되지만, 절전 모드에서는 그렇지 않습니다. 작업 중이던 프로그램이 강제로 중단되면서 오류가 발생할 가능성이 높아지는 거죠.\n특히, 포토샵이나 프리미어 프로 같은 전문 소프트웨어를 사용하는 경우, 절전 모드를 반복하면 프로젝트 파일이 손상될 수도 있어요. 이런 프로그램을 사용한다면 절전 모드보다는 완전 종료 또는 최대 절전 모드를 사용하는 것이 더 안전합니다.\n \n  하드웨어 부담과 비정상적인 작동\n절전 모드를 지속적으로 사용하면 하드웨어에도 부담이 갈 수 있어요. 예를 들어, 노트북을 절전 모드 상태로 가방에 넣어두면 내부적으로 열이 발생하면서 장기적으로 부품에 영향을 줄 수 있습니다.\n또한, 배터리는 충전과 방전을 반복할수록 수명이 줄어드는데, 절전 모드를 자주 사용하면 배터리가 지속적으로 활성화된 상태가 되어 수명 감소가 빨라질 수 있어요.\n \n✅ 절전 모드 대신 사용할 수 있는 대안\n절전 모드를 꼭 사용해야 할까요? 더 좋은 방법이 있습니다.\n \n1️⃣ 완전 종료(Shut Down)\nPC를 장시간 사용하지 않을 때는 완전히 종료하는 것이 가장 깔끔한 방법이에요. 이렇게 하면 시스템이 완전히 리셋되면서 불필요한 프로세스가 종료되고, 성능이 최적화됩니다.\n \n2️⃣ 최대 절전 모드(Hibernate)\n노트북을 잠시 닫아야 하지만 배터리를 아끼고 싶다면, 최대 절전 모드를 활용해 보세요. 이 모드는 현재 작업 상태를 저장한 후 PC를 완전히 꺼버리기 때문에 전력 소모가 없습니다. 그리고 다시 켜면 원래 작업하던 상태로 바로 돌아올 수 있어요.\n \n3️⃣ 빠른 시작(Fast Startup) 활성화\n윈도우의 빠른 시작 기능을 활성화하면 부팅 속도를 더 빠르게 할 수 있어요. 설정 방법은 다음과 같습니다.\n\n\n\n제어판(Control Panel) > 전원 옵션(Power Options)으로 이동\n왼쪽 메뉴에서 전원 버튼 작동 설정(Choose what the power button does) 선택\n빠른 시작 켜기(Turn on fast startup) 옵션 활성화 후 저장\n이 기능을 활용하면 절전 모드를 사용하지 않아도 빠르게 PC를 켤 수 있습니다.\n \n✍️ 결론\n절전 모드는 편리한 기능이지만, 장기적으로 보면 성능 저하, 배터리 소모, 하드웨어 부담 등의 문제가 발생할 수 있습니다. 그래서 저는 절전 모드를 거의 사용하지 않고, 대신 완전 종료, 최대 절전 모드, 빠른 시작 기능을 활용하고 있어요.\n여러분도 혹시 절전 모드 때문에 불편을 겪고 계신가요? 그렇다면 오늘부터라도 더 효율적인 방법을 사용해 보세요!  \n  Q&A\n1. 절전 모드를 사용하면 배터리가 빨리 닳는 이유는?\n절전 모드에서도 메모리를 유지하기 위해 일정량의 전력을 계속 사용하기 때문입니다. 특히 최신 윈도우 노트북은 네트워크 연결까지 유지하려고 하면서 배터리 소모가 더 심해질 수 있습니다.\n2. 절전 모드 대신 가장 좋은 대안은?\nPC를 완전히 종료하는 것이 가장 좋습니다. 하지만 작업 상태를 유지해야 한다면 '최대 절전 모드'를 사용하는 것이 절전 모드보다 훨씬 효과적입니다.\n3. 절전 모드를 계속 사용하면 성능이 저하될 수 있나요?\n네, 절전 모드를 반복 사용하면 시스템 메모리가 점점 쌓이고, 백그라운드 프로세스가 제대로 종료되지 않아 PC가 느려질 수 있습니다.\n4. 빠른 시작(Fast Startup) 기능을 활성화하면 절전 모드가 필요 없을까요?\n네, 빠른 시작 기능을 켜면 부팅 속도가 절전 모드에서 깨어나는 것과 거의 비슷한 수준으로 빨라지므로 절전 모드를 굳이 사용할 필요가 없습니다.\n5. 노트북을 이동할 때 어떤 전원 옵션을 사용하는 것이 좋을까요?\n가방에 넣고 이동할 때는 반드시 '완전 종료'나 '최대 절전 모드'를 사용하는 것이 좋습니다. 절전 모드를 사용하면 내부 발열이 발생할 수 있어요.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"절전 모드를 사용하면 배터리가 빨리 닳는 이유는?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"절전 모드에서도 메모리를 유지하기 위해 일정량의 전력을 계속 사용하기 때문입니다. 특히 최신 윈도우 노트북은 네트워크 연결까지 유지하려고 하면서 배터리 소모가 더 심해질 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"절전 모드 대신 가장 좋은 대안은?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"PC를 완전히 종료하는 것이 가장 좋습니다. 하지만 작업 상태를 유지해야 한다면 '최대 절전 모드'를 사용하는 것이 절전 모드보다 훨씬 효과적입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"절전 모드를 계속 사용하면 성능이 저하될 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 절전 모드를 반복 사용하면 시스템 메모리가 점점 쌓이고, 백그라운드 프로세스가 제대로 종료되지 않아 PC가 느려질 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"빠른 시작(Fast Startup) 기능을 활성화하면 절전 모드가 필요 없을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 빠른 시작 기능을 켜면 부팅 속도가 절전 모드에서 깨어나는 것과 거의 비슷한 수준으로 빨라지므로 절전 모드를 굳이 사용할 필요가 없습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"노트북을 이동할 때 어떤 전원 옵션을 사용하는 것이 좋을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"가방에 넣고 이동할 때는 반드시 '완전 종료'나 '최대 절전 모드'를 사용하는 것이 좋습니다. 절전 모드를 사용하면 내부 발열이 발생할 수 있어요.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483551",
-    "pubDate": "Mon, 10 Mar 2025 15:43:41 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "윈도우 사용팁/윈도우11 사용법",
-      "노트북 배터리 관리",
-      "노트북 전원 관리",
-      "배터리 절약",
-      "빠른 시작",
-      "시스템 종료",
-      "윈도우 부팅 속도",
-      "윈도우 절전 모드",
-      "절전 모드 단점",
-      "절전 모드 성능 저하",
-      "최대 절전 모드"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "JetBrains Xdebug Helper Browser Extension",
-    "description": "For years, PHP developers have relied on the popular Xdebug Helper Chrome extension to simplify their debugging experience with Xdebug. Unfortunately, this extension may soon no longer be supported, potentially disrupting developers’ workflows. To ensure that PHP developers can continue debugging without interruptions, we’re collaborating with Fraser Chapman on the official Xdebug Helper extension for […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/03/jetbrains-xdebug-helper/",
-    "pubDate": "Fri, 14 Mar 2025 09:11:15 +0000",
-    "creator": "Tania Goral",
-    "categories": [
-      "news",
-      "xdebug"
-    ]
-  },
-  {
-    "id": 6,
     "imageUrl": "",
     "title": "Visual Studio at GDC 2025",
     "description": "Join us in-person at Game Developers Conference 2025 with an in-depth look at how Visual Studio and GitHub Copilot can streamline your iteration workflow. Don’t miss the unveiling of our biggest C++ debugger update yet. Session Title: Accelerating Your Inner Loop with Visual Studio and GitHub Copilot Session Info: March 19th, 2025, 12:30 PM-1:30 PM Pacific Time | […]\nThe post Visual Studio at GDC 2025 appeared first on C++ Team Blog.",
@@ -95,50 +36,93 @@
     ]
   },
   {
-    "id": 7,
+    "id": 3,
     "imageUrl": "",
-    "title": "GPT-4o Copilot code completion model available now in Visual Studio public preview",
-    "description": "We are excited to announce that the new GPT-4o Copilot code completion model is now available for GitHub Copilot users in Visual Studio starting in 17.14 Preview 2! This new model, based on GPT-4o mini, has undergone additional training on over 275,000 high-quality public repositories across more than 30 popular programming languages. As a result, […]\nThe post GPT-4o Copilot code completion model available now in Visual Studio public preview appeared first on Visual Studio Blog.",
+    "title": "정령섬 플레이!!",
+    "description": "오프라인으로는 안해본 천둥으로 말하는자를 선택하였고 가지와 발톱 확장을 넣고 진행하였다. 능령은 다한을 이끌고 현신이 함께 이동하는 능력을 가지고 있다. 다한에게 능력을 부여하여 사기를 올려 싸우는 컨셉의 정령. 정복단계에 다한이 공격을 받고 살아남은 정령만 반격하는데 방어를 부여하고 함께 반격하는 카드를 잘사용했다. 도색된 다한으로 테마 맵으로 플레이하니 칙칙하지 않아서 좋았다. 오염이 쌓여 오염된 섬으로 뒤집어졌지만 오염이 떨어지기 전에 클리어 하였다. 클리어시 내 덱은 이상태였다. 햇빛의 날개를 두르다가 다한을 옴겨와 잘써먹었다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/gpt-4o-copilot-code-completion-model-available-now-in-visual-studio-public-preview/",
-    "pubDate": "Tue, 11 Mar 2025 15:00:21 +0000",
-    "creator": "Simona Liao",
+    "link": "https://blog.naver.com/dlehddus84/223797537571?fromRss=true&trackingCode=rss",
+    "pubDate": "Sun, 16 Mar 2025 00:27:28 +0900",
+    "creator": "dlehddus84",
     "categories": [
-      "Artificial Intelligence",
-      "Copilot",
-      "GitHub Copilot",
-      "Productivity",
-      "Visual Studio",
-      "GitHub Copilot Completions"
+      "플레이"
     ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "New, Simpler Solution File Format",
+    "description": "For years, you’ve worked with Visual Studio’s solution file (*.SLN) format, and while it’s a core part of your project organization, we know the experience hasn’t always been smooth. Whether you’ve been modifying, maintaining, or trying to resolve merge conflicts, it’s often felt more like a hassle than it should be. We understand your frustrations, […]\nThe post New, Simpler Solution File Format appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/new-simpler-solution-file-format/",
+    "pubDate": "Thu, 13 Mar 2025 17:30:38 +0000",
+    "creator": "Nayana Srikanth",
+    "categories": [
+      "Productivity",
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "유저 리서치",
+    "description": "요즘 하드씽이란 책을 아주 재밌게 보고 있다.\n밑줄 칠 내용이 너무 많지만, 고객 니즈란 측면에서 저자인 벤 호로위츠의 경험과 생각이 와닿았다.\n제품 개발 프로세스가 기존 고객들이 제시한 수많은 요구사항에 짓눌려 갈피를 잡지 못하고 있었다.\n...\n결국 제품 개발 전략에서 핵심이 되는 포인트는 이것이었다.\n바로 최고의 제품을 구현할 방법을 찾아내는 일은 고객이 아니라 개발자의 몫이라는 것.\n고객은 기존 제품에 대한 경험에 비춰봤을 때 자신이 원한다고 생각하는 것만 알고 있을 뿐이다.\n혁신을 추구하는 개발자는 가능한 모든 요소를 고려할 수는 있지만 종종 '고객 요구에 부합된다고' 여겨지는 것과 반대 방향으로 나가야 한다.\n결국 혁신에는 지식과 기술과 용기가 모두 필요하다.\n그리고 때로는 회사의 설립자만이 데이터를 무시할 용기를 발휘할 수 있다.\n우리에겐 시간이 별로 없었고, 따라서 내가 나서야 했다.\n\"기존 고객들의 요구사항은 신경 쓸 필요 없습니다.\n제품을 혁신해 재창조하는 것이, 그래서 우리가 경쟁에서 이기는 것이 더 중요합니다\"\n이 내용과 유사하게 하버드 비즈니스 리뷰에 실린 Walter Isaacson의 The Real Leadership Lessons of Steve Jobs 에도 있었다.\nWalter Isaacson 이 경험한 스티브 잡스의 리더십에 대한 이야기인데, 그 중 아래와 같은 내용이 있다.\n[Don’t Be a Slave To Focus Groups]\n잡스가 최초의 매킨토시팀과 함께한 첫 번째 아이디어 워크숍 자리에서 한 팀원이 고객이 무엇을 원하는지 파악하기 위해 시장조사를 해야 하는지 물었다.\n잡스는 “그럴 필요가 없다”며 “고객은 우리가 무언가를 보여주기 전까지는 자신이 무엇을 원하는지 전혀 모른다”고 설명했다.\n잡스는 헨리 포드의 말을 인용했다.\n“내가 고객들에게 무엇을 원하느냐고 물었다면 ‘좀 더 빠른 말!’이라 답했겠지.”\n고객이 무엇을 원하든지 관심을 갖고 있다고 해서 고객에게 무엇을 원하는지 끊임없이 질문을 던져야 하는 것은 아니다.\n아직 형성되지 않은 고객의 욕구에 대한 직관과 직감이 필요할 뿐이다.\n잡스는 “우리가 해야 할 일은 아직 종이에 인쇄되지 않은 무언가를 읽어내는 것”이라고 설명했다.\n잡스는 시장조사에 의존하기보다 특유의 공감능력(고객이 갖고 있는 욕구를 꿰뚫어보는 직관)을 키웠다.\n잡스는 대학을 중퇴한 후 인도에서 불교를 공부하면서 직관(경험을 통해 누적된 지혜를 토대로 하는 느낌)의 중요성을 깨달았다고 한다.\n잡스는 당시를 회상하며 다음과 같이 이야기했다.\n“인도 시골 지역에 거주하는 사람들은 우리처럼 지적 능력을 사용하지 않는다. 대신 그 사람들은 직관을 활용한다. 직관은 매우 강력한 힘을 갖고 있다. 나는 직관이 지적 능력보다 더욱 강력한 힘을 갖고 있다고 생각한다.”\n직관을 중요하게 여긴 탓에 잡스는 단 1명으로 이뤄진 포커스 그룹을 활용하기도 했다.\n그 1명은 다름 아닌 스티브 잡스 자신이었다.\n잡스는 자신과 친구들이 원하는 제품을 만들었다.\n2000년대에 다양한 휴대용 음악 기기가 시중에 유통됐지만 음악을 무척 좋아했던 잡스는 시중에 나와 있는 기기들이 하나같이 변변치 않다는 데 불만을 느꼈고 주머니에 수천 곡의 노래를 넣고 다닐 수 있을 만한 단순한 기기를 만들어야겠다고 생각했다.\n“우리 자신을 위해서 아이팟을 만들었다. 사람들은 자기 자신이나 절친한 친구, 가족을 위해서 무언가를 만들 때 결코 허술한 결과물을 내놓지 않는다.”\n이 외에도 쿠팡의 이야기를 담은 다이브 딥에서도 역시 동일한 이야기를 한다.\n쿠팡은 2013년 리서치를 할 때 \"하루만에 배송되면 좋겠습니까?\"라는 질문을 했다.\n조사결과, 하루만에 배송되는 것에 대한 니즈는 없었다.\n하지만 로켓배송은 혁신적이었으며, 모든 사람들의 만족을 이끌어냈다.\n이것이 시사하는 바는 '고객 스스로도 본인의 니즈를 모른다는 것'이다.\n쿠팡은 대부분의 기업처럼 사용자 테스트의 일환으로 설문조사를 수시로 진행했는데, '빠르고 친절한 익일배송을 보장할 경우 쿠팡을 더 많이 이용할 것이냐' 는 질문을 해보면 뜻밖에도 대부분이 아니라고 응답했다.\n고객들은 빠른 배송보다는 차라리 저렴한 가격을 더 선호한다고 응답했다.\n배송 같은건 그들의 중요한 관심사에 들지도 않았다.\n...\n쿠팡에는 <밀크셰이크 이야기>를 누구나 안다.\n...\n한 컨설턴트가 밀크셰이크 업체를 컨설팅 하기 위해 18시간을 매장에 머물면서 고객을 관찰했다.\n그 결과 오전 6~8시 30분 출근길에 밀크셰이크를 포장해 가는 이들이 많다는 걸 알게 됐다.\n컨설턴트는 오전 일찍 밀크셰이크를 사가는 구매자들을 인터뷰했고 이들 대부분이 러시아워의 지루한 출근길을 운전하며 아침 대용으로 밀크셰이크를 먹는 직장인들이란 사실을 알게 됐다.\n고객들은 설문에 응할 때마다 그들이 원하는 맛, 향, 질감에 대해 잘 안다고 생각했지만 사실은 그렇지 않았다.\n패스트푸드점은 고객 설문 대신 컨설턴트의 분석을 바탕으로 출근길 아침 대용으로 즐기기에 적합한 형태의 제품을 만들도록 제안했고 그 결과는 매출 상승으로 이어졌다.\n무엇보다 밀크셰이크가 디저트가 아니라 아침 대용식에 포함될 경우 시장 규모는 기존 추정보다 7배나 커질 수 있었다.\n...\n고객은 혁신을 리드할 수 없었다.\n...\n쿠팡 역시 빠른 배송보다 저렴한 가격이 낫다는 기존 소비자들의 말에 의존했다면 로켓배송과 같은 혁신을 만들어 낼 수 없었을 것이다.\n정말 많은 인터넷 아티클에서 고객의 목소리에 집중하라고 한다.\n헌데, 성공한 회사들의 전기에서는 대부분 새로운 서비스와 기능, 혁신에 관해서는 본인들의 직관을 믿으라고 한다.\n예전부터 이것 관련해서 고민이 많아서 성공한 회사들의 이야기를 정말 많이 찾아봤다.\n실제로 결과를 보고 싶어 여러가지 일들을 진행하고 그에 대한 결과를 2~4년씩 지켜봤다.\n현재까지 내린 결론은,\n새로운 기능, 완전한 개편에 대해서는 직관을 따라간다.\n\n의견이 갈릴 때는 해당 프로젝트의 최종 결정권자가 결정한다.\n기존 기능의 불편함을 개선하는 것은 고객의 목소리에 집중한다.\n\"어떤 기능이 필요하세요?\", \"이런 기능이 나오면 쓰실 것 같으세요?\", \"이런 컨텐츠가 있으면 재밌으실 것 같으세요?\" 같이 아무런 실체가 없는 것에 관한 질문으로는 절대 유의미한 의견을 받을 수 없다.\n오징어 게임을 만들때 넷플릭스나 황동혁 감독님이 관객들에게 이런 영화가 있으면 재밌을 것 같냐고 물어보진 않았을 것이다.\n무슨 기능이든 고객이 보고, 사용해본 뒤 \"그 기능을 왜 안쓰세요? 왜 그 기능을 쓰세요?\" 와 같이 고객이 실체를 확인하고, 어떤 선택을 내린 뒤에 한 질문이 효과적이다.\n그래야만 본인이 원했던 것이 무엇이였는지 알 수 있다.\n눈에 보이지 않고, 텍스트로만 설명하는 상상의 기능과 혁신은 절대 정확하게 의견을 내리기 어렵다.\n고객분들의 의견은 실제로 해당 기능이 눈 앞에 보이고 그걸 써보고 난 뒤에야 유의미한 의견을 줄 수 있다.\n고객 설문, 유저 리서치는 실체가 있는 것에 대한 것을 물어보는 것이 효과적이다.\n기존에 없던 기능, 혁신에 관한 내용은 고객에게 묻지말고 본인의, 팀의 직관을 믿는 것이 좋다.\n결국 고객 설문, 유저 리서치는 이미 출시한 기능, 이미 사용중인 기능 등 실체가 있는 것에 대한 것을 물어보는 것이 효과적이며.\n기존에 없던 기능, 혁신에 관한 내용은 고객에게 묻지 말고 본인의, 팀의 직관을 믿는 것이 좋다는 결론을 내렸다.\n이 2개를 분리하는 것이 정말 중요하다고 생각한다.\n우리의 직관을 어떻게 하면 더 개선할 수 있을지,\n어떻게 하면 우리가 우리 서비스의 최고 고객이 될 수 있을지를 계속해서 고민하고 훈련하는 것이 좋은 제품을 만드는데 있어 가장 중요하니, 이에 대해 더 자주 고민하고 이야기하는 팀이 되면 좋겠다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://jojoldu.tistory.com/821",
+    "pubDate": "Sun, 16 Mar 2025 00:27:04 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "고객 설문",
+      "스티브 잡스",
+      "애플",
+      "유저 리서치",
+      "제품 방향성",
+      "쿠팡",
+      "하드씽"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Google Gemini 2025 업데이트 - 딥 리서치, 맞춤 AI &lsquo;Gems&rsquo; 등장!",
+    "description": "Google의 Gemini 앱이 또 한 번 진화했어요!   딥 리서치 기능이 강화되고, 나만의 AI ‘Gems’를 만들어 원하는 업무를 더 쉽게 처리할 수 있게 됐어요. 이제 Google 앱과도 연동되어 더욱 개인화된 AI 경험이 가능해졌다고 하는데요. 어떤 변화가 있는지 살펴볼까요?\n\n\n \nAI 비서가 여기까지? Google Gemini 2025년 3월 대규모 업데이트\nAI 기술이 점점 더 우리 생활 속으로 들어오고 있어요. 단순히 질문에 답하는 챗봇을 넘어, 이제는 개인 맞춤형 비서 역할까지 수행할 수 있게 됐죠. Google의 Gemini가 그 대표적인 예인데요. 이번 3월 업데이트를 통해 더 똑똑해진 연구 기능, Google 앱과의 강력한 연동, 그리고 나만의 AI 설정이 가능한 ‘Gems’ 기능이 추가됐어요.\n \n저도 직접 사용해보면서 “이제는 정말 AI가 내 일을 대신해 주는구나”라고 느꼈는데요. 이번 업데이트에서 가장 주목할 만한 변화를 하나씩 살펴볼게요.\n \n  연구를 대신해 주는 ‘딥 리서치(Deep Research)’\n요즘 자료 조사할 일이 많아서 AI를 적극 활용하는데요. 이번에 Gemini에서 강화된 딥 리서치(Deep Research) 기능이 진짜 유용하더라고요.\n\n\n \n✅ 웹에서 정보를 자동으로 수집 & 정리\n✅ 논리적인 단계별 분석으로 복잡한 문제 해결\n✅ 연구 보고서를 다중 페이지로 생성해 더 정리된 결과 제공\n \n예를 들어, 논문을 준비할 때 관련 자료를 찾고 요약하는 데 시간이 오래 걸리잖아요? 그런데 Gemini의 딥 리서치를 활용하면, AI가 스스로 정보를 찾아 정리해 주고, 심지어 그 과정까지 실시간으로 보여줘요. 시간이 확 줄어들어서 정말 편리하더라고요.\n이 기능은 Gemini Advanced 사용자에게 더 확장된 버전이 제공된다고 해요. 연구나 프로젝트가 많으신 분들은 적극 활용해 보시면 좋을 것 같아요.\n \n \n  Google 앱과 연결해 더 개인화된 AI 경험\n이제 Gemini는 Google의 다양한 앱과 연동이 가능해졌어요! 단순히 질문에 답하는 걸 넘어, 내가 평소에 사용하던 Google 서비스들과 연결되면서 더욱 개인화된 AI 경험을 제공하죠.\n \n✔️ Google 검색 이력 반영 → 맞춤형 답변 제공\n✔️ 캘린더, 노트, 할 일(Task)과 연동 → 일정 & 업무 관리\n✔️ YouTube에서 레시피 검색 → 장보기 목록 생성 → 근처 마트 찾기까지 한 번에!\n예를 들어, Gemini에게 **“이번 주말에 어디 갈지 추천해 줘”**라고 물어보면, 단순히 일반적인 추천이 아니라, 내가 최근 검색했던 여행지를 반영해서 답변해 줘요.\n \n또한, Google 포토와 연동하면 내 사진을 기반으로 일정표를 만들어 주거나, 예전에 찍어둔 문서를 찾아주는 기능도 추가될 예정이에요. 이제 AI가 정말 ‘개인 비서’처럼 작동하는 시대가 온 거죠.\n \n \n  나만의 AI 조수 ‘Gems’ 만들기\n여기서 끝이 아니에요! 이번 업데이트에서 가장 재미있었던 기능이 바로 ‘Gems’ 기능이었어요.\nGems는 나만의 맞춤형 AI 조수를 직접 만들 수 있는 기능인데요. 챗GPT의 GPTS, 클로드의 PROJECT와 비슷한 개념이예요.\n \n예를 들어,\n \n  번역기 Gem → 내가 자주 쓰는 표현을 학습한 맞춤 번역기\n  식단 플래너 Gem → 내 건강 목표에 맞춘 맞춤형 식단 추천\n  학습 조교 Gem → 수학 문제 풀이 도와주는 AI 선생님\n\n\n이런 식으로 내가 필요한 역할을 AI에게 맡길 수 있게 됐어요.\n설정도 간단해요! Gems 관리자에서 원하는 역할을 입력하고, 이름만 정하면 끝!\n파일 업로드 기능까지 지원해서, 특정 문서를 참고하도록 만들 수도 있더라고요. 저는 ‘콘텐츠 기획 보조’ 역할을 설정해서 Gemini가 글 아이디어를 정리해 주도록 만들어 봤어요. 업무 속도가 확실히 빨라지더라고요.\n \n \n  결론: AI가 더 가까워진 순간\n이번 Gemini 업데이트를 통해, AI는 이제 단순한 챗봇이 아니라 **진짜 ‘나만의 비서’**로 자리 잡아 가고 있어요. 내 연구를 도와주고, 내 일정도 관리해 주고, 내가 원하는 AI 조수를 직접 만들 수 있는 시대!\n앞으로 AI가 어떻게 발전할지 기대되지 않나요?  \n여러분은 어떤 기능이 가장 기대되시나요? 댓글로 의견을 나눠 주세요!\n  Q&A\nQ1. 딥 리서치(Deep Research)는 어떤 기능인가요?\n딥 리서치는 AI가 웹에서 정보를 수집하고 분석해 논리적인 보고서를 생성해 주는 기능이에요. 연구나 프로젝트 준비 시 큰 도움이 됩니다.\nQ2. Google 앱과 Gemini의 연동은 어떻게 설정하나요?\nGemini 앱에서 설정(Settings) 메뉴로 들어가 ‘개인화(Personalization)’ 기능을 활성화하면 Google 검색, 캘린더, 노트, 할 일(Task)과 연동할 수 있어요.\nQ3. ‘Gems’ 기능은 어떻게 활용할 수 있나요?\nGems는 나만의 맞춤형 AI 조수를 만드는 기능이에요. 예를 들어, ‘여행 일정 조수’, ‘식단 플래너’, ‘번역기’ 등을 직접 설정할 수 있답니다.\nQ4. Gemini 2.0 Flash Thinking 모델은 어떤 점이 개선됐나요?\n더 긴 문맥을 이해할 수 있는 1M 토큰 컨텍스트 창을 제공하며, 파일 업로드 기능이 추가되어 문서 기반의 분석이 가능해졌어요.\nQ5. 이번 업데이트를 무료로 사용할 수 있나요?\n일반 사용자는 딥 리서치 기능을 월 몇 회까지 무료로 사용할 수 있고, Gemini Advanced 사용자들은 더 많은 기능을 무제한으로 사용할 수 있어요.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"딥 리서치(Deep Research)는 어떤 기능인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"딥 리서치는 AI가 웹에서 정보를 수집하고 분석해 논리적인 보고서를 생성해 주는 기능이에요. 연구나 프로젝트 준비 시 큰 도움이 됩니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Google 앱과 Gemini의 연동은 어떻게 설정하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Gemini 앱에서 설정(Settings) 메뉴로 들어가 ‘개인화(Personalization)’ 기능을 활성화하면 Google 검색, 캘린더, 노트, 할 일(Task)과 연동할 수 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"‘Gems’ 기능은 어떻게 활용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Gems는 나만의 맞춤형 AI 조수를 만드는 기능이에요. 예를 들어, ‘여행 일정 조수’, ‘식단 플래너’, ‘번역기’ 등을 직접 설정할 수 있답니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Gemini 2.0 Flash Thinking 모델은 어떤 점이 개선됐나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"더 긴 문맥을 이해할 수 있는 1M 토큰 컨텍스트 창을 제공하며, 파일 업로드 기능이 추가되어 문서 기반의 분석이 가능해졌어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"이번 업데이트를 무료로 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"일반 사용자는 딥 리서치 기능을 월 몇 회까지 무료로 사용할 수 있고, Gemini Advanced 사용자들은 더 많은 기능을 무제한으로 사용할 수 있어요.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483553",
+    "pubDate": "Fri, 14 Mar 2025 10:56:38 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술",
+      "2025 ai 업데이트",
+      "ai 연구 도구",
+      "ai 조수",
+      "AI 혁신",
+      "flash thinking",
+      "gemini 앱",
+      "google 앱 연동",
+      "개인 맞춤 ai",
+      "딥 리서치",
+      "인공지능 비서"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "엘라스틱 Runtime field - 11th",
+    "description": "배열 데이터에 접근하는 런타임 필드 생성.\n\n\n\n\n\n\n런타임 필드는 인덱싱을 하지 않기 때문에 대소문자를 구분한다.\n\n\n\n\n\n소문자 검색 실패.\n\n\n\n\n검색 시 대소문자 구분을 하고 싶지 않다면 만들 때부터 소문자로 저장해야 한다.\n\n\n\n\n관련 글\n\n엘라스틱 Runtime field - 10th\n엘라스틱 Runtime field\nElasticsearch 활용(scripted field)\n정규표현식 몰라도 된다 - 2nd\nconvert ip to decimal\nWinlogbeat 8.12의 변화",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/03/runtime-field-11th.html",
+    "pubDate": "2025-03-12T11:16:00.001Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 8,
-    "imageUrl": "",
-    "title": "Meet the JetBrains Team at GDC 2025",
-    "description": "From March 17–21, 2025, the Game Developers Conference (GDC) will bring together professionals from across the game industry at the Moscone Center in San Francisco. JetBrains is excited to once again be part of this event, and we invite you to visit our booth to explore how our tools can enhance your game development workflow. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2025/03/14/jetbrains-meets-gdc-2025/",
-    "pubDate": "Fri, 14 Mar 2025 10:05:00 +0000",
-    "creator": "Anna Ruban",
-    "categories": [
-      "net-tools",
-      "events",
-      "qodana",
-      "teamcity-2",
-      "youtrack",
-      "conference",
-      "game-developer-conference",
-      "gamedev",
-      "gdc",
-      "rider",
-      "teamcity"
-    ]
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "Support for Game Consoles in JetBrains Rider",
     "description": "Big news for console game developers! As part of the 2024.3 release, JetBrains Rider added support for PlayStation®5 and Xbox consoles, allowing you to build, deploy, and debug your Unreal Engine and custom game engines directly on your preferred game consoles. Rider has excellent built-in support for working with C++, with lots of great functionality […]",
@@ -156,43 +140,73 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "imageUrl": "",
-    "title": "신용대출 금리 비교, 토스로 해결하기",
-    "description": "1금융권 포함 73개 금융사 금리 조회를 1분 만에 할 수 있어요",
+    "title": "더욱 이야기하고 싶어지는 ChatGPT의 개인화",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/toss-guide-interest-rate",
-    "pubDate": "Wed, 12 Mar 2025 06:24:00 GMT",
+    "link": "https://jacking75.github.io/ai-llm_20250315/",
+    "pubDate": "Sat, 15 Mar 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 11,
+    "id": 10,
     "imageUrl": "",
-    "title": "Sunsetting Writerside IDE",
-    "description": "In October 2023, we launched the Early Access Program for Writerside – a tool for authoring, testing, and publishing documentation. Built on the IntelliJ Platform, Writerside was available in two versions: a standalone tool and a plugin for JetBrains IDEs. Our goal was to serve two key audiences – developers who document their work and […]",
+    "title": "업로드된 모든 번들에 서명해야 합니다.  / 유니티 빌드 확인할 사항 / Unity Development Build",
+    "description": "왜 안될까 하다 이걸 찾았습니다.\n\n\nDevelopment Build 옵션입니다.\n로그 보나고 눌러뒀는데 끄는걸 까먹었습니다.\n꺼야됩니당.\n \n당연히 keystore 서명도 셋팅하셔야합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/writerside/2025/03/sunsetting-writerside-ide/",
-    "pubDate": "Tue, 11 Mar 2025 12:16:48 +0000",
-    "creator": "Sasha Maximova",
+    "link": "http://serverdown.tistory.com/1190",
+    "pubDate": "Thu, 13 Mar 2025 21:28:10 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "유니티"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "새로운 출발을 준비할 때 읽어볼 100권의 책",
+    "description": "토스 10주년, ‘스퀘어 오브 토스’에서 추천한 책 리스트 공개",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/10to100-library",
+    "pubDate": "Fri, 14 Mar 2025 00:25:00 GMT",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "ingest pipeline - 5th",
-    "description": "다음은 url과 변수를 구분해서 검사하는 정규표현식.\n\n\n\n\n\n\ngrok processor 사용 시 에러 발생.\n\n\n\nPOST _ingest/pipeline/_simulate\n{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"grok\": {\n          \"field\": \"msg\",\n          \"patterns\": [\"(?<url>[^?]+)\\?(?<param>.*)\"]\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\n\n\n\n{\n  \"error\": {\n    \"root_cause\": [\n      {\n        \"type\": \"parse_exception\",\n        \"reason\": \"Failed to parse content to type\"\n      }\n    ],\n    \"type\": \"parse_exception\",\n    \"reason\": \"Failed to parse content to type\",\n    \"caused_by\": {\n      \"type\": \"json_parse_exception\",\n      \"reason\": \"\"\"Unrecognized character escape '?' (code 63)\n at [Source: (byte[])\"{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"grok\": {\n          \"field\": \"msg\",\n          \"patterns\": [\"(?<url>[^?]+)\\?(?<param>.*)\"]\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\"; line: 7, column: 39]\"\"\"\n    }\n  },\n  \"status\": 400\n}\n\n\n\n순수 문자 ?를 인식하지 못한다. 예외처리를 한 번 더 해줘야 함.\n\n\n\nPOST _ingest/pipeline/_simulate\n{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"grok\": {\n          \"field\": \"msg\",\n          \"patterns\": [\"(?<url>[^?]+)\\\\?(?<param>.*)\"]\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\n\n\n\n{\n  \"docs\": [\n    {\n      \"doc\": {\n        \"_index\": \"_index\",\n        \"_version\": \"-3\",\n        \"_id\": \"_id\",\n        \"_source\": {\n          \"msg\": \"index.php?a=b\",\n          \"param\": \"a=b\",\n          \"url\": \"index.php\"\n        },\n        \"_ingest\": {\n          \"timestamp\": \"2025-03-14T09:25:47.8591859Z\"\n        }\n      }\n    }\n  ]\n}\n\n\n\ngrok과 script processor의 정규표현식 처리 방식이 다르다. \n\n\n\nPOST _ingest/pipeline/_simulate\n{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"script\": {\n          \"source\": \"\"\"\n            def str = /([^?]+)\\?(.*)/.matcher(ctx.msg);\n            if (str.find()) {\n              ctx.url = str.group(1);\n              ctx.param = str.group(2);\n            }  \n          \"\"\"\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\n\n\n\n{\n  \"docs\": [\n    {\n      \"doc\": {\n        \"_index\": \"_index\",\n        \"_version\": \"-3\",\n        \"_id\": \"_id\",\n        \"_source\": {\n          \"msg\": \"index.php?a=b\",\n          \"param\": \"a=b\",\n          \"url\": \"index.php\"\n        },\n        \"_ingest\": {\n          \"timestamp\": \"2025-03-14T09:29:27.6636501Z\"\n        }\n      }\n    }\n  ]\n}\n\n\n\n관련 글\n\ningest pipeline - 4th\ningest pipeline\n엘라스틱의 해시 변환\nconvert ip to decimal",
+    "title": "IntelliJ IDEA 2025.1 Beta 2 Is Here!",
+    "description": "IntelliJ IDEA 2025.1 Beta 2 is now available, bringing us one step closer to the major release!  This build provides access to all the features we’ve rolled out in the Early Access Program, and there’s still plenty of time for you to explore and test them before the official release.  You can download this version […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/03/ingest-pipeline-5th.html",
-    "pubDate": "2025-03-14T09:40:00.002Z",
+    "link": "https://blog.jetbrains.com/idea/2025/03/intellij-idea-2025-1-beta-2/",
+    "pubDate": "Fri, 14 Mar 2025 07:08:03 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": [
+      "eap",
+      "2025-1-eap",
+      "intellij-idea-2025-1-eap"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "홈택스를 방황하는 납세자를 위한 종합소득세 신고 유형별 안내서",
+    "description": "절세와 환급을 잘 챙길 수 있는 종소세 신고 기초 상식",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/tossmoment-3",
+    "pubDate": "Wed, 12 Mar 2025 02:57:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 13,
+    "id": 14,
     "imageUrl": "",
     "title": "Unlock Free Access to Cloud Academy: A New Benefit for Visual Studio Subscribers",
     "description": "I’m very excited to share some great news with you! Starting today, if you’re a Visual Studio Professional or Enterprise subscriber, you can get free access to Cloud Academy from QA—no trial, and no credit card required. This exclusive benefit is included with your Visual Studio subscription and provides 12 months of free access to […]\nThe post Unlock Free Access to Cloud Academy: A New Benefit for Visual Studio Subscribers appeared first on Visual Studio Blog.",
@@ -206,26 +220,14 @@
     ]
   },
   {
-    "id": 14,
-    "imageUrl": "",
-    "title": "초등학교 1학년을 위한 받아쓰기 어플",
-    "description": "제가 국민학교 다닐 땐 받아쓰기를 했습니다.\n‘읍니다’가, ‘습니다’로 바뀌어서 와장창 틀렸던 기억.\n얼마 전 딸이 초등학교에 들어갔는데, 맞춤법이 자주 틀려서 교정해주기 위한 어플을 만들어봤습니다.\n온 가족이 함께 만들었습니다.\n\n아직 개선할 부분들이 많지만 다른 사람들도 함께 쓸 수 있도록 공개해봅니다.\n혹시라도 사람들이 의미있게 써준다면 한국 사람들은 무료로 쓰게 하고 해외에만 몇 달러 정도에 팔아볼까하는 생각은 있습니다.\n앱을 올리고 한 번도 광고하지 않았는데도 글로벌 여기저기서 쓰는 모습을 보고 놀랍고 기쁘기도 했습니다.\n\n이게 글로벌 서비스의 재미인가?\n…사실 별 가치를 못 주고 망할 가능성이 높습니다.\n소개페이지\n안드로이드 다운로드\n아이폰 다운로드\n\n함께 읽으면 좋은 글:\n달러 한 번 벌어보고 싶다",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/03/14/spell-start.html",
-    "pubDate": "2025-03-14T04:22:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "소스 코드를 리포지토리 전체로 묶어서 LLM에 입력하는 방법",
-    "description": "No description available",
+    "title": "신용대출 금리 비교, 토스로 해결하기",
+    "description": "1금융권 포함 73개 금융사 금리 조회를 1분 만에 할 수 있어요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/ai-llm_20250312/",
-    "pubDate": "Wed, 12 Mar 2025 00:00:00 +0900",
+    "link": "https://blog.toss.im/article/toss-guide-interest-rate",
+    "pubDate": "Wed, 12 Mar 2025 06:24:00 GMT",
     "creator": "Unknown",
     "categories": []
   }
