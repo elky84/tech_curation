@@ -2,32 +2,184 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "홈택스를 방황하는 납세자를 위한 종합소득세 신고 유형별 안내서",
-    "description": "절세와 환급을 잘 챙길 수 있는 종소세 신고 기초 상식",
+    "title": "3D Characters Pro - Casual / 유니티 애셋 / 잘 바꿔 끼워지는 케릭터 셋  / 카툰풍 3등신",
+    "description": "영상: https://www.youtube.com/watch?v=Wu2KvmhAapE\n\n\n\n \n \n유니티 에셋 : https://assetstore.unity.com/packages/3d/characters/humanoids/3d-characters-pro-casual-287455\n \n나중엔 사람 나오는 게임 만들어야지\n이거랑 잘 어울리는거\n \n오아시스 세트 / 모델\n영상: https://www.youtube.com/watch?time_continue=1&v=MyRiuq8AV1I&embeds_referring_euri=https%3A%2F%2Fassetstore.unity.com%2F&source_ve_path=MjM4NTE\n\n\n\n \n \nMaster Stylized Projectile /  발사체\n영상: https://www.youtube.com/watch?v=0-7sp-nab5Y&t=20s",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/tossmoment-3",
-    "pubDate": "Wed, 12 Mar 2025 02:57:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://serverdown.tistory.com/1194",
+    "pubDate": "Fri, 14 Mar 2025 03:40:03 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/유니티 에셋 리뷰"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "JetBrains Xdebug Helper Browser Extension",
-    "description": "For years, PHP developers have relied on the popular Xdebug Helper Chrome extension to simplify their debugging experience with Xdebug. Unfortunately, this extension may soon no longer be supported, potentially disrupting developers’ workflows. To ensure that PHP developers can continue debugging without interruptions, we’re collaborating with Fraser Chapman on the official Xdebug Helper extension for […]",
+    "title": "토스플레이스, ISO 정보보호 국제표준 인증 2건 동시 획득",
+    "description": "자체 취득으로 뛰어난 정보보호 및 보안 수준 입증",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/03/jetbrains-xdebug-helper/",
-    "pubDate": "Fri, 14 Mar 2025 09:11:15 +0000",
-    "creator": "Tania Goral",
-    "categories": [
-      "news",
-      "xdebug"
-    ]
+    "link": "https://blog.toss.im/article/tossplaceISO",
+    "pubDate": "Wed, 12 Mar 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "SQLMesh 사용법 : dbt의 경쟁자가 될 수 있을까?",
+    "description": "이 글은 SQLMesh 사용법에 대해 작성한 글입니다\n예상 독자\n    \nSQLMesh가 궁금하신 분\nSQLMesh가 dbt 대비 어떤 것이 다른지 궁금하신 분\n이 글을 보시기 전에 dbt, DuckDB에 대해 알고 계시면 좋을 수 있는데, 과거에 작성한 글을 추천\n        \ndbt 사용법과 기본 개념\nDuckDB 사용법\n키워드 : SQLMesh 사용법, SQLMesh vs dbt\nSQLMesh란?\nSQLMesh GitHub\nTobiko의 오픈소스\n    \nSQLMesh, SQLGlot\nSQLMesh는 Transformation, Testing, Collaboration을 위한 DataOps 솔루션\n    \n데이터 Transformation 영역에서 dbt가 제일 유명한데, dbt에서 개선하면 좋은 점들을 개선해서 나오는 도구\nSQLMesh 공식 문서에 보면 dbt와 다른 점에서도 상세히 공유하고 있음\nTerraform에서 영감을 받은 부분이 있다고 함. 그래서 plan 명령어가 있음\n2025년 3월 15일 기준 v0.165.0\n\n\nSQLMesh의 장점\nSQLMesh의 Concept은 dbt와 유사하며, dbt와 차이점으로 나오는 장점들을 정리\n1) 간단한 SQL로 모델 생성 가능\n데이터 분석가 직무에 계신 분들이 처음 dbt를 사용하면 Jinja, YAML에 어려움을 겪는데, SQLMesh는 간단한 SQL로 정의할 수 있음\n2) 증분 로직 처리\ndbt에선 증분 로직을 is_incremental 등을 사용해서 만들어야 하는데, SQLMesh는 증분 로직을 쉽게 만들어줌\ndbt의 증분 로직\n    \n처음에 dbt를 학습할 때 제일 어려운 부분\ndbt는 state를 추적하지 않아서 이렇게 구현해야 함\n날짜 경계를 찾기 위해 수동으로 매크로를 지정하는 작업에서 오류가 나기 쉬움\n\n    \n  -- dbt incremental\n  SELECT *\n  FROM {{ ref(raw.events) }} e\n  JOIN {{ ref(raw.event_dims) }} d\n    ON e.id = d.id\n  -- must specify the is_incremental flag because this predicate will fail if the model has never run before\n  {% if is_incremental() %}\n      -- this filter dynamically scans the current model to find the date boundary\n      AND d.ds >= (SELECT MAX(ds) FROM {{ this }})\n  {% endif %}\n  {% if is_incremental() %}\n    WHERE e.ds >= (SELECT MAX(ds) FROM {{ this }})\n  {% endif %}\n    \n\n    \nSQLMesh는 날짜 범위를 알아서 추적해 간단하게 쓸 수 있음\n\n-- SQLMesh incremental\nSELECT *\nFROM raw.events e\nJOIN raw.event_dims d\n  -- date ranges are handled automatically by SQLMesh\n  ON e.id = d.id AND d.ds BETWEEN @start_ds AND @end_ds\nWHERE d.ds BETWEEN @start_ds AND @end_ds\n\n\n3) Data Gap 감지\ndbt에서 증분 모델을 구현할 때는 MAX(date)로 최근 데이터를 확인하고, 그 이후부터 적재하도록 함\n    \n이렇게 할 경우 과거에 누락된 데이터를 놓치게 되며, 데이터 파이프라인 관점에서 유지보수를 더 많이 해야 함\nSQLMesh는 모델이 실행된 날짜 간격을 저장해서 누락된 날짜를 정확히 알 수 있음\n\n  Expected dates: 2022-01-01, 2022-01-02, 2022-01-03\n  Missing past data: ?, 2022-01-02, 2022-01-03\n  Data gap: 2022-01-01, ?, 2022-01-03\n\n    \n4) 환경 격리\n데이터 파이프라인도 Prod/Dev 환경을 격리해야 할 수 있음. 규모가 커질수록 환경의 필요성이 생기지만, 환경을 구축하는 것은 고민이 많이 됨\n    \n환경을 구축하기 위해선 실제 데이터를 Dev에 그대로 제공해야 하는데, 이는 데이터 저장 비용이 드는 일이라 고민이 됨(데이터 저장 비용이 2배가 되는 상황)\ndbt는 환경마다 별도의 테이블에 데이터를 물리적으로 복제함\nSQLMesh는 VIEW를 사용해서 데이터를 물리적으로 저장하지 않아 비용이 들지 않음\n    \n환경마다 테이블 이름에 접두사를 붙여서 환경을 구분함\n5) 스키마 변경 자동화\n스키마가 변경되면 자동으로 감지하고 필요한 마이그레이션을 생성함\ndbt는 개발자가 직접 스키마 변경을 관리해야 함\n6) 오픈소스 UI 제공\ndbt는 Paid UI가 제공되며, 오픈소스 중에 찾으려면 lightdash를 사용해야 함\nSQLMesh는 오픈소스 UI가 존재해서 쉽게 사용할 수 있음(그러나 디자인은 약간 아쉬움)\n\n\n\nSQLMesh 실습\n작업 흐름\n파이썬 가상 환경 / 라이브러리 설치\n    \n파이썬 가상환경 설정\nSQLMesh 설치\n프로젝트 생성\n    \nProd 환경 설정\nModel 수정\nDev에서 작업\nProd로 통합\n\n파이썬 가상 환경 / 라이브러리 설치\n가상 환경 설정\n\npython -m venv .venv\nsource .venv/bin/activate\n\n\nSQLMesh 설치\n    \nWeb UI도 사용할 예정이라, 같이 설치\n\npip3 install \"sqlmesh[web]\"\n\n\nDuckdb 설치 : Local에서 Duckdb를 사용할 예정\n\npip3 install duckdb\n\n\n\n프로젝트 생성\n폴더 생성(sqlmesh-example)\n\nmkdir sqlmesh-example\ncd sqlmesh-example\n\n\nDuckDB 환경에서  init\n\nsqlmesh init duckdb\n\n\n다음과 같은 폴더, 파일들이 생성됨\n\n├── audits\n│   └── assert_positive_order_ids.sql\n├── config.yaml\n├── macros\n│   └── __init__.py\n├── models\n│   ├── full_model.sql\n│   ├── incremental_model.sql\n│   └── seed_model.sql\n├── seeds\n│   └── seed_data.csv\n└── tests\n    └── test_full_model.yaml\n\n6 directories, 8 files\n\n\nconfig.yaml\n프로젝트 디렉토리에 생성됨\n어떤 엔진을 사용할지, 게이트웨이 커넥션 등이 저장됨\n\ngateways:\n  duckdb:\n    connection:\n      # For more information on configuring the connection to your execution engine, visit:\n      # https://sqlmesh.readthedocs.io/en/stable/reference/configuration/#connections\n      # https://sqlmesh.readthedocs.io/en/stable/integrations/engines/duckdb/#connection-options\n      type: duckdb\n      database: db.db\n      # concurrent_tasks: 1\n      # register_comments: True\n      # pre_ping: False\n      # pretty_sql: False\n      # catalogs:\n      # extensions:\n      # connector_config:\n      # token:\n\n\ndefault_gateway: duckdb\n\nmodel_defaults:\n  dialect: duckdb\n  start: 2025-03-14\n\n\n생성된 폴더의 특징\nconfig.yaml : 프로젝트 설정 파일\nmodels : SQL/Python 모델 파일\n    \n현재 full_model.sql, incremental_model.sql, seed_model.sql이 저장됨\nseeds : CSV 같은 고정된 데이터셋\naudits : 모델의 출력을 검증할 때 사용\n    \n목적: 모델 출력의 데이터 품질을 검증\n실행 시점: 모델 실행 후 매번 자동으로 실행. 계획(plan)을 적용할 때마다 SQLMesh는 자동으로 실행\n기본 동작: 감사가 실패하면 sqlmesh plan을 중단해 잠재적으로 유효하지 않은 데이터가 다운스트림으로 전파되는 것을 방지\ntests : 모델의 로직의 정확성 검증\n    \n목적: 모델의 로직을 검증하고 예상된 출력과 일치하는지 확인\n실행 시점: 개발 중, 또는 CI/CD 과정\n작동 방식: 사전 정의된 입력으로 모델의 로직을 평가하고 출력을 테스트에서 제공된 예상 결과와 비교\n소프트웨어 개발의 단위 테스트(unit testing)와 유사\nmacros : 매크로 저장. SQLMesh 매크로와 Jinja 매크로로 나뉨\nModel 생성\nModel Doc\n위에 init하면서 생긴 Model 살펴보기\nFull Model\n최상단에 MODEL 명령어를 사용해 모델을 정의\nname은 프로젝트 이름에서 Unique해야 함\nkind : 모델의 종류를 의미\n    \nModel Kind properties에서 확인할 수 있음\nVIEW, FULL, Incremental Model이 존재\n        \nIncremental Model은 INCREMENTAL_BY_TIME_RANGE,  INCREMENTAL_BY_UNIQUE_KEY, INCREMENTAL_BY_PARTITION로 나뉨\ncron : 모델이 데이터를 처리하거나 새로고침을 할 때 사용할 일정. 자체 스케쥴러를 쓸 수도 있고, Airflow를 사용할 수도 있음\ngrain : 모델이 반환한 결과에서 행을 고유하게 식별할 수 있는 \b컬럼, 여러 컬럼의 조합도 가능함\naudits : 모델이 평가\b된 후 실행될 오딧(여기선 audits/assert_positive_order_ids.sql 파일을 실행한다는 의미)\n그 후 모델의 쿼리\n    \n만약 컬럼의 데이터를 형변환하고 싶다면 다음과 같이 정의하면 됨 item_id::TEXT\n\nMODEL (\n  name sqlmesh_example.full_model,\n  kind FULL,\n  cron '@daily',\n  grain item_id,\n  audits (assert_positive_order_ids),\n);\n\nSELECT\n  item_id,\n  COUNT(DISTINCT id) AS num_orders,\nFROM\n  sqlmesh_example.incremental_model\nGROUP BY item_id\n\n\n비교를 위해 dbt 모델 파일도 추가. 모델 정의 자체는 비슷하다고 볼 수 있지만, 명시적으로 MODEL을 정의하는 점이 차이\n\n\n-- models/staging/stg_orders.sql\n{{ config(materialized='table') }}\n\nSELECT\n    order_id,\n    customer_id,\n    order_date,\n    status,\n    amount\nFROM raw_data.orders\nWHERE status IS NOT NULL\n\n\n\nIncremental Model\nINCREMENTAL_BY_TIME_RANGE을 사용했으며, 시간 컬럼을 event_date로 지정\ngrain을 id, event_date로 설정함\nSELECT 쿼리 하단을 보면 WHERE에 event_date BETWEEN @start_date AND @end_date가 있는데, 이렇게 증분 처리가 끝남\n\nMODEL (\n  name sqlmesh_example.incremental_model,\n  kind INCREMENTAL_BY_TIME_RANGE (\n    time_column event_date\n  ),\n  start '2020-01-01',\n  cron '@daily',\n  grain (id, event_date)\n);\n\nSELECT\n  id,\n  item_id,\n  event_date,\nFROM\n  sqlmesh_example.seed_model\nWHERE\n  event_date BETWEEN @start_date AND @end_date\n\n\nSeed Model\nSeed Model Doc\nSeed Model을 불러오고 싶은 경우 사용\n컬럼의 이름과 타입을 지정할 수 있음\n\nMODEL (\n  name sqlmesh_example.seed_model,\n  kind SEED (\n    path '../seeds/seed_data.csv'\n  ),\n  columns (\n    id INTEGER,\n    item_id INTEGER,\n    event_date DATE\n  ),\n  grain (id, event_date)\n);\n\n\nAudit\nAudit Document\nassert_positive_order_ids.sql\n최상단에 AUDIT을 명시하고, 이름 지정\n    \nFROM 절에 @this_model을 사용하는데, 이는 SQLMesh의 빌트인 매크로임. Runtime Variable에서 확인할 수 있음\n\nAUDIT (\n  name assert_positive_order_ids,\n);\n\nSELECT *\nFROM @this_model\nWHERE\n  item_id < 0\n\n\n파라미터를 주입할 수도 있음. 특정 값이 초과되지 않는 경우를 확인하고 싶은 Audit\n\nAUDIT (\n  name does_not_exceed_threshold\n);\nSELECT * FROM @this_model\nWHERE @column >= @threshold;\n\n\n위 Audit을 실행하려면 MODEL에서 아래와 같이 정의해야 함\n\nMODEL (\n  name sushi.items,\n  audits (\n    does_not_exceed_threshold(column := id, threshold := 1000),\n    does_not_exceed_threshold(column := price, threshold := 100)\n  )\n);\n\n\n\nSQLMesh Plan\nSQLMesh에선 환경에 Plan을 만들고 적용하는 것이 핵심\n    \n모델의 새 버전을 생성하고 저장함\n모델을 평가하고 실행\nPlan의 Target 환경에 업데이트\n\nsqlmesh plan\n\n\n\nBackfill Tables에 y를 입력하면 Backfill 작업을 수행함\n\n폴더를 보면, db.db와 logs가 추가된 것을 확인할 수 있음\n\n.\n├── audits\n│   └── assert_positive_order_ids.sql\n├── config.yaml\n├── db.db\n├── logs\n│   ├── sqlmesh_2025_03_15_14_04_40.log\n│   └── sqlmesh_2025_03_15_14_31_00.log\n├── macros\n│   ├── __init__.py\n│   └── __pycache__\n│       └── __init__.cpython-310.pyc\n├── models\n│   ├── full_model.sql\n│   ├── incremental_model.sql\n│   └── seed_model.sql\n├── seeds\n│   └── seed_data.csv\n└── tests\n    └── test_full_model.yaml\n\n8 directories, 12 files\n\n\nDuckDB에서 데이터 확인\nCLI에서 아래 명령어 실행\n\nduckdb db.db\n\n\nDuckDB를 실행한 후, .tables를 실행하면 테이블을 확인할 수 있음\n    \nfull_model, incremental_model, seed_model : 위 MODEL에서 생성한 결과. 사용자가 사용할 땐 이걸 사용\nsqlmesh_example__full_model__2278521865 : 이 형태도 물리적 테이블이나, 버전 관리를 위해 사용하는 내부적인 테이블\n\nD .tables\n_auto_restatements\n_environment_statements\n_environments\n_intervals\n_plan_dags\n_snapshots\n_versions\nfull_model\nincremental_model\nseed_model\nsqlmesh_example__full_model__2278521865\nsqlmesh_example__incremental_model__1880815781\nsqlmesh_example__seed_model__2185867172\n\n\n아래 쿼리를 실행하면 데이터를 확인할 수 있음\n    \nsqlmesh_example는 모델의 스키마로 위에 모델 생성할 때 사용함\n\nSELECT * FROM sqlmesh_example.full_model;\n\n\n\n\n모델 수정 및 Dev에서 작업하기\n모델 수정\n이제 Prod 환경을 채웠으니, SQL 모델 하나를 수정\nmodels/incremental_model.sql에 'z' AS new_column을 추가함\n\nMODEL (\n  name sqlmesh_example.incremental_model,\n  kind INCREMENTAL_BY_TIME_RANGE (\n    time_column event_date\n  ),\n  start '2020-01-01',\n  cron '@daily',\n  grain (id, event_date)\n);\n\nSELECT\n  id,\n  item_id,\n  'z' AS new_column, -- Added column\n  event_date,\nFROM\n  sqlmesh_example.seed_model\nWHERE\n  event_date BETWEEN @start_date AND @end_date\n\n\nDev 환경 생성 및 Backfill\ndev 환경을 생성\n\n  sqlmesh plan dev\n\n    \n생성하면 변경된 모델이 incremental_model이라고 나오며, 변경된 부분이 나옴\n\nbackfill을 해주면, dev 환경에 테이블이 생성됨\n\n데이터 확인\n위에서 했던 것처럼 duckdb db.db로 DuckDB에 접근한 후, .tables로 테이블 확인\n\nD .tables\n_auto_restatements\n_environment_statements\n_environments\n_intervals\n_plan_dags\n_snapshots\n_versions\nfull_model\nfull_model\nincremental_model\nincremental_model\nseed_model\nsqlmesh_example__full_model__2278521865\nsqlmesh_example__full_model__2278521865__dev # 새로 추가됨\nsqlmesh_example__incremental_model__1880815781\nsqlmesh_example__incremental_model__772980299 # 새로 추가됨\nsqlmesh_example__seed_model__2185867172\n\n\nfull_model은 변경된 것이 없어서 기존 모델에 __dev 추가(새 환경)\n반면 incremental_model은 변경된 것이 있어서 해시가 변경됨\n새롭게 추가된 incremental_model 데이터 확인\n\nselect * from sqlmesh_example__dev.incremental_model;\n\n\n\n\nDev에서 작업한 내용 Prod에 적용\nsqlmesh plan 명령어를 사용해서 Dev -> Prod로 적용\n\nDuckDB에 접속하지 않고, sqlmesh 명령어로 데이터를 가지고 올 수도 있음\n\nsqlmesh fetchdf \"select * from sqlmesh_example.incremental_model\"\n\n\n\n\n\nSQLMesh Web UI\n아래 명령어를 통해 Web UI를 실행\n\nsqlmesh ui\n\n\n\n위에서 작업한 incremental_model.sql을 클릭하니 리니지를 보여줌\n\n데이터를 쿼리해서 확인할 수도 있음\n\nModels 폴더를 클릭하면 실행된 모델과 모델의 메타데이터, 리니지를 볼 수 있음\n\nUI에서도 plan을 실행하고 합칠 수 있음\n    \nUI 공식 문서, 퀵스타트 문서에 실행 흐름이 잘 나와있음\n그 외에 기능은 아직 확인이 어려움. Oauth 등\n\nSQLMesh 사용 후기\nSQLMesh를 사용해보면 dbt보다 러닝커브가 낮음\n그러나 지금 SQLMesh롤 바로 도입해야 할까? 하면 고민되는 부분이 있음\n    \n생태계가 아직 dbt에 비해 작고, 1점대도 아니라 계속 변경될 것으로 예상\nAirflow와 Prefect의 관계를 보는 것 같기도 함\n그럼에도 불구하고 T 영역에서 거의 독점했던 dbt의 경쟁자가 있다는 점에서 SQLMesh를 응원하고 싶음. 사용성은 괜찮았음\ndbt가 SDF labs를 인수한 후, 여러 통합 작업을 진행할 것으로 예상되는데 그 과정에서 SQLMesh가 제시하는 SQLMesh의 장점을 무력화할 수 있을 것 같음\n레딧에서 논의되는 내용을 보면 도움이 됨\n    \n레딧1\n레딧2\n레딧3\n\n\n레퍼런스 및 읽으면 좋은 자료\nSQL 홈페이지\nSQLMesh Document\nSung Won Chung님의 링크드인 : Tobiko의 Solution Architect로 근무하고 계신데 튜토리얼 내용을 링크드인 글로 공유해주심\nTobiko 블로그\ndbt와 SQLMesh의 기능 비교 : 각 라이브러리가 제공하는 범위를 비교해줌\n    \nFAQ 문서도 보는 것을 추천함. dbt와 SQLMesh의 용어가 살짝 다름\ndbt materialization : SQLMesh의 model kinds에 정의\ndbt seeds : SQLMesh model kind의 seed\ndbt test : SQLMesh audits\ndbt build : sqlmesh run\nSQLMesh + GitHub Action 통합\nSQLMesh를 사용한 데이터 파이프라인\n\n\n\n\n  \n글 작성하는데 걸린 시간 : 3시간 30분\n    \n하고자 하는 이야기, 개요 정리 : 13분\n초안 글 작성 : 3시간 7분\n클로드와 셀프 글 피드백 : 10분",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://zzsza.github.io/data-engineering/2025/03/15/sqlmesh-intro/",
+    "pubDate": "Sat, 15 Mar 2025 00:00:00 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "sqlmesh",
+      "data-engineering"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Visual Studio at GDC 2025",
+    "description": "Join us in-person at Game Developers Conference 2025 with an in-depth look at how Visual Studio and GitHub Copilot can streamline your iteration workflow. Don’t miss the unveiling of our biggest C++ debugger update yet. Session Title: Accelerating Your Inner Loop with Visual Studio and GitHub Copilot Session Info: March 19th, 2025, 12:30 PM-1:30 PM Pacific Time | […]\nThe post Visual Studio at GDC 2025 appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/visual-studio-at-gdc-2025/",
+    "pubDate": "Fri, 14 Mar 2025 17:07:48 +0000",
+    "creator": "David Li",
+    "categories": [
+      "Game Development",
+      "C++"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "1인개발자 개인사업자 등록에서 앱 출시까지 03 / 구글 플레이 스토어 - 프로덕션 진행",
+    "description": "목차\n1. 사업자등록 - https://serverdown.tistory.com/815\n2. 구글 플레이 스토어 - https://serverdown.tistory.com/898\n3. 앱 출시 - https://serverdown.tistory.com/1195\n4. 앱 광고 붙이기 - https://serverdown.tistory.com/1197\n \n \n본문\n이전글에서 프로덕션 까지 올렸는데 출시는 안되는 상태이구요\n기다리는 동안 메뉴를 살펴보는 중입니다. \n상황마다 UI 가 달라서 스샷도 좀 찍구요\n \n프로덕션 현재 상황\n\n\n출시되면 모니터링 하라는 거 같군요 [출시] 탭으로가면 \n\n\n5 (5) 출시 누른걸 알 수 있습니다. \n버전 밑에 [임시] 라고 적혀있는 부분이 좀 걸리네요 일단 기다리는 중이구요\n6 (6) 공개 테스트 진행중이라 어떻게 바뀌는지 주시 중입니다.\n \n6 (6) 진행 완료후\n\n\n5 (5) 는 사라졌군요\n이로서 준비중인것과 진행중인것이 함깨 표시되는 것을 확인했습니다.\nUI 이해하기 너무 어렵네요\n이제 공개 테스트 빌드를 프로덕션으로 옮겨보겠습니다.\n우측에 [버전 승급] 매뉴가 있습니다.\n\n\n그런데 ... 꺼져있군요 물음표에 마우스를 올리면 이유를 알려줍니다.\n트랙에 이미 임시 버전이 있음\n이라고 하네요\n프로덕션으로 가보겠습니다.\n어제 올린게 올라간게 아닌가 봅니다.\n\n\n임시 이거 진행안되거 있다는 표시 인가 봅니다.\n버전 수정 누룹니다.\n\n\n어차피 구버전이라 버전 삭제 하고 6 (6) 으로 다시 진행해보겠습니다.\n우측 상단에 [임시 출시 삭제] 눌러줍니다.\n\n\n공개 테스트로 가서 버전 승급 시켜보겠습니다.\n이제는 누를 수 있군요\n\n\n공개 테스트 진행한거라 하단에 바로 [다음] 누를 수 있군요\n\n\n저장 눌러보겠습니다.\n\n\n프로덕션 제출 하나 봅니다. \n버전 확인하구요\n[변경 사항 저장] 을 하겠습니다.\n\n\n관리형 게시가 아니라 바로 게시 된다다고 하네요\n아직은 관리형 게시를 켜지 않았습니다.\n계속 진행합니다.\n\n\n게시 개요 보시면 출시 진행중이라는 글자가보입니다.\n문제가 없다면 출시는 이걸로 마무리 되겠군요\n출시를 해야 ADMOB 과 애널리틱스 기능을 확인해볼 수 있어서 날림으로 진행해봤습니다.\n하루 기다렸는데 출시를 안하고 있었다니 충격이군요\nUI 정말 이상합니다.\n앱 출시 후\n게시 개요 로가면 아무것도 없는 횡한 화면을 볼 수 있습니다.\n\n\n이 상태가 정상입니다\n출시 개요로 가면 프로덕션 정보가 있습니다.\n\n\n공개 테스트를 승급했지만 공개 테스트가 없어지진 않는군요.\n \n올라간 게임앱: https://play.google.com/store/apps/details?id=com.sidnft.add_force_1&hl=ko\n\n \nAdd Force 1 - Google Play 앱\n장애물은 힘차게 접근합니다.\nplay.google.com\n\n이번에 올린 것입니다.\n참고해주세요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1195",
+    "pubDate": "Fri, 14 Mar 2025 14:46:15 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "엘라스틱 Runtime field - 11th",
+    "description": "배열 데이터에 접근하는 런타임 필드 생성.\n\n\n\n\n\n\n런타임 필드는 인덱싱을 하지 않기 때문에 대소문자를 구분한다.\n\n\n\n\n\n소문자 검색 실패.\n\n\n\n\n검색 시 대소문자 구분을 하고 싶지 않다면 만들 때부터 소문자로 저장해야 한다.\n\n\n\n\n관련 글\n\n엘라스틱 Runtime field - 10th\n엘라스틱 Runtime field\nElasticsearch 활용(scripted field)\n정규표현식 몰라도 된다 - 2nd\nconvert ip to decimal\nWinlogbeat 8.12의 변화",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/03/runtime-field-11th.html",
+    "pubDate": "2025-03-12T11:16:00.001Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "ChatGPT로 시간 절약! 더 효율적인 하루를 만드는 4가지 방법",
+    "description": "ChatGPT를 활용해 시간을 절약하고 생산성을 높이는 방법을 소개합니다. 일정 관리, 식단 계획, 운동 루틴, 그리고 자기 성찰까지! 스마트한 생활을 위한 실용적인 팁을 확인하세요.\n\n\n \n아침에 눈 뜨자마자 \"오늘 뭐부터 해야 하지?\" 고민하는 시간이 많다면, 이 글이 딱입니다. 저도 매일 바쁜 일정 속에서 효율적으로 시간을 쓰는 방법을 고민했어요. 그러다 보니 ChatGPT를 활용하면 불필요한 고민 없이 하루를 더 알차게 보낼 수 있다는 걸 깨달았죠.\n \n오늘은 제가 실제로 활용하는 ChatGPT 기반의 시간 절약 꿀팁 4가지를 소개할게요.\n \n \n1. 일정 관리 & 우선순위 정하기\n  \"해야 할 일이 많을 때, 어디서부터 시작해야 할까?\"\n예전에는 단순한 할 일 리스트(To-Do List)를 만들었는데, 어떤 일을 먼저 해야 할지 정하는 데만도 시간이 걸렸어요. 그래서 ChatGPT에게 도움을 요청해 봤습니다.\n예를 들어, 이렇게 입력하면?\n\"오늘 할 일: 고객 미팅, 보고서 작성, 헬스장 가기, 친구 생일 선물 사기, 저녁 요리하기. 우선순위를 고려해 하루 일정을 짜줘!\"\n그러면 ChatGPT는\n✅ 급한 일과 중요한 일을 구분하고\n✅ 적절한 휴식 시간까지 포함된 일정을 추천해 줍니다.\n\n\n  실제 예시\n제가 아는 분은 매일 10개 이상의 업무를 처리해야 했어요. 그는 ChatGPT에게 \"내 직업은 마케팅 매니저이고, 출퇴근 시간이 9시~6시야. 가장 효과적인 일정 짜줘.\"라고 요청했더니, 업무 집중 시간이 높은 오전에 중요한 작업을 배치하고, 오후에는 회의와 이메일 업무를 집중적으로 배치하는 일정을 추천받아 시간을 훨씬 효율적으로 쓸 수 있었어요.\n \n✅ 꿀팁\nChatGPT에게 내 직업, 업무 스타일 등을 입력하면 더 맞춤형 일정이 가능해요.\n캘린더 자동 추가 가능   \"Google 캘린더 이벤트 링크 만들어줘!\"라고 입력하면 일정 정리도 간편하게!\n \n2. 맞춤형 식단 & 장보기 리스트\n ️ \"매일 뭘 먹을지 고민하는 시간이 아깝다면?\"\n바쁜 하루를 보내다 보면, 식단 고민이 은근히 시간을 많이 잡아먹어요. 그래서 저는 ChatGPT에게 영양 균형을 고려한 식단을 요청해요.\n예를 들어, 이렇게 입력하면?\n\"나는 채식주의자야. 단백질을 충분히 포함한 일주일 식단과 장보기 리스트를 만들어 줘.\"\n \nChatGPT는\n✅ 아침, 점심, 저녁 + 간식 추천\n✅ 필요한 장보기 리스트 자동 생성\n✅ 예산이 필요하면 \"5만 원 이하로 가능하게 만들어줘!\"라고 추가 가능\n\n\n  실제 예시\n제 친구 중 한 명은 회사 근처에서 사 먹는 식비가 부담스러워 ChatGPT를 활용했어요. \"한 달 식비 20만 원 예산으로 건강한 식단 추천해 줘!\"라고 요청했더니, 비용을 고려한 재료 목록과 요리법까지 제공받아 비용 절감 효과를 봤습니다.\n \n✅ 꿀팁\n냉장고 속 재료 활용   \"냉장고에 양배추, 두부, 고구마 있어. 이걸로 저녁 메뉴 추천해 줘!\"\n시간 절약용 빠른 요리 추천   \"30분 안에 만들 수 있는 한식 메뉴 추천해 줘!\"\n \n3. 맞춤형 운동 계획 만들기\n ️ \"어떤 운동을 해야 할지 고민된다면?\"\n운동도 그냥 하는 게 아니라 목표에 따라 계획을 세우면 더 효과적이죠. 저는 ChatGPT를 활용해서 운동 루틴을 자동으로 짜고 있어요.\n \n예를 들어, 이렇게 입력하면?\n\"나는 초보자야. 주 3회, 30분 안에 할 수 있는 체지방 감량 운동 루틴을 만들어 줘!\"\n그러면 ChatGPT는\n✅ 운동 루틴(스트레칭 + 본운동 + 마무리)을 구성해 주고\n✅ 필요하면 \"집에서 할 수 있는 운동\" 또는 \"헬스장 기구를 활용한 운동\"도 추천해 줘요.\n\n\n  실제 예시\n운동을 시작한 지 얼마 안 된 지인은 출퇴근이 바빠 헬스장에 갈 시간이 없었어요. 그래서 ChatGPT에게 \"아파트에서도 조용히 할 수 있는 운동 추천해 줘.\"라고 요청했더니, 점프 없는 유산소 운동과 맨몸 근력 운동 루틴을 제공받아 집에서도 쉽게 운동을 시작할 수 있었습니다.\n \n✅ 꿀팁\n목표별 운동 계획 세우기   \"팔 근력 강화 루틴 추천해 줘.\"\n기구 사용 여부 설정 가능   \"덤벨과 요가 매트를 활용한 홈트 계획 짜줘!\"\n \n4. 자기 성찰 & 일기 쓰기\n  \"자기 성찰을 위한 질문이 필요하다면?\"\n매일 일기를 쓰고 싶지만, 막상 펜을 들면 무슨 내용을 적어야 할지 막막할 때가 많아요. 그럴 때 ChatGPT를 활용하면 매일 새로운 질문을 던져줘서 더 깊은 생각을 할 수 있어요.\n \n예를 들어, 이렇게 요청하면?\n\"오늘의 일기 주제 추천해 줘!\"\n그러면 ChatGPT는\n✅ \"오늘 하루 중 가장 감사했던 순간은?\"\n✅ \"최근 도전했던 일 중 가장 의미 있었던 경험은?\"\n✅ \"내가 앞으로 더 성장하기 위해 필요한 것은?\"\n이런 질문을 던져주면서 일기를 더욱 의미 있게 작성할 수 있도록 도와줍니다.\n\n\n \n  실제 예시\n제 지인 중 한 명은 매일 ChatGPT에게 \"오늘 나를 돌아볼 수 있는 질문 추천해 줘.\"라고 요청했어요. 그러면서 자연스럽게 자신의 감정을 기록하고, 스트레스도 줄일 수 있었다고 해요.\n \n✅ 꿀팁\n자기 성장 목표 설정   \"매일 나를 성장시킬 수 있는 질문 추천해 줘!\"\n긍정적인 마인드셋 형성   \"오늘 감사할 일을 생각할 수 있도록 도와줘!\"\n \n마무리\nChatGPT를 활용하면, 고민하는 시간을 줄이고 더 중요한 일에 집중할 수 있어요.\n \n  오늘 소개한 ChatGPT 활용법 정리!\n✅ 일정 관리 & 우선순위 정하기\n✅ 맞춤형 식단 & 장보기 리스트\n✅ 개인 맞춤 운동 루틴\n✅ 자기 성찰을 위한 일기 질문 제공\n \n이제 ChatGPT를 활용해 더 스마트하고 생산적인 하루를 만들어 보세요!  \n  Q&A 섹션\n1. ChatGPT가 내 일정을 자동으로 캘린더에 추가할 수 있나요?\n아직 직접 추가는 불가능하지만, Google 캘린더 이벤트 링크를 생성하는 방법을 활용하면 쉽게 추가할 수 있습니다.\n2. ChatGPT가 식단을 추천해 줄 때, 알러지나 식이 제한도 반영할 수 있나요?\n네! 예를 들어, \"나는 채식주의자야\" 또는 \"유제품을 먹지 않아\"라고 입력하면, 이를 반영한 식단을 추천해 줍니다.\n3. 운동 루틴을 세울 때, 내 체력 수준을 고려할 수 있나요?\n네! \"나는 초보자야\" 또는 \"나는 헬스를 2년 정도 했어\"라고 추가하면 레벨에 맞춘 운동 루틴을 제공합니다.\n4. ChatGPT로 맞춤형 저녁 메뉴를 추천받으려면 어떻게 해야 하나요?\n\"냉장고에 닭가슴살, 감자, 브로콜리 있어. 간단한 저녁 메뉴 추천해 줘!\"라고 입력하면, 보유한 재료를 활용한 맞춤형 메뉴를 추천받을 수 있습니다.\n5. ChatGPT로 꾸준히 일기 쓰는 습관을 만들 수 있을까요?\n네! \"매일 아침 나에게 맞는 자기 성찰 질문을 추천해 줘\"라고 설정하면, ChatGPT가 매일 새로운 질문을 제공해 꾸준한 일기 습관을 유지할 수 있도록 도와줍니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT가 내 일정을 자동으로 캘린더에 추가할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"아직 직접 추가는 불가능하지만, Google 캘린더 이벤트 링크를 생성하는 방법을 활용하면 쉽게 추가할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT가 식단을 추천해 줄 때, 알러지나 식이 제한도 반영할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네! 예를 들어, '나는 채식주의자야' 또는 '유제품을 먹지 않아'라고 입력하면, 이를 반영한 식단을 추천해 줍니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"운동 루틴을 세울 때, 내 체력 수준을 고려할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네! '나는 초보자야' 또는 '나는 헬스를 2년 정도 했어'라고 추가하면 레벨에 맞춘 운동 루틴을 제공합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT로 맞춤형 저녁 메뉴를 추천받으려면 어떻게 해야 하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"'냉장고에 닭가슴살, 감자, 브로콜리 있어. 간단한 저녁 메뉴 추천해 줘!'라고 입력하면 됩니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT로 꾸준히 일기 쓰는 습관을 만들 수 있을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네! '매일 아침 나에게 맞는 자기 성찰 질문을 추천해 줘'라고 설정하면 꾸준한 습관을 만들 수 있습니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483555",
+    "pubDate": "Tue, 18 Mar 2025 08:28:00 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/생산성 향상",
+      "ai 도우미",
+      "ChatGPT 활용법",
+      "생산성 향상",
+      "스마트한 생활",
+      "시간 관리",
+      "식단 짜기",
+      "업무 효율화",
+      "운동 루틴",
+      "일정 계획",
+      "자기 계발"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Support for Game Consoles in JetBrains Rider",
+    "description": "Big news for console game developers! As part of the 2024.3 release, JetBrains Rider added support for PlayStation®5 and Xbox consoles, allowing you to build, deploy, and debug your Unreal Engine and custom game engines directly on your preferred game consoles. Rider has excellent built-in support for working with C++, with lots of great functionality […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/03/14/support-for-game-consoles-in-jetbrains-rider/",
+    "pubDate": "Fri, 14 Mar 2025 16:26:21 +0000",
+    "creator": "Matt Ellis",
+    "categories": [
+      "net-tools",
+      "how-tos",
+      "gamedev",
+      "rider",
+      "unreal-engine"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "신용대출 금리 비교, 토스로 해결하기",
+    "description": "1금융권 포함 73개 금융사 금리 조회를 1분 만에 할 수 있어요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/toss-guide-interest-rate",
+    "pubDate": "Wed, 12 Mar 2025 06:24:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "(작성중) 1인개발자 개인사업자 등록에서 앱 출시까지 04 / 앱에 에드몹 붙이기",
+    "description": "목차\n1. 사업자등록 - https://serverdown.tistory.com/815\n2. 구글 플레이 스토어 - https://serverdown.tistory.com/898\n3. 앱 출시 - https://serverdown.tistory.com/1195\n4. 앱 광고 붙이기 - https://serverdown.tistory.com/1197\n \n \n준비물\n1. 본인이 운영하는 웹사이트가 하나 필요합니다.\n    티스토리는 실패했고\n     Blogger.com 이나\n     개인적으로 만든 웹페이지여야 하군요\n2. 앱을 만들어야겠죠\n     저는 유니티로 게임을 만들었습니다.\n \n사전지식\n플레이 스토어에는 웹 주소 넣는 곻이 여러군데 있습니다.\n앱 고르기전 화면에 개발자 계정 정보 인데 Admob 은 여기를 참고하지 않습니다.\n앱 마다 웹 주소를 입력하는 곳이 있습니다.\n \nPlay Store Console 에서 웹 주소 입력하기\n로그인 -> 앱 선택 -> 사용자 늘리기 -> 앱 정보 -> 스토어 설정\n\n\n[스토어 등록정보 연락처 세부정보]\n항목 우측에 [수정] 버튼이 있습니다.\n들어가면 [웹 사이트] 입력하는 곳이 있습니다.\n(더러운 구글 UI)\n \n웹 사이트르 만들기위한 진행 순서\n(작성중)\n \n \n \n애드몹 - 스토어 등록하기\n또 구글 UI 에 속았습니다. 이 놈들은 UI 를 자꾸 숨겨놓네요\n스토어 등록을 해보겠습니다.\n\n\n앱 첫번재 화면에서 검토 필요 라는 곳에 마우스를 올리면\n\n\n이런식으로 [스토어 추가] 버튼이 나타납니다.\n저는 이미 액을 출시한 상태라 등록해야겠습니다.\n\n\n스토어 url 넣어 검색하면 정보가 나옵니다.\n처음에 테스트로 올린 아이콘이 뜨네요 ㄷㄷㄷ 장난으로 등록하면 안되겠습니다.\n\n\napp-ads.txt 파일이 잘못되었나봅니다.\n다시 파일 만드는 법 문서를 봐야겠습니다.\n \n(작성중)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1197",
+    "pubDate": "Fri, 14 Mar 2025 22:39:47 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Introducing automatic documentation comment generation in Visual Studio",
+    "description": "We are excited to announce that Copilot is now automatically integrated into Visual Studio’s editor to help you generate doc comments for functions. This new feature aims to streamline your documentation process and enhance your coding experience. To access these updates, you will need a GitHub Copilot subscription. If you don’t already have GitHub Copilot, […]\nThe post Introducing automatic documentation comment generation in Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/introducing-automatic-documentation-comment-generation-in-visual-studio/",
+    "pubDate": "Mon, 17 Mar 2025 15:00:10 +0000",
+    "creator": "Sinem Akinci, Allie Barry",
+    "categories": [
+      "Copilot",
+      "Productivity",
+      "Visual Studio",
+      "Docs"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "2024 Frontend Global Workshop 참석 후기",
+    "description": "들어가며\n안녕하세요. LINE+ UIT 조직에서 프런트엔드 개발을 하고 있는 강형민입니다. LY에서는 매년 'Front-end Global Workshop'을 개최하고 있습니다. ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/2024-frontend-global-workshop-recap",
+    "pubDate": "Wed, 12 Mar 2025 07:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "Make more sense of multithreaded debugging",
     "description": "Debugging complex programs often feels like navigating a labyrinth of threads and stack traces. The challenge of understanding thread behaviors and tracing issues can be daunting, leading to longer development times and increased frustration. But now, there’s a solution that simplifies this process—introducing AI-powered thread summaries in Parallel Stacks Window with Visual Studio. To address […]\nThe post Make more sense of multithreaded debugging appeared first on Visual Studio Blog.",
@@ -46,59 +198,32 @@
     ]
   },
   {
-    "id": 4,
+    "id": 14,
     "imageUrl": "",
-    "title": "(작성중) 애드몹로 유니티에 광고 붙여 보자 / Unity Admob",
-    "description": "현재상태가 앱은 프로덕션 직전이구요\n애드몹은 계정이 정지 되었군요 살리는것 부터 해야겠습니다.\n가입은 간단하니 패스 할께요\n\n\n정지된 내 계정 ㅠㅠ\n \n \n \n앱 겁토\n\n\n앱은 프로덕션 가야 검토가 되려나봅니다.\n \n \n \n여러명이 광고 실적 같이 보기\n메뉴를 찾았습니다.\n애드몹 콘솔 -> 설정 -> 사용자\n여기가면 이메일과 역활을 설정할 수 있습니다.",
+    "title": "타입스크립트, 이제 Go로 다시 태어난다: 10배 빨라지는 이유와 커뮤니티 반응까지",
+    "description": "마이크로소프트가 최근 TypeScript 컴파일러를 Go 언어로 포팅한다고 발표했습니다. 이 결정은 개발 커뮤니티에 큰 화제가 되었는데, 과연 왜 마이크로소프트는 TypeScript를 Go로 재작성하기로 했을까요? 기존 TypeScript의 한계, Go를 선택한 이유와 Rust가 아닌 Go인 이유, 그리고 앞으로의 로드맵과 커뮤니티의 반응까지 종합적으로 살펴보겠습니다.\n기존 타입스크립트의 한계: 성능과 유지보수 문제\n현재의 타입스크립트 컴파일러(tsc)는 JavaScript(정확히는 TypeScript로 작성된 JS)로 구현되어 Node.js 환경에서 동작합니다. 이는 간편한 배포와 쉬운 확장성이라는 장점이 있었지만, 다음과 같은 근본적인 성능 문제가 있었습니다.\n대규모 프로젝트에서의 느린 빌드 속도\n단일 스레드 동작으로 인해 멀티코어 CPU의 병렬성을 충분히 활용하지 못했습니다.\nNode.js의 가비지 컬렉션과 JIT 컴파일 오버헤드로 인해 최적화에 제약이 있었습니다.\n실제 VS Code 수준(약 150만 라인)의 프로젝트는 전체 빌드에 최대 1분 이상 걸리는 문제가 지속되어 왔습니다.\nGo 언어로의 전환: 10배 빨라지는 TypeScript\n이러한 문제를 근본적으로 해결하기 위해 타입스크립트 팀은 네이티브 언어로의 포팅을 결정했고, 선택된 언어는 Go였습니다. Go로 포팅하면 다음과 같은 이점이 명확히 나타납니다.\n컴파일 성능 대폭 향상 (최대 10배): 초기 테스트에서 VS Code 전체 빌드 시간을 77.8초에서 7.5초로 단축하여 약 10배의 성능 향상을 입증했습니다.\n멀티코어 활용 가능: Go의 멀티스레딩 지원 덕분에 병렬로 파싱, 바인딩, 타입 검사를 실행할 수 있게 되었습니다.\n메모리 효율성 향상: 네이티브 코드의 메모리 효율 개선과 공유 메모리 활용으로 메모리 사용량이 최대 50% 감소했습니다.\n간편한 배포 및 유지보수성 향상: Go는 정적 컴파일을 지원하여 단일 바이너리 형태로 배포할 수 있어 환경 설정 및 CI/CD가 간편해집니다. 또한, 정적 타입 덕분에 컴파일러 자체의 안정성도 높아집니다.\n결과적으로 개발자들이 더욱 빠르고 안정적인 개발 경험을 얻을 수 있게 되며, IDE의 초기 로딩과 코드 편집 응답 속도가 획기적으로 빨라질 것으로 기대됩니다.\n왜 Rust가 아니라 Go인가?\n발표 직후 가장 큰 논쟁거리는 왜 Rust가 아니라 Go를 선택했느냐는 것이었습니다. Rust는 최근 JavaScript 도구 생태계에서 성능을 높이는 새로운 표준처럼 여겨졌기 때문입니다. Rust를 선택하지 않은 이유는 다음과 같습니다.\n구조적 호환성 문제: 기존 TypeScript 컴파일러(tsc)는 JS의 GC와 가변 객체 그래프를 광범위하게 활용합니다. Rust로 옮기려면 공유 가변성(shared mutability) 문제로 인해 수많은 부분을 재설계해야 했고, 이는 호환성을 깨고 버그를 초래할 위험이 컸습니다.\n복잡성 증가: Rust의 엄격한 메모리 관리 규칙을 준수하면서 기존 기능을 그대로 구현하려면 과도하게 unsafe 코드를 사용하는 등 Rust의 장점을 살리지 못하는 결과를 초래할 수 있었습니다.\n개발자 경험의 일관성: 타입스크립트 설계자 Anders Hejlsberg는 \"새로운 패러다임으로 재설계하는 리스크보다는 기존의 동작 방식을 최대한 유지하는 것이 중요했다\"고 밝혔습니다. Go는 JS와 유사한 가비지 컬렉터를 사용하며 메모리 관리와 코드 스타일 측면에서 기존 코드베이스와 호환성이 높았습니다.\n실제 Rust 기반의 SWC 컴파일러 개발자(kdy1) 역시 과거 타입스크립트 컴파일러를 Rust로 포팅하는 시도를 했지만, 구조적 한계 때문에 중단한 사례도 있습니다.\n앞으로의 로드맵과 일정\n마이크로소프트는 이번 프로젝트를 TypeScript 7.0 버전에서 공식적으로 출시할 예정입니다. 구체적인 로드맵은 다음과 같습니다.\n2025년 중반까지 Go로 작성된 TypeScript 컴파일러의 프리뷰 버전 제공 예정\n2025년 말까지 타입 검사 및 언어 서비스까지 기능 완비(feature-complete) 예정\n이후 기존 JS 버전(TypeScript 6.x 버전)은 상당 기간 유지하면서 개발자가 점진적으로 전환하도록 지원\n현재 GitHub에 Go 포팅 버전의 초기 코드가 공개되어 있어, 개발자들이 직접 테스트하고 피드백을 줄 수 있습니다.\n커뮤니티 및 전문가들의 반응: 기대와 우려 사이\n커뮤니티에서는 대체로 긍정적인 평가가 많습니다. 특히 현업 개발자들은 \"10배 빨라진 컴파일 속도\"에 큰 기대를 나타냈습니다. 하지만 Rust가 아니라 Go를 선택한 것에 대한 일부 아쉬움과 우려도 있었습니다. 특히 WebAssembly 번들 크기나 성능 측면에서 Rust보다 불리할 수 있다는 점에 대한 지적도 나왔습니다.\n그럼에도 불구하고, 마이크로소프트가 공개한 포팅 이유와 기술적 설명을 접한 뒤에는 다수의 개발자가 납득하고 긍정적으로 평가했습니다. 무엇보다 \"중요한 건 컴파일러의 성능 향상과 안정성이며, 결과가 좋다면 언어 선택은 부차적이다\"라는 의견이 힘을 얻고 있습니다.\n결론: TypeScript의 새로운 도약을 기대하며\n결론적으로 마이크로소프트의 이번 선택은 TypeScript의 향후 10년을 대비한 전략적인 결정으로 평가됩니다. Go로의 포팅이 성공적으로 이루어진다면, 앞으로 더 많은 프로젝트들이 TypeScript의 강력한 타입 시스템과 함께 더욱 향상된 성능과 생산성을 경험할 수 있을 것입니다. Rust 등 다른 후보 언어를 둘러싼 초기 논쟁도 있었지만, 결과적으로 이번 포팅 결정은 실용적이고 현실적인 선택이라는 평가를 받고 있습니다.\n타입스크립트의 새로운 시대가 열리고 있습니다. 마이크로소프트의 이번 결정이 실제 어떤 성과로 이어질지, 커뮤니티와 함께 기대하며 지켜볼 일입니다.\n출처 및 참고자료\nGitHub 공식 저장소: microsoft/typescript-go\nMicrosoft 공식 블로그: A 10x Faster TypeScript\n \n개발자 커뮤니티 (Hacker News): A 10x Faster TypeScript\n개발자 커뮤니티 (Reddit): A 10x Faster TypeScript : r/typescript\n2ality 기술 블로그: A closer look at the details behind the Go port of the TypeScript compiler\nSimon Willison 기술 블로그: A quote from Ryan Cavanaugh\nYouTube 영상 요약 및 분석 (ChainDesk.ai 요약 페이지): Microsoft goes nuclear on TypeScript codebase…",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1191",
-    "pubDate": "Thu, 13 Mar 2025 22:28:59 +0900",
-    "creator": "이건개발",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "소스 코드를 리포지토리 전체로 묶어서 LLM에 입력하는 방법",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/ai-llm_20250312/",
-    "pubDate": "Wed, 12 Mar 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA’s Blog Feedback 2025",
-    "description": "Over the years, the IntelliJ IDEA blog has become your go-to hub for expert insights, handy tips, and tech inspiration. But we want more – we’re heading to perfection, and we need your ideas to get there. Fill out this survey to let us know what rocks and what could be even better. It only […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/03/intellij-idea-s-blog-feedback-2025/",
-    "pubDate": "Mon, 10 Mar 2025 10:13:32 +0000",
-    "creator": "Irina Mariasova",
+    "link": "https://blog.gaerae.com/2025/03/a-10x-faster-typescript-go.html",
+    "pubDate": "Mon, 17 Mar 2025 03:06:00 +0000",
+    "creator": "noreply@blogger.com (Unknown)",
     "categories": [
-      "news",
-      "blogs",
-      "intellij-idea"
+      {
+        "_": "go",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      },
+      {
+        "_": "typescript",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      }
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "성급한 널 처리의 오류",
-    "description": "절대 죽지 않는 프로그램을 짜고 싶었습니다. 널 처리만 잘하면 된다고 생각했습니다.\n첫 회사에 입사해서 윈도우 클라이언트 프로그램을 부여받았습니다.\n맨티스라는 도구에 버그가 올라오면 내가 고칠 수 있는 게 있을까 신이 나서 찾아 고쳤습니다.\n대부분 널 포인터만 감싸면 고쳐지는 에러였습니다.\n26살의 신입사원답게 아주 재빨랐습니다.\n\nif (pData == NULL)\n  return;\n\n\n그리고 다시 재현해 보고 더 이상 죽지 않으면 Fixed로 변경.\n저는 이걸 성급한 널 처리의 오류라고 부르고 싶습니다.\n경험이 쌓이면서 이게 그리 쉬운 문제가 아니라는 걸 알았습니다.\n\nASSERT(pData);\n\n\nASSERT 같은 코드를 왜 쓰는지도 그쯤에야 깨달았습니다. (학생 때는 도무지 이해가 되지 않았습니다)\n이후로는 변수가 널이어야 하는 경우와 절대 널이어선 안 되는 경우를 엄격하게 구분하기 시작했습니다. 애초에 널 상태를 만들지 않으려 애썼습니다.\n변수를 처음 선언할 때부터.\nDB 스키마를 만들 때부터.\n서버에서 클라이언트에 데이터를 내려줄 때도 함부로 null 을 사용하지 않았습니다.\nC/C++처럼 낡은 언어와는 다르게 요즘 언어들은 nullable 혹은 optional 타입 기능을 제공하는 것 같습니다.\n\n함께 읽으면 좋은 글:\n메모리를 해제하기 전에 왜 널 체크를 하는걸까?",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/03/11/fallacy-of-hasty-null-handling.html",
-    "pubDate": "2025-03-10T23:17:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
+    "id": 15,
     "imageUrl": "",
     "title": "Meet the JetBrains Team at GDC 2025",
     "description": "From March 17–21, 2025, the Game Developers Conference (GDC) will bring together professionals from across the game industry at the Moscone Center in San Francisco. JetBrains is excited to once again be part of this event, and we invite you to visit our booth to explore how our tools can enhance your game development workflow. […]",
@@ -119,113 +244,6 @@
       "gdc",
       "rider",
       "teamcity"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "총과 던전 / 모바일 게임 / Gun &amp; Dungeons",
-    "description": "영상: https://www.youtube.com/watch?v=desinfavvOU\n\n\n\n \n구글플레이: https://play.google.com/store/apps/details?id=com.miniclip.gunanddungeons\n \n총의 파괴력을 잘 구현했군요 재밌어 보입니다.\n재밌어 보입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1193",
-    "pubDate": "Fri, 14 Mar 2025 03:28:55 +0900",
-    "creator": "이건개발",
-    "categories": [
-      "게임"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "3월 여행에 알아두면 돈 되는 정책 4가지: 대한민국 숙박세일 페스타, KTX 할인, 내나라 여행박람회 등 ",
-    "description": "반값 KTX부터 숙박료 할인까지",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/money-policies-35",
-    "pubDate": "Wed, 12 Mar 2025 05:17:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "유니티 안드로이드 게임 개발 문제 요약",
-    "description": "잡다한 문제로 시간이 많이 날아가서 죽어둡니다.\n \nGITHUB 문제\n유니티에 리소스를 무한정 넣다보니 프로젝트 크기가 1GB 가 되었습니다.\nAssets/ExternalDependencyManager 이폴더는 수시로 바뀌는거 같습니다. ignore 에 추가해서 git 에 올라가지 않도록 막아야겠습니다.\n \n안드로이드 모듈 문제\nAdmob\nFirebase Analytics\nGoogle Play Games\n세개를 붙여야하는데 빌드가 안되는군요\n빌드 지옥에 빠진 느낌입니다.\n빌드가 안되서 계속 설치하다보니 Assets/Firebase 이 폴더가\n어마어마하게 커지는 문제도 있었습니다.\n파일 권한 문제로 파일이 삭제가 안되는 현상이 있어서 \n불필요한 파일이 제때 지워지지 않는거 같습니다.\n이 현상은 로그아웃 또는 재시작을 하지 않으면 파일을 수동으로도 삭제할 수가 없네\nMac 에선 파일 권한문제가 안생기니 Mac 으로 좀 해봐야겠습니다..\n \nAdmob\n앱 검증이 해결이 안되네요 홈페이지의 app-ads.txt 문제라고 하는데 \n앱의 웹사이트를 blogger 로 하는 예제가 많아서 그걸로 변경해봐야겠습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1201",
-    "pubDate": "Mon, 17 Mar 2025 03:23:42 +0900",
-    "creator": "이건개발",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "토스, 앱 출시 10주년 기념 ‘10 to 100’ 캠페인 성공적 마무리",
-    "description": "스퀘어 오브 토스 5일 간 총 방문객 4천 명 이상 기록",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/10to100end",
-    "pubDate": "Mon, 10 Mar 2025 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "엘라스틱 Runtime field - 11th",
-    "description": "배열 데이터에 접근하는 런타임 필드 생성.\n\n\n\n\n\n\n런타임 필드는 인덱싱을 하지 않기 때문에 대소문자를 구분한다.\n\n\n\n\n\n소문자 검색 실패.\n\n\n\n\n검색 시 대소문자 구분을 하고 싶지 않다면 만들 때부터 소문자로 저장해야 한다.\n\n\n\n\n관련 글\n\n엘라스틱 Runtime field - 10th\n엘라스틱 Runtime field\nElasticsearch 활용(scripted field)\n정규표현식 몰라도 된다 - 2nd\nconvert ip to decimal\nWinlogbeat 8.12의 변화",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/03/runtime-field-11th.html",
-    "pubDate": "2025-03-12T11:16:00.001Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "GPT-4o Copilot code completion model available now in Visual Studio public preview",
-    "description": "We are excited to announce that the new GPT-4o Copilot code completion model is now available for GitHub Copilot users in Visual Studio starting in 17.14 Preview 2! This new model, based on GPT-4o mini, has undergone additional training on over 275,000 high-quality public repositories across more than 30 popular programming languages. As a result, […]\nThe post GPT-4o Copilot code completion model available now in Visual Studio public preview appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/gpt-4o-copilot-code-completion-model-available-now-in-visual-studio-public-preview/",
-    "pubDate": "Tue, 11 Mar 2025 15:00:21 +0000",
-    "creator": "Simona Liao",
-    "categories": [
-      "Artificial Intelligence",
-      "Copilot",
-      "GitHub Copilot",
-      "Productivity",
-      "Visual Studio",
-      "GitHub Copilot Completions"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Google Gemini 2025 업데이트 - 딥 리서치, 맞춤 AI &lsquo;Gems&rsquo; 등장!",
-    "description": "Google의 Gemini 앱이 또 한 번 진화했어요!   딥 리서치 기능이 강화되고, 나만의 AI ‘Gems’를 만들어 원하는 업무를 더 쉽게 처리할 수 있게 됐어요. 이제 Google 앱과도 연동되어 더욱 개인화된 AI 경험이 가능해졌다고 하는데요. 어떤 변화가 있는지 살펴볼까요?\n\n\n \nAI 비서가 여기까지? Google Gemini 2025년 3월 대규모 업데이트\nAI 기술이 점점 더 우리 생활 속으로 들어오고 있어요. 단순히 질문에 답하는 챗봇을 넘어, 이제는 개인 맞춤형 비서 역할까지 수행할 수 있게 됐죠. Google의 Gemini가 그 대표적인 예인데요. 이번 3월 업데이트를 통해 더 똑똑해진 연구 기능, Google 앱과의 강력한 연동, 그리고 나만의 AI 설정이 가능한 ‘Gems’ 기능이 추가됐어요.\n \n저도 직접 사용해보면서 “이제는 정말 AI가 내 일을 대신해 주는구나”라고 느꼈는데요. 이번 업데이트에서 가장 주목할 만한 변화를 하나씩 살펴볼게요.\n \n  연구를 대신해 주는 ‘딥 리서치(Deep Research)’\n요즘 자료 조사할 일이 많아서 AI를 적극 활용하는데요. 이번에 Gemini에서 강화된 딥 리서치(Deep Research) 기능이 진짜 유용하더라고요.\n\n\n \n✅ 웹에서 정보를 자동으로 수집 & 정리\n✅ 논리적인 단계별 분석으로 복잡한 문제 해결\n✅ 연구 보고서를 다중 페이지로 생성해 더 정리된 결과 제공\n \n예를 들어, 논문을 준비할 때 관련 자료를 찾고 요약하는 데 시간이 오래 걸리잖아요? 그런데 Gemini의 딥 리서치를 활용하면, AI가 스스로 정보를 찾아 정리해 주고, 심지어 그 과정까지 실시간으로 보여줘요. 시간이 확 줄어들어서 정말 편리하더라고요.\n이 기능은 Gemini Advanced 사용자에게 더 확장된 버전이 제공된다고 해요. 연구나 프로젝트가 많으신 분들은 적극 활용해 보시면 좋을 것 같아요.\n \n \n  Google 앱과 연결해 더 개인화된 AI 경험\n이제 Gemini는 Google의 다양한 앱과 연동이 가능해졌어요! 단순히 질문에 답하는 걸 넘어, 내가 평소에 사용하던 Google 서비스들과 연결되면서 더욱 개인화된 AI 경험을 제공하죠.\n \n✔️ Google 검색 이력 반영 → 맞춤형 답변 제공\n✔️ 캘린더, 노트, 할 일(Task)과 연동 → 일정 & 업무 관리\n✔️ YouTube에서 레시피 검색 → 장보기 목록 생성 → 근처 마트 찾기까지 한 번에!\n예를 들어, Gemini에게 **“이번 주말에 어디 갈지 추천해 줘”**라고 물어보면, 단순히 일반적인 추천이 아니라, 내가 최근 검색했던 여행지를 반영해서 답변해 줘요.\n \n또한, Google 포토와 연동하면 내 사진을 기반으로 일정표를 만들어 주거나, 예전에 찍어둔 문서를 찾아주는 기능도 추가될 예정이에요. 이제 AI가 정말 ‘개인 비서’처럼 작동하는 시대가 온 거죠.\n \n \n  나만의 AI 조수 ‘Gems’ 만들기\n여기서 끝이 아니에요! 이번 업데이트에서 가장 재미있었던 기능이 바로 ‘Gems’ 기능이었어요.\nGems는 나만의 맞춤형 AI 조수를 직접 만들 수 있는 기능인데요. 챗GPT의 GPTS, 클로드의 PROJECT와 비슷한 개념이예요.\n \n예를 들어,\n \n  번역기 Gem → 내가 자주 쓰는 표현을 학습한 맞춤 번역기\n  식단 플래너 Gem → 내 건강 목표에 맞춘 맞춤형 식단 추천\n  학습 조교 Gem → 수학 문제 풀이 도와주는 AI 선생님\n\n\n이런 식으로 내가 필요한 역할을 AI에게 맡길 수 있게 됐어요.\n설정도 간단해요! Gems 관리자에서 원하는 역할을 입력하고, 이름만 정하면 끝!\n파일 업로드 기능까지 지원해서, 특정 문서를 참고하도록 만들 수도 있더라고요. 저는 ‘콘텐츠 기획 보조’ 역할을 설정해서 Gemini가 글 아이디어를 정리해 주도록 만들어 봤어요. 업무 속도가 확실히 빨라지더라고요.\n \n \n  결론: AI가 더 가까워진 순간\n이번 Gemini 업데이트를 통해, AI는 이제 단순한 챗봇이 아니라 **진짜 ‘나만의 비서’**로 자리 잡아 가고 있어요. 내 연구를 도와주고, 내 일정도 관리해 주고, 내가 원하는 AI 조수를 직접 만들 수 있는 시대!\n앞으로 AI가 어떻게 발전할지 기대되지 않나요?  \n여러분은 어떤 기능이 가장 기대되시나요? 댓글로 의견을 나눠 주세요!\n  Q&A\nQ1. 딥 리서치(Deep Research)는 어떤 기능인가요?\n딥 리서치는 AI가 웹에서 정보를 수집하고 분석해 논리적인 보고서를 생성해 주는 기능이에요. 연구나 프로젝트 준비 시 큰 도움이 됩니다.\nQ2. Google 앱과 Gemini의 연동은 어떻게 설정하나요?\nGemini 앱에서 설정(Settings) 메뉴로 들어가 ‘개인화(Personalization)’ 기능을 활성화하면 Google 검색, 캘린더, 노트, 할 일(Task)과 연동할 수 있어요.\nQ3. ‘Gems’ 기능은 어떻게 활용할 수 있나요?\nGems는 나만의 맞춤형 AI 조수를 만드는 기능이에요. 예를 들어, ‘여행 일정 조수’, ‘식단 플래너’, ‘번역기’ 등을 직접 설정할 수 있답니다.\nQ4. Gemini 2.0 Flash Thinking 모델은 어떤 점이 개선됐나요?\n더 긴 문맥을 이해할 수 있는 1M 토큰 컨텍스트 창을 제공하며, 파일 업로드 기능이 추가되어 문서 기반의 분석이 가능해졌어요.\nQ5. 이번 업데이트를 무료로 사용할 수 있나요?\n일반 사용자는 딥 리서치 기능을 월 몇 회까지 무료로 사용할 수 있고, Gemini Advanced 사용자들은 더 많은 기능을 무제한으로 사용할 수 있어요.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"딥 리서치(Deep Research)는 어떤 기능인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"딥 리서치는 AI가 웹에서 정보를 수집하고 분석해 논리적인 보고서를 생성해 주는 기능이에요. 연구나 프로젝트 준비 시 큰 도움이 됩니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Google 앱과 Gemini의 연동은 어떻게 설정하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Gemini 앱에서 설정(Settings) 메뉴로 들어가 ‘개인화(Personalization)’ 기능을 활성화하면 Google 검색, 캘린더, 노트, 할 일(Task)과 연동할 수 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"‘Gems’ 기능은 어떻게 활용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Gems는 나만의 맞춤형 AI 조수를 만드는 기능이에요. 예를 들어, ‘여행 일정 조수’, ‘식단 플래너’, ‘번역기’ 등을 직접 설정할 수 있답니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Gemini 2.0 Flash Thinking 모델은 어떤 점이 개선됐나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"더 긴 문맥을 이해할 수 있는 1M 토큰 컨텍스트 창을 제공하며, 파일 업로드 기능이 추가되어 문서 기반의 분석이 가능해졌어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"이번 업데이트를 무료로 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"일반 사용자는 딥 리서치 기능을 월 몇 회까지 무료로 사용할 수 있고, Gemini Advanced 사용자들은 더 많은 기능을 무제한으로 사용할 수 있어요.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483553",
-    "pubDate": "Fri, 14 Mar 2025 10:56:38 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술",
-      "2025 ai 업데이트",
-      "ai 연구 도구",
-      "ai 조수",
-      "AI 혁신",
-      "flash thinking",
-      "gemini 앱",
-      "google 앱 연동",
-      "개인 맞춤 ai",
-      "딥 리서치",
-      "인공지능 비서"
     ]
   }
 ]
