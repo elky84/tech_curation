@@ -2,189 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "JetBrains Xdebug Helper Browser Extension",
-    "description": "For years, PHP developers have relied on the popular Xdebug Helper Chrome extension to simplify their debugging experience with Xdebug. Unfortunately, this extension may soon no longer be supported, potentially disrupting developers’ workflows. To ensure that PHP developers can continue debugging without interruptions, we’re collaborating with Fraser Chapman on the official Xdebug Helper extension for […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/03/jetbrains-xdebug-helper/",
-    "pubDate": "Fri, 14 Mar 2025 09:11:15 +0000",
-    "creator": "Tania Goral",
-    "categories": [
-      "news",
-      "xdebug"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "프로그래머의 손톱",
-    "description": "신입 사원 때 회사의 CTO 이자 수석 프로그래머였던 분이 말씀하셨습니다.\n완전히 동감했습니다.\n예전에 어떤 대기업에 다닐 때 일입니다.\n말투가 너무 공격적이었기 때문에 비추를 많이 받았던 걸로 기억하지만… \n솔직히 말하면 저도 사무실에서 손톱을 자르는 사람 중 하나였습니다.\n어릴 땐 손톱 자르는 걸 지독히도 귀찮아했습니다.\n\n함께 읽으면 좋은 글:\n프로그래머의 고통\n결혼과 프로그래머",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/03/17/programmer-nails.html",
-    "pubDate": "2025-03-17T03:29:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "CLion 2025.1 Goes Beta With Enhanced CLion Nova, Debugger, and Embedded Development",
-    "description": "The Beta version of CLion 2025.1 is now available with key improvements and changes announced for the upcoming release. You can download build 251.23774.112 for free from the link below, via the Toolbox App, or as a snap package if you’re using Ubuntu. DOWNLOAD CLION 2025.1 BETA Read the full release notes on YouTrack. Below […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2025/03/clion-2025-1-beta/",
-    "pubDate": "Mon, 17 Mar 2025 08:59:17 +0000",
-    "creator": "Oleg Zinovyev",
-    "categories": [
-      "eap",
-      "news",
-      "beta",
-      "clionnova",
-      "debugger",
-      "embedded",
-      "natvis",
-      "qt",
-      "zephyr-west"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Java 24 and IntelliJ IDEA",
-    "description": "IntelliJ IDEA has supported Java 24 since an earlier release, with more enhancements being added in the later releases! I’m often asked, “What’s the best feature of Java 24?” My answer? Why pick just one? 🙂 Java 24 continues to enhance the language with improvements like Simple source files and instance main methods, Primitive Types […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/03/java-24-and-intellij-idea/",
-    "pubDate": "Tue, 18 Mar 2025 08:35:35 +0000",
-    "creator": "Mala Gupta",
-    "categories": [
-      "idea",
-      "java",
-      "intellijidea",
-      "java24",
-      "whatsnew-2"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Optimizing Build Times with Build Insights: How Activision Cut Call of Duty’s Build Time by 50%",
-    "description": "Slow build times are a major headache for developers, especially in large, complex C++ codebases like game engines. Every minute spent waiting on a build is time that could be used to refine features, resolve issues, or push development forward. Activision faced this challenge with Call of Duty: Modern Warfare II, where prolonged build times […]\nThe post Optimizing Build Times with Build Insights: How Activision Cut Call of Duty’s Build Time by 50% appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/optimizing-build-times-with-build-insights-how-activision-cut-call-of-dutys-build-time-by-50/",
-    "pubDate": "Tue, 18 Mar 2025 13:51:17 +0000",
-    "creator": "Moyo Okeremi",
-    "categories": [
-      "Build Insights",
-      "Build Optimization",
-      "C++",
-      "Game Development",
-      "Activision"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지",
-    "description": "한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제 다시 독립할 가능성이 제기되고 있는데요. 그렇다면 티스토리의 운명은 어떻게 될까요?\n\n\n \n\"다음 카페에서 찾아볼게.\"\n이 말이 인터넷에서 자연스럽게 오가던 시절이 있었습니다. 2000년대 초반까지만 해도 다음(Daum)은 대한민국에서 가장 인기 있는 포털이었어요. 검색하면 네이버가 아니라 다음이 먼저 나왔고, 이메일도 다음의 한메일이 대세였습니다.\n \n하지만 지금은 다릅니다. 포털 1위 자리는 네이버에게 완전히 내줬고, 뉴스·검색·커뮤니티 서비스도 예전만 못합니다. 한때 포털의 제왕이었던 다음은 어떻게 지금의 상황에 처하게 된 걸까요?\n \n저 역시 인터넷 초창기부터 다음을 사용해왔고, 지금도 티스토리를 운영하는 블로거로서 이 변화가 남의 일처럼 느껴지지 않아요. 오늘은 다음이 어떻게 성장하고 쇠퇴했으며, 티스토리가 앞으로 어떤 길을 걷게 될지 이야기해보려고 합니다.\n \n \n1. 다음(Daum)의 전성기: 한메일과 포털의 제왕 (1995~2000년대 초반)\n1995년, 대한민국의 인터넷 환경은 지금과 많이 달랐습니다. 인터넷이 보급되기 시작하던 시절, 기업과 연구기관을 중심으로 이메일이 사용되었지만, 일반 사용자는 쉽게 접근할 방법이 없었어요.\n \n이때 이재웅 대표가 창업한 ‘다음커뮤니케이션’은 무료 이메일 서비스 ‘한메일(Hanmail)’을 선보이며 인터넷 대중화를 이끌었습니다. 당시 이메일을 무료로 제공하는 것은 혁신적인 서비스였고, 이 덕분에 다음은 급속도로 성장할 수 있었어요.\n✅ 다음의 성공 요인\n무료 이메일 서비스(한메일) 제공 → 국내 최초의 대중화된 이메일 서비스\n카페, 뉴스, 커뮤니티 중심 포털 구축 → 정보 검색과 온라인 커뮤니티 활성화\n한국 시장에 최적화된 서비스 제공 → 야후, 라이코스 등 해외 포털과의 차별화\n1999년, 다음은 이메일을 기반으로 ‘다음(Daum) 포털 사이트’를 오픈하면서 대한민국 최대 포털로 자리 잡았습니다.\n특히 다음 카페는 온라인 커뮤니티 문화의 중심이었습니다. 네이버의 ‘지식iN’이 등장하기 전까지, 많은 사용자들이 정보를 얻기 위해 다음 카페를 이용했어요.\n하지만 이런 성공은 오래가지 않았습니다.\n \n2. 네이버와 구글에 밀려난 다음 (2000년대 중반~2010년대 초반)\n2000년대 중반부터 다음의 하락세가 시작되었습니다. 가장 큰 이유는 검색 엔진 경쟁에서 밀려났기 때문이에요.\n네이버의 ‘지식iN’과 검색 기술 강화\n\n네이버는 2002년 ‘지식iN’을 출시하며 검색 점유율을 급격히 끌어올렸어요.\n당시 검색 기술이 부족했던 상황에서, 사용자들이 직접 답변을 달아주는 ‘지식iN’ 서비스는 검색의 패러다임을 바꿨죠.\n다음의 검색 서비스는 상대적으로 뒤처지면서 점점 사용자들의 이탈이 가속화되었습니다.\n구글의 광고 모델(애드센스) 도입\n\n구글이 애드센스를 도입하면서 온라인 광고 시장이 급변했어요.\n하지만 다음은 이에 효과적으로 대응하지 못했고, 네이버 역시 자체 광고 시스템을 구축하면서 다음의 수익 모델이 흔들리기 시작했습니다.\n모바일 시장 대응 부족\n\n2010년 이후 스마트폰이 대중화되면서 모바일 검색이 중요해졌습니다.\n네이버는 ‘모바일 최적화’를 빠르게 진행했지만, 다음은 대응이 늦었어요.\n  이 시점에서 다음의 웹 검색 점유율은 10%대로 추락했고, 네이버가 70% 이상을 차지하는 독점적 구조가 형성되었습니다.\n \n3. 티스토리의 탄생과 성장 (2006~2010년대 초반)\n2000년대 중반, 블로그가 새로운 콘텐츠 플랫폼으로 주목받기 시작했어요.\n2006년, 태터앤컴퍼니(TNC)가 개발한 티스토리(Tistory)는 기존 블로그 서비스와 차별화된 특징을 갖고 있었습니다.\n✅ 티스토리의 차별점\nHTML/CSS 편집 가능 → 완전한 자유도 제공\n애드센스(AdSense) 및 자체 광고 운영 가능 → 수익형 블로그 운영 가능\n개방형 플랫폼 → 검색 엔진 최적화(SEO) 강점\n  2007년, 다음이 TNC를 인수하면서 티스토리는 다음의 공식 블로그 서비스가 되었습니다.\n \n이후 많은 블로거들이 네이버 블로그 대신 티스토리를 선택했어요. 하지만 2010년대 이후 유튜브, SNS 중심의 콘텐츠 소비가 늘어나면서 블로그 시장도 점차 변화를 맞이하게 됩니다.\n \n4. 카카오의 다음 인수 (2014년)와 티스토리의 변화\n2014년, 카카오는 다음을 인수하며 ‘다음카카오’라는 새로운 기업을 출범했습니다.\n카카오는 다음을 인수하면서 검색 트래픽과 콘텐츠 플랫폼을 강화하려는 전략을 내세웠습니다.\n하지만 시간이 지나면서 카카오는 점점 카카오톡, AI, 금융(카카오페이), 콘텐츠(브런치·카카오뷰) 사업에 집중하며, 다음과 티스토리는 점점 우선순위에서 밀려났습니다.\n결국, 카카오는 2023년, 포털 서비스 '다음(Daum)'을 사내독립기업(CIC, Company-in-Company)으로 전환했습니다. 이는 급변하는 인터넷 환경 속에서 포털 사업의 자율성을 높이고, 독립적인 의사 결정을 통해 경쟁력을 강화하려는 목적이었습니다. 당시 카카오는 다음의 검색, 뉴스, 커뮤니티 서비스 등을 최적화하는 한편, 자사 핵심 서비스인 카카오톡, AI, 금융 사업에 더욱 집중하는 전략을 펼쳤습니다.\n그러나 2025년 3월, 카카오는 결국 다음의 분사를 공식 발표했습니다. 정확한 분사 시점은 아직 정해지지 않았지만, 이번 결정은 포털 사업의 독립성을 더욱 강화하고, 다음의 새로운 성장 가능성을 모색하기 위한 움직임으로 해석됩니다. 이에 따라 다음과 티스토리의 향후 운영 방향과 서비스 구조에도 큰 변화가 예상되며, 기존 사용자들도 이에 대한 대비가 필요할 것으로 보입니다.\n \n \n5. 다음(Daum)과 티스토리, 앞으로 어떻게 될까?\n다음과 티스토리가 처한 현재 상황을 이해했다면, 이제 앞으로의 미래가 궁금해질 텐데요.\n다음과 티스토리의 미래는 단순히 한 번의 분석으로 끝날 문제가 아닙니다. 이에 따라, 보다 심층적으로 다룰 예정입니다.\n  다음 연재 시리즈에서 다룰 주제\n1. 다음의 분사가 티스토리에 미치는 영향\n2. 티스토리의 유료화 가능성과 블로거들의 대응 전략\n3. 티스토리를 대체할 수 있는 플랫폼 비교 분석\n  앞으로의 연재 시리즈에서 티스토리의 미래를 보다 깊이 있게 다룰 예정이니, 계속 지켜봐 주세요!  \n  Q&A\nQ1. 다음(Daum)은 왜 네이버에게 1위 자리를 빼앗겼나요?\nA. 네이버가 검색 엔진을 강화하고, ‘지식iN’ 같은 차별화된 서비스를 제공하면서 검색 점유율을 급격히 끌어올렸기 때문입니다. 또한 모바일 시장 대응이 늦어지면서 점유율을 잃었습니다.\nQ2. 티스토리는 왜 네이버 블로그보다 인기가 많았나요?\nA. 티스토리는 HTML/CSS 편집이 가능하고, 애드센스를 통한 수익화가 가능했기 때문에 많은 블로거들에게 인기가 있었습니다. 반면, 네이버 블로그는 폐쇄적인 운영 방식을 고수했습니다.\nQ3. 카카오는 왜 다음을 인수했나요?\nA. 카카오는 다음을 인수하여 포털 검색 트래픽을 활용하고, 뉴스·커뮤니티·광고 플랫폼을 강화하려 했습니다. 하지만 시간이 지나면서 검색보다는 카카오톡, AI, 금융 등 다른 사업에 집중하게 되었습니다.\nQ4. 다음이 카카오에서 분리되면 티스토리는 어떻게 될까요?\nA. 티스토리가 다음과 함께 독립할지, 아니면 카카오가 유지할지가 관건입니다. 카카오가 유지하면 브런치, 카카오뷰와의 연계가 강화될 가능성이 높고, 다음과 함께 독립한다면 기존 포털 검색 기반 블로그로 남을 가능성이 큽니다.\nQ5. 티스토리를 떠나야 할까요?\nA. 티스토리의 미래가 불확실한 만큼, 워드프레스, 브런치, 네이버 블로그 같은 대체 플랫폼을 고려해 대비하는 것이 좋습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"다음(Daum)은 왜 네이버에게 1위 자리를 빼앗겼나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네이버가 검색 엔진을 강화하고, ‘지식iN’ 같은 차별화된 서비스를 제공하면서 검색 점유율을 급격히 끌어올렸기 때문입니다. 또한 모바일 시장 대응이 늦어지면서 점유율을 잃었습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리는 왜 네이버 블로그보다 인기가 많았나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"티스토리는 HTML/CSS 편집이 가능하고, 애드센스를 통한 수익화가 가능했기 때문에 많은 블로거들에게 인기가 있었습니다. 반면, 네이버 블로그는 폐쇄적인 운영 방식을 고수했습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"카카오는 왜 다음을 인수했나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오는 다음을 인수하여 포털 검색 트래픽을 활용하고, 뉴스·커뮤니티·광고 플랫폼을 강화하려 했습니다. 하지만 시간이 지나면서 검색보다는 카카오톡, AI, 금융 등 다른 사업에 집중하게 되었습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"다음이 카카오에서 분리되면 티스토리는 어떻게 될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"티스토리가 다음과 함께 독립할지, 아니면 카카오가 유지할지가 관건입니다. 카카오가 유지하면 브런치, 카카오뷰와의 연계가 강화될 가능성이 높고, 다음과 함께 독립한다면 기존 포털 검색 기반 블로그로 남을 가능성이 큽니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리를 떠나야 할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"티스토리의 미래가 불확실한 만큼, 워드프레스, 브런치, 네이버 블로그 같은 대체 플랫폼을 고려해 대비하는 것이 좋습니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483556",
-    "pubDate": "Wed, 19 Mar 2025 09:40:40 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "NEWS/IT 뉴스",
-      "검색 엔진",
-      "네이버",
-      "다음",
-      "다음 카페",
-      "카카오",
-      "카카오 다음 분사",
-      "티스토리",
-      "티스토리 유료화",
-      "포털 역사",
-      "한메일"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "토스플레이스, ISO 정보보호 국제표준 인증 2건 동시 획득",
-    "description": "자체 취득으로 뛰어난 정보보호 및 보안 수준 입증",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/tossplaceISO",
-    "pubDate": "Wed, 12 Mar 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Boost your GitHub productivity with our new multi-account support!",
-    "description": "Managing your GitHub identity in Visual Studio 2022 just got easier! Our latest update overhauls the GitHub account management experience and improves how you work with multiple accounts, especially for GitHub Copilot and version control scenarios. In this post, we’ll detail how these changes will make your GitHub workflow smoother, from the moment you start […]\nThe post Boost your GitHub productivity with our new multi-account support! appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/boost-your-github-productivity-with-our-new-multi-account-support/",
-    "pubDate": "Tue, 18 Mar 2025 14:00:56 +0000",
-    "creator": "Ruben Rios",
-    "categories": [
-      "Accessibility",
-      "Git",
-      "Visual Studio",
-      "GitHub",
-      "Sign in"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Shout-Out to Kotlin for Server-Side Content Creators! ",
-    "description": "If you’re using Kotlin for server-side development and sharing your experiences – whether through blog posts, videos, or sample projects – know that we see you, and we want to highlight your work! Recent picks from the community 📖 [Article] From Java to Kotlin — a practical example of how to convert code – Paul […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/03/shout-out-to-kotlin-for-server-side-content-creators/",
-    "pubDate": "Tue, 18 Mar 2025 13:13:03 +0000",
-    "creator": "Alyona Chernyaeva",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "ts-node -&gt; tsx 로 이동중",
-    "description": "영상: https://www.youtube.com/watch?v=dHHdabdturE\n\n\n\n8분에 잠깐 언급됩니다.\nts-node 는 .ts 파일을 바로 실행할 수 잇는 툴인데\n이게 뜨는데 좀 느린감이있었는데 새로운게 나왔군요\n써봐야겠습니다.\n \n참고 블로그: https://blog.hansolbangul.com/post/to-boilerplate-step1\n\n \nTypeScript 설정 및 ts-node vs tsx 비교\nTypeScript 프로젝트를 시작하기 위한 기본 설정 방법과 ts-node와 tsx의 성능 차이를 비교해보았습니다. 벤치마크 결과를 바탕으로 더 빠르고 효율적인 실행 도구를 선택하고, 라이브러리 개발에 적\nblog.hansolbangul.com",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1208",
-    "pubDate": "Tue, 18 Mar 2025 13:46:09 +0900",
-    "creator": "이건개발",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Azure 파일 공유에서 리눅스용 연결 스크립트 문제 해결",
-    "description": "Troubleshooting connection scripts for Linux in Azure Files\n최근 (2025년 3월 기준) 스토리지 계정의 파일 공유의 리눅스 연결 스크립트에 문제가 있음을 확인했다 (아래 그림 참조).\n\n\n[문제 및 원인]\n빨간색 상자의 내용과 녹색 상자의 내용 불일치로 파일 공유 마운트 실패.\n마운트용으로 생성한 디렉터리와 mount 명령을 수행할 마운트 포인트의 경로가 다르다. \n \n[솔루션]\n빨간색 상자의 \"media\"를 \"mnt\"로 바꾸거나, 녹색 상자의 \"mnt\"를 \"media\"로 바꿔야 한다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://www.dokyun.pe.kr/360",
-    "pubDate": "Tue, 18 Mar 2025 21:21:40 +0900",
-    "creator": "강철 벼룩",
-    "categories": [
-      "Azure &amp; Windows/Azure",
-      "azure files",
-      "azure storage",
-      "스토리지계정",
-      "파일공유"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
     "title": "더욱 이야기하고 싶어지는 ChatGPT의 개인화",
     "description": "No description available",
     "reviews": [],
@@ -195,47 +12,208 @@
     "categories": []
   },
   {
-    "id": 13,
+    "id": 2,
     "imageUrl": "",
-    "title": "초등학교 1학년을 위한 받아쓰기 어플",
-    "description": "제가 국민학교 다닐 땐 받아쓰기를 했습니다.\n‘읍니다’가, ‘습니다’로 바뀌어서 와장창 틀렸던 기억.\n얼마 전 딸이 초등학교에 들어갔는데, 맞춤법이 자주 틀려서 교정해주기 위한 어플을 만들어봤습니다.\n온 가족이 함께 만들었습니다.\n\n아직 개선할 부분들이 많지만 다른 사람들도 함께 쓸 수 있도록 공개해봅니다.\n혹시라도 사람들이 의미있게 써준다면 한국 사람들은 무료로 쓰게 하고 해외에만 몇 달러 정도에 팔아볼까하는 생각은 있습니다.\n앱을 올리고 한 번도 광고하지 않았는데도 글로벌 여기저기서 쓰는 모습을 보고 놀랍고 기쁘기도 했습니다.\n\n이게 글로벌 서비스의 재미인가?\n…사실 별 가치를 못 주고 망할 가능성이 높습니다.\n소개페이지\n안드로이드 다운로드\n아이폰 다운로드\n\n함께 읽으면 좋은 글:\n달러 한 번 벌어보고 싶다",
+    "title": "TeamCity Roadmap 2025: Updating the UI, TeamCity Recipes, and Much More",
+    "description": "This year, the TeamCity team is working on a number of new initiatives, including updating the UI, TeamCity recipes, Jenkins migration tools, and many others. Read on to learn what our focus is for 2025. Modernizing the TeamCity Enterprise interface In 2025, we’re taking a major step forward in enhancing the TeamCity experience. The modern […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/03/14/spell-start.html",
-    "pubDate": "2025-03-14T04:22:00.000Z",
+    "link": "https://blog.jetbrains.com/teamcity/2025/03/teamcity-roadmap-2025/",
+    "pubDate": "Wed, 19 Mar 2025 14:32:32 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Kling AI 로 뽑은 것들",
+    "description": "이미지로 영상을 뽑아보았습니다.\n\n\n시작 종료 프레임을 넣고 고개를 살짝 돌리가고 했는데 ....\n \n\n\n\n반대로 돌려버리네요 ㄷㄷㄷ\n반대로 돌리라고 해서 하나 더 뽑아봤습니다.\n\n\n\n안고쳐지네요\n그래도 마지막에 웃는 타이밍이 좀 나아졌습니다.\n수동으로 좀 잘랐습니다.\n\n\n\n \n자연스럽게 ㅋ\n \n만든시간이 아까워서 쇼츠에 올렸습니다.\n영상: https://www.youtube.com/shorts/V5gwZjCiEMI",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1213",
+    "pubDate": "Wed, 19 Mar 2025 01:48:41 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "유튜브"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "ts-node -&gt; tsx 로 이동중",
+    "description": "영상: https://www.youtube.com/watch?v=dHHdabdturE\n\n\n\n8분에 잠깐 언급됩니다.\nts-node 는 .ts 파일을 바로 실행할 수 잇는 툴인데\n이게 뜨는데 좀 느린감이있었는데 새로운게 나왔군요\n써봐야겠습니다.\n \n참고 블로그: https://blog.hansolbangul.com/post/to-boilerplate-step1\n\n \nTypeScript 설정 및 ts-node vs tsx 비교\nTypeScript 프로젝트를 시작하기 위한 기본 설정 방법과 ts-node와 tsx의 성능 차이를 비교해보았습니다. 벤치마크 결과를 바탕으로 더 빠르고 효율적인 실행 도구를 선택하고, 라이브러리 개발에 적\nblog.hansolbangul.com\n\n \n코딩 애플: https://www.youtube.com/watch?v=sObop-Jj32Y\n\n\n\n영상이 속속 올라오는군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1208",
+    "pubDate": "Tue, 18 Mar 2025 13:46:09 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "2D 케릭터 에니메이션 1달러에 판매하는 곳 발견 / zegley.itch.io",
+    "description": "링크: https://zegley.itch.io/strawhat\n\n \nStraw Hat by ZeggyGames\n2D Katana and Dagger wielding, pixel-art character\nzegley.itch.io\n\n좋네요 1달러에 팝니다.\n그런데 몇개 없구요 ...\nhttps://zegley.itch.io/\n\n\n아쉽",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1211",
+    "pubDate": "Tue, 18 Mar 2025 17:24:57 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "파이어 베이스 functions 로컬 실행 및 자동 실행 / Typescript",
+    "description": "typescript 로 작업하는데 저장하니까 새로고침이 안되는군요\n \n노드몬 설치합니다. \n(필요 없을꺼 같군요)\nnpm install nodemon -g \n \npackage.json 에 script 부분을 수정해야합니다.\n  \"scripts\": {\n    \"build\": \"tsc\",\n    \"build:watch\": \"tsc --watch\",\n    \"serve2\": \"npm run build && firebase emulators:start --only functions\",\n    \"serve\": \"npm run build && --watch | firebase emulators:start --only functions\",\n    \"shell\": \"npm run build && firebase functions:shell\",\n    \"start\": \"npm run shell\",\n    \"deploy\": \"firebase deploy --only functions\",\n    \"logs\": \"firebase functions:log\"\n  },\nserve2 가 기존 명령 보관해둔거구요\nserve 가 새로 넣은 명령입니다. --watch 가 들어간걸 알 수 있습니다.\n테스트 서버 실행\nfirebase emulators:start \n \n다시 실행 해주긴하는데\n반응이 겁나 느립니다.\n이런 환경에서 개발하다니 놀랍습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1212",
+    "pubDate": "Tue, 18 Mar 2025 21:21:50 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "유니티 애셋 / Block Blast / 데모게임 / 유",
+    "description": "영상: https://www.youtube.com/watch?v=LYECrh_MYOw&t=55s\n\n\n\n \n유니티 애셋 스토어 링크: https://assetstore.unity.com/packages/templates/packs/blast-puzzle-template-editor-313175\n\n \nBlast Puzzle | Template + Editor | 패키지 | Unity Asset Store\nUse Blast Puzzle | Template + Editor from Watermelon Games to elevate your next project. Find this & more 패키지 and templates on the Unity Asset Store.\nassetstore.unity.com\n\n \n비싸긴한데 카피게임 올리기엔 쉽겠군요\n거의 비슷하군요\n기억해 둬야겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1214",
+    "pubDate": "Wed, 19 Mar 2025 10:58:49 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/유니티 에셋 리뷰"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Using AI Agents for Notebook Debugging",
+    "description": "Debugging computational notebooks can be quite frustrating for a variety of reasons, including issues like out-of-order cell execution, missing data files, and library conflicts. Traditional AI tools often struggle with these problems due to the interactive nature of notebooks, but at JetBrains, we are exploring new solutions. Our research team has developed a prototype of […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/03/using-ai-agents-for-notebook-debugging/",
+    "pubDate": "Wed, 19 Mar 2025 12:53:50 +0000",
+    "creator": "Galina Ryazanskaya",
+    "categories": [
+      "research",
+      "ai-agent",
+      "ai-agents",
+      "debug",
+      "debugging"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2024.3.5 Is Out!",
+    "description": "We’ve released another update for v2024.3! You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. This new version that brings the following valuable improvements:  To see the full list of issues addressed in this […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/03/intellij-idea-2024-3-5/",
+    "pubDate": "Tue, 18 Mar 2025 10:38:35 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": [
+      "releases",
+      "2024-3",
+      "bug-fix-update",
+      "intellij-idea-2024-3"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "ingest pipeline - 5th",
+    "description": "다음은 url과 변수를 구분해서 검사하는 정규표현식.\n\n\n\n\n\ngrok processor 사용 시 에러 발생.\n\n\nPOST _ingest/pipeline/_simulate\n{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"grok\": {\n          \"field\": \"msg\",\n          \"patterns\": [\"(?<url>[^?]+)\\?(?<param>.*)\"]\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\n\n\n{\n  \"error\": {\n    \"root_cause\": [\n      {\n        \"type\": \"parse_exception\",\n        \"reason\": \"Failed to parse content to type\"\n      }\n    ],\n    \"type\": \"parse_exception\",\n    \"reason\": \"Failed to parse content to type\",\n    \"caused_by\": {\n      \"type\": \"json_parse_exception\",\n      \"reason\": \"\"\"Unrecognized character escape '?' (code 63)\n at [Source: (byte[])\"{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"grok\": {\n          \"field\": \"msg\",\n          \"patterns\": [\"(?<url>[^?]+)\\?(?<param>.*)\"]\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\"; line: 7, column: 39]\"\"\"\n    }\n  },\n  \"status\": 400\n}\n\n\n순수 문자 ?(\\?)를 인식하지 못한다. 예외처리를 한 번 더 해줘야 함.\n\n\nPOST _ingest/pipeline/_simulate\n{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"grok\": {\n          \"field\": \"msg\",\n          \"patterns\": [\"(?<url>[^?]+)\\\\?(?<param>.*)\"]\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\n\n\n{\n  \"docs\": [\n    {\n      \"doc\": {\n        \"_index\": \"_index\",\n        \"_version\": \"-3\",\n        \"_id\": \"_id\",\n        \"_source\": {\n          \"msg\": \"index.php?a=b\",\n          \"param\": \"a=b\",\n          \"url\": \"index.php\"\n        },\n        \"_ingest\": {\n          \"timestamp\": \"2025-03-14T09:25:47.8591859Z\"\n        }\n      }\n    }\n  ]\n}\n\n\ngrok과 script processor의 정규표현식 처리 방식이 다르다. 이러니 헷갈리지(..)\n\n\nPOST _ingest/pipeline/_simulate\n{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"script\": {\n          \"source\": \"\"\"\n            def str = /([^?]+)\\?(.*)/.matcher(ctx.msg);\n            if (str.find()) {\n              ctx.url = str.group(1);\n              ctx.param = str.group(2);\n            }  \n          \"\"\"\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\n\n\n{\n  \"docs\": [\n    {\n      \"doc\": {\n        \"_index\": \"_index\",\n        \"_version\": \"-3\",\n        \"_id\": \"_id\",\n        \"_source\": {\n          \"msg\": \"index.php?a=b\",\n          \"param\": \"a=b\",\n          \"url\": \"index.php\"\n        },\n        \"_ingest\": {\n          \"timestamp\": \"2025-03-14T09:29:27.6636501Z\"\n        }\n      }\n    }\n  ]\n}\n\n\n관련 글\n\ningest pipeline - 6th\ningest pipeline - 4th",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/03/ingest-pipeline-5th.html",
+    "pubDate": "2025-03-14T09:40:00.006Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 14,
+    "id": 11,
     "imageUrl": "",
-    "title": "덜 약속하고; 더 해주어라",
-    "description": "우린 어쩔 땐 하루에도 열 개가 넘는 회사 자료를 검토한다. 관심이 가는 사업은 조금 더 자세히 보고, 그렇지 않은 사업의 자료는 특별하게 관심을 갖고 보는 부분 – 예를 들면, 창업팀의 이력이나 매출과 같은 수치가 있는 페이지 – 외엔 빠르게 스캔하고 스크리닝하는 편이다. 모든 회사는 다르고, 모든 비즈니스는 다르므로, 자료의 내용은 회사마다 다르지만, 웬만한 자료는 공통으로(...)",
+    "title": "코딩 AI 한태 시키고 놀고먹어라 / AI 바비으 코딩 시대",
+    "description": "영상: https://www.youtube.com/watch?v=wC-ob3dG-Yk\n\n\n\nAI 에게 시켜서 출시 까지 가는 법을 익혀야합니다.\n사람이 짜다보면 개발 속도가 나오지 않습니다.\n \nai vibe coding\nai 한태 시키고 놀고 먹으로는 뜻이 되었다고 하네요\n유튜브에 외국 영상은 꽤 많군요\n이것이 문화가 될 것 같습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/03/underpromise-overdeliver.html",
-    "pubDate": "Wed, 12 Mar 2025 21:35:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "http://serverdown.tistory.com/1210",
+    "pubDate": "Tue, 18 Mar 2025 16:04:21 +0900",
+    "creator": "이건개발",
     "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "fundraising",
-      "inspiring",
-      "strategy",
-      "Strong",
-      "vc"
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "SQLMesh 사용법 : dbt의 경쟁자가 될 수 있을까?",
+    "description": "이 글은 SQLMesh 사용법에 대해 작성한 글입니다\n예상 독자\n    \nSQLMesh가 궁금하신 분\nSQLMesh가 dbt 대비 어떤 것이 다른지 궁금하신 분\n이 글을 보시기 전에 dbt, DuckDB에 대해 알고 계시면 좋을 수 있는데, 과거에 작성한 글을 추천\n        \ndbt 사용법과 기본 개념\nDuckDB 사용법\n키워드 : SQLMesh 사용법, SQLMesh vs dbt\nSQLMesh란?\nSQLMesh GitHub\nTobiko의 오픈소스\n    \nSQLMesh, SQLGlot\nSQLMesh는 Transformation, Testing, Collaboration을 위한 DataOps 솔루션\n    \n데이터 Transformation 영역에서 dbt가 제일 유명한데, dbt에서 개선하면 좋은 점들을 개선해서 나오는 도구\nSQLMesh 공식 문서에 보면 dbt와 다른 점에서도 상세히 공유하고 있음\nTerraform에서 영감을 받은 부분이 있다고 함. 그래서 plan 명령어가 있음\n2025년 3월 15일 기준 v0.165.0\n\n\nSQLMesh의 장점\nSQLMesh의 Concept은 dbt와 유사하며, dbt와 차이점으로 나오는 장점들을 정리\n1) 간단한 SQL로 모델 생성 가능\n데이터 분석가 직무에 계신 분들이 처음 dbt를 사용하면 Jinja, YAML에 어려움을 겪는데, SQLMesh는 간단한 SQL로 정의할 수 있음\n2) 증분 로직 처리\ndbt에선 증분 로직을 is_incremental 등을 사용해서 만들어야 하는데, SQLMesh는 증분 로직을 쉽게 만들어줌\ndbt의 증분 로직\n    \n처음에 dbt를 학습할 때 제일 어려운 부분\ndbt는 state를 추적하지 않아서 이렇게 구현해야 함\n날짜 경계를 찾기 위해 수동으로 매크로를 지정하는 작업에서 오류가 나기 쉬움\n\n    \n  -- dbt incremental\n  SELECT *\n  FROM {{ ref(raw.events) }} e\n  JOIN {{ ref(raw.event_dims) }} d\n    ON e.id = d.id\n  -- must specify the is_incremental flag because this predicate will fail if the model has never run before\n  {% if is_incremental() %}\n      -- this filter dynamically scans the current model to find the date boundary\n      AND d.ds >= (SELECT MAX(ds) FROM {{ this }})\n  {% endif %}\n  {% if is_incremental() %}\n    WHERE e.ds >= (SELECT MAX(ds) FROM {{ this }})\n  {% endif %}\n    \n\n    \nSQLMesh는 날짜 범위를 알아서 추적해 간단하게 쓸 수 있음\n\n-- SQLMesh incremental\nSELECT *\nFROM raw.events e\nJOIN raw.event_dims d\n  -- date ranges are handled automatically by SQLMesh\n  ON e.id = d.id AND d.ds BETWEEN @start_ds AND @end_ds\nWHERE d.ds BETWEEN @start_ds AND @end_ds\n\n\n3) Data Gap 감지\ndbt에서 증분 모델을 구현할 때는 MAX(date)로 최근 데이터를 확인하고, 그 이후부터 적재하도록 함\n    \n이렇게 할 경우 과거에 누락된 데이터를 놓치게 되며, 데이터 파이프라인 관점에서 유지보수를 더 많이 해야 함\nSQLMesh는 모델이 실행된 날짜 간격을 저장해서 누락된 날짜를 정확히 알 수 있음\n\n  Expected dates: 2022-01-01, 2022-01-02, 2022-01-03\n  Missing past data: ?, 2022-01-02, 2022-01-03\n  Data gap: 2022-01-01, ?, 2022-01-03\n\n    \n4) 환경 격리\n데이터 파이프라인도 Prod/Dev 환경을 격리해야 할 수 있음. 규모가 커질수록 환경의 필요성이 생기지만, 환경을 구축하는 것은 고민이 많이 됨\n    \n환경을 구축하기 위해선 실제 데이터를 Dev에 그대로 제공해야 하는데, 이는 데이터 저장 비용이 드는 일이라 고민이 됨(데이터 저장 비용이 2배가 되는 상황)\ndbt는 환경마다 별도의 테이블에 데이터를 물리적으로 복제함\nSQLMesh는 VIEW를 사용해서 데이터를 물리적으로 저장하지 않아 비용이 들지 않음\n    \n환경마다 테이블 이름에 접두사를 붙여서 환경을 구분함\n5) 스키마 변경 자동화\n스키마가 변경되면 자동으로 감지하고 필요한 마이그레이션을 생성함\ndbt는 개발자가 직접 스키마 변경을 관리해야 함\n6) 오픈소스 UI 제공\ndbt는 Paid UI가 제공되며, 오픈소스 중에 찾으려면 lightdash를 사용해야 함\nSQLMesh는 오픈소스 UI가 존재해서 쉽게 사용할 수 있음(그러나 디자인은 약간 아쉬움)\n\n\n\nSQLMesh 실습\n작업 흐름\n파이썬 가상 환경 / 라이브러리 설치\n    \n파이썬 가상환경 설정\nSQLMesh 설치\n프로젝트 생성\n    \nProd 환경 설정\nModel 수정\nDev에서 작업\nProd로 통합\n\n파이썬 가상 환경 / 라이브러리 설치\n가상 환경 설정\n\npython -m venv .venv\nsource .venv/bin/activate\n\n\nSQLMesh 설치\n    \nWeb UI도 사용할 예정이라, 같이 설치\n\npip3 install \"sqlmesh[web]\"\n\n\nDuckdb 설치 : Local에서 Duckdb를 사용할 예정\n\npip3 install duckdb\n\n\n\n프로젝트 생성\n폴더 생성(sqlmesh-example)\n\nmkdir sqlmesh-example\ncd sqlmesh-example\n\n\nDuckDB 환경에서  init\n\nsqlmesh init duckdb\n\n\n다음과 같은 폴더, 파일들이 생성됨\n\n├── audits\n│   └── assert_positive_order_ids.sql\n├── config.yaml\n├── macros\n│   └── __init__.py\n├── models\n│   ├── full_model.sql\n│   ├── incremental_model.sql\n│   └── seed_model.sql\n├── seeds\n│   └── seed_data.csv\n└── tests\n    └── test_full_model.yaml\n\n6 directories, 8 files\n\n\nconfig.yaml\n프로젝트 디렉토리에 생성됨\n어떤 엔진을 사용할지, 게이트웨이 커넥션 등이 저장됨\n\ngateways:\n  duckdb:\n    connection:\n      # For more information on configuring the connection to your execution engine, visit:\n      # https://sqlmesh.readthedocs.io/en/stable/reference/configuration/#connections\n      # https://sqlmesh.readthedocs.io/en/stable/integrations/engines/duckdb/#connection-options\n      type: duckdb\n      database: db.db\n      # concurrent_tasks: 1\n      # register_comments: True\n      # pre_ping: False\n      # pretty_sql: False\n      # catalogs:\n      # extensions:\n      # connector_config:\n      # token:\n\n\ndefault_gateway: duckdb\n\nmodel_defaults:\n  dialect: duckdb\n  start: 2025-03-14\n\n\n생성된 폴더의 특징\nconfig.yaml : 프로젝트 설정 파일\nmodels : SQL/Python 모델 파일\n    \n현재 full_model.sql, incremental_model.sql, seed_model.sql이 저장됨\nseeds : CSV 같은 고정된 데이터셋\naudits : 모델의 출력을 검증할 때 사용\n    \n목적: 모델 출력의 데이터 품질을 검증\n실행 시점: 모델 실행 후 매번 자동으로 실행. 계획(plan)을 적용할 때마다 SQLMesh는 자동으로 실행\n기본 동작: 감사가 실패하면 sqlmesh plan을 중단해 잠재적으로 유효하지 않은 데이터가 다운스트림으로 전파되는 것을 방지\ntests : 모델의 로직의 정확성 검증\n    \n목적: 모델의 로직을 검증하고 예상된 출력과 일치하는지 확인\n실행 시점: 개발 중, 또는 CI/CD 과정\n작동 방식: 사전 정의된 입력으로 모델의 로직을 평가하고 출력을 테스트에서 제공된 예상 결과와 비교\n소프트웨어 개발의 단위 테스트(unit testing)와 유사\nmacros : 매크로 저장. SQLMesh 매크로와 Jinja 매크로로 나뉨\nModel 생성\nModel Doc\n위에 init하면서 생긴 Model 살펴보기\nFull Model\n최상단에 MODEL 명령어를 사용해 모델을 정의\nname은 프로젝트 이름에서 Unique해야 함\nkind : 모델의 종류를 의미\n    \nModel Kind properties에서 확인할 수 있음\nVIEW, FULL, Incremental Model이 존재\n        \nIncremental Model은 INCREMENTAL_BY_TIME_RANGE,  INCREMENTAL_BY_UNIQUE_KEY, INCREMENTAL_BY_PARTITION로 나뉨\ncron : 모델이 데이터를 처리하거나 새로고침을 할 때 사용할 일정. 자체 스케쥴러를 쓸 수도 있고, Airflow를 사용할 수도 있음\ngrain : 모델이 반환한 결과에서 행을 고유하게 식별할 수 있는 \b컬럼, 여러 컬럼의 조합도 가능함\naudits : 모델이 평가\b된 후 실행될 오딧(여기선 audits/assert_positive_order_ids.sql 파일을 실행한다는 의미)\n그 후 모델의 쿼리\n    \n만약 컬럼의 데이터를 형변환하고 싶다면 다음과 같이 정의하면 됨 item_id::TEXT\n\nMODEL (\n  name sqlmesh_example.full_model,\n  kind FULL,\n  cron '@daily',\n  grain item_id,\n  audits (assert_positive_order_ids),\n);\n\nSELECT\n  item_id,\n  COUNT(DISTINCT id) AS num_orders,\nFROM\n  sqlmesh_example.incremental_model\nGROUP BY item_id\n\n\n비교를 위해 dbt 모델 파일도 추가. 모델 정의 자체는 비슷하다고 볼 수 있지만, 명시적으로 MODEL을 정의하는 점이 차이\n\n\n-- models/staging/stg_orders.sql\n{{ config(materialized='table') }}\n\nSELECT\n    order_id,\n    customer_id,\n    order_date,\n    status,\n    amount\nFROM raw_data.orders\nWHERE status IS NOT NULL\n\n\n\nIncremental Model\nINCREMENTAL_BY_TIME_RANGE을 사용했으며, 시간 컬럼을 event_date로 지정\ngrain을 id, event_date로 설정함\nSELECT 쿼리 하단을 보면 WHERE에 event_date BETWEEN @start_date AND @end_date가 있는데, 이렇게 증분 처리가 끝남\n\nMODEL (\n  name sqlmesh_example.incremental_model,\n  kind INCREMENTAL_BY_TIME_RANGE (\n    time_column event_date\n  ),\n  start '2020-01-01',\n  cron '@daily',\n  grain (id, event_date)\n);\n\nSELECT\n  id,\n  item_id,\n  event_date,\nFROM\n  sqlmesh_example.seed_model\nWHERE\n  event_date BETWEEN @start_date AND @end_date\n\n\nSeed Model\nSeed Model Doc\nSeed Model을 불러오고 싶은 경우 사용\n컬럼의 이름과 타입을 지정할 수 있음\n\nMODEL (\n  name sqlmesh_example.seed_model,\n  kind SEED (\n    path '../seeds/seed_data.csv'\n  ),\n  columns (\n    id INTEGER,\n    item_id INTEGER,\n    event_date DATE\n  ),\n  grain (id, event_date)\n);\n\n\nAudit\nAudit Document\nassert_positive_order_ids.sql\n최상단에 AUDIT을 명시하고, 이름 지정\n    \nFROM 절에 @this_model을 사용하는데, 이는 SQLMesh의 빌트인 매크로임. Runtime Variable에서 확인할 수 있음\n\nAUDIT (\n  name assert_positive_order_ids,\n);\n\nSELECT *\nFROM @this_model\nWHERE\n  item_id < 0\n\n\n파라미터를 주입할 수도 있음. 특정 값이 초과되지 않는 경우를 확인하고 싶은 Audit\n\nAUDIT (\n  name does_not_exceed_threshold\n);\nSELECT * FROM @this_model\nWHERE @column >= @threshold;\n\n\n위 Audit을 실행하려면 MODEL에서 아래와 같이 정의해야 함\n\nMODEL (\n  name sushi.items,\n  audits (\n    does_not_exceed_threshold(column := id, threshold := 1000),\n    does_not_exceed_threshold(column := price, threshold := 100)\n  )\n);\n\n\n\nSQLMesh Plan\nSQLMesh에선 환경에 Plan을 만들고 적용하는 것이 핵심\n    \n모델의 새 버전을 생성하고 저장함\n모델을 평가하고 실행\nPlan의 Target 환경에 업데이트\n\nsqlmesh plan\n\n\n\nBackfill Tables에 y를 입력하면 Backfill 작업을 수행함\n\n폴더를 보면, db.db와 logs가 추가된 것을 확인할 수 있음\n\n.\n├── audits\n│   └── assert_positive_order_ids.sql\n├── config.yaml\n├── db.db\n├── logs\n│   ├── sqlmesh_2025_03_15_14_04_40.log\n│   └── sqlmesh_2025_03_15_14_31_00.log\n├── macros\n│   ├── __init__.py\n│   └── __pycache__\n│       └── __init__.cpython-310.pyc\n├── models\n│   ├── full_model.sql\n│   ├── incremental_model.sql\n│   └── seed_model.sql\n├── seeds\n│   └── seed_data.csv\n└── tests\n    └── test_full_model.yaml\n\n8 directories, 12 files\n\n\nDuckDB에서 데이터 확인\nCLI에서 아래 명령어 실행\n\nduckdb db.db\n\n\nDuckDB를 실행한 후, .tables를 실행하면 테이블을 확인할 수 있음\n    \nfull_model, incremental_model, seed_model : 위 MODEL에서 생성한 결과. 사용자가 사용할 땐 이걸 사용\nsqlmesh_example__full_model__2278521865 : 이 형태도 물리적 테이블이나, 버전 관리를 위해 사용하는 내부적인 테이블\n\nD .tables\n_auto_restatements\n_environment_statements\n_environments\n_intervals\n_plan_dags\n_snapshots\n_versions\nfull_model\nincremental_model\nseed_model\nsqlmesh_example__full_model__2278521865\nsqlmesh_example__incremental_model__1880815781\nsqlmesh_example__seed_model__2185867172\n\n\n아래 쿼리를 실행하면 데이터를 확인할 수 있음\n    \nsqlmesh_example는 모델의 스키마로 위에 모델 생성할 때 사용함\n\nSELECT * FROM sqlmesh_example.full_model;\n\n\n\n\n모델 수정 및 Dev에서 작업하기\n모델 수정\n이제 Prod 환경을 채웠으니, SQL 모델 하나를 수정\nmodels/incremental_model.sql에 'z' AS new_column을 추가함\n\nMODEL (\n  name sqlmesh_example.incremental_model,\n  kind INCREMENTAL_BY_TIME_RANGE (\n    time_column event_date\n  ),\n  start '2020-01-01',\n  cron '@daily',\n  grain (id, event_date)\n);\n\nSELECT\n  id,\n  item_id,\n  'z' AS new_column, -- Added column\n  event_date,\nFROM\n  sqlmesh_example.seed_model\nWHERE\n  event_date BETWEEN @start_date AND @end_date\n\n\nDev 환경 생성 및 Backfill\ndev 환경을 생성\n\n  sqlmesh plan dev\n\n    \n생성하면 변경된 모델이 incremental_model이라고 나오며, 변경된 부분이 나옴\n\nbackfill을 해주면, dev 환경에 테이블이 생성됨\n\n데이터 확인\n위에서 했던 것처럼 duckdb db.db로 DuckDB에 접근한 후, .tables로 테이블 확인\n\nD .tables\n_auto_restatements\n_environment_statements\n_environments\n_intervals\n_plan_dags\n_snapshots\n_versions\nfull_model\nfull_model\nincremental_model\nincremental_model\nseed_model\nsqlmesh_example__full_model__2278521865\nsqlmesh_example__full_model__2278521865__dev # 새로 추가됨\nsqlmesh_example__incremental_model__1880815781\nsqlmesh_example__incremental_model__772980299 # 새로 추가됨\nsqlmesh_example__seed_model__2185867172\n\n\nfull_model은 변경된 것이 없어서 기존 모델에 __dev 추가(새 환경)\n반면 incremental_model은 변경된 것이 있어서 해시가 변경됨\n새롭게 추가된 incremental_model 데이터 확인\n\nselect * from sqlmesh_example__dev.incremental_model;\n\n\n\n\nDev에서 작업한 내용 Prod에 적용\nsqlmesh plan 명령어를 사용해서 Dev -> Prod로 적용\n\nDuckDB에 접속하지 않고, sqlmesh 명령어로 데이터를 가지고 올 수도 있음\n\nsqlmesh fetchdf \"select * from sqlmesh_example.incremental_model\"\n\n\n\n\n\nSQLMesh Web UI\n아래 명령어를 통해 Web UI를 실행\n\nsqlmesh ui\n\n\n\n위에서 작업한 incremental_model.sql을 클릭하니 리니지를 보여줌\n\n데이터를 쿼리해서 확인할 수도 있음\n\nModels 폴더를 클릭하면 실행된 모델과 모델의 메타데이터, 리니지를 볼 수 있음\n\nUI에서도 plan을 실행하고 합칠 수 있음\n    \nUI 공식 문서, 퀵스타트 문서에 실행 흐름이 잘 나와있음\n그 외에 기능은 아직 확인이 어려움. Oauth 등\n\nSQLMesh 사용 후기\nSQLMesh를 사용해보면 dbt보다 러닝커브가 낮음\n그러나 지금 SQLMesh롤 바로 도입해야 할까? 하면 고민되는 부분이 있음\n    \n생태계가 아직 dbt에 비해 작고, 1점대도 아니라 계속 변경될 것으로 예상\nAirflow와 Prefect의 관계를 보는 것 같기도 함\n그럼에도 불구하고 T 영역에서 거의 독점했던 dbt의 경쟁자가 있다는 점에서 SQLMesh를 응원하고 싶음. 사용성은 괜찮았음\ndbt가 SDF labs를 인수한 후, 여러 통합 작업을 진행할 것으로 예상되는데 그 과정에서 SQLMesh가 제시하는 SQLMesh의 장점을 무력화할 수 있을 것 같음\n레딧에서 논의되는 내용을 보면 도움이 됨\n    \n레딧1\n레딧2\n레딧3\n\n\n레퍼런스 및 읽으면 좋은 자료\nSQL 홈페이지\nSQLMesh Document\nSung Won Chung님의 링크드인 : Tobiko의 Solution Architect로 근무하고 계신데 튜토리얼 내용을 링크드인 글로 공유해주심\nTobiko 블로그\ndbt와 SQLMesh의 기능 비교 : 각 라이브러리가 제공하는 범위를 비교해줌\n    \nFAQ 문서도 보는 것을 추천함. dbt와 SQLMesh의 용어가 살짝 다름\ndbt materialization : SQLMesh의 model kinds에 정의\ndbt seeds : SQLMesh model kind의 seed\ndbt test : SQLMesh audits\ndbt build : sqlmesh run\nSQLMesh + GitHub Action 통합\nSQLMesh를 사용한 데이터 파이프라인\n\n\n\n\n  \n글 작성하는데 걸린 시간 : 3시간 30분\n    \n하고자 하는 이야기, 개요 정리 : 13분\n초안 글 작성 : 3시간 7분\n클로드와 셀프 글 피드백 : 10분",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://zzsza.github.io/data-engineering/2025/03/15/sqlmesh-intro/",
+    "pubDate": "Sat, 15 Mar 2025 00:00:00 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "sqlmesh",
+      "data-engineering"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "유니티 클라우드 공동작업 맴버 초대하기 / Unity Cloud Console",
+    "description": "유니티 클라우드는 애널리틱스 자료를 보기위해 유저를 초대할 필요가 있습니다.\n앱에서 발생한 수익과 리텐션 (방문 및 접속 유지 통계) 를 확인할 수 있습니다.\n링크: https://cloud.unity.com/\n\n\n로그인 까지 하면 이런 화면이 나옵니다.\nAnalytics 가 통계 보는 곳이고\nUnity Ads 가 광고 관리하는 곳 입니다.\n관리를 위해 Administration 을 누릅니다.\n\n\n초대해야하니까 Members 로 갑니다.\n\n\n초대 매뉴는 상단 우측에 있습니다.\n초대해서 함께 보아요\n물론 프로젝트에 Unity Analytics 를 설정하고 시작해줘야합니다.\n다 했는데 아무 정도보 안나오는군요 ㅠㅠ 이것도 되면 추가 작성하겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1205",
+    "pubDate": "Tue, 18 Mar 2025 01:51:06 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Introducing automatic documentation comment generation in Visual Studio",
+    "description": "We are excited to announce that Copilot is now automatically integrated into Visual Studio’s editor to help you generate doc comments for functions. This new feature aims to streamline your documentation process and enhance your coding experience. To access these updates, you will need a GitHub Copilot subscription. If you don’t already have GitHub Copilot, […]\nThe post Introducing automatic documentation comment generation in Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/introducing-automatic-documentation-comment-generation-in-visual-studio/",
+    "pubDate": "Mon, 17 Mar 2025 15:00:10 +0000",
+    "creator": "Sinem Akinci, Allie Barry",
+    "categories": [
+      "Copilot",
+      "Productivity",
+      "Visual Studio",
+      "Docs"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "홈택스를 방황하는 납세자를 위한 종합소득세 신고 유형별 안내서",
-    "description": "절세와 환급을 잘 챙길 수 있는 종소세 신고 기초 상식",
+    "title": "TS -&gt; GO 변환기 나왔다.",
+    "description": "영상: https://www.youtube.com/watch?v=q0LtSR04hW0&t=29s\n\n\n\n이러면 TypeScript 가 뜨겠군요\n \n영상: https://www.youtube.com/watch?v=pNlq-EVld70\n\n\n\n원본 영상인가 봅니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/tossmoment-3",
-    "pubDate": "Wed, 12 Mar 2025 02:57:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://serverdown.tistory.com/1206",
+    "pubDate": "Tue, 18 Mar 2025 12:23:50 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
   }
 ]
