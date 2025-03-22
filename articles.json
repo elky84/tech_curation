@@ -2,101 +2,213 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "ingest pipeline - 5th",
-    "description": "다음은 url과 변수를 구분해서 검사하는 정규표현식.\n\n\n\n\n\ngrok processor 사용 시 에러 발생.\n\n\nPOST _ingest/pipeline/_simulate\n{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"grok\": {\n          \"field\": \"msg\",\n          \"patterns\": [\"(?<url>[^?]+)\\?(?<param>.*)\"]\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\n\n\n{\n  \"error\": {\n    \"root_cause\": [\n      {\n        \"type\": \"parse_exception\",\n        \"reason\": \"Failed to parse content to type\"\n      }\n    ],\n    \"type\": \"parse_exception\",\n    \"reason\": \"Failed to parse content to type\",\n    \"caused_by\": {\n      \"type\": \"json_parse_exception\",\n      \"reason\": \"\"\"Unrecognized character escape '?' (code 63)\n at [Source: (byte[])\"{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"grok\": {\n          \"field\": \"msg\",\n          \"patterns\": [\"(?<url>[^?]+)\\?(?<param>.*)\"]\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\"; line: 7, column: 39]\"\"\"\n    }\n  },\n  \"status\": 400\n}\n\n\n순수 문자 ?(\\?)를 인식하지 못한다. 예외처리를 한 번 더 해줘야 함.\n\n\nPOST _ingest/pipeline/_simulate\n{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"grok\": {\n          \"field\": \"msg\",\n          \"patterns\": [\"(?<url>[^?]+)\\\\?(?<param>.*)\"]\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\n\n\n{\n  \"docs\": [\n    {\n      \"doc\": {\n        \"_index\": \"_index\",\n        \"_version\": \"-3\",\n        \"_id\": \"_id\",\n        \"_source\": {\n          \"msg\": \"index.php?a=b\",\n          \"param\": \"a=b\",\n          \"url\": \"index.php\"\n        },\n        \"_ingest\": {\n          \"timestamp\": \"2025-03-14T09:25:47.8591859Z\"\n        }\n      }\n    }\n  ]\n}\n\n\ngrok과 script processor의 정규표현식 처리 방식이 다르다. 이러니 헷갈리지(..)\n\n\nPOST _ingest/pipeline/_simulate\n{\n  \"pipeline\": {\n    \"processors\": [\n      {\n        \"script\": {\n          \"source\": \"\"\"\n            def str = /([^?]+)\\?(.*)/.matcher(ctx.msg);\n            if (str.find()) {\n              ctx.url = str.group(1);\n              ctx.param = str.group(2);\n            }  \n          \"\"\"\n        }\n      }\n    ]\n  },\n  \"docs\": [\n    {\n      \"_source\": {\n        \"msg\": \"index.php?a=b\"\n      }\n    }\n  ]\n}\n\n\n\n{\n  \"docs\": [\n    {\n      \"doc\": {\n        \"_index\": \"_index\",\n        \"_version\": \"-3\",\n        \"_id\": \"_id\",\n        \"_source\": {\n          \"msg\": \"index.php?a=b\",\n          \"param\": \"a=b\",\n          \"url\": \"index.php\"\n        },\n        \"_ingest\": {\n          \"timestamp\": \"2025-03-14T09:29:27.6636501Z\"\n        }\n      }\n    }\n  ]\n}\n\n\n관련 글\n\ningest pipeline - 6th\ningest pipeline - 4th",
+    "title": "파이어 베이스 functions 로컬 실행 및 자동 실행 / Typescript",
+    "description": "typescript 로 작업하는데 저장하니까 새로고침이 안되는군요\n \n노드몬 설치합니다. \n(필요 없을꺼 같군요)\nnpm install nodemon -g \n \npackage.json 에 script 부분을 수정해야합니다.\n  \"scripts\": {\n    \"build\": \"tsc\",\n    \"build:watch\": \"tsc --watch\",\n    \"serve2\": \"npm run build && firebase emulators:start --only functions\",\n    \"serve\": \"npm run build && --watch | firebase emulators:start --only functions\",\n    \"shell\": \"npm run build && firebase functions:shell\",\n    \"start\": \"npm run shell\",\n    \"deploy\": \"firebase deploy --only functions\",\n    \"logs\": \"firebase functions:log\"\n  },\nserve2 가 기존 명령 보관해둔거구요\nserve 가 새로 넣은 명령입니다. --watch 가 들어간걸 알 수 있습니다.\n테스트 서버 실행\nfirebase emulators:start \n \n다시 실행 해주긴하는데\n반응이 겁나 느립니다.\n이런 환경에서 개발하다니 놀랍습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/03/ingest-pipeline-5th.html",
-    "pubDate": "2025-03-14T09:40:00.006Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://serverdown.tistory.com/1212",
+    "pubDate": "Tue, 18 Mar 2025 21:21:50 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "유니티 애셋 / Block Blast / 데모게임 / 유",
-    "description": "영상: https://www.youtube.com/watch?v=LYECrh_MYOw&t=55s\n\n\n\n \n유니티 애셋 스토어 링크: https://assetstore.unity.com/packages/templates/packs/blast-puzzle-template-editor-313175\n\n \nBlast Puzzle | Template + Editor | 패키지 | Unity Asset Store\nUse Blast Puzzle | Template + Editor from Watermelon Games to elevate your next project. Find this & more 패키지 and templates on the Unity Asset Store.\nassetstore.unity.com\n\n \n비싸긴한데 카피게임 올리기엔 쉽겠군요\n거의 비슷하군요\n기억해 둬야겠습니다.",
+    "title": "Sign Up for the free Pure Virtual C++ 2025 Conference",
+    "description": "Every year we run Pure Virtual C++: a free one-day virtual conference for the whole C++ community. Next month we’re doing it again! Sign-up for free to get access to our five live sessions and a host of pre-conference content. The live event will start at April 30th 14:00 UTC. Videos will be available to […]\nThe post Sign Up for the free Pure Virtual C++ 2025 Conference appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1214",
-    "pubDate": "Wed, 19 Mar 2025 10:58:49 +0900",
-    "creator": "이건개발",
+    "link": "https://devblogs.microsoft.com/cppblog/sign-up-for-the-free-pure-virtual-c-2025-conference/",
+    "pubDate": "Fri, 21 Mar 2025 11:34:23 +0000",
+    "creator": "Sy Brand",
     "categories": [
-      "프로그래밍/유니티 에셋 리뷰"
+      "Announcement",
+      "Pure Virtual C++"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Java 24 and IntelliJ IDEA",
-    "description": "IntelliJ IDEA has supported Java 24 since an earlier release, with more enhancements being added in the later releases! I’m often asked, “What’s the best feature of Java 24?” My answer? Why pick just one? 🙂 Java 24 continues to enhance the language with improvements like Simple source files and instance main methods, Primitive Types […]",
+    "title": "IntelliJ IDEA 2024.3.5 Is Out!",
+    "description": "We’ve released another update for v2024.3! You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. This new version that brings the following valuable improvements:  To see the full list of issues addressed in this […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/03/java-24-and-intellij-idea",
-    "pubDate": "Tue, 18 Mar 2025 08:35:35 +0000",
-    "creator": "Mala Gupta",
+    "link": "https://blog.jetbrains.com/idea/2025/03/intellij-idea-2024-3-5/",
+    "pubDate": "Tue, 18 Mar 2025 10:38:35 +0000",
+    "creator": "Maria Kosukhina",
     "categories": [
-      "idea",
-      "java",
-      "intellijidea",
-      "java24",
-      "whatsnew-2"
+      "releases",
+      "2024-3",
+      "bug-fix-update",
+      "intellij-idea-2024-3"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "콘텐츠를 더 매력적으로! 무료 시각화 클로드 프로젝트 공개",
-    "description": "웹 콘텐츠를 효과적으로 시각화하면 독자들의 관심을 끌고 정보 전달력을 극대화할 수 있습니다. 단순한 텍스트에서 벗어나, 가독성을 높이는 핵심 요소와 실전 가이드를 소개합니다. 특히, 시각적 콘텐츠를 쉽게 제작할 수 있도록 클로드용 시각화 프로젝트를 무료 공개하니 놓치지 마세요!\n\n\n \n블로그나 뉴스 사이트를 운영하다 보면, 아무리 좋은 글을 써도 독자들이 끝까지 읽지 않는 경우가 많아요. 사람들이 정보를 빨리 습득하려 하고, 스크롤을 내리면서 중요한 부분만 훑어보는 경우가 많기 때문이죠. 그래서 콘텐츠를 텍스트에서 ‘시각적 경험’으로 바꾸는 것이 점점 더 중요해지고 있어요.\n \n저도 한동안 이런 고민을 했어요. 어떻게 하면 독자들이 글을 더 오래 머물며 집중할 수 있을까? 그러다가 웹 콘텐츠의 시각적 구조를 개선하면 체류 시간과 이해도가 크게 증가한다는 사실을 발견했어요. 오늘은 기사를 매력적인 웹페이지로 변환하는 핵심 가이드를 소개하면서, 이를 쉽게 적용할 수 있도록 클로드용 시각화 프로젝트도 무료 공개할 예정이니 끝까지 읽어보세요!\n \n  효과적인 웹 콘텐츠 시각화의 핵심 요소\n1. 시각적 계층 구조를 명확히 하자\n  제목과 부제목이 가장 중요합니다.\n웹페이지를 열었을 때, 가장 먼저 보이는 것이 제목이죠. 제목은 본문 폰트보다 2~3배 크게, 부제목은 1.5배 크기로 설정해 독자가 한눈에 내용을 파악할 수 있도록 해야 해요.\n \n✅ 발행 정보도 중요해요.\n기사의 신뢰도를 높이려면 날짜와 출처 정보를 추가해야 해요. 보통 작은 글씨로 우측 정렬하면 깔끔한 인상을 줄 수 있어요.\n⚡ 섹션 구분을 확실하게!\n문단이 끝없이 이어지면 독자가 쉽게 지칠 수 있어요. 섹션마다 구분선을 넣거나 배경색을 다르게 설정하면 훨씬 깔끔한 레이아웃이 됩니다.\n2. 핵심 정보를 ‘눈에 띄게’ 강조하자\n단순한 텍스트보다 시각적인 요소를 추가하면 독자들이 정보를 쉽게 이해할 수 있어요.\n \n  도표와 다이어그램 활용\n숫자나 개념이 많을 때는 표나 인포그래픽을 추가하세요. 단순한 설명보다 훨씬 직관적이에요.\n \n  시각적 불릿 포인트 사용\n✅ 단순한 리스트보다 아이콘이 들어간 불릿 포인트가 가독성이 좋아요.\n✅ 중요한 내용은   같은 이모지로 강조해도 좋아요.\n✅ 파란색 원형 마커를 사용하면 깔끔하고 전문가 느낌이 납니다.\n  강조 배지 활용\n예를 들어, “50% 증가” 같은 주요 데이터를 보여줄 때, 둥근 배지나 컬러 박스를 사용하면 한눈에 눈에 띄어요.\n3. 보조 정보를 효과적으로 구성하자\n모든 정보가 같은 비중을 가질 필요는 없어요. 핵심 내용과 추가 정보를 분리하면 독자가 쉽게 원하는 정보를 찾을 수 있어요.\n  사이드바 활용하기\n관련 정보나 부가 자료는 메인 콘텐츠와 분리된 사이드바에 배치하는 게 좋아요.\n  설명 상자 사용하기\n전문 용어나 중요한 개념이 나올 때 라이트 블루 박스로 구분하면 읽기 편해요.\n  탭 형태로 정리하기\n긴 설명이 필요한 경우, 탭 형식으로 정보를 정리하면 독자가 원하는 정보만 빠르게 확인할 수 있어요.\n4. 데이터는 차트와 그래프로 변환하자\n숫자가 많으면 가독성이 떨어져요. 그래프와 다이어그램을 활용하면 정보 전달력이 극대화됩니다.\n \n  차트 활용하기\n선 그래프: 트렌드 변화를 보여줄 때\n막대 그래프: 비교 데이터를 정리할 때\n원형 차트: 비율을 설명할 때\n  프로세스 다이어그램 활용하기\n단계별 과정이나 절차를 설명할 때 순서도를 활용하면 직관적이에요.\n \n \n  웹페이지 구조의 모범 사례\n잘 만들어진 웹페이지는 일정한 구조를 가지고 있어요.\n  최상단 섹션\n✅ 제목 (본문 폰트의 2~3배 크기)\n✅ 설명적인 부제목 (1.5배 크기)\n✅ 날짜 및 출처 정보 (작은 글씨, 우측 정렬)\n  주요 섹션 구조\n✅ 명확한 섹션 제목 (관련 아이콘 포함)\n✅ 주요 내용을 요약한 박스 (라이트 블루 배경)\n✅ 시각적 구분선 삽입\n  핵심 시각 요소\n✅ 개념이나 프로세스를 보여주는 다이어그램\n✅ 주요 수치를 강조하는 배지 요소\n✅ 시각적 불릿 포인트 (파란색 원형 마커)\n  보조 정보 영역\n✅ 사이드바에 관련 정보 배치\n✅ 탭 형태로 추가 정보 구성\n  하단부 구성\n✅ 요약 정보 또는 결론\n✅ 추가 자료 링크 제공\n✅ 저작권 정보 표시\n \n 시각화 작성예시\n1. 가로형\n\n\n2 세로형\n\n\n \n \n  클로드용 시각화 프로젝트 무료 공개!\n이 모든 걸 직접 구현하려면 시간이 많이 걸리겠죠? 그래서 여러분을 위해 시각화 프로젝트를 무료로 공개합니다!\n  이 프로젝트로 할 수 있는 것:\n자동으로 가독성 높은 웹 콘텐츠 변환\n시각적 요소 (도표, 배지, 아이콘) 쉽게 추가\n반응형 디자인 적용으로 모바일 최적화\n  무료 다운로드 링크: \n지금 바로 적용해 보세요! 웹 콘텐츠의 가독성을 높이는 것이 곧 독자와의 소통을 강화하는 길입니다.\nhttps://www.threads.net/@gpt_patk/post/DHSGxlOSOmu?xmt=AQGzpWXDn8ymKaGTj8Z7rSyaW0ICjfaFLp6l6RaNLpHBNg\n \n \n 프로젝트 생성방법\n1. 클로드 첫 페이지에서 프로젝트 - 프로젝트 생성 클릭 ▼\n\n\n \n2. 프로젝트 제목과 목표 입력 ▼\n\n\n \n3. 프로젝트 지침 설정에서 다운로드한 텍스트 파일의 지침복사. ▼\n\n\n \n4. 파일첨부에서 다운로드한 템플릿 HTML 파일 등록하면 프로젝트 생성 완료▼ \n\n\n \n5. 사용법 : 해당 프로젝트 채팅창에 \"가로형,세로형  선택 /  작성자 / 시각화할 자료 입력\" 하면 시각화 진행\n\n\n\n  Q&A\nQ1. 시각적 요소를 추가하면 로딩 속도가 느려지지 않나요?\nA. 고화질 이미지를 사용하되, 압축 기술을 활용하면 로딩 속도를 최적화할 수 있어요.\nQ2. 모바일에서도 동일한 효과를 얻을 수 있나요?\nA. 반응형 디자인을 적용하면 모바일에서도 가독성을 유지할 수 있어요.\nQ3. 무료 시각화 프로젝트는 누구나 사용할 수 있나요?\nA. 네! 누구나 무료로 다운로드해서 사용할 수 있습니다.\nQ4. 어떤 웹사이트에 적용하기 좋은가요?\nA. 블로그, 뉴스 사이트, 기업 홈페이지 등 정보 중심의 웹사이트에 적합해요.\nQ5. 시각적 요소가 너무 많으면 산만해지지 않을까요?\nA. 적절한 균형이 중요해요. 핵심 정보만 강조하고 불필요한 요소는 줄이는 게 좋아요.\n```markdown\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"시각적 요소를 추가하면 로딩 속도가 느려지지 않나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"고화질 이미지를 사용하되, 압축 기술을 활용하면 로딩 속도를 최적화할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"모바일에서도 동일한 효과를 얻을 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"반응형 디자인을 적용하면 모바일에서도 가독성을 유지할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"무료 시각화 프로젝트는 누구나 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네! 누구나 무료로 다운로드해서 사용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"어떤 웹사이트에 적용하기 좋은가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"블로그, 뉴스 사이트, 기업 홈페이지 등 정보 중심의 웹사이트에 적합합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"시각적 요소가 너무 많으면 산만해지지 않을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"적절한 균형이 중요합니다. 핵심 정보만 강조하고 불필요한 요소는 줄이는 것이 좋습니다.\"\n      }\n    }\n  ]\n}\n\n```",
+    "title": "코드 품질 개선 기법 6편: 마구 자를 것인가 반듯하게 자를 것인가",
+    "description": "안녕하세요. 커뮤니케이션 앱 LINE의 모바일 클라이언트를 개발하고 있는 Ishikawa입니다.\n저희 회사는 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰...",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483554",
-    "pubDate": "Mon, 17 Mar 2025 11:01:17 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 콘텐츠 제작 및 글쓰기",
-      "ux 개선",
-      "가독성 향상",
-      "데이터 시각화",
-      "무료 시각화 프로젝트",
-      "반응형 디자인",
-      "시각적 콘텐츠",
-      "웹 접근성",
-      "웹 콘텐츠 시각화",
-      "웹페이지 디자인",
-      "콘텐츠 최적화"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-6",
+    "pubDate": "Wed, 19 Mar 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "数据科学中的数据清理",
-    "description": "在本数据科学博文系列中，我们探讨了从哪里获取数据以及如何使用 pandas 探索数据，不过虽然这些数据对于学习非常有用，但它与我们所说的真实世界数据并不相似。 用于学习的数据通常已经过清理和整理，方便您快速学习而不必考虑数据清理，但真实世界数据存在问题并且很混乱。 真实世界数据需要清理才能提供有用的洞察，这就是本文的主题。  数据问题可能来自数据本身的行为、数据收集方式，甚至是数据输入方式。 流程的每个阶段都可能发生错误和疏忽。  我们在这里专门讨论数据清理而不是数据转换。 数据清理可以确保您从数据中得出的结论可以泛化到您定义的总体。 数据转换则涉及转换数据格式、对数据进行归一化和聚合数据等任务。  数据清理为什么重要？ 关于数据集，我们首先需要了解的是它们代表什么。 大多数数据集都是代表更广泛总体的样本，通过处理此样本，您能够将发现外推（或泛化）到该总体。 例如，我们在前两篇博文中使用了一个数据集。 这个数据集广泛涉及房屋销售，但只覆盖一小块地理区域、一小段时间，并且可能不是该区域和时间段内的所有房屋；它是一个更大总体的样本。  您的数据需要是更广泛总体的代表性样本，例如该地区在一段规定时间内的所有房屋销售情况。 为了确保我们的数据是更广泛总体的代表性样本，我们必须首先定义总体的边界。  您可能会想到，除了人口普查数据以外，使用整个总体往往不切实际，因此您需要确定您的边界。 这些边界可能是地理的、人口统计的、基于时间的、基于行动的（例如事务性）或特定于行业的。 您可以通过多种方式定义总体，但要可靠地泛化数据，必须在清理数据之前进行定义。 总体而言，如果您计划将数据用于任何类型的分析或机器学习，您都需要花时间清理数据，确保您可以依赖您的洞察并将其泛化到真实世界。 清理数据可以获得更准确的分析，并且在机器学习方面也可以提高性能。 如果不清理数据，您会面临许多风险，例如无法将研究结果可靠地泛化到更广泛的总体、不准确的汇总统计信息和不正确的可视化效果。 如果您使用数据训练机器学习模型，这也可能导致错误和不准确的预测。 免费试用 PyCharm Professional 数据清理示例 我们将介绍可用于清理数据的五项任务。 这份列表并不完整，但对于处理真实世界数据是一个很好的起点。 对数据去重 重复问题会扭曲您的数据。 假设，您正在绘制一个使用销售价格频率的直方图。 如果有相同值的重复项，最终会得到一个基于重复价格的不准确模式的直方图。  另外，当我们谈论数据集中的重复问题时，我们谈论的是整行的重复，每一行都是一个单独的观察值。 列中将有重复值，如我们所预料。 我们只谈论重复观察值。  好在我们可以使用一种 pandas 方法帮助我们检测数据中是否存在重复项。 如果需要提醒，我们可以使用 JetBrains AI 聊天编写提示，例如： Code to identify duplicate rows 得到代码： duplicate_rows = df[df.duplicated()] duplicate_rows 此代码假定您的 […]",
+    "title": "Enhance Pull Request Reviews with In-Depth Feedback",
+    "description": "Visual Studio 2022 has taken the pull request experience to the next level by making reviews interactive. We previously enabled viewing your pull request comments inline in your working files. Now, the latest update empowers you to add comments directly within the IDE, streamlining the review process. Now, pull request reviewers can conduct deep reviews […]\nThe post Enhance Pull Request Reviews with In-Depth Feedback appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2025/03/data-cleaning-in-data-science",
-    "pubDate": "Tue, 18 Mar 2025 10:00:12 +0000",
-    "creator": "Sue",
+    "link": "https://devblogs.microsoft.com/visualstudio/enhance-pull-request-reviews-with-in-depth-feedback/",
+    "pubDate": "Thu, 20 Mar 2025 15:00:02 +0000",
+    "creator": "Jessie Houghton",
     "categories": [
-      "data-science"
+      "Git",
+      "Team and Development",
+      "Visual Studio",
+      "GitHub"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Kling AI 로 뽑은 영상 02",
-    "description": "이전글 : https://serverdown.tistory.com/1213\n지난번에 반대로 회전했었고\n화전 반향을 지정해봐야 안먹힌다는 사실을 알았습니다.\n그래서 천천히 움직이라고 추가했고 \n영상이 짧으니 천천히 움직이면 당연히 조금밖에 못움직입니다.\n \n프롬프트\nMove your head slowly.\nBlink your eyes.\nMove your mouth gently.\n천천히 고개를 움직이고\n눈을 깝박이고\n입을 부드럽게 움직여라\n이렇게 적은것입니다.\n결과물\n \n\n\n\n눈을 깜박임이 과하군요 횟수 까지 지정해줘야겠군요",
+    "title": "C++ Dynamic Debugging: Full Debuggability for Optimized Builds",
+    "description": "Over the past 5 years, we’ve had many incredible opportunities to engage with game developers. From AAA studios to indie developers, the passion for slashing iteration times is significant. Amidst all the fantastic feedback we’ve received for Visual Studio, one sentiment has rung loud and clear: a desire to debug optimized C++ code without sacrificing […]\nThe post C++ Dynamic Debugging: Full Debuggability for Optimized Builds appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1218",
-    "pubDate": "Fri, 21 Mar 2025 01:41:26 +0900",
-    "creator": "이건개발",
+    "link": "https://devblogs.microsoft.com/cppblog/cpp-dynamic-debugging-full-debuggability-for-optimized-builds/",
+    "pubDate": "Wed, 19 Mar 2025 18:33:52 +0000",
+    "creator": "David Li",
     "categories": [
-      "유튜브"
+      "C++",
+      "Game Development",
+      "debugging",
+      "Optimized Builds"
     ]
   },
   {
     "id": 7,
+    "imageUrl": "",
+    "title": "heroku 는 유료였군요. 맛만본 개발자 체험기",
+    "description": "vercel 은 망했구요\nheroku 가 잘된다고 해서 들어가봤습니다.\n가입절차가 많이 길군요\n일반 바갑\n-> OTP 등록 (세일즈포스 인증기)\n-> 대시보드\n-> new app 을 하면 그때결제 방법 등록하라고 합니다..\n당장 돈이 들지는 않고 사용료에 따라 돈을 내야한다고합니다.\n글을 보니 7달러 내본 사람이 있다고 합니다.\n클라우드 타입의 최소비용이 2.5만원\ncafe24 클라우드 비용은 만원\n정도이니 왠만하면 cafe24 클라우드가 나을 수도 있겠군요\n어차피 돈만 내면 제약을 없을태니\n적당한 방식의 사용은 괜찮아보입니다.\n \n장점\n웹소켓은 트래픽이 적으니 비용이 작을 것 같습니다.\n \n단점\n서버 위치가 미국만 있는거 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1220",
+    "pubDate": "Fri, 21 Mar 2025 20:14:58 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "선을 긋기",
+    "description": "이 공간을 통해서도 과거에 몇 번 글을 쓴 적이 있는데, 내가 2012년에 스트롱을 시작하고 첫 2년 동안 투자자로서 가장 스트레스를 많이 받았던 건, 우리가 투자한 회사의 창업가보다 내가 그 사업에 대해서 더 많이 알고, 내가 그 사업을 하면 더 잘할 수 있을 것 같은데, 대표가 항상 내 생각과 말과 다르게 생각하고 행동할 때였다. 아마도 이걸(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/03/where-to-draw-the-line.html",
+    "pubDate": "Wed, 19 Mar 2025 21:33:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "inspiring",
+      "people",
+      "Strong",
+      "vc"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "유니티 2D 애니메이션 / 스프타라이트 말고 다른 방식",
+    "description": "영상: https://www.youtube.com/watch?v=-7r9fZSmZJw&t=443s\n\n\n\n캐릭터가 맹한게 귀엽군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1219",
+    "pubDate": "Fri, 21 Mar 2025 03:56:54 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Hash..라니~!!",
+    "description": "따끈따끈한 이번 작업을 소개하려고 한다. \n오늘의 주인공은 상용데이터의 Hash 마이그레이션이다.\n📌 등장 배경\n🌞 화창한 아침..운영 실무자에 의해 데이터 변경 요청이 떨어졌다\n\n현재 요청된 내용은 프로덕트에 매핑된 속성을 변경하되 그 속성 옵션값은 그대로 유지해달라는 요청이다. \n좀 더 구체적으로 말해보자면, 상품1에 속성으로 PRADA 컬러라는 속성이 있고 그 값으로 빨강, 주황이 있는데 상품 1의 속성을 GUCCI 컬러라는 속성으로 변경하되 값은 그대로 빨강, 주황으로 유지 해달라는 것이다.\n운영팀의 요청: 특정 상품의 속성을 다른 속성으로 변경해야 하지만, 속성 값은 유지해야 한다.\n문제: 기존 정책상 노출 속성은 수정할 수 없으므로, 마이그레이션 작업이 필요하다.\n현재 정책상 노출 속성은 한번 상품에 매핑되면 수정불가한 정책을 가지고 있기 때문에 우리가 마이그레이션을 해줄 수밖에 없다. \n\n내가 할일은 \nproduct_attribute에서 attribute를 변경해주고\nitem_attribute_option에서 attribute와 attributeOption을 변경해줘야한다. \n바꿀 attributeOption은 기존의 attributeOption 값과 일치한 것을 찾아다가 변경해주면된다. \n사실 여기까지보면 뭐.. 쿼리 돌려주면 되지 한다. 맞다 이 일은 어렵지 않다. 근데 문제는 hash이다. 이번 이야기에서 나오는 주제의 주인공은 HASH이다. \n우리는 상품과 아이템의 중복확인을 hash로 구별한다. \n상품 중복 조건 : 카테고리 + 상품이름 + 노출속성목록 + 브랜드Id + 모델명\n아이템 중복 조건 : 상품 Id + 노출속성목록 + 속성값목록\n이렇게 되어 있다. \n이번에 이 조건들 중에 상품에는 노출 속성 목록이, 아이템에는 노출속성목록과 속성값 목록이 변경되기 때문에 Hash를 새로 변경해줄 수밖에 없다. \n그럼 변경된 상품과 아이템만 변경하면되잖아? 하기에는 이번 작업부터 중복 조건이 일부 변경되었다. 위에 언급한 조건은 이번에 변경되는 조건에 해당된다.\n\n에이 변경하면 되지..하기엔 단순히 몇백개가 아니고 몇십만 단위다..ㅎ 거기다가 상품 중복 조건이 이번 작업부터 변경된 조건이라 해시 충돌이 안날래야 안날 수가 없는 작업이다 ㄸㄹㄹ,, \n💡 정리하자면, 상품과 아이템의 중복 여부를 확인하는 데 해시를 사용하는 이번 속성 변경하면서 그 기준이 되는 값 또한 변경이 되었기에 hash 작업이 필요하다\n📌 Hash?\n💡 해시\n임의의 크기를 가진 데이터를 고정된 크기의 데이터로 변화시켜 저장하는 것\n결론부터 말하자면, 동일한 입력값이면 항상 동일한 해시값이 생성되므로, 데이터를 직접 비교하지 않고도 빠르게 중복을 판별할 수 있다. 즉, 중복 체크하는데 성능적으로 해시가 더 빠르다고 판단한 것이다. \n🐳 직접 비교 Vs 해시 비교\n상품을 등록하는 걸 예시로 들어보자. \n상품을 등록하기 전 위 중복조건에 의해 중복된 상품이 있는지 확인해야 한다. \n만약 직접 비교해야 한다면?\nEXPLAIN SELECT * FROM product \nWHERE category_id = ? \nAND product_name = ? \nAND brand_id = ? \nAND model_no = ? \nAND displayed_attribute_ids = ?;\n해당 쿼리를 돌려 보면\n\n실행계획에 테이블 풀스캔하고 있음을 확인할 수 있었다. \n즉, 상품을 추가할때 기존 상품과 하나씩 비교한다는 것이다. -> 최악의 경우 O(N)\n풀 스캔하는 것을 보니 데이터가 많을수록 성능이 저하됨을 의미하는데 현재 우리 상품은 몇십만개이다. 그럼.. 성능은 아주 최악이 되는 것이다. \n그럼 Hash의 경우는?\nEXPLAIN SELECT * FROM product_identity pi\n               WHERE pi.hash = ?;\n해당 쿼리를 돌려보면\n\nconst row lookup으로 인덱스를 확용한 상수 조회를 하고 있음을 확인할 수 있다. \n해당 스캔 방식은 단일 행을 대상으로 하는 상수 값을 기반으로 하는데 Primary Key 또는 Unique Key에 대한 WHERE 절의 상수 값 비교가 있을 때 나타난다. \nhash에 의해 unique를 걸 수 있기 때문에 인덱스를 걸 수 있는 것이다. \n즉, 테이블의 유니크 인덱스 (uk_hash)를 사용하여 단 한개의 행만 조회하고 있다. \n-> 시간 복잡도 O(1) ~ O(logN)\n결과적으로 직접 비교보다 해시비교가 풀스캔 방지가 될 뿐만아니라 속도도 훨씬 빠르기 때문에 중복 검사에 해시를 적용하는 것이 성능상 최적이라는 것을 알 수 있다. \n정리하자면,\n직접 비교\n풀스캔, 시간복잡도 : O(N), 데이터 많을수록 성능 저하\nHash 비교\nO(1) ~ O(logN), 인덱스를 활용해 빠른 조회 가능\n📌 마이그레이션 작업에 대한 회고\n작업에 대한 플로우를 말해보자면,\n속성 변경에 대한 프로덕트-속성 매핑 데이터, 아이템-속성 매핑 데이터 변경 \n중복 조건에 의한 해시 충돌 테스트\n충돌된 상품에 대한 실무자 전달 및 데이터 정리\n프로덕트, 아이템 해시 테이블에 생성 -> 임시 테이블에 생성\n기존 해시 테이블 백업 후 임시테이블을 기존 테이블 명으로 변환\nproduct, item 해시 캐시의 기존 데이터 삭제 후 새로 생성\n상용 데이터를 다루기도 하고, 내 기준상 데이터가 많아서 사실 두렵기도 하고 어려움도 많았던 작업이었다. 이 작업을 하면서 흥미로웠던 구간은 기존의 데이터에 대한 해시 생성 구간이었다. \n아이템만 해도 현재 활성화된 아이템이 몇십만개인데 이걸 어떻게 생성을 하느냐?\n방법은 page를 활용해서 한번에 3000개씩 가져와서 배치를 돌리는 것이다. \n( 이건 그냥 여담인데 아무생각없이 10개씩 가져오도록 했다가 반나절이되어도 안끝났다..ㅎ 그래서 확 3000개씩 가져오는 걸로 바꾸었더니 5도 안되어서 끝났다. ㅎㅎ 네트워크 비용에 대한 체감이 확 드는 순간이었다. )\n🐳 내부 코드 분석\n가장 흥미로웠던 코드를 분석해보자.\n\n해당 코드는 대량 데이터를 한번에 삽입해야 할때 사용한다. \n먼저 excute 내부 코드를 살펴보면, ( Spring 내부 코드 )\n\n1) getTransaction() : 직접 트랜잭션을 가져오고,\n2) commit() : 트랜잭션을 직접 커밋하고\n3) rollbackOnException() : 트랜잭션을 수동으로 롤백하고\n이를 통해 excute() 메소드는 트랜잭션 관리 로직을 직접 실행하는 메서드임을 확인할 수 있다. \n-> 예외 발생시 전체 롤백이 되게 됨을 알 수 있다. 실제로 테스트할때 충돌로 인한 예외 발생시 전체 롤백된 것을 확인하였다. \n대망의 batchUpdate 메소드를 살펴보자면,  ( Spring 내부 코드 ) \n이 메소드는 JDBC 기반 배치 업데이트 메서드로 여러개의 데이터를 한번에 업데이트하는 기능을 함을 알 수 있다.\n\n실제로 Sql에 해당 하는 코드가\n\n이렇게 앞전에 선언해놓았고, 이것을 매개변수로 받아서 hash 생성을 한꺼번에 하는 것을 알 수 있었다. \n🐳 회고\n이 작업을 수행하면서, 역시 직접해봐야 좀더 와닿음을 다시 한번 확인하는 순간이었다. 내가 이번에 작업한 해시는 이전부터 중복 검사를 위해 해놓았던 조치였다. 그러나 내가 한게 아니다보니, 해시 작업에 대한 이해도가 낮았다. \n이번에 해시 생성 작업을 하다보니, 왜 필요하고 어떤 코드를 사용했는지 나를 납득해가면서 작업을 하다보니 얻어가는 것도 많고 이해도도 높아짐을 알 수 있었다. 나중에 중복 검사가 필요할때 이 작업을 떠올리며 해시를 생각해내지 않을까? ㅎㅎ😄\n처음에 이 작업이 주어졌을때, 상용 데이터를 만진다는 것에 대한 두려움이 있었는데, '이 연차에 어떤 누가 몇십만개의 상용 데이터를 다루는 경험을 하겠어?' 하는 마음으로 임했다. 그래도 무서웠다. 혹시 내가 잘못할까봐 덜덜 떨면서 했다. 며칠 지난 지금, 이 작업을 회고하면 간단한데? 싶다. \n이 작업에서 가장 오래 시간이 걸렸던 부분은 해시 충돌 부분이었다. \n사실 상품 해시 충돌은 예상했지만, 아이템 해시 충돌은 예상 못했다. 왜냐면 상품 해시 충돌된 것을 해결하면(상품 충돌난 아이템까지 삭제했기에) 아이템 중복 기준에 상품 ID가 있기 때문에 아이템 해시 충돌은 전혀 나지 않을 것이라 예상했기 때문이다. 그런데 아이템 해시 충돌이 발생했다.\n앞선 코드에 보여줬던 것이 하나라도 충돌되면 멈추는 로직이기때문에 몇십만개의 아이템을 다 돌리면서 충돌날때마다 에러나는 상황은 너무나도 시간이 많이 들기때문에 \n\n에러나더라도 계속 돌아가도록 해당 부분을 try-Catch로 감싸서 충돌나서 에러가 나더라도 멈추지 않도록 했고, 페이지네이션으로 3000개씩 데이터를 돌렸더니 몇십만개의 데이터가 모두 거의 5분만에 다 돌아가서 모든 충돌을 잡아낼 수 있었다. 덕분에 빠르게 어떤 아이템들이 충돌났는지 확인할 수 있었다.\n 거의 40개의 아이템이 충돌났고, 상품으로 따지자면 3개 상품에 대한 아이템들이었다. 알고보니 임의로 수동으로 넣은 아이템 데이터에서 발생한 것이다. 따라서 해당 아이템들과 상품들을 삭제하니 해결되었던 문제였다. \n해시 충돌된 상품들과 아이템들이 다행히 모두 주문이 나간적이 없거나 테스트 상품이라서 삭제하기 어렵지 않았다. 물론 해당 상품과 아이템들을 삭제하기 위해 그 하위 집단인 벤더아이템, 딜벤더아이템, 딜 등의 삭제 작업들을 추가로 해줘야 하지만 오더가 없었기에 스위칭이 아닌 삭제로 해결할 수 있었던 작업이었다. 이번 작업을 통해 실무자와 커뮤니케이션도 해야하고 배포 작업도 걸려있어서 부담이 많이 가는 작업이었다. 하지만, 정말 값진 경험이었다. 앞으로 중복검사나 데이터 마이그레이션이 필요할때 이번 경험이 큰 도움이 될 것 같다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://velog.io/@sweet_sumin/Hash..%EB%9D%BC%EB%8B%88",
+    "pubDate": "Thu, 20 Mar 2025 12:52:34 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Introducing automatic documentation comment generation in Visual Studio",
+    "description": "We are excited to announce that Copilot is now automatically integrated into Visual Studio’s editor to help you generate doc comments for functions. This new feature aims to streamline your documentation process and enhance your coding experience. To access these updates, you will need a GitHub Copilot subscription. If you don’t already have GitHub Copilot, […]\nThe post Introducing automatic documentation comment generation in Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/introducing-automatic-documentation-comment-generation-in-visual-studio/",
+    "pubDate": "Mon, 17 Mar 2025 15:00:10 +0000",
+    "creator": "Sinem Akinci, Allie Barry",
+    "categories": [
+      "Copilot",
+      "Productivity",
+      "Visual Studio",
+      "Docs"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지",
+    "description": "한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제 다시 독립할 가능성이 제기되고 있는데요. 그렇다면 티스토리의 운명은 어떻게 될까요?\n\n\n \n\"다음 카페에서 찾아볼게.\"\n이 말이 인터넷에서 자연스럽게 오가던 시절이 있었습니다. 2000년대 초반까지만 해도 다음(Daum)은 대한민국에서 가장 인기 있는 포털이었어요. 검색하면 네이버가 아니라 다음이 먼저 나왔고, 이메일도 다음의 한메일이 대세였습니다.\n \n하지만 지금은 다릅니다. 포털 1위 자리는 네이버에게 완전히 내줬고, 뉴스·검색·커뮤니티 서비스도 예전만 못합니다. 한때 포털의 제왕이었던 다음은 어떻게 지금의 상황에 처하게 된 걸까요?\n \n저 역시 인터넷 초창기부터 다음을 사용해왔고, 지금도 티스토리를 운영하는 블로거로서 이 변화가 남의 일처럼 느껴지지 않아요. 오늘은 다음이 어떻게 성장하고 쇠퇴했으며, 티스토리가 앞으로 어떤 길을 걷게 될지 이야기해보려고 합니다.\n \n \n1. 다음(Daum)의 전성기: 한메일과 포털의 제왕 (1995~2000년대 초반)\n1995년, 대한민국의 인터넷 환경은 지금과 많이 달랐습니다. 인터넷이 보급되기 시작하던 시절, 기업과 연구기관을 중심으로 이메일이 사용되었지만, 일반 사용자는 쉽게 접근할 방법이 없었어요.\n \n이때 이재웅 대표가 창업한 ‘다음커뮤니케이션’은 무료 이메일 서비스 ‘한메일(Hanmail)’을 선보이며 인터넷 대중화를 이끌었습니다. 당시 이메일을 무료로 제공하는 것은 혁신적인 서비스였고, 이 덕분에 다음은 급속도로 성장할 수 있었어요.\n \n<다음이 출범한 1999년은 야후(Yahoo)의 위상이 인터넷 업계에서 세계 최고 정점에 이르렀던 시기였다!!>\n\n\n✅ 다음의 성공 요인\n무료 이메일 서비스(한메일) 제공 → 국내 최초의 대중화된 이메일 서비스\n카페, 뉴스, 커뮤니티 중심 포털 구축 → 정보 검색과 온라인 커뮤니티 활성화\n한국 시장에 최적화된 서비스 제공 → 야후, 라이코스 등 해외 포털과의 차별화\n1999년, 다음은 이메일을 기반으로 ‘다음(Daum) 포털 사이트’를 오픈하면서 대한민국 최대 포털로 자리 잡았습니다.\n특히 다음 카페는 온라인 커뮤니티 문화의 중심이었습니다. 네이버의 ‘지식iN’이 등장하기 전까지, 많은 사용자들이 정보를 얻기 위해 다음 카페를 이용했어요.\n하지만 이런 성공은 오래가지 않았습니다.\n \n2. 네이버와 구글에 밀려난 다음 (2000년대 중반~2010년대 초반)\n2000년대 중반부터 다음의 하락세가 시작되었습니다. 가장 큰 이유는 검색 엔진 경쟁에서 밀려났기 때문이에요.\n네이버의 ‘지식iN’과 검색 기술 강화\n\n네이버는 2002년 ‘지식iN’을 출시하며 검색 점유율을 급격히 끌어올렸어요.\n당시 검색 기술이 부족했던 상황에서, 사용자들이 직접 답변을 달아주는 ‘지식iN’ 서비스는 검색의 패러다임을 바꿨죠.\n다음의 검색 서비스는 상대적으로 뒤처지면서 점점 사용자들의 이탈이 가속화되었습니다.\n구글의 광고 모델(애드센스) 도입\n\n구글이 애드센스를 도입하면서 온라인 광고 시장이 급변했어요.\n하지만 다음은 이에 효과적으로 대응하지 못했고, 네이버 역시 자체 광고 시스템을 구축하면서 다음의 수익 모델이 흔들리기 시작했습니다.\n모바일 시장 대응 부족\n\n2010년 이후 스마트폰이 대중화되면서 모바일 검색이 중요해졌습니다.\n네이버는 ‘모바일 최적화’를 빠르게 진행했지만, 다음은 대응이 늦었어요.\n  이 시점에서 다음의 웹 검색 점유율은 10%대로 추락했고, 네이버가 70% 이상을 차지하는 독점적 구조가 형성되었습니다.\n \n3. 티스토리의 탄생과 성장 (2006~2010년대 초반)\n2000년대 중반, 블로그가 새로운 콘텐츠 플랫폼으로 주목받기 시작했어요.\n2006년, 태터앤컴퍼니(TNC)가 개발한 티스토리(Tistory)는 기존 블로그 서비스와 차별화된 특징을 갖고 있었습니다.\n✅ 티스토리의 차별점\nHTML/CSS 편집 가능 → 완전한 자유도 제공\n애드센스(AdSense) 및 자체 광고 운영 가능 → 수익형 블로그 운영 가능\n개방형 플랫폼 → 검색 엔진 최적화(SEO) 강점\n  2007년, 다음이 TNC를 인수하면서 티스토리는 다음의 공식 블로그 서비스가 되었습니다.\n \n이후 많은 블로거들이 네이버 블로그 대신 티스토리를 선택했어요. 하지만 2010년대 이후 유튜브, SNS 중심의 콘텐츠 소비가 늘어나면서 블로그 시장도 점차 변화를 맞이하게 됩니다.\n \n4. 카카오의 다음 인수 (2014년)와 티스토리의 변화\n2014년, 카카오는 다음을 인수하며 ‘다음카카오’라는 새로운 기업을 출범했습니다.\n카카오는 다음을 인수하면서 검색 트래픽과 콘텐츠 플랫폼을 강화하려는 전략을 내세웠습니다.\n하지만 시간이 지나면서 카카오는 점점 카카오톡, AI, 금융(카카오페이), 콘텐츠(브런치·카카오뷰) 사업에 집중하며, 다음과 티스토리는 점점 우선순위에서 밀려났습니다.\n결국, 카카오는 2023년, 포털 서비스 '다음(Daum)'을 사내독립기업(CIC, Company-in-Company)으로 전환했습니다. 이는 급변하는 인터넷 환경 속에서 포털 사업의 자율성을 높이고, 독립적인 의사 결정을 통해 경쟁력을 강화하려는 목적이었습니다. 당시 카카오는 다음의 검색, 뉴스, 커뮤니티 서비스 등을 최적화하는 한편, 자사 핵심 서비스인 카카오톡, AI, 금융 사업에 더욱 집중하는 전략을 펼쳤습니다.\n그러나 2025년 3월, 카카오는 결국 다음의 분사를 공식 발표했습니다. 정확한 분사 시점은 아직 정해지지 않았지만, 이번 결정은 포털 사업의 독립성을 더욱 강화하고, 다음의 새로운 성장 가능성을 모색하기 위한 움직임으로 해석됩니다. 이에 따라 다음과 티스토리의 향후 운영 방향과 서비스 구조에도 큰 변화가 예상되며, 기존 사용자들도 이에 대한 대비가 필요할 것으로 보입니다.\n \n \n5. 다음(Daum)과 티스토리, 앞으로 어떻게 될까?\n다음과 티스토리가 처한 현재 상황을 이해했다면, 이제 앞으로의 미래가 궁금해질 텐데요.\n다음과 티스토리의 미래는 단순히 한 번의 분석으로 끝날 문제가 아닙니다. 이에 따라, 보다 심층적으로 다룰 예정입니다.\n  다음 연재 시리즈에서 다룰 주제\n1. 다음의 분사가 티스토리에 미치는 영향\n2. 티스토리의 유료화 가능성과 블로거들의 대응 전략\n3. 티스토리를 대체할 수 있는 플랫폼 비교 분석\n  앞으로의 연재 시리즈에서 티스토리의 미래를 보다 깊이 있게 다룰 예정이니, 계속 지켜봐 주세요!  \n  Q&A\nQ1. 다음(Daum)은 왜 네이버에게 1위 자리를 빼앗겼나요?\nA. 네이버가 검색 엔진을 강화하고, ‘지식iN’ 같은 차별화된 서비스를 제공하면서 검색 점유율을 급격히 끌어올렸기 때문입니다. 또한 모바일 시장 대응이 늦어지면서 점유율을 잃었습니다.\nQ2. 티스토리는 왜 네이버 블로그보다 인기가 많았나요?\nA. 티스토리는 HTML/CSS 편집이 가능하고, 애드센스를 통한 수익화가 가능했기 때문에 많은 블로거들에게 인기가 있었습니다. 반면, 네이버 블로그는 폐쇄적인 운영 방식을 고수했습니다.\nQ3. 카카오는 왜 다음을 인수했나요?\nA. 카카오는 다음을 인수하여 포털 검색 트래픽을 활용하고, 뉴스·커뮤니티·광고 플랫폼을 강화하려 했습니다. 하지만 시간이 지나면서 검색보다는 카카오톡, AI, 금융 등 다른 사업에 집중하게 되었습니다.\nQ4. 다음이 카카오에서 분리되면 티스토리는 어떻게 될까요?\nA. 티스토리가 다음과 함께 독립할지, 아니면 카카오가 유지할지가 관건입니다. 카카오가 유지하면 브런치, 카카오뷰와의 연계가 강화될 가능성이 높고, 다음과 함께 독립한다면 기존 포털 검색 기반 블로그로 남을 가능성이 큽니다.\nQ5. 티스토리를 떠나야 할까요?\nA. 티스토리의 미래가 불확실한 만큼, 워드프레스, 브런치, 네이버 블로그 같은 대체 플랫폼을 고려해 대비하는 것이 좋습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"다음(Daum)은 왜 네이버에게 1위 자리를 빼앗겼나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네이버가 검색 엔진을 강화하고, ‘지식iN’ 같은 차별화된 서비스를 제공하면서 검색 점유율을 급격히 끌어올렸기 때문입니다. 또한 모바일 시장 대응이 늦어지면서 점유율을 잃었습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리는 왜 네이버 블로그보다 인기가 많았나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"티스토리는 HTML/CSS 편집이 가능하고, 애드센스를 통한 수익화가 가능했기 때문에 많은 블로거들에게 인기가 있었습니다. 반면, 네이버 블로그는 폐쇄적인 운영 방식을 고수했습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"카카오는 왜 다음을 인수했나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오는 다음을 인수하여 포털 검색 트래픽을 활용하고, 뉴스·커뮤니티·광고 플랫폼을 강화하려 했습니다. 하지만 시간이 지나면서 검색보다는 카카오톡, AI, 금융 등 다른 사업에 집중하게 되었습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"다음이 카카오에서 분리되면 티스토리는 어떻게 될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"티스토리가 다음과 함께 독립할지, 아니면 카카오가 유지할지가 관건입니다. 카카오가 유지하면 브런치, 카카오뷰와의 연계가 강화될 가능성이 높고, 다음과 함께 독립한다면 기존 포털 검색 기반 블로그로 남을 가능성이 큽니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리를 떠나야 할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"티스토리의 미래가 불확실한 만큼, 워드프레스, 브런치, 네이버 블로그 같은 대체 플랫폼을 고려해 대비하는 것이 좋습니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483556",
+    "pubDate": "Wed, 19 Mar 2025 09:40:40 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "NEWS/IT 뉴스",
+      "검색 엔진",
+      "네이버",
+      "다음",
+      "다음 카페",
+      "카카오",
+      "카카오 다음 분사",
+      "티스토리",
+      "티스토리 유료화",
+      "포털 역사",
+      "한메일"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Find the IDE features you need with GitHub Copilot and Search",
+    "description": "Ever find yourself needing to locate a specific menu item, command, or option in Visual Studio, but you don’t know its name or location? Do you often struggle to find detailed instructions on using certain features effectively? Now, there’s a solution to get you the information you need right in the IDE. Visual Studio now […]\nThe post Find the IDE features you need with GitHub Copilot and Search appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/find-the-ide-features-you-need-with-github-copilot-and-search/",
+    "pubDate": "Wed, 19 Mar 2025 15:00:29 +0000",
+    "creator": "Leah Tran",
+    "categories": [
+      "GitHub Copilot",
+      "Visual Studio",
+      "GitHub Copilot Chat",
+      "Search"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "Optimizing Build Times with Build Insights: How Activision Cut Call of Duty’s Build Time by 50%",
     "description": "Slow build times are a major headache for developers, especially in large, complex C++ codebases like game engines. Every minute spent waiting on a build is time that could be used to refine features, resolve issues, or push development forward. Activision faced this challenge with Call of Duty: Modern Warfare II, where prolonged build times […]\nThe post Optimizing Build Times with Build Insights: How Activision Cut Call of Duty’s Build Time by 50% appeared first on C++ Team Blog.",
@@ -114,136 +226,17 @@
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "티스토리 유료화된다면? 블로거들이 꼭 알아야 할 변화와 대응법 - 티스토리의 미래 3부작 (2부)",
-    "description": "티스토리가 유료화된다면, 블로거들에게 어떤 변화가 있을까요?\n무료 플랜과 유료 플랜이 도입될 가능성을 분석하고, 블로거들이 어떻게 대비해야 할지 실질적인 전략을 제공합니다.\n\n\n \n\"티스토리가 유료화되면, 블로그 운영을 계속할 수 있을까?\"\n \n최근 카카오가 다음을 분사를 결정하면서, 티스토리의 미래도 불투명해지고 있습니다.\n네이버 블로그, 브런치 등 경쟁 플랫폼과 차별성을 유지하려면,\n티스토리도 워드프레스처럼 유료 모델로 전환할 가능성이 있다는 전망이 나오고 있습니다.\n \n✅ 무료 & 유료 모델이 도입될까?\n✅ 어떤 방식으로 유료화될 가능성이 있을까?\n✅ 블로거들은 어떻게 대비해야 할까?\n \n티스토리가 유료화될 경우 예상되는 변화와 대응 전략을 분석해 보겠습니다.\n \n \n  티스토리, 왜 유료화 가능성이 거론될까?\n지금까지 티스토리는 무료 블로그 플랫폼으로 운영되어 왔습니다.\n그런데 카카오가 티스토리를 계속 운영할 경우, 수익 모델 강화를 위해 유료화할 가능성이 높아지고 있습니다.\n1️⃣ 카카오는 티스토리를 수익화해야 한다\n네이버 블로그는 네이버 검색과 통합되어 광고 수익을 창출\n워드프레스는 독립 블로그 운영 + 유료 플랜 도입으로 수익 모델 구축\n반면 티스토리는 광고 플랫폼으로서 경쟁력이 약해지고 있음\n  검색 트래픽이 줄어드는 상황에서, 티스토리는 새로운 수익 구조를 찾아야 합니다.\n2️⃣ 카카오는 콘텐츠 사업을 강화하고 있다\n카카오 브런치는 작가 중심의 프리미엄 콘텐츠 플랫폼\n카카오뷰는 큐레이션 서비스로 광고 수익을 창출\n티스토리도 단순 블로그가 아니라, 콘텐츠 수익 모델을 도입할 가능성 높음\n  즉, 티스토리는 기존 블로그 방식을 유지하기보다는, 새로운 방식의 유료 서비스로 전환될 수 있습니다.\n \n  티스토리가 유료화된다면, 어떤 방식이 될까?\n티스토리가 유료 모델을 도입한다면, 3가지 시나리오가 예상됩니다.\n  1) 무료 & 유료 플랜 병행 모델 (가장 가능성 높음)\n✅ 무료 플랜:\n기존 티스토리 블로그 운영 가능\n광고 포함 (애드센스 사용 제한 가능성)\n기능 일부 제한 (예: SEO 설정, 고급 테마 사용 불가)\n✅ 유료 플랜:\n광고 제거 옵션 제공\nSEO 최적화 기능 제공 (검색 노출 강화 기능 추가)\n고급 테마 지원 및 블로그 디자인 커스터마이징 가능\n개별 도메인 연결 가능\n  가능성이 높은 이유:\n  네이버 블로그는 애드센스 적용이 불가능하지만, 티스토리는 수익형 블로그 모델을 유지해야 함\n  카카오 입장에서 무료 사용자를 유지하면서, 고급 기능을 원하는 블로거들에게 유료 플랜을 제공하는 것이 현실적\n \n  2) 완전 유료화 (독립 블로그 플랫폼 전환)\n✅ 독립 블로그 운영 (호스팅 기반 모델)\n블로그를 직접 운영할 수 있도록, 월별 요금제 기반으로 제공\n워드프레스처럼 호스팅 방식으로 전환\n사용자들이 직접 블로그를 관리하고, 자체 서버 및 트래픽 비용을 부담\n❌ 위험 요소:\n블로거들의 이탈 가능성이 커짐\n유지 비용이 증가하면서, 초보 블로거들이 접근하기 어려워짐\n현재 카카오의 방향성과 일치하지 않을 가능성이 있음\n  가능성이 낮은 이유:\n  완전 유료화할 경우, 기존 블로거들의 대량 이탈이 발생할 수 있음\n  카카오는 플랫폼 기반 광고 수익을 원하기 때문에, 무료 사용자도 필요함\n \n  3) 프리미엄 콘텐츠 모델 (브런치 스타일 도입)\n✅ 블로그 기반 유료 콘텐츠 판매 기능 추가\n일부 글을 유료로 제공 (구독 모델 도입 가능성)\n크리에이터 지원 프로그램과 연계\n카카오페이와 연계하여 후원 및 구독 결제 기능 도입 가능\n❌ 위험 요소:\n기존 무료 블로그와의 차별성이 약해질 수 있음\n네이버 블로그 및 워드프레스와의 차별화 전략이 필요함\n  가능성이 있는 이유:\n  브런치와 유사한 방식으로, 티스토리를 프리미엄 블로그로 변화시키려 할 수도 있음\n \n \n  블로거들은 어떻게 대비해야 할까?\n✅ 1️⃣ 유료화 대비, 블로그 수익 모델 점검하기\n애드센스를 사용 중이라면, 무료 플랜에서 계속 허용될지 확인 필요\nSEO 기능이 제한될 가능성이 있으므로, 구글 검색 최적화를 미리 강화\n✅ 2️⃣ 티스토리 백업 및 마이그레이션 준비\n만약 유료화가 부담된다면, 워드프레스(독립 블로그), 네이버 블로그 등 대체 플랫폼 검토 필요\n블로그 데이터를 주기적으로 백업하여, 필요할 경우 다른 플랫폼으로 이전할 준비\n✅ 3️⃣ 대체 플랫폼 비교 분석\n플랫폼\n특징\n장점\n단점\n\n\n\n\n네이버 블로그\n네이버 검색 최적화\n트래픽 확보 쉬움\n애드센스 불가\n\n\n브런치 (카카오)\n프리미엄 콘텐츠\n브랜드 구축 가능\n광고 수익 불가\n\n\n워드프레스\n독립 운영 가능\n애드센스·광고 가능\n유지 비용 발생\n\n\n\n  티스토리를 계속 유지할지, 대체 플랫폼으로 이동할지는 유료화 방식에 따라 결정해야 합니다.\n \n  마무리: 티스토리, 유료화될까? 블로거들은 어떻게 준비해야 할까?\n✅ 티스토리는 네이버 블로그, 워드프레스와 차별화하기 위해 유료 모델을 도입할 가능성이 있다.\n✅ 가장 현실적인 시나리오는 ‘무료 & 유료 플랜 병행 모델’로, 광고 제거 및 SEO 강화 옵션을 제공하는 방식이 될 가능성이 크다.\n✅ 블로거들은 지금부터 블로그 데이터를 백업하고, SEO 최적화를 강화하면서 유료화에 대비해야 한다.\n  티스토리가 유료화될 경우, 블로거들이 생존할 방법을 미리 준비해야 합니다!\n \n \n\n \n다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지\n한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제\nmuzbox.tistory.com\n\n \n\n \n카카오, 다음과 결별하다! 티스토리의 앞날은? 티스토리의 미래 3부작 (1부)\n카카오가 다음(Daum)을 분사하면서, 티스토리(Tistory)의 미래도 불투명해지고 있습니다. 티스토리는 다음 소속으로 가게 될까, 아니면 카카오가 계속 운영할까? 블로거들이 대비해야 할 변화와 생\nmuzbox.tistory.com\n\n \n❓ Q&A\nQ1. 티스토리가 유료화될 가능성이 있나요?\nA. 카카오가 티스토리를 유지할 경우, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\nQ2. 유료화된다면 어떤 방식으로 진행될까요?\nA. 무료 플랜과 유료 플랜이 병행될 가능성이 높습니다. 무료 플랜은 광고 포함, 기능 일부 제한이 있을 수 있으며, 유료 플랜에서는 광고 제거, SEO 최적화, 고급 테마 지원 등의 기능이 추가될 수 있습니다.\nQ3. 티스토리 블로거들은 유료화에 어떻게 대비해야 하나요?\nA. 검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\nQ4. 티스토리가 완전 유료화될 가능성도 있나요?\nA. 완전 유료화될 가능성은 낮지만, 독립 블로그 호스팅 방식으로 전환될 경우 일정 비용이 필요할 수도 있습니다. 하지만 기존 사용자의 대량 이탈을 막기 위해 무료 모델도 유지될 가능성이 큽니다.\nQ5. 유료화되면 대체할 수 있는 블로그 플랫폼은 어떤 것이 있나요?\nA. 대체 플랫폼으로는 네이버 블로그(검색 최적화), 브런치(프리미엄 콘텐츠), 워드프레스(독립 블로그 운영 가능) 등이 있습니다. 블로그의 성격과 목표에 따라 적합한 플랫폼을 선택하는 것이 중요합니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 유료화될 가능성이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오가 티스토리를 유지할 경우, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"유료화된다면 어떤 방식으로 진행될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"무료 플랜과 유료 플랜이 병행될 가능성이 높습니다. 무료 플랜은 광고 포함, 기능 일부 제한이 있을 수 있으며, 유료 플랜에서는 광고 제거, SEO 최적화, 고급 테마 지원 등의 기능이 추가될 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리 블로거들은 유료화에 어떻게 대비해야 하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 완전 유료화될 가능성도 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"완전 유료화될 가능성은 낮지만, 독립 블로그 호스팅 방식으로 전환될 경우 일정 비용이 필요할 수도 있습니다. 하지만 기존 사용자의 대량 이탈을 막기 위해 무료 모델도 유지될 가능성이 큽니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"유료화되면 대체할 수 있는 블로그 플랫폼은 어떤 것이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"대체 플랫폼으로는 네이버 블로그(검색 최적화), 브런치(프리미엄 콘텐츠), 워드프레스(독립 블로그 운영 가능) 등이 있습니다. 블로그의 성격과 목표에 따라 적합한 플랫폼을 선택하는 것이 중요합니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483558",
-    "pubDate": "Fri, 21 Mar 2025 08:34:34 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "NEWS/IT 뉴스",
-      "블로그 마이그레이션",
-      "블로그 유료 모델",
-      "카카오 다음 분사",
-      "티스토리 SEO",
-      "티스토리 광고 정책",
-      "티스토리 대체 플랫폼",
-      "티스토리 미래",
-      "티스토리 애드센스",
-      "티스토리 워드프레스",
-      "티스토리 유료화"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "What’s New in TeamCity 2025.03: Recipes, Improved Docker and Podman Integration, UI Updates, and More",
-    "description": "TeamCity’s first major release of the year, version 2025.03, is now available. It’s packed with new features, including massive UI updates, a new Run in Docker build feature, and JetBrains-crafted recipes available in our Marketplace. UI updates In line with our commitment to make TeamCity easier and more intuitive to use, this release introduces significant […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/03/teamcity-2025-03-release",
-    "pubDate": "Thu, 20 Mar 2025 15:31:43 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "release",
-      "teamcity"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "어둠도 절망도 가르는 전사들, 나이트 슬래셔즈: 리메이크",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2291",
-    "pubDate": "Thu, 20 Mar 2025 22:01:29 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "원금을 3배 이상 불려주는 내일채움공제 3년형",
-    "description": "월 10만 원씩 넣으면 3년 뒤 1,224만 원이 돼요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/money-policies-36",
-    "pubDate": "Mon, 17 Mar 2025 00:23:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "토스, 자동차보험 비교추천 서비스 2.0 오픈",
-    "description": "보험사와 동일한 보험료 안내",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/carinsurance2",
-    "pubDate": "Thu, 20 Mar 2025 02:12:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Enhance Pull Request Reviews with In-Depth Feedback",
-    "description": "Visual Studio 2022 has taken the pull request experience to the next level by making reviews interactive. We previously enabled viewing your pull request comments inline in your working files. Now, the latest update empowers you to add comments directly within the IDE, streamlining the review process. Now, pull request reviewers can conduct deep reviews […]\nThe post Enhance Pull Request Reviews with In-Depth Feedback appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/enhance-pull-request-reviews-with-in-depth-feedback/",
-    "pubDate": "Thu, 20 Mar 2025 15:00:02 +0000",
-    "creator": "Jessie Houghton",
-    "categories": [
-      "Git",
-      "Team and Development",
-      "Visual Studio",
-      "GitHub"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "타입스크립트, 이제 Go로 다시 태어난다: 10배 빨라지는 이유와 커뮤니티 반응까지",
-    "description": "마이크로소프트가 최근 TypeScript 컴파일러를 Go 언어로 포팅한다고 발표했습니다. 이 결정은 개발 커뮤니티에 큰 화제가 되었는데, 과연 왜 마이크로소프트는 TypeScript를 Go로 재작성하기로 했을까요? 기존 TypeScript의 한계, Go를 선택한 이유와 Rust가 아닌 Go인 이유, 그리고 앞으로의 로드맵과 커뮤니티의 반응까지 종합적으로 살펴보겠습니다.\n기존 타입스크립트의 한계: 성능과 유지보수 문제\n현재의 타입스크립트 컴파일러(tsc)는 JavaScript(정확히는 TypeScript로 작성된 JS)로 구현되어 Node.js 환경에서 동작합니다. 이는 간편한 배포와 쉬운 확장성이라는 장점이 있었지만, 다음과 같은 근본적인 성능 문제가 있었습니다.\n대규모 프로젝트에서의 느린 빌드 속도\n단일 스레드 동작으로 인해 멀티코어 CPU의 병렬성을 충분히 활용하지 못했습니다.\nNode.js의 가비지 컬렉션과 JIT 컴파일 오버헤드로 인해 최적화에 제약이 있었습니다.\n실제 VS Code 수준(약 150만 라인)의 프로젝트는 전체 빌드에 최대 1분 이상 걸리는 문제가 지속되어 왔습니다.\nGo 언어로의 전환: 10배 빨라지는 TypeScript\n이러한 문제를 근본적으로 해결하기 위해 타입스크립트 팀은 네이티브 언어로의 포팅을 결정했고, 선택된 언어는 Go였습니다. Go로 포팅하면 다음과 같은 이점이 명확히 나타납니다.\n컴파일 성능 대폭 향상 (최대 10배): 초기 테스트에서 VS Code 전체 빌드 시간을 77.8초에서 7.5초로 단축하여 약 10배의 성능 향상을 입증했습니다.\n멀티코어 활용 가능: Go의 멀티스레딩 지원 덕분에 병렬로 파싱, 바인딩, 타입 검사를 실행할 수 있게 되었습니다.\n메모리 효율성 향상: 네이티브 코드의 메모리 효율 개선과 공유 메모리 활용으로 메모리 사용량이 최대 50% 감소했습니다.\n간편한 배포 및 유지보수성 향상: Go는 정적 컴파일을 지원하여 단일 바이너리 형태로 배포할 수 있어 환경 설정 및 CI/CD가 간편해집니다. 또한, 정적 타입 덕분에 컴파일러 자체의 안정성도 높아집니다.\n결과적으로 개발자들이 더욱 빠르고 안정적인 개발 경험을 얻을 수 있게 되며, IDE의 초기 로딩과 코드 편집 응답 속도가 획기적으로 빨라질 것으로 기대됩니다.\n왜 Rust가 아니라 Go인가?\n발표 직후 가장 큰 논쟁거리는 왜 Rust가 아니라 Go를 선택했느냐는 것이었습니다. Rust는 최근 JavaScript 도구 생태계에서 성능을 높이는 새로운 표준처럼 여겨졌기 때문입니다. Rust를 선택하지 않은 이유는 다음과 같습니다.\n구조적 호환성 문제: 기존 TypeScript 컴파일러(tsc)는 JS의 GC와 가변 객체 그래프를 광범위하게 활용합니다. Rust로 옮기려면 공유 가변성(shared mutability) 문제로 인해 수많은 부분을 재설계해야 했고, 이는 호환성을 깨고 버그를 초래할 위험이 컸습니다.\n복잡성 증가: Rust의 엄격한 메모리 관리 규칙을 준수하면서 기존 기능을 그대로 구현하려면 과도하게 unsafe 코드를 사용하는 등 Rust의 장점을 살리지 못하는 결과를 초래할 수 있었습니다.\n개발자 경험의 일관성: 타입스크립트 설계자 Anders Hejlsberg는 \"새로운 패러다임으로 재설계하는 리스크보다는 기존의 동작 방식을 최대한 유지하는 것이 중요했다\"고 밝혔습니다. Go는 JS와 유사한 가비지 컬렉터를 사용하며 메모리 관리와 코드 스타일 측면에서 기존 코드베이스와 호환성이 높았습니다.\n실제 Rust 기반의 SWC 컴파일러 개발자(kdy1) 역시 과거 타입스크립트 컴파일러를 Rust로 포팅하는 시도를 했지만, 구조적 한계 때문에 중단한 사례도 있습니다.\n앞으로의 로드맵과 일정\n마이크로소프트는 이번 프로젝트를 TypeScript 7.0 버전에서 공식적으로 출시할 예정입니다. 구체적인 로드맵은 다음과 같습니다.\n2025년 중반까지 Go로 작성된 TypeScript 컴파일러의 프리뷰 버전 제공 예정\n2025년 말까지 타입 검사 및 언어 서비스까지 기능 완비(feature-complete) 예정\n이후 기존 JS 버전(TypeScript 6.x 버전)은 상당 기간 유지하면서 개발자가 점진적으로 전환하도록 지원\n현재 GitHub에 Go 포팅 버전의 초기 코드가 공개되어 있어, 개발자들이 직접 테스트하고 피드백을 줄 수 있습니다.\n커뮤니티 및 전문가들의 반응: 기대와 우려 사이\n커뮤니티에서는 대체로 긍정적인 평가가 많습니다. 특히 현업 개발자들은 \"10배 빨라진 컴파일 속도\"에 큰 기대를 나타냈습니다. 하지만 Rust가 아니라 Go를 선택한 것에 대한 일부 아쉬움과 우려도 있었습니다. 특히 WebAssembly 번들 크기나 성능 측면에서 Rust보다 불리할 수 있다는 점에 대한 지적도 나왔습니다.\n그럼에도 불구하고, 마이크로소프트가 공개한 포팅 이유와 기술적 설명을 접한 뒤에는 다수의 개발자가 납득하고 긍정적으로 평가했습니다. 무엇보다 \"중요한 건 컴파일러의 성능 향상과 안정성이며, 결과가 좋다면 언어 선택은 부차적이다\"라는 의견이 힘을 얻고 있습니다.\n결론: TypeScript의 새로운 도약을 기대하며\n결론적으로 마이크로소프트의 이번 선택은 TypeScript의 향후 10년을 대비한 전략적인 결정으로 평가됩니다. Go로의 포팅이 성공적으로 이루어진다면, 앞으로 더 많은 프로젝트들이 TypeScript의 강력한 타입 시스템과 함께 더욱 향상된 성능과 생산성을 경험할 수 있을 것입니다. Rust 등 다른 후보 언어를 둘러싼 초기 논쟁도 있었지만, 결과적으로 이번 포팅 결정은 실용적이고 현실적인 선택이라는 평가를 받고 있습니다.\n타입스크립트의 새로운 시대가 열리고 있습니다. 마이크로소프트의 이번 결정이 실제 어떤 성과로 이어질지, 커뮤니티와 함께 기대하며 지켜볼 일입니다.\n출처 및 참고자료\nGitHub 공식 저장소: microsoft/typescript-go\nMicrosoft 공식 블로그: A 10x Faster TypeScript\n \n개발자 커뮤니티 (Hacker News): A 10x Faster TypeScript\n개발자 커뮤니티 (Reddit): A 10x Faster TypeScript : r/typescript\n2ality 기술 블로그: A closer look at the details behind the Go port of the TypeScript compiler\nSimon Willison 기술 블로그: A quote from Ryan Cavanaugh\nYouTube 영상 요약 및 분석 (ChainDesk.ai 요약 페이지): Microsoft goes nuclear on TypeScript codebase…",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.gaerae.com/2025/03/a-10x-faster-typescript-go.html",
-    "pubDate": "Mon, 17 Mar 2025 03:06:00 +0000",
-    "creator": "noreply@blogger.com (Unknown)",
-    "categories": [
-      {
-        "_": "go",
-        "$": {
-          "domain": "http://www.blogger.com/atom/ns#"
-        }
-      },
-      {
-        "_": "typescript",
-        "$": {
-          "domain": "http://www.blogger.com/atom/ns#"
-        }
-      }
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "TeamCity Roadmap 2025: Updating the UI, TeamCity Recipes, and Much More",
-    "description": "This year, the TeamCity team is working on a number of new initiatives, including updating the UI, TeamCity recipes, Jenkins migration tools, and many others. Read on to learn what our focus is for 2025. Modernizing the TeamCity Enterprise interface In 2025, we’re taking a major step forward in enhancing the TeamCity experience. The modern […]",
+    "title": "Kling AI 로 뽑은 영상 02",
+    "description": "이전글 : https://serverdown.tistory.com/1213\n지난번에 반대로 회전했었고\n화전 반향을 지정해봐야 안먹힌다는 사실을 알았습니다.\n그래서 천천히 움직이라고 추가했고 \n영상이 짧으니 천천히 움직이면 당연히 조금밖에 못움직입니다.\n \n프롬프트\nMove your head slowly.\nBlink your eyes.\nMove your mouth gently.\n천천히 고개를 움직이고\n눈을 깝박이고\n입을 부드럽게 움직여라\n이렇게 적은것입니다.\n결과물\n \n\n\n\n눈을 깜박임이 과하군요 횟수 까지 지정해줘야겠군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/03/teamcity-roadmap-2025",
-    "pubDate": "Wed, 19 Mar 2025 14:32:32 +0000",
-    "creator": "Olga Bedrina",
+    "link": "http://serverdown.tistory.com/1218",
+    "pubDate": "Fri, 21 Mar 2025 01:41:26 +0900",
+    "creator": "이건개발",
     "categories": [
-      "roadmap"
+      "유튜브"
     ]
   }
 ]
