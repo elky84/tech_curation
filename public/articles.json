@@ -2,11 +2,48 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "Using AI Agents for Notebook Debugging",
+    "description": "Debugging computational notebooks can be quite frustrating for a variety of reasons, including issues like out-of-order cell execution, missing data files, and library conflicts. Traditional AI tools often struggle with these problems due to the interactive nature of notebooks, but at JetBrains, we are exploring new solutions. Our research team has developed a prototype of […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/03/using-ai-agents-for-notebook-debugging/",
+    "pubDate": "Wed, 19 Mar 2025 12:53:50 +0000",
+    "creator": "Galina Ryazanskaya",
+    "categories": [
+      "research",
+      "ai-agent",
+      "ai-agents",
+      "debug",
+      "debugging"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "The Impact of Code Analysis in STEM: Protecting Work That Affects the World",
+    "description": "At Qodana, we champion code quality for businesses and enterprise development teams, but it has other crucial applications, and implications. Not only can good (and bad!) code be felt in the digital products we all know and use every day, but its impact also extends to science, technology, engineering, and mathematics (STEM). As STEM disciplines […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2025/03/code-analysis-in-stem/",
+    "pubDate": "Sat, 22 Mar 2025 08:25:25 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "code-review",
+      "code-analysis",
+      "inellij",
+      "learning",
+      "science",
+      "stem"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
     "title": "파이어 베이스 functions 로컬 실행 및 자동 실행 / Typescript",
     "description": "typescript 로 작업하는데 저장하니까 새로고침이 안되는군요\n \n노드몬 설치합니다. \n(필요 없을꺼 같군요)\nnpm install nodemon -g \n \npackage.json 에 script 부분을 수정해야합니다.\n  \"scripts\": {\n    \"build\": \"tsc\",\n    \"build:watch\": \"tsc --watch\",\n    \"serve2\": \"npm run build && firebase emulators:start --only functions\",\n    \"serve\": \"npm run build && --watch | firebase emulators:start --only functions\",\n    \"shell\": \"npm run build && firebase functions:shell\",\n    \"start\": \"npm run shell\",\n    \"deploy\": \"firebase deploy --only functions\",\n    \"logs\": \"firebase functions:log\"\n  },\nserve2 가 기존 명령 보관해둔거구요\nserve 가 새로 넣은 명령입니다. --watch 가 들어간걸 알 수 있습니다.\n테스트 서버 실행\nfirebase emulators:start \n \n다시 실행 해주긴하는데\n반응이 겁나 느립니다.\n이런 환경에서 개발하다니 놀랍습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1212",
+    "link": "https://serverdown.tistory.com/1212",
     "pubDate": "Tue, 18 Mar 2025 21:21:50 +0900",
     "creator": "이건개발",
     "categories": [
@@ -14,39 +51,122 @@
     ]
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "Sign Up for the free Pure Virtual C++ 2025 Conference",
-    "description": "Every year we run Pure Virtual C++: a free one-day virtual conference for the whole C++ community. Next month we’re doing it again! Sign-up for free to get access to our five live sessions and a host of pre-conference content. The live event will start at April 30th 14:00 UTC. Videos will be available to […]\nThe post Sign Up for the free Pure Virtual C++ 2025 Conference appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/sign-up-for-the-free-pure-virtual-c-2025-conference/",
-    "pubDate": "Fri, 21 Mar 2025 11:34:23 +0000",
-    "creator": "Sy Brand",
-    "categories": [
-      "Announcement",
-      "Pure Virtual C++"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2024.3.5 Is Out!",
-    "description": "We’ve released another update for v2024.3! You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. This new version that brings the following valuable improvements:  To see the full list of issues addressed in this […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/03/intellij-idea-2024-3-5/",
-    "pubDate": "Tue, 18 Mar 2025 10:38:35 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": [
-      "releases",
-      "2024-3",
-      "bug-fix-update",
-      "intellij-idea-2024-3"
-    ]
-  },
-  {
     "id": 4,
+    "imageUrl": "",
+    "title": "데드락 기록 - 2025.03.05",
+    "description": "https://github.com/boyism80/fb/commit/36d155582b85733f95c559f11b5824b025052a96",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/boyism/223805433497?fromRss=true&trackingCode=rss",
+    "pubDate": "Sat, 22 Mar 2025 00:19:11 +0900",
+    "creator": "boyism",
+    "categories": [
+      "동기화"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "티스토리를 떠나야 할까? 대체 플랫폼 5곳 비교 분석 - 티스토리의 미래 3부작 (3부)",
+    "description": "티스토리를 떠나야 할지 고민하는 요즘, 마음이 참 복잡해요. 블로그 플랫폼이라는 게 한번 정착하면 옮기기가 쉽지 않잖아요. 글, 이미지, 댓글, 그리고 무엇보다 그동안 쌓아온 포스팅들... 다 옮긴다고 생각하면 머리가 지끈지끈 아파옵니다.\n\n\n \n티스토리의 미래가 불안하다는 소식이 들리면서부터 '이제 어디로 가야 하나' 하는 고민이 시작됐어요. 여러분도 비슷한 고민하고 계시죠? 오늘은 제가 여러 블로그 플랫폼을 직접 사용해보고 비교 분석한 내용을 솔직하게 공유해 드릴게요.\n \n  티스토리 이사를 고민해야 할 신호들\n티스토리가 당장 문을 닫진 않겠지만, 몇 가지 불안한 징후들이 나타나고 있어요. 이런 신호들이 보인다면 슬슬 대안을 준비해야 할 때입니다.\n플랫폼 불안정성의 징후\n요즘 티스토리에 로그인하려면 가끔 오류가 뜨더라고요. 글 작성 중에 튕기는 경우도 있고, 이미지 업로드가 예전보다 확실히 느려진 것 같아요. 이런 사소한 문제들이 쌓이다 보면 결국 큰 문제로 이어질 수 있어요.\n더 걱정되는 건, 관리자 측의 공지가 점점 줄어들고 있다는 점이에요. 예전엔 업데이트나 변화에 대해 미리 알려주곤 했는데, 요즘은 갑자기 바뀌어 있는 경우가 많아요. 고객센터 응답도 전보다 느려진 것 같고요.\nSEO 및 트래픽 감소\n제 블로그는 2년 전부터 네이버와 구글 검색 노출이 점점 줄어들고 있어요. 똑같은 콘텐츠 품질인데도 검색 순위가 자꾸 밀리는 느낌이랄까? 특히 네이버는 자사 블로그 우대 정책이 강화되면서 티스토리 블로그의 상위 노출이 점점 어려워지고 있어요.\n이런 검색 노출 감소는 당연히 광고 수익 감소로 이어지죠. 방문자 수가 줄면 애드센스 수익도 감소하니까요. 블로그로 부수입을 올리시는 분들이라면 이 부분이 특히 고민될 거예요.\n유료화 정책 도입 가능성\n솔직히 말해서, 유료화는 피할 수 없는 흐름인 것 같아요. 문제는 그 비용이 얼마나 될지, 그리고 무료 버전에선 어떤 기능이 제한될지예요. 만약 티스토리가 주요 기능을 대부분 유료로 전환한다면, 블로그 수익보다 유지비가 더 나올 수도 있잖아요?\n이 세 가지 중에서 두 가지 이상 해당된다면, 다른 플랫폼으로의 이전을 진지하게 고민해볼 때예요. 당장 무언가를 결정하기보다는, 천천히 대안을 탐색해보는 과정이 필요할 것 같습니다.\n \n \n  티스토리 대체 플랫폼 5곳 비교\n제가 직접 사용해본 5개의 플랫폼을 비교해봤어요. 각각의 특징과 장단점을 솔직하게 분석했습니다.\n1️⃣ 네이버 블로그\n네이버 블로그는 국내 검색 점유율 1위 포털에서 운영하는 만큼, 검색 최적화에 최고의 강점을 가지고 있어요. 특히 네이버 검색에서는 자사 플랫폼 우대 정책이 있어서 검색 유입에 확실히 유리합니다.\n장점:\n네이버 검색 노출이 압도적으로 유리\n대부분의 사용자에게 친숙한 인터페이스\n스마트에디터가 직관적이고 사용하기 쉬움\n네이버 아이디로 쉽게 시작할 수 있음\n단점:\n구글 애드센스 연동이 불가능해 수익화에 제한\n디자인 자유도가 낮고 템플릿이 제한적\n네이버의 정책 변화에 취약함\n타 플랫폼에 비해 전문적인 기능이 부족\n실제로 제 지인 중에는 티스토리에서 네이버로 옮긴 후 트래픽이 3배 이상 증가했다는 분도 있어요. 검색 최적화가 우선이라면 고려해볼 만한 옵션입니다.\n2️⃣ 브런치 (카카오)\n브런치는 카카오에서 운영하는 플랫폼으로, 감성적인 콘텐츠와 작가 중심의 커뮤니티가 특징이에요. 티스토리와 같은 카카오 계열이지만, 보다 '작품' 지향적인 플랫폼이라고 할 수 있죠.\n장점:\n깔끔하고 세련된 디자인으로 콘텐츠 집중도 높음\n작가로서의 브랜딩에 유리한 구조\n추천 시스템을 통한 새로운 독자층 확보 가능\n모바일 최적화가 잘 되어 있음\n단점:\n입점 심사가 필요해 진입 장벽이 있음\n광고 수익화가 거의 불가능\nSEO 최적화가 티스토리보다 약함\n콘텐츠 형식에 제한이 많음 (주로 글 중심)\n브런치는 광고 수익보다는 작가로서의 브랜딩이나 책 출간 등을 목표로 하는 분들에게 더 적합해요. 감성 에세이나 전문 지식을 공유하는 글이 주를 이루죠.\n3️⃣ 워드프레스 (독립형)\n워드프레스는 전 세계에서 가장 많이 사용되는 CMS(콘텐츠 관리 시스템)로, 완전한 독립 블로그를 운영할 수 있어요. 호스팅과 도메인을 직접 구매해 설치하는 방식입니다.\n장점:\n완전한 자유도와 소유권\nSEO 최적화에 매우 강력\n다양한 플러그인으로 확장성 무한대\n광고, 아필리에이트, 회원제 등 수익화 방식 다양\n단점:\n초기 설정과 관리가 상대적으로 어려움\n호스팅, 도메인 비용 등 유지 비용 발생\n보안, 백업 등을 직접 관리해야 함\n기술적 지식이 어느 정도 필요함\n제가 티스토리와 병행해서 운영 중인 플랫폼이 바로 워드프레스인데요. 처음엔 설정이 복잡했지만, 익숙해지니 그 자유도가 정말 매력적이에요. 특히 수익화 면에서는 어떤 플랫폼보다 유리합니다.\n4️⃣ 미디움 (Medium)\n미디움은 글로벌 콘텐츠 플랫폼으로, 깔끔한 디자인과 강력한 커뮤니티가 특징이에요. 영어 콘텐츠가 주를 이루지만, 한글 콘텐츠도 점점 늘어나고 있습니다.\n장점:\n세련된 미니멀 디자인\n글로벌 독자층 접근 가능\n소셜 미디어 공유 및 확산에 유리\n파트너 프로그램을 통한 수익화 가능\n단점:\n한글 콘텐츠 검색 노출이 약함\n국내 독자층 확보가 어려움\n유료 구독 모델이 국내 사용자에게 생소함\n번역 기능이 완벽하지 않음\n영어로 콘텐츠를 작성하거나 글로벌 시장을 겨냥한다면 고려해볼 만하지만, 국내 독자를 대상으로 한다면 다소 제한적입니다.\n5️⃣ 구글 블로거 (Blogger)\n구글에서 제공하는 무료 블로그 서비스로, 간단한 설정으로 시작할 수 있어요. 애드센스와의 연동이 쉽고 안정적인 서비스가 특징입니다.\n장점:\n구글 애드센스 연동이 매우 쉬움\n무료로 사용 가능하며 추가 비용 없음\n구글 검색 최적화에 유리\n안정적인 서버와 속도\n단점:\n디자인 템플릿이 제한적\n네이버 검색 노출이 약함\n커스터마이징 옵션이 티스토리보다 적음\n국내 사용자층이 적어 커뮤니티 형성이 어려움\n구글 블로거는 특히 해외 트래픽을 노리거나 애드센스 수익에 집중하는 블로거에게 적합해요. 하지만 국내 검색 엔진에서의 노출은 상대적으로 약한 편입니다.\n \n \n  티스토리 유지 vs 이전: 고민의 기로\n이제 가장 어려운 결정의 시간이네요. 티스토리를 계속 유지할지, 아니면 다른 플랫폼으로 이전할지 비교해봅시다.\n티스토리 계속 운영할 경우\n장점:\n지금까지 쌓아온 콘텐츠와 SEO 자산을 유지할 수 있어요\n익숙한 관리 환경에서 계속 작업할 수 있어 편리해요\n기존 구독자와 댓글 커뮤니티를 유지할 수 있죠\n애드센스 및 기존 수익 구조를 그대로 이어갈 수 있어요\n단점:\n카카오의 정책 변화에 따라 유료화될 가능성이 높아요\n기능 개선이나 업데이트가 느려질 수 있어요\n검색 엔진에서의 노출이 점점 줄어들 위험이 있죠\n플랫폼 자체의 불안정성 위험이 있어요\n다른 플랫폼으로 이전할 경우\n장점:\n새로운 검색 최적화 전략을 구사할 수 있어요\n브랜딩과 수익화 모델을 재설계할 기회가 됩니다\n새로운 UI/UX로 독자들에게 신선한 경험을 제공할 수 있어요\n플랫폼 종속성에서 벗어날 수 있어요 (특히 워드프레스)\n단점:\n글, 이미지, 댓글 등의 백업과 이전 작업이 매우 번거로워요\n기존 방문자와 구독자 중 일부는 이탈할 가능성이 높아요\n새로운 플랫폼에 적응하는 데 시간과 노력이 필요해요\nSEO 순위가 처음부터 다시 시작되어 트래픽 감소가 있을 수 있어요\n \n  블로거 유형별 추천 플랫폼\n모든 블로거에게 딱 맞는 하나의 플랫폼은 없어요. 각자의 운영 목적과 스타일에 따라 다른 선택이 필요합니다.\n블로거 유형 추천 플랫폼 추천 이유\n블로거 유형\n추천 플랫폼\n추천 이유\n\n\n\n\n수익형 블로그 운영자\n워드프레스, 구글 블로거\n광고 배치 자유도가 높고, 애드센스 최적화가 용이함\n\n\n감성 콘텐츠 작가\n브런치\n깔끔한 UI로 글 자체에 집중할 수 있고, 감성 콘텐츠에 최적화됨\n\n\n검색 유입이 중요한 블로거\n네이버 블로그\n국내 최대 포털에서의 검색 노출이 압도적으로 유리함\n\n\n글로벌 대상 콘텐츠 제작자\n미디움\n영어 기반 콘텐츠의 확산력이 우수하고 국제적 독자층 접근 가능\n\n\n커뮤니티 중심 블로거\n네이버 블로그, 티스토리\n댓글과 소통 기능이 활성화되어 있고, 국내 사용자에게 친숙함\n\n\n\n \n✅ 결론: 당장의 결정보다 중요한 것\n솔직히 말해서, 저는 티스토리를 10년 가까이 운영해왔지만 최근에는 워드프레스도 병행하고 있어요. 왜냐하면 플랫폼 하나에만 의존하는 것이 얼마나 위험한지 깨달았기 때문이에요.\n \n지금 고민하고 계신다면, 단순히 불안하다는 감정만으로 서둘러 결정하기보다는 \"내 블로그 운영 목적과 전략에 따라 이사 여부를 판단하는 것\"이 중요합니다.\n \n그리고 무엇보다 중요한 건, 백업은 지금 당장 하셔야 합니다! 어떤 결정을 내리든, 소중한 콘텐츠는 반드시 안전하게 보관해두세요. 또한 대체 플랫폼을 미리 테스트해보는 것도 현명한 전략입니다. 소규모로 새 플랫폼을 시작해 경험을 쌓아보세요.\n결국 플랫폼은 도구일 뿐이고, 가장 중요한 건 콘텐츠의 가치라는 점을 잊지 마세요. 어디서 글을 쓰든, 여러분의 진정성과 전문성이 담긴 콘텐츠는 언제나 가치가 있을 거예요.\n여러분은 어떤 플랫폼으로 옮길 생각이 있으신가요? 아니면 티스토리를 계속 지킬 준비가 되어 있으신가요? 댓글로 여러분의 고민과 선택을 나눠주세요!  ‍♂️ ‍♀️\n \n \n\n \n다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지\n한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제\nmuzbox.tistory.com\n\n\n \n카카오, 다음과 결별하다! 티스토리의 앞날은? 티스토리의 미래 3부작 (1부)\n카카오가 다음(Daum)을 분사하면서, 티스토리(Tistory)의 미래도 불투명해지고 있습니다. 티스토리는 다음 소속으로 가게 될까, 아니면 카카오가 계속 운영할까? 블로거들이 대비해야 할 변화와 생\nmuzbox.tistory.com\n\n \n\n \n티스토리 유료화된다면? 블로거들이 꼭 알아야 할 변화와 대응법 - 티스토리의 미래 3부작 (2부)\n티스토리가 유료화된다면, 블로거들에게 어떤 변화가 있을까요?무료 플랜과 유료 플랜이 도입될 가능성을 분석하고, 블로거들이 어떻게 대비해야 할지 실질적인 전략을 제공합니다. \"티스토리\nmuzbox.tistory.com\n\n \n❓ 자주 묻는 질문\nQ1: 티스토리에서 다른 플랫폼으로 글을 옮기는 가장 쉬운 방법은?\n티스토리의 백업 기능을 이용해 XML 파일을 다운로드한 후, 워드프레스나 블로거 같은 플랫폼에서 가져오기 기능을 사용하는 것이 가장 효율적이에요. 다만 이미지나 댓글은 완벽하게 이전되지 않을 수 있으니 확인이 필요합니다.\nQ2: 티스토리 백업은 어떻게 하나요?\n관리자 화면 > 설정 > 기타 설정 > 백업 메뉴에서 XML 형태로 백업할 수 있어요. 이미지는 별도로 다운로드해야 하며, 정기적인 백업을 추천합니다.\nQ3: SEO 관점에서 가장 유리한 플랫폼은?\n국내 검색엔진 최적화는 네이버 블로그, 해외 및 구글 검색 최적화는 워드프레스가 가장 유리합니다. 목표 시장에 따라 선택하세요.\nQ4: 워드프레스 초기 비용은 얼마나 들까요?\n도메인 비용(연 1~2만원)과 호스팅 비용(월 5천원~2만원)이 기본적으로 발생합니다. 테마나 플러그인에 따라 추가 비용이 있을 수 있으나, 무료 옵션도 많이 있어요.\nQ5: 티스토리가 유료화된다면 비용은 어느 정도가 될까요?\n아직 정확한 정보는 없지만, 비슷한 서비스인 워드프레스닷컴이나 외국 블로그 플랫폼을 참고하면 월 5천원~2만원 선으로 예상할 수 있습니다.\n 설정 > 기타 설정 > 백업 메뉴에서 XML 형태로 백업할 수 있어요. 이미지는 별도로 다운로드해야 하며, 정기적인 백업을 추천합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"SEO 관점에서 가장 유리한 플랫폼은?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"국내 검색엔진 최적화는 네이버 블로그, 해외 및 구글 검색 최적화는 워드프레스가 가장 유리합니다. 목표 시장에 따라 선택하세요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"워드프레스 초기 비용은 얼마나 들까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"도메인 비용(연 1~2만원)과 호스팅 비용(월 5천원~2만원)이 기본적으로 발생합니다. 테마나 플러그인에 따라 추가 비용이 있을 수 있으나, 무료 옵션도 많이 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 유료화된다면 비용은 어느 정도가 될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"아직 정확한 정보는 없지만, 비슷한 서비스인 워드프레스닷컴이나 외국 블로그 플랫폼을 참고하면 월 5천원~2만원 선으로 예상할 수 있습니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483559",
+    "pubDate": "Sat, 22 Mar 2025 21:23:04 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "NEWS/IT 뉴스",
+      "구글 블로거",
+      "네이버 블로그 vs 티스토리",
+      "미디움 한국어",
+      "브런치 블로그",
+      "블로그 백업 방법",
+      "블로그 수익화",
+      "블로그 이전",
+      "워드프레스 장단점",
+      "티스토리 대체 플랫폼",
+      "티스토리 유료화"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "상위 조직장의 관심",
+    "description": "요즘 회사 두 곳의 이야기를 들으며, 상위 조직장(최고 리더)이 프로젝트에 얼마나 관여하느냐에 따라 조직 문화가 얼마나 달라질 수 있는지 새삼 깨닫고 있다.\n흥미롭게도 두 회사 모두 ‘스쿼드’ 형태로 팀을 운영하지만, 최고 리더의 개입 정도는 전혀 다르다.\nA 회사 이야기\nA 회사는 최고 리더들의 관여가 매우 높다.\n전사적 관점에서 임팩트가 큰 작업은 빠르게 우선순위가 정리되고, 여러 팀 간 의사결정도 순식간에 이뤄진다.\n프로젝트가 신속하게 진행된다는 점에서는 장점이 많다.\n전사적인 프로젝트가 항상 최순위가 되고, 전사적인 임팩트에 모든 팀이 일사분란하게 움직인다.\n그렇지만 이 상황이 이어지니 구성원들이 자발적으로 아이디어를 내거나 실패를 통해 배울 기회가 줄어든다.\n어느 순간부터 팀원들은 “이게 최고 리더가 좋아할 만한 방식인가?”만을 고민하게 되고, 자연스럽게 리더가 선호할 것 같은 방향으로 디자인과 기획이 편중되는 분위기가 형성된다.\n결국 조직 내에서 “최고 리더의 오더를 수행하는 것”이 주된 업무 패턴이 되어버렸다.\n리더의 관여 덕분에 프로젝트 진행은 빠르지만, 조직원들의 주 관심사는 더이상 고객이 아니라 최고 리더가 된 것이다.\nA 팀의 조직장들은 HR과 미팅때마다 최고 리더들의 관심을 줄이고 위임을 요청한다.\nB 회사 이야기\n반면 B 회사는 완전히 다르다.\n최고 리더가 각 스쿼드에 거의 개입하지 않는다.\n초기에 각 조직별 KPI를 설정할 때 한 번 리더들의 확인을 거치는 정도이며, 이후 실행에 있어서는 전적으로 자율성을 부여받는다.\n이렇다 보니 승인 절차가 없고 내부에서 합의만 되면 바로 실행할 수 있어 속도는 놀라울 정도로 빠르다.\n하지만 오히려 이게 문제가 되기 시작했다.\n회사 내 다른 팀과 협업이 필요할 때, 각 스쿼드가 자기 팀의 KPI에 집중하다 보니 협력보다는 ‘내 팀 일 먼저’ 로 흐르는 경우가 잦다.\n더 큰 임팩트를 낼 수 있는 프로젝트라도 다른 조직을 설득하기가 번거롭고, 일정 맞추기가 쉽지 않으니 본인 조직에서 해결할 수 있는 스펙으로만 기획하게 된다.\n대부분의 작업은 전사적인 임팩트가 부족한 것들로 이루어진다.\n결국 큰 그림을 보는 전사적 시너지는 잘 이뤄지지 않는다.\n말을 빌리자면 팀의 규모가 아무리 커져도 플러스 효과는 있지만 곱하기 효과는 내지못하는 상황이 계속 이어지는 것이다.\nB 팀의 조직장들은 HR과 미팅때마다 최고 리더들이 여러 조직의 업무에 관여해서 더 큰 임팩트를 내야만 한다고 요청한다.\n리더의 개입, 방임, 위임 그 사이 어딘가\n근 6개월 내 스타트업에서 가장 핫한 주제가 바로 \"창업자 모드\" 일 것이다.\n에이비엔비의 CEO, 브라이언 체스키가 여러 스타트업 행사에서 이야기하는 개념으로 \"기업을 운영하면서 창업자가 모든 업무를 관리자에게 위임하지 말고, 사소한 부분까지 매우 적극적으로 개입하자는 주장\" 이다.\n브라이언 체스키가 ‘창업자 모드'를 선택한 이유\n폴 그레이엄이 이야기하는 창업자 모드\nInstacart CEO인 Fidji Simo가 \"완전 동의\" 한다는 글\nY Combinator의 창업가 폴 그레이엄은 직접 블로그까지 써가면서, 브라이언의 창업자 모드 라는 개념이 '스타트업 경영의 중대한 인사이트' 라고 극찬을 했다고 한다.\n다만 브라이언 체스키도 '마이크로 매니징' 과 '세부 사항 관여'는 다른거라고 한다.\n즉, 무엇을 해야하는지 하나하나 지시하는 것(마이크로 매니징) 이 아니라 상위 리더가 디테일한 내용을 직접 '알고' 의사결정을 하거나 지원하는 것이 중요하고 효과적이라는 것이다.\nA, B 회사의 사례가 비단 두 회사만의 이야기는 아니다.\n대단히 많은 회사가 이 두 회사 사이 어느즘에 있다.\n결국 최고 리더가 디테일을 자세히 파악하고 있으면서 어디까지 결정에 참여할 것인지 조절하는 것이 중요한 것 같다.\n위임과 방임은 다르다.\n최고 리더 혹은 상위 리더는 여러 의사결정에서 분명히 본인들이 이해하고 있고, 필요하면 여러 팀 간의 의사결정에서 회사를 위한 가장 좋은 결정을 내려야 한다.\n다만, 그 사이에서 너무 세세한 것들까지, 혹은 필요 이상으로 How 에 관해 이야기하는 것은 조심해야 한다.\n이걸 잘 지킬 수 있다면 너무나 성과내기 좋은 조직이 될 수 있지 않을까?",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/822",
+    "pubDate": "Sat, 22 Mar 2025 18:29:15 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "리더십",
+      "마이크로 매니징",
+      "브라이언 체스키",
+      "위임",
+      "창업자 모드"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Kling AI 로 뽑은 영상 02",
+    "description": "이전글 : https://serverdown.tistory.com/1213\n지난번에 반대로 회전했었고\n화전 반향을 지정해봐야 안먹힌다는 사실을 알았습니다.\n그래서 천천히 움직이라고 추가했고 \n영상이 짧으니 천천히 움직이면 당연히 조금밖에 못움직입니다.\n \n프롬프트\nMove your head slowly.\nBlink your eyes.\nMove your mouth gently.\n천천히 고개를 움직이고\n눈을 깝박이고\n입을 부드럽게 움직여라\n이렇게 적은것입니다.\n결과물\n \n\n\n\n눈을 깜박임이 과하군요 횟수 까지 지정해줘야겠군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1218",
+    "pubDate": "Fri, 21 Mar 2025 01:41:26 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "유튜브"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "리눅스 절전 모드 비활성화 - systemd sleep",
+    "description": "리눅스 워크스테이션이나 데스크탑 버전을 설치하면 기본적으로 절전 기능이 활성화 되어있다. 예를 들어 Fedora workstation을 설치했다면 기본으로 절전 기능이 활성화되어있을 것이다. 만일 ssh로 외부에서 접속해서 작업하다가는 아래와 같은 메시지와 함께 절전으로 전환(suspend) 될 수도 있다. 이렇게 절전 모드로 빠지면 외부 접속은 모두 끊긴다.\n$ Broadcast message from gdm@fedora on tty1:\n\nThe system will suspend now!\n이런 문제를 겪지 않으려면 다음과 같이 설정하도록 한다. (관련 매뉴얼 페이지 : systemd-sleep.conf) \n \n1. systemd/sleep.conf 설정 확인\n먼저 현재 설정을 systemd-analyze cat-config systemd/sleep.conf 명령으로 확인해본다.\n$ sudo systemd-analyze cat-config systemd/sleep.conf\n# /etc/systemd/sleep.conf\n#  This file is part of systemd.\n#\n#  systemd is free software; you can redistribute it and/or modify it under the\n#  terms of the GNU Lesser General Public License as published by the Free\n#  Software Foundation; either version 2.1 of the License, or (at your option)\n#  any later version.\n#\n# Entries in this file show the compile time defaults. Local configuration\n# should be created by either modifying this file, or by creating \"drop-ins\" in\n# the sleep.conf.d/ subdirectory. The latter is generally recommended.\n# Defaults can be restored by simply deleting this file and all drop-ins.\n#\n# See systemd-sleep.conf(5) for details.\n\n[Sleep]\n#AllowSuspend=yes\n#AllowHibernation=yes\n#AllowSuspendThenHibernate=yes\n#AllowHybridSleep=yes\n#SuspendMode=\n#SuspendState=mem standby freeze\n#HibernateMode=platform shutdown\n#HibernateState=disk\n#HybridSleepMode=suspend platform shutdown\n#HybridSleepState=disk\n#HibernateDelaySec=\n#SuspendEstimationSec=60min\n위에 보면 모든 값들이 해시문자(#)로 막혀있는데, 이는 기본값을 의미한다. 그 중에 AllowSuspend=yes로 되어있는 부분이 바로 자동 절전 모드이다. 이를 no로 바꾸면 되는데, 편집을 직접하는게 아니라 overriding config를 만드는 방법을 사용하게 된다.\n \n2. AllowSuspend=no 설정 방법\n해당 설정은 관리자인 root 계정으로 명령해야 한다. 먼저 overriding config file을 저장할 디렉토리로 /etc/systemd/sleep.conf.d를 만들어야 한다. 그리고 해당 디렉토리에 넣을 설정 파일을 vi 같은 에디터로 만들어주면 된다. 즉 아래와 같이 명령한다.\nmkdir /etc/systemd/sleep.conf.d\ncd $!\nvi nosuspend.conf\nvi nosuspend.conf 명령어를 실행한 다음에는 아래의 내용을 넣는다. 핵심 설정 부분은 AllowSuspend=no 라는 부분이다.\n[Sleep]\nAllowSuspend=no\nAllowHibernation=no\nAllowSuspendThenHibernate=no\nAllowHybridSleep=no\n설정이 제대로 되었는지 확인하기 위해 systemd-analyze cat-config systemd/sleep.conf 명령을 다시 내려본다. 만일 가장 하단에 /etc/systemd/sleep.conf.d/nosuspend.conf로부터 파일을 읽혀졌다면 제대로 설정된 것이다.\nroot user# systemd-analyze cat-config systemd/sleep.conf\n...생략...\n\n[Sleep]\n#AllowSuspend=yes\n#AllowHibernation=yes\n#AllowSuspendThenHibernate=yes\n#AllowHybridSleep=yes\n#SuspendMode=\n#SuspendState=mem standby freeze\n#HibernateMode=platform shutdown\n#HibernateState=disk\n#HybridSleepMode=suspend platform shutdown\n#HybridSleepState=disk\n#HibernateDelaySec=\n#SuspendEstimationSec=60min\n\n# /etc/systemd/sleep.conf.d/nosuspend.conf\n[Sleep]\nAllowSuspend=no\n...\n해당 설정은 즉시 적용되므로 따로 restart나 reload해줘야 하는 것은 없다. 다만 정 불안하다면 systemctl daemon-reload 명령을 한번 해주면 될 것이다.\n \n히스토리\n2025-03-21 글 작성",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://sunyzero.tistory.com/313",
+    "pubDate": "Fri, 21 Mar 2025 16:43:46 +0900",
+    "creator": "sunyzero",
+    "categories": [
+      "컴퓨터 관련/리눅스(유닉스) 일반",
+      "Fedora",
+      "linux suspend",
+      "systemctl",
+      "systemd sleep",
+      "리눅스 절전 모드 해제",
+      "리눅스 하이버네이션"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "원금을 3배 이상 불려주는 내일채움공제 3년형",
+    "description": "월 10만 원씩 넣으면 3년 뒤 1,224만 원이 돼요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/money-policies-36",
+    "pubDate": "Mon, 17 Mar 2025 00:23:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Shout-Out to Kotlin for Server-Side Content Creators! ",
+    "description": "If you’re using Kotlin for server-side development and sharing your experiences – whether through blog posts, videos, or sample projects – know that we see you, and we want to highlight your work! Recent picks from the community 📖 [Article] From Java to Kotlin — a practical example of how to convert code – Paul […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/03/shout-out-to-kotlin-for-server-side-content-creators/",
+    "pubDate": "Tue, 18 Mar 2025 13:13:03 +0000",
+    "creator": "Alyona Chernyaeva",
+    "categories": []
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "코드 품질 개선 기법 6편: 마구 자를 것인가 반듯하게 자를 것인가",
     "description": "안녕하세요. 커뮤니케이션 앱 LINE의 모바일 클라이언트를 개발하고 있는 Ishikawa입니다.\n저희 회사는 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰...",
@@ -58,47 +178,13 @@
     "categories": []
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Enhance Pull Request Reviews with In-Depth Feedback",
-    "description": "Visual Studio 2022 has taken the pull request experience to the next level by making reviews interactive. We previously enabled viewing your pull request comments inline in your working files. Now, the latest update empowers you to add comments directly within the IDE, streamlining the review process. Now, pull request reviewers can conduct deep reviews […]\nThe post Enhance Pull Request Reviews with In-Depth Feedback appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/enhance-pull-request-reviews-with-in-depth-feedback/",
-    "pubDate": "Thu, 20 Mar 2025 15:00:02 +0000",
-    "creator": "Jessie Houghton",
-    "categories": [
-      "Git",
-      "Team and Development",
-      "Visual Studio",
-      "GitHub"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "C++ Dynamic Debugging: Full Debuggability for Optimized Builds",
-    "description": "Over the past 5 years, we’ve had many incredible opportunities to engage with game developers. From AAA studios to indie developers, the passion for slashing iteration times is significant. Amidst all the fantastic feedback we’ve received for Visual Studio, one sentiment has rung loud and clear: a desire to debug optimized C++ code without sacrificing […]\nThe post C++ Dynamic Debugging: Full Debuggability for Optimized Builds appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/cpp-dynamic-debugging-full-debuggability-for-optimized-builds/",
-    "pubDate": "Wed, 19 Mar 2025 18:33:52 +0000",
-    "creator": "David Li",
-    "categories": [
-      "C++",
-      "Game Development",
-      "debugging",
-      "Optimized Builds"
-    ]
-  },
-  {
-    "id": 7,
+    "id": 12,
     "imageUrl": "",
     "title": "heroku 는 유료였군요. 맛만본 개발자 체험기",
     "description": "vercel 은 망했구요\nheroku 가 잘된다고 해서 들어가봤습니다.\n가입절차가 많이 길군요\n일반 바갑\n-> OTP 등록 (세일즈포스 인증기)\n-> 대시보드\n-> new app 을 하면 그때결제 방법 등록하라고 합니다..\n당장 돈이 들지는 않고 사용료에 따라 돈을 내야한다고합니다.\n글을 보니 7달러 내본 사람이 있다고 합니다.\n클라우드 타입의 최소비용이 2.5만원\ncafe24 클라우드 비용은 만원\n정도이니 왠만하면 cafe24 클라우드가 나을 수도 있겠군요\n어차피 돈만 내면 제약을 없을태니\n적당한 방식의 사용은 괜찮아보입니다.\n \n장점\n웹소켓은 트래픽이 적으니 비용이 작을 것 같습니다.\n \n단점\n서버 위치가 미국만 있는거 같습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1220",
+    "link": "https://serverdown.tistory.com/1220",
     "pubDate": "Fri, 21 Mar 2025 20:14:58 +0900",
     "creator": "이건개발",
     "categories": [
@@ -106,137 +192,57 @@
     ]
   },
   {
-    "id": 8,
+    "id": 13,
     "imageUrl": "",
-    "title": "선을 긋기",
-    "description": "이 공간을 통해서도 과거에 몇 번 글을 쓴 적이 있는데, 내가 2012년에 스트롱을 시작하고 첫 2년 동안 투자자로서 가장 스트레스를 많이 받았던 건, 우리가 투자한 회사의 창업가보다 내가 그 사업에 대해서 더 많이 알고, 내가 그 사업을 하면 더 잘할 수 있을 것 같은데, 대표가 항상 내 생각과 말과 다르게 생각하고 행동할 때였다. 아마도 이걸(...)",
+    "title": "토스플레이스, 사장님 고객 확보 비법 전수…무료 웨비나 성료",
+    "description": "손님 유치 실전 전략 강연 제공으로 만족도 4.5점 기록",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/03/where-to-draw-the-line.html",
-    "pubDate": "Wed, 19 Mar 2025 21:33:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "inspiring",
-      "people",
-      "Strong",
-      "vc"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "유니티 2D 애니메이션 / 스프타라이트 말고 다른 방식",
-    "description": "영상: https://www.youtube.com/watch?v=-7r9fZSmZJw&t=443s\n\n\n\n캐릭터가 맹한게 귀엽군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1219",
-    "pubDate": "Fri, 21 Mar 2025 03:56:54 +0900",
-    "creator": "이건개발",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Hash..라니~!!",
-    "description": "따끈따끈한 이번 작업을 소개하려고 한다. \n오늘의 주인공은 상용데이터의 Hash 마이그레이션이다.\n📌 등장 배경\n🌞 화창한 아침..운영 실무자에 의해 데이터 변경 요청이 떨어졌다\n\n현재 요청된 내용은 프로덕트에 매핑된 속성을 변경하되 그 속성 옵션값은 그대로 유지해달라는 요청이다. \n좀 더 구체적으로 말해보자면, 상품1에 속성으로 PRADA 컬러라는 속성이 있고 그 값으로 빨강, 주황이 있는데 상품 1의 속성을 GUCCI 컬러라는 속성으로 변경하되 값은 그대로 빨강, 주황으로 유지 해달라는 것이다.\n운영팀의 요청: 특정 상품의 속성을 다른 속성으로 변경해야 하지만, 속성 값은 유지해야 한다.\n문제: 기존 정책상 노출 속성은 수정할 수 없으므로, 마이그레이션 작업이 필요하다.\n현재 정책상 노출 속성은 한번 상품에 매핑되면 수정불가한 정책을 가지고 있기 때문에 우리가 마이그레이션을 해줄 수밖에 없다. \n\n내가 할일은 \nproduct_attribute에서 attribute를 변경해주고\nitem_attribute_option에서 attribute와 attributeOption을 변경해줘야한다. \n바꿀 attributeOption은 기존의 attributeOption 값과 일치한 것을 찾아다가 변경해주면된다. \n사실 여기까지보면 뭐.. 쿼리 돌려주면 되지 한다. 맞다 이 일은 어렵지 않다. 근데 문제는 hash이다. 이번 이야기에서 나오는 주제의 주인공은 HASH이다. \n우리는 상품과 아이템의 중복확인을 hash로 구별한다. \n상품 중복 조건 : 카테고리 + 상품이름 + 노출속성목록 + 브랜드Id + 모델명\n아이템 중복 조건 : 상품 Id + 노출속성목록 + 속성값목록\n이렇게 되어 있다. \n이번에 이 조건들 중에 상품에는 노출 속성 목록이, 아이템에는 노출속성목록과 속성값 목록이 변경되기 때문에 Hash를 새로 변경해줄 수밖에 없다. \n그럼 변경된 상품과 아이템만 변경하면되잖아? 하기에는 이번 작업부터 중복 조건이 일부 변경되었다. 위에 언급한 조건은 이번에 변경되는 조건에 해당된다.\n\n에이 변경하면 되지..하기엔 단순히 몇백개가 아니고 몇십만 단위다..ㅎ 거기다가 상품 중복 조건이 이번 작업부터 변경된 조건이라 해시 충돌이 안날래야 안날 수가 없는 작업이다 ㄸㄹㄹ,, \n💡 정리하자면, 상품과 아이템의 중복 여부를 확인하는 데 해시를 사용하는 이번 속성 변경하면서 그 기준이 되는 값 또한 변경이 되었기에 hash 작업이 필요하다\n📌 Hash?\n💡 해시\n임의의 크기를 가진 데이터를 고정된 크기의 데이터로 변화시켜 저장하는 것\n결론부터 말하자면, 동일한 입력값이면 항상 동일한 해시값이 생성되므로, 데이터를 직접 비교하지 않고도 빠르게 중복을 판별할 수 있다. 즉, 중복 체크하는데 성능적으로 해시가 더 빠르다고 판단한 것이다. \n🐳 직접 비교 Vs 해시 비교\n상품을 등록하는 걸 예시로 들어보자. \n상품을 등록하기 전 위 중복조건에 의해 중복된 상품이 있는지 확인해야 한다. \n만약 직접 비교해야 한다면?\nEXPLAIN SELECT * FROM product \nWHERE category_id = ? \nAND product_name = ? \nAND brand_id = ? \nAND model_no = ? \nAND displayed_attribute_ids = ?;\n해당 쿼리를 돌려 보면\n\n실행계획에 테이블 풀스캔하고 있음을 확인할 수 있었다. \n즉, 상품을 추가할때 기존 상품과 하나씩 비교한다는 것이다. -> 최악의 경우 O(N)\n풀 스캔하는 것을 보니 데이터가 많을수록 성능이 저하됨을 의미하는데 현재 우리 상품은 몇십만개이다. 그럼.. 성능은 아주 최악이 되는 것이다. \n그럼 Hash의 경우는?\nEXPLAIN SELECT * FROM product_identity pi\n               WHERE pi.hash = ?;\n해당 쿼리를 돌려보면\n\nconst row lookup으로 인덱스를 확용한 상수 조회를 하고 있음을 확인할 수 있다. \n해당 스캔 방식은 단일 행을 대상으로 하는 상수 값을 기반으로 하는데 Primary Key 또는 Unique Key에 대한 WHERE 절의 상수 값 비교가 있을 때 나타난다. \nhash에 의해 unique를 걸 수 있기 때문에 인덱스를 걸 수 있는 것이다. \n즉, 테이블의 유니크 인덱스 (uk_hash)를 사용하여 단 한개의 행만 조회하고 있다. \n-> 시간 복잡도 O(1) ~ O(logN)\n결과적으로 직접 비교보다 해시비교가 풀스캔 방지가 될 뿐만아니라 속도도 훨씬 빠르기 때문에 중복 검사에 해시를 적용하는 것이 성능상 최적이라는 것을 알 수 있다. \n정리하자면,\n직접 비교\n풀스캔, 시간복잡도 : O(N), 데이터 많을수록 성능 저하\nHash 비교\nO(1) ~ O(logN), 인덱스를 활용해 빠른 조회 가능\n📌 마이그레이션 작업에 대한 회고\n작업에 대한 플로우를 말해보자면,\n속성 변경에 대한 프로덕트-속성 매핑 데이터, 아이템-속성 매핑 데이터 변경 \n중복 조건에 의한 해시 충돌 테스트\n충돌된 상품에 대한 실무자 전달 및 데이터 정리\n프로덕트, 아이템 해시 테이블에 생성 -> 임시 테이블에 생성\n기존 해시 테이블 백업 후 임시테이블을 기존 테이블 명으로 변환\nproduct, item 해시 캐시의 기존 데이터 삭제 후 새로 생성\n상용 데이터를 다루기도 하고, 내 기준상 데이터가 많아서 사실 두렵기도 하고 어려움도 많았던 작업이었다. 이 작업을 하면서 흥미로웠던 구간은 기존의 데이터에 대한 해시 생성 구간이었다. \n아이템만 해도 현재 활성화된 아이템이 몇십만개인데 이걸 어떻게 생성을 하느냐?\n방법은 page를 활용해서 한번에 3000개씩 가져와서 배치를 돌리는 것이다. \n( 이건 그냥 여담인데 아무생각없이 10개씩 가져오도록 했다가 반나절이되어도 안끝났다..ㅎ 그래서 확 3000개씩 가져오는 걸로 바꾸었더니 5도 안되어서 끝났다. ㅎㅎ 네트워크 비용에 대한 체감이 확 드는 순간이었다. )\n🐳 내부 코드 분석\n가장 흥미로웠던 코드를 분석해보자.\n\n해당 코드는 대량 데이터를 한번에 삽입해야 할때 사용한다. \n먼저 excute 내부 코드를 살펴보면, ( Spring 내부 코드 )\n\n1) getTransaction() : 직접 트랜잭션을 가져오고,\n2) commit() : 트랜잭션을 직접 커밋하고\n3) rollbackOnException() : 트랜잭션을 수동으로 롤백하고\n이를 통해 excute() 메소드는 트랜잭션 관리 로직을 직접 실행하는 메서드임을 확인할 수 있다. \n-> 예외 발생시 전체 롤백이 되게 됨을 알 수 있다. 실제로 테스트할때 충돌로 인한 예외 발생시 전체 롤백된 것을 확인하였다. \n대망의 batchUpdate 메소드를 살펴보자면,  ( Spring 내부 코드 ) \n이 메소드는 JDBC 기반 배치 업데이트 메서드로 여러개의 데이터를 한번에 업데이트하는 기능을 함을 알 수 있다.\n\n실제로 Sql에 해당 하는 코드가\n\n이렇게 앞전에 선언해놓았고, 이것을 매개변수로 받아서 hash 생성을 한꺼번에 하는 것을 알 수 있었다. \n🐳 회고\n이 작업을 수행하면서, 역시 직접해봐야 좀더 와닿음을 다시 한번 확인하는 순간이었다. 내가 이번에 작업한 해시는 이전부터 중복 검사를 위해 해놓았던 조치였다. 그러나 내가 한게 아니다보니, 해시 작업에 대한 이해도가 낮았다. \n이번에 해시 생성 작업을 하다보니, 왜 필요하고 어떤 코드를 사용했는지 나를 납득해가면서 작업을 하다보니 얻어가는 것도 많고 이해도도 높아짐을 알 수 있었다. 나중에 중복 검사가 필요할때 이 작업을 떠올리며 해시를 생각해내지 않을까? ㅎㅎ😄\n처음에 이 작업이 주어졌을때, 상용 데이터를 만진다는 것에 대한 두려움이 있었는데, '이 연차에 어떤 누가 몇십만개의 상용 데이터를 다루는 경험을 하겠어?' 하는 마음으로 임했다. 그래도 무서웠다. 혹시 내가 잘못할까봐 덜덜 떨면서 했다. 며칠 지난 지금, 이 작업을 회고하면 간단한데? 싶다. \n이 작업에서 가장 오래 시간이 걸렸던 부분은 해시 충돌 부분이었다. \n사실 상품 해시 충돌은 예상했지만, 아이템 해시 충돌은 예상 못했다. 왜냐면 상품 해시 충돌된 것을 해결하면(상품 충돌난 아이템까지 삭제했기에) 아이템 중복 기준에 상품 ID가 있기 때문에 아이템 해시 충돌은 전혀 나지 않을 것이라 예상했기 때문이다. 그런데 아이템 해시 충돌이 발생했다.\n앞선 코드에 보여줬던 것이 하나라도 충돌되면 멈추는 로직이기때문에 몇십만개의 아이템을 다 돌리면서 충돌날때마다 에러나는 상황은 너무나도 시간이 많이 들기때문에 \n\n에러나더라도 계속 돌아가도록 해당 부분을 try-Catch로 감싸서 충돌나서 에러가 나더라도 멈추지 않도록 했고, 페이지네이션으로 3000개씩 데이터를 돌렸더니 몇십만개의 데이터가 모두 거의 5분만에 다 돌아가서 모든 충돌을 잡아낼 수 있었다. 덕분에 빠르게 어떤 아이템들이 충돌났는지 확인할 수 있었다.\n 거의 40개의 아이템이 충돌났고, 상품으로 따지자면 3개 상품에 대한 아이템들이었다. 알고보니 임의로 수동으로 넣은 아이템 데이터에서 발생한 것이다. 따라서 해당 아이템들과 상품들을 삭제하니 해결되었던 문제였다. \n해시 충돌된 상품들과 아이템들이 다행히 모두 주문이 나간적이 없거나 테스트 상품이라서 삭제하기 어렵지 않았다. 물론 해당 상품과 아이템들을 삭제하기 위해 그 하위 집단인 벤더아이템, 딜벤더아이템, 딜 등의 삭제 작업들을 추가로 해줘야 하지만 오더가 없었기에 스위칭이 아닌 삭제로 해결할 수 있었던 작업이었다. 이번 작업을 통해 실무자와 커뮤니케이션도 해야하고 배포 작업도 걸려있어서 부담이 많이 가는 작업이었다. 하지만, 정말 값진 경험이었다. 앞으로 중복검사나 데이터 마이그레이션이 필요할때 이번 경험이 큰 도움이 될 것 같다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://velog.io/@sweet_sumin/Hash..%EB%9D%BC%EB%8B%88",
-    "pubDate": "Thu, 20 Mar 2025 12:52:34 GMT",
+    "link": "https://blog.toss.im/article/Tossplacewebinar",
+    "pubDate": "Thu, 20 Mar 2025 01:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 11,
+    "id": 14,
     "imageUrl": "",
-    "title": "Introducing automatic documentation comment generation in Visual Studio",
-    "description": "We are excited to announce that Copilot is now automatically integrated into Visual Studio’s editor to help you generate doc comments for functions. This new feature aims to streamline your documentation process and enhance your coding experience. To access these updates, you will need a GitHub Copilot subscription. If you don’t already have GitHub Copilot, […]\nThe post Introducing automatic documentation comment generation in Visual Studio appeared first on Visual Studio Blog.",
+    "title": "카카오, 다음과 결별하다! 티스토리의 앞날은? 티스토리의 미래 3부작 (1부)",
+    "description": "카카오가 다음(Daum)을 분사하면서, 티스토리(Tistory)의 미래도 불투명해지고 있습니다. 티스토리는 다음 소속으로 가게 될까, 아니면 카카오가 계속 운영할까? 블로거들이 대비해야 할 변화와 생존 전략을 살펴봅니다.\n\n\n \n얼마 전, 카카오가 포털 서비스 ‘다음(Daum)’을 분사한다고 발표했습니다. 이로 인해 다음과 함께 운영되던 블로그 플랫폼, 티스토리의 미래도 불확실해졌습니다. \n \n다음이 독립하면 티스토리가 다음과 함께 가는 것인지,아니면 카카오가 유지하는 것인지에 따라 블로거들에게 미치는 영향이 크게 달라질 것입니다. 그렇다면, 티스토리는 어디로 향하게 될까요?\n \n  카카오와 다음의 분사, 왜 일어났을까?\n1️⃣ 다음, 한때 ‘국민 포털’에서 잊힌 존재로\n다음은 2000년대 초반만 해도 네이버보다 먼저 시장을 선점한 강력한 포털이었습니다.\n한메일(Hanmail), 다음 카페, 블로그 등을 통해 커뮤니티 중심의 서비스를 제공하며 많은 사용자층을 확보했죠.\n하지만, 2010년대 이후 네이버의 통합 검색과 구글의 부상으로 인해 점유율이 계속 하락했습니다.\n2024년 2월 기준, 다음의 국내 검색 시장 점유율은 2.72%로 네이버(약 60%)와 구글(약 40%)에 크게 밀린 상태입니다.\n2️⃣ 카카오는 왜 다음을 버릴까?\n카카오는 이제 포털보다 ‘AI’와 ‘카카오톡’ 중심의 전략을 펼치고 있습니다.\n카카오 대표인 정신아는 “카톡과 AI가 핵심 사업이며, 관련 없는 분야는 정리하겠다”고 밝혔습니다.\n즉, 검색과 포털 사업이 카카오의 핵심이 아니게 되었고,\n경영 효율화를 위해 다음을 떼어내는 것이 불가피한 선택이었던 것입니다.\n  그렇다면, 티스토리는 어떻게 될까요?\n\n \n다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지\n한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제\nmuzbox.tistory.com\n\n \n \n  티스토리의 미래, 다음이 가져갈까? 카카오가 유지할까?\n티스토리는 원래 다음이 2007년에 인수한 블로그 서비스입니다.\n이후 다음-카카오 합병으로 인해 카카오 소속이 되었지만,\n검색 점유율이 떨어지면서 점점 홀대받아 온 것이 사실입니다.\n이번 분사 결정으로 티스토리가 다음으로 가게 될지, 아니면 카카오가 유지할지가 최대 관건입니다.\n  시나리오 1: 티스토리가 ‘다음’ 소속이 된다면?\n✅ 가능한 변화:\n다음 검색과의 연계 강화 → 티스토리 블로그가 다음 검색에서 우선 노출될 가능성\n검색 최적화(SEO) 기능 개선 → 네이버 블로그와 경쟁하기 위한 전략 추진\n❌ 위험 요소:\n다음 자체의 점유율이 낮아 티스토리 트래픽이 오히려 감소할 수도 있음\n다음이 독립 법인으로 성공하지 못하면, 티스토리도 불안정해질 가능성\n  결론:\n  다음이 티스토리를 가져간다면 검색 노출을 강화하려 할 가능성이 크지만,\n  다음 자체의 점유율이 낮아 블로그 트래픽 확보가 어려울 수 있다.\n \n  시나리오 2: 티스토리를 ‘카카오’가 유지한다면?\n✅ 가능한 변화:\n카카오의 AI 검색과 연계 → 카카오톡, 브런치, 카카오뷰와 통합될 가능성\n유료화 가능성 증가 → 워드프레스처럼 유료 블로그 모델 도입 가능\n❌ 위험 요소:\n카카오가 티스토리에 대한 관심이 크지 않다면, 방치될 가능성도 있음\n카카오뷰·브런치에 흡수될 경우, 기존 블로그 방식이 사라질 수도 있음\n  결론:\n  카카오가 유지한다면, 티스토리는 검색보다는 ‘콘텐츠 플랫폼’으로 변할 가능성이 크다.\n  유료화될 경우, 블로거들의 비용 부담이 커질 수 있다.\n \n \n  블로거들이 지금 준비해야 할 것!\n티스토리가 어디로 가든, 블로거들은 대비해야 합니다.\n트래픽과 수익을 유지하려면 지금부터 대체 전략을 고민해야 합니다.\n✅ 1️⃣ 검색 트래픽 변화 대비하기\n티스토리가 다음 소속이 된다면, 구글 SEO 최적화가 더 중요해짐\n카카오가 유지한다면, 카카오톡 및 카카오뷰 활용이 중요\n✅ 2️⃣ 블로그 백업 및 데이터 관리 필수\n백업을 정기적으로 진행해 만일의 사태에 대비하기\n티스토리가 급격히 변화할 경우, 빠르게 대체 플랫폼으로 이동할 준비\n✅ 3️⃣ 대체 블로그 플랫폼 고려하기\n티스토리가 변할 경우를 대비해, 다른 블로그 플랫폼을 미리 알아두는 것도 중요합니다.\n  티스토리를 계속 사용할지, 떠날지는 상황을 보면서 신중하게 결정해야 합니다.\n \n \n  마무리: 티스토리, 변화 속에서 살아남을 수 있을까?\n카카오와 다음의 결별로 인해 티스토리는 변화를 피할 수 없습니다.\n다음과 함께 독립하든, 카카오가 유지하든, 기존 블로거들에게 미치는 영향은 상당할 것입니다.\n✅ 티스토리가 검색 최적화로 가든, 콘텐츠 플랫폼으로 변화하든, 블로거들은 유입 전략을 다시 짜야 합니다.\n✅ 유료화 가능성, 검색 노출 변화, 플랫폼 통합 여부 등을 면밀히 주시해야 합니다.\n✅ 무엇보다, 백업과 대체 플랫폼을 준비하는 것이 가장 중요한 생존 전략이 될 것입니다.\n❓ Q&A\nQ1. 카카오가 다음을 분사한 이유는 무엇인가요?\nA. 카카오는 AI와 카카오톡 중심의 전략을 추진하면서, 검색·포털 사업이 핵심이 아니라고 판단했습니다. 다음의 검색 점유율이 2.72%로 급락하면서, 독립 운영이 더 효율적이라는 결론을 내렸습니다.\nQ2. 티스토리는 다음과 함께 가나요, 아니면 카카오가 유지하나요?\nA. 아직 확정되지 않았지만, 다음과 함께 독립할 경우 검색 최적화 전략을 강화할 가능성이 크고, 카카오가 유지하면 브런치·카카오뷰와 결합되면서 콘텐츠 플랫폼으로 변화할 수 있습니다.\nQ3. 티스토리 블로거들은 지금 무엇을 준비해야 할까요?\nA. 검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\nQ4. 티스토리가 유료화될 가능성이 있나요?\nA. 카카오가 티스토리를 유지한다면, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"카카오가 다음을 분사한 이유는 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오는 AI와 카카오톡 중심의 전략을 추진하면서, 검색·포털 사업이 핵심이 아니라고 판단했습니다. 다음의 검색 점유율이 2.72%로 급락하면서, 독립 운영이 더 효율적이라는 결론을 내렸습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리는 다음과 함께 가나요, 아니면 카카오가 유지하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 확정된 것은 없지만, 다음이 티스토리를 운영할 경우 검색 최적화 전략을 강화할 가능성이 크며, 반면 카카오가 유지하면 브런치·카카오뷰와 통합될 가능성이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리 블로거들은 지금 무엇을 준비해야 할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 유료화될 가능성이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오가 티스토리를 유지할 경우, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/introducing-automatic-documentation-comment-generation-in-visual-studio/",
-    "pubDate": "Mon, 17 Mar 2025 15:00:10 +0000",
-    "creator": "Sinem Akinci, Allie Barry",
-    "categories": [
-      "Copilot",
-      "Productivity",
-      "Visual Studio",
-      "Docs"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지",
-    "description": "한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제 다시 독립할 가능성이 제기되고 있는데요. 그렇다면 티스토리의 운명은 어떻게 될까요?\n\n\n \n\"다음 카페에서 찾아볼게.\"\n이 말이 인터넷에서 자연스럽게 오가던 시절이 있었습니다. 2000년대 초반까지만 해도 다음(Daum)은 대한민국에서 가장 인기 있는 포털이었어요. 검색하면 네이버가 아니라 다음이 먼저 나왔고, 이메일도 다음의 한메일이 대세였습니다.\n \n하지만 지금은 다릅니다. 포털 1위 자리는 네이버에게 완전히 내줬고, 뉴스·검색·커뮤니티 서비스도 예전만 못합니다. 한때 포털의 제왕이었던 다음은 어떻게 지금의 상황에 처하게 된 걸까요?\n \n저 역시 인터넷 초창기부터 다음을 사용해왔고, 지금도 티스토리를 운영하는 블로거로서 이 변화가 남의 일처럼 느껴지지 않아요. 오늘은 다음이 어떻게 성장하고 쇠퇴했으며, 티스토리가 앞으로 어떤 길을 걷게 될지 이야기해보려고 합니다.\n \n \n1. 다음(Daum)의 전성기: 한메일과 포털의 제왕 (1995~2000년대 초반)\n1995년, 대한민국의 인터넷 환경은 지금과 많이 달랐습니다. 인터넷이 보급되기 시작하던 시절, 기업과 연구기관을 중심으로 이메일이 사용되었지만, 일반 사용자는 쉽게 접근할 방법이 없었어요.\n \n이때 이재웅 대표가 창업한 ‘다음커뮤니케이션’은 무료 이메일 서비스 ‘한메일(Hanmail)’을 선보이며 인터넷 대중화를 이끌었습니다. 당시 이메일을 무료로 제공하는 것은 혁신적인 서비스였고, 이 덕분에 다음은 급속도로 성장할 수 있었어요.\n \n<다음이 출범한 1999년은 야후(Yahoo)의 위상이 인터넷 업계에서 세계 최고 정점에 이르렀던 시기였다!!>\n\n\n✅ 다음의 성공 요인\n무료 이메일 서비스(한메일) 제공 → 국내 최초의 대중화된 이메일 서비스\n카페, 뉴스, 커뮤니티 중심 포털 구축 → 정보 검색과 온라인 커뮤니티 활성화\n한국 시장에 최적화된 서비스 제공 → 야후, 라이코스 등 해외 포털과의 차별화\n1999년, 다음은 이메일을 기반으로 ‘다음(Daum) 포털 사이트’를 오픈하면서 대한민국 최대 포털로 자리 잡았습니다.\n특히 다음 카페는 온라인 커뮤니티 문화의 중심이었습니다. 네이버의 ‘지식iN’이 등장하기 전까지, 많은 사용자들이 정보를 얻기 위해 다음 카페를 이용했어요.\n하지만 이런 성공은 오래가지 않았습니다.\n \n2. 네이버와 구글에 밀려난 다음 (2000년대 중반~2010년대 초반)\n2000년대 중반부터 다음의 하락세가 시작되었습니다. 가장 큰 이유는 검색 엔진 경쟁에서 밀려났기 때문이에요.\n네이버의 ‘지식iN’과 검색 기술 강화\n\n네이버는 2002년 ‘지식iN’을 출시하며 검색 점유율을 급격히 끌어올렸어요.\n당시 검색 기술이 부족했던 상황에서, 사용자들이 직접 답변을 달아주는 ‘지식iN’ 서비스는 검색의 패러다임을 바꿨죠.\n다음의 검색 서비스는 상대적으로 뒤처지면서 점점 사용자들의 이탈이 가속화되었습니다.\n구글의 광고 모델(애드센스) 도입\n\n구글이 애드센스를 도입하면서 온라인 광고 시장이 급변했어요.\n하지만 다음은 이에 효과적으로 대응하지 못했고, 네이버 역시 자체 광고 시스템을 구축하면서 다음의 수익 모델이 흔들리기 시작했습니다.\n모바일 시장 대응 부족\n\n2010년 이후 스마트폰이 대중화되면서 모바일 검색이 중요해졌습니다.\n네이버는 ‘모바일 최적화’를 빠르게 진행했지만, 다음은 대응이 늦었어요.\n  이 시점에서 다음의 웹 검색 점유율은 10%대로 추락했고, 네이버가 70% 이상을 차지하는 독점적 구조가 형성되었습니다.\n \n3. 티스토리의 탄생과 성장 (2006~2010년대 초반)\n2000년대 중반, 블로그가 새로운 콘텐츠 플랫폼으로 주목받기 시작했어요.\n2006년, 태터앤컴퍼니(TNC)가 개발한 티스토리(Tistory)는 기존 블로그 서비스와 차별화된 특징을 갖고 있었습니다.\n✅ 티스토리의 차별점\nHTML/CSS 편집 가능 → 완전한 자유도 제공\n애드센스(AdSense) 및 자체 광고 운영 가능 → 수익형 블로그 운영 가능\n개방형 플랫폼 → 검색 엔진 최적화(SEO) 강점\n  2007년, 다음이 TNC를 인수하면서 티스토리는 다음의 공식 블로그 서비스가 되었습니다.\n \n이후 많은 블로거들이 네이버 블로그 대신 티스토리를 선택했어요. 하지만 2010년대 이후 유튜브, SNS 중심의 콘텐츠 소비가 늘어나면서 블로그 시장도 점차 변화를 맞이하게 됩니다.\n \n4. 카카오의 다음 인수 (2014년)와 티스토리의 변화\n2014년, 카카오는 다음을 인수하며 ‘다음카카오’라는 새로운 기업을 출범했습니다.\n카카오는 다음을 인수하면서 검색 트래픽과 콘텐츠 플랫폼을 강화하려는 전략을 내세웠습니다.\n하지만 시간이 지나면서 카카오는 점점 카카오톡, AI, 금융(카카오페이), 콘텐츠(브런치·카카오뷰) 사업에 집중하며, 다음과 티스토리는 점점 우선순위에서 밀려났습니다.\n결국, 카카오는 2023년, 포털 서비스 '다음(Daum)'을 사내독립기업(CIC, Company-in-Company)으로 전환했습니다. 이는 급변하는 인터넷 환경 속에서 포털 사업의 자율성을 높이고, 독립적인 의사 결정을 통해 경쟁력을 강화하려는 목적이었습니다. 당시 카카오는 다음의 검색, 뉴스, 커뮤니티 서비스 등을 최적화하는 한편, 자사 핵심 서비스인 카카오톡, AI, 금융 사업에 더욱 집중하는 전략을 펼쳤습니다.\n그러나 2025년 3월, 카카오는 결국 다음의 분사를 공식 발표했습니다. 정확한 분사 시점은 아직 정해지지 않았지만, 이번 결정은 포털 사업의 독립성을 더욱 강화하고, 다음의 새로운 성장 가능성을 모색하기 위한 움직임으로 해석됩니다. 이에 따라 다음과 티스토리의 향후 운영 방향과 서비스 구조에도 큰 변화가 예상되며, 기존 사용자들도 이에 대한 대비가 필요할 것으로 보입니다.\n \n \n5. 다음(Daum)과 티스토리, 앞으로 어떻게 될까?\n다음과 티스토리가 처한 현재 상황을 이해했다면, 이제 앞으로의 미래가 궁금해질 텐데요.\n다음과 티스토리의 미래는 단순히 한 번의 분석으로 끝날 문제가 아닙니다. 이에 따라, 보다 심층적으로 다룰 예정입니다.\n  다음 연재 시리즈에서 다룰 주제\n1. 다음의 분사가 티스토리에 미치는 영향\n2. 티스토리의 유료화 가능성과 블로거들의 대응 전략\n3. 티스토리를 대체할 수 있는 플랫폼 비교 분석\n  앞으로의 연재 시리즈에서 티스토리의 미래를 보다 깊이 있게 다룰 예정이니, 계속 지켜봐 주세요!  \n  Q&A\nQ1. 다음(Daum)은 왜 네이버에게 1위 자리를 빼앗겼나요?\nA. 네이버가 검색 엔진을 강화하고, ‘지식iN’ 같은 차별화된 서비스를 제공하면서 검색 점유율을 급격히 끌어올렸기 때문입니다. 또한 모바일 시장 대응이 늦어지면서 점유율을 잃었습니다.\nQ2. 티스토리는 왜 네이버 블로그보다 인기가 많았나요?\nA. 티스토리는 HTML/CSS 편집이 가능하고, 애드센스를 통한 수익화가 가능했기 때문에 많은 블로거들에게 인기가 있었습니다. 반면, 네이버 블로그는 폐쇄적인 운영 방식을 고수했습니다.\nQ3. 카카오는 왜 다음을 인수했나요?\nA. 카카오는 다음을 인수하여 포털 검색 트래픽을 활용하고, 뉴스·커뮤니티·광고 플랫폼을 강화하려 했습니다. 하지만 시간이 지나면서 검색보다는 카카오톡, AI, 금융 등 다른 사업에 집중하게 되었습니다.\nQ4. 다음이 카카오에서 분리되면 티스토리는 어떻게 될까요?\nA. 티스토리가 다음과 함께 독립할지, 아니면 카카오가 유지할지가 관건입니다. 카카오가 유지하면 브런치, 카카오뷰와의 연계가 강화될 가능성이 높고, 다음과 함께 독립한다면 기존 포털 검색 기반 블로그로 남을 가능성이 큽니다.\nQ5. 티스토리를 떠나야 할까요?\nA. 티스토리의 미래가 불확실한 만큼, 워드프레스, 브런치, 네이버 블로그 같은 대체 플랫폼을 고려해 대비하는 것이 좋습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"다음(Daum)은 왜 네이버에게 1위 자리를 빼앗겼나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네이버가 검색 엔진을 강화하고, ‘지식iN’ 같은 차별화된 서비스를 제공하면서 검색 점유율을 급격히 끌어올렸기 때문입니다. 또한 모바일 시장 대응이 늦어지면서 점유율을 잃었습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리는 왜 네이버 블로그보다 인기가 많았나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"티스토리는 HTML/CSS 편집이 가능하고, 애드센스를 통한 수익화가 가능했기 때문에 많은 블로거들에게 인기가 있었습니다. 반면, 네이버 블로그는 폐쇄적인 운영 방식을 고수했습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"카카오는 왜 다음을 인수했나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오는 다음을 인수하여 포털 검색 트래픽을 활용하고, 뉴스·커뮤니티·광고 플랫폼을 강화하려 했습니다. 하지만 시간이 지나면서 검색보다는 카카오톡, AI, 금융 등 다른 사업에 집중하게 되었습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"다음이 카카오에서 분리되면 티스토리는 어떻게 될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"티스토리가 다음과 함께 독립할지, 아니면 카카오가 유지할지가 관건입니다. 카카오가 유지하면 브런치, 카카오뷰와의 연계가 강화될 가능성이 높고, 다음과 함께 독립한다면 기존 포털 검색 기반 블로그로 남을 가능성이 큽니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리를 떠나야 할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"티스토리의 미래가 불확실한 만큼, 워드프레스, 브런치, 네이버 블로그 같은 대체 플랫폼을 고려해 대비하는 것이 좋습니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483556",
-    "pubDate": "Wed, 19 Mar 2025 09:40:40 +0900",
+    "link": "https://muzbox.tistory.com/483557",
+    "pubDate": "Thu, 20 Mar 2025 10:57:22 +0900",
     "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
       "NEWS/IT 뉴스",
-      "검색 엔진",
-      "네이버",
-      "다음",
-      "다음 카페",
-      "카카오",
-      "카카오 다음 분사",
-      "티스토리",
-      "티스토리 유료화",
-      "포털 역사",
-      "한메일"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Find the IDE features you need with GitHub Copilot and Search",
-    "description": "Ever find yourself needing to locate a specific menu item, command, or option in Visual Studio, but you don’t know its name or location? Do you often struggle to find detailed instructions on using certain features effectively? Now, there’s a solution to get you the information you need right in the IDE. Visual Studio now […]\nThe post Find the IDE features you need with GitHub Copilot and Search appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/find-the-ide-features-you-need-with-github-copilot-and-search/",
-    "pubDate": "Wed, 19 Mar 2025 15:00:29 +0000",
-    "creator": "Leah Tran",
-    "categories": [
-      "GitHub Copilot",
-      "Visual Studio",
-      "GitHub Copilot Chat",
-      "Search"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Optimizing Build Times with Build Insights: How Activision Cut Call of Duty’s Build Time by 50%",
-    "description": "Slow build times are a major headache for developers, especially in large, complex C++ codebases like game engines. Every minute spent waiting on a build is time that could be used to refine features, resolve issues, or push development forward. Activision faced this challenge with Call of Duty: Modern Warfare II, where prolonged build times […]\nThe post Optimizing Build Times with Build Insights: How Activision Cut Call of Duty’s Build Time by 50% appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/optimizing-build-times-with-build-insights-how-activision-cut-call-of-dutys-build-time-by-50/",
-    "pubDate": "Tue, 18 Mar 2025 13:51:17 +0000",
-    "creator": "Moyo Okeremi",
-    "categories": [
-      "Build Insights",
-      "Build Optimization",
-      "C++",
-      "Game Development",
-      "Activision"
+      "다음 분사",
+      "블로그 플랫폼",
+      "카카오 다음 관계",
+      "카카오 티스토리",
+      "티스토리 SEO",
+      "티스토리 검색 노출",
+      "티스토리 대체",
+      "티스토리 미래",
+      "티스토리 블로거 대비",
+      "티스토리 유료화"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Kling AI 로 뽑은 영상 02",
-    "description": "이전글 : https://serverdown.tistory.com/1213\n지난번에 반대로 회전했었고\n화전 반향을 지정해봐야 안먹힌다는 사실을 알았습니다.\n그래서 천천히 움직이라고 추가했고 \n영상이 짧으니 천천히 움직이면 당연히 조금밖에 못움직입니다.\n \n프롬프트\nMove your head slowly.\nBlink your eyes.\nMove your mouth gently.\n천천히 고개를 움직이고\n눈을 깝박이고\n입을 부드럽게 움직여라\n이렇게 적은것입니다.\n결과물\n \n\n\n\n눈을 깜박임이 과하군요 횟수 까지 지정해줘야겠군요",
+    "title": "AI Code Completion: Less Is More",
+    "description": "If you’ve been following our journey, you might’ve read our recent blog post on the Complete the Un-Completable: The State of AI Completion in JetBrains IDEs. From that post, you might remember this cool chart on code completions. In April, something exciting happened: our acceptance rate went up while the explicit cancel rate dropped. In […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1218",
-    "pubDate": "Fri, 21 Mar 2025 01:41:26 +0900",
-    "creator": "이건개발",
+    "link": "https://blog.jetbrains.com/ai/2025/03/ai-code-completion-less-is-more/",
+    "pubDate": "Tue, 18 Mar 2025 10:55:26 +0000",
+    "creator": "Irina Mariasova",
     "categories": [
-      "유튜브"
+      "ai-assistant",
+      "ai",
+      "ai-code-completion",
+      "code-completion",
+      "llm"
     ]
   }
 ]
