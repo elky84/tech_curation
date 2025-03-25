@@ -2,152 +2,34 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "2D 케릭터 에니메이션 1달러에 판매하는 곳 발견 / zegley.itch.io",
-    "description": "링크: https://zegley.itch.io/strawhat\n\n \nStraw Hat by ZeggyGames\n2D Katana and Dagger wielding, pixel-art character\nzegley.itch.io\n\n좋네요 1달러에 팝니다.\n그런데 몇개 없구요 ...\nhttps://zegley.itch.io/\n\n\n아쉽",
+    "title": "C++ Dynamic Debugging: Full Debuggability for Optimized Builds",
+    "description": "Over the past 5 years, we’ve had many incredible opportunities to engage with game developers. From AAA studios to indie developers, the passion for slashing iteration times is significant. Amidst all the fantastic feedback we’ve received for Visual Studio, one sentiment has rung loud and clear: a desire to debug optimized C++ code without sacrificing […]\nThe post C++ Dynamic Debugging: Full Debuggability for Optimized Builds appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1211",
-    "pubDate": "Tue, 18 Mar 2025 17:24:57 +0900",
-    "creator": "이건개발",
+    "link": "https://devblogs.microsoft.com/cppblog/cpp-dynamic-debugging-full-debuggability-for-optimized-builds/",
+    "pubDate": "Wed, 19 Mar 2025 18:33:52 +0000",
+    "creator": "David Li",
     "categories": [
-      "프로그래밍/개발메모"
+      "C++",
+      "Game Development",
+      "debugging",
+      "Optimized Builds"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Fleet 1.47 Is Here With Folding Support for Multiline Comments, New AI Chat Functionality, and More Enhancements",
-    "description": "Explore our latest release, which introduces many new features designed to improve your development experience. You can update to this version using our Toolbox App. Let’s take a closer look at the highlights. Download Fleet 1.47 New features Improvements Bug fixes We’ve also fixed several bugs: See the full release notes for more details about […]",
+    "title": "토스플레이스, 사장님 고객 확보 비법 전수…무료 웨비나 성료",
+    "description": "손님 유치 실전 전략 강연 제공으로 만족도 4.5점 기록",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/fleet/2025/03/fleet-1-47-is-here-with-folding-support-for-multiline-comments-new-ai-chat-functionality-and-more-enhancements/",
-    "pubDate": "Fri, 21 Mar 2025 13:48:35 +0000",
-    "creator": "Daniela Bentrup",
-    "categories": [
-      "news",
-      "releases"
-    ]
+    "link": "https://blog.toss.im/article/Tossplacewebinar",
+    "pubDate": "Thu, 20 Mar 2025 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
-    "imageUrl": "",
-    "title": "What’s New in TeamCity 2025.03: Recipes, Improved Docker and Podman Integration, UI Updates, and More",
-    "description": "TeamCity’s first major release of the year, version 2025.03, is now available. It’s packed with new features, including massive UI updates, a new Run in Docker build feature, and JetBrains-crafted recipes available in our Marketplace. UI updates In line with our commitment to make TeamCity easier and more intuitive to use, this release introduces significant […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/03/what-s-new-in-teamcity-2025-03-recipes-improved-docker-and-podman-integration-ui-updates-and-more/",
-    "pubDate": "Thu, 20 Mar 2025 15:31:00 +0000",
-    "creator": "Dmitry Mareychev",
-    "categories": [
-      "release",
-      "teamcity"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "How the IntelliJ Infrastructure Team Cuts Build Execution Time by 30% With TeamCity",
-    "description": "Introduction JetBrains is known for developing some of the world’s most popular IDEs, including IntelliJ IDEA, PyCharm, and WebStorm. Supporting this development is a dedicated infrastructure team that ensures hundreds of developers can efficiently build, test, and release these products. At the core of their workflow is TeamCity, JetBrains’ own CI/CD solution, which powers build […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/03/how-intellij-uses-teamcity/",
-    "pubDate": "Mon, 17 Mar 2025 09:44:31 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "intellij",
-      "teamcity-2",
-      "case-study",
-      "news"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "유니티 애셋 / Block Blast / 데모게임 / 유",
-    "description": "영상: https://www.youtube.com/watch?v=LYECrh_MYOw&t=55s\n\n\n\n \n유니티 애셋 스토어 링크: https://assetstore.unity.com/packages/templates/packs/blast-puzzle-template-editor-313175\n\n \nBlast Puzzle | Template + Editor | 패키지 | Unity Asset Store\nUse Blast Puzzle | Template + Editor from Watermelon Games to elevate your next project. Find this & more 패키지 and templates on the Unity Asset Store.\nassetstore.unity.com\n\n \n비싸긴한데 카피게임 올리기엔 쉽겠군요\n거의 비슷하군요\n기억해 둬야겠습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1214",
-    "pubDate": "Wed, 19 Mar 2025 10:58:49 +0900",
-    "creator": "이건개발",
-    "categories": [
-      "프로그래밍/유니티 에셋 리뷰"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "프롬프트 엔지니어링(Prompt Engineering)",
-    "description": "<h3 id=\"introduction\">Introduction</h3>\n\n<p>LLM Settings</p>\n\n<ul>\n  <li><code class=\"language-plaintext highlighter-rouge\">temperature</code>: 토큰의 선택 비중을 결정. 높을수록 창의적인 결과 생성. 낮을수록 사실을 기반한 결과 생성</li>\n  <li><code class=\"language-plaintext highlighter-rouge\">top_p</code>: 낮으면 사실적인 결과 생성.</li>\n  <li>일반적으로 temperature 나 top_p 둘 중 하나만 변경</li>\n  <li><code class=\"language-plaintext highlighter-rouge\">max length</code>: 모델이 생성하는 토큰 수 관리. 결과 연관성 및 비용 관리.</li>\n  <li><code class=\"language-plaintext highlighter-rouge\">Stop Sequence</code>\n    <ul>\n      <li>특정 문자열을 만나면 출력을 멈추기 위해 사용</li>\n      <li>모델이 불필요하게 길거나 중복된 응답을 생성하지 않게 만들기 위해 사용함</li>\n      <li>코드, 목록, 대화 스타일 같은 특정 형식을 강제할 때 유용함</li>\n    </ul>\n\n    <p>Example:</p>\n\n    <ol>\n      <li><strong>리스트 제한</strong>:\n        <ul>\n          <li>“10개의 아이템으로 이루어진 리스트”를 생성하고 싶다면, Stop Sequence로 <code class=\"language-plaintext highlighter-rouge\">\"11.\"</code>을 지정</li>\n          <li>모델이 “11.”을 생성하지 못하게 해서 10개의 아이템으로만 리스트를 제한</li>\n        </ul>\n\n        <p><strong>예시</strong>:</p>\n\n        <div class=\"language-markdown highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code> Input: Generate a list of fruits:\n Output:\n<span class=\"p\"> 1.</span> Apple\n<span class=\"p\"> 2.</span> Banana\n ...\n<span class=\"p\"> 3.</span>  Kiwi\n<span class=\"p\"> 4.</span>  (멈춤)  --&gt; \"11.\"이 Stop Sequence라면 여기서 중단됨.\n</code></pre></div>        </div>\n      </li>\n      <li><strong>대화 종료</strong>:\n        <ul>\n          <li>챗봇이 <code class=\"language-plaintext highlighter-rouge\">\"[End]\"</code>를 만나면 대화를 끝내도록 설정</li>\n        </ul>\n\n        <div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code> Input: End the conversation after the farewell.\n Output:\n User: Thank you!\n Bot: You're welcome. Have a great day! [End]\n</code></pre></div>        </div>\n      </li>\n    </ol>\n  </li>\n  <li>Max Length vs. Stop Sequence\n    <ul>\n      <li>Max Length:\n        <ul>\n          <li>응답 길이의 상한선. 모델이 토큰을 생성하다가 이 길이에 도달하면 무조건 멈춤.</li>\n          <li>예) Max Length가 50이면 50개 토큰까지만 생성</li>\n        </ul>\n      </li>\n      <li>Stop Sequence:\n        <ul>\n          <li>특정 문자열을 생성하는 순간 멈춤</li>\n          <li>예) “###”라는 Stop Sequence가 있으면, 모델이 20번째 토큰에서 “###”를 생성하면 즉시 멈춤</li>\n        </ul>\n      </li>\n    </ul>\n  </li>\n  <li>Frequency Penalty vs. Presence Penalty\n    <ul>\n      <li>Frequency Penalty:\n        <ul>\n          <li>특정 토큰(단어)가 반복적으로 등장할수록 그 토큰을 선택할 확률을 낮추는 패널티</li>\n          <li>사용 목적: 단어 중복 방지, 정확성, 간결함</li>\n          <li>예시: FAQ 답변, 정보 요약 등</li>\n        </ul>\n\n        <div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>  입력: Write a sentence about cats.\n  결과 (Frequency Penalty 낮음): \"Cats are cute. Cats are playful. Cats love to sleep.\"\n  결과 (Frequency Penalty 높음): \"Cats are cute, playful, and love to sleep.\"\n</code></pre></div>        </div>\n      </li>\n      <li>Presence Penalty:\n        <ul>\n          <li>특정 토큰이 한 번이라도 등장했다면 그 토큰을 선택할 확률을 낮추는 패널티</li>\n          <li>사용 목적: 컨텐츠 다양성 확보(같은 단어를 여러 번 쓰는 대신 새로운 단어를 사용하도록 유도), 다양성</li>\n          <li>예시: 창의적 글쓰기, 스토리 생성, 광고 카피 작성 등</li>\n        </ul>\n\n        <div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>  입력: Write a sentence about cats.\n  결과 (Presence Penalty 낮음): \"Cats are cute. Cats are playful. Cats love to sleep.\"\n  결과 (Presence Penalty 높음): \"Cats are cute. They are playful and love to sleep.\"\n</code></pre></div>        </div>\n      </li>\n    </ul>\n\n    <table>\n      <thead>\n        <tr>\n          <th><strong>특징</strong></th>\n          <th><strong>Frequency Penalty</strong></th>\n          <th><strong>Presence Penalty</strong></th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td><strong>기준</strong></td>\n          <td>등장한 토큰의 <strong>반복 횟수</strong>에 따라 적용</td>\n          <td>등장한 토큰의 <strong>존재 여부</strong>에 따라 적용</td>\n        </tr>\n        <tr>\n          <td><strong>페널티 적용 방식</strong></td>\n          <td>반복 횟수가 많을수록 페널티가 더 커짐</td>\n          <td>한 번이라도 등장하면 동일하게 페널티 부과</td>\n        </tr>\n        <tr>\n          <td><strong>목적</strong></td>\n          <td>특정 단어의 <strong>중복 사용을 줄임</strong></td>\n          <td>더 <strong>다양한 표현</strong>을 유도</td>\n        </tr>\n        <tr>\n          <td><strong>적용 효과</strong></td>\n          <td>깔끔하고 중복 없는 텍스트</td>\n          <td>창의적이고 다양한 텍스트</td>\n        </tr>\n      </tbody>\n    </table>\n  </li>\n</ul>\n\n<h3 id=\"general-tips-for-designing-prompts\">General Tips for Designing Prompts</h3>\n\n<ul>\n  <li>The more descriptive and detailed the prompt is, the better the results.</li>\n  <li>Need to experiment with a lot.</li>\n  <li>Encourage a lot of experimentation and iteration to optimize prompts.</li>\n  <li>Avoid saying what not to do but say what to do instead.</li>\n</ul>\n\n<h3 id=\"examples-of-prompts\">Examples of Prompts</h3>\n\n<ul>\n  <li>Text Summarization</li>\n  <li>Information Extraction</li>\n  <li>Question Answering</li>\n  <li>Text Classification</li>\n  <li>Conversation(Role prompting)</li>\n  <li>Code Generation</li>\n  <li>Reasoning</li>\n</ul>\n\n<hr />\n\n<h3 id=\"zero-shot-prompting\">Zero-Shot Prompting</h3>\n\n<ul>\n  <li>the prompt used to interact with the model won’t contain examples or demonstrations.</li>\n</ul>\n\n<hr />\n\n<h3 id=\"few-shot-prompting\">Few-Shot Prompting</h3>\n\n<blockquote>\n  <p>the label space and the distribution of the input text specified by the demonstrations are both important (regardless of whether the labels are correct for individual inputs).</p>\n</blockquote>\n\n<h3 id=\"label-space와-few-shot-prompting\">Label Space와 Few-shot prompting</h3>\n\n<ul>\n  <li><code class=\"language-plaintext highlighter-rouge\">Label Space</code>: 주어진 문제에서 가능한 출력값(라벨)의 집합\n    <ul>\n      <li>ex) 영화 리뷰 감성 분석에서는 출력값이 <code class=\"language-plaintext highlighter-rouge\">Positive</code>, <code class=\"language-plaintext highlighter-rouge\">Negative</code> 같은 감정 라벨 사용</li>\n      <li>Label Space는 모델이 어떤 선택지를 예상해야 하는지 알려주는 역할</li>\n    </ul>\n  </li>\n  <li>모델이 학습을 잘 하려면 input &amp; label 쌍이 일관된 구조를 가져야 함.</li>\n  <li>라벨이 실제로 맞는지 틀린지는 덜 중요하고, 예시들 사이에서 입력과 출력의 관계(패턴)와 라벨 공간의 정의가 중요한 역할</li>\n  <li>Input Text Distribution(입력 텍스트의 분포): 프롬프트에 포함된 예시가 특정 스타일이나 패턴을 유지해야 모델이 더 잘 학습함.</li>\n  <li>라벨의 정확성은 덜 중요: 라벨이 틀렸더라도 형식과 구조가 명확하면 모델이 작업의 맥락을 이해할 수 있음.</li>\n  <li>Few-shot Prompting 한계: 모델이 학습한 지식으로 충분하지 않은 경우\n    <ul>\n      <li>복잡한 수학적 추론, 다단계 논리 문제, 세부적인 도메인 지식이 필요한 작업 등.</li>\n      <li>Few-shot prompting은 모델이 이미 학습한 지식을 기반으로 동작하므로, 모델의 학습 데이터에 없는 복잡한 작업에서는 한계에 부딪힐 수 있음.</li>\n    </ul>\n  </li>\n</ul>\n\n<h3 id=\"대안\">대안:</h3>\n<ul>\n  <li>Fine-tuning: 모델을 특정 작업에 맞게 추가 학습시키는 과정\n    <ul>\n      <li>특정 작업에서 더 나은 성능을 발휘할 수 있도록 모델의 파라미터를 조정</li>\n      <li>특정 도메인(예: 의학, 법률, 금융)에서 높은 정확도가 필요한 경우에 유용</li>\n    </ul>\n  </li>\n  <li>Chain-of-Thought (CoT) Prompting: 복잡한 추론 문제를 단계별로 나누어 해결하는 방식\n    <ul>\n      <li>ex) 모델이 수학 문제를 풀 때 답을 바로 생성하도록 요청하는 대신, 문제를 단계적으로 해결하는 과정을 먼저 보여주도록 설정</li>\n      <li>장점: 모델이 단계적이고 논리적 사고를 통해 더 정확한 답을 생성할 가능성이 높아짐.</li>\n    </ul>\n  </li>\n</ul>\n\n<hr />\n\n<h3 id=\"chain-of-thought-prompting\">Chain-of-Thought Prompting</h3>\n\n<blockquote>\n  <p>Let’s think step by step</p>\n</blockquote>\n\n<ul>\n  <li>문장 하나 추가했는데 결과가 달라지는게 신기</li>\n  <li>Demonstrations: 모델이 작업을 수행하는 방식을 학습하도록 도와주는 예시</li>\n</ul>\n\n<hr />\n\n<h3 id=\"meta-prompting\">Meta Prompting</h3>\n\n<ul>\n  <li>Structure-oriented: 특정 내용보다는 문제 해결의 전반적인 구조/형식/패턴에 초점을 맞춤</li>\n  <li>Syntax-focused: 문법적 템플릿으로 응답의 형식을 유도(ex. Let’s think step by step.)</li>\n  <li>Abstract examples: 구체적인 내용 대신 구조를 보여주는 추상적 예시를 사용하여 다양한 작업에 적용 가능</li>\n  <li>Versatile: 수학, 프로그래밍, 이론적 질문 등 여러 도메인에서 사용</li>\n</ul>\n\n<hr />\n\n<h3 id=\"self-consistency\">Self-Consistency</h3>\n\n<ul>\n  <li>Greedy Decoding: 가장 높은 확률의 답변을 한 번만 생성</li>\n  <li>모델이 다양한 추론 경로(reasoning paths)를 통해 여러 답변을 생성하고, 가장 일관성 있는 답변을 선택</li>\n  <li>산술적 문제나 상식 추론 문제에서 효과적</li>\n</ul>\n\n<hr />\n\n<h3 id=\"generate-knowledge-prompting\">Generate Knowledge Prompting</h3>\n\n<ul>\n  <li>모델이 답변을 생성하기 전에 문제와 관련된 지식을 먼저 생성</li>\n  <li>이 지식은 이후 예측 과정에서 프롬프트로 통합되어 모델의 이해와 예측 정확도를 높이는 데 사용</li>\n</ul>\n\n<hr />\n\n<h3 id=\"prompt-chaining\">Prompt Chaining</h3>\n\n<ul>\n  <li>Divide and Conquer</li>\n  <li>복잡한 작업을 여러 단계로 나누어 한 번에 하나씩 해결.</li>\n  <li>하위 작업의 결과를 다음 작업의 입력으로 사용</li>\n  <li>ex. 텍스트 요약 → 주요 정보 추출 → 답변 생성</li>\n</ul>\n\n<hr />\n\n<h3 id=\"tree-of-thoughts-tot\">Tree of Thoughts (ToT)</h3>\n\n<ul>\n  <li>CS 알고리즘 나와서 반가웠음.</li>\n  <li>복잡한 문제를 해결하기 위해 트리 구조를 사용하여 여러 사고 과정(thoughts)을 탐색</li>\n  <li>Thoughts: 문제 해결을 위한 중간 단계의 사고 과정(언어 시퀀스).\n    <ul>\n      <li>예: 산수 문제에서 각 중간 계산 과정</li>\n    </ul>\n  </li>\n  <li>각 노드: 중간 단계의 사고 과정.</li>\n  <li>루트 노드: 초기 문제 진술.</li>\n  <li>리프 노드: 최종 답변.</li>\n  <li>DFS, BFS 또는 Beam Search 알고리즘을 사용하여 탐색.</li>\n  <li>사고 과정이 트리 구조로 나타나므로 각 단계에서 무엇이 잘못되었는지 추적 가능</li>\n</ul>\n\n<hr />\n\n<h3 id=\"retrieval-augmented-generation-rag\">Retrieval Augmented Generation (RAG)</h3>\n\n<ul>\n  <li>정보 검색 (Retrieval): 외부 데이터베이스(예: Wikipedia)에서 관련 문서를 검색하여 입력과 함께 사용</li>\n  <li>텍스트 생성 (Generation): 검색된 문서를 컨텍스트로 사용하여 최종 응답을 생성</li>\n  <li>모델의 내부 지식(parametric knowledge)이 고정된 문제를 해결</li>\n</ul>\n\n<hr />\n\n<h3 id=\"automatic-reasoning-and-tool-use-art\">Automatic Reasoning and Tool-use (ART)</h3>\n\n<ul>\n  <li>LLM이 새로운 작업을 수행하기 위해 <code class=\"language-plaintext highlighter-rouge\">스스로</code> 중간 추론 단계를 생성하고 <code class=\"language-plaintext highlighter-rouge\">외부 도구</code>를 사용하는 방법</li>\n  <li><a href=\"https://youtu.be/6KEnz_Bdmcs?si=Yf5eV132YtXAvsJ_\">Youtube - 프롬프트 엔지니어링 - Automatic Reasoning and Tool-use (ART, 자동추론&amp;도구사용)</a></li>\n  <li>스스로 CoT 생성</li>\n  <li>외부 도구: 추론 과정들이 데이터셋으로 만들어져 있는 것(라이브러리, 패키지)\n    <ul>\n      <li>예) GSM8K(초등 수학 단어 문제 8,500개 세트), AQuA(딥러닝 기술의 상태를 시험하기 위한 객관식 대수 단어 문제)</li>\n    </ul>\n  </li>\n  <li>예시\n    <ul>\n      <li>사용자의 질문을 분석한다.</li>\n      <li>사용자의 요청을 해결할 최적의 추론 경로와 외부 도구가 무엇인지 탐색한다.</li>\n      <li>필요에 따라 사용자가 외부 도구 라이브러리를 추가하거나 수정한다.</li>\n    </ul>\n  </li>\n</ul>\n\n<hr />\n\n<h3 id=\"automatic-prompt-engineer-ape\">Automatic Prompt Engineer (APE)</h3>\n\n<ul>\n  <li>automatic instruction generation and selection</li>\n  <li>사람이 설계한 CoT Prompt 보다 더 나은 Zero-shot Cot Prompt 발견\n    <ul>\n      <li>예) 사람이 작성한 “Let’s think step by step” 프롬프트보다 “Let’s work this out in a step by step way to be sure we have the right answer.” 라는 프롬프트가 더 나은 성능</li>\n    </ul>\n  </li>\n  <li>instruction 설계 과정에서 사람의 개입을 줄이고 최적화하게 도와주는 프레임워크</li>\n</ul>\n\n<hr />\n\n<h3 id=\"active-prompt\">Active-Prompt</h3>\n\n<p>불확실한 답변에 사람이 피드백을 주고 모델 학습을 강화하는 방식. 모든 질문에 피드백을 주지 않아도 되므로 효율적임.</p>\n\n<ol>\n  <li>Uncertainty Estimation: 불확실성은 답변이 얼마나 일관되었는지로 평가. 답변이 모두 동일하면 불확실성이 낮고, 답변이 다양하면 불확실성 높음.</li>\n  <li>Selection: 모든 질문의 불확실성 점수를 정렬해서 가장 불확실한 질문 선택</li>\n  <li>Annotation: 불확실한 질문에 대해 사람이 정확한 답변 작성. 모델이 더 나은 추론을 할 수 있도록 새로운 학습 예제 추가</li>\n  <li>Inference: 새로 추가된 예제를 학습한 후 질문에 대해 추론을 수행</li>\n</ol>\n\n<p><img src=\"/images/2025/03/22/active-prompt.png\" alt=\"Active Prompt\" title=\"active-prompt\" class=\"center-image\" /></p>\n\n<hr />\n\n<h3 id=\"directional-stimulus-prompting\">Directional Stimulus Prompting</h3>\n\n<ul>\n  <li>DSP: 프롬프트에 힌트를 명시적으로 제공해서 중요한 요소를 더 쉽게 식별할 수 있게 도와주는 방식</li>\n</ul>\n\n<p>Black-box Frozen LLM:</p>\n\n<ul>\n  <li>Black-box: 내부 동작을 알거나 수정할 수 없는 시스템</li>\n  <li>Frozen LLM: LLM이 사전 학습된 상태로 고정되어 있는것. Fine-tuning이 이루어지지 않는 상태</li>\n  <li>모델의 파라미터나 학습 방식에 접근하거나 변경할 수 없어서 프롬프트 엔지니어링이 중요</li>\n  <li>장점:\n    <ul>\n      <li>사전 학습된 모델을 그대로 사용해서 추가적인 학습이나 리소스 필요하지 않음.</li>\n      <li>모델 파라미터가 고정되어 있어서 예측 가능한 동작을 수행함.</li>\n    </ul>\n  </li>\n  <li>한계:\n    <ul>\n      <li>특정 작업에 대해 최적화 되어 있지 않을 수 있음. 특정 도메인에 맞는 성능을 보장하기 어려움(Fine-tuning 불가)</li>\n      <li>프롬프트와 라이브러리에 의존이 높음.</li>\n    </ul>\n  </li>\n</ul>\n\n<hr />\n\n<h3 id=\"pal-program-aided-language-models\">PAL (Program-Aided Language Models)</h3>\n\n<p>프로그래밍 지원 모델. 코드나 수식을 사용해 논리적인 작업을 수행하는 방식</p>\n\n<div class=\"language-python highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"kn\">import</span> <span class=\"nn\">openai</span>\n<span class=\"kn\">import</span> <span class=\"nn\">os</span>\n<span class=\"kn\">from</span> <span class=\"nn\">langchain_openai</span> <span class=\"kn\">import</span> <span class=\"n\">OpenAI</span>\n<span class=\"kn\">from</span> <span class=\"nn\">datetime</span> <span class=\"kn\">import</span> <span class=\"n\">datetime</span>\n<span class=\"kn\">from</span> <span class=\"nn\">dateutil.relativedelta</span> <span class=\"kn\">import</span> <span class=\"n\">relativedelta</span>\n\n<span class=\"k\">def</span> <span class=\"nf\">main</span><span class=\"p\">():</span>\n    <span class=\"n\">llm</span> <span class=\"o\">=</span> <span class=\"n\">OpenAI</span><span class=\"p\">(</span><span class=\"n\">model_name</span><span class=\"o\">=</span><span class=\"s\">'gpt-3.5-turbo-instruct'</span><span class=\"p\">,</span> <span class=\"n\">temperature</span><span class=\"o\">=</span><span class=\"mi\">0</span><span class=\"p\">)</span>\n    <span class=\"n\">question</span> <span class=\"o\">=</span> <span class=\"s\">\"Today is 27 February 2023. I was born exactly 25 years ago. What is the date I was born in MM/DD/YYYY?\"</span>\n    <span class=\"n\">DATE_UNDERSTANDING_PROMPT</span> <span class=\"o\">=</span> <span class=\"s\">\"\"\"\n    # Q: 2015년이 36시간 후에 옵니다. 오늘로부터 1주일 후의 날짜는 MM/DD/YYYY 형식으로 무엇인가요?\n    # 2015년이 36시간 후에 오므로, 오늘은 36시간 전입니다.\n    today = datetime(2015, 1, 1) - relativedelta(hours=36)\n    # 오늘로부터 1주일 후,\n    one_week_from_today = today + relativedelta(weeks=1)\n    # %m/%d/%Y 형식으로 표시된 답은\n    one_week_from_today.strftime('%m/%d/%Y')\n    # Q: 2019년의 첫 번째 날은 화요일이고, 오늘은 2019년의 첫 번째 월요일입니다. 오늘 날짜는 MM/DD/YYYY 형식으로 무엇인가요?\n    # 2019년의 첫 번째 날이 화요일이고, 오늘이 첫 번째 월요일이라면, 오늘은 6일 후입니다.\n    today = datetime(2019, 1, 1) + relativedelta(days=6)\n    # %m/%d/%Y 형식으로 표시된 답은\n    today.strftime('%m/%d/%Y')\n    # Q: 콘서트가 06/01/1943에 예정되어 있었지만 하루 늦게 오늘로 연기되었습니다. 오늘로부터 10일 전의 날짜는 MM/DD/YYYY 형식으로 무엇인가요?\n    # 콘서트가 06/01/1943에 예정되었지만 하루 연기되었으므로 오늘은 하루 뒤입니다.\n    today = datetime(1943, 6, 1) + relativedelta(days=1)\n    # 오늘로부터 10일 전,\n    ten_days_ago = today - relativedelta(days=10)\n    # %m/%d/%Y 형식으로 표시된 답은\n    ten_days_ago.strftime('%m/%d/%Y')\n    # Q: 오늘은 1969년 4월 19일입니다. 24시간 후의 날짜는 MM/DD/YYYY 형식으로 무엇인가요?\n    # 오늘은 1969년 4월 19일입니다.\n    today = datetime(1969, 4, 19)\n    # 24시간 후,\n    later = today + relativedelta(hours=24)\n    # %m/%d/%Y 형식으로 표시된 답은\n    today.strftime('%m/%d/%Y')\n    # Q: 제인은 오늘이 2002년 3월 11일이라고 생각했지만, 사실 오늘은 하루 후인 3월 12일입니다. 24시간 후의 날짜는 MM/DD/YYYY 형식으로 무엇인가요?\n    # 제인이 오늘이 2002년 3월 11일이라고 생각했지만, 실제로 오늘은 하루 후인 3월 12일입니다.\n    today = datetime(2002, 3, 12)\n    # 24시간 후,\n    later = today + relativedelta(hours=24)\n    # %m/%d/%Y 형식으로 표시된 답은\n    later.strftime('%m/%d/%Y')\n    # Q: 제인은 2001년 2월의 마지막 날에 태어났습니다. 오늘은 제인의 16번째 생일입니다. 어제의 날짜는 MM/DD/YYYY 형식으로 무엇인가요?\n    # 제인이 2001년 2월의 마지막 날에 태어났고 오늘이 16번째 생일이라면, 오늘은 16년 후입니다.\n    today = datetime(2001, 2, 28) + relativedelta(years=16)\n    # 어제,\n    yesterday = today - relativedelta(days=1)\n    # %m/%d/%Y 형식으로 표시된 답은\n    yesterday.strftime('%m/%d/%Y')\n    # Q: {question}\n    \"\"\"</span><span class=\"p\">.</span><span class=\"n\">strip</span><span class=\"p\">()</span> <span class=\"o\">+</span> <span class=\"s\">'</span><span class=\"se\">\\n</span><span class=\"s\">'</span>\n    \n    <span class=\"n\">llm_out</span> <span class=\"o\">=</span> <span class=\"n\">llm</span><span class=\"p\">(</span><span class=\"n\">DATE_UNDERSTANDING_PROMPT</span><span class=\"p\">.</span><span class=\"nb\">format</span><span class=\"p\">(</span><span class=\"n\">question</span><span class=\"o\">=</span><span class=\"n\">question</span><span class=\"p\">))</span>\n    <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"s\">\"LLM output:\"</span><span class=\"p\">,</span> <span class=\"n\">llm_out</span><span class=\"p\">)</span>\n    \n    <span class=\"n\">cleaned_output</span> <span class=\"o\">=</span> <span class=\"s\">'</span><span class=\"se\">\\n</span><span class=\"s\">'</span><span class=\"p\">.</span><span class=\"n\">join</span><span class=\"p\">(</span><span class=\"n\">line</span><span class=\"p\">.</span><span class=\"n\">strip</span><span class=\"p\">()</span> <span class=\"k\">for</span> <span class=\"n\">line</span> <span class=\"ow\">in</span> <span class=\"n\">llm_out</span><span class=\"p\">.</span><span class=\"n\">splitlines</span><span class=\"p\">())</span>\n    <span class=\"n\">local_vars</span> <span class=\"o\">=</span> <span class=\"p\">{}</span>\n    <span class=\"k\">exec</span><span class=\"p\">(</span><span class=\"n\">cleaned_output</span><span class=\"p\">,</span> <span class=\"nb\">globals</span><span class=\"p\">(),</span> <span class=\"n\">local_vars</span><span class=\"p\">)</span>\n    \n    <span class=\"k\">if</span> <span class=\"s\">'today'</span> <span class=\"ow\">in</span> <span class=\"n\">local_vars</span><span class=\"p\">:</span>\n        <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"s\">\"Birth date:\"</span><span class=\"p\">,</span> <span class=\"n\">local_vars</span><span class=\"p\">[</span><span class=\"s\">'today'</span><span class=\"p\">].</span><span class=\"n\">strftime</span><span class=\"p\">(</span><span class=\"s\">'%m/%d/%Y'</span><span class=\"p\">))</span>\n    <span class=\"k\">else</span><span class=\"p\">:</span>\n        <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"s\">\"Error: Could not calculate the birth date\"</span><span class=\"p\">)</span>\n\n<span class=\"k\">if</span> <span class=\"n\">__name__</span> <span class=\"o\">==</span> <span class=\"s\">\"__main__\"</span><span class=\"p\">:</span>\n    <span class=\"n\">openai</span><span class=\"p\">.</span><span class=\"n\">api_key</span> <span class=\"o\">=</span> <span class=\"s\">\"\"</span>\n    <span class=\"n\">os</span><span class=\"p\">.</span><span class=\"n\">environ</span><span class=\"p\">[</span><span class=\"s\">\"OPENAI_API_KEY\"</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"s\">\"\"</span>\n    <span class=\"n\">main</span><span class=\"p\">()</span>\n</code></pre></div></div>\n\n<hr />\n\n<h3 id=\"react-prompting\">ReAct Prompting</h3>\n\n<p>추론(Reasoning) + 행동(Acting) + 관찰(Observation) 반복적으로 수행</p>\n\n<ul>\n  <li>Reasoning: 문제 해결을 위해 단계별 논리적 과정 생성(CoT)</li>\n  <li>Acting: 모델이 외부에 필요한 정보 검색</li>\n  <li>Observation: 외부 결과를 바탕으로 추론 또는 행동 결정</li>\n  <li>외부 정보의 품질에 따라 모델 추론이 방해받을 수 있음</li>\n</ul>\n\n<div class=\"language-python highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"kn\">import</span> <span class=\"nn\">openai</span>\n<span class=\"kn\">import</span> <span class=\"nn\">os</span>\n<span class=\"kn\">from</span> <span class=\"nn\">langchain_openai</span> <span class=\"kn\">import</span> <span class=\"n\">OpenAI</span>\n<span class=\"kn\">from</span> <span class=\"nn\">langchain.agents</span> <span class=\"kn\">import</span> <span class=\"n\">load_tools</span>\n<span class=\"kn\">from</span> <span class=\"nn\">langchain.agents</span> <span class=\"kn\">import</span> <span class=\"n\">initialize_agent</span>\n\n    \n<span class=\"k\">def</span> <span class=\"nf\">main</span><span class=\"p\">():</span>\n    <span class=\"c1\"># temperature=0: 더 결정론적이고 일관된 답변을 생성\n</span>    <span class=\"n\">llm</span> <span class=\"o\">=</span> <span class=\"n\">OpenAI</span><span class=\"p\">(</span><span class=\"n\">model_name</span><span class=\"o\">=</span><span class=\"s\">'gpt-3.5-turbo-instruct'</span><span class=\"p\">,</span> <span class=\"n\">temperature</span><span class=\"o\">=</span><span class=\"mi\">0</span><span class=\"p\">)</span>\n    \n    <span class=\"c1\"># tools: 에이전트가 사용할 라이브러리 로드용\n</span>    <span class=\"c1\"># google-serper: Google 검색 도구 https://serper.dev/\n</span>    <span class=\"c1\"># llm-math: 수학 계산을 수행하는 도구\n</span>    <span class=\"n\">tools</span> <span class=\"o\">=</span> <span class=\"n\">load_tools</span><span class=\"p\">([</span><span class=\"s\">\"google-serper\"</span><span class=\"p\">,</span> <span class=\"s\">\"llm-math\"</span><span class=\"p\">],</span> <span class=\"n\">llm</span><span class=\"o\">=</span><span class=\"n\">llm</span><span class=\"p\">)</span>\n    \n    <span class=\"c1\"># 위 도구와 LLM을 결합한 에이전트 생성\n</span>    <span class=\"c1\"># zero-shot-react-description: ReAct 프롬프팅 방식으로 질문 처리\n</span>    <span class=\"n\">agent</span> <span class=\"o\">=</span> <span class=\"n\">initialize_agent</span><span class=\"p\">(</span><span class=\"n\">tools</span><span class=\"p\">,</span> <span class=\"n\">llm</span><span class=\"p\">,</span> <span class=\"n\">agent</span><span class=\"o\">=</span><span class=\"s\">\"zero-shot-react-description\"</span><span class=\"p\">,</span> <span class=\"n\">verbose</span><span class=\"o\">=</span><span class=\"bp\">True</span><span class=\"p\">)</span>\n    <span class=\"kn\">import</span> <span class=\"nn\">sys</span>\n    <span class=\"k\">try</span><span class=\"p\">:</span>\n        <span class=\"k\">while</span> <span class=\"bp\">True</span><span class=\"p\">:</span>\n            <span class=\"k\">if</span> <span class=\"nb\">len</span><span class=\"p\">(</span><span class=\"n\">sys</span><span class=\"p\">.</span><span class=\"n\">argv</span><span class=\"p\">)</span> <span class=\"o\">&gt;</span> <span class=\"mi\">1</span><span class=\"p\">:</span>\n                <span class=\"n\">user_input</span> <span class=\"o\">=</span> <span class=\"s\">' '</span><span class=\"p\">.</span><span class=\"n\">join</span><span class=\"p\">(</span><span class=\"n\">sys</span><span class=\"p\">.</span><span class=\"n\">argv</span><span class=\"p\">[</span><span class=\"mi\">1</span><span class=\"p\">:])</span>\n                <span class=\"n\">sys</span><span class=\"p\">.</span><span class=\"n\">argv</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"n\">sys</span><span class=\"p\">.</span><span class=\"n\">argv</span><span class=\"p\">[</span><span class=\"mi\">0</span><span class=\"p\">]]</span>\n            <span class=\"k\">else</span><span class=\"p\">:</span>\n                <span class=\"n\">user_input</span> <span class=\"o\">=</span> <span class=\"nb\">input</span><span class=\"p\">(</span><span class=\"s\">\"Please enter your query (or type 'exit' to quit): \"</span><span class=\"p\">)</span>\n                <span class=\"k\">if</span> <span class=\"n\">user_input</span><span class=\"p\">.</span><span class=\"n\">lower</span><span class=\"p\">()</span> <span class=\"o\">==</span> <span class=\"s\">'exit'</span><span class=\"p\">:</span>\n                    <span class=\"k\">break</span>\n            <span class=\"c1\"># 입력이 한국어인 경우 에이전트에게 한국어로 답변하도록 지시\n</span>            <span class=\"k\">if</span> <span class=\"nb\">any</span><span class=\"p\">(</span><span class=\"s\">'</span><span class=\"se\">\\u3131</span><span class=\"s\">'</span> <span class=\"o\">&lt;=</span> <span class=\"n\">char</span> <span class=\"o\">&lt;=</span> <span class=\"s\">'</span><span class=\"se\">\\u3163</span><span class=\"s\">'</span> <span class=\"ow\">or</span> <span class=\"s\">'</span><span class=\"se\">\\uac00</span><span class=\"s\">'</span> <span class=\"o\">&lt;=</span> <span class=\"n\">char</span> <span class=\"o\">&lt;=</span> <span class=\"s\">'</span><span class=\"se\">\\ud7a3</span><span class=\"s\">'</span> <span class=\"k\">for</span> <span class=\"n\">char</span> <span class=\"ow\">in</span> <span class=\"n\">user_input</span><span class=\"p\">):</span>\n                <span class=\"n\">user_input</span> <span class=\"o\">=</span> <span class=\"sa\">f</span><span class=\"s\">\"답변을 한국어로 해주세요: </span><span class=\"si\">{</span><span class=\"n\">user_input</span><span class=\"si\">}</span><span class=\"s\">\"</span>\n            <span class=\"n\">agent</span><span class=\"p\">.</span><span class=\"n\">run</span><span class=\"p\">(</span><span class=\"n\">user_input</span><span class=\"p\">)</span>\n    <span class=\"k\">except</span> <span class=\"nb\">KeyboardInterrupt</span><span class=\"p\">:</span>\n        <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"s\">\"</span><span class=\"se\">\\n</span><span class=\"s\">Exiting...\"</span><span class=\"p\">)</span>\n\n\n<span class=\"k\">if</span> <span class=\"n\">__name__</span> <span class=\"o\">==</span> <span class=\"s\">\"__main__\"</span><span class=\"p\">:</span>\n    <span class=\"n\">openai</span><span class=\"p\">.</span><span class=\"n\">api_key</span> <span class=\"o\">=</span> <span class=\"s\">\"\"</span>\n    <span class=\"n\">os</span><span class=\"p\">.</span><span class=\"n\">environ</span><span class=\"p\">[</span><span class=\"s\">\"OPENAI_API_KEY\"</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"s\">\"\"</span>\n    <span class=\"n\">os</span><span class=\"p\">.</span><span class=\"n\">environ</span><span class=\"p\">[</span><span class=\"s\">\"SERPER_API_KEY\"</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"s\">\"\"</span>\n    <span class=\"n\">main</span><span class=\"p\">()</span>\n</code></pre></div></div>\n\n<hr />\n\n<h3 id=\"reflexion\">Reflexion</h3>\n\n<ul>\n  <li>self-reflection 을 통해 LangChain Agent가 과거 실수를 학습하고 성과를 개선할 수 있도록 설계된 프레임워크</li>\n  <li>Verbal feedback을 활용하여 에이전트가 작업을 반복적으로 개선</li>\n  <li>Actor:\n    <ul>\n      <li>LLM이 Environment(에이전트가 목표를 달성하기 위해 상호작용하는 외부 시스템)에서 행동하고 관찰 결과를 통해 추론과 작업을 수행</li>\n      <li>행동 결과와 관찰이 단기 메모리(short-term memory)로 저장</li>\n    </ul>\n  </li>\n  <li>Evaluator:\n    <ul>\n      <li>Actor가 생성한 경로(trajectory)를 평가하여 성과 점수(reward)를 제공</li>\n      <li>평가 방식: 규칙 기반(heuristic) 평가. LLM을 활용한 질적 평가.</li>\n    </ul>\n  </li>\n  <li>Self-Reflection:\n    <ul>\n      <li>Actor의 행동과 평가 결과를 기반으로 언어적 피드백을 생성</li>\n      <li>피드백은 장기 메모리(long-term memory)에 저장되고, Actor가 다음 반복에서 더 나은 행동을 하도록 도움</li>\n    </ul>\n  </li>\n  <li>Define a task → Generate a trajectory → Evaluate → Perform reflection → Generate the next trajectory</li>\n</ul>\n\n<p><img src=\"/images/2025/03/22/reflexion.png\" alt=\"Reflexion\" title=\"Reflexion\" class=\"center-image\" /></p>\n\n<p>When to Use Reflexion?</p>\n\n<p>(전통적인 강화학습의 대체제, 세밀한 피드백, 메모리 활용)</p>\n\n<ol>\n  <li>An agent needs to learn from trial and error:\n    <ul>\n      <li>로봇이 물체를 이동시키기 위해 최적의 경로를 찾는 과정</li>\n      <li>잘못된 괄호 매칭 코드를 수정하며 올바른 코드를 도출</li>\n    </ul>\n  </li>\n  <li>Traditional reinforcement learning methods are impractical:\n    <ul>\n      <li>전통적인 RL은 대규모 학습 데이터와 긴 훈련 시간이 필요하며, 종종 비용이 많이 든다.</li>\n      <li>HotPotQA와 같은 다단계 추론 작업에서 빠르고 효율적인 해결 방식을 제공</li>\n    </ul>\n  </li>\n  <li>Nuanced feedback is required:\n    <ul>\n      <li>괄호의 개수는 맞지만 순서가 잘못되었습니다”와 같은 피드백</li>\n      <li>숫자 보상이 제공하지 못하는 세부 사항까지 전달 가능</li>\n    </ul>\n  </li>\n  <li>Interpretability and explicit memory are important:\n    <ul>\n      <li>에이전트가 이전 시도에서 잘못된 행동을 한 이유를 기록하고, 이를 기반으로 새로운 계획을 세움</li>\n      <li>예: 의사결정 작업에서 잘못된 경로를 선택한 이유를 문서화</li>\n    </ul>\n  </li>\n</ol>\n\n<hr />\n\n<h3 id=\"multimodal-cot-prompting\">Multimodal CoT Prompting</h3>\n\n<p>Text &amp; Vision 결합된 상황에서 모델이 논리적 추론 과정을 통해 답변을 도출하는 방식</p>\n\n<hr />\n\n<h3 id=\"graphprompts\">GraphPrompts</h3>\n\n<p>Graph 기반의 논리적 추론</p>\n\n<ul>\n  <li>사용자와 항목 간의 관계를 그래프로 표현하고, GraphPrompts를 사용해 개인화된 추천 생성: A 사용자가 좋아할 만한 영화는 무엇인가요?</li>\n  <li>그래프에서 최단 경로나 특정 경로를 탐색하는 작업: Node A에서 Node B로 가는 최단 경로를 알려주세요.</li>\n  <li>노드 간 연결 관계를 분석하여 네트워크의 특징 추출: 이 네트워크에서 가장 영향력 있는 노드는 누구인가요?</li>\n</ul>\n\n<hr />\n\n<h1 id=\"reference\">Reference</h1>\n\n<ul>\n  <li><a href=\"https://www.promptingguide.ai/\">Prompt Engineering Guide</a></li>\n</ul>",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://sungjk.github.io/2025/03/22/prompt-engineering.html",
-    "pubDate": "2025-03-22T00:00:00+00:00",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "토스 사내 봉사단 '토스피스', 세계 산림의 날 맞아 우면산 플로깅 진행",
-    "description": "숲의 소중함과 환경 보호의 중요성을 되새기며 지역 환경 정화 활동 실시",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/plogging",
-    "pubDate": "Fri, 21 Mar 2025 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "리눅스 절전 모드 비활성화 - systemd sleep",
-    "description": "리눅스 워크스테이션이나 데스크탑 버전을 설치하면 기본적으로 절전 기능이 활성화 되어있다. 예를 들어 Fedora workstation을 설치했다면 기본으로 절전 기능이 활성화되어있을 것이다. 만일 ssh로 외부에서 접속해서 작업하다가는 아래와 같은 메시지와 함께 절전으로 전환(suspend) 될 수도 있다. 이렇게 절전 모드로 빠지면 외부 접속은 모두 끊긴다.\n$ Broadcast message from gdm@fedora on tty1:\n\nThe system will suspend now!\n이런 문제를 겪지 않으려면 다음과 같이 설정하도록 한다. (관련 매뉴얼 페이지 : systemd-sleep.conf) \n \n1. systemd/sleep.conf 설정 확인\n먼저 현재 설정을 systemd-analyze cat-config systemd/sleep.conf 명령으로 확인해본다.\n$ sudo systemd-analyze cat-config systemd/sleep.conf\n# /etc/systemd/sleep.conf\n#  This file is part of systemd.\n#\n#  systemd is free software; you can redistribute it and/or modify it under the\n#  terms of the GNU Lesser General Public License as published by the Free\n#  Software Foundation; either version 2.1 of the License, or (at your option)\n#  any later version.\n#\n# Entries in this file show the compile time defaults. Local configuration\n# should be created by either modifying this file, or by creating \"drop-ins\" in\n# the sleep.conf.d/ subdirectory. The latter is generally recommended.\n# Defaults can be restored by simply deleting this file and all drop-ins.\n#\n# See systemd-sleep.conf(5) for details.\n\n[Sleep]\n#AllowSuspend=yes\n#AllowHibernation=yes\n#AllowSuspendThenHibernate=yes\n#AllowHybridSleep=yes\n#SuspendMode=\n#SuspendState=mem standby freeze\n#HibernateMode=platform shutdown\n#HibernateState=disk\n#HybridSleepMode=suspend platform shutdown\n#HybridSleepState=disk\n#HibernateDelaySec=\n#SuspendEstimationSec=60min\n위에 보면 모든 값들이 해시문자(#)로 막혀있는데, 이는 기본값을 의미한다. 그 중에 AllowSuspend=yes로 되어있는 부분이 바로 자동 절전 모드이다. 이를 no로 바꾸면 되는데, 편집을 직접하는게 아니라 overriding config를 만드는 방법을 사용하게 된다.\n \n2. AllowSuspend=no 설정 방법\n해당 설정은 관리자인 root 계정으로 명령해야 한다. 먼저 overriding config file을 저장할 디렉토리로 /etc/systemd/sleep.conf.d를 만들어야 한다. 그리고 해당 디렉토리에 넣을 설정 파일을 vi 같은 에디터로 만들어주면 된다. 즉 아래와 같이 명령한다.\nmkdir /etc/systemd/sleep.conf.d\ncd $!\nvi nosuspend.conf\nvi nosuspend.conf 명령어를 실행한 다음에는 아래의 내용을 넣는다. 핵심 설정 부분은 AllowSuspend=no 라는 부분이다.\n[Sleep]\nAllowSuspend=no\nAllowHibernation=no\nAllowSuspendThenHibernate=no\nAllowHybridSleep=no\n설정이 제대로 되었는지 확인하기 위해 systemd-analyze cat-config systemd/sleep.conf 명령을 다시 내려본다. 만일 가장 하단에 /etc/systemd/sleep.conf.d/nosuspend.conf로부터 파일을 읽혀졌다면 제대로 설정된 것이다.\nroot user# systemd-analyze cat-config systemd/sleep.conf\n...생략...\n\n[Sleep]\n#AllowSuspend=yes\n#AllowHibernation=yes\n#AllowSuspendThenHibernate=yes\n#AllowHybridSleep=yes\n#SuspendMode=\n#SuspendState=mem standby freeze\n#HibernateMode=platform shutdown\n#HibernateState=disk\n#HybridSleepMode=suspend platform shutdown\n#HybridSleepState=disk\n#HibernateDelaySec=\n#SuspendEstimationSec=60min\n\n# /etc/systemd/sleep.conf.d/nosuspend.conf\n[Sleep]\nAllowSuspend=no\n...\n해당 설정은 즉시 적용되므로 따로 restart나 reload해줘야 하는 것은 없다. 다만 정 불안하다면 systemctl daemon-reload 명령을 한번 해주면 될 것이다.\n \n히스토리\n2025-03-21 글 작성",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://sunyzero.tistory.com/313",
-    "pubDate": "Fri, 21 Mar 2025 16:43:46 +0900",
-    "creator": "sunyzero",
-    "categories": [
-      "컴퓨터 관련/리눅스(유닉스) 일반",
-      "Fedora",
-      "linux suspend",
-      "systemctl",
-      "systemd sleep",
-      "리눅스 절전 모드 해제",
-      "리눅스 하이버네이션"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Kling AI 로 뽑은 영상 02",
-    "description": "이전글 : https://serverdown.tistory.com/1213\n지난번에 반대로 회전했었고\n화전 반향을 지정해봐야 안먹힌다는 사실을 알았습니다.\n그래서 천천히 움직이라고 추가했고 \n영상이 짧으니 천천히 움직이면 당연히 조금밖에 못움직입니다.\n \n프롬프트\nMove your head slowly.\nBlink your eyes.\nMove your mouth gently.\n천천히 고개를 움직이고\n눈을 깝박이고\n입을 부드럽게 움직여라\n이렇게 적은것입니다.\n결과물\n \n\n\n\n눈을 깜박임이 과하군요 횟수 까지 지정해줘야겠군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1218",
-    "pubDate": "Fri, 21 Mar 2025 01:41:26 +0900",
-    "creator": "이건개발",
-    "categories": [
-      "유튜브"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "데드락 기록 - 2025.03.05",
-    "description": "https://github.com/boyism80/fb/commit/36d155582b85733f95c559f11b5824b025052a96",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.naver.com/boyism/223805433497?fromRss=true&trackingCode=rss",
-    "pubDate": "Sat, 22 Mar 2025 00:19:11 +0900",
-    "creator": "boyism",
-    "categories": [
-      "동기화"
-    ]
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "왜 더 열심히 일하지 않을까",
     "description": "*악플을 쓰시려면, 기분이 태도가 되지 않게 특히 주의 바랍니다. 내가 쓴 악플은 세상 누구도 안 읽을 수도 있지만, 쓰시는 분은 반드시 읽습니다. 이 악플은 남을 향하기 전에 자기 자신에게 먼저 향합니다. 2월에 ‘더 열심히 일하지 않으면’이라는 글을 썼다. 솔직히 나는 그냥 내가 평소에 하던 생각을 그냥 포스팅했는데, 시장에서 꽤 많은 반응이 있었다. 한 달 만에(...)",
@@ -164,7 +46,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 4,
     "imageUrl": "",
     "title": "토스, 자동차보험 비교추천 서비스 2.0 오픈",
     "description": "보험사와 동일한 보험료 안내",
@@ -174,6 +56,129 @@
     "pubDate": "Thu, 20 Mar 2025 02:12:00 GMT",
     "creator": "Unknown",
     "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Introducing Visual Studio Hub",
+    "description": "The Visual Studio Hub is here! Keeping up with the latest Visual Studio updates, features, and resources can feel like a full-time job. We’ve heard it time and time again—you want a simpler way to stay informed without digging through scattered blog posts, release notes, and social media updates. That’s why we created Visual Studio […]\nThe post Introducing Visual Studio Hub appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-hub/",
+    "pubDate": "Mon, 24 Mar 2025 14:44:42 +0000",
+    "creator": "Jacqueline Widdis",
+    "categories": [
+      "Events",
+      "Visual Studio",
+      "News",
+      "Preview Features",
+      "Visual Studio Hub"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Azure 파일 공유에서 리눅스용 연결 스크립트 문제 해결",
+    "description": "Troubleshooting connection scripts for Linux in Azure Files\n최근 (2025년 3월 기준) 스토리지 계정의 파일 공유의 리눅스 연결 스크립트에 문제가 있음을 확인했다 (아래 그림 참조).\n\n\n[문제 및 원인]\n빨간색 상자의 내용과 녹색 상자의 내용 불일치로 파일 공유 마운트 실패.\n마운트용으로 생성한 디렉터리와 mount 명령을 수행할 마운트 포인트의 경로가 다르다. \n \n[솔루션]\n빨간색 상자의 \"media\"를 \"mnt\"로 바꾸거나, 녹색 상자의 \"mnt\"를 \"media\"로 바꿔야 한다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://www.dokyun.pe.kr/360",
+    "pubDate": "Tue, 18 Mar 2025 21:21:40 +0900",
+    "creator": "강철 벼룩",
+    "categories": [
+      "Azure &amp; Windows/Azure",
+      "azure files",
+      "azure storage",
+      "스토리지계정",
+      "파일공유"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Shout-Out to Kotlin for Server-Side Content Creators! ",
+    "description": "If you’re using Kotlin for server-side development and sharing your experiences – whether through blog posts, videos, or sample projects – know that we see you, and we want to highlight your work! Recent picks from the community 📖 [Article] From Java to Kotlin — a practical example of how to convert code – Paul […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/03/shout-out-to-kotlin-for-server-side-content-creators/",
+    "pubDate": "Tue, 18 Mar 2025 13:13:03 +0000",
+    "creator": "Alyona Chernyaeva",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Kodee’s Kotlin Roundup: New Releases, OpenAI vs. DeepSeek, and Compose Hot Reload",
+    "description": "Hi, Kotlin fans! Kodee’s back with another roundup of the latest updates and stories from the Kotlin world. Grab your favorite drink, sit back, and enjoy! Kotlin YouTube spotlight Check out our latest YouTube videos and Shorts – sit back, relax, and enjoy!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/03/kodee-s-kotlin-roundup-new-releases-openai-vs-deepseek-and-compose-hot-reload/",
+    "pubDate": "Mon, 24 Mar 2025 14:55:22 +0000",
+    "creator": "Kodee",
+    "categories": [
+      "news",
+      "kotlin-roundup"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "SUI MOVE 로 서비스를 개발해보자 01",
+    "description": "2022년엔 크레이튼으로 개발하다 망한적이 있어서 \n망하지 않을 좋은 걸로 골랐습니다. \n앱토스도 MOVE 를 이용하긴하는데 차트를 보니 수이가 강하네요\n \n업그레이드가 가능하다.\n\n\n문서: https://docs.sui.io/concepts/sui-move-concepts/packages\nMOVE 는 업그레이드가 가능하다고 홍보하고 있습니다.\n이것 만으로도 어마어마한것입니다.\n진짜라면 좋겠군요\n이더리움때도 언어를 아주 꼬아가지고 억지로 되긴 했었지만\n(이정도면 거의 미래를 예측하는 수준이라 안된다고 봐야겠지요.)\n \n \n따라 해보기 문서\n링크: https://docs.sui.io/guides/developer/getting-started\n\n \nGetting Started | Sui Documentation\nSui is the first internet-scale programmable blockchain platform. That might read like marketing speak, but as you peruse the documentation to understand the technology, you will discover that Sui addresses many of the problems that hold blockchains back f\ndocs.sui.io\n\n \n목표\n1. 가위바위보 게임 개발 <-- 진행중\n2. NFT 자판기 개발\n3. 게임에 연동\n(매번 하는 식으로 목표를 정했습니다.)\n \n개발환경 세팅\n \nchoco 설치\n윈도우즈 개발자는 choco 를\nmac 이나 리눅스는 brew 를 사용한다는군요\n \n1. choco 사이트 이동: https://chocolatey.org/\n2. 우측 상단에  Try It Now 클릭\n3. step1 은 넘어갑니다. 하단에 Take The Install~~ 클릭\n4. 상단에 설치 방법은 잘모르니 Basic ~~ \n5. 설치 명령어를 알려줍니다. 복사해서 cmd 창 열여서 돌립니다.\n \nchoco 설치 방법\n여러번의 실패 끝에 설치했습니다.\n- cmd 창은 관리자 권한으로 열어야합니다.\n- C:\\ProgramData\\chocolatey 폴더를 삭제해야합니다. \n- C:\\Users\\gunil\\AppData\\Local\\Temp\\chocolatey 폴더 안에 비어있어야합니다.\n이 다음 실행하면 설치가 성공했습니다.\n \n \n6. choco install sui 로 sui 설치\n\n\n이미 설치되어있다는군요 ㄷㄷ\nbasic 에 포함되어있나봅니다.\n\n\nsui --version 치면\nsui 1.45.0-3ef5cc5b5c90\n버전도 나오네요 설치는 끝났나봅니다.\n\n\n끝난 다음엔 코인 개발 기본 루트를 탈 수 있는거 같습니다.\n다음글: https://serverdown.tistory.com/1222",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1221",
+    "pubDate": "Sat, 22 Mar 2025 02:49:53 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모",
+      "Move",
+      "Sui",
+      "수이"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "vercel 처음 써보고 분노한 개발자 사용기 / 배포 deploy / setInterval 안됨",
+    "description": "vercel 에서 express 나 웹소켓 서버를 공짜로 띄워볼 수 있다고 해서 만져봤는데 ...\n지옥의 시간으로 변했습니다.\n6시간째 배포를 못해서 해보고 있었으며\n결과도 내가 원했던 것은 안되었다.\n- 서버 내부에서 setInterval\n- 웹소켓 버서\n- rest api 는 가능했습니다. 만 firebase 쓰면 되니 의미 없음\n그래서 이 글은 분노한 개발자의 사용기 입니다.\n \nvercel 에서는 next.js 로 배포를 할 수 있는데 next.js 는 프론트엔드 백엔드가 다 통합되어있다고 들었다. \n(처음 써본다.)\n어차피 웹소켓으로 실시간 통신만 공짜로 할 수 있으면 장땡이였다.\n영상: https://www.youtube.com/watch?v=E8xaV6fiTaA\n\n\n\n \n이 영상을 보면 가입부터 github 연결 배포 까지 끝내고 있다.\n내용안에는 vercel 은 git 에 push 만하면 최신 빌드를 하는 배포 시스템이 있다고 했다.\n클라우드 플레이어도 그런식이라 적응이 쉬울줄 알았다.\n그러나 ...\n자동빌드가 엄청 띄엄띄엄 되는거 같다\n거의 1시간 후에 다시보니 \"바꼈있더라\" 느낌\n즉시 되는건줄 알고 \"왜 안되지를 외치며\" 몇시간을 낭비했다.\n진전된건 없었고 누웠다 일어나 다시 와보니 배포되어있었다.\n너무나 허무했다.\n결국 알아낸것은 명령어를 통해 수동 배포가 가능하다는 것을 알았다.\n관리페이지에는 배포 버튼이 없기 때문에 페이지를 보는데 너무 시간을 많이 써서\n지금은 녹초가 되어버렸다. 아무것도 하기 싫다.\n \n명령어로 배포하기\n문서: https://vercel.com/docs/cli/link\n\n \nvercel link\nLearn how to link a local directory to a Vercel Project using the vercel link CLI command.\nvercel.com\n\n \nfirebase 처럼 vercel deploy 하면 된다. 그전에\nvercel login\n소유자임을 확인해야하니 로그인 해야겠죠\nvercel link\n이미 받아둔 소스폴더를 vercel project 와 연결시켜주어야한다.\n이 작업이 끝나면 배포할 수 있다.\nvercel deploy\n빌드하는동안 프리뷰 페이지를 볼 수 있는데\n로그인한 브라우저에서 보여진다. 특이하고 불편하다.\n \n이제 rest api 서버와 웹소켓이 가능한지 확인해야겠다.\n하지만 오늘은 아무것도 하기 싫다.\n정말 시간아깝다.\n \n \nvercel dashboard 로 가면 최근 배포된것에 대한 내용이 나온다.\n\n\n자기전에 v4 를 push 했다.\n내일 보면 배포되어있으려나 ...\n \n웹소켓 서버를 돌릴 수는 없다.\n웹소켓 서버를 돌릴 수 있는줄 알았으나...\n\n\n문서 링크: https://socket.io/how-to/use-with-nextjs\n안된다고 문서에 적혀있네요 시간 낭비였습니다.\n \nRES API 응답은 가능\nrest api 가 가능한지 확인해야겠군요\n그런데 firebase 쓰면되는데 ...  \n아 시간 아까워\n하루종인 시간들여서 안된다는걸 배웠군요\n \ndeploy 랑 출시는 다르다.\n제일 짜증나는 계념인데요\ndeploy 한다고 다른 유저가 볼 수 있는게 아닙니다.\n다시 production 이라는 과정을 거쳐야합니다.\nvercel 에서 접속되는 페이지는 preview 라고 해서 권한 있는 사람들만 볼 수 있는 페이지 입니다.\n빌드마다 주소도 다르구요\n개발자랑 테스트하는 사람이 분리된 큰 프로젝트라면 모를까\n배포하기에 한두 단계가 있으면 너무 불편합니다.\n출시 과정\n대시보드로 가면 최근 프리뷰 정보가 표시됩니다.\n\n\n여기서 이상한곳을 클리하면 안되고 내모로 표시된 커밋 코드를 눌러야합니다.\n(불편)\n다른곳을 누르면 다른 페이지로 가니 주의\n \n\n\n배포 세부 정보창이 뜨는데 [...] 버튼을 누릅니다.\n참고로 이페이지는 창크기가 작으면 버튼의 위치가 바뀌니\n창크기를 잘 조절하세요\n(개 불편)\n\n\n출시 로 승급해줘야합니다. \n(자동으로 좀 해달라고)\n엄청 번거롭습니다.\n저는 도메인을 연결해뒀는데요\n도메인이 없으면 어떤 주소로 나오는지 잘 모르겠네요\n(vercel 은 불편해야하니까 접속할 주소를 안줄 수도 있을꺼 같군요)\n출시 링크: next.sidnft.com/\n내부 카운터 있는 API: next.sidnft.com/api/hello\nsetInterval 이 들어있는 API: next.sidnft.com/api/hello2 \n내부 카운터가 있는 api 호출할때마다 변수를 ++ 해줬습니다.\n1분정도 안쓰면 서버가 내려갔다 올라오는지\n변수값이 날아갔습니다.\n이것도 사용 못하겠군요\nsetInterval 로 서버 내부는 실시간으로 동작하는가 테스트 해봤는데\n안되었습니다. 호출할때 살아나서 잡시 업데이트 돌고 멈추는거 같았습니다.\n이러니 웹소켓이 안되는거 같습니다. \n성능 때문에 서버 속도를 제어하는거 같습니다.\n \n결론\n더이상은 확인안해보도 될꺼 같군요\nheroku 로 넘어가겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1217",
+    "pubDate": "Thu, 20 Mar 2025 23:32:53 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "유니티 애셋 / Block Blast / 데모게임 / 유",
+    "description": "영상: https://www.youtube.com/watch?v=LYECrh_MYOw&t=55s\n\n\n\n \n유니티 애셋 스토어 링크: https://assetstore.unity.com/packages/templates/packs/blast-puzzle-template-editor-313175\n\n \nBlast Puzzle | Template + Editor | 패키지 | Unity Asset Store\nUse Blast Puzzle | Template + Editor from Watermelon Games to elevate your next project. Find this & more 패키지 and templates on the Unity Asset Store.\nassetstore.unity.com\n\n \n비싸긴한데 카피게임 올리기엔 쉽겠군요\n거의 비슷하군요\n기억해 둬야겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1214",
+    "pubDate": "Wed, 19 Mar 2025 10:58:49 +0900",
+    "creator": "이건개발",
+    "categories": [
+      "프로그래밍/유니티 에셋 리뷰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Sign Up for the free Pure Virtual C++ 2025 Conference",
+    "description": "Every year we run Pure Virtual C++: a free one-day virtual conference for the whole C++ community. Next month we’re doing it again! Sign-up for free to get access to our five live sessions and a host of pre-conference content. The live event will start at April 30th 14:00 UTC. Videos will be available to […]\nThe post Sign Up for the free Pure Virtual C++ 2025 Conference appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/sign-up-for-the-free-pure-virtual-c-2025-conference/",
+    "pubDate": "Fri, 21 Mar 2025 11:34:23 +0000",
+    "creator": "Sy Brand",
+    "categories": [
+      "Announcement",
+      "Pure Virtual C++"
+    ]
   },
   {
     "id": 13,
@@ -197,33 +202,41 @@
   {
     "id": 14,
     "imageUrl": "",
-    "title": "선을 긋기",
-    "description": "이 공간을 통해서도 과거에 몇 번 글을 쓴 적이 있는데, 내가 2012년에 스트롱을 시작하고 첫 2년 동안 투자자로서 가장 스트레스를 많이 받았던 건, 우리가 투자한 회사의 창업가보다 내가 그 사업에 대해서 더 많이 알고, 내가 그 사업을 하면 더 잘할 수 있을 것 같은데, 대표가 항상 내 생각과 말과 다르게 생각하고 행동할 때였다. 아마도 이걸(...)",
+    "title": "vercel 로 express 를 배포해보자 / 유니티 webgl 압축 지원하는 페이지를 배포 가능",
+    "description": "과거\nvercel 불편하다고 징징한 글을 올렸었는데요\n과거의 징징글: vercel 처음 써보고 분노한 개발자 사용기 / 배포 deploy / setInterval 안됨\n새로운 가능성을 찾았다.\n투자한 시간이 아까워 더 찾아봤습니다.\nexpress 를 배포할 수 있다는 것을 알았습니다.\nexpress 가 되면 할 수 있는게 매우 많아지는데\n그중에 unity webgl 압축을 처리할 수 있어서 50mb 정도의 빌드를 15mb 정도로 줄일 수 있습니다.\n즉 전체를 unity webgl 발라도 부담스럽지 않은 사이트를 가질 수 있게 됩니다.\n그래서  해보니 되었습니다.\n데모: Unity Web Player | Add Force 1\n이제 vercel 을 극찬해야할꺼 같습니다.\n \n따라하기 영상: https://www.youtube.com/watch?v=3IV60HVsW2M&t=17s\n\n\n\n \n다른 설명 영상보다 이 영상이 가장 정확했습니다.\n구독자가 7명에 활동을 중지한 채널 같습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/03/where-to-draw-the-line.html",
-    "pubDate": "Wed, 19 Mar 2025 21:33:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://serverdown.tistory.com/1225",
+    "pubDate": "Mon, 24 Mar 2025 12:49:31 +0900",
+    "creator": "이건개발",
     "categories": [
-      "Uncategorized",
-      "inspiring",
-      "people",
-      "Strong",
-      "vc"
+      "프로그래밍/개발메모",
+      "unity",
+      "WebGL"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Kotlin 2.1.20 Released",
-    "description": "The Kotlin 2.1.20 release is out! This version includes performance improvements and bug fixes for Kotlin 2.1.0. Here are some highlights from this release: For the complete list of changes, refer to What’s new in Kotlin 2.1.20 or the release notes on GitHub. How to install Kotlin 2.1.20 Starting from IntelliJ IDEA 2023.3 and Android […]",
+    "title": "카카오, 다음과 결별하다! 티스토리의 앞날은? 티스토리의 미래 3부작 (1부)",
+    "description": "카카오가 다음(Daum)을 분사하면서, 티스토리(Tistory)의 미래도 불투명해지고 있습니다. 티스토리는 다음 소속으로 가게 될까, 아니면 카카오가 계속 운영할까? 블로거들이 대비해야 할 변화와 생존 전략을 살펴봅니다.\n\n\n \n얼마 전, 카카오가 포털 서비스 ‘다음(Daum)’을 분사한다고 발표했습니다. 이로 인해 다음과 함께 운영되던 블로그 플랫폼, 티스토리의 미래도 불확실해졌습니다. \n \n다음이 독립하면 티스토리가 다음과 함께 가는 것인지,아니면 카카오가 유지하는 것인지에 따라 블로거들에게 미치는 영향이 크게 달라질 것입니다. 그렇다면, 티스토리는 어디로 향하게 될까요?\n \n  카카오와 다음의 분사, 왜 일어났을까?\n1️⃣ 다음, 한때 ‘국민 포털’에서 잊힌 존재로\n다음은 2000년대 초반만 해도 네이버보다 먼저 시장을 선점한 강력한 포털이었습니다.\n한메일(Hanmail), 다음 카페, 블로그 등을 통해 커뮤니티 중심의 서비스를 제공하며 많은 사용자층을 확보했죠.\n하지만, 2010년대 이후 네이버의 통합 검색과 구글의 부상으로 인해 점유율이 계속 하락했습니다.\n2024년 2월 기준, 다음의 국내 검색 시장 점유율은 2.72%로 네이버(약 60%)와 구글(약 40%)에 크게 밀린 상태입니다.\n2️⃣ 카카오는 왜 다음을 버릴까?\n카카오는 이제 포털보다 ‘AI’와 ‘카카오톡’ 중심의 전략을 펼치고 있습니다.\n카카오 대표인 정신아는 “카톡과 AI가 핵심 사업이며, 관련 없는 분야는 정리하겠다”고 밝혔습니다.\n즉, 검색과 포털 사업이 카카오의 핵심이 아니게 되었고,\n경영 효율화를 위해 다음을 떼어내는 것이 불가피한 선택이었던 것입니다.\n  그렇다면, 티스토리는 어떻게 될까요?\n\n \n다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지\n한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제\nmuzbox.tistory.com\n\n \n \n  티스토리의 미래, 다음이 가져갈까? 카카오가 유지할까?\n티스토리는 원래 다음이 2007년에 인수한 블로그 서비스입니다.\n이후 다음-카카오 합병으로 인해 카카오 소속이 되었지만,\n검색 점유율이 떨어지면서 점점 홀대받아 온 것이 사실입니다.\n이번 분사 결정으로 티스토리가 다음으로 가게 될지, 아니면 카카오가 유지할지가 최대 관건입니다.\n  시나리오 1: 티스토리가 ‘다음’ 소속이 된다면?\n✅ 가능한 변화:\n다음 검색과의 연계 강화 → 티스토리 블로그가 다음 검색에서 우선 노출될 가능성\n검색 최적화(SEO) 기능 개선 → 네이버 블로그와 경쟁하기 위한 전략 추진\n❌ 위험 요소:\n다음 자체의 점유율이 낮아 티스토리 트래픽이 오히려 감소할 수도 있음\n다음이 독립 법인으로 성공하지 못하면, 티스토리도 불안정해질 가능성\n  결론:\n  다음이 티스토리를 가져간다면 검색 노출을 강화하려 할 가능성이 크지만,\n  다음 자체의 점유율이 낮아 블로그 트래픽 확보가 어려울 수 있다.\n \n  시나리오 2: 티스토리를 ‘카카오’가 유지한다면?\n✅ 가능한 변화:\n카카오의 AI 검색과 연계 → 카카오톡, 브런치, 카카오뷰와 통합될 가능성\n유료화 가능성 증가 → 워드프레스처럼 유료 블로그 모델 도입 가능\n❌ 위험 요소:\n카카오가 티스토리에 대한 관심이 크지 않다면, 방치될 가능성도 있음\n카카오뷰·브런치에 흡수될 경우, 기존 블로그 방식이 사라질 수도 있음\n  결론:\n  카카오가 유지한다면, 티스토리는 검색보다는 ‘콘텐츠 플랫폼’으로 변할 가능성이 크다.\n  유료화될 경우, 블로거들의 비용 부담이 커질 수 있다.\n \n \n  블로거들이 지금 준비해야 할 것!\n티스토리가 어디로 가든, 블로거들은 대비해야 합니다.\n트래픽과 수익을 유지하려면 지금부터 대체 전략을 고민해야 합니다.\n✅ 1️⃣ 검색 트래픽 변화 대비하기\n티스토리가 다음 소속이 된다면, 구글 SEO 최적화가 더 중요해짐\n카카오가 유지한다면, 카카오톡 및 카카오뷰 활용이 중요\n✅ 2️⃣ 블로그 백업 및 데이터 관리 필수\n백업을 정기적으로 진행해 만일의 사태에 대비하기\n티스토리가 급격히 변화할 경우, 빠르게 대체 플랫폼으로 이동할 준비\n✅ 3️⃣ 대체 블로그 플랫폼 고려하기\n티스토리가 변할 경우를 대비해, 다른 블로그 플랫폼을 미리 알아두는 것도 중요합니다.\n  티스토리를 계속 사용할지, 떠날지는 상황을 보면서 신중하게 결정해야 합니다.\n \n \n  마무리: 티스토리, 변화 속에서 살아남을 수 있을까?\n카카오와 다음의 결별로 인해 티스토리는 변화를 피할 수 없습니다.\n다음과 함께 독립하든, 카카오가 유지하든, 기존 블로거들에게 미치는 영향은 상당할 것입니다.\n✅ 티스토리가 검색 최적화로 가든, 콘텐츠 플랫폼으로 변화하든, 블로거들은 유입 전략을 다시 짜야 합니다.\n✅ 유료화 가능성, 검색 노출 변화, 플랫폼 통합 여부 등을 면밀히 주시해야 합니다.\n✅ 무엇보다, 백업과 대체 플랫폼을 준비하는 것이 가장 중요한 생존 전략이 될 것입니다.\n❓ Q&A\nQ1. 카카오가 다음을 분사한 이유는 무엇인가요?\nA. 카카오는 AI와 카카오톡 중심의 전략을 추진하면서, 검색·포털 사업이 핵심이 아니라고 판단했습니다. 다음의 검색 점유율이 2.72%로 급락하면서, 독립 운영이 더 효율적이라는 결론을 내렸습니다.\nQ2. 티스토리는 다음과 함께 가나요, 아니면 카카오가 유지하나요?\nA. 아직 확정되지 않았지만, 다음과 함께 독립할 경우 검색 최적화 전략을 강화할 가능성이 크고, 카카오가 유지하면 브런치·카카오뷰와 결합되면서 콘텐츠 플랫폼으로 변화할 수 있습니다.\nQ3. 티스토리 블로거들은 지금 무엇을 준비해야 할까요?\nA. 검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\nQ4. 티스토리가 유료화될 가능성이 있나요?\nA. 카카오가 티스토리를 유지한다면, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"카카오가 다음을 분사한 이유는 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오는 AI와 카카오톡 중심의 전략을 추진하면서, 검색·포털 사업이 핵심이 아니라고 판단했습니다. 다음의 검색 점유율이 2.72%로 급락하면서, 독립 운영이 더 효율적이라는 결론을 내렸습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리는 다음과 함께 가나요, 아니면 카카오가 유지하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 확정된 것은 없지만, 다음이 티스토리를 운영할 경우 검색 최적화 전략을 강화할 가능성이 크며, 반면 카카오가 유지하면 브런치·카카오뷰와 통합될 가능성이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리 블로거들은 지금 무엇을 준비해야 할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 유료화될 가능성이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오가 티스토리를 유지할 경우, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/03/kotlin-2-1-20-released-2/",
-    "pubDate": "Thu, 20 Mar 2025 11:59:00 +0000",
-    "creator": "Daniel Csorba",
+    "link": "https://muzbox.tistory.com/483557",
+    "pubDate": "Thu, 20 Mar 2025 10:57:22 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "releases"
+      "NEWS/IT 뉴스",
+      "다음 분사",
+      "블로그 플랫폼",
+      "카카오 다음 관계",
+      "카카오 티스토리",
+      "티스토리 SEO",
+      "티스토리 검색 노출",
+      "티스토리 대체",
+      "티스토리 미래",
+      "티스토리 블로거 대비",
+      "티스토리 유료화"
     ]
   }
 ]
