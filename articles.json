@@ -2,63 +2,104 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "C++ Dynamic Debugging: Full Debuggability for Optimized Builds",
-    "description": "Over the past 5 years, we’ve had many incredible opportunities to engage with game developers. From AAA studios to indie developers, the passion for slashing iteration times is significant. Amidst all the fantastic feedback we’ve received for Visual Studio, one sentiment has rung loud and clear: a desire to debug optimized C++ code without sacrificing […]\nThe post C++ Dynamic Debugging: Full Debuggability for Optimized Builds appeared first on C++ Team Blog.",
+    "title": "코루틴 Dispatchers.IO로 블록킹 문제 해결하기",
+    "description": "Kotlin 코루틴의 Dispatchers.IO를 활용하면 블록킹 I/O 문제를 극복하고, 병렬 처리로 애플리케이션의 성능과 반응성을 크게 향상시킬 수 있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/cpp-dynamic-debugging-full-debuggability-for-optimized-builds/",
-    "pubDate": "Wed, 19 Mar 2025 18:33:52 +0000",
-    "creator": "David Li",
+    "link": "https://cheese10yun.github.io/coroutine-io/",
+    "pubDate": "Sun, 23 Mar 2025 15:00:00 GMT",
+    "creator": "Unknown",
     "categories": [
-      "C++",
-      "Game Development",
-      "debugging",
-      "Optimized Builds"
+      {
+        "_": "Coroutines",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/Coroutines/"
+        }
+      }
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "토스플레이스, 사장님 고객 확보 비법 전수…무료 웨비나 성료",
-    "description": "손님 유치 실전 전략 강연 제공으로 만족도 4.5점 기록",
+    "title": "열 살 토스가 받은 편지 ",
+    "description": "토스 10주년에 41만 개의 축하 메시지가 도착했어요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/Tossplacewebinar",
-    "pubDate": "Thu, 20 Mar 2025 01:00:00 GMT",
+    "link": "https://blog.toss.im/article/messages-from-users",
+    "pubDate": "Mon, 24 Mar 2025 01:30:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "왜 더 열심히 일하지 않을까",
-    "description": "*악플을 쓰시려면, 기분이 태도가 되지 않게 특히 주의 바랍니다. 내가 쓴 악플은 세상 누구도 안 읽을 수도 있지만, 쓰시는 분은 반드시 읽습니다. 이 악플은 남을 향하기 전에 자기 자신에게 먼저 향합니다. 2월에 ‘더 열심히 일하지 않으면’이라는 글을 썼다. 솔직히 나는 그냥 내가 평소에 하던 생각을 그냥 포스팅했는데, 시장에서 꽤 많은 반응이 있었다. 한 달 만에(...)",
+    "title": "Kotlin 2.1.20 Released",
+    "description": "The Kotlin 2.1.20 release is out! This version includes performance improvements and bug fixes for Kotlin 2.1.0. Here are some highlights from this release: For the complete list of changes, refer to What’s new in Kotlin 2.1.20 or the release notes on GitHub. How to install Kotlin 2.1.20 Starting from IntelliJ IDEA 2023.3 and Android […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/03/korea-needs-to-work-harder-and-longer.html",
-    "pubDate": "Sun, 23 Mar 2025 21:25:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://blog.jetbrains.com/kotlin/2025/03/kotlin-2-1-20-released-2/",
+    "pubDate": "Thu, 20 Mar 2025 11:59:00 +0000",
+    "creator": "Daniel Csorba",
     "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "general",
-      "korea"
+      "releases"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "토스, 자동차보험 비교추천 서비스 2.0 오픈",
-    "description": "보험사와 동일한 보험료 안내",
+    "title": "멀티플랫폼 문서를 관리하는 한 가지 방법, 싱글 소싱",
+    "description": "안녕하세요. LINE Plus Tech Content Strategy 팀 하성창입니다. 저희 팀은 테크니컬 라이터로 구성돼 있으며, LINE Plus에서 개발한 다양한 플랫폼의 기...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/carinsurance2",
-    "pubDate": "Thu, 20 Mar 2025 02:12:00 GMT",
+    "link": "https://techblog.lycorp.co.jp/ko/single-sourcing-for-multi-platform-documentation",
+    "pubDate": "Mon, 24 Mar 2025 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "티스토리 유료화된다면? 블로거들이 꼭 알아야 할 변화와 대응법 - 티스토리의 미래 3부작 (2부)",
+    "description": "티스토리가 유료화된다면, 블로거들에게 어떤 변화가 있을까요?\n무료 플랜과 유료 플랜이 도입될 가능성을 분석하고, 블로거들이 어떻게 대비해야 할지 실질적인 전략을 제공합니다.\n\n\n \n\"티스토리가 유료화되면, 블로그 운영을 계속할 수 있을까?\"\n \n최근 카카오가 다음을 분사를 결정하면서, 티스토리의 미래도 불투명해지고 있습니다.\n네이버 블로그, 브런치 등 경쟁 플랫폼과 차별성을 유지하려면,\n티스토리도 워드프레스처럼 유료 모델로 전환할 가능성이 있다는 전망이 나오고 있습니다.\n \n✅ 무료 & 유료 모델이 도입될까?\n✅ 어떤 방식으로 유료화될 가능성이 있을까?\n✅ 블로거들은 어떻게 대비해야 할까?\n \n티스토리가 유료화될 경우 예상되는 변화와 대응 전략을 분석해 보겠습니다.\n \n \n  티스토리, 왜 유료화 가능성이 거론될까?\n지금까지 티스토리는 무료 블로그 플랫폼으로 운영되어 왔습니다.\n그런데 카카오가 티스토리를 계속 운영할 경우, 수익 모델 강화를 위해 유료화할 가능성이 높아지고 있습니다.\n1️⃣ 카카오는 티스토리를 수익화해야 한다\n네이버 블로그는 네이버 검색과 통합되어 광고 수익을 창출\n워드프레스는 독립 블로그 운영 + 유료 플랜 도입으로 수익 모델 구축\n반면 티스토리는 광고 플랫폼으로서 경쟁력이 약해지고 있음\n  검색 트래픽이 줄어드는 상황에서, 티스토리는 새로운 수익 구조를 찾아야 합니다.\n2️⃣ 카카오는 콘텐츠 사업을 강화하고 있다\n카카오 브런치는 작가 중심의 프리미엄 콘텐츠 플랫폼\n카카오뷰는 큐레이션 서비스로 광고 수익을 창출\n티스토리도 단순 블로그가 아니라, 콘텐츠 수익 모델을 도입할 가능성 높음\n  즉, 티스토리는 기존 블로그 방식을 유지하기보다는, 새로운 방식의 유료 서비스로 전환될 수 있습니다.\n \n  티스토리가 유료화된다면, 어떤 방식이 될까?\n티스토리가 유료 모델을 도입한다면, 3가지 시나리오가 예상됩니다.\n  1) 무료 & 유료 플랜 병행 모델 (가장 가능성 높음)\n✅ 무료 플랜:\n기존 티스토리 블로그 운영 가능\n광고 포함 (애드센스 사용 제한 가능성)\n기능 일부 제한 (예: SEO 설정, 고급 테마 사용 불가)\n✅ 유료 플랜:\n광고 제거 옵션 제공\nSEO 최적화 기능 제공 (검색 노출 강화 기능 추가)\n고급 테마 지원 및 블로그 디자인 커스터마이징 가능\n개별 도메인 연결 가능\n  가능성이 높은 이유:\n  네이버 블로그는 애드센스 적용이 불가능하지만, 티스토리는 수익형 블로그 모델을 유지해야 함\n  카카오 입장에서 무료 사용자를 유지하면서, 고급 기능을 원하는 블로거들에게 유료 플랜을 제공하는 것이 현실적\n \n  2) 완전 유료화 (독립 블로그 플랫폼 전환)\n✅ 독립 블로그 운영 (호스팅 기반 모델)\n블로그를 직접 운영할 수 있도록, 월별 요금제 기반으로 제공\n워드프레스처럼 호스팅 방식으로 전환\n사용자들이 직접 블로그를 관리하고, 자체 서버 및 트래픽 비용을 부담\n❌ 위험 요소:\n블로거들의 이탈 가능성이 커짐\n유지 비용이 증가하면서, 초보 블로거들이 접근하기 어려워짐\n현재 카카오의 방향성과 일치하지 않을 가능성이 있음\n  가능성이 낮은 이유:\n  완전 유료화할 경우, 기존 블로거들의 대량 이탈이 발생할 수 있음\n  카카오는 플랫폼 기반 광고 수익을 원하기 때문에, 무료 사용자도 필요함\n \n  3) 프리미엄 콘텐츠 모델 (브런치 스타일 도입)\n✅ 블로그 기반 유료 콘텐츠 판매 기능 추가\n일부 글을 유료로 제공 (구독 모델 도입 가능성)\n크리에이터 지원 프로그램과 연계\n카카오페이와 연계하여 후원 및 구독 결제 기능 도입 가능\n❌ 위험 요소:\n기존 무료 블로그와의 차별성이 약해질 수 있음\n네이버 블로그 및 워드프레스와의 차별화 전략이 필요함\n  가능성이 있는 이유:\n  브런치와 유사한 방식으로, 티스토리를 프리미엄 블로그로 변화시키려 할 수도 있음\n \n \n  블로거들은 어떻게 대비해야 할까?\n✅ 1️⃣ 유료화 대비, 블로그 수익 모델 점검하기\n애드센스를 사용 중이라면, 무료 플랜에서 계속 허용될지 확인 필요\nSEO 기능이 제한될 가능성이 있으므로, 구글 검색 최적화를 미리 강화\n✅ 2️⃣ 티스토리 백업 및 마이그레이션 준비\n만약 유료화가 부담된다면, 워드프레스(독립 블로그), 네이버 블로그 등 대체 플랫폼 검토 필요\n블로그 데이터를 주기적으로 백업하여, 필요할 경우 다른 플랫폼으로 이전할 준비\n✅ 3️⃣ 대체 플랫폼 비교 분석\n플랫폼\n특징\n장점\n단점\n\n\n\n\n네이버 블로그\n네이버 검색 최적화\n트래픽 확보 쉬움\n애드센스 불가\n\n\n브런치 (카카오)\n프리미엄 콘텐츠\n브랜드 구축 가능\n광고 수익 불가\n\n\n워드프레스\n독립 운영 가능\n애드센스·광고 가능\n유지 비용 발생\n\n\n\n  티스토리를 계속 유지할지, 대체 플랫폼으로 이동할지는 유료화 방식에 따라 결정해야 합니다.\n \n  마무리: 티스토리, 유료화될까? 블로거들은 어떻게 준비해야 할까?\n✅ 티스토리는 네이버 블로그, 워드프레스와 차별화하기 위해 유료 모델을 도입할 가능성이 있다.\n✅ 가장 현실적인 시나리오는 ‘무료 & 유료 플랜 병행 모델’로, 광고 제거 및 SEO 강화 옵션을 제공하는 방식이 될 가능성이 크다.\n✅ 블로거들은 지금부터 블로그 데이터를 백업하고, SEO 최적화를 강화하면서 유료화에 대비해야 한다.\n  티스토리가 유료화될 경우, 블로거들이 생존할 방법을 미리 준비해야 합니다!\n \n \n\n \n다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지\n한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제\nmuzbox.tistory.com\n\n \n\n \n카카오, 다음과 결별하다! 티스토리의 앞날은? 티스토리의 미래 3부작 (1부)\n카카오가 다음(Daum)을 분사하면서, 티스토리(Tistory)의 미래도 불투명해지고 있습니다. 티스토리는 다음 소속으로 가게 될까, 아니면 카카오가 계속 운영할까? 블로거들이 대비해야 할 변화와 생\nmuzbox.tistory.com\n\n \n❓ Q&A\nQ1. 티스토리가 유료화될 가능성이 있나요?\nA. 카카오가 티스토리를 유지할 경우, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\nQ2. 유료화된다면 어떤 방식으로 진행될까요?\nA. 무료 플랜과 유료 플랜이 병행될 가능성이 높습니다. 무료 플랜은 광고 포함, 기능 일부 제한이 있을 수 있으며, 유료 플랜에서는 광고 제거, SEO 최적화, 고급 테마 지원 등의 기능이 추가될 수 있습니다.\nQ3. 티스토리 블로거들은 유료화에 어떻게 대비해야 하나요?\nA. 검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\nQ4. 티스토리가 완전 유료화될 가능성도 있나요?\nA. 완전 유료화될 가능성은 낮지만, 독립 블로그 호스팅 방식으로 전환될 경우 일정 비용이 필요할 수도 있습니다. 하지만 기존 사용자의 대량 이탈을 막기 위해 무료 모델도 유지될 가능성이 큽니다.\nQ5. 유료화되면 대체할 수 있는 블로그 플랫폼은 어떤 것이 있나요?\nA. 대체 플랫폼으로는 네이버 블로그(검색 최적화), 브런치(프리미엄 콘텐츠), 워드프레스(독립 블로그 운영 가능) 등이 있습니다. 블로그의 성격과 목표에 따라 적합한 플랫폼을 선택하는 것이 중요합니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 유료화될 가능성이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오가 티스토리를 유지할 경우, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"유료화된다면 어떤 방식으로 진행될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"무료 플랜과 유료 플랜이 병행될 가능성이 높습니다. 무료 플랜은 광고 포함, 기능 일부 제한이 있을 수 있으며, 유료 플랜에서는 광고 제거, SEO 최적화, 고급 테마 지원 등의 기능이 추가될 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리 블로거들은 유료화에 어떻게 대비해야 하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 완전 유료화될 가능성도 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"완전 유료화될 가능성은 낮지만, 독립 블로그 호스팅 방식으로 전환될 경우 일정 비용이 필요할 수도 있습니다. 하지만 기존 사용자의 대량 이탈을 막기 위해 무료 모델도 유지될 가능성이 큽니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"유료화되면 대체할 수 있는 블로그 플랫폼은 어떤 것이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"대체 플랫폼으로는 네이버 블로그(검색 최적화), 브런치(프리미엄 콘텐츠), 워드프레스(독립 블로그 운영 가능) 등이 있습니다. 블로그의 성격과 목표에 따라 적합한 플랫폼을 선택하는 것이 중요합니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483558",
+    "pubDate": "Fri, 21 Mar 2025 08:34:34 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "NEWS/IT 뉴스",
+      "블로그 마이그레이션",
+      "블로그 유료 모델",
+      "카카오 다음 분사",
+      "티스토리 SEO",
+      "티스토리 광고 정책",
+      "티스토리 대체 플랫폼",
+      "티스토리 미래",
+      "티스토리 애드센스",
+      "티스토리 워드프레스",
+      "티스토리 유료화"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "How to Choose the Right LLM",
+    "description": "JetBrains AI Assistant is now multimodel! This is an exciting development, but what does it actually mean for you? It means AI Assistant is now more adaptable. It combines the strengths of different AI models, from the deep reasoning of large ones to the speed of compact ones, and even the privacy of local ones.  […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/03/how-to-choose-the-right-llm/",
+    "pubDate": "Mon, 24 Mar 2025 12:57:15 +0000",
+    "creator": "Irina Mariasova",
+    "categories": [
+      "ai-assistant",
+      "jetbrains-ai",
+      "ai-assistance",
+      "llm",
+      "llms"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "Introducing Visual Studio Hub",
     "description": "The Visual Studio Hub is here! Keeping up with the latest Visual Studio updates, features, and resources can feel like a full-time job. We’ve heard it time and time again—you want a simpler way to stay informed without digging through scattered blog posts, release notes, and social media updates. That’s why we created Visual Studio […]\nThe post Introducing Visual Studio Hub appeared first on Visual Studio Blog.",
@@ -76,167 +117,138 @@
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Azure 파일 공유에서 리눅스용 연결 스크립트 문제 해결",
-    "description": "Troubleshooting connection scripts for Linux in Azure Files\n최근 (2025년 3월 기준) 스토리지 계정의 파일 공유의 리눅스 연결 스크립트에 문제가 있음을 확인했다 (아래 그림 참조).\n\n\n[문제 및 원인]\n빨간색 상자의 내용과 녹색 상자의 내용 불일치로 파일 공유 마운트 실패.\n마운트용으로 생성한 디렉터리와 mount 명령을 수행할 마운트 포인트의 경로가 다르다. \n \n[솔루션]\n빨간색 상자의 \"media\"를 \"mnt\"로 바꾸거나, 녹색 상자의 \"mnt\"를 \"media\"로 바꿔야 한다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://www.dokyun.pe.kr/360",
-    "pubDate": "Tue, 18 Mar 2025 21:21:40 +0900",
-    "creator": "강철 벼룩",
-    "categories": [
-      "Azure &amp; Windows/Azure",
-      "azure files",
-      "azure storage",
-      "스토리지계정",
-      "파일공유"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Shout-Out to Kotlin for Server-Side Content Creators! ",
-    "description": "If you’re using Kotlin for server-side development and sharing your experiences – whether through blog posts, videos, or sample projects – know that we see you, and we want to highlight your work! Recent picks from the community 📖 [Article] From Java to Kotlin — a practical example of how to convert code – Paul […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/03/shout-out-to-kotlin-for-server-side-content-creators/",
-    "pubDate": "Tue, 18 Mar 2025 13:13:03 +0000",
-    "creator": "Alyona Chernyaeva",
-    "categories": []
-  },
-  {
     "id": 8,
     "imageUrl": "",
-    "title": "Kodee’s Kotlin Roundup: New Releases, OpenAI vs. DeepSeek, and Compose Hot Reload",
-    "description": "Hi, Kotlin fans! Kodee’s back with another roundup of the latest updates and stories from the Kotlin world. Grab your favorite drink, sit back, and enjoy! Kotlin YouTube spotlight Check out our latest YouTube videos and Shorts – sit back, relax, and enjoy!",
+    "title": "C# 황당한 코딩 오류 / 점이 빠졌는데 찾기가 너무 어려웠다.",
+    "description": "코드: \nvar fullsize = go.AddComponent<Fullsize>(); \nFullsize Inst = fullsize;\n유니티  C# 코드 입니다. \nFullsize 를 생성해서 \nFullsize 의 static 변수 Inst 에; 넣는 단순한 코드입니다.\nFullsize.Inst 를 사용하려고 할때 자꾸 없다고 에러가 나고 있었구요\n한참 로그 넣고 이것저것 찾아보다 알았습니다.\n\n\n점이 빠져있었습니다. \n그래서 static 변수에 넣는게 아니고 지역 변수에 넣고 있었습니다.\n황당해서 기록남겨봅니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/03/kodee-s-kotlin-roundup-new-releases-openai-vs-deepseek-and-compose-hot-reload/",
-    "pubDate": "Mon, 24 Mar 2025 14:55:22 +0000",
-    "creator": "Kodee",
+    "link": "https://serverdown.tistory.com/1223",
+    "pubDate": "Sun, 23 Mar 2025 01:12:00 +0900",
+    "creator": "이건개발",
     "categories": [
-      "news",
-      "kotlin-roundup"
+      "프로그래밍/개발메모",
+      "CSharp",
+      "unity",
+      "황당"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "SUI MOVE 로 서비스를 개발해보자 01",
-    "description": "2022년엔 크레이튼으로 개발하다 망한적이 있어서 \n망하지 않을 좋은 걸로 골랐습니다. \n앱토스도 MOVE 를 이용하긴하는데 차트를 보니 수이가 강하네요\n \n업그레이드가 가능하다.\n\n\n문서: https://docs.sui.io/concepts/sui-move-concepts/packages\nMOVE 는 업그레이드가 가능하다고 홍보하고 있습니다.\n이것 만으로도 어마어마한것입니다.\n진짜라면 좋겠군요\n이더리움때도 언어를 아주 꼬아가지고 억지로 되긴 했었지만\n(이정도면 거의 미래를 예측하는 수준이라 안된다고 봐야겠지요.)\n \n \n따라 해보기 문서\n링크: https://docs.sui.io/guides/developer/getting-started\n\n \nGetting Started | Sui Documentation\nSui is the first internet-scale programmable blockchain platform. That might read like marketing speak, but as you peruse the documentation to understand the technology, you will discover that Sui addresses many of the problems that hold blockchains back f\ndocs.sui.io\n\n \n목표\n1. 가위바위보 게임 개발 <-- 진행중\n2. NFT 자판기 개발\n3. 게임에 연동\n(매번 하는 식으로 목표를 정했습니다.)\n \n개발환경 세팅\n \nchoco 설치\n윈도우즈 개발자는 choco 를\nmac 이나 리눅스는 brew 를 사용한다는군요\n \n1. choco 사이트 이동: https://chocolatey.org/\n2. 우측 상단에  Try It Now 클릭\n3. step1 은 넘어갑니다. 하단에 Take The Install~~ 클릭\n4. 상단에 설치 방법은 잘모르니 Basic ~~ \n5. 설치 명령어를 알려줍니다. 복사해서 cmd 창 열여서 돌립니다.\n \nchoco 설치 방법\n여러번의 실패 끝에 설치했습니다.\n- cmd 창은 관리자 권한으로 열어야합니다.\n- C:\\ProgramData\\chocolatey 폴더를 삭제해야합니다. \n- C:\\Users\\gunil\\AppData\\Local\\Temp\\chocolatey 폴더 안에 비어있어야합니다.\n이 다음 실행하면 설치가 성공했습니다.\n \n \n6. choco install sui 로 sui 설치\n\n\n이미 설치되어있다는군요 ㄷㄷ\nbasic 에 포함되어있나봅니다.\n\n\nsui --version 치면\nsui 1.45.0-3ef5cc5b5c90\n버전도 나오네요 설치는 끝났나봅니다.\n\n\n끝난 다음엔 코인 개발 기본 루트를 탈 수 있는거 같습니다.\n다음글: https://serverdown.tistory.com/1222",
+    "title": "리눅스 절전 모드 비활성화 - systemd sleep",
+    "description": "리눅스 워크스테이션이나 데스크탑 버전을 설치하면 기본적으로 절전 기능이 활성화 되어있다. 예를 들어 Fedora workstation을 설치했다면 기본으로 절전 기능이 활성화되어있을 것이다. 만일 ssh로 외부에서 접속해서 작업하다가는 아래와 같은 메시지와 함께 절전으로 전환(suspend) 될 수도 있다. 이렇게 절전 모드로 빠지면 외부 접속은 모두 끊긴다.\n$ Broadcast message from gdm@fedora on tty1:\n\nThe system will suspend now!\n이런 문제를 겪지 않으려면 다음과 같이 설정하도록 한다. (관련 매뉴얼 페이지 : systemd-sleep.conf) \n \n1. systemd/sleep.conf 설정 확인\n먼저 현재 설정을 systemd-analyze cat-config systemd/sleep.conf 명령으로 확인해본다.\n$ sudo systemd-analyze cat-config systemd/sleep.conf\n# /etc/systemd/sleep.conf\n#  This file is part of systemd.\n#\n#  systemd is free software; you can redistribute it and/or modify it under the\n#  terms of the GNU Lesser General Public License as published by the Free\n#  Software Foundation; either version 2.1 of the License, or (at your option)\n#  any later version.\n#\n# Entries in this file show the compile time defaults. Local configuration\n# should be created by either modifying this file, or by creating \"drop-ins\" in\n# the sleep.conf.d/ subdirectory. The latter is generally recommended.\n# Defaults can be restored by simply deleting this file and all drop-ins.\n#\n# See systemd-sleep.conf(5) for details.\n\n[Sleep]\n#AllowSuspend=yes\n#AllowHibernation=yes\n#AllowSuspendThenHibernate=yes\n#AllowHybridSleep=yes\n#SuspendMode=\n#SuspendState=mem standby freeze\n#HibernateMode=platform shutdown\n#HibernateState=disk\n#HybridSleepMode=suspend platform shutdown\n#HybridSleepState=disk\n#HibernateDelaySec=\n#SuspendEstimationSec=60min\n위에 보면 모든 값들이 해시문자(#)로 막혀있는데, 이는 기본값을 의미한다. 그 중에 AllowSuspend=yes로 되어있는 부분이 바로 자동 절전 모드이다. 이를 no로 바꾸면 되는데, 편집을 직접하는게 아니라 overriding config를 만드는 방법을 사용하게 된다.\n \n2. AllowSuspend=no 설정 방법\n해당 설정은 관리자인 root 계정으로 명령해야 한다. 먼저 overriding config file을 저장할 디렉토리로 /etc/systemd/sleep.conf.d를 만들어야 한다. 그리고 해당 디렉토리에 넣을 설정 파일을 vi 같은 에디터로 만들어주면 된다. 즉 아래와 같이 명령한다.\nmkdir /etc/systemd/sleep.conf.d\ncd $!\nvi nosuspend.conf\nvi nosuspend.conf 명령어를 실행한 다음에는 아래의 내용을 넣는다. 핵심 설정 부분은 AllowSuspend=no 라는 부분이다.\n[Sleep]\nAllowSuspend=no\nAllowHibernation=no\nAllowSuspendThenHibernate=no\nAllowHybridSleep=no\n설정이 제대로 되었는지 확인하기 위해 systemd-analyze cat-config systemd/sleep.conf 명령을 다시 내려본다. 만일 가장 하단에 /etc/systemd/sleep.conf.d/nosuspend.conf로부터 파일을 읽혀졌다면 제대로 설정된 것이다.\nroot user# systemd-analyze cat-config systemd/sleep.conf\n...생략...\n\n[Sleep]\n#AllowSuspend=yes\n#AllowHibernation=yes\n#AllowSuspendThenHibernate=yes\n#AllowHybridSleep=yes\n#SuspendMode=\n#SuspendState=mem standby freeze\n#HibernateMode=platform shutdown\n#HibernateState=disk\n#HybridSleepMode=suspend platform shutdown\n#HybridSleepState=disk\n#HibernateDelaySec=\n#SuspendEstimationSec=60min\n\n# /etc/systemd/sleep.conf.d/nosuspend.conf\n[Sleep]\nAllowSuspend=no\n...\n해당 설정은 즉시 적용되므로 따로 restart나 reload해줘야 하는 것은 없다. 다만 정 불안하다면 systemctl daemon-reload 명령을 한번 해주면 될 것이다.\n \n히스토리\n2025-03-21 글 작성",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1221",
-    "pubDate": "Sat, 22 Mar 2025 02:49:53 +0900",
-    "creator": "이건개발",
+    "link": "https://sunyzero.tistory.com/313",
+    "pubDate": "Fri, 21 Mar 2025 16:43:46 +0900",
+    "creator": "sunyzero",
     "categories": [
-      "프로그래밍/개발메모",
-      "Move",
-      "Sui",
-      "수이"
+      "컴퓨터 관련/리눅스(유닉스) 일반",
+      "Fedora",
+      "linux suspend",
+      "systemctl",
+      "systemd sleep",
+      "리눅스 절전 모드 해제",
+      "리눅스 하이버네이션"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "vercel 처음 써보고 분노한 개발자 사용기 / 배포 deploy / setInterval 안됨",
-    "description": "vercel 에서 express 나 웹소켓 서버를 공짜로 띄워볼 수 있다고 해서 만져봤는데 ...\n지옥의 시간으로 변했습니다.\n6시간째 배포를 못해서 해보고 있었으며\n결과도 내가 원했던 것은 안되었다.\n- 서버 내부에서 setInterval\n- 웹소켓 버서\n- rest api 는 가능했습니다. 만 firebase 쓰면 되니 의미 없음\n그래서 이 글은 분노한 개발자의 사용기 입니다.\n \nvercel 에서는 next.js 로 배포를 할 수 있는데 next.js 는 프론트엔드 백엔드가 다 통합되어있다고 들었다. \n(처음 써본다.)\n어차피 웹소켓으로 실시간 통신만 공짜로 할 수 있으면 장땡이였다.\n영상: https://www.youtube.com/watch?v=E8xaV6fiTaA\n\n\n\n \n이 영상을 보면 가입부터 github 연결 배포 까지 끝내고 있다.\n내용안에는 vercel 은 git 에 push 만하면 최신 빌드를 하는 배포 시스템이 있다고 했다.\n클라우드 플레이어도 그런식이라 적응이 쉬울줄 알았다.\n그러나 ...\n자동빌드가 엄청 띄엄띄엄 되는거 같다\n거의 1시간 후에 다시보니 \"바꼈있더라\" 느낌\n즉시 되는건줄 알고 \"왜 안되지를 외치며\" 몇시간을 낭비했다.\n진전된건 없었고 누웠다 일어나 다시 와보니 배포되어있었다.\n너무나 허무했다.\n결국 알아낸것은 명령어를 통해 수동 배포가 가능하다는 것을 알았다.\n관리페이지에는 배포 버튼이 없기 때문에 페이지를 보는데 너무 시간을 많이 써서\n지금은 녹초가 되어버렸다. 아무것도 하기 싫다.\n \n명령어로 배포하기\n문서: https://vercel.com/docs/cli/link\n\n \nvercel link\nLearn how to link a local directory to a Vercel Project using the vercel link CLI command.\nvercel.com\n\n \nfirebase 처럼 vercel deploy 하면 된다. 그전에\nvercel login\n소유자임을 확인해야하니 로그인 해야겠죠\nvercel link\n이미 받아둔 소스폴더를 vercel project 와 연결시켜주어야한다.\n이 작업이 끝나면 배포할 수 있다.\nvercel deploy\n빌드하는동안 프리뷰 페이지를 볼 수 있는데\n로그인한 브라우저에서 보여진다. 특이하고 불편하다.\n \n이제 rest api 서버와 웹소켓이 가능한지 확인해야겠다.\n하지만 오늘은 아무것도 하기 싫다.\n정말 시간아깝다.\n \n \nvercel dashboard 로 가면 최근 배포된것에 대한 내용이 나온다.\n\n\n자기전에 v4 를 push 했다.\n내일 보면 배포되어있으려나 ...\n \n웹소켓 서버를 돌릴 수는 없다.\n웹소켓 서버를 돌릴 수 있는줄 알았으나...\n\n\n문서 링크: https://socket.io/how-to/use-with-nextjs\n안된다고 문서에 적혀있네요 시간 낭비였습니다.\n \nRES API 응답은 가능\nrest api 가 가능한지 확인해야겠군요\n그런데 firebase 쓰면되는데 ...  \n아 시간 아까워\n하루종인 시간들여서 안된다는걸 배웠군요\n \ndeploy 랑 출시는 다르다.\n제일 짜증나는 계념인데요\ndeploy 한다고 다른 유저가 볼 수 있는게 아닙니다.\n다시 production 이라는 과정을 거쳐야합니다.\nvercel 에서 접속되는 페이지는 preview 라고 해서 권한 있는 사람들만 볼 수 있는 페이지 입니다.\n빌드마다 주소도 다르구요\n개발자랑 테스트하는 사람이 분리된 큰 프로젝트라면 모를까\n배포하기에 한두 단계가 있으면 너무 불편합니다.\n출시 과정\n대시보드로 가면 최근 프리뷰 정보가 표시됩니다.\n\n\n여기서 이상한곳을 클리하면 안되고 내모로 표시된 커밋 코드를 눌러야합니다.\n(불편)\n다른곳을 누르면 다른 페이지로 가니 주의\n \n\n\n배포 세부 정보창이 뜨는데 [...] 버튼을 누릅니다.\n참고로 이페이지는 창크기가 작으면 버튼의 위치가 바뀌니\n창크기를 잘 조절하세요\n(개 불편)\n\n\n출시 로 승급해줘야합니다. \n(자동으로 좀 해달라고)\n엄청 번거롭습니다.\n저는 도메인을 연결해뒀는데요\n도메인이 없으면 어떤 주소로 나오는지 잘 모르겠네요\n(vercel 은 불편해야하니까 접속할 주소를 안줄 수도 있을꺼 같군요)\n출시 링크: next.sidnft.com/\n내부 카운터 있는 API: next.sidnft.com/api/hello\nsetInterval 이 들어있는 API: next.sidnft.com/api/hello2 \n내부 카운터가 있는 api 호출할때마다 변수를 ++ 해줬습니다.\n1분정도 안쓰면 서버가 내려갔다 올라오는지\n변수값이 날아갔습니다.\n이것도 사용 못하겠군요\nsetInterval 로 서버 내부는 실시간으로 동작하는가 테스트 해봤는데\n안되었습니다. 호출할때 살아나서 잡시 업데이트 돌고 멈추는거 같았습니다.\n이러니 웹소켓이 안되는거 같습니다. \n성능 때문에 서버 속도를 제어하는거 같습니다.\n \n결론\n더이상은 확인안해보도 될꺼 같군요\nheroku 로 넘어가겠습니다.",
+    "title": "데드락 기록 - 2025.03.05",
+    "description": "https://github.com/boyism80/fb/commit/36d155582b85733f95c559f11b5824b025052a96",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1217",
-    "pubDate": "Thu, 20 Mar 2025 23:32:53 +0900",
-    "creator": "이건개발",
+    "link": "https://blog.naver.com/boyism/223805433497?fromRss=true&trackingCode=rss",
+    "pubDate": "Sat, 22 Mar 2025 00:19:11 +0900",
+    "creator": "boyism",
     "categories": [
-      "프로그래밍/개발메모"
+      "동기화"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "유니티 애셋 / Block Blast / 데모게임 / 유",
-    "description": "영상: https://www.youtube.com/watch?v=LYECrh_MYOw&t=55s\n\n\n\n \n유니티 애셋 스토어 링크: https://assetstore.unity.com/packages/templates/packs/blast-puzzle-template-editor-313175\n\n \nBlast Puzzle | Template + Editor | 패키지 | Unity Asset Store\nUse Blast Puzzle | Template + Editor from Watermelon Games to elevate your next project. Find this & more 패키지 and templates on the Unity Asset Store.\nassetstore.unity.com\n\n \n비싸긴한데 카피게임 올리기엔 쉽겠군요\n거의 비슷하군요\n기억해 둬야겠습니다.",
+    "title": "티스토리를 떠나야 할까? 대체 플랫폼 5곳 비교 분석 - 티스토리의 미래 3부작 (3부)",
+    "description": "티스토리를 떠나야 할지 고민하는 요즘, 마음이 참 복잡해요. 블로그 플랫폼이라는 게 한번 정착하면 옮기기가 쉽지 않잖아요. 글, 이미지, 댓글, 그리고 무엇보다 그동안 쌓아온 포스팅들... 다 옮긴다고 생각하면 머리가 지끈지끈 아파옵니다.\n\n\n \n티스토리의 미래가 불안하다는 소식이 들리면서부터 '이제 어디로 가야 하나' 하는 고민이 시작됐어요. 여러분도 비슷한 고민하고 계시죠? 오늘은 제가 여러 블로그 플랫폼을 직접 사용해보고 비교 분석한 내용을 솔직하게 공유해 드릴게요.\n \n  티스토리 이사를 고민해야 할 신호들\n티스토리가 당장 문을 닫진 않겠지만, 몇 가지 불안한 징후들이 나타나고 있어요. 이런 신호들이 보인다면 슬슬 대안을 준비해야 할 때입니다.\n플랫폼 불안정성의 징후\n요즘 티스토리에 로그인하려면 가끔 오류가 뜨더라고요. 글 작성 중에 튕기는 경우도 있고, 이미지 업로드가 예전보다 확실히 느려진 것 같아요. 이런 사소한 문제들이 쌓이다 보면 결국 큰 문제로 이어질 수 있어요.\n더 걱정되는 건, 관리자 측의 공지가 점점 줄어들고 있다는 점이에요. 예전엔 업데이트나 변화에 대해 미리 알려주곤 했는데, 요즘은 갑자기 바뀌어 있는 경우가 많아요. 고객센터 응답도 전보다 느려진 것 같고요.\nSEO 및 트래픽 감소\n제 블로그는 2년 전부터 네이버와 구글 검색 노출이 점점 줄어들고 있어요. 똑같은 콘텐츠 품질인데도 검색 순위가 자꾸 밀리는 느낌이랄까? 특히 네이버는 자사 블로그 우대 정책이 강화되면서 티스토리 블로그의 상위 노출이 점점 어려워지고 있어요.\n이런 검색 노출 감소는 당연히 광고 수익 감소로 이어지죠. 방문자 수가 줄면 애드센스 수익도 감소하니까요. 블로그로 부수입을 올리시는 분들이라면 이 부분이 특히 고민될 거예요.\n유료화 정책 도입 가능성\n솔직히 말해서, 유료화는 피할 수 없는 흐름인 것 같아요. 문제는 그 비용이 얼마나 될지, 그리고 무료 버전에선 어떤 기능이 제한될지예요. 만약 티스토리가 주요 기능을 대부분 유료로 전환한다면, 블로그 수익보다 유지비가 더 나올 수도 있잖아요?\n이 세 가지 중에서 두 가지 이상 해당된다면, 다른 플랫폼으로의 이전을 진지하게 고민해볼 때예요. 당장 무언가를 결정하기보다는, 천천히 대안을 탐색해보는 과정이 필요할 것 같습니다.\n \n \n  티스토리 대체 플랫폼 5곳 비교\n제가 직접 사용해본 5개의 플랫폼을 비교해봤어요. 각각의 특징과 장단점을 솔직하게 분석했습니다.\n1️⃣ 네이버 블로그\n네이버 블로그는 국내 검색 점유율 1위 포털에서 운영하는 만큼, 검색 최적화에 최고의 강점을 가지고 있어요. 특히 네이버 검색에서는 자사 플랫폼 우대 정책이 있어서 검색 유입에 확실히 유리합니다.\n장점:\n네이버 검색 노출이 압도적으로 유리\n대부분의 사용자에게 친숙한 인터페이스\n스마트에디터가 직관적이고 사용하기 쉬움\n네이버 아이디로 쉽게 시작할 수 있음\n단점:\n구글 애드센스 연동이 불가능해 수익화에 제한\n디자인 자유도가 낮고 템플릿이 제한적\n네이버의 정책 변화에 취약함\n타 플랫폼에 비해 전문적인 기능이 부족\n실제로 제 지인 중에는 티스토리에서 네이버로 옮긴 후 트래픽이 3배 이상 증가했다는 분도 있어요. 검색 최적화가 우선이라면 고려해볼 만한 옵션입니다.\n2️⃣ 브런치 (카카오)\n브런치는 카카오에서 운영하는 플랫폼으로, 감성적인 콘텐츠와 작가 중심의 커뮤니티가 특징이에요. 티스토리와 같은 카카오 계열이지만, 보다 '작품' 지향적인 플랫폼이라고 할 수 있죠.\n장점:\n깔끔하고 세련된 디자인으로 콘텐츠 집중도 높음\n작가로서의 브랜딩에 유리한 구조\n추천 시스템을 통한 새로운 독자층 확보 가능\n모바일 최적화가 잘 되어 있음\n단점:\n입점 심사가 필요해 진입 장벽이 있음\n광고 수익화가 거의 불가능\nSEO 최적화가 티스토리보다 약함\n콘텐츠 형식에 제한이 많음 (주로 글 중심)\n브런치는 광고 수익보다는 작가로서의 브랜딩이나 책 출간 등을 목표로 하는 분들에게 더 적합해요. 감성 에세이나 전문 지식을 공유하는 글이 주를 이루죠.\n3️⃣ 워드프레스 (독립형)\n워드프레스는 전 세계에서 가장 많이 사용되는 CMS(콘텐츠 관리 시스템)로, 완전한 독립 블로그를 운영할 수 있어요. 호스팅과 도메인을 직접 구매해 설치하는 방식입니다.\n장점:\n완전한 자유도와 소유권\nSEO 최적화에 매우 강력\n다양한 플러그인으로 확장성 무한대\n광고, 아필리에이트, 회원제 등 수익화 방식 다양\n단점:\n초기 설정과 관리가 상대적으로 어려움\n호스팅, 도메인 비용 등 유지 비용 발생\n보안, 백업 등을 직접 관리해야 함\n기술적 지식이 어느 정도 필요함\n제가 티스토리와 병행해서 운영 중인 플랫폼이 바로 워드프레스인데요. 처음엔 설정이 복잡했지만, 익숙해지니 그 자유도가 정말 매력적이에요. 특히 수익화 면에서는 어떤 플랫폼보다 유리합니다.\n4️⃣ 미디움 (Medium)\n미디움은 글로벌 콘텐츠 플랫폼으로, 깔끔한 디자인과 강력한 커뮤니티가 특징이에요. 영어 콘텐츠가 주를 이루지만, 한글 콘텐츠도 점점 늘어나고 있습니다.\n장점:\n세련된 미니멀 디자인\n글로벌 독자층 접근 가능\n소셜 미디어 공유 및 확산에 유리\n파트너 프로그램을 통한 수익화 가능\n단점:\n한글 콘텐츠 검색 노출이 약함\n국내 독자층 확보가 어려움\n유료 구독 모델이 국내 사용자에게 생소함\n번역 기능이 완벽하지 않음\n영어로 콘텐츠를 작성하거나 글로벌 시장을 겨냥한다면 고려해볼 만하지만, 국내 독자를 대상으로 한다면 다소 제한적입니다.\n5️⃣ 구글 블로거 (Blogger)\n구글에서 제공하는 무료 블로그 서비스로, 간단한 설정으로 시작할 수 있어요. 애드센스와의 연동이 쉽고 안정적인 서비스가 특징입니다.\n장점:\n구글 애드센스 연동이 매우 쉬움\n무료로 사용 가능하며 추가 비용 없음\n구글 검색 최적화에 유리\n안정적인 서버와 속도\n단점:\n디자인 템플릿이 제한적\n네이버 검색 노출이 약함\n커스터마이징 옵션이 티스토리보다 적음\n국내 사용자층이 적어 커뮤니티 형성이 어려움\n구글 블로거는 특히 해외 트래픽을 노리거나 애드센스 수익에 집중하는 블로거에게 적합해요. 하지만 국내 검색 엔진에서의 노출은 상대적으로 약한 편입니다.\n \n \n  티스토리 유지 vs 이전: 고민의 기로\n이제 가장 어려운 결정의 시간이네요. 티스토리를 계속 유지할지, 아니면 다른 플랫폼으로 이전할지 비교해봅시다.\n티스토리 계속 운영할 경우\n장점:\n지금까지 쌓아온 콘텐츠와 SEO 자산을 유지할 수 있어요\n익숙한 관리 환경에서 계속 작업할 수 있어 편리해요\n기존 구독자와 댓글 커뮤니티를 유지할 수 있죠\n애드센스 및 기존 수익 구조를 그대로 이어갈 수 있어요\n단점:\n카카오의 정책 변화에 따라 유료화될 가능성이 높아요\n기능 개선이나 업데이트가 느려질 수 있어요\n검색 엔진에서의 노출이 점점 줄어들 위험이 있죠\n플랫폼 자체의 불안정성 위험이 있어요\n다른 플랫폼으로 이전할 경우\n장점:\n새로운 검색 최적화 전략을 구사할 수 있어요\n브랜딩과 수익화 모델을 재설계할 기회가 됩니다\n새로운 UI/UX로 독자들에게 신선한 경험을 제공할 수 있어요\n플랫폼 종속성에서 벗어날 수 있어요 (특히 워드프레스)\n단점:\n글, 이미지, 댓글 등의 백업과 이전 작업이 매우 번거로워요\n기존 방문자와 구독자 중 일부는 이탈할 가능성이 높아요\n새로운 플랫폼에 적응하는 데 시간과 노력이 필요해요\nSEO 순위가 처음부터 다시 시작되어 트래픽 감소가 있을 수 있어요\n \n  블로거 유형별 추천 플랫폼\n모든 블로거에게 딱 맞는 하나의 플랫폼은 없어요. 각자의 운영 목적과 스타일에 따라 다른 선택이 필요합니다.\n블로거 유형 추천 플랫폼 추천 이유\n블로거 유형\n추천 플랫폼\n추천 이유\n\n\n\n\n수익형 블로그 운영자\n워드프레스, 구글 블로거\n광고 배치 자유도가 높고, 애드센스 최적화가 용이함\n\n\n감성 콘텐츠 작가\n브런치\n깔끔한 UI로 글 자체에 집중할 수 있고, 감성 콘텐츠에 최적화됨\n\n\n검색 유입이 중요한 블로거\n네이버 블로그\n국내 최대 포털에서의 검색 노출이 압도적으로 유리함\n\n\n글로벌 대상 콘텐츠 제작자\n미디움\n영어 기반 콘텐츠의 확산력이 우수하고 국제적 독자층 접근 가능\n\n\n커뮤니티 중심 블로거\n네이버 블로그, 티스토리\n댓글과 소통 기능이 활성화되어 있고, 국내 사용자에게 친숙함\n\n\n\n \n✅ 결론: 당장의 결정보다 중요한 것\n솔직히 말해서, 저는 티스토리를 10년 가까이 운영해왔지만 최근에는 워드프레스도 병행하고 있어요. 왜냐하면 플랫폼 하나에만 의존하는 것이 얼마나 위험한지 깨달았기 때문이에요.\n \n지금 고민하고 계신다면, 단순히 불안하다는 감정만으로 서둘러 결정하기보다는 \"내 블로그 운영 목적과 전략에 따라 이사 여부를 판단하는 것\"이 중요합니다.\n \n그리고 무엇보다 중요한 건, 백업은 지금 당장 하셔야 합니다! 어떤 결정을 내리든, 소중한 콘텐츠는 반드시 안전하게 보관해두세요. 또한 대체 플랫폼을 미리 테스트해보는 것도 현명한 전략입니다. 소규모로 새 플랫폼을 시작해 경험을 쌓아보세요.\n결국 플랫폼은 도구일 뿐이고, 가장 중요한 건 콘텐츠의 가치라는 점을 잊지 마세요. 어디서 글을 쓰든, 여러분의 진정성과 전문성이 담긴 콘텐츠는 언제나 가치가 있을 거예요.\n여러분은 어떤 플랫폼으로 옮길 생각이 있으신가요? 아니면 티스토리를 계속 지킬 준비가 되어 있으신가요? 댓글로 여러분의 고민과 선택을 나눠주세요!  ‍♂️ ‍♀️\n \n \n\n \n다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지\n한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제\nmuzbox.tistory.com\n\n\n \n카카오, 다음과 결별하다! 티스토리의 앞날은? 티스토리의 미래 3부작 (1부)\n카카오가 다음(Daum)을 분사하면서, 티스토리(Tistory)의 미래도 불투명해지고 있습니다. 티스토리는 다음 소속으로 가게 될까, 아니면 카카오가 계속 운영할까? 블로거들이 대비해야 할 변화와 생\nmuzbox.tistory.com\n\n \n\n \n티스토리 유료화된다면? 블로거들이 꼭 알아야 할 변화와 대응법 - 티스토리의 미래 3부작 (2부)\n티스토리가 유료화된다면, 블로거들에게 어떤 변화가 있을까요?무료 플랜과 유료 플랜이 도입될 가능성을 분석하고, 블로거들이 어떻게 대비해야 할지 실질적인 전략을 제공합니다. \"티스토리\nmuzbox.tistory.com\n\n \n❓ 자주 묻는 질문\nQ1: 티스토리에서 다른 플랫폼으로 글을 옮기는 가장 쉬운 방법은?\n티스토리의 백업 기능을 이용해 XML 파일을 다운로드한 후, 워드프레스나 블로거 같은 플랫폼에서 가져오기 기능을 사용하는 것이 가장 효율적이에요. 다만 이미지나 댓글은 완벽하게 이전되지 않을 수 있으니 확인이 필요합니다.\nQ2: 티스토리 백업은 어떻게 하나요?\n관리자 화면 > 설정 > 기타 설정 > 백업 메뉴에서 XML 형태로 백업할 수 있어요. 이미지는 별도로 다운로드해야 하며, 정기적인 백업을 추천합니다.\nQ3: SEO 관점에서 가장 유리한 플랫폼은?\n국내 검색엔진 최적화는 네이버 블로그, 해외 및 구글 검색 최적화는 워드프레스가 가장 유리합니다. 목표 시장에 따라 선택하세요.\nQ4: 워드프레스 초기 비용은 얼마나 들까요?\n도메인 비용(연 1~2만원)과 호스팅 비용(월 5천원~2만원)이 기본적으로 발생합니다. 테마나 플러그인에 따라 추가 비용이 있을 수 있으나, 무료 옵션도 많이 있어요.\nQ5: 티스토리가 유료화된다면 비용은 어느 정도가 될까요?\n아직 정확한 정보는 없지만, 비슷한 서비스인 워드프레스닷컴이나 외국 블로그 플랫폼을 참고하면 월 5천원~2만원 선으로 예상할 수 있습니다.\n 설정 > 기타 설정 > 백업 메뉴에서 XML 형태로 백업할 수 있어요. 이미지는 별도로 다운로드해야 하며, 정기적인 백업을 추천합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"SEO 관점에서 가장 유리한 플랫폼은?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"국내 검색엔진 최적화는 네이버 블로그, 해외 및 구글 검색 최적화는 워드프레스가 가장 유리합니다. 목표 시장에 따라 선택하세요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"워드프레스 초기 비용은 얼마나 들까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"도메인 비용(연 1~2만원)과 호스팅 비용(월 5천원~2만원)이 기본적으로 발생합니다. 테마나 플러그인에 따라 추가 비용이 있을 수 있으나, 무료 옵션도 많이 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 유료화된다면 비용은 어느 정도가 될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"아직 정확한 정보는 없지만, 비슷한 서비스인 워드프레스닷컴이나 외국 블로그 플랫폼을 참고하면 월 5천원~2만원 선으로 예상할 수 있습니다.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1214",
-    "pubDate": "Wed, 19 Mar 2025 10:58:49 +0900",
-    "creator": "이건개발",
+    "link": "https://muzbox.tistory.com/483559",
+    "pubDate": "Sat, 22 Mar 2025 21:23:04 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "프로그래밍/유니티 에셋 리뷰"
+      "NEWS/IT 뉴스",
+      "구글 블로거",
+      "네이버 블로그 vs 티스토리",
+      "미디움 한국어",
+      "브런치 블로그",
+      "블로그 백업 방법",
+      "블로그 수익화",
+      "블로그 이전",
+      "워드프레스 장단점",
+      "티스토리 대체 플랫폼",
+      "티스토리 유료화"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "Sign Up for the free Pure Virtual C++ 2025 Conference",
-    "description": "Every year we run Pure Virtual C++: a free one-day virtual conference for the whole C++ community. Next month we’re doing it again! Sign-up for free to get access to our five live sessions and a host of pre-conference content. The live event will start at April 30th 14:00 UTC. Videos will be available to […]\nThe post Sign Up for the free Pure Virtual C++ 2025 Conference appeared first on C++ Team Blog.",
+    "title": "왜 더 열심히 일하지 않을까",
+    "description": "*악플을 쓰시려면, 기분이 태도가 되지 않게 특히 주의 바랍니다. 내가 쓴 악플은 세상 누구도 안 읽을 수도 있지만, 쓰시는 분은 반드시 읽습니다. 이 악플은 남을 향하기 전에 자기 자신에게 먼저 향합니다. 2월에 ‘더 열심히 일하지 않으면’이라는 글을 썼다. 솔직히 나는 그냥 내가 평소에 하던 생각을 그냥 포스팅했는데, 시장에서 꽤 많은 반응이 있었다. 한 달 만에(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/sign-up-for-the-free-pure-virtual-c-2025-conference/",
-    "pubDate": "Fri, 21 Mar 2025 11:34:23 +0000",
-    "creator": "Sy Brand",
+    "link": "https://www.thestartupbible.com/2025/03/korea-needs-to-work-harder-and-longer.html",
+    "pubDate": "Sun, 23 Mar 2025 21:25:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "Announcement",
-      "Pure Virtual C++"
+      "Uncategorized",
+      "FoundersAtWork",
+      "general",
+      "korea"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "The Impact of Code Analysis in STEM: Protecting Work That Affects the World",
-    "description": "At Qodana, we champion code quality for businesses and enterprise development teams, but it has other crucial applications, and implications. Not only can good (and bad!) code be felt in the digital products we all know and use every day, but its impact also extends to science, technology, engineering, and mathematics (STEM). As STEM disciplines […]",
+    "title": "GitHub Copilot을 사용하여 코드를 리팩토링하는 방법",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/03/code-analysis-in-stem/",
-    "pubDate": "Sat, 22 Mar 2025 08:25:25 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "code-review",
-      "code-analysis",
-      "inellij",
-      "learning",
-      "science",
-      "stem"
-    ]
+    "link": "https://jacking75.github.io/ai-github_copilot_20250326/",
+    "pubDate": "Wed, 26 Mar 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "vercel 로 express 를 배포해보자 / 유니티 webgl 압축 지원하는 페이지를 배포 가능",
-    "description": "과거\nvercel 불편하다고 징징한 글을 올렸었는데요\n과거의 징징글: vercel 처음 써보고 분노한 개발자 사용기 / 배포 deploy / setInterval 안됨\n새로운 가능성을 찾았다.\n투자한 시간이 아까워 더 찾아봤습니다.\nexpress 를 배포할 수 있다는 것을 알았습니다.\nexpress 가 되면 할 수 있는게 매우 많아지는데\n그중에 unity webgl 압축을 처리할 수 있어서 50mb 정도의 빌드를 15mb 정도로 줄일 수 있습니다.\n즉 전체를 unity webgl 발라도 부담스럽지 않은 사이트를 가질 수 있게 됩니다.\n그래서  해보니 되었습니다.\n데모: Unity Web Player | Add Force 1\n이제 vercel 을 극찬해야할꺼 같습니다.\n \n따라하기 영상: https://www.youtube.com/watch?v=3IV60HVsW2M&t=17s\n\n\n\n \n다른 설명 영상보다 이 영상이 가장 정확했습니다.\n구독자가 7명에 활동을 중지한 채널 같습니다.",
+    "title": "TeamCity Roadmap 2025: Updating the UI, TeamCity Recipes, and Much More",
+    "description": "This year, the TeamCity team is working on a number of new initiatives, including updating the UI, TeamCity recipes, Jenkins migration tools, and many others. Read on to learn what our focus is for 2025. Modernizing the TeamCity Enterprise interface In 2025, we’re taking a major step forward in enhancing the TeamCity experience. The modern […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1225",
-    "pubDate": "Mon, 24 Mar 2025 12:49:31 +0900",
-    "creator": "이건개발",
+    "link": "https://blog.jetbrains.com/teamcity/2025/03/teamcity-roadmap-2025/",
+    "pubDate": "Wed, 19 Mar 2025 14:32:32 +0000",
+    "creator": "Olga Bedrina",
     "categories": [
-      "프로그래밍/개발메모",
-      "unity",
-      "WebGL"
+      "roadmap"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "카카오, 다음과 결별하다! 티스토리의 앞날은? 티스토리의 미래 3부작 (1부)",
-    "description": "카카오가 다음(Daum)을 분사하면서, 티스토리(Tistory)의 미래도 불투명해지고 있습니다. 티스토리는 다음 소속으로 가게 될까, 아니면 카카오가 계속 운영할까? 블로거들이 대비해야 할 변화와 생존 전략을 살펴봅니다.\n\n\n \n얼마 전, 카카오가 포털 서비스 ‘다음(Daum)’을 분사한다고 발표했습니다. 이로 인해 다음과 함께 운영되던 블로그 플랫폼, 티스토리의 미래도 불확실해졌습니다. \n \n다음이 독립하면 티스토리가 다음과 함께 가는 것인지,아니면 카카오가 유지하는 것인지에 따라 블로거들에게 미치는 영향이 크게 달라질 것입니다. 그렇다면, 티스토리는 어디로 향하게 될까요?\n \n  카카오와 다음의 분사, 왜 일어났을까?\n1️⃣ 다음, 한때 ‘국민 포털’에서 잊힌 존재로\n다음은 2000년대 초반만 해도 네이버보다 먼저 시장을 선점한 강력한 포털이었습니다.\n한메일(Hanmail), 다음 카페, 블로그 등을 통해 커뮤니티 중심의 서비스를 제공하며 많은 사용자층을 확보했죠.\n하지만, 2010년대 이후 네이버의 통합 검색과 구글의 부상으로 인해 점유율이 계속 하락했습니다.\n2024년 2월 기준, 다음의 국내 검색 시장 점유율은 2.72%로 네이버(약 60%)와 구글(약 40%)에 크게 밀린 상태입니다.\n2️⃣ 카카오는 왜 다음을 버릴까?\n카카오는 이제 포털보다 ‘AI’와 ‘카카오톡’ 중심의 전략을 펼치고 있습니다.\n카카오 대표인 정신아는 “카톡과 AI가 핵심 사업이며, 관련 없는 분야는 정리하겠다”고 밝혔습니다.\n즉, 검색과 포털 사업이 카카오의 핵심이 아니게 되었고,\n경영 효율화를 위해 다음을 떼어내는 것이 불가피한 선택이었던 것입니다.\n  그렇다면, 티스토리는 어떻게 될까요?\n\n \n다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지\n한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제\nmuzbox.tistory.com\n\n \n \n  티스토리의 미래, 다음이 가져갈까? 카카오가 유지할까?\n티스토리는 원래 다음이 2007년에 인수한 블로그 서비스입니다.\n이후 다음-카카오 합병으로 인해 카카오 소속이 되었지만,\n검색 점유율이 떨어지면서 점점 홀대받아 온 것이 사실입니다.\n이번 분사 결정으로 티스토리가 다음으로 가게 될지, 아니면 카카오가 유지할지가 최대 관건입니다.\n  시나리오 1: 티스토리가 ‘다음’ 소속이 된다면?\n✅ 가능한 변화:\n다음 검색과의 연계 강화 → 티스토리 블로그가 다음 검색에서 우선 노출될 가능성\n검색 최적화(SEO) 기능 개선 → 네이버 블로그와 경쟁하기 위한 전략 추진\n❌ 위험 요소:\n다음 자체의 점유율이 낮아 티스토리 트래픽이 오히려 감소할 수도 있음\n다음이 독립 법인으로 성공하지 못하면, 티스토리도 불안정해질 가능성\n  결론:\n  다음이 티스토리를 가져간다면 검색 노출을 강화하려 할 가능성이 크지만,\n  다음 자체의 점유율이 낮아 블로그 트래픽 확보가 어려울 수 있다.\n \n  시나리오 2: 티스토리를 ‘카카오’가 유지한다면?\n✅ 가능한 변화:\n카카오의 AI 검색과 연계 → 카카오톡, 브런치, 카카오뷰와 통합될 가능성\n유료화 가능성 증가 → 워드프레스처럼 유료 블로그 모델 도입 가능\n❌ 위험 요소:\n카카오가 티스토리에 대한 관심이 크지 않다면, 방치될 가능성도 있음\n카카오뷰·브런치에 흡수될 경우, 기존 블로그 방식이 사라질 수도 있음\n  결론:\n  카카오가 유지한다면, 티스토리는 검색보다는 ‘콘텐츠 플랫폼’으로 변할 가능성이 크다.\n  유료화될 경우, 블로거들의 비용 부담이 커질 수 있다.\n \n \n  블로거들이 지금 준비해야 할 것!\n티스토리가 어디로 가든, 블로거들은 대비해야 합니다.\n트래픽과 수익을 유지하려면 지금부터 대체 전략을 고민해야 합니다.\n✅ 1️⃣ 검색 트래픽 변화 대비하기\n티스토리가 다음 소속이 된다면, 구글 SEO 최적화가 더 중요해짐\n카카오가 유지한다면, 카카오톡 및 카카오뷰 활용이 중요\n✅ 2️⃣ 블로그 백업 및 데이터 관리 필수\n백업을 정기적으로 진행해 만일의 사태에 대비하기\n티스토리가 급격히 변화할 경우, 빠르게 대체 플랫폼으로 이동할 준비\n✅ 3️⃣ 대체 블로그 플랫폼 고려하기\n티스토리가 변할 경우를 대비해, 다른 블로그 플랫폼을 미리 알아두는 것도 중요합니다.\n  티스토리를 계속 사용할지, 떠날지는 상황을 보면서 신중하게 결정해야 합니다.\n \n \n  마무리: 티스토리, 변화 속에서 살아남을 수 있을까?\n카카오와 다음의 결별로 인해 티스토리는 변화를 피할 수 없습니다.\n다음과 함께 독립하든, 카카오가 유지하든, 기존 블로거들에게 미치는 영향은 상당할 것입니다.\n✅ 티스토리가 검색 최적화로 가든, 콘텐츠 플랫폼으로 변화하든, 블로거들은 유입 전략을 다시 짜야 합니다.\n✅ 유료화 가능성, 검색 노출 변화, 플랫폼 통합 여부 등을 면밀히 주시해야 합니다.\n✅ 무엇보다, 백업과 대체 플랫폼을 준비하는 것이 가장 중요한 생존 전략이 될 것입니다.\n❓ Q&A\nQ1. 카카오가 다음을 분사한 이유는 무엇인가요?\nA. 카카오는 AI와 카카오톡 중심의 전략을 추진하면서, 검색·포털 사업이 핵심이 아니라고 판단했습니다. 다음의 검색 점유율이 2.72%로 급락하면서, 독립 운영이 더 효율적이라는 결론을 내렸습니다.\nQ2. 티스토리는 다음과 함께 가나요, 아니면 카카오가 유지하나요?\nA. 아직 확정되지 않았지만, 다음과 함께 독립할 경우 검색 최적화 전략을 강화할 가능성이 크고, 카카오가 유지하면 브런치·카카오뷰와 결합되면서 콘텐츠 플랫폼으로 변화할 수 있습니다.\nQ3. 티스토리 블로거들은 지금 무엇을 준비해야 할까요?\nA. 검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\nQ4. 티스토리가 유료화될 가능성이 있나요?\nA. 카카오가 티스토리를 유지한다면, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"카카오가 다음을 분사한 이유는 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오는 AI와 카카오톡 중심의 전략을 추진하면서, 검색·포털 사업이 핵심이 아니라고 판단했습니다. 다음의 검색 점유율이 2.72%로 급락하면서, 독립 운영이 더 효율적이라는 결론을 내렸습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리는 다음과 함께 가나요, 아니면 카카오가 유지하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 확정된 것은 없지만, 다음이 티스토리를 운영할 경우 검색 최적화 전략을 강화할 가능성이 크며, 반면 카카오가 유지하면 브런치·카카오뷰와 통합될 가능성이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리 블로거들은 지금 무엇을 준비해야 할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 유료화될 가능성이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오가 티스토리를 유지할 경우, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\"\n      }\n    }\n  ]\n}",
+    "title": "C++ Dynamic Debugging: Full Debuggability for Optimized Builds",
+    "description": "Over the past 5 years, we’ve had many incredible opportunities to engage with game developers. From AAA studios to indie developers, the passion for slashing iteration times is significant. Amidst all the fantastic feedback we’ve received for Visual Studio, one sentiment has rung loud and clear: a desire to debug optimized C++ code without sacrificing […]\nThe post C++ Dynamic Debugging: Full Debuggability for Optimized Builds appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483557",
-    "pubDate": "Thu, 20 Mar 2025 10:57:22 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://devblogs.microsoft.com/cppblog/cpp-dynamic-debugging-full-debuggability-for-optimized-builds/",
+    "pubDate": "Wed, 19 Mar 2025 18:33:52 +0000",
+    "creator": "David Li",
     "categories": [
-      "NEWS/IT 뉴스",
-      "다음 분사",
-      "블로그 플랫폼",
-      "카카오 다음 관계",
-      "카카오 티스토리",
-      "티스토리 SEO",
-      "티스토리 검색 노출",
-      "티스토리 대체",
-      "티스토리 미래",
-      "티스토리 블로거 대비",
-      "티스토리 유료화"
+      "C++",
+      "Game Development",
+      "debugging",
+      "Optimized Builds"
     ]
   }
 ]
