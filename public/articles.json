@@ -2,6 +2,65 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "[MULTI] 그간의 시행착오를 발전으로 승화시킨, 유미아의 아틀리에",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2292",
+    "pubDate": "Sun, 23 Mar 2025 14:11:15 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "The Impact of Code Analysis in STEM: Protecting Work That Affects the World",
+    "description": "At Qodana, we champion code quality for businesses and enterprise development teams, but it has other crucial applications, and implications. Not only can good (and bad!) code be felt in the digital products we all know and use every day, but its impact also extends to science, technology, engineering, and mathematics (STEM). As STEM disciplines […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2025/03/code-analysis-in-stem/",
+    "pubDate": "Sat, 22 Mar 2025 08:25:25 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "code-review",
+      "code-analysis",
+      "inellij",
+      "learning",
+      "science",
+      "stem"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Dutch Laravel Foundation Meetup at the JetBrains Office",
+    "description": "Earlier this month, we had the pleasure of hosting a community meetup in our Amsterdam office in collaboration with our partner DLF (the Dutch Laravel Foundation). The event brought together Laravel and PHP developers for an evening of technical talks, networking, and knowledge sharing. The Dutch Laravel Foundation is a non-profit organization that works to […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/phpstorm/2025/03/dutch-laravel-foundation-meetup-at-the-jetbrains-office/",
+    "pubDate": "Wed, 26 Mar 2025 13:03:48 +0000",
+    "creator": "Tania Goral",
+    "categories": [
+      "meetup"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Logstash 필터 geoip - 2nd",
+    "description": "geoip 필터를 이용하면 위경도를 포함한 ip 주소의 다양한 지리 정보를 사용할 수 있다. \n\n{\n    \"message\" => \"122.213.34.56\",\n      \"geoip\" => {\n             \"longitude\" => 139.6297,\n                    \"ip\" => \"122.213.34.56\",\n         \"country_code3\" => \"JP\",\n              \"latitude\" => 35.5843,\n              \"timezone\" => \"Asia/Tokyo\",\n             \"city_name\" => \"Chitose\",\n           \"region_name\" => \"Kanagawa\",\n           \"region_code\" => \"14\",\n              \"location\" => {\n            \"lat\" => 35.5843,\n            \"lon\" => 139.6297\n        },\n          \"country_name\" => \"Japan\",\n           \"postal_code\" => \"213-0021\",\n         \"country_code2\" => \"JP\",\n        \"continent_code\" => \"AS\"\n    }\n}\n\n\n\n\n그런데 위경도 정보가 이미 있다면?\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n csv {\n  columns => [\"lat\", \"lon\"]\n  add_field => {\"point\" => \"%{lat}\"}\n  add_field => {\"point\" => \"%{lon}\"}\n  convert => {\"point\" => \"float\"}\n }\n}\n\n\n\n\n{\n    \"message\" => \"37.48854368,126.9094842\\r\",\n        \"lat\" => \"37.48854368\",\n        \"lon\" => \"126.9094842\",\n      \"point\" => [\n        [0] \"37.48854368\",\n        [1] \"126.9094842\"\n    ]\n}\n\n\n\n\npoint 필드에 위경도 정보 통합. 그런데 숫자 타입 변환이 안 된다. 옵션 순서 문제인가? 타입 변환 과정만 분리.\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n csv {\n  columns => [\"lat\", \"lon\"]\n  add_field => {\"point\" => \"%{lat}\"}\n  add_field => {\"point\" => \"%{lon}\"}\n }\n\n\n mutate {\n  convert => {\"point\" => \"float\"}\n }\n}\n\n\n\n\n{\n    \"message\" => \"37.48854368,126.9094842\\r\",\n        \"lat\" => \"37.48854368\",\n        \"lon\" => \"126.9094842\",\n      \"point\" => [\n        [0] 37.48854368,\n        [1] 126.9094842\n    ]\n}\n\n\n\n\n숫자 타입 변환은 됐는데, 이번엔 인뎅싱이 안 된다. 에러 메시지를 보니 위도 정보값이 이상하다고? 위경도 정보에 순서가 있는 모양.\n\nCould not index event to Elasticsearch. {:status=>400, :action=>[\"index\", {:_id=>nil, :_index=>\"geotest\", :routing=>nil}, {\"message\"=>\"37.48854368,126.9094842\\r\", \"lat\"=>\"37.48854368\", \"lon\"=>\"126.9094842\", \"point\"=>[37.48854368, 126.9094842]}], :response=>{\"index\"=>{\"status\"=>400, \"error\"=>{\"type\"=>\"document_parsing_exception\", \n\"reason\"=>\"[1:112] failed to parse: illegal latitude value [126.9094842] for point\", \"caused_by\"=>{\"type\"=>\"illegal_argument_exception\", \"reason\"=>\"illegal latitude value [126.9094842] for point\"}}}}}\n\n\n경도 정보 먼저 저장.\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n csv {\n  columns => [\"lat\", \"lon\"]\n  add_field => {\"point\" => \"%{lon}\"}\n  add_field => {\"point\" => \"%{lat}\"}\n }\n\n\n mutate {\n  convert => {\"point\" => \"float\"}\n }\n}\n\n\n\n\n{\n    \"message\" => \"37.48854368,126.9094842\\r\",\n        \"lat\" => \"37.48854368\",\n        \"lon\" => \"126.9094842\",\n      \"point\" => [\n        [0] 126.9094842,\n        [1] 37.48854368\n    ]\n}\n\n\n\n\n\ngeo_point 타입 필드는 당연히 인덱스 매핑에 미리 만들어놔야 한다.\n\n\n관련 글\n\nLogstash 필터 geoip\nLogstash 필터 grok\nLogstash 필터 mutate\nLogstash 필터 ruby\nLogstash 필터 dissect\nLogstash 필터 kv\nLogstash 필터 date\nLogstash 필터 translate\nLogstash 필터 drop\nLogstash 필터 useragent\nLogstash 필터 elapsed\nLogstash 필터 fingerprint\nLogstash 필터 csv\nLogstash 필터 dns\nLogstash 필터 split\nLogstash codec 플러그인 multiline",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/03/logstash-geoip-2nd.html",
+    "pubDate": "2025-03-23T03:16:00.003Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
     "title": "코루틴 Dispatchers.IO로 블록킹 문제 해결하기",
     "description": "Kotlin 코루틴의 Dispatchers.IO를 활용하면 블록킹 I/O 문제를 극복하고, 병렬 처리로 애플리케이션의 성능과 반응성을 크게 향상시킬 수 있습니다.",
     "reviews": [],
@@ -19,156 +78,157 @@
     ]
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "열 살 토스가 받은 편지 ",
-    "description": "토스 10주년에 41만 개의 축하 메시지가 도착했어요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/messages-from-users",
-    "pubDate": "Mon, 24 Mar 2025 01:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Kotlin 2.1.20 Released",
-    "description": "The Kotlin 2.1.20 release is out! This version includes performance improvements and bug fixes for Kotlin 2.1.0. Here are some highlights from this release: For the complete list of changes, refer to What’s new in Kotlin 2.1.20 or the release notes on GitHub. How to install Kotlin 2.1.20 Starting from IntelliJ IDEA 2023.3 and Android […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/03/kotlin-2-1-20-released-2/",
-    "pubDate": "Thu, 20 Mar 2025 11:59:00 +0000",
-    "creator": "Daniel Csorba",
-    "categories": [
-      "releases"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "멀티플랫폼 문서를 관리하는 한 가지 방법, 싱글 소싱",
-    "description": "안녕하세요. LINE Plus Tech Content Strategy 팀 하성창입니다. 저희 팀은 테크니컬 라이터로 구성돼 있으며, LINE Plus에서 개발한 다양한 플랫폼의 기...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/single-sourcing-for-multi-platform-documentation",
-    "pubDate": "Mon, 24 Mar 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "티스토리 유료화된다면? 블로거들이 꼭 알아야 할 변화와 대응법 - 티스토리의 미래 3부작 (2부)",
-    "description": "티스토리가 유료화된다면, 블로거들에게 어떤 변화가 있을까요?\n무료 플랜과 유료 플랜이 도입될 가능성을 분석하고, 블로거들이 어떻게 대비해야 할지 실질적인 전략을 제공합니다.\n\n\n \n\"티스토리가 유료화되면, 블로그 운영을 계속할 수 있을까?\"\n \n최근 카카오가 다음을 분사를 결정하면서, 티스토리의 미래도 불투명해지고 있습니다.\n네이버 블로그, 브런치 등 경쟁 플랫폼과 차별성을 유지하려면,\n티스토리도 워드프레스처럼 유료 모델로 전환할 가능성이 있다는 전망이 나오고 있습니다.\n \n✅ 무료 & 유료 모델이 도입될까?\n✅ 어떤 방식으로 유료화될 가능성이 있을까?\n✅ 블로거들은 어떻게 대비해야 할까?\n \n티스토리가 유료화될 경우 예상되는 변화와 대응 전략을 분석해 보겠습니다.\n \n \n  티스토리, 왜 유료화 가능성이 거론될까?\n지금까지 티스토리는 무료 블로그 플랫폼으로 운영되어 왔습니다.\n그런데 카카오가 티스토리를 계속 운영할 경우, 수익 모델 강화를 위해 유료화할 가능성이 높아지고 있습니다.\n1️⃣ 카카오는 티스토리를 수익화해야 한다\n네이버 블로그는 네이버 검색과 통합되어 광고 수익을 창출\n워드프레스는 독립 블로그 운영 + 유료 플랜 도입으로 수익 모델 구축\n반면 티스토리는 광고 플랫폼으로서 경쟁력이 약해지고 있음\n  검색 트래픽이 줄어드는 상황에서, 티스토리는 새로운 수익 구조를 찾아야 합니다.\n2️⃣ 카카오는 콘텐츠 사업을 강화하고 있다\n카카오 브런치는 작가 중심의 프리미엄 콘텐츠 플랫폼\n카카오뷰는 큐레이션 서비스로 광고 수익을 창출\n티스토리도 단순 블로그가 아니라, 콘텐츠 수익 모델을 도입할 가능성 높음\n  즉, 티스토리는 기존 블로그 방식을 유지하기보다는, 새로운 방식의 유료 서비스로 전환될 수 있습니다.\n \n  티스토리가 유료화된다면, 어떤 방식이 될까?\n티스토리가 유료 모델을 도입한다면, 3가지 시나리오가 예상됩니다.\n  1) 무료 & 유료 플랜 병행 모델 (가장 가능성 높음)\n✅ 무료 플랜:\n기존 티스토리 블로그 운영 가능\n광고 포함 (애드센스 사용 제한 가능성)\n기능 일부 제한 (예: SEO 설정, 고급 테마 사용 불가)\n✅ 유료 플랜:\n광고 제거 옵션 제공\nSEO 최적화 기능 제공 (검색 노출 강화 기능 추가)\n고급 테마 지원 및 블로그 디자인 커스터마이징 가능\n개별 도메인 연결 가능\n  가능성이 높은 이유:\n  네이버 블로그는 애드센스 적용이 불가능하지만, 티스토리는 수익형 블로그 모델을 유지해야 함\n  카카오 입장에서 무료 사용자를 유지하면서, 고급 기능을 원하는 블로거들에게 유료 플랜을 제공하는 것이 현실적\n \n  2) 완전 유료화 (독립 블로그 플랫폼 전환)\n✅ 독립 블로그 운영 (호스팅 기반 모델)\n블로그를 직접 운영할 수 있도록, 월별 요금제 기반으로 제공\n워드프레스처럼 호스팅 방식으로 전환\n사용자들이 직접 블로그를 관리하고, 자체 서버 및 트래픽 비용을 부담\n❌ 위험 요소:\n블로거들의 이탈 가능성이 커짐\n유지 비용이 증가하면서, 초보 블로거들이 접근하기 어려워짐\n현재 카카오의 방향성과 일치하지 않을 가능성이 있음\n  가능성이 낮은 이유:\n  완전 유료화할 경우, 기존 블로거들의 대량 이탈이 발생할 수 있음\n  카카오는 플랫폼 기반 광고 수익을 원하기 때문에, 무료 사용자도 필요함\n \n  3) 프리미엄 콘텐츠 모델 (브런치 스타일 도입)\n✅ 블로그 기반 유료 콘텐츠 판매 기능 추가\n일부 글을 유료로 제공 (구독 모델 도입 가능성)\n크리에이터 지원 프로그램과 연계\n카카오페이와 연계하여 후원 및 구독 결제 기능 도입 가능\n❌ 위험 요소:\n기존 무료 블로그와의 차별성이 약해질 수 있음\n네이버 블로그 및 워드프레스와의 차별화 전략이 필요함\n  가능성이 있는 이유:\n  브런치와 유사한 방식으로, 티스토리를 프리미엄 블로그로 변화시키려 할 수도 있음\n \n \n  블로거들은 어떻게 대비해야 할까?\n✅ 1️⃣ 유료화 대비, 블로그 수익 모델 점검하기\n애드센스를 사용 중이라면, 무료 플랜에서 계속 허용될지 확인 필요\nSEO 기능이 제한될 가능성이 있으므로, 구글 검색 최적화를 미리 강화\n✅ 2️⃣ 티스토리 백업 및 마이그레이션 준비\n만약 유료화가 부담된다면, 워드프레스(독립 블로그), 네이버 블로그 등 대체 플랫폼 검토 필요\n블로그 데이터를 주기적으로 백업하여, 필요할 경우 다른 플랫폼으로 이전할 준비\n✅ 3️⃣ 대체 플랫폼 비교 분석\n플랫폼\n특징\n장점\n단점\n\n\n\n\n네이버 블로그\n네이버 검색 최적화\n트래픽 확보 쉬움\n애드센스 불가\n\n\n브런치 (카카오)\n프리미엄 콘텐츠\n브랜드 구축 가능\n광고 수익 불가\n\n\n워드프레스\n독립 운영 가능\n애드센스·광고 가능\n유지 비용 발생\n\n\n\n  티스토리를 계속 유지할지, 대체 플랫폼으로 이동할지는 유료화 방식에 따라 결정해야 합니다.\n \n  마무리: 티스토리, 유료화될까? 블로거들은 어떻게 준비해야 할까?\n✅ 티스토리는 네이버 블로그, 워드프레스와 차별화하기 위해 유료 모델을 도입할 가능성이 있다.\n✅ 가장 현실적인 시나리오는 ‘무료 & 유료 플랜 병행 모델’로, 광고 제거 및 SEO 강화 옵션을 제공하는 방식이 될 가능성이 크다.\n✅ 블로거들은 지금부터 블로그 데이터를 백업하고, SEO 최적화를 강화하면서 유료화에 대비해야 한다.\n  티스토리가 유료화될 경우, 블로거들이 생존할 방법을 미리 준비해야 합니다!\n \n \n\n \n다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지\n한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제\nmuzbox.tistory.com\n\n \n\n \n카카오, 다음과 결별하다! 티스토리의 앞날은? 티스토리의 미래 3부작 (1부)\n카카오가 다음(Daum)을 분사하면서, 티스토리(Tistory)의 미래도 불투명해지고 있습니다. 티스토리는 다음 소속으로 가게 될까, 아니면 카카오가 계속 운영할까? 블로거들이 대비해야 할 변화와 생\nmuzbox.tistory.com\n\n \n❓ Q&A\nQ1. 티스토리가 유료화될 가능성이 있나요?\nA. 카카오가 티스토리를 유지할 경우, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\nQ2. 유료화된다면 어떤 방식으로 진행될까요?\nA. 무료 플랜과 유료 플랜이 병행될 가능성이 높습니다. 무료 플랜은 광고 포함, 기능 일부 제한이 있을 수 있으며, 유료 플랜에서는 광고 제거, SEO 최적화, 고급 테마 지원 등의 기능이 추가될 수 있습니다.\nQ3. 티스토리 블로거들은 유료화에 어떻게 대비해야 하나요?\nA. 검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\nQ4. 티스토리가 완전 유료화될 가능성도 있나요?\nA. 완전 유료화될 가능성은 낮지만, 독립 블로그 호스팅 방식으로 전환될 경우 일정 비용이 필요할 수도 있습니다. 하지만 기존 사용자의 대량 이탈을 막기 위해 무료 모델도 유지될 가능성이 큽니다.\nQ5. 유료화되면 대체할 수 있는 블로그 플랫폼은 어떤 것이 있나요?\nA. 대체 플랫폼으로는 네이버 블로그(검색 최적화), 브런치(프리미엄 콘텐츠), 워드프레스(독립 블로그 운영 가능) 등이 있습니다. 블로그의 성격과 목표에 따라 적합한 플랫폼을 선택하는 것이 중요합니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 유료화될 가능성이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"카카오가 티스토리를 유지할 경우, 수익 모델 강화를 위해 워드프레스처럼 유료 플랜을 도입할 가능성이 있습니다. 무료와 유료 모델이 혼합된 방식으로 운영될 가능성이 큽니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"유료화된다면 어떤 방식으로 진행될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"무료 플랜과 유료 플랜이 병행될 가능성이 높습니다. 무료 플랜은 광고 포함, 기능 일부 제한이 있을 수 있으며, 유료 플랜에서는 광고 제거, SEO 최적화, 고급 테마 지원 등의 기능이 추가될 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리 블로거들은 유료화에 어떻게 대비해야 하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"검색 트래픽 변화를 대비해 구글 SEO 최적화를 강화하고, 블로그 백업을 주기적으로 진행해야 합니다. 또한, 티스토리가 유료화되거나 기능이 제한될 경우를 대비해 대체 플랫폼을 검토하는 것이 중요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 완전 유료화될 가능성도 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"완전 유료화될 가능성은 낮지만, 독립 블로그 호스팅 방식으로 전환될 경우 일정 비용이 필요할 수도 있습니다. 하지만 기존 사용자의 대량 이탈을 막기 위해 무료 모델도 유지될 가능성이 큽니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"유료화되면 대체할 수 있는 블로그 플랫폼은 어떤 것이 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"대체 플랫폼으로는 네이버 블로그(검색 최적화), 브런치(프리미엄 콘텐츠), 워드프레스(독립 블로그 운영 가능) 등이 있습니다. 블로그의 성격과 목표에 따라 적합한 플랫폼을 선택하는 것이 중요합니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483558",
-    "pubDate": "Fri, 21 Mar 2025 08:34:34 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "NEWS/IT 뉴스",
-      "블로그 마이그레이션",
-      "블로그 유료 모델",
-      "카카오 다음 분사",
-      "티스토리 SEO",
-      "티스토리 광고 정책",
-      "티스토리 대체 플랫폼",
-      "티스토리 미래",
-      "티스토리 애드센스",
-      "티스토리 워드프레스",
-      "티스토리 유료화"
-    ]
-  },
-  {
     "id": 6,
     "imageUrl": "",
-    "title": "How to Choose the Right LLM",
-    "description": "JetBrains AI Assistant is now multimodel! This is an exciting development, but what does it actually mean for you? It means AI Assistant is now more adaptable. It combines the strengths of different AI models, from the deep reasoning of large ones to the speed of compact ones, and even the privacy of local ones.  […]",
+    "title": "Toss Volunteer Toss Peace Goes Plogging for Forest Day",
+    "description": "Collected 30 18L bags of trash, pledging to practice environmental protection in daily life",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/03/how-to-choose-the-right-llm/",
-    "pubDate": "Mon, 24 Mar 2025 12:57:15 +0000",
-    "creator": "Irina Mariasova",
-    "categories": [
-      "ai-assistant",
-      "jetbrains-ai",
-      "ai-assistance",
-      "llm",
-      "llms"
-    ]
+    "link": "https://blog.toss.im/article/TossPeAce",
+    "pubDate": "Thu, 20 Mar 2025 22:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "Introducing Visual Studio Hub",
-    "description": "The Visual Studio Hub is here! Keeping up with the latest Visual Studio updates, features, and resources can feel like a full-time job. We’ve heard it time and time again—you want a simpler way to stay informed without digging through scattered blog posts, release notes, and social media updates. That’s why we created Visual Studio […]\nThe post Introducing Visual Studio Hub appeared first on Visual Studio Blog.",
+    "title": "상위 조직장의 관심",
+    "description": "요즘 회사 두 곳의 이야기를 들으며, 상위 조직장(최고 리더)이 프로젝트에 얼마나 관여하느냐에 따라 조직 문화가 얼마나 달라질 수 있는지 새삼 깨닫고 있다.\n흥미롭게도 두 회사 모두 ‘스쿼드’ 형태로 팀을 운영하지만, 최고 리더의 개입 정도는 전혀 다르다.\nA 회사 이야기\nA 회사는 최고 리더들의 관여가 매우 높다.\n전사적 관점에서 임팩트가 큰 작업은 빠르게 우선순위가 정리되고, 여러 팀 간 의사결정도 순식간에 이뤄진다.\n프로젝트가 신속하게 진행된다는 점에서는 장점이 많다.\n전사적인 프로젝트가 항상 최순위가 되고, 전사적인 임팩트에 모든 팀이 일사분란하게 움직인다.\n그렇지만 이 상황이 이어지니 구성원들이 자발적으로 아이디어를 내거나 실패를 통해 배울 기회가 줄어든다.\n어느 순간부터 팀원들은 “이게 최고 리더가 좋아할 만한 방식인가?”만을 고민하게 되고, 자연스럽게 리더가 선호할 것 같은 방향으로 디자인과 기획이 편중되는 분위기가 형성된다.\n결국 조직 내에서 “최고 리더의 오더를 수행하는 것”이 주된 업무 패턴이 되어버렸다.\n리더의 관여 덕분에 프로젝트 진행은 빠르지만, 조직원들의 주 관심사는 더이상 고객이 아니라 최고 리더가 된 것이다.\nA 팀의 조직장들은 HR과 미팅때마다 최고 리더들의 관심을 줄이고 위임을 요청한다.\nB 회사 이야기\n반면 B 회사는 완전히 다르다.\n최고 리더가 각 스쿼드에 거의 개입하지 않는다.\n초기에 각 조직별 KPI를 설정할 때 한 번 리더들의 확인을 거치는 정도이며, 이후 실행에 있어서는 전적으로 자율성을 부여받는다.\n이렇다 보니 승인 절차가 없고 내부에서 합의만 되면 바로 실행할 수 있어 속도는 놀라울 정도로 빠르다.\n하지만 오히려 이게 문제가 되기 시작했다.\n회사 내 다른 팀과 협업이 필요할 때, 각 스쿼드가 자기 팀의 KPI에 집중하다 보니 협력보다는 ‘내 팀 일 먼저’ 로 흐르는 경우가 잦다.\n더 큰 임팩트를 낼 수 있는 프로젝트라도 다른 조직을 설득하기가 번거롭고, 일정 맞추기가 쉽지 않으니 본인 조직에서 해결할 수 있는 스펙으로만 기획하게 된다.\n대부분의 작업은 전사적인 임팩트가 부족한 것들로 이루어진다.\n결국 큰 그림을 보는 전사적 시너지는 잘 이뤄지지 않는다.\n말을 빌리자면 팀의 규모가 아무리 커져도 플러스 효과는 있지만 곱하기 효과는 내지못하는 상황이 계속 이어지는 것이다.\nB 팀의 조직장들은 HR과 미팅때마다 최고 리더들이 여러 조직의 업무에 관여해서 더 큰 임팩트를 내야만 한다고 요청한다.\n리더의 개입, 방임, 위임 그 사이 어딘가\n근 6개월 내 스타트업에서 가장 핫한 주제가 바로 \"창업자 모드\" 일 것이다.\n에이비엔비의 CEO, 브라이언 체스키가 여러 스타트업 행사에서 이야기하는 개념으로 \"기업을 운영하면서 창업자가 모든 업무를 관리자에게 위임하지 말고, 사소한 부분까지 매우 적극적으로 개입하자는 주장\" 이다.\n브라이언 체스키가 ‘창업자 모드'를 선택한 이유\n폴 그레이엄이 이야기하는 창업자 모드\nInstacart CEO인 Fidji Simo가 \"완전 동의\" 한다는 글\nY Combinator의 창업가 폴 그레이엄은 직접 블로그까지 써가면서, 브라이언의 창업자 모드 라는 개념이 '스타트업 경영의 중대한 인사이트' 라고 극찬을 했다고 한다.\n다만 브라이언 체스키도 '마이크로 매니징' 과 '세부 사항 관여'는 다른거라고 한다.\n즉, 무엇을 해야하는지 하나하나 지시하는 것(마이크로 매니징) 이 아니라 상위 리더가 디테일한 내용을 직접 '알고' 의사결정을 하거나 지원하는 것이 중요하고 효과적이라는 것이다.\nA, B 회사의 사례가 비단 두 회사만의 이야기는 아니다.\n대단히 많은 회사가 이 두 회사 사이 어느즘에 있다.\n결국 최고 리더가 디테일을 자세히 파악하고 있으면서 어디까지 결정에 참여할 것인지 조절하는 것이 중요한 것 같다.\n위임과 방임은 다르다.\n최고 리더 혹은 상위 리더는 여러 의사결정에서 분명히 본인들이 이해하고 있고, 필요하면 여러 팀 간의 의사결정에서 회사를 위한 가장 좋은 결정을 내려야 한다.\n다만, 그 사이에서 너무 세세한 것들까지, 혹은 필요 이상으로 How 에 관해 이야기하는 것은 조심해야 한다.\n이걸 잘 지킬 수 있다면 너무나 성과내기 좋은 조직이 될 수 있지 않을까?",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-hub/",
-    "pubDate": "Mon, 24 Mar 2025 14:44:42 +0000",
-    "creator": "Jacqueline Widdis",
+    "link": "https://jojoldu.tistory.com/822",
+    "pubDate": "Sat, 22 Mar 2025 18:29:15 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "Events",
-      "Visual Studio",
-      "News",
-      "Preview Features",
-      "Visual Studio Hub"
+      "생각정리",
+      "리더십",
+      "마이크로 매니징",
+      "브라이언 체스키",
+      "위임",
+      "창업자 모드"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "C# 황당한 코딩 오류 / 점이 빠졌는데 찾기가 너무 어려웠다.",
-    "description": "코드: \nvar fullsize = go.AddComponent<Fullsize>(); \nFullsize Inst = fullsize;\n유니티  C# 코드 입니다. \nFullsize 를 생성해서 \nFullsize 의 static 변수 Inst 에; 넣는 단순한 코드입니다.\nFullsize.Inst 를 사용하려고 할때 자꾸 없다고 에러가 나고 있었구요\n한참 로그 넣고 이것저것 찾아보다 알았습니다.\n\n\n점이 빠져있었습니다. \n그래서 static 변수에 넣는게 아니고 지역 변수에 넣고 있었습니다.\n황당해서 기록남겨봅니다.",
+    "title": "토스, ‘2025 토스 커뮤니티 대규모 채용’ 실시",
+    "description": "금융을 넘어 삶을 바꾸는 여정, 이제 당신이 뛰어들 차례",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1223",
-    "pubDate": "Sun, 23 Mar 2025 01:12:00 +0900",
-    "creator": "이건개발",
-    "categories": [
-      "프로그래밍/개발메모",
-      "CSharp",
-      "unity",
-      "황당"
-    ]
+    "link": "https://blog.toss.im/article/tosscareer",
+    "pubDate": "Tue, 25 Mar 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "리눅스 절전 모드 비활성화 - systemd sleep",
-    "description": "리눅스 워크스테이션이나 데스크탑 버전을 설치하면 기본적으로 절전 기능이 활성화 되어있다. 예를 들어 Fedora workstation을 설치했다면 기본으로 절전 기능이 활성화되어있을 것이다. 만일 ssh로 외부에서 접속해서 작업하다가는 아래와 같은 메시지와 함께 절전으로 전환(suspend) 될 수도 있다. 이렇게 절전 모드로 빠지면 외부 접속은 모두 끊긴다.\n$ Broadcast message from gdm@fedora on tty1:\n\nThe system will suspend now!\n이런 문제를 겪지 않으려면 다음과 같이 설정하도록 한다. (관련 매뉴얼 페이지 : systemd-sleep.conf) \n \n1. systemd/sleep.conf 설정 확인\n먼저 현재 설정을 systemd-analyze cat-config systemd/sleep.conf 명령으로 확인해본다.\n$ sudo systemd-analyze cat-config systemd/sleep.conf\n# /etc/systemd/sleep.conf\n#  This file is part of systemd.\n#\n#  systemd is free software; you can redistribute it and/or modify it under the\n#  terms of the GNU Lesser General Public License as published by the Free\n#  Software Foundation; either version 2.1 of the License, or (at your option)\n#  any later version.\n#\n# Entries in this file show the compile time defaults. Local configuration\n# should be created by either modifying this file, or by creating \"drop-ins\" in\n# the sleep.conf.d/ subdirectory. The latter is generally recommended.\n# Defaults can be restored by simply deleting this file and all drop-ins.\n#\n# See systemd-sleep.conf(5) for details.\n\n[Sleep]\n#AllowSuspend=yes\n#AllowHibernation=yes\n#AllowSuspendThenHibernate=yes\n#AllowHybridSleep=yes\n#SuspendMode=\n#SuspendState=mem standby freeze\n#HibernateMode=platform shutdown\n#HibernateState=disk\n#HybridSleepMode=suspend platform shutdown\n#HybridSleepState=disk\n#HibernateDelaySec=\n#SuspendEstimationSec=60min\n위에 보면 모든 값들이 해시문자(#)로 막혀있는데, 이는 기본값을 의미한다. 그 중에 AllowSuspend=yes로 되어있는 부분이 바로 자동 절전 모드이다. 이를 no로 바꾸면 되는데, 편집을 직접하는게 아니라 overriding config를 만드는 방법을 사용하게 된다.\n \n2. AllowSuspend=no 설정 방법\n해당 설정은 관리자인 root 계정으로 명령해야 한다. 먼저 overriding config file을 저장할 디렉토리로 /etc/systemd/sleep.conf.d를 만들어야 한다. 그리고 해당 디렉토리에 넣을 설정 파일을 vi 같은 에디터로 만들어주면 된다. 즉 아래와 같이 명령한다.\nmkdir /etc/systemd/sleep.conf.d\ncd $!\nvi nosuspend.conf\nvi nosuspend.conf 명령어를 실행한 다음에는 아래의 내용을 넣는다. 핵심 설정 부분은 AllowSuspend=no 라는 부분이다.\n[Sleep]\nAllowSuspend=no\nAllowHibernation=no\nAllowSuspendThenHibernate=no\nAllowHybridSleep=no\n설정이 제대로 되었는지 확인하기 위해 systemd-analyze cat-config systemd/sleep.conf 명령을 다시 내려본다. 만일 가장 하단에 /etc/systemd/sleep.conf.d/nosuspend.conf로부터 파일을 읽혀졌다면 제대로 설정된 것이다.\nroot user# systemd-analyze cat-config systemd/sleep.conf\n...생략...\n\n[Sleep]\n#AllowSuspend=yes\n#AllowHibernation=yes\n#AllowSuspendThenHibernate=yes\n#AllowHybridSleep=yes\n#SuspendMode=\n#SuspendState=mem standby freeze\n#HibernateMode=platform shutdown\n#HibernateState=disk\n#HybridSleepMode=suspend platform shutdown\n#HybridSleepState=disk\n#HibernateDelaySec=\n#SuspendEstimationSec=60min\n\n# /etc/systemd/sleep.conf.d/nosuspend.conf\n[Sleep]\nAllowSuspend=no\n...\n해당 설정은 즉시 적용되므로 따로 restart나 reload해줘야 하는 것은 없다. 다만 정 불안하다면 systemctl daemon-reload 명령을 한번 해주면 될 것이다.\n \n히스토리\n2025-03-21 글 작성",
+    "title": "vercel 로 express 를 배포해보자 / 유니티 webgl 압축 지원하는 페이지를 배포 가능",
+    "description": "과거\nvercel 불편하다고 징징한 글을 올렸었는데요\n과거의 징징글: vercel 처음 써보고 분노한 개발자 사용기 / 배포 deploy / setInterval 안됨\n새로운 가능성을 찾았다.\n투자한 시간이 아까워 더 찾아봤습니다.\nexpress 를 배포할 수 있다는 것을 알았습니다.\nexpress 가 되면 할 수 있는게 매우 많아지는데\n그중에 unity webgl 압축을 처리할 수 있어서 50mb 정도의 빌드를 15mb 정도로 줄일 수 있습니다.\n즉 전체를 unity webgl 발라도 부담스럽지 않은 사이트를 가질 수 있게 됩니다.\n그래서  해보니 되었습니다.\n데모: Unity Web Player | Add Force 1\n이제 vercel 을 극찬해야할꺼 같습니다.\n \n따라하기 영상: https://www.youtube.com/watch?v=3IV60HVsW2M&t=17s\n\n\n\n \n다른 설명 영상보다 이 영상이 가장 정확했습니다.\n구독자가 7명에 활동을 중지한 채널 같습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://sunyzero.tistory.com/313",
-    "pubDate": "Fri, 21 Mar 2025 16:43:46 +0900",
-    "creator": "sunyzero",
+    "link": "http://serverdown.tistory.com/1225",
+    "pubDate": "Mon, 24 Mar 2025 12:49:31 +0900",
+    "creator": "이건개발",
     "categories": [
-      "컴퓨터 관련/리눅스(유닉스) 일반",
-      "Fedora",
-      "linux suspend",
-      "systemctl",
-      "systemd sleep",
-      "리눅스 절전 모드 해제",
-      "리눅스 하이버네이션"
+      "프로그래밍/개발메모",
+      "unity",
+      "WebGL"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "데드락 기록 - 2025.03.05",
-    "description": "https://github.com/boyism80/fb/commit/36d155582b85733f95c559f11b5824b025052a96",
+    "title": "What’s New in TeamCity 2025.03: Recipes, Improved Docker and Podman Integration, UI Updates, and More",
+    "description": "TeamCity’s first major release of the year, version 2025.03, is now available. It’s packed with new features, including massive UI updates, a new Run in Docker build feature, and JetBrains-crafted recipes available in our Marketplace. UI updates In line with our commitment to make TeamCity easier and more intuitive to use, this release introduces significant […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/boyism/223805433497?fromRss=true&trackingCode=rss",
-    "pubDate": "Sat, 22 Mar 2025 00:19:11 +0900",
-    "creator": "boyism",
+    "link": "https://blog.jetbrains.com/teamcity/2025/03/what-s-new-in-teamcity-2025-03-recipes-improved-docker-and-podman-integration-ui-updates-and-more/",
+    "pubDate": "Thu, 20 Mar 2025 15:31:00 +0000",
+    "creator": "Dmitry Mareychev",
     "categories": [
-      "동기화"
+      "release",
+      "teamcity"
     ]
   },
   {
     "id": 11,
+    "imageUrl": "",
+    "title": "ChatGPT 대화가 자꾸 끊기나요? 원인과 해결책 총정리",
+    "description": "ChatGPT 대화가 갑자기 끊기거나 느려지는 문제, 저도 정말 자주 겪어요. 왜 이런 문제가 생기는지, 그리고 어떻게 개선할 수 있는지 실용적인 해결책들을 모아봤어요. 여러분의 AI 대화 경험이 더 나아질 수 있는 팁을 확인해보세요!\n\n\n \n요즘 ChatGPT로 글 작성, 코딩, 정보 검색 등 다양한 작업을 하는데, 한창 대화를 이어가다 보면 갑자기 화면이 멈추거나 응답이 느려지는 경험 많이 해보셨죠? 처음엔 그냥 일시적인 현상이려니 했는데, 자주 반복되다 보니 정말 답답하더라고요. 특히 중요한 내용을 주고받다가 대화가 날아가버렸을 때의 그 당혹감이란...\n \n더 안타까운 건 이런 문제가 단순히 인터넷 연결이나 기기 성능 때문만은 아니라는 거예요. 그래서 오늘은 제가 직접 겪고 해결해 본 ChatGPT 대화 끊김 현상의 원인과 효과적인 대처법을 함께 살펴보려고 해요. 혹시 여러분도 비슷한 경험 있으셨나요?\n \nChatGPT 대화가 자꾸 끊기는 이유는 뭘까?  \n  첫 번째 원인: 메모리 누적 문제\nChatGPT는 대화를 이어가기 위해 이전 내용을 메모리에 저장해요. 대화가 길어질수록 '가상의 뇌'가 복잡해지고, 이전 맥락을 불러오는데 시간이 걸리죠. 결국 이 부담이 커지면 대화가 끊기거나 페이지가 멈추는 현상이 발생해요.\n저도 장시간 ChatGPT를 이용하며 메모를 작성하거나 복잡한 작업을 할 때마다, 중간중간 로딩이 길어지거나 브라우저가 튕기는 현상을 자주 겪었어요. 특히 이미지나 긴 텍스트를 여러 번 주고받으면 더더욱 심해지고요.\n \n⚠️ 두 번째 원인: 브라우저나 기기 문제가 아님\n처음엔 저도 사파리 브라우저 문제라고 생각했어요. 하지만 크롬에서도 동일했고, 모바일에서는 오히려 접근성은 괜찮지만 배터리가 빠르게 닳더라고요. 결국 이건 OpenAI 서버 자체 메모리 관리 이슈에 더 가깝다고 판단됐어요.\n \n끊김 없는 ChatGPT 사용을 위한 실용적인 해결책 3가지 ✅\n1. 대화 주제별로 분리하기\n한 채팅방에서 여러 주제를 다루면 모델이 맥락을 유지하기 위해 더 많은 메모리를 사용해요. 주제별로 새 채팅을 시작하면 메모리 부담을 줄일 수 있죠.\n \n이렇게 해보세요:\n코딩 질문, 글 작성 요청, 정보 검색 등을 별도 채팅으로 분리\n복잡한 주제는 더 작은 하위 주제로 나누기\n채팅 이름을 명확하게 지정해서 나중에 찾기 쉽게 관리\n실제로 저는 '블로그 글 작성', '코딩 도우미', '일상 대화' 등으로 채팅을 분리하고 나서 훨씬 안정적으로 사용하고 있어요.\n \n2. 정기적으로 대화 내용 백업하기\n중요한 대화는 항상 백업해두는 습관이 필요해요. ChatGPT에서는 몇 가지 방법으로 대화 내용을 저장할 수 있죠.\n백업 방법:\n클립보드 복사 - 중요한 응답은 즉시 복사해서 별도 문서에 보관\n스크린샷 - 특히 이미지가 포함된 대화는 스크린샷으로 저장\n저는 일주일에 한 번씩 중요 대화를 PDF로 저장하는 습관을 들였더니, 나중에 대화가 사라져도 당황하지 않게 되었어요.\n \n3. 대화 깊이 관리하기\n대화의 깊이(턴 수)가 깊어질수록 성능이 저하될 가능성이 높아져요. 대화가 길어질 때는 새로 시작하는 것이 좋아요.\n꿀팁:\n약 20-30회 턴이 지나면 새 채팅으로 이동하되, 이전 맥락은 간략히 요약해서 첫 메시지에 포함\n\"이전 대화 내용을 요약해줘\"라고 요청한 후 그 요약을 새 채팅의 시작점으로 활용\nPlus 구독자라면 Custom Instructions에 자주 사용하는 설정을 저장해두어 새 채팅에서도 일관성 유지\n \n제가 직접 경험한 ChatGPT 대화 끊김 상황과 해결법  \n 지난달에는 약 3시간 동안 코딩을 하느라 ChatGPT와 긴 대화를 나눴어요. 거의 완성단계에서 갑자기 화면이 멈추더니 \"네트워크 오류\"라는 메시지가 뜨면서 대화가 저장되지 않았죠. 정말 좌절감이 컸어요.\n그 이후로 저는 이런 방법을 실천하고 있어요:\n30분마다 백업: 중요한 작업 중에는 정기적으로 저장\n복잡한 작업 분할: 프로젝트 단계별로 새 채팅을 시작\n맥락 정리: 새 채팅 시작 시 \"지금까지 우리는 X에 대해 논의했고, 다음 단계는 Y이다\"라고 맥락 설명\n이렇게 하니 훨씬 안정적으로 사용할 수 있게 되었고, 가끔 문제가 생겨도 중요한 내용을 잃어버리는 일이 없어졌어요.\n \n \n ChatGPT 대화 끊김 해결 전략 요약\n문제 상황\n해결 방법\n효과\n\n\n\n\n긴 대화 후 속도 저하\n새 채팅 시작\n응답 속도 향상\n\n\n중요 정보 손실 우려\n정기적 PDF 백업\n데이터 안전 보장\n\n\n여러 주제 섞임\n주제별 채팅 분리\n맥락 파악 용이\n\n\n이전 설정 반복 필요\nCustom Instructions 활용\n일관성 유지\n\n\n복잡한 프로젝트 진행\n단계별 채팅 + 요약\n체계적 진행 가능\n\n\n\n \n마무리하며: 작은 습관으로 큰 스트레스 줄이기  \nChatGPT가 가끔 불안정하더라도, 위의 방법들을 실천하면 훨씬 더 효율적이고 안정적으로 사용할 수 있어요. 특히 중요한 작업을 할 때는 백업 습관이 정말 중요하다는 걸 기억해주세요.\n저는 이런 방법들로 ChatGPT를 더 믿고 사용할 수 있게 되었고, 덕분에 업무 효율도 높아졌어요.\n혹시 여러분도 대화가 끊기거나 데이터가 날아가버린 경험 있으셨나요?\n댓글로 경험 나눠주시면, 더 구체적인 대처 방법도 함께 고민해볼게요!  \n ‍♀️ ChatGPT 대화 끊김 관련 Q&A \nQ1. ChatGPT 대화가 자꾸 멈추는 이유는 뭔가요?\n대화가 길어질수록 메모리가 누적되어 처리 속도가 느려지고, 결국 서버가 크래시될 수 있기 때문입니다.\nQ2. 해결 방법은 없나요?\n대화를 분할하거나, 자주 사용하는 대화는 복사본으로 저장해두는 것이 좋습니다.\nQ3. 대화 내용을 자동으로 삭제하게 할 수는 없나요?\n현재는 수동 설정만 가능하지만, 향후 자동 삭제 기능이 도입될 가능성이 있습니다.\nQ4. 기기 간 대화 동기화가 느린 이유는?\n실시간 저장 기능이 상대적으로 느리고, 서버 요청이 많을 때 지연이 발생할 수 있어요.\nQ5. 브라우저를 바꾸면 문제가 해결될까요?\n대부분의 경우 브라우저 변경만으로는 해결되지 않으며, 근본적인 메모리 관리가 필요합니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT 대화가 자꾸 멈추는 이유는 뭔가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"대화가 길어질수록 메모리가 누적되어 처리 속도가 느려지고, 결국 서버가 크래시될 수 있기 때문입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"해결 방법은 없나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"대화를 분할하거나, 자주 사용하는 대화는 PDF나 복사본으로 저장해두는 것이 좋습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"대화 내용을 자동으로 삭제하게 할 수는 없나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재는 수동 설정만 가능하지만, 향후 자동 삭제 기능이 도입될 가능성이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"기기 간 대화 동기화가 느린 이유는?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"실시간 저장 기능이 상대적으로 느리고, 서버 요청이 많을 때 지연이 발생할 수 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"브라우저를 바꾸면 문제가 해결될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"대부분의 경우 브라우저 변경만으로는 해결되지 않으며, 근본적인 메모리 관리가 필요합니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483560",
+    "pubDate": "Mon, 24 Mar 2025 10:35:31 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 생산성 및 업무 효율화",
+      "ai 성능 저하",
+      "chatgpt 대화 끊김",
+      "기기 간 동기화",
+      "대화 백업 방법",
+      "대화 분할 기법",
+      "대화 저장 문제",
+      "맥락 유지 방법",
+      "메모리 과부하",
+      "브라우저 문제 아님",
+      "챗GPT 오류"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Copilot Chat에서 Vision 활용",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/ai-github_copilot_20250325/",
+    "pubDate": "Tue, 25 Mar 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "삼성, 뜬금없는(?) 무안경 3D 모니터 오디세이 3D 249만원에 출시",
+    "description": "삼성전자에서 무안경 3D 게이밍 모니터 오디세이 3D(G90XF)를 출시합니다. 가격은 249만원입니다.\n한때 3D가 디스플레이의 미래처럼 여겨졌던 시절이 있습니다. 특히 영화 아바타의 성공으로 엄청난 붐이 일었죠. 하지만 아무리 하드웨어가 좋아도 적절한 콘텐츠가 꾸준히 공급되지 않는다면 대중적인 지지를 받기는 힘듭니다.\n게다가 당시에는 안경을 써야만 3D 영상을 볼 수 있는 제품이 대부분이어서 불편함도 3D 열풍의 몰락에 힘을 더했습니다.\n \n최근에도 무안경 3D 모니터가 나오고는 있습니다만, 대중적인 수요보다는 산업적인 수요에 맞춰 나오고 있는 경우가 많죠.\n \n\n \n맨 눈 무안경 3D, 소니 ELF-SR2 27인치 4K 차세대 공간 현실 디스플레이의 가격은 5000달러\n영화 아바타의 성공 이후로 한때 3D가 대세였던 때가 있었습니다. 삼성이나 LG가 너도나도 3D 영상을 볼 수 있는 TV를 내놓던 시기였죠. 다만 이 붐은 빠르게 사그라들었습니다. 적당한 3D 콘텐츠가\nlazion.com\n\n \n그런데 갑자기 삼성전자가 국내에서는 처음으로 무안경 3D 모니터를 출시합니다. 오디세이 브랜드로 나오니 무려 게이밍 모니터입니다.\n \n \n국내 최초의 3D 무안경 게이밍 모니터 오디세이 3D\n \n\n\n \n가장 관심이 가는 무안경 3D 구현은 시선 추적(Eye Tracking)과 화면 맵핑(View Mapping) 기술로 특별한 도구를 쓰지 않고도 사용자의 눈 위치에 꼭 맞는 고화질 3차원 시청 경험을 제공합니다. \n \n오디세이 3D는 패널 전면에 렌티큘러 렌즈를 적용했으며, AI 3D 영상 변환 기능으로 2D 영상을 3D 콘텐츠로 전환할 수 있습니다. 예를 들어 평범한 유튜브 영상을 3D로 변환해서 볼 수 있죠.\n리얼리티 허브(Reality Hub) 소프트웨어로 게임을 등록하여 3D로 즐길 수도 있습니다.\n \n이 밖에도 스펙을 살펴보면 27인치(68.4cm)에 해상도는 3840x2160의 4K, IPS 패널을 가졌습니다.\nAMD 프리싱크 프리미엄 프로(FreeSync Premium Pro)와 지싱크 호환(G-SYNC™ Compatible)을 지원하며 최대 165Hz 주사율 및 1ms의 빠른 응답속도를 제공합니다. 밝기는 350cd/㎡입니다.\n \n중요한 가격은 249만원입니다.\n \n \n오디세이 3D의 한계\n \n오디세이 3D라고 3D를 아무 제약없이 보여주는 것은 아닙니다. 삼성전자의 상품 페이지에 올라온 내용에 따르면 우선 3D 기능 및 리얼리티 허브 관련하여 다음과 같은 제한이 있습니다.\n \n3D 콘텐츠 구현 관련 주요 유의사항\n- 3D 효과는 게임 콘텐츠와 PC 기능에 따라 달라질 수 있습니다.\n- 오디세이 3D 모니터가 여러 대 있는 다중 모니터 환경에서는 3D 기능이 제한될 수 있습니다.\n- 게임 호환성은 Reality Hub에서 확인할 수 있으며, Samsung.com 또는 Microsoft 스토어에서 다운로드할 수 있습니다.\n\nReality Hub 구동 관련 주요 유의사항\n- 이 기능은 영상 콘텐츠 변환만 지원하며 게임에서는 작동하지 않을 수 있습니다.\n- 3D 변환을 활성화하려면 Reality Hub가 시스템 트레이에서 실행 중이고 영상이 전체 화면으로 표시되어야 합니다.\n- 일부 영상 플레이어는 3D 변환을 지원하지 않을 수 있습니다.\n- DRM 콘텐츠나 HDR 모드가 활성화된 경우에는 3D 변환을 사용할 수 없습니다.\n- 3D 영상 변환은 NVIDIA 그래픽 카드에서만 지원됩니다. RTX 3080 이상을 권장합니다.\n- 3D 성능 구현을 위해 다음 PC 사양이 권장됩니다.\n· CPU: Intel i7 이상, AMD Ryzen 7 1700X 이상\n· DDR: DDR5-5600 32GB 2ea\n· PCIe: PCIe 5.0\n \n중요한 부분만 이야기하면 우선 3D 영상 변환에는 엔비디아 그래픽 카드가 필수 준비 품목이며, RTX 3080/4070 이상을 권장하고 있습니다. 더 뒤져보니 Side-By-Side 방식의 변환은 AMD 6900XT/7900XT 이상이 있으면 가능합니다. \n3D 영상 변환의 경우 DRM 콘텐츠나 HDR 모드가 활성화된 경우에는 3D 변환이 안 된다고 하니 OTT의 영상 콘텐츠도 안 될 가능성이 높습니다.\n \n\n\n \n \n무안경 3D 게이밍 모니터, 성공할까?\n \n앞에서도 말했듯이 한때 뜨거웠던 3D 붐이 죽었던 것은 하드웨어의 문제도 문제였지만 뛰어난 3D 콘텐츠가 그리 많지 않았기 때문입니다. 처음에는 대단하게 여겨졌지만 자주 보니 2D랑 별 차이가 안 느껴지는 콘텐츠가 대부분이었던 거죠.\n \n그런 차원에서 삼성 오디세이 3D는 안경이라는 허들을 넘긴 했지만 대중적으로 성공하기는 힘들 것으로 보입니다. 2D 콘텐츠를 자동 변환하는 정도가 아니라 진짜 3D 킬러 콘텐츠가 나오지 않는 한 27인치 4K IPS 패널 모니터에 250만원 가까운 돈을 투자하기는 어렵기 때문이죠.\n \n삼성전자에서는 3D 게이밍 환경을 조성하기 위해 게임 개발사들과 지속적인 협업을 추진 중이라고는 하는데, 제조업 위주로 성장해 온 삼성전자의 행적에 비추어보면 큰 기대는 안 합니다.\n \n \n(출처 : 삼성전자)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://lazion.com/2513740",
+    "pubDate": "Mon, 24 Mar 2025 15:35:50 +0900",
+    "creator": "늑돌이",
+    "categories": [
+      "#TV#디스플레이#프로젝터",
+      "3d",
+      "g90xf",
+      "Monitor",
+      "News",
+      "Odyssey",
+      "Samsung",
+      "SEC",
+      "무안경",
+      "삼성전자",
+      "오디세이"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "VS Code C++ Extension Updates: 4x Faster Colorization & 3.5x Faster Project Startup",
+    "description": "In the latest releases of the C++ Extension in Visual Studio Code, we have focused on performance improvements and stability. A fast, responsive, and reliable development environment is essential for maintaining productivity, especially in large and complex C++ projects. These updates include many incremental optimizations that collectively speed up the time from opening a C++ […]\nThe post VS Code C++ Extension Updates: 4x Faster Colorization & 3.5x Faster Project Startup appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/vs-code-c-extension-updates-4x-faster-colorization-3-5x-faster-project-startup/",
+    "pubDate": "Tue, 25 Mar 2025 22:23:36 +0000",
+    "creator": "Alexandra Kemper",
+    "categories": [
+      "C++",
+      "performance",
+      "Visual Studio Code"
+    ]
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "티스토리를 떠나야 할까? 대체 플랫폼 5곳 비교 분석 - 티스토리의 미래 3부작 (3부)",
     "description": "티스토리를 떠나야 할지 고민하는 요즘, 마음이 참 복잡해요. 블로그 플랫폼이라는 게 한번 정착하면 옮기기가 쉽지 않잖아요. 글, 이미지, 댓글, 그리고 무엇보다 그동안 쌓아온 포스팅들... 다 옮긴다고 생각하면 머리가 지끈지끈 아파옵니다.\n\n\n \n티스토리의 미래가 불안하다는 소식이 들리면서부터 '이제 어디로 가야 하나' 하는 고민이 시작됐어요. 여러분도 비슷한 고민하고 계시죠? 오늘은 제가 여러 블로그 플랫폼을 직접 사용해보고 비교 분석한 내용을 솔직하게 공유해 드릴게요.\n \n  티스토리 이사를 고민해야 할 신호들\n티스토리가 당장 문을 닫진 않겠지만, 몇 가지 불안한 징후들이 나타나고 있어요. 이런 신호들이 보인다면 슬슬 대안을 준비해야 할 때입니다.\n플랫폼 불안정성의 징후\n요즘 티스토리에 로그인하려면 가끔 오류가 뜨더라고요. 글 작성 중에 튕기는 경우도 있고, 이미지 업로드가 예전보다 확실히 느려진 것 같아요. 이런 사소한 문제들이 쌓이다 보면 결국 큰 문제로 이어질 수 있어요.\n더 걱정되는 건, 관리자 측의 공지가 점점 줄어들고 있다는 점이에요. 예전엔 업데이트나 변화에 대해 미리 알려주곤 했는데, 요즘은 갑자기 바뀌어 있는 경우가 많아요. 고객센터 응답도 전보다 느려진 것 같고요.\nSEO 및 트래픽 감소\n제 블로그는 2년 전부터 네이버와 구글 검색 노출이 점점 줄어들고 있어요. 똑같은 콘텐츠 품질인데도 검색 순위가 자꾸 밀리는 느낌이랄까? 특히 네이버는 자사 블로그 우대 정책이 강화되면서 티스토리 블로그의 상위 노출이 점점 어려워지고 있어요.\n이런 검색 노출 감소는 당연히 광고 수익 감소로 이어지죠. 방문자 수가 줄면 애드센스 수익도 감소하니까요. 블로그로 부수입을 올리시는 분들이라면 이 부분이 특히 고민될 거예요.\n유료화 정책 도입 가능성\n솔직히 말해서, 유료화는 피할 수 없는 흐름인 것 같아요. 문제는 그 비용이 얼마나 될지, 그리고 무료 버전에선 어떤 기능이 제한될지예요. 만약 티스토리가 주요 기능을 대부분 유료로 전환한다면, 블로그 수익보다 유지비가 더 나올 수도 있잖아요?\n이 세 가지 중에서 두 가지 이상 해당된다면, 다른 플랫폼으로의 이전을 진지하게 고민해볼 때예요. 당장 무언가를 결정하기보다는, 천천히 대안을 탐색해보는 과정이 필요할 것 같습니다.\n \n \n  티스토리 대체 플랫폼 5곳 비교\n제가 직접 사용해본 5개의 플랫폼을 비교해봤어요. 각각의 특징과 장단점을 솔직하게 분석했습니다.\n1️⃣ 네이버 블로그\n네이버 블로그는 국내 검색 점유율 1위 포털에서 운영하는 만큼, 검색 최적화에 최고의 강점을 가지고 있어요. 특히 네이버 검색에서는 자사 플랫폼 우대 정책이 있어서 검색 유입에 확실히 유리합니다.\n장점:\n네이버 검색 노출이 압도적으로 유리\n대부분의 사용자에게 친숙한 인터페이스\n스마트에디터가 직관적이고 사용하기 쉬움\n네이버 아이디로 쉽게 시작할 수 있음\n단점:\n구글 애드센스 연동이 불가능해 수익화에 제한\n디자인 자유도가 낮고 템플릿이 제한적\n네이버의 정책 변화에 취약함\n타 플랫폼에 비해 전문적인 기능이 부족\n실제로 제 지인 중에는 티스토리에서 네이버로 옮긴 후 트래픽이 3배 이상 증가했다는 분도 있어요. 검색 최적화가 우선이라면 고려해볼 만한 옵션입니다.\n2️⃣ 브런치 (카카오)\n브런치는 카카오에서 운영하는 플랫폼으로, 감성적인 콘텐츠와 작가 중심의 커뮤니티가 특징이에요. 티스토리와 같은 카카오 계열이지만, 보다 '작품' 지향적인 플랫폼이라고 할 수 있죠.\n장점:\n깔끔하고 세련된 디자인으로 콘텐츠 집중도 높음\n작가로서의 브랜딩에 유리한 구조\n추천 시스템을 통한 새로운 독자층 확보 가능\n모바일 최적화가 잘 되어 있음\n단점:\n입점 심사가 필요해 진입 장벽이 있음\n광고 수익화가 거의 불가능\nSEO 최적화가 티스토리보다 약함\n콘텐츠 형식에 제한이 많음 (주로 글 중심)\n브런치는 광고 수익보다는 작가로서의 브랜딩이나 책 출간 등을 목표로 하는 분들에게 더 적합해요. 감성 에세이나 전문 지식을 공유하는 글이 주를 이루죠.\n3️⃣ 워드프레스 (독립형)\n워드프레스는 전 세계에서 가장 많이 사용되는 CMS(콘텐츠 관리 시스템)로, 완전한 독립 블로그를 운영할 수 있어요. 호스팅과 도메인을 직접 구매해 설치하는 방식입니다.\n장점:\n완전한 자유도와 소유권\nSEO 최적화에 매우 강력\n다양한 플러그인으로 확장성 무한대\n광고, 아필리에이트, 회원제 등 수익화 방식 다양\n단점:\n초기 설정과 관리가 상대적으로 어려움\n호스팅, 도메인 비용 등 유지 비용 발생\n보안, 백업 등을 직접 관리해야 함\n기술적 지식이 어느 정도 필요함\n제가 티스토리와 병행해서 운영 중인 플랫폼이 바로 워드프레스인데요. 처음엔 설정이 복잡했지만, 익숙해지니 그 자유도가 정말 매력적이에요. 특히 수익화 면에서는 어떤 플랫폼보다 유리합니다.\n4️⃣ 미디움 (Medium)\n미디움은 글로벌 콘텐츠 플랫폼으로, 깔끔한 디자인과 강력한 커뮤니티가 특징이에요. 영어 콘텐츠가 주를 이루지만, 한글 콘텐츠도 점점 늘어나고 있습니다.\n장점:\n세련된 미니멀 디자인\n글로벌 독자층 접근 가능\n소셜 미디어 공유 및 확산에 유리\n파트너 프로그램을 통한 수익화 가능\n단점:\n한글 콘텐츠 검색 노출이 약함\n국내 독자층 확보가 어려움\n유료 구독 모델이 국내 사용자에게 생소함\n번역 기능이 완벽하지 않음\n영어로 콘텐츠를 작성하거나 글로벌 시장을 겨냥한다면 고려해볼 만하지만, 국내 독자를 대상으로 한다면 다소 제한적입니다.\n5️⃣ 구글 블로거 (Blogger)\n구글에서 제공하는 무료 블로그 서비스로, 간단한 설정으로 시작할 수 있어요. 애드센스와의 연동이 쉽고 안정적인 서비스가 특징입니다.\n장점:\n구글 애드센스 연동이 매우 쉬움\n무료로 사용 가능하며 추가 비용 없음\n구글 검색 최적화에 유리\n안정적인 서버와 속도\n단점:\n디자인 템플릿이 제한적\n네이버 검색 노출이 약함\n커스터마이징 옵션이 티스토리보다 적음\n국내 사용자층이 적어 커뮤니티 형성이 어려움\n구글 블로거는 특히 해외 트래픽을 노리거나 애드센스 수익에 집중하는 블로거에게 적합해요. 하지만 국내 검색 엔진에서의 노출은 상대적으로 약한 편입니다.\n \n \n  티스토리 유지 vs 이전: 고민의 기로\n이제 가장 어려운 결정의 시간이네요. 티스토리를 계속 유지할지, 아니면 다른 플랫폼으로 이전할지 비교해봅시다.\n티스토리 계속 운영할 경우\n장점:\n지금까지 쌓아온 콘텐츠와 SEO 자산을 유지할 수 있어요\n익숙한 관리 환경에서 계속 작업할 수 있어 편리해요\n기존 구독자와 댓글 커뮤니티를 유지할 수 있죠\n애드센스 및 기존 수익 구조를 그대로 이어갈 수 있어요\n단점:\n카카오의 정책 변화에 따라 유료화될 가능성이 높아요\n기능 개선이나 업데이트가 느려질 수 있어요\n검색 엔진에서의 노출이 점점 줄어들 위험이 있죠\n플랫폼 자체의 불안정성 위험이 있어요\n다른 플랫폼으로 이전할 경우\n장점:\n새로운 검색 최적화 전략을 구사할 수 있어요\n브랜딩과 수익화 모델을 재설계할 기회가 됩니다\n새로운 UI/UX로 독자들에게 신선한 경험을 제공할 수 있어요\n플랫폼 종속성에서 벗어날 수 있어요 (특히 워드프레스)\n단점:\n글, 이미지, 댓글 등의 백업과 이전 작업이 매우 번거로워요\n기존 방문자와 구독자 중 일부는 이탈할 가능성이 높아요\n새로운 플랫폼에 적응하는 데 시간과 노력이 필요해요\nSEO 순위가 처음부터 다시 시작되어 트래픽 감소가 있을 수 있어요\n \n  블로거 유형별 추천 플랫폼\n모든 블로거에게 딱 맞는 하나의 플랫폼은 없어요. 각자의 운영 목적과 스타일에 따라 다른 선택이 필요합니다.\n블로거 유형 추천 플랫폼 추천 이유\n블로거 유형\n추천 플랫폼\n추천 이유\n\n\n\n\n수익형 블로그 운영자\n워드프레스, 구글 블로거\n광고 배치 자유도가 높고, 애드센스 최적화가 용이함\n\n\n감성 콘텐츠 작가\n브런치\n깔끔한 UI로 글 자체에 집중할 수 있고, 감성 콘텐츠에 최적화됨\n\n\n검색 유입이 중요한 블로거\n네이버 블로그\n국내 최대 포털에서의 검색 노출이 압도적으로 유리함\n\n\n글로벌 대상 콘텐츠 제작자\n미디움\n영어 기반 콘텐츠의 확산력이 우수하고 국제적 독자층 접근 가능\n\n\n커뮤니티 중심 블로거\n네이버 블로그, 티스토리\n댓글과 소통 기능이 활성화되어 있고, 국내 사용자에게 친숙함\n\n\n\n \n✅ 결론: 당장의 결정보다 중요한 것\n솔직히 말해서, 저는 티스토리를 10년 가까이 운영해왔지만 최근에는 워드프레스도 병행하고 있어요. 왜냐하면 플랫폼 하나에만 의존하는 것이 얼마나 위험한지 깨달았기 때문이에요.\n \n지금 고민하고 계신다면, 단순히 불안하다는 감정만으로 서둘러 결정하기보다는 \"내 블로그 운영 목적과 전략에 따라 이사 여부를 판단하는 것\"이 중요합니다.\n \n그리고 무엇보다 중요한 건, 백업은 지금 당장 하셔야 합니다! 어떤 결정을 내리든, 소중한 콘텐츠는 반드시 안전하게 보관해두세요. 또한 대체 플랫폼을 미리 테스트해보는 것도 현명한 전략입니다. 소규모로 새 플랫폼을 시작해 경험을 쌓아보세요.\n결국 플랫폼은 도구일 뿐이고, 가장 중요한 건 콘텐츠의 가치라는 점을 잊지 마세요. 어디서 글을 쓰든, 여러분의 진정성과 전문성이 담긴 콘텐츠는 언제나 가치가 있을 거예요.\n여러분은 어떤 플랫폼으로 옮길 생각이 있으신가요? 아니면 티스토리를 계속 지킬 준비가 되어 있으신가요? 댓글로 여러분의 고민과 선택을 나눠주세요!  ‍♂️ ‍♀️\n \n \n\n \n다음(Daum)의 굴곡진 역사, 포털 제왕에서 카카오의 손을 떠나기까지\n한때 대한민국을 대표했던 포털, 다음(Daum). 한메일과 카페로 인터넷 문화를 선도했지만, 네이버와 구글의 부상, 모바일 전환 실패로 쇠퇴의 길을 걸었습니다. 결국 카카오에 인수된 다음은 이제\nmuzbox.tistory.com\n\n\n \n카카오, 다음과 결별하다! 티스토리의 앞날은? 티스토리의 미래 3부작 (1부)\n카카오가 다음(Daum)을 분사하면서, 티스토리(Tistory)의 미래도 불투명해지고 있습니다. 티스토리는 다음 소속으로 가게 될까, 아니면 카카오가 계속 운영할까? 블로거들이 대비해야 할 변화와 생\nmuzbox.tistory.com\n\n \n\n \n티스토리 유료화된다면? 블로거들이 꼭 알아야 할 변화와 대응법 - 티스토리의 미래 3부작 (2부)\n티스토리가 유료화된다면, 블로거들에게 어떤 변화가 있을까요?무료 플랜과 유료 플랜이 도입될 가능성을 분석하고, 블로거들이 어떻게 대비해야 할지 실질적인 전략을 제공합니다. \"티스토리\nmuzbox.tistory.com\n\n \n❓ 자주 묻는 질문\nQ1: 티스토리에서 다른 플랫폼으로 글을 옮기는 가장 쉬운 방법은?\n티스토리의 백업 기능을 이용해 XML 파일을 다운로드한 후, 워드프레스나 블로거 같은 플랫폼에서 가져오기 기능을 사용하는 것이 가장 효율적이에요. 다만 이미지나 댓글은 완벽하게 이전되지 않을 수 있으니 확인이 필요합니다.\nQ2: 티스토리 백업은 어떻게 하나요?\n관리자 화면 > 설정 > 기타 설정 > 백업 메뉴에서 XML 형태로 백업할 수 있어요. 이미지는 별도로 다운로드해야 하며, 정기적인 백업을 추천합니다.\nQ3: SEO 관점에서 가장 유리한 플랫폼은?\n국내 검색엔진 최적화는 네이버 블로그, 해외 및 구글 검색 최적화는 워드프레스가 가장 유리합니다. 목표 시장에 따라 선택하세요.\nQ4: 워드프레스 초기 비용은 얼마나 들까요?\n도메인 비용(연 1~2만원)과 호스팅 비용(월 5천원~2만원)이 기본적으로 발생합니다. 테마나 플러그인에 따라 추가 비용이 있을 수 있으나, 무료 옵션도 많이 있어요.\nQ5: 티스토리가 유료화된다면 비용은 어느 정도가 될까요?\n아직 정확한 정보는 없지만, 비슷한 서비스인 워드프레스닷컴이나 외국 블로그 플랫폼을 참고하면 월 5천원~2만원 선으로 예상할 수 있습니다.\n 설정 > 기타 설정 > 백업 메뉴에서 XML 형태로 백업할 수 있어요. 이미지는 별도로 다운로드해야 하며, 정기적인 백업을 추천합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"SEO 관점에서 가장 유리한 플랫폼은?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"국내 검색엔진 최적화는 네이버 블로그, 해외 및 구글 검색 최적화는 워드프레스가 가장 유리합니다. 목표 시장에 따라 선택하세요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"워드프레스 초기 비용은 얼마나 들까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"도메인 비용(연 1~2만원)과 호스팅 비용(월 5천원~2만원)이 기본적으로 발생합니다. 테마나 플러그인에 따라 추가 비용이 있을 수 있으나, 무료 옵션도 많이 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"티스토리가 유료화된다면 비용은 어느 정도가 될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"아직 정확한 정보는 없지만, 비슷한 서비스인 워드프레스닷컴이나 외국 블로그 플랫폼을 참고하면 월 5천원~2만원 선으로 예상할 수 있습니다.\"\n      }\n    }\n  ]\n}",
@@ -189,66 +249,6 @@
       "워드프레스 장단점",
       "티스토리 대체 플랫폼",
       "티스토리 유료화"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "왜 더 열심히 일하지 않을까",
-    "description": "*악플을 쓰시려면, 기분이 태도가 되지 않게 특히 주의 바랍니다. 내가 쓴 악플은 세상 누구도 안 읽을 수도 있지만, 쓰시는 분은 반드시 읽습니다. 이 악플은 남을 향하기 전에 자기 자신에게 먼저 향합니다. 2월에 ‘더 열심히 일하지 않으면’이라는 글을 썼다. 솔직히 나는 그냥 내가 평소에 하던 생각을 그냥 포스팅했는데, 시장에서 꽤 많은 반응이 있었다. 한 달 만에(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/03/korea-needs-to-work-harder-and-longer.html",
-    "pubDate": "Sun, 23 Mar 2025 21:25:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "general",
-      "korea"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "GitHub Copilot을 사용하여 코드를 리팩토링하는 방법",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/ai-github_copilot_20250326/",
-    "pubDate": "Wed, 26 Mar 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "TeamCity Roadmap 2025: Updating the UI, TeamCity Recipes, and Much More",
-    "description": "This year, the TeamCity team is working on a number of new initiatives, including updating the UI, TeamCity recipes, Jenkins migration tools, and many others. Read on to learn what our focus is for 2025. Modernizing the TeamCity Enterprise interface In 2025, we’re taking a major step forward in enhancing the TeamCity experience. The modern […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/03/teamcity-roadmap-2025/",
-    "pubDate": "Wed, 19 Mar 2025 14:32:32 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "roadmap"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "C++ Dynamic Debugging: Full Debuggability for Optimized Builds",
-    "description": "Over the past 5 years, we’ve had many incredible opportunities to engage with game developers. From AAA studios to indie developers, the passion for slashing iteration times is significant. Amidst all the fantastic feedback we’ve received for Visual Studio, one sentiment has rung loud and clear: a desire to debug optimized C++ code without sacrificing […]\nThe post C++ Dynamic Debugging: Full Debuggability for Optimized Builds appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/cpp-dynamic-debugging-full-debuggability-for-optimized-builds/",
-    "pubDate": "Wed, 19 Mar 2025 18:33:52 +0000",
-    "creator": "David Li",
-    "categories": [
-      "C++",
-      "Game Development",
-      "debugging",
-      "Optimized Builds"
     ]
   }
 ]
