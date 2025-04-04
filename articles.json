@@ -2,46 +2,20 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Dutch Laravel Foundation Meetup at the JetBrains Office",
-    "description": "Earlier this month, we had the pleasure of hosting a community meetup in our Amsterdam office in collaboration with our partner DLF (the Dutch Laravel Foundation). The event brought together Laravel and PHP developers for an evening of technical talks, networking, and knowledge sharing. The Dutch Laravel Foundation is a non-profit organization that works to […]",
+    "title": "카이스트 망막 재생 방법 발견",
+    "description": "영상: https://www.youtube.com/shorts/8HRRG2ZM__4\n \n\n\n\n어류는 밀러 세포가 역분화 해서 망막세포가 재생되는 것을 발견함\n와우\n \n나오 이제 좀 볼 수 있으려나",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/03/dutch-laravel-foundation-meetup-at-the-jetbrains-office/",
-    "pubDate": "Wed, 26 Mar 2025 13:03:48 +0000",
-    "creator": "Tania Goral",
+    "link": "http://serverdown.tistory.com/1244",
+    "pubDate": "Tue, 1 Apr 2025 21:28:39 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "meetup"
+      "유튜브",
+      "망막"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "Toss Reports Records Revenue of 2 Trillion KRW and First Full-Year Net Profit in 2024",
-    "description": "Strong performance across all business segments",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/FirstFullYearNetProfit_",
-    "pubDate": "Thu, 27 Mar 2025 18:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Mobile GraphQL at Meta in 2025",
-    "description": "Mobile GraphQL is a framework used at Meta for fetching data in mobile applications using GraphQL, a strongly-typed, declarative query language. At Meta it handles data fetching for apps like Facebook and Instagram. Sabrina, a software engineer on Meta’s Mobile GraphQL Platform Team, joins Pascal Hartig on the Meta Tech podcast to discuss the evolution [...]\nRead More...\nThe post Mobile GraphQL at Meta in 2025 appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/03/31/data-infrastructure/mobile-graphql-meta-2025/",
-    "pubDate": "Mon, 31 Mar 2025 16:16:28 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Data Infrastructure",
-      "Meta Tech Podcast"
-    ]
-  },
-  {
-    "id": 4,
     "imageUrl": "",
     "title": "Logstash 필터 ruby - 7th",
     "description": "ruby 필터를 이용한 숫자 검사.\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n dissect {\n  mapping => {\"message\" => '%{}\"%{}\" %{status} %{}'}\n  convert_datatype => {\"status\" => \"int\"}\n }\nruby {\n  code => \"\n   for i in [2,3,4,5]\n    if event.get('status').match(/#{i}\\d+/)\n     j = i * 100\n     event.set('status2', j)\n    end\n   end\n  \"\n }\n}\n\n\n[2025-03-28T12:53:15,072][ERROR][logstash.filters.ruby    ][main][9cea864b7137d9fe155b8bc242225c2bc2889d096d10ad7be31764fb047da980] \nRuby exception occurred: undefined method `match' for 200:Integer\nDid you mean?  catch {:class=>\"NoMethodError\", :backtrace=>[\"(ruby filter code):4:in `block in register'\", \"org/jruby/RubyArray.java:1981:in `each'\", \"(ruby filter code):1:in `block in register'\", \"D:/ELK/logstash-8.17.0/vendor/bundle/jruby/3.1.0/gems/logstash-filter-ruby-3.1.8/lib/logstash/filters/ruby.rb:96:in `inline_script'\", \"D:/ELK/logstash-8.17.0/vendor/bundle/jruby/3.1.0/gems/logstash-filter-ruby-3.1.8/lib/logstash/filters/ruby.rb:89:in `filter'\", \"D:/ELK/logstash-8.17.0/logstash-core/lib/logstash/filters/base.rb:158:in `do_filter'\", \"D:/ELK/logstash-8.17.0/logstash-core/lib/logstash/filters/base.rb:176:in `block in multi_filter'\", \"org/jruby/RubyArray.java:1981:in `each'\", \"D:/ELK/logstash-8.17.0/logstash-core/lib/logstash/filters/base.rb:173:in `multi_filter'\", \"org/logstash/config/ir/compiler/AbstractFilterDelegatorExt.java:133:in `multi_filter'\", \"D:/ELK/logstash-8.17.0/logstash-core/lib/logstash/java_pipeline.rb:308:in `block in start_workers'\"]}\n{\n       \"tags\" => [\n        [0] \"_rubyexception\"\n    ],\n    \"message\" => \"1.2.3.4 - - [12/Oct/2015:02:42:00 +0900] \\\"GET /bbs/view.html HTTP/1.1\\\" 404 37727\\r\",\n     \"status\" => 404\n}\n{\n       \"tags\" => [\n        [0] \"_rubyexception\"\n    ],\n    \"message\" => \"192.168.56.1 - - [12/Oct/2015:02:42:00 +0900] \\\"GET /bbs/view.php?board_id=kor%5Fmedia&gul_no=1106&idx=17&m=4&upage=25&tpage=&PAGE=4 HTTP/1.1\\\" 200 37727\\r\",\n     \"status\" => 200\n}\n\n\n\n왜 검사를 못하지? 그분께 물어봤다.\n\n\n\n\nmatch 메서드는 문자열만 검사할 수 있다고 알려주는 chatgpt느님(..) 가르쳐준대로 수정.\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n dissect {\n  mapping => {\"message\" => '%{}\"%{}\" %{status} %{}'}\n  convert_datatype => {\"status\" => \"int\"}\n }\n\n ruby {\n  code => \"\n   for i in [2,3,4,5]\n    if event.get('status').to_s.match(/#{i}\\d+/)\n     j = i * 100\n     event.set('status2', j)\n    end\n   end\n  \"\n }\n}\n\n\n{\n    \"status2\" => 400,\n    \"message\" => \"1.2.3.4 - - [12/Oct/2015:02:42:00 +0900] \\\"GET /bbs/view.html HTTP/1.1\\\" 404 37727\\r\",\n     \"status\" => 404\n}\n{\n    \"status2\" => 200,\n    \"message\" => \"192.168.56.1 - - [12/Oct/2015:02:42:00 +0900] \\\"GET /bbs/view.php?board_id=kor%5Fmedia&gul_no=1106&idx=17&m=4&upage=25&tpage=&PAGE=4 HTTP/1.1\\\" 200 37727\\r\",\n     \"status\" => 200\n}\n\n\n\n관련 글\n\nLogstash 필터 ruby - 6th\nLogstash 필터 ruby\nLogstash 필터 grok\nLogstash 필터 mutate\nLogstash 필터 geoip\nLogstash 필터 dissect\nLogstash 필터 kv\nLogstash 필터 date\nLogstash 필터 translate\nLogstash 필터 drop\nLogstash 필터 useragent\nLogstash 필터 elapsed\nLogstash 필터 fingerprint\nLogstash 필터 csv\nLogstash 필터 dns\nLogstash 필터 split\nLogstash codec 플러그인 multiline",
@@ -53,19 +27,95 @@
     "categories": []
   },
   {
-    "id": 5,
+    "id": 3,
     "imageUrl": "",
-    "title": "C# - 컬렉션 표현식을 사용하여 코드 리팩터링 하기",
-    "description": "No description available",
+    "title": "토스, 첫 연간 흑자 전환…창사 이래 최대 매출 달성",
+    "description": "2024년 연결 영업수익 1조9,556억 원, 연결 영업이익 907억 원 기록",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/NET_20250401/",
-    "pubDate": "Tue, 01 Apr 2025 00:00:00 +0900",
+    "link": "https://blog.toss.im/article/FirstFullYearNetProfit",
+    "pubDate": "Fri, 28 Mar 2025 07:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Goodbye My Linux",
+    "description": "이 글은 개발자가 메인 운영체제로서 리눅스와 작별하고 윈도우로 전환하는 결정에 관한 이야기입니다. 리눅스가 개발자에",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.sangkon.com/goodbye-my-linux/",
+    "pubDate": "Wed, 02 Apr 2025 14:46:36 GMT",
+    "creator": "Sangkon Han",
+    "categories": [
+      "Articles"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "AI-Powered Learning Comes to the JetBrains Academy Plugin",
+    "description": "Learning to code can be challenging – but struggling to understand a task or unfamiliar concept shouldn’t be one of those challenges. That’s why we’ve introduced two new AI-powered features in the JetBrains Academy plugin to help you stay focused, confident, and in the flow: Machine Translation and Theory Lookup. Unlike generic AI coding features, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/education/2025/04/03/jetbrains-academy-plugin-2025-3-ai-features/",
+    "pubDate": "Thu, 03 Apr 2025 13:36:25 +0000",
+    "creator": "Anastasiia Pogorelova",
+    "categories": [
+      "jetbrains-academy",
+      "jetbrains-academy-plugin",
+      "releases"
+    ]
+  },
+  {
     "id": 6,
+    "imageUrl": "",
+    "title": "오픈 마누스(manus) AI 에이전트 설치, 사용 및 구조 분석하기",
+    "description": "한동안 회사 일 때문에 미뤄두었던, 딥시크(DeekSeek)와 더불어 많이 많은 마누스(manus.im)에서 영감받아 개발된 오픈마누스(open manus) 오픈소스 AI 에이전트를 설치, 사용 및 분석한다. 오픈마누스는 MetaGPT란 이름으로 활동 중인 중국인 개발자가 공개한 AI에이전트이다. 개발자는 오픈마누스가 연결된 다양한 도구들을 LLM으로 조율하고, 실행할 수 있고 주장하고 있다. 깃허브 등에 설명된 오픈 마누스는 다음과 같은 기능을 지원한다.\n\n로컬에서 AI 에이전트 실행\n여러 도구 및 API 통합: 외부 API, 로컬 모델 및 자동화 도구를 연결, 호출\n워크플로우 사용자 지정: AI가 복잡한 다단계 상호 작용을 효율적으로 처리\n여러 LLM 지원: LLaMA, Mistral 및 Mixtral과 같은 인기 있는 개방형 모델 모델과 호환\n자동화 향상: 내장 메모리 및 계획 기능을 통해 OpenManus는 코딩, 문서 처리, 연구 등을 지원\n\n다음 그림은 이 에이전트가 지원하는 기능 중 일부이다. \n\n\nprompt: Create a basic Three.js endless runner game with a cube as the player and procedurally generated obstacles. Make sure to run it only in browser. If possible also launch it in the browser automatically after creating the game.\n\n오픈 마누스는 이전 중국에서 개발된 마누스의 관심을 오픈소소로 옮겨지는 데 성공했다. 오픈 마누스는 현재 github에서 40.6k란 매우 높은 좋아요 관심을 받고 있다. \n\n\n오픈 마누스(현재 시점. 40.6k stars)\n\n\n\n개인적으로 오픈마누스에 대한 관심도가 높았던 것은, 구현된 기술보다는 에이전트 분야에서 크게 알려진 마누스에 대한 관심, 오픈소스 버전의 AI에이전트 코드 공개가 더 크게 작용했다고 생각한다. 이제 설치 사용해 보고, 성능 품질을 확인해 보자. 그리고, 코드 실행 메커니즘을 분석해 본다. \n\nOpenManus: No fortress, purely open ground. OpenManus is Coming.\n\n\n\n\n\n\n오픈마누스 설치\n개발환경은 이미 컴퓨터에 NVIDIA, CUDA, PyTorch 등이 설치되어 있다고 가정한다. 이제, 다음 명령을 터미널에서 실행해 설치한다.\n\nconda create -n open_manus python=3.12\nconda activate open_manus\n\ngit clone https://github.com/mannaandpoem/OpenManus.git\ncd OpenManus\npip install -r requirements.txt\nplaywright install\n\n\n오픈마누스가 설치하는 패키지를 보면, 많은 경우, 기존에 잘 만들어진 LLM, AI Agent 라이브러리를 사용하는 것을 알 수 있다. 여기서 사용하는 주요 라이브러리는 다음과 같다.\n\npydantic, openai, fastapi, tiktoken, html2text, unicorn, googlesearch-python, playwright, docker\n\nconfig/config.toml 설정 파일을 수정한다. api_key에 OpenAI의 API 키 등을 입력한다(만약, API 키 유출 등이 불안하다면, Ollama 오픈소스 LLM 모델로 설정한다).\n# Global LLM configuration\n\n[llm]\nmodel = \"gpt-4o\"\nbase_url = \"https://api.openai.com/v1\"\napi_key = \"sk-...\"  # Replace with your actual API key\nmax_tokens = 4096\ntemperature = 0.0\n\n\n# Optional configuration for specific LLM models\n[llm.vision]\nmodel = \"gpt-4o\"\nbase_url = \"https://api.openai.com/v1\"\napi_key = \"sk-...\"  # Replace with your actual API key\n\n\n실행\n\n일단, 예제를 간단히 실행해 본다. \npython main.py\n\n\n적절한 프롬프트를 입력해 본다. \ncreate PDF file about BIM(building information modeling). \n\n\n마누스는 이 프롬프트에 응답해, LLM에 입력하여, 마누스에 등록된 도구를 호출하는 정보와 스크립트를 생성한다. 그리고, 이를 통해 각 도구들을 적절히 호출해 실행한다.\n\n\n다음은 각 프롬트에 대한 그 예를 보여준다. \n\n\n\nprompt: Create a basic Three.js endless runner game with a cube as the player and procedurally generated obstacles. Make sure to run it only in browser. If possible also launch it in the browser automatically after creating the game.\n\n\nprompt: I need a 7-day Japan itinerary for April 15-23 from Seattle, with a $2500-5000 budget for my fiancée and me. We love historical sites, hidden gems, and Japanese culture (kendo, tea ceremonies, Zen meditation). We want to see Nara's deer and explore cities on foot. I plan to propose during this trip and need a special location recommendation. Please provide a detailed itinerary and a simple HTML travel handbook with maps, attraction descriptions, essential Japanese phrases, and travel tips we can reference throughout our journey.\n\nprompt: create PDF file about ConTech in construction\n실행결과는 많이 알려진 프롬프트를 제외하고는 그다지 품질이 좋지는 않다. 그럼에도, 나름 많은 스타를 깃허브에서 얻고 있는 오픈 마누스의 에이전트의 구조를 분석하는 것은 의미가 있어 보여, 좀 더 자세히 코드를 확인해 본다.\n\n\n코드 동적 구조 분석\n동적 구조는 실행 흐름을 타고 가며 확인한다. 참고로, 이 구조는 다음 프롬프트일때 실행되는 구조이다. \n\nI need a 7-day Japan itinerary for April 15-23 from Seattle, with a $2500-5000 budget for my fiancée and me. We love historical sites, hidden gems, and Japanese culture (kendo, tea ceremonies, Zen meditation). We want to see Nara's deer and explore cities on foot. I plan to propose during this trip and need a special location recommendation. Please provide a detailed itinerary and a simple HTML travel handbook with maps, attraction descriptions, essential Japanese phrases, and travel tips we can reference throughout our journey.\n\n\n프롬프트는 일본 여행 기간을 명시하고 7일간 일정이 필요하다 말하고 있다. \n\n\n이에 대한 마누스 에이전트의 전체 큰 실행 구조는 다음과 같다.\n\ncall main() # 메인 호출\nprompt = input() # 프롬프트 입력\nManus.BaseAgent.run(prompt) # 프롬프트 입력에 따른 에이전트 도구들 실행\n\nupdate_memory() # 과거 입출력 저장\nmax_steps 만큼 아래 루프 반복 # default max_steps = 20\nstep_result = ReActAgent.step()  # 에이전트 도구 단계별 실행\n\nshould_act = think() # 무슨 도구를 순서대로 호출할 지 LLM통해 정보얻음\n\nrecent_messages = memory.messages[-3:]\nManus.BrowserAgent.ToolCallAgent.think()  # 도구 선택 추론\n\nextract current browser page information  # 웹화면 정보 사용\nresponse = LLM.ask_tool()  # 추론 시 LLM 사용 \n\ncheck token limit  # 토큰 한계 체크\nresponse = ChatCompletion(params)  # LLM 호출\nreturn response[0].message  # 결과 리턴\n\nreturn response\n\nact()  # 에이전트 도구가 선택되었으니, 이를 실행\n\ntool_callls 에 담긴 도구 호출 명령에 따른 도구들 실행 루프 수행\n\nToolCallAgent.execute_tool(command)  # 도구 실행\n\nargs = json.loads(command) # 예. web_search. '7-day tour'\nToolCollection.execute(args)  # 도구집합에서 해당도구실행\n\nBrowserUseTool.execute(args) # 쿼리검색 후 link 리턴\n\n_ensure_browser_initialized()  #브라우저 초기화\nlinks = WebSearch.execute(args.query) # 웹서치\npage = get_current_page()  # 페이지정보\nresult = page.goto(url_to_navigate)  \nreturn ToolResult(args, result) # 검색결과 수집\n\nreturn observation(result)\n\ntool_msg = 도구 실행 명령 및 함수 정보\nmemory.add_message(tool_msg)  # 메모리 업데이트\nresults.append(result)\n\nreturn results  # 결과리턴\n\n\n\n이를 좀 더 알기 쉽게 표현하면 다음같이 설명될 수 있다. \n\n\n\n\n\n\n\n1. 프로그램 시작: 메인 함수 호출\n\n\n\n2. 프롬프트 입력: 사용자로부터 프롬프트 입력\n\n\n\n3. 에이전트 실행: BaseAgent가 입력을 기반으로 동작 시작\n\n\n\n4. 메모리 업데이트: 과거 입력/출력 내용을 memory에 저장\n\n\n\n5. 에이전트 루프 실행 (기본 max_steps = 20)\n\n\n\n    5.1. 단계 실행 (Step): ReActAgent가 현재 단계 처리 시작\n\n\n\n    5.2. 다음 행동 판단 (Think)\n\n\n\n        5.2.1. 최근 메시지 3개 불러오기\n\n\n\n        5.2.2. LLM을 통해 다음 행동(도구 호출 여부 등) 추론\n\n\n\n    5.3. Think: 도구 선택 판단\n\n\n\n        5.3.1. BrowserAgent가 어떤 도구를 쓸지 결정\n\n\n\n        5.3.2. 현재 브라우저 페이지 정보 추출\n\n\n\n        5.3.3. 필요 시 LLM에 도구 사용 목적 질의 (ask_tool)\n\n\n\n        5.3.4. 토큰 한계 체크\n\n\n\n    5.4. LLM 호출 및 응답\n\n\n\n        5.4.1. ChatCompletion으로 명령 생성\n\n\n\n        5.4.2. 생성된 메시지 반환\n\n\n\n    5.5. Act: 도구 실행 (Act)\n\n\n\n        5.5.1. 도구 호출 명령(command)을 파싱 (예: JSON)\n\n\n\n        반복 (모든 명령에 대한 도구 실행):\n\n\n\n            5.5.2. 도구 실행 수행\n\n\n\n                5.5.2.1. ToolCollection에서 해당 도구 실행\n\n\n\n                5.5.2.2. 브라우저 초기화 (_ensure_browser_initialized)\n\n\n\n                5.5.2.3. 웹 검색 수행 (WebSearch.execute)\n\n\n\n                5.5.2.4. 페이지 이동 및 정보 추출 (page.goto)\n\n\n\n            5.5.3. 도구 결과 처리\n\n\n\n                5.5.3.1. ToolResult로 실행 결과 정리\n\n\n\n                5.5.3.2. observation 형태로 결과 정리\n\n\n\n    5.6. 메모리 및 결과 저장\n\n\n\n        5.6.1. 도구 실행 정보 및 결과를 memory에 저장\n\n\n\n        5.6.2. 결과 리스트에 추가\n\n\n\n6. 최종 결과 반환: 누적된 결과 또는 마지막 응답을 사용자에게 반환\n\n\n\n\n\n이 중에 핵심 실행 단계만 확인해 보자. \n\n\n5번 단계의 think는 LLM을 이용해 사용자 프롬프트를 기반으로 다음과 같이 적절한 도구를 순서대로 선택하도록 명령하고 있다. 이런 이유로, 도구에 대한 프로토타입을 LLM 호출 시 컨텐츠로 전달해 두어야 한다.\n\n\n\n\n\"Based on user needs, proactively select the most appropriate tool or combination of tools. For complex tasks, you can break down the problem and use different tools step by step to solve it. After using each tool, clearly explain the execution results and suggest the next steps.\"\n\n\n\n\n\nthink() 함수 동작 방식(일부)\n\n\n현재 마누스 버전에서 프롬프트 템플릿은 다음처럼 정의되어 있다.\n   \n\n\n\n\nSYSTEM_PROMPT = (\n\n\n\n\n    \"You are OpenManus, an all-capable AI assistant, aimed at solving any task presented by the user. You have various tools at your disposal that you can call upon to efficiently complete complex requests. Whether it's programming, information retrieval, file processing, or web browsing, you can handle it all.\"\n\n\n\n\n    \"The initial directory is: {directory}\"\n\n\n\n\n)\n\n\n\n\n\n\n\n\n\n\nNEXT_STEP_PROMPT = \"\"\"\n\n\n\n\nBased on user needs, proactively select the most appropriate tool or combination of tools. For complex tasks, you can break down the problem and use different tools step by step to solve it. After using each tool, clearly explain the execution results and suggest the next steps.\n\n\n\n\n\"\"\"\n\n\n\n\n\n\nLLM을 호출하는 부분은 위 템플릿을 이용해 시스템 프롬프트와 함께 사용자 질의를 입력하는 부분으로 구성될 것이다. 다음은 해당 정보를 보여준다. \n\n\nprompt: create input.txt file and copy it to output.txt\n\n본인의 경우, gpt-4o LLM 을 사용했다. messages의 1번에는 사용자 프롬프트가 입력되어 있고, 이 목표를 달성하기 위해 적절한 도구를 선택하라 명령하고 있다. tools에 함수 프로토타입이 저장된 것을 확인할 수 있다. 이를 근거로, LLM은 목표를 달성하기 위한 적절한 함수 호출 시퀀스를 생성한다.\n\n\n브라우저 화면의 검색 정보가 직접 필요한 경우가 있다. playwright를 이용해 해당 정보를 얻는 부분이 think()에서 사용되는 경우도 있을 수 있다. 다음 그림은 사용자 프롬프트 질의에 따라 LLM 이 선택한 도구인 브라우저를 통해 정보를 얻고, 그 정보를 메모리에 업데이트하면서, 에이전트 도구를 실행해 가는 화면이다. \n\n\n에이전트 검색 결과\n\n\n에이전트 도구의 리턴 결과(일부)\n결론적으로 핵심만 요약해 보면, 다음과 같은 방식으로 에이전트가 실행되는 것을 확인 할 수 있다. \n\n사용자 프롬프트 입력\nLLM 이 프롬프트를 통해 어떤 에이전트 도구들을 실행할 지 결정. 도구 정보 반환\n도구 호출 정보에 따라, 현재 등록된 도구들을 호출. 결과 파일은 workspace에 저장\n도구 호출 결과는 메모리에 저장. 이는 LLM 이 도구를 호출할 때 참고 컨텐츠로 재사용\n사용자 프롬프트 요구사항(목표)을 만족할 때까지 앞의 내용 반복\n\n다음은 각 step별로 에이전트가 호출되어 파일이 생성될 경우 저장된 workspace 폴더와 예시를 보여주다. \n\n\nAI 에이전트 도구에 의해 생성된 파일(우: 게임 코드, 좌하: 일본여행일정)\n\n\n분석해 보면, 사실, 대단한 메커니즘은 아니다. 이는 기존 OpenAI LLM 플랫폼 도구, LangChain과 같은 RAG, Ollama 같은 LLM Agent 도구에도 있었던 것이다. 좀 다른 것은 다음과 같은 기능이 기본으로 구현되어 있다는 정도로 보이는 데, 이도 다른 유명 LLM, 에이전트 플랫폼에서 하고 있는 것이라 큰 차이라 보기가 어렵다.  \n1. 웹브라우저를 통해 인터넷 컨텐츠 정보로 적극 사용한 것. 화면 자체에서 정보를 얻는 기능\n2. 파일 및 폴더, MCP(Model Control Procotol), 파이썬, 터미널 조작 등 지원\n\n\n오픈마누스의 가장 큰 장점은 오픈소스로 누구나 그 메커니즘을 확인하고, 분석하는 재미와 기여하며 커가는 커뮤니티 연대 정도로 생각할 수 있겠다. \n\n\n코드 정적 구조 분석\n코드 정적 구조 분석을 위해 폴더부터 분석해 본다. 구조는 다음과 같다.\n\nOpenManus/\n├── app/                      # 애플리케이션 핵심 코드\n│   ├── agent/              # 에이전트 로직 (예: BaseAgent, ReActAgent)\n│   ├── flow/                # 실행 흐름 제어 (workflow, step control)\n│   ├── mcp/                # Model Control Procotol\n│   ├── prompt/            # 프롬프트 템플릿 관련\n│   ├── sandbox/           # 실행 격리 환경 (보호된 실행 공간)\n│   └── tool/                 # 실행 가능한 다양한 도구 모음\n│       ├── bash.py                  # Bash 명령 도구\n│       ├── browser_use_tool.py  # 브라우저 연동 도구\n│       ├── create_chat_completion.py # LLM 호출 지원\n│       ├── file_operators.py       # 파일 입출력 도구\n│       ├── file_saver.py             # 파일 저장 도구\n│       ├── mcp.py                   # 제어 관련 도구\n│       ├── planning.py             # 계획 생성 도구\n│       ├── python_execute.py    # 파이썬 코드 실행 도구\n│       ├── str_replace_editor.py  # 문자열 편집 도구\n│       ├── terminal.py              # 터미널 명령 실행 도구\n│       ├── terminate.py            # 실행 종료 도구\n│       ├── tool_collection.py      # 전체 도구 관리자\n│       └── web_search.py          # 웹 검색 도구\n├── assets/                  # 에셋, 리소스 파일\n├── config/                  # 설정 파일들\n├── examples/              # 예시 실행 계획들\n│   └── japan-travel-plan/  # 예: 여행 계획 샘플\n├── logs/                     # 실행 로그 저장\n├── tests/                    # 테스트 코드\n│   └── sandbox/         # 샌드박스 테스트\n└── workspace/             # 임시 실행 또는 작업 파일 저장소\n\n\n\n\n설치된 폴더 구조 (일부)\n각 코드를 정적 분석해, 핵심 클래스만 UML로 분석해 보겠다. 마누스의 주요 클래스 구조는 다음과 같다. \n\n\n오픈 마누스 클래스 다이어그램(UML)\n소프트웨어 공학적으로는 디자인패턴 중 strategy pattern (ToolCollection, BaseTool) 을 사용하고 있다. 나머진 일반적인 OOAD 구조이다.\nBaseTool 클래스는 execute 메서드를 공통으로 가지며, 이를 상속한 각 도구 클래스들(Terminal, FileSaver, MCPClientTool, WebSearch, DomService, BrowserUseTool 등)은 시스템 명령 실행, 파일 저장, 브라우저 제어 등 특정 기능을 담당한다. 각 도구는 ToolCollection에 집합되어 있으며, tool_map을 통해 관리되고 execute를 통해 실행된다.\nToolCallAgent는 think 메서드를 통해 어떤 도구를 사용할지 판단하고, 판단 결과를 ToolCollection에 전달하여 해당 도구를 실행한다. ReActAgent는 step, think, act 메서드를 통해 LLM 기반 추론과 도구 실행 흐름을 단계적으로 처리하며, BaseAgent는 이를 상속받아 step 단위의 실행 흐름을 제공한다. Manus 객체는 최상위 제어자로서 전체적인 에이전트의 동작을 통제하며 think 메서드를 통해 추론을 담당한다. BrowserAgent는 BrowserUseTool과 관련된 think 역할을 수행한다.\nBrowserUseTool은 WebSearch와 DomService를 포함하며 웹 페이지 탐색, 클릭, 입력 등의 브라우저 상의 조작을 담당한다. DomService는 클릭, 스크롤, 탭 전환 등 구체적인 DOM 제어 명령을 담당하며, 오른쪽 enum 박스는 이 DomService가 수행할 수 있는 구체적인 명령어 목록을 나열한 것이다.\nLLM 클래스는 ask_tool, ask_with_images, ask 등의 메서드를 제공하며, 도구 선택 판단 또는 일반 자연어 추론을 위한 언어 모델 호출 기능을 수행한다. LLM이 사용하는 모델은 gpt-4-vision, gpt-4.0, claude-3 계열 등으로 구성된 멀티모달 모델 리스트에 명시되어 있다.\n전체 구조는 에이전트가 사용자 입력을 받아 LLM을 통해 판단하고, 적절한 도구를 선택하여 실행하며, 이를 반복적으로 수행하는 다단계 추론 및 실행 체계를 중심으로 구성되어 있다.\n\n마무리\n이 글을 통해 오픈마누스를 분석해 보았다. 개발 시작한 지 얼마 안되는 따끈따끈한 코드라서 그런지, 아직 코드 리팩토링이 잘 안되어 있고, 구조도 멀티 에이전트라 하기에는 좀 부족하고 확장성에 문제가 있는 것들이 있다. 에이전트 선택 및 호출하는 부분은 막코딩(?) 같은 부분이 있어 구조적으로 깔끔하지 못하다(습작 느낌). LangChain처럼 많은 개발자가 참여하면 크게 복잡해져 입력-결과를 예측하기 어려워지거나, 버전업에 되면서 빅스텝(과거와의 단절)이 될 수 있을 것 같다. \n\n\n에이전트의 핵심기술은 결국 추론 능력을 가진 LLM을 어떻게 잘 활용하는 가이다. 이런 점에서 마누스(최근 해킹되어 코드 확인해 보았더니)나 오픈마누스는 기존 LLM과 프롬프트 템플릿을 복잡하게 wrapping 해 놓은 모듈이란 말이 나올 수 밖에 없다.\n\n\n좀 더 깃허브를 살펴보니, 이를 주도하는 개발자는 심천에 있는 중국인이며. 이외, 지장에 있는 개발자, 학생들 6명 정도가 주축으로 개발하고 있는 것 같다(소프트웨어 공학적으로는 약간 아마추어 느낌). RL 모듈은 UIUC에 다니는 중국인 대학원생, 홍콩과기대 학생 등이 주축이되고 있다(참 열심히 개발하는 느낌).\n\n\n오픈 마누스 개발 공헌자\n\n\n그럼에도 불구하고, 열심히 개발 중인 오픈소스 구조를 살펴보고 여러 구현 아이디어를 보는 것은 즐거운 것이다. 이런 이유로, 이들이 본인이 개발하는 코드를 공개하고, 고민을 공유하는 것은 브랭딩 전략이란 점을 제외하더라도 의미있는 행위라 생각한다. 시간이 된다면, OpenManus-RL 도 분석해볼 계획이다.\n\n\n레퍼런스\n\nOpenManus: the Open-Source Alternative to Manus AI\nOpenManus: No fortress, purely open ground. OpenManus is Coming.\nOpenManus-RL: A live stream development of RL tunning for LLM agents\nManus AI: The Best Autonomous AI Agent Redefining Automation and Productivity\nThe First General AI Agent Unveiled, 2025, Medium\nManus use cases\nExploring Manus AI Agent. Autonomous AI Revolution and How to Get… , Naveen Krishnan, 2025, Towards AI\nLangflow, Low-code AI builder for agentic and RAG applications\nLangflow is a powerful tool for building and deploying AI-powered agents and workflows\nOpenManus reddit",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/03/manus-ai.html",
+    "pubDate": "2025-03-28T11:24:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "dotInsights | April 2025",
+    "description": "Did you know? In C#, you can use a feature called “caller info attributes” to obtain information about the caller of a method. This can be incredibly useful for logging, debugging, or tracing. The attributes CallerMemberName, CallerFilePath, and CallerLineNumber provide information such as the name of the calling method, the path to the source file […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/04/02/dotinsights-april-2025/",
+    "pubDate": "Wed, 02 Apr 2025 13:02:03 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "New Features in CLion’s Bazel Plugin: Custom Toolchains and Windows Support",
+    "description": "CLion supports the Bazel build tool through a third-party plugin. We recently added two of its most requested features: custom toolchains and Windows support. As an active contributor to the plugin’s development, I’d like to show you how to get started using these features. In this blog post, I’ll explain how to configure your Windows […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/clion/2025/04/new-features-in-bazel-plugin/",
+    "pubDate": "Wed, 02 Apr 2025 08:05:15 +0000",
+    "creator": "Daniel Brauner",
+    "categories": [
+      "news",
+      "tips-tricks",
+      "bazel",
+      "gcc",
+      "llvm",
+      "msvc"
+    ]
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "애드몹 검토 필요 에서 안넘가는 현상 해결 / 허들은 없었다. / Admob",
     "description": "한달을 기다려도 검토 필요 상태에서 막혀있길레\n애드몹에서 앱 추가 부터 새로하니 한번에 통과 되었습니다.\n \n애드몹 진행 절차\n- 앱 스토어 앱 등록\n- 앱 스토어 개발자 홉페이지 주소 등록\n- 홈페이지에 app-ads.txt 추가\n- 애드몹 게정 비활성화 해제\n \n저의 상황\n화면에 표시되는건 아니라 상황을 나열해보겠습니다.\n애드몹을 써보려고 더미 게임을 만들어서 출시까지 했습니다.\n애드몹에 들어갔구요 상단에 계정이 비활성화 상태라고 경고가 떠있었습니다.\n원래는 들어가면 체크박스가 있는 팝업이 뜨면서 \n\"비활성화를 해제 하시겠습니까?\"\n라고 물어봐야하는데 그러지 않더군\n일단 앱 등록을 추진했습니다.\n앱 설정에 가면 스토어에 등록되어있다면 검색해서 등록하라는 메뉴가 있습니다.\n등록했구요\n검증하기 누르면 실해 하는 상태였습니다.\n비활 성화 문제인가해서 메일로 문의를 넣으니 1주일 후에 \n애드몹에 들어가니 \"비활성화 해제 체크박스\" 를 볼 수 있었습니다.\n해제 했구요 \n검증하기는 다시해도 실패했습니다.\n이후 한달을 기다렸구요\n앱 추가 다시 진행\n기존에 등록된 앱은 앱스토어에 등록하기부분을 지웠습니다.\n\n\n앱스토어 정보를 지워야 앱 이름을 변경할 수 있습니다.\n앱을 지우는 기능은 없어서 다시는 안쓰도록 (버림) 이라고 이름을 바꿨습니다.\n안그러면 새로 추가되는 앱이랑 이름이 같아지는 일이 일어날꺼 같았습니다.\n(광고 ID 를 이것저것 바꿔 봐야하는 대참사 예상)\n새로 등록할때 이상한 점을 발견했습니다.\n\n\n애드몹에 앱 추가할때 이미 출시되어있는지 물어보는 항목이 있는데\n처음할때는 출시가 안되어있어서 넘어간 부분입니다.\n이제는 출시되어있으니 스토어 등록 절차를 질행중에 앱이 2개라는 사실을 알았습니다.\n한개는 추가 버튼이 안눌러지는데 이건 스샷 찍는 순간엔 이미 하나 등록해둔 상태여서 그렀습니다.\n알고보니 하나는 [공개 테스트] 용 앱이였습니다.\n그렇습니다. 앱은 출시된 앱과 공개 테스트 앱이 존재하는 것이였습니다.\n준비됨\n오전에 준비중 상태였으며 8시간 뒤에 보니 준비됨으로 나왔습니다.\n\n\n빠르네요. 이렇게 빨리될껄 기다리고 있었다니 ... 바보 같습니다.\n \n \n마치며\n앱 사용자가 없어서 통과 안되나 하는 생각도 있었는데\n그런거 없고 타이밍 문제였다.\n이메일로 문의를 하자",
@@ -81,135 +131,110 @@
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "유니티로 삼업 관련 일 하시는분 발표",
-    "description": "영상: https://www.youtube.com/watch?v=vjBoOaB0oEk\n\n\n\n산업용 제품을 시연용 데모를 만드시는 분 같습니다.\n신기한 영상이 많네요\n가스관 관리\n가스 터빈 \n젖소용 제품",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1242",
-    "pubDate": "Mon, 31 Mar 2025 22:03:45 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "유니티"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "중국 사람은 마라탕 국물 안먹어 (충격)",
-    "description": "영상: https://youtu.be/vct8XAr1FOc?t=933\n\n\n\n15분 30초에 나옵니다.\n안먹는데요\nㄷㄷㄷ\n \n몰랐습니다. 충격",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1241",
-    "pubDate": "Mon, 31 Mar 2025 19:43:42 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "마라탕"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "중소기업 취업자라면 소득세 감면 혜택 꼭 챙기세요",
-    "description": "매년 최대 200만 원까지 돌려받을 수 있어요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/tossmoment-5",
-    "pubDate": "Thu, 27 Mar 2025 08:12:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 10,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.1 Beta 3 Is Out!",
-    "description": "IntelliJ IDEA 2025.1 Beta 3 is ready for download! You can get the latest build from our website, through the free Toolbox App, from inside the IDE, or by using snap packages for Ubuntu. Download IntelliJ IDEA 2025.1 Beta 3 This is the final Beta build, with the release candidate just around the corner. It’s […]",
+    "title": "Meta Open Source: 2024 by the numbers",
+    "description": "Open source has played an essential role in the tech industry and beyond. Whether in the AI/ML, web, or mobile space, our open source community grew and evolved while connecting people worldwide.  At Meta Open Source, 2024 was a year of growth and transformation. Our open source initiatives addressed the evolving needs and challenges of [...]\nRead More...\nThe post Meta Open Source: 2024 by the numbers appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/03/intellij-idea-2025-1-beta-3/",
-    "pubDate": "Thu, 27 Mar 2025 08:47:48 +0000",
-    "creator": "Maria Kosukhina",
+    "link": "https://engineering.fb.com/2025/04/02/open-source/meta-open-source-by-the-numbers/",
+    "pubDate": "Wed, 02 Apr 2025 16:00:28 +0000",
+    "creator": "Unknown",
     "categories": [
-      "eap",
-      "2025-1-eap",
-      "intellij-idea-2025-1",
-      "intellij-idea-2025-1-eap"
+      "Open Source"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "A Survey for JetBrains IDE Plugin Developers",
-    "description": "If you develop plugins for JetBrains IDEs, there is a good chance we have already met on the JetBrains Platform Slack, answered your questions in the plugin developer forum, or provided the IntelliJ Platform documentation you have read. Today, the IntelliJ Platform SDK team needs your help to gather feedback that will shape the future […]",
+    "title": "미국의 관세 시작 해설 영상",
+    "description": "영상: https://www.youtube.com/watch?v=8bdsAy79PHY\n\n\n\n \n이 영상이 정확한 해석인것으로 보입니다.\n소련과 냉전 시키에는 소련에 달러가 흘러 들어가진 않았습니다.\n그래서 오히려 쉬웠죠\n현재 중국과 대립을 해야하는데 중국의 수출품이 너무 많이 미국으로 들어오고 있습니다.\n댓가로 중국은 달러를 얻게 됩니다.\n이 달러는 미국과 싸울 무기나 수단을 사게 됩니다.\n순방향이라면 벌어들인 달러는 미국의 국채를 사애하지만요\n \n그래서 중국으로 흘러 들어가는 달러를 막아야 합니다.\n전반적으로 관세를 올리고 관세를 내릴 협상 수단으로서 중국과의 협령을 끊을 것을 요구하려는 전략을 취하고 있습니다.\n이것이 성공하면 중국과의 교류는 줄게되며 관세나 낮아지는 국가가 생길 것입니다.\n실패한다면 미국내의 물가가 올라가고 그만큼 국민들이 부담을 져야할 것입니다.\n중국과의 전쟁이 끝날때까지 ...\n아주 긴 싸움의 시작을 보는거 같습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/03/a-survey-for-jetbrains-ide-plugin-developers/",
-    "pubDate": "Fri, 28 Mar 2025 00:39:23 +0000",
-    "creator": "Patrick Scheibe",
+    "link": "http://serverdown.tistory.com/1247",
+    "pubDate": "Thu, 3 Apr 2025 16:02:02 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "plugin-development",
-      "intellij",
-      "marketplace",
-      "survey",
-      "intellij-platform"
+      "유튜브"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "봇 테스트 하다가",
-    "description": "64코어 128스레드 머신 1개에서 동접 5천의 봇을 스폰했더니 CPU를 다 쓰고있음... 열심히 만들었는데 겨우 5천밖에 못버티는 꼬라지를 보니 울화통 터지기도 하고.. 기대한만큼 성능이 안나와서 그냥 답답하네... 글로벌 DB에서 CPU를 엄청나게 먹고있는걸로 보이는데.. 많이 먹을때는 거의 70%정도.. 에휴.. 이걸 쓰자마자 서버 머신은 셧다운됐고 재부팅중.. 요즘 일도 잘 안풀리고 하이고~ 착잡하다 ㅜ ------------------- 글로벌 DB의 CPU 사용량이 비정상적으로 높은게 이해가 안돼서 살펴보니 봇이 무차별적으로 게시판에 글을 작성하고 있는 로직이 있는 것을 발견함 DB 머신은 따로 두는데는 이유가 있음을 느끼고.. 게시판 작성 로직.......",
+    "title": "삼성 갤럭시 인증중고폰, 더 싼데 2년 A/S 보장하는 새것같은 중고?",
+    "description": "삼성전자가 갤럭시 인증중고폰을 팝니다. 갤럭시 S24 시리즈 한정으로 가격은 더 낮지만 2년 A/S를 보장합니다.\n오늘(3월 31일)부터 삼성전자가 판매하는 갤럭시 인증중고폰은 과연 무엇인지 지금부터 살펴보겠습니다.\n \n갤럭시 인증중고폰 이란?\n온라인 구매 후 7일내 단순 변심, 단순 개봉 등으로 반품된 플래그십 스마트폰 중 철저한 자체 품질 검사를 거쳐 최상위급으로 판정된 제품\n \n갤럭시 인증중고폰의 주요 특징\n삼성닷컴을 통해 판매\nA/S 보증 기간은 2년으로 새 제품과 같음\n삼성케어플러스 중 파손 보장형에 가입 가능\n구매 후 7일 이내 환불 가능\n현재는 갤럭시 S24 시리즈의 자급제 모델만 존재\n새 제품 대비 26~64만원 낮은 가격\n\n갤럭시 인증중고폰 제품별 가격\nS24 울트라(256GB, 512GB, 1TB) : 130만 7900원, 136만 7300원, 148만 6100원\nS24+(256GB, 512GB) : 104만 1700원, 110만 1100원\nS24(256GB, 512GB) : 88만 9900원, 94만 9300원\n삼성전자는 갤럭시 S24 시리즈를 시작으로 갤럭시 인증중고폰의 범위를 확대할 예정입니다.\n(출처 : 삼성전자)\n구 모델을 여러가지 사유로 좀 더 저렴하게 판매하는 방식은 예전부터 있어왔던 일이지만 제조사인 삼성전자가 인증한 중고폰이라는 판매 모델은 한번 지켜볼 필요가 있겠습니다. 리퍼 제품들이 생각나기도 하고요.\n할인 폭이 다소 적은 편이라는게 아쉽긴 한데 싸지 않은 만큼 갤럭시 인증중고폰이라는 이름으로 판매되는 제품의 품질이 실제로 어떨지 한번 반응을 지켜볼 필요가 있겠네요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/boyism/223815579930?fromRss=true&trackingCode=rss",
-    "pubDate": "Mon, 31 Mar 2025 04:34:15 +0900",
-    "creator": "boyism",
+    "link": "http://lazion.com/2513741",
+    "pubDate": "Mon, 31 Mar 2025 10:43:03 +0900",
+    "creator": "늑돌이",
     "categories": [
-      "바람의나라"
+      "#더작은모바일/#스마트폰#PDA#PMP",
+      "Galaxy",
+      "News",
+      "Samsung",
+      "SEC",
+      "smartphone",
+      "갤럭시",
+      "갤럭시인증중고폰",
+      "삼성전자",
+      "인증중고폰"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "모든 스타트업이 어른을 필요로 하는가?",
-    "description": "우리는 투자할 때 창업가의 다양한 면을 관찰한 후에, 이분에게 투자하고 오랫동안 같이 한 방향을 보고 갈지 결정한다. 사람이 사람을 판단하는 거라서, 수학같이 딱 떨어지는 공식은 없지만, 그래도 최대한 다양한 우리만의 데이터와 각자에게 축적된 비정형화 된 휴먼 지능을 잘 활용해서 결정하려고 하는데, 아주 크게 보면 제품, 펀딩, 채용에 대한 창업가의 생각과 능력을 판단해 본다. 이 중요한(...)",
+    "title": "View and manage git tags",
+    "description": "Are you tired of switching between your IDE and command-line tools to manage Git tags? We’ve got the perfect solution for you! With the latest update, Visual Studio empowers you to seamlessly view and manage Git tags directly within the Git Repository window. This streamlined workflow ensures you remain within the familiar environment of the […]\nThe post View and manage git tags appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/03/not-every-startup-needs-to-hire-adults-from-outside.html",
-    "pubDate": "Sun, 30 Mar 2025 21:33:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://devblogs.microsoft.com/visualstudio/view-and-manage-git-tags/",
+    "pubDate": "Mon, 31 Mar 2025 15:10:25 +0000",
+    "creator": "Sebastian Hernandez",
     "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "microsoft",
-      "people"
+      "Git",
+      "Productivity",
+      "Visual Studio",
+      "Git File History"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "오픈 마누스(manus) AI 에이전트 설치, 사용 및 구조 분석하기",
-    "description": "한동안 회사 일 때문에 미뤄두었던, 딥시크(DeekSeek)와 더불어 많이 많은 마누스(manus.im)에서 영감받아 개발된 오픈마누스(open manus) 오픈소스 AI 에이전트를 설치, 사용 및 분석한다. 오픈마누스는 MetaGPT란 이름으로 활동 중인 중국인 개발자가 공개한 AI에이전트이다. 개발자는 오픈마누스가 연결된 다양한 도구들을 LLM으로 조율하고, 실행할 수 있고 주장하고 있다. 깃허브 등에 설명된 오픈 마누스는 다음과 같은 기능을 지원한다.\n\n로컬에서 AI 에이전트 실행\n여러 도구 및 API 통합: 외부 API, 로컬 모델 및 자동화 도구를 연결, 호출\n워크플로우 사용자 지정: AI가 복잡한 다단계 상호 작용을 효율적으로 처리\n여러 LLM 지원: LLaMA, Mistral 및 Mixtral과 같은 인기 있는 개방형 모델 모델과 호환\n자동화 향상: 내장 메모리 및 계획 기능을 통해 OpenManus는 코딩, 문서 처리, 연구 등을 지원\n\n다음 그림은 이 에이전트가 지원하는 기능 중 일부이다. \n\n\nprompt: Create a basic Three.js endless runner game with a cube as the player and procedurally generated obstacles. Make sure to run it only in browser. If possible also launch it in the browser automatically after creating the game.\n\n오픈 마누스는 이전 중국에서 개발된 마누스의 관심을 오픈소소로 옮겨지는 데 성공했다. 오픈 마누스는 현재 github에서 40.6k란 매우 높은 좋아요 관심을 받고 있다. \n\n\n오픈 마누스(현재 시점. 40.6k stars)\n\n\n\n개인적으로 오픈마누스에 대한 관심도가 높았던 것은, 구현된 기술보다는 에이전트 분야에서 크게 알려진 마누스에 대한 관심, 오픈소스 버전의 AI에이전트 코드 공개가 더 크게 작용했다고 생각한다. 이제 설치 사용해 보고, 성능 품질을 확인해 보자. 그리고, 코드 실행 메커니즘을 분석해 본다. \n\nOpenManus: No fortress, purely open ground. OpenManus is Coming.\n\n\n\n\n\n\n오픈마누스 설치\n개발환경은 이미 컴퓨터에 NVIDIA, CUDA, PyTorch 등이 설치되어 있다고 가정한다. 이제, 다음 명령을 터미널에서 실행해 설치한다.\n\nconda create -n open_manus python=3.12\nconda activate open_manus\n\ngit clone https://github.com/mannaandpoem/OpenManus.git\ncd OpenManus\npip install -r requirements.txt\nplaywright install\n\n\n오픈마누스가 설치하는 패키지를 보면, 많은 경우, 기존에 잘 만들어진 LLM, AI Agent 라이브러리를 사용하는 것을 알 수 있다. 여기서 사용하는 주요 라이브러리는 다음과 같다.\n\npydantic, openai, fastapi, tiktoken, html2text, unicorn, googlesearch-python, playwright, docker\n\nconfig/config.toml 설정 파일을 수정한다. api_key에 OpenAI의 API 키 등을 입력한다(만약, API 키 유출 등이 불안하다면, Ollama 오픈소스 LLM 모델로 설정한다).\n# Global LLM configuration\n\n[llm]\nmodel = \"gpt-4o\"\nbase_url = \"https://api.openai.com/v1\"\napi_key = \"sk-...\"  # Replace with your actual API key\nmax_tokens = 4096\ntemperature = 0.0\n\n\n# Optional configuration for specific LLM models\n[llm.vision]\nmodel = \"gpt-4o\"\nbase_url = \"https://api.openai.com/v1\"\napi_key = \"sk-...\"  # Replace with your actual API key\n\n\n실행\n\n일단, 예제를 간단히 실행해 본다. \npython main.py\n\n\n적절한 프롬프트를 입력해 본다. \ncreate PDF file about BIM(building information modeling). \n\n\n마누스는 이 프롬프트에 응답해, LLM에 입력하여, 마누스에 등록된 도구를 호출하는 정보와 스크립트를 생성한다. 그리고, 이를 통해 각 도구들을 적절히 호출해 실행한다.\n\n\n다음은 각 프롬트에 대한 그 예를 보여준다. \n\n\n\nprompt: Create a basic Three.js endless runner game with a cube as the player and procedurally generated obstacles. Make sure to run it only in browser. If possible also launch it in the browser automatically after creating the game.\n\n\nprompt: I need a 7-day Japan itinerary for April 15-23 from Seattle, with a $2500-5000 budget for my fiancée and me. We love historical sites, hidden gems, and Japanese culture (kendo, tea ceremonies, Zen meditation). We want to see Nara's deer and explore cities on foot. I plan to propose during this trip and need a special location recommendation. Please provide a detailed itinerary and a simple HTML travel handbook with maps, attraction descriptions, essential Japanese phrases, and travel tips we can reference throughout our journey.\n\nprompt: create PDF file about ConTech in construction\n실행결과는 많이 알려진 프롬프트를 제외하고는 그다지 품질이 좋지는 않다. 그럼에도, 나름 많은 스타를 깃허브에서 얻고 있는 오픈 마누스의 에이전트의 구조를 분석하는 것은 의미가 있어 보여, 좀 더 자세히 코드를 확인해 본다.\n\n\n코드 동적 구조 분석\n동적 구조는 실행 흐름을 타고 가며 확인한다. 참고로, 이 구조는 다음 프롬프트일때 실행되는 구조이다. \n\nI need a 7-day Japan itinerary for April 15-23 from Seattle, with a $2500-5000 budget for my fiancée and me. We love historical sites, hidden gems, and Japanese culture (kendo, tea ceremonies, Zen meditation). We want to see Nara's deer and explore cities on foot. I plan to propose during this trip and need a special location recommendation. Please provide a detailed itinerary and a simple HTML travel handbook with maps, attraction descriptions, essential Japanese phrases, and travel tips we can reference throughout our journey.\n\n\n프롬프트는 일본 여행 기간을 명시하고 7일간 일정이 필요하다 말하고 있다. \n\n\n이에 대한 마누스 에이전트의 전체 큰 실행 구조는 다음과 같다.\n\ncall main() # 메인 호출\nprompt = input() # 프롬프트 입력\nManus.BaseAgent.run(prompt) # 프롬프트 입력에 따른 에이전트 도구들 실행\n\nupdate_memory() # 과거 입출력 저장\nmax_steps 만큼 아래 루프 반복 # default max_steps = 20\nstep_result = ReActAgent.step()  # 에이전트 도구 단계별 실행\n\nshould_act = think() # 무슨 도구를 순서대로 호출할 지 LLM통해 정보얻음\n\nrecent_messages = memory.messages[-3:]\nManus.BrowserAgent.ToolCallAgent.think()  # 도구 선택 추론\n\nextract current browser page information  # 웹화면 정보 사용\nresponse = LLM.ask_tool()  # 추론 시 LLM 사용 \n\ncheck token limit  # 토큰 한계 체크\nresponse = ChatCompletion(params)  # LLM 호출\nreturn response[0].message  # 결과 리턴\n\nreturn response\n\nact()  # 에이전트 도구가 선택되었으니, 이를 실행\n\ntool_callls 에 담긴 도구 호출 명령에 따른 도구들 실행 루프 수행\n\nToolCallAgent.execute_tool(command)  # 도구 실행\n\nargs = json.loads(command) # 예. web_search. '7-day tour'\nToolCollection.execute(args)  # 도구집합에서 해당도구실행\n\nBrowserUseTool.execute(args) # 쿼리검색 후 link 리턴\n\n_ensure_browser_initialized()  #브라우저 초기화\nlinks = WebSearch.execute(args.query) # 웹서치\npage = get_current_page()  # 페이지정보\nresult = page.goto(url_to_navigate)  \nreturn ToolResult(args, result) # 검색결과 수집\n\nreturn observation(result)\n\ntool_msg = 도구 실행 명령 및 함수 정보\nmemory.add_message(tool_msg)  # 메모리 업데이트\nresults.append(result)\n\nreturn results  # 결과리턴\n\n\n\n이를 좀 더 알기 쉽게 표현하면 다음같이 설명될 수 있다. \n\n\n\n\n\n\n\n1. 프로그램 시작: 메인 함수 호출\n\n\n\n2. 프롬프트 입력: 사용자로부터 프롬프트 입력\n\n\n\n3. 에이전트 실행: BaseAgent가 입력을 기반으로 동작 시작\n\n\n\n4. 메모리 업데이트: 과거 입력/출력 내용을 memory에 저장\n\n\n\n5. 에이전트 루프 실행 (기본 max_steps = 20)\n\n\n\n    5.1. 단계 실행 (Step): ReActAgent가 현재 단계 처리 시작\n\n\n\n    5.2. 다음 행동 판단 (Think)\n\n\n\n        5.2.1. 최근 메시지 3개 불러오기\n\n\n\n        5.2.2. LLM을 통해 다음 행동(도구 호출 여부 등) 추론\n\n\n\n    5.3. Think: 도구 선택 판단\n\n\n\n        5.3.1. BrowserAgent가 어떤 도구를 쓸지 결정\n\n\n\n        5.3.2. 현재 브라우저 페이지 정보 추출\n\n\n\n        5.3.3. 필요 시 LLM에 도구 사용 목적 질의 (ask_tool)\n\n\n\n        5.3.4. 토큰 한계 체크\n\n\n\n    5.4. LLM 호출 및 응답\n\n\n\n        5.4.1. ChatCompletion으로 명령 생성\n\n\n\n        5.4.2. 생성된 메시지 반환\n\n\n\n    5.5. Act: 도구 실행 (Act)\n\n\n\n        5.5.1. 도구 호출 명령(command)을 파싱 (예: JSON)\n\n\n\n        반복 (모든 명령에 대한 도구 실행):\n\n\n\n            5.5.2. 도구 실행 수행\n\n\n\n                5.5.2.1. ToolCollection에서 해당 도구 실행\n\n\n\n                5.5.2.2. 브라우저 초기화 (_ensure_browser_initialized)\n\n\n\n                5.5.2.3. 웹 검색 수행 (WebSearch.execute)\n\n\n\n                5.5.2.4. 페이지 이동 및 정보 추출 (page.goto)\n\n\n\n            5.5.3. 도구 결과 처리\n\n\n\n                5.5.3.1. ToolResult로 실행 결과 정리\n\n\n\n                5.5.3.2. observation 형태로 결과 정리\n\n\n\n    5.6. 메모리 및 결과 저장\n\n\n\n        5.6.1. 도구 실행 정보 및 결과를 memory에 저장\n\n\n\n        5.6.2. 결과 리스트에 추가\n\n\n\n6. 최종 결과 반환: 누적된 결과 또는 마지막 응답을 사용자에게 반환\n\n\n\n\n\n이 중에 핵심 실행 단계만 확인해 보자. \n\n\n5번 단계의 think는 LLM을 이용해 사용자 프롬프트를 기반으로 다음과 같이 적절한 도구를 순서대로 선택하도록 명령하고 있다. 이런 이유로, 도구에 대한 프로토타입을 LLM 호출 시 컨텐츠로 전달해 두어야 한다.\n\n\n\n\n\"Based on user needs, proactively select the most appropriate tool or combination of tools. For complex tasks, you can break down the problem and use different tools step by step to solve it. After using each tool, clearly explain the execution results and suggest the next steps.\"\n\n\n\n\n\nthink() 함수 동작 방식(일부)\n\n\n현재 마누스 버전에서 프롬프트 템플릿은 다음처럼 정의되어 있다.\n   \n\n\n\n\nSYSTEM_PROMPT = (\n\n\n\n\n    \"You are OpenManus, an all-capable AI assistant, aimed at solving any task presented by the user. You have various tools at your disposal that you can call upon to efficiently complete complex requests. Whether it's programming, information retrieval, file processing, or web browsing, you can handle it all.\"\n\n\n\n\n    \"The initial directory is: {directory}\"\n\n\n\n\n)\n\n\n\n\n\n\n\n\n\n\nNEXT_STEP_PROMPT = \"\"\"\n\n\n\n\nBased on user needs, proactively select the most appropriate tool or combination of tools. For complex tasks, you can break down the problem and use different tools step by step to solve it. After using each tool, clearly explain the execution results and suggest the next steps.\n\n\n\n\n\"\"\"\n\n\n\n\n\n\nLLM을 호출하는 부분은 위 템플릿을 이용해 시스템 프롬프트와 함께 사용자 질의를 입력하는 부분으로 구성될 것이다. 다음은 해당 정보를 보여준다. \n\n\nprompt: create input.txt file and copy it to output.txt\n\n본인의 경우, gpt-4o LLM 을 사용했다. messages의 1번에는 사용자 프롬프트가 입력되어 있고, 이 목표를 달성하기 위해 적절한 도구를 선택하라 명령하고 있다. tools에 함수 프로토타입이 저장된 것을 확인할 수 있다. 이를 근거로, LLM은 목표를 달성하기 위한 적절한 함수 호출 시퀀스를 생성한다.\n\n\n브라우저 화면의 검색 정보가 직접 필요한 경우가 있다. playwright를 이용해 해당 정보를 얻는 부분이 think()에서 사용되는 경우도 있을 수 있다. 다음 그림은 사용자 프롬프트 질의에 따라 LLM 이 선택한 도구인 브라우저를 통해 정보를 얻고, 그 정보를 메모리에 업데이트하면서, 에이전트 도구를 실행해 가는 화면이다. \n\n\n에이전트 검색 결과\n\n\n에이전트 도구의 리턴 결과(일부)\n결론적으로 핵심만 요약해 보면, 다음과 같은 방식으로 에이전트가 실행되는 것을 확인 할 수 있다. \n\n사용자 프롬프트 입력\nLLM 이 프롬프트를 통해 어떤 에이전트 도구들을 실행할 지 결정. 도구 정보 반환\n도구 호출 정보에 따라, 현재 등록된 도구들을 호출. 결과 파일은 workspace에 저장\n도구 호출 결과는 메모리에 저장. 이는 LLM 이 도구를 호출할 때 참고 컨텐츠로 재사용\n사용자 프롬프트 요구사항(목표)을 만족할 때까지 앞의 내용 반복\n\n다음은 각 step별로 에이전트가 호출되어 파일이 생성될 경우 저장된 workspace 폴더와 예시를 보여주다. \n\n\nAI 에이전트 도구에 의해 생성된 파일(우: 게임 코드, 좌하: 일본여행일정)\n\n\n분석해 보면, 사실, 대단한 메커니즘은 아니다. 이는 기존 OpenAI LLM 플랫폼 도구, LangChain과 같은 RAG, Ollama 같은 LLM Agent 도구에도 있었던 것이다. 좀 다른 것은 다음과 같은 기능이 기본으로 구현되어 있다는 정도로 보이는 데, 이도 다른 유명 LLM, 에이전트 플랫폼에서 하고 있는 것이라 큰 차이라 보기가 어렵다.  \n1. 웹브라우저를 통해 인터넷 컨텐츠 정보로 적극 사용한 것. 화면 자체에서 정보를 얻는 기능\n2. 파일 및 폴더, MCP(Model Control Procotol), 파이썬, 터미널 조작 등 지원\n\n\n오픈마누스의 가장 큰 장점은 오픈소스로 누구나 그 메커니즘을 확인하고, 분석하는 재미와 기여하며 커가는 커뮤니티 연대 정도로 생각할 수 있겠다. \n\n\n코드 정적 구조 분석\n코드 정적 구조 분석을 위해 폴더부터 분석해 본다. 구조는 다음과 같다.\n\nOpenManus/\n├── app/                      # 애플리케이션 핵심 코드\n│   ├── agent/              # 에이전트 로직 (예: BaseAgent, ReActAgent)\n│   ├── flow/                # 실행 흐름 제어 (workflow, step control)\n│   ├── mcp/                # Model Control Procotol\n│   ├── prompt/            # 프롬프트 템플릿 관련\n│   ├── sandbox/           # 실행 격리 환경 (보호된 실행 공간)\n│   └── tool/                 # 실행 가능한 다양한 도구 모음\n│       ├── bash.py                  # Bash 명령 도구\n│       ├── browser_use_tool.py  # 브라우저 연동 도구\n│       ├── create_chat_completion.py # LLM 호출 지원\n│       ├── file_operators.py       # 파일 입출력 도구\n│       ├── file_saver.py             # 파일 저장 도구\n│       ├── mcp.py                   # 제어 관련 도구\n│       ├── planning.py             # 계획 생성 도구\n│       ├── python_execute.py    # 파이썬 코드 실행 도구\n│       ├── str_replace_editor.py  # 문자열 편집 도구\n│       ├── terminal.py              # 터미널 명령 실행 도구\n│       ├── terminate.py            # 실행 종료 도구\n│       ├── tool_collection.py      # 전체 도구 관리자\n│       └── web_search.py          # 웹 검색 도구\n├── assets/                  # 에셋, 리소스 파일\n├── config/                  # 설정 파일들\n├── examples/              # 예시 실행 계획들\n│   └── japan-travel-plan/  # 예: 여행 계획 샘플\n├── logs/                     # 실행 로그 저장\n├── tests/                    # 테스트 코드\n│   └── sandbox/         # 샌드박스 테스트\n└── workspace/             # 임시 실행 또는 작업 파일 저장소\n\n\n\n\n설치된 폴더 구조 (일부)\n각 코드를 정적 분석해, 핵심 클래스만 UML로 분석해 보겠다. 마누스의 주요 클래스 구조는 다음과 같다. \n\n\n오픈 마누스 클래스 다이어그램(UML)\n소프트웨어 공학적으로는 디자인패턴 중 strategy pattern (ToolCollection, BaseTool) 을 사용하고 있다. 나머진 일반적인 OOAD 구조이다.\nBaseTool 클래스는 execute 메서드를 공통으로 가지며, 이를 상속한 각 도구 클래스들(Terminal, FileSaver, MCPClientTool, WebSearch, DomService, BrowserUseTool 등)은 시스템 명령 실행, 파일 저장, 브라우저 제어 등 특정 기능을 담당한다. 각 도구는 ToolCollection에 집합되어 있으며, tool_map을 통해 관리되고 execute를 통해 실행된다.\nToolCallAgent는 think 메서드를 통해 어떤 도구를 사용할지 판단하고, 판단 결과를 ToolCollection에 전달하여 해당 도구를 실행한다. ReActAgent는 step, think, act 메서드를 통해 LLM 기반 추론과 도구 실행 흐름을 단계적으로 처리하며, BaseAgent는 이를 상속받아 step 단위의 실행 흐름을 제공한다. Manus 객체는 최상위 제어자로서 전체적인 에이전트의 동작을 통제하며 think 메서드를 통해 추론을 담당한다. BrowserAgent는 BrowserUseTool과 관련된 think 역할을 수행한다.\nBrowserUseTool은 WebSearch와 DomService를 포함하며 웹 페이지 탐색, 클릭, 입력 등의 브라우저 상의 조작을 담당한다. DomService는 클릭, 스크롤, 탭 전환 등 구체적인 DOM 제어 명령을 담당하며, 오른쪽 enum 박스는 이 DomService가 수행할 수 있는 구체적인 명령어 목록을 나열한 것이다.\nLLM 클래스는 ask_tool, ask_with_images, ask 등의 메서드를 제공하며, 도구 선택 판단 또는 일반 자연어 추론을 위한 언어 모델 호출 기능을 수행한다. LLM이 사용하는 모델은 gpt-4-vision, gpt-4.0, claude-3 계열 등으로 구성된 멀티모달 모델 리스트에 명시되어 있다.\n전체 구조는 에이전트가 사용자 입력을 받아 LLM을 통해 판단하고, 적절한 도구를 선택하여 실행하며, 이를 반복적으로 수행하는 다단계 추론 및 실행 체계를 중심으로 구성되어 있다.\n\n마무리\n이 글을 통해 오픈마누스를 분석해 보았다. 개발 시작한 지 얼마 안되는 따끈따끈한 코드라서 그런지, 아직 코드 리팩토링이 잘 안되어 있고, 구조도 멀티 에이전트라 하기에는 좀 부족하고 확장성에 문제가 있는 것들이 있다. 에이전트 선택 및 호출하는 부분은 막코딩(?) 같은 부분이 있어 구조적으로 깔끔하지 못하다(습작 느낌). LangChain처럼 많은 개발자가 참여하면 크게 복잡해져 입력-결과를 예측하기 어려워지거나, 버전업에 되면서 빅스텝(과거와의 단절)이 될 수 있을 것 같다. \n\n\n에이전트의 핵심기술은 결국 추론 능력을 가진 LLM을 어떻게 잘 활용하는 가이다. 이런 점에서 마누스(최근 해킹되어 코드 확인해 보았더니)나 오픈마누스는 기존 LLM과 프롬프트 템플릿을 복잡하게 wrapping 해 놓은 모듈이란 말이 나올 수 밖에 없다.\n\n\n좀 더 깃허브를 살펴보니, 이를 주도하는 개발자는 심천에 있는 중국인이며. 이외, 지장에 있는 개발자, 학생들 6명 정도가 주축으로 개발하고 있는 것 같다(소프트웨어 공학적으로는 약간 아마추어 느낌). RL 모듈은 UIUC에 다니는 중국인 대학원생, 홍콩과기대 학생 등이 주축이되고 있다(참 열심히 개발하는 느낌).\n\n\n오픈 마누스 개발 공헌자\n\n\n그럼에도 불구하고, 열심히 개발 중인 오픈소스 구조를 살펴보고 여러 구현 아이디어를 보는 것은 즐거운 것이다. 이런 이유로, 이들이 본인이 개발하는 코드를 공개하고, 고민을 공유하는 것은 브랭딩 전략이란 점을 제외하더라도 의미있는 행위라 생각한다. 시간이 된다면, OpenManus-RL 도 분석해볼 계획이다.\n\n\n레퍼런스\n\nOpenManus: the Open-Source Alternative to Manus AI\nOpenManus: No fortress, purely open ground. OpenManus is Coming.\nOpenManus-RL: A live stream development of RL tunning for LLM agents\nManus AI: The Best Autonomous AI Agent Redefining Automation and Productivity\nThe First General AI Agent Unveiled, 2025, Medium\nManus use cases\nExploring Manus AI Agent. Autonomous AI Revolution and How to Get… , Naveen Krishnan, 2025, Towards AI\nLangflow, Low-code AI builder for agentic and RAG applications\nLangflow is a powerful tool for building and deploying AI-powered agents and workflows\nOpenManus reddit",
+    "title": "Mobile GraphQL at Meta in 2025",
+    "description": "Mobile GraphQL is a framework used at Meta for fetching data in mobile applications using GraphQL, a strongly-typed, declarative query language. At Meta it handles data fetching for apps like Facebook and Instagram. Sabrina, a software engineer on Meta’s Mobile GraphQL Platform Team, joins Pascal Hartig on the Meta Tech podcast to discuss the evolution [...]\nRead More...\nThe post Mobile GraphQL at Meta in 2025 appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/03/manus-ai.html",
-    "pubDate": "2025-03-28T11:24:00.000Z",
+    "link": "https://engineering.fb.com/2025/03/31/data-infrastructure/mobile-graphql-meta-2025/",
+    "pubDate": "Mon, 31 Mar 2025 16:16:28 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "Data Infrastructure",
+      "Meta Tech Podcast"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "딥시크(deep seek) 오픈소스 코드 및 구조 분석하기",
-    "description": "앞서 AI에이전트 오픈 미노스를 분석해 보았는 데, 내친김에 그 동안 말많았던 딥시크(deep seek)를 분석해 보기로 한다. 개인적으로 언론의 기사를 잘 믿지는 않는다. 홍보성 퍼나른 기사가 많기도 하고, 특히 테크분야에서도 약장사분들? 많아, 어디까지 진실인지 아닌지 모르기 때문이다. 정말 대단한지, 아니면 지재권 완전 무시하고 기술 탈취?해 싼 제품 잘 만드는 중국 방식으로 개발된 것인지 알려진 자료에 기반해 팩트 확인해 보고자 한다.\n\n\n\n\n딥시크 (theconversation.com, 2025)\n\n\n참고로, 마누스 오픈소스에 관심 있다면 다음 링크를 참고한다. \n\n오픈 마누스(manus) AI 에이전트 설치, 사용 및 구조 분석하기\n\n\n\n딥시크 분석 준비\n다음 링크를 방문해 코드를 클론한다.\n\ndeepseek-ai/DeepSeek-V3\n\n\n\n\n\n터미널에서 다음 명령을 실행한다. \ngit clone https://github.com/deepseek-ai/DeepSeek-V3.git\n\n\n폴더 및 파일 구조 분석 \nvscode를 띄워 보니 폴더 구조는 다음과 같다. \n\n  - workflows: 워크플로우 관련 폴더\n  - inference: 하위 폴더\n    - configs: 설정 파일 폴더\n    - convert.py: Python 파일, 4KB\n    - fp8_cast_b16f.py: Python 파일, 5KB\n    - generate.py: Python 파일, 8KB\n    - kernel.py: Python 파일, 9KB\n    - model.py: Python 파일, 8KB\n    - requirements.txt: 텍스트 파일, 1KB\n\n\n\n\n공개된 소스 코드를 보니 굳이 실행을 위한 패키지 설치는 할 필요 없을 것 같다. 일단, 오픈소스가 아니다. 단순히, inference 추론 코드만 공개되어 있다(어그로). 오픈소스라면, 최소한, train 학습 코드와 기본 데이터셋 정도는 공개되어야 한다(언론이 왜 오픈소스라 난리였는지 사실 이해가 안되는...). \n\n\n코드는 대부분 트랜스포머 구조를 그대로 사용한다. 트랜스포머스는 구글에서 이미 2017년 개발 공개된 LLM 모델 학습 메커니즘이다. 딥시크에서 사용한 상세한 기술을 알고 싶다면, 다음 링크를 참고하길 바란다.\n\n어텐션 기반 트랜스포머 딥러닝 모델 이해, 활용 사례 및 파치토치를 통한 간단한 사용방법 소개\n딥러닝 모델 트랜스포머 인코더 핵심 코드 구현을 통한 동작 메커니즘 이해하기\n트랜스포머 디코더 핵심 코드 구현을 통한 동작 메커니즘 이해하기\nSparse Mixture of Experts Language Model\n\n\n\n소스 코드 분석\n공개된 코드는 주로 추론을 위해 딥시크 측에서 공개한 학습된 가중치 모델 파일을 로딩해 사용하기 위한 model.py, 양자화로 성능 가속을 위한 fp8_cast_bf16.py, 질의 프롬프트에 대한 모델 출력을 생성하는 generate.py 정도가 분석할 필요가 있어 보인다. \n\n\nmodel.py 분석\n일단, 사용하는 라이브러리 대부분이 미국 빅테크 기업 혹은 연구소에서 개발된 것들을 임포트에 사용하고 있다. 이 분야에서 모르면 간첩인 pytorch, 심지어 triton은 NVIDIA GPU 가속 최적화를 위해 사용하는 라이브러리를 직접 사용한다(NVIDIA 종속적). \n\n\n모델의 전체 구조는 트랜스포머를 그대로 따르며, 이미 오픈소스 공개된 코드에 나오는 키워드도 다음처럼 그대로 사용하고 있다.\n\n\n\nmodel.forward를 확인해보자. 일반적인 트랜스포머스 forward 루틴으로 보여진다. \n\n    def forward(self, tokens: torch.Tensor, start_pos: int = 0):\n        seqlen = tokens.size(1)\n        h = self.embed(tokens)  # 1) 입력 임베딩\n        freqs_cis = self.freqs_cis[start_pos:start_pos+seqlen]  # 2) # 위치 인코딩\n        mask = None\n        if seqlen > 1:              # 3) 마스킹\n            mask = torch.full((seqlen, seqlen), float(\"-inf\"), device=tokens.device).triu_(1)\n        for layer in self.layers:   # 4) 트랜스포머스 레이어 실행 계산\n            h = layer(h, start_pos, freqs_cis, mask)\n        h = self.norm(h)[:, -1]   # 5) 출력 정규화\n        logits = self.head(h)     # 6) 로짓 계산\n        if world_size > 1:\n            all_logits = [torch.empty_like(logits) for _ in range(world_size)]\n            dist.all_gather(all_logits, logits)\n            logits = torch.cat(all_logits, dim=-1)\n        return logits\n\n\n이 함수는 입력 토큰을 받아 로짓(예측값)을 계산하는 역할을 한다. 예측값은 미리 준비된 사전에서 예측된 단어를 선택할 때 역할을 한다(입력 토큰에 대한 다음 토큰 예측 생성과정). 주요 동작은 다음과 같다.\n\nembed: 입력 임베딩 처리: 입력으로 제공된 토큰 텐서를 임베딩 레이어를 통해 변환하여 초기 입력 표현을 생성한다. \nfreqs_cis: 로터리 임베딩 계산:  주파수 정보를 담고 있는 로터리 임베딩 텐서를 시퀀스 길이에 맞게 선택하여, 위치 정보를 모델에 제공한다. 위치임베딩이란 기법도 이미 트랜스포머스 논문(Google, 2017)에 구현된 것이다.\nmask: 시퀀스 길이가 1보다 클 경우, 미래 정보가 영향을 미치지 않도록 상삼각형 형태의 마스크를 생성한다. 마스크는 모델이 언어 생성 시 현재 시점 이전의 정보만을 활용하게 한다.\nTransformer 레이어 통과: 모델 내부의 여러 Transformer 레이어를 입력 데이터가 순차적으로 통과하며, 각 레이어에서 입력 표현이 갱신된다. \nnorm: 출력 정규화 및 최종 표현 추출. 마지막 Transformer 레이어의 출력을 정규화하고, 시퀀스의 마지막 토큰에 해당하는 표현을 추출한다. \nlogits: 로짓 계산. 추출된 최종 표현을 출력 레이어(헤드)에 전달하여 로짓, 즉 예측값을 계산한다. 이는 각 토큰에 대한 다음 단어 또는 출력값의 확률 분포를 나타낸다.\n\n결과적으로, 이 메서드는 입력 토큰 시퀀스를 기반으로 각 토큰에 대한 예측값을 반환하며, 이는 주로 언어 모델링 및 자연어 처리 작업에 활용된다.\n\n\n모델의 전체 구조는 다음과 같다. 대부분 파이토치 기반 트랜스포머스 코드(이미 많이 공개된 코드 조각)를 사용한다(딥시크 처음 언론 보도가 실제로 얼마나 차이가 있는 지 확인할 수 있음).\n\n\n딥시크-V3 모델 구조(UML)\n다만, 실행 속도 등 최적화를 위해 병렬처리, torch.einsum 함수를 이용해 GPU 연산을 직접 이용해 트랜스포머 어텐션 모델 QKV 코사인 유사도 계산하는 등의 노력을 하고 있다(이 또한 이미 알려진 것).\n\n\n토큰 시퀀스 임베딩 벡터 간 유사도 스코어 계산 및 학습하는 부분(일부. 트랜스포머스 모델의 전형적인 루틴임. 여기서 bshd는 batch, source seqnce, heads, feature demension 의 약자로 입력 텐서의 모양-차원을 정의함)\n\n\nkernel.py 분석\n이 모듈은 주로 성능과 관련된 양자화를 다룬다. triton 라이브러리를 사용해 주어진 텐서를 양자화하여, 32비트 실수 연산을 8비트 실수 연산으로 처리할 수 있게 한다. 8비트 텐서 실수 연산을 위한 함수도 같이 구현되어 있다. 예를 들어, 다음 fp8_gemm 함수는 8비트 양자화된 a, b 텐서를 입력받아 행렬곱한 후 c를 리턴한다.\n\n\nconvert.py 분석\n이 모듈은 모델 파일 포맷을 주어진 옵션에 맞게 단순히 체크포인트 파일로 변환하는 역할을 한다. 복잡한 내용은 별로 없어 상세 설명은 생략한다.\n\n\nconfigs 파일 분석\n이 폴더 내 모델의 구조를 정의하는 주요 변수가 정의되어 있다. 예를 들어, config_16B.json 파일은 다음과 같이 정의된다. \n\n\n의미는 다음과 같다. \n\n1. 모델 구조  \n   - vocab_size: 어휘 크기 (102,400).  \n   - dim: 임베딩 차원 (2048).  \n   - inter_dim: FFN의 확장 차원 (10,944).  \n2. MoE 관련  \n   - n_routed_experts: 총 Expert 수 (64).  \n   - n_activated_experts: 활성화 Expert 수 (6).  \n   - moe_inter_dim: MoE Expert의 내부 FFN 차원 (1,408).  \n3. Attention 관련  \n   - n_layers: Transformer 레이어 수 (27).  \n   - n_heads: Attention Head 수 (16).  \n   - kv_lora_rank: 키/값 벡터의 LoRA 랭크 (512).  \n   - qk_nope_head_dim: NOPE 기반 헤드 차원 (128).  \n   - qk_rope_head_dim: RoPE 기반 헤드 차원 (64).  \n4. 기타  \n   - mscale: 모델 안정성을 위한 스케일 값 (0.707).  \n\n분석해 본 결과, 사실 LLM에서 모델 구조, 추론 구현 부분 및 양자화 모듈만 대부분 공개되어 있다는 것을 알 수 있다. \n\n\n최소한 데이터셋 모듈이라도 공개되어야 어떤 식으로 데이터를 학습했는지 확인할 수 있지만, 이런 중요 모듈은 공개되어 있지 않아, 딥시크-V3는 오픈소스를 공개했다고 말하기 어렵다(가중치와 모델 모듈만 오픈. 이건 reddit에서도 까이고 있는데, 그냥 오픈웨이트 open weights 모델 코드임).\n\n\n더 파보기\n오픈소스라기에는 좀 실망이라, 무언가 더 없는 지 공개된 자료들을 파보기로 한다. 일단, 딥시크 개발사 github에서 최근 주목받고 있는 프로젝트만 다음처럼 정렬해본다.\n\n\n이 중 체크한 부분이 먼가 있는 듯 하여, 들어가 확인해 본다. \n\n\nMIT 라이센스라 표시만 되어 있지, 코드가 없음\n\n\n딥시크 기반 코더는 평가, 데모 코드만 있고, 파인튠은 학습 데이터셋 제공 없음 \n\n평가 코드만 있음(MIT 라이센스 표시만. 오픈소스? 무슨 의미가?)\n\n딥시크-V3 학습모델(가중치파일) 공개된 부부(허깅페이스)\n더 파보았지만, 딥시크에서 주장하는 것은 오픈소스가 아닌 오픈웨이트 모델에 더 가까워보인다. 세계적인 홍보와 언론의 관심에 비해 무늬만 MIT라이센스 오픈소스가 아닌지 의문이다.\n\n마무리\n좀 시간을 내어 분석한 후, 확인 사살한 것은 다음과 같다. \n\n언론에서 말하는 것과는 상당한 차이가 있는 딥시크 기술 오픈소스였다. 대부분 이미 개발된 오픈소스를 가져다 쓴 것으로 보인다. 앞에 언급한 몇몇 성능 최적화 부분은 좋은 접근인 것이나, 메타(페북)의 라마(Llama)가 공개한 기술에 비하면 비교할 만한 것이 아니다.\n중국은 확실히 홍보(x10배)에 천재적인 능력(약팔이)이 있다(진심으로). \n중국이 잘하는 선진국(미국) 기술 가져와 자국것으로 포장해 저가로 파는 기술은 세계 최고다. \n\n의문점은 한국 언론에서 다음과 같이 패닉성 기사를 쓸 때, 왜 남이 말한 것 받아 만 쓰고 팩트 확인하지 않았냐는 것인데... 좀 생각해보니 국내 딥시크 기사는 관련 컨텐츠를 해외에서 퍼온 검증도 안된 글을 기사로 정리한 것으로 이해된다. 사실, 첨단 기술을 팩트 체크할 리소스가 있는 언론이 많지는 않다고 생각한다. 그럼에도 파급격있는 채널은 뉴스를 전할때 항상 팩트 확인하려는 노력이 필요하다.\n\n\n패닉성 딥시크 언론 보도(연합, 2025.1.27, 뉴스튜데이, 2025.3.28)\n\n\n자극적 기사들로 얼마 전 정부 국회는 패닉되고, 급하게 만든 인공지능 진흥전략이 판을 치게 된 트리거 역할을 했다. 여론은 인공지능분야도 우리가 중국에 뒤쳐졌다는 것을 확인하는 계기는 되었다. 긍정적 효과도 있었다고 생각되나, 부작용도 있다. 예를 들어,불필요한 일들이 벌어지고(갑작스런 GPU전수조사? 등), 갑작스런 대규모 GPU 센터 개발 계획이 발표되고, 이로 인해 세금이 비과적으로 계획 투입되고, .. 이상한 방향으로 국가 첨단기술 연구개발 전략이 설정되고... 대규모 세금이 투입되지 않을 까라는 생각을 들게 만든다.\n\n\n이 글에서 딥시크가 오픈소스 맞는지(거짓), 정말 중국 독자 기술로 개발했는지(거짓), 자국 GPU 사용해 개발했는 지(거짓. 기껏 추론 부분만 Google TPU같이 NPU 사용했을 가능성), 기술적 개선이 있었는지(성능 최적화 부분은 약간 인정), 정말 공개한 것은 무엇인지(모델만. 오픈웨이트) 등의 질문을 확인해 보았다. \n\n\n이 상황이면, GPT 학습 데이터를 증류해(카피해) 모델을 학습했다는 것이 더 신빙성 있어 보인다(가성비있게 실리콘밸리 테크 기술을 카피해 싸게 소프트웨어를 개발했다는 쪽이 더 맞는 듯. 물론 이것도 아무나 할 수 있는 건 아니다). 좀 더 시간이 있으면, 허깅페이스에 공개된 내용을 분석할 계획이다.\n\ndeepseek-ai/DeepSeek-V3, huggingface\n\n\n\n레퍼런스\n\nDeepSeek-V3\nWhy DeepSeek V3 is considered open-source? : r/LocalLLaMA\nThe Triton Inference Server provides an optimized cloud and edge inferencing solution\nIntroduction - Triton documentation\ndeepseek-ai/DeepSeek-V3\nOpenAI says DeepSeek ‘inappropriately’ copied ChatGPT – but it’s facing copyright claims too\nMixture of Experts\nSparse Mixture of Experts Language Model\nOpenness in Language Models: Open Source vs Open Weights vs Restricted Weights\n中 AI 딥시크, 챗GPT 제치고 美앱스토어 1위…실리콘밸리 충격, 연합뉴스\n[거꾸로 읽는 경제] 중국 딥시크 V3모델 출시\n딥시크, AI 모델 V3 업데이트 버전 공개",
+    "title": "이미지 한 장만 올려도 프로처럼! 이미지 스타일 분석 GPTS 무료 배포",
+    "description": "AI 이미지 생성에 어려움을 겪고 계신가요? 제가 직접 개발하고 무료로 배포 중인 '시각 스타일 분석 및 프롬프트 생성기' GPT로 원하는 스타일을 쉽게 재현해보세요. 업로드 한 번으로 전문가급 프롬프트를 받는 비법 공개!\n\n\n \n요즘 AI 이미지 생성이 대세잖아요. 미드저니나 달리 같은 AI 이미지 생성 툴을 써보신 분들은 아실 거예요. 원하는 이미지를 얻기 위해 프롬프트를 얼마나 잘 작성하느냐가 정말 중요하다는 걸요.\n \n저도 처음에는 진짜 헤맸어요. \"수채화 느낌으로 그려줘\"라고 입력했다가 완전 엉뚱한 결과물을 받고 좌절했던 기억이 나네요. 특히 내가 좋아하는 특정 아티스트나 일러스트레이터의 스타일을 따라 하고 싶을 때는 더 난감했죠. 어떤 단어로 그 미묘한 스타일을 설명해야 할지 몰랐으니까요.\n \n그래서 제가 직접 만들어 무료로 배포하는 GPT가 있어요. 바로 '시각 스타일 분석 및 프롬프트 생성기'입니다. 이름 그대로 여러분이 좋아하는 이미지를 업로드하면, 그 이미지의 스타일을 전문가처럼 분석해주고 비슷한 이미지를 만들 수 있는 프롬프트까지 생성해주는 무료 GPT예요!\n \n  왜 이 GPT를 만들게 되었나요?\n사실 저도 AI 이미지 생성 초보였어요. 미드저니와 DALL-E  등의 AI 이미지 생성 서비스를 처음 사용했을 때 정말 답답했거든요. 내가 머릿속에 그리고 있는 이미지와 실제 생성되는 이미지 사이의 갭이 너무 컸어요. 특히 특정 스타일을 표현하는 게 가장 어려웠죠.\n \n수많은 시행착오 끝에 프롬프트 작성법을 공부하고, 이미지 분석 방법도 익혔어요. 그러다 문득 '이런 과정을 자동화할 수 없을까?' 하는 생각이 들었고, 그렇게 시각 스타일 분석 GPT를 개발하게 됐습니다. 제가 겪었던 어려움을 다른 사람들은 겪지 않았으면 하는 마음에서요.\n \n결과물 예시\n\n\n \n  이 GPT는 어떻게 작동하나요?\n제가 만든 GPT의 핵심 작동 원리를 간략히 설명해드릴게요:\n다층적 이미지 분석: 업로드된 이미지를 여러 시각적 레이어로 분해하여 그림체, 채색, 라인, 질감 등 13가지 핵심 요소를 체계적으로 분석합니다.\n스타일 패턴 인식: 특별히 설계된 스타일 인식 알고리즘으로 이미지의 고유한 시각적 특징과 예술적 패턴을 식별합니다.\n최적화된 프롬프트 생성: 분석된 스타일 요소를 AI 이미지 생성기에 최적화된 영어 프롬프트로 변환합니다. 키워드의 순서와 가중치를 전략적으로 배치하여 효과적인 결과물을 얻을 수 있도록 설계했습니다.\n다중 이미지 통합 분석: 여러 이미지를 동시에 업로드할 경우, 공통된 스타일 요소를 추출하고 일관된 스타일 정의를 생성하는 알고리즘을 적용합니다.\n이 모든 과정은 사용자 친화적인 인터페이스 내에서 자동으로 이루어지며, 전문 지식 없이도 누구나 쉽게 활용할 수 있도록 설계했습니다.\n \n  이렇게 활용해보세요\n1. 기본적인 이미지 스타일 분석\n가장 기본적인 사용법은 단순히 이미지를 업로드하고 분석을 요청하는 거예요.\nGPT에 좋아하는 이미지나 참고하고 싶은 아트워크를 업로드합니다.\n\"이 이미지의 스타일을 분석해줘\" 또는 \"이 스타일로 이미지를 만들 수 있는 프롬프트를 생성해줘\"라고 요청하세요.\nGPT가 이미지의 다양한 시각적 요소를 분석하고 영어 프롬프트를 생성해줍니다.\n\n\n \n제가 직접 테스트했을 때 일본 애니메이션 스타일의 이미지를 업로드하니 이런 분석을 해줬어요:\n\"이 이미지는 일본 애니메이션 스타일의 그림체로, 깔끔하고 선명한 라인이 특징입니다. 채색은 플랫하면서도 부분적으로 그라데이션이 적용되었고, 중간 채도의 파스텔 톤 색상 팔레트를 사용했습니다. 캐릭터는 과장된 표정과 포즈로 역동적인 느낌을 주며, 배경은 단순화되어 캐릭터에 시선이 집중되도록 처리되었습니다...\"\n이런 상세한 분석과 함께 영어 프롬프트까지 생성해줬는데, 이걸 미드저니에 입력했더니 정말 놀라울 정도로 유사한 스타일의 이미지가 나왔어요!\n2. 여러 장의 이미지로 일관된 스타일 추출하기\n저는 이 GPT를 만들면서 특히 이 기능에 신경을 많이 썼어요.\n이미지 업로드합니다. (좀 더 나은 결과를 위해서는 2~5개의 비슷한 스타일의 이미지를 업로드 합니다.)\n\"이 이미지들의 공통된 스타일 요소를 분석해줘\"라고 요청하세요.\nGPT가 여러 이미지에서 일관되게 나타나는 스타일 특징을 찾아 더 정확한 프롬프트를 생성합니다.\n이 방법이 정말 강력한데요, 한 아티스트의 작품 여러 장을 분석하면 그 아티스트만의 고유한 스타일 특징을 정확하게 파악할 수 있거든요. 실제로 일러스트레이터 친구들이 자신의 포트폴리오를 업로드해서 자기 스타일의 '핵심 DNA'를 추출하는 데 활용하고 있어요.\n3. 스타일 믹스 실험하기\n이건 제가 특별히 추가한 숨겨진 기능이에요!\n서로 다른 스타일의 이미지 2개를 업로드합니다.\n\"이 두 스타일을 섞은 하이브리드 프롬프트를 만들어줘\"라고 요청하세요.\nGPT가 두 스타일의 장점을 결합한 새로운 프롬프트를 생성합니다.\n\n\n예를 들어, 일본 애니메이션 스타일과 사이버펑크 스타일의 이미지를 함께 업로드하고 믹스를 요청했더니, \"네오-도쿄 애니메이션\" 같은 독특한 하이브리드 스타일의 프롬프트를 만들어줬어요. 이런 실험을 통해 정말 창의적인 작업이 가능해요!\n \n⚠️ 주의사항 및 한계점\n제가 만든 GPT도 물론 완벽하지는 않아요. 정직하게 현재의 한계점도 말씀드릴게요.\n특정 하위 장르나 너무 독특한 스타일은 제대로 인식하지 못할 수 있습니다. 예를 들어 아주 특수한 디지털 아트 기법이나 매우 실험적인 스타일은 분석이 부정확할 수 있어요.\n이미지의 해상도나 품질이 낮으면 분석 정확도가 떨어집니다. 가능하면 고해상도, 고품질의 이미지를 업로드하세요.\n생성된 프롬프트가 항상 100% 동일한 결과물을 보장하지는 않습니다. 미드저니나 달리 같은 AI 이미지 생성기의 특성상 같은 프롬프트를 입력해도 매번 다른 결과물이 나올 수 있어요.\n저작권 문제에 주의해야 합니다. 다른 아티스트의 스타일을 그대로 복제하는 것은 윤리적 문제가 있을 수 있어요. 학습이나 참고용으로만 사용하고, 상업적 목적으로 활용할 때는 주의하세요.\n기능 성능 추천 사용 상황\n단일 이미지 분석\n★★★★☆\n특정 이미지의 스타일을 이해하고 싶을 때\n\n\n다중 이미지 분석\n★★★★★\n일관된 스타일을 추출하고 싶을 때\n\n\n스타일 믹스\n★★★★☆\n창의적인 새 스타일을 실험할 때\n\n\n세부 요소 분석\n★★★★☆\n특정 스타일 요소에 집중하고 싶을 때\n\n\n소규모 프로젝트\n★★★★★\n개인 창작물이나 학습용 이미지 생성\n\n\n대규모 상업 프로젝트\n★★★☆☆\n저작권 이슈 고려 필요\n\n\n\n \n  지금 바로 사용해보세요\n제가 만든 무료 시각 스타일 분석 및 프롬프트 생성기 GPT는 지금 바로 사용해보실 수 있어요. OpenAI의 GPT 스토어에서 \"시각 스타일 분석 및 프롬프트 생성기\"를 검색하시거나, 직접 링크를 통해 접속하세요.\n특별한 계정이나 구독 없이도 누구나 무료로 사용할 수 있어요. AI 이미지 생성의 진입 장벽을 낮추고, 더 많은 분들이 창의적인 작업을 할 수 있도록 돕고 싶은 마음에서 무료로 제공하고 있습니다.\n❓ 자주 묻는 질문\nQ: 이 GPT를 사용하려면 ChatGPT Plus에 가입해야 하나요? A: 아니요, 제가 만든 이 GPT는 무료로 사용 가능합니다.\nQ: 분석 결과와 프롬프트는 영어로만 제공되나요? A: 분석 결과는 한국어로도 받을 수 있지만, 이미지 생성 프롬프트는 영어로 제공됩니다.\nQ: 몇 장의 이미지까지 한 번에 분석할 수 있나요? A: 정확한 제한은 없지만, 2-5장의 이미지를 한 번에 분석하는 것이 가장 효과적입니다.\nQ: 분석 가능한 이미지 유형에 제한이 있나요? A: 대부분의 이미지 형식(JPG, PNG 등)을 분석할 수 있으며, 그림, 일러스트, 사진 등 다양한 유형의 이미지를 지원합니다.\nQ: 이 GPT의 상업적 이용도 가능한가요? A: 네, 이 GPT 자체는 상업적으로도 자유롭게 사용하실 수 있습니다. 다만, 생성된 이미지는 각 이미지 생성 도구의 이용약관을 따르셔야 합니다.\nAI 이미지 생성의 진입 장벽을 낮추고 싶어서 만든 제 첫 GPT가 여러분에게 도움이 되었으면 좋겠어요. 어렵게만 느껴졌던 프롬프트 작성이 이제는 쉽고 재미있는 경험이 되길 바랍니다. 여러분이 만든 멋진 작품들을 댓글로 공유해주세요! 저도 정말 보고 싶네요.  \n \n  GPTS 무료배포\n 약간의 지식과 시간만 투자하면 누구나 직접 제작하고 활용할 수 있는 유용한 GPTs가 이미 많이 존재합니다. 그러나 여전히 AI 기술에 대한 낯선 접근을 두려워하거나 IT 초보자, 또는 시간적 여유가 없거나 수익화에 대한 절실함 때문에 올바른 정보를 얻지 못하는 사람들이 많습니다. \n이러한 심리를 악용해 과도한 가격으로 유료 강의를 판매하며 불필요한 부담을 주는 사례들이 늘어나고 있습니다.\n \n 이에 본 블로그에서는 모든 사람이 AI의 혜택을 공정하고 자유롭게 누릴 수 있도록 GPTs를 무료로 배포하며, 불합리한 강의 판매 행위를 단호히 배척하고자 합니다. (당연히 저도 무료 그 이상의 가치가 있는 챗봇이라면 유료화를 검토중입니다.)\n\n \nChatGPT - 시각 스타일 분석 및 프롬프트 생성기\n이미지의 시각적 특징(그림체, 채색, 질감 등)을 전문적으로 분석하고 이를 바탕으로 스타일에 집중한 이미지 생성 프롬프트를 만들어 드립니다.\nchatgpt.com\n\n\n \n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"이 GPT를 사용하려면 ChatGPT Plus에 가입해야 하나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"아니요, 제가 만든 이 GPT는 무료로 사용 가능합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"분석 결과와 프롬프트는 영어로만 제공되나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"분석 결과는 한국어로도 받을 수 있지만, 이미지 생성 프롬프트는 영어로 제공됩니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"몇 장의 이미지까지 한 번에 분석할 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"정확한 제한은 없지만, 3-5장의 이미지를 한 번에 분석하는 것이 가장 효과적입니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"분석 가능한 이미지 유형에 제한이 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"대부분의 이미지 형식(JPG, PNG 등)을 분석할 수 있으며, 그림, 일러스트, 사진 등 다양한 유형의 이미지를 지원합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"이 GPT의 상업적 이용도 가능한가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"네, 이 GPT 자체는 상업적으로도 자유롭게 사용하실 수 있습니다. 다만, 생성된 이미지는 각 이미지 생성 도구의 이용약관을 따르셔야 합니다.\"\n    }\n  }]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/03/deep-seek.html",
-    "pubDate": "2025-03-30T03:52:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://muzbox.tistory.com/483563",
+    "pubDate": "Tue, 1 Apr 2025 09:54:19 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/무료 GPTS 공개",
+      "AI 이미지 생성",
+      "달리 프롬프트",
+      "디지털 아트",
+      "무료 GPT",
+      "무료gpts",
+      "미드저니 프롬프트",
+      "스타일 분석",
+      "시각 스타일 분석",
+      "이미지 스타일 프롬프트",
+      "프롬프트 엔지니어링"
+    ]
   }
 ]
