@@ -2,6 +2,95 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "Slack, Gmail 의 북마크로 TickTick Task 만들기",
+    "description": "요즘 다시 TickTick을 메인 Todo App으로 사용하고 있다.\n맥북, 아이패드, 안드로이드 휴대폰, 윈도우 PC에서 모두 다 잘 작동되고 에디터가 막강하고 여러 SaaS 에서 잘 지원하는 도구가 TickTick 밖에 없다보니 다시 유료 결제하고 사용하고 있다.\n에디터가 옵시디언보다 더 좋다는 생각이 들어서 노트앱도 TickTick을 요즘 좀 더 활용하고 있다.\nTickTick에서는 여러 업무 도구와의 통합을 지원한다.\nGmail, Slack 등등에서 모두 플러그인 형태로 지원하는데, 이게 오프라이트를 몇개월간 사용해본 내 입장에서는 꽤나 불편했다.\n그래서 TickTick도 오프라이트와 마찬가지로 편하게 업무도구와의 통합을 연동했다.\nGmail 에서 \"이메일을 Star\" 할 경우 Task가 자동 생성\nSlack 에서 \"메세지를 Bookmark\" 할 경우 메세지 내용으로 Task가 자동 생성\n이 2가지 환경을 Zapier를 통해 쉽게 구축할 수 있다.\nZapier는 TickTick과 Gmail, Slack의 대부분의 Event에 대해 트리거 할 수 있고, 액션으로 등록해둘 수 있다.\n\n\n\nZapier와 Make 모두 TickTick을 지원하기에 주로 사용하는 도구를 사용하면 된다.\nGmail에서 star 시 TickTick Task 생성\nGmail에서 수신된 이메일을 보고 당장은 처리할 수 없어서 시간이 될 때 처리하기 위해 휴대폰이나 PC에서 star만 누르는 경우가 많다.\n\n\n근데 이렇게 star를 누른 것을 매번 확인할 수 없으니 TickTick에 자동으로 Task로 등록해두고 할일로서 관리하는 것이 편하다.\nZapier를 통해서 아주 쉽게 할 수 있다.\n설정\nZapier 의 Zap 생성으로 넘어가서 다음과 같이 New Starred Email 를 트리거, TickTick의 Add Task 를 액션으로 등록한다.\n\n\n다음과 같이 star 를 할 Google Email 계정과 SSO 연동을 해두고\n\n\nTickTick에서는 Add Task 를 선택한다.\n\n\n다음과 같이 Email 의 내용을 Task의 어떤 항목으로 연동할 것인지 설정해둔다.\n\n\n\nList: TickTick의 Todo List 중 관련된 것으로 선택한다\nTask Name: Email의 제목으로 설정한다\nTask Content: Email의 본문으로 설정한다.\n기타 등등 원하는 대로 설정한다.\n설정이 끝나고 Test를 진행해보면 Email의 내용이 Task로 정상적으로 등록되는 것을 확인할 수 있다.\nSlack에서 bookmark 시 TickTick Task 생성\nSlack 역시 바쁜 와중에 당장 답변할 필요가 없는 메세지들은 뒤로 미루고 다음에 할 때가 많다.\n늦더라도 꼭 답변 해야할 내용들을 하나의 Task처럼 관리하려면 이 역시 쉽게 TickTick의 Task로 관리하면 좋다.\nSlack의 북마크 기능은 이럴때 유용하고, 북마크 액션이 발생하면 자동으로 TickTick Task로 등록시킨다.\n\n\n설정\nSlack 역시 설정에 관해서는 Gmail과 크게 다르진 않다.\nSlack의 New Saved Message 를 트리거로 두고, TickTick의 Add Task를 액션으로 설정한다.\n\n\n마찬가지로 각각의 항목을 TickTick Task의 속성으로 설정해둔다.\n\n\n설정이 끝나고 Test를 진행해보면 Slack의 내용이 Task로 정상적으로 등록되는 것을 확인할 수 있다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/823",
+    "pubDate": "Sat, 5 Apr 2025 23:32:08 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "개발환경",
+      "gmail",
+      "slack",
+      "TickTick",
+      "Zapier",
+      "생산성",
+      "오프라이트"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "특이한 개발자 경력",
+    "description": "(이미지는 이영상과 관련 없습니다.)\n \n영상: https://www.youtube.com/watch?v=Y5XOpgE-O_0\n\n\n\n \n과학고에 갔다 자퇴후\n알바 전전 하다 \n롤 을 잘해서 방송해봤는데 수익이 너무 적었다.\n장합금 제도로 일본에 가고\n당시에 웹이 인기라 개발자의 길로 간 사람 이야기 입니다.\n \n알바 전전하는 부분에 근무시간이 길고 자고일 자고일 이부분은 공감이 가는군요\n인생이야기 하는 특이한 내용이라 가져왔습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1254",
+    "pubDate": "Sun, 6 Apr 2025 20:25:43 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "개발자"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "커리어 걱정",
+    "description": "개발자가 되기로 선택한 후 커리어에 대해 걱정했었던 적이 있었던가?\n대학생 시절\n도대체 내가 코딩으로 돈을 벌 수 있기는 한 걸까?\n“그래, 회사가 이렇게 많은데 나 앉을 자리 하나 없을라구.”\n기분이 엄청 울적했던 것 같습니다.\n중소기업이었던 첫 회사를 그만두고 난 직후\n중소기업이었던 첫 회사에서 5년 정도 보낸 후 대기업이 가보고 싶다는 생각이 들었습니다.\n퇴사가 처음아라 다른 곳에 이력서도 넣어보지 않은 채 일단 그만뒀습니다.\n아는 사람에게 추천을 받아 이력서를 쓴 것도 아니고, 홈페이지를 통해서 지원서를 썼습니다.\n하… 그런데 답장이 오질 않더군요.\n어머니도 말씀만 안 하셨을 뿐 걱정을 많이 하셨던 것 같습니다.\nDaum, 엔씨소프트, 넥슨 이런 곳에서는 연락도 안 왔었고,\n네이버에서 카카오로\n제 주 종목은 Windows 프로그래밍이었습니다.\n같은 일을 계속하는 것이 지루하기도 했고 대기업 생활에 실망하기도 했습니다.\n그리고 카카오로 이직을 했습니다. 리눅스에서 Ruby로 카톡 서버를 만든다는 것이 맘에 들었습니다.\n커리어 걱정의 끝\n카카오에 가서 커리어 전환을 하면서 꽤 고생을 했지만…\n네카라쿠배가 좋은 점이 있다면, 많은 사람들이 그에 대한 동경을 가지고 있다는 것입니다.\n불안했던 옛날 기억을 떠올려 보게 된 이유는 이제 컴퓨터학과 3학년이 된 조카와 대화하면서입니다.\n\n함께 읽으면 좋은 글:\n대기업이 너무 가보고 싶어서",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/04/07/worried-about-career.html",
+    "pubDate": "2025-04-07T01:08:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "소라(Sora) 프롬프트 가이드, 32가지 실험으로 알아본 효과적인 영상 생성 비법",
+    "description": "소라(Sora)로 32가지 실험을 해보며 알아낸 꿀팁들을 공유해요! 어떤 프롬프트가 효과적인지, 무엇이 실패하는지 직접 테스트해본 결과를 솔직하게 풀어봤습니다. 영상 제작에 도전하려는 분들 필수!\n\n\n \n레딧에서 올라온 흥미로운 글을 발견했어요. 한 사용자가 OpenAI의 영상 생성 모델인 소라(Sora)로 32가지 다양한 실험을 해봤다는 분석 글이더라고요. 제가 디지털 콘텐츠 제작에 관심이 많아서, 이 내용이 너무 궁금해서 자세히 읽어봤어요. 혹시 여러분도 소라를 활용해 영상을 만들고 싶거나, AI 영상 생성 기술에 관심 있으신가요? 그렇다면 이 분석을 통해 어떤 프롬프트가 효과적이고, 어떤 접근법이 실패하는지 함께 알아보아요.\n \n  소라, 대체 뭐길래?\n일단 소라(Sora)는 OpenAI가 개발한 텍스트-투-비디오(Text-to-Video) 모델이에요. 텍스트로 된 설명을 입력하면 그에 맞는 영상을 생성해주는 기술이죠. \n \n이 레딧 사용자도 그중 한 명으로, 소라의 가능성과 한계를 파악하기 위해 다양한 프롬프트를 시도해봤대요. 그리고 그 결과를 공유해줬습니다. 정말 감사한 일이죠!\n \n  효과적인 프롬프트 특징\n먼저, 이 분석에서 가장 효과적이었던 프롬프트 특성들을 살펴볼게요:\n구체적인 시각적 설명 ✨\n\n\"새벽녘의 푸른 조명이 비치는 도시 풍경\"과 같이 구체적인 시각 요소를 포함할 때 결과물이 훨씬 더 좋았다고 해요.\n색상, 조명, 텍스처 등을 자세히 묘사할수록 소라가 의도를 더 잘 이해했답니다.\n영화 스타일 참조  \n\n\"웨스 앤더슨 스타일의...\" 또는 \"크리스토퍼 놀란 영화처럼...\"과 같은 참조가 매우 효과적이었어요.\n유명 감독이나 영화 스타일을 언급하면 일관된 미학적 특성을 얻을 수 있었대요.\n움직임과 카메라 워크 명시  \n\n\"천천히 줌아웃되는 카메라\" 또는 \"왼쪽에서 오른쪽으로 패닝하는 숏\"처럼 카메라 동작을 설명하면 훨씬 더 영화 같은 결과물이 나왔다고 합니다.\n정적인 장면보다는 동적인 요소를 포함한 프롬프트가 더 인상적인 결과를 보여줬어요.\n감정과 분위기 추가  \n\n\"우울하고 고독한 분위기의...\" 또는 \"활기차고 희망찬 느낌의...\"와 같은 감정적 톤을 추가하면 더 풍부한 영상이 생성됐대요.\n단순히 객체와 행동만 설명하는 것보다 분위기까지 포함하는 게 효과적이었습니다.\n \n⚠️ 실패하거나 문제가 생긴 접근법\n반면, 다음과 같은 접근법은 좋은 결과를 얻지 못했대요:\n너무 많은 요소 포함하기 ❌\n\n하나의 프롬프트에 너무 많은 요소나 복잡한 상황을 설명하면 소라가 혼란스러워했다고 해요.\n\"고양이가 피아노를 치는 동안 개가 춤을 추고 앵무새가 노래하는...\" 같은 복잡한 상황은 제대로 구현되지 않았어요.\n텍스트와 글자 생성 요청  \n\n소라는 아직 텍스트를 정확하게 렌더링하는 데 어려움을 겪는다고 합니다.\n간판, 책 제목, 메시지 등의 텍스트 요소는 대부분 왜곡되거나 읽을 수 없는 형태로 나타났대요.\n특정 인물 언급  \n\n유명인이나 실존 인물을 지정하면 소라가 이를 제대로 구현하지 못하거나 거부했다고 해요.\n아마도 초상권이나 윤리적 문제 때문에 제한을 둔 것 같아요.\n매우 추상적인 개념  \n\n\"자유의 본질\" 또는 \"시간의 흐름\" 같은 매우 추상적인 개념은 일관된 결과를 얻기 어려웠답니다.\n일부 추상적 개념을 시각적 은유로 표현하기도 했지만, 의도한 바와 달랐대요.\n\n\n \n  기술적 한계와 특이점\n이 분석에서 발견된 소라의 몇 가지 기술적 한계도 있었어요:\n얼굴과 손 표현의 어려움  \n\n사람의 얼굴과 손을 자연스럽게 표현하는 데 여전히 어려움이 있었다고 합니다.\n특히 클로즈업 장면에서 손가락이 너무 많거나 기형적으로 나타나는 경우가 있었대요.\n물리적 상호작용의 문제  \n\n복잡한 물리적 상호작용(물체가 부딪히거나 사람이 물건을 조작하는 등)은 가끔 부자연스럽게 표현됐다고 해요.\n중력이나 물리 법칙을 따르지 않는 움직임이 발생하기도 했답니다.\n일관된 정체성 유지  \n\n영상 내에서 캐릭터의 외모나 의상이 갑자기 변하는 경우가 있었어요.\n긴 시퀀스에서 일관성을 유지하는 것이 아직 완벽하지 않은 것 같아요.\n\"가장 놀라웠던 점은 소라가 단순한 사물이나 장면을 넘어 감정과 이야기까지 표현할 수 있다는 것이었다\"\n \n  가장 성공적이었던 실험들\n32가지 실험 중에서 특히 인상적이었던 몇 가지를 소개할게요:\n자연 다큐멘터리 스타일  \n\n\"BBC 다큐멘터리 스타일로 촬영된, 눈 덮인 산에서 먹이를 찾는 늑대 무리\"라는 프롬프트가 매우 사실적인 결과를 보였대요.\n자연 환경과 동물의 움직임이 놀랍도록 자연스러웠다고 합니다.\n역사적 순간 재현 ⏳\n\n\"1960년대 뉴욕 거리를 걷는 사람들, 빈티지 자동차와 간판이 보이는 16mm 필름 스타일\"이라는 프롬프트가 정말 그 시대에 찍은 것 같은 느낌을 줬대요.\n시대적 특성과 필름 질감까지 잘 표현했다고 해요.\n공상과학 시나리오  \n\n\"황금빛 초원 위에 떠 있는 미래적인 도시, 드론과 비행 차량이 오가는 모습, 따뜻한 석양 조명\"이라는 프롬프트가 인상적인 세계관을 창조했대요.\n상상 속 세계가 놀라울 정도로 일관되고 믿을 만하게 구현됐다고 합니다.\n \n\n\n\n \n  실용적인 사용 사례\n이 분석을 바탕으로, 소라를 효과적으로 활용할 수 있는 몇 가지 방법을 생각해봤어요:\n스토리보드 제작  \n\n영화나 광고 제작자가 아이디어를 시각화하는 데 활용할 수 있을 것 같아요.\n실제 촬영 전에 장면을 미리 보는 도구로 사용할 수 있겠죠.\n교육 콘텐츠  \n\n역사적 사건이나 과학적 개념을 시각화하는 교육용 영상을 만들 수 있을 것 같아요.\n접근하기 어려운 장소나 시대를 체험할 수 있는 콘텐츠를 제작할 수 있겠죠.\n창의적 영감 얻기  \n\n아티스트나 디자이너가 새로운 아이디어를 탐색하는 도구로 활용할 수 있어요.\n다양한 스타일과 분위기를 실험해보며 창작 방향을 정할 수 있겠죠.\n \n프롬프트 결과 sheet 로 제공\n특히 이번 프롬프트 테스트 결과를 그림과 같은 sheet 로 정리하여 공개를 하고 있어 정말 도움이 됩니다.\n테스트한 프롬프트의 영상링크도 제공하니 결과물을 바로 확인할 수 있어 유용합니다.\n\n\n \n \n\n \nSora Launch Day Experiment Report\nLocationsA bustling day at Machu Picchu during Incan prehistoric times. Show the Incan people gathering resources and going about their day in harmony with the majestic surroundings. Include farmers tending to the terraced fields, artisans crafting pottery\ndocs.google.com\n\n \n \n  앞으로의 발전 가능성\n이 분석에 따르면, 소라는 아직 발전 중인 기술이지만 이미 놀라운 가능성을 보여주고 있어요. 앞으로 개선될 것으로 예상되는 부분은:\n더 긴 시퀀스 생성 ⏱️\n\n현재보다 더 긴 영상을 생성할 수 있게 될 것으로 예상돼요.\n이야기성이 있는 콘텐츠 제작이 가능해질 거예요.\n텍스트 렌더링 향상  \n\n간판, 메시지, 자막 등의 텍스트 표현이 개선될 것으로 보여요.\n이를 통해 더 다양한 응용이 가능해질 거예요.\n사용자 인터페이스 개선  ️\n\n프롬프트 작성을 도와주는 가이드나 템플릿이 제공될 수 있을 것 같아요.\n결과물을 수정하고 조정할 수 있는 기능이 추가될 가능성이 높아요.\n솔직히 말해서, 저도 소라를 직접 사용해볼 기회가 아직 없었지만, 이 분석을 통해 정말 흥미로운 가능성을 엿볼 수 있었어요. AI 기술이 창작 영역에서 어떻게 활용될 수 있는지 계속해서 지켜보고 싶네요.\n여러분은 소라나 다른 AI 영상 생성 도구를 사용해보신 적 있나요? 어떤 경험이나 생각이 있으신지 댓글로 공유해주세요! 함께 이야기하면 더 많은 인사이트를 얻을 수 있을 것 같아요.  \n \n<reddit 원문 기사>\n\n \nFrom the OpenAI community on Reddit\nExplore this post and more from the OpenAI community\nwww.reddit.com\n\n \nQ&A\nQ: 소라를 지금 당장 사용할 수 있나요?\nA: 네, 챗GPT PLUS사용자라면 바로 사용할 수 있습니다.\nQ: 소라로 만든 영상의 최대 길이는 얼마인가요?\nA: 현재는 대략 1분 내외의 짧은 영상을 생성합니다.\nQ: 소라가 생성한 콘텐츠의 저작권은 누구에게 있나요?\nA: OpenAI의 정책에 따라 다르지만, 일반적으로 생성된 콘텐츠는 사용자에게 권한이 있습니다.\nQ: 소라와 비슷한 다른 AI 영상 생성 도구가 있나요?\nA: 예, RunwayML의 Gen-2, Stability AI의 제품들이 있습니다.\nQ: 소라를 사용하려면 어떤 하드웨어가 필요한가요?\nA: 클라우드 기반으로 작동하므로 인터넷 연결이 가능한 일반 컴퓨터면 충분합니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라를 지금 당장 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 챗GPT PLUS사용자라면 바로 사용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라로 만든 영상의 최대 길이는 얼마인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재는 대략 1분 내외의 짧은 영상을 생성합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라가 생성한 콘텐츠의 저작권은 누구에게 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"OpenAI의 정책에 따라 다르지만, 일반적으로 생성된 콘텐츠는 사용자에게 권한이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라와 비슷한 다른 AI 영상 생성 도구가 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"예, RunwayML의 Gen-2, Stability AI의 제품들이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라를 사용하려면 어떤 하드웨어가 필요한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"클라우드 기반으로 작동하므로 인터넷 연결이 가능한 일반 컴퓨터면 충분합니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483565",
+    "pubDate": "Mon, 7 Apr 2025 09:35:53 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 비디오 및 멀티미디어",
+      "ai 영상 생성",
+      "OpenAI",
+      "Sora",
+      "소라",
+      "시각적 효과",
+      "영화 스타일",
+      "창의적 도구",
+      "카메라 워크",
+      "텍스트-투-비디오",
+      "프롬프트 엔지니어링"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Your Pluralsight Benefit Just Got Better",
+    "description": "As I talk with Visual Studio developers about the learning and skilling benefits included in their subscription, one thing I hear often is: “I wish I had more time to actually use Pluralsight.” Starting today, I’m pleased to share that we’re doing something about that. We’ve extended access to Pluralsight for all Visual Studio […]\nThe post Your Pluralsight Benefit Just Got Better appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/vss-pluralsight-2025/",
+    "pubDate": "Thu, 03 Apr 2025 13:45:56 +0000",
+    "creator": "Jim Harrer",
+    "categories": [
+      "Azure",
+      "Cloud",
+      "Visual Studio",
+      "Announcement",
+      "VSS Benefits"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
     "title": "Java Annotated Monthly – April 2025",
     "description": "Welcome to the April edition of Java Annotated Monthly! Java 24 has landed, and we’ve got plenty to say about it. From fresh language features to smart tricks and must-try tutorials, there’s something for every curious developer. The cherry on top? Mala Gupta joins us as this month’s featured guest – don’t miss her insights! […]",
     "reviews": [],
@@ -19,133 +108,23 @@
     ]
   },
   {
-    "id": 2,
+    "id": 7,
     "imageUrl": "",
-    "title": "Automatically generate any doc comment for C++ functions in Visual Studio",
-    "description": "Have a difficult time documenting your C++ code? Spending too much time thinking of what a function and its parameters accomplish when generating documentation? Copilot is now integrated into C++ doc comments to automatically provide documentation suggestions based on the function’s contents in Visual Studio 2022 17.14 Preview 2. To learn more about this feature, […]\nThe post Automatically generate any doc comment for C++ functions in Visual Studio appeared first on C++ Team Blog.",
+    "title": "vue + motion-v 사용으로 웹 애니메이션 구현",
+    "description": "영상: https://www.youtube.com/watch?v=wvINSME-FMs\n\n\n\n작은 용량으로 좀더 웹페이지를 블링 블링 하게 만들 수 있습니다.\n좋은 라이브러리 같습니다.\n \n개발문서: https://motion.dev/docs/vue\n\n \nGet started with Motion for Vue | Motion for Vue\nGet started with Motion for Vue with our installation guide and interactive examples.\nmotion.dev\n\n문서에는 NUXT 를 언급하는데 그런거 필요없고\n \nimport {motion} from \"motion-v\"\n랑\n      <motion.button \n        :while-hover=\"{ scale: 2.0 }\" \n        :while-press=\"{ scale: 0.5 }\" \n      > \n        my button \n      </motion.button>\n이런식으로 div 대신에 쓰는 방식으로 바로 적용가능합니다.\n아주 블링블링한 페이지를 만들 수 있습니다.\n예시:\n\n\n \n \n활용한 샘플 데모\n링크: https://examples.motion.dev/vue\n\n \nMotion Examples - Official Motion and Framer Motion components & examples\nFramer Motion is now Motion. Official examples of how to use Motion, including scroll animations, layout animations, keyframes, springs and more. View and copy source code for components and tests. Learn which APIs are used and link through to the source d\nexamples.motion.dev\n\n이페이지 가시면 다양한 샘플들을 보실 수 있습니다.\n고급 사이트에서 볼 수 있는 버튼 / 탭 매뉴 연출 / 팝업 / 들레그 바 등등을 보실 수 있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/automatically-generate-any-doc-comment-for-c-functions-in-visual-studio/",
-    "pubDate": "Thu, 03 Apr 2025 15:55:21 +0000",
-    "creator": "Sinem Akinci",
-    "categories": [
-      "C++",
-      "Copilot"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "@vueuse/core / VUE 에서 다크모드 전환 버튼 구현할때",
-    "description": "tailwind 필수 입니다.\n따라하기 영상: https://www.youtube.com/watch?v=7_mqThfC_yM\n\n\n\n \n빼먹지 말아야하는게\npublic/index.html 의 body 부분에\n<body color-scheme=\"dark\">\n\n\n이거 들어가야합니다.\n저는 어두운게 기본이라 dark 를 썼지만\n밝은게 기본이라면 light 를 쓰시면 됩니다.\n \ntailwind.config.js 에는\n  darkMode: \"class\",\n이거 들어가야합니다.\nmedia 는 사용자 윈도우즈 설정을 따르기 때문에 변경을 할 수 가없습니다. \nclass 는 변경할 수 있습니다.\n\n\n나머진 영상 따라하시면 될 것 같구요\n옛날보다 더 쉬워졌군요\n좋네요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1253",
-    "pubDate": "Sun, 6 Apr 2025 02:29:20 +0900",
+    "link": "http://serverdown.tistory.com/1249",
+    "pubDate": "Sat, 5 Apr 2025 01:19:15 +0900",
     "creator": "SIDNFT",
     "categories": [
       "프로그래밍/개발메모",
+      "Motion",
       "VUE"
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "유니티6 분홍 텍스쳐를 고쳐보자 / Unity Asset Free / Anime Girl",
-    "description": "아이 무서워 눈 왜이러냐\n공짜애셋을 반경하여 써보려고 했는데 분홍이 되어버렸군요\n공자 애셋 링크: Asset Store\n\n\n재일 밑에 공짜 애셋 하나 더 발견했습니다.\n\n\n요러케 생겼습니다.\n\n\n안에 Demo 씬이 있습니다. 열어봅니다.\n\n\n깨져있읍니다.\n이 애셋은 옛날 유니티로 제작된거 같군요 이제 고쳐봅시다.\n\n\n바닥 배경은 이거구요\n\n\n \nMaterial 클릭 하시면 Project 에 파일이 선택됩니다.\n\n\n \n요런식으로 네모 박스 표시되니 찾기 쉽습니다.\n\n\n인스팩터에도 문제가 있는 핑크로 나오네요\n이제 상단 메뉴바에서 이 메뉴를 선택합니다.\nEdit -> Rendering (제일밑에쯤에) -> Materials -> Convert ~~~\n\n\n그러면 뜨는 팝업\n\n\nProceed (진행시켜) 를 누릅니다.\n\n\n이런식으로 고쳐졌습니다.\n\n\n \n케릭터도 문제가 있군요 \n텍스쳐 없는 보니까 단색 재질이 일괄적으로 문제를 일으키는거 같습니다.\n캐릭터도 고쳐봅니다.\n파일을 하나씩 이짓 하면 힘드니 한방에 조져보겠습니다.\n\n\n캐릭터 재질은 이폴더에 몰려있군요\n\n\n \n하나씩 클릭해보면 분홍색인지 아닌디 판단할 수 있습니다.\n하나씩 하면 퀴찮으니 다 선택합니다.\n폴더내 전체 파일 선택\n처음 파일 누르고 쉬프트 누른 상태에서 끝 파일을 누르면 사이에 모든 파일을 선택할 수 있습니다.\n\n\n문제 없는건 알아서 넘어갈태니\n\n\n잘 해결 되었습니다.\n\n\n공짜 치고 좋습니다. \n많이 사용해야겠군요\n \n공짜 애니메이션\n위에 애셋은 이 애니메이션이랑 호환이 되네요\n애셋: Dummy Animation | 3D Robots | Unity Asset Store\n영상: KLINGAI - Squeeze Anything in Your Video\n\n\n\n걷기 달리기 발차기 주먹 얼굴 맞기 쓰러지기 정도 들어있군요\n \n \n \n공짜애셋 하나더 찾았습니다.\n링크::https://youtu.be/j0Exr8rdnic?si=nUkIDq9LU2XQn3tE\n\n\n\n이거는 애니메이션도 들어있나봅니다.\n이거는 영상만 보면 잘만들어진듯 하나\n애니메이션이 호환이 안되네요\n쉐이더도 별도로 만들어서 이글에서 나온 방식으로는 해결이 안됩니다.\n못쓸꺼 같아요\n아쉽습니다.\n \n \n유료 애셋도 구경해 봅니다.\n아래 애셋은 15 달러입니다.\n다른 개발자아의 애셋인데 유료는 머리카락이 작업 되어있군요\n애셋: Akari - 3D Stylized Anime/Cartoony Female Character | 3D Characters | Unity Asset Store\n영상: Akari - 3D Stylized Anime/Cartoony Female Character\n\n\n\n \n \n요거는 34 달라\n애셋: Ahab's ANIME Character #1 | Characters | Unity Asset Store\n영상: UNITY. Ahab's ANIME Character #1 v2\n\n\n\n \n \n1UP GIRL 여기가 제일 잘만드나봅니다. 가격도 싸네요 4달라\n눈이랑 머리랑 다 작업한거 같군요\n애셋: 1UP GIRL - SHIZUKA Mobile III | 3D Characters | Unity Asset Store\n영상: 1UP 3D GIRL Series",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1248",
-    "pubDate": "Thu, 3 Apr 2025 21:43:35 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/유니티 에셋 리뷰",
-      "무료",
-      "유니티"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "ESLint 알아보자",
-    "description": "영상: https://www.youtube.com/watch?v=Y3kjHM7d3Zo&t=1s\n\n\n\n자바스크립트의 문법을 일관성있게 고쳐주는 그것 \nLint 린트 입니다.\n초보때는 빼고 쓰는게 나을 정도로 빡빡한 규칙들이 있습니다.\n개인이 설정하는건 너무나 어려운일이라\n누가 만든거에 들어가 있거나 쓰거나 하는게 대부분 입니다.\n이 영상을 통해 자세히 알아볼 수 있을 것 같습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1246",
-    "pubDate": "Thu, 3 Apr 2025 10:53:02 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Join Kotlin Heroes: Episode 12 and Win Kotlin Swag",
-    "description": "Kotlin Heroes is a fun and challenging contest with problems designed to be interesting for programmers of all levels. Solve algorithmic problems, learn more about Kotlin, and get a chance to win prizes! The main contest will take place on April 7, 2025, but the practice round is already open – so jump in anytime […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/04/join-kotlin-heroes-episode-12/",
-    "pubDate": "Sat, 05 Apr 2025 10:26:00 +0000",
-    "creator": "Ksenia Shneyveys",
-    "categories": [
-      "news",
-      "competitive-programming",
-      "contest",
-      "event",
-      "kotlin-heroes"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "슈퍼마리오 효과",
-    "description": "얼마 전에 팟캐스트를 듣다가 ‘슈퍼마리오 효과’에 대해서 알게 됐다. 꽤 흥미로운 컨셉인데, 여기서 너무 자세히 이야기는 하지 않을 테니, 궁금한 분은 유튜브에서 검색해 보면 된다. 슈퍼마리오류의 미로 탈출 게임을 한 두 실험군이 있었는데, 한 그룹엔 실패하면 “잘 안됐네요. 다시 시도해 보세요.”라는 메시지가 보였고, 다른 그룹엔 “방금 5점을 잃었습니다.”라는 메시지가 보였다. 어떤 그룹이 결국엔 게임을 더(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/04/the-super-mario-effect.html",
-    "pubDate": "Sun, 06 Apr 2025 21:27:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "failure",
-      "FoundersAtWork",
-      "product",
-      "스타트업 바이블 QA"
-    ]
-  },
-  {
     "id": 8,
-    "imageUrl": "",
-    "title": "Add Force 1 - v36 업데이트 요약 / 110일차",
-    "description": "플레이 영상 1분 30초\n영상: https://www.youtube.com/watch?v=IQ67qdBKVKU\n\n\n\n \n \n \n \n \n스킬 - 폭발 범위 증가\n\n\n폭발 - 총알을 명중시켰을 경우 폭발이 일어나 범위공격이 일어납니다.\n화면에 폭발 범위가 제대로 표시가 되지 않아서 확실하게 보이는 원형 이팩트를 추가했습니다.\n영상: https://www.youtube.com/watch?v=IQ67qdBKVKU\n\n\n\n \n \n \n \n \n애드몹 광고가 추가되었습니다.\n게임오버되면 광고를 보고 이어할 수 있습니다.\n영상: https://www.youtube.com/watch?v=QUbZIcolPDc&feature=youtu.be\n\n\n\n \n \n총평\n플레이가 지루합니다.\n스킬 효과와 화면의 표시부분의 개선이 필요합니다.\n영상: https://www.youtube.com/watch?v=J4EPku3DpMk&feature=youtu.be",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1250",
-    "pubDate": "Sat, 5 Apr 2025 12:33:42 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "Add Force 1 (자작)"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "JetBrains Academy – March Digest",
-    "description": "April is always a busy month in tech. For example, in April 1986, IBM became the first to use a megabit chip. In 1991, Java development began in earnest. And, of course, there’s April Fools’ Day – perfect for programming jokes and clever pranks. This April is certainly no exception! Check out fresh courses, events, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/04/01/jetbrains-academy-march/",
-    "pubDate": "Tue, 01 Apr 2025 14:26:25 +0000",
-    "creator": "Maria Sharobaeva",
-    "categories": [
-      "digest",
-      "jetbrains-academy",
-      "newsletter"
-    ]
-  },
-  {
-    "id": 10,
     "imageUrl": "",
     "title": "Don’t Miss IntelliJ IDEA Conf 2025!",
     "description": "You’re invited to IntelliJ IDEA Conf 2025, a celebration of the developer community and a chance to connect with professionals who strive for excellence in software development. Join us online on June 3–4 for a free conference filled with insightful talks, hands-on sessions, and opportunities to learn from industry leaders and experts. Conference Details and […]",
@@ -166,78 +145,114 @@
     ]
   },
   {
-    "id": 11,
+    "id": 9,
     "imageUrl": "",
-    "title": "View and manage git tags",
-    "description": "Are you tired of switching between your IDE and command-line tools to manage Git tags? We’ve got the perfect solution for you! With the latest update, Visual Studio empowers you to seamlessly view and manage Git tags directly within the Git Repository window. This streamlined workflow ensures you remain within the familiar environment of the […]\nThe post View and manage git tags appeared first on Visual Studio Blog.",
+    "title": "Pure Virtual C++ 2025 Talks Announced",
+    "description": "Pure Virtual C++ is our free, one-day, virtual conference for the whole C++ community. This year, it is running on the 30th April. We’re pleased to announce four of our five live sessions for the day: Welcome to v1.0 of the meta::[[verse]]! with Inbal Levi Proxy: Next Generation Polymorphism with Mingxin Wang Making unfamiliar C++ […]\nThe post Pure Virtual C++ 2025 Talks Announced appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/view-and-manage-git-tags/",
-    "pubDate": "Mon, 31 Mar 2025 15:10:25 +0000",
-    "creator": "Sebastian Hernandez",
+    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2025-talks-announced/",
+    "pubDate": "Mon, 07 Apr 2025 13:51:39 +0000",
+    "creator": "Sy Brand",
     "categories": [
-      "Git",
-      "Productivity",
-      "Visual Studio",
-      "Git File History"
+      "Announcement",
+      "Pure Virtual C++"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "dotInsights | April 2025",
+    "description": "Did you know? In C#, you can use a feature called “caller info attributes” to obtain information about the caller of a method. This can be incredibly useful for logging, debugging, or tracing. The attributes CallerMemberName, CallerFilePath, and CallerLineNumber provide information such as the name of the calling method, the path to the source file […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/04/02/dotinsights-april-2025/",
+    "pubDate": "Wed, 02 Apr 2025 13:02:03 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "슈퍼마리오 효과",
+    "description": "얼마 전에 팟캐스트를 듣다가 ‘슈퍼마리오 효과’에 대해서 알게 됐다. 꽤 흥미로운 컨셉인데, 여기서 너무 자세히 이야기는 하지 않을 테니, 궁금한 분은 유튜브에서 검색해 보면 된다. 슈퍼마리오류의 미로 탈출 게임을 한 두 실험군이 있었는데, 한 그룹엔 실패하면 “잘 안됐네요. 다시 시도해 보세요.”라는 메시지가 보였고, 다른 그룹엔 “방금 5점을 잃었습니다.”라는 메시지가 보였다. 어떤 그룹이 결국엔 게임을 더(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/04/the-super-mario-effect.html",
+    "pubDate": "Sun, 06 Apr 2025 21:27:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "failure",
+      "FoundersAtWork",
+      "product",
+      "스타트업 바이블 QA"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "선교사와 용병",
-    "description": "창업가를 이분법적으로 구분하는 방법은 여러 가지가 있는데, 요새 내가 “이분은 이렇다. 저분은 저렇다.”라고 구분할 때 자주 사용하는 비유가 missionary와 mercenary 창업가다. 우리말로 딱 떨어지는 번역은 없지만, 편의를 위해서 나는 missionary 파운더를 사명형 창업가라고 하고, mercenary 파운더를 용병형 창업가라고 한다. 사명형 창업가는 어떤 깊은 목적이나 사명감 때문에 창업했고, 사업을 하면서도 결국 이 사명감을 실천하는 것에 집중한다.(...)",
+    "title": "회사개조",
+    "description": "그간 읽었던 실리콘밸리식 기업 관리, 성공 방법과는 다른 결의 책이여서 마치 뉴키즈 온더 블럭(New Kids on the Block) 같았다.\n현대 경영에서 미국식이 아닌 일본식으로 승부를 본 과정을 본 셈이다.\n이 책을 보는 내내 가장 어색하게 느껴졌던 것은 '사장' 이라는 단어였다.\n그간 봐왔던 실리콘밸리식 경영 서적들은 결국 'CEO' 를 중심으로 둔다면 이 책은 '사장'을 중심으로 둔다.\n흔히 접하던 미국식 경영 서적에서 이야기하는 'CEO' 중심의 전략적 리더십과는 결이 달랐다.\n'사장' 은 경영의 방향성을 제시하는 것을 넘어, 회사 내 문제를 가장 가까운 거리에서 직접 진단하고 해결해 나가는 책임자이자 핵심적인 코치로 묘사된다.\n사장은 현장에 가까이 있으며, 조직 내의 업무 프로세스와 일하는 방식을 개선하여 직원들을 성장시키는 역할을 수행한다.\n책 후반부에 있는 '아마추어를 프로로 키우는 조직'이라는 챕터에서는 사장이 조직 내 병목 지점을 파악하고 직원들의 성장을 돕는 코치로서 역할을 가장 명확히 느낄 수 있었다.\nCEO와 사장에는 인재를 다루는 방식에서 큰 차이가 있었다.\n'좋은 기업을 넘어 위대한 기업으로(Good to Great)'나 '하드씽 (The Hard Thing About Hard Things)' 과 같은 책에서는 주로 적합한 인재를 선발하고, 맞지 않는 사람을 신속히 내보내는 채용과 해고의 중요성을 강조하는 데 반해, '회사개조' 는 기존 직원들의 잠재력을 최대한 이끌어내는 데 초점을 맞춘다.\n실리콘밸리식 경영 서적에서는 대부분 '채용'과 '해고'를 대단히 강조 한다.\n그래서 어떻게 하면 좋은 리더를 채용하고, 안좋은 리더는 어떻게 해고해야하는지, 좋은 팀원을 뽑기 위한 채용 프로세스는 어떻게 가져가야하는지 등이 강조되는 반면, 이 책은 내내 팀원과 리더를 육성하고 각성 시키는 법에 집중한다.\n그래서 사장이 코치가 되어 도제식으로 리더 하나 하나를 육성한다.\n외부에서 좋은 사람을 데려오는 것 보다, 기존의 팀원들을 어떻게 각성시키고, 그 중에서 좋은 리더를 선별해서 1년, 2년 성장할 때까지 계속해서 지켜보고 도와주는 모습이 '사장' 이라고 이야기하는 것 같았다.\n\"아니다 싶은 팀원 혹은 리더와 빨리 헤어지고 나서 후회한 적은 없지만, 늦게 헤어져서 후회한 적은 많다\" 라는 내용을 본 적이 있다.\n실제로 그게 맞는 경우도 꽤나 많았을 것이다.\n그렇지만 그 동료, 리더의 잠재력을 끝까지 끌어내보았는가? 에 대해서는 다시 한번 생각하게 되었다.\n책 속 문장들\n회사가 느끼는 ‘위기’와 사원이 품는 ‘위기감’이 반드시 비례하는 것은 아니다. 오히려 반비례 관계라 하는 편이 옳다.\n요컨대 사원들의 실적이 떨어져 위기감이 높아야 할 회사일수록 사내 분위기는 해이한 경우가 많다.\n반대로 실적이 좋아 위기와는 거리가 먼 듯한 기업일수록 사원들은 긴장의 끈을 놓치지 않고 열심히 노력한다.\n...\n조직의 위기감을 높이기 위해 최고경영자가 “자네들은 위기감이 부족해!”라고 소리친다거나, 경영 풍토를 바꾸기 위해 “풍토를 개혁합시다!”라고 외치는 것은 의미가 없다.\n사원들을 변화시킨다고 “의식을 개혁합시다!”라고 부르짖기만 하는 경영자는 능력이 부족한 것이다.\n회사를 바꾸기 위해서는 경영자가 먼저 철저한 계산을 통해 전략적인 접근법을 도출하고, 구체적인 행동 방법을 마련해야 한다.\n그리고 본인이 선봉에 서서 모든 비난과 저항을 받아낼 각오로 기존의 조직과 가치관을 무너뜨려야 한다.\n\"실적이 좋아 위기와는 거리가 먼 듯한 기업일수록 사원들은 긴장의 끈을 놓치지 않고 열심히 노력한다\" 는 비단 회사가 아닌 개개인에도 적용될 수 있는 것 같다.\n기업이 도저히 손을 쓸 수 없는 상황에 몰리면 구조조정이 불가피한 상황도 생긴다.\n물론 꼭 필요한 경우라면 그것도 하나의 방법이 될 수 있다.\n그러나 기업이 구조조정을 단행하거나 사업의 일부를 매각했다고 해서, 살아남은 사원들이 활력을 되찾고 회사의 전투력이 눈에 띄게 상승했다는 이야기는 들어본 적이 없다.\n대부분은 구조조정을 통해 일시적으로 적자를 줄였을 뿐 조직 내의 업무 방식도 예전 그대로이고, 실적을 끌어올리기 위한 전략도 여전히 부재하기 때문이다.\n그래서 나는 늘 강조했다.\n기업에 활력을 불어넣으려면 인원 감축 같은 발상이 아니라 ‘지금 그곳에 있는 사람들’의 눈을 반짝반짝 빛나게 만들 방법을 찾아야 한다고.\n경영 리더가 전략을 명확히 제시하고 그 전략에 공감한 사원들이 하나로 뭉쳐서 달리기 시작하면 변화가 일어난다.\n예전의 그 회사가 맞나 싶을 정도로 몇 배는 더 열정적으로 일하기 시작한다.\n사에구사는 지난 회사에서 그런 경험을 수없이 했다.\n새로운 전략을 축으로 지금 여기 있는 사람들의 활력을 최대한 이끌어내는 것. 그것이 회사 개혁의 가장 큰 원칙이다.\n나는 미스미 그룹이 오래도록 활력이 넘치는 조직을 유지하길 원했다.\n이를 위한 열쇠는 경영진의 ‘구호’나 막연한 ‘정신론’이 아니다.\n조직이나 전략에 구체적인 ‘장치’를 담아야 한다.\n사내의 시스템을 꾸준히 혁신해 그곳에서 일하는 사람들의 행동을 끊임없이 뒤흔드는 것 이외에는, 비대해진 조직에 따라붙는 관료화의 숙명에서 벗어날 방법이 없다.\n회사를 바꾸기 위해서는 경영자가 먼저 철저한 계산을 통해 전략적인 접근법을 도출하고 구체적인 행동 방법을 마련해야 한다. 그리고 모든 비난과 저항을 받아낼 각오로, 본인이 선봉에 서서 기존의 조직과 가치관을 무너뜨려야 한다 (p.290)\n이 일을 믿고 맡길 수 있는 사람이 있다면 그렇게 하고 싶다. 그러나 최고경영자가 실현하고자 하는 과제를 대신할 사람이 없다면 마음이 놓일 때까지 직접 현장에 개입할 수밖에 없다. 프로페셔널의 기량을 지닌 사람과 현장에서 동행하며 ‘장인의 디테일’을 직접 대면하고 함께 상황을 헤쳐나가는 경험만으로 직원들은 빠르게 성장한다.\n조직의 모든 변화는 강력한 리더로 시작 되어야 한다는 것을 강조해줬다.\n조직의 변화는 항상 저항을 받을 수 밖에 없는데, 결국 리더가 그 저항을 뚫고 변화를 만들어 가야만 한다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/04/missionary-vs-mercenary-founders.html",
-    "pubDate": "Wed, 02 Apr 2025 21:27:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://jojoldu.tistory.com/824",
+    "pubDate": "Mon, 7 Apr 2025 08:32:32 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "hustle",
-      "inspiring",
-      "people",
-      "Strong",
-      "vc"
+      "도서",
+      "사에쿠사 타다시",
+      "사장",
+      "좋은 기업을 넘어 위대한 기업으로",
+      "하드씽",
+      "회사개조"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Gradio HTML Javascript 렌더링 방법",
-    "description": "이 글은 Gradio HTML Javascript 렌더링 방법을 간략히 정리한다. 가끔, HTML, javascript(자바스크립트)를 Gradio 페이지에 표시하고 싶을 때가 있다. 예를 들어, Gradio 기존 컴포넌트에서 지원되지 않는 3D 그래픽을 렌더링해야 할 때가 있다.\n\n\nGradio 3차원 모델 렌더링 예시\n\n하지만, Gradio는 HTML만 지원하고, javascript는 다양한 이유로 사용자가 직접 Gradio에서 실행하는 것을 허용하지 않는다. 이 경우, iframe 을 사용한다.\n\n\nGradio에서 three.js 코드 실행 예시\n\n다음은 Gradio에서 3D graphic 렌더링을 위해 three.js를 사용하는 예를 보여준다.\n\nimport os, json, requests, gradio as gr\nfrom gradio import Interface, File, Files, Button, Label, Markdown\n\n\nclass 3D_viewer_component:\n    def __init__(self, gr):\n        self.html_code = \"\"\"\n<iframe srcdoc=\"\n<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      body, html { margin: 0; overflow: hidden; height: 100%; }\n      canvas { display: block; }\n    </style>\n    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script>\n  </head>\n  <body>\n    <script>\nconst WIDTH = window.innerWidth;\nconst HEIGHT = window.innerHeight;\n\n\nconst renderer = new THREE.WebGLRenderer({ antialias: true });\nrenderer.setSize(WIDTH, HEIGHT);\nrenderer.setClearColor(0x111111, 1);\ndocument.body.appendChild(renderer.domElement);\n\n\nconst scene = new THREE.Scene();\n\n\nconst camera = new THREE.PerspectiveCamera(70, WIDTH / HEIGHT, 0.1, 10000);\ncamera.position.z = 30;\ncamera.position.y = 10;\nscene.add(camera);\n\n\nconst boxGeometry = new THREE.BoxGeometry(10, 10, 10);\nconst basicMaterial = new THREE.MeshBasicMaterial({ color: 0x0095dd });\nconst cube = new THREE.Mesh(boxGeometry, basicMaterial);\ncube.position.x = -25;\ncube.rotation.set(0.4, 0.2, 0);\nscene.add(cube);\n\n\nconst torusGeometry = new THREE.TorusGeometry(7, 1, 16, 32);\nconst phongMaterial = new THREE.MeshPhongMaterial({ color: 0xff9500 });\nconst torus = new THREE.Mesh(torusGeometry, phongMaterial);\ntorus.rotation.set(0.5, 0.5, 0);\nscene.add(torus);\n\n\nconst light = new THREE.PointLight(0xffffff);\nlight.position.set(-10, 15, 50);\nscene.add(light);\n\n\nlet t = 0;\nfunction render() {\n  t += 0.01;\n  requestAnimationFrame(render);\n  cube.rotation.y += 0.01;\n  torus.scale.y = Math.abs(Math.sin(t));\n  renderer.render(scene, camera);\n}\nrender();\n    </script>\n  </body>\n</html>\n\" width=\"100%\" height=\"100%\" style=\"border:none;\"></iframe>\n        \"\"\"\n\n\n        self.component = gr.HTML(self.html_code)\n\n\nwith gr.Blocks(title='3D viewer') as interface:\n\tgr.Markdown(\"# 3D viewer\")\n\twith gr.Row(equal_height=True):\n\n\t\t3D_viewer_component(gr)\n\n\t\t3D_viewer_component(gr)\n\n\n\ninterface.launch(share=True)\n\n\n참고로, Gradio에서 공식적으로 추천하는 방법은 다음과 같이 커스텀 컴포넌트를 개발한 것이다.\n\n\n커스텀 컴포넌트 생성 명령 예시\n\n명령 실행 순서(일부)\n\n위 그림과 같이 컴포넌트 생성하면, 다음처럼 프로젝트 파일이 생성되고, 이를 수정해 개발하는 방식이다.\n\n- backend/ <- The python code for your custom component\n\n- frontend/ <- The javascript code for your custom component\n\n- demo/     <- A sample app using your component. Modify this!\n\n- pyproject.toml <- Used to build the package and specify package metadata.\n\n\n\nGradio 커스텀 컴포넌트 예시(Gradio Custom Components Gallery)\n\n\n\n이외 3차원 모델 파일 뷰어는 Model3D 컴포넌트를 사용할 수도 있다.\n\n\nModel3D 예시\n\n레퍼런스\n\nGradio Model3D Docs\nCustom Components In Five Minutes\nGradio Custom Components Gallery\ngradio/model3D",
+    "title": "코드 품질 개선 기법 7편: 새것을 들일 때 옛것도 다시 살피자",
+    "description": "안녕하세요. 커뮤니케이션 앱 LINE의 모바일 클라이언트를 개발하고 있는 Ishikawa입니다.\n저희 회사는 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰...",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/04/gradio-html.html",
-    "pubDate": "2025-04-05T04:05:00.000Z",
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-7",
+    "pubDate": "Fri, 04 Apr 2025 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "@iconify/vue / VUE 에서 아이콘 붙일때 좋은 모듈",
-    "description": "꼭 vue 가 아니더라도 붙일 수 있는거 같습니다.\n \n영상: https://www.youtube.com/watch?v=a6XI8XAuORM&t=41s\n\n\n\n \nscript 부분에\nimport { Icon } from \"@iconify/vue\";\n \ntemplate 부분에는 이런식\n\n\nicon=\"\" 부분에 들어갈 내용은 \n아이콘 브라우저에서\n링크: https://icon-sets.iconify.design/\n\n \nIconify - home of open source icons\n \nicon-sets.iconify.design\n\n \n검색해야합니다.\n \n\n\n \n\n\n \n아래쪽에 글씨가 나옵니다. 화살표의 버튼이 복사하기 버튼\n \n \n제 사이트 하단에 가시면\n링크: https://apps.sidnft.com/\n\n\n이런식으로 그럴듯 하게 나옵니다.\n아주 좋네요",
+    "title": "Building and Deploying Microservices With Spring Boot and TeamCity",
+    "description": "This tutorial was brought to you by Rajkumar Venkatasamy, draft.dev. Microservice architecture has become a cornerstone for building scalable and maintainable applications. Microservices allow individual services to be developed, deployed, and scaled independently, resulting in faster delivery cycles and improved fault isolation.  For example, an e-commerce platform can use independent services to handle product catalogs, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1252",
-    "pubDate": "Sun, 6 Apr 2025 02:19:58 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/teamcity/2025/04/building-and-deploying-microservices-spring-boot-teamcity/",
+    "pubDate": "Tue, 01 Apr 2025 13:13:04 +0000",
+    "creator": "Olga Bedrina",
     "categories": [
-      "VUE"
+      "how-tos",
+      "java",
+      "tutorials",
+      "microservices",
+      "news",
+      "spring-boot",
+      "tutorial"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Amper Update April 2025 – IDE and CLI Feature Drop!",
-    "description": "Amper 0.6.0 is out, with improvements to both the IDE and CLI experience. Read on for all of the details, and see the release notes for the full list of changes and bug fixes. To get support for Amper’s latest features, use IntelliJ IDEA 2025.1 Beta (or newer). IDE improvements Improved template workflows Templates allow […]",
+    "title": "토스페이 4월 할인 이벤트와 쿠폰 혜택 총정리",
+    "description": "아시아나 항공권, 에이블리, 오늘의집 할인·적립 쿠폰까지, 토스페이 2025년 4월 혜택 확인하기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/amper/2025/04/amper-update-april-2025/",
-    "pubDate": "Tue, 01 Apr 2025 08:59:33 +0000",
-    "creator": "Márton Braun",
+    "link": "https://blog.toss.im/article/tosspay-2025-04",
+    "pubDate": "Thu, 03 Apr 2025 08:54:00 GMT",
+    "creator": "Unknown",
     "categories": []
   }
 ]
