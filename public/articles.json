@@ -2,21 +2,131 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Update on Context Parameters",
-    "description": "Context parameters are an upcoming feature in Kotlin, with a variety of use cases including more powerful extension methods and better tools for DSL development. Kotlin 2.2.0 will feature context parameters in Beta, and dedicated IntelliJ IDEA support will be available from 2025.1. Context parameters replace another experimental feature in the language, namely context receivers. […]",
+    "title": "500 만원으로 농막 짓기 도전자",
+    "description": "영상: https://www.youtube.com/watch?v=BZLruvIKJwA\n\n\n\n \n컨테이너 박스 사서 쓰는것도 비싸서 \n샌드위치패널로 박스 만들어서 살꺼라고 합니다.\n하는거보고 저도 도전을 해봐야겠군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/04/update-on-context-parameters/",
-    "pubDate": "Thu, 10 Apr 2025 15:28:12 +0000",
-    "creator": "Alejandro Serrano Mena",
+    "link": "http://serverdown.tistory.com/1257",
+    "pubDate": "Thu, 10 Apr 2025 01:59:02 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "news",
-      "language-evolution",
-      "roadmap"
+      "유튜브",
+      "농막"
     ]
   },
   {
     "id": 2,
+    "imageUrl": "",
+    "title": "바이브 코딩, 정말 코드 없이 개발이 가능할까? (개념과 현실, 미래 분석)",
+    "description": "코드는 잊어라, 바이브로 개발하라?\n\"코드 한 줄 안 썼는데 2시간 만에 앱 만들었어요.\"\n최근 테크 업계, 특히 소셜 미디어를 중심으로 바이브 코딩(Vibe Coding)이라는 용어가 뜨겁게 달아오르고 있습니다. 마치 주문처럼 몇 마디 던지면 AI가 뚝딱 프로그램을 만들어준다는 이야기들이 넘쳐나죠. 정말 코딩 실력 없이 느낌(Vibe)만으로 소프트웨어를 창조하는 시대가 온 걸까요?\n바이브 코딩이란 무엇인지, 그 열풍의 이면과 현실적인 문제점들, 그리고 앞으로의 전망까지 깊이 파헤쳐 보겠습니다.\n바이브 코딩이란 무엇인가? (개념과 기원)\n바이브 코딩은 사람이 만들고 싶은 기능이나 해결하고 싶은 문제를 자연어(일상 언어)로 설명하면, 인공지능(AI)이 이를 이해하고 소프트웨어 코드를 대신 생성해주는 프로그래밍 방식입니다. 개발자는 복잡한 코드 문법을 외우고 직접 타이핑하는 대신, AI에게 \"이런 기능을 만들어줘\"라고 지시하고, AI가 내놓은 결과물을 확인 및 수정하며 전체 과정을 지휘합니다. 즉, AI와 적극적으로 협업하여 결과물을 만들어가는 새로운 방식입니다. Cursor나 Wind Surf 같은 도구들이 이러한 접근을 가능하게 하는 예시로 언급됩니다.\n이 용어는 OpenAI 공동 창업자이자 전 테슬라 AI 디렉터였던 안드레이 카르파티(Andrej Karpathy)가 2024년 2월 처음 사용하면서 알려졌습니다. 그는 자신이 코딩하는 방식을 \"완전히 느낌에 몸을 맡긴 채(vibe) 코딩하는 새로운 방식\"이라고 묘사하며, AI와 대화하듯 원하는 바를 말하고, AI가 코드를 생성하면 그저 실행해보고(run stuff), 지시하고(say stuff), 복사-붙여넣기(copy-paste stuff)하는 과정을 통해 대부분 잘 동작한다고 설명했습니다. 그는 이를 \"전통적인 코딩이라기보다는 컴퓨터와 대화하며 내가 원하는 것을 이루게 하는 과정\"이라고 정의하며, 프로그래밍 경험이 부족한 사람도 복잡한 문법이나 라이브러리 지식 없이 아이디어만으로 프로그램을 만들 수 있다는 기대감을 불러일으켰습니다.\nThere's a new kind of coding I call \"vibe coding\", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper…\n— Andrej Karpathy (@karpathy) February 2, 2025\n \n\n그러나 카르파티 본인도 이 방식의 한계를 명확히 했습니다. AI가 생성한 코드에 버그가 발생했을 때 근본적인 원인을 완벽하게 수정해주지 못하거나, 엉뚱한 시도로 우연히 문제를 해결하는 경우가 많기 때문입니다. 그는 이러한 방식이 주말에 가볍게 시도해볼 만한 사이드 프로젝트에는 적합하지만, 복잡하고 중요한 프로젝트에는 한계가 있다고 경고했습니다. 또한 AI가 생성한 코드를 100% 신뢰할 수 없으므로, 제대로 된 결과물을 얻기 위해서는 결국 사람이 코드를 이해하고 검증해야 한다고 강조했습니다.\nAI 연구자 사이먼 윌리슨(Simon Willison)은 \"LLM이 모든 코드를 써줬더라도, 그 코드를 완전히 이해하고 테스트해 문제없음을 확인했다면 바이브 코딩이 아니다. 그저 LLM을 타이핑 도우미로 쓴 것\"이라고 지적하며, 사용자가 생성된 코드를 완전히 이해하지 않은 채 사용하는 뉘앙스에 대한 비판을 내놓았습니다.\n결론적으로, 바이브 코딩은 자연어 설명을 통해 AI와 협업하여 코드를 생성하는 방식으로, 개발의 진입 장벽을 낮출 잠재력을 지니고 있지만, 동시에 결과물에 대한 이해 부족과 AI의 한계를 내포하고 있습니다.\nAI 시대의 새로운 열풍, 온라인을 휩쓴 바이브 코딩\n바이브 코딩이라는 용어가 등장하자마자 실리콘밸리와 온라인 커뮤니티에서는 열광이 일었습니다. 비즈니스 인사이더는 이를 실리콘밸리의 \"다음 막(next act)\"으로 칭했고, 뉴욕타임스 기술 칼럼니스트 케빈 루스(Kevin Roose)는 직접 AI 코딩 비서를 활용해 간단한 앱(냉장고 재료로 점심 메뉴 추천 앱 'LunchBox Buddy')을 만들며 이 개념을 소개했습니다. 그는 \"나는 코더가 아니지만 몇 달째 코드를 술술 써내고 있다\"며, 아이디어만 있으면 누구나 앱 개발자가 될 수 있다는 인식을 퍼뜨렸습니다.\n특히 노코드/로우코드(No-code/Low-code) 운동과 맞물리면서 바이브 코딩은 더욱 주목받게 되었습니다. 기존 노코드가 시각적 도구를 이용한 개발이었다면, 바이브 코딩은 \"프롬프트 몇 개만 던지면 완제품이 나온다\"는 급진적인 비전을 제시합니다. Replit CEO 암자드 마사드는 \"Replit 이용자의 75%는 코드를 한 줄도 쓰지 않는다\"는 데이터를 공개하며, 이미 많은 사람들이 AI 도구를 활용한 '코딩 없는 코딩'을 시도 중임을 보여주었습니다.\n성공 사례도 속속 등장했습니다. 인디 해커 피터 레벨스(Pieter Levels)는 AI만으로 게임을 개발해 17일 만에 연간 반복 매출(ARR) 100만 달러(약 13억 원)를 달성했다고 밝혀 큰 화제를 모았습니다. 그는 \"100% AI가 짠 코드로 완벽한 멀티플레이어 게임이 완성됐다!\"며 흥분을 감추지 않았으며, 심지어 AI 생성 코드 비율이 80% 이상인 게임을 출품하는 '바이브 코딩 게임 잼'을 개최하기도 했습니다. 이러한 빠른 성공 사례는 더 많은 사람들이 바이브 코딩에 도전하도록 이끌었습니다. 일부 Y Combinator(YC) 참여 창업자들은 자신들의 코드베이스 중 95% 이상이 AI에 의해 생성되었다고 보고했습니다. 이는 과거에는 상상하기 어려웠던 생산성 향상입니다.\n✨ https://t.co/6TyHKajGaJ has now gone from $0 to $1 million ARR in just 17 days!\n💸 Revenue update: $87,000 MRR (which is $1M ARR)\nMy first project ever to go up this fast 🤯\nOnly 3 ads left now: https://t.co/uc1J8Ia7QZ\n📊 Stats update: 320,000 people have now flown in the… https://t.co/scrq1lSJOT pic.twitter.com/NCc50FOgJa\n— @levelsio (@levelsio) March 11, 2025\n \n\n그러나 주목할 점은 피터 레벨스 자신이 다년간의 개발 경험을 가진 숙련된 개발자라는 점입니다. 그는 \"AI 시대 개발의 핵심 역량은 여전히 코드를 읽고 이해하는 능력\"이라고 강조했습니다. 즉, 코딩을 아는 사람이 AI를 도구로 활용했기에 뛰어난 성과를 낼 수 있다는 점입니다. 구글의 애디 오스마니(Addy Osmani) 역시 \"AI 도구는 초심자보다 숙련된 개발자에게 더 큰 이익을 준다\"라고 분석했습니다. 경험 많은 개발자는 AI가 생성한 코드의 문제점을 파악하고 개선할 수 있지만, 초보자는 AI의 결과물을 그대로 받아들이다 보면 문제가 발생할 가능성이 높습니다.\n또한, 수학이나 물리학 등 비전통적인 기술 배경을 가진 사람들도 바이브 코딩 환경에서 성공할 가능성이 있습니다. 이들은 뛰어난 분석 및 문제 해결 능력을 AI 코딩 도구와 결합해, 전통적인 컴퓨터 공학 교육 없이도 생산적인 기여를 할 수 있습니다. 이는 바이브 코딩이 개발 분야의 인력 구성을 다양화할 잠재력을 보여줍니다.\n결국, 바이브 코딩은 개발의 문턱을 낮추는 긍정적인 측면이 있지만, 그 이면에는 경험 있는 사용자의 활용 능력 또는 강력한 분석 능력이라는 조건이 내포되어 있음을 알 수 있습니다.\n과대광고의 실상: 뚜껑 열어보니 빈 껍데기?\n\"1분 만에 넷플릭스 클론 완성!\"과 같은 주장은 매력적으로 들리지만, 실제로는 실망스러운 경우가 많습니다. 겉모습(프론트엔드 UI)은 그럴듯하게 구현됐을지라도, 핵심 기능(백엔드 로직, 데이터베이스 등)을 포함한 완전한 서비스로 이어지지 못하는 경우가 많습니다. AI는 보이는 부분을 빠르게 모방하는 데는 강점을 보이지만, 보이지 않는 복잡한 시스템 전반을 완벽하게 구축하지는 못합니다.\n실제로 한 개발자는 바이브 코딩으로 만든 결과물을 배포했다가 여러 문제를 경험했습니다. \"API 키 사용량 초과, 유료 기능 우회, 데이터베이스 오류 등 알 수 없는 문제들이 발생했다. 기술 지식이 부족해 원인 파악도 어려웠다\"는 토로와 함께, 결국 \"Cursor로 코드를 고칠수록 다른 부분이 망가졌다\"며 서비스를 중단해야 했습니다. 처음에는 \"AI로 모든 걸 만들었다!\"고 자부했으나, 운영 단계에서 문제점이 드러난 사례입니다.\n\"솔직히 말해서, AI가 코딩 다 해준다 믿고 시작했는데… 결국 AI가 짠 코드를 밤새 디버깅하고 있더라고요.\"\n레딧(Reddit)의 한 사용자는 \"엄청난 기술 부채가 쌓여서 수습하는 데 한 달을 보냈다\"고 한탄했습니다. AI는 빠르게 코드를 생성하지만, 장기적인 유지보수나 코드 구조의 효율성까지 고려하지 않기 때문에, 결국 사람이 스파게티 코드 정리 및 잘못된 로직 수정을 해야 하는 상황이 발생합니다.\n비개발자가 바이브 코딩에 도전했다가 실패한 사례도 존재합니다. 한 블로거는 ChatGPT로 워드프레스 플러그인을 만들려다 실패했고, 복잡한 웹 앱 아이디어 시도 중 AI 코드가 제대로 작동하지 않아 포기한 경험을 공유했습니다. 결국 그는 아이디어를 매우 단순화(퀴즈 앱)하고 여러 AI 도구를 조합해 간신히 돌아가는 수준의 결과물을 만들었으나, \"완벽하진 않다\"고 인정했습니다.\n이처럼 바이브 코딩으로 만들어졌다고 소개되는 결과물 중 상당수는 실제 상용 서비스라기보다는 데모 버전, 일부 기능만 구현된 프로토타입, 또는 개인적인 토이 프로젝트 수준에 머무는 경우가 많습니다. 케빈 루스가 만든 'LunchBox Buddy' 앱 역시 흥미로운 아이디어였으나, 상용화할 만한 완성도나 신뢰성을 갖추지 못했습니다. 그는 AI 생성 코드의 오류와 한계를 인정하며 \"생산성 도구라기보다는 개인 취미용\"이라고 결론 내렸습니다.\n몇 분이면 앱 완성 vs. 현실의 기술적 복잡성\n바이브 코딩을 둘러싼 담론은 누구나 쉽게 앱을 만들 수 있다는 인상을 주지만, 실제 서비스로 구현하려면 프론트엔드뿐만 아니라 수많은 기술적 요소가 필요합니다.\n백엔드 로직: 사용자 요청 처리, 데이터 일관성 유지 등 보이지 않는 핵심 기능\n데이터베이스 설계: 효율적인 데이터 저장 및 조회 구조\n인프라 구축 및 배포: 실제 서버에 서비스를 올리고 안정적으로 운영하는 환경 구성\n보안: 사용자 인증, 권한 관리, 데이터 보호 등\n확장성 및 성능: 다수의 사용자가 접속해도 문제없이 작동하도록 최적화\n과연 이러한 복잡한 문제들을 '바이브'만으로 해결할 수 있을까요? 한 AI 비서(Claude)에게 \"간단한 금융 앱 개발\"에 대해 물었더니, PM, QA, 백엔드 개발자, 프론트엔드 개발자 2명, 디자이너 등 전문 인력과 6개월의 기간, 약 2~3억 원의 예산이 필요하다는 답변이 있었다고 전해집니다. 이는 실제 서비스 개발에 필요한 자원 규모를 단적으로 보여주는 예시입니다.\n반면, 온라인에서는 \"나 혼자 3시간 만에 랜딩 페이지 만들었다\"는 사례도 주목받습니다. 자세히 보면, 예쁜 웹 페이지 한 장(프론트엔드)만 존재하고 실제 서비스를 뒷받침하는 백엔드나 데이터베이스는 없는 경우가 많습니다. 개발의 '쉬운' 부분만 부각되고, 진짜 어려운 부분은 가려지는 문제입니다.\n또한, AI가 생성한 코드에는 치명적인 보안 허점이나 예외 처리 누락 등의 문제가 발생할 수 있습니다. 입력값 검증이 누락되어 데이터베이스 오염, 권한 관리 미흡으로 인한 정보 유출 등의 위험이 존재하며, 전통적인 개발에서는 이러한 위험 요소를 사전에 방어하는 과정이 필수적입니다.\nAI는 완벽한 코드를 한 번에 내놓지 못하고, 보통은 사람이 테스트 및 오류 수정을 반복해야 합니다. 현재 AI 코딩 도구들은 디버깅 능력이 부족하여, 생성된 코드의 오류를 효과적으로 찾아내고 수정하기 어렵습니다. 개발 지식이 부족한 사용자는 이러한 오류 원인 파악 및 수정에 어려움을 겪을 수 있습니다.\n\"코드를 안 쓰고도 된다\"는 말은 맞을지 몰라도, \"신경 쓸 게 없다\"는 결코 아닙니다. AI가 해결하지 못하는 시스템 설계, 데이터 모델링, 성능 최적화, 보안 점검, 오류 분석 등은 여전히 사람의 몫입니다. 역설적이게도 이러한 복잡성을 이해하는 사람이 AI 도구를 효과적으로 활용할 수 있습니다.\n전통적인 개발 방식과 무엇이 다른가? (역할 변화와 시스템 사고)\n바이브 코딩과 전통적인 코딩 방식은 여러 면에서 차이를 보입니다. 특히 개발자의 역할과 필요한 역량 측면에서 큰 변화를 가져옵니다.\n구분\n      전통적 코딩 방식\n      바이브 코딩 방식\n    \n개발 접근\n      문제 정의 → 설계 → 구현(코딩) → 테스트 → 검증 (체계적)\n      아이디어 설명(자연어) → AI 코드 생성 → 실행/수정 반복 (시도-오류적)\n    \n코드 이해도\n      개발자가 코드 동작을 완전히 이해하고 통제\n      사용자가 코드 세부 내용을 완벽히 이해하지 못할 수 있음 (결과 중심)\n    \n코드 활용\n      검증된 라이브러리/패키지 재사용 선호\n      필요한 기능을 AI가 처음부터 생성하는 경향 (생성 중심)\n    \n개발자 역할\n      직접 코드 작성, 디버깅, 문제 해결 (코더/엔지니어)\n      AI에게 지시, 결과 평가, 수정 방향 제시 (감독자/프롬프트 엔지니어/제품 엔지니어)\n    \n주요 장점\n      높은 안정성, 유지보수 용이성, 코드 품질 관리\n      빠른 초기 개발 속도, 낮은 진입 장벽, 신속한 프로토타이핑\n    \n주요 단점\n      상대적으로 느린 개발 속도, 높은 학습 비용\n      낮은 코드 품질, 유지보수 어려움, 예측 불가능한 버그 위험, AI 디버깅 한계\n    \n유지보수/확장\n      구조화된 코드로 상대적으로 용이\n      생성된 코드 구조 파악 어려움, 수정/확장 시 복잡성 증가 가능\n    \n특히 주목할 점은 개발자 역할의 진화입니다. 바이브 코딩 환경에서는 단순히 코드를 작성하는 능력을 넘어서, 사용자의 요구와 시장 흐름을 이해하고 제품 개발 방향을 설정하는 제품 엔지니어(Product Engineer)로서의 역량이 중요해집니다. AI가 코드 생성의 많은 부분을 담당함에 따라, 개발자는 전략적인 관점에서 제품의 가치를 높이는 데 집중할 수 있습니다.\n또한, 시스템 사고(systems thinking)의 중요성도 부각됩니다. AI를 이용해 빠르게 프로토타입을 만드는 것과 안정적이며 확장 가능한 시스템을 구축하는 것은 다른 문제입니다. 초기 아이디어 구현 능력도 중요하지만, 장기적인 관점에서 전체 시스템을 설계하고 기술 부채를 관리하는 깊이 있는 엔지니어링 역량은 여전히 필수적입니다.\n결국, 바이브 코딩은 초기 구현 단계를 단축시킬 수 있으나, 코드 품질, 안정성, 유지보수성 등 소프트웨어 엔지니어링의 다른 중요한 측면에서는 새로운 도전 과제를 제시하며, 개발자의 역할과 필요한 역량에도 변화를 요구합니다.\n바이브 코딩의 미래: 혁신인가, 거품인가? (교육의 변화 포함)\n바이브 코딩의 미래에 대해서는 긍정과 부정의 전망이 공존합니다.\n긍정적 전망:\n개발의 민주화: 누구나 아이디어만 있으면 코딩 교육 없이 앱 개발 가능하며, 비전통적 배경 인재 유입 촉진\n생산성 혁신: 스타트업이나 중소기업이 적은 인원으로 빠르게 제품 실험 가능 (YC 사례 등)\nAI 기술 발전: 현재 AI의 약점(논리적 추론, 디버깅, 장기 일관성 등)이 개선되면 더욱 강력한 도구가 될 것\n개발자 역할 고도화: 개발자가 단순 코딩에서 벗어나 제품 전략, 시스템 설계 등 부가가치 높은 역할 수행 가능\n부정적/신중론:\n거품(Hype) 가능성: 단기 성과에 대한 과도한 열광으로, 현실적인 한계(품질, 유지보수)로 실망할 위험\n품질 및 유지보수 문제: 바이브 코딩 결과물이 상용 서비스 요구사항을 충족하지 못하거나 유지보수 시 큰 비용 발생 가능\n프로덕션 환경의 위험: 검증되지 않은 AI 생성 코드를 실제 서비스에 적용할 경우 심각한 버그나 보안 사고로 이어질 수 있음\n현실적인 전망과 교육의 변화에 대해 볼 때, 바이브 코딩은 프로토타이핑, 개인용 도구 제작, 아이디어 검증 등 빠른 시도에는 매우 유용하지만, 은행 시스템이나 항공기 제어와 같이 높은 신뢰성이 요구되는 분야에서는 인간 개발자의 엄격한 코드 작성과 검증이 필요합니다.\n궁극적으로 AI와 인간 개발자의 협업 모델로 발전할 가능성이 큽니다. AI는 반복적이고 지루한 코드 생성을 돕고, 인간 개발자는 전체 시스템 설계, 중요한 의사결정, 최종 품질 관리를 책임지게 됩니다. 이는 마치 숙련된 목수가 전동 공구를 활용해 더 창의적이고 복잡한 문제 해결에 집중하는 것과 유사합니다.\n이러한 변화는 소프트웨어 엔지니어링 교육에도 큰 영향을 미칠 것입니다. 미래 교육은 특정 프로그래밍 언어의 문법뿐 아니라, 제품 관리, 사용자 경험(UX) 디자인, 시스템 설계 원칙, AI 코딩 도구 활용 능력, 그리고 기술을 비판적으로 사고하고 적용하는 능력을 강조해야 합니다.\n\"미래의 코딩은 코드를 쓰지 않는 것\"이라는 주장도 완전히 틀리지 않습니다. 점점 더 높은 추상화 수준에서 컴퓨터와 상호작용하게 될 것이기 때문입니다. 그러나 프로그래밍에 대한 깊은 이해와 시스템적 사고 능력은 여전히 중요하며, 이러한 기본기를 갖춘 사람이 AI라는 도구와 만나야 진정한 시너지를 낼 수 있습니다.\n마무리: 과도기적 변화 속에서 현명하게 바라보기\n바이브 코딩은 소프트웨어 개발 방식에 의미 있는 변화를 가져올 잠재력을 지니고 있습니다. 개발의 진입 장벽을 낮추고 아이디어를 빠르게 현실화하는 데 도움을 줄 수 있으나, 동시에 과대 포장된 측면과 명확한 한계도 존재합니다.\n\"몇 분 만에 앱 완성\"이라는 화려한 구호 뒤에는 실제 서비스 개발의 복잡성, 코드 품질 문제, 유지보수의 어려움 등이 숨겨져 있습니다. AI가 생성한 코드를 무조건 신뢰하기보다는, 그 결과물을 비판적으로 검토하고 개선할 수 있는 인간의 이해와 개입, 그리고 전체 시스템을 조망하는 능력이 여전히 중요합니다.\n바이브 코딩이 단순한 \"거품\"에 머물지 않고 진정한 생산성 혁신을 이루기 위해서는, 기술의 가능성에 열광함과 동시에 한계를 명확히 인식하고 현실적인 기대를 가져야 합니다. 코드를 쓰지 않는 방식이지만, 결국에는 코드를 이해하고 관리하는 인간의 역할이 중심이 될 것입니다.\n출처:\nVibe Coding Is The Future (Y Combinator, YouTube, 2025.03.06)\nCoding vs VIBE Coding (Adarsh Gupta, Medium, 2025.03.16)\nVibe Coding (Niall McNulty, Medium, 2025.02.23)\nCracking the code of vibe coding (Pete Sena, Medium, 2025.03.22)\nVibe Coding. AI-Assisted Coding for Non-Developers (John Naughton, the Guardian, 2025.03.16)\nThe paradox of vibe coding: It works best for those who do not need it (Tim Anderson, DEVCLASS, 2025.03.26)\nI Vibe Coded A Side Hustle Wizard During My Layover (Nick Nolan, Medium, 2025.03.30)\nVibe coding, some thoughts and predictions (Andrew Chen, Substack, 2025.02.11)\nVibe coding (Wikipedia)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.gaerae.com/2025/04/vibe-coding-is-the-future.html",
+    "pubDate": "Sun, 06 Apr 2025 08:05:00 +0000",
+    "creator": "noreply@blogger.com (Unknown)",
+    "categories": [
+      {
+        "_": "ai",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      },
+      {
+        "_": "developer",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Essential Tools for JetBrains IDE Plugin Development: Livestream Recording and Key Takeaways",
+    "description": "The recording of our livestream is available on JetBrains TV! In the recent session, IntelliJ Platform Developer Advocates Yann Cébron and Jakub Chrzanowski explored some of the most helpful tools for developing plugins for JetBrains IDEs. From plugin creation to UI debugging, the session covered practical tips and tricks to enhance your workflow. Let’s take […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2025/04/essential-tools-for-jetbrains-ide-plugin-development-livestream-recording-and-key-takeaways/",
+    "pubDate": "Tue, 08 Apr 2025 16:23:11 +0000",
+    "creator": "Elena Kerpeleva",
+    "categories": [
+      "livestreams",
+      "marketplace",
+      "livestream"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "토스, ‘내게 맞는 요금제 찾기’ 서비스 출시",
+    "description": "통신비 절감 도와주는 맞춤 요금제 비교 서비스 선보여",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/phone_plan",
+    "pubDate": "Wed, 09 Apr 2025 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "배우 김수현, 故 김새론과의 의혹 해명에도&hellip;&ldquo;밤 11시에 닭볶음탕?&rdquo; 여론은 여전히 싸늘",
+    "description": "2025년 3월 31일, 배우 김수현이 긴급 기자회견을 열고 故 김새론과의 관계에 대한 입장을 밝혔습니다. 하지만 이 해명 이후에도 대중의 의문은 가라앉지 않고 있습니다. 그 중심에는 “고등학교 2학년, 17세였던 김새론이 밤 11시에 김수현 가족이 있는 집에서 닭볶음탕을 만들었다는 정황”이 있습니다.\n▶ “연인이 아니었다”는 주장…하지만 그 밤의 정황은?\n김수현 측은 공식 입장에서 “당시 연인 관계가 아니었고, 가족들도 함께 있었다”고 해명했습니다. 논란이 된 영상은 2018년 6월 촬영된 것으로, 당시 김새론은 고등학교 2학년, 만 17세의 미성년자였습니다.\n해당 영상은 밤 11시 20분경 촬영되었으며, 식탁 위에는 소주병과 소주잔이 놓여 있었다는 점이 확인되며 더욱 논란이 커지고 있습니다. 소속사는 단순한 가족 식사 자리였다고 주장하지만, 많은 이들은 이 상황 자체를 납득하기 어렵다는 반응입니다.\n▶ “사귀지도 않았는데, 밤 11시에 가족 집에서 요리?”\n온라인 커뮤니티와 SNS에서는 다양한 반응이 이어지고 있습니다:\n“사귀지 않았다면 오히려 더 이상한 상황”\n“그 시간에 미성년자가 남자 집에 있었다는 것 자체가 부적절하다”\n“친구 사이여도 집에 돌려보낼 시간 아닌가?”\n또한, 김새론이 김수현에게 보냈다는 카카오톡 메시지 내용도 공개되었습니다. 메시지에는 “보고 싶어”, “언제 안고 잘 수 있어?” 등 연인 사이로 보일 수 있는 문구가 담겨 있었지만, 김수현 측은 “전면 조작된 메시지”라며 원본 데이터 제출을 요구한 상태입니다.\n▶ 해명에도 남은 의문…김수현 이미지 타격 불가피\n김수현 소속사는 “미성년자와의 교제는 결단코 없었다”며 법적 대응을 시사하고 있지만, 유튜브 채널 ‘가세연’ 측의 공세는 계속되고 있습니다. 특히 “사귄 적 없다”는 해명은 ‘그루밍’ 논란으로 이어지며, 연예계 전반에 큰 파장을 주고 있습니다.\n한 프로파일러는 해당 상황에 대해 “상대를 잘못 골랐다”며 사안의 심각성을 지적했습니다. 이번 논란은 단순한 해명이 아닌, 도덕성과 윤리적 판단에 대한 대중의 평가로 이어지고 있으며, 김수현의 이미지 회복은 당분간 쉽지 않을 것으로 보입니다.\n⚠️ 본 포스팅은 대중에 공개된 기사 및 자료에 기반해 작성된 콘텐츠로, 사실 여부에 대한 판단은 독자에게 맡깁니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://app-developer.tistory.com/entry/%EB%B0%B0%EC%9A%B0-%EA%B9%80%EC%88%98%ED%98%84-%E6%95%85-%EA%B9%80%EC%83%88%EB%A1%A0%EA%B3%BC%EC%9D%98-%EC%9D%98%ED%98%B9-%ED%95%B4%EB%AA%85%EC%97%90%EB%8F%84%E2%80%A6%E2%80%9C%EB%B0%A4-11%EC%8B%9C%EC%97%90-%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95%E2%80%9D-%EC%97%AC%EB%A1%A0%EC%9D%80-%EC%97%AC%EC%A0%84%ED%9E%88-%EC%8B%B8%EB%8A%98",
+    "pubDate": "Fri, 11 Apr 2025 23:18:10 +0900",
+    "creator": "흰끼끼",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "내가 쓰는 유용한 CUROR 단축키 3개",
+    "description": "제가 쓰는 유용한 커서 단축키 입니다.\n3가지 밖에 없습니다.\n \n일단 커서의 공식 단축키 문서\n링크: https://docs.cursor.com/kbd\n\n \nCursor – Keyboard Shortcuts\nA high level overview of the keyboard shortcuts and keybindings in Cursor. You can see all keyboard shortcuts by pressing Cmd + R then Cmd + S. To learn more about Keyboard Shortcuts in Cursor, check out the Key Bindings for VS Code as it serves as a good\ndocs.cursor.com\n\n \n \nCTRL + L\n\n\n코드 치다가 오른쪽에 화면 (CHAT 이라고 부릅니다.)\n마우스 클릭이 귀찮으니 ctrl + L 누르면 됩니다.\n \nCTRL + K\n\n\n채팅창 가면 이 파일의 전체 코드를 만집니다.\n내 커서위치에서 진행하려면 ctrl + k 눌러서 요구사항을 쓰면됩니다.\n \nTab\n\n\n이런식으로 AI 추천커드를 보여주는 경우가 있습니다.\n내가 필요한게 맞다면 Tab 키를   릅니다.\n\n\n그러면 이런식식으로 코드가 붙여넣기 됩니다.\n \n이렇게 사용합니다. accept 하는거는 마우스로 누르고 있는데요\n귀찮아지면 단축키 쓰게 될 것 같습니다.\n아직은 긴 코드를 봐야해서 마우스 쓰고 있습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1251",
+    "pubDate": "Sat, 5 Apr 2025 21:29:49 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "지브리 스타일 말고 2d 게임용 픽셀아트도 뽑아 줍니다. / @OpenAI GPT-4o can generate 2D character animation sprite sheets for your vibe coded video game",
+    "description": "영상: https://youtu.be/yz6Tc2vAQDA?t=319\n\n\n\n5분19초에 나옵니다.\n2D 게임에 쓸수 있겠군요 \n훌륭합니다.\n \n원본 트위ㅓ 글입니다. : https://x.com/majidmanzarpour/status/1905666221225197790\n\n \nX의 Majid Manzarpour님(@majidmanzarpour)\nOk, @OpenAI GPT-4o can generate 2D character animation sprite sheets for your vibe coded video game Prompt below  \nx.com",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1256",
+    "pubDate": "Mon, 7 Apr 2025 21:51:58 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "런치랩",
+    "description": "*이 글은 우리 투자사의 홍보성 내용을 포함합니다. 관심 없거나, 이런 홍보성 내용이 싫으면 그냥 안 읽으면 됩니다. 우리 사무실이 위치한 삼성역엔 식당이 엄청 많다. 점심을 항상 밖에 나가서 먹진 않지만, 나가서 먹는다면 도보로 갈 수 있는 식당이 1,500개는 충분히 되지 않을까 싶다. 여기에다가 배달 음식까지 포함하면, 식당과 메뉴의 선택지는 정말 많아진다. 그런데도 나를 포함한, 삼성역에서(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/04/order-your-company-lunch-with-lunchlab.html",
+    "pubDate": "Wed, 09 Apr 2025 21:36:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "B2B",
+      "f&b",
+      "korea",
+      "Strong"
+    ]
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "소라(Sora) 프롬프트 가이드, 32가지 실험으로 알아본 효과적인 영상 생성 비법",
     "description": "소라(Sora)로 32가지 실험을 해보며 알아낸 꿀팁들을 공유해요! 어떤 프롬프트가 효과적인지, 무엇이 실패하는지 직접 테스트해본 결과를 솔직하게 풀어봤습니다. 영상 제작에 도전하려는 분들 필수!\n\n\n \n레딧에서 올라온 흥미로운 글을 발견했어요. 한 사용자가 OpenAI의 영상 생성 모델인 소라(Sora)로 32가지 다양한 실험을 해봤다는 분석 글이더라고요. 제가 디지털 콘텐츠 제작에 관심이 많아서, 이 내용이 너무 궁금해서 자세히 읽어봤어요. 혹시 여러분도 소라를 활용해 영상을 만들고 싶거나, AI 영상 생성 기술에 관심 있으신가요? 그렇다면 이 분석을 통해 어떤 프롬프트가 효과적이고, 어떤 접근법이 실패하는지 함께 알아보아요.\n \n  소라, 대체 뭐길래?\n일단 소라(Sora)는 OpenAI가 개발한 텍스트-투-비디오(Text-to-Video) 모델이에요. 텍스트로 된 설명을 입력하면 그에 맞는 영상을 생성해주는 기술이죠. \n \n이 레딧 사용자도 그중 한 명으로, 소라의 가능성과 한계를 파악하기 위해 다양한 프롬프트를 시도해봤대요. 그리고 그 결과를 공유해줬습니다. 정말 감사한 일이죠!\n \n  효과적인 프롬프트 특징\n먼저, 이 분석에서 가장 효과적이었던 프롬프트 특성들을 살펴볼게요:\n구체적인 시각적 설명 ✨\n\n\"새벽녘의 푸른 조명이 비치는 도시 풍경\"과 같이 구체적인 시각 요소를 포함할 때 결과물이 훨씬 더 좋았다고 해요.\n색상, 조명, 텍스처 등을 자세히 묘사할수록 소라가 의도를 더 잘 이해했답니다.\n영화 스타일 참조  \n\n\"웨스 앤더슨 스타일의...\" 또는 \"크리스토퍼 놀란 영화처럼...\"과 같은 참조가 매우 효과적이었어요.\n유명 감독이나 영화 스타일을 언급하면 일관된 미학적 특성을 얻을 수 있었대요.\n움직임과 카메라 워크 명시  \n\n\"천천히 줌아웃되는 카메라\" 또는 \"왼쪽에서 오른쪽으로 패닝하는 숏\"처럼 카메라 동작을 설명하면 훨씬 더 영화 같은 결과물이 나왔다고 합니다.\n정적인 장면보다는 동적인 요소를 포함한 프롬프트가 더 인상적인 결과를 보여줬어요.\n감정과 분위기 추가  \n\n\"우울하고 고독한 분위기의...\" 또는 \"활기차고 희망찬 느낌의...\"와 같은 감정적 톤을 추가하면 더 풍부한 영상이 생성됐대요.\n단순히 객체와 행동만 설명하는 것보다 분위기까지 포함하는 게 효과적이었습니다.\n \n⚠️ 실패하거나 문제가 생긴 접근법\n반면, 다음과 같은 접근법은 좋은 결과를 얻지 못했대요:\n너무 많은 요소 포함하기 ❌\n\n하나의 프롬프트에 너무 많은 요소나 복잡한 상황을 설명하면 소라가 혼란스러워했다고 해요.\n\"고양이가 피아노를 치는 동안 개가 춤을 추고 앵무새가 노래하는...\" 같은 복잡한 상황은 제대로 구현되지 않았어요.\n텍스트와 글자 생성 요청  \n\n소라는 아직 텍스트를 정확하게 렌더링하는 데 어려움을 겪는다고 합니다.\n간판, 책 제목, 메시지 등의 텍스트 요소는 대부분 왜곡되거나 읽을 수 없는 형태로 나타났대요.\n특정 인물 언급  \n\n유명인이나 실존 인물을 지정하면 소라가 이를 제대로 구현하지 못하거나 거부했다고 해요.\n아마도 초상권이나 윤리적 문제 때문에 제한을 둔 것 같아요.\n매우 추상적인 개념  \n\n\"자유의 본질\" 또는 \"시간의 흐름\" 같은 매우 추상적인 개념은 일관된 결과를 얻기 어려웠답니다.\n일부 추상적 개념을 시각적 은유로 표현하기도 했지만, 의도한 바와 달랐대요.\n\n\n \n  기술적 한계와 특이점\n이 분석에서 발견된 소라의 몇 가지 기술적 한계도 있었어요:\n얼굴과 손 표현의 어려움  \n\n사람의 얼굴과 손을 자연스럽게 표현하는 데 여전히 어려움이 있었다고 합니다.\n특히 클로즈업 장면에서 손가락이 너무 많거나 기형적으로 나타나는 경우가 있었대요.\n물리적 상호작용의 문제  \n\n복잡한 물리적 상호작용(물체가 부딪히거나 사람이 물건을 조작하는 등)은 가끔 부자연스럽게 표현됐다고 해요.\n중력이나 물리 법칙을 따르지 않는 움직임이 발생하기도 했답니다.\n일관된 정체성 유지  \n\n영상 내에서 캐릭터의 외모나 의상이 갑자기 변하는 경우가 있었어요.\n긴 시퀀스에서 일관성을 유지하는 것이 아직 완벽하지 않은 것 같아요.\n\"가장 놀라웠던 점은 소라가 단순한 사물이나 장면을 넘어 감정과 이야기까지 표현할 수 있다는 것이었다\"\n \n  가장 성공적이었던 실험들\n32가지 실험 중에서 특히 인상적이었던 몇 가지를 소개할게요:\n자연 다큐멘터리 스타일  \n\n\"BBC 다큐멘터리 스타일로 촬영된, 눈 덮인 산에서 먹이를 찾는 늑대 무리\"라는 프롬프트가 매우 사실적인 결과를 보였대요.\n자연 환경과 동물의 움직임이 놀랍도록 자연스러웠다고 합니다.\n역사적 순간 재현 ⏳\n\n\"1960년대 뉴욕 거리를 걷는 사람들, 빈티지 자동차와 간판이 보이는 16mm 필름 스타일\"이라는 프롬프트가 정말 그 시대에 찍은 것 같은 느낌을 줬대요.\n시대적 특성과 필름 질감까지 잘 표현했다고 해요.\n공상과학 시나리오  \n\n\"황금빛 초원 위에 떠 있는 미래적인 도시, 드론과 비행 차량이 오가는 모습, 따뜻한 석양 조명\"이라는 프롬프트가 인상적인 세계관을 창조했대요.\n상상 속 세계가 놀라울 정도로 일관되고 믿을 만하게 구현됐다고 합니다.\n \n\n\n\n \n  실용적인 사용 사례\n이 분석을 바탕으로, 소라를 효과적으로 활용할 수 있는 몇 가지 방법을 생각해봤어요:\n스토리보드 제작  \n\n영화나 광고 제작자가 아이디어를 시각화하는 데 활용할 수 있을 것 같아요.\n실제 촬영 전에 장면을 미리 보는 도구로 사용할 수 있겠죠.\n교육 콘텐츠  \n\n역사적 사건이나 과학적 개념을 시각화하는 교육용 영상을 만들 수 있을 것 같아요.\n접근하기 어려운 장소나 시대를 체험할 수 있는 콘텐츠를 제작할 수 있겠죠.\n창의적 영감 얻기  \n\n아티스트나 디자이너가 새로운 아이디어를 탐색하는 도구로 활용할 수 있어요.\n다양한 스타일과 분위기를 실험해보며 창작 방향을 정할 수 있겠죠.\n \n프롬프트 결과 sheet 로 제공\n특히 이번 프롬프트 테스트 결과를 그림과 같은 sheet 로 정리하여 공개를 하고 있어 정말 도움이 됩니다.\n테스트한 프롬프트의 영상링크도 제공하니 결과물을 바로 확인할 수 있어 유용합니다.\n\n\n \n \n\n \nSora Launch Day Experiment Report\nLocationsA bustling day at Machu Picchu during Incan prehistoric times. Show the Incan people gathering resources and going about their day in harmony with the majestic surroundings. Include farmers tending to the terraced fields, artisans crafting pottery\ndocs.google.com\n\n \n \n  앞으로의 발전 가능성\n이 분석에 따르면, 소라는 아직 발전 중인 기술이지만 이미 놀라운 가능성을 보여주고 있어요. 앞으로 개선될 것으로 예상되는 부분은:\n더 긴 시퀀스 생성 ⏱️\n\n현재보다 더 긴 영상을 생성할 수 있게 될 것으로 예상돼요.\n이야기성이 있는 콘텐츠 제작이 가능해질 거예요.\n텍스트 렌더링 향상  \n\n간판, 메시지, 자막 등의 텍스트 표현이 개선될 것으로 보여요.\n이를 통해 더 다양한 응용이 가능해질 거예요.\n사용자 인터페이스 개선  ️\n\n프롬프트 작성을 도와주는 가이드나 템플릿이 제공될 수 있을 것 같아요.\n결과물을 수정하고 조정할 수 있는 기능이 추가될 가능성이 높아요.\n솔직히 말해서, 저도 소라를 직접 사용해볼 기회가 아직 없었지만, 이 분석을 통해 정말 흥미로운 가능성을 엿볼 수 있었어요. AI 기술이 창작 영역에서 어떻게 활용될 수 있는지 계속해서 지켜보고 싶네요.\n여러분은 소라나 다른 AI 영상 생성 도구를 사용해보신 적 있나요? 어떤 경험이나 생각이 있으신지 댓글로 공유해주세요! 함께 이야기하면 더 많은 인사이트를 얻을 수 있을 것 같아요.  \n \n<reddit 원문 기사>\n\n \nFrom the OpenAI community on Reddit\nExplore this post and more from the OpenAI community\nwww.reddit.com\n\n \nQ&A\nQ: 소라를 지금 당장 사용할 수 있나요?\nA: 네, 챗GPT PLUS사용자라면 바로 사용할 수 있습니다.\nQ: 소라로 만든 영상의 최대 길이는 얼마인가요?\nA: 현재는 대략 1분 내외의 짧은 영상을 생성합니다.\nQ: 소라가 생성한 콘텐츠의 저작권은 누구에게 있나요?\nA: OpenAI의 정책에 따라 다르지만, 일반적으로 생성된 콘텐츠는 사용자에게 권한이 있습니다.\nQ: 소라와 비슷한 다른 AI 영상 생성 도구가 있나요?\nA: 예, RunwayML의 Gen-2, Stability AI의 제품들이 있습니다.\nQ: 소라를 사용하려면 어떤 하드웨어가 필요한가요?\nA: 클라우드 기반으로 작동하므로 인터넷 연결이 가능한 일반 컴퓨터면 충분합니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라를 지금 당장 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 챗GPT PLUS사용자라면 바로 사용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라로 만든 영상의 최대 길이는 얼마인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재는 대략 1분 내외의 짧은 영상을 생성합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라가 생성한 콘텐츠의 저작권은 누구에게 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"OpenAI의 정책에 따라 다르지만, 일반적으로 생성된 콘텐츠는 사용자에게 권한이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라와 비슷한 다른 AI 영상 생성 도구가 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"예, RunwayML의 Gen-2, Stability AI의 제품들이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"소라를 사용하려면 어떤 하드웨어가 필요한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"클라우드 기반으로 작동하므로 인터넷 연결이 가능한 일반 컴퓨터면 충분합니다.\"\n      }\n    }\n  ]\n}",
@@ -40,7 +150,91 @@
     ]
   },
   {
-    "id": 3,
+    "id": 10,
+    "imageUrl": "",
+    "title": ".NET Aspire and Azure Functions integration preview",
+    "description": "Have you ever struggled with integrating serverless technology into your existing .NET projects? The new update in Visual Studio has got you covered. Say hello to the powerful integration of .NET Aspire with Azure Functions, making your development process smoother than ever before. With this release of Visual Studio, Azure Functions developers can enlist in […]\nThe post .NET Aspire and Azure Functions integration preview appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/net-aspire-and-azure-functions-integration-preview/",
+    "pubDate": "Wed, 09 Apr 2025 12:00:19 +0000",
+    "creator": "Brady Gaster",
+    "categories": [
+      "Artificial Intelligence",
+      "Data and Analytics",
+      "Productivity",
+      "Visual Studio",
+      ".NET",
+      "Aspire",
+      "Azure Functions"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "직장인의 부업소득, 종합소득세 신고 대상일까요?",
+    "description": "부업을 한다면 꼭 알아야 할 세금 상식",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/tossmoment-7",
+    "pubDate": "Fri, 11 Apr 2025 04:21:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "AI 안 쓰면 살아남기 어렵다 - Shopify CEO 메모 분석",
+    "description": "최근 유출된 Shopify CEO의 충격적인 내부 메모 - \"AI 활용은 이제 선택이 아닌 필수\"라고 밝혔습니다. 인력 충원 전에 \"왜 AI가 이 일을 못하는지\" 증명해야 한다는 새 정책은 모든 비즈니스에 어떤 영향을 미칠까요? AI 없이는 살아남기 힘든 미래가 이미 시작됐습니다.\n\n\n \n요즘 온라인 쇼핑몰 운영하면서 AI 써보셨나요? 아직 시작 안 했다면 지금 당장 시작해야 할지도 모릅니다. Shopify CEO 토비 뤼트케가 최근 직원들에게 보낸 내부 메모가 유출되면서 전 세계 이커머스 업계가 발칵 뒤집혔어요. 그 내용? \"AI 사용은 이제 선택이 아닌 필수이며, 적응하지 못하면 뒤처질 것\"이라는 강력한 메시지였습니다. 이게 단순히 한 회사의 방침이 아니라 앞으로 모든 비즈니스의 방향성을 보여주는 신호탄일지도 모른다는 생각이 드네요.\n \n  \"AI 사용은 이제 기본 기대치\" - 충격적인 내부 메모 공개\n4월 7일(미국 시간) 유출된 Shopify의 내부 메모에서 CEO 토비 뤼트케는 직원들에게 매우 직설적인 메시지를 전했습니다.\n\"AI를 효과적으로 사용하는 것은 이제 Shopify의 모든 직원에게 기본적인 기대사항입니다. AI는 오늘날 모든 분야의 도구이며, 그 중요성은 계속 커질 것입니다.\"\n \n와... 솔직히 처음 이 문장 읽었을 때 좀 놀랐어요. 선택의 여지가 없다는 느낌이랄까? 뤼트케는 더 나아가 이렇게 말했습니다:\n\"솔직히 말해서, AI 적용 기술을 배우지 않고 빠져나갈 수 있다고 생각하지 않습니다. 시도해볼 수는 있지만, 오늘날에도 그것이 통할 것 같지 않고, 내일은 확실히 안 될 겁니다.\"\n이건 그냥 \"AI 좀 써봐요~\" 수준의 권고가 아니라 \"AI 안 쓰면 미래가 없다\"는 선언인 거죠. 충격적이지만 한편으론 현실적인 메시지라는 생각도 들었습니다.\n \n<원문링크>\n\n \nX의 tobi lutke님(@tobi)\nAI usage is now a baseline expectation\nx.com\n\n \n  AI 도입을 위한 구체적인 가이드라인\n뤼트케의 메모는 단순한 선언에서 그치지 않고 구체적인 실천 방안도 제시했습니다:\n모든 프로젝트의 프로토타입 단계에서 AI 탐색이 필수적이어야 함\n성과 및 동료 평가 설문에 AI 사용 관련 질문을 추가할 예정\n추가 인력을 요청하기 전에 왜 AI로 해당 작업을 수행할 수 없는지 증명해야 함\n경영진을 포함한 모든 구성원에게 적용됨\n특히 세 번째 항목이 눈에 띄었어요. 인력 충원 전에 \"이건 AI가 못 하는 일\"이라는 걸 먼저 증명해야 한다니... 이건 완전히 게임의 룰이 바뀌는 수준이죠.\n사실 이 부분을 읽으면서 좀 불안해졌어요. 저도 디지털 마케팅 일을 하는데, 내 업무 중 얼마나 많은 부분이 AI로 대체될 수 있을까 생각하게 되더라고요.\n \n  AI를 업무에 통합하는 방법\n메모에서 눈에 띄는 또 다른 부분은 AI 학습 방법에 대한 조언이었습니다:\n\"AI를 잘 사용하는 것은 분명하지 않은 기술입니다. 제 느낌으로는 많은 사람들이 프롬프트를 작성하고 즉시 이상적인 결과를 얻지 못하면 포기합니다. 프롬프트 작성과 컨텍스트 로딩을 배우는 것이 중요합니다.\"\n \n이 말에 정말 공감했어요. 저도 처음에 ChatGPT 쓸 때 간단한 질문 하나 던지고 원하는 답변이 안 나오면 \"음, 이건 별로네\" 하고 넘어갔거든요. 하지만 계속 사용하고 프롬프트 작성법을 배우면서 결과물이 점점 좋아지는 걸 경험했습니다.\nShopify는 이미 개발자들에게 Copilot, Cursor, Claude code 등 다양한 AI 도구를 제공하고 있으며, 직원들끼리 프롬프트를 공유하는 Slack 채널도 운영 중이라고 해요. 이런 적극적인 지원과 문화 조성이 인상적이네요.\n \n  AI와 함께하는 슈퍼차저 인재의 등장\n메모에서 가장 흥미로웠던 부분은 AI가 인재에 미치는 영향에 대한 설명이었습니다:\n\"우리는 모두 놀라운 동료들과 함께 일하는 행운을 갖고 있습니다. 이전에 가능하다고 생각했던 것보다 10배나 기여하는 동료들이죠. 이것이 제가 이 회사에서 가장 좋아하는 점입니다. 그리고 더 놀라운 것은, 처음으로 도구 자체가 10배가 되는 것을 보고 있다는 점입니다. 이러한 사람들이 AI를 반사적이고 훌륭하게 사용하여 이전에는 시도조차 하지 않았을 불가능해 보이는 작업에 접근하여 100배의 작업을 완료하는 것을 보았습니다.\"\n \n이 문장을 읽으며 '아하!' 모먼트가 있었어요. 뛰어난 사람 + AI = 100배 효과... 이게 바로 앞으로의 경쟁력이 될 것 같습니다. 단순히 AI를 쓰느냐 마느냐가 아니라, AI를 얼마나 잘 활용해서 내 역량을 증폭시키느냐가 관건인 거죠.\n \n  이것이 우리 비즈니스에 의미하는 것은?\n이 메모가 Shopify 내부에서 나왔지만, 사실 모든 온라인 비즈니스 운영자에게 시사하는 바가 크다고 생각해요. 특히 세 가지 측면에서요:\n경쟁 환경의 급격한 변화: AI를 잘 활용하는 경쟁자들이 100배의 효율성으로 움직인다면, 기존 방식만 고수하는 비즈니스는 경쟁에서 뒤처질 수밖에 없습니다.\n인력 구성의 재고: 어떤 업무가 AI로 대체될 수 있고, 어떤 업무는 인간 + AI 협업이 필요한지 진지하게 고민해야 할 때입니다.\n학습 문화의 중요성: AI 도구는 계속 발전하고 있습니다. 지속적인 학습과 적응 없이는 뒤처질 수밖에 없어요.\n솔직히 말해서, 이 메모를 읽고 나서 제 자신을 돌아보게 됐어요. 나는 얼마나 AI를 업무에 활용하고 있는지, 어떤 부분에서 더 배울 수 있는지 말이죠.\n \n  결론: AI는 도구가 아니라 팀원이다. 적응 못 하면 자리도 없다. \n채용 기준이 완전히 바뀜   새 인력을 뽑기 전, \"AI로 못 하는 일인가?\"부터 검증해야 함. ➤ 앞으로 직무 정의 자체가 AI 기준으로 재설계.\nAI 활용 능력 = 생존 스펙   이제 AI는 단순한 도구가 아니라, 성과 평가 항목이 됨. ➤ 사용 못 하면 '조용한 도태'. 업무 경쟁력은 AI 활용 능력으로 결정.\n고성과자 = AI와 함께 일하는 사람   뛰어난 사람 + AI = 10배 아닌 100배 성과 ➤ 앞으로의 핵심 역량은 \"AI와 협업할 수 있는가\"\n조직 전체가 AI 실험실로 변신 중   프롬프트 공유, 실패 사례도 팀 차원에서 학습 자산화 ➤ 자율적으로 배우되, 반드시 공유하고 성장하는 문화가 기본이 된다.\n  \"배우지 않으면 도태, 활용 못 하면 퇴장\"이라는 흐름은 더 이상 미래 이야기가 아닙니다.  \n\n\n \nShopify CEO의 이 메모는 단순한 회사 내부 정책 이상의 의미를 가집니다. 이는 디지털 시대의 새로운 생존법칙을 알리는 신호탄이에요. 저도 이 흐름에 뒤처지지 않기 위해 더 적극적으로 AI를 학습하고 활용할 계획입니다. 여러분은 어떠신가요? AI와 함께하는 비즈니스 여정에서 어떤 경험이나 고민이 있으신지 댓글로 나눠주세요!\n❓ 자주 묻는 질문\nQ: AI를 비즈니스에 도입하려면 어디서부터 시작해야 하나요?\nA: ChatGPT나 Claude 같은 기본적인 AI 챗봇부터 시작해 마케팅 카피나 이메일 작성 등 간단한 작업에 활용해보세요.\nQ: 소규모 비즈니스도 AI 투자가 필요한가요?\nA: 네, 오히려 소규모 비즈니스일수록 제한된 리소스로 더 많은 일을 해야 하기 때문에 AI의 혜택이 클 수 있습니다.\nQ: AI가 내 일자리를 대체할까 걱정됩니다.\nA: AI는 반복적이고 단순한 작업을 자동화하지만, 전략, 창의성, 인간 관계 등의 영역에서는 여전히 사람이 필요합니다.\nQ: 어떤 AI 도구가 이커머스에 가장 유용한가요?\nA: ChatGPT, Claude (콘텐츠 작성), Midjourney (이미지 생성), Synthesia (비디오 제작) 등이 현재 인기 있는 도구입니다.\nQ: AI 사용 비용이 너무 비싸지 않을까요?\nA: 많은 AI 도구가 월 $20-50 정도로 시작할 수 있으며, 그 효율성을 생각하면 상당히 비용 효과적입니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"AI를 비즈니스에 도입하려면 어디서부터 시작해야 하나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"ChatGPT나 Claude 같은 기본적인 AI 챗봇부터 시작해 마케팅 카피나 이메일 작성 등 간단한 작업에 활용해보세요.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"소규모 비즈니스도 AI 투자가 필요한가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"네, 오히려 소규모 비즈니스일수록 제한된 리소스로 더 많은 일을 해야 하기 때문에 AI의 혜택이 클 수 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"AI가 내 일자리를 대체할까 걱정됩니다.\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"AI는 반복적이고 단순한 작업을 자동화하지만, 전략, 창의성, 인간 관계 등의 영역에서는 여전히 사람이 필요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"어떤 AI 도구가 이커머스에 가장 유용한가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"ChatGPT, Claude (콘텐츠 작성), Midjourney (이미지 생성), Synthesia (비디오 제작) 등이 현재 인기 있는 도구입니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"AI 사용 비용이 너무 비싸지 않을까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"많은 AI 도구가 월 $20-50 정도로 시작할 수 있으며, 그 효율성을 생각하면 상당히 비용 효과적입니다.\"\n    }\n  }]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483566",
+    "pubDate": "Wed, 9 Apr 2025 09:33:14 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 생산성 및 업무 효율화",
+      "ai 비즈니스 전략",
+      "ai 업무 효율화",
+      "ai 인재 개발",
+      "ai 적응",
+      "shopify ai",
+      "디지털 마케팅 ai",
+      "온라인 비즈니스 혁신",
+      "이커머스 ai 활용",
+      "토비 뤼트케",
+      "프롬프트 엔지니어링"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "2025 대학생·청년 주거지원 제도 총정리: 임대주택부터 월세지원까지",
+    "description": "대학생과 청년을 위한 대표적인 주거지원 제도 모아보기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/money-policies-38",
+    "pubDate": "Thu, 10 Apr 2025 06:46:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "What’s New in vcpkg (March 2025)",
+    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.03.19 registry release, 2025-03-13 tool release, as well as changes to vcpkg documentation throughout March. This release includes two new commands for our continuous integration system PR reviews, minor bugfixes, a new documentation article on authenticating to NuGet feeds, and a […]\nThe post What’s New in vcpkg (March 2025) appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-march-2025/",
+    "pubDate": "Tue, 08 Apr 2025 18:05:06 +0000",
+    "creator": "Augustin Popa",
+    "categories": [
+      "C++",
+      "Vcpkg",
+      "vcpkg"
+    ]
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "How To Increase Code Quality in GitHub With Qodana",
     "description": "A year ago we shared a post on how to integrate Qodana with Github Actions on the .NET Community – but a lot has changed since then. Qodana self-hosted has been released, with analysis that can make your code more secure by detecting hardcoded passwords and running taint analysis for JVM. The new Android Linter […]",
@@ -54,192 +248,6 @@
       "tutorials",
       "github",
       "qodana"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "[번역] 러너를 위한 최고의 보강훈련 (근력 훈련 | 플라이오메트릭 | 파워 운동)",
-    "description": "많은 마라톤 고수들이 보강훈련의 중요성을 이야기하고 있습니다. 보강훈련의 효과로는 부상 방지 및 스피드 개선이 손꼽히고 있지만, 신뢰할 수 있는 보강훈련을 찾는 것은 쉽지 않은 일입니다. 아래는 유투브의 여러 보강훈련 관련 컨텐츠를 비교한 뒤, 가장 과학적 근거와 신빙성이 높다고 여겨진 컨텐츠를 국문으로 번역한 글입니다. 모쪼록 실력향상과 부상방지를 염원하는 마라톤 훈련생 분들께 도움이 되길 바라며, 국문 번역을Continue reading \"[번역] 러너를 위한 최고의 보강훈련 (근력 훈련 | 플라이오메트릭 | 파워 운동)\"\n[번역] 러너를 위한 최고의 보강훈련 (근력 훈련 | 플라이오메트릭 | 파워 운동) appeared first on Kimchi hill.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kimchihill.com/2025/04/09/kr_translated_best-exercises-for-runners/?utm_source=rss&utm_medium=rss&utm_campaign=kr_translated_best-exercises-for-runners",
-    "pubDate": "Tue, 08 Apr 2025 15:10:13 +0000",
-    "creator": "kimchihill",
-    "categories": [
-      "Korean essay"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "지브리 스타일 말고 2d 게임용 픽셀아트도 뽑아 줍니다. / @OpenAI GPT-4o can generate 2D character animation sprite sheets for your vibe coded video game",
-    "description": "영상: https://youtu.be/yz6Tc2vAQDA?t=319\n\n\n\n5분19초에 나옵니다.\n2D 게임에 쓸수 있겠군요 \n훌륭합니다.\n \n원본 트위ㅓ 글입니다. : https://x.com/majidmanzarpour/status/1905666221225197790\n\n \nX의 Majid Manzarpour님(@majidmanzarpour)\nOk, @OpenAI GPT-4o can generate 2D character animation sprite sheets for your vibe coded video game Prompt below  \nx.com",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1256",
-    "pubDate": "Mon, 7 Apr 2025 21:51:58 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.1 Release Candidate Is Out! ",
-    "description": "IntelliJ IDEA 2025.1 Release Candidate is available for download, so we’re one step away from the major release! You can get the latest build from our website, through the free Toolbox App, or via snaps for Ubuntu. To use this build, an active subscription to IntelliJ IDEA Ultimate is required. Download IntelliJ IDEA 2025.1 RC […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/intellij-idea-2025-1-rc/",
-    "pubDate": "Tue, 08 Apr 2025 18:31:31 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": [
-      "eap",
-      "2025-1",
-      "intellij-idea-2025-1",
-      "intellij-idea-2025-1-eap"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "박보검 프로필 완전 분석: 키, 학력, 가족, 데뷔 비화까지",
-    "description": "박보검은 대한민국을 대표하는 배우 중 한 명으로, 그의 다채로운 매력과 탄탄한 연기력으로 많은 사랑을 받고 있습니다. 이번 글에서는 박보검의 키, 학력, 가족, 그리고 데뷔 비화까지 자세히 알아보겠습니다.\n목차\n박보검의 신체 정보와 학력\n가족 관계와 성장 배경\n데뷔 전 꿈과 연예계 진입 과정\n초기 연기 활동과 주목받은 작품들\n스타덤에 오른 대표작과 인기 요인\n최근 활동과 앞으로의 행보\n박보검의 매력 포인트와 팬들의 반응\n \n\n\n박보검의 신체 정보와 학력\n박보검은 1993년 6월 16일 서울특별시 양천구 목동에서 태어났습니다. 그의 키는 182cm로 알려져 있으며, 이는 그의 무대 위에서의 존재감을 더욱 돋보이게 합니다. 학력은 다음과 같습니다:\n초등학교: 서울목동초등학교\n중학교: 목동중학교\n고등학교: 신목고등학교\n대학교: 명지대학교 영화뮤지컬학과 학사 졸업\n대학원: 상명대학교 대학원 뉴미디어음악학 석사 졸업\n박보검은 바쁜 연예 활동 중에도 학업을 성실히 이어가며, 졸업 작품에서는 음악감독 스태프로 참여하는 등 학구적인 면모를 보여주었습니다.\n가족 관계와 성장 배경\n박보검은 아버지와 누나, 형이 있는 2남 1녀 중 막내로 태어났습니다. 그의 이름 '보검(寶劍)'은 '보배로운 칼'이라는 뜻으로, '때가 되면 귀하게 쓰인다'는 의미를 담고 있습니다. 어린 시절에는 수영선수로 활동하였으나, 15세에 슬럼프로 인해 그만두게 되었습니다. 이후 음악에 대한 열정으로 싱어송라이터의 꿈을 꾸게 되었습니다.\n데뷔 전 꿈과 연예계 진입 과정\n고등학교 2학년 때, 박보검은 자신이 피아노를 치며 노래하는 영상을 여러 연예 기획사에 보냈습니다. 그 중 연기자 전문 기획사인 싸이더스 HQ에서 가장 먼저 연락이 왔고, 연습생 생활을 시작하게 되었습니다. 당시 소속사 관계자의 권유로 가수가 아닌 배우의 길을 걷게 되었습니다.\n초기 연기 활동과 주목받은 작품들\n박보검은 2011년 영화 '블라인드'에서 단역으로 데뷔하였습니다. 이후 '차형사', '각시탈', '원더풀 마마' 등 다양한 작품에서 조연으로 경험을 쌓으며 연기력을 다져왔습니다. 특히 드라마 '참 좋은 시절'에서는 경상도 사투리 연기로 호평을 받았고, 영화 '명량'에서는 짧지만 강렬한 인상을 남기며 주목받기 시작했습니다. 또한 드라마 '내일도 칸타빌레'에서는 천재 첼리스트 역할을 맡아 섬세한 감정 연기를 선보이며 유망주로 떠올랐습니다.\n스타덤에 오른 대표작과 인기 요인\n박보검은 드라마 '응답하라 1988'에서 천재 바둑기사 최택 역을 맡아 큰 인기를 얻었습니다. 이 드라마는 케이블 TV 역대 최고 시청률 19.6%를 기록하며 성공을 거두었고, 박보검은 이 작품을 통해 스타덤에 올랐습니다. 이후 드라마 '구르미 그린 달빛'에서 왕세자 이영 역을 맡아 섬세한 감정 연기와 카리스마 넘치는 모습으로 '국민 왕세자'라는 애칭을 얻으며 큰 사랑을 받았습니다. 그의 인기 요인으로는 자연스러운 연기력, 선한 이미지, 그리고 겸손하고 성실한 태도가 꼽힙니다.\n최근 활동과 앞으로의 행보\n박보검은 2020년 드라마 '청춘기록' 이후 활동 공백기를 가졌으며, 최근에는 영화 '원더랜드'와 드라마 '굿보이'에 출연하며 활발한 활동을 이어가고 있습니다. 특히 '원더랜드'에서는 수지와 연인으로 호흡을 맞추며 화제를 모았습니다. 앞으로도 다양한 작품을 통해 그의 매력을 보여줄 것으로 기대됩니다.\n박보검의 매력 포인트와 팬들의 반응\n박보검은 그의 다재다능함과 성실함, 그리고 팬들에 대한 진심 어린 애정으로 많은 이들에게 사랑받고 있습니다. 팬들은 그의 선한 미소와 따뜻한 성품, 그리고 꾸준한 노력에 감동하며, 앞으로의 활동에 대한 기대감을 나타내고 있습니다.\n\n\n자주 묻는 질문 (FAQ)\n박보검의 데뷔 작품은 무엇인가요?\n박보검은 2011년 영화 '블라인드'에서 단역으로 데뷔하였습니다.\n박보검의 학력은 어떻게 되나요?\n박보검은 명지대학교 영화뮤지컬학과 학사 졸업 후, 상명대학교 대학원 뉴미디어음악학 석사를 졸업하였습니다.\n박보검이 연기한 대표적인 드라마는 무엇인가요?\n대표작으로는 '응답하라 1988', '구르미 그린 달빛', '남자친구', '청춘기록' 등이 있습니다.\n박보검의 가족 구성은 어떻게 되나요?\n박보검은 아버지와 누나, 형이 있는 2남 1녀 중 막내입니다.\n박보검의 최근 활동은 무엇인가요?\n최근 박보검은 영화 '원더랜드'와 드라마 '굿보이'에 출연하며 활발한 활동을 이어가고 있습니다.\n여러분은 박보검의 어떤 매력에 가장 끌리시나요? 그의 작품 중 가장 인상 깊었던 것은 무엇인지 댓글로 공유해 주세요!\n박보검은 그의 성실함과 다재다능함으로 많은 이들에게 귀감이 되고 있습니다. 앞으로도 그의 행보를 기대하며, 다양한 작품에서 그의 매력을 만나볼 수 있기를 바랍니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EB%B0%95%EB%B3%B4%EA%B2%80-%ED%94%84%EB%A1%9C%ED%95%84-%EC%99%84%EC%A0%84-%EB%B6%84%EC%84%9D-%ED%82%A4-%ED%95%99%EB%A0%A5-%EA%B0%80%EC%A1%B1-%EB%8D%B0%EB%B7%94-%EB%B9%84%ED%99%94%EA%B9%8C%EC%A7%80",
-    "pubDate": "Tue, 8 Apr 2025 23:02:54 +0900",
-    "creator": "흰끼끼",
-    "categories": [
-      "가족",
-      "데뷔 비화",
-      "드라마",
-      "박보검",
-      "배우",
-      "연예계",
-      "영화",
-      "키",
-      "프로필",
-      "학력"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "박나래 라디오 불참 이유&hellip;수천만 원 금품 도난 사건 발생",
-    "description": "최근 박나래 씨가 라디오 스케줄에 갑작스럽게 불참한 이유가 밝혀져 많은 팬들의 안타까움을 사고 있습니다.\n언론 보도에 따르면, 박나래 씨는 지난 6일 서울 용산구 자택에서 수천만 원 상당의 금품 도난 사건을 당한 것으로 확인되었습니다. 해당 사건으로 인해 정신적 충격을 받은 상태이며, 현재 경찰에 신고해 수사가 진행 중이라고 합니다.\n  관련 기사: 박나래, 라디오 불참 알고보니…자택서 수천만원 금품 도둑 맞았다 (중앙일보)\n ️ 박나래의 프로페셔널함, 그리고 인간적인 면모\n항상 방송에서 밝은 에너지로 시청자에게 웃음을 전해온 박나래 씨. 평소 스케줄에 철저한 성격으로 알려진 그녀가 라디오에 불참했을 때, 팬들은 단순한 컨디션 문제일 거라 생각했는데요. 이번 사건이 알려지면서, 많은 이들이 그녀가 얼마나 큰 충격을 받았을지를 공감하고 있습니다.\n  도난 사건, 단순한 절도가 아니다?\n이번 사건은 단순한 절도 이상의 의미를 지닌다는 점에서 주목받고 있습니다. 연예인을 겨냥한 범죄일 가능성도 배제할 수 없으며, 그만큼 유명인의 사생활 보호와 안전 관리의 중요성이 다시금 제기되고 있습니다.\n  연예인도 ‘일반인’입니다\n이번 사건을 통해 다시 한 번 느끼는 점은, 연예인 역시 우리와 같은 '사람'이라는 사실입니다. 화려한 무대 뒤에는 일상을 살아가는 평범한 모습이 있고, 누구보다 상처받기 쉬운 감정도 있다는 것을 우리는 잊지 말아야 합니다.\n ️ 박나래 씨를 응원합니다\n방송가와 팬들 사이에서는 박나래 씨의 빠른 회복을 바라는 응원의 메시지가 이어지고 있습니다. 이번 일을 계기로 더 단단해진 모습으로 돌아오시길 진심으로 바랍니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EB%B0%95%EB%82%98%EB%9E%98-%EB%9D%BC%EB%94%94%EC%98%A4-%EB%B6%88%EC%B0%B8-%EC%9D%B4%EC%9C%A0%E2%80%A6%EC%88%98%EC%B2%9C%EB%A7%8C-%EC%9B%90-%EA%B8%88%ED%92%88-%EB%8F%84%EB%82%9C-%EC%82%AC%EA%B1%B4-%EB%B0%9C%EC%83%9D",
-    "pubDate": "Tue, 8 Apr 2025 22:44:08 +0900",
-    "creator": "흰끼끼",
-    "categories": [
-      "라디오스타",
-      "박나래",
-      "박나래 금품 도난",
-      "박나래 라디오",
-      "박나래 절도",
-      "박나래 집",
-      "스타 사건사고",
-      "연예계 이슈",
-      "연예인 도난 사건",
-      "연예인 사생활"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "C# - C# 에서 사용할 수 있는 1ms 타이머 찾기",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/NET_20250406/",
-    "pubDate": "Sun, 06 Apr 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "eBay Reduces the Time to List on Mobile With New Simplified Selling Tool, Now Featuring Magical Listing AI Technology",
-    "description": "Introducing an easier, more streamlined experience that makes listing creation faster and more effortless for sellers in the U.S. and U.K.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://innovation.ebayinc.com/stories/ebay-reduces-the-time-to-list-on-mobile-with-new-simplified-selling-tool-now-featuring-magical-listing-ai-technology/",
-    "pubDate": "Wed, 09 Apr 2025 00:00:00 -0700",
-    "creator": "eBay News Team",
-    "categories": [
-      "article"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Gradio HTML Javascript 렌더링 방법",
-    "description": "이 글은 Gradio HTML Javascript 렌더링 방법을 간략히 정리한다. 가끔, HTML, javascript(자바스크립트)를 Gradio 페이지에 표시하고 싶을 때가 있다. 예를 들어, Gradio 기존 컴포넌트에서 지원되지 않는 3D 그래픽을 렌더링해야 할 때가 있다.\n\n\nGradio 3차원 모델 렌더링 예시\n\n하지만, Gradio는 HTML만 지원하고, javascript는 다양한 이유로 사용자가 직접 Gradio에서 실행하는 것을 허용하지 않는다. 이 경우, iframe 을 사용한다.\n\n\nGradio에서 three.js 코드 실행 예시\n\n다음은 Gradio에서 3D graphic 렌더링을 위해 three.js를 사용하는 예를 보여준다.\n\nimport os, json, requests, gradio as gr\nfrom gradio import Interface, File, Files, Button, Label, Markdown\n\n\nclass 3D_viewer_component:\n    def __init__(self, gr):\n        self.html_code = \"\"\"\n<iframe srcdoc=\"\n<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      body, html { margin: 0; overflow: hidden; height: 100%; }\n      canvas { display: block; }\n    </style>\n    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script>\n  </head>\n  <body>\n    <script>\nconst WIDTH = window.innerWidth;\nconst HEIGHT = window.innerHeight;\n\n\nconst renderer = new THREE.WebGLRenderer({ antialias: true });\nrenderer.setSize(WIDTH, HEIGHT);\nrenderer.setClearColor(0x111111, 1);\ndocument.body.appendChild(renderer.domElement);\n\n\nconst scene = new THREE.Scene();\n\n\nconst camera = new THREE.PerspectiveCamera(70, WIDTH / HEIGHT, 0.1, 10000);\ncamera.position.z = 30;\ncamera.position.y = 10;\nscene.add(camera);\n\n\nconst boxGeometry = new THREE.BoxGeometry(10, 10, 10);\nconst basicMaterial = new THREE.MeshBasicMaterial({ color: 0x0095dd });\nconst cube = new THREE.Mesh(boxGeometry, basicMaterial);\ncube.position.x = -25;\ncube.rotation.set(0.4, 0.2, 0);\nscene.add(cube);\n\n\nconst torusGeometry = new THREE.TorusGeometry(7, 1, 16, 32);\nconst phongMaterial = new THREE.MeshPhongMaterial({ color: 0xff9500 });\nconst torus = new THREE.Mesh(torusGeometry, phongMaterial);\ntorus.rotation.set(0.5, 0.5, 0);\nscene.add(torus);\n\n\nconst light = new THREE.PointLight(0xffffff);\nlight.position.set(-10, 15, 50);\nscene.add(light);\n\n\nlet t = 0;\nfunction render() {\n  t += 0.01;\n  requestAnimationFrame(render);\n  cube.rotation.y += 0.01;\n  torus.scale.y = Math.abs(Math.sin(t));\n  renderer.render(scene, camera);\n}\nrender();\n    </script>\n  </body>\n</html>\n\" width=\"100%\" height=\"100%\" style=\"border:none;\"></iframe>\n        \"\"\"\n\n\n        self.component = gr.HTML(self.html_code)\n\n\nwith gr.Blocks(title='3D viewer') as interface:\n\tgr.Markdown(\"# 3D viewer\")\n\twith gr.Row(equal_height=True):\n\n\t\t3D_viewer_component(gr)\n\n\t\t3D_viewer_component(gr)\n\n\n\ninterface.launch(share=True)\n\n\n참고로, Gradio에서 공식적으로 추천하는 방법은 다음과 같이 커스텀 컴포넌트를 개발한 것이다.\n\n\n커스텀 컴포넌트 생성 명령 예시\n\n명령 실행 순서(일부)\n\n위 그림과 같이 컴포넌트 생성하면, 다음처럼 프로젝트 파일이 생성되고, 이를 수정해 개발하는 방식이다.\n\n- backend/ <- The python code for your custom component\n\n- frontend/ <- The javascript code for your custom component\n\n- demo/     <- A sample app using your component. Modify this!\n\n- pyproject.toml <- Used to build the package and specify package metadata.\n\n\n\nGradio 커스텀 컴포넌트 예시(Gradio Custom Components Gallery)\n\n\n\n이외 3차원 모델 파일 뷰어는 Model3D 컴포넌트를 사용할 수도 있다.\n\n\nModel3D 예시\n\n레퍼런스\n\nGradio Model3D Docs\nCustom Components In Five Minutes\nGradio Custom Components Gallery\ngradio/model3D",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/04/gradio-html.html",
-    "pubDate": "2025-04-05T04:05:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "토스, ‘내게 맞는 요금제 찾기’ 서비스 출시",
-    "description": "통신비 절감 도와주는 맞춤 요금제 비교 서비스 선보여",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/phone_plan",
-    "pubDate": "Wed, 09 Apr 2025 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "500 만원으로 농막 짓기 도전자",
-    "description": "영상: https://www.youtube.com/watch?v=BZLruvIKJwA\n\n\n\n \n컨테이너 박스 사서 쓰는것도 비싸서 \n샌드위치패널로 박스 만들어서 살꺼라고 합니다.\n하는거보고 저도 도전을 해봐야겠군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1257",
-    "pubDate": "Thu, 10 Apr 2025 01:59:02 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "농막"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Pure Virtual C++ 2025 Talks Announced",
-    "description": "Pure Virtual C++ is our free, one-day, virtual conference for the whole C++ community. This year, it is running on the 30th April. We’re pleased to announce four of our five live sessions for the day: Welcome to v1.0 of the meta::[[verse]]! with Inbal Levi Proxy: Next Generation Polymorphism with Mingxin Wang Making unfamiliar C++ […]\nThe post Pure Virtual C++ 2025 Talks Announced appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2025-talks-announced/",
-    "pubDate": "Mon, 07 Apr 2025 13:51:39 +0000",
-    "creator": "Sy Brand",
-    "categories": [
-      "Announcement",
-      "Pure Virtual C++"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "@vueuse/core / VUE 에서 다크모드 전환 버튼 구현할때",
-    "description": "tailwind 필수 입니다.\n따라하기 영상: https://www.youtube.com/watch?v=7_mqThfC_yM\n\n\n\n \n빼먹지 말아야하는게\npublic/index.html 의 body 부분에\n<body color-scheme=\"dark\">\n\n\n이거 들어가야합니다.\n저는 어두운게 기본이라 dark 를 썼지만\n밝은게 기본이라면 light 를 쓰시면 됩니다.\n \ntailwind.config.js 에는\n  darkMode: \"class\",\n이거 들어가야합니다.\nmedia 는 사용자 윈도우즈 설정을 따르기 때문에 변경을 할 수 가없습니다. \nclass 는 변경할 수 있습니다.\n\n\n나머진 영상 따라하시면 될 것 같구요\n옛날보다 더 쉬워졌군요\n좋네요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1253",
-    "pubDate": "Sun, 6 Apr 2025 02:29:20 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "VUE"
     ]
   }
 ]
