@@ -2,6 +2,59 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "블루베리 효능 총정리: 노화 방지에 탁월한 이유 5가지",
+    "description": "현대인의 건강식으로 각광받고 있는 블루베리, 그냥 맛있는 과일일 뿐이라고 생각하셨다면 오산입니다. 특히 노화를 늦추는 항산화 식품으로 블루베리는 수많은 연구에서 그 효과가 입증되고 있는데요. 이번 글에서는 블루베리가 왜 노화 방지에 탁월한지, 그 이유 5가지를 집중적으로 알아보겠습니다.\n1. 강력한 항산화 성분, 안토시아닌의 힘\n블루베리는 안토시아닌(Anthocyanin)이라는 강력한 항산화 성분이 풍부하게 들어 있습니다.\n이 성분은 활성산소로부터 세포를 보호하여 세포 노화를 늦추는 효과를 합니다.\n피부 탄력, 주름 개선, 면역력 강화에도 큰 도움을 줍니다.\n2. 뇌 기능 보호 및 인지 능력 향상\n노화의 대표적인 증상 중 하나는 기억력 저하와 같은 뇌 기능 감소입니다.\n블루베리 섭취는 신경세포 손상을 줄이고, 뇌 신호 전달을 촉진하여\n인지 능력 향상 및 치매 예방 효과까지 기대할 수 있습니다.\n3. 심혈관 건강 개선으로 노화 예방\n나이가 들수록 혈관 건강은 더 중요해지죠.\n블루베리는 혈관을 깨끗하게 유지하고, 혈압과 콜레스테롤 수치를 낮추는 데 도움을 줍니다.\n이로 인해 심혈관 질환 예방은 물론, 신체 전체의 노화 속도도 늦출 수 있습니다.\n4. 면역력 강화로 각종 질병 예방\n노화가 진행되면 면역 시스템이 약화되기 쉽습니다.\n블루베리 속 비타민 C, K, 망간 등의 영양소는 면역 기능을 강화해\n감기나 바이러스, 염증성 질환 등 각종 질병으로부터 몸을 보호해 줍니다.\n5. 피부 건강 개선과 안티에이징 효과\n블루베리는 피부 트러블 개선과 피부 톤 개선에도 효과적입니다.\n항산화 작용으로 인해 피부의 노화 원인인 산화 스트레스와 자외선 손상을 줄여주며,\n피부에 생기와 탄력을 더해주는 데 도움을 줍니다.\n✅ 결론\n블루베리는 단순한 과일이 아니라, 노화 방지를 위한 자연의 선물입니다.\n매일 소량이라도 꾸준히 섭취한다면, 건강은 물론 젊음까지 지킬 수 있는 최고의 슈퍼푸드죠.\n오늘부터 식단에 블루베리를 더해보는 건 어떠세요?\n\n  팁: 신선한 블루베리뿐만 아니라, 냉동 블루베리나 블루베리 파우더도 동일한 효능을 기대할 수 있어요!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://app-developer.tistory.com/entry/%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC-%ED%9A%A8%EB%8A%A5-%EC%B4%9D%EC%A0%95%EB%A6%AC-%EB%85%B8%ED%99%94-%EB%B0%A9%EC%A7%80%EC%97%90-%ED%83%81%EC%9B%94%ED%95%9C-%EC%9D%B4%EC%9C%A0-5%EA%B0%80%EC%A7%80",
+    "pubDate": "Sun, 13 Apr 2025 20:44:48 +0900",
+    "creator": "흰끼끼",
+    "categories": [
+      "건강/노화 및 웰에이징"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "The Story Behind K2 Mode and How It Works",
+    "description": "I’m Yan Zhulanow, and I lead the Kotlin Analysis API team. Last year, we made a series of announcements about Kotlin K2 mode in IntelliJ IDEA. Now, as K2 mode is about to become the default, I am thrilled to tell you more about everything we had to go through to make this release happen. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/04/the-story-behind-k2-mode-and-how-it-works/",
+    "pubDate": "Mon, 14 Apr 2025 13:32:31 +0000",
+    "creator": "Yan Zhulanow",
+    "categories": [
+      "eap",
+      "kotlin",
+      "releases",
+      "intellij-idea",
+      "k2-mode"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "C# Language Support in ReSharper and Rider 2025.1",
+    "description": "Our release for ReSharper and Rider 2025.1 is just around the corner, and we have lots of exciting features shipping for the current and next version of C#! This will be a really long post (blame our awesome devs!), so make sure to use the table of contents on the right. Oh, and of course… […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/04/10/csharp-language-support-in-resharper-and-rider-2025-1/",
+    "pubDate": "Thu, 10 Apr 2025 16:51:03 +0000",
+    "creator": "Matthias Koch",
+    "categories": [
+      "net-tools",
+      "how-tos",
+      "net",
+      "c",
+      "formatting",
+      "generation-and-templates",
+      "inspections",
+      "quick-fixes"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
     "title": "ChatGPT에게 저장소의 내용을 이해하도록 Markdown 파일을 출력하는 스크립트를 만들어 보았다",
     "description": "No description available",
     "reviews": [],
@@ -12,86 +65,34 @@
     "categories": []
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "유니티 6 웹 용량 줄이기에 대한 설명 / unity web",
-    "description": "영상: https://youtu.be/eCTKiBVUdRM?t=386\n\n\n\n6분 30초 부터 나오구요\nbr 악춤 외도 여러가지가 있군요\n그리고 이제webgl 대신 웹 이라고 부르기로 했다고 하네요\n그래서 유니티 웹 이 되겠습니다.\nUnity Play 에 올릴 것을 권장하네요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1261",
-    "pubDate": "Mon, 14 Apr 2025 01:48:19 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "면접의 허상",
-    "description": "이 세상을 세상답게 돌아가게 하는 단 한 가지만 꼽으라면, 그건 ‘사람’이라고 할 수 있다. 사람이 사람과 일하고, 사람이 사람과 교류하면서 이 세상은 돌아가고, 더 좋은 세상으로 발전한다. 회사도 마찬가지다. 특히, 스타트업에서 가장 중요하고, 절대로 타협할 수 없는 단 한 가지만 선택하면, 그건 당연히 사람이다. 대표이사는 시간의 50%는 좋은 사람을 채용하는 데 사용해야 하고, 나머지 50%는(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/04/stop-wasting-too-much-energy-on-interviews.html",
-    "pubDate": "Sun, 13 Apr 2025 21:33:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "general",
-      "people",
-      "strategy",
-      "스타트업 바이블 1",
-      "스타트업 바이블 2",
-      "스타트업 바이블 QA"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "박보검 프로필 완전 분석: 키, 학력, 가족, 데뷔 비화까지",
-    "description": "박보검은 대한민국을 대표하는 배우 중 한 명으로, 그의 다채로운 매력과 탄탄한 연기력으로 많은 사랑을 받고 있습니다. 이번 글에서는 박보검의 키, 학력, 가족, 그리고 데뷔 비화까지 자세히 알아보겠습니다.\n목차\n박보검의 신체 정보와 학력\n가족 관계와 성장 배경\n데뷔 전 꿈과 연예계 진입 과정\n초기 연기 활동과 주목받은 작품들\n스타덤에 오른 대표작과 인기 요인\n최근 활동과 앞으로의 행보\n박보검의 매력 포인트와 팬들의 반응\n \n\n\n박보검의 신체 정보와 학력\n박보검은 1993년 6월 16일 서울특별시 양천구 목동에서 태어났습니다. 그의 키는 182cm로 알려져 있으며, 이는 그의 무대 위에서의 존재감을 더욱 돋보이게 합니다. 학력은 다음과 같습니다:\n초등학교: 서울목동초등학교\n중학교: 목동중학교\n고등학교: 신목고등학교\n대학교: 명지대학교 영화뮤지컬학과 학사 졸업\n대학원: 상명대학교 대학원 뉴미디어음악학 석사 졸업\n박보검은 바쁜 연예 활동 중에도 학업을 성실히 이어가며, 졸업 작품에서는 음악감독 스태프로 참여하는 등 학구적인 면모를 보여주었습니다.\n가족 관계와 성장 배경\n박보검은 아버지와 누나, 형이 있는 2남 1녀 중 막내로 태어났습니다. 그의 이름 '보검(寶劍)'은 '보배로운 칼'이라는 뜻으로, '때가 되면 귀하게 쓰인다'는 의미를 담고 있습니다. 어린 시절에는 수영선수로 활동하였으나, 15세에 슬럼프로 인해 그만두게 되었습니다. 이후 음악에 대한 열정으로 싱어송라이터의 꿈을 꾸게 되었습니다.\n데뷔 전 꿈과 연예계 진입 과정\n고등학교 2학년 때, 박보검은 자신이 피아노를 치며 노래하는 영상을 여러 연예 기획사에 보냈습니다. 그 중 연기자 전문 기획사인 싸이더스 HQ에서 가장 먼저 연락이 왔고, 연습생 생활을 시작하게 되었습니다. 당시 소속사 관계자의 권유로 가수가 아닌 배우의 길을 걷게 되었습니다.\n초기 연기 활동과 주목받은 작품들\n박보검은 2011년 영화 '블라인드'에서 단역으로 데뷔하였습니다. 이후 '차형사', '각시탈', '원더풀 마마' 등 다양한 작품에서 조연으로 경험을 쌓으며 연기력을 다져왔습니다. 특히 드라마 '참 좋은 시절'에서는 경상도 사투리 연기로 호평을 받았고, 영화 '명량'에서는 짧지만 강렬한 인상을 남기며 주목받기 시작했습니다. 또한 드라마 '내일도 칸타빌레'에서는 천재 첼리스트 역할을 맡아 섬세한 감정 연기를 선보이며 유망주로 떠올랐습니다.\n스타덤에 오른 대표작과 인기 요인\n박보검은 드라마 '응답하라 1988'에서 천재 바둑기사 최택 역을 맡아 큰 인기를 얻었습니다. 이 드라마는 케이블 TV 역대 최고 시청률 19.6%를 기록하며 성공을 거두었고, 박보검은 이 작품을 통해 스타덤에 올랐습니다. 이후 드라마 '구르미 그린 달빛'에서 왕세자 이영 역을 맡아 섬세한 감정 연기와 카리스마 넘치는 모습으로 '국민 왕세자'라는 애칭을 얻으며 큰 사랑을 받았습니다. 그의 인기 요인으로는 자연스러운 연기력, 선한 이미지, 그리고 겸손하고 성실한 태도가 꼽힙니다.\n최근 활동과 앞으로의 행보\n박보검은 2020년 드라마 '청춘기록' 이후 활동 공백기를 가졌으며, 최근에는 영화 '원더랜드'와 드라마 '굿보이'에 출연하며 활발한 활동을 이어가고 있습니다. 특히 '원더랜드'에서는 수지와 연인으로 호흡을 맞추며 화제를 모았습니다. 앞으로도 다양한 작품을 통해 그의 매력을 보여줄 것으로 기대됩니다.\n박보검의 매력 포인트와 팬들의 반응\n박보검은 그의 다재다능함과 성실함, 그리고 팬들에 대한 진심 어린 애정으로 많은 이들에게 사랑받고 있습니다. 팬들은 그의 선한 미소와 따뜻한 성품, 그리고 꾸준한 노력에 감동하며, 앞으로의 활동에 대한 기대감을 나타내고 있습니다.\n\n\n자주 묻는 질문 (FAQ)\n박보검의 데뷔 작품은 무엇인가요?\n박보검은 2011년 영화 '블라인드'에서 단역으로 데뷔하였습니다.\n박보검의 학력은 어떻게 되나요?\n박보검은 명지대학교 영화뮤지컬학과 학사 졸업 후, 상명대학교 대학원 뉴미디어음악학 석사를 졸업하였습니다.\n박보검이 연기한 대표적인 드라마는 무엇인가요?\n대표작으로는 '응답하라 1988', '구르미 그린 달빛', '남자친구', '청춘기록' 등이 있습니다.\n박보검의 가족 구성은 어떻게 되나요?\n박보검은 아버지와 누나, 형이 있는 2남 1녀 중 막내입니다.\n박보검의 최근 활동은 무엇인가요?\n최근 박보검은 영화 '원더랜드'와 드라마 '굿보이'에 출연하며 활발한 활동을 이어가고 있습니다.\n여러분은 박보검의 어떤 매력에 가장 끌리시나요? 그의 작품 중 가장 인상 깊었던 것은 무엇인지 댓글로 공유해 주세요!\n박보검은 그의 성실함과 다재다능함으로 많은 이들에게 귀감이 되고 있습니다. 앞으로도 그의 행보를 기대하며, 다양한 작품에서 그의 매력을 만나볼 수 있기를 바랍니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EB%B0%95%EB%B3%B4%EA%B2%80-%ED%94%84%EB%A1%9C%ED%95%84-%EC%99%84%EC%A0%84-%EB%B6%84%EC%84%9D-%ED%82%A4-%ED%95%99%EB%A0%A5-%EA%B0%80%EC%A1%B1-%EB%8D%B0%EB%B7%94-%EB%B9%84%ED%99%94%EA%B9%8C%EC%A7%80",
-    "pubDate": "Tue, 8 Apr 2025 23:02:54 +0900",
-    "creator": "흰끼끼",
-    "categories": [
-      "가족",
-      "데뷔 비화",
-      "드라마",
-      "박보검",
-      "배우",
-      "연예계",
-      "영화",
-      "키",
-      "프로필",
-      "학력"
-    ]
-  },
-  {
     "id": 5,
     "imageUrl": "",
-    "title": "Gemini 기반 MCP 서버 및 클라이언트 개발해 보기 ",
-    "description": "이 글은 Gemini 기반 MCP 서버 및 클라이언트를 개발하는 방법을 간략히 보여준다.\n\n\n\nMCP 기반 멀티 AI 에이전트 아키텍처 개념도\n\n\n\n레퍼런스\n\nIntroducing Graphite — An Event Driven AI Agent Framework | by Craig Li, Ph.D | Binome | Apr, 2025 | Medium\nModel Context Protocol(MCP) with Google Gemini 2.5 Pro - Deep Dive , Google Cloud Gen AI | Google Cloud - Community",
+    "title": "Splunk의 Join - 5th",
+    "description": "inner join.\n\n\n\n\nleft join.\n\n\n\n교집합 제외한 left join.\n\n\nfull join.\n\n\n\n\n\n교집합 제외한 full join.\n\n\n\n\n관련 글\n\n\nSplunk의 Join - 4th\nSplunk의 Join\nSplunk의 lookup\n엘라스틱의 Join",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/04/gemini-mcp.html",
-    "pubDate": "2025-04-13T00:58:00.000Z",
+    "link": "https://kangmyounghun.blogspot.com/2025/04/splunk-join-5th.html",
+    "pubDate": "2025-04-13T02:57:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "배우 김수현, 故 김새론과의 의혹 해명에도&hellip;&ldquo;밤 11시에 닭볶음탕?&rdquo; 여론은 여전히 싸늘",
-    "description": "2025년 3월 31일, 배우 김수현이 긴급 기자회견을 열고 故 김새론과의 관계에 대한 입장을 밝혔습니다. 하지만 이 해명 이후에도 대중의 의문은 가라앉지 않고 있습니다. 그 중심에는 “고등학교 2학년, 17세였던 김새론이 밤 11시에 김수현 가족이 있는 집에서 닭볶음탕을 만들었다는 정황”이 있습니다.\n▶ “연인이 아니었다”는 주장…하지만 그 밤의 정황은?\n김수현 측은 공식 입장에서 “당시 연인 관계가 아니었고, 가족들도 함께 있었다”고 해명했습니다. 논란이 된 영상은 2018년 6월 촬영된 것으로, 당시 김새론은 고등학교 2학년, 만 17세의 미성년자였습니다.\n해당 영상은 밤 11시 20분경 촬영되었으며, 식탁 위에는 소주병과 소주잔이 놓여 있었다는 점이 확인되며 더욱 논란이 커지고 있습니다. 소속사는 단순한 가족 식사 자리였다고 주장하지만, 많은 이들은 이 상황 자체를 납득하기 어렵다는 반응입니다.\n▶ “사귀지도 않았는데, 밤 11시에 가족 집에서 요리?”\n온라인 커뮤니티와 SNS에서는 다양한 반응이 이어지고 있습니다:\n“사귀지 않았다면 오히려 더 이상한 상황”\n“그 시간에 미성년자가 남자 집에 있었다는 것 자체가 부적절하다”\n“친구 사이여도 집에 돌려보낼 시간 아닌가?”\n또한, 김새론이 김수현에게 보냈다는 카카오톡 메시지 내용도 공개되었습니다. 메시지에는 “보고 싶어”, “언제 안고 잘 수 있어?” 등 연인 사이로 보일 수 있는 문구가 담겨 있었지만, 김수현 측은 “전면 조작된 메시지”라며 원본 데이터 제출을 요구한 상태입니다.\n▶ 해명에도 남은 의문…김수현 이미지 타격 불가피\n김수현 소속사는 “미성년자와의 교제는 결단코 없었다”며 법적 대응을 시사하고 있지만, 유튜브 채널 ‘가세연’ 측의 공세는 계속되고 있습니다. 특히 “사귄 적 없다”는 해명은 ‘그루밍’ 논란으로 이어지며, 연예계 전반에 큰 파장을 주고 있습니다.\n한 프로파일러는 해당 상황에 대해 “상대를 잘못 골랐다”며 사안의 심각성을 지적했습니다. 이번 논란은 단순한 해명이 아닌, 도덕성과 윤리적 판단에 대한 대중의 평가로 이어지고 있으며, 김수현의 이미지 회복은 당분간 쉽지 않을 것으로 보입니다.\n⚠️ 본 포스팅은 대중에 공개된 기사 및 자료에 기반해 작성된 콘텐츠로, 사실 여부에 대한 판단은 독자에게 맡깁니다.",
+    "title": "Markdown in Java Docs? Shut Up and Take My Comments!",
+    "description": "Imagine you’re building a cutting-edge Java library, optimizing every method, and writing the most efficient algorithms. At some point, you’ll need to document your code because well-documented code increases adoption (a fact backed by various surveys). Including documentation comments within a Java class ensures that the documentation evolves with the code, keeping it relevant. Using […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EB%B0%B0%EC%9A%B0-%EA%B9%80%EC%88%98%ED%98%84-%E6%95%85-%EA%B9%80%EC%83%88%EB%A1%A0%EA%B3%BC%EC%9D%98-%EC%9D%98%ED%98%B9-%ED%95%B4%EB%AA%85%EC%97%90%EB%8F%84%E2%80%A6%E2%80%9C%EB%B0%A4-11%EC%8B%9C%EC%97%90-%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95%E2%80%9D-%EC%97%AC%EB%A1%A0%EC%9D%80-%EC%97%AC%EC%A0%84%ED%9E%88-%EC%8B%B8%EB%8A%98",
-    "pubDate": "Fri, 11 Apr 2025 23:18:10 +0900",
-    "creator": "흰끼끼",
-    "categories": []
+    "link": "https://blog.jetbrains.com/idea/2025/04/markdown-in-java-docs-shut-up-and-take-my-comments/",
+    "pubDate": "Thu, 10 Apr 2025 07:43:53 +0000",
+    "creator": "Mala Gupta",
+    "categories": [
+      "idea",
+      "java",
+      "tutorials",
+      "intellij-idea",
+      "markdown"
+    ]
   },
   {
     "id": 7,
@@ -114,37 +115,17 @@
   {
     "id": 8,
     "imageUrl": "",
-    "title": "게임 홍보를 위한 유니티 webgl 페이지 만들기 / 홍보의 거리 v4 / street for promotion V4",
-    "description": "지난번 vercel express 를 활용한 유니티 webgl 압축 페이지를 구현해\n제 앱을 홍보하는 사이트를 만들었습니다.\n링크: https://unity.sidnft.com/\n\n\n로딩에 시간이 꽤 걸리네요\n웹페이지 용량은 39mb 입니다.\nbr 로 압축하니 29.mb 로 내려가던데 지원하는 코드가 아직 완성이 안되었습니다. ㅠㅠ\n\n\n \n처음 시작하면 마우스를 드래그 하라고 안내합니다.\n\n\n마우스를 드레그 하면 시선이 움직입니다.\n나중에 1인칭 시점 이동도 처리해야겠군요 드래그는 불편합니다.\n아래쪽에 앱 아이콘을 쳐다보면 상단에 안내 팝업이 뜹니다.\nGO 버튼을 누르면 플레이 스토어로 이동합니다.\n\n\n오른족엔 소녀 하나 배치 했습니다.\n흐느적 거리는데 좋은걸로 교체해야겠습니다.\n눈이 깜박거리지 않는게 좀 어색하군요\n \n\n\n아래쪽에 자세한 정보를 출력하는 명판이 있습니다.\n쳐다보면 팝업이 뜹니다.\n \n좀더 개선하면 앱 홍보에 도움이 될 것 같습니다.\n \n\n\n아 버전은 2 입니다.\n \n옛날에 음식점 개장하면 나레이터들 나와서 마이크 들고 시끄럽게 하던게 생각나서 만들었습니다.\n\n\n사진 출처: https://blog.naver.com/testifay5864/223413626489\n사실 시끄럽기도 하고 효과도 없었던거 같은데 \n창업 비용 증가에 일조한거 같습니다.\n그땐 다 창업해서 호구 잡히던 시절이였던거 같군요\n옛날엔 이거 꼭 해줬습니다.\n음식점 창업에 대규모로 도전하던 때라 그런지\n수요도 있고 공급도 있었고 ...\n음식점이 성공하는 경우는 못봤고\n이벤트 업체와 나래이터들은 돈을 좀 쥐었지 않을까 싶군요\n \nv20 쯤 가면 제대로 표현이 될꺼 같습니다. ㅎㅎ\n \nbr 압축에 대한 알아낸 사실\nlocalhost 에서 테스트할때에는 br 압축이 제대로 동작하지 않아서\n문제가 있다고 생각했었지만\nhttps 에 올리고 나서 시도해보니 문제가 없었습니다.\nbr 압축은 gz 방식에비해서도 30% 정도 압축이 잘되는 방식이라 버리기 힘든 메리트가 있습니다.\n번거롭겠지만 내부테스트는 gz\n배포할때는 br 로 당분간해야겠습니다.\n내부테스트를 안하는게 제일 좋은 방법일 것 같습니다.\n빌드시간이 gz 에 두배는 걸리는 느낌입니다.\n \nV4 업데이트\n\n\niOS 에서 로드가 안되는 문제가 있어서\n모델을 변경 했습니다.\n이전에 작성했던 무료 애셋입니다.\n소개글: https://blog.sidnft.com/1248\n\n \n유니티6 분홍 텍스쳐를 고쳐보자 / Unity Asset Free / Anime Girl\n아이 무서워 눈 왜이러냐공짜애셋을 반경하여 써보려고 했는데 분홍이 되어버렸군요공자 애셋 링크: Casual 1 - Anime Girl Characters | 3D Humanoids | Unity Asset Store Casual 1 - Anime Girl Characters | 3D 휴머노이\nblog.sidnft.com\n\n애니메이션이 호환이 안되서 Dance 를 쓸 수가 없어 아쉽네요\n앞으로 나아가야하는데 한보 후퇴한 느낌입니다.\n처음부터 고퀄리티 모델을 쓸껄 그랬군요",
+    "title": "루틴이 있었던 시절",
+    "description": "네이버는 만 1년을 다녔습니다. 짧은 기간이긴 합니다만 한 번도 지각을 하지 않았습니다.\n신기한 일이긴 했습니다. 지각도 잦고 오전 반차로 대부분의 휴가를 탕진해버리는 저의 다른 회사 시절과는 분명히 달랐으니까요.\n어떻게 이럴 수 있었을까?\n반드시! 타야만 했습니다.\n돌아보면 이때가 참 좋았습니다. 강제적인 루틴이 설정되었습니다.\n아침 8시 45분까지 신림역에 도착해서 셔틀버스를 탄다.\n셔틀버스 안에서 프로그래밍 책을 읽는다.\n9시 40분에 그린팩토리 앞에서 내린다.\n아침 간식을 먹고 커피를 마시며 일을 시작한다.\n12시에 구내식당에서 점심을 먹는다.\n열심히 일을 한다.\n19시 정각이 되면 구내식당에 내려가서 저녁을 후다닥 먹는다.\n19시 40분에 출발하는 셔틀버스를 탄다.\n21시쯤 집에 돌아와서 운동을 하고 샤워를 한다.\n프로그래밍 책을 읽는다.\n0시경 잠이 든다.\n지금 다시 생각해 봐도 너무 깨끗한 루틴입니다.\n이 좋았던 루틴은 서현역의 퍼스트타워로 강제 이주 당하며 곧 깨져버렸습니다. (그리고 저는 곧 그만두었습니다)\n1인 개발자로의 삶은 매우 만족스럽지만… 이런 루틴을 만들기가 어렵습니다.\n네이버에 다닐 때의 루틴은 지금 생각해도 그립습니다.\n\n함께 읽으면 좋은 글:\n지각하지 않던 사람들\n그린팩토리는 우리나라 최고의 오피스\n어차피 같은 회산데 뭘 그래",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1260",
-    "pubDate": "Sun, 13 Apr 2025 02:33:55 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "자작"
-    ]
+    "link": "https://jeho.page/essay/2025/04/08/design-routine.html",
+    "pubDate": "2025-04-08T07:03:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 9,
-    "imageUrl": "",
-    "title": "How To Increase Code Quality in GitHub With Qodana",
-    "description": "A year ago we shared a post on how to integrate Qodana with Github Actions on the .NET Community – but a lot has changed since then. Qodana self-hosted has been released, with analysis that can make your code more secure by detecting hardcoded passwords and running taint analysis for JVM. The new Android Linter […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/04/code-quality-in-github/",
-    "pubDate": "Thu, 10 Apr 2025 17:37:29 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "code-review",
-      "tutorials",
-      "github",
-      "qodana"
-    ]
-  },
-  {
-    "id": 10,
     "imageUrl": "",
     "title": "유니티에서 TextMeshPro 폰트를 dynamic 으로 설정하기 / Setting TextMeshPro font to dynamic in Unity",
     "description": "영상: https://www.youtube.com/watch?v=NY1xKqCIj3c\n\n\n\n \n영상에서는 dynamic 방식에대한 설명이 들어어있어서 매우 장황합니다.\n \n빠르게 설정 방법\n어차피 dynamic 을 설정하기위해서 이글을 보시는거기 때문에\n폰트로 폰트애셋을 굽습니다. (이건 하셨을듯)\n \n폰트애셋을 선택 합니다.\n\n\n제일아래 Aa 로된 아이콘은 TTF 폰트파일입니다. \n이걸 만지는게 아니고\n위에 F 로 되어있는 폰트애셋을 클릭합니다.\n \n인스팩터에서\n\n\nAtlas Population ~~ 보시면 static 으로 되어있을 것입니다.\ndynamic 으로 바꾸시면 구울때 없었던 본트도 실시간으로 생성됩니다.\n \n장황한 dynamic 방식에 대한 설명\n게임에 사용할 폰트를 미리 구워 사용하는 방식을 static 이라고 합니다.\n이 방식은 매우 빠르게 사용할 수 있으며 게임의 용량을 줄일 수 있습니다.\n하지만 사용할 새 글자가 추가되면 폰트 이미지를 다시 빌드해야합니다.\n(개 귀찮)\n그래서 실시간으로 사용하는 글자를 구워주는 기능을 내장하게 되었습니다.\n1. 이러면 단점으로 원본 TTF 파일을 빌드에 같이 포함해야합니다.\n     (용량이 커지겠죠)\n2. 새로운 글자를 사용하려고 할때 빌드를 해야하니 느려지겠죠\n하지만 요즘 컴퓨터는 워낙 빠르기 때문에 이런건 일도 아닙니다.\n저장 공간이나 메모리도 문제가 안될 수준으로 커졌습니다.\n2012년 모바일 환경에서는 상항한 압박이 있었습니다.\n게임은 200mb 미만이어야했고 스맛폰의 메모리는 1gb 가 안되었던 시절입니다.\n그래서 옛날엔 불편하게 게임을 만들었다 정도로 생각해두시고\n요즘은 의미 없다 편하게 쓰자 ...",
@@ -161,74 +142,99 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "imageUrl": "",
-    "title": "2025 보드게임 페스타 구매게임들",
-    "description": "아내가 페스타 기간에 만삭이라 원래 참석 페스타에 가려고 하지 않았는데 예정일 보다 무려 3주나 빠르게 출산하여 병원 입원을 마치고 조리원으로 입소하는 날 페스타 시작날이었다. 원래 매번 와이프와 함께 갔었는데 못가서 아쉬워하고 있었더니 와이프가 다녀오라고 입장권까지 구매해 주어 다녀올 수 있었다. 병원 퇴원후 조리원에 자리가 없어 집에 하루 다녀와야 됬었는데 아침에 조리원에 데려다 주고 수속을 마치고 났더니 2시쯤에서야 출발 할 수 있었다. 비도 오고 해서 차도없는 나는 전철을 타고 와야하는데 우산까지 들고 무거운 게임을 살 수는 없었는데 다행히 세티는 지인이 미리 구매해서 옮겨주고 행복한 바오밥에선 택배배.......",
+    "title": "신용대출과 마이너스 통장, 내게 맞는 대출은?",
+    "description": "꼼꼼히 따져보고 나에게 딱 맞는 대출을 선택하세요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/223827662465?fromRss=true&trackingCode=rss",
-    "pubDate": "Wed, 09 Apr 2025 18:27:14 +0900",
-    "creator": "dlehddus84",
+    "link": "https://blog.toss.im/article/tossmoment-6",
+    "pubDate": "Tue, 08 Apr 2025 04:59:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Update on Context Parameters",
+    "description": "Context parameters are an upcoming feature in Kotlin, with a variety of use cases including more powerful extension methods and better tools for DSL development. Kotlin 2.2.0 will feature context parameters in Beta, and dedicated IntelliJ IDEA support will be available from 2025.1. Context parameters replace another experimental feature in the language, namely context receivers. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/04/update-on-context-parameters/",
+    "pubDate": "Thu, 10 Apr 2025 15:28:12 +0000",
+    "creator": "Alejandro Serrano Mena",
     "categories": [
-      "정보/구매"
+      "news",
+      "language-evolution",
+      "roadmap"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "New Bug-Fix Releases Are Available – MPS 2024.3.2 and MPS 2024.1.3",
-    "description": "We’ve released updates for MPS 2024.1 and MPS 2024.3 that fix several additional issues. Check them out and see what you think. DOWNLOAD MPS 2024.3.2 Download MPS 2024.3.2 here. See the full list of fixed issues here. Download MPS 2024.1.3 here. See the full list of fixed issues here. Your JetBrains MPS team",
+    "title": "박나래 라디오 불참 이유&hellip;수천만 원 금품 도난 사건 발생",
+    "description": "최근 박나래 씨가 라디오 스케줄에 갑작스럽게 불참한 이유가 밝혀져 많은 팬들의 안타까움을 사고 있습니다.\n언론 보도에 따르면, 박나래 씨는 지난 6일 서울 용산구 자택에서 수천만 원 상당의 금품 도난 사건을 당한 것으로 확인되었습니다. 해당 사건으로 인해 정신적 충격을 받은 상태이며, 현재 경찰에 신고해 수사가 진행 중이라고 합니다.\n\n  관련 기사: 박나래, 라디오 불참 알고보니…자택서 수천만원 금품 도둑 맞았다 (중앙일보)\n\n ️ 박나래의 프로페셔널함, 그리고 인간적인 면모\n항상 방송에서 밝은 에너지로 시청자에게 웃음을 전해온 박나래 씨. 평소 스케줄에 철저한 성격으로 알려진 그녀가 라디오에 불참했을 때, 팬들은 단순한 컨디션 문제일 거라 생각했는데요. 이번 사건이 알려지면서, 많은 이들이 그녀가 얼마나 큰 충격을 받았을지를 공감하고 있습니다.\n  도난 사건, 단순한 절도가 아니다?\n이번 사건은 단순한 절도 이상의 의미를 지닌다는 점에서 주목받고 있습니다. 연예인을 겨냥한 범죄일 가능성도 배제할 수 없으며, 그만큼 유명인의 사생활 보호와 안전 관리의 중요성이 다시금 제기되고 있습니다.\n  연예인도 ‘일반인’입니다\n이번 사건을 통해 다시 한 번 느끼는 점은, 연예인 역시 우리와 같은 '사람'이라는 사실입니다. 화려한 무대 뒤에는 일상을 살아가는 평범한 모습이 있고, 누구보다 상처받기 쉬운 감정도 있다는 것을 우리는 잊지 말아야 합니다.\n ️ 박나래 씨를 응원합니다\n방송가와 팬들 사이에서는 박나래 씨의 빠른 회복을 바라는 응원의 메시지가 이어지고 있습니다. 이번 일을 계기로 더 단단해진 모습으로 돌아오시길 진심으로 바랍니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/mps/2025/04/mps-2024-3-2-has-been-released/",
-    "pubDate": "Thu, 10 Apr 2025 11:40:14 +0000",
-    "creator": "Vaclav Pech",
+    "link": "http://app-developer.tistory.com/entry/%EB%B0%95%EB%82%98%EB%9E%98-%EB%9D%BC%EB%94%94%EC%98%A4-%EB%B6%88%EC%B0%B8-%EC%9D%B4%EC%9C%A0%E2%80%A6%EC%88%98%EC%B2%9C%EB%A7%8C-%EC%9B%90-%EA%B8%88%ED%92%88-%EB%8F%84%EB%82%9C-%EC%82%AC%EA%B1%B4-%EB%B0%9C%EC%83%9D",
+    "pubDate": "Tue, 8 Apr 2025 22:44:08 +0900",
+    "creator": "흰끼끼",
     "categories": [
-      "releases"
+      "라디오스타",
+      "박나래",
+      "박나래 금품 도난",
+      "박나래 라디오",
+      "박나래 절도",
+      "박나래 집",
+      "스타 사건사고",
+      "연예계 이슈",
+      "연예인 도난 사건",
+      "연예인 사생활"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "eBay Reduces the Time to List on Mobile With New Simplified Selling Tool, Now Featuring Magical Listing AI Technology",
-    "description": "Introducing an easier, more streamlined experience that makes listing creation faster and more effortless for sellers in the U.S. and U.K.",
+    "title": "IntelliJ IDEA 2025.1 Release Candidate Is Out! ",
+    "description": "IntelliJ IDEA 2025.1 Release Candidate is available for download, so we’re one step away from the major release! You can get the latest build from our website, through the free Toolbox App, or via snaps for Ubuntu. To use this build, an active subscription to IntelliJ IDEA Ultimate is required. Download IntelliJ IDEA 2025.1 RC […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://innovation.ebayinc.com/stories/ebay-reduces-the-time-to-list-on-mobile-with-new-simplified-selling-tool-now-featuring-magical-listing-ai-technology/",
-    "pubDate": "Wed, 09 Apr 2025 00:00:00 -0700",
-    "creator": "eBay News Team",
+    "link": "https://blog.jetbrains.com/idea/2025/04/intellij-idea-2025-1-rc/",
+    "pubDate": "Tue, 08 Apr 2025 18:31:31 +0000",
+    "creator": "Maria Kosukhina",
     "categories": [
-      "article"
+      "eap",
+      "2025-1",
+      "intellij-idea-2025-1",
+      "intellij-idea-2025-1-eap"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "루틴이 있었던 시절",
-    "description": "네이버는 만 1년을 다녔습니다. 짧은 기간이긴 합니다만 한 번도 지각을 하지 않았습니다.\n신기한 일이긴 했습니다. 지각도 잦고 오전 반차로 대부분의 휴가를 탕진해버리는 저의 다른 회사 시절과는 분명히 달랐으니까요.\n어떻게 이럴 수 있었을까?\n반드시! 타야만 했습니다.\n돌아보면 이때가 참 좋았습니다. 강제적인 루틴이 설정되었습니다.\n아침 8시 45분까지 신림역에 도착해서 셔틀버스를 탄다.\n셔틀버스 안에서 프로그래밍 책을 읽는다.\n9시 40분에 그린팩토리 앞에서 내린다.\n아침 간식을 먹고 커피를 마시며 일을 시작한다.\n12시에 구내식당에서 점심을 먹는다.\n열심히 일을 한다.\n19시 정각이 되면 구내식당에 내려가서 저녁을 후다닥 먹는다.\n19시 40분에 출발하는 셔틀버스를 탄다.\n21시쯤 집에 돌아와서 운동을 하고 샤워를 한다.\n프로그래밍 책을 읽는다.\n0시경 잠이 든다.\n지금 다시 생각해 봐도 너무 깨끗한 루틴입니다.\n이 좋았던 루틴은 서현역의 퍼스트타워로 강제 이주 당하며 곧 깨져버렸습니다. (그리고 저는 곧 그만두었습니다)\n1인 개발자로의 삶은 매우 만족스럽지만… 이런 루틴을 만들기가 어렵습니다.\n네이버에 다닐 때의 루틴은 지금 생각해도 그립습니다.\n\n함께 읽으면 좋은 글:\n지각하지 않던 사람들\n그린팩토리는 우리나라 최고의 오피스\n어차피 같은 회산데 뭘 그래",
+    "title": "What’s New in vcpkg (March 2025)",
+    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.03.19 registry release, 2025-03-13 tool release, as well as changes to vcpkg documentation throughout March. This release includes two new commands for our continuous integration system PR reviews, minor bugfixes, a new documentation article on authenticating to NuGet feeds, and a […]\nThe post What’s New in vcpkg (March 2025) appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/04/08/design-routine.html",
-    "pubDate": "2025-04-08T07:03:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-march-2025/",
+    "pubDate": "Tue, 08 Apr 2025 18:05:06 +0000",
+    "creator": "Augustin Popa",
+    "categories": [
+      "C++",
+      "Vcpkg",
+      "vcpkg"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "유니티 애셋 MudBun 구경해보자 / Boing Kit 개발자",
-    "description": "동영ㅇ상으로 봐야 이해가될텐데\n이 스샷은 큐브에서 구체를 뺀 화면입니다.\nMudBun 은 두가지  오브젝트를 조합해 효과를 만들어주는 애셋인거 같습니다.\n영상을 봣는데 신기한 표현들이 많았습니다.\n나중에 써먹을데가 있을지 모르겠습니다.\n \n홍보영상: MudBun: Volumetric VFX Mesh Tool for Unity\n\n\n\n \n\n\nUFO 버니도 나오는군요 Boing Kit  개발자였네요 \n아래쪽에 먼지같은걸 MudBun 으로 표현한것입니다.\n \n개발 설명 영상: https://www.youtube.com/watch?v=s5Qrap0EW3M\n\n\n\n \nBoing Kit 도 흥미로운 애셋이니 봐두세요\n \n보잉 킷 홍보 영상: https://www.youtube.com/watch?v=bcpFaRJmDS8&embeds_referring_euri=https%3A%2F%2Fassetstore.unity.com%2F&embeds_referring_origin=https%3A%2F%2Fassetstore.unity.com&source_ve_path=MjM4NTE\n\n\n\n물체를 뽀잉뽀잉 하게 표시해줍니다.",
+    "title": "DeepSeek-R1 로컬 실행 시 추천 모델(증류 모델)",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1259",
-    "pubDate": "Sat, 12 Apr 2025 17:23:52 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "Boing",
-      "mudbun",
-      "유니티"
-    ]
+    "link": "https://jacking75.github.io/ai-llm_20250414/",
+    "pubDate": "Mon, 14 Apr 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
