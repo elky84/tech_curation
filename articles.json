@@ -2,130 +2,92 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "블루베리 효능 총정리: 노화 방지에 탁월한 이유 5가지",
-    "description": "현대인의 건강식으로 각광받고 있는 블루베리, 그냥 맛있는 과일일 뿐이라고 생각하셨다면 오산입니다. 특히 노화를 늦추는 항산화 식품으로 블루베리는 수많은 연구에서 그 효과가 입증되고 있는데요. 이번 글에서는 블루베리가 왜 노화 방지에 탁월한지, 그 이유 5가지를 집중적으로 알아보겠습니다.\n1. 강력한 항산화 성분, 안토시아닌의 힘\n블루베리는 안토시아닌(Anthocyanin)이라는 강력한 항산화 성분이 풍부하게 들어 있습니다.\n이 성분은 활성산소로부터 세포를 보호하여 세포 노화를 늦추는 효과를 합니다.\n피부 탄력, 주름 개선, 면역력 강화에도 큰 도움을 줍니다.\n2. 뇌 기능 보호 및 인지 능력 향상\n노화의 대표적인 증상 중 하나는 기억력 저하와 같은 뇌 기능 감소입니다.\n블루베리 섭취는 신경세포 손상을 줄이고, 뇌 신호 전달을 촉진하여\n인지 능력 향상 및 치매 예방 효과까지 기대할 수 있습니다.\n3. 심혈관 건강 개선으로 노화 예방\n나이가 들수록 혈관 건강은 더 중요해지죠.\n블루베리는 혈관을 깨끗하게 유지하고, 혈압과 콜레스테롤 수치를 낮추는 데 도움을 줍니다.\n이로 인해 심혈관 질환 예방은 물론, 신체 전체의 노화 속도도 늦출 수 있습니다.\n4. 면역력 강화로 각종 질병 예방\n노화가 진행되면 면역 시스템이 약화되기 쉽습니다.\n블루베리 속 비타민 C, K, 망간 등의 영양소는 면역 기능을 강화해\n감기나 바이러스, 염증성 질환 등 각종 질병으로부터 몸을 보호해 줍니다.\n5. 피부 건강 개선과 안티에이징 효과\n블루베리는 피부 트러블 개선과 피부 톤 개선에도 효과적입니다.\n항산화 작용으로 인해 피부의 노화 원인인 산화 스트레스와 자외선 손상을 줄여주며,\n피부에 생기와 탄력을 더해주는 데 도움을 줍니다.\n✅ 결론\n블루베리는 단순한 과일이 아니라, 노화 방지를 위한 자연의 선물입니다.\n매일 소량이라도 꾸준히 섭취한다면, 건강은 물론 젊음까지 지킬 수 있는 최고의 슈퍼푸드죠.\n오늘부터 식단에 블루베리를 더해보는 건 어떠세요?\n\n  팁: 신선한 블루베리뿐만 아니라, 냉동 블루베리나 블루베리 파우더도 동일한 효능을 기대할 수 있어요!",
+    "title": "Busy Plugin Developers Newsletter – Q1 2025",
+    "description": "⭐️ Marketplace updates Option to Cancel Continuity Discounts JetBrains Marketplace now allows plugin authors to cancel continuity discounts for paid plugins. This can be done easily from the Sales tab, with the option to set a specific end date. Customers with active subscriptions for existing plugins will still benefit from the discount, while for new […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC-%ED%9A%A8%EB%8A%A5-%EC%B4%9D%EC%A0%95%EB%A6%AC-%EB%85%B8%ED%99%94-%EB%B0%A9%EC%A7%80%EC%97%90-%ED%83%81%EC%9B%94%ED%95%9C-%EC%9D%B4%EC%9C%A0-5%EA%B0%80%EC%A7%80",
-    "pubDate": "Sun, 13 Apr 2025 20:44:48 +0900",
-    "creator": "흰끼끼",
+    "link": "https://blog.jetbrains.com/platform/2025/04/busy-plugin-developers-newsletter-q1-2025/",
+    "pubDate": "Mon, 14 Apr 2025 16:56:18 +0000",
+    "creator": "Elena Kerpeleva",
     "categories": [
-      "건강/노화 및 웰에이징"
+      "marketplace",
+      "news",
+      "newsletters",
+      "busy-plugin-developers"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "The Story Behind K2 Mode and How It Works",
-    "description": "I’m Yan Zhulanow, and I lead the Kotlin Analysis API team. Last year, we made a series of announcements about Kotlin K2 mode in IntelliJ IDEA. Now, as K2 mode is about to become the default, I am thrilled to tell you more about everything we had to go through to make this release happen. […]",
+    "title": "[NS] 더욱 완성되어 돌아온 미지로의 경험, 제노블레이드 크로스 DE",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/the-story-behind-k2-mode-and-how-it-works/",
-    "pubDate": "Mon, 14 Apr 2025 13:32:31 +0000",
-    "creator": "Yan Zhulanow",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2296",
+    "pubDate": "Fri, 11 Apr 2025 17:30:38 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "eap",
-      "kotlin",
-      "releases",
-      "intellij-idea",
-      "k2-mode"
+      "리뷰"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "C# Language Support in ReSharper and Rider 2025.1",
-    "description": "Our release for ReSharper and Rider 2025.1 is just around the corner, and we have lots of exciting features shipping for the current and next version of C#! This will be a really long post (blame our awesome devs!), so make sure to use the table of contents on the right. Oh, and of course… […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/04/10/csharp-language-support-in-resharper-and-rider-2025-1/",
-    "pubDate": "Thu, 10 Apr 2025 16:51:03 +0000",
-    "creator": "Matthias Koch",
-    "categories": [
-      "net-tools",
-      "how-tos",
-      "net",
-      "c",
-      "formatting",
-      "generation-and-templates",
-      "inspections",
-      "quick-fixes"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "ChatGPT에게 저장소의 내용을 이해하도록 Markdown 파일을 출력하는 스크립트를 만들어 보았다",
+    "title": "Visual Studio의 새로운 생산성 기능",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/ai-llm_20250411/",
-    "pubDate": "Fri, 11 Apr 2025 00:00:00 +0900",
+    "link": "https://jacking75.github.io/VS_20250416/",
+    "pubDate": "Wed, 16 Apr 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 5,
+    "id": 4,
     "imageUrl": "",
-    "title": "Splunk의 Join - 5th",
-    "description": "inner join.\n\n\n\n\nleft join.\n\n\n\n교집합 제외한 left join.\n\n\nfull join.\n\n\n\n\n\n교집합 제외한 full join.\n\n\n\n\n관련 글\n\n\nSplunk의 Join - 4th\nSplunk의 Join\nSplunk의 lookup\n엘라스틱의 Join",
+    "title": "Update on Context Parameters",
+    "description": "Context parameters are an upcoming feature in Kotlin, with a variety of use cases including more powerful extension methods and better tools for DSL development. Kotlin 2.2.0 will feature context parameters in Beta, and dedicated IntelliJ IDEA support will be available from 2025.1. Context parameters replace another experimental feature in the language, namely context receivers. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/04/splunk-join-5th.html",
-    "pubDate": "2025-04-13T02:57:00.000Z",
+    "link": "https://blog.jetbrains.com/kotlin/2025/04/update-on-context-parameters/",
+    "pubDate": "Thu, 10 Apr 2025 15:28:12 +0000",
+    "creator": "Alejandro Serrano Mena",
+    "categories": [
+      "news",
+      "language-evolution",
+      "roadmap"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Gemini 기반 MCP 서버 및 클라이언트 개발해 보기 ",
+    "description": "이 글은 Gemini 기반 MCP 서버 및 클라이언트를 개발하는 방법을 간략히 보여준다.\n\n\n\nMCP 기반 멀티 AI 에이전트 아키텍처 개념도\n\nMCP의 개념과 상세한 동작 방식은 다음 글을 참고한다.\n\n\n개요\nMCP는 클라이언트-서버 구조를 따른다. 클라이언트는 서버의 MCP 도구를 사용하는 AI 앱이나 LLM을 의미한다. 서버는 MCP 도구를 공급하고, API, 데이터소스 인터페이스를 제공한다. \n\n\nMCP를 통해 LLM이 해결하지 못하는 작업은 외부 시스템과 연결해 서비스 받을 수 있다.\n\n\nMCP서버는 파일 시스템 조작, 웹 검색, 데이터베이스 조작, 버전 관리 등 다양한 도구를 제공할 수 있다. \n\n\n제미니 LLM 기반 MCP 구조\n다음은 제미니 LLM 기반 MCP 구조 예시를 보여준다. 이 예는 비행기 예약 유스케이스를 구현한다.\n\n\n구조의 각 번호는 시퀀스 시나리오를 보여준다. 이 내용은 다음과 같다.\n\nMCP 호스트가 사용자 명령 입력. 예) 내일 인천에서 애틀란타 가는 비행편 찾기\n\n클라이언트 스크립트가 입력을 처리(CLIENT.PY)\n\n클라이언트가 MCP 서버 프로세스 시작(MCP-FLIGHT-SEARCH). STDIO 통신 채널 연결 및 관련 도구 검색\n클라이언트가 사용자 명령에 대한 함수 호출 방법을 수신함\n클라리언트가 함수 호출 방법에 대한 정확한 함수 호출 형식을 GEMINI에서 획득. 함수 호출 형식에 부합하는 적절한 MCP 도구를 서버에 호출. 서버의 도구 함수 호출 결과를 리턴\nMCP 서버가 구글 항공편 검색을 위한 SerpAPI를 호출. 구글 항공편 데이터 질의.\n구글 항공편 정보 리턴\n서버에서 클라이언트로 해당 정보 리턴\n클라이언트가 호스로 해당 정보 전달\n\n개발 환경\n개발을 위한 최소한의 환경은 파이썬 3.8+이다. 이외 다음을 준비한다.\n\nGoogle Cloud 에서 Project 생성\n\n\n\nGoogle Gemini API 키 획득\n\n\n\nSerpAPI 키 획득\n\n\n\n다음 종속성을 터미널에서 설치한다. google-genai는 google 생성AI 라이브러리이며, mcp는 MCP 서버 통신을 위한 파이썬 SDK이다. \npip install google-genai mcp\n\n\n환경변수를 설정한다. \n\nexport GEMINI_API_KEY=\"your-google-api-key\"\nexport SERP_API_KEY=\"your-serpapi-key\"\n\n\n항공편 검색 MCP 서버 설치\nMCP 프로토콜 공개 이후로 많은 MCP 서버가 개발되었다. 우리는 항공편 검색 MCP 서버 오픈소스인 mcp-flgiht-search 를 사용한다. 다음을 설치한다.\n\npip install mcp-flight-search\n\n\n코딩해보기\n다음과 같이 client.py를 코딩한다. \n\nimport os, sys, time, asyncio\nfrom google import genai\nfrom google.genai import types\nfrom mcp import ClientSession, StdioServerParameters\nfrom mcp.client.stdio import stdio_client\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\ngemini_api_key = os.getenv(\"GEMINI_API_KEY\")\nserp_api_key = os.getenv(\"SERP_API_KEY\")\n\nclient = genai.Client(api_key=gemini_api_key)\n\nserver_params = StdioServerParameters(\n    command=\"mcp-flight-search\",\n    args=[\"--connection_type\", \"stdio\"],\n    env={\"SERP_API_KEY\": serp_api_key},\n)\n\nasync def run():\n    async with stdio_client(server_params) as (read, write):  # 항공 예약 검색 도구 등록\n        async with ClientSession(read, write) as session:\n            prompt = f\"Find Flights from Atlanta to Las Vegas 2025-08-15\"  # 사용자 질의 명령\n            await session.initialize()\n\n            mcp_tools = await session.list_tools()  # 도구 리스트 획득\n            tools = [\n                types.Tool(\n                    function_declarations=[\n                        {\n                            \"name\": tool.name,\n                            \"description\": tool.description,\n                            \"parameters\": {\n                                k: v\n                                for k, v in tool.inputSchema.items()\n                                if k not in [\"additionalProperties\", \"$schema\"]\n                            },\n                        }\n                    ]  # 해당 도구 함수 선언 생성\n                )\n                for tool in mcp_tools.tools\n            ]\n\n            response = client.models.generate_content(\n                model=\"gemini-2.5-pro-exp-03-25\",\n                contents=prompt,\n                config=types.GenerateContentConfig(\n                    temperature=0,\n                    tools=tools,\n                ),  # LLM 모델에 프롬프트 전달.\n            )\n\n            if response.candidates[0].content.parts[0].function_call:\n                function_call = response.candidates[0].content.parts[0].function_call # 함수호출정보\n\n                result = await session.call_tool(\n                    function_call.name, arguments=dict(function_call.args)\n                )  # 도구 함수 호출\n\n                print(\"--- Formatted Result ---\") # Add header for clarity\n                try:\n                    flight_data = json.loads(result.content[0].text)\n                    print(json.dumps(flight_data, indent=2))\n                except json.JSONDecodeError:\n                    print(\"MCP server returned non-JSON response:\")\n                    print(result.content[0].text)\n                except (IndexError, AttributeError):\n                     print(\"Unexpected result structure from MCP server:\")\n                     print(result)\n            else:\n                print(\"No function call was generated by the model.\")\n                if response.text:\n                     print(\"Model response:\")\n                     print(response.text)\n\nasyncio.run(run()) # 클라이언트 실행\n\n\n\n실행한다. 그럼 프롬프트에 대해 LLM이 적절한 도구와 파라메터를 확인해 함수 호출 정보를 생성한다. 이를 call_tool로 호출한 결과가 표시된다 \n\n\n레퍼런스\n\nIntroducing Graphite — An Event Driven AI Agent Framework | by Craig Li, Ph.D | Binome | Apr, 2025 | Medium\nModel Context Protocol(MCP) with Google Gemini 2.5 Pro - Deep Dive , Google Cloud Gen AI | Google Cloud - Community\nModel Context Protocol (MCP) with Gemini 2.5 Pro. Convert conversational queries into flight searches using Gemini's function calling capabilities and MCP's flight search tools",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/04/gemini-mcp.html",
+    "pubDate": "2025-04-13T00:58:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Markdown in Java Docs? Shut Up and Take My Comments!",
-    "description": "Imagine you’re building a cutting-edge Java library, optimizing every method, and writing the most efficient algorithms. At some point, you’ll need to document your code because well-documented code increases adoption (a fact backed by various surveys). Including documentation comments within a Java class ensures that the documentation evolves with the code, keeping it relevant. Using […]",
+    "title": "K2 Mode in IntelliJ IDEA 2025.1: Current State and FAQ",
+    "description": "Starting with IntelliJ IDEA 2025.1, K2 mode, a new implementation of Kotlin support, will be enabled by default. This change is an important step in the ongoing effort to improve Kotlin support in the IDE.  While this transition brings many improvements and lays the foundation for a smoother, more reliable experience in the future, it’s […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/markdown-in-java-docs-shut-up-and-take-my-comments/",
-    "pubDate": "Thu, 10 Apr 2025 07:43:53 +0000",
-    "creator": "Mala Gupta",
+    "link": "https://blog.jetbrains.com/idea/2025/04/k2-mode-in-intellij-idea-2025-1-current-state-and-faq/",
+    "pubDate": "Tue, 15 Apr 2025 14:07:29 +0000",
+    "creator": "Teodor Irkhin",
     "categories": [
-      "idea",
-      "java",
-      "tutorials",
-      "intellij-idea",
-      "markdown"
+      "news",
+      "releases",
+      "k2-mode"
     ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "런치랩",
-    "description": "*이 글은 우리 투자사의 홍보성 내용을 포함합니다. 관심 없거나, 이런 홍보성 내용이 싫으면 그냥 안 읽으면 됩니다. 우리 사무실이 위치한 삼성역엔 식당이 엄청 많다. 점심을 항상 밖에 나가서 먹진 않지만, 나가서 먹는다면 도보로 갈 수 있는 식당이 1,500개는 충분히 되지 않을까 싶다. 여기에다가 배달 음식까지 포함하면, 식당과 메뉴의 선택지는 정말 많아진다. 그런데도 나를 포함한, 삼성역에서(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/04/order-your-company-lunch-with-lunchlab.html",
-    "pubDate": "Wed, 09 Apr 2025 21:36:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "B2B",
-      "f&b",
-      "korea",
-      "Strong"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "루틴이 있었던 시절",
-    "description": "네이버는 만 1년을 다녔습니다. 짧은 기간이긴 합니다만 한 번도 지각을 하지 않았습니다.\n신기한 일이긴 했습니다. 지각도 잦고 오전 반차로 대부분의 휴가를 탕진해버리는 저의 다른 회사 시절과는 분명히 달랐으니까요.\n어떻게 이럴 수 있었을까?\n반드시! 타야만 했습니다.\n돌아보면 이때가 참 좋았습니다. 강제적인 루틴이 설정되었습니다.\n아침 8시 45분까지 신림역에 도착해서 셔틀버스를 탄다.\n셔틀버스 안에서 프로그래밍 책을 읽는다.\n9시 40분에 그린팩토리 앞에서 내린다.\n아침 간식을 먹고 커피를 마시며 일을 시작한다.\n12시에 구내식당에서 점심을 먹는다.\n열심히 일을 한다.\n19시 정각이 되면 구내식당에 내려가서 저녁을 후다닥 먹는다.\n19시 40분에 출발하는 셔틀버스를 탄다.\n21시쯤 집에 돌아와서 운동을 하고 샤워를 한다.\n프로그래밍 책을 읽는다.\n0시경 잠이 든다.\n지금 다시 생각해 봐도 너무 깨끗한 루틴입니다.\n이 좋았던 루틴은 서현역의 퍼스트타워로 강제 이주 당하며 곧 깨져버렸습니다. (그리고 저는 곧 그만두었습니다)\n1인 개발자로의 삶은 매우 만족스럽지만… 이런 루틴을 만들기가 어렵습니다.\n네이버에 다닐 때의 루틴은 지금 생각해도 그립습니다.\n\n함께 읽으면 좋은 글:\n지각하지 않던 사람들\n그린팩토리는 우리나라 최고의 오피스\n어차피 같은 회산데 뭘 그래",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/04/08/design-routine.html",
-    "pubDate": "2025-04-08T07:03:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "유니티에서 TextMeshPro 폰트를 dynamic 으로 설정하기 / Setting TextMeshPro font to dynamic in Unity",
     "description": "영상: https://www.youtube.com/watch?v=NY1xKqCIj3c\n\n\n\n \n영상에서는 dynamic 방식에대한 설명이 들어어있어서 매우 장황합니다.\n \n빠르게 설정 방법\n어차피 dynamic 을 설정하기위해서 이글을 보시는거기 때문에\n폰트로 폰트애셋을 굽습니다. (이건 하셨을듯)\n \n폰트애셋을 선택 합니다.\n\n\n제일아래 Aa 로된 아이콘은 TTF 폰트파일입니다. \n이걸 만지는게 아니고\n위에 F 로 되어있는 폰트애셋을 클릭합니다.\n \n인스팩터에서\n\n\nAtlas Population ~~ 보시면 static 으로 되어있을 것입니다.\ndynamic 으로 바꾸시면 구울때 없었던 본트도 실시간으로 생성됩니다.\n \n장황한 dynamic 방식에 대한 설명\n게임에 사용할 폰트를 미리 구워 사용하는 방식을 static 이라고 합니다.\n이 방식은 매우 빠르게 사용할 수 있으며 게임의 용량을 줄일 수 있습니다.\n하지만 사용할 새 글자가 추가되면 폰트 이미지를 다시 빌드해야합니다.\n(개 귀찮)\n그래서 실시간으로 사용하는 글자를 구워주는 기능을 내장하게 되었습니다.\n1. 이러면 단점으로 원본 TTF 파일을 빌드에 같이 포함해야합니다.\n     (용량이 커지겠죠)\n2. 새로운 글자를 사용하려고 할때 빌드를 해야하니 느려지겠죠\n하지만 요즘 컴퓨터는 워낙 빠르기 때문에 이런건 일도 아닙니다.\n저장 공간이나 메모리도 문제가 안될 수준으로 커졌습니다.\n2012년 모바일 환경에서는 상항한 압박이 있었습니다.\n게임은 200mb 미만이어야했고 스맛폰의 메모리는 1gb 가 안되었던 시절입니다.\n그래서 옛날엔 불편하게 게임을 만들었다 정도로 생각해두시고\n요즘은 의미 없다 편하게 쓰자 ...",
@@ -142,99 +104,129 @@
     ]
   },
   {
-    "id": 10,
+    "id": 8,
     "imageUrl": "",
-    "title": "신용대출과 마이너스 통장, 내게 맞는 대출은?",
-    "description": "꼼꼼히 따져보고 나에게 딱 맞는 대출을 선택하세요",
+    "title": "eBay Reduces the Time to List on Mobile With New Simplified Selling Tool, Now Featuring Magical Listing AI Technology",
+    "description": "Introducing an easier, more streamlined experience that makes listing creation faster and more effortless for sellers in the U.S. and U.K.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/tossmoment-6",
-    "pubDate": "Tue, 08 Apr 2025 04:59:00 GMT",
+    "link": "https://innovation.ebayinc.com/stories/ebay-reduces-the-time-to-list-on-mobile-with-new-simplified-selling-tool-now-featuring-magical-listing-ai-technology/",
+    "pubDate": "Wed, 09 Apr 2025 00:00:00 -0700",
+    "creator": "eBay News Team",
+    "categories": [
+      "article"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "유니티 6 웹 용량 줄이기에 대한 설명 / unity web",
+    "description": "영상: https://youtu.be/eCTKiBVUdRM?t=386\n\n\n\n영상 요약\n6분 30초 부터 나오구요\nbr 악춤 외도 여러가지가 있군요\n그리고 이제webgl 대신 웹 이라고 부르기로 했다고 하네요\n그래서 유니티 웹 이 되겠습니다.\nUnity Play 에 올릴 것을 권장하네요\n \n용어의 통일\nUnity 6 부터는 webgl 을 Unity Web 으로 부르기로 했다고 합니다.\nWebGL HTML5 WebGPU 등 계속해서 신기술이 개발되어 새로운 용어가 생겨나기 때문에 용어를 통일한다고 하네요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1261",
+    "pubDate": "Mon, 14 Apr 2025 01:48:19 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "직장인의 부업소득, 종합소득세 신고 대상일까요?",
+    "description": "부업을 한다면 꼭 알아야 할 세금 상식",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/tossmoment-7",
+    "pubDate": "Fri, 11 Apr 2025 04:21:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "Update on Context Parameters",
-    "description": "Context parameters are an upcoming feature in Kotlin, with a variety of use cases including more powerful extension methods and better tools for DSL development. Kotlin 2.2.0 will feature context parameters in Beta, and dedicated IntelliJ IDEA support will be available from 2025.1. Context parameters replace another experimental feature in the language, namely context receivers. […]",
+    "title": "How To Increase Code Quality in GitHub With Qodana",
+    "description": "A year ago we shared a post on how to integrate Qodana with Github Actions on the .NET Community – but a lot has changed since then. Qodana self-hosted has been released, with analysis that can make your code more secure by detecting hardcoded passwords and running taint analysis for JVM. The new Android Linter […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/04/update-on-context-parameters/",
-    "pubDate": "Thu, 10 Apr 2025 15:28:12 +0000",
-    "creator": "Alejandro Serrano Mena",
+    "link": "https://blog.jetbrains.com/qodana/2025/04/code-quality-in-github/",
+    "pubDate": "Thu, 10 Apr 2025 17:37:29 +0000",
+    "creator": "Kerry Beetge",
     "categories": [
-      "news",
-      "language-evolution",
-      "roadmap"
+      "code-review",
+      "tutorials",
+      "github",
+      "qodana"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "박나래 라디오 불참 이유&hellip;수천만 원 금품 도난 사건 발생",
-    "description": "최근 박나래 씨가 라디오 스케줄에 갑작스럽게 불참한 이유가 밝혀져 많은 팬들의 안타까움을 사고 있습니다.\n언론 보도에 따르면, 박나래 씨는 지난 6일 서울 용산구 자택에서 수천만 원 상당의 금품 도난 사건을 당한 것으로 확인되었습니다. 해당 사건으로 인해 정신적 충격을 받은 상태이며, 현재 경찰에 신고해 수사가 진행 중이라고 합니다.\n\n  관련 기사: 박나래, 라디오 불참 알고보니…자택서 수천만원 금품 도둑 맞았다 (중앙일보)\n\n ️ 박나래의 프로페셔널함, 그리고 인간적인 면모\n항상 방송에서 밝은 에너지로 시청자에게 웃음을 전해온 박나래 씨. 평소 스케줄에 철저한 성격으로 알려진 그녀가 라디오에 불참했을 때, 팬들은 단순한 컨디션 문제일 거라 생각했는데요. 이번 사건이 알려지면서, 많은 이들이 그녀가 얼마나 큰 충격을 받았을지를 공감하고 있습니다.\n  도난 사건, 단순한 절도가 아니다?\n이번 사건은 단순한 절도 이상의 의미를 지닌다는 점에서 주목받고 있습니다. 연예인을 겨냥한 범죄일 가능성도 배제할 수 없으며, 그만큼 유명인의 사생활 보호와 안전 관리의 중요성이 다시금 제기되고 있습니다.\n  연예인도 ‘일반인’입니다\n이번 사건을 통해 다시 한 번 느끼는 점은, 연예인 역시 우리와 같은 '사람'이라는 사실입니다. 화려한 무대 뒤에는 일상을 살아가는 평범한 모습이 있고, 누구보다 상처받기 쉬운 감정도 있다는 것을 우리는 잊지 말아야 합니다.\n ️ 박나래 씨를 응원합니다\n방송가와 팬들 사이에서는 박나래 씨의 빠른 회복을 바라는 응원의 메시지가 이어지고 있습니다. 이번 일을 계기로 더 단단해진 모습으로 돌아오시길 진심으로 바랍니다.",
+    "title": "What’s New in Bazel Plugin 2025.1",
+    "description": "We’re excited to tell you about all the changes we’ve made in recent months to improve the Bazel plugin experience in IntelliJ IDEA. Every couple of weeks, we’ve been shipping updates to JetBrains Marketplace with focused fixes and features. Over time, these smaller updates have amounted to substantial enhancements. Most updates are included in the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EB%B0%95%EB%82%98%EB%9E%98-%EB%9D%BC%EB%94%94%EC%98%A4-%EB%B6%88%EC%B0%B8-%EC%9D%B4%EC%9C%A0%E2%80%A6%EC%88%98%EC%B2%9C%EB%A7%8C-%EC%9B%90-%EA%B8%88%ED%92%88-%EB%8F%84%EB%82%9C-%EC%82%AC%EA%B1%B4-%EB%B0%9C%EC%83%9D",
-    "pubDate": "Tue, 8 Apr 2025 22:44:08 +0900",
-    "creator": "흰끼끼",
+    "link": "https://blog.jetbrains.com/idea/2025/04/what-s-new-in-bazel-plugin-2025-1/",
+    "pubDate": "Tue, 15 Apr 2025 13:12:01 +0000",
+    "creator": "Justin Kaeser",
     "categories": [
-      "라디오스타",
-      "박나래",
-      "박나래 금품 도난",
-      "박나래 라디오",
-      "박나래 절도",
-      "박나래 집",
-      "스타 사건사고",
-      "연예계 이슈",
-      "연예인 도난 사건",
-      "연예인 사생활"
+      "build-system",
+      "intellij",
+      "idea",
+      "releases",
+      "bazel",
+      "build",
+      "build-tools",
+      "intellij-idea",
+      "java",
+      "kotlin",
+      "plugin",
+      "python",
+      "scala",
+      "starlark"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.1 Release Candidate Is Out! ",
-    "description": "IntelliJ IDEA 2025.1 Release Candidate is available for download, so we’re one step away from the major release! You can get the latest build from our website, through the free Toolbox App, or via snaps for Ubuntu. To use this build, an active subscription to IntelliJ IDEA Ultimate is required. Download IntelliJ IDEA 2025.1 RC […]",
+    "title": "Splunk의 Join - 5th",
+    "description": "inner join.\n\n\n\n\nleft join.\n\n\n\n교집합 제외한 left join.\n\n\nfull join.\n\n\n\n\n\n교집합 제외한 full join.\n\n\n\n\n관련 글\n\n\nSplunk의 Join - 4th\nSplunk의 Join\nSplunk의 lookup\n엘라스틱의 Join",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/intellij-idea-2025-1-rc/",
-    "pubDate": "Tue, 08 Apr 2025 18:31:31 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": [
-      "eap",
-      "2025-1",
-      "intellij-idea-2025-1",
-      "intellij-idea-2025-1-eap"
-    ]
+    "link": "https://kangmyounghun.blogspot.com/2025/04/splunk-join-5th.html",
+    "pubDate": "2025-04-13T02:57:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "What’s New in vcpkg (March 2025)",
-    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.03.19 registry release, 2025-03-13 tool release, as well as changes to vcpkg documentation throughout March. This release includes two new commands for our continuous integration system PR reviews, minor bugfixes, a new documentation article on authenticating to NuGet feeds, and a […]\nThe post What’s New in vcpkg (March 2025) appeared first on C++ Team Blog.",
+    "title": "ChatGPT에게 저장소의 내용을 이해하도록 Markdown 파일을 출력하는 스크립트를 만들어 보았다",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-march-2025/",
-    "pubDate": "Tue, 08 Apr 2025 18:05:06 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
+    "link": "https://jacking75.github.io/ai-llm_20250411/",
+    "pubDate": "Fri, 11 Apr 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "DeepSeek-R1 로컬 실행 시 추천 모델(증류 모델)",
-    "description": "No description available",
+    "title": "Developer Ecosystem Survey 2025 – Help Shape the Future of Development",
+    "description": "Since 2017, we’ve been checking in with developers around the world to better understand how the industry is evolving and how we can build better tools to support you. Now, the Developer Ecosystem Survey 2025 is live, and we’d love for you to be part of it. This annual survey is a community milestone that […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/ai-llm_20250414/",
-    "pubDate": "Mon, 14 Apr 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/team/2025/04/10/developer-ecosystem-survey-2025-help-shape-the-future-of-development/",
+    "pubDate": "Thu, 10 Apr 2025 16:05:16 +0000",
+    "creator": "Anastassiya Sichkarenko",
+    "categories": [
+      "deveco",
+      "devecosystem",
+      "news",
+      "research",
+      "survey"
+    ]
   }
 ]
