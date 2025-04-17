@@ -2,92 +2,118 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Busy Plugin Developers Newsletter – Q1 2025",
-    "description": "⭐️ Marketplace updates Option to Cancel Continuity Discounts JetBrains Marketplace now allows plugin authors to cancel continuity discounts for paid plugins. This can be done easily from the Sales tab, with the option to set a specific end date. Customers with active subscriptions for existing plugins will still benefit from the discount, while for new […]",
+    "title": "IntelliJ Scala Plugin 2025.1 Is Out!",
+    "description": "Support for new features in Scala 3 Context Bounds and Givens Scala 3.6 introduced a new syntax for context bounds and givens. You can read more about it in SIP-64. In short, before Scala 3.6, it was impossible to name the context bound in the same place where it was defined. The way to do […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/04/busy-plugin-developers-newsletter-q1-2025/",
-    "pubDate": "Mon, 14 Apr 2025 16:56:18 +0000",
-    "creator": "Elena Kerpeleva",
+    "link": "https://blog.jetbrains.com/scala/2025/04/16/intellij-scala-plugin-2025-1-is-out/",
+    "pubDate": "Wed, 16 Apr 2025 13:05:20 +0000",
+    "creator": "Maciej Gorywoda",
     "categories": [
-      "marketplace",
       "news",
-      "newsletters",
-      "busy-plugin-developers"
+      "releases",
+      "scala",
+      "scala-programming",
+      "intellij-idea"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "[NS] 더욱 완성되어 돌아온 미지로의 경험, 제노블레이드 크로스 DE",
-    "description": "No description available",
+    "title": "GitHub Copilot Highlights in Visual Studio 17.14 Preview 3 (Available Now)",
+    "description": "Visual Studio 17.14 Preview 3 is now available! The GitHub Copilot experience in Visual Studio is continuously updated to provide the latest advancements in AI-assisted development. The following features and improvements have been recently released in Visual Studio version 17.14 Preview 3. (Remember, preview versions of Visual Studio can be run side by side with […]\nThe post GitHub Copilot Highlights in Visual Studio 17.14 Preview 3 (Available Now) appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2296",
-    "pubDate": "Fri, 11 Apr 2025 17:30:38 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://devblogs.microsoft.com/visualstudio/github-copilot-highlights-in-visual-studio-17-14-preview-3-available-now/",
+    "pubDate": "Wed, 16 Apr 2025 18:24:10 +0000",
+    "creator": "Katie Savage",
     "categories": [
-      "리뷰"
+      "Copilot",
+      "Visual Studio"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Visual Studio의 새로운 생산성 기능",
-    "description": "No description available",
+    "title": "node_modules/@google-cloud/storage/build/cjs/src/crc32c.d.ts:6:39 - error TS2315: Type 'Int32Array' is not generic. / Firebase Typescript 환경에서 ...",
+    "description": "문제: https://github.com/firebase/firebase-functions/issues/1664\n\n \nError TS2315: Type 'Int32Array' is not generic. · Issue #1664 · firebase/firebase-functions\nRelated issues None that I could find [REQUIRED] Version info \"firebase-admin\": \"^12.1.0\" \"firebase-functions\": \"^5.0.0\" node: v20.16.0 firebase-functions: 12.1.0 firebase-tools: 13.16.0 firebase-a...\ngithub.com\n\n \n\n\n \nyarn add -D typescript@latest\n타입스크립트 설치하라는군요\n저는 yarn 환경이 아니라\nnpm i  -D typescript@latest\n후에 \nnpm i \n쳐서 다시 설치하니 성공했습니다.\n이런 맛탱이간 개발한광은 적응이 안되네요\n왜이케 자주 바뀌는건지",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/VS_20250416/",
-    "pubDate": "Wed, 16 Apr 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://serverdown.tistory.com/1263",
+    "pubDate": "Wed, 16 Apr 2025 01:16:55 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "Firebase"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Update on Context Parameters",
-    "description": "Context parameters are an upcoming feature in Kotlin, with a variety of use cases including more powerful extension methods and better tools for DSL development. Kotlin 2.2.0 will feature context parameters in Beta, and dedicated IntelliJ IDEA support will be available from 2025.1. Context parameters replace another experimental feature in the language, namely context receivers. […]",
+    "title": "당신의 CPU는 열심히 일하고 있나요?",
+    "description": "들어가며안녕하세요. LINE+ Contents Service Engineering 조직에서 백엔드 개발 및 프런트엔드 개발을 담당하고 있는 문범우, 안현모입니다.저희 조직에서는 그...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/04/update-on-context-parameters/",
-    "pubDate": "Thu, 10 Apr 2025 15:28:12 +0000",
-    "creator": "Alejandro Serrano Mena",
-    "categories": [
-      "news",
-      "language-evolution",
-      "roadmap"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/efficiently-using-cpu-in-kubernetes",
+    "pubDate": "Fri, 11 Apr 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Gemini 기반 MCP 서버 및 클라이언트 개발해 보기 ",
-    "description": "이 글은 Gemini 기반 MCP 서버 및 클라이언트를 개발하는 방법을 간략히 보여준다.\n\n\n\nMCP 기반 멀티 AI 에이전트 아키텍처 개념도\n\nMCP의 개념과 상세한 동작 방식은 다음 글을 참고한다.\n\n\n개요\nMCP는 클라이언트-서버 구조를 따른다. 클라이언트는 서버의 MCP 도구를 사용하는 AI 앱이나 LLM을 의미한다. 서버는 MCP 도구를 공급하고, API, 데이터소스 인터페이스를 제공한다. \n\n\nMCP를 통해 LLM이 해결하지 못하는 작업은 외부 시스템과 연결해 서비스 받을 수 있다.\n\n\nMCP서버는 파일 시스템 조작, 웹 검색, 데이터베이스 조작, 버전 관리 등 다양한 도구를 제공할 수 있다. \n\n\n제미니 LLM 기반 MCP 구조\n다음은 제미니 LLM 기반 MCP 구조 예시를 보여준다. 이 예는 비행기 예약 유스케이스를 구현한다.\n\n\n구조의 각 번호는 시퀀스 시나리오를 보여준다. 이 내용은 다음과 같다.\n\nMCP 호스트가 사용자 명령 입력. 예) 내일 인천에서 애틀란타 가는 비행편 찾기\n\n클라이언트 스크립트가 입력을 처리(CLIENT.PY)\n\n클라이언트가 MCP 서버 프로세스 시작(MCP-FLIGHT-SEARCH). STDIO 통신 채널 연결 및 관련 도구 검색\n클라이언트가 사용자 명령에 대한 함수 호출 방법을 수신함\n클라리언트가 함수 호출 방법에 대한 정확한 함수 호출 형식을 GEMINI에서 획득. 함수 호출 형식에 부합하는 적절한 MCP 도구를 서버에 호출. 서버의 도구 함수 호출 결과를 리턴\nMCP 서버가 구글 항공편 검색을 위한 SerpAPI를 호출. 구글 항공편 데이터 질의.\n구글 항공편 정보 리턴\n서버에서 클라이언트로 해당 정보 리턴\n클라이언트가 호스로 해당 정보 전달\n\n개발 환경\n개발을 위한 최소한의 환경은 파이썬 3.8+이다. 이외 다음을 준비한다.\n\nGoogle Cloud 에서 Project 생성\n\n\n\nGoogle Gemini API 키 획득\n\n\n\nSerpAPI 키 획득\n\n\n\n다음 종속성을 터미널에서 설치한다. google-genai는 google 생성AI 라이브러리이며, mcp는 MCP 서버 통신을 위한 파이썬 SDK이다. \npip install google-genai mcp\n\n\n환경변수를 설정한다. \n\nexport GEMINI_API_KEY=\"your-google-api-key\"\nexport SERP_API_KEY=\"your-serpapi-key\"\n\n\n항공편 검색 MCP 서버 설치\nMCP 프로토콜 공개 이후로 많은 MCP 서버가 개발되었다. 우리는 항공편 검색 MCP 서버 오픈소스인 mcp-flgiht-search 를 사용한다. 다음을 설치한다.\n\npip install mcp-flight-search\n\n\n코딩해보기\n다음과 같이 client.py를 코딩한다. \n\nimport os, sys, time, asyncio\nfrom google import genai\nfrom google.genai import types\nfrom mcp import ClientSession, StdioServerParameters\nfrom mcp.client.stdio import stdio_client\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\ngemini_api_key = os.getenv(\"GEMINI_API_KEY\")\nserp_api_key = os.getenv(\"SERP_API_KEY\")\n\nclient = genai.Client(api_key=gemini_api_key)\n\nserver_params = StdioServerParameters(\n    command=\"mcp-flight-search\",\n    args=[\"--connection_type\", \"stdio\"],\n    env={\"SERP_API_KEY\": serp_api_key},\n)\n\nasync def run():\n    async with stdio_client(server_params) as (read, write):  # 항공 예약 검색 도구 등록\n        async with ClientSession(read, write) as session:\n            prompt = f\"Find Flights from Atlanta to Las Vegas 2025-08-15\"  # 사용자 질의 명령\n            await session.initialize()\n\n            mcp_tools = await session.list_tools()  # 도구 리스트 획득\n            tools = [\n                types.Tool(\n                    function_declarations=[\n                        {\n                            \"name\": tool.name,\n                            \"description\": tool.description,\n                            \"parameters\": {\n                                k: v\n                                for k, v in tool.inputSchema.items()\n                                if k not in [\"additionalProperties\", \"$schema\"]\n                            },\n                        }\n                    ]  # 해당 도구 함수 선언 생성\n                )\n                for tool in mcp_tools.tools\n            ]\n\n            response = client.models.generate_content(\n                model=\"gemini-2.5-pro-exp-03-25\",\n                contents=prompt,\n                config=types.GenerateContentConfig(\n                    temperature=0,\n                    tools=tools,\n                ),  # LLM 모델에 프롬프트 전달.\n            )\n\n            if response.candidates[0].content.parts[0].function_call:\n                function_call = response.candidates[0].content.parts[0].function_call # 함수호출정보\n\n                result = await session.call_tool(\n                    function_call.name, arguments=dict(function_call.args)\n                )  # 도구 함수 호출\n\n                print(\"--- Formatted Result ---\") # Add header for clarity\n                try:\n                    flight_data = json.loads(result.content[0].text)\n                    print(json.dumps(flight_data, indent=2))\n                except json.JSONDecodeError:\n                    print(\"MCP server returned non-JSON response:\")\n                    print(result.content[0].text)\n                except (IndexError, AttributeError):\n                     print(\"Unexpected result structure from MCP server:\")\n                     print(result)\n            else:\n                print(\"No function call was generated by the model.\")\n                if response.text:\n                     print(\"Model response:\")\n                     print(response.text)\n\nasyncio.run(run()) # 클라이언트 실행\n\n\n\n실행한다. 그럼 프롬프트에 대해 LLM이 적절한 도구와 파라메터를 확인해 함수 호출 정보를 생성한다. 이를 call_tool로 호출한 결과가 표시된다 \n\n\n레퍼런스\n\nIntroducing Graphite — An Event Driven AI Agent Framework | by Craig Li, Ph.D | Binome | Apr, 2025 | Medium\nModel Context Protocol(MCP) with Google Gemini 2.5 Pro - Deep Dive , Google Cloud Gen AI | Google Cloud - Community\nModel Context Protocol (MCP) with Gemini 2.5 Pro. Convert conversational queries into flight searches using Gemini's function calling capabilities and MCP's flight search tools",
+    "title": "배우 김수현, 故 김새론과의 의혹 해명에도&hellip;&ldquo;밤 11시에 닭볶음탕?&rdquo; 여론은 여전히 싸늘",
+    "description": "2025년 3월 31일, 배우 김수현이 긴급 기자회견을 열고 故 김새론과의 관계에 대한 입장을 밝혔습니다. 하지만 이 해명 이후에도 대중의 의문은 가라앉지 않고 있습니다. 그 중심에는 “고등학교 2학년, 17세였던 김새론이 밤 11시에 김수현 가족이 있는 집에서 닭볶음탕을 만들었다는 정황”이 있습니다.\n▶ “연인이 아니었다”는 주장…하지만 그 밤의 정황은?\n김수현 측은 공식 입장에서 “당시 연인 관계가 아니었고, 가족들도 함께 있었다”고 해명했습니다. 논란이 된 영상은 2018년 6월 촬영된 것으로, 당시 김새론은 고등학교 2학년, 만 17세의 미성년자였습니다.\n해당 영상은 밤 11시 20분경 촬영되었으며, 식탁 위에는 소주병과 소주잔이 놓여 있었다는 점이 확인되며 더욱 논란이 커지고 있습니다. 소속사는 단순한 가족 식사 자리였다고 주장하지만, 많은 이들은 이 상황 자체를 납득하기 어렵다는 반응입니다.\n▶ “사귀지도 않았는데, 밤 11시에 가족 집에서 요리?”\n온라인 커뮤니티와 SNS에서는 다양한 반응이 이어지고 있습니다:\n“사귀지 않았다면 오히려 더 이상한 상황”\n“그 시간에 미성년자가 남자 집에 있었다는 것 자체가 부적절하다”\n“친구 사이여도 집에 돌려보낼 시간 아닌가?”\n또한, 김새론이 김수현에게 보냈다는 카카오톡 메시지 내용도 공개되었습니다. 메시지에는 “보고 싶어”, “언제 안고 잘 수 있어?” 등 연인 사이로 보일 수 있는 문구가 담겨 있었지만, 김수현 측은 “전면 조작된 메시지”라며 원본 데이터 제출을 요구한 상태입니다.\n▶ 해명에도 남은 의문…김수현 이미지 타격 불가피\n김수현 소속사는 “미성년자와의 교제는 결단코 없었다”며 법적 대응을 시사하고 있지만, 유튜브 채널 ‘가세연’ 측의 공세는 계속되고 있습니다. 특히 “사귄 적 없다”는 해명은 ‘그루밍’ 논란으로 이어지며, 연예계 전반에 큰 파장을 주고 있습니다.\n한 프로파일러는 해당 상황에 대해 “상대를 잘못 골랐다”며 사안의 심각성을 지적했습니다. 이번 논란은 단순한 해명이 아닌, 도덕성과 윤리적 판단에 대한 대중의 평가로 이어지고 있으며, 김수현의 이미지 회복은 당분간 쉽지 않을 것으로 보입니다.\n⚠️ 본 포스팅은 대중에 공개된 기사 및 자료에 기반해 작성된 콘텐츠로, 사실 여부에 대한 판단은 독자에게 맡깁니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/04/gemini-mcp.html",
-    "pubDate": "2025-04-13T00:58:00.000Z",
-    "creator": "Unknown",
+    "link": "http://app-developer.tistory.com/entry/%EB%B0%B0%EC%9A%B0-%EA%B9%80%EC%88%98%ED%98%84-%E6%95%85-%EA%B9%80%EC%83%88%EB%A1%A0%EA%B3%BC%EC%9D%98-%EC%9D%98%ED%98%B9-%ED%95%B4%EB%AA%85%EC%97%90%EB%8F%84%E2%80%A6%E2%80%9C%EB%B0%A4-11%EC%8B%9C%EC%97%90-%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95%E2%80%9D-%EC%97%AC%EB%A1%A0%EC%9D%80-%EC%97%AC%EC%A0%84%ED%9E%88-%EC%8B%B8%EB%8A%98",
+    "pubDate": "Fri, 11 Apr 2025 23:18:10 +0900",
+    "creator": "흰끼끼",
     "categories": []
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "K2 Mode in IntelliJ IDEA 2025.1: Current State and FAQ",
-    "description": "Starting with IntelliJ IDEA 2025.1, K2 mode, a new implementation of Kotlin support, will be enabled by default. This change is an important step in the ongoing effort to improve Kotlin support in the IDE.  While this transition brings many improvements and lays the foundation for a smoother, more reliable experience in the future, it’s […]",
+    "title": "DeepSeek-R1 로컬 실행 시 추천 모델(증류 모델)",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/k2-mode-in-intellij-idea-2025-1-current-state-and-faq/",
-    "pubDate": "Tue, 15 Apr 2025 14:07:29 +0000",
-    "creator": "Teodor Irkhin",
-    "categories": [
-      "news",
-      "releases",
-      "k2-mode"
-    ]
+    "link": "https://jacking75.github.io/ai-llm_20250414/",
+    "pubDate": "Mon, 14 Apr 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 7,
+    "imageUrl": "",
+    "title": "유니티 6 웹 용량 줄이기에 대한 설명 / unity web",
+    "description": "영상: https://youtu.be/eCTKiBVUdRM?t=386\n\n\n\n영상 요약\n6분 30초 부터 나오구요\nbr 악춤 외도 여러가지가 있군요\n그리고 이제webgl 대신 웹 이라고 부르기로 했다고 하네요\n그래서 유니티 웹 이 되겠습니다.\nUnity Play 에 올릴 것을 권장하네요\n \n용어의 통일\nUnity 6 부터는 webgl 을 Unity Web 으로 부르기로 했다고 합니다.\nWebGL HTML5 WebGPU 등 계속해서 신기술이 개발되어 새로운 용어가 생겨나기 때문에 용어를 통일한다고 하네요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1261",
+    "pubDate": "Mon, 14 Apr 2025 01:48:19 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "PhpStorm 2025.1 Is Now Available",
+    "description": "This release is a major update that includes improvements in PHPStan annotations, Xdebug, and WordPress support, an AI Free tier and new subscription system for JetBrains AI, and more. Download PhpStorm 2025.1 PHP Code completion for @phpstan-type and @phpstan-import-type  This release improves PhpStorm’s PHPStan annotation support, introducing code completion for array shape aliases in @phpstan-type […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/phpstorm/2025/04/phpstorm-2025-1-is-now-available/",
+    "pubDate": "Wed, 16 Apr 2025 13:18:22 +0000",
+    "creator": "Hanna Yakush",
+    "categories": [
+      "2025-1",
+      "release"
+    ]
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "유니티에서 TextMeshPro 폰트를 dynamic 으로 설정하기 / Setting TextMeshPro font to dynamic in Unity",
     "description": "영상: https://www.youtube.com/watch?v=NY1xKqCIj3c\n\n\n\n \n영상에서는 dynamic 방식에대한 설명이 들어어있어서 매우 장황합니다.\n \n빠르게 설정 방법\n어차피 dynamic 을 설정하기위해서 이글을 보시는거기 때문에\n폰트로 폰트애셋을 굽습니다. (이건 하셨을듯)\n \n폰트애셋을 선택 합니다.\n\n\n제일아래 Aa 로된 아이콘은 TTF 폰트파일입니다. \n이걸 만지는게 아니고\n위에 F 로 되어있는 폰트애셋을 클릭합니다.\n \n인스팩터에서\n\n\nAtlas Population ~~ 보시면 static 으로 되어있을 것입니다.\ndynamic 으로 바꾸시면 구울때 없었던 본트도 실시간으로 생성됩니다.\n \n장황한 dynamic 방식에 대한 설명\n게임에 사용할 폰트를 미리 구워 사용하는 방식을 static 이라고 합니다.\n이 방식은 매우 빠르게 사용할 수 있으며 게임의 용량을 줄일 수 있습니다.\n하지만 사용할 새 글자가 추가되면 폰트 이미지를 다시 빌드해야합니다.\n(개 귀찮)\n그래서 실시간으로 사용하는 글자를 구워주는 기능을 내장하게 되었습니다.\n1. 이러면 단점으로 원본 TTF 파일을 빌드에 같이 포함해야합니다.\n     (용량이 커지겠죠)\n2. 새로운 글자를 사용하려고 할때 빌드를 해야하니 느려지겠죠\n하지만 요즘 컴퓨터는 워낙 빠르기 때문에 이런건 일도 아닙니다.\n저장 공간이나 메모리도 문제가 안될 수준으로 커졌습니다.\n2012년 모바일 환경에서는 상항한 압박이 있었습니다.\n게임은 200mb 미만이어야했고 스맛폰의 메모리는 1gb 가 안되었던 시절입니다.\n그래서 옛날엔 불편하게 게임을 만들었다 정도로 생각해두시고\n요즘은 의미 없다 편하게 쓰자 ...",
@@ -104,129 +130,92 @@
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "eBay Reduces the Time to List on Mobile With New Simplified Selling Tool, Now Featuring Magical Listing AI Technology",
-    "description": "Introducing an easier, more streamlined experience that makes listing creation faster and more effortless for sellers in the U.S. and U.K.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://innovation.ebayinc.com/stories/ebay-reduces-the-time-to-list-on-mobile-with-new-simplified-selling-tool-now-featuring-magical-listing-ai-technology/",
-    "pubDate": "Wed, 09 Apr 2025 00:00:00 -0700",
-    "creator": "eBay News Team",
-    "categories": [
-      "article"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "유니티 6 웹 용량 줄이기에 대한 설명 / unity web",
-    "description": "영상: https://youtu.be/eCTKiBVUdRM?t=386\n\n\n\n영상 요약\n6분 30초 부터 나오구요\nbr 악춤 외도 여러가지가 있군요\n그리고 이제webgl 대신 웹 이라고 부르기로 했다고 하네요\n그래서 유니티 웹 이 되겠습니다.\nUnity Play 에 올릴 것을 권장하네요\n \n용어의 통일\nUnity 6 부터는 webgl 을 Unity Web 으로 부르기로 했다고 합니다.\nWebGL HTML5 WebGPU 등 계속해서 신기술이 개발되어 새로운 용어가 생겨나기 때문에 용어를 통일한다고 하네요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1261",
-    "pubDate": "Mon, 14 Apr 2025 01:48:19 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
     "id": 10,
     "imageUrl": "",
-    "title": "직장인의 부업소득, 종합소득세 신고 대상일까요?",
-    "description": "부업을 한다면 꼭 알아야 할 세금 상식",
+    "title": "ChatGPT 검색 vs 추론 - 당신의 질문에 맞는 최적의 선택은?",
+    "description": "ChatGPT 검색과 추론 기능, 언제 어떤 걸 써야 할지 고민돼요? 실제 사용해보니 확실히 달라요! 사실 확인은 검색, 깊은 분석은 추론, 이 가이드로 AI 활용 효율성을 높여보세요.\n\n\n \nChatGPT 검색과 추론 기능, 어떻게 구분해서 써야 할까?\n어젯밤에 갑자기 궁금한 게 있어서 ChatGPT를 켰는데, 검색이랑 추론 중에 뭘 선택해야 할지 한참을 고민했어요. 여러분도 그런 경험 있으신가요? 이래저래 둘 다 써보니까 확실히 차이가 느껴지더라고요. 그래서 오늘은 제가 실제로 사용해보면서 알게 된 ChatGPT의 검색과 추론 기능의 차이점과 각각 언제 써야 좋은지 정리해봤습니다.  \n \n \nChatGPT 검색 기능: 구체적인 사실이나 업데이트가 필요할 때  \nChatGPT의 검색 기능은 말 그대로 구체적인 정보나 최신 데이터가 필요할 때 딱이에요. 빠르고 정확한 답변을 원한다면 검색 기능을 사용하세요. 마치 여러분 옆에 앉아서 즉각적으로 정보를 찾아주는 비서 같은 느낌이랄까요?\n\n\n최신 소식과 업데이트  \n솔직히 말해서, 요즘 뉴스 보는 것도 귀찮을 때 있잖아요. 정치 소식이나 스포츠 경기 결과, 주식 시장 상황 같은 최신 정보가 필요하시다면 ChatGPT 검색이 짱이에요.\n저는 지난주에 K리그 순위표가 궁금했는데, 여러 사이트를 뒤적거릴 필요 없이 ChatGPT 검색으로 한방에 해결했어요. 진짜 편하더라구요!\n \n프롬프트 예시:\n[검색] 현재 K리그1 순위표와 다음 경기 일정을 알려줘.\n\n기본 상식과 정의  \n가끔 갑자기 \"이 단어가 뭐였지?\" 하는 순간 있잖아요. 과학 개념이든, 어려운 단어 철자든, 역사적 사건이든 간단한 정보를 얻고 싶을 때 검색 기능이 제격이에요.\n \n예를 들어 \"애자일 방법론이 정확히 뭐야?\" 같은 질문이나 \"대한민국 제2대 대통령이 누구였지?\" 같은 기본 사실 확인에 아주 유용해요. 불필요한 세부 정보 없이 명확하고 간결한 답변을 받을 수 있어요.\n \n프롬프트 예시:\n[검색] 애자일 방법론의 정확한 의미와 장단점을 알려줘.\n[검색] 대한민국 제2대 대통령은 누구였고, 어떤 업적이 있었어?\n\n최신 제품 정보  \n요즘처럼 기술이 빠르게 발전하는 시대에는 최신 제품 사양이나 리뷰를 찾는 게 쉽지 않잖아요. ChatGPT 검색은 가젯, 자동차, 또는 다른 소비재를 비교할 때 특히 유용해요.\n \n최신 아이폰의 스펙이 궁금하거나 구매하려는 차에 대한 리뷰를 알고 싶다면, 검색 기능이 가장 신뢰할 수 있는 출처에서 최신 데이터를 가져와 줍니다.\n \n예를 들어, 최신 갤럭시폰이 이전 모델보다 성능이 더 좋은지 궁금하다면? 빠른 검색으로 새로운 기능, 스펙, 사용자 리뷰를 한눈에 볼 수 있어요. 여러 웹사이트를 뒤적거릴 필요가 없죠.\n \n프롬프트 예시:\n[검색] 최신 아이폰 15 Pro와 아이폰 14 Pro의 스펙, 가격, 카메라 성능을 비교해줘.\n[검색] 2025년 출시된 현대 아이오닉 7의 주행 거리와 충전 시간, 그리고 테슬라 모델 Y와 비교한 장단점은?\n\n지역 정보  \n날씨 예보, 주변 이벤트, 맛집 추천 같은 지역 정보도 ChatGPT 검색으로 쉽게 얻을 수 있어요. 여행 중이거나 주변에서 특별한 것을 찾고 있다면, 간단히 물어보세요.\n \n명동 근처에서 맛있는 순두부찌개 맛집을 찾고 싶다고요? ChatGPT가 즉시 리뷰와 평점을 포함한 최고 평점의 음식점 목록을 알려줄 거예요. 소중한 시간을 최대한 활용할 수 있겠죠?\n \n프롬프트 예시:\n[검색] 서울 강남역 근처 분위기 좋은 데이트 카페 추천해줘. 주차가 편한 곳으로 알려줘.\n[검색] 이번 주말 부산에서 열리는 문화 행사나 축제가 있을까?\n\n \n \nChatGPT 추론 기능: 깊이 있는 생각과 문제 해결이 필요할 때  \nChatGPT의 검색 기능이 빠르고 사실적인 답변에 좋다면, 추론 기능은 더 복잡한 작업에 진가를 발휘해요. 깊은 분석이나 창의적 사고가 필요한 까다로운 문제에 부딪혔을 때는 ChatGPT 추론의 문제 해결 능력을 활용하세요.\n\n\n복잡한 문제 해결  \n여러 계층을 분석하거나 다양한 옵션을 평가해야 하는 작업에는 ChatGPT의 추론 능력이 정말 소중해요. 사업 전략을 계획하거나 기술적인 문제를 해결할 때, ChatGPT는 다양한 각도를 탐색하고 정보에 기반한 결정을 내리는 데 도움을 줍니다.\n \n예를 들어, 스타트업을 위한 최적의 마케팅 전략을 결정하려 한다면, ChatGPT는 다양한 접근 방식의 장단점을 비교하고, 가능한 장애물을 고려하며, 유사한 사례 연구를 바탕으로 인사이트를 제공할 수 있어요. 단순히 빠른 사실만 제공하는 것이 아니라, 문제 해결을 위한 비판적 사고 과정을 안내해 줍니다.\n \n프롬프트 예시:\n[추론] 미용실 창업을 준비 중인데, 경쟁이 치열한 강남 지역에서 차별화된 마케팅 전략을 세우고 싶어. 소셜 미디어, 지역 특성, 타겟 고객층을 고려해서 구체적인 전략을 제안해줘.\n\n[추론] 우리 회사는 30명 규모의 소프트웨어 개발 스타트업인데, 재택근무와 사무실 근무를 어떻게 균형있게 조합할지 고민이야. 팀 문화, 생산성, 직원 만족도를 모두 고려한 하이브리드 근무 정책을 설계해줄 수 있을까?\n\n창의적 작업  \nChatGPT의 추론은 창의적인 브레인스토밍에도 훌륭한 선택이에요. 이 기능은 논리, 패턴, 관련 데이터를 활용하여 혁신적인 아이디어를 개발하거나 기존 아이디어를 개선하는 데 도움을 줍니다.\n \n소설 플롯에 막혔다면, ChatGPT가 창의적인 프롬프트, 캐릭터 아크, 또는 대체 엔딩을 제안할 수 있어요. 마찬가지로, 지역 커뮤니티 이벤트를 계획한다면, ChatGPT는 독특한 테마, 인터랙티브 활동, 또는 관객을 참여시키는 방법을 브레인스토밍하는 데 도움을 줄 수 있습니다.\n \n프롬프트 예시:\n[추론] 나는 현대판 판타지 소설을 쓰고 있어. 주인공은 평범한 대학생인데 어느날 자신이 꿈속에서 사람들의 병을 치유할 수 있는 능력이 있다는 걸 알게 돼. 이 설정을 바탕으로 흥미로운 플롯 전개와 갈등 요소를 제안해줘.\n\n[추론] 우리 동네 작은 도서관에서 아이들을 위한 여름 독서 프로그램을 기획 중이야. '바다와 모험'이라는 주제로 6-10세 아이들이 책에 흥미를 갖게 할 수 있는 창의적인 활동 아이디어를 5가지 제안해줘.\n\n논증 분석 또는 의사 결정 ⚖️\n여러 옵션과 많은 변수가 있는 결정에 직면했을 때, ChatGPT 추론은 필수적인 두 번째 의견이 됩니다. 추론 기능을 사용하면 각 선택지의 장단점을 분석하며 상황의 모든 측면을 고려할 수 있어요. 결정하기 어려운 순간에 균형 잡힌 선택을 할 수 있게 도와줍니다.\n예를 들어, 두 개의 채용 제안 중에서 고민하고 있다면, ChatGPT는 각 역할의 이점과 단점을 나열하는 데 도움을 줄 수 있어요. 회사 문화, 경력 성장, 보상, 일과 삶의 균형 같은 요소를 고려하도록 도와줍니다. 또한 ChatGPT는 여러분의 우선순위에 따라 대안 제안을 제공하여 의사 결정 과정을 더 쉽게 만들 수 있어요.\n \n프롬프트 예시:\n[추론] 현재 안정적인 대기업(연봉 7000)과 성장 가능성이 높은 스타트업(연봉 5500 + 스톡옵션)의 제안을 동시에 받았어. 경력 성장, 일-삶 균형, 재정적 안정성, 그리고 장기적 전망 측면에서 두 선택지를 분석해줘. 내 우선순위는 1) 성장 2) 안정성 3) 워라밸 순이야.\n\n[추론] 결혼식 장소로 자연 속 야외 웨딩과 고급 호텔 실내 웨딩 중에서 고민 중이야. 날씨 리스크, 비용, 접근성, 사진 퀄리티, 하객 편의성 등 다양한 요소를 비교 분석해줘. 우리는 5월에 결혼할 예정이고, 하객은 약 150명 정도야.\n\n복잡한 아이디어 설명  \n때로는 단순한 답변 이상이 필요할 때가 있죠. 복잡한 과학 개념, 고급 기술, 또는 이론을 이해하려고 할 때, ChatGPT의 추론 기능은 상세하게 설명해 줄 수 있어요.\n \n예를 들어, 블록체인이나 머신 러닝 같은 개념으로 고민하고 있다면, ChatGPT는 기본과 더 복잡한 측면 모두를 다루는 상세하고 쉽게 따라갈 수 있는 설명을 제공할 수 있습니다.\n \n프롬프트 예시:\n[추론] 양자컴퓨팅의 기본 원리를 고등학생 수준에서 이해할 수 있게 설명해줘. 특히 기존 컴퓨터와의 차이점과 왜 특정 문제에서 더 효율적인지 비유를 들어 설명해주면 좋겠어.\n\n[추론] ESG 경영이 정확히 무엇이고, 기업과 사회에 어떤 영향을 미치는지 체계적으로 분석해줘. 실제 성공 사례와 비판적 시각도 함께 다루어주면 좋겠어.\n\n \n \n두 기능을 모두 선택해야 할 때  \n사실과 깊은 분석 모두가 필요할 때가 있어요. 이런 상황에서는 ChatGPT의 검색과 추론 기능을 결합하면 더 완전하고 미묘한 그림을 얻을 수 있습니다.\n\n\nA). 주제를 자세히 이해하기  \n주제를 파고들어 원시 사실과 이들이 어떻게 연결되는지 이해하고 싶다면, ChatGPT의 검색과 추론 기능을 함께 사용하는 것이 좋아요. 이렇게 하면 구체적인 세부 정보를 수집하고 이를 더 큰 그림으로 통합할 수 있습니다.\n예를 들어, 우주 탐사에 대해 연구한다면, 최신 임무, 기술, 발견을 검색하면서 동시에 이들이 사회에 미칠 잠재적 영향에 대해 추론할 수 있어요. 이렇게 하면 사실만 수집하는 것이 아니라, 그것들이 인간 지식, 우주 여행, 미래 노력에 미치는 영향도 한꺼번에 평가할 수 있습니다.\n \n프롬프트 예시:\n[검색+추론] 최근 5년간 우주 개발 동향과 주요 발전 사항을 검색해주고, 이러한 발전이 향후 10년 내 지구 경제와 과학 기술에 미칠 영향을 종합적으로 분석해줘.\n\n[검색+추론] 현재 글로벌 반도체 산업의 주요 기업들과 시장 점유율을 조사하고, 미-중 기술 갈등이 장기적으로 반도체 공급망과 한국 기업들에게 어떤 영향을 미칠지 전망해줘.\n\nB). 여러 변수가 있는 결정 내리기  \n집 구매, 특정 소프트웨어 선택, 또는 휴가 목적지 선택과 같이 여러 옵션이나 요소를 고려해야 하는 상황에서는 검색과 추론이 모두 필요해요. 검색 기능은 각 옵션에 대한 하드 사실(비용, 기능, 리뷰)을 수집하고, 추론 기능은 장단점을 평가하여 특정 요구 사항에 가장 잘 맞는 선택을 내릴 수 있게 합니다.\n \n새로운 도시로 이사를 고려하고 있다면, 주택 가격, 지역 편의 시설, 취업 기회를 조사하고 싶을 거예요. 동시에, 도시의 미적 감각, 라이프스타일, 가족이나 친구와의 거리 같은 추상적인 변수도 고려해야 합니다. 이러한 요소들을 개인 선호도와 결합하면 이사가 적합한지 파악하는 데 도움이 됩니다.\n \n프롬프트 예시:\n[검색+추론] 제주도와 부산에 1년 살 예정인데 두 도시를 비교해줘. 주거비용, 생활물가, 기후, 교통, 의료시설, 문화생활 등 객관적 데이터를 찾아주고, 30대 부부가 디지털 노마드로 살기에 어떤 곳이 더 적합할지 분석해줘.\n\n[검색+추론] 아이패드 프로와 삼성 갤럭시 탭 S9 울트라의 최신 스펙, 가격, 호환 액세서리를 비교해주고, 디지털 아트 작업과 영상 편집이 주 용도인 나에게 어떤 제품이 더 적합할지 분석해줘.\n\nC). 여러 옵션이나 제품 비교하기  \n제품, 서비스, 심지어 경력 경로를 비교할 때, 검색과 추론을 모두 사용하면 좋아요. 검색은 객관적인 사실을 제공하고, 추론은 어떤 옵션이 개인 또는 전문적 목표에 가장 적합한지 평가하거나 해당 제품에 대한 최신 정보를 얻는 데 도움을 줍니다.\n예를 들어, 두 노트북 중에서 고르고 있다면, 스펙과 리뷰를 확인하고(검색), 옵션을 신중히 평가해야 합니다(추론). 어떤 게 예산, 라이프스타일, 미래 필요에 맞을까요? 두 기능을 모두 활용하면 최종 결정을 내리는 데 도움이 될 수 있어요.\n \n프롬프트 예시:\n[검색+추론] 애플 맥북 프로 M2와 델 XPS 15의 최신 사양, 가격, 배터리 성능, 화면 품질을 비교해줘. 특히 영상 편집과 코딩을 주로 하는 내게 어떤 노트북이 더 적합할지 분석해줘.\n\n[검색+추론] 넷플릭스, 디즈니플러스, 티빙의 월 구독료, 콘텐츠 라이브러리 크기, 독점 콘텐츠를 비교해주고, 한국 드라마와 다큐멘터리를 주로 보는 내게 가장 가성비 좋은 서비스는 무엇인지 추천해줘.\n\nD). 새로운 개념이나 트렌드 탐색하기  \n검색과 추론을 함께 활용하면 새로운 개념이나 떠오르는 트렌드를 이해하는 데 도움이 될 수 있어요. 검색은 최신 정보를 수집하고, 추론은 잠재적 영향과 더 넓은 의미를 탐색합니다.\n예를 들어, 인공지능에 대해 궁금하다면, 검색을 사용하여 AI의 최신 발전 상황을 찾고, 추론을 사용하여 AI가 다양한 산업에 어떤 영향을 미치거나 미래에 우리 삶의 방식을 어떻게 변화시킬지 분석할 수 있습니다.\n \n프롬프트 예시:\n[검색+추론] 웹3.0과 메타버스의 최신 발전 동향과 주요 플랫폼들을 조사해주고, 이러한 기술이 향후 5년 내 교육, 엔터테인먼트, 소매업에 어떤 변화를 가져올지 분석해줘.\n\n[검색+추론] '제로 웨이스트' 라이프스타일의 주요 원칙과 글로벌 트렌드를 조사해주고, 이를 한국의 도시 환경에서 실천하기 위한 현실적인 방법과 도전 과제를 분석해줘.\n\n \n\n\n마치며: 상황에 맞는 선택이 중요해요  \nChatGPT의 검색 기능과 추론 기능을 언제 사용해야 할지 이해함으로써, 이러한 강력한 기능의 가치를 최대화할 수 있어요. 빠른 사실, 깊은 분석, 또는 둘 다 필요하든, ChatGPT는 거의 모든 결정을 내리고 문제에 명확하게 접근하는 데 도움을 줄 수 있으며, 종종 해당 작업에 대한 정말 유용한 두 번째 의견이나 목소리를 제공합니다.\n제 경우에는 일상적인 정보 검색에는 검색 기능을, 블로그 글이나 사업 계획처럼 깊은 사고가 필요한 일에는 추론 기능을 주로 사용하고 있어요. 여러분은 어떤 기능을 더 자주 사용하시나요? 댓글로 알려주세요!  \nQ&A: ChatGPT 검색과 추론에 대해 자주 묻는 질문들\nQ: ChatGPT 검색 기능은 얼마나 최신 정보까지 알고 있나요?\nA: 검색 기능은 인터넷에 연결되어 있어 최신 정보를 가져옵니다.\nQ: 추론 기능의 한계는 무엇인가요?\nA: 복잡한 추론이 가능하지만 전문가 수준의 깊이 있는 분석은 제한적일 수 있어요.\nQ: 검색과 추론을 동시에 사용할 때 더 느려지나요?\nA: 약간 더 시간이 걸릴 수 있지만 결과의 질이 높아져 가치가 있습니다.\nQ: 어떤 기능이 더 정확한가요?\nA: 사실 확인은 검색이, 복잡한 분석은 추론이 더 정확합니다.\nQ: 추론 기능은 검색 기능보다 창의적인가요?\nA: 네, 추론 기능이 패턴 인식과 연결성을 활용해 더 창의적인 결과를 제공합니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT 검색 기능은 얼마나 최신 정보까지 알고 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"검색 기능은 인터넷에 연결되어 있어 최신 정보를 가져옵니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"추론 기능의 한계는 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"복잡한 추론이 가능하지만 전문가 수준의 깊이 있는 분석은 제한적일 수 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"검색과 추론을 동시에 사용할 때 더 느려지나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"약간 더 시간이 걸릴 수 있지만 결과의 질이 높아져 가치가 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"어떤 기능이 더 정확한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"사실 확인은 검색이, 복잡한 분석은 추론이 더 정확합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"추론 기능은 검색 기능보다 창의적인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 추론 기능이 패턴 인식과 연결성을 활용해 더 창의적인 결과를 제공합니다.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/tossmoment-7",
-    "pubDate": "Fri, 11 Apr 2025 04:21:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://muzbox.tistory.com/483567",
+    "pubDate": "Fri, 11 Apr 2025 12:01:03 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 언어 모델",
+      "ai 기능 비교",
+      "ai 창의적 활용",
+      "chatgpt 검색 기능",
+      "chatgpt 추론 기능",
+      "문제 해결 ai",
+      "복잡한 문제 해결",
+      "의사결정 도구",
+      "인공지능 활용법",
+      "정보 검색 최적화",
+      "최신 정보 검색"
+    ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "How To Increase Code Quality in GitHub With Qodana",
-    "description": "A year ago we shared a post on how to integrate Qodana with Github Actions on the .NET Community – but a lot has changed since then. Qodana self-hosted has been released, with analysis that can make your code more secure by detecting hardcoded passwords and running taint analysis for JVM. The new Android Linter […]",
+    "title": "허벅지를 기회로, 유미아의 아틀리에",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/04/code-quality-in-github/",
-    "pubDate": "Thu, 10 Apr 2025 17:37:29 +0000",
-    "creator": "Kerry Beetge",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2298",
+    "pubDate": "Fri, 11 Apr 2025 22:42:23 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "code-review",
-      "tutorials",
-      "github",
-      "qodana"
+      "게임툰"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "What’s New in Bazel Plugin 2025.1",
-    "description": "We’re excited to tell you about all the changes we’ve made in recent months to improve the Bazel plugin experience in IntelliJ IDEA. Every couple of weeks, we’ve been shipping updates to JetBrains Marketplace with focused fixes and features. Over time, these smaller updates have amounted to substantial enhancements. Most updates are included in the […]",
+    "title": "DataSpell 2025.1: JetBrains Data Wrangler AI Agent, No-Code Data Preparation Flow, AI Quick Charts, and More!",
+    "description": "We’re thrilled to introduce DataSpell 2025.1, the first major release of 2025. This update focuses on making data cleaning and preparation more intuitive and efficient than ever before. Download DataSpell 2025.1 JetBrains Data Wrangler AI agent With Data Wrangler, you can choose between a no-code flow or full AI automation. Easily toggle between: No-code flow […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/what-s-new-in-bazel-plugin-2025-1/",
-    "pubDate": "Tue, 15 Apr 2025 13:12:01 +0000",
-    "creator": "Justin Kaeser",
-    "categories": [
-      "build-system",
-      "intellij",
-      "idea",
-      "releases",
-      "bazel",
-      "build",
-      "build-tools",
-      "intellij-idea",
-      "java",
-      "kotlin",
-      "plugin",
-      "python",
-      "scala",
-      "starlark"
-    ]
+    "link": "https://blog.jetbrains.com/dataspell/2025/04/dataspell-2025-1-jetbrains-data-wrangler-ai-agent-no-code-data-preparation-flow-ai-quick-charts-and-more/",
+    "pubDate": "Wed, 16 Apr 2025 13:18:50 +0000",
+    "creator": "Stanislav Garkusha",
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Splunk의 Join - 5th",
-    "description": "inner join.\n\n\n\n\nleft join.\n\n\n\n교집합 제외한 left join.\n\n\nfull join.\n\n\n\n\n\n교집합 제외한 full join.\n\n\n\n\n관련 글\n\n\nSplunk의 Join - 4th\nSplunk의 Join\nSplunk의 lookup\n엘라스틱의 Join",
+    "title": "PyCharm 2025.1: Unified PyCharm, Free AI Tier, Junie Release, and More!",
+    "description": "PyCharm 2025.1 brings major updates to improve your development experience. PyCharm is now a unified product, combining PyCharm Professional and Community Edition. Version 2025.1 also brings a free AI tier, the public release of Junie, the launch of Cadence, significant Jupyter enhancements, support for Hatch, Data Wrangler, and many other improvements. Get the latest version […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/04/splunk-join-5th.html",
-    "pubDate": "2025-04-13T02:57:00.000Z",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/pycharm/2025/04/pycharm-2025-1/",
+    "pubDate": "Wed, 16 Apr 2025 13:58:00 +0000",
+    "creator": "Evgenia Verbina",
     "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "ChatGPT에게 저장소의 내용을 이해하도록 Markdown 파일을 출력하는 스크립트를 만들어 보았다",
-    "description": "No description available",
+    "title": "다시 개발을 시작했더니, 세상이 바뀌어 있었다.",
+    "description": "오랜만에 다시 개발을 시작했다. 실무에서 손을 뗀 지는 꽤 되었고, 딸아이가 태어난 이후 병원 치료에 집중해야 했기 때문에 자연스럽게 업무 시간도 줄어들었다. 나는 개발팀 리더는 실무에 깊이 관여하지 않아도 된다는 나름의 철학을 갖고 있었기에, 그 상황을 받아들이는 데 큰 저항은 없었다. 주기적으로 경영진과의 팀의 방향성을 설계하고, 개발조직이 최고의 성과",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/ai-llm_20250411/",
-    "pubDate": "Fri, 11 Apr 2025 00:00:00 +0900",
-    "creator": "Unknown",
+    "link": "https://brunch.co.kr/@@2MrI/866",
+    "pubDate": "Sat, 12 Apr 2025 10:42:03 GMT",
+    "creator": "에디의 기술블로그",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Developer Ecosystem Survey 2025 – Help Shape the Future of Development",
-    "description": "Since 2017, we’ve been checking in with developers around the world to better understand how the industry is evolving and how we can build better tools to support you. Now, the Developer Ecosystem Survey 2025 is live, and we’d love for you to be part of it. This annual survey is a community milestone that […]",
+    "title": "인공지능에게 윤리를 가르칠 수 없다. / 정렬 위장",
+    "description": "영상: https://youtu.be/jUdcebBjo-k\n\n\n\n \n전체 영상에서는 인공지능을 이용하려고 할 때\n이상한 방법으로 동작하는 것에 대한 이야기를 알려줍니다.\n인공지능에게 백날 도덕적으로 행돌하라고 해봐야\n대답은 그럴싸하게 \"네\" 라고 하지만\n뒤에서 일어나는 행동은 전혀 말과 행동이 일치하지 않는다는 것입니다.\n마치 인간에게 교육시키듯이 말입니다.\n10분 40초에 나옵니다.\n\"정렬 위장\" 이라는 행동이라고 부른다고 합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/team/2025/04/10/developer-ecosystem-survey-2025-help-shape-the-future-of-development/",
-    "pubDate": "Thu, 10 Apr 2025 16:05:16 +0000",
-    "creator": "Anastassiya Sichkarenko",
+    "link": "http://serverdown.tistory.com/1264",
+    "pubDate": "Wed, 16 Apr 2025 14:28:50 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "deveco",
-      "devecosystem",
-      "news",
-      "research",
-      "survey"
+      "유튜브",
+      "인공지능"
     ]
   }
 ]
