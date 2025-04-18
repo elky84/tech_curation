@@ -2,39 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "IntelliJ Scala Plugin 2025.1 Is Out!",
-    "description": "Support for new features in Scala 3 Context Bounds and Givens Scala 3.6 introduced a new syntax for context bounds and givens. You can read more about it in SIP-64. In short, before Scala 3.6, it was impossible to name the context bound in the same place where it was defined. The way to do […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/scala/2025/04/16/intellij-scala-plugin-2025-1-is-out/",
-    "pubDate": "Wed, 16 Apr 2025 13:05:20 +0000",
-    "creator": "Maciej Gorywoda",
-    "categories": [
-      "news",
-      "releases",
-      "scala",
-      "scala-programming",
-      "intellij-idea"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "GitHub Copilot Highlights in Visual Studio 17.14 Preview 3 (Available Now)",
-    "description": "Visual Studio 17.14 Preview 3 is now available! The GitHub Copilot experience in Visual Studio is continuously updated to provide the latest advancements in AI-assisted development. The following features and improvements have been recently released in Visual Studio version 17.14 Preview 3. (Remember, preview versions of Visual Studio can be run side by side with […]\nThe post GitHub Copilot Highlights in Visual Studio 17.14 Preview 3 (Available Now) appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/github-copilot-highlights-in-visual-studio-17-14-preview-3-available-now/",
-    "pubDate": "Wed, 16 Apr 2025 18:24:10 +0000",
-    "creator": "Katie Savage",
-    "categories": [
-      "Copilot",
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
     "title": "node_modules/@google-cloud/storage/build/cjs/src/crc32c.d.ts:6:39 - error TS2315: Type 'Int32Array' is not generic. / Firebase Typescript 환경에서 ...",
     "description": "문제: https://github.com/firebase/firebase-functions/issues/1664\n\n \nError TS2315: Type 'Int32Array' is not generic. · Issue #1664 · firebase/firebase-functions\nRelated issues None that I could find [REQUIRED] Version info \"firebase-admin\": \"^12.1.0\" \"firebase-functions\": \"^5.0.0\" node: v20.16.0 firebase-functions: 12.1.0 firebase-tools: 13.16.0 firebase-a...\ngithub.com\n\n \n\n\n \nyarn add -D typescript@latest\n타입스크립트 설치하라는군요\n저는 yarn 환경이 아니라\nnpm i  -D typescript@latest\n후에 \nnpm i \n쳐서 다시 설치하니 성공했습니다.\n이런 맛탱이간 개발한광은 적응이 안되네요\n왜이케 자주 바뀌는건지",
     "reviews": [],
@@ -48,163 +15,72 @@
     ]
   },
   {
-    "id": 4,
+    "id": 2,
     "imageUrl": "",
-    "title": "당신의 CPU는 열심히 일하고 있나요?",
-    "description": "들어가며안녕하세요. LINE+ Contents Service Engineering 조직에서 백엔드 개발 및 프런트엔드 개발을 담당하고 있는 문범우, 안현모입니다.저희 조직에서는 그...",
+    "title": "Add Force 1 - v38 업데이트 / 119일차 리뷰 영상",
+    "description": "v38 업데이트 내용\nUI 를 개선했습니다.\n- [공격력]이 숫자로 표시 했습니다.\n- [레벨] 과 [체력] 을 막대 형태로 표시 했습니다.\n난이도를 낮추기위해 스킬이 추가되었습니다.\n- [공격력 증가] 스킬이 추가되었습니다.\n- [체력 증가]  스킬이 추가되었습니다.\n- [폭발 범위 증가] 의 최대 레벨이 증가했습니다. 5 -> 6\n \n리뷰 영상: https://www.youtube.com/watch?v=4f61k30HPZ0\n\n\n\n \n플레이 영상: https://www.youtube.com/watch?v=K6xYmNlNf5A\n\n\n\n \n \n팁\n스토어 링크: https://play.google.com/store/apps/details?id=com.sidnft.add_force_1\n의도 하진 않았지만 영상 썸네일에 버전을 쓰니 구글 스토어에서 표시가 잘되네요 ㄷㄷ",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/efficiently-using-cpu-in-kubernetes",
-    "pubDate": "Fri, 11 Apr 2025 02:00:00 GMT",
+    "link": "http://serverdown.tistory.com/1262",
+    "pubDate": "Mon, 14 Apr 2025 22:00:41 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "Add Force 1 (자작)"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "돈 버는 습관",
+    "description": "얼마 전에 우리의 오래된 투자사의 이사회 미팅에 참석했다. 아주 힘든 사업을 하고 있는데, 10년 전 창업할 땐, 창업가들도 이렇게 힘든 사업인 줄 몰랐고, 투자자들도 이렇게 힘든 사업인 줄 몰랐다. 그동안 실수도 많이 했고, 돈도 많이 까먹으면서 개고생했는데, 이제 회사가 어느 정도 안정적인 운영 방법을 찾았고, 그동안 마이너스 나는 사업을 하다가 작년부터 손익분기점을 넘으면서 흑자를 만들고(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/04/profit-making-as-a-habit.html",
+    "pubDate": "Wed, 16 Apr 2025 21:26:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork",
+      "hustle",
+      "inspiring",
+      "sports",
+      "Strong"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Composable Architecture는 만들었는데 문제가 있었네? 개선해보자.",
+    "description": "이전 글에서 Composable Architecutre를 소개하는 내용을 담아보았는데, 몇 가지 문제점을 발견하여 이를 개선한 내용을 다시 정리하는 글이다.\n크게 2가지 문제점을 확인하였다.\nViewModel 내 Reducer 처리 후 자동 next\nAction 스트림 처리를 위한 싱글턴 활용 시 Lifecycle 문제\n이 2가지 문제점을 해결하기 위해 코드를 어떻게 수정했는지, 그리고 더 나은 방법은 없을지 고민한 과정을 정리해본다.\n이 글에서는\n기존 아키텍처의 구조적 문제점을 파악한다.\n문제 해결 과정과 더 나은 구조에 대한 고민을 공유한다.\n기본적인 내용을 담지 않고있어 앞선 글을 참고하면 좋다.\nAction이란?\nView와 ViewModel 사이의 통신을 어떻게 더 간결하게 할 수 있을까? Jetpack Compose 환경에서는 CompositionLocal - link을 활용하는 방법이 있다. 저는 이 방식을 응용하여 Composable 함수 어디서든 이벤트 처리를 쉽게 호출할 수 있도록 Action이라는 개념을 만들었다.\nFlow를 기반으로 한 Action을 사용한 이유를 설명하기 위해, 먼저 일반적인 View-ViewModel 간 통신 방식의 예시 코드를 살펴보자.\nComposable 함수에서 ViewModel 인스턴스를 파라미터로 직접 전달받아 사용하는 것이 일반적이다. 하지만 이 방식은 Composable 함수의 깊이가 깊어지거나 개수가 많아질수록 ViewModel을 어디까지 전달해야 할지 고민이 필요하며, 구조가 복잡해지면 자연스럽게 보일러플레이트 코드가 늘어나는 단점이 있다.\nViewModel을 직접 사용한 함수 호출\n\n@Composable\nfun SomeScreen(someViewModel: SomeViewModel) {\n  Button(onClick = { someViewModel.doSomething() })\n  Button(onClick = { someViewModel.doSomethingTwo() })\n  Button(onClick = { someViewModel.doSomethingThree() })\n}\n\nclass SomeViewModel : ViewModel() {\n  fun doSomething() { /* ... */ }\n  fun doSomethingTwo() { /* ... */ }\n  fun doSomethingThree() { /* ... */ }\n}\n\n\nViewModel 함수를 sealed interface로 통합하여 호출하는 경우\n\nsealed interface SomeAction {\n    data object ActionOne : SomeAction\n    data object ActionTwo : SomeAction\n    data class ActionThree(val item: Any) : SomeAction\n}\n\n@Composable\nfun SomeScreen(someViewModel: SomeViewModel) {\n  val item = remember { /* ... */ } // 예시 데이터\n  Button(onClick = { someViewModel.dispatch(SomeAction.ActionOne) })\n  Button(onClick = { someViewModel.dispatch(SomeAction.ActionTwo) })\n  Button(onClick = { someViewModel.dispatch(SomeAction.ActionThree(item)) })\n}\n\nclass SomeViewModel : ViewModel() {\n  fun dispatch(action: SomeAction) {\n    when (action) {\n      is SomeAction.ActionOne -> { /* ... */ }\n      is SomeAction.ActionTwo -> { /* ... */ }\n      is SomeAction.ActionThree -> { /* ... */ }\n    }\n  }\n}\n\n\n제가 활용하는 방식 (CompositionLocal 활용)\n위 방식들은 ViewModel을 계속 전달하거나, onClick: () -> Unit 같은 콜백을 계속 만들어 전달해야 하는 번거로움이 있다. 특히 콜백 방식은 이벤트 통합 과정에서 N개의 고차 함수(Higher-Order function)가 만들어질 수 있다.\n그래서 Compose에서 제공하는 Locally scoped - link을 활용하여 Action 객체에 쉽게 접근하는 방법을 사용하고 있습니다. (자세한 활용법은 이전 글 컴포즈에 사용할 Composable Architecture 설명을 참고해주세요.)\n\n// Action 정의 (예시)\nsealed interface MyScreenAction : CaAction { // CaAction은 마커 인터페이스 역할\n    data object ButtonClick : MyScreenAction\n    data class TextTyped(val text: String) : MyScreenAction\n    data class SwitchChanged(val isOn: Boolean) : MyScreenAction\n}\n\n// Composable View\n@Composable\nfun SomeScreen() {\n  // CompositionLocal을 통해 ActionDispatcher 획득\n  val actionDispatcher = LocalActionDispatcher.current\n  var textState by remember { mutableStateOf(\"\") }\n  var switchState by remember { mutableStateOf(false) }\n\n  Column {\n      Button(onClick = { actionDispatcher.dispatch(MyScreenAction.ButtonClick) }) {\n          Text(\"Click Me\")\n      }\n      TextField(\n          value = textState,\n          onValueChange = {\n              textState = it\n              actionDispatcher.dispatch(MyScreenAction.TextTyped(it))\n          }\n      )\n      Switch(\n          checked = switchState,\n          onCheckedChange = {\n              switchState = it\n              actionDispatcher.dispatch(MyScreenAction.SwitchChanged(it))\n          }\n      )\n  }\n}\n\n// ViewModel\nclass SomeViewModel(\n    private val flowCaActionStream: FlowCaActionStream // Action 스트림 주입\n) : CaViewModel<MyScreenAction>(flowCaActionStream, MyScreenAction::class) { // 수신할 Action 타입 지정\n\n    // CaViewModel 내부에서 flowAction을 통해 MyScreenAction 타입의 이벤트만 필터링하여 수신\n    // reducer 메소드에서 각 Action 처리 로직 구현\n    override suspend fun reducer(action: MyScreenAction) {\n        when (action) {\n            is MyScreenAction.ButtonClick -> {\n                // 버튼 클릭 처리 로직\n                Log.d(\"SomeViewModel\", \"Button Clicked\")\n            }\n            is MyScreenAction.TextTyped -> {\n                // 텍스트 입력 처리 로직\n                Log.d(\"SomeViewModel\", \"Text Typed: ${action.text}\")\n            }\n            is MyScreenAction.SwitchChanged -> {\n                // 스위치 변경 처리 로직\n                Log.d(\"SomeViewModel\", \"Switch Changed: ${action.isOn}\")\n            }\n        }\n    }\n}\n\n\n\n사용성 측면에서의 개선\n필요한 Action을 LocalAction.current를 통해 어디서든 호출할 수 있으므로, ViewModel 인스턴스를 계속해서 하위 Composable로 전달할 필요가 없어 개발 편의성이 향상될 수 있다.\nCompositionLocal에 적절한 기본값이나 테스트용 구현체를 제공하면 Preview 동작에도 문제가 없다. 다만, Preview에서 특정 UI 요소의 상태 변화나 인터랙션을 테스트하려면, 선언형 UI의 원칙에 따라 Stateless - link한 Composable을 만들고 상태와 이벤트를 외부에서 주입하는 것이 좋다.\n\n// Stateless Composable 예시\n@Composable\nfun SomeContent(\n    text: String,\n    isSwitchOn: Boolean,\n    onButtonClick: () -> Unit,\n    onTextTyped: (String) -> Unit,\n    onSwitchChange: (Boolean) -> Unit,\n    modifier: Modifier = Modifier // Modifier 추가 권장\n) {\n    Column(modifier = modifier) {\n        Button(onClick = onButtonClick) { /* ... */ }\n        TextField(value = text, onValueChange = onTextTyped)\n        Switch(checked = isSwitchOn, onCheckedChange = onSwitchChange)\n    }\n}\n\n// Statefull Composable (ViewModel과 연결)\n@Composable\nfun SomeScreen(viewModel: SomeViewModel = hiltViewModel()) { // Hilt 등 DI 활용 예시\n    val actionDispatcher = LocalActionDispatcher.current // Action 발송기\n    // ViewModel로부터 상태를 구독하거나, 필요한 상태를 여기서 관리\n    val textState by viewModel.textState.collectAsState() // 예시 StateFlow\n    val switchState by viewModel.switchState.collectAsState() // 예시 StateFlow\n\n    SomeContent(\n        text = textState,\n        isSwitchOn = switchState,\n        onButtonClick = { actionDispatcher.dispatch(MyScreenAction.ButtonClick) },\n        onTextTyped = { actionDispatcher.dispatch(MyScreenAction.TextTyped(it)) },\n        onSwitchChange = { actionDispatcher.dispatch(MyScreenAction.SwitchChanged(it)) }\n    )\n}\n\n\n이 방식(Stateless/Statefull 분리 및 CompositionLocal 활용)의 단점은 다음과 같다.\nViewModel에서 모든 UI 인터랙션을 하나의 reducer 함수로 통합 관리하기보다, 각 상태 업데이트 로직과 이벤트 발송 로직이 분리될 수 있다. (이는 관점에 따라 장점일 수도 있다)\n새로운 Action 이벤트를 추가할 때, ViewModel의 reducer에서도 해당 이벤트를 처리하는 로직을 추가해야 한다. (이는 sealed interface 사용 시 컴파일 타임에 강제될 수 있어 오히려 장점이 될 수 있다.)\n하지만 장점은 다음과 같습니다.\n각 UI 요소의 이벤트 발송 책임이 명확해진다.\nStateless Composable은 재사용 및 테스트가 용이하다.\nCompositionLocal을 통해 이벤트 발송 인터페이스 접근이 간편하다.\n\n정리하면\n해결하고 싶었던 지점\nView와 ViewModel 간의 이벤트 전달을 왜 항상 ViewModel 인스턴스를 통해 viewModel.someFunction() 형태로 직접 호출해야 할까?\nComposable 함수의 깊이가 깊어질 때 ViewModel 인스턴스나 콜백 함수를 계속 전달해야 하는 번거로움을 줄일 수 없을까?\n그래서 도입한 Action(CompositionLocal)\n이벤트 처리를 위한 Action 인터페이스와 이를 쉽게 발송(dispatch)할 수 있는 ActionDispatcher를 CompositionLocal로 제공하여, Composable 함수 내에서 발생하는 보일러플레이트를 줄이고자 했다.\n하지만 여전히 해결해야 할 문제가 있는데\n이벤트를 보내는 쪽(View)과 받는 쪽(ViewModel)에서 정확히 어떤 Action 타입을 사용하고 처리할지 명확히 약속이 필요하다. 만약 서로 다른 타입을 사용하거나 누락하면 이벤트가 유실되어 동작하지 않는 치명적인 문제가 발생할 수 있다.\n이 문제를 해결하고 개발 과정에서 실수를 줄이기 위해 sealed interface를 사용하여 Action을 정의하는 방식을 채택했다. sealed interface를 사용하면 ViewModel의 reducer에서 when 식으로 처리할 때 모든 하위 타입을 강제로 구현해야 하므로, 이벤트 누락 가능성을 컴파일 시점에 방지할 수 있다. 이는 UI 동작 관련 테스트 케이스를 일부 줄여줄 수 있는 장점도 있다.\n\n그래서 발견한 문제\nSwift-composable architecture - 링크를 참고하여 아키텍처를 구상하다 보니, Reducer가 특정 액션을 처리한 후 다음 액션을 연쇄적으로 발생시키는 구조를 발견했다.\nSwift Composable Architecture의 코드 예시를 보면, Reduce 클로저 내에서 .send나 다른 이펙트(Effect)를 반환하여 다음 동작을 유발할 수 있다. (아래 코드는 TCA의 이전 버전 구문일 수 있으며, 현재는 @Reducer 매크로 등을 사용한다.)\n\n// TCA 예시 (개념 설명용)\nReduce { state, action in\n  switch action {\n  case .buttonTapped:\n    state.isLoading = true\n    // 이펙트를 반환하여 비동기 작업 후 다른 액션(.dataLoaded)을 발생시킴\n    return .run { send in\n      let data = try await apiClient.fetchData()\n      await send(.dataLoaded(data))\n    }\n  case let .dataLoaded(data):\n    state.isLoading = false\n    state.data = data\n    return .none // 추가 액션 없음\n  // ...\n  }\n}\n\n\n이러한 ‘액션 후 연쇄 액션’ 개념을 안드로이드에서 Flow와 제가 만든 Action 시스템으로 구현해보고자 했다. 하지만 여기서 두 가지 주요 문제가 발생했다.\n자동 nextAction 호출로 인한 문제:\n    \nViewModel의 reducer 함수가 반환하는 값을 기반으로 시스템이 자동으로 다음 액션(nextAction)을 발생시키도록 설계했더니, 개발자가 이 동작 방식을 정확히 이해하고 사용해야 하는 부담이 늘었다. 알아야 할 규칙이 많아진 것.\n결정적으로, nextAction을 잘못 지정하거나 reducer 로직에 실수가 있으면 무한 루프에 빠질 위험이 있었다. 디버깅이 불가능한 것은 아니지만, 코드 설계상 예측 가능한 문제가 쉽게 발생할 수 있는 구조였다.\n싱글턴 Action 스트림과 Lifecycle 동기화 문제:\n    \n앱 전체에서 단 하나의 Action 스트림(FlowCaActionStream)을 싱글턴으로 사용하다 보니, 새로운 Activity가 실행되거나 Composable Navigation 라이브러리(like Navigation-Compose)를 통해 화면이 전환될 때 문제가 발생했다.\n예를 들어, Activity A와 Activity B가 있고 각각 여러 Composable 화면(Screen)을 가지고 있다고 가정해 보자. 사용자가 Activity B에 있더라도, 백그라운드의 Activity A에 속한 ViewModel들이 여전히 싱글턴 Action 스트림을 구독하고 있을 수 있다. 만약 특정 Action이 Activity B에서 발생했는데, Activity A의 ViewModel도 해당 Action 타입에 대해 필터링 로직(filterIsInstance)을 가지고 있다면, 의도치 않게 Activity A의 ViewModel에서도 해당 Action이 처리될 수 있다. (물론 reducer 로직 내에서 현재 화면 상태 등을 체크하여 방어할 수는 있겠지만, 근본적으로 불필요한 구독 및 처리 시도가 발생한다.)\n이는 특히 Alert, Toast, Router(화면 전환)와 같이 앱 전역적으로 영향을 줄 수 있는 Side Effect 처리 시 동기화 문제를 일으킬 수 있다. ViewModel의 생명주기(viewModelScope)는 일반적으로 Composable의 생명주기보다 길기 때문에 이 문제가 더 두드러진다.\n이 두 가지 문제를 어떻게 해결했는지 구체적으로 설명하겠다.\n\n문제점 1 - 무한 루프 가능성 해결하기\n무한 루프 발생 가능성을 제거하기 위해 기존 CaViewModel의 flowAction 처리 방식에서 문제의 소지가 있는 부분을 수정했다.\n기존 코드 (문제 발생 가능성 있음):\nabstract class CaViewModel<ACTION : CaAction, SIDE_EFFECT : CaSideEffect>(\n    private val flowCaActionStream: FlowCaActionStream, // 'private' 추가 (캡슐화)\n    actionClass: KClass<ACTION>,\n) : ViewModel() {\n\n    @VisibleForTesting\n    val flowAction by lazy(LazyThreadSafetyMode.NONE) {\n        flowCaActionStream.flowAction()\n            .filterIsInstance(actionClass) // 1. 해당 ViewModel이 처리할 Action만 필터링\n            .map { action -> // 2. reducer를 호출하고, 그 결과를 반환 (문제의 소지)\n                reducer(action = action) // reducer가 다음 Action을 반환한다고 가정\n            }\n            .onEach { nextActionToDispatch -> // 3. map에서 반환된 다음 Action을 자동으로 전파 (문제!)\n                flowCaActionStream.nextAction(nextActionToDispatch) // 무한 루프 가능 지점\n            }\n            // .launchIn(viewModelScope) // 실제로는 여기서 launch 되어야 함\n    }\n\n    // reducer 함수가 다음 Action을 반환하는 형태였다고 가정\n    abstract suspend fun reducer(action: ACTION): CaAction? // 예시: 반환 타입이 다음 Action\n}\n\n수정된 코드:\n\nabstract class CaViewModel<CA_ACTION : CaAction>(\n    private val flowCaActionStream: FlowCaActionStream,\n    actionClass: KClass<CA_ACTION>,\n) : ViewModel() {\n\n    // Action 처리를 위한 Flow (자동 nextAction 로직 제거)\n    @VisibleForTesting\n    internal val actionProcessingFlow by lazy(LazyThreadSafetyMode.NONE) { // 'internal'로 변경하고 이름 명확화\n        flowCaActionStream.flowAction()\n            .filterIsInstance(actionClass) // 1. 처리할 Action 필터링\n            .onEach { action -> // 2. map 대신 onEach 사용. 각 Action에 대해 reducer만 실행 (반환값 사용 안 함)\n                reducer(action = action)\n            }\n            // 3. 자동 nextAction 전파 로직 제거됨\n    }\n\n    // reducer 함수는 이제 Side Effect 처리나 상태 변경에만 집중 (반환값 없음)\n    abstract suspend fun reducer(action: CA_ACTION)\n\n    // 다음 Action을 명시적으로 전파하고 싶을 때 호출하는 함수 추가\n    protected fun nextAction(action: CaAction) { // 'protected'로 변경하여 자식 클래스에서만 사용하도록 제한\n        flowCaActionStream.nextAction(action)\n    }\n\n    // 실제 Flow 구독 시작/취소는 별도 관리 (아래 Lifecycle 해결 부분 참조)\n    @VisibleForTesting\n    var actionProcessingJob: Job? = null\n}\n\n\n수정 내용 요약:\nmap -> onEach 변경: reducer 함수가 다음 Action을 반환하고 이를 map 연산자가 받아 downstream로 흘려보내는 구조를 제거했다. 대신 onEach를 사용하여 각 Action에 대해 reducer 함수를 실행만 하도록 변경다. 이로써 reducer의 반환값과 관계없이 자동 nextAction 호출 가능성이 사라졌다.\n명시적 nextAction 함수 추가: 연쇄적인 Action 전파가 필요한 경우, 개발자가 reducer 함수 내에서 직접 nextAction(action) 함수를 호출하도록 변경했다. 이는 시스템에 의한 암묵적인 동작 대신, 개발자의 명확한 의도에 따라 다음 Action이 발생하도록 하여 코드의 예측 가능성을 높인다.\n이제 reducer 내에서 다음과 같이 명시적으로 다음 Action을 지정해야 한다.\noverride suspend fun reducer(action: MyScreenAction) {\n    when (action) {\n        is MyScreenAction.ButtonClick -> {\n            // 예시: 버튼 클릭 후 특정 조건 만족 시 Alert 표시 Action 전파\n            if (shouldShowAlert()) {\n                nextAction(CommonUiAction.ShowAlert(\"버튼 클릭됨!\")) // 명시적으로 nextAction 호출\n            }\n        }\n        // ... 다른 Action 처리\n    }\n}\n\n이 변경으로 시스템적인 무한 루프 발생 가능성은 제거되었고, 코드의 흐름이 더 명확해졌다.\n\n문제점 2 - Lifecycle 문제 해결하기\n싱글턴 Action 스트림(FlowCaActionStream) 사용 시 발생하는 Lifecycle 동기화 문제를 해결하기 위해, Composable의 Lifecycle에 맞춰 ViewModel의 Action 스트림 구독을 시작하고 중지하는 방식을 도입했다.\n문제 상황: Activity A와 B가 있을 때, Activity B가 화면에 보이는 동안에도 백그라운드의 Activity A에 있는 ViewModel이 Action 스트림을 계속 구독하고 있으면, Activity B에서 발생한 Action이 Activity A의 ViewModel에게도 전달될 수 있다. (물론 filterIsInstance로 타입 필터링은 되지만, 같은 타입의 Action을 여러 화면에서 사용한다면 문제가 된다.)\n\n\n해결 방안: Lifecycle에 따른 구독 제어\nComposable의 Lifecycle 상태(특히 ON_RESUME, ON_PAUSE)에 맞춰 ViewModel 내 Action 스트림(actionProcessingFlow)의 구독(Job)을 시작하고 취소하는 방법을 사용합니다. 이를 위해 DisposableEffect와 LocalLifecycleOwner를 활용하는 Helper Composable 함수를 만들었습니다.\n\n@Composable\nfun LaunchedLifecycleViewModel(\n    viewModel: CaViewModel<*> // 라이프사이클 관리가 필요한 ViewModel\n) {\n    val lifecycleOwner = LocalLifecycleOwner.current\n    DisposableEffect(lifecycleOwner, viewModel) { // lifecycleOwner와 viewModel이 키\n        val observer = LifecycleEventObserver { _, event ->\n            when (event) {\n                Lifecycle.Event.ON_RESUME -> {\n                    // 화면이 활성화되면 Action 스트림 구독 시작\n                    viewModel.startActionProcessing()\n                }\n                Lifecycle.Event.ON_PAUSE -> {\n                    // 화면이 비활성화되면 Action 스트림 구독 취소\n                    viewModel.cancelActionProcessing()\n                }\n                // ON_DESTROY는 DisposableEffect의 onDispose에서 처리되거나\n                // ViewModel의 onCleared에서 처리될 수 있음\n                else -> { /* Do nothing for other events */ }\n            }\n        }\n        lifecycleOwner.lifecycle.addObserver(observer)\n\n        // Composable이 Composition에서 제거될 때(onDispose) Observer 제거\n        onDispose {\n            lifecycleOwner.lifecycle.removeObserver(observer)\n            // 필요하다면 여기서도 cancelActionProcessing() 호출 고려\n            // viewModel.cancelActionProcessing()\n        }\n    }\n}\n\n\n그리고 CaViewModel에 Action 스트림 구독을 시작하고 취소하는 함수를 추가한다. (internal 접근 제한자를 사용하여 모듈 외부에서의 직접 호출을 방지한다.)\n\nabstract class CaViewModel<CA_ACTION : CaAction>(\n    // ... (이전 코드와 동일)\n) : ViewModel() {\n\n    // ... (actionProcessingFlow, reducer, nextAction 등) ...\n\n    @VisibleForTesting\n    var actionProcessingJob: Job? = null // 구독 상태를 관리하는 Job\n\n    // Action 스트림 구독 시작 (ON_RESUME 시 호출됨)\n    internal fun startActionProcessing() {\n        // 이미 실행 중이라면 중복 실행 방지\n        if (actionProcessingJob?.isActive == true) return\n\n        // 기존 Job이 있다면 취소 (혹시 모를 상황 대비)\n        cancelActionProcessing()\n\n        // actionProcessingFlow를 viewModelScope에서 구독 시작\n        actionProcessingJob = actionProcessingFlow\n            .launchIn(viewModelScope)\n    }\n\n    // Action 스트림 구독 취소 (ON_PAUSE 시 호출됨)\n    internal fun cancelActionProcessing() {\n        actionProcessingJob?.cancel()\n        actionProcessingJob = null\n    }\n\n    // ViewModel이 파괴될 때(onCleared) 확실하게 Job 취소\n    override fun onCleared() {\n        super.onCleared()\n        cancelActionProcessing()\n    }\n}\n\n\n위 코드를 활용하는 방법은?\n각 화면의 최상위 Composable에서 ObserveLifecycle 함수를 호출해주어야 한다.\n@Composable\nfun SomeScreen(viewModel: SomeViewModel = hiltViewModel()) {\n    // ViewModel의 Action 구독 라이프사이클 관리\n    LaunchedLifecycleViewModel(viewModel = viewModel)\n\n    // --- 실제 UI ---\n    // val state by viewModel.uiState.collectAsState()\n    // SomeContent(...)\n    // ---\n}\n\n개선 아이디어: 매번 ObserveLifecycle(viewModel)를 호출하는 것이 번거롭다면, ViewModel 인스턴스를 얻을 때 자동으로 이 로직을 포함시키는 확장 함수나 위임(delegate)을 고려해볼 수 있다. 예를 들어:\n\n@Composable\nfun Some(viewModel: ViewModel = hiltViewModel().Activate()) {\n  // Your view\n}\n\n\n또는 hilt를 직접 확장한다면 아래와 같다.\n\n// 개념적인 아이디어 (구현 필요)\n@Composable\ninline fun <reified VM : CaViewModel<*>> hiltViewModelWithLifecycle(): VM {\n    val viewModel: VM = hiltViewModel()\n    LaunchedLifecycleViewModel(viewModel = viewModel)\n    return viewModel\n}\n\n// 사용 예시\n@Composable\nfun SomeScreen(viewModel: SomeViewModel = hiltViewModelWithLifecycle()) {\n    // 이제 LaunchedLifecycleViewModel() 호출 불필요\n    // ... UI ...\n}\n\n\n(Gemini 주의: hiltViewModelWithLifecycle 같은 함수는 Composable 함수 내에서 다른 Composable 함수(LaunchedLifecycleViewModel)를 호출하는 방식이므로, ViewModel 생성 로직과 Lifecycle 관찰 로직을 분리하는 것이 더 좋을 수 있다. 또는 별도의 진입점 Composable에서 처리하는 방식도 고려할 수 있다.)\n고려사항:\n이 방식은 ViewModel이 간접적으로 UI Lifecycle을 인지하게 되는 것 아니냐는 비판이 있을 수 있다. 하지만 start/cancelActionProcessing 함수 호출 시점은 ViewModel 외부(LaunchedLifecycleViewModel)에서 결정되므로, ViewModel 자체는 Lifecycle 객체를 직접 참조하지 않는다.\nON_RESUME / ON_PAUSE 이벤트마다 Job을 취소하고 다시 시작하는 오버헤드가 발생할 수 있다. 하지만 이는 화면이 실제로 보이지 않을 때 불필요한 Action 처리를 방지하는 효과적인 방법 중 하나이다.\n\n해결했을까?\n위 변경 사항들을 통해 초기 설계에서 발견된 두 가지 주요 문제점을 해결할 수 있었다.\n무한 루프 발생 가능성: reducer 처리 후 자동 nextAction 전파 로직을 제거하고, 명시적인 nextAction 함수 호출 방식으로 변경하여 해결했다.\n싱글턴 Action 스트림의 Lifecycle 문제: Composable의 Lifecycle에 맞춰 ViewModel의 Action 스트림 구독을 제어하는 LaunchedLifecycleViewModel Helper Composable을 도입하여, 비활성 화면에서의 불필요한 Action 처리 가능성을 해결했다.\n하지만 항상 더 나은 방법이 있을 수 있다.\n\n구독하는 더 좋은 방법은 없을까?\nON_RESUME/ON_PAUSE 마다 launchIn으로 Job을 생성하고 취소하는 방식 대신, Flow의 stateIn 연산자를 활용하는 방법을 고려해볼 수 있다.\nstateIn 연산자는 Flow를 StateFlow로 변환하며, 구독자(collector)의 유무에 따라 업스트림 Flow의 실행을 제어할 수 있는 SharingStarted 정책을 제공한다. 예를 들어 SharingStarted.WhileSubscribed() 정책을 사용하면, StateFlow를 구독하는 Composable이 화면에 보이는 동안(collectAsState 등으로 구독 중)에만 업스트림 Flow(actionProcessingFlow)가 활성화되고, 화면에서 사라지면 자동으로 구독이 중단(cancel)될 수 있다.\n이러한 접근 방식은 Slack에서 만든 Circuit - link 아키텍처와 유사한 방향으로 흘러갈 수 있다. Circuit에서는 Presenter가 UI State를 Flow로 노출하고, UI 이벤트는 Sink를 통해 Presenter로 전달됩니다. Presenter 내부 로직의 실행 여부는 최종적으로 UI State Flow의 구독 여부에 따라 결정될 수 있다.\nskydoves(재웅 님)가 작성한 Loading Initial Data in LaunchedEffect vs. ViewModel - link 글에서도 LaunchedEffect 내에서의 데이터 로딩과 ViewModel의 stateIn을 활용한 데이터 로딩 방식을 비교하며 유사한 아이디어를 엿볼 수 있다.\n결국 상태(State)를 중심으로 데이터 흐름을 관리하고, 그 상태의 구독 생명주기에 맞춰 연관된 로직(Action 처리 등)의 실행 여부를 제어하는 방식이 더 Compose 친화적이고 효율적일 수 있다.\n저는 현재 설계에서 상태 관리와 이벤트 처리를 분리하고 싶어 이 방식(Circuit이나 stateIn을 전면적으로 활용하는 방식)까지 적용하지는 않았지만, 궁극적으로는 이와 유사한 형태로 발전할 수 있지 않을까 생각하고 있다.\n\nNext\n이번 글에서는 기존 Composable Architecture 설계에서 발견된 2가지 문제점을 파악하고 이를 해결하기 위해 어떤 고민과 선택을 했는지 정리해보았다.\n다음 글에서는 이 아키텍처를 활용하여 구현한 구체적인 기능들을 다룰 예정이다.\n코드에는 이미 있지만 Alert/Toast를 포함하고있다.\nRouter(액티비티, 네비게이션)를 처리하기 위한 부분도 포함하고있다.\n이제 다음 글에서 이 두개를 정리할 계획이다.\n\n작성 글 이어보기\n컴포즈에 사용할 Composable Architecutre 설명(리엑트?)\nComposable Architecutre는 만들었는데 문제가 있었네? 개선해보자.\n예고 - Composable Architecutre를 활용한 Alert/Toast?\n예고 - Composable Architecutre를 활용한 Router?",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://thdev.tech/architecture/2025/04/15/Android-Architecture-02/",
+    "pubDate": "Tue, 15 Apr 2025 00:00:00 +0000",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "배우 김수현, 故 김새론과의 의혹 해명에도&hellip;&ldquo;밤 11시에 닭볶음탕?&rdquo; 여론은 여전히 싸늘",
-    "description": "2025년 3월 31일, 배우 김수현이 긴급 기자회견을 열고 故 김새론과의 관계에 대한 입장을 밝혔습니다. 하지만 이 해명 이후에도 대중의 의문은 가라앉지 않고 있습니다. 그 중심에는 “고등학교 2학년, 17세였던 김새론이 밤 11시에 김수현 가족이 있는 집에서 닭볶음탕을 만들었다는 정황”이 있습니다.\n▶ “연인이 아니었다”는 주장…하지만 그 밤의 정황은?\n김수현 측은 공식 입장에서 “당시 연인 관계가 아니었고, 가족들도 함께 있었다”고 해명했습니다. 논란이 된 영상은 2018년 6월 촬영된 것으로, 당시 김새론은 고등학교 2학년, 만 17세의 미성년자였습니다.\n해당 영상은 밤 11시 20분경 촬영되었으며, 식탁 위에는 소주병과 소주잔이 놓여 있었다는 점이 확인되며 더욱 논란이 커지고 있습니다. 소속사는 단순한 가족 식사 자리였다고 주장하지만, 많은 이들은 이 상황 자체를 납득하기 어렵다는 반응입니다.\n▶ “사귀지도 않았는데, 밤 11시에 가족 집에서 요리?”\n온라인 커뮤니티와 SNS에서는 다양한 반응이 이어지고 있습니다:\n“사귀지 않았다면 오히려 더 이상한 상황”\n“그 시간에 미성년자가 남자 집에 있었다는 것 자체가 부적절하다”\n“친구 사이여도 집에 돌려보낼 시간 아닌가?”\n또한, 김새론이 김수현에게 보냈다는 카카오톡 메시지 내용도 공개되었습니다. 메시지에는 “보고 싶어”, “언제 안고 잘 수 있어?” 등 연인 사이로 보일 수 있는 문구가 담겨 있었지만, 김수현 측은 “전면 조작된 메시지”라며 원본 데이터 제출을 요구한 상태입니다.\n▶ 해명에도 남은 의문…김수현 이미지 타격 불가피\n김수현 소속사는 “미성년자와의 교제는 결단코 없었다”며 법적 대응을 시사하고 있지만, 유튜브 채널 ‘가세연’ 측의 공세는 계속되고 있습니다. 특히 “사귄 적 없다”는 해명은 ‘그루밍’ 논란으로 이어지며, 연예계 전반에 큰 파장을 주고 있습니다.\n한 프로파일러는 해당 상황에 대해 “상대를 잘못 골랐다”며 사안의 심각성을 지적했습니다. 이번 논란은 단순한 해명이 아닌, 도덕성과 윤리적 판단에 대한 대중의 평가로 이어지고 있으며, 김수현의 이미지 회복은 당분간 쉽지 않을 것으로 보입니다.\n⚠️ 본 포스팅은 대중에 공개된 기사 및 자료에 기반해 작성된 콘텐츠로, 사실 여부에 대한 판단은 독자에게 맡깁니다.",
+    "title": "Vlad Mihalcea와의 인연",
+    "description": "유튜브나 블로그를 하다 보면 예상치 못한 인연들이 생긴다.\n지금까지 10년 가까운 시간을 블로그를 하면서 큰 동력이 된 사건이기도 하다.\n \n운이 좋게도 2014년부터 다녔던 회사는 Hibernate를 사용하는 회사였고, 그 당시 iBatis, MyBatis를 쓰는 것이 당연한 상황에서 Hibernate를 실무에서 사용해볼 수 있었다.\n다만, 처음 사용해보는 기술이니 이걸 더 잘 쓰기 위해서 공부를 하고 싶은데 공부할 수 있는 컨텐츠가 없었다.\n한국어로 된 컨텐츠의 대부분은 iBatis, MyBatis였기 때문이다.\n다행히 기선님이 번역해주신 개빈 킹의 하이버네이트 완벽가이드가 있었지만 나 같은 초보 개발자에겐 너무나 어렵게 느껴져 한줄 한줄 밑줄 그어가며 이해하려고 노력했다.\n영한님의 Java ORM에 대한 DevOn 발표 자료도 발견하게 되고 이후엔 영한님의 책 까지 보면서 Java ORM에 대해 훨씬 쉽게 다가갈 수 있었고 실무를 하는데 있어서 충분히 많은 지식을 쌓을 수 있었다.\n이후에도 계속 JPA, Hibernate를 실무에서 계속 사용할 수 있었는데, 구글링 할때마다 항상 만나는 블로그와 스택오버플로우의 답변 유저가 있었다.\n그게 바로 Vlad Mihalcea였다.\n나중에 알고 보니 그는 자바 챔피언이자 Hibernate Top Committer 였다는 것에 \"역시...\" 라는 생각을 했다.\n당시에는 \"와 역시 해외는 어마어마한 개발자들이 많구나. 영어 공부 진짜 열심히 해야겠다\" 라는 생각을 하면서 열심히 그의 글을 탐닉했다.\n새로운 글이 올라오면 항상 챙겨보고 그게 진짜 맞는지 성능 테스트를 진행해보고 효과를 확인 한뒤에는 회사에 적용하는 등 그의 지식을 어떻게든 내 것으로 다 흡수하고 싶었다.\n그의 책 High-Performance Java Persistence는 사무실 책상 위에 항상 펼쳐져 있었다.\n그렇게 몇년의 경력이 쌓이던 중,\n2018년 갑자기 블로그의 트래픽이 폭발적으로 늘어나는 일이 있었다.\n어디서 이렇게 유입된 건지 찾아보다가 Hibernate 공식 커뮤니티 뉴스레터 2018년 10호에서 내가 작성한 \"Spring Boot Data JPA 2.0 에서 id Auto_increment 문제 해결\"을 소개한 것을 발견했다.\n전세계 Java 개발자들이 구독하고 있는 Hibernate 뉴스레터에서 언급된 것이다.\n그 뉴스레터는 내가 매일 방문하던 Vlad Mihalcea가 작성한 것이기에 믿기지 않는 순간이였다.\n\n\n\n이때의 기억이 강렬해서 \"와 블로그 진짜 오래오래 해야겠다\" 라는 다짐을 했었다.\n그리고 10년 넘게 블로그를 운영하게 되었다.\n그 날 이후로는 기술적인 글 외에도, Vlad Mihalcea 라는 개발자에 대해서도 관심을 가지기 시작했다.\n그의 기술적인 노하우 뿐만 아니라,\n'이 사람은 도대체 어떤 커리어를 밟아왔을까?'\n'어떻게 자바 챔피언이 되었을까?'\n'어떻게 이렇게 한 분야에서 세계적인 전문가가 되었을까?' 등등.\nHow to become a Java Champion\n책 외에 또 배울 수 있는 것들이 없을까 싶어 그의 온라인 스토어에서 판매하는 온라인 강의들도 찾아서 들었다.\nJava Persistence 에서의 성능 개선 노하우나 Java 환경에서의 SQL 성능 개선 등 자바 개발자 뿐만 아니라 ORM을 사용하는 개발자로서 필요한 대부분의 성능 개선 노하우를 얻을 수 있었다.\nORM과 SQL 양 쪽에 맞는 가장 적절한 성능 튜닝 사례들을 배울 수 있었고, 이때 배운 지식들은 수십억건의 데이터들 사이에서도 복잡한 도메인들을 처리하는데 큰 힘이 되었다.\n다만, 강의를 수강하는게 수월하지는 않았다.\n영어로만 강의가 제공되어서 하나의 강의를 수강하는데 하나하나를 번역해서 보는데 너무 많은 힘이 들었고\n결제 오류가 빈번해서 결제하기가 쉽지 않았고\n강의를 수강하는데 있어서의 편의 기능이 많이 부족했다. (모바일 플레이어, 자막 등등)\n그래도 좋았다.\n이것마저 없으면 그의 양질의 컨텐츠를 볼 수 있는 방법이 없는데, 이렇게라도 볼 수 있으니 말이다.\n이렇게 쌓인 노하우는 이후에 전 직장 첫번째 컨퍼런스에서 아낌없이 쏟아낼 수 있었다.\n[우아콘2020] 수십억건에서 QUERYDSL 사용하기\n이 세션은 (갓)영한님의 세션 다음으로 가장 높은 조회수가 나와서 많은 개발자분들이 좋아해주셨다.\n그동안의 공부와 경험이 전혀 잘못되지 않았다는 것을 느끼게 해주었다.\n이런 경험으로 성장을 해왔기에,\n현재 회사로 이직하고 나서 우리팀 백엔드 개발자분들에게 Vlad의 강의를 너무 소개해주고 싶었다.\n꼭 JPA 뿐만 아니라 모든 ORM과 SQL을 사용하는 개발자들에게 필수적인 내용을 담고 있기 때문이다.\n우리 같이 Node.js가 주력인 개발팀에는 언어나 프레임워크에 상관없이 이런 강의가 대단히 필요하다.\n하지만, 위에서 언급한 \"언어의 장벽이나 결제, 학습 편의성\" 등을 생각하니 \"우리 팀 분들에게도 나처럼 힘들게 공부하시라\" 라고 이야기하기 어려웠다.\n어떻게든 우리팀에 이 지식들을 가장 편하게 전달하고 싶었다.\n어떡하는게 좋을까....?\n그래서 Vlad Mihalcea에게 연락을 드렸다.\n당신의 강의를 한국어로, 일본어로, 베트남어로 듣고 싶다고.\nVlad는 너무나 쿨하게, 너무나 멋지게 이 협업을 받아들여 주셨다.\n그리고 드디어!\nVlad Mihalcea의 공식 강의 2개가 인프런에 오픈되었다.\n  High-Performance Java Persistence\n  High-Performance SQL\n  이 강의들은 한국어, 일본어, 베트남어, 영어로 자막 및 더빙이 제공됩니다.\n즉, 아시아권 개발자 누구나 언어 장벽 없이 수강하실 수 있도록 준비되어 있습니다.\n더욱 감사한 것은 오픈 기간 동안40% 할인까지도 동의해주셨다.\nVlad Mihalcea 님의 오픈 이벤트\n\"실무에서 성능과 구조 모두를 고려해야 하는 상황에서 무엇을 기준으로 선택할 것인가\" 를 알려주는 강의를 이제 우리 팀원들에게도 알려줄 수 있게 되어서 너무나 기뻤다.\n우리 팀 외에도 특히 다음과 같은 분들께 추천드리고 싶다:\nJPA, Hibernate 등을 사용하지만 내부 구조를 분석하고 근본적인 이해를 높이고 싶거나\n실무 환경의 Java Data Access 계층에서 발생하는 성능 문제를 해결하는 방법을 배우고 싶거나\nORM 을 적극적으로 쓰는 환경에서의 SQL 성능 개선 방법을 배우고 싶거나\n이런 분들이라면 이번 Vlad의 강의를 적극 추천하고 싶다.\n전세계 Java 개발자들이 Vlad의 컨텐츠를 좋아하고 강의를 듣는 이유가 무엇인지 잘 알 수 있다.\n지금 Java 개발을 시작하는 분들은 나처럼 영어 문장 하나 하나를 직접 번역해가며, 여러 해외카드들을 교체해가며 결제하는 등의 불편함 없이 배울 수 있게 되었다는 것이 훨씬 기쁘다.\nVlad 외에도 세상엔 너무나 훌륭한 개발자분들과 그들의 강의들이 있다.\n이 강의들을 모두 다 언어와 결제, 학습의 제약 없이 듣는 것을 꿈꾸고 있다.\n그리고 출간을 준비하고 있는 High-Performance Java Persistence 2판도 인프런에서 만나볼 수 있게 되기를 기대한다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EB%B0%B0%EC%9A%B0-%EA%B9%80%EC%88%98%ED%98%84-%E6%95%85-%EA%B9%80%EC%83%88%EB%A1%A0%EA%B3%BC%EC%9D%98-%EC%9D%98%ED%98%B9-%ED%95%B4%EB%AA%85%EC%97%90%EB%8F%84%E2%80%A6%E2%80%9C%EB%B0%A4-11%EC%8B%9C%EC%97%90-%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95%E2%80%9D-%EC%97%AC%EB%A1%A0%EC%9D%80-%EC%97%AC%EC%A0%84%ED%9E%88-%EC%8B%B8%EB%8A%98",
-    "pubDate": "Fri, 11 Apr 2025 23:18:10 +0900",
-    "creator": "흰끼끼",
-    "categories": []
+    "link": "https://jojoldu.tistory.com/825",
+    "pubDate": "Thu, 17 Apr 2025 11:23:28 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "hibernate",
+      "high-performance java persistence",
+      "high-performance sql",
+      "java champion",
+      "JPA",
+      "Vlad Mihalcea"
+    ]
   },
   {
     "id": 6,
-    "imageUrl": "",
-    "title": "DeepSeek-R1 로컬 실행 시 추천 모델(증류 모델)",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/ai-llm_20250414/",
-    "pubDate": "Mon, 14 Apr 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "유니티 6 웹 용량 줄이기에 대한 설명 / unity web",
-    "description": "영상: https://youtu.be/eCTKiBVUdRM?t=386\n\n\n\n영상 요약\n6분 30초 부터 나오구요\nbr 악춤 외도 여러가지가 있군요\n그리고 이제webgl 대신 웹 이라고 부르기로 했다고 하네요\n그래서 유니티 웹 이 되겠습니다.\nUnity Play 에 올릴 것을 권장하네요\n \n용어의 통일\nUnity 6 부터는 webgl 을 Unity Web 으로 부르기로 했다고 합니다.\nWebGL HTML5 WebGPU 등 계속해서 신기술이 개발되어 새로운 용어가 생겨나기 때문에 용어를 통일한다고 하네요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1261",
-    "pubDate": "Mon, 14 Apr 2025 01:48:19 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "PhpStorm 2025.1 Is Now Available",
-    "description": "This release is a major update that includes improvements in PHPStan annotations, Xdebug, and WordPress support, an AI Free tier and new subscription system for JetBrains AI, and more. Download PhpStorm 2025.1 PHP Code completion for @phpstan-type and @phpstan-import-type  This release improves PhpStorm’s PHPStan annotation support, introducing code completion for array shape aliases in @phpstan-type […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/04/phpstorm-2025-1-is-now-available/",
-    "pubDate": "Wed, 16 Apr 2025 13:18:22 +0000",
-    "creator": "Hanna Yakush",
-    "categories": [
-      "2025-1",
-      "release"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "유니티에서 TextMeshPro 폰트를 dynamic 으로 설정하기 / Setting TextMeshPro font to dynamic in Unity",
-    "description": "영상: https://www.youtube.com/watch?v=NY1xKqCIj3c\n\n\n\n \n영상에서는 dynamic 방식에대한 설명이 들어어있어서 매우 장황합니다.\n \n빠르게 설정 방법\n어차피 dynamic 을 설정하기위해서 이글을 보시는거기 때문에\n폰트로 폰트애셋을 굽습니다. (이건 하셨을듯)\n \n폰트애셋을 선택 합니다.\n\n\n제일아래 Aa 로된 아이콘은 TTF 폰트파일입니다. \n이걸 만지는게 아니고\n위에 F 로 되어있는 폰트애셋을 클릭합니다.\n \n인스팩터에서\n\n\nAtlas Population ~~ 보시면 static 으로 되어있을 것입니다.\ndynamic 으로 바꾸시면 구울때 없었던 본트도 실시간으로 생성됩니다.\n \n장황한 dynamic 방식에 대한 설명\n게임에 사용할 폰트를 미리 구워 사용하는 방식을 static 이라고 합니다.\n이 방식은 매우 빠르게 사용할 수 있으며 게임의 용량을 줄일 수 있습니다.\n하지만 사용할 새 글자가 추가되면 폰트 이미지를 다시 빌드해야합니다.\n(개 귀찮)\n그래서 실시간으로 사용하는 글자를 구워주는 기능을 내장하게 되었습니다.\n1. 이러면 단점으로 원본 TTF 파일을 빌드에 같이 포함해야합니다.\n     (용량이 커지겠죠)\n2. 새로운 글자를 사용하려고 할때 빌드를 해야하니 느려지겠죠\n하지만 요즘 컴퓨터는 워낙 빠르기 때문에 이런건 일도 아닙니다.\n저장 공간이나 메모리도 문제가 안될 수준으로 커졌습니다.\n2012년 모바일 환경에서는 상항한 압박이 있었습니다.\n게임은 200mb 미만이어야했고 스맛폰의 메모리는 1gb 가 안되었던 시절입니다.\n그래서 옛날엔 불편하게 게임을 만들었다 정도로 생각해두시고\n요즘은 의미 없다 편하게 쓰자 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1258",
-    "pubDate": "Sat, 12 Apr 2025 17:11:37 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "TextMeshPro",
-      "유니티",
-      "폰트"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "ChatGPT 검색 vs 추론 - 당신의 질문에 맞는 최적의 선택은?",
-    "description": "ChatGPT 검색과 추론 기능, 언제 어떤 걸 써야 할지 고민돼요? 실제 사용해보니 확실히 달라요! 사실 확인은 검색, 깊은 분석은 추론, 이 가이드로 AI 활용 효율성을 높여보세요.\n\n\n \nChatGPT 검색과 추론 기능, 어떻게 구분해서 써야 할까?\n어젯밤에 갑자기 궁금한 게 있어서 ChatGPT를 켰는데, 검색이랑 추론 중에 뭘 선택해야 할지 한참을 고민했어요. 여러분도 그런 경험 있으신가요? 이래저래 둘 다 써보니까 확실히 차이가 느껴지더라고요. 그래서 오늘은 제가 실제로 사용해보면서 알게 된 ChatGPT의 검색과 추론 기능의 차이점과 각각 언제 써야 좋은지 정리해봤습니다.  \n \n \nChatGPT 검색 기능: 구체적인 사실이나 업데이트가 필요할 때  \nChatGPT의 검색 기능은 말 그대로 구체적인 정보나 최신 데이터가 필요할 때 딱이에요. 빠르고 정확한 답변을 원한다면 검색 기능을 사용하세요. 마치 여러분 옆에 앉아서 즉각적으로 정보를 찾아주는 비서 같은 느낌이랄까요?\n\n\n최신 소식과 업데이트  \n솔직히 말해서, 요즘 뉴스 보는 것도 귀찮을 때 있잖아요. 정치 소식이나 스포츠 경기 결과, 주식 시장 상황 같은 최신 정보가 필요하시다면 ChatGPT 검색이 짱이에요.\n저는 지난주에 K리그 순위표가 궁금했는데, 여러 사이트를 뒤적거릴 필요 없이 ChatGPT 검색으로 한방에 해결했어요. 진짜 편하더라구요!\n \n프롬프트 예시:\n[검색] 현재 K리그1 순위표와 다음 경기 일정을 알려줘.\n\n기본 상식과 정의  \n가끔 갑자기 \"이 단어가 뭐였지?\" 하는 순간 있잖아요. 과학 개념이든, 어려운 단어 철자든, 역사적 사건이든 간단한 정보를 얻고 싶을 때 검색 기능이 제격이에요.\n \n예를 들어 \"애자일 방법론이 정확히 뭐야?\" 같은 질문이나 \"대한민국 제2대 대통령이 누구였지?\" 같은 기본 사실 확인에 아주 유용해요. 불필요한 세부 정보 없이 명확하고 간결한 답변을 받을 수 있어요.\n \n프롬프트 예시:\n[검색] 애자일 방법론의 정확한 의미와 장단점을 알려줘.\n[검색] 대한민국 제2대 대통령은 누구였고, 어떤 업적이 있었어?\n\n최신 제품 정보  \n요즘처럼 기술이 빠르게 발전하는 시대에는 최신 제품 사양이나 리뷰를 찾는 게 쉽지 않잖아요. ChatGPT 검색은 가젯, 자동차, 또는 다른 소비재를 비교할 때 특히 유용해요.\n \n최신 아이폰의 스펙이 궁금하거나 구매하려는 차에 대한 리뷰를 알고 싶다면, 검색 기능이 가장 신뢰할 수 있는 출처에서 최신 데이터를 가져와 줍니다.\n \n예를 들어, 최신 갤럭시폰이 이전 모델보다 성능이 더 좋은지 궁금하다면? 빠른 검색으로 새로운 기능, 스펙, 사용자 리뷰를 한눈에 볼 수 있어요. 여러 웹사이트를 뒤적거릴 필요가 없죠.\n \n프롬프트 예시:\n[검색] 최신 아이폰 15 Pro와 아이폰 14 Pro의 스펙, 가격, 카메라 성능을 비교해줘.\n[검색] 2025년 출시된 현대 아이오닉 7의 주행 거리와 충전 시간, 그리고 테슬라 모델 Y와 비교한 장단점은?\n\n지역 정보  \n날씨 예보, 주변 이벤트, 맛집 추천 같은 지역 정보도 ChatGPT 검색으로 쉽게 얻을 수 있어요. 여행 중이거나 주변에서 특별한 것을 찾고 있다면, 간단히 물어보세요.\n \n명동 근처에서 맛있는 순두부찌개 맛집을 찾고 싶다고요? ChatGPT가 즉시 리뷰와 평점을 포함한 최고 평점의 음식점 목록을 알려줄 거예요. 소중한 시간을 최대한 활용할 수 있겠죠?\n \n프롬프트 예시:\n[검색] 서울 강남역 근처 분위기 좋은 데이트 카페 추천해줘. 주차가 편한 곳으로 알려줘.\n[검색] 이번 주말 부산에서 열리는 문화 행사나 축제가 있을까?\n\n \n \nChatGPT 추론 기능: 깊이 있는 생각과 문제 해결이 필요할 때  \nChatGPT의 검색 기능이 빠르고 사실적인 답변에 좋다면, 추론 기능은 더 복잡한 작업에 진가를 발휘해요. 깊은 분석이나 창의적 사고가 필요한 까다로운 문제에 부딪혔을 때는 ChatGPT 추론의 문제 해결 능력을 활용하세요.\n\n\n복잡한 문제 해결  \n여러 계층을 분석하거나 다양한 옵션을 평가해야 하는 작업에는 ChatGPT의 추론 능력이 정말 소중해요. 사업 전략을 계획하거나 기술적인 문제를 해결할 때, ChatGPT는 다양한 각도를 탐색하고 정보에 기반한 결정을 내리는 데 도움을 줍니다.\n \n예를 들어, 스타트업을 위한 최적의 마케팅 전략을 결정하려 한다면, ChatGPT는 다양한 접근 방식의 장단점을 비교하고, 가능한 장애물을 고려하며, 유사한 사례 연구를 바탕으로 인사이트를 제공할 수 있어요. 단순히 빠른 사실만 제공하는 것이 아니라, 문제 해결을 위한 비판적 사고 과정을 안내해 줍니다.\n \n프롬프트 예시:\n[추론] 미용실 창업을 준비 중인데, 경쟁이 치열한 강남 지역에서 차별화된 마케팅 전략을 세우고 싶어. 소셜 미디어, 지역 특성, 타겟 고객층을 고려해서 구체적인 전략을 제안해줘.\n\n[추론] 우리 회사는 30명 규모의 소프트웨어 개발 스타트업인데, 재택근무와 사무실 근무를 어떻게 균형있게 조합할지 고민이야. 팀 문화, 생산성, 직원 만족도를 모두 고려한 하이브리드 근무 정책을 설계해줄 수 있을까?\n\n창의적 작업  \nChatGPT의 추론은 창의적인 브레인스토밍에도 훌륭한 선택이에요. 이 기능은 논리, 패턴, 관련 데이터를 활용하여 혁신적인 아이디어를 개발하거나 기존 아이디어를 개선하는 데 도움을 줍니다.\n \n소설 플롯에 막혔다면, ChatGPT가 창의적인 프롬프트, 캐릭터 아크, 또는 대체 엔딩을 제안할 수 있어요. 마찬가지로, 지역 커뮤니티 이벤트를 계획한다면, ChatGPT는 독특한 테마, 인터랙티브 활동, 또는 관객을 참여시키는 방법을 브레인스토밍하는 데 도움을 줄 수 있습니다.\n \n프롬프트 예시:\n[추론] 나는 현대판 판타지 소설을 쓰고 있어. 주인공은 평범한 대학생인데 어느날 자신이 꿈속에서 사람들의 병을 치유할 수 있는 능력이 있다는 걸 알게 돼. 이 설정을 바탕으로 흥미로운 플롯 전개와 갈등 요소를 제안해줘.\n\n[추론] 우리 동네 작은 도서관에서 아이들을 위한 여름 독서 프로그램을 기획 중이야. '바다와 모험'이라는 주제로 6-10세 아이들이 책에 흥미를 갖게 할 수 있는 창의적인 활동 아이디어를 5가지 제안해줘.\n\n논증 분석 또는 의사 결정 ⚖️\n여러 옵션과 많은 변수가 있는 결정에 직면했을 때, ChatGPT 추론은 필수적인 두 번째 의견이 됩니다. 추론 기능을 사용하면 각 선택지의 장단점을 분석하며 상황의 모든 측면을 고려할 수 있어요. 결정하기 어려운 순간에 균형 잡힌 선택을 할 수 있게 도와줍니다.\n예를 들어, 두 개의 채용 제안 중에서 고민하고 있다면, ChatGPT는 각 역할의 이점과 단점을 나열하는 데 도움을 줄 수 있어요. 회사 문화, 경력 성장, 보상, 일과 삶의 균형 같은 요소를 고려하도록 도와줍니다. 또한 ChatGPT는 여러분의 우선순위에 따라 대안 제안을 제공하여 의사 결정 과정을 더 쉽게 만들 수 있어요.\n \n프롬프트 예시:\n[추론] 현재 안정적인 대기업(연봉 7000)과 성장 가능성이 높은 스타트업(연봉 5500 + 스톡옵션)의 제안을 동시에 받았어. 경력 성장, 일-삶 균형, 재정적 안정성, 그리고 장기적 전망 측면에서 두 선택지를 분석해줘. 내 우선순위는 1) 성장 2) 안정성 3) 워라밸 순이야.\n\n[추론] 결혼식 장소로 자연 속 야외 웨딩과 고급 호텔 실내 웨딩 중에서 고민 중이야. 날씨 리스크, 비용, 접근성, 사진 퀄리티, 하객 편의성 등 다양한 요소를 비교 분석해줘. 우리는 5월에 결혼할 예정이고, 하객은 약 150명 정도야.\n\n복잡한 아이디어 설명  \n때로는 단순한 답변 이상이 필요할 때가 있죠. 복잡한 과학 개념, 고급 기술, 또는 이론을 이해하려고 할 때, ChatGPT의 추론 기능은 상세하게 설명해 줄 수 있어요.\n \n예를 들어, 블록체인이나 머신 러닝 같은 개념으로 고민하고 있다면, ChatGPT는 기본과 더 복잡한 측면 모두를 다루는 상세하고 쉽게 따라갈 수 있는 설명을 제공할 수 있습니다.\n \n프롬프트 예시:\n[추론] 양자컴퓨팅의 기본 원리를 고등학생 수준에서 이해할 수 있게 설명해줘. 특히 기존 컴퓨터와의 차이점과 왜 특정 문제에서 더 효율적인지 비유를 들어 설명해주면 좋겠어.\n\n[추론] ESG 경영이 정확히 무엇이고, 기업과 사회에 어떤 영향을 미치는지 체계적으로 분석해줘. 실제 성공 사례와 비판적 시각도 함께 다루어주면 좋겠어.\n\n \n \n두 기능을 모두 선택해야 할 때  \n사실과 깊은 분석 모두가 필요할 때가 있어요. 이런 상황에서는 ChatGPT의 검색과 추론 기능을 결합하면 더 완전하고 미묘한 그림을 얻을 수 있습니다.\n\n\nA). 주제를 자세히 이해하기  \n주제를 파고들어 원시 사실과 이들이 어떻게 연결되는지 이해하고 싶다면, ChatGPT의 검색과 추론 기능을 함께 사용하는 것이 좋아요. 이렇게 하면 구체적인 세부 정보를 수집하고 이를 더 큰 그림으로 통합할 수 있습니다.\n예를 들어, 우주 탐사에 대해 연구한다면, 최신 임무, 기술, 발견을 검색하면서 동시에 이들이 사회에 미칠 잠재적 영향에 대해 추론할 수 있어요. 이렇게 하면 사실만 수집하는 것이 아니라, 그것들이 인간 지식, 우주 여행, 미래 노력에 미치는 영향도 한꺼번에 평가할 수 있습니다.\n \n프롬프트 예시:\n[검색+추론] 최근 5년간 우주 개발 동향과 주요 발전 사항을 검색해주고, 이러한 발전이 향후 10년 내 지구 경제와 과학 기술에 미칠 영향을 종합적으로 분석해줘.\n\n[검색+추론] 현재 글로벌 반도체 산업의 주요 기업들과 시장 점유율을 조사하고, 미-중 기술 갈등이 장기적으로 반도체 공급망과 한국 기업들에게 어떤 영향을 미칠지 전망해줘.\n\nB). 여러 변수가 있는 결정 내리기  \n집 구매, 특정 소프트웨어 선택, 또는 휴가 목적지 선택과 같이 여러 옵션이나 요소를 고려해야 하는 상황에서는 검색과 추론이 모두 필요해요. 검색 기능은 각 옵션에 대한 하드 사실(비용, 기능, 리뷰)을 수집하고, 추론 기능은 장단점을 평가하여 특정 요구 사항에 가장 잘 맞는 선택을 내릴 수 있게 합니다.\n \n새로운 도시로 이사를 고려하고 있다면, 주택 가격, 지역 편의 시설, 취업 기회를 조사하고 싶을 거예요. 동시에, 도시의 미적 감각, 라이프스타일, 가족이나 친구와의 거리 같은 추상적인 변수도 고려해야 합니다. 이러한 요소들을 개인 선호도와 결합하면 이사가 적합한지 파악하는 데 도움이 됩니다.\n \n프롬프트 예시:\n[검색+추론] 제주도와 부산에 1년 살 예정인데 두 도시를 비교해줘. 주거비용, 생활물가, 기후, 교통, 의료시설, 문화생활 등 객관적 데이터를 찾아주고, 30대 부부가 디지털 노마드로 살기에 어떤 곳이 더 적합할지 분석해줘.\n\n[검색+추론] 아이패드 프로와 삼성 갤럭시 탭 S9 울트라의 최신 스펙, 가격, 호환 액세서리를 비교해주고, 디지털 아트 작업과 영상 편집이 주 용도인 나에게 어떤 제품이 더 적합할지 분석해줘.\n\nC). 여러 옵션이나 제품 비교하기  \n제품, 서비스, 심지어 경력 경로를 비교할 때, 검색과 추론을 모두 사용하면 좋아요. 검색은 객관적인 사실을 제공하고, 추론은 어떤 옵션이 개인 또는 전문적 목표에 가장 적합한지 평가하거나 해당 제품에 대한 최신 정보를 얻는 데 도움을 줍니다.\n예를 들어, 두 노트북 중에서 고르고 있다면, 스펙과 리뷰를 확인하고(검색), 옵션을 신중히 평가해야 합니다(추론). 어떤 게 예산, 라이프스타일, 미래 필요에 맞을까요? 두 기능을 모두 활용하면 최종 결정을 내리는 데 도움이 될 수 있어요.\n \n프롬프트 예시:\n[검색+추론] 애플 맥북 프로 M2와 델 XPS 15의 최신 사양, 가격, 배터리 성능, 화면 품질을 비교해줘. 특히 영상 편집과 코딩을 주로 하는 내게 어떤 노트북이 더 적합할지 분석해줘.\n\n[검색+추론] 넷플릭스, 디즈니플러스, 티빙의 월 구독료, 콘텐츠 라이브러리 크기, 독점 콘텐츠를 비교해주고, 한국 드라마와 다큐멘터리를 주로 보는 내게 가장 가성비 좋은 서비스는 무엇인지 추천해줘.\n\nD). 새로운 개념이나 트렌드 탐색하기  \n검색과 추론을 함께 활용하면 새로운 개념이나 떠오르는 트렌드를 이해하는 데 도움이 될 수 있어요. 검색은 최신 정보를 수집하고, 추론은 잠재적 영향과 더 넓은 의미를 탐색합니다.\n예를 들어, 인공지능에 대해 궁금하다면, 검색을 사용하여 AI의 최신 발전 상황을 찾고, 추론을 사용하여 AI가 다양한 산업에 어떤 영향을 미치거나 미래에 우리 삶의 방식을 어떻게 변화시킬지 분석할 수 있습니다.\n \n프롬프트 예시:\n[검색+추론] 웹3.0과 메타버스의 최신 발전 동향과 주요 플랫폼들을 조사해주고, 이러한 기술이 향후 5년 내 교육, 엔터테인먼트, 소매업에 어떤 변화를 가져올지 분석해줘.\n\n[검색+추론] '제로 웨이스트' 라이프스타일의 주요 원칙과 글로벌 트렌드를 조사해주고, 이를 한국의 도시 환경에서 실천하기 위한 현실적인 방법과 도전 과제를 분석해줘.\n\n \n\n\n마치며: 상황에 맞는 선택이 중요해요  \nChatGPT의 검색 기능과 추론 기능을 언제 사용해야 할지 이해함으로써, 이러한 강력한 기능의 가치를 최대화할 수 있어요. 빠른 사실, 깊은 분석, 또는 둘 다 필요하든, ChatGPT는 거의 모든 결정을 내리고 문제에 명확하게 접근하는 데 도움을 줄 수 있으며, 종종 해당 작업에 대한 정말 유용한 두 번째 의견이나 목소리를 제공합니다.\n제 경우에는 일상적인 정보 검색에는 검색 기능을, 블로그 글이나 사업 계획처럼 깊은 사고가 필요한 일에는 추론 기능을 주로 사용하고 있어요. 여러분은 어떤 기능을 더 자주 사용하시나요? 댓글로 알려주세요!  \nQ&A: ChatGPT 검색과 추론에 대해 자주 묻는 질문들\nQ: ChatGPT 검색 기능은 얼마나 최신 정보까지 알고 있나요?\nA: 검색 기능은 인터넷에 연결되어 있어 최신 정보를 가져옵니다.\nQ: 추론 기능의 한계는 무엇인가요?\nA: 복잡한 추론이 가능하지만 전문가 수준의 깊이 있는 분석은 제한적일 수 있어요.\nQ: 검색과 추론을 동시에 사용할 때 더 느려지나요?\nA: 약간 더 시간이 걸릴 수 있지만 결과의 질이 높아져 가치가 있습니다.\nQ: 어떤 기능이 더 정확한가요?\nA: 사실 확인은 검색이, 복잡한 분석은 추론이 더 정확합니다.\nQ: 추론 기능은 검색 기능보다 창의적인가요?\nA: 네, 추론 기능이 패턴 인식과 연결성을 활용해 더 창의적인 결과를 제공합니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT 검색 기능은 얼마나 최신 정보까지 알고 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"검색 기능은 인터넷에 연결되어 있어 최신 정보를 가져옵니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"추론 기능의 한계는 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"복잡한 추론이 가능하지만 전문가 수준의 깊이 있는 분석은 제한적일 수 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"검색과 추론을 동시에 사용할 때 더 느려지나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"약간 더 시간이 걸릴 수 있지만 결과의 질이 높아져 가치가 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"어떤 기능이 더 정확한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"사실 확인은 검색이, 복잡한 분석은 추론이 더 정확합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"추론 기능은 검색 기능보다 창의적인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 추론 기능이 패턴 인식과 연결성을 활용해 더 창의적인 결과를 제공합니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483567",
-    "pubDate": "Fri, 11 Apr 2025 12:01:03 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 챗봇 및 언어 모델",
-      "ai 기능 비교",
-      "ai 창의적 활용",
-      "chatgpt 검색 기능",
-      "chatgpt 추론 기능",
-      "문제 해결 ai",
-      "복잡한 문제 해결",
-      "의사결정 도구",
-      "인공지능 활용법",
-      "정보 검색 최적화",
-      "최신 정보 검색"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "허벅지를 기회로, 유미아의 아틀리에",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2298",
-    "pubDate": "Fri, 11 Apr 2025 22:42:23 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "DataSpell 2025.1: JetBrains Data Wrangler AI Agent, No-Code Data Preparation Flow, AI Quick Charts, and More!",
-    "description": "We’re thrilled to introduce DataSpell 2025.1, the first major release of 2025. This update focuses on making data cleaning and preparation more intuitive and efficient than ever before. Download DataSpell 2025.1 JetBrains Data Wrangler AI agent With Data Wrangler, you can choose between a no-code flow or full AI automation. Easily toggle between: No-code flow […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dataspell/2025/04/dataspell-2025-1-jetbrains-data-wrangler-ai-agent-no-code-data-preparation-flow-ai-quick-charts-and-more/",
-    "pubDate": "Wed, 16 Apr 2025 13:18:50 +0000",
-    "creator": "Stanislav Garkusha",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "PyCharm 2025.1: Unified PyCharm, Free AI Tier, Junie Release, and More!",
-    "description": "PyCharm 2025.1 brings major updates to improve your development experience. PyCharm is now a unified product, combining PyCharm Professional and Community Edition. Version 2025.1 also brings a free AI tier, the public release of Junie, the launch of Cadence, significant Jupyter enhancements, support for Hatch, Data Wrangler, and many other improvements. Get the latest version […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2025/04/pycharm-2025-1/",
-    "pubDate": "Wed, 16 Apr 2025 13:58:00 +0000",
-    "creator": "Evgenia Verbina",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "다시 개발을 시작했더니, 세상이 바뀌어 있었다.",
-    "description": "오랜만에 다시 개발을 시작했다. 실무에서 손을 뗀 지는 꽤 되었고, 딸아이가 태어난 이후 병원 치료에 집중해야 했기 때문에 자연스럽게 업무 시간도 줄어들었다. 나는 개발팀 리더는 실무에 깊이 관여하지 않아도 된다는 나름의 철학을 갖고 있었기에, 그 상황을 받아들이는 데 큰 저항은 없었다. 주기적으로 경영진과의 팀의 방향성을 설계하고, 개발조직이 최고의 성과",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@2MrI/866",
-    "pubDate": "Sat, 12 Apr 2025 10:42:03 GMT",
-    "creator": "에디의 기술블로그",
-    "categories": []
-  },
-  {
-    "id": 15,
     "imageUrl": "",
     "title": "인공지능에게 윤리를 가르칠 수 없다. / 정렬 위장",
     "description": "영상: https://youtu.be/jUdcebBjo-k\n\n\n\n \n전체 영상에서는 인공지능을 이용하려고 할 때\n이상한 방법으로 동작하는 것에 대한 이야기를 알려줍니다.\n인공지능에게 백날 도덕적으로 행돌하라고 해봐야\n대답은 그럴싸하게 \"네\" 라고 하지만\n뒤에서 일어나는 행동은 전혀 말과 행동이 일치하지 않는다는 것입니다.\n마치 인간에게 교육시키듯이 말입니다.\n10분 40초에 나옵니다.\n\"정렬 위장\" 이라는 행동이라고 부른다고 합니다.",
@@ -216,6 +92,132 @@
     "categories": [
       "유튜브",
       "인공지능"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "배우 김수현, 故 김새론과의 의혹 해명에도&hellip;&ldquo;밤 11시에 닭볶음탕?&rdquo; 여론은 여전히 싸늘",
+    "description": "2025년 3월 31일, 배우 김수현이 긴급 기자회견을 열고 故 김새론과의 관계에 대한 입장을 밝혔습니다. 하지만 이 해명 이후에도 대중의 의문은 가라앉지 않고 있습니다. 그 중심에는 “고등학교 2학년, 17세였던 김새론이 밤 11시에 김수현 가족이 있는 집에서 닭볶음탕을 만들었다는 정황”이 있습니다.\n▶ “연인이 아니었다”는 주장…하지만 그 밤의 정황은?\n김수현 측은 공식 입장에서 “당시 연인 관계가 아니었고, 가족들도 함께 있었다”고 해명했습니다. 논란이 된 영상은 2018년 6월 촬영된 것으로, 당시 김새론은 고등학교 2학년, 만 17세의 미성년자였습니다.\n해당 영상은 밤 11시 20분경 촬영되었으며, 식탁 위에는 소주병과 소주잔이 놓여 있었다는 점이 확인되며 더욱 논란이 커지고 있습니다. 소속사는 단순한 가족 식사 자리였다고 주장하지만, 많은 이들은 이 상황 자체를 납득하기 어렵다는 반응입니다.\n▶ “사귀지도 않았는데, 밤 11시에 가족 집에서 요리?”\n온라인 커뮤니티와 SNS에서는 다양한 반응이 이어지고 있습니다:\n“사귀지 않았다면 오히려 더 이상한 상황”\n“그 시간에 미성년자가 남자 집에 있었다는 것 자체가 부적절하다”\n“친구 사이여도 집에 돌려보낼 시간 아닌가?”\n또한, 김새론이 김수현에게 보냈다는 카카오톡 메시지 내용도 공개되었습니다. 메시지에는 “보고 싶어”, “언제 안고 잘 수 있어?” 등 연인 사이로 보일 수 있는 문구가 담겨 있었지만, 김수현 측은 “전면 조작된 메시지”라며 원본 데이터 제출을 요구한 상태입니다.\n▶ 해명에도 남은 의문…김수현 이미지 타격 불가피\n김수현 소속사는 “미성년자와의 교제는 결단코 없었다”며 법적 대응을 시사하고 있지만, 유튜브 채널 ‘가세연’ 측의 공세는 계속되고 있습니다. 특히 “사귄 적 없다”는 해명은 ‘그루밍’ 논란으로 이어지며, 연예계 전반에 큰 파장을 주고 있습니다.\n한 프로파일러는 해당 상황에 대해 “상대를 잘못 골랐다”며 사안의 심각성을 지적했습니다. 이번 논란은 단순한 해명이 아닌, 도덕성과 윤리적 판단에 대한 대중의 평가로 이어지고 있으며, 김수현의 이미지 회복은 당분간 쉽지 않을 것으로 보입니다.\n⚠️ 본 포스팅은 대중에 공개된 기사 및 자료에 기반해 작성된 콘텐츠로, 사실 여부에 대한 판단은 독자에게 맡깁니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://app-developer.tistory.com/entry/%EB%B0%B0%EC%9A%B0-%EA%B9%80%EC%88%98%ED%98%84-%E6%95%85-%EA%B9%80%EC%83%88%EB%A1%A0%EA%B3%BC%EC%9D%98-%EC%9D%98%ED%98%B9-%ED%95%B4%EB%AA%85%EC%97%90%EB%8F%84%E2%80%A6%E2%80%9C%EB%B0%A4-11%EC%8B%9C%EC%97%90-%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95%E2%80%9D-%EC%97%AC%EB%A1%A0%EC%9D%80-%EC%97%AC%EC%A0%84%ED%9E%88-%EC%8B%B8%EB%8A%98",
+    "pubDate": "Fri, 11 Apr 2025 23:18:10 +0900",
+    "creator": "흰끼끼",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Visual Studio의 새로운 생산성 기능",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/VS_20250416/",
+    "pubDate": "Wed, 16 Apr 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Toolbox Support for Explicit Assembly References in Windows Forms Out-of-Process Designer",
+    "description": "Visual Studio 17.14 Preview 3 introduces a new feature that enhances the Windows Forms out-of-process designer experience for .NET Framework projects. This release brings Toolbox support for Explicit Assembly References, addressing a long-standing need in legacy application development and migration workflows. What Are Explicit Assembly References? Explicit Assembly References are stand-alone assemblies directly referenced in […]\nThe post Toolbox Support for Explicit Assembly References in Windows Forms Out-of-Process Designer appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/toolbox-support-for-explicit-assembly-references-in-windows-forms-out-of-process-designer/",
+    "pubDate": "Thu, 17 Apr 2025 14:45:27 +0000",
+    "creator": "Merrie McGaw, Shyam Gupta",
+    "categories": [
+      "Visual Studio",
+      "Windows Forms",
+      "Assembly References",
+      "designer",
+      "out-of-process",
+      "Toolbox",
+      "WinForms"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "승려와 수수께끼 | 랜디 코미사",
+    "description": "<p><img src=\"/images/2025/04/12/the-monk-and-the-riddle.png\" alt=\"The Monk And The Riddle\" title=\"The Monk And The Riddle\" class=\"center-image\" /></p>\n\n<blockquote>\n  <p><strong>“이 달걀을 1미터 정도 아래로 떨어뜨리되 깨뜨리면 안 됩니다. 어찌 해야 할까요?”</strong></p>\n</blockquote>\n\n<p>변호사이자 실리콘밸리 투자자인 <a href=\"https://en.wikipedia.org/wiki/Randy_Komisar\">랜디 코미사</a>의 이야기를 다룬 책이다. 미얀마에서 만난 한 승려가 던지는 질문으로 책에서 하고자 하는 이야기가 시작된다. <code class=\"language-plaintext highlighter-rouge\">이 달걀을 1미터 정도 아래로 떨어뜨리되 깨뜨리면 안 됩니다. 어찌 해야 할까요?</code> 이 질문을 들으면 어떤 생각이 드는가? 단단한 돌 바닥 위에서 달걀을 들고 있는 모습이 상상된다. 그런데 이걸 떨어뜨리되 깨뜨리면 안된다..? 바닥에 쿠션을 놓으면 안될까? 아니면 혹시.. 물 위에서 떨어뜨리면 안되나?</p>\n\n<p>우리는 자연스레 계란이 떨어지면 깨지는 것부터 상상한다. 그래서 깨지지 않게 하려면 바닥에 부드러운 무언가를 놓고 깨지지 않게끔 만드는게 중요하다고 생각이 든다. 승려는 어떤 메시지를 전달하고 싶어서 이런 질문을 했는지 궁금증을 가진채 계속 읽어 나갔다.</p>\n\n<p>승려는 책의 도입부에 질문을 마지막으로 나오지 않고, 그 이후부터는 랜디와 레니라는 창업가의 이야기로만 구성되어 있다. 어느날 랜디에게 장례 용품을 온라인에서 사고 팔 수 있는 사업을 하겠다고 레니라는 사람이 투자와 자문을 구하기 위해 찾아왔다. 레니는 엄청난 열정과 굉장히 구체적인 사업 계획을 가지고 있었다. 하지만 지금 당장은 돈을 벌기 위한 수단으로 사업을 하고, 돈을 많이 벌고 난 이후에 본인이 진짜 하고 싶은 일을 하려고 계획중이었다. 이런 레니의 이야기를 듣고 랜디는 열정 가득하고 사업 계획 구체적이지만, 왜 장례 사업을 하려는건지 목적과 비전이 뚜렷하지 않아서 몇 가지 조언을 남긴 뒤 투자를 위한 마음은 접기로 했다.</p>\n\n<blockquote>\n  <p>“내 경험상, 만약 돈 때문에 이 일을 시작한다면 닭 쫓던 개 신세를 면치 못할 겁니다. 돈은 결코 그렇게 따라오지 않아요. 뭔가 더 있어야 합니다. 상황이 최악으로 치달을 때 나를 지켜줄 만한 목적의식 같은 것 말이죠. 실패하더라도 이 일에 엄청난 시간과 노력을 쏟을 만한 가치가 있는, 그런 것이 있어야 한단 말입니다.”</p>\n</blockquote>\n\n<p>그러나 레니는 포기하지 않고 랜디의 조언을 바탕으로 사업 계획서를 다시 다듬고 오랜 기간 랜디를 괴롭히다시피 한다. 결국 랜디는 굉장히 끈질긴 성격을 가진 레니에게 사업을 하려고 하는 진짜 목적에 대해 스스로 고민할 수 있도록 질문을 하기 시작한다. ‘미뤄 놓은 인생 설계’, ‘내가 가장 하고 싶은 것’. 중간중간 랜디의 변호사 시절과 실리콘밸리 회사에서의 다양한 경험 이야기도 나오는데, 사업을 함에 있어 가장 중요한건 동기라는 사실을 일깨워준다. 레니는 랜디와 동업자 앨리슨의 생각과 조언을 받아들여 본인이 정말로 하고 싶었던 것과 장례 사업을 접목시켜 가슴뛰는 사업의 목적을 찾게 된다.</p>\n\n<p>살면서 혹은 일을 하면서 여러가지 문제를 마주하는데 그 때마다 <strong>지금 있는 현상에만 집중하다가 본질(핵심)이 무엇인지 잊게 된다.</strong> 현상에만 집중하다보면 본질과 다른 방향으로 답을 찾게 된다. 책의 맨 마지막에 승려가 낸 질문에 대한 해답이 나온다. 그런데 그 답이 중요한게 아니라, 승려가 왜 이 수수께끼를 냈는지가 중요하다. 책을 읽다보면 승려가 내놓은 수수께끼의 본질을 알게 되는데, <strong>‘계란이 깨지지 않게 만드는게 아니라, 1미터 높이에서 깨지지 않는 상태로 존재하게 할 수 있는 방법’</strong> 이다.</p>\n\n<p>이 책의 주된 이야기인 사업 뿐만 아니라, 우리가 하고 있는 무언가에 대한 질문이기도 하다. 지금 원하는 일을 하고 있는가? 이 일을 왜 하는가? 열심히 일해서, 돈 많이 벌어서, 나중에 하고 싶은거 하면서 편하게 즐겁게 살아야지. 인생은 출애굽기도, 영웅전도 아니다. 현재의 고통을 전제로 미래의 행복을 바꾸거나 하고 싶지도 않은 일에 인생을 낭비하기엔 너무 아깝고, 당장 하고 싶은 일을 해야 한다는 당연하면서도 어려운 교훈을 주는 책이다.</p>\n\n<h3 id=\"인상-깊은-구절\">인상 깊은 구절</h3>\n\n<ul>\n  <li>열정이란, 저항할 수조차 없이 어떤 것으로 당신 자신을 끌어가는 것을 말한다. 반면 의지란, 책임감 또는 해야만 한다고 생각되는 일에 의해 떠밀려가는 것이다. 만약 자신에 대해 아무것도 모른다면 그 차이를 알 수 없다. 조금이나마 자기 인식을 하고 있는 사람은 내가 어떤 분야에 열정을 가지고 있는지 알 수가 있다. 어떤 목표를 달성하고 싶다는 욕망은 열정이 아니며, 일정 수준의 몫이나 보너스, 또는 회사를 매각하여 현금을 벌고 싶다는 욕심도 열정이 아니다. 다른 사람의 성취를 따라 하기 위해 노력하는 것도 열정이 아니다. 그것은 의지에 가깝다.</li>\n  <li>비즈니스 환경은 늘 변한다. 사람들은 전략과 수익모델을 변화하는 환경에 맞게 지속적으로 재검토하고 필요에 따라 수정해야 한다. 하지만 수정할 때마다 기준으로 삼아야 하는 것은 기업의 큰 비전이다. 긴급한 상황을 모면하기 위해 구성원의 감동을 이끌어 내는 비전을 포기하면, 나침반 없이 남겨지는 것과 다를 바 없다. 나는 기업의 위치를 돌아볼 때 현재 상황만 따지는 것이 아니라 목표와 방향 점검도 병행돼야 한다는 충고를 늘 하고 있다. 나침반을 맞추고 길을 따라 나아가라. 그래야 장애물에 걸려 넘어지더라도 방향 감각을 유지할 수 있을 것이다.</li>\n  <li>관리와 리더십은 서로 공통점이 있기는 하지만 같은 건 아니다. 레니처럼 편협한 사고방식을 가지고 있는 사람은 그 차이를 알 수 없다. 관리는 체계적인 과정을 말하는데 그 목적은 정해진 시간과 예산 내에서 원하는 결과를 낳는 것이다. 리더십은 인격과 비전으로 다른 사람을 불가능한 일에 도전하도록 만든다. 관리는 리더십을 보완하고 지원하지만, 리더십을 내포하지 않은 관리는 아무것도 할 수 없다. 리더는 아랫사람들의 의혹을 해소시키고 불완전한 정보를 가지고도 나아갈 수 있도록 만들어야 한다.</li>\n  <li>기차를 제시간에 맞게 도착시키는 관리자의 역할보다 리더로서의 업무가 나는 더 마음에 들었다. 리더의 묘미는 계산기를 두드리고 생산라인을 개선하는 방법을 찾는 것에 있지 않았다. 사람들이 한계를 넘어설 수 있도록 용기를 북돋고, 사람들이 위대해질 수 있도록 자극을 주며 나보다 더 잘 할 수 있는 사람에게 그 일을 맡기며, 또한 사람들이 조화롭게 업무를 수행할 수 있도록 돕는 데 있었다. 그게 수준 높다할 수 있는 기술이었다.</li>\n  <li>위험부담에 너무 신경 쓴 나머지 아무런 결정도 내리지 못하는 사람들도 있다. 이들은 모든 사항을 열심히 검토하지만, 어느 순간부터는 추가 정보나 확증이 있어도 사업의 궁극적인 성공이나 실패에 대한 갈피를 잡지 못하게 된다. 이렇게 되면 이들은 불확실에 휩싸인 나머지 그 자리에 얼어붙은 채 현상만을 유지한다. 결국 그들이 아는 것은 그게 전부가 된다.</li>\n  <li>하지만 좀 더 파고들어 가면, 사업의 위험부담과 함께 결부되는 개인의 위험부담도 고려하게 된다. 개인의 위험부담은 존경하지 않는 사람과 함께 일하는 것, 나와 다른 사업관을 가진 회사에서 일하는 것, 그리고 중요하다고 생각하는 것을 타협해야 하는 것, 본모습을 제대로 발휘할 수 없는, 혹은 완전히 모순되는 일을 하는 것들을 의미한다. 하지만 그 중 가장 큰 위험 부단은 미래의 행복을 위안으로 삼으면서 하고 싶지도 않은 일에 평생 인생을 낭비하게 되는 것이다.</li>\n  <li>반면 개인적 위험은 계량화가 불가능하다. 그것은 가치와 우선순위, 자신이 누구인지를 표현하는 문제다. ‘안전 제일주의’ 라는 말은 현상에 만족하겠다는 것을 의미한다. 지금 당장 금전적 이익이 있으면 시간 낭비와 만족감의 부채 또한 감소할 수 있다는 뜻이다. 아니면 아무 생각조차 해보지 않겠다는 뜻이다. 반면, 시간과 만족이 값을 매길 수 없을만큼 소중한 것이라 여긴다면 자신과 가족의 행복을 위험에 빠뜨리지 않는 한도 내에서 실패에 따른 위험부담을 감수하게 된다. 원하는 삶을 살기 위한 위험부담은 아무것도 아니라는 것을 알기 때문이다.</li>\n  <li>개인의 위험부담을 생각하다 보면 개인의 성공에 대한 정의도 내려진다. 사업적인 성공이 꼭 개인의 성공으로 연결된다고 할 수 없다. 우리는 대부분 초등학교에서부터 대학교를 거쳐 직장생활에 이르기까지, 끊임없는 방해요소에 부딪히면서 다른 사람들이 내린 ‘성공’ 의 정의를 그대로 인식하게 된다. 다른 사람들이 만든 기준으로 자신을 평가하고, 다른 사람과 나를 비교해 순위를 매기려 한다. 개인적인 목표는 오로지 우리 스스로에게 놓여 있을 뿐, 쓸데없는 평가와 비교로부터 자유로운 것이다.</li>\n  <li>열정을 다해 열심히 일하라. 단, 가장 소중한 재산인 시간을 가장 의미 있는 일에 써라. 남은 인생 동안 무엇을 하고 싶은가? 이 말은 문자 그대로 앞으로 평생 무엇을 할 것인가 라는 뜻이 아니다. 예상치 않은 사회 속에서 앞으로 평생 동안 어떤 일을 하게 될지 알 수 있는 사람이 과연 누가 있을까? 내일 갑자기 생이 끝난다면 지금까지 정말로 하고 싶은 일을 하면서 살았다고 자신 있게 말할 수 있을까? 당신은 앞으로 평생 어떤 일을 하고 싶은가? 지금 당장 그 일을 시작하려면 어떻게 해야 할까?</li>\n</ul>",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://sungjk.github.io/2025/04/12/the-monk-and-the-riddle.html",
+    "pubDate": "2025-04-12T00:00:00+00:00",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Brick Away / 블록분해 v1 게임 제작 시작",
+    "description": "갑자기 만들고 싶어졌습니다.\n기존에 Tap Away 가 그래픽이 밝아서 제 눈이 아파서 불편사항을 고쳐보려고\n만들기 시작했습니다.\n여기까지 만드는데 4시간 정도 걸린거 같군요\n시간 잘 가네\n \n영상: https://www.youtube.com/watch?v=KgW9pFfxSJA\n\n\n\n별로 만들어진게 없습니다. \n \n플레이:  https://play.unity.com/en/games/f191f2a0-4be5-4d67-8ec9-6f98c1cc2996/brick-away-v1\n\n \nBrick Away V1 on Unity Play\ntouch brick\nplay.unity.com",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1269",
+    "pubDate": "Thu, 17 Apr 2025 15:45:56 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "블록 분해 게임 (자작)"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Pure Virtual C++ 2025: Full Schedule",
+    "description": "Pure Virtual C++ is our free, one-day, virtual conference for the whole C++ community. This year, it is running on the 30th April. We’re pleased to announce the schedule of live talks: 14:00 UTC: Welcome to v1.0 of the meta::[[verse]]! with Inbal Levi 14:30 UTC: Proxy: Next Generation Polymorphism with Mingxin Wang 15:00 UTC: Making […]\nThe post Pure Virtual C++ 2025: Full Schedule appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2025-full-schedule/",
+    "pubDate": "Tue, 15 Apr 2025 12:15:38 +0000",
+    "creator": "Sy Brand",
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "기동전사 건담 지쿠악스 나왔군요 / 애니",
+    "description": "나왔군요 티비판\n이거 이름을 어떻게 쓰는지가 궁금했는데\n지쿠악스 군요\n \n건담이긴한데 에반게리온으로 유명한 안노히데아키 가 참여했고\n감독은 다른 사람입니다.\n \n안노는 워낙 유명하지만 이분이 확장에 강하지만 마무리가 안되는 문제가 있다고 합니다.\n감독은 그 일을 마무리할 사람으로 보이구요\n \n츠루마키 카즈야 : https://namu.wiki/w/%EC%B8%A0%EB%A3%A8%EB%A7%88%ED%82%A4%20%EC%B9%B4%EC%A6%88%EC%95%BC\n\n \n츠루마키 카즈야\n일본 애니메이션 감독 겸 애니메이터 이자 기업인 . 現 스튜디오 카라 의 이사직을 맡고 있다. 애칭은 맛\nnamu.wiki\n\n역사에 남을 사람이니 미리 기억해 둡시다.\n아직은 이름이 잘 알려지진 않은거 같군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1267",
+    "pubDate": "Thu, 17 Apr 2025 14:00:37 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "건담",
+      "애니"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Splunk의 Join - 5th",
+    "description": "inner join.\n\n\n\n\nleft join.\n\n\n\n교집합 제외한 left join.\n\n\nfull join.\n\n\n\n\n\n교집합 제외한 full join.\n\n\n\n\n관련 글\n\n\nSplunk의 Join - 4th\nSplunk의 Join\nSplunk의 lookup\n엘라스틱의 Join",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/04/splunk-join-5th.html",
+    "pubDate": "2025-04-13T02:57:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "유니티 6 웹 용량 줄이기에 대한 설명 / unity web",
+    "description": "영상: https://youtu.be/eCTKiBVUdRM?t=386\n\n\n\n영상 요약\n6분 30초 부터 나오구요\nbr 악춤 외도 여러가지가 있군요\n그리고 이제webgl 대신 웹 이라고 부르기로 했다고 하네요\n그래서 유니티 웹 이 되겠습니다.\nUnity Play 에 올릴 것을 권장하네요\n \n용어의 통일\nUnity 6 부터는 webgl 을 Unity Web 으로 부르기로 했다고 합니다.\nWebGL HTML5 WebGPU 등 계속해서 신기술이 개발되어 새로운 용어가 생겨나기 때문에 용어를 통일한다고 하네요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1261",
+    "pubDate": "Mon, 14 Apr 2025 01:48:19 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
     ]
   }
 ]
