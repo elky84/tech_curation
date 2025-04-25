@@ -2,175 +2,142 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "OpenAI 코딩 멀티 에이전트 Codex 오픈소스 도구 사용법",
-    "description": "이 글은 OpenAI가 개발한 코딩 멀티 에이전트 Codex 사용법을 간략히 소개한다. \n\n\n현재 시점에서 14시간 전에 OpenAI o3, o4, codex 가 공개되었다. 모두 멀티 AI 에이전트 기능을 충실히 구현한 영상을 데모가 업로드되었고, 특히, 자동화 코딩을 지원하는 codex(코덱스) 가 로컬 컴퓨터에서 실행 가능한 형태로 공개된 점이 인상적이었다. \n\nOpenAI o3, o4, codex 공개 영상\n\n\n코덱스 코드 및 도구는 Github에 공개되었다.\n\ncodex: Lightweight coding agent that runs in your terminal\n\n\n\n코덱스 설치 및 환경설정\n터미널에서 다음을 실행해 설치 및 환경 설정을 한다.\ngit clone https://github.com/openai/codex.git\ncd codex\nnpm install -g @openai/codex\n\n\n\n\n설치 시 npm error code SELF_SIGNED_CERT_IN_CHAIN 에러 발생하면 다음 명령 실행 후 패키지 재설치한다.\n\nnpm config set strict-ssl false -g\n\n\n오픈AI Key를 설정한다.\n\nexport OPENAI_API_KEY=\"your-api-key-here\"\n\n\n\n실행\n터미널에서 코덱스를 실행한다. \ncodex \n\n\n프롬프트를 직접 입력해도 된다.  \ncodex \"explain this codebase to me\"\n\n\n앱을 개발해보자. \ncodex --approval-mode full-auto \"create the fanciest todo-list app\"\n\n\n그럼 todo list app을 codex가 개발하는 것을 확인할 수 있다. 이외에 다음과 같은 프롬프트를 입력해보자. \n\n\n\"create the ascii rendering web viewer using webcam\"\n\"create 3D tetris using three.js\"\n...\n\n\n마무리\n점차 AI 에이전트가 우리가 사용하는 개인 기기(노트북, 스마트폰 등)에 침투하고 있다. MCP는 그 시작인 것이고, Codex는 AI OS 위치로 맵핑하고자 한다. 올해 더 큰 경쟁과 발전이 있으리라 생각된다.\n\n\n레퍼런스\n\nLightweight coding agent that runs in your terminal\nCLI OpenAI Tool Like Claude Code\nOpenAI Codex CLI. Is a Lightweight Coding AI Agent",
+    "title": "챗GPT 텍스트 워터마크 감지 및 제거 도구",
+    "description": "챗GPT 텍스트 워터마크 제거 도구\nLLM으로 생성한 텍스트에 포함된 워터마크를 감지하고 제거하는 도구입니다\n\n      \n      \n워터마크 감지\n        워터마크 제거\n      \n\n    \n\n  \n[\\p{Emoji}])(?[\\uFE00-\\uFE0F])/gu;\n    let match;\n    \n    while ((match = emojiWithVSPattern.exec(text)) !== null) {\n      const emojiPos = match.index;\n      const vsPos = emojiPos + match.groups.emoji.length;\n      const vsChar = match.groups.vs;\n  \n      // 이미 감지된 위치가 아닌 경우만 처리\n      if (!detectedPositions.has(vsPos)) {\n        watermarks.count++;\n        watermarks.types.add('이모지 변형 선택자');\n        detectedPositions.add(vsPos);\n  \n        const unicode = `U+${vsChar.codePointAt(0).toString(16).toUpperCase().padStart(4, '0')}`;\n        watermarks.positions.push({\n          type: '이모지 변형 선택자',\n          position: vsPos,\n          char: vsChar,\n          unicode: unicode,\n          description: '이모지에 적용된 변형 선택자',\n          context: getContext(text, vsPos)\n        });\n      }\n    }\n  \n    // 2. 단독 제어 문자 패턴 검사\n    const patterns = [\n      {\n        type: '제로 너비 문자',\n        regex: /[\\u200B-\\u200F\\u2060-\\u2064\\uFEFF]/g,\n        description: '보이지 않는 공백이나 제어 문자'\n      },\n      {\n        type: '특수 공백',\n        regex: /[\\u00A0\\u2000-\\u200A\\u202F\\u205F\\u3000]/g,\n        description: '일반 공백과 다른 특수 공백 문자'\n      }\n    ];\n  \n    // 이미 감지되지 않은 위치의 제어 문자만 검사\n    patterns.forEach(pattern => {\n      while ((match = pattern.regex.exec(text)) !== null) {\n        const pos = match.index;\n        \n        if (!detectedPositions.has(pos)) {\n          watermarks.count++;\n          watermarks.types.add(pattern.type);\n          detectedPositions.add(pos);\n  \n          const charCode = match[0].codePointAt(0);\n          const unicode = `U+${charCode.toString(16).toUpperCase().padStart(4, '0')}`;\n          \n          watermarks.positions.push({\n            type: pattern.type,\n            position: pos,\n            char: match[0],\n            unicode: unicode,\n            description: pattern.description,\n            context: getContext(text, pos)\n          });\n        }\n      }\n    });\n  \n    // 감지된 워터마크 위치 정렬\n    watermarks.positions.sort((a, b) => a.position - b.position);\n  \n    showDetectionResult(watermarks);\n    return watermarks;\n  }\n  \n  function getContext(text, position, contextSize = 20) {\n    const start = Math.max(0, position - contextSize);\n    const end = Math.min(text.length, position + contextSize);\n    const prefix = text.substring(start, position);\n    const suffix = text.substring(position + 1, end);\n    \n    return {\n      full: text.substring(start, end),\n      position: position - start,\n      prefix: prefix,\n      suffix: suffix\n    };\n  }\n  \n  function showDetectionResult(watermarks) {\n    const resultDiv = document.getElementById('detection-result');\n    \n    if (watermarks.count > 0) {\n      // 원본 텍스트를 가져옴\n      const originalText = document.getElementById('content-input').value;\n      \n      // 워터마크 위치를 정렬\n      watermarks.positions.sort((a, b) => a.position - b.position);\n      \n      // 결과 HTML 생성\n      let html = `\n        \n워터마크 감지 결과\n발견된 워터마크 수: ${watermarks.count}개\n워터마크 종류: ${Array.from(watermarks.types).join(', ')}\n전체 텍스트 (워터마크 강조 표시)\n`;\n  \n      // 전체 텍스트에 워터마크 표시\n      let lastPos = 0;\n      watermarks.positions.forEach(mark => {\n        html += escapeHtml(originalText.substring(lastPos, mark.position));\n        html += `${mark.char}[${mark.unicode}]`;\n        lastPos = mark.position + 1;\n      });\n      html += escapeHtml(originalText.substring(lastPos));\n  \n      html += `\n`;\n      resultDiv.innerHTML = html;\n    } else {\n      resultDiv.innerHTML = '\n워터마크가 발견되지 않았습니다.\n';\n    }\n  }\n  \n  function highlightContext(context) {\n    const pos = context.position;\n    const text = context.full;\n    return `${escapeHtml(text.substring(0, pos))}${escapeHtml(text.charAt(pos))}${escapeHtml(text.substring(pos + 1))}`;\n  }\n  \n  // HTML 이스케이프 함수\n  function escapeHtml(text) {\n    return text\n      .replace(/&/g, \"&\")\n      .replace(//g, \">\")\n      .replace(/\"/g, \"\"\")\n      .replace(/'/g, \"'\");\n  }\n  \n  // 워터마크 제거 함수\n  function removeWatermark(text) {\n    let cleaned = text\n      .replace(/[\\uFE00-\\uFE0F]/g, '')\n      .replace(/[\\u200B-\\u200F\\u2060-\\u2064\\uFEFF]/g, '')\n      .replace(/[\\u00A0\\u2000-\\u200A\\u202F\\u205F\\u3000]/g, ' ');\n  \n    document.getElementById('removal-result').innerHTML = `\n      \n워터마크 제거 결과\n${cleaned}\n        \n\n              \n\n            \n            결과 복사\n          \n        \n\n        \n        복사 완료\n      `;\n      \n      // 3초 후 버튼 상태 복원\n      setTimeout(() => {\n        copyButton.classList.remove('copied');\n        copyButton.innerHTML = `\n          \n            \n            \n\n          \n          결과 복사\n        `;\n      }, 3000);\n    } catch (err) {\n      console.error('복사 실패:', err);\n    }\n  \n    // 선택 해제\n    window.getSelection().removeAllRanges();\n  }\n  \n  // 이벤트 리스너 수정\n  document.getElementById('detect-button').onclick = function() {\n    const text = document.getElementById('content-input').value;\n    // 제거 결과 초기화\n    document.getElementById('removal-result').innerHTML = '';\n    detectWatermark(text);\n  };\n  \n  // 워터마크 제거 함수 수정\n  document.getElementById('remove-button').onclick = function() {\n    const text = document.getElementById('content-input').value;\n    const originalWatermarks = detectWatermark(text);\n    const cleaned = removeWatermark(text);\n    const remainingWatermarks = detectWatermark(cleaned);\n  \n    // 제거 작업 결과 표시\n    document.getElementById('detection-result').innerHTML = `\n      \n워터마크 제거 작업 결과\n원본 워터마크 수: ${originalWatermarks.count}개\n제거된 워터마크 수: ${originalWatermarks.count - remainingWatermarks.count}개\n 0 \n            ? `\n남은 워터마크 수: ${remainingWatermarks.count}개\n남은 워터마크 종류: ${Array.from(remainingWatermarks.types).join(', ')}\n`\n            : '\n모든 워터마크가 성공적으로 제거되었습니다!\n'\n          }\n        \n 0 \n          ? `\n제거되지 않은 워터마크 위치:\n`\n          : ''\n        }\n      \n {\n      html += escapeHtml(text.substring(lastPos, mark.position));\n      html += `${mark.char}[${mark.unicode}]`;\n      lastPos = mark.position + 1;\n    });\n    \n    html += escapeHtml(text.substring(lastPos));\n    return html;\n  }\n  \n  // content-input에 입력 이벤트 리스너 추가\n  document.getElementById('content-input').addEventListener('input', function() {\n    // 제거 결과 초기화\n    document.getElementById('removal-result').innerHTML = '';\n    // 감지 결과도 초기화 (선택사항)\n    document.getElementById('detection-result').innerHTML = '';\n  });\n  \nAI가 생성한 텍스트 속 보이지 않는 워터마크를 찾아내는 도구입니다. ChatGPT 등 LLM이 남기는 특수 문자를 쉽게 감지하고 제거할 수 있는 웹 프로그램의 작동 원리와 사용법을 알아보세요.\nAI 텍스트 워터마크 감지 및 제거 도구 소개  ️‍♂️\n최근 ChatGPT와 같은 AI 모델들이 생성하는 텍스트에 눈에 보이지 않는 워터마크가 삽입된다는 사실이 알려져 논란이 되고 있어요. 특히 GPT-o3와 GPT-o4 mini 같은 최신 모델에서 이런 현상이 발견되고 있죠. 이러한 보이지 않는 워터마크를 감지하고 제거할 수 있는 웹 프로그램입니다.\n \n워터마크란 무엇인가요?  \nAI 텍스트 워터마크는 육안으로는 보이지 않지만, 텍스트에 숨겨진 특수 유니코드 문자들입니다. 주로 다음과 같은 종류가 있어요:\n제로 너비 문자: 화면에 표시되지 않는 공백이나 제어 문자\n특수 공백: 일반 공백처럼 보이지만 다른 코드를 가진 특수 유니코드 문자\n이모지 변형 선택자: 이모지 뒤에 붙어 변형을 주는 특수 문자\n이런 특수 문자들은 일반적인 텍스트 에디터에서는 확인하기 어렵지만, 특정 도구를 사용하면 감지할 수 있습니다.\n \n워터마크 감지/제거 웹 프로그램 기능 소개  \n이 웹 프로그램은 다음과 같은 주요 기능을 제공합니다:\n1. 워터마크 감지 기능\nAI가 생성한 텍스트에 숨겨진 워터마크를 찾아냄\n발견된 워터마크의 수와 종류를 표시\n워터마크가 위치한 곳을 시각적으로 강조 표시\n2. 워터마크 제거 기능\n감지된 워터마크를 모두 제거하거나 일반 문자로 변환\n원본과 정리된 텍스트 비교 제공\n정리된 텍스트를 쉽게 복사할 수 있는 기능\n3. 상세 분석 기능\n워터마크의 유니코드 값 표시\n텍스트 내 워터마크의 정확한 위치 정보 제공\n워터마크 제거 전후 비교 분석\n \n프로그램 사용 방법  \n기본 사용법\n텍스트 입력: 워터마크가 있는지 확인하고 싶은 텍스트를 입력 창에 붙여넣습니다.\n워터마크 감지: '워터마크 감지' 버튼을 클릭하여 텍스트 내 워터마크를 찾습니다.\n워터마크 제거: '워터마크 제거' 버튼을 클릭하여 감지된 워터마크를 제거합니다.\n결과 확인: 워터마크 감지 결과와 제거 결과를 각각 확인할 수 있습니다.\n정리된 텍스트 복사: '결과 복사' 버튼을 클릭하여 워터마크가 제거된 텍스트를 클립보드에 복사합니다.\n결과 해석하기\n워터마크 감지 후에는 다음과 같은 정보를 확인할 수 있습니다:\n발견된 워터마크 수: 텍스트에서 발견된 총 워터마크 수\n워터마크 종류: 발견된 워터마크의 유형(제로 너비 문자, 특수 공백, 이모지 변형 선택자 등)\n워터마크 위치: 원본 텍스트에서 워터마크가 발견된 위치가 강조 표시됨\n유니코드 정보: 각 워터마크의 유니코드 값(예: U+200B, U+2060 등)\n워터마크 제거 후에는:\n워터마크 제거 수: 성공적으로 제거된 워터마크의 수\n정리된 텍스트: 워터마크가 제거된 깨끗한 텍스트\n남은 워터마크: 제거하지 못한 워터마크가 있다면 그 정보\nAI 발전: AI 모델의 워터마킹 기술도 계속 발전하고 있으므로, 최신 모델에서는 새로운 유형의 워터마크가 있을 수 있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/04/openai-codex.html",
-    "pubDate": "2025-04-17T07:04:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://muzbox.tistory.com/483574",
+    "pubDate": "Wed, 23 Apr 2025 23:54:18 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 언어 모델",
+      "ai 워터마크",
+      "ai 텍스트 감지",
+      "chatgpt 워터마크",
+      "gpt-o3 워터마크",
+      "워터마크 감지 도구",
+      "유니코드 워터마크",
+      "제로 너비 문자",
+      "텍스트 워터마크 제거",
+      "특수 공백 문자",
+      "특수 문자 감지"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "2025 청년 목돈 마련 위한 정책 총정리: 청년 도약계좌부터 장병 내일 준비적금까지 ",
-    "description": "목돈 마련을 위한 대표적인 청년정책 모아보기",
+    "title": "Qodana For Code Quality in STEM",
+    "description": "Your code drives discovery. Keep it precise. In STEM fields, software isn’t just a product, it underpins innovation, research, and life-critical infrastructure. Qodana brings advanced static code analysis to STEM software projects, helping ensure code quality, security, and compliance where it matters most. Qodana for STEM Why code quality matters in STEM Software in science, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/money-policies-39",
-    "pubDate": "Fri, 18 Apr 2025 01:29:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/qodana/2025/04/qodana-for-code-quality-in-stem/",
+    "pubDate": "Tue, 22 Apr 2025 10:37:18 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "case-study-qodana",
+      "qodana",
+      "code-analysis",
+      "stem"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Visual Studio v17.12 - code search",
+    "title": "2024년 우리가 가장 좋아하는 새로운 Visual Studio 기능들",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/VS_20250423/",
-    "pubDate": "Wed, 23 Apr 2025 00:00:00 +0900",
+    "link": "https://jacking75.github.io/VS_20250422/",
+    "pubDate": "Tue, 22 Apr 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Discord for WebStorm: Less Noise, More Signal",
-    "description": "TLDR: We’ve revamped the JetBrains Community Discord with dedicated WebStorm channels for announcements, discussions, help, and Q&As to create a more valuable community resource. We’ll have live office hours on April 23rd to connect directly with our team. Not part of our Discord community yet? Join the JetBrains Community Discord here to start connecting with […]",
+    "title": "Debugging Java Code in IntelliJ IDEA",
+    "description": "In this blog post, we will look at how to debug Java code using the IntelliJ IDEA debugger. We will look at how to fix a failing test, how to find out where an `Exception` is thrown, and how to find problems with our data. And we will learn some neat tricks about the debugger […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/webstorm/2025/04/discord-for-webstorm-less-noise-more-signal/",
-    "pubDate": "Tue, 22 Apr 2025 08:00:00 +0000",
-    "creator": "Jan-Niklas Wortmann",
+    "link": "https://blog.jetbrains.com/idea/2025/04/debugging-java-code-in-intellij-idea/",
+    "pubDate": "Thu, 24 Apr 2025 09:12:11 +0000",
+    "creator": "Marit van Dijk",
     "categories": [
-      "news",
-      "community",
-      "discord",
-      "webstorm",
-      "webstorm-2025-1"
+      "idea",
+      "java",
+      "tutorials",
+      "debug",
+      "debugger",
+      "debugging",
+      "intelij-idea"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "서장훈, &lsquo;나는 솔로&rsquo; 24기 영식에 돌직구&hellip;시청자 비난과 제작진의 속사정?",
-    "description": "2025년 4월 21일 방송된 KBS JOY ‘무엇이든 물어보살’에 ‘나는 솔로’ 24기에 출연했던 영식(본명 전형진)이 출연하면서 또다시 화제를 모았습니다. 방송 직후 시청자들의 비판이 거셌던 그의 출연은 이번 ‘물어보살’ 방송을 통해 다시 조명되었고, 이에 대한 서장훈의 현실적인 반응이 눈길을 끌고 있습니다.\n‘나는 솔로’ 24기, 논란의 중심에 선 영식\n연애 리얼리티 프로그램인 ENA/SBS PLUS ‘나는 솔로’ 24기는 방영 당시부터 유독 강한 몰입과 감정 표현으로 시청자들의 찬반이 갈렸습니다. 특히 ‘너드남 특집’이라는 타이틀 하에 출연했던 영식은 특정 출연자에게 감정적으로 과몰입하는 모습을 보이며 논란의 중심에 섰습니다.\n그는 옥순이라는 여성 출연자에게 애정 표현을 집중하는 한편, 다른 여성에게는 “넌 연습용이다”라는 발언을 서슴지 않아 큰 비판을 받았습니다. 이에 온라인 커뮤니티와 SNS에서는 단순한 비호감 논란을 넘어 인신공격성 비난까지 쏟아졌고, 결국 본인의 일상생활까지 영향을 받았다고 밝혔습니다.\n“제작진은 만세 불렀겠다”는 서장훈의 반응\n‘무엇이든 물어보살’ MC 서장훈은 이날 방송에서 “제작진은 그런 장면 보면서 만세 불렀겠네”라며 제작진의 입장에서 바라본 반응을 솔직하게 언급했습니다. 이는 시청률과 화제성을 고려하면 제작진 입장에선 드라마틱한 전개가 콘텐츠 성공의 열쇠가 되었을 수 있다는 의미로 해석됩니다.\n다만 서장훈은 단순한 놀림이나 조롱이 아닌, 진심 어린 조언도 함께 전했습니다. 그는 “순수한 건 좋은데 눈치가 너무 없다”며, “상대방의 마음을 생각하지 않고 감정만 앞세우는 행동은 반드시 고쳐야 한다”고 지적했습니다. 나이가 들수록 이런 행동은 단순히 순수하다는 평가를 넘어서 사회적 부적응으로 이어질 수 있다는 현실적인 충고였습니다.\n시청자 비난, 그 선은 어디인가?\n이수근은 방송 도중 “사람들이 뭐라고 욕하냐”고 묻자, 영식은 “경계성 지능장애, 찐따라는 말부터 부모님 욕까지 들었다”고 털어놨습니다. 방송 출연 이후 현실 생활에 영향을 받을 만큼의 비난을 경험했다고 밝힌 그는 심리적 부담을 호소했습니다.\n이에 서장훈은 “방송이 끝났으면 그만해야지, 부모 욕까지 하는 건 절대 안 된다”며, 시청자들의 과도한 비난에 자제를 요청했습니다. 연예인이나 일반인 출연자 모두 방송 뒤에도 인간으로서의 존엄이 지켜져야 하며, 인터넷 공간의 악성 댓글은 누군가에게는 큰 상처가 된다는 점을 강조했습니다.\n부모님의 반응과 영식의 자성\n영식은 “처음엔 어머니가 제가 연기를 한 줄 아셨다. 아들 연기 보더니 배우해도 되겠다고 하셨다”며 웃픈 에피소드를 전했습니다. 하지만 감정적으로 오열하는 장면을 보고는 “이건 연기가 아니라는 걸 아시고 많이 속상해하셨다”고 밝혔습니다.\n이러한 경험은 영식 본인에게도 큰 자극이 되었고, 방송 이후 본인을 돌아보는 계기가 되었을 것으로 보입니다. 그 역시 방송을 통해 “앞으로는 상대의 입장을 더 생각하는 사람이 되고 싶다”고 말하며 변화의 의지를 보였습니다.\n‘나는 솔로’ 24기, 리얼리티의 두 얼굴\n‘나는 솔로’ 24기는 단순한 연애 예능이 아닌, 사람들의 다양한 성격과 감정의 복합적인 면을 보여주는 리얼리티 쇼로서, 제작진 입장에서는 성공적이었다고 볼 수 있습니다. 하지만 시청자 입장에서 ‘리얼리티’라는 이름 아래 무분별한 몰입과 비난이 허용되는 것은 아닌지에 대한 고민도 필요합니다.\n방송은 한 사람의 일부분일 뿐이며, 모든 출연자는 편집이라는 과정을 거친 화면을 통해 보여집니다. 그 이면에는 인간적인 고뇌와 실수가 존재하며, 이를 지나치게 소비하거나 왜곡해서는 안 됩니다.\n결론\n‘나는 솔로’와 같은 리얼리티 프로그램은 매 회 큰 관심을 끌며 시청자들의 몰입을 유도하지만, 그 이면의 현실도 함께 바라볼 필요가 있습니다. 이번 영식의 사례처럼 한 출연자의 방송 이후 삶까지 영향을 받는 일은 더 이상 반복되지 않도록, 시청자와 제작진 모두에게 균형 잡힌 시각이 요구됩니다.",
+    "title": "&quot;로제가 등장하자 3만 관중 떼창&quot;...콜드플레이 서울 공연, 레전드가 된 순간",
+    "description": "콜드플레이 서울 콘서트, 상상을 초월한 무대\n2025년 4월 22일, 고양종합운동장 주경기장은 그야말로 전율의 도가니였다. 콜드플레이의 두 번째 내한공연 ‘뮤직 오브 더 스피어스(Music of the Spheres)’ 투어의 네 번째 무대가 열린 이날, 수만 명의 관객 앞에 놀라운 장면이 펼쳐졌다. 그 중심에는 블랙핑크의 로제가 있었다.\n콜드플레이의 보컬 크리스 마틴은 장난스레 피아노로 ‘아파트’ 전주를 연주하며 한국어로 “아파트, 아파트”를 외쳤다. 관객들은 처음엔 익살스러운 제스처로 여겼지만, 무대 위에 로제가 등장하자 반응은 완전히 뒤바뀌었다. 갑작스러운 등장에 수만 명이 일제히 ‘아파트’를 떼창하는 진풍경이 연출됐다.\n로제와 크리스 마틴, ‘아파트’로 하나되다\n로제는 무대 위를 활보하며 크리스 마틴과 함께 ‘아파트’를 열창했다. 두 사람은 감정을 실어 화음을 주고받았고, 관객은 일제히 떼창으로 응답했다. 노래가 끝난 후에도 크리스 마틴은 “너무 신난다. 한 번 더 하자”며 로제에게 제안했고, 이내 ‘아파트’는 또 한 번 경기장을 뒤흔들었다.\n이 특별한 협업은 단순한 게스트 무대를 넘어선 진심어린 음악적 교류였다. 로제와 콜드플레이는 모두 워너뮤직 산하 애틀랜틱 레코드 소속으로, 이전에도 로제가 콜드플레이의 ‘Viva La Vida’를 리메이크해 애플TV+ 드라마 ‘파친코’ 시즌2 엔딩곡으로 사용되기도 했다.\n하루 만에 코첼라에서 서울로, 로제의 의리\n더 놀라운 점은 로제가 불과 하루 전까지 미국 코첼라 페스티벌에서 블랙핑크 멤버들을 응원하는 모습이 포착되었다는 사실이다. 하루 만에 서울로 날아와 콜드플레이의 무대에 함께한 로제의 의리는 많은 팬들에게 깊은 인상을 남겼다.\n공연장을 찾은 이들 중에는 YG엔터테인먼트의 또 다른 대표 아티스트인 지드래곤(G-DRAGON)도 있었다. 그는 코드 쿤스트, 배우 정해인과 함께 관객석에서 공연을 관람했으며, 같은 날 태양도 공연장에 모습을 드러냈다. 크리스 마틴은 태양의 유명한 밈 “여러분, 너무 보고 싶었어요”를 피아노와 함께 재현하며 한국 팬들을 향한 애정을 표현하기도 했다.\n내한공연 역사 새로 쓴 콜드플레이\n이번 콜드플레이의 내한은 단순한 공연 그 이상이다. 4월 16일부터 시작해 18일, 19일, 22일, 그리고 예정된 24일과 25일까지 총 6회 공연은 단일 아티스트 기준 한국 내 공연 역사상 최대 규모로, 약 30만 명의 관객을 동원하는 대기록을 세웠다.\n이날 무대는 단순한 음악 공연이 아니라, 글로벌 팝스타들과 한국 아티스트의 깊은 교류가 만들어낸 감동의 순간이었다. 특히 로제와의 협업은 국경과 장르를 뛰어넘는 음악의 힘을 증명했다.\n마무리\n이번 콜드플레이 내한공연은 단순한 콘서트가 아닌, 하나의 문화적 사건이었다. 그 안에는 글로벌 무대에서 활약하는 한국 아티스트들의 존재감, 그리고 진심이 담긴 음악의 교류가 있었다. 로제의 깜짝 등장은 그 상징적인 순간이 되었으며, 관객들은 이 날을 두고두고 기억하게 될 것이다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EC%84%9C%EC%9E%A5%ED%9B%88-%E2%80%98%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C%E2%80%99-24%EA%B8%B0-%EC%98%81%EC%8B%9D%EC%97%90-%EB%8F%8C%EC%A7%81%EA%B5%AC%E2%80%A6%EC%8B%9C%EC%B2%AD%EC%9E%90-%EB%B9%84%EB%82%9C%EA%B3%BC-%EC%A0%9C%EC%9E%91%EC%A7%84%EC%9D%98-%EC%86%8D%EC%82%AC%EC%A0%95",
-    "pubDate": "Tue, 22 Apr 2025 23:11:55 +0900",
+    "link": "http://app-developer.tistory.com/entry/%EB%A1%9C%EC%A0%9C%EA%B0%80-%EB%93%B1%EC%9E%A5%ED%95%98%EC%9E%90-3%EB%A7%8C-%EA%B4%80%EC%A4%91-%EB%96%BC%EC%B0%BD%EC%BD%9C%EB%93%9C%ED%94%8C%EB%A0%88%EC%9D%B4-%EC%84%9C%EC%9A%B8-%EA%B3%B5%EC%97%B0-%EB%A0%88%EC%A0%84%EB%93%9C%EA%B0%80-%EB%90%9C-%EC%88%9C%EA%B0%84",
+    "pubDate": "Wed, 23 Apr 2025 08:48:01 +0900",
     "creator": "브리핑허브",
     "categories": [
-      "kbsjoy",
-      "나는솔로",
-      "리얼리티프로그램",
-      "무엇이든물어보살",
-      "방송논란",
-      "서장훈",
-      "서장훈조언",
-      "시청자비난",
-      "연애예능",
-      "영식"
+      "고양종합운동장",
+      "내한공연",
+      "로제",
+      "블랙핑크",
+      "아파트떼창",
+      "지드래곤",
+      "코첼라",
+      "콜드플레이",
+      "크리스마틴",
+      "태양"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "유니티 애니메이션 다운로드 및 관리 방방법 영상",
-    "description": "영상 1: https://www.youtube.com/watch?v=oFBGs4_jJ0Y\n\n\n\n \n \n영상 2: https://www.youtube.com/watch?v=5WyebyiOayk\n\n\n\n이 영상에 잘 나와있네요\n리소스 다운로드 방법\n휴머노이드로 전환\n애니메이션만 따로 빼서 저장\n등등이 있습니다.",
+    "title": "Elasticsearch 9.0의 변화",
+    "description": "지난주에 무슨 일이 있었는지 8.18과 9.0 버전이 동시에 릴리즈됐다. 8.18 지못미 다른 건 잘 모르겠고, ESQL에 LOOKUP JOIN 기능이 추가됨. ENRICH 기능과의 차이점은 정책 생성 및 실행 과정이 필요없다는 것.\n\n\n1. enrich 인덱스 생성\n\n\n2. enrich 정책 생성 및 실행\n\nPUT _enrich/policy/proc_info\n{\n    \"match\": {\n      \"indices\": \"proc_info\",\n      \"match_field\": \"proc\",\n      \"enrich_fields\": [\"company\"]\n    }\n}\n\nPOST _enrich/policy/proc_info/_execute\n\n\n\n3. enrich 쿼리\n\n\nLOOKUP JOIN\n\n\n1. lookup 인덱스 생성. enrich 인덱스와 달리 Lookup 인덱스 모드를 선택해야 한다. 필드 매핑도 keyword 타입 필수. \n\n\n2. lookup join 쿼리\n\n\n\n서브 쿼리 좀 빨리(..)\n\n관련 글\n\nElasticsearch 8.11의 변화\nenrich processor\n엘라스틱의 Join",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1272",
-    "pubDate": "Fri, 18 Apr 2025 12:41:19 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
+    "link": "https://kangmyounghun.blogspot.com/2025/04/elasticsearch-90.html",
+    "pubDate": "2025-04-20T07:02:00.002Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "코드 품질 개선 기법 8편: 실상과 허상",
-    "description": "안녕하세요. 커뮤니케이션 앱 LINE의 모바일 클라이언트를 개발하고 있는 Ishikawa입니다.저희 회사는 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
+    "title": "프리랜서 종합소득세 신고, 이것만 알아도 충분해요",
+    "description": "프리랜서라면 꼭 알아야 할 종합소득세 신고 방식",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-8",
-    "pubDate": "Fri, 18 Apr 2025 02:00:00 GMT",
+    "link": "https://blog.toss.im/article/tossmoment-8",
+    "pubDate": "Wed, 23 Apr 2025 04:53:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "CI/CD Security Best Practices",
-    "description": "Software development moves fast – really fast. It can also involve multiple teams working from different locations around the world. However, while speed and collaboration can be great for developers and businesses, they can also create security challenges.  With more entry points and less time to catch potential threats, each commit, build, and deployment is […]",
+    "title": "맥북에서 로지텍 MX Master 3 마우스 끊김 해결: SmartShift 비활성화 경험",
+    "description": "맥북 M4와 로지텍 MX Master 3는 생산성을 위한 강력한 도구 조합이지만, 예기치 않게 마우스 끊김, 스크롤 오류, 화면 확대/축소 문제가 발생할 수 있습니다. 저 또한 이러한 문제로 불편함을 겪었고, 마우스를 교체할까 고민할 정도로 답답했습니다. 하지만 끈질긴 문제 해결 시도 끝에, MX Master 3의 특정 기능이 맥북 M4와의 호환성 문제의 원인임을 발견했습니다.\n문제의 핵심: MX Master 3 SmartShift 기능과 맥북 M4\n문제의 원인은 바로 MX Master 3의 SmartShift 기능이었습니다. 이 기능은 마우스 휠 속도에 따라 자동으로 스크롤 모드를 전환하여 편리함을 제공하지만, 맥북 M4 환경에서는 예기치 않은 작동 오류를 일으킬 수 있었습니다.\n갑작스러운 마우스 멈춤 (MacBook mouse freeze)\n불규칙한 스크롤 동작 (MX Master 3 scroll issue)\n의도치 않은 화면 확대 또는 축소 (MacBook screen zoom problem)\n해결 과정: 마우스 기능 점검과 SmartShift 비활성화\n명확한 해결책을 찾기 어려워 답답했던 저는, 최후의 수단으로 MX Master 3의 기능을 하나씩 테스트하며 원인을 좁혀나가기 시작했습니다. 그러던 중 SmartShift 기능을 끄는 것이 문제 해결의 결정적인 단계였습니다.\n\nSmartShift 비활성화 방법 (Logi Options+ 기준):\nLogi Options+ 앱을 실행합니다.\n연결된 MX Master 3를 선택합니다.\n휠 설정 메뉴로 이동합니다.\nSmartShift 옵션을 OFF로 설정합니다.\n이 간단한 조치만으로 맥북 M4에서 MX Master 3 마우스 끊김, 스크롤 오류, 화면 확대/축소 문제가 깔끔하게 해결되었습니다.\n맥북 M4 마우스 끊김 예방을 위한 추가 팁\nLogi Options+ 및 마우스 펌웨어 최신 버전 유지: 정기적인 업데이트는 호환성 문제 해결 및 성능 향상에 도움이 됩니다.\n로지텍 전용 USB 수신기 활용: 블루투스 연결 불안정 시, 동글 사용을 고려해보세요.\nmacOS 접근 권한 확인: ‘시스템 설정’ > '개인 정보 보호 및 보안’에서 Logi Options+ 권한 설정을 확인합니다.\n결론: 맥북 M4와 MX Master 3 마우스 문제 해결은 SmartShift 비활성화가 답이었다.\n맥북 M4 환경에서 로지텍 MX Master 3 마우스 사용 중 끊김, 스크롤 이상, 화면 확대/축소 현상을 겪고 있다면, SmartShift 기능을 비활성화하는 것이 효과적인 해결책이 될 수 있습니다. 마우스 교체를 고려하기 전에 이 방법을 시도하여 쾌적한 맥북 사용 환경을 되찾으시길 바랍니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/04/ci-cd-security-best-practices/",
-    "pubDate": "Tue, 22 Apr 2025 12:57:38 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "best-practices",
-      "how-tos",
-      "security",
-      "how-to"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "유니티 포스트 프로세싱에 대해 알아보자",
-    "description": "영상: https://www.youtube.com/watch?v=9_QwGdL_gvA\n\n\n\n \n \n40분 20초\n쉐이더 작업하다 길을 잃으면\nF 키 누르면 전체가 화면에 잡히도록 해준다네요\n몰랐습니다.\n \n1시간 15분 부터 DOF 를 하는군요 \n\n\n49분 30초 redirect node 라고 그래프 선이 마음에 들지 않는다면\n특정위치로 선을 옮길 수 있습니다. 기능은 없고 꺾어주는 역활만 하는거 같군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1278",
-    "pubDate": "Sun, 20 Apr 2025 19:12:38 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "유니티"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "언젠가는",
-    "description": "2주 전 열렸던 2025년도 마스터스 골프 대회를 드디어 로리 맥길로이가 우승했다. 맥길로이가 2009년도를 시작으로 그동안 17번이나 마스터스에 참가했는데, 탑텐은 여러 번 했고 준우승도 한 번 했지만, 우승은 이번이 처음이었다. 16년 만에 거머쥔 우승 트로피였고, 그 누구보다 우승을 간절히 원했던 선수였기 때문에, 이번 우승은 나에게도 굉장히 감동적으로 다가왔다. 우승 인터뷰에서 맥길로이가 이런 말을 했다. “과연 내가(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/04/your-time-will-come-someday.html",
-    "pubDate": "Wed, 23 Apr 2025 20:01:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "hustle",
-      "sports",
-      "Strong"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "한국 인기 PHP CMS 비교 분석 및 추천: 워드프레스, 그누보드, 라이믹스, Zigger 등",
-    "description": "웹사이트를 만들고 싶으신가요? 블로그, 커뮤니티, 기업 홈페이지 등 어떤 형태든 콘텐츠 관리 시스템(CMS)을 사용하면 훨씬 수월하게 제작하고 운영할 수 있습니다. 특히 전 세계 웹사이트의 상당수가 PHP 언어를 기반으로 만들어졌기에, PHP 기반 CMS는 여전히 강력하고 인기 있는 선택지입니다.\n한국에서는 국내 환경에 특화된 CMS부터 세계적으로 유명한 CMS까지 다양한 PHP 기반 도구들이 사용되고 있습니다. 하지만 각 CMS는 저마다의 특징과 장단점을 가지고 있어, 내 프로젝트의 목적과 규모, 개발 지식 수준, 그리고 한국어 지원 수준에 맞는 도구를 선택하는 것이 중요합니다.\n이 글에서는 한국에서 개발되었거나 인기를 얻고 있는 주요 PHP 기반 CMS들을 비교 분석하여 여러분의 현명한 선택을 돕고자 합니다. 각 CMS의 공식 사이트, 오픈소스 여부, 개발팀 및 한국어 지원 현황, 커뮤니티 성숙도, 그리고 가장 중요한 장단점을 꼼꼼히 살펴보겠습니다.\n주요 PHP CMS 도구 비교표 (2025년 기준)\n먼저 각 CMS의 핵심 정보를 한눈에 비교할 수 있도록 표로 정리했습니다.\n도구명\n공식 사이트\n개발팀 및 한국어 지원\n오픈소스 여부\n소스 저장소\n커뮤니티 활동 및 성숙도\n\n\n\n\n워드프레스\nwordpress.org\nWordPress 재단 (미국) / 매우 우수 (공식 지원)\nYes (GPLv2)\nGitHub (WordPress)\n세계 최대 규모 커뮤니티, 활발한 한글 포럼, 연 단위 메이저 업데이트 (현재 6.x 버전대)\n\n\n그누보드\nsir.kr\nSIR SOFT (국내) / 네이티브 지원\nYes (LGPL 2.1)\nGitHub (gnuboard5)\n공식 포럼(SIR) 매우 활발, 지속적 업데이트 (최신 버전 꾸준히 릴리스)\n\n\n라이믹스\nrhymix.org\nXE 포크 커뮤니티 (국내) / 네이티브 지원\nYes (GPLv2)\nGitHub (rhymix/rhymix)\n공식 포럼 및 XETOWN 커뮤니티 활발, 2.x 버전 꾸준히 배포 중\n\n\nZigger\nzigger.net\n개발자 커뮤니티 (국내) / 네이티브 지원\nYes (LGPL 2.1)\nGitHub (ziggerFramework)\n공식 포럼 운영, 2024년 말까지 활발히 업데이트 (2025년 지속 여부 확인 필요)\n\n\nWinterCMS\nwintercms.com\n국제 커뮤니티 / 제한적 지원 (UI 번역 가능)\nYes (MIT)\nGitHub (wintercms)\nDiscord 중심 커뮤니티 활발, 정기 업데이트 (최신 Laravel LTS 지원 목표)\n\n\nTypiCMS\ntypicms.org\n국제 개발팀 / 제한적 지원 (다국어 기능 내장)\nYes (MIT)\nGitHub (TypiCMS/Base)\nGitHub 통해 개발 활발, 소규모 개발자 커뮤니티\n\n\nStatamic\nstatamic.com\nStatamic 팀 (미국) / 제한적 지원 (UI 번역 가능)\nYes* (제한 있음)\nGitHub (statamic/cms)\nDiscord 커뮤니티 활발, 유료 Pro 지원, 현재 v5 버전대 운영\n\n\n\n*Statamic: 코어는 오픈소스이나 상업적/팀 사용 시 유료 Pro 라이선스가 필요합니다.\nCMS 도구별 장점 및 단점 상세 분석\n이제 각 CMS의 특징을 좀 더 자세히 살펴보겠습니다.\n1. 워드프레스 (WordPress)\n한 줄 요약: 전 세계적으로 가장 많이 사용되는 압도적인 생태계를 갖춘 PHP CMS의 제왕. (한국어 지원 매우 우수)\n장점:\n압도적인 생태계: 수만 개의 테마와 플러그인을 통해 상상하는 거의 모든 기능을 구현할 수 있습니다. (블로그, 쇼핑몰, 커뮤니티 등)\n높은 범용성 및 접근성: 초보자부터 전문가까지 누구나 쉽게 설치하고 사용할 수 있으며, 관련 자료와 커뮤니티 지원이 매우 풍부합니다.\n우수한 한국어 지원: 공식 한국어 버전이 제공되며, 관리자 화면, 테마, 플러그인 등에서 한국어 지원이 매우 잘 되어 있습니다. 활발한 한국어 커뮤니티와 문서도 큰 장점입니다.\n쉬운 콘텐츠 관리: 직관적인 관리자 화면과 강력한 편집기는 콘텐츠 생성 및 관리에 최적화되어 있습니다.\n완전 무료 오픈소스 (GPL): 라이선스 걱정 없이 자유롭게 사용하고 수정할 수 있습니다.\n지속적인 업데이트: 핵심 개발팀과 전 세계 커뮤니티에 의해 꾸준히 업데이트되고 발전합니다. (현재 6.x 버전대)\n단점:\n성능 및 보안 이슈: 많은 플러그인 사용 시 사이트 속도가 느려질 수 있으며, 인기가 많은 만큼 해킹 공격의 주 대상이 되므로 보안 관리에 신경 써야 합니다.\n플러그인 의존성 및 충돌: 원하는 기능을 구현하기 위해 플러그인에 크게 의존하게 되며, 플러그인 간 충돌이나 호환성 문제가 발생할 수 있습니다.\n복잡한 코드 구조: 오래된 역사만큼 코드 구조가 현대적이지 않아 개발자가 깊이 있는 커스터마이징을 할 때 어려움을 느낄 수 있습니다.\n국내 특화 기능 부족: 한국만의 특수한 결제 시스템 연동이나 본인인증 등은 별도 플러그인 개발이나 유료 솔루션이 필요할 수 있습니다. (단, 관련 플러그인이 다수 존재)\n2. 그누보드 (Gnuboard)\n한 줄 요약: 쉽고 빠른 한국형 게시판 중심 웹사이트 구축에 최적화된 국산 CMS의 대표주자. (한국어 네이티브 지원)\n장점:\n쉬운 사용법: 설치가 간편하고 직관적인 관리자 화면을 제공하여 초보자도 쉽게 접근할 수 있습니다. (모든 인터페이스 한국어 기본)\n핵심 기능 내장: 게시판, 회원 관리, 쪽지, 포인트, 설문조사 등 웹사이트 운영에 필요한 필수 기능 대부분이 기본으로 포함되어 있습니다.\n풍부한 한국어 자료: 국내 최대 규모의 커뮤니티(SIR)를 통해 수많은 스킨, 플러그인, 팁, 문제 해결 방법을 한국어로 얻을 수 있습니다.\n자유로운 커스터마이징: LGPL 라이선스로 저작권 표기 의무가 없어 자유롭게 수정하고 활용할 수 있습니다.\n오랜 역사와 안정성: 2003년부터 꾸준히 업데이트되며 안정성을 검증받았습니다.\n단점:\n구조적 한계: 오래된 PHP 방식으로 개발되어 테마 변경 시 코어 파일을 직접 수정해야 하는 경우가 있어 업데이트 시 어려움이 발생할 수 있습니다.\n보안 고려 필요: 일부 오래된 함수(extract 등) 사용으로 인해 개발자가 보안에 신경 써야 할 부분이 남아있습니다.\n현대적 개발 패턴과 거리: 최신 PHP 프레임워크 기반이 아니므로 모던 웹 개발 트렌드와는 다소 차이가 있습니다.\n모바일 반응형: 기본 기능 외 모바일 최적화 등은 커뮤니티 자료에 의존해야 합니다.\n3. 라이믹스 (Rhymix)\n한 줄 요약: XpressEngine(XE)의 장점을 계승하고 현대적으로 발전시킨 강력한 국산 CMS 프레임워크. (한국어 네이티브 지원)\n장점:\n뛰어난 확장성: 모듈, 애드온, 위젯, 스킨 등 체계적인 구조를 통해 기능 추가 및 디자인 변경이 매우 유연합니다. XE용으로 개발된 방대한 자료를 상당 부분 활용할 수 있습니다.\n지속적인 발전: XE의 개발 중단 이후에도 5년 이상 꾸준히 업데이트되며 PHP 최신 버전 지원, 성능 개선, 보안 강화가 이루어지고 있습니다.\n활발한 한국어 커뮤니티: 공식 포럼과 XETOWN 등에서 사용자 간의 활발한 정보 교류 및 지원이 한국어로 이루어집니다.\n검증된 성능: 대규모 커뮤니티 사이트 운영 사례(동시 접속자 1만 명 이상)를 통해 성능과 안정성이 입증되었습니다.\n오픈소스 철학: GPL 라이선스로 전환하여 자유로운 사용과 기여를 장려합니다.\n단점:\n학습 곡선: XE/라이믹스 특유의 구조(모듈, 애드온, 레이아웃 등)에 대한 이해가 필요하여 초심자에게는 다소 어려울 수 있습니다.\n높은 초기 복잡도: 다양한 기능을 제공하는 만큼 초기 설정이나 운영에 있어 그누보드보다 요구사항이 많고 복잡하게 느껴질 수 있습니다.\n국내 중심 생태계: 글로벌 CMS에 비해 해외 자료나 사용자는 상대적으로 적습니다.\n관리 필요성: 기능이 많고 업데이트가 잦은 편이라 꾸준한 관리가 요구됩니다.\n4. Zigger\n한 줄 요약: 반응형 웹사이트 구축에 초점을 맞춘 비교적 최신의 국산 오픈소스 CMS. (한국어 네이티브 지원)\n장점:\n쉬운 반응형 웹 제작: 처음부터 반응형 웹을 염두에 두고 개발되어 모바일 친화적인 사이트를 쉽게 만들 수 있도록 지원합니다.\n필수 기능 내장: 웹사이트 관리, 회원, 배너, 팝업, 메일 발송 등 중소규모 사이트에 필요한 기능을 기본 탑재하여 추가 개발 부담이 적습니다.\n모듈/테마 확장성: 모듈과 테마를 통해 기능과 디자인을 확장할 수 있으며, REST API 연동, SEO 설정 등 현대적인 기능도 지원합니다.\n국내 커뮤니티 지원: 공식 사이트 내 포럼을 통해 한국어로 Q&A, 팁 공유 등 사용자 소통이 이루어지고 있습니다.\n명확한 오픈소스 라이선스: LGPL 라이선스로 저작권 표기 의무가 없어 자유롭게 수정하고 활용할 수 있습니다.\n단점:\n낮은 성숙도 및 불확실성: 출시된 지 오래되지 않아 검증된 사용 사례나 자료가 부족하며, 2025년 현재 업데이트 지속 여부 및 장기적인 프로젝트 안정성은 지켜볼 필요가 있습니다. (2024년 말까지는 활발했음)\n제한적인 생태계: 서드파티 플러그인이나 테마가 매우 적어 원하는 기능이 없다면 직접 개발해야 할 가능성이 높습니다.\n초기 버그 가능성: 신생 프로젝트인 만큼 예상치 못한 버그나 보안 취약점이 발견될 수 있습니다.\n5. WinterCMS\n한 줄 요약: Laravel 프레임워크 기반의 개발자 친화적인 모던 오픈소스 CMS. (한국어 지원 제한적)\n장점:\n개발자 친화적: 강력한 PHP 프레임워크인 Laravel 기반으로 MVC 패턴, 깔끔한 코드 구조, Twig 템플릿 엔진 등을 제공하여 개발 생산성이 높습니다.\n완전한 오픈소스: MIT 라이선스로 상업적 이용에도 제약 없이 자유롭게 사용할 수 있습니다.\n플러그인 기반 확장: 필요한 기능을 플러그인 형태로 추가하여 가볍게 시작하고 확장할 수 있습니다. OctoberCMS의 기존 플러그인과 호환되는 경우가 많습니다.\n활발한 글로벌 커뮤니티: Discord 등을 중심으로 개발자들이 적극적으로 소통하고 지원하며, 꾸준히 업데이트되고 있습니다.\n단점:\n낮은 국내 인지도 및 한국어 지원 부족: 한국어 자료나 커뮤니티 지원이 부족하며, 관리자 인터페이스 등에서 한국어 사용이 제한적일 수 있습니다. (별도 번역 작업 필요 가능성)\n개발 지식 요구: Laravel 및 웹 개발 지식이 어느 정도 필요하여 비개발자에게는 진입 장벽이 높습니다.\n플러그인 생태계: 워드프레스만큼 방대한 플러그인 마켓을 기대하기는 어렵습니다.\n비교적 짧은 역사: OctoberCMS에서 분리된 지 오래되지 않아 장기적인 프로젝트 안정성이나 시장 점유율은 지켜볼 필요가 있습니다.\n6. TypiCMS\n한 줄 요약: 다국어 지원에 특화된 Laravel 기반의 모듈형 오픈소스 CMS. (한국어 지원 제한적)\n장점:\n강력한 다국어 지원: 설계 단계부터 다국어 환경을 고려하여 여러 언어로 콘텐츠를 관리하기 용이합니다. 한국어 콘텐츠 관리도 가능합니다.\nLaravel 기반의 유연성: Laravel 프레임워크 위에서 동작하므로 Laravel 개발자에게 익숙하며, 모듈 추가/개발을 통해 자유롭게 확장 가능합니다.\n필수 모듈 기본 제공: 페이지, 뉴스, 이벤트, 메뉴, 번역 관리 등 기본적인 콘텐츠 관리 모듈이 내장되어 있습니다.\n순수 오픈소스 (MIT): 라이선스 제약 없이 자유롭게 사용, 수정, 배포할 수 있습니다.\n경량 및 심플함: 필요한 기능 중심으로 구성되어 비교적 가볍고 빠르게 동작합니다.\n단점:\n높은 개발 의존도: Laravel 및 Composer 사용법 등 개발 지식이 필수적이며, 설치 및 초기 설정이 명령줄 기반이라 비개발자에게는 어렵습니다.\n작은 커뮤니티 및 한국어 자료 부족: 사용자층이 넓지 않아 문제 해결이나 한국어 정보 획득에 어려움을 겪을 수 있습니다. 관리자 인터페이스 등의 한국어 지원이 미흡할 수 있습니다.\n편의 기능 부족: 워드프레스처럼 풍부한 관리자 UI나 원클릭 플러그인 설치 같은 편의 기능은 부족합니다.\n7. Statamic\n한 줄 요약: 데이터베이스 없이 파일 기반으로 콘텐츠를 관리하는 독특한 Laravel 기반 CMS. (한국어 지원 제한적)\n장점:\n파일 기반(Flat-File): DB 대신 Markdown/YAML 파일로 콘텐츠를 관리하여 Git 등을 이용한 버전 관리 및 배포가 매우 편리합니다.\n직관적인 관리자 화면: 콘텐츠 에디터가 사용하기 쉬운 깔끔하고 현대적인 인터페이스를 제공합니다.\nLaravel의 강력함 활용: Laravel 기반이므로 성능, 보안, 확장성 면에서 이점을 가지며 커스터마이징이 용이합니다.\n활발한 커뮤니티 및 마켓: Discord 커뮤니티가 활발하고, 애드온/테마 마켓플레이스가 있어 생태계가 성장하고 있습니다.\n오픈소스 코어: 개인/소규모 프로젝트는 무료(Solo 모드)로 핵심 기능을 사용할 수 있습니다.\n단점:\n유료 라이선스 정책: 상업적 목적이나 팀 단위 사용(Pro 모드), 특정 고급 기능은 유료 라이선스를 구매해야 합니다. 완전 무료 CMS는 아닙니다.\n대규모 콘텐츠 관리: 콘텐츠 양이 극도로 많아지면 파일 기반 특성상 성능 저하나 관리 복잡성이 발생할 수 있습니다.\n낯선 개념: DB를 사용하지 않는 방식이 기존 CMS 사용자에게는 생소할 수 있습니다.\n제한적인 한국어 지원: 한국어 자료나 국내 사용 사례가 드물고, 관리자 인터페이스 등의 한국어 지원이 미흡할 수 있습니다. (별도 번역 작업 필요 가능성)\n결론: 어떤 CMS를 선택해야 할까?\n지금까지 한국에서 인기 있거나 주목할 만한 PHP 기반 CMS들을 살펴보았습니다. 각 CMS는 저마다의 철학과 강점을 가지고 있습니다. 어떤 CMS가 '최고'라고 단정하기보다는, 여러분의 상황에 '가장 적합한' 도구를 찾는 것이 중요합니다. 특히 한국어 사용자 환경을 중요하게 생각한다면 다음 기준을 고려해볼 수 있습니다.\n한국어 네이티브 지원 및 국내 커뮤니티 중심: 그누보드, 라이믹스, Zigger는 개발 단계부터 한국 환경을 고려했고, 풍부한 한국어 자료와 커뮤니티 지원을 받을 수 있습니다. 특히 그누보드와 라이믹스는 오랜 기간 검증된 선택지입니다. Zigger는 최신 기술을 반영하려 노력하지만, 장기적인 안정성은 더 지켜봐야 합니다.\n개발자 중심 & 제한적 한국어 지원: WinterCMS, TypiCMS, Statamic은 Laravel 기반으로 모던한 개발 환경을 제공하지만, 한국어 문서나 커뮤니티 지원은 부족합니다. 관리자 인터페이스 등에서 직접 번역하거나 영어 환경에 익숙해야 할 수 있습니다.\n글로벌 표준 & 매우 우수한 한국어 지원: 워드프레스는 전 세계적인 표준 CMS이면서도 공식 한국어 지원이 매우 뛰어나고 국내 사용자 및 자료도 방대하여, 언어 장벽 없이 강력한 기능을 활용하고 싶을 때 최고의 선택지가 될 수 있습니다.\n궁극적으로 여러분의 프로젝트 목표(블로그, 쇼핑몰, 커뮤니티 등), 필요한 특정 기능, 예상되는 트래픽 규모, 가용 예산, 직접 개발에 투입할 수 있는 시간과 기술 수준, 그리고 선호하는 커뮤니티 지원 방식 및 한국어 환경 등을 종합적으로 고려하여 신중하게 결정하시기 바랍니다. 현명한 CMS 선택이 성공적인 웹사이트 구축의 튼튼한 기반이 될 것입니다.\n참고 자료\n워드프레스 공식 사이트 (영문): https://wordpress.org\n그누보드 공식 사이트: http://sir.kr\n그누보드 - 위키백과: https://ko.wikipedia.org/wiki/그누보드\n그누보드 GitHub: https://github.com/gnuboard\n라이믹스 공식 사이트: https://rhymix.org\n라이믹스 - 위키백과: https://ko.wikipedia.org/wiki/Rhymix\n라이믹스 GitHub: https://github.com/rhymix/rhymix\nZigger 공식 사이트: https://www.zigger.net\nZigger GitHub: https://github.com/ziggerFramework/zigger-source-2.4\nWinterCMS 공식 사이트: https://wintercms.com\nWinterCMS GitHub: https://github.com/wintercms/winter\nTypiCMS GitHub: https://github.com/TypiCMS/Base\nStatamic 공식 사이트: https://statamic.com\nStatamic GitHub: https://github.com/statamic/cms\nCMS 시장 점유율 통계 (W3Techs): http://w3techs.com/technologies/overview/content_management/all",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.gaerae.com/2025/04/php-cms-wordpress-gnuboard-rhymix-zigger.html",
-    "pubDate": "Mon, 21 Apr 2025 08:24:00 +0000",
+    "link": "https://blog.gaerae.com/2025/04/macbook-mx-master-3-smartshift.html",
+    "pubDate": "Thu, 24 Apr 2025 09:51:00 +0000",
     "creator": "noreply@blogger.com (Unknown)",
     "categories": [
       {
-        "_": "app",
+        "_": "macbook",
         "$": {
           "domain": "http://www.blogger.com/atom/ns#"
         }
       },
       {
-        "_": "cms",
+        "_": "mouse",
         "$": {
           "domain": "http://www.blogger.com/atom/ns#"
         }
@@ -178,64 +145,102 @@
     ]
   },
   {
-    "id": 12,
+    "id": 9,
     "imageUrl": "",
-    "title": "Add Force 1 - v39 / 히어로 추가 (개발중)",
-    "description": "이 그림을 앱 이콘으로 사용할 예정입니다.\n \n컨셉\n기사 캐릭터가 등장하며 광고를 보고 구매할 수 있습니다.\n기사 캐릭터는 게임중에 난입하여 적들을 칼로 공격합니다.\n총알을 기사에게 발사하면 기사가 레벨업을 합니다.\n레벨업을 하면 더 빠른 공격과 공격력을 가지게 됩니다.\n \n\n\n히어로 버튼이 추가되었습니다.\n\n\n광고를 시청하면\n\n\n등장 할 수 있는 상태가 됩니다.\n(개발중)",
+    "title": "C# - .NET 9, C#13 정리",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1279",
-    "pubDate": "Wed, 23 Apr 2025 14:52:37 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "Add Force 1 (자작)"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "A Practical Guide to Testing Spring Controllers With MockMvcTester",
-    "description": "Spring Framework 6.2 introduced MockMvcTester to support writing AssertJ style assertions using AssertJ under the hood. If you’re using Spring Boot, the spring-boot-starter-test dependency transitively adds the most commonly used testing libraries such as mockito, assertj, json-path, jsonassert, etc. So, if you’re using Spring Boot 3.4.0 (which uses Spring framework 6.2) or any later version, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/a-practical-guide-to-testing-spring-controllers-with-mockmvctester/",
-    "pubDate": "Tue, 22 Apr 2025 13:22:39 +0000",
-    "creator": "Siva Katamreddy",
-    "categories": [
-      "idea",
-      "java",
-      "springboot-2",
-      "mockmvc",
-      "mockmvctester",
-      "spring",
-      "testing"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Toss Compares Auto Insurance Quotes with Insurer-Matched Rates",
-    "description": "Toss being the first in the industry to launch it",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/automobile__",
-    "pubDate": "Thu, 17 Apr 2025 22:36:00 GMT",
+    "link": "https://jacking75.github.io/NET_20250424/",
+    "pubDate": "Thu, 24 Apr 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 15,
+    "id": 10,
     "imageUrl": "",
-    "title": "유니티 픽셀라이저 / 도트로 보이게 만들자",
-    "description": "영상: https://youtu.be/q4epArkvVnE?t=1034\n\n\n\n12분에 나옵니다.\n \n애셋 링크: bing.com/ck/a?!&&p=75737a337e71df6ed009a8ed37376a2d33afc7c860ba34cee95c9fb3c24d295aJmltdHM9MTc0NTAyMDgwMA&ptn=3&ver=2&hsh=4&fclid=103bf7f7-14f0-64e7-025e-e4ca15636503&psq=unity+asset+store+pro+pixelizer&u=a1aHR0cHM6Ly9hc3NldHN0b3JlLnVuaXR5LmNvbS9wYWNrYWdlcy92Zngvc2hhZGVycy9mdWxsc2NyZWVuLWNhbWVyYS1lZmZlY3RzL3Byb3BpeGVsaXplci1yZWFsdGltZS0zZC1waXhlbC1hcnQtMTc3ODc3Izp-OnRleHQ9QWRkJTIwZGVwdGglMjB0byUyMHlvdXIlMjBwcm9qZWN0JTIwd2l0aCUyMFByb1BpeGVsaXplciUyMC0sbW9yZSUyMFZGWCUyMG9wdGlvbnMlMjBvbiUyMHRoZSUyMFVuaXR5JTIwQXNzZXQlMjBTdG9yZS4&ntb=1\n\n \nunity asset store pro pixelizer - Bing\nBing은 지능적인 검색 기능은 사용자가 원하는 정보를 빠르게 검색하고 보상을 제공합니다.\nwww.bing.com\n\n \n애셋 홍보영상: ProPixelizer for Unity\n\n\n\n \n나중에 써보도록 하자",
+    "title": "[MULTI] RPG 팬이라면 올해 꼭 해봐야 하는 타이틀, 클레르 옵스퀴르",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1277",
-    "pubDate": "Sun, 20 Apr 2025 15:48:46 +0900",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2299",
+    "pubDate": "Thu, 24 Apr 2025 17:00:04 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "미친 사람들과 같이 일하기",
+    "description": "미친 사람들. 이게 내가 요새 우리 투자사 창업가들과 만날 때마다 내 머릿속에 떠오르는 단어다. 우리가 투자한 창업가들은 본인들의 사업이 잘되든, 잘 안되든, 내가 지금까지 만난 모든 직장인 중 일 잘하는 순위를 매겨보면 상위 1%에 들어가는 분들이다. 일을 좀 하는 분들이 아니라, 오지게 잘하는 분들이고, 남이 만들어 놓은 회사에서 직장인 생활을 하면 날아다닐 정도로 야무지게, 그리고(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/04/working-with-crazy-people.html",
+    "pubDate": "Sun, 20 Apr 2025 21:41:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "failure",
+      "FoundersAtWork",
+      "hustle",
+      "korea",
+      "people",
+      "Strong"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "토스인컴, '5월 종소세 신고' 앞두고 '추징 안심보상제' 실시",
+    "description": "‘추징 안심보상제’와 ‘종소세 미리보기’ 서비스 출시",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/tossincomeservices",
+    "pubDate": "Mon, 21 Apr 2025 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Visual Studio의 새로운 디버깅 및 프로파일링 기능(v17.13)",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/VS_20250420/",
+    "pubDate": "Sun, 20 Apr 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Brick Away / 블록분해 v2 / 회전 레벨 생성",
+    "description": "두번째 버전 출시 했습니다.\n \n관련 링크\n플레이 링크: https://play.unity.com/en/games/1108fd21-5ab1-481e-a4c8-7dc42a7641e9/brick-away-v2\n\n \nBrick Away V2 on Unity Play\nv2 - mouse drag rotation - random level generate BLOG: https://serverdown.tistory.com/category/%EB%B8%94%EB%A1%9D%20%EB%B6%84%ED%95%B4%20%EA%B2%8C%EC%9E%84%20%28%EC%9E%90%EC%9E%91%29\nplay.unity.com\n\n \n플레이 영상: https://www.youtube.com/watch?v=_EVuM-JzcMw\n\n\n\n \n \n \n마우스 드레그로 회전 가능합니다.\n레벨을 랜덤으로 생성합니다.\n클리어 하면 레벨이 올라갑니다.\n레벨은 상자 수를 의미합니다.\n \n다음 버전 예정\n레벨 생성이 잘 되도록 수정 예정",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1281",
+    "pubDate": "Thu, 24 Apr 2025 16:20:56 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "프로그래밍/유니티 에셋 리뷰",
-      "유니티"
+      "블록 분해 게임 (자작)",
+      "게임",
+      "유니티",
+      "자작"
     ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "토스, 전자문서 발급으로 종이 2억 2천만 장 절감",
+    "description": "사용자 편의성과 환경 보호 동시 실현",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/tosssavetheplanet",
+    "pubDate": "Mon, 21 Apr 2025 23:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
