@@ -2,96 +2,29 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Set the default file encoding",
-    "description": "Have you ever encountered unexpected issues due to file encoding when working in cross-platform environments? These frustrating problems can disrupt your workflow and consume valuable time. Visual Studio addresses these concerns with a new feature – the Default File Encoding option. You can now specify the encoding Visual Studio should use when saving files. This […]\nThe post Set the default file encoding appeared first on Visual Studio Blog.",
+    "title": "C# - .NET 9, C#13 정리",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/set-the-default-file-encoding/",
-    "pubDate": "Mon, 28 Apr 2025 14:50:31 +0000",
-    "creator": "Mark Downie",
-    "categories": [
-      "Cross-Platform",
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "CI/CD Security Best Practices",
-    "description": "Software development moves fast – really fast. It can also involve multiple teams working from different locations around the world. However, while speed and collaboration can be great for developers and businesses, they can also create security challenges.  With more entry points and less time to catch potential threats, each commit, build, and deployment is […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/04/ci-cd-security-best-practices/",
-    "pubDate": "Tue, 22 Apr 2025 12:57:38 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "best-practices",
-      "how-tos",
-      "security",
-      "how-to"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Aqua Sunset",
-    "description": "Aqua was originally developed as a dedicated IDE for QA engineers working in automated testing. After carefully evaluating adoption rates, market trends, and user feedback, we have made the difficult decision to discontinue the product. While this was not an easy choice, Aqua did not reach the level of adoption we had anticipated. We believe […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qa/2025/04/aqua-sunset/",
-    "pubDate": "Tue, 22 Apr 2025 12:16:52 +0000",
-    "creator": "Razmik Seysyan",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Pure Virtual C++ 2025: Pre-Conference Videos",
-    "description": "Pure Virtual C++ is our free, one-day, virtual conference for the whole C++ community. It is running on 30th April. The first half of our pre-conference videos is now available on YouTube. The videos are: MSVC C++23 Conformance Simplifying your Cross-Platform Development with Visual Studio C++ Dynamic Debugging How Debuggers Work A Year in Review: […]\nThe post Pure Virtual C++ 2025: Pre-Conference Videos appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2025-pre-conference-videos/",
-    "pubDate": "Wed, 23 Apr 2025 18:46:32 +0000",
-    "creator": "Sy Brand",
-    "categories": [
-      "Announcement",
-      "C++",
-      "Pure Virtual C++"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "코드 품질 개선 기법 9편: 왔던 길을 되돌아가 보자",
-    "description": "안녕하세요. 커뮤니케이션 앱 LINE의 모바일 클라이언트를 개발하고 있는 Ishikawa입니다.저희 회사는 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-9",
-    "pubDate": "Fri, 25 Apr 2025 02:10:00 GMT",
+    "link": "https://jacking75.github.io/NET_20250424/",
+    "pubDate": "Thu, 24 Apr 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 6,
+    "id": 2,
     "imageUrl": "",
-    "title": "Building Dash: How RAG and AI agents help us meet the needs of businesses",
-    "description": "null",
+    "title": "가정의 달 콘텐츠 ➁ 혼자여도, 여럿이어도. 모든 가족에게 필요한 살림의 셈법",
+    "description": "다양한 경제공동체를 위한 콘텐츠 큐레이션",
     "reviews": [],
     "syllabus": [],
-    "link": "https://dropbox.tech/machine-learning/building-dash-rag-multi-step-ai-agents-business-users",
-    "pubDate": "Thu, 24 Apr 2025 06:00:00 -0700",
-    "creator": "\r\n                            Ranjitha Gurunath Kulkarni,James Johnson\r\n            \t\t\t",
-    "categories": [
-      "LLM",
-      "models",
-      "Machine Learning",
-      "AI",
-      "Dash",
-      "Business"
-    ]
+    "link": "https://blog.toss.im/article/2025may-curation2",
+    "pubDate": "Tue, 29 Apr 2025 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
-    "id": 7,
+    "id": 3,
     "imageUrl": "",
     "title": "Effortless adjustments with an adaptive paste",
     "description": "Find yourself needing to adjust pasted code to actually work in your project? Visual Studio 2022 introduces the capability to adapt your pasted code with Copilot to reduce the time you spend on making tedious changes. Streamline manual code modifications with adaptive paste When you’re copying and pasting code, the process often comes with extra […]\nThe post Effortless adjustments with an adaptive paste appeared first on Visual Studio Blog.",
@@ -107,48 +40,7 @@
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "프리랜서 종합소득세 신고, 이것만 알아도 충분해요",
-    "description": "프리랜서라면 꼭 알아야 할 종합소득세 신고 방식",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/tossmoment-8",
-    "pubDate": "Wed, 23 Apr 2025 04:53:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Qodana For Code Quality in STEM",
-    "description": "Your code drives discovery. Keep it precise. In STEM fields, software isn’t just a product, it underpins innovation, research, and life-critical infrastructure. Qodana brings advanced static code analysis to STEM software projects, helping ensure code quality, security, and compliance where it matters most. Qodana for STEM Why code quality matters in STEM Software in science, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/04/qodana-for-code-quality-in-stem/",
-    "pubDate": "Tue, 22 Apr 2025 10:37:18 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "case-study-qodana",
-      "qodana",
-      "code-analysis",
-      "stem"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Logstash 필터 ruby - 8th",
-    "description": "audit.log 연동.\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n kv {}\n\n\n dissect {\n  mapping => {\"msg\" => \"%{}(%{timestamp}:%{}\"}\n }\n}\n\n\n\n\n{\n       \"family\" => \"10\",\n      \"message\" => \"type=NETFILTER_CFG msg=audit(1745768855.720:63): table=filter family=10 entries=0\\r\",\n         \"type\" => \"NETFILTER_CFG\",\n      \"entries\" => \"0\\r\",\n    \"timestamp\" => \"1745768855.720\",\n        \"table\" => \"filter\",\n          \"msg\" => \"audit(1745768855.720:63):\"\n}\n{\n          \"gid\" => \"0\",\n           \"a2\" => \"41a2d8\",\n           \"a0\" => \"1e2da20\",\n         \"ppid\" => \"1335\",\n          \"key\" => \"(null)\\r\",\n    \"timestamp\" => \"1745768855.720\",\n           \"a1\" => \"1d75\",\n        \"fsgid\" => \"0\",\n          \"tty\" => \"none\",\n      \"message\" => \"type=SYSCALL msg=audit(1745768855.720:63): arch=c000003e syscall=175 success=yes exit=0 a0=1e2da20 a1=1d75 a2=41a2d8 a3=1e2a500 items=0 ppid=1335 pid=1336 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\\\"modprobe\\\" exe=\\\"/usr/bin/kmod\\\" subj=system_u:system_r:insmod_t:s0 key=(null)\\r\",\n        \"items\" => \"0\",\n         \"suid\" => \"0\",\n         \"auid\" => \"4294967295\",\n         \"sgid\" => \"0\",\n          \"pid\" => \"1336\",\n         \"egid\" => \"0\",\n          \"exe\" => \"/usr/bin/kmod\",\n          \"uid\" => \"0\",\n          \"ses\" => \"4294967295\",\n           \"a3\" => \"1e2a500\",\n         \"euid\" => \"0\",\n        \"fsuid\" => \"0\",\n         \"comm\" => \"modprobe\",\n         \"exit\" => \"0\",\n      \"success\" => \"yes\",\n          \"msg\" => \"audit(1745768855.720:63):\",\n         \"arch\" => \"c000003e\",\n         \"subj\" => \"system_u:system_r:insmod_t:s0\",\n      \"syscall\" => \"175\",\n         \"type\" => \"SYSCALL\"\n}\n\n\n\n\n그런데 시간 정보가 unixtime 포맷이다. stackoverflow 형님들이 가르쳐준대로 date 포맷으로 변경.\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n kv {}\n\n\n dissect {\n  mapping => {\"msg\" => \"%{}(%{timestamp}:%{}\"}\n }\n\n\n ruby {\n  code => \"event.set('@timestamp', DateTime.strptime(event.get('timestamp'), '%s'))\"\n }\n}\n\n\n\n[2025-04-28T17:52:41,760][ERROR][logstash.filters.ruby    ][main][7cefa12dcafdc101f42a5bda6812294cab6405d0864ef044fe35a2cc66392ce4] \nRuby exception occurred: wrong argument type DateTime (expected LogStash::Timestamp)\n\n\n안 된다. 제미나이한테 물어봄.\n\n\n\n\n[2025-04-28T17:57:02,837][ERROR][logstash.filters.ruby    ][main][d35de4494869054b8277f75d5c334da579e561ff0060cc7554ec4beb7dd79661] \nRuby exception occurred: wrong argument type DateTime (expected Time)\n\n\n안 되잖아(..)\n\n\n\n\n아무래도 로그스태시 구문이 따로 있는 것 같은데 ruby 구문을 계속 그대로 사용하는 게 이상하다. gpt는 다를까?\n\n\n\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n kv {}\n\n\n dissect {\n  mapping => {\"msg\" => \"%{}(%{timestamp}:%{}\"}\n }\n\n\n ruby {\n  code => \"event.set('@timestamp', LogStash::Timestamp.new(Time.at(event.get('timestamp').to_i)))\"\n }\n}\n\n\n\n\n{\n        \"family\" => \"10\",\n       \"message\" => \"type=NETFILTER_CFG msg=audit(1745768855.720:63): table=filter family=10 entries=0\\r\",\n          \"type\" => \"NETFILTER_CFG\",\n       \"entries\" => \"0\\r\",\n     \"timestamp\" => \"1745768855.720\",\n    \"@timestamp\" => 2025-04-27T15:47:35.000Z,\n         \"table\" => \"filter\",\n           \"msg\" => \"audit(1745768855.720:63):\"\n}\n{\n           \"gid\" => \"0\",\n            \"a2\" => \"41a2d8\",\n            \"a0\" => \"1e2da20\",\n          \"ppid\" => \"1335\",\n           \"key\" => \"(null)\\r\",\n     \"timestamp\" => \"1745768855.720\",\n            \"a1\" => \"1d75\",\n         \"fsgid\" => \"0\",\n           \"tty\" => \"none\",\n       \"message\" => \"type=SYSCALL msg=audit(1745768855.720:63): arch=c000003e syscall=175 success=yes exit=0 a0=1e2da20 a1=1d75 a2=41a2d8 a3=1e2a500 items=0 ppid=1335 pid=1336 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\\\"modprobe\\\" exe=\\\"/usr/bin/kmod\\\" subj=system_u:system_r:insmod_t:s0 key=(null)\\r\",\n         \"items\" => \"0\",\n          \"suid\" => \"0\",\n          \"auid\" => \"4294967295\",\n          \"sgid\" => \"0\",\n           \"pid\" => \"1336\",\n          \"egid\" => \"0\",\n           \"exe\" => \"/usr/bin/kmod\",\n           \"uid\" => \"0\",\n           \"ses\" => \"4294967295\",\n            \"a3\" => \"1e2a500\",\n          \"euid\" => \"0\",\n         \"fsuid\" => \"0\",\n          \"comm\" => \"modprobe\",\n    \"@timestamp\" => 2025-04-27T15:47:35.000Z,\n          \"exit\" => \"0\",\n       \"success\" => \"yes\",\n           \"msg\" => \"audit(1745768855.720:63):\",\n          \"arch\" => \"c000003e\",\n          \"subj\" => \"system_u:system_r:insmod_t:s0\",\n       \"syscall\" => \"175\",\n          \"type\" => \"SYSCALL\"\n}\n\n\n\n\n아이고 구글(..)\n\n\n관련 글\n\nLogstash 필터 ruby - 7th\nLogstash 필터 ruby\nLogstash 필터 grok\nLogstash 필터 mutate\nLogstash 필터 geoip\nLogstash 필터 dissect\nLogstash 필터 kv\nLogstash 필터 date\nLogstash 필터 translate\nLogstash 필터 drop\nLogstash 필터 useragent\nLogstash 필터 elapsed\nLogstash 필터 fingerprint\nLogstash 필터 csv\nLogstash 필터 dns\nLogstash 필터 split\nLogstash codec 플러그인 multiline",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/04/logstash-ruby-8th.html",
-    "pubDate": "2025-04-28T09:02:00.002Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
+    "id": 4,
     "imageUrl": "",
     "title": "Debugging Java Code in IntelliJ IDEA",
     "description": "In this blog post, we will look at how to debug Java code using the IntelliJ IDEA debugger. We will look at how to fix a failing test, how to find out where an `Exception` is thrown, and how to find problems with our data. And we will learn some neat tricks about the debugger […]",
@@ -168,63 +60,175 @@
     ]
   },
   {
-    "id": 12,
+    "id": 5,
     "imageUrl": "",
-    "title": "Is It Still Worth Learning to Code in an AI World?",
-    "description": "We recently released some new AI features for the JetBrains Academy plugin. Learners will now be able to use machine translation of course content, theory lookup, and AI hints for Kotlin courses. At first glance, these might seem fairly tame. There are no big LLM integrations, JetBrains AI Assistant is not being marketed toward beginners, […]",
+    "title": "지드래곤, 사나 태그하고 '빛삭'? 럽스타 의혹 진짜일까",
+    "description": "지드래곤 사나 태그 논란, 무엇이 문제였나?\n지드래곤 사나 관련 이슈가 온라인에서 급속도로 확산 중입니다. 지난 22일, 지드래곤은 콜드플레이 내한 공연 현장을 SNS에 공유하며 트와이스 멤버 중 유독 사나만을 태그했는데요, 이 행위가 팬들 사이에서 열애 의혹으로 번졌습니다.\n팬들의 반응, 단순 팬심일까? 럽스타 의혹일까?\n지드래곤이 남긴 일본어 멘트 \"에?\"는 단순한 감탄사로 보일 수 있지만, 사나가 일본인이라는 점과 맞물리며 오해를 불러일으켰습니다. 팬들 사이에서는 \"지드래곤 사나 럽스타그램 아니냐\", \"트와이스 다 나왔는데 왜 사나만?\"이라는 반응이 쏟아졌습니다.\nSNS 게시물 ‘빛삭’으로 더 커진 의혹\n논란이 거세지자 지드래곤은 해당 게시물을 빠르게 삭제했습니다. 이 삭제가 오히려 의혹을 더욱 키우는 결과를 낳았죠. 많은 팬들은 \"지우지 않았더라면 오히려 별일 없다고 생각했을 텐데\"라는 반응을 보였습니다.\n콜드플레이와 트와이스의 특별한 무대\n한편, 트와이스는 이번 콜드플레이 내한 공연에 게스트로 참여하여 'We Pray' 무대를 선보였습니다. 지드래곤이 공연을 관람한 후 사나만을 언급한 배경에 대해 궁금증이 커지는 이유기도 하죠.\nSNS는 연예계의 ‘무기’인가 ‘리스크’인가\n이번 지드래곤 사나 논란은 연예인들의 SNS 사용이 얼마나 큰 파장을 일으킬 수 있는지를 보여줍니다. 작은 태그 하나, 짧은 멘트 하나가 열애설로 비화할 수 있는 시대. 대중은 스타의 일거수일투족을 감시하고 해석하려 합니다.\n스타의 SNS 관리, 전략이 필요한 시대\n지금은 단순한 ‘팬 소통’의 도구를 넘어서 브랜드 전략으로 SNS가 사용됩니다. 지드래곤 사나의 사례처럼, 무심코 올린 게시물 하나도 철저한 기획과 의도가 요구되는 시대임을 실감하게 합니다.\n마무리\n지드래곤과 사나를 둘러싼 열애 의혹은 결국 해프닝으로 마무리될 가능성이 높습니다. 하지만 이번 이슈를 통해 우리는 연예인의 SNS가 얼마나 큰 영향을 미치는지를 다시금 깨닫게 됩니다. 팬과 스타가 함께 만들어가는 건강한 디지털 문화를 기대해 봅니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/04/23/is-it-still-worth-learning-to-code/",
-    "pubDate": "Wed, 23 Apr 2025 09:17:49 +0000",
-    "creator": "Clara Maine",
+    "link": "http://app-developer.tistory.com/entry/%EC%A7%80%EB%93%9C%EB%9E%98%EA%B3%A4-%EC%82%AC%EB%82%98-%ED%83%9C%EA%B7%B8%ED%95%98%EA%B3%A0-%EB%B9%9B%EC%82%AD-%EB%9F%BD%EC%8A%A4%ED%83%80-%EC%9D%98%ED%98%B9-%EC%A7%84%EC%A7%9C%EC%9D%BC%EA%B9%8C",
+    "pubDate": "Thu, 24 Apr 2025 08:32:27 +0900",
+    "creator": "브리핑허브",
     "categories": [
-      "jetbrains-academy",
-      "ai",
-      "ai-assistance",
-      "career",
-      "developers",
-      "for-learners",
-      "jetbrainsacademy-2",
-      "learn",
-      "learn-programming"
+      "럽스타그램",
+      "사나",
+      "사나 열애설",
+      "지드래곤",
+      "지드래곤 사나",
+      "지드래곤 사나 럽스타",
+      "지드래곤 열애설",
+      "콜드플레이",
+      "트와이스"
     ]
   },
   {
-    "id": 13,
+    "id": 6,
     "imageUrl": "",
-    "title": "C# - .NET 9, C#13 정리",
+    "title": "How Meta understands data at scale",
+    "description": "Managing and understanding large-scale data ecosystems is a significant challenge for many organizations, requiring innovative solutions to efficiently safeguard user data. Meta’s vast and diverse systems make it particularly challenging to comprehend its structure, meaning, and context at scale. To address these challenges, we made substantial investments in advanced data understanding technologies, as part of [...]\nRead More...\nThe post How Meta understands data at scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/04/28/security/how-meta-understands-data-at-scale/",
+    "pubDate": "Mon, 28 Apr 2025 16:30:19 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Security & Privacy"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Google Play 서명키를 잃어버려서 교채해 봤습니다.",
+    "description": "이게 되나 싶어서 안쓰는 프로젝트도 있고 하니 진행해봤습니다.\n\n\n좌측 매뉴 하단에 [앱 서명] 으로 갑니다.\n \n \n \nkeystore -> pem 파일 얻기\n영상: https://www.youtube.com/watch?v=1zDpt341R7s\n\n\n\nkeystore 가 버전업이 된거 같아서 인터넷에 떠도는 명령어로는 pem 파일을 얻을 수 없었습니다.\n영상에 보시면 keystore explorer 라는 프로그램을 사용하라길레\n안전이 좀 걱정되서 집에 잘 안쓴느 저사양 컴퓨터에 설치해서 실행해봤습니다.\n1. 설치하고\n2. 실행하고\n3. keystore 파일 드롭 하고\n4. 화면에보이는 keystore 를 더블 클릭하고\n5. 하단에 PEM 이라는 버튼을 눌러 pem 파일을 얻었습니다.\n \n \n \npem 올리는 곳에 업로드 합니다.\n\n\n우측 하단에  요청 버튼이 있습니다.\n\n\n요청해봤습니다. 어떻게 되려나\n \n\n\n다시와서 보니 진행중이라고 나오네요\n(기다리는 중)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1295",
+    "pubDate": "Tue, 29 Apr 2025 22:03:11 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "토끼 마을을 구해라! 로그라이트 액션 '세피리아'",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/NET_20250424/",
-    "pubDate": "Thu, 24 Apr 2025 00:00:00 +0900",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2300",
+    "pubDate": "Sat, 26 Apr 2025 16:16:03 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "지역축제 홍보비 5억5천? 백종원 유튜브 영상 논란 총정리",
+    "description": "5억5천만원, 지역축제 홍보에 과한 금액일까?\n최근 백종원 대표가 운영하는 더본코리아 자회사가 인제군으로부터 지역축제 홍보 명목으로 5억5000만원을 지급받은 사실이 알려지며 논란이 일고 있습니다. 해당 금액은 인제군 축제 전체 예산 19억5000만원 중 28%에 해당하는 금액으로, 축제 예산 중 가장 큰 비중을 차지했습니다. 이 예산은 더본코리아 자회사 티엠씨엔터에 지급되었으며, 유튜브 영상 2편을 제작 및 업로드하는 조건이었습니다.\n문제의 유튜브 영상, 조회수는 높지만 효과는?\n계약에 따라 2023년 6월 9일과 7월 8일에 백종원 대표 유튜브 채널에 영상이 올라갔습니다. ‘몇날 며칠 고생 좀 했습니다’, ‘축제 바가지요금에 지친 사람 주목’이라는 제목의 영상은 각각 85만, 56만 조회수를 기록했지만, 실질적인 지역경제 활성화 효과나 방문자 수 증대와 관련된 구체적인 데이터는 아직 공개되지 않았습니다. 홍보비 대비 효율성과 투명성에 대한 비판이 계속되고 있습니다.\n위생 문제로 불붙은 여론… '백종원 방지법'까지?\n논란은 단순한 예산 사용 문제를 넘어 위생 문제로까지 번졌습니다. 해당 영상에서 공사 자재를 활용한 바비큐 그릴, 농약 분무기를 통한 소스 분사 등 비위생적 장면이 포함돼 있다는 민원이 잇따르면서 국민신문고에도 수많은 신고가 접수된 상황입니다. 이로 인해 온라인 상에서는 ‘백종원 방지법’ 제정 청원이 등장하기도 했으며, 일부에서는 공공 행사에서 특정 기업의 독점을 제한해야 한다는 목소리도 나오고 있습니다.\n더본코리아를 둘러싼 연이은 논란들\n더본코리아는 이번 논란 이전에도 여러 의혹에 휩싸인 바 있습니다. ‘빽햄 선물세트 가격 논란’, ‘백석된장 원산지 표시 위반’, ‘술자리 면접 논란’ 등 크고 작은 잡음이 끊이지 않고 있습니다. 이처럼 반복되는 논란 속에서 브랜드 신뢰도 하락과 더불어 백종원 대표 개인에 대한 이미지에도 적잖은 타격이 예상됩니다.\n결론: 공공 예산 집행, 더 투명하고 신중해야\n이번 논란은 단순히 유튜브 영상 2편에 들어간 5억5천만 원이라는 금액만의 문제가 아닙니다. 공공 예산은 지역 주민과 국민의 세금으로 구성된 만큼, 그 사용의 투명성과 정당성이 무엇보다 중요합니다. 또한 유명인의 영향력을 활용한 마케팅이 때로는 역효과를 불러올 수 있다는 점에서, 지자체와 기업 간의 계약 구조와 실행 방식에 대한 재점검이 필요하다는 교훈을 남깁니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://app-developer.tistory.com/entry/%EC%A7%80%EC%97%AD%EC%B6%95%EC%A0%9C-%ED%99%8D%EB%B3%B4%EB%B9%84-5%EC%96%B55%EC%B2%9C-%EB%B0%B1%EC%A2%85%EC%9B%90-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%98%81%EC%83%81-%EB%85%BC%EB%9E%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+    "pubDate": "Fri, 25 Apr 2025 17:50:01 +0900",
+    "creator": "브리핑허브",
+    "categories": [
+      "공공예산",
+      "더본코리아",
+      "백종원",
+      "백종원 방지법",
+      "세금 논란",
+      "식품위생법",
+      "유튜브 홍보",
+      "인제군 축제",
+      "지역축제",
+      "지역축제 문제"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "C# - 의존성 주입 방법의 라이프 사이클 AddTransient, AddScoped, AddSingleton",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/NET_20250429/",
+    "pubDate": "Tue, 29 Apr 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 14,
+    "id": 11,
     "imageUrl": "",
-    "title": "AI 강의 팔이의 실체",
-    "description": "신기술이 나오면 제일 먼저 자리잡는 건 사기 인가 보다.\n영상: https://www.youtube.com/watch?v=s3PfQOF2-So\n\n\n\n머니 해커로 찾으면 영상이 많이 나옵니다.\n70만원짜리 강의를 사면 자동으로 돈버는 법이 들어있다는 식이라고 합니다.\nai 자동 블로그 작성\nai 자동 쇼츠 제작\n누가 사서 따라해봤나본데요\n하지만 강의가 너무 부실해서 쓸 수 없었나봅니다.\n그래서 고소 들어가 버렸다는 이야기입니다.\n블로그 자동 글쓰기 만들고 있었는데 ... 안되는거였다니 ㅠㅠ\n충격입니다.",
+    "title": "토스페이먼츠 ‘퀵계좌이체’, 출시 2년 만에 누적 이용자 수 650만명 돌파",
+    "description": "누적 결제액 6500억원, 누적 가맹점 수 2.2만곳",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1287",
-    "pubDate": "Sat, 26 Apr 2025 10:35:08 +0900",
+    "link": "https://blog.toss.im/article/tosspaymentsquick",
+    "pubDate": "Thu, 24 Apr 2025 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "C++ - Mimalloc:Free List Sharding in Action 을 읽고 정리",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/Cpp_20250430/",
+    "pubDate": "Wed, 30 Apr 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "The First Set of Bug Fixes for ReSharper and Rider 2025.1 Is Here!",
+    "description": "Hello everyone, The ReSharper and Rider 2025.1.1 bug-fix updates have just been released! If you haven’t upgraded to the 2025.1 versions of our products, we highly recommend that you check out these two blog posts: And now, let’s go over the most important fixes in 2025.1.1. ReSharper 2025.1.1  The first bug-fix update fixes the issue […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/04/29/2025-1-1-hot-fix/",
+    "pubDate": "Tue, 29 Apr 2025 06:53:33 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "bugfix",
+      "news",
+      "releases",
+      "resharper",
+      "rider"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "(해결됨) 유니티 광고 붙이다 빌드 무한대기 상태 / Running Gradle...",
+    "description": "이건 무슨 에러일까요?\n안드로이드 빌드에 광고 붙이려다 이상태가 되어버렸습니다.\n \n광고 ID 를 붙이라는거 같아서\nAdmob 설치하고 광고ID 만들어 입력해두었습니다.\n광고는 Unity Ads 를 사용할껀데 이래도 되나....\n이것저것 만지는데 빌드가 갑자기 안되네요\n \n내용\nResolving Android Dependencies\nRunning Gradle...\nC:\\project\\pto\\unity-block-away\\Temp\\PlayServicesResolverGradle\\gradlew.bat --no-daemon -b \"C:\\project\\pto\\unity-block-away\\Temp\\PlayServicesResolverGradle\\PlayServicesResolver.scripts.download_artifacts.gradle\" \"-PANDROID_HOME=C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/AndroidPlayer\\SDK\" \"-PTARGET_DIR=C:\\project\\pto\\unity-block-away\\Assets\\Plugins\\Android\" \"-PMAVEN_REPOS=https://maven.google.com/\" \"-PPACKAGES_TO_COPY=cohttp://m.google.android.gms:play-services-ads:23.6.0;androidx.constraintlayout:constraintlayout:2.1.4;com.google.android.ump:user-messaging-platform:3.1.0\" \"-PUSE_JETIFIER=1\" \"-PDATA_BINDING_VERSION=8.3.0\"\nExecuting command: C:\\project\\pto\\unity-block-away\\Temp\\PlayServicesResolverGradle\\gradlew.bat --no-daemon -b \"C:\\project\\pto\\unity-block-away\\Temp\\PlayServicesResolverGradle\\PlayServicesResolver.scripts.download_artifacts.gradle\" \"-PANDROID_HOME=C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/AndroidPlayer\\SDK\" \"-PTARGET_DIR=C:\\project\\pto\\unity-block-away\\Assets\\Plugins\\Android\" \"-PMAVEN_REPOS=https://maven.google.com/\" \"-PPACKAGES_TO_COPY=cohttp://m.google.android.gms:play-services-ads:23.6.0;androidx.constraintlayout:constraintlayout:2.1.4;com.google.android.ump:user-messaging-platform:3.1.0\" \"-PUSE_JETIFIER=1\" \"-PDATA_BINDING_VERSION=8.3.0\"\n \nresolve 해도 해결이 안되네요\n \n해결방법\n프로젝트를 새로 만들어서 게임 관련 파일들만 옮긴후에\nGoogleMobileAds-v10.0.0.unitypackage\n유니티용 Admob 패키지를 다시 설치했습니다.\n이 패키지는 버전업이 매우 자주 일어나는군요\nAdmob 패키지를 설치하고 나면 Auto Resolver 를 켜갰냐고 물어보는데\n문제가 있을 당시에는 이창이 없었던거 같습니다.\nEnable 을 눌러 켠후엔 다 잘 되네요\n시간 낭비 갑이였던 하루였습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1289",
+    "pubDate": "Sun, 27 Apr 2025 15:08:29 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브"
+      "프로그래밍/개발메모",
+      "애드몹",
+      "유니티"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "LogParser의 문자열 처리",
-    "description": "이벤트 전체 현황을 보고 싶다. 첫 번째 문장만 추출하면 되겠는데?\n\n\n\n\n.을 기준으로 첫 번째 문장 추출. 그런데 .이 없는 이벤트가 있다. \n\n\n\n\n첫 번째 문장 추출 조건에 : 추가. 그런데 . 기준 첫 번째 문장에서 : 존재를 확인하는 CASE-WHEN 구문이 먹지 않는다. Logparser의 한계. SQL 지원 범위 좀 확장하면 안 되나? 마소는 가브리엘님을 다시 영입하라\n\n\n\n\n구문 변경.\n\n\n\n\n\n내가 보고 싶은 상태가 있을 때, 그때서야 비로소 그 상태를 볼 수 있는 데이터 구조와 그 구조를 만들 수 있는 방법을 고민하게 된다. 뭘 보고 싶은지를 모르겠다고? 데이터를 자꾸 만지작거리다 보면 생김.\n\n데이터를 이리저리 만져보고 질감을 느끼기 시작하면서 문제의 구조가 보이고 모델링에 대한 단초가 잡힌다\n\n\n그리고 이런 경험이 스플렁크,\n\n\n\n\n엘라스틱으로 이어진다.\n\n\n\n\n\n툴은 바뀌었지만 하는 일은 똑같다는 얘기. 쉬울 수밖에 없다.\n\n\n관련 글\n\nLogParser의 파일 연동\nURL, HEX, BASE64 디코딩\nSplunk의 eval과 rex - 4th",
+    "title": "132일차 요약 / 1인 게임 개발",
+    "description": "질러버린 애셋 두개\n원화로는 14만5천원이군요\n물고기는 할인이 아니라 비싸게 느껴지네요\n \n영상: https://www.youtube.com/watch?v=BMSG0VyT_-E\n\n\n\n \n요약: \n1. 블록 분해 게임 작업\n링크: https://serverdown.tistory.com/1290\n \n2. Add Force 1 히어로 추가 작업\n글 링크: https://blog.sidnft.com/1279\n \n3 테스트 하려고 샀던 수이 코인이 떡상한 사연\n\n\n우연히 얻은 수익 좀 팔아봤습니다.\n \n4.  유니티 애셋 구매 (수이 팔아서)\n- 물고기 3D\n영상: https://www.youtube.com/watch?time_continue=4&v=OOzC3r0pBCo&embeds_referring_euri=https%3A%2F%2Fassetstore.unity.com%2F&embeds_referring_origin=https%3A%2F%2Fassetstore.unity.com&source_ve_path=MjM4NTE\n\n\n\n \n- text to voice (글자를 음성으로 변환)\n글 링크: https://blog.sidnft.com/1285\n \n \n \n \n코인을 팔아서 제일위에 그림처럼 애샛을 구매했습니다.\n다 나은 결과가 있기를",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/04/logparser.html",
-    "pubDate": "2025-04-22T11:41:00.010Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://serverdown.tistory.com/1291",
+    "pubDate": "Mon, 28 Apr 2025 10:51:51 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
   }
 ]
