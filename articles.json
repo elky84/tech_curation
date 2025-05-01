@@ -2,45 +2,180 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "C# - .NET 9, C#13 정리",
-    "description": "No description available",
+    "title": "Logstash 필터 ruby - 8th",
+    "description": "audit.log 연동.\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n kv {}\n\n\n dissect {\n  mapping => {\"msg\" => \"%{}(%{timestamp}:%{}\"}\n }\n}\n\n\n\n\n{\n       \"family\" => \"10\",\n      \"message\" => \"type=NETFILTER_CFG msg=audit(1745768855.720:63): table=filter family=10 entries=0\\r\",\n         \"type\" => \"NETFILTER_CFG\",\n      \"entries\" => \"0\\r\",\n    \"timestamp\" => \"1745768855.720\",\n        \"table\" => \"filter\",\n          \"msg\" => \"audit(1745768855.720:63):\"\n}\n{\n          \"gid\" => \"0\",\n           \"a2\" => \"41a2d8\",\n           \"a0\" => \"1e2da20\",\n         \"ppid\" => \"1335\",\n          \"key\" => \"(null)\\r\",\n    \"timestamp\" => \"1745768855.720\",\n           \"a1\" => \"1d75\",\n        \"fsgid\" => \"0\",\n          \"tty\" => \"none\",\n      \"message\" => \"type=SYSCALL msg=audit(1745768855.720:63): arch=c000003e syscall=175 success=yes exit=0 a0=1e2da20 a1=1d75 a2=41a2d8 a3=1e2a500 items=0 ppid=1335 pid=1336 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\\\"modprobe\\\" exe=\\\"/usr/bin/kmod\\\" subj=system_u:system_r:insmod_t:s0 key=(null)\\r\",\n        \"items\" => \"0\",\n         \"suid\" => \"0\",\n         \"auid\" => \"4294967295\",\n         \"sgid\" => \"0\",\n          \"pid\" => \"1336\",\n         \"egid\" => \"0\",\n          \"exe\" => \"/usr/bin/kmod\",\n          \"uid\" => \"0\",\n          \"ses\" => \"4294967295\",\n           \"a3\" => \"1e2a500\",\n         \"euid\" => \"0\",\n        \"fsuid\" => \"0\",\n         \"comm\" => \"modprobe\",\n         \"exit\" => \"0\",\n      \"success\" => \"yes\",\n          \"msg\" => \"audit(1745768855.720:63):\",\n         \"arch\" => \"c000003e\",\n         \"subj\" => \"system_u:system_r:insmod_t:s0\",\n      \"syscall\" => \"175\",\n         \"type\" => \"SYSCALL\"\n}\n\n\n\n\n그런데 시간 정보가 unixtime 포맷이다. stackoverflow 형님들이 가르쳐준대로 date 포맷으로 변경.\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n kv {}\n\n\n dissect {\n  mapping => {\"msg\" => \"%{}(%{timestamp}:%{}\"}\n }\n\n\n ruby {\n  code => \"event.set('@timestamp', DateTime.strptime(event.get('timestamp'), '%s'))\"\n }\n}\n\n\n\n[2025-04-28T17:52:41,760][ERROR][logstash.filters.ruby    ][main][7cefa12dcafdc101f42a5bda6812294cab6405d0864ef044fe35a2cc66392ce4] \nRuby exception occurred: wrong argument type DateTime (expected LogStash::Timestamp)\n\n\n안 된다. 제미나이한테 물어봄.\n\n\n\n\n[2025-04-28T17:57:02,837][ERROR][logstash.filters.ruby    ][main][d35de4494869054b8277f75d5c334da579e561ff0060cc7554ec4beb7dd79661] \nRuby exception occurred: wrong argument type DateTime (expected Time)\n\n\n안 되잖아(..)\n\n\n\n\n아무래도 로그스태시 구문이 따로 있는 것 같은데 ruby 구문을 계속 그대로 사용하는 게 이상하다. gpt는 다를까?\n\n\n\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n kv {}\n\n\n dissect {\n  mapping => {\"msg\" => \"%{}(%{timestamp}:%{}\"}\n }\n\n\n ruby {\n  code => \"event.set('@timestamp', LogStash::Timestamp.new(Time.at(event.get('timestamp').to_i)))\"\n }\n}\n\n\n\n\n{\n        \"family\" => \"10\",\n       \"message\" => \"type=NETFILTER_CFG msg=audit(1745768855.720:63): table=filter family=10 entries=0\\r\",\n          \"type\" => \"NETFILTER_CFG\",\n       \"entries\" => \"0\\r\",\n     \"timestamp\" => \"1745768855.720\",\n    \"@timestamp\" => 2025-04-27T15:47:35.000Z,\n         \"table\" => \"filter\",\n           \"msg\" => \"audit(1745768855.720:63):\"\n}\n{\n           \"gid\" => \"0\",\n            \"a2\" => \"41a2d8\",\n            \"a0\" => \"1e2da20\",\n          \"ppid\" => \"1335\",\n           \"key\" => \"(null)\\r\",\n     \"timestamp\" => \"1745768855.720\",\n            \"a1\" => \"1d75\",\n         \"fsgid\" => \"0\",\n           \"tty\" => \"none\",\n       \"message\" => \"type=SYSCALL msg=audit(1745768855.720:63): arch=c000003e syscall=175 success=yes exit=0 a0=1e2da20 a1=1d75 a2=41a2d8 a3=1e2a500 items=0 ppid=1335 pid=1336 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\\\"modprobe\\\" exe=\\\"/usr/bin/kmod\\\" subj=system_u:system_r:insmod_t:s0 key=(null)\\r\",\n         \"items\" => \"0\",\n          \"suid\" => \"0\",\n          \"auid\" => \"4294967295\",\n          \"sgid\" => \"0\",\n           \"pid\" => \"1336\",\n          \"egid\" => \"0\",\n           \"exe\" => \"/usr/bin/kmod\",\n           \"uid\" => \"0\",\n           \"ses\" => \"4294967295\",\n            \"a3\" => \"1e2a500\",\n          \"euid\" => \"0\",\n         \"fsuid\" => \"0\",\n          \"comm\" => \"modprobe\",\n    \"@timestamp\" => 2025-04-27T15:47:35.000Z,\n          \"exit\" => \"0\",\n       \"success\" => \"yes\",\n           \"msg\" => \"audit(1745768855.720:63):\",\n          \"arch\" => \"c000003e\",\n          \"subj\" => \"system_u:system_r:insmod_t:s0\",\n       \"syscall\" => \"175\",\n          \"type\" => \"SYSCALL\"\n}\n\n\n\n\n아이고 구글(..)\n\n\n관련 글\n\nLogstash 필터 ruby - 7th\nLogstash 필터 ruby\nLogstash 필터 grok\nLogstash 필터 mutate\nLogstash 필터 geoip\nLogstash 필터 dissect\nLogstash 필터 kv\nLogstash 필터 date\nLogstash 필터 translate\nLogstash 필터 drop\nLogstash 필터 useragent\nLogstash 필터 elapsed\nLogstash 필터 fingerprint\nLogstash 필터 csv\nLogstash 필터 dns\nLogstash 필터 split\nLogstash codec 플러그인 multiline",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/NET_20250424/",
-    "pubDate": "Thu, 24 Apr 2025 00:00:00 +0900",
+    "link": "https://kangmyounghun.blogspot.com/2025/04/logstash-ruby-8th.html",
+    "pubDate": "2025-04-28T09:02:00.002Z",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "가정의 달 콘텐츠 ➁ 혼자여도, 여럿이어도. 모든 가족에게 필요한 살림의 셈법",
-    "description": "다양한 경제공동체를 위한 콘텐츠 큐레이션",
+    "title": "맥북에서 로지텍 MX Master 3 마우스 끊김 해결: SmartShift 비활성화 경험",
+    "description": "맥북 M4와 로지텍 MX Master 3는 생산성을 위한 강력한 도구 조합이지만, 예기치 않게 마우스 끊김, 스크롤 오류, 화면 확대/축소 문제가 발생할 수 있습니다. 저 또한 이러한 문제로 불편함을 겪었고, 마우스를 교체할까 고민할 정도로 답답했습니다. 하지만 끈질긴 문제 해결 시도 끝에, MX Master 3의 특정 기능이 맥북 M4와의 호환성 문제의 원인임을 발견했습니다.\n문제의 핵심: MX Master 3 SmartShift 기능과 맥북 M4\n문제의 원인은 바로 MX Master 3의 SmartShift 기능이었습니다. 이 기능은 마우스 휠 속도에 따라 자동으로 스크롤 모드를 전환하여 편리함을 제공하지만, 맥북 M4 환경에서는 예기치 않은 작동 오류를 일으킬 수 있었습니다.\n갑작스러운 마우스 멈춤 (MacBook mouse freeze)\n불규칙한 스크롤 동작 (MX Master 3 scroll issue)\n의도치 않은 화면 확대 또는 축소 (MacBook screen zoom problem)\n해결 과정: 마우스 기능 점검과 SmartShift 비활성화\n명확한 해결책을 찾기 어려워 답답했던 저는, 최후의 수단으로 MX Master 3의 기능을 하나씩 테스트하며 원인을 좁혀나가기 시작했습니다. 그러던 중 SmartShift 기능을 끄는 것이 문제 해결의 결정적인 단계였습니다.\n\nSmartShift 비활성화 방법 (Logi Options+ 기준):\nLogi Options+ 앱을 실행합니다.\n연결된 MX Master 3를 선택합니다.\n휠 설정 메뉴로 이동합니다.\nSmartShift 옵션을 OFF로 설정합니다.\n이 간단한 조치만으로 맥북 M4에서 MX Master 3 마우스 끊김, 스크롤 오류, 화면 확대/축소 문제가 깔끔하게 해결되었습니다.\n맥북 M4 마우스 끊김 예방을 위한 추가 팁\nLogi Options+ 및 마우스 펌웨어 최신 버전 유지: 정기적인 업데이트는 호환성 문제 해결 및 성능 향상에 도움이 됩니다.\n로지텍 전용 USB 수신기 활용: 블루투스 연결 불안정 시, 동글 사용을 고려해보세요.\nmacOS 접근 권한 확인: ‘시스템 설정’ > '개인 정보 보호 및 보안’에서 Logi Options+ 권한 설정을 확인합니다.\n결론: 맥북 M4와 MX Master 3 마우스 문제 해결은 SmartShift 비활성화가 답이었다.\n맥북 M4 환경에서 로지텍 MX Master 3 마우스 사용 중 끊김, 스크롤 이상, 화면 확대/축소 현상을 겪고 있다면, SmartShift 기능을 비활성화하는 것이 효과적인 해결책이 될 수 있습니다. 마우스 교체를 고려하기 전에 이 방법을 시도하여 쾌적한 맥북 사용 환경을 되찾으시길 바랍니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/2025may-curation2",
-    "pubDate": "Tue, 29 Apr 2025 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.gaerae.com/2025/04/macbook-mx-master-3-smartshift.html",
+    "pubDate": "Thu, 24 Apr 2025 09:51:00 +0000",
+    "creator": "noreply@blogger.com (Unknown)",
+    "categories": [
+      {
+        "_": "macbook",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      },
+      {
+        "_": "mouse",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      }
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Effortless adjustments with an adaptive paste",
-    "description": "Find yourself needing to adjust pasted code to actually work in your project? Visual Studio 2022 introduces the capability to adapt your pasted code with Copilot to reduce the time you spend on making tedious changes. Streamline manual code modifications with adaptive paste When you’re copying and pasting code, the process often comes with extra […]\nThe post Effortless adjustments with an adaptive paste appeared first on Visual Studio Blog.",
+    "title": "Jens Oliver Meiert: How WebStorm and AI Assistant Fit Right Into My Workflow",
+    "description": "For more than two decades, Jens Oliver Meiert has been at the forefront of web development, working with industry giants like Google and Miro, as well as leading engineering teams across various companies. With extensive experience in frontend development, he has witnessed firsthand how tools and workflows have evolved over time. In this interview, Jens […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/effortless-adjustments-with-an-adaptive-paste/",
-    "pubDate": "Wed, 23 Apr 2025 14:51:46 +0000",
-    "creator": "Leah Tran",
+    "link": "https://blog.jetbrains.com/webstorm/2025/04/jens-oliver-meiert-how-webstorm-and-ai-assistant-fit-right-into-my-workflow/",
+    "pubDate": "Tue, 29 Apr 2025 17:04:46 +0000",
+    "creator": "Aleksandra Aganezova",
     "categories": [
-      "Copilot",
-      "Productivity",
-      "Visual Studio"
+      "interviews",
+      "ai-assistant"
     ]
   },
   {
     "id": 4,
+    "imageUrl": "",
+    "title": "토스뱅크가 ‘쉬운 근로계약서’에 주목하는 이유",
+    "description": "“일하는 누구나, 안전하게” - 토스뱅크가 바꿔나가는 계약 문화",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/tossbank-contract",
+    "pubDate": "Mon, 28 Apr 2025 02:57:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "작업 상황 결과",
+    "description": "1. 블록 분해 게임\n\n\n블록 분해 게임을 빨리 올리려고 스토어에 스크린샷을 올릴때\n저의 다른 게임 스샷을 쓴게 있는데\n그게 정책위반으로 걸렸습니다.\n해명 절차에 들어갔지만 이것은 시간이 너무 많이 걸려서 \n앱을 새로 만들어 출시를 눌러놓은 상태입니다.\n \n \n2. 수조관 시계\n\n\n설정 UI 를 추가해서 출시 눌렀습니다.\n유료로 1달러 정도 이며\n유료게임은 어떻게 돌아가는지 확인하고 싶었습니다.\n \n데모 영상: https://www.youtube.com/watch?v=KKUx71DhFAA\n\n\n\n \n \n \n3. 블록 깨기 게임\n공동작업중이라 제가 정보를 올릴순 없고 말로 하자면\n출시하려고 했으나 테스터로 14 일 + 14일 테스트 기간을 채워야합니다.\n\n\n이 작업을 자발 적인 노력으로 끝내려면 상당히 완성도 있는 게임을 만들고\n배포해야 서로 해보겠다고 테스트를 해줄 것입니다.\n여러사람이 지인 찬스로 이 문제를 해결하고 있지만\n내가 좋아하는 게임도 아닌데 게임 테스트를 자발적으로 참여하는 일은 쉽지 않습니다.\n더군다나 완성도도 높지 않은 상황이라\n법인 계정은 이 절차를 거칠 필요가 없고 개인 사업자들은 해야하는 것으로 보입니다.\n제 계정은 오래전에 뚫어놓은거라 이절차가 없군요\n완성도를 높여야할 시간인거 같습니다.\n \n잡다한 추가 작업\n게임들의 홈페이지 작업을 해야합니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1294",
+    "pubDate": "Tue, 29 Apr 2025 18:10:39 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "1인개발",
+      "요약"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "GPT 4o로 완벽한 한글 유튜브 썸네일 만들기, 무료 GPTS 공개",
+    "description": "드디어 한글로 깔끔한 유튜브 썸네일을 만들 수 있게 됐어요! GPT 4o의 한글 렌더링 기능으로 더 이상 깨진 한글 썸네일과 작별할 시간. 썸네일 제작의 새로운 시대가 열렸습니다.\n\n\n \n안녕하세요! 오늘은 정말 기대하고 있던 소식을 들고 왔어요. 여러분, GPT 4o 이미지 생성 기능으로 드디어 깔끔한 한글 렌더링이 가능한 유튜브 썸네일을 만들 수 있게 됐다는 소식!  \n \n여러분도 유튜브 콘텐츠 만들면서 썸네일 때문에 고생 좀 하셨죠? 특히 기존의 DALL-E에서는 한글이 제대로 나오지 않아서 포토샵이나 별도 디자인 툴을 써야 했던 불편함이 있었잖아요. 저도 처음에 유튜브 시작했을 때 썸네일 만드는 데만 몇 시간씩 쏟아부었던 기억이 나네요.  \n \nGPT 4o로 바뀐 썸네일 생성, 뭐가 달라졌을까?  \nGPT 4o 모델은 텍스트 생성 능력만 뛰어난 게 아니라, 이미지 생성 분야에서도 혁신적인 변화를 가져왔어요. 제가 직접 써보니까 가장 눈에 띄는 차이점은 바로 완벽한 한글 가독성이에요.\n \n이전에는 한글을 넣으면 대부분 깨지거나 이상한 글자로 나오곤 했는데, 이제는 마치 전문 디자이너가 만든 것처럼 깔끔하게 한글이 렌더링됩니다. 특히 썸네일에서 가장 중요한 텍스트 부분이 제대로 표현된다는 건 정말 혁명적인 변화죠.\n \n제가 어제 테스트해 봤는데, \"2025년 최신 아이폰 비교 리뷰\"라는 제목의 썸네일을 만들었을 때 정말 깔끔하게 텍스트가 들어갔어요. 폰트도 테크 리뷰에 어울리는 걸로 자동 선택해 주더라고요!\n \n롱폼? 숏폼? 상황에 맞는 비율 선택  \n요즘은 유튜브도 다양한 형태의 콘텐츠가 있잖아요. 일반 영상용 썸네일이 필요할 수도 있고, 쇼츠용 세로형 썸네일이 필요할 수도 있죠. 이 GPTS는 정말 친절하게도 처음부터 \"롱폼(가로비율, 16:9)이 필요하신가요, 아니면 숏폼(세로비율, 9:16)이 필요하신가요?\"라고 물어봐요.\n \n제가 숏폼을 많이 올리는 편인데, 이전에는 세로형 썸네일 만들기가 정말 까다로웠거든요. 하지만 이제는 비율 선택만 해주면 알아서 최적화된 이미지를 만들어주니 얼마나 편한지 몰라요.\n \n장르별 최적화 기능은 진짜 똑똑해요  \n여러분, 이 썸네일 생성기가 얼마나 똑똑한지 알아요? 그냥 \"게임 리뷰 썸네일 만들어줘\"라고 하면 게임 콘텐츠에 맞는 요소들을 자동으로 넣어준다니까요! 예를 들어 게임 콘텐츠면 극적인 게임 장면이나 캐릭터 액션을 강조해 주고, 요리 콘텐츠라면 음식의 맛있어 보이는 표현과 김이나 증기 같은 동적 효과를 넣어준다고 해요.\n제가 지난주에 요리 채널 운영하는 친구를 위해 \"초간단 부대찌개 레시피\" 썸네일을 만들어줬는데, 정말 맛있어 보이는 부대찌개 이미지에 김이 모락모락 나는 효과까지 넣어줬어요. 친구가 그 썸네일 사용한 영상의 조회수가 평소보다 30% 이상 올랐다고 하더라고요!  \n \n시각적 임팩트를 높이는 디자인 요소들 ✨\n썸네일의 성공 비결은 결국 '클릭을 유도하는 시각적 임팩트'에 있잖아요. 이 GPTS는 디자인 측면에서도 정말 세심하게 신경 썼더라고요:\n고해상도 실사 이미지를 기본으로 사용\n강렬한 색상 대비와 높은 채도로 눈길 끌기\n텍스트는 이미지 전체 면적의 40%를 차지하도록 설계\n텍스트 뒷면에 30% 투명도의 배경 박스나 음영 처리로 가독성 확보\n특히 주목할 만한 점은 텍스트 배치인데요, 화면의 중앙이나 전략적 삼등분 위치를 활용해서 정말 프로페셔널한 느낌이 나요. 예전에 제가 직접 만들던 썸네일은 왜 그렇게 아마추어 같았는지 이제 알겠어요...  \n \n이런 상황에서 특히 유용해요  \n개인 유튜버라면: 디자인 툴 따로 배울 시간 없이 빠르게 퀄리티 있는 썸네일 제작 가능\n기업 마케팅 담당자라면: 일관된 브랜드 이미지를 유지하면서도 다양한 썸네일 빠르게 생성\n교육 콘텐츠 제작자라면: 학습 주제와 목표를 명확히 전달하는 전문적인 썸네일 손쉽게 제작\n게임 스트리머라면: 게임의 하이라이트 장면을 강조한 매력적인 썸네일로 시청자 유입 증가\n솔직히 말해서, 유튜브 썸네일은 영상 못지않게 중요하잖아요. 아무리 좋은 콘텐츠라도 썸네일이 매력적이지 않으면 클릭률이 떨어지니까요. 그래서 이 GPTS가 더 반가운 것 같아요.\n \n사용 꿀팁! 더 좋은 결과를 얻으려면...  \n제가 며칠간 이 GPTS를 열심히 사용해본 결과, 몇 가지 꿀팁을 발견했어요:\n키워드를 구체적으로 입력하세요: \"게임 썸네일\"보다는 \"배틀그라운드 에란겔 맵 하이라이트 장면 썸네일\"처럼 구체적으로!\n장르를 명시하면 더 특화된 결과를 얻을 수 있어요: \"IT\", \"요리\", \"게임\" 등\n수정 요청도 자유롭게: \"한국인으로 수정해줘\", \"노트북을 추가해줘\" 등 추가 디테일 요청 가능\n비율 문제 발생 시: GPT-4o가 가끔 1:1 비율을 고집할 때는 \"16:9 비율로 다시 그려줘\"라고 요청하세요\n가끔 첫 번째 결과가 마음에 들지 않아도 너무 실망하지 마세요. 몇 가지 디테일을 추가해서 다시 요청하면 훨씬 더 좋은 결과물이 나오더라고요. 저도 처음에는 \"이게 뭐야?\" 싶었다가 두세 번 수정 요청하니 \"와, 이거 진짜 프로급이네!\"라는 생각이 들었어요.  \n\n\n \n이제 더 이상 썸네일 때문에 고민하지 마세요! 여러분의 창의적인 콘텐츠에 어울리는 매력적인 썸네일을 GPT 4o로 쉽고 빠르게 만들어보세요. 혹시 이 GPTS를 사용해보신 분들 계신가요? 어떤 결과물이 나왔는지 댓글로 공유해주세요! 저도 더 좋은 썸네일 만드는 팁이 있다면 배우고 싶네요.  \nFAQ\nQ: 이 GPTS는 무료인가요?\nA: ChatGPT Plus 구독자라면 별도 비용 없이 사용 가능합니다.\nQ: 한 번에 몇 개의 썸네일을 생성할 수 있나요?\nA: 한 번에 하나씩 생성 가능하며, 수정 요청을 통해 개선할 수 있습니다.\nQ: 생성된 이미지의 저작권은 어떻게 되나요?\nA: OpenAI의 정책에 따라 생성된 이미지는 사용자가 저작권을 가집니다.\nQ: 텍스트가 깨지면 어떻게 해야 하나요?\nA: \"텍스트를 더 크게\" 또는 \"텍스트를 선명하게\" 등으로 수정 요청을 해보세요.\nQ: 특정 브랜드 로고를 넣을 수 있나요?\nA: 저작권 문제로 인해 정확한 브랜드 로고 생성은 제한될 수 있습니다.\n\n\n\n \n  GPTS 무료배포\n 약간의 지식과 시간만 투자하면 누구나 직접 제작하고 활용할 수 있는 유용한 GPTs가 이미 많이 존재합니다. 그러나 여전히 AI 기술에 대한 낯선 접근을 두려워하거나 IT 초보자, 또는 시간적 여유가 없거나 수익화에 대한 절실함 때문에 올바른 정보를 얻지 못하는 사람들이 많습니다. \n이러한 심리를 악용해 과도한 가격으로 유료 강의를 판매하며 불필요한 부담을 주는 사례들이 늘어나고 있습니다.\n \n 이에 본 블로그에서는 모든 사람이 AI의 혜택을 공정하고 자유롭게 누릴 수 있도록 GPTs를 무료로 배포하며, 불합리한 강의 판매 행위를 단호히 배척하고자 합니다. (당연히 저도 무료 그 이상의 가치가 있는 챗봇이라면 유료화를 검토중입니다.)\n반응형\n\n    \n    (adsbygoogle = window.adsbygoogle || []).push({});\n  \n\n \nChatGPT - 챗GPT 유튜브 썸네일 생성기\n사용자의 키워드로 클릭을 유도하는 16:9 비율의 유튜브 썸네일을 생성합니다.\nchatgpt.com\n\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"이 GPTS는 무료인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"ChatGPT Plus 구독자라면 별도 비용 없이 사용 가능합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"한 번에 몇 개의 썸네일을 생성할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"한 번에 하나씩 생성 가능하며, 수정 요청을 통해 개선할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"생성된 이미지의 저작권은 어떻게 되나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"OpenAI의 정책에 따라 생성된 이미지는 사용자가 저작권을 가집니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"텍스트가 깨지면 어떻게 해야 하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"\\\"텍스트를 더 크게\\\" 또는 \\\"텍스트를 선명하게\\\" 등으로 수정 요청을 해보세요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"특정 브랜드 로고를 넣을 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"저작권 문제로 인해 정확한 브랜드 로고 생성은 제한될 수 있습니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483576",
+    "pubDate": "Mon, 28 Apr 2025 07:06:01 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/무료 GPTS 공개",
+      "AI 이미지 생성",
+      "gpt 4o 이미지 생성",
+      "롱폼 썸네일",
+      "숏폼 썸네일",
+      "썸네일 디자인",
+      "유튜브 마케팅",
+      "유튜브 썸네일 생성",
+      "콘텐츠 최적화",
+      "클릭률 향상",
+      "한글 렌더링"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "토스, 서울시 밈센터·프리웨일과 경계선지능청년 금융 교육 진행",
+    "description": "4월부터 6개월간 ‘토스의 찾아가는 경제 교육’ 진행",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/edu_",
+    "pubDate": "Tue, 29 Apr 2025 00:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "How Meta understands data at scale",
+    "description": "Managing and understanding large-scale data ecosystems is a significant challenge for many organizations, requiring innovative solutions to efficiently safeguard user data. Meta’s vast and diverse systems make it particularly challenging to comprehend its structure, meaning, and context at scale. To address these challenges, we made substantial investments in advanced data understanding technologies, as part of [...]\nRead More...\nThe post How Meta understands data at scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/04/28/security/how-meta-understands-data-at-scale/",
+    "pubDate": "Mon, 28 Apr 2025 16:30:19 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Security & Privacy"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "연예인들때문에 안티들이 붙어버린 10분짜리 우주여행 상품의 위기",
+    "description": "영상: https://www.youtube.com/watch?v=mVXcdOcXOMI\n\n\n\n \n \n이게 과학자들이나 군인들이 갈 때는 별 지적이 없었는데\n여성들로 100% 뽑고 연예인들이 섞이기 시작하니까\n안티가 섞이고 있다고 합니다.\n지적사항은 여행 시간이 짧은데 대단한거냐\n엄청 위험하고 어려운거 같은데 알고보니 안전벨트 매고 버튼 한개 누르는 정도다\n옷이 이상하다.\n \n아무튼 홍보는 꼬여버렸고 우주산업에는 위기가 올 수도 있습니다.\n여러번 하다보면 이런식으로 오렴되나 봅니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1292",
+    "pubDate": "Mon, 28 Apr 2025 17:13:56 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "미국",
+      "우주여행"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths",
+    "description": "The 1.25 release of the C++ extension in Visual Studio Code introduces a new way to understand your code faster with GitHub Copilot-powered symbol summaries, as well as new customization options for recursive #include path processing. With these enhancements, you gain AI-powered insights into unfamiliar or undocumented code and can optimize IntelliSense performance based on […]\nThe post VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/vs-code-c-extension-1-25-release-explain-c-symbols-using-copilot-customize-recursive-include-paths/",
+    "pubDate": "Wed, 30 Apr 2025 23:31:17 +0000",
+    "creator": "Alexandra Kemper, Sinem Akinci",
+    "categories": [
+      "C++",
+      "Copilot",
+      "performance",
+      "Visual Studio Code"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "2025 일하는 부모의 임신·출산·육아 부담을 덜어줄 제도 10가지: '출산전후 휴가급여’부터 '아동수당’까지",
+    "description": "대표적인 임신·출산·육아 지원정책 모아보기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/money-policies-40",
+    "pubDate": "Fri, 25 Apr 2025 00:41:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "Debugging Java Code in IntelliJ IDEA",
     "description": "In this blog post, we will look at how to debug Java code using the IntelliJ IDEA debugger. We will look at how to fix a failing test, how to find out where an `Exception` is thrown, and how to find problems with our data. And we will learn some neat tricks about the debugger […]",
@@ -60,130 +195,22 @@
     ]
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "지드래곤, 사나 태그하고 '빛삭'? 럽스타 의혹 진짜일까",
-    "description": "지드래곤 사나 태그 논란, 무엇이 문제였나?\n지드래곤 사나 관련 이슈가 온라인에서 급속도로 확산 중입니다. 지난 22일, 지드래곤은 콜드플레이 내한 공연 현장을 SNS에 공유하며 트와이스 멤버 중 유독 사나만을 태그했는데요, 이 행위가 팬들 사이에서 열애 의혹으로 번졌습니다.\n팬들의 반응, 단순 팬심일까? 럽스타 의혹일까?\n지드래곤이 남긴 일본어 멘트 \"에?\"는 단순한 감탄사로 보일 수 있지만, 사나가 일본인이라는 점과 맞물리며 오해를 불러일으켰습니다. 팬들 사이에서는 \"지드래곤 사나 럽스타그램 아니냐\", \"트와이스 다 나왔는데 왜 사나만?\"이라는 반응이 쏟아졌습니다.\nSNS 게시물 ‘빛삭’으로 더 커진 의혹\n논란이 거세지자 지드래곤은 해당 게시물을 빠르게 삭제했습니다. 이 삭제가 오히려 의혹을 더욱 키우는 결과를 낳았죠. 많은 팬들은 \"지우지 않았더라면 오히려 별일 없다고 생각했을 텐데\"라는 반응을 보였습니다.\n콜드플레이와 트와이스의 특별한 무대\n한편, 트와이스는 이번 콜드플레이 내한 공연에 게스트로 참여하여 'We Pray' 무대를 선보였습니다. 지드래곤이 공연을 관람한 후 사나만을 언급한 배경에 대해 궁금증이 커지는 이유기도 하죠.\nSNS는 연예계의 ‘무기’인가 ‘리스크’인가\n이번 지드래곤 사나 논란은 연예인들의 SNS 사용이 얼마나 큰 파장을 일으킬 수 있는지를 보여줍니다. 작은 태그 하나, 짧은 멘트 하나가 열애설로 비화할 수 있는 시대. 대중은 스타의 일거수일투족을 감시하고 해석하려 합니다.\n스타의 SNS 관리, 전략이 필요한 시대\n지금은 단순한 ‘팬 소통’의 도구를 넘어서 브랜드 전략으로 SNS가 사용됩니다. 지드래곤 사나의 사례처럼, 무심코 올린 게시물 하나도 철저한 기획과 의도가 요구되는 시대임을 실감하게 합니다.\n마무리\n지드래곤과 사나를 둘러싼 열애 의혹은 결국 해프닝으로 마무리될 가능성이 높습니다. 하지만 이번 이슈를 통해 우리는 연예인의 SNS가 얼마나 큰 영향을 미치는지를 다시금 깨닫게 됩니다. 팬과 스타가 함께 만들어가는 건강한 디지털 문화를 기대해 봅니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EC%A7%80%EB%93%9C%EB%9E%98%EA%B3%A4-%EC%82%AC%EB%82%98-%ED%83%9C%EA%B7%B8%ED%95%98%EA%B3%A0-%EB%B9%9B%EC%82%AD-%EB%9F%BD%EC%8A%A4%ED%83%80-%EC%9D%98%ED%98%B9-%EC%A7%84%EC%A7%9C%EC%9D%BC%EA%B9%8C",
-    "pubDate": "Thu, 24 Apr 2025 08:32:27 +0900",
-    "creator": "브리핑허브",
-    "categories": [
-      "럽스타그램",
-      "사나",
-      "사나 열애설",
-      "지드래곤",
-      "지드래곤 사나",
-      "지드래곤 사나 럽스타",
-      "지드래곤 열애설",
-      "콜드플레이",
-      "트와이스"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "How Meta understands data at scale",
-    "description": "Managing and understanding large-scale data ecosystems is a significant challenge for many organizations, requiring innovative solutions to efficiently safeguard user data. Meta’s vast and diverse systems make it particularly challenging to comprehend its structure, meaning, and context at scale. To address these challenges, we made substantial investments in advanced data understanding technologies, as part of [...]\nRead More...\nThe post How Meta understands data at scale appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/04/28/security/how-meta-understands-data-at-scale/",
-    "pubDate": "Mon, 28 Apr 2025 16:30:19 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Security & Privacy"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Google Play 서명키를 잃어버려서 교채해 봤습니다.",
-    "description": "이게 되나 싶어서 안쓰는 프로젝트도 있고 하니 진행해봤습니다.\n\n\n좌측 매뉴 하단에 [앱 서명] 으로 갑니다.\n \n \n \nkeystore -> pem 파일 얻기\n영상: https://www.youtube.com/watch?v=1zDpt341R7s\n\n\n\nkeystore 가 버전업이 된거 같아서 인터넷에 떠도는 명령어로는 pem 파일을 얻을 수 없었습니다.\n영상에 보시면 keystore explorer 라는 프로그램을 사용하라길레\n안전이 좀 걱정되서 집에 잘 안쓴느 저사양 컴퓨터에 설치해서 실행해봤습니다.\n1. 설치하고\n2. 실행하고\n3. keystore 파일 드롭 하고\n4. 화면에보이는 keystore 를 더블 클릭하고\n5. 하단에 PEM 이라는 버튼을 눌러 pem 파일을 얻었습니다.\n \n \n \npem 올리는 곳에 업로드 합니다.\n\n\n우측 하단에  요청 버튼이 있습니다.\n\n\n요청해봤습니다. 어떻게 되려나\n \n\n\n다시와서 보니 진행중이라고 나오네요\n(기다리는 중)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1295",
-    "pubDate": "Tue, 29 Apr 2025 22:03:11 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "토끼 마을을 구해라! 로그라이트 액션 '세피리아'",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2300",
-    "pubDate": "Sat, 26 Apr 2025 16:16:03 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "지역축제 홍보비 5억5천? 백종원 유튜브 영상 논란 총정리",
-    "description": "5억5천만원, 지역축제 홍보에 과한 금액일까?\n최근 백종원 대표가 운영하는 더본코리아 자회사가 인제군으로부터 지역축제 홍보 명목으로 5억5000만원을 지급받은 사실이 알려지며 논란이 일고 있습니다. 해당 금액은 인제군 축제 전체 예산 19억5000만원 중 28%에 해당하는 금액으로, 축제 예산 중 가장 큰 비중을 차지했습니다. 이 예산은 더본코리아 자회사 티엠씨엔터에 지급되었으며, 유튜브 영상 2편을 제작 및 업로드하는 조건이었습니다.\n문제의 유튜브 영상, 조회수는 높지만 효과는?\n계약에 따라 2023년 6월 9일과 7월 8일에 백종원 대표 유튜브 채널에 영상이 올라갔습니다. ‘몇날 며칠 고생 좀 했습니다’, ‘축제 바가지요금에 지친 사람 주목’이라는 제목의 영상은 각각 85만, 56만 조회수를 기록했지만, 실질적인 지역경제 활성화 효과나 방문자 수 증대와 관련된 구체적인 데이터는 아직 공개되지 않았습니다. 홍보비 대비 효율성과 투명성에 대한 비판이 계속되고 있습니다.\n위생 문제로 불붙은 여론… '백종원 방지법'까지?\n논란은 단순한 예산 사용 문제를 넘어 위생 문제로까지 번졌습니다. 해당 영상에서 공사 자재를 활용한 바비큐 그릴, 농약 분무기를 통한 소스 분사 등 비위생적 장면이 포함돼 있다는 민원이 잇따르면서 국민신문고에도 수많은 신고가 접수된 상황입니다. 이로 인해 온라인 상에서는 ‘백종원 방지법’ 제정 청원이 등장하기도 했으며, 일부에서는 공공 행사에서 특정 기업의 독점을 제한해야 한다는 목소리도 나오고 있습니다.\n더본코리아를 둘러싼 연이은 논란들\n더본코리아는 이번 논란 이전에도 여러 의혹에 휩싸인 바 있습니다. ‘빽햄 선물세트 가격 논란’, ‘백석된장 원산지 표시 위반’, ‘술자리 면접 논란’ 등 크고 작은 잡음이 끊이지 않고 있습니다. 이처럼 반복되는 논란 속에서 브랜드 신뢰도 하락과 더불어 백종원 대표 개인에 대한 이미지에도 적잖은 타격이 예상됩니다.\n결론: 공공 예산 집행, 더 투명하고 신중해야\n이번 논란은 단순히 유튜브 영상 2편에 들어간 5억5천만 원이라는 금액만의 문제가 아닙니다. 공공 예산은 지역 주민과 국민의 세금으로 구성된 만큼, 그 사용의 투명성과 정당성이 무엇보다 중요합니다. 또한 유명인의 영향력을 활용한 마케팅이 때로는 역효과를 불러올 수 있다는 점에서, 지자체와 기업 간의 계약 구조와 실행 방식에 대한 재점검이 필요하다는 교훈을 남깁니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://app-developer.tistory.com/entry/%EC%A7%80%EC%97%AD%EC%B6%95%EC%A0%9C-%ED%99%8D%EB%B3%B4%EB%B9%84-5%EC%96%B55%EC%B2%9C-%EB%B0%B1%EC%A2%85%EC%9B%90-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%98%81%EC%83%81-%EB%85%BC%EB%9E%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
-    "pubDate": "Fri, 25 Apr 2025 17:50:01 +0900",
-    "creator": "브리핑허브",
-    "categories": [
-      "공공예산",
-      "더본코리아",
-      "백종원",
-      "백종원 방지법",
-      "세금 논란",
-      "식품위생법",
-      "유튜브 홍보",
-      "인제군 축제",
-      "지역축제",
-      "지역축제 문제"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "C# - 의존성 주입 방법의 라이프 사이클 AddTransient, AddScoped, AddSingleton",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/NET_20250429/",
-    "pubDate": "Tue, 29 Apr 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "토스페이먼츠 ‘퀵계좌이체’, 출시 2년 만에 누적 이용자 수 650만명 돌파",
-    "description": "누적 결제액 6500억원, 누적 가맹점 수 2.2만곳",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/tosspaymentsquick",
-    "pubDate": "Thu, 24 Apr 2025 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "C++ - Mimalloc:Free List Sharding in Action 을 읽고 정리",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/Cpp_20250430/",
-    "pubDate": "Wed, 30 Apr 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 13,
+    "imageUrl": "",
+    "title": "파운데이션 모델이란?",
+    "description": "파운데이션 모델은 방대한 양의 일반 데이터로 학습된 강력한 인공 지능(AI)의 유형으로, 광범위한 작업을 처리할 수 있습니다. OpenAI의 GPT(Generative Pre-trained Transformer) 시리즈나 Google의 BERT (Bidirectional Encoder Representations from Transformers)와 같은 파운데이션 모델은 인터넷의 다양한 소스에서 일반적인 언어 패턴과 지식을 수집하도록 설계되었습니다. 그런 다음 이러한 모델을 소규모의 작업별 데이터 세트에 맞게 파인튜닝하여 텍스트 분류, 요약, 번역, 질문 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://ppss.kr/archives/269222",
+    "pubDate": "Wed, 30 Apr 2025 03:32:08 +0000",
+    "creator": "박명근",
+    "categories": [
+      "IT",
+      "개발"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "The First Set of Bug Fixes for ReSharper and Rider 2025.1 Is Here!",
     "description": "Hello everyone, The ReSharper and Rider 2025.1.1 bug-fix updates have just been released! If you haven’t upgraded to the 2025.1 versions of our products, we highly recommend that you check out these two blog posts: And now, let’s go over the most important fixes in 2025.1.1. ReSharper 2025.1.1  The first bug-fix update fixes the issue […]",
@@ -202,33 +229,19 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "imageUrl": "",
-    "title": "(해결됨) 유니티 광고 붙이다 빌드 무한대기 상태 / Running Gradle...",
-    "description": "이건 무슨 에러일까요?\n안드로이드 빌드에 광고 붙이려다 이상태가 되어버렸습니다.\n \n광고 ID 를 붙이라는거 같아서\nAdmob 설치하고 광고ID 만들어 입력해두었습니다.\n광고는 Unity Ads 를 사용할껀데 이래도 되나....\n이것저것 만지는데 빌드가 갑자기 안되네요\n \n내용\nResolving Android Dependencies\nRunning Gradle...\nC:\\project\\pto\\unity-block-away\\Temp\\PlayServicesResolverGradle\\gradlew.bat --no-daemon -b \"C:\\project\\pto\\unity-block-away\\Temp\\PlayServicesResolverGradle\\PlayServicesResolver.scripts.download_artifacts.gradle\" \"-PANDROID_HOME=C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/AndroidPlayer\\SDK\" \"-PTARGET_DIR=C:\\project\\pto\\unity-block-away\\Assets\\Plugins\\Android\" \"-PMAVEN_REPOS=https://maven.google.com/\" \"-PPACKAGES_TO_COPY=cohttp://m.google.android.gms:play-services-ads:23.6.0;androidx.constraintlayout:constraintlayout:2.1.4;com.google.android.ump:user-messaging-platform:3.1.0\" \"-PUSE_JETIFIER=1\" \"-PDATA_BINDING_VERSION=8.3.0\"\nExecuting command: C:\\project\\pto\\unity-block-away\\Temp\\PlayServicesResolverGradle\\gradlew.bat --no-daemon -b \"C:\\project\\pto\\unity-block-away\\Temp\\PlayServicesResolverGradle\\PlayServicesResolver.scripts.download_artifacts.gradle\" \"-PANDROID_HOME=C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/AndroidPlayer\\SDK\" \"-PTARGET_DIR=C:\\project\\pto\\unity-block-away\\Assets\\Plugins\\Android\" \"-PMAVEN_REPOS=https://maven.google.com/\" \"-PPACKAGES_TO_COPY=cohttp://m.google.android.gms:play-services-ads:23.6.0;androidx.constraintlayout:constraintlayout:2.1.4;com.google.android.ump:user-messaging-platform:3.1.0\" \"-PUSE_JETIFIER=1\" \"-PDATA_BINDING_VERSION=8.3.0\"\n \nresolve 해도 해결이 안되네요\n \n해결방법\n프로젝트를 새로 만들어서 게임 관련 파일들만 옮긴후에\nGoogleMobileAds-v10.0.0.unitypackage\n유니티용 Admob 패키지를 다시 설치했습니다.\n이 패키지는 버전업이 매우 자주 일어나는군요\nAdmob 패키지를 설치하고 나면 Auto Resolver 를 켜갰냐고 물어보는데\n문제가 있을 당시에는 이창이 없었던거 같습니다.\nEnable 을 눌러 켠후엔 다 잘 되네요\n시간 낭비 갑이였던 하루였습니다.",
+    "title": "블록 분해 게임 - 아이디어",
+    "description": "블록 분해 게임\n영상: https://youtu.be/_EVuM-JzcMw\n\n\n\n \n상자대신 물고기\n영상: https://youtu.be/dPZPeKa-1ws\n\n\n\n한칸애 물고기 하나를 너으면 찌그러트려야하고\n3칸짜리 상자를 상어 한마리에 대입하는건 왜곡이 덜하겠군요",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1289",
-    "pubDate": "Sun, 27 Apr 2025 15:08:29 +0900",
+    "link": "http://serverdown.tistory.com/1297",
+    "pubDate": "Wed, 30 Apr 2025 13:24:43 +0900",
     "creator": "SIDNFT",
     "categories": [
       "프로그래밍/개발메모",
-      "애드몹",
-      "유니티"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "132일차 요약 / 1인 게임 개발",
-    "description": "질러버린 애셋 두개\n원화로는 14만5천원이군요\n물고기는 할인이 아니라 비싸게 느껴지네요\n \n영상: https://www.youtube.com/watch?v=BMSG0VyT_-E\n\n\n\n \n요약: \n1. 블록 분해 게임 작업\n링크: https://serverdown.tistory.com/1290\n \n2. Add Force 1 히어로 추가 작업\n글 링크: https://blog.sidnft.com/1279\n \n3 테스트 하려고 샀던 수이 코인이 떡상한 사연\n\n\n우연히 얻은 수익 좀 팔아봤습니다.\n \n4.  유니티 애셋 구매 (수이 팔아서)\n- 물고기 3D\n영상: https://www.youtube.com/watch?time_continue=4&v=OOzC3r0pBCo&embeds_referring_euri=https%3A%2F%2Fassetstore.unity.com%2F&embeds_referring_origin=https%3A%2F%2Fassetstore.unity.com&source_ve_path=MjM4NTE\n\n\n\n \n- text to voice (글자를 음성으로 변환)\n글 링크: https://blog.sidnft.com/1285\n \n \n \n \n코인을 팔아서 제일위에 그림처럼 애샛을 구매했습니다.\n다 나은 결과가 있기를",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1291",
-    "pubDate": "Mon, 28 Apr 2025 10:51:51 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
+      "게임",
+      "아이디어"
     ]
   }
 ]
