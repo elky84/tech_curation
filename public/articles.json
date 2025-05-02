@@ -2,42 +2,90 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Logstash 필터 ruby - 8th",
-    "description": "audit.log 연동.\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n kv {}\n\n\n dissect {\n  mapping => {\"msg\" => \"%{}(%{timestamp}:%{}\"}\n }\n}\n\n\n\n\n{\n       \"family\" => \"10\",\n      \"message\" => \"type=NETFILTER_CFG msg=audit(1745768855.720:63): table=filter family=10 entries=0\\r\",\n         \"type\" => \"NETFILTER_CFG\",\n      \"entries\" => \"0\\r\",\n    \"timestamp\" => \"1745768855.720\",\n        \"table\" => \"filter\",\n          \"msg\" => \"audit(1745768855.720:63):\"\n}\n{\n          \"gid\" => \"0\",\n           \"a2\" => \"41a2d8\",\n           \"a0\" => \"1e2da20\",\n         \"ppid\" => \"1335\",\n          \"key\" => \"(null)\\r\",\n    \"timestamp\" => \"1745768855.720\",\n           \"a1\" => \"1d75\",\n        \"fsgid\" => \"0\",\n          \"tty\" => \"none\",\n      \"message\" => \"type=SYSCALL msg=audit(1745768855.720:63): arch=c000003e syscall=175 success=yes exit=0 a0=1e2da20 a1=1d75 a2=41a2d8 a3=1e2a500 items=0 ppid=1335 pid=1336 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\\\"modprobe\\\" exe=\\\"/usr/bin/kmod\\\" subj=system_u:system_r:insmod_t:s0 key=(null)\\r\",\n        \"items\" => \"0\",\n         \"suid\" => \"0\",\n         \"auid\" => \"4294967295\",\n         \"sgid\" => \"0\",\n          \"pid\" => \"1336\",\n         \"egid\" => \"0\",\n          \"exe\" => \"/usr/bin/kmod\",\n          \"uid\" => \"0\",\n          \"ses\" => \"4294967295\",\n           \"a3\" => \"1e2a500\",\n         \"euid\" => \"0\",\n        \"fsuid\" => \"0\",\n         \"comm\" => \"modprobe\",\n         \"exit\" => \"0\",\n      \"success\" => \"yes\",\n          \"msg\" => \"audit(1745768855.720:63):\",\n         \"arch\" => \"c000003e\",\n         \"subj\" => \"system_u:system_r:insmod_t:s0\",\n      \"syscall\" => \"175\",\n         \"type\" => \"SYSCALL\"\n}\n\n\n\n\n그런데 시간 정보가 unixtime 포맷이다. stackoverflow 형님들이 가르쳐준대로 date 포맷으로 변경.\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n kv {}\n\n\n dissect {\n  mapping => {\"msg\" => \"%{}(%{timestamp}:%{}\"}\n }\n\n\n ruby {\n  code => \"event.set('@timestamp', DateTime.strptime(event.get('timestamp'), '%s'))\"\n }\n}\n\n\n\n[2025-04-28T17:52:41,760][ERROR][logstash.filters.ruby    ][main][7cefa12dcafdc101f42a5bda6812294cab6405d0864ef044fe35a2cc66392ce4] \nRuby exception occurred: wrong argument type DateTime (expected LogStash::Timestamp)\n\n\n안 된다. 제미나이한테 물어봄.\n\n\n\n\n[2025-04-28T17:57:02,837][ERROR][logstash.filters.ruby    ][main][d35de4494869054b8277f75d5c334da579e561ff0060cc7554ec4beb7dd79661] \nRuby exception occurred: wrong argument type DateTime (expected Time)\n\n\n안 되잖아(..)\n\n\n\n\n아무래도 로그스태시 구문이 따로 있는 것 같은데 ruby 구문을 계속 그대로 사용하는 게 이상하다. gpt는 다를까?\n\n\n\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n kv {}\n\n\n dissect {\n  mapping => {\"msg\" => \"%{}(%{timestamp}:%{}\"}\n }\n\n\n ruby {\n  code => \"event.set('@timestamp', LogStash::Timestamp.new(Time.at(event.get('timestamp').to_i)))\"\n }\n}\n\n\n\n\n{\n        \"family\" => \"10\",\n       \"message\" => \"type=NETFILTER_CFG msg=audit(1745768855.720:63): table=filter family=10 entries=0\\r\",\n          \"type\" => \"NETFILTER_CFG\",\n       \"entries\" => \"0\\r\",\n     \"timestamp\" => \"1745768855.720\",\n    \"@timestamp\" => 2025-04-27T15:47:35.000Z,\n         \"table\" => \"filter\",\n           \"msg\" => \"audit(1745768855.720:63):\"\n}\n{\n           \"gid\" => \"0\",\n            \"a2\" => \"41a2d8\",\n            \"a0\" => \"1e2da20\",\n          \"ppid\" => \"1335\",\n           \"key\" => \"(null)\\r\",\n     \"timestamp\" => \"1745768855.720\",\n            \"a1\" => \"1d75\",\n         \"fsgid\" => \"0\",\n           \"tty\" => \"none\",\n       \"message\" => \"type=SYSCALL msg=audit(1745768855.720:63): arch=c000003e syscall=175 success=yes exit=0 a0=1e2da20 a1=1d75 a2=41a2d8 a3=1e2a500 items=0 ppid=1335 pid=1336 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\\\"modprobe\\\" exe=\\\"/usr/bin/kmod\\\" subj=system_u:system_r:insmod_t:s0 key=(null)\\r\",\n         \"items\" => \"0\",\n          \"suid\" => \"0\",\n          \"auid\" => \"4294967295\",\n          \"sgid\" => \"0\",\n           \"pid\" => \"1336\",\n          \"egid\" => \"0\",\n           \"exe\" => \"/usr/bin/kmod\",\n           \"uid\" => \"0\",\n           \"ses\" => \"4294967295\",\n            \"a3\" => \"1e2a500\",\n          \"euid\" => \"0\",\n         \"fsuid\" => \"0\",\n          \"comm\" => \"modprobe\",\n    \"@timestamp\" => 2025-04-27T15:47:35.000Z,\n          \"exit\" => \"0\",\n       \"success\" => \"yes\",\n           \"msg\" => \"audit(1745768855.720:63):\",\n          \"arch\" => \"c000003e\",\n          \"subj\" => \"system_u:system_r:insmod_t:s0\",\n       \"syscall\" => \"175\",\n          \"type\" => \"SYSCALL\"\n}\n\n\n\n\n아이고 구글(..)\n\n\n관련 글\n\nLogstash 필터 ruby - 7th\nLogstash 필터 ruby\nLogstash 필터 grok\nLogstash 필터 mutate\nLogstash 필터 geoip\nLogstash 필터 dissect\nLogstash 필터 kv\nLogstash 필터 date\nLogstash 필터 translate\nLogstash 필터 drop\nLogstash 필터 useragent\nLogstash 필터 elapsed\nLogstash 필터 fingerprint\nLogstash 필터 csv\nLogstash 필터 dns\nLogstash 필터 split\nLogstash codec 플러그인 multiline",
+    "title": "수조관 시계 (관상용) / Unity Play",
+    "description": "거금 80달러를 써서 만든 시계 입니당.\n그냥 관산용\n \n링크: https://play.unity.com/en/user/5ea53514-df56-4e49-9931-a08d1813a7cc\n\n \nSIDNFT on Unity Play\nThe place for aspiring game creators to share their latest Unity creation. Gain inspiration and find thousands of FPS, Karting, 2D Platformer and other creations with Unity. No experience needed, just jump in for the chance to be featured!\nplay.unity.com\n\n \n영상: https://www.youtube.com/watch?v=KKUx71DhFAA",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/04/logstash-ruby-8th.html",
-    "pubDate": "2025-04-28T09:02:00.002Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://serverdown.tistory.com/1293",
+    "pubDate": "Mon, 28 Apr 2025 17:54:12 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "맥북에서 로지텍 MX Master 3 마우스 끊김 해결: SmartShift 비활성화 경험",
-    "description": "맥북 M4와 로지텍 MX Master 3는 생산성을 위한 강력한 도구 조합이지만, 예기치 않게 마우스 끊김, 스크롤 오류, 화면 확대/축소 문제가 발생할 수 있습니다. 저 또한 이러한 문제로 불편함을 겪었고, 마우스를 교체할까 고민할 정도로 답답했습니다. 하지만 끈질긴 문제 해결 시도 끝에, MX Master 3의 특정 기능이 맥북 M4와의 호환성 문제의 원인임을 발견했습니다.\n문제의 핵심: MX Master 3 SmartShift 기능과 맥북 M4\n문제의 원인은 바로 MX Master 3의 SmartShift 기능이었습니다. 이 기능은 마우스 휠 속도에 따라 자동으로 스크롤 모드를 전환하여 편리함을 제공하지만, 맥북 M4 환경에서는 예기치 않은 작동 오류를 일으킬 수 있었습니다.\n갑작스러운 마우스 멈춤 (MacBook mouse freeze)\n불규칙한 스크롤 동작 (MX Master 3 scroll issue)\n의도치 않은 화면 확대 또는 축소 (MacBook screen zoom problem)\n해결 과정: 마우스 기능 점검과 SmartShift 비활성화\n명확한 해결책을 찾기 어려워 답답했던 저는, 최후의 수단으로 MX Master 3의 기능을 하나씩 테스트하며 원인을 좁혀나가기 시작했습니다. 그러던 중 SmartShift 기능을 끄는 것이 문제 해결의 결정적인 단계였습니다.\n\nSmartShift 비활성화 방법 (Logi Options+ 기준):\nLogi Options+ 앱을 실행합니다.\n연결된 MX Master 3를 선택합니다.\n휠 설정 메뉴로 이동합니다.\nSmartShift 옵션을 OFF로 설정합니다.\n이 간단한 조치만으로 맥북 M4에서 MX Master 3 마우스 끊김, 스크롤 오류, 화면 확대/축소 문제가 깔끔하게 해결되었습니다.\n맥북 M4 마우스 끊김 예방을 위한 추가 팁\nLogi Options+ 및 마우스 펌웨어 최신 버전 유지: 정기적인 업데이트는 호환성 문제 해결 및 성능 향상에 도움이 됩니다.\n로지텍 전용 USB 수신기 활용: 블루투스 연결 불안정 시, 동글 사용을 고려해보세요.\nmacOS 접근 권한 확인: ‘시스템 설정’ > '개인 정보 보호 및 보안’에서 Logi Options+ 권한 설정을 확인합니다.\n결론: 맥북 M4와 MX Master 3 마우스 문제 해결은 SmartShift 비활성화가 답이었다.\n맥북 M4 환경에서 로지텍 MX Master 3 마우스 사용 중 끊김, 스크롤 이상, 화면 확대/축소 현상을 겪고 있다면, SmartShift 기능을 비활성화하는 것이 효과적인 해결책이 될 수 있습니다. 마우스 교체를 고려하기 전에 이 방법을 시도하여 쾌적한 맥북 사용 환경을 되찾으시길 바랍니다.",
+    "title": "C# - 의존성 주입 방법의 라이프 사이클 AddTransient, AddScoped, AddSingleton",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.gaerae.com/2025/04/macbook-mx-master-3-smartshift.html",
-    "pubDate": "Thu, 24 Apr 2025 09:51:00 +0000",
-    "creator": "noreply@blogger.com (Unknown)",
-    "categories": [
-      {
-        "_": "macbook",
-        "$": {
-          "domain": "http://www.blogger.com/atom/ns#"
-        }
-      },
-      {
-        "_": "mouse",
-        "$": {
-          "domain": "http://www.blogger.com/atom/ns#"
-        }
-      }
-    ]
+    "link": "https://jacking75.github.io/NET_20250429/",
+    "pubDate": "Tue, 29 Apr 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "기아플렉스 ev6 48시간 대여 후기.",
+    "description": "기아플렉스로 48시간 대여한 ev6 반납완료. 원래대로라면 내일 오전 10시 반납이지만 더 운행할 일이 없는데 폭탄을 안고 있을 이유가 없다. 작은 상처라도 나면 내가 변상해야 하므로 스트레스 받기 싫어서 조기 반납했다. 차는 좋았다. 예상대로 좋았고 나한테 잘 맞았다. 다만 제주도에서 렌트하는 것과는 달리 100%면책 보험같은게 없는게 큰 문제다. 자기부담금 50만원의 대인/대물 보험만 있고 여기서 사이드미러, 휠, … More 기아플렉스 ev6 48시간 대여 후기.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://megayuchi.com/2025/04/25/%ea%b8%b0%ec%95%84%ed%94%8c%eb%a0%89%ec%8a%a4-ev6-48%ec%8b%9c%ea%b0%84-%eb%8c%80%ec%97%ac-%ed%9b%84%ea%b8%b0/",
+    "pubDate": "Fri, 25 Apr 2025 08:01:24 +0000",
+    "creator": "megayuchi",
+    "categories": [
+      "Pub",
+      "ev6",
+      "렌트카",
+      "기아플렉스"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "There’s a Linux File Explorer built into Visual Studio!?!",
+    "description": "The Remote File Explorer in Visual Studio provides developers with a convenient way to browse, view, and edit files on remote machines—directly from within the IDE. It’s a powerful tool for managing remote environments without leaving your development workflow. Scott Hanselman published a new YouTube video to his channel, taking us on the journey of […]\nThe post There’s a Linux File Explorer built into Visual Studio!?! appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/theres-a-linux-file-explorer-built-into-visual-studio/",
+    "pubDate": "Thu, 01 May 2025 15:44:39 +0000",
+    "creator": "Sinem Akinci",
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "가정의 달 콘텐츠➀ 함께 살아가기 위해서는 계산이 필요하다",
+    "description": "부부를 위한 콘텐츠 큐레이션",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/2025may-curation",
+    "pubDate": "Mon, 28 Apr 2025 00:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Taking the plunge: Why Meta is laying the world’s longest subsea cable",
+    "description": "Meta develops infrastructure all across the globe to transport information and content for the billions of people using our services around the world. At the core of this infrastructure are aggregation points – like data centers – and the digital cables that connect them. Subsea cables – the unseen digital highways of the internet – [...]\nRead More...\nThe post Taking the plunge: Why Meta is laying the world’s longest subsea cable appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/05/01/connectivity/taking-the-plunge-why-meta-is-laying-the-worlds-longest-subsea-cable/",
+    "pubDate": "Thu, 01 May 2025 18:48:02 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Connectivity",
+      "Networking & Traffic",
+      "Meta Tech Podcast"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "Jens Oliver Meiert: How WebStorm and AI Assistant Fit Right Into My Workflow",
     "description": "For more than two decades, Jens Oliver Meiert has been at the forefront of web development, working with industry giants like Google and Miro, as well as leading engineering teams across various companies. With extensive experience in frontend development, he has witnessed firsthand how tools and workflows have evolved over time. In this interview, Jens […]",
@@ -48,11 +96,11 @@
     "creator": "Aleksandra Aganezova",
     "categories": [
       "interviews",
-      "ai-assistant"
+      "ai-in-ides"
     ]
   },
   {
-    "id": 4,
+    "id": 8,
     "imageUrl": "",
     "title": "토스뱅크가 ‘쉬운 근로계약서’에 주목하는 이유",
     "description": "“일하는 누구나, 안전하게” - 토스뱅크가 바꿔나가는 계약 문화",
@@ -64,153 +112,7 @@
     "categories": []
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "작업 상황 결과",
-    "description": "1. 블록 분해 게임\n\n\n블록 분해 게임을 빨리 올리려고 스토어에 스크린샷을 올릴때\n저의 다른 게임 스샷을 쓴게 있는데\n그게 정책위반으로 걸렸습니다.\n해명 절차에 들어갔지만 이것은 시간이 너무 많이 걸려서 \n앱을 새로 만들어 출시를 눌러놓은 상태입니다.\n \n \n2. 수조관 시계\n\n\n설정 UI 를 추가해서 출시 눌렀습니다.\n유료로 1달러 정도 이며\n유료게임은 어떻게 돌아가는지 확인하고 싶었습니다.\n \n데모 영상: https://www.youtube.com/watch?v=KKUx71DhFAA\n\n\n\n \n \n \n3. 블록 깨기 게임\n공동작업중이라 제가 정보를 올릴순 없고 말로 하자면\n출시하려고 했으나 테스터로 14 일 + 14일 테스트 기간을 채워야합니다.\n\n\n이 작업을 자발 적인 노력으로 끝내려면 상당히 완성도 있는 게임을 만들고\n배포해야 서로 해보겠다고 테스트를 해줄 것입니다.\n여러사람이 지인 찬스로 이 문제를 해결하고 있지만\n내가 좋아하는 게임도 아닌데 게임 테스트를 자발적으로 참여하는 일은 쉽지 않습니다.\n더군다나 완성도도 높지 않은 상황이라\n법인 계정은 이 절차를 거칠 필요가 없고 개인 사업자들은 해야하는 것으로 보입니다.\n제 계정은 오래전에 뚫어놓은거라 이절차가 없군요\n완성도를 높여야할 시간인거 같습니다.\n \n잡다한 추가 작업\n게임들의 홈페이지 작업을 해야합니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1294",
-    "pubDate": "Tue, 29 Apr 2025 18:10:39 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "1인개발",
-      "요약"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "GPT 4o로 완벽한 한글 유튜브 썸네일 만들기, 무료 GPTS 공개",
-    "description": "드디어 한글로 깔끔한 유튜브 썸네일을 만들 수 있게 됐어요! GPT 4o의 한글 렌더링 기능으로 더 이상 깨진 한글 썸네일과 작별할 시간. 썸네일 제작의 새로운 시대가 열렸습니다.\n\n\n \n안녕하세요! 오늘은 정말 기대하고 있던 소식을 들고 왔어요. 여러분, GPT 4o 이미지 생성 기능으로 드디어 깔끔한 한글 렌더링이 가능한 유튜브 썸네일을 만들 수 있게 됐다는 소식!  \n \n여러분도 유튜브 콘텐츠 만들면서 썸네일 때문에 고생 좀 하셨죠? 특히 기존의 DALL-E에서는 한글이 제대로 나오지 않아서 포토샵이나 별도 디자인 툴을 써야 했던 불편함이 있었잖아요. 저도 처음에 유튜브 시작했을 때 썸네일 만드는 데만 몇 시간씩 쏟아부었던 기억이 나네요.  \n \nGPT 4o로 바뀐 썸네일 생성, 뭐가 달라졌을까?  \nGPT 4o 모델은 텍스트 생성 능력만 뛰어난 게 아니라, 이미지 생성 분야에서도 혁신적인 변화를 가져왔어요. 제가 직접 써보니까 가장 눈에 띄는 차이점은 바로 완벽한 한글 가독성이에요.\n \n이전에는 한글을 넣으면 대부분 깨지거나 이상한 글자로 나오곤 했는데, 이제는 마치 전문 디자이너가 만든 것처럼 깔끔하게 한글이 렌더링됩니다. 특히 썸네일에서 가장 중요한 텍스트 부분이 제대로 표현된다는 건 정말 혁명적인 변화죠.\n \n제가 어제 테스트해 봤는데, \"2025년 최신 아이폰 비교 리뷰\"라는 제목의 썸네일을 만들었을 때 정말 깔끔하게 텍스트가 들어갔어요. 폰트도 테크 리뷰에 어울리는 걸로 자동 선택해 주더라고요!\n \n롱폼? 숏폼? 상황에 맞는 비율 선택  \n요즘은 유튜브도 다양한 형태의 콘텐츠가 있잖아요. 일반 영상용 썸네일이 필요할 수도 있고, 쇼츠용 세로형 썸네일이 필요할 수도 있죠. 이 GPTS는 정말 친절하게도 처음부터 \"롱폼(가로비율, 16:9)이 필요하신가요, 아니면 숏폼(세로비율, 9:16)이 필요하신가요?\"라고 물어봐요.\n \n제가 숏폼을 많이 올리는 편인데, 이전에는 세로형 썸네일 만들기가 정말 까다로웠거든요. 하지만 이제는 비율 선택만 해주면 알아서 최적화된 이미지를 만들어주니 얼마나 편한지 몰라요.\n \n장르별 최적화 기능은 진짜 똑똑해요  \n여러분, 이 썸네일 생성기가 얼마나 똑똑한지 알아요? 그냥 \"게임 리뷰 썸네일 만들어줘\"라고 하면 게임 콘텐츠에 맞는 요소들을 자동으로 넣어준다니까요! 예를 들어 게임 콘텐츠면 극적인 게임 장면이나 캐릭터 액션을 강조해 주고, 요리 콘텐츠라면 음식의 맛있어 보이는 표현과 김이나 증기 같은 동적 효과를 넣어준다고 해요.\n제가 지난주에 요리 채널 운영하는 친구를 위해 \"초간단 부대찌개 레시피\" 썸네일을 만들어줬는데, 정말 맛있어 보이는 부대찌개 이미지에 김이 모락모락 나는 효과까지 넣어줬어요. 친구가 그 썸네일 사용한 영상의 조회수가 평소보다 30% 이상 올랐다고 하더라고요!  \n \n시각적 임팩트를 높이는 디자인 요소들 ✨\n썸네일의 성공 비결은 결국 '클릭을 유도하는 시각적 임팩트'에 있잖아요. 이 GPTS는 디자인 측면에서도 정말 세심하게 신경 썼더라고요:\n고해상도 실사 이미지를 기본으로 사용\n강렬한 색상 대비와 높은 채도로 눈길 끌기\n텍스트는 이미지 전체 면적의 40%를 차지하도록 설계\n텍스트 뒷면에 30% 투명도의 배경 박스나 음영 처리로 가독성 확보\n특히 주목할 만한 점은 텍스트 배치인데요, 화면의 중앙이나 전략적 삼등분 위치를 활용해서 정말 프로페셔널한 느낌이 나요. 예전에 제가 직접 만들던 썸네일은 왜 그렇게 아마추어 같았는지 이제 알겠어요...  \n \n이런 상황에서 특히 유용해요  \n개인 유튜버라면: 디자인 툴 따로 배울 시간 없이 빠르게 퀄리티 있는 썸네일 제작 가능\n기업 마케팅 담당자라면: 일관된 브랜드 이미지를 유지하면서도 다양한 썸네일 빠르게 생성\n교육 콘텐츠 제작자라면: 학습 주제와 목표를 명확히 전달하는 전문적인 썸네일 손쉽게 제작\n게임 스트리머라면: 게임의 하이라이트 장면을 강조한 매력적인 썸네일로 시청자 유입 증가\n솔직히 말해서, 유튜브 썸네일은 영상 못지않게 중요하잖아요. 아무리 좋은 콘텐츠라도 썸네일이 매력적이지 않으면 클릭률이 떨어지니까요. 그래서 이 GPTS가 더 반가운 것 같아요.\n \n사용 꿀팁! 더 좋은 결과를 얻으려면...  \n제가 며칠간 이 GPTS를 열심히 사용해본 결과, 몇 가지 꿀팁을 발견했어요:\n키워드를 구체적으로 입력하세요: \"게임 썸네일\"보다는 \"배틀그라운드 에란겔 맵 하이라이트 장면 썸네일\"처럼 구체적으로!\n장르를 명시하면 더 특화된 결과를 얻을 수 있어요: \"IT\", \"요리\", \"게임\" 등\n수정 요청도 자유롭게: \"한국인으로 수정해줘\", \"노트북을 추가해줘\" 등 추가 디테일 요청 가능\n비율 문제 발생 시: GPT-4o가 가끔 1:1 비율을 고집할 때는 \"16:9 비율로 다시 그려줘\"라고 요청하세요\n가끔 첫 번째 결과가 마음에 들지 않아도 너무 실망하지 마세요. 몇 가지 디테일을 추가해서 다시 요청하면 훨씬 더 좋은 결과물이 나오더라고요. 저도 처음에는 \"이게 뭐야?\" 싶었다가 두세 번 수정 요청하니 \"와, 이거 진짜 프로급이네!\"라는 생각이 들었어요.  \n\n\n \n이제 더 이상 썸네일 때문에 고민하지 마세요! 여러분의 창의적인 콘텐츠에 어울리는 매력적인 썸네일을 GPT 4o로 쉽고 빠르게 만들어보세요. 혹시 이 GPTS를 사용해보신 분들 계신가요? 어떤 결과물이 나왔는지 댓글로 공유해주세요! 저도 더 좋은 썸네일 만드는 팁이 있다면 배우고 싶네요.  \nFAQ\nQ: 이 GPTS는 무료인가요?\nA: ChatGPT Plus 구독자라면 별도 비용 없이 사용 가능합니다.\nQ: 한 번에 몇 개의 썸네일을 생성할 수 있나요?\nA: 한 번에 하나씩 생성 가능하며, 수정 요청을 통해 개선할 수 있습니다.\nQ: 생성된 이미지의 저작권은 어떻게 되나요?\nA: OpenAI의 정책에 따라 생성된 이미지는 사용자가 저작권을 가집니다.\nQ: 텍스트가 깨지면 어떻게 해야 하나요?\nA: \"텍스트를 더 크게\" 또는 \"텍스트를 선명하게\" 등으로 수정 요청을 해보세요.\nQ: 특정 브랜드 로고를 넣을 수 있나요?\nA: 저작권 문제로 인해 정확한 브랜드 로고 생성은 제한될 수 있습니다.\n\n\n\n \n  GPTS 무료배포\n 약간의 지식과 시간만 투자하면 누구나 직접 제작하고 활용할 수 있는 유용한 GPTs가 이미 많이 존재합니다. 그러나 여전히 AI 기술에 대한 낯선 접근을 두려워하거나 IT 초보자, 또는 시간적 여유가 없거나 수익화에 대한 절실함 때문에 올바른 정보를 얻지 못하는 사람들이 많습니다. \n이러한 심리를 악용해 과도한 가격으로 유료 강의를 판매하며 불필요한 부담을 주는 사례들이 늘어나고 있습니다.\n \n 이에 본 블로그에서는 모든 사람이 AI의 혜택을 공정하고 자유롭게 누릴 수 있도록 GPTs를 무료로 배포하며, 불합리한 강의 판매 행위를 단호히 배척하고자 합니다. (당연히 저도 무료 그 이상의 가치가 있는 챗봇이라면 유료화를 검토중입니다.)\n반응형\n\n    \n    (adsbygoogle = window.adsbygoogle || []).push({});\n  \n\n \nChatGPT - 챗GPT 유튜브 썸네일 생성기\n사용자의 키워드로 클릭을 유도하는 16:9 비율의 유튜브 썸네일을 생성합니다.\nchatgpt.com\n\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"이 GPTS는 무료인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"ChatGPT Plus 구독자라면 별도 비용 없이 사용 가능합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"한 번에 몇 개의 썸네일을 생성할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"한 번에 하나씩 생성 가능하며, 수정 요청을 통해 개선할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"생성된 이미지의 저작권은 어떻게 되나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"OpenAI의 정책에 따라 생성된 이미지는 사용자가 저작권을 가집니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"텍스트가 깨지면 어떻게 해야 하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"\\\"텍스트를 더 크게\\\" 또는 \\\"텍스트를 선명하게\\\" 등으로 수정 요청을 해보세요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"특정 브랜드 로고를 넣을 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"저작권 문제로 인해 정확한 브랜드 로고 생성은 제한될 수 있습니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483576",
-    "pubDate": "Mon, 28 Apr 2025 07:06:01 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/무료 GPTS 공개",
-      "AI 이미지 생성",
-      "gpt 4o 이미지 생성",
-      "롱폼 썸네일",
-      "숏폼 썸네일",
-      "썸네일 디자인",
-      "유튜브 마케팅",
-      "유튜브 썸네일 생성",
-      "콘텐츠 최적화",
-      "클릭률 향상",
-      "한글 렌더링"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "토스, 서울시 밈센터·프리웨일과 경계선지능청년 금융 교육 진행",
-    "description": "4월부터 6개월간 ‘토스의 찾아가는 경제 교육’ 진행",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/edu_",
-    "pubDate": "Tue, 29 Apr 2025 00:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "How Meta understands data at scale",
-    "description": "Managing and understanding large-scale data ecosystems is a significant challenge for many organizations, requiring innovative solutions to efficiently safeguard user data. Meta’s vast and diverse systems make it particularly challenging to comprehend its structure, meaning, and context at scale. To address these challenges, we made substantial investments in advanced data understanding technologies, as part of [...]\nRead More...\nThe post How Meta understands data at scale appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/04/28/security/how-meta-understands-data-at-scale/",
-    "pubDate": "Mon, 28 Apr 2025 16:30:19 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Security & Privacy"
-    ]
-  },
-  {
     "id": 9,
-    "imageUrl": "",
-    "title": "연예인들때문에 안티들이 붙어버린 10분짜리 우주여행 상품의 위기",
-    "description": "영상: https://www.youtube.com/watch?v=mVXcdOcXOMI\n\n\n\n \n \n이게 과학자들이나 군인들이 갈 때는 별 지적이 없었는데\n여성들로 100% 뽑고 연예인들이 섞이기 시작하니까\n안티가 섞이고 있다고 합니다.\n지적사항은 여행 시간이 짧은데 대단한거냐\n엄청 위험하고 어려운거 같은데 알고보니 안전벨트 매고 버튼 한개 누르는 정도다\n옷이 이상하다.\n \n아무튼 홍보는 꼬여버렸고 우주산업에는 위기가 올 수도 있습니다.\n여러번 하다보면 이런식으로 오렴되나 봅니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1292",
-    "pubDate": "Mon, 28 Apr 2025 17:13:56 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "미국",
-      "우주여행"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths",
-    "description": "The 1.25 release of the C++ extension in Visual Studio Code introduces a new way to understand your code faster with GitHub Copilot-powered symbol summaries, as well as new customization options for recursive #include path processing. With these enhancements, you gain AI-powered insights into unfamiliar or undocumented code and can optimize IntelliSense performance based on […]\nThe post VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/vs-code-c-extension-1-25-release-explain-c-symbols-using-copilot-customize-recursive-include-paths/",
-    "pubDate": "Wed, 30 Apr 2025 23:31:17 +0000",
-    "creator": "Alexandra Kemper, Sinem Akinci",
-    "categories": [
-      "C++",
-      "Copilot",
-      "performance",
-      "Visual Studio Code"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "2025 일하는 부모의 임신·출산·육아 부담을 덜어줄 제도 10가지: '출산전후 휴가급여’부터 '아동수당’까지",
-    "description": "대표적인 임신·출산·육아 지원정책 모아보기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/money-policies-40",
-    "pubDate": "Fri, 25 Apr 2025 00:41:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Debugging Java Code in IntelliJ IDEA",
-    "description": "In this blog post, we will look at how to debug Java code using the IntelliJ IDEA debugger. We will look at how to fix a failing test, how to find out where an `Exception` is thrown, and how to find problems with our data. And we will learn some neat tricks about the debugger […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/debugging-java-code-in-intellij-idea/",
-    "pubDate": "Thu, 24 Apr 2025 09:12:11 +0000",
-    "creator": "Marit van Dijk",
-    "categories": [
-      "idea",
-      "java",
-      "tutorials",
-      "debug",
-      "debugger",
-      "debugging",
-      "intelij-idea"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "파운데이션 모델이란?",
-    "description": "파운데이션 모델은 방대한 양의 일반 데이터로 학습된 강력한 인공 지능(AI)의 유형으로, 광범위한 작업을 처리할 수 있습니다. OpenAI의 GPT(Generative Pre-trained Transformer) 시리즈나 Google의 BERT (Bidirectional Encoder Representations from Transformers)와 같은 파운데이션 모델은 인터넷의 다양한 소스에서 일반적인 언어 패턴과 지식을 수집하도록 설계되었습니다. 그런 다음 이러한 모델을 소규모의 작업별 데이터 세트에 맞게 파인튜닝하여 텍스트 분류, 요약, 번역, 질문 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://ppss.kr/archives/269222",
-    "pubDate": "Wed, 30 Apr 2025 03:32:08 +0000",
-    "creator": "박명근",
-    "categories": [
-      "IT",
-      "개발"
-    ]
-  },
-  {
-    "id": 14,
     "imageUrl": "",
     "title": "The First Set of Bug Fixes for ReSharper and Rider 2025.1 Is Here!",
     "description": "Hello everyone, The ReSharper and Rider 2025.1.1 bug-fix updates have just been released! If you haven’t upgraded to the 2025.1 versions of our products, we highly recommend that you check out these two blog posts: And now, let’s go over the most important fixes in 2025.1.1. ReSharper 2025.1.1  The first bug-fix update fixes the issue […]",
@@ -229,19 +131,111 @@
     ]
   },
   {
-    "id": 15,
+    "id": 10,
     "imageUrl": "",
-    "title": "블록 분해 게임 - 아이디어",
-    "description": "블록 분해 게임\n영상: https://youtu.be/_EVuM-JzcMw\n\n\n\n \n상자대신 물고기\n영상: https://youtu.be/dPZPeKa-1ws\n\n\n\n한칸애 물고기 하나를 너으면 찌그러트려야하고\n3칸짜리 상자를 상어 한마리에 대입하는건 왜곡이 덜하겠군요",
+    "title": "파운데이션 모델이란?",
+    "description": "파운데이션 모델은 방대한 양의 일반 데이터로 학습된 강력한 인공 지능(AI)의 유형으로, 광범위한 작업을 처리할 수 있습니다. OpenAI의 GPT(Generative Pre-trained Transformer) 시리즈나 Google의 BERT (Bidirectional Encoder Representations from Transformers)와 같은 파운데이션 모델은 인터넷의 다양한 소스에서 일반적인 언어 패턴과 지식을 수집하도록 설계되었습니다. 그런 다음 이러한 모델을 소규모의 작업별 데이터 세트에 맞게 파인튜닝하여 텍스트 분류, 요약, 번역, 질문 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1297",
-    "pubDate": "Wed, 30 Apr 2025 13:24:43 +0900",
+    "link": "https://ppss.kr/archives/269222",
+    "pubDate": "Wed, 30 Apr 2025 03:32:08 +0000",
+    "creator": "박명근",
+    "categories": [
+      "IT",
+      "개발"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "스토커와 같이 집착해라",
+    "description": "공식 라이선스 스포츠용품을 판매하는 Fanatics라는 미국 회사가 있다. 한국에서는 잘 알려지지 않았지만, 미국인이라면 Fanatics 사이트 또는 이 회사가 운영하는 수많은 이커머스 플랫폼에서 뭐라도 한 번은 사 봤을 것이다. 미국 모든 대학교의 공식 라이선스 제품을 판매하고 있고, NBA, NFL, MLB 등 프로 스포츠 공식 라이선스 제품도 다 판매하는, 기업가치 약 40조 원의 거대한 이커머스 회사이다. 나도(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/04/be-obsessed-like-a-stalker-on-your-product-and-customers.html",
+    "pubDate": "Sun, 27 Apr 2025 21:36:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "competition",
+      "FoundersAtWork",
+      "hustle",
+      "product",
+      "스타트업 바이블 QA"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths",
+    "description": "The 1.25 release of the C++ extension in Visual Studio Code introduces a new way to understand your code faster with GitHub Copilot-powered symbol summaries, as well as new customization options for recursive #include path processing. With these enhancements, you gain AI-powered insights into unfamiliar or undocumented code and can optimize IntelliSense performance based on […]\nThe post VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/vs-code-c-extension-1-25-release-explain-c-symbols-using-copilot-customize-recursive-include-paths/",
+    "pubDate": "Wed, 30 Apr 2025 23:31:17 +0000",
+    "creator": "Alexandra Kemper, Sinem Akinci",
+    "categories": [
+      "C++",
+      "Copilot",
+      "performance",
+      "Visual Studio Code"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "How to Use Kotlin Notebooks for Productive Development ",
+    "description": "Kotlin Notebook is a new interactive environment for JVM developers. This article will cover the main Notebook features and how you can utilize them to improve your productivity.  How to use Kotlin Notebook Kotlin Notebook is bundled with IntelliJ IDEA starting from the 2025.1 release, and it is easier than ever to start working with […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/04/how-to-use-kotlin-notebooks-for-productive-development/",
+    "pubDate": "Mon, 28 Apr 2025 15:02:45 +0000",
+    "creator": "Ilya Muradyan",
+    "categories": [
+      "kotlin",
+      "tutorials",
+      "intellij-idea",
+      "kotlin-notebook"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Suno v4.5 주요 업데이트 소개, 프로급 음악 제작이 더 쉬워졌다!",
+    "description": "음악 창작의 새 역사를 쓰는 Suno v4.5가 드디어 공개됐어요! 더 풍부한 장르, 감성적인 보컬, 복잡한 사운드까지... 여러분의 음악적 상상력이 현실이 되는 마법 같은 경험을 함께 해볼까요?\n\n\n \n여러분, 혹시 머릿속에서 맴도는 멜로디가 있으신가요? 어떤 특별한 순간에 떠오르는 그 음악, 그냥 흘려보내기 아쉽지 않으셨어요? 저도 그랬어요. 음악을 전공하지 않았지만 항상 제 감정을 표현할 수 있는 노래를 만들고 싶었거든요.\n솔직히 말해서, 음악 제작은 전문가들의 영역이라고만 생각했어요. 작곡, 편곡, 믹싱... 이런 단어들만 들어도 진입장벽이 느껴지잖아요. 그런데 Suno의 새로운 v4.5 모델을 경험하고 나서 제 생각이 완전히 바뀌었어요. 진짜로요!  \n \nSuno v4.5, 무엇이 달라졌을까? ✨\nSuno v4.5는 이전 버전에서 한 단계 더 진화했어요. 제가 직접 사용해본 결과, 몇 가지 놀라운 변화를 발견했답니다.\n확장된 장르와 장르 믹스업  \n장르 옵션이 크게 확장되었고, v4.5는 이전보다 장르를 더 정확하게 따라갑니다. 예전에는 'EDM'이라고 하면 뭔가 비슷비슷한 느낌이었는데, 이제는 확실히 다양한 EDM 하위 장르의 특징을 잘 살려주더라고요.\n제가 한번 \"펑크 록\"과 \"재즈 하우스\"를 입력했는데, 와... 진짜 그 장르의 특성이 잘 살아있었어요! 심지어 \"그레고리안 성가\"까지 도전해봤는데, 마치 중세 수도원에 있는 것 같은 경험이었죠.\n더 신기한 건 장르 조합도 훨씬 잘 작동한다는 거예요. 미드웨스트 이모와 네오소울을 섞거나 EDM과 포크를 조합하면 더 일관되고 창의적인 음악이 만들어집니다. 전에는 뭔가 어색했던 결합들이 이제는 마치 원래부터 존재했던 장르처럼 자연스럽게 들려요.\nStart with Rap , transition to R&B Vocals   for the hook, then switch the beat to a Stereo Bounce and finally into a Soul Sample\n랩으로 시작하여 후크를 위해 R&B 보컬로 전환한 다음 비트를 스테레오 바운스로 전환하고 마지막으로 소울 샘플로 전환합니다.\n \n향상된 보컬 퀄리티  \n보컬은 이제 더 넓은 음역대와 감정적 깊이를 갖추게 되었습니다. 섬세하고 친밀한 퍼포먼스부터 비브라토가 있는 강력한 전달력까지 모든 것을 만들 수 있습니다.\n \n실제로 감정을 담은 가사를 작성하고 그에 맞는 보컬 스타일을 지정하니, 마치 진짜 가수가 부른 것처럼 느껴졌어요. 예전에는 뭔가 기계적인 느낌이 살짝 있었는데, 이제는 진짜 사람이 감정을 담아 부르는 것 같아요. 저는 개인적으로 이 부분이 가장 마음에 들었답니다!\n \n더 복잡한 사운드 구현  \nv4.5는 자연스러운 톤 변화부터 악기 레이어링, 섬세한 사운드 디테일까지 깊이를 더하는 미묘한 음악적 요소를 포착합니다. 예전에는 기본적인 느낌만 전달됐다면, 이제는 섬세한 뉘앙스까지 표현돼요.\n \n\"기분 좋은 노스텔직한 톤\", \"나뭇잎 질감\", \"멜로딕한 휘파람\" 같은 설명이 이제 직접 음악에 반영될 수 있습니다. 제가 \"숲속에서 들리는 새소리와 함께 잔잔한 피아노 멜로디\"라고 입력했더니, 정말 그 분위기가 생생하게 담긴 음악이 만들어졌어요. 마치 제 상상력이 그대로 음악이 된 느낌이었달까요?\n\n\n \n더 똑똑해진 Suno, 더 직관적인 경험  \n더 스마트한 프롬프트 해석 능력\nv4.5는 여러분의 설명을 더 잘 이해하고 번역합니다. 여러분이 지정한 세부 사항, 분위기, 악기를 더 잘 포착합니다. 이제 감정적 뉘앙스와 기술적 음악 요소 모두 노래에 더 잘 반영됩니다.\n \n전에는 \"슬프면서도 희망적인 느낌\"이라고 하면 뭔가 어중간한 결과물이 나왔는데, 이제는 진짜 슬픔에서 시작해 점점 희망적인 분위기로 변해가는 섬세한 감정 전환까지 표현해내요. 진짜 사람이 작곡한 것 같은 느낌이랄까요?\n프롬프트 향상 도우미\nv4.5의 새로운 복잡성을 최대한 활용하기 위해 프롬프트 향상 도우미를 활용해보세요. 여러분의 장르 아이디어가 그대로 사용하거나 원하는 대로 수정할 수 있는 풍부하고 상세한 스타일 설명으로 발전하는 것을 볼 수 있습니다.\n이건 정말 유용한 기능이에요! 제가 \"힙합\"이라고만 입력했을 때, 프롬프트 향상 도우미는 \"90년대 붐뱁 비트와 재즈 샘플이 결합된 올드스쿨 힙합, 유려한 래핑과 소울풀한 후렴구\" 같은 상세한 설명으로 확장해주더라고요. 덕분에 더 정확한 음악을 만들 수 있었답니다.\n \n더 다양한 창작 기능들, 한계는 없다!  \n업그레이드된 커버와 페르소나\n커버와 페르소나가 큰 향상을 받았습니다. 커버곡을 만들면 더 많은 멜로디 디테일을 유지해야 합니다. 장르 전환도 개선되었습니다—좋아하는 록 음악을 하우스 리믹스로 바꾸어 변화를 들어보세요.\n제가 좋아하는 팝송을 재즈 버전으로 커버해봤는데, 원곡의 멜로디는 그대로 유지하면서도 완전히 다른 분위기로 재탄생했어요. 이전에는 원곡의 느낌이 많이 사라졌었는데, 이제는 \"아, 이 노래구나!\" 하고 바로 알아차릴 수 있더라고요.\n커버와 페르소나의 결합\n커버와 페르소나를 함께 사용하여 목소리, 스타일, 구조를 한 번에 리믹스하세요. 함께 사용하면 무한한 창의적 가능성을 열어줍니다.\n이건 정말 혁명적인 기능이에요! 제 취향의 아티스트 목소리로 좋아하는 노래를 부르게 하고, 동시에 장르까지 바꿀 수 있다니... 상상만 해도 설레지 않나요? 저는 팝송을 메탈 버전으로 바꾸고 완전 다른 보컬로 커버해봤는데, 그 결과물이 너무 신선했어요!\n더 빠른 생성 속도와 긴 곡 길이\n생성 속도가 크게 향상되어 실험하고 개선할 시간이 더 많아졌습니다. 이제 기다리는 시간이 훨씬 줄어들어서 창작 과정이 중단되지 않고 아이디어가 떠오르는 대로 바로바로 시도해볼 수 있어요.\n \n그리고 이제 최대 8분 길이의 노래를 만들 수 있으며, 긴 구성에서도 처음부터 끝까지 품질과 일관성을 유지할 수 있습니다. 전에는 긴 곡을 만들면 후반부로 갈수록 퀄리티가 떨어지는 경우가 있었는데, 이제는 8분짜리 대곡도 처음부터 끝까지 완성도 있게 만들 수 있어요!\n개선된 오디오 품질\nv4.5는 더 균형 잡히고 풍부한 믹스를 제공하며, 오디오 열화와 시머 효과를 모두 감소시킵니다. 더 긴 구성에서도 처음부터 끝까지 일관된 사운드 품질을 유지합니다.\n이전 버전에서는 가끔 사운드가 울리거나 지직거리는 현상이 있었는데, v4.5에서는 이런 문제가 확실히 개선되었어요. 마치 프로 스튜디오에서 녹음한 것처럼 깔끔한 사운드를 경험할 수 있었답니다.\n \n\n\n나만의 음악 세계를 열어보세요  \n음악 창작은 더 이상 전문가들만의 영역이 아니에요. Suno v4.5와 함께라면 누구나 자신만의 음악적 상상력을 현실로 만들 수 있어요. 복잡한 장비나 전문 지식 없이도, 그저 여러분의 아이디어를 글로 표현하는 것만으로 멋진 음악이 탄생합니다.\n저는 Suno v4.5를 써보고 정말 놀랐어요. 제 머릿속에서만 울리던 그 멜로디, 제가 느끼던 그 감정들이 실제 음악으로 표현된다는 게 얼마나 신기한지 몰라요. 지금 당장 여러분도 Suno에서 v4.5 노래를 만들어보세요. 더 많은 기능들이 곧 출시될 예정이니 귀 기울여 주세요!\nFAQ\nQ: Suno v4.5는 무료인가요?\nA: 기본 기능은 무료로 사용 가능하지만, 프리미엄 기능을 위한 Pro & Premier 구독 옵션이 있습니다.\nQ: 음악 전문가가 아니어도 사용할 수 있나요?\nA: 네! 음악적 배경 없이도 직관적으로 사용 가능합니다. 원하는 분위기나 장르를 설명하기만 하면 됩니다.\nQ: 만든 음악의 저작권은 누구에게 있나요?\nA: Suno로 만든 음악은 비상업적 용도로 자유롭게 사용 가능합니다. 상업적 이용에 관해서는 Suno의 라이선스 정책을 확인하세요.\nQ: 몇 분 길이의 음악까지 만들 수 있나요?\nA: v4.5에서는 최대 8분 길이의 곡을 만들 수 있습니다.\nQ: 외국어 노래도 만들 수 있나요?\nA: 네, 다양한 언어로 가사를 입력하면 해당 언어로 노래를 만들 수 있습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"Suno v4.5는 무료인가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"기본 기능은 무료로 사용 가능하지만, 프리미엄 기능을 위한 Pro & Premier 구독 옵션이 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"음악 전문가가 아니어도 사용할 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"네! 음악적 배경 없이도 직관적으로 사용 가능합니다. 원하는 분위기나 장르를 설명하기만 하면 됩니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"만든 음악의 저작권은 누구에게 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Suno로 만든 음악은 비상업적 용도로 자유롭게 사용 가능합니다. 상업적 이용에 관해서는 Suno의 라이선스 정책을 확인하세요.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"몇 분 길이의 음악까지 만들 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"v4.5에서는 최대 8분 길이의 곡을 만들 수 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"외국어 노래도 만들 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"네, 다양한 언어로 가사를 입력하면 해당 언어로 노래를 만들 수 있습니다.\"\n    }\n  }]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483577",
+    "pubDate": "Fri, 2 May 2025 09:43:15 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 비디오 및 멀티미디어",
+      "ai 음악 생성",
+      "suno v4.5",
+      "보컬 향상",
+      "음악 창작 도구",
+      "음악 커버",
+      "음악 테크놀로지",
+      "음악 페르소나",
+      "음악 프롬프트",
+      "인공지능 작곡",
+      "장르 믹스업"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "작업 상황 결과",
+    "description": "1. 블록 분해 게임\n\n\n블록 분해 게임을 빨리 올리려고 스토어에 스크린샷을 올릴때\n저의 다른 게임 스샷을 쓴게 있는데\n그게 정책위반으로 걸렸습니다.\n해명 절차에 들어갔지만 이것은 시간이 너무 많이 걸려서 \n앱을 새로 만들어 출시를 눌러놓은 상태입니다.\n \n \n2. 수조관 시계\n\n\n설정 UI 를 추가해서 출시 눌렀습니다.\n유료로 1달러 정도 이며\n유료게임은 어떻게 돌아가는지 확인하고 싶었습니다.\n \n데모 영상: https://www.youtube.com/watch?v=KKUx71DhFAA\n\n\n\n \n \n \n3. 블록 깨기 게임\n공동작업중이라 제가 정보를 올릴순 없고 말로 하자면\n출시하려고 했으나 테스터로 14 일 + 14일 테스트 기간을 채워야합니다.\n\n\n이 작업을 자발 적인 노력으로 끝내려면 상당히 완성도 있는 게임을 만들고\n배포해야 서로 해보겠다고 테스트를 해줄 것입니다.\n여러사람이 지인 찬스로 이 문제를 해결하고 있지만\n내가 좋아하는 게임도 아닌데 게임 테스트를 자발적으로 참여하는 일은 쉽지 않습니다.\n더군다나 완성도도 높지 않은 상황이라\n법인 계정은 이 절차를 거칠 필요가 없고 개인 사업자들은 해야하는 것으로 보입니다.\n제 계정은 오래전에 뚫어놓은거라 이절차가 없군요\n완성도를 높여야할 시간인거 같습니다.\n \n잡다한 추가 작업\n게임들의 홈페이지 작업을 해야합니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1294",
+    "pubDate": "Tue, 29 Apr 2025 18:10:39 +0900",
     "creator": "SIDNFT",
     "categories": [
       "프로그래밍/개발메모",
-      "게임",
-      "아이디어"
+      "1인개발",
+      "요약"
     ]
   }
 ]
