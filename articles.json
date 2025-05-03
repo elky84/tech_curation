@@ -2,49 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "수조관 시계 (관상용) / Unity Play",
-    "description": "거금 80달러를 써서 만든 시계 입니당.\n그냥 관산용\n \n링크: https://play.unity.com/en/user/5ea53514-df56-4e49-9931-a08d1813a7cc\n\n \nSIDNFT on Unity Play\nThe place for aspiring game creators to share their latest Unity creation. Gain inspiration and find thousands of FPS, Karting, 2D Platformer and other creations with Unity. No experience needed, just jump in for the chance to be featured!\nplay.unity.com\n\n \n영상: https://www.youtube.com/watch?v=KKUx71DhFAA",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1293",
-    "pubDate": "Mon, 28 Apr 2025 17:54:12 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "C# - 의존성 주입 방법의 라이프 사이클 AddTransient, AddScoped, AddSingleton",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/NET_20250429/",
-    "pubDate": "Tue, 29 Apr 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "기아플렉스 ev6 48시간 대여 후기.",
-    "description": "기아플렉스로 48시간 대여한 ev6 반납완료. 원래대로라면 내일 오전 10시 반납이지만 더 운행할 일이 없는데 폭탄을 안고 있을 이유가 없다. 작은 상처라도 나면 내가 변상해야 하므로 스트레스 받기 싫어서 조기 반납했다. 차는 좋았다. 예상대로 좋았고 나한테 잘 맞았다. 다만 제주도에서 렌트하는 것과는 달리 100%면책 보험같은게 없는게 큰 문제다. 자기부담금 50만원의 대인/대물 보험만 있고 여기서 사이드미러, 휠, … More 기아플렉스 ev6 48시간 대여 후기.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://megayuchi.com/2025/04/25/%ea%b8%b0%ec%95%84%ed%94%8c%eb%a0%89%ec%8a%a4-ev6-48%ec%8b%9c%ea%b0%84-%eb%8c%80%ec%97%ac-%ed%9b%84%ea%b8%b0/",
-    "pubDate": "Fri, 25 Apr 2025 08:01:24 +0000",
-    "creator": "megayuchi",
-    "categories": [
-      "Pub",
-      "ev6",
-      "렌트카",
-      "기아플렉스"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
     "title": "There’s a Linux File Explorer built into Visual Studio!?!",
     "description": "The Remote File Explorer in Visual Studio provides developers with a convenient way to browse, view, and edit files on remote machines—directly from within the IDE. It’s a powerful tool for managing remote environments without leaving your development workflow. Scott Hanselman published a new YouTube video to his channel, taking us on the journey of […]\nThe post There’s a Linux File Explorer built into Visual Studio!?! appeared first on C++ Team Blog.",
     "reviews": [],
@@ -57,35 +14,112 @@
     ]
   },
   {
-    "id": 5,
+    "id": 2,
     "imageUrl": "",
-    "title": "가정의 달 콘텐츠➀ 함께 살아가기 위해서는 계산이 필요하다",
-    "description": "부부를 위한 콘텐츠 큐레이션",
+    "title": "해외주식 백트래킹 사이트.",
+    "description": "안녕하세요. 최근 주식 백트래킹 사이트를 운영하고 있습니다.\nhttps://deepquant.app\n\n \nDeepQuant - 나만의 전략을 위한 주식 백테스팅\nDeepQuant에서 이동평균선, 볼린저밴드 등 다양한 지표를 활용하여 나만의 주식 투자 전략을 만들고 과거 데이터로 성과를 검증해보세요. 쉽고 빠른 무료 백테스팅을 경험하세요!\ndeepquant.app\n\n아직 제공하고 있는 기능은 많이 없지만, 점차 늘려갈 예정입니다!\n사이트 접속시 노출되는 화면.\n\n\n원하는 해외주식 종목을 선택해서 그동안 생각했던 매수/매도조건을 테스트 해볼 수 있도록 제작 하였습니다.\n저는 이평선과 볼린저밴드를 주로 많이 보는 편인데요. 이를 바탕으로 제작 해보았습니다.\n추후 기능들을 더 넣을 예정입니다.\n트레이딩 안전 설정\n\n\n트레이딩 안전 설정을 사용하시면, 상승채널일때만 매매하는 테스트도 진행해볼 수 있습니다. \n \ni 마크에 마우스 올리면 노출되는 안내문구.\n\n\n기능 이해가 잘 안 되시는 경우에는 i 버튼에 마우스 올리시면 설명이 노출되도록 해두었습니다.\n \n백테스트 결과\n\n\n백테스트 히스토리는 위와 같이 나오는데요. 어떤 전략으로 인하여 매수/매도가 발생했는지 알 수 있게 매매 히스토리를 제공합니다.\n \n어느 기능을 더 추가해야할지 잘 감이 안 옵니다. 행잉맨, 해머, 슈티스타, 반전 해머, 비석형, 드래건플라이, 긴십자형, 상승장악형 등등 다양한 캔들 패턴이 있는데, 이를 어떤 패턴으로 제공하면 좋을지 잘 모르겠습니다. 어떤 패턴들을 잘 보시는지 모르겠습니다. 댓글을 통하여 알려주시면 다음 기능 추가시에 적극 반영하겠습니다.\n이런식으로 알려주시면 더 좋은 참고가 될 거 같습니다.\n상승장악형 - 전 하락캔들이 3%일때, 5%이상 상승장악 캔들이 나오면 매수 ( 혹은 반대의 케이스에 매도 )\n \n감사합니다!\n \n \n서비스를 바탕으로 기능을 정리 해보았습니다. 사용시 참고하시면 될 거 같습니다. 사이트에 기재된 글이기도 합니다.\n1. DeepQuant: 주요 기능 살펴보기\nDeepQuant는 사용자가 코딩 없이 자신만의 주식 투자 전략을 과거 데이터로 검증해볼 수 있는 웹 기반 백테스팅 서비스입니다. 제공된 프론트엔드 코드를 통해 다음과 같은 기능들을 확인할 수 있습니다.\n핵심 기능: 주식 백테스팅\n전략 시뮬레이션: 사용자가 설정한 매수/매도 조건에 따라 특정 주식(티커)의 과거 데이터를 기반으로 가상 투자를 실행하고 그 결과를 확인합니다.\n웹 기반 인터페이스: 별도의 프로그램 설치 없이 웹 브라우저에서 모든 기능을 이용할 수 있습니다.\n백테스팅 설정\n기본 정보 입력:\n\n티커 검색: 분석할 주식의 티커 심볼 또는 회사 이름을 입력하면 관련 주식이 자동으로 추천됩니다\n초기 예수금 설정: 백테스팅을 시작할 가상 투자금을 달러($) 단위로 입력합니다\n조회 기간 설정: 백테스팅을 수행할 시작 년/월과 종료 년/월을 'YYYY.MM' 형식으로 입력하거나 달력 UI를 통해 선택합니다\n\n분봉 매매 옵션: (베타/옵션 기능으로 추정) '분봉으로 매매하기' 체크 시 더 짧은 시간 간격으로 테스트할 수 있으며, 이 경우 조회 기간이 제한될 수 있습니다.\n매수 조건 설정:\n\n상세 조건 추가: '+' 버튼을 눌러 매수 신호를 발생시킬 조건을 동적으로 추가할 수 있습니다\n\n이동평균선(SMA) 우상향: 단기 이동평균선이 장기 이동평균선을 상향 돌파하는 시점을 조건으로 설정합니다 (예: 5일선이 20일선을 돌파)\n볼린저 밴드: 가격이 볼린저 밴드 하단에 근접하거나 특정 %B 값(%B < 임계값) 이하일 때를 조건으로 설정합니다 (기간, 표준편차 배수 K, %B 임계값 설정)\n(준비중) RSI, MACD, 스토캐스틱: 향후 추가될 지표로 UI 상에 표시되어 있습니다\n매수 투자 조건:\n\n투자 단위: 매수 시 투자할 금액을 현재 보유 예수금의 비율(%) 또는 고정 금액(달러)으로 설정할 수 있습니다\n매도 조건 설정:\n\n상세 조건 추가: '+' 버튼으로 매도 신호 조건을 추가합니다\n\n이동평균선(SMA) 우하향: 단기 이동평균선이 장기 이동평균선을 하향 돌파하는 시점을 조건으로 설정합니다\n볼린저 밴드: 가격이 볼린저 밴드 상단에 근접하거나 특정 %B 값(%B > 임계값) 이상일 때를 조건으로 설정합니다\n수익/손실률 기준: 목표 수익률(%) 또는 손절 기준(%)을 설정하여 매도할 수 있습니다. (체크박스로 활성화)\n(준비중) RSI, MACD, 스토캐스틱: 향후 추가될 지표로 UI 상에 표시되어 있습니다\n매도 투자 조건:\n\n매도 단위: 매도 시 매도할 수량을 현재 보유 주식의 비율(%) 또는 고정 수량(주)으로 설정할 수 있습니다.\n트레이딩 안전 설정 (선택 사항):\n\n활성화 토글: 전체 안전 설정을 켜고 끌 수 있는 스위치가 제공됩니다\n세부 규칙:\n\n최소 보유 기간: 매수 후 최소 N일(캔들 수) 동안 매도를 금지합니다 (수익/손실률 기준 제외).\n재진입 쿨다운: 매도 후 최소 N일 동안 재매수를 금지합니다.\n최소 가격 변동: 마지막 매도 가격 대비 N% 이상 가격 변동 시에만 다음 매수가 가능합니다.\n최대 연속 거래: 같은 방향(매수 또는 매도)으로 연속 N회까지만 거래를 허용합니다.\n채널 감지: 특정 조건(기간, 상승 기울기%, 유효성 임계값)을 만족하는 가격 채널 패턴이 감지될 때만 거래를 실행하도록 필터링할 수 있습니다.\n\n이 기능 활성화 시, 설정된 매수/매도 조건 외에 추가적으로 채널 조건을 만족해야 거래가 실행됩니다. (툴팁 설명 참고)\n결과 확인 및 분석\n요약 정보: 백테스팅 실행 시 설정된 티커, 기간, 조건 등 주요 설정값을 요약하여 보여줍니다. 이 영역은 접고 펼 수 있습니다.\n상세 거래 내역:\n\n날짜별 매매 활동(매수, 매도, 보유), 실행 조건, 보유 주식 수, 거래별 수익률(금액 및 %), 예수금 변화, 총 평가금액(예수금+주식 평가액)을 표 형태로 제공합니다\n수익률은 상승 시 빨간색(▲), 하락 시 파란색(▼)으로 시각적으로 구분됩니다.\n로딩 상태 표시: 백테스팅 실행 중에는 로딩 스피너와 함께 '분석 중...' 메시지가 표시됩니다.\n커뮤니티 및 추가 정보\n실시간 백테스팅 현황: 다른 사용자들이 최근 실행한 백테스팅 정보(티커, 수익률 등)를 사이드바에서 실시간으로 확인할 수 있습니다. 상세 전략은 접기/펼치기로 볼 수 있습니다.\nTop 백테스팅 결과: 높은 수익률을 기록한 백테스팅 결과 상위 N개를 사이드바에서 보여줍니다. 상세 전략 확인이 가능합니다.\n서비스 소개 페이지: 서비스 기능, 사용 가이드, 백테스팅 개념, 사용되는 기술적 지표(이동평균선, 볼린저밴드)에 대한 설명을 별도 페이지에서 탭 형식으로 제공합니다.\n게시판:\n\n사용자 간 소통을 위한 게시판 기능을 제공합니다.\n글쓰기: 제목, 닉네임, 비밀번호, 내용(Toast UI 에디터 사용)을 입력하여 게시글을 작성할 수 있습니다. 이미지 첨부(업로드 토큰 필요, 진행률 표시) 기능이 포함된 위지윅/마크다운 에디터를 제공합니다.\n글 목록: 게시글 목록을 제목, 글쓴이(IP 일부 표시), 작성시간, 댓글 수와 함께 보여주며, 공지 기능 및 페이지네이션을 지원합니다.\n글 상세 보기: 게시글 내용, 작성자 정보(닉네임, IP 일부, 작성시간, 고유번호)를 보여주며, 비밀번호를 이용한 게시글 삭제 기능을 제공합니다.\n댓글: 닉네임, 비밀번호, 내용을 입력하여 댓글을 작성하고, 작성된 댓글 목록(작성자, IP 일부, 시간)을 볼 수 있습니다. 비밀번호를 이용한 댓글 삭제 기능을 제공합니다.\n기타\n반응형 디자인: 데스크톱, 태블릿, 모바일 등 다양한 화면 크기에 맞춰 레이아웃이 조절됩니다 (CSS 파일 확인).\n투자 유의사항 안내: 모든 페이지 하단에 백테스팅 결과는 과거 데이터 기반이며 미래 수익을 보장하지 않고, 투자 결정 책임은 사용자에게 있다는 면책 조항이 명시되어 있습니다.\n2. DeepQuant 백테스팅, 이렇게 사용해보세요! (단계별 가이드)\nDeepQuant 서비스를 이용하여 나만의 주식 매매 전략을 백테스팅하는 방법은 다음과 같습니다.\n1단계: 기본 정보 입력\n티커 입력:\n\n'티커' 입력란에 분석하고 싶은 주식의 티커 심볼(예: AAPL) 또는 회사 이름을 입력 시작합니다.\n입력과 동시에 관련 주식 목록이 자동으로 나타나면, 원하는 주식을 클릭하여 선택합니다.\n예수금 입력:\n\n'예수금' 입력란에 백테스팅을 시작할 초기 가상 투자금을 달러($) 단위 숫자로 입력합니다. (예: 10000)\n2단계: 매수 조건 설정\n매수 상세 조건 추가:\n\n'매수상세조건' 섹션에서 [+ 조건 추가] 버튼을 클릭합니다.\n나타나는 드롭다운 메뉴에서 원하는 매수 조건(예: '이평선 우상향', '볼린저 밴드')을 선택합니다.\n선택한 조건에 필요한 파라미터 값을 입력합니다.\n\n이평선 우상향: 단기 N일선 값과 장기 M일선 값을 입력합니다. (예: 5, 20)\n볼린저 밴드: 기간(예: 20), 표준편차 배수 K(예: 2.0), 매수할 %B 임계값(예: 0.2)을 입력합니다.\n필요한 만큼 조건을 더 추가할 수 있습니다.\n매수 투자 조건 설정:\n\n'매수투자조건' 섹션에서 매수 시 투자할 금액 또는 비율을 입력합니다.\n숫자 입력 후, 옆의 단위 토글 버튼을 클릭하여 '%'(예수금 비율) 또는 '달러'(고정 금액)를 선택합니다.\n3단계: 매도 조건 설정\n매도 상세 조건 추가:\n\n'매도상세조건' 섹션에서 [+ 조건 추가] 버튼을 클릭합니다.\n드롭다운 메뉴에서 원하는 매도 조건(예: '이평선 우하향', '볼린저 밴드', '수익/손실률 기준')을 선택합니다.\n선택한 조건에 필요한 파라미터 값을 입력합니다.\n\n이평선 우하향: 단기 N일선 값과 장기 M일선 값을 입력합니다.\n볼린저 밴드: 기간, K값, 매도할 %B 임계값(예: 0.8)을 입력합니다.\n수익/손실률 기준: 해당 조건을 추가하면 '목표 수익률'과 '손절 기준' 입력란이 나타납니다. 사용하려는 항목 앞의 체크박스를 선택하고 원하는 비율(%)을 입력합니다. (둘 중 하나 또는 둘 다 활성화 가능)\n필요한 만큼 조건을 더 추가할 수 있습니다. ('수익/손실률 기준'은 하나만 추가 가능)\n매도 투자 조건 설정:\n\n'매도투자조건' 섹션에서 매도 시 매도할 수량 또는 비율을 입력합니다.\n숫자 입력 후, 옆의 단위 토글 버튼을 클릭하여 '%'(보유량 비율) 또는 '주'(고정 수량)를 선택합니다.\n4단계: 트레이딩 안전 설정 (선택 사항)\n안전 설정 활성화:\n\n'트레이딩 안전 설정' 섹션 우측의 토글 스위치를 클릭하여 기능을 활성화합니다.\n세부 규칙 설정:\n\n사용하려는 안전 규칙 앞의 체크박스를 선택합니다.\n선택된 규칙에 필요한 숫자 값을 입력합니다 (예: 최소 보유 기간 '5'일, 재진입 쿨다운 '3'일 등).\n채널 감지를 활성화하면, 추가적으로 '감지 기간', '상승 기울기', '유효성 임계값'을 설정하는 입력란이 나타납니다. 필요한 값을 입력합니다.\n5단계: 조회 기간 설정 및 실행\n조회 기간 입력:\n\n'조회기간' 섹션에서 백테스팅을 시작할 년/월과 종료할 년/월을 'YYYY.MM' 형식으로 직접 입력하거나, 입력란 옆의 달력 아이콘( )을 클릭하여 원하는 년도와 월을 선택합니다.\n주의: 시작 날짜는 종료 날짜보다 반드시 이전이어야 합니다.\n(선택) 분봉 매매: '분봉으로 매매하기' 체크박스를 선택하면 분 단위 데이터로 테스트합니다. 이 경우 조회 기간이 자동으로 조절될 수 있습니다.\n결과 보기:\n\n모든 설정이 완료되면 [결과 보기] 버튼을 클릭합니다. 버튼이 '분석 중...'으로 바뀌며 로딩 스피너가 나타납니다.\n6단계: 결과 해석\n요약 정보 확인:\n\n결과 영역 상단에 설정했던 티커, 기간, 주요 조건들이 요약되어 표시됩니다. '상세조건' 부분을 클릭하여 접거나 펼 수 있습니다.\n상세 거래 내역 확인:\n\n'결과' 섹션에 상세한 거래 내역이 표 형태로 나타납니다.\n날짜: 거래 발생 시점\n매매: 매수 / 매도 / 보유 상태\n조건: 해당 거래를 발생시킨 조건\n소유 주식 수: 해당 시점 보유 주식 수\n수익률: 해당 거래로 인한 수익/손실 금액\n수익률(%): 해당 거래로 인한 수익/손실률 (%)\n예수금: 해당 시점 보유 현금\n총 평가금액: 보유 현금과 보유 주식의 평가 가치를 합한 총 자산. 이 값의 추세가 전략의 전반적인 성과를 나타냅니다.\n표를 통해 전략의 진입/청산 시점, 수익/손실 발생 패턴 등을 분석할 수 있습니다.\n추가 팁\n초기화: 설정값을 모두 지우고 처음부터 다시 시작하려면 [초기화] 버튼을 사용하세요.\n다른 사용자 결과 참고: 메인 페이지 우측의 '실시간 백테스팅 현황'과 'Top 백테스팅 결과'를 참고하여 다른 사용자들은 어떤 전략을 테스트하는지 살펴보세요. 클릭하면 상세 조건을 확인할 수 있습니다.\n지표/용어 이해: '서비스 소개' 페이지의 '백테스팅이란?', '지표 설명' 탭에서 관련 용어와 기술적 지표(이동평균선, 볼린저밴드)에 대한 설명을 참고하면 전략 수립에 도움이 됩니다.\n커뮤니티 활용: 궁금한 점이나 전략 아이디어는 '게시판'을 통해 다른 사용자들과 공유하고 토론해 보세요.\n주의: DeepQuant는 정보 제공 및 교육 목적으로 제공되며, 백테스팅 결과는 과거 데이터에 기반한 시뮬레이션으로 미래 수익을 보장하지 않습니다. 모든 투자 결정의 책임은 사용자 본인에게 있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/2025may-curation",
-    "pubDate": "Mon, 28 Apr 2025 00:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://kwongyo.tistory.com/46",
+    "pubDate": "Fri, 2 May 2025 01:04:21 +0900",
+    "creator": "KwonGyo",
+    "categories": [
+      "주식백테스트",
+      "주식시뮬레이션",
+      "주식테스트",
+      "해외주식",
+      "해외주식백테스트",
+      "해외주식백트래킹"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Google Play 서명키를 잃어버려서 교채해 봤습니다.",
+    "description": "이게 되나 싶어서 안쓰는 프로젝트도 있고 하니 진행해봤습니다.\n\n\n메뉴위치는 앱선택 -> 테스트 및 출시 -> 설정 -> 앱 서명 -> 업로드키 재설 정 요청\n\n\n누릅니다.\n \n \n \nkeystore -> pem 파일 얻기\n영상: https://www.youtube.com/watch?v=1zDpt341R7s\n\n\n\nkeystore 가 버전업이 된거 같아서 인터넷에 떠도는 명령어로는 pem 파일을 얻을 수 없었습니다.\n영상에 보시면 keystore explorer 라는 프로그램을 사용하라길레\n안전이 좀 걱정되서 집에 잘 안쓴느 저사양 컴퓨터에 설치해서 실행해봤습니다.\n1. 설치하고\n2. 실행하고\n3. keystore 파일 드롭 하고\n4. 화면에보이는 keystore 를 더블 클릭하고\n5. 하단에 PEM 이라는 버튼을 눌러 pem 파일을 얻었습니다.\n \n \n \npem 올리는 곳에 업로드 합니다.\n\n\n우측 하단에  요청 버튼이 있습니다.\n\n\n요청해봤습니다. 어떻게 되려나\n \n\n\n다시와서 보니 진행중이라고 나오네요\n(기다리는 중)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1295",
+    "pubDate": "Tue, 29 Apr 2025 22:03:11 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "앱서명",
+      "플레이스토어"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Streamline Database Management With WebStorm’s Database Tool",
+    "description": "Here’s something that might surprise you: if you’re using WebStorm, you already have access to a professional-grade database IDE. That’s right, the full-featured DataGrip database toolset isn’t just a separate product or an additional paid plugin anymore; it’s bundled into WebStorm. Even if you’re comfortable with other IDEs and their database extensions, you might find […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/webstorm/2025/05/streamline-database-management-with-webstorm-s-database-tool/",
+    "pubDate": "Thu, 01 May 2025 14:00:00 +0000",
+    "creator": "Jan-Niklas Wortmann",
+    "categories": [
+      "tips-tricks",
+      "database-support",
+      "webstorm"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "What’s New in vcpkg (April 2025)",
+    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.04.09 registry release, 2025-03-22, 2025-04-01, and 2025-04-07 tool releases, as well as changes to vcpkg documentation throughout April. This release contains bug fixes, a new documentation article on offline usage of vcpkg, and other minor improvements. Arm64 Linux users of vcpkg […]\nThe post What’s New in vcpkg (April 2025) appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-april-2025/",
+    "pubDate": "Fri, 02 May 2025 21:44:09 +0000",
+    "creator": "Augustin Popa",
+    "categories": [
+      "C++",
+      "Vcpkg",
+      "vcpkg"
+    ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Taking the plunge: Why Meta is laying the world’s longest subsea cable",
-    "description": "Meta develops infrastructure all across the globe to transport information and content for the billions of people using our services around the world. At the core of this infrastructure are aggregation points – like data centers – and the digital cables that connect them. Subsea cables – the unseen digital highways of the internet – [...]\nRead More...\nThe post Taking the plunge: Why Meta is laying the world’s longest subsea cable appeared first on Engineering at Meta.",
+    "title": "2025 활기찬 노후를 위한 중장년 시니어 정책 총정리: 중장년경력지원제부터 치매안심센터까지",
+    "description": "대표적인 중중년 시니어 정책 모아보기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/05/01/connectivity/taking-the-plunge-why-meta-is-laying-the-worlds-longest-subsea-cable/",
-    "pubDate": "Thu, 01 May 2025 18:48:02 +0000",
+    "link": "https://blog.toss.im/article/money-policies-41",
+    "pubDate": "Fri, 02 May 2025 01:02:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "Connectivity",
-      "Networking & Traffic",
-      "Meta Tech Podcast"
-    ]
+    "categories": []
   },
   {
     "id": 7,
+    "imageUrl": "",
+    "title": "(만드는중) Admob 유럽 규정 메시지 만들기",
+    "description": "유럽은 무슨 규정이 있나봅니다. 광고 표시 매시지를 만들라고 하네요\n \n\n\n \n\n\n진행해봐야겠습니다.\n들어가서 봤는데 별게 없었습니다.\n이미 메시지가 있고 그 글자를 바꿀 수 있는 정도 였습니다.\n만들어진 메시지는 [옵션 관리] 와 [동의] 였습니다.\n그냥 광고 붙이면 될꺼 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1298",
+    "pubDate": "Thu, 1 May 2025 10:26:11 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "토스, 서울시 밈센터·프리웨일과 경계선지능청년 금융 교육 진행",
+    "description": "4월부터 6개월간 ‘토스의 찾아가는 경제 교육’ 진행",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/edu_",
+    "pubDate": "Tue, 29 Apr 2025 00:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "Jens Oliver Meiert: How WebStorm and AI Assistant Fit Right Into My Workflow",
     "description": "For more than two decades, Jens Oliver Meiert has been at the forefront of web development, working with industry giants like Google and Miro, as well as leading engineering teams across various companies. With extensive experience in frontend development, he has witnessed firsthand how tools and workflows have evolved over time. In this interview, Jens […]",
@@ -96,146 +130,98 @@
     "creator": "Aleksandra Aganezova",
     "categories": [
       "interviews",
+      "ai",
       "ai-in-ides"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "토스뱅크가 ‘쉬운 근로계약서’에 주목하는 이유",
-    "description": "“일하는 누구나, 안전하게” - 토스뱅크가 바꿔나가는 계약 문화",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/tossbank-contract",
-    "pubDate": "Mon, 28 Apr 2025 02:57:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "The First Set of Bug Fixes for ReSharper and Rider 2025.1 Is Here!",
-    "description": "Hello everyone, The ReSharper and Rider 2025.1.1 bug-fix updates have just been released! If you haven’t upgraded to the 2025.1 versions of our products, we highly recommend that you check out these two blog posts: And now, let’s go over the most important fixes in 2025.1.1. ReSharper 2025.1.1  The first bug-fix update fixes the issue […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/04/29/2025-1-1-hot-fix/",
-    "pubDate": "Tue, 29 Apr 2025 06:53:33 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "bugfix",
-      "news",
-      "releases",
-      "resharper",
-      "rider"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "파운데이션 모델이란?",
-    "description": "파운데이션 모델은 방대한 양의 일반 데이터로 학습된 강력한 인공 지능(AI)의 유형으로, 광범위한 작업을 처리할 수 있습니다. OpenAI의 GPT(Generative Pre-trained Transformer) 시리즈나 Google의 BERT (Bidirectional Encoder Representations from Transformers)와 같은 파운데이션 모델은 인터넷의 다양한 소스에서 일반적인 언어 패턴과 지식을 수집하도록 설계되었습니다. 그런 다음 이러한 모델을 소규모의 작업별 데이터 세트에 맞게 파인튜닝하여 텍스트 분류, 요약, 번역, 질문 […]",
+    "title": "Qodana 2025.1 Release",
+    "description": "As we continue improving Qodana, we’re excited to introduce a set of powerful updates that enhance performance, improve security analysis, and offer better integration opportunities for you and your team. Let’s take a look at some of the most exciting changes with the Qodana 2025.1 release! Try Qodana OWASP Top 10: covering even more categories […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://ppss.kr/archives/269222",
-    "pubDate": "Wed, 30 Apr 2025 03:32:08 +0000",
-    "creator": "박명근",
+    "link": "https://blog.jetbrains.com/qodana/2025/05/qodana-2025-1-release/",
+    "pubDate": "Fri, 02 May 2025 12:47:29 +0000",
+    "creator": "Kerry Beetge",
     "categories": [
-      "IT",
-      "개발"
+      "releases",
+      "azure-integrations",
+      "eap",
+      "github-integrations",
+      "k2-mode",
+      "qodana",
+      "release"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "스토커와 같이 집착해라",
-    "description": "공식 라이선스 스포츠용품을 판매하는 Fanatics라는 미국 회사가 있다. 한국에서는 잘 알려지지 않았지만, 미국인이라면 Fanatics 사이트 또는 이 회사가 운영하는 수많은 이커머스 플랫폼에서 뭐라도 한 번은 사 봤을 것이다. 미국 모든 대학교의 공식 라이선스 제품을 판매하고 있고, NBA, NFL, MLB 등 프로 스포츠 공식 라이선스 제품도 다 판매하는, 기업가치 약 40조 원의 거대한 이커머스 회사이다. 나도(...)",
+    "title": "가정의 달 콘텐츠 ➁ 혼자여도, 여럿이어도. 모든 가족에게 필요한 살림의 셈법",
+    "description": "다양한 경제공동체를 위한 콘텐츠 큐레이션",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/04/be-obsessed-like-a-stalker-on-your-product-and-customers.html",
-    "pubDate": "Sun, 27 Apr 2025 21:36:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "competition",
-      "FoundersAtWork",
-      "hustle",
-      "product",
-      "스타트업 바이블 QA"
-    ]
+    "link": "https://blog.toss.im/article/2025may-curation2",
+    "pubDate": "Tue, 29 Apr 2025 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths",
-    "description": "The 1.25 release of the C++ extension in Visual Studio Code introduces a new way to understand your code faster with GitHub Copilot-powered symbol summaries, as well as new customization options for recursive #include path processing. With these enhancements, you gain AI-powered insights into unfamiliar or undocumented code and can optimize IntelliSense performance based on […]\nThe post VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths appeared first on C++ Team Blog.",
+    "title": "토끼 마을을 구해라! 로그라이트 액션 '세피리아'",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/vs-code-c-extension-1-25-release-explain-c-symbols-using-copilot-customize-recursive-include-paths/",
-    "pubDate": "Wed, 30 Apr 2025 23:31:17 +0000",
-    "creator": "Alexandra Kemper, Sinem Akinci",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2300",
+    "pubDate": "Sat, 26 Apr 2025 16:16:03 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "C++",
-      "Copilot",
-      "performance",
-      "Visual Studio Code"
+      "게임툰"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "How to Use Kotlin Notebooks for Productive Development ",
-    "description": "Kotlin Notebook is a new interactive environment for JVM developers. This article will cover the main Notebook features and how you can utilize them to improve your productivity.  How to use Kotlin Notebook Kotlin Notebook is bundled with IntelliJ IDEA starting from the 2025.1 release, and it is easier than ever to start working with […]",
+    "title": "신용산역에서 바라본 남산타워",
+    "description": "남산타워라고 하면 너무 아재같나",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/how-to-use-kotlin-notebooks-for-productive-development/",
-    "pubDate": "Mon, 28 Apr 2025 15:02:45 +0000",
-    "creator": "Ilya Muradyan",
+    "link": "https://hodolman.tistory.com/72",
+    "pubDate": "Thu, 1 May 2025 20:06:21 +0900",
+    "creator": "호돌맨",
     "categories": [
-      "kotlin",
-      "tutorials",
-      "intellij-idea",
-      "kotlin-notebook"
+      "사진",
+      "남산타워",
+      "신용산",
+      "용산"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Suno v4.5 주요 업데이트 소개, 프로급 음악 제작이 더 쉬워졌다!",
-    "description": "음악 창작의 새 역사를 쓰는 Suno v4.5가 드디어 공개됐어요! 더 풍부한 장르, 감성적인 보컬, 복잡한 사운드까지... 여러분의 음악적 상상력이 현실이 되는 마법 같은 경험을 함께 해볼까요?\n\n\n \n여러분, 혹시 머릿속에서 맴도는 멜로디가 있으신가요? 어떤 특별한 순간에 떠오르는 그 음악, 그냥 흘려보내기 아쉽지 않으셨어요? 저도 그랬어요. 음악을 전공하지 않았지만 항상 제 감정을 표현할 수 있는 노래를 만들고 싶었거든요.\n솔직히 말해서, 음악 제작은 전문가들의 영역이라고만 생각했어요. 작곡, 편곡, 믹싱... 이런 단어들만 들어도 진입장벽이 느껴지잖아요. 그런데 Suno의 새로운 v4.5 모델을 경험하고 나서 제 생각이 완전히 바뀌었어요. 진짜로요!  \n \nSuno v4.5, 무엇이 달라졌을까? ✨\nSuno v4.5는 이전 버전에서 한 단계 더 진화했어요. 제가 직접 사용해본 결과, 몇 가지 놀라운 변화를 발견했답니다.\n확장된 장르와 장르 믹스업  \n장르 옵션이 크게 확장되었고, v4.5는 이전보다 장르를 더 정확하게 따라갑니다. 예전에는 'EDM'이라고 하면 뭔가 비슷비슷한 느낌이었는데, 이제는 확실히 다양한 EDM 하위 장르의 특징을 잘 살려주더라고요.\n제가 한번 \"펑크 록\"과 \"재즈 하우스\"를 입력했는데, 와... 진짜 그 장르의 특성이 잘 살아있었어요! 심지어 \"그레고리안 성가\"까지 도전해봤는데, 마치 중세 수도원에 있는 것 같은 경험이었죠.\n더 신기한 건 장르 조합도 훨씬 잘 작동한다는 거예요. 미드웨스트 이모와 네오소울을 섞거나 EDM과 포크를 조합하면 더 일관되고 창의적인 음악이 만들어집니다. 전에는 뭔가 어색했던 결합들이 이제는 마치 원래부터 존재했던 장르처럼 자연스럽게 들려요.\nStart with Rap , transition to R&B Vocals   for the hook, then switch the beat to a Stereo Bounce and finally into a Soul Sample\n랩으로 시작하여 후크를 위해 R&B 보컬로 전환한 다음 비트를 스테레오 바운스로 전환하고 마지막으로 소울 샘플로 전환합니다.\n \n향상된 보컬 퀄리티  \n보컬은 이제 더 넓은 음역대와 감정적 깊이를 갖추게 되었습니다. 섬세하고 친밀한 퍼포먼스부터 비브라토가 있는 강력한 전달력까지 모든 것을 만들 수 있습니다.\n \n실제로 감정을 담은 가사를 작성하고 그에 맞는 보컬 스타일을 지정하니, 마치 진짜 가수가 부른 것처럼 느껴졌어요. 예전에는 뭔가 기계적인 느낌이 살짝 있었는데, 이제는 진짜 사람이 감정을 담아 부르는 것 같아요. 저는 개인적으로 이 부분이 가장 마음에 들었답니다!\n \n더 복잡한 사운드 구현  \nv4.5는 자연스러운 톤 변화부터 악기 레이어링, 섬세한 사운드 디테일까지 깊이를 더하는 미묘한 음악적 요소를 포착합니다. 예전에는 기본적인 느낌만 전달됐다면, 이제는 섬세한 뉘앙스까지 표현돼요.\n \n\"기분 좋은 노스텔직한 톤\", \"나뭇잎 질감\", \"멜로딕한 휘파람\" 같은 설명이 이제 직접 음악에 반영될 수 있습니다. 제가 \"숲속에서 들리는 새소리와 함께 잔잔한 피아노 멜로디\"라고 입력했더니, 정말 그 분위기가 생생하게 담긴 음악이 만들어졌어요. 마치 제 상상력이 그대로 음악이 된 느낌이었달까요?\n\n\n \n더 똑똑해진 Suno, 더 직관적인 경험  \n더 스마트한 프롬프트 해석 능력\nv4.5는 여러분의 설명을 더 잘 이해하고 번역합니다. 여러분이 지정한 세부 사항, 분위기, 악기를 더 잘 포착합니다. 이제 감정적 뉘앙스와 기술적 음악 요소 모두 노래에 더 잘 반영됩니다.\n \n전에는 \"슬프면서도 희망적인 느낌\"이라고 하면 뭔가 어중간한 결과물이 나왔는데, 이제는 진짜 슬픔에서 시작해 점점 희망적인 분위기로 변해가는 섬세한 감정 전환까지 표현해내요. 진짜 사람이 작곡한 것 같은 느낌이랄까요?\n프롬프트 향상 도우미\nv4.5의 새로운 복잡성을 최대한 활용하기 위해 프롬프트 향상 도우미를 활용해보세요. 여러분의 장르 아이디어가 그대로 사용하거나 원하는 대로 수정할 수 있는 풍부하고 상세한 스타일 설명으로 발전하는 것을 볼 수 있습니다.\n이건 정말 유용한 기능이에요! 제가 \"힙합\"이라고만 입력했을 때, 프롬프트 향상 도우미는 \"90년대 붐뱁 비트와 재즈 샘플이 결합된 올드스쿨 힙합, 유려한 래핑과 소울풀한 후렴구\" 같은 상세한 설명으로 확장해주더라고요. 덕분에 더 정확한 음악을 만들 수 있었답니다.\n \n더 다양한 창작 기능들, 한계는 없다!  \n업그레이드된 커버와 페르소나\n커버와 페르소나가 큰 향상을 받았습니다. 커버곡을 만들면 더 많은 멜로디 디테일을 유지해야 합니다. 장르 전환도 개선되었습니다—좋아하는 록 음악을 하우스 리믹스로 바꾸어 변화를 들어보세요.\n제가 좋아하는 팝송을 재즈 버전으로 커버해봤는데, 원곡의 멜로디는 그대로 유지하면서도 완전히 다른 분위기로 재탄생했어요. 이전에는 원곡의 느낌이 많이 사라졌었는데, 이제는 \"아, 이 노래구나!\" 하고 바로 알아차릴 수 있더라고요.\n커버와 페르소나의 결합\n커버와 페르소나를 함께 사용하여 목소리, 스타일, 구조를 한 번에 리믹스하세요. 함께 사용하면 무한한 창의적 가능성을 열어줍니다.\n이건 정말 혁명적인 기능이에요! 제 취향의 아티스트 목소리로 좋아하는 노래를 부르게 하고, 동시에 장르까지 바꿀 수 있다니... 상상만 해도 설레지 않나요? 저는 팝송을 메탈 버전으로 바꾸고 완전 다른 보컬로 커버해봤는데, 그 결과물이 너무 신선했어요!\n더 빠른 생성 속도와 긴 곡 길이\n생성 속도가 크게 향상되어 실험하고 개선할 시간이 더 많아졌습니다. 이제 기다리는 시간이 훨씬 줄어들어서 창작 과정이 중단되지 않고 아이디어가 떠오르는 대로 바로바로 시도해볼 수 있어요.\n \n그리고 이제 최대 8분 길이의 노래를 만들 수 있으며, 긴 구성에서도 처음부터 끝까지 품질과 일관성을 유지할 수 있습니다. 전에는 긴 곡을 만들면 후반부로 갈수록 퀄리티가 떨어지는 경우가 있었는데, 이제는 8분짜리 대곡도 처음부터 끝까지 완성도 있게 만들 수 있어요!\n개선된 오디오 품질\nv4.5는 더 균형 잡히고 풍부한 믹스를 제공하며, 오디오 열화와 시머 효과를 모두 감소시킵니다. 더 긴 구성에서도 처음부터 끝까지 일관된 사운드 품질을 유지합니다.\n이전 버전에서는 가끔 사운드가 울리거나 지직거리는 현상이 있었는데, v4.5에서는 이런 문제가 확실히 개선되었어요. 마치 프로 스튜디오에서 녹음한 것처럼 깔끔한 사운드를 경험할 수 있었답니다.\n \n\n\n나만의 음악 세계를 열어보세요  \n음악 창작은 더 이상 전문가들만의 영역이 아니에요. Suno v4.5와 함께라면 누구나 자신만의 음악적 상상력을 현실로 만들 수 있어요. 복잡한 장비나 전문 지식 없이도, 그저 여러분의 아이디어를 글로 표현하는 것만으로 멋진 음악이 탄생합니다.\n저는 Suno v4.5를 써보고 정말 놀랐어요. 제 머릿속에서만 울리던 그 멜로디, 제가 느끼던 그 감정들이 실제 음악으로 표현된다는 게 얼마나 신기한지 몰라요. 지금 당장 여러분도 Suno에서 v4.5 노래를 만들어보세요. 더 많은 기능들이 곧 출시될 예정이니 귀 기울여 주세요!\nFAQ\nQ: Suno v4.5는 무료인가요?\nA: 기본 기능은 무료로 사용 가능하지만, 프리미엄 기능을 위한 Pro & Premier 구독 옵션이 있습니다.\nQ: 음악 전문가가 아니어도 사용할 수 있나요?\nA: 네! 음악적 배경 없이도 직관적으로 사용 가능합니다. 원하는 분위기나 장르를 설명하기만 하면 됩니다.\nQ: 만든 음악의 저작권은 누구에게 있나요?\nA: Suno로 만든 음악은 비상업적 용도로 자유롭게 사용 가능합니다. 상업적 이용에 관해서는 Suno의 라이선스 정책을 확인하세요.\nQ: 몇 분 길이의 음악까지 만들 수 있나요?\nA: v4.5에서는 최대 8분 길이의 곡을 만들 수 있습니다.\nQ: 외국어 노래도 만들 수 있나요?\nA: 네, 다양한 언어로 가사를 입력하면 해당 언어로 노래를 만들 수 있습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"Suno v4.5는 무료인가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"기본 기능은 무료로 사용 가능하지만, 프리미엄 기능을 위한 Pro & Premier 구독 옵션이 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"음악 전문가가 아니어도 사용할 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"네! 음악적 배경 없이도 직관적으로 사용 가능합니다. 원하는 분위기나 장르를 설명하기만 하면 됩니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"만든 음악의 저작권은 누구에게 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Suno로 만든 음악은 비상업적 용도로 자유롭게 사용 가능합니다. 상업적 이용에 관해서는 Suno의 라이선스 정책을 확인하세요.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"몇 분 길이의 음악까지 만들 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"v4.5에서는 최대 8분 길이의 곡을 만들 수 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"외국어 노래도 만들 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"네, 다양한 언어로 가사를 입력하면 해당 언어로 노래를 만들 수 있습니다.\"\n    }\n  }]\n}",
+    "title": "프로파일러의 외부 코드 디컴파일로 숨겨진 인사이트 발견하기",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483577",
-    "pubDate": "Fri, 2 May 2025 09:43:15 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 비디오 및 멀티미디어",
-      "ai 음악 생성",
-      "suno v4.5",
-      "보컬 향상",
-      "음악 창작 도구",
-      "음악 커버",
-      "음악 테크놀로지",
-      "음악 페르소나",
-      "음악 프롬프트",
-      "인공지능 작곡",
-      "장르 믹스업"
-    ]
+    "link": "https://jacking75.github.io/VS_20250427/",
+    "pubDate": "Sun, 27 Apr 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "작업 상황 결과",
-    "description": "1. 블록 분해 게임\n\n\n블록 분해 게임을 빨리 올리려고 스토어에 스크린샷을 올릴때\n저의 다른 게임 스샷을 쓴게 있는데\n그게 정책위반으로 걸렸습니다.\n해명 절차에 들어갔지만 이것은 시간이 너무 많이 걸려서 \n앱을 새로 만들어 출시를 눌러놓은 상태입니다.\n \n \n2. 수조관 시계\n\n\n설정 UI 를 추가해서 출시 눌렀습니다.\n유료로 1달러 정도 이며\n유료게임은 어떻게 돌아가는지 확인하고 싶었습니다.\n \n데모 영상: https://www.youtube.com/watch?v=KKUx71DhFAA\n\n\n\n \n \n \n3. 블록 깨기 게임\n공동작업중이라 제가 정보를 올릴순 없고 말로 하자면\n출시하려고 했으나 테스터로 14 일 + 14일 테스트 기간을 채워야합니다.\n\n\n이 작업을 자발 적인 노력으로 끝내려면 상당히 완성도 있는 게임을 만들고\n배포해야 서로 해보겠다고 테스트를 해줄 것입니다.\n여러사람이 지인 찬스로 이 문제를 해결하고 있지만\n내가 좋아하는 게임도 아닌데 게임 테스트를 자발적으로 참여하는 일은 쉽지 않습니다.\n더군다나 완성도도 높지 않은 상황이라\n법인 계정은 이 절차를 거칠 필요가 없고 개인 사업자들은 해야하는 것으로 보입니다.\n제 계정은 오래전에 뚫어놓은거라 이절차가 없군요\n완성도를 높여야할 시간인거 같습니다.\n \n잡다한 추가 작업\n게임들의 홈페이지 작업을 해야합니다.",
+    "title": "JetBrains AI Assistant: Smarter, More Capable, and a New Free Tier",
+    "description": "This release introduces major enhancements to boost productivity and reduce repetitive work. Updates include smarter code completion, support for new cloud models like OpenAI GPT-4.1, Claude 3.7 Sonnet, and Gemini 2.5 Pro, advanced RAG-based context awareness, and a new edit mode for multi-file edits directly from the chat. Plus, our revamped subscription model includes both […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1294",
-    "pubDate": "Tue, 29 Apr 2025 18:10:39 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/ai/2025/04/jetbrains-ai-assistant-2025-1/",
+    "pubDate": "Mon, 28 Apr 2025 15:45:42 +0000",
+    "creator": "Anna Maltseva",
     "categories": [
-      "프로그래밍/개발메모",
-      "1인개발",
-      "요약"
+      "ai-assistant",
+      "ai-in-ides"
     ]
   }
 ]
