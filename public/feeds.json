@@ -411,6 +411,22 @@
     "posts": [
       {
         "creator": "charsyam",
+        "title": "Redis 와 Valkey 무엇을 선택해야 할까?",
+        "link": "https://charsyam.wordpress.com/2025/05/03/redis-%ec%99%80-valkey-%eb%ac%b4%ec%97%87%ec%9d%84-%ec%84%a0%ed%83%9d%ed%95%b4%ec%95%bc-%ed%95%a0%ea%b9%8c/",
+        "pubDate": "Sat, 03 May 2025 08:16:52 +0000",
+        "content:encodedSnippet": "2024년에 Redis 7.2.4 부터 라이센스 이슈로 Valkey 가 fork 되면서 많은 사람들이 Redis와 Valkey 중에 무엇을 사용해야 하는가? 그럼 어떤 차이가 있는지에 대한 질문이 꽤 많습니다. 그래서 거기에 대한 간단한 의견(답정너) 를 소개하려고 합니다.\n 일반적으로 클라우드 기반에서 사용하던 분들 특히 AWS의 ElastiCache 를 쓰는 분들은 그냥 Redis 쓰는 것보다 Valkey로 가셔도 전혀 문제가 없습니다.(비용이 더 싸진다는 장점만 있다고 보시면 됩니다.) 왜냐하면 클라우드에서 쓸 수 있는 Redis 버전은 기본적으로 7.2.4 의 이전 버전들이라, 그 시점은 Valkey가 Fork 되면서 그대로 이전했기 때문입니다. 즉, 기존 Redis 를 제공하는 클라우드의 내부 버전이 다르더라도 그냥 제품명만 Redis -> Valkey로 바꿔서 그대로 제공이 됩니다. 그냥 바꾸면 변경이 되는 수준입니다.\n 그럼, 실제로 문제가 되는 것은 어떤 상황일까요? 현재 우리가 Redis를 자체적으로 운영하고 있는데, Valkey로 바꾸어야 되는가 입니다. 이 이야기를 하기 전에 Redis와 Valkey가 이제 차이가 나는가? 라는 주제 부터 얘기를 해야 합니다. Redis 8과 Valkey 8이 2025년에 나오면서 조금씩 큰 차이가 벌어지고 있습니다. \n Redis Module 이야 대부분이 원래 RSAL 라이센스라, 클라우드에서 제공이 안되었지만, Redis 는 사용자의 편의성 기능과 AI쪽에 좀 더 집중하고 있는 모습입니다. \n Redis는 7 버전 이후에 Hash 에 서브 Key를 Expire 하는 기능이 들어갔지만, Valkey에는 들어가지 않았습니다.(포크가 되는 시점에, 개발되고 있다가, 포크되고 반영된…) Redis 8에는 VectorSet 이나 AutoComplete 등 AI 지원 기능이나 편의성 기능이 이번에 많이 추가 되었습니다.(내부적으로 콜렉션등에 성능개선도 있었다고…)\n Valkey 는 8 버전부터, CPU Cache Line을 맞추거나, 포인터 접근 횟수를 줄여서, 좀더 메모리를 아끼거나, 성능을 높이는 쪽으로 가고 있습니다. 그래서 8부터는 명령이나 이런 부분에서 어느정도 차이가 나고 있습니다.(다만 아직 기본 명령 보다는, 모듈쪽에서 차이가 나는거 같습니다.)\n 그럼 발전성은 어떨까요? Redis 8이 AGPLv3가 추가되면서 기업에서 뭔가 사용하기가 어려워졌지만, 여전히 Redis(회사) 가 많은 지원을 하고 있고, 가장 많은 컨트리뷰션을 하고 있습니다. 반대로 Valkey는 리눅스 파운데이션과 AWS, 알리바바 등 지원이 있지만, Redis 보다는 조금 덜 활성화 된걸로 보입니다.\n 결국 선택의 우리의 몫입니다. 다만 정말 특별한 기능을 사용하지 않고, 기존 흐름을 따르는 형태에서는 뭘 선택해도 당장은 큰 문제는 없어보입니다. 하지만, 새로운 Redis 기능을 써야 한다면, 이제 좀 고민을 하셔야 될듯 합니다.",
+        "dc:creator": "charsyam",
+        "comments": "https://charsyam.wordpress.com/2025/05/03/redis-%ec%99%80-valkey-%eb%ac%b4%ec%97%87%ec%9d%84-%ec%84%a0%ed%83%9d%ed%95%b4%ec%95%bc-%ed%95%a0%ea%b9%8c/#respond",
+        "content": "2024년에 Redis 7.2.4 부터 라이센스 이슈로 Valkey 가 fork 되면서 많은 사람들이 Redis와 Valkey 중에 무엇을 사용해야 하는가? 그럼 어떤 차이가 있는지에 대한 질문이 꽤 많습니다. 그래서 거기에 대한 간단한 의견(답정너) 를 소개하려고 합니다. 일반적으로 클라우드 기반에서 사용하던 분들 특히 AWS의 ElastiCache 를 쓰는 분들은 그냥 Redis 쓰는 것보다 Valkey로 가셔도 전혀 문제가 없습니다.(비용이 더 [&#8230;]",
+        "contentSnippet": "2024년에 Redis 7.2.4 부터 라이센스 이슈로 Valkey 가 fork 되면서 많은 사람들이 Redis와 Valkey 중에 무엇을 사용해야 하는가? 그럼 어떤 차이가 있는지에 대한 질문이 꽤 많습니다. 그래서 거기에 대한 간단한 의견(답정너) 를 소개하려고 합니다. 일반적으로 클라우드 기반에서 사용하던 분들 특히 AWS의 ElastiCache 를 쓰는 분들은 그냥 Redis 쓰는 것보다 Valkey로 가셔도 전혀 문제가 없습니다.(비용이 더 […]",
+        "guid": "http://charsyam.wordpress.com/?p=3568",
+        "categories": [
+          "Uncategorized"
+        ],
+        "isoDate": "2025-05-03T08:16:52.000Z"
+      },
+      {
+        "creator": "charsyam",
         "title": "Redis 8 에서의 AGPLv3 추가의 의미(오픈소스로의 리턴?)",
         "link": "https://charsyam.wordpress.com/2025/05/02/redis-8-%ec%97%90%ec%84%9c%ec%9d%98-agplv3-%ec%b6%94%ea%b0%80%ec%9d%98-%ec%9d%98%eb%af%b8%ec%98%a4%ed%94%88%ec%86%8c%ec%8a%a4%eb%a1%9c%ec%9d%98-%eb%a6%ac%ed%84%b4/",
         "pubDate": "Fri, 02 May 2025 14:12:59 +0000",
@@ -838,21 +854,7 @@
   {
     "name": "루리웹 - 루리웹 리뷰 게시판",
     "category": "게임",
-    "posts": [
-      {
-        "creator": "｜RULIWEB｜",
-        "title": "토끼 마을을 구해라! 로그라이트 액션 '세피리아'",
-        "link": "https://bbs.ruliweb.com/news/board/11/read/2300",
-        "pubDate": "Sat, 26 Apr 2025 16:16:03 +0900",
-        "author": "｜RULIWEB｜",
-        "content": "<img width=\"236\" height=\"177\" src=\"https://i2.ruliweb.com/thumb/25/04/26/19670f2b4e351ad6b.jpg\">",
-        "contentSnippet": "",
-        "categories": [
-          "게임툰"
-        ],
-        "isoDate": "2025-04-26T07:16:03.000Z"
-      }
-    ]
+    "posts": []
   },
   {
     "name": "Reasontobe",
@@ -910,15 +912,6 @@
         "contentSnippet": "",
         "guid": "https://jacking75.github.io/NET_20250429/",
         "isoDate": "2025-04-28T15:00:00.000Z"
-      },
-      {
-        "title": "프로파일러의 외부 코드 디컴파일로 숨겨진 인사이트 발견하기",
-        "link": "https://jacking75.github.io/VS_20250427/",
-        "pubDate": "Sun, 27 Apr 2025 00:00:00 +0900",
-        "content": "<iframe width=\"1024\" height=\"1024\" src=\"https://docs.google.com/document/d/e/2PACX-1vQM-TzbEWXZaL8j7a92LXzEjcX1ul7e_Vfpy-zHqw4CkOyD-BXa353AMXkVlyrGMbSzckq6X20n3qGa/pub?embedded=true\"></iframe>\n\n",
-        "contentSnippet": "",
-        "guid": "https://jacking75.github.io/VS_20250427/",
-        "isoDate": "2025-04-26T15:00:00.000Z"
       }
     ]
   },
@@ -1008,6 +1001,22 @@
     "name": "퇴근 후 서버다운",
     "category": "개인",
     "posts": [
+      {
+        "creator": "SIDNFT",
+        "title": "시진핑 내려온다는 설이 있습니다.",
+        "link": "http://serverdown.tistory.com/1300",
+        "pubDate": "Sat, 3 May 2025 13:06:01 +0900",
+        "author": "SIDNFT",
+        "comments": "http://serverdown.tistory.com/1300#entry1300comment",
+        "content": "<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"970\" data-origin-height=\"647\"><span data-url=\"https://blog.kakaocdn.net/dn/bieO5I/btsNJKvDMEe/z5OARPkCy0Kn3Mr3KEo1Mk/img.webp\" data-phocus=\"https://blog.kakaocdn.net/dn/bieO5I/btsNJKvDMEe/z5OARPkCy0Kn3Mr3KEo1Mk/img.webp\"><img src=\"https://blog.kakaocdn.net/dn/bieO5I/btsNJKvDMEe/z5OARPkCy0Kn3Mr3KEo1Mk/img.webp\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbieO5I%2FbtsNJKvDMEe%2Fz5OARPkCy0Kn3Mr3KEo1Mk%2Fimg.webp\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"970\" height=\"647\" data-origin-width=\"970\" data-origin-height=\"647\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">2025-05-02 현재 이런 영상들이 올라왔습니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/watch?v=0cYeltObgZ4\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=0cYeltObgZ4</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=0cYeltObgZ4\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/rwz1G/hyYMRQpmnE/tujdJC5FkdTd7NZqnNY8CK/img.jpg?width=1280&amp;height=720&amp;face=296_88_622_444,https://scrap.kakaocdn.net/dn/cbSjPb/hyYMTU2STJ/1rJJWqGFCSL5zww8AcZFX0/img.jpg?width=1280&amp;height=720&amp;face=296_88_622_444\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"【시사포커스】 충격! 습근평 연금설!그가 전권 행사?! (태산 보도)\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/0cYeltObgZ4\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/watch?v=y-lr8RIHj_4\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=y-lr8RIHj_4</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=y-lr8RIHj_4\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/bkrbOp/hyYM0fyeXe/1lC7X5lwm0uOsyiOu0eu51/img.jpg?width=1280&amp;height=720&amp;face=232_46_972_324,https://scrap.kakaocdn.net/dn/bg3xNt/hyYMSaJWAT/rVVBTbgLpBz7aD86gQk6O1/img.jpg?width=1280&amp;height=720&amp;face=232_46_972_324\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"[지식뉴스] &quot;미 국채 붕괴? 아무도 못 던져요&quot; 버티던 시진핑, 결국 굴복하나..트럼프가 중국 흔드\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/y-lr8RIHj_4\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">최근 이상한 뉴스들도 있었습니다.</p>\n<p data-ke-size=\"size16\">트럼프는 중국과 협상중이라고 하고<br />시진핑은 협상하지 않았다고 하는 뉴스죠</p>\n<p data-ke-size=\"size16\">이때 그럼 다른 사람이랑 협상 중이겠거니 했는데</p>\n<p data-ke-size=\"size16\">아예 차기정권이랑 협상 중인거 같군요</p>\n<p data-ke-size=\"size16\">시진핑이 내려온다면 중국은 근본적으로 바뀔 수 있기 때문에<br />중국 투자에 고려해봐야합니다.</p>\n<p data-ke-size=\"size16\">한국 IMF 맞았을대 처럼 그런 상황이 아닐까 싶네요</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">최근 할투에서도 중국 투자를 권유하고 있고&nbsp;<br />서재형 또한 여러나라에 분산하라는 방향을 제시하고 있습니다.</p>\n<p data-ke-size=\"size16\">모든 사람 말이 맞으려면 단 한가지 결과로 모이게 됩니다.</p>\n<p data-ke-size=\"size16\">시진핑이 내려고 중국은 이전과 다르게 된다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">아마도 트럼프의 미친짓이 차기 중국 정권을 움직인거 같습니다.<br />이대로만 망한다는 공감대를 형성 한걸로 보입니다.</p>\n<p data-ke-size=\"size16\">저는</p>\n<p data-ke-size=\"size16\">CWEB - 중국 인터넷 기업 2배</p>\n<p data-ke-size=\"size16\">항셍 테크&nbsp;</p>\n<p data-ke-size=\"size16\">곧 나올 중국 테크 TOP10 ETF 등에 자금을 옮길 예정입니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">존버나드 신규 중국 ETF: <a href=\"https://www.youtube.com/watch?v=69aVRSuI14o&amp;t=960s\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=69aVRSuI14o&amp;t=960s</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=69aVRSuI14o\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/dBHP8N/hyYPg9EYOz/g7dkzMd9O81hsiiwvgKgp1/img.jpg?width=1280&amp;height=720&amp;face=52_128_382_256,https://scrap.kakaocdn.net/dn/bj17WG/hyYMZ1Y6M8/N8SRfPBrJgQ4iTObT7VnO1/img.jpg?width=1280&amp;height=720&amp;face=52_128_382_256\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"드디어 중국ETF들이 대거 상장합니다. 중국주식이 요즘 주목받는 이유 슈카월드도 소개 ( TIGER 차\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/69aVRSuI14o\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">할투 중국 중계: <a href=\"https://www.youtube.com/watch?v=Cpwoz5PV1wc\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=Cpwoz5PV1wc</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=Cpwoz5PV1wc\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/bYTxH9/hyYMWxrxBT/uFuAYDbsu7KuDB1S5vldm0/img.jpg?width=1280&amp;height=720&amp;face=892_90_1016_226,https://scrap.kakaocdn.net/dn/L2ahS/hyYM2YJSai/7KnlyM5vzbtI9k0d4kuIpk/img.jpg?width=1280&amp;height=720&amp;face=892_90_1016_226\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"1433. 중국 경제 무너지는 중? 현장에 가봤더니 충격!\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/Cpwoz5PV1wc\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">최근에 중국 투자를 권유하는 내용이 점점 늘고 있습니다.</p>",
+        "contentSnippet": "2025-05-02 현재 이런 영상들이 올라왔습니다.\n \n영상: https://www.youtube.com/watch?v=0cYeltObgZ4\n\n\n\n \n \n \n영상: https://www.youtube.com/watch?v=y-lr8RIHj_4\n\n\n\n \n최근 이상한 뉴스들도 있었습니다.\n트럼프는 중국과 협상중이라고 하고\n시진핑은 협상하지 않았다고 하는 뉴스죠\n이때 그럼 다른 사람이랑 협상 중이겠거니 했는데\n아예 차기정권이랑 협상 중인거 같군요\n시진핑이 내려온다면 중국은 근본적으로 바뀔 수 있기 때문에\n중국 투자에 고려해봐야합니다.\n한국 IMF 맞았을대 처럼 그런 상황이 아닐까 싶네요\n \n최근 할투에서도 중국 투자를 권유하고 있고 \n서재형 또한 여러나라에 분산하라는 방향을 제시하고 있습니다.\n모든 사람 말이 맞으려면 단 한가지 결과로 모이게 됩니다.\n시진핑이 내려고 중국은 이전과 다르게 된다.\n \n아마도 트럼프의 미친짓이 차기 중국 정권을 움직인거 같습니다.\n이대로만 망한다는 공감대를 형성 한걸로 보입니다.\n저는\nCWEB - 중국 인터넷 기업 2배\n항셍 테크 \n곧 나올 중국 테크 TOP10 ETF 등에 자금을 옮길 예정입니다.\n \n존버나드 신규 중국 ETF: https://www.youtube.com/watch?v=69aVRSuI14o&t=960s\n\n\n\n \n할투 중국 중계: https://www.youtube.com/watch?v=Cpwoz5PV1wc\n\n\n\n \n최근에 중국 투자를 권유하는 내용이 점점 늘고 있습니다.",
+        "guid": "http://serverdown.tistory.com/1300",
+        "categories": [
+          "투자",
+          "중국투자"
+        ],
+        "isoDate": "2025-05-03T04:06:01.000Z"
+      },
       {
         "creator": "SIDNFT",
         "title": "2025-05-01 살질 일기 / 시간낭비",
@@ -1154,23 +1163,6 @@
           "프로그래밍/개발메모"
         ],
         "isoDate": "2025-04-28T01:51:51.000Z"
-      },
-      {
-        "creator": "SIDNFT",
-        "title": "Brick Away v6 / 블록분해 v6 / 손가락으로 확대 축소 추",
-        "link": "http://serverdown.tistory.com/1290",
-        "pubDate": "Mon, 28 Apr 2025 09:29:30 +0900",
-        "author": "SIDNFT",
-        "comments": "http://serverdown.tistory.com/1290#entry1290comment",
-        "content": "<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"512\" data-origin-height=\"512\"><span data-url=\"https://blog.kakaocdn.net/dn/dfWxr7/btsNBFHFh5v/MtcWvjZgynFsMj9npzMEFK/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/dfWxr7/btsNBFHFh5v/MtcWvjZgynFsMj9npzMEFK/img.png\"><img src=\"https://blog.kakaocdn.net/dn/dfWxr7/btsNBFHFh5v/MtcWvjZgynFsMj9npzMEFK/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdfWxr7%2FbtsNBFHFh5v%2FMtcWvjZgynFsMj9npzMEFK%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"512\" height=\"512\" data-origin-width=\"512\" data-origin-height=\"512\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">웹게임 전체: <a href=\"https://play.unity.com/en/user/5ea53514-df56-4e49-9931-a08d1813a7cc\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://play.unity.com/en/user/5ea53514-df56-4e49-9931-a08d1813a7cc</a></p>\n<p data-ke-size=\"size16\">블록 분해 v6: <a href=\"https://play.unity.com/en/games/77df60bd-c725-4198-88d5-8e63c80348c9/tab-to-dismantle-v6\">Unity Play | Tab to Dismantle v6 game</a></p>\n<figure id=\"og_1745799954840\" contenteditable=\"false\" data-ke-type=\"opengraph\" data-ke-align=\"alignCenter\" data-og-type=\"website\" data-og-title=\"Tab to Dismantle v6 on Unity Play\" data-og-description=\"supported two finger zoom add disaply combo\" data-og-host=\"play.unity.com\" data-og-source-url=\"https://play.unity.com/en/games/77df60bd-c725-4198-88d5-8e63c80348c9/tab-to-dismantle-v6\" data-og-url=\"https://play.unity.com/en/games/77df60bd-c725-4198-88d5-8e63c80348c9/tab-to-dismantle-v6\" data-og-image=\"https://scrap.kakaocdn.net/dn/G6SgH/hyYH9c51f1/SktTYop4SbdfAJcw7oD6qk/img.png?width=512&amp;height=512&amp;face=0_0_512_512,https://scrap.kakaocdn.net/dn/cQPbjz/hyYFD0ebK9/r8C3XGvnIotliCYqQdOrcK/img.png?width=512&amp;height=512&amp;face=0_0_512_512\"><a href=\"https://play.unity.com/en/games/77df60bd-c725-4198-88d5-8e63c80348c9/tab-to-dismantle-v6\" target=\"_blank\" rel=\"noopener\" data-source-url=\"https://play.unity.com/en/games/77df60bd-c725-4198-88d5-8e63c80348c9/tab-to-dismantle-v6\">\n<div class=\"og-image\" style=\"background-image: url('https://scrap.kakaocdn.net/dn/G6SgH/hyYH9c51f1/SktTYop4SbdfAJcw7oD6qk/img.png?width=512&amp;height=512&amp;face=0_0_512_512,https://scrap.kakaocdn.net/dn/cQPbjz/hyYFD0ebK9/r8C3XGvnIotliCYqQdOrcK/img.png?width=512&amp;height=512&amp;face=0_0_512_512');\">&nbsp;</div>\n<div class=\"og-text\">\n<p class=\"og-title\" data-ke-size=\"size16\">Tab to Dismantle v6 on Unity Play</p>\n<p class=\"og-desc\" data-ke-size=\"size16\">supported two finger zoom add disaply combo</p>\n<p class=\"og-host\" data-ke-size=\"size16\">play.unity.com</p>\n</div>\n</a></figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">v6 변경점</h2>\n<p data-ke-size=\"size16\">1. 게임이름 변경 apart -&gt; Tab&nbsp;to&nbsp;Dismantle</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">2. 하단에 콤보 추가</p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"421\" data-origin-height=\"169\"><span data-url=\"https://blog.kakaocdn.net/dn/WEXQy/btsNA6FEkBE/UQT7ltIU74t2EP8K65AdNK/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/WEXQy/btsNA6FEkBE/UQT7ltIU74t2EP8K65AdNK/img.png\"><img src=\"https://blog.kakaocdn.net/dn/WEXQy/btsNA6FEkBE/UQT7ltIU74t2EP8K65AdNK/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FWEXQy%2FbtsNA6FEkBE%2FUQT7ltIU74t2EP8K65AdNK%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"421\" height=\"169\" data-origin-width=\"421\" data-origin-height=\"169\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">잘못된 방향을 클릭하면 0으로 초기화 됩니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">3. 두 손가락으로 확대 / 축소</p>\n<p data-ke-size=\"size16\">모바일기기로 접속하셔서 확인해보세요</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">예정 사항</h2>\n<p data-ke-size=\"size16\">플레이 스토어 준비중입니다.</p>",
-        "contentSnippet": "웹게임 전체: https://play.unity.com/en/user/5ea53514-df56-4e49-9931-a08d1813a7cc\n블록 분해 v6: Unity Play | Tab to Dismantle v6 game\n\n \nTab to Dismantle v6 on Unity Play\nsupported two finger zoom add disaply combo\nplay.unity.com\n\n \nv6 변경점\n1. 게임이름 변경 apart -> Tab to Dismantle\n \n2. 하단에 콤보 추가\n\n\n잘못된 방향을 클릭하면 0으로 초기화 됩니다.\n \n3. 두 손가락으로 확대 / 축소\n모바일기기로 접속하셔서 확인해보세요\n \n예정 사항\n플레이 스토어 준비중입니다.",
-        "guid": "http://serverdown.tistory.com/1290",
-        "categories": [
-          "블록 분해 게임 (자작)",
-          "유니티",
-          "자작게임"
-        ],
-        "isoDate": "2025-04-28T00:29:30.000Z"
       }
     ]
   },
