@@ -2,92 +2,120 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "There’s a Linux File Explorer built into Visual Studio!?!",
-    "description": "The Remote File Explorer in Visual Studio provides developers with a convenient way to browse, view, and edit files on remote machines—directly from within the IDE. It’s a powerful tool for managing remote environments without leaving your development workflow. Scott Hanselman published a new YouTube video to his channel, taking us on the journey of […]\nThe post There’s a Linux File Explorer built into Visual Studio!?! appeared first on C++ Team Blog.",
+    "title": "파운데이션 모델이란?",
+    "description": "파운데이션 모델은 방대한 양의 일반 데이터로 학습된 강력한 인공 지능(AI)의 유형으로, 광범위한 작업을 처리할 수 있습니다. OpenAI의 GPT(Generative Pre-trained Transformer) 시리즈나 Google의 BERT (Bidirectional Encoder Representations from Transformers)와 같은 파운데이션 모델은 인터넷의 다양한 소스에서 일반적인 언어 패턴과 지식을 수집하도록 설계되었습니다. 그런 다음 이러한 모델을 소규모의 작업별 데이터 세트에 맞게 파인튜닝하여 텍스트 분류, 요약, 번역, 질문 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/theres-a-linux-file-explorer-built-into-visual-studio/",
-    "pubDate": "Thu, 01 May 2025 15:44:39 +0000",
-    "creator": "Sinem Akinci",
+    "link": "https://ppss.kr/archives/269222",
+    "pubDate": "Wed, 30 Apr 2025 03:32:08 +0000",
+    "creator": "박명근",
     "categories": [
-      "C++"
+      "IT",
+      "개발"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "토스페이 혜택, 사용법 총정리 2025년 5월",
-    "description": "컬리, 신세계면세점, 11번가, 컴퓨존, 아디다스 등 할인·적립 쿠폰 확인하기",
+    "title": "토스, <머니 코드 콘서트: 아웃 오브 방구석> 개최",
+    "description": "더콰이엇·김뜻돌·바밍타이거 등 출연 예정… 5월 9일 멜론티켓 통해 예매 오픈",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/tosspay-2025-02",
-    "pubDate": "Wed, 30 Apr 2025 15:05:00 GMT",
+    "link": "https://blog.toss.im/article/moneychordconcert",
+    "pubDate": "Wed, 30 Apr 2025 03:26:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "JetBrains Academy – April Digest",
-    "description": "This month brings new opportunities to support your learning and development – from AI-powered features in your IDE and a new AI course with Nebius to practical Python training. Additionally, don’t miss the upcoming free online IntelliJ IDEA Conf. Read on for more details.",
+    "title": "What’s New in vcpkg (April 2025)",
+    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.04.09 registry release, 2025-03-22, 2025-04-01, and 2025-04-07 tool releases, as well as changes to vcpkg documentation throughout April. This release contains bug fixes, a new documentation article on offline usage of vcpkg, and other minor improvements. Arm64 Linux users of vcpkg […]\nThe post What’s New in vcpkg (April 2025) appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/05/02/jetbrains-academy-april/",
-    "pubDate": "Fri, 02 May 2025 16:29:25 +0000",
-    "creator": "Maria Sharobaeva",
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-april-2025/",
+    "pubDate": "Fri, 02 May 2025 21:44:09 +0000",
+    "creator": "Augustin Popa",
     "categories": [
-      "digest",
-      "jetbrains-academy",
-      "newsletter"
+      "C++",
+      "Vcpkg",
+      "vcpkg"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "신용산역에서 바라본 남산타워",
-    "description": "남산타워라고 하면 너무 아재같나",
+    "title": "GTX1660ti vs RTX4050 vs RTX5070 cuda raytracing 성능비교",
+    "description": "voxel horizon에선 보이는 voxel오브젝트를 선별하기 위해 cuda를 사용해서 실시간으로 raytracing을 수행한다. https://megayuchi.com/2021/09/15/cuda-raytracing%ec%9d%84-%ec%9d%b4%ec%9a%a9%ed%95%9c-voxel-%ec%98%a4%eb%b8%8c%ec%a0%9d%ed%8a%b8-%ea%b0%80%ec%8b%9c%ec%84%b1-%ed%85%8c%ec%8a%a4%ed%8a%b8/ 스샷의 상단 화면이 cuda raytracing결과로 얻은 depth buffer와 보이는 오브젝트 목록이다. gpu바꾼 김에 성능 비교를 좀 해봤다.RTX4050이 GTX1660Ti보다 2.3배 정도 빠르고, RTX5070이 RTX4050보다 2.1배 정도 빠르다. 해상도 : 512×512 , voxel 오브젝트 개수 : 54000개, 1×1 복셀로 환산 voxel 개수 : 714만개 [i3-12100, … More GTX1660ti vs RTX4050 vs RTX5070 cuda raytracing 성능비교",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hodolman.tistory.com/72",
-    "pubDate": "Thu, 1 May 2025 20:06:21 +0900",
-    "creator": "호돌맨",
+    "link": "https://megayuchi.com/2025/05/01/gtx1660ti-vs-rtx4050-vs-rtx5070-cuda-raytracing-%ec%84%b1%eb%8a%a5%eb%b9%84%ea%b5%90/",
+    "pubDate": "Thu, 01 May 2025 09:35:21 +0000",
+    "creator": "megayuchi",
     "categories": [
-      "사진",
-      "남산타워",
-      "신용산",
-      "용산"
+      "Development",
+      "CUDA",
+      "Game Engine Development",
+      "Voxel Horizon"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "63,000건 배치 처리 중 락 유발 이슈 회고",
-    "description": "운영 서버에서 63,000건의 이미지 배치 작업 중 락이 발생하며 장애가 발생했다. 처음 겪는 규모 있는 데이터 처리 이슈였고, 원인은 단순하지만 치명적이었다. 이 글은 그 문제의 원인, 해결, 그리고 회고를 정리한 실무 경험 공유이다.\n배경\n이번에 회사에서 진행했던 프로젝트는 승인서버 프로젝트이다. 승인서버 프로젝트는 외부 연동으로 들어온 데이터를 우리 관리 시스템으로 들어오기 전에 검수하는 시스템을 구축하는 프로젝트다.\n\n크게 보면 이렇게 볼 수 있다. \n여기서 내가 한 일 중 하나는 이미지 배치 처리 기능의 설계 및 구현이다. 주요 작업은 다음과 같다.\nS3 이미지 업로드를 위한 비동기 배치 모듈 개발\n1시간 단위로 실행되는 이미지 배치 작업: INIT, FAIL 상태이며 재시도 횟수가 1 이하인 프로덕트/아이템 이미지를 대상으로 처리\n특정 프로덕트 단위의 재연동 기능 구현: 선택된 프로덕트의 INIT, FAIL 상태 이미지만 재처리하며, 재시도 제한 없음\n이미지 업로드 후 상태 및 재시도 관리\n업로드 성공 시: retry 횟수 증가 + 상태 COMPLETE로 변경\n업로드 실패 시: retry 횟수 증가 + 상태 FAIL 유지 및 슬랙 알림 전송\n배치를 적용한 이유\n2차 승인 단계에서 등록되는 각 프로덕트/아이템은 여러 개의 이미지를 포함하고 있으며, 이 이미지들은 모두 AWS S3에 업로드되어야 한다. 초기에는 등록 시점에 실시간으로 이미지를 업로드하는 방식도 고려했지만, 아래와 같은 이유로 배치 처리 방식을 도입하게 되었다.\n성능 이슈\n이미지 업로드는 네트워크 I/O와 S3 API 호출이 포함된 작업으로, 처리 시간이 길다. 이를 실시간으로 수행할 경우 등록 속도가 느려지고, 사용자 경험에도 부정적인 영향을 줄 수 있다.\n처리 안정성 확보\n등록 도중 이미지 업로드에 실패하면 전체 등록이 실패할 수 있다. 배치로 처리하면 실패한 이미지에 한해 재처리할 수 있어 안정적인 처리가 가능하다.\nS3 요청 비용 최적화\nAWS S3는 요청 건수에 따라 비용이 발생한다. 실시간으로 이미지를 업로드할 경우, 이미지 수만큼 S3 요청이 발생하고, 트래픽이 많아질수록 비용도 크게 증가한다.\n배치 처리 방식은 요청을 모아서 처리하기 때문에 네트워크 연결 및 클라이언트 설정을 재사용할 수 있고, 요청 효율을 높여 비용 절감과 처리 흐름 단순화에 기여한다.\n이러한 이유로 이미지 업로드 작업을 프로덕트/아이템 등록 시점이 아닌 배치 처리로 전환하게 되었고, 해당 로직의 설계와 구현은 내가 직접 맡아 수행하였다.\n장애 발생 및 대응\n시원한 음료 한 잔 마시며 한숨 돌리고 있던 그 때\n경고가 떴다!!!!!!\n\n락이 걸린다고? 갑자기?? 배치에서??? 왜???\n범인은 나였다. 나야 나...(내가 그 주인공이 될 줄은 몰랐다)\n원인\n이미지 업로드를 시키는 과정은 사실 단순하다. \n1) INIT,FAIL 상태 & 재시도 1 이하인 임시이미지 조회\n2) 해당 이미지 S3에 업로드\n3) 해당 이미지 상태, 재시도 개수 수정 저장\n근데 문제는 내가 데이터의 규모를 예상치 못하고 조회시 관련 모든 데이터를 가져오게 만들었다는 것이다. 사실 이것만 봤을때는 뭐가 문제인데 할 수 있다. 관련 모든 데이터를 가져오는게 맞잖아?\n그러나.. 데이터의 양이 6만 3천개라면?\n\n왜 락이 걸렸을까?\n쉽게 말하면 6만개의 데이터를 수정하면서도 저장(flush)를 미루니까 트랜잭션이 너무 길어지고 락이 오래 유지되는 상황에서 동시에 같은 row에 접근하려는 다른 트랜잭션과 충돌이 발생하게 된것이다. \n정리하면, 다음 세 가지가 문제의 핵심이었다:\n한 번에 모든 데이터를 불러옴 (6만 건)\n처리 중간에 flush 없이 트랜잭션을 유지\nDB 업데이트가 지연되면서 row-level lock 충돌 발생\n해결법\npage 단위로 chunk 100개씩 가져와서 락을 빨리 빨리 해제하도록 수정하였다. \nAS_IS \nTO_BE\n\n후기\n해결 방법은 단순했다. 데이터를 페이지 단위로 나눠서 처리하면 되는 일이었다. 하지만 처음에는 그 방식이 떠오르지 않았다. 테스트 환경에서는 문제없이 동작했고, 실제 운영에서 63,000건이 넘는 데이터가 한 번에 들어올 거라고는 예상하지 못했기 때문이다.\n이번 일을 통해 대규모 데이터 처리에서의 사소한 설계 차이가 시스템 안정성에 큰 영향을 줄 수 있다는 점을 몸소 깨달았다. 특히 다음 두 가지를 깊이 체감했다:\n운영 환경 데이터를 기준으로 사고할 것\n트랜잭션은 짧고 명확하게 유지할 것\n실제 장애는 대량 데이터를 한꺼번에 처리하면서 트랜잭션이 길어지고, 그로 인해 DB 락 충돌이 발생한 것이 원인이었다. 이후 100건 단위로 나눠 처리하는 방식으로 개선하면서 락 점유 시간을 줄일 수 있었다.\n단순한 설계 실수도 큰 장애로 이어질 수 있다는 점을 다시금 느꼈고, 앞으로는 더 철저하게 사고하고 검증해야겠다는 다짐을 하게 된 경험이었다.",
+    "title": "2025 활기찬 노후를 위한 중장년 시니어 정책 총정리: 중장년경력지원제부터 치매안심센터까지",
+    "description": "대표적인 중중년 시니어 정책 모아보기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://velog.io/@sweet_sumin/63000%EA%B1%B4-%EB%B0%B0%EC%B9%98-%EC%B2%98%EB%A6%AC-%EC%A4%91-%EB%9D%BD-%EC%9C%A0%EB%B0%9C-%EC%9D%B4%EC%8A%88-%ED%9A%8C%EA%B3%A0",
-    "pubDate": "Fri, 02 May 2025 08:02:37 GMT",
+    "link": "https://blog.toss.im/article/money-policies-41",
+    "pubDate": "Fri, 02 May 2025 01:02:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "배드맨",
-    "description": "기변하고\n소사역 부근에서 촬영했습니다.",
+    "title": "The First Set of Bug Fixes for ReSharper and Rider 2025.1 Is Here!",
+    "description": "Hello everyone, The ReSharper and Rider 2025.1.1 bug-fix updates have just been released! If you haven’t upgraded to the 2025.1 versions of our products, we highly recommend that you check out these two blog posts: And now, let’s go over the most important fixes in 2025.1.1. ReSharper 2025.1.1  The first bug-fix update fixes the issue […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hodolman.tistory.com/71",
-    "pubDate": "Tue, 29 Apr 2025 22:16:49 +0900",
-    "creator": "호돌맨",
+    "link": "https://blog.jetbrains.com/dotnet/2025/04/29/2025-1-1-hot-fix/",
+    "pubDate": "Tue, 29 Apr 2025 06:53:33 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "사진",
-      "배드맨",
-      "빛과어둠"
+      "net-tools",
+      "bugfix",
+      "news",
+      "releases",
+      "resharper",
+      "rider"
     ]
   },
   {
     "id": 7,
+    "imageUrl": "",
+    "title": "Filebeat 9.0의 변화",
+    "description": "audit.log 연동.\n\n\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id\n  enabled: true\n  paths:\n    - d:\\test.log\n\noutput.console:\n  pretty: true\n\nprocessors:\n  - include_fields:\n      fields: \"message\"\n\n\n\n실행은 됐는데 데이터를 가져오지 못한다.\n\n\n\n\n\n디버그 모드(filebeat.exe -e -d \"*\") 실행.\n\n\n\n파일 사이즈가 너무 작다고? 8.18까지 잘 되던 게 안 되는 거 보니 9.0에서 변화가 있는 모양. 릴리즈 노트를 살펴보니 파일 수집 방식이 변경됐다. 1MB 이상일 때만 수집 가능하다고.\n\n\n\n\n설정 변경.\n\n\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id\n  enabled: true\n  paths:\n    - d:\\test.log\n  prospector.scanner.fingerprint.enabled: false\n\noutput.console:\n  pretty: true\n\nprocessors:\n  - include_fields:\n      fields: \"message\"\n\n\n\n\n{\n  \"@timestamp\": \"2025-05-02T03:41:27.182Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"message\": \"type=NETFILTER_CFG msg=audit(1745768855.270:63): table=filter family=10 entries=0\"\n}\n{\n  \"@timestamp\": \"2025-05-02T03:41:27.182Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"message\": \"type=SYSCALL msg=audit(1745768855.720:63): arch=c000003e syscall=175 success=yes exit=0 a0=1e2da20 a1=1d75 a2=41a2d8 a3=1e2a500 items=0 ppid=1335 pid=1336 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\\\"modprobe\\\" exe=\\\"/usr/bin/kmod\\\" subj=system_u:system_r:insmod_t:s0 key=(null)\"\n}\n\n\n\n\n관련 글\n\nElasticsearch 9.0의 변화\nBeat processors - 7th",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/05/filebeat-90.html",
+    "pubDate": "2025-05-02T03:42:00.005Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Beat processors - 7th",
+    "description": "audit.log 연동.\n\nprocessors:\n  - include_fields:\n      fields: \"message\"\n  - copy_fields:\n      fields:\n        - from: message\n          to: message2\n  - replace:\n      fields:\n        - field: \"message2\"\n          pattern: \"\\\"\"\n          replacement: \"\"\n  - script:\n      lang: javascript\n      source: >\n        function process(evt) {\n          var list = evt.Get(\"message2\").split(\" \");\n          for (var i in list) {\n            var key = list[i].split(\"=\")[0];\n            var val = list[i].split(\"=\")[1];\n            evt.Put(key, val)\n          }\n        }\n  - drop_fields:\n      fields: \"message2\"\n  - dissect:\n      field: \"msg\"\n      tokenizer: \"%{}(%{timestamp}:%{}\"\n      target_prefix: \"\"\n\n\n\n\n{\n  \"@timestamp\": \"2025-05-02T08:39:45.009Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"timestamp\": \"1745768855.270\",\n  \"type\": \"NETFILTER_CFG\",\n  \"msg\": \"audit(1745768855.270:63):\",\n  \"table\": \"filter\",\n  \"family\": \"10\",\n  \"entries\": \"0\",\n  \"message\": \"type=NETFILTER_CFG msg=audit(1745768855.270:63): table=filter family=10 entries=0\"\n}\n{\n  \"@timestamp\": \"2025-05-02T08:39:45.009Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"arch\": \"c000003e\",\n  \"pid\": \"1336\",\n  \"exe\": \"/usr/bin/kmod\",\n  \"key\": \"(null)\",\n  \"success\": \"yes\",\n  \"a0\": \"1e2da20\",\n  \"a1\": \"1d75\",\n  \"exit\": \"0\",\n  \"ppid\": \"1335\",\n  \"ses\": \"4294967295\",\n  \"subj\": \"system_u:system_r:insmod_t:s0\",\n  \"auid\": \"4294967295\",\n  \"gid\": \"0\",\n  \"fsuid\": \"0\",\n  \"egid\": \"0\",\n  \"sgid\": \"0\",\n  \"message\": \"type=SYSCALL msg=audit(1745768855.720:63): arch=c000003e syscall=175 success=yes exit=0 a0=1e2da20 a1=1d75 a2=41a2d8 a3=1e2a500 items=0 ppid=1335 pid=1336 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\\\"modprobe\\\" exe=\\\"/usr/bin/kmod\\\" subj=system_u:system_r:insmod_t:s0 key=(null)\",\n  \"syscall\": \"175\",\n  \"a3\": \"1e2a500\",\n  \"uid\": \"0\",\n  \"timestamp\": \"1745768855.720\",\n  \"type\": \"SYSCALL\",\n  \"a2\": \"41a2d8\",\n  \"items\": \"0\",\n  \"euid\": \"0\",\n  \"suid\": \"0\",\n  \"msg\": \"audit(1745768855.720:63):\",\n  \"fsgid\": \"0\",\n  \"tty\": \"(none)\",\n  \"comm\": \"modprobe\"\n}\n\n\n\n\nunixtime을 date 포맷으로 바꿔야 한다. 예전 같으면 한참 헤맸겠지?\n\n\n\n\nprocessors:\n  - include_fields:\n      fields: \"message\"\n  - copy_fields:\n      fields:\n        - from: message\n          to: message2\n  - replace:\n      fields:\n        - field: \"message2\"\n          pattern: \"\\\"\"\n          replacement: \"\"\n  - script:\n      lang: javascript\n      source: >\n        function process(evt) {\n          var list = evt.Get(\"message2\").split(\" \");\n          for (var i in list) {\n            var key = list[i].split(\"=\")[0];\n            var val = list[i].split(\"=\")[1];\n            evt.Put(key, val)\n          }\n        }\n  - drop_fields:\n      fields: \"message2\"\n  - dissect:\n      field: \"msg\"\n      tokenizer: \"%{}(%{timestamp}:%{}\"\n      target_prefix: \"\"\n  - script:\n      lang: javascript\n      source: >\n        function process(evt) {\n          var timestamp = new Date(evt.Get(\"timestamp\") * 1000)\n          evt.Put(\"@timestamp\", timestamp)\n        }\n\n\n\n\n{\n  \"@timestamp\": \"2025-04-27T15:47:35.270Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"message\": \"type=NETFILTER_CFG msg=audit(1745768855.270:63): table=filter family=10 entries=0\",\n  \"timestamp\": \"1745768855.270\",\n  \"type\": \"NETFILTER_CFG\",\n  \"msg\": \"audit(1745768855.270:63):\",\n  \"table\": \"filter\",\n  \"family\": \"10\",\n  \"entries\": \"0\"\n}\n{\n  \"@timestamp\": \"2025-04-27T15:47:35.720Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"arch\": \"c000003e\",\n  \"items\": \"0\",\n  \"pid\": \"1336\",\n  \"sgid\": \"0\",\n  \"message\": \"type=SYSCALL msg=audit(1745768855.720:63): arch=c000003e syscall=175 success=yes exit=0 a0=1e2da20 a1=1d75 a2=41a2d8 a3=1e2a500 items=0 ppid=1335 pid=1336 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\\\"modprobe\\\" exe=\\\"/usr/bin/kmod\\\" subj=system_u:system_r:insmod_t:s0 key=(null)\",\n  \"auid\": \"4294967295\",\n  \"uid\": \"0\",\n  \"exit\": \"0\",\n  \"a0\": \"1e2da20\",\n  \"fsgid\": \"0\",\n  \"key\": \"(null)\",\n  \"timestamp\": \"1745768855.720\",\n  \"a1\": \"1d75\",\n  \"a3\": \"1e2a500\",\n  \"euid\": \"0\",\n  \"fsuid\": \"0\",\n  \"type\": \"SYSCALL\",\n  \"ppid\": \"1335\",\n  \"ses\": \"4294967295\",\n  \"comm\": \"modprobe\",\n  \"msg\": \"audit(1745768855.720:63):\",\n  \"success\": \"yes\",\n  \"egid\": \"0\",\n  \"exe\": \"/usr/bin/kmod\",\n  \"subj\": \"system_u:system_r:insmod_t:s0\",\n  \"syscall\": \"175\",\n  \"a2\": \"41a2d8\",\n  \"gid\": \"0\",\n  \"suid\": \"0\",\n  \"tty\": \"(none)\"\n}\n\n\n\n\n참고로 스플렁크는 이렇게.\n\n\n\n\n\n관련 글\n\nBeat processors - 6th\nLogstash 필터 ruby - 8th\nFilebeat 9.0의 변화\nconvert ip to decimal\n엘라스틱의 key-value 처리\nFilebeat 웹 로그 모듈 버그?\n도메인 정규화 Processor: registered_domain",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/05/beat-processors-7th.html",
+    "pubDate": "2025-05-02T08:42:00.003Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "Suno v4.5 주요 업데이트 소개, 프로급 음악 제작이 더 쉬워졌다!",
     "description": "음악 창작의 새 역사를 쓰는 Suno v4.5가 드디어 공개됐어요! 더 풍부한 장르, 감성적인 보컬, 복잡한 사운드까지... 여러분의 음악적 상상력이 현실이 되는 마법 같은 경험을 함께 해볼까요?\n\n\n \n여러분, 혹시 머릿속에서 맴도는 멜로디가 있으신가요? 어떤 특별한 순간에 떠오르는 그 음악, 그냥 흘려보내기 아쉽지 않으셨어요? 저도 그랬어요. 음악을 전공하지 않았지만 항상 제 감정을 표현할 수 있는 노래를 만들고 싶었거든요.\n솔직히 말해서, 음악 제작은 전문가들의 영역이라고만 생각했어요. 작곡, 편곡, 믹싱... 이런 단어들만 들어도 진입장벽이 느껴지잖아요. 그런데 Suno의 새로운 v4.5 모델을 경험하고 나서 제 생각이 완전히 바뀌었어요. 진짜로요!  \n \nSuno v4.5, 무엇이 달라졌을까? ✨\nSuno v4.5는 이전 버전에서 한 단계 더 진화했어요. 제가 직접 사용해본 결과, 몇 가지 놀라운 변화를 발견했답니다.\n확장된 장르와 장르 믹스업  \n장르 옵션이 크게 확장되었고, v4.5는 이전보다 장르를 더 정확하게 따라갑니다. 예전에는 'EDM'이라고 하면 뭔가 비슷비슷한 느낌이었는데, 이제는 확실히 다양한 EDM 하위 장르의 특징을 잘 살려주더라고요.\n제가 한번 \"펑크 록\"과 \"재즈 하우스\"를 입력했는데, 와... 진짜 그 장르의 특성이 잘 살아있었어요! 심지어 \"그레고리안 성가\"까지 도전해봤는데, 마치 중세 수도원에 있는 것 같은 경험이었죠.\n더 신기한 건 장르 조합도 훨씬 잘 작동한다는 거예요. 미드웨스트 이모와 네오소울을 섞거나 EDM과 포크를 조합하면 더 일관되고 창의적인 음악이 만들어집니다. 전에는 뭔가 어색했던 결합들이 이제는 마치 원래부터 존재했던 장르처럼 자연스럽게 들려요.\nStart with Rap , transition to R&B Vocals   for the hook, then switch the beat to a Stereo Bounce and finally into a Soul Sample\n랩으로 시작하여 후크를 위해 R&B 보컬로 전환한 다음 비트를 스테레오 바운스로 전환하고 마지막으로 소울 샘플로 전환합니다.\n \n향상된 보컬 퀄리티  \n보컬은 이제 더 넓은 음역대와 감정적 깊이를 갖추게 되었습니다. 섬세하고 친밀한 퍼포먼스부터 비브라토가 있는 강력한 전달력까지 모든 것을 만들 수 있습니다.\n \n실제로 감정을 담은 가사를 작성하고 그에 맞는 보컬 스타일을 지정하니, 마치 진짜 가수가 부른 것처럼 느껴졌어요. 예전에는 뭔가 기계적인 느낌이 살짝 있었는데, 이제는 진짜 사람이 감정을 담아 부르는 것 같아요. 저는 개인적으로 이 부분이 가장 마음에 들었답니다!\n \n더 복잡한 사운드 구현  \nv4.5는 자연스러운 톤 변화부터 악기 레이어링, 섬세한 사운드 디테일까지 깊이를 더하는 미묘한 음악적 요소를 포착합니다. 예전에는 기본적인 느낌만 전달됐다면, 이제는 섬세한 뉘앙스까지 표현돼요.\n \n\"기분 좋은 노스텔직한 톤\", \"나뭇잎 질감\", \"멜로딕한 휘파람\" 같은 설명이 이제 직접 음악에 반영될 수 있습니다. 제가 \"숲속에서 들리는 새소리와 함께 잔잔한 피아노 멜로디\"라고 입력했더니, 정말 그 분위기가 생생하게 담긴 음악이 만들어졌어요. 마치 제 상상력이 그대로 음악이 된 느낌이었달까요?\n\n\n \n더 똑똑해진 Suno, 더 직관적인 경험  \n더 스마트한 프롬프트 해석 능력\nv4.5는 여러분의 설명을 더 잘 이해하고 번역합니다. 여러분이 지정한 세부 사항, 분위기, 악기를 더 잘 포착합니다. 이제 감정적 뉘앙스와 기술적 음악 요소 모두 노래에 더 잘 반영됩니다.\n \n전에는 \"슬프면서도 희망적인 느낌\"이라고 하면 뭔가 어중간한 결과물이 나왔는데, 이제는 진짜 슬픔에서 시작해 점점 희망적인 분위기로 변해가는 섬세한 감정 전환까지 표현해내요. 진짜 사람이 작곡한 것 같은 느낌이랄까요?\n프롬프트 향상 도우미\nv4.5의 새로운 복잡성을 최대한 활용하기 위해 프롬프트 향상 도우미를 활용해보세요. 여러분의 장르 아이디어가 그대로 사용하거나 원하는 대로 수정할 수 있는 풍부하고 상세한 스타일 설명으로 발전하는 것을 볼 수 있습니다.\n이건 정말 유용한 기능이에요! 제가 \"힙합\"이라고만 입력했을 때, 프롬프트 향상 도우미는 \"90년대 붐뱁 비트와 재즈 샘플이 결합된 올드스쿨 힙합, 유려한 래핑과 소울풀한 후렴구\" 같은 상세한 설명으로 확장해주더라고요. 덕분에 더 정확한 음악을 만들 수 있었답니다.\n \n더 다양한 창작 기능들, 한계는 없다!  \n업그레이드된 커버와 페르소나\n커버와 페르소나가 큰 향상을 받았습니다. 커버곡을 만들면 더 많은 멜로디 디테일을 유지해야 합니다. 장르 전환도 개선되었습니다—좋아하는 록 음악을 하우스 리믹스로 바꾸어 변화를 들어보세요.\n제가 좋아하는 팝송을 재즈 버전으로 커버해봤는데, 원곡의 멜로디는 그대로 유지하면서도 완전히 다른 분위기로 재탄생했어요. 이전에는 원곡의 느낌이 많이 사라졌었는데, 이제는 \"아, 이 노래구나!\" 하고 바로 알아차릴 수 있더라고요.\n커버와 페르소나의 결합\n커버와 페르소나를 함께 사용하여 목소리, 스타일, 구조를 한 번에 리믹스하세요. 함께 사용하면 무한한 창의적 가능성을 열어줍니다.\n이건 정말 혁명적인 기능이에요! 제 취향의 아티스트 목소리로 좋아하는 노래를 부르게 하고, 동시에 장르까지 바꿀 수 있다니... 상상만 해도 설레지 않나요? 저는 팝송을 메탈 버전으로 바꾸고 완전 다른 보컬로 커버해봤는데, 그 결과물이 너무 신선했어요!\n더 빠른 생성 속도와 긴 곡 길이\n생성 속도가 크게 향상되어 실험하고 개선할 시간이 더 많아졌습니다. 이제 기다리는 시간이 훨씬 줄어들어서 창작 과정이 중단되지 않고 아이디어가 떠오르는 대로 바로바로 시도해볼 수 있어요.\n \n그리고 이제 최대 8분 길이의 노래를 만들 수 있으며, 긴 구성에서도 처음부터 끝까지 품질과 일관성을 유지할 수 있습니다. 전에는 긴 곡을 만들면 후반부로 갈수록 퀄리티가 떨어지는 경우가 있었는데, 이제는 8분짜리 대곡도 처음부터 끝까지 완성도 있게 만들 수 있어요!\n개선된 오디오 품질\nv4.5는 더 균형 잡히고 풍부한 믹스를 제공하며, 오디오 열화와 시머 효과를 모두 감소시킵니다. 더 긴 구성에서도 처음부터 끝까지 일관된 사운드 품질을 유지합니다.\n이전 버전에서는 가끔 사운드가 울리거나 지직거리는 현상이 있었는데, v4.5에서는 이런 문제가 확실히 개선되었어요. 마치 프로 스튜디오에서 녹음한 것처럼 깔끔한 사운드를 경험할 수 있었답니다.\n \n\n\n나만의 음악 세계를 열어보세요  \n음악 창작은 더 이상 전문가들만의 영역이 아니에요. Suno v4.5와 함께라면 누구나 자신만의 음악적 상상력을 현실로 만들 수 있어요. 복잡한 장비나 전문 지식 없이도, 그저 여러분의 아이디어를 글로 표현하는 것만으로 멋진 음악이 탄생합니다.\n저는 Suno v4.5를 써보고 정말 놀랐어요. 제 머릿속에서만 울리던 그 멜로디, 제가 느끼던 그 감정들이 실제 음악으로 표현된다는 게 얼마나 신기한지 몰라요. 지금 당장 여러분도 Suno에서 v4.5 노래를 만들어보세요. 더 많은 기능들이 곧 출시될 예정이니 귀 기울여 주세요!\nFAQ\nQ: Suno v4.5는 무료인가요?\nA: 기본 기능은 무료로 사용 가능하지만, 프리미엄 기능을 위한 Pro & Premier 구독 옵션이 있습니다.\nQ: 음악 전문가가 아니어도 사용할 수 있나요?\nA: 네! 음악적 배경 없이도 직관적으로 사용 가능합니다. 원하는 분위기나 장르를 설명하기만 하면 됩니다.\nQ: 만든 음악의 저작권은 누구에게 있나요?\nA: Suno로 만든 음악은 비상업적 용도로 자유롭게 사용 가능합니다. 상업적 이용에 관해서는 Suno의 라이선스 정책을 확인하세요.\nQ: 몇 분 길이의 음악까지 만들 수 있나요?\nA: v4.5에서는 최대 8분 길이의 곡을 만들 수 있습니다.\nQ: 외국어 노래도 만들 수 있나요?\nA: 네, 다양한 언어로 가사를 입력하면 해당 언어로 노래를 만들 수 있습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"Suno v4.5는 무료인가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"기본 기능은 무료로 사용 가능하지만, 프리미엄 기능을 위한 Pro & Premier 구독 옵션이 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"음악 전문가가 아니어도 사용할 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"네! 음악적 배경 없이도 직관적으로 사용 가능합니다. 원하는 분위기나 장르를 설명하기만 하면 됩니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"만든 음악의 저작권은 누구에게 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Suno로 만든 음악은 비상업적 용도로 자유롭게 사용 가능합니다. 상업적 이용에 관해서는 Suno의 라이선스 정책을 확인하세요.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"몇 분 길이의 음악까지 만들 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"v4.5에서는 최대 8분 길이의 곡을 만들 수 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"외국어 노래도 만들 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"네, 다양한 언어로 가사를 입력하면 해당 언어로 노래를 만들 수 있습니다.\"\n    }\n  }]\n}",
@@ -111,118 +139,90 @@
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "연예인들때문에 안티들이 붙어버린 10분짜리 우주여행 상품의 위기",
-    "description": "영상: https://www.youtube.com/watch?v=mVXcdOcXOMI\n\n\n\n \n \n이게 과학자들이나 군인들이 갈 때는 별 지적이 없었는데\n여성들로 100% 뽑고 연예인들이 섞이기 시작하니까\n안티가 섞이고 있다고 합니다.\n지적사항은 여행 시간이 짧은데 대단한거냐\n엄청 위험하고 어려운거 같은데 알고보니 안전벨트 매고 버튼 한개 누르는 정도다\n옷이 이상하다.\n \n아무튼 홍보는 꼬여버렸고 우주산업에는 위기가 올 수도 있습니다.\n여러번 하다보면 이런식으로 오렴되나 봅니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1292",
-    "pubDate": "Mon, 28 Apr 2025 17:13:56 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "미국",
-      "우주여행"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "수조관 시계 (관상용) / Unity Play",
-    "description": "거금 80달러를 써서 만든 시계 입니당.\n그냥 관산용\n \n링크: https://play.unity.com/en/user/5ea53514-df56-4e49-9931-a08d1813a7cc\n\n \nSIDNFT on Unity Play\nThe place for aspiring game creators to share their latest Unity creation. Gain inspiration and find thousands of FPS, Karting, 2D Platformer and other creations with Unity. No experience needed, just jump in for the chance to be featured!\nplay.unity.com\n\n \n영상: https://www.youtube.com/watch?v=KKUx71DhFAA",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1293",
-    "pubDate": "Mon, 28 Apr 2025 17:54:12 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작"
-    ]
-  },
-  {
     "id": 10,
     "imageUrl": "",
-    "title": "토스, <머니 코드 콘서트: 아웃 오브 방구석> 개최",
-    "description": "더콰이엇·김뜻돌·바밍타이거 등 출연 예정… 5월 9일 멜론티켓 통해 예매 오픈",
+    "title": "신용산역에서 바라본 남산타워",
+    "description": "남산타워라고 하면 너무 아재같나",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/moneychordconcert",
-    "pubDate": "Wed, 30 Apr 2025 03:26:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://hodolman.tistory.com/72",
+    "pubDate": "Thu, 1 May 2025 20:06:21 +0900",
+    "creator": "호돌맨",
+    "categories": [
+      "사진",
+      "남산타워",
+      "신용산",
+      "용산"
+    ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "2025-05-01 살질 일기 / 시간낭비",
-    "description": "블록분해 프로젝트의 프로덕션이 진행되었다.\n이제 광고를 붙이려고 작업하였는데\nUnity Ads 의 banner 를 기기에 붙이는데 실패했다.\n에디터에서는 나오지만 장비에서는 에러로그와 함께 실패하였다.\n \nc# 에서 \nAdvertisement.Banner.Load(unit_id, options);\n를 호출하면\n05-01 14:16:19.146 21562 29909 E Unity   : AndroidJavaException: java.lang.RuntimeException: Can't create handler inside thread Thread[Thread-4,10,main] that has not called Looper.prepare()\n에러 로그가 나온다.\n내용만 봐선 쓰레드 문제인거 같은데 메인쓰레드에서 돌렸는데도 발생한다.\n아예 모듈이 잘못된거 같다는 생각이 들지만 해결 방법은 없다.\n \n같은 문제로 고생하는 글도 찾았다.\n도움은 안되었다.\nhttps://discussions.unity.com/t/unity-monetization-java-lang-runtimeexception/783764\n \n여기에 game_id 를 넣어야할꺼 같은데 클릭이 안되서 입력할 수가 없다.\n\n\n왜이러는 걸까...\n \n \nunlink 후 다시 link 를 하니 자동으로 입력되었다.\n\n\n \nunlink /  link 는 여기서 한다.\n\n\n \n모듈이 뭔가 부족해서 그런건가 싶어서 관련있을꺼 같은 모듈도 추가해봤다.\n\n\n돌아라 얍 !\n \n조금 바꾸고 다시 시도 조금 바꾸고 다시 시도\n하다보니 시간이 너무 많이 소모되네요\n시간낭비 갑인거 같습니다.\n결론\n쥐뿔도 되는거 없습니다.\nAdmob 으로 갑니다.\n \n3시간 더 소비해서 배너 붙였습니다.\n시작이 잘못되면 시간이 낭비되는군요.\n익숙한걸 해야겠습니다.",
+    "title": "vue motion-v defineComponent export 예제",
+    "description": "독립된 버튼 하나를 완성한 컴포넌트 소스이다.\nsetup 방식 말고 defineComponent 방식이 없어서 하나 올려본다.\n특징\nto 를 받아서 페이지 이동시켜주는데\npress 애니메이션을 볼 수 있도록 setTimeout 으로 0.5초 딜레이를 줬다.\n \nCODE\n<template>\n  <div class=\"mt-8\">\n    <motion.button\n      :while-hover=\"{ scale: 1.5, x: 50 }\"\n      :while-press=\"{ scale: 0.8 }\"\n      @click=\"delay_push(to)\"\n      class=\"tw_btn_detail\"\n    >\n      more detail\n    </motion.button>\n  </div>\n</template>\n<script lang=\"ts\">\n// components\\DetailButton.vue\nimport { motion } from \"motion-v\";\nimport { defineComponent } from \"vue\";\nimport { useRouter } from \"vue-router\";\nexport default defineComponent({\n  name: \"DetailButton\",\n  props: {\n    to: String,\n  },\n  components: {\n    \"motion.button\": motion.button,\n  },\n  data: () => {\n    const router = useRouter();\n    return {\n      router,\n    };\n  },\n  methods: {\n    delay_push(_to: string) {\n      setTimeout(() => {\n        this.router.push(_to);\n      }, 500);\n    },\n  },\n});\n</script>\n<style scope>\n.tw_btn_detail {\n  @apply rounded-full border-2 px-4 py-2;\n}\n</style>\nimport \nimport DetailButton from \"@/components/DetailButton.vue\";\ntemplate \n<DetailButton to=\"/af\">more detail</DetailButton>\n \n영상: https://youtu.be/SKlJDIWingw\n\n\n\n블링블링",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1299",
-    "pubDate": "Thu, 1 May 2025 14:35:04 +0900",
+    "link": "http://serverdown.tistory.com/1296",
+    "pubDate": "Wed, 30 Apr 2025 13:16:16 +0900",
     "creator": "SIDNFT",
     "categories": [
       "프로그래밍/개발메모",
-      "AdMob",
-      "unity"
+      "motion-v",
+      "VUE"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "How to Use Kotlin Notebooks for Productive Development ",
-    "description": "Kotlin Notebook is a new interactive environment for JVM developers. This article will cover the main Notebook features and how you can utilize them to improve your productivity.  How to use Kotlin Notebook Kotlin Notebook is bundled with IntelliJ IDEA starting from the 2025.1 release, and it is easier than ever to start working with […]",
+    "title": "Redis 8 에서의 AGPLv3 추가의 의미(오픈소스로의 리턴?)",
+    "description": "지금부터의 의견은 100% 내 개인적인 의견이다. 2024년 Redis 생태계에서 아주 충격적인 일이 일어났다. Redis 7.2.4 부터 Redis 의 오픈소스 라이센스가 기존의 BSDv3 에서 Redis Source Available License v2 (RSALv2) 와 Server Side Public License v1 (SSPLv1) 로 바꿔버린 것이다. 그러면서 Valkey 라는 Redis Fork 프로젝트가 새롭게 생겨나게 된 계기가 되었다. 먼저 RSALv2 와 SSPLv1 라이센스에 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/04/how-to-use-kotlin-notebooks-for-productive-development/",
-    "pubDate": "Mon, 28 Apr 2025 15:02:45 +0000",
-    "creator": "Ilya Muradyan",
+    "link": "https://charsyam.wordpress.com/2025/05/02/redis-8-%ec%97%90%ec%84%9c%ec%9d%98-agplv3-%ec%b6%94%ea%b0%80%ec%9d%98-%ec%9d%98%eb%af%b8%ec%98%a4%ed%94%88%ec%86%8c%ec%8a%a4%eb%a1%9c%ec%9d%98-%eb%a6%ac%ed%84%b4/",
+    "pubDate": "Fri, 02 May 2025 14:12:59 +0000",
+    "creator": "charsyam",
     "categories": [
-      "kotlin",
-      "tutorials",
-      "intellij-idea",
-      "kotlin-notebook"
+      "Uncategorized"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "토스, 온라인 디자인 컨퍼런스 ‘심플리시티’ 시즌 4 공개",
-    "description": "사용자 경험 개선 사례 공유하는 총 14개 세션, 디자이너 등 다양한 직군 참여",
+    "title": "라즈베리파이4 MariaDB 설치 및 외부 접속 설정 / Raspberry Pi 4 / RP4",
+    "description": "mysql 은 이제 없고 maria db 는 설치가 가능했다.\n둘은 어차피 호환이 되는 거라 고민없이 Maria db 넘어간다\n \n설치 명령어\napt-get update\napt-get upgrade\napt-cache search mariadb\napt-get install mariadb-server\n \n테스트 실행\n여기까지 오면 설치가 된것이다.\nmysql\nshow databases;\n이렇게 치면 db 리스트가 나오는데 이러면 동작하는 것이다.\n나가는 명령어는 \nexit\n다 ctrl-c 눌러도 안나가져서 고민했었다.\n \n외부 접속용 계정 만들기\nroot 는 그냥 두고 새 계정을 만들어 사용한다.\nCREATE USER 'pi_user'@'%' IDENTIFIED BY 'pi_user'; \nGRANT ALL PRIVILEGES ON *.* TO 'pi_user'@'%' WITH GRANT OPTION; \nFLUSH PRIVILEGES;\npi_user 를 만들었다. 암호 변경방법\nuse mysql; \nset password for 'pi_user'@'%' = password('새로운 암호'); \nflush privileges;\n암호는 이렇게 바꾸면 된다.\n \n서버의 포트 열기\npi 에는 방화벽이 없지만 maria db 가 bind 초기값이 127.0.0.1 이라 접속이 안되었다\n열린 포트를 확인한다. 처음엔 3306 이지만 확인하는 방법도 알면 좋을 것이다.\nSHOW GLOBAL VARIABLES LIKE 'PORT';\n3306 이라고 나온다.\nexit 로 쉘로 나가서 열린 포트를 확인한다.\n \n열린 포트 확인\nss -ltn | grep 3306\nLISTEN   0        80              127.0.0.1:3306\n127.0.0.1 로 보인다. 0.0.0.0 으로 열어야 외부접속을 받아 줄 것이다. 설정을 변경해보자\nnano /etc/mysql/mariadb.conf.d/50-server.cnf\nnano 로 이파일을 수정하자\n밑으로 내려가다보면 127~~~ 이 보인다.\nbind-address            = 127.0.0.1\n를\nbind-address            = 0.0.0.0\n로 고치고 저장\ndb 도 재시작해야한다.\nsystemctl restart mariadb\n \n다시 열린 포트 확인\nss -ltn | grep 3306 \nLISTEN 0      80           0.0.0.0:3306      0.0.0.0:*\n0.0.0.0 으로 잘 고쳐졌다.\nHeidiSQL 을 꺼내 접속해보니 잘되었다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/simplicity4",
-    "pubDate": "Mon, 28 Apr 2025 23:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://serverdown.tistory.com/1302",
+    "pubDate": "Sun, 4 May 2025 17:59:35 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "mariadb",
+      "MySQL",
+      "pi4"
+    ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths",
-    "description": "The 1.25 release of the C++ extension in Visual Studio Code introduces a new way to understand your code faster with GitHub Copilot-powered symbol summaries, as well as new customization options for recursive #include path processing. With these enhancements, you gain AI-powered insights into unfamiliar or undocumented code and can optimize IntelliSense performance based on […]\nThe post VS Code C++ Extension 1.25 Release:  Explain C++ symbols using Copilot & Customize recursive include paths appeared first on C++ Team Blog.",
+    "title": "63,000건 배치 처리 중 락 유발 이슈 회고",
+    "description": "운영 서버에서 63,000건의 이미지 배치 작업 중 락이 발생하며 장애가 발생했다. 처음 겪는 규모 있는 데이터 처리 이슈였고, 원인은 단순하지만 치명적이었다. 이 글은 그 문제의 원인, 해결, 그리고 회고를 정리한 실무 경험 공유이다.\n배경\n이번에 회사에서 진행했던 프로젝트는 승인서버 프로젝트이다. 승인서버 프로젝트는 외부 연동으로 들어온 데이터를 우리 관리 시스템으로 들어오기 전에 검수하는 시스템을 구축하는 프로젝트다.\n\n크게 보면 이렇게 볼 수 있다. \n여기서 내가 한 일 중 하나는 이미지 배치 처리 기능의 설계 및 구현이다. 주요 작업은 다음과 같다.\nS3 이미지 업로드를 위한 비동기 배치 모듈 개발\n1시간 단위로 실행되는 이미지 배치 작업: INIT, FAIL 상태이며 재시도 횟수가 1 이하인 프로덕트/아이템 이미지를 대상으로 처리\n특정 프로덕트 단위의 재연동 기능 구현: 선택된 프로덕트의 INIT, FAIL 상태 이미지만 재처리하며, 재시도 제한 없음\n이미지 업로드 후 상태 및 재시도 관리\n업로드 성공 시: retry 횟수 증가 + 상태 COMPLETE로 변경\n업로드 실패 시: retry 횟수 증가 + 상태 FAIL 유지 및 슬랙 알림 전송\n배치를 적용한 이유\n2차 승인 단계에서 등록되는 각 프로덕트/아이템은 여러 개의 이미지를 포함하고 있으며, 이 이미지들은 모두 AWS S3에 업로드되어야 한다. 초기에는 등록 시점에 실시간으로 이미지를 업로드하는 방식도 고려했지만, 아래와 같은 이유로 배치 처리 방식을 도입하게 되었다.\n성능 이슈\n이미지 업로드는 네트워크 I/O와 S3 API 호출이 포함된 작업으로, 처리 시간이 길다. 이를 실시간으로 수행할 경우 등록 속도가 느려지고, 사용자 경험에도 부정적인 영향을 줄 수 있다.\n처리 안정성 확보\n등록 도중 이미지 업로드에 실패하면 전체 등록이 실패할 수 있다. 배치로 처리하면 실패한 이미지에 한해 재처리할 수 있어 안정적인 처리가 가능하다.\nS3 요청 비용 최적화\nAWS S3는 요청 건수에 따라 비용이 발생한다. 실시간으로 이미지를 업로드할 경우, 이미지 수만큼 S3 요청이 발생하고, 트래픽이 많아질수록 비용도 크게 증가한다.\n배치 처리 방식은 요청을 모아서 처리하기 때문에 네트워크 연결 및 클라이언트 설정을 재사용할 수 있고, 요청 효율을 높여 비용 절감과 처리 흐름 단순화에 기여한다.\n이러한 이유로 이미지 업로드 작업을 프로덕트/아이템 등록 시점이 아닌 배치 처리로 전환하게 되었고, 해당 로직의 설계와 구현은 내가 직접 맡아 수행하였다.\n장애 발생 및 대응\n시원한 음료 한 잔 마시며 한숨 돌리고 있던 그 때\n경고가 떴다!!!!!!\n\n락이 걸린다고? 갑자기?? 배치에서??? 왜???\n범인은 나였다. 나야 나...(내가 그 주인공이 될 줄은 몰랐다)\n원인\n이미지 업로드를 시키는 과정은 사실 단순하다. \n1) INIT,FAIL 상태 & 재시도 1 이하인 임시이미지 조회\n2) 해당 이미지 S3에 업로드\n3) 해당 이미지 상태, 재시도 개수 수정 저장\n근데 문제는 내가 데이터의 규모를 예상치 못하고 조회시 관련 모든 데이터를 가져오게 만들었다는 것이다. 사실 이것만 봤을때는 뭐가 문제인데 할 수 있다. 관련 모든 데이터를 가져오는게 맞잖아?\n그러나.. 데이터의 양이 6만 3천개라면?\n\n왜 락이 걸렸을까?\n쉽게 말하면 6만개의 데이터를 수정하면서도 저장(flush)를 미루니까 트랜잭션이 너무 길어지고 락이 오래 유지되는 상황에서 동시에 같은 row에 접근하려는 다른 트랜잭션과 충돌이 발생하게 된것이다. \n정리하면, 다음 세 가지가 문제의 핵심이었다:\n한 번에 모든 데이터를 불러옴 (6만 건)\n처리 중간에 flush 없이 트랜잭션을 유지\nDB 업데이트가 지연되면서 row-level lock 충돌 발생\n해결법\npage 단위로 chunk 100개씩 가져와서 락을 빨리 빨리 해제하도록 수정하였다. \nAS_IS \nTO_BE\n\n후기\n해결 방법은 단순했다. 데이터를 페이지 단위로 나눠서 처리하면 되는 일이었다. 하지만 처음에는 그 방식이 떠오르지 않았다. 테스트 환경에서는 문제없이 동작했고, 실제 운영에서 63,000건이 넘는 데이터가 한 번에 들어올 거라고는 예상하지 못했기 때문이다.\n이번 일을 통해 대규모 데이터 처리에서의 사소한 설계 차이가 시스템 안정성에 큰 영향을 줄 수 있다는 점을 몸소 깨달았다. 특히 다음 두 가지를 깊이 체감했다:\n운영 환경 데이터를 기준으로 사고할 것\n트랜잭션은 짧고 명확하게 유지할 것\n실제 장애는 대량 데이터를 한꺼번에 처리하면서 트랜잭션이 길어지고, 그로 인해 DB 락 충돌이 발생한 것이 원인이었다. 이후 100건 단위로 나눠 처리하는 방식으로 개선하면서 락 점유 시간을 줄일 수 있었다.\n단순한 설계 실수도 큰 장애로 이어질 수 있다는 점을 다시금 느꼈고, 앞으로는 더 철저하게 사고하고 검증해야겠다는 다짐을 하게 된 경험이었다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/vs-code-c-extension-1-25-release-explain-c-symbols-using-copilot-customize-recursive-include-paths/",
-    "pubDate": "Wed, 30 Apr 2025 23:31:17 +0000",
-    "creator": "Alexandra Kemper, Sinem Akinci",
-    "categories": [
-      "C++",
-      "Copilot",
-      "performance",
-      "Visual Studio Code"
-    ]
+    "link": "https://velog.io/@sweet_sumin/63000%EA%B1%B4-%EB%B0%B0%EC%B9%98-%EC%B2%98%EB%A6%AC-%EC%A4%91-%EB%9D%BD-%EC%9C%A0%EB%B0%9C-%EC%9D%B4%EC%8A%88-%ED%9A%8C%EA%B3%A0",
+    "pubDate": "Fri, 02 May 2025 08:02:37 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "가정의 달 콘텐츠➀ 함께 살아가기 위해서는 계산이 필요하다",
-    "description": "부부를 위한 콘텐츠 큐레이션",
+    "title": "Gradle Build Cache에 S3 활용하기",
+    "description": "<p>팀에서 Kotlin, Spring Boot 기반의 수십개의 마이크로서비스를 모노레포에 운영하고 있습니다. 멀티 레포 프로젝트에 비해 방대한 맥락과 코드가 한 곳에 모여있다보니 작성한 코드를 빌드하는 과정에서 병목이 생기기도 합니다. 그리고 CI 머신의 리소스를 여러 서비스가 공유하고 있다면 빌드 시간이 길어지는건, 다른 서비스의 빌드 시간에도 영향을 주는 구조가 됩니다. 결국 이 문제는 <em>사용자에게 더 빠르게 가치를 제공해야 한다</em>는 팀의 개발 철학과 멀어지는 결과를 야기한다.</p>\n\n<p>이렇듯 빌드 속도가 제품 개발에 영향을 미치고 있다면, 간단한 설정만으로 빌드 결과물을 캐싱해놓고 재사용할 수 있는 Gradle Build Cache를 도입해보면 좋다. 이 플러그인은 Gradle Build Cache를 AWS S3에 저장해놓고 재사용함으로써 빌드 시간을 단축시킬 수 있게 도와줍니다. 적용 결과 적게는 2배, 많게는 10배 이상까지 빌드 시간이 단축되었습니다.</p>\n\n<p>(CI를 Github Action에서 수행한다고 가정하고 작성하였습니다.)</p>\n\n<h3 id=\"awss3buildcache-적용하기\">AwsS3BuildCache 적용하기</h3>\n\n<p><code class=\"language-plaintext highlighter-rouge\">settings.gradle.kts</code> 파일에 아래와 같이 Github Action에서 빌드 수행시 Remote(S3) 저장소로 빌드 결과물이 저장될 수 있도록 설정한다. Gradle Build Task 수행 단계에서 빌드 결과물을 자동으로 Local 또는 Remote로 저장할 수 있다.</p>\n\n<div class=\"language-kotlin highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"nf\">plugins</span> <span class=\"p\">{</span>\n    <span class=\"nf\">id</span><span class=\"p\">(</span><span class=\"s\">\"com.github.burrunan.s3-build-cache\"</span><span class=\"p\">)</span> <span class=\"n\">version</span> <span class=\"s\">\"1.9.0\"</span>\n<span class=\"p\">}</span>\n\n<span class=\"c1\">// GITHUB ACTION 에서 수행되었으면 \"true\"</span>\n<span class=\"c1\">// https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables#default-environment-variables</span>\n<span class=\"kd\">val</span> <span class=\"py\">isGithubAction</span> <span class=\"p\">=</span> <span class=\"nc\">System</span><span class=\"p\">.</span><span class=\"nf\">getenv</span><span class=\"p\">(</span><span class=\"s\">\"GITHUB_ACTIONS\"</span><span class=\"p\">)</span> <span class=\"p\">==</span> <span class=\"s\">\"true\"</span>\n\n<span class=\"nf\">buildCache</span> <span class=\"p\">{</span>\n    <span class=\"c1\">// GITHUB ACTION 에서 수행된 경우가 아니면 Local Cache 사용</span>\n    <span class=\"nf\">local</span> <span class=\"p\">{</span>\n        <span class=\"n\">isEnabled</span> <span class=\"p\">=</span> <span class=\"n\">isGithubAction</span><span class=\"p\">.</span><span class=\"nf\">not</span><span class=\"p\">()</span>\n    <span class=\"p\">}</span>\n\n    <span class=\"c1\">// GITHUB ACTION 에서 수행되었으면 Remote Cache(S3) 사용</span>\n    <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"n\">isGithubAction</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n        <span class=\"n\">remote</span><span class=\"p\">&lt;</span><span class=\"n\">com</span><span class=\"p\">.</span><span class=\"n\">github</span><span class=\"p\">.</span><span class=\"n\">burrunan</span><span class=\"p\">.</span><span class=\"n\">s3cache</span><span class=\"p\">.</span><span class=\"nc\">AwsS3BuildCache</span><span class=\"p\">&gt;</span> <span class=\"p\">{</span>\n            <span class=\"n\">region</span> <span class=\"p\">=</span> <span class=\"s\">\"your-aws-region\"</span>\n            <span class=\"n\">bucket</span> <span class=\"p\">=</span> <span class=\"s\">\"your-aws-s3-bucket\"</span>\n            <span class=\"n\">prefix</span> <span class=\"p\">=</span> <span class=\"s\">\"gradle/build/$YourProjectName/\"</span>\n            <span class=\"n\">isPush</span> <span class=\"p\">=</span> <span class=\"k\">true</span>\n            <span class=\"n\">lookupDefaultAwsCredentials</span> <span class=\"p\">=</span> <span class=\"k\">true</span>\n        <span class=\"p\">}</span>\n    <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div></div>\n\n<p>Groovy를 사용중이라면 아래와 같이 적용하면 된다.</p>\n\n<div class=\"language-groovy highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"n\">plugins</span> <span class=\"o\">{</span>\n    <span class=\"n\">id</span> <span class=\"s2\">\"com.github.burrunan.s3-build-cache\"</span> <span class=\"n\">version</span> <span class=\"s2\">\"1.9.0\"</span>\n<span class=\"o\">}</span>\n\n<span class=\"kt\">def</span> <span class=\"n\">isGithubAction</span> <span class=\"o\">=</span> <span class=\"n\">System</span><span class=\"o\">.</span><span class=\"na\">getenv</span><span class=\"o\">(</span><span class=\"s2\">\"GITHUB_ACTIONS\"</span><span class=\"o\">)</span> <span class=\"o\">==</span> <span class=\"s2\">\"true\"</span>\n\n<span class=\"n\">buildCache</span> <span class=\"o\">{</span>\n    <span class=\"n\">local</span> <span class=\"o\">{</span>\n        <span class=\"n\">enabled</span> <span class=\"o\">=</span> <span class=\"o\">!</span><span class=\"n\">isGithubAction</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"k\">if</span> <span class=\"o\">(</span><span class=\"n\">isGithubAction</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"n\">remote</span><span class=\"o\">(</span><span class=\"n\">com</span><span class=\"o\">.</span><span class=\"na\">github</span><span class=\"o\">.</span><span class=\"na\">burrunan</span><span class=\"o\">.</span><span class=\"na\">s3cache</span><span class=\"o\">.</span><span class=\"na\">AwsS3BuildCache</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n            <span class=\"n\">region</span> <span class=\"o\">=</span> <span class=\"s2\">\"your-aws-region\"</span>\n            <span class=\"n\">bucket</span> <span class=\"o\">=</span> <span class=\"s2\">\"your-aws-s3-bucket\"</span>\n            <span class=\"n\">prefix</span> <span class=\"o\">=</span> <span class=\"s2\">\"gradle/build/$YourProjectName/\"</span>\n            <span class=\"n\">push</span> <span class=\"o\">=</span> <span class=\"kc\">true</span>\n            <span class=\"n\">lookupDefaultAwsCredentials</span> <span class=\"o\">=</span> <span class=\"kc\">true</span>\n        <span class=\"o\">}</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div></div>\n\n<h3 id=\"선택-gradle-build-cache-옵션-활성화하기\">(선택) Gradle Build Cache 옵션 활성화하기</h3>\n\n<p>Gradle 6.0 이상부터는 빌드시 Cache가 기본적으로 활성화되어 있는데, 하위 버전을 사용하고 있다면 빌드 커맨드에 <code class=\"language-plaintext highlighter-rouge\">--build-cache</code> 옵션을 추가해서 <code class=\"language-plaintext highlighter-rouge\">./gradlew build --build-cache</code> 로 실행하면 된다.</p>\n\n<p>아니면 <code class=\"language-plaintext highlighter-rouge\">gradle.properties</code> 파일에 아래 설정을 추가하면 Gradle의 캐시 사용을 명시적으로 표현할 수 있다.</p>\n\n<div class=\"language-plaintext highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>org.gradle.caching=true\n</code></pre></div></div>\n\n<h3 id=\"선택-로컬-환경에서-build-cache-활성화하기\">(선택) 로컬 환경에서 Build Cache 활성화하기</h3>\n\n<p>만약 로컬 환경에서도 S3 Build Cache를 사용하고 싶다면, 관리와 비용 측면에서 Cache Push는 CI에서만 호도록 아래 설정처럼 사용하기를 권장합니다. 빈번한 캐시 업로드와 다운로드로 인해 S3 사용량 증가로 인해 트래픽과 과금에 영향을 줄 수 있습니다.</p>\n\n<div class=\"language-kotlin highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"kd\">val</span> <span class=\"py\">isGithubAction</span> <span class=\"p\">=</span> <span class=\"nc\">System</span><span class=\"p\">.</span><span class=\"nf\">getenv</span><span class=\"p\">(</span><span class=\"s\">\"GITHUB_ACTIONS\"</span><span class=\"p\">)</span> <span class=\"p\">==</span> <span class=\"s\">\"true\"</span>\n\n<span class=\"nf\">buildCache</span> <span class=\"p\">{</span>\n    <span class=\"nf\">local</span> <span class=\"p\">{</span>\n        <span class=\"c1\">// CI는 로컬 캐시 비활성화</span>\n        <span class=\"n\">isEnabled</span> <span class=\"p\">=</span> <span class=\"p\">!</span><span class=\"n\">isGithubAction</span>\n    <span class=\"p\">}</span>\n\n    <span class=\"n\">remote</span><span class=\"p\">&lt;</span><span class=\"n\">com</span><span class=\"p\">.</span><span class=\"n\">github</span><span class=\"p\">.</span><span class=\"n\">burrunan</span><span class=\"p\">.</span><span class=\"n\">s3cache</span><span class=\"p\">.</span><span class=\"nc\">AwsS3BuildCache</span><span class=\"p\">&gt;</span> <span class=\"p\">{</span>\n        <span class=\"n\">region</span> <span class=\"p\">=</span> <span class=\"s\">\"your-aws-region\"</span>\n        <span class=\"n\">bucket</span> <span class=\"p\">=</span> <span class=\"s\">\"your-aws-s3-bucket\"</span>\n        <span class=\"n\">prefix</span> <span class=\"p\">=</span> <span class=\"s\">\"gradle/build/$YourProjectName/\"</span>\n        <span class=\"c1\">// 로컬은 pull-only, CI만 push 허용</span>\n        <span class=\"n\">isPush</span> <span class=\"p\">=</span> <span class=\"n\">isGithubAction</span>\n        <span class=\"n\">lookupDefaultAwsCredentials</span> <span class=\"p\">=</span> <span class=\"k\">true</span>\n    <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div></div>\n\n<h3 id=\"references\">References</h3>\n\n<ul>\n  <li><a href=\"https://github.com/burrunan/gradle-s3-build-cache\">burrunan/gradle-s3-build-cache</a></li>\n  <li><a href=\"https://docs.gradle.org/current/userguide/build_cache.html#sec:build_cache_configure\">Configure the Build Cache</a></li>\n  <li><a href=\"https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables#default-environment-variables\">Store information in variables - GitHub Docs</a></li>\n</ul>",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/2025may-curation",
-    "pubDate": "Mon, 28 Apr 2025 00:30:00 GMT",
+    "link": "https://sungjk.github.io/2025/05/01/gradle-build-remote-cache.html",
+    "pubDate": "2025-05-01T00:00:00+00:00",
     "creator": "Unknown",
     "categories": []
   }
