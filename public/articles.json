@@ -2,48 +2,143 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "주말작업 - 라즈베리파이 서버 설치 / HTTPS &amp; TCP 서버 배포 / mysql 설치 / drizzle orm",
-    "description": "묵혀둔 라스베리파이 다시 꺼냈습니다.\n4년동안 별 활용도 없이 조금 해보다 말고를 반복했는데 이번엔 진짜로 갑니다.\n \n \n\n\nHTTPS 서비스\n라즈베리파이 꺼내서 서버 설치하고 node.js 로 https 서버도 띄웠습니다.\n주소는 공유기에서 제공하는 DDNS 인가? 하는 이름 서비스 받아왔구요\nletsencrypt 의 webroot 방식으로 인증 받아 사용중입니다.\n진작 이렇게 쓸껄 돌아돌아 여기까지 왔네요\nhttps 주소: https://sid123.tplinkdns.com/\n기능은 없고 표시만 된다 수준입니다.\n \nTCP 서버\ntelnet sid123.tplinkdns.com 3001\n입력하고 엔터치면 echo 해 줍니다.\n되는지만 확인한거라\n \n\n\nMYSQL 설치 & drizzle orm\nmysql 이 없어졌고 mariaDB 가 생겼습니다. \n둘은 호환 되는거라 기능은 동일합니다.\norm 을 사용해 보려고 설치한거라 별 문제는 없었습니다.\n\n\nDRIZZLE ORM 은 코드로 db 를 관리하는 방식을 말합니다.\n코드에 테이블을 만들면 db 에도 테이블이 생기고 코드를 고치면 db 도고쳐지고\n자동완성도 되고 그런식입니다.\n처음부터 제대로 테이블을 만들 수 없고 쿼리오류가 나서 몇가지 기능은  빼버렸습니다.\n겨우 select insert 만 해서 놔둔 상태입니다.\nDRIZZLE 은 최근에 나온 ORM 인데 문제가 좀 있습니다.\n날짜가 UTC 기반으로 저장되는데 다르게 저장할 방법도 없습니다.\n그냥 저장할때 마다 UTC 에 + 9시간 더하던지 해야하는거 같은데\n좀더 써봐야겠습니다. 진지한 서비스는 아직 못할 수준이군요",
+    "title": "eBay Uses Agentic AI to Supercharge Personalized Ecommerce",
+    "description": "eBay is fueling a more relevant, tailored shopping experience.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1304",
-    "pubDate": "Mon, 5 May 2025 00:22:04 +0900",
-    "creator": "SIDNFT",
+    "link": "https://innovation.ebayinc.com/stories/ebay-uses-agentic-ai-to-supercharge-personalized-ecommerce/",
+    "pubDate": "Tue, 06 May 2025 00:00:00 -0700",
+    "creator": "eBay News Team",
     "categories": [
-      "drizzle",
-      "ORM",
-      "라즈베리파이",
-      "서버"
+      "article"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "토스, 틴즈 누적 가입자 300만 명 돌파",
-    "description": "10대 청소년의 대표 금융 서비스",
+    "title": "AI PC, AI 노트북 - 지금 구매해야 할까? 알아두면 좋은 5가지 진실",
+    "description": "요즘 AI PC 열풍이 불고 있는데, 솔직히 그거 지금 필요 없을 수도 있어요. 왜 지금 AI PC 구매를 미뤄도 괜찮은지, 제가 알아본 진짜 이유들을 공유할게요. 과소비 전에 꼭 읽어보세요!  \n\n\n \n여러분, 요즘 컴퓨터 매장만 가도 'AI PC'라는 단어가 안 보이는 곳이 없더라고요. 마치 이거 안 사면 뒤처지는 것 같은 느낌이랄까... 근데 말이죠, 잠깐! 과연 지금 당장 AI PC가 필요한 걸까요? 솔직히 저도 한 번쯤 끌렸지만, 좀 더 깊이 알아보니 생각보다 복잡한 문제더라고요.\n \n지난주에 오랜만에 친구를 만났는데, 걔가 막 새로운 AI PC 샀다고 자랑하는데 왠지 모르게 그냥 평범해 보이더라고요. \"야, 이게 뭐가 특별해?\" 했더니 눈치 좀 보더라구요.   사실 저도 궁금해서 이것저것 찾아봤는데, 생각보다 복잡한 이야기더라고요.\n \nAI PC란 뭐냐면요, 기본적으로 온디바이스 AI 작업을 처리할 수 있는 NPU(Neural Processing Unit)가 내장된 컴퓨터를 말합니다. 인텔이나 AMD, 퀄컴 같은 회사들이 NPU를 탑재한 프로세서를 출시하면서 AI PC 시장을 이끌고 있어요.\n근데 여기서 제가 좀 의문이 들었어요. \"과연 지금 당장 이게 필요할까?\" 이 질문에 대한 답을 찾다 보니, 의외로 많은 사람들이 AI PC 구매를 서두르지 않아도 되는 이유가 있더라고요. 한번 같이 살펴볼까요?\n \n왜 지금 AI PC가 필요 없을 수도 있는지 솔직히 말해볼게요  \n1. 현재는 AI PC를 위한 앱이 많지 않아요\n사실 가장 큰 문제는 AI PC의 성능을 제대로 활용할 수 있는 앱이 아직 많지 않다는 거예요. 마이크로소프트의 코파일럿+ 기능이나 어도비의 AI 기능 같은 것들이 있긴 하지만, 아직까지는 제한적이에요. 솔직히 말해서 대부분의 일반 사용자들은 이런 기능이 없어도 별 불편함을 못 느낄 수도 있어요.\n제가 실제로 디자인 업무를 하는 친구한테 물어봤는데, \"그거 없어도 지금 하던 작업 다 할 수 있어\"라고 하더라고요. 물론 앞으로는 상황이 달라지겠지만, 당장은... 음... 그닥?\n2. 클라우드 AI도 충분히 좋아요\n요즘은 클라우드 기반 AI 서비스가 정말 잘 되어 있어요. ChatGPT, Claude, 구글 Gemini 같은 서비스들이 대표적인데, 이런 서비스들은 우리가 가진 기기의 성능에 상관없이 강력한 AI 기능을 제공해 줘요. 굳이 비싼 하드웨어를 구매하지 않아도, 인터넷만 연결되어 있다면 이런 서비스들을 활용할 수 있다는 거죠.\n작년에 제가 오래된 노트북으로도 ChatGPT 잘만 썼거든요. 버벅거림도 없었고, 솔직히 온디바이스 AI가 주는 장점을 크게 못 느꼈어요. 물론 오프라인에서도 AI를 써야 한다면 이야기가 달라지겠지만, 대부분의 상황에선 클라우드 AI로도 충분하더라고요.\n3. 성능이 계속 발전 중이에요\n기술은 항상 발전해요. 지금 출시된 첫 세대 AI PC보다 앞으로 출시될 모델들이 더 강력하고 효율적일 가능성이 높아요. 특히 NPU 성능은 앞으로 더 발전할 여지가 많죠.\n제 경험상, 신기술이 나오면 1~2년 정도 기다렸다가 구매하는 게 좋더라고요. 초기 모델은 항상 문제가 있기 마련이고, 가격도 비싸고... 조금만 기다리면 더 좋은 성능에 더 저렴한 가격으로 살 수 있으니까요.\n4. 기존 PC도 AI 작업 가능해요\n사실 NPU가 없어도 AI 작업이 불가능한 건 아니에요. 현대의 CPU와 GPU도 AI 작업을 처리할 수 있어요. 물론 NPU만큼 효율적이진 않지만, 대부분의 일반적인 AI 작업은 기존 하드웨어로도 충분히 가능해요.\n제 컴퓨터도 꽤 오래됐는데, 스테이블 디퓨전 같은 AI 이미지 생성 프로그램도 돌아가고, 간단한 AI 모델도 실행할 수 있더라고요. 물론 좀 느리긴 하지만... 쓸 수는 있어요.\n5. 배터리 효율성은 아직 검증 중이에요\n제조사들은 AI PC가 배터리 효율성을 높여준다고 주장하지만, 실제 사용 환경에서 이것이 얼마나 효과적인지는 아직 완전히 검증되지 않았어요. 특히 NPU를 활용하는 앱이 많지 않은 상황에서는 배터리 효율 향상을 체감하기 어려울 수 있어요.\n얼마 전에 AI PC를 구매한 동료가 있는데, 배터리 지속 시간이 기존 노트북과 크게 다르지 않다고 하더라고요. \"그니까요, 광고에서 말하는 것만큼 혁신적이진 않아요.\" 라고 말하더라구요.\n \n그럼 언제 AI PC가 필요할까요?  \n물론, 모든 사람에게 AI PC가 불필요하다는 건 아니에요. 특정 상황에서는 지금이라도 AI PC가 유용할 수 있어요:\n개발자나 연구자: AI 모델을 직접 개발하거나 테스트하는 사람들에게는 온디바이스 NPU가 유용할 수 있어요.\n프라이버시 중시: 모든 AI 작업을 로컬에서 처리하고 싶어서 클라우드 서비스를 신뢰하지 않는 사용자들에게는 AI PC가 좋은 선택일 수 있어요.\n얼리어답터: 새로운 기술을 가장 먼저 경험하고 싶은 분들이라면, 첫 세대 AI PC도 충분히 매력적일 수 있겠죠.\n특정 AI 앱 사용자: 코파일럿+나 어도비의 온디바이스 AI 기능을 적극적으로 활용하는 사용자라면 AI PC가 유용할 수 있어요.\n\n\n미래는 AI PC의 것일까요?  \n솔직히 AI PC는 분명 미래의 트렌드가 될 거예요. 업계 전문가들도 2025년부터 AI PC 시장이 본격적으로 성장할 것으로 예측하고 있고, 더 많은 앱과 서비스가 NPU를 활용하게 될 거예요. 그렇기 때문에 결국에는 대부분의 PC가 AI PC가 될 가능성이 높아요.\n하지만 지금 당장은... 음... 좀 지켜봐도 괜찮지 않을까요? 기술은 항상 발전하고, 첫 세대 제품은 항상 시행착오를 겪기 마련이니까요. 제 개인적인 생각으론, 대부분의 사용자들은 1-2년 정도 더 기다렸다가 AI PC 시장이 성숙해지고 관련 앱 생태계가 더 발전한 후에 구매해도 늦지 않을 것 같아요.\n여러분은 어떻게 생각하세요? 이미 AI PC를 구매하셨나요, 아니면 기다리고 계신가요? 댓글로 의견 공유해 주시면 좋겠어요!  \n자주 묻는 질문 (FAQ)\nQ: AI PC와 일반 PC의 가장 큰 차이점은 무엇인가요?\nA: NPU(Neural Processing Unit)의 유무입니다. AI PC는 AI 작업을 전용으로 처리하는 NPU가 탑재되어 있습니다.\nQ: NPU가 없어도 AI 작업이 가능한가요?\nA: 네, 가능합니다. 기존 CPU와 GPU로도 AI 작업을 처리할 수 있지만, 효율성 측면에서는 NPU보다 떨어질 수 있습니다.\nQ: AI PC가 제공하는 실질적인 장점은 무엇인가요?\nA: 온디바이스 AI 처리 능력, 프라이버시 강화, 오프라인 환경에서의 AI 사용, 이론적으로는 더 나은 배터리 효율성 등이 있습니다.\nQ: 일반 사용자도 AI PC가 필요한가요?\nA: 현재로서는 대부분의 일반 사용자에게 필수적이지 않습니다. 클라우드 AI 서비스로도 충분히 많은 기능을 이용할 수 있습니다.\nQ: 언제쯤 AI PC가 대중화될까요?\nA: 업계 전망에 따르면 2025년부터 본격적으로 시장이 성장할 것으로 예상됩니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI PC와 일반 PC의 가장 큰 차이점은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"NPU(Neural Processing Unit)의 유무입니다. AI PC는 AI 작업을 전용으로 처리하는 NPU가 탑재되어 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"NPU가 없어도 AI 작업이 가능한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 가능합니다. 기존 CPU와 GPU로도 AI 작업을 처리할 수 있지만, 효율성 측면에서는 NPU보다 떨어질 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI PC가 제공하는 실질적인 장점은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"온디바이스 AI 처리 능력, 프라이버시 강화, 오프라인 환경에서의 AI 사용, 이론적으로는 더 나은 배터리 효율성 등이 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"일반 사용자도 AI PC가 필요한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재로서는 대부분의 일반 사용자에게 필수적이지 않습니다. 클라우드 AI 서비스로도 충분히 많은 기능을 이용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"언제쯤 AI PC가 대중화될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"업계 전망에 따르면 2025년부터 본격적으로 시장이 성장할 것으로 예상됩니다.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/teens_",
-    "pubDate": "Wed, 07 May 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://muzbox.tistory.com/483578",
+    "pubDate": "Tue, 6 May 2025 18:50:11 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "신제품 리뷰/컴퓨터",
+      "AI PC",
+      "ai 앱 생태계",
+      "AI노트북",
+      "NPU",
+      "개인정보 보호",
+      "배터리 효율성",
+      "온디바이스 AI",
+      "첫 세대 기술",
+      "코파일럿+",
+      "클라우드 ai"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "[PS5] 능동적이고 액션 중심적 변화 그리고 메시지, '데스 스트랜딩 2'",
-    "description": "No description available",
+    "title": "MLB를 살리러 온 구원자, 이정후와 오타니",
+    "description": "메이저리그의 캐시카우로 떠오른 한국과 일본",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2302",
-    "pubDate": "Thu, 08 May 2025 16:01:23 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "프리뷰"
-    ]
+    "link": "https://blog.toss.im/article/moneyball-2",
+    "pubDate": "Fri, 09 May 2025 04:35:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 4,
+    "imageUrl": "",
+    "title": "AI 부정행위로 아마존 합격한 21세 한인, 75억 투자 받고 데이트까지 속여 논란",
+    "description": "\"계산기도, 스펠체크도, 구글도 처음엔 치팅이라 불렸습니다. 이제 AI가 그 자리를 대신할 차례입니다.\"\n이 도발적인 말의 주인공은 콜롬비아대 출신 21세 한인 청년 이정인(Chungin “Roy” Lee)입니다. 그는 최근 실리콘밸리를 뒤흔든 AI 스타트업 'Cluely’의 공동창업자로, 자신이 개발한 AI 치팅툴로 아마존 인턴십 면접에 합격한 후 530만 달러(약 75억 원)의 투자금을 유치하며 세계적 화제의 중심에 섰습니다.\nAI로 빅테크 면접을 속이다\n이정인의 여정은 단순한 코딩 프로젝트에서 시작됐습니다. 그는 'Interview Coder'라는 AI 도구를 개발해 아마존의 화상 코딩 면접에 활용했습니다. 이 도구는 브라우저에 보이지 않는 오버레이 창을 띄워 면접관 모르게 실시간으로 답변과 코드를 제공했고, 이정인은 이를 통해 인턴십에 합격했습니다.\n놀라운 점은 그가 이 과정을 유튜브에 공개했다는 사실입니다. \"How I Cheated My Amazon Interview\"라는 제목의 영상은 순식간에 바이럴 히트를 기록했고, 이는 곧 그의 인생을 바꿔놓았습니다.\n정학 처분과 창업의 길\n영상이 화제가 되자 콜롬비아대학교는 이정인에게 정학 처분을 내렸고, 아마존에서도 인턴십 제안이 취소되었습니다. 하지만 이정인과 공동창업자 닐 샨무감(Neel Shanmugam)은 좌절하지 않았습니다. 이들은 해당 기술을 발전시켜 'Cluely’라는 스타트업을 설립했습니다.\n\"Cheat on everything(모든 것을 치팅하라)\"이라는 도발적인 슬로건을 내건 Cluely는 면접뿐 아니라 시험, 영업, 심지어 데이트까지 AI가 실시간으로 코칭해주는 서비스를 출시했습니다. 출시 직후 7만 명의 사용자가 몰렸고, 2025년 4월 기준 월 300만 달러의 연간 반복 수익(ARR)을 기록하며 Abstract Ventures와 Susa Ventures로부터 530만 달러의 시드 투자를 유치했습니다.\n$5 million to change the definition of the word \"cheating\"https://t.co/rJuDbS1eC5 https://t.co/BMbBnz1fTE\n— Roy (@im_roy_lee) April 21, 2025\n \n\n데이트까지 치팅? 논란의 확산\nCluely의 마케팅 영상은 더 큰 논란을 일으켰습니다. 이정인이 스마트글라스를 착용하고 데이트 자리에서 AI의 실시간 코칭을 받아 상대방에게 나이와 예술 지식 등을 속이는 장면이 등장한 것입니다. 비록 연출된 광고였지만, 이 영상은 \"AI가 인간관계까지 조작하는 디스토피아적 미래\"에 대한 우려를 증폭시켰습니다.\nReddit, X(트위터), LinkedIn 등 해외 커뮤니티에서는 \"블랙미러 에피소드 같다\", \"21세기 디지털 사기극\"이라는 비판이 쏟아졌고, Morning Brew, Business Insider 등 주요 매체들도 AI 치팅툴이 가져올 신뢰와 진정성의 붕괴를 우려하는 기사를 연이어 보도했습니다.\nCluely is out. cheat on everything. pic.twitter.com/EsRXQaCfUI\n— Roy (@im_roy_lee) April 20, 2025\n \n혁신인가, 위협인가?\nCluely 측은 \"AI는 인간의 경쟁자가 아니라 협업 파트너\"라며, 암기·코딩·리서치 등 반복적 작업은 AI에 맡기고 인간은 더 창의적인 일에 집중해야 한다고 주장합니다. 일부 투자자와 기술 옹호자들도 \"시험·면접 시스템의 구식성과 비효율성\"을 지적하며 변화의 필요성을 강조합니다.\n반면 교육계와 기업들은 \"실력과 신뢰 기반의 사회 시스템이 붕괴될 수 있다\"며 경계심을 늦추지 않고 있습니다. 특히 원격 면접·시험의 신뢰성, AI 활용의 윤리적 경계, 개인정보 보호 등 다양한 문제가 제기되고 있습니다.\nAI 시대, 우리의 선택은?\nCluely 사건은 단순한 기술 논쟁을 넘어, AI가 우리 사회의 근간인 신뢰와 진정성, 공정성에 미치는 영향을 생각하게 합니다. 기술의 발전이 곧 규범의 변화로 이어질지, 아니면 새로운 규제가 등장할지, AI 시대의 공정성과 혁신의 균형은 어떻게 재정립될지 주목할 필요가 있습니다.\n이정인의 말처럼 AI도 결국 계산기나 스펠체크처럼 일상적 도구가 될까요? 아니면 인간의 진정한 역량과 관계를 위협하는 존재가 될까요? AI와 함께하는 미래, 우리는 어떤 기준과 가치를 지켜야 할지 깊은 고민이 필요한 시점입니다.\n참고 출처\nTechCrunch: Columbia student suspended over interview cheating tool raises $5.3M to cheat on everything\nAIM Research: Cluely Helped You Cheat, Truely Knows You Did\nYahoo Finance: Startups launch products to catch people using AI cheating app Cluely\nNDTV: AI Startup That Lets Users Cheat In Exams And Interviews Raises $5.3 Million\neWeek: ‘Cheat on Everything’ AI App Sparks Outrage - And Raises $5.3 Million\nHindustan Times: Suspended from Columbia, student raises $5 million for AI cheating tool\nBusiness Insider: I Tried the AI App That Helps You ‘Cheat’ in Live Conversations\nNBC News: Kicked out of Columbia, this student doesn’t plan to stop trolling big tech with AI tool for job applications",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.gaerae.com/2025/05/columbia-student-suspended-over-interview-cheating-tool.html",
+    "pubDate": "Thu, 08 May 2025 06:08:00 +0000",
+    "creator": "noreply@blogger.com (Unknown)",
+    "categories": [
+      {
+        "_": "news",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "요즘 아이들의 뷰티 제품 선호도",
+    "description": "우리도 소비재에 많이 투자하고, 한국이 잘하는 것 중 하나가 소비재라서 나는 이 시장 관련 기사나 보고서는 최대한 많이 읽으려고 노력한다. 그중 좋아하는 리포트 중 하나가 The New Consumer에서 정기적으로 만드는 건데, 최근에 발행한 Beauty 2025 Special Report를 흥미롭게 읽었다. 화장품도 뷰티 시장에서 중요한 카테고리이고, 한국이 전 세계에서 제일 잘하는 분야 중 하나라서 그런지, 한국 화장품도(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/05/some-interesting-facts-on-gen-zs-thoughts-on-beauty-products.html",
+    "pubDate": "Wed, 07 May 2025 21:02:44 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "B2C",
+      "brand",
+      "consumer",
+      "general",
+      "korea"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "가정의 달 콘텐츠➃ 스스로 서기 위한 연습, 10대를 위한 돈 이야기",
+    "description": "10대를 위한 콘텐츠 큐레이션",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/2025may-curation4",
+    "pubDate": "Thu, 08 May 2025 06:43:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "AI 시대, 코딩을 배울 가치가 있을까?",
+    "description": "AI가 코드를 뚝딱 만들어내는 시대에 직접 프로그래밍을 배울 필요가 있을까요? 계산기가 있어도 수학을 배우듯, AI 시대에도 코딩 공부가 여전히 가치 있는 이유와 그 한계에 대한 솔직한 이야기를 나눠봅니다.\n\n\n \n 솔직히 말해서, 요즘 ChatGPT나 Claude같은 AI 도구들이 몇 초 만에 코드를 뚝딱 만들어내는 걸 보면 '내가 왜 이렇게 고생스럽게 코딩을 배워야 하나?' 하는 생각이 들어요. 저도 처음 프로그래밍을 배울 때는 세미콜론 하나 빼먹어서 몇 시간을 헤맸던 기억이 있거든요. 그런데 이제 AI에게 \"로그인 기능 만들어줘\"라고 하면 완벽한 코드가 뚝딱 나오니까요.\n \n여러분도 이런 고민 한 번쯤 해보셨을 거예요. 특히 코딩을 새로 배우려는 사람들이라면 더욱 그렇죠. \"AI가 다 해주는데 내가 왜 배워?\"라는 의문이 당연히 들 수밖에 없어요.\n \n하지만 약간의 관점 전환이 필요할 것 같아요. 계산기가 있다고 해서 수학 공부가 불필요해지지 않는 것처럼, AI가 코드를 생성할 수 있다고 해서 프로그래밍 학습이 무의미해지는 건 아니니까요.\n \nAI 시대에도 코딩 학습이 여전히 중요한 이유 ✨\n문제 해결 능력의 성장\n프로그래밍을 배우는 과정은 단순히 코드 작성법을 익히는 것보다 훨씬 더 많은 걸 가르쳐줘요. 복잡한 문제를 작은 단위로 나누고, 논리적으로 해결책을 찾아가는 사고방식을 기르게 되죠. 이건 AI가 대신해줄 수 없는 부분이에요.\n제가 코딩을 배우면서 가장 큰 깨달음을 얻은 순간은 실제로 코드를 작성할 때가 아니라, 문제를 어떻게 접근할지 생각하는 과정이었어요. 이런 능력은 일상생활의 다른 문제들을 해결할 때도 큰 도움이 되더라고요.\nAI의 한계 이해하기\nAI는 강력하지만 완벽하지 않아요. 사실 AI가 생성한 코드를 제대로 활용하려면 그 코드가 무엇을 하는지, 어떻게 작동하는지 이해할 수 있어야 해요. 그리고 뭔가 잘못됐을 때 디버깅할 수 있는 능력도 필요하죠.\n얼마 전에 AI로 간단한 웹 스크래핑 코드를 만들었는데, 실행하니까 오류가 나더라고요. 기본적인 프로그래밍 지식이 없었다면 그 오류를 해결하지 못했을 거예요. 결국 코딩의 기본 개념을 알고 있어야 AI의 도움을 제대로 활용할 수 있다는 걸 깨달았죠.\n창의적인 문제 해결\nAI는 코드를 생성하는 데 놀라운 능력을 보여주고 있지만, 많은 소프트웨어 개발자들은 \"기계가 코드 작성과 관련된 뉘앙스와 창의성을 결코 이해할 수 없다\"고 여겨 AI 코딩 도구를 신뢰하기 주저하기도 해요. 그런데 저는 이 부분에서 약간 다른 시각을 가지고 있어요.\n기술적 이해와 문제 해결 능력 키우기\nAI가 코드를 뱉어낼 수 있다고 해도, 그 코드가 정확히 무엇을 하는지 이해하지 못하면 결국 한계에 부딪히게 돼요. 기술의 근본 원리와 문제 해결 방식을 이해하는 것은 여전히 인간의 영역이에요.\n특히 업계 전문가들도 \"AI 코딩 도구가 때때로 환각 현상을 보이며 무작위한 답변을 제공한다\"라고 지적하고 있죠. 저도 실제로 AI가 생성한 코드를 사용하다가 어이없는 오류를 발견하고 디버깅하느라 시간을 허비한 경험이 있어요. 그때 기본적인 프로그래밍 지식이 없었다면 해결하지 못했을 거예요.\nAI와의 협업: 새로운 코딩 패러다임  \n요즘은 AI와 함께 코딩하는 새로운 작업 방식이 형성되고 있어요. 개발자들은 AI 지원 코딩 도구를 사용해 코드를 더 빠르고 정확하게 작성할 수 있게 되었고, 이는 수동 코드 작성 및 업데이트에 소요되던 시간을 크게 절약해 주고 있어요.\n여기서 핵심은 AI를 '대체자'가 아닌 '협업자'로 보는 관점의 전환이에요. 저는 이런 방식으로 일해보니 AI가 반복적인 부분을 처리해주고, 저는 창의적인 문제 해결과 설계에 집중할 수 있어서 오히려 더 좋은 코드를 만들 수 있더라고요.\nAI의 한계 인식하기 ⚠️\n물론 AI에도 분명한 한계가 있어요. \"인간 초고수를 이기는 AI보다 평범한 고객응대 챗봇이 더 만들기 어렵다\"라는 말처럼, AI는 기술적으로는 놀라운 성과를 보여주지만 실제 비즈니스 문제나 사용자의 니즈를 정확히 이해하고 그에 맞는 솔루션을 제공하는 데는 아직 한계가 있어요.\n특히 라이브러리와 라이브러리 버전에 취약하고, 특정 라이브러리의 메서드를 사용하는 데 일관성을 유지하기 어렵다는 점은 개발자들이 반드시 알고 있어야 할 AI의 약점이에요.\n또한 AI 도구가 코드 완성, 최적화, 성능, 수정 및 설명을 위한 멘토 역할을 할 수는 있지만, \"코딩 방법을 배우는 데 사용할 수 없으며, 좋은 코딩 관행을 대체할 수 없다\"는 점을 명심해야 해요.\n \n미래의 코딩 교육: 적응하고 진화하기  \n프로그래밍 교육도 이제 변화가 필요해요. 단순히 문법이나 알고리즘을 가르치는 것에서 벗어나, AI 도구를 효과적으로 활용하는 방법과 AI와 협업하는 방법을 배워야 해요.\n교육에서 중요한 건 '어떻게 코드를 작성하는가'보다 '어떤 문제를 해결해야 하는가'에 초점을 맞추는 것이에요. 문제를 정확하게 정의하고, 적절한 해결책을 설계하는 능력은 AI가 쉽게 대체하기 어려운 인간의 영역이니까요.\n \n균형 찾기: 코딩 학습과 AI 활용 사이의 딜레마 ⚖️\n솔직히 말해서, 코딩을 배우는 게 이전보다 덜 시급해진 건 사실이에요. AI 코드 생성 소프트웨어는 간단하고, 다양한 프로그래밍 언어에서 사용할 수 있으며, 개발자와 비개발자 모두 액세스할 수 있게 되었으니까요.\n하지만 그렇다고 코딩 학습이 완전히 불필요해진 건 아니에요. AI로 생성된 코드를 제대로 활용하고 검증하려면 기본적인 프로그래밍 개념과 논리적 사고방식은 여전히 필요하거든요.\n제가 생각하는 이상적인 접근법은 이래요:\n기본적인 프로그래밍 개념과 논리적 사고를 배우기\nAI 도구를 활용해 생산성을 높이는 방법 익히기\nAI의 한계를 인식하고 필요할 때 직접 코딩할 수 있는 능력 유지하기\n\n\n마무리: 새로운 시대의 코딩 철학  \n결국, 프로그래밍을 배울 가치가 있느냐는 질문에 단순히 \"예\" 또는 \"아니오\"로 답하기는 어려워요. 개인의 목표, 관심사, 그리고 어떤 분야에서 일하고 싶은지에 따라 달라질 수 있어요.\n \n하지만 분명한 건, AI 시대에도 컴퓨터적 사고방식과 문제 해결 능력은 여전히 중요하다는 점이에요. AI는 도구이지, 우리의 사고를 대체하는 것이 아니니까요.\n \n창의력은 지식을 합성해 독창적인 아이디어를 생산하는 능력을 말합니다. 남들이 생각하지 못한 새로운 것을 만들어내는 능력이 창의력이라면, 인공지능은 이제 그 영역에 거의 다가서고 있는 셈이죠. 하지만 완전히 그 자리를 차지하진 못했어요. 여전히 우리 인간만이 가진 영역이 있고, 그 영역은 코딩 기술을 배움으로써 더욱 강화될 수 있어요.\n \n그러니까, AI 시대에도 프로그래밍을 배우는 건 여전히 가치가 있다고 봐요. 다만 배우는 방식과 목적, 그리고 깊이에 대해선 새롭게 생각해볼 필요가 있겠죠?\nFAQ 섹션\nQ: AI가 코드를 다 만들어준다면, 초보자가 코딩을 배울 필요가 있을까요?\nA: 기본 개념과 논리적 사고는 여전히 중요해요. AI 도구를 효과적으로 사용하고 결과물을 검증하려면 기초 지식이 필요합니다.\nQ: 어떤 프로그래밍 언어를 배우는 게 AI 시대에 가장 유리할까요?\nA: Python이 AI와의 연동성이 좋고 진입장벽이 낮아 추천해요. 하지만 언어보다 문제 해결 사고방식을 기르는 게 더 중요합니다.\nQ: 코딩보다 AI 프롬프트 작성법을 배우는 게 더 효율적일까요?\nA: 둘 다 중요해요. 좋은 프롬프트를 작성하려면 구현하려는 기능에 대한 기술적 이해가 필요합니다.\nQ: AI 코드 도구에서 가장 주의해야 할 점은 무엇인가요?\nA: 결과물을 맹신하지 말고 항상 검증하세요. AI는 때때로 환각 현상을 보이거나 오류가 있는 코드를 생성할 수 있습니다.\nQ: 개발자로 커리어를 준비 중인데, AI 때문에 미래가 불안해요.\nA: AI는 도구일 뿐이니 걱정마세요. 오히려 AI와 효과적으로 협업하는 개발자의 가치는 더 높아질 겁니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"AI가 코드를 다 만들어준다면, 초보자가 코딩을 배울 필요가 있을까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"기본 개념과 논리적 사고는 여전히 중요해요. AI 도구를 효과적으로 사용하고 결과물을 검증하려면 기초 지식이 필요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"어떤 프로그래밍 언어를 배우는 게 AI 시대에 가장 유리할까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Python이 AI와의 연동성이 좋고 진입장벽이 낮아 추천해요. 하지만 언어보다 문제 해결 사고방식을 기르는 게 더 중요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"코딩보다 AI 프롬프트 작성법을 배우는 게 더 효율적일까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"둘 다 중요해요. 좋은 프롬프트를 작성하려면 구현하려는 기능에 대한 기술적 이해가 필요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"AI 코드 도구에서 가장 주의해야 할 점은 무엇인가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"결과물을 맹신하지 말고 항상 검증하세요. AI는 때때로 환각 현상을 보이거나 오류가 있는 코드를 생성할 수 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"개발자로 커리어를 준비 중인데, AI 때문에 미래가 불안해요.\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"AI는 도구일 뿐이니 걱정마세요. 오히려 AI와 효과적으로 협업하는 개발자의 가치는 더 높아질 겁니다.\"\n    }\n  }]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483583",
+    "pubDate": "Mon, 12 May 2025 09:53:34 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 언어 모델",
+      "AI 코딩",
+      "AI 한계",
+      "개발자 생산성",
+      "디버깅 능력",
+      "문제 해결 사고",
+      "미래 프로그래밍 교육",
+      "창의적 코딩",
+      "컴퓨터적 사고",
+      "코드 생성기",
+      "프로그래밍 학습"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "전통적인 세션 ID 기반 인증과 JWT(Json Web Token) 기반 인증 비교",
+    "description": "로그인 세션 관리에서 전통적인 세션 ID 기반 인증과 JWT(Json Web Token) 기반 인증은 가장 많이 사용되는 두 가지 방식입니다. 아래는 이 둘의 차이점과 장단점을 비교한 표입니다: 항목 세션 ID 기반 인증 JWT 기반 인증 인증 방식 서버가 세션 ID를 생성하고 클라이언트에 전달 (주로 쿠키에 저장) 서버가 JWT를 생성하고 클라이언트에 전달 (주로 헤더나 로컬스토리지/쿠키에 저장) 서버 저장소 필요 필요 (서버에 세션 저장) 불필요 (토큰 자체에 정보 포함) 확장성 낮음 (세션 저장소 공유 필요) 높음 (무상태 Stateless 구조) 보안성 세션 탈취 위험, 하지만 서버에서 세션 무효화 가능 탈취 시 만료 전까지 유효, 무효화 어려움 (추가 로직 필요) 토큰 크기 작음 (세션 ID) 큼 (Base64 인코딩된 JSON) 무효화 처리 서버에서 세션 삭제 보통 불가능, 블랙리스트 관리 등 별도 구현 필요 관리 편의성 서버가…",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.lael.be/post/12495",
+    "pubDate": "Fri, 09 May 2025 21:04:35 +0000",
+    "creator": "HYEONG HWAN, MUN",
+    "categories": [
+      "미분류"
+    ]
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "유니티 웹 빌드 웹소켓 통신 구현 개발기 / Unity Web / WebSocket  / jslib",
     "description": "진행하다 말다를 반복하는 웹빌드에서 웹소켓 사용하는 작업 메모입니다.\n이것이 구현된다면 웹 브라우저로 온라인 유니티 게임을 만들 수 있습니다.\n웹소켓은 실시간 통신이 된다는 것을 의미합니다.\n기술적으로는 가능하며 제대로된 결과물을 이번엔 만들어야겠다고 생각했습니다.\n \n플레이 데모 영상: https://www.youtube.com/watch?v=wHJ6zOM5Zuw\n\n\n\n웸브라우저를 두개 띄워 웹소켓 버서와 통신해서 서로 화면이 잘 맞는지 확인하는 영상입니다.\n싱크가 잘맞군요 결과물이 좋으니 개발당시 괴로웠던 시간이 잊혀지는군요\n(잘가라 괴로워하던 과거의 나)\n \n유니티 참고 문서: https://docs.unity3d.com/kr/2018.4/Manual/webgl-interactingwithbrowserscripting.html\n이 문서는 유니티 웹 빌드가 자바스크립트 함수를 호출하는 방식을 설명하고 있습니다.\njslib 파일에 대애 알려주는데 Plugins/아무이름.jslib 에 두시면 됩니다.\n \n개발 환경 매우 까다롭다.\n웹 빌드는 빌드 시간이 오래걸립니다.\n에디터 상태에서는 jslib 는 동작하지 않기 습니다.\n에디터에서는 c# 코드로 websocket-sharp 을 이용해서 통신을 하면 되고 확인도 쉽습니다.\n빌드 한다음은 jslib 를 이용해 javascript 로 웹소켓 통신을 하고\n결과를 유니티로 전달해야합니다.\n또한 빌드가 끝나고 자동으로 뜨는 결과물 페이지에서는\nunityInstance 가 없기 때문에 SendMessage 를 이용해 유니티로 결과를 전달할 수가 없습니다.\n이 부분때문에 index2.html 같은걸 만들어서 \n별도의 node.js 서버에서 웹서버를 띄워서 SendMessage 를 사용할 수 있도록 해야합니다.\n개발이 불편한 환경입니다.\n \n개발 환경 자세히\nc# 에서 websocket 통신을 하려면\ngithub: https://github.com/sta/websocket-sharp\nwebsocket-sharp 이 폴더를 유니티에 붙여 넣으면 됩니다.\n이 c# 소스는 node.js 웹서버중 socket.io 랑 맞는게 아니고 ws 랑 맞는 방식입니다.\n \n웹 소켓 서버 / node.js + ws\n웹 소켓 서버는 node.js 의 ws 를 이용했습니다.\nsocket.io 랑은 안맞습니다.\nsocket.io 쓰겠다면 c# 코드는 별도로 찾아보셔야 합니다.\n에니터에서는 개발이 쉽습니다.\n웹소켓 서버를 https (wss) 로 띄우는건 난이도가 있었습니다.\n몇개의 페이지와 설명에서 잘못된 코드가 상위에 나오는 경우가 있었습니다. 이것 때문에 시간낭비가 꽤 있었습니다.\n공유기의 DDNS 와 letsencrypt 를 이용해 인증을 받아 사용했습니다.\nhttps 띄우기전 인증서를 넣을때\nprivatekey.pem 를 key 넣고\nfullchain.pem 을 cert 에 넣어서 성공했습니다.\n잘못된 코드들은\nca 를 사용하는 코드\nfunnchain.pem 이 아니고 chain.pem 을 사용하는 코드들은 동작이 실패했습니다.\n정확히 말하자면 https 는 동작했는데 \nwss 통신이 실패하는 경우 였는데\n상황이 복잡해서 많은 시간을 낭비했습니다.\n인증 문제는 잘못 되어도 별다른 힌트를 알 수 없었습니다.\n서버가 죽는 것도 아니고 건 아니고 응답이 없기 때문 입니다.\n \n.jslib 파일\njslib 파일은 결국은 브라우저에서 동작하는 자바스크립트 코드가 있는 파일입니다.\nconsole.log 로 로그를 찍을 수 있으며 \nvar ws = new WebSocket 을 사용해 웹소켓 클라이언트도 구현할 수 있었습니다.\n프라우저에서 F12 눌러서 콘솔듸워 코딩할 수 있는 부분은 다 된다고 보면 된다.\n \n개발 팁 1. jslib 파일을 직접 코딩하지말고 먼저 .js 파일로 동작을 확인한 다음 옮기자\n.jslib 에서 문제가 생기면 문제를 찾는것과 고치고 확인하는 과정에서 시간낭비가 심합니다.\nvscode 에서 js 파일로 먼저 동작을 확인해보는 것이 좋습니다.\n테스트 까지 끝나면 jslib 에 코드를 복사-붙여넣기 하는 식으로만 사용했습니다.\nvscode 에서 .js 파일로 코딩하면 문법 확인, 들여쓰기도 자동으로 되서 편합니다.\n\n\n.jslib 에서 바로 코딩을 시작하면 \n코드 문법을 검사를 할 수 없고 \n색깔로도 구분이 안되며\n들여쓰기하는 시간도 걸립니다.\n이런일들은 시간낭비를 크게 발생시킵니다.\n반드시 .js 파일에서 미리 만들어 확인하고 \n이왕이면 브라우저에서도 확인한 다음에 \n.jslib 파일을 작성하도록 합시다.\n \n개발 팁 2. .jslib 함수내부에서는 try - catch 로 감싸야합니다.\n위에 이미지 보면 try 코드가 보인다 이렇게 전체를 감싸야합니다.\njslib 내부에서 예외가 발생하면 에러를 읽기가 너무 어렵습니다.\n \n개발 팁 3. 거의 모든 줄에 로그를 넣읍시다.\n.jslib 파일에서 문제가 발생하면 빌드 시간 때문에 시간낭비가 심합니다.\n어디서 에러가 나는지 한번에 알 수 있도록 로그를 빽빽히 넣는 편이 좋습니다.\n성공하고나면 지우더라도 개발중엔 이렇게 해야합니다.\n빌드시간 너무 깁니다.\n \n개발 팁 4...jslib 의 함수는 리턴을 받을 수 없었다.\n자바스크립트 -> 유니티로 데이터를 받으려면 SendMessage 를 이용해 받는 방법밖에 없었습니다.\n함수에서 return 을 이용해 값을 받으려고 해도 유니티에서 읽지를 못했습니다.\n위에서도 설명했지만 SendMessage 를 사용하려면  unityInstance 가 필요한데\n기본빌드에서는 이 전역 변수가 없습니다.\n전역 변수를 뽑기위한 과정때문에 또 하나의 절차가 유발 됩니다.\n \n브라우저의 javascript 에서 유니티로 데이터 보내기 SendMessage\n함수 리턴은 받을 수 없었고 받을 수 있다고 해도 \n통신 데이터를 받아야하는데\n어차피 즉시 리턴 받는 기능을 쓸일은 없습니다.\n그래서 SendMessage 를 이용해 콜백을 해야하는데 \nwindow.unityInstance.SendMessage( \n            \"@WebSocket\", \n            \"jslib_callback\", \n            \"onopen\" \n          );\njslib 에 있는 콜백 코드 입니다.\n유니티의 @WebSocket 오브젝트에 jslib_callback(\"onopen\") 을 호출해주는 코드 예제입니다.\n접속 되면 콜백 해주는 코드인데 문제는 \n window.unityInstance\n기본 빌드에서는 이 변수가 없습니다.\n참고로 window 는 브라우저의 전역변수를 보관하는 변수입니다.\n빌드에 나오는 index.html 매번 새로 만들어지기 때문에 여기다 코딩을 하면 날아갑니다.\nindex2.html 로 파일을 복사해서 거기서 편집하는 것이 좋습니다.\n\n아래의 그림을 확인해서 then 안에 값을\nwindow. unityInstance  = unityInstance;\n저장해두세요.\n\n\n\n유니티 로드가 끝나면 then 이 호출 됩니다.\n전역변수로 보관해두고 jslib 에서 사용하면 문제가 없습니다.\n이왕이면 유니티 측에서 빌드될때 강제로 좀 window 에 넣어달라고 요청해볼 생각입니다..\n그래서 빌드 후 자동으로 뜨는 결과물 창은 쓸모가 없습니다.\n결과물을 별도로 돌릴 웹 서버를 node.js 로 짜두면 편할 것입니다.\n이전에 작성해둔 유니티 웹 (br 과 gz 을 지원하는) express 서버 띄우기글이 있습니다.\n이글은 압축방식을 지워하기 위해 제작하였는데 테스트하는데 많은 도움이 되었습니다.\n링크 : https://serverdown.tistory.com/1225\n\n \nvercel 로 express 서버를 배포해보자 / 유니티 webgl 압축 지원하는 페이지를 배포 가능\n몇일전...vercel 불편하다고 징징한 글을 올렸었는데요과거의 징징글: vercel 처음 써보고 분노한 개발자 사용기 / 배포 deploy / setInterval 안됨새로운 가능성 발견투자한 시간이 아까워 더 찾아봤습니\nblog.sidnft.com\n\n \n저는 개발할 당시 웹소켓 서버 따로 유니티웹 띄우는 서버 따로 해서 동시에 두개 돌리고있었는데\n지금 생각해보니 한 서버에 둘다 돌려도 되는거 였는데\n당시엔 피곤해서 그 생각을 못했었습니다.\n이 환경이 갖춰지면 테스트하기엔 충분한 환경이 갖춰졌습니다.\n \n데모 페이지\n링크: https://unity.sidnft.com/\n\n \nSIDNFT's Web Game Demo\n \nunity.sidnft.com\n\n이 페이지에 가면 Multiplay Demo 링크가 있습니다..\n\n\n입장 버튼을 크게 키워야 겠군요. 아주 작네요\n사람이 없을테니 브라우저 창을 여러개 띄워서 클릭해보면 통신이 된다는 거을 알 수 있을 것이다.\n1. 허공을 찍으면 내 박스가 그곳으로 이동합니다.\n2. 내 박스를 클릭하면 숫자가 올라갑니다. 크기도 커집니다.\n3. 다른 유저의 박스를 클릭하면 숫자가 내려갑니다. 크기도 작아집니다.\n딱 이정도 기능만 구현했습니다.\n \nUnity Play 에서는 ...\n혹시나 해서  Unity Play 에서는 어떻게 되어있나 확인해봤습니다.\n\n\ngameInstance = instance;\n얘네들은 문제 점을 인식하고 있었군요.\n전역변수에 값을 저장해두고 있었습니다.\n이 변수를 사용할 수 있을꺼 같아서\n추가 로 작업을 했는데 활용 가능했습니다.\nUnity Play Multiplay Demo 링크: https://play.unity.com/en/games/ad4d2c84-f8bb-4c0e-9261-4703c1b9860d/mpdemo\n\n \nmp_demo on Unity Play\nmp_demo\nplay.unity.com\n\n \njslib 에 추가된 코드는 아래와 같습니다.\nmergeInto(LibraryManager.library, { \n  jslib_call_action: function (_v) { \n    function jslib_callback(val) { \n      const go_name = \"@WebSocket\"; \n      const func_name = \"jslib_callback\"; \n      if (window.unityInstance) { \n        window.unityInstance.SendMessage(go_name, func_name, val); \n      } else if (window.gameInstance) { \n        window.gameInstance.SendMessage(go_name, func_name, val); \n      } else if (gameInstance) { \n        gameInstance.SendMessage(go_name, func_name, val); \n      } else { \n        console.error( \n          \"SendMessage fail, need instance\", \n          go_name, \n          func_name, \n          val \n        ); \n      } \n    } \n    try { \n      const v = UTF8ToString(_v); \n      // console.log(\"jslib_call_action\", v);\n~~~~ (생략)\n \n코드는 요런식으로 추가되었고\n\n\nwindow.gameInstance 가 맞는지\ngameInstance 가 맞는지 확신이 없어서 둘다 넣었습니다.\n빌드를 두번하긴 싫어서 입니다.\n되는지 확인했으니 Unity Play 적극적으로 활용해도 되겠습니다.",
@@ -64,24 +159,49 @@
     ]
   },
   {
-    "id": 5,
+    "id": 10,
     "imageUrl": "",
-    "title": "SSD 싸졌어요 / WD BLUE SSD 1TB  / 4.4만",
-    "description": "보드가 옛날꺼라 NVME 슬롯이 1개 뿐이군요\n \n쿠팡 링크: https://www.coupang.com/vp/products/8703461203?itemId=25275293447&vendorItemId=92270931798&q=ssd+1tb&itemsCount=36&searchId=ac989eb42646023&rank=0&searchRank=0&isAddedCart=\n\n \nWD Blue SA510 SATA SSD 1TB SA510 3D - SSD | 쿠팡\n쿠팡에서 WD Blue SA510 SATA SSD 1TB SA510 3D 구매하고 더 많은 혜택을 받으세요! 지금 할인중인 다른 SSD 제품도 바로 쿠팡에서 확인할 수 있습니다.\nwww.coupang.com\n\n참고로 저는 쿠팡 파트너가 아니라 저한태 떨어지는건 없습니다.\n너무 싸서 링크 남겨놓습니다.\n \n별수 없이 SSD 를 달아야하는데\n검색해보니 어마어마하게 싸게 팔고 있었군요\n\n\n말은 쿠팡 와우 할인이라 싸게 파는거 같지만\n미준 무역분쟁으로 미국으로 못가는 제품이 한국으로 오는거 같군요\n \n\n\n요런 문구가 있군요 덤핑으로 오는게 맞나봅니당\nA/S 는 불가지만 구입해보겠습니다.\n설마 고장난걸 주진않겠죠\nSSD 가 고장나는건 본적이 없으니\n \n\n\n와우",
+    "title": "Cursor에서 MCP 연동하기: Tavily Search로 실시간 웹 검색 기능 구현하기",
+    "description": "Cursor란?\nCursor는 AI 기반의 통합 개발 환경(IDE)으로, VSCode(Visual Studio Code)를 기반으로 하여 개발자 생산성을 극대화하는 다양한 기능을 제공합니다. 기본적으로 VSCode 인터페이스와 똑같기 때문에 빠르게 적응하기 쉬우며, Copilot처럼  자연어로 코드 작성 및 수정이 가능합니다. 특히 전체 코드베이스를 이해하고 이에 대한 질문에 답변하는 기능이 뛰어납니다. 내 폴더구조와 여러 파일들을 Context 인식해서 그에 맞게 폴더/파일/코드라인 단위로 코드를 생성해줍니다.\nMCP란?\nMCP(Model Context Protocol)는 AI 애플리케이션이 외부 데이터 소스나 도구와 통신할 수 있도록 표준화된 인터페이스를 제공하는 오픈 프로토콜입니다. MCP는 AI 모델이 다양한 외부 시스템과 상호 작용할 수 있도록 지원하여, 개발자가 복잡한 통합 작업 없이도 AI 기능을 확장할 수 있게 합니다.\n표준화된 인터페이스를 제공한다는 말은, 동일한 방법으로 외부 데이터 소스나 도구를 호출해서 사용할 수 있다는 것입니다. 마치 Server-Client의 호출이 HTTP프로토콜로 표준화되어 있듯이, MCP Server - MCP Client사이의 통신 프로토콜이 표준화 되어 있는것입니다.\n주로 MCP 서버는 외부 데이터 소스를 제공하거나, 외부 API를 실행하는 기능을 제공하고, 호스트 애플리케이션(예: Cursor, Claude Desktop 등)은 MCP 클라이언트를 통해 MCP 서버를 호출합니다. 주요 시나리오는 유저가 호스트 애플리케이션에 질문을 하면, 호스트 애플리케이션은 어떤 MCP Server를 어떻게 호출할지 AI 모델을 이용해서 판단하고, MCP Server를 실행하고, 그 결과를 취합하여 최종 결론을 내는 방식입니다.\n\nCursor에 TavilySearch MCP Server 연동해야하는 이유\nCursor는 강력한 AI 기능을 제공하지만, 기본적으로 웹 검색 기능이 내장되어 있지 않습니다. 따라서 최신 정보를 반영하거나 외부 데이터를 실시간으로 조회하는 데에는 한계가 있습니다.\n예를 들어, \"최신 AI 기술 동향을 알려줘\"와 같은 질문을 할 경우, Cursor는 자체적으로 웹 검색을 수행하지 않기 때문에 최신 정보를 제공하는 데 어려움이 있습니다.\n이러한 문제를 해결하기 위해, Tavily Search API를 제공하는 MCP를 Cursor에 연동하여 실시간 웹 검색 기능을 구현할 수 있습니다. Tavily Search는 웹 검색 API를 통해 다양한 웹 데이터를 조회할 수 있는 기능을 제공합니다.\n이번 글에서는 Tavily Search를 MCP로 연동하여 Cursor 내에서 실시간 웹 검색 기능을 구현하는 방법을 단계별로 안내하겠습니다. 이를 통해 Cursor의 기능을 확장하고, 최신 정보를 반영한 개발 환경을 구축할 수 있습니다.\n1.사전 준비\n1.1 Cursor 설치\nCursor는 공식 웹사이트에서 다운로드하여 설치할 수 있습니다. 설치 방법은 운영 체제에 따라 다르므로, 해당 페이지의 안내를 참고하시기 바랍니다.\n\n1.2 Node.js 및 npx 설치\nMCP 서버 실행을 위해 Node.js와 npx가 필요합니다. Node.js는 공식 웹사이트에서 설치할 수 있으며, 설치 시 npx도 함께 제공됩니다.\n1.3 Tavily Search API 키 발급\nTavily Search API를 사용하려면 API 키가 필요합니다. Tavily 공식 웹사이트에 가입한 후, 대시보드에서 API 키를 발급받을 수 있습니다. 이 키는 이후 MCP 서버와 Cursor에서 사용됩니다.\n\n2.TavilySearch MCP Server 테스트\n방법1 - Smithery 서비스 사용\n원래는 MCP Server를 모아두는 Smithery.ai(https://smithery.ai/) 에서 쉽게 TavilySearch MCP Server를 실행하려고 했으나.. 일시적으로 사이트 장애가 있어서 직접 내 local에 실행하기로 했습니다.\n\nSmithery에 가입하여 아래 페이지에 접속한 후 우측에 Install을 누르면 Smithery에 MCP 서버가 실행되고, Smithery에서 제공하는 endpoint를 제공한다고 들었는데...\nhttps://smithery.ai/server/@tavily-ai/tavily-mcp/api\n\n로그인만 하면 Smithery 페이지 장애가 나서 더이상 실행할 수 없었습니다.\n\n방법2 - Local에 MCP Server 실행 테스트\nGitHub의 Tavily-MCP Repository 를 찾아서 따라 내 Local에 MCP Server를 실행해봤습니다.\nhttps://github.com/tavily-ai/tavily-mcp?tab=readme-ov-file\n\n뭔가를 설치하기는 싫어서 npx를 통해 간단히 실행했습니다. \n1.3단계에서 발급받은 TAVILY의 APIKEY를 환경변수로 설정해주고, npx로 mcp 서버를 실행했을 때 이미지와 같이 서버가 running중이라는 말이 뜨면 성공입니다.\nexport TAVILY_API_KEY=<내 API KEY>\nnpx -y tavily-mcp@0.1.4  \n\n3. Cursor에서 MCP Server등록\n자, 이제 tavily-mcp@0.1.4가 잘 돌아간다는 것을 확인했으니 cursor에 MCP Server를 등록하겠습니다.\nCursor Settings를 열고\nNavigate to Features > MCP Servers\n\"+ Add New MCP Server\" 버튼 클릭\n다음과 같이 json 등록\n{\n\"mcpServers\": {\n  \"tavily-mcp\": {\n    \"command\": \"npx\",\n    \"args\": [\"-y\", \"tavily-mcp@0.1.4\"],\n    \"env\": {\n      \"TAVILY_API_KEY\": \"<내 API_KEY>\"\n    }\n  }\n}\n}\n이렇게 등록을 하면 아래와 같이 cursor가 command 명령어를 실행해 tavily-mcp 서버를 띄워놓은것을 확인할 수 있습니다.\n\n4. 실행\nCursor에서 Command+I를 눌러 채팅을 연 후 Agent를 선택한 후 채팅을 쳐보겠습니다.\n\n\"langchain_mcp_adapters 이용해서 숫자를 더하고 곱하는 tool이 있는 mcp server 만들어줘 python\" 이라고 질문해봤습니다.\n\n처음에는 제 로컬 파일중에서 관련내용을 찾았는데, 관련내용이 없었습니다.\n두번째는 웹검색을 하고자 했습니다. 웹검색을 사용해도 되는지 제 동의를 구했습니다.\n\n검색한 내용을 바탕으로 최종 코드를 작성하여 파일을 생성했습니다.\n마무리\nMCP 연동하는게 생각보다 너무 쉬운데, 개발 생산성은 매우 올라가는것 같습니다.\nSmithery 나 Glama 같은 사이트에 보면 MCP 서버가 엄청 많은데, 웹서치 이외에도 다양한 툴을 연동해보면 좋을 것 같습니다.\n하지만 MCP서버를 많이 등록하면 등록할수록 호스트(Cursor)가 질문에 맞는 서버를 고르는 정확도가 떨어질 수 있으니 적당히 필요에 맞게 조절해가며 사용하면 좋을 것 같습니다.(커서는 최대 40개까지 등록할 수 있습니다.)\n그리고 Claude Desktop 에도 MCP 연동할 수 있다는데, 채팅만 사용하려면 Claude에도 연동하면 쓸만할 것 같다는 생각이 들었습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1308",
-    "pubDate": "Wed, 7 May 2025 10:49:02 +0900",
-    "creator": "SIDNFT",
+    "link": "https://velog.io/@mdy0102/Cursor%EC%97%90%EC%84%9C-MCP-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-Tavily-Search%EB%A1%9C-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%9B%B9-%EA%B2%80%EC%83%89-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0",
+    "pubDate": "Tue, 06 May 2025 16:38:56 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "[PS5] 능동적이고 액션 중심적 변화 그리고 메시지, '데스 스트랜딩 2'",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2302",
+    "pubDate": "Thu, 08 May 2025 16:01:23 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "프로그래밍/개발메모",
-      "ssd",
-      "쿠팡",
-      "하드웨어"
+      "프리뷰"
     ]
   },
   {
-    "id": 6,
+    "id": 12,
+    "imageUrl": "",
+    "title": "Present and Future of Kotlin for Web",
+    "description": "TL;DR: We remain committed to empowering Kotlin developers with robust and seamless support in Kotlin Multiplatform for web development. To achieve this, we are working on several key areas: Kotlin Multiplatform (KMP) aims to help developers share code across different platforms, significantly reducing development time and effort. The web plays a crucial role in this […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/05/present-and-future-kotlin-for-web/",
+    "pubDate": "Thu, 08 May 2025 16:03:32 +0000",
+    "creator": "Artem Kobzar",
+    "categories": [
+      "multiplatform",
+      "kotlin-js",
+      "kotlin-wasm"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "한비자, 관계의 기술",
     "description": "사람 대 사람 사이에서 가장 중요한 건 서로간의 '이득' 이라는 것을 책 한권을 통해 전달하는 것으로 읽혔다.\n이득 기반으로 인간 관계가 움직인다는 사상을 인정하고 좋아하기에 전체적인 내용을 많이 동의했다.\n내 기준에서 회사는 4단계의 계층이 있다고 본다.\n대표\nC레벨 혹은 임원\n중간 리더\n팀원\n이 중 이 책에서 언급되는 \"군주\"는 사실상 회사의 대표라고 볼 수 있는데, 대표에게 직언을 할 수 있는 위치인 C레벨 (혹은 임원)은 이 책의 여러 고사들에게서 배울 점이 많다.\n그 중에서도 아래 메세지들은 지금의 내 위치에서 생각해볼 것들이 많았다.\n\"군주에게 간언하고 설득하는 자는 군주가 자기를 사랑하는지, 미워하는지 살펴 본 후 설득해야 한다는 것을 알 수 있다\"\n\"누군가를 설득할 때에는 상대방이 수치심을 느끼거나 부끄러워하는 감정을 건드리지 말아야 한다\"\n\"일반적으로 군주들은 신임하지 않는 자가 간언하면 비방한다고 생각하고, 신임하는 사람이 간언하지 않으면 봉록만을 훔치는 자라고 생각하는 경향이 있다\"\n\"군주에게서 충분한 신임을 얻기 전까지는 간언을 조심해야하며, 신뢰를 얻은 후에는 간언을 계속 해야하며, 신뢰의 정도에 따라 간언의 수위를 조절해야하며, 간언을 전달할 때는 최대한 역린을 건드리지 않도록 주의하면서 전달해야한다\" 로 정리될 수 있다.\n이 내용은 군주에게 간언해야하는 위치의 사람들이 항상 생각해야할 것들이다.\n회사로 본다면 아마도 C레벨과 임원들이 해당될 것 같다.\n종종 회사에 합류하자마자 바로 어떠한 액션을 취하려고 강한 주장을 하거나 대표에게 직언을 하는 리더나 임원들의 이야기들을 들을때가 있다.\n그리고 그 리더는 대부분 얼마가지 않아 퇴사를 했다는 것도.\n상위 직급자와 나와의 신뢰 관계는 어느 정도이며, 이 정도에서는 어디까지의 이야기가 허용 가능한지 판단할 수 있는 시야를 갖고 있는 사람이 좋은 리더가 될 수 있다는 생각이 들었다.\n또 하나 중요한 점은 C레벨 혹은 중간 리더는 본인의 신뢰 자산을 기반으로 아직 충분한 신뢰 자산이 쌓이지 않은 팀원들의 건설적인 의견을 대표에게 잘 전달해야한다는 것이다.\n예전에 태호님이 작성하신 쿠팡의 통역가분들에 대한 이야기 를 보고나서, 이것이 조직의 중간 리더의 역할과 다를 바 없다고 생각이 들었다.\n“회사가 커지면 상하 위계 간은 물론이고 각 조직 간의 크고 작은 이해관계와 알력다툼이 만연하며 성장 속도가 늦어지는데, 어째서 쿠팡은 이렇게 되지 않았고 이를 최소화할 수 있었을까?”\n나중에 문득 깨달은 것이지만, 나는 바로 쿠팡의 통역사분들이 이를 가능하게 했다고 감히 생각한다.\n쿠팡은 한국 본사의 임원진부터 글로벌 오피스의 실무자까지 많은 외국인들과 함께 일한다.\n업무 시 공용어는 한국어보다는 영어다.\n모든 주요 문서는 영어로 작성되고 모든 주요 미팅에는 전담 통역사가 함께 들어와 실시간 통역을 지원한다.\n그런데 이분들의 실시간 통역이란 것이 단순히 영어를 한글로, 한글을 영어로 바꿔 말하는 게 다가 아니더라.\n쿠팡의 통역사분들은 수많은 미팅에 들어가고 문서를 검토하며 회사 전반과 각 조직의 가장 많은 정보와 컨텍스트를 갖고 있어 이것이 마법을 만들어낸다.\n예를 들어,\n누군가 오해를 살 수 있는 표현을 해도 -> 통역이 오해 없도록 명확한 용어로 바뀐다.\n누군가 잘못된 정보를 근거로 해도 -> 통역 시 가볍게 다시 물어 정정할 수 있도록 한다.\n누군가 조직 이기주의 등 편협한 소리를 해도 -> 통역이 톤앤매너를 조절해 건설적으로 이것이 논의될 수 있는 기회로 바꾼다.\n미팅이 같은 말을 반복하며 빙빙 돌고 있어도 -> 통역이 간파하고 원래의 주제에서 결론을 낼 수 있도록 넛지를 한다.\n누군가 너무 감정적이거나 화를 내도 -> 통역이 그 감정이 잠시 담길 작은 버퍼가 되어준다.\n등등등\n정말 수많은 부분에서 통역사분들의 역량이 발휘된다.\n굉장한 건 이것들이 미팅 안에서 절대 티가 나지 않는다는 것이다.\n통역사가 주인공이 되는 일은 없다.\n다만 그 미팅은 여러 함정을 무사히 넘기고 좋은 의사 결정을 이룬다.\n누군가 정말 잘하는 것들은 그대로 스며들어 당연한 것이 되지 잘한 티가 나지 않더라.\n팀원들은 아직까지 조직간 관계나 처세 등에 대해 익숙하지 않다.\n대표와의 신뢰 관계도 충분하지 않다.\n이런 상황에서 팀원 -> 대표로의 간언은 유효할 확률이 거의 없다.\n이때 중간 리더가 (쿠팡의 통역처럼) 팀원의 의견을 잘 해석하여 대표가 설득될 수 있는 수준으로 포장하여 전달해야하는 역할을 해야한다.\n중간 리더의 신뢰 자산은 그러라고 쌓는 것이다.\n물론 이 외에도 조직원들을 어떻게 대해야하는지에 대해서도 인사이트를 얻을 수 있었다.\n조직 내에서 해야할 일들에 대해서 \"이 일은 본인에게도 좋은 일이다\" 는 것으로 자연스럽게 귀결 될 수 있도록 전달하는 것이 참 중요하다.\n조직장으로서는 이 일을 개인을 위한 일 인것처럼 느껴지게 할 것인지를 고민해야하고,\n개인은 어떻게 하면 이 일이 나에게 도움이 되도록 해석할 것인가가 전체적인 삶의 만족도를 결정하게 되는 것 같다.\n책 속 문장\n한비자는 인간은 이해득실만을 따질 뿐 도덕성은 생각하지 않는다고 보았다.\n그는 이것을 부모가 낳은 아이가 아들일 경우와 딸일 경우 보여주는 행동의 차이로 설명했다.\n아들이나 딸 모두 부모의 품에서 나왔지만, 아들을 선호하는 것은 따지고 보면 부모 자신의 노후를 걱정한 데서 비롯된다는 것이다.\n또한 사람들의 이해관계는 늘 어긋난다.\n예컨대 군주와 신하가 생각하는 이익이 각기 다르며, 남편과 아내, 형과 아우 사이에도 이해는 서로 엇갈리기 마련이다.\n이 중에서도 특히 군주와 신하는 남남이 만나 각자의 이익을 추구하는 관계이므로 군주가 신하에게 충성만을 요구한다거나 도덕만으로 다스린다는 것은 어리석은 일이다.\n[옛날 미자하는 위나라 왕에게 총애를 받았다.\n위나라의 범에 왕의 수레를 몰래 타는 자에게는 발이 잘리는 형벌을 내리도록 하였다.\n미자하의 어머니가 병들었을 때 어떤 사람이 밤에 몰래 와서 미자하에게 알려주었다.\n그러자 미자하는 슬쩍 왕의 수레를 타고 나갔다.\n왕은 이 일을 듣고 그를 칭찬하며 말하였다.\n\"효자로구나. 어머지를 위하느라 발이 잘리는 벌도 잊었구나!\"\n다른 날 미자하는 왕과 함께 정원에서 노닐다가 복숭아를 따먹게 되었는데, 맛이 아주 달자 반쪽을 왕에게 주었다.\n왕이 말하였다.\n\"나를 사랑하는구나. 맛이 좋으니 과인을 잊지 않고 맛보게 하는구나\"\n세월이 흘러 미자하의 미모가 쇠하고 왕의 사랑도 식게 되었을 때 한번은 미자하가 왕에게 죄를 지었다.\n그러자 왕은 이렇게 말하였다.\n\"이놈은 옛날에 과인의 수레를 몰래 훔쳐 타기도 하고, 또 자기가 먹던 복숭아를 과인에게 먹으라고 내밀기도 하였다.\"\n미자하의 행동은 변함이 없었으나 전에는 칭찬을 받았지만 뒤에는 벌을 받은 까닭은 사랑이 미움으로 바뀌었기 때문이다.]\n...\n군주에게 간언하고 설득하는 자는 군주가 자기를 사랑하는지, 미워하는지 살펴 본 후 설득해야 한다는 것을 알 수 있다.\n...\n비단 왕뿐 아니라 사람에게도 저마다 역린이 있다.\n누군가를 설득할 때에는 상대방이 수치심을 느끼거나 부끄러워하는 감정을 건드리지 말아야 한다.\n아무리 논리적으로 설득할지라도 외면당할 수 있기 때문이다.\n결국 상대방의 마음을 잘 헤아려 나의 의도를 그에게 맞추려면 상대방의 역린을 읽어낼 수 있는 감수성이 필요하다.\n설득은 마음을 움직이는 일이므로 논리보다는 감성이 앞선다고 할 수 있다.\n노자는 통치술의 첫째로서, 통치가의 존재 그 자체를 부정하고 있다.\n앞에 나서서 설치는 자는 최상의 군주가 아니고 뒤에서 조용히 조종하는 자가 최상이라는 것이다.\n물론 그 존재 자체도 느끼지 못할 때 그것이 최상이다.\n일반적으로 군주들은 신임하지 않는 자가 간언하면 비방한다고 생각하고, 신임하는 사람이 간언하지 않으면 봉록만을 훔치는 자라고 생각하는 경향이 있다.\n그러므로 신하들은 충성스러운 간언을 할 분위기가 조성되지 않으면 침묵하게 된다.\n이러한 문제를 해결하고자 당 태종은 간언을 독려한다.\n\"사람이 자기 얼굴을 보려면 반드시 맑은 거울이 있어야 하고, 군주가 자기 허물을 알려면 반드시 충직한 신하에 의지해야 하오.\n군주가 만일 자신을 현인이나 성인이라고 여기는 착각에 빠져있고, 신하도 정확한 의견을 제시하여 바로잡지 않는다면, 이런 상황에서 위험과 실패를 면하는 것이 어찌 가능하겠소?\n군주가 국토와 사직을 버리면 신하 또한 자신의 집안을 보존할 수 없소.\n수양제는 잔인하고 포학했지만 신하가 입을 다문 채 아무 말도 하지 않았으므로 자기에게 어떤 허물이 있는지 듣지 못했소.\n결국 나라는 멸망했소.\n우세기 등의 대신 또한 오래지 않아 피살되었소.\n이것은 과거 오래전의 일이 아니오.\n대신들은 내가 백성들에게 불리한 일을 하는 것을 보게 되면, 반드시 거리낌 없이 직언을 하여 비판 해야 하오.\"\n한비자는 도성을 떠나 유람을 가는 것 또한 지극히 경계했다.\n군주가 궁궐을 비우고 외부로 떠나는 것은 결국 궁정의 긴장감을 무너뜨리게 되므로, 조직의 긴장도를 위해 군주는 유람할 시간이 없다는 것이다.\n아이가 어릴 때 부모의 양육이 소홀하게 되면, 그 자식은 성장하여 부모를 원망하게 된다.\n또 그 자식이 장년이 되었을 때 부모에 대한 효도를 망각하면, 그 부모는 자식을 책망하게 될 것이다.\n부자 사이는 가장 친밀한 사이임에도 책망하거나 원망한다는 것은 서로 상대가 자기를 위해서 일을 한다는 마음이 없었기 때문이다.\n아랫사람을 고용하여 씨앗을 뿌리거나 경작을 시킬 때, 주인이 집안 살림에서 과용을 하며 좋은 음식과 쫗은 옷을 주고 노동의 대가로 돈도 챙겨주는 것은 그 아랫사람을 배려하기 때문이 아니다 .\n그렇게 후하게 대해야만 깊이 땅을 팔 것이며, 잡초를 샅샅이 뽑으리라 생각하기 때문인 것이다.\n...\n결국 주인과 일하는 사람 양쪽 모두 자기 이익만을 생각하고 있는 것이다.\n그러므로 자기에게 이익이 되도록 일을 하면 적대적인 나라 사람과도 우호적으로 지낼 수 있고, 자기 이익을 떠나게 되면 부자지간도 서로가 원망하게 된다는 것이다.\n...\n남을 위해 죽도록 일하는 것이 아니라 자신의 이익과 목표를 위해 일한다고 생각하면 상대에 대한 평가도 어렵지 않으리라.\nps.\n여담이지만, 챕터별로 편차가 있지만, 챕터의 제목과 챕터의 전반부/후반부의 내용이 상이해서 생뚱 맞다는 느낌을 받았다.\n챕터의 첫번째 사례로 드는 고사는 제목과 잘 어울려서 챕터를 이해하는데 도움이 되었지만, 두번째, 세번째 고사는 사실 챕터에서 이야기하고자 하는 바와 어울리지 않을 때가 많아서 띠용한 적이 종종 있다.\n예를 들어 \"15. 만족을 모르면 근심도 떠나지 않는다\" 에서 2번째 고사는 새옹지마 사례다보니 '일희일비 하지 않는다' 라는 주제에선 어울리겠지만, '만족할 줄 알아야 한다'를 이야기해야하는 이 챕터에서는 전혀 어울리는 고사는 아니라고 생각했다.\n그 외에도 이런 사례가 많아서 책의 좋은 내용과 별개로 책에 대한 평가를 할 때 '절하' 되는 근거가 될 것 같다.",
@@ -101,150 +221,35 @@
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "C++ Language Updates in MSVC in Visual Studio 2022 17.14",
-    "description": "Introduction In this update, we continue the tradition of bucketing bugs into helpful categories for you all to filter through along with even more notes from the compiler team as to what, exactly, was fixed. This blog is also complemented by the recent Pure Virtual C++ pre-conference talk by RanDair Porter; so please check out […]\nThe post C++ Language Updates in MSVC in Visual Studio 2022 17.14 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/c-language-updates-in-msvc-in-visual-studio-2022-17-14/",
-    "pubDate": "Tue, 06 May 2025 15:00:34 +0000",
-    "creator": "Cameron DaCamara",
-    "categories": [
-      "Announcement",
-      "C++",
-      "Frontend",
-      "C++ language",
-      "compiler",
-      "MSVC",
-      "VC++"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "TeamCity 2025.03.2 Is Out",
-    "description": "Today we’re rolling out TeamCity On-Premises 2025.03.2, the second bug-fix update for the major TeamCity version released in back in March. This update addresses a few product issues, such as: Bug-fix updates also include performance improvements and security patches, so it’s always a good idea to install them as they come out. See TeamCity 2025.03.2 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/05/teamcity-2025-03-2-bug-fix/",
-    "pubDate": "Thu, 08 May 2025 09:27:07 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "bug-fix"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "서비스 텐션",
-    "description": "카카오에 처음 들어가서 인상적이었던 점은 카톡으로 카톡을 모니터링하던 것이었습니다.\n카톡 시스템의 장애를 비롯하여 사내 서비스의 수많은 부분을 모니터링했습니다.\n2012년. 때는 바야흐로 모바일 메신저 왕좌의 게임 시대.\n갑자기 브라질의 가입자 수가 늘면 누군가가 채팅방에 말했습니다.\n이런 경험은 처음이었습니다. 아하 포인트를 느꼈던 것 같습니다.\n모니터링 방에는 서비스에 관심 있는 사람들이 자발적으로 들어와 있었는데, 이상 징후를 특히 잘 포착하는 사람들이 있었습니다.\n이런 사람들이 그렇게 멋져 보일 수가 없었습니다. 저도 그런 사람이 되고 싶었습니다.\n이상 징후를 찾아내고 원인을 끈질기게 탐색하는 걸 카카오에서 배웠습니다.\n한 편, 서비스 텐션이 끊어질 듯이 탱탱한 상태가 되면 일하기에는 좋지만 사람들을 상대하기에는 좋지 않은 것 같습니다.\n커피한잔을 오랫동안 혼자 운영하며 저의 텐션이 점점 느슨해져 가는 걸 느끼고 있습니다.\n\n함께 읽으면 좋은 글:\n서버 비용을 아끼던 사람들 (feat. 카카오 옛날 이야기)\n카톡 서버 개발의 추억\n수비수 개발자",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/05/08/service-tension.html",
-    "pubDate": "2025-05-07T23:44:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Suno 4.5 프롬프트 작성법, 자연어의 힘으로 AI 음악 퀄리티 높이기 - 무료 GPTS 공개",
-    "description": "음악 생성 AI 'Suno 4.5'를 100% 활용하는 프롬프트 작성법을 알려드릴게요. 구조화된 명령어보다 자연어가 훨씬 효과적이라는 사실, 알고 계셨나요? 음악 생성 결과가 확 달라지는 비밀 팁 대공개!\n\n\n \n솔직히 말해서, 저도 Suno를 처음 접했을 때는 완전 헤맸어요. 뭐랄까, AI 음악 생성이라고 하니까 뭔가 코딩하듯 명령어를 입력해야 할 것 같은 그런 느낌? 처음엔 [STYLE=Rock][BPM=120][MOOD=Happy] 이런 식으로 입력했다가 결과물이 영 만족스럽지 않았던 기억이 나네요.\n \n여러분은 혹시 지금도 그렇게 하고 계신가요? 그럼 오늘 이 글이 정말 도움이 될 거예요. 제가 무려 300곡 이상을 Suno로 만들어보면서 깨달은 '진짜' 프롬프트 작성법을 공유해드릴게요!  \n \n  Suno는 '명령'이 아닌 '대화'로 작동해요\nSuno의 가장 큰 오해 중 하나는 바로 이거예요. 사람들이 AI를 '명령을 그대로 수행하는 기계'로 생각한다는 점이죠. 근데 Suno는 명령을 따르는 도구가 아니라 당신의 창의적인 파트너예요.\n \n예를 들어볼게요:\n❌ 이렇게 하지 마세요:\n[GENRE=Trap][BPM=128][INSTRUMENTS=808,Synth,Piano][MOOD=Dark]\n\n \n✅ 이렇게 해보세요:\nDark trap track at 128 BPM, featuring hard-hitting 808s, haunting synth layers, and sparse, minor-key piano motifs. Percussive hi-hats and crisp claps drive the rhythm, while synth textures and deep bass create an intense, atmospheric vibe throughout each section.\n강렬한 808, 잊혀지지 않는 신스 레이어, 드문드문 마이너 키 피아노 모티프가 특징인 128 BPM의 다크 트랩 트랙입니다. 타악기 하이햇과 선명한 박수가 리듬을 주도하고, 신스 텍스처와 깊은 베이스가 각 섹션 전체에 강렬하고 분위기 있는 분위기를 조성합니다.\n \n두 번째 방식이 훨씬 더 풍부한 결과물을 만들어내요. 왜냐하면 Suno는 자연어 기반으로 학습된 AI이기 때문이죠! 구조화된 태그는 오히려 AI가 창의적으로 해석할 수 있는 여지를 줄여버려요.\n단, 여전히 SUNO는 영문 프롬프트를 더 잘 이해합니다.\n \n  효과적인 Suno 프롬프트 작성 원칙\n제가 경험해본 결과, 다음 원칙들이 Suno에서 정말 잘 작동했어요:\n1️⃣ 구체적인 감정과 분위기 전달하기\n\"슬픈 노래\" 대신 \"이별 후 비 오는 날 창밖을 바라보며 느끼는 그 쓸쓸함이 담긴 발라드\"처럼 구체적으로 표현해보세요.\n2️⃣ 악기와 사운드 요소 자연스럽게 설명하기\n\"일렉기타, 베이스, 드럼\" 같이 나열하기보다는 \"강렬한 일렉기타 리프가 주도하고, 묵직한 베이스와 경쾌한 드럼 비트가 뒷받침하는\" 식으로 표현하세요.\n3️⃣ 음악의 전개 방식 언급하기\n\"잔잔하게 시작해서 코러스에서 폭발적으로 터지다가, 브릿지에서는 다시 조용해졌다가 마지막에 화려하게 마무리되는 구성이면 좋겠어요.\"\n4️⃣ 레퍼런스 활용하기 (단, 과하지 않게)\n\"비틀즈의 초기 팝 감성과 콜드플레이의 현대적인 사운드가 섞인 느낌\" 같은 방식으로 표현하면 좋아요. 하지만 너무 많은 레퍼런스를 나열하면 오히려 혼란스러워질 수 있어요.\n \n  Suno 버전별 프롬프트 최적화 방법\nSuno가 버전업되면서 프롬프트 작성법도 조금씩 달라졌어요. 제가 직접 테스트해봤는데요:\n버전\n최적 프롬프트 길이\n특징\n\n\n\n\nv4.0\n50-80자\n간결하고 핵심적인 특성 위주\n\n\nv4.5\n150-250자\n상세한 음악 요소와 전개 방식 포함\n\n\n\nv4.5에서는 음악적 질감, 악기 상호작용, 구간별 전개 방식 등을 더 자세히 설명할수록 좋은 결과가 나왔어요.\n \n  실제 사례로 보는 프롬프트 비교\n제가 실제로 작성해본 프롬프트 예시를 비교해볼게요:\n \n❌ 비효율적인 프롬프트:\npop, soul, R&B, and rock, rap, hip hop\n✅ 효과적인 프롬프트:\nA dynamic blend of pop, soul, R&B, rock, rap, and hip hop: crisp drums and a punchy bass groove set the foundation. Verses intertwine soulful singing and rap cadences over warm keys and guitar licks. The chorus rises with layered harmonies, gritty guitars, and lush synth textures.\n팝, 소울, R&B, 록, 랩, 힙합이 역동적으로 어우러진 곡으로, 선명한 드럼과 펀치감 넘치는 베이스 그루브가 바탕을 이룹니다. 따뜻한 건반과 기타 릭 위에 소울풀한 노래와 랩 케이던스가 얽혀 있습니다. 코러스는 레이어드 하모니, 거친 기타, 풍성한 신디사이저 텍스처와 함께 상승합니다.\n \n두 번째 프롬프트로 만든 곡이 훨씬 더 복잡하고 풍부한 사운드를 가졌어요. 특히 빌드업과 드롭의 구성이 훨씬 자연스러웠고요!\n \n  Suno 4.5의 숨겨진 기능: 가사 포맷팅\n많은 분들이 모르시는 건데, Suno 4.5에서는 가사 포맷팅도 중요해요. 특히 곡의 구조를 명확히 표현하면 더 좋은 결과가 나온다는 걸 발견했어요.\n \n효과적인 가사 포맷팅 예시:\n[start]\n[Intro: 잔잔한 피아노와 대기감 있는 신스패드]\n\n[Verse 1]\n여기에 첫 번째 버스 가사를 넣으세요\n이야기가 시작되는 부분입니다\n\n[Chorus]\n이곳은 후렴구로 곡의 핵심 메시지를 담습니다\n(화음으로 받쳐주는 부분)\n\n...\n\n[Outro: 페이드아웃되는 멜로디와 함께]\n[end]\n\n이런 식으로 각 섹션을 명확히 구분해주면 곡의 구조가 더 짜임새 있게 만들어져요.\n \n  이런 실수는 피해주세요\n너무 많은 요소 욕심내기: \"일렉기타, 베이스, 피아노, 드럼, 바이올린, 첼로, 플루트, 색소폰...\" 이렇게 너무 많은 악기를 한꺼번에 요구하면 오히려 혼잡한 결과물이 나와요.\n상충되는 지시 주기: \"어둡고 우울한 느낌인데 신나고 활기찬 멜로디\" 같이 모순된 지시는 혼란을 줘요.\n너무 추상적인 표현 사용: \"혁신적인 사운드\" 같은 표현보다는 \"80년대 신스웨이브와 현대적인 EDM이 결합된 사운드\"처럼 구체적으로 표현하세요.\n프롬프트 길이 과장하기: 아무리 v4.5가 긴 프롬프트를 지원한다고 해도, 500자 이상으로 너무 길게 쓰면 오히려 핵심이 흐려질 수 있어요.\n  Suno 프롬프트 작성, 실전 예시\n다양한 장르별로 제가 직접 써본 효과적인 프롬프트 예시를 공유할게요 (단, 영문 프롬프트를 사용하세요):\n팝 (Pop)\nBright, upbeat acoustic guitar opens the track, layered with crisp folky percussion and buoyant handclaps. The verses feel light and airy, leading into a punchy, melodic hook with tight drums and glistening synth accents. Male and female vocal harmonies drive the energetic, hopeful chorus.\n밝고 경쾌한 어쿠스틱 기타가 트랙의 시작을 알리며, 선명한 포크 퍼커션과 경쾌한 핸드클랩이 레이어드되어 있습니다. 경쾌하고 경쾌한 느낌의 구절은 타이트한 드럼과 반짝이는 신디사이저 악센트가 돋보이는 강렬한 멜로디 훅으로 이어집니다. 남성과 여성의 보컬 하모니가 활기차고 희망찬 코러스를 이끌어갑니다.\n힙합 (Hip-Hop)\nA 90s hip-hop groove with thick vinyl crackle, a jazzy melodic sample looping over punchy, boom-bap drums. Heavy subby bass anchors the mix, while subtle turntable scratches accent transitions. The laid-back, precise flow glides over the urban instrumental.\n90년대 힙합 그루브와 두꺼운 비닐 크래클, 재즈 멜로디 샘플이 강렬한 붐뱁 드럼 위로 반복됩니다. 묵직한 서브 베이스가 믹스를 고정하고, 미묘한 턴테이블 스크래치가 악센트 전환을 강조합니다. 느긋하고 정확한 흐름이 도시적인 악기 위로 미끄러지듯 흘러갑니다.\n록 (Rock)\nA relentless hardcore rock track driven by an aggressive electric guitar loop and rapid, crashing drums. Tight, distorted bass underpins the verses, with sharp percussive breaks highlighting key transitions. Intense male vocals cut through, sustaining raw power from start to finish.\n공격적인 일렉 기타 루프와 빠르게 부딪히는 드럼이 이끄는 거침없는 하드코어 록 트랙입니다. 단단하고 왜곡된 베이스가 구절을 뒷받침하며, 날카로운 퍼커션 브레이크가 주요 전환을 강조합니다. 강렬한 남성 보컬이 처음부터 끝까지 날것 그대로의 파워를 유지합니다.\n \n\n\n  마무리\nSuno 4.5를 활용할 때는 구조화된 명령어보다 자연어로 풍부하게 표현하는 것이 핵심이에요. AI는 명령을 따르는 도구가 아니라 당신의 창의적인 파트너라는 점을 기억하세요! 이 글이 여러분의 음악 창작 여정에 도움이 되었으면 좋겠네요.\n여러분만의 Suno 프롬프트 작성 팁이 있다면 댓글로 공유해주세요! 어떤 프롬프트로 어떤 곡을 만들었는지 들려주시면 정말 흥미로울 것 같아요.  \n \n❓ 자주 묻는 질문\nQ: Suno에서 특정 BPM을 정확히 지정할 수 있나요?\nA: 정확한 숫자보다는 \"빠른 템포\", \"중간 템포\" 같은 표현이 더 효과적이에요. 필요하다면 \"약 120BPM 정도의 템포\"처럼 표현할 수 있어요.\nQ: 유명 아티스트 스타일을 참조해도 되나요?\nA: 네, 가능해요. \"비틀즈 스타일의\" 같은 표현은 효과적이지만, 너무 직접적인 모방보다는 \"비틀즈의 하모니 스타일에서 영감을 받은\"처럼 표현하는 게 좋아요.\nQ: 프롬프트에 가사를 포함시키는 게 좋을까요?\nA: 가사의 주제나 분위기를 언급하는 건 도움이 되지만, 전체 가사를 모두 제공하기보다는 핵심 메시지나 테마만 언급하는 게 효과적이에요.\nQ: 악기를 너무 많이 언급하면 안 좋은가요?\nA: 네, 3-5개 정도의 핵심 악기만 언급하고, 그 역할과 상호작용을 설명하는 게 더 효과적이에요.\nQ: 자연어로 입력해도 장르나 분위기가 정확히 전달될까요?\nA: 네, 오히려 더 정확하게 전달돼요. 장르를 언급하되 그 장르의 특징적인 요소들을 설명해주면 AI가 더 잘 이해해요.\n \n  GPTS 무료배포\n반응형\n\n    \n    (adsbygoogle = window.adsbygoogle || []).push({});\n  \n 약간의 지식과 시간만 투자하면 누구나 직접 제작하고 활용할 수 있는 유용한 GPTs가 이미 많이 존재합니다. 그러나 여전히 AI 기술에 대한 낯선 접근을 두려워하거나 IT 초보자, 또는 시간적 여유가 없거나 수익화에 대한 절실함 때문에 올바른 정보를 얻지 못하는 사람들이 많습니다.  \n이러한 심리를 악용해 과도한 가격으로 유료 강의를 판매하며 불필요한 부담을 주는 사례들이 늘어나고 있습니다.  \n 이에 본 블로그에서는 모든 사람이 AI의 혜택을 공정하고 자유롭게 누릴 수 있도록 GPTs를 무료로 배포하며, 불합리한 강의 판매 행위를 단호히 배척하고자 합니다. (당연히 저도 무료 그 이상의 가치가 있는 챗봇이라면 유료화를 검토중입니다.)\n\n \nChatGPT - Suno 4.5 Prompt Generator\nCreate Suno v4.0 and v4.5 prompts and lyrics for expressive, structured music. Describe the genre, vocals, mood, and song progression to achieve film-like emotional results. You can use artist names or song titles instead of keywords. Enter your desired la\nchatgpt.com\n\n\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Suno에서 특정 BPM을 정확히 지정할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"정확한 숫자보다는 '빠른 템포', '중간 템포' 같은 표현이 더 효과적이에요. 필요하다면 '약 120BPM 정도의 템포'처럼 표현할 수 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"유명 아티스트 스타일을 참조해도 되나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 가능해요. '비틀즈 스타일의' 같은 표현은 효과적이지만, 너무 직접적인 모방보다는 '비틀즈의 하모니 스타일에서 영감을 받은'처럼 표현하는 게 좋아요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"프롬프트에 가사를 포함시키는 게 좋을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"가사의 주제나 분위기를 언급하는 건 도움이 되지만, 전체 가사를 모두 제공하기보다는 핵심 메시지나 테마만 언급하는 게 효과적이에요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"악기를 너무 많이 언급하면 안 좋은가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 3-5개 정도의 핵심 악기만 언급하고, 그 역할과 상호작용을 설명하는 게 더 효과적이에요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"자연어로 입력해도 장르나 분위기가 정확히 전달될까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 오히려 더 정확하게 전달돼요. 장르를 언급하되 그 장르의 특징적인 요소들을 설명해주면 AI가 더 잘 이해해요.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483581",
-    "pubDate": "Thu, 8 May 2025 10:31:01 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/무료 GPTS 공개",
-      "ai 음악 생성",
-      "AI 음악 제작",
-      "boost 기능",
-      "suno 4.5",
-      "suno 팁",
-      "가사 포맷팅",
-      "무료gpts",
-      "음악 ai",
-      "프롬프트 작성법",
-      "효과적인 프롬프트"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Cursor에서 MCP 연동하기: Tavily Search로 실시간 웹 검색 기능 구현하기",
-    "description": "Cursor란?\nCursor는 AI 기반의 통합 개발 환경(IDE)으로, VSCode(Visual Studio Code)를 기반으로 하여 개발자 생산성을 극대화하는 다양한 기능을 제공합니다. 기본적으로 VSCode 인터페이스와 똑같기 때문에 빠르게 적응하기 쉬우며, Copilot처럼  자연어로 코드 작성 및 수정이 가능합니다. 특히 전체 코드베이스를 이해하고 이에 대한 질문에 답변하는 기능이 뛰어납니다. 내 폴더구조와 여러 파일들을 Context 인식해서 그에 맞게 폴더/파일/코드라인 단위로 코드를 생성해줍니다.\nMCP란?\nMCP(Model Context Protocol)는 AI 애플리케이션이 외부 데이터 소스나 도구와 통신할 수 있도록 표준화된 인터페이스를 제공하는 오픈 프로토콜입니다. MCP는 AI 모델이 다양한 외부 시스템과 상호 작용할 수 있도록 지원하여, 개발자가 복잡한 통합 작업 없이도 AI 기능을 확장할 수 있게 합니다.\n표준화된 인터페이스를 제공한다는 말은, 동일한 방법으로 외부 데이터 소스나 도구를 호출해서 사용할 수 있다는 것입니다. 마치 Server-Client의 호출이 HTTP프로토콜로 표준화되어 있듯이, MCP Server - MCP Client사이의 통신 프로토콜이 표준화 되어 있는것입니다.\n주로 MCP 서버는 외부 데이터 소스를 제공하거나, 외부 API를 실행하는 기능을 제공하고, 호스트 애플리케이션(예: Cursor, Claude Desktop 등)은 MCP 클라이언트를 통해 MCP 서버를 호출합니다. 주요 시나리오는 유저가 호스트 애플리케이션에 질문을 하면, 호스트 애플리케이션은 어떤 MCP Server를 어떻게 호출할지 AI 모델을 이용해서 판단하고, MCP Server를 실행하고, 그 결과를 취합하여 최종 결론을 내는 방식입니다.\n\nCursor에 TavilySearch MCP Server 연동해야하는 이유\nCursor는 강력한 AI 기능을 제공하지만, 기본적으로 웹 검색 기능이 내장되어 있지 않습니다. 따라서 최신 정보를 반영하거나 외부 데이터를 실시간으로 조회하는 데에는 한계가 있습니다.\n예를 들어, \"최신 AI 기술 동향을 알려줘\"와 같은 질문을 할 경우, Cursor는 자체적으로 웹 검색을 수행하지 않기 때문에 최신 정보를 제공하는 데 어려움이 있습니다.\n이러한 문제를 해결하기 위해, Tavily Search API를 제공하는 MCP를 Cursor에 연동하여 실시간 웹 검색 기능을 구현할 수 있습니다. Tavily Search는 웹 검색 API를 통해 다양한 웹 데이터를 조회할 수 있는 기능을 제공합니다.\n이번 글에서는 Tavily Search를 MCP로 연동하여 Cursor 내에서 실시간 웹 검색 기능을 구현하는 방법을 단계별로 안내하겠습니다. 이를 통해 Cursor의 기능을 확장하고, 최신 정보를 반영한 개발 환경을 구축할 수 있습니다.\n1.사전 준비\n1.1 Cursor 설치\nCursor는 공식 웹사이트에서 다운로드하여 설치할 수 있습니다. 설치 방법은 운영 체제에 따라 다르므로, 해당 페이지의 안내를 참고하시기 바랍니다.\n\n1.2 Node.js 및 npx 설치\nMCP 서버 실행을 위해 Node.js와 npx가 필요합니다. Node.js는 공식 웹사이트에서 설치할 수 있으며, 설치 시 npx도 함께 제공됩니다.\n1.3 Tavily Search API 키 발급\nTavily Search API를 사용하려면 API 키가 필요합니다. Tavily 공식 웹사이트에 가입한 후, 대시보드에서 API 키를 발급받을 수 있습니다. 이 키는 이후 MCP 서버와 Cursor에서 사용됩니다.\n\n2.TavilySearch MCP Server 테스트\n방법1 - Smithery 서비스 사용\n원래는 MCP Server를 모아두는 Smithery.ai(https://smithery.ai/) 에서 쉽게 TavilySearch MCP Server를 실행하려고 했으나.. 일시적으로 사이트 장애가 있어서 직접 내 local에 실행하기로 했습니다.\n\nSmithery에 가입하여 아래 페이지에 접속한 후 우측에 Install을 누르면 Smithery에 MCP 서버가 실행되고, Smithery에서 제공하는 endpoint를 제공한다고 들었는데...\nhttps://smithery.ai/server/@tavily-ai/tavily-mcp/api\n\n로그인만 하면 Smithery 페이지 장애가 나서 더이상 실행할 수 없었습니다.\n\n방법2 - Local에 MCP Server 실행 테스트\nGitHub의 Tavily-MCP Repository 를 찾아서 따라 내 Local에 MCP Server를 실행해봤습니다.\nhttps://github.com/tavily-ai/tavily-mcp?tab=readme-ov-file\n\n뭔가를 설치하기는 싫어서 npx를 통해 간단히 실행했습니다. \n1.3단계에서 발급받은 TAVILY의 APIKEY를 환경변수로 설정해주고, npx로 mcp 서버를 실행했을 때 이미지와 같이 서버가 running중이라는 말이 뜨면 성공입니다.\nexport TAVILY_API_KEY=<내 API KEY>\nnpx -y tavily-mcp@0.1.4  \n\n3. Cursor에서 MCP Server등록\n자, 이제 tavily-mcp@0.1.4가 잘 돌아간다는 것을 확인했으니 cursor에 MCP Server를 등록하겠습니다.\nCursor Settings를 열고\nNavigate to Features > MCP Servers\n\"+ Add New MCP Server\" 버튼 클릭\n다음과 같이 json 등록\n{\n\"mcpServers\": {\n  \"tavily-mcp\": {\n    \"command\": \"npx\",\n    \"args\": [\"-y\", \"tavily-mcp@0.1.4\"],\n    \"env\": {\n      \"TAVILY_API_KEY\": \"<내 API_KEY>\"\n    }\n  }\n}\n}\n이렇게 등록을 하면 아래와 같이 cursor가 command 명령어를 실행해 tavily-mcp 서버를 띄워놓은것을 확인할 수 있습니다.\n\n4. 실행\nCursor에서 Command+I를 눌러 채팅을 연 후 Agent를 선택한 후 채팅을 쳐보겠습니다.\n\n\"langchain_mcp_adapters 이용해서 숫자를 더하고 곱하는 tool이 있는 mcp server 만들어줘 python\" 이라고 질문해봤습니다.\n\n처음에는 제 로컬 파일중에서 관련내용을 찾았는데, 관련내용이 없었습니다.\n두번째는 웹검색을 하고자 했습니다. 웹검색을 사용해도 되는지 제 동의를 구했습니다.\n\n검색한 내용을 바탕으로 최종 코드를 작성하여 파일을 생성했습니다.\n마무리\nMCP 연동하는게 생각보다 너무 쉬운데, 개발 생산성은 매우 올라가는것 같습니다.\nSmithery 나 Glama 같은 사이트에 보면 MCP 서버가 엄청 많은데, 웹서치 이외에도 다양한 툴을 연동해보면 좋을 것 같습니다.\n하지만 MCP서버를 많이 등록하면 등록할수록 호스트(Cursor)가 질문에 맞는 서버를 고르는 정확도가 떨어질 수 있으니 적당히 필요에 맞게 조절해가며 사용하면 좋을 것 같습니다.(커서는 최대 40개까지 등록할 수 있습니다.)\n그리고 Claude Desktop 에도 MCP 연동할 수 있다는데, 채팅만 사용하려면 Claude에도 연동하면 쓸만할 것 같다는 생각이 들었습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://velog.io/@mdy0102/Cursor%EC%97%90%EC%84%9C-MCP-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-Tavily-Search%EB%A1%9C-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%9B%B9-%EA%B2%80%EC%83%89-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0",
-    "pubDate": "Tue, 06 May 2025 16:38:56 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Java Annotated Monthly – May 2025",
-    "description": "Welcome to the May edition of Java Annotated Monthly! This month, we have a special guest – Anton Arhipov. He joins us to share standout articles and other discoveries that recently caught his expert eye. Alongside his picks, you’ll find your regular dose of Java and tech news, AI updates, and industry events that are […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/05/java-annotated-monthly-may-2025/",
-    "pubDate": "Tue, 06 May 2025 09:26:30 +0000",
-    "creator": "Irina Mariasova",
-    "categories": [
-      "news",
-      "ai",
-      "ai-agent",
-      "ai-assistant-release",
-      "intellij-idea",
-      "java",
-      "java-annotated-monthly",
-      "junie",
-      "kotlin"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "[PC] Welcome Back Commander, 템페스트 라이징",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2303",
-    "pubDate": "Fri, 09 May 2025 15:15:37 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
     "id": 14,
     "imageUrl": "",
-    "title": "C++ - EASTL 디자인",
-    "description": "No description available",
+    "title": "AI가 아니라 사업이다",
+    "description": "나는 1999년도에 스탠포드 대학원에 입학하면서 실리콘밸리에 처음 왔다. 아무것도 모르는 학생이었지만, 이 동네는 한국과는 아주 다르고, 심지어 미국의 다른 지역과도 많이 다르다는 걸 당시에도 직관적으로 느낄 수 있었다. 창업가나 VC 네트워크가 전혀 없었지만, 벤처 관련 수업을 몇 개 들으면서, 스타트업과 entrepreneurship에 대한 관심이 많이 생겼고, 팀을 만들어 사업계획서도 만들어 보고, 이 동네의 네트워킹 행사에도 다니면서(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/Cpp_20250505/",
-    "pubDate": "Mon, 05 May 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2025/05/its-the-business-that-matters-not-the-ai.html",
+    "pubDate": "Sun, 11 May 2025 21:30:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "internet",
+      "Strong",
+      "technology",
+      "vc",
+      "web3"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Accelerating GPU indexes in Faiss with NVIDIA cuVS",
-    "description": "Meta and NVIDIA collaborated to accelerate vector search on GPUs by integrating NVIDIA cuVS into Faiss v1.10, Meta’s open source library for similarity search. This new implementation of cuVS will be more performant than classic GPU-accelerated search in some areas. For inverted file (IVF) indexing, NVIDIA cuVS outperforms classical GPU-accelerated IVF build times by up [...]\nRead More...\nThe post Accelerating GPU indexes in Faiss with NVIDIA cuVS appeared first on Engineering at Meta.",
+    "title": "내게 맞는 실손보험, 어떻게 골라야 할까?",
+    "description": "세대별 차이부터 특약까지, 꼭 알아야 할 실손보험 상식",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/05/08/data-infrastructure/accelerating-gpu-indexes-in-faiss-with-nvidia-cuvs/",
-    "pubDate": "Thu, 08 May 2025 17:00:22 +0000",
+    "link": "https://blog.toss.im/article/tossmoment-9",
+    "pubDate": "Thu, 08 May 2025 07:55:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "AI Research",
-      "Data Infrastructure",
-      "ML Applications",
-      "Open Source"
-    ]
+    "categories": []
   }
 ]
