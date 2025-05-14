@@ -2,103 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "ChatGPT 메모리 기능, 내 정보는 어디까지 안전할까?",
-    "description": "쉽게 잊히는 내가 ChatGPT에 알려준 모든 정보들, 그런데 AI는 절대 잊지 않는다고? 프라이버시 보호와 편리함 사이에서 균형 잡는 방법을 알려드릴게요. 당신의 디지털 기억을 안전하게 지키세요!\n\n\n \n솔직히 말해서 요즘 ChatGPT 쓰면서 좀 이상한 느낌 받은 적 있으세요? 내가 어제 뭐라고 했는지, 심지어 몇 주 전에 언급했던 내 취향까지 정확히 기억하고 있을 때 그 미묘한 불편함 말이에요. 지난주에 제가 ChatGPT한테 제 여행 계획에 대해 물어봤는데, 갑자기 \"지난번에 말씀하신 일본 오사카 여행 계획이 어떻게 되고 있나요?\"라고 물어보더라고요. 순간 멍했어요. '내가 언제 이 AI한테 오사카 여행 얘기를 했지?' 싶었거든요.\n \n그렇게 시작된 제 디지털 프라이버시에 대한 고민, 오늘은 ChatGPT의 기억 기능과 그 숨겨진 위험성, 그리고 우리가 어떻게 개인정보를 보호할 수 있는지 함께 알아보려 해요. 여러분도 알다시피, AI가 우리에 대해 알면 알수록 더 도움이 되지만... 그만큼 위험하기도 하죠.  \n \n  ChatGPT의 기억은 어떻게 작동할까?\nChatGPT의 기억 기능은 크게 두 가지로 나눌 수 있어요. 첫째는 **저장된 기억(Saved Memories)**이에요. 이건 여러분이 ChatGPT에게 명시적으로 기억해달라고 부탁한 정보들이죠. \"내 이름은 민지야\", \"나는 고양이 알레르기가 있어\" 같은 명확한 정보들이요.\n \n두 번째는 **대화 기록 참조(Chat History Reference)**예요. 이건 좀 더 미묘한데, 여러분과의 이전 대화에서 자연스럽게 수집된 정보들을 말해요. 예를 들어 여러분이 \"요즘 이직 준비하는데 너무 힘들어\"라고 했다면, ChatGPT는 나중에 갑자기 \"이직 준비는 어떻게 되어가고 있나요?\"라고 물어볼 수 있죠.\n처음엔 되게 편리하고 인간적인 것 같죠? 근데 잠깐만요. 여기서 몇 가지 생각해볼 점이 있어요.\n \n\"AI의 기억은 인간의 기억과 달라요. 우리는 시간이 지나면 잊어버리지만, AI는 당신이 명시적으로 지우라고 할 때까지 모든 것을 완벽하게 기억합니다.\"\n \n \n  프라이버시 위험: 내 정보가 어디로 가는 걸까?\n제가 진짜 걱정되는 건 이런 거예요. 내가 ChatGPT에게 말한 모든 것들, 내 취미부터 시작해서 건강 상태, 금융 정보, 심지어 개인적인 고민까지... 이 모든 것이 어딘가에 저장되어 있다는 거죠.\n여기서 몇 가지 위험 요소를 생각해볼 수 있어요:\n데이터 노출 위험 - ChatGPT가 여러 세션에서 정보를 수집하면서, 민감한 정보가 의도치 않게 다른 맥락에서 유출될 수 있어요.\n모델 훈련에 활용 - OpenAI는 명시적으로 거부하지 않는 한, 여러분의 대화 내용(기억 포함)을 모델 개선에 사용할 수 있다고 명시하고 있어요.\n제3자 데이터 공유 - 데이터가 어떻게 보관되고, 누가 접근 권한을 가지고 있는지 완전히 투명하지 않아요.\n제가 얼마 전에 친구들이랑 얘기하다가 \"나 요즘 이런 생각하고 있는데, 남들이 알면 좀 부끄러울 것 같아서...\" 하는 내용을 ChatGPT에 물어본 적 있었어요. 그때만 해도 그냥 일회성 대화인 줄 알았죠. 근데 몇 주 뒤에 다른 질문을 하는데 갑자기 그 내용을 언급하더라고요! 순간 식은땀이 확 나더라구요.  \n \n ️ 내 정보를 지키는 방법: 프라이버시 컨트롤 활용하기\n다행히도 OpenAI에서는 이런 우려를 반영해 몇 가지 프라이버시 보호 장치를 마련해뒀어요. 이걸 제대로 활용하면 우리의 디지털 흔적을 좀 더 안전하게 관리할 수 있답니다.\n1. 기억 기능 끄기\n가장 간단한 방법은 아예 기억 기능을 꺼버리는 거예요.\nChatGPT 설정으로 이동 (왼쪽 하단 프로필 아이콘 클릭)\n'개인화(Personalization)' > '기억(Memory)' 으로 이동\n기억 기능을 '꺼짐(Off)'으로 설정\n이렇게 하면 ChatGPT가 세션 간에 여러분의 정보를 기억하지 않게 됩니다. 물론 이러면 매번 새로운 대화를 시작해야 하는 불편함이 있긴 하지만, 프라이버시가 더 중요하다면 좋은 선택이에요.\n2. 임시 채팅 모드 활용하기\n민감한 주제에 대해 대화할 때는 임시 채팅 모드를 사용해보세요.\nAI 모델 메뉴 열기 (ChatGPT 3.5 또는 ChatGPT 4 라벨이 붙은 곳)\n'임시 채팅(Temporary chat)' 옵션 선택\n이 모드에서는 대화 내용이 기록에 남지 않고, 미래 상호작용에도 영향을 미치지 않아요. 정말 개인적인 질문이나 일회성 정보 검색에 딱이죠!\n3. 저장된 기억 관리하기\n이미 ChatGPT가 알고 있는 정보를 확인하고 싶다면:\n설정 > 개인화 > 기억\n'기억 관리(Manage Memories)' 인터페이스로 이동\n저장된 정보를 검토하고, 필요에 따라 삭제하거나 수정\n와, 제가 이걸 처음 했을 때 깜짝 놀랐어요. ChatGPT가 제 직업, 취미, 심지어 제가 좋아하는 음식까지 다 기억하고 있더라고요! 바로 불필요한 것들은 삭제했죠. 그런데 이게 어디까지 삭제된 걸까요?  \n \n  데이터 사용 옵트아웃: 내 정보로 AI를 훈련시키지 않기\n여기서 더 나아가, 여러분의 데이터가 AI 모델 개선에 사용되지 않도록 설정할 수도 있어요:\n설정으로 이동\n'데이터 제어(Data Controls)' 탭 선택\n'모델 개선을 위한 데이터 사용' 옵션을 '꺼짐'으로 설정\nChatGPT Team, Enterprise, Edu 고객의 경우 기본적으로 이 옵션이 꺼져 있다고 하지만, 일반 사용자는 직접 확인하고 설정을 변경해야 해요.\n \n  실용적인 가이드라인: 균형 잡기\n결국은 편리함과 프라이버시 사이의 균형인데요, 제가 실제로 사용하는 몇 가지 팁을 공유할게요:\n상황\n권장 설정\n이유\n\n\n\n\n일상적인 질문\n기본 설정\n상대적으로 안전한 정보\n\n\n업무 관련 문의\n임시 채팅\n민감한 기업 정보 보호\n\n\n개인 건강/재정\n기억 끄기+임시 채팅\n최대한의 프라이버시 보호\n\n\n창작 활동\n기억 켜기\n지속적인 프로젝트 작업에 유리\n\n\n\n중요한 팁: 정기적으로 (한 달에 한 번 정도) 저장된 기억을 검토하고 불필요한 정보는 삭제하세요. 디지털 정리는 이제 필수예요!\n \n  무엇을 기대할 수 있을까?\n기술은 계속 발전하고 있고, ChatGPT의 기억 기능도 더욱 정교해질 거예요. 앞으로는 아마도 이런 변화를 기대할 수 있을 것 같아요:\n더 세밀한 프라이버시 제어 - 특정 주제나 카테고리별로 기억 기능을 설정할 수 있는 옵션\n차별화된 데이터 저장 기간 - 일부 정보는 24시간만, 다른 정보는 영구적으로 저장하는 등의 설정\n로컬 기억 저장 - 개인 기기에만 정보를 저장하는 옵션 (클라우드 저장 없이)\n\n\n \n뭐가 됐든, 우리 사용자들이 적극적으로 목소리를 내고 더 나은 프라이버시 보호를 요구하는 것이 중요해요. 내 정보는 내가 지켜야 하니까요!\n \n저는 개인적으로 ChatGPT 활용과 프라이버시 보호 사이에서 균형을 찾아가는 중이에요. 여러분은 어떤가요? ChatGPT의 기억 기능이 도움이 된다고 느끼나요, 아니면 좀 부담스러운가요? 댓글로 여러분의 경험을 공유해주세요. 모두의 의견이 궁금해요!  \n자주 묻는 질문 (FAQ)\nQ: ChatGPT가 저장한 내 정보를 완전히 삭제할 수 있나요?\nA: 네, 설정에서 '기억 관리'로 들어가 저장된 정보를 검토하고 삭제할 수 있습니다. 하지만 이미 모델 훈련에 사용된 데이터는 완전히 제거하기 어려울 수 있어요.\nQ: 기억 기능을 끄면 ChatGPT가 덜 유용해지나요?\nA: 어느 정도는 그렇습니다. 맥락을 이해하지 못하거나 반복적인 설명이 필요할 수 있어요. 하지만 중요한 정보는 각 세션에서 다시 제공하는 것이 안전합니다.\nQ: 임시 채팅과 일반 채팅의 차이점은 무엇인가요?\nA: 임시 채팅은 대화 기록을 저장하지 않고, 해당 세션이 끝나면 모든 정보가 삭제됩니다. 반면 일반 채팅은 히스토리에 남고 미래 상호작용에 영향을 줍니다.\nQ: 비즈니스용 ChatGPT는 개인용보다 더 안전한가요?\nA: ChatGPT Team과 Enterprise 버전은 기본적으로 데이터를 모델 훈련에 사용하지 않도록 설정되어 있어 일반적으로 더 높은 프라이버시 보호를 제공합니다.\nQ: 다른 AI 챗봇들도 비슷한 기억 기능을 가지고 있나요?\nA: 대부분의 현대적 AI 챗봇들은 어떤 형태로든 사용자 정보를 저장합니다. 이는 편리함을 위한 것이지만, 항상 해당 서비스의 개인정보 처리방침을 확인하는 것이 중요합니다.\n \n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ChatGPT가 저장한 내 정보를 완전히 삭제할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 설정에서 '기억 관리'로 들어가 저장된 정보를 검토하고 삭제할 수 있습니다. 하지만 이미 모델 훈련에 사용된 데이터는 완전히 제거하기 어려울 수 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"기억 기능을 끄면 ChatGPT가 덜 유용해지나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"어느 정도는 그렇습니다. 맥락을 이해하지 못하거나 반복적인 설명이 필요할 수 있어요. 하지만 중요한 정보는 각 세션에서 다시 제공하는 것이 안전합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"임시 채팅과 일반 채팅의 차이점은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"임시 채팅은 대화 기록을 저장하지 않고, 해당 세션이 끝나면 모든 정보가 삭제됩니다. 반면 일반 채팅은 히스토리에 남고 미래 상호작용에 영향을 줍니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"비즈니스용 ChatGPT는 개인용보다 더 안전한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"ChatGPT Team과 Enterprise 버전은 기본적으로 데이터를 모델 훈련에 사용하지 않도록 설정되어 있어 일반적으로 더 높은 프라이버시 보호를 제공합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"다른 AI 챗봇들도 비슷한 기억 기능을 가지고 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"대부분의 현대적 AI 챗봇들은 어떤 형태로든 사용자 정보를 저장합니다. 이는 편리함을 위한 것이지만, 항상 해당 서비스의 개인정보 처리방침을 확인하는 것이 중요합니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483579",
-    "pubDate": "Wed, 7 May 2025 07:03:46 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 챗봇 및 언어 모델",
-      "ai 데이터 사용",
-      "AI 프라이버시",
-      "chatgpt 기억 기능",
-      "openai 설정",
-      "개인정보 보호",
-      "기억 관리",
-      "데이터 제어",
-      "디지털 프라이버시",
-      "임시 채팅 모드",
-      "챗봇 메모리"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "A Study in CDEs: Building CodeCanvas with CodeCanvas",
-    "description": "JetBrains CodeCanvas is a tool for orchestrating Cloud Development Environments (CDEs). These environments aim to solve some of the long-standing issues of local development setups: tedious onboarding, environment drift, resource-heavy builds, and more.  When we started building CodeCanvas, we knew dogfooding would be essential. Our goal was to experience the product the same way users […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/codecanvas/2025/05/building-with-codecanvas/",
-    "pubDate": "Tue, 06 May 2025 13:55:31 +0000",
-    "creator": "Alexey Totin",
-    "categories": [
-      "articles-2",
-      "best-practices",
-      "cloud-development-environments",
-      "codecanvas",
-      "remote-development",
-      "cde-orchestration"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "OpenAI의 Windsurf 인수: Cursor 대신 Windsurf를 선택한 이유와 AI 코딩 시장의 미래",
-    "description": "OpenAI가 2025년 5월, AI 코딩 도구 시장의 강자 Windsurf(구 Codeium)를 약 30억 달러(한화 약 4조 원)에 인수하기로 한 결정은 글로벌 IT 업계에 큰 파장을 일으켰습니다. 특히 Cursor 등 이미 인지도가 높은 경쟁 제품이 존재하는 상황에서, OpenAI가 왜 Windsurf를 선택했는지, 그리고 이 선택이 AI 코딩 시장에 어떤 변화를 가져올지 구체적으로 분석합니다.\nWindsurf와 Cursor, 그리고 AI 코딩 시장의 경쟁 구도\nAI 코딩 어시스턴트 시장은 최근 몇 년간 폭발적으로 성장했습니다.\nCursor는 빠른 코드 완성과 협업 기능, 다양한 AI 모델(GPT-4, Claude 등) 지원, 풍부한 확장성을 자랑합니다.\nWindsurf는 뛰어난 맥락 이해력, 대규모 코드베이스 처리, 직관적 UI, VS Code 플러그인 완벽 호환, 그리고 합리적인 가격이 강점입니다.\nWindsurf는 'Cascade'와 'Supercomplete' 등 고유 기능으로 반복 작업 자동화, 이미지 업로드 기반 웹사이트 코드 생성 등 혁신적 워크플로우를 제공합니다. 데이터 프라이버시와 보안 정책도 업계 최고 수준입니다.\nOpenAI가 Windsurf를 선택한 결정적 이유\nCursor 인수 시도와 무산\nOpenAI는 처음에 Cursor(Anysphere) 인수를 추진했습니다.\nWindsurf의 기술적, 전략적 강점\n기술적 통합 용이성: Windsurf는 OpenAI의 GPT-4 등 기존 AI 모델과의 통합이 쉽고, ChatGPT 등과 빠른 시너지를 낼 수 있습니다.\n엔터프라이즈 시장 확장성: 대규모 코드베이스와 레거시 시스템 지원에 강점을 가져, 기업 시장에서의 확장성이 높습니다.\n빠른 성장성과 유연성: Windsurf는 짧은 시간 내 빠른 성장과 높은 제품-시장 적합성(Product-Market Fit)을 입증했습니다.\n합리적인 인수 비용: Cursor에 비해 Windsurf는 상대적으로 적은 비용으로 인수 가능해, 재무적 부담이 적으면서도 높은 ROI(투자수익률)를 기대할 수 있습니다.\n\n자체 개발 대신 인수를 택한 이유\nOpenAI가 자체 개발이 아닌 인수를 선택한 배경에는 '속도'와 '리스크 최소화'가 있습니다.\n인수로 인한 경쟁 구도 변화\n이번 인수로 OpenAI는 Cursor, GitHub Copilot, Anthropic 등과 본격적으로 경쟁하게 됩니다.\nCursor는 여전히 빠른 완성도와 협업 기능에서 강점을 보이지만, Windsurf는 OpenAI의 AI 역량과 결합해 더 강력한 통합 솔루션을 제공할 수 있게 됩니다.\n시장 전체로 보면, Google의 Gemini, 중국 DeepSeek 등 신흥 경쟁자까지 가세해 AI 코딩 시장의 경쟁은 더욱 치열해질 전망입니다.\n\n미래 방향성과 기대 효과\nOpenAI는 Windsurf 인수를 통해\nChatGPT의 코딩 기능을 한 단계 끌어올리고,\n엔터프라이즈 시장까지 영향력을 확대하며,\nAI 코딩 도구의 표준을 새롭게 정의하려는 전략을 추진할 것으로 보입니다.\n특히, AI가 단순한 코드 자동완성을 넘어, 개발자의 의도와 맥락을 이해하고 복잡한 프로젝트도 스스로 처리하는 'AI 파트너'로 진화하는 시대가 앞당겨질 것으로 기대됩니다.\n참고 출처\nBloomberg: OpenAI Reaches Agreement to Buy Startup Windsurf for $3 Billion\nReuters: OpenAI agrees to buy Windsurf for about $3 billion, Bloomberg News reports\nCNBC: OpenAI looked at Cursor before considering deal with rival Windsurf\nCNBC: OpenAI in talks to pay about $3 billion to acquire startup Windsurf\nForbes: OpenAI Reportedly Strikes $3 Billion Deal To Buy Windsurf\nOpenTools.ai: OpenAI’s $3 Billion Leap: Acquiring Windsurf to Dominate AI Coding\nAInvest.com: OpenAI’s $3 Billion Bet on Windsurf: A Strategic Play for Dominance\nFintech Weekly: OpenAI Reportedly Agrees to Acquire AI Coding Startup Windsurf for $3 Billion",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.gaerae.com/2025/05/openai-windsurf-cursor.html",
-    "pubDate": "Wed, 07 May 2025 02:58:00 +0000",
-    "creator": "noreply@blogger.com (Unknown)",
-    "categories": [
-      {
-        "_": "news",
-        "$": {
-          "domain": "http://www.blogger.com/atom/ns#"
-        }
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "ReSharper and Rider 2025.1.2 – Bug Fixes Have Landed!",
-    "description": "A second set of bug fixes for the 2025.1 versions of ReSharper and Rider has just been released.  Let’s take a look at what’s been improved. ReSharper  ReSharper 2025.1.2 comes with the following fixes: dotTrace Timeline viewer now correctly locates and lists functions when searching by type name. [DTRC-31451] For the full list of resolved […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/05/08/resharper-rider-2025-1-2-bug-fix/",
-    "pubDate": "Thu, 08 May 2025 16:01:52 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "bugfix",
-      "news",
-      "releases",
-      "resharper",
-      "rider",
-      "dottrace"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Kodee’s Kotlin Roundup: Compose Multiplatform for iOS is Stable (Plus AI, Web, and More!)",
-    "description": "Sit back, relax, and let the Kotlin vibes roll in. This roundup is overflowing with news: major moves in Kotlin Multiplatform (Compose Multiplatform for iOS is Stable 🎉), server-side upgrades, Kotlin for web, and smarter Kotlin development with JetBrains AI. Whether you’re building mobile apps, backend services, or playing with interactive notebooks, there’s something here […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/05/kodees-kotlin-roundup-compose-multiplatform-for-ios-is-stable/",
-    "pubDate": "Fri, 09 May 2025 14:38:45 +0000",
-    "creator": "Kodee",
-    "categories": [
-      "news",
-      "updates"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
     "title": "Present and Future of Kotlin for Web",
     "description": "TL;DR: We remain committed to empowering Kotlin developers with robust and seamless support in Kotlin Multiplatform for web development. To achieve this, we are working on several key areas: Kotlin Multiplatform (KMP) aims to help developers share code across different platforms, significantly reducing development time and effort. The web plays a crucial role in this […]",
     "reviews": [],
@@ -113,43 +16,139 @@
     ]
   },
   {
-    "id": 7,
+    "id": 2,
     "imageUrl": "",
-    "title": "플라워 문",
-    "description": "2025년 5월 12일 저녁",
+    "title": "SAST vs DAST: Differences And When to Use",
+    "description": "Anyone working in the software development field knows cybersecurity is a threat you cannot afford to downplay. A cyberattack on a product or service you’ve created carries a risk of serious financial and reputational damage, as well as regulatory penalties, depending on the industry and jurisdiction. Defending your software against cyberattacks means addressing security at […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hodolman.tistory.com/73",
-    "pubDate": "Mon, 12 May 2025 23:01:23 +0900",
-    "creator": "호돌맨",
+    "link": "https://blog.jetbrains.com/teamcity/2025/05/sast-vs-dast/",
+    "pubDate": "Fri, 09 May 2025 16:49:43 +0000",
+    "creator": "Olga Bedrina",
     "categories": [
-      "사진",
-      "플라워문"
+      "testing",
+      "guide"
     ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "[PS5] 능동적이고 액션 중심적 변화 그리고 메시지, '데스 스트랜딩 2'",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2302",
+    "pubDate": "Thu, 08 May 2025 16:01:23 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "프리뷰"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Agent mode has arrived in preview for Visual Studio",
+    "description": "Plan, build, test, and fix — all from one prompt. Agent mode is now available in public preview for all users in Visual Studio 17.14. Agent mode in Visual Studio allows you to define tasks using natural language, with Copilot autonomously planning, editing your codebase, invoking tools, and iterating to resolve issues. Unlike Copilot Chat […]\nThe post Agent mode has arrived in preview for Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/agent-mode-has-arrived-in-preview-for-visual-studio/",
+    "pubDate": "Tue, 13 May 2025 17:26:51 +0000",
+    "creator": "Katie Savage, Aaron Yim",
+    "categories": [
+      "Artificial Intelligence",
+      "Copilot",
+      "GitHub Copilot",
+      "Productivity",
+      "Visual Studio",
+      "Agent Mode",
+      "AI Agents"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Introducing the /forceInterlockedFunctions switch for ARM64",
+    "description": "In Visual Studio 2022 17.14, we are introducing the /forceInterlockedFunctions[-] switch, which generates and links with out-of-line atomics that select Armv8.1+ Large System Extension (LSE) atomic instructions based on CPU support. This switch is on by default for Armv8.0 and off for Armv8.1+. Outlining is necessary in Armv8.0 because this version’s interlocked intrinsics use exclusive […]\nThe post Introducing the /forceInterlockedFunctions switch for ARM64 appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/introducing-the-forceinterlockedfunctions-switch-for-arm64/",
+    "pubDate": "Tue, 13 May 2025 10:00:25 +0000",
+    "creator": "Emily Bao",
+    "categories": [
+      "Announcement",
+      "Backend",
+      "C++"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "AI 시대, 코딩을 배울 가치가 있을까?",
+    "description": "AI가 코드를 뚝딱 만들어내는 시대에 직접 프로그래밍을 배울 필요가 있을까요? 계산기가 있어도 수학을 배우듯, AI 시대에도 코딩 공부가 여전히 가치 있는 이유와 그 한계에 대한 솔직한 이야기를 나눠봅니다.\n\n\n \n 솔직히 말해서, 요즘 ChatGPT나 Claude같은 AI 도구들이 몇 초 만에 코드를 뚝딱 만들어내는 걸 보면 '내가 왜 이렇게 고생스럽게 코딩을 배워야 하나?' 하는 생각이 들어요. 저도 처음 프로그래밍을 배울 때는 세미콜론 하나 빼먹어서 몇 시간을 헤맸던 기억이 있거든요. 그런데 이제 AI에게 \"로그인 기능 만들어줘\"라고 하면 완벽한 코드가 뚝딱 나오니까요.\n \n여러분도 이런 고민 한 번쯤 해보셨을 거예요. 특히 코딩을 새로 배우려는 사람들이라면 더욱 그렇죠. \"AI가 다 해주는데 내가 왜 배워?\"라는 의문이 당연히 들 수밖에 없어요.\n \n하지만 약간의 관점 전환이 필요할 것 같아요. 계산기가 있다고 해서 수학 공부가 불필요해지지 않는 것처럼, AI가 코드를 생성할 수 있다고 해서 프로그래밍 학습이 무의미해지는 건 아니니까요.\n \nAI 시대에도 코딩 학습이 여전히 중요한 이유 ✨\n문제 해결 능력의 성장\n프로그래밍을 배우는 과정은 단순히 코드 작성법을 익히는 것보다 훨씬 더 많은 걸 가르쳐줘요. 복잡한 문제를 작은 단위로 나누고, 논리적으로 해결책을 찾아가는 사고방식을 기르게 되죠. 이건 AI가 대신해줄 수 없는 부분이에요.\n제가 코딩을 배우면서 가장 큰 깨달음을 얻은 순간은 실제로 코드를 작성할 때가 아니라, 문제를 어떻게 접근할지 생각하는 과정이었어요. 이런 능력은 일상생활의 다른 문제들을 해결할 때도 큰 도움이 되더라고요.\nAI의 한계 이해하기\nAI는 강력하지만 완벽하지 않아요. 사실 AI가 생성한 코드를 제대로 활용하려면 그 코드가 무엇을 하는지, 어떻게 작동하는지 이해할 수 있어야 해요. 그리고 뭔가 잘못됐을 때 디버깅할 수 있는 능력도 필요하죠.\n얼마 전에 AI로 간단한 웹 스크래핑 코드를 만들었는데, 실행하니까 오류가 나더라고요. 기본적인 프로그래밍 지식이 없었다면 그 오류를 해결하지 못했을 거예요. 결국 코딩의 기본 개념을 알고 있어야 AI의 도움을 제대로 활용할 수 있다는 걸 깨달았죠.\n창의적인 문제 해결\nAI는 코드를 생성하는 데 놀라운 능력을 보여주고 있지만, 많은 소프트웨어 개발자들은 \"기계가 코드 작성과 관련된 뉘앙스와 창의성을 결코 이해할 수 없다\"고 여겨 AI 코딩 도구를 신뢰하기 주저하기도 해요. 그런데 저는 이 부분에서 약간 다른 시각을 가지고 있어요.\n기술적 이해와 문제 해결 능력 키우기\nAI가 코드를 뱉어낼 수 있다고 해도, 그 코드가 정확히 무엇을 하는지 이해하지 못하면 결국 한계에 부딪히게 돼요. 기술의 근본 원리와 문제 해결 방식을 이해하는 것은 여전히 인간의 영역이에요.\n특히 업계 전문가들도 \"AI 코딩 도구가 때때로 환각 현상을 보이며 무작위한 답변을 제공한다\"라고 지적하고 있죠. 저도 실제로 AI가 생성한 코드를 사용하다가 어이없는 오류를 발견하고 디버깅하느라 시간을 허비한 경험이 있어요. 그때 기본적인 프로그래밍 지식이 없었다면 해결하지 못했을 거예요.\nAI와의 협업: 새로운 코딩 패러다임  \n요즘은 AI와 함께 코딩하는 새로운 작업 방식이 형성되고 있어요. 개발자들은 AI 지원 코딩 도구를 사용해 코드를 더 빠르고 정확하게 작성할 수 있게 되었고, 이는 수동 코드 작성 및 업데이트에 소요되던 시간을 크게 절약해 주고 있어요.\n여기서 핵심은 AI를 '대체자'가 아닌 '협업자'로 보는 관점의 전환이에요. 저는 이런 방식으로 일해보니 AI가 반복적인 부분을 처리해주고, 저는 창의적인 문제 해결과 설계에 집중할 수 있어서 오히려 더 좋은 코드를 만들 수 있더라고요.\nAI의 한계 인식하기 ⚠️\n물론 AI에도 분명한 한계가 있어요. \"인간 초고수를 이기는 AI보다 평범한 고객응대 챗봇이 더 만들기 어렵다\"라는 말처럼, AI는 기술적으로는 놀라운 성과를 보여주지만 실제 비즈니스 문제나 사용자의 니즈를 정확히 이해하고 그에 맞는 솔루션을 제공하는 데는 아직 한계가 있어요.\n특히 라이브러리와 라이브러리 버전에 취약하고, 특정 라이브러리의 메서드를 사용하는 데 일관성을 유지하기 어렵다는 점은 개발자들이 반드시 알고 있어야 할 AI의 약점이에요.\n또한 AI 도구가 코드 완성, 최적화, 성능, 수정 및 설명을 위한 멘토 역할을 할 수는 있지만, \"코딩 방법을 배우는 데 사용할 수 없으며, 좋은 코딩 관행을 대체할 수 없다\"는 점을 명심해야 해요.\n \n미래의 코딩 교육: 적응하고 진화하기  \n프로그래밍 교육도 이제 변화가 필요해요. 단순히 문법이나 알고리즘을 가르치는 것에서 벗어나, AI 도구를 효과적으로 활용하는 방법과 AI와 협업하는 방법을 배워야 해요.\n교육에서 중요한 건 '어떻게 코드를 작성하는가'보다 '어떤 문제를 해결해야 하는가'에 초점을 맞추는 것이에요. 문제를 정확하게 정의하고, 적절한 해결책을 설계하는 능력은 AI가 쉽게 대체하기 어려운 인간의 영역이니까요.\n \n균형 찾기: 코딩 학습과 AI 활용 사이의 딜레마 ⚖️\n솔직히 말해서, 코딩을 배우는 게 이전보다 덜 시급해진 건 사실이에요. AI 코드 생성 소프트웨어는 간단하고, 다양한 프로그래밍 언어에서 사용할 수 있으며, 개발자와 비개발자 모두 액세스할 수 있게 되었으니까요.\n하지만 그렇다고 코딩 학습이 완전히 불필요해진 건 아니에요. AI로 생성된 코드를 제대로 활용하고 검증하려면 기본적인 프로그래밍 개념과 논리적 사고방식은 여전히 필요하거든요.\n제가 생각하는 이상적인 접근법은 이래요:\n기본적인 프로그래밍 개념과 논리적 사고를 배우기\nAI 도구를 활용해 생산성을 높이는 방법 익히기\nAI의 한계를 인식하고 필요할 때 직접 코딩할 수 있는 능력 유지하기\n\n\n마무리: 새로운 시대의 코딩 철학  \n결국, 프로그래밍을 배울 가치가 있느냐는 질문에 단순히 \"예\" 또는 \"아니오\"로 답하기는 어려워요. 개인의 목표, 관심사, 그리고 어떤 분야에서 일하고 싶은지에 따라 달라질 수 있어요.\n \n하지만 분명한 건, AI 시대에도 컴퓨터적 사고방식과 문제 해결 능력은 여전히 중요하다는 점이에요. AI는 도구이지, 우리의 사고를 대체하는 것이 아니니까요.\n \n창의력은 지식을 합성해 독창적인 아이디어를 생산하는 능력을 말합니다. 남들이 생각하지 못한 새로운 것을 만들어내는 능력이 창의력이라면, 인공지능은 이제 그 영역에 거의 다가서고 있는 셈이죠. 하지만 완전히 그 자리를 차지하진 못했어요. 여전히 우리 인간만이 가진 영역이 있고, 그 영역은 코딩 기술을 배움으로써 더욱 강화될 수 있어요.\n \n그러니까, AI 시대에도 프로그래밍을 배우는 건 여전히 가치가 있다고 봐요. 다만 배우는 방식과 목적, 그리고 깊이에 대해선 새롭게 생각해볼 필요가 있겠죠?\nFAQ 섹션\nQ: AI가 코드를 다 만들어준다면, 초보자가 코딩을 배울 필요가 있을까요?\nA: 기본 개념과 논리적 사고는 여전히 중요해요. AI 도구를 효과적으로 사용하고 결과물을 검증하려면 기초 지식이 필요합니다.\nQ: 어떤 프로그래밍 언어를 배우는 게 AI 시대에 가장 유리할까요?\nA: Python이 AI와의 연동성이 좋고 진입장벽이 낮아 추천해요. 하지만 언어보다 문제 해결 사고방식을 기르는 게 더 중요합니다.\nQ: 코딩보다 AI 프롬프트 작성법을 배우는 게 더 효율적일까요?\nA: 둘 다 중요해요. 좋은 프롬프트를 작성하려면 구현하려는 기능에 대한 기술적 이해가 필요합니다.\nQ: AI 코드 도구에서 가장 주의해야 할 점은 무엇인가요?\nA: 결과물을 맹신하지 말고 항상 검증하세요. AI는 때때로 환각 현상을 보이거나 오류가 있는 코드를 생성할 수 있습니다.\nQ: 개발자로 커리어를 준비 중인데, AI 때문에 미래가 불안해요.\nA: AI는 도구일 뿐이니 걱정마세요. 오히려 AI와 효과적으로 협업하는 개발자의 가치는 더 높아질 겁니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"AI가 코드를 다 만들어준다면, 초보자가 코딩을 배울 필요가 있을까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"기본 개념과 논리적 사고는 여전히 중요해요. AI 도구를 효과적으로 사용하고 결과물을 검증하려면 기초 지식이 필요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"어떤 프로그래밍 언어를 배우는 게 AI 시대에 가장 유리할까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Python이 AI와의 연동성이 좋고 진입장벽이 낮아 추천해요. 하지만 언어보다 문제 해결 사고방식을 기르는 게 더 중요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"코딩보다 AI 프롬프트 작성법을 배우는 게 더 효율적일까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"둘 다 중요해요. 좋은 프롬프트를 작성하려면 구현하려는 기능에 대한 기술적 이해가 필요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"AI 코드 도구에서 가장 주의해야 할 점은 무엇인가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"결과물을 맹신하지 말고 항상 검증하세요. AI는 때때로 환각 현상을 보이거나 오류가 있는 코드를 생성할 수 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"개발자로 커리어를 준비 중인데, AI 때문에 미래가 불안해요.\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"AI는 도구일 뿐이니 걱정마세요. 오히려 AI와 효과적으로 협업하는 개발자의 가치는 더 높아질 겁니다.\"\n    }\n  }]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483583",
+    "pubDate": "Mon, 12 May 2025 09:53:34 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 언어 모델",
+      "AI 코딩",
+      "AI 한계",
+      "개발자 생산성",
+      "디버깅 능력",
+      "문제 해결 사고",
+      "미래 프로그래밍 교육",
+      "창의적 코딩",
+      "컴퓨터적 사고",
+      "코드 생성기",
+      "프로그래밍 학습"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "가정의 달 콘텐츠➃ 스스로 서기 위한 연습, 10대를 위한 돈 이야기",
+    "description": "10대를 위한 콘텐츠 큐레이션",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/2025may-curation4",
+    "pubDate": "Thu, 08 May 2025 06:43:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "Splunk의 unix time",
-    "description": "audit.log 연동. 소스타입 선택과 관계 없이 unix time을 잘 인식한다.\n\n\n\n\n\n연동 결과. 나머지 필드 추출도 완벽.\n\n\n\n\nprops.conf에 필드 추출 유형이 정의되어 있지 않음에도 문제가 없는 이유는 원본 데이터가 key=value 구조이기 때문.\n\n\n\n\n혹시 필드 추출에 문제가 있다면 props.conf의 KV_MODE 옵션을 살펴보자.\n\n\n\n\n참고로 unix time 수동 변환은 이렇게.",
+    "title": "Is Rust the Future of Programming?",
+    "description": "Rust is rewriting the rules of modern software development as the fastest-growing programming language. Its unmatched performance, memory safety without garbage collection, and concurrency capabilities are capturing developers’ attention worldwide. According to our data, with 2,267,000 developers using Rust in the last 12 months and 709,000 identifying it as a primary language, Rust’s footprint in […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/05/splunk-unix-time.html",
-    "pubDate": "2025-05-11T05:06:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/rust/2025/05/13/is-rust-the-future-of-programming/",
+    "pubDate": "Tue, 13 May 2025 12:15:19 +0000",
+    "creator": "Tatiana Parshutkina",
+    "categories": [
+      "news",
+      "rust"
+    ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "내게 맞는 실손보험, 어떻게 골라야 할까?",
-    "description": "세대별 차이부터 특약까지, 꼭 알아야 할 실손보험 상식",
+    "title": "중첩 부정문을 사용하지 말자",
+    "description": "\"학벌 안보는 곳도 없지는 않아요\"\n\"학벌 안 보는 곳도 꽤 있어요\"\n이 둘은 (완곡함을 더 강조하기 위한 용도가 아니라면) 사실상 같은 의미다.\n그럼에도 앞 문장은 두 번 부정이 겹쳐서 뇌가 잠깐 멈춘다.\n대화에서 이런 이중 부정은 정보 전달 속도를 늦추고, 상대를 헷갈리게 만든다.\n코드로 치면 if (false(false)) { … } 같은 난해한 구문이다.\n결국 하고 싶은 말은 단순히 if (true) { … } 일 경우가 훨씬 많다.\n이런 이중 부정문은 아래와 같은 이유로 흔히들 사용된다.\n완곡어법 습관\n\n\"학벌 안보는 곳도 없지는 않아요.\"\n부드럽게 돌려 말하다 보니 부정이 늘어난다.\n강조 욕구\n\n\"절대 못 말리는 사람이 아니야.\"\n\"말릴 수 있는 사람이야\" 보다 훨씬 더 강조하기 위해 부정이 늘어난다.\n상대를 배려하기 위한 용도나 강조하기 위한 것, 혹은 한글의 다양한 문장들을 활용해 좀 더 세밀하고 정확한 표현을 위해서 사용을 할 순 있지만, 듣는 사람에겐 그 세밀한 차이 보다도 더 큰 문제인 인지 부하가 폭증한다.\n\"안 / 없지 / 않아?\" 로 반전의 반전을 계속해서 이어나가는 문장은 CPU를 100% 로 만들어 버린다.\n아래 코드를 보자.\n// 이중 부정 버전\nif (!(!isAllowed)) {\n  performAction();\n}\n\n// 단일 긍정 버전\nif (isAllowed) {\n  performAction();\n}\n개발자라면 두 번째가 훨씬 읽기 편하다.\n대화도 똑같다.\n긍정·단문·직진이 훨씬 더 효율적으로 소통할 수 있고, 상대를 배려해주는 방법이다.\n그래서 가능하면 대화에서도 다음과 같이 표현해보면 좋겠다.\n대화에서 if (true)를 쓰는 예\n❌ \"들으면 모를 사람은 거의 없어.\"\n✅ \"거의 다 알아 들어.\"\n❌ \"쉬운 일은 아니지 않아요?\"\n✅ \"어려운 일이죠?\"\n❌ \"그렇게 안 하는 사람도 없지 않아.\"\n✅ \"그렇게 하는 사람들도 있어.\"\n❌ \"시간 없지 않으세요?\"\n✅ \"시간 있으세요?\"\n뇌 자원은 한정되어 있다\n프로그래머가 가독성을 위해 불필요한 부정을 걷어내듯, 우리가 쓰는 언어도 긍정·단순·직선으로 정리하자.\n상대의 뇌 CPU를 덜 잡아먹는 순간, 대화는 훨씬 빠르고, 오해는 현저히 줄어든다.\n말을 꺼내기 전, 머릿속에서 !(!) 를 true 로 컴파일해보자.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/tossmoment-9",
-    "pubDate": "Thu, 08 May 2025 07:55:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://jojoldu.tistory.com/828",
+    "pubDate": "Mon, 12 May 2025 08:46:01 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "개발자",
+      "개발팀",
+      "소통",
+      "커뮤니케이션",
+      "협업"
+    ]
   },
   {
     "id": 10,
@@ -172,69 +171,79 @@
   {
     "id": 11,
     "imageUrl": "",
-    "title": "토스, 틴즈 누적 가입자 300만 명 돌파",
-    "description": "10대 청소년의 대표 금융 서비스",
+    "title": "Kodee’s Kotlin Roundup: Compose Multiplatform for iOS is Stable (Plus AI, Web, and More!)",
+    "description": "Sit back, relax, and let the Kotlin vibes roll in. This roundup is overflowing with news: major moves in Kotlin Multiplatform (Compose Multiplatform for iOS is Stable 🎉), server-side upgrades, Kotlin for web, and smarter Kotlin development with JetBrains AI. Whether you’re building mobile apps, backend services, or playing with interactive notebooks, there’s something here […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/teens_",
-    "pubDate": "Wed, 07 May 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/kotlin/2025/05/kodees-kotlin-roundup-compose-multiplatform-for-ios-is-stable/",
+    "pubDate": "Fri, 09 May 2025 14:38:45 +0000",
+    "creator": "Kodee",
+    "categories": [
+      "news",
+      "updates"
+    ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "NerdQaxe++ 나왔습니다. / 4.8TH 60Wh 80만원정도 / 전작대비 25%  가성비 향상",
-    "description": "4.8TH / 60Wh / 489 유로\n가격은 80만원 정도 입니다.\n \n참고로 전작인 NerdQaxe+\n2.4TH / 30W / 299 유로\n\n관세 때문에 적힌 가격보다 비싸게 사야할꺼 같긴합니다.\nNerdQaxe+ 성능당 가격은 299 유로 / 2.4TH = 125\nNerdQaxe++ 성능당 가격은 489 유로 / 4.8TH = 100\n가성비는 20~25% 정도 좋아졌습니다.\n좋은 제품이라고 봐야겠군요.\n \n소핑몰 링크: https://mineshop.eu/nerdqaxe-asic-miner-48ths-home-bitcoin-miner\n\n\n \n아직 구입할 생각은 아니구요\n중국산 1TH 짜리가 10만원이라고 하니 그걸 먼저 사볼 생각입니다.",
+    "title": "크몽 가입했습니다.",
+    "description": "일꺼리 찾아보아요\n링크: 프로그램 개발, 웹사이트 신규 제작 전문가 상인동 - 크몽\n\n \n프로그램 개발, 웹사이트 신규 제작 전문가 상인동 - 크몽\n전문가 상인동 님을 만나보세요.\nkmong.com\n\n재밌으려나 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1315",
-    "pubDate": "Mon, 12 May 2025 16:46:52 +0900",
+    "link": "http://serverdown.tistory.com/1310",
+    "pubDate": "Thu, 8 May 2025 12:19:05 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "코인",
-      "bitaxe",
-      "비트액스",
-      "채굴기"
+      "프로그래밍/개발메모",
+      "크몽"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "MLB를 살리러 온 구원자, 이정후와 오타니",
-    "description": "메이저리그의 캐시카우로 떠오른 한국과 일본",
+    "title": "AI로 생성한 이미지는 어떻게 평가할까요? (블랙박스 최적화 적용편)",
+    "description": "생성형 AI 모델로 이미지 생성은 쉽죠, 그런데 '좋은 이미지' 생성도 쉬웠으면 좋겠어요!저희 회사에는 고유한 비율로 최소한의 디테일만 유지한 채 인체와 개체를 정의하는 이미지 스...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/moneyball-2",
-    "pubDate": "Fri, 09 May 2025 04:35:00 GMT",
+    "link": "https://techblog.lycorp.co.jp/ko/how-to-evaluate-ai-generated-images-2-blackbox-optimization",
+    "pubDate": "Mon, 12 May 2025 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "로컬로 Azure Functions 실행 시 문제와 해결 방법",
-    "description": "Issues and solutions when running Azure Functions locally\n \n아마도 다음 4단계가 Azure 펑션을 개발하는 보편적인 단계일 겁니다. \n첫 번째 단계는 로컬 먼저 개발 머신에서 개발 환경을 구축합니다. \n이 로컬 개발 환경 구축에 필요한 요소는 다음 3가지 입니다. \n1. Visual Studio Code \n2. Azure Functions Extension \n3. Azure Functions Core Tools (Core Tools Version: 4.0.7030, Function Runtime Version: 4.1037.0.23568)\n \n두 번째 단계는  Azure Functions Core Tools를 통해 로컬 펑션 프로젝트를 만들고 필요한 펑션 코드를 작성합니다. \n세 번째 단계는 작성한 펑션 코드를 로컬 Azure 펑션 런타임 환경에서 테스트합니다. \n마지막 단계는 어느 정도 구현 로직을 테스트하고 디버깅한 다음 이제 Azure로 배포하여 클라우드 환경에서 다시 동작을 확인합니다. \n이러한 단계로 Azure 펑션을 구현할 때 최근 Azure Functions Core Tools 업데이트와 관련하여 알게된 문제점과 해결 방법을 소개합니다. \n이 글에서 설명하는 문제점은 다음과 같은 조건에서 발생합니다. 하지만 다른 조건에서 발생하는지는 테스트하지 않았습니다. \n1. 로컬 개발 머신의 운영 체제: Windows \n2. Azure 펑션 런타임 및 언어: Node.js 및 JavaScript  \n3. 트리거: HTTP 트리거\n[문제 정의]\nVS Code에서 로컬 펑션을 실행([F5] 또는 [Ctrl+F5])하고 작성한 코드의 동작을 테스트한 후, VS Code의 디버그 툴바에서 [Stop](Shift+F5)를 클릭하여 중지 합니다.(다음 그림의 빨간색 상자) \n이후, 코드를 수정한 후 다시 로컬 펑션을 실행하면 7071 포트가 사용되고 있어 프로세스를 종료하거나 다른 포트를 사용하라는 메시지를 보게됩니다. (다음 그림의 파란 상자)\n\n\n \n[해결 방법]\n앞서 제시한 문제를 다음 2가지 방법 중 하나로 해결할 수 있습니다. \n1. VS Code에서 이미 디버그 툴바 또는 [Stop Debugging] 메뉴를 사용해 로컬 펑션을 중지한 경우 \nWindow 터미널을 열고 netstat 명령으로 사용중인 포트를 확인해본 결과, 7071 포트가 사용 중입니다. (다음 그림의 노란색 상자)\nnetstat -ano | findstr 7071\n다음 명령으로 7071 포트를 사용중인 프로세스를 종료합니다. (다음 그림의 녹색 상자)\ntaskkill /f /pid <PROCESS ID>\n\n\n\n2. VS Code에서 로컬 펑션을 실행한 후 펑션 실행을 종료할때 VS Code 터미널에서 [Ctrl+C]를 눌러 종료합니다.",
+    "title": "Learning to Think in an AI World: 5 Lessons for Novice Programmers",
+    "description": "This is the second article of the series How to Learn to Code in an AI World. Don’t miss the first, Is it Still Worth Learning to Code? Imagine the following scenario: A student is enrolled in an introductory computer science course. They have no previous programming experience and don’t consider themselves very good at […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://www.dokyun.pe.kr/366",
-    "pubDate": "Tue, 6 May 2025 23:06:51 +0900",
-    "creator": "강철 벼룩",
+    "link": "https://blog.jetbrains.com/education/2025/05/12/five-lessons-for-novice-programmers-ai-world/",
+    "pubDate": "Mon, 12 May 2025 14:19:37 +0000",
+    "creator": "Clara Maine",
     "categories": [
-      "Azure &amp; Windows/Azure",
-      "azure #functions",
-      "azurefunctionscoretools"
+      "jetbrains-academy",
+      "ai",
+      "ai-assistance",
+      "career",
+      "developers",
+      "education",
+      "for-learners",
+      "jetbrains-research",
+      "jetbrainsacademy-2",
+      "learn",
+      "learn-programming",
+      "research"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Toss Surpasses 3 Million Teen Users",
-    "description": "Becoming a “staple financial service” for teens",
+    "title": "지금 경계선에서",
+    "description": "저자 레베카 코스타. 예전에 읽다 용두사미 결론에 실망하며 덮었던 기억이 나는데 오랫만에 다시 읽어봄.\n\n\n마야, 로마 등 사라진 문명은 그 복잡도가 인간의 인지 능력 한계까지 발전했을 때 망조가 들었다는 초반부는 재미있다. 관료제하의 모든 사람은 자신이 가장 무능해질 때까지 승진한다는 피터의 법칙이 떠오름.\n\n유기체가 생존 가능성을 높이려면 유기체의 복잡성이 환경의 복잡성과 대등한 수준이 되어야 한다 (29 페이지)\n\n사회의 해결 능력을 훌쩍 뛰어넘는 수준으로 문제가 복잡해지면, 사회가 더 이상 문제 해결책을 '사고 '할 수 없는 시점(인식 한계점)에 도달하게 되면 해결되지 않은 문제들은 다음 세대로 떠넘겨지고 결국 해당 문명을 낭떠러지 끝으로 밀어낸다 (36 페이지)\n\n\n몰락한 문명의 공통점인 '발전 > 복잡도 증가 > 인식 한계점 봉착' 현상이 현재에도 여전히 이어지고 있다는 것이 저자의 주장.\n\n나는 물 위원회에 5년째 참석하고 있다. 이 기간 우리는 한 방울의 물도 만들어내지 않았다. 물에 대한 필요성도, 물을 생산할 기술도 있지만... 돈이 없는 거 아닐까? 캘리포니아의 물 부족 문제든, 지구적 기후변화든, 세계적 금융위기든 우리가 취하는 조치는 오로지 단기 증상 완화에 국한... 문제가 다음 세대로 전가되면서 규모가 커지면 비극적 결말을 초래할 수 있는데도 우리는 계속 미적거리기만 한다 (50 페이지)\n\n\n\n인식 한계점\n\n\n인생은 짧다. 빠른 (살아서 이득 볼 가능성도 높은) 해결책에 끌리는 게 인지상정. 내가 생각하는 인식 한계점 발생 이유. 저자는 좀 더 근원적인 이유를 댄다. 생물학적 진화 속도가 사회의 변화 속도를 따라가지 못해서라는 것.\n\n농업이 지구상에 처음 등장한 것은 1만 년 전, 산업혁명이 일어난 지는 이제 겨우 200년... 자연선택은 대단히 느리게 일어나는 과정이다. 우리의 후기산업사회에 잘 어울리는 '회로 '가 고안되기에는 아직 충분히 많은 세대가 지나지 않았다 (37페이지)\n\n\n당신이 독사와 마주친다면, 거의 뇌 전체가 빛을 내며 그 위협을 처리할 적절한 행동을 취한다. 그렇지만 탄소배출이 언젠가 지구인류를 멸망시킬 것이라는 얘기를 들을 때는 뇌에서 장래의 일을 담당하는 일부분(전전두피질)만 희미하게 빛날 따름 (53  페이지)\n\n만년 동안 농사 짓는 데 최적화된 인지 능력으로 산업혁명 이후 급격히 높아진 정치, 경제, 사회 체제의 복잡도를 감당하기는 절대 쉽지 않을 것이다. 세계대전, 대공황 등이 그 증거 아닐까?\n\n\n\n하루 먹고 살기도 힘들었을 것이 뻔한 원시 인류는 당연히 힘들게 얻은 에너지가 허투루 (사색, 고찰 따위에) 쓰여지는 상황을 싫어했을 것이며, 그들의 후손인 우리도 마찬가지\n\n그것에 대해 내 기분이 어떤가? 처럼 쉬운 질문이 그것에 대한 내 의견은 무언인가? 처럼 어려운 질문의 답을 대체한다 - '생각에 관한 생각' 중\n\n\n\n인지 과부하를 싫어하는 인간은 본능적으로 복잡한 문제도 싫어한다. 그렇게 인식 한계점에 봉착한 인간이 (학습 노력이 필요한) 지식보다 상대적으로 습득하기 쉬운 믿음(슈퍼밈)에 의존할 때 문명의 몰락이 시작된다는 게 저자의 설명.\n\n믿음이 사실을 밀어내는 현상과 정체 현상이 나타나기 시작하면 붕괴가 일어날 무대가 마련된 것... 사실과 증거를 무시한 채 입증되지 않은 구제책을 택하는 행위는 파멸의 격렬한 소용돌이를 불러일으키는 방아쇠 (41 페이지)\n\n\n인식 한계점을 극복하려면 어떻게 해야 할까? 뇌 진화가 더뎌서 발생한 문제라 해결이 힘들어 보이는데? 저자는 통찰력을 발휘해야 한다 얘기하는데 그것도 뇌가 하는 거잖아(..)\n\n\n통찰을 방해하는 슈퍼밈\n\n\n저자가 주의를 당부하는 통찰 방해꾼들.\n\n\n불합리한(반대를 위한) 반대 - 해법을 고민하는 것보다 포지티브와 네거티브, 둘 중 하나를 선택하는 게 쉽다\n\n양당제에서 후보자가 할 일은 유권자가 자신의 경쟁자를 거부할 '단 하나의 이유 '를 찾아내는 것 (131 페이지)\n\n\n책임의 개인화 - 구조 문제를 개인 문제로 희석하는 게 쉽다\n\n미국 전역에서 배출되는 쓰레기 중 생활폐기물이 차지하는 비율은 3퍼센트도 안 된다 - 해양 플라스틱 오염 주범은 어구, 어망 (162 페이지)\n\n\n시스템적 문제에 우리가 미칠 수 있는 영향은 실제보다 엄청나게 과장되어 있다. 실패한 제도, 지도자, 전문가의 책임을 평범한 개인에게 전가 (164 페이지)\n\n\n\n거짓 상관관계 - 인과관계보다 쉽다\n\n주가변동과 치즈 생산량의 상관관계는 95%까지 급등... 연관성 없는 상관관계 의존이 얼마나 위험한지 알릴수록... 더 정확한 공식을 밝혀달라는 요청 쇄도... 금융시스템이 너무 복잡해져서 사람들은 문제를 간단하게 만들어줄 수 있는 마법사에게 의지하기 시작 (101 페이지)\n\n한 사건이 다른 사건의 실제 '원인 '인지 입증하는 것보다, 두 사건 사이의 관계를 대강 관찰하는 것이 훨씬 쉽기 때문 (182 페이지)\n\n\n사일로(Silo)식 사고 - 쉽게 살기 위한 밥그릇 지키기\n\n우주 기반 태양 에너지를 연구한 나사 과학자들은 10년이 넘도록 에너지부의 문을 두드렸다... 에너지부는 나사를 비난하며 우주개발이나 하라고 (223 페이지)\n\n\n극단의 경제학 - 돈으로 평가하는 게 쉽다\n\n1년 전만 해도 마리화나 합법화 찬성은 정치적 자살이나 마찬가지였다. 하지만 온 나라가 경제 위기에 빠지자 정치인들은 기특하게도 이전의 성향을 고집하지 않고 급진적인 자세로 경제 문제를 해결한 해법을 받아들이려 했다... 공공정책과 사회의 윤리는 경제적 필요에 맞춰 쉽게 변할 수 있다 (253 페이지)\n\n비즈니스 원리가 만연하면 복잡한 문제에 빠르게, 효율적으로 대응해야 한다는 압력이 거세진다. 이러한 환경에서는 느리고 사려 깊은 검토보다 빠르고 결단력 있어 보이는 행동을 더 높이 평가... 우리는 상황을 재빨리 가늠해서 행동에 나설 수 있는 강력하고 합리적이며 비즈니스적 사고방식을 지닌 실천가를 원한다 (261 페이지)\n\n\n\n전부 복잡도를 줄여 단순하게 문제를 해결하려는 두뇌 활동의 결과. 어느 하나 피해가는 게 쉽지 않아 보인다. 저자가 이런 장벽들을 극복할 수 있는 해결책을 제시하긴 하는데 핵심이 두뇌 훈련을 통한 통찰력 강화(..) 결국 개인 역량 강화하라는 얘기. 책임의 개인화?\n\n\n나가며\n\n\n흥미로운 초반부에 비해 후반부로 갈수록 고개가 갸우뚱해지는, 뒷심이 많이 부족해서 아쉬운 책이다. AI가 무섭게 발전하고 있는 요즘 나왔으면 결론이 어땠을까 궁금해지기도 하고. 기억에 남는 문구를 남긴다.\n\n\n모든 가옥의 지붕과 도로를 흰색으로 칠하면 '11년 동안 110억 대의 자동차를 도로에서 제거한 것 '과 맞먹는 효과를 낼 것 (84 페이지) \n\n높은 다양성이 있는 시스템은 복잡한 문제에 직면해서도 잘 작동 (107 페이지) \n\n고도로 복잡한 환경에서는 성공하는 해법보다 실패하는 해법이 더 많다는 사실을 인정할 필요가 있다. 이것이 진보를 이루기 위해 치러야 할 대가 (305 페이지) \n\n복잡한 문제가 닥쳤을 때 우리가 개발할 수 있는 해법에 커다란 영향을 미치는 것은 뇌 속에 쌓아 온 콘텐츠의 종류와 양. 인간은 무에서 유를 창조할 수 없다 (338 페이지) \n\n소그룹(3~5명)이 복잡한 문제를 개인보다 더 빨리 해결... 2명 이하 그룹은 해법을 이끌어낼 '임계 질량 '이 부족... 사람이 많을수록 새로운 아이디어나 반대 의견에 대한 억압 심화... 큰 그룹에서는 집단의사결정에 기여하지 않는 개인이 생겨나 '사회적 태만 '이나 '남의 의견만 따르는 ' 현상이 일어나기 쉽다 (367 페이지)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/Teens3million",
-    "pubDate": "Wed, 07 May 2025 01:00:00 GMT",
+    "link": "https://kangmyounghun.blogspot.com/2025/05/blog-post.html",
+    "pubDate": "2025-05-07T12:25:00.003Z",
     "creator": "Unknown",
     "categories": []
   }
