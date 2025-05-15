@@ -2,216 +2,32 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Present and Future of Kotlin for Web",
-    "description": "TL;DR: We remain committed to empowering Kotlin developers with robust and seamless support in Kotlin Multiplatform for web development. To achieve this, we are working on several key areas: Kotlin Multiplatform (KMP) aims to help developers share code across different platforms, significantly reducing development time and effort. The web plays a crucial role in this […]",
+    "title": "MPS 2025.1 Is Out!",
+    "description": "MPS 2025.1 allows the build language to serve as a target for code generation. This version also introduces visual and performance enhancements to the Project tool window’s Logical view, several useful improvements to the UI, and numerous platform updates. DOWNLOAD MPS 2025.1 What’s new Let’s check out all the new features waiting for you in […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/05/present-and-future-kotlin-for-web/",
-    "pubDate": "Thu, 08 May 2025 16:03:32 +0000",
-    "creator": "Artem Kobzar",
+    "link": "https://blog.jetbrains.com/mps/2025/05/mps-2025-1-is-out/",
+    "pubDate": "Wed, 14 May 2025 11:55:25 +0000",
+    "creator": "Vaclav Pech",
     "categories": [
-      "multiplatform",
-      "kotlin-js",
-      "kotlin-wasm"
+      "releases",
+      "release"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "SAST vs DAST: Differences And When to Use",
-    "description": "Anyone working in the software development field knows cybersecurity is a threat you cannot afford to downplay. A cyberattack on a product or service you’ve created carries a risk of serious financial and reputational damage, as well as regulatory penalties, depending on the industry and jurisdiction. Defending your software against cyberattacks means addressing security at […]",
+    "title": "MLB를 살리러 온 구원자, 이정후와 오타니",
+    "description": "메이저리그의 캐시카우로 떠오른 한국과 일본",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/05/sast-vs-dast/",
-    "pubDate": "Fri, 09 May 2025 16:49:43 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "testing",
-      "guide"
-    ]
+    "link": "https://blog.toss.im/article/moneyball-2",
+    "pubDate": "Fri, 09 May 2025 04:35:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
-    "imageUrl": "",
-    "title": "[PS5] 능동적이고 액션 중심적 변화 그리고 메시지, '데스 스트랜딩 2'",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2302",
-    "pubDate": "Thu, 08 May 2025 16:01:23 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "프리뷰"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Agent mode has arrived in preview for Visual Studio",
-    "description": "Plan, build, test, and fix — all from one prompt. Agent mode is now available in public preview for all users in Visual Studio 17.14. Agent mode in Visual Studio allows you to define tasks using natural language, with Copilot autonomously planning, editing your codebase, invoking tools, and iterating to resolve issues. Unlike Copilot Chat […]\nThe post Agent mode has arrived in preview for Visual Studio appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/agent-mode-has-arrived-in-preview-for-visual-studio/",
-    "pubDate": "Tue, 13 May 2025 17:26:51 +0000",
-    "creator": "Katie Savage, Aaron Yim",
-    "categories": [
-      "Artificial Intelligence",
-      "Copilot",
-      "GitHub Copilot",
-      "Productivity",
-      "Visual Studio",
-      "Agent Mode",
-      "AI Agents"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Introducing the /forceInterlockedFunctions switch for ARM64",
-    "description": "In Visual Studio 2022 17.14, we are introducing the /forceInterlockedFunctions[-] switch, which generates and links with out-of-line atomics that select Armv8.1+ Large System Extension (LSE) atomic instructions based on CPU support. This switch is on by default for Armv8.0 and off for Armv8.1+. Outlining is necessary in Armv8.0 because this version’s interlocked intrinsics use exclusive […]\nThe post Introducing the /forceInterlockedFunctions switch for ARM64 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/introducing-the-forceinterlockedfunctions-switch-for-arm64/",
-    "pubDate": "Tue, 13 May 2025 10:00:25 +0000",
-    "creator": "Emily Bao",
-    "categories": [
-      "Announcement",
-      "Backend",
-      "C++"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "AI 시대, 코딩을 배울 가치가 있을까?",
-    "description": "AI가 코드를 뚝딱 만들어내는 시대에 직접 프로그래밍을 배울 필요가 있을까요? 계산기가 있어도 수학을 배우듯, AI 시대에도 코딩 공부가 여전히 가치 있는 이유와 그 한계에 대한 솔직한 이야기를 나눠봅니다.\n\n\n \n 솔직히 말해서, 요즘 ChatGPT나 Claude같은 AI 도구들이 몇 초 만에 코드를 뚝딱 만들어내는 걸 보면 '내가 왜 이렇게 고생스럽게 코딩을 배워야 하나?' 하는 생각이 들어요. 저도 처음 프로그래밍을 배울 때는 세미콜론 하나 빼먹어서 몇 시간을 헤맸던 기억이 있거든요. 그런데 이제 AI에게 \"로그인 기능 만들어줘\"라고 하면 완벽한 코드가 뚝딱 나오니까요.\n \n여러분도 이런 고민 한 번쯤 해보셨을 거예요. 특히 코딩을 새로 배우려는 사람들이라면 더욱 그렇죠. \"AI가 다 해주는데 내가 왜 배워?\"라는 의문이 당연히 들 수밖에 없어요.\n \n하지만 약간의 관점 전환이 필요할 것 같아요. 계산기가 있다고 해서 수학 공부가 불필요해지지 않는 것처럼, AI가 코드를 생성할 수 있다고 해서 프로그래밍 학습이 무의미해지는 건 아니니까요.\n \nAI 시대에도 코딩 학습이 여전히 중요한 이유 ✨\n문제 해결 능력의 성장\n프로그래밍을 배우는 과정은 단순히 코드 작성법을 익히는 것보다 훨씬 더 많은 걸 가르쳐줘요. 복잡한 문제를 작은 단위로 나누고, 논리적으로 해결책을 찾아가는 사고방식을 기르게 되죠. 이건 AI가 대신해줄 수 없는 부분이에요.\n제가 코딩을 배우면서 가장 큰 깨달음을 얻은 순간은 실제로 코드를 작성할 때가 아니라, 문제를 어떻게 접근할지 생각하는 과정이었어요. 이런 능력은 일상생활의 다른 문제들을 해결할 때도 큰 도움이 되더라고요.\nAI의 한계 이해하기\nAI는 강력하지만 완벽하지 않아요. 사실 AI가 생성한 코드를 제대로 활용하려면 그 코드가 무엇을 하는지, 어떻게 작동하는지 이해할 수 있어야 해요. 그리고 뭔가 잘못됐을 때 디버깅할 수 있는 능력도 필요하죠.\n얼마 전에 AI로 간단한 웹 스크래핑 코드를 만들었는데, 실행하니까 오류가 나더라고요. 기본적인 프로그래밍 지식이 없었다면 그 오류를 해결하지 못했을 거예요. 결국 코딩의 기본 개념을 알고 있어야 AI의 도움을 제대로 활용할 수 있다는 걸 깨달았죠.\n창의적인 문제 해결\nAI는 코드를 생성하는 데 놀라운 능력을 보여주고 있지만, 많은 소프트웨어 개발자들은 \"기계가 코드 작성과 관련된 뉘앙스와 창의성을 결코 이해할 수 없다\"고 여겨 AI 코딩 도구를 신뢰하기 주저하기도 해요. 그런데 저는 이 부분에서 약간 다른 시각을 가지고 있어요.\n기술적 이해와 문제 해결 능력 키우기\nAI가 코드를 뱉어낼 수 있다고 해도, 그 코드가 정확히 무엇을 하는지 이해하지 못하면 결국 한계에 부딪히게 돼요. 기술의 근본 원리와 문제 해결 방식을 이해하는 것은 여전히 인간의 영역이에요.\n특히 업계 전문가들도 \"AI 코딩 도구가 때때로 환각 현상을 보이며 무작위한 답변을 제공한다\"라고 지적하고 있죠. 저도 실제로 AI가 생성한 코드를 사용하다가 어이없는 오류를 발견하고 디버깅하느라 시간을 허비한 경험이 있어요. 그때 기본적인 프로그래밍 지식이 없었다면 해결하지 못했을 거예요.\nAI와의 협업: 새로운 코딩 패러다임  \n요즘은 AI와 함께 코딩하는 새로운 작업 방식이 형성되고 있어요. 개발자들은 AI 지원 코딩 도구를 사용해 코드를 더 빠르고 정확하게 작성할 수 있게 되었고, 이는 수동 코드 작성 및 업데이트에 소요되던 시간을 크게 절약해 주고 있어요.\n여기서 핵심은 AI를 '대체자'가 아닌 '협업자'로 보는 관점의 전환이에요. 저는 이런 방식으로 일해보니 AI가 반복적인 부분을 처리해주고, 저는 창의적인 문제 해결과 설계에 집중할 수 있어서 오히려 더 좋은 코드를 만들 수 있더라고요.\nAI의 한계 인식하기 ⚠️\n물론 AI에도 분명한 한계가 있어요. \"인간 초고수를 이기는 AI보다 평범한 고객응대 챗봇이 더 만들기 어렵다\"라는 말처럼, AI는 기술적으로는 놀라운 성과를 보여주지만 실제 비즈니스 문제나 사용자의 니즈를 정확히 이해하고 그에 맞는 솔루션을 제공하는 데는 아직 한계가 있어요.\n특히 라이브러리와 라이브러리 버전에 취약하고, 특정 라이브러리의 메서드를 사용하는 데 일관성을 유지하기 어렵다는 점은 개발자들이 반드시 알고 있어야 할 AI의 약점이에요.\n또한 AI 도구가 코드 완성, 최적화, 성능, 수정 및 설명을 위한 멘토 역할을 할 수는 있지만, \"코딩 방법을 배우는 데 사용할 수 없으며, 좋은 코딩 관행을 대체할 수 없다\"는 점을 명심해야 해요.\n \n미래의 코딩 교육: 적응하고 진화하기  \n프로그래밍 교육도 이제 변화가 필요해요. 단순히 문법이나 알고리즘을 가르치는 것에서 벗어나, AI 도구를 효과적으로 활용하는 방법과 AI와 협업하는 방법을 배워야 해요.\n교육에서 중요한 건 '어떻게 코드를 작성하는가'보다 '어떤 문제를 해결해야 하는가'에 초점을 맞추는 것이에요. 문제를 정확하게 정의하고, 적절한 해결책을 설계하는 능력은 AI가 쉽게 대체하기 어려운 인간의 영역이니까요.\n \n균형 찾기: 코딩 학습과 AI 활용 사이의 딜레마 ⚖️\n솔직히 말해서, 코딩을 배우는 게 이전보다 덜 시급해진 건 사실이에요. AI 코드 생성 소프트웨어는 간단하고, 다양한 프로그래밍 언어에서 사용할 수 있으며, 개발자와 비개발자 모두 액세스할 수 있게 되었으니까요.\n하지만 그렇다고 코딩 학습이 완전히 불필요해진 건 아니에요. AI로 생성된 코드를 제대로 활용하고 검증하려면 기본적인 프로그래밍 개념과 논리적 사고방식은 여전히 필요하거든요.\n제가 생각하는 이상적인 접근법은 이래요:\n기본적인 프로그래밍 개념과 논리적 사고를 배우기\nAI 도구를 활용해 생산성을 높이는 방법 익히기\nAI의 한계를 인식하고 필요할 때 직접 코딩할 수 있는 능력 유지하기\n\n\n마무리: 새로운 시대의 코딩 철학  \n결국, 프로그래밍을 배울 가치가 있느냐는 질문에 단순히 \"예\" 또는 \"아니오\"로 답하기는 어려워요. 개인의 목표, 관심사, 그리고 어떤 분야에서 일하고 싶은지에 따라 달라질 수 있어요.\n \n하지만 분명한 건, AI 시대에도 컴퓨터적 사고방식과 문제 해결 능력은 여전히 중요하다는 점이에요. AI는 도구이지, 우리의 사고를 대체하는 것이 아니니까요.\n \n창의력은 지식을 합성해 독창적인 아이디어를 생산하는 능력을 말합니다. 남들이 생각하지 못한 새로운 것을 만들어내는 능력이 창의력이라면, 인공지능은 이제 그 영역에 거의 다가서고 있는 셈이죠. 하지만 완전히 그 자리를 차지하진 못했어요. 여전히 우리 인간만이 가진 영역이 있고, 그 영역은 코딩 기술을 배움으로써 더욱 강화될 수 있어요.\n \n그러니까, AI 시대에도 프로그래밍을 배우는 건 여전히 가치가 있다고 봐요. 다만 배우는 방식과 목적, 그리고 깊이에 대해선 새롭게 생각해볼 필요가 있겠죠?\nFAQ 섹션\nQ: AI가 코드를 다 만들어준다면, 초보자가 코딩을 배울 필요가 있을까요?\nA: 기본 개념과 논리적 사고는 여전히 중요해요. AI 도구를 효과적으로 사용하고 결과물을 검증하려면 기초 지식이 필요합니다.\nQ: 어떤 프로그래밍 언어를 배우는 게 AI 시대에 가장 유리할까요?\nA: Python이 AI와의 연동성이 좋고 진입장벽이 낮아 추천해요. 하지만 언어보다 문제 해결 사고방식을 기르는 게 더 중요합니다.\nQ: 코딩보다 AI 프롬프트 작성법을 배우는 게 더 효율적일까요?\nA: 둘 다 중요해요. 좋은 프롬프트를 작성하려면 구현하려는 기능에 대한 기술적 이해가 필요합니다.\nQ: AI 코드 도구에서 가장 주의해야 할 점은 무엇인가요?\nA: 결과물을 맹신하지 말고 항상 검증하세요. AI는 때때로 환각 현상을 보이거나 오류가 있는 코드를 생성할 수 있습니다.\nQ: 개발자로 커리어를 준비 중인데, AI 때문에 미래가 불안해요.\nA: AI는 도구일 뿐이니 걱정마세요. 오히려 AI와 효과적으로 협업하는 개발자의 가치는 더 높아질 겁니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"AI가 코드를 다 만들어준다면, 초보자가 코딩을 배울 필요가 있을까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"기본 개념과 논리적 사고는 여전히 중요해요. AI 도구를 효과적으로 사용하고 결과물을 검증하려면 기초 지식이 필요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"어떤 프로그래밍 언어를 배우는 게 AI 시대에 가장 유리할까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Python이 AI와의 연동성이 좋고 진입장벽이 낮아 추천해요. 하지만 언어보다 문제 해결 사고방식을 기르는 게 더 중요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"코딩보다 AI 프롬프트 작성법을 배우는 게 더 효율적일까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"둘 다 중요해요. 좋은 프롬프트를 작성하려면 구현하려는 기능에 대한 기술적 이해가 필요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"AI 코드 도구에서 가장 주의해야 할 점은 무엇인가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"결과물을 맹신하지 말고 항상 검증하세요. AI는 때때로 환각 현상을 보이거나 오류가 있는 코드를 생성할 수 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"개발자로 커리어를 준비 중인데, AI 때문에 미래가 불안해요.\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"AI는 도구일 뿐이니 걱정마세요. 오히려 AI와 효과적으로 협업하는 개발자의 가치는 더 높아질 겁니다.\"\n    }\n  }]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483583",
-    "pubDate": "Mon, 12 May 2025 09:53:34 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 챗봇 및 언어 모델",
-      "AI 코딩",
-      "AI 한계",
-      "개발자 생산성",
-      "디버깅 능력",
-      "문제 해결 사고",
-      "미래 프로그래밍 교육",
-      "창의적 코딩",
-      "컴퓨터적 사고",
-      "코드 생성기",
-      "프로그래밍 학습"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "가정의 달 콘텐츠➃ 스스로 서기 위한 연습, 10대를 위한 돈 이야기",
-    "description": "10대를 위한 콘텐츠 큐레이션",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/2025may-curation4",
-    "pubDate": "Thu, 08 May 2025 06:43:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Is Rust the Future of Programming?",
-    "description": "Rust is rewriting the rules of modern software development as the fastest-growing programming language. Its unmatched performance, memory safety without garbage collection, and concurrency capabilities are capturing developers’ attention worldwide. According to our data, with 2,267,000 developers using Rust in the last 12 months and 709,000 identifying it as a primary language, Rust’s footprint in […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2025/05/13/is-rust-the-future-of-programming/",
-    "pubDate": "Tue, 13 May 2025 12:15:19 +0000",
-    "creator": "Tatiana Parshutkina",
-    "categories": [
-      "news",
-      "rust"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "중첩 부정문을 사용하지 말자",
-    "description": "\"학벌 안보는 곳도 없지는 않아요\"\n\"학벌 안 보는 곳도 꽤 있어요\"\n이 둘은 (완곡함을 더 강조하기 위한 용도가 아니라면) 사실상 같은 의미다.\n그럼에도 앞 문장은 두 번 부정이 겹쳐서 뇌가 잠깐 멈춘다.\n대화에서 이런 이중 부정은 정보 전달 속도를 늦추고, 상대를 헷갈리게 만든다.\n코드로 치면 if (false(false)) { … } 같은 난해한 구문이다.\n결국 하고 싶은 말은 단순히 if (true) { … } 일 경우가 훨씬 많다.\n이런 이중 부정문은 아래와 같은 이유로 흔히들 사용된다.\n완곡어법 습관\n\n\"학벌 안보는 곳도 없지는 않아요.\"\n부드럽게 돌려 말하다 보니 부정이 늘어난다.\n강조 욕구\n\n\"절대 못 말리는 사람이 아니야.\"\n\"말릴 수 있는 사람이야\" 보다 훨씬 더 강조하기 위해 부정이 늘어난다.\n상대를 배려하기 위한 용도나 강조하기 위한 것, 혹은 한글의 다양한 문장들을 활용해 좀 더 세밀하고 정확한 표현을 위해서 사용을 할 순 있지만, 듣는 사람에겐 그 세밀한 차이 보다도 더 큰 문제인 인지 부하가 폭증한다.\n\"안 / 없지 / 않아?\" 로 반전의 반전을 계속해서 이어나가는 문장은 CPU를 100% 로 만들어 버린다.\n아래 코드를 보자.\n// 이중 부정 버전\nif (!(!isAllowed)) {\n  performAction();\n}\n\n// 단일 긍정 버전\nif (isAllowed) {\n  performAction();\n}\n개발자라면 두 번째가 훨씬 읽기 편하다.\n대화도 똑같다.\n긍정·단문·직진이 훨씬 더 효율적으로 소통할 수 있고, 상대를 배려해주는 방법이다.\n그래서 가능하면 대화에서도 다음과 같이 표현해보면 좋겠다.\n대화에서 if (true)를 쓰는 예\n❌ \"들으면 모를 사람은 거의 없어.\"\n✅ \"거의 다 알아 들어.\"\n❌ \"쉬운 일은 아니지 않아요?\"\n✅ \"어려운 일이죠?\"\n❌ \"그렇게 안 하는 사람도 없지 않아.\"\n✅ \"그렇게 하는 사람들도 있어.\"\n❌ \"시간 없지 않으세요?\"\n✅ \"시간 있으세요?\"\n뇌 자원은 한정되어 있다\n프로그래머가 가독성을 위해 불필요한 부정을 걷어내듯, 우리가 쓰는 언어도 긍정·단순·직선으로 정리하자.\n상대의 뇌 CPU를 덜 잡아먹는 순간, 대화는 훨씬 빠르고, 오해는 현저히 줄어든다.\n말을 꺼내기 전, 머릿속에서 !(!) 를 true 로 컴파일해보자.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://jojoldu.tistory.com/828",
-    "pubDate": "Mon, 12 May 2025 08:46:01 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "개발자",
-      "개발팀",
-      "소통",
-      "커뮤니케이션",
-      "협업"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "오리 앱 / LSFG  VSR / 영상을 더 좋게 볼 수 잇다.",
-    "description": "이건강... 스팀에 있네요\n스팀: https://store.steampowered.com/app/993090/Lossless_Scaling/\n\n \nLossless Scaling on Steam\nAll-in-one gaming utility for scaling and frame generation\nstore.steampowered.com\n\n \n \n영상: https://www.youtube.com/watch?v=dkyv9zm__rY\n\n\n\n \n프레임 생성과\n고해상도\n기능을 실시간으로 사용할 수 있다고 합니다.\n하번 해봐야겠네요\nnvidia 그래픽카드를 사용해야한다고 합니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1314",
-    "pubDate": "Mon, 12 May 2025 00:51:35 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "lsfg",
-      "VSR",
-      "업스케일링",
-      "프레임생성"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Kodee’s Kotlin Roundup: Compose Multiplatform for iOS is Stable (Plus AI, Web, and More!)",
-    "description": "Sit back, relax, and let the Kotlin vibes roll in. This roundup is overflowing with news: major moves in Kotlin Multiplatform (Compose Multiplatform for iOS is Stable 🎉), server-side upgrades, Kotlin for web, and smarter Kotlin development with JetBrains AI. Whether you’re building mobile apps, backend services, or playing with interactive notebooks, there’s something here […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/05/kodees-kotlin-roundup-compose-multiplatform-for-ios-is-stable/",
-    "pubDate": "Fri, 09 May 2025 14:38:45 +0000",
-    "creator": "Kodee",
-    "categories": [
-      "news",
-      "updates"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "크몽 가입했습니다.",
-    "description": "일꺼리 찾아보아요\n링크: 프로그램 개발, 웹사이트 신규 제작 전문가 상인동 - 크몽\n\n \n프로그램 개발, 웹사이트 신규 제작 전문가 상인동 - 크몽\n전문가 상인동 님을 만나보세요.\nkmong.com\n\n재밌으려나 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1310",
-    "pubDate": "Thu, 8 May 2025 12:19:05 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "크몽"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "AI로 생성한 이미지는 어떻게 평가할까요? (블랙박스 최적화 적용편)",
-    "description": "생성형 AI 모델로 이미지 생성은 쉽죠, 그런데 '좋은 이미지' 생성도 쉬웠으면 좋겠어요!저희 회사에는 고유한 비율로 최소한의 디테일만 유지한 채 인체와 개체를 정의하는 이미지 스...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/how-to-evaluate-ai-generated-images-2-blackbox-optimization",
-    "pubDate": "Mon, 12 May 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
     "imageUrl": "",
     "title": "Learning to Think in an AI World: 5 Lessons for Novice Programmers",
     "description": "This is the second article of the series How to Learn to Code in an AI World. Don’t miss the first, Is it Still Worth Learning to Code? Imagine the following scenario: A student is enrolled in an introductory computer science course. They have no previous programming experience and don’t consider themselves very good at […]",
@@ -236,15 +52,212 @@
     ]
   },
   {
-    "id": 15,
+    "id": 4,
     "imageUrl": "",
-    "title": "지금 경계선에서",
-    "description": "저자 레베카 코스타. 예전에 읽다 용두사미 결론에 실망하며 덮었던 기억이 나는데 오랫만에 다시 읽어봄.\n\n\n마야, 로마 등 사라진 문명은 그 복잡도가 인간의 인지 능력 한계까지 발전했을 때 망조가 들었다는 초반부는 재미있다. 관료제하의 모든 사람은 자신이 가장 무능해질 때까지 승진한다는 피터의 법칙이 떠오름.\n\n유기체가 생존 가능성을 높이려면 유기체의 복잡성이 환경의 복잡성과 대등한 수준이 되어야 한다 (29 페이지)\n\n사회의 해결 능력을 훌쩍 뛰어넘는 수준으로 문제가 복잡해지면, 사회가 더 이상 문제 해결책을 '사고 '할 수 없는 시점(인식 한계점)에 도달하게 되면 해결되지 않은 문제들은 다음 세대로 떠넘겨지고 결국 해당 문명을 낭떠러지 끝으로 밀어낸다 (36 페이지)\n\n\n몰락한 문명의 공통점인 '발전 > 복잡도 증가 > 인식 한계점 봉착' 현상이 현재에도 여전히 이어지고 있다는 것이 저자의 주장.\n\n나는 물 위원회에 5년째 참석하고 있다. 이 기간 우리는 한 방울의 물도 만들어내지 않았다. 물에 대한 필요성도, 물을 생산할 기술도 있지만... 돈이 없는 거 아닐까? 캘리포니아의 물 부족 문제든, 지구적 기후변화든, 세계적 금융위기든 우리가 취하는 조치는 오로지 단기 증상 완화에 국한... 문제가 다음 세대로 전가되면서 규모가 커지면 비극적 결말을 초래할 수 있는데도 우리는 계속 미적거리기만 한다 (50 페이지)\n\n\n\n인식 한계점\n\n\n인생은 짧다. 빠른 (살아서 이득 볼 가능성도 높은) 해결책에 끌리는 게 인지상정. 내가 생각하는 인식 한계점 발생 이유. 저자는 좀 더 근원적인 이유를 댄다. 생물학적 진화 속도가 사회의 변화 속도를 따라가지 못해서라는 것.\n\n농업이 지구상에 처음 등장한 것은 1만 년 전, 산업혁명이 일어난 지는 이제 겨우 200년... 자연선택은 대단히 느리게 일어나는 과정이다. 우리의 후기산업사회에 잘 어울리는 '회로 '가 고안되기에는 아직 충분히 많은 세대가 지나지 않았다 (37페이지)\n\n\n당신이 독사와 마주친다면, 거의 뇌 전체가 빛을 내며 그 위협을 처리할 적절한 행동을 취한다. 그렇지만 탄소배출이 언젠가 지구인류를 멸망시킬 것이라는 얘기를 들을 때는 뇌에서 장래의 일을 담당하는 일부분(전전두피질)만 희미하게 빛날 따름 (53  페이지)\n\n만년 동안 농사 짓는 데 최적화된 인지 능력으로 산업혁명 이후 급격히 높아진 정치, 경제, 사회 체제의 복잡도를 감당하기는 절대 쉽지 않을 것이다. 세계대전, 대공황 등이 그 증거 아닐까?\n\n\n\n하루 먹고 살기도 힘들었을 것이 뻔한 원시 인류는 당연히 힘들게 얻은 에너지가 허투루 (사색, 고찰 따위에) 쓰여지는 상황을 싫어했을 것이며, 그들의 후손인 우리도 마찬가지\n\n그것에 대해 내 기분이 어떤가? 처럼 쉬운 질문이 그것에 대한 내 의견은 무언인가? 처럼 어려운 질문의 답을 대체한다 - '생각에 관한 생각' 중\n\n\n\n인지 과부하를 싫어하는 인간은 본능적으로 복잡한 문제도 싫어한다. 그렇게 인식 한계점에 봉착한 인간이 (학습 노력이 필요한) 지식보다 상대적으로 습득하기 쉬운 믿음(슈퍼밈)에 의존할 때 문명의 몰락이 시작된다는 게 저자의 설명.\n\n믿음이 사실을 밀어내는 현상과 정체 현상이 나타나기 시작하면 붕괴가 일어날 무대가 마련된 것... 사실과 증거를 무시한 채 입증되지 않은 구제책을 택하는 행위는 파멸의 격렬한 소용돌이를 불러일으키는 방아쇠 (41 페이지)\n\n\n인식 한계점을 극복하려면 어떻게 해야 할까? 뇌 진화가 더뎌서 발생한 문제라 해결이 힘들어 보이는데? 저자는 통찰력을 발휘해야 한다 얘기하는데 그것도 뇌가 하는 거잖아(..)\n\n\n통찰을 방해하는 슈퍼밈\n\n\n저자가 주의를 당부하는 통찰 방해꾼들.\n\n\n불합리한(반대를 위한) 반대 - 해법을 고민하는 것보다 포지티브와 네거티브, 둘 중 하나를 선택하는 게 쉽다\n\n양당제에서 후보자가 할 일은 유권자가 자신의 경쟁자를 거부할 '단 하나의 이유 '를 찾아내는 것 (131 페이지)\n\n\n책임의 개인화 - 구조 문제를 개인 문제로 희석하는 게 쉽다\n\n미국 전역에서 배출되는 쓰레기 중 생활폐기물이 차지하는 비율은 3퍼센트도 안 된다 - 해양 플라스틱 오염 주범은 어구, 어망 (162 페이지)\n\n\n시스템적 문제에 우리가 미칠 수 있는 영향은 실제보다 엄청나게 과장되어 있다. 실패한 제도, 지도자, 전문가의 책임을 평범한 개인에게 전가 (164 페이지)\n\n\n\n거짓 상관관계 - 인과관계보다 쉽다\n\n주가변동과 치즈 생산량의 상관관계는 95%까지 급등... 연관성 없는 상관관계 의존이 얼마나 위험한지 알릴수록... 더 정확한 공식을 밝혀달라는 요청 쇄도... 금융시스템이 너무 복잡해져서 사람들은 문제를 간단하게 만들어줄 수 있는 마법사에게 의지하기 시작 (101 페이지)\n\n한 사건이 다른 사건의 실제 '원인 '인지 입증하는 것보다, 두 사건 사이의 관계를 대강 관찰하는 것이 훨씬 쉽기 때문 (182 페이지)\n\n\n사일로(Silo)식 사고 - 쉽게 살기 위한 밥그릇 지키기\n\n우주 기반 태양 에너지를 연구한 나사 과학자들은 10년이 넘도록 에너지부의 문을 두드렸다... 에너지부는 나사를 비난하며 우주개발이나 하라고 (223 페이지)\n\n\n극단의 경제학 - 돈으로 평가하는 게 쉽다\n\n1년 전만 해도 마리화나 합법화 찬성은 정치적 자살이나 마찬가지였다. 하지만 온 나라가 경제 위기에 빠지자 정치인들은 기특하게도 이전의 성향을 고집하지 않고 급진적인 자세로 경제 문제를 해결한 해법을 받아들이려 했다... 공공정책과 사회의 윤리는 경제적 필요에 맞춰 쉽게 변할 수 있다 (253 페이지)\n\n비즈니스 원리가 만연하면 복잡한 문제에 빠르게, 효율적으로 대응해야 한다는 압력이 거세진다. 이러한 환경에서는 느리고 사려 깊은 검토보다 빠르고 결단력 있어 보이는 행동을 더 높이 평가... 우리는 상황을 재빨리 가늠해서 행동에 나설 수 있는 강력하고 합리적이며 비즈니스적 사고방식을 지닌 실천가를 원한다 (261 페이지)\n\n\n\n전부 복잡도를 줄여 단순하게 문제를 해결하려는 두뇌 활동의 결과. 어느 하나 피해가는 게 쉽지 않아 보인다. 저자가 이런 장벽들을 극복할 수 있는 해결책을 제시하긴 하는데 핵심이 두뇌 훈련을 통한 통찰력 강화(..) 결국 개인 역량 강화하라는 얘기. 책임의 개인화?\n\n\n나가며\n\n\n흥미로운 초반부에 비해 후반부로 갈수록 고개가 갸우뚱해지는, 뒷심이 많이 부족해서 아쉬운 책이다. AI가 무섭게 발전하고 있는 요즘 나왔으면 결론이 어땠을까 궁금해지기도 하고. 기억에 남는 문구를 남긴다.\n\n\n모든 가옥의 지붕과 도로를 흰색으로 칠하면 '11년 동안 110억 대의 자동차를 도로에서 제거한 것 '과 맞먹는 효과를 낼 것 (84 페이지) \n\n높은 다양성이 있는 시스템은 복잡한 문제에 직면해서도 잘 작동 (107 페이지) \n\n고도로 복잡한 환경에서는 성공하는 해법보다 실패하는 해법이 더 많다는 사실을 인정할 필요가 있다. 이것이 진보를 이루기 위해 치러야 할 대가 (305 페이지) \n\n복잡한 문제가 닥쳤을 때 우리가 개발할 수 있는 해법에 커다란 영향을 미치는 것은 뇌 속에 쌓아 온 콘텐츠의 종류와 양. 인간은 무에서 유를 창조할 수 없다 (338 페이지) \n\n소그룹(3~5명)이 복잡한 문제를 개인보다 더 빨리 해결... 2명 이하 그룹은 해법을 이끌어낼 '임계 질량 '이 부족... 사람이 많을수록 새로운 아이디어나 반대 의견에 대한 억압 심화... 큰 그룹에서는 집단의사결정에 기여하지 않는 개인이 생겨나 '사회적 태만 '이나 '남의 의견만 따르는 ' 현상이 일어나기 쉽다 (367 페이지)",
+    "title": "VC는 끝나지 않았다",
+    "description": "요새 링크드인과 페이스북에서 VC의 종말에 대한 포스팅을 자주 볼 수 있다. 한국인, 외국인 할 것 없이, 이제 이 낙후된 VC의 투자 모델은 더 이상 지속될 수 없고, AI의 시대에 아직도 사람에게 집중하는 VC 모델은 더 이상 옛날처럼 작동할 수 없다는 주장들을 강하게 한다. 실은 나도 몇 년 전에 이런 글을 쓴 적이 있다. 이 글은(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/05/blog-post.html",
-    "pubDate": "2025-05-07T12:25:00.003Z",
+    "link": "https://www.thestartupbible.com/2025/05/the-vc-game-is-not-dead.html",
+    "pubDate": "Wed, 14 May 2025 21:33:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "Strong",
+      "vc"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Building Cloud-Ready Apps Locally: Spring Boot, AWS, and LocalStack in Action",
+    "description": "Developing an application with AWS services can introduce significant local‑development hurdles. Often, developers don’t receive timely AWS access, or a sysadmin inadvertently grants credentials for the wrong account – only to fix the error a week later. Then, when engineers discover they still lack permissions for certain resources, they must endure yet another week-long wait […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/05/building-cloud-ready-apps-locally-spring-boot-aws-and-localstack-in-action/",
+    "pubDate": "Tue, 13 May 2025 11:31:31 +0000",
+    "creator": "Siva Katamreddy",
+    "categories": [
+      "idea",
+      "java",
+      "tutorials",
+      "aws",
+      "localstack",
+      "spring-boot",
+      "spring-cloud-aws",
+      "testcontainers-2"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "바이브 코딩 도구  V0, Replit, Cursor 비교 분석",
+    "description": "코딩을 몰라도 앱을 만들 수 있는 바이브 코딩의 세계! V0, Replit, Cursor의 장단점과 가격을 비교해 보고, 나에게 딱 맞는 AI 코딩 도구를 찾아보세요. 생산성이 두 배로 올라가는 개발의 미래를 경험해보세요!\n\n\n \n아이디어만 주면 코드를 만들어주는 바이브 코딩 세계, 여러분은 어떤 도구를 사용하고 계신가요? 요즘 개발 세계에서 가장 핫한 주제 중 하나가 바로 이 '바이브 코딩'인데, 저도 최근에 이 매력에 푹 빠져 있어요. 코드 몇 줄 쓰려면 머리가 지끈거렸던 과거와 달리, 이제는 그냥 \"로그인 화면 만들어줘\"라고 말하면 뚝딱 만들어주니... 이게 4차 산업혁명인가 싶더라고요.  \n \n근데 문제는 V0, Replit, Cursor 등 너무 많은 도구들이 우후죽순 생겨나서 도대체 뭘 써야 할지 모르겠더라고요. 여러분도 그러신가요? \"이거 쓰면 저거 못 쓰는데...\", \"이 기능은 좋은데 저 기능은 없고...\" 이런 고민 많이 하셨을 것 같아요.\n \n그래서 오늘은 제가 직접 이 세 가지 바이브 코딩 도구를 비교해봤습니다. 어떤 도구가 내 스타일과 목적에 딱 맞는지 함께 알아보도록 해요! 개발자든 아니든, 이 글 읽고 나면 무슨 도구 써야 할지 감이 확 올 거예요.\n \nV0, Replit, Cursor - 이게 뭐가 다른 거죠?  \n일단 세 도구가 어떤 특징을 가지고 있는지 한눈에 비교해볼게요.\n도구\n주요 기능\n사용 편의성\n대상 사용자\n강점\n약점\n\n\nV0\n프롬프트로 앱 구현, 코드 없이 결과물 생성\n비개발자도 쉽게 사용 가능\n비개발자, 초보 개발자\n코드 작성 없이 빠른 앱 생성\n고급 개발이나 세부 수정에 제한적\n\n\nReplit\n아이디어부터 배포까지, 실시간 피드백 반영\n즉시 개발 환경, 빠른 배포\n개발자, 스타트업\n기획→배포 30분 내 가능, 사용자 피드백 반영\n복잡한 기능 추가 시 한계\n\n\nCursor\nAI 통합 코드 편집기, 자연어 코드 생성, 오류 감지\nVS Code 기반 친숙함\n초중급 개발자, 전문가\n코드 품질 향상, 생산성 증가\n대규모 프로젝트 성능 저하, 기능 제한\n\n\n\n바이브 코딩은 AI를 활용해 자연어로 아이디어나 감성을 전달하면 코드나 앱을 생성해주는 새로운 개발 방식입니다. 근데 각 도구마다 초점을 두는 부분이 달라요. 자세히 살펴볼까요?\n \nV0: 코드 몰라도 앱 만들 수 있어요!  \nV0는 앱 빌더로, 코드에 대한 깊은 이해 없이 프롬프트와 이미지만으로 완전한 앱을 구현할 수 있는 도구입니다. 예를 들어, PRD(제품 요구사항 문서)와 와이어프레임 이미지를 제공하고 간단한 지시문(\"Please implement this. Use the attached image for a style reference\")만으로 앱을 만들 수 있습니다.\n \n진짜 놀라운 점은 비개발자나 초보자를 대상으로 설계되어 코드 작성 과정을 최소화하고 결과물에 집중할 수 있도록 돕습니다. 사용이 매우 직관적이며, 기술적 배경이 없어도 접근 가능합니다.\n\n\n제가 처음 V0를 써봤을 때 정말 놀랐어요. \"반응형 뉴스레터 구독 폼 만들어줘. 파란색 테마로!\"라고 입력했더니 진짜 그대로 뚝딱 만들어 주더라고요. 코드 한 줄 안 쓰고요! 디자이너가 와이어프레임 그려놓으면 바로 실제 앱으로 변신시킬 수 있으니, 제작 과정이 엄청 빨라져요.\n \n강점은 빠르고 간단하게 앱을 생성할 수 있다는 점이며, 약점으로는 고급 개발이나 세부적인 코드 수정이 필요한 경우 제한적일 가능성이 있습니다. 뭐랄까... 속도는 엄청 빠른데, 맞춤형 수정이 필요하면 좀 답답할 수 있어요.\n \nV0가 가장 빛나는 순간은 역시 프로토타입을 빠르게 만들어야 할 때예요. 클라이언트에게 \"이런 느낌이에요\" 하고 보여줄 결과물이 필요하다면, V0는 정말 최고의 선택이 될 거예요.\n \nReplit: 아이디어부터 배포까지 한방에!  \nReplit Agent는 아이디어 구상부터 MVP(최소 기능 제품) 개발, 배포, 그리고 실제 사용자 피드백 반영까지의 과정을 빠르게 진행할 수 있는 도구입니다. 예를 들어, 글쓰기 서비스를 30분 만에 만들고 사용자 테스트까지 완료한 사례가 있습니다.\n \n이게 진짜 대단한 게, 즉시 사용 가능한 개발 환경과 ChatGPT의 신속한 코드 생성 및 문제 해결 기능을 제공하며, 복잡한 서버 설정 없이 배포가 가능합니다. 주로 개발자, 스타트업, 또는 빠른 프로토타이핑을 원하는 사용자에게 적합합니다.\n\n\n \n 제가 Replit로 유튜브 강의 매니저를 만들어봤는데요, V0보다는 좀 더 개발자스러운 환경이지만 그래도 놀랍도록 빠르게 작업할 수 있었어요. 특히 좋았던 건 백엔드와 프론트엔드를 한 환경에서 다 만들 수 있다는 점이었어요. 백엔드 개발자랑 따로 소통할 필요 없이 혼자서 풀스택 개발이 가능했죠.\n \n강점은 기획부터 배포까지의 속도(30분 내 가능)와 실시간 피드백 반영이 용이하다는 점입니다. 약점으로는 모든 사용자 피드백을 즉시 반영하기 어려운 점과 복잡한 기능 추가 시 한계가 있을 수 있다는 점이 있습니다.\n \nReplit가 가장 빛나는 순간은 스타트업처럼 빠르게 아이디어를 검증하고 싶을 때예요. 생각난 아이디어를 그날 바로 앱으로 만들어서 친구들에게 써보라고 할 수 있으니까요!\n \nCursor: 코드의 품질과 생산성을 한 단계 올려줘요! ⚡\nCursor는 Visual Studio Code를 기반으로 한 AI 통합 코드 편집기로, 코드 자동 완성, 자연어를 통한 코드 생성, 실시간 오류 감지 및 수정, 자동 리팩토링 등의 기능을 제공합니다. AI 챗봇을 통해 코드 설명이나 질문을 주고받을 수 있으며, 개발 생산성을 크게 높여줍니다.\n \n다른 두 도구와 달리 VS Code의 친숙한 인터페이스를 유지하며, 초중급 개발자 및 전문 개발자에게 적합합니다. 비개발자보다는 어느 정도 코딩 지식이 있는 사용자를 대상으로 하며, 코드 품질 향상과 학습 지원(모범 사례 제안 등)에 강점이 있습니다.\n\n\n \n 솔직히 말해서 처음 Cursor 써봤을 때는 \"이게 뭐가 그리 대단해?\" 싶었는데, 1주일만 써보니 코드 생산성이 진짜 두 배는 늘더라고요. 특히 좋았던 건 코드를 작성하다가 \"이 부분 최적화해줘\" 같은 자연어 명령을 내리면 AI가 즉시 코드를 개선해준다는 점이었어요. 버그 찾는 시간도 확 줄었고요.\n \n강점은 코드 생산 속도와 품질 향상, 코드베이스 인덱싱을 통한 맞춤형 추천 기능입니다. 약점으로는 대규모 프로젝트나 여러 프로젝트 인덱싱 시 성능 저하, 일부 기능(예: import 경로 오류)에서 제한이 있다는 점이 있습니다.\n \nCursor가 빛나는 순간은 역시 큰 프로젝트를 효율적으로 관리하고 싶을 때예요. 기존 코드베이스를 분석해서 새 코드를 생성하거나 버그를 잡아내는 능력이 정말 대단하거든요.\n \n각 도구별 가격 정책 비교  \n아무리 좋은 도구라도 가격이 중요하잖아요. 각 도구별 가격 정책을 살펴볼게요.\n도구\n무료 플랜\n유료 플랜\n주요 특징\n\n\nV0\n월 200 크레딧\n프리미엄: 월 $20, 5000 크레딧\n추가 크레딧 구매 가능\n\n\nReplit\nStarter: 무료, 제한적 기능\nCore: 월 $20-25, Teams: 월 $40/인\nCore는 월 $25 크레딧 포함\n\n\nCursor\n2000회 코드 완성, 제한적 요청\nPro: 월 $20, Business: 월 $40/인\nPro는 500회 빠른 프리미엄 요청 제공\n\n\n\n \nV0는 무료 플랜으로 월 200 크레딧을 제공하며, 기본적인 UI 컴포넌트 생성 및 사용이 가능합니다. 프리미엄 플랜은 월 $20에 5000 크레딧을 제공하며, 더 많은 생성 작업을 지원합니다. 추가 크레딧 구매 옵션도 존재하며, $10에 1250 크레딧, $30에 4000 크레딧, $50에 7750 크레딧을 구매할 수 있습니다.\n \nReplit의 Starter 플랜은 무료로 제공되며, 기본 기능과 3개의 프로젝트, 제한적인 AI 기능(Replit Agent)을 사용할 수 있습니다. Replit Core 플랜은 연간 결제 시 월 $20, 월별 결제 시 $25로, 무제한 프로젝트와 $25 크레딧(약 100개의 Agent 체크포인트)을 제공합니다. Teams 플랜은 사용자당 월 $40로, $40 크레딧과 팀 협업 기능을 포함합니다.\n \nCursor의 Hobby 플랜은 무료로 제공되며, 2000회 코드 완성, 50회 느린 프리미엄 모델 요청, 14일 Pro 체험 기간을 포함합니다. Pro 플랜은 월 $20로, 500회 빠른 프리미엄 요청(GPT-4 등), 무제한 느린 요청, 무제한 코드 완성을 제공합니다. Business 플랜은 사용자당 월 $40로, Pro 플랜의 기능 외에 중앙 집중식 결제와 개인정보 보호 모드 강제 적용 등의 기업向け 기능을 추가합니다.\n \n가격만 보면 셋 다 비슷해 보이지만, 실제 사용해보면 체감이 달라요. V0는 간단한 프로젝트만 할 거라면 무료 크레딧으로도 괜찮지만, 자주 쓰려면 결국 유료 플랜이 필요해요. Replit은 초기에는 무료로 시작하기 좋지만, 배포와 AI 기능을 많이 쓸수록 크레딧이 빨리 소진돼요. Cursor는 무료 플랜의 제한이 커서 진짜 활용하려면 Pro 플랜은 필수인 것 같아요.\n \n어떤 도구가 나에게 맞을까?  \n이제 중요한 질문이죠. 내게 맞는 도구는 뭘까요? 간단히 정리해볼게요:\nV0가 딱인 경우:\n코딩을 잘 모르지만 앱이나 웹사이트를 만들고 싶은 비개발자\nUI/UX 디자이너가 프로토타입을 빠르게 만들어야 할 때\n코드 작성 없이 빠른 결과물이 필요한 경우\nReplit이 딱인 경우:\n아이디어부터 배포까지 빠르게 진행하고 싶은 스타트업\n풀스택 개발을 혼자서 처리해야 하는 개발자\n실시간 사용자 피드백을 반영하며 제품을 발전시키고 싶을 때\nCursor가 딱인 경우:\n코드 품질과 생산성을 동시에 높이고 싶은 전문 개발자\n기존 코드베이스를 분석하고 개선해야 하는 경우\nVS Code에 익숙한 개발자가 AI 기능을 추가하고 싶을 때\n\n\n V0는 비개발자나 초보자에게 적합하며 코드 없이 빠른 결과물을 원할 때 유용합니다. Replit Agent는 빠른 프로토타이핑과 사용자 피드백 반영이 필요한 스타트업이나 개발자에게 적합하며, Cursor는 코드 품질과 생산성을 중시하는 초중급 이상의 개발자에게 최적화되어 있습니다. 사용 목적과 기술 수준에 따라 적합한 도구를 선택하는 것이 중요합니다.\n \nReplit의 특별한 기능: Autoscale  \nReplit의 핵심 기능 중 하나인 Autoscale에 대해 추가로 알아볼까요?\n \nAutoscale Deployments는 앱의 네트워크 트래픽과 작업 부하에 따라 클라우드 리소스를 자동으로 확장하거나 축소합니다. 트래픽이 많을 때는 서버를 추가하여 부하를 관리하고, 앱이 유휴 상태일 때는 서버 수를 0까지 줄여 비용을 절감합니다.\n\n\n \n 이게 왜 중요하냐면, Autoscale는 전자상거래 사이트나 API 서비스와 같이 트래픽이 변동하는 웹 애플리케이션에 이상적입니다. 예를 들어, 타이핑 속도 평가 앱과 같은 경우, 사용자가 많을 때 리소스를 늘리고 사용이 적을 때 줄이는 방식으로 효율적으로 운영할 수 있습니다.\n \n개인적으로 이 기능 때문에 Replit을 더 많이 쓰게 됐어요. 제가 만든 웹서비스가 가끔 트래픽이 폭증할 때가 있는데, Autoscale 덕분에 서버 터질 걱정 없이 안정적으로 운영할 수 있었거든요. 게다가 평소엔 비용도 거의 안 들고요!\n \nV0 vs Cursor: 프론트엔드 vs 풀스택  \nV0와 Cursor를 좀 더 자세히 비교해볼까요?\n \nV0는 주로 프론트엔드 개발에 특화된 도구로, 자연어를 통해 UI 컴포넌트를 빠르게 생성하는 데 중점을 둡니다. 사용자가 원하는 UI를 자연어로 설명하거나 간단한 프롬프트로 요청하면, V0는 Tailwind CSS와 같은 현대적인 스타일링을 적용한 UI 컴포넌트를 생성합니다. 예를 들어, \"로그인 인터페이스를 만들어줘\"라고 입력하면 시각적으로 완성도 높은 UI를 제공합니다.\n \n반면, Cursor는 코드 자동 완성, 자연어를 통한 코드 생성, 자동 리팩토링, 실시간 오류 감지 및 수정, 코드 설명 기능을 제공합니다. 백엔드, 테스트, 서버 작업 등 다양한 개발 영역을 지원하며, 데이터베이스부터 프론트엔드까지 전체 스택을 다룰 수 있습니다.\n \n가장 큰 차이점은 V0는 UI 중심의 빠른 프로토타이핑이 필요한 비개발자나 디자이너에게 적합하며, Cursor AI는 코드 품질과 전체 스택 개발을 중시하는 개발자에게 더 유용합니다. 사용 목적과 기술 수준에 따라 두 도구 중 적합한 것을 선택하는 것이 중요합니다.\n \n결론: 나만의 바이브 코딩 도구 찾기  \n바이브 코딩 도구 셋 다 훌륭하지만, 각자의 필요와 상황에 맞게 선택하는 게 중요해요.\n \n제 경우는 다양한 프로젝트에 세 도구를 모두 사용하고 있어요. 간단한 UI 프로토타입은 V0로 빠르게 만들고, 풀스택 앱 개발은 Replit으로, 그리고 대규모 프로젝트나 코드 최적화가 필요할 때는 Cursor를 활용하고 있죠. 뭐랄까... 도구는 많을수록 좋은 것 같아요!  \n \n여러분은 어떤 바이브 코딩 도구를 써보고 싶으신가요? 아니면 이미 써보셨다면, 어떤 경험이 있으셨나요? 댓글로 여러분의 경험을 공유해주세요. 다른 분들에게도 큰 도움이 될 거예요!\n자주 묻는 질문\nQ: 비개발자도 바이브 코딩 도구를 쉽게 사용할 수 있나요?\nA: 네, 특히 V0는 코딩 지식 없이도 쉽게 사용할 수 있도록 설계되었습니다.\nQ: 무료 플랜만으로도 충분히 사용할 수 있을까요?\nA: 취미나 학습용으로는 무료 플랜으로 충분하지만, 본격적인 프로젝트나 상업적 용도로는 유료 플랜을 고려하는 것이 좋습니다.\nQ: 바이브 코딩 도구가 개발자의 일자리를 대체할까요?\nA: 완전히 대체하기보다는 개발자의 생산성을 높이고 반복적인 작업을 줄여주는 보조 도구로 볼 수 있습니다.\nQ: 이 도구들로 만든 코드의 품질은 어떤가요?\nA: 기본적인 기능은 훌륭하지만, 복잡한 로직이나 최적화가 필요한 부분은 개발자의 검토와 수정이 필요할 수 있습니다.\nQ: 한국어로도 프롬프트 입력이 가능한가요?\nA: 네, 세 도구 모두 한국어 프롬프트를 지원하지만, 영어로 입력했을 때 더 정확한 결과를 얻을 수 있는 경우가 많습니다.\n\n{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"FAQPage\",\n    \"mainEntity\": [\n        {\n            \"@type\": \"Question\",\n            \"name\": \"비개발자도 바이브 코딩 도구를 쉽게 사용할 수 있나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  네, 특히 V0는 코딩 지식 없이도 쉽게 사용할 수 있도록 설계되었습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"무료 플랜만으로도 충분히 사용할 수 있을까요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  취미나 학습용으로는 무료 플랜으로 충분하지만, 본격적인 프로젝트나 상업적 용도로는 유료 플랜을 고려하는 것이 좋습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"바이브 코딩 도구가 개발자의 일자리를 대체할까요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  완전히 대체하기보다는 개발자의 생산성을 높이고 반복적인 작업을 줄여주는 보조 도구로 볼 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"이 도구들로 만든 코드의 품질은 어떤가요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  기본적인 기능은 훌륭하지만, 복잡한 로직이나 최적화가 필요한 부분은 개발자의 검토와 수정이 필요할 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"한국어로도 프롬프트 입력이 가능한가요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  네, 세 도구 모두 한국어 프롬프트를 지원하지만, 영어로 입력했을 때 더 정확한 결과를 얻을 수 있는 경우가 많습니다.\"\n            }\n        }\n    ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483582",
+    "pubDate": "Fri, 9 May 2025 09:33:09 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 생산성 및 업무 효율화",
+      "ai 코딩 도구",
+      "cursor ai",
+      "replit",
+      "v0.dev",
+      "개발 생산성",
+      "노코드 개발",
+      "바이브 코딩",
+      "코드 자동 생성",
+      "프로토타이핑",
+      "프롬프트 기반 개발"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "C++ 헤더 파일 및 모듈을 위한 Visual Studio 기능",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/VS_20250510/",
+    "pubDate": "Sat, 10 May 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "중첩 부정문을 사용하지 말자",
+    "description": "\"학벌 안보는 곳도 없지는 않아요\"\n\"학벌 안 보는 곳도 꽤 있어요\"\n이 둘은 (완곡함을 더 강조하기 위한 용도가 아니라면) 사실상 같은 의미다.\n그럼에도 앞 문장은 두 번 부정이 겹쳐서 뇌가 잠깐 멈춘다.\n대화에서 이런 이중 부정은 정보 전달 속도를 늦추고, 상대를 헷갈리게 만든다.\n코드로 치면 if (false(false)) { … } 같은 난해한 구문이다.\n결국 하고 싶은 말은 단순히 if (true) { … } 일 경우가 훨씬 많다.\n이런 이중 부정문은 아래와 같은 이유로 흔히들 사용된다.\n완곡어법 습관\n\n\"학벌 안보는 곳도 없지는 않아요.\"\n부드럽게 돌려 말하다 보니 부정이 늘어난다.\n강조 욕구\n\n\"절대 못 말리는 사람이 아니야.\"\n\"말릴 수 있는 사람이야\" 보다 훨씬 더 강조하기 위해 부정이 늘어난다.\n상대를 배려하기 위한 용도나 강조하기 위한 것, 혹은 한글의 다양한 문장들을 활용해 좀 더 세밀하고 정확한 표현을 위해서 사용을 할 순 있지만, 듣는 사람에겐 그 세밀한 차이 보다도 더 큰 문제인 인지 부하가 폭증한다.\n\"안 / 없지 / 않아?\" 로 반전의 반전을 계속해서 이어나가는 문장은 CPU를 100% 로 만들어 버린다.\n아래 코드를 보자.\n// 이중 부정 버전\nif (!(!isAllowed)) {\n  performAction();\n}\n\n// 단일 긍정 버전\nif (isAllowed) {\n  performAction();\n}\n개발자라면 두 번째가 훨씬 읽기 편하다.\n대화도 똑같다.\n긍정·단문·직진이 훨씬 더 효율적으로 소통할 수 있고, 상대를 배려해주는 방법이다.\n그래서 가능하면 대화에서도 다음과 같이 표현해보면 좋겠다.\n대화에서 if (true)를 쓰는 예\n❌ \"들으면 모를 사람은 거의 없어.\"\n✅ \"거의 다 알아 들어.\"\n❌ \"쉬운 일은 아니지 않아요?\"\n✅ \"어려운 일이죠?\"\n❌ \"그렇게 안 하는 사람도 없지 않아.\"\n✅ \"그렇게 하는 사람들도 있어.\"\n❌ \"시간 없지 않으세요?\"\n✅ \"시간 있으세요?\"\n뇌 자원은 한정되어 있다\n프로그래머가 가독성을 위해 불필요한 부정을 걷어내듯, 우리가 쓰는 언어도 긍정·단순·직선으로 정리하자.\n상대의 뇌 CPU를 덜 잡아먹는 순간, 대화는 훨씬 빠르고, 오해는 현저히 줄어든다.\n말을 꺼내기 전, 머릿속에서 !(!) 를 true 로 컴파일해보자.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/828",
+    "pubDate": "Mon, 12 May 2025 08:46:01 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "개발자",
+      "개발팀",
+      "소통",
+      "커뮤니케이션",
+      "협업"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "[PS5] 능동적이고 액션 중심적 변화 그리고 메시지, '데스 스트랜딩 2'",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2302",
+    "pubDate": "Thu, 08 May 2025 16:01:23 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "프리뷰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "오리 앱 / LSFG  VSR / 영상을 더 좋게 볼 수 잇다.",
+    "description": "이건강... 스팀에 있네요\n스팀: https://store.steampowered.com/app/993090/Lossless_Scaling/\n\n \nLossless Scaling on Steam\nAll-in-one gaming utility for scaling and frame generation\nstore.steampowered.com\n\n \n \n영상: https://www.youtube.com/watch?v=dkyv9zm__rY\n\n\n\n \n프레임 생성과\n고해상도\n기능을 실시간으로 사용할 수 있다고 합니다.\n하번 해봐야겠네요\nnvidia 그래픽카드를 사용해야한다고 합니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1314",
+    "pubDate": "Mon, 12 May 2025 00:51:35 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "lsfg",
+      "VSR",
+      "업스케일링",
+      "프레임생성"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "CLion and the Open-Source Community: Growing Together",
+    "description": "From the beginning, CLion has been shaped by the needs of C and C++ developers around the world. Our cross-platform IDE was built to simplify development, boost productivity, and make working with C++ more enjoyable. We’re excited to take the next step in our ongoing collaboration with the community: CLion is now free for non-commercial […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/blog/2025/05/14/clion-and-the-open-source-community-growing-together/",
+    "pubDate": "Wed, 14 May 2025 10:00:00 +0000",
+    "creator": "Lena Morozova",
+    "categories": [
+      "community",
+      "clion",
+      "community-support",
+      "open-source-program",
+      "oss-projects"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "AI 부정행위로 아마존 합격한 21세 한인, 75억 투자 받고 데이트까지 속여 논란",
+    "description": "\"계산기도, 스펠체크도, 구글도 처음엔 치팅이라 불렸습니다. 이제 AI가 그 자리를 대신할 차례입니다.\"\n이 도발적인 말의 주인공은 콜롬비아대 출신 21세 한인 청년 이정인(Chungin “Roy” Lee)입니다. 그는 최근 실리콘밸리를 뒤흔든 AI 스타트업 'Cluely’의 공동창업자로, 자신이 개발한 AI 치팅툴로 아마존 인턴십 면접에 합격한 후 530만 달러(약 75억 원)의 투자금을 유치하며 세계적 화제의 중심에 섰습니다.\nAI로 빅테크 면접을 속이다\n이정인의 여정은 단순한 코딩 프로젝트에서 시작됐습니다. 그는 'Interview Coder'라는 AI 도구를 개발해 아마존의 화상 코딩 면접에 활용했습니다. 이 도구는 브라우저에 보이지 않는 오버레이 창을 띄워 면접관 모르게 실시간으로 답변과 코드를 제공했고, 이정인은 이를 통해 인턴십에 합격했습니다.\n놀라운 점은 그가 이 과정을 유튜브에 공개했다는 사실입니다. \"How I Cheated My Amazon Interview\"라는 제목의 영상은 순식간에 바이럴 히트를 기록했고, 이는 곧 그의 인생을 바꿔놓았습니다.\n정학 처분과 창업의 길\n영상이 화제가 되자 콜롬비아대학교는 이정인에게 정학 처분을 내렸고, 아마존에서도 인턴십 제안이 취소되었습니다. 하지만 이정인과 공동창업자 닐 샨무감(Neel Shanmugam)은 좌절하지 않았습니다. 이들은 해당 기술을 발전시켜 'Cluely’라는 스타트업을 설립했습니다.\n\"Cheat on everything(모든 것을 치팅하라)\"이라는 도발적인 슬로건을 내건 Cluely는 면접뿐 아니라 시험, 영업, 심지어 데이트까지 AI가 실시간으로 코칭해주는 서비스를 출시했습니다. 출시 직후 7만 명의 사용자가 몰렸고, 2025년 4월 기준 월 300만 달러의 연간 반복 수익(ARR)을 기록하며 Abstract Ventures와 Susa Ventures로부터 530만 달러의 시드 투자를 유치했습니다.\n$5 million to change the definition of the word \"cheating\"https://t.co/rJuDbS1eC5 https://t.co/BMbBnz1fTE\n— Roy (@im_roy_lee) April 21, 2025\n \n\n데이트까지 치팅? 논란의 확산\nCluely의 마케팅 영상은 더 큰 논란을 일으켰습니다. 이정인이 스마트글라스를 착용하고 데이트 자리에서 AI의 실시간 코칭을 받아 상대방에게 나이와 예술 지식 등을 속이는 장면이 등장한 것입니다. 비록 연출된 광고였지만, 이 영상은 \"AI가 인간관계까지 조작하는 디스토피아적 미래\"에 대한 우려를 증폭시켰습니다.\nReddit, X(트위터), LinkedIn 등 해외 커뮤니티에서는 \"블랙미러 에피소드 같다\", \"21세기 디지털 사기극\"이라는 비판이 쏟아졌고, Morning Brew, Business Insider 등 주요 매체들도 AI 치팅툴이 가져올 신뢰와 진정성의 붕괴를 우려하는 기사를 연이어 보도했습니다.\nCluely is out. cheat on everything. pic.twitter.com/EsRXQaCfUI\n— Roy (@im_roy_lee) April 20, 2025\n \n혁신인가, 위협인가?\nCluely 측은 \"AI는 인간의 경쟁자가 아니라 협업 파트너\"라며, 암기·코딩·리서치 등 반복적 작업은 AI에 맡기고 인간은 더 창의적인 일에 집중해야 한다고 주장합니다. 일부 투자자와 기술 옹호자들도 \"시험·면접 시스템의 구식성과 비효율성\"을 지적하며 변화의 필요성을 강조합니다.\n반면 교육계와 기업들은 \"실력과 신뢰 기반의 사회 시스템이 붕괴될 수 있다\"며 경계심을 늦추지 않고 있습니다. 특히 원격 면접·시험의 신뢰성, AI 활용의 윤리적 경계, 개인정보 보호 등 다양한 문제가 제기되고 있습니다.\nAI 시대, 우리의 선택은?\nCluely 사건은 단순한 기술 논쟁을 넘어, AI가 우리 사회의 근간인 신뢰와 진정성, 공정성에 미치는 영향을 생각하게 합니다. 기술의 발전이 곧 규범의 변화로 이어질지, 아니면 새로운 규제가 등장할지, AI 시대의 공정성과 혁신의 균형은 어떻게 재정립될지 주목할 필요가 있습니다.\n이정인의 말처럼 AI도 결국 계산기나 스펠체크처럼 일상적 도구가 될까요? 아니면 인간의 진정한 역량과 관계를 위협하는 존재가 될까요? AI와 함께하는 미래, 우리는 어떤 기준과 가치를 지켜야 할지 깊은 고민이 필요한 시점입니다.\n참고 출처\nTechCrunch: Columbia student suspended over interview cheating tool raises $5.3M to cheat on everything\nAIM Research: Cluely Helped You Cheat, Truely Knows You Did\nYahoo Finance: Startups launch products to catch people using AI cheating app Cluely\nNDTV: AI Startup That Lets Users Cheat In Exams And Interviews Raises $5.3 Million\neWeek: ‘Cheat on Everything’ AI App Sparks Outrage - And Raises $5.3 Million\nHindustan Times: Suspended from Columbia, student raises $5 million for AI cheating tool\nBusiness Insider: I Tried the AI App That Helps You ‘Cheat’ in Live Conversations\nNBC News: Kicked out of Columbia, this student doesn’t plan to stop trolling big tech with AI tool for job applications",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.gaerae.com/2025/05/columbia-student-suspended-over-interview-cheating-tool.html",
+    "pubDate": "Thu, 08 May 2025 06:08:00 +0000",
+    "creator": "noreply@blogger.com (Unknown)",
+    "categories": [
+      {
+        "_": "news",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "전통적인 세션 ID 기반 인증과 JWT(Json Web Token) 기반 인증 비교",
+    "description": "로그인 세션 관리에서 전통적인 세션 ID 기반 인증과 JWT(Json Web Token) 기반 인증은 가장 많이 사용되는 두 가지 방식입니다. 아래는 이 둘의 차이점과 장단점을 비교한 표입니다: 항목 세션 ID 기반 인증 JWT 기반 인증 인증 방식 서버가 세션 ID를 생성하고 클라이언트에 전달 (주로 쿠키에 저장) 서버가 JWT를 생성하고 클라이언트에 전달 (주로 헤더나 로컬스토리지/쿠키에 저장) 서버 저장소 필요 필요 (서버에 세션 저장) 불필요 (토큰 자체에 정보 포함) 확장성 낮음 (세션 저장소 공유 필요) 높음 (무상태 Stateless 구조) 보안성 세션 탈취 위험, 하지만 서버에서 세션 무효화 가능 탈취 시 만료 전까지 유효, 무효화 어려움 (추가 로직 필요) 토큰 크기 작음 (세션 ID) 큼 (Base64 인코딩된 JSON) 무효화 처리 서버에서 세션 삭제 보통 불가능, 블랙리스트 관리 등 별도 구현 필요 관리 편의성 서버가…",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.lael.be/post/12495",
+    "pubDate": "Fri, 09 May 2025 21:04:35 +0000",
+    "creator": "HYEONG HWAN, MUN",
+    "categories": [
+      "미분류"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Livestream: Plugin Verifier and API Compatibility Maintenance",
+    "description": "Maintaining plugin compatibility across JetBrains IDEs can be tricky — but the Plugin Verifier is here to help. On Wednesday, May 21, at 2:00 PM UTC, join us for a live session with IntelliJ Platform Developer Advocates Róbert Novotný and Yann Cébron, focused on the Plugin Verifier and API compatibility maintenance. During the webinar, you’ll discover how: […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2025/05/livestream-plugin-verifier-and-api-compatibility-maintenance/",
+    "pubDate": "Tue, 13 May 2025 11:09:11 +0000",
+    "creator": "Elena Kerpeleva",
+    "categories": [
+      "plugin-development",
+      "intellij",
+      "livestreams",
+      "marketplace",
+      "busy-plugin-developers",
+      "jetbrains-marketplace",
+      "livestream"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "[PC] Welcome Back Commander, 템페스트 라이징",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2303",
+    "pubDate": "Fri, 09 May 2025 15:15:37 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
   }
 ]
