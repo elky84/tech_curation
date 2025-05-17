@@ -2,37 +2,28 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "개발자의 장애 공유 문화",
-    "description": "카카오에 처음 들어가서 놀랐던 또 한 가지는 장애를 공유하는 문화였습니다.\n작고 큰 장애들이 자주 발생했습니다.\n와, 이 사람들 특이한 사람들이네. 이런 건 살다 살다 처음 보는군.\n장애 공유 글에는 항상 좋아요가 많이 달렸습니다.\n자신의 얼간이 짓을 솔직하게 쓰면 쓸수록 좋아요가 더 많이 달렸습니다.\n원인과 후속 조치, 여전히 가시지 않는 의문점들에 대해 댓글로 논의하기도 했습니다만…\n자신이 발생시킨 장애를 전 직원들에게 공유한다는 것이 절대 쉬운 일이 아닙니다.\n아 오늘도 장애 공유 써야 되네, 젠장. 뭐 일하다 보면 장애 낼 수도 있는 거지.\n카카오에서보다 더 놀랐던 기억도 납니다.\nGitLab 장애.\nrm -rf로 프로덕션 데이터베이스 전체를 날려먹었던가?\n와, 진짜 미친 사람들이 여기 있었구나. 저걸 회사의 다른 동료들이 아무도 뭐라 하지 않는 건가? 아니, 어쩌면 의도적으로 저렇게 공유하기로 한 건가?\n\n함께 읽으면 좋은 글:\n서비스 텐션\n서버 비용을 아끼던 사람들 (feat. 카카오 옛날 이야기)\n카톡 서버 개발의 추억",
+    "title": "DataGrip and Database Tools UX Survey #2",
+    "description": "We’re excited to launch the second edition of our User Experience Survey for DataGrip and the Database Tools & SQL Plugin! Your feedback from the previous survey helped us better understand your needs and prioritize the features and improvements that matter most to you. Thanks to your input, we’ve already delivered a first set of […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/05/15/failure-sharing.html",
-    "pubDate": "2025-05-14T17:30:00.000Z",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/datagrip/2025/05/13/datagrip-and-database-tools-ux-survey-2/",
+    "pubDate": "Tue, 13 May 2025 15:05:14 +0000",
+    "creator": "Dmitry Romanov",
     "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "퍼플렉시티 프롬프트 마스터로 정보 검색 시간 절반으로 줄이기 (무료 E-BOOK 배포)",
-    "description": "\"퍼플렉시티 AI 프롬프트 마스터\" E-BOOK으로 검색의 새 지평을 열고, 원하는 정보를 정확히 찾아내는 프롬프트 작성법의 모든 것을 무료로 배워보세요. 초보자부터 전문가까지 누구나 활용 가능합니다.\n\n\n \n평소 AI 기술과 검색 최적화에 관심이 많았습니다. 특히 퍼플렉시티 AI를 사용하면서 그 잠재력에 놀랐지만, 동시에 이를 제대로 활용하는 방법에 대한 체계적인 안내서가 부족하다는 점이 아쉬웠어요.\n \n수많은 시행착오를 거치며 프롬프트 작성 기술을 연구하고, 다양한 기능들을 탐색하면서 축적된 노하우를 정리해 \"퍼플렉시티 AI 프롬프트 마스터\" E-BOOK을 만들었습니다. 이 지식을 공유함으로써 더 많은 분들이 정보 검색의 효율성을 높이고, 퍼플렉시티 AI의 진정한 가치를 경험하셨으면 하는 바람이 있습니다.\n \nE-BOOK에서 다루는 핵심 내용\n1. 퍼플렉시티 AI의 강력한 기능들\n퍼플렉시티(https://www.perplexity.ai/)는 단순한 검색엔진이 아닙니다. AI 챗봇의 대화 능력과 실시간 검색 엔진의 정보 수집 능력이 결합된 혁신적인 도구죠. 이 E-BOOK에서는 기존 검색 엔진과의 명확한 차이점을 설명하고, 이 차이를 활용하는 방법을 알려드립니다.\n특히 '집중 모드(Focus Modes)'는 검색 경험을 완전히 바꿔놓는 기능입니다. 학술 연구에는 학술 집중 모드, 소셜 미디어 반응 조사에는 레딧이나 소셜 미디어 집중 모드를 활용하면 검색 결과의 질이 확연히 달라집니다.\n2. 명확한 지시와 맥락 제공의 중요성\n프롬프트 작성의 가장 중요한 원칙 중 하나는 명확한 지시와 충분한 맥락 제공입니다. 예를 들어, \"AI에 대해 알려줘\"라고 물으면 너무 광범위해서 유용한 정보를 얻기 어렵죠. 하지만 \"최근 3년간 주목받은 생성형 AI 기술의 주요 발전 사항과, 이러한 기술이 실제 비즈니스 환경에 적용된 구체적인 사례 3가지를 설명해줘\"라고 하면 훨씬 정확하고 유용한 답변을 받을 수 있습니다.\n이 E-BOOK에서는 다양한 예시와 함께 효과적인 프롬프트 작성 원칙을 단계별로 설명합니다.\n3. 출력 형식 지정으로 정보 활용도 높이기\n정보를 어떤 형태로 받고 싶은지 명시하는 것도 중요합니다. 표, 목록, 단계별 지침, 코드 블록 등 원하는 형식을 지정하면 답변의 가독성과 활용도가 크게 높아집니다. 비즈니스 보고서 작성이나 데이터 분석, 프로젝트 기획 등에서 이 기술이 특히 유용합니다.\n4. 실전 프롬프트 템플릿 50가지\n이 E-BOOK의 핵심은 다양한 상황별 프롬프트 템플릿 50개입니다. 일상생활, 학습 및 연구, 업무 및 비즈니스, 콘텐츠 제작, 기술 및 코딩, 여행, 건강 등 분야별로 즉시 활용 가능한 프롬프트 예시를 제공합니다.\n각 템플릿은 실제 사용 환경에서 테스트되었으며, 필요에 따라 수정하여 사용할 수 있도록 설계되었습니다.\n \n퍼플렉시티 AI의 고급 기능 활용\nE-BOOK에서 특별히 강조하는 부분은 퍼플렉시티의 고급 기능들입니다. '스페이스(Spaces)'와 '컬렉션(Collections)' 기능을 활용하면 정보 탐색과 지식 관리의 효율성이 크게 향상됩니다.\n \n'스페이스'는 특정 주제나 프로젝트에 대한 맞춤형 작업 공간을 생성하고, 관련 대화와 자료를 한 곳에 모아 관리할 수 있게 해줍니다. 예를 들어, 연구 프로젝트를 위한 전용 스페이스를 만들고 맞춤형 지침을 설정하면, 해당 주제에 특화된 정보 검색 환경을 구축할 수 있습니다.\n \n'컬렉션' 기능은 유용한 대화나 검색 결과를 주제별로 저장하고 분류하여, 필요할 때 쉽게 찾아볼 수 있게 해줍니다. 이는 지속적인 학습이나 장기 프로젝트에 특히 유용합니다.\n \n프롬프트 최적화와 테스트 방법\n효과적인 프롬프트 작성은 한 번에 완성되지 않습니다. 이 E-BOOK에서는 프롬프트를 체계적으로 테스트하고 최적화하는 방법을 상세히 안내합니다.\n \n기본적인 프롬프트로 시작하여, 결과를 분석하고, 한 번에 한두 가지 요소만 변경하며 테스트하는 접근법을 제안합니다. 또한 \"나쁜\" 결과로부터 배우는 방법도 설명합니다. 기대에 미치지 못하는 답변이 나왔을 때, 그 원인을 분석하고 프롬프트를 개선하는 과정이 실력 향상의 열쇠입니다.\n \n이 E-BOOK이 필요한 분들\n퍼플렉시티 AI를 처음 접하는 초보자부터 이미 사용 중인 중급자까지\n학술 연구나 논문 작성 시 효율적으로 자료를 찾고 싶은 학생과 연구자\n비즈니스 보고서, 시장 분석, 경쟁사 조사를 해야 하는 비즈니스 전문가\n블로그 글, 소설, 시나리오 등 창의적 콘텐츠를 만드는 크리에이터\n코딩, 개발, 기술 문서 작성 등에 도움이 필요한 개발자와 엔지니어\n일상에서 시간을 절약하고 더 정확한 정보를 얻고 싶은 모든 분들\n \nE-BOOK을 만들며 느낀 점\n이 E-BOOK을 작성하면서 가장 흥미로웠던 점은 퍼플렉시티 AI의 무한한 가능성을 발견하는 과정이었습니다. 단순한 검색 도구를 넘어, 제대로 활용하면 지식 탐색과 창출의 강력한 동반자가 될 수 있음을 경험했습니다.\n특히 프롬프트 작성 기술이 발전함에 따라 받는 정보의 질이 비약적으로 향상되는 것을 보며, 이 지식을 더 많은 분들과 공유하고 싶다는 생각이 강해졌습니다. 정보의 홍수 속에서 필요한 정보를 정확히 찾아내는 능력은 현대 사회에서 가장 중요한 스킬 중 하나이기 때문입니다.\n \n무료로 만나보세요\n이 E-BOOK을 통해 퍼플렉시티 AI의 잠재력을 최대한 활용하는 방법을 배우시고, 더 효율적으로 정보를 찾고, 시간을 절약하며, 더 나은 결과물을 만들어내시길 바랍니다.\n \n정보 검색의 패러다임을 바꿀 준비가 되셨나요? 이 E-BOOK과 함께 퍼플렉시티 AI를 마스터하고, 정보의 바다를 더 스마트하게 항해해보세요!\n \n[WEB 버전]\n\n \nAI Prompt Engineering Guide\nLearn AI prompt engineering with this comprehensive guide and examples.\ne6jn2uzdvs.app.youware.com\n\n \n[PDF 버전]\n\n    \n\n    \n퍼플렉시티 AI 프롬프트 마스터.pdf\n3.86MB\n\n\n \n\n\n\nFAQ\nQ: 퍼플렉시티 AI란 정확히 무엇인가요?\nA: 퍼플렉시티 AI는 단순한 검색 엔진을 넘어 사용자의 질문 의도를 깊이 이해하고 실시간으로 웹을 검색해 관련성 높은 정보를 제공하는 지능형 답변 엔진입니다. AI 챗봇의 대화 능력과 검색 엔진의 정보 수집 능력이 결합되어 정보를 소비하고 활용하는 방식을 근본적으로 변화시킵니다.\nQ: 이 E-BOOK은 초보자도 이해할 수 있나요?\nA: 네, 퍼플렉시티 AI의 기본 개념부터 시작하여 고급 테크닉까지 단계적으로 설명하고 있어 누구나 쉽게 따라할 수 있습니다. 명확한 예시와 실전 템플릿이 포함되어 있어 바로 활용할 수 있습니다.\nQ: 실제 업무에 바로 적용할 수 있는 내용인가요?\nA: 네, 학술 연구, 비즈니스 분석, 콘텐츠 제작, 코딩 등 다양한 분야의 실전 템플릿이 50개 포함되어 있습니다. 각 템플릿은 실제 사용 환경에서 테스트되었으며, 필요에 따라 수정하여 바로 활용할 수 있습니다.\nQ: 무료 배포는 언제까지인가요?\nA: 현재 한정된 기간 동안 무료로 제공하고 있습니다. 퍼플렉시티 AI 활용법을 더 많은 분들과 공유하기 위한 목적으로, 향후에는 유료로 전환될 수 있으니 서둘러 다운로드하시는 것이 좋습니다.\nQ: 퍼플렉시티 AI 외에 다른 AI 도구에도 적용 가능한가요?\nA: 기본적인 프롬프트 작성 원칙은 ChatGPT, Bard 등 다른 AI 도구에도 적용 가능합니다. 그러나 이 E-BOOK은 특별히 퍼플렉시티 AI의 고유 기능(집중 모드, 스페이스, 컬렉션 등)을 활용하는 방법에 중점을 두고 있습니다.\n \n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"퍼플렉시티 AI란 정확히 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"퍼플렉시티 AI는 단순한 검색 엔진을 넘어 사용자의 질문 의도를 깊이 이해하고 실시간으로 웹을 검색해 관련성 높은 정보를 제공하는 지능형 답변 엔진입니다. AI 챗봇의 대화 능력과 검색 엔진의 정보 수집 능력이 결합되어 정보를 소비하고 활용하는 방식을 근본적으로 변화시킵니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"이 가이드는 초보자도 이해할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 퍼플렉시티 AI의 기본 개념부터 시작하여 고급 테크닉까지 단계적으로 설명하고 있어 누구나 쉽게 따라할 수 있습니다. 명확한 예시와 실전 템플릿이 포함되어 있어 바로 활용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"실제 업무에 바로 적용할 수 있는 내용인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 학술 연구, 비즈니스 분석, 콘텐츠 제작, 코딩 등 다양한 분야의 실전 템플릿이 50개 포함되어 있습니다. 각 템플릿은 실제 사용 환경에서 테스트되었으며, 필요에 따라 수정하여 바로 활용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"무료 배포는 언제까지인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 한정된 기간 동안 무료로 제공하고 있습니다. 퍼플렉시티 AI 활용법을 더 많은 분들과 공유하기 위한 목적으로, 향후에는 유료로 전환될 수 있으니 서둘러 다운로드하시는 것이 좋습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"퍼플렉시티 AI 외에 다른 AI 도구에도 적용 가능한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"기본적인 프롬프트 작성 원칙은 ChatGPT, Bard 등 다른 AI 도구에도 적용 가능합니다. 그러나 이 가이드는 특별히 퍼플렉시티 AI의 고유 기능(집중 모드, 스페이스, 컬렉션 등)을 활용하는 방법에 중점을 두고 있습니다.\"\n      }\n    }\n  ]\n}",
+    "title": "Introducing Pyrefly: A new type checker and IDE experience for Python",
+    "description": "Today we are announcing an alpha version of Pyrefly, an open source Python type checker and IDE extension crafted in Rust. Pyrefly is a static type checker that analyzes Python code to ensure type consistency and help you catch errors throughout your codebase before your code runs. It also supports IDE integration and CLI usage [...]\nRead More...\nThe post Introducing Pyrefly: A new type checker and IDE experience for Python appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483585",
-    "pubDate": "Thu, 15 May 2025 15:18:31 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://engineering.fb.com/2025/05/15/developer-tools/introducing-pyrefly-a-new-type-checker-and-ide-experience-for-python/",
+    "pubDate": "Thu, 15 May 2025 18:30:08 +0000",
+    "creator": "Unknown",
     "categories": [
-      "AI, 미래기술/AI 검색 및 리서치 도구",
-      "ai 활용 e-book",
-      "검색 효율 향상",
-      "무료 전자책",
-      "정보 검색 최적화",
-      "지능형 검색 도구",
-      "퍼플렉시티 ai",
-      "퍼플렉시티 고급 기능",
-      "프롬프트 작성법",
-      "프롬프트 최적화",
-      "효율적 검색 기법"
+      "DevInfra",
+      "Open Source"
     ]
   },
   {
@@ -56,142 +47,6 @@
   {
     "id": 4,
     "imageUrl": "",
-    "title": "CLion and the Open-Source Community: Growing Together",
-    "description": "From the beginning, CLion has been shaped by the needs of C and C++ developers around the world. Our cross-platform IDE was built to simplify development, boost productivity, and make working with C++ more enjoyable. We’re excited to take the next step in our ongoing collaboration with the community: CLion is now free for non-commercial […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2025/05/14/clion-and-the-open-source-community-growing-together/",
-    "pubDate": "Wed, 14 May 2025 10:00:00 +0000",
-    "creator": "Lena Morozova",
-    "categories": [
-      "community",
-      "clion",
-      "community-support",
-      "open-source-program",
-      "oss-projects"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Splunk의 날짜 계산",
-    "description": "최근 30일 데이터의 주간 단위 발생 통계. '월~일요일' 단위 집계 결과를 보여준다.\n\n\n\n\n4월 데이터의 주간 단위 발생 통계. '화~월요일' 단위 집계 결과.\n\n\n\n\n주간 단위 집계 범위가 달라지는 이유는 선택 범위에 따라 시작일이 달라지니까. 원하는 범위가 '월~일요일'이라면 시작일을 월요일로 지정하면 된다. 디폴트는 일요일(w0).\n\n\n\n\n주간 단위 변화를 좀 더 세밀하게 보고 싶다면? \n\n\nrelative_time 함수를 이용하면 특정일을 기준으로 원하는 날짜를 계산할 수 있다.\n\n\n\n\n집계 분할 기준으로 사용할 날짜별 주간 범위(월~일요일) 필드 추가.\n\n\n\n\n\n관련 글\n\nSplunk의 unix time",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/05/splunk.html",
-    "pubDate": "2025-05-14T13:56:00.003Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "MPS 2025.1 Is Out!",
-    "description": "MPS 2025.1 allows the build language to serve as a target for code generation. This version also introduces visual and performance enhancements to the Project tool window’s Logical view, several useful improvements to the UI, and numerous platform updates. DOWNLOAD MPS 2025.1 What’s new Let’s check out all the new features waiting for you in […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/mps/2025/05/mps-2025-1-is-out/",
-    "pubDate": "Wed, 14 May 2025 11:55:25 +0000",
-    "creator": "Vaclav Pech",
-    "categories": [
-      "releases",
-      "release"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "[PC] Welcome Back Commander, 템페스트 라이징",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2303",
-    "pubDate": "Fri, 09 May 2025 15:15:37 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 2화, 면접 시작인데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2305",
-    "pubDate": "Wed, 14 May 2025 16:48:41 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "이커머스와 홈쇼핑이 선택한 커머스 AI 솔루션 ‘에이플러스AI’: 버즈니 남상협 대표 인터뷰",
-    "description": "이승환: 자기소개 부탁드립니다. 남상협: 버즈니 대표 남상협입니다. 여러 홈쇼핑을 한데 모아 보는 앱 ‘홈쇼핑모아’를 운영하고 있고요. 이를 운영하며 쌓아온 여러 커머스AI 기술을 B2B로 보급하고 있습니다. 바로 ‘에이플러스AI’라는 버즈니의 신규 AI 비즈니스인데요. 현재 론칭 1년 만에 CJ온스타일 등 홈쇼핑 및 주요 이커머스사 10곳에 커머스AI 기술 공급 계약을 체결했습니다. AI 비즈니스 부문은 작년에 10배 정도 성장했고, 올해도 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://ppss.kr/archives/269388",
-    "pubDate": "Thu, 15 May 2025 02:00:20 +0000",
-    "creator": "리승환",
-    "categories": [
-      "IT",
-      "마케팅",
-      "스타트업",
-      "인터뷰"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "NerdQaxe++ 나왔습니다. / 4.8TH 60Wh 80만원정도 / 전작대비 25%  가성비 향상",
-    "description": "4.8TH / 60Wh / 489 유로\n가격은 80만원 정도 입니다.\n \n참고로 전작인 NerdQaxe+\n2.4TH / 30W / 299 유로\n\n관세 때문에 적힌 가격보다 비싸게 사야할꺼 같긴합니다.\nNerdQaxe+ 성능당 가격은 299 유로 / 2.4TH = 125\nNerdQaxe++ 성능당 가격은 489 유로 / 4.8TH = 100\n가성비는 20~25% 정도 좋아졌습니다.\n좋은 제품이라고 봐야겠군요.\n \n소핑몰 링크: https://mineshop.eu/nerdqaxe-asic-miner-48ths-home-bitcoin-miner\n\n\n \n아직 구입할 생각은 아니구요\n중국산 1TH 짜리가 10만원이라고 하니 그걸 먼저 사볼 생각입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1315",
-    "pubDate": "Mon, 12 May 2025 16:46:52 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "코인",
-      "bitaxe",
-      "비트액스",
-      "채굴기"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Open-sourcing Pyrefly: A faster Python type checker written in Rust",
-    "description": "Back in 2017, engineers at Meta sought to create a type checker for Instagram’s typed Python codebase. Years later, as the type system continued to evolve, that type checker eventually became Pyrefly.  Pyrefly is a new type checker and IDE experience for Python, written with Rust, and now available for the entire Python community to [...]\nRead More...\nThe post Open-sourcing Pyrefly: A faster Python type checker written in Rust appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/05/15/developer-tools/open-sourcing-pyrefly-a-faster-python-type-checker-written-in-rust/",
-    "pubDate": "Thu, 15 May 2025 18:30:33 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Culture",
-      "DevInfra",
-      "Open Source",
-      "Meta Tech Podcast"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Splunk의 unix time",
-    "description": "audit.log 연동. 소스타입 선택과 관계 없이 unix time을 잘 인식한다.\n\n\n\n\n\n연동 결과. 나머지 필드 추출도 완벽.\n\n\n\n\nprops.conf에 필드 추출 유형이 정의되어 있지 않음에도 문제가 없는 이유는 원본 데이터가 key=value 구조이기 때문.\n\n\n\n\n혹시 필드 추출에 문제가 있다면 props.conf의 KV_MODE 옵션을 살펴보자.\n\n\n\n\n참고로 unix time 수동 변환은 이렇게.\n\n\n\n\n\n관련 글\n\nSplunk의 날짜 계산",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/05/splunk-unix-time.html",
-    "pubDate": "2025-05-11T05:06:00.001Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
     "title": "클린 코더스",
     "description": "그 시절의 취준생이라면 대부분 그렇겠지만 네이버, DAUM 2개 회사를 너무 입사하고 싶었다.\n두 회사에 인턴을 한 컴공과 친구 (난 컴공과가 아니여서 친구의 친구를 통해 찾아갔지만) 가 있으면 \"인턴해보니 어떠냐\" 와 같은 질문을 하고 인턴 경험을 들으면서 대리 만족 하고,\n괜히 서울 갈 일이 있으면 목적지에서 2시간 거리여도 일단은 두 회사의 사옥 구경도 하고, 주변 산책도 하면서 여기에서 근무한다는건 어떤 기분일까 같은 상상을 하기도 했다.\n취업을 하고 커리어를 쌓아나가면서 두 회사가 업계 전체에 뿌린 기술적 씨앗들이 얼마나 컸는지 새삼 느끼게 되었다.\n선배 개발자분들과 기술적인 이야기를 할 수 있는 기회가 상대적으로 적었던 입장에서 네이버와 DAUM 의 기술 공유는 두 회사에 대한 동경을 키웠다.\n특히 DAUM의 수많은 개발자분들을 대상으로 2개월간 진행된 사내 교육인 백명석 님의 클린 코더스가 무료로 유튜브에 공유되고나서 정말 반복해서 시청했다.\n(요즘의 엉클밥에 대한 평가는 아쉽지만)\n당시 클린 코드 책을 보고 난 뒤 뒤라서 명석님의 클린 코더스 유튜브 영상들은 2번 3번씩 봐야할 내용들로 가득찬 느낌이였다.\n\"세상에 이런 교육을 사내에서, 무료로, 직접 받아볼 수 있다니?\"\n\"저런 내용의 교육이 도대체 사내에서 얼마나 많이, 자주 공유되고 있을까?\"\n\"외부에 공개되지 못하는 사내 교육도 있을텐데 거기선 또 어떤 내용들이 공유되고 있을까?\"\n\"교육을 해주시는 명석님과 같은 분들과 같이 일한다는건 어떤걸까?\"\n등등\n두 회사에 대한 동경이 더 커졌다.\n이후에 다른 책들, 실제 업무에서 얻은 경험들을 통해 스스로 어떻게 코드를 작성해야할지 갈무리해나가면서도 종종 명석님의 영상들을 다시 보면서 그 감각을 잃지 않으려고 했다.\n신입으로 입사하시는 개발자분들에게 항상 명석님의 클린 코더스 영상들은 꼭 보라고, 첫 PR 보내기 전에 클린 코더스는 먼저 꼭 보라는 이야기를 항상 했다.\n재밌던 것은 이후에 배민 입사하고나서 친해지신 분들과 대화하다보니깐 클린 코더스 영상들을 다들 보셨다는거다.\n어떤 분들은 3번 보니깐 코드가 아예 달라졌다는 이야기도 하면서 말이다.\n(물론 배민 전체가 그런건 아니라, 대화를 자주 나누는 분들에 한했지만)\n지금의 조직에 합류하고 나서도 개발팀에는 클린 코더스 영상을 가능하면 시간 내서 꼭 1회독 하라고 이야기 드린다.\n이미 11년 넘게 지난 내용들이라 안맞는 부분이 있기도 하겠지만,\n여전히 지금 봐도 좋은 내용들이 가득하기 때문이다.\n\n\n다만, 너무 오래전 영상들이라 화질이 조금 아쉽다.\n480p 화질의 영상들이라 요즘의 고해상도 환경에서는 명석님께서 작성하시는 코드 내용이나 텍스트들이 깨지거나 흐릿하게 보여서 시청하기에 조금 어려움이 있다.  \n그래서 우리 팀원들이 학습하는데 방해되는 요소가 없도록, 다른 주니어 개발자분들이 보시는데도 불편함이 없도록 하기 위해 백명석님께 허락을 받아 사내에서 자체적으로 구축한 AI 기반 영상 업스케일링 파이프라인을 통해 명석님의 클린 코더스 영상들을 1080p 해상도로 업스케일링해서 무료로 강의를 런칭하였다.\n그간의 커리어를 쌓아오면서 나를 채워주었던 많은 학습 자료들은 지금 커리어를 시작하시는 분들이 봐도 좋을 것들이 많다.\n이런 학습 자료는 계속해서 인프런에서 부활 시켜서 오래오래 사랑받도록, 성장을 가속화 할 수 있도록 도움을 주고 싶다.",
     "reviews": [],
@@ -212,30 +67,171 @@
     ]
   },
   {
-    "id": 14,
+    "id": 5,
     "imageUrl": "",
-    "title": "MLB를 살리러 온 구원자, 이정후와 오타니",
-    "description": "메이저리그의 캐시카우로 떠오른 한국과 일본",
+    "title": "Is Rust the Future of Programming?",
+    "description": "Rust is rewriting the rules of modern software development as the fastest-growing programming language. Its unmatched performance, memory safety without garbage collection, and concurrency capabilities are capturing developers’ attention worldwide. According to our data, with 2,267,000 developers using Rust in the last 12 months and 709,000 identifying it as a primary language, Rust’s footprint in […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/moneyball-2",
-    "pubDate": "Fri, 09 May 2025 04:35:00 GMT",
+    "link": "https://blog.jetbrains.com/rust/2025/05/13/is-rust-the-future-of-programming/",
+    "pubDate": "Tue, 13 May 2025 12:15:19 +0000",
+    "creator": "Tatiana Parshutkina",
+    "categories": [
+      "news",
+      "rust"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "2025-05-16 (금) 개발일지",
+    "description": "1. 앨릭서 시작\n영상과 버전이 달라서 명령어가 이상하게 동작했다.\n큰일이다.\n \n영상: https://www.youtube.com/watch?v=IiIgm_yaoOA&t=1578s\n\n\n\n영상의; 상황\n\n\n내 상태\n$ elixir -v \nErlang/OTP 27 [erts-15.2.7] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [jit:ns] \nElixir 1.18.3 (compiled with Erlang/OTP 25)\n \n설치 페이지에서 제공되는 버전\n설치페이지: https://elixir-lang.org/install.html#windows\n\n\niex 하면 프로그램가능한 상태가 되어야하는데 나는 추가 명령어를 오청받고 있다.\n컴터 재부팅하니 영상처럼 프로그램 가능한 상태로 돌아왔다.\n다행이다.\n \n \n \n \n2. 비트액스 홈페이지 개선\n기기별 가성비 추천을 해주려는데 아직은 보기 불편하다.\n해시레이트 / 소비전력 => 성능\n성능 / 가격 => 가성비\n이런식으로 표시해야겠다.\n가격이 중요하니 유저들보고 가격 넣으라고 하면 좋을꺼 같다.\n수정전 \n\n\n화면엔 안보이지만  가로로 스크롤도 표시되고 잇다.\n화면크기보다 큰 페이지가 표시되는거 같다.\n \n고친 후\n\n\n왜이케 비였냐...\n이상한 가로 스크롤 자꾸 생겨서 보기 안좋았다.\n페이지 시작할때 이거 두개를 넣어줘서 해결했는데 모든 사이트에 적용해야겠다.\n\n\n \n \n3. apps 의 모바일 표시가 이상하다.\n\n\n위에 비트액스랑 동일한 문제인데.\n같이 수정해줘야겠다.\n수정후:\n결과 페이지: https://apps.sidnft.com/\n \n수정후 영상: https://youtu.be/z5BdUTrJC8w\n\n\n\n1. 좌우 스크롤을 제거함 (화면 크기보다 큰 무언가가 있어서 제거했음)\n2. 모바일 해상도 대응\n완성도좀 높이자!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1323",
+    "pubDate": "Fri, 16 May 2025 12:46:59 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "개발일지"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Try Declarative Gradle EAP3 in IntelliJ IDEA",
+    "description": "The Declarative Gradle project, aimed at making Gradle build scripts easier to read and use, is at full steam. Last month, EAP3 landed, bringing testing support and more DCL language features, like lists and files. Read the Gradle blog post to learn more about what the EAP, and Declarative Gradle in general, brings you. Like […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/05/try-declarative-gradle-eap3-in-intellij-idea/",
+    "pubDate": "Wed, 14 May 2025 08:17:46 +0000",
+    "creator": "Dmitriy Smirnov",
+    "categories": [
+      "news",
+      "declarative-gradle",
+      "gradle",
+      "intellij-idea"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "구글의 코딩 규칙",
+    "description": "영상: https://www.youtube.com/watch?v=nmqJ_4tyw94&t=6s\n\n\n\n \n규칙에 맞는 합당한 이유가 있기 때문에 알아두시면 좋습니다.\n이렇게 큰기업은 보통 개발영역이\n라이브러리 쪽과\n프로그램 쪽으로 나뉘는데요\n \n라이브러리 개발할때의 입장을 잘 설명하고 있습니다.\n프로그램 개발자는 규칙에 덜 억메여도 되지만\n라이브러리 개발자는 다른 개발자에게 제공을 해야하는 입장이라 정확한 규칙에 의해 제공하면 좋습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1319",
+    "pubDate": "Wed, 14 May 2025 13:27:30 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "구글",
+      "코딩"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "자립준비청년 3인에게 토스증권 인턴십은 어떤 의미였을까?",
+    "description": "누군가에겐 첫 도전, 누군가에겐 나침반이 되어준 시간",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/securities-internship-interview",
+    "pubDate": "Wed, 14 May 2025 10:25:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "연 최대 30만 원, 경차라면 기름값 지원받아요: 경차 유류세 환급 제도",
+    "description": "유류구매카드 발급받으면 기름 넣는 즉시 환급받을 수 있어요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/money-policies-42",
+    "pubDate": "Thu, 15 May 2025 06:01:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "이커머스와 홈쇼핑이 선택한 커머스 AI 솔루션 ‘에이플러스AI’: 버즈니 남상협 대표 인터뷰",
+    "description": "이승환: 자기소개 부탁드립니다. 남상협: 버즈니 대표 남상협입니다. 여러 홈쇼핑을 한데 모아 보는 앱 ‘홈쇼핑모아’를 운영하고 있고요. 이를 운영하며 쌓아온 여러 커머스AI 기술을 B2B로 보급하고 있습니다. 바로 ‘에이플러스AI’라는 버즈니의 신규 AI 비즈니스인데요. 현재 론칭 1년 만에 CJ온스타일 등 홈쇼핑 및 주요 이커머스사 10곳에 커머스AI 기술 공급 계약을 체결했습니다. AI 비즈니스 부문은 작년에 10배 정도 성장했고, 올해도 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://ppss.kr/archives/269388",
+    "pubDate": "Thu, 15 May 2025 02:00:20 +0000",
+    "creator": "리승환",
+    "categories": [
+      "IT",
+      "마케팅",
+      "스타트업",
+      "인터뷰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "퍼플렉시티 프롬프트 마스터로 정보 검색 시간 절반으로 줄이기 (무료 E-BOOK 배포)",
+    "description": "\"퍼플렉시티 AI 프롬프트 마스터\" E-BOOK으로 검색의 새 지평을 열고, 원하는 정보를 정확히 찾아내는 프롬프트 작성법의 모든 것을 무료로 배워보세요. 초보자부터 전문가까지 누구나 활용 가능합니다.\n\n\n \n평소 AI 기술과 검색 최적화에 관심이 많았습니다. 특히 퍼플렉시티 AI를 사용하면서 그 잠재력에 놀랐지만, 동시에 이를 제대로 활용하는 방법에 대한 체계적인 안내서가 부족하다는 점이 아쉬웠어요.\n \n수많은 시행착오를 거치며 프롬프트 작성 기술을 연구하고, 다양한 기능들을 탐색하면서 축적된 노하우를 정리해 \"퍼플렉시티 AI 프롬프트 마스터\" E-BOOK을 만들었습니다. 이 지식을 공유함으로써 더 많은 분들이 정보 검색의 효율성을 높이고, 퍼플렉시티 AI의 진정한 가치를 경험하셨으면 하는 바람이 있습니다.\n \nE-BOOK에서 다루는 핵심 내용\n1. 퍼플렉시티 AI의 강력한 기능들\n퍼플렉시티(https://www.perplexity.ai/)는 단순한 검색엔진이 아닙니다. AI 챗봇의 대화 능력과 실시간 검색 엔진의 정보 수집 능력이 결합된 혁신적인 도구죠. 이 E-BOOK에서는 기존 검색 엔진과의 명확한 차이점을 설명하고, 이 차이를 활용하는 방법을 알려드립니다.\n특히 '집중 모드(Focus Modes)'는 검색 경험을 완전히 바꿔놓는 기능입니다. 학술 연구에는 학술 집중 모드, 소셜 미디어 반응 조사에는 레딧이나 소셜 미디어 집중 모드를 활용하면 검색 결과의 질이 확연히 달라집니다.\n2. 명확한 지시와 맥락 제공의 중요성\n프롬프트 작성의 가장 중요한 원칙 중 하나는 명확한 지시와 충분한 맥락 제공입니다. 예를 들어, \"AI에 대해 알려줘\"라고 물으면 너무 광범위해서 유용한 정보를 얻기 어렵죠. 하지만 \"최근 3년간 주목받은 생성형 AI 기술의 주요 발전 사항과, 이러한 기술이 실제 비즈니스 환경에 적용된 구체적인 사례 3가지를 설명해줘\"라고 하면 훨씬 정확하고 유용한 답변을 받을 수 있습니다.\n이 E-BOOK에서는 다양한 예시와 함께 효과적인 프롬프트 작성 원칙을 단계별로 설명합니다.\n3. 출력 형식 지정으로 정보 활용도 높이기\n정보를 어떤 형태로 받고 싶은지 명시하는 것도 중요합니다. 표, 목록, 단계별 지침, 코드 블록 등 원하는 형식을 지정하면 답변의 가독성과 활용도가 크게 높아집니다. 비즈니스 보고서 작성이나 데이터 분석, 프로젝트 기획 등에서 이 기술이 특히 유용합니다.\n4. 실전 프롬프트 템플릿 50가지\n이 E-BOOK의 핵심은 다양한 상황별 프롬프트 템플릿 50개입니다. 일상생활, 학습 및 연구, 업무 및 비즈니스, 콘텐츠 제작, 기술 및 코딩, 여행, 건강 등 분야별로 즉시 활용 가능한 프롬프트 예시를 제공합니다.\n각 템플릿은 실제 사용 환경에서 테스트되었으며, 필요에 따라 수정하여 사용할 수 있도록 설계되었습니다.\n \n퍼플렉시티 AI의 고급 기능 활용\nE-BOOK에서 특별히 강조하는 부분은 퍼플렉시티의 고급 기능들입니다. '스페이스(Spaces)'와 '컬렉션(Collections)' 기능을 활용하면 정보 탐색과 지식 관리의 효율성이 크게 향상됩니다.\n \n'스페이스'는 특정 주제나 프로젝트에 대한 맞춤형 작업 공간을 생성하고, 관련 대화와 자료를 한 곳에 모아 관리할 수 있게 해줍니다. 예를 들어, 연구 프로젝트를 위한 전용 스페이스를 만들고 맞춤형 지침을 설정하면, 해당 주제에 특화된 정보 검색 환경을 구축할 수 있습니다.\n \n'컬렉션' 기능은 유용한 대화나 검색 결과를 주제별로 저장하고 분류하여, 필요할 때 쉽게 찾아볼 수 있게 해줍니다. 이는 지속적인 학습이나 장기 프로젝트에 특히 유용합니다.\n \n프롬프트 최적화와 테스트 방법\n효과적인 프롬프트 작성은 한 번에 완성되지 않습니다. 이 E-BOOK에서는 프롬프트를 체계적으로 테스트하고 최적화하는 방법을 상세히 안내합니다.\n \n기본적인 프롬프트로 시작하여, 결과를 분석하고, 한 번에 한두 가지 요소만 변경하며 테스트하는 접근법을 제안합니다. 또한 \"나쁜\" 결과로부터 배우는 방법도 설명합니다. 기대에 미치지 못하는 답변이 나왔을 때, 그 원인을 분석하고 프롬프트를 개선하는 과정이 실력 향상의 열쇠입니다.\n \n이 E-BOOK이 필요한 분들\n퍼플렉시티 AI를 처음 접하는 초보자부터 이미 사용 중인 중급자까지\n학술 연구나 논문 작성 시 효율적으로 자료를 찾고 싶은 학생과 연구자\n비즈니스 보고서, 시장 분석, 경쟁사 조사를 해야 하는 비즈니스 전문가\n블로그 글, 소설, 시나리오 등 창의적 콘텐츠를 만드는 크리에이터\n코딩, 개발, 기술 문서 작성 등에 도움이 필요한 개발자와 엔지니어\n일상에서 시간을 절약하고 더 정확한 정보를 얻고 싶은 모든 분들\n \nE-BOOK을 만들며 느낀 점\n이 E-BOOK을 작성하면서 가장 흥미로웠던 점은 퍼플렉시티 AI의 무한한 가능성을 발견하는 과정이었습니다. 단순한 검색 도구를 넘어, 제대로 활용하면 지식 탐색과 창출의 강력한 동반자가 될 수 있음을 경험했습니다.\n특히 프롬프트 작성 기술이 발전함에 따라 받는 정보의 질이 비약적으로 향상되는 것을 보며, 이 지식을 더 많은 분들과 공유하고 싶다는 생각이 강해졌습니다. 정보의 홍수 속에서 필요한 정보를 정확히 찾아내는 능력은 현대 사회에서 가장 중요한 스킬 중 하나이기 때문입니다.\n \n무료로 만나보세요\n이 E-BOOK을 통해 퍼플렉시티 AI의 잠재력을 최대한 활용하는 방법을 배우시고, 더 효율적으로 정보를 찾고, 시간을 절약하며, 더 나은 결과물을 만들어내시길 바랍니다.\n \n정보 검색의 패러다임을 바꿀 준비가 되셨나요? 이 E-BOOK과 함께 퍼플렉시티 AI를 마스터하고, 정보의 바다를 더 스마트하게 항해해보세요!\n \n[WEB 버전]\n\n \nAI Prompt Engineering Guide\nLearn AI prompt engineering with this comprehensive guide and examples.\ne6jn2uzdvs.app.youware.com\n\n \n[PDF 버전]\n\n    \n\n    \n퍼플렉시티 AI 프롬프트 마스터.pdf\n3.86MB\n\n\n \n\n\n\nFAQ\nQ: 퍼플렉시티 AI란 정확히 무엇인가요?\nA: 퍼플렉시티 AI는 단순한 검색 엔진을 넘어 사용자의 질문 의도를 깊이 이해하고 실시간으로 웹을 검색해 관련성 높은 정보를 제공하는 지능형 답변 엔진입니다. AI 챗봇의 대화 능력과 검색 엔진의 정보 수집 능력이 결합되어 정보를 소비하고 활용하는 방식을 근본적으로 변화시킵니다.\nQ: 이 E-BOOK은 초보자도 이해할 수 있나요?\nA: 네, 퍼플렉시티 AI의 기본 개념부터 시작하여 고급 테크닉까지 단계적으로 설명하고 있어 누구나 쉽게 따라할 수 있습니다. 명확한 예시와 실전 템플릿이 포함되어 있어 바로 활용할 수 있습니다.\nQ: 실제 업무에 바로 적용할 수 있는 내용인가요?\nA: 네, 학술 연구, 비즈니스 분석, 콘텐츠 제작, 코딩 등 다양한 분야의 실전 템플릿이 50개 포함되어 있습니다. 각 템플릿은 실제 사용 환경에서 테스트되었으며, 필요에 따라 수정하여 바로 활용할 수 있습니다.\nQ: 무료 배포는 언제까지인가요?\nA: 현재 한정된 기간 동안 무료로 제공하고 있습니다. 퍼플렉시티 AI 활용법을 더 많은 분들과 공유하기 위한 목적으로, 향후에는 유료로 전환될 수 있으니 서둘러 다운로드하시는 것이 좋습니다.\nQ: 퍼플렉시티 AI 외에 다른 AI 도구에도 적용 가능한가요?\nA: 기본적인 프롬프트 작성 원칙은 ChatGPT, Bard 등 다른 AI 도구에도 적용 가능합니다. 그러나 이 E-BOOK은 특별히 퍼플렉시티 AI의 고유 기능(집중 모드, 스페이스, 컬렉션 등)을 활용하는 방법에 중점을 두고 있습니다.\n \n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"퍼플렉시티 AI란 정확히 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"퍼플렉시티 AI는 단순한 검색 엔진을 넘어 사용자의 질문 의도를 깊이 이해하고 실시간으로 웹을 검색해 관련성 높은 정보를 제공하는 지능형 답변 엔진입니다. AI 챗봇의 대화 능력과 검색 엔진의 정보 수집 능력이 결합되어 정보를 소비하고 활용하는 방식을 근본적으로 변화시킵니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"이 가이드는 초보자도 이해할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 퍼플렉시티 AI의 기본 개념부터 시작하여 고급 테크닉까지 단계적으로 설명하고 있어 누구나 쉽게 따라할 수 있습니다. 명확한 예시와 실전 템플릿이 포함되어 있어 바로 활용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"실제 업무에 바로 적용할 수 있는 내용인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 학술 연구, 비즈니스 분석, 콘텐츠 제작, 코딩 등 다양한 분야의 실전 템플릿이 50개 포함되어 있습니다. 각 템플릿은 실제 사용 환경에서 테스트되었으며, 필요에 따라 수정하여 바로 활용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"무료 배포는 언제까지인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 한정된 기간 동안 무료로 제공하고 있습니다. 퍼플렉시티 AI 활용법을 더 많은 분들과 공유하기 위한 목적으로, 향후에는 유료로 전환될 수 있으니 서둘러 다운로드하시는 것이 좋습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"퍼플렉시티 AI 외에 다른 AI 도구에도 적용 가능한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"기본적인 프롬프트 작성 원칙은 ChatGPT, Bard 등 다른 AI 도구에도 적용 가능합니다. 그러나 이 가이드는 특별히 퍼플렉시티 AI의 고유 기능(집중 모드, 스페이스, 컬렉션 등)을 활용하는 방법에 중점을 두고 있습니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483585",
+    "pubDate": "Thu, 15 May 2025 15:18:31 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 검색 및 리서치 도구",
+      "ai 활용 e-book",
+      "검색 효율 향상",
+      "무료 전자책",
+      "정보 검색 최적화",
+      "지능형 검색 도구",
+      "퍼플렉시티 ai",
+      "퍼플렉시티 고급 기능",
+      "프롬프트 작성법",
+      "프롬프트 최적화",
+      "효율적 검색 기법"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "비트코인 VS 튤립 버블 논쟁",
+    "description": "비트코인은 등장과 동시에 ‘현대판 튤립 버블’이라는 낙인을 피할 수 없었다. 17세기 네덜란드를 뒤흔든 튤립 투기 열풍처럼, 비트코인 역시 급등과 폭락을 반복하며 ‘광기 어린 자산’이라는 비유의 중심에 섰다. 지금 다시 묻고 싶다. 과연 이 비교는 정당한가? 튤립과 블록체인은 같은 궤적 위에 놓여 있는가? 이 질문을 출발점으로 비트코인과 튤립 버블의 유사성과 차이를 짚고, 그 이면에 감춰진 경제적 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://ppss.kr/archives/269141",
+    "pubDate": "Mon, 12 May 2025 09:02:16 +0000",
+    "creator": "광화문덕",
+    "categories": [
+      "IT",
+      "경제",
+      "역사"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "토스, 국내 최초 ‘한도 높은 신용카드 찾기’ 전 카드사 입점 완료",
+    "description": "금융소비자 선택 폭 넓어져",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/card",
+    "pubDate": "Thu, 15 May 2025 04:28:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "플라워 문",
-    "description": "2025년 5월 12일 저녁",
+    "title": "개발자의 장애 공유 문화",
+    "description": "카카오에 처음 들어가서 놀랐던 또 한 가지는 장애를 공유하는 문화였습니다.\n작고 큰 장애들이 자주 발생했습니다.\n와, 이 사람들 특이한 사람들이네. 이런 건 살다 살다 처음 보는군.\n장애 공유 글에는 항상 좋아요가 많이 달렸습니다.\n자신의 얼간이 짓을 솔직하게 쓰면 쓸수록 좋아요가 더 많이 달렸습니다.\n원인과 후속 조치, 여전히 가시지 않는 의문점들에 대해 댓글로 논의하기도 했습니다만…\n자신이 발생시킨 장애를 전 직원들에게 공유한다는 것이 절대 쉬운 일이 아닙니다.\n아 오늘도 장애 공유 써야 되네, 젠장. 뭐 일하다 보면 장애 낼 수도 있는 거지.\n카카오에서보다 더 놀랐던 기억도 납니다.\nGitLab 장애.\nrm -rf로 프로덕션 데이터베이스 전체를 날려먹었던가?\n와, 진짜 미친 사람들이 여기 있었구나. 저걸 회사의 다른 동료들이 아무도 뭐라 하지 않는 건가? 아니, 어쩌면 의도적으로 저렇게 공유하기로 한 건가?\n\n함께 읽으면 좋은 글:\n서비스 텐션\n서버 비용을 아끼던 사람들 (feat. 카카오 옛날 이야기)\n카톡 서버 개발의 추억",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hodolman.tistory.com/73",
-    "pubDate": "Mon, 12 May 2025 23:01:23 +0900",
-    "creator": "호돌맨",
-    "categories": [
-      "사진",
-      "플라워문"
-    ]
+    "link": "https://jeho.page/essay/2025/05/15/failure-sharing.html",
+    "pubDate": "2025-05-14T17:30:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
