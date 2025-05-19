@@ -2,25 +2,197 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Livestream: Plugin Verifier and API Compatibility Maintenance",
-    "description": "Maintaining plugin compatibility across JetBrains IDEs can be tricky — but the Plugin Verifier is here to help. On Wednesday, May 21, at 2:00 PM UTC, join us for a live session with IntelliJ Platform Developer Advocates Róbert Novotný and Yann Cébron, focused on the Plugin Verifier and API compatibility maintenance. During the webinar, you’ll discover how: […]",
+    "title": "(bitaxe) 업데이트 / 새로 만든 웹페이지",
+    "description": "링크: https://bitaxe.sidnft.com/\n\n \n집에서 비트코인 채굴 | 비트액스\n \nbitaxe.sidnft.com\n\n별 디자인은 없고 현재는 글뿐입니다.\n비트액스 채굴기 관련 페이지를 만들어봤습니다.\n프로젝트 명이 bitaxe 입니다.\n \n \n\n\n \n장치 리스트 들이 있고\n카톡 오픈채팅 링크도 달아두었습니다.\n \n탐스 하드에처 소식을 듣다 문득 생각이 나서 시작했습니다.\n하드웨어 비교 사이트가 되면 좋겠군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/05/livestream-plugin-verifier-and-api-compatibility-maintenance/",
-    "pubDate": "Tue, 13 May 2025 11:09:11 +0000",
-    "creator": "Elena Kerpeleva",
+    "link": "http://serverdown.tistory.com/1321",
+    "pubDate": "Thu, 15 May 2025 01:54:41 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "plugin-development",
-      "intellij",
-      "livestreams",
-      "marketplace",
-      "busy-plugin-developers",
-      "jetbrains-marketplace",
-      "livestream"
+      "프로그래밍/자작",
+      "bitaxe",
+      "업데이트",
+      "자작"
     ]
   },
   {
     "id": 2,
+    "imageUrl": "",
+    "title": "비트코인 VS 튤립 버블 논쟁",
+    "description": "비트코인은 등장과 동시에 ‘현대판 튤립 버블’이라는 낙인을 피할 수 없었다. 17세기 네덜란드를 뒤흔든 튤립 투기 열풍처럼, 비트코인 역시 급등과 폭락을 반복하며 ‘광기 어린 자산’이라는 비유의 중심에 섰다. 지금 다시 묻고 싶다. 과연 이 비교는 정당한가? 튤립과 블록체인은 같은 궤적 위에 놓여 있는가? 이 질문을 출발점으로 비트코인과 튤립 버블의 유사성과 차이를 짚고, 그 이면에 감춰진 경제적 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://ppss.kr/archives/269141",
+    "pubDate": "Mon, 12 May 2025 09:02:16 +0000",
+    "creator": "광화문덕",
+    "categories": [
+      "IT",
+      "경제",
+      "역사"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "prisma migrage 꼬인거 해결하기",
+    "description": "이글 보고 참고 했습니다.\n글: https://jamie-em-lee.tistory.com/115\n\n \nPrisma 스키마 동기화 중 Schema Drift 발생 시 데이터베이스 리셋 없이 해결하기\n개요 내가 일하는 곳은 Prisma + PostgreSQL을 스택으로 한다. 프리즈마 스키마와 데이터베이스 스키마 동기화 과정 중에 발생한 스키마 드리프트(schema drift)를 어떻게 리셋 없이 해결했는지 작성해보\njamie-em-lee.tistory.com\n\n \n글내용이 맞으며 저는 이상한짓을 해서 추가로 작업을 더 해야했습니다.\n \nDateTime 에 기본값을 특정 날짜로 하려다 실패를 했는데 이후에 할줄을 몰라\n/prisma/migrate 폴더를 주워 보기도 하고\ndb 에 _prisma_migrations 테이블을 지워보기도 했는데 \n이러면 더 꼬여버려서 db 지우고 다시하라는 애러가 뜬 상태였습니다.\n\n\nreset 을 하면 말그대로 디비가 다 날아가서 텅빈 상태가 됩니다.\n \n먼저 db 와 내 schema.prisma 와의 차이를 구합니다.\nnpx prisma migrate diff ` \n    --from-schema-datasource .\\prisma\\schema.prisma ` \n    --to-schema-datamodel .\\prisma\\schema.prisma ` \n    --script > .\\prisma\\rollback.sql \nVSCODE 에서 열어봅니다.\npowershell 에서는 ` 글자(숫자1 왼족의 키) 가 멀티라인 명령어를 의미합니다.\n\n\npowershell 에서 텍스트를 추출하면 utf-16 이 되는거 같습니다.\n이 상태로는 사용할 수 없으니 utf-8 로 변경해줍니다.\n[UTF-16] 이라고 표시된 부분을 클릭합니다.\n\n\n상단에 Save with Encoding 누릅니다.\n\n\nUTF-8 고릅니다.\nUTF-8 with BOM 은 안해봤습니다. 글자 앞에 2글자의 특수값이 들어가는데 없어도 될꺼 같습니다.\nnpx prisma db execute ` \n    --file .\\prisma\\rollback.sql ` \n    --schema .\\prisma\\schema.prisma \n쿼리를 전송합니다.\n성공하면 이다음부터는 정상적으로 사용 가능합니다.\nnpx prisma migrate dev\n \n저는 위에서한 뻘짓 때문에 살아나지 못했고\ndb 백업후에 다 날리고 reset 하고 마이그래이트 다시 진행했습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1326",
+    "pubDate": "Sun, 18 May 2025 19:51:11 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "Prisma",
+      "문제해결",
+      "프리스마"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "The Early Access Program for ReSharper and .NET Tools 2025.2 Has Begun!",
+    "description": "We’re excited to announce that the Early Access Program (EAP) for ReSharper and .NET Tools 2025.2 is now underway! The first build is available for download, giving you a sneak peek into the features and improvements coming in the next major release. As always, your feedback is key to shaping the final version – we’d […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/05/16/resharper-2025-2-eap-1/",
+    "pubDate": "Fri, 16 May 2025 11:00:26 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "eap",
+      "news",
+      "releases",
+      "resharper",
+      "early-access-program"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "2025-05-16 (금) 개발일지",
+    "description": "1. 앨릭서 시작\n영상과 버전이 달라서 명령어가 이상하게 동작했다.\n큰일이다.\n \n영상: https://www.youtube.com/watch?v=IiIgm_yaoOA&t=1578s\n\n\n\n영상의; 상황\n\n\n내 상태\n$ elixir -v \nErlang/OTP 27 [erts-15.2.7] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [jit:ns] \nElixir 1.18.3 (compiled with Erlang/OTP 25)\n \n설치 페이지에서 제공되는 버전\n설치페이지: https://elixir-lang.org/install.html#windows\n\n\niex 하면 프로그램가능한 상태가 되어야하는데 나는 추가 명령어를 오청받고 있다.\n컴터 재부팅하니 영상처럼 프로그램 가능한 상태로 돌아왔다.\n다행이다.\n \n \n \n \n2. 비트액스 홈페이지 개선\n기기별 가성비 추천을 해주려는데 아직은 보기 불편하다.\n해시레이트 / 소비전력 => 성능\n성능 / 가격 => 가성비\n이런식으로 표시해야겠다.\n가격이 중요하니 유저들보고 가격 넣으라고 하면 좋을꺼 같다.\n수정전 \n\n\n화면엔 안보이지만  가로로 스크롤도 표시되고 잇다.\n화면크기보다 큰 페이지가 표시되는거 같다.\n \n고친 후\n\n\n왜이케 비였냐...\n이상한 가로 스크롤 자꾸 생겨서 보기 안좋았다.\n페이지 시작할때 이거 두개를 넣어줘서 해결했는데 모든 사이트에 적용해야겠다.\n\n\n \n \n3. apps 의 모바일 표시가 이상하다.\n\n\n위에 비트액스랑 동일한 문제인데.\n같이 수정해줘야겠다.\n수정후:\n결과 페이지: https://apps.sidnft.com/\n \n수정후 영상: https://youtu.be/z5BdUTrJC8w\n\n\n\n1. 좌우 스크롤을 제거함 (화면 크기보다 큰 무언가가 있어서 제거했음)\n2. 모바일 해상도 대응\n완성도좀 높이자!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1323",
+    "pubDate": "Fri, 16 May 2025 12:46:59 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "개발일지"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Join JetBrains PHPverse to Celebrate 30 Years of PHP",
+    "description": "PHP turns 30 this June, and we’re looking forward to celebrating this notable milestone together with you!  On June 17, 2025, we’re hosting JetBrains PHPverse 2025, where prominent people from the PHP community will come together and share their thoughts about the state and the future of the modern PHP language and ecosystem. This is […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/phpstorm/2025/05/join-jetbrains-phpverse-to-celebrate-30-years-of-php/",
+    "pubDate": "Fri, 16 May 2025 14:33:48 +0000",
+    "creator": "Hanna Yakush",
+    "categories": [
+      "news",
+      "php30",
+      "phpverse"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Building Cloud-Ready Apps Locally: Spring Boot, AWS, and LocalStack in Action",
+    "description": "Developing an application with AWS services can introduce significant local‑development hurdles. Often, developers don’t receive timely AWS access, or a sysadmin inadvertently grants credentials for the wrong account – only to fix the error a week later. Then, when engineers discover they still lack permissions for certain resources, they must endure yet another week-long wait […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/05/building-cloud-ready-apps-locally-spring-boot-aws-and-localstack-in-action/",
+    "pubDate": "Tue, 13 May 2025 11:31:31 +0000",
+    "creator": "Siva Katamreddy",
+    "categories": [
+      "idea",
+      "java",
+      "tutorials",
+      "aws",
+      "localstack",
+      "spring-boot",
+      "spring-cloud-aws",
+      "testcontainers-2"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "퇴근의 빛",
+    "description": "퇴근의 빛\n\n\n출근 시간엔 앞만 보고 걷던 이들도,\n퇴근길엔 잠시 발걸음을 멈추고 노을 앞에 마음을 내려놓는다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hodolman.tistory.com/74",
+    "pubDate": "Tue, 13 May 2025 23:56:06 +0900",
+    "creator": "호돌맨",
+    "categories": [
+      "사진",
+      "광교",
+      "노을",
+      "종각"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "[MULTI] 브레이크 달린 8톤 트럭, 둠: 더 다크 에이지스",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2304",
+    "pubDate": "Wed, 14 May 2025 13:30:31 +0900",
+    "creator": "「RULIWEB」",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Splunk의 날짜 계산",
+    "description": "최근 30일 데이터의 주간 단위 발생 통계. '월~일요일' 단위 집계 결과를 보여준다.\n\n\n\n\n4월 데이터의 주간 단위 발생 통계. '화~월요일' 단위 집계 결과.\n\n\n\n\n주간 단위 집계 범위가 달라지는 이유는 선택 범위에 따라 시작일이 달라지니까. 원하는 범위가 '월~일요일'이라면 시작일을 월요일로 지정하면 된다. 디폴트는 일요일(w0).\n\n\n\n\n주간 단위 변화를 좀 더 세밀하게 보고 싶다면? \n\n\nrelative_time 함수를 이용하면 특정일을 기준으로 원하는 날짜를 계산할 수 있다.\n\n\n\n\n집계 분할 기준으로 사용할 날짜별 주간 범위(월~일요일) 필드 추가.\n\n\n\n\n\n관련 글\n\nSplunk의 unix time",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/05/splunk.html",
+    "pubDate": "2025-05-14T13:56:00.003Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "AI로 생성한 이미지는 어떻게 평가할까요? (블랙박스 최적화 적용편)",
+    "description": "생성형 AI 모델로 이미지 생성은 쉽죠, 그런데 '좋은 이미지' 생성도 쉬웠으면 좋겠어요!저희 회사에는 고유한 비율로 최소한의 디테일만 유지한 채 인체와 개체를 정의하는 이미지 스...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/how-to-evaluate-ai-generated-images-2-blackbox-optimization",
+    "pubDate": "Mon, 12 May 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "(APPS 업데이트) 개발 진행 상황 표시 추가",
+    "description": "변경점\n빌드를 하면 버전이 올라가는 기능을\n버전이 올라가면 날짜를 기록하는 기능을 추가했고\n이것을 홈페이지에 표시하도록 했습니다.\n\n\n일단 show 버튼이 있고 누르면\n\n\n버전 과 빌드 후 얼마의 시간이 경과 하였는지 표시됩니다.\n버전을 보면 얼마나 고쳤는지 알 수 있고\n시간을 보면 최근에 뭘했는지 알 수 있습니다.\n페이지: https://apps.sidnft.com/\n페이지 하단에 위치합니다.\n \n할일 추가\n1. show 버튼에 애니메이션 (다른 곳에 작업한거 통함)\n2. 로딩 애니메이션 추가  (다른 곳에 작업한거 통함) \n3. 별도의 페이지로 분리",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1317",
+    "pubDate": "Tue, 13 May 2025 11:55:55 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작",
+      "업데이트",
+      "자작"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "2025-05-17 (토) 개발일지 / 서버 죽음 / 개인정보처리방침",
     "description": "1. 죽은 웹서버 원인 파악\n일어나보니 웹서버가 죽어있었습니다.\n누가 /?XDEBUG_SESSION_START=phpstorm\n이런식으로 호출했나봅니다.\nphpstorm 의 취약점을 노리는 걸까요\n제 express 서버는 없는 파일에 대한 예외처리가 없어서 프로그램이 종료되었습니다.\nENOENT: no such file or directory, open '/home/gunil/pto/node-sidnft-firebase/pi4server/public/?XDEBUG_SESSION_START=phpstorm' \n    path: \"/home/gunil/pto/node-sidnft-firebase/pi4server/public/?XDEBUG_SESSION_START=phpstorm\", \n syscall: \"open\", \n   errno: -2, \n    code: \"ENOENT\"\n \n\n\n아래에 catch 가 있지만 이곳으로 예외가 오진 않습니다.\nfs.createReadStream\n함수는 await 로 실행되는게 아니라서 다른 분기를 타는 것이겠지요\n전용 에러 처리함수인 on(\"error\" ~~~) f를 추가로 넣었습니다.\n \n2. 신규 앱 심사  거부 사유 체크\n\n\n오래전에 웹 페이지를 만들고 관리를 안했는데\n개인정보처리방침 부분은 날림으로 만들었습니다..\n\" 개인정보처리방침\" 이라는 문구가 표시되어야하고 ....\n타이틀에도 표시하라고 본문에도 영어/한국어 다 적었습니다.\n타이틀 수정은 자바스크립트로\ndocument.title = \"~~~\";\n 이런식으로 하면 바로 바꼈습니다.\n추가로 혹시나 해서 개인정보처리방침 URL 도 수정해서 다시 검토 신청 했습니다.",
@@ -37,236 +209,49 @@
     ]
   },
   {
-    "id": 3,
+    "id": 14,
     "imageUrl": "",
-    "title": "이커머스와 홈쇼핑이 선택한 커머스 AI 솔루션 ‘에이플러스AI’: 버즈니 남상협 대표 인터뷰",
-    "description": "이승환: 자기소개 부탁드립니다. 남상협: 버즈니 대표 남상협입니다. 여러 홈쇼핑을 한데 모아 보는 앱 ‘홈쇼핑모아’를 운영하고 있고요. 이를 운영하며 쌓아온 여러 커머스AI 기술을 B2B로 보급하고 있습니다. 바로 ‘에이플러스AI’라는 버즈니의 신규 AI 비즈니스인데요. 현재 론칭 1년 만에 CJ온스타일 등 홈쇼핑 및 주요 이커머스사 10곳에 커머스AI 기술 공급 계약을 체결했습니다. AI 비즈니스 부문은 작년에 10배 정도 성장했고, 올해도 […]",
+    "title": "단 5분 만에 SEO 최적화된 멋진 블로그 글 완성? Gemini Gem 지침 전격 공개!",
+    "description": "블로그 글쓰기, 아직도 시간과 씨름하고 계신가요? SEO 최적화는 물론, 전문가 수준의 시각화까지! 이제 Gemini AI와 특별 제작된 Gem 지침으로 놀라운 변화를 경험하세요. 이 글 하나로 모든 것을 알려드립니다!\n\n\n \n 혹시 블로그 포스팅 하나 만드는 데 얼마나 시간을 쏟고 계신가요? 좋은 콘텐츠를 만들고 싶은 마음은 굴뚝같지만, 막상 키보드 앞에 앉으면 아이디어 구상부터 자료 조사, 글쓰기, 이미지 편집, 그리고 가장 머리 아픈 SEO 최적화까지... 정말 만만치 않은 작업이죠. 저도 예전에는 글 하나 올리려면 몇 시간은 훌쩍 넘기기 일쑤였어요. 하지만 만약 이 모든 과정을 단 몇 분 만에, 그것도 전문가 수준으로 해낼 수 있다면 어떨 것 같으세요? 오늘은 바로 그 마법 같은 이야기를 해보려고 합니다! ✨\n \n* 본 포스팅은 지금 소개하는  'SEO 최적화 시각화 Gem 지침'  를 사용하여 생성하였습니다. \n  자세한 사용법은 본문 아래 유튜브 영상을 참고하세요!\n \nGemini AI와 'Gem 지침'이란 무엇일까요?  \n최근 구글에서 선보인 Gemini AI는 정말 놀라운 능력을 보여주고 있는데요, 특히 제미나이 2.5 플래시 모델은 응답 속도도 빠르고, 무료 사용자도 충분한 컨텍스트 용량과 사용량을 제공해서 콘텐츠 제작에 아주 유용해요. 기존의 AI 도구들이 유료 구독을 해도 긴 글을 생성할 때 잘리거나, HTML 코드를 한 번에 만들기 어려웠던 점을 생각하면 정말 획기적이죠.\n여기에 더해 'Gem 지침'(Gems)이라는 강력한 기능이 있는데요, 이건 마치 Gemini AI에게 특별한 임무를 부여하는 것과 같아요. 사용자가 원하는 특정 목적에 맞게 AI를 맞춤 설정해서, 해당 분야의 전문가처럼 똑똑하게 만들어주는 기능이랍니다!\n \n✨ 특별 제작! 'SEO 최적화 & 시각화 Gem 지침' 무료 배포!  \n그래서 제가 직접 만들었습니다! 바로 블로그 포스팅에 특화된 'SEO 최적화 & 시각화 Gem 지침'인데요, 이 지침을 Gemini AI에 적용하면 마치 전문 블로그 편집팀이 옆에서 도와주는 것처럼 퀄리티 높은 글을 순식간에 완성할 수 있어요. 더 놀라운 건, 이 강력한 Gem 지침을 여러분께 완전 무료로 배포한다는 사실!\n이 Gem 지침의 주요 특징은 다음과 같아요:\n자동 SEO 최적화: 글의 주제에 맞춰 핵심 키워드를 자연스럽게 배치하고, 검색 엔진이 좋아하는 구조로 글을 작성해줘요. JSON-LD 스키마도 포함되어 있어 검색 결과 노출에 유리하답니다!\n전문가 수준의 시각화: 단순히 텍스트만 나열하는 것이 아니라, 가독성을 높이는 다양한 시각적 요소(예: 정보 박스, 표, 하이라이트, 요약 카드 등)를 자동으로 적용해줘요.\n다섯 가지 컬러 테마: 블로그 분위기나 개인 취향에 맞게 5가지 전문가 디자인의 컬러 테마 중 하나를 선택할 수 있어요. 오늘은 그중에서도 '블루-그레이' 테마를 적용한 예시를 보여드릴 거예요!\n인터랙티브 요소 추가 가능: 필요에 따라 계산기나 자가진단 테스트 같은 간단한 JavaScript 기반의 인터랙티브 요소도 요청할 수 있답니다.\n시간 절약 & 품질 향상: 이 모든 과정을 통해 블로그 작성 시간을 획기적으로 줄이면서도, 콘텐츠의 질은 오히려 높일 수 있어요!\n  알아두세요!\n이 Gem 지침은 정보 제공형 콘텐츠(튜토리얼, 가이드, 설명서, 안내문 등)에 특히 효과적이에요. 물론, 창의적인 아이디어를 더하면 다양한 주제의 블로그 포스트에도 활용 가능하답니다!\n \n  'SEO 최적화 & 시각화 Gem 지침' 설정 방법 (초간단!)\n자, 그럼 이 멋진 Gem 지침을 어떻게 설정하는지 알아볼까요? 정말 간단하니 차근차근 따라 해 보세요.\nGem 지침 파일 다운로드: 제가 제공하는 링크를 통해 Gem 지침 파일(txt)과 5가지 컬러 테마 샘플 파일들을 다운로드 받으세요. (실제 배포 시 여기에 다운로드 링크가 제공될 예정입니다!)\nGemini AI 접속 및 'Gem 탐색': Gemini AI (gemini.google.com)에 접속한 후, 왼쪽 메뉴에서 'Gem 탐색'(또는 유사한 메뉴)을 클릭하세요.\n새로운 Gem 만들기: '새 Gem 만들기'(또는 '+') 버튼을 클릭합니다.\nGem 이름 지정: 생성할 Gem의 이름을 입력해주세요. 예를 들어 \"나만의 블로그 비서\"처럼요!\n지침 붙여넣기: 다운로드한 Gem 지침 파일(SEO 최적화 블로그 GEMS 지침.txt)의 내용을 복사해서 '요청사항' 입력란에 그대로 붙여넣으세요.\n지식 파일 추가: 함께 다운로드한 5가지 컬러 테마 샘플 파일들을 '지식' 에 '파일 첨부' 합니다. 이렇게 하면 Gem이 다양한 테마를 이해하고 적용할 수 있게 됩니다.\n저장하면 끝!: 마지막으로 '저장' 또는 '만들기' 버튼을 누르면 여러분만의 강력한 블로그 작성 Gem이 탄생합니다! 정말 쉽죠?  \n  잠깐! 컬러 테마 파일은 왜 필요할까요?\n컬러 테마 샘플 파일들은 Gem AI가 각 테마의 색상 조합, 분위기, 스타일을 학습하는 데 사용돼요. 이 파일들을 '지식'으로 제공함으로써, 여러분이 특정 테마를 요청했을 때 AI가 해당 테마의 디자인 가이드라인에 맞춰 일관성 있고 아름다운 결과물을 생성할 수 있도록 돕는답니다.\n \n  Gem 지침, 이렇게 활용해보세요! (활용팁 & 주의사항)\nGem 지침을 만들었다면, 이제 사용하는 일만 남았죠!\n주제 선정 및 키워드 리서치: 글을 쓰기 전에 어떤 주제로 쓸지, 어떤 키워드를 포함할지 미리 생각해보세요. 주요 키워드를 2~3개 포함해서 요청하면 SEO에 더욱 효과적인 글을 얻을 수 있어요.\nGem 실행 및 주제 입력: 만들어둔 Gem을 실행하고, 작성하고 싶은 블로그 포스트의 주제를 입력하세요. 예를 들어, \"건강한 아침을 위한 5가지 습관\"처럼요.\n컬러 테마 선택: Gem이 컬러 테마를 선택하라고 물어볼 거예요. 그때 원하는 테마 번호(예: 1번 블루-그레이)를 입력하면 됩니다.\n결과 확인 및 수정: 잠시 기다리면 HTML 코드로 된 블로그 포스트가 뚝딱 만들어질 거예요! 결과물을 바로 블로그에 붙여넣기 전에, CodePen 같은 HTML 미리보기 도구를 사용해서 디자인이나 내용에 수정할 부분은 없는지 확인하는 것이 좋아요.\n⚠️ 주의하세요!\nGemini AI는 매우 뛰어나지만, 때로는 부정확하거나 어색한 내용을 생성할 수도 있어요. 특히 YMYL(Your Money Your Life)처럼 민감한 주제에 대해서는 반드시 생성된 내용을 꼼꼼히 검토하고, 필요한 경우 전문가의 도움을 받아 사실관계를 확인하는 것이 중요합니다.\n \n \n \n'SEO & 시각화 Gem 지침' 핵심 요약\n✨ Gem 지침이란?: Gemini AI를 특정 목적에 맞게 최적화하는 맞춤 설정 기능!\n  무료 배포 혜택: SEO 최적화, 전문가급 시각화, 5가지 컬러 테마, 시간 절약까지!\n ️ 초간단 설정: 제공된 지침/샘플 파일 다운로드 후 Gem에 복사 & 붙여넣기하면 끝!\n  똑똑한 활용법: 주제 선정 → Gem 실행 → 테마 선택 → 결과 확인 및 최종 검토!\n지금 바로 Gem 지침을 활용해 블로그 콘텐츠 제작의 신세계를 경험하세요!\n자주 묻는 질문 ❓\nQ: 이 Gem 지침은 어떤 블로그 플랫폼에서 사용할 수 있나요?\nA: Gem 지침은 HTML 코드를 생성해주기 때문에, 티스토리, 워드프레스 등 대부분의 HTML 편집을 지원하는 블로그 플랫폼에서 사용 가능합니다.\nQ: 코딩을 전혀 모르는데 사용하기 어렵지 않을까요?\nA: 전혀요! Gem 지침 설정은 단순히 텍스트 파일을 복사해서 붙여넣는 수준이며, 생성된 HTML 코드도 전체 복사해서 블로그 글쓰기 창의 HTML 모드에 붙여넣기만 하면 됩니다. 코딩 지식 없이도 충분히 활용 가능해요.  \nQ: Gem 지침을 사용하면 무조건 상위 노출이 되나요?\nA: SEO(검색 엔진 최적화)는 매우 복잡하고 다양한 요인이 작용합니다. 이 Gem 지침은 기술적인 SEO 요소(키워드 배치, 구조화된 데이터 등)를 상당 부분 자동화해주어 검색 결과에 긍정적인 영향을 줄 수 있지만, 콘텐츠의 질, 독창성, 다른 웹사이트의 링크 등 다른 중요한 요소들도 함께 관리되어야 합니다. 꾸준히 양질의 콘텐츠를 발행하는 것이 가장 중요해요!\nQ: 제공되는 5가지 컬러 테마 외에 다른 디자인을 사용하고 싶으면 어떻게 하나요?\nA: 물론입니다! 제공되는 Gem 지침과 컬러 테마 샘플 파일을 참고하여 CSS 스타일 코드를 직접 수정하시면 자신만의 독창적인 디자인을 만들 수 있습니다. HTML과 CSS에 대한 약간의 지식이 있다면 더욱 다양한 시도를 해볼 수 있겠죠?\n자, 어떠셨나요? 이제 여러분도 Gemini AI와 제가 제공하는 'SEO 최적화 & 시각화 Gem 지침'을 활용해서 블로그 콘텐츠 제작의 효율성과 품질을 한 단계 끌어올릴 수 있습니다! 앞으로 이 Gem 지침이 여러분의 성공적인 블로그 운영에 큰 도움이 되기를 바랍니다. 더 궁금한 점이 있으시거나 Gem 지침 파일이 필요하시면 언제든지 댓글로 문의해주세요!  \n \n지침 다운로드\n \n\n    \n\n    \nSEO 최적화 블로그 GEMS 지침.zip\n0.03MB",
     "reviews": [],
     "syllabus": [],
-    "link": "https://ppss.kr/archives/269388",
-    "pubDate": "Thu, 15 May 2025 02:00:20 +0000",
-    "creator": "리승환",
-    "categories": [
-      "IT",
-      "마케팅",
-      "스타트업",
-      "인터뷰"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Join JetBrains PHPverse to Celebrate 30 Years of PHP",
-    "description": "PHP turns 30 this June, and we’re looking forward to celebrating this notable milestone together with you!  On June 17, 2025, we’re hosting JetBrains PHPverse 2025, where prominent people from the PHP community will come together and share their thoughts about the state and the future of the modern PHP language and ecosystem. This is […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/05/join-jetbrains-phpverse-to-celebrate-30-years-of-php/",
-    "pubDate": "Fri, 16 May 2025 14:33:48 +0000",
-    "creator": "Hanna Yakush",
-    "categories": [
-      "news",
-      "php30",
-      "phpverse"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "AI 시대, 코딩을 배울 가치가 있을까?",
-    "description": "AI가 코드를 뚝딱 만들어내는 시대에 직접 프로그래밍을 배울 필요가 있을까요? 계산기가 있어도 수학을 배우듯, AI 시대에도 코딩 공부가 여전히 가치 있는 이유와 그 한계에 대한 솔직한 이야기를 나눠봅니다.\n\n\n \n 솔직히 말해서, 요즘 ChatGPT나 Claude같은 AI 도구들이 몇 초 만에 코드를 뚝딱 만들어내는 걸 보면 '내가 왜 이렇게 고생스럽게 코딩을 배워야 하나?' 하는 생각이 들어요. 저도 처음 프로그래밍을 배울 때는 세미콜론 하나 빼먹어서 몇 시간을 헤맸던 기억이 있거든요. 그런데 이제 AI에게 \"로그인 기능 만들어줘\"라고 하면 완벽한 코드가 뚝딱 나오니까요.\n \n여러분도 이런 고민 한 번쯤 해보셨을 거예요. 특히 코딩을 새로 배우려는 사람들이라면 더욱 그렇죠. \"AI가 다 해주는데 내가 왜 배워?\"라는 의문이 당연히 들 수밖에 없어요.\n \n하지만 약간의 관점 전환이 필요할 것 같아요. 계산기가 있다고 해서 수학 공부가 불필요해지지 않는 것처럼, AI가 코드를 생성할 수 있다고 해서 프로그래밍 학습이 무의미해지는 건 아니니까요.\n \nAI 시대에도 코딩 학습이 여전히 중요한 이유 ✨\n문제 해결 능력의 성장\n프로그래밍을 배우는 과정은 단순히 코드 작성법을 익히는 것보다 훨씬 더 많은 걸 가르쳐줘요. 복잡한 문제를 작은 단위로 나누고, 논리적으로 해결책을 찾아가는 사고방식을 기르게 되죠. 이건 AI가 대신해줄 수 없는 부분이에요.\n제가 코딩을 배우면서 가장 큰 깨달음을 얻은 순간은 실제로 코드를 작성할 때가 아니라, 문제를 어떻게 접근할지 생각하는 과정이었어요. 이런 능력은 일상생활의 다른 문제들을 해결할 때도 큰 도움이 되더라고요.\nAI의 한계 이해하기\nAI는 강력하지만 완벽하지 않아요. 사실 AI가 생성한 코드를 제대로 활용하려면 그 코드가 무엇을 하는지, 어떻게 작동하는지 이해할 수 있어야 해요. 그리고 뭔가 잘못됐을 때 디버깅할 수 있는 능력도 필요하죠.\n얼마 전에 AI로 간단한 웹 스크래핑 코드를 만들었는데, 실행하니까 오류가 나더라고요. 기본적인 프로그래밍 지식이 없었다면 그 오류를 해결하지 못했을 거예요. 결국 코딩의 기본 개념을 알고 있어야 AI의 도움을 제대로 활용할 수 있다는 걸 깨달았죠.\n창의적인 문제 해결\nAI는 코드를 생성하는 데 놀라운 능력을 보여주고 있지만, 많은 소프트웨어 개발자들은 \"기계가 코드 작성과 관련된 뉘앙스와 창의성을 결코 이해할 수 없다\"고 여겨 AI 코딩 도구를 신뢰하기 주저하기도 해요. 그런데 저는 이 부분에서 약간 다른 시각을 가지고 있어요.\n기술적 이해와 문제 해결 능력 키우기\nAI가 코드를 뱉어낼 수 있다고 해도, 그 코드가 정확히 무엇을 하는지 이해하지 못하면 결국 한계에 부딪히게 돼요. 기술의 근본 원리와 문제 해결 방식을 이해하는 것은 여전히 인간의 영역이에요.\n특히 업계 전문가들도 \"AI 코딩 도구가 때때로 환각 현상을 보이며 무작위한 답변을 제공한다\"라고 지적하고 있죠. 저도 실제로 AI가 생성한 코드를 사용하다가 어이없는 오류를 발견하고 디버깅하느라 시간을 허비한 경험이 있어요. 그때 기본적인 프로그래밍 지식이 없었다면 해결하지 못했을 거예요.\nAI와의 협업: 새로운 코딩 패러다임  \n요즘은 AI와 함께 코딩하는 새로운 작업 방식이 형성되고 있어요. 개발자들은 AI 지원 코딩 도구를 사용해 코드를 더 빠르고 정확하게 작성할 수 있게 되었고, 이는 수동 코드 작성 및 업데이트에 소요되던 시간을 크게 절약해 주고 있어요.\n여기서 핵심은 AI를 '대체자'가 아닌 '협업자'로 보는 관점의 전환이에요. 저는 이런 방식으로 일해보니 AI가 반복적인 부분을 처리해주고, 저는 창의적인 문제 해결과 설계에 집중할 수 있어서 오히려 더 좋은 코드를 만들 수 있더라고요.\nAI의 한계 인식하기 ⚠️\n물론 AI에도 분명한 한계가 있어요. \"인간 초고수를 이기는 AI보다 평범한 고객응대 챗봇이 더 만들기 어렵다\"라는 말처럼, AI는 기술적으로는 놀라운 성과를 보여주지만 실제 비즈니스 문제나 사용자의 니즈를 정확히 이해하고 그에 맞는 솔루션을 제공하는 데는 아직 한계가 있어요.\n특히 라이브러리와 라이브러리 버전에 취약하고, 특정 라이브러리의 메서드를 사용하는 데 일관성을 유지하기 어렵다는 점은 개발자들이 반드시 알고 있어야 할 AI의 약점이에요.\n또한 AI 도구가 코드 완성, 최적화, 성능, 수정 및 설명을 위한 멘토 역할을 할 수는 있지만, \"코딩 방법을 배우는 데 사용할 수 없으며, 좋은 코딩 관행을 대체할 수 없다\"는 점을 명심해야 해요.\n \n미래의 코딩 교육: 적응하고 진화하기  \n프로그래밍 교육도 이제 변화가 필요해요. 단순히 문법이나 알고리즘을 가르치는 것에서 벗어나, AI 도구를 효과적으로 활용하는 방법과 AI와 협업하는 방법을 배워야 해요.\n교육에서 중요한 건 '어떻게 코드를 작성하는가'보다 '어떤 문제를 해결해야 하는가'에 초점을 맞추는 것이에요. 문제를 정확하게 정의하고, 적절한 해결책을 설계하는 능력은 AI가 쉽게 대체하기 어려운 인간의 영역이니까요.\n \n균형 찾기: 코딩 학습과 AI 활용 사이의 딜레마 ⚖️\n솔직히 말해서, 코딩을 배우는 게 이전보다 덜 시급해진 건 사실이에요. AI 코드 생성 소프트웨어는 간단하고, 다양한 프로그래밍 언어에서 사용할 수 있으며, 개발자와 비개발자 모두 액세스할 수 있게 되었으니까요.\n하지만 그렇다고 코딩 학습이 완전히 불필요해진 건 아니에요. AI로 생성된 코드를 제대로 활용하고 검증하려면 기본적인 프로그래밍 개념과 논리적 사고방식은 여전히 필요하거든요.\n제가 생각하는 이상적인 접근법은 이래요:\n기본적인 프로그래밍 개념과 논리적 사고를 배우기\nAI 도구를 활용해 생산성을 높이는 방법 익히기\nAI의 한계를 인식하고 필요할 때 직접 코딩할 수 있는 능력 유지하기\n\n\n마무리: 새로운 시대의 코딩 철학  \n결국, 프로그래밍을 배울 가치가 있느냐는 질문에 단순히 \"예\" 또는 \"아니오\"로 답하기는 어려워요. 개인의 목표, 관심사, 그리고 어떤 분야에서 일하고 싶은지에 따라 달라질 수 있어요.\n \n하지만 분명한 건, AI 시대에도 컴퓨터적 사고방식과 문제 해결 능력은 여전히 중요하다는 점이에요. AI는 도구이지, 우리의 사고를 대체하는 것이 아니니까요.\n \n창의력은 지식을 합성해 독창적인 아이디어를 생산하는 능력을 말합니다. 남들이 생각하지 못한 새로운 것을 만들어내는 능력이 창의력이라면, 인공지능은 이제 그 영역에 거의 다가서고 있는 셈이죠. 하지만 완전히 그 자리를 차지하진 못했어요. 여전히 우리 인간만이 가진 영역이 있고, 그 영역은 코딩 기술을 배움으로써 더욱 강화될 수 있어요.\n \n그러니까, AI 시대에도 프로그래밍을 배우는 건 여전히 가치가 있다고 봐요. 다만 배우는 방식과 목적, 그리고 깊이에 대해선 새롭게 생각해볼 필요가 있겠죠?\nFAQ 섹션\nQ: AI가 코드를 다 만들어준다면, 초보자가 코딩을 배울 필요가 있을까요?\nA: 기본 개념과 논리적 사고는 여전히 중요해요. AI 도구를 효과적으로 사용하고 결과물을 검증하려면 기초 지식이 필요합니다.\nQ: 어떤 프로그래밍 언어를 배우는 게 AI 시대에 가장 유리할까요?\nA: Python이 AI와의 연동성이 좋고 진입장벽이 낮아 추천해요. 하지만 언어보다 문제 해결 사고방식을 기르는 게 더 중요합니다.\nQ: 코딩보다 AI 프롬프트 작성법을 배우는 게 더 효율적일까요?\nA: 둘 다 중요해요. 좋은 프롬프트를 작성하려면 구현하려는 기능에 대한 기술적 이해가 필요합니다.\nQ: AI 코드 도구에서 가장 주의해야 할 점은 무엇인가요?\nA: 결과물을 맹신하지 말고 항상 검증하세요. AI는 때때로 환각 현상을 보이거나 오류가 있는 코드를 생성할 수 있습니다.\nQ: 개발자로 커리어를 준비 중인데, AI 때문에 미래가 불안해요.\nA: AI는 도구일 뿐이니 걱정마세요. 오히려 AI와 효과적으로 협업하는 개발자의 가치는 더 높아질 겁니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"AI가 코드를 다 만들어준다면, 초보자가 코딩을 배울 필요가 있을까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"기본 개념과 논리적 사고는 여전히 중요해요. AI 도구를 효과적으로 사용하고 결과물을 검증하려면 기초 지식이 필요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"어떤 프로그래밍 언어를 배우는 게 AI 시대에 가장 유리할까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Python이 AI와의 연동성이 좋고 진입장벽이 낮아 추천해요. 하지만 언어보다 문제 해결 사고방식을 기르는 게 더 중요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"코딩보다 AI 프롬프트 작성법을 배우는 게 더 효율적일까요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"둘 다 중요해요. 좋은 프롬프트를 작성하려면 구현하려는 기능에 대한 기술적 이해가 필요합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"AI 코드 도구에서 가장 주의해야 할 점은 무엇인가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"결과물을 맹신하지 말고 항상 검증하세요. AI는 때때로 환각 현상을 보이거나 오류가 있는 코드를 생성할 수 있습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"개발자로 커리어를 준비 중인데, AI 때문에 미래가 불안해요.\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"AI는 도구일 뿐이니 걱정마세요. 오히려 AI와 효과적으로 협업하는 개발자의 가치는 더 높아질 겁니다.\"\n    }\n  }]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483583",
-    "pubDate": "Mon, 12 May 2025 09:53:34 +0900",
+    "link": "http://muzbox.tistory.com/483588",
+    "pubDate": "Sat, 17 May 2025 20:49:08 +0900",
     "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
       "AI, 미래기술/AI 챗봇 및 언어 모델",
-      "AI 코딩",
-      "AI 한계",
-      "개발자 생산성",
-      "디버깅 능력",
-      "문제 해결 사고",
-      "미래 프로그래밍 교육",
-      "창의적 코딩",
-      "컴퓨터적 사고",
-      "코드 생성기",
-      "프로그래밍 학습"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "AI로 생성한 이미지는 어떻게 평가할까요? (블랙박스 최적화 적용편)",
-    "description": "생성형 AI 모델로 이미지 생성은 쉽죠, 그런데 '좋은 이미지' 생성도 쉬웠으면 좋겠어요!저희 회사에는 고유한 비율로 최소한의 디테일만 유지한 채 인체와 개체를 정의하는 이미지 스...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/how-to-evaluate-ai-generated-images-2-blackbox-optimization",
-    "pubDate": "Mon, 12 May 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "How to Watch Microsoft Build 2025 Online",
-    "description": "Microsoft Build 2025 Is Almost Here — Here’s How to Make the Most of It Virtually It’s that time again—Microsoft Build is just around the corner! Microsoft Build 2025 kicks off next week (May 19–22)—and now’s the perfect time to get your plan in place. The best part? You don’t have to be in Seattle […]\nThe post How to Watch Microsoft Build 2025 Online appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/how-to-watch-microsoft-build-2025-online/",
-    "pubDate": "Fri, 16 May 2025 14:00:41 +0000",
-    "creator": "Jim Harrer",
-    "categories": [
-      "Events",
-      "GitHub Copilot",
-      "Visual Studio",
-      "MSBuild"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "비트코인 VS 튤립 버블 논쟁",
-    "description": "비트코인은 등장과 동시에 ‘현대판 튤립 버블’이라는 낙인을 피할 수 없었다. 17세기 네덜란드를 뒤흔든 튤립 투기 열풍처럼, 비트코인 역시 급등과 폭락을 반복하며 ‘광기 어린 자산’이라는 비유의 중심에 섰다. 지금 다시 묻고 싶다. 과연 이 비교는 정당한가? 튤립과 블록체인은 같은 궤적 위에 놓여 있는가? 이 질문을 출발점으로 비트코인과 튤립 버블의 유사성과 차이를 짚고, 그 이면에 감춰진 경제적 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://ppss.kr/archives/269141",
-    "pubDate": "Mon, 12 May 2025 09:02:16 +0000",
-    "creator": "광화문덕",
-    "categories": [
-      "IT",
-      "경제",
-      "역사"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Agent mode has arrived in preview for Visual Studio",
-    "description": "Plan, build, test, and fix — all from one prompt. Agent mode is now available in public preview for all users in Visual Studio 17.14. Agent mode in Visual Studio allows you to define tasks using natural language, with Copilot autonomously planning, editing your codebase, invoking tools, and iterating to resolve issues. Unlike Copilot Chat […]\nThe post Agent mode has arrived in preview for Visual Studio appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/agent-mode-has-arrived-in-preview-for-visual-studio/",
-    "pubDate": "Tue, 13 May 2025 17:26:51 +0000",
-    "creator": "Katie Savage, Aaron Yim",
-    "categories": [
-      "Artificial Intelligence",
-      "Copilot",
-      "GitHub Copilot",
-      "Productivity",
-      "Visual Studio",
-      "Agent Mode",
-      "AI Agents"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Rider 2025.2 Early Access Program Is Live!",
-    "description": "The Early Access Program (EAP) for Rider 2025.2 has just begun, and the first preview build for the upcoming major release is already out.  There are several ways for you to get your hands on the first preview build: A reminder of what the EAP is all about The Early Access Program is a long-standing […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/05/16/rider-2025-2-eap-1/",
-    "pubDate": "Fri, 16 May 2025 11:00:45 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "eap",
-      "news",
-      "releases",
-      "rider",
-      "early-access-program",
-      "roslyn"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Open-sourcing Pyrefly: A faster Python type checker written in Rust",
-    "description": "Back in 2017, engineers at Meta sought to create a type checker for Instagram’s typed Python codebase. Years later, as the type system continued to evolve, that type checker eventually became Pyrefly.  Pyrefly is a new type checker and IDE experience for Python, written with Rust, and now available for the entire Python community to [...]\nRead More...\nThe post Open-sourcing Pyrefly: A faster Python type checker written in Rust appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/05/15/developer-tools/open-sourcing-pyrefly-a-faster-python-type-checker-written-in-rust/",
-    "pubDate": "Thu, 15 May 2025 18:30:33 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Culture",
-      "DevInfra",
-      "Open Source",
-      "Meta Tech Podcast"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "토스, 국내 최초 ‘한도 높은 신용카드 찾기’ 전 카드사 입점 완료",
-    "description": "금융소비자 선택 폭 넓어져",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.toss.im/article/card",
-    "pubDate": "Thu, 15 May 2025 04:28:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "AI가 아니라 사업이다",
-    "description": "나는 1999년도에 스탠포드 대학원에 입학하면서 실리콘밸리에 처음 왔다. 아무것도 모르는 학생이었지만, 이 동네는 한국과는 아주 다르고, 심지어 미국의 다른 지역과도 많이 다르다는 걸 당시에도 직관적으로 느낄 수 있었다. 창업가나 VC 네트워크가 전혀 없었지만, 벤처 관련 수업을 몇 개 들으면서, 스타트업과 entrepreneurship에 대한 관심이 많이 생겼고, 팀을 만들어 사업계획서도 만들어 보고, 이 동네의 네트워킹 행사에도 다니면서(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/05/its-the-business-that-matters-not-the-ai.html",
-    "pubDate": "Sun, 11 May 2025 21:30:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "ai",
-      "internet",
-      "Strong",
-      "technology",
-      "vc",
-      "web3"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "The CLion 2025.2 Early Access Program Is Open",
-    "description": "We’re launching our two-month Early Access Program (EAP) for CLion 2025.2. The EAP allows you to try new CLion features and improvements at no cost before the stable release. You can download the first EAP build, 252.13776.55, from the link below, via Toolbox App, or as a snap package if you’re using Ubuntu. DOWNLOAD CLION […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2025/05/2025-2-eap-open/",
-    "pubDate": "Thu, 15 May 2025 15:12:29 +0000",
-    "creator": "Oleg Zinovyev",
-    "categories": [
-      "eap",
-      "news",
-      "clionnova",
-      "cmake",
-      "googletest"
+      "AI 블로깅",
+      "gem 지침",
+      "Gemini",
+      "html 생성",
+      "SEO 최적화",
+      "무료 ai",
+      "블로그 글쓰기",
+      "블로그 자동화",
+      "시각화",
+      "콘텐츠 생성 ai"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "ChatGPT 모델 너무 많다고? 내 작업에 맞는 AI 모델 선택하는 법",
-    "description": "어떤 ChatGPT 모델이 내 목적에 딱 맞을까? OpenAI가 공개한 모델별 적합 작업을 알아보고, 시간과 비용을 절약하는 현명한 선택법을 소개합니다. 최신 모델이 항상 최선은 아니라는 사실!\n\n\n \n  ChatGPT를 열자마자 당황하신적 있나요? 저는 모델 선택 창에 GPT-4o, GPT-4.5, OpenAI o4-mini, o4-mini-high, o3... 이런 이름들이 줄줄이 나오는데 뭘 골라야 할지 모르겠더라고요. 여러분도 비슷한 경험 있으신가요? 솔직히 말해서 최신 모델이나 가장 강력하다는 모델을 무작정 선택하는 게 제 평소 습관이었어요. 그런데 말이죠, 이게 큰 착각이었네요. 최근 OpenAI가 공개한 가이드라인에 따르면, 각 모델마다 장점이 다르고 적합한 작업이 따로 있다고 합니다.\n \n오늘은 제가 알아본 각 ChatGPT 모델별 최적 사용법을 공유해드릴게요. 이걸 알고 나면 여러분의 AI 경험이 훨씬 더 효율적으로 변할 거예요!\n \n  왜 올바른 ChatGPT 모델 선택이 중요할까요?\n2022년 ChatGPT가 처음 등장했을 때는 모델이 하나뿐이었어요. 하지만 시간이 지나면서 OpenAI는 계속해서 새로운 버전을 출시했고, 지금은 각 작업에 최적화된 여러 모델이 존재합니다.\n \n적합한 모델을 사용하면 응답 속도와 품질이 크게 개선됩니다. 반면, 잘못된 모델을 사용하면 시간 낭비는 물론이고 AI 환각(hallucination)이 발생할 위험도 높아져요. 특히 사용 제한이 있는 모델은 더더욱 신중하게 선택해야 합니다.\n \n예를 들어, OpenAI o1 pro 모드는 복잡한 추론 작업에 아주 적합하지만, 한 달에 5번만 사용할 수 있어요. 그런데 이걸 단순히 지브리 스타일 이미지 생성에 사용한다? 정말 아깝죠!\n \n  ChatGPT 모델별 최적 사용 가이드 (OpenAI 공식 권장)\nGPT-4o: 일상적인 만능 도우미\nGPT-4o는 일상 작업에 가장 적합한 모델입니다. 빠른 응답과 충분한 성능을 갖추고 있어요. 이런 작업에 완벽해요:\n긴 글이나 회의록 요약하기\n이메일 초안 작성하기\n아이디어 브레인스토밍\n보고서 교정하기\n게다가 멀티모달 기능을 갖추고 있어 이미지 생성도 가능하며, 텍스트, 문서, 오디오, 비디오 등 다양한 입력을 처리할 수 있습니다. 믿을 수 있는 만능 비서가 필요하다면 GPT-4o로 시작하세요!\nGPT-4.5: 창의적인 협업자\n2025년 2월에 출시된 GPT-4.5는 창의적인 작업에 추천되는 모델입니다. 사람과 같은 창의성이 필요한 작업에 최적화되어 있어요. 개인이나 그룹과의 소통에도 탁월합니다.\n이 모델이 커뮤니케이션에 적합한 이유는 감성 지능, 명확한 의사소통 능력, 인간적인 직관력 때문이에요. 다음과 같은 작업에 이상적입니다:\n매력적인 글 작성\n공감 능력이 필요한 소통\n창의적 브레인스토밍\n회사 제품 출시를 위한 마케팅 카피를 브랜드 톤앤보이스에 맞게 작성하고 싶다면? GPT-4.5가 최선의 선택입니다.\nOpenAI o4-mini: 빠른 기술 지원\nOpenAI o4-mini는 속도를 위해 만들어졌습니다. 하지만 그 속도는 대가가 있죠. 더 큰 모델들과 달리 주어진 작업을 깊이 있게 처리하지 못할 수 있어요. 주로 빠르고 간단한 기술적 작업을 처리하는 데 탁월합니다.\n이런 경우에 사용하세요:\n깊은 추론이 필요 없는 STEM 관련 과제 (학생들에게 적합)\n간단한 코드 수정 (프로그래머가 Stack Overflow에서 찾을 법한 간단한 문제)\nOpenAI o4-mini-high: 상세한 기술 전문가\no4-mini의 능력 범위를 넘어서는 고급 기술 주제나 문제에 도움이 필요하다면, o4-mini-high가 해답입니다. 고급 코딩, 수학, 과학 주제에 사용하세요. o4-mini보다 응답 시간이 조금 더 걸리지만, 출력 결과의 품질과 깊이가 보상으로 돌아옵니다.\n고급 기술 주제에 대한 깊이와 정확성이 필요하다면 이 모델을 사용하세요. 예를 들어:\n복잡한 수학 문제 해결\n복잡한 컴퓨터 과학 알고리즘에 대한 상세한 설명\nOpenAI o3: 복잡한 문제 해결사\nOpenAI o3도 복잡성을 위해 설계되었습니다. o4-mini-high에서 한 단계 더 나아가 단순히 복잡할 뿐만 아니라 여러 단계가 포함된 작업도 해결합니다.\n이런 작업에 활용해보세요:\n데이터 세트에 대한 다단계 분석 수행\n시장 역학과 경쟁사를 분석하여 사업 확장 전략 개발\n다양한 마이크로서비스의 시스템 로그를 검토하여 최적화 전략 찾기\nOpenAI o1 Pro 모드: 깊은 사고가\n여러분이 업계 최전선에서 일한다면, o1 pro 모드를 사용해야 합니다. 속도 면에서는 높은 순위에 들지 못하지만, 그건 의도적인 설계예요. 주로 금융, 법률, 의료와 같이 실수가 많은 비용을 초래하는 고위험 산업과 상세한 분석이 필요한 작업을 대상으로 합니다.\n예를 들어 OpenAI o1을 다음과 같은 용도로 사용할 수 있어요:\n재무 예측 알고리즘 설계\n정책 문서 작성\n \n  한 가지 모델로 모든 것을 해결하려 하지 마세요\n최신 모델이 모든 종류의 작업을 처리하는 만능 솔루션처럼 보일 수 있지만, 위의 가이드라인은 어떤 단일 모델도 모든 것에서 뛰어나지 않음을 보여줍니다.\n \n저도 처음엔 그냥 가장 최신 모델만 썼는데, 이제는 작업 유형에 따라 모델을 선택하고 있어요. 물론 시시각각 변하겠지만, 이렇게 선택하는 것이 효율적이에요.\n \n  진짜 활용해본 후기: 모델별 차이점을 체감했어요\n솔직히 처음엔 이런 모델 구분이 마케팅용인가 싶었어요. 그런데 직접 테스트해보니 확실히 달라요! 간단한 요약은 GPT-4o로 하면 몇 초 만에 끝나는데, o3로 하면 너무 깊이 들어가서 오히려 시간이 더 걸리더라고요.\n \n그리고 제가 프로그래밍 공부를 하는데, 간단한 코드 오류는 o4-mini가 정말 빠르게 해결해줘요. 하지만 복잡한 알고리즘을 설명받고 싶을 땐 확실히 o4-mini-high가 더 정확하고 상세해요.\n \n브랜드 캠페인 아이디어를 구상할 때는 GPT-4.5의 창의성이 확실히 돋보였어요. 같은 프롬프트를 다른 모델에 넣었을 때보다 훨씬 신선한 아이디어가 나왔거든요.\n \n  실험: 같은 질문, 다른 모델\n제가 정말 궁금해서 동일한 질문을 여러 모델에 물어봤어요:\n\"인공지능이 창의성을 가질 수 있을까?\"\nGPT-4o: 균형 잡힌 답변과 여러 관점 제시\nGPT-4.5: 철학적 깊이와 창의적인 비유 사용\no4-mini: 간결하지만 약간 피상적인 답변\no3: 매우 체계적인 분석과 학술 참고자료 인용\n확실히 질문의 성격에 따라 모델을 선택하는 게 효율적이라는 걸 알게 됐어요!\n \n⚡ 모델 선택 팁: 작업 복잡도 기준으로 선택하세요\n제가 사용해본 경험을 바탕으로 간단한 팁을 드릴게요.\n작업 유형\n추천 모델\n이유\n\n\n\n\n일상적인 대화\nGPT-4o\n빠르고 균형 잡힌 응답\n\n\n창의적 글쓰기\nGPT-4.5\n인간적 감성과 창의성\n\n\n간단한 코딩\no4-mini\n빠른 응답 시간\n\n\n복잡한 코딩\no4-mini-high\n정확하고 상세한 설명\n\n\n전략 계획\no3\n다단계 분석 능력\n\n\n고위험 의사결정\no1 Pro\n최소한의 환각, 최대 정확도\n\n\n\n결국, 가장 좋은 모델은 여러분의 목적에 가장 잘 맞는 모델입니다. 단순히 최신 모델이나 가장 비싼 모델이 항상 최선은 아니에요!\n❓ 자주 묻는 질문\nQ: 무료 사용자도 모든 모델을 사용할 수 있나요?\nA: 아니요, 일부 고급 모델은 ChatGPT Plus 또는 Pro 구독자만 사용 가능합니다.\nQ: 가장 빠른 모델은 무엇인가요?\nA: OpenAI o4-mini가 가장 빠른 응답 시간을 제공합니다.\nQ: 환각(hallucination)이 가장 적은 모델은?\nA: OpenAI o1 Pro 모드가 환각을 최소화하도록 설계되었습니다.\nQ: 이미지를 분석할 수 있는 모델은?\nA: GPT-4o가 멀티모달 기능으로 이미지를 분석할 수 있습니다.\nQ: 모델이 계속 업데이트되나요?\nA: 네, OpenAI는 정기적으로 모델을 업데이트하고 새 모델을 출시합니다.\n \n\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"무료 사용자도 모든 모델을 사용할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"아니요, 일부 고급 모델은 ChatGPT Plus 또는 Pro 구독자만 사용 가능합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"가장 빠른 모델은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"OpenAI o4-mini가 가장 빠른 응답 시간을 제공합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"환각(hallucination)이 가장 적은 모델은?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"OpenAI o1 Pro 모드가 환각을 최소화하도록 설계되었습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"이미지를 분석할 수 있는 모델은?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GPT-4o가 멀티모달 기능으로 이미지를 분석할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"모델이 계속 업데이트되나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, OpenAI는 정기적으로 모델을 업데이트하고 새 모델을 출시합니다.\"\n      }\n    }\n  ]\n}",
+    "title": "초저렴 3500원 무선이어폰 투키(Toocki) TQ-EJ04, 쓸만할까?",
+    "description": "이제 전세계 제조업의 중심은 중국이다. 중국의 공장이 멈추면 인류 사회가 받는 타격이 클 것이라는 것에는 많은 분들이 동의하실 듯.\n그 바로 옆에 살고 있는 우리나라 또한 그 영향을 강하게 받고 있다. 특히 직구라는 형태로 다양한 제품이 우리나라 소비자들을 만났고, 가격 면에서의 충격은 상당했다. 최근에는 제조 기술 또한 발전하여 그 품질도 우습게 볼 수준은 아니다.\n그리고 귀마저 못 생겨 무선 이어폰의 탈출 시도가 잦은 바람에 잘 고정되는 무선 이어폰을 찾는 글쓴이에게 가성비 휴대폰 충전기 브랜드로 유명한 투키(TOOCKI)의 제품 하나가 눈에 띄었다. \n \n3500원짜리 무선 이어폰 Toocki TQ-EJ04\n \n늑돌이가 그 제품을 한번 사볼까 했던 이유는 단 하나. 가격이었다.\n알X 직구 사이트에서 단돈 7000원에 투키는 이 TQ-EJ04 무선 이어폰 두개를 살 수 있었다. 하나당 가격은 3500원 꼴(당시 환율 기준. 지금은 더 싸다)이다. 물론 배송료 포함이고 일주일도 안 되어 무사히 도착했다. 빠르게 살펴보자.\n \n\n\n \n \n생각보다 괜찮은 만듦새\n \n\n\n \n기본 스펙은 위 상자에 적힌 대로. 블루투스 5.3을 지원하며 정확하게 안 적혀있지만 SBC와 AAC 코덱은 지원하는 것으로 추정된다. 멀티 페어링 같은 건 안 되지만 무선 연결이 빨리 되어 좋다.\n배터리 용량은 80mAh. 충전도 USB 타입C 단자로 충분하며, 연속 사용시간은 8시간이라는데 한계까지 써본 적은 없다.\n \n뭔가 인증 및 검사를 받았다는데 구체적으로는 안 적혀있다.\n \n\n\n\n부속품은 한글(!) 설명서와 짧은 충전 케이블과 본체가 전부지만 3500원짜리라 생각하니 만듦새가 꽤 괜찮다. \n \n\n\n \n탄성있는 실리콘으로 코팅된 밴드가 있어 머리에 장착하면 거칠게 움직여도 쉽게 떨어지지 않으며, 귀에 꽂는 방식은 아니기 때문에 귓구멍은 아프지 않은게 장점이다. \n \n\n\n \n이 제품의 색상은 베이지인데, 이거 말고도 까망이나 핑크, 보라색 제품도 있다.\n \n \n \n공기 전도 이어폰이라는데, 음질과 통화품질은?\n \n3500원짜리 이어폰에 좋은 음질을 바라는 건 날강도 아닐까 하는 생각이 들긴 하지만 그래도 평가를 한다면,\n \n\n\n\n예상보다는 괜찮아서 못 들어줄 정도는 아니다. 물론 구조적으로나 가격적으로나 한계가 있지만 그 쓰임새를 생각해 보면 그럭저럭 받아줄 만 하다.\n오해하지 말아야 할 것은 이 제품은 골전도 이어폰이 아니라는 것이다. 공기 전도 이어폰이라고 말하는데 우리가 평소에 듣는 소리는 공기를 매질로 전달되니 공기 전도라는게 특별한 건 아니고 귀 옆에 작은 스피커를 얹어 놓은 형태다. 구분하자면 개방형 이어폰에 가깝겠다.\n \n14.2mm의 드라이버를 달았다고는 하는데 일반적인 대중 음악을 듣는데에는 큰 무리는 없다. 다만 구조상 저음은 약하고 고음의 경우 치찰음에서 찢어지는 경우가 드물지만 있다.\n태생적으로 개방형인 만큼 소리가 밖으로 새어나갈 수 밖에 없으니 주변에 사람이 있고 조용한 곳이라면 음량을 최소한으로 낮출 필요가 있다. 반대로 주변이 매우 시끄럽다면 이어폰에서 나오는 소리도 잘 못 알아들을 수도 있다.\n전화 통화 품질 또한 마찬가지인데, 마이크와 입의 위치가 꽤 떨어져 있기 때문에 주변이 어느 정도 조용하고 내가 큰 소리로 말할 수 있는 여건이라면 통화가 어렵지 않지만 주변이 시끄럽거나 조용히 말해야 한다면 상대가 알아듣지 못하는 경우가 많으니 주의하시길.\n대신 귀를 막지 않는 개방형인 만큼 듣고 있는 소리를 잠깐 멈추거나 줄인다면 외부의 소리를 듣는데 지장이 거의 없다는 건 장점이다. 글쓴이는 이 제품을 착용한 상태로 바깥의 소리를 듣거나 주변 사람과 대화를 하는데 있어서는 별 문제가 없었다.\n \n \n조작과 휴대성\n \n\n\n\nTQ-EJ04는 오른쪽의 파워 로고가 있는 터치패드를 사용하여 모든 조작을 한다. 조작 방법이 무척 단순한지라 외워두면 편하다.\n \n- 1회 탭 : 전화 받기 또는 음악의 재생/멈춤\n- 2회 탭 : 전화 끊기 또는 다음 곡 재생\n- 3회 탭 : 이전 곡 재생\n- 2초 누르기 : 전화 왔을때 거절하기\n- 3초 누르기 : 전원 켜기 또는 음성 어시스턴트 호출\n- 8초 누르기 : 전원 끄기\n뜻밖에도 많은 기능을 담아둔지라 익숙해지면 편하지만 누를 생각이 없었는데 실수로 건드려서 오작동이 일어나는 경우가 종종 있는 건 단점.\n \n\n\n\n무게는 스펙상 12.5g이지만 직접 재보니 13g(0.5g은 표시안되는 저울임)으로 휴대는 주머니건 가방이건 대충 넣어서 갖고 다니면 되니 부담이 없다. \n\n \n투키 TQ-EJ04 - 야외 활동하는 이들을 위한 막 쓰는 무선 이어폰\n \n이 제품의 존재 이유는 역시 야외 활동이다.\n머리에 착 달라붙어서 특별히 신경쓰지 않아도 떨어지지 않으며, 한쪽 터치 패드만으로 이어폰의 기능을 활용하는 데에는 문제가 없어 산책이나 더 거친 운동에도 적합하다. 물론 방수방진 수준은 IPX4 수준이라 수영은 안 된다. 다만 음질은 그다지 좋지 않고 통화 품질도 제한적인 환경에서만 쓸만하다.\n \n그리고 또 한가지, 30분 정도 쓰고 있으면 이어폰이 얹어진 귀 상단 부분이 다소 부담스럽다. 아들은 아빠가 머리가 커서 그렇다고 한다 \n \n가성비로 사뒀다가 운동용 가방 안 쪽이건 책상 서랍 한 구석이나 차의 글로브박스 건 던져 뒀다가 필요할 때 쓴다면 꽤 괜찮지 않을까 생각한다. 그 이상을 원한다면 다른 제품을 알아보시길.\n참고로 이 제품의 구입을 원한다면 알리익스프레스 등 직구 사이트에서 toocki 공기 전도 이어폰 등의 키워드로 검색하면 찾을 수 있을 것이다. 저렴하지만 그래도 구입 전에 정말 필요한지 한번 더 생각해 보시길.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483584",
-    "pubDate": "Tue, 13 May 2025 08:47:54 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://lazion.com/2513745",
+    "pubDate": "Mon, 19 May 2025 08:21:19 +0900",
+    "creator": "늑돌이",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 언어 모델",
-      "ai 모델 효율성",
-      "ai 활용 팁",
-      "chatgpt 모델 비교",
-      "chatgpt 모델 선택",
-      "chatgpt 성능 향상",
-      "gpt-4.5 창의성",
-      "gpt-4o 사용법",
-      "openai o3 vs o4-mini",
-      "openai 모델 가이드",
-      "인공지능 최적화"
+      "#오디오#헤드폰#이어폰",
+      "Audio",
+      "Earphone",
+      "Outdoor",
+      "Review",
+      "Sports",
+      "Toocki",
+      "tq-ej04",
+      "Wireless"
     ]
   }
 ]
