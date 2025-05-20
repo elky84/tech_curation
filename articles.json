@@ -2,197 +2,58 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "(bitaxe) 업데이트 / 새로 만든 웹페이지",
-    "description": "링크: https://bitaxe.sidnft.com/\n\n \n집에서 비트코인 채굴 | 비트액스\n \nbitaxe.sidnft.com\n\n별 디자인은 없고 현재는 글뿐입니다.\n비트액스 채굴기 관련 페이지를 만들어봤습니다.\n프로젝트 명이 bitaxe 입니다.\n \n \n\n\n \n장치 리스트 들이 있고\n카톡 오픈채팅 링크도 달아두었습니다.\n \n탐스 하드에처 소식을 듣다 문득 생각이 나서 시작했습니다.\n하드웨어 비교 사이트가 되면 좋겠군요",
+    "title": "MPS 2025.1 Is Out!",
+    "description": "MPS 2025.1 allows the build language to serve as a target for code generation. This version also introduces visual and performance enhancements to the Project tool window’s Logical view, several useful improvements to the UI, and numerous platform updates. DOWNLOAD MPS 2025.1 What’s new Let’s check out all the new features waiting for you in […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1321",
-    "pubDate": "Thu, 15 May 2025 01:54:41 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/mps/2025/05/mps-2025-1-is-out/",
+    "pubDate": "Wed, 14 May 2025 11:55:25 +0000",
+    "creator": "Vaclav Pech",
     "categories": [
-      "프로그래밍/자작",
-      "bitaxe",
-      "업데이트",
-      "자작"
+      "releases",
+      "release"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "비트코인 VS 튤립 버블 논쟁",
-    "description": "비트코인은 등장과 동시에 ‘현대판 튤립 버블’이라는 낙인을 피할 수 없었다. 17세기 네덜란드를 뒤흔든 튤립 투기 열풍처럼, 비트코인 역시 급등과 폭락을 반복하며 ‘광기 어린 자산’이라는 비유의 중심에 섰다. 지금 다시 묻고 싶다. 과연 이 비교는 정당한가? 튤립과 블록체인은 같은 궤적 위에 놓여 있는가? 이 질문을 출발점으로 비트코인과 튤립 버블의 유사성과 차이를 짚고, 그 이면에 감춰진 경제적 […]",
+    "title": "ReAct 에이전트 프레임웍 내부 코드 구조 개발해보기",
+    "description": "ReAct(Reasoning and Acting) 에이전트 구조는 대형 언어 모델(LLM)을 기반으로 도구 호출 기능을 통합한 지능형 에이전트 시스템을 구현하는 설계 방식이다. 사용자의 지시를 추론하고 필요한 경우 외부 도구를 호출하여 목표를 달성하는 능력을 지니며, 최근 AutoGPT, BabyAGI, Manus 등 다양한 오픈소스 프로젝트에서 채택되고 있다. 이 글에서는  ReAct 에이전트 프레임웍 내부 코드 구조를 직접 개발해본다. 아울러, ReAct 에이전트의 문제점들을 살펴보고 솔류션을 생각해본다. \n\n\n\n\nReAct Agent 구조(AI Agents Crash Course—Part 10 (With Implementation)\n\nReAct 구조 \nReAct 시퀀스 처리 구조는 LLM 기반 에이전트가 사고(Think), 행동(Act), 관찰(Observe), 결론(Final)의 단계로 사용자 질의에 응답하는 체계적 프로세스이다. 이 구조는 복잡한 문제 해결을 위해 LLM이 도구와 상호작용하면서 점진적으로 정답을 유도해내도록 설계되었다.\n다음은 해당 코드에서 구현된 ReAct 시퀀스의 흐름이다.\n\n\nThink\n\n\n\nAct\n\n필요하다고 판단되면 Act: ToolName[Input] 또는 Act: ToolName(Input) 형식으로 도구 호출을 지시한다. 이 지시문은 정규표현식으로 감지되어 실제 도구 실행이 트리거된다.\nObserve\nObserve: 접두사를 붙여 기록된다. 이 결과는 이후 컨텍스트에 포함되어 다음 LLM 호출의 입력으로 사용된다.\nFinal\nFinal Answer: 형식으로 최종 응답을 제공한다. 이는 루프를 종료시키는 조건이기도 하며, 에이전트의 실행 결과로 사용자에게 출력된다.\n\n\n\n\n이러한 시퀀스를 통해 LLM은 단순히 한 번에 답변하는 것이 아니라, 도구를 여러 번 사용하고 그 결과를 반영하며 점진적으로 정확한 응답에 도달한다.\nReAct 에이전트 내부 코드 구현해보기\n앞서 언급된 개념을 고려해 ReAct 에이전트의 핵심적인 코드만 구현해 본다. 다음과 같이 관련 라이브러리를 설치한다.\npip install langchain \n다음과 같이 코드를 구현한다. \n\nimport re, os\nfrom langchain.tools import Tool\nfrom langchain_community.tools.tavily_search import TavilySearchResults\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.schema import HumanMessage\nfrom dotenv import load_dotenv\n\n\nload_dotenv()\n\n\n# Calculator function\ndef calculator(input_str: str) -> str:\n    try:\n        result = eval(input_str)\n        return str(result)\n    except Exception as e:\n        return f\"Error: {e}\"\n\n\ndef FireCrawlResults(max_results=3, search_type=\"web\"):\n    from langchain_community.tools.fire_crawl import FireCrawlResults\n    return FireCrawlResults(max_results=max_results, search_type=search_type) # TBD\n\n\n# Initialize tools\ntools = [\n    Tool(\n        name=\"Calculator\",\n        func=calculator,\n        description=\"Evaluates mathematical expressions. Input should be a valid Python expression.\"\n    ),\n    TavilySearchResults(max_results=3, search_type=\"web\"),\n    # FireCrawlResults(max_results=3, search_type=\"web\"),\n]\n\n\n# Function to extract tool prototype info\ndef get_tools_info(tools):\n    info_list = []\n    for tool in tools:\n        # Try to get function signature if possible\n        if hasattr(tool, \"func\"):\n            proto = f\"{tool.name}(input: str)\"\n        else:\n            proto = f\"{tool.name}(input: str)\"\n        desc = getattr(tool, \"description\", \"No description.\")\n        info_list.append(f\"- {proto}: {desc}\")\n    return \"\\n\".join(info_list)\n\n\n# Initialize the language model\nllm = ChatOpenAI(temperature=0, model=\"gpt-4\", max_tokens=4000)\nanswer_validation_llm = ChatOpenAI(temperature=0, model=\"gpt-4-turbo\", max_tokens=4000)\n\n\n# Prompt template for ReAct\nprompt_template = \"\"\"\nInstruction: {instruct}\nIMPORTANT: If you do not know the answer, do not use 'Final Answer', just say 'I don't know'.\n\n\nTools you can use:\n{tools}\n\n\nContext:\n{context}\n\n\nQuery:\n{query}\n\n\nYou should follow the ReAct pattern:\n- Think: Reason about the question or next step.\n- Act: If needed, use a tool in the format Act: <tool>[<input>].\n- Observe: Note the result of the action.\n- Final: Give the final answer in the format Final Answer: <answer>.\n\"\"\"\n\n\nanswer_validation_prompt = \"\"\"\nQuestion: {question}\nAnswer: {answer}\nIs the answer relevant and correct for the question? Reply only with \"yes\" or \"no\" and a short reason.\n\"\"\"\n\n\nclass ReActAgent:\n    def __init__(self, llm, tools, prompt_template):\n        self.llm = llm\n        self.tools = {tool.name: tool for tool in tools}\n        self.prompt_template = prompt_template\n        self.tools_info = get_tools_info(tools)\n\n\n    def validate_answer(self, question, answer):\n        prompt = answer_validation_prompt.format(question=question, answer=answer)\n        messages = [HumanMessage(content=prompt)]\n        output = answer_validation_llm(messages)\n        response = output.content.strip().lower()\n        return response.startswith(\"yes\"), response\n\n\n    def run(self, input_query: str):\n        history = []\n        while True:\n            prompt = self.prompt_template.format(\n                instruct=\"Answer the question in detail using ReAct reasoning.\",\n                tools=self.tools_info,\n                context=\"\\n\".join(history),\n                query=input_query\n            )\n            messages = [HumanMessage(content=prompt)]\n            output = self.llm(messages)\n            response = output.content.strip()\n            history.append(response)\n\n\n            # Check for Final Answer\n            final_match = re.search(r\"Final Answer:\\s*(.*)\", response, re.IGNORECASE)\n            if final_match:\n                answer = final_match.group(1)\n                # is_valid, validation_msg = self.validate_answer(input_query, answer) # TBD. 실제 react 코드 확인.\n                # if is_valid:\n                return answer\n\n\n            # Detect action\n            action_match = re.search(r\"Act:\\s*(\\w+)[\\[\\(](.*)[\\]\\)]\", response)\n            if action_match:\n                action_name = action_match.group(1)\n                action_input = action_match.group(2)\n                print(f\"Action detected: {action_name} with input: {action_input}\")\n\n\n                tool = self.tools.get(action_name)\n                if not tool:\n                    history.append(f\"Observe: Unknown tool: {action_name}\")\n                    continue\n                action_input = action_input.replace(\"'\", \"\").replace('\"', \"\")   \n                result = tool.run(action_input)\n                history.append(f\"Observe: {result}\")\n            else:\n                # If no action and no final answer, just continue (could be Think step)\n                continue\n\n\nagent = ReActAgent(llm=llm, tools=tools, prompt_template=prompt_template)\n\n\ndef test():\n    query = \"What is the result of 12 * (3 + 4)?\"\n    result = agent.run(query)\n    print(result)\n\n\n    query = \"What is the capital of France?\"\n    result = agent.run(query)\n    print(result)\n\n\n    query = \"In web, What is Taewook kang's paper about Geo BIM using BIM and GIS?\"\n    result = agent.run(query)\n    print(result)\n\n\ndef main():\n    print(\"ReAct Agent is ready to use.\")\n    print(\"Available tools:\")\n    for tool in agent.tools_info.split(\"\\n\"):\n        print(tool)\n\n\n    # test()\n\n\n    print(\"\\nInteractive mode:\")\n    while True:\n        query = input(\"Enter your query (or 'exit' to quit): \")\n        if query.lower() == \"exit\":\n            break\n        result = agent.run(query)\n        print(result)\n\n\nif __name__ == \"__main__\":\n    main()\n\n\n이 코드는 ReAct 시퀀스를 중심으로 구성되어 있다. ReAct란 LLM이 단순한 질의응답을 넘어서서, 생각하고 도구를 사용하고 그 결과를 바탕으로 다시 추론한 뒤 최종적인 답을 내리는 일련의 추론 패턴이다. 이 흐름은 크게 네 단계로 나뉜다. \n첫째, Think 단계에서는 주어진 질문에 대해 어떻게 접근할지를 LLM이 서술적으로 사고한다. 둘째, Act 단계에서는 필요하다고 판단한 도구를 지정된 형식으로 호출한다. 이때 Act: ToolName[Input] 형식을 사용한다. 셋째, Observe 단계에서는 실행된 도구의 결과를 받아 LLM의 다음 추론에 포함될 수 있도록 기록한다. 넷째, Final 단계에서는 Final Answer: 답변 형식으로 최종 결론을 도출한다.\n이러한 시퀀스를 실제로 구현하기 위해 코드에서는 특정 정규표현식을 사용하여 각 단계를 감지하고 분기 처리한다. 예를 들어, Act 단계는 Act:라는 키워드를 통해 감지되고, 대응되는 도구 이름과 입력값이 추출된다. 대응되는 도구가 존재하면 해당 함수나 객체의 run 메서드를 호출하여 결과를 얻고, 이를 Observe로 기록하여 다음 프롬프트 생성 시 문맥으로 전달한다. Final Answer가 감지되면 그 값을 최종 출력으로 반환하면서 루프를 종료한다.\n코드는 먼저 환경변수를 불러오고, 수학 계산용 calculator 함수와 웹 검색용 Tavily 도구를 정의하고 tools 목록에 등록한다. 각 도구는 Tool 객체로 구성되며, name, func, description 속성을 갖는다. 이 도구들의 인터페이스 정보는 get_tools_info 함수를 통해 LLM 프롬프트에 전달할 수 있는 형식으로 변환된다.\nReActAgent 클래스는 핵심 로직을 담당한다. 생성자에서는 도구를 이름으로 접근 가능하도록 딕셔너리 형태로 구성하며, 프롬프트 템플릿에 포함할 도구 설명을 자동으로 생성한다. run 메서드는 LLM과의 대화를 이끄는 루프이다. 사용자의 입력 쿼리를 바탕으로 Think부터 Final 단계까지의 응답을 순차적으로 생성하고, 도구 호출이 필요한 경우 자동으로 감지하여 실행한다.\nLLM은 ChatOpenAI 클래스를 통해 초기화되며, 주 모델과 검증용 모델이 따로 구성된다. 현재 코드는 검증 부분이 주석 처리되어 있어 정답 검증은 수행되지 않지만 validate_answer 메서드는 존재한다. 해당 메서드는 question과 answer를 받아 프롬프트에 삽입하고 gpt-4-turbo 모델로부터 응답을 받아 yes 또는 no 여부와 사유를 반환한다.\n\n\n\n\n\n\nmain 함수는 인터랙티브한 사용자 입력을 받아 ReActAgent를 호출하는 실행 루틴이다. 사용자가 exit이라고 입력할 때까지 질의를 받고 응답을 출력하는 루프를 구성한다. 이로써 ReActAgent는 반복적인 질의응답 상황에서도 도구를 활용하여 논리적 사고 과정을 수행하고, 외부 정보에 기반한 정답을 도출할 수 있도록 설계되어 있다.\n주요 문제 유형\nReAct 기반 에이전트는 구현 및 실전 적용 과정에서 여러 구조적 문제와 비효율이 발생한다. 이러한 문제 사례를 분석하고, 실제 커뮤니티에서 공유된 해결 전략과 함께 개선 방향을 확인해 본다.\n추론 오류\n\n에이전트가 잘못된 전제나 문맥에 기반하여 부적절한 도구를 선택하거나 오답을 도출하는 문제가 빈번히 발생한다. 이는 LLM의 한계와 프롬프트 설계 미비, 또는 이전 상태 정보의 왜곡에 기인한다.\n반복 및 루프 문제\n\n에이전트가 목표에 도달하지 못하고 동일한 행동을 반복 수행하는 루프에 빠지는 문제가 자주 발생한다. 이는 max_steps 제한이 없거나, 실패 판단 기준이 모호한 경우에 두드러진다.\n결과 검증 실패\n\n에이전트가 도출한 결과가 부정확하거나 무의미함에도 불구하고, 이를 최종 결과로 판단하고 종료되는 문제가 있다. 이는 정답 여부를 평가할 수 있는 검증 메커니즘의 부재 혹은 Verifier LLM의 오판 때문이다.\n지연 및 비용 문제\n\nReAct 구조는 추론 Think, 행동 Act, 검증 Verify 단계에서 각각 LLM 호출이 필요하므로 응답 지연이 누적되며, 고성능 모델 사용 시 비용 또한 급증하게 된다.\n상태 관리 실패\n\n에이전트가 이전 문맥을 적절히 유지하지 못하거나, 기억을 잘못 참조하여 추론에 실패하는 경우가 있다. 이는 memory overflow, context 길이 초과 등으로 인해 발생한다.\n해외 커뮤니티 보고 사례\nReddit, GitHub, Hacker News 등 해외 커뮤니티에서는 위 문제들이 반복적으로 보고되고 있다. 주요 사례는 다음과 같다\nr/React 에서는 Langchain의 늦은 React 에이전트 성능에 대한 문제가 제기된 적이 있다. 이런 사례는 수도 없이 많다.\nr/AutoGPT에서는 도구 호출 반복, final answer 오류 등 루프와 검증 문제를 다룬 글들이 다수 존재한다.\n\nr/MachineLearning에서는 hallucination 문제, tool selection 오류에 대한 토론이 있다\n\n이는 ReAct 구조의 본질적인 설계 한계와 관련되며, 이를 보완하기 위한 다양한 시도들이 커뮤니티에서 논의되고 있다\n해결 방안\nVerifier LLM의 도입\n\n추론 결과에 대해 별도의 고성능 LLM을 사용하여 정답 여부를 판단하도록 구성하는 방식이다 예를 들어 GPT 35 기반 ReAct 에이전트를 GPT 4 기반 Verifier로 보완하는 사례가 있다\nConfidence 기반 조건 실행\n\nLLM이 응답에 대한 신뢰도 confidence score를 함께 출력하도록 하고, 일정 기준 미만일 경우에만 검증자 호출 또는 재시도를 수행하는 방식이다\n행동 다양성 유도 및 페널티 적용\n\n같은 도구를 반복 호출하지 않도록 행동 선택 시 다양성을 보장하거나 페널티 기반 scoring 방식을 적용한다\n결과 품질 기반 Soft Fallback 적용\n\n결과가 일정 기준 미달일 경우 완료 실패 메시지를 출력하거나, 대체 응답을 제공하는 방식으로 흐름을 마무리한다\n도메인 기반 grounding 기법\n\n도메인 특화 지식을 embedding하거나 retriever를 통해 grounding context를 제공함으로써 hallucination을 감소시키는 방식이다\nLLM 처리 지연 보완을 위한 전략\nReAct 구조에서는 LLM을 여러 번 호출하는 구조로 인해 응답 시간이 증가하는 문제가 발생한다. 이를 해결하기 위한 보완 전략은 다음과 같다\n첫째, 동일한 LLM을 사용하는 것이 아니라 추론 단계는 경량 LLM을 사용하고 검증 단계는 고성능 LLM을 사용하는 방식으로 역할 분리를 통해 효율을 높이는 방안이 있다\n둘째, LLM의 confidence score를 이용하여 신뢰도가 충분히 높은 경우에는 검증 단계를 생략함으로써 전체 호출 횟수를 줄일 수 있다\n셋째, 여러 행동 중 하나를 선택할 때 prefetch 또는 batch decoding 방식을 사용하여 예측을 병렬적으로 수행하면 전체 응답 지연을 줄일 수 있다\n넷째, 반복되는 도구 호출에 대해서는 캐싱 메커니즘을 도입하거나 결과를 저장하여 재활용함으로써 불필요한 호출을 방지할 수 있다\n다섯째, 검증자 역할을 하는 LLM을 완전한 LLM이 아니라 룰 기반 평가기 또는 소형 모델로 대체하여 빠르게 판단하게 하는 방식도 고려할 수 있다\n코드 기반 구현 예시 요약\nReAct 기반 구조는 보통 다음 흐름으로 구성된다\n\n\n사용자 입력 수신\n\nLLM을 통해 행동 계획 수립 Think\n\n해당 도구 실행 Act\n\n결과 수신 후 Verifier를 통해 정답 여부 판단 Verify\n\n정답 시 종료, 실패 시 재시도 또는 fallback 처리\n\n\n이러한 구조는 Python 코드로 구현할 수 있으며, 각 함수는 다음과 같은 역할을 수행한다\n\n\nthink goal 행동 계획 생성\n\nact action 도구 실행 및 결과 수신\n\nverify result, goal 결과 검증\n\nrun goal 전체 흐름 통제 및 반복 로직 포함\n\n\n결론\nReAct 기반 에이전트는 고도의 자율성을 지닌 시스템이나, 구조적으로 여러 한계가 존재한다. 특히 결과 검증 실패, 반복 루프, hallucination, 비용 증가 문제는 실제 운영 및 서비스화에 있어 큰 장애 요인이 된다. 이를 해결하기 위해서는 검증자 LLM 도입, confidence 기반 흐름 제어, 도구 호출의 다양성 보장, grounding 및 fallback 전략이 함께 설계될 수 있다.\n\n\n부록: 보고서 형식 AI 에이전트 패턴\nReAct 에이전트는 Reasoning and Acting의 약어로, LLM이 툴과 상호작용하며 문제를 해결하는 패턴이다. 이 구조는 인간처럼 사고하고, 필요한 정보를 외부 도구에서 검색하거나 계산을 수행한 뒤, 최종적으로 응답을 생성한다. 이로 인해 복잡한 질의나 멀티스텝 추론이 필요한 경우에 적합한 패턴으로 여겨진다. 그러나 이러한 장점에도 불구하고, LLM이 여러 차례 호출되고 툴도 반복적으로 작동하므로 응답 시간이 느려지고, API 사용량 증가로 인해 비용이 상승하는 단점이 존재한다.\n한편 단순히 보고서를 생성하는 용도로 LLM을 사용하는 경우라면, 복잡한 Reasoning이나 여러 번의 외부 툴 호출은 필요하지 않다. 이때는 ReAct 에이전트를 사용하는 것이 오히려 비효율적이며, 불필요한 구조적 복잡성과 지연을 유발한다. 따라서 보고서 자동 생성이라는 목적에 최적화된 에이전트 구조는 단일 호출 기반 구조가 적합하다.\n\n\n\n\n이 구조는 Single-Shot LLM Invocation 패턴으로 명명된다. 이 방식은 LLM을 한 번만 호출하여 입력된 요구 사항에 맞는 보고서를 즉시 생성한다. 별도의 도구 호출이나 intermediate step 없이 하나의 잘 설계된 프롬프트를 중심으로 전체 작업이 이루어진다. 이 패턴은 속도가 빠르고, 처리 흐름이 단순하며, LLM API 호출 횟수를 최소화하므로 비용이 낮다. 특히 단일 보고서, 요약, 이메일 초안, 블로그 콘텐츠와 같은 목적에 적합하며, 사용자의 입력 내용에 따라 문서 포맷이나 톤을 조정하는 것만으로 충분한 성능을 발휘한다.\n단일 호출 구조는 별도의 외부 툴이나 체인을 필요로 하지 않기 때문에 LangChain이나 ReAct 구조 없이도 Python 코드 수준에서 간단히 구현이 가능하다. 예를 들어, 사용자가 요구사항을 입력하면 그에 맞는 템플릿 기반 프롬프트를 작성하고, 이를 LLM에 전달해 한 번에 결과를 반환받는 방식이다. 이러한 프롬프트에 보고서의 형식, 어조, 길이 등을 명시하면, 결과물의 일관성과 품질도 충분히 확보할 수 있다.\n이 외에도 필요에 따라 Plan-and-Write 패턴을 고려할 수 있다. 이 패턴은 먼저 전체 문서의 개요를 작성한 뒤, 각 항목에 따라 내용을 생성하는 방식이다. 좀 더 명확한 구성과 섹션 구분이 필요할 때 유용하다. 통계 수치나 외부 데이터를 포함해야 할 경우에는 Toolformer와 같이 선택적으로 툴을 호출하는 패턴을 도입할 수 있다. 마지막으로 문서가 일정한 형식을 유지해야 하거나 후처리를 자동화해야 할 때는 Structured Prompting 패턴을 사용할 수 있으며, JSON 또는 Markdown 형식으로 문서 구조를 고정하여 일관성을 높인다.\n\n\n\n\n\n\n결론적으로, 보고서 자동 생성처럼 복잡한 추론이나 외부 툴 연동이 불필요한 작업에는 ReAct와 같은 다단계 에이전트 구조는 적합하지 않다. 대신 단일 LLM 호출로 작업을 완료하는 Single-Shot 방식이 가장 효율적이며, 프롬프트 최적화만으로 높은 품질의 결과를 얻을 수 있다. \n부록: AI 에이전트 오케스트레이션\n사용자 질문에 따라 적절한 에이전트 패턴을 선택하기 위해서는 입력의 목적과 복잡성을 빠르게 분류할 수 있는 에이전트 오케스트레이션 메커니즘이 필요하다. 다음 의사코드는 솔류션을 보여준다. \n\ndef classify_input(user_input):\n    if \"보고서\" in user_input or \"작성해\" in user_input:\n        return \"simple_generation\"\n    if \"json\" in user_input or \"표로\" in user_input:\n        return \"structured_output\"\n    if \"비교해\" in user_input or \"어떤게 더 나아\" in user_input:\n        return \"tool_assisted\"\n    if \"계산\" in user_input or any(op in user_input for op in \"+-*/\"):\n        return \"tool_assisted\"\n    return \"multi_step_reasoning\"\n\n\n\ndef classify_input(user_input):\n    result = rule_based_classifier(user_input)\n    if result == \"unknown\":\n        return llm_classifier(user_input)\n    return result\n\n\n여기서는 classify_input 함수가 사용되며, 이 함수는 사용자의 입력 문장을 분석하여 어떤 처리 패턴이 적합한지를 판단하는 역할을 수행한다. 하지만 이 함수 자체가 느리거나 LLM 호출을 과도하게 유발하면 전체 시스템의 응답성이 떨어지므로, 이를 빠르게 실행할 수 있는 설계가 중요하다.\nclassify_input을 빠르게 실행하기 위한 방법은 크게 세 가지로 구분된다. 첫 번째는 경량 LLM을 사용하는 방식이다. 이 방법은 GPT-3.5 Turbo, Claude Instant, DistilBERT 등의 속도가 빠른 경량 언어 모델을 활용하여 입력을 분류하는 방식이다. 프롬프트는 미리 정의된 범주 중에서 입력이 어떤 태스크 유형에 해당하는지를 선택하게 하며, 이에 따라 적절한 패턴으로 연결된다. 이 방식은 유연하고 적응력이 높지만, 여전히 LLM 호출이기 때문에 응답 속도에 영향을 줄 수 있다. 그럼에도 불구하고 ReAct 등 복잡한 구조보다는 훨씬 빠르고 저비용이다.\n두 번째 방식은 규칙 기반 분류 방식이다. 이는 키워드 기반으로 입력 문장을 빠르게 분류하는 방법으로, 예를 들어 ‘보고서’, ‘작성해’ 등의 단어가 포함되어 있으면 단순 생성 태스크로 간주하고, ‘비교’, ‘계산’, ‘표로’ 등의 단어가 있으면 툴 기반 또는 구조화된 출력을 요구하는 태스크로 분류하는 것이다. 이 방식은 매우 빠르며, 수 마이크로초 이내에 실행이 가능하고, 비용도 발생하지 않는다. 그러나 복잡한 문장이나 여러 의미가 섞인 문장에 대해서는 정확하게 분류하지 못할 위험이 있다.\n세 번째는 하이브리드 방식이다. 이 방식은 앞서 언급한 규칙 기반 분류기를 우선 사용하고, 그 결과가 불확실하거나 unknown일 경우에만 경량 LLM을 호출하여 보완 분류를 수행한다. 이 구조는 속도와 정확도 사이의 균형을 잡기 위해 매우 현실적인 대안이며, 실제로 OpenAI API 기반 에이전트나 LangChain의 라우팅 모듈에서도 유사한 방식이 채택된다. 구현은 상대적으로 복잡할 수 있으나, 전체 시스템의 응답성과 품질을 함께 유지할 수 있는 방법이다.\n\n\n\n\n\n결론적으로 classify_input 함수를 빠르게 실행하기 위해서는 입력의 유형과 빈도에 따라 최적화 전략을 선택해야 한다. 단순한 텍스트 입력이 반복되는 시스템에서는 규칙 기반 분류기로 충분하며, 복합 입력이 자주 등장하는 환경에서는 하이브리드 분류기를 설계하는 것이 이상적이다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://ppss.kr/archives/269141",
-    "pubDate": "Mon, 12 May 2025 09:02:16 +0000",
-    "creator": "광화문덕",
-    "categories": [
-      "IT",
-      "경제",
-      "역사"
-    ]
+    "link": "http://daddynkidsmakers.blogspot.com/2025/05/react.html",
+    "pubDate": "2025-05-18T05:02:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "prisma migrage 꼬인거 해결하기",
-    "description": "이글 보고 참고 했습니다.\n글: https://jamie-em-lee.tistory.com/115\n\n \nPrisma 스키마 동기화 중 Schema Drift 발생 시 데이터베이스 리셋 없이 해결하기\n개요 내가 일하는 곳은 Prisma + PostgreSQL을 스택으로 한다. 프리즈마 스키마와 데이터베이스 스키마 동기화 과정 중에 발생한 스키마 드리프트(schema drift)를 어떻게 리셋 없이 해결했는지 작성해보\njamie-em-lee.tistory.com\n\n \n글내용이 맞으며 저는 이상한짓을 해서 추가로 작업을 더 해야했습니다.\n \nDateTime 에 기본값을 특정 날짜로 하려다 실패를 했는데 이후에 할줄을 몰라\n/prisma/migrate 폴더를 주워 보기도 하고\ndb 에 _prisma_migrations 테이블을 지워보기도 했는데 \n이러면 더 꼬여버려서 db 지우고 다시하라는 애러가 뜬 상태였습니다.\n\n\nreset 을 하면 말그대로 디비가 다 날아가서 텅빈 상태가 됩니다.\n \n먼저 db 와 내 schema.prisma 와의 차이를 구합니다.\nnpx prisma migrate diff ` \n    --from-schema-datasource .\\prisma\\schema.prisma ` \n    --to-schema-datamodel .\\prisma\\schema.prisma ` \n    --script > .\\prisma\\rollback.sql \nVSCODE 에서 열어봅니다.\npowershell 에서는 ` 글자(숫자1 왼족의 키) 가 멀티라인 명령어를 의미합니다.\n\n\npowershell 에서 텍스트를 추출하면 utf-16 이 되는거 같습니다.\n이 상태로는 사용할 수 없으니 utf-8 로 변경해줍니다.\n[UTF-16] 이라고 표시된 부분을 클릭합니다.\n\n\n상단에 Save with Encoding 누릅니다.\n\n\nUTF-8 고릅니다.\nUTF-8 with BOM 은 안해봤습니다. 글자 앞에 2글자의 특수값이 들어가는데 없어도 될꺼 같습니다.\nnpx prisma db execute ` \n    --file .\\prisma\\rollback.sql ` \n    --schema .\\prisma\\schema.prisma \n쿼리를 전송합니다.\n성공하면 이다음부터는 정상적으로 사용 가능합니다.\nnpx prisma migrate dev\n \n저는 위에서한 뻘짓 때문에 살아나지 못했고\ndb 백업후에 다 날리고 reset 하고 마이그래이트 다시 진행했습니다.",
+    "title": "디아2 요르단의 반지 주음",
+    "description": "레더 악몽 안다리엘 잡다 나왔습니다.\n안다리엘이 이것저것 잘 주네요\n거의 20년 플레이하는동안 처음 주워봤습니다. ㅎㅎ\n\n\n야만용사로 하는데 마법 아이템 발견 확율이 높지 않군요 \n100% 되는줄 알았는데 \n아무튼 잘나오네요",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1326",
-    "pubDate": "Sun, 18 May 2025 19:51:11 +0900",
+    "link": "http://serverdown.tistory.com/1318",
+    "pubDate": "Wed, 14 May 2025 12:10:55 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "프로그래밍/개발메모",
-      "Prisma",
-      "문제해결",
-      "프리스마"
+      "게임"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "The Early Access Program for ReSharper and .NET Tools 2025.2 Has Begun!",
-    "description": "We’re excited to announce that the Early Access Program (EAP) for ReSharper and .NET Tools 2025.2 is now underway! The first build is available for download, giving you a sneak peek into the features and improvements coming in the next major release. As always, your feedback is key to shaping the final version – we’d […]",
+    "title": "토스, 2025년 1분기 연결 영업수익 5,679억 원…전년 동기 대비 29.1% 성장",
+    "description": "연결 영업이익 709억 원, 연결 당기순이익 489억 원으로 흑자 기조 이어가",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/05/16/resharper-2025-2-eap-1/",
-    "pubDate": "Fri, 16 May 2025 11:00:26 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "eap",
-      "news",
-      "releases",
-      "resharper",
-      "early-access-program"
-    ]
+    "link": "https://blog.toss.im/article/251Q",
+    "pubDate": "Thu, 15 May 2025 07:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 5,
-    "imageUrl": "",
-    "title": "2025-05-16 (금) 개발일지",
-    "description": "1. 앨릭서 시작\n영상과 버전이 달라서 명령어가 이상하게 동작했다.\n큰일이다.\n \n영상: https://www.youtube.com/watch?v=IiIgm_yaoOA&t=1578s\n\n\n\n영상의; 상황\n\n\n내 상태\n$ elixir -v \nErlang/OTP 27 [erts-15.2.7] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [jit:ns] \nElixir 1.18.3 (compiled with Erlang/OTP 25)\n \n설치 페이지에서 제공되는 버전\n설치페이지: https://elixir-lang.org/install.html#windows\n\n\niex 하면 프로그램가능한 상태가 되어야하는데 나는 추가 명령어를 오청받고 있다.\n컴터 재부팅하니 영상처럼 프로그램 가능한 상태로 돌아왔다.\n다행이다.\n \n \n \n \n2. 비트액스 홈페이지 개선\n기기별 가성비 추천을 해주려는데 아직은 보기 불편하다.\n해시레이트 / 소비전력 => 성능\n성능 / 가격 => 가성비\n이런식으로 표시해야겠다.\n가격이 중요하니 유저들보고 가격 넣으라고 하면 좋을꺼 같다.\n수정전 \n\n\n화면엔 안보이지만  가로로 스크롤도 표시되고 잇다.\n화면크기보다 큰 페이지가 표시되는거 같다.\n \n고친 후\n\n\n왜이케 비였냐...\n이상한 가로 스크롤 자꾸 생겨서 보기 안좋았다.\n페이지 시작할때 이거 두개를 넣어줘서 해결했는데 모든 사이트에 적용해야겠다.\n\n\n \n \n3. apps 의 모바일 표시가 이상하다.\n\n\n위에 비트액스랑 동일한 문제인데.\n같이 수정해줘야겠다.\n수정후:\n결과 페이지: https://apps.sidnft.com/\n \n수정후 영상: https://youtu.be/z5BdUTrJC8w\n\n\n\n1. 좌우 스크롤을 제거함 (화면 크기보다 큰 무언가가 있어서 제거했음)\n2. 모바일 해상도 대응\n완성도좀 높이자!",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1323",
-    "pubDate": "Fri, 16 May 2025 12:46:59 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "개발일지"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Join JetBrains PHPverse to Celebrate 30 Years of PHP",
-    "description": "PHP turns 30 this June, and we’re looking forward to celebrating this notable milestone together with you!  On June 17, 2025, we’re hosting JetBrains PHPverse 2025, where prominent people from the PHP community will come together and share their thoughts about the state and the future of the modern PHP language and ecosystem. This is […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/05/join-jetbrains-phpverse-to-celebrate-30-years-of-php/",
-    "pubDate": "Fri, 16 May 2025 14:33:48 +0000",
-    "creator": "Hanna Yakush",
-    "categories": [
-      "news",
-      "php30",
-      "phpverse"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Building Cloud-Ready Apps Locally: Spring Boot, AWS, and LocalStack in Action",
-    "description": "Developing an application with AWS services can introduce significant local‑development hurdles. Often, developers don’t receive timely AWS access, or a sysadmin inadvertently grants credentials for the wrong account – only to fix the error a week later. Then, when engineers discover they still lack permissions for certain resources, they must endure yet another week-long wait […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/05/building-cloud-ready-apps-locally-spring-boot-aws-and-localstack-in-action/",
-    "pubDate": "Tue, 13 May 2025 11:31:31 +0000",
-    "creator": "Siva Katamreddy",
-    "categories": [
-      "idea",
-      "java",
-      "tutorials",
-      "aws",
-      "localstack",
-      "spring-boot",
-      "spring-cloud-aws",
-      "testcontainers-2"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "퇴근의 빛",
-    "description": "퇴근의 빛\n\n\n출근 시간엔 앞만 보고 걷던 이들도,\n퇴근길엔 잠시 발걸음을 멈추고 노을 앞에 마음을 내려놓는다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hodolman.tistory.com/74",
-    "pubDate": "Tue, 13 May 2025 23:56:06 +0900",
-    "creator": "호돌맨",
-    "categories": [
-      "사진",
-      "광교",
-      "노을",
-      "종각"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "[MULTI] 브레이크 달린 8톤 트럭, 둠: 더 다크 에이지스",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2304",
-    "pubDate": "Wed, 14 May 2025 13:30:31 +0900",
-    "creator": "「RULIWEB」",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Splunk의 날짜 계산",
-    "description": "최근 30일 데이터의 주간 단위 발생 통계. '월~일요일' 단위 집계 결과를 보여준다.\n\n\n\n\n4월 데이터의 주간 단위 발생 통계. '화~월요일' 단위 집계 결과.\n\n\n\n\n주간 단위 집계 범위가 달라지는 이유는 선택 범위에 따라 시작일이 달라지니까. 원하는 범위가 '월~일요일'이라면 시작일을 월요일로 지정하면 된다. 디폴트는 일요일(w0).\n\n\n\n\n주간 단위 변화를 좀 더 세밀하게 보고 싶다면? \n\n\nrelative_time 함수를 이용하면 특정일을 기준으로 원하는 날짜를 계산할 수 있다.\n\n\n\n\n집계 분할 기준으로 사용할 날짜별 주간 범위(월~일요일) 필드 추가.\n\n\n\n\n\n관련 글\n\nSplunk의 unix time",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/05/splunk.html",
-    "pubDate": "2025-05-14T13:56:00.003Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "AI로 생성한 이미지는 어떻게 평가할까요? (블랙박스 최적화 적용편)",
-    "description": "생성형 AI 모델로 이미지 생성은 쉽죠, 그런데 '좋은 이미지' 생성도 쉬웠으면 좋겠어요!저희 회사에는 고유한 비율로 최소한의 디테일만 유지한 채 인체와 개체를 정의하는 이미지 스...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/how-to-evaluate-ai-generated-images-2-blackbox-optimization",
-    "pubDate": "Mon, 12 May 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "(APPS 업데이트) 개발 진행 상황 표시 추가",
-    "description": "변경점\n빌드를 하면 버전이 올라가는 기능을\n버전이 올라가면 날짜를 기록하는 기능을 추가했고\n이것을 홈페이지에 표시하도록 했습니다.\n\n\n일단 show 버튼이 있고 누르면\n\n\n버전 과 빌드 후 얼마의 시간이 경과 하였는지 표시됩니다.\n버전을 보면 얼마나 고쳤는지 알 수 있고\n시간을 보면 최근에 뭘했는지 알 수 있습니다.\n페이지: https://apps.sidnft.com/\n페이지 하단에 위치합니다.\n \n할일 추가\n1. show 버튼에 애니메이션 (다른 곳에 작업한거 통함)\n2. 로딩 애니메이션 추가  (다른 곳에 작업한거 통함) \n3. 별도의 페이지로 분리",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1317",
-    "pubDate": "Tue, 13 May 2025 11:55:55 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "업데이트",
-      "자작"
-    ]
-  },
-  {
-    "id": 13,
     "imageUrl": "",
     "title": "2025-05-17 (토) 개발일지 / 서버 죽음 / 개인정보처리방침",
     "description": "1. 죽은 웹서버 원인 파악\n일어나보니 웹서버가 죽어있었습니다.\n누가 /?XDEBUG_SESSION_START=phpstorm\n이런식으로 호출했나봅니다.\nphpstorm 의 취약점을 노리는 걸까요\n제 express 서버는 없는 파일에 대한 예외처리가 없어서 프로그램이 종료되었습니다.\nENOENT: no such file or directory, open '/home/gunil/pto/node-sidnft-firebase/pi4server/public/?XDEBUG_SESSION_START=phpstorm' \n    path: \"/home/gunil/pto/node-sidnft-firebase/pi4server/public/?XDEBUG_SESSION_START=phpstorm\", \n syscall: \"open\", \n   errno: -2, \n    code: \"ENOENT\"\n \n\n\n아래에 catch 가 있지만 이곳으로 예외가 오진 않습니다.\nfs.createReadStream\n함수는 await 로 실행되는게 아니라서 다른 분기를 타는 것이겠지요\n전용 에러 처리함수인 on(\"error\" ~~~) f를 추가로 넣었습니다.\n \n2. 신규 앱 심사  거부 사유 체크\n\n\n오래전에 웹 페이지를 만들고 관리를 안했는데\n개인정보처리방침 부분은 날림으로 만들었습니다..\n\" 개인정보처리방침\" 이라는 문구가 표시되어야하고 ....\n타이틀에도 표시하라고 본문에도 영어/한국어 다 적었습니다.\n타이틀 수정은 자바스크립트로\ndocument.title = \"~~~\";\n 이런식으로 하면 바로 바꼈습니다.\n추가로 혹시나 해서 개인정보처리방침 URL 도 수정해서 다시 검토 신청 했습니다.",
@@ -209,49 +70,169 @@
     ]
   },
   {
-    "id": 14,
+    "id": 6,
     "imageUrl": "",
-    "title": "단 5분 만에 SEO 최적화된 멋진 블로그 글 완성? Gemini Gem 지침 전격 공개!",
-    "description": "블로그 글쓰기, 아직도 시간과 씨름하고 계신가요? SEO 최적화는 물론, 전문가 수준의 시각화까지! 이제 Gemini AI와 특별 제작된 Gem 지침으로 놀라운 변화를 경험하세요. 이 글 하나로 모든 것을 알려드립니다!\n\n\n \n 혹시 블로그 포스팅 하나 만드는 데 얼마나 시간을 쏟고 계신가요? 좋은 콘텐츠를 만들고 싶은 마음은 굴뚝같지만, 막상 키보드 앞에 앉으면 아이디어 구상부터 자료 조사, 글쓰기, 이미지 편집, 그리고 가장 머리 아픈 SEO 최적화까지... 정말 만만치 않은 작업이죠. 저도 예전에는 글 하나 올리려면 몇 시간은 훌쩍 넘기기 일쑤였어요. 하지만 만약 이 모든 과정을 단 몇 분 만에, 그것도 전문가 수준으로 해낼 수 있다면 어떨 것 같으세요? 오늘은 바로 그 마법 같은 이야기를 해보려고 합니다! ✨\n \n* 본 포스팅은 지금 소개하는  'SEO 최적화 시각화 Gem 지침'  를 사용하여 생성하였습니다. \n  자세한 사용법은 본문 아래 유튜브 영상을 참고하세요!\n \nGemini AI와 'Gem 지침'이란 무엇일까요?  \n최근 구글에서 선보인 Gemini AI는 정말 놀라운 능력을 보여주고 있는데요, 특히 제미나이 2.5 플래시 모델은 응답 속도도 빠르고, 무료 사용자도 충분한 컨텍스트 용량과 사용량을 제공해서 콘텐츠 제작에 아주 유용해요. 기존의 AI 도구들이 유료 구독을 해도 긴 글을 생성할 때 잘리거나, HTML 코드를 한 번에 만들기 어려웠던 점을 생각하면 정말 획기적이죠.\n여기에 더해 'Gem 지침'(Gems)이라는 강력한 기능이 있는데요, 이건 마치 Gemini AI에게 특별한 임무를 부여하는 것과 같아요. 사용자가 원하는 특정 목적에 맞게 AI를 맞춤 설정해서, 해당 분야의 전문가처럼 똑똑하게 만들어주는 기능이랍니다!\n \n✨ 특별 제작! 'SEO 최적화 & 시각화 Gem 지침' 무료 배포!  \n그래서 제가 직접 만들었습니다! 바로 블로그 포스팅에 특화된 'SEO 최적화 & 시각화 Gem 지침'인데요, 이 지침을 Gemini AI에 적용하면 마치 전문 블로그 편집팀이 옆에서 도와주는 것처럼 퀄리티 높은 글을 순식간에 완성할 수 있어요. 더 놀라운 건, 이 강력한 Gem 지침을 여러분께 완전 무료로 배포한다는 사실!\n이 Gem 지침의 주요 특징은 다음과 같아요:\n자동 SEO 최적화: 글의 주제에 맞춰 핵심 키워드를 자연스럽게 배치하고, 검색 엔진이 좋아하는 구조로 글을 작성해줘요. JSON-LD 스키마도 포함되어 있어 검색 결과 노출에 유리하답니다!\n전문가 수준의 시각화: 단순히 텍스트만 나열하는 것이 아니라, 가독성을 높이는 다양한 시각적 요소(예: 정보 박스, 표, 하이라이트, 요약 카드 등)를 자동으로 적용해줘요.\n다섯 가지 컬러 테마: 블로그 분위기나 개인 취향에 맞게 5가지 전문가 디자인의 컬러 테마 중 하나를 선택할 수 있어요. 오늘은 그중에서도 '블루-그레이' 테마를 적용한 예시를 보여드릴 거예요!\n인터랙티브 요소 추가 가능: 필요에 따라 계산기나 자가진단 테스트 같은 간단한 JavaScript 기반의 인터랙티브 요소도 요청할 수 있답니다.\n시간 절약 & 품질 향상: 이 모든 과정을 통해 블로그 작성 시간을 획기적으로 줄이면서도, 콘텐츠의 질은 오히려 높일 수 있어요!\n  알아두세요!\n이 Gem 지침은 정보 제공형 콘텐츠(튜토리얼, 가이드, 설명서, 안내문 등)에 특히 효과적이에요. 물론, 창의적인 아이디어를 더하면 다양한 주제의 블로그 포스트에도 활용 가능하답니다!\n \n  'SEO 최적화 & 시각화 Gem 지침' 설정 방법 (초간단!)\n자, 그럼 이 멋진 Gem 지침을 어떻게 설정하는지 알아볼까요? 정말 간단하니 차근차근 따라 해 보세요.\nGem 지침 파일 다운로드: 제가 제공하는 링크를 통해 Gem 지침 파일(txt)과 5가지 컬러 테마 샘플 파일들을 다운로드 받으세요. (실제 배포 시 여기에 다운로드 링크가 제공될 예정입니다!)\nGemini AI 접속 및 'Gem 탐색': Gemini AI (gemini.google.com)에 접속한 후, 왼쪽 메뉴에서 'Gem 탐색'(또는 유사한 메뉴)을 클릭하세요.\n새로운 Gem 만들기: '새 Gem 만들기'(또는 '+') 버튼을 클릭합니다.\nGem 이름 지정: 생성할 Gem의 이름을 입력해주세요. 예를 들어 \"나만의 블로그 비서\"처럼요!\n지침 붙여넣기: 다운로드한 Gem 지침 파일(SEO 최적화 블로그 GEMS 지침.txt)의 내용을 복사해서 '요청사항' 입력란에 그대로 붙여넣으세요.\n지식 파일 추가: 함께 다운로드한 5가지 컬러 테마 샘플 파일들을 '지식' 에 '파일 첨부' 합니다. 이렇게 하면 Gem이 다양한 테마를 이해하고 적용할 수 있게 됩니다.\n저장하면 끝!: 마지막으로 '저장' 또는 '만들기' 버튼을 누르면 여러분만의 강력한 블로그 작성 Gem이 탄생합니다! 정말 쉽죠?  \n  잠깐! 컬러 테마 파일은 왜 필요할까요?\n컬러 테마 샘플 파일들은 Gem AI가 각 테마의 색상 조합, 분위기, 스타일을 학습하는 데 사용돼요. 이 파일들을 '지식'으로 제공함으로써, 여러분이 특정 테마를 요청했을 때 AI가 해당 테마의 디자인 가이드라인에 맞춰 일관성 있고 아름다운 결과물을 생성할 수 있도록 돕는답니다.\n \n  Gem 지침, 이렇게 활용해보세요! (활용팁 & 주의사항)\nGem 지침을 만들었다면, 이제 사용하는 일만 남았죠!\n주제 선정 및 키워드 리서치: 글을 쓰기 전에 어떤 주제로 쓸지, 어떤 키워드를 포함할지 미리 생각해보세요. 주요 키워드를 2~3개 포함해서 요청하면 SEO에 더욱 효과적인 글을 얻을 수 있어요.\nGem 실행 및 주제 입력: 만들어둔 Gem을 실행하고, 작성하고 싶은 블로그 포스트의 주제를 입력하세요. 예를 들어, \"건강한 아침을 위한 5가지 습관\"처럼요.\n컬러 테마 선택: Gem이 컬러 테마를 선택하라고 물어볼 거예요. 그때 원하는 테마 번호(예: 1번 블루-그레이)를 입력하면 됩니다.\n결과 확인 및 수정: 잠시 기다리면 HTML 코드로 된 블로그 포스트가 뚝딱 만들어질 거예요! 결과물을 바로 블로그에 붙여넣기 전에, CodePen 같은 HTML 미리보기 도구를 사용해서 디자인이나 내용에 수정할 부분은 없는지 확인하는 것이 좋아요.\n⚠️ 주의하세요!\nGemini AI는 매우 뛰어나지만, 때로는 부정확하거나 어색한 내용을 생성할 수도 있어요. 특히 YMYL(Your Money Your Life)처럼 민감한 주제에 대해서는 반드시 생성된 내용을 꼼꼼히 검토하고, 필요한 경우 전문가의 도움을 받아 사실관계를 확인하는 것이 중요합니다.\n \n \n \n'SEO & 시각화 Gem 지침' 핵심 요약\n✨ Gem 지침이란?: Gemini AI를 특정 목적에 맞게 최적화하는 맞춤 설정 기능!\n  무료 배포 혜택: SEO 최적화, 전문가급 시각화, 5가지 컬러 테마, 시간 절약까지!\n ️ 초간단 설정: 제공된 지침/샘플 파일 다운로드 후 Gem에 복사 & 붙여넣기하면 끝!\n  똑똑한 활용법: 주제 선정 → Gem 실행 → 테마 선택 → 결과 확인 및 최종 검토!\n지금 바로 Gem 지침을 활용해 블로그 콘텐츠 제작의 신세계를 경험하세요!\n자주 묻는 질문 ❓\nQ: 이 Gem 지침은 어떤 블로그 플랫폼에서 사용할 수 있나요?\nA: Gem 지침은 HTML 코드를 생성해주기 때문에, 티스토리, 워드프레스 등 대부분의 HTML 편집을 지원하는 블로그 플랫폼에서 사용 가능합니다.\nQ: 코딩을 전혀 모르는데 사용하기 어렵지 않을까요?\nA: 전혀요! Gem 지침 설정은 단순히 텍스트 파일을 복사해서 붙여넣는 수준이며, 생성된 HTML 코드도 전체 복사해서 블로그 글쓰기 창의 HTML 모드에 붙여넣기만 하면 됩니다. 코딩 지식 없이도 충분히 활용 가능해요.  \nQ: Gem 지침을 사용하면 무조건 상위 노출이 되나요?\nA: SEO(검색 엔진 최적화)는 매우 복잡하고 다양한 요인이 작용합니다. 이 Gem 지침은 기술적인 SEO 요소(키워드 배치, 구조화된 데이터 등)를 상당 부분 자동화해주어 검색 결과에 긍정적인 영향을 줄 수 있지만, 콘텐츠의 질, 독창성, 다른 웹사이트의 링크 등 다른 중요한 요소들도 함께 관리되어야 합니다. 꾸준히 양질의 콘텐츠를 발행하는 것이 가장 중요해요!\nQ: 제공되는 5가지 컬러 테마 외에 다른 디자인을 사용하고 싶으면 어떻게 하나요?\nA: 물론입니다! 제공되는 Gem 지침과 컬러 테마 샘플 파일을 참고하여 CSS 스타일 코드를 직접 수정하시면 자신만의 독창적인 디자인을 만들 수 있습니다. HTML과 CSS에 대한 약간의 지식이 있다면 더욱 다양한 시도를 해볼 수 있겠죠?\n자, 어떠셨나요? 이제 여러분도 Gemini AI와 제가 제공하는 'SEO 최적화 & 시각화 Gem 지침'을 활용해서 블로그 콘텐츠 제작의 효율성과 품질을 한 단계 끌어올릴 수 있습니다! 앞으로 이 Gem 지침이 여러분의 성공적인 블로그 운영에 큰 도움이 되기를 바랍니다. 더 궁금한 점이 있으시거나 Gem 지침 파일이 필요하시면 언제든지 댓글로 문의해주세요!  \n \n지침 다운로드\n \n\n    \n\n    \nSEO 최적화 블로그 GEMS 지침.zip\n0.03MB",
+    "title": "ReSharper Comes to Microsoft Visual Studio Code: Public Preview Now Open",
+    "description": "For the past 20 years, ReSharper has been the legendary .NET productivity tool that changed how millions of developers explore, write, and improve their code in Microsoft Visual Studio. Today, we’re bringing this transformative experience to a new environment. ReSharper is now available as an extension for Visual Studio Code. Whether VS Code is your […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483588",
-    "pubDate": "Sat, 17 May 2025 20:49:08 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://blog.jetbrains.com/dotnet/2025/05/19/resharper-comes-to-microsoft-visual-studio-code/",
+    "pubDate": "Mon, 19 May 2025 11:10:42 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 언어 모델",
-      "AI 블로깅",
-      "gem 지침",
-      "Gemini",
-      "html 생성",
-      "SEO 최적화",
-      "무료 ai",
-      "블로그 글쓰기",
-      "블로그 자동화",
-      "시각화",
-      "콘텐츠 생성 ai"
+      "net-tools",
+      "news",
+      "releases",
+      "resharper",
+      "eap",
+      "lsp",
+      "public-preview",
+      "release",
+      "resharper-for-vs-code",
+      "visual-studio-code",
+      "vs-code"
     ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "미즈노 배드민턴화 정리",
+    "description": "웨이브 팡2\n\n\n웨이브팡 EL2\n\n\n스텔스 네오2\n\n\n클로 네오2\n\n\n클로3\n\n\n65z3\n\n\n65z4",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hodolman.tistory.com/75",
+    "pubDate": "Sun, 18 May 2025 19:33:54 +0900",
+    "creator": "호돌맨",
+    "categories": [
+      "우당탕탕 대모험"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Qodana’s New Insights Dashboard Provides Cross-Project Code Analysis Data",
+    "description": "Managing code quality can be a challenge in itself, even without the complexity of multiple projects. Thanks to our new Insights dashboard you can now get a near-instant overview of the code quality and performance of all your projects whenever you need it, without having to constantly switch between projects. Get Qodana Who is it […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2025/05/insights-dashboard-cross-project-code-analysis/",
+    "pubDate": "Mon, 19 May 2025 19:20:34 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "releases",
+      "code-quality",
+      "dashboards",
+      "qodana"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "2025-05-16 (금) 개발일지",
+    "description": "1. 앨릭서 시작\n영상과 버전이 달라서 명령어가 이상하게 동작했다.\n큰일이다.\n \n영상: https://www.youtube.com/watch?v=IiIgm_yaoOA&t=1578s\n\n\n\n영상의; 상황\n\n\n내 상태\n$ elixir -v \nErlang/OTP 27 [erts-15.2.7] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [jit:ns] \nElixir 1.18.3 (compiled with Erlang/OTP 25)\n \n설치 페이지에서 제공되는 버전\n설치페이지: https://elixir-lang.org/install.html#windows\n\n\niex 하면 프로그램가능한 상태가 되어야하는데 나는 추가 명령어를 오청받고 있다.\n컴터 재부팅하니 영상처럼 프로그램 가능한 상태로 돌아왔다.\n다행이다.\n \n \n \n \n2. 비트액스 홈페이지 개선\n기기별 가성비 추천을 해주려는데 아직은 보기 불편하다.\n해시레이트 / 소비전력 => 성능\n성능 / 가격 => 가성비\n이런식으로 표시해야겠다.\n가격이 중요하니 유저들보고 가격 넣으라고 하면 좋을꺼 같다.\n수정전 \n\n\n화면엔 안보이지만  가로로 스크롤도 표시되고 잇다.\n화면크기보다 큰 페이지가 표시되는거 같다.\n \n고친 후\n\n\n왜이케 비였냐...\n이상한 가로 스크롤 자꾸 생겨서 보기 안좋았다.\n페이지 시작할때 이거 두개를 넣어줘서 해결했는데 모든 사이트에 적용해야겠다.\n\n\n \n \n3. apps 의 모바일 표시가 이상하다.\n\n\n위에 비트액스랑 동일한 문제인데.\n같이 수정해줘야겠다.\n수정후:\n결과 페이지: https://apps.sidnft.com/\n \n수정후 영상: https://youtu.be/z5BdUTrJC8w\n\n\n\n1. 좌우 스크롤을 제거함 (화면 크기보다 큰 무언가가 있어서 제거했음)\n2. 모바일 해상도 대응\n완성도좀 높이자!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1323",
+    "pubDate": "Fri, 16 May 2025 12:46:59 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "개발일지"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "🎉 Visual Studio 2022 v17.14 is now generally available!",
+    "description": "We’re thrilled to announce the general availability of Visual Studio 2022 version 17.14! This release continues our mission to empower developers with faster, smarter, and more productive tools across all workloads. There is so much for developers to love in this release, so be sure to check out the release notes for the full list. […]\nThe post 🎉 Visual Studio 2022 v17.14 is now generally available! appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-14-is-now-generally-available/",
+    "pubDate": "Tue, 13 May 2025 17:24:25 +0000",
+    "creator": "Mads Kristensen",
+    "categories": [
+      "Accessibility",
+      "Artificial Intelligence",
+      "Debug",
+      "Git",
+      "GitHub Copilot",
+      "Performance",
+      "Productivity",
+      "Visual Studio",
+      "Agent Mode",
+      "Debugging and Diagnostics",
+      "Next Edits Suggestion"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "토스, 국내 최초 ‘한도 높은 신용카드 찾기’ 전 카드사 입점 완료",
+    "description": "금융소비자 선택 폭 넓어져",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/card",
+    "pubDate": "Thu, 15 May 2025 04:28:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "프로세스를 촘촘하게 만드는 사람",
+    "description": "최근에 쿠팡의 조직 문화에 대해 이야기를 나눌 기회가 있었다.\n쿠팡의 인재론은 한 축은 실적, 한 축은 가치관으로 평가한다.\n실적이 좋고 가치관이 훌륭한 사람은 스타(star),\n실적도 안 되고 가치관이 엉망인 사람은 개(dog)다.\n실적은 안 좋고 가치관이 잘 맞는 사람은 물음표(?)다.\n가장 문제는 실적이 좋지만 가치관이 안 맞는 사람이다.\n이런 사람은 독(poison)으로 분류한다.\n장기적으로 독을 밀어내고 물음표를 과감하게 기용할 수 있는 혜안이 필요하다.\n문화가 항상 앞서야 한다.\n회사에 핵심 가치가 필요한 이유다.\n쿠팡을 다녀본 적은 없지만, 각자가 경험한 조직들을 기준으로 이 스타(star), 개(dog), 물음표(?), 독(poison) 에 대해 나눴다.\n그러다 어떤 사람이 독(poison) 인가에 대한 질문이 나왔다.\n이에 대해 여러 이야기가 나왔지만, 나는 \"프로세스/제도를 더 촘촘하게 만드는 사람이 독인것 같다\" 는 이야기를 했다.\n바쁘게 일 하느라 저녁 식사를 제때 못하는 분들을 위해 회사가 김밥을 준비했다.\n\"저녁 식사 못하고 야근하신 분들은 김밥 드세요\" 라는 회사의 공지가 나왔다.\n일부의 사람이 30분 야근을 하면서 퇴근길에 이 김밥을 챙겨가기 시작했다.\n김밥의 양이 부족해서 원래 목적이였던 사람들은 여전히 제때 끼니를 챙기지 못했다.\n이후에는 김밥을 가져갈 수 있는 조건이 하나둘씩 생기기 시작했다.\n9시 이후 퇴근 하시는 분들만 가져갈 수 있습니다.\n김밥 수령하신 분들은 이름을 작성해주세요.\n대리 수령은 안됩니다.\n등등.\n하나둘씩 김밥을 먹을 수 있는 조건들이 촘촘하게 만들어지기 시작하니 이제는 진짜 김밥을 먹길 바랬던 대상자들도 먹지 않게 되었다.\n\"김밥을 먹으면 8시까지 무조건 야근 해야하는구나\"\n\"김밥 하나 먹으려고 너무 짜친다 그냥 안먹고 일 하련다\" 등등의 이유로 말이다.\n소수의 오남용 하는 사람들로 조직의 프로세스, 제도는 더 촘촘하게 만들어진다.\n그리고 촘촘하게 만들수록 조직은 제대로 굴러가기 힘들고 짜치는 조직이 되어간다.\n누군가는 이렇게 얘기할 수도 있다.\n\"아니 김밥 그거 얼마나 한다고 넉넉하게 준비하면 되지 뭐 이렇게 치사하게 구냐\" 라고.\n근데 김밥이라는건 조직에서 관리하는 일종의 리소스를 표현한 것 뿐이다.\n회사의 모든 리소스는 항상 제한된 상황에서 운영된다.\n아무리 필요한 사람이 있더라도 의도와 다르게 오남용하는 것까지 고려해서 충분한 리소스가 확보되어야만 모든 프로세스와 제도가 도입되어야하는 것인가?\n아무리 필요한 사람이 있더라도 그만큼의 리소스가 확보되지 않으면 도입을 못하는 것인가?\n그건 아닐 것이다.\n더 열정적으로 일을 하는 사람들이 있다면 그들을 위해 지원해야할 것들이 있다면 더 지원해야하고, 프로세스와 제도는 더 느슨하게, 더 자유롭게 활용할 수 있도록 해야한다.\n그렇지만 특정 몇 명으로 인해 프로세스와 제도가 계속해서 촘촘하게 만들어진다면 그들은 조직을 망치는 사람들로서 경계해야한다.\n\"기준이 모호하니깐 사람들이 프로세스를 악용한다\" 라는 이야기는 반은 맞지만 반은 맞지 않다.\n기준을 명확하게 만들려고, \"이럴때는 이렇게 하셔야 하고, 저럴때는 저렇게 하셔야 합니다\" 라는 형태로 프로세스가 계속해서 촘촘하게 만들어지는 것이 더 성과내기 좋은 조직이란 말인가?\n\"프로세스가 모호하다고 느껴질 때 그때 개인의 이득이 되는 선택을 하느냐, 전체에 이득이 되는 선택을 하느냐\"에 따라 프로세스가 더 촘촘해지기도 하고, 더 느슨해지기도 한다.\n프로세스가 모든 상황에 대해서 정확하게 가이드를 할 순 없다.\n프로세스가 촘촘할수록 개인별 역량과 도전은 제한받을 수 밖에 없다.\n프로세스 혹은 제도는 최소한의 기본을 가지고 있고,\n대부분의 가치판단이 모호할 때는 회사의 문화, 가치관에 따라 개인이 결정하는 것이 훨씬 더 좋다고 생각한다.\n결국 제도는 기본과 원칙에 충실하게 만들되, 문화, 가치관에 대한 교육에 좀 더 집중하는 편이 맞는 경우가 훨씬 많은 것 같다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/829",
+    "pubDate": "Tue, 20 May 2025 09:27:40 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "배민",
+      "스타트업",
+      "인프런",
+      "조직문화",
+      "쿠팡"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "이커머스와 홈쇼핑이 선택한 커머스 AI 솔루션 ‘에이플러스AI’: 버즈니 남상협 대표 인터뷰",
+    "description": "이승환: 자기소개 부탁드립니다. 남상협: 버즈니 대표 남상협입니다. 여러 홈쇼핑을 한데 모아 보는 앱 ‘홈쇼핑모아’를 운영하고 있고요. 이를 운영하며 쌓아온 여러 커머스AI 기술을 B2B로 보급하고 있습니다. 바로 ‘에이플러스AI’라는 버즈니의 신규 AI 비즈니스인데요. 현재 론칭 1년 만에 CJ온스타일 등 홈쇼핑 및 주요 이커머스사 10곳에 커머스AI 기술 공급 계약을 체결했습니다. AI 비즈니스 부문은 작년에 10배 정도 성장했고, 올해도 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://ppss.kr/archives/269388",
+    "pubDate": "Thu, 15 May 2025 02:00:20 +0000",
+    "creator": "리승환",
+    "categories": [
+      "IT",
+      "마케팅",
+      "스타트업",
+      "인터뷰"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "개발자의 장애 공유 문화",
+    "description": "카카오에 처음 들어가서 놀랐던 또 한 가지는 장애를 공유하는 문화였습니다.\n작고 큰 장애들이 자주 발생했습니다.\n와, 이 사람들 특이한 사람들이네. 이런 건 살다 살다 처음 보는군.\n장애 공유 글에는 항상 좋아요가 많이 달렸습니다.\n자신의 얼간이 짓을 솔직하게 쓰면 쓸수록 좋아요가 더 많이 달렸습니다.\n원인과 후속 조치, 여전히 가시지 않는 의문점들에 대해 댓글로 논의하기도 했습니다만…\n자신이 발생시킨 장애를 전 직원들에게 공유한다는 것이 절대 쉬운 일이 아닙니다.\n아 오늘도 장애 공유 써야 되네, 젠장. 뭐 일하다 보면 장애 낼 수도 있는 거지.\n카카오에서보다 더 놀랐던 기억도 납니다.\nGitLab 장애.\nrm -rf로 프로덕션 데이터베이스 전체를 날려먹었던가?\n와, 진짜 미친 사람들이 여기 있었구나. 저걸 회사의 다른 동료들이 아무도 뭐라 하지 않는 건가? 아니, 어쩌면 의도적으로 저렇게 공유하기로 한 건가?\n\n함께 읽으면 좋은 글:\n서비스 텐션\n서버 비용을 아끼던 사람들 (feat. 카카오 옛날 이야기)\n카톡 서버 개발의 추억",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/05/15/failure-sharing.html",
+    "pubDate": "2025-05-14T17:30:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "초저렴 3500원 무선이어폰 투키(Toocki) TQ-EJ04, 쓸만할까?",
-    "description": "이제 전세계 제조업의 중심은 중국이다. 중국의 공장이 멈추면 인류 사회가 받는 타격이 클 것이라는 것에는 많은 분들이 동의하실 듯.\n그 바로 옆에 살고 있는 우리나라 또한 그 영향을 강하게 받고 있다. 특히 직구라는 형태로 다양한 제품이 우리나라 소비자들을 만났고, 가격 면에서의 충격은 상당했다. 최근에는 제조 기술 또한 발전하여 그 품질도 우습게 볼 수준은 아니다.\n그리고 귀마저 못 생겨 무선 이어폰의 탈출 시도가 잦은 바람에 잘 고정되는 무선 이어폰을 찾는 글쓴이에게 가성비 휴대폰 충전기 브랜드로 유명한 투키(TOOCKI)의 제품 하나가 눈에 띄었다. \n \n3500원짜리 무선 이어폰 Toocki TQ-EJ04\n \n늑돌이가 그 제품을 한번 사볼까 했던 이유는 단 하나. 가격이었다.\n알X 직구 사이트에서 단돈 7000원에 투키는 이 TQ-EJ04 무선 이어폰 두개를 살 수 있었다. 하나당 가격은 3500원 꼴(당시 환율 기준. 지금은 더 싸다)이다. 물론 배송료 포함이고 일주일도 안 되어 무사히 도착했다. 빠르게 살펴보자.\n \n\n\n \n \n생각보다 괜찮은 만듦새\n \n\n\n \n기본 스펙은 위 상자에 적힌 대로. 블루투스 5.3을 지원하며 정확하게 안 적혀있지만 SBC와 AAC 코덱은 지원하는 것으로 추정된다. 멀티 페어링 같은 건 안 되지만 무선 연결이 빨리 되어 좋다.\n배터리 용량은 80mAh. 충전도 USB 타입C 단자로 충분하며, 연속 사용시간은 8시간이라는데 한계까지 써본 적은 없다.\n \n뭔가 인증 및 검사를 받았다는데 구체적으로는 안 적혀있다.\n \n\n\n\n부속품은 한글(!) 설명서와 짧은 충전 케이블과 본체가 전부지만 3500원짜리라 생각하니 만듦새가 꽤 괜찮다. \n \n\n\n \n탄성있는 실리콘으로 코팅된 밴드가 있어 머리에 장착하면 거칠게 움직여도 쉽게 떨어지지 않으며, 귀에 꽂는 방식은 아니기 때문에 귓구멍은 아프지 않은게 장점이다. \n \n\n\n \n이 제품의 색상은 베이지인데, 이거 말고도 까망이나 핑크, 보라색 제품도 있다.\n \n \n \n공기 전도 이어폰이라는데, 음질과 통화품질은?\n \n3500원짜리 이어폰에 좋은 음질을 바라는 건 날강도 아닐까 하는 생각이 들긴 하지만 그래도 평가를 한다면,\n \n\n\n\n예상보다는 괜찮아서 못 들어줄 정도는 아니다. 물론 구조적으로나 가격적으로나 한계가 있지만 그 쓰임새를 생각해 보면 그럭저럭 받아줄 만 하다.\n오해하지 말아야 할 것은 이 제품은 골전도 이어폰이 아니라는 것이다. 공기 전도 이어폰이라고 말하는데 우리가 평소에 듣는 소리는 공기를 매질로 전달되니 공기 전도라는게 특별한 건 아니고 귀 옆에 작은 스피커를 얹어 놓은 형태다. 구분하자면 개방형 이어폰에 가깝겠다.\n \n14.2mm의 드라이버를 달았다고는 하는데 일반적인 대중 음악을 듣는데에는 큰 무리는 없다. 다만 구조상 저음은 약하고 고음의 경우 치찰음에서 찢어지는 경우가 드물지만 있다.\n태생적으로 개방형인 만큼 소리가 밖으로 새어나갈 수 밖에 없으니 주변에 사람이 있고 조용한 곳이라면 음량을 최소한으로 낮출 필요가 있다. 반대로 주변이 매우 시끄럽다면 이어폰에서 나오는 소리도 잘 못 알아들을 수도 있다.\n전화 통화 품질 또한 마찬가지인데, 마이크와 입의 위치가 꽤 떨어져 있기 때문에 주변이 어느 정도 조용하고 내가 큰 소리로 말할 수 있는 여건이라면 통화가 어렵지 않지만 주변이 시끄럽거나 조용히 말해야 한다면 상대가 알아듣지 못하는 경우가 많으니 주의하시길.\n대신 귀를 막지 않는 개방형인 만큼 듣고 있는 소리를 잠깐 멈추거나 줄인다면 외부의 소리를 듣는데 지장이 거의 없다는 건 장점이다. 글쓴이는 이 제품을 착용한 상태로 바깥의 소리를 듣거나 주변 사람과 대화를 하는데 있어서는 별 문제가 없었다.\n \n \n조작과 휴대성\n \n\n\n\nTQ-EJ04는 오른쪽의 파워 로고가 있는 터치패드를 사용하여 모든 조작을 한다. 조작 방법이 무척 단순한지라 외워두면 편하다.\n \n- 1회 탭 : 전화 받기 또는 음악의 재생/멈춤\n- 2회 탭 : 전화 끊기 또는 다음 곡 재생\n- 3회 탭 : 이전 곡 재생\n- 2초 누르기 : 전화 왔을때 거절하기\n- 3초 누르기 : 전원 켜기 또는 음성 어시스턴트 호출\n- 8초 누르기 : 전원 끄기\n뜻밖에도 많은 기능을 담아둔지라 익숙해지면 편하지만 누를 생각이 없었는데 실수로 건드려서 오작동이 일어나는 경우가 종종 있는 건 단점.\n \n\n\n\n무게는 스펙상 12.5g이지만 직접 재보니 13g(0.5g은 표시안되는 저울임)으로 휴대는 주머니건 가방이건 대충 넣어서 갖고 다니면 되니 부담이 없다. \n\n \n투키 TQ-EJ04 - 야외 활동하는 이들을 위한 막 쓰는 무선 이어폰\n \n이 제품의 존재 이유는 역시 야외 활동이다.\n머리에 착 달라붙어서 특별히 신경쓰지 않아도 떨어지지 않으며, 한쪽 터치 패드만으로 이어폰의 기능을 활용하는 데에는 문제가 없어 산책이나 더 거친 운동에도 적합하다. 물론 방수방진 수준은 IPX4 수준이라 수영은 안 된다. 다만 음질은 그다지 좋지 않고 통화 품질도 제한적인 환경에서만 쓸만하다.\n \n그리고 또 한가지, 30분 정도 쓰고 있으면 이어폰이 얹어진 귀 상단 부분이 다소 부담스럽다. 아들은 아빠가 머리가 커서 그렇다고 한다 \n \n가성비로 사뒀다가 운동용 가방 안 쪽이건 책상 서랍 한 구석이나 차의 글로브박스 건 던져 뒀다가 필요할 때 쓴다면 꽤 괜찮지 않을까 생각한다. 그 이상을 원한다면 다른 제품을 알아보시길.\n참고로 이 제품의 구입을 원한다면 알리익스프레스 등 직구 사이트에서 toocki 공기 전도 이어폰 등의 키워드로 검색하면 찾을 수 있을 것이다. 저렴하지만 그래도 구입 전에 정말 필요한지 한번 더 생각해 보시길.",
+    "title": "토스, Apple App Store에 토스페이로 간편결제 지원한다",
+    "description": "토스페이로 편리하고 안전하게 Apple 서비스 구독 및 구입 가능해져",
     "reviews": [],
     "syllabus": [],
-    "link": "https://lazion.com/2513745",
-    "pubDate": "Mon, 19 May 2025 08:21:19 +0900",
-    "creator": "늑돌이",
-    "categories": [
-      "#오디오#헤드폰#이어폰",
-      "Audio",
-      "Earphone",
-      "Outdoor",
-      "Review",
-      "Sports",
-      "Toocki",
-      "tq-ej04",
-      "Wireless"
-    ]
+    "link": "https://blog.toss.im/article/appletosspay",
+    "pubDate": "Fri, 16 May 2025 01:23:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
