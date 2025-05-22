@@ -2,114 +2,66 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Kotlin Multiplatform Tooling: Now in IntelliJ IDEA and Android Studio",
-    "description": "We recently outlined our plans for the future of Kotlin Multiplatform tooling. Today, we’re putting those plans into action with the Beta release of the new KMP plugin for your favorite IDEs – IntelliJ IDEA and Android Studio. This plugin simplifies every part of the KMP experience, from project setup to cross-platform development and Compose […]",
+    "title": "아니 진짜 눌렀다고!! 클레르 옵스퀴르: 33 원정대",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/05/kotlin-multiplatform-tooling-now-in-intellij-idea-and-android-studio/",
-    "pubDate": "Mon, 19 May 2025 15:38:18 +0000",
-    "creator": "Ekaterina Volodko",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2308",
+    "pubDate": "Tue, 20 May 2025 23:21:18 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "multiplatform"
+      "게임툰"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "prisma migrage 꼬인거 해결하기",
-    "description": "이글 보고 참고 했습니다.\n글: https://jamie-em-lee.tistory.com/115\n\n \nPrisma 스키마 동기화 중 Schema Drift 발생 시 데이터베이스 리셋 없이 해결하기\n개요 내가 일하는 곳은 Prisma + PostgreSQL을 스택으로 한다. 프리즈마 스키마와 데이터베이스 스키마 동기화 과정 중에 발생한 스키마 드리프트(schema drift)를 어떻게 리셋 없이 해결했는지 작성해보\njamie-em-lee.tistory.com\n\n \n글내용이 맞으며 저는 이상한짓을 해서 추가로 작업을 더 해야했습니다.\n \nDateTime 에 기본값을 특정 날짜로 하려다 실패를 했는데 이후에 할줄을 몰라\n/prisma/migrate 폴더를 주워 보기도 하고\ndb 에 _prisma_migrations 테이블을 지워보기도 했는데 \n이러면 더 꼬여버려서 db 지우고 다시하라는 애러가 뜬 상태였습니다.\n\n\nreset 을 하면 말그대로 디비가 다 날아가서 텅빈 상태가 됩니다.\n \n먼저 db 와 내 schema.prisma 와의 차이를 구합니다.\nnpx prisma migrate diff ` \n    --from-schema-datasource .\\prisma\\schema.prisma ` \n    --to-schema-datamodel .\\prisma\\schema.prisma ` \n    --script > .\\prisma\\rollback.sql \nVSCODE 에서 열어봅니다.\npowershell 에서는 ` 글자(숫자1 왼족의 키) 가 멀티라인 명령어를 의미합니다.\n\n\npowershell 에서 텍스트를 추출하면 utf-16 이 되는거 같습니다.\n이 상태로는 사용할 수 없으니 utf-8 로 변경해줍니다.\n[UTF-16] 이라고 표시된 부분을 클릭합니다.\n\n\n상단에 Save with Encoding 누릅니다.\n\n\nUTF-8 고릅니다.\nUTF-8 with BOM 은 안해봤습니다. 글자 앞에 2글자의 특수값이 들어가는데 없어도 될꺼 같습니다.\nnpx prisma db execute ` \n    --file .\\prisma\\rollback.sql ` \n    --schema .\\prisma\\schema.prisma \n쿼리를 전송합니다.\n성공하면 이다음부터는 정상적으로 사용 가능합니다.\nnpx prisma migrate dev\n \n저는 위에서한 뻘짓 때문에 살아나지 못했고\ndb 백업후에 다 날리고 reset 하고 마이그래이트 다시 진행했습니다.",
+    "title": "ngrok 집에서 https 서비스 사용하기",
+    "description": "ngrrok 은 나는 http 서버를 띄우고\nngrok 이 https 서버를 대신 띄워서 요청을 받으면 내컴퓨터 쪽으로 대신 쏴주는 기능을 합니다.\nnginx 프록시 같은걸 하는데 내컴이 아니라 어떤 서비스가 해준다는 것입니다.\n그래서 나는 https 인증서를 준비할 필요가 없습니다.\n아주 편리합니다.\n \n시연 영상\n영상: https://www.youtube.com/watch?v=FOsKPjrDP_g\n\n\n\n \n2분 28초에 나오는데요\n라인봇을 돌리려면 라인서버에서 전달하는 웹연결을 받을 수 있어야합니다.\n웹 훅이라고 하는데요\n대화방에서 일어나는 일을 라인서버가 지정된 주소로 계속 쏴줍니다.\n \n지정된 주소는 https 이기 때문에 인증서도 설치하고 그런 번거로운 일을 해야하는데요\n이런거 다 퀴찮으면\n \nngrok 이 https 요청을 대신 받고 \nngrok 과 내 컴퓨터는 http 통신을 하면 인증서를 준비하지 않아도 됩니다.\n \n신기한 서비스라 남겨둡니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1326",
-    "pubDate": "Sun, 18 May 2025 19:51:11 +0900",
+    "link": "http://serverdown.tistory.com/1330",
+    "pubDate": "Wed, 21 May 2025 20:28:26 +0900",
     "creator": "SIDNFT",
     "categories": [
       "프로그래밍/개발메모",
-      "Prisma",
-      "문제해결",
-      "프리스마"
+      "ngrok",
+      "웹훅"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "미즈노 배드민턴화 정리",
-    "description": "웨이브 팡2\n\n\n웨이브팡 EL2\n\n\n스텔스 네오2\n\n\n클로 네오2\n\n\n클로3\n\n\n65z3\n\n\n65z4",
+    "title": "토스, ‘자산 보호 알림’ 서비스 출시",
+    "description": "신규 개설된 금융자산 알림",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hodolman.tistory.com/75",
-    "pubDate": "Sun, 18 May 2025 19:33:54 +0900",
-    "creator": "호돌맨",
-    "categories": [
-      "우당탕탕 대모험"
-    ]
+    "link": "https://blog.toss.im/article/ALARM",
+    "pubDate": "Wed, 21 May 2025 08:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "[MULTI] 브레이크 달린 8톤 트럭, 둠: 더 다크 에이지스",
-    "description": "No description available",
+    "title": "VS Code, 오픈소스 AI 에디터로 진화: GitHub Copilot Chat 통합의 의미",
+    "description": "VS Code: Open Source AI Editor\n\n개발자들에게 가장 사랑받는 코드 에디터 VS Code가 AI 시대에 새로운 변화를 맞이하고 있습니다. Microsoft는 어떻게 개발자 경험을 한 단계 더 발전시키려 하는 걸까요?\n요약\nVS Code 팀은 2025년 5월 19일 GitHub Copilot Chat 익스텐션의 소스 코드를 MIT 라이선스로 오픈소스로 공개하고, 해당 AI 기능을 단계적으로 VS Code 코어에 통합해 '오픈소스 AI 에디터'로 진화시키겠다고 발표했습니다. 이 변화는 별도 익스텐션 설치 없이 Cursor나 Windsurf처럼 자연스럽게 AI 기능을 사용할 수 있는 환경을 제공하며, AI 개발 도구의 투명성과 보안성을 강화해 개발자 경험을 한층 끌어올릴 것으로 기대됩니다.\n배경 및 동기\n오픈 소스 전통\nAI 개발 패러다임 전환\n투명성과 보안 강화 요구\n주요 내용\nGitHub Copilot Chat 익스텐션 코드 공개\nAI 기능의 에디터 코어 통합\n프롬프트 테스트 인프라 오픈소스화\n커뮤니티 기여 활성화\n영향 및 기대 효과\n생산성 향상\n생태계 확장\n보안성과 투명성 강화\n향후 계획\n코드 공개 일정\n이터레이션 플랜과 FAQ 업데이트\n성능과 UX 개선 지속\n출처\nVS Code: Open Source AI Editor – Visual Studio Code Blog\n\n\nVisual Studio Code FAQ – Visual Studio Code Blog\n\n\nMicrosoft makes Visual Studio Code (VS Code) an open source AI – TechStartups\n\n\nMicrosoft open sources a command-line text editor and more at Build – TechCrunch\n\n\nGitHub’s new AI coding agent can fix bugs for you – The Verge\n\n\nVS Code v1.99 Is All About Copilot Chat AI, Including Agent Mode – Visual Studio Magazine\n\n\nVisual Studio Code helped Microsoft win developers – Runtime.news\n\n\nVisual Studio and Visual Studio Code Have 50 Million MAUs – Thurrott.com",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2304",
-    "pubDate": "Wed, 14 May 2025 13:30:31 +0900",
-    "creator": "「RULIWEB」",
+    "link": "https://blog.gaerae.com/2025/05/vscode-open-source-ai-editor.html",
+    "pubDate": "Tue, 20 May 2025 05:46:00 +0000",
+    "creator": "noreply@blogger.com (Unknown)",
     "categories": [
-      "리뷰"
+      {
+        "_": "news",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      }
     ]
   },
   {
     "id": 5,
-    "imageUrl": "",
-    "title": "Qodana’s New Insights Dashboard Provides Cross-Project Code Analysis Data",
-    "description": "Managing code quality can be a challenge in itself, even without the complexity of multiple projects. Thanks to our new Insights dashboard you can now get a near-instant overview of the code quality and performance of all your projects whenever you need it, without having to constantly switch between projects. Get Qodana Who is it […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/05/insights-dashboard-cross-project-code-analysis/",
-    "pubDate": "Mon, 19 May 2025 19:20:34 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "releases",
-      "code-quality",
-      "dashboards",
-      "qodana"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 2화, 면접 시작인데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2305",
-    "pubDate": "Wed, 14 May 2025 16:48:41 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "프로세스를 촘촘하게 만드는 사람",
-    "description": "최근에 쿠팡의 조직 문화에 대해 이야기를 나눌 기회가 있었다.\n쿠팡의 인재론은 한 축은 실적, 한 축은 가치관으로 평가한다.\n실적이 좋고 가치관이 훌륭한 사람은 스타(star),\n실적도 안 되고 가치관이 엉망인 사람은 개(dog)다.\n실적은 안 좋고 가치관이 잘 맞는 사람은 물음표(?)다.\n가장 문제는 실적이 좋지만 가치관이 안 맞는 사람이다.\n이런 사람은 독(poison)으로 분류한다.\n장기적으로 독을 밀어내고 물음표를 과감하게 기용할 수 있는 혜안이 필요하다.\n문화가 항상 앞서야 한다.\n회사에 핵심 가치가 필요한 이유다.\n쿠팡을 다녀본 적은 없지만, 각자가 경험한 조직들을 기준으로 이 스타(star), 개(dog), 물음표(?), 독(poison) 에 대해 나눴다.\n그러다 어떤 사람이 독(poison) 인가에 대한 질문이 나왔다.\n이에 대해 여러 이야기가 나왔지만, 나는 \"프로세스/제도를 더 촘촘하게 만드는 사람이 독인것 같다\" 는 이야기를 했다.\n바쁘게 일 하느라 저녁 식사를 제때 못하는 분들을 위해 회사가 김밥을 준비했다.\n\"저녁 식사 못하고 야근하신 분들은 김밥 드세요\" 라는 회사의 공지가 나왔다.\n일부의 사람이 30분 야근을 하면서 퇴근길에 이 김밥을 챙겨가기 시작했다.\n김밥의 양이 부족해서 원래 목적이였던 사람들은 여전히 제때 끼니를 챙기지 못했다.\n이후에는 김밥을 가져갈 수 있는 조건이 하나둘씩 생기기 시작했다.\n9시 이후 퇴근 하시는 분들만 가져갈 수 있습니다.\n김밥 수령하신 분들은 이름을 작성해주세요.\n대리 수령은 안됩니다.\n등등.\n하나둘씩 김밥을 먹을 수 있는 조건들이 촘촘하게 만들어지기 시작하니 이제는 진짜 김밥을 먹길 바랬던 대상자들도 먹지 않게 되었다.\n\"김밥을 먹으면 8시까지 무조건 야근 해야하는구나\"\n\"김밥 하나 먹으려고 너무 짜친다 그냥 안먹고 일 하련다\" 등등의 이유로 말이다.\n소수의 오남용 하는 사람들로 조직의 프로세스, 제도는 더 촘촘하게 만들어진다.\n그리고 촘촘하게 만들수록 조직은 제대로 굴러가기 힘들고 짜치는 조직이 되어간다.\n누군가는 이렇게 얘기할 수도 있다.\n\"아니 김밥 그거 얼마나 한다고 넉넉하게 준비하면 되지 뭐 이렇게 치사하게 구냐\" 라고.\n근데 김밥이라는건 조직에서 관리하는 일종의 리소스를 표현한 것 뿐이다.\n회사의 모든 리소스는 항상 제한된 상황에서 운영된다.\n아무리 필요한 사람이 있더라도 의도와 다르게 오남용하는 것까지 고려해서 충분한 리소스가 확보되어야만 모든 프로세스와 제도가 도입되어야하는 것인가?\n아무리 필요한 사람이 있더라도 그만큼의 리소스가 확보되지 않으면 도입을 못하는 것인가?\n그건 아닐 것이다.\n더 열정적으로 일을 하는 사람들이 있다면 그들을 위해 지원해야할 것들이 있다면 더 지원해야하고, 프로세스와 제도는 더 느슨하게, 더 자유롭게 활용할 수 있도록 해야한다.\n그렇지만 특정 몇 명으로 인해 프로세스와 제도가 계속해서 촘촘하게 만들어진다면 그들은 조직을 망치는 사람들로서 경계해야한다.\n\"기준이 모호하니깐 사람들이 프로세스를 악용한다\" 라는 이야기는 반은 맞지만 반은 맞지 않다.\n기준을 명확하게 만들려고, \"이럴때는 이렇게 하셔야 하고, 저럴때는 저렇게 하셔야 합니다\" 라는 형태로 프로세스가 계속해서 촘촘하게 만들어지는 것이 더 성과내기 좋은 조직이란 말인가?\n\"프로세스가 모호하다고 느껴질 때 그때 개인의 이득이 되는 선택을 하느냐, 전체에 이득이 되는 선택을 하느냐\"에 따라 프로세스가 더 촘촘해지기도 하고, 더 느슨해지기도 한다.\n프로세스가 모든 상황에 대해서 정확하게 가이드를 할 순 없다.\n프로세스가 촘촘할수록 개인별 역량과 도전은 제한받을 수 밖에 없다.\n프로세스 혹은 제도는 최소한의 기본을 가지고 있고,\n대부분의 가치판단이 모호할 때는 회사의 문화, 가치관에 따라 개인이 결정하는 것이 훨씬 더 좋다고 생각한다.\n결국 제도는 기본과 원칙에 충실하게 만들되, 문화, 가치관에 대한 교육에 좀 더 집중하는 편이 맞는 경우가 훨씬 많은 것 같다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://jojoldu.tistory.com/829",
-    "pubDate": "Tue, 20 May 2025 09:27:40 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "배민",
-      "스타트업",
-      "인프런",
-      "조직문화",
-      "쿠팡"
-    ]
-  },
-  {
-    "id": 8,
     "imageUrl": "",
     "title": "투자, 그리고 바로 해고",
     "description": "2021년도에도 투자받고, 또 최근에 투자받은 대표들은 두 시점에서의 전반적인 업계 분위기와 투자자들의 분위기가 180도 다르다는 것을 느꼈을 것이다. 2021년도는 나의 짧은 VC 경력 중 가장 흥미로운? 한 해였고, 돈이 완전히 메마를 것 같았지만, 역사상 가장 많은 돈이 시장에 풀렸던 시기였다. 이때 투자 받은 창업가들은 대부분 회사의 실적이나 수치 대비 훨씬 더 높은 밸류에이션에 훨씬 더(...)",
@@ -129,7 +81,43 @@
     ]
   },
   {
-    "id": 9,
+    "id": 6,
+    "imageUrl": "",
+    "title": "프로세스를 촘촘하게 만드는 사람",
+    "description": "최근에 쿠팡의 조직 문화에 대해 이야기를 나눌 기회가 있었다.\n쿠팡의 인재론은 한 축은 실적, 한 축은 가치관으로 평가한다.\n실적이 좋고 가치관이 훌륭한 사람은 스타(star),\n실적도 안 되고 가치관이 엉망인 사람은 개(dog)다.\n실적은 안 좋고 가치관이 잘 맞는 사람은 물음표(?)다.\n가장 문제는 실적이 좋지만 가치관이 안 맞는 사람이다.\n이런 사람은 독(poison)으로 분류한다.\n장기적으로 독을 밀어내고 물음표를 과감하게 기용할 수 있는 혜안이 필요하다.\n문화가 항상 앞서야 한다.\n회사에 핵심 가치가 필요한 이유다.\n쿠팡을 다녀본 적은 없지만, 각자가 경험한 조직들을 기준으로 이 스타(star), 개(dog), 물음표(?), 독(poison) 에 대해 나눴다.\n그러다 어떤 사람이 독(poison) 인가에 대한 질문이 나왔다.\n이에 대해 여러 이야기가 나왔지만, 나는 \"프로세스/제도를 더 촘촘하게 만드는 사람이 독인것 같다\" 는 이야기를 했다.\nA 회사는 바쁘게 일 하느라 저녁 식사를 제때 못하는 분들을 위해 김밥을 준비했다.\n\"저녁 식사 못하고 야근하신 분들은 김밥 드세요\" 라는 회사의 공지가 나왔다.\n일부의 사람이 30분 야근을 하면서 퇴근길에 이 김밥을 챙겨가기 시작했다.\n김밥의 양이 부족해서 원래 목적이였던 사람들은 여전히 제때 끼니를 챙기지 못했다.\n이후에는 김밥을 가져갈 수 있는 조건이 하나둘씩 생기기 시작했다.\n9시 이후 퇴근 하시는 분들만 가져갈 수 있습니다.\n김밥 수령하신 분들은 이름을 작성해주세요.\n대리 수령은 안됩니다.\n등등.\n하나둘씩 김밥을 먹을 수 있는 조건들이 촘촘하게 만들어지기 시작하니 이제는 진짜 김밥을 먹길 바랬던 대상자들도 먹지 않게 되었다.\n\"김밥을 먹으면 8시까지 무조건 야근 해야하는구나\"\n\"김밥 하나 먹으려고 너무 짜친다 그냥 안먹고 일 하련다\" 등등의 이유로 말이다.\n소수의 오남용 하는 사람들로 조직의 프로세스, 제도는 더 촘촘하게 만들어진다.\n그리고 촘촘하게 만들수록 조직은 제대로 굴러가기 힘들고 짜치는 조직이 되어간다.\n누군가는 이렇게 얘기할 수도 있다.\n\"아니 김밥 그거 얼마나 한다고 넉넉하게 준비하면 되지 뭐 이렇게 치사하게 구냐\" 라고.\n근데 김밥이라는건 조직에서 관리하는 일종의 리소스를 표현한 것 뿐이다.\n회사의 모든 리소스는 항상 제한된 상황에서 운영된다.\n아무리 필요한 사람이 있더라도 의도와 다르게 오남용하는 것까지 고려해서 충분한 리소스가 확보되어야만 모든 프로세스와 제도가 도입되어야하는 것인가?\n아무리 필요한 사람이 있더라도 그만큼의 리소스가 확보되지 않으면 도입을 못하는 것인가?\n그건 아닐 것이다.\n더 열정적으로 일을 하는 사람들이 있다면 그들을 위해 지원해야할 것들이 있다면 더 지원해야하고, 프로세스와 제도는 더 느슨하게, 더 자유롭게 활용할 수 있도록 해야한다.\n그렇지만 특정 몇 명으로 인해 프로세스와 제도가 계속해서 촘촘하게 만들어진다면 그들은 조직을 망치는 사람들로서 경계해야한다.\n\"기준이 모호하니깐 사람들이 프로세스를 악용한다\" 라는 이야기는 반은 맞지만 반은 맞지 않다.\n기준을 명확하게 만들려고, \"이럴때는 이렇게 하셔야 하고, 저럴때는 저렇게 하셔야 합니다\" 라는 형태로 프로세스가 계속해서 촘촘하게 만들어지는 것이 더 성과내기 좋은 조직이란 말인가?\n\"프로세스가 모호하다고 느껴질 때 그때 개인의 이득이 되는 선택을 하느냐, 전체에 이득이 되는 선택을 하느냐\"에 따라 프로세스가 더 촘촘해지기도 하고, 더 느슨해지기도 한다.\n프로세스가 모든 상황에 대해서 정확하게 가이드를 할 순 없다.\n프로세스가 촘촘할수록 개인별 역량과 도전은 제한받을 수 밖에 없다.\n프로세스 혹은 제도는 최소한의 기본을 가지고 있고,\n대부분의 가치판단이 모호할 때는 회사의 문화, 가치관에 따라 개인이 결정하는 것이 훨씬 더 좋다고 생각한다.\n결국 제도는 기본과 원칙에 충실하게 만들되, 문화, 가치관에 대한 교육에 좀 더 집중하는 편이 맞는 경우가 훨씬 많은 것 같다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/829",
+    "pubDate": "Tue, 20 May 2025 09:27:40 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "배민",
+      "스타트업",
+      "인프런",
+      "조직문화",
+      "쿠팡"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "2025-05-17 (토) 개발일지 / 서버 죽음 / 개인정보처리방침",
+    "description": "1. 죽은 웹서버 원인 파악\n일어나보니 웹서버가 죽어있었습니다.\n누가 /?XDEBUG_SESSION_START=phpstorm\n이런식으로 호출했나봅니다.\nphpstorm 의 취약점을 노리는 걸까요\n제 express 서버는 없는 파일에 대한 예외처리가 없어서 프로그램이 종료되었습니다.\nENOENT: no such file or directory, open '/home/gunil/pto/node-sidnft-firebase/pi4server/public/?XDEBUG_SESSION_START=phpstorm' \n    path: \"/home/gunil/pto/node-sidnft-firebase/pi4server/public/?XDEBUG_SESSION_START=phpstorm\", \n syscall: \"open\", \n   errno: -2, \n    code: \"ENOENT\"\n \n\n\n아래에 catch 가 있지만 이곳으로 예외가 오진 않습니다.\nfs.createReadStream\n함수는 await 로 실행되는게 아니라서 다른 분기를 타는 것이겠지요\n전용 에러 처리함수인 on(\"error\" ~~~) f를 추가로 넣었습니다.\n \n2. 신규 앱 심사  거부 사유 체크\n\n\n오래전에 웹 페이지를 만들고 관리를 안했는데\n개인정보처리방침 부분은 날림으로 만들었습니다..\n\" 개인정보처리방침\" 이라는 문구가 표시되어야하고 ....\n타이틀에도 표시하라고 본문에도 영어/한국어 다 적었습니다.\n타이틀 수정은 자바스크립트로\ndocument.title = \"~~~\";\n 이런식으로 하면 바로 바꼈습니다.\n추가로 혹시나 해서 개인정보처리방침 URL 도 수정해서 다시 검토 신청 했습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1324",
+    "pubDate": "Sat, 17 May 2025 13:03:56 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "Express",
+      "업데이트",
+      "작업일지"
+    ]
+  },
+  {
+    "id": 8,
     "imageUrl": "",
     "title": "2025-05-16 (금) 개발일지",
     "description": "1. 앨릭서 시작\n영상과 버전이 달라서 명령어가 이상하게 동작했다.\n큰일이다.\n \n영상: https://www.youtube.com/watch?v=IiIgm_yaoOA&t=1578s\n\n\n\n영상의; 상황\n\n\n내 상태\n$ elixir -v \nErlang/OTP 27 [erts-15.2.7] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [jit:ns] \nElixir 1.18.3 (compiled with Erlang/OTP 25)\n \n설치 페이지에서 제공되는 버전\n설치페이지: https://elixir-lang.org/install.html#windows\n\n\niex 하면 프로그램가능한 상태가 되어야하는데 나는 추가 명령어를 오청받고 있다.\n컴터 재부팅하니 영상처럼 프로그램 가능한 상태로 돌아왔다.\n다행이다.\n \n \n \n \n2. 비트액스 홈페이지 개선\n기기별 가성비 추천을 해주려는데 아직은 보기 불편하다.\n해시레이트 / 소비전력 => 성능\n성능 / 가격 => 가성비\n이런식으로 표시해야겠다.\n가격이 중요하니 유저들보고 가격 넣으라고 하면 좋을꺼 같다.\n수정전 \n\n\n화면엔 안보이지만  가로로 스크롤도 표시되고 잇다.\n화면크기보다 큰 페이지가 표시되는거 같다.\n \n고친 후\n\n\n왜이케 비였냐...\n이상한 가로 스크롤 자꾸 생겨서 보기 안좋았다.\n페이지 시작할때 이거 두개를 넣어줘서 해결했는데 모든 사이트에 적용해야겠다.\n\n\n \n \n3. apps 의 모바일 표시가 이상하다.\n\n\n위에 비트액스랑 동일한 문제인데.\n같이 수정해줘야겠다.\n수정후:\n결과 페이지: https://apps.sidnft.com/\n \n수정후 영상: https://youtu.be/z5BdUTrJC8w\n\n\n\n1. 좌우 스크롤을 제거함 (화면 크기보다 큰 무언가가 있어서 제거했음)\n2. 모바일 해상도 대응\n완성도좀 높이자!",
@@ -144,77 +132,115 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "imageUrl": "",
-    "title": "[MULTI] 큰 진화 없이 돌아온 회귀자가 주는 재미, 세븐나이츠 리버스",
-    "description": "No description available",
+    "title": "독서와 복리",
+    "description": "나는 2020년부터 해마다 50권 이상의 책을 읽는 걸 목표로 세우고, 실제로 5년째 그 목표를 달성하고 있다. 올해도, 이 페이스로 계속 간다면 50권은 읽을 수 있을 것 같다. 2020년 이전에도 독서를 좋아했지만, 2019년 말에 개인적인 깨달음이 몇 가지 있었고, 독서를 통한 휴식, 독서를 통한 정신 정화, 그리고 독서를 통한 힐링을 해보기로 했다. 나에겐 독서가 잘 맞는다.(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2306",
-    "pubDate": "Mon, 19 May 2025 16:15:57 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://www.thestartupbible.com/2025/05/everything-is-about-compounding.html",
+    "pubDate": "Wed, 21 May 2025 21:32:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "리뷰"
+      "Uncategorized",
+      "books",
+      "compounding",
+      "general",
+      "inspiring"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Introducing Pyrefly: A new type checker and IDE experience for Python",
+    "description": "Today we are announcing an alpha version of Pyrefly, an open source Python type checker and IDE extension crafted in Rust. Pyrefly is a static type checker that analyzes Python code to ensure type consistency and help you catch errors throughout your codebase before your code runs. It also supports IDE integration and CLI usage [...]\nRead More...\nThe post Introducing Pyrefly: A new type checker and IDE experience for Python appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/05/15/developer-tools/introducing-pyrefly-a-new-type-checker-and-ide-experience-for-python/",
+    "pubDate": "Thu, 15 May 2025 18:30:08 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "DevInfra",
+      "Open Source"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "엘라스틱 Runtime field - 12th",
-    "description": "잘 동작하는 정규표현식.\n\n\n\n\nurl 필드 추출.\n\nPUT sample/_mapping\n{\n    \"runtime\": {\n        \"url\": {\n            \"type\": \"keyword\",\n            \"script\": \"\"\"\n                if (doc['message.keyword'].value =~ /\\?/) {\n                    def str=/[^\"]+\"\\S+ ([^?]+)\\?/.matcher(doc['message.keyword'].value);\n                    if (str.find()) {\n                        emit(str.group(1))\n                    }\n                } else {\n                    def str=/[^\"]+\"\\S+ (\\S+)/.matcher(doc['message.keyword'].value);\n                    if (str.find()) {\n                        emit(str.group(1))\n                    }\n                }\n            \"\"\"\n        }\n    }\n}\n\n\n\n\n필드는 잘 만들어졌는데,\n\n\n\n\n조회가 안 된다. painless 스크립트에 정규표현식 제한을 걸어놓은 모양. (v9부터 걸린 건가?)\n\n\n\n\n제한을 풀기 위한 script.painless.regex.enabled 설정 추가.\n\n\n\n\n\n\n관련 글\n\n엘라스틱 Runtime field - 11th\n엘라스틱 Runtime field\n엘라스틱 Sscripted field\n정규표현식 몰라도 된다 - 2nd\nconvert ip to decimal",
+    "title": "퍼플렉시티 프롬프트 마스터로 정보 검색 시간 절반으로 줄이기 (무료 E-BOOK 배포)",
+    "description": "\"퍼플렉시티 AI 프롬프트 마스터\" E-BOOK으로 검색의 새 지평을 열고, 원하는 정보를 정확히 찾아내는 프롬프트 작성법의 모든 것을 무료로 배워보세요. 초보자부터 전문가까지 누구나 활용 가능합니다.\n\n\n \n평소 AI 기술과 검색 최적화에 관심이 많았습니다. 특히 퍼플렉시티 AI를 사용하면서 그 잠재력에 놀랐지만, 동시에 이를 제대로 활용하는 방법에 대한 체계적인 안내서가 부족하다는 점이 아쉬웠어요.\n \n수많은 시행착오를 거치며 프롬프트 작성 기술을 연구하고, 다양한 기능들을 탐색하면서 축적된 노하우를 정리해 \"퍼플렉시티 AI 프롬프트 마스터\" E-BOOK을 만들었습니다. 이 지식을 공유함으로써 더 많은 분들이 정보 검색의 효율성을 높이고, 퍼플렉시티 AI의 진정한 가치를 경험하셨으면 하는 바람이 있습니다.\n \nE-BOOK에서 다루는 핵심 내용\n1. 퍼플렉시티 AI의 강력한 기능들\n퍼플렉시티(https://www.perplexity.ai/)는 단순한 검색엔진이 아닙니다. AI 챗봇의 대화 능력과 실시간 검색 엔진의 정보 수집 능력이 결합된 혁신적인 도구죠. 이 E-BOOK에서는 기존 검색 엔진과의 명확한 차이점을 설명하고, 이 차이를 활용하는 방법을 알려드립니다.\n특히 '집중 모드(Focus Modes)'는 검색 경험을 완전히 바꿔놓는 기능입니다. 학술 연구에는 학술 집중 모드, 소셜 미디어 반응 조사에는 레딧이나 소셜 미디어 집중 모드를 활용하면 검색 결과의 질이 확연히 달라집니다.\n2. 명확한 지시와 맥락 제공의 중요성\n프롬프트 작성의 가장 중요한 원칙 중 하나는 명확한 지시와 충분한 맥락 제공입니다. 예를 들어, \"AI에 대해 알려줘\"라고 물으면 너무 광범위해서 유용한 정보를 얻기 어렵죠. 하지만 \"최근 3년간 주목받은 생성형 AI 기술의 주요 발전 사항과, 이러한 기술이 실제 비즈니스 환경에 적용된 구체적인 사례 3가지를 설명해줘\"라고 하면 훨씬 정확하고 유용한 답변을 받을 수 있습니다.\n이 E-BOOK에서는 다양한 예시와 함께 효과적인 프롬프트 작성 원칙을 단계별로 설명합니다.\n3. 출력 형식 지정으로 정보 활용도 높이기\n정보를 어떤 형태로 받고 싶은지 명시하는 것도 중요합니다. 표, 목록, 단계별 지침, 코드 블록 등 원하는 형식을 지정하면 답변의 가독성과 활용도가 크게 높아집니다. 비즈니스 보고서 작성이나 데이터 분석, 프로젝트 기획 등에서 이 기술이 특히 유용합니다.\n4. 실전 프롬프트 템플릿 50가지\n이 E-BOOK의 핵심은 다양한 상황별 프롬프트 템플릿 50개입니다. 일상생활, 학습 및 연구, 업무 및 비즈니스, 콘텐츠 제작, 기술 및 코딩, 여행, 건강 등 분야별로 즉시 활용 가능한 프롬프트 예시를 제공합니다.\n각 템플릿은 실제 사용 환경에서 테스트되었으며, 필요에 따라 수정하여 사용할 수 있도록 설계되었습니다.\n \n퍼플렉시티 AI의 고급 기능 활용\nE-BOOK에서 특별히 강조하는 부분은 퍼플렉시티의 고급 기능들입니다. '스페이스(Spaces)'와 '컬렉션(Collections)' 기능을 활용하면 정보 탐색과 지식 관리의 효율성이 크게 향상됩니다.\n \n'스페이스'는 특정 주제나 프로젝트에 대한 맞춤형 작업 공간을 생성하고, 관련 대화와 자료를 한 곳에 모아 관리할 수 있게 해줍니다. 예를 들어, 연구 프로젝트를 위한 전용 스페이스를 만들고 맞춤형 지침을 설정하면, 해당 주제에 특화된 정보 검색 환경을 구축할 수 있습니다.\n \n'컬렉션' 기능은 유용한 대화나 검색 결과를 주제별로 저장하고 분류하여, 필요할 때 쉽게 찾아볼 수 있게 해줍니다. 이는 지속적인 학습이나 장기 프로젝트에 특히 유용합니다.\n \n프롬프트 최적화와 테스트 방법\n효과적인 프롬프트 작성은 한 번에 완성되지 않습니다. 이 E-BOOK에서는 프롬프트를 체계적으로 테스트하고 최적화하는 방법을 상세히 안내합니다.\n \n기본적인 프롬프트로 시작하여, 결과를 분석하고, 한 번에 한두 가지 요소만 변경하며 테스트하는 접근법을 제안합니다. 또한 \"나쁜\" 결과로부터 배우는 방법도 설명합니다. 기대에 미치지 못하는 답변이 나왔을 때, 그 원인을 분석하고 프롬프트를 개선하는 과정이 실력 향상의 열쇠입니다.\n \n이 E-BOOK이 필요한 분들\n퍼플렉시티 AI를 처음 접하는 초보자부터 이미 사용 중인 중급자까지\n학술 연구나 논문 작성 시 효율적으로 자료를 찾고 싶은 학생과 연구자\n비즈니스 보고서, 시장 분석, 경쟁사 조사를 해야 하는 비즈니스 전문가\n블로그 글, 소설, 시나리오 등 창의적 콘텐츠를 만드는 크리에이터\n코딩, 개발, 기술 문서 작성 등에 도움이 필요한 개발자와 엔지니어\n일상에서 시간을 절약하고 더 정확한 정보를 얻고 싶은 모든 분들\n \nE-BOOK을 만들며 느낀 점\n이 E-BOOK을 작성하면서 가장 흥미로웠던 점은 퍼플렉시티 AI의 무한한 가능성을 발견하는 과정이었습니다. 단순한 검색 도구를 넘어, 제대로 활용하면 지식 탐색과 창출의 강력한 동반자가 될 수 있음을 경험했습니다.\n특히 프롬프트 작성 기술이 발전함에 따라 받는 정보의 질이 비약적으로 향상되는 것을 보며, 이 지식을 더 많은 분들과 공유하고 싶다는 생각이 강해졌습니다. 정보의 홍수 속에서 필요한 정보를 정확히 찾아내는 능력은 현대 사회에서 가장 중요한 스킬 중 하나이기 때문입니다.\n \n무료로 만나보세요\n이 E-BOOK을 통해 퍼플렉시티 AI의 잠재력을 최대한 활용하는 방법을 배우시고, 더 효율적으로 정보를 찾고, 시간을 절약하며, 더 나은 결과물을 만들어내시길 바랍니다.\n \n정보 검색의 패러다임을 바꿀 준비가 되셨나요? 이 E-BOOK과 함께 퍼플렉시티 AI를 마스터하고, 정보의 바다를 더 스마트하게 항해해보세요!\n \n[WEB 버전]\n\n \nAI Prompt Engineering Guide\nLearn AI prompt engineering with this comprehensive guide and examples.\ne6jn2uzdvs.app.youware.com\n\n \n[PDF 버전]\n\n    \n\n    \n퍼플렉시티 AI 프롬프트 마스터.pdf\n3.86MB\n\n\n \n\n\n\nFAQ\nQ: 퍼플렉시티 AI란 정확히 무엇인가요?\nA: 퍼플렉시티 AI는 단순한 검색 엔진을 넘어 사용자의 질문 의도를 깊이 이해하고 실시간으로 웹을 검색해 관련성 높은 정보를 제공하는 지능형 답변 엔진입니다. AI 챗봇의 대화 능력과 검색 엔진의 정보 수집 능력이 결합되어 정보를 소비하고 활용하는 방식을 근본적으로 변화시킵니다.\nQ: 이 E-BOOK은 초보자도 이해할 수 있나요?\nA: 네, 퍼플렉시티 AI의 기본 개념부터 시작하여 고급 테크닉까지 단계적으로 설명하고 있어 누구나 쉽게 따라할 수 있습니다. 명확한 예시와 실전 템플릿이 포함되어 있어 바로 활용할 수 있습니다.\nQ: 실제 업무에 바로 적용할 수 있는 내용인가요?\nA: 네, 학술 연구, 비즈니스 분석, 콘텐츠 제작, 코딩 등 다양한 분야의 실전 템플릿이 50개 포함되어 있습니다. 각 템플릿은 실제 사용 환경에서 테스트되었으며, 필요에 따라 수정하여 바로 활용할 수 있습니다.\nQ: 무료 배포는 언제까지인가요?\nA: 현재 한정된 기간 동안 무료로 제공하고 있습니다. 퍼플렉시티 AI 활용법을 더 많은 분들과 공유하기 위한 목적으로, 향후에는 유료로 전환될 수 있으니 서둘러 다운로드하시는 것이 좋습니다.\nQ: 퍼플렉시티 AI 외에 다른 AI 도구에도 적용 가능한가요?\nA: 기본적인 프롬프트 작성 원칙은 ChatGPT, Bard 등 다른 AI 도구에도 적용 가능합니다. 그러나 이 E-BOOK은 특별히 퍼플렉시티 AI의 고유 기능(집중 모드, 스페이스, 컬렉션 등)을 활용하는 방법에 중점을 두고 있습니다.\n \n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"퍼플렉시티 AI란 정확히 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"퍼플렉시티 AI는 단순한 검색 엔진을 넘어 사용자의 질문 의도를 깊이 이해하고 실시간으로 웹을 검색해 관련성 높은 정보를 제공하는 지능형 답변 엔진입니다. AI 챗봇의 대화 능력과 검색 엔진의 정보 수집 능력이 결합되어 정보를 소비하고 활용하는 방식을 근본적으로 변화시킵니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"이 가이드는 초보자도 이해할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 퍼플렉시티 AI의 기본 개념부터 시작하여 고급 테크닉까지 단계적으로 설명하고 있어 누구나 쉽게 따라할 수 있습니다. 명확한 예시와 실전 템플릿이 포함되어 있어 바로 활용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"실제 업무에 바로 적용할 수 있는 내용인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 학술 연구, 비즈니스 분석, 콘텐츠 제작, 코딩 등 다양한 분야의 실전 템플릿이 50개 포함되어 있습니다. 각 템플릿은 실제 사용 환경에서 테스트되었으며, 필요에 따라 수정하여 바로 활용할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"무료 배포는 언제까지인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재 한정된 기간 동안 무료로 제공하고 있습니다. 퍼플렉시티 AI 활용법을 더 많은 분들과 공유하기 위한 목적으로, 향후에는 유료로 전환될 수 있으니 서둘러 다운로드하시는 것이 좋습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"퍼플렉시티 AI 외에 다른 AI 도구에도 적용 가능한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"기본적인 프롬프트 작성 원칙은 ChatGPT, Bard 등 다른 AI 도구에도 적용 가능합니다. 그러나 이 가이드는 특별히 퍼플렉시티 AI의 고유 기능(집중 모드, 스페이스, 컬렉션 등)을 활용하는 방법에 중점을 두고 있습니다.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/05/runtime-field-12th.html",
-    "pubDate": "2025-05-18T05:46:00.006Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://muzbox.tistory.com/483585",
+    "pubDate": "Thu, 15 May 2025 15:18:31 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 검색 및 리서치 도구",
+      "ai 활용 e-book",
+      "검색 효율 향상",
+      "무료 전자책",
+      "정보 검색 최적화",
+      "지능형 검색 도구",
+      "퍼플렉시티 ai",
+      "퍼플렉시티 고급 기능",
+      "프롬프트 작성법",
+      "프롬프트 최적화",
+      "효율적 검색 기법"
+    ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "Elasticsearch 9.0의 변화 - 2nd",
-    "description": "stack mornitoring 실행하니 이런 에러가 뜬다. 개체 암호화키가 필요하다고?\n\n\n\n\n까라면 까야지(..) 암호화키 생성.\n\n\n\nPS D:\\ELK\\kibana-9.0.1\\bin> .\\kibana-encryption-keys.bat generate -i\n## Kibana Encryption Key Generation Utility\n \nThe 'generate' command guides you through the process of setting encryption keys for:\n \nxpack.encryptedSavedObjects.encryptionKey\n    Used to encrypt stored objects such as dashboards and visualizations\n    https://www.elastic.co/guide/en/kibana/current/xpack-security-secure-saved-objects.html#xpack-security-secure-saved-objects\n \nxpack.reporting.encryptionKey\n    Used to encrypt saved reports\n    https://www.elastic.co/guide/en/kibana/current/reporting-settings-kb.html#general-reporting-settings\n \nxpack.security.encryptionKey\n    Used to encrypt session information\n    https://www.elastic.co/guide/en/kibana/current/security-settings-kb.html#security-session-and-cookie-settings\n \n \nAlready defined settings are ignored and can be regenerated using the --force flag.  Check the documentation links for instructions on how to rotate encryption keys.\nDefinitions should be set in the kibana.yml used configure Kibana.\n \nThis tool will ask you a number of questions in order to generate the right set of keys for your needs.\n \nSet xpack.encryptedSavedObjects.encryptionKey? [y/N] y\nSet xpack.reporting.encryptionKey? [y/N] n\nSet xpack.security.encryptionKey? [y/N] n\n \nThe following key was generated:\nxpack.encryptedSavedObjects.encryptionKey\n \nSave generated keys to a sample Kibana configuration file? [y/N] y\nWhat filename should be used for the sample Kibana config file? [D:\\ELK\\kibana-9.0.1\\config\\kibana.sample.yml]):\nWrote configuration to D:\\ELK\\kibana-9.0.1\\config\\kibana.sample.yml\n\nColored by Color Scripter\ncs\n\n\n\n\n생성된 암호화키 설정 추가.\n\n\n\n\n\n\n보안이 계속 강화된다. 중요하지 보안(..)\n\n\n관련 글\n\nElasticsearch 9.0의 변화\nElasticsearch 8.11의 변화\nFilebeat 9.0의 변화",
+    "title": "JetBrains Rider에서 사용할 수 있는 12가지 디버깅 기법",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/05/elasticsearch-90-2nd.html",
-    "pubDate": "2025-05-20T12:43:00.002Z",
+    "link": "https://jacking75.github.io/jetbrains_20250519/",
+    "pubDate": "Mon, 19 May 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Splunk의 날짜 계산",
-    "description": "최근 30일 데이터의 주간 단위 발생 통계. '월~일요일' 단위 집계 결과를 보여준다.\n\n\n\n\n4월 데이터의 주간 단위 발생 통계. '화~월요일' 단위 집계 결과.\n\n\n\n\n주간 단위 집계 범위가 달라지는 이유는 선택 범위에 따라 시작일이 달라지니까. 원하는 범위가 '월~일요일'이라면 시작일을 월요일로 지정하면 된다. 디폴트는 일요일(w0).\n\n\n\n\n주간 단위 변화를 좀 더 세밀하게 보고 싶다면? \n\n\nrelative_time 함수를 이용하면 특정일을 기준으로 원하는 날짜를 계산할 수 있다.\n\n\n\n\n집계 분할 기준으로 사용할 날짜별 주간 범위(월~일요일) 필드 추가.\n\n\n\n\n\n관련 글\n\nSplunk의 unix time",
+    "title": "Open-sourcing Pyrefly: A faster Python type checker written in Rust",
+    "description": "Back in 2017, engineers at Meta sought to create a type checker for Instagram’s typed Python codebase. Years later, as the type system continued to evolve, that type checker eventually became Pyrefly.  Pyrefly is a new type checker and IDE experience for Python, written with Rust, and now available for the entire Python community to [...]\nRead More...\nThe post Open-sourcing Pyrefly: A faster Python type checker written in Rust appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/05/splunk.html",
-    "pubDate": "2025-05-14T13:56:00.003Z",
+    "link": "https://engineering.fb.com/2025/05/15/developer-tools/open-sourcing-pyrefly-a-faster-python-type-checker-written-in-rust/",
+    "pubDate": "Thu, 15 May 2025 18:30:33 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "Culture",
+      "DevInfra",
+      "Open Source",
+      "Meta Tech Podcast"
+    ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "연 최대 30만 원, 경차라면 기름값 지원받아요: 경차 유류세 환급 제도",
-    "description": "유류구매카드 발급받으면 기름 넣는 즉시 환급받을 수 있어요.",
+    "title": "Kotlin and Azul: Collaboration for Enhanced Runtime Performance",
+    "description": "Striving for high application performance For many years, JetBrains has aimed to help developers write high-performance applications by providing tools for development and diagnostics. On the Kotlin team, we pay close attention to performance, offering language features such as inline functions and classes, optimizations in the standard library, thoughtful bytecode generation, and the Kotlin coroutines […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.toss.im/article/money-policies-42",
-    "pubDate": "Thu, 15 May 2025 06:01:00 GMT",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/kotlin/2025/05/kotlin-and-azul-collaboration-for-enhanced-runtime-performance/",
+    "pubDate": "Tue, 20 May 2025 13:00:09 +0000",
+    "creator": "Anton Yalyshev",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "2025-05-19 (월) 개발일지",
-    "description": "썸네일 좀 바꿔야 할꺼 같다...\n(대충 만든 썸네일을 이렇게 많이 쓸지 몰랐다.)\n \n엘릭서 Elixir\n영상: https://www.youtube.com/watch?v=-lgtb-YSUWE&t=901s\n\n\n\n18분대에서 해메고 있다.\n오전에 엘릭서 잠시 손뎄다가 미궁으로 빠졌다.\n \n\n\n핼로우 월드 하나찍는데 뭔가 줄줄이 나온다.\n\n\n코드는 여기 한줄 넣은것 뿐이다.\n빼면 아무것도 찍히지 않고 끝난다.\n\n\n영상에서도 이거에 대해 어렵다고 말은 하는데\n아무도 쉽게 알려주진 않는다.\n시간이 많이 걸릴꺼 같아 일단 접었다.\n \nBBG 프로젝트\nBBG 는 별도의 그룹과 진행중이다.\nUI 를 협업할 수 있게 빼달라는 요청에 어제 다 뺏다.\n협업이 시작되면다시 더많은 버그가 생길 것이다.\n프리팹이 깨지지 않게 분리해주면 연결된 링크가 깨지는 식으로 문제가 생긴다.\n내가 할일은 에디터에서 미리 발견해서\n유저에게 문제가 있는 빌드가 전달 되지 않도록 막는 것이다.\n \nBGG 추가 사항\n\n\n프로젝트 좌초 가능성이 있어보이는군요\n미소녀 이미지로 유저를 후킹 해보려는 시도를 했었는데\n실패했다고 합니다.",
+    "title": "Moving the MPS Forum to the New JetBrains Platform Community Space",
+    "description": "Discussions help communities evolve and thrive. The MPS community has been relying on the MPS Slack channel and the Zendesk community forum for many years. While Slack has served its purpose as a place for instantly exchanging advice and ideas, the forum has gradually fallen out of use. This is for good reason – the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1327",
-    "pubDate": "Mon, 19 May 2025 12:13:19 +0900",
-    "creator": "SIDNFT",
-    "categories": []
+    "link": "https://blog.jetbrains.com/mps/2025/05/mps-forum-moved/",
+    "pubDate": "Wed, 21 May 2025 05:22:46 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "announcement"
+    ]
   }
 ]
