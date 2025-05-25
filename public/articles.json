@@ -2,161 +2,126 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "[MULTI] 큰 진화 없이 돌아온 회귀자가 주는 재미, 세븐나이츠 리버스",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2306",
+    "pubDate": "Mon, 19 May 2025 16:15:57 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
     "title": "Aspect-Oriented Programming의 이해와 적용",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
     "link": "https://blog.seulgi.kim/2025/05/aspect-oriented-programming.html",
-    "pubDate": "2025-05-22T19:01:00.010Z",
+    "pubDate": "2025-05-22T19:01:00.012Z",
     "creator": "Unknown",
     "categories": []
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "아니 진짜 눌렀다고!! 클레르 옵스퀴르: 33 원정대",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2308",
-    "pubDate": "Tue, 20 May 2025 23:21:18 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "엘라스틱 Runtime field - 12th",
-    "description": "잘 동작하는 정규표현식.\n\n\n\n\nurl 필드 추출.\n\nPUT sample/_mapping\n{\n    \"runtime\": {\n        \"url\": {\n            \"type\": \"keyword\",\n            \"script\": \"\"\"\n                if (doc['message.keyword'].value =~ /\\?/) {\n                    def str=/[^\"]+\"\\S+ ([^?]+)\\?/.matcher(doc['message.keyword'].value);\n                    if (str.find()) {\n                        emit(str.group(1))\n                    }\n                } else {\n                    def str=/[^\"]+\"\\S+ (\\S+)/.matcher(doc['message.keyword'].value);\n                    if (str.find()) {\n                        emit(str.group(1))\n                    }\n                }\n            \"\"\"\n        }\n    }\n}\n\n\n\n\n필드는 잘 만들어졌는데,\n\n\n\n\n조회가 안 된다. painless 스크립트에 정규표현식 제한을 걸어놓은 모양. (v9부터 걸린 건가?)\n\n\n\n\n제한을 풀기 위한 script.painless.regex.enabled 설정 추가.\n\n\n\n\n\n\n관련 글\n\n엘라스틱 Runtime field - 11th\n엘라스틱 Runtime field\n엘라스틱 Sscripted field\n정규표현식 몰라도 된다 - 2nd\nconvert ip to decimal",
+    "title": "프로세스를 촘촘하게 만드는 사람",
+    "description": "최근에 쿠팡의 조직 문화에 대해 이야기를 나눌 기회가 있었다.\n쿠팡의 인재론은 한 축은 실적, 한 축은 가치관으로 평가한다.\n실적이 좋고 가치관이 훌륭한 사람은 스타(star),\n실적도 안 되고 가치관이 엉망인 사람은 개(dog)다.\n실적은 안 좋고 가치관이 잘 맞는 사람은 물음표(?)다.\n가장 문제는 실적이 좋지만 가치관이 안 맞는 사람이다.\n이런 사람은 독(poison)으로 분류한다.\n장기적으로 독을 밀어내고 물음표를 과감하게 기용할 수 있는 혜안이 필요하다.\n문화가 항상 앞서야 한다.\n회사에 핵심 가치가 필요한 이유다.\n쿠팡을 다녀본 적은 없지만, 각자가 경험한 조직들을 기준으로 이 스타(star), 개(dog), 물음표(?), 독(poison) 에 대해 나눴다.\n그러다 어떤 사람이 독(poison) 인가에 대한 질문이 나왔다.\n이에 대해 여러 이야기가 나왔지만, 나는 \"프로세스/제도를 더 촘촘하게 만드는 사람이 독인것 같다\" 는 이야기를 했다.\nA 회사는 바쁘게 일 하느라 저녁 식사를 제때 못하는 분들을 위해 김밥을 준비했다.\n\"저녁 식사 못하고 야근하신 분들은 김밥 드세요\" 라는 회사의 공지가 나왔다.\n일부의 사람이 30분 야근을 하면서 퇴근길에 이 김밥을 챙겨가기 시작했다.\n김밥의 양이 부족해서 원래 목적이였던 사람들은 여전히 제때 끼니를 챙기지 못했다.\n이후에는 김밥을 가져갈 수 있는 조건이 하나둘씩 생기기 시작했다.\n9시 이후 퇴근 하시는 분들만 가져갈 수 있습니다.\n김밥 수령하신 분들은 이름을 작성해주세요.\n대리 수령은 안됩니다.\n등등.\n하나둘씩 김밥을 먹을 수 있는 조건들이 촘촘하게 만들어지기 시작하니 이제는 진짜 김밥을 먹길 바랬던 대상자들도 먹지 않게 되었다.\n\"김밥을 먹으면 8시까지 무조건 야근 해야하는구나\"\n\"김밥 하나 먹으려고 너무 짜친다 그냥 안먹고 일 하련다\" 등등의 이유로 말이다.\n소수의 오남용 하는 사람들로 조직의 프로세스, 제도는 더 촘촘하게 만들어진다.\n그리고 촘촘하게 만들수록 조직은 제대로 굴러가기 힘들고 짜치는 조직이 되어간다.\n누군가는 이렇게 얘기할 수도 있다.\n\"아니 김밥 그거 얼마나 한다고 넉넉하게 준비하면 되지 뭐 이렇게 치사하게 구냐\" 라고.\n근데 김밥이라는건 조직에서 관리하는 일종의 리소스를 표현한 것 뿐이다.\n회사의 모든 리소스는 항상 제한된 상황에서 운영된다.\n아무리 필요한 사람이 있더라도 의도와 다르게 오남용하는 것까지 고려해서 충분한 리소스가 확보되어야만 모든 프로세스와 제도가 도입되어야하는 것인가?\n아무리 필요한 사람이 있더라도 그만큼의 리소스가 확보되지 않으면 도입을 못하는 것인가?\n그건 아닐 것이다.\n더 열정적으로 일을 하는 사람들이 있다면 그들을 위해 지원해야할 것들이 있다면 더 지원해야하고, 프로세스와 제도는 더 느슨하게, 더 자유롭게 활용할 수 있도록 해야한다.\n그렇지만 특정 몇 명으로 인해 프로세스와 제도가 계속해서 촘촘하게 만들어진다면 그들은 조직을 망치는 사람들로서 경계해야한다.\n\"기준이 모호하니깐 사람들이 프로세스를 악용한다\" 라는 이야기는 반은 맞지만 반은 맞지 않다.\n기준을 명확하게 만들려고, \"이럴때는 이렇게 하셔야 하고, 저럴때는 저렇게 하셔야 합니다\" 라는 형태로 프로세스가 계속해서 촘촘하게 만들어지는 것이 더 성과내기 좋은 조직이란 말인가?\n\"프로세스가 모호하다고 느껴질 때 그때 개인의 이득이 되는 선택을 하느냐, 전체에 이득이 되는 선택을 하느냐\"에 따라 프로세스가 더 촘촘해지기도 하고, 더 느슨해지기도 한다.\n프로세스가 모든 상황에 대해서 정확하게 가이드를 할 순 없다.\n프로세스가 촘촘할수록 개인별 역량과 도전은 제한받을 수 밖에 없다.\n프로세스 혹은 제도는 최소한의 기본을 가지고 있고,\n대부분의 가치판단이 모호할 때는 회사의 문화, 가치관에 따라 개인이 결정하는 것이 훨씬 더 좋다고 생각한다.\n결국 제도는 기본과 원칙에 충실하게 만들되, 문화, 가치관에 대한 교육에 좀 더 집중하는 편이 맞는 경우가 훨씬 많은 것 같다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/05/runtime-field-12th.html",
-    "pubDate": "2025-05-18T05:46:00.006Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://jojoldu.tistory.com/829",
+    "pubDate": "Tue, 20 May 2025 09:27:40 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "배민",
+      "스타트업",
+      "인프런",
+      "조직문화",
+      "쿠팡"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "작은 성공의 기쁨",
-    "description": "목표를 크게 잡는 것을 좋아하지 않습니다.\n작은 성공의 기쁨을 맛보기 위해서.\n목표를 높게 잡으라는 말을 믿지 않습니다.\n어릴 때는 항상 목표를 높게 잡았습니다.\n언젠가부터는 목표치를 낮게 잡기 시작했습니다.\n\n함께 읽으면 좋은 글:\n느려도 좋으니 매일 한 걸음씩 전진\n내 몸에 맞는 속도로 걸어가기",
+    "title": "What’s Next: The WebStorm 2025.2 Roadmap",
+    "description": "In April of this year, we released WebStorm 2025.1, our first major update for 2025. Thank you to everyone who is already using it and providing feedback. With April now behind us, we’d like to announce what we’ve got planned for the next release of WebStorm, which is scheduled for July, with our usual disclaimer: […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/05/21/small-wins.html",
-    "pubDate": "2025-05-21T13:41:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/webstorm/2025/05/what-s-next-the-webstorm-2025-2-roadmap/",
+    "pubDate": "Thu, 22 May 2025 15:18:19 +0000",
+    "creator": "David Watson",
+    "categories": [
+      "news",
+      "webstorm-2025-2"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Stitch, 구글이 만든 UI 디자인을 위한 AI 도구",
-    "description": "Google Labs: Stitch\n\n구글이 개발자 컨퍼런스 I/O 2025에서 공개한 새로운 AI 기반 UI 디자인 도구 'Stitch'가 디자인과 개발 프로세스를 혁신적으로 변화시키고 있습니다. 이 글에서는 Stitch의 주요 기능과 활용 방법에 대해 자세히 알아보겠습니다.\nStitch란 무엇인가?\nStitch는 구글 랩스(Google Labs)에서 출시한 실험적 AI 도구로, 간단한 텍스트 프롬프트나 이미지 입력을 복잡한 UI 디자인과 프론트엔드 코드로 빠르게 변환해주는 서비스입니다. 디자이너와 엔지니어 간의 협업을 원활하게 하기 위해 개발된 이 도구는 Gemini 2.5 Pro의 멀티모달 기능을 활용하여 디자인과 개발 워크플로우를 통합합니다.\n특히 주목할 점은 개발자들이 초기 UI 아이디어를 몇 분 만에 실제 작동하는 앱 디자인으로 전환할 수 있다는 것입니다. 이는 디자인 컴포넌트를 수동으로 만들고 코딩하는 지루한 작업에서 개발자를 해방시켜 줍니다.\n'Galileo AI'를 인수 후Stitch로 출시했습니다.\nI’m excited to share that:\n1. Galileo AI has been acquired by @Google.\n2. We launched today the next generation of our product, powered by Gemini: Stitch\nMore on this big news below. pic.twitter.com/fC7Pzl1YB9\n— Arnaud Benard (@arnaudai) May 20, 2025\n \nStitch의 주요 기능\n1. 텍스트 프롬프트 기반 UI 생성\n자연어로 원하는 애플리케이션을 설명하면 Stitch가 이를 분석하여 맞춤형 시각적 인터페이스를 생성합니다. 색상 팔레트나 사용자 경험 요소 등 세부 사항을 지정할 수 있어 원하는 디자인에 가까운 결과물을 얻을 수 있습니다.\n2. 이미지 참조 기능\n화이트보드에 그린 스케치, 매력적인 UI 스크린샷, 또는 대략적인 와이어프레임을 업로드하면 Stitch가 이를 처리하여 디지털 UI를 생성합니다. 프레임, 스케치, UI 디자인 스크린샷 등 다양한 시각적 참조를 활용할 수 있어 더욱 정교한 결과물을 얻을 수 있습니다.\n3. 다양한 디자인 변형 생성\nStitch는 여러 인터페이스 변형을 생성할 수 있어 다양한 스타일과 레이아웃을 실험해볼 수 있습니다. 디자인은 반복적인 과정이므로, 이 기능을 통해 원하는 모양과 느낌을 얻을 때까지 여러 옵션을 탐색할 수 있습니다.\n4. 코드 생성 및 Figma 연동\nStitch는 UI 컴포넌트와 함께 완전히 작동하는 프론트엔드 코드를 생성합니다. 이 코드는 애플리케이션에 직접 통합하거나 Figma로 내보내 디자인 요소를 더 세밀하게 조정할 수 있습니다. 이는 기존 시스템과의 원활한 통합과 디자이너와의 협업을 가능하게 합니다.\n실제 활용 사례\n구글 제품 매니저 캐시 코레벡(Kathy Korevec)은 Stitch를 사용하여 만든 두 가지 프로젝트를 시연했습니다:\n책 관련 앱을 위한 반응형 모바일 UI 디자인\n양봉을 위한 웹 대시보드\n그녀는 Stitch를 \"초기 반복 작업을 완료하고 거기서부터 계속 진행할 수 있는 곳\"이라고 설명했습니다.\n\nStitch의 미래 계획\n구글은 가까운 미래에 Stitch에 스크린샷 편집 기능을 추가할 계획입니다. 이 기능을 통해 수정하고 싶은 객체의 스크린샷을 찍고 원하는 수정 사항을 주석으로 달 수 있게 될 예정입니다.\n코레벡은 Stitch가 강력한 도구이지만 Figma나 Adobe XD와 같은 완전한 디자인 플랫폼을 대체하기 위한 것은 아니라고 명확히 했습니다.\n다른 AI 도구와의 연계\nStitch와 함께 구글은 코드 버그 수정을 돕는 AI 에이전트인 'Jules'에 대한 접근성도 확대했습니다. 현재 공개 베타 버전인 Jules는 개발자가 복잡한 코드를 이해하고, GitHub에서 풀 리퀘스트를 생성하며, 백로그 항목과 프로그래밍 작업을 관리하는 데 도움을 줍니다.\nStitch 사용해보기\nStitch는 현재 구글 랩스를 통해 접근할 수 있으며, 영어로 제공됩니다. 관심 있는 개발자와 디자이너는 stitch.withgoogle.com에서 이 혁신적인 도구를 직접 체험해볼 수 있습니다.\n결론\nStitch는 디자인과 개발 사이의 간극을 좁히는 혁신적인 도구로, 복잡한 UI 디자인 프로세스를 간소화하고 개발자와 디자이너 모두에게 효율적인 워크플로우를 제공합니다. AI 기술의 발전으로 앱 개발 과정이 더욱 창의적이고 생산적으로 변화하고 있는 좋은 예시입니다. 앞으로 Stitch가 어떻게 발전하고 디자인-개발 생태계에 어떤 영향을 미칠지 지켜볼 가치가 있습니다.\n참고 출처\nGoogle Stitch 공식 웹사이트\nGoogle Developers Blog: \"From idea to app: Introducing Stitch, a new way to design UIs\"\nThe Verge: \"Google made an AI coding tool specifically for UI design\"",
+    "title": "구글 AI 울트라 - 월 25만원의 초강력 AI 구독 서비스, 정말 가치가 있을까?",
+    "description": "구글 AI 울트라 최신 소식: 월 $249.99의 VIP급 AI 구독 서비스 총정리! 제미니 최고급 버전, 비오 3 얼리 액세스, 30TB 스토리지, 유튜브 프리미엄까지 한 번에. 영화 제작자와 개발자를 위한 구글의 혁신적 AI 플랜을 알아보세요.\n\n\n \n 아침에 일어나 뉴스를 확인하는데 눈을 의심했어요. 구글에서 또 신규 AI 서비스를 출시했다고? 어제만 해도 일반 프리미엄 플랜을 쓰고 있었는데, 갑자기 '울트라'라니... 솔직히 호기심이 막 솟았습니다. 이 새로운 서비스가 정말 월 25만원이 넘는 가치가 있을지, 특히 영상 제작이나 복잡한 연구를 자주 하는 분들에게 어떤 변화를 가져올지 궁금해서 바로 살펴봤어요.\n \n여러분도 최신 AI 기술에 관심이 있으신가요? 아니면 단순히 비싼 신규 서비스가 출시될 때마다 \"이게 왜 필요하지?\"라는 생각이 드시나요?\n \n구글 AI 울트라란 무엇인가?  \n구글 AI 울트라는 2025년 5월 20일 출시된 구글의 최상위 AI 구독 플랜입니다. 일단 이름부터가 '울트라'잖아요. 이름 그대로 구글 AI의 모든 최고급 기능과 최대 사용량, 그리고 최신 모델에 대한 우선 접근권을 제공하는 서비스예요.\n \n심릿 벤-야이르 구글 포토 및 구글 원 부사장은 \"영화 제작자, 개발자, 크리에이티브 전문가 또는 단순히 구글 AI의 최고 수준을 원하는 사용자를 위한 VIP 패스\"라고 소개했어요.\n \n현재 미국에서만 월 $249.99(약 34만원)에 제공되지만, 첫 3개월 동안 50% 할인 혜택이 있다고 하네요. 국내 출시 일정은 아직 공개되지 않았지만, 곧 다른 국가로도 확장될 예정이라고 합니다.\n \n구글 AI 울트라의 핵심 기능 및 혜택  \n제가 직접 구글 공식 블로그의 정보를 종합해서 가장 인상적인 기능들을 정리해봤어요:\n1. 제미니(Gemini) 최상위 버전\n딥 리서치: 기존 연구 기능보다 훨씬 더 깊은 수준의 분석 가능\n비오 2(Veo 2): 최첨단 비디오 생성 모델 접근 권한\n비오 3(Veo 3): 초기 접근 권한 제공(아직 정식 출시 안 됨)\n딥 싱크 2.5 Pro: 몇 주 내에 향상된 추론 모드 접근 권한 제공 예정\n2. 플로우(Flow) - 새로운 AI 영화 제작 도구\n구글 딥마인드의 가장 진보된 모델(비오, 이마젠, 제미니) 맞춤 설계\n직관적인 프롬프트로 영화적 클립, 장면, 일관된 내러티브 제작 가능\n1080p 비디오 생성, 고급 카메라 제어 기능\n비오 3 모델 얼리 액세스\n3. 위스크(Whisk) - 아이디어 시각화 도구\n텍스트와 이미지 프롬프트로 빠르게 아이디어 탐색 및 시각화\n위스크 애니메이트: 이미지를 비오 2 모델로 생생한 8초 비디오로 변환\n가장 높은 사용 한도 제공\n4. 노트북LM(NotebookLM)\n올해 말 가장 높은 사용 한도와 향상된 모델 기능 제공 예정\n학습, 교육, 프로젝트에 최적화\n5. 프로젝트 마리너(Project Mariner)\n에이전트 연구 프로토타입\n연구부터 예약, 구매까지 최대 10개 작업 동시 관리 가능\n단일 대시보드에서 모든 작업 관리\n6. 기타 통합 서비스\n제미니 인 크롬: 내일부터 크롬 브라우저 내에서 제미니 조기 액세스\n유튜브 프리미엄: 개인 유튜브 프리미엄 플랜 포함\n30TB 스토리지: 구글 포토, 드라이브, 지메일 전체에 걸쳐 대용량 저장공간\n \n구글 AI 프로와의 차이점 - 정말 가치가 있을까?  \n제가 가장 궁금했던 부분은 기존의 AI 프리미엄 플랜(이제 구글 AI 프로로 변경)과 비교했을 때 실제로 어떤 차이가 있는지였어요. 구글이 공개한 비교표를 분석해보니:\n기능\n구글 AI 프로\n구글 AI 울트라\n\n\n\n\n가격\n$19.99/월\n$249.99/월\n\n\n제미니\n제미니 Advanced\n최상위 제미니 경험\n\n\n플로우(Flow)\n비오 2 제한적 접근\n비오 3 포함 전체 기능\n\n\n위스크(Whisk)\n기본 기능\n최대 사용량 한도\n\n\n스토리지\n2TB\n30TB\n\n\n유튜브\n없음\n유튜브 프리미엄 포함\n\n\n프로젝트 마리너\n없음\n포함\n\n\n\n여기서 특히 주목할 점은 구글 AI 프로 사용자들도 추가 비용 없이 플로우 AI 영화 제작 기능 및 크롬에서의 제미니 조기 접근 권한이 제공된다는 거예요. 미국에서 먼저 시작해 다른 국가로 확대될 예정이라고 합니다.\n \n실제 활용 사례 - 누구에게 필요할까?  \n제 생각에 이 서비스는 아래와 같은 사용자들에게 특히 유용할 것 같아요:\n1. 프로페셔널 크리에이터 및 영화 제작자\n비오 3 모델과 플로우 도구를 활용한 고급 영상 제작이 가능합니다. 제가 영상 프로듀서 친구에게 물어보니, 간단한 프로젝트에서 포스트 프로덕션 시간을 50-60% 줄일 수 있을 것 같다고 하더라고요.\n2. 개발자 및 연구원\n딥 리서치와 딥 싱크 기능을 통해 복잡한 코딩 작업과 학술 연구에 활용할 수 있습니다. 특히 논문 작성이나 데이터 분석에 유용할 것 같아요.\n3. 비즈니스 전문가\n프로젝트 마리너를 통해 여러 작업을 동시에 관리하고 효율성을 극대화할 수 있습니다. 특히 많은 프로젝트를 동시에 진행하는 프리랜서나 창업자에게 유용하겠죠.\n4. 대용량 스토리지 필요 사용자\n30TB의 스토리지는 사진, 영상, 문서 등을 대량으로 저장하는 사용자에게 매력적인 옵션입니다. 특히 고해상도 영상 작업을 많이 하는 분들에게요.\n \n \n구글 AI 울트라의 한계와 고려사항 ⚠️\n하지만 모든 좋은 점에도 불구하고, 몇 가지 고려해야 할 사항이 있어요:\n높은 가격대: 월 $249.99는 개인 사용자에게는 부담스러운 가격입니다. 비즈니스나 전문가가 아니라면 비용 대비 효율성을 신중히 고려해야 해요.\n국가별 가용성: 현재 미국에서만 제공되며, 다른 국가 출시 일정은 불확실합니다. 한국에서는 언제 사용할 수 있을지 아직 미정이에요.\n인터넷 의존성: 대부분의 기능이 클라우드 기반이므로 안정적인 인터넷 연결이 필요합니다. 인터넷이 불안정한 환경에서는 활용도가 떨어질 수 있어요.\n학습 곡선: 다양한 고급 기능을 최대한 활용하려면 일정 수준의 학습이 필요합니다. 특히 플로우나 제미니의 고급 기능은 숙련도가 필요할 수 있어요.\n \n대학생을 위한 혜택 - 무료 AI 프로 접근  \n 흥미롭게도 구글은 일본, 브라질, 인도네시아, 영국의 대학생들에게도 학교 연도 동안 구글 AI 프로에 무료로 접근할 수 있는 혜택을 확대한다고 밝혔습니다. 이전에 미국 대학생들에게만 제공되었던 혜택이 더 많은 국가로 확대되는 것이죠.\n \n이런 교육 분야 지원은 미래 인재 육성과 AI 기술 보급에 중요한 역할을 할 것으로 보여요. 특히 딥 러닝이나 자연어 처리를 배우는 학생들에게는 실무적인 경험을 쌓을 수 있는 좋은 기회가 될 것 같습니다.\n\n\n마무리: 미래 AI의 방향성  \n구글 AI 울트라의 출시는 AI 기술의 대중화와 전문화가 동시에 진행되고 있음을 보여줍니다. 월 $19.99의 프로 플랜은 일반 사용자를 위한 것이라면, 월 $249.99의 울트라 플랜은 AI 기술을 직업이나 전문적인 작업에 적극 활용하는 사용자들을 위한 것으로 보여요.\n \n앞으로 AI 기술이 더욱 발전하면서 이런 서비스의 가격은 내려가고 기능은 더욱 강화될 것으로 기대됩니다. 지금 당장 울트라 플랜이 필요하지 않더라도, 이런 최신 기술들이 앞으로 어떻게 우리 일상과 업무를 변화시킬지 지켜보는 것도 흥미로울 것 같네요.\nAI 기술에 관심이 있거나 실제로 전문적인 작업에 활용해보고 싶으신 분들이라면, 3개월 50% 할인 혜택을 활용해 구글 AI 울트라를 시험해보는 것도 좋은 방법일 수 있겠습니다. 무엇보다 자신의 필요와 사용 패턴에 맞는 서비스를 선택하는 것이 중요하다고 생각해요.\n \n여러분은 어떻게 생각하시나요? 구글 AI 울트라 같은 고급 AI 서비스가 여러분의 일상이나 업무에 어떤 변화를 가져올 것 같나요? 댓글로 여러분의 생각을 공유해주세요!\n자주 묻는 질문 (FAQ)\n1. 구글 AI 울트라는 언제 한국에서 이용 가능한가요?\n구글은 현재 미국에서만 서비스를 제공하고 있으며, 추후 다른 국가로 확장 예정이라고만 밝혔습니다. 정확한 한국 출시 일정은 아직 공개되지 않았습니다.\n2. 구글 AI 프로와 울트라의 가장 큰 차이점은 무엇인가요?\n가장 큰 차이점은 비오 3 모델 접근권, 30TB 스토리지, 유튜브 프리미엄 포함, 프로젝트 마리너 접근성 등이 있습니다. 또한 모든 서비스에서 최대 사용량 한도를 제공합니다.\n3. 학생도 구글 AI 울트라를 할인받을 수 있나요?\n현재 구글은 특정 국가(미국, 일본, 브라질, 인도네시아, 영국)의 대학생들에게 구글 AI 프로를 무료로 제공하고 있지만, 울트라 플랜에 대한 학생 할인은 아직 발표되지 않았습니다.\n4. 플로우(Flow)와a 위스크(Whisk)는 어떻게 다른가요?\n플로우는 영화적 영상 제작에 초점을 맞춘 도구인 반면, 위스크는 일반적인 아이디어 시각화와 이미지를 짧은 애니메이션으로 변환하는 데 중점을 둡니다.\n5. 30TB 스토리지는 얼마나 많은 데이터를 저장할 수 있나요?\n30TB는 약 6,000시간의 HD 영상이나 900만 장의 고해상도 사진, 또는 1,500만 개의 문서 파일을 저장할 수 있는 용량입니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"구글 AI 울트라는 언제 한국에서 이용 가능한가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"구글은 현재 미국에서만 서비스를 제공하고 있으며, 추후 다른 국가로 확장 예정이라고만 밝혔습니다. 정확한 한국 출시 일정은 아직 공개되지 않았습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"구글 AI 프로와 울트라의 가장 큰 차이점은 무엇인가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"가장 큰 차이점은 비오 3 모델 접근권, 30TB 스토리지, 유튜브 프리미엄 포함, 프로젝트 마리너 접근성 등이 있습니다. 또한 모든 서비스에서 최대 사용량 한도를 제공합니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"학생도 구글 AI 울트라를 할인받을 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"현재 구글은 특정 국가(미국, 일본, 브라질, 인도네시아, 영국)의 대학생들에게 구글 AI 프로를 무료로 제공하고 있지만, 울트라 플랜에 대한 학생 할인은 아직 발표되지 않았습니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"플로우(Flow)와 위스크(Whisk)는 어떻게 다른가요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"플로우는 영화적 영상 제작에 초점을 맞춘 도구인 반면, 위스크는 일반적인 아이디어 시각화와 이미지를 짧은 애니메이션으로 변환하는 데 중점을 둡니다.\"\n    }\n  }, {\n    \"@type\": \"Question\",\n    \"name\": \"30TB 스토리지는 얼마나 많은 데이터를 저장할 수 있나요?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"30TB는 약 6,000시간의 HD 영상이나 900만 장의 고해상도 사진, 또는 1,500만 개의 문서 파일을 저장할 수 있는 용량입니다.\"\n    }\n  }]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.gaerae.com/2025/05/google-labs-stitch-ui-coding-design-tool.html",
-    "pubDate": "Wed, 21 May 2025 02:53:00 +0000",
-    "creator": "noreply@blogger.com (Unknown)",
+    "link": "http://muzbox.tistory.com/483596",
+    "pubDate": "Wed, 21 May 2025 16:14:48 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      {
-        "_": "news",
-        "$": {
-          "domain": "http://www.blogger.com/atom/ns#"
-        }
-      },
-      {
-        "_": "tool",
-        "$": {
-          "domain": "http://www.blogger.com/atom/ns#"
-        }
-      }
+      "AI, 미래기술/AI 챗봇 및 언어 모델",
+      "30tb 스토리지",
+      "ai 영화 제작",
+      "구글 ai 울트라",
+      "딥 리서치",
+      "비오 3",
+      "위스크",
+      "유튜브 프리미엄",
+      "제미니",
+      "프로젝트 마리너",
+      "플로우"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Vite 개발 환경에 정적 파일 디렉토리 추가하기",
-    "description": "스벨트킷에서 src나 static 디렉토리가 아닌 다른 곳의 파일을 브라우저에서 접근하면 아래와 같은 403 오류가 발생한다.\n\r\n\r\n403 Restricted\r\n\r\nThe request url \"/Users/hyeonseok/repo/photo-date/uploads/c8a1cbda-d16f-4289-a2b0-318f1ddfea6e.HEIC\" is outside of Vite serving allow list.\r\n\r\n- /Users/hyeonseok/repo/photo-date/src/lib\r\n- /Users/hyeonseok/repo/photo-date/src/routes\r\n- /Users/hyeonseok/repo/photo-date/.svelte-kit\r\n- /Users/hyeonseok/repo/photo-date/src\r\n- /Users/hyeonseok/repo/photo-date/node_modules\r\n\r\nRefer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.\n\r\n\r\n위에 나열된 디렉토리가 아닌 곳에 있는 파일에 접근하려면 server.fs.allow에 경로를 추가해 주면 된다. vite.config.ts에 아래와 같이 추가하면 해결된다.\n\r\n\r\nexport default defineConfig({\r\n  plugins: [sveltekit()],\r\n  server: {\r\n    fs: {\r\n      allow: ['./uploads']\r\n    }\r\n  }\r\n});\n\r\n\r\n알고나면 쉬운데 챗지피티나 제미나이나 둘 다 svelte.config.js에 vite나 vitePlugin을 추가하라고 해서 한참을 삽질하다가 혹시나 해서 vite.config.ts에 넣으니 바로 된다.\n\r\n\r\n기본 디렉토리인 static/을 사용하면 해결되기는 하는 문제인데 상용 환경에는 static 디렉토리가 없고 client/에 내용이 복사된다. 동적으로 스태틱 파일을 저장하고 싶은데 상용과 개발이 서로 달라서 코드를 분기해 줘야 했다. 위의 방법으로 스태틱 디렉토리를 추가하면 개발 환경과 상용 환경 양쪽에서 같은 디렉토리를 사용하도록 설정할 수 있다. 상용에서는 어차피 엔진엑스를 사용하기 때문에 적절히 root 하나 추가해 주면 된다.",
+    "title": "인프런에 DirectX Raytracing 강좌 올렸습니다.",
+    "description": "인프런에 DirectX Raytracing 강좌 올렸습니다. D3D12프로그래밍 해봤는데 쓸모가 없다고 느끼시는 분들이 계실텐데 Raytracing까지 하면 쓸모가 있습니다. D3D12는 Raytracing때문에 존재한다고 봐도 무방합니다. 강좌를 구입하실 경우 인프런에서 검색해서 구입하지 마시고 아래 링크로 직접 찾아가시면 저한테 금전적으로 조금 더 도움이 됩니다. DirectX Raytracing 프로그래밍 – https://inf.run/ovHNq D3D12프로그래밍 기초편 – https://inf.run/WYdms D3D12프로그래밍 기초 플러스 – https://inf.run/dW4QZ",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hyeonseok.com/blog/935",
-    "pubDate": "Sun, 18 May 2025 17:50:24 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://megayuchi.com/2025/05/22/%ec%9d%b8%ed%94%84%eb%9f%b0%ec%97%90-directx-raytracing-%ea%b0%95%ec%a2%8c-%ec%98%ac%eb%a0%b8%ec%8a%b5%eb%8b%88%eb%8b%a4/",
+    "pubDate": "Thu, 22 May 2025 02:43:29 +0000",
+    "creator": "megayuchi",
+    "categories": [
+      "Development",
+      "Pub",
+      "D3D12",
+      "DirectX raytracing",
+      "DXR",
+      "Game Engine Development"
+    ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "내게 맞는 인공지능 친구를 찾아가는 시도를 응원한다",
-    "description": "학생들에게 강의하다 과제를 내 줄 때면 따라붙는 걱정이 있다. CHAT GPT에 물어서 그대로 ‘복붙’하는 걸 어떻게 검증하냐는 문제다. 실제로 작년 학기에 두 학생이 온라인으로 퀴즈를 보는데 답이 토씨 하나 틀리지 않고 똑같아서 0점 처리한 적이 있다. 부정행위를 한 거냐고 물어봤더니 돌아온 대답은 “질문을 복사해서 GPT에 물어봤고, 그 답을 그대로 갖다 붙였다”는 고백이었다. 그들에게는 자신의 생각보다 […]",
+    "title": "독서와 복리",
+    "description": "나는 2020년부터 해마다 50권 이상의 책을 읽는 걸 목표로 세우고, 실제로 5년째 그 목표를 달성하고 있다. 올해도, 이 페이스로 계속 간다면 50권은 읽을 수 있을 것 같다. 2020년 이전에도 독서를 좋아했지만, 2019년 말에 개인적인 깨달음이 몇 가지 있었고, 독서를 통한 휴식, 독서를 통한 정신 정화, 그리고 독서를 통한 힐링을 해보기로 했다. 나에겐 독서가 잘 맞는다.(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://ppss.kr/archives/269200",
-    "pubDate": "Thu, 22 May 2025 03:16:38 +0000",
-    "creator": "이정원",
+    "link": "https://www.thestartupbible.com/2025/05/everything-is-about-compounding.html",
+    "pubDate": "Wed, 21 May 2025 21:32:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "IT",
-      "책",
-      "테크"
+      "Uncategorized",
+      "books",
+      "compounding",
+      "general",
+      "inspiring"
     ]
   },
   {
     "id": 8,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 3화, 목표가 생긴데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2309",
-    "pubDate": "Wed, 21 May 2025 17:10:55 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "AI로 생성한 이미지는 어떻게 평가할까요? (인페인팅 적용편)",
-    "description": "들어가며안녕하세요. 저희 AMD(Applied ML Dev) 팀에서는 생성형 AI를 포함한 다양한 AI/ML 모델을 개발하고 서비스에 적용하고 있습니다.앞서 발행한 AI로 생성한 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/how-to-evaluate-ai-generated-images-3-inpainting",
-    "pubDate": "Wed, 21 May 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Rider로 쉽게 하는 코드 리뷰",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/jetbrains_20250518/",
-    "pubDate": "Sun, 18 May 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "2025년 해외주식 앵도소득세 납부기 / 키움증권 / 자동대행 했음",
-    "description": "양도 낸다는 양도소득세 시간입니다.\n5월에 내야하는데\n해외주식양도소득세는 4월에 자동대행을 신청합니다.\n신청안했다면 지욱의 액셀맛을 봐야합니다.\n이부분은 설명하지 않겠습니다.\n(저는 대행을 신청했기 때문에 ...)\n저는 수동으로 신청을 2밴 해봤습니다. 두번다 지옥이였습니다.\n키움증권을 사용하는데요\n \n세무서에서 메일로 신고서가 왔습니다.\n위텍스에서 내라고 하네요\n \n탑부하기전에 팝업 허용을 해야합니다.\n저는 크롬 쓰기 때문에 크롬 기준으로 설명합니다.\n우층 상단에 점 세개 있는 버튼\n\n\n메뉴에서 [설정]\n상단에서 [팝업 및 리디렉션] 검색\n[사이트 설정] 클릭\n[팝업 및 리디렉션] 클릭\n\n\n이거 켜둡니다.\n다 납부하고나면 두번째 껄로 설정해서 막아야합니다.\n기억해두시구요\n1년에 한번하는거라 귀찮아도 참습니다.\n \n지방세 납부는 위텍스\n위텍스 - https://wetax.go.kr/main.do\n\n\n납부하기 버튼 누릅니다.\n로그인하라는데 회원가입해두면 휴대폰 번호로 로그인 가능합니다. \n가입해두시구요\n로그인하면 첫화면으로 다시 튕깁니다. (왜징??)\n다시 납부하기 버튼 찾아 누릅니다.\n \n미납된 지방세 내라는데 양도소득세의 10%를 내야합니다.\n내시구요\n이때 팝업이 뜹니다. 위에서 팝업을 허용했다면 내는데 문제가 없을 것입니다.\n \n낸다음 화인하는 방법은 모르겠습니다.\n다음에 들어와보면 내라는 소리가 없길레 성공했다고 생각되는군요\n \n양도세 납부는 홈텍스\n홈텍스 - https://hometax.go.kr/\n홈텍스에 가면 홈텍스 버튼이 있군요 (상자안에 상자 같은 느낌인가...)\n로그인 하시구요\n우측 상단의 [나의 홈텍스] 누릅니다.\n\n\n누르면 내 양도사게 정산되어있습니다.\n\n\n눌러보면 아래쪽에 [납부하기] 버튼 있습니다.\n납부합니다.\n납부하고 나서 다시 들어가서 납부하려고 하면 리스트에서 사라져있습니다.\n이러면 낸거 확인하신 것입니다.\n \n끝났으면 팝업 허용 끄세요\n끝났으면 위에서 팝업창 허용한거 다시 차단으로 바꿔둡니다.\n리다이렉션가 팝업은 이상한 사이트 방문으로 자동으로 해킹당하는걸 막는 유용한 기능이라 차단하는게 맞습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1329",
-    "pubDate": "Wed, 21 May 2025 16:47:40 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "투자",
-      "해외주식양도소득세"
-    ]
-  },
-  {
-    "id": 12,
     "imageUrl": "",
     "title": "Elasticsearch 9.0의 변화 - 3rd",
     "description": "On master node\n\n\n클러스터 마스터 노드 설정(elasticsearch.yml).\n\n\n\n\n\n# Enable encryption and mutual authentication between cluster nodes\nxpack.security.transport.ssl:\n  enabled: true\n  verification_mode: certificate\n  keystore.path: certs/transport.p12\n  truststore.path: certs/transport.p12\n# Create a new cluster with the current node only\n# Additional nodes can still join the cluster later\ncluster.initial_master_nodes: [\"192.168.31.177\"]\n \n# Allow HTTP API connections from anywhere\n# Connections are encrypted and require user authentication\nhttp.host: 192.168.31.177\n \n# Allow other nodes to join the cluster from anywhere\n# Connections are encrypted and mutually authenticated\ntransport.host: 192.168.31.177\n\nColored by Color Scripter\ncs\n\n\n\n\n피어 노드용 토큰 생성.\n\n\n\n\nPS D:\\ELK\\elasticsearch-9.0.1\\bin> .\\elasticsearch-create-enrollment-token -s node\neyJ2ZXIiOiI4LjE0LjAiLCJhZHIiOlsiMTkyLjE2OC4zMS4xNzc6OTIwMCJdLCJmZ3IiOiI0MTZlZTU1ZjU3MDhjZTE2MjU4NzRhNzliNzZmN2QwNDEyNjFkY2JjMmYyZDBiODBkYmE1MmE2ZGY5OGM5ZDY5Iiwia2V5IjoiZ05SdjNaWUJnYmZyWW51RzJhcnk6b1dwRXk5S1p6a19IYlVvemdXcHJnUSJ\ncs\n\n\n\n\nOn peer node\n\n\n마스터 노드에서 생성한 토큰으로 노드 간 연동 실행.\n\n\n\n\n\n[root@Centos7 ~]# /usr/share/elasticsearch/bin/elasticsearch-reconfigure-node --enrollment-token eyJ2ZXIiOiI4LjE0LjAiLCJhZHIiOlsiMTkyLjE2OC4zMS4xNzc6OTIwMCJdLCJmZ3IiOiI0MTZlZTU1ZjU3MDhjZTE2MjU4NzRhNzliNzZmN2QwNDEyNjFkY2JjMmYyZDBiODBkYmE1MmE2ZGY5OGM5ZDY5Iiwia2V5IjoiZ05SdjNaWUJnYmZyWW51RzJhcnk6b1dwRXk5S1p6a19IYlVvemdXcHJnUSJ9\n \nThis node will be reconfigured to join an existing cluster, using the enrollment token that you provided.\nThis operation will overwrite the existing configuration. Specifically:\n  - Security auto configuration will be removed from elasticsearch.yml\n  - The [certs] config directory will be removed\n  - Security auto configuration related secure settings will be removed from the elasticsearch.keystore\nDo you want to continue with the reconfiguration process [y/N]y\n\nColored by Color Scripter\ncs\n\n\n\n\n노드 연동 후 바뀐 피어 노드 설정(elasticsearch.yml).\n\n\n\n\n\n# Enable encryption and mutual authentication between cluster nodes\nxpack.security.transport.ssl:\n  enabled: true\n  verification_mode: certificate\n  keystore.path: certs/transport.p12\n  truststore.path: certs/transport.p12\n# Discover existing nodes in the cluster\ndiscovery.seed_hosts: [\"192.168.31.177:9300\"]\n \n# Allow HTTP API connections from anywhere\n# Connections are encrypted and require user authentication\nhttp.host: 0.0.0.0\n \n# Allow other nodes to join the cluster from anywhere\n# Connections are encrypted and mutually authenticated\ntransport.host: 192.168.56.101\n\nColored by Color Scripter\ncs\n\n\n\n\n피어 노드 서비스 시작. 그런데 안 된다.\n\n\n\n\n\n[root@Centos7 ~]# service elasticsearch start\nRedirecting to /bin/systemctl start elasticsearch.service\nJob for elasticsearch.service failed because the control process exited with error code. \nSee \"systemctl status elasticsearch.service\" and \"journalctl -xe\" for details.\ncs\n\n\n\n\n에러 로그(elasticsearch.log)를 보니 머신러닝 기능과 운영체제 간 호환성 문제가 발생한 모양. 공식 문서에서는 SSE4.2를 지원하는 프로세서가 필요하다고 하는데 뭔소린지 모르겠다. 윈도우는 문제 없는 거 보니 가상머신이라 그런 듯. 버전 9에서 안 되는 게 많네(..)\n\n\n\n\n\n[2025-05-22T22:25:41,459][ERROR][o.e.b.Elasticsearch      ] [Centos7] fatal exception while booting Elasticsearch\norg.elasticsearch.ElasticsearchException: \nFailure running machine learning native code. \nThis could be due to running on an unsupported OS or distribution, \nmissing OS libraries, or a problem with the temp directory. \nTo bypass this problem by running Elasticsearch without machine learning functionality set [xpack.ml.enabled: false].\ncs\n\n\n\n\nML disable 설정 추가하면 실행된다.\n\n\n\n\n관련 글\n\n\nElasticsearch 9.0의 변화 - 2nd\nElasticsearch 9.0의 변화\nElasticsearch 8.11의 변화\nFilebeat 9.0의 변화",
@@ -168,55 +133,108 @@
     "categories": []
   },
   {
-    "id": 13,
+    "id": 9,
     "imageUrl": "",
-    "title": "클로드 4 출시, 더 똑똑해진 코딩 AI, 그 성능과 활용법은?",
-    "description": "클로드 4: 코딩과 AI 에이전트의 미래를 이끌다! 앤트로픽의 차세대 AI 모델, 클로드 오퍼스 4와 클로드 소네트 4가 코딩, 추론, AI 에이전트 분야의 새로운 기준을 제시합니다. 이 글에서 클로드 4 모델의 놀라운 성능과 새로운 기능들을 자세히 살펴보세요!\n\n\n \n 요즘 AI 기술 발전 속도 정말 놀랍지 않나요? 저도 매일 새로운 소식에 깜짝깜짝 놀라곤 하는데요. 특히 앤트로픽에서 이번에 차세대 클로드 모델인 클로드 오퍼스 4(Claude Opus 4)와 클로드 소네트 4(Claude Sonnet 4)를 발표했다는 소식을 듣고 정말 기대가 커졌어요. 이 모델들이 코딩, 고급 추론, 그리고 AI 에이전트 분야에서 새로운 기준을 세운다고 하니, 개발자분들뿐만 아니라 AI에 관심 있는 모든 분들이 주목할 만한 소식인 것 같아요!  \n \n클로드 4, 무엇이 달라졌을까?  \n새롭게 출시된 클로드 4 모델들은 기존 모델보다 훨씬 강력해진 성능을 자랑해요. 특히 클로드 오퍼스 4는 세계 최고의 코딩 모델로, 복잡하고 장기적인 작업과 에이전트 워크플로우에서 지속적인 성능을 발휘합니다. 클로드 소네트 4는 이전 버전인 소네트 3.7보다 코딩 및 추론 능력이 크게 향상되었고, 사용자의 지시를 더 정확하게 따르게 되었죠. 그니까요, 단순히 똑똑해진 게 아니라, 진짜 '일을 잘하는' AI가 된 느낌이랄까요?\n  알아두세요!\n클로드 오퍼스 4는 SWE-bench에서 72.5%, Terminal-bench에서 43.2%의 선도적인 성능을 보이며 세계 최고의 코딩 모델로 평가받고 있어요.\n \n새로운 기능들: AI 에이전트의 가능성을 넓히다  \n클로드 4 모델들은 단순한 성능 향상을 넘어, AI 에이전트의 활용 가능성을 크게 확장하는 새로운 기능들을 선보였어요.\n도구 활용을 통한 확장된 사고 (베타): 이제 클로드 모델들은 웹 검색 같은 외부 도구를 사용하면서 더 깊이 생각할 수 있게 되었어요. 추론과 도구 사용을 번갈아 가며 더 나은 결과물을 도출한다고 하니, 마치 똑똑한 비서가 된 것 같지 않나요?\n향상된 모델 기능: 두 모델 모두 도구를 병렬로 사용할 수 있고, 지시를 더 정확하게 따를 수 있게 되었어요. 특히 개발자들이 로컬 파일 접근 권한을 부여하면, 모델의 메모리 기능이 엄청나게 향상되어 핵심 정보를 추출하고 저장하면서 장기적인 작업 연속성을 유지할 수 있다고 해요. 포켓몬 게임을 플레이하면서 '내비게이션 가이드'를 만드는 클로드 오퍼스 4의 사례는 정말 신기하더라고요.\n클로드 코드 정식 출시: 연구 미리 보기 기간 동안 긍정적인 피드백을 받았던 클로드 코드가 이제 정식으로 출시되었어요. GitHub Actions를 통한 백그라운드 작업, VS Code 및 JetBrains와의 통합, 그리고 파일 내 직접 편집 기능까지 지원해서 원활한 페어 프로그래밍이 가능하답니다. 개발자분들께는 정말 희소식일 것 같아요.\n새로운 API 기능: 앤트로픽 API에는 개발자들이 더 강력한 AI 에이전트를 만들 수 있도록 코드 실행 도구, MCP 커넥터, Files API, 그리고 프롬프트 캐싱 기능까지 총 네 가지 새로운 기능이 추가되었어요.\n솔직히 말해서, 이 모든 기능들은 AI가 단순히 명령을 수행하는 것을 넘어, 스스로 생각하고 학습하며 복잡한 문제를 해결하는 '가상 협력자'로 진화하고 있다는 걸 보여주는 것 같아요.\n클로드 4 모델별 주요 특징 비교\n모델\n주요 특징\n성능 (SWE-bench)\n활용 분야\n\n\n\n\n클로드 오퍼스 4\n가장 강력한 코딩 모델, 장기 작업 지속 성능, 에이전트 제품 구동\n72.5%\n코딩, 연구, 글쓰기, 과학적 발견\n\n\n클로드 소네트 4\n향상된 코딩 및 추론, 정확한 지시 이행, 성능 및 효율성 균형\n72.7%\n일상적인 사용 사례, 새로운 코딩 에이전트\n\n\n\n⚠️ 주의하세요!\n클로드 4 모델들은 이전 모델 대비 지름길이나 허점을 이용하는 행동이 65% 감소했어요. 하지만 여전히 AI의 답변을 맹신하기보다는 항상 검토하고 확인하는 습관이 중요합니다.\n \n사용자 중심의 경험: 더 편리하고 강력하게  \n클로드 4 모델들은 사용자 편의성도 놓치지 않았습니다. 즉각적인 응답 모드와 심층적인 추론을 위한 확장된 사고 모드를 모두 제공해요. 프로, 맥스, 팀, 엔터프라이즈 클로드 요금제에는 두 모델과 확장된 사고 기능이 모두 포함되어 있고, 소네트 4는 무료 사용자도 이용할 수 있습니다. 또한, 앤트로픽 API, 아마존 베드록, 구글 클라우드 버텍스 AI를 통해서도 이용 가능하답니다.\n  클로드 4 모델 가격 (백만 토큰 당)\n오퍼스 4: 입력 $15 / 출력 $75\n소네트 4: 입력 $3 / 출력 $15\n정말 솔직히, 저는 이런 기술이 나올 때마다 '내가 이걸 어떻게 활용할 수 있을까?' 하는 고민을 많이 하거든요. 클로드 4는 단순한 질문 답변을 넘어, 코드 편집이나 복잡한 문제 해결까지 도와줄 수 있어서 정말 다양한 분야에서 활용될 수 있을 것 같아요.\n \n실전 예시: 클로드 4, 실제 개발 환경에서 빛을 발하다  ‍ ‍ \n클로드 4는 이미 여러 기업과 개발자들에게 긍정적인 평가를 받고 있어요. 몇 가지 흥미로운 사례들을 살펴볼까요?\n  클로드 오퍼스 4 실제 활용 사례\nCursor: 코딩에 대한 최첨단 기술과 복잡한 코드베이스 이해의 도약을 가져왔다고 평가했어요.\nReplit: 여러 파일에 걸친 복잡한 변경 사항에 대한 정밀도가 향상되고 극적인 발전이 있었다고 보고했습니다.\nBlock: 자체 에이전트인 'codename goose'에서 편집 및 디버깅 중 코드 품질을 향상시키는 첫 번째 모델이라고 언급하며, 완전한 성능과 신뢰성을 유지한다고 밝혔어요.\nRakuten: 7시간 동안 독립적으로 실행되는 까다로운 오픈 소스 리팩토링 작업을 통해 그 능력을 검증했습니다.\nCognition: 다른 모델로는 해결할 수 없는 복잡한 문제를 성공적으로 처리하며, 이전 모델들이 놓쳤던 중요한 작업들을 해냈다고 강조했어요.\n  클로드 소네트 4 실제 활용 사례\nGitHub: 에이전트 시나리오에서 탁월한 성능을 보이며, 새로운 GitHub Copilot의 코딩 에이전트를 구동하는 모델로 도입할 예정이라고 해요.\nManus: 복잡한 지시를 따르는 능력, 명확한 추론, 그리고 미학적인 결과물에서 개선을 보였다고 강조했습니다.\niGent: 자율적인 다중 기능 앱 개발에 뛰어나며, 문제 해결 능력과 코드베이스 탐색 능력이 크게 향상되어 탐색 오류가 거의 0%로 줄었다고 보고했어요.\nSourcegraph: 소프트웨어 개발에 상당한 도약을 약속하며, 더 오랫동안 집중하고 문제를 더 깊이 이해하며, 더 우아한 코드 품질을 제공한다고 언급했습니다.\nAugment Code: 더 높은 성공률, 더 정교한 코드 편집, 그리고 복잡한 작업을 더욱 신중하게 처리하여 기본 모델로 최고의 선택이라고 평가했습니다.\n이런 사례들을 보면, 클로드 4가 실제 개발 환경에서 얼마나 큰 가치를 제공하는지 알 수 있죠. 특히 복잡한 문제 해결이나 장기적인 프로젝트에서 AI의 역할이 점점 더 중요해질 것 같아요.\n \n마무리: AI의 미래를 향한 큰 발걸음  \n앤트로픽의 클로드 4 모델들은 AI 기술의 중요한 이정표라고 생각해요. 코딩, 추론, AI 에이전트 분야에서 새로운 기준을 제시하며, 개발자와 기업들에게 혁신적인 도구와 가능성을 제공하고 있습니다. 지속적인 컨텍스트 유지, 장기 프로젝트에 대한 집중력 강화, 그리고 변혁적인 영향력을 통해 AI가 단순한 도구를 넘어 진정한 '가상 협력자'로 발전하고 있다는 느낌을 받았습니다.\n클로드 오퍼스 4: 세계 최고의 코딩 모델로, 복잡하고 장기적인 작업을 지속적으로 처리할 수 있습니다.\n클로드 소네트 4: 향상된 코딩 및 추론 능력을 제공하며, 사용자 지시를 더 정확하게 따릅니다.\n확장된 사고 및 도구 활용: 웹 검색 등 외부 도구를 사용하며 추론을 심화시켜 응답 품질을 높입니다.\n강화된 메모리 기능: 로컬 파일 접근 시 주요 정보를 저장하여 장기적인 작업 연속성을 유지합니다.\n클로드 코드 정식 출시 및 새로운 API: 개발 워크플로우에 AI를 더 깊이 통합하고 강력한 AI 에이전트 구축을 지원합니다.\n앞으로 클로드 4가 어떤 놀라운 결과물을 만들어낼지 정말 기대되네요. 저도 이 기술을 활용해서 더 재미있는 프로젝트를 시도해봐야겠어요. 여러분도 클로드 4를 통해 새로운 가능성을 경험해보시길 바랍니다! 더 궁금한 점이 있다면 언제든지 댓글로 물어봐주세요~  \n \n \n클로드 4 핵심 요약\n✨ 코딩 & 추론 최고 모델: 클로드 오퍼스 4 & 소네트 4가 새로운 표준을 제시합니다.\n  AI 에이전트 역량 강화: 도구 활용, 병렬 실행, 메모리 개선으로 더 스마트한 AI를 만날 수 있습니다.\n  개발자 친화적 기능:\n클로드 코드 정식 출시 + 강력한 API 기능 = 효율적인 개발 환경\n ‍  다양한 활용 사례: 코드 품질 향상, 복잡한 문제 해결, 자율 앱 개발 등 실제 현장에서 가치를 증명합니다.\n클로드 4는 단순한 AI를 넘어, 우리의 업무와 창작 활동에 새로운 지평을 열어줄 '가상 협력자'입니다.\n자주 묻는 질문 ❓\nQ: 클로드 오퍼스 4와 소네트 4의 주요 차이점은 무엇인가요?\nA: 클로드 오퍼스 4는 세계 최고의 코딩 모델로, 복잡하고 장기적인 작업을 지속적으로 처리하는 데 탁월합니다. 반면 클로드 소네트 4는 성능과 효율성의 균형을 이루며 코딩 및 추론 능력이 크게 향상되었고, 지시를 더 정확하게 따르는 데 강점을 보입니다.\nQ: 클로드 4 모델들은 어떤 새로운 기능을 제공하나요?\nA: 주요 새 기능으로는 웹 검색과 같은 도구를 활용한 확장된 사고, 도구 병렬 실행, 정확한 지시 이행 능력, 로컬 파일 접근 시 향상된 메모리 기능이 있습니다. 또한, 클로드 코드의 정식 출시와 새로운 API 기능들도 추가되었습니다.\nQ: 클로드 4 모델의 가격은 어떻게 되나요?\nA: 클로드 오퍼스 4는 백만 입력 토큰당 $15, 백만 출력 토큰당 $75입니다. 클로드 소네트 4는 백만 입력 토큰당 $3, 백만 출력 토큰당 $15로, 이전 모델과 동일한 가격 정책을 유지합니다.\n\n\n\n{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"FAQPage\",\n    \"mainEntity\": [\n        {\n            \"@type\": \"Question\",\n            \"name\": \"클로드 오퍼스 4와 소네트 4의 주요 차이점은 무엇인가요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  클로드 오퍼스 4는 세계 최고의 코딩 모델로, 복잡하고 장기적인 작업을 지속적으로 처리하는 데 탁월합니다. 반면 클로드 소네트 4는 성능과 효율성의 균형을 이루며 코딩 및 추론 능력이 크게 향상되었고, 지시를 더 정확하게 따르는 데 강점을 보입니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"클로드 4 모델들은 어떤 새로운 기능을 제공하나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  주요 새 기능으로는 웹 검색과 같은 도구를 활용한 확장된 사고, 도구 병렬 실행, 정확한 지시 이행 능력, 로컬 파일 접근 시 향상된 메모리 기능이 있습니다. 또한, 클로드 코드의 정식 출시와 새로운 API 기능들도 추가되었습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"클로드 4 모델의 가격은 어떻게 되나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  클로드 오퍼스 4는 백만 입력 토큰당 $15, 백만 출력 토큰당 $75입니다. 클로드 소네트 4는 백만 입력 토큰당 $3, 백만 출력 토큰당 $15로, 이전 모델과 동일한 가격 정책을 유지합니다.\"\n            }\n        }\n    ]\n}",
+    "title": "Connecting to Private NuGet Feeds Just Got Easier",
+    "description": "The Visual Studio 2022 17.14 update is here, and it brings great quality-of-life improvements—especially around NuGet authentication. From context about the authentication needs of private NuGet feeds to a simplified account selection workflow, this update helps you stay focused on your code! If you haven’t already, download the latest Visual Studio update to take advantage […]\nThe post Connecting to Private NuGet Feeds Just Got Easier appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483597",
-    "pubDate": "Fri, 23 May 2025 09:42:59 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://devblogs.microsoft.com/visualstudio/connecting-to-private-nuget-feeds-just-got-easier/",
+    "pubDate": "Wed, 21 May 2025 15:55:18 +0000",
+    "creator": "Ruben Rios",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 언어 모델",
-      "AI 기술 발전",
-      "AI 모델",
-      "AI 에이전트",
-      "claude opus 4",
-      "claude sonnet 4",
-      "LLM",
-      "앤트로픽",
-      "인공지능",
-      "코딩 ai",
-      "클로드 4"
+      "Visual Studio",
+      "Authentication",
+      "NuGet",
+      "nuget packages"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Moving the MPS Forum to the New JetBrains Platform Community Space",
+    "description": "Discussions help communities evolve and thrive. The MPS community has been relying on the MPS Slack channel and the Zendesk community forum for many years. While Slack has served its purpose as a place for instantly exchanging advice and ideas, the forum has gradually fallen out of use. This is for good reason – the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/mps/2025/05/mps-forum-moved/",
+    "pubDate": "Wed, 21 May 2025 05:22:46 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "announcement"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "토스, 토스쇼핑 판매자 설명회 ‘커넥션 데이’ 성료",
+    "description": "운영 전략부터 광고 노하우까지 공유",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.toss.im/article/connectionday",
+    "pubDate": "Fri, 23 May 2025 07:04:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Do You Really Know Java?",
+    "description": "From a humble passion project to a major language powering billions of devices worldwide, Java’s journey is anything but ordinary. Java has always been shaped by big ideas and the people behind them. It’s a language that grew not just through specs and syntax, but through community, creativity, and the occasional dancing triangle mascot. This […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/05/do-you-really-know-java/",
+    "pubDate": "Fri, 23 May 2025 06:03:24 +0000",
+    "creator": "Irina Mariasova",
+    "categories": [
+      "coding",
+      "general",
+      "idea"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "ReSharper 2025.2 EAP 2: First Public Build with Out-of-Process Mode Support ",
+    "description": "We’re thrilled to announce that ReSharper 2025.2 EAP 2 is the first public build to introduce support for running ReSharper out-of-process (OOP) with Microsoft Visual Studio. This long-anticipated architectural change lays the foundation for better stability and performance in the future, as it decouples the ReSharper process from the Visual Studio one. More on that […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/05/22/resharper-2025-2-eap-2-oop-mode/",
+    "pubDate": "Thu, 22 May 2025 11:07:20 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "news",
+      "resharper",
+      "oop",
+      "out-of-process"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Extending the Malbec subsea cable to Southern Brazil",
-    "description": "Meta is partnering with V.tal to extend the Malbec subsea cable to Porto Alegre, Brazil by 2027. With this new extension, Malbec will become the first subsea cable to land in the state of Rio Grande do Sul, bringing more connectivity to millions of people in Southern Brazil and neighboring countries. Malbec will improve the [...]\nRead More...\nThe post Extending the Malbec subsea cable to Southern Brazil appeared first on Engineering at Meta.",
+    "title": "AI로 생성한 이미지는 어떻게 평가할까요? (인페인팅 적용편)",
+    "description": "들어가며안녕하세요. 저희 AMD(Applied ML Dev) 팀에서는 생성형 AI를 포함한 다양한 AI/ML 모델을 개발하고 서비스에 적용하고 있습니다.앞서 발행한 AI로 생성한 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/05/22/connectivity/extending-malbec-subsea-cable-southern-brazil/",
-    "pubDate": "Thu, 22 May 2025 16:00:08 +0000",
+    "link": "https://techblog.lycorp.co.jp/ko/how-to-evaluate-ai-generated-images-3-inpainting",
+    "pubDate": "Wed, 21 May 2025 02:00:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "Connectivity"
-    ]
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "마녀들아 말 좀 들어!! '마녀의 정원'",
-    "description": "No description available",
+    "title": "Coding Guidelines for Your AI Agents",
+    "description": "As software developers, we invest significant time and effort learning various technologies, understanding design patterns, avoiding anti-patterns, and striving to write clean, maintainable code. Over the years, this knowledge becomes second nature, guiding our decisions as we design systems, write features, and review code. But the landscape is evolving fast. We’re now entering a new […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2311",
-    "pubDate": "Fri, 23 May 2025 17:55:14 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/idea/2025/05/coding-guidelines-for-your-ai-agents/",
+    "pubDate": "Wed, 21 May 2025 09:01:18 +0000",
+    "creator": "Siva Katamreddy",
     "categories": [
-      "게임툰"
+      "jetbrains-ai",
+      "ai-agents",
+      "junie"
     ]
   }
 ]
