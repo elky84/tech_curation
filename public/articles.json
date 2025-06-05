@@ -2,35 +2,185 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Get Answers to Your KMP Questions",
-    "description": "During the Closing Panel at KotlinConf 2025, we received many questions about Kotlin Multiplatform (KMP), but unfortunately didn’t have time to address them all live. So we’ve decided to answer the most popular ones in a follow-up blog post. Will IntelliJ IDEA and Android Studio support full Swift navigation, completion, etc., for iOS code, or […]",
+    "title": "악역영애 4컷 만화 - 5화, 등교 시작인데스와~★",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/06/get-answers-to-your-kmp-questions/",
-    "pubDate": "Mon, 02 Jun 2025 06:37:10 +0000",
-    "creator": "Anton Makeev",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2315",
+    "pubDate": "Wed, 04 Jun 2025 19:09:01 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "multiplatform"
+      "웹툰"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "수소 에너지는 3M 과 함께",
-    "description": "3M - MMM\n영상: https://www.youtube.com/watch?v=5ZDRfyuvRFE&t=834s\n\n\n\n \n백금 촉매제와\n수소를 담을 수 있는 용기를 개발했다고 합니다.\n이과형을 믿고 매수 하시면 되겠습니다.\n \n\n\n5년치 차트인데\n중간에 빠진건 미군 기마개 소송 이슈 때문에 빠졌습니다.\n \n불륨에너지 - BE\n지금은 수소가 돈이 안되서 가스 발전으로 전환했지만\n수소 한참 개발하고 있었던 회사라 좋을것 같습니다.\n \n투자전략\n2030년까진 전자산의 2% 정도로만 사고 그뒤론 물도 타지말고 기다릴 생각입니다.\n트럼프 초반엔 친환경이 원래 안좋기 때문에 이때가 기회인거 같습니다.",
+    "title": "코드 품질 개선 기법 14편: 책임을 부여하는 오직 하나의 책임",
+    "description": "이 글은 2024년 2월 22일에 일본어로 먼저 발행된 기사를 번역한 글입니다.안녕하세요. 커뮤니케이션 앱 LINE의 모바일 클라이언트를 개발하고 있는 Ishikawa입니다.저희 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1339",
-    "pubDate": "Tue, 3 Jun 2025 14:52:25 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "투자",
-      "미국투자",
-      "수소"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-14",
+    "pubDate": "Wed, 04 Jun 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "토스애즈 에이전시 초청 컨퍼런스 ‘블루원더랜드’ 개최",
+    "description": "토스애즈와 에이전시 간 전략 및 협업 사례 공유 시간 마련",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tossadsblue",
+    "pubDate": "Thu, 29 May 2025 02:40:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "토스페이 혜택, 사용법 총정리 2025년 6월",
+    "description": "무신사, LG전자, 오늘의집, 신세계면세점 등 할인·적립 쿠폰 확인하기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tosspay-2025-02",
+    "pubDate": "Wed, 04 Jun 2025 07:05:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Case Study: How Junie Uses TeamCity to Evaluate Coding Agents",
+    "description": "Introduction Junie is an intelligent coding agent developed by JetBrains. It automates the full development loop: reading project files, editing code, running tests, and applying fixes, going far beyond simple code generation. Similar to how developers use tools like ChatGPT to solve coding problems, Junie takes it a step further by automating the entire process. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2025/06/how-junie-uses-teamcity/",
+    "pubDate": "Tue, 03 Jun 2025 07:57:45 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "how-tos",
+      "jetbrains-ai",
+      "news",
+      "teamcity-2",
+      "ai",
+      "junie"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Cloud Academy: Unlock Your Azure Skills and Accelerate Your Career",
+    "description": "When we launched the Cloud Academy benefit for Visual Studio Professional and Enterprise subscribers back in March 2025, our goal was simple: give you the hands-on, practical learning experience you need to confidently master Azure and cloud technologies — without spending a dime beyond your subscription. Why? Because in today’s fast-changing tech world, knowing theory […]\nThe post Cloud Academy: Unlock Your Azure Skills and Accelerate Your Career appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/cloud-academy-benefit-for-visual-studio-subscribers/",
+    "pubDate": "Tue, 03 Jun 2025 14:00:08 +0000",
+    "creator": "Jim Harrer",
+    "categories": [
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Hidden Truths About Developer Experience: Three Key Insights From Our Research",
+    "description": "Developer experience (DevEx) and developer productivity (DP) are hot topics. Many companies are already working actively to measure and improve them, while others, if not already doing this, are at least aware of them. However, what we’re interested in is what’s really happening inside companies when it comes to DevEx and DP. To get a […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2025/06/hidden-truths-about-developer-experience-three-key-insights-from-our-research/",
+    "pubDate": "Wed, 04 Jun 2025 13:04:55 +0000",
+    "creator": "Yanina Ledovaya",
+    "categories": [
+      "research",
+      "developer-experience",
+      "jetbrains-deveco"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "[MULTI] 절반만 성공한 실험, 엘든 링: 밤의 통치자",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2314",
+    "pubDate": "Wed, 04 Jun 2025 16:12:50 +0900",
+    "creator": "「RULIWEB」",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "AI-Powered Learning, Part 2: Get Unstuck With AI Hints in Python and Kotlin Tasks",
+    "description": "In our previous post, we introduced AI-powered machine translation and inline theory definitions to help make learning smoother and more accessible. Today, we’re excited to share the next big step in bringing intelligent assistance to your programming journey: AI hints. This feature is designed especially for beginners who may get stuck while solving coding tasks […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/education/2025/06/02/ai-hints-plugin/",
+    "pubDate": "Mon, 02 Jun 2025 08:32:54 +0000",
+    "creator": "Julia Amatuni",
+    "categories": [
+      "ai-assistant",
+      "jetbrains-academy",
+      "jetbrains-academy-plugin",
+      "jetbrains-ai",
+      "kotlin",
+      "learning-courses",
+      "jetbrainsacademy",
+      "ai-assistance",
+      "ide-plugin",
+      "learning",
+      "news",
+      "release"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Extension Manager updates in Visual Studio",
+    "description": "The latest updates in Visual Studio 2022 introduced features specifically designed to improve how you manage extensions. These updates offer tools that help you automate processes, provide detailed controls for configuration, and enhance the user interface to streamline your development workflows. Seamless auto updates Visual Studio now automatically triggers updates whenever you open the Extension […]\nThe post Extension Manager updates in Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/extension-manager-updates-in-visual-studio/",
+    "pubDate": "Mon, 02 Jun 2025 18:13:24 +0000",
+    "creator": "Javier De la Garza",
+    "categories": [
+      "Extensibility",
+      "Visual Studio",
+      "Extensions",
+      "Updates",
+      "visualstudio.extensibility"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Microsoft, Anthropic과 협력하여 모델 컨텍스트 프로토콜용 공식 C# SDK 개발",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/NET_20250604/",
+    "pubDate": "Wed, 04 Jun 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "주택 임대차 계약 신고제, 임차인의 권리 보호가 더 간편해져요",
+    "description": "모르고 놓친다면 이제부터 과태료를 내야해요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/36981",
+    "pubDate": "Thu, 29 May 2025 23:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "Looking Back on the Past 10 Years",
     "description": "Today marks exactly 10 years since I joined Sendbird. On May 30, 2015, I still remember walking into Maru180, a co-working space in Yeoksam, Seoul, plugging in my personal laptop, and getting to work. I wrote our very first company deck under the name “Jiver,” and we wrapped up the day with a small welcomeContinue reading \"Looking Back on the Past 10 Years\"\nLooking Back on the Past 10 Years appeared first on Kimchi hill.",
@@ -44,23 +194,19 @@
     ]
   },
   {
-    "id": 4,
+    "id": 14,
     "imageUrl": "",
-    "title": "What’s Next for RubyMine",
-    "description": "Hello everyone! The RubyMine 2025.2 Early Access Program is already available! In this blog post, we’ll share the upcoming features and updates planned for this release cycle. What’s coming in RubyMine 2025.2? Debugger improvements We’re introducing a number of changes aimed at enhancing the debugger installation experience. The entire process will now take less time, […]",
+    "title": "다시 2부 - Composable Architecture - 라우터 소개",
+    "description": "원래는 Action 시스템을 활용해서 Router를 쓰려고 설계했지만, 필자가 기존에 사용하던 방식 중 하나로 돌아가 거기서부터 다시 설계되었다.\n이 라우터는 크게 두 가지 상황에 활용 가능하다.\nActivity 간 화면 이동\nCompose Navigation 간 화면 이동\n만약 싱글 액티비티(Single Activity) 구조를 쓴다면 Compose Navigation 부분만 적용하면 되니 더 쉽게 사용 가능하다.\n여기서는 어떻게 활용되었을까?\nActivity는 Dagger의 IntoMap을 활용해서 Key/Value 매핑으로 ActivityRoute를 상속받아 구현한 객체를 정의해서 사용한다.\nCompose Navigation은 NavigationRoute를 상속받아 구현한다.\n이 글에서는\n새로운 Router의 설계 철학 및 동작 방식을 자세히 알아본다.\nActivity 및 Compose Navigation에서 Router를 활용하는 구체적인 코드 예시를 살펴본다.\nRoute\nNavigationRoute는 드로이드 나이츠(Droid Knights) 프로젝트에도 적용되었으며, 다음 링크를 통해 라우팅 방식을 확인해볼 수 있다.\ndroidknights 2025 - Router\n이 글에서는 TComposableArchitecture - GitHub - link에서 적용된 방법을 중심으로 설명한다.\n사용법\n사용법은 간단하다. Navigator를 주입받아 활용하며, 이동할 Activity 또는 Navigation을 Navigator에서 제공하는 navigate만 호출하면 된다.\n\n@HiltViewModel\ninternal class SearchViewModel @Inject constructor(\n    flowActionStream: FlowActionStream,\n    private val navigator: Navigator,\n) : ActionViewModel<SearchAction>(flowActionStream, SearchAction::class) {\n\n    override suspend fun handleAction(action: SearchAction) {\n        when (action) {\n            is SearchAction.ShowDetail -> { // Activity 이동 시\n                navigator.navigate(\n                    activityRoute = DetailActivityRouter::class,\n                    argumentMap = mapOf(\n                        DetailActivityRouter.PUT_DATA to DetailData(text = action.message),\n                    ),\n                )\n            }\n\n            is SearchAction.SwitchNavigation -> { // Compose Navigation 이동 시\n                navigator.navigate(\n                    navigationRoute = action.navItem.route,\n                    saveState = true,\n                )\n            }\n        }\n    }\n}\n\n\n여기서의 설계는?\n먼저 Compose Navigation에 대한 시퀀스를 살펴보자.\nView - Action - ViewModel - Router - RouterViewModel - RouterView로 이어지는 흐름을 알 수 있다.\n이를 쉽게 이해하기 위해 Repository 패턴에 비유하면, 두 개의 View에서 데이터 통신하는 방법을 설명한 그림으로 생각하면 된다. Router 부분이 Repository로 볼 수 있다.\nView - Action - ViewModel - Repository - RouterViewModel - RouterView\n이를 도식화하면\n\n이번에는 Activity를 이동한다면? 한단계가 더 추가됨을 알 수 있다.\nActivityJourney라는 개념을 활용해서 이동할 Activity가 포함되어 있는지 추가로 검증하고, Activity를 이동한다.\nView - Action - ViewModel - Router - (ActivityJourney) - RouterViewModel - RouterView\n\n이 코드를 이해하는 데 있어서 중요한 점은 두 개의 View가 어떻게 데이터를 통신하는가이다.\n가장 쉬운 방법은 싱글턴으로 처리된 Repository를 활용하는 것이거나, Activity 사이에 위치한 하나의 Repository를 활용하는 방법일 것이다. 보통은 Repository를 싱글턴으로 활용하니, 여기서도 동일하다고 이해하면 된다.\nRouter 코드\n먼저 우리가 활용할 Navigator는 인터페이스로 정의되어 있다. 구현체는 모두 숨겨져 있다.\n이때 구현체를 완전히 분리하고 싶다면, 인터페이스 모듈과 구현체 모듈을 두 개 만들어 활용하는 방식을 고려할 수 있다. 이 방식은 droidknights 2025 - Router에 포함되어 있으니 참고하길 바란다.\n\ninterface Navigator {\n\n    suspend fun <T : ActivityRoute> navigate(\n        activityRoute: KClass<T>,\n        argumentMap: Map<String, Parcelable> = emptyMap(),\n    )\n\n    suspend fun navigate(\n        navigationRoute: NavigationRoute,\n        saveState: Boolean = false,\n    )\n\n    suspend fun navigateBack()\n}\n\n\n위 코드에 대한 구현체는 다음과 같다.\nInternalNavigatorImpl은 Router 모듈 내부에서만 활용하기 위한 것으로, val channel: Channel<InternalRoute> 한 줄이 포함되어 있다.\n\n@ActivityRetainedScoped\ninternal class InternalNavigatorImpl @Inject constructor() : Navigator, InternalNavigator {\n\n    override val channel = Channel<InternalRoute>(Channel.BUFFERED)\n\n    // 아래에서 설명\n    override suspend fun <T : ActivityRoute> navigate(activityRoute: KClass<T>, argumentMap: Map<String, Parcelable>) {\n        channel.send(\n            InternalRoute.Activity(\n                activityRoute = activityRoute,\n                argumentMap = argumentMap,\n            )\n        )\n    }\n\n    override suspend fun navigate(navigationRoute: NavigationRoute, saveState: Boolean) {\n        channel.send(\n            InternalRoute.Navigation(\n                navigationRoute = navigationRoute,\n                saveState = saveState,\n            )\n        )\n    }\n\n    override suspend fun navigateBack() {\n        channel.send(InternalRoute.NavigateBack)\n    }\n}\n\n\n위 Router는 DI(Dependency Injection)를 통해 싱글턴으로 구성되어 있다.\n\n@Module\n@InstallIn(ActivityRetainedComponent::class)\ninternal abstract class RouterModel {\n\n    @Binds\n    @ActivityRetainedScoped\n    abstract fun provideNavigator(\n        navigator: InternalNavigatorImpl\n    ): Navigator\n\n    @Binds\n    @ActivityRetainedScoped\n    abstract fun provideInternalNavigator(\n        navigator: InternalNavigatorImpl\n    ): InternalNavigator\n}\n\n\nViewModel에서는 이를 활용해서, SideEffect로 View에서 collect할 수 있도록 구성되었으니, 기존 코드와 크게 다른 부분은 없다고 생각한다.\n\n@HiltViewModel\ninternal class InternalRouteViewModel @Inject internal constructor(\n    navigator: InternalNavigator,\n    private val journeyMapper: InternalActivityRouteMapper,\n) : ViewModel() {\n\n    val sideEffect by lazy(LazyThreadSafetyMode.NONE) {\n        navigator.channel.receiveAsFlow()\n            .map { router ->\n                when (router) {\n                    is InternalRoute.Activity<*> -> {\n                        journeyMapper.getJourneyOrNull(router.activityRoute)?.let {\n                            InternalRouteSideEffect.NavigateActivity(\n                                activityRoute = it,\n                                argumentMap = router.argumentMap,\n                            )\n                        }\n                    }\n\n                    is InternalRoute.Navigation -> {\n                        InternalRouteSideEffect.Navigate(\n                            navigationRoute = router.navigationRoute,\n                            saveState = router.saveState,\n                        )\n                    }\n\n                    is InternalRoute.NavigateBack -> {\n                        InternalRouteSideEffect.NavigateBack\n                    }\n                }\n            }\n            .filterNotNull()\n    }\n}\n\n\nView에서는\nView에서 SideEffect를 받아 처리하는 코드이다. 주로 화면 이동과 뒤로가기 이벤트를 처리할 수 있다.\nNavigateBack은 Activity와 Navigation 둘 다를 혼용 처리하기 위해 마지막 Entry가 있는지 한 번 더 체크하고 처리하도록 작성되었다.\n첫 화면에서는 보통 <나 X 버튼을 사용하지는 않지만, 적용은 해두었다.\n이 코드에서는 Navigation 처리에 대한 내용이므로 Activity 관련 코드는 제거되었다.\n\n@Composable\nprivate fun InternalLaunchedRouter(\n    navHostController: NavHostController? = null,\n    internalRouterViewModel: InternalRouteViewModel = viewModel(),\n) {\n    val activity = LocalActivity.current\n    val lifecycleOwner = LocalLifecycleOwner.current\n    LaunchedEffect(internalRouterViewModel, lifecycleOwner) {\n        lifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {\n            internalRouterViewModel.sideEffect.collectLatest { sideEffect ->\n                when (sideEffect) {\n                    is InternalRouteSideEffect.NavigateBack -> {\n                        if (navHostController?.previousBackStackEntry != null) {\n                            navHostController.popBackStack()\n                        } else {\n                            activity?.finish()\n                        }\n                    }\n\n                    is InternalRouteSideEffect.Navigate -> {\n                        navHostController?.let { navigation ->\n                            navigation.navigate(sideEffect.navigationRoute) {\n                                navigation.graph.findStartDestination().route?.let {\n                                    popUpTo(it) {\n                                        saveState = sideEffect.saveState\n                                    }\n                                }\n                                restoreState = sideEffect.saveState\n                            }\n                        }\n                    }\n\n                    is InternalRouteSideEffect.NavigateActivity -> {\n                        activity?.startActivity(\n                            sideEffect.activityRoute.getActivity(activity).apply {\n                                sideEffect.argumentMap.entries.forEach { (key, value) ->\n                                    putExtra(key, value)\n                                }\n                            }\n                        )\n                    }\n                }\n            }\n        }\n    }\n}\n\n\n이 코드가 처음 소개된 Flow 다이어그램에 해당한다.\n\n정의는?\nNavigationRoute를 상속받아 Route를 구현하고, 이를 Navigation 화면에 적용해야 한다.\n\n@Serializable\nobject SettingsRoute : NavigationRoute\n\n\n그리고 연결할 지점에는 NavGraphBuilder를 통해 네비게이션에서 활용할 composable을 정의하면 된다.\n\nfun NavGraphBuilder.settingsNavGraph() {\n    composable<SettingsRoute> {\n        InternalSettingsScreen()\n    }\n}\n\n\n네비게이션을 활용하는 방법은 기존과 동일하므로, 여기서는 설명은 생략하고 일부 코드를 올려둔다.\n\nScaffold(\n    bottomBar = {\n        NavigationBar {\n            navigationUiState.navigation.forEach { navItem ->\n                NavigationBarItem(\n                    selected = navigationUiState.selectNav == navItem,\n                    onClick = {\n                        onClick(navItem)\n                    },\n                    // 생략\n                )\n            }\n        }\n    },\n    modifier = modifier\n) { innerPadding ->\n    Box(\n        modifier = Modifier\n            .padding(innerPadding)\n            .padding(horizontal = 10.dp)\n    ) {\n        NavHost( // 네비게이션\n            navController = navController,\n            startDestination = NavigationUiState.Default.selectNav.route,\n        ) {\n            searchNavGraph()\n            settingsNavGraph()\n        }\n    }\n}\n\n\nActivity\nActivity 라우팅은 Compose Navigation보다 조금 더 복잡할 수 있다.\n우선 다시 Router 코드로 돌아가서 중요한 부분만 살펴보자. 여기서는 DI인 Dagger를 활용했으니 Dagger를 활용한 방법으로 접근한다.\n먼저 RouterKey라는 MapKey를 정의했다. 이를 활용해서 클래스 정보를 Key/Value로 매핑할 수 있도록 한다.\n\n@MapKey\nannotation class RouteKey(\n    val value: KClass<out ActivityRoute>,\n)\n\n\n그리고 SomeActivityRouter를 정의하고, 이를 상속받아 구현한다. 여기서 getActivity()를 구현해서 Intent 정보를 함께 전달하게 된다.\n\ninternal class MainActivityRouteImpl @Inject constructor() : MainActivityRouter {\n\n    override fun getActivity(context: Context): Intent =\n        Intent(context, MainActivity::class.java)\n}\n\n\nDI를 활용해 이 RouterImpl이 MainActivityRouter임을 알려주기 위해 @IntoMap과 @RouteKey를 활용해서 처리한다.\n\n@Module\n@InstallIn(SingletonComponent::class)\ninternal abstract class MainModule {\n\n    @Binds\n    @IntoMap\n    @RouteKey(MainActivityRouter::class)\n    abstract fun bindMainActivityRoute(\n        mainActivityRoute: MainActivityRouteImpl,\n    ): ActivityRoute\n}\n\n\n위 코드는 KSP(Kotlin Symbol Processing)를 활용하면 더 쉽게 자동화할 수 있다. 어차피 수동으로 만들더라도 같은 패턴만 나오도록 만들면 되기 때문이다. 특히 Activity를 찾는 것이 중요하며, Intent 객체를 처음부터 만드는 것도 아니기에 이러한 접근이 가능하다.\nKSP 관련 글\nAndroid KSP(Kotlin Symbol Processing) 활용을 위한 준비단계! - link\nAndroid KSP(Kotlin Symbol Processing) 활용할 수 있는 샘플 코드 작업 - link\n코드를 실행하면 런타임에 아래의 map: Map<Class<out ActivityRoute>, @JvmSuppressWildcards ActivityRoute> 부분에서 ActivityRoute로 정의한 정보를 찾아 Map 형태로 전달하고 이를 활용할 수 있다.\n아쉽게도 KClass를 바로 활용하려고 했지만, 런타임에서 오류가 발생해서 Java Class를 활용하게 되었다.\n\n@Module\n@InstallIn(SingletonComponent::class)\ninternal object JourneyRouterModule {\n\n    @Provides\n    @Singleton\n    fun providerInternalActivityRouteMapper(\n        map: Map<Class<out ActivityRoute>, @JvmSuppressWildcards ActivityRoute>,\n    ): InternalActivityRouteMapper =\n        InternalActivityRouteMapper(map)\n}\n\n\n마지막으로 접근해야 할 정보는 getJourneyOrNull에서 찾아서 startActivity할 수 있다.\n\n@Singleton\ninternal class InternalActivityRouteMapper @Inject constructor(\n    @get:VisibleForTesting val mapper: Map<Class<out ActivityRoute>, ActivityRoute>,\n) {\n\n    /**\n     * Find and return ActivityRoute from the data stored in Mapper.\n     */\n    internal fun getJourneyOrNull(journeyKClass: KClass<*>): ActivityRoute? =\n        synchronized(mapper) {\n            mapper[journeyKClass.java]\n        }\n}\n\n\nActivity라서\nCompose Navigation에서는 @Serializable object SettingsRoute : NavigationRoute와 같이 @Serializable 데이터 클래스만 정의하면 동작에 문제가 없고, 필요한 데이터도 간단하게 넘겨줄 수 있다.\n하지만 Activity는 필요한 데이터를 넘기기 위해 별도의 arguments를 사용해야 한다는 차이점이 있다.\n그래서 Navigator 인터페이스에 아래와 같이 arguments를 받을 수 있도록 추가해두었다.\n\ninterface Navigator {\n\n    suspend fun <T : ActivityRoute> navigate(\n        activityRoute: KClass<T>,\n        argumentMap: Map<String, Parcelable> = emptyMap(),\n    )\n\n    suspend fun navigate(\n        navigationRoute: NavigationRoute,\n        saveState: Boolean = false,\n    )\n}\n\n\n데이터 전달을 위함이니 Parcelable로 제한해두었다.\nNavigator를 활용하면 getJourneyOrNull 부분을 ViewModel에서 처리하고있음을 아래와 같이 확인할 수 있다.\n\n@HiltViewModel\ninternal class InternalRouteViewModel @Inject internal constructor(\n    navigator: InternalNavigator,\n    private val journeyMapper: InternalActivityRouteMapper,\n) : ViewModel() {\n\n    val sideEffect by lazy(LazyThreadSafetyMode.NONE) {\n        navigator.channel.receiveAsFlow()\n            .map { router ->\n                when (router) {\n                    is InternalRoute.Activity<*> -> {\n                        journeyMapper.getJourneyOrNull(router.activityRoute)?.let {\n                            InternalRouteSideEffect.NavigateActivity(\n                                activityRoute = it,\n                                argumentMap = router.argumentMap,\n                            )\n                        }\n                    }\n                }\n            }\n            .filterNotNull()\n    }\n}\n\n\n이 코드 부분을 도식화한 부분이 아래와 같다.\n\n정리하면\nView에서 화면 이동 이벤트가 발생한다.\nViewModel에서 Navigator를 통해 Activity/Compose Navigation으로 이벤트를 이동 요청한다.\n    \nActivity 이동: DI를 통해 주입받은 ActivityRoute 정보를 자동으로 매핑하여 InternalActivityRouteMapper에 사전 보관된 정보와 매칭하여 startActivity를 호출한다.\nNavigation 이동: Compose Navigation을 통해 Map에 포함되어있을 경우 이동한다.\n남은 작업은 다음과 같다.\nActivityResult 처리\nNavigationResult 처리\n사용법\n앞서 소개한 Action과 다르게 Router는 Activity를 기반하여 동작한다. A/B Activity가 있다고 하더라도, InternalActivityRouteMapper는 싱글턴이지만 실제 동작은 서로 무관하게 동작한다.\n그래서 각 Activity마다 아래와 같은 코드를 선택적으로 주입해 주어야 한다. 싱글 액티비티 구조라면 당연히 하나면 충분하지만, 서브 네비게이션에 대한 구조를 적용하지 않아서 현재는 모든 경우에 대응되지는 않는다.\n\nval navHostController = rememberNavController()\nLaunchedRouter(navHostController)\n\n// or\nLaunchedRouter() // navHostController default null\n\n\nNext\nAction을 새로 짜면서 Router도 몇 번의 수정이 있었다.\n기존 Action 방식에서의 문제점은 다음과 같았다.\nA/B/C 화면 어디서든 동일한 이벤트인 뒤로가기(back) 이벤트를 받는다면, 모든 화면에서 action을 처리해버리고 원치 않는 종료가 일어날 수 있다는 점이었다. 사이드 이펙트를 통해 막을 수는 있었지만 근본적인 문제 해결도 아니고, 오히려 복잡성을 높이는 코드였기에 수정되면서 원래 사용하던 방식으로 되돌아갔다는 점이다.\n더 나아가 네비게이션에서만 Router를 활용하고 싶다면 드로이드 나이츠 코드를 참고해보면 좋을 것 같다.\ndroidknights 2025 - Router\n작성 글 이어보기\n1부 - 컴포즈에 사용할 Composable Architecture 설명(리엑트?)\n2부 - Composable Architecture는 만들었는데 문제가 있었네? 개선해보자.\n3부 - Composable Architecture에서는 Alert/Toast는 어떻게 사용할 수 있는가?\n다시 - Composable Architecture 설계 변경",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ruby/2025/06/what-s-next-for-rubymine/",
-    "pubDate": "Tue, 03 Jun 2025 07:55:54 +0000",
-    "creator": "Alexey Varfolomeev",
-    "categories": [
-      "eap",
-      "rubymine",
-      "new-features"
-    ]
+    "link": "https://thdev.tech/architecture/2025/06/02/Android-Architecture-new-02/",
+    "pubDate": "Mon, 02 Jun 2025 00:00:00 +0000",
+    "creator": "Unknown",
+    "categories": []
   },
   {
-    "id": 5,
+    "id": 15,
     "imageUrl": "",
     "title": "Plugin Verifier and API Compatibility Maintenance: Livestream Recording & Key Takeaways",
     "description": "In a recent session, IntelliJ Platform Developer Advocate Róbert Novotný walked through the Plugin Verifier—one of the most important tools for maintaining plugin compatibility across JetBrains IDEs. The session focused on spotting breaking API changes, avoiding internal APIs, and verifying plugin behavior across IDE versions. If you couldn’t join us live, the full recording is […]",
@@ -75,146 +221,6 @@
       "marketplace",
       "jetbrains-marketplace",
       "livestream"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 4화, 선생님의 부탁인데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2312",
-    "pubDate": "Wed, 28 May 2025 15:17:46 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "AI스트레스, 다들 없으세요?",
-    "description": "저는 국내 대형 카드사에 재직 중입니다. 금융회사가 다 그렇듯 상당히 보수적이고 변화에 늦은 편이죠. 그런데 작년 말 갑자기 회사 안에 AI 본부가 생겼습니다. AI가 화두긴 화두인가 봅니다. 세상이 변하고 있으니 빨리 쫓아가야죠.  그런데 제가 불려 들어갔습니다. 그냥도 아니고 팀장입니다. (제가요? 왜요? 라고 요즘 MZ들 하는 말 저도 해 보고 싶었습니다만…) 네, 작년 말 이후로 갑자기 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://ppss.kr/archives/268818",
-    "pubDate": "Mon, 02 Jun 2025 03:06:01 +0000",
-    "creator": "길진세",
-    "categories": [
-      "IT",
-      "사회"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "다시 2부 - Composable Architecture - 라우터 소개",
-    "description": "원래는 Action 시스템을 활용해서 Router를 쓰려고 설계했지만, 필자가 기존에 사용하던 방식 중 하나로 돌아가 거기서부터 다시 설계되었다.\n이 라우터는 크게 두 가지 상황에 활용 가능하다.\nActivity 간 화면 이동\nCompose Navigation 간 화면 이동\n만약 싱글 액티비티(Single Activity) 구조를 쓴다면 Compose Navigation 부분만 적용하면 되니 더 쉽게 사용 가능하다.\n여기서는 어떻게 활용되었을까?\nActivity는 Dagger의 IntoMap을 활용해서 Key/Value 매핑으로 ActivityRoute를 상속받아 구현한 객체를 정의해서 사용한다.\nCompose Navigation은 NavigationRoute를 상속받아 구현한다.\n이 글에서는\n새로운 Router의 설계 철학 및 동작 방식을 자세히 알아본다.\nActivity 및 Compose Navigation에서 Router를 활용하는 구체적인 코드 예시를 살펴본다.\nRoute\nNavigationRoute는 드로이드 나이츠(Droid Knights) 프로젝트에도 적용되었으며, 다음 링크를 통해 라우팅 방식을 확인해볼 수 있다.\ndroidknights 2025 - Router\n이 글에서는 TComposableArchitecture - GitHub - link에서 적용된 방법을 중심으로 설명한다.\n사용법\n사용법은 간단하다. Navigator를 주입받아 활용하며, 이동할 Activity 또는 Navigation을 Navigator에서 제공하는 navigate만 호출하면 된다.\n\n@HiltViewModel\ninternal class SearchViewModel @Inject constructor(\n    flowActionStream: FlowActionStream,\n    private val navigator: Navigator,\n) : ActionViewModel<SearchAction>(flowActionStream, SearchAction::class) {\n\n    override suspend fun handleAction(action: SearchAction) {\n        when (action) {\n            is SearchAction.ShowDetail -> { // Activity 이동 시\n                navigator.navigate(\n                    activityRoute = DetailActivityRouter::class,\n                    argumentMap = mapOf(\n                        DetailActivityRouter.PUT_DATA to DetailData(text = action.message),\n                    ),\n                )\n            }\n\n            is SearchAction.SwitchNavigation -> { // Compose Navigation 이동 시\n                navigator.navigate(\n                    navigationRoute = action.navItem.route,\n                    saveState = true,\n                )\n            }\n        }\n    }\n}\n\n\n여기서의 설계는?\n먼저 Compose Navigation에 대한 시퀀스를 살펴보자.\nView - Action - ViewModel - Router - RouterViewModel - RouterView로 이어지는 흐름을 알 수 있다.\n이를 쉽게 이해하기 위해 Repository 패턴에 비유하면, 두 개의 View에서 데이터 통신하는 방법을 설명한 그림으로 생각하면 된다. Router 부분이 Repository로 볼 수 있다.\nView - Action - ViewModel - Repository - RouterViewModel - RouterView\n이를 도식화하면\n\n이번에는 Activity를 이동한다면? 한단계가 더 추가됨을 알 수 있다.\nActivityJourney라는 개념을 활용해서 이동할 Activity가 포함되어 있는지 추가로 검증하고, Activity를 이동한다.\nView - Action - ViewModel - Router - (ActivityJourney) - RouterViewModel - RouterView\n\n이 코드를 이해하는 데 있어서 중요한 점은 두 개의 View가 어떻게 데이터를 통신하는가이다.\n가장 쉬운 방법은 싱글턴으로 처리된 Repository를 활용하는 것이거나, Activity 사이에 위치한 하나의 Repository를 활용하는 방법일 것이다. 보통은 Repository를 싱글턴으로 활용하니, 여기서도 동일하다고 이해하면 된다.\nRouter 코드\n먼저 우리가 활용할 Navigator는 인터페이스로 정의되어 있다. 구현체는 모두 숨겨져 있다.\n이때 구현체를 완전히 분리하고 싶다면, 인터페이스 모듈과 구현체 모듈을 두 개 만들어 활용하는 방식을 고려할 수 있다. 이 방식은 droidknights 2025 - Router에 포함되어 있으니 참고하길 바란다.\n\ninterface Navigator {\n\n    suspend fun <T : ActivityRoute> navigate(\n        activityRoute: KClass<T>,\n        argumentMap: Map<String, Parcelable> = emptyMap(),\n    )\n\n    suspend fun navigate(\n        navigationRoute: NavigationRoute,\n        saveState: Boolean = false,\n    )\n\n    suspend fun navigateBack()\n}\n\n\n위 코드에 대한 구현체는 다음과 같다.\nInternalNavigatorImpl은 Router 모듈 내부에서만 활용하기 위한 것으로, val channel: Channel<InternalRoute> 한 줄이 포함되어 있다.\n\n@ActivityRetainedScoped\ninternal class InternalNavigatorImpl @Inject constructor() : Navigator, InternalNavigator {\n\n    override val channel = Channel<InternalRoute>(Channel.BUFFERED)\n\n    // 아래에서 설명\n    override suspend fun <T : ActivityRoute> navigate(activityRoute: KClass<T>, argumentMap: Map<String, Parcelable>) {\n        channel.send(\n            InternalRoute.Activity(\n                activityRoute = activityRoute,\n                argumentMap = argumentMap,\n            )\n        )\n    }\n\n    override suspend fun navigate(navigationRoute: NavigationRoute, saveState: Boolean) {\n        channel.send(\n            InternalRoute.Navigation(\n                navigationRoute = navigationRoute,\n                saveState = saveState,\n            )\n        )\n    }\n\n    override suspend fun navigateBack() {\n        channel.send(InternalRoute.NavigateBack)\n    }\n}\n\n\n위 Router는 DI(Dependency Injection)를 통해 싱글턴으로 구성되어 있다.\n\n@Module\n@InstallIn(ActivityRetainedComponent::class)\ninternal abstract class RouterModel {\n\n    @Binds\n    @ActivityRetainedScoped\n    abstract fun provideNavigator(\n        navigator: InternalNavigatorImpl\n    ): Navigator\n\n    @Binds\n    @ActivityRetainedScoped\n    abstract fun provideInternalNavigator(\n        navigator: InternalNavigatorImpl\n    ): InternalNavigator\n}\n\n\nViewModel에서는 이를 활용해서, SideEffect로 View에서 collect할 수 있도록 구성되었으니, 기존 코드와 크게 다른 부분은 없다고 생각한다.\n\n@HiltViewModel\ninternal class InternalRouteViewModel @Inject internal constructor(\n    navigator: InternalNavigator,\n    private val journeyMapper: InternalActivityRouteMapper,\n) : ViewModel() {\n\n    val sideEffect by lazy(LazyThreadSafetyMode.NONE) {\n        navigator.channel.receiveAsFlow()\n            .map { router ->\n                when (router) {\n                    is InternalRoute.Activity<*> -> {\n                        journeyMapper.getJourneyOrNull(router.activityRoute)?.let {\n                            InternalRouteSideEffect.NavigateActivity(\n                                activityRoute = it,\n                                argumentMap = router.argumentMap,\n                            )\n                        }\n                    }\n\n                    is InternalRoute.Navigation -> {\n                        InternalRouteSideEffect.Navigate(\n                            navigationRoute = router.navigationRoute,\n                            saveState = router.saveState,\n                        )\n                    }\n\n                    is InternalRoute.NavigateBack -> {\n                        InternalRouteSideEffect.NavigateBack\n                    }\n                }\n            }\n            .filterNotNull()\n    }\n}\n\n\nView에서는\nView에서 SideEffect를 받아 처리하는 코드이다. 주로 화면 이동과 뒤로가기 이벤트를 처리할 수 있다.\nNavigateBack은 Activity와 Navigation 둘 다를 혼용 처리하기 위해 마지막 Entry가 있는지 한 번 더 체크하고 처리하도록 작성되었다.\n첫 화면에서는 보통 <나 X 버튼을 사용하지는 않지만, 적용은 해두었다.\n이 코드에서는 Navigation 처리에 대한 내용이므로 Activity 관련 코드는 제거되었다.\n\n@Composable\nprivate fun InternalLaunchedRouter(\n    navHostController: NavHostController? = null,\n    internalRouterViewModel: InternalRouteViewModel = viewModel(),\n) {\n    val activity = LocalActivity.current\n    val lifecycleOwner = LocalLifecycleOwner.current\n    LaunchedEffect(internalRouterViewModel, lifecycleOwner) {\n        lifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {\n            internalRouterViewModel.sideEffect.collectLatest { sideEffect ->\n                when (sideEffect) {\n                    is InternalRouteSideEffect.NavigateBack -> {\n                        if (navHostController?.previousBackStackEntry != null) {\n                            navHostController.popBackStack()\n                        } else {\n                            activity?.finish()\n                        }\n                    }\n\n                    is InternalRouteSideEffect.Navigate -> {\n                        navHostController?.let { navigation ->\n                            navigation.navigate(sideEffect.navigationRoute) {\n                                navigation.graph.findStartDestination().route?.let {\n                                    popUpTo(it) {\n                                        saveState = sideEffect.saveState\n                                    }\n                                }\n                                restoreState = sideEffect.saveState\n                            }\n                        }\n                    }\n\n                    is InternalRouteSideEffect.NavigateActivity -> {\n                        activity?.startActivity(\n                            sideEffect.activityRoute.getActivity(activity).apply {\n                                sideEffect.argumentMap.entries.forEach { (key, value) ->\n                                    putExtra(key, value)\n                                }\n                            }\n                        )\n                    }\n                }\n            }\n        }\n    }\n}\n\n\n이 코드가 처음 소개된 Flow 다이어그램에 해당한다.\n\n정의는?\nNavigationRoute를 상속받아 Route를 구현하고, 이를 Navigation 화면에 적용해야 한다.\n\n@Serializable\nobject SettingsRoute : NavigationRoute\n\n\n그리고 연결할 지점에는 NavGraphBuilder를 통해 네비게이션에서 활용할 composable을 정의하면 된다.\n\nfun NavGraphBuilder.settingsNavGraph() {\n    composable<SettingsRoute> {\n        InternalSettingsScreen()\n    }\n}\n\n\n네비게이션을 활용하는 방법은 기존과 동일하므로, 여기서는 설명은 생략하고 일부 코드를 올려둔다.\n\nScaffold(\n    bottomBar = {\n        NavigationBar {\n            navigationUiState.navigation.forEach { navItem ->\n                NavigationBarItem(\n                    selected = navigationUiState.selectNav == navItem,\n                    onClick = {\n                        onClick(navItem)\n                    },\n                    // 생략\n                )\n            }\n        }\n    },\n    modifier = modifier\n) { innerPadding ->\n    Box(\n        modifier = Modifier\n            .padding(innerPadding)\n            .padding(horizontal = 10.dp)\n    ) {\n        NavHost( // 네비게이션\n            navController = navController,\n            startDestination = NavigationUiState.Default.selectNav.route,\n        ) {\n            searchNavGraph()\n            settingsNavGraph()\n        }\n    }\n}\n\n\nActivity\nActivity 라우팅은 Compose Navigation보다 조금 더 복잡할 수 있다.\n우선 다시 Router 코드로 돌아가서 중요한 부분만 살펴보자. 여기서는 DI인 Dagger를 활용했으니 Dagger를 활용한 방법으로 접근한다.\n먼저 RouterKey라는 MapKey를 정의했다. 이를 활용해서 클래스 정보를 Key/Value로 매핑할 수 있도록 한다.\n\n@MapKey\nannotation class RouteKey(\n    val value: KClass<out ActivityRoute>,\n)\n\n\n그리고 SomeActivityRouter를 정의하고, 이를 상속받아 구현한다. 여기서 getActivity()를 구현해서 Intent 정보를 함께 전달하게 된다.\n\ninternal class MainActivityRouteImpl @Inject constructor() : MainActivityRouter {\n\n    override fun getActivity(context: Context): Intent =\n        Intent(context, MainActivity::class.java)\n}\n\n\nDI를 활용해 이 RouterImpl이 MainActivityRouter임을 알려주기 위해 @IntoMap과 @RouteKey를 활용해서 처리한다.\n\n@Module\n@InstallIn(SingletonComponent::class)\ninternal abstract class MainModule {\n\n    @Binds\n    @IntoMap\n    @RouteKey(MainActivityRouter::class)\n    abstract fun bindMainActivityRoute(\n        mainActivityRoute: MainActivityRouteImpl,\n    ): ActivityRoute\n}\n\n\n위 코드는 KSP(Kotlin Symbol Processing)를 활용하면 더 쉽게 자동화할 수 있다. 어차피 수동으로 만들더라도 같은 패턴만 나오도록 만들면 되기 때문이다. 특히 Activity를 찾는 것이 중요하며, Intent 객체를 처음부터 만드는 것도 아니기에 이러한 접근이 가능하다.\nKSP 관련 글\nAndroid KSP(Kotlin Symbol Processing) 활용을 위한 준비단계! - link\nAndroid KSP(Kotlin Symbol Processing) 활용할 수 있는 샘플 코드 작업 - link\n코드를 실행하면 런타임에 아래의 map: Map<Class<out ActivityRoute>, @JvmSuppressWildcards ActivityRoute> 부분에서 ActivityRoute로 정의한 정보를 찾아 Map 형태로 전달하고 이를 활용할 수 있다.\n아쉽게도 KClass를 바로 활용하려고 했지만, 런타임에서 오류가 발생해서 Java Class를 활용하게 되었다.\n\n@Module\n@InstallIn(SingletonComponent::class)\ninternal object JourneyRouterModule {\n\n    @Provides\n    @Singleton\n    fun providerInternalActivityRouteMapper(\n        map: Map<Class<out ActivityRoute>, @JvmSuppressWildcards ActivityRoute>,\n    ): InternalActivityRouteMapper =\n        InternalActivityRouteMapper(map)\n}\n\n\n마지막으로 접근해야 할 정보는 getJourneyOrNull에서 찾아서 startActivity할 수 있다.\n\n@Singleton\ninternal class InternalActivityRouteMapper @Inject constructor(\n    @get:VisibleForTesting val mapper: Map<Class<out ActivityRoute>, ActivityRoute>,\n) {\n\n    /**\n     * Find and return ActivityRoute from the data stored in Mapper.\n     */\n    internal fun getJourneyOrNull(journeyKClass: KClass<*>): ActivityRoute? =\n        synchronized(mapper) {\n            mapper[journeyKClass.java]\n        }\n}\n\n\nActivity라서\nCompose Navigation에서는 @Serializable object SettingsRoute : NavigationRoute와 같이 @Serializable 데이터 클래스만 정의하면 동작에 문제가 없고, 필요한 데이터도 간단하게 넘겨줄 수 있다.\n하지만 Activity는 필요한 데이터를 넘기기 위해 별도의 arguments를 사용해야 한다는 차이점이 있다.\n그래서 Navigator 인터페이스에 아래와 같이 arguments를 받을 수 있도록 추가해두었다.\n\ninterface Navigator {\n\n    suspend fun <T : ActivityRoute> navigate(\n        activityRoute: KClass<T>,\n        argumentMap: Map<String, Parcelable> = emptyMap(),\n    )\n\n    suspend fun navigate(\n        navigationRoute: NavigationRoute,\n        saveState: Boolean = false,\n    )\n}\n\n\n데이터 전달을 위함이니 Parcelable로 제한해두었다.\nNavigator를 활용하면 getJourneyOrNull 부분을 ViewModel에서 처리하고있음을 아래와 같이 확인할 수 있다.\n\n@HiltViewModel\ninternal class InternalRouteViewModel @Inject internal constructor(\n    navigator: InternalNavigator,\n    private val journeyMapper: InternalActivityRouteMapper,\n) : ViewModel() {\n\n    val sideEffect by lazy(LazyThreadSafetyMode.NONE) {\n        navigator.channel.receiveAsFlow()\n            .map { router ->\n                when (router) {\n                    is InternalRoute.Activity<*> -> {\n                        journeyMapper.getJourneyOrNull(router.activityRoute)?.let {\n                            InternalRouteSideEffect.NavigateActivity(\n                                activityRoute = it,\n                                argumentMap = router.argumentMap,\n                            )\n                        }\n                    }\n                }\n            }\n            .filterNotNull()\n    }\n}\n\n\n이 코드 부분을 도식화한 부분이 아래와 같다.\n\n정리하면\nView에서 화면 이동 이벤트가 발생한다.\nViewModel에서 Navigator를 통해 Activity/Compose Navigation으로 이벤트를 이동 요청한다.\n    \nActivity 이동: DI를 통해 주입받은 ActivityRoute 정보를 자동으로 매핑하여 InternalActivityRouteMapper에 사전 보관된 정보와 매칭하여 startActivity를 호출한다.\nNavigation 이동: Compose Navigation을 통해 Map에 포함되어있을 경우 이동한다.\n남은 작업은 다음과 같다.\nActivityResult 처리\nNavigationResult 처리\n사용법\n앞서 소개한 Action과 다르게 Router는 Activity를 기반하여 동작한다. A/B Activity가 있다고 하더라도, InternalActivityRouteMapper는 싱글턴이지만 실제 동작은 서로 무관하게 동작한다.\n그래서 각 Activity마다 아래와 같은 코드를 선택적으로 주입해 주어야 한다. 싱글 액티비티 구조라면 당연히 하나면 충분하지만, 서브 네비게이션에 대한 구조를 적용하지 않아서 현재는 모든 경우에 대응되지는 않는다.\n\nval navHostController = rememberNavController()\nLaunchedRouter(navHostController)\n\n// or\nLaunchedRouter() // navHostController default null\n\n\nNext\nAction을 새로 짜면서 Router도 몇 번의 수정이 있었다.\n기존 Action 방식에서의 문제점은 다음과 같았다.\nA/B/C 화면 어디서든 동일한 이벤트인 뒤로가기(back) 이벤트를 받는다면, 모든 화면에서 action을 처리해버리고 원치 않는 종료가 일어날 수 있다는 점이었다. 사이드 이펙트를 통해 막을 수는 있었지만 근본적인 문제 해결도 아니고, 오히려 복잡성을 높이는 코드였기에 수정되면서 원래 사용하던 방식으로 되돌아갔다는 점이다.\n더 나아가 네비게이션에서만 Router를 활용하고 싶다면 드로이드 나이츠 코드를 참고해보면 좋을 것 같다.\ndroidknights 2025 - Router\n작성 글 이어보기\n1부 - 컴포즈에 사용할 Composable Architecture 설명(리엑트?)\n2부 - Composable Architecture는 만들었는데 문제가 있었네? 개선해보자.\n3부 - Composable Architecture에서는 Alert/Toast는 어떻게 사용할 수 있는가?\n다시 - Composable Architecture 설계 변경",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://thdev.tech/architecture/2025/06/02/Android-Architecture-new-02/",
-    "pubDate": "Mon, 02 Jun 2025 00:00:00 +0000",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "GitHub Copilot의 Visual Studio 자동 문서 댓글 생성 기능 소개",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/ai-github_copilot_20250602/",
-    "pubDate": "Mon, 02 Jun 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "체외충격파 시술에 대해",
-    "description": "수영은 매우 안전한 운동지만, 그래도 오래 하다보면 자잘한 부상이 생기기 마련이다. 주로 어깨, 발꿈치, 가슴(흉통), 무릎, 발목을 주로 다치는데, 이 중에서 어깨나 무릎, 발목의 부상의 경우에는 체외충격파 시술이 상당히 좋은 듯 하다.\n \n수영을 하면서 가장 심각한 부상은 회전근개를 다쳤을 때였다. 배영과 접영을 열심히 하다가 어느 순간 통증이 있었는데 무식하게 기록을 더 줄여보겠다고 열심히 했었다. 결국 한쪽 어깨가 컵을 떨어뜨릴 정도로 악화된 상태로 병원에 갔다. 그 외에 한의원이나 여러가지도 있었는데, 솔직히 인대가 다친 것에는 한의원이 전혀 도움이 되지 않았다. 가장 좋은 치료는 재활의학과에서 놔주는 신경차단술 주사 치료와 체외충격파였다. 특히 체외충격파는 부위에 따라 5~10회 정도 받는데, 1주일에 1~2회씩 받았다. 시술 받을 때는 아프기만 하고 별다른 효과가 없어 보였는데, 3개월쯤 지나면 갑자기 좋아지는 것이 느껴졌고, 6개월쯤 지났을 때는 거의 완치에 가까울 정도로 통증이 사라졌다. 의사가 초음파로 치료 전후를 보여줬는데, 치료 후에는 염증이나 부종이 완전히 사라졌음을 알 수 있었다. 관절의 가동범위도 통증이 사라져서 그런지 매우 좋아졌다.\n \n체외충격파 시술의 강도\n체외충격파 시술을 받을 때는 강도를 무조건 강하게 하기보다는 약하게 하는 것도 괜찮다. 괜히 강하게 하는게 좋다고 생각해서 고통을 참으면서 시술받으면 나중에 오히려 몸살이 난다. 따라서 너무 아픈 것 같다면 치료사에게 강도를 낮춰달라고 하는게 좋다.\n \n체외충격파는 무조건 집중형\n체외충격파는 집중형과 방사형이 있는데, 대부분은 집중형을 사용하지만 발뒷꿈치에는 방사형을 많이 사용하는 것 같다. 하지만 솔직히 방사형은 효과가 별로였다. 나중에 효과를 못보니까 의사도 집중형으로 바꿔서 치료하자고 하였다. 물론 시술시 고통은 집중형이 훨씬 더 강하다. 방사형은 고통이라기보단 뭐로 긁는듯한 느낌이라 통증의 종류가 좀 다르다.\n체외충격파 집중형 vs 방사형\n\n\n검색해보면 근육통쪽에는 방사형이 더 좋다고 하는데, 근육통 때문에 체외충격파를 할 정도는 겪어본 적이 없어서 어떤 경우에 주로 사용하는지는 모르겠다.\n \n결론\n인대나 관절쪽이 다쳤을때 체외충격파 시술은 고통은 있지만 매우 효과적이며, 최소 5~10회정도를 추천한다. 개인적 경험이지만 정형외과보다는 재활의학과쪽이 좀 더 세밀하게 진료를 봐준다. 그리고 효과는 3개월 이후부터 서서히 발생하며, 6개월 정도 지나면 완치에 가깝게 통증이 사라지는 것 같다. 달리 말하면 꾹 참고 시술을 1개월만 받으면(보통 주2회니까 1개월이면 8회 시술), 3개월 이후부터는 운동을 해도 아프지 않을 것이다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://sunyzero.tistory.com/314",
-    "pubDate": "Sat, 31 May 2025 18:54:59 +0900",
-    "creator": "sunyzero",
-    "categories": [
-      "취미 관련/수영",
-      "수영 부상",
-      "체외충격파"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "쿠팡을 이용한 결과",
-    "description": "쿠팡에서의 제품 구입 패턴을 바꿔야겠다.\n와우회원을 탈퇴하거나 네이버 쇼핑과 잘 믹스 해야겠다.\n이유는 이렇다.\n- 저품질, 불만족스러운 제품을 많이 사게 됐다. 리뷰를 꼼꼼히 보고 샀지만, 쉽게 망가지거나 금방 해져버리는 물건들이 많았다. 흔히 말하는 ‘불만족-알리택갈이’ 제품의 구매 비중이 점점 늘어났다는 얘기다. 특히 생활용품에서 이런 불만족이 컸다. 쿠팡이 그런 제품을 일부러 권한 건 아니지만, 문방구 앞 달고나처럼 달콤한 유혹을 뿌리칠 수 없었다.\n- 로켓배송은 사실 필요가 없었다. 구입 이력을 보니 ‘꼭 오늘, 내일 필요해!’라는 제품은 하나도 없었다. 당일이나 하루 만에 도착하는 배송이 편리하다는 착각에 빠져 있었던 것이다. 쾌락과 편리함의 경계를 제대로 구분하지 못한 탓이 크다.\n- 내 기준에 맞는 제품은 대부분 로켓배송이 아니거나, 가격에서 이점이 없다.\n- 쿠팡플레이는 애초에 보지 않는다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hodolman.tistory.com/76",
-    "pubDate": "Sun, 1 Jun 2025 23:39:39 +0900",
-    "creator": "호돌맨",
-    "categories": [
-      "우당탕탕 대모험"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "지난 10년을 회고하며",
-    "description": "오늘은 제가 센드버드에 입사한 지 정확히 10년이 되는 날입니다.10년 전 오늘, 2015년 5월 30일, 역삼동의 스타트업 공간 마루180에서 제 개인 노트북을 연결해 첫 업무를 시작했던 기억이 생생합니다. ‘자이버’라는 이름으로 사업 소개서를 만들고, 저녁에는 ‘화덕’이라는 치킨집에서 환영회를 했던 풍경도 아직 떠오릅니다. 돌아보면, 만약 지금까지 해야만 했던 경험들을 10년 전의 제가 미리 알았더라면, 스타트업이라는 선택 자체를 망설였을지도Continue reading \"지난 10년을 회고하며\"\n지난 10년을 회고하며 appeared first on Kimchi hill.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kimchihill.com/2025/05/30/kr-looking-back-on-the-past-10-years/?utm_source=rss&utm_medium=rss&utm_campaign=kr-looking-back-on-the-past-10-years",
-    "pubDate": "Fri, 30 May 2025 04:34:54 +0000",
-    "creator": "kimchihill",
-    "categories": [
-      "Korean essay"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "코드 품질 개선 기법 13편: 클론 가족",
-    "description": "이 글은 2024년 2월 15일에 일본어로 먼저 발행된 기사를 번역한 글입니다.안녕하세요. 커뮤니케이션 앱 LINE의 모바일 클라이언트를 개발하고 있는 Ishikawa입니다.저희 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-13",
-    "pubDate": "Wed, 28 May 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "내가 만든 적 없는 금융상품? 자산 보호 알림 설정하세요",
-    "description": "내 명의 금융상품 매일 점검하고, 앱 접속 안 해도 알림 받는 법",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/toss-guide-safety2",
-    "pubDate": "Thu, 29 May 2025 03:23:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Help Predict the Future of AI in Software Development!",
-    "description": "Ever wanted to share your ideas about AI and have a chance at winning prizes at the same time? As a company dedicated to creating the best possible solutions for software development, we at JetBrains want to know what you think about AI in software development.  In this post, we tell you more about the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2025/06/predict-the-future-of-ai-in-software-development/",
-    "pubDate": "Mon, 02 Jun 2025 11:45:27 +0000",
-    "creator": "Katie Fraser",
-    "categories": [
-      "research",
-      "ai-in-software-development",
-      "forecasting-platform",
-      "jetbrains-research",
-      "prediction-market",
-      "tournament"
     ]
   }
 ]
