@@ -2,29 +2,114 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Visual Studio Code 1.98의 AI 기능",
-    "description": "No description available",
+    "title": "학습 플랫폼과 AI",
+    "description": "아래는 저희 제품팀 전체에게 공유한 내용 중 일부를 정리해서 공유합니다.\n\n최근에 팀원과 함께 AI 요약 노트를 어떻게 제공할지에 대해 논의 논의하는 시간을 가졌다.  \n여러 아이디어가 나왔는데, 퀴즈를 풀기 전에 요약 내용을 꼭 숙지 하도록 장치를 두는 것은 놓치지 말았으면 한다는 것을 조건으로 두었다.\n다만, 그걸 덜 불편하게, 자연스럽게 전달할 수 있도록 고민을 더 할 필요는 있다고도 덧붙였다.  \n퀴즈를 풀려면 요약 노트를 꼭 봐야하는 것이 불편할 수 있다.\n바로 퀴즈 풀고 싶은데, 요약 노트가 한번 등장하면 퀴즈까지 가는 퍼널이 증가하는 것이고, 고객은 최소 1번 이상은 클릭을 더 해야하니 퀴즈 자체가 목적인 분들께는 좀 더 귀찮은 요소가 될 수 있다.\n그렇다 해도 잘 정리된 요약 노트를 보게 하는 것은 꼭 필수 과정으로 들어가야한다고 이야기드렸다.\n고객이 불편해하는 것들은 모두 다 편한 것으로 개선하는 것도 중요하다고 생각한다.\n그런 면에서는 넷플릭스, 에이비앤비, 유튜브에서 배울 점이 많다.\n다만, 그것보다 더 양보할 수 없는 중요한 점이 있는데, 그건 바로 우리 플랫폼의 근본 목적인 고객의 학습 이다.    \n아무리 편하더라도 그게 수강생분들의 학습, 성장에 전혀 도움이 안된다면 그건 우리의 목표에 방해되는 기능이다.  \n설령 조금 불편하더라도 훨씬 더 고객이 원하는 교육, 성장, 학습의 목표를 잘 달성할 수 있게하는 장치라면 그걸 지향해야하고 그로 인해 발생하는 불편한 점을 최대한 상쇄시키는 것이 저희 같은 제품가들이 해야하는 고민이라는 것이다.  \n(틀릴 수도 있지만) 요즘 AI 제품들에 대한 내 생각도 여기에서의 연장선에 있다.  \n요즘 여러 오픈카톡방과 커뮤니티에서 \"모든 서비스가 채팅 UI만 남고 다른 UI/UX는 모두 사라질 것이다\" 라는 이야기를 공공연하게 꺼내곤 한다.    \n그런 면에서 우리 학습 강의실 내에도 AI 채팅을 넣는 것고 고려해볼 수 있다.  \n다만, 이 부분에 대해서는 가능하면 최대한 유보하는 입장이다.\n제품가로서 제품에 대한 고민이 너무 날카롭지 않고 무딘 감각으로 느껴지기 때문이다.  \n좋은 학습 플랫폼이라면 개개인이 갖고 있는 백그라운드에 따라 학습 성과가 천차만별이 되는 것을 최대한 지양해야하고, 백그라운드가 부족하더라도 최대한 많은 것을 가져갈 수 있는 방향으로 제품을 만들어야 한다고 생각한다.  \n물론 자질이 훌륭한 분들의 상방선을 열어두고 극대화 하는 것도 중요하지만 그런 분들은 학습 플랫폼의 도움 없이도 혼자서도 잘 할 수 있는 분들이기에 오히려 우리 같은 플랫폼의 도움이 필요로 하지 않는다.\n진짜 우리의 도움이 필요한 분들은 부족한 백그라운드로 인해서 배우는데 어려움이 있거나 효율이 떨어지는 분들이다.\n그들에게 학습에 대한 레버리지를 줄 수 있는 것을 지향해야한다고 보는 것이다.  \n그런 면에서 AI 채팅으로 모르는 것을 물어보세요 라는 것은 이 관점에서는 불합격인 제품이라고 본다.\n왜냐면 프롬프트 역량에 따라 학습 효율이 천차만별로 나뉘기 때문이다.  \n지금도 대다수의 많은 사람들은 AI 채팅을 통해 제대로 학습하는 사람은 극 소수이다.\n희노애락으로 AI를 쓰시는 분들은 많지만, 여전히 많은 분들이 학습하기 위해 AI를 쓰는 경우는 전체 인구에 비하면 소수이다.\nAI는 틀린 답을 낸다고 생각해서 적당히 질문하다가 원하는 답이 안나와서 \"에잇\" 하고 다시 기존의 검색 서비스를 이용하시거나 AI가 틀린 답을 낸 건지도 모르고 사용 하시는 분들도 많다.\n혹은 여전히 AI를 쓰지 않는 분들도 많다.  \n이런 관점에서는 개인의 프롬프트 역량에 따라 정확한 답변을 받을 수 있을 확률이 달라지는 AI 채팅이란 기능이 진짜 백그라운드가 부족한, 독학이 어려운 분들에게 도움이 되는 제품인가?   \n\"AA\" 라는 주제를 공부하려고 강의를 결제했는데, 그 주제를 잘 공부하기 위해서는 AI 프롬프트를 자세히 공부해야한다 라는 것이 과연 학습 플랫폼이 고객에게 전달해야할 가치인가? 라는 근본적인 의문인 것이다.  \n이는 얼핏보면 AI 이전 시대의 '영어' 와 비슷한 것 같단 생각도 든다.  \n영어를 잘 한다면 전세계의 모든 지식을 쉽게 배울 수 있다.\n강의에서 전달하고자 하는 내용을 모두 영어로 설명한다면 관련된 내용을 추가적으로 찾아볼때도 훨씬 더 편하게 찾아 볼 수 있다.\n모든 용어가 다 원래의 용어 그대로를 사용할테니 더 정확한 설명이 될 것이고, 영어로 배운 사람은 이후에도 그 주제에 대해서는 훨씬 더 정확히, 훨씬 더 확장성 있게 학습을 한 상태가 된다.  \n근데 그 서비스가 과연 학습 성장을 평등하게 제공한 것인가?\n그 서비스는 영어를 잘 아는 사람들만을 위한 서비스이다.  \n학습 성장 평등을 지향하는 우리 같은 학습 플랫폼은 영어, 프롬프트 역량이 부족해도 잘 배울 수 있는 환경을 만드는 것에 집중해야 한다는 생각이 요즘 더 강하게 들었다.    \nAI는 사업과 제품에 있어서 큰 곱하기 효과를 주는 것은 맞는데, 이것 자체가 제품이나 사업이 되어서는 안된다.  \n특히나 그 기능이 정말로 우리가 깊은 고민 없이 그냥 남들이 하니깐 하는 정도 수준에서의 기능이라면 더더욱 그 방향은 위험하다고 본다.  \n그건 뭘 위한 것인지 목표 없이 단순히 AI를 붙이고 '해줘'에 가까운 것인데, 그런건 좋은 제품의 기준에는 전혀 합당하다고 보진 않는다.  \n발전 방향도 어색하다고 본다.\nAI 채팅의 답변이 좋으려면 그만큼 더 좋은 모델을 사용해야한다.\n근데 좋은 모델을 사용할수록 대부분 BEP를 맞추기 힘들다.\n그 많은 AI 토큰 비용을 다 플랫폼이 부담해야하고, 그러다 보면 플랫폼 수수료는 더욱 더 높아진다.  \n그렇다면 저렴한 모델을 고객에게 제공하고 별로인 AI 모델인데 쓸려면 써라 정도의 스탠스를 가지고 가는 것도 너무 웃긴다.\n어차피 만족할만한 답변은 나오지 않는데 고객은 그걸 왜 써야하나.\n반면 이런 기능들은 좋다.  \n\"이 내용을 어디선가 봤는데, 그게 어느 강의의 어느 영상이였는지 모르겠다\" 라면 그걸 쉽게 찾을 수 있는 검색\n방금 전에 강사님이 \"이 내용은 다른 강의에서 자세히 이야기 하고 있으니 그 강의를 수강해보세요\" 라고 하는데 그게 어느 강의의 어느 영상 몇분째 인지 알려주는 학습 도우미\n\"남들을 가르치는 것이 가장 좋은 학습 방법\" 이라는 기준으로 방금 배운 내용을 토대로 누군갈 가르쳐보는 경험을 줄 수 있는 환경\n이런 기능들은 목표가 뚜렷하고 프롬프트 등의 백그라운드 지식과 관계없이 학습을 더 잘할 수 있도록 나름의 고민과 여러 학습 효과에 대한 자료를 기반으로 했기 때문에 좋다.\n고객이 학습을 하는데 있어 방해되는 요소가 자연스레 해소 되는 것이기도 한다.  \n물론 이런 예시들을 전부 \"AI 채팅으로 물어보도록 하면 되지 않냐\" 고 할 수도 있다.\n그건 세상에서 가장 똑똑한 과외 선생님을 붙여도 서울대를 못가는 수많은 학생들과 같다.  \n\"내가 뭘 모르는지도 모르고, 뭘 물어봐야하는지도 모르는\" 대다수의 학생들에겐 적합하지 않다.  \n고객에게 \"이런 것도 질문하세요\", \"저런 것도 질문하세요\" 라고 하기 보다는 고객 스스로도 몰랐던 학습의 방해 요소들이 제품 안에서 자연스럽게 해결되고, 성장을 가속할 수 있는 장치가 자연스럽게 적용 되어있는 것 이 가장 좋다.  \n종국에는 \"인프런 써보기 전에는 몰랐는데 인프런 써보고 나니깐 다른 서비스는 못쓰겠다\" 라는 이야기가 나올 수 있다고 믿고 있다.  \n우리가 해야할 것은, AI를 어떻게하면 잘 사용할 수 있을지는 우리의 고민으로 가져오고, 고객들은 AI를 얼마나 잘 사용하는지에 관계없이 원했던 것 이상으로 성장시켜드리는 것이다.  \n그래서 직접 학습자가 되어보는 것이 중요하다.  \n나는 어떤 환경에서 학습이 잘 되었나,  \n나는 아예 처음 접하는 것을 배울때 어떻게 배우나,  \n내가 가장 만족스러웠던 학습 경험은 어떤 것이었나 등등  \n스스로가 고객이 되어서 \"있으면 좋은 것\" 이 아니라, \"이게 진짜 공부하는데 있어서 큰 도움이 되었다\" 라는 것을 계속해서 고민하고 시도해보는 것이 인프랩의 제품 팀으로서 중요하다.  \n그래서 이 부분에 대해 꼭 명심하고 어떤 제품을 만들던 좀 더 날카롭게 고민해야하는 시기인 것 같다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/ai-github_copilot_20250607/",
-    "pubDate": "Sat, 07 Jun 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://jojoldu.tistory.com/831",
+    "pubDate": "Sun, 8 Jun 2025 10:17:54 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "AI",
+      "ai 채팅",
+      "GPT",
+      "교육 플랫폼",
+      "인프런",
+      "학습"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "데이터 노가다 실수담 - 11th",
-    "description": "3개의 필드로 이루어진 테이블. a가 있으면 c가 없고, c가 있으면 a가 없는 구조. \n\n\n\n\n\n이때 a, c는 b와 연결해야 정확한 의미를 갖는다.\n\n\n\n\n\ncase 조건문으로 바꾸면 이런 식.\n\n\n\n\nb만 존재하는 상태도 추가하려면? \n\n\n다음 조건 로직은 동작하지 않는다. 원하는 마지막 조건은 a, c 모두 없는 상태인데, 선행 조건을 제외하면 남는 조건은 a, c 모두 존재하는 상태뿐이기 때문. \n\n\n\n\na, c 모두 없는 상태를 추가하려면 a, c가 존재하는 상태를 먼저 검사하거나\n\n\n\n\n\na, c 모두 없는 상태를 먼저 검사해야 한다. 별로 복잡한 로직도 아닌데 이걸 헤맸네. 이제 isnull과 isnotnull 안 헷갈릴 듯(..)\n\n\n\n\n\n규환님 커피 보내드립니다^^\n\n\n관련 글\n\n데이터 노가다 실수담 - 10th\n데이터 노가다 실수담\n평균의 함정\n데이터 분석이 쉬워지는 비법\n데이터 분석에 필요한 자질은 뭘까?\nSplunk의 조건문",
+    "title": "레일즈 철학과 카카오 문화",
+    "description": "루비온레일즈에서는 CoC라는 게 있습니다.\n예를 들어서 라우트에 articles란 이름의 경로를 만들면, 이 경로는 articles_controller.rb 와 자동으로 매핑이 됩니다. \narticles_controller의 index 액션은 views/articles/index.html.erb 을 자동으로 찾아서 렌더링 합니다.\n처음엔 이런 관행이 짜증 나기도 했습니다.\n초반에는 Rails와 많이 다투면서 이런 고집스러운 녀석과는 같이 못 살겠다 생각을 했었습니다만…\n제약하고 강제하면서 코딩이 만사 편해질 수 있구나 하는 걸 배웠습니다.\n그런데 이게 꼭 코딩 시에만 적용되는 것은 아니었습니다.\n카카오에 처음 들어갔을 때 영어 닉네임을 정해야만 했습니다.\n부르는 이름이 메일 주소니까.\nWindows 컴퓨터를 사용해왔지만 얄짤없었습니다. 모든 사람들에게 맥북이 지급되었습니다.\n돌아보니 이런 문화들이 마치 레일즈의 CoC처럼 느껴집니다.\n이런 것이 좋을 때도 있다는 사실을 이제는 받아들입니다.\n함께 읽으면 좋은 글:\n깔끔한 이메일 주소\n완성되지 않은 회사\n카카오톡 서버 개발의 추억",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/06/11th.html",
-    "pubDate": "2025-06-08T05:22:00.002Z",
+    "link": "https://jeho.page/essay/2025/06/13/rails-kakao-coc.html",
+    "pubDate": "2025-06-13T01:03:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "Kotlin for Server-Side Development: Community Content Roundup #2",
+    "description": "The Kotlin community keeps delivering valuable content for server-side development. From gRPC best practices to hands-on Ktor tutorials and Spring integrations, here are the latest highlights. 📖 [Article] Kotlin Tips and Tricks You May Not Know: #6 — Inject Functions in Spring Boot – Elena van Engelen-Maslova shares how to inject functions in Spring Boot […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/06/kotlin-for-server-side-development-community-content-roundup-2/",
+    "pubDate": "Tue, 10 Jun 2025 11:06:26 +0000",
+    "creator": "Alyona Chernyaeva",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "토스, 앱인토스 파트너사 모집…스타트업에 토스 앱 개방한다",
+    "description": "파트너사 서비스 연동해 토스 앱 내에서 바로 운영할 수 있도록 구현",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/apps-in-toss",
+    "pubDate": "Thu, 12 Jun 2025 05:28:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "토스, 페이스페이 가맹점 확대…서울 전역 2만 개 점포 시범 운영",
+    "description": "페이스페이 사전 가입자 대상 서울 전 자치구에서 시범 서비스 전개",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/facepayseoul",
+    "pubDate": "Tue, 10 Jun 2025 08:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "토스, 근로복지공단과 상생형 직장어린이집 업무 협약",
+    "description": "오는 12월까지 직장어린이집 설립… 인근 중소기업 자녀에게도 개방",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/Preschool",
+    "pubDate": "Mon, 09 Jun 2025 09:04:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Rust vs Go: Which one to choose in 2025",
+    "description": "The programming landscape continues to evolve, bringing forward languages like Rust and Go that not only challenge traditional paradigms but also cater to the sophisticated needs of modern computing. Both have carved significant niches for themselves, celebrated for their efficient handling of system-level operations and concurrency. Recent findings from the State of Developer Ecosystem Report […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2025/06/12/rust-vs-go/",
+    "pubDate": "Thu, 12 Jun 2025 13:16:42 +0000",
+    "creator": "Ilia Afanasiev",
+    "categories": [
+      "articles-2",
+      "news"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 6화, 학교생활 예고인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2320",
+    "pubDate": "Wed, 11 Jun 2025 18:24:02 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "Next edit suggestions available in Visual Studio",
     "description": "GitHub Copilot code completions, or gray text, are specialized in autocompleting unfinished code or providing helpful template code. In reality, coding activities are more diverse than writing new code. What if Copilot could better assist your coding not only with code generation, but your code editing activities as well? We are excited to announce next […]\nThe post Next edit suggestions available in Visual Studio appeared first on Visual Studio Blog.",
@@ -43,99 +128,85 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Migrate from Cursor to IntelliJ IDEA",
-    "description": "If you’re a developer working with Cursor, exploring alternatives for your growing project, and are curious to see what IntelliJ IDEA has to offer, this article is for you. While Cursor emphasizes a minimalistic setup approach, IntelliJ IDEA strikes a balance between out-of-the-box functionality and powerful customization, enabling developers to effortlessly scale from small projects […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/06/migrate-cursor-to-intellij-idea/",
-    "pubDate": "Thu, 12 Jun 2025 07:33:07 +0000",
-    "creator": "Julia Shashkova",
-    "categories": [
-      "news"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "토스, 근로복지공단과 상생형 직장어린이집 업무 협약",
-    "description": "오는 12월까지 직장어린이집 설립… 인근 중소기업 자녀에게도 개방",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/Preschool",
-    "pubDate": "Mon, 09 Jun 2025 09:04:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Run HTTP Requests in Android Studio",
-    "description": "We are happy to announce that our HTTP Client plugin is now available in Android Studio! HTTP Client is a powerful tool for making HTTP, gRPC, GraphQL, and WebSocket requests. Its text-based interface offers seamless integration with the editor, along with extensive coding assistance including highlighting, code completion, refactorings, and inline documentation. While it was […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2025/06/12/run-http-requests-in-android-studio/",
-    "pubDate": "Thu, 12 Jun 2025 08:55:56 +0000",
-    "creator": "Ekaterina Valeeva",
-    "categories": [
-      "ecosystem",
-      "news",
-      "android-studio"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "높은 성능의 AI 에이전트 구현을 위한 Gemma3 Function call 파인튜닝",
-    "description": "이 글은 높은 성능의 AI 에이전트 구현을 위한 Gemma3 Function call 파인튜닝 방법을 설명한다.\n\n\n\nAI 에이전트에서 Function Call 개념\n\n\n준비물\n이 글은 gemma3를 이용해 function call 데이터셋을 튜닝한다. 해당 모델과 파일은 다음 링크를 참고한다.\n\ngoogle/gemma-3-4b-it · Hugging Face\n\nSalesforce/xlam-function-calling-60k · Datasets at Hugging Face\n\n\n모델을 사용하기 전에 google로부터 다음과 같이 사용 허가(grant)를 얻는다.\n\n\ngoogle/gemma-3-4b-it · Hugging Face\n\n\n터미널에서 다음처럼 패키지 설치한다.\n\npip install \"torch>=2.4.0\" tensorboard flash-attn\npip install git+https://github.com/huggingface/transformers@v4.49.0\npip install --upgrade datasets==3.3.2 accelerate==1.4.0 evaluate==0.4.3  bitsandbytes==0.45.3 trl==0.15.2 peft==0.14.0 protobuf==3.20.3  sentencepiece\n\n\n혹시 윈도우에서 다음과 같이 에러 발생하면 긴파일명 에러가 발생한 것이다.\n\n\n\nregedit 실행해 다음 레지스트리에서 오른쪽에서 LongPathsEnabled를 더블 클릭한 후 값(Data)을 1로 변경하고 확인한다.\n\nHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\FileSystem\n\n\n펑션콜 데이터셋 구조\n다음은 펑션콜 CoT 구조 데이터셋 예시이다.\n\n\nSalesforce/xlam-function-calling-60k · Datasets at Hugging Face\n\n\n\n모델 튜닝 코드 구현\n튜닝 코드를 다음과 같이 코딩한다. 우선, 라이브러리를 임포트한다.\n\nimport torch, json, gc, os\nfrom transformers import AutoTokenizer, Gemma3ForConditionalGeneration, BitsAndBytesConfig, set_seed\nfrom datasets import load_dataset\nfrom trl import SFTTrainer, SFTConfig\nfrom peft import LoraConfig, PeftModel, PeftConfig\nfrom enum import Enum\nfrom huggingface_hub import login\nfrom dotenv import load_dotenv\n\n\n\nAPI키, 모델 경로 등 기본 설정한다. 단, API키는 프로젝트에 .env 파일을 추가하고 HF_API_KEY=<허깅페이스 API KEY>가  내용에 포함되어 있어야 한다. 모델은 본인의 VRAM 크기를 고려해 설정한다. 참고로, 이 코드는 가장 작은 VRAM 을 사용하는 gemma-3-4b-it를 사용한다.\n\nload_dotenv()\nhf_token = os.getenv(\"HF_API_KEY\")\nlogin(token=hf_token)\n\nos.environ[\"PYTORCH_CUDA_ALLOC_CONF\"] = \"expandable_segments:True\"\n\nseed = 42\nset_seed(seed)\n\ntorch_dtype = torch.bfloat16 if torch.cuda.get_device_capability()[0] >= 8 else torch.float16\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n\nmodel_name = \"google/gemma-3-4b-it\"\ndataset_name = \"Salesforce/xlam-function-calling-60k\"\n\n\n\n모델 튜닝 파라메터를 설정한다. attn_implementation은 트랜스포머 어텐션 연산의 성능을 개선하기 위한 옵션이다. 적절히 선택하되, 환경 상 해당 알고리즘이 동작되지 않는다면 eager 옵션을 선택한다.\n\nmodel_kwargs = dict(\n    attn_implementation=\"flash_attention_2\", # \"eager\", \"sdpa\", \"flash_attention\", \"flash_attention_2\"\n    torch_dtype=torch_dtype,\n    device_map=\"auto\",\n    quantization_config=BitsAndBytesConfig(\n        load_in_4bit=True,\n        bnb_4bit_use_double_quant=True,\n        bnb_4bit_quant_type='nf4',\n        bnb_4bit_compute_dtype=torch_dtype,\n        bnb_4bit_quant_storage=torch_dtype,\n        llm_int8_enable_fp32_cpu_offload=True\n    )\n)\n\nmodel = Gemma3ForConditionalGeneration.from_pretrained(model_name, **model_kwargs)\n\n\n\n함수호출을 위한 모델 튜닝에 필요한 특수 토큰을 정의한다.\n\nclass ToolCallSpacialTokens(str, Enum):\n    tools = \"<tools>\"\n    eotools = \"</tools>\"\n    think = \"<think>\"\n    eothink = \"</think>\"\n    tool_call=\"<tool_call>\"\n    eotool_call=\"</tool_call>\"\n    tool_response=\"<tool_response>\"\n    eotool_response=\"</tool_response>\"\n    pad_token = \"<pad>\"\n    eos_token = \"<eos>\"\n\n    @classmethod\n    def list(cls):\n        return [c.value for c in cls]\n\ntokenizer = AutoTokenizer.from_pretrained(\n    model_name,\n    pad_token=ToolCallSpacialTokens.pad_token.value,\n    additional_special_tokens=ToolCallSpacialTokens.list()\n)\n\n\n\n토큰 엠베딩 차원을 리사이즈한다.\n\ntokenizer.chat_template = \"\"\"{{ bos_token }}{% if messages[0]['role'] == 'system' %}{{ raise_exception('System role not supported') }}{% endif %}{% for message in messages %}{{ '<start_of_turn>' + message['role'] + '\\n' + message['content'] | trim + '<end_of_turn><eos>\\n' }}{% endfor %}{% if add_generation_prompt %}{{'<start_of_turn>model\\n'}}{% endif %}\"\"\"\n\nmodel.resize_token_embeddings(len(tokenizer))\nmodel.to(device)\n\n\n\n모델튜닝을 위해 학습데이터를 모델에 맞게 전처리한다.\n\ndef preprocess(sample):\n    try:\n        tools = json.loads(sample[\"tools\"])\n        answers = json.loads(sample[\"answers\"])\n        user_query = sample[\"query\"]\n    except Exception as e:\n        print(\"Error decoding JSON:\", sample)\n        raise e\n\n    messages = [\n        {\n            \"role\": \"user\",\n            \"content\": (\n                \"You have access to the following tools:\\n\\n\"\n                + \"\\n\\n\".join(f\"- {tool['name']}: {tool['description']}\" for tool in tools)\n                + \"\\n\\nUser query:\\n\" + user_query\n            )\n        },\n        {\n            \"role\": \"assistant\",\n            \"content\": \"\\n\".join(\n                f\"<function_call>\\n{json.dumps(answer)}\\n</function_call>\"\n                for answer in answers\n            )\n        }\n    ]\n\n    return {\n        \"text\": tokenizer.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)\n    }\n\ndataset = load_dataset(dataset_name)\ndataset = dataset[\"train\"].map(preprocess, remove_columns=[\"id\", \"query\", \"answers\", \"tools\"])\ndataset = dataset.train_test_split(0.1)\nprint(dataset)\n\nprint(dataset[\"train\"][19][\"text\"])\n\n\n\n파인튜닝을 위해 LoRA와 SFT 설정한다.\n\npeft_config = LoraConfig(\n    lora_alpha=16,\n    lora_dropout=0.05,\n    r=16,\n    bias=\"none\",\n    target_modules=\"all-linear\",\n    task_type=\"CAUSAL_LM\",\n    modules_to_save=[\"lm_head\", \"embed_tokens\"] # make sure to save the lm_head and embed_tokens as you train the special tokens\n)\n\ntraining_arguments = SFTConfig(\n    output_dir=\"gemma-3-4b-it-thinking-function_calling-V0\",\n    per_device_train_batch_size=1,\n    per_device_eval_batch_size=1,\n    gradient_accumulation_steps=32,\n    save_strategy=\"epoch\",\n    eval_strategy=\"epoch\",\n    logging_steps=50,\n    learning_rate=3e-4,\n    max_grad_norm=0.3,\n    weight_decay=0.1,\n    warmup_ratio=0.03,\n    lr_scheduler_type=\"constant\",\n    report_to=None,\n    bf16=True,\n    optim=\"paged_adamw_8bit\",\n    torch_compile=False,\n    push_to_hub=False,\n    num_train_epochs=3,\n    gradient_checkpointing=True,\n    gradient_checkpointing_kwargs={\"use_reentrant\": False},\n    packing=False,\n    max_seq_length=512,\n    dataset_kwargs={\n        \"add_special_tokens\": False,\n        \"append_concat_token\": True,\n    }\n)\n\ntorch.cuda.empty_cache()\ntorch.cuda.ipc_collect()\ngc.collect()\n\n\n\n학습하고 결과를 저장한다.\n\ntrainer = SFTTrainer(\n    model=model,\n    args=training_arguments,\n    train_dataset=dataset[\"train\"],\n    eval_dataset=dataset[\"test\"],\n    # tokenizer=tokenizer,\n    peft_config=peft_config,\n)\n\ntrainer.train()\ntrainer.save_model()\n\n\n\n정상적으로 실행되면, 다음과 같이 함수 호출 데이터셋을 학습할 것이다.\n\n\n\n\nHF에 파인튜닝된 모델을 업로드한다. 그리고, 다시 다운로드하여 평가모드로 모델을 오픈한다.\n\n\ntrainer.push_to_hub(f'mac999/gemma-3-4b-it-thinking-function_calling-V0-{seed}', commit_message=\"Pushing fine-tuned model with function calling capabilities\")\n\ntokenizer.eos_token = \"<eos>\"\ntokenizer.push_to_hub(f\"mac999/\", token=True)\n\npeft_model_id = f\"mac999/gemma-3-4b-it-thinking-function_calling-V0-{seed}\" \ndevice = \"auto\"\nconfig = PeftConfig.from_pretrained(peft_model_id)\nmodel = Gemma3ForConditionalGeneration.from_pretrained(\"google/gemma-3-4b-it\",\n                                             device_map=\"auto\",\n                                             )\ntokenizer = AutoTokenizer.from_pretrained(peft_model_id)\nmodel.resize_token_embeddings(len(tokenizer))\nmodel = PeftModel.from_pretrained(model, peft_model_id)\nmodel.to(torch.bfloat16)\nmodel.eval()\n\n\n\n\n파인튜닝이 제대로되었는 지 function call을 테스트해본다.\n\nprompt = \"\"\"<bos><start_of_turn>user\nYou have access to the following tools:\n\n- numerical_derivative: Estimate the derivative of a mathematical function\n\nUser query:\nI need to estimate the derivative of the function y = sin(x) at x = π/4 and x = π. Can you help with that?<end_of_turn><eos>\n<start_of_turn>assistant\n\"\"\"\n\ninputs = tokenizer(prompt, return_tensors=\"pt\", add_special_tokens=False).to(model.device)\n\noutputs = model.generate(\n    **inputs,\n    max_new_tokens=256,\n    do_sample=True,\n    temperature=0.01,\n    top_p=0.95,\n    repetition_penalty=1.1,\n    eos_token_id=tokenizer.eos_token_id\n)\n\nresponse = tokenizer.decode(outputs[0], skip_special_tokens=False)\nprint(response)\n\n\n\n마무리\n파인튜닝 전과 후를 비교해 보면, 확실히 데이터셋에 있는 함수호출 방식이 제대로 생성되는 것을 확인할 수 있을 것이다.\n\n레퍼런스\n\nEnhancing Gemma 3’s Capabilities with Fine-Tuning for Function Calling | by Akriti Upadhyay | May, 2025 | Medium\nGeneral AI agent framework for smart buildings based on large language models and ReAct strategy\nOpen-Source Tools for Agents | Data Science Collective\nThe Era of High-Paying Tech Jobs is Over | by Somnath Singh | Level Up Coding\nAGI-Edgerunners/LLM-Agents-Papers: A repo lists papers related to LLM based agent\nAPIGen - Distilabel Docs\nAymanTarig/function-calling-v0.2-with-r1-cot · Datasets at Hugging Face\nBenchmarking Agent Tool Use",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/06/ai-gemma3-function-call.html",
-    "pubDate": "2025-06-06T10:33:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Inside Ruby Debuggers: TracePoint, Instruction Sequence, and CRuby API",
-    "description": "Hello, Ruby developers! Debugging is a key part of software development, but most developers use debuggers without knowing how they actually work. The RubyMine team has spent years developing debugging tools for Ruby, and we want to share some of the insights we’ve gained along the way. In this post, we’ll explore the main technologies […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ruby/2025/06/inside-ruby-debuggers/",
-    "pubDate": "Tue, 10 Jun 2025 07:34:53 +0000",
-    "creator": "Dmitry Pogrebnoy",
-    "categories": [
-      "rubymine"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "토스, 글로벌 채용 네트워킹 행사 ‘토스 USA 밋업’ 개최",
-    "description": "AI 인재 확보 본격화",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossusameetup",
-    "pubDate": "Sun, 08 Jun 2025 06:50:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 10,
     "imageUrl": "",
-    "title": "신용카드에 꼭 서명해야 하는 이유",
-    "description": "분실·도난 시 보상받으려면 서명이 필수예요",
+    "title": "JetBrains GameDev Days 2025 – Call for Speakers",
+    "description": "JetBrains GameDev Day is back! Join us online on October 21, 2025, for a day dedicated to all things game development. We’re looking for speakers who are eager to share their knowledge, experience, tools, or creative approaches across the gamedev community. What is GameDev Day? GameDev Day is a free, live, online event hosted by […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/card_signature",
-    "pubDate": "Thu, 12 Jun 2025 06:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/dotnet/2025/06/13/jetbrains-gamedev-days-2025-call-for-speakers/",
+    "pubDate": "Fri, 13 Jun 2025 09:48:43 +0000",
+    "creator": "Anna Ruban",
+    "categories": [
+      "net-tools",
+      "events",
+      "rider",
+      "teamcity-2"
+    ]
   },
   {
     "id": 11,
+    "imageUrl": "",
+    "title": "영어 레벨의 함정 - 영포자 일병 구출작전 by 다독",
+    "description": "\"한 배에서 아롱이 다롱이 난다.\" 라는 이야기 처럼, 우리 둘째는 첫째와 아주 많이 다릅니다. 성격, 외모 뿐 아니라, 좋아하는 것도, 잘하는 것도 아주 다릅니다. 그 중, 요즘 제가 신경을 많이 쓰는 부분은 언어에 대한 감각입니다.  어려서 부터, 영어를 좋아하고 쉽게 깨우친 오빠와 달리, 둘째는 오빠 보다 더 빨리 시작했고, 많은 시간을 썼음에도 불구",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@34qN/44",
+    "pubDate": "Mon, 09 Jun 2025 07:25:19 GMT",
+    "creator": "Reasontobe",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "JetBrains Academy – June Digest",
+    "description": "This month, we’ve gathered fun plugins and a course to help you build your own, as well as AI updates, exciting news for C++ learners and professional developers. Dive in!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/education/2025/06/13/jetbrains-academy-june/",
+    "pubDate": "Fri, 13 Jun 2025 14:26:54 +0000",
+    "creator": "Maria Sharobaeva",
+    "categories": [
+      "digest",
+      "jetbrains-academy",
+      "newsletter"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Livestream: Building an MCP Server",
+    "description": "Join us on Tuesday, June 24, at 10 am EDT / 4 pm CEST (check other timezones) for our free livestream, Live Coding: Building an MCP Server. In this livestream, we’ll team up with Max Kless, a senior engineer at Nx, to build a Model Context Protocol (MCP) server from scratch and seamlessly integrate it […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/webstorm/2025/06/livestream-building-an-mcp-server/",
+    "pubDate": "Thu, 12 Jun 2025 13:53:02 +0000",
+    "creator": "Aleksandra Aganezova",
+    "categories": [
+      "livestreams",
+      "learn"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Faster Python: Concurrency in async/await and threading",
+    "description": "If you have been coding with Python for a while, especially if you have been using frameworks and libraries such as Fast API and discord.py, then you have probably been using async/await or asyncio. You may have heard statements like “multithreading in Python isn’t real”, and you may also know about the famous (or infamous) […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/pycharm/2025/06/concurrency-in-async-await-and-threading/",
+    "pubDate": "Tue, 10 Jun 2025 11:57:58 +0000",
+    "creator": "Cheuk Ting Ho",
+    "categories": [
+      "how-tos",
+      "tutorials",
+      "web-development",
+      "concurrency",
+      "python"
+    ]
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "[NS2] 닌텐도 스위치 2 - 확실한 성능 체감, 아쉬운 출시 전략",
     "description": "No description available",
@@ -144,67 +215,6 @@
     "link": "https://bbs.ruliweb.com/news/board/11/read/2318",
     "pubDate": "Mon, 09 Jun 2025 19:13:12 +0900",
     "creator": "｜RULIWEB｜",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "헬스장 회원권은 신용카드 할부로 결제하면 좋은 이유",
-    "description": "폐업해도 남은 금액 지킬 수 있는 법적 권리가 생겨요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/installment_payments",
-    "pubDate": "Tue, 10 Jun 2025 06:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "SQL and NoSQL Query langauge support come to ReSharper!",
-    "description": "ReSharper’s query language support for SQL and NoSQL provides C# developers with a more convenient way to work with SQL and NoSQL code directly in Visual Studio with ReSharper, supporting multiple SQL dialects beyond just T-SQL. It includes syntax highlighting, code analysis, auto-completion, and quick fixes to boost efficiency and catch issues early. Download the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/06/10/sql-and-nosql-query-langauge-support-come-to-resharper/",
-    "pubDate": "Tue, 10 Jun 2025 08:46:00 +0000",
-    "creator": "Rachel Appel",
-    "categories": [
-      "net-tools",
-      "data",
-      "datagrip",
-      "eap",
-      "nosql",
-      "query-language",
-      "resharper",
-      "sql"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 6화, 학교생활 예고인데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2320",
-    "pubDate": "Wed, 11 Jun 2025 18:24:02 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "[NS2] 작은 변화가 만든 거대한 점프 업과 도파민, 마리오 카트 월드",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2319",
-    "pubDate": "Wed, 11 Jun 2025 13:08:02 +0900",
-    "creator": "［RULIWEB］",
     "categories": [
       "리뷰"
     ]
