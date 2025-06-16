@@ -2,6 +2,30 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "토스, 근로복지공단과 상생형 직장어린이집 업무 협약",
+    "description": "오는 12월까지 직장어린이집 설립… 인근 중소기업 자녀에게도 개방",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/Preschool",
+    "pubDate": "Mon, 09 Jun 2025 09:04:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "의사난수 라는 것은 무엇인가",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/tech_20250614/",
+    "pubDate": "Sat, 14 Jun 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
     "title": "JetBrains Academy – June Digest",
     "description": "This month, we’ve gathered fun plugins and a course to help you build your own, as well as AI updates, exciting news for C++ learners and professional developers. Dive in!",
     "reviews": [],
@@ -16,110 +40,19 @@
     ]
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "깔끔한 이메일 주소",
-    "description": "이메일 주소가 깔끔한 사람을 보면 좋은 느낌이 듭니다.\n그렇지 않고 한글 이름을 영문 자판 그대로 rlawogh(김재호) 옮겨 쓴다거나,\n가장 인상적이었던 이메일은 r@google.com 였습니다.\n롭 파이크.\n깔끔한 이메일을 보면 이 사람은 신중하고 좋은 결정을 하는 사람이라는 생각이 듭니다.  \nP.S 저는 wlsdudtm 라는 이메일을 쓰는 동생에게 메일 주소 좀 바꾸라고 잔소리를 하곤 합니다.\n\n함께 읽으면 좋은 글:\n가장 기쁜 이메일",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/06/09/neat-email-address.html",
-    "pubDate": "2025-06-09T09:48:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Livestream: Building an MCP Server",
-    "description": "Join us on Tuesday, June 24, at 10 am EDT / 4 pm CEST (check other timezones) for our free livestream, Live Coding: Building an MCP Server. In this livestream, we’ll team up with Max Kless, a senior engineer at Nx, to build a Model Context Protocol (MCP) server from scratch and seamlessly integrate it […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/webstorm/2025/06/livestream-building-an-mcp-server/",
-    "pubDate": "Thu, 12 Jun 2025 13:53:02 +0000",
-    "creator": "Aleksandra Aganezova",
-    "categories": [
-      "livestreams",
-      "learn"
-    ]
-  },
-  {
     "id": 4,
     "imageUrl": "",
-    "title": "Faster Python: Concurrency in async/await and threading",
-    "description": "If you have been coding with Python for a while, especially if you have been using frameworks and libraries such as Fast API and discord.py, then you have probably been using async/await or asyncio. You may have heard statements like “multithreading in Python isn’t real”, and you may also know about the famous (or infamous) […]",
+    "title": "강의안 | 구매전환율을 높이는 상세페이지 기획 방법 - 창업",
+    "description": "1. 구매전환율을 높이는 상세페이지 기획 방법 - sample   2. 구매전환율을 높이는 상세페이지 기획 방법 - 강의개요 ​ *강의개요 ​ 상세페이지 기획 설득력있는 나만의 상세페이지 기획 Page : 27P 강의대상 : #예비창업자 #소상공인 #스타트업 #관광기업 #로컬기업 #온라인쇼핑몰 강의시간 : 2시간 ​ http://www.thegamechan",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2025/06/concurrency-in-async-await-and-threading/",
-    "pubDate": "Tue, 10 Jun 2025 11:57:58 +0000",
-    "creator": "Cheuk Ting Ho",
-    "categories": [
-      "how-tos",
-      "tutorials",
-      "web-development",
-      "concurrency",
-      "python"
-    ]
+    "link": "https://brunch.co.kr/@@LOc/267",
+    "pubDate": "Sun, 15 Jun 2025 12:19:24 GMT",
+    "creator": "고명환",
+    "categories": []
   },
   {
     "id": 5,
-    "imageUrl": "",
-    "title": "영어 레벨의 함정 - 영포자 일병 구출작전 by 다독",
-    "description": "\"한 배에서 아롱이 다롱이 난다.\" 라는 이야기 처럼, 우리 둘째는 첫째와 아주 많이 다릅니다. 성격, 외모 뿐 아니라, 좋아하는 것도, 잘하는 것도 아주 다릅니다. 그 중, 요즘 제가 신경을 많이 쓰는 부분은 언어에 대한 감각입니다.  어려서 부터, 영어를 좋아하고 쉽게 깨우친 오빠와 달리, 둘째는 오빠 보다 더 빨리 시작했고, 많은 시간을 썼음에도 불구",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@34qN/44",
-    "pubDate": "Mon, 09 Jun 2025 07:25:19 GMT",
-    "creator": "Reasontobe",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "토스, 근로복지공단과 상생형 직장어린이집 업무 협약",
-    "description": "오는 12월까지 직장어린이집 설립… 인근 중소기업 자녀에게도 개방",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/Preschool",
-    "pubDate": "Mon, 09 Jun 2025 09:04:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "(꽤 중요한) 투자자와의 소통",
-    "description": "전에 내가 ‘투자자와 소통하기’라는 글을 썼다. 우리가 일하는 분야는 워낙 페이스가 빨라서 과거에 맞다고 했던 내용이 현재는 완전히 틀릴 수도 있고, 과거에 틀렸다고 했던 내용이 현재는 완전히 맞을 수도 있다. 하지만, 6년 전에 썼던 이 글은, 과거에도 맞았고 지금은 더 오지게 맞는 내용이라서 아무리 강조해도 지나치지가 않기 때문에, 비슷한 내용의 글을 한 번 더 쓴다.(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/06/why-regular-communication-with-your-investors-matters-more-than-you-think.html",
-    "pubDate": "Wed, 11 Jun 2025 21:27:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "fundraising",
-      "general",
-      "people",
-      "Strong",
-      "vc"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "[NS2] 작은 변화가 만든 거대한 점프 업과 도파민, 마리오 카트 월드",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2319",
-    "pubDate": "Wed, 11 Jun 2025 13:08:02 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "코드 품질 개선 기법 15편: 문법은 이름을 나타낸다",
     "description": "이 글은 2024년 2월 29일에 일본어로 먼저 발행된 기사를 번역한 글입니다.안녕하세요. 커뮤니케이션 앱 LINE의 모바일 클라이언트를 개발하고 있는 Ishikawa입니다.저희 ...",
@@ -131,7 +64,35 @@
     "categories": []
   },
   {
-    "id": 10,
+    "id": 6,
+    "imageUrl": "",
+    "title": "계약 전, 임대인 동의 없어도 정보를 볼 수 있어요 : 임대인 정보조회 방법",
+    "description": "다주택자 여부부터 보증사고 이력까지 확인 가능",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-policies-44",
+    "pubDate": "Fri, 13 Jun 2025 00:43:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Text Blocks in Java: Perfect for Multiline Strings",
+    "description": "You’ve likely used String variables to store values that span multiple lines, such as LLM prompts, JSON, HTML, XML, code snippets, and other such values. Some of these, such as a JSON value, include double quotes as part of the data. Imagine the inconvenience of using backslashes (\\) to escape those quotes, indenting lines using […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/06/text-blocks-in-java-perfect-for-multiline-strings/",
+    "pubDate": "Tue, 10 Jun 2025 11:28:36 +0000",
+    "creator": "Irina Mariasova",
+    "categories": [
+      "tutorials",
+      "java",
+      "textblocks"
+    ]
+  },
+  {
+    "id": 8,
     "imageUrl": "",
     "title": "AI와 글쟁이의 동행: 코드 주면 API 레퍼런스 써드려요",
     "description": "기술 문서는 늘 부족합니다. 특히 좋은 기술 문서가 부족하죠.테크니컬 라이터는 좋은 기술 문서를 쓸 수 있지만, 사내 프로젝트를 모두 담당하기에는 수가 턱없이 모자랍니다. '개발자...",
@@ -143,7 +104,47 @@
     "categories": []
   },
   {
+    "id": 9,
+    "imageUrl": "",
+    "title": "토스, 앱인토스 파트너사 모집…스타트업에 토스 앱 개방한다",
+    "description": "파트너사 서비스 연동해 토스 앱 내에서 바로 운영할 수 있도록 구현",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/apps-in-toss",
+    "pubDate": "Thu, 12 Jun 2025 05:28:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Run HTTP Requests in Android Studio",
+    "description": "We are happy to announce that our HTTP Client plugin is now available in Android Studio! HTTP Client is a powerful tool for making HTTP, gRPC, GraphQL, and WebSocket requests. Its text-based interface offers seamless integration with the editor, along with extensive coding assistance including highlighting, code completion, refactorings, and inline documentation. While it was […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/blog/2025/06/12/run-http-requests-in-android-studio/",
+    "pubDate": "Thu, 12 Jun 2025 08:55:56 +0000",
+    "creator": "Ekaterina Valeeva",
+    "categories": [
+      "ecosystem",
+      "news",
+      "android-studio"
+    ]
+  },
+  {
     "id": 11,
+    "imageUrl": "",
+    "title": "최고의 사무실은 바로 우리집 방구석",
+    "description": "집에서는 도저히 일이 안 된다는 사람들을 많이 봤습니다.\n저도 그 기분을 압니다.\n다행히 저는 집에서도 집중을 잘 하는 편입니다.\n커다란 모니터도 2개나 있고, 책상과 의자의 높이, 키보드, 온도/습도. 소음.\n집에서 일을 잘하는 건 타고난 게 아닙니다. 하다보면 습관이 되어 편해지는 것.\n강력 추천하는 사무실은 바로 자기집 방구석입니다.\n\n함께 읽으면 좋은 글:\n사무실의 고요함이 너무 좋아\n1인 개발자 전성시대",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/06/09/my-office-is-my-room.html",
+    "pubDate": "2025-06-09T02:44:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "Rust vs Go: Which one to choose in 2025",
     "description": "The programming landscape continues to evolve, bringing forward languages like Rust and Go that not only challenge traditional paradigms but also cater to the sophisticated needs of modern computing. Both have carved significant niches for themselves, celebrated for their efficient handling of system-level operations and concurrency. Recent findings from the State of Developer Ecosystem Report […]",
@@ -158,50 +159,40 @@
     ]
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "데이터 노가다 실수담 - 11th",
-    "description": "3개의 필드로 이루어진 테이블. a가 있으면 c가 없고, c가 있으면 a가 없는 구조. \n\n\n\n\n\n이때 a, c는 b와 연결해야 정확한 의미를 갖는다.\n\n\n\n\n\ncase 조건문으로 바꾸면 이런 식.\n\n\n\n\nb만 존재하는 상태도 추가하려면? \n\n\n다음 조건 로직은 동작하지 않는다. 원하는 마지막 조건은 a, c 모두 없는 상태인데, 선행 조건을 제외하면 남는 조건은 a, c 모두 존재하는 상태뿐이기 때문. \n\n\n\n\na, c 모두 없는 상태를 추가하려면 a, c가 존재하는 상태를 먼저 검사하거나\n\n\n\n\n\na, c 모두 없는 상태를 먼저 검사해야 한다. 별로 복잡한 로직도 아닌데 이걸 헤맸네. 이제 isnull과 isnotnull 안 헷갈릴 듯(..)\n\n\n\n\n\n규환님 커피 보내드립니다^^\n\n\n관련 글\n\n데이터 노가다 실수담 - 10th\n데이터 노가다 실수담\n평균의 함정\n데이터 분석이 쉬워지는 비법\n데이터 분석에 필요한 자질은 뭘까?\nSplunk의 조건문",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/06/11th.html",
-    "pubDate": "2025-06-08T05:22:00.002Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 13,
     "imageUrl": "",
-    "title": "최고의 사무실은 바로 우리집 방구석",
-    "description": "집에서는 도저히 일이 안 된다는 사람들을 많이 봤습니다.\n저도 그 기분을 압니다.\n다행히 저는 집에서도 집중을 잘 하는 편입니다.\n커다란 모니터도 2개나 있고, 책상과 의자의 높이, 키보드, 온도/습도. 소음.\n집에서 일을 잘하는 건 타고난 게 아닙니다. 하다보면 습관이 되어 편해지는 것.\n강력 추천하는 사무실은 바로 자기집 방구석입니다.\n\n함께 읽으면 좋은 글:\n사무실의 고요함이 너무 좋아\n1인 개발자 전성시대",
+    "title": "깔끔한 이메일 주소",
+    "description": "이메일 주소가 깔끔한 사람을 보면 좋은 느낌이 듭니다.\n그렇지 않고 한글 이름을 영문 자판 그대로 rlawogh(김재호) 옮겨 쓴다거나,\n가장 인상적이었던 이메일은 r@google.com 였습니다.\n롭 파이크.\n깔끔한 이메일을 보면 이 사람은 신중하고 좋은 결정을 하는 사람이라는 생각이 듭니다.  \nP.S 저는 wlsdudtm 라는 이메일을 쓰는 동생에게 메일 주소 좀 바꾸라고 잔소리를 하곤 합니다.\n\n함께 읽으면 좋은 글:\n가장 기쁜 이메일",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/06/09/my-office-is-my-room.html",
-    "pubDate": "2025-06-09T02:44:00.000Z",
+    "link": "https://jeho.page/essay/2025/06/09/neat-email-address.html",
+    "pubDate": "2025-06-09T09:48:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "토스, 글로벌 채용 네트워킹 행사 ‘토스 USA 밋업’ 개최",
-    "description": "AI 인재 확보 본격화",
+    "title": "[NS2] 닌텐도 스위치 2 - 확실한 성능 체감, 아쉬운 출시 전략",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossusameetup",
-    "pubDate": "Sun, 08 Jun 2025 06:50:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2318",
+    "pubDate": "Mon, 09 Jun 2025 19:13:12 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "리뷰"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "토스, 페이스페이 가맹점 확대…서울 전역 2만 개 점포 시범 운영",
-    "description": "페이스페이 사전 가입자 대상 서울 전 자치구에서 시범 서비스 전개",
+    "title": "신용카드에 꼭 서명해야 하는 이유",
+    "description": "분실·도난 시 보상받으려면 서명이 필수예요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/facepayseoul",
-    "pubDate": "Tue, 10 Jun 2025 08:00:00 GMT",
+    "link": "https://toss.im/tossfeed/article/card_signature",
+    "pubDate": "Thu, 12 Jun 2025 06:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   }
