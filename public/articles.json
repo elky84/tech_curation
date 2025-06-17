@@ -2,17 +2,167 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "토스, 근로복지공단과 상생형 직장어린이집 업무 협약",
-    "description": "오는 12월까지 직장어린이집 설립… 인근 중소기업 자녀에게도 개방",
+    "title": "Rider 2025.2 EAP 5: Reimagined Monitoring tool window and New OpenTelemetry Plugin",
+    "description": "The Rider 2025.2 EAP 5 build has just been released, and this one brings two major productivity enhancements for .NET developers.  We’re excited to introduce the reimagined Monitoring tool window, which transforms how you identify and resolve performance issues, plus the new OpenTelemetry plugin, which brings runtime observability directly into your development environment. We can’t […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/Preschool",
-    "pubDate": "Mon, 09 Jun 2025 09:04:00 GMT",
+    "link": "https://blog.jetbrains.com/dotnet/2025/06/16/rider-eap-5-new-monitoring-tool-opentelemetry-plugin/",
+    "pubDate": "Mon, 16 Jun 2025 14:56:45 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "eap",
+      "news",
+      "releases",
+      "rider",
+      "dotmemory",
+      "dottrace",
+      "dotultimate",
+      "opentelemetry"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 6화, 학교생활 예고인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2320",
+    "pubDate": "Wed, 11 Jun 2025 18:24:02 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "OpenTelemetry Plugin for JetBrains Rider: Observability Inside Your IDE",
+    "description": "Understanding how your application behaves at runtime has always been a challenge. Traditional debugging and profiling tools can help you understand what’s happening at specific points in time – but getting a complete picture of system behavior, performance patterns, and architectural relationships often means jumping between external tools and dashboards. We’re building the OpenTelemetry plugin […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/06/16/opentelemetry-plugin-for-jetbrains-rider/",
+    "pubDate": "Mon, 16 Jun 2025 14:52:53 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "rider",
+      "observability",
+      "opentelemetry"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "노코드 서비스 비교 분석하기",
+    "description": "코딩 지식 없이도 웹사이트나 애플리케이션을 만들 수 있는 노코드(No-code) 도구들이 점차 주목받고 있다. 이 도구들은 아이디어를 빠르게 현실화할 수 있는 강력한 대안이 되고 있다. 여기서는 주요 노코드 도구들의 특징과 장단점, 그리고 가격을 비교하여 정리한다.\n\n\n노코드 도구 결과물 예시\n\n\n1. Bubble.io\nBubble.io는 복잡한 웹 애플리케이션을 코딩 없이 개발할 수 있는 강력한 플랫폼이다. 거의 모든 종류의 웹 앱을 만들 수 있는 높은 유연성과 기능을 제공한다. 시각적인 드래그 앤 드롭 인터페이스를 통해 앱을 구축하며, 다양한 플러그인과 API 연동으로 기능을 확장할 수 있다. 활발한 사용자 커뮤니티가 존재하여 문제 해결 및 학습 자료를 얻기 용이하다.\n\n\nLearn Bubble.io in 30 Minutes\n\n\n그러나 강력한 기능만큼이나 학습해야 할 것이 많아 초보자에게는 높은 학습 곡선으로 작용할 수 있다. 네이티브 모바일 앱 개발에는 적합하지 않으며, 복잡한 앱의 경우 속도나 성능 저하가 발생할 수 있다. 또한, Bubble.io에서 개발된 앱의 코드를 직접 내보낼 수 없어 플랫폼에 종속된다는 단점이 있다.\n가격 (2025년 기준):\n\nFree Plan: 기본적인 기능 체험 및 프로토타입 제작용으로, 앱 배포 및 고급 기능이 제한된다.\nStarter Plan: 월 $32 (연간 결제 시 $348)이다.\nGrowth Plan: 월 $134 (연간 결제 시 $1,428)이다.\nTeam Plan: 월 $399 (연간 결제 시 $4,788)이다.\nEnterprise Plan: 대규모 앱 및 특정 요구사항을 위한 맞춤형 가격으로 책정된다.\n\n\n\n앱 생성 화면(일부)\n\n\n버블 프로젝트 파일 구조(일부)\n\n\n2. Adalo\nAdalo는 특히 모바일 애플리케이션 개발에 특화된 노코드 도구이다. 드래그 앤 드롭 방식으로 반응형 모바일 앱을 쉽게 만들 수 있으며, iOS 및 Android 앱 스토어 배포가 가능하다. 사용자 친화적인 인터페이스를 제공하여 빠르게 앱 개발을 시작할 수 있다. 한 번 만들면 웹, 태블릿, 모바일 등 다양한 기기에서 작동하는 크로스 플랫폼 호환성을 가진다. 다양한 앱 템플릿을 제공하여 개발 시작을 돕는다.\n하지만 Bubble.io에 비해 디자인 및 기능 맞춤화 옵션이 제한적이다. 복잡한 워크플로우나 데이터베이스 처리에 한계가 있을 수 있으며, 일부 사용자는 앱 성능에 대한 문제를 보고하기도 한다.\n가격 (2025년 기준):\n\nFree Plan: 제한적인 기능으로 플랫폼을 체험할 수 있으며, 앱 레코드 200개 및 앱 에디터 1명으로 제한된다.\nStarter Plan: 월 $45이며 (연간 결제 시 할인), 1개 앱 배포 및 무제한 앱 액션을 제공한다.\nProfessional Plan: 월 $65이며 (연간 결제 시 할인), 2개 앱 배포 및 5명 에디터를 제공한다.\nTeam Plan: 월 $200이며 (연간 결제 시 할인), 5개 앱 배포 및 10명 에디터를 제공한다.\n그 외 데이터 저장 용량 및 앱 액션에 따라 더 높은 요금제도 존재한다.\n3. Webflow\nWebflow는 전문적인 웹사이트 디자인에 강점을 가진 노코드 도구이다. 웹 디자이너를 위한 강력한 시각적 디자인 도구로, 완벽하게 반응형이고 맞춤화된 웹사이트를 만들 수 있다. 노코드로 작업하지만, 결과물은 깨끗하고 최적화된 HTML, CSS, JavaScript 코드를 생성한다. 검색 엔진 최적화(SEO) 기능이 잘 갖춰져 있으며, 자체 CMS(콘텐츠 관리 시스템)를 통해 블로그, 포트폴리오 등 콘텐츠 기반 웹사이트를 쉽게 관리할 수 있다.\n그러나 복잡한 사용자 로직이나 데이터베이스 기반의 웹 애플리케이션 개발보다는 정적인 웹사이트나 마케팅 페이지 제작에 더 적합하다. HTML/CSS의 기본 개념을 알면 유리하며, 디자인 자유도가 높은 만큼 익숙해지기까지 시간이 걸릴 수 있다. 다른 웹사이트 빌더에 비해 가격이 비쌀 수 있다는 단점도 있다.\n가격 (2025년 기준):\n\nSite Plans (웹사이트 호스팅 및 기능):\n\nStarter: 무료이다.\nBasic: 월 $18이다.\nCMS: 월 $29이다.\nBusiness: 월 $49이다.\nEnterprise: 맞춤형 가격으로 제공된다.\neCommerce Plans (온라인 쇼핑몰):\n\nStandard: 월 $42이다.\nPlus: 월 $84이다.\nAdvanced: 월 $235이다.\nWorkspace Plans (협업 및 팀 관리):\n\nStarter: 무료이다.\nCore: 월 $28이다.\nGrowth: 월 $60이다.\nEnterprise: 맞춤형 가격으로 제공된다.\n프리랜서 및 에이전시를 위한 별도 Workspace Plan도 존재한다.\n4. Softr\nSoftr는 Airtable, Google Sheets, Notion, SmartSuite 등의 기존 데이터 소스를 활용하여 웹 앱을 빠르게 구축하는 데 강점을 가진다. 사용자 로그인, 권한 관리 등 사용자 포털이나 내부 대시보드 제작에 특화되어 있다. 간단한 웹 앱을 빠르게 만들고 배포할 수 있으며, 포털, 대시보드, 마켓플레이스 등 다양한 템플릿을 제공하여 시작을 돕는다.\n하지만 Bubble.io나 Webflow에 비해 디자인 커스터마이징의 자유도가 낮다. 고급 조건부 워크플로우나 복잡한 데이터 처리에 제한이 있을 수 있으며, 주로 외부 데이터베이스에 의존하여 기능이 제한될 수 있다는 점도 고려해야 한다.\n가격 (2025년 기준):\n\nFree Plan: 1개 앱, 10명 사용자, 기본적인 빌딩 블록 및 커스텀 도메인을 제공한다.\nBasic Plan: 월 $49 (연간 결제 시 할인)이며, 3개 앱, 20명 사용자, 칸반, 결제 기능, 커스텀 코드 등을 제공한다.\nProfessional Plan: 월 $139 (연간 결제 시 할인)이다.\nBusiness Plan: 월 $269 (연간 결제 시 할인)이다.\nEnterprise Plan: 맞춤형 가격으로 제공된다.\n5. AppGyver (SAP Build Apps)\nAppGyver (현재 SAP Build Apps로 통합)는 개인 사용자 및 소규모 비즈니스를 위한 Community Edition을 무료로 제공하며, 기능 제한이 거의 없는 것이 특징이다. 웹 앱뿐만 아니라 iOS 및 Android용 네이티브 모바일 앱 개발이 가능하다. 드래그 앤 드롭 방식의 시각적 로직 편집기로 복잡한 백엔드 로직 구현이 가능하며, 다양한 API 및 SAP 솔루션과의 통합에 강점이 있다.\n그러나 무료이면서 강력한 만큼, 다른 쉬운 노코드 툴에 비해 학습 곡선이 높을 수 있다. 미리 만들어진 템플릿이 부족하여 처음부터 모든 것을 구축해야 할 수 있으며, 자동 저장 기능이 없어 수동으로 저장해야 하므로 작업 손실 위험이 존재한다. SAP에 인수된 이후 엔터프라이즈 기능은 SAP Build Apps로 통합되어 SAP 생태계와의 연동에 중점을 둔다.\n가격 (2025년 기준):\n\nAppGyver Community Edition: 개인 사용자, 소규모 비즈니스, 학습 목적을 위해 무료로 제공된다.\nSAP Build Apps: 엔터프라이즈 솔루션으로, SAP 에코시스템과의 통합 및 고급 기능을 제공하며 가격은 맞춤형 (예: USD 26,827.50/suite 등)이다.\n6. Nocodefusion (노코드퓨전)\nNocodefusion은 주로 생성형 AI 기술과 노코드 플랫폼을 결합하여 AI 기반의 애플리케이션을 빠르게 구축하는 데 중점을 둔 도구이다. 이는 단순한 웹 앱 빌더를 넘어, GPT-3와 같은 대규모 언어 모델(LLM)이나 이미지 생성 AI 등을 활용하는 데 특화되어 있다. 사용자가 코딩 없이 AI 기능을 자신의 서비스에 통합하고 싶을 때 유용하다. 특정 니치(Niche) 시장, 즉 AI 기술 활용에 특화된 노코드 솔루션이라고 볼 수 있다.\n장점:\n\nAI 기능 통합 용이성: 생성형 AI 모델(예: 챗봇, 이미지 생성, 텍스트 요약 등)을 노코드 방식으로 자신의 앱에 쉽게 통합할 수 있는 강력한 기능을 제공한다.\n빠른 AI 기반 서비스 프로토타이핑: AI 기반의 아이디어를 빠르게 실험하고 프로토타입을 만들기에 적합하다.\n니치 시장 특화: AI 기능을 활용한 서비스 개발에 관심 있는 사용자에게 매우 강력한 도구이다.\n단점:\n\n범용성 제한: 일반적인 웹/모바일 앱 개발(예: 소셜 네트워크, 복잡한 비즈니스 로직)에는 Bubble.io나 Adalo만큼의 범용성과 유연성을 제공하지 않을 수 있다.\nAI 기술에 대한 이해 필요: 노코드이긴 하나, AI 모델의 개념이나 활용 방식에 대한 기본적인 이해가 있으면 더 효율적으로 사용할 수 있다.\n정보 부족 가능성: 비교적 새로운 접근 방식의 도구이므로, 다른 오래된 노코드 도구들에 비해 사용자 커뮤니티나 학습 자료가 부족할 수 있다.\n가격 (2025년 기준):\nNocodefusion과 같은 AI 기반 노코드 도구들은 서비스 모델이 다양하며, AI 사용량(토큰 사용량 등)에 따라 가격이 책정되는 경우가 많다. 정확한 가격은 해당 서비스의 공식 웹사이트에서 확인해야 한다. 일반적으로 다음과 같은 형태로 제공될 수 있다.\n\n\nFree Tier: 기본적인 기능 체험 및 소량의 AI 사용량 제공이다.\nSubscription Plans: 월별 또는 연간 구독 형태로, 제공되는 AI 사용량, 기능, 지원 수준에 따라 다양한 가격대가 존재한다.\nUsage-based Pricing: AI 모델 API 사용량(예: 텍스트 생성 길이, 이미지 생성 횟수)에 따라 추가 비용이 발생할 수 있다.\n\n\n7. FlutterFlow\nFlutterFlow는 Google의 UI 툴킷인 Flutter를 기반으로 한 로코드(Low-code) 도구이다. 노코드와 코드 개발의 중간 지점에 있으며, 드래그 앤 드롭 방식으로 시각적인 앱 개발을 지원하면서도 필요시 Dart 언어로 직접 코드를 추가하거나 내보낼 수 있는 유연성을 제공한다. iOS, Android, 웹, 데스크톱 앱을 모두 개발할 수 있는 크로스 플랫폼 개발에 강점을 가진다. Firebase와 같은 백엔드 서비스와의 통합이 용이하며, 풍부한 위젯 라이브러리와 템플릿을 제공한다.\n장점:\n\n크로스 플랫폼 네이티브 앱 개발: 하나의 코드로 iOS, Android는 물론 웹, 데스크톱 앱까지 만들 수 있어 개발 효율성이 높다. 실제 네이티브 앱과 유사한 성능과 사용자 경험을 제공한다.\n코드 내보내기 및 커스터마이징: 언제든지 Dart 코드를 내보내어 개발자가 직접 수정하거나 확장할 수 있어, 노코드 도구의 한계를 넘어선다. 복잡하거나 특정 요구사항이 있는 앱 개발에 유리하다.\nFirebase 연동 용이성: Google의 백엔드 서비스인 Firebase와 긴밀하게 연동되어 사용자 인증, 데이터베이스, 스토리지 등을 쉽게 구축할 수 있다.\n시각적 개발 환경 및 유연성: 드래그 앤 드롭 방식으로 빠르게 UI를 구성하면서도, 필요한 경우 세밀한 코드 수정이 가능하여 유연성이 높다.\n단점:\n\n학습 곡선 존재: 일반적인 노코드 도구보다는 학습 곡선이 높을 수 있다. Flutter 프레임워크와 Dart 언어에 대한 기본적인 이해가 있다면 훨씬 유리하다.\n복잡성 증가: 노코드의 편리함과 코드의 유연성을 동시에 제공하지만, 프로젝트가 복잡해질수록 관리해야 할 요소들이 많아질 수 있다.\n가격: 무료 플랜이 제한적이며, 모든 기능을 활용하려면 유료 플랜을 구독해야 한다.\n가격 (2025년 기준):\nFlutterFlow의 가격은 기능 및 내보내기 옵션에 따라 달라진다.\n\nFree Plan: 기본적인 개발 환경을 제공하나, 코드 내보내기 및 고급 기능에 제한이 있다.\nStandard Plan: 월 $30 (연간 결제 시 할인)이며, 기본 기능을 제공한다.\nPro Plan: 월 $70 (연간 결제 시 할인)이며, 소스 코드 내보내기, API 연동, GitHub 연동 등 고급 개발 기능을 제공한다.\nTeams Plan: 월 $70/사용자 (연간 결제 시 할인)이며, 팀 협업 기능과 Pro Plan의 모든 기능을 포함한다.\n\n\n\n\n다음은 이들 중 일부를 비교한 영상이다. \n\n\n\n결론적으로, 어떤 노코드 도구를 선택할지는 개발하고자 하는 앱의 종류, 필요한 기능, 디자인 요구사항, 예산, 그리고 사용자의 기술 숙련도에 따라 달라진다. 각 도구의 장단점을 면밀히 검토하여 최적의 선택을 하는 것이 중요하다고 할 수 있다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/06/blog-post.html",
+    "pubDate": "2025-06-14T09:10:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 2,
+    "id": 5,
+    "imageUrl": "",
+    "title": "신용카드에 꼭 서명해야 하는 이유",
+    "description": "분실·도난 시 보상받으려면 서명이 필수예요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/card_signature",
+    "pubDate": "Thu, 12 Jun 2025 06:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "토스, 페이스페이 가맹점 확대…서울 전역 2만 개 점포 시범 운영",
+    "description": "페이스페이 사전 가입자 대상 서울 전 자치구에서 시범 서비스 전개",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/facepayseoul",
+    "pubDate": "Tue, 10 Jun 2025 08:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "markitdown 사용하기. 다양한 형식의 파일을 md 파일로",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/Tool_20250616/",
+    "pubDate": "Mon, 16 Jun 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Migrate from Cursor to IntelliJ IDEA",
+    "description": "If you’re a developer working with Cursor, exploring alternatives for your growing project, and are curious to see what IntelliJ IDEA has to offer, this article is for you. While Cursor emphasizes a minimalistic setup approach, IntelliJ IDEA strikes a balance between out-of-the-box functionality and powerful customization, enabling developers to effortlessly scale from small projects […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/06/migrate-cursor-to-intellij-idea/",
+    "pubDate": "Thu, 12 Jun 2025 07:33:07 +0000",
+    "creator": "Julia Shashkova",
+    "categories": [
+      "news"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "헬스장 회원권은 신용카드 할부로 결제하면 좋은 이유",
+    "description": "폐업해도 남은 금액 지킬 수 있는 법적 권리가 생겨요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/installment_payments",
+    "pubDate": "Tue, 10 Jun 2025 06:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "New Livestream – Java Enable Preview: Vector API",
+    "description": "Join us for a new IntelliJ IDEA Livestream episode with Daniel Hinojosa and explore the Vector API – a powerful tool for writing high-performance code in Java. Date: June 25, 2025 Time: 3:00–4:00 pm UTC REGISTER FOR THE LIVESTREAM Session abstract In this session, we will discuss the Vector API in a preview in Java. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/06/new-livestream-new-livestream-new-livestream-java-enable-preview-vector-api/",
+    "pubDate": "Mon, 16 Jun 2025 10:18:02 +0000",
+    "creator": "Anna Rovinskaia",
+    "categories": [
+      "livestreams",
+      "intellij-idea",
+      "intellijidealivestream",
+      "livestream",
+      "webinars"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "이와타씨에게 묻다",
+    "description": "요즘 '낭만의 시대는 갔고, 야만의 시대가 시작되었다' 라는 이야기를 자주 듣는다.\n낭만은 비효율적이고 쓸모 없는 일이기도 하다.\n그럼에도 하기 때문에 낭만이다.\n\"매출에 도움이 안되는 일이여도 고객이 좋아할 것 같으니 리소스를 투입하는 것이 맞는가?\"\n이 질문에 대해 예전과 지금의 답이 다르다는 것이다.\n예전에는 \"고객들이 좋아할 것 같은데 확실하지 않아도 일단 해보자\" 가 많았다면 지금은 \"매출에 기여할 작업도 아닌데, 확실하지도 않으면 하지말자\", \"당장의 매출이 기여할 수 있는 것에 집중하자\" 등의 이야기가 훨씬 더 많다는 이야기이다.\n부정하기는 어렵지만, 그럼에도 제품가로서는 아쉽다.\n그래서 더 낭만가분들을 찾게 된다.\n지금 같은 시기에도 낭만과 현실을 모두 다 쫓을수는 없을까?\n현실을 무시하겠다는게 전혀 아니라,\n둘 다 놓치지 않을 수 없을까.\n책 속의 \"아이디어란 여러 문제를 단번에 해결하는 것\" 처럼 어느 것 하나도 포기하지 않고 둘 다 가져가기 위해 다시금 읽었다.\n'이와타씨에게 묻다' 는 출간 후 너무 많은 사람들에게 추천받고, 현 회사로 이직하고나서 매번 읽을때마다 생각할거리를 준 책이다.\n닌텐도의 콘셉트이자 테마인 '게임 인구의 확대'\n닌텐도 Wii의 컨트롤러를 '리모컨'으로 하자는 것 등\n다시 봐도 두근두근한 마음이 생긴다.\n이 책을 읽고 생전 처음 게임기인 닌텐도 스위치1를 샀다.\n닌텐도 스위치에 맞는 게임도 샀다.\nPC 게임을 위해 컴퓨터를 바꿔보긴 했어도, 닌텐도나 플레이스테이션과 같이 게임만 되는 전용기를 산 것은 이때가 처음이다.\n제품가로서 이와타 사토루씨 같은 사람이 되고 싶다.\n프로그래머로서는 도저히 따라가기 어려울 것 같고,\n(나는 키보드에서 드르륵 소리가 날만큼 타이핑 속도를 내지 못한다.)\n제품가로서는 이와타씨가 이야기한 것처럼 만드는 사람도, 사용하는 사람도, 사용하는 사람의 주변 사람도 모두 '해피(happy)' 할 수 있는 제품을 만들고 싶다.\n그래서 주말 동안 다시 읽고 지금 와닿은 내용들에 밑줄을 그었다.\n닌텐도 스위치2가 나왔다고 갖고 싶어하던 조카가 생각난다.\n다음 생일때 선물로 사줘야겠다.\n책 속 문장\n[만약 도망친다면 평생 후회한다]\n나는 그때,\n자신을 항상 바쁜 곳에 두기로 결심했습니다.\n회사에는 몇 개의 팀이 있고 바쁜 시기는 서로 엇갈려 있었지만, 나는 가장 바쁜 팀을 응원하러 가기로 했습니다.\n[우리가 잘하는 것은 뭘까]\n일이란, 실제로 할 수 있는 일보다 하는 편이 좋은 일이 확실히 많습니다.\n따라서 하는 편이 좋은 일을 전부 다 한다면 쓰러지고 맙니다.\n그렇기 때문에 잘하는 일이 무엇인지를 자각한 후에, '무엇이 무엇보다 우선인가'를 명확히 하는 것. 순번을 붙이는 것. 이것이 경영이라고 생각합니다.\n그렇다면 '우리가 잘하는 일이란 무엇인가'를 고민해야 합니다.\n매번 비슷한 에너지를 쏟으며 일했을 텐데, 이상하게도 고객들이 좋아해줄 때와 그다지 좋아하지 않을 때가 있습니다.\n우리로서는 들이는 수고도 고생도 비슷한데 말이죠.\n똑같이 100의 고생을 했어도, 왜 그런지 이쪽 고객은 100을 좋아하지만 다른 쪽 고객은 500을 좋아하는, 이 같은 일이 일어납니다.\n...\n요컨데, 자신들이 엄청나게 고생했다고는 생각지 않는데 이상하게 평가가 좋을 때란, 방치해두어도 좋은 결과가 자꾸자꾸 나와 선순환이 되면서 쑥쑥 힘이 나는 상태입니다.\n이것이 바로 우리에게 적합한 일, 그렇지 않은 것은 적합하지 않은 일, 나는 대체로 이런식으로 판단합니다.\n[마음 놓고 \"바보같이\" 라고 말할 수 있는 사람]\n\"나 말이야, 꽤 영리하지?\" 라고 생각했던 일은 선배에게 모두 들킵니다.\n하지만 들키고서도 자신을 둘러댄다면 인상이 몹시 나빠집니다(웃음).\n결국 회사가 신입에게 가장 요구하는 것은 ‘겉치레하지 말라’입니다.\n그러면서도 같은 일로 여러 번 다른 사람을 괴롭히지 말라는 점.\n그리고 신입 중에는 어떤 이유에서인지 확실히 훈계하기 쉬운 사람과 하기 어려운 사람이 있습니다.\n마음 놓고 “바보같이!”라고 말할 수 있는 사람과 종기를 건드리듯이 조심스럽게 혼내야만 하는 사람이 있습니다.\n이것이 실은 굉장한 차이입니다.\n내 쪽에서 줄 수 있는 양도, 그 사람이 흡수할 수 있는 양도 마지막에 가서는 어마어마하게 달라지니까요.\n“바보같이!”를 편하게 말할 수 있는 사람은 단기간에 매우 많은 것을 배웁니다.\n...\n비록 지식과 기술이 없더라도 '당신이 하는 말을 받아들일 준비가 되어있습니다' 라는 마음이 그 사람으로부터 전해져 온다면, 잘 안된 일이나 해야만 하는 일을 명확하게 말할 수 있고, 듣는 쪽도 그것을 배울 수 있습니다.\n반대로 종기를 건드리듯이 조심스레 꾸짖어야 하는 사람이란, '여기부터는 들어오지 마세요' 라는 장벽 같은 것을 주변에서 느끼도록 만들어버린 사람이지요.\n그곳에 발을 들이면 그 사람이 망가져버리지 않을까, 주변 사람들이 신경 쓴다고나 할까요.\n그 사람이 무엇을 소중히 여기는지 안다면 마음 놓고 \"바보같이!\" 라고 말할 수 있겠지만, 그게 뭔지 모르는 사람에게는 화를 냈다가 그 사람의 소중한 것을 의도치 않게 짓밟아 버릴지도 모른다는 두려움이 있기 때문이죠.\n화를 내거나 훈계하는 일은 아무래도 신경이 쓰이고 나름의 두려움도 있죠.\n따라서 내가 하는 말을 신입이 받아들일 태세인지, 밝은 표정으로 나를 바라보는지는 매우 중요합니다.\n쉽게 말해, 가급적이면 ‘정말로 하고 싶어 하는 사람’에게 일을 건네고 싶은 법이거든요.\n인간이니까요.\n싫어하는 듯한 사람에게 중요한 일을 맡기려는 사람은 없습니다.\n일에는 힘들고 싫은 부분도 많습니다.\n꼭 참지 않으면 안 됩니다.\n하지만 아마도 그 사람에게 ‘일이 재미있을지 여부’는\n‘자신이 무엇을 즐길 수 있는가’에 따라 크게 좌우되겠지요.\n생각하기에 따라 일이란 재미없는 것투성이지만\n재미를 찾는 일에 재미를 붙이면 무슨 일이든 대부분 재밌습니다.\n이 갈림길이 매우 크다고 생각합니다.\n[나 외의 다른 사람에게 존경심을 가질 수 있는지 여부]\n참고로, 나의 이러한 자세는 내가 30대 초반일 즈음 이토이 시게사토씨와 만나며 배웠습니다.\n나보다 10살 이상 연상인 이토이씨가 자신이 모르는 일을 해내는 사람에게 상당한 존경심을 가지고 대하는 모습을 보고 ‘멋지다. 나도 저렇게 되고 싶다’라고 생각했거든요.\n덧붙이자면 ‘이토이씨는 자신이 못하는 일을 하는 사람에 대해 솔직하게 감동하고 존경심을 가질 뿐이지, 이것이 특별한 일은 아니구나’ 이렇게 생각했습니다.\n[이와타씨의 말 조각, 두 번째]\n큰 조직일수록 “이번에는 이것에 매진하기로 결정!”\n이런 것이 필요하더라고요.\n왜냐하면 회사에는 하는 편이 좋은 일이 무한정 있으므로 누군가 방침을 정하지 않으면 파워가 점점 분산될 뿐이거든요.\n따라서 미야모토씨 나름, 나 나름대로, “이것을 합시다”라고 명확히 선택해야만 합니다.\n[보상을 찾아내는 능력]\n게임에는 바로 그만둬버리는 게임과 ‘뭔가 해내고 말테다’인 게임이 있습니다.\n마찬가지로 정성스럽게 완성한 게임이라도, 본질적인 재미와는 다른 차원에서 계속하는 게임과 계속하지 않는 게임이 있지요.\n이를 비롯한 여러 습관은 지속성 측면에서 굉장히 유사합니다.\n둘의 공통점이라면, 사람은 우선 그 대상에 자신의 에너지를 쏟아붓습니다.\n시간이든, 노력이든, 돈이든.\n그리고 쏟아부었으면 쏟아부은 만큼 뭔가가 반응으로 돌아옵니다.\n이것이 자신에 대한 보상이 됩니다.\n이때 자신이 쏟아부은 노력이나 에너지보다 보상이 더 크다고 느끼면 사람은 그것을 그만두지 않습니다.\n하지만 되돌아온 보상이 대가로서 걸맞지 않다고 느낄 때\n사람은 좌절하지요.\n이것이 ‘그만두지 않고 계속하는 게임’의 조건입니다.\n‘영어를 공부할 때 좌절하는지 여부’도 같은 이치로 설명할 수 있습니다.\n...\n따라서 재능이란, ‘보상을 찾아내는 능력’이지 않을까요.\n‘끝까지 해내는 것’보다도 ‘끝까지 해낸 일에 쾌감을 느끼는 것’이 재능이라고 생각합니다.\n말하자면 보상을 찾아내는 ‘보상 발견 회로’와 같은 것이 열려 있는 사람이지요.\n가끔은요, 보상을 찾아내기 직전까지 갔음에도 이 회로가 열리지 않는 사람이 있거든요.\n이때, \"이런 식으로 생각해보면?\" 이라든가 \"속는 셈 치고 앞으로 세 번 더 참아보자\" 이런 말을 하면 잘될 때가 있습니다.\n...\n자신이 쏟아붇은 것 보다 보상이 더 크다고 느끼는 순간이 오면 선순환이 시작되고 이것은 계속 이어집니다.\n사람은 자신의 인생에서 '이것을 잘할지도' 라고 생각하는 일에는 무조건 보상회로가 열려 있습니다.\n...\n이런 연결을 발견할 수 없으면 잘하는 일이 늘어나지 않습니다.\n예를 들어, 내가 프로그램만을 전문으로 만들던 시기에는 조직이나 경영 관련 책을 읽어도 연결되지 않으니, 진정한 의미로는 머리에 들어오지 않더군요.\n확실히 지식은 늘어나지만, 성취감은 없습니다.\n‘내일 이거 써먹어야지’ 이런 것이 없으니까요.\n그러면 ‘보상’은 느껴지지 않습니다.\n자기 주변과 연결되어 있지 않은 것은 무리해서 공부해도 몸에 익지 않습니다.\n그것에 시간을 허비하기보다는 자신이 좋아하고 잘하는 일을 우선시해야겠지요.\n[\"프로그래머는 노(No) 라고 말해서는 안 된다\" 라는 발언]\n나는 예전에 “프로그래머는 노(No)라고 말해서는 안 된다”라고\n말한 적이 있습니다.\n게임 제작 과정에서 프로그래머가 “못한다”라고 하면, 모처럼 나온 아이디어가 실현되지 못할 뿐만 아니라 새로운 아이디어도 나오기 어려워집니다.\n프로그래머가 프로그래밍하기 쉬운 것만 생각한다면 한계를 뛰어넘는 훌륭한 아이디어 따위는 나오지 않습니다.\n또한 처음에는 불가능하다고 생각했던 일이 시행착오를 겪는 와중에 종종 실현되기도 합니다.\n따라서 프로그래머는 경솔하게 “노”라고 말해서는 안 됩니다.\n이것이 본질적으로는 맞다고 지금도 생각합니다.\n다만 이것은 내 책임입니다만, 내 발언이 조금은 외따로 가는 부분이 있습니다.\n프로그래머가 “노”라고 말하면 가능성이 닫혀버리는 게 사실이지만, 모든 개발의 조건은 무한하지 않습니다.\n게임 제작이란 유한한 제약 속에서 하는 일입니다.\n따라서 정말로 못하는 것은 “못한다”라고 말해야 합니다.\n할 수 있을 가능성이 있어도\n“할 수 있지만, 이것이 희생될 거예요”\n“할 수 있지만, 이것과는 양립할 수 없어요”\n와 같은 표현을 서로 명확히 이해한 후에 진행해야 합니다.\n이런 부분을 “프로그래머는 노라고 말해서는 안 된다”라는 말과\n함께 세트로 해두었으면 합니다.\n무슨 일이 있어도 “프로그래머는 못한다고 말하지 마!” 이런 식이 되지 않도록 말이죠.\n[당사자로서 후회가 없도록 우선순위를 정한다]\n확실히 나는 곤란한 사람이나 문제를 안고 있는 사람이 있으면 그 문제를 해결하고 싶어집니다.\n정확하게는, 눈 앞에 문제가 있으면 '나라면 어떻게 할까'를 진지하게 고민하게 됩니다.\n...\n물론 시간이 무한정 있지는 않으므로, 그 사람이나 그 문제를 최종적으로 얼마만큼의 시간 동안 함께할지는 선택해 가는 수밖에 없습니다.\n이것이 일종의 딜레마입니다.\n...\n'내가 무엇을 할 수 있을까'를 생각하다 보면, 결국 마지막에는 시간의 제약을 받게 됩니다.\n소위 '효율적으로 일하자' 라는 착실함만을 의미하는 게 아닙니다.\n왜냐하면 시시한 것을 멍하니 생각하는 시간 또한 결코 헛되지 않으니까요.\n그렇다면 결국, '자신의 유하한 시간과 에너지를 어디에 쏟는 편이 좋을까'라는 문제가 됩니다.\n계속 생각하다보면 '자신이 태어난 의미'까지 고민하게 됩니다.\n어느 쪽이든 영역만 넓어질 뿐이라면 아무것도 할 수 없게 됩니다.\n회사로서의 선택도 그렇지만, 막연히 대중을 향한 행동이 되어버리면 전체를 위해 할 수밖에 없으므로 하나하나를 신경 쓸 수가 없으니까요. 그러면 깊이도 없고, 그리고 무엇보다 부차적으로 생겨나는 것도 없습니다.\n[이와타씨의 말 조각, 세번째]\n예를 들어 어느 음식점에서 손님이, 나온 요리를 보고 ‘많다’라고 합니다.\n이때 ‘많다’라고 한 사람은 왜 ‘많다’라고 했을까요.\n그 밑바탕에는 사실 ‘많다’가 아니라 ‘맛없다’가 문제일 수도 있습니다.\n따라서 사실은 그다지 많지도 않은데 ‘많다’라고 했던 문제만을 보고\n‘맛없다’에 신경 쓰지 않는다면 양을 줄인다고 해결되지 않습니다.\n진짜 문제가 '맛없다'라면, '맛없다'를 고치지 않고 \"많아서 양을 줄였습니다\" 라고 해봤자 얼핏 해결된 듯해도 실은 아무것도 해결되지 않습니다.\n[아이디어란 여러 문제를 단번에 해결하는 것]\n\"아이디어란 여러 문제를 단번에 해결하는 것입니다.\"\n모든 것이 그렇겠지만, 뭔가를 만들 때 '저쪽을 세우면 이쪽이 서지 않는' 문제는 항상 있기 마련입니다.\n하지만 현실에서 제품을 만들 때, '곤란한 일이 한 가지뿐'인 복 받은 일 따위는 없습니다.\n곤란한 일은 이곳저곳에 얼마든지 있습니다.\n이런 경우에 \"이건 이러니까 이러면 좋습니다\"라며 한 가지를 개선하더라도 전체를 바꿀 수는 없습니다.\n노력해서 하나를 잘하더라도, 뭔가 부작용이 생기기도 하고 지금까지 잘되던 일이 잘 안되기도 합니다.\n...\n그런데 때때로, 그저 한 가지를 했는데 이쪽도 잘되고 저쪽도 잘되고 게다가 예상치 못했던 문제까지 해결되는 경우가 있습니다.\n이런 '한 가지'를 마야모토씨는 \"없을까, 없을까\" 하면서 항상 고민했던 거지요.\n엄청 끈질기게, 끝없이요.\n[마야모토씨의 '어깨 너머의 시선']\n옛날의 나처럼, “나는 이게 좋네요”라며 모든 고객을 대표하듯 확신에 차서 말하는 제작자는 많습니다.\n실은 ‘고객은 이렇게 반응한다’라는 사실과\n‘이건 왜 그럴까’라는 질문을 시작으로\n‘자 그럼, 어떻게 하면 근본적인 문제를 해결할 수 있을까?’를 고민해야만 합니다.\n하지만 “나는 이렇게 생각해!”라는,\n사실과 가설이 뒤죽박죽 섞인 의견을 관철시켜버리는 경우가 많습니다.\n미야모토씨의 특별한 점은, 자신이 고집하는 부분에서는 엄청 제멋대로인 반면\n기기를 처음 접하는 사람이 어떻게 느끼는가에 관해서는 굉장히 냉정하게 바라본다는 점입니다.\n‘고객에게 전달되지 않는다’라고 깨달으면\n재빠르게 잡아 빼서는 다르게 생각해봅니다.\n[이와타씨의 말 조각, 네번째]\n나는 천재를 이렇게 정의합니다.\n'사람들이 싫어할 만한 일이나 사람들이 지쳐 계속할 수 없을 법한 일을 끝없이 계속할 수 있는 사람'\n이런 사람이 '천재'라고 나는 생각합니다.\n생각하기를 그치지 않는 않는 일이라든가\n어찌 되었든 끝없이 파고드는 일.\n피곤하면서 대가가 있을지도 확실하지 않고, 몹시 힘든 일이라고 생각하거든요.\n하지만 이것을 할 수 있는 사람에게는 고생이 아니지요.\n이것을 고생이라고 생각하는 사람은, 고생이 아니라고 하는 사람을 절대로 이길 수 없습니다.\n그러니까 재능이지요.\n스스로가 고생으로 여기지 않고 계속할 수 있어서 가치 있는 일을 찾아낼 수 있는 사람은 이것만으로도 무척 행복하다고 생각합니다.\n[우리가 목표로 하는 게임기]\n게임기는 그 기계 자체의 성능보다도 어떤 환경에서 놀 수 있는가를 철저하게 고민할 필요가 있습니다.\n...\n그렇다면 궁극적으로는 '어느 각도에서 봐도 매력적'인 게임기를 목표로 하는 수밖에 없습니다.\n하지만 이처럼 완벽한 게임기를 만들고자 한다면, \"애초에 인터넷에 접속하지 않는 사람은 어떻게 합니까?\" 같은 논의가 시작되면서 끝없는 자기점검을 반복하는 상황이 됩니다.\n...\n옛날에 게임이 아주 잘나가던 시기에도, 자신은 게임과 상관없다고 생각하며 게임기를 만지지도 않는 사람들이 많았습니다.\n이런 사람들조차 왠지 이 기계는 해가 되는 게 아니라 오히려 자신에게 유익한 물건이라는 생각이 들도록 하고 싶습니다.\n일상적으로 접하다보면 어느새 비디오게임의 재미를 알게 되겠죠.\n이런 사람이 점점 늘어난다면 좋겠다고 진심으로 생각합니다.\n원래 비디오게임기란, '텔레비전을 놀이 도구로 삼는 기기'를 뜻하지만 이 놀이 도구의 정의가 향후에는 점점 더 넓어지리라 생각하거든요.\n집에 돌아오면 무의식적으로 텔레비전을 켜는 사람이 많습니다.\n보고 싶은 프로그램이 특별히 없어도 텔레비전 전원을 켜는 것은 왜일까요.\n집에 돌아왔을 때 일단 바로 옆에 있는 리모컨으로 스위치를 켜면 항상 뭔가가 나오므로, 아무것도 하지 않는 것보다는 좀더 행복해지기 때문입니다.\n이런 심리가 바탕에 있으므로 텔레비전이 이토록 많이 세상에 보급되었겠죠.\n이렇게 일상적으로 게임기의 전원을 켜게 될 때가 가장 기다려집니다.\n이상한 말이지만, 게임기에 전원만 켜지면 이후는 우리들의 실력 발휘인 셈입니다.\n아니 그렇지만요, 그리 간단한 일은 아닙니다. 비디오게임기에 전원을 켜게 하는 일이 말이죠.\n[황당한 주장에서 시작한 논의라도 헛되지 않다]\n나는 Wii를 개발하면서, '가정에서 게임을 적대시하지 않게 하려면 어떻게 해야 좋을까'를 끊임없이 고민했습니다.\n그래서 생각해낸 가설이 실은 황당한 주장에 가깝기는 하지만, 부모가 게임을 '하루 1시간'으로 정했다면 게임을 시작하고 1시간 후에 정말로 전원이 꺼져버리는 사양은 어떨까 생각했습니다.\n...\n결국, 이 논의로부터 생겨난 것이, 어떤 게임을 얼마나 플레이했는지를 모두에게 알려주는 '게임 이력'입니다.\n'게임은 하루 1시간' 이라는 약속을 지키기 위해 강제로 전원을 꺼버리기보다는 '게임 이력'을 통해 부모와 아이가 서로 소통하며 약속을 지키는 흐름을 만드는 편이 훨씬 매력적이거든요.\n[라이트 유저와 코어유저]\n나는 Wii 컨트롤러의 정식 명칭을 '리모컨'으로 하자는 의견을 강하게 요청했습니다.\n이상하리만치 고집스러웠지요.\n왜냐하면 집에서 텔레비전 리모컨이란, 대게는 흔히 손이 닿는 위치에서 굴러다니면서 모두가 일상적으로 손에 들고 조작하잖아요. 이 리모컨과 게임의 컨트롤러를 똑같이 취급해주길 바랐고 게다가 최종적인 형태마저 비슷했기 때문에, '리모컨으로 불러야 한다' 라는 확신이 들었습니다.\n'어째서 텔레비전 리모컨은 가족 모두가 만지면서 게임기 컨트롤러는 만지지 않는가' 이것이 Wii를 개발할 때의 중요한 콘셉트이었기 때문에 \"무조건 이것은 리모컨입니다!\"라며 우겨댔지요.\n...\n애초에 라이트 유저나 코어 유저를 분리하여 생각해서는 안됩니다.\n왜냐하면 모두가 처음에는 라이트 유저였을 테니까요.\n라이트 유저로 시작해, 개중에는 참을 수 없을 정도로 게임이 좋아졌다는 사람도 있습니다.\n그런데도 뭔가 양쪽의 태생이 다른 것인 양 너무 많이들 이야기하는 것 같습니다.\n시간을 무시하고 처음부터 이런 것처럼 잘라서 이야기하면 오해가 생기기 마련입니다.\n[이와타씨의 말 조각, 다섯번째]\n온라인게임이란, 아무래도 기본적으로는 강자를 위한 영역이어서 한 명의 행복한 사람이 존재하면 백 명 천 명의 불행한 사람이 생겨나는 듯한 면이 있습니다.\n이 구조를 전부 부정하려는 것은 아닙니다만, 이런 요소가 있는 한은 어떻게 해도 게임 인구가 일정 크기 이상으로는 퍼지지 않으리라 생각했습니다.\n설령 재미있어 보이는 것이 있어도 입구 근방에서 많은 사람이 주저하고 말 것이라고.\n그래서 이런 형태가 아니라,\n예를 들어, '부모가 자기 자녀에게 안심하고 온라인게임을 건네주려면 어떻게 해야 좋을지' 라든가,\n'괴롭힘 없는 세상은 어떻게 해야 가능할지', 이 같은 문제들을 계속 논의했습니다.\n인간은 자신이 한 일에 대한 피드백이 있으면 이로 인해 당므 동기가 생겨납니다.\n반대로 말하면, 피드백이 없는 일은 계속하지 않습니다.\n사람은 피드백이라는 보상을 받아야 움직이는 셈이지요.\n온라인게임의 세계에서는 이것을 역으로 이용해서, '인간이 뭔가를 하면 피드백이 돌아온다' 라는 것을 기본으로 합니다.\n이때 피드백에도 기분 좋은 피드백과 좋지 않은 피드백이 있어서 '이 둘을 어떻게 적절히 섞어야 사람들이 게임을 계속하며서 재미있어 하거나 놀라거나 할까', 이런 것을 항상 염두에 두면서 만들고 있습니다.\n[책과 회의와 서비스 정신]\n이와타씨는 책 속에서 힌트를 구한다기보다는, 평소 생각하던 바를 입증하거나 자기 생각을 책을 통해 다른 사람에게 전달하기 위해 유용하게 사용하는 듯했습니다.\n'닌텐도가 하는 일은 무엇인가', '지금 회사가 어떤 상황에 처해있는가' 등을 항상 고민하면서, 책 속에 자기 생각과 같은 내용이 쓰여있으면 더욱 확신에 차곤 했습니다.\n'이 책을 직원에게 권해서 읽게 한다면 자기 생각도 설명할 수 있고 회사 내 의견통합도 도모할 수 있다' 라는 식으로 책을 활용했습니다.\n책을 여러 권씩 사서 가까운 사람들에게 나눠주기도 하고 전체 직원에게 추천 도서를 전달하기도 했습니다.\n['가시화'와 전원 면담]\n예를 들어 뭔가 문제가 있어 고객을 기다리게 만들었을 때, 문제가 생겼다는 그 자체보다도 '당장 고객에게 설명을 못하고 있다' 라는 상황에 엄격했습니다.\n이 점은 나도 마찬가지지만, 본질적으로 아무것도 해결하지 못하고 있는데도 자신만은 '실수 없이 잘하고 있습니다' 인 듯한 태도에는 화가 납니다.\n회사 안에서나 본인 주면으로는 실수 없이 잘하지만, 당사자인 고객에게는 아무것도 해결해주지 못하거나 역으로 불안하게 만드는 경우가 생깁니다.\n\"회사 안팎으로 조정을 거치기 전까지는 아무것도 말할 수 없습니다\" 이런 태도로 고객을 기다리게 할 때, 이와타씨는 화를 냈고 나도 이런 것에는 화가 납니다.\n[이와타씨의 말 조각, 여섯 번째]\n명함 속에 나는 사장입니다.\n머리 속에 나는 개발자입니다.\n하지만, 마음 속에 나는 게이머입니다.\n나는 꼭 당사자가 되고픈 사람입니다.\n누군가에게 도움이 되거나 누군가가 좋아해 주거나 고객이 기뻐하거나, 항상, 뭔가를 가져다주는 당사자이고 싶습니다\n당사자가 될 기회가 있는데도, 그걸 알면서도,\n\"손을 대면 상황이 좋아질 수도 있고 뭔가를 더해줄 수도 있지만, 힘들어질 테니 하지 않겠어.\" 이러면서 당사자가 되지 않은 채로 있는 것이 나는 싫다고 할까, 그러지 않으면서 살아왔지요.\n그러지 않으면서 살아왔기 때문에 힘들기도 했지만 재미있는 일도 많았습니다.\n\"후회하고 싶지 않으니 힘이 있으면 죄다 쓰려고요\",\n이런 느낌이랍니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/832",
+    "pubDate": "Sun, 15 Jun 2025 20:37:02 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "도서",
+      "닌텐도",
+      "스타트업",
+      "이와타 사토루",
+      "이와타씨에게 묻다"
+    ]
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "의사난수 라는 것은 무엇인가",
     "description": "No description available",
@@ -24,175 +174,60 @@
     "categories": []
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "JetBrains Academy – June Digest",
-    "description": "This month, we’ve gathered fun plugins and a course to help you build your own, as well as AI updates, exciting news for C++ learners and professional developers. Dive in!",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/06/13/jetbrains-academy-june/",
-    "pubDate": "Fri, 13 Jun 2025 14:26:54 +0000",
-    "creator": "Maria Sharobaeva",
-    "categories": [
-      "digest",
-      "jetbrains-academy",
-      "newsletter"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "강의안 | 구매전환율을 높이는 상세페이지 기획 방법 - 창업",
-    "description": "1. 구매전환율을 높이는 상세페이지 기획 방법 - sample   2. 구매전환율을 높이는 상세페이지 기획 방법 - 강의개요 ​ *강의개요 ​ 상세페이지 기획 설득력있는 나만의 상세페이지 기획 Page : 27P 강의대상 : #예비창업자 #소상공인 #스타트업 #관광기업 #로컬기업 #온라인쇼핑몰 강의시간 : 2시간 ​ http://www.thegamechan",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/267",
-    "pubDate": "Sun, 15 Jun 2025 12:19:24 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "코드 품질 개선 기법 15편: 문법은 이름을 나타낸다",
-    "description": "이 글은 2024년 2월 29일에 일본어로 먼저 발행된 기사를 번역한 글입니다.안녕하세요. 커뮤니케이션 앱 LINE의 모바일 클라이언트를 개발하고 있는 Ishikawa입니다.저희 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-15",
-    "pubDate": "Wed, 11 Jun 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "계약 전, 임대인 동의 없어도 정보를 볼 수 있어요 : 임대인 정보조회 방법",
-    "description": "다주택자 여부부터 보증사고 이력까지 확인 가능",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-44",
-    "pubDate": "Fri, 13 Jun 2025 00:43:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Text Blocks in Java: Perfect for Multiline Strings",
-    "description": "You’ve likely used String variables to store values that span multiple lines, such as LLM prompts, JSON, HTML, XML, code snippets, and other such values. Some of these, such as a JSON value, include double quotes as part of the data. Imagine the inconvenience of using backslashes (\\) to escape those quotes, indenting lines using […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/06/text-blocks-in-java-perfect-for-multiline-strings/",
-    "pubDate": "Tue, 10 Jun 2025 11:28:36 +0000",
-    "creator": "Irina Mariasova",
-    "categories": [
-      "tutorials",
-      "java",
-      "textblocks"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "AI와 글쟁이의 동행: 코드 주면 API 레퍼런스 써드려요",
-    "description": "기술 문서는 늘 부족합니다. 특히 좋은 기술 문서가 부족하죠.테크니컬 라이터는 좋은 기술 문서를 쓸 수 있지만, 사내 프로젝트를 모두 담당하기에는 수가 턱없이 모자랍니다. '개발자...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/give-me-the-code-and-then-ai-and-i-will-provide-the-api-reference-for-you",
-    "pubDate": "Fri, 13 Jun 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "토스, 앱인토스 파트너사 모집…스타트업에 토스 앱 개방한다",
-    "description": "파트너사 서비스 연동해 토스 앱 내에서 바로 운영할 수 있도록 구현",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/apps-in-toss",
-    "pubDate": "Thu, 12 Jun 2025 05:28:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Run HTTP Requests in Android Studio",
-    "description": "We are happy to announce that our HTTP Client plugin is now available in Android Studio! HTTP Client is a powerful tool for making HTTP, gRPC, GraphQL, and WebSocket requests. Its text-based interface offers seamless integration with the editor, along with extensive coding assistance including highlighting, code completion, refactorings, and inline documentation. While it was […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2025/06/12/run-http-requests-in-android-studio/",
-    "pubDate": "Thu, 12 Jun 2025 08:55:56 +0000",
-    "creator": "Ekaterina Valeeva",
-    "categories": [
-      "ecosystem",
-      "news",
-      "android-studio"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "최고의 사무실은 바로 우리집 방구석",
-    "description": "집에서는 도저히 일이 안 된다는 사람들을 많이 봤습니다.\n저도 그 기분을 압니다.\n다행히 저는 집에서도 집중을 잘 하는 편입니다.\n커다란 모니터도 2개나 있고, 책상과 의자의 높이, 키보드, 온도/습도. 소음.\n집에서 일을 잘하는 건 타고난 게 아닙니다. 하다보면 습관이 되어 편해지는 것.\n강력 추천하는 사무실은 바로 자기집 방구석입니다.\n\n함께 읽으면 좋은 글:\n사무실의 고요함이 너무 좋아\n1인 개발자 전성시대",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/06/09/my-office-is-my-room.html",
-    "pubDate": "2025-06-09T02:44:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Rust vs Go: Which one to choose in 2025",
-    "description": "The programming landscape continues to evolve, bringing forward languages like Rust and Go that not only challenge traditional paradigms but also cater to the sophisticated needs of modern computing. Both have carved significant niches for themselves, celebrated for their efficient handling of system-level operations and concurrency. Recent findings from the State of Developer Ecosystem Report […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2025/06/12/rust-vs-go/",
-    "pubDate": "Thu, 12 Jun 2025 13:16:42 +0000",
-    "creator": "Ilia Afanasiev",
-    "categories": [
-      "articles-2",
-      "news"
-    ]
-  },
-  {
     "id": 13,
     "imageUrl": "",
-    "title": "깔끔한 이메일 주소",
-    "description": "이메일 주소가 깔끔한 사람을 보면 좋은 느낌이 듭니다.\n그렇지 않고 한글 이름을 영문 자판 그대로 rlawogh(김재호) 옮겨 쓴다거나,\n가장 인상적이었던 이메일은 r@google.com 였습니다.\n롭 파이크.\n깔끔한 이메일을 보면 이 사람은 신중하고 좋은 결정을 하는 사람이라는 생각이 듭니다.  \nP.S 저는 wlsdudtm 라는 이메일을 쓰는 동생에게 메일 주소 좀 바꾸라고 잔소리를 하곤 합니다.\n\n함께 읽으면 좋은 글:\n가장 기쁜 이메일",
+    "title": "Livestream: Building an MCP Server",
+    "description": "Join us on Tuesday, June 24, at 10 am EDT / 4 pm CEST (check other timezones) for our free livestream, Live Coding: Building an MCP Server. In this livestream, we’ll team up with Max Kless, a senior engineer at Nx, to build a Model Context Protocol (MCP) server from scratch and seamlessly integrate it […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/06/09/neat-email-address.html",
-    "pubDate": "2025-06-09T09:48:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/webstorm/2025/06/livestream-building-an-mcp-server/",
+    "pubDate": "Thu, 12 Jun 2025 13:53:02 +0000",
+    "creator": "Aleksandra Aganezova",
+    "categories": [
+      "livestreams",
+      "learn"
+    ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "[NS2] 닌텐도 스위치 2 - 확실한 성능 체감, 아쉬운 출시 전략",
-    "description": "No description available",
+    "title": "도메인 구입 추천! 가성비 좋은 도메인 등록 및 관리 서비스 비교",
+    "description": "1. 도메인 관리 서비스 선택 기준\n좋은 도메인 관리 서비스를 선택하려면 아래 기준을 종합적으로 고려해야 합니다.\n가격: 신규 등록 비용뿐만 아니라, 갱신 비용이 합리적인가?\nWHOIS 프라이버시: 개인정보 보호 기능을 무료로 제공하는가?\n보안: 2단계 인증(2FA), DNSSEC 등 도메인 탈취 방지 기능을 지원하는가?\n부가서비스: 웹/이메일 호스팅, 무료 SSL, 도메인 마켓플레이스 등을 제공하는가?\n사용성: 관리자 페이지(대시보드)가 직관적이고 사용하기 편리한가?\n고객지원: 문제 발생 시 신속하고 전문적인 지원을 받을 수 있는가?\n신뢰성: 오랜 기간 안정적으로 운영되어 온 믿을 수 있는 기업인가?\n2. 주요 서비스 비교 (2025년 기준)\n가성비와 신뢰성을 모두 갖춘 대표적인 도메인 등록 기관은 다음과 같습니다.\n서비스명\n가격(.com/년, 신규)\nWHOIS 프라이버시\n보안\n부가서비스\n특징 / 추천 포인트\n\n\n\n\nPorkbun\n$9.67~$9.99\n무료\n2FA, DNSSEC\n웹/이메일(제한적), 마켓플레이스\n무료 SSL/이메일 포워딩, 저렴한 갱신비, 수수료 없음\n\n\nCloudflare\n약 $9.15\n무료\n매우 강력\nX\n투명한 원가 정책, 최강의 보안, 수수료 없음\n\n\nNamecheap\n$6.49~$9.48\n무료\n2FA, DNSSEC\n웹/이메일, 마켓플레이스\n저렴한 첫해 비용(할인 시 더 저렴), 다양한 TLD, 24/7 고객지원\n\n\nDynadot\n$10.99\n무료\n2FA, DNSSEC\n웹/이메일(제한적), 경매\n만료 도메인 경매/장터 활성화, 다양한 TLD\n\n\n\n\n\n※ 중요:\n위 가격은 .com 도메인 1년 신규 등록 기준이며, 프로모션 및 ICANN 수수료에 따라 변동될 수 있습니다.\n첫해 할인율이 높은 서비스는 갱신 비용을 반드시 별도로 확인해야 합니다.\nNamecheap, Porkbun 등은 첫해 등록 시 더 저렴할 수 있으나, 2년 차부터의 실제 유지 비용을 꼭 비교하세요.\n3. 추천 서비스별 적합성 심층 분석\nPorkbun\nporkbun.com\n장점: 경쟁력 있는 신규/갱신 비용, 무료 WHOIS 프라이버시/SSL 인증서/이메일 포워딩 등 알찬 무료 부가서비스, 빠른 등록 절차.\n단점: 고객지원이 이메일/전화 중심으로, 실시간 채팅 부재.\n추천 대상: 합리적인 갱신 비용과 유용한 무료 부가서비스를 중시하는 실속파 사용자.\nCloudflare\ncloudflare.com\n장점: 도메인 등록 원가 제공(가장 투명한 가격), 강력한 보안(기본 DNS/DDoS 방어), 무료 WHOIS 프라이버시, 불필요한 수수료 없음.\n단점: 네임서버를 Cloudflare로 고정해야 함, 웹/이메일 호스팅 미지원.\n추천 대상: 보안과 저렴하고 투명한 유지 비용을 최우선으로 여기며, 도메인만 안전하게 관리하고 싶은 사용자.\n최신 트렌드: Cloudflare는 도메인 등록과 DNS 관리를 모두 제공하지만, 웹사이트 호스팅은 별도로 관리하는 것이 일반적입니다.\nNamecheap\nnamecheap.com\n장점: 저렴한 첫해 등록 비용, 무료 WHOIS 프라이버시, 다양한 부가서비스(호스팅, VPN 등), 24시간 실시간 채팅 지원.\n단점: 첫해 이후 갱신 비용이 상대적으로 비싸질 수 있음, 일부 부가서비스는 추가 비용 발생.\n추천 대상: 초기 비용을 절약하고 싶고, 도메인과 함께 웹호스팅 등 다양한 부가서비스와 적극적인 고객지원이 필요한 사용자.\n최신 트렌드: 개발자와 파워유저에게도 인기가 높으며, 다양한 TLD와 부가서비스로 확장성이 뛰어납니다.\nDynadot\ndynadot.com\n장점: 무료 WHOIS 프라이버시, 활성화된 도메인 경매/마켓플레이스, 다양한 TLD(희귀 확장자 포함), 깔끔한 인터페이스.\n단점: 웹/이메일 호스팅 등 부가서비스는 제한적.\n추천 대상: 만료 예정이거나 가치 있는 도메인을 경매를 통해 획득하고 싶거나, 특이한 TLD 확장자를 찾는 사용자.\n4. 다른 대안은 없는가?\n위 5개 서비스가 가성비와 신뢰도 면에서 가장 검증된 선택지입니다. 다른 유명 서비스들은 아래와 같은 특징이 있습니다.\nGoDaddy: 인지도는 가장 높지만, 비싼 갱신 비용과 지속적인 추가 구매 유도(업셀링)로 인해 가성비는 떨어집니다.\nHostinger: 웹호스팅과 도메인을 함께 구매하는 패키지는 유리하지만, 도메인만 단독으로 관리할 경우 가격 경쟁력이 낮습니다.\nNamesilo: 저렴한 갱신 비용이 장점이나, 사용자 인터페이스와 고객지원 측면에서 위 5개 서비스에 비해 아쉬움이 있어 다수의 도메인을 관리하는 고급 사용자에게 더 적합합니다.\nSquarespace, DreamHost, Network Solutions 등: 가성비와 대중성 면에서 위 5개 서비스에 비해 약간 밀릴 수 있습니다.\n5. 도메인 구입 및 관리 핵심 팁\n갱신 비용을 반드시 확인하세요:\n\n첫해 등록비에 현혹되지 말고, 2년 차부터의 실제 유지 비용을 꼭 비교해야 합니다.\nWHOIS 프라이버시는 무료가 기본입니다:\n\n개인정보 보호를 위해 추가 비용을 요구하는 곳은 피하는 것이 좋습니다.\n보안 기능을 최대로 활용하세요:\n\n도메인 탈취는 심각한 피해를 유발합니다. 계정의 2단계 인증(2FA)과 DNSSEC 기능은 반드시 활성화하세요.\n필요한 서비스 연동성을 고려하세요:\n\n웹사이트 빌더, 이메일 호스팅 등 특정 서비스와 함께 사용해야 한다면, 해당 서비스와 통합이 편리한 도메인 업체를 선택하는 것이 효율적입니다.\nDNS 관리와 호스팅은 분리해서 관리할 수도 있습니다:\n\nCloudflare 등은 DNS 관리를, 별도 서비스(예: 호스팅 업체)는 웹사이트 호스팅을 담당하는 방식도 널리 사용됩니다.\n6. 도메인 이전 가이드 요약\n도메인을 다른 서비스로 이전하려면 아래 절차를 따르세요.\n이전 승인 코드(EPP/Auth Code) 발급: 기존 등록업체에서 발급받으세요.\n도메인 잠금 해제: 기존 등록업체에서 \"Domain Lock\"을 해제하세요.\nWHOIS 정보 일치: 도메인 소유자 이메일 주소가 정확해야 이전 승인 메일을 받을 수 있습니다.\nDNS 기록 백업: 이전 전, 기존 DNS 기록(A, CNAME, MX 등)을 반드시 백업하세요.\n이전 완료까지 5~7일 소요: 서비스별로 이전 절차가 다소 다를 수 있으니, 공식 안내를 참고하세요.\n※ 각 서비스 공식 사이트의 \"Domain Transfer\" 메뉴를 참고하세요.\n7. 최종 결론: 나에게 맞는 최고의 선택은?\n합리적 비용에 유용한 무료 부가서비스를 원한다면: Porkbun\n가장 저렴하고 안전한 유지가 중요하다면: Cloudflare\n첫 비용을 아끼고 다양한 기능과 지원이 필요하다면: Namecheap\n도메인 경매나 희귀 TLD에 관심 있다면: Dynadot\n이 가이드를 바탕으로 자신의 사용 목적과 예산에 가장 적합한 서비스를 선택하여 만족스러운 도메인 관리에 도움이 되길 바랍니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2318",
-    "pubDate": "Mon, 09 Jun 2025 19:13:12 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.gaerae.com/2025/06/best-domain-registrars.html",
+    "pubDate": "Sun, 15 Jun 2025 20:50:00 +0000",
+    "creator": "noreply@blogger.com (Unknown)",
     "categories": [
-      "리뷰"
+      {
+        "_": "app",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      },
+      {
+        "_": "collection",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      },
+      {
+        "_": "domain",
+        "$": {
+          "domain": "http://www.blogger.com/atom/ns#"
+        }
+      }
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "신용카드에 꼭 서명해야 하는 이유",
-    "description": "분실·도난 시 보상받으려면 서명이 필수예요",
+    "title": "CentOS의 Splunk - 2nd",
+    "description": "스플렁크 RPM 설치 실패.\n\n\n\n\n\n[root@Splunk ~]# rpm -ivh splunk-9.4.3-237ebbd22314.x86_64.rpm\nerror: splunk-9.4.3-237ebbd22314.x86_64.rpm: headerRead failed: hdr data: BAD, no. of bytes(19932197) out of range\nerror: splunk-9.4.3-237ebbd22314.x86_64.rpm cannot be installed\n\nColored by Color Scripter\ncs\n\n\n\n\n헤더 정보를 못 읽는다는 뜻인가? 설치 파일은 문제가 없는 것 같은데?\n\n\n\n\n\n[root@Splunk ~]# file splunk-9.4.3-237ebbd22314.x86_64.rpm\nsplunk-9.4.3-237ebbd22314.x86_64.rpm: RPM v3.0 bin i386/x86_64 splunk-9.4.3-237ebbd22314\ncs\n\n\n\n\n검색해보니 RPM-4.14.3 이상 버전을 사용하면 해결된다는데 문제는 없데이트가 안 된다.\n\n\n\n\n\n================================================================================\n Package              Arch         Version                  Repository     Size\n================================================================================\nUpdating:\n rpm                  x86_64       4.11.3-48.el7_9          updates       1.2 M\n rpm-libs             x86_64       4.11.3-48.el7_9          updates       279 k\nUpdating for dependencies:\n rpm-build-libs       x86_64       4.11.3-48.el7_9          updates       108 k\n rpm-python           x86_64       4.11.3-48.el7_9          updates        84 k\n \nTransaction Summary\n================================================================================\nUpgrade  2 Packages (+2 Dependent packages)\n \nTotal download size: 1.6 M\nIs this ok [y/d/N]:\n\nColored by Color Scripter\ncs\n\n\n\n\nrpmfind.net 뒤져봤는데 설치 파일도 없고 해서 그냥 강제 설치(..)\n\n\n\n\n\n[root@Splunk ~]# rpm -ivh splunk-9.4.3-237ebbd22314.x86_64.rpm --force\nwarning: splunk-9.4.3-237ebbd22314.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID b3cd4420: NOKEY\nPreparing...                          ################################# [100%]\nno need to run the pre-install check\nuseradd: cannot create directory /opt/splunk\nUpdating / installing...\n   1:splunk-9.4.3-237ebbd22314        ################################# [100%]\ncomplete\n[root@Splunk ~]# whereis splunk\nsplunk: /opt/splunk/bin/splunk\n[root@Splunk ~]# /opt/splunk/bin/splunk start --accept-license\n \nThis appears to be your first time running this version of Splunk.\n \nSplunk software must create an administrator account during startup. Otherwise, you cannot log in.\nCreate credentials for the administrator account.\nCharacters do not appear on the screen when you type in credentials.\n \nPlease enter an administrator username: admin\nPassword must contain at least:\n   * 8 total printable ASCII character(s).\nPlease enter a new password:\nPlease confirm new password:\nCopying '/opt/splunk/etc/openldap/ldap.conf.default' to '/opt/splunk/etc/openldap/ldap.conf'.\nGenerating RSA private key, 2048 bit long modulus\n..................................................................+++++\n...............+++++\ne is 65537 (0x10001)\nwriting RSA key\n \nGenerating RSA private key, 2048 bit long modulus\n........................................+++++\n............................+++++\ne is 65537 (0x10001)\nwriting RSA key\n \nMoving '/opt/splunk/share/splunk/search_mrsparkle/modules.new' to '/opt/splunk/share/splunk/search_mrsparkle/modules'.\n \nSplunk> All batbelt. No tights.\n \nChecking prerequisites...\n        Checking http port [8000]: open\n        Checking mgmt port [8089]: open\n        Checking appserver port [127.0.0.1:8065]: open\n        Checking kvstore port [8191]: open\n        Checking configuration... Done.\n                Creating: /opt/splunk/var/lib/splunk\n                Creating: /opt/splunk/var/run/splunk\n                Creating: /opt/splunk/var/run/splunk/appserver/i18n\n                Creating: /opt/splunk/var/run/splunk/appserver/modules/static/css\n                Creating: /opt/splunk/var/run/splunk/upload\n                Creating: /opt/splunk/var/run/splunk/search_telemetry\n                Creating: /opt/splunk/var/run/splunk/search_log\n                Creating: /opt/splunk/var/spool/splunk\n                Creating: /opt/splunk/var/spool/dirmoncache\n                Creating: /opt/splunk/var/lib/splunk/authDb\n                Creating: /opt/splunk/var/lib/splunk/hashDb\n                Creating: /opt/splunk/var/run/splunk/collect\n                Creating: /opt/splunk/var/run/splunk/sessions\nNew certs have been generated in '/opt/splunk/etc/auth'.\n        Checking critical directories...        Done\n        Checking indexes...\n                Validated: _audit _configtracker _dsappevent _dsclient _dsphonehome _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket history main summary\n        Done\n        Checking filesystem compatibility...  Done\n        Checking conf files for problems...\n        Done\n        Checking default conf files for edits...\n        Validating installed files against hashes from '/opt/splunk/splunk-9.4.3-237ebbd22314-linux-amd64-manifest'\n        All installed files intact.\n        Done\nAll preliminary checks passed.\n \nStarting splunk server daemon (splunkd)...\nGenerating a RSA private key\n.+++++\n..........................+++++\nwriting new private key to 'privKeySecure.pem'\n-----\nSignature ok\nsubject=/CN=Splunk/O=SplunkUser\nGetting CA Private Key\nwriting RSA key\nPYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to \"1\" for increased security\nDone\n                                                           [  OK  ]\n \nWaiting for web server at http://127.0.0.1:8000 to be available........................ Done\n \n \nIf you get stuck, we're here to help.\nLook for answers here: http://docs.splunk.com\n\nThe Splunk web interface is at http://Splunk:8000\n\n\nColored by Color Scripter\ncs\n\n\n\n\n잘 되는 듯.\n\n\n\n관련 글\n\nCentOS의 Splunk\nSplunkForwarder v9\nCould not bind to port 8089\n스플렁크와 엘라스틱 서비스 실행 차이",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/card_signature",
-    "pubDate": "Thu, 12 Jun 2025 06:00:00 GMT",
+    "link": "https://kangmyounghun.blogspot.com/2025/06/centos-splunk-2nd.html",
+    "pubDate": "2025-06-15T09:56:00.003Z",
     "creator": "Unknown",
     "categories": []
   }
