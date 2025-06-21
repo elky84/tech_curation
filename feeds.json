@@ -273,12 +273,12 @@
     "category": "기업",
     "posts": [
       {
-        "creator": "Rhea Patel, Allie Barry",
+        "creator": "Rhea Patel, Filisha Shah, Allie Barry",
         "title": "Agent mode is now generally available with MCP support",
         "link": "https://devblogs.microsoft.com/visualstudio/agent-mode-is-now-generally-available-with-mcp-support/",
         "pubDate": "Tue, 17 Jun 2025 18:24:08 +0000",
         "content:encodedSnippet": "Copilot agent mode is the next evolution in AI-assisted development—and it’s now generally available in the Visual Studio June update.\nAgent mode turns GitHub Copilot into an autonomous pair programmer capable of handling multi-step development tasks from end to end. It builds a plan, executes it, adapts along the way, and loops through tasks until completion.\nAgent mode can analyze your codebase, propose and apply edits, run commands, respond to build or lint errors, and self-correct. You can integrate additional tools from MCP servers to expand the agent’s capabilities. Ask Mode, on the other hand works with you in a conversational way – you guide it with prompts, give it context, and steer the direction. Where Ask Mode helps you think through a problem, Agent Mode executes the goal.\nTo try agent mode out, open Copilot Chat, click the Ask button, and switch to Agent.\n\n \nFrom Goals to Working Code\nAgent mode is built for real-world scenarios. You can give it high-level tasks like:\n“Add ‘buy now’ functionality to my product page.”\n“Add a retry mechanism to this API call with exponential backoff and a unit test.”\n“Create a new Blazor web app that does X”\nCopilot will try to identify the right files, apply changes, run builds, and fix errors—all while keeping you in control with editable previews, undo, and a live action feed. The more context and detail you provide, the better the results. Agent mode works best when it understands your intent clearly. The more precise your instructions and context, the more effective the outcome.\nTool calling\nAt its core, agent mode uses tool calling to access a growing set of capabilities inside Visual Studio. When given a goal, it selects and executes the right tools step by step. You can explore the available tools via the tool’s dropdown (icon with two wrenches) in the Copilot Chat Window.\n\nWant it to be more powerful? You can extend the agent by adding tools from an ecosystem of Model Context Protocol (MCP) extenders.\nAgent mode + MCP\nModel Context Protocol (MCP) is a protocol designed to seamlessly connect AI agents with a variety of external tools and services, similar to how HTTP standardized web communication. The aim is to enable any client to integrate robust tool servers such as databases, code search, and deployment systems, without writing customer connections for each tool. With MCP, the agent can be configured to access rich, real-time context from across your development stack:\nGitHub repositories\nCI/CD pipelines\nMonitoring and telemetry systems\nAnd more\nMCP is open source and extensible, so you can connect any compatible server. Common integrations include GitHub, Azure, and external providers like Perplexity. Check out the MCP official server repository to learn more.\nVisual Studio uses the native mcp.json file for MCP server configuration, and also detects compatible configurations set up by other development environments, such as .vscode/mcp.json. Learn more here.\nOnce connected, the agent can take smarter actions. For example, if you add tools from the GitHub MCP server, your agent can retrieve and create issues on your behalf, check repo history, search GitHub, etc. A Figma MCP server provides the agent access to your design mockups.\nThis is what makes agent mode truly extensible: it plugs into your environment and acts with real understanding of your tools, systems, and workflows.\nWe’re incredibly excited about this new prompt-first experience, and how it empowers developers to move faster while staying in full control. We’re continuously evolving it, and your input plays a big role—please keep the feedback coming here. And make sure to include your logs. It helps us get to the root faster and fix the problem.\nBeyond agent mode: more AI updates to try in the June release\nBut wait, we’re not done! The team included additional features in this release that are intended to improve your experience with Copilot in Visual Studio.\nReuse and Share Prompt Files Easily: Create reusable prompt files in your repository, allowing you and your team to share and run custom prompts with ease. A prompt file is a standalone markdown file containing a prompt that you can run directly in chat, reducing the number of requests you need to type.\nGemini 2.5 Pro and GPT-4.1 are now available: Developers love working with different models with chat and agent mode to get the desired results they are looking for. Now, Gemini 2.5 Pro and GPT-4.1 are available, offering improved reasoning and generation capabilities for your coding workflows.\nReference the Output Window as part of your chat context: Troubleshoot runtime behavior more effectively.\nMonitor your usage of GitHub Copilot directly from Visual Studio.\nGeneral availability of the Agents Toolkit 17.14 with improvements for building Microsoft 365 apps and intelligent agents.\nThe post Agent mode is now generally available with MCP support appeared first on Visual Studio Blog.",
-        "dc:creator": "Rhea Patel, Allie Barry",
+        "dc:creator": "Rhea Patel, Filisha Shah, Allie Barry",
         "comments": "https://devblogs.microsoft.com/visualstudio/agent-mode-is-now-generally-available-with-mcp-support/#comments",
         "content": "<p>Copilot agent mode is the next evolution in AI-assisted development—and it&#8217;s now generally available in the Visual Studio June update. Agent mode turns GitHub Copilot into an autonomous pair programmer capable of handling multi-step development tasks from end to end. It builds a plan, executes it, adapts along the way, and loops through tasks until [&#8230;]</p>\n<p>The post <a href=\"https://devblogs.microsoft.com/visualstudio/agent-mode-is-now-generally-available-with-mcp-support/\">Agent mode is now generally available with MCP support</a> appeared first on <a href=\"https://devblogs.microsoft.com/visualstudio\">Visual Studio Blog</a>.</p>\n",
         "contentSnippet": "Copilot agent mode is the next evolution in AI-assisted development—and it’s now generally available in the Visual Studio June update. Agent mode turns GitHub Copilot into an autonomous pair programmer capable of handling multi-step development tasks from end to end. It builds a plan, executes it, adapts along the way, and loops through tasks until […]\nThe post Agent mode is now generally available with MCP support appeared first on Visual Studio Blog.",
@@ -356,8 +356,8 @@
         "pubDate": "Thu, 19 Jun 2025 15:32:48 +0000",
         "dc:creator": "subokim",
         "comments": "https://subokim.wordpress.com/2025/06/20/overengineering/#respond",
-        "content": "꽤 여러번 겪었던 경험인데요.공유해보고자 합니다.종종 취준생 프로젝트를 만나게 됩니다. Kafka 나 Redis 를 썼다고 하면, 호기심이 생겨 이것저것 물어보게 됩니다. 하지만, 대부분 아쉽게도 잘 모르더군요.문제의식 없이 시간에 쫒겨, 숙제하듯 프로젝트를 했습니다. 대부분 오버엔지니어링 되어 있거나, 미스엔지니어링이 되어 있더라고요.그리고 문제는 여전히 해결이 되지 않았고, 그걸 해결할 의지도 없더라고요. 솔직히 채용하고 싶은 마음이 싹 사라집니다.내가 시킨 일인데... <a class=\"more-link\" href=\"https://subokim.wordpress.com/2025/06/20/overengineering/#more-13465\">Continue Reading &#8594;</a>",
-        "contentSnippet": "꽤 여러번 겪었던 경험인데요.공유해보고자 합니다.종종 취준생 프로젝트를 만나게 됩니다. Kafka 나 Redis 를 썼다고 하면, 호기심이 생겨 이것저것 물어보게 됩니다. 하지만, 대부분 아쉽게도 잘 모르더군요.문제의식 없이 시간에 쫒겨, 숙제하듯 프로젝트를 했습니다. 대부분 오버엔지니어링 되어 있거나, 미스엔지니어링이 되어 있더라고요.그리고 문제는 여전히 해결이 되지 않았고, 그걸 해결할 의지도 없더라고요. 솔직히 채용하고 싶은 마음이 싹 사라집니다.내가 시킨 일인데... Continue Reading →",
+        "content": "꽤 여러번 겪었던 경험인데요.공유해보고자 합니다. 종종 취준생 프로젝트를 만나게 됩니다.Kafka 나 Redis 를 썼다고 하면, 호기심이 생겨 이것저것 물어보게 됩니다. 하지만, 대부분 아쉽게도 잘 모르더군요.문제의식 없이 시간에 쫒겨, 숙제하듯 프로젝트를 했습니다. 대부분 오버엔지니어링 되어 있거나, 미스엔지니어링이 되어 있더라고요.그래서일까 문제는 여전히 해결이 되지 않았고, 그걸 해결할 의지도 없더라고요. 솔직히 채용하고 싶은 마음이 사라집니다.내가 시킨 일인데 지금처럼... <a class=\"more-link\" href=\"https://subokim.wordpress.com/2025/06/20/overengineering/#more-13465\">Continue Reading &#8594;</a>",
+        "contentSnippet": "꽤 여러번 겪었던 경험인데요.공유해보고자 합니다. 종종 취준생 프로젝트를 만나게 됩니다.Kafka 나 Redis 를 썼다고 하면, 호기심이 생겨 이것저것 물어보게 됩니다. 하지만, 대부분 아쉽게도 잘 모르더군요.문제의식 없이 시간에 쫒겨, 숙제하듯 프로젝트를 했습니다. 대부분 오버엔지니어링 되어 있거나, 미스엔지니어링이 되어 있더라고요.그래서일까 문제는 여전히 해결이 되지 않았고, 그걸 해결할 의지도 없더라고요. 솔직히 채용하고 싶은 마음이 사라집니다.내가 시킨 일인데 지금처럼... Continue Reading →",
         "guid": "http://subokim.wordpress.com/?p=13465",
         "categories": [
           "개발자교육",
@@ -618,6 +618,17 @@
     "name": "고명환",
     "category": "개인",
     "posts": [
+      {
+        "creator": "고명환",
+        "title": "국내 비트코인 스타트업 사례 분석 - 투자 및 AI를 활용한 혁신 비즈니스 모델",
+        "link": "https://brunch.co.kr/@@LOc/275",
+        "pubDate": "Fri, 20 Jun 2025 04:09:40 GMT",
+        "author": "고명환",
+        "content": "2024년 이후, 인공지능(AI) 기술과 블록체인 기술의 융합은 국내 스타트업 생태계에서 매우 주목받는 트렌드입니다. 특히 비트코인 투자를 기반으로 하거나 AI를 활용한 암호화폐 투자 자동화 가능을 도입한 스타트업들이 새로운 시장을 개척하고 있습니다.  이번 포스팅에서는 국내 비트코인 기반 AI 스타트업 3곳을 중심으로, 이들의 비즈니스 모델을 분석해 보겠<img src= \"https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fbrunch%2Fservice%2Fuser%2FLOc%2Fimage%2FquNHR37VTzhqHyUdcABGl7MHtoM.JPG\" width=\"500\" />",
+        "contentSnippet": "2024년 이후, 인공지능(AI) 기술과 블록체인 기술의 융합은 국내 스타트업 생태계에서 매우 주목받는 트렌드입니다. 특히 비트코인 투자를 기반으로 하거나 AI를 활용한 암호화폐 투자 자동화 가능을 도입한 스타트업들이 새로운 시장을 개척하고 있습니다.  이번 포스팅에서는 국내 비트코인 기반 AI 스타트업 3곳을 중심으로, 이들의 비즈니스 모델을 분석해 보겠",
+        "guid": "https://brunch.co.kr/@@LOc/275",
+        "isoDate": "2025-06-20T04:09:40.000Z"
+      },
       {
         "creator": "고명환",
         "title": "바뀐 알고리즘에 따른 인스타그램 계정 성장 전략",
@@ -1045,6 +1056,15 @@
     "category": "개인",
     "posts": [
       {
+        "title": "ChatGPT의 그림에서 3D 모델의 부품을 대량 생성",
+        "link": "https://jacking75.github.io/ai-llm_20250621/",
+        "pubDate": "Sat, 21 Jun 2025 00:00:00 +0900",
+        "content": "<iframe width=\"1024\" height=\"1024\" src=\"https://docs.google.com/document/d/e/2PACX-1vS2kiiak3XrnDndQwSHvMOf6QUZh0ZmjB9HXExyonIbacedWs9-Z4UDVGHi5XMyUgJD8b1bMyB8gmWx/pub?embedded=true\"></iframe>\n\n",
+        "contentSnippet": "",
+        "guid": "https://jacking75.github.io/ai-llm_20250621/",
+        "isoDate": "2025-06-20T15:00:00.000Z"
+      },
+      {
         "title": "VS Code의 프로필 기능 설명! 프로젝트별 환경을 쉽게 전환하자",
         "link": "https://jacking75.github.io/VS_code_20250617/",
         "pubDate": "Tue, 17 Jun 2025 00:00:00 +0900",
@@ -1061,15 +1081,6 @@
         "contentSnippet": "",
         "guid": "https://jacking75.github.io/Tool_20250616/",
         "isoDate": "2025-06-15T15:00:00.000Z"
-      },
-      {
-        "title": "의사난수 라는 것은 무엇인가",
-        "link": "https://jacking75.github.io/tech_20250614/",
-        "pubDate": "Sat, 14 Jun 2025 00:00:00 +0900",
-        "content": "<iframe width=\"1024\" height=\"1024\" src=\"https://docs.google.com/document/d/e/2PACX-1vQ4bXPP9xzZRe__ks0FH_MRNYQjxkKd27ELBZt_bbhti_ez0RFY3sPunx-EMWONxoyzwuetU2RMbA6L/pub?embedded=true\"></iframe>\n\n",
-        "contentSnippet": "",
-        "guid": "https://jacking75.github.io/tech_20250614/",
-        "isoDate": "2025-06-13T15:00:00.000Z"
       }
     ]
   },
@@ -1081,19 +1092,7 @@
   {
     "name": "벤자민로그",
     "category": "개인",
-    "posts": [
-      {
-        "title": "어쩌다 개발자가 되었나 했더니",
-        "link": "https://jeho.page/essay/2025/06/13/my-grandmother.html",
-        "pubDate": "2025-06-13T02:43:00.000Z",
-        "author": "김재호",
-        "content": "<p>개발자로 살고 있는 이유를 가만히 생각해보니,  <br />\n1989년? 1990년에 삼촌이 산 <a href=\"/essay/2021/08/23/첫-컴퓨터의-추억.html\">XT 컴퓨터</a>.<br />\n이 컴퓨터에서 모든 것이 시작되었습니다.</p>\n\n<p>아주 어릴 때부터 이 컴퓨터 앞에 붙어 살았고…<br />\n코딩에 대해선 전혀 몰랐지만 컴퓨터와는 매우 친숙하게 됐습니다.</p>\n\n<p>그리고 1994년도에 삼촌이 사준 <a href=\"/essay/2022/09/06/second-computer-486-dx2-50.html\">486 컴퓨터</a>.<br />\n고모가 2004년도에 사준 <a href=\"/essay/2023/08/06/my-fourth-computer.html\">펜티엄4 셀러론 2.4c 컴퓨터</a>. 바로 이 컴퓨터로 처음 코딩을 시작했습니다.</p>\n\n<p>어쩌다 개발자가 되었나 생각해보니 바로 이런 이유였습니다.<br />\n컴퓨터학과가 뭐하는 학과인지도 모르고 그냥 지원했습니다. 친숙하다는 이유만으로.<br />\n코딩을 배우기 시작하며 난 도저히 못 하겠다, 그만두고 도망쳐야겠다 생각하기도 했습니다만… 이건 또 다른 우연한 사건으로 극복할 수 있었습니다.</p>\n\n<p>우연하고 사소한 사건들에 의해서 내 인생이 이렇게 되어버렸구나.</p>\n\n<p>2004년, 아버지가 돌아가신 후 고모, 삼촌, 친할머니와 무려 21년 간이나 연락을 안 하고 살았습니다.<br />\n얼마 전 <a href=\"https://brunch.co.kr/@buildingking/196\">용기를 내서 그 분들을 찾아갔습니다</a>.</p>\n\n<p>고모와 삼촌 그리고 할머니에게 그동안 하고 싶었던 말들을 모두 했습니다. 주로 감사하다는 이야기를.<br />\n요즘엔 다시 만난 가족과 시간을 많이 보내며 지내고 있습니다. 편안하고 기분이 좋습니다.</p>\n\n<p><img src=\"/assets/img/grandmother1.jpg\" alt=\"태안 파도리 해수욕장\" /><br />\n<em>태안 파도리 해수욕장에서, 할머니, 고모와 함께</em></p>\n\n<p><img src=\"/assets/img/grandmother2.jpg\" alt=\"청와대\" /><br />\n<em>청와대에서, 할머니와 나</em></p>\n\n<p><br />\n<em>함께 읽으면 좋은 글:</em></p>\n<ul>\n  <li><a href=\"https://brunch.co.kr/@buildingking/196\">21년만에 다시 찾은 가족</a></li>\n</ul>",
-        "contentSnippet": "개발자로 살고 있는 이유를 가만히 생각해보니,  \nXT 컴퓨터.\n아주 어릴 때부터 이 컴퓨터 앞에 붙어 살았고…\n그리고 1994년도에 삼촌이 사준 486 컴퓨터.\n펜티엄4 셀러론 2.4c 컴퓨터. 바로 이 컴퓨터로 처음 코딩을 시작했습니다.\n어쩌다 개발자가 되었나 생각해보니 바로 이런 이유였습니다.\n우연하고 사소한 사건들에 의해서 내 인생이 이렇게 되어버렸구나.\n2004년, 아버지가 돌아가신 후 고모, 삼촌, 친할머니와 무려 21년 간이나 연락을 안 하고 살았습니다.\n용기를 내서 그 분들을 찾아갔습니다.\n고모와 삼촌 그리고 할머니에게 그동안 하고 싶었던 말들을 모두 했습니다. 주로 감사하다는 이야기를.\n\n태안 파도리 해수욕장에서, 할머니, 고모와 함께\n\n청와대에서, 할머니와 나\n\n함께 읽으면 좋은 글:\n21년만에 다시 찾은 가족",
-        "summary": "개발자로 살고 있는 이유를 가만히 생각해보니, 1989년? 1990년에 삼촌이 산 XT 컴퓨터. 이 컴퓨터에서 모든 것이 시작되었습니다.",
-        "id": "https://jeho.page/essay/2025/06/13/my-grandmother",
-        "isoDate": "2025-06-13T02:43:00.000Z"
-      }
-    ]
+    "posts": []
   },
   {
     "name": "악보쓰는 프로그래머",
@@ -1149,37 +1148,6 @@
           }
         ],
         "isoDate": "2025-06-15T20:50:00.000Z"
-      },
-      {
-        "creator": "noreply@blogger.com (Unknown)",
-        "title": "AI 브라우저 'Dia' 베타 등장, 브라우저 시장 판도 바꾼다",
-        "link": "https://blog.gaerae.com/2025/06/dia-browser-beta.html",
-        "pubDate": "Fri, 13 Jun 2025 07:49:00 +0000",
-        "author": "noreply@blogger.com (Unknown)",
-        "content": "<figure><img alt=\"\" border=\"0\" data-original-height=\"657\" data-original-width=\"1168\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK0d6iU07gYzE9Y1LWOAn4884qnKjZAG9X-kkoQOJFJEBy77qHTq1HkUdr6CEHsd6kLCdsnP6s5H5FMsWSjxqkKSp3qA1-5A1gewsx_a85fiUSnOCqLwV2shMMRbZR2P-lMDRliPIMno4EgVamf-3GvufUK_JDRx0ZsB161_HxtwHBw8BaczVAAeWosyA/s1600/dia-browser.jpg\" style=\"width: 100%;\" />\n<figcation>Dia browser</figcation>\n</figure>\n<p>최근 웹 브라우저 시장의 판도를 바꿀 새로운 주자, 'Dia'가 베타 버전으로 공개됐다. AI(인공지능) 기능을 브라우저의 핵심으로 내세운 이 브라우저는, 기존의 Arc 브라우저를 개발한 The Browser Company가 선보인 차세대 제품으로 주목받고 있다.</p>\n<h2 id=\"ai를-브라우저-경험의-중심에-두다\">AI를 브라우저 경험의 중심에 두다</h2>\n<p>Dia는 기존의 웹 브라우저와 달리, 인공지능을 브라우저 경험의 중심에 두고 있다. 사용자는 별도의 AI 서비스(예: ChatGPT, Claude, Perplexity 등) 사이트를 방문하지 않고도, 브라우저 내에서 직접 AI와 상호작용할 수 있다. 특히, 주소창(URL bar)에서 웹사이트 접속, 검색, AI 챗봇 기능을 모두 처리할 수 있어, 브라우저 사용 흐름에서 AI를 자연스럽게 활용할 수 있다.</p>\n<p>주요 기능으로는 현재 열려 있는 모든 탭의 정보를 바탕으로 한 쿼리, 웹 페이지 요약, AI 챗봇을 통한 문서 작성 및 요약, 사용자 맞춤형 단축키 및 레이아웃 생성 등이 있다. 또한, 최근 7일간의 브라우징 기록을 참고해 더욱 정교한 AI 답변을 제공한다.</p>\n<p>특히 'Skills' 기능은 사용자가 원하는 작업(예: 리딩 모드 활성화, 웹 폼 자동 입력 등)에 맞춰 AI가 코드 스니펫을 생성해주는 독특한 기능이다. 이는 사용자의 브라우징 경험을 더욱 개인화하고 효율적으로 만들어준다.</p>\n<h2 id=\"arc-브라우저의-한계와-dia의-출발\">Arc 브라우저의 한계와 Dia의 출발</h2>\n<p>The Browser Company는 지난해 Arc 브라우저 개발을 중단했다. Arc는 매니아층에서 인기를 끌었지만, 복잡한 사용자 경험(UX)으로 인해 대중적 확산에는 한계가 있었다. 이에 따라, 회사는 AI를 브라우저의 핵심으로 내세운 Dia 개발에 집중하게 됐다.</p>\n<p>Dia는 구글의 오픈소스 크로미움 엔진을 기반으로 하여, 기존 브라우저와 유사한 인터페이스를 제공하면서도, AI 기능이 깊이 통합된 것이 특징이다. 사용자들은 Arc 브라우저의 복잡한 UI에 익숙하지 않은 일반 사용자도 쉽게 적응할 수 있다는 평가를 내리고 있다.</p>\n<h2 id=\"베타-출시-및-사용-환경\">베타 출시 및 사용 환경</h2>\n<p>현재 Dia는 초대장이 있는 사용자만 사용할 수 있는 베타 버전으로 공개됐다. 특히 기존 Arc 사용자들은 즉시 Dia 베타에 접근할 수 있으며, 추가로 다른 사용자를 초대할 수 있는 권한도 있다. 베타 버전은 현재 macOS 14 이상, Apple Silicon(M1 이상) 기기에서만 사용할 수 있다. 윈도우 및 리눅스 버전은 아직 출시 계획이 공개되지 않았다.</p>\n<h2 id=\"프라이버시와-사용자-경험\">프라이버시와 사용자 경험</h2>\n<p>Dia는 사용자의 프라이버시를 강조하며, AI 챗봇이 사용자의 계정과 연결되지 않고, 데이터는 30일 후 삭제된다고 밝혔다. 또한, 광고 및 트래커 차단 기능이 기본으로 제공된다. 사용자는 자신의 브라우징 데이터를 직접 관리할 수 있으며, AI 기능은 사용자의 경험을 더욱 개인화한다는 것이 회사 측의 설명이다.</p>\n<h2 id=\"브라우저-시장의-변화와-전망\">브라우저 시장의 변화와 전망</h2>\n<p>The Browser Company의 조시 밀러(CEO)는 \"사용자들이 더 이상 웹페이지를 통해 인터넷과 상호작용하지 않고, AI 모델을 통해 인터넷에 접근한다\"고 말하며, Dia가 미래 브라우저의 표준이 될 수 있음을 시사했다.</p>\n<p>현재 Opera, Google Chrome, Microsoft Edge 등 주요 브라우저들도 AI 기능을 도입하고 있지만, Dia는 AI를 선택적 기능이 아닌 브라우저의 핵심으로 내세운다는 점에서 차별화된다.</p>\n<h2 id=\"chatgpt-claude-perplexity의-브라우저-직접-개발-가능성\">ChatGPT, Claude, Perplexity의 브라우저 직접 개발 가능성</h2>\n<p>한편, ChatGPT, Claude, Perplexity 등 대형 AI 서비스가 직접 브라우저를 개발할 가능성도 시장에서 주목받고 있다. 이미 OpenAI(챗GPT) 관련 커뮤니티에서는 \"GPT 브라우저\"라는 이름의 AI 중심 브라우저 개발 제안이 등장한 바 있다. 이 브라우저는 사용자의 브라우징 패턴과 관심사에 따라 맞춤형 콘텐츠를 추천하고, AI가 주도적으로 인터넷 여행을 안내하는 것이 핵심 아이디어다.</p>\n<p>Perplexity 역시 'Comet'이라는 이름의 AI 브라우저를 개발 중이라는 소식이 공개된 바 있다. Comet은 향상된 보안, 스마트 탭 관리, 실시간 글쓰기 지원 등 다양한 AI 기능을 브라우저에 통합할 예정이다. 다만, 아직 공식 출시 일정은 발표되지 않았다.</p>\n<p>Claude는 아직 브라우저 직접 개발 소식은 없으나, 웹사이트 제작 및 코드 생성 등에서 사용자의 요구에 따라 높은 수준의 맞춤화가 가능하다는 점에서, 향후 브라우저 시장 진출 가능성도 열려 있다.</p>\n<p>이처럼 AI 서비스들이 브라우저를 직접 개발하거나, 브라우저에 더 깊게 통합되는 움직임이 활발해지면서, 앞으로 웹 브라우저 시장은 AI를 중심으로 한 경쟁이 본격화될 전망이다.</p>\n\n<h2 id=\"참고-링크\">참고 링크</h2>\n<ol>\n<li><a href=\"https://www.diabrowser.com/\">Dia browser: Official</a></li><li><a href=\"https://efficient.app/apps/dia\">Efficient App: Dia Browser Review 2025</a></li>\n<li><a href=\"https://dev.ua/en/news/brauzer-dia-1749731796\">dev.ua: Dia, an AI-powered browser, is now available in beta</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=NYgvDRR5bNA\">YouTube: Dia Browser Review: My First Impressions &amp; Test</a></li>\n<li><a href=\"https://appuals.com/dia-enters-public-beta-on-macos-and-it-can-read-your-tabs-using-ai/\">Appuals: Dia enters public beta on macOS and it can read your tabs using AI</a></li>\n<li><a href=\"https://community.openai.com/t/suggestiong-for-a-new-open-ai-browser/1120901\">OpenAI Community: Suggestion for a new Open AI Browser</a></li>\n<li><a href=\"https://www.davydovconsulting.com/post/how-claude-can-generate-and-launch-a-site\">Davydov Consulting: Build and Launch a Website Fast with Claude AI</a></li>\n<li><a href=\"https://devpost.com/software/perplexibrowse\">Devpost: PerplexiBrowse</a></li>\n<li><a href=\"https://www.analyticsinsight.net/news/perplexity-unveils-comet-the-ai-browser-ready-to-challenge-chrome-and-beyond\">Analytics Insight: Perplexity Unveils Comet: The AI Browser Ready to Challenge Chrome and Beyond</a></li>\n<li><a href=\"https://techcrunch.com/2025/06/11/the-browser-company-launches-its-ai-first-browser-dia-in-beta/\">TechCrunch: The Browser Company launches its AI-first browser, Dia, in beta</a></li>\n<li><a href=\"https://www.theverge.com/web/685232/dia-browser-ai-arc\">The Verge: Dia, the AI browser from the makers of Arc, is now available in beta</a></li>\n<li><a href=\"https://9to5mac.com/2025/06/11/dia-the-browser-companys-ai-first-browser-launches-mac-beta/\">9to5Mac: Dia, The Browser Company's AI-first browser, launches Mac beta</a></li>\n<li><a href=\"https://www.techrepublic.com/article/news-arc-dia-the-browser-company/\">TechRepublic: Will New AI Browser Dia Redefine How We Use the Web?</a></li>\n<li><a href=\"https://www.engadget.com/ai/the-browser-companys-new-ai-browser-rolls-out-to-private-beta-testers-170311014.html\">Engadget: The Browser Company's new AI browser rolls out to private beta testers</a></li>\n</ol>",
-        "contentSnippet": "Dia browser\n\n최근 웹 브라우저 시장의 판도를 바꿀 새로운 주자, 'Dia'가 베타 버전으로 공개됐다. AI(인공지능) 기능을 브라우저의 핵심으로 내세운 이 브라우저는, 기존의 Arc 브라우저를 개발한 The Browser Company가 선보인 차세대 제품으로 주목받고 있다.\nAI를 브라우저 경험의 중심에 두다\nDia는 기존의 웹 브라우저와 달리, 인공지능을 브라우저 경험의 중심에 두고 있다. 사용자는 별도의 AI 서비스(예: ChatGPT, Claude, Perplexity 등) 사이트를 방문하지 않고도, 브라우저 내에서 직접 AI와 상호작용할 수 있다. 특히, 주소창(URL bar)에서 웹사이트 접속, 검색, AI 챗봇 기능을 모두 처리할 수 있어, 브라우저 사용 흐름에서 AI를 자연스럽게 활용할 수 있다.\n주요 기능으로는 현재 열려 있는 모든 탭의 정보를 바탕으로 한 쿼리, 웹 페이지 요약, AI 챗봇을 통한 문서 작성 및 요약, 사용자 맞춤형 단축키 및 레이아웃 생성 등이 있다. 또한, 최근 7일간의 브라우징 기록을 참고해 더욱 정교한 AI 답변을 제공한다.\n특히 'Skills' 기능은 사용자가 원하는 작업(예: 리딩 모드 활성화, 웹 폼 자동 입력 등)에 맞춰 AI가 코드 스니펫을 생성해주는 독특한 기능이다. 이는 사용자의 브라우징 경험을 더욱 개인화하고 효율적으로 만들어준다.\nArc 브라우저의 한계와 Dia의 출발\nThe Browser Company는 지난해 Arc 브라우저 개발을 중단했다. Arc는 매니아층에서 인기를 끌었지만, 복잡한 사용자 경험(UX)으로 인해 대중적 확산에는 한계가 있었다. 이에 따라, 회사는 AI를 브라우저의 핵심으로 내세운 Dia 개발에 집중하게 됐다.\nDia는 구글의 오픈소스 크로미움 엔진을 기반으로 하여, 기존 브라우저와 유사한 인터페이스를 제공하면서도, AI 기능이 깊이 통합된 것이 특징이다. 사용자들은 Arc 브라우저의 복잡한 UI에 익숙하지 않은 일반 사용자도 쉽게 적응할 수 있다는 평가를 내리고 있다.\n베타 출시 및 사용 환경\n현재 Dia는 초대장이 있는 사용자만 사용할 수 있는 베타 버전으로 공개됐다. 특히 기존 Arc 사용자들은 즉시 Dia 베타에 접근할 수 있으며, 추가로 다른 사용자를 초대할 수 있는 권한도 있다. 베타 버전은 현재 macOS 14 이상, Apple Silicon(M1 이상) 기기에서만 사용할 수 있다. 윈도우 및 리눅스 버전은 아직 출시 계획이 공개되지 않았다.\n프라이버시와 사용자 경험\nDia는 사용자의 프라이버시를 강조하며, AI 챗봇이 사용자의 계정과 연결되지 않고, 데이터는 30일 후 삭제된다고 밝혔다. 또한, 광고 및 트래커 차단 기능이 기본으로 제공된다. 사용자는 자신의 브라우징 데이터를 직접 관리할 수 있으며, AI 기능은 사용자의 경험을 더욱 개인화한다는 것이 회사 측의 설명이다.\n브라우저 시장의 변화와 전망\nThe Browser Company의 조시 밀러(CEO)는 \"사용자들이 더 이상 웹페이지를 통해 인터넷과 상호작용하지 않고, AI 모델을 통해 인터넷에 접근한다\"고 말하며, Dia가 미래 브라우저의 표준이 될 수 있음을 시사했다.\n현재 Opera, Google Chrome, Microsoft Edge 등 주요 브라우저들도 AI 기능을 도입하고 있지만, Dia는 AI를 선택적 기능이 아닌 브라우저의 핵심으로 내세운다는 점에서 차별화된다.\nChatGPT, Claude, Perplexity의 브라우저 직접 개발 가능성\n한편, ChatGPT, Claude, Perplexity 등 대형 AI 서비스가 직접 브라우저를 개발할 가능성도 시장에서 주목받고 있다. 이미 OpenAI(챗GPT) 관련 커뮤니티에서는 \"GPT 브라우저\"라는 이름의 AI 중심 브라우저 개발 제안이 등장한 바 있다. 이 브라우저는 사용자의 브라우징 패턴과 관심사에 따라 맞춤형 콘텐츠를 추천하고, AI가 주도적으로 인터넷 여행을 안내하는 것이 핵심 아이디어다.\nPerplexity 역시 'Comet'이라는 이름의 AI 브라우저를 개발 중이라는 소식이 공개된 바 있다. Comet은 향상된 보안, 스마트 탭 관리, 실시간 글쓰기 지원 등 다양한 AI 기능을 브라우저에 통합할 예정이다. 다만, 아직 공식 출시 일정은 발표되지 않았다.\nClaude는 아직 브라우저 직접 개발 소식은 없으나, 웹사이트 제작 및 코드 생성 등에서 사용자의 요구에 따라 높은 수준의 맞춤화가 가능하다는 점에서, 향후 브라우저 시장 진출 가능성도 열려 있다.\n이처럼 AI 서비스들이 브라우저를 직접 개발하거나, 브라우저에 더 깊게 통합되는 움직임이 활발해지면서, 앞으로 웹 브라우저 시장은 AI를 중심으로 한 경쟁이 본격화될 전망이다.\n참고 링크\nDia browser: Official\nEfficient App: Dia Browser Review 2025\ndev.ua: Dia, an AI-powered browser, is now available in beta\nYouTube: Dia Browser Review: My First Impressions & Test\nAppuals: Dia enters public beta on macOS and it can read your tabs using AI\nOpenAI Community: Suggestion for a new Open AI Browser\nDavydov Consulting: Build and Launch a Website Fast with Claude AI\nDevpost: PerplexiBrowse\nAnalytics Insight: Perplexity Unveils Comet: The AI Browser Ready to Challenge Chrome and Beyond\nTechCrunch: The Browser Company launches its AI-first browser, Dia, in beta\nThe Verge: Dia, the AI browser from the makers of Arc, is now available in beta\n9to5Mac: Dia, The Browser Company's AI-first browser, launches Mac beta\nTechRepublic: Will New AI Browser Dia Redefine How We Use the Web?\nEngadget: The Browser Company's new AI browser rolls out to private beta testers",
-        "guid": "tag:blogger.com,1999:blog-1127118646487305903.post-981084775710475221",
-        "categories": [
-          {
-            "_": "ai",
-            "$": {
-              "domain": "http://www.blogger.com/atom/ns#"
-            }
-          },
-          {
-            "_": "browser",
-            "$": {
-              "domain": "http://www.blogger.com/atom/ns#"
-            }
-          },
-          {
-            "_": "news",
-            "$": {
-              "domain": "http://www.blogger.com/atom/ns#"
-            }
-          }
-        ],
-        "isoDate": "2025-06-13T07:49:00.000Z"
       }
     ]
   },
@@ -1221,7 +1189,40 @@
   {
     "name": "퇴근 후 서버다운",
     "category": "개인",
-    "posts": []
+    "posts": [
+      {
+        "creator": "SIDNFT",
+        "title": "양자 컴퓨터의는 왜 빠른걸까 계산 방법을 알아보자",
+        "link": "http://serverdown.tistory.com/1341",
+        "pubDate": "Sat, 21 Jun 2025 02:58:55 +0900",
+        "author": "SIDNFT",
+        "comments": "http://serverdown.tistory.com/1341#entry1341comment",
+        "content": "<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/watch?v=qV3k-bQgmK0\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=qV3k-bQgmK0</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=qV3k-bQgmK0\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/bVshUD/hyZccsl79F/tJOJlHyEy6pEBfbbNoRi4k/img.jpg?width=1280&amp;height=720&amp;face=0_0_1280_720,https://scrap.kakaocdn.net/dn/brHVRt/hyY8dmkhCR/NQjxNHFn7JGyNAvJON9PV0/img.jpg?width=1280&amp;height=720&amp;face=0_0_1280_720\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"그래서 양자컴퓨터는 왜 빠른 걸까?\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/qV3k-bQgmK0\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">암호학 망했음</p>",
+        "contentSnippet": "영상: https://www.youtube.com/watch?v=qV3k-bQgmK0\n\n\n\n \n암호학 망했음",
+        "guid": "http://serverdown.tistory.com/1341",
+        "categories": [
+          "유튜브",
+          "양자컴퓨터"
+        ],
+        "isoDate": "2025-06-20T17:58:55.000Z"
+      },
+      {
+        "creator": "SIDNFT",
+        "title": "화성에셔 연료를 얻는 간단한 방법이 발견되었습니다. / 이산화탄소에서 메탄을 생성 / 온난화 해결",
+        "link": "http://serverdown.tistory.com/1340",
+        "pubDate": "Sat, 21 Jun 2025 01:02:57 +0900",
+        "author": "SIDNFT",
+        "comments": "http://serverdown.tistory.com/1340#entry1340comment",
+        "content": "<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/watch?v=YmfAxxWn3zY\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=YmfAxxWn3zY</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=YmfAxxWn3zY\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/UOrM2/hyY8LwpIGk/dVt4zkqgGQ91CWjJGBDKpk/img.jpg?width=1280&amp;height=720&amp;face=0_0_1280_720,https://scrap.kakaocdn.net/dn/eOB88/hyZbDp4slh/vXzAFd3EnElM05U4AfIiXk/img.jpg?width=1280&amp;height=720&amp;face=0_0_1280_720\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"국내 연구진이 개발한 화성 유인탐사를 현실로 만들 수 있는 기술\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/YmfAxxWn3zY\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">지구에서도 쓸수 있는 방법이라는군요</p>\n<p data-ke-size=\"size16\">쇠구술을 부딧혀 이산화탄소에서 메탄을 만드는 (뭐이케 쉬운 방법이) 방법이 발견되었습니다.</p>\n<p data-ke-size=\"size16\">화성에서는 당연히 대기에서 연료를 얻어 로켓 발사에 쓰면 되구요</p>\n<p data-ke-size=\"size16\">지구에서는 지구온난화를 위해 이산화 탄소를 줄이는데 사용하면 됩니다.</p>\n<p data-ke-size=\"size16\">완전 만능이군요</p>\n<p data-ke-size=\"size16\">이거는 빨아야합니다.</p>\n<p data-ke-size=\"size16\">충격</p>",
+        "contentSnippet": "영상: https://www.youtube.com/watch?v=YmfAxxWn3zY\n\n\n\n \n지구에서도 쓸수 있는 방법이라는군요\n쇠구술을 부딧혀 이산화탄소에서 메탄을 만드는 (뭐이케 쉬운 방법이) 방법이 발견되었습니다.\n화성에서는 당연히 대기에서 연료를 얻어 로켓 발사에 쓰면 되구요\n지구에서는 지구온난화를 위해 이산화 탄소를 줄이는데 사용하면 됩니다.\n완전 만능이군요\n이거는 빨아야합니다.\n충격",
+        "guid": "http://serverdown.tistory.com/1340",
+        "categories": [
+          "유튜브",
+          "과학"
+        ],
+        "isoDate": "2025-06-20T16:02:57.000Z"
+      }
+    ]
   },
   {
     "name": "coolspeed",
@@ -1376,15 +1377,6 @@
         "contentSnippet": "들어가며안녕하세요. LINE Billing Platform 개발 팀의 김영재, 이정재입니다. LINE Billing Platform 개발 팀에서는 LINE 앱 내 여러 서비스에서 ...",
         "guid": "https://techblog.lycorp.co.jp/ko/migrate-payment-system-db-to-vitess-1",
         "isoDate": "2025-06-18T02:30:00.000Z"
-      },
-      {
-        "title": "AI와 글쟁이의 동행: 코드 주면 API 레퍼런스 써드려요",
-        "link": "https://techblog.lycorp.co.jp/ko/give-me-the-code-and-then-ai-and-i-will-provide-the-api-reference-for-you",
-        "pubDate": "Fri, 13 Jun 2025 02:00:00 GMT",
-        "content": "기술 문서는 늘 부족합니다. 특히 좋은 기술 문서가 부족하죠.테크니컬 라이터는 좋은 기술 문서를 쓸 수 있지만, 사내 프로젝트를 모두 담당하기에는 수가 턱없이 모자랍니다. '개발자...",
-        "contentSnippet": "기술 문서는 늘 부족합니다. 특히 좋은 기술 문서가 부족하죠.테크니컬 라이터는 좋은 기술 문서를 쓸 수 있지만, 사내 프로젝트를 모두 담당하기에는 수가 턱없이 모자랍니다. '개발자...",
-        "guid": "https://techblog.lycorp.co.jp/ko/give-me-the-code-and-then-ai-and-i-will-provide-the-api-reference-for-you",
-        "isoDate": "2025-06-13T02:00:00.000Z"
       }
     ]
   },
