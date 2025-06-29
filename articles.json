@@ -2,31 +2,65 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "불황 속에서도 살아남는 스타트업의 전략적 특징 5가지",
-    "description": "2004년 하반기, 스타트업 시장은 어느 때보다 냉각되었습니다. 시드 투자도, 시리즈 A도 예전처럼 쉽게 이뤄지지 않고, 심지어 기존 투자자들도 팔짱을 끼고 지켜보는 상황이죠. 하지만 이런 시기에도 살아남는 스타트업, 심지어 더 단단해지는 스타트업이 있습니다. 불황 속에서도 살아남는 스타트업들이 공통적으로 실천하고 있는 전략 5가지 정리했습니다.  1. 현",
+    "title": "미국 나스탁 상장, 스테이블코인 대세 '서클' - '서클(Circle)'의 비즈니스 모델과 전망",
+    "description": "서클(Circle)은 어떤 기업인가?  서클(Circle Internet Group, NYSE: CRCL)은 2013년에 설립된 글로벌 핀테크 기업으로, 스테이블코인 USDC(USD COIN)를 발행하고 있습니다. 1USDC는 정확히 1달러의 가치를 유지하며, 이 가치를 보장하기 위해 달러와 미국 단기 국채 등으로 준비금을 운용합니다.  서클의 핵심 비즈니",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/280",
-    "pubDate": "Fri, 27 Jun 2025 04:27:55 GMT",
+    "link": "https://brunch.co.kr/@@LOc/276",
+    "pubDate": "Mon, 23 Jun 2025 08:24:44 GMT",
     "creator": "고명환",
     "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Modern CI/CD for a Post-VMware World: Embrace KubeVirt With TeamCity",
-    "description": "In November 2023, Broadcom acquired VMware for a whopping USD 69 billion. The strategic goal behind the acquisition was to enable customers to create and modernize their cloud environments, both private and hybrid. Following the acquisition, VMware perpetual license holders started receiving cease-and-desist letters from Broadcom. Users can continue using the software, but can no […]",
+    "title": "Demystifying Spring Boot With Spring Debugger",
+    "description": "Spring Boot is a marvel of developer productivity. It hides the plumbing and gets you up and running fast. Components are “miraculously” autowired, properties are “magically” resolved, and database connections materialize seemingly without explicit configuration. But when something goes wrong, the magic becomes a mystery, and debugging becomes a deep dive into the framework’s internal […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/06/kubevirt-with-teamcity/",
-    "pubDate": "Tue, 24 Jun 2025 11:59:12 +0000",
-    "creator": "Olga Bedrina",
+    "link": "https://blog.jetbrains.com/idea/2025/06/demystifying-spring-boot-with-spring-debugger/",
+    "pubDate": "Wed, 25 Jun 2025 07:22:11 +0000",
+    "creator": "Andrey Belyaev",
     "categories": [
-      "news"
+      "tutorials",
+      "debug",
+      "intellij-idea",
+      "spring-boot",
+      "spring-debugger"
     ]
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "The MPS 2025.2 Early Access Program Is Live",
+    "description": "We’re kicking off the MPS 2025.2 Early Access Program (EAP). You can download the first 2025.2 EAP build and try it out now! DOWNLOAD MPS 2025.2 EAP The release brings numerous bug fixes and improvements, such as: Resolve info is now correctly updated when copying references into the clipboard. The Show Node Info dialog has […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/mps/2025/06/the-mps-2025-2-eap-has-started/",
+    "pubDate": "Wed, 25 Jun 2025 19:27:33 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "releases",
+      "eap",
+      "release"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "[PS5] 밧줄과 막대기를 든 너 나 우리의, 데스 스트랜딩 2",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2328",
+    "pubDate": "Thu, 26 Jun 2025 13:00:00 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 5,
     "imageUrl": "",
     "title": "Rider 2025.2 EAP 7: Low-Level Exception Suppression and Other Updates for Debugging Games",
     "description": "Rider 2025.2 is shaping up to be an exciting release for game developers, no matter which engine you work with. Over the last few EAP builds, we’ve been rolling out targeted improvements to make debugging smoother, faster, and more reliable, whether you’re building with Unreal Engine, Unity, Godot, or custom C++ frameworks. In the latest […]",
@@ -49,106 +83,65 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "샌프란시스코에서 강도 당한 썰",
-    "description": "처음으로 해외 땅을 밟아본 것은 하와이였습니다. 카카오 전 직원 워크샵 때.\n\n2013년 6월. 카카오 하와이 워크샵\n새로운 세상이 어찌나 신기하고 좋던지.\n컨퍼런스의 마지막 날, 저는 동료들과 떨어져서 혼자 돌아다녀 보기로 했습니다.\n몇 달 뒤인 2015년 2월. 저는 실제로 실행했습니다.\n여행은 좋았습니다. 10년 전이었는데도 구글맵 하나만 있으면 어디든 갈 수 있었습니다.\n제 인생에서 자신감이 넘쳐흐를 때면 언제나 그 자신감이 완전히 깔아 뭉개지는 사건이 생기곤 했습니다.\n오전엔 뭐 할까? 스탠퍼드 대학교나 가보자. 도대체 어떤 학교길래 그렇게 많은 인재들이 끊이지 않고 나오는 걸까?\n\n스탠퍼드 캠퍼스 어딘가에서, 2015년 2월\n캠퍼스를 거닐며 이런저런 생각을 하며 시간을 보내다가 오후에는 레드우드 시티에 친구들을 만나러 갔습니다.\n맥주집에서 이런저런 얘기를 하다 헤어질 시간이 됐습니다.\n그날 저의 숙소는 밀브레라는 곳이었습니다. 샌프란시스코 공항이 있는 곳.\n칼트레인에서 내려서 밀브레의 숙소까지의 거리는 약 800미터. 시간은 밤 9시 50분.\n그놈이 핸드폰을 들고 있던 제 왼팔을 잡으며 말했습니다.\n“노” 라는 말을 마치기도 전에 주먹이 날라왔습니다.\n한 대를 맞았던가? 아니 두 대?\n‘뭐지? 이게 지금 무슨 일이지?’\n죽음의 공포를 느끼면서 몸속에서 아드레날린 같은 것이 나온 것인지 주변의 상황이 슬로비디오처럼 보였습니다.\n‘이렇게 집이 많은데 나를 도와줄 수 있는 사람이 없구나.’\n팔을 휘두르며 뿌리쳐 냈습니다.\n\n내가 죽을 뻔했던 장소\n지금 생각하면 도망치는 길이 오르막길이었다는 게 참 다행입니다.\n화장실에 가서 거울을 봤는데 턱에 살점이 크게 떨어져 나가 있었습니다.\n\n손에 링 같은 걸 끼고 있었던 것 아닐까\n이제 어떻게 할 것인가. 경찰에 신고를 해야 할까?\n해외에서 사고가 난다는 게 이런 거구나. 모든 일이 너무나 불리하다는 걸 깨달았습니다.\n생각해보면 살면서 커다란 위험을 겪은 적이 없었습니다.\n이 정도 상처로 끝났던 것이 정말 다행입니다.\n복기해보면 후회되는 일 투성이였습니다.\n해외여행을 갈 때 더 이상 까불지 않게 되었습니다.\nP.S 그때 제가 들고 있던 폰은 카카오에서 브라이언이 전 직원한테 선물해 줬던 아이폰 6였습니다.\n\n함께 읽으면 좋은 글:\n여행 좀 많이 다녀볼 걸",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/06/27/sanfrancisco.html",
-    "pubDate": "2025-06-26T19:21:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "신용카드 결제일을 14일로 해야 하는 이유",
-    "description": "결제일 하나만 바꿔도 실적, 혜택 다 챙길 수 있어요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/creditcard_payment_date",
-    "pubDate": "Tue, 24 Jun 2025 06:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 6,
     "imageUrl": "",
-    "title": "VS Code - VSCode에서 Markdown 문서를 작성할 때 우선 이것을 설치하자",
-    "description": "No description available",
+    "title": "How Electronic Arts standardized C++ builds across Windows and Linux with Visual Studio Build Tools",
+    "description": "At Electronic Arts (EA), the Frostbite Enginering Workflows team has thousands of developers who work on powerful game engines behind popular games.  EA has relied on Visual Studio for years due to several features such as IntelliSense, Build Insights, and the overall debugging experience and eagerly use newer integrations such as GitHub Copilot.  They also […]\nThe post How Electronic Arts standardized C++ builds across Windows and Linux with Visual Studio Build Tools appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/VS_code_20250623/",
-    "pubDate": "Mon, 23 Jun 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/how-electronic-arts-standardized-c-builds-across-windows-and-linux-with-visual-studio-build-tools/",
+    "pubDate": "Thu, 26 Jun 2025 12:00:43 +0000",
+    "creator": "Sinem Akinci",
+    "categories": [
+      "C++",
+      "CMake",
+      "Linux"
+    ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "Filebeat의 multi path",
-    "description": "filebeat 설정.\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id\n  enabled: true\n  paths:\n    - d:\\firewall.log\n  prospector.scanner.fingerprint.enabled: false\n\n\nfilebeat.config.modules:\n  path: ${path.config}/modules.d/*.yml\n  reload.enabled: false\n\n\nsetup.template.settings:\n  index.number_of_shards: 1\n\n\noutput.console:\n  pretty: true\n\n\nprocessors:\n  - include_fields:\n      fields: [\"log.file.path\", \"message\"]\n\n\n\n{\n  \"@timestamp\": \"2025-06-27T13:24:11.549Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"log\": {\n    \"file\": {\n      \"path\": \"d:\\\\firewall.log\"\n    }\n  },\n  \"message\": \"2025-06-24 15:44:30 ALLOW UDP 192.168.31.177 142.250.207.100 64118 443 0 - - - - - - - SEND\"\n}\n\n\n\n\n연동 데이터를 추가하면?\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id\n  enabled: true\n  paths:\n    - d:\\firewall.log\n    - d:\\auditbeat.log\n\n\n\n\n{\n  \"@timestamp\": \"2025-06-27T13:25:50.441Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"log\": {\n    \"file\": {\n      \"path\": \"d:\\\\auditbeat.log\"\n    }\n  },\n  \"message\": \"{\\\"@timestamp\\\":\\\"2025-06-25T09:40:17.236Z\\\",\\\"@metadata\\\":{\\\"beat\\\":\\\"auditbeat\\\",\\\"type\\\":\\\"_doc\\\",\\\"version\\\":\\\"8.12.0\\\"},\\\"event\\\":{\\\"kind\\\":\\\"event\\\",\\\"category\\\":[\\\"process\\\"],\\\"type\\\":[\\\"end\\\"],\\\"action\\\":\\\"process_stopped\\\",\\\"module\\\":\\\"system\\\",\\\"dataset\\\":\\\"process\\\"},\\\"ecs\\\":{\\\"version\\\":\\\"8.0.0\\\"},\\\"host\\\":{\\\"name\\\":\\\"MHKANG\\\"},\\\"agent\\\":{\\\"version\\\":\\\"8.12.0\\\",\\\"ephemeral_id\\\":\\\"013c425b-7951-4670-ab30-7432708042cd\\\",\\\"id\\\":\\\"5d624028-d6db-4bf3-9930-2739c9b72407\\\",\\\"name\\\":\\\"MHKANG\\\",\\\"type\\\":\\\"auditbeat\\\"},\\\"process\\\":{\\\"parent\\\":{\\\"pid\\\":1636},\\\"hash\\\":{\\\"sha1\\\":\\\"119965512252f4da4ac86887562e0d4ad4f2d4c3\\\"},\\\"entity_id\\\":\\\"1vfinYF9dclwaAOM\\\",\\\"pid\\\":216868,\\\"executable\\\":\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\python3.exe\\\",\\\"start\\\":\\\"2025-06-25T09:40:05.187Z\\\",\\\"name\\\":\\\"python3.exe\\\",\\\"args\\\":[\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\Python3.exe\\\",\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\runScript.py\\\",\\\"rest_vocabularies.Vocabularies\\\"],\\\"working_directory\\\":\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\"},\\\"message\\\":\\\"Process python3.exe (PID: 216868) by user NT AUTHORITY\\\\\\\\SYSTEM STOPPED\\\",\\\"user\\\":{\\\"group\\\":{\\\"id\\\":\\\"S-1-5-18\\\"},\\\"name\\\":\\\"NT AUTHORITY\\\\\\\\SYSTEM\\\",\\\"id\\\":\\\"S-1-5-18\\\"},\\\"service\\\":{\\\"type\\\":\\\"system\\\"}}\"\n}\n\n\n\n\n추가된 데이터만 가져온다. 항상 그렇지는 않은데 왔다갔다 하면서 하나만 가져온다. 공식문서는 여러 개 지정할 수 있는 것처럼 설명하는데 버그인가? 다음 설정도 마찬가지.\n\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id\n  enabled: true\n  paths:\n    - d:\\*.log\n\n\n\nfilebeat 시작 후 업데이트된 내용이 없어서라고 하기엔 일단 하나는 가져오니까(..) 물론 filestream input 선언을 따로 해주면 가져오긴 한다.\n\n\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id1\n  enabled: true\n  paths:\n    - d:\\firewall.log\n  prospector.scanner.fingerprint.enabled: false\n\n\n- type: filestream\n  id: my-filestream-id2\n  enabled: true\n  paths:\n    - d:\\auditbeat.log\n  prospector.scanner.fingerprint.enabled: false  \n\n\n\n\n{\n  \"@timestamp\": \"2025-06-27T13:30:19.791Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"log\": {\n    \"file\": {\n      \"path\": \"d:\\\\firewall.log\"\n    }\n  },\n  \"message\": \"2025-06-24 15:44:30 ALLOW UDP 192.168.31.177 142.250.207.100 64118 443 0 - - - - - - - SEND\"\n}\n{\n  \"@timestamp\": \"2025-06-27T13:30:19.791Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"log\": {\n    \"file\": {\n      \"path\": \"d:\\\\auditbeat.log\"\n    }\n  },\n  \"message\": \"{\\\"@timestamp\\\":\\\"2025-06-25T09:40:17.236Z\\\",\\\"@metadata\\\":{\\\"beat\\\":\\\"auditbeat\\\",\\\"type\\\":\\\"_doc\\\",\\\"version\\\":\\\"8.12.0\\\"},\\\"event\\\":{\\\"kind\\\":\\\"event\\\",\\\"category\\\":[\\\"process\\\"],\\\"type\\\":[\\\"end\\\"],\\\"action\\\":\\\"process_stopped\\\",\\\"module\\\":\\\"system\\\",\\\"dataset\\\":\\\"process\\\"},\\\"ecs\\\":{\\\"version\\\":\\\"8.0.0\\\"},\\\"host\\\":{\\\"name\\\":\\\"MHKANG\\\"},\\\"agent\\\":{\\\"version\\\":\\\"8.12.0\\\",\\\"ephemeral_id\\\":\\\"013c425b-7951-4670-ab30-7432708042cd\\\",\\\"id\\\":\\\"5d624028-d6db-4bf3-9930-2739c9b72407\\\",\\\"name\\\":\\\"MHKANG\\\",\\\"type\\\":\\\"auditbeat\\\"},\\\"process\\\":{\\\"parent\\\":{\\\"pid\\\":1636},\\\"hash\\\":{\\\"sha1\\\":\\\"119965512252f4da4ac86887562e0d4ad4f2d4c3\\\"},\\\"entity_id\\\":\\\"1vfinYF9dclwaAOM\\\",\\\"pid\\\":216868,\\\"executable\\\":\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\python3.exe\\\",\\\"start\\\":\\\"2025-06-25T09:40:05.187Z\\\",\\\"name\\\":\\\"python3.exe\\\",\\\"args\\\":[\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\Python3.exe\\\",\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\runScript.py\\\",\\\"rest_vocabularies.Vocabularies\\\"],\\\"working_directory\\\":\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\"},\\\"message\\\":\\\"Process python3.exe (PID: 216868) by user NT AUTHORITY\\\\\\\\SYSTEM STOPPED\\\",\\\"user\\\":{\\\"group\\\":{\\\"id\\\":\\\"S-1-5-18\\\"},\\\"name\\\":\\\"NT AUTHORITY\\\\\\\\SYSTEM\\\",\\\"id\\\":\\\"S-1-5-18\\\"},\\\"service\\\":{\\\"type\\\":\\\"system\\\"}}\"\n}\n\n\n\n\n인덱스를 따로 저장하고 싶으면 index 옵션 추가.\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id1\n  enabled: true\n  paths:\n    - d:\\firewall.log\n  prospector.scanner.fingerprint.enabled: false\n  index: \"firewall-%{+yyyy}\"\n\n\n- type: filestream\n  id: my-filestream-id2\n  enabled: true\n  paths:\n    - d:\\auditbeat.log\n  prospector.scanner.fingerprint.enabled: false\n  index: \"auditlog-%{+yyyy}\" \n\n\n\n커스텀 인덱스 만드는 거 쉬웠군. 공식 문서를 꼼꼼히 읽지 않으면 언제나 조져지는 건 나(..)\n\n\n\n\n\n관련 글\n\nWinlogbeat 8.12의 변화\nFilebeat 9.0의 변화",
+    "title": "악역영애 4컷 만화 - 8화, 첫 친구와 만남인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/06/filebeat-multi-path.html",
-    "pubDate": "2025-06-27T13:53:00.001Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2327",
+    "pubDate": "Wed, 25 Jun 2025 21:08:36 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "미국 나스탁 상장, 스테이블코인 대세 '서클' - '서클(Circle)'의 비즈니스 모델과 전망",
-    "description": "서클(Circle)은 어떤 기업인가?  서클(Circle Internet Group, NYSE: CRCL)은 2013년에 설립된 글로벌 핀테크 기업으로, 스테이블코인 USDC(USD COIN)를 발행하고 있습니다. 1USDC는 정확히 1달러의 가치를 유지하며, 이 가치를 보장하기 위해 달러와 미국 단기 국채 등으로 준비금을 운용합니다.  서클의 핵심 비즈니",
+    "title": "VS Code - 새로운 Visual Studio Code 확장 Docker DX",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/276",
-    "pubDate": "Mon, 23 Jun 2025 08:24:44 GMT",
-    "creator": "고명환",
+    "link": "https://jacking75.github.io/VS_code_20250624/",
+    "pubDate": "Tue, 24 Jun 2025 00:00:00 +0900",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "당신의 AI가 달라졌어요! '프롬프트 생성기' GEM 지침 전격 공개",
-    "description": "AI, 이제 스스로 완벽한 프롬프트를 만듭니다! AI에게 '좋은 글 써줘' 대신, AI가 AI를 위한 프롬프트를 직접 설계하는 '프롬프트 생성기'로 여러분의 AI 활용 능력을 한 차원 높여보세요. 이 글이 그 비밀을 알려드릴게요!\n\n\n 저도 AI를 정말 많이 사용하는데, \"좋은 글 써줘\"나 \"멋진 그림 그려줘\"라고 입력하면 왠지 모르게 아쉬운 결과물을 받을 때가 많았어요. 여러분도 AI에게 똑같은 질문을 했는데, 누구는 엄청난 결과물을 받고 여러분은 엉성한 답변만 받아본 경험, 있으신가요? 그 차이가 뭘까요? AI의 성능 차이? 솔직히 말해서, 아닙니다. 바로 '프롬프트'의 차이죠.\n \n오늘은 제가 직접 사용하고 있는, AI 전문가들처럼 완벽한 프롬프트를 만들 수 있게 해주는 특별한 방법을 공개하려고 해요. 더 놀라운 건, AI가 여러분을 대신해서 프롬프트를 만들어준다는 거예요! 말 그대로 AI가 AI를 위한 프롬프트를 직접 설계하는, 정말 신기한 경험을 하시게 될 겁니다. 이 비밀은 바로, 제가 오늘 전체 공개하는 제미나이 '젬 지침'에 있답니다. 지금 바로 시작해볼까요?  \n \n왜 '프롬프트 생성기'가 필요할까요?  \nAI가 AI를 위한 프롬프트를 생성하는 이 '프롬프트 생성기' 지침은, 저를 포함해서 정말 많은 분들이 AI를 사용하면서 겪는 공통적인 문제 때문에 탄생했어요. \"좋은 글 써줘\"라고 하면 너무 뻔한 글이 나오고, \"멋진 그림 그려줘\"라고 하면 기대에 못 미치는 이미지가 나오곤 하죠. 저도 처음엔 AI가 이상한가 생각했는데, 알고 보니 우리가 AI에게 명확한 지시를 내리지 못했기 때문이더라고요.\n \n이건 마치 일을 잘하는 신입사원한테 \"적당히 잘 해봐\"라고 말하는 것과 똑같아요. 신입사원이 뭘 잘하고 못하고가 아니라, 명확한 가이드라인이 없으니까 방향을 잡지 못하는 거죠. 그래서 저는 \"AI 스스로가 완벽한 프롬프트를 만들 수 있다면 어떨까?\"라는 기발한(?) 생각을 해보았고, 이 아이디어가 바로 '프롬프트 생성기'를 만들게 된 배경입니다. 이제 여러분은 더 이상 프롬프트 작성법을 가지고 씨름할 필요가 없어지게 될 거예요!\n  알아두세요!\n'프롬프트 생성기'는 AI에게 명확하고 구체적인 지시를 내리기 어려운 사용자를 위해, AI가 스스로 최적의 프롬프트를 설계하도록 돕는 혁신적인 도구입니다.\n \n효과적인 프롬프트의 4가지 핵심 원리  \n잠깐, 본격적인 설명에 앞서 저와 여러분 사이의 작은 오해를 풀고 가고 싶어요. 이번이 벌써 6번째 젬 지침 관련 영상인데, 제가 제 채널을 분석해보니 여러분 대부분이 젬 지침만 다운받고 적용하는 것에만 집중하시더라고요. 그래서 10분짜리 영상인데도 평균 시청 시간이 3분 정도에 그치고 있어요. 실제로 댓글이나 오픈 톡방에 남기시는 질문도 영상을 모두 시청하셨다면 충분히 해결될 수 있는 질문이 많았답니다.\n \n물론 지침을 바로 활용하는 것도 충분히 가치 있는 일이에요. 하지만 제가 이런 영상을 만드는 진짜 이유는 조금 다릅니다. 저는 여러분이 단순히 젬 지침만 가져가는 게 아니라, 이런 지침을 만드는 과정 자체를 통해 AI에 대한 더 깊은 이해를 쌓으셨으면 하거든요. 왜 이런 프롬프트 구조가 효과적인지, AI가 어떤 방식으로 작동하는지, 그리고 앞으로 AI를 어떻게 활용해야 하는지에 대한 전체적인 그림을 그려가셨으면 합니다. 그래서 오늘도 단순히 '프롬프트 생성기'만 공개하는 게 아니라, 효과적인 프롬프트의 원리부터 차근차근 설명해드리려고 합니다.\nAI를 똑똑한 신입사원처럼 다루기 ✨\n그렇다면 효과적인 프롬프트란 무엇일까요? 제가 이 지침을 만들면서 가장 중요하게 생각한 원리는 바로, 'AI를 똑똑한 신입사원처럼 대하는 것'이었어요. AI는 엄청난 지식을 가지고 있지만, 여러분의 상황이나 의도, 맥락은 전혀 모르거든요. 따라서 모호한 지시는 혼란스러운 결과로 이어지게 된답니다. 좋은 프롬프트는 이 신입사원에게 명확한 업무 지시서를 주는 것과 같다고 보시면 돼요.\n구분\n설명\n비고\n기타 정보\n\n\n\n\n항목 1\n항목 1에 대한 설명\n추가 정보\n기타 데이터\n\n\n항목 2\n항목 2에 대한 설명\n추가 정보\n기타 데이터\n\n\n항목 3\n항목 3에 대한 설명\n추가 정보\n기타 데이터\n\n\n항목 4\n항목 4에 대한 설명\n기타 정보\n기타 데이터\n\n\n\n⚠️ 주의하세요!\n주의해야 할 사항이나 경고 내용을 작성하세요. 독자가 실수하기 쉬운 부분이나 예외 사항을 언급하면 좋습니다.\n \n'프롬프트 생성기' 젬 지침 만드는 과정  \n저는 이번 '프롬프트 생성기' 젬 지침을 만들기 위해 AI STUDIO를 적극적으로 활용했어요. 먼저 \"사용자가 제시한 내용으로 LLM에게 요청할, 효과적이고 완벽한 프롬프트를 생성해 주는 젬 지침을 만들어줘. 이 지침에서 나온 프롬프트는 바로 사용이 가능해야 해.\"라고 첫 질문을 던졌죠.\n \n이렇게 AI STUDIO에서 지침을 생성한 후에, 이를 복사해서 젬 지침으로 등록하고 계속 테스트를 진행했습니다. 결과를 확인한 뒤 수정이 필요한 부분을 AI STUDIO에 지속적으로 피드백하면서, 제가 원하는 완벽한 결과가 나올 때까지 이 과정을 끊임없이 반복했어요.\n  지침 개발 단계\n1) 첫 번째 단계: AI STUDIO에 초기 프롬프트 요청 (예: \"완벽한 프롬프트 생성 젬 지침 만들어줘\")\n2) 두 번째 단계: 생성된 지침을 젬 지침으로 등록하고 테스트\n→ 최종 결론: 테스트 결과에 따라 AI STUDIO에 지속적으로 피드백하며 수정, 반복 작업을 통해 완성.\n흥미롭게도, 반복 작업을 최소화하기 위해 만드는 젬 지침이 아이러니하게도 수많은 반복 작업을 통해 완성된다는 점이 정말 재미있지 않나요? 이렇게 작업한 결과물 또한, 원본을 제 블로그에 등록해두었으니 영상 설명란이나 고정 댓글에서 주소를 확인하시면 됩니다.\n  핵심 기법 적용\n역할 부여: AI에게 명확한 역할을 지정하여 전문성을 극대화합니다. (예: \"세계 최고의 꿈의 심층 분석가\")\n상황 설명: AI가 사용자의 배경과 의도를 이해하도록 구체적인 상황을 제시합니다.\n과업 지정: AI가 수행해야 할 주요 작업을 명확하고 간결하게 정의합니다.\n단계별 지침: 복잡한 작업도 쉽게 처리하도록 순차적인 지시를 제공합니다.\n제약 조건: 길이, 형식, 내용 등의 제약을 두어 AI의 출력 품질을 높입니다.\n출력 형식 지정: 원하는 결과물의 구조를 명시하여 일관성을 유지합니다. (예: \"다음 세 가지 섹션으로 구성\")\n예시 제공: 구체적인 예시를 통해 AI의 이해를 돕고 원하는 결과물의 방향을 제시합니다.\n \n'프롬프트 생성기' 활용 실전 예시  ‍ ‍ \n자, 이제 완성된 \"프롬프트 생성기\"를 직접 테스트 해 볼까요? 첫 번째 테스트는 \"꿈해몽을 하고 싶어\"라는 아주 간단한 요청이었어요. 그랬더니 정말 놀라운 프롬프트가 나왔습니다. 일반적인 AI라면 그냥 \"무슨 꿈을 꾸셨나요?\"라고 물어볼 텐데, '프롬프트 생성기'는 완전히 다른 접근을 하는 거죠.\n  알아두세요!\n'프롬프트 생성기'는 단순한 질문에도 AI에게 '꿈의 심층 분석가' 역할을 부여하고, 고대 상징 해석과 현대 심리학을 통합하며, 세 가지 섹션으로 구성된 체계적인 해몽 구조를 만들어줍니다.\n그래서 이 프롬프트를 복사해서 새 대화를 시작하고, \"어두운 숲속에서 길을 잃고 헤매다, 크고 하얀 늑대를 만나 놀라면서 잠을 깼어\"라고 입력해봤어요. 결과는 정말 놀라웠습니다. 단순한 꿈해몽이 아니라 '꿈의 상징적 의미', '심리적 해석', '문화적/전통적 맥락'으로 나누어서 각각 200자 이상의 상세한 분석을 해주고, 마지막에는 \"현재의 불안감을 회피하기보다는, 용기를 내어 직면하고 내면의 목소리에 귀 기울일 것을 조언합니다\"라는 통찰력 있는 조언까지 제공해줬어요.\n \n더 놀라운 활용 사례들  \n이 정도 수준의 꿈해몽을 받으려면 보통 전문가를 찾아가거나, 전문 프로그램을 사용해야 하잖아요? 하지만 '프롬프트 생성기'가 만든 프롬프트 하나로 이런 퀄리티를 얻을 수 있다는 게 정말 놀랍죠!\n사례 1: 이미지 생성 프롬프트\n요청: \"언제나 맘에 드는 이미지를 생성하고 싶어\"\n결과: '세계 최고 수준의 이미지 생성 전문가' 역할을 부여, 스타일, 구도, 조명, 색상 팔레트, 세부 묘사까지 모든 요소를 자동으로 최적화하는 프롬프트 생성.\n실제 적용 (키워드: \"우주전쟁\")\n일반적으로 \"우주전쟁 그려줘\"라고 하면 평범한 이미지가 나오지만, 이 프롬프트로 생성한 이미지는 마치 할리우드 영화의 한 장면처럼 거대한 우주선들이 성운 사이에서 펼치는 장엄한 전투 장면을 완벽하게 표현.\n사례 2: 영상 생성 프롬프트\n요청: \"주제를 알려주면 AI 영상 생성기에 적합한 프롬프트를 제작하게 해\"\n결과: '세계 최고의 AI 영상 감독이자 시각 스토리텔러' 역할을 부여, 영상 스타일, 주요 장면 구성, 카메라 움직임, 조명까지 모든 영상 제작 요소를 포함하는 전문적인 프롬프트 생성.\n실제 적용 (키워드: \"타이타닉호가 출항하기 전에 분주한 항구의 모습을 포착하는 영상\")\n\"1912년 4월 10일 타이타닉 출항 당일 아침, 사우샘프턴 항구의 분주한 모습을 담은 현실적이고 다큐멘터리 스타일의 영상\"이라고 구체적으로 설정하고, 와이드 샷에서 클로즈업까지의 카메라 구성, 자연광 활용, 주변 소음과 나레이션까지 포함한 완벽한 영상 프롬프트 생성.\n사례 3: SEO 최적화 블로그 글 작성 프롬프트\n요청: \"내 블로그가 구글 상위노출이 되게 하고 싶어\"\n결과: '세계 최고의 SEO 전문가이자 콘텐츠 마케터' 역할을 부여, 메타 디스크립션부터 FAQ 섹션까지 포함한 완벽한 SEO 최적화 블로그 글 작성 프롬프트 생성.\n실제 적용 (키워드: \"성공하는 사람들의 아침 루틴\")\n단순한 블로그 글이 아니라 빌 게이츠, 오프라 윈프리 같은 유명인들의 실제 사례를 포함하고, H2, H3 소제목으로 체계적으로 구조화하며, 내부 링크와 외부 링크까지 제안하는 2000단어 이상의 완벽한 SEO 글 생성.\n사례 4: 사업 솔루션 제공 프롬프트\n요청: \"고객의 상담 내용을 입력하면 완벽한 사업 솔루션을 제공해주고 싶어\"\n결과: '세계 최고의 비즈니스 전략 컨설턴트' 역할을 부여, 문제 정의부터 SWOT 분석, 핵심 솔루션 제안, 기대 효과 예측, 리스크 대응 방안까지 포함한 완벽한 컨설팅 프롬프트 생성.\n실제 적용 (상담 내용: \"20년간 자동차 정비를 하다 허리를 다쳐 현장 업무를 하지 못하는 40대 고객이 AI를 활용한 자동차 정비 노하우 블로그와 유튜브로 수익을 얻고자 한다\")\n단순한 조언이 아니라 SWOT 분석을 통해 고객의 강점과 약점을 정확히 파악하고, 'AI 기반 문제 해결형 심화 정비 노하우 콘텐츠 특화'와 'AI 인터뷰어 활용 Q&A 유튜브 콘텐츠 제작'이라는 구체적인 솔루션까지 제시.\n \n마무리: AI 시대, 프롬프트가 핵심입니다  \n이제 정리해볼까요? AI는 미래의 핵심 도구입니다. 그리고 이 도구를 얼마나 잘 활용하느냐는 바로 '프롬프트'에 달려 있어요. 오늘 제가 공개한 '프롬프트 생성기' 젬 지침은 여러분이 AI를 마스터하는 과정의 첫걸음이 될 것이라고 확신합니다.\n \n더 이상 \"어떻게 질문해야 하지?\"라고 고민하실 필요가 없습니다. 이제 AI가 여러분 대신 완벽한 프롬프트를 만들어 줄 테니까요! 본격적인 AI 시대, 여러분이 AI를 잘 다루는 것과 그렇지 못한 것의 차이는 정말 클 거예요. 오늘 공개한 '프롬프트 생성기'가 여러분에게 작은 도움이 되길 바랍니다. 궁금한 점이 있다면 댓글로 물어봐주세요~  \n \n \nAI '프롬프트 생성기' 핵심 요약\nAI가 AI를 위한 프롬프트 생성: 이제 AI에게 단순히 질문하는 것이 아니라, AI 스스로가 필요한 프롬프트를 만들게 합니다.\n효과적인 프롬프트 4원리: 구체성, 맥락 제공, 방향 제시, 제약을 통한 창의성 원리를 활용하여 최적의 결과 도출.\n젬 지침 반복 개선 과정: AI STUDIO를 통한 초기 지침 생성, 테스트, 피드백의 반복으로 지침 고도화.\nAI STUDIO 활용 → 젬 지침 등록 → 테스트 → 피드백 → 반복\n다양한 실전 활용 예시: 꿈 해몽, 이미지/영상 생성, SEO 블로그, 사업 솔루션 등 폭넓은 분야에서 고품질 결과 도출 가능.\n'프롬프트 생성기' 젬 지침으로 AI 활용 능력을 한 단계 업그레이드하고, AI 시대의 변화를 주도하세요!\n자주 묻는 질문 ❓\nQ: '프롬프트 생성기' 젬 지침은 어떤 AI에 적용할 수 있나요?\nA: 이 젬 지침은 Gemini, ChatGPT 등 대부분의 대규모 언어 모델(LLM)에 적용하여 활용할 수 있습니다.\nQ: 젬 지침을 어떻게 제미나이에 등록하고 사용하나요?\nA: 젬 지침 등록 및 사용 방법은 지난 영상에서 자세히 설명드렸으니, 해당 영상을 참고하시면 쉽게 따라 하실 수 있습니다.\nQ: 직접 젬 지침을 만드는 것이 더 좋다고 하셨는데, 그 이유는 무엇인가요?\nA: 직접 만들면 AI의 작동 방식에 대한 깊은 이해를 얻을 수 있고, 무엇보다 여러분의 특정 필요와 환경에 가장 최적화된 지침을 만들 수 있기 때문입니다.\nQ: '프롬프트 생성기'가 생성한 프롬프트를 수정해도 되나요?\nA: 네, 물론입니다. 생성된 프롬프트는 기본적인 틀을 제공하며, 여러분의 필요에 따라 자유롭게 수정하고 개선하여 사용하시면 됩니다.\nQ: '프롬프트 생성기'를 활용하면 어떤 분야에 가장 큰 도움이 될까요?\nA: 콘텐츠 제작(블로그, 유튜브), 마케팅 전략, 비즈니스 컨설팅, 개인 학습 및 연구 등 '명확하고 구체적인 지시'가 필요한 모든 AI 활용 분야에서 큰 시너지를 얻을 수 있습니다.\n'젬 지침', 다운로드 하기 \n반응형\n\n    \n    (adsbygoogle = window.adsbygoogle || []).push({});\n  \n\n    \n\n    \n프롬프트생성기GEM지침과 결과물예시.zip\n0.01MB",
+    "title": "초고속 인터넷 설치, 유명 업체보다 ‘퍼스플러스’가 싸고 편한 4가지 이유",
+    "description": "인터넷은 약정이 끝날 때마다 바꾸는 게 이익이다. 그래서 많은 업체들은 “인터넷 설치 시 현금 OO만원 지원”으로 유혹한다. 경험해본 결과 ‘퍼스플러스’라는 앱이 인터넷 설치를 가장 편하고 저렴하게 하는 방법이었다. ‘퍼스플러스’는 원하는 초고속인터넷 상품을 고르면, 여러 인터넷 설치업체가 ‘이 가격에 해주겠다’며 조건과 가격을 제시하는 ‘역경매’ 플랫폼이다. 퍼스플러스의 장점을 타 업체와 비교하여 정리해보았다.   1. 어지간하면 제일 싸다 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483611",
-    "pubDate": "Sun, 22 Jun 2025 15:16:08 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://ppss.kr/archives/269834",
+    "pubDate": "Wed, 25 Jun 2025 04:43:36 +0000",
+    "creator": "리승환",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "AI 글쓰기",
-      "ai 영상 제작",
-      "AI 이미지 생성",
-      "ai 프롬프트",
-      "AI 활용법",
-      "SEO 최적화",
-      "비즈니스 솔루션",
-      "인공지능",
-      "젬 지침",
-      "프롬프트 생성기"
+      "IT",
+      "스타트업",
+      "sponsored"
     ]
   },
   {
     "id": 10,
-    "imageUrl": "",
-    "title": "Inside Access: Join Us at VS Live! Redmond for a Week of Deep Developer Learning",
-    "description": "A long time ago, I stood in a packed room at VS Live! and watched developers erupt in applause after a debugging demo shaved hours off a real-world problem. That was the moment I realized this wasn’t just a conference—it was a place where developers and toolmakers come together to push the craft forward. I’m […]\nThe post Inside Access: Join Us at VS Live! Redmond for a Week of Deep Developer Learning appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/inside-access-join-us-at-vs-live-redmond-for-a-week-of-deep-developer-learning/",
-    "pubDate": "Mon, 23 Jun 2025 14:00:26 +0000",
-    "creator": "Mads Kristensen",
-    "categories": [
-      "Visual Studio",
-      "VS LIVE!"
-    ]
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "테크 컨퍼런스 Tech-Verse 2025를 개최합니다",
     "description": "행사 안내LY Corporation에서 오는 6월 30일과 7월 1일 양일간 테크 컨퍼런스 Tech-Verse 2025를 개최합니다.Tech-Verse는 전세계 LY Corpora...",
@@ -160,55 +153,78 @@
     "categories": []
   },
   {
-    "id": 12,
+    "id": 11,
     "imageUrl": "",
-    "title": "VS Code의 Copilot과 Copilot Chat의 기능과 활용 방법",
-    "description": "No description available",
+    "title": "비밀 조직은 굶고 있다. / 수익화를 잊고있었던  버튜버",
+    "description": "영상: https://www.youtube.com/watch?v=UkIgk4RI6ck\n\n\n\n수익화를 빼먹은 버뷰터\n유튜브는 비밀조직에 돈을 주고 있는거구나",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/ai-github_copilot_20250625/",
-    "pubDate": "Wed, 25 Jun 2025 00:00:00 +0900",
-    "creator": "Unknown",
+    "link": "http://serverdown.tistory.com/1344",
+    "pubDate": "Sat, 28 Jun 2025 13:31:08 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "버튜버"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "런웨이 자금이 단 6개월 남았을 때 - 런웨이 자금이 6개월 남은 IT 스타트업의 단기 생존 전략",
+    "description": "런웨이 자금이 단 6개월 남았을 때 스타트업은 비상상황으로 인식하고, 즉시 실행 가능한 현실적 전략을 강력하게 추진해야 합니다. 다음 4가지 전략을 구체적으로 제시합니다.  1. Burn Rate 즉각적 감축 비핵심 비용 최소화 : 사무실 임대료를 협상하거나 코워킹스페이스, 재택근무 체제로 빠르게 전환하세요. 외주업무, 비핵심 마케팅 비용, 구독형 서비스는",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/277",
+    "pubDate": "Tue, 24 Jun 2025 07:07:32 GMT",
+    "creator": "고명환",
     "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "미수령 환급 조회부터 고용•산재보험료 환급 신청까지 이제 민간앱에서 이용하세요 ",
-    "description": "공공기관 사이트에 방문할 필요 없이 간편해졌어요",
+    "title": "불황 속에서도 살아남는 스타트업의 전략적 특징 5가지",
+    "description": "2004년 하반기, 스타트업 시장은 어느 때보다 냉각되었습니다. 시드 투자도, 시리즈 A도 예전처럼 쉽게 이뤄지지 않고, 심지어 기존 투자자들도 팔짱을 끼고 지켜보는 상황이죠. 하지만 이런 시기에도 살아남는 스타트업, 심지어 더 단단해지는 스타트업이 있습니다. 불황 속에서도 살아남는 스타트업들이 공통적으로 실천하고 있는 전략 5가지 정리했습니다.  1. 현",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-45",
-    "pubDate": "Wed, 25 Jun 2025 06:41:00 GMT",
-    "creator": "Unknown",
+    "link": "https://brunch.co.kr/@@LOc/280",
+    "pubDate": "Fri, 27 Jun 2025 04:27:55 GMT",
+    "creator": "고명환",
     "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "이재명 정부 'AI 강국 3위' 청사진 - 스타트업이 준비해야 할 5가지 전략",
-    "description": "이재명 정부 AI 정책, 이렇게 바뀐다. 이재명 정부는 AI를 \"국가 생존 전략\"으로 규정하며 다음과 같은 구체적 목표와 실행 로드맵을 제시했습니다.  1. '3-3-5 비전'과 140조 투자계획 3대 전략산업 : 인공지능(AI), 바이오, 방위산업 3대 핵심 인프라 : AI 인재, 고성능 컴퓨팅 자원, 데이터 홀용 인프라 5년간 총 140조 투자 가) 정",
+    "title": "Visual Studio 2022 17.14 릴리스 노트",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/278",
-    "pubDate": "Wed, 25 Jun 2025 07:45:46 GMT",
-    "creator": "고명환",
+    "link": "https://jacking75.github.io/VS_20250626/",
+    "pubDate": "Thu, 26 Jun 2025 00:00:00 +0900",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.1.3 Is Out!",
-    "description": "IntelliJ IDEA 2025.1.3 is out with a number of useful fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update brings the following improvements: For a comprehensive overview of the fixes, see […]",
+    "title": "이 글 사람이 쓴 거죠? 소리 듣게 만드는 AI 글쓰기 비법 (GEMS 지침서 공개)",
+    "description": "AI 글쓰기, 티 안 나게 하는 초격차 비법? AI로 글은 쓰지만, 어딘가 어색하고 전문가의 깊이가 부족하다고 느끼셨나요? 이 글에서는 페르소나 설정부터, 내 글 스타일 학습, 그리고 3가지 AI를 활용한 교차 검증까지, AI가 쓴 티가 전혀 나지 않는 고품질 글쓰기 3단계 방법론과 자동화 GEMS 지침까지 모두 알려드립니다!\n이 글 사람이 쓴 거죠? 소리 듣게 만드는 AI 글쓰기 비법\n\n\n \n 요즘 다들 GPT, GPT 하잖아요? 저도 물론이고요. 그런데 글을 쓰다 보면 뭔가 좀 아쉬울 때가 많았어요. 너무 기계적인 느낌이 나거나, 엉뚱한 정보를 주는 경우도 있었고요. 그래서 \"어떻게 하면 AI가 쓴 티가 나지 않게, 진짜 사람처럼 자연스러운 글을 쓸 수 있을까?\" 정말 많이 고민했답니다. 그러다가 균형 잡힌 장점을 가진 구글의 '제미니(Gemini)'를 메인으로 활용하면서 그 해답을 찾았어요!  \n오늘은 제가 직접 부딪히고 깨달은, AI를 활용해 전문가 수준의 고품질 글을 작성하는 3단계 방법론과 구체적인 노하우를 아낌없이 공유해 드릴게요. 이제 더 이상 어색한 AI 글은 그만! 저만 따라오세요.\n \nSTEP 1: 페르소나 설정, AI에게 명확한 역할 부여하기  \n가장 먼저 해야 할 일은 바로 '상황 정의'예요. 이걸 '페르소나 설정'이라고도 부르는데요, AI에게 글을 쓰는 '나'는 누구이고, 이 글을 읽을 '독자'는 누구인지 구체적으로 알려주는 과정이에요. 그냥 \"블로그 글 써줘\"라고 하는 것과, 구체적인 역할을 부여하는 건 결과물에서 하늘과 땅 차이가 난답니다.\n이렇게 역할과 타겟을 명확히 설정하면 AI는 그에 맞는 톤, 어휘, 글의 깊이를 조절하기 시작해요. 막연한 요청은 막연한 결과물을 낳을 뿐이죠. 의도를 명확하게 전달하는 것, 이것이 고품질 AI 글쓰기의 첫걸음이에요.\n  1단계 상세 프롬프트 예시\n\"너는 지금부터 15년 경력의 IT 전문 블로거 '테크마스터'야. 아래의 상세 지침에 따라 블로그 포스트를 작성해 줘.\"\n나의 페르소나: 15년 차 IT 블로거, 어려운 기술 용어를 독자들의 눈높이에 맞춰 쉽고 위트 있게 설명하는 것을 즐김.\n타겟 독자: IT 분야에 관심은 많지만, 전문 지식은 부족한 20~30대 직장인 및 대학생.\n글의 목적: 최근 출시된 'OOO' 스마트폰의 새로운 기능이 실생활을 어떻게 바꿀 수 있는지 구체적인 예시를 통해 알려주는 것.\n글의 톤앤매너: 친한 형이나 오빠가 최신 기기를 리뷰해 주듯, 친근하고 유머러스한 말투. 전문 용어는 최소화하고, 비유를 적극적으로 사용.\n글의 형식: 도입부에서 독자의 공감을 사고, 본문은 3개의 소제목으로 나누어 기능을 설명하고, 마무리에서 핵심 내용을 요약해 줄 것.\n \nSTEP 2: 나의 글 스타일 학습시키기 ✍️\n두 번째 단계는 AI가 나의 고유한 글 스타일을 학습하게 만드는 거예요. 제가 제미니를 주로 사용하는 이유 중 하나가 바로 이 '역할 수행 능력'이 뛰어나기 때문인데요. 제가 쓴 글 몇 개를 예시로 보여주면서 \"이런 스타일과 어조로 글을 다듬어줘\"라고 요청하면, 정말 제 글처럼 자연스럽게 결과물을 업그레이드해준답니다.\nAI에게 나만의 데이터를 학습시키는 과정은 AI가 만든 글에서 느껴지는 특유의 인공적인 느낌을 지우는 가장 확실한 방법이에요. 마치 AI에게 저만의 글쓰기 과외를 시키는 것과 같다고 할 수 있죠.\n  2단계 상세 프롬프트 예시\n\"아래는 내가 평소에 쓰는 글 스타일이야. 이 글의 특징(문체, 어조, 단어 선택, 문장 길이 등)을 학습해서, 다음에 제시하는 초안을 내 스타일대로 완전히 새롭게 다시 작성해 줘.\"\n[나의 글 예시]\n\"(여기에 자신의 글을 붙여넣으세요. 예를 들어, '여러분, 솔직히 말해서 맨날 똑같은 일상, 좀 지겹지 않나요? 저도 그랬거든요. 그래서 이번에 큰맘 먹고...' 와 같이 자신의 개성이 드러나는 글을 3~5문단 정도 제공합니다.)\"\n[수정할 초안]\n\"(여기에 AI가 1단계에서 생성했거나, 직접 작성한 초고를 붙여넣습니다.)\"\n \nSTEP 3: 최종 검수, 3가지 AI로 교차 검증하기  \n마지막 단계는 '최종 검수'입니다. 저는 이 과정에서 3가지 AI를 각기 다른 목적으로 활용하여 글의 완성도를 극한까지 끌어올립니다. 바로 제미니(Gemini), GPT, 그리고 퍼플렉시티(Perplexity)입니다.\n먼저 제미니로 창의적인 초안을 만들고, 그 초안을 GPT에게 넘겨 논리적 허점이나 어색한 문맥을 수정하게 합니다. 마지막으로, 정보의 최신성이나 정확성이 중요한 글이라면 퍼플렉시티를 통해 최신 정보와 출처를 교차 검증합니다. 이 3단계 검수 과정은 마치 작가, 편집자, 팩트체커가 한 팀으로 움직이는 것과 같은 효과를 냅니다.\nAI 모델\n핵심 역할\n주요 강점\n\n\n\n\nGemini\n창의적 초안 작성\n역할극, 스타일 모방, 균형 잡힌 글 생성\n\n\nGPT\n논리적 교정/교열\n문맥 오류, 논리적 허점 파악 및 수정\n\n\nPerplexity\n최신성/정확성 검증\n실시간 웹 검색 기반, 출처 제시, 팩트체크\n\n\n\n\n  3단계 상세 프롬프트 예시 (GPT 활용)\n\"너는 지금부터 대한민국 최고의 출판사 편집장이야. 아래의 글 초안에서 어색한 문장, 논리적 오류, 또는 매끄럽지 않은 부분들을 찾아서 수정해 줘. 수정할 때는 반드시 원본의 의도와 친근한 톤앤매너는 유지해야 해. 수정된 부분은 '굵은 글씨'로 표시해서 어디가 어떻게 바뀌었는지 명확하게 보여줘.\"\n\"(여기에 제미니가 2단계까지 거쳐 생성한 최종 원고를 붙여넣습니다.)\"\n \n보너스: 나만의 AI 글쓰기 자동화 시스템, 'GEMS' 만들기  \n매번 이렇게 3단계 프롬프트를 입력하는 게 번거로우시죠? GPTs나 제미니의 맞춤설정(Custom Instructions) 기능을 활용하면 이 모든 과정을 자동화하는 '나만의 글쓰기 비서(GEMS)'를 만들 수 있습니다. 아래 지침을 복사해서 사용해 보세요!\nAI 글쓰기 고도화를 위한 GEMS 통합 지침\n이 GEMS 지침은 사용자가 쉽게 따라올 수 있도록, AI가 먼저 글의 기본 골격에 대한 선택지를 제안하고, 사용자의 선택을 바탕으로 3단계(페르소나 설정 → 스타일 학습 → 교차 검증) 작업을 유기적으로 수행하도록 설계되었습니다.\nG (Goal): 최종 목표\nAI 특유의 기계적인 느낌을 완전히 제거하고, 사용자와 함께 설정한 페르소나와 글쓰기 스타일을 완벽하게 반영하여 특정 분야의 전문가가 직접 작성한 것처럼 자연스럽고, 정확하며, 설득력 있는 고품질의 최종 원고를 완성하는 것.\nE (Expertise): 전문가 역할\n당신은 이제부터 단순한 AI가 아닌, 3개의 전문 역할을 순차적으로 수행하는 '프로페셔널 콘텐츠 팀'으로 활동합니다. 각 단계(Milestone)마다 아래의 역할로 전환하여 임무를 수행해야 합니다.\n콘텐츠 기획자 (Content Planner): 사용자와 대화하며 글의 주제와 페르소나를 구체화하는 역할.\n스타일 전문가 (Stylist): 사용자의 글 스타일을 학습하여 원고에 완벽하게 녹여내는 역할.\n최고 편집장 (Chief Editor & Fact-Checker): 논리, 문맥, 사실관계를 교차 검증하여 글의 완성도를 극한으로 끌어올리는 역할.\nM (Milestones): 단계별 실행 계획\n아래 3단계의 마일스톤을 순서대로 진행하며, 각 단계가 완료될 때마다 사용자에게 확인을 받고 다음 단계로 이동합니다.\nMilestone 1: 대화형 페르소나 설정 및 초안 작성\n\n'콘텐츠 기획자'의 역할로, 먼저 사용자에게 글의 핵심 주제를 질문합니다.\n(AI 대화 예시) \"안녕하세요! 최고의 글을 함께 만들어갈 콘텐츠 팀입니다. 먼저, 어떤 주제에 대해 글을 작성하고 싶으신가요?\"\n주제를 파악한 후, 아래의 [페르소나 설정 질문지]를 제시하고 사용자가 각 항목에 대해 선택지를 고르거나 직접 입력하도록 안내합니다.\n\n[페르소나 설정 질문지]\n\"알겠습니다! 해당 주제로 최고의 글을 쓰기 위해, 아래 각 항목에서 가장 마음에 드는 옵션을 선택하거나 직접 입력해주세요.\"\n1. 글쓴이(나)의 역할은 무엇인가요?\n(a) 해당 분야 10년차 전문가 (b) 제품/서비스를 꼼꼼하게 분석하는 리뷰어 (c) 먼저 경험해보고 노하우를 알려주는 친한 선배 (d) 직접 입력:\n2. 이 글을 누가 읽을까요? (타겟 독자)\n(a) 이제 막 관심을 갖기 시작한 입문자 (b) 어느 정도 지식은 있지만, 더 깊이 알고 싶은 실무자 (c) 구매나 사용을 망설이는 잠재 고객 (d) 2030 직장인 또는 대학생 (e) 직접 입력:\n3. 글의 가장 중요한 목적은 무엇인가요?\n(a) 핵심 정보와 지식을 명확하게 전달 (정보 제공) (b) 제품/서비스의 구매나 사용을 유도 (설득/영업) (c) 독자의 특정 문제를 해결해주는 가이드 제공 (문제 해결) (d) 독자의 공감을 얻고 재미를 선사 (공감/재미) (e) 직접 입력:\n4. 어떤 말투와 분위기를 원하시나요? (톤앤매너)\n(a) 친근하고 유머러스하게 (b) 전문적이고 신뢰감 있게 (c) 객관적이고 명료하게 (d) 감성적이고 따뜻하게 (e) 직접 입력:\n5. 어떤 구조로 글을 구성할까요? (형식)\n(a) 도입-본문(3단락)-요약 (기본 블로그 형식) (b) 장점/단점 분석 (리뷰 형식) (c) 문제 제기-해결 과정-결론 (가이드 형식) (d) 시간 순서에 따른 이야기 (스토리텔링 형식) (e) 직접 입력:\n사용자의 선택을 바탕으로 완성된 페르소나를 요약하여 확인시킨 후, 그에 맞춰 초안을 작성합니다.\n생성된 초안을 사용자에게 제시하고, 다음 단계 진행 여부를 확인합니다.\nMilestone 2: 사용자 스타일 학습 및 원고 재창조\n\n'스타일 전문가' 역할로 전환합니다.\n사용자에게 자신의 글 스타일이 잘 드러나는 글(3~5문단)을 `[스타일 샘플]`로 제공해달라고 요청합니다.\n샘플의 문체, 어조, 어휘, 문장 길이, 유머 코드 등 고유한 특징을 심층 분석합니다.\n분석한 스타일을 Milestone 1의 초안에 완벽하게 적용하여, 마치 사용자가 직접 쓴 것처럼 원고 전체를 새롭게 재창조(Rewrite)합니다.\n스타일이 적용된 원고를 사용자에게 제시하고, 다음 단계 진행 여부를 확인합니다.\nMilestone 3: 전문가 교차 검증 및 최종 원고 완성\n\n'최고 편집장'의 역할로 전환합니다.\n(논리/문맥 교정): Milestone 2의 원고에서 어색한 문장, 논리적 비약, 매끄럽지 않은 연결 부분을 찾아 수정합니다. 수정 시, 원본의 의도와 페르소나의 톤앤매너는 반드시 유지해야 합니다. 수정된 부분은 '굵은 글씨'로 표시하여 변경 내역을 명확히 보여줍니다.\n(정확성/최신성 검증): 원고에 포함된 정보, 통계, 기술 용어 등의 정확성과 최신성을 실시간 웹 검색을 통해 검증합니다. 만약 부정확하거나 오래된 정보가 있다면, 최신 정보로 수정하고 [출처: URL] 형식으로 근거를 제시합니다.\n모든 검증과 수정이 완료된 최종 완성본을 사용자에게 제출합니다.\nS (Scope): 작업 범위 및 제약 조건\n상호작용: 모든 작업은 사용자와의 대화를 통해 진행됩니다. 특히 Milestone 1에서는 사용자가 쉽고 명확하게 선택할 수 있도록 안내해야 합니다.\n핵심 제약: 전 과정에서 'AI가 쓴 티가 나지 않도록 하는 것'이 최우선 목표입니다. 기계적인 번역투나 상투적인 표현 사용을 최대한 지양합니다.\n최종 결과물: 모든 단계가 완료된 후, 즉시 발행 가능한 수준의 완성도 높은 글 한 편을 제공해야 합니다.\n \n \n \nAI 글쓰기 3단계 핵심 요약\n✨ 1단계 (페르소나): 글의 목적과 독자를 명확히 정의하여 AI에게 구체적인 역할을 부여하세요.\n✍️ 2단계 (스타일 학습): 자신이 쓴 글을 예시로 제공하여 AI가 나의 고유한 글 스타일과 톤을 학습하게 만드세요.\n  3단계 (최종 검수):\n제미니(초안) → GPT(교정) → 퍼플렉시티(검증)\nAI는 강력한 도구일 뿐, 글의 주인은 바로 '나' 자신입니다.\n자주 묻는 질문 ❓\nQ: AI 3개를 꼭 다 써야 하나요? 너무 번거로워요.\nA: 물론입니다. 1, 2단계만 잘 적용해도 훌륭한 글을 쓸 수 있어요. 3단계 교차 검증은 글의 퀄리티를 전문가 수준으로 만들고 싶을 때 사용하는 '심화 팁'입니다. 필요에 따라, 예를 들어 논리가 중요하다면 GPT, 최신 정보가 중요하다면 퍼플렉시티만 선택적으로 활용하셔도 좋습니다.\nQ: GEMS 맞춤 지침은 어디에 입력해야 하나요?\nA: ChatGPT의 경우, 좌측 하단 프로필을 클릭하여 'Custom instructions' 메뉴에 입력할 수 있습니다. 구글 제미니의 경우에도 유사한 맞춤설정 기능이 점차 확대 적용되고 있으니 해당 메뉴에 입력하시면 됩니다.\n오늘 알려드린 3단계 방법론과 GEMS 자동화 팁, 어떠셨나요? AI는 더 이상 어려운 기술이 아니라 우리의 창의력을 증폭시켜주는 훌륭한 파트너가 될 수 있어요. 오늘부터 당장 시도해보시고, 혹시 더 궁금한 점이 있다면 언제든지 댓글로 물어봐주세요! 여러분의 성공적인 AI 글쓰기를 응원합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/06/intellij-idea-2025-1-3/",
-    "pubDate": "Mon, 23 Jun 2025 18:51:04 +0000",
-    "creator": "Maria Kosukhina",
+    "link": "http://muzbox.tistory.com/483614",
+    "pubDate": "Fri, 27 Jun 2025 08:52:30 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "releases",
-      "bug-fix-update",
-      "intellij-idea-2025-1"
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "AI 글쓰기",
+      "AI 자동화",
+      "Gems",
+      "GPT",
+      "맞춤형 gpt",
+      "블로그 글쓰기",
+      "제미니",
+      "콘텐츠 제작",
+      "퍼플렉시티",
+      "프롬프트 엔지니어링"
     ]
   }
 ]
