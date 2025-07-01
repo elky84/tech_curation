@@ -2,6 +2,128 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "기술 전략 기획, 그리고 나의 고민 - CTO Office의 새로운 여정",
+    "description": "IT 기술의 최전선에서 일하는 한 사람으로서, 최근 나에게 주어진 흥미로우면서도 도전적인 미션에 대해 이야기해볼까 한다. 바로 '기술 전략 기획'과 '기술 로드맵 작성'이라는 과제다. 사실 이 미션을 부여받았을 때, 막연한 두려움과 함께 궁금증이 폭발했다. 과연 무엇부터 시작해야 할까? 그리고 우리 회사의 특수성을 고려했을 때 어떤 접근이 필요할까?  이러",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/49",
+    "pubDate": "Sat, 28 Jun 2025 06:41:35 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "바이브 코딩을 위한 구글 Gemini CLI 도구 분석 및 사용",
+    "description": "이 글은 바이브 코딩을 위한 구글 Gemini CLI 도구 분석 및 사용기를 나눔합니다. 이 도구를 사용하면 다음과 같이 터미널 명령창에서 프롬프트를 이용해 바이브 코딩을 하고, 이 과정도 자동화할 수 있습니다.\n\n\n준비 사항\n다음 링크를 방문해, 도구를 설치한다.\n\ngoogle-gemini/gemini-cli: An open-source AI agent that brings the power of Gemini directly into your terminal.\n\n이 도구를 사용하기 위해선 Google AI API 키 등이 준비되어야 한다. 다음 링크를 참고해 가입 준비 후 진행한다. \n\nGet API key | Google AI Studio\n\n바이브 코딩하기\n명령창에서 gemini를 실행하고, 다음과 같이 프롬프트를 입력해 본다. \n> Convert all the images in this directory to png, and rename them to use dates with pillow library etc.\n\n\n정상적으로 실행된다면, 제미니가 에이전트로 동작하며, 문제 해결을 위한 ReAct 전략을 단계별로 추론해, 적절한 도구를 설치하고, 코딩을 해 소스코드를 생성한 후, 실행할 것이다. 다음은 그 결과를 보여준다. \n\n\n\n\n다른 프롬프트도 입력해 바이브 코딩해 본다. \n> Organise my PDF invoices by month of expenditure.\n\n\n레퍼런스\n\ngoogle-gemini/gemini-cli: An open-source AI agent that brings the power of Gemini directly into your terminal\n구글 제미나이 CLI",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/06/gemini-cli.html",
+    "pubDate": "2025-06-29T04:40:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "이 글 사람이 쓴 거죠? 소리 듣게 만드는 AI 글쓰기 비법 (GEMS 지침서 공개)",
+    "description": "AI 글쓰기, 티 안 나게 하는 초격차 비법? AI로 글은 쓰지만, 어딘가 어색하고 전문가의 깊이가 부족하다고 느끼셨나요? 이 글에서는 페르소나 설정부터, 내 글 스타일 학습, 그리고 3가지 AI를 활용한 교차 검증까지, AI가 쓴 티가 전혀 나지 않는 고품질 글쓰기 3단계 방법론과 자동화 GEMS 지침까지 모두 알려드립니다!\n이 글 사람이 쓴 거죠? 소리 듣게 만드는 AI 글쓰기 비법\n\n\n \n 요즘 다들 GPT, GPT 하잖아요? 저도 물론이고요. 그런데 글을 쓰다 보면 뭔가 좀 아쉬울 때가 많았어요. 너무 기계적인 느낌이 나거나, 엉뚱한 정보를 주는 경우도 있었고요. 그래서 \"어떻게 하면 AI가 쓴 티가 나지 않게, 진짜 사람처럼 자연스러운 글을 쓸 수 있을까?\" 정말 많이 고민했답니다. 그러다가 균형 잡힌 장점을 가진 구글의 '제미니(Gemini)'를 메인으로 활용하면서 그 해답을 찾았어요!  \n오늘은 제가 직접 부딪히고 깨달은, AI를 활용해 전문가 수준의 고품질 글을 작성하는 3단계 방법론과 구체적인 노하우를 아낌없이 공유해 드릴게요. 이제 더 이상 어색한 AI 글은 그만! 저만 따라오세요.\n \nSTEP 1: 페르소나 설정, AI에게 명확한 역할 부여하기  \n가장 먼저 해야 할 일은 바로 '상황 정의'예요. 이걸 '페르소나 설정'이라고도 부르는데요, AI에게 글을 쓰는 '나'는 누구이고, 이 글을 읽을 '독자'는 누구인지 구체적으로 알려주는 과정이에요. 그냥 \"블로그 글 써줘\"라고 하는 것과, 구체적인 역할을 부여하는 건 결과물에서 하늘과 땅 차이가 난답니다.\n이렇게 역할과 타겟을 명확히 설정하면 AI는 그에 맞는 톤, 어휘, 글의 깊이를 조절하기 시작해요. 막연한 요청은 막연한 결과물을 낳을 뿐이죠. 의도를 명확하게 전달하는 것, 이것이 고품질 AI 글쓰기의 첫걸음이에요.\n  1단계 상세 프롬프트 예시\n\"너는 지금부터 15년 경력의 IT 전문 블로거 '테크마스터'야. 아래의 상세 지침에 따라 블로그 포스트를 작성해 줘.\"\n나의 페르소나: 15년 차 IT 블로거, 어려운 기술 용어를 독자들의 눈높이에 맞춰 쉽고 위트 있게 설명하는 것을 즐김.\n타겟 독자: IT 분야에 관심은 많지만, 전문 지식은 부족한 20~30대 직장인 및 대학생.\n글의 목적: 최근 출시된 'OOO' 스마트폰의 새로운 기능이 실생활을 어떻게 바꿀 수 있는지 구체적인 예시를 통해 알려주는 것.\n글의 톤앤매너: 친한 형이나 오빠가 최신 기기를 리뷰해 주듯, 친근하고 유머러스한 말투. 전문 용어는 최소화하고, 비유를 적극적으로 사용.\n글의 형식: 도입부에서 독자의 공감을 사고, 본문은 3개의 소제목으로 나누어 기능을 설명하고, 마무리에서 핵심 내용을 요약해 줄 것.\n \nSTEP 2: 나의 글 스타일 학습시키기 ✍️\n두 번째 단계는 AI가 나의 고유한 글 스타일을 학습하게 만드는 거예요. 제가 제미니를 주로 사용하는 이유 중 하나가 바로 이 '역할 수행 능력'이 뛰어나기 때문인데요. 제가 쓴 글 몇 개를 예시로 보여주면서 \"이런 스타일과 어조로 글을 다듬어줘\"라고 요청하면, 정말 제 글처럼 자연스럽게 결과물을 업그레이드해준답니다.\nAI에게 나만의 데이터를 학습시키는 과정은 AI가 만든 글에서 느껴지는 특유의 인공적인 느낌을 지우는 가장 확실한 방법이에요. 마치 AI에게 저만의 글쓰기 과외를 시키는 것과 같다고 할 수 있죠.\n  2단계 상세 프롬프트 예시\n\"아래는 내가 평소에 쓰는 글 스타일이야. 이 글의 특징(문체, 어조, 단어 선택, 문장 길이 등)을 학습해서, 다음에 제시하는 초안을 내 스타일대로 완전히 새롭게 다시 작성해 줘.\"\n[나의 글 예시]\n\"(여기에 자신의 글을 붙여넣으세요. 예를 들어, '여러분, 솔직히 말해서 맨날 똑같은 일상, 좀 지겹지 않나요? 저도 그랬거든요. 그래서 이번에 큰맘 먹고...' 와 같이 자신의 개성이 드러나는 글을 3~5문단 정도 제공합니다.)\"\n[수정할 초안]\n\"(여기에 AI가 1단계에서 생성했거나, 직접 작성한 초고를 붙여넣습니다.)\"\n \nSTEP 3: 최종 검수, 3가지 AI로 교차 검증하기  \n마지막 단계는 '최종 검수'입니다. 저는 이 과정에서 3가지 AI를 각기 다른 목적으로 활용하여 글의 완성도를 극한까지 끌어올립니다. 바로 제미니(Gemini), GPT, 그리고 퍼플렉시티(Perplexity)입니다.\n먼저 제미니로 창의적인 초안을 만들고, 그 초안을 GPT에게 넘겨 논리적 허점이나 어색한 문맥을 수정하게 합니다. 마지막으로, 정보의 최신성이나 정확성이 중요한 글이라면 퍼플렉시티를 통해 최신 정보와 출처를 교차 검증합니다. 이 3단계 검수 과정은 마치 작가, 편집자, 팩트체커가 한 팀으로 움직이는 것과 같은 효과를 냅니다.\nAI 모델\n핵심 역할\n주요 강점\n\n\n\n\nGemini\n창의적 초안 작성\n역할극, 스타일 모방, 균형 잡힌 글 생성\n\n\nGPT\n논리적 교정/교열\n문맥 오류, 논리적 허점 파악 및 수정\n\n\nPerplexity\n최신성/정확성 검증\n실시간 웹 검색 기반, 출처 제시, 팩트체크\n\n\n\n\n  3단계 상세 프롬프트 예시 (GPT 활용)\n\"너는 지금부터 대한민국 최고의 출판사 편집장이야. 아래의 글 초안에서 어색한 문장, 논리적 오류, 또는 매끄럽지 않은 부분들을 찾아서 수정해 줘. 수정할 때는 반드시 원본의 의도와 친근한 톤앤매너는 유지해야 해. 수정된 부분은 '굵은 글씨'로 표시해서 어디가 어떻게 바뀌었는지 명확하게 보여줘.\"\n\"(여기에 제미니가 2단계까지 거쳐 생성한 최종 원고를 붙여넣습니다.)\"\n \n보너스: 나만의 AI 글쓰기 자동화 시스템, 'GEMS' 만들기  \n매번 이렇게 3단계 프롬프트를 입력하는 게 번거로우시죠? GPTs나 제미니의 맞춤설정(Custom Instructions) 기능을 활용하면 이 모든 과정을 자동화하는 '나만의 글쓰기 비서(GEMS)'를 만들 수 있습니다. 아래 지침을 복사해서 사용해 보세요!\nAI 글쓰기 고도화를 위한 GEMS 통합 지침\n이 GEMS 지침은 사용자가 쉽게 따라올 수 있도록, AI가 먼저 글의 기본 골격에 대한 선택지를 제안하고, 사용자의 선택을 바탕으로 3단계(페르소나 설정 → 스타일 학습 → 교차 검증) 작업을 유기적으로 수행하도록 설계되었습니다.\nG (Goal): 최종 목표\nAI 특유의 기계적인 느낌을 완전히 제거하고, 사용자와 함께 설정한 페르소나와 글쓰기 스타일을 완벽하게 반영하여 특정 분야의 전문가가 직접 작성한 것처럼 자연스럽고, 정확하며, 설득력 있는 고품질의 최종 원고를 완성하는 것.\nE (Expertise): 전문가 역할\n당신은 이제부터 단순한 AI가 아닌, 3개의 전문 역할을 순차적으로 수행하는 '프로페셔널 콘텐츠 팀'으로 활동합니다. 각 단계(Milestone)마다 아래의 역할로 전환하여 임무를 수행해야 합니다.\n콘텐츠 기획자 (Content Planner): 사용자와 대화하며 글의 주제와 페르소나를 구체화하는 역할.\n스타일 전문가 (Stylist): 사용자의 글 스타일을 학습하여 원고에 완벽하게 녹여내는 역할.\n최고 편집장 (Chief Editor & Fact-Checker): 논리, 문맥, 사실관계를 교차 검증하여 글의 완성도를 극한으로 끌어올리는 역할.\nM (Milestones): 단계별 실행 계획\n아래 3단계의 마일스톤을 순서대로 진행하며, 각 단계가 완료될 때마다 사용자에게 확인을 받고 다음 단계로 이동합니다.\nMilestone 1: 대화형 페르소나 설정 및 초안 작성\n\n'콘텐츠 기획자'의 역할로, 먼저 사용자에게 글의 핵심 주제를 질문합니다.\n(AI 대화 예시) \"안녕하세요! 최고의 글을 함께 만들어갈 콘텐츠 팀입니다. 먼저, 어떤 주제에 대해 글을 작성하고 싶으신가요?\"\n주제를 파악한 후, 아래의 [페르소나 설정 질문지]를 제시하고 사용자가 각 항목에 대해 선택지를 고르거나 직접 입력하도록 안내합니다.\n\n[페르소나 설정 질문지]\n\"알겠습니다! 해당 주제로 최고의 글을 쓰기 위해, 아래 각 항목에서 가장 마음에 드는 옵션을 선택하거나 직접 입력해주세요.\"\n1. 글쓴이(나)의 역할은 무엇인가요?\n(a) 해당 분야 10년차 전문가 (b) 제품/서비스를 꼼꼼하게 분석하는 리뷰어 (c) 먼저 경험해보고 노하우를 알려주는 친한 선배 (d) 직접 입력:\n2. 이 글을 누가 읽을까요? (타겟 독자)\n(a) 이제 막 관심을 갖기 시작한 입문자 (b) 어느 정도 지식은 있지만, 더 깊이 알고 싶은 실무자 (c) 구매나 사용을 망설이는 잠재 고객 (d) 2030 직장인 또는 대학생 (e) 직접 입력:\n3. 글의 가장 중요한 목적은 무엇인가요?\n(a) 핵심 정보와 지식을 명확하게 전달 (정보 제공) (b) 제품/서비스의 구매나 사용을 유도 (설득/영업) (c) 독자의 특정 문제를 해결해주는 가이드 제공 (문제 해결) (d) 독자의 공감을 얻고 재미를 선사 (공감/재미) (e) 직접 입력:\n4. 어떤 말투와 분위기를 원하시나요? (톤앤매너)\n(a) 친근하고 유머러스하게 (b) 전문적이고 신뢰감 있게 (c) 객관적이고 명료하게 (d) 감성적이고 따뜻하게 (e) 직접 입력:\n5. 어떤 구조로 글을 구성할까요? (형식)\n(a) 도입-본문(3단락)-요약 (기본 블로그 형식) (b) 장점/단점 분석 (리뷰 형식) (c) 문제 제기-해결 과정-결론 (가이드 형식) (d) 시간 순서에 따른 이야기 (스토리텔링 형식) (e) 직접 입력:\n사용자의 선택을 바탕으로 완성된 페르소나를 요약하여 확인시킨 후, 그에 맞춰 초안을 작성합니다.\n생성된 초안을 사용자에게 제시하고, 다음 단계 진행 여부를 확인합니다.\nMilestone 2: 사용자 스타일 학습 및 원고 재창조\n\n'스타일 전문가' 역할로 전환합니다.\n사용자에게 자신의 글 스타일이 잘 드러나는 글(3~5문단)을 `[스타일 샘플]`로 제공해달라고 요청합니다.\n샘플의 문체, 어조, 어휘, 문장 길이, 유머 코드 등 고유한 특징을 심층 분석합니다.\n분석한 스타일을 Milestone 1의 초안에 완벽하게 적용하여, 마치 사용자가 직접 쓴 것처럼 원고 전체를 새롭게 재창조(Rewrite)합니다.\n스타일이 적용된 원고를 사용자에게 제시하고, 다음 단계 진행 여부를 확인합니다.\nMilestone 3: 전문가 교차 검증 및 최종 원고 완성\n\n'최고 편집장'의 역할로 전환합니다.\n(논리/문맥 교정): Milestone 2의 원고에서 어색한 문장, 논리적 비약, 매끄럽지 않은 연결 부분을 찾아 수정합니다. 수정 시, 원본의 의도와 페르소나의 톤앤매너는 반드시 유지해야 합니다. 수정된 부분은 '굵은 글씨'로 표시하여 변경 내역을 명확히 보여줍니다.\n(정확성/최신성 검증): 원고에 포함된 정보, 통계, 기술 용어 등의 정확성과 최신성을 실시간 웹 검색을 통해 검증합니다. 만약 부정확하거나 오래된 정보가 있다면, 최신 정보로 수정하고 [출처: URL] 형식으로 근거를 제시합니다.\n모든 검증과 수정이 완료된 최종 완성본을 사용자에게 제출합니다.\nS (Scope): 작업 범위 및 제약 조건\n상호작용: 모든 작업은 사용자와의 대화를 통해 진행됩니다. 특히 Milestone 1에서는 사용자가 쉽고 명확하게 선택할 수 있도록 안내해야 합니다.\n핵심 제약: 전 과정에서 'AI가 쓴 티가 나지 않도록 하는 것'이 최우선 목표입니다. 기계적인 번역투나 상투적인 표현 사용을 최대한 지양합니다.\n최종 결과물: 모든 단계가 완료된 후, 즉시 발행 가능한 수준의 완성도 높은 글 한 편을 제공해야 합니다.\n \n \n \nAI 글쓰기 3단계 핵심 요약\n✨ 1단계 (페르소나): 글의 목적과 독자를 명확히 정의하여 AI에게 구체적인 역할을 부여하세요.\n✍️ 2단계 (스타일 학습): 자신이 쓴 글을 예시로 제공하여 AI가 나의 고유한 글 스타일과 톤을 학습하게 만드세요.\n  3단계 (최종 검수):\n제미니(초안) → GPT(교정) → 퍼플렉시티(검증)\nAI는 강력한 도구일 뿐, 글의 주인은 바로 '나' 자신입니다.\n자주 묻는 질문 ❓\nQ: AI 3개를 꼭 다 써야 하나요? 너무 번거로워요.\nA: 물론입니다. 1, 2단계만 잘 적용해도 훌륭한 글을 쓸 수 있어요. 3단계 교차 검증은 글의 퀄리티를 전문가 수준으로 만들고 싶을 때 사용하는 '심화 팁'입니다. 필요에 따라, 예를 들어 논리가 중요하다면 GPT, 최신 정보가 중요하다면 퍼플렉시티만 선택적으로 활용하셔도 좋습니다.\nQ: GEMS 맞춤 지침은 어디에 입력해야 하나요?\nA: ChatGPT의 경우, 좌측 하단 프로필을 클릭하여 'Custom instructions' 메뉴에 입력할 수 있습니다. 구글 제미니의 경우에도 유사한 맞춤설정 기능이 점차 확대 적용되고 있으니 해당 메뉴에 입력하시면 됩니다.\n오늘 알려드린 3단계 방법론과 GEMS 자동화 팁, 어떠셨나요? AI는 더 이상 어려운 기술이 아니라 우리의 창의력을 증폭시켜주는 훌륭한 파트너가 될 수 있어요. 오늘부터 당장 시도해보시고, 혹시 더 궁금한 점이 있다면 언제든지 댓글로 물어봐주세요! 여러분의 성공적인 AI 글쓰기를 응원합니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483614",
+    "pubDate": "Fri, 27 Jun 2025 08:52:30 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "AI 글쓰기",
+      "AI 자동화",
+      "Gems",
+      "GPT",
+      "맞춤형 gpt",
+      "블로그 글쓰기",
+      "제미니",
+      "콘텐츠 제작",
+      "퍼플렉시티",
+      "프롬프트 엔지니어링"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "비밀 조직은 굶고 있다. / 수익화를 잊고있었던  버튜버",
+    "description": "영상: https://www.youtube.com/watch?v=UkIgk4RI6ck\n\n\n\n수익화를 빼먹은 버뷰터\n유튜브는 비밀조직에 돈을 주고 있는거구나",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1344",
+    "pubDate": "Sat, 28 Jun 2025 13:31:08 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "버튜버"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "항공권은 왜 직항보다 경유가 더 저렴할까?",
+    "description": "직항보다 경유가 싼 이유, 당연하다고만 생각했는데 경제학 원리가 숨어있었어요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/everyday-economics-17-airline-ticket",
+    "pubDate": "Mon, 30 Jun 2025 01:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Qodana Leadership Series",
+    "description": "Progress Or Perfection? Staying Quality-Focused as a Team Under Pressure Everyone from growth-mindset gurus to Agile die-hards talk about ways in which we can iterate as developers. Release an MVP, build as you go, “minimize waste, maximize value” to stay lean, and do it all while prioritizing user feedback.  But as much merit as these […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2025/06/qodana-leadership-series-minaev/",
+    "pubDate": "Mon, 30 Jun 2025 15:47:16 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "qodana",
+      "webstorm"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "토스페이먼츠, 5년 연속 ISMS 인증 획득",
+    "description": "보안 인력 6배 확대… “가맹점과 이용자 모두에게 가장 안전한 결제 환경 제공”",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/paymentsISMS",
+    "pubDate": "Wed, 25 Jun 2025 05:45:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "ReSharper and Rider 2025.1.4: Another Set of Bug-fixes Released",
+    "description": "A fourth set of updates for the 2025.1 versions of ReSharper and Rider has just been released. This release contains important bug-fixes as well as feature updates. Let’s take a look at what’s been improved. ReSharper  ReSharper 2025.1.4 comes with the following fixes For the full list of resolved issues, please refer to our issue tracker. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/06/30/resharper-and-rider-2025-1-4/",
+    "pubDate": "Mon, 30 Jun 2025 08:32:30 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "minor-updates",
+      "news",
+      "releases",
+      "resharper",
+      "rider",
+      "update"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
     "title": "The MPS 2025.2 Early Access Program Is Live",
     "description": "We’re kicking off the MPS 2025.2 Early Access Program (EAP). You can download the first 2025.2 EAP build and try it out now! DOWNLOAD MPS 2025.2 EAP The release brings numerous bug fixes and improvements, such as: Resolve info is now correctly updated when copying references into the clipboard. The Show Node Info dialog has […]",
     "reviews": [],
@@ -16,214 +138,96 @@
     ]
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "Rider 2025.2 EAP 7: Low-Level Exception Suppression and Other Updates for Debugging Games",
-    "description": "Rider 2025.2 is shaping up to be an exciting release for game developers, no matter which engine you work with. Over the last few EAP builds, we’ve been rolling out targeted improvements to make debugging smoother, faster, and more reliable, whether you’re building with Unreal Engine, Unity, Godot, or custom C++ frameworks. In the latest […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/06/26/rider-2025-2-eap-7-low-level-exception-suppression/",
-    "pubDate": "Thu, 26 Jun 2025 09:52:35 +0000",
-    "creator": "Sasha Korepanov",
-    "categories": [
-      "net-tools",
-      "eap",
-      "news",
-      "releases",
-      "rider",
-      "game-developement",
-      "gdscript",
-      "godot",
-      "unity",
-      "unreal-engine"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "재테크의 정석, 금융 집짓기",
-    "description": "저축, 보험, 투자 어떤 것부터 하는 것이 가장 좋을까요?",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/for-your-financial-planning",
-    "pubDate": "Thu, 26 Jun 2025 23:39:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Filebeat의 multi path",
-    "description": "filebeat 설정.\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id\n  enabled: true\n  paths:\n    - d:\\firewall.log\n  prospector.scanner.fingerprint.enabled: false\n\n\nfilebeat.config.modules:\n  path: ${path.config}/modules.d/*.yml\n  reload.enabled: false\n\n\nsetup.template.settings:\n  index.number_of_shards: 1\n\n\noutput.console:\n  pretty: true\n\n\nprocessors:\n  - include_fields:\n      fields: [\"log.file.path\", \"message\"]\n\n\n\n{\n  \"@timestamp\": \"2025-06-27T13:24:11.549Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"log\": {\n    \"file\": {\n      \"path\": \"d:\\\\firewall.log\"\n    }\n  },\n  \"message\": \"2025-06-24 15:44:30 ALLOW UDP 192.168.31.177 142.250.207.100 64118 443 0 - - - - - - - SEND\"\n}\n\n\n\n\n연동 데이터를 추가하면?\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id\n  enabled: true\n  paths:\n    - d:\\firewall.log\n    - d:\\auditbeat.log\n\n\n\n\n{\n  \"@timestamp\": \"2025-06-27T13:25:50.441Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"log\": {\n    \"file\": {\n      \"path\": \"d:\\\\auditbeat.log\"\n    }\n  },\n  \"message\": \"{\\\"@timestamp\\\":\\\"2025-06-25T09:40:17.236Z\\\",\\\"@metadata\\\":{\\\"beat\\\":\\\"auditbeat\\\",\\\"type\\\":\\\"_doc\\\",\\\"version\\\":\\\"8.12.0\\\"},\\\"event\\\":{\\\"kind\\\":\\\"event\\\",\\\"category\\\":[\\\"process\\\"],\\\"type\\\":[\\\"end\\\"],\\\"action\\\":\\\"process_stopped\\\",\\\"module\\\":\\\"system\\\",\\\"dataset\\\":\\\"process\\\"},\\\"ecs\\\":{\\\"version\\\":\\\"8.0.0\\\"},\\\"host\\\":{\\\"name\\\":\\\"MHKANG\\\"},\\\"agent\\\":{\\\"version\\\":\\\"8.12.0\\\",\\\"ephemeral_id\\\":\\\"013c425b-7951-4670-ab30-7432708042cd\\\",\\\"id\\\":\\\"5d624028-d6db-4bf3-9930-2739c9b72407\\\",\\\"name\\\":\\\"MHKANG\\\",\\\"type\\\":\\\"auditbeat\\\"},\\\"process\\\":{\\\"parent\\\":{\\\"pid\\\":1636},\\\"hash\\\":{\\\"sha1\\\":\\\"119965512252f4da4ac86887562e0d4ad4f2d4c3\\\"},\\\"entity_id\\\":\\\"1vfinYF9dclwaAOM\\\",\\\"pid\\\":216868,\\\"executable\\\":\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\python3.exe\\\",\\\"start\\\":\\\"2025-06-25T09:40:05.187Z\\\",\\\"name\\\":\\\"python3.exe\\\",\\\"args\\\":[\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\Python3.exe\\\",\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\runScript.py\\\",\\\"rest_vocabularies.Vocabularies\\\"],\\\"working_directory\\\":\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\"},\\\"message\\\":\\\"Process python3.exe (PID: 216868) by user NT AUTHORITY\\\\\\\\SYSTEM STOPPED\\\",\\\"user\\\":{\\\"group\\\":{\\\"id\\\":\\\"S-1-5-18\\\"},\\\"name\\\":\\\"NT AUTHORITY\\\\\\\\SYSTEM\\\",\\\"id\\\":\\\"S-1-5-18\\\"},\\\"service\\\":{\\\"type\\\":\\\"system\\\"}}\"\n}\n\n\n\n\n추가된 데이터만 가져온다. 항상 그렇지는 않은데 왔다갔다 하면서 하나만 가져온다. 공식문서는 여러 개 지정할 수 있는 것처럼 설명하는데 버그인가? 다음 설정도 마찬가지.\n\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id\n  enabled: true\n  paths:\n    - d:\\*.log\n\n\n\nfilebeat 시작 후 업데이트된 내용이 없어서라고 하기엔 일단 하나는 가져오니까(..) 물론 filestream input 선언을 따로 해주면 가져오긴 한다.\n\n\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id1\n  enabled: true\n  paths:\n    - d:\\firewall.log\n  prospector.scanner.fingerprint.enabled: false\n\n\n- type: filestream\n  id: my-filestream-id2\n  enabled: true\n  paths:\n    - d:\\auditbeat.log\n  prospector.scanner.fingerprint.enabled: false  \n\n\n\n\n{\n  \"@timestamp\": \"2025-06-27T13:30:19.791Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"log\": {\n    \"file\": {\n      \"path\": \"d:\\\\firewall.log\"\n    }\n  },\n  \"message\": \"2025-06-24 15:44:30 ALLOW UDP 192.168.31.177 142.250.207.100 64118 443 0 - - - - - - - SEND\"\n}\n{\n  \"@timestamp\": \"2025-06-27T13:30:19.791Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.0.0\"\n  },\n  \"log\": {\n    \"file\": {\n      \"path\": \"d:\\\\auditbeat.log\"\n    }\n  },\n  \"message\": \"{\\\"@timestamp\\\":\\\"2025-06-25T09:40:17.236Z\\\",\\\"@metadata\\\":{\\\"beat\\\":\\\"auditbeat\\\",\\\"type\\\":\\\"_doc\\\",\\\"version\\\":\\\"8.12.0\\\"},\\\"event\\\":{\\\"kind\\\":\\\"event\\\",\\\"category\\\":[\\\"process\\\"],\\\"type\\\":[\\\"end\\\"],\\\"action\\\":\\\"process_stopped\\\",\\\"module\\\":\\\"system\\\",\\\"dataset\\\":\\\"process\\\"},\\\"ecs\\\":{\\\"version\\\":\\\"8.0.0\\\"},\\\"host\\\":{\\\"name\\\":\\\"MHKANG\\\"},\\\"agent\\\":{\\\"version\\\":\\\"8.12.0\\\",\\\"ephemeral_id\\\":\\\"013c425b-7951-4670-ab30-7432708042cd\\\",\\\"id\\\":\\\"5d624028-d6db-4bf3-9930-2739c9b72407\\\",\\\"name\\\":\\\"MHKANG\\\",\\\"type\\\":\\\"auditbeat\\\"},\\\"process\\\":{\\\"parent\\\":{\\\"pid\\\":1636},\\\"hash\\\":{\\\"sha1\\\":\\\"119965512252f4da4ac86887562e0d4ad4f2d4c3\\\"},\\\"entity_id\\\":\\\"1vfinYF9dclwaAOM\\\",\\\"pid\\\":216868,\\\"executable\\\":\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\python3.exe\\\",\\\"start\\\":\\\"2025-06-25T09:40:05.187Z\\\",\\\"name\\\":\\\"python3.exe\\\",\\\"args\\\":[\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\Python3.exe\\\",\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\\\\\\runScript.py\\\",\\\"rest_vocabularies.Vocabularies\\\"],\\\"working_directory\\\":\\\"C:\\\\\\\\Splunk\\\\\\\\bin\\\"},\\\"message\\\":\\\"Process python3.exe (PID: 216868) by user NT AUTHORITY\\\\\\\\SYSTEM STOPPED\\\",\\\"user\\\":{\\\"group\\\":{\\\"id\\\":\\\"S-1-5-18\\\"},\\\"name\\\":\\\"NT AUTHORITY\\\\\\\\SYSTEM\\\",\\\"id\\\":\\\"S-1-5-18\\\"},\\\"service\\\":{\\\"type\\\":\\\"system\\\"}}\"\n}\n\n\n\n\n인덱스를 따로 저장하고 싶으면 index 옵션 추가.\n\nfilebeat.inputs:\n- type: filestream\n  id: my-filestream-id1\n  enabled: true\n  paths:\n    - d:\\firewall.log\n  prospector.scanner.fingerprint.enabled: false\n  index: \"firewall-%{+yyyy}\"\n\n\n- type: filestream\n  id: my-filestream-id2\n  enabled: true\n  paths:\n    - d:\\auditbeat.log\n  prospector.scanner.fingerprint.enabled: false\n  index: \"auditlog-%{+yyyy}\" \n\n\n\n커스텀 인덱스 만드는 거 쉬웠구나. 공식 문서를 꼼꼼히 읽지 않으면 언제나 조져지는 건 나(..)\n\n\n\n\n\n관련 글\n\nFilebeat 9.0의 변화\nWinlogbeat 8.12의 변화",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/06/filebeat-multi-path.html",
-    "pubDate": "2025-06-27T13:53:00.003Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Inside Access: Join Us at VS Live! Redmond for a Week of Deep Developer Learning",
-    "description": "A long time ago, I stood in a packed room at VS Live! and watched developers erupt in applause after a debugging demo shaved hours off a real-world problem. That was the moment I realized this wasn’t just a conference—it was a place where developers and toolmakers come together to push the craft forward. I’m […]\nThe post Inside Access: Join Us at VS Live! Redmond for a Week of Deep Developer Learning appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/inside-access-join-us-at-vs-live-redmond-for-a-week-of-deep-developer-learning/",
-    "pubDate": "Mon, 23 Jun 2025 14:00:26 +0000",
-    "creator": "Mads Kristensen",
-    "categories": [
-      "Visual Studio",
-      "VS LIVE!"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "리눅스에서 제우스랩 P16KT 터치 기능 끄기",
-    "description": "리눅스에서 Zeuslab의 P16KT 포터블 모니터의 터치 기능을 자동으로 끄는 방법을 설명한다. P16KT는 2560x1600의 WQXGA 해상도를 가지고 있으며, 터치 스크린 기능을 가진 포터블 모니터이다. 썬더볼트나 USB4, DP-ALT 기능을 제공하는 USB-C로 연결하면 손쉽게 모니터 화면을 확장할 수 있다. \n본인은 터치 모델인 P16KT와 일반 모델인 P16K를 모두 구입해서 사용해봤는데, 솔직히 P16K가 더 좋은 면이 많다. P16K는 빛반사도 없는 매트한 질감이고, P16KT는 터치때문인지 겉면이 강화 글래스 같은 것으로 덮여 있어서 빛반사가 심각한 수준이다. 터치 감도는 좋은 편이지만, 터치보다는 마우스 쓰는게 훨씬 편하기 때문에 거의 쓸일이 별로 없긴 하다.\nZeuslab P16KT 2.5K 144hz touch screen portable monitor\n\n\n따라서 터치 기능을 아예 끄는 방법과 이를 자동으로 하기 위해 systemd unit을 작성하는 것을 설명한다. 참고로 이 작업은 Fedora Linux 41에서 작성했으나, 대부분의 리눅스에서도 동일하게 작동될 것이다.\n \n터치 기능을 끄는 방법\n먼저 터치 관련 기능을 제공하는 HID USB 장치명을 알아야만 한다. 아래와 같이 lsusb 명령으로 장치를 확인한다. 참고로 아래의 과정은 하드웨어를 건드리는 것이기 때문에 root의 권한으로 작업해야 한다. 먼저 \"su -\"로 root 권한으로 변경하고 아래의 명령을 내려야 한다.\n# lsusb\nBus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 001 Device 004: ID 2148:7022  USB2.0 HUB\nBus 001 Device 006: ID 8087:0026 Intel Corp. AX201 Bluetooth\nBus 001 Device 009: ID 05ac:024f Apple, Inc. Aluminium Keyboard (ANSI)\nBus 001 Device 039: ID 05e3:0610 Genesys Logic, Inc. Hub\nBus 001 Device 057: ID 3302:3365 TTGK Technology Co.,Ltd CX31993 384Khz HIFI AUDIO\nBus 001 Device 060: ID 258a:1007 SINOWEALTH Game Mouse\nBus 001 Device 065: ID 1a86:8091 QinHeng Electronics USB HUB\nBus 001 Device 066: ID 0457:0819 Silicon Integrated Systems Corp. SiS HID Touch Controller ==> ZEUSLAB multitouch panel이다.\nBus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\nBus 002 Device 004: ID 05e3:0626 Genesys Logic, Inc. Hub\n \nZeuslab의 VendorID(VID)는 0457, ProductID(PID)는 0819이다. 위 lsusb 출력 결과에서 0457:0819 Silicon Integrated Systems Corp. SiS HID Touch Controller 으로 표시되는 장치가 바로 터치 스크린 장치다.\n이제 해당 장치명을 토대로 수동으로 끄는 방법을 시행해보자. 먼저 수동으로 잘 꺼지는지 확인한 뒤에 자동화를 위한 systemd unit 설정 파일을 작성할 것이다.\n# ls /sys/bus/hid/drivers/hid-multitouch/\n0003:0457:0819.0C09  bind  module  new_id  uevent  unbind\n\n// 위에서 0003:0457:0819.0C09 이 보이는데, 해당 장치를 unbind하려면 다음과 같이 명령하면 된다.\n\n# echo \"0003:0457:0819.0C09\" > /sys/bus/hid/drivers/hid-multitouch/unbind\n위 /sys/bus/hid/drivers/hid-multitouch/의 0003:0457:0819.0C09의 4개의 필드는 순서대로 \"Bus type\":\"(USB)VendorID\":\"(USB)ProductID\".\"uniqueID(auto-incremental)\"로 구성된다. Bus type은 시스템의 특정 포트에 붙으면 계속 고정이지만 USB 포트를 옮기면 변경될 수도 있다. 그리고 uniqueID는 연결 후 재접속하면 매번 1씩 증가된다. 즉 위에서 0C09라면 다음번에 재연결시키면 0C0A가 되고, 그 다음에는 0C0B가 된다. 따라서 VendorID, ProductID만 고정값이므로 자동화를 위해서는 와일드카드를 이용해서 \"basename /sys/bus/hid/drivers/hid-multitouch/*:0457:0819.*\" 으로 읽어야 한다. 이를 echo 명령어로 만들면 아래와 같다.\necho \"$(basename /sys/bus/hid/drivers/hid-multitouch/*:0457:0819.*)\" > /sys/bus/hid/drivers/hid-multitouch/unbind\n \n \n터치 기능을 자동으로 끄는 systemd unit 작성\n매번 부팅할 때마다 명령어를 타이핑하는 것은 우아하지 못하므로 자동화를 위해 systemd unit을 만들면 다음과 같이 작성할 수 있다. 먼저 vi /etc/systemd/system/disable-zeuslap-hid-multitouch.service 로 새로운 파일을 작성하고 아래와 같은 내용을 넣는다.\n[Unit]\nDescription=Disable ZEUSLAP multitouch service\nAfter=network.target\n\n[Service]\nUser=root\nGroup=root\nType=simple\nEnvironment=\"DEVICE_ID='*:0457:0819.*'\"\nExecStart=/bin/bash -c \"DEVICE_ID_DETECTED=$(eval basename /sys/bus/hid/drivers/hid-multitouch/${DEVICE_ID}) && echo \\\"Disabling $DEVICE_ID_DETECTED\\\" && echo $DEVICE_ID_DETECTED > /sys/bus/hid/drivers/hid-multitouch/unbind\"\nExecStop=/bin/bash -c \"echo Please reconnect your multi-touch device\"\n#ExecStop=/bin/bash -c \"echo \\\"Enabling $DEVICE_ID\\\" && echo $DEVICE_ID > /sys/bus/hid/drivers/hid-multitouch/bind\"\nRemainAfterExit=yes\nRestart=no\n\n[Install]\nWantedBy=multi-user.target\n \n위 파일이 생성되면 시스템이 인식할 수 있도록 reload 후에 enable, start를 해줘야 한다. 이를 실행하는 명령은 아래와 같다.\n# systemctl daemon-reload\n\n// daemon-reload는 시스템이 설정 파일을 다시 읽게 한다.\n\n# systemctl status disable-zeuslap-hid-multitouch.service\n\n// status 명령으로 reload 되었는지 확인할 수 있다.\n\n# systemctl enable --now disable-zeuslap-hid-multitouch.service\n\n// enable --now는 enable과 start를 시켜준다.\n \n이제 재부팅을 해서 제대로 터치가 꺼지는지 확인해보자. 터치 기능을 다시 쓰고 싶다면 그냥 C-type 단자를 뺐다가 다시 끼우면 자동 인식되면서 다시 활성화 된다. 그리고 재부팅시에도 끄고 싶다면 systemctl disable --now disable-zeuslap-hid-multitouch.service 명령을 내리면 된다. 끝.\n \n참고\n제우스랩 P16KT 제품 상세 스펙, aliexpress zeuslab P16KT spec\nsystemd unit manual, https://www.freedesktop.org/software/systemd/man/latest/systemd.unit.html\n \n히스토리\n2025.06.23 초고",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://sunyzero.tistory.com/315",
-    "pubDate": "Mon, 23 Jun 2025 22:19:21 +0900",
-    "creator": "sunyzero",
-    "categories": [
-      "컴퓨터 관련/리눅스 데스크탑",
-      "fedora linux touch screen",
-      "usb vid pid 0457:0819",
-      "zeuslab p16kt touch screen disabled",
-      "리눅스 터치 스크린 기능 끄기",
-      "제우스랩 포터블 모니터 터치 기능 끄기"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "개발자 되기 좋은 성향",
-    "description": "2019년에 EO에서 촬영해주신 인터뷰에 대해서 지금도 많이들 문의 주신다.\n여기서 '개발 실력이 좋은 개발자들의 특징' 질문에 대한 답변을 했다.\n사냥개와 같은 집요함\n당연히 있어야 할 것들이 당연한 위치에 있게 코드를 작성하는 것\n이 영상이 공유되고나서 '이런 성향이 아니면 개발자를 하면 안되나요' 의 문의를 많이 받았다.\n(현재도)\n당시에 느낀 존경하는 개발자분들의 특징을 이야기한 것인데, 요즘은 생각이 많이 바뀌었다.\n어떠 어떠한 성향이 개발자하기에 좋고, 어떠한 성향은 좋지 않다라고 이야기하기에는 너무나 다양한 유형의 개발자분들을 만나게 되어서 그건 아닐 수 있다고 생각한다.\n(물론 내 경험이 일천해서 그럴 수도 있지만.)\n개인의 특성인 '잘 하는 개발자의 특징', '개발자하기 좋은 성향' 에 집중하는 것은 의미가 없었다.\n'어떤 장/단점을 가진 개발자분이, 어떤 회사의, 어떤 상황에서 일 하느냐' 가 중요했다.\n하나의 기술을 깊게 파는 것이 힘든 개발자분은 오히려 다양하게 제품을 피벗해야하는 초기 스타트업에서 빠르게 다양한 제품을 만들어내면서 크게 활약하기도 하고\n개발보다는 발표, 문서 작성에 어려움이 없던 친구는 전통적인 대기업에 합류해서 구현도 잘 하면서 다양한 상황에 맞게 보고를 할 수 있어 에이스가 되기도 했다.\n개발 공부양이 부족하다 생각해 개발 공부를 더더욱 하라고 이야기드렸던 팀원은 사실은 팀에 없어서는 안 될 분위기 메이커이기도 했다.\n그 팀원 덕분에 팀은 서로 서로에게 '잘한다 잘한다' 문화가 형성 되었고, 아주 작은 성과에도 칭찬하고 응원하는 문화가 리더십 없이도 가능했다.\n그런 팀원을 전혀 채용하지 않고, 흔히들 이야기하는 기술력만 파고드는 개발자만 채용한 한 조직은 기술 공유 세션을 전혀 하지 않는 조직이 되기도 했다.\n모두가 지식이 많다보니 기준치가 너무나 높아서 기술 공유의 허들이 너무나 높아졌다.\n아주 작은 것은 공유하는 것 자체가 '이미 다 아는 내용을 발표를 하네?' 와 같은 암묵적 분위기가 형성 되었다.\n'이 정도 내용을 가지고 전사 발표를 해?' 와 같은 분위기에 그 누구도 기술 공유를 하고 싶어하지 않았다.\n남들이 정의한 개발자 상에 집중할 필요가 없다.\n'개발자란 어떠해야한다' 라는 것에 집중하는 것 보다는 '나는 어떤 사람인가', '내가 다닐 회사는 어떤 회사이고 어떤 상황인가' 에 집중해야한다.\n그리고 연차가 쌓일수록 '개발자는 어떠해야한다' 에 매몰되어선 안된다.\n그럴수록 좋은 개발자를 놓칠 수 있고, 좋은 팀을 만드는게 어려워질 수 있다.\n개인으로서는 '내가 개발자 하기 좋은 성향인가' 에 집중할 필요는 없다.\n'나는 어떤 장점과 어떤 단점을 가진 사람이니 그걸 어떻게 발전시킬 것인가', '이걸 더 잘 살리려면 어떤 회사가 적합한가' 에 집중해야한다.\n흔히들 이야기하는 '네카라쿠배당토' 와 같은 회사는 누군가에게는 천국이겠지만, 누군가에게는 지옥일 수 있다.\n모두에게 천국일 수 없다.\n나의 단점이 부각되는 회사라면 남들이 뭐라하든 지옥이 될 수 있다.\n나의 장점이 전혀 부각되지 않는 회사도 마찬가지다.\n남들과 다른 나만의 장점을 전혀 인정해주기 힘든 환경이라면 그것만으로도 개인을 피폐하게 만든다.\n단점은 당연히 개선해야겠지만, 나의 단점이 도저히 개선시키기 어려운 종류라면 그 단점이 그렇게 부각되지 않는 회사와 분야에서 일을 하면 된다.\n개발자가 필요한 회사들은 다양하게 많다.\n개발자가 되기 좋은 성향은 정해져있지 않다.\n단지, 어떤 장점과 어떤 단점을 가진 개발자가 어떤 상황에 처해있느냐만 있을 뿐이다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jojoldu.tistory.com/835",
-    "pubDate": "Mon, 30 Jun 2025 08:37:42 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "eo",
-      "개발 문화",
-      "개발자",
-      "개발팀",
-      "스타트업",
-      "채용",
-      "커리어"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "신용카드 결제일을 14일로 해야 하는 이유",
-    "description": "결제일 하나만 바꿔도 실적, 혜택 다 챙길 수 있어요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/creditcard_payment_date",
-    "pubDate": "Tue, 24 Jun 2025 06:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "런웨이 자금이 단 6개월 남았을 때 - 런웨이 자금이 6개월 남은 IT 스타트업의 단기 생존 전략",
-    "description": "런웨이 자금이 단 6개월 남았을 때 스타트업은 비상상황으로 인식하고, 즉시 실행 가능한 현실적 전략을 강력하게 추진해야 합니다. 다음 4가지 전략을 구체적으로 제시합니다.  1. Burn Rate 즉각적 감축 비핵심 비용 최소화 : 사무실 임대료를 협상하거나 코워킹스페이스, 재택근무 체제로 빠르게 전환하세요. 외주업무, 비핵심 마케팅 비용, 구독형 서비스는",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/277",
-    "pubDate": "Tue, 24 Jun 2025 07:07:32 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
     "id": 10,
     "imageUrl": "",
-    "title": "토스, 대환대출 출시 2주년… 누적 실행 금액 1조 5천억 원 돌파",
-    "description": "2년간 제휴 금융사 2배 이상 확대 및 평균 금리 1.8%p 인하 효과 창출",
+    "title": "VS Code의 Copilot과 Copilot Chat의 기능과 활용 방법",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/Tossloan",
-    "pubDate": "Thu, 26 Jun 2025 01:28:00 GMT",
+    "link": "https://jacking75.github.io/ai-github_copilot_20250625/",
+    "pubDate": "Wed, 25 Jun 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "토스페이먼츠, 5년 연속 ISMS 인증 획득",
-    "description": "보안 인력 6배 확대… “가맹점과 이용자 모두에게 가장 안전한 결제 환경 제공”",
+    "title": "유튜브 영상 분석부터 콘텐츠 제작까지 한 번에! 유튜브 분석 전문가 GEM 지침 무료 배포",
+    "description": "유튜브 영상 분석, 더 이상 어렵지 않아요! AI 도구 하나로 모든 유튜브 영상을 단 몇 초 만에 완벽하게 분석하고, 블로그 글부터 SNS 콘텐츠까지 자동으로 만들어낼 수 있는 비결을 공개합니다. 완전 무료!\n유튜브 영상 분석부터 콘텐츠 제작까지 한 번에\n\n\n \n오늘날, 세상의 모든 트렌드, 정보, 그리고 학습은 유튜브로 통하잖아요? 이제 유튜브는 단순한 영상 플랫폼을 넘어 우리 일상과 비즈니스에 엄청난 영향을 미치고 있죠. 이런 시대에 쏟아지는 유튜브 영상의 핵심을 빠르고 깊이 있게 파악하는 능력은 정말 선택이 아닌 필수 생존 기술이 되어버렸어요.  \n저도 유튜브에서 유용한 정보를 많이 얻는데, 가끔 너무 바빠서 긴 영상을 다 볼 시간이 없을 때가 많아요. 그럴 때 유튜브 요약을 할 일이 생기면 여러분은 어떤 방법을 쓰시나요? 아마 많은 분들이 'YouTube Summary' 같은 크롬 확장 프로그램을 사용하고 계실 거예요. 저도 오랫동안 유용하게 써왔는데, 솔직히 무료 버전은 아쉬운 점이 많았어요.  \n예를 들면, 가장 중요한 영상 요약 기능이 하루에 단 3개까지만 가능했어요. 중요한 영상 몇 개 보고 나면 그날은 더 이상 쓸 수 없어서 답답했죠. 그리고 더 깊이 있는 분석을 제공하는 '고급 요약' 기능은 아예 사용할 수 없었고요. 그래서 저는 이런 일일 사용량 제한이나 기능 제약 없이, 단순 요약을 넘어 분석부터 콘텐츠 재창조까지 한번에 처리하는, 진정으로 강력하고 자유로운 도구는 없을까 계속 고민했어요.\n바로 그 고민의 결과물이, 오늘 여러분께 완전 무료로 공개할 저의 최종 병기, '유튜브 분석 전문가' GEM입니다! 함께 보러 가시죠! ✨\n \n왜 하필 Gemini인가요? 기술적 팩트체크!  ️‍♀️\n아마 가장 궁금하실 질문일 거예요. \"왜 챗GPT나 클로드 같은 다른 AI는 유튜브 영상 분석에 실패하는데, 유독 Gemini만 안정적으로 분석이 가능한가?\" 저도 처음엔 같은 구글 서비스니까 그런가? 싶었는데, 단순한 이유를 넘어 여기에는 세 가지 명확한 기술적 이유가 숨어있습니다. 이 차이점을 이해하면, 왜 이 GEM이 Gemini를 기반으로 만들어졌는지 완벽하게 납득하실 거예요!\n첫째, 훈련 데이터의 '홈그라운드 어드밴티지'입니다.  \n이게 가장 결정적인 차이예요. AI 모델들은 방대한 데이터로 학습하는데, 챗GPT나 클로드 같은 모델들은 공개된 웹을 크롤링하며 데이터를 학습하거든요. 이건 마치 수많은 웹페이지 중 하나로 유튜브를 보는 것과 같아요. 영상의 내부 데이터 구조나 스크립트의 정확한 형식, 메타데이터 체계까지 완벽하게 파악하기엔 한계가 명확할 수밖에 없죠.\n하지만 Gemini는 Google의 내부 AI잖아요? 말 그대로 'YouTube의 설계도'를 보면서 학습하는 거예요! 외부에서는 접근조차 불가능한, 완벽하게 정제된 수십억 개의 영상 데이터와 스크립트, 타임스탬프, 댓글, 심지어 추천 알고리즘 데이터 같은 초고품질의 내부 데이터셋으로 훈련받았다는 의미입니다. 그래서 Gemini는 유튜브 페이지의 HTML 구조를 봤을 때, 광고나 추천 영상 같은 불필요한 노이즈는 효과적으로 걸러내고 어디에 핵심 정보가 있는지 본질적으로 더 잘 찾아냅니다. 진짜 다르죠?  \n둘째, 데이터 접근의 안정성과 정책의 차이입니다.  \n여러분께서 챗GPT에서 \"접근에 실패했습니다\"라는 오류를 자주 보셨을 텐데요, 그 주된 원인이 유튜브의 '웹 스크래핑 방지 정책' 때문이에요. 유튜브는 외부 서비스가 무분별하게 데이터를 긁어가는 것을 막기 위해 접속 빈도 제한이나 봇 차단 같은 강력한 정책을 사용하거든요.\n그런데 Gemini는 Google의 내부 서비스니까, 이런 외부용 차단 정책에서 자유롭습니다! 훨씬 더 안정적이고, 일관되게, 그리고 빠르게 필요한 데이터에 접근할 수 있는, 일종의 '내부 직원용 VIP 패스'를 가지고 있는 셈이죠. 역시 아는 길로 가는 게 최고 아니겠어요?  \n셋째, 모델 자체의 '기능 최적화'입니다. ⚙️\nGoogle은 자사의 핵심 서비스인 검색, 지도, 그리고 유튜브와의 연동을 Gemini 모델의 핵심 기능으로 설계하고 있어요. 그래서 모델 자체가 유튜브 URL을 입력받으면, '아, 이건 내가 잘 아는 유튜브 영상이구나' 하고 즉시 인지하고, 영상 콘텐츠를 분석하는 데 최적화된 내부 프로세스를 바로 가동합니다. 단순히 웹페이지 텍스트를 읽는 수준을 넘어 영상의 주제를 깊이 있게 추론하고, 핵심 메시지를 요약하며, 관련 키워드를 추출하는 능력이 다른 모델들보다 뛰어날 수밖에 없는 근본적인 이유가 바로 여기에 있습니다. 대박이죠?  \n \n \n'유튜브 분석 전문가' GEM 등록법: 단 30초면 충분! ⏱️\n자, 그럼 이 강력한 '유튜브 분석 전문가'를 어떻게 설치하는지 알아볼까요? 정말 간단해서 깜짝 놀라실 거예요!\n먼저 영상 설명란에 있는 링크를 클릭해서 지침 텍스트 전체를 복사하세요. 이 지침 파일에는 GEM이 작동하는 데 필요한 모든 코드와 규칙이 담겨 있어요.\n그다음 여러분의 Gemini 화면에서 왼쪽 메뉴의 '새 잼 만들기'를 클릭합니다.\n복사한 지침과 시각화 템플릿 파일을 그대로 붙여넣고 저장하면 끝! 잼 이름은 '유튜브 분석 전문가'로 저장하는 걸 추천해요.\n어떠세요? 이제 여러분의 Gemini는 완전히 새로운 AI로 진화했습니다! 설치는 진짜 단 30초면 충분해요. 참 쉽죠?  \n \nGEM 워크플로우 및 작동 원리: 마법의 3단계! ✨\n제가 개발한 '유튜브 분석 전문가' GEM이 어떻게 작동하는지 그 원리를 간단히 설명해 드릴게요. 이 GEM은 크게 3단계 프로세스로 똑똑하게 작동한답니다!\n데이터 수집 및 분석 단계: 사용자가 유튜브 URL을 제공하면, 영상의 스크립트와 메타데이터를 추출해요. 이때 Gemini의 유튜브 페이지 접근 기능을 활용해서 최대한 정확한 데이터를 가져옵니다. 마치 영상 내용을 스캔하듯이 말이죠!\n구조화된 분석 리포트 생성 단계: 수집된 데이터를 바탕으로 10가지 항목으로 구성된 체계적인 분석 리포트를 뚝딱 만들어냅니다. 영상 기본 정보부터 시작해서 한 줄 요약, 상세 분석, 키워드, 타임라인별 하이라이트, 분위기 분석, 타겟 오디언스, 실행 포인트, 마무리 요약, 그리고 생각해볼 질문까지! 완벽한 구조로 정리해줘서 너무 편해요.  \n8가지 후속 작업 제안 및 실행 단계: 분석 리포트 제공 직후, 8가지 추가 작업 옵션을 제시해요. 사용자가 원하는 작업의 번호를 선택하면 해당 작업을 즉시 수행해서 결과물을 제공한답니다! 여기서 핵심은 단순한 요약이 아니라, 콘텐츠의 재창조에 있어요. 원본 영상의 정보를 다양한 형태와 목적에 맞게 재구성해서 사용자에게 실질적인 가치를 제공하는 것이 이 GEM의 진짜 목표입니다!\n \n유튜브 주소 입력 후 출력되는 기본 결과: 1분 만에 영상 핵심 파악!  \nGEM을 설치한 후에는 사용법이 매우 간단해요. 그냥 유튜브 URL만 입력하면 됩니다.\n  사용 예시:\n\"분석해 주세요: https://www.youtube.com/watch?v=example\" 이렇게 입력하면 잠시 후 기본 분석 리포트가 자동으로 생성됩니다.\n이 리포트에는 영상 기본 정보, 한 줄 핵심 요약, 상세 분석 및 요약, 주요 키워드 및 태그, 타임라인별 하이라이트, 영상 분위기 및 스타일 분석, 타겟 오디언스, 핵심 실행 포인트, 마무리 요약, 그리고 시청 후 생각해볼 질문까지 총 10가지 섹션이 포함됩니다.\n이 기본 리포트만 있어도 10~15분짜리 영상을 1~2분 만에 완벽하게 이해할 수 있어요! 진짜 시간 절약 끝판왕이죠?  \n \n분석 리포트 후 제시되는 8가지 추가 작업: 콘텐츠 재창조의 시작!  \n이 GEM의 진짜 힘은 바로 이 부분에 있습니다! 분석 리포트를 받은 후에 제시되는 8가지 추가 작업 옵션인데요, 기본 리포트 아래에 \"분석이 완료되었습니다. 이 분석 결과를 바탕으로 아래와 같은 추가 작업을 도와드릴 수 있습니다. 원하시는 작업의 번호를 말씀해주세요.\"라는 메시지가 표시될 거예요. 이 옵션들을 활용하면 여러분의 콘텐츠 제작 효율이 엄청나게 높아질 겁니다!\n1. HTML 파일로 변환: 전문가용 보고서 생성  \n이 옵션을 선택하면 여러분은 멋진 단일 HTML 파일을 받게 돼요. 이 파일을 브라우저에서 열면, 아이콘과 색상으로 보기 좋게 디자인된 인포그래픽 스타일의 전문가용 보고서가 펼쳐진답니다. 그냥 이 파일 하나만 팀원에게 보내면 모든 설명이 끝나죠. 진짜 유용해요!\n2. 전체 스크립트 추출: 영상 대본 완벽 정리 ✍️\n영상의 전체 대본이 타임스탬프와 함께 정리된 텍스트 파일을 받을 수 있어요. 이 기능은 특히 Gemini 2.5 Pro 모델에서 더 안정적으로 작동합니다.\n⚠️ 주의하세요!\n유튜브 페이지는 단순한 텍스트 문서가 아니라 광고, 추천 영상, 댓글, 복잡한 코드 등이 얽혀있는 '복잡한 공사 현장'과 같아요. Flash 모델은 속도에 최적화되어 있어 기본적인 분석작업에서는 잘 작동하지만, 자동 생성된 자막처럼 형식이 다르거나 페이지 구조가 복잡한 경우에는 스크립트를 제대로 추출하지 못할 수 있습니다. 그래서 만약 스크립트 추출이 제대로 되지 않거나 불완전하다면, 왼쪽 상단에서 모델을 Pro로 변경한 후 다시 시도해보세요. 특히 긴 영상이나 복잡한 구조의 채널에서는 처음부터 Pro 모델을 사용하는 것이 시간을 절약하는 방법입니다!\n3. SEO 최적화 블로그 기사 생성: 발행 준비 끝!  \n이건 진짜 물건이에요! 단순 요약문이 아닌, 검색엔진 최적화(SEO)가 적용된 800자 이상의 완성형 블로그 초안을 받게 됩니다. 클릭을 유도하는 제목, 논리적인 소제목들, 본문에 자연스럽게 녹아든 핵심 키워드, 그리고 행동을 유도하는 결론까지! 거의 그대로 발행해도 될 수준의 결과물이라니, 완전 대박이죠?\n4. SNS 콘텐츠 생성: 플랫폼 맞춤 게시물  \n플랫폼별 맞춤 게시물 2종 세트를 받아볼 수 있어요. 트위터용으로는 이모티콘과 해시태그를 활용한 짧고 강력한 글이, 링크드인과 페이스북용으로는 전문성과 신뢰도를 강조하는 구조화된 글이 생성됩니다. 타겟 독자가 다르다는 것까지 이해하고 글을 써준다니, 정말 똑똑하죠?\n5. 핵심 용어집 만들기: 학습 자료로 최고!  \n깔끔한 표 형태의 용어집을 받을 수 있어요. 왼쪽 칸에는 영상에 나온 전문 용어가, 오른쪽 칸에는 초보자도 이해할 수 있는 쉬운 설명이 들어갑니다. 그 자체로 완벽한 학습 자료가 된답니다!\n용어\n설명\n\n\n\n\nGEM\nGemini의 맞춤형 AI 모델로, 특정 작업을 수행하도록 설계된 도구\n\n\n스크래핑\n웹페이지에서 데이터를 자동으로 추출하는 행위\n\n\nSEO\n검색 엔진 최적화 (Search Engine Optimization)의 약자로, 검색 결과 상위 노출을 위한 작업\n\n\n\n\n\n6. 이해도 퀴즈 생성: 교육 자료로 활용 만점!  \n정답과 해설이 분리된 3~5개의 퀴즈 세트를 받을 수 있어요. 객관식과 주관식이 섞여 있고, 먼저 문제를 풀어본 뒤 스크롤을 내려 정답을 확인할 수 있는 구조라서 영상을 교육 자료로 활용할 때 정말 최고의 기능이라고 생각해요!\n7. 요약본 번역: 고품질 다국어 지원  \n원본의 서식과 전문적인 톤을 그대로 유지한 고품질 번역본을 받을 수 있습니다. 단순히 단어만 바꾼 기계 번역이 아니라, 해당 언어권의 독자가 읽었을 때 어색함이 없는 자연스러운 결과물을 제공한다는 사실! 정말 놀랍지 않나요?\n8. 인터랙티브 마인드맵 생성: 한눈에 보는 영상 핵심!  ️\n분석 리포트의 핵심 내용을 계층적 구조로 시각화한, 축소/확대 및 이동이 가능한 인터랙티브 마인드맵을 단일 HTML 파일로 받을 수 있어요. 이 마인드맵을 통해 영상의 주요 개념과 그 관계를 한눈에 파악할 수 있으며, 복잡한 주제를 체계적으로 이해하는 데 엄청 큰 도움이 된답니다!\n \n \n실제 활용 예시: 이 GEM, 이렇게 써보세요!  \n이 GEM을 어떻게 활용할 수 있는지 몇 가지 실용적인 예시를 들어볼게요. 여러분의 상황에 맞춰 다양하게 적용해보세요!\n콘텐츠 크리에이터라면: 경쟁자 또는 참고하고 싶은 채널의 영상을 분석해서 콘텐츠 전략을 수립하거나, 자신의 영상을 분석해 개선점을 찾을 수 있어요. 새로운 아이디어를 얻는 데 정말 큰 도움이 되겠죠?\n마케터라면: 트렌드 영상이나 광고 캠페인을 심층 분석해서 인사이트를 얻고, 이를 바탕으로 SNS 콘텐츠나 블로그 글을 즉시 생성할 수 있습니다. 시간도 절약하고 효율도 높일 수 있어요!\n교육자라면: 교육 콘텐츠를 퀴즈와 용어집 형태로 재구성해서 학생들의 학습 자료로 활용할 수 있어요. 학생들이 더 재미있게 학습할 수 있도록 도울 수 있답니다.\n연구자나 학생이라면: 유튜브의 방대한 정보를 체계적으로 정리하고, 필요한 부분만 추출해서 리포트나 논문에 인용할 수 있어요. 자료 조사 시간이 확 줄어들 거예요!\n이 모든 작업을 무료로, 그리고 제한 없이 수행할 수 있다는 것이 바로 이 GEM의 가장 큰 장점입니다. 정말 놀랍지 않나요?\n \n글의 핵심 요약  \n오늘 우리가 알아본 '유튜브 분석 전문가' GEM의 핵심은 이렇습니다.\n혁신적인 유튜브 분석 도구: 제가 직접 개발한 GEM으로 유튜브 영상 분석을 넘어 콘텐츠 재창조까지 가능하게 만들었습니다.\nGemini 기반의 압도적 성능: Gemini의 '홈그라운드 어드밴티지'와 '기능 최적화' 덕분에 다른 AI보다 훨씬 정확하고 안정적인 유튜브 분석이 가능합니다.\n다양한 콘텐츠 생성 기능: 분석 리포트, SEO 최적화 블로그 글, SNS 콘텐츠, 용어집, 퀴즈, 번역, 마인드맵까지 8가지 추가 작업으로 무한한 활용이 가능해요.\n완전 무료 & 무제한 사용: 이 모든 강력한 기능을 제한 없이 무료로 사용할 수 있습니다.\n \n유튜브 분석 전문가 GEM, 왜 필요할까요?\n최고의 장점: 유튜브 영상 분석부터 콘텐츠 제작까지 한 번에!\n핵심 기술: Gemini의 독보적인 유튜브 데이터 접근 능력\n주요 기능:\n10가지 분석 리포트 + 8가지 후속 작업 (HTML 보고서, 블로그, SNS, 마인드맵 등)\n사용자 경험 강조: 누구나 쉽게, 완전 무료로, 무제한 사용 가능!\n이제 유튜브 정보, 스마트하게 활용하세요!\n \n자주 묻는 질문 ❓\nQ: 유튜브 분석 전문가 GEM은 정말 무료인가요?\nA: 네, 제가 직접 개발한 이 GEM은 완전 무료로 제공되며, 사용량 제한도 없습니다. Gemini AI 자체가 무료라면 계속 무료로 사용하실 수 있습니다!\nQ: 스크립트 추출이 잘 안될 때는 어떻게 해야 하나요?\nA: 유튜브 페이지의 복잡성 때문에 Flash 모델에서 오류가 발생할 수 있습니다. Gemini 화면 왼쪽 상단에서 모델을 'Gemini 2.5 Pro'로 변경한 후 다시 시도해 주세요. Pro 모델이 더 안정적인 스크립트 추출을 지원합니다.\nQ: 이 GEM을 활용해서 어떤 종류의 콘텐츠를 만들 수 있나요?\nA: 분석 리포트, SEO 최적화 블로그 기사, 트위터/링크드인/페이스북용 SNS 게시물, 핵심 용어집, 이해도 퀴즈, 번역본, 인터랙티브 마인드맵 등 8가지 다양한 형태의 콘텐츠를 생성할 수 있습니다.\nQ: GEM 설치는 얼마나 걸리나요?\nA: 영상 설명란의 지침 텍스트를 복사하여 Gemini의 '새 잼 만들기'에 붙여넣고 저장하면 됩니다. 약 30초 정도면 설치가 완료됩니다!\nGEM 지침 무료 다운로드  \n\n    \n\n    \n유튜브 전문가 GEM 지침.zip\n0.01MB\n\n\n \n압축암호 해제하였습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/paymentsISMS",
-    "pubDate": "Wed, 25 Jun 2025 05:45:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://muzbox.tistory.com/483615",
+    "pubDate": "Sun, 29 Jun 2025 16:16:05 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "ai 콘텐츠 생성",
+      "gemini gem",
+      "seo 블로그",
+      "SNS 콘텐츠",
+      "마인드맵",
+      "무료 AI 도구",
+      "영상 분석",
+      "유튜브 분석",
+      "유튜브 요약"
+    ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "Modern CI/CD for a Post-VMware World: Embrace KubeVirt With TeamCity",
-    "description": "In November 2023, Broadcom acquired VMware for a whopping USD 69 billion. The strategic goal behind the acquisition was to enable customers to create and modernize their cloud environments, both private and hybrid. Following the acquisition, VMware perpetual license holders started receiving cease-and-desist letters from Broadcom. Users can continue using the software, but can no […]",
+    "title": "Meta joins Kotlin Foundation",
+    "description": "We are proud to announce that Meta has officially joined the Kotlin Foundation as a gold member, marking a significant milestone in our ongoing commitment to Kotlin and the broader Android development ecosystem. Over the past several years, Meta engineers have been actively migrating our extensive Android codebase—comprising tens of millions of lines—from Java to [...]\nRead More...\nThe post Meta joins Kotlin Foundation appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/06/kubevirt-with-teamcity/",
-    "pubDate": "Tue, 24 Jun 2025 11:59:12 +0000",
-    "creator": "Olga Bedrina",
+    "link": "https://engineering.fb.com/2025/06/30/android/meta-joins-kotlin-foundation/",
+    "pubDate": "Mon, 30 Jun 2025 16:00:30 +0000",
+    "creator": "Unknown",
     "categories": [
-      "news"
+      "Android",
+      "DevInfra",
+      "Open Source"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "How Electronic Arts standardized C++ builds across Windows and Linux with Visual Studio Build Tools",
-    "description": "At Electronic Arts (EA), the Frostbite Enginering Workflows team has thousands of developers who work on powerful game engines behind popular games.  EA has relied on Visual Studio for years due to several features such as IntelliSense, Build Insights, and the overall debugging experience and eagerly use newer integrations such as GitHub Copilot.  They also […]\nThe post How Electronic Arts standardized C++ builds across Windows and Linux with Visual Studio Build Tools appeared first on C++ Team Blog.",
+    "title": "다이어트 식이요범 종결 영상 / 식이요법 / 운동 / 2025년 5월",
+    "description": "영상: https://www.youtube.com/watch?v=5_WSDnki3mU\n\n\n\n \n여러 식이요범은 사람마다 맞는 사람이 있으니\n해봤는데 안되면 내 몸엔 안맞는거다.\n \n스트레스를 줄여야 먹는걸 줄일 수 있다.\n \n캐톤식은 빠지는거 같지만 근육이 줄어든다.\n근육 줄어드는건 방지하려고 운동을하면 몸무게가 늘어난다.\n \n들어보면 작용 반작용이 다있습니다.\n \n먹는거와 운동을 다 이용해야합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/how-electronic-arts-standardized-c-builds-across-windows-and-linux-with-visual-studio-build-tools/",
-    "pubDate": "Thu, 26 Jun 2025 12:00:43 +0000",
-    "creator": "Sinem Akinci",
+    "link": "http://serverdown.tistory.com/1345",
+    "pubDate": "Mon, 30 Jun 2025 19:13:19 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "C++",
-      "CMake",
-      "Linux"
+      "유튜브",
+      "다이어트",
+      "살빼기"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "미국 나스탁 상장, 스테이블코인 대세 '서클' - '서클(Circle)'의 비즈니스 모델과 전망",
-    "description": "서클(Circle)은 어떤 기업인가?  서클(Circle Internet Group, NYSE: CRCL)은 2013년에 설립된 글로벌 핀테크 기업으로, 스테이블코인 USDC(USD COIN)를 발행하고 있습니다. 1USDC는 정확히 1달러의 가치를 유지하며, 이 가치를 보장하기 위해 달러와 미국 단기 국채 등으로 준비금을 운용합니다.  서클의 핵심 비즈니",
+    "title": "악역영애 4컷 만화 - 8화, 첫 친구와 만남인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/276",
-    "pubDate": "Mon, 23 Jun 2025 08:24:44 GMT",
-    "creator": "고명환",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2327",
+    "pubDate": "Wed, 25 Jun 2025 21:08:36 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "승려와 수수께끼",
-    "description": "같은 직장을 두 번이나 같이 다닌 분과 저녁 식사를 하던 중 \"동욱님 매번 연예인 개발자 얘기를 하시더니 이제 성덕 되셨네요!\" 라고 했다.\n예전부터 나는 흔히 말하는 연예인 개발자분들의 발표와 콘텐츠를 찾아다니며 시청하고, 그 분들의 이야기를 듣는 것을 좋아했다.\n두번째 회사에서 팀 내 최고참이 되었을 때는 신입으로 합류하신 분들을 데리고 컨퍼런스를 보러 다니고, 좋은 강연을 발견하면 공유하고 추천을 했다.\n행사장에서 누군가를 보게 되면 \"저 분이 누구누구시다\", \"그때 공유드렸던 그 글을 작성하신 분이다\" 등등의 이야기를 하는 등 멋진 개발자분들을 보러 다니는 것에 푹 빠졌었다.\n그리고 그 분들의 이야기에 영향을 많이 받았다.\n2015년에 시작해서 10년째 운영 중인 블로그,\n2016년에 시작한 일일커밋도,\n여러 대형 컨퍼런스에서의 발표도,\n큰 회사에서 8명의 개발팀원이 있는 스타트업에 합류하는 것도 모두 그 분들의 이야기에 동화되었기 때문에 할 수 있었다.\n그런 내 모습을 몇년간 봤던 지인 입장에서는 내가 영한님, 토비님, 영호님, Vlad Mihalcea 등 유명하신 분들과 인프런에서 함께 하는 모습을 보니 너무나 성덕의 모습처럼 보인 것이다.\n\"다시 한번 이만큼 내가 원하는 것으로만 하루를 채울 수 있을까?\" 에 대한 생각을 한다.\n인프런에 합류하면서 처음에는 이렇게 오래 함께할 것을 예상하진 못했다.\n(원래 인생을 길게 생각하지 않기도 하고, 미래를 예측하는 능력도 없다.)\n합류해보니 내가 기여할 수 있는 부분이 너무 많았다.\n갖고 있는 티끌같은 재능도 이 서비스에 다 연관되어 있었다.\n앞으로 해나갈 일 들이 내가 너무나 하고 싶은 일들이 되었다.\n개인적인 성장 보다 서비스와 팀의 성장이 더 재밌어지기 시작했다.\n개인 학습 시간 보다 서비스와 팀에 대한 일로 채우는 시간이 늘어났다.\nC레벨이라서 권한이 많아서 좋은 것도 분명히 있겠지.\n그렇지만, 이건 분명히 내가 만드는 서비스가 내가 원하는 것인게 더 크다.\n랜디가 레니에게 보낸 대사가 가장 기억에 남는다.\n\"Funerals.com을 통해 원하는 일을 할 수 있다면 처음부터 그 일에 초점을 맞춰 시도하세요.\n나중에 발 뺄 생각은 하지 마시고요.\"\n지금은 정말로 내가, 우리 팀이 만드는 인프런이 좋다.\n책 속 문장\n오랜 세월을 거치면서,\n나는 비즈니스란 돈을 버는 조직이 아니라 창조하는 조직이라고 생각하게 되었다.\n그림이나 조각처럼 개인의 재능을 표현하는 예술 같은 것 말이다.\n왜냐고?\n사업의 핵심은 변화이기 때문이다.\n사업과 관련된 모든 것은 변한다.\n시장은 달라지고, 제품은 발전하며, 경쟁사는 동지가 되고, 직원들은 들어왔다가 나간다.\n기업은 변화에 대처하는 방법을 가르치는 몇 안 되는 사회 조직이다.\n사회가 발전하면서 교회는 사양길로 접어들었고, 물질주의에 상당수가 무릎을 꿇었다.\n정부는 유권자의 이익을 도모하는 기관으로 전락했다.\n물론 기업도 탐욕과 공격성에 얼룩진 나머지 생산성 향상에만 집착하는 경우가 많다.\n하지만 그렇다고 기업을 포기할 수는 없다.\n기업은 소수의 행운아가 아닌, 다수를 위해 사회를 발전시키는 하나의 방법이라고 나는 믿는다.\n한계를 인정하되, 긍정적으로 활용해야 한다.\n기업을 건설적인 방향으로 몰고 갈지, 파괴적인 방향으로 몰고 갈지는 인간에게 달려 있다.\n나는 사람들이 이 사실을 깨닫게 만들고 싶다.\n일을 통해 자기 자신을 표현하고, 기업을 통해 세상을 바꿀 수 있도록.\n나는 비디오 게임 회사 크리스털 다이내믹스의 대표를 맡고 있었다.\n하지만 조직은 분열돼 있었고, 게임 제작 기한은 지키지 못할 상황이었다.\n결국 회사 규모를 줄이거나, 유지하면서 매각하거나, 선택해야 했다.\n몇 달 동안 불면의 밤을 보냈다.\n그러나 나를 잠 못 들게 한 건 사업의 문제가 아니라, 크리스털과 나의 관계가 어긋났기 때문이었다.\n친구 토니가 말했다.\n‘미안한데, 너가 하고 있는 일은 빌어먹을 게임 일이야.’\n나는 게이머가 아니었고, 크리스털식 게임을 좋아하지도 않았다.\n결국 구조조정을 단행하고 대표직을 내려놨다.\n“평생을 바쳐도 좋을 만한 일인가?”\n라는 질문에 답은 ‘No’였다.\n비즈니스를 가치 있게 만드는 것은 재정이 아니라 열정이다.\n추측컨대 레니는 아버지와 같은 운명을 피하고 싶은 생각에 잔인한 타협안을 받아들였을 것이다.\n오래도록 일하고 나서야 잠깐 동안 하고 싶은 일을 할 수 있는 운명.\n이런 운명을 표현하는 공식적인 단어는 없다.\n하지만 보험회사에서 일한 경력으로 볼 때, 레니라면 이 운명을 '미뤄 놓은 인생 설계(Deferred Life Plan)` 라고 부를 것 같았다.\n이 보험 상품의 혜택을 완벽하게 받으려면, 인생을 두 부분으로 확실히 나눠야만 한다.\n1단계: 해야만 하는 것을 해라.\n(그렇게 미룬 후, 궁극적으로)\n2단계: 자신이 하고 싶은 일을 한다.\n우리는 어린 시절부터 비슷한 말을 수없이 들으며 자란다.\n'뛰기 전에 걷는 것부터 배워라' '첫 술에 배부르랴' '젊어 고생은 사서도 한다' '인내는 쓰지만 그 열매는 달다' 등...\n...\n실리콘밸리에서도 '미뤄 놓은 인생 설계'의 관점대로 사는 방식이 유행이다.\n사람들은 대부분 빨리 부자가 되는 게 1단계를 가장 빨리 통과하는 방법이라고 생각한다.\n...\n비즈니스 아이디어 대부분은 자금 지원을 받지 못한다.\n자금을 지원받은 기업들, 즉 아주 똑똑한 사람들이 아이디어를 충분히 검토한 결과 투자할 만한 가치가 있다는 판정을 받은 기업들 조차 대부분은 결국 실패한다.\n운이 좋았던 몇몇 사람들도 2단계로 넘어가면 목적의식과 방향감각을 잃는다.\n본인이 '정말' 하고 싶은 일이 뭔지를 생각해 본 적이 없거나 1단계에서 너무 많은 시간과 정신력을 할애한 나머지, 어떤 비전으로 나아가야 할지 길을 잃어버리기 때문이다.\nFunerals.com이 성공할 때까지 꿈을 미뤄 놓겠다는 것은 위험한 도박입니다.\nFunerals.com으로 원하는 자유를 사겠다고 했지만, 실패할 확률이 얼마나 높은지 아십니까.\n당신의 인생과 Funerals.com은 무관하지 않습니다.\n정말로 하고 싶은 일을 하십시오.\nFunerals.com을 통해 원하는 일을 할 수 있다면 처음부터 그 일에 초점을 맞춰 시도하세요.\n나중에 발 뺄 생각은 하지 마시고요.\n인생의 중요한 시점에 저는 이런 질문을 던지곤 했습니다.\n당신도 곰곰이 생각해 보시길...\nFunerals.com 사업에 평생을 바쳐도 좋을 만한 사람이 되려면 어떤 요소들을 갖추고 있어야 할까요?\n열정이란, 저항할 수조차 없이 어떤 것으로 당신 자신을 끌어가는 것을 말한다.\n반면 의지란, 책임감 또는 해야만 한다고 생각되는 일에 의해 떠밀려가는 것이다.\n...\n어떤 목표를 달성하고 싶다는 욕망은 열정이 아니며, 일정 수준의 몫이나 보너스, 또는 회사를 매각하여 현금을 벌고 싶다는 욕심도 열정이 아니다.\n다른 사람의 성취를 따라 하기 위해 노력하는 것도 열정이 아니다.\n그것은 의지에 가깝다.\n'미뤄 놓은 인생 설계'의 삶에서 1단계에 발휘되는 것은 의지다.\n잠시 보류시켜 놓은 2단계야말로 열정이 담겨 있는 시기다.\n\"평생 한 가지 일에만 매달리라는 뜻이 아니었습니다.\n내일 당장 숨을 거두게 된다면 오늘 어떤 일을 하고 싶을지 생각해 보라는 뜻이었습니다.\n의지와 열정을 혼동하지 마십시오.\n의지는 떠밀려 가는 것을 말합니다.\n의무감과 책임감 때문에 말입니다.\n열정은 본래의 자신과 일치되는 일을 하고 있을 때 느끼는 유대감 같은 것이지요.\n열정이 있어야 어려운 시기도 극복할 수 있습니다.\nMBA에서 가끔 강의를 할 때 저는 이런 말을 합니다.\n비즈니스를 가치 있게 만드는 것은 재정이 아닌 애정이라고요\"\n애플에서 나는 OS를 개방해 시장을 키우자고 주장했다.\n하지만 당시 경영진은 수익 모델만을 우선했다.\n비전을 포기한 순간, 직원들은 회사를 다닐 이유를 잃어버렸다.\n벤처 사업에서 비전은 어떤 경우에도 포기해서는 안 된다.\n직원들의 헌신과 열정을 이끌어내는 것은 돈이 아니라, 감동이다.\n실리콘밸리의 베테랑이라면 누구나 암묵적으로 인정하는 사실이 있다.\n바로 벤처기업에는 단계별로 세 명의 대표가 필요하다는 것이다.\n...\n첫 번째 단계의 대표는 '리트리버' 같아야 한다.\n그의 역할은 일관성 있는 비전하에 핵심 팀을 구성하고 제품과 서비스를 개발하며 시장의 방향을 결정한다.\n또한 초기 자금을 유치하고, 고객과 협력업체를 확보해야 한다.\n이 단계에서는 끈기와 창의력이 빛을 발한다.\n두 번째 단계의 대표는 '블러드하운드' 같아야 한다.\n그의 역할은 시장의 냄새를 맡고 기업의 입지를 다지는 것으로서, 경영진을 구성하고 시장에 진출할 교두보를 확보해야 한다.\n이 단계에서는 예리한 방향 감각과 기업의 규모 확장에 필요한 기술이 중요하다.\n세 번째 단계의 대표는 '허스키' 같아야 한다.\n사람들과 함께 상장사의 책임성을 가지고 매일 비중 있게 성장하는 팀을 이끌어 나가야 한다.\n이 단계에서는 일관성 있는 태도와 결단력이 중요하다.\n...\n회사를 설립한 대표를 대할 때면 원하는 만큼, 능력이 허락하는 한 멀리 뻗어 보라고 충고한다.\n관리는 체계적인 과정을 말하는데 그 목적은 정해진 시간과 예산 내에서 원하는 결과를 낳는 것이다.\n리더십은 인격과 비전으로 다른 사람을 불가능한 일에 도전하도록 만든다.\n관리는 리더십을 보완하고 지원하지만, 리더십을 내포하지 않은 관리는 아무것도 할 수 없다.\n리더는 아랫사람들의 의혹을 해소시키고 불완전한 정보를 가지고도 나아갈 수 있도록 만들어야 한다.\n...\n\"관리능력(정력적으로 실무를 실행하는 것)도 능력이지만 사람을 자극하며 이끌며 동기를 부여하는 것은 더 귀한 능력이라고 했다\"\n나는 사업상의 위험부담 때문에 망설인 것이 아니라 더 잘 통제할 수 있는 개인적 위험부담 때문에 고민한 것이다.\n내가 법률회사에 남을 경우, 관심도 없고 심지어는 내 가치관에 어긋날 때가 있는 일을 하면서 평생 불만족스러운 삶을 살아야 할 가능성이 있었다.\n전문가가 되려면 창의력을 억누른 채 한 분야로만 매진해야 한다.\n애플의 성공 여부보다 법률가로서의 위험부담이 훨씬 더 컸다.\n...\n'총체적인 인생 설계'만이 개인적인 성공을 이끈다.\n내일 죽더라도 최대의 만족감과 충족감을 무덤에까지 가져갈 수 있따.\n'미뤄 놓은 인생 설계'에 따라 살다 보면 보상받기를 원하는 욕심과 뭔가 채우고 싶은 허기가 늘 끊이질 않는다.\n항상 뭔가 부족한 느낌이 든다.\n열정을 다해 열심히 이라하.\n단, 가장 소중한 재산인 시간을 가장 의미 있는 일에 써라.",
+    "title": "Visual Studio 2022 17.14 릴리스 노트",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/834",
-    "pubDate": "Tue, 24 Jun 2025 08:16:28 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "도서",
-      "랜디 코미사",
-      "스타트업",
-      "승려와 수수께끼",
-      "우아한형제들",
-      "인프런"
-    ]
+    "link": "https://jacking75.github.io/VS_20250626/",
+    "pubDate": "Thu, 26 Jun 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
