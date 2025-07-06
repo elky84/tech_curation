@@ -2,49 +2,43 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "토스, ‘토스 카드라운지’ 출시",
-    "description": "카드 비교추천 서비스 PC 버전 오픈",
+    "title": "버튜버 해보자 / VTube studio / Warudo / VSeeFace",
+    "description": "스팀에 Vtube Stidoi 라고 있습니다.\n무료이니 쉽게 할 수 있습니다.\n \n영상: https://www.youtube.com/watch?v=gpJLrSw1K1M\n\n\n\n \n \n기본 모델로 여러가지 주네요\n\n\n \n처음이라 고양이 골라봤습니다.\n\n\n \n카메라 연결하고 마이크 연결하면 끝나버리는 쉬운거군요\n리소스는 유니티로 만든다고 하네요 그부분을 파봐야겠습니다.\n \n찾아보니 이건 Live2D 입니다. \n3D 물체가 아니라 평면 그림이 움직이기 때문에 2D 의 움직이 반영됩니다.\n\n\n이런식으로 왼쪽을 보고 있다면\n\n\n이런식으로 몸이 숙여지는 것입니다.\n \n예시) 긴옥희 \n영상: https://www.youtube.com/watch?v=FSLDdyqSYN4\n \n\n\n이런식으로 몸통은 가만히 있는 상태로 오른쪽으로 보려면 Live2D 로는 안되고\n3D 로 되어있어야합니다.\n이분은 본인만의 디자인을 위해 비용과 시간을 들인거 같습니다.\n제작자분이 따로 있다고 하네요\n \nWarudo \n중국에서 사용하는 프로그램 같습니다.\n스팀에서 설치할 수 있으며 3D 모델을 사용하는거 같습니다.\n설명영상: https://www.youtube.com/watch?v=BZBORIUo3oA\n\n\n\n \n그런데 이거좀 보다 다른걸 찾았습니다.\n \nVSeeFace \n한국에선 VSeeFace  자료가 많습니다.\n유니티에서 모델을 만들어낼 수 있고\n유니티 기능이 많이 들어가있습니다.\n프로그램은 무료이고 프로그램 역시 유니티로 빌드한거더군요\n \n모델 만들기 영상: https://www.youtube.com/watch?v=hdJV5lEibv8\n\n\n\n따라해 봅시다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/cardlounge",
-    "pubDate": "Wed, 02 Jul 2025 06:49:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://serverdown.tistory.com/1350",
+    "pubDate": "Sat, 5 Jul 2025 17:21:03 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "버튜버"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "What’s New in vcpkg (June 2025)",
-    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.06.13 registry release, 2025-04-16, 2025-05-19, and 2025-06-02 tool releases, as well as changes to vcpkg documentation throughout May and June. This release includes bug fixes, several documentation changes, and the removal of the x-gha binary caching provider for GitHub (alternatives are […]\nThe post What’s New in vcpkg (June 2025) appeared first on C++ Team Blog.",
+    "title": "챗GPT 장애 보상, 환불된 건지 가입 메일 확인하세요!",
+    "description": "챗GPT 장애 보상: 월 구독료 6.4% 환불, 당신도 대상일까요? 지난달 오픈AI 챗GPT 서비스에서 발생한 일시 오류에 대한 보상이 시작되었습니다. 과연 어떤 기준으로, 얼마나 환불되는지 궁금하시죠?\n챗GPT 환불 확인하기\n\n\n \n 혹시 지난달 챗GPT가 갑자기 먹통이 되어 당황하셨던 분들 계신가요? 저도 정말 황당했어요. 중요한 작업 중이었는데, 갑자기 서비스가 끊기니 '이게 무슨 일이지?' 싶었죠. 그런데 얼마 전 오픈AI에서 장애에 대한 보상을 해준다는 메일을 받았지 뭐예요! 저처럼 챗GPT를 유료로 사용하고 계셨다면 이 소식이 정말 반가우실 텐데요, 어떤 기준으로 보상이 이루어지고 있는지 자세히 알아볼게요! \n \n챗GPT, 지난달 무슨 일이 있었나? \n지난 2025년 6월, 챗GPT를 포함한 오픈AI 서비스들이 두 차례에 걸쳐 크고 작은 장애를 겪었어요. 첫 번째는 정말 대규모였는데요, 6월 10일 오후 3시 36분부터 11일 오전 7시까지 무려 15시간 동안이나 서비스 오류가 발생했답니다. 로그인도 안 되고, 챗 응답은 지연되거나 아예 끊기고, 메시지 전송도 실패하는 등 다양한 문제가 있었어요.\n이 오류는 전 세계적으로 챗GPT, API, 그리고 영상 생성 AI인 소라(Sora) 등 오픈AI의 주요 서비스에 영향을 미쳤다고 해요. 오픈AI는 시스템 업데이트 도중 상당수의 서버 연결이 일시적으로 끊기면서 가용 처리 용량이 급격히 줄어든 것이 원인이라고 공식 발표했죠. 다행히 6월 11일 오전 7시경에는 완전 복구되었지만, 이어서 6월 26일 오전 10시경에는 유럽 등지에서 약 1시간 동안 접속 불가 및 응답 지연 현상이 또 발생했어요. 2주 만에 다시 발생한 장애라 신뢰성 우려가 제기되기도 했답니다.\n  알아두세요!\n이번 챗GPT 서비스 장애는 시스템 업데이트 중 서버 연결 불안정으로 인한 것이며, 전 세계적으로 약 15시간 동안 주요 서비스에 영향을 미쳤습니다.\n \n오픈AI의 보상 정책, 얼마나 환불해줄까? \n오픈AI는 이번 6월 10~11일 대규모 장애에 대해 공식적으로 사과하고, 유료 구독자를 대상으로 보상을 진행하고 있어요. 보상 대상은 챗GPT 플러스, 프로, 팀, 엔터프라이즈 멤버십 이용자뿐만 아니라 API 유료 고객까지 포함된다고 합니다. 중요한 건 별도 신청 절차 없이 자동 적용된다는 점이에요.\n챗gpt 환불 메일\n\n\n \n구체적인 보상 방식을 공식 발표하진 않았지만, 현재 월 구독료의 약 6.4%를 환불해주고 있는 것으로 알려졌어요. 예를 들어, 월 구독료가 22달러(부가세 포함 약 3만원)인 챗GPT 플러스 멤버십 이용자는 1.41달러(약 2000원)를 환불받았다는 제보가 잇따르고 있죠. 저도 1.41달러 환급 메일을 받았답니다. 이는 월 구독료를 장애 발생 시간에 비례하여 나눈 것으로 보여요. 아쉽게도 무료 요금제 이용자는 이번 보상 대상에서 제외된다고 하네요.\n오픈AI 챗GPT 장애 보상 요약\n항목\n내용\n\n\n\n\n주요 장애 발생일\n2025년 6월 10~11일, 6월 26일\n\n\n장애 원인\n시스템 업데이트 중 서버 처리량 급감\n\n\n영향 범위\n전 세계 챗GPT, API, 소라 등\n\n\n보상 대상\nPlus, Pro, Team, Enterprise, API 유료 고객\n\n\n보상 방식\n구독료 약 6.4% 환불 (자동 적용)\n\n\n무료 사용자\n보상 제외\n\n\n\n⚠️ 주의하세요!\n유료 멤버십 이용자에게는 별도 신청 절차 없이 자동 환불이 진행되니, 결제 수단으로 환불 내역을 확인해보세요. 웹사이트 또는 앱스토어 결제자의 경우 필요시 각 경로로 개별 신청도 가능합니다.\n \n미래 AI 서비스의 안정성, 어떻게 지켜낼까?\n이번 챗GPT 장애를 겪으면서 대규모 AI 서비스의 안정성이 얼마나 중요한지 다시 한번 깨닫게 되었어요. 우리의 일상과 업무에 깊숙이 들어온 AI가 삐걱거리면 여간 불편한 게 아니더라고요. 오픈AI 같은 기업들이 앞으로 이런 문제를 어떻게 예방하고 대응할지 궁금해지네요.\n전문가들은 대규모 AI 서비스의 장애를 막기 위해 몇 가지 중요한 조치들이 필요하다고 강조합니다. 예를 들어, 실시간 모니터링 시스템을 고도화해서 장애 징후를 빠르게 감지하고, 문제가 생기면 자동으로 복구되도록 해야 한대요. 그리고 장애 발생 시 트래픽을 다른 서버로 돌리거나(우회), 임시 조치를 취하는 등 사전 정의된 대응 시나리오를 마련하는 것도 중요하겠죠.\n  알아두세요!\nAI 서비스의 안정성을 높이려면 시스템 이중화, 주기적 점검, 업데이트 시 점진적 배포 등 다각적인 노력이 필요하다고 전문가들은 말합니다.\n \n서비스 신뢰도를 높이는 기술적 접근 \n그럼 조금 더 기술적인 측면에서 어떤 조치들이 필요한지 알아볼까요? AI 서비스는 복잡한 시스템으로 이루어져 있기 때문에, 한 부분이 고장 나더라도 전체 서비스가 멈추지 않도록 설계하는 것이 정말 중요해요.\n기술적 안정성 확보 방안\n시스템 이중화 및 분산화: 서버, 네트워크, 데이터베이스 등 핵심 인프라를 여러 곳에 분산시키고 복제해서 한 곳이 고장 나도 다른 곳에서 대신 작동할 수 있도록 해야 합니다.\n클라우드 기반 자동 확장: 사용자가 몰리면 자동으로 서버 용량을 늘려주고, 트래픽을 여러 지역으로 분산시키는 기술을 적극 활용해야 해요.\n운영적 신뢰성 강화\n1) 정확한 원인 분석(RCA): 장애가 발생하면 왜 발생했는지, 무엇이 문제였는지 근본 원인을 파악하고 재발 방지 대책을 세워야 합니다.\n2) 주기적인 모의훈련: 실제 장애처럼 상황을 만들어서 직원들이 빠르고 정확하게 대응하는 훈련을 꾸준히 해야 합니다.\n→ 이런 노력들이 합쳐져야 서비스가 더욱 튼튼해지고, 사용자들도 안심하고 AI를 이용할 수 있겠죠!\n이번 챗GPT 장애 보상처럼 사후 대응도 중요하지만, 무엇보다 중요한 건 장애를 미연에 방지하고 발생하더라도 빠르게 복구할 수 있는 시스템을 갖추는 것이라고 생각해요. AI가 우리 삶의 필수적인 부분이 되어가는 만큼, 그 신뢰성은 무엇보다 우선시되어야 할 가치니까요.\n \n마무리: 핵심 내용 요약 \n오늘은 챗GPT 서비스 장애와 오픈AI의 보상 소식, 그리고 앞으로 AI 서비스의 안정성을 높이기 위한 노력들에 대해 이야기해봤어요.\n \n \n챗GPT 장애 보상, 핵심 요약!\n✨ 주요 장애: 2025년 6월 10~11일, 챗GPT 및 OpenAI 서비스의 대규모 오류 발생.\n  보상 대상: 챗GPT 유료 멤버십 이용자 및 API 유료 고객.\n  보상 방식: 월 구독료의 약 6.4% 자동 환불 진행 (예: 22달러 구독 시 약 1.41달러).\n환불 금액 = 월 구독료 × (장애 시간 / 총 월 사용 시간)\n ‍  미래 대응: 실시간 모니터링, 시스템 이중화, 주기적 모의훈련 등으로 안정성 강화 예정.\n서비스 안정성은 AI 시대의 핵심 가치입니다.\n \n자주 묻는 질문 ❓\nQ: 챗GPT 장애 보상은 누가 받을 수 있나요?\nA: 챗GPT 플러스, 프로, 팀, 엔터프라이즈 등 유료 멤버십 이용자와 API 유료 고객이 보상 대상입니다. 무료 사용자에게는 보상이 제공되지 않습니다.\nQ: 보상을 받으려면 따로 신청해야 하나요?\nA: 아니요, 별도 신청 절차 없이 자동 적용될 예정입니다. 다만, 웹사이트나 앱스토어(Apple, Google Play) 결제 건은 필요시 각 경로로 개별 환불 신청이 가능합니다.\nQ: 보상 금액은 얼마나 되나요?\nA: 월 구독료의 약 6.4%가 환불되는 것으로 확인되었습니다. 이는 장애 발생 시간에 비례하여 계산된 것으로 보입니다.\nQ: 챗GPT 서비스는 지금 정상적으로 작동하나요?\nA: 네, 2025년 7월 2일 현재 챗GPT를 포함한 모든 오픈AI 서비스는 정상적으로 운영 중임을 오픈AI가 공식 안내했습니다.\nQ: 앞으로 이런 장애를 예방하기 위한 오픈AI의 노력은 무엇인가요?\nA: 오픈AI는 실시간 모니터링 시스템 고도화, 자동 복구 프로세스 마련, 시스템 이중화 및 분산화, 주기적인 점검 및 모의훈련 등을 통해 서비스 안정성을 강화할 예정입니다.\nAI 기술이 우리 삶의 깊숙이 들어온 만큼, 서비스의 안정성과 신뢰성은 그 무엇보다 중요한 가치가 되고 있어요. 이번 챗GPT 장애 보상처럼 사후 대응도 물론 중요하지만, 앞으로는 더 튼튼한 시스템으로 우리를 불편하게 하는 일이 없었으면 좋겠습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-june-2025/",
-    "pubDate": "Fri, 04 Jul 2025 19:02:05 +0000",
-    "creator": "Augustin Popa",
+    "link": "http://muzbox.tistory.com/483617",
+    "pubDate": "Wed, 2 Jul 2025 11:51:18 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
+      "AI, 미래기술/AI 인사이트",
+      "ai 서비스 안정성",
+      "api 장애",
+      "미래 ai",
+      "서버 문제",
+      "오픈ai 보상",
+      "유료 멤버십",
+      "챗GPT 오류",
+      "챗gpt 장애",
+      "챗gpt 환불"
     ]
   },
   {
     "id": 3,
-    "imageUrl": "",
-    "title": "소득수준이 만달라에 가면 반드시 자유를 원하게 된다. / 중국",
-    "description": "영상: https://youtu.be/t656SxPDY7U?t=685\n\n\n\n \n소득수준이 올라감에 따라\n반드시 정치환경이 바껴야한다는 논리를 이야기 하십니다.\n사회가 발전하다보면 놀아도 소비가 증가하는 시점이 생깁니다.\n영상에서는 만달러 정도를 이야기 하십니다.\n \n예를들어 공업으로 성장하더라도 충분한 소득이 생기면\n휴식시간이 늘어나야하고 그러면 엔터테인먼트 사업이 성장하는 식이죠\n \n하지만 중국은 국민을 제어해야하기 때문에 놀리면 문제가 생길 여지가 커지게 됩니다.\n그래서 계속 일을 시켜야한다고 판단하게되고 이러면 만달러 위로는 못가는 함정에 빠지게 됩니다.\n \n필연적이라는 점이 인상깊었습니다.\n \n미국도 천장을 뚫으려면 기존가는 다른 체제를 가지게 될지도 모르겠군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1349",
-    "pubDate": "Wed, 2 Jul 2025 17:24:35 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "중국",
-      "체제"
-    ]
-  },
-  {
-    "id": 4,
     "imageUrl": "",
     "title": "Case Study: Why Kakao Pay Chose Kotlin for Backend Development",
     "description": "This blog post is a JetBrains translation of the original post by katfun.joy, a backend developer at Kakao Pay. Kakao Pay leverages Kotlin with Spring for backend development across various services, including its insurance offerings. Check out Kakao Pay’s story to see how Kotlin helps it address the complex requirements of the insurance industry and […]",
@@ -62,94 +56,33 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "imageUrl": "",
-    "title": "Visual Studio 2022 17.14의 MSVC C++ 언어 업데이트",
-    "description": "No description available",
+    "title": "토스, ‘토스 메이커스 컨퍼런스 25’ 개최",
+    "description": "제품 개발 직군 126명 연사로 나선다",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/VS_20250701/",
-    "pubDate": "Tue, 01 Jul 2025 00:00:00 +0900",
+    "link": "https://toss.im/tossfeed/article/tmc25",
+    "pubDate": "Thu, 03 Jul 2025 23:16:00 GMT",
     "creator": "Unknown",
     "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "골프용 AI 안경 전자기기를 만들었습니다.",
+    "description": "본격적으로 골프 라운딩을 나가면서 골프에 꽂힌지 5년 이상이 되었음에도 불구하고, 정체된 채 여전히 엉망인 골프 실력을 위해, 한동안 코딩보다 더 열심히 골프에 매진했었습니다. 그럼에도 불구하고 형편없는 골프 실력은 별로 나아지지를 않더군요. 필요가 발명을 낳는다는 말이 있죠. 저는 골프 실력 대신에 뭔가를 발명해서 그것을 극복해보자는 생각이 들었습니다. 그리고 재작년에 특허를 출원하고, 프로토타입 개발을 시작했습니다. 그리고 작년에 프로토타입 개발을 완성했죠. 특허 1건을 더 출원하고요. 뭐하는 기기냐고요? 나의 골프스윙을 실시간 캡처해서 AR 안경을 통해 보여주는 기기입니다. 즉 골프 스윙 시각화 기기죠. 이걸.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/imays/223915921498?fromRss=true&trackingCode=rss",
+    "pubDate": "Sun, 29 Jun 2025 22:56:23 +0900",
+    "creator": "imays",
+    "categories": [
+      "컴퓨터"
+    ]
   },
   {
     "id": 6,
-    "imageUrl": "",
-    "title": "Module Import Declarations: No More Import Hell ",
-    "description": "Imagine you are proud of yourself for creating an amazing Java application, framework, or a library. You open one of its source files to make some changes and this is what you see: While looking at this long list of imports, are you wondering why you need to know the name of every single class […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/07/module-import-declarations-no-more-import-hell/",
-    "pubDate": "Tue, 01 Jul 2025 11:05:32 +0000",
-    "creator": "Mala Gupta",
-    "categories": [
-      "tutorials",
-      "java25",
-      "module-import-declarations"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "An inside look at Meta’s transition from C to Rust on mobile",
-    "description": "Have you ever worked is legacy code? Are you curious what it takes to modernize systems at a massive scale? Pascal Hartig is joined on the latest Meta Tech Podcast by Elaine and Buping, two software engineers working on a bold project to rewrite the decades-old C code in one of Meta’s core messaging libraries [...]\nRead More...\nThe post An inside look at Meta’s transition from C to Rust on mobile appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/07/01/developer-tools/an-inside-look-at-metas-transition-from-c-to-rust-on-mobile/",
-    "pubDate": "Tue, 01 Jul 2025 16:00:23 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Culture",
-      "DevInfra",
-      "Meta Tech Podcast"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "다이어트 식이요범 종결 영상 / 식이요법 / 운동 / 2025년 5월",
-    "description": "영상: https://www.youtube.com/watch?v=5_WSDnki3mU\n\n\n\n \n여러 식이요범은 사람마다 맞는 사람이 있으니\n해봤는데 안되면 내 몸엔 안맞는거다.\n \n스트레스를 줄여야 먹는걸 줄일 수 있다.\n \n캐톤식은 빠지는거 같지만 근육이 줄어든다.\n근육 줄어드는건 방지하려고 운동을하면 몸무게가 늘어난다.\n \n들어보면 작용 반작용이 다있습니다.\n \n먹는거와 운동을 다 이용해야합니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1345",
-    "pubDate": "Mon, 30 Jun 2025 19:13:19 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "다이어트",
-      "살빼기"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "알아두면 쓸데 있는 신용카드 용어 사전",
-    "description": "리볼빙? 청구할인? 복잡한 카드 용어, 이젠 제대로 알아야 할 때",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossmoment-13",
-    "pubDate": "Fri, 04 Jul 2025 01:04:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "쇼츠는 이렇게 만들어야한다.",
-    "description": "영상: https://www.youtube.com/shorts/RsoOGYyBMO4?si=gUibZTxpPpSCOzwY\n\n\n\n1. 쇼츠니까 당연히 짧아야합니다.\n2. 스토리의 완결성을 보여줘야합니다.\n3. 사람들이 이해할 수 있는 주제로 만들어야합니다.\n \n이런식으로요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1348",
-    "pubDate": "Wed, 2 Jul 2025 11:43:47 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "쇼츠"
-    ]
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "바이브 코딩을 위한 구글 Gemini CLI 도구 분석 및 사용",
     "description": "이 글은 바이브 코딩을 위한 구글 Gemini CLI 도구 분석 및 사용기를 나눔합니다. 이 도구를 사용하면 다음과 같이 터미널 명령창에서 프롬프트를 이용해 바이브 코딩을 하고, 이 과정도 자동화할 수 있습니다.\n\n\n준비 사항\n다음 링크를 방문해, 도구를 설치한다.\n\ngoogle-gemini/gemini-cli: An open-source AI agent that brings the power of Gemini directly into your terminal.\n\n이 도구를 사용하기 위해선 Google AI API 키 등이 준비되어야 한다. 다음 링크를 참고해 가입 준비 후 진행한다. \n\nGet API key | Google AI Studio\n\n바이브 코딩하기\n명령창에서 gemini를 실행하고, 다음과 같이 프롬프트를 입력해 본다. \n> Convert all the images in this directory to png, and rename them to use dates with pillow library etc.\n\n\n정상적으로 실행된다면, 제미니가 에이전트로 동작하며, 문제 해결을 위한 ReAct 전략을 단계별로 추론해, 적절한 도구를 설치하고, 코딩을 해 소스코드를 생성한 후, 실행할 것이다. 다음은 그 결과를 보여준다. \n\n\n\n\n다른 프롬프트도 입력해 바이브 코딩해 본다. \n> Organise my PDF invoices by month of expenditure.\n> make photoshop web app using three.js, bootstrap. Menus includes layer, line, arc, circle, fill color with tranparent, border color, zoom in/out, pan, download file as JPG\n\n\n\n\n\n결과물이 제대로 동작하지 않을 때는 다음과 같이 오류 검토 후 수정 요청을 한다.\n\n\n\n\nvscode에서 다른 vibe 코드 도구의 agent 기능을 이용해 수정 요청을 하는 것도 도움이 된다.  \n\n\n\n\n레퍼런스\n\ngoogle-gemini/gemini-cli: An open-source AI agent that brings the power of Gemini directly into your terminal\nComprehensive Guide to Setting Up Claude Code on Windows Using WSL | by azhar | azhar labs | Medium\n구글 제미나이 CLI",
@@ -161,22 +94,21 @@
     "categories": []
   },
   {
-    "id": 12,
+    "id": 7,
     "imageUrl": "",
-    "title": "Qodana Leadership Series",
-    "description": "Progress Or Perfection? Staying Quality-Focused as a Team Under Pressure Everyone from growth-mindset gurus to Agile die-hards talk about ways in which we can iterate as developers. Release an MVP, build as you go, “minimize waste, maximize value” to stay lean, and do it all while prioritizing user feedback.  But as much merit as these […]",
+    "title": "악역영애 4컷 만화 - 9화, 친구만들기 데스와!",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/06/qodana-leadership-series-minaev/",
-    "pubDate": "Mon, 30 Jun 2025 15:47:16 +0000",
-    "creator": "Kerry Beetge",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2329",
+    "pubDate": "Wed, 02 Jul 2025 18:12:49 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "qodana",
-      "webstorm"
+      "웹툰"
     ]
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
     "title": "어마어마하게 빠른 스타트업 성공사례 나왔다 / 2025년 6월 / AI 코딩 서비스",
     "description": "영상: https://www.youtube.com/watch?v=3N7iZehbuwU\n\n\n\nwinx 가 윈드서프라는 회사를 인수했습니다.\n\n\n \n10명의 화사가 설립 6개월 만에 천억에 팔렸다고 합니다.\n1조로 환산하면 100명의 회사를 인수했다고 보면되니 유니콘 회사가 맞습니다.\n엄청난 효율입니다.\n \n주요 테마는 AI 코딩입니다.\nAI 코딩으로 서비스를 만들어주는 기능이 절실히 필요했나봅니다.\n \n저도 빨리 이쪽 테마에 타야겠습니다.",
@@ -192,27 +124,105 @@
     ]
   },
   {
-    "id": 14,
+    "id": 9,
     "imageUrl": "",
-    "title": "토스, 1년간 외국인 가입자 30% 늘었다",
-    "description": "외국인 친화적 시스템과 접근성으로 성장 견인",
+    "title": "소득수준이 만달라에 가면 반드시 자유를 원하게 된다. / 중국",
+    "description": "영상: https://youtu.be/t656SxPDY7U?t=685\n\n\n\n \n소득수준이 올라감에 따라\n반드시 정치환경이 바껴야한다는 논리를 이야기 하십니다.\n사회가 발전하다보면 놀아도 소비가 증가하는 시점이 생깁니다.\n영상에서는 만달러 정도를 이야기 하십니다.\n \n예를들어 공업으로 성장하더라도 충분한 소득이 생기면\n휴식시간이 늘어나야하고 그러면 엔터테인먼트 사업이 성장하는 식이죠\n \n하지만 중국은 국민을 제어해야하기 때문에 놀리면 문제가 생길 여지가 커지게 됩니다.\n그래서 계속 일을 시켜야한다고 판단하게되고 이러면 만달러 위로는 못가는 함정에 빠지게 됩니다.\n \n필연적이라는 점이 인상깊었습니다.\n \n미국도 천장을 뚫으려면 기존가는 다른 체제를 가지게 될지도 모르겠군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/foreign",
-    "pubDate": "Tue, 01 Jul 2025 03:29:00 GMT",
+    "link": "http://serverdown.tistory.com/1349",
+    "pubDate": "Wed, 2 Jul 2025 17:24:35 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "중국",
+      "체제"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "전국 배드민턴 대회 참가 디버깅",
+    "description": "클리어 밀리는 모습\n\n\n취미로 배드민턴을 하고 있습니다.\n그런데 진심이 되는 바람에 전국 배드민턴 대회 참가했습니다.\n결과는 예선 탈락.\n집에 와서 녹화된 경기 영상을 시청했습니다.\n마치 처음으로 녹음된 내 목소리를 듣는 느낌이었습니다.\n매우 창피하고 분하지만, 그렇지만 지금 피하면 앞으로 더 나아갈 수 없다는 걸 알고 있으니까요.\n고쳐 나가야 할 부분들이 보이기 시작합니다.\n개발자로서도 참 닮아 있습니다.\n- 점수\n첫 경기 21:20, 두 번째 경기 21:6\n- 그나마 잘 된 부분\n드라이브, 헤어핀\n- 잘 되지 않은 부분\n전부다 ㅠㅠ.. 스텝, 서비스 리턴, 빠른 수비 자세, 백핸드, 드롭 수비\n- 특히 고쳐야 할 부분\n수비 상황에서 상체가 너무 높음. 더 낮게 해야 함",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hodolman.tistory.com/77",
+    "pubDate": "Mon, 30 Jun 2025 21:56:09 +0900",
+    "creator": "호돌맨",
+    "categories": [
+      "우당탕탕 대모험"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Qodana Leadership Series",
+    "description": "Progress Or Perfection? Staying Quality-Focused as a Team Under Pressure Everyone from growth-mindset gurus to Agile die-hards talk about ways in which we can iterate as developers. Release an MVP, build as you go, “minimize waste, maximize value” to stay lean, and do it all while prioritizing user feedback.  But as much merit as these […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2025/06/qodana-leadership-series-minaev/",
+    "pubDate": "Mon, 30 Jun 2025 15:47:16 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "qodana",
+      "webstorm"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "다이어트 식이요범 종결 영상 / 식이요법 / 운동 / 2025년 5월",
+    "description": "영상: https://www.youtube.com/watch?v=5_WSDnki3mU\n\n\n\n \n여러 식이요범은 사람마다 맞는 사람이 있으니\n해봤는데 안되면 내 몸엔 안맞는거다.\n \n스트레스를 줄여야 먹는걸 줄일 수 있다.\n \n캐톤식은 빠지는거 같지만 근육이 줄어든다.\n근육 줄어드는건 방지하려고 운동을하면 몸무게가 늘어난다.\n \n들어보면 작용 반작용이 다있습니다.\n \n먹는거와 운동을 다 이용해야합니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1345",
+    "pubDate": "Mon, 30 Jun 2025 19:13:19 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "다이어트",
+      "살빼기"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "토스, ‘토스 카드라운지’ 출시",
+    "description": "카드 비교추천 서비스 PC 버전 오픈",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/cardlounge",
+    "pubDate": "Wed, 02 Jul 2025 06:49:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "토스, 세븐일레븐과 멤버십 ‘더블패스’ 출시…무료 가입으로 할인 혜택",
+    "description": "세븐일레븐 즉시 할인 5%, 토스머니/계좌 결제 시 5% 포인트 적립",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/doublepass",
+    "pubDate": "Tue, 01 Jul 2025 03:30:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "6.27 부동산 대책에 7월 DSR까지, 내 대출 한도 어떤 변화가 생길까요?",
-    "description": "2025 내 집 마련하려면 이걸 먼저 알아야 해요",
+    "title": "New YouTrack Prices Starting from October 2025",
+    "description": "We’re introducing a few changes to YouTrack prices, which will take effect on October 1, 2025.  What’s not changing What will be changing Read on to learn about the reasons for this change, how to prepare, and what it means for YouTrack Cloud and Server customers. Why are we making this change? Our current pricing […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossmoment-14",
-    "pubDate": "Fri, 04 Jul 2025 07:33:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025/",
+    "pubDate": "Mon, 30 Jun 2025 15:41:34 +0000",
+    "creator": "Elena Pishkova",
+    "categories": [
+      "news",
+      "youtrack",
+      "youtrack-cloud",
+      "youtrack-server"
+    ]
   }
 ]
