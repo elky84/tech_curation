@@ -23,50 +23,167 @@
   {
     "id": 2,
     "imageUrl": "",
-    "title": "The Future of AI in Software Development",
-    "description": "AI is no longer a distant idea. It’s already here and changing how we build software. As it advances, new questions emerge about its impact.  How deeply will AI be woven into software development? What new opportunities will emerge for companies building AI-powered tools? Perhaps most importantly, how will developers and AI collaborate over the […]",
+    "title": "Ktor 3.2.2 Is Now Available",
+    "description": "The Ktor 3.2.2 patch release brings a critical fix for Android D8 compatibility, along with some minor enhancements and bug fixes. 🚀 Get started Ready to explore Ktor 3.2.2? Start building your next project today with our interactive project generator at start.ktor.io. Your feedback and contributions are always welcome! 🔗 Get Started With Ktor | […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/07/the-future-of-ai-in-software-development/",
-    "pubDate": "Wed, 16 Jul 2025 13:38:30 +0000",
-    "creator": "Egor Bogomolov",
+    "link": "https://blog.jetbrains.com/kotlin/2025/07/ktor-3-2-0-is-now-available-2/",
+    "pubDate": "Thu, 17 Jul 2025 14:48:58 +0000",
+    "creator": "Simon Vergauwen",
     "categories": [
-      "jetbrains-ai",
-      "research",
-      "ai"
+      "ktor",
+      "news",
+      "releases",
+      "release"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "모바일 앱 난독화(Mobile App Obfuscation)란?",
-    "description": "[![NHN Cloud_meetup banner_Obfuscation_202507-01.png](https://image.toast.com/aaaadh/real/2025/techblog/NHN%20Cloudmeetup%20bannerObfuscation20250701.png)](https://www.nhncloud.com/kr)\r\r\n## 들어가며: 모바일 앱 난독화란?\r\r\n\r\r\n모바일 애플리케이션(이하 ‘앱’)은 사용자 데이터와 기업 지식 재산권을 보호하기 위한 강력한 보안 조치가 반드시 필요합니다. 특히, 인터넷을 통해 앱이 전 세계로 배포되면서 해커들의 공격 대상이 되기 쉬워졌습니다. 이러한 상황에서 **난독화(Obfuscation)**는 소스 코드나 바이너리 파일을 복잡하게 변환하여 역공학(逆工學, Reverse Engineering) 및 해킹 시도로부터 앱을 보호하는 핵심 기술로 자리 잡았습니다. 이 글에서는 모바일 환경에서 난독화의 중요성과 다양한 난독화 솔루션들이 제공하는 기능들을 살펴보겠습니다.\r\r\n\r\r\n## 모바일 앱 난독화의 필요성\r\r\n\r\r\n**역공학**, 즉 **리버스 엔지니어링**은 모바일 앱 보안에 큰 위협이 됩니다. 해커들은 앱 코드를 분석해 작동 원리를 파악하고, 이를 통해 취약점을 찾아내거나 코드를 무단으로 변경할 수 있습니다. 악의적인 공격자들은 리버스 엔지니어링을 이용하여 앱의 핵심 로직을 탈취하거나, 유료 기능을 무료로 사용하도록 조작하며, 심지어 악성코드를 삽입해 사용자에게 피해를 줄 수도 있습니다.\r\r\n\r\r\n이러한 위협에 대응하기 위한 방법 중 하나가 바로 **난독화**입니다. 난독화는 앱의 코드를 읽기 어렵게 만들어 리버스 엔지니어링을 방해하는 기술로, 코드를 마치 암호처럼 복잡하게 변환하여 해커가 분석하기 어렵게 만듭니다. 이로 인해 공격자는 시간과 노력을 과도하게 소모하게 되어, 공격 시도를 크게 저지할 수 있습니다.\r\r\n\r\r\n난독화는 안티 디버깅, 안티 템퍼링, 무결성 검증과 같은 다른 보안 기술과 병행 사용될 때 그 효과가 더욱 극대화됩니다.\r\r\n\r\r\n## 난독화 기술의 종류\r\r\n\r\r\n「Parvez Faruki 외, (2026). Android Code Protection via Obfuscation Techniques: Past, Present and Future Directions」에 따르면 난독화 기술은 총 네 가지 카테고리로 분류됩니다.\r\r\n\r\r\n> 1. Layout Obfuscation\r\r\n> 2. Control Obfuscation\r\r\n> 3. Preventive Obfuscation\r\r\n> 4. Data Obfuscation\r\r\n\r\r\n여기서는 눈으로 쉽게 확인할 수 있는 **Layout Obfuscation**과 **Control Obfuscation**에 대해 자세히 알아보겠습니다.\r\r\n\r\r\n### **Layout Obfuscation**\r\r\n\r\r\nLayout Obfuscation의 대표적인 방식은 **식별자 난독화**입니다. 이는 소스 코드 내 변수, 함수, 클래스 등의 이름을 의미 없는 문자나 숫자로 변경하는 방식입니다. Android 앱에서는 주로 Java나 Kotlin 코드가, iOS 앱에서는 Objective-C 나 Swift 코드가 난독화 대상이 됩니다. 이 기술을 통해 해커가 코드에서 의미 있는 단어를 찾거나 앱의 기능을 파악하기 어렵게 만듭니다.\r\r\n\r\r\n#### **장점**\r\r\n\r\r\n* 코드 가독성이 크게 낮아져 역공학 도구가 코드의 구조나 역할을 파악하기 어렵습니다.\r\r\n* 단순한 변환만으로도 상당한 보안 효과를 얻을 수 있어 초기 보안 강화 수단으로 효과적입니다.\r\r\n\r\r\n#### **단점**\r\r\n\r\r\n* 지나치게 난독화된 코드는 디버깅이나 유지보수가 어려워질 수 있습니다.\r\r\n* 코드 최적화와 충돌할 가능성이 있어 성능에 미치는 영향을 고려해야 합니다.\r\r\n\r\r\n**원본 코드**\r\r\n\r\r\n```java\r\r\npublic class UserData {\r\r\n  private String userName;\r\r\n  private String userPassword;\r\r\n\r\r\n  public String getUserName() {\r\r\n    return userName;\r\r\n  }\r\r\n\r\r\n  public void setUserPassword(String password) {\r\r\n    this.userPassword = password;\r\r\n  }\r\r\n}\r\r\n```\r\r\n\r\r\n**난독화된 코드**\r\r\n\r\r\n```java\r\r\npublic class a {\r\r\n  private String b;\r\r\n  private String c;\r\r\n\r\r\n  public String a() {\r\r\n    return b;\r\r\n  }\r\r\n\r\r\n  public void b(String d) {\r\r\n    this.c = d;\r\r\n  }\r\r\n}\r\r\n```\r\r\n\r\r\n### **Control Obfuscation**\r\r\n\r\r\nControl Obfuscation은 코드의 실행 경로와 제어 흐름을 복잡하게 변경하는 기술입니다. 조건문, 반복문, 분기문의 순서를 재구성하거나 불필요한 코드 조각을 삽입하여 실제 로직과 혼동을 유발합니다. 이러한 변환은 역공학 도구가 실제 실행 경로를 파악하는 데 많은 시간과 노력을 필요로 하게 만듭니다.\r\r\n\r\r\n#### **예시**\r\r\n\r\r\n* 실제 로직과 무관한 조건문과 반복문을 추가해 제어 흐름을 복잡하게 만듭니다.\r\r\n* 함수 호출 순서를 임의로 변경하여 코드 흐름을 추적하기 어렵게 합니다.\r\r\n\r\r\n#### **효과**\r\r\n\r\r\n* 공격자가 앱 내부의 실제 동작을 분석하는 데 소요되는 시간이 크게 증가합니다.\r\r\n* 역공학 도구를 이용한 자동 분석의 정확도를 낮춰 보안성을 극대화합니다.\r\r\n\r\r\n대표적으로 Flattening 기법을 통해 이를 확인할 수 있습니다.\r\r\n\r\r\n**원본 코드**\r\r\n\r\r\n```java\r\r\npublic class Calculator {\r\r\n    public int calculate(int a, int b) {\r\r\n        int result = a + b;\r\r\n        return result * 2;\r\r\n    }\r\r\n}\r\r\n```\r\r\n\r\r\n**난독화된 코드**\r\r\n\r\r\n```java\r\r\npublic class Calculator {\r\r\n    public int calculate(int a, int b) {\r\r\n        int result = 0;\r\r\n        int state = 0;\r\r\n        int opaque = (a * b) % 2 + 1; // 항상 1 또는 2\r\r\n\r\r\n        while (opaque > 0) {\r\r\n            switch (state) {\r\r\n                case 0:\r\r\n                    result = a + b;\r\r\n                    state = opaque;     // 조건에 따라 1 또는 2로 전환\r\r\n                    break;\r\r\n                case 1:\r\r\n                    result = result * 2; // 곱셈 수행\r\r\n                    state = 3;          // 종료를 위해 3 부여\r\r\n                    break;\r\r\n                case 2: // 의미 없는 연산(dead code)\r\r\n                    result = b - a;\r\r\n                    state = 1;\r\r\n                    break;\r\r\n                case 3: // 종료\r\r\n                    opaque = -1;        // 루프 종료(실제로 불필요)\r\r\n                    break;\r\r\n            }\r\r\n            if (opaque < 0) break; // 더미 코드 및 탈출 조건\r\r\n        }\r\r\n        return result;\r\r\n    }\r\r\n}\r\r\n```\r\r\n\r\r\n## 시장에 존재하는 모바일 앱 난독화 솔루션\r\r\n\r\r\n모바일 난독화 솔루션은 무료와 상용 제품으로 구분됩니다. 각 솔루션은 기능, 사용 편의성, 그리고 업데이트 지원 측면에서 차이가 있으며, 개발자의 필요에 따라 선택할 수 있습니다.\r\r\n\r\r\n### **무료 난독화 솔루션**\r\r\n\r\r\n#### **Proguard**\r\r\n\r\r\nProguard는 Android 개발 환경에서 가장 널리 사용되는 오픈 소스 난독화 도구입니다. Java 기반의 코드를 대상으로 식별자 난독화와 코드 최적화, 그리고 불필요한 코드 제거 기능을 제공합니다. 이 도구는 Android Studio와 통합되어 있어 사용이 매우 간편한 점이 큰 장점입니다.\r\r\n\r\r\n* 주요 기능\r\r\n\t* 식별자 난독화 및 코드 압축\r\r\n\t* 불필요한 코드 제거를 통한 앱 크기 감소\r\r\n\t* 자동화된 설정과 빌드 프로세스와의 원활한 통합\r\r\n\r\r\nControl Obfuscation의 기능은 제공되지 않습니다.\r\r\n\r\r\n#### **Black Obfuscation**\r\r\n\r\r\nOpenSource로 제공되고 있는 난독화 솔루션 중 하나입니다.\r\r\n\r\r\n* 주요 기능\r\r\n    * Control flow flattening\r\r\n    * If 분기문 흐름 변경\r\r\n    * 복잡한 명령어로 치환\r\r\n\r\r\n식별자 난독화와 같은 Layout Obfuscation을 제공하지 않습니다.\r\r\n\r\r\n#### **그 밖의 OpenSource**\r\r\n\r\r\n* ObfusApk\r\r\n    * [https://github.com/ClaudiuGeorgiu/Obfuscapk](https://github.com/ClaudiuGeorgiu/Obfuscapk)\r\r\n* dprotect\r\r\n    * [https://obfuscator.re/dprotect/](https://obfuscator.re/dprotect/)\r\r\n\r\r\n\r\r\n### **상용 난독화 솔루션**\r\r\n\r\r\n#### **D사 솔루션**\r\r\n\r\r\n난독화 기능에 더해, 문자열 암호화, 코드 삽입, 디버깅 방지 등 다양한 보안 기능을 제공합니다.\r\r\n\r\r\n#### **Q사 솔루션**\r\r\n\r\r\n코드 난독화, 변조 방지, 런타임 보호 등 다양한 보안 기능을 제공하는 솔루션입니다.\r\r\n\r\r\n#### **NHN AppGuard 난독화**\r\r\n\r\r\nNHN Cloud의 NHN AppGuard는 난독화(Layout 및 Control Obfuscation)뿐만 아니라, 변조 방지, 런타임 보호, 안티 디버깅, 안티 템퍼링 등 다층적인 보안 기능을 제공하는 통합 모바일 보안 솔루션입니다. NHN AppGuard의 난독화는 보안 모듈과의 상호작용을 통해 Control Flow를 변동시켜 더욱 강력한 난독화 기능을 제공합니다.\r\r\n\r\r\n>  [NHN AppGuard 더 알아보기](https://www.nhncloud.com/kr/service/security/nhn-appguard)\r\r\n\r\r\n\r\r\n## 난독화 솔루션 선택 기준\r\r\n\r\r\n* **난독화 강도**: 솔루션이 제공하는 난독화 기술의 종류와 강도를 확인합니다.\r\r\n* **지원 기능**: 디버깅 방지, 변조 방지, 런타임 보호 등 추가적인 보안 기능을 지원하는지 확인합니다.\r\r\n* **성능 영향**: 난독화로 인해 앱 성능에 미치는 영향을 고려합니다.\r\r\n* **사용 편의성**: 솔루션의 사용 방법이 얼마나 쉽고 편리한지 확인합니다.\r\r\n* **기술 지원**: 솔루션 제공 업체의 기술 지원 수준을 확인합니다.\r\r\n* **가격**: 솔루션의 가격과 라이선스 정책을 확인합니다.\r\r\n\r\r\n\r\r\n## 나가며\r\r\n\r\r\n오늘날 강력한 모바일 앱 보안은 선택 사항이 아닌 필수 요건입니다. 특히 리버스 엔지니어링은 앱의 지식 재산권을 침해하고 사용자 데이터를 위협하는 심각한 공격 방식으로 부상했습니다. 이러한 위협에 효과적으로 대응하기 위해서는 전문적인 난독화 솔루션 도입이 중요하지만, 난독화만으로는 완벽한 보안을 보장할 수 없습니다.\r\r\n\r\r\n진정한 앱 보안은 난독화뿐만 아니라 다양한 보안 기술들이 유기적으로 결합될 때 실현됩니다. NHN AppGuard는 이러한 다층적인 보안 기능을 통합적으로 제공하여 난독화의 한계를 극복하고, 더욱 강력하고 견고한 앱 보호 체계를 구축합니다.\r\r\n\r\r\nNHN AppGuard와 함께 귀사의 소중한 앱을 안전하게 보호하고, 비즈니스 성공을 위한 든든한 토대를 마련하시기 바랍니다.\r\r\n긴 글을 읽어 주셔서 감사합니다. \r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_202507-01.png](https://image.toast.com/aaaadh/real/2025/techblog/NHN%20Cloudmeetup%20bannerfooter20250701%281%29.png)](https://www.nhncloud.com/kr)",
+    "title": "퇴사 부검 : 네이버를 떠나며",
+    "description": "12년 넘게 다닌 회사를 떠난다. 군대를 전역한 이후, 스스로의 선택으로 회사를 떠나는 것은 이번이 처음이다. 그래서인지 아직 실감이 나지 않는다. 첫 출근 날의 설렘이 아직도 손끝에 남아 있는데, 어느새 마지막 퇴근을 준비하고 있다. 하루에도 몇 번씩 아쉬움과 후련함, 설렘과 두려움이 번갈아 찾아온다. 감정은 밀물처럼 들어왔다가 썰물처럼 빠져나간다. 긴 시간의 무게가 마음 한편에 조용히 가라앉는다.\n　눈을 감고 천천히 지난 시간을 떠올려 본다. 신입사원이던 시절, 세상이 내 손안에 있는 듯한 자신감이 있었다. 첫 업무가 웹페이지 하단의 사명을 NHN에서 NAVER로 바꾸는 일이었으니, 지금 생각해 보면 참 귀엽고 소박했다. 동료들과 웃고 떠들던 점심시간도, 이루 말할 수 없는 뿌듯함을 안고 보냈던 수많은 야근의 밤도 생생하다. 물론 그 반짝이는 순간들 사이엔 힘들고 외로운 날도 있었다. 때로는 지치고, 때로는 막막했다. 그래도 나는 그 시간을 사랑했다. 그 모든 시간이 지금의 나를 만들었다. 그래서 더 애틋하다. 이제는 떠나지만, 이 회사는 내 안에 지울 수 없는 흔적으로 남는다.\n\n          \n      최종 합격하고 고향에 내려가던 날\n      \n　이 글은 단지 퇴사의 기록이 아니다. 나 자신과의 깊은 대화이자, 커리어의 전환점에 대한 고백이다. 무엇을 배웠고, 무엇을 남기고 가는지. 앞으로 어떤 방향을 향해 나아갈지. 나는 지금 그 질문들 앞에 서 있다. 이 글로 모든 것을 담을 수 있을지 모르겠다. 그래도 천천히, 한 줄 한 줄 정리해보려 한다. 이 글이 누군가에게, 그리고 언젠가의 나에게 의미 있는 기록으로 남기를 바란다.\n넷플릭스에서는 직원이 퇴사하기 전에 ‘퇴사부검’이라는 메일을 보낸다고 한다. 그 메일에는 아래의 내용이 담긴다.\n왜 떠나는지 : 다른 직원들이 이해할 수 있는 이유\n회사에서 배운 것 : 새로 배운 것과 경험한 것\n회사에 아쉬운 점 : 회사가 이랬다면 떠나지 않았을 것\n앞으로의 계획 : 어느 직장에서 어떤 업무를 할지\n회사의 메세지 : 직원을 떠나보내는 회사의 입장\n　이 형식을 따라, 건강한 퇴사를 위한 기록을 남기려 한다. 다만 5번 항목은 내가 이야기할 부분이 아니기에 생략한다. 대신 시작에 앞서 네이버라는 회사에 대한 생각을 짧게 정리하고 시작한다.\n부검 0 : 네이버에 대하여\n　네이버는 대한민국 최대의 검색 엔진이자 포털 사이트다. 개발자이자 직원으로서도 다니기에 좋은 회사로 유명하다. 나 역시 재직 기간 동안 수많은 복지와 혜택을 누릴 수 있었다. 사용자 중심의 ‘서비스’를 만드는 회사라 복잡한 도메인 설계부터 대규모 트래픽을 다룰 기회도 많았다. 개발자인 내게 매우 매력적인 부분이었다.\n\n          \n      입사했던 그린팩토리와 로봇들과 함께 있던 1784 사옥\n출처 : https://design.co.kr/article/33592\n      \n　네이버에는 서비스마다 다양한 조직이 존재한다. 직원 스스로 새로운 기회를 찾을 수 있는 OCC(Open Career Chance)라는 사내 제도도 있다. 물론 최근 들어 합격의 기준이 까다로워지고 있지만, 여전히 직원들이 네이버를 좋아하는 이유 중 하나라고 생각한다. 또한 네이버엔 “최복동(최고의 복지는 동료)”이라는 말이 있다. 유연하고 자율적인 분위기 속에서 서로 배우고 성장하는 문화가 잘 자리 잡혀 있다. 이런 동료들과 함께한 것은 내게 큰 행운이었다.\n　개발 역량을 키우고 기술 트렌드를 따라가기에도 좋은 환경이다. ‘책임근무제’를 통해 개인이 근무시간을 자율적으로 관리할 수 있는 것도 네이버의 매력이다. 이토록 좋은 회사에서 오랜 시간 함께했지만 결국 떠나기로 했다. 회사와 내가 원하는 방향이 점점 달라지고 있었기 때문이다. 지금부터는 그 이야기를 해보려고 한다. 왜 떠나기로 했는지, 어떤 고민이 있었는지. 천천히, 솔직하게.\n부검 1 : 왜 떠나는가\n　12년 동안 자의 반, 타의 반으로 다양한 서비스를 경험했다. 어느 날 갑자기 다른 서비스를 맡으라는 지시를 받고 팀을 옮기기도 했다. 때로는 더 큰 도전을 위해 스스로 OCC를 통해 이동했다. 회사의 경영적 이슈나 조직 개편으로 인해 원치 않는 팀 이동을 겪기도 했다. 잦은 변화 속에 이직을 고민할 겨를조차 없었다. 매 순간 긴장과 도전의 연속이었고, 회사 자체가 싫었던 적은 없었다. 그래서 오랜 기간 내 선택지에 ‘이직’이란 단어는 없었다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://meetup.nhncloud.com/posts/394",
-    "pubDate": "Sun, 20 Jul 2025 23:13:22 GMT",
-    "creator": "Unknown",
+    "link": "https://taetaetae.github.io/posts/leaving-naver-resignation-review/",
+    "pubDate": "Sat, 19 Jul 2025 10:00:00 +0900",
+    "creator": "태태태",
     "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Visual Studio Code CMake Tools Extension 1.21 Release: Multi-root improvements, CMake Presets v10, and more…",
-    "description": "We’re excited to announce the latest 1.21 release of the CMake Tools extension for Visual Studio Code. This update brings a host of new updates, including addressing one of our top-voted issues for multi-root improvements and adding CMake presets version 10 support. To view the full list of updates with this release, please look at […]\nThe post Visual Studio Code CMake Tools Extension 1.21 Release: Multi-root improvements, CMake Presets v10, and more… appeared first on C++ Team Blog.",
+    "title": "[MULTI] 윙~ 치킨을 추억하는 그대에게, 로보캅 로그 시티: UB",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/visual-studio-code-cmake-tools-extension-1-21-release-multi-root-improvements-cmake-presets-v10-and-more/",
-    "pubDate": "Mon, 21 Jul 2025 12:10:34 +0000",
-    "creator": "Sinem Akinci",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2333",
+    "pubDate": "Tue, 22 Jul 2025 14:56:21 +0900",
+    "creator": "(RULIWEB`Д')/",
     "categories": [
-      "Announcement",
-      "C++",
-      "CMake",
-      "Visual Studio Code"
+      "리뷰"
     ]
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "The Reworked Terminal Becomes the Default in 2025.2",
+    "description": "Starting from 2025.2, the default terminal implementation is now the reworked terminal. To create this new implementation, the classic terminal was rewritten almost from scratch to provide the technical foundation for new terminal features like visual separation of executed commands, AI integration, and the ability to work seamlessly in remote development scenarios. Functionally, it is […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2025/07/the-reworked-terminal-becomes-the-default-in-2025-2/",
+    "pubDate": "Fri, 18 Jul 2025 12:23:37 +0000",
+    "creator": "Ekaterina Valeeva",
+    "categories": [
+      "news",
+      "terminal"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "1,000억 원 매출",
+    "description": "바로 이전 포스팅에서 말했듯이, 나는 요새 기술이 아무리 발전하고, 세상이 바뀌더라도, 바뀌지 않는 것들에 대해 고민하고, 그쪽을 꽤 많이 보고 있다. 이렇게 조금 다른 각도로 시장을 보면, 잘 안 바뀌는 분야가 생각보다 많은데, 먹는 것, 바르는 것, 입는 것이 대표적이다. 아무리 터미네이터와 같은 휴머노이드가 길거리에 사람같이 돌아다녀도, 우린 계속 밥은 먹어야 하고, 얼굴과 몸에 뭔가를(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/07/the-one-hundred-million-dollar-sales-mark.html",
+    "pubDate": "Wed, 16 Jul 2025 21:33:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "brand",
+      "consumer",
+      "exit",
+      "f&b",
+      "global",
+      "korea",
+      "unicorn"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "알뜰폰 요금제 가입, 아직도 고민 중이신가요?",
+    "description": "알뜰폰 요금이 저렴한 이유부터 장단점, 고르는 법까지 알려드릴게요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tossmoment-15",
+    "pubDate": "Fri, 18 Jul 2025 02:25:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "빌라 추천하는 유튜브",
+    "description": "빨간벽돌집 이건가 .\n이거는 빌라가 아닌가 ...\n \n영상: https://youtu.be/KymMX2HKjT4?t=853\n\n\n\n \n14분에 나옵니다.\n조건은 돈이 1억밖에 없다면 이 붙긴합니다.\n다른 유튜브에서는 빌라가 오를때 아파트 저평가가 오니 아파트 사라고 합니다.\n(어질어질)\n \n중요한것은 싸게 사는 것입니다.\n부동산은 팔았다 다시사고 할 수 있는 상품이 아니기 때문입니다.\n \n빌라도 가즈아~",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1354",
+    "pubDate": "Thu, 17 Jul 2025 15:49:20 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "투자",
+      "애셋",
+      "유니티"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 11화, 전설의 요리사인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2332",
+    "pubDate": "Wed, 16 Jul 2025 12:58:19 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "동남아 개발자 채용 가이드 - 베트남 &middot; 필리핀에서 인재 확보하는 실전 전략 및 플랫폼 비교",
+    "description": "1. 왜 국내 스타트업은 해외 개발자를 찾는가? 국내 스타트업은 빠르게 성장해야 하지만, 개발자 채용은 늘 어려운 과제입니다. 특히 대기업은 높은 연봉 · 복지를 제공하는 반면, 스타트업은 자원이 한정돼 경쟁력이 떨어집니다. 그래서 많은 스타트업이 베트남, 인도네시아, 필리핀 등 동남아 개발자에게 눈을 돌리고 있습니다.  2. 동남아 개발자 채용의 강점 비",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/296",
+    "pubDate": "Tue, 22 Jul 2025 03:00:06 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "국내 버튜버 스타트업 동향 및 성공 비즈니스 모델 분석 - 2025 트렌드",
+    "description": "국내 버튜버 스타트업 동향 및 비즈니스모델 분석  1. 버튜버 시장 급성장 배경 최근 3년간 버튜버(VTuber, Virtual YouTuber) 시장은 폭발적인 성장을 기록했습니다. AI기반 음성합성, 모션캡처, 3D 모델링 기술의 발전으로 제작비가 낮아졌고, Z세대의 가상 IP선호도가 크게 증가하면서 새로운 창업 아이템으로 각광받고 있습니다. 시장규모",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/295",
+    "pubDate": "Sat, 19 Jul 2025 03:00:05 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "일억은퇴 / 우상향 인사 / 1인 1억 월 생할비 200 꾸준히 써보자",
+    "description": "영상: https://www.youtube.com/watch?v=0AT8l5kP5RY\n\n\n\n \n처음엔 재미로 봤는데 3년을 견뎌내셨습니다.\n이분은 엄청난 위기속에서도 꾸준한 생활비를 만들어내셨습니다.\n느낌은 웅덩이 매매법 이랑 비슷한데\nTQQQ SOXL 을 쌀때 사서 비싸게 파는 것 만으로 유지하셨다니 대단합니다. \n웅덩이는 월급 받으면서 하는거고\n이분은 완전 실업 상태에서 해낸거라 난이도가 다릅니다.\n \n \n심약개\n\n\n이분은 버티지 못하고 맛이 가버리셨습니다.\n \n텐엔트TV (=십개미)\n\n\n이분은 잘나가던 시절 수익을 지키지 못하고 날려버리셨죠\n \n2ants\n\n\n이 채널은 2명이서 진행하는데\n신박한 종목을 매수하시는데\n물려서 어마어마한 기간을 물을 타며 존버를 하고 있습니다.\n하지만 살아나는 종목도 있어서 10년 존버해서 성공하는 모습 보여줄꺼 같습니다.\n직장인이라 월급도 받고 있구요.\n대단해질 요소가 충분하다고 판단됩니다.\n \n \n \n하지만 일억은퇴는 다릅니다..\n위에 다른 분들은 투자금을 생활비로 사용하는 일은 하지 안았습니다. (못한건가..)\n일억은퇴는 3년을 생활비를 써가며 투자를 하는 레전드 인물이십니다.\n한때는 원금을 넘기기도 했었구요.\n증명해 내신분입니다.\n빨리 종교화 추진을 해야한다고 봅니다.\n우상화 작업 들어가야합니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1360",
+    "pubDate": "Tue, 22 Jul 2025 14:36:16 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "은퇴",
+      "일억은퇴",
+      "투자"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "ChatGPT 사용자라면 주목! Poe로 AI 활용 스펙트럼 넓히는 법",
     "description": "ChatGPT에서 Poe로 전환을 검토해도 좋은 이유 ✨ 끊임없이 발전하는 AI 세상에서, 단 하나의 도구만 고집할 필요는 없죠. 이 글에서 다양한 AI 모델을 한곳에서 만날 수 있는 Poe로 전환을 고민해봐도 좋을 이유를 알려드릴게요!\n\n\n \n 혹시 여러분도 ChatGPT만 사용하고 계신가요?  처음 Poe를 접했을 때, 저도 '또 다른 AI 서비스겠지 뭐' 하는 가벼운 마음이었어요. 그런데 막상 사용해보니, 텍스트부터 이미지, 오디오 작업까지 한 플랫폼에서 다 해결할 수 있다는 사실에 깜짝 놀랐지 뭐예요! 여러 AI 툴을 왔다 갔다 하던 번거로움을 확 줄여주는 느낌이랄까요? 그래서 오늘은 제가 왜 ChatGPT 외에 Poe도 함께 고려해볼 만한지, 그 이유들을 솔직하게 풀어볼까 합니다.\n \n하나의 플랫폼에서 다양한 AI 모델을 경험하다 \nChatGPT만 사용하다 보면, '다른 모델은 어떨까?' 하는 궁금증이 생길 때가 많잖아요. Poe는 이런 고민을 한 방에 해결해줍니다. GPT-4, Claude, Gemini 같은 쟁쟁한 AI 모델들을 하나의 인터페이스에서 자유롭게 이용할 수 있거든요. 코딩이 필요할 때는 GPT-4를, 창의적인 글쓰기를 할 때는 Claude를 선택하는 식으로, 작업의 성격에 맞춰 최적의 모델을 고를 수 있다는 게 정말 큰 장점이에요. 단일 모델만 제공하는 ChatGPT와는 확실히 다른 부분이죠.\n게다가 Poe에는 Poe 자체 모델은 물론, 우리 같은 사용자들이 직접 만든 특화된 봇들도 많아서 활용도가 무궁무진해요. 마치 나만의 AI 비서들을 여럿 데리고 다니는 느낌이랄까? 단순한 대화형 AI를 넘어, 목적에 딱 맞는 도구로 진화한 거죠.\n  알아두세요!\nPoe는 다양한 AI 모델을 한곳에 모아두어, 필요에 따라 모델을 바꾸거나 비교하면서 사용할 수 있는 환경을 제공해요. 최신 모델들을 바로바로 경험해 볼 수 있다는 것도 큰 매력이죠!\n \n텍스트를 넘어, 멀티모달 AI의 자유로움  \nPoe의 진짜 강점은 ‘통합성’이에요. 웹사이트나 앱을 여러 개 켜놓고 이리저리 왔다 갔다 할 필요 없이, 모든 AI 모델을 한곳에서 쓸 수 있다는 게 너무 편하죠. 예를 들어, ChatGPT와 Claude에 같은 질문을 던지고 어떤 답변이 더 좋은지 바로 비교해볼 수 있어요.\n게다가 Poe는 텍스트만 다루는 게 아니더라고요. Eleven Labs의 기술을 사용해서 AI의 답변을 자연스러운 음성으로 변환해 주거나, 심지어 다운로드도 할 수 있어요. 영상 생성까지 지원한다는 점은 정말 놀라웠죠. Sora, Kling, Runway 같은 최신 이미지·비디오 생성 모델들을 활용해서 머릿속 아이디어를 눈 깜짝할 사이에 시각화할 수 있어요. 이 모든 기능이 하나의 구독으로 제공되니, 여러 유료 서비스에 따로 돈 낼 필요도 없고요!\n\n\nChatGPT와 Poe, 무엇이 다를까? \n구분\nChatGPT Plus\nPoe 프리미엄\n특징\n\n\n\n\n사용 모델\n주로 OpenAI 모델 (GPT-3.5, GPT-4 등)\nGPT-4, Claude, Gemini, Llama 등 다양\n단일 모델 vs. 멀티 모델 지원\n\n\n개인화\n사용자 정보 기반 지속적 개인화\n매 대화 초기화 (봇 제작 시 개인화 가능)\n장기 기억 학습 여부\n\n\n멀티모달 기능\n일부 이미지 생성, 웹 브라우징 등\n음성, 이미지, 비디오 생성 통합\n지원하는 미디어 종류 및 통합성\n\n\n사용량 제한\n정액제 기반, 일정량 이상 사용 가능\n포인트 소모, 과도한 사용 시 일시 제한\n합리적 사용량 관리의 중요성\n\n\n\n⚠️ 주의하세요!\nPoe는 강력하지만, 프리미엄 모델 사용 시 포인트를 소모하는 방식이에요. 무제한 사용이 아닌 만큼, 계획적으로 사용하는 것이 중요하겠죠?\n \n나만의 AI 봇 만들기: 상상력을 현실로 \nPoe는 그냥 여러 AI를 모아놓은 것을 넘어, '나만의 AI 봇'을 직접 만들고 공유할 수 있는 기능을 제공해요. 처음엔 '내가 뭘 만든다고?' 싶었는데, 막상 해보니 정말 재밌더라고요. 글쓰기 도우미, 언어 튜터, 심지어 특정 롤플레잉 파트너까지, 나만의 목적에 딱 맞는 맞춤형 봇을 만들어서 활용할 수 있어요. ChatGPT도 비슷한 기능을 시도하고 있지만, Poe는 접근성과 개방성 면에서 훨씬 더 자유로운 느낌이었어요.\n  알아두세요!\nPoe에서 자신만의 커스텀 봇을 만들면, 특정 작업에 최적화된 개인화된 AI 경험을 누릴 수 있어요. 심지어 만든 봇을 다른 사람들과 공유할 수도 있답니다!\n \n실전 예시: 시나리오 작가 J의 Poe 활용기 \n제가 시나리오 작가 친구 J에게 Poe를 추천해줬는데, 그 친구가 정말 유용하게 쓰고 있다고 해요. J의 이야기를 한번 들어볼까요?\n사례 주인공의 상황\nJ는 새로운 SF 시나리오를 구상 중인데, 복잡한 과학 기술 설정과 독특한 캐릭터 설정에 대한 아이디어가 필요했어요.\n기존에는 ChatGPT로 기본적인 아이디어를 얻고, 다른 이미지 생성 AI로 캐릭터와 배경 스케치를 해본 후, 또 다른 툴로 음성 대사를 더빙하는 등 여러 플랫폼을 오가며 작업해야 해서 시간 소모가 컸다고 해요.\nPoe 활용 과정\n1) 아이디어 브레인스토밍: Poe에서 GPT-4와 Claude를 동시에 사용해 시나리오 플롯, 기술 설정, 캐릭터 성격 등 다양한 아이디어를 비교하며 얻었어요.\n2) 시각화 및 음성화: 아이디어가 구체화되면, 바로 Poe 내에서 이미지 생성 모델(Sora 등)을 이용해 장면과 캐릭터의 시안을 만들고, Eleven Labs 음성 생성 기능을 활용해 주요 대사를 미리 들어보며 감정선을 조절했어요.\n최종 결과\n- 작업 효율 증대: 여러 툴을 전환하는 시간과 노력을 크게 줄여, 작업 속도가 2배 이상 빨라졌다고 해요.\n- 창의성 증폭: 다양한 AI 모델의 관점을 즉시 비교하고, 텍스트-이미지-음성으로 이어지는 통합 워크플로우 덕분에 아이디어를 더 풍부하게 발전시킬 수 있었다고 합니다.\nJ의 사례처럼, Poe는 여러 AI 모델과 멀티모달 기능을 통합하여 작업의 효율성과 창의성을 동시에 높여줄 수 있는 잠재력을 가지고 있어요. 특히 다양한 AI 기능을 유기적으로 연결하고 싶은 분들에게 정말 좋은 선택지가 될 것 같아요.\n \n마무리: Poe, 당신의 AI 활용을 한 단계 업그레이드할 기회 \n저는 처음엔 그저 여러 AI 모델을 비교해보고 싶다는 가벼운 마음으로 Poe를 시작했지만, 써보니 AI를 활용하는 방식 자체를 바꿔주는 경험이었어요. 필요한 기능을 마치 블록처럼 자유롭게 불러 쓸 수 있다는 점이 정말 효율적이었고요.\n특히 텍스트를 바로 이미지나 영상으로 변환하고, 다양한 모델의 해석을 비교하며 아이디어를 빠르게 구체화할 수 있다는 점에서 만족도가 높았습니다. 물론 ChatGPT는 여전히 강력한 도구이지만, 더 폭넓고 자유로운 AI 활용을 원한다면 Poe를 한번쯤 진지하게 고민해볼 가치가 충분하다고 생각해요. 여러분도 Poe와 함께 더 스마트하고 효율적인 AI 라이프를 경험해보시는 건 어떨까요? 궁금한 점이 있다면 언제든지 댓글로 물어봐주세요~ \n \n \nPoe 전환, 왜 고민해야 할까?\n✨ 다양한 AI 모델 통합: GPT-4, Claude, Gemini 등 여러 AI를 한곳에서! 목적에 맞는 최적의 모델을 선택할 수 있어요.\n  멀티모달 기능: 텍스트, 음성, 이미지, 영상 생성까지! 아이디어를 다양한 형태로 빠르게 구현해 보세요.\n  효율적인 워크플로우:\n여러 툴 전환 ✖️ → 하나의 플랫폼 ⭕️ = 작업 시간 단축 & 창의성 증대\n ‍  나만의 AI 봇 제작: 커스텀 봇으로 개인화된 AI 경험을 만들고 공유할 수 있어요.\n단일 AI 툴의 한계를 넘어, AI 활용의 폭을 넓히고 싶다면 Poe를 고려해보세요!\n자주 묻는 질문 ❓\nQ: Poe를 사용하면 ChatGPT는 더 이상 필요 없나요?\nA: 아니요! ChatGPT는 여전히 강력한 AI 모델이며, Poe는 ChatGPT를 포함한 다양한 모델을 통합하여 제공하는 플랫폼이에요. 목적에 따라 ChatGPT만 사용하시거나, Poe를 통해 여러 모델을 함께 활용할 수 있습니다.\nQ: Poe의 유료 구독과 ChatGPT Plus는 어떤 차이가 있나요?\nA: ChatGPT Plus는 주로 OpenAI의 최신 모델(GPT-4 등)을 무제한에 가깝게 사용할 수 있는 정액제 방식이에요. 반면, Poe는 다양한 AI 모델을 통합 제공하며, 프리미엄 모델 사용 시 포인트를 소모하는 방식이라 사용량에 따라 추가 결제가 필요할 수 있습니다.\nQ: Poe에서 제가 만든 봇을 다른 사람들도 사용할 수 있나요?\nA: 네, Poe는 사용자가 직접 만든 AI 봇을 공개 마켓플레이스에 등록하고 다른 사람들과 공유할 수 있는 기능을 제공해요. 이렇게 만든 봇들은 교육, 업무, 엔터테인먼트 등 다양한 목적으로 활용될 수 있습니다.\nQ: Poe에서 이미지나 영상을 만드는 데 추가 비용이 드나요?\nA: Poe 프리미엄 구독 시 대부분의 멀티모달 기능(이미지, 영상 생성 포함)을 추가 비용 없이 사용할 수 있어요. 다만, 일부 최신 또는 고사양 모델의 경우 포인트 소모량이 많을 수 있으니 확인이 필요합니다.\nQ: Poe는 개인 정보 보호에 안전한가요?\nA: Poe는 사용자들의 안전한 사용을 위해 NSFW(부적절한) 콘텐츠 차단 등 다양한 안전 정책을 운영하고 있다고 명시하고 있어요. 하지만 어떤 AI 서비스를 사용하든 중요한 개인 정보는 입력하지 않는 것이 좋습니다.\n\n\n\n{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"FAQPage\",\n    \"mainEntity\": [\n        {\n            \"@type\": \"Question\",\n            \"name\": \"Poe를 사용하면 ChatGPT는 더 이상 필요 없나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  아니요! ChatGPT는 여전히 강력한 AI 모델이며, Poe는 ChatGPT를 포함한 다양한 모델을 통합하여 제공하는 플랫폼이에요. 목적에 따라 ChatGPT만 사용하시거나, Poe를 통해 여러 모델을 함께 활용할 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"Poe의 유료 구독과 ChatGPT Plus는 어떤 차이가 있나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  ChatGPT Plus는 주로 OpenAI의 최신 모델(GPT-4 등)을 무제한에 가깝게 사용할 수 있는 정액제 방식이에요. 반면, Poe는 다양한 AI 모델을 통합 제공하며, 프리미엄 모델 사용 시 포인트를 소모하는 방식이라 사용량에 따라 추가 결제가 필요할 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"Poe에서 제가 만든 봇을 다른 사람들도 사용할 수 있나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  네, Poe는 사용자가 직접 만든 AI 봇을 공개 마켓플레이스에 등록하고 다른 사람들과 공유할 수 있는 기능을 제공해요. 이렇게 만든 봇들은 교육, 업무, 엔터테인먼트 등 다양한 목적으로 활용될 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"Poe에서 이미지나 영상을 만드는 데 추가 비용이 드나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  Poe 프리미엄 구독 시 대부분의 멀티모달 기능(이미지, 영상 생성 포함)을 추가 비용 없이 사용할 수 있어요. 다만, 일부 최신 또는 고사양 모델의 경우 포인트 소모량이 많을 수 있으니 확인이 필요합니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"Poe는 개인 정보 보호에 안전한가요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  Poe는 사용자들의 안전한 사용을 위해 NSFW(부적절한) 콘텐츠 차단 등 다양한 안전 정책을 운영하고 있다고 명시하고 있어요. 하지만 어떤 AI 서비스를 사용하든 중요한 개인 정보는 입력하지 않는 것이 좋습니다.\"\n            }\n        }\n    ]\n}",
@@ -90,160 +207,32 @@
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Updates to Warning Suppressions in Microsoft C++ Code Analysis",
-    "description": "Improvements to \\#pragma warning and gsl::suppress in Microsoft C++ Code Analysis.\nThe post Updates to Warning Suppressions in Microsoft C++ Code Analysis appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/updates-to-warning-suppressions-in-microsoft-c-code-analysis/",
-    "pubDate": "Tue, 15 Jul 2025 18:00:13 +0000",
-    "creator": "Carson Radtke",
-    "categories": [
-      "Announcement",
-      "C++",
-      "code analysis"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "1,000억 원 매출",
-    "description": "바로 이전 포스팅에서 말했듯이, 나는 요새 기술이 아무리 발전하고, 세상이 바뀌더라도, 바뀌지 않는 것들에 대해 고민하고, 그쪽을 꽤 많이 보고 있다. 이렇게 조금 다른 각도로 시장을 보면, 잘 안 바뀌는 분야가 생각보다 많은데, 먹는 것, 바르는 것, 입는 것이 대표적이다. 아무리 터미네이터와 같은 휴머노이드가 길거리에 사람같이 돌아다녀도, 우린 계속 밥은 먹어야 하고, 얼굴과 몸에 뭔가를(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/07/the-one-hundred-million-dollar-sales-mark.html",
-    "pubDate": "Wed, 16 Jul 2025 21:33:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "brand",
-      "consumer",
-      "exit",
-      "f&b",
-      "global",
-      "korea",
-      "unicorn"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Using AI to make lower-carbon, faster-curing concrete",
-    "description": "Meta has developed an open-source AI tool to design concrete mixes that are stronger, more sustainable, and ready to build with faster—speeding up construction while reducing environmental impact. The AI tool leverages Bayesian optimization, powered by Meta’s BoTorch and Ax frameworks, and was developed with Amrize and the University of Illinois Urbana-Champaign (U of I) [...]\nRead More...\nThe post Using AI to make lower-carbon, faster-curing concrete appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/07/16/data-center-engineering/ai-make-lower-carbon-faster-curing-concrete/",
-    "pubDate": "Wed, 16 Jul 2025 12:00:16 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "AI Research",
-      "Data Center Engineering",
-      "Open Source"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "시드 스크래핑&nbsp;지분 희석 없는 스타트업 자금 - Seed&nbsp;Strapping 지분 희석 없는 스타트업 자금&nbsp;조달 전략",
-    "description": "Seed Strapping 이란? 스타트업의 새로운 자금 조달 트렌드로 주목받는 Seed Strapping은 시드 단계에서 최소 자금만 조달하고 이후에는 수익을 기반으로 성장을 이어가는 방식입니다. 전통적인 벤처캐피털(vc)중심의 자금 조달이 아닌, 지분 희석을 최소화하고 창업가의 경영권을 유지할 수 있다는 점에서 각광받고 있습니다.  왜 Seed Stra",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/293",
-    "pubDate": "Thu, 17 Jul 2025 03:00:10 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "현실과 이상",
-    "description": "펀드레이징하는 창업가들이 가장 신경 써야 하는 건 바로 현실과 이상을 철저히 구분하는 것이다. 우리가 하는 일 중 가장 큰 비중을 차지하는 건 당연히 창업가들을 만나는 건데, 이 중 당장 투자유치를 하지 않는 분들도 있지만, 대부분 현재 펀드레이징 중이고, 스트롱에게 투자받기를 희망하는 창업가들이다. 우리도 워낙 많은 회사를 검토하고 투자 유치가 급한 회사들에 검토의 우선순위를 할당하면서 일을(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/07/read-your-vc-properly-and-get-your-term-sheet.html",
-    "pubDate": "Sun, 20 Jul 2025 21:35:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "fundraising",
-      "people",
-      "Strong",
-      "vc"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "알뜰폰 요금제 가입, 아직도 고민 중이신가요?",
-    "description": "알뜰폰 요금이 저렴한 이유부터 장단점, 고르는 법까지 알려드릴게요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossmoment-15",
-    "pubDate": "Fri, 18 Jul 2025 02:25:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.2 Beta: EAP Closure and Our New Approach to Release Updates",
-    "description": "The Beta version of IntelliJ IDEA 2025.2 is now available, marking the end of our Early Access Program for this release cycle. Download IntelliJ IDEA 2025.2 Beta Thank you to everyone who used the EAP builds, shared feedback, and helped shape this release. As we mentioned in the EAP opening post, we have moved away […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/07/intellij-idea-2025-2-beta/",
-    "pubDate": "Fri, 18 Jul 2025 13:09:06 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": [
-      "eap",
-      "2025-2",
-      "intellij-idea",
-      "intellij-idea-2025-2",
-      "intellij-idea-2025-2-eap"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "빌라 추천하는 유튜브",
-    "description": "빨간벽돌집 이건가 .\n이거는 빌라가 아닌가 ...\n \n영상: https://youtu.be/KymMX2HKjT4?t=853\n\n\n\n \n14분에 나옵니다.\n조건은 돈이 1억밖에 없다면 이 붙긴합니다.\n다른 유튜브에서는 빌라가 오를때 아파트 저평가가 오니 아파트 사라고 합니다.\n(어질어질)\n \n중요한것은 싸게 사는 것입니다.\n부동산은 팔았다 다시사고 할 수 있는 상품이 아니기 때문입니다.\n \n빌라도 가즈아~",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1354",
-    "pubDate": "Thu, 17 Jul 2025 15:49:20 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "투자",
-      "애셋",
-      "유니티"
-    ]
-  },
-  {
     "id": 14,
     "imageUrl": "",
-    "title": "The Reworked Terminal Becomes the Default in 2025.2",
-    "description": "Starting from 2025.2, the default terminal implementation is now the reworked terminal. To create this new implementation, the classic terminal was rewritten almost from scratch to provide the technical foundation for new terminal features like visual separation of executed commands, AI integration, and the ability to work seamlessly in remote development scenarios. Functionally, it is […]",
+    "title": "Qodana Cloud vs. Self-Hosted Lite: Which Is Best for Your Team? ",
+    "description": "Onboarding development teams with new tools can be difficult. People disagree about what’s best, and different organizations have different pains, needs, and regulations. Which option is the best for you? How do you find consensus in your team? How much control do you need over your data? There are many considerations, and it can feel […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/07/the-reworked-terminal-becomes-the-default-in-2025-2/",
-    "pubDate": "Fri, 18 Jul 2025 12:23:37 +0000",
-    "creator": "Ekaterina Valeeva",
-    "categories": [
-      "news",
-      "terminal"
-    ]
+    "link": "https://blog.jetbrains.com/qodana/2025/07/cloud-vs-self-hosted-lite/",
+    "pubDate": "Thu, 17 Jul 2025 10:48:05 +0000",
+    "creator": "Kerry Beetge",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Flutter Riverpod 200% 활용하기",
-    "description": "Flutter에는 다양한 상태 관리 라이브러리가 존재합니다. 대표적으로 Provider와 GetX, BLoC 등이 있는데요. 이전에 Flutter 인기 아키텍처 라이브러리 3종 비...",
+    "title": "Building Better Agents: What’s New in Koog 0.3.0",
+    "description": "We’ve just released Koog 0.3.0, which comes with many updates that make building, running, and managing intelligent agents easier. This version focuses on durability, speed, observability, and smoother integration with real-world systems. If you’ve been exploring how to develop your own intelligent agent that can handle complex workflows, the new and updated Koog could be […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/how-to-make-the-most-of-flutter-riverpod",
-    "pubDate": "Fri, 18 Jul 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/ai/2025/07/building-better-agents-what-s-new-in-koog-0-3-0/",
+    "pubDate": "Wed, 16 Jul 2025 07:07:01 +0000",
+    "creator": "Daniela Bentrup",
+    "categories": [
+      "news",
+      "releases",
+      "ai",
+      "ai-agents"
+    ]
   }
 ]
