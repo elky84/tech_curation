@@ -2,166 +2,131 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "매일 출근하기",
-    "description": "최근에 나에게 직업적으로 의미 있는 일들이 몇 개 있었다. 뭐, 대단한 건 아니지만 나에겐 개인적으로 기쁘고 보람찬 일들이었는데, 오랫동안 돈 달라고 쫓아다니던 투자자 몇 명과 의미 있는 진전이 있었다. 이 “의미 있는 진전”이 실은 돈을 받거나 하는 그 정도로 의미 있는 건 아니었지만, 격투 게임에서 적의 대장이 10층에 있다면, 계속 1층에서 죽다가 한 5층까지 올라간(...)",
+    "title": "How Meta keeps its AI hardware reliable",
+    "description": "Hardware faults can have a significant impact on AI training and inference. Silent data corruptions (SDCs), undetected data errors caused by hardware, can be particularly harmful for AI systems that rely on accurate data for training as well as providing useful outputs. We are sharing methodologies we deploy at various scales for detecting SDC across [...]\nRead More...\nThe post How Meta keeps its AI hardware reliable appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/07/showing-up-everyday-every-time.html",
-    "pubDate": "Wed, 23 Jul 2025 21:21:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://engineering.fb.com/2025/07/22/data-infrastructure/how-meta-keeps-its-ai-hardware-reliable/",
+    "pubDate": "Tue, 22 Jul 2025 18:45:16 +0000",
+    "creator": "Unknown",
     "categories": [
-      "Uncategorized",
-      "compounding",
-      "consistency",
-      "FoundersAtWork",
-      "hustle",
-      "Strong"
+      "Data Infrastructure"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Deep Research보다 똑똑해진 Scholar GPT로 연구 효율 200% 높이기",
-    "description": "Deep Research, 이제 최신 정보까지!   ChatGPT의 한계를 넘어선 Scholar GPT로 더욱 스마트한 연구를 경험하세요.\n\n\n \n 혹시 ChatGPT의 Deep Research 도구를 써보셨나요? 정말 유용하지만, 가끔 최신 정보를 찾는 데 아쉬움을 느꼈던 경험, 저만 그런 건 아니겠죠? 저는 이 부분이 항상 아쉬웠어요. 특히 정보의 신선함이 중요한 연구나 빠르게 변화하는 분야에서는 더욱 그렇고요. 그런데 말이죠, 이 갈증을 시원하게 해결해 줄 'Scholar GPT'라는 커스텀 GPT를 최근에 발견했지 뭐예요!  \n \n최신 정보, 이젠 문제없어요!  \n제가 처음 ChatGPT의 Deep Research를 사용했을 때, 여러 범주에서 도구를 테스트해봤어요. 다양한 범주에서 Copilot의 동등 기능보다 뛰어났지만, 최신 정보를 찾는 데 있어서는 고전했습니다. 대부분의 경우 2년 이내의 관련 정보를 찾기 어려웠고, 이는 도구를 사용하는 목적을 무의미하게 만들었습니다.\n하지만 Scholar GPT는 훨씬 더 최신 정보를 잘 찾아줍니다. 예를 들어, \"지난 6개월간 발표된 인공지능 기반 질병 진단 최신 연구 논문 5편을 찾아줘. 각 논문의 핵심 요약과 PubMed 또는 arXiv 링크를 함께 제공해 줘.\"라고 요청하면 사실들의 정리된 목록과 함께 원본 링크도 제공합니다. 이를 통해 정보를 정리하기 매우 쉬워집니다. 때로는 원본 자료 링크 없이 글머리표 형식의 목록만 받기도 하지만, 조금 더 아래로 스크롤하면 유용한 온라인 자료에 대한 링크를 찾을 수 있습니다. Scholar GPT의 테이블(표) 보기 방식은 모든 것을 쉽게 소화할 수 있는 형식으로 제시해 줍니다.\n\n\n  알아두세요!\nScholar GPT는 최신 연구 자료를 정리된 목록과 원본 링크와 함께 제공하여 정보 파악을 용이하게 합니다.\n \n복잡한 연구 문서도 한 번에 요약!  \n관련성 높고 시의적절한 정보를 찾는 것 외에도, Scholar GPT는 연구 문서를 읽고 그 결과를 요약할 수 있습니다. 이 기능은 짧은 문서에 특히 유용하며, 핵심 내용을 쉽게 파악할 수 있게 해 줍니다.\n더 좋은 건, 방대한 PDF 문서에도 유용하다는 점이에요. 예를 들어, \"첨부된 '지속 가능한 에너지 시스템 전환에 대한 글로벌 보고서.pdf'를 읽고, 주요 연구 결과와 보고서에서 제시하는 미래 전망에 대해 500자 내외로 요약해 줘.\"와 같이 문서를 업로드하면 간단한 개요를 제공해 줍니다. 핵심 결과 외에도, 이 도구는 균형 잡힌 시각을 제시하려 하며 \"상관관계가 인과관계인지\"에 대해 의문을 제기합니다. 초기 연구를 마친 뒤 Scholar GPT는 더 깊이 탐색할 기회를 제공하는데요. 예를 들어, 커스텀 GPT를 사용하여 마인드맵을 만들거나, 내용을 더 쉽게 설명해달라고 요청하거나, 동일 주제의 다른 연구 결과와 비교할 수 있습니다. 각 문서마다 이를 반복해서 적용할 수 있으며, 이후에 모든 아이디어를 통합하여 더 효과적으로 학습할 수 있습니다.\nScholar GPT 문서 요약 기능 비교\n구분\nDeep Research\nScholar GPT\n특징\n\n\n\n\n최신 정보 탐색\n2년 이내 정보 제한적\n매우 뛰어남 (정리된 목록, 원본 링크 제공)\n정보 신선도와 접근성 우위\n\n\n연구 문서 요약\n간단한 개요 제공\n핵심 결과 요약, 비판적 시각 제공\n심층 분석 및 균형 잡힌 정보 제공\n\n\n학습 전략\n제공 기능 제한적\n마인드맵, 쉬운 설명, 비교 분석 등 다양\n개인화된 학습 경험 지원\n\n\n링크 분석\n실패 사례 빈번\n뛰어난 성능 (개요, 비판적 분석, 대안 제시)\n정확하고 다각적인 관점 제공\n\n\n\n⚠️ 주의하세요!\nScholar GPT는 학문적 연구에 매우 강력하지만, 쇼핑 추천이나 일상적인 정보 탐색에는 Deep Research가 더 유용할 수 있습니다. 각 도구의 장점을 이해하고 목적에 맞게 활용하는 것이 중요해요!\n \n링크 분석도 똑똑하게!  \n저는 예전부터 ChatGPT에 링크를 업로드해서 읽게 할 때 실패하는 경우가 많아서, 그냥 파일을 업로드하는 걸 선호했어요. 그런데 Scholar GPT는 이 부분에서 꽤 좋은 성능을 보여줍니다. 링크를 업로드하기 전에 챗에 \"링크를 공유할 예정\"이라고 미리 알릴 수 있습니다.\n\n\n그러면 Scholar GPT는 제가 특정 주제를 탐색하고 싶은지 물어보며, 원한다면 해당 주제를 입력하라고 안내합니다. 예를 들어, \"이 링크에 있는 기사를 읽고, 데이터 프라이버시 침해 사례와 그에 대한 법적 대응 방안을 중심으로 분석해 줘. 또한, 해당 기사에 대한 비판적인 관점이나 추가적으로 고려해야 할 대안적 관점이 있다면 함께 제시해 줘.\"와 같이 구체적으로 요청하여 더 정확한 답변을 얻을 수 있으며, 나중에 수정을 해야 할 필요도 줄어듭니다. 링크를 업로드하면 Scholar GPT는 해당 페이지나 문서를 읽고, 가장 중요한 개념에 대한 개요를 제공합니다. 제시 방식이 훌륭하고, 추가 정보가 필요할 경우 후속 질문도 할 수 있습니다.\n개인적으로 Scholar GPT에게 링크 분석을 요청할 때는 \"비판적 분석\"과 \"대안적 관점 생성\"을 요청하는 것이 좋습니다. 이렇게 하면 더 균형 잡힌 시각을 얻을 수 있고, 논문이 편향되어 보일 경우에도 보다 합리적인 학습이 가능합니다.\n  알아두세요!\n링크 분석 시 비판적 분석과 대안적 관점 생성을 함께 요청하면, 정보의 편향성을 줄이고 균형 잡힌 시각을 얻는 데 도움이 됩니다.\n \n나만의 연구 비서, Scholar GPT!  ‍ ‍ \n연구 논문을 읽고 요약해 주는 것 외에도 Scholar GPT는 전반적인 연구 능력 향상에도 도움을 줍니다. 예를 들어, 학습 능력을 향상시키는 방법에 대해 더 깊이 이해하고자 할 때 사용할 수 있습니다.\n\n\n초기 프롬프트로 다음과 같이 입력할 수 있습니다: \"내가 '비판적 읽기 능력'을 향상시키고 싶어. Scholar GPT에 내장된 비판적 읽기 훈련 기능을 보여줄 수 있을까?\". 그러면 Scholar GPT는 여러 가지 비판적 읽기 방법을 제시하고, 각 방법에 대한 간단한 설명도 제공합니다. 이어서 다음과 같이 후속 질문을 할 수 있습니다: \"제시된 비판적 읽기 방법 중 '스키밍(Skimming)'에 대해 더 자세히 알려줄 수 있니? 구체적인 활용법과 예시를 들어 설명해 줘.\". 그러면 GPT는 더 포괄적인 개요를 제공하며, 연습 과제도 수행할 수 있습니다. 이는 학교에서 ChatGPT를 가장 잘 활용하는 방법 중 하나입니다.\n  알아두세요!\nScholar GPT는 단순 정보 제공을 넘어, 비판적 읽기 능력 향상과 같은 실질적인 연구 스킬 개발에도 도움을 줍니다.\n \n나만의 연구 전략, 함께 세워봐요!  \n일반적인 학습 프레임워크를 따라 할 수는 있지만, 모든 프레임워크가 자신에게 맞는 것은 아니죠. 따라서 보다 전략적으로 접근해 본인에게 맞는 방식을 찾아야 합니다. Scholar GPT는 이 과정을 도와줄 수 있습니다. 다음과 같은 프롬프트를 입력하면 됩니다: \"내 석사 논문 주제인 '도시 열섬 현상이 기후 변화에 미치는 영향'에 대한 연구를 시작하려고 해. 가장 효율적인 연구 전략 3가지를 간단한 설명과 함께 알려줘.\".\n\n\n그러면 Scholar GPT는 목록을 제공합니다. 이후에는 특정 전략을 개발하는 데 도움을 요청할 수 있습니다. 이때 포괄적인 개요를 받아본 후, 필요에 따라 맞춤화하여 활용할 수 있습니다. 예를 들어, \"제시된 전략 중 '질문 기반 연구(Inquiry-Based Research)'를 제 석사 논문 주제인 '기후 변화가 도시 생태계에 미치는 영향'에 적용하여 구체적인 연구 계획을 세우는 데 도움을 줄 수 있을까?\"와 같이 구체적으로 요청하여 정말 저만의 연구 코치를 둔 것 같은 기분이었어요!\n사례: A 학생의 연구 전략 수립 과정\n초기 고민: 연구 자료가 너무 많아 어디서부터 시작해야 할지 막막함.\nScholar GPT 활용 프롬프트: \"일반적인 연구 전략 3가지 알려줘\"\n개선 과정: 전략 맞춤화\n1) Scholar GPT가 제시한 전략 중 '핵심 개념 지도화' 선택.\n2) 후속 프롬프트: \"핵심 개념 지도화 전략을 내 논문 주제인 'AI 윤리'에 맞게 구체화해줘.\"\n최종 결과: 맞춤형 연구 전략\n- 개념 매핑: AI 윤리 관련 핵심 용어(편향, 투명성, 책임) 정의 및 관계 시각화.\n- 자료 분류: 각 용어별 최신 연구 논문, 법규, 실제 사례 분류 및 연결.\n이처럼 Scholar GPT를 활용하면 막연했던 연구 과정을 나에게 최적화된 전략으로 구체화하고 효율적으로 진행할 수 있어요. 정말 똑똑한 연구 파트너죠!\n \n마무리: 핵심 내용 요약  \n지금까지 Scholar GPT가 ChatGPT의 Deep Research 도구를 어떻게 보완하고 능가하는지 자세히 알아봤는데요. 제가 직접 사용해보니 Scholar GPT는 정말 유용한 기능이 많고, 특히 최신 연구 자료를 찾거나 심도 있는 학습 전략을 개발하는 데 탁월한 성능을 보여줬어요. 학문적 연구를 하는 입장에서는 Scholar GPT가 Deep Research보다 훨씬 뛰어나다고 자신 있게 말할 수 있습니다. 더 정확하고 빠른 정보 탐색이 가능하니까요!\n물론, 쇼핑 추천이나 일상적인 정보 탐색 같은 목적이라면 여전히 ChatGPT의 Deep Research도 충분히 매력적인 도구예요. Scholar GPT가 연구 논문을 읽는 데 더 특화되어 있다면, Deep Research는 좀 더 일반적인 정보 탐색에 강점을 보인다고 할 수 있습니다. 그러니까, 여러분의 목적에 맞게 두 가지 도구를 적절히 활용한다면 정말 스마트하고 효율적인 정보 탐색을 할 수 있을 거예요! 더 궁금한 점이 있다면 언제든지 댓글로 물어봐주세요~  \n \n \nScholar GPT, 핵심 요약!\n✨ 최신 정보 탐색: Deep Research보다 훨씬 뛰어남! 정리된 목록과 원본 링크까지 제공해요.\n  연구 문서 요약: 방대한 PDF도 OK! 핵심 결과뿐만 아니라 비판적 시각까지 제시해 줍니다.\n  링크 분석 성능:\n성공률 ⬆️ (이젠 링크도 자신있게!) ➡️ 비판적/대안적 관점 분석 요청으로 더 풍부한 인사이트 확보 가능!\n ‍  연구 능력 향상: 맞춤형 학습 전략과 비판적 읽기 스킬까지 도와주는 스마트한 연구 비서!\n학문적 연구에는 Scholar GPT, 일상 정보 탐색에는 Deep Research! 목적에 맞게 활용하는 것이 중요합니다.\n \n ✨ Scholar GPT 바로가기 ✨ \n \n자주 묻는 질문 ❓\nQ: Scholar GPT는 Deep Research의 완전한 대체재인가요?\nA: 아니요! Scholar GPT는 학문적 연구에 매우 강력하지만, 쇼핑 추천이나 일상적인 정보 탐색에는 여전히 Deep Research가 더 유용할 수 있습니다.\nQ: Scholar GPT가 최신 정보를 더 잘 찾는 비결은 무엇인가요?\nA: Scholar GPT는 '최신 연구를 찾아줘'와 같은 구체적인 프롬프트를 통해 최신 자료를 능숙하게 탐색하고, 정리된 목록과 원본 링크를 제공하여 정보의 신선도를 보장합니다.\nQ: Scholar GPT로 긴 PDF 문서도 요약할 수 있나요?\nA: 네, 가능합니다. 문서를 업로드하면 간단한 개요와 함께 핵심 결과를 파악할 수 있도록 도와줍니다.\nQ: Scholar GPT를 활용하여 연구 능력을 어떻게 향상시킬 수 있나요?\nA: Scholar GPT는 비판적 읽기 방법 제시, 연습 과제 제공, 그리고 개인화된 연구 전략 수립을 통해 전반적인 연구 능력 향상에 도움을 줄 수 있습니다.\nQ: 링크 분석 시 \"비판적 분석\"을 요청하는 것이 중요한가요?\nA: 네, 중요합니다! 비판적 분석과 대안적 관점 생성을 함께 요청하면, 제시된 정보의 편향성을 줄이고 더 균형 잡힌 시각으로 학습하는 데 큰 도움이 됩니다.\n\n\n\n{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"FAQPage\",\n    \"mainEntity\": [\n        {\n            \"@type\": \"Question\",\n            \"name\": \"Scholar GPT는 Deep Research의 완전한 대체재인가요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  아니요! Scholar GPT는 학문적 연구에 매우 강력하지만, 쇼핑 추천이나 일상적인 정보 탐색에는 여전히 Deep Research가 더 유용할 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"Scholar GPT가 최신 정보를 더 잘 찾는 비결은 무엇인가요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  Scholar GPT는 '최신 연구를 찾아줘'와 같은 구체적인 프롬프트를 통해 최신 자료를 능숙하게 탐색하고, 정리된 목록과 원본 링크를 제공하여 정보의 신선도를 보장합니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"Scholar GPT로 긴 PDF 문서도 요약할 수 있나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  네, 가능합니다. 문서를 업로드하면 간단한 개요와 함께 핵심 결과를 파악할 수 있도록 도와줍니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"Scholar GPT를 활용하여 연구 능력을 어떻게 향상시킬 수 있나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  Scholar GPT는 비판적 읽기 방법 제시, 연습 과제 제공, 그리고 개인화된 연구 전략 수립을 통해 전반적인 연구 능력 향상에 도움을 줄 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"링크 분석 시 '비판적 분석'을 요청하는 것이 중요한가요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  네, 중요합니다! 비판적 분석과 대안적 관점 생성을 함께 요청하면, 제시된 정보의 편향성을 줄이고 더 균형 잡힌 시각으로 학습하는 데 큰 도움이 됩니다.\"\n            }\n        }\n    ]\n}",
+    "title": "IntelliJ IDEA 2025.2 Beta: EAP Closure and Our New Approach to Release Updates",
+    "description": "The Beta version of IntelliJ IDEA 2025.2 is now available, marking the end of our Early Access Program for this release cycle. Download IntelliJ IDEA 2025.2 Beta Thank you to everyone who used the EAP builds, shared feedback, and helped shape this release. As we mentioned in the EAP opening post, we have moved away […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483627",
-    "pubDate": "Fri, 18 Jul 2025 08:48:24 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://blog.jetbrains.com/idea/2025/07/intellij-idea-2025-2-beta/",
+    "pubDate": "Fri, 18 Jul 2025 13:09:06 +0000",
+    "creator": "Maria Kosukhina",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "chatgpt 커스텀 gpt",
-      "deep research",
-      "scholar gpt",
-      "링크 분석",
-      "비판적 읽기",
-      "연구 능력 향상",
-      "연구 문서 요약",
-      "최신 정보",
-      "학술 연구",
-      "학습 전략"
+      "eap",
+      "2025-2",
+      "intellij-idea",
+      "intellij-idea-2025-2",
+      "intellij-idea-2025-2-eap"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Visual Studio Code CMake Tools Extension 1.21 Release: Multi-root improvements, CMake Presets v10, and more…",
-    "description": "We’re excited to announce the latest 1.21 release of the CMake Tools extension for Visual Studio Code. This update brings a host of new updates, including addressing one of our top-voted issues for multi-root improvements and adding CMake presets version 10 support. To view the full list of updates with this release, please look at […]\nThe post Visual Studio Code CMake Tools Extension 1.21 Release: Multi-root improvements, CMake Presets v10, and more… appeared first on C++ Team Blog.",
+    "title": "Fresh Learning Paths Now Available on Pluralsight for VS Subscribers",
+    "description": "We’ve been thrilled to see so many of you jump back into your Pluralsight benefit after our April 3rd announcement about extended access. Your enthusiasm for learning and leveling up with Visual Studio inspires us every day. If you haven’t had a chance to dive in yet—or want to explore what’s new since then—I wanted […]\nThe post Fresh Learning Paths Now Available on Pluralsight for VS Subscribers appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/visual-studio-code-cmake-tools-extension-1-21-release-multi-root-improvements-cmake-presets-v10-and-more/",
-    "pubDate": "Mon, 21 Jul 2025 12:10:34 +0000",
-    "creator": "Sinem Akinci",
+    "link": "https://devblogs.microsoft.com/visualstudio/vss-pluralsight-2025-2/",
+    "pubDate": "Tue, 22 Jul 2025 14:00:40 +0000",
+    "creator": "Jim Harrer",
     "categories": [
-      "Announcement",
-      "C++",
-      "CMake",
-      "Visual Studio Code"
+      "Visual Studio",
+      "Learning Benefits",
+      "Pluralsight",
+      "Visual Studio Subscriptions"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "일억은퇴 / 우상향 인사 / 1인 1억 월 생할비 200 꾸준히 써보자",
-    "description": "영상: https://www.youtube.com/watch?v=0AT8l5kP5RY\n\n\n\n \n처음엔 재미로 봤는데 3년을 견뎌내셨습니다.\n이분은 엄청난 위기속에서도 꾸준한 생활비를 만들어내셨습니다.\n느낌은 웅덩이 매매법 이랑 비슷한데\nTQQQ SOXL 을 쌀때 사서 비싸게 파는 것 만으로 유지하셨다니 대단합니다. \n웅덩이는 월급 받으면서 하는거고\n이분은 완전 실업 상태에서 해낸거라 난이도가 다릅니다.\n \n \n심약개\n\n\n이분은 버티지 못하고 맛이 가버리셨습니다.\n \n텐엔트TV (=십개미)\n\n\n이분은 잘나가던 시절 수익을 지키지 못하고 날려버리셨죠\n \n2ants\n\n\n이 채널은 2명이서 진행하는데\n신박한 종목을 매수하시는데\n물려서 어마어마한 기간을 물을 타며 존버를 하고 있습니다.\n하지만 살아나는 종목도 있어서 10년 존버해서 성공하는 모습 보여줄꺼 같습니다.\n직장인이라 월급도 받고 있구요.\n대단해질 요소가 충분하다고 판단됩니다.\n \n \n \n하지만 일억은퇴는 다릅니다..\n위에 다른 분들은 투자금을 생활비로 사용하는 일은 하지 안았습니다. (못한건가..)\n일억은퇴는 3년을 생활비를 써가며 투자를 하는 레전드 인물이십니다.\n한때는 원금을 넘기기도 했었구요.\n증명해 내신분입니다.\n빨리 종교화 추진을 해야한다고 봅니다.\n우상화 작업 들어가야합니다.",
+    "title": "Genius Act 통과,미국 스테이블코인&nbsp;시대의 개막 - 미국 스테이블코인 시대의 개막과 스타트업의 기회",
+    "description": "2025년 7월, 미국 의회는 암호화폐 역사에서 가장 중요한 전환점 중 하나인 'Genius Act (지니어스법)'를 통과시켰습니다. 이 법안은 스테이블코인 발행자에 대한 명확한 규제 프레임워크를 마련하며, 1:1 달러나 미국 국채에 기반한 지급형 스테이블코인에 초첨을 맞추고 있습니다. 특히 준비금 100% 보유, 정기적인 외부 감사, 공시 의무 등 무텽성",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1360",
-    "pubDate": "Tue, 22 Jul 2025 14:36:16 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "은퇴",
-      "일억은퇴",
-      "투자"
-    ]
+    "link": "https://brunch.co.kr/@@LOc/297",
+    "pubDate": "Wed, 23 Jul 2025 03:00:06 GMT",
+    "creator": "고명환",
+    "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "평택 투자 실패 사연으로 보고 배울 내용",
-    "description": "영상: https://www.youtube.com/watch?v=eFTWgzmWo5k&t=963s\n\n\n\n \n숫자 보실 필요 없구요\n여기 내용에 보시면 반도체 공장이 1년 지연된다는 내용이 있습니다.\n결국 짓는다는거지요\n \n사연은 신축매물을 비싸게 산것입니다.\n처음엔 얼마나 흥할지 몰라 비싸게 팔아도 팔립니다.\n파는 사람도 사는 사람도 호재만 보고 가지요\n \n여지없이 한번에 성공하는 경우는 거의 없습니다.\n이것은 상성에게도 마찮가지 입니다. 공장지을때 그들도 성공할꺼라 생각했겠죠\n \n우리가 배워야할 점은\n1. 위험 분산을 하자\n이분은 확실하다고 몰빵 들어갔는데요\n욕심을 조정해야합니다. 조금 넣어서 성공하면 그것만 먹고 안되면 말고 정도로\n이분도 현금이 6억에 집도 있었습니다.\n굳이 무리할 필요가 없었죠 1.5억 정도로 오피스텔 1개만 사고\n바닥아니면 2-3년 버티다 하나 더사고 하는 식의 분산 투자를 해야했던것입니다.\n \n2. 확증 편향\n많은 실패 케이스중에 몰빵은 항상 이런식이죠\n정보 있다. -> 확실하네. -> 그러면 몰빵이지.\n이런 순서로 진행됩니다.\n \n하지만 지나보면 정보가 확실하지도 않고\n정보가 확실해도 시장이 그렇게 움직이지 않을 수 있습니다.\n결국 모든순간은 내 생각대로 가지 않기 위해 온갖 방법으로 방해합니다.\n절대로 머리속의 생각을 믿지 말아야합니다.\n \n3. 트레이드\n어떤 상품을 사는지 고르는건 중요한게 아닙니다.\n모든 상품을 거래하더라도 살아남는 방법을 터득해야합니다.\n그리고 샀으면 버틸 수 있어야합니다.\n그래서 중요한것은\n싸게 사는 것 과\n가격이 오르지 않는다면 오래 버티는 것 입니다.\n \n저는 평택 반도체 공장이 건설 될것이고 인구 유입도 생길것입니다.\n그들이 신축 팔아먹을때 그린 청사진 그대로 가는 것이죠\n단지 망하는 사람은 비싸게 사고 오를때까지 못버틴 것이라 생각합니다.",
+    "title": "성인 교육은 어떻게 마케팅 해야할까",
+    "description": "요즘 어떻게 교육을 마케팅할 것인가에 대한 고민이 많다.\n보통의 교육 마케팅은 \"공포 마케팅\"이 주를 이룬다.\n\"이거 안들으면 큰일나요\"\n\"몇년 차에 이걸 모르면 안됩니다\"\n\"이 내용 모르면 시험에서 광탈합니다\"\n기본적으로 교육은 인간 본성과 반대편에 있다.\n그래서 하기 싫은걸 억지로 하게 만들어야 한다.\n그러다보니 입시교육, 성인교육 할 것 없이 \"이걸 하지 않으면 안된다\" 라는 공포감을 심어주는 방향으로 간다.\n당장 움직이게 만드는데는 공포감이 가장 효과적이고 효율적이기 때문이다.  \n\"무언가를 하나둘씩 알게되는 과정에서의 즐거움\" 이라는 것은 정말 큰 동기부여가 되지만, 그런 경험을 한번 심어주려면 많은 시간과 노력이 필요하다.\n시작하기도 전에 그런 경험을 주는건 더더욱 어렵다.\n그런 면에서 공포 마케팅은 길게 봤을때는 문제가 되더라도, 짧게 봤을때는 어떻게든 구매를 일으키는 좋은 방법이다.  \n물론 꼭 그러한 마케팅을 하지 않아도 학습과 성장에 사람들이 관심을 가질 때도 있다.\n개발자라는 직업이 굉장한 붐을 일으켜서 많은 사람들이 개발자라는 직업을 얻고자할 때나, 이직이 굉장히 활발해서 공부해서 성장을 하면 더 좋은 회사로 이직하는 것이 쉬울때 등.  \n직업을 구하는 취업이 어렵고,\n승진도 어렵고,\n이직은 더더욱 힘든 지금 시기에\n\"왜 공부해야하는가?\" \"왜 성장해야하는가?\" 에 대해 어떤 답을 줄 수 있을까?\n그리고 그런 시대에 우리 같은 교육 서비스는 어떤 메세지를 전달해야할까?    \n취업, 승진, 이직이 모두 힘든 시기에 \"실질적 이득을 얻기가 힘든 상황에서도 왜 공부해야하는가?\" 에 대해 공포 마케팅을 하지 않고도, 학습 서비스가 성장할 수 있는 방법은 무엇일까?  \n닌텐도의 전 대표이신 돌아가신 이와타 사토루님의 인터뷰를 담은 '이와타씨에게 묻다' 를 보면 '아이디어'에 대한 이야기가 있다.  \n[아이디어란 여러 문제를 단번에 해결하는 것입니다.]\n모든 것이 그렇겠지만, 뭔가를 만들 때 '저쪽을 세우면 이쪽이 서지 않는' 문제는 항상 있기 마련입니다.\n하지만 현실에서 제품을 만들 때, '곤란한 일이 한 가지뿐'인 복 받은 일 따위는 없습니다.\n곤란한 일은 이곳저곳에 얼마든지 있습니다.\n이런 경우에 \"이건 이러니까 이러면 좋습니다\"라며 한 가지를 개선하더라도 전체를 바꿀 수는 없습니다.\n노력해서 하나를 잘하더라도, 뭔가 부작용이 생기기도 하고 지금까지 잘되던 일이 잘 안되기도 합니다.\n...\n그런데 때때로, 그저 한 가지를 했는데 이쪽도 잘되고 저쪽도 잘되고 게다가 예상치 못했던 문제까지 해결되는 경우가 있습니다.\n이런 '한 가지'를 마야모토씨는 \"없을까, 없을까\" 하면서 항상 고민했던 거지요.\n엄청 끈질기게, 끝없이요.\n개발바닥 오픈 카톡방은 5천명이 넘는 IT 직무분들이 모여있다.\n거기서는 여전히 배움에 목마른 사람들이 많다.\n\"어떤 걸 배우고 싶은데 어떤 책을, 어떤 강의를 들으면 좋겠냐\" 는 질문이 매일 올라온다.\n\"이번에 내가 이걸 들었는데, 너무 좋았어서 다른 분들도 보시면 좋겠어서 추천한다\" 라는 후기도 매일 공유된다.  \n그게 되게 신기했다.\n여전히 업을 '무한게임' 으로 바라보는 사람들이 많았던 것이다.\n업을 '유한게임' 으로 바라보면 이직이 힘들 땐 성장할 필요가, 공부할 필요가 없다.\n'무한게임' 으로 본다면 어떤 단기적인 성취를 위해 성장해야한다가 목적이 아니게 된다.\n이 과정 자체를 즐기는 것이 목표이다.\n더 즐길 수 있는 방법, 이 과정이 끝나지 않는 방법을 고민하게 된다.\n그래서 사람들끼리 서로 재밌었던 강의와 책을 추천하고, 추천받는다.\n더 많은 사람들이 게임에 참여하고, 게임이 끝나지 않게 하려고.\n그게 '무한게임' 플레이어들의 문화니깐.  \n나는 이런 '무한게임' 플레이어들이 좋다.\n그래서 더 많은 사람들이 이 게임에 참여하길 원한다.  \n이 게임을 더 확산시킬 방법을 고민하다가 '인프런 파트너스' 프로그램을 런칭하게 되었습니다.  \n인프런 파트너스\n더 많은 사람들이 들었으면 하는 강의들을 주변에 쉽게 알릴 수 있는 프로그램입니다.  \n\"강의 판매금액의 최대 25%까지 수익\" 으로 가져갈 수 있도록 설계를 하였지만, 그게 이 프로그램에 참여하시는 분들의 핵심은 아니겠죠.   \n\"방금 느낀 이 감동을 더 많은 사람들이 느끼게 하고 싶을때\",\n\"방금 질문, 답변을 나눈 지식 공유자분과의 대화를 더 많은 사람들에게 자랑 하고 싶을때\" 등등\n내 감동을 더 많은 사람들에게 전파할 수 있길 바래는 마음이 다들 많다고 생각합니다.   \n방금 내가 느낀 이 감동을 더 많은 사람들에게 나눠주고, 그 감동을 전달 받은 사람들이 성장할 때 우리의 '무한게임'이 계속 이어질 수 있기에 더 많은 사람들이 이 게임에 참여할 수 있도록 다 같이 성장하는 문화를 만들어지길 바래봅니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1359",
-    "pubDate": "Tue, 22 Jul 2025 12:43:55 +0900",
-    "creator": "SIDNFT",
+    "link": "http://jojoldu.tistory.com/837",
+    "pubDate": "Tue, 22 Jul 2025 20:43:13 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "유튜브",
-      "평택"
+      "생각정리",
+      "교육 마케팅",
+      "교육 서비스",
+      "마케팅",
+      "성인 교육",
+      "어필리에이트 마케팅",
+      "에듀 테크",
+      "인프런",
+      "입시교육",
+      "제휴 마케팅"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "알뜰폰 요금제 가입, 아직도 고민 중이신가요?",
-    "description": "알뜰폰 요금이 저렴한 이유부터 장단점, 고르는 법까지 알려드릴게요",
+    "title": "모바일 신분증, 본인을 인증하는 가장 안전하고 쉬운 방법",
+    "description": "등록 방법부터 사용처, 보안까지 모바일 신분증의 모든 것",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossmoment-15",
-    "pubDate": "Fri, 18 Jul 2025 02:25:00 GMT",
+    "link": "https://toss.im/tossfeed/article/tossmoment-16",
+    "pubDate": "Wed, 23 Jul 2025 09:17:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "토스, ‘모바일 신분증’ 서비스 개시",
-    "description": "운영체제 상관없이 토스로 간편하게",
+    "title": "The Reworked Terminal Becomes the Default in 2025.2",
+    "description": "Starting from 2025.2, the default terminal implementation is now the reworked terminal. To create this new implementation, the classic terminal was rewritten almost from scratch to provide the technical foundation for new terminal features like visual separation of executed commands, AI integration, and the ability to work seamlessly in remote development scenarios. Functionally, it is […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/mobileID_",
-    "pubDate": "Tue, 22 Jul 2025 22:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/platform/2025/07/the-reworked-terminal-becomes-the-default-in-2025-2/",
+    "pubDate": "Fri, 18 Jul 2025 12:23:37 +0000",
+    "creator": "Ekaterina Valeeva",
+    "categories": [
+      "news",
+      "terminal"
+    ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "송도 사제 총기 사건 전말 유튜브 영상",
-    "description": "변호사군요 요즘 변호사 유튜브 많이 하네요\n전말은 기업가 회장였던 아버지가 소외됨으로서\n발생했다고 하네요.\n회사나 집같은걸 물려줬으나 대우가 안좋았나봅니다.\n재산을 일찍 넘겨줌으로서 소회감을 느낄 상황이 만들어진거 같습니다.\n \n \n영상: https://www.youtube.com/watch?v=QnRM_CmHHIM\n\n\n\n \n재산을 빨리 물려줌으로서 본인의 자리가 사라졌을 것입니다.\n그래서 상대가 무의식적으로 한 행동을 소외감으로 느껴버린것일 수도 있다고 추측됩니다.\n실제로 무시하려고 한게 아니라도 \"내가 그렇게 생각\" 해버리면 그런것이죠\n이 상황이 되면 안 좋은 생각을 멈출 수 없을 것입니다.\n차라리 다 내가들고 있으면 상대망이 쩔쩔매겠고\n소외감을 느낄 수 없었을 것입니다.\n\"상대방이 쩔쩔맨다\" 는 것도 내 생각이지\n상대방이 실제로 그런것인지는 알 수 없습니다.\n\"어차피 나중에 다 물려줄꺼면서\" 라고 생각할 수도 있죠\n한지만 나의 생각이 그렇다고 하면 우월감을 느낄 수도 있고\n나쁜 생각은 안들 것입니다.\n아니면 소외감을 상쇄할 만큼의 의미 있는 일을 찾았더라면 좋았을 것 같습니다.\n하지만 회사 회장까지 가본 분이 그런일을 찾기는 쉽지 않을 것 같긴합니다.\n직장인 나부랭이는 블로그만 써도 만족하지만 전직 회장이라니 ... \n상상할 수도 없군요",
+    "title": "유니티 얼굴인식 샘플 / 샘플 패키지와 스마트폰 앱 활용",
+    "description": "영상: https://www.youtube.com/watch?v=UNW78Z8pvSU\n\n\n\n현재는 일반 버튜버 쪽을 보고 있는데요\n아예 유니티 소프트웨어에서 이걸 돌리는 방법이 있군요\n아예 별도의 앱을 만들 수 도 있긴하겠군요\n \n스마트폰 앱을 이용하는게 신기하군요",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1361",
-    "pubDate": "Tue, 22 Jul 2025 17:07:06 +0900",
+    "link": "http://serverdown.tistory.com/1357",
+    "pubDate": "Tue, 22 Jul 2025 01:22:00 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브",
-      "사건"
+      "프로그래밍/유니티 에셋 리뷰",
+      "얼굴 인식"
     ]
   },
   {
     "id": 9,
-    "imageUrl": "",
-    "title": "빌라 추천하는 유튜브",
-    "description": "빨간벽돌집 이건가 .\n이거는 빌라가 아닌가 ...\n \n영상: https://youtu.be/KymMX2HKjT4?t=853\n\n\n\n \n14분에 나옵니다.\n조건은 돈이 1억밖에 없다면 이 붙긴합니다.\n다른 유튜브에서는 빌라가 오를때 아파트 저평가가 오니 아파트 사라고 합니다.\n(어질어질)\n \n중요한것은 싸게 사는 것입니다.\n부동산은 팔았다 다시사고 할 수 있는 상품이 아니기 때문입니다.\n \n빌라도 가즈아~",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1354",
-    "pubDate": "Thu, 17 Jul 2025 15:49:20 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "투자",
-      "애셋",
-      "유니티"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Policy Zones: How Meta enforces purpose limitation at scale in batch processing systems",
-    "description": "Meta has developed Privacy Aware Infrastructure (PAI) and Policy Zones to enforce purpose limitations on data, especially in large-scale batch processing systems.  Policy Zones integrates with Meta’s exabyte-scale data warehouse and processing systems, using runtime enforcement and SQL parsing to propagate and enforce privacy annotations across millions of daily data flows per day, performing trillions [...]\nRead More...\nThe post Policy Zones: How Meta enforces purpose limitation at scale in batch processing systems appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/07/23/security/policy-zones-meta-purpose-limitation-batch-processing-systems/",
-    "pubDate": "Wed, 23 Jul 2025 23:00:05 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Security & Privacy"
-    ]
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "테스트는 최종 시험대? 아니, 설계 방향 지도!",
     "description": "📌 개요\n예전의 나에게 테스트란 단지 ‘구현이 끝난 후, 이상이 없는지 확인하는 마지막 절차’였다.\n하지만 지금은 다르다. 테스트는 이제 내가 어떻게 구현해야 할지를 알려주는 설계 지침서다.\n이 글에서는 테스트가 내 개발 방식과 사고를 어떻게 바꿔놓았는지, 그리고 내가 생각하는 좋은 테스트란 무엇인지를 이야기해보려 한다\n📌 E2E 테스트\nE2E(End-to-End) 테스트는 사용자의 요청이 프론트엔드를 거쳐 백엔드와 DB까지 연결되는 전체 흐름을 검증하는 테스트다.\n예를 들어, ‘포인트 조회’ 기능을 개발한다고 해보자. 테스트를 먼저 작성하면서 다음과 같은 질문이 자연스럽게 떠오른다:\n\n어떤 endpoint로 요청할 것인가?\n어떤 요청값이 필요하고, 어떤 응답값을 줄 것인가?\n\n이런 고민을 바탕으로, 먼저 간단한 테스트 코드를 작성하고 mock 응답을 내려주는 방식으로 작업을 시작했다.\n이를 통해 프론트엔드 개발자와 백엔드 개발자가 기능 구현 이전에 명확한 요청/응답 계약을 공유하고, 병렬로 작업할 수 있는 기반을 만들 수 있었다.\n이 단계에서의 테스트는 실제 DB나 구현 로직 없이도 API의 인터페이스와 흐름을 검증하는 데 목적이 있다.\n엄밀히 말하면 이는 ‘Stub 기반 테스트’ 또는 ‘Contract 테스트’에 가깝지만, 이후 실제 구현이 완성되면 자연스럽게 진짜 E2E 테스트로 발전하게 된다.\n예전의 나였다면 컨트롤러뿐 아니라 서비스, 레포지토리, 엔티티까지 전부 구현한 후 테스트를 작성했겠지만,\n지금은 테스트를 먼저 작성하고, 그 테스트를 통과하는데 필요한 최소한의 구조만 정의하고 흐름에 따라 점진적으로 구현을 확장해나간다.\n즉, 이 테스트는 일회용이 아닌, 이후 전체 흐름을 점검하는 완전한 E2E 테스트로 진화하며 끝까지 유지된다.\n이처럼 테스트는 ‘기능이 다 구현된 후 확인하는 단계'가 아니라,\n처음부터 설계를 이끄는 도구로 사용될 수 있다. 지금 보여준 예시는 아직 2단계까지 구현된 상태이며,\n단위 테스트와 통합 테스트를 거쳐, 이 테스트는 완전한 E2E 테스트로 완성될 예정이다.\n다음과 같은 단계를 거쳐 테스트를 완성된 E2E로 발전시켜간다.\n1단계 – Stub 기반 테스트: 요청/응답 형태를 테스트로 먼저 정의 \n2단계 – 최소한의 구조 구현: DTO, Controller 등 테스트 통과에 필요한 부분만 작성 \n3단계 – 점진적 로직 구현: 실제 서비스/도메인 구성 요소 추가\n4단계 – 통합된 E2E 테스트: 실제 데이터, DB, 전 구간 테스트\n📌 단위 테스트\n단위 테스트에서는 핵심 비즈니스 로직에 대한 정합성과 규칙을 검증한다.\n예를 들어 ‘포인트 충전’ 기능을 구현하면서, 다음과 같은 규칙을 세웠다:\n0 이하의 값은 충전할 수 없다.\n이다. \n\n이 로직을 어디에서 검증할지 고민하게 되었고, 결국 request → command로 변환하는 시점에서 유효성을 체크하기로 했다.\n이렇게 계층별로 책임을 분리함으로써 테스트 가능성과 유지보수성이 향상되었다.\n내가 단위 테스트를 작성하면서 가장 크게 달라진 점이 있다면, \n그전에는 중요한 로직을 private 함수에 숨겨놨다.\n→ 중요한 비즈니스 로직은 별도 클래스로 분리하여 작은 public 함수로 노출  \n한 메서드에 여러 책임이 혼재되어 있었다 (생성 + validate 등).\n→ 테스트가 명확해지도록 책임을 분리\n단, 외부에 무분별하게 public으로 열기보다는 설계를 통해 테스트 가능하게 만들자.\n📌 통합테스트\n각 기능이 단독으로는 잘 동작하더라도, 실제 서비스에서는 다양한 컴포넌트가 조합되어 동작한다.\n통합 테스트는 이러한 구성 요소들이 서로 올바르게 연결되어 있는지, 데이터 흐름에 문제가 없는지를 확인하는 테스트다.\n예를 들어, 회원가입 기능에서 다음 두 가지가 모두 성공해야 한다:\n회원 정보가 DB에 저장된다.\n저장된 회원 정보가 응답으로 반환된다.\n\n이 테스트는 UserService.create()를 호출했을 때,  \nUserRepository.save()가 실제로 호출되었는지,  \n저장된 값이 올바르게 매핑되어 응답으로 반환되었는지를 검증한다.\n📌 좋은 테스트란 무엇인가\n내가 생각하는 좋은 테스트는 \"잘 실패하는 테스트\"다.\n기능을 수정하거나 리팩토링할 때,\n이전에 작성한 테스트가 실패한다면 자연스럽게 이렇게 생각하게 된다:\n\"이번 변경이 기존 기능에 어떤 영향을 미친 걸까?\"\n\"어디서 잘못된 흐름이 발생했지?\"\n이런 고민을 통해 전체 구조와 책임을 다시 한 번 되짚어보게 되고,그 과정은 곧 코드를 더욱 견고하게 다듬는 시간이 된다.\n잘 실패하는 테스트는 결국\n“코드를 되돌아보게 만드는 테스트”다.\n테스트가 깨지면 무조건 그 원인을 분석하게 되고,\n그 분석 과정에서 설계, 구조, 책임의 균형을 검토하게 된다.이것이 내가 테스트를 사랑하게 된 이유이자,\n테스트의 진짜 가치라고 믿는 부분이다.\n내가 생각하는 좋은 테스트의 조건\n잘 실패한다: 코드 변경이 기존 동작에 어떤 영향을 미치는지 즉시 드러난다.\n설계를 이끈다: 테스트를 먼저 작성하면서 구조와 책임이 명확해진다.\n신뢰할 수 있다: 반복 실행 시 항상 같은 결과를 보장한다.\n빠르다: 실행 속도가 빨라, 언제든 부담 없이 돌려볼 수 있다.\n📌 결론\n우리는 매일 많은 기능을 만들고, 그 기능들은 수많은 사용자가 경험하게 된다.\n그렇기에 테스트는 단순한 ‘확인’의 수단이 아니라, 설계의 시작점이자 유지보수의 안전망이 되어야 한다.\nTDD에서 말하는 \"Driven\"은 단순히 테스트를 먼저 쓴다는 의미가 아니다.\n진짜 핵심은, 테스트가 코드의 방향, 책임 분리, 인터페이스 구조를 이끌어가는 힘이라는 점이다.\n이제 테스트는 ‘시험’이 아니라 ‘설계자’다.\n즉, 테스트는 단지 '기능을 확인하는 수단'이 아니다.\n테스트는 설계를 이끌고, 유지보수성을 확보하며, 개발자의 자신감을 만들어주는 자신감의 근거가 된다고 생각한다.",
@@ -173,7 +138,57 @@
     "categories": []
   },
   {
+    "id": 10,
+    "imageUrl": "",
+    "title": "C++ - CEDEC 2024 게임 개발자를 위한 C++17~C++23, 최근 C++ 표준 제정 동향",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/Cpp_20250724/",
+    "pubDate": "Thu, 24 Jul 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Flutter Riverpod 200% 활용하기",
+    "description": "Flutter에는 다양한 상태 관리 라이브러리가 존재합니다. 대표적으로 Provider와 GetX, BLoC 등이 있는데요. 이전에 Flutter 인기 아키텍처 라이브러리 3종 비...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/how-to-make-the-most-of-flutter-riverpod",
+    "pubDate": "Fri, 18 Jul 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
     "id": 12,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 12화, 모욕인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2335",
+    "pubDate": "Wed, 23 Jul 2025 19:38:46 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "로앤컴퍼니 500억 투자로 본 리걸테크 성공사례",
+    "description": "1 리걸테크(LegalTech)란 무엇인가? 리걸테크(LegalTech)는 법률과 기술이 결합된 사업으로, 법률 서비스의 디지털 전환을 목표로 합니다. 기존 변호사 중심의 복잡하고 비싼 법률 서비스를 AI, 빅테이터, 클라우드, Saas 플랫폼을 활용해 더 쉽고 저렴하며 빠르게 제공하는 것이 핵심입니다.  대표적인 서비스 영역은 다름과 같습니다. 법률 상담",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/294",
+    "pubDate": "Fri, 18 Jul 2025 03:00:06 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "투자의 기본을 이야기로 알아보자",
     "description": "영상: https://www.youtube.com/watch?v=YGNG3X5IrKw\n\n\n\n \n예나 지금이나 노동력으로 얻을 수 있는 수익보다\n투자로 얻을 수 있는 양이 많다고 합니다.\n \n결국 모든 사람은 투자를 배워야합니다.\n중요한것은 투자하라는게 아닙니다. 투자를 배우라는 것입니다.\n처음엔 실패가 많은 것입니다.\n하지만 시장의 룰을 이해하기 시작하면 수익이 날 것입니다.\n \n포기하지말고 많은자금을 한방에 올인하지도 마시고\n5년~10년 정도 배워간다라는 생각으로 해보시는 것이 좋겠습니다.",
@@ -188,45 +203,15 @@
     ]
   },
   {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Milvus: LINE VOOM의 실시간 추천 시스템을 위한 대규모 벡터 DB 구축기",
-    "description": "안녕하세요. LINE VOOM 서비스의 추천 시스템을 개발하는 ML 엔지니어 이창현, 백진우입니다. 저희는 LINE VOOM의 실시간 추천 시스템을 위한 대규모 벡터 데이터베이스 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/large-scale-vector-db-for-real-time-recommendation-in-line-voom",
-    "pubDate": "Wed, 23 Jul 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Tanks / 탱크 게임 유니티 무료 애셋",
-    "description": "애셋 링크: Tanks! | Complete Project | Tutorial Projects | Unity Asset Store\n\n \nTanks! | Complete Project | 자습서 | Unity Asset Store\nGet the Tanks! | Complete Project package from Unity Technologies and speed up your game development process. Find this & other 자습서 options on the Unity Asset Store.\nassetstore.unity.com\n\n \n \n영싱: Tanks: Make a battle game for web and mobile\n\n\n\n탱크 게임 애셋을 그냥 주네요\n받아서 돌려봐야겠습니다.\n \n\n\n무료 !",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1356",
-    "pubDate": "Mon, 21 Jul 2025 23:43:44 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/유니티 에셋 리뷰",
-      "유니티"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "유니티 얼굴인식 샘플 / 샘플 패키지와 스마트폰 앱 활용",
-    "description": "영상: https://www.youtube.com/watch?v=UNW78Z8pvSU\n\n\n\n현재는 일반 버튜버 쪽을 보고 있는데요\n아예 유니티 소프트웨어에서 이걸 돌리는 방법이 있군요\n아예 별도의 앱을 만들 수 도 있긴하겠군요\n \n스마트폰 앱을 이용하는게 신기하군요",
+    "title": "저나백스 (진통제) 제조사 주가 왜이케 안가 / 버텍스 파마슈티컬스 / VRTX",
+    "description": "영상: https://www.youtube.com/watch?v=xG06MXIwh8U&t=180s\n\n\n\n \n \n영상만 보면 최초 최고의 약물이 나왔는데\n이상하게 주가가 안가네요\n\n\n1년치 차트입니다. 아직 움직이지 않는군요\n \n\n\n36년치 차트인데 차트 이쁘네요\n그냥 장투 해볼까 싶기도\n \n아직 안알려져서 안가는게 아닌가 싶어서 글써봅니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1357",
-    "pubDate": "Tue, 22 Jul 2025 01:22:00 +0900",
+    "link": "http://serverdown.tistory.com/1363",
+    "pubDate": "Thu, 24 Jul 2025 16:10:31 +0900",
     "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/유니티 에셋 리뷰",
-      "얼굴 인식"
-    ]
+    "categories": []
   }
 ]
