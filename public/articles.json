@@ -2,59 +2,56 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "The Laravel Idea Plugin is Now Free for PhpStorm Users",
-    "description": "Starting July 30, 2025, we’re making Laravel Idea free for PhpStorm users. If you already have the Laravel Idea plugin installed, you get full access to all plugin features at no extra cost. Laravel Idea is the smartest Laravel development environment based on PhpStorm. Developed by Adel Faizrakhmanov, the plugin has 1.5M+ downloads from JetBrains […]",
+    "title": "독일 스타트업 생태계 분석 - 유럽 최대 시장에서 성공하는 법",
+    "description": "독일은 유럽에서 가장 강력한 경재력을 가진 국가이자, 스타트업 혁신의 중심지입니다. 특히 베를린은 세계적으로 주목받는 창업 도시 중 하나로, 핀테크 / 클린테크 / 모빌리티 분야의 선도 허브입니다. 안정적인 산업 기반, 유럽 전역으로 확장 가능한 시장, 강력한 정부 지원정책 덕분에 글로벌 스타트업에게 매력적인 기회를 제공합니다. 이번 포스팅에서는 독일 스타",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/07/laravel-idea-is-now-free/",
-    "pubDate": "Wed, 30 Jul 2025 16:53:03 +0000",
-    "creator": "Hanna Yakush",
-    "categories": [
-      "news",
-      "laravel",
-      "laravel-idea"
-    ]
+    "link": "https://brunch.co.kr/@@LOc/302",
+    "pubDate": "Thu, 31 Jul 2025 03:00:10 GMT",
+    "creator": "고명환",
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "좋아요 멱등성: 올리브영, 무신사, 컬리는 어떻게 다르게 구현했을까?",
-    "description": "개발자라면 한번쯤 들어봤을 멱등성~! 최근에 좋아요를 구현해보려고 하는데 각기 다른 서비스들은 과연 어떻게 구현하고 있을까가 궁금했다. 그래서 오늘은 '좋아요' 기능을 예시로 파고 들어가보려고 한다. 특히 올리브영,무신사,컬리가 멱등성을 보장하는 방식이 다른 것을 확인할 수 있었다. \n멱등성이란?\n멱등성은 같은 작업을 여러번 수행하더라도 항상 동일하게 유지되는 성질이다. 사용자의 실수로 버튼을 여러번 누르거나, 네트워크 불안정으로 요청이 중복 전송될때 시스템이 오작동하지 않도록 방지하는 중요한 개념이다. 즉, 좋아요 기능을 예시로 들자면, 좋아요를 여러번 눌러도 좋아요 개수가 계속 늘어나거나, 이미 좋아요를 취소했는데 다시 취소 요청이 들어와도 오류가 나지 않아야 한다는 의미이다. \n비교\n올리브영\n: POST (개별 액션 엔드포인트)\n올리브영은 좋아요(찜하기) 등록과 취소를 각각 다른 POST 엔드포인트를 통해 명확하게 구분하여 처리한다.\n구현 방식 분석\n좋아요(찜하기) 등록:\n메서드: POST\n엔드포인트: https://www.oliveyoung.co.kr/store/mypage/getWishListJson.do\n사용자가 상품을 찜할 때 이 엔드포인트로 요청을 보낸다.\n\n좋아요(찜하기) 취소:\n메서드: POST\n엔드포인트: https://www.oliveyoung.co.kr/store/mypage/delWishLstAjax.do\n사용자가 찜한 상품을 취소할 때 이 엔드포인트로 요청을 보낸다.\n\n장점\n명확한 액션 구분: 각 API가 수행하는 액션(등록/삭제)이 URL에 명시적으로 드러나 개발자가 이해하기 쉽다. API의 목적이 URL에 담겨 직관적이다.\n클라이언트의 명시적 제어: 클라이언트가 '등록'과 '취소'를 명확히 구분하여 요청을 보낼 수 있다.\n멱등성 보장\nPOST는 본래 멱등성이 보장되지 않는다. 따라서 올리브영은 서버 측에서 다음과 같은 방식으로 멱등성을 보장할 것이라 '예상' 한다.\n등록 요청 시: 이미 해당 상품이 사용자의 찜 목록에 있다면, 중복으로 추가하지 않고 성공 응답을 반환한다. 데이터베이스의 고유 제약 조건(Unique Constraint)을 활용하여 중복 저장을 방지하는 것이 일반적이다.\n취소 요청 시: 해당 상품이 찜 목록에 없다면, 삭제할 것이 없으므로 아무것도 하지 않고 성공 응답을 반환한다.\n동시성 제어: 여러 번의 요청이 거의 동시에 들어올 경우, 서버는 내부적으로 트랜잭션 또는 락(Lock)을 통해 한 번의 처리만 보장한다.\n무신사\n: POST (단일 엔드포인트 & Body로 액션 구분)\n무신사는 '좋아요(찜하기)' 등록과 취소를 하나의 POST 엔드포인트로 처리하되, 요청 본문(Body)의 데이터로 실제 수행할 액션(등록 또는 취소)을 구분한다.\n구현 방식 분석\n메서드: POST\n엔드포인트: https://log.data.musinsa.com/log/user-event/v2_cart_purchase_like\n\n액션 구분: 등록시\n요청 본문 data 내에 event_name: \"add_to_wishlist\" 포함\n\n액션 구분: 취소 시\n요청 본문 data 내에 event_name: \"remove_from_wishlist\" 포함\n\n장점\n단일 API 엔드포인트: 클라이언트가 '찜하기' 관련 기능을 하나의 URL로 관리할 수 있다.\n멱등성 보장\nPOST는 멱등성을 가지지 않으므로, 무신사도 서버 측에서 멱등성을 보장해야 한다. 이는 올리브영의 개별 POST 엔드포인트 방식과 유사할 것이라 예상한다.\n요청 본문 분석: 서버는 event_name 값을 확인하여 'add' 요청인지 'remove' 요청인지 파악한다.\n현재 상태 확인 및 조건부 처리:\nadd_to_wishlist 요청 시: 이미 찜 목록에 있다면 중복 추가하지 않고 성공 응답.\nremove_from_wishlist 요청 시: 찜 목록에 없다면 삭제하지 않고 성공 응답.\n동시성 제어: 여러 번의 중복 요청에 대해 데이터 정합성을 유지하기 위한 서버 내부 로직(고유 제약, 락 등)이 필요하다.\n컬리\n: PUT (단일 엔드포인트 & Body로 상태 변경)\n컬리는 '좋아요(찜하기)' 상태 변경을 PUT 메서드를 사용하고, 요청 본문(Body)에 최종적인 찜 상태를 true 또는 false로 명시하는 방식을 사용한다.\n구현 방식 분석\n메서드: PUT\n엔드포인트: https://api.kurly.com/member/proxy/pick/v1/picks/products/{productId} ( {productId}는 실제 상품 ID)\n\n상태 구분:\n찜하기 설정 시: 요청 본문 {\"is_pick\": true}\n\n찜하기 해제 시: 요청 본문 {\"is_pick\": false}\n\n장점\nPUT 메서드의 멱등성 활용: PUT 메서드는 자원의 전체를 갱신하는 의미를 가지며 그 자체가 멱등성을 보장한다. 같은 요청을 여러 번 보내도 자원의 최종 상태(찜 여부)는 항상 동일하게 유지된다. 이는 서버 측 멱등성 구현 부담을 줄여준다.\n단일 API 엔드포인트 & 상태 주도: 클라이언트는 현재 찜 상태와 관계없이 원하는 최종 상태만 is_pick: true 또는 is_pick: false로 전달하면 된다. 클라이언트 로직이 비교적 간결하다.\n멱등성 보장\nPUT 메서드 자체가 멱등성을 보장하므로, 서버는 요청 본문의 is_pick 값에 따라 단순히 해당 상품의 찜 상태를 '설정' 또는 '해제'하면 된다. 중복 요청이 들어와도 결과는 동일하다.\n그렇다면, 어떤 방법이 '더' 나을까?\n세 가지 방법 모두 멱등성을 성공적으로 보장한다. 어떤 방법이 '더 좋다'고 단정하기는 어려우며, 이는 API 설계 철학, 개발팀의 선호도, 그리고 서비스의 특성에 따라 달라질 수 있다.\n올리브영의 POST (개별 액션): API의 명시성과 직관성을 중요하게 생각하는 경우 유리하다. 각 URL이 어떤 액션을 수행하는지 명확하다. POST의 멱등성은 서버 측에서 견고하게 처리해야 한다.\n무신사의 POST (단일 & Body 구분): 단일 엔드포인트를 선호하면서도 POST 메서드를 사용해야 할 때 선택할 수 있는 방식이다. 특히 이벤트 로깅 시스템과 연동이 필요할 때 유용할 수 있다. 역시 POST 멱등성은 서버가 보장한다.\n컬리의 PUT (단일 & Body로 상태 변경): HTTP 메서드의 멱등성 속성을 적극적으로 활용하여 서버 측 구현의 복잡성을 줄이고 싶을 때 이상적이다. '찜하기' 상태를 특정 리소스의 속성으로 보고 이를 업데이트하는 RESTful 한 방식에 가깝다.\n궁극적으로 중요한 것은 어떤 방식을 선택하든 시스템의 신뢰성을 위해 멱등성이 완벽하게 보장되도록 설계하고 구현하는 것이라 생각한다. 다만 흥미로웠던 점은 같은 기능이 각기 서비스마다 다른 형태를 보였다는 것이다. 이를 통해 같은 방향을 추구하지만 정답이 없음을 다시한번 느꼈다.",
+    "title": "이스라엘 스타트업 성공 전략&nbsp;",
+    "description": "이스라엘은 전 세계에서 Startup Nation으로 불릴 만큼 창업과 혁신이 활발한 국가입니다. 인구는 1,000만 명도 되지 않지만, 나스닥 성장 기업 수는 미국과 중국에 이어 세계 3위권입니다. 첨단기술, 글로벌 네트워크, 정부의 강력한 지원 덕분에 세계 스타틑업 허브로 자리매김했습니다. 이번 포스팅에서는 이스라엘 스타트업 생태계의 특징, 정부 지원제",
     "reviews": [],
     "syllabus": [],
-    "link": "https://velog.io/@sweet_sumin/%EC%A2%8B%EC%95%84%EC%9A%94-%EB%A9%B1%EB%93%B1%EC%84%B1-%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81-%EB%AC%B4%EC%8B%A0%EC%82%AC-%EC%BB%AC%EB%A6%AC%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8B%A4%EB%A5%B4%EA%B2%8C-%EA%B5%AC%ED%98%84%ED%96%88%EC%9D%84%EA%B9%8C",
-    "pubDate": "Fri, 25 Jul 2025 01:39:46 GMT",
-    "creator": "Unknown",
+    "link": "https://brunch.co.kr/@@LOc/301",
+    "pubDate": "Wed, 30 Jul 2025 03:00:07 GMT",
+    "creator": "고명환",
     "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "우주 반도체 ? / 인튜이티브 머신스 / LUNR",
-    "description": "영상: https://www.youtube.com/watch?v=zKITQmGryYY\n\n\n\n \n이런 산업이 있었군요\n우주에서 생산을 하는 방식인데 아주 정밀한 물질은 중력의 영향을 받는 곳에서 만들면 문제가 생긴다고 합니다.\n그래서 우주에서 만드는 것도 좋은 방법이라고 하네요\n \n뉴스 ㅋㅋㅋ\n\n\n인튜이티브 머신즈는 공돌이 회사라 그런지 신가한 뉴스가 많습니다.\n달 탐사 로봇인가 냉장고 같이 생긴 기기를 달에 보냈다가 넘어지는 바람에 버린 경력이 있습니다.\n넘어지면 안테나를 세울 수 없어서 통신이 불가능하다고 들었습니다.\n뭐야 허접인가 했는데 또다른 신기한 사업을하네요\n우주에서 반도체 웨이퍼를 만든다거나 약품을 만드는 일을 한다고 합니다.\n이럴러면 생산 기기를 우주에 보내야하고\n지구 - 우주간 물건 배달 사업을 해야합니다.\n그것을 하겠다는 것이죠\n \n영상보시면 재밌으니 한번 봐주시구요\n \n \n주가 차트\n \n\n\n2023년에 상장했구요\n차트도 기묘하게 이상한 모양이군요\n전형적인 돈 못버는 기업일꺼 같지만\n아무튼 오르면 되는거니까요\n \n관심을 가져봐야겠습니다.",
+    "title": "C++ - char* 및 std::string의 액세스 속도와 최적화 영향",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1364",
-    "pubDate": "Fri, 25 Jul 2025 19:12:51 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "투자"
-    ]
+    "link": "https://jacking75.github.io/Cpp_20250730/",
+    "pubDate": "Wed, 30 Jul 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Accelerating on-device ML on Meta’s family of apps with ExecuTorch",
-    "description": "ExecuTorch is the PyTorch inference framework for edge devices developed by Meta with support from industry leaders like Arm, Apple, and Qualcomm.  Running machine learning (ML) models on-device is increasingly important for Meta’s family of apps (FoA). These on-device models improve latency, maintain user privacy by keeping data on users’ devices, and enable offline functionality. [...]\nRead More...\nThe post Accelerating on-device ML on Meta’s family of apps with ExecuTorch appeared first on Engineering at Meta.",
+    "title": "non-raid구성+raid 구성을 위해 VMD Controller 부분적으로 활성화하기",
+    "description": "여차저차 해서 결국 970 EVO 1TB가 2개 남는 상황이 됐다. 이미 메인 데스크탑은 990Pro 2TB에 OS와 필요한 어플들 설치를 끝낸 상황이므로 이건 그대로 두고 970EVO 2개를 raid로 묶어서 추가하고 싶다. 990 Pro에 OS설치할 때는 먼저 사용하던 RAID를 해제하고(VMD Controller 비활성화) AHCI모드로 돌려놓은 상태에서 990 pro에 Windows를 설치했었다. 이 상태에서 SSD 2개를 추가해서 RAID묶겠다고 VMD Controller를 … More non-raid구성+raid 구성을 위해 VMD Controller 부분적으로 활성화하기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/07/28/android/executorch-on-device-ml-meta-family-of-apps/",
-    "pubDate": "Mon, 28 Jul 2025 20:30:33 +0000",
-    "creator": "Unknown",
+    "link": "https://megayuchi.com/2025/07/30/non-raid%ea%b5%ac%ec%84%b1raid-%ea%b5%ac%ec%84%b1%ec%9d%84-%ec%9c%84%ed%95%b4-vmd-controller-%eb%b6%80%eb%b6%84%ec%a0%81%ec%9c%bc%eb%a1%9c-%ed%99%9c%ec%84%b1%ed%99%94%ed%95%98%ea%b8%b0/",
+    "pubDate": "Wed, 30 Jul 2025 10:18:42 +0000",
+    "creator": "megayuchi",
     "categories": [
-      "Android",
-      "iOS",
-      "Open Source"
+      "IT",
+      "Pub",
+      "컴퓨터일반",
+      "RAID",
+      "ssd",
+      "Windows"
     ]
   },
   {
@@ -81,38 +78,23 @@
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Koog: Building and Scaling AI Agents – Join Our Livestream Series",
-    "description": "Are you ready to dive into the world of AI agents and create your own from scratch? We’ve got just the thing for you! Join us this August for a two-part livestream series about Koog, JetBrains’ open-source agentic framework that empowers developers to build AI agents entirely in Kotlin. Whether you’re a Kotlin developer or […]",
+    "title": "Smarter AI Edits in Visual Studio Copilot",
+    "description": "When we first set out to get smarter AI edits in Visual Studio Copilot, we knew we were tackling a deeply complex problem. It wasn’t just about generating great suggestions—it was about figuring out how to seamlessly apply those suggestions to your code. While the idea seemed simple at first glance, the reality was anything […]\nThe post Smarter AI Edits in Visual Studio Copilot appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/07/koog-building-and-scaling-ai-agents-join-our-livestream-series/",
-    "pubDate": "Tue, 29 Jul 2025 13:15:35 +0000",
-    "creator": "Daniela Bentrup",
+    "link": "https://devblogs.microsoft.com/visualstudio/smarter-ai-edits-in-visual-studio-copilot/",
+    "pubDate": "Thu, 31 Jul 2025 12:00:42 +0000",
+    "creator": "Jessie Houghton, Oscar Obeso, Rhea Patel",
     "categories": [
-      "livestreams",
-      "ai",
-      "ai-agents",
-      "webinars"
+      "Copilot",
+      "GitHub Copilot",
+      "Visual Studio",
+      "AI Agents",
+      "GitHub Copilot Chat"
     ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "DataGrip 2025.2: Database Object Context in the AI Chat, Introspection by Levels for PostgreSQL and MS SQL Server, and More!",
-    "description": "DataGrip 2025.2 introduces a set of new features to elevate your development experience. In this version, introspection by levels is now supported for PostgreSQL and Microsoft SQL Server, giving you greater control over the metadata loaded for these databases. For PostgreSQL, a smart refresh mechanism has been implemented to significantly reduce the time spent refreshing […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/datagrip/2025/07/29/datagrip-2025-2-database-object-context-in-the-ai-chat-introspection-by-levels-for-postgresql-and-ms-sql-server-and-more/",
-    "pubDate": "Tue, 29 Jul 2025 15:36:53 +0000",
-    "creator": "Richie Mitish",
-    "categories": [
-      "news",
-      "releases",
-      "newsletter"
-    ]
-  },
-  {
-    "id": 8,
     "imageUrl": "",
     "title": "이번주 우공이산 / 1/3 토막이나도 팔지않는 마음",
     "description": "영상: https://www.youtube.com/watch?v=pGZTFccEGVQ\n\n\n\n \n결국 시진핑은 털렸고\n중국의 덤핑 생산은 막혔습니다.\nLG화학은 중국과의 특허 소송에서 이겼습니다.\n다 맞췄지만 주가는 k-베터리 레볼루션 이전 가격보다 낮아졌습니다.\n저는 거의 3년을 들고 버텼구요 (1년 상승 + 2년하락 기간)\n결국 아직도 마이너스인 상태입니다.\n어찌보면 어리석은 짓이기도 하고 속았다고 느낄 수도 있을 것입니다.\n하지만 저는 그렇게 생각하지 않습니다.\n아무리 생각해도 베터리가 주요 에너지 저장 수단이되며\n중국의 이상한 정책은 막을 내릴 것이라고 생각합니다.\n그래서 못판 것이겠죠\n문제라고 하면 주위사람들에게 이렇게 이야기하고 다녀서\n많은사람들이 같이 물리게 되었다는 점입니다.\n \n이번주 영상에서 배울 점\n버핏이 코카콜라에 들어간시점은 공산국가가 몰락하던 시점이였고\n그때는 이것이 성장주 였다는 것입니다.\n지나고보면 왜그랬는지 이유는 모르게 되고 쌀때 잘샀네 가 되겠지만\n들어갈때 아이이디어는 그런게 아니라는 것입니다.\n그리고 최고가에서 1/3 토막이 나는 시절도 있었지만 버핏은 팔지 않았습니다.\n\n\n(조금은 팔았을듯)\n거의 기간이 10년 상승 10년하락이군요\n우리는 버핏 처럼 많이 맞출 필요가 없습니다.\n인생에 단 한번만 맞추더라도 은퇴가능합니다.\n저도 하락하는 2차전지를 2년동안 물을 탔습니다.\n아주 많이 빠졌을때 물을 거하게 타서 그런지 이젠 0% 대 수익권에 도달했습니다.\n하지만 몇번의 흔들기가 더 생기면 또 마이너스로 갈 것입니다.\n몇년전엔 그런것들을 견디지 못하고 약간의 수익만 나면 팔아버렸습니다.\n박순혁작가와의 3년동안 큰 깨닳음을 얻었습니다.\n이대로 짤짤이 하면서 살지\n부자로 은퇴할지를 결정해야할 순간이 온것 같습니다.\n \n미래를 보는 눈\n투자로 부자가 되려면 시장의 이상현상을 잘 파악해야하고 미래에 어떻게 될 것인지를 예상해야합니다.\n현재는 미국에서 원자력관련 뉴스가 쏟아지고 있는데 이것은 AI 혁명으로 인한 전력 수요 때문입니다.\n그래서 정책이 그방향으로 가다보니 뉴스가 그에 맞게 쏟아지는 것입니다.\n이런 점에서 뉴스조차도 예상할 수 있는 것 같습니다.\n온난화 문제도 더이상 참을 수 없을 정도로 위기가 왔습니다.\n홍수나 가뭄피해는 나날이 강해지고 있고 사람의 인식은 언젠가 바뀔 것입니다.\n자율주행도 상용화에 많이 근접했구요\n충전하기 귀찮은게 단점이지만 \n시간이 지나면 충전하지 않고 빌려쓰는 시대가 와서 이 문제를 보완할 것입니다.\n(주차난도 해소할 수 있구요)\n길이 맞다고해도 주가가 바로 상승하지 않습니다.\n하지만 지금 오르지 않느다면 그것은 싼것입니다.\n싼것을 사는 일은 언제나 좋은 투자입니다.",
@@ -126,80 +108,7 @@
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Interprocedural Analysis: Catch nil Dereferences Before They Crash Your Code",
-    "description": "The upcoming GoLand 2025.2 release introduces a powerful set of new features and improvements designed to help you write safer, more reliable Go code. If you’d like a full breakdown of all the updates, be sure to check out the release notes.  In this post, we’ll focus on one of the most significant new features: […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2025/07/28/interprocedural-analysis-catch-nil-dereferences-before-they-crash-your-code/",
-    "pubDate": "Mon, 28 Jul 2025 12:24:03 +0000",
-    "creator": "Arseniy Terekhov",
-    "categories": [
-      "features",
-      "goland-2025-2"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "[MULTI] 싱글·멀티 다 잡은 쌍수호박 무협 오픈월드, 연운",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2338",
-    "pubDate": "Wed, 30 Jul 2025 12:04:16 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "코믹스의 검열과 판타스틱4",
-    "description": "영상: https://www.youtube.com/watch?v=tIQ6mexXIp4&t=162s\n\n\n\n \n코믹스의 역사에 대해 이야기 해주는 영상입니다.\n2차세계대전까지는 나치 때려잡는 만화는 폭력적이더라도 문제가 되지 않았는데\n1950년대가 되자 그럴 수 없었나봅니다.\n아이들에게 영향을 준다는 이유로  검열하게 됩니다.\n악마 좀비 늑대인간 흡혈귀가 안된다고하네요\n그리고 마법 요소도 ... (뭐냣)\n아무튼 이 상황에서도 만화는 살길을 찾아야했고 그래서 과학과 연관시키는 쪽으로 발전했다고 합니다.\n \n내용이 재밌어서 끝까지 봤네요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1366",
-    "pubDate": "Mon, 28 Jul 2025 11:27:54 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "When Tool-Calling Becomes an Addiction: Debugging LLM Patterns in Koog",
-    "description": "I was testing my agent built on Koog, JetBrains’ open-source framework for building AI agents in Kotlin. I fed it a task from SWE-bench-Verified, a real-world GitHub issue that tests whether AI can actually write code. For the first 100 messages, everything looked promising. The agent methodically explored the codebase, identified bugs, wrote test cases, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/07/when-tool-calling-becomes-an-addiction-debugging-llm-patterns-in-koog/",
-    "pubDate": "Mon, 28 Jul 2025 13:33:14 +0000",
-    "creator": "Denis Domanskii",
-    "categories": [
-      "jetbrains-ai",
-      "ai",
-      "ai-agents"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Ship, Share, and Win: The Kotlin Multiplatform Award at Shipaton 2025",
-    "description": "There’s nothing quite like the thrill of shipping an app and turning an idea into something real that people can use. This summer, you’ve got the perfect chance to capture that feeling at RevenueCat Shipaton 2025 — a two-month global hackathon focused on launching new mobile apps (August 1 to September 30). And for Kotlin […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/07/kmp-shipaton/",
-    "pubDate": "Tue, 29 Jul 2025 07:27:01 +0000",
-    "creator": "Ekaterina Petrova",
-    "categories": [
-      "multiplatform"
-    ]
-  },
-  {
-    "id": 14,
+    "id": 8,
     "imageUrl": "",
     "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
     "description": "No description available",
@@ -213,21 +122,111 @@
     ]
   },
   {
-    "id": 15,
+    "id": 9,
     "imageUrl": "",
-    "title": "#100일 챌린지",
-    "description": "https://product.kyobobook.co.kr/detail/S000217034649\n\n\n종립님이 재밌게 보시길래 토요일에 책을 배송 받아서 하루종일 이 책만 봤다.\n2023년 10월 28일부터 2024년 2월 4일까지 100일간 GPT의 도움을 받아 게임, 유틸리티 프로그램 등 매일 1개의 완성된 애플리케이션 결과물을 트위터 (X) 에 공유했던 오츠카 아미님의 이야기를 담은 에세이다.\n예전에 하야마 아마리님의 \"스물아홉 생일, 1년 후 죽기로 결심했다\" 를 읽으면서도 느낀건데 실제 본인의 경험담을 기반으로 한 일본의 에세이가 가진 특유의 느낌이 있다.\n어려운 문장 없이, 과한 감정 표현 없이 담백하게 상황과 감정을 전달한다.\n아무리 GPT의 도움을 받았다고 해도 개발을 전혀 모르는 상경대 재학생이 매일 매일 하루도 빠짐 없이 온전히 작동하는 프로그래밍 결과물을 만든다는 것은 정말 대단하다.\n그래서 이 책은 \"요즘 같은 AI 시대에 프로그래밍을 어떻게 배워야 할 것인가\" 를 실제 개인의 경험으로 소개한다고 느껴진다.\n일단은 만들고 싶은 프로그램을 어떻게든 만든다.\n그걸 만들다가 막히는 부분이 있으면 그걸 해결하는데 필요한 공부를 한다.\n결국 완성 혹은 개선을 한다.\n재밌는 점은 컴퓨터공학에 필요한 전공 지식을 이 과정을 통해서도 배운다는 것이다.\n개발을 전혀 몰랐지만 100일간의 챌린지를 하면서 GPT가 제대로 이해할 수 있게 전달하기 위해, GPT가 내놓은 결과물을 이해하기 위해 프로그래밍에 필요한 지식들을 하나둘씩 배워간다.\n클래스와 객체지향 프로그래밍\n상태 관리\nUML과 클래스 다이어그램\n디자인 패턴\n선형 대수\n이산 수학\n등등.\n모든 것을 AI가 생각하도록 위임하는게 아니라, 위임을 위한 기본 지식은 본인이 익혀야하는 점을 잘 보여준 사례 같았다.\n앞으로 프로그래밍은 어떻게 배워야 하는가에 대해 생각할거리를 많이 던져주었다.\n이 책의 많은 리뷰가 AI의 도움으로 얼마나 많은 일을 할 수 있는지, 혹은 100일 동안 끊임없이 한 노력이 얼마나 대단한지 등을 칭찬한다..\n근데 나는 그것 보다는 매일 트위터에 본인의 작업물을 공유한 것까지를 목표로 했다는 것에 관심이 갔다.\n예전부터 무언가 배움이 필요할 땐, 배우는 그대로 블로그에 정리해서 외부에 공유를 했다.\n남에게 공유하기 위해서는 최소한의 퀄리티를 보장해야하는 압박감과 남들과 한 약속이 있으니 어떻게든 끝까지 해내야하는 등 여러 불편한 점이 결국 내가 원하는 목적지에 도달하게 만든다는 것을 알기 때문이였다.\n마찬가지로 인스타그램에 매일 매일 몸무게, 운동하는 모습, 식단을 공유하는 사람은 다이어트 성공 확률이 높다고 한다.\n원하는 실력을 갖추기 전까지 외부에 공유하지 않는 사람은 목표 달성이 어려운 경우를 자주 목격 한다.\n아직은 많이 어설프더라도 남들에게 자신의 결과물을 알리고, 남들이 웃더라도 부끄러워하지 않고 태연하게 하나씩 해내는 사람은 결국 목표를 달성했다.\n다이어트, 운동, 노래 등이 아닌 프로그래밍으로도 그 사례를 보여주어서 너무 반가웠다.\n\"요즘 같은 시대에 어떻게 프로그래밍을 배워야 하나요?\" 라는 고민을 하는 분들께 추천해줄만한 책이 생긴 것 같다.\n이제 막 프로그래밍을 시작하는 아이가 있는 어른들에게는 한번쯤 읽어보라고 추천하고 싶다.\n특히 이제 막 시작한 그 아이에게도 말이다.",
+    "title": "DDD를 Merchant 시스템 구축에 활용한 사례를 소개합니다",
+    "description": "이제는 꽤나 대중적인 방법론으로 자리 잡은 DDD(domain driven design)는 도메인을 중심으로 소프트웨어를 모델링하는 데 중점을 둔 설계 접근 방식입니다.저는 DDD...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/839",
-    "pubDate": "Mon, 28 Jul 2025 08:49:09 +0900",
-    "creator": "향로 (기억보단 기록을)",
+    "link": "https://techblog.lycorp.co.jp/ko/applying-ddd-to-merchant-system-development",
+    "pubDate": "Mon, 28 Jul 2025 02:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Watch Live: Visual Studio Toolbox at VS LIVE! Redmond 2025",
+    "description": "Join Robert Green and Leslie Richardson for a full day of live sessions, demos, and interviews. Live from Microsoft HQ – Stream Tuesday’s Sessions with Visual Studio Toolbox! On Tuesday, August 5, join us for a special edition of Visual Studio Toolbox Live—broadcast from VS LIVE! Redmond and hosted by Leslie Richardson and Robert Green. […]\nThe post Watch Live: Visual Studio Toolbox at VS LIVE! Redmond 2025 appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/watch-live-visual-studio-toolbox-at-vs-live-redmond-2025/",
+    "pubDate": "Tue, 29 Jul 2025 15:28:53 +0000",
+    "creator": "Jim Harrer",
     "categories": [
-      "도서",
-      "100일 챌린지",
-      "AI",
-      "오츠카 아미",
-      "요즘 프로그래밍"
+      "Visual Studio"
     ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "삼성 테슬라 수주의 이미와 관련 종목들",
+    "description": "영상: https://www.youtube.com/watch?v=TFrBvpRJmjE\n\n\n\n \n \n개인적으로 초보는 관련주 투자 하지마세요\n위아래로 왔다갔다 장난아니라 내리면 팔고 오르면 사고를 반복할 수 있습니다.\n그냥 이렇게 돌아가는구나 정도로 소액으로 여러회사를 분할 매수 해보시길 추천드립니다.\n사고팔고의 기술을 배워볼 좋은 시기입니다.\n \n이번 수주는 27년 양상을 목표로 받은 것입니다.\n옵티머스 (로봇) 용 반도체 인거 같습니다.\n이걸 시작으로 더많은 수주가 이어질 것입니다.\n \n단순 목표는 삼성전자를 양산 시점 까지 잘 가지고 가자 입니다.\n내리면 더사고 오르면 약간 팔고를 반복하면 될것 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1367",
+    "pubDate": "Tue, 29 Jul 2025 20:53:30 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "투자",
+      "삼성전자"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "CodeCanvas 2025.2: Now With Cursor and Jupyter Notebook Support",
+    "description": "CodeCanvas 2025.2 is here, and this release is packed with updates we think you’ll like. The main highlight is the support for Cursor and Jupyter notebooks. But there’s plenty more under the hood, including network policy controls, usage limits, and a bunch of smaller but useful improvements. Cursor support Cursor is one of the fastest-growing […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/codecanvas/2025/07/codecanvas-2025-2-now-with-cursor-and-jupyter-notebook-support/",
+    "pubDate": "Thu, 31 Jul 2025 10:58:52 +0000",
+    "creator": "Alexey Totin",
+    "categories": [
+      "cloud-development-environments",
+      "codecanvas",
+      "news",
+      "releases",
+      "remote-development",
+      "cde-orchestration",
+      "cursor",
+      "jupyter",
+      "release"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "What’s New with Mellum: Expanded Language Support and New Ways to Use it Locally",
+    "description": "This summer, we’re making Mellum, our code completion model, easier for developers to use locally, and we’re introducing support for more languages than ever. Here’s what’s new: Mellum-all – now on Hugging Face We’ve just released Mellum-all, the next open-source installation of Mellum, which has been trained to support all major programming languages. Earlier Mellum […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/07/whats-new-with-mellum-expanded-language-support-and-new-ways-to-use-it-locally/",
+    "pubDate": "Thu, 31 Jul 2025 13:57:54 +0000",
+    "creator": "Conrad Schwellnus",
+    "categories": [
+      "ai-assistant",
+      "features",
+      "jetbrains-ai",
+      "news",
+      "releases",
+      "mellum"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "[MULTI] 싱글·멀티 다 잡은 쌍수호박 무협 오픈월드, 연운",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2338",
+    "pubDate": "Wed, 30 Jul 2025 12:04:16 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "프리뷰"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "앱인토스, 당신의 아이디어가 토스의 2,900만 유저에게 닿는 방법",
+    "description": "토스가 10년 노하우를 모두에게 공개하는 이유",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/outsight-appsintoss",
+    "pubDate": "Fri, 25 Jul 2025 05:55:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
