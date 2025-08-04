@@ -2,66 +2,152 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "코펜하겐에서 개최된 Kotlin Conf 2025",
-    "description": "최근 인재전쟁 1부 공대에 미친 중국 영상을 봤다.\n소프트웨어 엔지니어로 일하다보면 중국의 기술력이 정말 뛰어나다는 것을 흔하게 느낄 수 있지만, 특히 이번 영상에서는 그 격차를 심하게 느끼게 된다.\n1부 영상의 마지막에 다음과 같은 충격적인 메세지가 나온다.\n'올해 중국 가오카오엔(수능) 1,335만 명이 응시했다.\n그 중 선별된 약 5%의 최상위 인재만이 국가가 지정한 명문대 이공계에 입학한다.\n이들은 약 90만명,\n작년 우리나라 전체 수능 응시생의 두 배이다.'\n우리나라는 모국어로 된 콘텐츠가 많다.\n누구나 배울 수 있도록 가능하면 해외의 좋은 내용들도 번역하고, 국내의 많은 작가, 현업 실무자분들이 노하우를 만들어서 배포해주신다.\n근데 그게 미국, 중국과는 차이가 있다.\n전세계에서 영어로 노하우가 공유되고 있고,\n14억 인구로 중국어로 된 기술에 관한 노하우가 공유된다.\n우리나라에서만 사용되는 한국어로, 5천만의 인구 안에서 만들어지는 노하우는 영어, 중국어에 비해 양적으로 부족한 부분이 많다.\n그러다보니 배우고 싶은게 있다면 영어나 중국어를 통해 배우거나, 그런 지식이나 노하우가 있는지조차 모르고 넘어가는 경우도 많다.\n단적인 예로 프로그래밍 기술들이 그렇다.\n코틀린은 이제 타입스크립트와 더불어서 다양한 분야에서 적극적으로 활용되는 프로그래밍 언어다.\n안드로이드 개발자분들은 훨씬 전부터 자바에서 코틀린으로 주력 언어를 교체하였고,\n백엔드 서버 개발자분들 역시 자바-스프링 조합에서 코틀린-스프링 조합을 계속해서 늘려나가고 있다.\n코틀린 멀티플랫폼 (Kotlin Multiplatform, KMP) 으로 다양한 운영체제에서 실행되는 애플리케이션을 개발하는 사례도 조금씩 생기고 있다.\n언어의 관심과 점유율은 계속해서 증가하지만, 실제 커뮤니티 활성화는 그렇지 않다.\n국내에는 코틀린을 주제로 한 수천명이 모이는 행사가 없다.\nAI 컨퍼런스 혹은 직무에 대한 컨퍼런스는 천명이상 규모도 종종 개최되지만 코틀린이나 타입스크립트 등은 그런 대형 컨퍼런스의 소주제로 일부 세션을 담당하는 정도이다.\n웹/앱 서비스의 대부분이 코틀린과 타입스크립트로 통일 되는 상황이라는게 믿기지 않을정도로 국내의 커뮤니티는 활성화되어있지 않다.\n그런 커뮤니티를 직접적으로 이끌 운영진들도 필요하고,\n해당 기술이 회사의 핵심 Key라고 생각해서 컨퍼런스를 후원하는 큰 회사들도 있어야 한다.\n하지만 국내에서는 어렵다.\n그나마 스프링은 예전부터 KSUG라는 핵심 커뮤니티가 활성화 되어있기에 매년 서로의 경험을 공유할 수 있는 자리가 있다.\n이 외 기술에 대해서는 대형 벤더사의 기술 (애플, 안드로이드 등) 을 다루는 커뮤니티가 아니라면 거의 없다.\n그러다보니 인터넷을 통해, 사내 동료들을 통해 배우거나 소식을 전달받는 것이 현재의 코틀린 학습 방법이 된다.\n반면, 해외는 그렇지 않다.\nKotlinConf 뿐만 아니라 Spring I/O, Spring One, FigmaConfig, NextConifg 등 전세계의 전문가들이 모여서 그들의 경험을 매년 공유하고 있다.\n코틀린 언어를 만든 젯브레인이 매년 개최하는 KotlinConf는 전세계의 수많은 코틀린 개발자들이 지식과 경험을 나누는 세계 최대의 코틀린 컨퍼런스이다.\n올해 개최된 KotlinConf 2025 는 코펜하겐에서 진행되었다.\n한국에서 참여하기에는 너무나 어렵다.\n국내에서는 기초 자료 외에는 거의 찾아보기도 힘든 Ktor, KMP (Kotlin Multiplatform, KMP), Kotlin In AI Agent 에 대한 풍부한 실전 사례나 Compose, Coroutine 에 대한 실전 최적화 노하우 등이 공유되고 있다.\nKotlin Worst Practices — How to Maximize Your Hassle 세션은 지금 당장 얻어갈 수 있는 Kotlin 에서 좋은 코드를 작성하는 방법들이 공유되는데 이건 초급~중급 개발자분들 모두가 알아두면 좋은 내용들이었다.\n그 외에도 전세계 수많은 개발팀이 Kotlin을 다양한 분야에서 글로벌 트래픽안에서 사용하면서 발생하는 수많은 문제들을 해결한 노하우를 올해도 전파했다.\n누구는 지구 반대편에서 글로벌한 트래픽 경험 내에서 코틀린 사용 경험과 새로운 기술에 대한 발표와 토론을 나누고 있고,\n누구는 GPT와 공식 문서로만 배우고 있다면 이건 불평등 하지 않나? 라는 생각이 들었다.\n인프런의 비전은 \"성장 기회의 평등\" 이다.\n우린 누구에게나 성장 기회 자체는 평등하게 제공하고 싶다.\n제공했는데 선택하지 않는 것은 우리 몫이 아니지만, 최소한 기회는 평등하게 주고 싶다.\n우린 중국, 미국과는 다르다.\n그러니깐 콘텐츠 번역에 집중해야한다고 생각했다.\n젯브레인과는 예전부터 인연이 있었다.\n젯브레인 한국 사용자 모임\n젯브레인 컨퍼런스 발표\nIntelliJ IDEA 강의\n등을 살려 젯브레인에 연락을 했다.\n올해 개최된 \"KotlinConf 2025를 한국어로 번역과 더빙을 해서 인프런에서 모두에게 무료로 공유하고 싶다\"고.\n앞으로도 젯브레인이 공유하는 수많은 글로벌 노하우와 지식들은 계속해서 인프런에서 한국의 개발자들을 위해 제공하고 싶다고.\n감사하게도 젯브레인측에서는 젯브레인의 콘텐츠에 대해서 한국어 독점을 인프런이 할 수 있게 해주셨다.\n한국어/일본어/베트남어로 자막과 더빙을 생성하고 많은 검수를 마치고 드디어 Kotlin Conf 2025를 오픈하게 되었다.\n인프런 - KotlinConf 2025\n\"전세계의 수많은 코틀린 개발자들은 이런것들을 고민하고 있구나\"\n\"코틀린 내 여러 생태계들의 최적화는 이런식으로 하는구나\"\n\"한국에서 생소한 이 기술이 해외에서는 이미 많이들 쓰고 있구나\"\n등 정말로 좋은 주제의 세션들이 많다.\n이걸 이제 국내의 개발자분들께 제공할 수 있게 되어서 너무나 기쁘다.\n물론 \"번역, 더빙에 들어가는 비용, 공수 등이 있는데 수익화가 전혀 안되는 이 작업을 왜 하는가?\" 에 대한 질문도 받았다.\n그렇지만, \"우리가 아니면 이걸 할 곳이 있을까?\" 하는 생각이 제일 컸다.\n어찌되었든 한국어로 된 지식 공유는 한계가 있고, 글로벌로 공유되는 노하우와 지식에서 자꾸 국내는 멀어지는 것을 해결해야 한다는 생각이 강하게 있어서 손실 비용에 대해서는 감수하기로 했다.\n글로벌과 국내가 멀어지는 현상은 젯브레인과의 협업만으로 해결할 수는 없다.\n더 많은 글로벌 기업과 지식 공유에 있어 협업을 할 예정이다.\nSpring One, Spring/IO, Figma Config, Next.js Config 등 전세계에서 열리는 수많은 컨퍼런스들을 원하는 장소에서 원하는 언어로, 가장 편한 방법으로 경험할 수 있게 하고 싶다.\n이 생태계에 정말 큰 족적을 남기고 싶다.",
+    "title": "토스, 넵튠과 ‘HTML5 게임 챌린지’ 개최",
+    "description": "HTML5 게임 개발자라면 누구나 도전하세요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/840",
-    "pubDate": "Tue, 29 Jul 2025 08:23:35 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "kotlinconf2025",
-      "젯브레인",
-      "코틀린",
-      "코틀린 성능 개선",
-      "코틀린 최적화",
-      "코틀린 컨퍼런스"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "토스, 토스 앱에 ‘Apple Hub’ 출시\n ",
-    "description": "Apple Services 구매∙구독 내역 통합 관리",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/appleHub",
-    "pubDate": "Wed, 30 Jul 2025 15:00:00 GMT",
+    "link": "https://toss.im/tossfeed/article/HTML5",
+    "pubDate": "Tue, 29 Jul 2025 16:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 3,
+    "id": 2,
     "imageUrl": "",
-    "title": "Rust vs. Java: Choosing the right tool for your next project",
-    "description": "Rust and Java couldn’t be any more different. One is a battle-tested giant with enterprise-scale use cases. The other is a relative newbie with a rapidly growing community and real-world applications.  While Rust is praised for its focus on safety and performance, its complexity presents a challenge to adopters (arguably, the steep learning curve is […]",
+    "title": "non-raid구성+raid 구성을 위해 VMD Controller 부분적으로 활성화하기",
+    "description": "여차저차 해서 결국 970 EVO 1TB가 2개 남는 상황이 됐다. 이미 메인 데스크탑은 990Pro 2TB에 OS와 필요한 어플들 설치를 끝낸 상황이므로 이건 그대로 두고 970EVO 2개를 raid로 묶어서 추가하고 싶다. 990 Pro에 OS설치할 때는 먼저 사용하던 RAID를 해제하고(VMD Controller 비활성화) AHCI모드로 돌려놓은 상태에서 990 pro에 Windows를 설치했었다. 이 상태에서 SSD 2개를 추가해서 RAID묶겠다고 VMD Controller를 … More non-raid구성+raid 구성을 위해 VMD Controller 부분적으로 활성화하기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2025/08/01/rust-vs-java/",
-    "pubDate": "Fri, 01 Aug 2025 13:19:57 +0000",
-    "creator": "Tatiana Parshutkina",
+    "link": "https://megayuchi.com/2025/07/30/non-raid%ea%b5%ac%ec%84%b1raid-%ea%b5%ac%ec%84%b1%ec%9d%84-%ec%9c%84%ed%95%b4-vmd-controller-%eb%b6%80%eb%b6%84%ec%a0%81%ec%9c%bc%eb%a1%9c-%ed%99%9c%ec%84%b1%ed%99%94%ed%95%98%ea%b8%b0/",
+    "pubDate": "Wed, 30 Jul 2025 10:18:42 +0000",
+    "creator": "megayuchi",
     "categories": [
-      "articles-2",
-      "news",
-      "java",
-      "rust"
+      "IT",
+      "Pub",
+      "컴퓨터일반",
+      "RAID",
+      "ssd",
+      "Windows"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Smarter AI Edits in Visual Studio Copilot",
+    "description": "When we first set out to get smarter AI edits in Visual Studio Copilot, we knew we were tackling a deeply complex problem. It wasn’t just about generating great suggestions—it was about figuring out how to seamlessly apply those suggestions to your code. While the idea seemed simple at first glance, the reality was anything […]\nThe post Smarter AI Edits in Visual Studio Copilot appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/smarter-ai-edits-in-visual-studio-copilot/",
+    "pubDate": "Thu, 31 Jul 2025 12:00:42 +0000",
+    "creator": "Jessie Houghton, Oscar Obeso, Rhea Patel",
+    "categories": [
+      "Copilot",
+      "GitHub Copilot",
+      "Visual Studio",
+      "AI Agents",
+      "GitHub Copilot Chat"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "복권 연대기: 행운을 사고 팔던 기록",
-    "description": "내가 산 복권 한 장, 나라 살림엔 얼마나 보탬이 될까?",
+    "title": "VIM 꼼수의 발견 - 12th",
+    "description": "vim 명령 모드에서는 운영체제 명령어를 실행할 수 있다.\n\n\n\n\n\n\n그리고 치환 모드에서는 awk를 불러올 수 있다. 월별 발생량 집계.\n\n\n\n\n\n\n프로세스별 발생량 집계.\n\n\n\n\n\n메시지별 발생량 집계.\n\n\n\n\n\n정규표현식이 익숙치 않을 때 대안으로 쓰기엔 정규표현식보다 더 복잡해 보이는데(..)\n\n\n관련 글\n\n\nVIM 꼼수의 발견 - 11th\nVIM 꼼수의 발견\nVIM 사용 설명서\nVIM vs AWK\napache log to iis format",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/behindthemoney-12",
-    "pubDate": "Thu, 31 Jul 2025 10:44:00 GMT",
+    "link": "https://kangmyounghun.blogspot.com/2025/08/vim-12th.html",
+    "pubDate": "2025-08-03T06:30:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "내가 가본 우리나라 - 지도 색칠 놀이",
+    "description": "코로나 이후 몇 년간 지방 여행을 많이 했습니다.\n1년 365일 중 약 120일 정도를 여행 다닐 정도로 이 도시 저 도시 많이 가서 지내봤습니다.\n우리나라 지방 여행도 참 좋더군요.\n평생 서울에서만 살던 제가, 이곳 저곳 다녀보면서 여행한 장소들을 기록하고 싶다는 생각을 했는데, 이번에 웹사이트로 한 번 만들어봤습니다.\n이름은 내가 가본 우리나라\n다녀온 곳을 색칠하는 단순한 사이트지만… 색칠하는 재미가 있습니다.\n커뮤니티에 공개했더니 순식간에 1,500 명이 넘는 분들이 가입해 주셔서 놀랐습니다.\n아무도 안 써도 그냥 제가 혼자 쓸려고 했거든요.\n이제 사용자 분들이 생겨버렸으니 열심히 운영하고 기능 개선도 해봐야겠죠.?\n여기에서 해볼 수 있습니다. 제가 그동안 다녀온 곳들도 공개해 봅니다.\n\n내가 가본 우리나라\n\n함께 읽으면 좋은 글:\n웹개발은 나의 약점",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/08/01/my-korea-map.html",
+    "pubDate": "2025-08-01T07:06:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Watch Live: Visual Studio Toolbox at VS LIVE! Redmond 2025",
+    "description": "Join Robert Green and Leslie Richardson for a full day of live sessions, demos, and interviews. Live from Microsoft HQ – Stream Tuesday’s Sessions with Visual Studio Toolbox! On Tuesday, August 5, join us for a special edition of Visual Studio Toolbox Live—broadcast from VS LIVE! Redmond and hosted by Leslie Richardson and Robert Green. […]\nThe post Watch Live: Visual Studio Toolbox at VS LIVE! Redmond 2025 appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/watch-live-visual-studio-toolbox-at-vs-live-redmond-2025/",
+    "pubDate": "Tue, 29 Jul 2025 15:28:53 +0000",
+    "creator": "Jim Harrer",
+    "categories": [
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "블랜더 리깅 해보자",
+    "description": "영상: https://www.youtube.com/watch?v=66y6xnTYBeY\n\n\n\n \n뻐량 오브젝트가 동시에 안보여서 이영상 저영상 보다보니\nIn Fomt 를 해줘야하는군요\n이 영상이 도움이 되었습니다.\n \n뼈 심어 봅시다.\n \n팁 - 빼 바꿔가며 웨이트 칠하기\n\n\n4.0 부터는 단축키가 바꼈다고 합니다.\n칠을하다 뼈를 바꾸고 싶으면\n뼈위에서 shift + ctrl + 좌클릭 을 하면 뼈를 바꿀 수 있습니다.\n\n\n아 빠르다\n \n \n팁2 - 모델에 뼈 붙이기\n영상: https://www.youtube.com/shorts/w29pAeH_xvU\n\n\n\n영상은 ctrl + p 를 이용해 모델에 뼈를 붙이고 자동으로 weight 를 설정하는 방법을 보여줍니다.\n저는 모델은 그대로 두고 뼈 위치만 바꾸고 싶었는데 그냥 옮기면 모델도 변형이 일어납니다.\n1. 그래서 모델과 뼈를 분리한 후에\n    a. 모델에서 모디파이어를 본다.\n    b. 아마추어 라고 하나 있는데 x 버튼을 눌러 제가한다.\n    c. 뼈와 연결이 제거 됩니다.\n2. 뼈를 옮기고\n3. 모델에 뼈를 다시 붙이기를 애햐합니다.\n    a. object mode 로 간다.\n    b. 모델을 선택하고 shift 누르고 뼈 선택\n    c. ctrl + p 누르고 아마추어 위드 웨이트 오토 인가 그거 누르면 다시 뼈가 붙습니다.\n이때 도움이 된 영상입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1368",
+    "pubDate": "Thu, 31 Jul 2025 15:55:34 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "블랜더"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "일 평균 30억 건을 처리하는 결제 시스템의 DB를 Vitess로 교체하기 - 2. 개발 및 운영기",
+    "description": "들어가며안녕하세요. LINE Billing Platform 개발 팀의 김영재, 이정재입니다. LINE Billing Platform 개발 팀에서는 LINE 앱 내 여러 서비스에서 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/migrate-payment-system-db-to-vitess-2",
+    "pubDate": "Fri, 01 Aug 2025 09:15:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "중국 배달 전쟁",
+    "description": "비상식적인 내부 경쟁으로 어마어마한 배달 주문이 벌어지고 있다고 합니다.\n정상기업이라면 경쟁에서 나와서 다른 곳을 갈법한데\n이것들은 서로 가격을 낮추네요\n3개의 기업이 남을때까지 경쟁할 모양인거 같습니다.\n이럴때는 쉬었다가 \n다 끝나고 다시 영업하면 되지 않나 싶군요\n \n영상: https://www.youtube.com/watch?v=Q8JR9acxUwE\n\n\n\n배달기사는 배달만하면 돈을 버는데\n가게에서 만들어 낼 수가 없어서\n가게 들어가 직접 만들어 배달 해버린다고 하네요 ㅋ\n(이게 무슨일이야)\n신나는 나라 입니당",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1369",
+    "pubDate": "Sun, 3 Aug 2025 18:01:33 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "중국"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "What’s New with Mellum: Expanded Language Support and New Ways to Use it Locally",
+    "description": "This summer, we’re making Mellum, our code completion model, easier for developers to use locally, and we’re introducing support for more languages than ever. Here’s what’s new: Mellum-all – now on Hugging Face We’ve just released Mellum-all, the next open-source installation of Mellum, which has been trained to support all major programming languages. Earlier Mellum […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/07/whats-new-with-mellum-expanded-language-support-and-new-ways-to-use-it-locally/",
+    "pubDate": "Thu, 31 Jul 2025 13:57:54 +0000",
+    "creator": "Conrad Schwellnus",
+    "categories": [
+      "ai-assistant",
+      "features",
+      "jetbrains-ai",
+      "news",
+      "releases",
+      "mellum"
+    ]
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "Helping Students Get Unstuck: AI-Based Hints for Online Learning",
     "description": "In online learning environments, tasks can often stump students, which can be challenging to navigate since teachers can’t always be there to help. Our Education Research team develops innovative features for education tools and recently built a smart AI-based hints tool that provides personalized feedback for students who might need help solving tasks. This tool […]",
@@ -80,54 +166,7 @@
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "토스플레이스, 프론트 단말기로 ‘민생회복 소비쿠폰’ 사용처 한눈에",
-    "description": "토스프론트 단말기에서 민생회복 소비쿠폰 사용도 가능",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/placecoupon",
-    "pubDate": "Sun, 27 Jul 2025 15:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Resizable Bar & D3D12 GPU Upload Heaps",
-    "description": "이전에 한번 발표했던 D3D12 GPU Upload Heaps 주제에 대해서 자료를 보강해서 최근에 다시 기술방송을 진행했습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://megayuchi.com/2025/07/27/resizable-bar-d3d12-gpu-upload-heaps/",
-    "pubDate": "Sun, 27 Jul 2025 02:50:50 +0000",
-    "creator": "megayuchi",
-    "categories": [
-      "Development",
-      "D3D12",
-      "DIrectX",
-      "DirectX12",
-      "DX12",
-      "Game Development",
-      "Game Engine Development",
-      "GPU"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "나는 이 아이를 본적이 있어요!! - 프린세스 메이커: 예언의 아이들",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2337",
-    "pubDate": "Tue, 29 Jul 2025 19:42:05 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 9,
+    "id": 12,
     "imageUrl": "",
     "title": "느긋히 섬을 꾸미며 힐링, 아일랜더스: 새로운 해안",
     "description": "No description available",
@@ -141,19 +180,7 @@
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "2025년 하반기부터 달라지는 정책 총정리: 국가장학금부터 3단계 스트레스 DSR까지",
-    "description": "알아두면 돈이 되는 정책 9가지를 소개합니다",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-47",
-    "pubDate": "Wed, 30 Jul 2025 07:02:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
+    "id": 13,
     "imageUrl": "",
     "title": "The Laravel Idea Plugin is Now Free for PhpStorm Users",
     "description": "Starting July 30, 2025, we’re making Laravel Idea free for PhpStorm users. If you already have the Laravel Idea plugin installed, you get full access to all plugin features at no extra cost. Laravel Idea is the smartest Laravel development environment based on PhpStorm. Developed by Adel Faizrakhmanov, the plugin has 1.5M+ downloads from JetBrains […]",
@@ -169,67 +196,27 @@
     ]
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Introducing TeamCity Recipes: Reusable CI/CD Building Blocks",
-    "description": "Build steps are often repeated over and over – within a single project or team, or even across a whole organization. These patterns tend to get copy-pasted, manually adapted, and maintained in parallel. This can lead to inconsistencies and extra maintenance work. With the latest TeamCity release, we’re addressing that problem head-on. Say hello to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/07/introducing-teamcity-recipes/",
-    "pubDate": "Thu, 31 Jul 2025 12:23:21 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "marketplace",
-      "news",
-      "teamcity-2",
-      "jetbrains-marketplace"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2339",
-    "pubDate": "Wed, 30 Jul 2025 13:13:05 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
     "id": 14,
     "imageUrl": "",
-    "title": "[MULTI] 싱글·멀티 다 잡은 쌍수호박 무협 오픈월드, 연운",
-    "description": "No description available",
+    "title": "토스, 토스 앱에 ‘Apple Hub’ 출시\n ",
+    "description": "Apple Services 구매∙구독 내역 통합 관리",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2338",
-    "pubDate": "Wed, 30 Jul 2025 12:04:16 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "프리뷰"
-    ]
+    "link": "https://toss.im/tossfeed/article/appleHub",
+    "pubDate": "Wed, 30 Jul 2025 15:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "non-raid구성+raid 구성을 위해 VMD Controller 부분적으로 활성화하기",
-    "description": "여차저차 해서 결국 970 EVO 1TB가 2개 남는 상황이 됐다. 이미 메인 데스크탑은 990Pro 2TB에 OS와 필요한 어플들 설치를 끝낸 상황이므로 이건 그대로 두고 970EVO 2개를 raid로 묶어서 추가하고 싶다. 990 Pro에 OS설치할 때는 먼저 사용하던 RAID를 해제하고(VMD Controller 비활성화) AHCI모드로 돌려놓은 상태에서 990 pro에 Windows를 설치했었다. 이 상태에서 SSD 2개를 추가해서 RAID묶겠다고 VMD Controller를 … More non-raid구성+raid 구성을 위해 VMD Controller 부분적으로 활성화하기",
+    "title": "프로그래밍책 - SuperSocketLite를 이용한 C# 네트워크 프로그래밍. 1장 시작하기",
+    "description": "도서: SuperSocketLite를 이용한 C# 네트워크 프로그래밍. \n1장 시작하기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://megayuchi.com/2025/07/30/non-raid%ea%b5%ac%ec%84%b1raid-%ea%b5%ac%ec%84%b1%ec%9d%84-%ec%9c%84%ed%95%b4-vmd-controller-%eb%b6%80%eb%b6%84%ec%a0%81%ec%9c%bc%eb%a1%9c-%ed%99%9c%ec%84%b1%ed%99%94%ed%95%98%ea%b8%b0/",
-    "pubDate": "Wed, 30 Jul 2025 10:18:42 +0000",
-    "creator": "megayuchi",
-    "categories": [
-      "IT",
-      "Pub",
-      "컴퓨터일반",
-      "RAID",
-      "ssd",
-      "Windows"
-    ]
+    "link": "https://jacking75.github.io/book_supersocketlite_20250803/",
+    "pubDate": "Sun, 03 Aug 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
