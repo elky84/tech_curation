@@ -2,29 +2,34 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "느긋히 섬을 꾸미며 힐링, 아일랜더스: 새로운 해안",
-    "description": "No description available",
+    "title": "Kotlin DSL: What’s New?",
+    "description": "In the last few TeamCity releases, we made some improvements to the Kotlin DSL. This is a summary of these enhancements. Custom path for Kotlin DSL files TeamCity has always had strict requirements regarding the directory location for Kotlin DSL files. It insisted on saving the files under the .teamcity directory, which had some drawbacks. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2341",
-    "pubDate": "Sat, 02 Aug 2025 22:57:54 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/teamcity/2025/08/kotlin-dsl-what-s-new/",
+    "pubDate": "Tue, 05 Aug 2025 13:57:48 +0000",
+    "creator": "Pavel Sher",
     "categories": [
-      "게임툰"
+      "kotlin",
+      "news"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "25.08.03 - 아를의 평원, 캐슬 콤보",
-    "description": "게임을 하면서 사진을 잘 안찍어서 사진은 많지 않지만 간단히라도 평을 남겨보려고 한다. 아를의 평원 우베 로젠버그의 게임으로 2인 전용이고 확장을 넣으면 3인까지 할 수 있다. 아를이란 지역을 개발하여 여러 건물을 올리고 농사를 짖고 교역을 하면서 건물을 짖고 여행도 가고 하면서 점수를 모으면 된다. 여기저기 마이너스 점수가 있고 채우면 없어진다. 황무지를 개간하면 토탄이란 개념이 나오는데 그냥 석탄이라고 이해하면 편하다. 평소엔 잘 쓰지않는 단어지만 난 게임을 하면서 몇번 들었던 적이 있어서 어색하진 않았으나 처음듣는 사람은 그게 뭔데 ? 할 수 있다. 맨날 먹는 우베의 그런 맛이지만 역시 맛있는 그런 느낌이다. 와.......",
+    "title": "IntelliJ IDEA 2025.2 Is Here!",
+    "description": "IntelliJ IDEA 2025.2 brings powerful updates to help you stay productive, write better code, and confidently adopt the latest technologies. You can download this version from our website, update directly from within the IDE, use the free Toolbox App, or install it via snap packages for Ubuntu. This blog post gives you a quick overview […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/223957607677?fromRss=true&trackingCode=rss",
-    "pubDate": "Sun, 03 Aug 2025 21:55:07 +0900",
-    "creator": "dlehddus84",
+    "link": "https://blog.jetbrains.com/idea/2025/08/intellij-idea-2025-2/",
+    "pubDate": "Mon, 04 Aug 2025 17:08:31 +0000",
+    "creator": "Maria Kosukhina",
     "categories": [
-      "플레이"
+      "news",
+      "releases",
+      "2025-2",
+      "intellij-idea",
+      "intellij-idea-2025-2"
     ]
   },
   {
@@ -54,60 +59,19 @@
   {
     "id": 4,
     "imageUrl": "",
-    "title": "나는 이 아이를 본적이 있어요!! - 프린세스 메이커: 예언의 아이들",
+    "title": "[MULTI] 사일런트 힐 f, 전투 시스템 및 공물과 퍼즐…먹느냐 바치느냐",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2337",
-    "pubDate": "Tue, 29 Jul 2025 19:42:05 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2340",
+    "pubDate": "Fri, 01 Aug 2025 16:02:59 +0900",
+    "creator": "샤말란의눈",
     "categories": [
-      "게임툰"
+      "프리뷰"
     ]
   },
   {
     "id": 5,
-    "imageUrl": "",
-    "title": "토스, 토스 앱에 ‘Apple Hub’ 출시\n ",
-    "description": "Apple Services 구매∙구독 내역 통합 관리",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/appleHub",
-    "pubDate": "Wed, 30 Jul 2025 15:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2339",
-    "pubDate": "Wed, 30 Jul 2025 13:13:05 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "블랜더 리깅 해보자",
-    "description": "영상: https://www.youtube.com/watch?v=66y6xnTYBeY\n\n\n\n \n뻐량 오브젝트가 동시에 안보여서 이영상 저영상 보다보니\nIn Fomt 를 해줘야하는군요\n이 영상이 도움이 되었습니다.\n \n뼈 심어 봅시다.\n \n팁 - 빼 바꿔가며 웨이트 칠하기\n\n\n4.0 부터는 단축키가 바꼈다고 합니다.\n칠을하다 뼈를 바꾸고 싶으면\n뼈위에서 shift + ctrl + 좌클릭 을 하면 뼈를 바꿀 수 있습니다.\n\n\n아 빠르다\n \n \n팁2 - 모델에 뼈 붙이기\n영상: https://www.youtube.com/shorts/w29pAeH_xvU\n\n\n\n영상은 ctrl + p 를 이용해 모델에 뼈를 붙이고 자동으로 weight 를 설정하는 방법을 보여줍니다.\n저는 모델은 그대로 두고 뼈 위치만 바꾸고 싶었는데 그냥 옮기면 모델도 변형이 일어납니다.\n1. 그래서 모델과 뼈를 분리한 후에\n    a. 모델에서 모디파이어를 본다.\n    b. 아마추어 라고 하나 있는데 x 버튼을 눌러 제가한다.\n    c. 뼈와 연결이 제거 됩니다.\n2. 뼈를 옮기고\n3. 모델에 뼈를 다시 붙이기를 애햐합니다.\n    a. object mode 로 간다.\n    b. 모델을 선택하고 shift 누르고 뼈 선택\n    c. ctrl + p 누르고 아마추어 위드 웨이트 오토 인가 그거 누르면 다시 뼈가 붙습니다.\n이때 도움이 된 영상입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1368",
-    "pubDate": "Thu, 31 Jul 2025 15:55:34 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "블랜더"
-    ]
-  },
-  {
-    "id": 8,
     "imageUrl": "",
     "title": "DataGrip and Database tools UX Survey #2 Results",
     "description": "Introduction Hello, DataGrip community! We’re back with the results of our second UX Survey. It’s been nearly a year since the first one, and thanks to your feedback, we’ve made some significant improvements to enhance your experience with DataGrip and Database tools. What was done based on the previous survey: And much more! Check out […]",
@@ -123,56 +87,7 @@
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "읽고 끝내는 자기계발서는 이제 그만! ChatGPT와 함께 나만의 워크북 만들기",
-    "description": "책을 '읽는 행위'에서 '실천하는 습관'으로! ChatGPT를 활용해 나만의 자기계발 워크북을 만드는 구체적인 방법을 소개합니다. 더 이상 책장에 꽂아두지만 말고, 내 삶의 변화를 위한 첫걸음을 시작해보세요.\n\n\n \n자기계발서, 좋아하시나요? 저도 참 좋아하는데요, 좋은 문장을 발견하면 밑줄을 긋고, 메모하고, 혼자 감탄까지 하죠. 근데 이상하게도, 그렇게 열심히 읽은 책들이 제 삶을 진짜로 바꿔줬던 적은 별로 없었던 것 같아요. 오히려 시간이 지나면 어떤 책을 읽었는지 가물가물해질 때가 더 많더라고요.  \n그러던 어느 날, 우연히 유튜브에서 \"책은 읽는 게 아니라 써야 내 것이 된다. 워크북을 만들어 보세요\"라는 한 크리에이터의 말을 듣게 됐습니다. 이 한마디가 머릿속을 쾅! 하고 울렸달까요? 그래서 저는 그날부터 책 속 문장들을 바탕으로 나만의 실천 워크북을 ChatGPT와 함께 만들기 시작했어요.\n1. 책의 핵심 문장을 정리하기  \n가장 먼저 시작한 책은 김민식 PD님의 베스트셀러, 《매일 아침 써봤니》였어요. 책 전체를 요약하려는 부담은 내려놓고, 제가 정말 인상 깊게 읽은 문장들만 따로 모았죠. 종이책이라면 포스트잇이나 밑줄, 사진 찍기를 활용해도 좋고, 전자책은 밀리의 서재나 리디북스의 메모 기능으로 하이라이트를 정리할 수 있어서 편해요.\n이렇게 모은 문장들을 가지고 ChatGPT에게 이렇게 말했어요. \"제가 밑줄 친 문장을 각 장별로 3가지 핵심 포인트로 요약해 주세요.\" 챕터별로 깔끔하게 정리된 요약을 받아보니, 그 안에서 실천 아이디어로 확장할 수 있을 만한 포인트들이 하나둘씩 눈에 들어오기 시작했습니다. 진짜 신기하더라고요!\n2. 감명 깊은 문장에서 실천 아이디어 뽑아내기  \n책을 읽으며 가장 마음에 남았던 문장은 바로 \"글을 쓰는 사람은 매일 자신을 편집해 나가는 사람이다.\"였어요. 이 문장을 보는 순간, '나도 매일 나를 조금씩 편집할 수 있을까?' 하는 생각이 들었죠. 그래서 바로 ChatGPT에게 이렇게 물어봤습니다.\n  ChatGPT 프롬프트 예시\n\"이 문장(‘글을 쓰는 사람은 매일 자신을 편집해 나가는 사람이다’)을 바탕으로 제가 일상에서 실천할 수 있는 3가지 방법을 알려주세요.\"\n그 결과 나온 제안들은 정말 현실적이었어요. 예를 들어, '하루 한 문장으로 나를 돌아보는 글 써보기', 'SNS 대신 5분간 일기 쓰기', '하루를 마무리하며 \"오늘 내가 가장 자랑스러운 선택은?\"이라고 스스로에게 질문하기' 같은 아이디어였죠. 이렇게 얻은 아이디어들을 바탕으로 자연스럽게 워크북에 넣을 질문과 과제들이 만들어지기 시작했습니다.\n3. 연습 문제는 다양하게 구성하기 ✨\n꾸준히 실천하려면 한 가지 형식보다는 여러 형식의 연습 문제를 섞는 게 좋아요. 제가 주로 사용한 대표적인 형식들을 표로 정리해봤습니다.\n문제 형식\n예시\n\n\n\n\n반성 질문 (Reflection)\n\"나는 어떤 글을 쓸 때 가장 내 마음에 솔직한가요?\"\n\n\n미니 프로젝트 (Mini Project)\n\"하루 5분, ‘감정 일기’ 실험해보기\"\n\n\n습관 추적기 (Habit Tracker)\n\"일주일간 글쓰기 습관 체크리스트 만들어보기\"\n\n\n시각화 질문 (Visualization)\n\"3개월 동안 매일 글을 쓴 나의 모습을 상상해보세요.\"\n\n\n\n이런 질문들은 단순한 ‘독서’를 넘어, 나 자신과 마주보게 하는 대화의 도구가 되어줍니다. 책의 내용을 내 삶으로 끌어당기는 힘이 생기는 거죠.  \n4. 한 챕터만 골라도 충분합니다  \n처음부터 책 전체를 다 워크북으로 만들려고 하면 정말 부담스럽잖아요. 그래서 저는 한 챕터씩, 딱 하나의 문장만 골라 연습 문제를 만들기 시작했습니다. 예를 들어 《매일 아침 써봤니》 중 ‘아침 루틴과 글쓰기’에 대한 챕터를 골라 이렇게 구성해봤어요.\n  실천 워크북 챕터 구성 예시\n핵심 아이디어: 아침은 하루 중 가장 순수한 시간이다.\n반성하기: 나는 아침을 어떻게 보내고 있는가?\n실천하기: 내일 아침 10분만 '마음 흘려쓰기' 실험하기\n기록하기: 7일간 아침 글쓰기 실천 결과 기록지 만들기\n이런 식으로 핵심 → 시도 → 반성 → 추적의 흐름을 따라가면 어떤 책이든 워크북 형식으로 재구성할 수 있습니다. 한 챕터만 완벽하게 내 것으로 만들어도 충분한 성과가 되잖아요.\n5. 나만의 워크북 만들기 (Google Docs 활용)  \n완성된 질문과 과제들은 Google Docs에 정리했어요. 노션(Notion)이나 티스토리 비공개 글 등 편한 도구를 활용하면 됩니다. 제 워크북의 구성은 대략 이랬어요.\n표지: 책 제목과 '나만의 성장 노트'\n시작 노트: 왜 이 책을 선택했고, 무엇을 실천하고 싶은지\n챕터별 연습 문제: 질문 + 실천 + 추적 템플릿\n중간 점검 페이지: \"지금까지 잘한 점은?\", \"아직 어려운 점은?\"\n마무리 편지: \"이 책을 읽고, 나는 이렇게 변했다.\", \"앞으로 무엇을 지속하고 싶은가?\"\nChatGPT에게 \"이 내용을 예쁘게 정리된 워크북 형식으로 만들어주세요 (Google Docs용)\"이라고 요청하면 서식 구성도 도와주니 참고해 보세요!\n \n마무리하며: 책은 곧 도구입니다  ️\n예전엔 책을 다 읽으면 배움도 끝났다고 생각했어요. 하지만 지금은 책을 다 읽은 순간이 진짜 실천의 시작점이 된다는 걸 깨달았죠. 책장에 꽂힌 책이 아니라, 손에 들고 직접 '쓰는' 책이 되어야 하니까요.\n하이라이트 한 줄, 인상적인 문장 하나면 충분합니다. 그걸 ChatGPT에게 보여주고, 질문을 던져보세요. 그 작은 문장이 여러분의 삶에 생각지 못한 작은 변화를 일으킬 수 있습니다. 책이 책장에 꽂혀 있기만 한다면, 너무 아깝지 않을까요? 지금 한 챕터만 골라서, 워크북으로 꺼내보세요. 저처럼 분명히 새로운 ‘무언가’가 시작될 거예요.  \n \n \nChatGPT와 함께 워크북 만들기\n✨ 핵심 문장 정리: 책 전체가 아닌, 인상 깊은 문장만 추려보세요!\n  실천 아이디어 확장: \"내가 일상에서 실천할 수 있는 방법\"을 ChatGPT에게 물어보세요.\n  다양한 문제 구성:\n반성 질문, 미니 프로젝트, 습관 추적기, 시각화 질문 등\n  부담 없이 시작: 한 챕터씩만 골라 연습 문제를 만들어봐도 충분해요!\n책을 '읽기'에서 '쓰기'로 바꿔 당신의 성장을 편집하세요.\n \n자주 묻는 질문 ❓\nQ: 워크북을 만드는 데 꼭 ChatGPT를 써야 하나요?\nA: 꼭 필요한 건 아니지만, ChatGPT는 실천 아이디어를 구체화하고 다양한 연습 문제를 만드는 데 큰 도움을 줄 수 있습니다. 혼자 고민하는 시간을 줄이고, 아이디어를 빠르게 확장하는 좋은 도구죠.\nQ: 워크북을 만들 책은 어떻게 고르는 게 좋을까요?\nA: 가장 좋아하는 책, 혹은 최근에 읽으면서 '이거다!' 하고 감명 깊었던 문장이 있는 책으로 시작해 보세요. 처음부터 부담 없이 시작하는 것이 가장 중요합니다.\nQ: 책 전체를 다 다뤄야 한다는 부담이 있어요.\nA: 굳이 책 전체를 다 다룰 필요는 없습니다. 글에서 제안한 것처럼, 가장 인상 깊은 한 챕터나 문장만 골라 워크북을 만들어도 충분한 효과를 볼 수 있어요. 작게 시작해 보세요!\n\n\n\n    {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"FAQPage\",\n        \"mainEntity\": [\n            {\n                \"@type\": \"Question\",\n                \"name\": \"워크북을 만드는 데 꼭 ChatGPT를 써야 하나요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  꼭 필요한 건 아니지만, ChatGPT는 실천 아이디어를 구체화하고 다양한 연습 문제를 만드는 데 큰 도움을 줄 수 있습니다. 혼자 고민하는 시간을 줄이고, 아이디어를 빠르게 확장하는 좋은 도구죠.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"워크북을 만들 책은 어떻게 고르는 게 좋을까요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  가장 좋아하는 책, 혹은 최근에 읽으면서 '이거다!' 하고 감명 깊었던 문장이 있는 책으로 시작해 보세요. 처음부터 부담 없이 시작하는 것이 가장 중요합니다.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"책 전체를 다 다뤄야 한다는 부담이 있어요.\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  굳이 책 전체를 다 다룰 필요는 없습니다. 글에서 제안한 것처럼, 가장 인상 깊은 한 챕터나 문장만 골라 워크북을 만들어도 충분한 효과를 볼 수 있어요. 작게 시작해 보세요!\"\n                }\n            }\n        ]\n    }",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483631",
-    "pubDate": "Fri, 1 Aug 2025 16:11:41 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "chatgpt 활용",
-      "글쓰기",
-      "독서법",
-      "성장",
-      "습관",
-      "실천",
-      "워크북",
-      "자기계발",
-      "자기계발서"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Watch Live: Visual Studio Toolbox at VS LIVE! Redmond 2025",
-    "description": "Join Robert Green and Leslie Richardson for a full day of live sessions, demos, and interviews. Live from Microsoft HQ – Stream Tuesday’s Sessions with Visual Studio Toolbox! On Tuesday, August 5, join us for a special edition of Visual Studio Toolbox Live—broadcast from VS LIVE! Redmond and hosted by Leslie Richardson and Robert Green. […]\nThe post Watch Live: Visual Studio Toolbox at VS LIVE! Redmond 2025 appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/watch-live-visual-studio-toolbox-at-vs-live-redmond-2025/",
-    "pubDate": "Tue, 29 Jul 2025 15:28:53 +0000",
-    "creator": "Jim Harrer",
-    "categories": [
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "독일 스타트업 생태계 분석 - 유럽 최대 시장에서 성공하는 법",
-    "description": "독일은 유럽에서 가장 강력한 경재력을 가진 국가이자, 스타트업 혁신의 중심지입니다. 특히 베를린은 세계적으로 주목받는 창업 도시 중 하나로, 핀테크 / 클린테크 / 모빌리티 분야의 선도 허브입니다. 안정적인 산업 기반, 유럽 전역으로 확장 가능한 시장, 강력한 정부 지원정책 덕분에 글로벌 스타트업에게 매력적인 기회를 제공합니다. 이번 포스팅에서는 독일 스타",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/302",
-    "pubDate": "Thu, 31 Jul 2025 03:00:10 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 12,
+    "id": 6,
     "imageUrl": "",
     "title": "토스, ‘2025 토스 NEXT 개발자 챌린지’ 접수 시작 ",
     "description": "총 5개 분야에서 경력 3년 이하 개발자 최대 50명 영입 목표",
@@ -184,50 +99,137 @@
     "categories": []
   },
   {
-    "id": 13,
+    "id": 7,
     "imageUrl": "",
-    "title": "WebStorm 2025.2: TypeScript-Go Language Server Support, Baseline Support, Bun Improvements, and More",
-    "description": "Our second major release of 2025 is here! This release introduces various new features and addresses several challenges. Key improvements include experimental TypeScript-Go language server support, Baseline support, Bun improvements, and a range of essential updates. Starting with this release, we’ll be including noteworthy features from minor updates in our main release blog posts. Since […]",
+    "title": "PhpStorm 2025.2 Is Now Available",
+    "description": "Along with making Laravel Idea free for PhpStorm users, this release brings improvements to the remote development experience, JetBrains AI tools, and more. Download PhpStorm 2025.2 Junie coding agent MCP support  Support for the Model Context Protocol (MCP) allows you to connect Junie to external sources like databases, file systems, and APIs. You can now […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/webstorm/2025/08/webstorm-2025-2/",
-    "pubDate": "Mon, 04 Aug 2025 12:52:49 +0000",
-    "creator": "David Watson",
+    "link": "https://blog.jetbrains.com/phpstorm/2025/08/phpstorm-2025-2-is-now-available/",
+    "pubDate": "Tue, 05 Aug 2025 13:45:17 +0000",
+    "creator": "Hanna Yakush",
+    "categories": [
+      "releases",
+      "2025-2",
+      "release"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "중국 배달 전쟁",
+    "description": "비상식적인 내부 경쟁으로 어마어마한 배달 주문이 벌어지고 있다고 합니다.\n정상기업이라면 경쟁에서 나와서 다른 곳을 갈법한데\n이것들은 서로 가격을 낮추네요\n3개의 기업이 남을때까지 경쟁할 모양인거 같습니다.\n이럴때는 쉬었다가 \n다 끝나고 다시 영업하면 되지 않나 싶군요\n \n영상: https://www.youtube.com/watch?v=Q8JR9acxUwE\n\n\n\n배달기사는 배달만하면 돈을 버는데\n가게에서 만들어 낼 수가 없어서\n가게 들어가 직접 만들어 배달 해버린다고 하네요 ㅋ\n(이게 무슨일이야)\n신나는 나라 입니당",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1369",
+    "pubDate": "Sun, 3 Aug 2025 18:01:33 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "중국"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "JetBrains AI Assistant Update: Better Context, Greater Offline Flexibility, Deeper IDE Integration",
+    "description": "JetBrains AI Assistant just got a major upgrade, giving you smarter completions, better project understanding, and more control over how AI works in your IDE. Smarter code completion: more languages, model flexibility, and better context-awareness With ongoing improvements to our Mellum model and smarter context collection via RAG, AI completion now provides more relevant results […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/08/jetbrains-ai-assistant-2025-2/",
+    "pubDate": "Mon, 04 Aug 2025 15:06:55 +0000",
+    "creator": "Anna Maltseva",
+    "categories": [
+      "ai-assistant",
+      "ai-in-ides"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "CLion 2025.2 Is Here: Better CLion Nova, Smarter Embedded Development",
+    "description": "CLion 2025.2 is now available. This latest version of the JetBrains IDE for C and C++ includes the following key updates: You can download CLion 2025.2 from the link below, via the Toolbox App, as a snap package if you’re using Ubuntu, or via a patch update from version 2025.1. DOWNLOAD CLION 2025.2 CLion Nova […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/clion/2025/08/clion-2025-2-release/",
+    "pubDate": "Tue, 05 Aug 2025 11:24:01 +0000",
+    "creator": "Oleg Zinovyev",
     "categories": [
       "news",
       "releases",
-      "webstorm-2025-2"
+      "aiassistant",
+      "clionnova",
+      "debug-servers",
+      "esp32",
+      "live-watches",
+      "release"
     ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "토스, 토스 앱에 ‘Apple Hub’ 출시\n ",
+    "description": "Apple Services 구매∙구독 내역 통합 관리",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/appleHub",
+    "pubDate": "Wed, 30 Jul 2025 15:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "RustRover 2025.2 Is Now Available",
+    "description": "This version introduces major debugger enhancements, including remote and on-chip support, a new color scheme, improved borrow checker assistance, additional Rust learning resources, and more. RustRover goes AI Junie, the in-IDE coding agent, is now 30% faster, connects to external sources via MCP, and supports remote development. AI Assistant adds even smarter code completion for […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2025/08/05/rustrover-2025-2-is-now-available/",
+    "pubDate": "Tue, 05 Aug 2025 15:19:01 +0000",
+    "creator": "Kseniya Starodubtseva",
+    "categories": [
+      "releases",
+      "rustrover"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "복권 연대기: 행운을 사고 팔던 기록",
+    "description": "내가 산 복권 한 장, 나라 살림엔 얼마나 보탬이 될까?",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/behindthemoney-12",
+    "pubDate": "Thu, 31 Jul 2025 10:44:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "non-raid구성+raid 구성을 위해 VMD Controller 부분적으로 활성화하기",
-    "description": "여차저차 해서 결국 970 EVO 1TB가 2개 남는 상황이 됐다. 이미 메인 데스크탑은 990Pro 2TB에 OS와 필요한 어플들 설치를 끝낸 상황이므로 이건 그대로 두고 970EVO 2개를 raid로 묶어서 추가하고 싶다. 990 Pro에 OS설치할 때는 먼저 사용하던 RAID를 해제하고(VMD Controller 비활성화) AHCI모드로 돌려놓은 상태에서 990 pro에 Windows를 설치했었다. 이 상태에서 SSD 2개를 추가해서 RAID묶겠다고 VMD Controller를 … More non-raid구성+raid 구성을 위해 VMD Controller 부분적으로 활성화하기",
+    "title": "전세계 정세는 종교전쟁 상태다 / 미국 중국 러시아 유럽",
+    "description": "영상: https://www.youtube.com/watch?v=S2anQSQ6eeg\n\n\n\n \n민주주의와 조차 종교입니자. 기독교조 천주교가 여기에 포함되는지는 잘 모르겠습니다.\n중국은 민주주의가 아니죠 기독교도 아닙니다.\n그래서 미국이 조지는 중이구요\n현재는 돈으로 조질 수 있지만 커지면 진짜 전쟁을 해야할 수도 있습니다.\n \n유럽은 러시아 독일이 기독교에 가깝다고 합니다.\n영국 프랑스는 이슬랑에 가깝다고 합니다.\n지금은 혼내주기 위해 독일을 무장시키지만\n \n사긴이 더 걸려서 결국 이슬람을 선택한다면 \n미국도 더 많은 선을 넘게 될 것입니다.\n \n이슬람 문화가 풍요롭게 한건 딱히 없지만\n우성과 열성을 따져볼때 우성일 수도 있기 때문에 조심하려나 봅니다.\n \n미국이 기를 쓰고 막는데도 이슬람화를 막을 수 없다면 우성이 맞다고 보이네요\n국제 정세가 이렇게 전개되다니 놀랍습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://megayuchi.com/2025/07/30/non-raid%ea%b5%ac%ec%84%b1raid-%ea%b5%ac%ec%84%b1%ec%9d%84-%ec%9c%84%ed%95%b4-vmd-controller-%eb%b6%80%eb%b6%84%ec%a0%81%ec%9c%bc%eb%a1%9c-%ed%99%9c%ec%84%b1%ed%99%94%ed%95%98%ea%b8%b0/",
-    "pubDate": "Wed, 30 Jul 2025 10:18:42 +0000",
-    "creator": "megayuchi",
+    "link": "http://serverdown.tistory.com/1370",
+    "pubDate": "Tue, 5 Aug 2025 22:04:07 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "IT",
-      "Pub",
-      "컴퓨터일반",
-      "RAID",
-      "ssd",
-      "Windows"
+      "유튜브",
+      "국제"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "싱가포르 스타트업 성공 전략 - 아시아 창업 허브의 비밀",
-    "description": "싱가포르는 동남아시아 스타트업 생태계의 중심지로, 세계에서 가장 창업 친화적인 국가 중 하나로 꼽힙니다. 낮은 법인세, 글로벌 금융 허브, 영어 사용 환경, 그리고 정부 주도의 강력한 스타트업 지원정책 덕분에 아시아는 물론 글로벌 스타트업들이 싱가포르를 베이스캠프로 삼고 있습니다. 이번 포스팅에서는 싱가포르 스타트업 생태계의 특징, 주요 산업, 정부 지원정",
+    "title": "느긋히 섬을 꾸미며 힐링, 아일랜더스: 새로운 해안",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/303",
-    "pubDate": "Fri, 01 Aug 2025 03:00:11 GMT",
-    "creator": "고명환",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2341",
+    "pubDate": "Sat, 02 Aug 2025 22:57:54 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
   }
 ]
