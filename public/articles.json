@@ -2,50 +2,121 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "cctv 에 찍힌 귀신 영상",
-    "description": "썸네일은 관계 없는거 들고 왔구요\n진짜로 무섭습니다.\n심약하신분은 안보시는게 좋습니다.\n이거 기억 자꾸 나면 길 걷기도 힘듭니다.\n \n영상: https://youtu.be/nC_0i2onolo?t=682\n\n\n\n11분부터 개 깜놀합니다.",
+    "title": "Make Your Ideas Clickable With Kineto by JetBrains",
+    "description": "While developing a website or an app, you’ll encounter loads of technical challenges that need to be solved – from how to code the functionality to how to host it. Delivering even a simple to-do app requires a hefty technology stack, a team of professionals, and hours of testing and maintenance. This is the reason […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1371",
-    "pubDate": "Wed, 6 Aug 2025 07:05:13 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/kineto/2025/08/make-your-ideas-clickable-with-kineto-by-jetbrains/",
+    "pubDate": "Tue, 05 Aug 2025 12:02:59 +0000",
+    "creator": "Andrew Zakonov",
     "categories": [
-      "유튜브",
-      "귀신영상"
+      "news",
+      "eap"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "What’s Fixed in IntelliJ IDEA 2025.2",
-    "description": "Welcome to the first-ever standalone What’s Fixed overview of an IntelliJ IDEA release! We are always working hard to make the IDE even more stable, reliable, and enjoyable to use. In previous releases, information about this work was blended into the What’s New content, making it very long and sometimes hard to grasp. To address […]",
+    "title": "[MULTI] 더 영화적인 이야기와 연출의 발전, 마피아 : 올드 컨트리",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/08/whats-fixed-intellij-idea-2025-2/",
-    "pubDate": "Wed, 06 Aug 2025 10:39:05 +0000",
-    "creator": "Dmitriy Smirnov",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2344",
+    "pubDate": "Thu, 07 Aug 2025 21:00:21 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "news",
-      "releases",
-      "2025-2",
-      "intellij-idea",
-      "intellij-idea-2025-2"
+      "리뷰"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "싱가포르 스타트업 성공 전략 - 아시아 창업 허브의 비밀",
-    "description": "싱가포르는 동남아시아 스타트업 생태계의 중심지로, 세계에서 가장 창업 친화적인 국가 중 하나로 꼽힙니다. 낮은 법인세, 글로벌 금융 허브, 영어 사용 환경, 그리고 정부 주도의 강력한 스타트업 지원정책 덕분에 아시아는 물론 글로벌 스타트업들이 싱가포르를 베이스캠프로 삼고 있습니다. 이번 포스팅에서는 싱가포르 스타트업 생태계의 특징, 주요 산업, 정부 지원정",
+    "title": "Ollama 에서 Gemma 3 사용하기",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/303",
-    "pubDate": "Fri, 01 Aug 2025 03:00:11 GMT",
-    "creator": "고명환",
+    "link": "https://jacking75.github.io/ai-llm_20250804/",
+    "pubDate": "Mon, 04 Aug 2025 00:00:00 +0900",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 4,
+    "imageUrl": "",
+    "title": "GPT-5 출시! 유료,무료 요금제별 사용 제한과 새로운 기능 총정리",
+    "description": "챗GPT의 새로운 시대, GPT-5 완벽 분석    GPT-5의 혁신적인 특징과 함께, 우리가 실제로 체감할 수 있는 변화들을 알기 쉽게 정리해봤습니다. 이 글만 읽어도 GPT-5 전문가가 될 수 있을 거예요!\n\n\n \n 오픈AI의 차세대 플래그십 모델인 GPT-5가 출시되었습니다. 기존의 여러 모델들의 장점을 하나로 통합한 똑똑하고 빠른 모델이라고 하니, 기대가 정말 큽니다.\n이번 포스트에서는 GPT-5가 어떤 새로운 기능과 변화를 가지고 왔는지, 그리고 유료/무료 사용자별로 어떤 차이가 있는지, 벤치마크 성능은 얼마나 뛰어난지 등 여러분이 궁금해할 만한 모든 내용을 꼼꼼하게 정리해봤습니다. 그럼 GPT-5의 세계로 함께 빠져볼까요?  \n \nGPT-5, 무엇이 달라졌을까?  \nGPT-5는 단순히 성능이 좋아진 모델을 넘어, 사용자의 요청에 따라 스스로 최적의 방법을 찾아내는 '통합 시스템'으로 진화했습니다. 하나의 모델 안에서 일반 대화에는 빠른 'Chat' 모드가, 복잡한 문제에는 심층적인 'Thinking' 모드가 자동으로 전환되는 방식이죠. 복잡한 코딩, 과학 문제, 데이터 분석 같은 작업에선 Thinking 모드가 스스로 더 깊이 생각해서 답변의 정확도를 높여준다고 하네요.\n이러한 똑똑한 판단은 우리가 모델을 수동으로 선택하거나, 모델의 답변이 얼마나 정확했는지에 대한 피드백을 학습해서 이뤄진다고 합니다. GPT-5는 속도와 정확도 모두 대폭 개선되었고, 가장 똑똑하고 신뢰할 수 있는 모델로 평가받고 있어요.\n  GPT-5의 '사고 과정' 알아보기!\nGPT-5의 Thinking 모델은 답변을 하기 전에 내부적으로 '사고 과정'을 먼저 생성합니다. 이 과정에서 스스로 전략을 점검하고, 실수를 인식하며, 안전 규칙을 지키도록 훈련되었어요. 덕분에 사용자의 유도나 우회 시도에도 흔들리지 않고 더 유용하고 신뢰성 높은 답변을 내놓을 수 있습니다.\n \n벤치마크로 보는 GPT-5의 압도적 성능  \nGPT-5는 다양한 벤치마크에서 이전 모델들을 압도하는 성능을 보여줬습니다. 특히 복잡한 추론과 문제 해결 능력을 평가하는 벤치마크에서 두각을 나타냈는데요.\n벤치마크\n성능 기록\n비고\n\n\n\n\nHuman Last Exam\n42%\n이전 모델 대비 크게 향상\n\n\nSWE Bench\n74.9%\n코딩 능력의 혁신적 발전\n\n\nARC-AGI-2\n1위 (Grok-4 제외)\n추론 능력과 효율성 테스트\n\n\n\n특히 LMArena의 모든 카테고리에서 1위를 기록했다는 소식은 정말 놀라웠어요. 텍스트, 웹 개발, 이미지 처리, 수학, 창의력 등 분야를 가리지 않고 최고의 성능을 입증했죠. 내부 테스트에서도 'summit'이라는 코드명으로 역대 최고 점수를 받았다고 하니, 괜히 플래그십 모델이 아니라는 생각이 들었습니다.\n⚠️ 주의하세요!\nGPT-5는 복잡한 대화에서 기만적인 행동을 억제하도록 훈련되었지만, 여전히 안전 장치(guardrails)를 준수해야 합니다. 악용 사례(데이터 자동 추출, 계정 공유, 재판매 등)에 대해서는 언제든지 일시적 사용 제한이 있을 수 있습니다.\n \nGPT-5의 요금제별 사용 제한 및 특징  \nGPT-5의 강력한 기능은 챗GPT의 다양한 요금제에 따라 조금씩 다르게 적용됩니다. 무료 사용자와 유료 사용자(Plus, Pro, Team)의 사용 제한 및 모델 선택 옵션에 대해 자세히 알아볼게요.\n요금제\n메시지 제한 (GPT-5)\n모델 선택\n추가 혜택\n\n\n\n\nChatGPT Free\n5시간마다 10개\nGPT-5 Thinking 1회/일\n-\n\n\nChatGPT Plus\n3시간마다 80개\nGPT-5, GPT-5 Thinking 선택 가능 (Thinking은 주 200회 제한)\n \n\n\nChatGPT Pro/Team\n무제한 (악용 방지 정책 적용)\nGPT-5, GPT-5 Thinking, GPT-5 Thinking Pro 선택 가능\n무제한 사용\n\n\n\n여기서 주목할 점은 GPT-5가 하나의 모델이 아니라, 여러 모델(gpt-5-main, gpt-5-thinking, mini, nano, pro 등)로 구성된 통합 시스템이라는 거예요. 기존의 GPT-4o, o3, o4-mini 모델들이 이 시스템 안으로 재편되었다고 보시면 됩니다.\nGPT-5의 컨텍스트 윈도우는 최대 40만 토큰까지 지원하고, 지식 컷오프는 2024년 9월입니다. 미니나 나노 모델은 2024년 5월 지식을 반영하고 있으니 참고하면 좋겠네요.\n \nGPT-5, 이제 다양한 곳에서 만날 수 있어요  \n놀라운 소식은 GPT-5가 챗GPT뿐만 아니라 다양한 플랫폼에서 무료로 제공되고 있다는 점이에요. 현재 Cursor, 마이크로소프트 코파일럿, 퍼플렉시티에서 GPT-5를 무료로 사용해볼 수 있습니다. 젠스파크에서는 GPT-5 PRO까지 사용 가능하다고 하니, 다양한 환경에서 직접 경험해보는 것도 좋은 방법일 것 같습니다.\n  제3자 플랫폼에서 먼저 만나는 이유\nAI 회사들은 수억 명의 사용자를 고려해 자사 앱에 바로 적용하기보다 API를 통해 안전하고 점진적으로 모델을 출시하는 전략을 사용합니다.\n반면 Perplexity나 젠스파크 같은 제3자 플랫폼은 여러 AI 모델을 유연하게 연결하는 구조를 갖추고 있어, 새로운 API가 공개되자마자 빠르게 통합하여 사용자에게 제공할 수 있습니다.\nGPT-5가 출시되면서 기존 모델들이 단계적으로 은퇴합니다. GPT-4o, GPT-4.1, GPT-4.5, o4-mini 등이 이에 해당하는데요. 만약 기존 대화창을 열면 자동으로 GPT-5의 가장 유사한 버전으로 전환된다고 하니, 예전 대화를 이어갈 때 답변이 달라질 수 있다는 점을 염두에 두어야 해요.\nGPT-5는 웹 검색, 데이터 분석, 이미지 분석, 파일 분석, 캔버스, 이미지 생성, 메모리, 맞춤 지침 등 챗GPT의 모든 도구를 제한 없이 지원합니다.\n \n음성 모델의 대대적인 업그레이드!  ️\nGPT-5와 함께 챗GPT의 음성 모델도 대폭 개선되었어요. 이제 더 자연스럽고 똑똑하게 대화할 수 있게 되었는데요. 특히 가장 큰 변화는 GPTs에서 고급 음성 모델을 바로 사용할 수 있게 되었다는 점입니다.\n커스텀 지침을 기반으로 한 음성 모드 사용이 가능해지면서, 외국어 연습이나 특정 분야의 튜터링 등 다양한 활용 사례가 등장할 것으로 예상됩니다. 무료 사용자도 음성 대화가 가능해졌고, 유료 사용자(Plus)는 사실상 무제한에 가깝게 이용할 수 있다고 하니, 정말 유용한 기능이 될 것 같아요! 참고로, 현재 보이스 모드는 여전히 GPT-4o 기반이라고 합니다.\n \nAPI 가격과 모델 상세 정보  \nGPT-5의 API 가격은 꽤 합리적으로 책정된 것 같아요. 100만 토큰 기준으로 모델별 가격을 정리해보겠습니다.\n모델\n입력(Input)\n출력(Output)\n\n\n\n\nGPT-5\n$1.25\n$10.00\n\n\nGPT-5-mini\n$0.25\n$2.00\n\n\nGPT-5-nano\n$0.05\n$0.40\n\n\n\n\n  핵심 모델 정보\n모델 버전: 4가지 버전 (GPT-5, mini, nano, chat)\n학습 데이터: 공개 인터넷 정보, 협력 파트너 자료, 사용자/연구원 제공 데이터\n지식 컷오프: GPT-5는 2024년 9월, mini/nano는 2024년 5월\n컨텍스트 윈도우: 최대 40만 토큰\n \n \n \nGPT-5: 혁신을 넘어선 진화의 핵심\n✨ 통합 시스템: 챗과 추론 모드를 실시간으로 자동 전환하여 복잡한 작업에 최적화된 답변을 제공합니다.\n  압도적 성능: Human Last Exam 42%, SWE Bench 74.9% 등 주요 벤치마크에서 역대 최고 성능을 기록했습니다.\n  안전성 강화:\nsafe-completions 훈련을 통해 환각, 아첨 감소 및 기만 방지 성능을 높였습니다.\n ‍  접근성 확장: Cursor, 코파일럿, 퍼플렉시티 등에서 무료 사용이 가능해졌고, GPTs에서 음성 모델을 바로 활용할 수 있습니다.\nGPT-5는 단순히 성능을 개선한 것이 아닌, AI의 새로운 활용 방식을 제시합니다.\n자주 묻는 질문 ❓\nQ: GPT-5가 무료로 제공되나요?\nA: 네, ChatGPT의 무료 계정에서도 일부 메시지 제한과 함께 GPT-5를 사용할 수 있습니다. 또한, Cursor, 마이크로소프트 코파일럿, 퍼플렉시티 등 일부 외부 플랫폼에서도 무료로 이용 가능합니다.\nQ: GPT-5를 쓰려면 별도로 선택해야 하나요?\nA: 유료 요금제 사용자(Plus, Pro, Team)는 모델 선택기에서 GPT-5를 수동으로 선택할 수 있습니다. 하지만 기본적으로는 모든 로그인 사용자에게 새로운 GPT-5가 기본 모델로 자동 적용됩니다.\nQ: GPT-5 Thinking 모드는 무엇인가요?\nA: GPT-5가 복잡한 요청에 대해 답변하기 전에 더 깊은 추론을 적용하는 모드입니다. 코딩, 과학, 금융 분석 등 정밀한 분석이 필요한 작업에 특히 유용하며, 유료 요금제 사용자에게 제공됩니다.\nQ: GPT-5 출시로 기존 대화가 사라지나요?\nA: 아니요, 기존 대화는 그대로 유지됩니다. 다만, 이전 모델을 사용했던 대화창을 열 경우 자동으로 GPT-5의 가장 유사한 모델로 전환되어 이어서 대화하게 됩니다.\n \n오늘은 이렇게 GPT-5에 대해 자세히 알아보았는데요. 사실 GPT-5의 등장은 단순한 기술 발전이 아니라, 우리가 AI를 활용하는 방식 자체를 한 단계 끌어올리는 중요한 계기가 될 것 같아요. 특히 복잡한 문제 해결이나 창의적인 작업에서 얼마나 놀라운 결과를 보여줄지 정말 기대가 됩니다.\n\n\n\n.single-summary-card-container {\nfont-family: 'Noto Sans KR', sans-serif;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\npadding: 20px 10px;\nbackground-color: #fce4ec;\nmargin: 20px 0;\n}\n.single-summary-card {\nwidth: 100%;\nmax-width: 700px;\nbackground-color: #ffffff;\nborder-radius: 12px;\nbox-shadow: 0 6px 18px rgba(0,0,0,0.12);\npadding: 25px;\ndisplay: flex;\nflex-direction: column;\noverflow: hidden;\nborder: 1px solid #ce93d8;\nbox-sizing: border-box;\nheight: auto;\nmin-height: unset;\n}\n.single-summary-card .card-header {\ndisplay: flex;\nalign-items: center;\nborder-bottom: 2px solid #8e24aa;\npadding-bottom: 12px;\nmargin-bottom: 12px;\n}\n.single-summary-card .card-header-icon {\nfont-size: 34px;\ncolor: #8e24aa;\nmargin-right: 14px;\n}\n.single-summary-card .card-header h3 {\nfont-size: 26px;\ncolor: #8e24aa;\nmargin: 0;\nline-height: 1.3;\nfont-weight: 700;\n}\n.single-summary-card .card-content {\nflex-grow: 1;\ndisplay: flex;\nflex-direction: column;\njustify-content: space-around;\nfont-size: 17px;\nline-height: 1.65;\ncolor: #444;\n}\n.single-summary-card .card-content .section {\nmargin-bottom: 10px;\n}\n.single-summary-card .card-content strong {\ncolor: #7b1fa2;\nfont-weight: 600;\n}\n.single-summary-card .card-content .highlight {\nbackground-color: #fff9c4;\npadding: 2px 6px;\nborder-radius: 3px;\nfont-weight: bold;\n}\n.single-summary-card .card-content .formula {\nbackground-color: #f3e5f5;\npadding: 6px 10px;\nborder-radius: 4px;\nfont-size: 0.9em;\ntext-align: center;\nmargin-top: 5px;\ncolor: #4a148c;\n}\n.single-summary-card .card-footer {\nfont-size: 14px;\ncolor: #777;\ntext-align: center;\npadding-top: 12px;\nborder-top: 1px dashed #e1bee7;\nmargin-top: auto;\n}\n@media (max-width: 768px) {\n.single-summary-card {\npadding: 18px;\nheight: auto;\nmin-height: unset;\n}\n.single-summary-card .card-header-icon {\nfont-size: 30px;\nmargin-right: 10px;\n}\n.single-summary-card .card-header h3 {\nfont-size: 22px;\n}\n.single-summary-card .card-content {\nfont-size: 15px;\nline-height: 1.6;\n}\n.single-summary-card .card-content .section {\nmargin-bottom: 8px;\n}\n.single-summary-card .card-content .formula {\npadding: 5px 8px;\nfont-size: 0.9em;\n}\n.single-summary-card .card-footer {\nfont-size: 13px;\npadding-top: 10px;\n}\n}\n@media (max-width: 480px) {\n.single-summary-card {\npadding: 15px;\n}\n.single-summary-card .card-header-icon {\nfont-size: 28px;\n}\n.single-summary-card .card-header h3 {\nfont-size: 20px;\n}\n.single-summary-card .card-content {\nfont-size: 14px;\nline-height: 1.55;\n}\n.single-summary-card .card-content .section {\nmargin-bottom: 6px;\n}\n.single-summary-card .card-content .formula {\npadding: 4px 6px;\nfont-size: 0.8em;\n}\n.single-summary-card .card-footer {\nfont-size: 12px;\npadding-top: 8px;\n}\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483637",
+    "pubDate": "Fri, 8 Aug 2025 08:11:34 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "gpt-5",
+      "GPT-5 가격",
+      "GPT-5 기능",
+      "GPT-5 벤치마크",
+      "GPT-5 사용법",
+      "GPT-5 성능",
+      "GPT-5 음성",
+      "인공지능",
+      "챗GPT",
+      "챗gpt 요금제"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "RustRover 2025.2 Is Now Available",
+    "description": "This version introduces major debugger enhancements, including remote and on-chip support, a new color scheme, improved borrow checker assistance, additional Rust learning resources, and more. RustRover goes AI Junie, the in-IDE coding agent, is now 30% faster, connects to external sources via MCP, and supports remote development. AI Assistant adds even smarter code completion for […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2025/08/05/rustrover-2025-2-is-now-available/",
+    "pubDate": "Tue, 05 Aug 2025 15:19:01 +0000",
+    "creator": "Kseniya Starodubtseva",
+    "categories": [
+      "releases",
+      "rustrover"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "숨은 알짜 대명화학,패션&middot;물류&middot;항공까지 통합한 지주회사 - 스타트업",
+    "description": "제조기업인 줄 알았던 대명화학, 알고 보니 브랜드 플랫폼 대명화학은 이름만 들으면 전통적인 화학 제조기업처럼 들립니다. 하지만 이 기업의 진짜 정체는 지분투자를 기반으로 한 브랜드 인큐베이팅형 지주회사입니다. 코웰패션, 로젠택배, 에어로케이, K-뷰티 유통사 모스트까지 다양한 산업을 수직 계열화하며 안정적인 수익 기반과 폭발적인 성장성을 동시에 확보해가고",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/305",
+    "pubDate": "Thu, 07 Aug 2025 03:00:06 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Nginx 설정 통합과 Loki 연동으로 설계한 유연한 멀티사이트 아키텍처",
+    "description": "들어가며안녕하세요. LINE NEXT DevOps 팀에서 일하고 있는 이동원이라고 합니다. 현재 쿠버네티스 기반의 인프라 운영과 유지 보수, CI/CD 구축, 로그 수집 및 모니터...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/flexible-multi-site-architecture-with-integrated-nginx-configuration-and-loki",
+    "pubDate": "Thu, 07 Aug 2025 06:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "GoLand 2025.2 Is Now Out!",
+    "description": "GoLand 2025.2 introduces updates for working with HTTP servers, smarter inspections powered by data flow analysis (DFA), and a new non-blocking Welcome screen. This release also brings significant quality improvements to golangci-lint support, including version 2, making the integration more robust for real-time code analysis. Let’s take a closer look at all the new additions […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2025/08/05/goland-2025-2-is-now-out/",
+    "pubDate": "Tue, 05 Aug 2025 12:22:27 +0000",
+    "creator": "Artem Pronichev",
+    "categories": []
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "Building a human-computer interface for everyone",
     "description": "What if you could control any device using only subtle hand movements? New research from Meta’s Reality Labs is pointing even more firmly toward wrist-worn devices using surface electromyography (sEMG) becoming the future of human-computer interaction. But how do you develop a wrist-worn input device that works for everyone? Generalization has been one of the [...]\nRead More...\nThe post Building a human-computer interface for everyone appeared first on Engineering at Meta.",
@@ -63,65 +134,24 @@
     ]
   },
   {
-    "id": 5,
+    "id": 10,
     "imageUrl": "",
-    "title": "Make Your Ideas Clickable With Kineto by JetBrains",
-    "description": "While developing a website or an app, you’ll encounter loads of technical challenges that need to be solved – from how to code the functionality to how to host it. Delivering even a simple to-do app requires a hefty technology stack, a team of professionals, and hours of testing and maintenance. This is the reason […]",
+    "title": "AI Assistant, Junie and Kineto Now Support GPT-5 by OpenAI",
+    "description": "At JetBrains, we are committed to delivering the best technologies to professional developers. We support multiple LLM providers across our AI products to ensure you have access to the right tools for your needs and the freedom to choose the ones you prefer. Today, we’re excited to announce that the latest model from OpenAI, GPT-5, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kineto/2025/08/make-your-ideas-clickable-with-kineto-by-jetbrains/",
-    "pubDate": "Tue, 05 Aug 2025 12:02:59 +0000",
-    "creator": "Andrew Zakonov",
+    "link": "https://blog.jetbrains.com/blog/2025/08/07/gpt-5-support-in-ai-assistant-junie-kineto/",
+    "pubDate": "Thu, 07 Aug 2025 17:00:07 +0000",
+    "creator": "Anna Maltseva",
     "categories": [
       "news",
-      "eap"
+      "ai-assistant",
+      "ai-in-ides",
+      "junie"
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "PhpStorm 2025.2 Is Now Available",
-    "description": "Along with making Laravel Idea free for PhpStorm users, this release brings improvements to the remote development experience, JetBrains AI tools, and more. Download PhpStorm 2025.2 Junie coding agent MCP support  Support for the Model Context Protocol (MCP) allows you to connect Junie to external sources like databases, file systems, and APIs. You can now […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/08/phpstorm-2025-2-is-now-available/",
-    "pubDate": "Tue, 05 Aug 2025 13:45:17 +0000",
-    "creator": "Hanna Yakush",
-    "categories": [
-      "releases",
-      "2025-2",
-      "release"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "복권 연대기: 행운을 사고 팔던 기록",
-    "description": "내가 산 복권 한 장, 나라 살림엔 얼마나 보탬이 될까?",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/behindthemoney-12",
-    "pubDate": "Thu, 31 Jul 2025 10:44:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "RustRover 2025.2 Is Now Available",
-    "description": "This version introduces major debugger enhancements, including remote and on-chip support, a new color scheme, improved borrow checker assistance, additional Rust learning resources, and more. RustRover goes AI Junie, the in-IDE coding agent, is now 30% faster, connects to external sources via MCP, and supports remote development. AI Assistant adds even smarter code completion for […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2025/08/05/rustrover-2025-2-is-now-available/",
-    "pubDate": "Tue, 05 Aug 2025 15:19:01 +0000",
-    "creator": "Kseniya Starodubtseva",
-    "categories": [
-      "releases",
-      "rustrover"
-    ]
-  },
-  {
-    "id": 9,
+    "id": 11,
     "imageUrl": "",
     "title": "Kotlin Notebook Meets IntelliJ Platform: Advancing IDE Plugin Development",
     "description": "The value of extensibility The ability to extend and customize software, from game mods to browser extensions, gives users a sense of freedom and the chance to bring their ideas to life. JetBrains IDEs already provide this sense of freedom through their support for plugins. For some time now, creating plugins for JetBrains IDEs has […]",
@@ -140,69 +170,7 @@
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "블랜더 리깅 해보자",
-    "description": "영상: https://www.youtube.com/watch?v=66y6xnTYBeY\n\n\n\n \n뻐량 오브젝트가 동시에 안보여서 이영상 저영상 보다보니\nIn Fomt 를 해줘야하는군요\n이 영상이 도움이 되었습니다.\n \n뼈 심어 봅시다.\n \n팁 - 빼 바꿔가며 웨이트 칠하기\n\n\n4.0 부터는 단축키가 바꼈다고 합니다.\n칠을하다 뼈를 바꾸고 싶으면\n뼈위에서 shift + ctrl + 좌클릭 을 하면 뼈를 바꿀 수 있습니다.\n\n\n아 빠르다\n \n \n팁2 - 모델에 뼈 붙이기\n영상: https://www.youtube.com/shorts/w29pAeH_xvU\n\n\n\n영상은 ctrl + p 를 이용해 모델에 뼈를 붙이고 자동으로 weight 를 설정하는 방법을 보여줍니다.\n저는 모델은 그대로 두고 뼈 위치만 바꾸고 싶었는데 그냥 옮기면 모델도 변형이 일어납니다.\n1. 그래서 모델과 뼈를 분리한 후에\n    a. 모델에서 모디파이어를 본다.\n    b. 아마추어 라고 하나 있는데 x 버튼을 눌러 제가한다.\n    c. 뼈와 연결이 제거 됩니다.\n2. 뼈를 옮기고\n3. 모델에 뼈를 다시 붙이기를 애햐합니다.\n    a. object mode 로 간다.\n    b. 모델을 선택하고 shift 누르고 뼈 선택\n    c. ctrl + p 누르고 아마추어 위드 웨이트 오토 인가 그거 누르면 다시 뼈가 붙습니다.\n이때 도움이 된 영상입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1368",
-    "pubDate": "Thu, 31 Jul 2025 15:55:34 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "블랜더"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "내가 가본 우리나라 - 지도 색칠 놀이",
-    "description": "코로나 이후 몇 년간 지방 여행을 많이 했습니다.\n1년 365일 중 약 120일 정도를 여행 다닐 정도로 이 도시 저 도시 많이 가서 지내봤습니다.\n우리나라 지방 여행도 참 좋더군요.\n평생 서울에서만 살던 제가, 이곳 저곳 다녀보면서 여행한 장소들을 기록하고 싶다는 생각을 했는데, 이번에 웹사이트로 한 번 만들어봤습니다.\n이름은 내가 가본 우리나라\n다녀온 곳을 색칠하는 단순한 사이트지만… 색칠하는 재미가 있습니다.\n커뮤니티에 공개했더니 순식간에 1,500 명이 넘는 분들이 가입해 주셔서 놀랐습니다.\n아무도 안 써도 그냥 제가 혼자 쓸려고 했거든요.\n이제 사용자 분들이 생겨버렸으니 열심히 운영하고 기능 개선도 해봐야겠죠.?\n여기에서 해볼 수 있습니다. 제가 그동안 다녀온 곳들도 공개해 봅니다.\n\n내가 가본 우리나라\n\n함께 읽으면 좋은 글:\n웹개발은 나의 약점",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/08/01/my-korea-map.html",
-    "pubDate": "2025-08-01T07:06:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 12,
-    "imageUrl": "",
-    "title": "읽고 끝내는 자기계발서는 이제 그만! ChatGPT와 함께 나만의 워크북 만들기",
-    "description": "책을 '읽는 행위'에서 '실천하는 습관'으로! ChatGPT를 활용해 나만의 자기계발 워크북을 만드는 구체적인 방법을 소개합니다. 더 이상 책장에 꽂아두지만 말고, 내 삶의 변화를 위한 첫걸음을 시작해보세요.\n\n\n \n자기계발서, 좋아하시나요? 저도 참 좋아하는데요, 좋은 문장을 발견하면 밑줄을 긋고, 메모하고, 혼자 감탄까지 하죠. 근데 이상하게도, 그렇게 열심히 읽은 책들이 제 삶을 진짜로 바꿔줬던 적은 별로 없었던 것 같아요. 오히려 시간이 지나면 어떤 책을 읽었는지 가물가물해질 때가 더 많더라고요.  \n그러던 어느 날, 우연히 유튜브에서 \"책은 읽는 게 아니라 써야 내 것이 된다. 워크북을 만들어 보세요\"라는 한 크리에이터의 말을 듣게 됐습니다. 이 한마디가 머릿속을 쾅! 하고 울렸달까요? 그래서 저는 그날부터 책 속 문장들을 바탕으로 나만의 실천 워크북을 ChatGPT와 함께 만들기 시작했어요.\n1. 책의 핵심 문장을 정리하기  \n가장 먼저 시작한 책은 김민식 PD님의 베스트셀러, 《매일 아침 써봤니》였어요. 책 전체를 요약하려는 부담은 내려놓고, 제가 정말 인상 깊게 읽은 문장들만 따로 모았죠. 종이책이라면 포스트잇이나 밑줄, 사진 찍기를 활용해도 좋고, 전자책은 밀리의 서재나 리디북스의 메모 기능으로 하이라이트를 정리할 수 있어서 편해요.\n이렇게 모은 문장들을 가지고 ChatGPT에게 이렇게 말했어요. \"제가 밑줄 친 문장을 각 장별로 3가지 핵심 포인트로 요약해 주세요.\" 챕터별로 깔끔하게 정리된 요약을 받아보니, 그 안에서 실천 아이디어로 확장할 수 있을 만한 포인트들이 하나둘씩 눈에 들어오기 시작했습니다. 진짜 신기하더라고요!\n2. 감명 깊은 문장에서 실천 아이디어 뽑아내기  \n책을 읽으며 가장 마음에 남았던 문장은 바로 \"글을 쓰는 사람은 매일 자신을 편집해 나가는 사람이다.\"였어요. 이 문장을 보는 순간, '나도 매일 나를 조금씩 편집할 수 있을까?' 하는 생각이 들었죠. 그래서 바로 ChatGPT에게 이렇게 물어봤습니다.\n  ChatGPT 프롬프트 예시\n\"이 문장(‘글을 쓰는 사람은 매일 자신을 편집해 나가는 사람이다’)을 바탕으로 제가 일상에서 실천할 수 있는 3가지 방법을 알려주세요.\"\n그 결과 나온 제안들은 정말 현실적이었어요. 예를 들어, '하루 한 문장으로 나를 돌아보는 글 써보기', 'SNS 대신 5분간 일기 쓰기', '하루를 마무리하며 \"오늘 내가 가장 자랑스러운 선택은?\"이라고 스스로에게 질문하기' 같은 아이디어였죠. 이렇게 얻은 아이디어들을 바탕으로 자연스럽게 워크북에 넣을 질문과 과제들이 만들어지기 시작했습니다.\n3. 연습 문제는 다양하게 구성하기 ✨\n꾸준히 실천하려면 한 가지 형식보다는 여러 형식의 연습 문제를 섞는 게 좋아요. 제가 주로 사용한 대표적인 형식들을 표로 정리해봤습니다.\n문제 형식\n예시\n\n\n\n\n반성 질문 (Reflection)\n\"나는 어떤 글을 쓸 때 가장 내 마음에 솔직한가요?\"\n\n\n미니 프로젝트 (Mini Project)\n\"하루 5분, ‘감정 일기’ 실험해보기\"\n\n\n습관 추적기 (Habit Tracker)\n\"일주일간 글쓰기 습관 체크리스트 만들어보기\"\n\n\n시각화 질문 (Visualization)\n\"3개월 동안 매일 글을 쓴 나의 모습을 상상해보세요.\"\n\n\n\n이런 질문들은 단순한 ‘독서’를 넘어, 나 자신과 마주보게 하는 대화의 도구가 되어줍니다. 책의 내용을 내 삶으로 끌어당기는 힘이 생기는 거죠.  \n4. 한 챕터만 골라도 충분합니다  \n처음부터 책 전체를 다 워크북으로 만들려고 하면 정말 부담스럽잖아요. 그래서 저는 한 챕터씩, 딱 하나의 문장만 골라 연습 문제를 만들기 시작했습니다. 예를 들어 《매일 아침 써봤니》 중 ‘아침 루틴과 글쓰기’에 대한 챕터를 골라 이렇게 구성해봤어요.\n  실천 워크북 챕터 구성 예시\n핵심 아이디어: 아침은 하루 중 가장 순수한 시간이다.\n반성하기: 나는 아침을 어떻게 보내고 있는가?\n실천하기: 내일 아침 10분만 '마음 흘려쓰기' 실험하기\n기록하기: 7일간 아침 글쓰기 실천 결과 기록지 만들기\n이런 식으로 핵심 → 시도 → 반성 → 추적의 흐름을 따라가면 어떤 책이든 워크북 형식으로 재구성할 수 있습니다. 한 챕터만 완벽하게 내 것으로 만들어도 충분한 성과가 되잖아요.\n5. 나만의 워크북 만들기 (Google Docs 활용)  \n완성된 질문과 과제들은 Google Docs에 정리했어요. 노션(Notion)이나 티스토리 비공개 글 등 편한 도구를 활용하면 됩니다. 제 워크북의 구성은 대략 이랬어요.\n표지: 책 제목과 '나만의 성장 노트'\n시작 노트: 왜 이 책을 선택했고, 무엇을 실천하고 싶은지\n챕터별 연습 문제: 질문 + 실천 + 추적 템플릿\n중간 점검 페이지: \"지금까지 잘한 점은?\", \"아직 어려운 점은?\"\n마무리 편지: \"이 책을 읽고, 나는 이렇게 변했다.\", \"앞으로 무엇을 지속하고 싶은가?\"\nChatGPT에게 \"이 내용을 예쁘게 정리된 워크북 형식으로 만들어주세요 (Google Docs용)\"이라고 요청하면 서식 구성도 도와주니 참고해 보세요!\n \n마무리하며: 책은 곧 도구입니다  ️\n예전엔 책을 다 읽으면 배움도 끝났다고 생각했어요. 하지만 지금은 책을 다 읽은 순간이 진짜 실천의 시작점이 된다는 걸 깨달았죠. 책장에 꽂힌 책이 아니라, 손에 들고 직접 '쓰는' 책이 되어야 하니까요.\n하이라이트 한 줄, 인상적인 문장 하나면 충분합니다. 그걸 ChatGPT에게 보여주고, 질문을 던져보세요. 그 작은 문장이 여러분의 삶에 생각지 못한 작은 변화를 일으킬 수 있습니다. 책이 책장에 꽂혀 있기만 한다면, 너무 아깝지 않을까요? 지금 한 챕터만 골라서, 워크북으로 꺼내보세요. 저처럼 분명히 새로운 ‘무언가’가 시작될 거예요.  \n \n \nChatGPT와 함께 워크북 만들기\n✨ 핵심 문장 정리: 책 전체가 아닌, 인상 깊은 문장만 추려보세요!\n  실천 아이디어 확장: \"내가 일상에서 실천할 수 있는 방법\"을 ChatGPT에게 물어보세요.\n  다양한 문제 구성:\n반성 질문, 미니 프로젝트, 습관 추적기, 시각화 질문 등\n  부담 없이 시작: 한 챕터씩만 골라 연습 문제를 만들어봐도 충분해요!\n책을 '읽기'에서 '쓰기'로 바꿔 당신의 성장을 편집하세요.\n \n자주 묻는 질문 ❓\nQ: 워크북을 만드는 데 꼭 ChatGPT를 써야 하나요?\nA: 꼭 필요한 건 아니지만, ChatGPT는 실천 아이디어를 구체화하고 다양한 연습 문제를 만드는 데 큰 도움을 줄 수 있습니다. 혼자 고민하는 시간을 줄이고, 아이디어를 빠르게 확장하는 좋은 도구죠.\nQ: 워크북을 만들 책은 어떻게 고르는 게 좋을까요?\nA: 가장 좋아하는 책, 혹은 최근에 읽으면서 '이거다!' 하고 감명 깊었던 문장이 있는 책으로 시작해 보세요. 처음부터 부담 없이 시작하는 것이 가장 중요합니다.\nQ: 책 전체를 다 다뤄야 한다는 부담이 있어요.\nA: 굳이 책 전체를 다 다룰 필요는 없습니다. 글에서 제안한 것처럼, 가장 인상 깊은 한 챕터나 문장만 골라 워크북을 만들어도 충분한 효과를 볼 수 있어요. 작게 시작해 보세요!\n\n\n\n    {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"FAQPage\",\n        \"mainEntity\": [\n            {\n                \"@type\": \"Question\",\n                \"name\": \"워크북을 만드는 데 꼭 ChatGPT를 써야 하나요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  꼭 필요한 건 아니지만, ChatGPT는 실천 아이디어를 구체화하고 다양한 연습 문제를 만드는 데 큰 도움을 줄 수 있습니다. 혼자 고민하는 시간을 줄이고, 아이디어를 빠르게 확장하는 좋은 도구죠.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"워크북을 만들 책은 어떻게 고르는 게 좋을까요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  가장 좋아하는 책, 혹은 최근에 읽으면서 '이거다!' 하고 감명 깊었던 문장이 있는 책으로 시작해 보세요. 처음부터 부담 없이 시작하는 것이 가장 중요합니다.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"책 전체를 다 다뤄야 한다는 부담이 있어요.\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  굳이 책 전체를 다 다룰 필요는 없습니다. 글에서 제안한 것처럼, 가장 인상 깊은 한 챕터나 문장만 골라 워크북을 만들어도 충분한 효과를 볼 수 있어요. 작게 시작해 보세요!\"\n                }\n            }\n        ]\n    }",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483631",
-    "pubDate": "Fri, 1 Aug 2025 16:11:41 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "chatgpt 활용",
-      "글쓰기",
-      "독서법",
-      "성장",
-      "습관",
-      "실천",
-      "워크북",
-      "자기계발",
-      "자기계발서"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "일 평균 30억 건을 처리하는 결제 시스템의 DB를 Vitess로 교체하기 - 2. 개발 및 운영기",
-    "description": "들어가며안녕하세요. LINE Billing Platform 개발 팀의 김영재, 이정재입니다. LINE Billing Platform 개발 팀에서는 LINE 앱 내 여러 서비스에서 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/migrate-payment-system-db-to-vitess-2",
-    "pubDate": "Fri, 01 Aug 2025 09:15:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
     "imageUrl": "",
     "title": "What’s New in vcpkg (July 2025)",
     "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.07.25 registry release, 2025-06-20, 2025-07-16, and 2025-07-21 tool releases, as well as changes to vcpkg documentation throughout July. This release includes a new command for printing package SPDX licenses, binary caching optimizations, and support for visionOS, Solaris, and illumos systems. Some […]\nThe post What’s New in vcpkg (July 2025) appeared first on C++ Team Blog.",
@@ -218,27 +186,41 @@
     ]
   },
   {
-    "id": 15,
+    "id": 13,
     "imageUrl": "",
-    "title": "노코드의 미래: 구글 제미나이 앱 빌더 실전 가이드 (할일 앱, 게임, 챗봇 만들기)",
-    "description": "코딩 1도 몰라도 앱 개발? 구글 제미나이 앱 빌더 사용법 총정리 코딩 경험이 전혀 없는 분들도 채팅하듯 말만 하면 실제로 동작하는 앱, 심지어 게임까지 만들 수 있습니다. 구글의 제미나이 앱 빌더로 나만의 실용적인 무료 앱을 만드는 방법을 지금 바로 확인해 보세요.\n\n\n \n코딩 경험이 1도 없는 초보분들도 마치 친구와 채팅하듯이 말만 하면 실제로 동작하는 앱을 만들 수 있다면 어떨까요? 그것도 단순한 앱이 아니라 진짜 게임까지 말이에요. 심지어 이 모든 과정이 완전 무료라면요? 오늘은 구글의 제미나이 앱 빌더(Gemini App Builder)를 활용해서, 여러분도 자신만의 실용적인 앱을 만드는 방법을 A부터 Z까지 알려드릴게요.\n제미나이 앱 빌더, 대체 뭔가요?\n먼저 제미나이 앱 빌더가 무엇인지 간단히 소개해 드릴게요. Google AI Studio에서 제공하는 생성형 AI 기반의 앱 개발 도구인데요. 쉽게 말해, 우리가 \"이런 앱 만들어줘!\" 하고 자연어로 설명하면, AI가 데이터 구조 설계부터 화면 디자인, 기능 코딩까지 알아서 다 해주는 혁신적인 도구예요.\n솔직히 앱 하나 만들려면 React, TypeScript, Tailwind CSS 같은 복잡한 기술들을 배워야 해서 시작도 전에 포기하는 경우가 많잖아요. 하지만 제미나이 앱 빌더는 이 모든 최신 기술을 내부적으로 사용하면서도, 사용자는 전혀 알 필요가 없다는 게 가장 놀라운 점이에요. 마치 자동차 엔진의 원리를 몰라도 운전할 수 있는 것처럼요!\nAI가 사용하는 최신 기술 살짝 엿보기\nReact (리액트): 화면을 '레고 블록(컴포넌트)'처럼 여러 개의 독립적인 부품으로 나누어 조립하는 방식이에요. 할 일 목록, 할 일 추가 버튼 등이 각각의 블록처럼 독립적으로 작동해서 한 곳에 오류가 생겨도 다른 곳에 영향을 주지 않죠.\nTypeScript (타입스크립트): 코드의 '맞춤법 검사기' 같은 역할을 해요. 숫자만 입력해야 하는 곳에 문자를 넣으면 \"이거 타입이 안 맞아요!\" 하고 미리 알려줘서 버그를 줄여준답니다.\nTailwind CSS (테일윈드 CSS): 미리 만들어진 디자인 조각들을 조합해서 빠르고 세련되게 앱을 꾸며주는 도구예요. 덕분에 디자인 감각이 없어도 깔끔한 앱을 만들 수 있어요.\n이런 복잡한 기술들을 제미나이가 알아서 처리해주니, 우리는 아이디어만 있으면 할 일 관리 도구, 재미있는 게임, AI 챗봇 등 상상하는 모든 것을 몇 분 만에 현실로 만들 수 있습니다. 정말 대단하지 않나요?\n앱 빌더 시작하기: 화면 구성 및 기본 사용법\n자, 그럼 함께 제미나이 앱 빌더를 사용해볼까요? 먼저 인터넷 브라우저에서 Google AI Studio 홈페이지로 접속해주세요. 구글 계정 로그인은 필수입니다!\n로그인 후 왼쪽 메뉴에서 네 번째 '빌드' 메뉴를 클릭하면 앱 빌더의 세계로 들어갈 수 있습니다. 처음에는 여러 템플릿과 쇼케이스가 보일 텐데요, 우리는 빈 도화지에서 시작하기 위해 'Empty' 템플릿을 클릭해볼게요.\n화면은 크게 세 부분으로 나뉩니다.\n코드 어시스턴트 (왼쪽): 제미나이와 대화하며 앱 개발을 요청하는 곳입니다.\n코드 편집기 (가운데): AI가 생성한 코드를 직접 보거나 수정할 수 있는 곳입니다.\n미리보기 (오른쪽): 만들어지고 있는 앱의 실제 모습을 실시간으로 확인하는 곳입니다.\n알아두세요!\n코드 어시스턴트 영역의 'Checkpoint' 기능은 개발 과정을 저장하는 스냅샷이에요. 코드를 수정하다 문제가 생겼을 때, 이전 체크포인트로 쉽게 돌아갈 수 있어서 정말 유용하답니다. 단, 페이지를 나가면 체크포인트는 사라지니 주의하세요!\n실전! 앱 만들어보기\n백문이 불여일견이죠? 지금부터 저와 함께 3가지 앱을 직접 만들어 보겠습니다. 간단한 실용적인 앱부터 이미지로 게임을 만들고, 기존의 젬(Gem) 지침을 챗봇으로 변환하는 과정까지 단계별로 따라오시면 금방 감을 잡으실 수 있을 거예요!\n \n1. 할 일 관리(To-do) 앱 만들기\n가장 기본적이면서도 실용적인 앱인 할 일 관리 앱부터 만들어 볼게요.\n1단계: 첫 번째 요청하기\n우선, 어떤 앱을 만들고 싶은지 명확하고 구체적으로 요청하는 것이 중요해요. 코드 어시스턴트 대화창에 필요한 기능을 모두 담아 이렇게 입력해 보겠습니다.\n\"할 일을 추가하고 완료 상태를 체크할 수 있는 간단한 할 일 관리 앱을 만들어주세요. 할 일 제목, 설명, 우선순위, 완료 여부를 관리해야 하고, 할 일 목록을 볼 수 있어야 합니다.\"\n2단계: AI의 마법 확인하기\n정말 놀랍게도, 2분도 채 되지 않아 AI가 모든 코드를 작성하고 오른쪽 미리보기 화면에 완전한 할 일 관리 앱을 보여줍니다. 할 일 추가, 목록 관리, 완료 체크, 삭제 기능까지 완벽하게 구현된 것을 확인할 수 있습니다.\n3단계: 디테일 수정하기\n기본 기능은 완벽하지만, 디자인이 조금 아쉽네요. 다시 대화창에 추가 요청을 해볼게요.\n\"할 일 추가 버튼 색상을 녹색으로 바꿔주고, 할 일 제목 앞에 내용에 맞는 이모지를 추가해줘.\"\n할일 관리앱 예시 바로가기\n \n2. 버블 슈터 게임 만들기\n이번엔 좀 더 재미있는 게임을 만들어 볼까요? 이번에는 텍스트가 아닌 이미지를 활용하는 방법입니다.\n1단계: 이미지로 요청하기\n인터넷에서 마음에 드는 '버블 슈터' 게임 스크린샷을 찾아 업로드한 후, 아주 간단하게 요청합니다.\n\"이 이미지와 같은 버블 슈터 캐주얼 게임을 만들어줘.\"\n2단계: 게임 플레이 및 개선\n몇 분 뒤, 스크린샷과 제목만으로 바로 플레이가 가능한 수준의 게임이 완성되었습니다! 여기서 멈추지 않고 게임을 더 재미있게 만들어 볼게요.\n\"공을 좀 더 입체적으로 디자인하고, 공이 터질 때 폭발 효과를 추가해줘.\"\n버블 슈터 게임 예시 바로가기\n알아두세요!\n한 번에 너무 많은 것을 요청하기보다는, 이렇게 단계별로 조금씩 개선하고 수정하는 방식이 훨씬 안정적이고 좋은 결과를 얻을 수 있습니다.\n \n3. 나만의 AI 코딩 도우미 챗봇 만들기\n마지막으로, 제가 실제로 만들어 사용 중인 '젬(Gem) 지침'을 안정적인 독립 앱으로 만들어 보겠습니다. 코딩 초보자가 만들고 싶은 앱을 말하면, 개발에 필요한 초기 질문 10개를 뽑아주는 챗봇이에요.\n \n2025.08.03 - [AI, 미래기술/AI 챗봇 및 지침 무료 배포] - 막막한 코딩, 이제 그만! AI 가 만들어주는 10가지 초기 개발 질문\n \n1단계: 지침을 앱으로 변환하기\n기존에 사용하던 젬 지침 전체를 복사해서 앱 빌더에 붙여넣고, 그 앞에 우리가 만들고 싶은 앱의 형태와 목적을 명확하게 설명하는 문장을 추가합니다.\n\"아래 젬 지침의 작동원리를 기반으로, 카카오톡 대화방 디자인의 채팅으로 사용자와 챗봇의 질의응답을 통해 바이브 코딩 빌더에게 할 초기 질문 10가지를 알려주는 앱을 만들어줘.\"\n[여기에 기존 젬 지침 전문 붙여넣기]\n2단계: 테스트 및 디버깅\n잠시 후 카카오톡을 닮은 챗봇이 만들어졌습니다. 바로 테스트를 해볼게요. \"테트리스 게임\"이라고 입력했는데, 전혀 관계없는 질문이 나왔습니다. AI가 아직 제 의도를 완벽히 파악하지 못한 거죠.\n3단계: 구체적인 예시로 AI 가르치기\n이럴 땐 구체적인 예시를 들어주는 것이 가장 효과적입니다. 이렇게 다시 요청해볼게요.\n\"예를 들어, '테트리스 게임'이라고 입력하면 다음 응답은 테트리스 게임과 관련된 추가 질문이어야 해.\"\n바이브코딩 아이디어 챗봇 예시 바로가기\n제미나이 '지침' vs 앱 빌더, 뭐가 다를까?\n이쯤 되면 \"그냥 제미나이 채팅에서 '지침' 기능을 쓰는 거랑 뭐가 다르지?\" 하고 궁금해하실 텐데요. 결론부터 말씀드리면, 똑같은 지침이라도 AI Studio 앱 빌더에서 '앱'으로 만들었을 때 훨씬 안정적이고 일관된 결과를 얻을 수 있습니다. 그 이유는 내부 작동 방식의 근본적인 차이 때문이에요.\n구분\n제미나이 채팅 (지침)\nAI Studio (앱 빌더)\n\n\n\n\n실행 환경\n대화형 (이전 대화가 누적되어 영향 O)\nAPI 호출형 (매번 독립적으로 실행, 영향 X)\n\n\n지침의 역할\n대화의 가이드라인 (유연함)\n강력한 시스템 명령 (엄격함)\n\n\n비유\n친한 개인 비서에게 말로 부탁\n회사의 공식 업무 매뉴얼 등록\n\n\n최적 활용\n개인화된 대화, 창의적 브레인스토밍\n안정적이고 반복적인 도구 제작\n\n\n\n주의하세요!\n제미나이 채팅은 이전 대화의 맥락에 따라 지침이 희석될 수 있지만, AI Studio 앱은 매번 깨끗한 상태에서 지침을 시스템 명령으로 엄격하게 실행합니다. 따라서 특정 작업을 안정적이고, 반복적이고, 예측 가능하게 수행하는 도구를 만들고 싶다면, AI Studio 앱 빌더를 사용하는 것이 정답입니다!\n물론 그렇다고 제미나이 지침 기능이 쓸모없는 것은 절대 아니에요. AI를 나만의 '대화 파트너'로 만들고 싶을 때, 창의적인 아이디어를 탐색할 때, 일시적인 작업을 간단히 시킬 때는 제미나이 지침이 훨씬 편리하고 효과적입니다. '도구'를 만드느냐, '대화 파트너'를 만드느냐의 차이로 이해하시면 쉽습니다.\n \n\n제미나이 앱 빌더 핵심 요약\n핵심 기능: 자연어(채팅)만으로 코딩 없이 실제 작동하는 앱을 제작할 수 있습니다.\n제작 가능 앱: 할 일 관리, 캐주얼 게임, AI 챗봇 등 아이디어만 있다면 무엇이든 가능합니다.\n기술 기반: 최신 기술인 React, TypeScript, Tailwind CSS를 AI가 자동으로 적용하여 고품질 앱을 생성합니다.\n앱 빌더 vs 지침: 안정적이고 일관된 'AI 도구'를 만들고 싶다면 제미나이 채팅의 '지침' 기능보다 앱 빌더가 훨씬 유리합니다.\n아이디어만 있다면 누구나 개발자가 될 수 있는 시대, 지금 바로 도전해보세요!\n자주 묻는 질문\nQ: 제미나이 앱 빌더는 완전히 무료인가요?\nA: 네, 기본적인 앱 개발 및 테스트는 Google AI Studio에서 무료로 사용할 수 있습니다. 다만, 'Cloud Run'을 통해 앱을 공개적으로 배포하고 많은 사람들이 사용하게 되면 구글 클라우드 정책에 따라 소량의 비용이 발생할 수 있습니다.\nQ: 제가 만든 앱의 소스 코드를 직접 수정할 수도 있나요?\nA: 그럼요! AI가 생성한 코드는 React, TypeScript 기반의 실제 코드입니다. 다운로드 버튼을 통해 코드를 내려받아 Visual Studio Code와 같은 전문 코딩 프로그램에서 직접 수정하고 기능을 확장할 수 있습니다.\nQ: 복잡한 앱도 정말 만들 수 있나요? 한계는 없나요?\nA: 현재 단계에서는 데이터베이스 연동이 복잡하거나 매우 전문적인 기능을 가진 앱을 한 번에 만드는 데는 한계가 있을 수 있습니다. 하지만 아이디어를 빠르게 프로토타입으로 만들고 검증하는 용도로는 최고입니다. 간단한 요청부터 시작해서 단계적으로 기능을 추가하며 발전시키는 방식을 추천합니다.\nQ: '젬 지침'을 앱으로 만들면 왜 더 안정적인가요?\nA: 제미나이 채팅은 이전 대화의 영향을 받는 '대화형'이지만, 앱 빌더는 매번 독립적으로 실행되는 'API 호출형' 환경이기 때문입니다. 앱은 이전 대화에 방해받지 않고 오직 입력된 지침(시스템 명령)에 따라 엄격하게 작동하므로, 훨씬 더 예측 가능하고 일관된 결과를 보장합니다.\n이것으로 AI 스튜디오의 제미나이 앱 빌더를 활용한 노코드 앱 개발 강의를 마치겠습니다. 오늘 배운 내용으로 여러분도 아이디어만 있다면 누구나 실용적인 앱을 만들 수 있는 시대가 열렸다는 것을 확인하셨을 거예요. 오늘 강의가 도움이 되셨다면 구독과 좋아요 꼭 눌러주시고, 여러분이 만드신 멋진 앱도 댓글로 자랑해주세요! 감사합니다!",
+    "title": "에스토니아 스타트업 성공전략 - 디지털 국가에서 글로벌 창업하는 법",
+    "description": "에스토니아는 작은 나라지만 디지털 혁신의 선구자로, 전 세계에서 가장 앞선 전자정부 시스템을 보유한 국가 중 하나입니다. 특히  e-Residency 제도를 통해 세계 어디서나 온라인으로 법인 설립과 경영이 가능해, 글로벌 스타트업 창업자에게 매력적인 기회를 제공합니다. 이번 포스팅에서는 에스토니아 스타트업 생태계, 정부 지원정책,  e-Residency",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483633",
-    "pubDate": "Sun, 3 Aug 2025 15:53:36 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://brunch.co.kr/@@LOc/304",
+    "pubDate": "Sat, 02 Aug 2025 03:00:05 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 13화, 장래희망인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2342",
+    "pubDate": "Wed, 06 Aug 2025 16:02:33 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "ai 앱 만들기",
-      "ai 챗봇 만들기",
-      "google ai studio",
-      "react",
-      "typescript",
-      "노코드 앱 개발",
-      "무료 앱 개발",
-      "생성형 AI",
-      "제미나이 앱 빌더",
-      "코딩 없이 앱 만들기"
+      "웹툰"
     ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "싱가포르 스타트업 성공 전략 - 아시아 창업 허브의 비밀",
+    "description": "싱가포르는 동남아시아 스타트업 생태계의 중심지로, 세계에서 가장 창업 친화적인 국가 중 하나로 꼽힙니다. 낮은 법인세, 글로벌 금융 허브, 영어 사용 환경, 그리고 정부 주도의 강력한 스타트업 지원정책 덕분에 아시아는 물론 글로벌 스타트업들이 싱가포르를 베이스캠프로 삼고 있습니다. 이번 포스팅에서는 싱가포르 스타트업 생태계의 특징, 주요 산업, 정부 지원정",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/303",
+    "pubDate": "Fri, 01 Aug 2025 03:00:11 GMT",
+    "creator": "고명환",
+    "categories": []
   }
 ]
