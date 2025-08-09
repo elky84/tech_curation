@@ -2,46 +2,223 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Make Your Ideas Clickable With Kineto by JetBrains",
-    "description": "While developing a website or an app, you’ll encounter loads of technical challenges that need to be solved – from how to code the functionality to how to host it. Delivering even a simple to-do app requires a hefty technology stack, a team of professionals, and hours of testing and maintenance. This is the reason […]",
+    "title": "Diff Risk Score: AI-driven risk-aware software development",
+    "description": "The state of the research Diff Risk Score (DRS) is an AI-powered technology built at Meta that predicts the likelihood of a code change causing a production incident, also known as a SEV. Built on a fine-tuned Llama LLM, DRS evaluates code changes and metadata to produce a risk score and highlight potentially risky code [...]\nRead More...\nThe post Diff Risk Score: AI-driven risk-aware software development appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kineto/2025/08/make-your-ideas-clickable-with-kineto-by-jetbrains/",
-    "pubDate": "Tue, 05 Aug 2025 12:02:59 +0000",
-    "creator": "Andrew Zakonov",
+    "link": "https://engineering.fb.com/2025/08/06/developer-tools/diff-risk-score-drs-ai-risk-aware-software-development-meta/",
+    "pubDate": "Wed, 06 Aug 2025 17:50:51 +0000",
+    "creator": "Unknown",
     "categories": [
-      "news",
-      "eap"
+      "AI Research",
+      "DevInfra",
+      "ML Applications"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "[MULTI] 더 영화적인 이야기와 연출의 발전, 마피아 : 올드 컨트리",
-    "description": "No description available",
+    "title": "느린 죽음",
+    "description": "바로 이전 포스팅에 이어 비슷한 맥락의 글을 또 써본다. 할 수 있는 여건이 되는데도 두려움과 매너리즘 때문에 국도에서 고속도로로 진입하지 못하는 많은 회사들은 언젠가는 망할 확률이 높다. 좋은 비즈니스 모델을 찾아서 돈을 버는 사업 구조를 만들긴 했지만, 이 상황에서는 수익성이 엄청나게 좋진 않을 것이고, 이런 사업은 너무나 다양한 내, 외부 요소의 변화에 대한 면역력이 떨어지기(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2344",
-    "pubDate": "Thu, 07 Aug 2025 21:00:21 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://www.thestartupbible.com/2025/08/slow-death.html",
+    "pubDate": "Sun, 03 Aug 2025 21:32:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "리뷰"
+      "Uncategorized",
+      "failure",
+      "FoundersAtWork",
+      "strategy"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Ollama 에서 Gemma 3 사용하기",
-    "description": "No description available",
+    "title": "중국 배달 전쟁",
+    "description": "비상식적인 내부 경쟁으로 어마어마한 배달 주문이 벌어지고 있다고 합니다.\n정상기업이라면 경쟁에서 나와서 다른 곳을 갈법한데\n이것들은 서로 가격을 낮추네요\n3개의 기업이 남을때까지 경쟁할 모양인거 같습니다.\n이럴때는 쉬었다가 \n다 끝나고 다시 영업하면 되지 않나 싶군요\n \n영상: https://www.youtube.com/watch?v=Q8JR9acxUwE\n\n\n\n배달기사는 배달만하면 돈을 버는데\n가게에서 만들어 낼 수가 없어서\n가게 들어가 직접 만들어 배달 해버린다고 하네요 ㅋ\n(이게 무슨일이야)\n신나는 나라 입니당",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/ai-llm_20250804/",
-    "pubDate": "Mon, 04 Aug 2025 00:00:00 +0900",
+    "link": "http://serverdown.tistory.com/1369",
+    "pubDate": "Sun, 3 Aug 2025 18:01:33 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "중국"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "구글 노트북LM 동영상 개요, 한국어로 만드는 방법",
+    "description": "Google NotebookLM 동영상 개요, 왜 아직도 영어만 지원할까요? 한국 사용자를 위한 AI STUDIO 맞춤형 지침으로 완벽한 한국어 영상 개요를 만드는 비법을 담았습니다. 이제 언어의 장벽 없이 창의적인 콘텐츠를 만들어보세요!\n\n\n \n 혹시 Google NotebookLM의 동영상 개요 기능을 써보셨다가 저처럼 살짝 실망한 적 있으신가요? 정말 놀라운 기능인데, 막상 써보면 음성 요약이나 슬라이드 내용이 전부 영문으로만 나와서 '한국어 콘텐츠에는 쓸모없나?' 하는 생각이 들 때가 있더라고요. 제 주변에도 이런 고민을 하시는 분들이 정말 많았어요. 아마 저만 그런 건 아닐 거예요.  \n\n그런데 말이죠, 포기하기엔 이 기능이 너무 아깝잖아요? 그래서 제가 직접 AI STUDIO를 활용해 이 기능을 우리말에 완벽하게 맞추는 방법을 연구해봤어요. 기존의 텍스트 기반 요약 기능을 확장해서 영상 개요를 만드는 이 혁신적인 기능을, 이제 여러분도 한국어 문서로 마음껏 활용할 수 있도록 아주 쉽고 친절하게 알려드릴게요. 이 글만 읽으면 여러분의 작업 효율이 정말 비약적으로 상승할 거라고 장담합니다!\n \n1. Google NotebookLM의 놀라운 기능들 ✨\nGoogle NotebookLM은 Google Labs에서 개발한 AI 기반의 혁신적인 도구입니다. 이 도구는 단순히 검색 결과를 찾아주는 것을 넘어, 사용자가 업로드한 문서를 기반으로 상호작용하며 정보를 분석하고 정리하는 데 특화되어 있어요. Google의 강력한 AI 모델인 Gemini를 활용해 복잡한 자료를 명확하게 바꿔주고, 여러분의 연구와 학습 과정을 효율적으로 만들어주는 온라인 서비스라고 할 수 있습니다.\n\nNotebookLM은 여러분의 작업 효율을 극대화할 수 있도록 다양한 기능을 제공하고 있습니다. 어떤 기능들이 있는지 자세히 알아볼까요?\n소스 업로드 및 분석: PDF, 웹사이트, Google 문서, 슬라이드 등 다양한 형식의 소스를 올릴 수 있어요. 놀랍게도 최대 50개의 소스, 총 2,500만 단어까지 한 번에 처리할 수 있다고 하니, 방대한 양의 자료도 걱정 없겠죠!\n요약 및 설명 생성: 업로드된 콘텐츠를 바탕으로 핵심 내용을 요약하고, 상세한 설명을 생성해 줍니다. 특히, 답변의 출처를 원본 소스에 대한 인용으로 제공해 줘서 정보의 신뢰성을 확실하게 보장합니다.\n오디오 오버뷰: 2024년 9월에 출시되어 큰 주목을 받았던 기능이에요. 문서를 대화형 팟캐스트 형식으로 요약해 주기 때문에, 단순히 읽는 것보다 훨씬 재미있고 쉽게 내용을 파악할 수 있답니다.\n형식 변환: 소스 문서를 학습 가이드, 브리핑 문서, 마인드맵 등 다양한 형식으로 변환해줘요. 복잡한 자료를 내가 원하는 형태로 즉시 바꿔주니, 콘텐츠 기획자나 학생들에게 정말 유용하겠죠.\n채팅 및 질문: 마치 친구와 대화하듯 노트북과 채팅하며 궁금한 점을 물어볼 수 있어요. 복잡한 추론이 필요한 질문에도 정확하고 신뢰성 있는 답변을 얻을 수 있습니다.\n이렇게 NotebookLM은 아이디어를 다듬고 정리하는 데 특화된 강력한 도구랍니다. 더 높은 한도와 프리미엄 기능을 제공하는 기업용 버전(NotebookLM Plus)도 있으니 참고하시면 좋을 것 같아요.\n  알아두세요!\nNotebookLM은 업로드된 소스 자료에 근거해 답변을 생성하기 때문에, 잘못된 정보나 '환각' 현상(Hallucination)이 나타날 확률이 현저히 낮아요. 이 점이 NotebookLM의 가장 큰 장점 중 하나랍니다.\n \n2. 동영상 개요 기능, 한국어 사용자의 도전과제 ⚠️\n 최근 NotebookLM의 동영상 개요 기능이 처음 공개되었을 때, 저도 정말 기대가 컸어요. 그런데 사용해보니 한 가지 큰 벽에 부딪히더라고요. 바로 이 기능이 공식적으로 영문 콘텐츠에만 최적화되어 있다는 점이었죠. \n \n 음성과 슬라이드에 나타나는 텍스트는 영문으로만 생성되어, 우리말 콘텐츠를 만드는 크리에이터나 기획자 입장에서는 정말 답답할 수밖에 없죠. 이 좋은 기능을 그림의 떡처럼 바라만 봐야 하는 상황이었답니다.\n\n\n⚠️ 주의하세요!\nAI가 만들어준 결과물이라고 해서 맹신하면 안 됩니다. 특히 복잡하거나 전문적인 내용을 다룰 때는 AI가 놓친 맥락이나 세부 사항이 없는지 반드시 최종 확인하는 과정이 필요해요.\n \n3. AI STUDIO를 활용한 한국어 최적화 가이드의 핵심 원리  \n그럼 이제부터 AI STUDIO의 맞춤 설정을 활용해 Google NotebookLM의 동영상 개요 기능을 우리말에 맞게 '길들이는' 방법을 알려드릴게요. 핵심은 AI에게 우리가 원하는 결과물을 명확하게 지시하는 세 가지 원칙을 적용하는 것입니다. 이 원칙만 잘 이해하면 여러분의 한국어 문서도 전문적인 영상 개요로 재탄생할 수 있어요!\n이 세 가지 핵심 원칙을 아래 표로 정리해 보았습니다.\n핵심 원칙\n상세 내용\n\n\n\n\n100% 한국어 현지화\n음성, 슬라이드, 자막 등 영상의 모든 요소를 한국어로만 제공하고, 기술 고유명사를 제외한 외국어 사용을 엄격히 금지합니다. 예시 또한 한국의 상황과 문화에 맞게 구성하여 몰입감을 높이는 것이 핵심입니다.\n\n\n시각적 디자인 강화\n텍스트만 나열하는 대신, 각 슬라이드 내용에 맞는 [아이콘]이나 [인포그래픽] 등을 구체적으로 제안하도록 지시합니다. 또한, 핵심 키워드는 굵게 처리하고, 긍정/부정적 내용을 색상(파란색, 빨간색)으로 구분하여 메시지를 직관적으로 전달하게 합니다.\n\n\n음성 나레이션 전달력\n나레이션 스크립트를 작성할 때, 딱딱한 기계음이 아닌 전문가의 신뢰감과 친근한 어조를 동시에 갖추도록 유도합니다. 중요한 내용 앞뒤에 (잠시停)과 같은 쉼표시를 넣어 강조 효과를 더하고 시청자가 내용을 소화할 시간을 제공합니다.\n\n\n\n \n핵심 내용 한눈에 보기  \n지금까지 설명드린 내용을 한눈에 보기 쉽게 요약해 보았습니다. 이 카드만 저장해 두셔도 AI STUDIO를 활용하는 데 큰 도움이 될 거예요.\n \n한국어 최적화 가이드 핵심 요약\n✨ 현지화: 모든 요소를 100% 한국어로! 문화적 배경에 맞는 예시를 활용해 몰입감을 높이세요.\n  디자인: 시각적 요소와 색상으로 강조! [아이콘]이나 [인포그래픽]을 명시하고, 중요한 내용은 파란색 또는 빨간색으로 구분해 메시지를 명확하게 전달하세요.\n ️ 전달력: 전문가적이면서 친근한 어조! (잠시후)과 같은 쉼표시를 활용해 자연스러운 흐름을 만드세요.\n이 지침을 활용하면 NotebookLM으로 최적화된 한국어 영상 개요를 만들 수 있습니다.\n \n4. AI STUDIO 맞춤 설정 지침 다운로드  \n위에 설명드린 핵심 원리를 직접 적용할 수 있는 맞춤 설정 지침 전문을 파일로 준비했습니다. 이 파일을 다운로드하여 AI STUDIO의 '맞춤 설정' 영역에 붙여넣기만 하면 됩니다. 이제 여러분의 한국어 문서도 전문가가 만든 것처럼 체계적인 영상 개요로 재탄생할 수 있습니다.\n\n    \n\n    \n노트북 LM 영상 개요 한글화 지침.zip\n0.00MB\n\n\n 사용법\n그림과 같이 동영상 개요 - 맞춤설정 에서 첨부한 지침을 붙여넣기 하면됩니다.\n단, 기본값이 영문 강제 설정이라..... 가끔씩 한글화가 안되는 경우가 있습니다.\n \n\n\n \n결과물\n\n\n\n \n \n \n자주 묻는 질문 ❓\nQ: Google NotebookLM의 동영상 개요 기능은 한국어를 지원하나요?\nA: 현재 정식 기능으로는 한국어 음성 및 슬라이더 생성을 지원하지 않습니다. 하지만 AI STUDIO의 맞춤 설정 지침을 활용하면 한국어 영상 개요를 생성할 수 있습니다.\nQ: AI STUDIO 맞춤 설정 지침의 핵심은 무엇인가요?\nA: '100% 한국어 현지화', '시각적 디자인 및 텍스트 효과 강화', '음성 나레이션 및 전달력' 세 가지 원칙을 바탕으로, AI에게 한국어 영상에 최적화된 개요를 생성하도록 구체적으로 지시하는 것입니다.\nQ: 지침에 따라 생성된 개요를 수정해야 할까요?\nA: 네, AI가 생성한 결과물은 항상 초안으로 간주하고, 최종 사용 전에 내용을 꼼꼼하게 검토하고 수정하는 것이 좋습니다. 특히 사실 관계나 어색한 표현이 없는지 확인해야 합니다.\n\n\n\n    {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"FAQPage\",\n        \"mainEntity\": [\n            {\n                \"@type\": \"Question\",\n                \"name\": \"Google NotebookLM의 동영상 개요 기능은 한국어를 지원하나요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  현재 정식 기능으로는 한국어 음성 및 슬라이더 생성을 지원하지 않습니다. 하지만 AI STUDIO의 맞춤 설정 지침을 활용하면 한국어 영상 개요를 생성할 수 있습니다.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"AI STUDIO 맞춤 설정 지침의 핵심은 무엇인가요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  '100% 한국어 현지화', '시각적 디자인 및 텍스트 효과 강화', '음성 나레이션 및 전달력' 세 가지 원칙을 바탕으로, AI에게 한국어 영상에 최적화된 개요를 생성하도록 구체적으로 지시하는 것입니다.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"지침에 따라 생성된 개요를 수정해야 할까요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  네, AI가 생성한 결과물은 항상 초안으로 간주하고, 최종 사용 전에 내용을 꼼꼼하게 검토하고 수정하는 것이 좋습니다. 특히 사실 관계나 어색한 표현이 없는지 확인해야 합니다.\"\n                }\n            }\n        ]\n    }",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483634",
+    "pubDate": "Mon, 4 Aug 2025 13:12:03 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "ai studio",
+      "AI 튜토리얼",
+      "Ai 활용",
+      "Google NotebookLM",
+      "동영상 개요",
+      "영상 스크립트",
+      "영상 제작",
+      "콘텐츠 기획",
+      "한국어 슬라이더",
+      "한국어 현지화"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "25.08.03 - 아를의 평원, 캐슬 콤보",
+    "description": "게임을 하면서 사진을 잘 안찍어서 사진은 많지 않지만 간단히라도 평을 남겨보려고 한다. 아를의 평원 우베 로젠버그의 게임으로 2인 전용이고 확장을 넣으면 3인까지 할 수 있다. 아를이란 지역을 개발하여 여러 건물을 올리고 농사를 짖고 교역을 하면서 건물을 짖고 여행도 가고 하면서 점수를 모으면 된다. 여기저기 마이너스 점수가 있고 채우면 없어진다. 황무지를 개간하면 토탄이란 개념이 나오는데 그냥 석탄이라고 이해하면 편하다. 평소엔 잘 쓰지않는 단어지만 난 게임을 하면서 몇번 들었던 적이 있어서 어색하진 않았으나 처음듣는 사람은 그게 뭔데 ? 할 수 있다. 맨날 먹는 우베의 그런 맛이지만 역시 맛있는 그런 느낌이다. 와.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/dlehddus84/223957607677?fromRss=true&trackingCode=rss",
+    "pubDate": "Sun, 03 Aug 2025 21:55:07 +0900",
+    "creator": "dlehddus84",
+    "categories": [
+      "플레이"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "What’s Fixed in IntelliJ IDEA 2025.2",
+    "description": "Welcome to the first-ever standalone What’s Fixed overview of an IntelliJ IDEA release! We are always working hard to make the IDE even more stable, reliable, and enjoyable to use. In previous releases, information about this work was blended into the What’s New content, making it very long and sometimes hard to grasp. To address […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/08/whats-fixed-intellij-idea-2025-2/",
+    "pubDate": "Wed, 06 Aug 2025 10:39:05 +0000",
+    "creator": "Dmitriy Smirnov",
+    "categories": [
+      "news",
+      "releases",
+      "2025-2",
+      "intellij-idea",
+      "intellij-idea-2025-2"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Visual Studio 2015 Retirement: Support reminder for older versions of Visual Studio",
+    "description": "Support for Visual Studio 2015 will end on October 14, 2025. If you’re using an older version of Visual Studio, we want to keep you productive and secure when using Visual Studio, and strongly recommend you upgrade to Visual Studio 2022, which brings the power of Copilot to your development workflow. It also contains key […]\nThe post Visual Studio 2015 Retirement: Support reminder for older versions of Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-2015-retirement-support-reminder-for-older-versions-of-visual-studio/",
+    "pubDate": "Tue, 05 Aug 2025 16:16:53 +0000",
+    "creator": "Paul Chapman",
+    "categories": [
+      "Administration",
+      "Installation and Updates",
+      "Visual Studio Subscriptions",
+      "Announcement",
+      "lifecycle",
+      "Support",
+      "Visual Studio 2015"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "숨은 알짜 대명화학,패션&middot;물류&middot;항공까지 통합한 지주회사 - 스타트업",
+    "description": "제조기업인 줄 알았던 대명화학, 알고 보니 브랜드 플랫폼 대명화학은 이름만 들으면 전통적인 화학 제조기업처럼 들립니다. 하지만 이 기업의 진짜 정체는 지분투자를 기반으로 한 브랜드 인큐베이팅형 지주회사입니다. 코웰패션, 로젠택배, 에어로케이, K-뷰티 유통사 모스트까지 다양한 산업을 수직 계열화하며 안정적인 수익 기반과 폭발적인 성장성을 동시에 확보해가고",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/305",
+    "pubDate": "Thu, 07 Aug 2025 03:00:06 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "PhpStorm 2025.2 Is Now Available",
+    "description": "Along with making Laravel Idea free for PhpStorm users, this release brings improvements to the remote development experience, JetBrains AI tools, and more. Download PhpStorm 2025.2 Junie coding agent MCP support  Support for the Model Context Protocol (MCP) allows you to connect Junie to external sources like databases, file systems, and APIs. You can now […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/phpstorm/2025/08/phpstorm-2025-2-is-now-available/",
+    "pubDate": "Tue, 05 Aug 2025 13:45:17 +0000",
+    "creator": "Hanna Yakush",
+    "categories": [
+      "releases",
+      "2025-2",
+      "release"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Kotlin DSL: What’s New?",
+    "description": "In the last few TeamCity releases, we made some improvements to the Kotlin DSL. This is a summary of these enhancements. Custom path for Kotlin DSL files TeamCity has always had strict requirements regarding the directory location for Kotlin DSL files. It insisted on saving the files under the .teamcity directory, which had some drawbacks. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2025/08/kotlin-dsl-what-s-new/",
+    "pubDate": "Tue, 05 Aug 2025 13:57:48 +0000",
+    "creator": "Pavel Sher",
+    "categories": [
+      "kotlin",
+      "news"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Dynamically Update C++ syntax using Next Edit Suggestions",
+    "description": "When working in a C++ repo, you often are maintaining and updating existing code just as often as you are writing new code. However, updating code in C++ can often require navigating to several different locations in a file to ensure consistency, which can disrupt your logical workflow. For example, changing a data member’s access […]\nThe post Dynamically Update C++ syntax using Next Edit Suggestions appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/dynamically-update-c-syntax-using-next-edit-suggestions/",
+    "pubDate": "Mon, 04 Aug 2025 16:36:10 +0000",
+    "creator": "Sinem Akinci",
+    "categories": [
+      "C++",
+      "Copilot",
+      "New Feature"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Nginx 설정 통합과 Loki 연동으로 설계한 유연한 멀티사이트 아키텍처",
+    "description": "들어가며안녕하세요. LINE NEXT DevOps 팀에서 일하고 있는 이동원이라고 합니다. 현재 쿠버네티스 기반의 인프라 운영과 유지 보수, CI/CD 구축, 로그 수집 및 모니터...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/flexible-multi-site-architecture-with-integrated-nginx-configuration-and-loki",
+    "pubDate": "Thu, 07 Aug 2025 06:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 4,
+    "id": 13,
+    "imageUrl": "",
+    "title": "자네, 해커가 되지 않겠나? Hack Day 2025에 다녀왔습니다!",
+    "description": "안녕하세요. LINE Plus 소속 Redis 팀의 김정훈입니다. 저는 지난 7월 2일부터 4일까지 사흘간 진행된 사내 해커톤 'Hack Day 2025'에 참가했습니다. Hack...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/hack-day-2025-recap",
+    "pubDate": "Thu, 07 Aug 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "GoLand 2025.2 Is Now Out!",
+    "description": "GoLand 2025.2 introduces updates for working with HTTP servers, smarter inspections powered by data flow analysis (DFA), and a new non-blocking Welcome screen. This release also brings significant quality improvements to golangci-lint support, including version 2, making the integration more robust for real-time code analysis. Let’s take a closer look at all the new additions […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2025/08/05/goland-2025-2-is-now-out/",
+    "pubDate": "Tue, 05 Aug 2025 12:22:27 +0000",
+    "creator": "Artem Pronichev",
+    "categories": []
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "GPT-5 출시! 유료,무료 요금제별 사용 제한과 새로운 기능 총정리",
     "description": "챗GPT의 새로운 시대, GPT-5 완벽 분석    GPT-5의 혁신적인 특징과 함께, 우리가 실제로 체감할 수 있는 변화들을 알기 쉽게 정리해봤습니다. 이 글만 읽어도 GPT-5 전문가가 될 수 있을 거예요!\n\n\n \n 오픈AI의 차세대 플래그십 모델인 GPT-5가 출시되었습니다. 기존의 여러 모델들의 장점을 하나로 통합한 똑똑하고 빠른 모델이라고 하니, 기대가 정말 큽니다.\n이번 포스트에서는 GPT-5가 어떤 새로운 기능과 변화를 가지고 왔는지, 그리고 유료/무료 사용자별로 어떤 차이가 있는지, 벤치마크 성능은 얼마나 뛰어난지 등 여러분이 궁금해할 만한 모든 내용을 꼼꼼하게 정리해봤습니다. 그럼 GPT-5의 세계로 함께 빠져볼까요?  \n \nGPT-5, 무엇이 달라졌을까?  \nGPT-5는 단순히 성능이 좋아진 모델을 넘어, 사용자의 요청에 따라 스스로 최적의 방법을 찾아내는 '통합 시스템'으로 진화했습니다. 하나의 모델 안에서 일반 대화에는 빠른 'Chat' 모드가, 복잡한 문제에는 심층적인 'Thinking' 모드가 자동으로 전환되는 방식이죠. 복잡한 코딩, 과학 문제, 데이터 분석 같은 작업에선 Thinking 모드가 스스로 더 깊이 생각해서 답변의 정확도를 높여준다고 하네요.\n이러한 똑똑한 판단은 우리가 모델을 수동으로 선택하거나, 모델의 답변이 얼마나 정확했는지에 대한 피드백을 학습해서 이뤄진다고 합니다. GPT-5는 속도와 정확도 모두 대폭 개선되었고, 가장 똑똑하고 신뢰할 수 있는 모델로 평가받고 있어요.\n  GPT-5의 '사고 과정' 알아보기!\nGPT-5의 Thinking 모델은 답변을 하기 전에 내부적으로 '사고 과정'을 먼저 생성합니다. 이 과정에서 스스로 전략을 점검하고, 실수를 인식하며, 안전 규칙을 지키도록 훈련되었어요. 덕분에 사용자의 유도나 우회 시도에도 흔들리지 않고 더 유용하고 신뢰성 높은 답변을 내놓을 수 있습니다.\n \n벤치마크로 보는 GPT-5의 압도적 성능  \nGPT-5는 다양한 벤치마크에서 이전 모델들을 압도하는 성능을 보여줬습니다. 특히 복잡한 추론과 문제 해결 능력을 평가하는 벤치마크에서 두각을 나타냈는데요.\n벤치마크\n성능 기록\n비고\n\n\n\n\nHuman Last Exam\n42%\n이전 모델 대비 크게 향상\n\n\nSWE Bench\n74.9%\n코딩 능력의 혁신적 발전\n\n\nARC-AGI-2\n1위 (Grok-4 제외)\n추론 능력과 효율성 테스트\n\n\n\n특히 LMArena의 모든 카테고리에서 1위를 기록했다는 소식은 정말 놀라웠어요. 텍스트, 웹 개발, 이미지 처리, 수학, 창의력 등 분야를 가리지 않고 최고의 성능을 입증했죠. 내부 테스트에서도 'summit'이라는 코드명으로 역대 최고 점수를 받았다고 하니, 괜히 플래그십 모델이 아니라는 생각이 들었습니다.\n⚠️ 주의하세요!\nGPT-5는 복잡한 대화에서 기만적인 행동을 억제하도록 훈련되었지만, 여전히 안전 장치(guardrails)를 준수해야 합니다. 악용 사례(데이터 자동 추출, 계정 공유, 재판매 등)에 대해서는 언제든지 일시적 사용 제한이 있을 수 있습니다.\n \nGPT-5의 요금제별 사용 제한 및 특징  \nGPT-5의 강력한 기능은 챗GPT의 다양한 요금제에 따라 조금씩 다르게 적용됩니다. 무료 사용자와 유료 사용자(Plus, Pro, Team)의 사용 제한 및 모델 선택 옵션에 대해 자세히 알아볼게요.\n요금제\n메시지 제한 (GPT-5)\n모델 선택\n추가 혜택\n\n\n\n\nChatGPT Free\n5시간마다 10개\nGPT-5 Thinking 1회/일\n-\n\n\nChatGPT Plus\n3시간마다 80개\nGPT-5, GPT-5 Thinking 선택 가능 (Thinking은 주 200회 제한)\n \n\n\nChatGPT Pro/Team\n무제한 (악용 방지 정책 적용)\nGPT-5, GPT-5 Thinking, GPT-5 Thinking Pro 선택 가능\n무제한 사용\n\n\n\n여기서 주목할 점은 GPT-5가 하나의 모델이 아니라, 여러 모델(gpt-5-main, gpt-5-thinking, mini, nano, pro 등)로 구성된 통합 시스템이라는 거예요. 기존의 GPT-4o, o3, o4-mini 모델들이 이 시스템 안으로 재편되었다고 보시면 됩니다.\nGPT-5의 컨텍스트 윈도우는 최대 40만 토큰까지 지원하고, 지식 컷오프는 2024년 9월입니다. 미니나 나노 모델은 2024년 5월 지식을 반영하고 있으니 참고하면 좋겠네요.\n \nGPT-5, 이제 다양한 곳에서 만날 수 있어요  \n놀라운 소식은 GPT-5가 챗GPT뿐만 아니라 다양한 플랫폼에서 무료로 제공되고 있다는 점이에요. 현재 Cursor, 마이크로소프트 코파일럿, 퍼플렉시티에서 GPT-5를 무료로 사용해볼 수 있습니다. 젠스파크에서는 GPT-5 PRO까지 사용 가능하다고 하니, 다양한 환경에서 직접 경험해보는 것도 좋은 방법일 것 같습니다.\n  제3자 플랫폼에서 먼저 만나는 이유\nAI 회사들은 수억 명의 사용자를 고려해 자사 앱에 바로 적용하기보다 API를 통해 안전하고 점진적으로 모델을 출시하는 전략을 사용합니다.\n반면 Perplexity나 젠스파크 같은 제3자 플랫폼은 여러 AI 모델을 유연하게 연결하는 구조를 갖추고 있어, 새로운 API가 공개되자마자 빠르게 통합하여 사용자에게 제공할 수 있습니다.\nGPT-5가 출시되면서 기존 모델들이 단계적으로 은퇴합니다. GPT-4o, GPT-4.1, GPT-4.5, o4-mini 등이 이에 해당하는데요. 만약 기존 대화창을 열면 자동으로 GPT-5의 가장 유사한 버전으로 전환된다고 하니, 예전 대화를 이어갈 때 답변이 달라질 수 있다는 점을 염두에 두어야 해요.\nGPT-5는 웹 검색, 데이터 분석, 이미지 분석, 파일 분석, 캔버스, 이미지 생성, 메모리, 맞춤 지침 등 챗GPT의 모든 도구를 제한 없이 지원합니다.\n \n음성 모델의 대대적인 업그레이드!  ️\nGPT-5와 함께 챗GPT의 음성 모델도 대폭 개선되었어요. 이제 더 자연스럽고 똑똑하게 대화할 수 있게 되었는데요. 특히 가장 큰 변화는 GPTs에서 고급 음성 모델을 바로 사용할 수 있게 되었다는 점입니다.\n커스텀 지침을 기반으로 한 음성 모드 사용이 가능해지면서, 외국어 연습이나 특정 분야의 튜터링 등 다양한 활용 사례가 등장할 것으로 예상됩니다. 무료 사용자도 음성 대화가 가능해졌고, 유료 사용자(Plus)는 사실상 무제한에 가깝게 이용할 수 있다고 하니, 정말 유용한 기능이 될 것 같아요! 참고로, 현재 보이스 모드는 여전히 GPT-4o 기반이라고 합니다.\n \nAPI 가격과 모델 상세 정보  \nGPT-5의 API 가격은 꽤 합리적으로 책정된 것 같아요. 100만 토큰 기준으로 모델별 가격을 정리해보겠습니다.\n모델\n입력(Input)\n출력(Output)\n\n\n\n\nGPT-5\n$1.25\n$10.00\n\n\nGPT-5-mini\n$0.25\n$2.00\n\n\nGPT-5-nano\n$0.05\n$0.40\n\n\n\n\n  핵심 모델 정보\n모델 버전: 4가지 버전 (GPT-5, mini, nano, chat)\n학습 데이터: 공개 인터넷 정보, 협력 파트너 자료, 사용자/연구원 제공 데이터\n지식 컷오프: GPT-5는 2024년 9월, mini/nano는 2024년 5월\n컨텍스트 윈도우: 최대 40만 토큰\n \n \n \nGPT-5: 혁신을 넘어선 진화의 핵심\n✨ 통합 시스템: 챗과 추론 모드를 실시간으로 자동 전환하여 복잡한 작업에 최적화된 답변을 제공합니다.\n  압도적 성능: Human Last Exam 42%, SWE Bench 74.9% 등 주요 벤치마크에서 역대 최고 성능을 기록했습니다.\n  안전성 강화:\nsafe-completions 훈련을 통해 환각, 아첨 감소 및 기만 방지 성능을 높였습니다.\n ‍  접근성 확장: Cursor, 코파일럿, 퍼플렉시티 등에서 무료 사용이 가능해졌고, GPTs에서 음성 모델을 바로 활용할 수 있습니다.\nGPT-5는 단순히 성능을 개선한 것이 아닌, AI의 새로운 활용 방식을 제시합니다.\n자주 묻는 질문 ❓\nQ: GPT-5가 무료로 제공되나요?\nA: 네, ChatGPT의 무료 계정에서도 일부 메시지 제한과 함께 GPT-5를 사용할 수 있습니다. 또한, Cursor, 마이크로소프트 코파일럿, 퍼플렉시티 등 일부 외부 플랫폼에서도 무료로 이용 가능합니다.\nQ: GPT-5를 쓰려면 별도로 선택해야 하나요?\nA: 유료 요금제 사용자(Plus, Pro, Team)는 모델 선택기에서 GPT-5를 수동으로 선택할 수 있습니다. 하지만 기본적으로는 모든 로그인 사용자에게 새로운 GPT-5가 기본 모델로 자동 적용됩니다.\nQ: GPT-5 Thinking 모드는 무엇인가요?\nA: GPT-5가 복잡한 요청에 대해 답변하기 전에 더 깊은 추론을 적용하는 모드입니다. 코딩, 과학, 금융 분석 등 정밀한 분석이 필요한 작업에 특히 유용하며, 유료 요금제 사용자에게 제공됩니다.\nQ: GPT-5 출시로 기존 대화가 사라지나요?\nA: 아니요, 기존 대화는 그대로 유지됩니다. 다만, 이전 모델을 사용했던 대화창을 열 경우 자동으로 GPT-5의 가장 유사한 모델로 전환되어 이어서 대화하게 됩니다.\n \n오늘은 이렇게 GPT-5에 대해 자세히 알아보았는데요. 사실 GPT-5의 등장은 단순한 기술 발전이 아니라, 우리가 AI를 활용하는 방식 자체를 한 단계 끌어올리는 중요한 계기가 될 것 같아요. 특히 복잡한 문제 해결이나 창의적인 작업에서 얼마나 놀라운 결과를 보여줄지 정말 기대가 됩니다.\n\n\n\n.single-summary-card-container {\nfont-family: 'Noto Sans KR', sans-serif;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\npadding: 20px 10px;\nbackground-color: #fce4ec;\nmargin: 20px 0;\n}\n.single-summary-card {\nwidth: 100%;\nmax-width: 700px;\nbackground-color: #ffffff;\nborder-radius: 12px;\nbox-shadow: 0 6px 18px rgba(0,0,0,0.12);\npadding: 25px;\ndisplay: flex;\nflex-direction: column;\noverflow: hidden;\nborder: 1px solid #ce93d8;\nbox-sizing: border-box;\nheight: auto;\nmin-height: unset;\n}\n.single-summary-card .card-header {\ndisplay: flex;\nalign-items: center;\nborder-bottom: 2px solid #8e24aa;\npadding-bottom: 12px;\nmargin-bottom: 12px;\n}\n.single-summary-card .card-header-icon {\nfont-size: 34px;\ncolor: #8e24aa;\nmargin-right: 14px;\n}\n.single-summary-card .card-header h3 {\nfont-size: 26px;\ncolor: #8e24aa;\nmargin: 0;\nline-height: 1.3;\nfont-weight: 700;\n}\n.single-summary-card .card-content {\nflex-grow: 1;\ndisplay: flex;\nflex-direction: column;\njustify-content: space-around;\nfont-size: 17px;\nline-height: 1.65;\ncolor: #444;\n}\n.single-summary-card .card-content .section {\nmargin-bottom: 10px;\n}\n.single-summary-card .card-content strong {\ncolor: #7b1fa2;\nfont-weight: 600;\n}\n.single-summary-card .card-content .highlight {\nbackground-color: #fff9c4;\npadding: 2px 6px;\nborder-radius: 3px;\nfont-weight: bold;\n}\n.single-summary-card .card-content .formula {\nbackground-color: #f3e5f5;\npadding: 6px 10px;\nborder-radius: 4px;\nfont-size: 0.9em;\ntext-align: center;\nmargin-top: 5px;\ncolor: #4a148c;\n}\n.single-summary-card .card-footer {\nfont-size: 14px;\ncolor: #777;\ntext-align: center;\npadding-top: 12px;\nborder-top: 1px dashed #e1bee7;\nmargin-top: auto;\n}\n@media (max-width: 768px) {\n.single-summary-card {\npadding: 18px;\nheight: auto;\nmin-height: unset;\n}\n.single-summary-card .card-header-icon {\nfont-size: 30px;\nmargin-right: 10px;\n}\n.single-summary-card .card-header h3 {\nfont-size: 22px;\n}\n.single-summary-card .card-content {\nfont-size: 15px;\nline-height: 1.6;\n}\n.single-summary-card .card-content .section {\nmargin-bottom: 8px;\n}\n.single-summary-card .card-content .formula {\npadding: 5px 8px;\nfont-size: 0.9em;\n}\n.single-summary-card .card-footer {\nfont-size: 13px;\npadding-top: 10px;\n}\n}\n@media (max-width: 480px) {\n.single-summary-card {\npadding: 15px;\n}\n.single-summary-card .card-header-icon {\nfont-size: 28px;\n}\n.single-summary-card .card-header h3 {\nfont-size: 20px;\n}\n.single-summary-card .card-content {\nfont-size: 14px;\nline-height: 1.55;\n}\n.single-summary-card .card-content .section {\nmargin-bottom: 6px;\n}\n.single-summary-card .card-content .formula {\npadding: 4px 6px;\nfont-size: 0.8em;\n}\n.single-summary-card .card-footer {\nfont-size: 12px;\npadding-top: 8px;\n}\n}",
@@ -63,164 +240,5 @@
       "챗GPT",
       "챗gpt 요금제"
     ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "RustRover 2025.2 Is Now Available",
-    "description": "This version introduces major debugger enhancements, including remote and on-chip support, a new color scheme, improved borrow checker assistance, additional Rust learning resources, and more. RustRover goes AI Junie, the in-IDE coding agent, is now 30% faster, connects to external sources via MCP, and supports remote development. AI Assistant adds even smarter code completion for […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2025/08/05/rustrover-2025-2-is-now-available/",
-    "pubDate": "Tue, 05 Aug 2025 15:19:01 +0000",
-    "creator": "Kseniya Starodubtseva",
-    "categories": [
-      "releases",
-      "rustrover"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "숨은 알짜 대명화학,패션&middot;물류&middot;항공까지 통합한 지주회사 - 스타트업",
-    "description": "제조기업인 줄 알았던 대명화학, 알고 보니 브랜드 플랫폼 대명화학은 이름만 들으면 전통적인 화학 제조기업처럼 들립니다. 하지만 이 기업의 진짜 정체는 지분투자를 기반으로 한 브랜드 인큐베이팅형 지주회사입니다. 코웰패션, 로젠택배, 에어로케이, K-뷰티 유통사 모스트까지 다양한 산업을 수직 계열화하며 안정적인 수익 기반과 폭발적인 성장성을 동시에 확보해가고",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/305",
-    "pubDate": "Thu, 07 Aug 2025 03:00:06 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Nginx 설정 통합과 Loki 연동으로 설계한 유연한 멀티사이트 아키텍처",
-    "description": "들어가며안녕하세요. LINE NEXT DevOps 팀에서 일하고 있는 이동원이라고 합니다. 현재 쿠버네티스 기반의 인프라 운영과 유지 보수, CI/CD 구축, 로그 수집 및 모니터...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/flexible-multi-site-architecture-with-integrated-nginx-configuration-and-loki",
-    "pubDate": "Thu, 07 Aug 2025 06:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "GoLand 2025.2 Is Now Out!",
-    "description": "GoLand 2025.2 introduces updates for working with HTTP servers, smarter inspections powered by data flow analysis (DFA), and a new non-blocking Welcome screen. This release also brings significant quality improvements to golangci-lint support, including version 2, making the integration more robust for real-time code analysis. Let’s take a closer look at all the new additions […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2025/08/05/goland-2025-2-is-now-out/",
-    "pubDate": "Tue, 05 Aug 2025 12:22:27 +0000",
-    "creator": "Artem Pronichev",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Building a human-computer interface for everyone",
-    "description": "What if you could control any device using only subtle hand movements? New research from Meta’s Reality Labs is pointing even more firmly toward wrist-worn devices using surface electromyography (sEMG) becoming the future of human-computer interaction. But how do you develop a wrist-worn input device that works for everyone? Generalization has been one of the [...]\nRead More...\nThe post Building a human-computer interface for everyone appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/08/04/virtual-reality/building-a-human-computer-interface-for-everyone-meta-tech-podcast/",
-    "pubDate": "Mon, 04 Aug 2025 14:00:25 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "AI Research",
-      "Culture",
-      "ML Applications",
-      "Virtual Reality",
-      "Meta Tech Podcast"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "AI Assistant, Junie and Kineto Now Support GPT-5 by OpenAI",
-    "description": "At JetBrains, we are committed to delivering the best technologies to professional developers. We support multiple LLM providers across our AI products to ensure you have access to the right tools for your needs and the freedom to choose the ones you prefer. Today, we’re excited to announce that the latest model from OpenAI, GPT-5, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2025/08/07/gpt-5-support-in-ai-assistant-junie-kineto/",
-    "pubDate": "Thu, 07 Aug 2025 17:00:07 +0000",
-    "creator": "Anna Maltseva",
-    "categories": [
-      "news",
-      "ai-assistant",
-      "ai-in-ides",
-      "junie"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Kotlin Notebook Meets IntelliJ Platform: Advancing IDE Plugin Development",
-    "description": "The value of extensibility The ability to extend and customize software, from game mods to browser extensions, gives users a sense of freedom and the chance to bring their ideas to life. JetBrains IDEs already provide this sense of freedom through their support for plugins. For some time now, creating plugins for JetBrains IDEs has […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/08/kotlin-notebook-meets-intellij-platform-advancing-ide-plugin-development/",
-    "pubDate": "Wed, 06 Aug 2025 10:32:10 +0000",
-    "creator": "Jakub Chrzanowski",
-    "categories": [
-      "idea",
-      "intellij-platform",
-      "news",
-      "intellij-idea",
-      "kotlin-notebook",
-      "plugin-development"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "What’s New in vcpkg (July 2025)",
-    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.07.25 registry release, 2025-06-20, 2025-07-16, and 2025-07-21 tool releases, as well as changes to vcpkg documentation throughout July. This release includes a new command for printing package SPDX licenses, binary caching optimizations, and support for visionOS, Solaris, and illumos systems. Some […]\nThe post What’s New in vcpkg (July 2025) appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-july-2025/",
-    "pubDate": "Tue, 05 Aug 2025 20:34:38 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "에스토니아 스타트업 성공전략 - 디지털 국가에서 글로벌 창업하는 법",
-    "description": "에스토니아는 작은 나라지만 디지털 혁신의 선구자로, 전 세계에서 가장 앞선 전자정부 시스템을 보유한 국가 중 하나입니다. 특히  e-Residency 제도를 통해 세계 어디서나 온라인으로 법인 설립과 경영이 가능해, 글로벌 스타트업 창업자에게 매력적인 기회를 제공합니다. 이번 포스팅에서는 에스토니아 스타트업 생태계, 정부 지원정책,  e-Residency",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/304",
-    "pubDate": "Sat, 02 Aug 2025 03:00:05 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 13화, 장래희망인데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2342",
-    "pubDate": "Wed, 06 Aug 2025 16:02:33 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "싱가포르 스타트업 성공 전략 - 아시아 창업 허브의 비밀",
-    "description": "싱가포르는 동남아시아 스타트업 생태계의 중심지로, 세계에서 가장 창업 친화적인 국가 중 하나로 꼽힙니다. 낮은 법인세, 글로벌 금융 허브, 영어 사용 환경, 그리고 정부 주도의 강력한 스타트업 지원정책 덕분에 아시아는 물론 글로벌 스타트업들이 싱가포르를 베이스캠프로 삼고 있습니다. 이번 포스팅에서는 싱가포르 스타트업 생태계의 특징, 주요 산업, 정부 지원정",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/303",
-    "pubDate": "Fri, 01 Aug 2025 03:00:11 GMT",
-    "creator": "고명환",
-    "categories": []
   }
 ]
