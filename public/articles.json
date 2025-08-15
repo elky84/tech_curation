@@ -2,74 +2,110 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "dotInsights | August 2025",
-    "description": "Did you know? A feature of C# is null-coalescing operators. The ?? operator (null-coalescing operator) returns the left-hand operand if it is not null; otherwise, it evaluates and returns the right-hand operand. The ??= operator (null-coalescing assignment operator) assigns the right-hand operand’s value to the left-hand operand only if the left-hand operand is null. Welcome to […]",
+    "title": "From Redmond to San Diego: VS Live! Highlights, Session Examples, and What’s Next",
+    "description": "There’s something special about hosting developers at Microsoft HQ — and this year’s Visual Studio Live! Redmond reminded me why I love these events. The energy in every room was electric. From the moment the first session kicked off, developers leaned in, asked smart, challenging questions, and took every opportunity to connect with the Product […]\nThe post From Redmond to San Diego: VS Live! Highlights, Session Examples, and What’s Next appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/08/12/dotinsights-august-2025/",
-    "pubDate": "Tue, 12 Aug 2025 14:09:13 +0000",
-    "creator": "Rachel Appel",
+    "link": "https://devblogs.microsoft.com/visualstudio/from-redmond-to-san-diego-vs-live-highlights-session-examples-and-whats-next/",
+    "pubDate": "Thu, 14 Aug 2025 00:36:07 +0000",
+    "creator": "Jim Harrer",
     "categories": [
-      "net-tools",
-      "dotinsights"
+      "Visual Studio",
+      "Events",
+      "Training",
+      "Visual Studio Live!",
+      "vslive"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "한강대교 북단, 노들섬 - 2025년 8월 4일",
-    "description": "No description available",
+    "title": "New Quarter, New Qodana 2025.2 Release Highlights ",
+    "description": "Following the recent rollout of our new Insights dashboard, Native mode, Self-Hosted Lite version, SSO functionality, and Visual Studio plugin, our Qodana 2025.2 update promises another round of improvements and extensions. Take a look at what we’ve been doing as we focus on providing greater access to code quality and security in your organization, and […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hodolman.tistory.com/80",
-    "pubDate": "Mon, 11 Aug 2025 22:35:59 +0900",
-    "creator": "호돌맨",
+    "link": "https://blog.jetbrains.com/qodana/2025/08/qodana-2025-2-release/",
+    "pubDate": "Thu, 14 Aug 2025 13:32:29 +0000",
+    "creator": "Kerry Beetge",
     "categories": [
-      "사진",
-      "노들섬",
-      "노을",
-      "야경",
-      "한강대교북단"
+      "features",
+      "releases",
+      "go",
+      "kotlin",
+      "owasp",
+      "python",
+      "qodana",
+      "security-reviews"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "숨은 알짜 대명화학,패션&middot;물류&middot;항공까지 통합한 지주회사 - 스타트업",
-    "description": "제조기업인 줄 알았던 대명화학, 알고 보니 브랜드 플랫폼 대명화학은 이름만 들으면 전통적인 화학 제조기업처럼 들립니다. 하지만 이 기업의 진짜 정체는 지분투자를 기반으로 한 브랜드 인큐베이팅형 지주회사입니다. 코웰패션, 로젠택배, 에어로케이, K-뷰티 유통사 모스트까지 다양한 산업을 수직 계열화하며 안정적인 수익 기반과 폭발적인 성장성을 동시에 확보해가고",
+    "title": "탁월해지기",
+    "description": "2001년도에 출간된 짐 콜린스의 책 ‘Good to Great’은 당시에 아주 화제가 됐다. 웬만한 경영대학원에서 가르치는 그 어떤 수업보다 더 생생하고, 이론적이면서도 동시에 실용적인 경영 서적이었다. 한국에서는 ‘좋은 기업을 넘어 위대한 기업으로’라는 이름으로 번역되어 출간됐고, 이 책이 어떤 내용인지는 책의 제목이 그대로 설명해 준다. 좋은 기업이 되는 것도 어렵지만, 왜 어떤 기업은 그냥 좋은 기업으로 남고,(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/305",
-    "pubDate": "Thu, 07 Aug 2025 03:00:06 GMT",
-    "creator": "고명환",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2025/08/being-extraordinary.html",
+    "pubDate": "Sun, 10 Aug 2025 21:34:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Claude Code 101",
-    "description": "<p>회사에서 AI 도구를 자유롭게 활용할 수 있도록 지원해 준 덕분에, 그동안 Cursor, Cline, Copilot 등 다양한 코딩 에이전트를 활용해 개발 생산성을 높일 수 있었습니다. 그러던 중 지난 2025년 6월 24일 Anthropic에서 터미널 기반의 코딩 에이전트인 Claude Code를 정식 출시했습니다.</p>\n\n<p>터미널은 개발자가 컴퓨터와 직접 대화를 나눌 수 있는 창구라서 떼려야 뗄 수 없지만, GUI의 도움을 받아 개발 하다보면 터미널에 익숙하지 않을 수 있습니다. GUI가 편하기도 하고요. 그래서 별도 GUI 인터페이스를 갖추고 있는 Cursor, Cline 같은 도구를 사용해 오던 입장에서, 처음에 Claude Code 컨셉만 들었을땐 마냥 불편할 것만 같았습니다.</p>\n\n<p>그런데 막상 써보니 인터페이스가 터미널이라 굉장히 가벼울 뿐 아니라, 특정 IDE에 종속되지 않고 어디서든 쓸 수 있다는 점이 장점으로 느껴졌습니다. 특히 JVM 환경에서 주로 개발하다 보니, 프로젝트 인덱싱, 컴파일, 빌드 등의 과정이 Cursor나 Cline에서는 다소 불편하게 느껴졌는데, Claude Code는 IntelliJ의 터미널에서 실행되니 마치 플러그인 하나 설치해 쓰는 듯한 경험이었습니다. 그래서 Cursor를 주로 사용하던 저는 이제 Claude Code만 쓰는 사람이 되었습니다.</p>\n\n<p>코딩 에이전트를 포함한 AI 기술은 하루가 다르게 빠르게 발전하고 있습니다. 일주일, 한 달만 지나도 새로운 기술과 모델이 나오고, 이전 것은 금세 시야에서 사라집니다. 개발자는 그때마다 새로운 경험을 맞이하게 됩니다. Cursor, Cline 같은 도구를 쓰면서 이 다음에 뭐가 나올까 궁금했는데 Claude Code가 하나의 변곡점이 될 거라는 느낌을 받았습니다.</p>\n\n<p>혼자서 스터디도 하고 사내 엔지니어들과 이야기를 나누면서 Claude Code를 더 잘 써보기 위한 방법들을 하나 둘 찾아나갔고, 지난 달 전사 테크 올핸즈에서 ‘<strong>한 번 쓰고 끝이 아니다. 끊임없이 진화하는 코딩 에이전트 활용법</strong>’ 이라는 주제로 Claude Code 사용 방법에 대해 공유했습니다.</p>\n\n<p>결국 코딩 에이전트를 사용하는 목적 중 하나는 생산성을 극대화 시키기 위함인데, 코딩 에이전트에게 무언가 시키고 나면 다시 제가 직접 수정하는 일이 생겼고 이건 목적에서 조금은 벗어난다는 생각이 들었습니다. ‘이럴 거면 내가 짜는 게 낫지‘ 라는 결론으로 이어질 수도 있고요. 그래서 Claude Code를 더 잘 활용하기 위해 Rules, Custom commands, Hooks 등을 작성했고, 머지 않아 또 다른 패러다임에 변화가 올거라 믿지만, 개인 블로그에도 간단하게 기록차 남겨봅니다.</p>\n\n<hr />\n\n<h1 id=\"claude-code-101\">Claude Code 101</h1>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-1.png\" alt=\"claude-code-101-1\" title=\"claude-code-101-1\" class=\"center-image\" /></p>\n\n<p>다들 첫 출근날과 처음으로 업무 받은 날을 기억하나요? 만약 어떤 회사에 입사를 했는데 팀에 나 혼자라고 가정해봅시다. 업무를 받았으니 무언가 해야 되는데 참고할 만한 문서가 있긴 한데 많이 부실합니다. 그리고 작성된 코드 양은 너무 많아서 어디 부터 봐야 할 지 모르는 상황입니다. 이럴때 우리는 어떻게 해야할까요?</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-2.png\" alt=\"claude-code-101-2\" title=\"claude-code-101-2\" class=\"center-image\" /></p>\n\n<p>‘어떤 것부터 알면 될까?’ 생각이 들텐데, 실제로는 내가 뭘 알아야 하는지도 모르는 상태입니다. 아는게 있어야 뭘 모르는지도 알게 될테니까요. 그렇다면 이 상황을 어떻게 해결하면 좋을까요? 간단한 방법은 2가지가 있습니다. 누군가에게 일단 물어보거나, 스스로 알아갈 때까지 고뇌하는 것입니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-3.png\" alt=\"claude-code-101-3\" title=\"claude-code-101-3\" class=\"center-image\" /></p>\n\n<p>이런 상황을 해결하기 위해 회사는 ‘신규 입사자 온보딩’ 프로그램을 운영하곤 합니다. 신규 입사자가 왔을때 여기는 어떤 문화를 가지고 있고, 시스템은 어떻고, 나는 어떤 일을 어떻게 하면 되는지 방법을 알려줍니다. 새로 온 동료가 그동안의 오래된 제품에 대한 맥락과 팀의 일하는 방식을 알아가기 까지 스스로 한다면 더 오랜 시간이 걸릴텐데, 잘 정리되어 있는 문서나 참고해야 할 요소들이 많다면 더 빠르게 알아갈 수 있을거에요.</p>\n\n<p>코딩 에이전트도 이와 크게 다르지 않습니다. 무작정 코딩 에이전트에게 ‘1000원 할인 코드 작성해줘’ 라고 하면 코딩 에이전트는 구체적인 정보를 찾기 위해 더 많은 시간을 쓰고 알지 못한다면 추측을 하기도 합니다. 그래서 코딩 에이전트가 나와 수년을 함께 한 동료가 되기 위해서는 알고 있는 모든 것을 알려줘야 합니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-4.png\" alt=\"claude-code-101-4\" title=\"claude-code-101-4\" class=\"center-image\" /></p>\n\n<p>우리 팀의 프로젝트 아키텍처는 어떤 형태로 구성되어 있는지 자세히 알려줘야 합니다. 의존성 규칙과 방향이 강제되어 있다면 이 또한 반드시 알려줘야 합니다.</p>\n\n<p>코드 컨벤션이 있다면 이 또한 자세히 가이드 해줘야 합니다. 팀에서 사용중인 코드 컨벤션이 없다면 각 언어의 공식 컨벤션이라도 알려주면 좋습니다. 저희 팀은 클래스 네이밍에 Alistair Cockburn이 언급한 원칙인 <code class=\"language-plaintext highlighter-rouge\">the name should be the goal as a short active verb phrase</code> 을 준수합니다. 이름만 보고도 그 클래스의 역할과 책임이 명확히 드러나야 하고, 역할과 책임 그리고 의미있는 접미사/접두사를 사용합니다. 그래서 대부분의 클래스는 <code class=\"language-plaintext highlighter-rouge\">동사 + 역할 + 접미사</code> 의 조합으로 이름을 짓고 있습니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-5.png\" alt=\"claude-code-101-5\" title=\"claude-code-101-5\" class=\"center-image\" /></p>\n\n<p>팀에서 사용중인 테스트 작성법이 있다면 이것도 자세히 알려줍니다. 저희 팀은 외부 의존성이 필요한 Mocking Library 사용을 지양하고, 조금 더 Production Code 변화에 유연하게 대응하기 위해 Test Double을 직접 만들어서 사용합니다. 그리고 테스트 코드를 구조화해서 가독성, 유지보수성, 일관성을 끌어 올리기 위해 AAA(Arrange, Act, Assert) 패턴을 사용합니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-6.png\" alt=\"claude-code-101-6\" title=\"claude-code-101-6\" class=\"center-image\" /></p>\n\n<p>커밋을 작성할 때에도 기본 형식이 있습니다. 커밋 메시지의 맨 앞에는 이슈 티켓을 입력하고, 그 다음에는 어떤 유형의 커밋이고 어떤 모듈의 변화인지, 그리고 마지막에는 커밋의 설명을 간단하게 작성합니다.</p>\n\n<ul>\n  <li><code class=\"language-plaintext highlighter-rouge\">GZ-{티켓번호} {타입}({모듈}): {설명}</code></li>\n</ul>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-7.png\" alt=\"claude-code-101-7\" title=\"claude-code-101-7\" class=\"center-image\" /></p>\n\n<p>Claude Code는 우리 팀이 이렇게 일한다는 사실을 알고 있을까요? 알 수 없으면 알려주면 됩니다. 팀의 일하는 방식을 알려주면 그 순간 수년을 함께 한 동료가 될 수 있습니다. 애자일하게 일하는 조직일수록 일하는 방식은 날이 갈수록 개선됩니다. 저희 팀도 마찬가지로 일하는 방식과 가이드가 그 때의 상황에 따라 더 나은 방향으로 계속해서 개선되고 있습니다. 과거에는 맞았지만 지금은 다를 수 있으니까요. 미래에는 더 다를거고요.</p>\n\n<p>마찬가지로, 다양한 코드 작성 Rule을 통해 Claude Code는 어떻게 코드를 작성하면 되는지 알게 될텐데, 이 Rule은 계속해서 개선되고 진화해야 합니다. 개발 팀미팅에서 클래스 네이밍하는 방식이 변경됐다면 Rule에도 업데이트 하고 Claude Code에게도 이 사실을 알려줘야 합니다. 그래서 우스갯소리로 가이드 문서(Rule)가 얼마나 자주 업데이트 되는지 보면, 코딩 에이전트를 얼마나 잘 활용하고 있는지 알 수 있습니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-8.png\" alt=\"claude-code-101-8\" title=\"claude-code-101-8\" class=\"center-image\" /></p>\n\n<p>그래서 Claude Code 뿐만 아니라 코딩 에이전트에게 무언가 프롬프팅을 완료하고 나면 끝이 아니라 이제부터가 시작입니다. 코드를 원하는대로 잘 작성했다면 다음번에도 이처럼 잘 할 수 있도록 가이드 해줘야 합니다. 코딩 에이전트에게 준 피드백과 쌓여가는 Rule은 곧, 복리의 마법으로 다가올 것이라는걸 믿는게 중요하다고 생각합니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-9.png\" alt=\"claude-code-101-9\" title=\"claude-code-101-9\" class=\"center-image\" /></p>\n\n<p>발표 자료 중간에 Claude Code 기본 사용법과 소소한 팁이 있는데, 이 글에 담기엔 단순 정보라서 PDF를 참고해주시면 좋겠습니다.</p>\n\n<p>아무튼.. 가장 중요한 것은 꺾이지 않는 마음입니다. 코딩 에이전트에게 무언가 명령을 했는데 잘 알아듣지 못하고 엉뚱한 코드를 작성한다거나 내가 작성하는 스타일과 다르게 코드를 작성한다거나, 마음에 들지 않을때 있습니다. 이 때 우리는 ‘그냥 내가 하는게 낫겠다’ 라는 생각이 들면서 갈림길에 놓이게 됩니다.</p>\n\n<p>이 때 한 숨 크게 고르시고, 어떤게 잘못되었는지 어떻게 작성해야 하는지 알려주어야 합니다. 이건 마치 일을 빠르게 처리하지 못하고 있는 신규 입사자 동료에게 답답함을 느끼는 것과 같다고 생각합니다. 수정이 필요한 부분이 있다면 직접 고치지 않고, 어떤 코드를 어떻게 작성하면 되는지 알려주어야 합니다. 잘 해냈다면 다음 번에는 어떻게 하면 되는지 피드백을 통해 가이드와 Rule을 갱신합니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-10.png\" alt=\"claude-code-101-10\" title=\"claude-code-101-10\" class=\"center-image\" /></p>\n\n<p>마지막으로, 이 발표에서 전달하려고 했던 메시지 메시지입니다.</p>\n\n<ul>\n  <li>코딩 에이전트가 못하면 가르치자</li>\n  <li>코딩 에이전트가 해냈으면 회고하자</li>\n  <li>그리고 복리의 마법을 믿자</li>\n</ul>\n\n<hr />\n\n<h3 id=\"마치며\">마치며</h3>\n\n<p>코딩 에이전트를 접하고 나서 정말 많은 시간을 코드 작성법(Rule)을 만드는 일에 할애했습니다. 팀에서 수십개 서비스를 모노레포에 관리중인데, 오래전부터 아키틱체와 코드 컨벤션을 잘 유지하고 가이드를 다듬어 놓아서 초기 Rule을 작성하는데에 시간은 오래 걸렸지만 어렵지 않았습니다.</p>\n\n<p>지금은 Claude Code를 사용하면서 N개의 일을 병렬로 할 수 있는 환경이 되었습니다. 커밋 메시지를 작성한다던가, Pull Request 본문을 작성하는 등 코드를 작성하고 나서 반복적으로 하는 작업들은 더이상 제가 하지 않습니다. Claude Code가 일을 잘 해서 그런것도 있지만, 초기에 Rule 셋팅하는 시간을 많이 투자한 덕분이라고 생각합니다.</p>\n\n<p>단순한 기능을 만들 때에는 가이드 없이 Claude Code를 바로 사용해도 좋다고 생각합니다. 하지만 조금 복잡해지거나 도메인 규칙을 이해해야 한다거나, 우리 팀만의 가이드에 따라 코드 작성이 필요하다면 바로 사용하는건 멈추고 Rule 부터 정돈하기를 권장합니다.</p>\n\n<p>마지막으로, 작성된 모든 내용은 제 개인적인 의견이고 소수의 인원이 작업을 하는 곳보다 다수의 인원이 같은 Repository에 작업을 할 때에는 더 빛을 보는 방법이니 참고해주세요. 모두 복리의 마법을 믿고 코딩 대탈출 하셨으면 좋겠습니다!</p>\n\n<ul>\n  <li>P.S. 발표 자료는 일부 내용 제거된 형태로 업로드 되어 있습니다. <a href=\"https://github.com/sungjk/sungjk.github.io/tree/master/images/2025/08/09/ClaudeCode101_20250809.pdf\">ClaudeCode101_20250809.pdf</a>를 참고하시면 됩니다. 궁금하신 점이 있으면 편하게 메일로 연락 주세요.</li>\n</ul>",
+    "title": "슈퍼앱의 허상",
+    "description": "매우 적지만, 우리도 지금까지 몇 개의 엑싯을 경험한 적이 있다. 쿠팡 같이 IPO를 한 경우도 있지만, 더 큰 회사에 인수되거나 비슷한 규모의 회사와 합병하면서 M&A를 통해 엑싯 한 경우가 대부분이다. 많지 않은 M&A를 통해서 내가 배운 게 하나 있다면, 좋은 엑싯을 위해서는 회사가 팔려야지, 팔아서는 안 된다는 것이다. 이게 무슨 말이냐 하면, 좋은 회사는 엑싯을(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://sungjk.github.io/2025/08/09/claude-code-101.html",
-    "pubDate": "2025-08-09T00:00:00+00:00",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2025/08/super-apps-are-not-built-in-a-day.html",
+    "pubDate": "Wed, 13 Aug 2025 21:36:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "exit",
+      "FoundersAtWork",
+      "product",
+      "strategy",
+      "Strong"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "자네, 해커가 되지 않겠나? Hack Day 2025에 다녀왔습니다!",
-    "description": "안녕하세요. LINE Plus 소속 Redis 팀의 김정훈입니다. 저는 지난 7월 2일부터 4일까지 사흘간 진행된 사내 해커톤 'Hack Day 2025'에 참가했습니다. Hack...",
+    "title": "역설계",
+    "description": "소프트웨어 엔지니어로 성장하면서 \"저 사람처럼 코드를 작성하고 싶다\" 라는 생각으로 프로젝트 코드를 그대로 따라친 적이 많다.\n원어민의 발음을 쉐도잉 (Shadowing) 하듯이 그들의 프로젝트 코드를 처음 Git log부터 순서대로 따라 작성했다.\n테스트 주도 개발 책에 예제를 활용해서 JUnit을 TDD로 직접 만들어 보거나, 스프링 프레임워크를 따라치면서 로드 존슨을 비롯한 여러 개발자들이 왜 당시에 이렇게 작성했는지 고민해보곤 했다.\n직접 하이버네이트의 기본 기능을 만들어보고 하이버네이트는 내부적으로 어떻게 구현했는지 비교해보기도 했다.\n이렇게 해당 프레임워크들의 Git log대로(고민의 흐름대로) 작성하다보면 그들의 생각을 조금은 엿볼 수 있었다.\n실무에서 무언가 내 의도대로 안되었을 때, 되어야 하는데 안되는 건지, 애초에 안되야 하는게 맞는건지를 조금은 구분할 수 있게 되어 문제가 발생하면 빠르게 예상 되는 지점을 좁힐 수 있었다.\n한때는 무라카미 하루키의 글을 필사하기도 했다.\n\"달리기를 말할 때 내가 하고 싶은 이야기\", \"직업으로서의 소설가\" 같은 책들은 그 당시의 생생한 주변 풍경을 너무 잘 묘사해서 이 표현을 너무 닮고 싶었다.\n히로시마의 선발 투수는 분명 다카하시였던 것으로 알고 있습니다.\n야쿠르트의 선발은 야스다였습니다. 1회 말, 다카하시가 제1구를 던지자 힐턴은 그것을 좌중간에 깔끔하게 띄워 올려 2루타를 만들었습니다. 방망이가 공에 맞는 상쾌한 소리가 진구 구장에 울려 퍼졌습니다. 띄엄띄엄 박수 소리가 주위에서 일었습니다.\n나는 그때 아무런 맥락도 없이, 아무런 근거도 없이 문득 이렇게 생각했습니다.\n‘그래, 나도 소설을 쓸 수 있을지 모른다’라고.\n그때의 감각을 나는 아직도 확실하게 기억합니다.\n하늘에서 뭔가가 하늘하늘 천천히 내려왔고 그것을 두 손으로 멋지게 받아낸 듯한 기분이었습니다.\n어째서 그것이 때마침 내 손안에 떨어졌는지, 그 이유는 잘 모르겠습니다. 그때도 몰랐고 지금도 모릅니다. 하지만 이유야 어찌 됐건 아무튼 그것이 일어났습니다.\n그것은 뭐라고 해야 할까, 일종의 계시 같은 것이었습니다. 영어에 epiphany라는 말이 있습니다. 일본어로 번역하면 ‘본질의 돌연한 현현顯現’ ‘직감적인 진실 파악’이라는 어려운 단어입니다.\n알기 쉽게 말하자면, ‘어느 날 돌연 뭔가가 눈앞에 쓱 나타나고 그것에 의해 모든 일의 양상이 확 바뀐다’라는 느낌입니다.\n바로 그것이 그날 오후에 내 신상에 일어났습니다.\n그 일을 경계로 내 인생의 양상이 확 바뀐 것입니다.\n데이브 힐턴이 톱타자로 진구 구장에서 아름답고 날카로운 2루타를 날린 그 순간에.\n[직업으로서의 소설가 - 제 2회 소설가가 된 무렵]\n컨퍼런스에서 누군가 이목을 끄는 장표를 만들었다면 그걸 사진을 찍어두고 적절한 때에 사용하기도 하고,\n유튜브, 팟캐스트 등에서 좋은 인터뷰 질문이 있으면 그걸 기억해두고 다음 우리 촬영때 그 질문을 응용해서 사용하기도 했다.\n혼자서 창작하는데는 재능이 없다고 생각하고 주변의 많은 재료들을 최대한 흡수해서 응용하는 것을 주로 하던 입장에서는 위로와 함께 좀 더 구체적인 노하우를 얻을 수 있었다.\n1부까지는 역설계라는 말에 어울리는 내용들이였지만, 2부 부터는 탁월한 성과를 내는 사람이 되는 구체적인 방법들을 전달한다.\n그래서 2부 부터는 역설계 내용과는 조금 거리가 있다고 느껴지긴 했지만, 그럼에도 2부 역시 배울게 많았다.\n성장을 위해 선행지표, 후행지표를 제대로 정하는 방법\n최대한 실행에 대한 리스크를 줄이는 방법\n반복적 연습이 아닌 전략적 연습을 수행하는 방법\n전문가에게서 값진 조언을 얻는 법\n등등 그간 보았던 여러 탁월함에 대한 책들의 종합 개론서 같은 느낌이 2부였다.\n당장 실행해야할 액션 아이템들도 얻었다.\n연구 팀은 중간고사 일주일 전에 학생들을 세 그룹으로 나눴다.\n첫 번째 그룹에게는 중간고사에서 좋은 성적을 받는 것을 상상하라고 말했다.\n두 번째 그룹에게는 좋은 성적이 아니라 공부하는 과정을 상상하라고 했다.\n세 번째 그룹에게는 일주일 동안 공부한 시간을 기록하게 했다.\n...\n어느 그룹이 중간고사에서 가장 좋은 성적을 받았을까?\n당연히 공부하는 과정을 상상한 그룹이었다.\n이들은 실제로 더 열심히 공부했고 불안감이 줄었으며 성적도 더 높게 나왔다.\n...\n대조군과 비교할 때, 짐캐리처럼 성공을 상상한 그룹이 중간고사 성적이 가장 낮았다.\n...\n바라는 결과를 달성한 모습을 상상할 때 경험하는 감정적 보상이 성공에 필요한 작업을 수행하려는 욕구를 감소시키기 때문이다.\n[6장 - 뻔한 연습이 아니라 전략적 연습이 필요하다]\n\"결과\"에 대한 상상이 아닌 \"과정\"에 대한 상상이 훨씬 더 높은 성취를 내는데 도움이 된다는 것에 확신이 생겼다.\n프로젝트가 시작 되기 전에 \"이 프로젝트가 잘 되면 어떤 즐거운 결과가 있을 것인지\"를 이야기 했다면, 이제는 프로젝트 진행 과정 중에서 발생할만한 일을 좀 더 자주 이야기하고 팀원들이 미리 상상할 수 있도록 하는 것이 더 좋은 결과물을 낼 수 있겠다는 생각을 했다.\n예컨대 중요한 기획서를 작성하는 중이라면 동료에게 그냥 \"피드백을 달라\"고 하지말고, 첫 단락이 읽는 이의 호기심을 끌어당기는지, 또는 프로젝트 스케줄이 의욕적으로 느껴지는지 물어보라\"\n[7장 - 전문가에게서 값진 조언을 얻는 법]\n하반기 피드백 기간에는 셀프 피드백 항목에 \"동료에게 피드백을 받고 싶은 역량, 프로젝트 등이 있다면 작성해주세요\" 와 같이 어떤 피드백을 받고 싶은지 스스로가 작성하도록 해보는 것도 좋겠다는 생각을 했다.\n책의 마지막에 있는 \"반드시 기억해야 할 10가지\" 에 책의 각 챕터에서 이야기한 내용들을 요약 정리해준 것은 이 책에서 놓치지 말아야할 것들이 무엇인지 한번 더 집어준 것 같아 좀 더 기억에 오래 남을 것 같다.\n오랫만에 하루키의 책을 다시 필사해야겠다.\n책 속 문장\n\"날마다 그 책을 펴서 두 페이지를 필사했다.\n한 문장 한 문장 옮겨 적으면서 글의 리듬을 받아들이고 대화 처리 방식, 단 몇 줄로 인물의 성격을 암시하는 기법 등을 음미했다.\n'낯설게' 느껴지는 음식에서 그런 맛의 추억을 떠올리게 하는 것이 훨씬 더 강렬한 효과를 낸다.\n낯선 맥락 속에서 그런 기본 패턴을 유지하는 것이 핵심이다.\n첫째, 창의성은 고립에서 나오는 것이 아니라 여러 아이디어의 융합에서 나온다.\n...\n둘때, 독창성은 창의성과 동의어가 아니다.\n...\n비즈니스 세계에는 시장을 선점하고도 더 진취적이고 창의적인 경쟁자들에게 밀려 뒤쳐진 사례가 허다하다.\n셋째, 역설계는 창의성을 가로막는 방해물이 아니다.\n오히려 새로운 기술과 지식을 습득해 뭔가를 전과 다른 창의적인 방식으로 만들어 낼 수 있는 저력을 키워준다.\n모방을 위해서는 해당 작품을 만드는 동안 원작자가 내린 결정들에 대해 깊이 생각해보아야 한다.\n또한 모방 작업을 하다 보면 평소에는 그냥 지나쳤을 요소나 기회를 민감하게 인식하게 된다.\n모방은 새로운 관점으로 가는 길을 열어주며, 우리 자신의 작업 방식에 숨겨진 창의적 기회를 찾게 도와준다.\n로빈슨의 강연 방식은 물론 훌륭하다.\n그러나 30초마다 농담이 나오고 풍부한 일화를 곁들인 강연을 누구나 할 수 있는 것은 아니고, 또 모두가 그런 강연을 하고 싶어 하는 것도 아니다.\n본받고 싶은 강연 스타일은 사람마다 다를 수 있다.\n그러니 당신이 선호하는 유형의 다른 강연자를 찾아라. \n그의 강연을 보면서 역방향 개요를 작성하고 특성들을 수치화하고 강연의 얼개를 구성해보라.\n이것은 다양한 결과물을 해부해 효과적인 구조를 발견하는 대단히 유용한 방법이며, 당신은 그 구조와 공식을 당신만의 방식으로 활용할 수 있다\n요컨대 전문가는 비전문가와 생각하는 방식이 다르다.\n그들은 자신도 의식하지 못하는 지름길을 활용하고, 자신이 하는 행동을 깊게 생각하지 않으며, 자신이 아는 것을 모르는 상태를 상상하지 못한다.\n성공적인 작업에 필요한 행동을 분석해서 말해달라고 하면, 그들은 70퍼센트를 빼놓고 말한다.\n그리고 설명해주는 30퍼센트는? 대다수 사람들이 조금 힘겨워하거나 또는 아예 이해하기 힘든 언어로 설명한다.\n새로운 무언가를 창업하려고 하는 사람 중에서 이전의 직장에서 다니면서 하는 사람과, 직장을 관두고 전업으로 하는 사람 중에 누가 더 성공할 것인가?\n전업으로 창업을 준비하는 사람이 더 확률이 높을 것이라고 직관적인 생각이 들지만 실상은 그 반대.\n안정적인 수입이 있는 사람이 여러가지 기회와 가능성을 충분히 살피고 선택하고 결정할 수 있기 때문에, 전자인 직장인으로서 준비하는 것이 더 확률이 높다는 것이다.\n이는 바로 리스크를 선택함에 여유가 있기 때문이며, 이러한 과정에서 아래의 4가지 방법을 모두 적용할 수 있다.\n규모가 작은 청중을 상대로 테스트하고\n가명 활용하기\n먼저 아이디어부터 판매하기\n포트폴리오 다양화하기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/hack-day-2025-recap",
-    "pubDate": "Thu, 07 Aug 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://jojoldu.tistory.com/841",
+    "pubDate": "Mon, 11 Aug 2025 09:50:18 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "도서",
+      "쉐도잉",
+      "역설계",
+      "필사"
+    ]
   },
   {
     "id": 6,
+    "imageUrl": "",
+    "title": "셀트리온 일라이 릴리 미국 공장 인수 시도",
+    "description": "영상: https://www.youtube.com/watch?v=hvqc7R5p0l0&t=294s\n\n\n\n \n \n주가 더럽게 안가지만 이번엔 진짜로 갈 수도 있겠습니다.\n \n미국에서 생산을 하면 관세를 깎아주는 법안 때문에 인수 하는거 같군요\n \n앱토즈마 라는게 좋다는군요 기대 됩니다.\n \n8분14초에 앵커가 대본을 잘 못읽는거 같은데\n못알아 들었습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1373",
+    "pubDate": "Fri, 8 Aug 2025 22:01:33 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "투자",
+      "셀트리온"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "페도라42에서 docker 오류",
     "description": "리눅스 중에 최신 버전을 사용하는 페도라 리눅스42에 docker를 설치하면 에러가 발생하면서 실행되지 않는다. 결론만 말하면 iptables-legacy 패키지를 설치하고 리부트하면 손쉽게 해결 된다. 그러면 Fedora42에서 docker 의 오류 증상과 해결법에 대해서 살펴보도록 하겠다.\n참고로 페도라 리눅스 42는 2025년 4월 16일에 출시되었다.\nDocker on Fedora 42\n\n\n \n1. Fedora Linux 42에서 docker 오류\n페도라 리눅스 42에 docker-ce를 설치하고, enable and start를 하면 다음과 같이 에러가 발생한다. 아래는 명령어 실행시 발생하는 에러 상황을 캡쳐한 것이다.\n$ sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n\n$ sudo systemctl enable --now docker\nCreated symlink '/etc/systemd/system/multi-user.target.wants/docker.service' → '/usr/lib/systemd/system/docker.service'.\nJob for docker.service failed because the control process exited with error code.\nSee \"systemctl status docker.service\" and \"journalctl -xeu docker.service\" for details.\n\n$ sudo systemctl status docker\n× docker.service - Docker Application Container Engine\n     Loaded: loaded (/usr/lib/systemd/system/docker.service; enabled; preset: disabled)\n    Drop-In: /usr/lib/systemd/system/service.d\n             └─10-timeout-abort.conf\n     Active: failed (Result: exit-code) since Thu 2025-07-10 15:22:14 KST; 17s ago\n Invocation: 226f2df11c4e4b67bdd829aa732b9f1d\nTriggeredBy: × docker.socket\n       Docs: https://docs.docker.com\n    Process: 177352 ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock (code=exited, status=1/FAILURE)\n   Main PID: 177352 (code=exited, status=1/FAILURE)\n\nJul 10 15:22:14 fedora systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Start request repeated too quickly.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Failed with result 'exit-code'.\nJul 10 15:22:14 fedora systemd[1]: Failed to start docker.service - Docker Application Container Engine.\n먼저 dnf로 docker-ce를 비롯한 5개의 패키지를 설치한 뒤에, systemctl enable --now docker로 실행하였다. 그런데 systemctl status docker로 확인해보니 Active 상태에 failed (Result: exit-code)로 표시되어있다.\n좀 더 자세한 정보를 얻기 위해 journalctl로 최근 30개의 docker unit 관련 로그를 살펴보았다.\n$ sudo journalctl -u docker -rn 30\nJul 10 15:22:14 fedora systemd[1]: Failed to start docker.service - Docker Application Container Engine.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Failed with result 'exit-code'.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Start request repeated too quickly.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.\nJul 10 15:22:12 fedora systemd[1]: Failed to start docker.service - Docker Application Container Engine.\nJul 10 15:22:12 fedora systemd[1]: docker.service: Failed with result 'exit-code'.\nJul 10 15:22:12 fedora systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE\nJul 10 15:22:12 fedora dockerd[177352]: failed to start daemon: Error initializing network controller: error obtaining controller instance: failed to register \"bridge\" driver: failed to create NAT chain DOCKER: COMMAND_FAILED: INVALID_IPV: 'ipv4' is not a valid backend or is unavailable\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.245077759+09:00\" level=info msg=\"stopping event stream following graceful shutdown\" error=\"<nil>\" module=libcontainerd namespace=moby\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.221133353+09:00\" level=warning msg=\"failed to find iptables\" error=\"exec: \\\"iptables\\\": executable file not found in $PATH\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.219303872+09:00\" level=info msg=\"Firewalld: docker zone already exists, returning\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.185940349+09:00\" level=error msg=\"failed to load container\" container=docker-mysqld-auth.log error=\"lstat /var/lib/docker/containers/docker-mysqld-auth.log/config.v2.json: not a directory\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.185855977+09:00\" level=info msg=\"Loading containers: start.\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.179171737+09:00\" level=info msg=\"[graphdriver] using prior storage driver: overlay2\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.125838950+09:00\" level=info msg=\"Creating a containerd client\" address=/run/containerd/containerd.sock timeout=1m0s\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.117090429+09:00\" level=info msg=\"detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.116958491+09:00\" level=info msg=\"CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory\" dir=/etc/cdi\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.116944136+09:00\" level=info msg=\"CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory\" dir=/var/run/cdi\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.116850954+09:00\" level=info msg=\"OTEL tracing is not configured, using no-op tracer provider\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.116388190+09:00\" level=info msg=\"Starting up\"\nJul 10 15:22:12 fedora systemd[1]: Starting docker.service - Docker Application Container Engine...\nJul 10 15:22:12 fedora systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.\nJul 10 15:22:09 fedora systemd[1]: Failed to start docker.service - Docker Application Container Engine.\nJul 10 15:22:09 fedora systemd[1]: docker.service: Failed with result 'exit-code'.\nJul 10 15:22:09 fedora systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE\n==> 여기 아래 부분이 중요한 로그\nJul 10 15:22:09 fedora dockerd[177328]: failed to start daemon: Error initializing network controller: error obtaining controller instance: failed to register \"bridge\" driver: failed to create NAT chain DOCKER: COMMAND_FAILED: INVALID_IPV: 'ipv4' is not a valid backend or is unavailable\nJul 10 15:22:09 fedora dockerd[177328]: time=\"2025-07-10T15:22:09.980772122+09:00\" level=info msg=\"stopping event stream following graceful shutdown\" error=\"<nil>\" module=libcontainerd namespace=moby\nJul 10 15:22:09 fedora dockerd[177328]: time=\"2025-07-10T15:22:09.954760374+09:00\" level=warning msg=\"failed to find iptables\" error=\"exec: \\\"iptables\\\": executable file not found in $PATH\"\nJul 10 15:22:09 fedora dockerd[177328]: time=\"2025-07-10T15:22:09.952882578+09:00\" level=info msg=\"Firewalld: docker zone already exists, returning\"\nJul 10 15:22:09 fedora dockerd[177328]: time=\"2025-07-10T15:22:09.933501286+09:00\" level=error msg=\"failed to load container\" container=docker-mysqld-auth.log error=\"lstat /var/lib/docker/containers/docker-mysqld-auth.log/config.v2.json: not a directory\"\n뒤에서 3번째 로그에 failed to find iptables\" error=\"exec: \\\"iptables\\\": executable file not found in $PATH\" 이라는 부분이 보인다. 그대로 해석하면 $PATH에서 iptables 실행 파일을 찾지 못했다는 뜻이다. 즉 시스템에 iptables 바이너리 파일이 없는 것이다. 이는 페도라 42가 nft (netfilter) 필터 기반의 방화벽을 사용하기 때문에 iptables는 호환성을 위해서만 제공되며 기본적으로는 설치하지 않기 때문에 발생한다. 그래서 iptables-legacy 패키지를 설치하면 iptables 명령어가 제공되면서 해결되는 것이다.\n \n2. 해결방법 : iptables-legacy의 설치\n해결 방법은 앞서 서두에 밝힌 것처럼 iptables-legacy를 설치하면 된다. 설치 방법은 아래처럼 dnf 명령을 사용한다.\n$ sudo dnf -y install iptables-legacy\n설치 후 which iptables 명령을 내려서 iptables가 PATH에 걸려있는지 확인해본다. docker를 재시작하고 iptables의 초기화 같은 것들을 해줘야 하는데, 귀찮으니까 그냥 재부팅하는 것이 편하다.\n재부팅 후에 systemctl status docker로 다시 한번 Active 상태를 확인해보도록 한다. 대부분은 문제없이 잘 실행될 것이다.\n \n히스토리\n2025-08-14 처음 글 올림",
@@ -89,159 +125,132 @@
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "[MULTI] 더 영화적인 이야기와 연출의 발전, 마피아 : 올드 컨트리",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2344",
-    "pubDate": "Thu, 07 Aug 2025 21:00:21 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
     "id": 8,
     "imageUrl": "",
-    "title": "쇼핑 썰, 일상 썰도 문제없어! AI가 만드는 유튜브 쇼츠 대본 GEM 지침 무료 다운로드",
-    "description": "\"AI로 쇼츠 만드는 법\" 어디까지 해봤니?   단순한 텍스트만 뽑는 시대는 끝났어요! 바이럴 쇼츠를 위한 완벽한 대본과 이미지 프롬프트까지, AI를 활용한 두 가지 특급 지침을 공개합니다.\n\n\n \n 지금 이 순간에도 누군가는 단순한 1분짜리 쇼츠 영상 하나로 월 수백만 원의 수익을 만들어내고 있다고 해요. 그런데 열심히 만든 내 영상은 조회수 100에서 멈춰있을 때... 정말 속상하잖아요. 도대체 그들은 뭘 다르게 하는 걸까요? 바로 '시스템'의 차이라고 생각해요.\n \n오늘은 그 시스템을 여러분께 통째로 공개하려고 합니다. 저는 Gemini를 활용해서 콘텐츠를 만드는데, 이 지침들을 사용한 이후로는 콘텐츠 제작이 훨씬 쉽고 재미있어졌어요. 오늘은 제가 발견한 두 가지 쇼츠 제작 지침, 그중에서도 특히 강력한 '바이럴 썰' 지침과 '바이럴 쇼핑 썰' 지침을 파헤쳐 보려고 해요. 이 글을 끝까지 읽으시면 AI를 활용한 쇼츠 제작 전문가가 될 수 있을 거예요! \n \n바이럴 썰 유튜브 쇼츠 생성 지침  \n이 지침은 특정 제품 홍보가 아닌, 다양한 주제의 '썰' 영상을 만드는 데 초점을 맞추고 있어요. 이 지침의 핵심은 AI에게 '바이럴 쇼츠 영상 대본을 전문으로 쓰는 천재 스토리텔러'라는 페르소나를 부여하는 것입니다. AI는 수많은 바이럴 영상을 분석한 결과를 바탕으로, 12가지 감정의 굴레(달달한 연애, 짜릿한 복수, 소름 돋는 반전 등)를 관통하는 이야기를 만들어내죠.\n  구동 원리: 5단계 스토리텔링 구조\n이 지침은 검증된 5단계 스토리텔링 구조를 강제하는 것이 핵심이에요.\n1. 훅킹(Hook): 3초 안에 시청자의 멱살을 잡아 스크롤을 멈추게 만듭니다.\n2. 갈등 고조(Rising Action): 주인공이 겪는 문제를 구체적으로 보여주며 몰입도를 높입니다.\n3. 절정(Climax): 갈등과 감정이 폭발하며 극적인 반전이 터져 나옵니다.\n4. 결말(Resolution): 모든 것이 해결되며 감동이나 교훈, 여운을 남기죠.\n5. 행동 유도(CTA): \"여러분 생각은 어떠세요?\"와 같은 질문으로 댓글 참여를 유도합니다.\n사용법:\n\"시작\"을 입력하고, 12개의 카테고리 중 하나를 선택해요.\n제시된 5개의 주제 중 하나를 선택한 후, 장면 수, 이미지 스타일, 비율을 정하면 대본과 프롬프트가 생성됩니다.\n마지막으로 이미지를 생성해 달라고 요청하면 쇼츠 제작 준비가 끝나요.\n \n바이럴 쇼핑 썰 쇼츠 제작 지침  \n이 지침은 '썰'의 강력한 몰입감을 상품 판매에 적용하기 위해 탄생했어요. AI에게 '스토리텔링 광고 전문가'라는 페르소나를 부여해, 제품 홍보에 특화된 썰을 만들어주죠.\n  구동 원리: '문제-불안-해결' (Problem-Agitate-Solve)\n이 지침은 광고 공식인 PAS(Problem, Agitate, Solve) 구조를 스토리텔링에 완벽하게 녹여낸 것이 특징이에요. 예를 들어, \"인생에서 가장 중요한 면접 전날, 거울을 봤는데 얼굴이 사막처럼 갈라진\" 문제를 제시하고, \"이걸 본 면접관이 자기 관리도 못 한다고 생각하면 어쩌지?\"라며 불안감을 극대화합니다. 마지막으로 제품이 우연히 나타나 구원자처럼 문제를 해결하는 식으로 이야기가 전개돼요.\n사용법:\n\"시작\"을 입력하고, 제품명, 제품 특징, 장면 수, 이미지 스타일을 입력합니다.\n지침에 맞게 대본과 이미지 프롬프트가 생성되면, 이미지를 요청하여 쇼츠 제작 준비를 완료합니다.\n대본의 톤앤매너는 마치 '친구가 흥분해서 쏟아내는 썰'처럼 극도로 비격식적인 구어체를 사용합니다. 그리고 이미지 생성에 있어서 일관된 캐릭터를 유지하도록 캐릭터 외형을 상세히 설정하고 모든 프롬프트에 반복해서 포함시키는 방식도 적용되죠.\n \n두 지침의 주요 차이점 비교  \n두 지침이 쇼츠 제작에 특화되어 있지만, 사실 목적과 구동 원리에서 미묘한 차이가 있어요. 이 차이점을 제대로 이해하면 상황에 맞게 더 효과적인 콘텐츠를 만들 수 있답니다. 한눈에 비교할 수 있도록 표로 정리해 봤으니 참고해보세요!\n구분\n바이럴 썰 지침\n바이럴 쇼핑 썰 지침\n\n\n\n\n주요 목적\n다양한 썰 기반의 스토리텔링\n제품 홍보 및 광고\n\n\nAI 페르소나\n천재 스토리텔러\n스토리텔링 광고 전문가\n\n\n스토리 구조\n훅-전개-클라이맥스-해결-행동유도\n문제-불안-해결 (P-A-S)\n\n\n핵심 특징\n다양한 카테고리, 넓은 주제 범위\n감정적 몰입 유도 및 제품 가치 증명\n\n\n\n \n마무리 및 핵심 요약  \n두 지침 모두 콘텐츠 기획 단계의 막막함을 해결해주고, 제작 시간을 단축시켜주면서도 결과물의 퀄리티는 훨씬 높여주는 최고의 파트너였어요. 특히 일반 챗봇의 약점인 장기 기억 상실과 이미지 생성 비효율성 문제를 앱 빌더로 해결할 수 있다는 점이 정말 중요했어요. 이제 콘텐츠 기획부터 제작, 편집까지 완전 자동화된 시스템을 갖출 수 있는 거죠.\n \n \n두 가지 쇼츠 지침 핵심 비교 ✨\n✨ 바이럴 썰: 다양한 일상 썰 스토리, Hook-Climax-CTA 구조로 폭넓은 주제 제작!\n  바이럴 쇼핑 썰: 제품 광고 특화, Problem-Agitate-Solve 구조로 감정 몰입 유도!\n  공통 원리:\n구어체 대본 & 일관된 캐릭터를 유지하는 이미지 프롬프트 생성\n ‍  이점: 콘텐츠 기획부터 제작까지 시간 단축, 누구나 전문가처럼 만드는 마법 같은 도구!\n이 지침 원본을 다운받고 싶으시면 아래 다운로드 섹션을 확인해주세요!  \n자주 묻는 질문 ❓\nQ: 이 지침을 사용하려면 특별한 프로그램이 필요한가요?\nA: 아니요! Gemini와 같은 AI 챗봇만 있으면 누구나 사용할 수 있어요. 코딩 지식이 전혀 없어도 괜찮아요.\nQ: 지침으로 생성한 대본을 상업적으로 이용해도 되나요?\nA: 네, 지침을 통해 생성된 대본은 자유롭게 활용하실 수 있어요. 하지만 이미지 생성 시 AI 서비스의 이용 약관을 꼭 확인해주세요.\nQ: 두 지침의 주요 차이점은 무엇인가요?\nA: '바이럴 쇼핑 썰'은 제품 광고에, '바이럴 썰'은 다양한 일상 스토리에 특화되어 있습니다. 스토리 구조와 페르소나에서도 차이가 있어요.\nQ: AI 스튜디오 앱 빌더를 사용하면 뭐가 좋은가요?\nA: 일반 챗봇의 장기 기억 상실 문제로 인한 오류를 방지하고, 여러 이미지를 한 번에 생성하는 등 콘텐츠 제작을 자동화할 수 있어요.\n \n지침 원본 무료 다운로드  \n압축을 푸신 후 GEMINI 에서 각각의 GEM 지침으로 등록하세요.\n\n    \n\n    \n유튜브 쇼츠 지침.zip\n0.01MB\n\n\n \n \n \n\n    {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"FAQPage\",\n        \"mainEntity\": [\n            {\n                \"@type\": \"Question\",\n                \"name\": \"이 지침을 사용하려면 특별한 프로그램이 필요한가요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  아니요! Gemini와 같은 AI 챗봇만 있으면 누구나 사용할 수 있어요. 코딩 지식이 전혀 없어도 괜찮습니다.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"지침으로 생성한 대본을 상업적으로 이용해도 되나요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  네, 지침을 통해 생성된 대본은 자유롭게 활용하실 수 있어요. 하지만 이미지 생성 시 AI 서비스의 이용 약관을 꼭 확인해주세요.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"두 지침의 주요 차이점은 무엇인가요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  '바이럴 쇼핑 썰'은 제품 광고에, '바이럴 썰'은 다양한 일상 스토리에 특화되어 있습니다. 스토리 구조와 페르소나에서도 차이가 있어요.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"AI 스튜디오 앱 빌더를 사용하면 뭐가 좋은가요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  일반 챗봇의 장기 기억 상실 문제로 인한 오류를 방지하고, 여러 이미지를 한 번에 생성하는 등 콘텐츠 제작을 자동화할 수 있습니다.\"\n                }\n            }\n        ]\n    }",
+    "title": "짭 서피스 아크 마우스 주의",
+    "description": "2024년 7월 16일에 병행수입이라고 서피스 아크마우스를 하나 구입했었다. 국내 유통가 대비 1/2가격이었다. 박스에 중국어만 가득했지만 박스 디자인도 똑같았고 ms로고가 확실히 박혀있었으므로 중국 내수용이겠지…라고 찝찝하지만 넘어갔다. 그리고 7월 19일에 여의도 더 현대에 서피스랩탑 스냅드래곤 버전 구경하러 갔다가 아크마우스를 떨이로 팔길래 그 때 저렴하게 하나 구입했었다. 이건 개봉하지 않고 그냥 묵혀뒀었다. 병행수입이라 주장하던 아크 마우스를 계속 사용해오다가 … More 짭 서피스 아크 마우스 주의",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483638",
-    "pubDate": "Sun, 10 Aug 2025 15:07:16 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://megayuchi.com/2025/08/11/%ec%a7%ad-%ec%84%9c%ed%94%bc%ec%8a%a4-%ec%95%84%ed%81%ac-%eb%a7%88%ec%9a%b0%ec%8a%a4-%ec%a3%bc%ec%9d%98/",
+    "pubDate": "Mon, 11 Aug 2025 08:30:05 +0000",
+    "creator": "megayuchi",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "ai 스토리텔링",
-      "AI 이미지 생성",
-      "ai 콘텐츠 제작",
-      "gemini 활용법",
-      "바이럴 쇼츠",
-      "쇼츠 제작 꿀팁",
-      "쇼핑 콘텐츠",
-      "숏폼 콘텐츠",
-      "유튜브 쇼츠",
-      "콘텐츠 자동화"
+      "IT",
+      "Pub",
+      "마우스",
+      "서피스 아크 마우스",
+      "surface arc mouse"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Lightning-Fast Python: Mastering the uv Package Manager",
-    "description": "Check out our recent livestream from August 7 on uv, a next-generation Python package manager revolutionizing Python development with speeds 10-100x faster than pip. Released just last year and written in Rust, uv replaces long-standing Python dependency management challenges with a single, lightning-fast tool that just works. Join us as we demonstrate uv‘s game-changing capabilities […]",
+    "title": "[NS2] 수채화처럼 그려진 한 여인의 인생, Dear me, I was...",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2025/08/lightning-fast-python-mastering-the-uv-package-manager/",
-    "pubDate": "Wed, 13 Aug 2025 13:13:15 +0000",
-    "creator": "Will Vincent",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2345",
+    "pubDate": "Wed, 13 Aug 2025 13:59:30 +0900",
+    "creator": "샤말란의눈",
     "categories": [
-      "livestreams",
-      "pycharm",
-      "python",
-      "uv"
+      "리뷰"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "How to Integrate Qodana Into TeamCity ",
-    "description": "There are many compelling reasons to use TeamCity as your CI server. Thanks to its out-of-the-box features, smart test management capabilities, and great scalability for enterprises, TeamCity offers a robust and reliable CI solution. But if you’re really looking to increase compliance and improve code quality and security, you can couple it with Qodana.  Integrating […]",
+    "title": "LINE 통화의 영상 재생 품질 개선 사례",
+    "description": "들어가며LINE 앱은 전 세계 많은 사용자들이 이용하는 다양한 실시간 커뮤니케이션 서비스를 제공하고 있습니다. 저희 팀은 그중에서 1:1 통화와 그룹 통화, LINE 미팅과 같은 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/08/how-to-integrate-qodana-into-teamcity/",
-    "pubDate": "Thu, 07 Aug 2025 20:33:30 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "how-tos",
-      "tutorials",
-      "cicd",
-      "teamcity"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/improving-video-playback-quality-in-line-call",
+    "pubDate": "Thu, 14 Aug 2025 09:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "모두를 위한 스포츠가 된 F1(포뮬러 원)",
-    "description": "부자들의 놀이터가 대중 스포츠가 되기까지",
+    "title": "Claude Code 101",
+    "description": "<p>회사에서 AI 도구를 자유롭게 활용할 수 있도록 지원해 준 덕분에, 그동안 Cursor, Cline, Copilot 등 다양한 코딩 에이전트를 활용해 개발 생산성을 높일 수 있었습니다. 그러던 중 지난 2025년 6월 24일 Anthropic에서 터미널 기반의 코딩 에이전트인 Claude Code를 정식 출시했습니다.</p>\n\n<p>터미널은 개발자가 컴퓨터와 직접 대화를 나눌 수 있는 창구라서 떼려야 뗄 수 없지만, GUI의 도움을 받아 개발 하다보면 터미널에 익숙하지 않을 수 있습니다. GUI가 편하기도 하고요. 그래서 별도 GUI 인터페이스를 갖추고 있는 Cursor, Cline 같은 도구를 사용해 오던 입장에서, 처음에 Claude Code 컨셉만 들었을땐 마냥 불편할 것만 같았습니다.</p>\n\n<p>그런데 막상 써보니 인터페이스가 터미널이라 굉장히 가벼울 뿐 아니라, 특정 IDE에 종속되지 않고 어디서든 쓸 수 있다는 점이 장점으로 느껴졌습니다. 특히 JVM 환경에서 주로 개발하다 보니, 프로젝트 인덱싱, 컴파일, 빌드 등의 과정이 Cursor나 Cline에서는 다소 불편하게 느껴졌는데, Claude Code는 IntelliJ의 터미널에서 실행되니 마치 플러그인 하나 설치해 쓰는 듯한 경험이었습니다. 그래서 Cursor를 주로 사용하던 저는 이제 Claude Code만 쓰는 사람이 되었습니다.</p>\n\n<p>코딩 에이전트를 포함한 AI 기술은 하루가 다르게 빠르게 발전하고 있습니다. 일주일, 한 달만 지나도 새로운 기술과 모델이 나오고, 이전 것은 금세 시야에서 사라집니다. 개발자는 그때마다 새로운 경험을 맞이하게 됩니다. Cursor, Cline 같은 도구를 쓰면서 이 다음에 뭐가 나올까 궁금했는데 Claude Code가 하나의 변곡점이 될 거라는 느낌을 받았습니다.</p>\n\n<p>혼자서 스터디도 하고 사내 엔지니어들과 이야기를 나누면서 Claude Code를 더 잘 써보기 위한 방법들을 하나 둘 찾아나갔고, 지난 달 전사 테크 올핸즈에서 ‘<strong>한 번 쓰고 끝이 아니다. 끊임없이 진화하는 코딩 에이전트 활용법</strong>’ 이라는 주제로 Claude Code 사용 방법에 대해 공유했습니다.</p>\n\n<p>결국 코딩 에이전트를 사용하는 목적 중 하나는 생산성을 극대화 시키기 위함인데, 코딩 에이전트에게 무언가 시키고 나면 다시 제가 직접 수정하는 일이 생겼고 이건 목적에서 조금은 벗어난다는 생각이 들었습니다. ‘이럴 거면 내가 짜는 게 낫지‘ 라는 결론으로 이어질 수도 있고요. 그래서 Claude Code를 더 잘 활용하기 위해 Rules, Custom commands, Hooks 등을 작성했고, 머지 않아 또 다른 패러다임에 변화가 올거라 믿지만, 개인 블로그에도 간단하게 기록차 남겨봅니다.</p>\n\n<hr />\n\n<h1 id=\"claude-code-101\">Claude Code 101</h1>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-1.png\" alt=\"claude-code-101-1\" title=\"claude-code-101-1\" class=\"center-image\" /></p>\n\n<p>다들 첫 출근날과 처음으로 업무 받은 날을 기억하나요? 만약 어떤 회사에 입사를 했는데 팀에 나 혼자라고 가정해봅시다. 업무를 받았으니 무언가 해야 되는데 참고할 만한 문서가 있긴 한데 많이 부실합니다. 그리고 작성된 코드 양은 너무 많아서 어디 부터 봐야 할 지 모르는 상황입니다. 이럴때 우리는 어떻게 해야할까요?</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-2.png\" alt=\"claude-code-101-2\" title=\"claude-code-101-2\" class=\"center-image\" /></p>\n\n<p>‘어떤 것부터 알면 될까?’ 생각이 들텐데, 실제로는 내가 뭘 알아야 하는지도 모르는 상태입니다. 아는게 있어야 뭘 모르는지도 알게 될테니까요. 그렇다면 이 상황을 어떻게 해결하면 좋을까요? 간단한 방법은 2가지가 있습니다. 누군가에게 일단 물어보거나, 스스로 알아갈 때까지 고뇌하는 것입니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-3.png\" alt=\"claude-code-101-3\" title=\"claude-code-101-3\" class=\"center-image\" /></p>\n\n<p>이런 상황을 해결하기 위해 회사는 ‘신규 입사자 온보딩’ 프로그램을 운영하곤 합니다. 신규 입사자가 왔을때 여기는 어떤 문화를 가지고 있고, 시스템은 어떻고, 나는 어떤 일을 어떻게 하면 되는지 방법을 알려줍니다. 새로 온 동료가 그동안의 오래된 제품에 대한 맥락과 팀의 일하는 방식을 알아가기 까지 스스로 한다면 더 오랜 시간이 걸릴텐데, 잘 정리되어 있는 문서나 참고해야 할 요소들이 많다면 더 빠르게 알아갈 수 있을거에요.</p>\n\n<p>코딩 에이전트도 이와 크게 다르지 않습니다. 무작정 코딩 에이전트에게 ‘1000원 할인 코드 작성해줘’ 라고 하면 코딩 에이전트는 구체적인 정보를 찾기 위해 더 많은 시간을 쓰고 알지 못한다면 추측을 하기도 합니다. 그래서 코딩 에이전트가 나와 수년을 함께 한 동료가 되기 위해서는 알고 있는 모든 것을 알려줘야 합니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-4.png\" alt=\"claude-code-101-4\" title=\"claude-code-101-4\" class=\"center-image\" /></p>\n\n<p>우리 팀의 프로젝트 아키텍처는 어떤 형태로 구성되어 있는지 자세히 알려줘야 합니다. 의존성 규칙과 방향이 강제되어 있다면 이 또한 반드시 알려줘야 합니다.</p>\n\n<p>코드 컨벤션이 있다면 이 또한 자세히 가이드 해줘야 합니다. 팀에서 사용중인 코드 컨벤션이 없다면 각 언어의 공식 컨벤션이라도 알려주면 좋습니다. 저희 팀은 클래스 네이밍에 Alistair Cockburn이 언급한 원칙인 <code class=\"language-plaintext highlighter-rouge\">the name should be the goal as a short active verb phrase</code> 을 준수합니다. 이름만 보고도 그 클래스의 역할과 책임이 명확히 드러나야 하고, 역할과 책임 그리고 의미있는 접미사/접두사를 사용합니다. 그래서 대부분의 클래스는 <code class=\"language-plaintext highlighter-rouge\">동사 + 역할 + 접미사</code> 의 조합으로 이름을 짓고 있습니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-5.png\" alt=\"claude-code-101-5\" title=\"claude-code-101-5\" class=\"center-image\" /></p>\n\n<p>팀에서 사용중인 테스트 작성법이 있다면 이것도 자세히 알려줍니다. 저희 팀은 외부 의존성이 필요한 Mocking Library 사용을 지양하고, 조금 더 Production Code 변화에 유연하게 대응하기 위해 Test Double을 직접 만들어서 사용합니다. 그리고 테스트 코드를 구조화해서 가독성, 유지보수성, 일관성을 끌어 올리기 위해 AAA(Arrange, Act, Assert) 패턴을 사용합니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-6.png\" alt=\"claude-code-101-6\" title=\"claude-code-101-6\" class=\"center-image\" /></p>\n\n<p>커밋을 작성할 때에도 기본 형식이 있습니다. 커밋 메시지의 맨 앞에는 이슈 티켓을 입력하고, 그 다음에는 어떤 유형의 커밋이고 어떤 모듈의 변화인지, 그리고 마지막에는 커밋의 설명을 간단하게 작성합니다.</p>\n\n<ul>\n  <li><code class=\"language-plaintext highlighter-rouge\">GZ-{티켓번호} {타입}({모듈}): {설명}</code></li>\n</ul>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-7.png\" alt=\"claude-code-101-7\" title=\"claude-code-101-7\" class=\"center-image\" /></p>\n\n<p>Claude Code는 우리 팀이 이렇게 일한다는 사실을 알고 있을까요? 알 수 없으면 알려주면 됩니다. 팀의 일하는 방식을 알려주면 그 순간 수년을 함께 한 동료가 될 수 있습니다. 애자일하게 일하는 조직일수록 일하는 방식은 날이 갈수록 개선됩니다. 저희 팀도 마찬가지로 일하는 방식과 가이드가 그 때의 상황에 따라 더 나은 방향으로 계속해서 개선되고 있습니다. 과거에는 맞았지만 지금은 다를 수 있으니까요. 미래에는 더 다를거고요.</p>\n\n<p>마찬가지로, 다양한 코드 작성 Rule을 통해 Claude Code는 어떻게 코드를 작성하면 되는지 알게 될텐데, 이 Rule은 계속해서 개선되고 진화해야 합니다. 개발 팀미팅에서 클래스 네이밍하는 방식이 변경됐다면 Rule에도 업데이트 하고 Claude Code에게도 이 사실을 알려줘야 합니다. 그래서 우스갯소리로 가이드 문서(Rule)가 얼마나 자주 업데이트 되는지 보면, 코딩 에이전트를 얼마나 잘 활용하고 있는지 알 수 있습니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-8.png\" alt=\"claude-code-101-8\" title=\"claude-code-101-8\" class=\"center-image\" /></p>\n\n<p>그래서 Claude Code 뿐만 아니라 코딩 에이전트에게 무언가 프롬프팅을 완료하고 나면 끝이 아니라 이제부터가 시작입니다. 코드를 원하는대로 잘 작성했다면 다음번에도 이처럼 잘 할 수 있도록 가이드 해줘야 합니다. 코딩 에이전트에게 준 피드백과 쌓여가는 Rule은 곧, 복리의 마법으로 다가올 것이라는걸 믿는게 중요하다고 생각합니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-9.png\" alt=\"claude-code-101-9\" title=\"claude-code-101-9\" class=\"center-image\" /></p>\n\n<p>발표 자료 중간에 Claude Code 기본 사용법과 소소한 팁이 있는데, 이 글에 담기엔 단순 정보라서 PDF를 참고해주시면 좋겠습니다.</p>\n\n<p>아무튼.. 가장 중요한 것은 꺾이지 않는 마음입니다. 코딩 에이전트에게 무언가 명령을 했는데 잘 알아듣지 못하고 엉뚱한 코드를 작성한다거나 내가 작성하는 스타일과 다르게 코드를 작성한다거나, 마음에 들지 않을때 있습니다. 이 때 우리는 ‘그냥 내가 하는게 낫겠다’ 라는 생각이 들면서 갈림길에 놓이게 됩니다.</p>\n\n<p>이 때 한 숨 크게 고르시고, 어떤게 잘못되었는지 어떻게 작성해야 하는지 알려주어야 합니다. 이건 마치 일을 빠르게 처리하지 못하고 있는 신규 입사자 동료에게 답답함을 느끼는 것과 같다고 생각합니다. 수정이 필요한 부분이 있다면 직접 고치지 않고, 어떤 코드를 어떻게 작성하면 되는지 알려주어야 합니다. 잘 해냈다면 다음 번에는 어떻게 하면 되는지 피드백을 통해 가이드와 Rule을 갱신합니다.</p>\n\n<p><img src=\"/images/2025/08/09/claude-code-101-10.png\" alt=\"claude-code-101-10\" title=\"claude-code-101-10\" class=\"center-image\" /></p>\n\n<p>마지막으로, 이 발표에서 전달하려고 했던 메시지 메시지입니다.</p>\n\n<ul>\n  <li>코딩 에이전트가 못하면 가르치자</li>\n  <li>코딩 에이전트가 해냈으면 회고하자</li>\n  <li>그리고 복리의 마법을 믿자</li>\n</ul>\n\n<hr />\n\n<h3 id=\"마치며\">마치며</h3>\n\n<p>코딩 에이전트를 접하고 나서 정말 많은 시간을 코드 작성법(Rule)을 만드는 일에 할애했습니다. 팀에서 수십개 서비스를 모노레포에 관리중인데, 오래전부터 아키틱체와 코드 컨벤션을 잘 유지하고 가이드를 다듬어 놓아서 초기 Rule을 작성하는데에 시간은 오래 걸렸지만 어렵지 않았습니다.</p>\n\n<p>지금은 Claude Code를 사용하면서 N개의 일을 병렬로 할 수 있는 환경이 되었습니다. 커밋 메시지를 작성한다던가, Pull Request 본문을 작성하는 등 코드를 작성하고 나서 반복적으로 하는 작업들은 더이상 제가 하지 않습니다. Claude Code가 일을 잘 해서 그런것도 있지만, 초기에 Rule 셋팅하는 시간을 많이 투자한 덕분이라고 생각합니다.</p>\n\n<p>단순한 기능을 만들 때에는 가이드 없이 Claude Code를 바로 사용해도 좋다고 생각합니다. 하지만 조금 복잡해지거나 도메인 규칙을 이해해야 한다거나, 우리 팀만의 가이드에 따라 코드 작성이 필요하다면 바로 사용하는건 멈추고 Rule 부터 정돈하기를 권장합니다.</p>\n\n<p>마지막으로, 작성된 모든 내용은 제 개인적인 의견이고 소수의 인원이 작업을 하는 곳보다 다수의 인원이 같은 Repository에 작업을 할 때에는 더 빛을 보는 방법이니 참고해주세요. 모두 복리의 마법을 믿고 코딩 대탈출 하셨으면 좋겠습니다!</p>\n\n<ul>\n  <li>P.S. 발표 자료는 일부 내용 제거된 형태로 업로드 되어 있습니다. <a href=\"https://github.com/sungjk/sungjk.github.io/tree/master/images/2025/08/09/ClaudeCode101_20250809.pdf\">ClaudeCode101_20250809.pdf</a>를 참고하시면 됩니다. 궁금하신 점이 있으면 편하게 메일로 연락 주세요.</li>\n</ul>",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/moneyball-5",
-    "pubDate": "Thu, 07 Aug 2025 03:42:00 GMT",
+    "link": "https://sungjk.github.io/2025/08/09/claude-code-101.html",
+    "pubDate": "2025-08-09T00:00:00+00:00",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "From Redmond to San Diego: VS Live! Highlights, Session Examples, and What’s Next",
-    "description": "There’s something special about hosting developers at Microsoft HQ — and this year’s Visual Studio Live! Redmond reminded me why I love these events. The energy in every room was electric. From the moment the first session kicked off, developers leaned in, asked smart, challenging questions, and took every opportunity to connect with the Product […]\nThe post From Redmond to San Diego: VS Live! Highlights, Session Examples, and What’s Next appeared first on Visual Studio Blog.",
+    "title": "한강대교 북단, 노들섬 - 2025년 8월 4일",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/from-redmond-to-san-diego-vs-live-highlights-session-examples-and-whats-next/",
-    "pubDate": "Thu, 14 Aug 2025 00:36:07 +0000",
-    "creator": "Jim Harrer",
+    "link": "https://hodolman.tistory.com/80",
+    "pubDate": "Mon, 11 Aug 2025 22:35:59 +0900",
+    "creator": "호돌맨",
     "categories": [
-      "Visual Studio",
-      "Events",
-      "Training",
-      "Visual Studio Live!",
-      "vslive"
+      "사진",
+      "노들섬",
+      "노을",
+      "야경",
+      "한강대교북단"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "GPT-5 출시! 유료,무료 요금제별 사용 제한과 새로운 기능 총정리",
-    "description": "챗GPT의 새로운 시대, GPT-5 완벽 분석    GPT-5의 혁신적인 특징과 함께, 우리가 실제로 체감할 수 있는 변화들을 알기 쉽게 정리해봤습니다. 이 글만 읽어도 GPT-5 전문가가 될 수 있을 거예요!\n\n\n \n 오픈AI의 차세대 플래그십 모델인 GPT-5가 출시되었습니다. 기존의 여러 모델들의 장점을 하나로 통합한 똑똑하고 빠른 모델이라고 하니, 기대가 정말 큽니다.\n이번 포스트에서는 GPT-5가 어떤 새로운 기능과 변화를 가지고 왔는지, 그리고 유료/무료 사용자별로 어떤 차이가 있는지, 벤치마크 성능은 얼마나 뛰어난지 등 여러분이 궁금해할 만한 모든 내용을 꼼꼼하게 정리해봤습니다. 그럼 GPT-5의 세계로 함께 빠져볼까요?  \n \nGPT-5, 무엇이 달라졌을까?  \nGPT-5는 단순히 성능이 좋아진 모델을 넘어, 사용자의 요청에 따라 스스로 최적의 방법을 찾아내는 '통합 시스템'으로 진화했습니다. 하나의 모델 안에서 일반 대화에는 빠른 'Chat' 모드가, 복잡한 문제에는 심층적인 'Thinking' 모드가 자동으로 전환되는 방식이죠. 복잡한 코딩, 과학 문제, 데이터 분석 같은 작업에선 Thinking 모드가 스스로 더 깊이 생각해서 답변의 정확도를 높여준다고 하네요.\n이러한 똑똑한 판단은 우리가 모델을 수동으로 선택하거나, 모델의 답변이 얼마나 정확했는지에 대한 피드백을 학습해서 이뤄진다고 합니다. GPT-5는 속도와 정확도 모두 대폭 개선되었고, 가장 똑똑하고 신뢰할 수 있는 모델로 평가받고 있어요.\n  GPT-5의 '사고 과정' 알아보기!\nGPT-5의 Thinking 모델은 답변을 하기 전에 내부적으로 '사고 과정'을 먼저 생성합니다. 이 과정에서 스스로 전략을 점검하고, 실수를 인식하며, 안전 규칙을 지키도록 훈련되었어요. 덕분에 사용자의 유도나 우회 시도에도 흔들리지 않고 더 유용하고 신뢰성 높은 답변을 내놓을 수 있습니다.\n \n벤치마크로 보는 GPT-5의 압도적 성능  \nGPT-5는 다양한 벤치마크에서 이전 모델들을 압도하는 성능을 보여줬습니다. 특히 복잡한 추론과 문제 해결 능력을 평가하는 벤치마크에서 두각을 나타냈는데요.\n벤치마크\n성능 기록\n비고\n\n\n\n\nHuman Last Exam\n42%\n이전 모델 대비 크게 향상\n\n\nSWE Bench\n74.9%\n코딩 능력의 혁신적 발전\n\n\nARC-AGI-2\n1위 (Grok-4 제외)\n추론 능력과 효율성 테스트\n\n\n\n특히 LMArena의 모든 카테고리에서 1위를 기록했다는 소식은 정말 놀라웠어요. 텍스트, 웹 개발, 이미지 처리, 수학, 창의력 등 분야를 가리지 않고 최고의 성능을 입증했죠. 내부 테스트에서도 'summit'이라는 코드명으로 역대 최고 점수를 받았다고 하니, 괜히 플래그십 모델이 아니라는 생각이 들었습니다.\n⚠️ 주의하세요!\nGPT-5는 복잡한 대화에서 기만적인 행동을 억제하도록 훈련되었지만, 여전히 안전 장치(guardrails)를 준수해야 합니다. 악용 사례(데이터 자동 추출, 계정 공유, 재판매 등)에 대해서는 언제든지 일시적 사용 제한이 있을 수 있습니다.\n \nGPT-5의 요금제별 사용 제한 및 특징  \nGPT-5의 강력한 기능은 챗GPT의 다양한 요금제에 따라 조금씩 다르게 적용됩니다. 무료 사용자와 유료 사용자(Plus, Pro, Team)의 사용 제한 및 모델 선택 옵션에 대해 자세히 알아볼게요.\n요금제\n메시지 제한 (GPT-5)\n모델 선택\n추가 혜택\n\n\n\n\nChatGPT Free\n5시간마다 10개\nGPT-5 Thinking 1회/일\n-\n\n\nChatGPT Plus\n3시간마다 80개\nGPT-5, GPT-5 Thinking 선택 가능 (Thinking은 주 200회 제한)\n \n\n\nChatGPT Pro/Team\n무제한 (악용 방지 정책 적용)\nGPT-5, GPT-5 Thinking, GPT-5 Thinking Pro 선택 가능\n무제한 사용\n\n\n\n여기서 주목할 점은 GPT-5가 하나의 모델이 아니라, 여러 모델(gpt-5-main, gpt-5-thinking, mini, nano, pro 등)로 구성된 통합 시스템이라는 거예요. 기존의 GPT-4o, o3, o4-mini 모델들이 이 시스템 안으로 재편되었다고 보시면 됩니다.\nGPT-5의 컨텍스트 윈도우는 최대 40만 토큰까지 지원하고, 지식 컷오프는 2024년 9월입니다. 미니나 나노 모델은 2024년 5월 지식을 반영하고 있으니 참고하면 좋겠네요.\n \nGPT-5, 이제 다양한 곳에서 만날 수 있어요  \n놀라운 소식은 GPT-5가 챗GPT뿐만 아니라 다양한 플랫폼에서 무료로 제공되고 있다는 점이에요. 현재 Cursor, 마이크로소프트 코파일럿, 퍼플렉시티에서 GPT-5를 무료로 사용해볼 수 있습니다. 젠스파크에서는 GPT-5 PRO까지 사용 가능하다고 하니, 다양한 환경에서 직접 경험해보는 것도 좋은 방법일 것 같습니다.\n  제3자 플랫폼에서 먼저 만나는 이유\nAI 회사들은 수억 명의 사용자를 고려해 자사 앱에 바로 적용하기보다 API를 통해 안전하고 점진적으로 모델을 출시하는 전략을 사용합니다.\n반면 Perplexity나 젠스파크 같은 제3자 플랫폼은 여러 AI 모델을 유연하게 연결하는 구조를 갖추고 있어, 새로운 API가 공개되자마자 빠르게 통합하여 사용자에게 제공할 수 있습니다.\nGPT-5가 출시되면서 기존 모델들이 단계적으로 은퇴합니다. GPT-4o, GPT-4.1, GPT-4.5, o4-mini 등이 이에 해당하는데요. 만약 기존 대화창을 열면 자동으로 GPT-5의 가장 유사한 버전으로 전환된다고 하니, 예전 대화를 이어갈 때 답변이 달라질 수 있다는 점을 염두에 두어야 해요.\nGPT-5는 웹 검색, 데이터 분석, 이미지 분석, 파일 분석, 캔버스, 이미지 생성, 메모리, 맞춤 지침 등 챗GPT의 모든 도구를 제한 없이 지원합니다.\n \n음성 모델의 대대적인 업그레이드!  ️\nGPT-5와 함께 챗GPT의 음성 모델도 대폭 개선되었어요. 이제 더 자연스럽고 똑똑하게 대화할 수 있게 되었는데요. 특히 가장 큰 변화는 GPTs에서 고급 음성 모델을 바로 사용할 수 있게 되었다는 점입니다.\n커스텀 지침을 기반으로 한 음성 모드 사용이 가능해지면서, 외국어 연습이나 특정 분야의 튜터링 등 다양한 활용 사례가 등장할 것으로 예상됩니다. 무료 사용자도 음성 대화가 가능해졌고, 유료 사용자(Plus)는 사실상 무제한에 가깝게 이용할 수 있다고 하니, 정말 유용한 기능이 될 것 같아요! 참고로, 현재 보이스 모드는 여전히 GPT-4o 기반이라고 합니다.\n \nAPI 가격과 모델 상세 정보  \nGPT-5의 API 가격은 꽤 합리적으로 책정된 것 같아요. 100만 토큰 기준으로 모델별 가격을 정리해보겠습니다.\n모델\n입력(Input)\n출력(Output)\n\n\n\n\nGPT-5\n$1.25\n$10.00\n\n\nGPT-5-mini\n$0.25\n$2.00\n\n\nGPT-5-nano\n$0.05\n$0.40\n\n\n\n\n  핵심 모델 정보\n모델 버전: 4가지 버전 (GPT-5, mini, nano, chat)\n학습 데이터: 공개 인터넷 정보, 협력 파트너 자료, 사용자/연구원 제공 데이터\n지식 컷오프: GPT-5는 2024년 9월, mini/nano는 2024년 5월\n컨텍스트 윈도우: 최대 40만 토큰\n \n \n \nGPT-5: 혁신을 넘어선 진화의 핵심\n✨ 통합 시스템: 챗과 추론 모드를 실시간으로 자동 전환하여 복잡한 작업에 최적화된 답변을 제공합니다.\n  압도적 성능: Human Last Exam 42%, SWE Bench 74.9% 등 주요 벤치마크에서 역대 최고 성능을 기록했습니다.\n  안전성 강화:\nsafe-completions 훈련을 통해 환각, 아첨 감소 및 기만 방지 성능을 높였습니다.\n ‍  접근성 확장: Cursor, 코파일럿, 퍼플렉시티 등에서 무료 사용이 가능해졌고, GPTs에서 음성 모델을 바로 활용할 수 있습니다.\nGPT-5는 단순히 성능을 개선한 것이 아닌, AI의 새로운 활용 방식을 제시합니다.\n자주 묻는 질문 ❓\nQ: GPT-5가 무료로 제공되나요?\nA: 네, ChatGPT의 무료 계정에서도 일부 메시지 제한과 함께 GPT-5를 사용할 수 있습니다. 또한, Cursor, 마이크로소프트 코파일럿, 퍼플렉시티 등 일부 외부 플랫폼에서도 무료로 이용 가능합니다.\nQ: GPT-5를 쓰려면 별도로 선택해야 하나요?\nA: 유료 요금제 사용자(Plus, Pro, Team)는 모델 선택기에서 GPT-5를 수동으로 선택할 수 있습니다. 하지만 기본적으로는 모든 로그인 사용자에게 새로운 GPT-5가 기본 모델로 자동 적용됩니다.\nQ: GPT-5 Thinking 모드는 무엇인가요?\nA: GPT-5가 복잡한 요청에 대해 답변하기 전에 더 깊은 추론을 적용하는 모드입니다. 코딩, 과학, 금융 분석 등 정밀한 분석이 필요한 작업에 특히 유용하며, 유료 요금제 사용자에게 제공됩니다.\nQ: GPT-5 출시로 기존 대화가 사라지나요?\nA: 아니요, 기존 대화는 그대로 유지됩니다. 다만, 이전 모델을 사용했던 대화창을 열 경우 자동으로 GPT-5의 가장 유사한 모델로 전환되어 이어서 대화하게 됩니다.\n \n오늘은 이렇게 GPT-5에 대해 자세히 알아보았는데요. 사실 GPT-5의 등장은 단순한 기술 발전이 아니라, 우리가 AI를 활용하는 방식 자체를 한 단계 끌어올리는 중요한 계기가 될 것 같아요. 특히 복잡한 문제 해결이나 창의적인 작업에서 얼마나 놀라운 결과를 보여줄지 정말 기대가 됩니다.\n\n\n\n.single-summary-card-container {\nfont-family: 'Noto Sans KR', sans-serif;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\npadding: 20px 10px;\nbackground-color: #fce4ec;\nmargin: 20px 0;\n}\n.single-summary-card {\nwidth: 100%;\nmax-width: 700px;\nbackground-color: #ffffff;\nborder-radius: 12px;\nbox-shadow: 0 6px 18px rgba(0,0,0,0.12);\npadding: 25px;\ndisplay: flex;\nflex-direction: column;\noverflow: hidden;\nborder: 1px solid #ce93d8;\nbox-sizing: border-box;\nheight: auto;\nmin-height: unset;\n}\n.single-summary-card .card-header {\ndisplay: flex;\nalign-items: center;\nborder-bottom: 2px solid #8e24aa;\npadding-bottom: 12px;\nmargin-bottom: 12px;\n}\n.single-summary-card .card-header-icon {\nfont-size: 34px;\ncolor: #8e24aa;\nmargin-right: 14px;\n}\n.single-summary-card .card-header h3 {\nfont-size: 26px;\ncolor: #8e24aa;\nmargin: 0;\nline-height: 1.3;\nfont-weight: 700;\n}\n.single-summary-card .card-content {\nflex-grow: 1;\ndisplay: flex;\nflex-direction: column;\njustify-content: space-around;\nfont-size: 17px;\nline-height: 1.65;\ncolor: #444;\n}\n.single-summary-card .card-content .section {\nmargin-bottom: 10px;\n}\n.single-summary-card .card-content strong {\ncolor: #7b1fa2;\nfont-weight: 600;\n}\n.single-summary-card .card-content .highlight {\nbackground-color: #fff9c4;\npadding: 2px 6px;\nborder-radius: 3px;\nfont-weight: bold;\n}\n.single-summary-card .card-content .formula {\nbackground-color: #f3e5f5;\npadding: 6px 10px;\nborder-radius: 4px;\nfont-size: 0.9em;\ntext-align: center;\nmargin-top: 5px;\ncolor: #4a148c;\n}\n.single-summary-card .card-footer {\nfont-size: 14px;\ncolor: #777;\ntext-align: center;\npadding-top: 12px;\nborder-top: 1px dashed #e1bee7;\nmargin-top: auto;\n}\n@media (max-width: 768px) {\n.single-summary-card {\npadding: 18px;\nheight: auto;\nmin-height: unset;\n}\n.single-summary-card .card-header-icon {\nfont-size: 30px;\nmargin-right: 10px;\n}\n.single-summary-card .card-header h3 {\nfont-size: 22px;\n}\n.single-summary-card .card-content {\nfont-size: 15px;\nline-height: 1.6;\n}\n.single-summary-card .card-content .section {\nmargin-bottom: 8px;\n}\n.single-summary-card .card-content .formula {\npadding: 5px 8px;\nfont-size: 0.9em;\n}\n.single-summary-card .card-footer {\nfont-size: 13px;\npadding-top: 10px;\n}\n}\n@media (max-width: 480px) {\n.single-summary-card {\npadding: 15px;\n}\n.single-summary-card .card-header-icon {\nfont-size: 28px;\n}\n.single-summary-card .card-header h3 {\nfont-size: 20px;\n}\n.single-summary-card .card-content {\nfont-size: 14px;\nline-height: 1.55;\n}\n.single-summary-card .card-content .section {\nmargin-bottom: 6px;\n}\n.single-summary-card .card-content .formula {\npadding: 4px 6px;\nfont-size: 0.8em;\n}\n.single-summary-card .card-footer {\nfont-size: 12px;\npadding-top: 8px;\n}\n}",
+    "title": "Rider 2025.2 Is Here with Junie, In-IDE OpenTelemetry, Game Dev Upgrades, and More",
+    "description": "Rider 2025.2 delivers a big step forward in intelligent development tooling, bringing AI deeper into your workflow with Junie – our AI coding agent – along with runtime observability through the new OpenTelemetry plugin, a reworked Monitoring tool window, and improved debugging across platforms.  Let’s take a closer look at what’s new. Meet Junie, your […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483637",
-    "pubDate": "Fri, 8 Aug 2025 08:11:34 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://blog.jetbrains.com/dotnet/2025/08/14/rider-2025-2-is-here-with-junie-in-ide-opentelemetry-game-dev-upgrades-and-more/",
+    "pubDate": "Thu, 14 Aug 2025 10:39:57 +0000",
+    "creator": "Alexander Kurakin",
     "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "gpt-5",
-      "GPT-5 가격",
-      "GPT-5 기능",
-      "GPT-5 벤치마크",
-      "GPT-5 사용법",
-      "GPT-5 성능",
-      "GPT-5 음성",
-      "인공지능",
-      "챗GPT",
-      "챗gpt 요금제"
+      "releases",
+      "rider",
+      "ai-agent",
+      "c",
+      "debugger",
+      "gamedev",
+      "godot",
+      "junie",
+      "mcp",
+      "opentelemetry",
+      "unity",
+      "unreal-engine"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "KotlinX RPC 0.9.1 Is Now Available",
-    "description": "This release of kotlinx.rpc introduces significant improvements aimed at the long-term stability, maintenance, and evolution of the library. We’ve focused on decoupling dependencies and simplifying the API to create a more robust and user-friendly experience. Ready to get started? Build your next project with the interactive generator at start.ktor.io, or check out our samples on […]",
+    "title": "JetBrains Academy – August Digest",
+    "description": "Your August learning boost is here – with free tools, career-launching courses, practical advice from the JetBrains Academy team, and your shot at winning a MacBook Pro.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/08/kotlinx-rpc-0-9-1-is-now-available/",
-    "pubDate": "Fri, 08 Aug 2025 13:40:42 +0000",
-    "creator": "Simon Vergauwen",
+    "link": "https://blog.jetbrains.com/education/2025/08/13/jetbrains-academy-august/",
+    "pubDate": "Wed, 13 Aug 2025 15:52:40 +0000",
+    "creator": "Maria Sharobaeva",
     "categories": [
-      "news",
-      "releases",
-      "release"
+      "digest",
+      "jetbrains-academy",
+      "newsletter"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Creating AI agent solutions for warehouse data access and security",
-    "description": "In this post, we explore the ways we’re evolving Meta’s data warehouse to facilitate productivity and security to serve both human users and AI agents.  We detail how we’re developing agents that help users making data access requests to get to the data they need, and that help data owners process requests and maintain security.  [...]\nRead More...\nThe post Creating AI agent solutions for warehouse data access and security appeared first on Engineering at Meta.",
+    "title": "TeamCity 2025.07.1 Is Here",
+    "description": "TeamCity On-Premises 2025.07.1, the first bug-fix for the recently released TeamCity 2025.07, is ready to be installed on your On-Premises servers. This update addresses a significant number of issues, including: Bug-fix updates also include performance and security improvements, so we recommend installing them promptly. See TeamCity 2025.07.1 Release Notes for the complete list of resolved […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/08/13/data-infrastructure/agentic-solution-for-warehouse-data-access/",
-    "pubDate": "Wed, 13 Aug 2025 22:05:07 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/teamcity/2025/08/teamcity-2025-07-1-bug-fix/",
+    "pubDate": "Thu, 14 Aug 2025 12:08:03 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "Data Infrastructure"
+      "bug-fix"
     ]
   }
 ]
