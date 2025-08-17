@@ -2,64 +2,21 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "[NS2] 수채화처럼 그려진 한 여인의 인생, Dear me, I was...",
-    "description": "No description available",
+    "title": "RTX 그래픽 카드로 동영상 화질을 높여보자",
+    "description": "영상: https://www.youtube.com/shorts/udDmL5UkI5s\n\n\n\n \n버튜버 화질도 올라간다고 합니다. (방송하는 사람말고 보는사람이 켜는거임)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2345",
-    "pubDate": "Wed, 13 Aug 2025 13:59:30 +0900",
-    "creator": "샤말란의눈",
+    "link": "http://serverdown.tistory.com/1375",
+    "pubDate": "Sat, 16 Aug 2025 20:11:35 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "리뷰"
+      "유튜브",
+      "rtx",
+      "화질"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "New Quarter, New Qodana 2025.2 Release Highlights ",
-    "description": "Following the recent rollout of our new Insights dashboard, Native mode, Self-Hosted Lite version, SSO functionality, and Visual Studio plugin, our Qodana 2025.2 update promises another round of improvements and extensions. Take a look at what we’ve been doing as we focus on providing greater access to code quality and security in your organization, and […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/08/qodana-2025-2-release/",
-    "pubDate": "Thu, 14 Aug 2025 13:32:29 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "features",
-      "releases",
-      "go",
-      "kotlin",
-      "owasp",
-      "python",
-      "qodana",
-      "security-reviews"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "NPU 대응을 포함한 25종류 이상의 로컬 AI 기능을 시험할 수 있는 AI Dev Gallery",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/ai-llm_20250810/",
-    "pubDate": "Sun, 10 Aug 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Gemma 3로 RAG 기능이 있는 안전한 로컬 AI 채팅 환경 구축하기",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jacking75.github.io/ai-llm_20250815/",
-    "pubDate": "Fri, 15 Aug 2025 00:00:00 +0900",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
     "imageUrl": "",
     "title": "Creating AI agent solutions for warehouse data access and security",
     "description": "In this post, we explore the ways we’re evolving Meta’s data warehouse to facilitate productivity and security to serve both human users and AI agents.  We detail how we’re developing agents that help users making data access requests to get to the data they need, and that help data owners process requests and maintain security.  [...]\nRead More...\nThe post Creating AI agent solutions for warehouse data access and security appeared first on Engineering at Meta.",
@@ -73,35 +30,7 @@
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "원더랜드워 도색",
-    "description": "유니콘과 체셔캣 도색 기록 먼저 검은색으로 프라이밍 해준다. 다들 비추하는 붓으로 프라이밍 했다. 밖에나가서 뿌리기도 귀찮고 집에선 뿌리지 못하니... 붓으로 하면 디테일이 많이 죽는다. 프라이밍 후 검은색으로 한번 칠해줘 표면을 정리해주는데 벌써 두번이나 도색이 올라가 디테일이 많이 죽었다. 흰색으로 라인을 따주었다. 색상을 올리고 쉐이더와 하이라이팅을 추가하여 마무리 했다. 유니콘은 과정을 안찍어놔서 그냥 사용한 색만 보이도록 찍었다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/223966884445?fromRss=true&trackingCode=rss",
-    "pubDate": "Mon, 11 Aug 2025 17:44:32 +0900",
-    "creator": "dlehddus84",
-    "categories": [
-      "도색과 제작"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 14화, 좋은 계획인데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2346",
-    "pubDate": "Wed, 13 Aug 2025 20:58:36 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 8,
+    "id": 3,
     "imageUrl": "",
     "title": "Federation Platform and Privacy Waves: How Meta distributes compliance-related tasks at scale",
     "description": "We’re exploring Meta’s Federation Platform, a scalable set of tools for managing compliance-related tasks, along with Privacy Waves, our method for batching these tasks and ensuring accountability.  Together, the Federation Platform and Privacy Waves create a structured, effective, and sustainable approach to operationalizing privacy work, enabling Meta to safeguard user data for the billions of [...]\nRead More...\nThe post Federation Platform and Privacy Waves: How Meta distributes compliance-related tasks at scale appeared first on Engineering at Meta.",
@@ -117,7 +46,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 4,
     "imageUrl": "",
     "title": "사라졌던 GPT-4o가 돌아왔다! ChatGPT 설정 방법 (GPT-5 문제점과 비교)",
     "description": "GPT-5 출시 후 겪었던 문제점들과 사라졌던 GPT-4o가 다시 돌아온 이유, 그리고 두 모델을 모두 활용하는 방법까지! 이 글 하나로 GPT-5와 4o를 둘러싼 모든 궁금증을 해결해 드립니다.\n\n\n \n 지난주 OpenAI가 야심차게 GPT-5를 출시했을 때, 많은 이들이 AI의 새로운 시대를 기대했습니다. 하지만 기대와 달리 \"대화 경험이 퇴보했다\"는 사용자들의 불만이 터져 나왔고, 결국 OpenAI는 단종했던 GPT-4o를 다시 서비스하는 이례적인 결정을 내렸습니다. 대체 GPT-5에 무슨 문제가 있었고, 우리는 왜 그토록 GPT-4o를 그리워했던 걸까요? 그 흥미로운 뒷이야기와 함께, 두 모델을 200% 활용하는 방법을 자세히 알려드릴게요! \n \n1. GPT-5의 초기 문제점들  \nGPT-5는 분명 기술적으로 뛰어난 모델이지만, 출시 초기 여러 문제점을 드러내며 사용자들의 기대를 충족시키지 못했습니다. 가장 큰 문제는 새로 도입된 '자동 모델 라우팅 시스템'의 불안정성이었습니다. 이 시스템은 사용자 질문에 맞춰 최적의 서브 모델을 자동으로 선택하도록 설계되었지만, 초기 오류로 인해 오히려 응답 품질이 저하되는 현상이 발생했습니다.\n이로 인해 사용자들은 다음과 같은 불편을 겪었습니다:\n일관성 없는 답변: GPT-5의 답변이 짧고 일관성이 떨어진다는 평가가 많았습니다.\n직관성 및 감성 부족: 일부 요청에서 GPT-4o보다 덜 직관적이고 정서적 반응이 약하다는 피드백이 나왔습니다.\n성능 논란: 느린 응답 속도와 불안정한 답변 품질에 대한 불만이 커뮤니티를 통해 확산되었습니다.\n⚠️ \"친구가 사라졌다\"\n가장 큰 반발은 기존에 잘 사용하던 GPT-4o 모델 선택권을 강제로 없앤 것이었습니다. OpenAI는 GPT-5로의 강제 전환을 시도했지만, 이는 기존 워크플로에 익숙했던 사용자들의 큰 혼란과 불만을 야기했습니다.\n \n2. 논란에도 GPT-5를 출시한 전략적 이유  \n그렇다면 OpenAI는 왜 이런 문제들을 안고서 GPT-5를 서둘러 출시했을까요? 이는 단순한 실수가 아닌, 치밀한 전략적 판단일 가능성이 높습니다.\n시장 주도권 선점: 경쟁사보다 한발 앞서 차세대 모델을 공개함으로써 기술 리더십을 공고히 하고 시장의 관심을 집중시키려는 의도입니다.\n실사용 데이터 확보: 실제 환경에서의 조기 배포를 통해 다양한 버그와 성능 문제를 빠르게 파악하고 개선하기 위한 목적입니다.\n구독자 및 투자자 유지: 지속적으로 새로운 모델을 제공함으로써 유료 구독자의 만족도를 높이고 투자자들에게 성장 가능성을 보여주려는 전략입니다.\n물론 이 전략에는 브랜드 신뢰도 하락과 같은 리스크가 따랐지만, OpenAI는 GPT-4o를 복귀시키는 유연한 대응으로 리스크를 관리하며 장기적인 목표를 추진하고 있습니다.\n \n3. 왜 우리는 GPT-4o를 그리워했을까?  \nGPT-4o가 사용자들에게 특별했던 이유는 단순히 성능이 좋아서가 아니었습니다. GPT-4o는 많은 사람들에게 '친근하고 따뜻한 대화 상대'로 인식되었습니다. 부드러운 어조와 높은 공감 능력은 사용자들이 AI와 정서적인 유대감을 형성하게 만들었죠.\n커뮤니티에서는 GPT-4o를 \"친구\"나 \"대화 파트너\"처럼 느꼈다는 경험담이 쏟아졌습니다. 창작 활동, 고민 상담, 언어 학습 등 감성적인 교감이 중요한 영역에서 GPT-4o는 대체 불가능한 존재감을 보였습니다. 기술적으로 더 뛰어난 GPT-5가 오히려 \"차갑다\"는 평가를 받은 것은, 사용자들이 AI에서 기술적 완벽함뿐만 아니라 인간적인 상호작용을 얼마나 중요하게 생각하는지를 보여줍니다.\n \n4. GPT-4o vs GPT-5 전격 비교  \n이제 우리는 두 가지 강력한 모델을 모두 사용할 수 있게 되었습니다. 그렇다면 어떤 상황에서 어떤 모델을 쓰는 것이 가장 효율적일까요? 두 모델의 특징을 한눈에 비교해 보세요.\n구분\nGPT-4o (실시간 소통 전문가)\nGPT-5 (고도의 추론 전문가)\n\n\n\n\n핵심 특징\n실시간·저지연 멀티모달(음성, 이미지 등) 상호작용에 최적화\n복잡한 추론, 코딩, 수학 문제 해결 능력 및 정확도 대폭 향상\n\n\n주요 강점\n사람과 대화하는 듯한 빠른 음성 응답(평균 320ms), 비용 효율성\n'Thinking' 모드를 통한 깊이 있는 사고, 멀티툴(검색, 코드 실행 등) 결합 능력 강화\n\n\n추천 사용 사례\n실시간 음성 대화, 라이브 데모, 빠른 아이디어 구상, 감성적인 글쓰기\n복잡한 연구/데이터 분석, 전문 코딩, 장문 문서 요약, 논리/수학 문제 풀이\n\n\n안전성\n기존 모델 대비 아첨 경향 등 조정 진행\n불필요한 거부는 줄이면서 환각(오류) 비율을 낮추도록 개선됨\n\n\n\n \n5. 돌아온 GPT-4o! 다시 사용하는 방법  ️\n사용자들의 강력한 요청에 힘입어 돌아온 GPT-4o! ChatGPT Plus 이상 구독자라면 몇 가지 간단한 설정만으로 그리웠던 GPT-4o의 감성을 다시 느낄 수 있습니다.\n  알아두세요!\n이 기능은 월 $20의 유료 구독 서비스인 ChatGPT Plus 사용자 이상에게만 제공됩니다.\nChatGPT 웹사이트에 로그인 후, 좌측 하단 프로필을 클릭하여 설정에 진입합니다.\n일반 탭에서 레거시 모델 보기 토글을 켭니다.\n이제 대화창 상단 모델 선택 드롭다운 메뉴에서 GPT-4o를 선택할 수 있습니다.\n모바일 앱의 경우, 위 설정 후 앱을 완전히 재시작해야 변경사항이 적용됩니다.\n\n\n\n\n6. 이번 사건의 시사점  \nGPT-4o의 복귀 사건은 AI 기술 개발의 미래에 중요한 교훈을 남겼습니다. 단순히 더 똑똑하고 강력한 모델을 만드는 것만이 정답이 아니라는 사실을 명확히 보여주었죠. 기술적 진보만큼이나 사용자가 AI와 어떻게 상호작용하고 어떤 경험을 하는지가 장기적인 성공의 핵심 열쇠가 될 것입니다.\nOpenAI는 이번 결정을 통해 사용자들의 목소리에 귀 기울이는 유연한 태도를 보여주었고, 이는 장기적으로 브랜드 신뢰도를 회복하는 데 긍정적인 영향을 미칠 것입니다.\n \n \n7. 핵심 요약 카드\n✨ 문제의 시작: GPT-5의 초기 성능 불안과 '차가운' 대화 스타일에 사용자 불만 폭주\n❤️ 4o를 그리워한 이유: 단순 AI가 아닌 '친구 같은' 감성적 교감과 부드러운 대화 능력 때문\n ️ 해결책: OpenAI, 사용자 피드백 수용! Plus 구독자에게 GPT-4o 선택권 다시 제공\n  교훈: AI의 성공은 기술적 진보와 인간 중심의 사용자 경험 사이의 균형에 달려있음\n이제 당신의 필요에 맞게 최적의 AI 파트너를 직접 선택해 보세요.\n8. 자주 묻는 질문 (FAQ) ❓\nQ: GPT-4o를 다시 사용하려면 추가 비용이 드나요?\nA: 아니요, ChatGPT Plus 구독자라면 추가 비용 없이 설정 변경만으로 GPT-4o와 GPT-5 모델을 자유롭게 전환하며 사용할 수 있습니다.\nQ: 왜 OpenAI는 처음부터 GPT-4o를 옵션으로 남겨두지 않았나요?\nA: 가장 진보된 모델인 GPT-5로 사용자 경험을 통합하려는 의도였던 것으로 보입니다. 하지만 OpenAI는 \"사람들이 GPT-4o에서 좋아하던 요소의 중요성을 과소평가했다\"고 인정하며 정책을 수정했습니다.\nQ: GPT-5의 초기 성능 문제는 완전히 해결되었나요?\nA: OpenAI는 GPT-5의 성능 개선과 감성 대화 능력 강화를 위해 지속적으로 노력하고 있다고 발표했습니다. 초기 라우팅 오류 등은 수정되었지만, 사용자 피드백을 통해 계속해서 모델을 발전시킬 것으로 보입니다.\nQ: 무료 사용자도 언젠가는 GPT-4o를 다시 쓸 수 있을까요?\nA: 현재 GPT-4o 선택 기능은 유료 구독자에게만 제공됩니다. 향후 정책 변경 가능성은 있지만, 현재로서는 발표된 바 없습니다.\nQ: 코딩이나 리포트 작성 시에는 어떤 모델이 더 유리한가요?\nA: 복잡한 코딩, 데이터 분석, 긴 문서 요약 등 높은 수준의 정확도와 논리적 추론이 필요하다면 GPT-5가 훨씬 유리합니다. GPT-5는 이런 전문 작업에서 더 높은 신뢰도와 완결성을 보여줍니다.\n\n\n\n{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"FAQPage\",\n    \"mainEntity\": [\n        {\n            \"@type\": \"Question\",\n            \"name\": \"GPT-4o를 다시 사용하려면 추가 비용이 드나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"아니요, ChatGPT Plus 구독자라면 추가 비용 없이 설정 변경만으로 GPT-4o와 GPT-5 모델을 자유롭게 전환하며 사용할 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"왜 OpenAI는 처음부터 GPT-4o를 옵션으로 남겨두지 않았나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"가장 진보된 모델인 GPT-5로 사용자 경험을 통합하려는 의도였던 것으로 보입니다. 하지만 OpenAI는 \\\"사람들이 GPT-4o에서 좋아하던 요소의 중요성을 과소평가했다\\\"고 인정하며 정책을 수정했습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"GPT-5의 초기 성능 문제는 완전히 해결되었나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"OpenAI는 GPT-5의 성능 개선과 감성 대화 능력 강화를 위해 지속적으로 노력하고 있다고 발표했습니다. 초기 라우팅 오류 등은 수정되었지만, 사용자 피드백을 통해 계속해서 모델을 발전시킬 것으로 보입니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"무료 사용자도 언젠가는 GPT-4o를 다시 쓸 수 있을까요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"현재 GPT-4o 선택 기능은 유료 구독자에게만 제공됩니다. 향후 정책 변경 가능성은 있지만, 현재로서는 발표된 바 없습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"코딩이나 리포트 작성 시에는 어떤 모델이 더 유리한가요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"복잡한 코딩, 데이터 분석, 긴 문서 요약 등 높은 수준의 정확도와 논리적 추론이 필요하다면 GPT-5가 훨씬 유리합니다. GPT-5는 이런 전문 작업에서 더 높은 신뢰도와 완결성을 보여줍니다.\"\n            }\n        }\n    ]\n}",
@@ -140,37 +69,33 @@
     ]
   },
   {
-    "id": 10,
+    "id": 5,
     "imageUrl": "",
-    "title": "LINE 통화의 영상 재생 품질 개선 사례",
-    "description": "들어가며LINE 앱은 전 세계 많은 사용자들이 이용하는 다양한 실시간 커뮤니케이션 서비스를 제공하고 있습니다. 저희 팀은 그중에서 1:1 통화와 그룹 통화, LINE 미팅과 같은 ...",
+    "title": "블로그 중단합니다",
+    "description": "오래전부터 이 블로그에는 주로 제가 해외 기술 문서를 번역한 글을 올리고 있습니다.\n네이버, 티스토리, 깃허브를 통해서 20년 이상 블로그를 운영했는데 중단하고 다른 방법으로 기술 공유를 하려고 합니다.\n이제 유튜브를 통해서 기술 공유를 하려고 합니다.   \n여기입니다.  \n단순하게 기술 문서를 공유하지 않고, 왜 공유하려는지 이유를 설명하면서 공유하겠습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/improving-video-playback-quality-in-line-call",
-    "pubDate": "Thu, 14 Aug 2025 09:00:00 GMT",
+    "link": "https://jacking75.github.io/ETC_20250815/",
+    "pubDate": "Fri, 15 Aug 2025 00:00:00 +0900",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 11,
+    "id": 6,
     "imageUrl": "",
-    "title": "한강대교 북단, 노들섬 - 2025년 8월 4일",
+    "title": "악역영애 4컷 만화 - 14화, 좋은 계획인데스와",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hodolman.tistory.com/80",
-    "pubDate": "Mon, 11 Aug 2025 22:35:59 +0900",
-    "creator": "호돌맨",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2346",
+    "pubDate": "Wed, 13 Aug 2025 20:58:36 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "사진",
-      "노들섬",
-      "노을",
-      "야경",
-      "한강대교북단"
+      "웹툰"
     ]
   },
   {
-    "id": 12,
+    "id": 7,
     "imageUrl": "",
     "title": "짭 서피스 아크 마우스 주의",
     "description": "2024년 7월 16일에 병행수입이라고 서피스 아크마우스를 하나 구입했었다. 국내 유통가 대비 1/2가격이었다. 박스에 중국어만 가득했지만 박스 디자인도 똑같았고 ms로고가 확실히 박혀있었으므로 중국 내수용이겠지…라고 찝찝하지만 넘어갔다. 그리고 7월 19일에 여의도 더 현대에 서피스랩탑 스냅드래곤 버전 구경하러 갔다가 아크마우스를 떨이로 팔길래 그 때 저렴하게 하나 구입했었다. 이건 개봉하지 않고 그냥 묵혀뒀었다. 병행수입이라 주장하던 아크 마우스를 계속 사용해오다가 … More 짭 서피스 아크 마우스 주의",
@@ -188,51 +113,128 @@
     ]
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
-    "title": "블로그 중단합니다",
-    "description": "오래전부터 이 블로그에는 주로 제가 해외 기술 문서를 번역한 글을 올리고 있습니다.\n네이버, 티스토리, 깃허브를 통해서 20년 이상 블로그를 운영했는데 중단하고 다른 방법으로 기술 공유를 하려고 합니다.\n이제 유튜브를 통해서 기술 공유를 하려고 합니다.   \n여기입니다.  \n단순하게 기술 문서를 공유하지 않고, 왜 공유하려는지 이유를 설명하면서 공유하겠습니다.",
+    "title": "탁월해지기",
+    "description": "2001년도에 출간된 짐 콜린스의 책 ‘Good to Great’은 당시에 아주 화제가 됐다. 웬만한 경영대학원에서 가르치는 그 어떤 수업보다 더 생생하고, 이론적이면서도 동시에 실용적인 경영 서적이었다. 한국에서는 ‘좋은 기업을 넘어 위대한 기업으로’라는 이름으로 번역되어 출간됐고, 이 책이 어떤 내용인지는 책의 제목이 그대로 설명해 준다. 좋은 기업이 되는 것도 어렵지만, 왜 어떤 기업은 그냥 좋은 기업으로 남고,(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jacking75.github.io/ETC_20250815/",
-    "pubDate": "Fri, 15 Aug 2025 00:00:00 +0900",
+    "link": "https://www.thestartupbible.com/2025/08/being-extraordinary.html",
+    "pubDate": "Sun, 10 Aug 2025 21:34:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "[NS2] 수채화처럼 그려진 한 여인의 인생, Dear me, I was...",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2345",
+    "pubDate": "Wed, 13 Aug 2025 13:59:30 +0900",
+    "creator": "샤말란의눈",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "토스 페이스페이, 등록부터 결제까지 자주 묻는 질문들",
+    "description": "페이스페이를 등록하고 사용하며 마주치는 물음에 답해드릴게요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/facepay-faq",
+    "pubDate": "Tue, 12 Aug 2025 07:02:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 14,
+    "id": 11,
     "imageUrl": "",
-    "title": "슈퍼앱의 허상",
-    "description": "매우 적지만, 우리도 지금까지 몇 개의 엑싯을 경험한 적이 있다. 쿠팡 같이 IPO를 한 경우도 있지만, 더 큰 회사에 인수되거나 비슷한 규모의 회사와 합병하면서 M&A를 통해 엑싯 한 경우가 대부분이다. 많지 않은 M&A를 통해서 내가 배운 게 하나 있다면, 좋은 엑싯을 위해서는 회사가 팔려야지, 팔아서는 안 된다는 것이다. 이게 무슨 말이냐 하면, 좋은 회사는 엑싯을(...)",
+    "title": "F1 더 무비",
+    "description": "트레일러 영상이 나왔을 때 소리가 아이폰의 진동 센서와 연동되었다고 해서 사람들 사이에서 이슈였던 영화다. 메가박스 남양주 현대아울렛 스페이스원 돌비 시네마에서 봤는데 음향과 음량이 정말 뛰어났다. 자동차 엔진의 저음이 몸이 떨릴 정도로 강하게 전달 됐다. 영화 평점에서 시나리오가 0점이길래 내용이 그리 없나 싶었지만 나름 짜임새 있어서 재미있게 봤다. 결국 승리 트로피를 누가 받을지 궁금했는데 엔딩도 나름 괜찮았다.\n\r\n레이싱을 잘 안다고 생각한 적은 없었는데 영화 처음에 나오는 데이토나 트랙도 아는 트랙이고 계속 해서 나오는 레이싱 관련 내용도 상당히 이해가 잘 가서 레이싱 게임을 열심히 한게 좀 도움이 됐다. 아무 생각없이 갔는데 돌비 5주년 특가로 인당 만원에 봤다. 몰입도가 상당한 잘 만든 영화다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/08/super-apps-are-not-built-in-a-day.html",
-    "pubDate": "Wed, 13 Aug 2025 21:36:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://hyeonseok.com/blog/940",
+    "pubDate": "Sat, 16 Aug 2025 18:25:19 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "'소버린 AI' 국가대표 5개 기업의 전략을 파헤치다.",
+    "description": "2025년 8월, 정부는 우리나라 AI 기술 주권 확보를 위해 '소버린 AI 프로젝트'를 본격 추진하며, 이를 선도할 국가대표 AI 기업 5개 컨소시엄을 선정했습니다. 단순한 기술 개발이 아닌, 글로벌 수준의 초거대 AI 파운데이션 모델을 국산화하고 이를 산업 전반에 적용하여 대한민국의 디지털 경쟁력을 한 단계 끌어올리는 것이 이 프로젝트의 핵심 목표입니다",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/306",
+    "pubDate": "Tue, 12 Aug 2025 03:00:07 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Rider 2025.2 Is Here with Junie, In-IDE OpenTelemetry, Game Dev Upgrades, and More",
+    "description": "Rider 2025.2 delivers a big step forward in intelligent development tooling, bringing AI deeper into your workflow with Junie – our AI coding agent – along with runtime observability through the new OpenTelemetry plugin, a reworked Monitoring tool window, and improved debugging across platforms.  Let’s take a closer look at what’s new. Meet Junie, your […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/08/14/rider-2025-2-is-here-with-junie-in-ide-opentelemetry-game-dev-upgrades-and-more/",
+    "pubDate": "Thu, 14 Aug 2025 10:39:57 +0000",
+    "creator": "Alexander Kurakin",
     "categories": [
-      "Uncategorized",
-      "exit",
-      "FoundersAtWork",
-      "product",
-      "strategy",
-      "Strong"
+      "releases",
+      "rider",
+      "ai-agent",
+      "c",
+      "debugger",
+      "gamedev",
+      "godot",
+      "junie",
+      "mcp",
+      "opentelemetry",
+      "unity",
+      "unreal-engine"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "New Quarter, New Qodana 2025.2 Release Highlights ",
+    "description": "Following the recent rollout of our new Insights dashboard, Native mode, Self-Hosted Lite version, SSO functionality, and Visual Studio plugin, our Qodana 2025.2 update promises another round of improvements and extensions. Take a look at what we’ve been doing as we focus on providing greater access to code quality and security in your organization, and […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2025/08/qodana-2025-2-release/",
+    "pubDate": "Thu, 14 Aug 2025 13:32:29 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "features",
+      "releases",
+      "go",
+      "kotlin",
+      "owasp",
+      "python",
+      "qodana",
+      "security-reviews"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "A Simpler, More Transparent Model for AI Quotas",
-    "description": "TL;DR: Starting August 18, 2025, we’re rolling out a new AI quota model that makes AI subscriptions easier to understand and manage, while also letting you seamlessly extend your usage beyond your included quota with transparent pricing in real currency. The initial rollout will apply to individuals and organizations, with AI Enterprise updates to follow. […]",
+    "title": "원더랜드워 도색",
+    "description": "유니콘과 체셔캣 도색 기록 먼저 검은색으로 프라이밍 해준다. 다들 비추하는 붓으로 프라이밍 했다. 밖에나가서 뿌리기도 귀찮고 집에선 뿌리지 못하니... 붓으로 하면 디테일이 많이 죽는다. 프라이밍 후 검은색으로 한번 칠해줘 표면을 정리해주는데 벌써 두번이나 도색이 올라가 디테일이 많이 죽었다. 흰색으로 라인을 따주었다. 색상을 올리고 쉐이더와 하이라이팅을 추가하여 마무리 했다. 유니콘은 과정을 안찍어놔서 그냥 사용한 색만 보이도록 찍었다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/08/a-simpler-more-transparent-model-for-ai-quotas/",
-    "pubDate": "Wed, 13 Aug 2025 15:10:17 +0000",
-    "creator": "Ilya Petrov",
+    "link": "https://blog.naver.com/dlehddus84/223966884445?fromRss=true&trackingCode=rss",
+    "pubDate": "Mon, 11 Aug 2025 17:44:32 +0900",
+    "creator": "dlehddus84",
     "categories": [
-      "news",
-      "ai-assistant",
-      "ai-in-ides",
-      "junie"
+      "도색과 제작"
     ]
   }
 ]
