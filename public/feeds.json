@@ -949,15 +949,6 @@
         "contentSnippet": "오래전부터 이 블로그에는 주로 제가 해외 기술 문서를 번역한 글을 올리고 있습니다.\n네이버, 티스토리, 깃허브를 통해서 20년 이상 블로그를 운영했는데 중단하고 다른 방법으로 기술 공유를 하려고 합니다.\n이제 유튜브를 통해서 기술 공유를 하려고 합니다.   \n여기입니다.  \n단순하게 기술 문서를 공유하지 않고, 왜 공유하려는지 이유를 설명하면서 공유하겠습니다.",
         "guid": "https://jacking75.github.io/ETC_20250815/",
         "isoDate": "2025-08-14T15:00:00.000Z"
-      },
-      {
-        "title": "NPU 대응을 포함한 25종류 이상의 로컬 AI 기능을 시험할 수 있는 AI Dev Gallery",
-        "link": "https://jacking75.github.io/ai-llm_20250810/",
-        "pubDate": "Sun, 10 Aug 2025 00:00:00 +0900",
-        "content": "<iframe width=\"1024\" height=\"1024\" src=\"https://docs.google.com/document/d/e/2PACX-1vQLuikeUDrMGQnvOrVsNkggmdhx8vxzNfIkbeEPRKvnuIyTjCR3W8uYEBp5pFbcMTxWUO2UoeclgfhX/pub?embedded=true\"></iframe>\n\n",
-        "contentSnippet": "",
-        "guid": "https://jacking75.github.io/ai-llm_20250810/",
-        "isoDate": "2025-08-09T15:00:00.000Z"
       }
     ]
   },
@@ -1046,7 +1037,41 @@
   {
     "name": "퇴근 후 서버다운",
     "category": "개인",
-    "posts": []
+    "posts": [
+      {
+        "creator": "SIDNFT",
+        "title": "RTX 그래픽 카드로 동영상 화질을 높여보자",
+        "link": "http://serverdown.tistory.com/1375",
+        "pubDate": "Sat, 16 Aug 2025 20:11:35 +0900",
+        "author": "SIDNFT",
+        "comments": "http://serverdown.tistory.com/1375#entry1375comment",
+        "content": "<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"357\" data-origin-height=\"267\"><span data-url=\"https://blog.kakaocdn.net/dn/3nXyA/btsPVe1onxG/5D5ynKQZm0FTblK5cXhsu1/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/3nXyA/btsPVe1onxG/5D5ynKQZm0FTblK5cXhsu1/img.png\"><img src=\"https://blog.kakaocdn.net/dn/3nXyA/btsPVe1onxG/5D5ynKQZm0FTblK5cXhsu1/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F3nXyA%2FbtsPVe1onxG%2F5D5ynKQZm0FTblK5cXhsu1%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"357\" height=\"267\" data-origin-width=\"357\" data-origin-height=\"267\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/shorts/udDmL5UkI5s\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/shorts/udDmL5UkI5s</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/shorts/udDmL5UkI5s\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/u5eT5/hyZzAfDpkf/1qKfDlIOmZr6jGpi8WeUzK/img.jpg?width=405&amp;height=720&amp;face=0_0_405_720,https://scrap.kakaocdn.net/dn/dZvRFz/hyZynukWq3/RVBP2cKx8SL4L2ys13LACK/img.jpg?width=405&amp;height=720&amp;face=0_0_405_720\" data-video-width=\"405\" data-video-height=\"720\" data-video-origin-width=\"405\" data-video-origin-height=\"720\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"아무도 안쓰는 그래픽카드 개꿀기능\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/udDmL5UkI5s\" width=\"405\" height=\"720\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">버튜버 화질도 올라간다고 합니다. (방송하는 사람말고 보는사람이 켜는거임)</p>",
+        "contentSnippet": "영상: https://www.youtube.com/shorts/udDmL5UkI5s\n\n\n\n \n버튜버 화질도 올라간다고 합니다. (방송하는 사람말고 보는사람이 켜는거임)",
+        "guid": "http://serverdown.tistory.com/1375",
+        "categories": [
+          "유튜브",
+          "rtx",
+          "화질"
+        ],
+        "isoDate": "2025-08-16T11:11:35.000Z"
+      },
+      {
+        "creator": "SIDNFT",
+        "title": "팀장님 그가 대북주를 몰빵했습니다. / 주식 투자 쇼츠",
+        "link": "http://serverdown.tistory.com/1374",
+        "pubDate": "Sat, 16 Aug 2025 16:35:10 +0900",
+        "author": "SIDNFT",
+        "comments": "http://serverdown.tistory.com/1374#entry1374comment",
+        "content": "<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"460\" data-origin-height=\"399\"><span data-url=\"https://blog.kakaocdn.net/dn/b2EesL/btsPUJOnrz9/kVQuQIcIrlkqrYRtghHNtk/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/b2EesL/btsPUJOnrz9/kVQuQIcIrlkqrYRtghHNtk/img.png\"><img src=\"https://blog.kakaocdn.net/dn/b2EesL/btsPUJOnrz9/kVQuQIcIrlkqrYRtghHNtk/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb2EesL%2FbtsPUJOnrz9%2FkVQuQIcIrlkqrYRtghHNtk%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"460\" height=\"399\" data-origin-width=\"460\" data-origin-height=\"399\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">팀장님&nbsp;그가&nbsp;대북주를&nbsp;몰빵했습니다.&nbsp;</h2>\n<p data-ke-size=\"size16\">영상:<a href=\"https://www.youtube.com/shorts/U-9rK-eRmxo\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/shorts/U-9rK-eRmxo</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/shorts/U-9rK-eRmxo\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/c9Ur9I/hyZynHLUgR/7NPs4G7VjAACpot8X0e3S0/img.jpg?width=405&amp;height=720&amp;face=0_0_405_720,https://scrap.kakaocdn.net/dn/rYKSp/hyZyiNg3bR/CFIWDtsWGphJ0NC1k7YfM0/img.jpg?width=405&amp;height=720&amp;face=0_0_405_720\" data-video-width=\"405\" data-video-height=\"720\" data-video-origin-width=\"405\" data-video-origin-height=\"720\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"그가 대북주에 몰빵 했습니다\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/U-9rK-eRmxo\" width=\"405\" height=\"720\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">그전에꺼는</p>\n<h2 data-ke-size=\"size26\">팀장님 그가 상따를 했습니다.</h2>\n<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/shorts/RsoOGYyBMO4\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/shorts/RsoOGYyBMO4</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/shorts/RsoOGYyBMO4\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/cCAPkX/hyZvweSWaV/shNxkGdkDe05I9WwgaMMkK/img.jpg?width=405&amp;height=720&amp;face=0_0_405_720,https://scrap.kakaocdn.net/dn/cfBHzz/hyZymWrKwT/Yuwwxv04hJIYtyWQzo5A00/img.jpg?width=405&amp;height=720&amp;face=0_0_405_720\" data-video-width=\"405\" data-video-height=\"720\" data-video-origin-width=\"405\" data-video-origin-height=\"720\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"그가 상따를 했습니다\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/RsoOGYyBMO4\" width=\"405\" height=\"720\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p style=\"background-color: #000000; color: #000000; text-align: start;\" data-ke-size=\"size16\">주식 투자엔 많은 교훈이 있습니다.</p>\n<p style=\"background-color: #000000; color: #000000; text-align: start;\" data-ke-size=\"size16\">그것은 팀장님의 움직임에 휘둘리지 않도록 해주는 조언입니다.</p>\n<p style=\"background-color: #000000; color: #000000; text-align: start;\" data-ke-size=\"size16\">모든 술수를 버티는 것 많이 유일한 해답입니다.</p>",
+        "contentSnippet": "팀장님 그가 대북주를 몰빵했습니다. \n영상:https://www.youtube.com/shorts/U-9rK-eRmxo\n\n\n\n \n그전에꺼는\n팀장님 그가 상따를 했습니다.\n영상: https://www.youtube.com/shorts/RsoOGYyBMO4\n\n\n\n \n \n \n \n \n주식 투자엔 많은 교훈이 있습니다.\n그것은 팀장님의 움직임에 휘둘리지 않도록 해주는 조언입니다.\n모든 술수를 버티는 것 많이 유일한 해답입니다.",
+        "guid": "http://serverdown.tistory.com/1374",
+        "categories": [
+          "유튜브",
+          "주식투자"
+        ],
+        "isoDate": "2025-08-16T07:35:10.000Z"
+      }
+    ]
   },
   {
     "name": "coolspeed",
@@ -1163,13 +1188,13 @@
     "category": "개인",
     "posts": [
       {
-        "title": "웹 애니메이션 API",
-        "link": "https://hyeonseok.com/blog/939",
-        "pubDate": "Sat, 09 Aug 2025 17:13:48 GMT",
-        "content": "<p>시작은 제이쿼리로 되어 있는 코드를 바닐라로 변환이 필요해서 였다. 화면에서 보이지 않다가 특정 조건에서 화면에 나오는 애니메이션을 보여주는 기능이었다. 챗지피티에 물어보니 전반적인 변환은 잘 해줬는데 화면에 나오기 직전에 <code>display: none</code>을 <code>block</code>로 바꿔주다 보니 트랜지션 애니메이션이 작동하지 않았다. <code>element.offsetWidth;</code>같이 레이아웃을 참조하면 애니메이션이 되지만 다른 방법은 없는지 제미나이에게 물어보니 <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animate\"><code>element.animate</code></a>를 사용해서 변환을 했다. <code>display</code> 조작의 영향을 받지 않고 의도대로 작 작동한다.</p>\r\n\r\n<p>키프레임 애니메이션을 자바스크립트로 구성하는 느낌이다. <code>element.animate(keyframes, options)</code>와 같이 사용하면 간단하게 이용할 수 있다.</p>\r\n\r\n<pre><code>document.querySelector('div').animate([\r\n\t{ width: '100px' },\r\n\t{ width: '200px' },\r\n], {\r\n\tduration: 500,\r\n\tfill: 'forwards',\r\n\teasing: 'ease'\r\n});</code></pre>\r\n\r\n<p><a href=\"https://caniuse.com/mdn-api_element_animate\">나온지 10년</a>이 다 되어가는데 잘 모르고 있었다. CSS로 애니메이션을 제어하는 것을 선호하기는 하는데 동적으로 변경되는 애니메이션을 만들어야 할 때에 유용하게 사용할 수 있다. <a href=\"https://caniuse.com/mdn-api_element_animate_options_timeline_parameter\">타임라인</a>이나 <a href=\"https://caniuse.com/mdn-api_element_animate_options_rangestart_parameter\">레인지</a>도 정의할 수 있는데 파이어폭스가 아직 지원을 안한다.</p>",
-        "contentSnippet": "시작은 제이쿼리로 되어 있는 코드를 바닐라로 변환이 필요해서 였다. 화면에서 보이지 않다가 특정 조건에서 화면에 나오는 애니메이션을 보여주는 기능이었다. 챗지피티에 물어보니 전반적인 변환은 잘 해줬는데 화면에 나오기 직전에 display: none을 block로 바꿔주다 보니 트랜지션 애니메이션이 작동하지 않았다. element.offsetWidth;같이 레이아웃을 참조하면 애니메이션이 되지만 다른 방법은 없는지 제미나이에게 물어보니 element.animate를 사용해서 변환을 했다. display 조작의 영향을 받지 않고 의도대로 작 작동한다.\n\r\n\r\n키프레임 애니메이션을 자바스크립트로 구성하는 느낌이다. element.animate(keyframes, options)와 같이 사용하면 간단하게 이용할 수 있다.\n\r\n\r\ndocument.querySelector('div').animate([\r\n\t{ width: '100px' },\r\n\t{ width: '200px' },\r\n], {\r\n\tduration: 500,\r\n\tfill: 'forwards',\r\n\teasing: 'ease'\r\n});\n\r\n\r\n나온지 10년이 다 되어가는데 잘 모르고 있었다. CSS로 애니메이션을 제어하는 것을 선호하기는 하는데 동적으로 변경되는 애니메이션을 만들어야 할 때에 유용하게 사용할 수 있다. 타임라인이나 레인지도 정의할 수 있는데 파이어폭스가 아직 지원을 안한다.",
-        "guid": "https://hyeonseok.com/blog/939",
-        "isoDate": "2025-08-09T17:13:48.000Z"
+        "title": "F1 더 무비",
+        "link": "https://hyeonseok.com/blog/940",
+        "pubDate": "Sat, 16 Aug 2025 18:25:19 GMT",
+        "content": "<p><img src=\"/static/blog/f1-the-movie.webp\" class=\"major\" alt=\"F1 the movie poster\"> 트레일러 영상이 나왔을 때 소리가 아이폰의 진동 센서와 연동되었다고 해서 사람들 사이에서 이슈였던 영화다. 메가박스 남양주 현대아울렛 스페이스원 돌비 시네마에서 봤는데 음향과 음량이 정말 뛰어났다. 자동차 엔진의 저음이 몸이 떨릴 정도로 강하게 전달 됐다. 영화 평점에서 시나리오가 0점이길래 내용이 그리 없나 싶었지만 나름 짜임새 있어서 재미있게 봤다. 결국 승리 트로피를 누가 받을지 궁금했는데 엔딩도 나름 괜찮았다.</p>\r\n<p>레이싱을 잘 안다고 생각한 적은 없었는데 영화 처음에 나오는 데이토나 트랙도 아는 트랙이고 계속 해서 나오는 레이싱 관련 내용도 상당히 이해가 잘 가서 레이싱 게임을 열심히 한게 좀 도움이 됐다. 아무 생각없이 갔는데 돌비 5주년 특가로 인당 만원에 봤다. 몰입도가 상당한 잘 만든 영화다.</p>",
+        "contentSnippet": "트레일러 영상이 나왔을 때 소리가 아이폰의 진동 센서와 연동되었다고 해서 사람들 사이에서 이슈였던 영화다. 메가박스 남양주 현대아울렛 스페이스원 돌비 시네마에서 봤는데 음향과 음량이 정말 뛰어났다. 자동차 엔진의 저음이 몸이 떨릴 정도로 강하게 전달 됐다. 영화 평점에서 시나리오가 0점이길래 내용이 그리 없나 싶었지만 나름 짜임새 있어서 재미있게 봤다. 결국 승리 트로피를 누가 받을지 궁금했는데 엔딩도 나름 괜찮았다.\n\r\n레이싱을 잘 안다고 생각한 적은 없었는데 영화 처음에 나오는 데이토나 트랙도 아는 트랙이고 계속 해서 나오는 레이싱 관련 내용도 상당히 이해가 잘 가서 레이싱 게임을 열심히 한게 좀 도움이 됐다. 아무 생각없이 갔는데 돌비 5주년 특가로 인당 만원에 봤다. 몰입도가 상당한 잘 만든 영화다.",
+        "guid": "https://hyeonseok.com/blog/940",
+        "isoDate": "2025-08-16T18:25:19.000Z"
       }
     ]
   },
@@ -1486,6 +1511,14 @@
         "contentSnippet": "2025년 상반기 재무실적 발표",
         "guid": "https://toss.im/tossfeed/article/251H",
         "isoDate": "2025-08-14T08:00:00.000Z"
+      },
+      {
+        "title": "Toss Surpasses KRW 668 Billion in Consolidated Revenue for Q2 2025, Achieving 41% Year-over-Year Growth",
+        "link": "https://toss.im/tossfeed/article/2025-2Q-growth",
+        "pubDate": "Wed, 13 Aug 2025 15:00:00 GMT",
+        "content:encodedSnippet": ".css-1vn47db{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:none;-ms-flex:none;flex:none;}\n.css-uswsmm{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:none;-ms-flex:none;flex:none;margin:24px 0 8px;padding:0;list-style:none;}.css-uswsmm ul,.css-uswsmm ol{margin:16px 0 0;}.css-uswsmm>li{margin-bottom:16px;padding-left:24px;}.css-uswsmm>li:last-of-type{margin-bottom:0;}.css-uswsmm>li>span{position:relative;}.css-uswsmm>li>span>:first-child::before{content:'•';font-weight:500;color:var(--adaptiveGrey800);position:absolute;left:-24px;}\n.css-1hwiibq{font-size:17px;line-height:1.6;word-break:keep-all;letter-spacing:0em;font-weight:400;color:var(--adaptiveGrey800);}\n.css-1r3ko7u{line-height:0;display:block;}.css-1iisb9p{display:contents;line-height:1.6;}.css-1kxrhf3{white-space:pre-wrap;}Consolidated Q2 2025 revenue of KRW 668 billion (USD 493 million*); net profit of KRW 57 billion (USD 42 million*)\nGrowth driven by strong engagement from scaled user base and rapid expansion of business customers\n.css-14on8x8{font-size:17px;letter-spacing:0em;line-height:1.6;font-weight:normal;color:var(--adaptiveGrey800);margin:24px 0 8px;}\n\n.css-q3ktjb{white-space:pre-wrap;font-weight:bold;}SEOUL, August 14, 2025 – Toss today announced that it recorded a consolidated revenue of KRW 668 billion (USD 493 million*) for the second quarter of 2025, a 41% year-over-year increase (constant currency basis). Operating profit reached KRW 84 billion (USD 62 million*), and consolidated net profit came in at KRW 57 billion (USD 42 million*), continuing the company’s margin expansion since achieving its first full-year net profitability in 2024.\nThe Toss ecosystem brings together the Toss SuperApp – which distributes services such as advertising, trading, e-commerce, and financial marketplace to its users – and the payments network – which powers the entire platform by spanning mobile, online, and offline payments. The Toss ecosystem operates as one unified platform offering users and business customers the best-in-class experience whether they are managing their financial lives on the SuperApp or discovering an engaged user base to sell products to.\nToss’ user base grows consistently, now reaching over 60% of the Korean population across all demographics. The company currently has over 30 million users registered on the Toss app, about 25 million of whom are monthly active. The engagement level of each of those users is improving over time, mainly due to the platform advantage Toss gets from having best-in-class products all housed under one SuperApp. Users will open the Toss app to trade stocks, transfer money, apply for loans and more - essentially using the app as the go-to destination to manage their finances. At the forefront of digital finance innovation, Toss continues to launch transformative products in a user-centric approach.\nToss’ dedication to business customers has been instrumental to its strong financial results over the past quarters. Leveraging Toss’ unified fintech platform and frontier technology, the company continues to accelerate financial growth by transforming its business customers’ opportunities and experiences. Toss empowers these business customers with an innovative technology stack that drives efficient growth and provides access to one of the nation’s largest and deeply-engaged customers. Toss continues to accumulate a wide range of business customers across advertisers, e-commerce sellers, financial institutions, and merchants. Supporting business customers comprehensively continues to be a key focus area for Toss.\nNet profit growth was underpinned by both higher platform-wide revenue and improved unit economics across the Toss ecosystem. Despite meaningful investments into key growth initiatives such as a firm-wide AI initiatives and deeper ML engines, new product launches, and global expansion, Toss continues to remain highly profitable while growing at scale.\nA Toss spokesperson commented: “Our strong financial results are a collective outcome of operating as one unified platform, with a shared strategic vision across the Toss ecosystem. Through our unified financial SuperApp powered by an integrated payments network that operates across mobile, online and offline, we have strengthened our position as the nation’s financial control center, delivering value to both users and businesses. The continued profitability in our core businesses, rapid expansion of our business customer base, and company-wide efficiency gains reflect the strength of our ecosystem-driven strategy.”\n\n.css-1odxvuk{white-space:pre-wrap;font-style:italic;} All figures converted using USD/KRW of 1,353.75 ended 30 June 2025, per Bloomberg\n\n\n\n\nAbout Toss\nToss is South Korea’s leading unified fintech platform, which includes the Toss SuperApp and a nation-wide payments network, dedicated to helping individuals manage their financial lives seamlessly in one place, and businesses connect with a rich and engaged user base.\nFounded in 2015 with the vision of transforming finance into a more accessible, personalized, and secure experience, Toss now serves nearly 30 million users with a comprehensive suite of services, including money transfer, payments, banking, stock trading, credit score management and tax services, all within a single, seamless app.\nExpanding beyond finance, Toss also offers services in retail, mobility, and telecommunications, solidifying its role as a true SuperApp that supports customers in every aspect of their daily lives.",
+        "guid": "https://toss.im/tossfeed/article/2025-2Q-growth",
+        "isoDate": "2025-08-13T15:00:00.000Z"
       },
       {
         "title": "토스 페이스페이, 등록부터 결제까지 자주 묻는 질문들",
