@@ -2,188 +2,88 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "TeamCity 2025.07.1 Is Here",
-    "description": "TeamCity On-Premises 2025.07.1, the first bug-fix for the recently released TeamCity 2025.07, is ready to be installed on your On-Premises servers. This update addresses a significant number of issues, including: Bug-fix updates also include performance and security improvements, so we recommend installing them promptly. See TeamCity 2025.07.1 Release Notes for the complete list of resolved […]",
+    "title": "ChatGPT, 단순 챗봇에서 '완전한 생산성 도구'로의 진화 (엑셀, PPT 편집 기능 개발중)",
+    "description": "ChatGPT가 엑셀, 파워포인트를 직접 편집한다고? 이제 별도 프로그램 없이 ChatGPT 안에서 모든 문서 작업이 가능해집니다. 마이크로소프트 오피스의 시대, 정말 끝나는 걸까요?\n\n\n \n 보고서 시즌만 되면 한숨부터 나오시나요? ChatGPT로 아이디어를 얻고, 다시 엑셀을 열어 데이터를 정리하고, 파워포인트로 옮겨 디자인하느라 지치셨죠. 저도 매번 그 과정이 번거로웠는데요. 이제 이런 불편함이 곧 사라질 것 같습니다. OpenAI가 ChatGPT에 엑셀과 파워포인트 파일을 직접 만들고 편집하는, 그야말로 '혁명적인' 기능을 추가할 예정이라고 하거든요! \n \n이제 ChatGPT가 MS 오피스를 대체할까? \n현재 ChatGPT를 이용해 스프레드시트나 슬라이드를 생성하면, 결과물은 사실상 Excel과 PowerPoint 파일의 '일반 텍스트 버전'에 가까웠습니다. 사용자는 이 텍스트 기반 결과물을 다운로드하거나 플랫폼의 Canvas 모드에서 수동으로 편집해야 했죠. 하지만 이 방식은 기능적 한계가 명확했습니다. 예를 들어, 스프레드시트에서는 복잡한 수식 지원이 부족했고, 프레젠테이션에서는 고급 시각 요소나 애니메이션을 구현할 수 없었습니다. 결국 아이디어 구상 단계에서는 유용했지만, 완성도 높은 문서를 만들기 위해서는 다시 MS 오피스 프로그램을 열어 수작업을 해야만 했습니다.\n하지만 곧 공개될 업데이트는 이 모든 과정을 완전히 뒤바꿀 겁니다. 사용자는 이제 별도의 프로그램을 켤 필요 없이, ChatGPT 대화창 안에서 바로 .xlsx(엑셀)와 .pptx(파워포인트) 파일을 열고, 만들고, 편집할 수 있게 됩니다. 마치 웹 브라우저에서 구글 독스나 오피스 365를 쓰는 것처럼 말이죠. 이제 정말 '원스톱' 문서 작업이 가능해지는 셈입니다.\n  알아두세요!\n이게 어떻게 가능하냐고요? 사실 마이크로소프트는 엑셀(.xlsx)과 파워포인트(.pptx) 파일 형식을 오픈소스로 공개하고 있습니다. 덕분에 OpenAI는 법적인 문제 없이 MS 오피스와 완벽하게 호환되는 편집 환경을 구축할 수 있는 것이죠.\n \nAI 에이전트, 단순 반복 업무의 종말  \n단순히 파일 편집 기능만 추가되는 것이 아닙니다. OpenAI는 한 단계 더 나아가, 데이터 수집부터 분석, 보고서 작성까지 전 과정을 자동화하는 AI 에이전트를 개발하고 있습니다.\n예를 들어, \"지난 분기 우리 회사 온라인 매출 데이터를 분석해서, 핵심만 요약한 보고서를 파워포인트로 만들어줘\" 라고 명령만 내리면, AI 에이전트가 사내 데이터베이스에 접근해 데이터를 수집하고, 엑셀 파일로 보기 좋게 정리한 뒤, 핵심 내용을 담은 파워포인트 슬라이드까지 자동으로 생성해주는 시대가 열리는 겁니다. 단순 데이터 정리나 보고서 디자인에 쏟았던 시간이 획기적으로 줄어드는 거죠.\n⚠️ 물론 아직은 시작 단계!\n이 기능의 정확한 출시 시기는 아직 공개되지 않았습니다. 또한, 복잡한 매크로나 일부 고급 기능까지 완벽하게 지원할지는 지켜봐야 합니다. 하지만 업무 생산성의 패러다임을 바꿀 거라는 점은 분명해 보입니다.\n \n오피스 AI 에이전트, 춘추전국시대 개막 ⚔️\n사실 오피스 문서 작업을 자동화하려는 시도는 OpenAI가 처음은 아닙니다. 이미 시장에는 강력한 경쟁자들이 존재합니다. 특히 Genspark는 AI 에이전트 중심의 올인원 워크스페이스로, 한 번의 프롬프트로 슬라이드, 시트, 문서를 모두 생성하고 편집할 수 있습니다. Super Agent라는 핵심 기술을 통해 자료 수집, 분석, 시각화는 물론 PPTX, PDF, Excel 파일로 내보내기까지 자동화하며 시장을 선도하고 있죠. 이들 서비스의 특징을 비교해볼까요?\n구분\nChatGPT\nGenspark (genspark.ai)\nSKY WORK\n\n\n\n\n파일 형식/호환\n보도상 .xlsx/.pptx 네이티브 편집 지원 준비 중\n슬라이드 PPTX/PDF, 표·차트 Excel 내보내기 공식 지원\nDocs/Slides/Sheets 제작, 멀티모달 콘텐츠 지향\n\n\n편집 방식\nUI에서 스프레드시트/프레젠테이션 생성·편집 가능 예정\nAI Slides/Sheets/Docs 자체 편집기 제공 (프롬프트 → 결과)\n클라우드 편집 + AI 보조 (실시간 동시 편집 수준 확인 필요)\n\n\n에이전트/자동화\nChatGPT Agent: 웹 탐색, 코드 실행, 편집 가능한 결과물 생성\nSuper Agent: 다중 LLM·도구 오케스트레이션, 다운로드/전화걸기 등\nWorkspace Agents 콘셉트 (문서, 슬라이드, 웹 등)\n\n\n멀티모달\n텍스트/웹/코드/표·차트 생성, 커넥터 확대\n이미지/영상 생성 포함 올인원 워크스페이스\n텍스트·이미지·표·그래프 결합 제작 지향\n\n\n특기/강점\nOffice 호환 네이티브 처리(예정) + 기업 커넥터 확대\n에이전트 중심 자동화, PPTX/PDF/Excel 내보내기 활용\n분석+제작 일체형 워크플로우\n\n\n주의/제약\n일부 기능은 정식 출시·범위가 확정되기 전 단계\n내보내기 품질/세부 서식은 콘텐츠에 따라 편차\n음성명령·일정관리 등은 핵심 기능 아님(업데이트 확인 필요)\n\n\n\nChatGPT의 가장 큰 차별점은 역시 기존 MS오피스 파일과의 완벽한 호환성과 강력한 자연어 처리 능력을 바탕으로 한 '대화형 작업 환경'입니다. 이는 Office 라이선스 비용에 부담을 느끼는 스타트업이나 중소기업, 그리고 AI를 활용한 업무 혁신을 꿈꾸는 많은 직장인에게 매력적인 대안이 될 수 있습니다.\n \n사용자가 얻는 실질적인 이점은?  \n그렇다면 이 기능이 우리에게 가져다줄 구체적인 변화는 무엇일까요? 크게 세 가지로 나누어 볼 수 있습니다.\n시간 절약 및 효율성 증대: 데이터 정리, 차트 생성, 슬라이드 디자인 등 시간이 많이 소요되던 작업을 AI가 대신 처리해줍니다. 사용자는 더 중요한 의사결정과 창의적인 기획에 집중할 수 있게 됩니다.\n비용 절감: 특히 중소기업이나 스타트업의 경우, 고가의 오피스 소프트웨어 라이선스 비용을 절감할 수 있는 강력한 대안이 될 수 있습니다. 클라우드 기반으로 작동하므로 별도의 설치나 유지보수 비용도 들지 않습니다.\n데이터 접근성 향상: 복잡한 엑셀 함수나 데이터 분석 툴에 익숙하지 않은 사람도 자연어 명령을 통해 손쉽게 데이터 인사이트를 얻고, 이를 시각화된 보고서로 만들 수 있게 됩니다. 데이터 전문가가 아니어도 누구나 데이터 기반의 업무를 수행할 수 있게 되는 것이죠.\n \n미래 전망: 통합 생태계의 시작  \nOpenAI의 야심은 여기서 그치지 않을 것으로 보입니다. 최근에는 OpenAI가 자체 웹 브라우저를 개발하고 있다는 소식도 들려오고 있습니다. 만약 이 모든 것이 사실이라면, 우리는 거대한 그림을 그려볼 수 있습니다.\n자체 브라우저로 웹에서 정보를 검색하고, 그 데이터를 AI 에이전트가 실시간으로 분석하여 ChatGPT 내에서 엑셀과 파워포인트로 보고서를 완성하는 완전히 새로운 '통합 업무 생태계'가 탄생하는 것입니다. 이는 구글 워크스페이스나 마이크로소프트 365가 제공하는 경험을 뛰어넘는, 진정한 의미의 AI 중심 워크플로우가 될 수 있습니다.\n \n \nChatGPT 오피스 기능 핵심 요약\n✨ 네이티브 편집: 별도 프로그램 없이 ChatGPT 내에서 엑셀, 파워포인트 생성 및 편집 가능.\n  AI 에이전트: 단순 명령만으로 데이터 분석부터 보고서 작성까지 전 과정 자동화.\n  비용 및 시간 절감: 소프트웨어 라이선스 비용을 줄이고, 반복 업무 시간을 획기적으로 단축.\n  통합 생태계: 자체 브라우저와 결합하여 검색-분석-문서 작성을 잇는 새로운 워크플로우 제시.\n이제 AI가 당신의 직장 동료가 되는 시대가 오고 있습니다.\n자주 묻는 질문 ❓\nQ: 이 기능은 언제부터 사용할 수 있나요?\nA: 아직 OpenAI에서 정확한 출시 시기를 발표하지 않았습니다. 하지만 업계에서는 연내 또는 내년 초를 예상하고 있습니다.\nQ: 유료 구독자(ChatGPT Plus)만 사용할 수 있나요?\nA: 초기에는 유료 구독자에게 먼저 공개될 가능성이 높습니다. 하지만 OpenAI의 정책에 따라 향후 무료 사용자에게도 제한적으로 기능이 제공될 수 있습니다.\nQ: 마이크로소프트의 코파일럿(Copilot)과는 무엇이 다른가요?\nA: 코파일럿은 MS 365 앱 '내부'에서 작동하는 AI 비서에 가깝습니다. 반면 ChatGPT는 '자체 플랫폼'에서 MS 오피스 파일을 직접 다루는 방식이라, MS 생태계에서 독립적이라는 큰 차이가 있습니다.\nQ: 회사 기밀 데이터나 개인정보를 다뤄도 안전할까요?\nA: 민감한 정보를 다룰 때는 항상 주의가 필요합니다. OpenAI는 데이터 보안을 강화하고 있지만, 기업용으로 사용하기 전에는 반드시 회사의 보안 정책을 확인하고, ChatGPT Enterprise와 같은 보안이 강화된 버전을 검토하는 것이 좋습니다.\nQ: OpenAI가 자체 웹 브라우저를 만든다는 게 사실인가요?\nA: 관련 보도가 나오고 있으며, 사실일 가능성이 높게 점쳐지고 있습니다. 만약 자체 브라우저와 오피스 편집 기능이 결합된다면, 정보 검색부터 문서 작성까지 하나의 플랫폼에서 모두 해결하는 강력한 생태계가 만들어질 수 있습니다.\nAI가 우리의 일하는 방식을 바꾸고 있는 지금, ChatGPT의 이번 업데이트는 그 변화의 중심에 서 있습니다. 단순 반복 업무는 AI에게 맡기고, 우리는 더 창의적이고 본질적인 일에 집중할 수 있는 날이 머지않았네요. 여러분은 이 새로운 기능을 어떻게 활용하고 싶으신가요? 댓글로 의견을 나눠주세요!  \n\n    {\n        \"@context\": \"https://schema.org\",\n        \"@type\": \"FAQPage\",\n        \"mainEntity\": [\n            {\n                \"@type\": \"Question\",\n                \"name\": \"ChatGPT의 엑셀, 파워포인트 편집 기능은 언제부터 사용할 수 있나요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  아직 OpenAI에서 정확한 출시 시기를 발표하지 않았습니다. 하지만 업계에서는 연내 또는 내년 초를 예상하고 있습니다.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"유료 구독자(ChatGPT Plus)만 사용할 수 있는 기능인가요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  초기에는 유료 구독자에게 먼저 공개될 가능성이 높습니다. 하지만 OpenAI의 정책에 따라 향후 무료 사용자에게도 제한적으로 기능이 제공될 수 있습니다.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"마이크로소프트의 코파일럿(Copilot)과는 무엇이 다른가요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  코파일럿은 MS 365 앱 '내부'에서 작동하는 AI 비서에 가깝습니다. 반면 ChatGPT는 '자체 플랫폼'에서 MS 오피스 파일을 직접 다루는 방식이라, MS 생태계에서 독립적이라는 큰 차이가 있습니다.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"회사 기밀 데이터나 개인정보를 다뤄도 안전할까요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  민감한 정보를 다룰 때는 항상 주의가 필요합니다. OpenAI는 데이터 보안을 강화하고 있지만, 기업용으로 사용하기 전에는 반드시 회사의 보안 정책을 확인하고, ChatGPT Enterprise와 같은 보안이 강화된 버전을 검토하는 것이 좋습니다.\"\n                }\n            },\n            {\n                \"@type\": \"Question\",\n                \"name\": \"OpenAI가 자체 웹 브라우저를 만든다는 게 사실인가요?\",\n                \"acceptedAnswer\": {\n                    \"@type\": \"Answer\",\n                    \"text\": \"  관련 보도가 나오고 있으며, 사실일 가능성이 높게 점쳐지고 있습니다. 만약 자체 브라우저와 오피스 편집 기능이 결합된다면, 정보 검색부터 문서 작성까지 하나의 플랫폼에서 모두 해결하는 강력한 생태계가 만들어질 수 있습니다.\"\n                }\n            }\n        ]\n    }",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/08/teamcity-2025-07-1-bug-fix/",
-    "pubDate": "Thu, 14 Aug 2025 12:08:03 +0000",
-    "creator": "Dmitrii Korovin",
+    "link": "http://muzbox.tistory.com/483642",
+    "pubDate": "Thu, 14 Aug 2025 12:22:19 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "bug-fix"
+      "AI, 미래기술/AI 인사이트",
+      "ai 보고서",
+      "ai 생산성 도구",
+      "ChatGPT",
+      "MS 오피스 대체",
+      "OpenAI 업데이트",
+      "네이티브 파일 편집",
+      "업무 자동화",
+      "엑셀 편집",
+      "오피스 에이전트",
+      "파워포인트 편집"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "New Quarter, New Qodana 2025.2 Release Highlights ",
-    "description": "Following the recent rollout of our new Insights dashboard, Native mode, Self-Hosted Lite version, SSO functionality, and Visual Studio plugin, our Qodana 2025.2 update promises another round of improvements and extensions. Take a look at what we’ve been doing as we focus on providing greater access to code quality and security in your organization, and […]",
+    "title": "ReSharper and the .NET Tools 2025.2 Are Out!",
+    "description": "ReSharper and the .NET tools 2025.2 are available for download. This release introduces the public preview of ReSharper’s Out-of-Process mode, adds support for the latest C# 14 and C++26 features, and brings a range of improvements for performance, refactorings, and inspections. If you’d like to try out what’s coming in the next stable release, you […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/08/qodana-2025-2-release/",
-    "pubDate": "Thu, 14 Aug 2025 13:32:29 +0000",
-    "creator": "Kerry Beetge",
+    "link": "https://blog.jetbrains.com/dotnet/2025/08/14/resharper-and-the-net-tools-2025-2-are-out/",
+    "pubDate": "Thu, 14 Aug 2025 10:40:06 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "features",
+      "net-tools",
       "releases",
-      "go",
-      "kotlin",
-      "owasp",
-      "python",
-      "qodana",
-      "security-reviews"
+      "c",
+      "cpp",
+      "logging",
+      "out-of-process-2",
+      "performance",
+      "release"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "페도라42에서 docker 오류",
-    "description": "리눅스 중에 최신 버전을 사용하는 페도라 리눅스42에 docker를 설치하면 에러가 발생하면서 실행되지 않는다. 결론만 말하면 iptables-legacy 패키지를 설치하고 리부트하면 손쉽게 해결 된다. 그러면 Fedora42에서 docker 의 오류 증상과 해결법에 대해서 살펴보도록 하겠다.\n참고로 페도라 리눅스 42는 2025년 4월 16일에 출시되었다.\nDocker on Fedora 42\n\n\n \n1. Fedora Linux 42에서 docker 오류\n페도라 리눅스 42에 docker-ce를 설치하고, enable and start를 하면 다음과 같이 에러가 발생한다. 아래는 명령어 실행시 발생하는 에러 상황을 캡쳐한 것이다.\n$ sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n\n$ sudo systemctl enable --now docker\nCreated symlink '/etc/systemd/system/multi-user.target.wants/docker.service' → '/usr/lib/systemd/system/docker.service'.\nJob for docker.service failed because the control process exited with error code.\nSee \"systemctl status docker.service\" and \"journalctl -xeu docker.service\" for details.\n\n$ sudo systemctl status docker\n× docker.service - Docker Application Container Engine\n     Loaded: loaded (/usr/lib/systemd/system/docker.service; enabled; preset: disabled)\n    Drop-In: /usr/lib/systemd/system/service.d\n             └─10-timeout-abort.conf\n     Active: failed (Result: exit-code) since Thu 2025-07-10 15:22:14 KST; 17s ago\n Invocation: 226f2df11c4e4b67bdd829aa732b9f1d\nTriggeredBy: × docker.socket\n       Docs: https://docs.docker.com\n    Process: 177352 ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock (code=exited, status=1/FAILURE)\n   Main PID: 177352 (code=exited, status=1/FAILURE)\n\nJul 10 15:22:14 fedora systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Start request repeated too quickly.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Failed with result 'exit-code'.\nJul 10 15:22:14 fedora systemd[1]: Failed to start docker.service - Docker Application Container Engine.\n먼저 dnf로 docker-ce를 비롯한 5개의 패키지를 설치한 뒤에, systemctl enable --now docker로 실행하였다. 그런데 systemctl status docker로 확인해보니 Active 상태에 failed (Result: exit-code)로 표시되어있다.\n좀 더 자세한 정보를 얻기 위해 journalctl로 최근 30개의 docker unit 관련 로그를 살펴보았다.\n$ sudo journalctl -u docker -rn 30\nJul 10 15:22:14 fedora systemd[1]: Failed to start docker.service - Docker Application Container Engine.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Failed with result 'exit-code'.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Start request repeated too quickly.\nJul 10 15:22:14 fedora systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.\nJul 10 15:22:12 fedora systemd[1]: Failed to start docker.service - Docker Application Container Engine.\nJul 10 15:22:12 fedora systemd[1]: docker.service: Failed with result 'exit-code'.\nJul 10 15:22:12 fedora systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE\nJul 10 15:22:12 fedora dockerd[177352]: failed to start daemon: Error initializing network controller: error obtaining controller instance: failed to register \"bridge\" driver: failed to create NAT chain DOCKER: COMMAND_FAILED: INVALID_IPV: 'ipv4' is not a valid backend or is unavailable\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.245077759+09:00\" level=info msg=\"stopping event stream following graceful shutdown\" error=\"<nil>\" module=libcontainerd namespace=moby\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.221133353+09:00\" level=warning msg=\"failed to find iptables\" error=\"exec: \\\"iptables\\\": executable file not found in $PATH\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.219303872+09:00\" level=info msg=\"Firewalld: docker zone already exists, returning\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.185940349+09:00\" level=error msg=\"failed to load container\" container=docker-mysqld-auth.log error=\"lstat /var/lib/docker/containers/docker-mysqld-auth.log/config.v2.json: not a directory\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.185855977+09:00\" level=info msg=\"Loading containers: start.\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.179171737+09:00\" level=info msg=\"[graphdriver] using prior storage driver: overlay2\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.125838950+09:00\" level=info msg=\"Creating a containerd client\" address=/run/containerd/containerd.sock timeout=1m0s\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.117090429+09:00\" level=info msg=\"detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.116958491+09:00\" level=info msg=\"CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory\" dir=/etc/cdi\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.116944136+09:00\" level=info msg=\"CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory\" dir=/var/run/cdi\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.116850954+09:00\" level=info msg=\"OTEL tracing is not configured, using no-op tracer provider\"\nJul 10 15:22:12 fedora dockerd[177352]: time=\"2025-07-10T15:22:12.116388190+09:00\" level=info msg=\"Starting up\"\nJul 10 15:22:12 fedora systemd[1]: Starting docker.service - Docker Application Container Engine...\nJul 10 15:22:12 fedora systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.\nJul 10 15:22:09 fedora systemd[1]: Failed to start docker.service - Docker Application Container Engine.\nJul 10 15:22:09 fedora systemd[1]: docker.service: Failed with result 'exit-code'.\nJul 10 15:22:09 fedora systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE\n==> 여기 아래 부분이 중요한 로그\nJul 10 15:22:09 fedora dockerd[177328]: failed to start daemon: Error initializing network controller: error obtaining controller instance: failed to register \"bridge\" driver: failed to create NAT chain DOCKER: COMMAND_FAILED: INVALID_IPV: 'ipv4' is not a valid backend or is unavailable\nJul 10 15:22:09 fedora dockerd[177328]: time=\"2025-07-10T15:22:09.980772122+09:00\" level=info msg=\"stopping event stream following graceful shutdown\" error=\"<nil>\" module=libcontainerd namespace=moby\nJul 10 15:22:09 fedora dockerd[177328]: time=\"2025-07-10T15:22:09.954760374+09:00\" level=warning msg=\"failed to find iptables\" error=\"exec: \\\"iptables\\\": executable file not found in $PATH\"\nJul 10 15:22:09 fedora dockerd[177328]: time=\"2025-07-10T15:22:09.952882578+09:00\" level=info msg=\"Firewalld: docker zone already exists, returning\"\nJul 10 15:22:09 fedora dockerd[177328]: time=\"2025-07-10T15:22:09.933501286+09:00\" level=error msg=\"failed to load container\" container=docker-mysqld-auth.log error=\"lstat /var/lib/docker/containers/docker-mysqld-auth.log/config.v2.json: not a directory\"\n뒤에서 3번째 로그에 failed to find iptables\" error=\"exec: \\\"iptables\\\": executable file not found in $PATH\" 이라는 부분이 보인다. 그대로 해석하면 $PATH에서 iptables 실행 파일을 찾지 못했다는 뜻이다. 즉 시스템에 iptables 바이너리 파일이 없는 것이다. 이는 페도라 42가 nft (netfilter) 필터 기반의 방화벽을 사용하기 때문에 iptables는 호환성을 위해서만 제공되며 기본적으로는 설치하지 않기 때문에 발생한다. 그래서 iptables-legacy 패키지를 설치하면 iptables 명령어가 제공되면서 해결되는 것이다.\n \n2. 해결방법 : iptables-legacy의 설치\n해결 방법은 앞서 서두에 밝힌 것처럼 iptables-legacy를 설치하면 된다. 설치 방법은 아래처럼 dnf 명령을 사용한다.\n$ sudo dnf -y install iptables-legacy\n설치 후 which iptables 명령을 내려서 iptables가 PATH에 걸려있는지 확인해본다. docker를 재시작하고 iptables의 초기화 같은 것들을 해줘야 하는데, 귀찮으니까 그냥 재부팅하는 것이 편하다.\n재부팅 후에 systemctl status docker로 다시 한번 Active 상태를 확인해보도록 한다. 대부분은 문제없이 잘 실행될 것이다.\n \n3. 해결방법2 : iptables-nft의 설치\niptables-legacy대신에 iptables-nft를 설치해도 되는 것 같다.\n \n히스토리\n2025-08-17 iptables-nft 내용 추가\n2025-08-14 처음 글 올림",
+    "title": "악역영애 4컷 만화 - 14화, 좋은 계획인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "http://sunyzero.tistory.com/317",
-    "pubDate": "Thu, 14 Aug 2025 00:19:40 +0900",
-    "creator": "sunyzero",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2346",
+    "pubDate": "Wed, 13 Aug 2025 20:58:36 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "컴퓨터 관련/리눅스(유닉스) 일반",
-      "docker on Fedora42",
-      "Fedora42",
-      "iptables",
-      "iptables-legacy",
-      "iptables-nft",
-      "도커 페도라 리눅스",
-      "페도라42"
+      "웹툰"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "슈퍼앱의 허상",
-    "description": "매우 적지만, 우리도 지금까지 몇 개의 엑싯을 경험한 적이 있다. 쿠팡 같이 IPO를 한 경우도 있지만, 더 큰 회사에 인수되거나 비슷한 규모의 회사와 합병하면서 M&A를 통해 엑싯 한 경우가 대부분이다. 많지 않은 M&A를 통해서 내가 배운 게 하나 있다면, 좋은 엑싯을 위해서는 회사가 팔려야지, 팔아서는 안 된다는 것이다. 이게 무슨 말이냐 하면, 좋은 회사는 엑싯을(...)",
+    "title": "Using SQL and databases in JetBrains IDEs",
+    "description": "Check out our recent livestream from August 14 on How to Work With SQL and Databases in JetBrains IDEs. In this demo session, we showed how to write SQL queries and work with databases in any JetBrains IDE and explored a range of use cases for embedded database functionality, from simple queries to more advanced […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/08/super-apps-are-not-built-in-a-day.html",
-    "pubDate": "Wed, 13 Aug 2025 21:36:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "exit",
-      "FoundersAtWork",
-      "product",
-      "strategy",
-      "Strong"
-    ]
+    "link": "https://blog.jetbrains.com/datagrip/2025/08/18/using-sql-and-databases-in-jetbrains-ides/",
+    "pubDate": "Mon, 18 Aug 2025 14:21:34 +0000",
+    "creator": "Stanislav Garkusha",
+    "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Kodee’s Kotlin Roundup: 2.2.20-Beta2, Kotlin LSP Update, Shipaton 2025, and a New Face on the Foundation Board",
-    "description": "Kodee here – your ever-cheerful tour guide through the ever-bustling streets of Kotlin-land. Summer may be the season for vacations, but we’re not slowing down! Let’s take a stroll through the latest news. What else to read YouTube highlights Check out some of the most popular videos on our Kotlin YouTube channel: And these are […]",
+    "title": "'소버린 AI' 국가대표 5개 기업의 전략을 파헤치다.",
+    "description": "2025년 8월, 정부는 우리나라 AI 기술 주권 확보를 위해 '소버린 AI 프로젝트'를 본격 추진하며, 이를 선도할 국가대표 AI 기업 5개 컨소시엄을 선정했습니다. 단순한 기술 개발이 아닌, 글로벌 수준의 초거대 AI 파운데이션 모델을 국산화하고 이를 산업 전반에 적용하여 대한민국의 디지털 경쟁력을 한 단계 끌어올리는 것이 이 프로젝트의 핵심 목표입니다",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/08/kodee-kotlin-roundup-july-25-edition/",
-    "pubDate": "Wed, 13 Aug 2025 09:07:58 +0000",
-    "creator": "Kodee",
-    "categories": [
-      "news",
-      "ecosystem",
-      "kotlin-news-2"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "휴가철 투자 체크리스트: 저변동·저수익·저관심 실천하기",
-    "description": "파킹통장·RP·배당 ETF로 완성하는 안전한 포트폴리오",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-skills-3",
-    "pubDate": "Fri, 15 Aug 2025 01:19:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "토스, ‘내 신용점수 리포트’ 서비스 오픈",
-    "description": "내 금융 행동 분석으로 신용점수 관리하세요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/creditt",
-    "pubDate": "Mon, 11 Aug 2025 15:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "LY의 AI 기술의 현재, Tech-Verse 2025 후기",
-    "description": "안녕하세요. LINE Plus의 LINE AI LAB에서 LLM 에이전트 관련 서비스를 개발하고 있는 신수민입니다.저는 지난 7월 도쿄에서 열린 Tech-Verse 2025에 Te...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/tech-verse-2025-recap-current-state-of-ly-ai-tech",
-    "pubDate": "Tue, 12 Aug 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "짭 서피스 아크 마우스 주의",
-    "description": "2024년 7월 16일에 병행수입이라고 서피스 아크마우스를 하나 구입했었다. 국내 유통가 대비 1/2가격이었다. 박스에 중국어만 가득했지만 박스 디자인도 똑같았고 ms로고가 확실히 박혀있었으므로 중국 내수용이겠지…라고 찝찝하지만 넘어갔다. 그리고 7월 19일에 여의도 더 현대에 서피스랩탑 스냅드래곤 버전 구경하러 갔다가 아크마우스를 떨이로 팔길래 그 때 저렴하게 하나 구입했었다. 이건 개봉하지 않고 그냥 묵혀뒀었다. 병행수입이라 주장하던 아크 마우스를 계속 사용해오다가 … More 짭 서피스 아크 마우스 주의",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://megayuchi.com/2025/08/11/%ec%a7%ad-%ec%84%9c%ed%94%bc%ec%8a%a4-%ec%95%84%ed%81%ac-%eb%a7%88%ec%9a%b0%ec%8a%a4-%ec%a3%bc%ec%9d%98/",
-    "pubDate": "Mon, 11 Aug 2025 08:30:05 +0000",
-    "creator": "megayuchi",
-    "categories": [
-      "IT",
-      "Pub",
-      "마우스",
-      "서피스 아크 마우스",
-      "surface arc mouse"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "빌 게이츠가 선택한 미래 : 기후테크 - 기후테크로 지구를 구하는 스타트업 5選",
-    "description": "2050년 넷제로(Net-Zero), 단순한 구호가 아닙니다. 전 세계가 기후위기에 대응하기 위해 본격적으로 탄소중립을 위한 기술혁신, 즉 *기후테크(Climate Tec)*에 투자하고 있습니다. 그리고 이 흐름으 중심에는 마이크로소프트 창업자이자 세계적인 추자자, 빌 게이츠가 있습니다. 그는 자신의 기수 천드인 브레이크스루 에너지 벤처스(Breakthro",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/307",
-    "pubDate": "Wed, 13 Aug 2025 03:00:13 GMT",
+    "link": "https://brunch.co.kr/@@LOc/306",
+    "pubDate": "Tue, 12 Aug 2025 03:00:07 GMT",
     "creator": "고명환",
     "categories": []
   },
   {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Thinking about trying or upgrading to Datalore Cloud? This August, you can save 30%.",
-    "description": "If you’ve recently started a trial or are thinking about trying Datalore, and a Cloud plan is on your radar, now is a good time to consider it. Until the end of August, new users and teams currently using a trial version of Datalore can get 30% off their first payment when subscribing to the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/datalore/2025/08/15/save-30/",
-    "pubDate": "Fri, 15 Aug 2025 10:30:41 +0000",
-    "creator": "Vlad Ivoninskii",
-    "categories": [
-      "promotion"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "F1 더 무비",
-    "description": "트레일러 영상이 나왔을 때 소리가 아이폰의 진동 센서와 연동되었다고 해서 사람들 사이에서 이슈였던 영화다. 메가박스 남양주 현대아울렛 스페이스원 돌비 시네마에서 봤는데 음향과 음량이 정말 뛰어났다. 자동차 엔진의 저음이 몸이 떨릴 정도로 강하게 전달 됐다. 영화 평점에서 시나리오가 0점이길래 내용이 그리 없나 싶었지만 나름 짜임새 있어서 재미있게 봤다. 결국 승리 트로피를 누가 받을지 궁금했는데 엔딩도 나름 괜찮았다.\n\r\n레이싱을 잘 안다고 생각한 적은 없었는데 영화 처음에 나오는 데이토나 트랙도 아는 트랙이고 계속 해서 나오는 레이싱 관련 내용도 상당히 이해가 잘 가서 레이싱 게임을 열심히 한게 좀 도움이 됐다. 아무 생각없이 갔는데 돌비 5주년 특가로 인당 만원에 봤다. 몰입도가 상당한 잘 만든 영화다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hyeonseok.com/blog/940",
-    "pubDate": "Sat, 16 Aug 2025 18:25:19 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
+    "id": 6,
     "imageUrl": "",
     "title": "JetBrains Academy – August Digest",
     "description": "Your August learning boost is here – with free tools, career-launching courses, practical advice from the JetBrains Academy team, and your shot at winning a MacBook Pro.",
@@ -199,35 +99,129 @@
     ]
   },
   {
-    "id": 14,
+    "id": 7,
     "imageUrl": "",
-    "title": "원더랜드워 도색",
-    "description": "유니콘과 체셔캣 도색 기록 먼저 검은색으로 프라이밍 해준다. 다들 비추하는 붓으로 프라이밍 했다. 밖에나가서 뿌리기도 귀찮고 집에선 뿌리지 못하니... 붓으로 하면 디테일이 많이 죽는다. 프라이밍 후 검은색으로 한번 칠해줘 표면을 정리해주는데 벌써 두번이나 도색이 올라가 디테일이 많이 죽었다. 흰색으로 라인을 따주었다. 색상을 올리고 쉐이더와 하이라이팅을 추가하여 마무리 했다. 유니콘은 과정을 안찍어놔서 그냥 사용한 색만 보이도록 찍었다.",
+    "title": "Introducing Next Edit Suggestions in JetBrains AI Assistant",
+    "description": "With the latest release of JetBrains AI Assistant, we’ve introduced a long-awaited feature – next edit suggestions. These new suggestions are now available in Beta across JetBrains IDEs for Java, Kotlin, and Python. Next edit suggestions offer intelligent recommendations for edits across your entire file – not just the next line of code. The new feature […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/223966884445?fromRss=true&trackingCode=rss",
-    "pubDate": "Mon, 11 Aug 2025 17:44:32 +0900",
-    "creator": "dlehddus84",
+    "link": "https://blog.jetbrains.com/ai/2025/08/introducing-next-edit-suggestions-in-jetbrains-ai-assistant/",
+    "pubDate": "Mon, 18 Aug 2025 16:14:18 +0000",
+    "creator": "Anton Semenkin",
     "categories": [
-      "도색과 제작"
+      "news",
+      "ai-assistant",
+      "ai-in-ides"
     ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Union + 비트필드 와 비트연산 플래그",
+    "description": "게임을 만들다보면 속성 값을 주기 위해 flag를 사용할때가 많다. e.g : IsGame Type PackedType 이때 메모리 사용을 줄이기 위해 조건에 따라 32비트 정수에 넣고 이를 shift해서 사용한다 (많은 경우 이와 같음, 나도그랬고) 이러한 경우 addflag 하거나 remove flag 할때 bit 연산을 해야한다. 이를 비트연산 플래그라고 한다. 아래와 같은 특징이 있는데 한 변수(unsigned int)안의 비트 단위로 여러 상태를 저장하며 메모리 효율적이고, 조합 가능 (여러 플래그를 동시에 켤 수 있음). 단점은 코드에서 FLAG_XXX 같은 상수 없이는 의미를 파악하기 어렵다. ( 매크로 매번 만들어줘야함) 또한 union과 비트필드를 활용해서도 사용할 수 있는.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/sorkelf/223974285915?fromRss=true&trackingCode=rss",
+    "pubDate": "Mon, 18 Aug 2025 13:32:43 +0900",
+    "creator": "sorkelf",
+    "categories": [
+      "C/C++"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "클라이언트 아키텍처에 대한 단상 - '서버'가 진짜 '도메인' 아닐까?",
+    "description": "개발에서 아키텍처(Architecture)는 무엇일까? AI는 이렇게 답한다.\n소프트웨어 시스템의 기본적인 구조와 구성 요소들 간의 관계, 그리고 이를 통제하는 원칙과 지침. 미래의 변경과 확장에 어떻게 대응할지를 결정하는 청사진(Blueprint).\n모두가 동의하겠지만, 미래의 변경과 확장에 유연하게 대응하는 것이 아키텍처의 핵심이다. 더 빠른 개발 속도와 안정성은 덤이다.\n그렇다면 오늘날 우리가 클라이언트 개발에 적용하는 아키텍처는 이 목적에 정말 충실할까? 혹시 유행하는 패턴을 ‘좋은 코드’라는 명목 아래 무비판적으로 따르고 있지는 않을까? 이 글에서는 클린 아키텍처의 상징과도 같은 ‘UseCase’의 딜레마를 통해 클라이언트 아키텍처를 좀 더 넓은 시각으로 바라보고자 한다.\n이 글에서는\n유행처럼 번지는 클라이언트 아키텍처, 특히 UseCase 패턴의 실효성에 대해 의문을 제기한다.\n단순히 데이터를 전달하는 역할에 그치는 UseCase의 딜레마를 실제 코드 예시와 함께 살펴본다.\n관점을 전환하여, ‘서버’를 중심으로 클라이언트 아키텍처를 바라보는 새로운 시각을 제안한다.\n궁극적으로 ‘좋은 아키텍처’란 무엇이며, 비즈니스 가치를 높이는 실용적인 설계는 어떤 것인지 함께 고민해 본다.\n모바일 아키텍처, 언제부터 필수였을까?\n안드로이드 초창기에는 아키텍처보다 하드웨어의 한계를 넘는 것이 중요했다. static을 남발한 코드 설계와 Activity 하나에 수천 줄의 코드를 넣는 게 당연했다. 그 시절에도 디자인 패턴은 있었지만, 지금처럼 ‘설계 원칙’을 따르는 개발이 중심은 아니었다.\n시간이 흘러 하드웨어 성능이 좋아지고, 구글이 MVP, 클린 아키텍처 가이드를 제시하면서 패러다임이 바뀌었다. 이제는 SOLID 원칙을 지키며 MVVM, 클린 아키텍처를 적용하는 것이 ‘잘하는 개발’의 척도처럼 여겨진다.\n하지만 이 과정에서 “클린 아키텍처를 적용해야 한다”는 명제가 “멀티 모듈은 필수다”, “UseCase는 반드시 써야 한다”는 오해로 이어지기도 한다. 클린 아키텍처는 레이어의 논리적 분리를 말하는 것이지, 물리적인 모듈 분리를 강제하지 않는다. 애매한 모듈 분리는 오히려 생산성을 해칠 뿐이다.\n가장 큰 딜레마는 역시 ‘UseCase’다.\n\nUseCase는 정말 필요할까?: ‘단순 전달’의 딜레마\nUseCase는 비즈니스 로직을 캡슐화하고, 단일 책임 원칙(SRP)을 지키는 훌륭한 도구임이 맞다. ViewModel의 코드도 명확해진다.\nUseCase는 필요할까?: ‘단순 전달’의 딜레마\nUseCase는 비즈니스 로직을 캡슐화하여 재사용성을 높이고, SOLID의 단일 책임 원칙(SRP)을 지키는 훌륭한 도구인것은 맞다.\n하지만 실제 어떨까? ViewModel부터 순서대로 알아보자.\nUseCase를 활용하는 ViewModel\n\nclass SessionViewModel(\n    private val fetchSession: FetchSessionUseCase,\n    private val updateSession: UpdateSessionUseCase,\n) : ViewModel() {\n    // 생성자만 봐도 ViewModel의 역할이 명확히 보인다.\n}\n\n\nRepository를 직접 활용하는 ViewModel\n\nclass SessionViewModel(\n    private val sessionRepository: SessionRepository,\n) : ViewModel() {\n    // 생성자만으로는 역할을 파악하기 어려워 코드를 더 봐야 한다.\n}\n\n\n분명 1번 코드가 의도를 파악하기 쉽다. 하지만 FetchSessionUseCase의 구현부를 들여다보면 어떨까?\n\ninternal class FetchSessionUseCaseImpl(\n    private val sessionRepository: SessionRepository,\n) : FetchSessionUseCase {\n    override suspend operator fun invoke(): SessionEntity =\n        sessionRepository.fetchSession()\n}\n\n\n여러분의 코드도 이렇지 않은가? Repository의 함수를 그대로 호출하는, 단순 전달(Forwarding)만 하는 UseCase가 프로젝트에 수없이 많을 것이다. 이 boilerplate를 위해 우리는 얼마나 많은 시간을 쓰고 있을까?\n안드로이드 공식 가이드 - link조차 도메인 레이어는 ‘선택적(Optional)’ 이라고 말한다. 필자의 생각도 같다. UseCase 없이 Repository를 직접 사용한다고 해서 도메인 레이어가 사라지는 것이 아니다. Entity는 여전히 존재하고, 데이터 흐름의 논리적인 레이어 구분은 유효하다. 그냥 ‘UseCase’라는 클래스만 생략되었을 뿐이다.\n내가 진짜 하고 싶은 이야기: 관점의 전환\n그럼 UseCase는 언제 유용할까? 공식 가이드의 설명에 매우 동의한다.\n여러 Repository의 데이터를 조합해야 할 때. 예를 들어, 뉴스 데이터와 기자 데이터를 결합하는 경우.\n\nclass GetLatestNewsWithAuthorsUseCase(\n  private val newsRepository: NewsRepository,\n  private val authorsRepository: AuthorsRepository\n) { /* ... */ }\n\n\n이런 복잡한 비즈니스 로직이 클라이언트에 얼마나 될까? 이제 시야를 더 넓혀보자. 우리가 만드는 앱의 데이터와 비즈니스 로직은 대부분 어디에 있는가? 바로 서버다.\n\nA팀과 B팀의 환경\n두 팀이 있다고 가정해보자.\nA팀: 서버가 BFF(Backend for Frontend) 패턴으로 구성되어 있다. 클라이언트의 ‘홈 화면’에 필요한 모든 데이터를 서버가 하나의 API(GET /home)로 완벽하게 가공해서 내려준다.\nB팀: 서버가 범용적인 REST API를 제공한다. ‘홈 화면’을 구성하기 위해 클라이언트가 GET /users/me, GET /products/recommend, GET /events/live API를 각각 호출하고 조합해야 한다.\nA팀 클라이언트에게 복잡한 도메인 레이어가 필요할까? 아니다. 서버가 이미 UseCase 역할을 해준 셈이다. 이 팀의 클라이언트는 사실상 거대한 뷰 레이어(View Layer) 이며, 데이터 가공을 위한 최소한의 Data Layer만 있으면 충분하다.\n반면 B팀 클라이언트에서는 여러 데이터를 조합하고 가공하는 UseCase가 강력한 힘을 발휘한다. 이처럼 ‘올바른 아키텍처’는 우리 팀의 서버 환경과 API 정책에 따라 결정되는 것이지, 절대적인 정답이 있는 것이 아니다.\n서버가 ‘도메인’이라면\n클라이언트에서 아무리 Domain, Data 레이어를 정교하게 나눠봤자, 대부분의 로직은 서버가 내려주는 데이터를 그대로 화면에 보여주는 것이다. 클라이언트의 로직은 ‘View의 비즈니스 로직’에 가까운 경우가 많다.\n그런데도 우리는 왜 이렇게 복잡한 구조를 고집할까? “재사용성을 위해”라고 말하지만, 단순 전달만 하는 UseCase가 정말 재사용에 얼마나 기여할까?\n최근 IT 업계에서 “클라이언트 개발은 너무 느리다!”는 말이 자주 들린다. API가 늦게 나와서? 배포가 부담스러워서? 어쩌면 우리가 스스로 만든 과도한 엔지니어링(Over-engineering)의 덫에 빠져 속도를 잃고 있는 것은 아닐까?\n마무리\nAI가 코드를 ‘딸깍’하고 만들어주는 시대에, 우리의 진짜 가치는 정해진 패턴을 그대로 따르는 것이 아니라 상황에 맞는 최적의 설계를 ‘선택’하고 ‘집중’하는 능력에 있다.\n지금 우리가 작성하는 코드가 정말 비즈니스에 유연함을 더하고, 동료와의 협업을 편하게 만드는 코드인지 끊임없이 자문해봐야 한다. 무조건적인 아키텍처 도입은 정답이 아니다. 상황에 맞는 코드가 비즈니스적으로 가장 유리하다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://thdev.tech/architecture/2025/08/17/Clean-Android/",
+    "pubDate": "Sun, 17 Aug 2025 00:00:00 +0000",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "[NS2] 수채화처럼 그려진 한 여인의 인생, Dear me, I was...",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2345",
+    "pubDate": "Wed, 13 Aug 2025 13:59:30 +0900",
+    "creator": "샤말란의눈",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "GDE로 참여한 Google I/O Connect China 2025",
+    "description": "안녕하세요. 이 글은 GDE(Google Developer Expert)로 Google I/O Connect China에 참여한 후기를 작성한 글입니다. GDE로 처음 참여한 해외 컨퍼런스라 기억하고 싶어 작성합니다.\n키워드 : GDE, Google Developer Expert, Google I/O Connect China 2025, 해외 컨퍼런스 참여\n\n\nGDE란?\nGDE 페이지\nGDE는 Google Developer Experts의 약자로 경험이 풍부한 기술 전문가들로 구성된 글로벌 네트워크 커뮤니티입니다\n전 세계에 약 1,400명의 GDE가 활동하고 있으며, GDE의 카테고리는 AI, Cloud, Andorid, Angular, Dart, Firebase, Flutter, Go, Kaggle, Google Workspace 등 다양하게 있습니다\n\nGDE 혜택\n구글 개발자 커뮤니티에서 활동할 기회를 얻으며, 활동을 위해 지원을 받습니다\n    \n예를 들어 구글 행사에서 발표할 기회를 얻습니다\n해외 컨퍼런스 지원 : 구글에서 주최하는 이벤트에 초대됩니다. 이번 Google I/O Connect China 2025도 초대 받았습니다\nGoogle의 새로운 제품, Feature에 대한 사전 체험을 할 수 있으며, GDE 디렉터리에 표시됩니다\n구글 엔지니어와 기술 교류를 받을 수 있습니다\n그 외에 공개되지 않았지만 여러 혜택들이 존재합니다\n\nGDE 선발 과정\n(1) 구글러 혹은 기존 GDE 추천을 받아 지원 링크 전달 받기\n(2) 지원서 작성하기\n(3) 구글 내 관련 팀들의 지원서 검토 과정\n(4) 지원한 구글 프로덕트 팀의 직원(구글러)과 인터뷰\n자격 기준\n    \n특정 분야의 기술 전문가\n다음과 같은 활동을 통해 스타트업 및 개발자 생태계에 지속적으로 활동해야 함\n        \n기술 컨퍼런스에서 영향력 있고 인정 받는 연사로 활동\n튜토리얼, 코드 샘플, 교육 서적, 블로그 게시물/영상 등의 기술 컨텐츠 제작\n기술 창업가, 스타트업, 개발자 멘토링\n명확하게 소통하며 다른 사람에게 의미 있는 조언을 제공할 수 있는 역량\n컨퍼런스에서 자주 발표를 하며, 기술 블로그에 글을 쓰신다면 기회를 얻을 수 있을 거라 생각합니다. 저도 이런 과정을 통해 되었다고 볼 수 있습니다\n저는 Google Cloud의 Champion Innovator로 활동하다가 올해 3월에 GDE와 통합되어 GDE(Cloud)가 되었습니다\n    \nGDE + Google Cloud Champion Innovator 게시글\nAI/Cloud/Go GDE인 한성민님의 후기도 참고하셔도 좋을 것 같습니다\n\n\n\n상해(상하이)\n저는 행사 일정인 2025-08-12 이전에 출국해서 친동생과 함께 상해를 돌아다녔습니다. 상해에 도착했을 때는 39도로 매우 더웠고 습했습니다. 8월 상해는 매우 더워서, 관광으로 상해에 가신다면 10월을 추천드려요\n처음 방문한 중국은 참 신기했습니다. 전기차가 엄청 많이 보급되었고, 공기도 좋았어요. 모든 주문 과정이 알리페이로 가능해서 페이 서비스가 많이 보급될 수도 있구나 생각했어요\n    \n상해 여행을 하면서 느낀 것은 인스타그램에 올려두었습니다!\n와이탄 야경, 예원, 대한민국임시정부, 신천지, 우캉멘션, 우전 수향마을에 다녀왔고, 헌지우이치엔 양꼬치도 먹고 샤오롱바오, 동파육, 지엔빙, 밀크티 등 다양한 음식을 먹고 왔어요\n\n\n\n혹시 상해 여행 정보가 궁금하시면 노션을 참고해주세요. 간단하게 정리를 해두었습니다\n\n\n\nGoogle I/O Connect China 2025\n행사 웹페이지\n한국에선 총 7명의 GDE가 참여했고, Google I/O Connect는 2025년 8월 13일 ~ 14일에 진행되었습니다. GDE들은 2025년 8월 12일 ~ 15일에 여러 행사에 참여했습니다\n\nGDE Welcome 행사\n\nGoogle I/O Connect China 전날에 미리 호텔에 체크인하며 호텔을 돌아다녔습니다\n    \n2인실이라 룸메가 누가 될지 궁금했는데, 외국인이면 어떻게 인사하지? 고민했습니다. 다행히 원래 알던 한국 GDE분과 숙소를 쓰게 되었습니다(안심함)\n\n호텔 1층에 있었던 APAC GDE Regional Summit\n\n저녁엔 GDE 환영 행사에서 여러 GDE와 만났습니다. 저는 GDE가 된지 얼마되지 않아서 한국의 GDE분들과 교류가 적었는데 처음 뵌 분도 있고, 원래 알던 분도 있었습니다. 저녁을 먹으며 대화를 나누었고, 럭키드로우 시간을 가지고 첫 날을 마무리했습니다\n\n\n힙색, GDE 반팔, GDE 재킷을 받았고 그 외에 물병도 받았습니다. 그 외에 커뮤니티 매니저님께서 구글 클라우드 뱃지도 주셨어요…!! 잘 챙겨주셔서 감사합니다\n    \n한국 커뮤니티 매니저이신 나현님이 한국 전용 굿즈도 만들어서 주셨고, 클라우드 뱃지도 주셨습니다! 잘 챙겨주셔서 감사해요\n\n\nGoogle I/O Connect China 2025\n\n\n아침에 다 같이 모여 버스를 타고 행사장으로 갔습니다. 한국의 코엑스 같은 공간이였어요(엑스포라고 함)\n\nGoogle I/O Connect China 2025에서도 굿즈를 받았습니다. 작은 가방과 부채, 충전기 어댑터 모음이 있었습니다\n\n키노트에는 정말 많은 사람이 있었고, Gemini 이야기, AI를 적용한 기업들의 이야기, Firebase Studio 등 다양한 내용을 전달했습니다. 장표가 중국어라 새로운 경험을 했는데, 갤럭시에서 서클 투 렌즈 기능을 사용해 바로 한국어로 변경해서 보니 어려움은 없었습니다\n    \nGoogle I/O에선 보통 새로운 제품을 선보이고, Google I/O Connect는 Google I/O에서 소개한 기술들을 위주로 공유해서 최근에 AI쪽을 가볍게만 보고 있던 제게 오히려 좋았습니다\n\n\n“Agents are all you need - build your agents with ADK, A2A, MCP and Agent Engine” 발표가 특히 기억에 남는데, 에이전트를 구성하기 위한 과정을 잘  설명해줬습니다. 발표에서 이야기 전개하는 과정이 부드러웠고, 발표 전달하는 방식은 언어 상관없이 비슷하다는 것을 느꼈습니다\n    \n요즘 저는 AI 관련 책을 마무리하고 있는데, 이 책을 번역하면서 LLM 생태계에 대해 더 자세히 알게 되었습니다. 그 과정에서 구글의 기술을 인지하고 있었지만 많이 사용하지 않았는데 여러 발표들을 보면서 앞으로 학습하고 싶은 것들을 기록해두었습니다. 아마 올해에 이런 키워드들을 저만의 언어로 정리할 것 같네요\nGemini, Gemini CLI, Gemma, A2A, ADK 등..!\nBigQuery나 Dataflow, Pub/Sub 등 구글클라우드의 데이터 서비스들도 한번 다 정리를 해두려고 합니다(이미 알고 있지만 그 사이에 많은 기능이 확장되었더라구요)\n발표를 보면서 이런 동기부여를 얻고, 추가로 뭘 해야할지 아이디어를 얻을 수 있어 감사했습니다\nGoogle’s AI stack for developers 발표는 확인해보니 유튜브에 올라온 내용이 있네요. 개발자를 위한 AI 스택이 궁금하시면 살펴보시는 것을 추천합니다. 유튜브 영상\n행사 2일차에 GDE들을 위한 와이탄 투어가 있었고, 가이드님의 이야기를 들으며 와이탄을 둘러봤습니다. 와이탄이 참 이뻐서 상해 가신다면 꼭 가보셔요. 저녁도 이쁘답니다\n\n\n와이탄 투어가 끝난 후, 한국 GDE와 함께 헌지우이치엔 양꼬치집으로 갔습니다. 제가 상해에 일찍 와서 줄서기나 웨이팅이 적은 곳을 알아서 웨이팅이 적은 곳으로 갔습니다. 대형 테이블로 예약했는데 50분 걸리다고 해서 6명 테이블에 7명이 같이 앉았습니다. 이 때 많은 분들이 양꼬치를 엄청 좋아해주셔서 뿌듯했습니다. 대화도 많이 하면서 더 친해졌습니다\n\n그 후에 동방명주까지 걸어가서 근처를 구경하다 왔습니다. 밤에 더 이쁘더라구요\n\n마지막 일정\n\nGoogle I/O Connect China 2025 끝난 다음 날에는 2025 APAC GDE Regional Summit이 진행되었습니다\n    \nAPAC GDE들이 얼마나 있고, 어떤 활동을 했는지 등에 대해 이야기를 하며 구글의 기술에 대한 내용을 들을 수 있었습니다\n중간에 GDE 라이트닝 토크도 진행했는데, AI GDE인 이준범님이 발표를 해주셨습니다!\n발표를 보면서 이런 커뮤니티에 소속될 수 있어 좋았고, 남은 기간엔 또 무엇을 해볼지 동기부여를 얻었습니다. 이런 행사에 오지 않았다면 아마 이런 동기부여를 느끼지 못했을 것 같네요. 오프라인 행사에 참여하면 확실히 동기부여가 되는 것 같아요\n\n느낀점 및 생각\n\nGoogle Cloud Champion Innovator는 해외 컨퍼런스 참여 기회가 없어서 이번이 구글 컨퍼런스에 처음 참여했습니다. 2019년에 회사에서 보내준 오라일리 컨퍼런스에 방문하고 오랜만에 가는 해외 컨퍼런스라서 설렜는데, 많은 것을 느끼고 돌아왔습니다\n상해에서 생활하면서 중국이 기술적으로 많이 발전했다는 것을 몸소 느꼈고, 이런 상황이 한국에선 될 수 있을까?를 생각해보곤 했습니다\n외국인들과 대화하는 것이 익숙하지 않지만, 다른 분들이 이야기하는 것을 보면서 일상 대화 내용은 어느정도 이해가 되며, 더 말하고 싶어집니다. 환경을 바꾸니 저도 자극을 받고, 시도할 것들이 떠오르네요\n한국 GDE분들과 대화를 나눌 수 있어 즐거웠고, 종종 한국에서도 이런 모임이 있으면 좋겠다고 생각했어요. AI GDE는 아니지만 나중에 AI 카테고리도 추가해야겠단 생각을 했고(원래 하던 일이 AI쪽도 있으므로) AI GDE를 담당하시는 분이 군대 7개월 선임의 누나셔서 세상 참 좁다는 생각을 했네요. 덕분에 군대 선임 형에게 연락했네요\nGDE로 참여할 수 있어 영광이였고, 최근 AI/LLM쪽을 간단하게만 보던 제게 큰 자극이 되었습니다. 앞으로의 방향성을 잡을 수 있는 계기가 되었고 여러가지를 해보겠습니다(하고 싶은 것들은 많은데, 우선 순위만 잘 잡으면 될 것 같네요)\n2년차에 GDE가 되고 싶다고 써둔 글이 있는데, 시간이 지나니 이렇게 GDE로 활동하고 있네요. 계속 기록하고 발표하다보면 이루어지네요. 앞으로도 계속 하나씩 발전해보겠습니다\nGDE에 관심이 있는 분이 있다면 연락주셔요!\n행사 준비해주시고 초대해주신 분들 모두 감사합니다!\n글 작성하는데 걸린 시간 : 45분",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://zzsza.github.io/diary/2025/08/17/google-io-connect-china-review/",
+    "pubDate": "Sun, 17 Aug 2025 00:00:00 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "diary",
+      "diary"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Gemma 3로 RAG 기능이 있는 안전한 로컬 AI 채팅 환경 구축하기",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/ai-llm_20250815/",
+    "pubDate": "Fri, 15 Aug 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "휴가철 투자 체크리스트: 저변동·저수익·저관심 실천하기",
+    "description": "파킹통장·RP·배당 ETF로 완성하는 안전한 포트폴리오",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-skills-3",
+    "pubDate": "Fri, 15 Aug 2025 01:19:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "F1 더 무비",
+    "description": "트레일러 영상이 나왔을 때 소리가 아이폰의 진동 센서와 연동되었다고 해서 사람들 사이에서 이슈였던 영화다. 메가박스 남양주 현대아울렛 스페이스원 돌비 시네마에서 봤는데 음향과 음량이 정말 뛰어났다. 자동차 엔진의 저음이 몸이 떨릴 정도로 강하게 전달 됐다. 영화 평점에서 시나리오가 0점이길래 내용이 그리 없나 싶었지만 나름 짜임새 있어서 재미있게 봤다. 결국 승리 트로피를 누가 받을지 궁금했는데 엔딩도 나름 괜찮았다.\n\r\n레이싱을 잘 안다고 생각한 적은 없었는데 영화 처음에 나오는 데이토나 트랙도 아는 트랙이고 계속 해서 나오는 레이싱 관련 내용도 상당히 이해가 잘 가서 레이싱 게임을 열심히 한게 좀 도움이 됐다. 아무 생각없이 갔는데 돌비 5주년 특가로 인당 만원에 봤다. 몰입도가 상당한 잘 만든 영화다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hyeonseok.com/blog/940",
+    "pubDate": "Sat, 16 Aug 2025 18:25:19 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "한강대교 북단, 노들섬 - 2025년 8월 4일",
-    "description": "No description available",
+    "title": "슈퍼앱의 허상",
+    "description": "매우 적지만, 우리도 지금까지 몇 개의 엑싯을 경험한 적이 있다. 쿠팡 같이 IPO를 한 경우도 있지만, 더 큰 회사에 인수되거나 비슷한 규모의 회사와 합병하면서 M&A를 통해 엑싯 한 경우가 대부분이다. 많지 않은 M&A를 통해서 내가 배운 게 하나 있다면, 좋은 엑싯을 위해서는 회사가 팔려야지, 팔아서는 안 된다는 것이다. 이게 무슨 말이냐 하면, 좋은 회사는 엑싯을(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hodolman.tistory.com/80",
-    "pubDate": "Mon, 11 Aug 2025 22:35:59 +0900",
-    "creator": "호돌맨",
+    "link": "https://www.thestartupbible.com/2025/08/super-apps-are-not-built-in-a-day.html",
+    "pubDate": "Wed, 13 Aug 2025 21:36:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "사진",
-      "노들섬",
-      "노을",
-      "야경",
-      "한강대교북단"
+      "Uncategorized",
+      "exit",
+      "FoundersAtWork",
+      "product",
+      "strategy",
+      "Strong"
     ]
   }
 ]
