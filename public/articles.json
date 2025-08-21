@@ -2,109 +2,38 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "JetBrains Academy – August Digest",
-    "description": "Your August learning boost is here – with free tools, career-launching courses, practical advice from the JetBrains Academy team, and your shot at winning a MacBook Pro.",
+    "title": "New Quarter, New Qodana 2025.2 Release Highlights ",
+    "description": "Following the recent rollout of our new Insights dashboard, Native mode, Self-Hosted Lite version, SSO functionality, and Visual Studio plugin, our Qodana 2025.2 update promises another round of improvements and extensions. Take a look at what we’ve been doing as we focus on providing greater access to code quality and security in your organization, and […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/08/13/jetbrains-academy-august/",
-    "pubDate": "Wed, 13 Aug 2025 15:52:40 +0000",
-    "creator": "Maria Sharobaeva",
+    "link": "https://blog.jetbrains.com/qodana/2025/08/qodana-2025-2-release/",
+    "pubDate": "Thu, 14 Aug 2025 13:32:29 +0000",
+    "creator": "Kerry Beetge",
     "categories": [
-      "digest",
-      "jetbrains-academy",
-      "newsletter"
+      "features",
+      "releases",
+      "go",
+      "kotlin",
+      "owasp",
+      "python",
+      "qodana",
+      "security-reviews"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Toss Surpasses KRW 668 Billion in Consolidated Revenue for Q2 2025, Achieving 41% Year-over-Year Growth",
-    "description": "No description available",
+    "title": "클라이언트 아키텍처에 대한 단상 - '서버'가 진짜 '도메인' 아닐까?",
+    "description": "개발에서 아키텍처(Architecture)는 무엇일까? AI는 이렇게 답한다.\n소프트웨어 시스템의 기본적인 구조와 구성 요소들 간의 관계, 그리고 이를 통제하는 원칙과 지침. 미래의 변경과 확장에 어떻게 대응할지를 결정하는 청사진(Blueprint).\n모두가 동의하겠지만, 미래의 변경과 확장에 유연하게 대응하는 것이 아키텍처의 핵심이다. 더 빠른 개발 속도와 안정성은 덤이다.\n그렇다면 오늘날 우리가 클라이언트 개발에 적용하는 아키텍처는 이 목적에 정말 충실할까? 혹시 유행하는 패턴을 ‘좋은 코드’라는 명목 아래 무비판적으로 따르고 있지는 않을까? 이 글에서는 클린 아키텍처의 상징과도 같은 ‘UseCase’의 딜레마를 통해 클라이언트 아키텍처를 좀 더 넓은 시각으로 바라보고자 한다.\n이 글에서는\n유행처럼 번지는 클라이언트 아키텍처, 특히 UseCase 패턴의 실효성에 대해 의문을 제기한다.\n단순히 데이터를 전달하는 역할에 그치는 UseCase의 딜레마를 실제 코드 예시와 함께 살펴본다.\n관점을 전환하여, ‘서버’를 중심으로 클라이언트 아키텍처를 바라보는 새로운 시각을 제안한다.\n궁극적으로 ‘좋은 아키텍처’란 무엇이며, 비즈니스 가치를 높이는 실용적인 설계는 어떤 것인지 함께 고민해 본다.\n모바일 아키텍처, 언제부터 필수였을까?\n안드로이드 초창기에는 아키텍처보다 하드웨어의 한계를 넘는 것이 중요했다. static을 남발한 코드 설계와 Activity 하나에 수천 줄의 코드를 넣는 게 당연했다. 그 시절에도 디자인 패턴은 있었지만, 지금처럼 ‘설계 원칙’을 따르는 개발이 중심은 아니었다.\n시간이 흘러 하드웨어 성능이 좋아지고, 구글이 MVP, 클린 아키텍처 가이드를 제시하면서 패러다임이 바뀌었다. 이제는 SOLID 원칙을 지키며 MVVM, 클린 아키텍처를 적용하는 것이 ‘잘하는 개발’의 척도처럼 여겨진다.\n하지만 이 과정에서 “클린 아키텍처를 적용해야 한다”는 명제가 “멀티 모듈은 필수다”, “UseCase는 반드시 써야 한다”는 오해로 이어지기도 한다. 클린 아키텍처는 레이어의 논리적 분리를 말하는 것이지, 물리적인 모듈 분리를 강제하지 않는다. 애매한 모듈 분리는 오히려 생산성을 해칠 뿐이다.\n가장 큰 딜레마는 역시 ‘UseCase’다.\n\nUseCase는 정말 필요할까?: ‘단순 전달’의 딜레마\nUseCase는 비즈니스 로직을 캡슐화하고, 단일 책임 원칙(SRP)을 지키는 훌륭한 도구임이 맞다. ViewModel의 코드도 명확해진다.\nUseCase는 필요할까?: ‘단순 전달’의 딜레마\nUseCase는 비즈니스 로직을 캡슐화하여 재사용성을 높이고, SOLID의 단일 책임 원칙(SRP)을 지키는 훌륭한 도구인것은 맞다.\n하지만 실제 어떨까? ViewModel부터 순서대로 알아보자.\nUseCase를 활용하는 ViewModel\n\nclass SessionViewModel(\n    private val fetchSession: FetchSessionUseCase,\n    private val updateSession: UpdateSessionUseCase,\n) : ViewModel() {\n    // 생성자만 봐도 ViewModel의 역할이 명확히 보인다.\n}\n\n\nRepository를 직접 활용하는 ViewModel\n\nclass SessionViewModel(\n    private val sessionRepository: SessionRepository,\n) : ViewModel() {\n    // 생성자만으로는 역할을 파악하기 어려워 코드를 더 봐야 한다.\n}\n\n\n분명 1번 코드가 의도를 파악하기 쉽다. 하지만 FetchSessionUseCase의 구현부를 들여다보면 어떨까?\n\ninternal class FetchSessionUseCaseImpl(\n    private val sessionRepository: SessionRepository,\n) : FetchSessionUseCase {\n    override suspend operator fun invoke(): SessionEntity =\n        sessionRepository.fetchSession()\n}\n\n\n여러분의 코드도 이렇지 않은가? Repository의 함수를 그대로 호출하는, 단순 전달(Forwarding)만 하는 UseCase가 프로젝트에 수없이 많을 것이다. 이 boilerplate를 위해 우리는 얼마나 많은 시간을 쓰고 있을까?\n안드로이드 공식 가이드 - link조차 도메인 레이어는 ‘선택적(Optional)’ 이라고 말한다. 필자의 생각도 같다. UseCase 없이 Repository를 직접 사용한다고 해서 도메인 레이어가 사라지는 것이 아니다. Entity는 여전히 존재하고, 데이터 흐름의 논리적인 레이어 구분은 유효하다. 그냥 ‘UseCase’라는 클래스만 생략되었을 뿐이다.\n내가 진짜 하고 싶은 이야기: 관점의 전환\n그럼 UseCase는 언제 유용할까? 공식 가이드의 설명에 매우 동의한다.\n여러 Repository의 데이터를 조합해야 할 때. 예를 들어, 뉴스 데이터와 기자 데이터를 결합하는 경우.\n\nclass GetLatestNewsWithAuthorsUseCase(\n  private val newsRepository: NewsRepository,\n  private val authorsRepository: AuthorsRepository\n) { /* ... */ }\n\n\n이런 복잡한 비즈니스 로직이 클라이언트에 얼마나 될까? 이제 시야를 더 넓혀보자. 우리가 만드는 앱의 데이터와 비즈니스 로직은 대부분 어디에 있는가? 바로 서버다.\n\nA팀과 B팀의 환경\n두 팀이 있다고 가정해보자.\nA팀: 서버가 BFF(Backend for Frontend) 패턴으로 구성되어 있다. 클라이언트의 ‘홈 화면’에 필요한 모든 데이터를 서버가 하나의 API(GET /home)로 완벽하게 가공해서 내려준다.\nB팀: 서버가 범용적인 REST API를 제공한다. ‘홈 화면’을 구성하기 위해 클라이언트가 GET /users/me, GET /products/recommend, GET /events/live API를 각각 호출하고 조합해야 한다.\nA팀 클라이언트에게 복잡한 도메인 레이어가 필요할까? 아니다. 서버가 이미 UseCase 역할을 해준 셈이다. 이 팀의 클라이언트는 사실상 거대한 뷰 레이어(View Layer) 이며, 데이터 가공을 위한 최소한의 Data Layer만 있으면 충분하다.\n반면 B팀 클라이언트에서는 여러 데이터를 조합하고 가공하는 UseCase가 강력한 힘을 발휘한다. 이처럼 ‘올바른 아키텍처’는 우리 팀의 서버 환경과 API 정책에 따라 결정되는 것이지, 절대적인 정답이 있는 것이 아니다.\n서버가 ‘도메인’이라면\n클라이언트에서 아무리 Domain, Data 레이어를 정교하게 나눠봤자, 대부분의 로직은 서버가 내려주는 데이터를 그대로 화면에 보여주는 것이다. 클라이언트의 로직은 ‘View의 비즈니스 로직’에 가까운 경우가 많다.\n그런데도 우리는 왜 이렇게 복잡한 구조를 고집할까? “재사용성을 위해”라고 말하지만, 단순 전달만 하는 UseCase가 정말 재사용에 얼마나 기여할까?\n최근 IT 업계에서 “클라이언트 개발은 너무 느리다!”는 말이 자주 들린다. API가 늦게 나와서? 배포가 부담스러워서? 어쩌면 우리가 스스로 만든 과도한 엔지니어링(Over-engineering)의 덫에 빠져 속도를 잃고 있는 것은 아닐까?\n마무리\nAI가 코드를 ‘딸깍’하고 만들어주는 시대에, 우리의 진짜 가치는 정해진 패턴을 그대로 따르는 것이 아니라 상황에 맞는 최적의 설계를 ‘선택’하고 ‘집중’하는 능력에 있다.\n지금 우리가 작성하는 코드가 정말 비즈니스에 유연함을 더하고, 동료와의 협업을 편하게 만드는 코드인지 끊임없이 자문해봐야 한다. 무조건적인 아키텍처 도입은 정답이 아니다. 상황에 맞는 코드가 비즈니스적으로 가장 유리하다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/2025-2Q-growth",
-    "pubDate": "Wed, 13 Aug 2025 15:00:00 GMT",
+    "link": "https://thdev.tech/architecture/2025/08/17/Clean-Android/",
+    "pubDate": "Sun, 17 Aug 2025 00:00:00 +0000",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 3,
-    "imageUrl": "",
-    "title": "논란 속 GPT-5, 지금 당장 써야 할 압도적 이유 5가지",
-    "description": "AI 기술의 미래, GPT-5에 대한 뜨거운 논쟁 속에서도 왜 지금 당장 이 혁신적인 도구를 경험해야 하는지 궁금하신가요? 이 포스팅에서는 GPT-5의 압도적인 성능, 생산성 향상, 그리고 미래 기회 선점이라는 세 가지 핵심 이유를 통해 그 가치를 깊이 있게 탐구합니다. 논란을 넘어, 변화의 물결을 주도할 준비가 된 당신을 위한 필수 가이드입니다.\n 태그를 삽입하세요.\n\n   \n======================================================================\n-->\n  논란 속에서도 GPT-5를 지금 당장 써봐야 하는 이유\n\n\n \n 최근 인공지능 분야는 하루가 다르게 발전하며 우리 삶의 많은 부분을 변화시키고 있습니다. 특히 GPT 시리즈와 같은 거대 언어 모델(LLM)은 그 중심에 서 있죠. GPT-5의 등장은 기대와 함께 윤리적 문제, 일자리 대체 등 다양한 논란의 중심에 서 있기도 합니다. 하지만 저는 이러한 논란에도 불구하고, 여러분이 GPT-5를 지금 당장 경험해봐야 할 이유가 명확하다고 생각합니다.\n기술 혁신의 파고를 이해하고 활용하는 것은 이제 선택이 아닌 필수가 되었습니다. GPT-5가 가져올 변화의 물결에 미리 올라타는 것이 왜 중요한지, 저와 함께 세 가지 핵심 이유를 통해 자세히 살펴보겠습니다.\n✔️ 혁신적인 성능의 비약적 향상\nGPT-5에 대한 가장 큰 기대는 바로 압도적인 성능 향상에 있습니다. 루머와 예측에 따르면, GPT-4를 뛰어넘는 새로운 차원의 능력을 보여줄 것으로 예상됩니다. 단순히 언어를 더 잘 이해하고 생성하는 것을 넘어, 훨씬 더 복합적인 작업을 수행할 수 있게 될 거예요.\n정확성과 일관성 증대: 기존 모델들이 가끔 '환각'(Hallucination) 현상을 보이거나 일관성 없는 답변을 내놓던 문제를 대폭 개선하여, 신뢰할 수 있는 결과물을 기대할 수 있습니다.\n복합적인 추론 능력 강화: 여러 단계를 거치는 복잡한 문제 해결, 논리적 사고, 창의적인 아이디어 도출 등에서 인간 전문가 수준에 근접한 능력을 보일 것으로 예측됩니다.\n새로운 멀티모달 기능의 등장: 텍스트뿐만 아니라 이미지, 오디오, 비디오 등 다양한 형태의 데이터를 동시에 이해하고 생성하는 통합 멀티모달 기능이 강화되어, 이전에는 상상하기 어려웠던 작업들이 가능해질 것입니다.\n  팁: GPT-5의 멀티모달 기능은 단순히 이미지나 오디오를 '인식'하는 것을 넘어, 이를 바탕으로 새로운 콘텐츠를 '생성'하는 데까지 활용될 수 있습니다. 예를 들어, 짧은 영상 클립을 분석하여 스크립트를 작성하거나, 특정 스타일의 이미지를 입력받아 유사한 분위기의 음악을 작곡하는 등 무한한 가능성을 열어줄 것입니다.\n  변화의 파고를 타는 선점 효과\n새로운 기술이 등장할 때마다 항상 '선점 효과'라는 것이 존재합니다. GPT-5 역시 마찬가지입니다. 초기에 이 기술을 경험하고 활용하는 것은 개인과 기업 모두에게 엄청난 경쟁 우위를 가져다줄 수 있습니다.\n✔️ 새로운 워크플로우와 생산성\nGPT-5는 여러분의 업무 방식과 생산성을 혁신적으로 바꿀 잠재력을 가지고 있습니다. 보고서 작성, 코드 디버깅, 아이디어 브레인스토밍, 복잡한 데이터 분석 등 다양한 영역에서 이전보다 훨씬 빠르고 정확하게 작업을 처리할 수 있게 됩니다. 이는 곧 개인의 생산성 극대화와 기업의 경쟁력 강화로 이어질 것입니다.\n영역\nGPT-4 활용\nGPT-5 예상 시나리오\n\n\n\n\n콘텐츠 생성\n초고 작성, 아이디어 발상 지원\n데이터 분석 기반 타겟 맞춤형 콘텐츠 자동 생성, 멀티미디어 콘텐츠 제작\n\n\n소프트웨어 개발\n코드 생성, 오류 디버깅 보조\n복잡한 아키텍처 설계, 보안 취약점 자동 분석 및 수정, 테스트 코드 자동화\n\n\n데이터 분석\n간단한 통계 분석, 인사이트 도출 보조\n대규모 비정형 데이터에서 패턴 및 예측 모델 자동 도출, 시각화 보고서 생성\n\n\n\n✔️ 미래를 대비하는 학습 경험\n새로운 기술을 직접 사용해보는 것은 그 어떤 이론적 학습보다 강력한 경험입니다. GPT-5를 통해 우리는 AI의 한계와 가능성을 동시에 체감하며, 미래 사회가 어떻게 변화할지 미리 엿볼 수 있습니다. 이는 여러분의 직관과 통찰력을 키우는 데 결정적인 역할을 할 것입니다. 저 역시 새로운 AI 모델이 나올 때마다 직접 사용해보며 배우는 것이 정말 좋았어요.\n⚠️ 주의: 변화를 등한시하면 도태될 수 있습니다. GPT-5와 같은 혁신적인 도구들이 대중화될 때, 이를 능숙하게 다루는 사람과 그렇지 못한 사람 사이의 격차는 더욱 벌어질 것입니다. 미래를 위한 투자는 지금 시작되어야 합니다!\n⚖️ 논란 너머의 본질적인 가치 탐색\nGPT-5를 둘러싼 논란은 중요하며, 우리는 그 문제들을 회피해서는 안 됩니다. 하지만 동시에, 이러한 논란이 기술의 본질적인 가치와 잠재력을 가리는 장벽이 되어서도 안 됩니다. 직접 경험함으로써 균형 잡힌 시각을 갖는 것이 중요하다고 생각합니다.\n✔️ 기술 발전의 불가피성 인정\nAI 기술의 발전은 거스를 수 없는 흐름입니다. GPT-5는 그 흐름의 한 단면일 뿐입니다. 이 기술을 비판하든 환영하든, 우리는 이미 이 거대한 변화의 한가운데에 서 있습니다. 직접 체험하며 기술의 명암을 이해하고, 어떻게 하면 더 긍정적인 방향으로 활용할 수 있을지 고민하는 것이 훨씬 생산적입니다.\n✔️ 윤리적 논의에 적극 참여\nAI 윤리, 규제, 사회적 영향에 대한 논의는 매우 중요합니다. 하지만 이 논의에 가장 의미 있게 참여하는 방법은 바로 기술에 대한 깊은 이해를 바탕으로 하는 것입니다. 직접 GPT-5를 사용하며 어떤 문제가 발생할 수 있는지, 어떤 사회적 영향이 있을지 체감하는 것이 논의의 질을 높일 수 있습니다.\n✔️ 균형 잡힌 시각으로 활용\n어떤 기술이든 양면성을 가집니다. GPT-5 역시 마찬가지죠. 무조건적인 맹신도, 무조건적인 배척도 아닌 객관적이고 균형 잡힌 시각으로 접근해야 합니다. 그 잠재력을 최대한 활용하면서도, 잠재적 위험에 대해 인지하고 대비하는 자세가 필요합니다.\n \nGPT-5 에 최적화된 무료 GPTS 공개\n\n \nGPT-5 프롬프트 엔지니어링, 최적화된 무료 GPTS 공개\nGPT-5 시대, 프롬프트 엔지니어링의 새로운 시작 GPT-5의 진화된 아키텍처에 맞춘 프롬프트 기법과 GPT-4와의 실질적인 차이점을 명확히 짚어드립니다. 새로운 AI 시대에 필요한 두 가지 맞춤형 GPTs\nmuzbox.tistory.com\n\n \n \n핵심 요약\n✨ 첫 번째 핵심: GPT-5는 압도적인 성능 향상과 혁신적인 멀티모달 기능으로 AI의 새로운 지평을 엽니다.\n  두 번째 핵심: 초기 사용은 개인 생산성 극대화 및 미래 커리어 기회 선점의 중요한 발판이 됩니다.\n  세 번째 핵심: 기술 논란 속에서도 직접 경험하며 균형 잡힌 시각으로 기술의 본질적 가치를 탐색해야 합니다.\n ‍  네 번째 핵심: AI 발전은 거스를 수 없는 흐름이므로, 적극적인 학습과 참여로 미래를 대비하는 자세가 필요합니다.\nGPT-5의 잠재력을 최대한 활용하고, 동시에 그 한계와 윤리적 측면을 인지하는 것이 중요합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: GPT-5의 가장 큰 혁신은 무엇인가요?\nA1: GPT-5는 추론 능력과 멀티모달 기능에서 비약적인 발전을 보여, 더 복잡한 작업을 정확하고 일관성 있게 처리하며 텍스트, 이미지, 오디오, 비디오를 통합적으로 이해하고 생성할 수 있는 능력이 큰 혁신으로 꼽힙니다.\nQ2: 논란에도 불구하고 GPT-5를 사용해야 하는 이유는?\nA2: 기술 변화의 선두에서 새로운 워크플로우를 경험하고 미래 커리어 기회를 탐색하며, AI 윤리 논의에 주체적으로 참여하여 균형 잡힌 시각을 가질 수 있기 때문입니다.\nQ3: GPT-5 같은 최신 AI를 활용할 때 주의할 점은 무엇인가요?\nA3: 아직 완벽하지 않으므로, 생성된 정보의 사실 확인과 비판적인 사고를 유지하는 것이 중요하며, 개인 정보 보호와 윤리적 사용에 항상 유의해야 합니다. 맹목적인 신뢰는 금물입니다.\nQ4: GPT-5가 가져올 사회적 파급력은 어느 정도일까요?\nA4: 교육, 노동 시장, 콘텐츠 생성 등 다양한 분야에서 혁신적인 변화를 가져올 것으로 예상되며, 이는 사회 전반의 생산성과 창의성을 크게 향상시킬 잠재력을 가지고 있습니다. 동시에 윤리적, 사회적 논의를 촉발할 것입니다.\n✨ 결론: 미래를 주도하는 첫걸음, GPT-5\nGPT-5를 둘러싼 논란은 우리가 기술 발전에 대해 얼마나 깊이 고민하고 있는지 보여주는 증거입니다. 하지만 저는 이러한 고민과 함께 직접적인 경험이 무엇보다 중요하다고 강조하고 싶습니다.\n \nGPT-5는 단순히 새로운 버전의 AI가 아니라, 우리의 삶과 일하는 방식을 근본적으로 바꿀 잠재력을 지닌 혁신적인 도구입니다. 그 압도적인 성능을 직접 경험하고, 변화의 물결 속에서 선점 효과를 누리며, 기술의 윤리적 가치에 대해 깊이 있는 시각을 갖는 것. 이것이 바로 우리가 GPT-5를 지금 당장 써봐야 하는 이유입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483644",
-    "pubDate": "Tue, 19 Aug 2025 12:24:01 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "AI 기술 혁신",
-      "ai 시대 대비",
-      "gpt-5",
-      "GPT-5 활용법",
-      "거대 언어 모델",
-      "멀티모달 ai",
-      "미래 기술 예측",
-      "생산성 향상 ai",
-      "인공지능 논란",
-      "인공지능 트렌드"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "[MULTI] 시즌 위한 육성인가 육성 위한 시즌인가, 사카츠쿠 2025",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2347",
-    "pubDate": "Tue, 19 Aug 2025 00:00:16 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "프리뷰"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Creating AI agent solutions for warehouse data access and security",
-    "description": "In this post, we explore the ways we’re evolving Meta’s data warehouse to facilitate productivity and security to serve both human users and AI agents.  We detail how we’re developing agents that help users making data access requests to get to the data they need, and that help data owners process requests and maintain security.  [...]\nRead More...\nThe post Creating AI agent solutions for warehouse data access and security appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/08/13/data-infrastructure/agentic-solution-for-warehouse-data-access/",
-    "pubDate": "Wed, 13 Aug 2025 22:05:07 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Data Infrastructure"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "토스, ‘토스 삼성카드’ 출시",
-    "description": "토스페이, 토스쇼핑, 토스프라임 혜택을 카드 한 장에",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/39673",
-    "pubDate": "Mon, 18 Aug 2025 01:29:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "LINE 통화의 영상 재생 품질 개선 사례",
-    "description": "들어가며LINE 앱은 전 세계 많은 사용자들이 이용하는 다양한 실시간 커뮤니케이션 서비스를 제공하고 있습니다. 저희 팀은 그중에서 1:1 통화와 그룹 통화, LINE 미팅과 같은 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/improving-video-playback-quality-in-line-call",
-    "pubDate": "Thu, 14 Aug 2025 09:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
     "imageUrl": "",
     "title": "Using SQL and databases in JetBrains IDEs",
     "description": "Check out our recent livestream from August 14 on How to Work With SQL and Databases in JetBrains IDEs. In this demo session, we showed how to write SQL queries and work with databases in any JetBrains IDE and explored a range of use cases for embedded database functionality, from simple queries to more advanced […]",
@@ -116,7 +45,38 @@
     "categories": []
   },
   {
-    "id": 9,
+    "id": 4,
+    "imageUrl": "",
+    "title": "웹AI(webAI)&nbsp;:&nbsp;클라우드&nbsp;없는&nbsp;인공지능의&nbsp;시대 - 데이터 프라이버시와 비용 혁신을 이끌다.",
+    "description": "1 기업 개요와 설립 배경 webAI는 미국 텍사스주 오스틴에서 설립된 AI 스타트업으로, \" 모든 기기에서 프라이버시를 보장하는 인공지능\"을 슬로건으로 삼고 있습니다. 기업과 개인이 직접 보유한 하드웨어에서 AI모델을 실행할 수 있게 하여, 클라우드에 데이터를 올리지 않고도 고성능 AI서비스를 제공하는 것을 목표로 하고 있습니다. 이 회사는 전통적인 클라",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/308",
+    "pubDate": "Fri, 15 Aug 2025 03:00:17 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Driving AI adoption at Dropbox: a conversation with CTO Ali Dasdan",
+    "description": "null",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://dropbox.tech/culture/ai-adoption-productivity-dropbox-cto-ali-dasdan",
+    "pubDate": "Tue, 19 Aug 2025 08:00:00 -0700",
+    "creator": "\r\n                            Catie Keck,Kazuaki Okumura\r\n            \t\t\t",
+    "categories": [
+      "LLM",
+      "AI",
+      "Machine Learning",
+      "Culture",
+      "Productivity",
+      "Developers"
+    ]
+  },
+  {
+    "id": 6,
     "imageUrl": "",
     "title": "ReSharper and the .NET Tools 2025.2 Are Out!",
     "description": "ReSharper and the .NET tools 2025.2 are available for download. This release introduces the public preview of ReSharper’s Out-of-Process mode, adds support for the latest C# 14 and C++26 features, and brings a range of improvements for performance, refactorings, and inspections. If you’d like to try out what’s coming in the next stable release, you […]",
@@ -137,96 +97,21 @@
     ]
   },
   {
-    "id": 10,
+    "id": 7,
     "imageUrl": "",
-    "title": "웹AI(webAI)&nbsp;:&nbsp;클라우드&nbsp;없는&nbsp;인공지능의&nbsp;시대 - 데이터 프라이버시와 비용 혁신을 이끌다.",
-    "description": "1 기업 개요와 설립 배경 webAI는 미국 텍사스주 오스틴에서 설립된 AI 스타트업으로, \" 모든 기기에서 프라이버시를 보장하는 인공지능\"을 슬로건으로 삼고 있습니다. 기업과 개인이 직접 보유한 하드웨어에서 AI모델을 실행할 수 있게 하여, 클라우드에 데이터를 올리지 않고도 고성능 AI서비스를 제공하는 것을 목표로 하고 있습니다. 이 회사는 전통적인 클라",
+    "title": "Union + 비트필드 와 비트연산 플래그",
+    "description": "게임을 만들다보면 속성 값을 주기 위해 flag를 사용할때가 많다. e.g : IsGame Type PackedType 이때 메모리 사용을 줄이기 위해 조건에 따라 32비트 정수에 넣고 이를 shift해서 사용한다 (많은 경우 이와 같음, 나도그랬고) 이러한 경우 addflag 하거나 remove flag 할때 bit 연산을 해야한다. 이를 비트연산 플래그라고 한다. 아래와 같은 특징이 있는데 한 변수(unsigned int)안의 비트 단위로 여러 상태를 저장하며 메모리 효율적이고, 조합 가능 (여러 플래그를 동시에 켤 수 있음). 단점은 코드에서 FLAG_XXX 같은 상수 없이는 의미를 파악하기 어렵다. ( 매크로 매번 만들어줘야함) 또한 union과 비트필드를 활용해서도 사용할 수 있는.......",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/308",
-    "pubDate": "Fri, 15 Aug 2025 03:00:17 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Getting Started With Fuzz Testing in CLion",
-    "description": "Fuzz testing is an effective technique for identifying bugs that are difficult to detect using unit tests or static analysis alone. This article will show you how to perform fuzz testing in CLion, analyze the results, and debug a tested function. We’ll use CI Fuzz, a fuzz testing tool developed by Code Intelligence, a company […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2025/08/fuzz-testing-in-clion/",
-    "pubDate": "Thu, 14 Aug 2025 09:17:37 +0000",
-    "creator": "Oleg Zinovyev",
+    "link": "https://blog.naver.com/sorkelf/223974285915?fromRss=true&trackingCode=rss",
+    "pubDate": "Mon, 18 Aug 2025 13:32:43 +0900",
+    "creator": "sorkelf",
     "categories": [
-      "tips-tricks",
-      "cifuzz",
-      "fuzz-testing",
-      "security",
-      "testing"
+      "C/C++"
     ]
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "휴가철 투자 체크리스트: 저변동·저수익·저관심 실천하기",
-    "description": "파킹통장·RP·배당 ETF로 완성하는 안전한 포트폴리오",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-skills-3",
-    "pubDate": "Fri, 15 Aug 2025 01:19:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Driving AI adoption at Dropbox: a conversation with CTO Ali Dasdan",
-    "description": "null",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://dropbox.tech/culture/ai-adoption-productivity-dropbox-cto-ali-dasdan",
-    "pubDate": "Tue, 19 Aug 2025 08:00:00 -0700",
-    "creator": "\r\n                            Catie Keck,Kazuaki Okumura\r\n            \t\t\t",
-    "categories": [
-      "LLM",
-      "AI",
-      "Machine Learning",
-      "Culture",
-      "Productivity",
-      "Developers"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Model Context Protocol (MCP) is Now Generally Available in Visual Studio 🎉",
-    "description": "We’re excited to announce that MCP support is now GA in Visual Studio—unlocking richer, real-time context from your entire development stack and expanding the power of Agent Mode like never before. Model Context Protocol (MCP) is an open standard that makes it easy for AI agents to connect with external tools and services—think of it […]\nThe post Model Context Protocol (MCP) is Now Generally Available in Visual Studio 🎉 appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/mcp-is-now-generally-available-in-visual-studio/",
-    "pubDate": "Tue, 19 Aug 2025 18:23:21 +0000",
-    "creator": "Allie Barry",
-    "categories": [
-      "Copilot",
-      "Visual Studio",
-      "Agent Mode",
-      "agents",
-      "Artificial Intelligence",
-      "Authentication",
-      "code",
-      "GitHub",
-      "GitHub Copilot",
-      "LLM",
-      "MCP",
-      "microsoft",
-      "Model Context Protocol",
-      "security",
-      "servers"
-    ]
-  },
-  {
-    "id": 15,
+    "id": 8,
     "imageUrl": "",
     "title": "RTX 그래픽 카드로 동영상 화질을 높여보자",
     "description": "영상: https://www.youtube.com/shorts/udDmL5UkI5s\n\n\n\n \n버튜버 화질도 올라간다고 합니다. (방송하는 사람말고 보는사람이 켜는거임)",
@@ -240,5 +125,105 @@
       "rtx",
       "화질"
     ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "블로그 중단합니다",
+    "description": "오래전부터 이 블로그에는 주로 제가 해외 기술 문서를 번역한 글을 올리고 있습니다.\n네이버, 티스토리, 깃허브를 통해서 20년 이상 블로그를 운영했는데 중단하고 다른 방법으로 기술 공유를 하려고 합니다.\n이제 유튜브를 통해서 기술 공유를 하려고 합니다.   \n여기입니다.  \n단순하게 기술 문서를 공유하지 않고, 왜 공유하려는지 이유를 설명하면서 공유하겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jacking75.github.io/ETC_20250815/",
+    "pubDate": "Fri, 15 Aug 2025 00:00:00 +0900",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Improving Codebase Awareness in Visual Studio Chat",
+    "description": "Smarter Code Search in Visual Studio: From BM25 to Semantic Search  In our latest 17.14.11 release, we’ve made a significant leap forward in how we explore your code to retrieve meaningful context. Our new Remote Semantic Search integration helps you find exactly what you need faster and with greater precision than ever before.  By embedding […]\nThe post Improving Codebase Awareness in Visual Studio Chat appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/improving-codebase-awareness-in-visual-studio-chat/",
+    "pubDate": "Thu, 14 Aug 2025 12:00:59 +0000",
+    "creator": "Pablo Gonzalez",
+    "categories": [
+      "GitHub Copilot",
+      "Visual Studio",
+      "GitHub Copilot Chat"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "조직에서 부대끼기",
+    "description": "요즘 한수희 작가님의 에세이 - 오늘도 우리는 나선으로 걷는다 를 짬짬이 시간 날때마다 읽고 있는데요.\n아래 문장이 생각보다 기억에 오래 남아서 공유드리고 싶었어요 \n\n나와 말이 안 통하는 사람, 내 말에 토를 다는 사람, 나를 기분 나쁘게 하는 사람을 만나는 건 정말 짜증 나는 일이다.\n심지어 그런 사람들과 매일 얼굴을 맞대고 일까지 해야 하다니, 그건 얼마나 큰 고통인가.\n하지만 그들이 없다면 내가 어떤 사람인지 알 수 있을까? 인간의 개성은 타인과 내가 부딪치는 경계에서 마찰흔처럼 드러난다.\n자기만의 방에 갇힌 채 내 좁은 시야 안에 들어오는 것들만을 세상의 전부로 여기지 않기 위하여,\n내 인생만 망했다는 착각에서 헤어나기 위하여,\n자기 자신을 있는 그대로 받아들이기 위하여\n우리는 오늘도 문을 열고 타인과 지지고 볶는 삶을 향해 한 발을 내딛는 것이다\n\n저는 개인주의 성향이 강하고, 글쓰기나 독서 같이 혼자 하는 활동을 좋아하고, 원래 직업도 개발자이기도 했어서 1인 기업이나 솔로프리너로의 진로는 고민하지 않는지 질문을 많이 받는데요.\n그럴때마다 혼자서는 성과를 잘 내지 못하고, 같이 있을때 성과를 잘 내는 사람인걸 지난 커리어동안 잘 알게되서 조직 내에서의 나로서 성과를 내는것에 집중하고 있다고 답변 드리곤 했어요.  \n예전엔 좋은 커리어를 쌓은 뒤, 컨설팅이나 1인기업으로 빠지는 것에 대해 고민하기도 했는데,\n조직 안에서 이런 저런 여러 사람들과 부딪치면서 살면서 사실은 같이 있을때 훨씬 더 잘할 수 있는 사람임을 알게 되어서 이제는 그런 고민을 하지는 않게 되었어요.  \n그런 의미에서 조직 생활은 저 스스로가 어떤 사람인지, 내가 생각한 나와 진짜 나는 어떻게 다른지 알 수 있는 좋은 시간들인 것 같단 생각을 유독 많이 하고 있습니다.\n비단 저 책 뿐만 아니라 되게 많은 부분에서 마음 속 한뼘 돌아볼 여유를 주는 책은 정말 많습니다.\n너무 마음이 복잡할땐 \"일기\" 같은 남의 생각(에세이) 을 엿보시면 아마도 그런 여유를 얻으실 수 있으실 것 같아요.  \n무더운 날씨,\n척박한 주변 환경 등에서도\n조직 혹은 사람에게서의 온기는 얻을 수 있다고 생각합니다.\n오늘도 다들 작은 온기라도 얻어가실 수 있는 하루가 되시길 바랄게요!\n\n조직에서도 좋은 소식들을 들려드릴 수 있도록 계속 노력하겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/842",
+    "pubDate": "Thu, 21 Aug 2025 08:29:36 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "인프런",
+      "조직생활",
+      "터틀넥프레스",
+      "한수희"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "팀장님 그가 대북주를 몰빵했습니다. / 주식 투자 쇼츠",
+    "description": "팀장님 그가 대북주를 몰빵했습니다. \n영상:https://www.youtube.com/shorts/U-9rK-eRmxo\n\n\n\n \n그전에꺼는\n팀장님 그가 상따를 했습니다.\n영상: https://www.youtube.com/shorts/RsoOGYyBMO4\n\n\n\n \n \n \n \n \n주식 투자엔 많은 교훈이 있습니다.\n그것은 팀장님의 움직임에 휘둘리지 않도록 해주는 조언입니다.\n모든 술수를 버티는 것 많이 유일한 해답입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1374",
+    "pubDate": "Sat, 16 Aug 2025 16:35:10 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "주식투자"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "F1 더 무비",
+    "description": "트레일러 영상이 나왔을 때 소리가 아이폰의 진동 센서와 연동되었다고 해서 사람들 사이에서 이슈였던 영화다. 메가박스 남양주 현대아울렛 스페이스원 돌비 시네마에서 봤는데 음향과 음량이 정말 뛰어났다. 자동차 엔진의 저음이 몸이 떨릴 정도로 강하게 전달 됐다. 영화 평점에서 시나리오가 0점이길래 내용이 그리 없나 싶었지만 나름 짜임새 있어서 재미있게 봤다. 결국 승리 트로피를 누가 받을지 궁금했는데 엔딩도 나름 괜찮았다.\n\r\n레이싱을 잘 안다고 생각한 적은 없었는데 영화 처음에 나오는 데이토나 트랙도 아는 트랙이고 계속 해서 나오는 레이싱 관련 내용도 상당히 이해가 잘 가서 레이싱 게임을 열심히 한게 좀 도움이 됐다. 아무 생각없이 갔는데 돌비 5주년 특가로 인당 만원에 봤다. 몰입도가 상당한 잘 만든 영화다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hyeonseok.com/blog/940",
+    "pubDate": "Sat, 16 Aug 2025 18:25:19 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "GDE로 참여한 Google I/O Connect China 2025",
+    "description": "안녕하세요. 이 글은 GDE(Google Developer Expert)로 Google I/O Connect China에 참여한 후기를 작성한 글입니다. GDE로 처음 참여한 해외 컨퍼런스라 기억하고 싶어 작성합니다.\n키워드 : GDE, Google Developer Expert, Google I/O Connect China 2025, 해외 컨퍼런스 참여\n\n\nGDE란?\nGDE 페이지\nGDE는 Google Developer Experts의 약자로 경험이 풍부한 기술 전문가들로 구성된 글로벌 네트워크 커뮤니티입니다\n전 세계에 약 1,400명의 GDE가 활동하고 있으며, GDE의 카테고리는 AI, Cloud, Andorid, Angular, Dart, Firebase, Flutter, Go, Kaggle, Google Workspace 등 다양하게 있습니다\n\nGDE 혜택\n구글 개발자 커뮤니티에서 활동할 기회를 얻으며, 활동을 위해 지원을 받습니다\n    \n예를 들어 구글 행사에서 발표할 기회를 얻습니다\n해외 컨퍼런스 지원 : 구글에서 주최하는 이벤트에 초대됩니다. 이번 Google I/O Connect China 2025도 초대 받았습니다\nGoogle의 새로운 제품, Feature에 대한 사전 체험을 할 수 있으며, GDE 디렉터리에 표시됩니다\n구글 엔지니어와 기술 교류를 받을 수 있습니다\n그 외에 공개되지 않았지만 여러 혜택들이 존재합니다\n\nGDE 선발 과정\n(1) 구글러 혹은 기존 GDE 추천을 받아 지원 링크 전달 받기\n(2) 지원서 작성하기\n(3) 구글 내 관련 팀들의 지원서 검토 과정\n(4) 지원한 구글 프로덕트 팀의 직원(구글러)과 인터뷰\n자격 기준\n    \n특정 분야의 기술 전문가\n다음과 같은 활동을 통해 스타트업 및 개발자 생태계에 지속적으로 활동해야 함\n        \n기술 컨퍼런스에서 영향력 있고 인정 받는 연사로 활동\n튜토리얼, 코드 샘플, 교육 서적, 블로그 게시물/영상 등의 기술 컨텐츠 제작\n기술 창업가, 스타트업, 개발자 멘토링\n명확하게 소통하며 다른 사람에게 의미 있는 조언을 제공할 수 있는 역량\n컨퍼런스에서 자주 발표를 하며, 기술 블로그에 글을 쓰신다면 기회를 얻을 수 있을 거라 생각합니다. 저도 이런 과정을 통해 되었다고 볼 수 있습니다\n저는 Google Cloud의 Champion Innovator로 활동하다가 올해 3월에 GDE와 통합되어 GDE(Cloud)가 되었습니다\n    \nGDE + Google Cloud Champion Innovator 게시글\nAI/Cloud/Go GDE인 한성민님의 후기도 참고하셔도 좋을 것 같습니다\n\n\n\n상해(상하이)\n저는 행사 일정인 2025-08-12 이전에 출국해서 친동생과 함께 상해를 돌아다녔습니다. 상해에 도착했을 때는 39도로 매우 더웠고 습했습니다. 8월 상해는 매우 더워서, 관광으로 상해에 가신다면 10월을 추천드려요\n처음 방문한 중국은 참 신기했습니다. 전기차가 엄청 많이 보급되었고, 공기도 좋았어요. 모든 주문 과정이 알리페이로 가능해서 페이 서비스가 많이 보급될 수도 있구나 생각했어요\n    \n상해 여행을 하면서 느낀 것은 인스타그램에 올려두었습니다!\n와이탄 야경, 예원, 대한민국임시정부, 신천지, 우캉멘션, 우전 수향마을에 다녀왔고, 헌지우이치엔 양꼬치도 먹고 샤오롱바오, 동파육, 지엔빙, 밀크티 등 다양한 음식을 먹고 왔어요\n\n\n\n혹시 상해 여행 정보가 궁금하시면 노션을 참고해주세요. 간단하게 정리를 해두었습니다\n\n\n\nGoogle I/O Connect China 2025\n행사 웹페이지\n한국에선 총 7명의 GDE가 참여했고, Google I/O Connect는 2025년 8월 13일 ~ 14일에 진행되었습니다. GDE들은 2025년 8월 12일 ~ 15일에 여러 행사에 참여했습니다\n\nGDE Welcome 행사\n\nGoogle I/O Connect China 전날에 미리 호텔에 체크인하며 호텔을 돌아다녔습니다\n    \n2인실이라 룸메가 누가 될지 궁금했는데, 외국인이면 어떻게 인사하지? 고민했습니다. 다행히 원래 알던 한국 GDE분과 숙소를 쓰게 되었습니다(안심함)\n\n호텔 1층에 있었던 APAC GDE Regional Summit\n\n저녁엔 GDE 환영 행사에서 여러 GDE와 만났습니다. 저는 GDE가 된지 얼마되지 않아서 한국의 GDE분들과 교류가 적었는데 처음 뵌 분도 있고, 원래 알던 분도 있었습니다. 저녁을 먹으며 대화를 나누었고, 럭키드로우 시간을 가지고 첫 날을 마무리했습니다\n\n\n힙색, GDE 반팔, GDE 재킷을 받았고 그 외에 물병도 받았습니다. 그 외에 커뮤니티 매니저님께서 구글 클라우드 뱃지도 주셨어요…!! 잘 챙겨주셔서 감사합니다\n    \n한국 커뮤니티 매니저이신 나현님이 한국 전용 굿즈도 만들어서 주셨고, 클라우드 뱃지도 주셨습니다! 잘 챙겨주셔서 감사해요\n\n\nGoogle I/O Connect China 2025\n\n\n아침에 다 같이 모여 버스를 타고 행사장으로 갔습니다. 한국의 코엑스 같은 공간이였어요(엑스포라고 함)\n\nGoogle I/O Connect China 2025에서도 굿즈를 받았습니다. 작은 가방과 부채, 충전기 어댑터 모음이 있었습니다\n\n키노트에는 정말 많은 사람이 있었고, Gemini 이야기, AI를 적용한 기업들의 이야기, Firebase Studio 등 다양한 내용을 전달했습니다. 장표가 중국어라 새로운 경험을 했는데, 갤럭시에서 서클 투 렌즈 기능을 사용해 바로 한국어로 변경해서 보니 어려움은 없었습니다\n    \nGoogle I/O에선 보통 새로운 제품을 선보이고, Google I/O Connect는 Google I/O에서 소개한 기술들을 위주로 공유해서 최근에 AI쪽을 가볍게만 보고 있던 제게 오히려 좋았습니다\n\n\n“Agents are all you need - build your agents with ADK, A2A, MCP and Agent Engine” 발표가 특히 기억에 남는데, 에이전트를 구성하기 위한 과정을 잘  설명해줬습니다. 발표에서 이야기 전개하는 과정이 부드러웠고, 발표 전달하는 방식은 언어 상관없이 비슷하다는 것을 느꼈습니다\n    \n요즘 저는 AI 관련 책을 마무리하고 있는데, 이 책을 번역하면서 LLM 생태계에 대해 더 자세히 알게 되었습니다. 그 과정에서 구글의 기술을 인지하고 있었지만 많이 사용하지 않았는데 여러 발표들을 보면서 앞으로 학습하고 싶은 것들을 기록해두었습니다. 아마 올해에 이런 키워드들을 저만의 언어로 정리할 것 같네요\nGemini, Gemini CLI, Gemma, A2A, ADK 등..!\nBigQuery나 Dataflow, Pub/Sub 등 구글클라우드의 데이터 서비스들도 한번 다 정리를 해두려고 합니다(이미 알고 있지만 그 사이에 많은 기능이 확장되었더라구요)\n발표를 보면서 이런 동기부여를 얻고, 추가로 뭘 해야할지 아이디어를 얻을 수 있어 감사했습니다\nGoogle’s AI stack for developers 발표는 확인해보니 유튜브에 올라온 내용이 있네요. 개발자를 위한 AI 스택이 궁금하시면 살펴보시는 것을 추천합니다. 유튜브 영상\n행사 2일차에 GDE들을 위한 와이탄 투어가 있었고, 가이드님의 이야기를 들으며 와이탄을 둘러봤습니다. 와이탄이 참 이뻐서 상해 가신다면 꼭 가보셔요. 저녁도 이쁘답니다\n\n\n와이탄 투어가 끝난 후, 한국 GDE와 함께 헌지우이치엔 양꼬치집으로 갔습니다. 제가 상해에 일찍 와서 줄서기나 웨이팅이 적은 곳을 알아서 웨이팅이 적은 곳으로 갔습니다. 대형 테이블로 예약했는데 50분 걸리다고 해서 6명 테이블에 7명이 같이 앉았습니다. 이 때 많은 분들이 양꼬치를 엄청 좋아해주셔서 뿌듯했습니다. 대화도 많이 하면서 더 친해졌습니다\n\n그 후에 동방명주까지 걸어가서 근처를 구경하다 왔습니다. 밤에 더 이쁘더라구요\n\n마지막 일정\n\nGoogle I/O Connect China 2025 끝난 다음 날에는 2025 APAC GDE Regional Summit이 진행되었습니다\n    \nAPAC GDE들이 얼마나 있고, 어떤 활동을 했는지 등에 대해 이야기를 하며 구글의 기술에 대한 내용을 들을 수 있었습니다\n중간에 GDE 라이트닝 토크도 진행했는데, AI GDE인 이준범님이 발표를 해주셨습니다!\n발표를 보면서 이런 커뮤니티에 소속될 수 있어 좋았고, 남은 기간엔 또 무엇을 해볼지 동기부여를 얻었습니다. 이런 행사에 오지 않았다면 아마 이런 동기부여를 느끼지 못했을 것 같네요. 오프라인 행사에 참여하면 확실히 동기부여가 되는 것 같아요\n\n느낀점 및 생각\n\nGoogle Cloud Champion Innovator는 해외 컨퍼런스 참여 기회가 없어서 이번이 구글 컨퍼런스에 처음 참여했습니다. 2019년에 회사에서 보내준 오라일리 컨퍼런스에 방문하고 오랜만에 가는 해외 컨퍼런스라서 설렜는데, 많은 것을 느끼고 돌아왔습니다\n상해에서 생활하면서 중국이 기술적으로 많이 발전했다는 것을 몸소 느꼈고, 이런 상황이 한국에선 될 수 있을까?를 생각해보곤 했습니다\n외국인들과 대화하는 것이 익숙하지 않지만, 다른 분들이 이야기하는 것을 보면서 일상 대화 내용은 어느정도 이해가 되며, 더 말하고 싶어집니다. 환경을 바꾸니 저도 자극을 받고, 시도할 것들이 떠오르네요\n한국 GDE분들과 대화를 나눌 수 있어 즐거웠고, 종종 한국에서도 이런 모임이 있으면 좋겠다고 생각했어요. AI GDE는 아니지만 나중에 AI 카테고리도 추가해야겠단 생각을 했고(원래 하던 일이 AI쪽도 있으므로) AI GDE를 담당하시는 분이 군대 7개월 선임의 누나셔서 세상 참 좁다는 생각을 했네요. 덕분에 군대 선임 형에게 연락했네요\nGDE로 참여할 수 있어 영광이였고, 최근 AI/LLM쪽을 간단하게만 보던 제게 큰 자극이 되었습니다. 앞으로의 방향성을 잡을 수 있는 계기가 되었고 여러가지를 해보겠습니다(하고 싶은 것들은 많은데, 우선 순위만 잘 잡으면 될 것 같네요)\n2년차에 GDE가 되고 싶다고 써둔 글이 있는데, 시간이 지나니 이렇게 GDE로 활동하고 있네요. 계속 기록하고 발표하다보면 이루어지네요. 앞으로도 계속 하나씩 발전해보겠습니다\nGDE에 관심이 있는 분이 있다면 연락주셔요!\n행사 준비해주시고 초대해주신 분들 모두 감사합니다!\n글 작성하는데 걸린 시간 : 45분",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://zzsza.github.io/diary/2025/08/17/google-io-connect-china-review/",
+    "pubDate": "Sun, 17 Aug 2025 00:00:00 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "diary",
+      "diary"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "토스, ‘토스 삼성카드’ 출시",
+    "description": "토스페이, 토스쇼핑, 토스프라임 혜택을 카드 한 장에",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/39673",
+    "pubDate": "Mon, 18 Aug 2025 01:29:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
