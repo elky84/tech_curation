@@ -2,74 +2,20 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "'국민 명함앱' 리멤버 5,000억대 M&amp;A&nbsp; - 왜 지금, 왜 이 가격인가?",
-    "description": "1. 딜 한눈에 보기(Deal snapshot)  거래 구조 : 글로벌 PEF EQT가 기존 최대주주 아크앤파트너스(Ark & Partners)의 경영권 지분(약 47%)을 인수하는 SPA 체결. 지분 100% 기준 기업가치 ‘5,000억대 중반’ 평가. 타 주요 주주(라인플러스, 사람인HR) 지분 협의 병행. 성과 트랙 : 아크는 2021년 말 약 1,0",
+    "title": "DevOps for Startups: CI/CD from the Ground Up",
+    "description": "The benefits of DevOps are not limited to large enterprises. For startups, DevOps can offer the agility you need to keep responding and adapting to market demands, while maintaining the quality users now expect. Why DevOps Matters for Startups As a startup, you’re probably feeling the pressure to get your product or service to market […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/309",
-    "pubDate": "Thu, 21 Aug 2025 03:00:10 GMT",
-    "creator": "고명환",
-    "categories": []
+    "link": "https://blog.jetbrains.com/teamcity/2025/08/devops-for-startups/",
+    "pubDate": "Mon, 18 Aug 2025 10:37:08 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "teamcity-2",
+      "guide"
+    ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "Introducing Next Edit Suggestions in JetBrains AI Assistant",
-    "description": "With the latest release of JetBrains AI Assistant, we’ve introduced a long-awaited feature – next edit suggestions. These new suggestions are now available in Beta across JetBrains IDEs for Java, Kotlin, and Python. Next edit suggestions offer intelligent recommendations for edits across your entire file – not just the next line of code. The new feature […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/08/introducing-next-edit-suggestions-in-jetbrains-ai-assistant/",
-    "pubDate": "Mon, 18 Aug 2025 16:14:18 +0000",
-    "creator": "Anton Semenkin",
-    "categories": [
-      "news",
-      "ai-assistant",
-      "ai-in-ides"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "GDE로 참여한 Google I/O Connect China 2025",
-    "description": "안녕하세요. 이 글은 GDE(Google Developer Expert)로 Google I/O Connect China에 참여한 후기를 작성한 글입니다. GDE로 처음 참여한 해외 컨퍼런스라 기억하고 싶어 작성합니다.\n키워드 : GDE, Google Developer Expert, Google I/O Connect China 2025, 해외 컨퍼런스 참여\n\n\nGDE란?\nGDE 페이지\nGDE는 Google Developer Experts의 약자로 경험이 풍부한 기술 전문가들로 구성된 글로벌 네트워크 커뮤니티입니다\n전 세계에 약 1,400명의 GDE가 활동하고 있으며, GDE의 카테고리는 AI, Cloud, Andorid, Angular, Dart, Firebase, Flutter, Go, Kaggle, Google Workspace 등 다양하게 있습니다\n\nGDE 혜택\n구글 개발자 커뮤니티에서 활동할 기회를 얻으며, 활동을 위해 지원을 받습니다\n    \n예를 들어 구글 행사에서 발표할 기회를 얻습니다\n해외 컨퍼런스 지원 : 구글에서 주최하는 이벤트에 초대됩니다. 이번 Google I/O Connect China 2025도 초대 받았습니다\nGoogle의 새로운 제품, Feature에 대한 사전 체험을 할 수 있으며, GDE 디렉터리에 표시됩니다\n구글 엔지니어와 기술 교류를 받을 수 있습니다\n그 외에 공개되지 않았지만 여러 혜택들이 존재합니다\n\nGDE 선발 과정\n(1) 구글러 혹은 기존 GDE 추천을 받아 지원 링크 전달 받기\n(2) 지원서 작성하기\n(3) 구글 내 관련 팀들의 지원서 검토 과정\n(4) 지원한 구글 프로덕트 팀의 직원(구글러)과 인터뷰\n자격 기준\n    \n특정 분야의 기술 전문가\n다음과 같은 활동을 통해 스타트업 및 개발자 생태계에 지속적으로 활동해야 함\n        \n기술 컨퍼런스에서 영향력 있고 인정 받는 연사로 활동\n튜토리얼, 코드 샘플, 교육 서적, 블로그 게시물/영상 등의 기술 컨텐츠 제작\n기술 창업가, 스타트업, 개발자 멘토링\n명확하게 소통하며 다른 사람에게 의미 있는 조언을 제공할 수 있는 역량\n컨퍼런스에서 자주 발표를 하며, 기술 블로그에 글을 쓰신다면 기회를 얻을 수 있을 거라 생각합니다. 저도 이런 과정을 통해 되었다고 볼 수 있습니다\n저는 Google Cloud의 Champion Innovator로 활동하다가 올해 3월에 GDE와 통합되어 GDE(Cloud)가 되었습니다\n    \nGDE + Google Cloud Champion Innovator 게시글\nAI/Cloud/Go GDE인 한성민님의 후기도 참고하셔도 좋을 것 같습니다\n\n\n\n상해(상하이)\n저는 행사 일정인 2025-08-12 이전에 출국해서 친동생과 함께 상해를 돌아다녔습니다. 상해에 도착했을 때는 39도로 매우 더웠고 습했습니다. 8월 상해는 매우 더워서, 관광으로 상해에 가신다면 10월을 추천드려요\n처음 방문한 중국은 참 신기했습니다. 전기차가 엄청 많이 보급되었고, 공기도 좋았어요. 모든 주문 과정이 알리페이로 가능해서 페이 서비스가 많이 보급될 수도 있구나 생각했어요\n    \n상해 여행을 하면서 느낀 것은 인스타그램에 올려두었습니다!\n와이탄 야경, 예원, 대한민국임시정부, 신천지, 우캉멘션, 우전 수향마을에 다녀왔고, 헌지우이치엔 양꼬치도 먹고 샤오롱바오, 동파육, 지엔빙, 밀크티 등 다양한 음식을 먹고 왔어요\n\n\n\n혹시 상해 여행 정보가 궁금하시면 노션을 참고해주세요. 간단하게 정리를 해두었습니다\n\n\n\nGoogle I/O Connect China 2025\n행사 웹페이지\n한국에선 총 7명의 GDE가 참여했고, Google I/O Connect는 2025년 8월 13일 ~ 14일에 진행되었습니다. GDE들은 2025년 8월 12일 ~ 15일에 여러 행사에 참여했습니다\n\nGDE Welcome 행사\n\nGoogle I/O Connect China 전날에 미리 호텔에 체크인하며 호텔을 돌아다녔습니다\n    \n2인실이라 룸메가 누가 될지 궁금했는데, 외국인이면 어떻게 인사하지? 고민했습니다. 다행히 원래 알던 한국 GDE분과 숙소를 쓰게 되었습니다(안심함)\n\n호텔 1층에 있었던 APAC GDE Regional Summit\n\n저녁엔 GDE 환영 행사에서 여러 GDE와 만났습니다. 저는 GDE가 된지 얼마되지 않아서 한국의 GDE분들과 교류가 적었는데 처음 뵌 분도 있고, 원래 알던 분도 있었습니다. 저녁을 먹으며 대화를 나누었고, 럭키드로우 시간을 가지고 첫 날을 마무리했습니다\n\n\n힙색, GDE 반팔, GDE 재킷을 받았고 그 외에 물병도 받았습니다. 그 외에 커뮤니티 매니저님께서 구글 클라우드 뱃지도 주셨어요…!! 잘 챙겨주셔서 감사합니다\n    \n한국 커뮤니티 매니저이신 나현님이 한국 전용 굿즈도 만들어서 주셨고, 클라우드 뱃지도 주셨습니다! 잘 챙겨주셔서 감사해요\n\n\nGoogle I/O Connect China 2025\n\n\n아침에 다 같이 모여 버스를 타고 행사장으로 갔습니다. 한국의 코엑스 같은 공간이였어요(엑스포라고 함)\n\nGoogle I/O Connect China 2025에서도 굿즈를 받았습니다. 작은 가방과 부채, 충전기 어댑터 모음이 있었습니다\n\n키노트에는 정말 많은 사람이 있었고, Gemini 이야기, AI를 적용한 기업들의 이야기, Firebase Studio 등 다양한 내용을 전달했습니다. 장표가 중국어라 새로운 경험을 했는데, 갤럭시에서 서클 투 렌즈 기능을 사용해 바로 한국어로 변경해서 보니 어려움은 없었습니다\n    \nGoogle I/O에선 보통 새로운 제품을 선보이고, Google I/O Connect는 Google I/O에서 소개한 기술들을 위주로 공유해서 최근에 AI쪽을 가볍게만 보고 있던 제게 오히려 좋았습니다\n\n\n“Agents are all you need - build your agents with ADK, A2A, MCP and Agent Engine” 발표가 특히 기억에 남는데, 에이전트를 구성하기 위한 과정을 잘  설명해줬습니다. 발표에서 이야기 전개하는 과정이 부드러웠고, 발표 전달하는 방식은 언어 상관없이 비슷하다는 것을 느꼈습니다\n    \n요즘 저는 AI 관련 책을 마무리하고 있는데, 이 책을 번역하면서 LLM 생태계에 대해 더 자세히 알게 되었습니다. 그 과정에서 구글의 기술을 인지하고 있었지만 많이 사용하지 않았는데 여러 발표들을 보면서 앞으로 학습하고 싶은 것들을 기록해두었습니다. 아마 올해에 이런 키워드들을 저만의 언어로 정리할 것 같네요\nGemini, Gemini CLI, Gemma, A2A, ADK 등..!\nBigQuery나 Dataflow, Pub/Sub 등 구글클라우드의 데이터 서비스들도 한번 다 정리를 해두려고 합니다(이미 알고 있지만 그 사이에 많은 기능이 확장되었더라구요)\n발표를 보면서 이런 동기부여를 얻고, 추가로 뭘 해야할지 아이디어를 얻을 수 있어 감사했습니다\nGoogle’s AI stack for developers 발표는 확인해보니 유튜브에 올라온 내용이 있네요. 개발자를 위한 AI 스택이 궁금하시면 살펴보시는 것을 추천합니다. 유튜브 영상\n행사 2일차에 GDE들을 위한 와이탄 투어가 있었고, 가이드님의 이야기를 들으며 와이탄을 둘러봤습니다. 와이탄이 참 이뻐서 상해 가신다면 꼭 가보셔요. 저녁도 이쁘답니다\n\n\n와이탄 투어가 끝난 후, 한국 GDE와 함께 헌지우이치엔 양꼬치집으로 갔습니다. 제가 상해에 일찍 와서 줄서기나 웨이팅이 적은 곳을 알아서 웨이팅이 적은 곳으로 갔습니다. 대형 테이블로 예약했는데 50분 걸리다고 해서 6명 테이블에 7명이 같이 앉았습니다. 이 때 많은 분들이 양꼬치를 엄청 좋아해주셔서 뿌듯했습니다. 대화도 많이 하면서 더 친해졌습니다\n\n그 후에 동방명주까지 걸어가서 근처를 구경하다 왔습니다. 밤에 더 이쁘더라구요\n\n마지막 일정\n\nGoogle I/O Connect China 2025 끝난 다음 날에는 2025 APAC GDE Regional Summit이 진행되었습니다\n    \nAPAC GDE들이 얼마나 있고, 어떤 활동을 했는지 등에 대해 이야기를 하며 구글의 기술에 대한 내용을 들을 수 있었습니다\n중간에 GDE 라이트닝 토크도 진행했는데, AI GDE인 이준범님이 발표를 해주셨습니다!\n발표를 보면서 이런 커뮤니티에 소속될 수 있어 좋았고, 남은 기간엔 또 무엇을 해볼지 동기부여를 얻었습니다. 이런 행사에 오지 않았다면 아마 이런 동기부여를 느끼지 못했을 것 같네요. 오프라인 행사에 참여하면 확실히 동기부여가 되는 것 같아요\n\n느낀점 및 생각\n\nGoogle Cloud Champion Innovator는 해외 컨퍼런스 참여 기회가 없어서 이번이 구글 컨퍼런스에 처음 참여했습니다. 2019년에 회사에서 보내준 오라일리 컨퍼런스에 방문하고 오랜만에 가는 해외 컨퍼런스라서 설렜는데, 많은 것을 느끼고 돌아왔습니다\n상해에서 생활하면서 중국이 기술적으로 많이 발전했다는 것을 몸소 느꼈고, 이런 상황이 한국에선 될 수 있을까?를 생각해보곤 했습니다\n외국인들과 대화하는 것이 익숙하지 않지만, 다른 분들이 이야기하는 것을 보면서 일상 대화 내용은 어느정도 이해가 되며, 더 말하고 싶어집니다. 환경을 바꾸니 저도 자극을 받고, 시도할 것들이 떠오르네요\n한국 GDE분들과 대화를 나눌 수 있어 즐거웠고, 종종 한국에서도 이런 모임이 있으면 좋겠다고 생각했어요. AI GDE는 아니지만 나중에 AI 카테고리도 추가해야겠단 생각을 했고(원래 하던 일이 AI쪽도 있으므로) AI GDE를 담당하시는 분이 군대 7개월 선임의 누나셔서 세상 참 좁다는 생각을 했네요. 덕분에 군대 선임 형에게 연락했네요\nGDE로 참여할 수 있어 영광이였고, 최근 AI/LLM쪽을 간단하게만 보던 제게 큰 자극이 되었습니다. 앞으로의 방향성을 잡을 수 있는 계기가 되었고 여러가지를 해보겠습니다(하고 싶은 것들은 많은데, 우선 순위만 잘 잡으면 될 것 같네요)\n2년차에 GDE가 되고 싶다고 써둔 글이 있는데, 시간이 지나니 이렇게 GDE로 활동하고 있네요. 계속 기록하고 발표하다보면 이루어지네요. 앞으로도 계속 하나씩 발전해보겠습니다\nGDE에 관심이 있는 분이 있다면 연락주셔요!\n행사 준비해주시고 초대해주신 분들 모두 감사합니다!\n글 작성하는데 걸린 시간 : 45분",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://zzsza.github.io/diary/2025/08/17/google-io-connect-china-review/",
-    "pubDate": "Sun, 17 Aug 2025 00:00:00 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "diary",
-      "diary"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "휴가철 투자 체크리스트: 저변동·저수익·저관심 실천하기",
-    "description": "파킹통장·RP·배당 ETF로 완성하는 안전한 포트폴리오",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-skills-3",
-    "pubDate": "Fri, 15 Aug 2025 01:19:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Thinking about trying or upgrading to Datalore Cloud? This August, you can save 30%.",
-    "description": "If you’ve recently started a trial or are thinking about trying Datalore, and a Cloud plan is on your radar, now is a good time to consider it. Until the end of August, new users and teams currently using a trial version of Datalore can get 30% off their first payment when subscribing to the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/datalore/2025/08/15/save-30/",
-    "pubDate": "Fri, 15 Aug 2025 10:30:41 +0000",
-    "creator": "Vlad Ivoninskii",
-    "categories": [
-      "promotion"
-    ]
-  },
-  {
-    "id": 6,
     "imageUrl": "",
     "title": "Bring Your Own Model to Chat in Visual Studio",
     "description": "We’re excited to announce that you can now bring your own language model into Visual Studio Chat. You can connect API keys from providers (OpenAI, Anthropic, and Google) to access a wider range of models. This makes it easy to test the latest releases, customize workflows, or run on infrastructure you control. What it unlocks […]\nThe post Bring Your Own Model to Chat in Visual Studio appeared first on Visual Studio Blog.",
@@ -94,19 +40,117 @@
     ]
   },
   {
-    "id": 7,
+    "id": 3,
     "imageUrl": "",
-    "title": "우리는 가성비 좋은 행복을 누릴 수 있을까?",
-    "description": "[구체적인 행복] 오래된 오해를 풀고 진짜 행복이 있는 방향으로 가자",
+    "title": "논란 속 GPT-5, 지금 당장 써야 할 압도적 이유 5가지",
+    "description": "AI 기술의 미래, GPT-5에 대한 뜨거운 논쟁 속에서도 왜 지금 당장 이 혁신적인 도구를 경험해야 하는지 궁금하신가요? 이 포스팅에서는 GPT-5의 압도적인 성능, 생산성 향상, 그리고 미래 기회 선점이라는 세 가지 핵심 이유를 통해 그 가치를 깊이 있게 탐구합니다. 논란을 넘어, 변화의 물결을 주도할 준비가 된 당신을 위한 필수 가이드입니다.\n 태그를 삽입하세요.\n\n   \n======================================================================\n-->\n  논란 속에서도 GPT-5를 지금 당장 써봐야 하는 이유\n\n\n \n 최근 인공지능 분야는 하루가 다르게 발전하며 우리 삶의 많은 부분을 변화시키고 있습니다. 특히 GPT 시리즈와 같은 거대 언어 모델(LLM)은 그 중심에 서 있죠. GPT-5의 등장은 기대와 함께 윤리적 문제, 일자리 대체 등 다양한 논란의 중심에 서 있기도 합니다. 하지만 저는 이러한 논란에도 불구하고, 여러분이 GPT-5를 지금 당장 경험해봐야 할 이유가 명확하다고 생각합니다.\n기술 혁신의 파고를 이해하고 활용하는 것은 이제 선택이 아닌 필수가 되었습니다. GPT-5가 가져올 변화의 물결에 미리 올라타는 것이 왜 중요한지, 저와 함께 세 가지 핵심 이유를 통해 자세히 살펴보겠습니다.\n✔️ 혁신적인 성능의 비약적 향상\nGPT-5에 대한 가장 큰 기대는 바로 압도적인 성능 향상에 있습니다. 루머와 예측에 따르면, GPT-4를 뛰어넘는 새로운 차원의 능력을 보여줄 것으로 예상됩니다. 단순히 언어를 더 잘 이해하고 생성하는 것을 넘어, 훨씬 더 복합적인 작업을 수행할 수 있게 될 거예요.\n정확성과 일관성 증대: 기존 모델들이 가끔 '환각'(Hallucination) 현상을 보이거나 일관성 없는 답변을 내놓던 문제를 대폭 개선하여, 신뢰할 수 있는 결과물을 기대할 수 있습니다.\n복합적인 추론 능력 강화: 여러 단계를 거치는 복잡한 문제 해결, 논리적 사고, 창의적인 아이디어 도출 등에서 인간 전문가 수준에 근접한 능력을 보일 것으로 예측됩니다.\n새로운 멀티모달 기능의 등장: 텍스트뿐만 아니라 이미지, 오디오, 비디오 등 다양한 형태의 데이터를 동시에 이해하고 생성하는 통합 멀티모달 기능이 강화되어, 이전에는 상상하기 어려웠던 작업들이 가능해질 것입니다.\n  팁: GPT-5의 멀티모달 기능은 단순히 이미지나 오디오를 '인식'하는 것을 넘어, 이를 바탕으로 새로운 콘텐츠를 '생성'하는 데까지 활용될 수 있습니다. 예를 들어, 짧은 영상 클립을 분석하여 스크립트를 작성하거나, 특정 스타일의 이미지를 입력받아 유사한 분위기의 음악을 작곡하는 등 무한한 가능성을 열어줄 것입니다.\n  변화의 파고를 타는 선점 효과\n새로운 기술이 등장할 때마다 항상 '선점 효과'라는 것이 존재합니다. GPT-5 역시 마찬가지입니다. 초기에 이 기술을 경험하고 활용하는 것은 개인과 기업 모두에게 엄청난 경쟁 우위를 가져다줄 수 있습니다.\n✔️ 새로운 워크플로우와 생산성\nGPT-5는 여러분의 업무 방식과 생산성을 혁신적으로 바꿀 잠재력을 가지고 있습니다. 보고서 작성, 코드 디버깅, 아이디어 브레인스토밍, 복잡한 데이터 분석 등 다양한 영역에서 이전보다 훨씬 빠르고 정확하게 작업을 처리할 수 있게 됩니다. 이는 곧 개인의 생산성 극대화와 기업의 경쟁력 강화로 이어질 것입니다.\n영역\nGPT-4 활용\nGPT-5 예상 시나리오\n\n\n\n\n콘텐츠 생성\n초고 작성, 아이디어 발상 지원\n데이터 분석 기반 타겟 맞춤형 콘텐츠 자동 생성, 멀티미디어 콘텐츠 제작\n\n\n소프트웨어 개발\n코드 생성, 오류 디버깅 보조\n복잡한 아키텍처 설계, 보안 취약점 자동 분석 및 수정, 테스트 코드 자동화\n\n\n데이터 분석\n간단한 통계 분석, 인사이트 도출 보조\n대규모 비정형 데이터에서 패턴 및 예측 모델 자동 도출, 시각화 보고서 생성\n\n\n\n✔️ 미래를 대비하는 학습 경험\n새로운 기술을 직접 사용해보는 것은 그 어떤 이론적 학습보다 강력한 경험입니다. GPT-5를 통해 우리는 AI의 한계와 가능성을 동시에 체감하며, 미래 사회가 어떻게 변화할지 미리 엿볼 수 있습니다. 이는 여러분의 직관과 통찰력을 키우는 데 결정적인 역할을 할 것입니다. 저 역시 새로운 AI 모델이 나올 때마다 직접 사용해보며 배우는 것이 정말 좋았어요.\n⚠️ 주의: 변화를 등한시하면 도태될 수 있습니다. GPT-5와 같은 혁신적인 도구들이 대중화될 때, 이를 능숙하게 다루는 사람과 그렇지 못한 사람 사이의 격차는 더욱 벌어질 것입니다. 미래를 위한 투자는 지금 시작되어야 합니다!\n⚖️ 논란 너머의 본질적인 가치 탐색\nGPT-5를 둘러싼 논란은 중요하며, 우리는 그 문제들을 회피해서는 안 됩니다. 하지만 동시에, 이러한 논란이 기술의 본질적인 가치와 잠재력을 가리는 장벽이 되어서도 안 됩니다. 직접 경험함으로써 균형 잡힌 시각을 갖는 것이 중요하다고 생각합니다.\n✔️ 기술 발전의 불가피성 인정\nAI 기술의 발전은 거스를 수 없는 흐름입니다. GPT-5는 그 흐름의 한 단면일 뿐입니다. 이 기술을 비판하든 환영하든, 우리는 이미 이 거대한 변화의 한가운데에 서 있습니다. 직접 체험하며 기술의 명암을 이해하고, 어떻게 하면 더 긍정적인 방향으로 활용할 수 있을지 고민하는 것이 훨씬 생산적입니다.\n✔️ 윤리적 논의에 적극 참여\nAI 윤리, 규제, 사회적 영향에 대한 논의는 매우 중요합니다. 하지만 이 논의에 가장 의미 있게 참여하는 방법은 바로 기술에 대한 깊은 이해를 바탕으로 하는 것입니다. 직접 GPT-5를 사용하며 어떤 문제가 발생할 수 있는지, 어떤 사회적 영향이 있을지 체감하는 것이 논의의 질을 높일 수 있습니다.\n✔️ 균형 잡힌 시각으로 활용\n어떤 기술이든 양면성을 가집니다. GPT-5 역시 마찬가지죠. 무조건적인 맹신도, 무조건적인 배척도 아닌 객관적이고 균형 잡힌 시각으로 접근해야 합니다. 그 잠재력을 최대한 활용하면서도, 잠재적 위험에 대해 인지하고 대비하는 자세가 필요합니다.\n \nGPT-5 에 최적화된 무료 GPTS 공개\n\n \nGPT-5 프롬프트 엔지니어링, 최적화된 무료 GPTS 공개\nGPT-5 시대, 프롬프트 엔지니어링의 새로운 시작 GPT-5의 진화된 아키텍처에 맞춘 프롬프트 기법과 GPT-4와의 실질적인 차이점을 명확히 짚어드립니다. 새로운 AI 시대에 필요한 두 가지 맞춤형 GPTs\nmuzbox.tistory.com\n\n \n \n핵심 요약\n✨ 첫 번째 핵심: GPT-5는 압도적인 성능 향상과 혁신적인 멀티모달 기능으로 AI의 새로운 지평을 엽니다.\n  두 번째 핵심: 초기 사용은 개인 생산성 극대화 및 미래 커리어 기회 선점의 중요한 발판이 됩니다.\n  세 번째 핵심: 기술 논란 속에서도 직접 경험하며 균형 잡힌 시각으로 기술의 본질적 가치를 탐색해야 합니다.\n ‍  네 번째 핵심: AI 발전은 거스를 수 없는 흐름이므로, 적극적인 학습과 참여로 미래를 대비하는 자세가 필요합니다.\nGPT-5의 잠재력을 최대한 활용하고, 동시에 그 한계와 윤리적 측면을 인지하는 것이 중요합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: GPT-5의 가장 큰 혁신은 무엇인가요?\nA1: GPT-5는 추론 능력과 멀티모달 기능에서 비약적인 발전을 보여, 더 복잡한 작업을 정확하고 일관성 있게 처리하며 텍스트, 이미지, 오디오, 비디오를 통합적으로 이해하고 생성할 수 있는 능력이 큰 혁신으로 꼽힙니다.\nQ2: 논란에도 불구하고 GPT-5를 사용해야 하는 이유는?\nA2: 기술 변화의 선두에서 새로운 워크플로우를 경험하고 미래 커리어 기회를 탐색하며, AI 윤리 논의에 주체적으로 참여하여 균형 잡힌 시각을 가질 수 있기 때문입니다.\nQ3: GPT-5 같은 최신 AI를 활용할 때 주의할 점은 무엇인가요?\nA3: 아직 완벽하지 않으므로, 생성된 정보의 사실 확인과 비판적인 사고를 유지하는 것이 중요하며, 개인 정보 보호와 윤리적 사용에 항상 유의해야 합니다. 맹목적인 신뢰는 금물입니다.\nQ4: GPT-5가 가져올 사회적 파급력은 어느 정도일까요?\nA4: 교육, 노동 시장, 콘텐츠 생성 등 다양한 분야에서 혁신적인 변화를 가져올 것으로 예상되며, 이는 사회 전반의 생산성과 창의성을 크게 향상시킬 잠재력을 가지고 있습니다. 동시에 윤리적, 사회적 논의를 촉발할 것입니다.\n✨ 결론: 미래를 주도하는 첫걸음, GPT-5\nGPT-5를 둘러싼 논란은 우리가 기술 발전에 대해 얼마나 깊이 고민하고 있는지 보여주는 증거입니다. 하지만 저는 이러한 고민과 함께 직접적인 경험이 무엇보다 중요하다고 강조하고 싶습니다.\n \nGPT-5는 단순히 새로운 버전의 AI가 아니라, 우리의 삶과 일하는 방식을 근본적으로 바꿀 잠재력을 지닌 혁신적인 도구입니다. 그 압도적인 성능을 직접 경험하고, 변화의 물결 속에서 선점 효과를 누리며, 기술의 윤리적 가치에 대해 깊이 있는 시각을 갖는 것. 이것이 바로 우리가 GPT-5를 지금 당장 써봐야 하는 이유입니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosspick-2025-2a",
-    "pubDate": "Tue, 19 Aug 2025 00:00:00 GMT",
+    "link": "http://muzbox.tistory.com/483644",
+    "pubDate": "Tue, 19 Aug 2025 12:24:01 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "AI 기술 혁신",
+      "ai 시대 대비",
+      "gpt-5",
+      "GPT-5 활용법",
+      "거대 언어 모델",
+      "멀티모달 ai",
+      "미래 기술 예측",
+      "생산성 향상 ai",
+      "인공지능 논란",
+      "인공지능 트렌드"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Text, wav 를 통한 입술 모양 이미지 생성 방법",
+    "description": "이 글은 Text, wav 를 통한 입술 모양 이미지 생성 방법을 간략히 정리해 본다.\n\n\n\n서론\n디지털 휴먼 및 가상 아바타 기술의 발전에 따라, 텍스트 입력에 대한 실시간 립 애니메이션 생성 기술의 중요성이 증대되고 있다. 전통적인 방식은 텍스트로부터 완전한 오디오 파일을 생성한 후, 해당 파일을 기반으로 비디오 프레임을 합성하는 배치(Batch) 처리 방식을 채택한다. 그러나 이 방식은 오디오 파일 생성과 비디오 렌더링에 소요되는 시간으로 인해 상당한 지연(Latency)이 발생하며, 실시간 상호작용 애플리케이션에는 부적합하다. 본 글은 실시간 텍스트립싱크를 구현하기 위한 핵심 기술 요소를 분석한다.\n\n\n실시간 립싱크 구현을 위한 핵심 파이프라인\n실시간 립싱크 시스템은 단일 모델이 아닌, 두 가지 핵심 기술이 순차적으로 결합된 파이프라인(Pipeline) 구조로 구현된다.\n\n\n1.  스트리밍 텍스트음성 변환 (Streaming TexttoSpeech, TTS)\n 실시간성을 확보하기 위한 첫 번째 단계는 스트리밍 TTS 엔진이다. 이는 입력 텍스트를 완성된 오디오 파일로 변환하는 것이 아니라, 연속적인 오디오 데이터 스트림(Stream)으로 즉시 생성하는 기술이다. 텍스트가 입력되는 즉시 오디오 청크(Chunk)가 생성되어 파이프라인의 후속 단계로 전달되므로, 전체 문장이 끝날 때까지 기다릴 필요가 없다. 이는 전체 지연 시간을 최소화하는 데 결정적인 역할을 한다.\n\n\n2.  저지연 얼굴 애니메이션 (Lowlatency Facial Animation)\n    두 번째 단계는 스트리밍 TTS로부터 전달받은 오디오 청크를 입력받아, 이에 상응하는 입 모양 애니메이션을 즉각적으로 생성하는 모델이다. 이 모델은 오디오 파형, 음소(Phoneme), 또는 음성 특징(Feature)을 분석하여 얼굴 모델의 특정 파라미터를 제어한다. 여기서 핵심은 최소한의 연산으로 최대한 자연스러운 움직임을 생성하여, 오디오와 시각적 출력 사이의 동기화를 유지하는 것이다.\n\n\n구현 방식에 따른 기술적 접근\n실시간 립싱크는 요구되는 성능과 사용 가능한 하드웨어 자원에 따라 다양한 접근 방식이 존재한다.\n\n\n1. 고성능 GPU 기반 솔루션: NVIDIA Riva 및 Audio2Face\nNVIDIA에서 제공하는 이 솔루션은 현재 가장 높은 수준의 실시간성과 품질을 제공하는 산업 표준으로 평가된다. NVIDIA Riva는 고성종 스트리밍 TTS 엔진의 역할을 수행하며, Audio2Face는 Riva로부터 생성된 오디오 스트림을 입력받아 3D 아바타의 얼굴 메쉬(Mesh)를 실시간으로 정교하게 제어한다. 이 방식은 RTX 시리즈 이상의 고성능 GPU를 요구하지만, 매우 낮은 지연 시간과 사실적인 표정 변화를 구현할 수 있다는 장점이 있다.\n\n\n2. 경량화 오픈소스 모델 조합\n제한된 하드웨어 환경에서는 경량화된 오픈소스 모델을 조합하여 시스템을 구축할 수 있다. 예를 들어, 빠른 추론 속도를 보이는 LivePortrait 또는 Wav2Lip과 같은 얼굴 애니메이션 모델과 PiperTTS와 같은 경량 스트리밍 TTS 엔진을 결합하는 방식이다. 이 접근법은 시스템의 전체적인 연산량을 줄여 소비자용 GPU 또는 CPU 환경에서도 실시간 처리를 가능하게 하는 것을 목표로 한다. 다만, 각 구성 요소를 연결하고 최적화하는 추가적인 개발 과정이 요구된다.\n\n\nMediaPipe\nMediaPipe 라이브러리는 립싱크 시스템 구축에 있어 중요한 기반 기술을 제공한다. MediaPipe의 Face Landmarker 기능은 이미지나 비디오 프레임에서 478개의 3D 얼굴 랜드마크와 52개의 블렌드셰이프(Blendshapes)를 정밀하게 추출한다. 블렌드셰이프는 '입 벌리기', '미소' 등 특정 표정의 강도를 수치화한 데이터로, 3D 모델을 제어하는 표준 파라미터로 사용된다.\n\n\n그러나 MediaPipe 자체는 오디오 데이터를 해석하여 립싱크 애니메이션을 생성하는 기능을 포함하고 있지 않다. MediaPipe는 단지 얼굴의 기하학적 구조와 표정을 '표현'하고 '측정'하는 도구일 뿐이다. 따라서 MediaPipe를 활용한 립싱크 시스템을 구축하기 위해서는, 오디오 스트림을 입력받아 이에 상응하는 블렌드셰이프 값을 예측하는 별도의 '오디오투블렌드셰이프(AudiotoBlendshape)' 변환 모델이 반드시 필요하다. 이 모델이 오디오 분석 엔진의 역할을 수행하며, MediaPipe는 그 결과를 받아 시각적으로 렌더링하는 후처리단에 위치하게 된다.\n\n\n결론\n실시간 텍스트 기반 립싱크는 단순한 모델 하나가 아닌, 스트리밍 TTS와 저지연 얼굴 애니메이션 모델이 유기적으로 결합된 파이프라인을 통해 구현되는 복합적인 기술이다. 고성능 환경에서는 NVIDIA의 솔루션이, 자원이 제한된 환경에서는 경량화된 오픈소스 모델들의 조합이 효과적인 대안이 될 수 있다. MediaPipe와 같은 라이브러리는 얼굴 애니메이션의 최종 출력단을 담당하는 핵심적인 구성 요소이지만, 그 자체만으로는 완전한 립싱크 솔루션이 될 수 없으며 오디오를 해석하는 별도의 AI 모델과의 연동이 필수적이다. \n\n\n레퍼런스\n\n얼굴 특징 감지 가이드  |  Google AI Edge  |  Google AI for Developers\nFace-detection-mediapipe/Mediapipe-Face-Detector.ipynb at main · nikitansg/Face-detection-mediapipe\nLivePortrait: Bring portraits to life!\nSadTalker: [CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation\nWav2Lip: This repository contains the codes of \"A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild\", published at ACM Multimedia 2020. For HD commercial model, please try out Sync Labs\npiper: A fast, local neural text to speech system\nTMElyralab/MuseTalk: MuseTalk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting\ndreamtalk: Official implementations for paper: DreamTalk: When Expressive Talking Head Generation Meets Diffusion Probabilistic Models\naudio2face-3d Model by NVIDIA | NVIDIA NIM\nEmoTalk_release: This is the official source for our ICCV 2023 paper \"EmoTalk: Speech-Driven Emotional Disentanglement for 3D Face Animation\"",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/08/text-wav.html",
+    "pubDate": "2025-08-22T21:31:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
+    "id": 5,
+    "imageUrl": "",
+    "title": "The State of Python 2025",
+    "description": "This is a guest post from Michael Kennedy, the founder of Talk Python and a PSF Fellow. Welcome to the highlights, trends, and key actions from the eighth annual Python Developers Survey. This survey is conducted as a collaborative effort between the Python Software Foundation and JetBrains’ PyCharm team. My name is Michael Kennedy, and […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/pycharm/2025/08/the-state-of-python-2025/",
+    "pubDate": "Mon, 18 Aug 2025 11:42:07 +0000",
+    "creator": "Evgenia Verbina",
+    "categories": [
+      "data-science",
+      "web-development",
+      "python",
+      "survey",
+      "trends"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "고대 사람들은 무엇을 행복이라고 불렀을까?",
+    "description": "법과 정의, 운명과 용기 속에서 행복을 고민한 고대인의 지혜 따라가기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tosspick-2025-2b",
+    "pubDate": "Tue, 19 Aug 2025 00:01:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Untitled",
+    "description": "​ 강의 만들어야 하지만 집중도 안되고 해서 몇 일 째 nano-banana 갖고 노는 중이다. 내 게임 캐릭터와 피규어의 이미지를 소스로 이런 저런 시도들을 해보고 있는데 나름 괜찮게 뽑히는 경우도 있음. 근데 한방에 간단하게 나오는 경우는 없고, 짧은 시간 안에 원하는 결과물이 나와도 워낙 저해상도라서 후작업에 엄청 시간이 많이 들어갔다. ​ 현재 nano-banana을 직접 사용할 수 … More",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://megayuchi.com/2025/08/21/7152/",
+    "pubDate": "Thu, 21 Aug 2025 08:20:02 +0000",
+    "creator": "megayuchi",
+    "categories": [
+      "IT",
+      "Pub",
+      "ai",
+      "nano-banana"
+    ]
+  },
+  {
     "id": 8,
+    "imageUrl": "",
+    "title": "비전공자도 이해할 수 있는 웹 개발의 역사",
+    "description": "동영상이나, 음성 따위의 각종 멀티미디어를 이용하는 인터넷을 이르는 말. = 월드 와이드 웹. 국립국어원 표준국어대사전   시작하며 요즘 글이 뜸했습니다. 사실 뉴스레터 서비스가 유료로 전환되고 나니, 예전처럼 손이 잘 안 가게 되네요. (한 번 발송할 때 마다 치킨 한 마리값이 사라집니다..ㅠㅠ) 그래서 역사 콘텐츠를 텍스트가 아닌 다른 방식으로 즐길 수 있는 방법을 알아보고 있는데요, 그중 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://ppss.kr/archives/257673",
+    "pubDate": "Fri, 22 Aug 2025 01:16:53 +0000",
+    "creator": "사소한 것들의 역사",
+    "categories": [
+      "IT",
+      "역사"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "토스, ‘토스 삼성카드’ 출시",
+    "description": "토스페이, 토스쇼핑, 토스프라임 혜택을 카드 한 장에",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/39673",
+    "pubDate": "Mon, 18 Aug 2025 01:29:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
     "imageUrl": "",
     "title": "팀장님 그가 대북주를 몰빵했습니다. / 주식 투자 쇼츠",
     "description": "팀장님 그가 대북주를 몰빵했습니다. \n영상:https://www.youtube.com/shorts/U-9rK-eRmxo\n\n\n\n \n그전에꺼는\n팀장님 그가 상따를 했습니다.\n영상: https://www.youtube.com/shorts/RsoOGYyBMO4\n\n\n\n \n \n \n \n \n주식 투자엔 많은 교훈이 있습니다.\n그것은 팀장님의 움직임에 휘둘리지 않도록 해주는 조언입니다.\n모든 술수를 버티는 것 많이 유일한 해답입니다.",
@@ -121,19 +165,70 @@
     ]
   },
   {
-    "id": 9,
+    "id": 11,
     "imageUrl": "",
-    "title": "클라이언트 아키텍처에 대한 단상 - '서버'가 진짜 '도메인' 아닐까?",
-    "description": "개발에서 아키텍처(Architecture)는 무엇일까? AI는 이렇게 답한다.\n소프트웨어 시스템의 기본적인 구조와 구성 요소들 간의 관계, 그리고 이를 통제하는 원칙과 지침. 미래의 변경과 확장에 어떻게 대응할지를 결정하는 청사진(Blueprint).\n모두가 동의하겠지만, 미래의 변경과 확장에 유연하게 대응하는 것이 아키텍처의 핵심이다. 더 빠른 개발 속도와 안정성은 덤이다.\n그렇다면 오늘날 우리가 클라이언트 개발에 적용하는 아키텍처는 이 목적에 정말 충실할까? 혹시 유행하는 패턴을 ‘좋은 코드’라는 명목 아래 무비판적으로 따르고 있지는 않을까? 이 글에서는 클린 아키텍처의 상징과도 같은 ‘UseCase’의 딜레마를 통해 클라이언트 아키텍처를 좀 더 넓은 시각으로 바라보고자 한다.\n이 글에서는\n유행처럼 번지는 클라이언트 아키텍처, 특히 UseCase 패턴의 실효성에 대해 의문을 제기한다.\n단순히 데이터를 전달하는 역할에 그치는 UseCase의 딜레마를 실제 코드 예시와 함께 살펴본다.\n관점을 전환하여, ‘서버’를 중심으로 클라이언트 아키텍처를 바라보는 새로운 시각을 제안한다.\n궁극적으로 ‘좋은 아키텍처’란 무엇이며, 비즈니스 가치를 높이는 실용적인 설계는 어떤 것인지 함께 고민해 본다.\n모바일 아키텍처, 언제부터 필수였을까?\n안드로이드 초창기에는 아키텍처보다 하드웨어의 한계를 넘는 것이 중요했다. static을 남발한 코드 설계와 Activity 하나에 수천 줄의 코드를 넣는 게 당연했다. 그 시절에도 디자인 패턴은 있었지만, 지금처럼 ‘설계 원칙’을 따르는 개발이 중심은 아니었다.\n시간이 흘러 하드웨어 성능이 좋아지고, 구글이 MVP, 클린 아키텍처 가이드를 제시하면서 패러다임이 바뀌었다. 이제는 SOLID 원칙을 지키며 MVVM, 클린 아키텍처를 적용하는 것이 ‘잘하는 개발’의 척도처럼 여겨진다.\n하지만 이 과정에서 “클린 아키텍처를 적용해야 한다”는 명제가 “멀티 모듈은 필수다”, “UseCase는 반드시 써야 한다”는 오해로 이어지기도 한다. 클린 아키텍처는 레이어의 논리적 분리를 말하는 것이지, 물리적인 모듈 분리를 강제하지 않는다. 애매한 모듈 분리는 오히려 생산성을 해칠 뿐이다.\n가장 큰 딜레마는 역시 ‘UseCase’다.\n\nUseCase는 정말 필요할까?: ‘단순 전달’의 딜레마\nUseCase는 비즈니스 로직을 캡슐화하고, 단일 책임 원칙(SRP)을 지키는 훌륭한 도구임이 맞다. ViewModel의 코드도 명확해진다.\nUseCase는 필요할까?: ‘단순 전달’의 딜레마\nUseCase는 비즈니스 로직을 캡슐화하여 재사용성을 높이고, SOLID의 단일 책임 원칙(SRP)을 지키는 훌륭한 도구인것은 맞다.\n하지만 실제 어떨까? ViewModel부터 순서대로 알아보자.\nUseCase를 활용하는 ViewModel\n\nclass SessionViewModel(\n    private val fetchSession: FetchSessionUseCase,\n    private val updateSession: UpdateSessionUseCase,\n) : ViewModel() {\n    // 생성자만 봐도 ViewModel의 역할이 명확히 보인다.\n}\n\n\nRepository를 직접 활용하는 ViewModel\n\nclass SessionViewModel(\n    private val sessionRepository: SessionRepository,\n) : ViewModel() {\n    // 생성자만으로는 역할을 파악하기 어려워 코드를 더 봐야 한다.\n}\n\n\n분명 1번 코드가 의도를 파악하기 쉽다. 하지만 FetchSessionUseCase의 구현부를 들여다보면 어떨까?\n\ninternal class FetchSessionUseCaseImpl(\n    private val sessionRepository: SessionRepository,\n) : FetchSessionUseCase {\n    override suspend operator fun invoke(): SessionEntity =\n        sessionRepository.fetchSession()\n}\n\n\n여러분의 코드도 이렇지 않은가? Repository의 함수를 그대로 호출하는, 단순 전달(Forwarding)만 하는 UseCase가 프로젝트에 수없이 많을 것이다. 이 boilerplate를 위해 우리는 얼마나 많은 시간을 쓰고 있을까?\n안드로이드 공식 가이드 - link조차 도메인 레이어는 ‘선택적(Optional)’ 이라고 말한다. 필자의 생각도 같다. UseCase 없이 Repository를 직접 사용한다고 해서 도메인 레이어가 사라지는 것이 아니다. Entity는 여전히 존재하고, 데이터 흐름의 논리적인 레이어 구분은 유효하다. 그냥 ‘UseCase’라는 클래스만 생략되었을 뿐이다.\n내가 진짜 하고 싶은 이야기: 관점의 전환\n그럼 UseCase는 언제 유용할까? 공식 가이드의 설명에 매우 동의한다.\n여러 Repository의 데이터를 조합해야 할 때. 예를 들어, 뉴스 데이터와 기자 데이터를 결합하는 경우.\n\nclass GetLatestNewsWithAuthorsUseCase(\n  private val newsRepository: NewsRepository,\n  private val authorsRepository: AuthorsRepository\n) { /* ... */ }\n\n\n이런 복잡한 비즈니스 로직이 클라이언트에 얼마나 될까? 이제 시야를 더 넓혀보자. 우리가 만드는 앱의 데이터와 비즈니스 로직은 대부분 어디에 있는가? 바로 서버다.\n\nA팀과 B팀의 환경\n두 팀이 있다고 가정해보자.\nA팀: 서버가 BFF(Backend for Frontend) 패턴으로 구성되어 있다. 클라이언트의 ‘홈 화면’에 필요한 모든 데이터를 서버가 하나의 API(GET /home)로 완벽하게 가공해서 내려준다.\nB팀: 서버가 범용적인 REST API를 제공한다. ‘홈 화면’을 구성하기 위해 클라이언트가 GET /users/me, GET /products/recommend, GET /events/live API를 각각 호출하고 조합해야 한다.\nA팀 클라이언트에게 복잡한 도메인 레이어가 필요할까? 아니다. 서버가 이미 UseCase 역할을 해준 셈이다. 이 팀의 클라이언트는 사실상 거대한 뷰 레이어(View Layer) 이며, 데이터 가공을 위한 최소한의 Data Layer만 있으면 충분하다.\n반면 B팀 클라이언트에서는 여러 데이터를 조합하고 가공하는 UseCase가 강력한 힘을 발휘한다. 이처럼 ‘올바른 아키텍처’는 우리 팀의 서버 환경과 API 정책에 따라 결정되는 것이지, 절대적인 정답이 있는 것이 아니다.\n서버가 ‘도메인’이라면\n클라이언트에서 아무리 Domain, Data 레이어를 정교하게 나눠봤자, 대부분의 로직은 서버가 내려주는 데이터를 그대로 화면에 보여주는 것이다. 클라이언트의 로직은 ‘View의 비즈니스 로직’에 가까운 경우가 많다.\n그런데도 우리는 왜 이렇게 복잡한 구조를 고집할까? “재사용성을 위해”라고 말하지만, 단순 전달만 하는 UseCase가 정말 재사용에 얼마나 기여할까?\n최근 IT 업계에서 “클라이언트 개발은 너무 느리다!”는 말이 자주 들린다. API가 늦게 나와서? 배포가 부담스러워서? 어쩌면 우리가 스스로 만든 과도한 엔지니어링(Over-engineering)의 덫에 빠져 속도를 잃고 있는 것은 아닐까?\n마무리\nAI가 코드를 ‘딸깍’하고 만들어주는 시대에, 우리의 진짜 가치는 정해진 패턴을 그대로 따르는 것이 아니라 상황에 맞는 최적의 설계를 ‘선택’하고 ‘집중’하는 능력에 있다.\n지금 우리가 작성하는 코드가 정말 비즈니스에 유연함을 더하고, 동료와의 협업을 편하게 만드는 코드인지 끊임없이 자문해봐야 한다. 무조건적인 아키텍처 도입은 정답이 아니다. 상황에 맞는 코드가 비즈니스적으로 가장 유리하다.",
+    "title": "Announcing Proxy 4: The Next Leap in C++ Polymorphism",
+    "description": "Version 4 of Microsoft's Proxy library brings feature improvements, better diagnostics, better code generation, modern compiler/debugger support.\nThe post Announcing Proxy 4: The Next Leap in C++ Polymorphism appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://thdev.tech/architecture/2025/08/17/Clean-Android/",
-    "pubDate": "Sun, 17 Aug 2025 00:00:00 +0000",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/announcing-proxy-4-the-next-leap-in-c-polymorphism/",
+    "pubDate": "Tue, 19 Aug 2025 16:35:10 +0000",
+    "creator": "Mingxin Wang",
+    "categories": [
+      "Announcement",
+      "C++"
+    ]
   },
   {
-    "id": 10,
+    "id": 12,
+    "imageUrl": "",
+    "title": "Model Context Protocol (MCP) is Now Generally Available in Visual Studio 🎉",
+    "description": "We’re excited to announce that MCP support is now GA in Visual Studio—unlocking richer, real-time context from your entire development stack and expanding the power of Agent Mode like never before. Model Context Protocol (MCP) is an open standard that makes it easy for AI agents to connect with external tools and services—think of it […]\nThe post Model Context Protocol (MCP) is Now Generally Available in Visual Studio 🎉 appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/mcp-is-now-generally-available-in-visual-studio/",
+    "pubDate": "Tue, 19 Aug 2025 18:23:21 +0000",
+    "creator": "Allie Barry",
+    "categories": [
+      "Copilot",
+      "Visual Studio",
+      "Agent Mode",
+      "agents",
+      "Artificial Intelligence",
+      "Authentication",
+      "code",
+      "GitHub",
+      "GitHub Copilot",
+      "LLM",
+      "MCP",
+      "microsoft",
+      "Model Context Protocol",
+      "security",
+      "servers"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "엄격한 사랑",
+    "description": "American Idol을 시작으로 수많은 원조 오디션 프로그램의 프로듀서이자 전세계에서 가장 뛰어난 음악 사업가 중 한 명인 사이먼 코웰의 팟캐스트를 얼마 전에 참 재미있게 들었다. 요샌 그나마 나아진 것 같은데, 이분이 몇 년 전 오디션 프로그램에서 참가자 평가하는 것을 본 분이라면 듣는 사람이 민망하고 미안할 정도로 차갑고 독하다는 것을 모두 다 인정할 것이다. 나도 빙빙 돌려(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/08/tough-love.html",
+    "pubDate": "Wed, 20 Aug 2025 21:23:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "entertainment",
+      "failure",
+      "FoundersAtWork",
+      "media",
+      "Strong",
+      "vc"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "이제는 클로드(Claude) 시대! ChatGPT를 능가하는 AI 챗봇의 숨겨진 5가지 능력",
     "description": "많은 분들이 여전히 ChatGPT를 주로 사용하시죠? 그런데 초기 아이디어 자동 생성부터 깔끔한 답변, 사용자 맞춤 인터페이스까지, 클로드(Claude) AI가 ChatGPT보다 더 탁월한 5가지 비결을 공개합니다. 당신의 작업 효율을 극대화할 새로운 AI 파트너, 클로드를 만나보세요!\n\n\n \n AI 챗봇 하면 여전히 ChatGPT를 가장 먼저 떠올리시는 분들이 많으실 거예요. 저 역시 그랬습니다. 처음에는 ChatGPT가 거의 유일한 선택지라고 생각했죠. 그런데 말이죠, 세상엔 정말 좋은 AI 대안들이 많다는 걸 직접 경험하고 깨달았습니다. 특히 오늘 소개해드릴 '클로드(Claude) AI'는 초기 아이디어 구상부터 작업의 효율성까지, 여러분의 기대를 뛰어넘는 놀라운 경험을 선사할 거예요. 과연 클로드가 어떻게 여러분의 창의적인 작업을 '자동 생성'하는 비결을 가지고 있는지, 저와 함께 자세히 알아볼까요?\n✨ 1. 더 나은 초기 아이디어 자동 생성\n음, 혹시 ChatGPT를 쓰다가 '이거, 뭘 물어봐야 할지 막막한데?' 싶었던 경험 없으세요? 특히 빈 대화창을 마주할 때 말이죠. 물론 ChatGPT의 '커스텀 GPT' 기능에서는 초기 프롬프트가 잘 나오긴 해요. 사실 이 기능, 정말 과소평가되어 있다고 생각합니다. 아이디어가 잘 떠오르지 않을 때 정말 유용하죠. 하지만 일반 대화에서는 이런 시작 프롬프트가 잘 제공되지 않아서 아쉬울 때가 많아요. 심지어 마이크로소프트의 코파일럿(Copilot)이 이 점에서는 더 낫다고 느낄 때도 있습니다.\n\n\n  클로드의 차별점: 클로드(Claude)는 새 대화를 시작할 때마다 여러 개의 초기 프롬프트 옵션을 제공하며, 이 프롬프트들을 다양한 카테고리(예: 클로드의 추천, 일상생활)로 깔끔하게 분류해 놓아 사용자의 아이디어 발상을 효과적으로 돕습니다.\n그런데 클로드(Claude)는 시작부터 다릅니다. 새 대화를 시작할 때마다 여러 개의 초기 프롬프트 옵션을 제공해주죠. 단순히 많은 것뿐만 아니라, 이 프롬프트들을 다양한 카테고리로 깔끔하게 분류해 놓았다는 점이 정말 인상적입니다. 예를 들어, '클로드의 추천(Claude's choice)' 섹션에서는 '새로운 관점 발견하기' 같은 조금 독특하면서도 영감을 주는 주제들을 만날 수 있어요. 또 '일상생활(Life stuff)' 섹션에서는 아침 루틴 팁이나 기념일 계획 같은 실용적인 아이디어들도 얻을 수 있습니다. 저는 개인적으로 이런 세심한 배려가 클로드를 더 자주 찾게 만드는 이유 중 하나라고 생각해요.\n  2. 훨씬 더 이해하기 쉬운 답변\n\n\nChatGPT, 솔직히 정말 디테일한 답변을 잘 만들어냅니다. 특히 '심층 연구(Deep Research)' 같은 기능은 정말 감탄스럽죠. 기본적인 질문을 하더라도, 개요 기반으로 답변해달라고 요청하면 엄청나게 상세한 내용을 얻을 수 있습니다. 정보의 양 자체는 정말 풍부해요.\n \n하지만 제가 좀 아쉽다고 느끼는 부분이 있습니다. 바로 정보의 '가독성'이에요. 때때로 ChatGPT의 답변은 너무 많은 정보가 한꺼번에 쏟아져 나와서 복잡하게 느껴질 때가 있습니다. 저는 개인적으로 표 형식의 정보를 선호하는데, 그럼에도 불구하고 어떤 답변들은 너무 복잡해서 따라가기 어려울 때가 종종 있었어요. 마치 정보의 숲에 길을 잃는 기분이랄까요?  \n\n\n\n반면에 클로드는 답변을 거의 언제나 '훨씬 더 이해하기 쉬운' 형식으로 제공합니다. 깔끔하게 정리된 문단, 중요한 내용은 명확하게 구분되어 있어서 한눈에 쏙쏙 들어와요. 덕분에 내용을 파악하는 데 드는 시간이 훨씬 줄어들고, 제가 얻고 싶은 핵심 정보를 명확하게 이해할 수 있죠. 복잡한 내용을 빠르게 파악하고 싶을 때, 클로드가 정말 빛을 발합니다.\n✍️ 3. 탁월한 글쓰기 맞춤 설정 기능\nChatGPT가 많은 부분에서 뛰어나지만, 개인적으로 '글쓰기' 영역에서는 아직 좀 부족하다고 생각합니다. 물론 새롭게 업데이트되는 모델들이 마케팅에서 강조하는 만큼 완벽한 수준은 아닌 것 같아요. 'ChatGPT Canvas' 같은 도구도 괜찮긴 하지만, 다른 AI 도구들에 비하면 글쓰기 맞춤 설정 기능이 아쉽다는 생각이 들었습니다.\n\n\n클로드는 글쓰기 관련해서 정말 다양한 기능을 제공합니다. 우선 '스타일 변경' 기능이 압권이에요. '간결하게', '설명적으로', '공식적으로' 같은 사전 설정된 옵션은 물론, 저만의 맞춤 스타일을 직접 만들거나 기존 스타일을 편집할 수도 있습니다. 이건 ChatGPT의 '지시사항'과 비슷하다고 볼 수도 있지만, 클로드에서는 훨씬 더 명확하고 직관적으로 느껴졌어요. 마치 나만의 비서에게 글쓰기 스타일을 세세하게 알려주는 느낌이랄까요?\n \n클로드로 글을 쓰는 게 즐거운 또 다른 이유는 '사전 설정된 제안'에서 선택할 수 있다는 점입니다. 콘텐츠를 편집하는 옵션도 있고, 심지어 콘텐츠 캘린더나 교육 자료 같은 것을 개발하는 데도 활용할 수 있죠. 물론 저는 AI가 모든 글을 대신 쓰는 것에 대해서는 아직 회의적입니다만, 아이디어의 '윤곽'을 잡는 데는 클로드가 정말 탁월하다고 확신합니다. 거의 대부분의 경우, 저는 ChatGPT 대신 클로드를 사용할 것을 추천하고 싶어요.\n  4. 더 깔끔한 인터페이스와 외관 맞춤 설정\n 솔직히 ChatGPT의 인터페이스도 처음 출시되었을 때에 비하면 많이 좋아졌죠. 특히 '프로젝트(Projects)' 기능은 정말 필수적인 기능이라고 생각합니다. 하지만 동시에, 여전히 클로드 같은 다른 AI 도구에 비해 부족한 부분이 있다고 느낍니다.\nChatGPT는 '프로젝트' 기능을 제외하고는 인터페이스 맞춤 설정 옵션이 그리 많지 않아요. 제가 ChatGPT를 사용하면서 가장 아쉬웠던 점 중 하나였습니다. 그래서 클로드를 처음 사용했을 때 정말 기뻤던 기억이 납니다.\n⚠️ 주의: 클로드에는 아직 ChatGPT의 '프로젝트'와 같은 강력한 대화 정리 기능은 없습니다. 하지만 인터페이스 외관 맞춤 설정 기능으로 사용자의 편의성을 높이는 데 중점을 둡니다.\n\n\n 물론 클로드에는 '프로젝트' 같은 기능이 없다는 점은 아쉽긴 해요 (개인적으로는 이런 기능이 추가되면 정말 좋을 것 같아요!). 하지만 인터페이스를 사용자 입맛에 맞게 조절하는 데 있어서는 정말 최고입니다. 예를 들어, 다양한 글꼴 중에서 선택할 수 있어요. 그리고 전반적으로 클로드 인터페이스의 색상 조합과 전체적인 디자인이 ChatGPT보다 훨씬 더 좋다고 생각합니다. ChatGPT는 약간 '유틸리티적'이고 기능에만 초점을 맞춘 느낌이라면, 클로드는 사용 자체가 정말 '즐겁다'는 느낌을 줍니다. 시각적인 편안함이 작업 효율에도 영향을 미친다고 생각해요.\n  5. 깃허브(GitHub) 통합 및 편리한 채팅 관리 \n\n\n 코딩은 사람들이 클로드를 사용하는 가장 흔한 이유 중 하나이고, 제 생각엔 이 부분에서도 클로드가 ChatGPT보다 더 적합한 도구입니다. 기본적으로 클로드 아티팩트(Claude Artifacts) 내에서 프롬프트를 선택하고 코드를 작성할 수 있는 옵션이 있죠. 여기에 더해, 클로드는 깃허브(GitHub)와 통합됩니다!  \n \n깃허브 통합 기능을 활용하면 자신의 리포지토리(저장소)를 클로드 앱에 연결할 수 있어요. 원하는 리포지토리를 선택해서 클로드로 가져오기만 하면 되죠. 덕분에 코딩 관련 작업이 훨씬 쉬워집니다. 개발자분들이라면 이 기능의 가치를 더 크게 느끼실 거예요. 협업에도 유리하고, 코드 분석이나 개선에도 큰 도움이 될 수 있습니다.\n \n\n\n그리고 이건 제가 개인적으로 정말 사랑하는 기능인데요, 바로 '채팅 일괄 삭제' 기능입니다! ChatGPT의 '프로젝트' 기능이 대화 정리에 도움이 되긴 하지만, 여전히 채팅을 한 번에 여러 개 삭제할 수 없다는 점이 너무 불편했어요. 일일이 지우는 건 정말 지루하고 시간이 많이 걸리는 작업이라, 결국 필요 없는 대화들이 계속 쌓이게 되더라고요. 이 문제를 해결하는 가장 쉬운 방법이 바로 '일괄 삭제'인데, ChatGPT는 아직 이 기능이 없어서 아쉽습니다. 하지만 클로드는 이 기능을 제공합니다! 각 대화 옆의 체크박스를 선택하고 '선택 항목 삭제'를 누르기만 하면 끝이에요. 깔끔하게 정리된 작업 공간은 기분까지 좋게 만들죠. ✨\n \n핵심 요약\n✨ 첫 번째 핵심: 클로드는 대화 시작 시 다양한 카테고리별 초기 프롬프트를 제공하여 아이디어 생성을 돕습니다.\n  두 번째 핵심: ChatGPT보다 훨씬 깔끔하고 이해하기 쉬운 답변 형식으로 정보 파악이 용이합니다.\n  세 번째 핵심: 글쓰기 스타일 맞춤 설정, 사전 제안 등 강력한 글쓰기 보조 기능으로 아웃라인 구성에 탁월합니다.\n ‍  네 번째 핵심: 사용자 친화적인 인터페이스 디자인과 깃허브 통합, 채팅 일괄 삭제 등 편리한 기능들을 제공합니다.\n클로드를 통해 더 스마트하고 효율적인 AI 활용을 경험해보세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: 클로드가 ChatGPT보다 초기 아이디어 생성에 더 좋다고 하는 이유는 무엇인가요?\nA1: 클로드는 새로운 대화를 시작할 때 다양한 카테고리로 분류된 초기 프롬프트 옵션을 제공하여 사용자가 질문을 시작하기 전에 아이디어를 얻고 생각을 확장하는 데 도움을 줍니다. ChatGPT는 커스텀 GPT 외에는 이런 기능이 부족합니다.\nQ2: 클로드의 답변 가독성이 뛰어나다고 했는데, 어떤 점이 다른가요?\nA2: 클로드는 복잡한 정보를 깔끔하고 구조화된 형태로 제시하여 한눈에 내용을 파악하기 쉽게 합니다. 반면 ChatGPT는 정보의 양이 많을 때 다소 복잡하게 느껴질 수 있습니다.\nQ3: 글쓰기 기능에서 클로드가 ChatGPT보다 뛰어난 점은 무엇인가요?\nA3: 클로드는 글쓰기 스타일 변경(간결, 설명, 공식 등) 기능과 맞춤 스타일 생성, 그리고 콘텐츠 편집 및 개발을 위한 사전 설정 제안 등을 제공하여 글의 아웃라인을 잡거나 특정 톤앤매너에 맞춰 글을 작성할 때 유용합니다.\nQ4: 클로드의 인터페이스 외관 맞춤 설정은 어떤 특징이 있나요?\nA4: 클로드는 다양한 글꼴 옵션을 제공하며, 전반적인 색상 조합과 디자인이 사용자 친화적이고 시각적으로 편안함을 줍니다. ChatGPT에 비해 더 개인화된 작업 환경을 만들 수 있습니다.\n \n결론적으로, ChatGPT가 여전히 강력한 AI 도구인 것은 분명합니다. 하지만 제가 직접 경험해본 결과, 초기 아이디어 자동 생성, 가독성 높은 답변, 풍부한 글쓰기 맞춤 설정, 사용자 친화적인 인터페이스, 그리고 개발자를 위한 깃허브 통합과 편리한 채팅 관리 기능까지, 클로드가 여러 면에서 ChatGPT를 능가하는 '숨겨진 보석'이라는 생각이 듭니다. 특히 AI를 활용해 새로운 아이디어를 얻거나, 복잡한 정보를 깔끔하게 정리하고 싶은 분들에게 클로드는 정말 매력적인 대안이 될 수 있을 거예요. 여러분도 이 똑똑한 AI 대안을 직접 경험해보시고, 여러분의 작업 방식을 한 단계 업그레이드해보시는 건 어떨까요? 분명 후회하지 않으실 겁니다!",
@@ -157,85 +252,19 @@
     ]
   },
   {
-    "id": 11,
-    "imageUrl": "",
-    "title": "영상 편집 5분 컷! AI 편집기 비디오스튜, 쇼츠 공장되는 비법 공개",
-    "description": "5분 만에 쇼츠 공장 만들기, 가능할까? AI 영상 편집기 비디오스튜가 있다면 가능합니다. 영상 편집에 드는 시간을 획기적으로 줄이고 콘텐츠 기획에 더 집중하고 싶으신가요? 이 글에서 그 비밀을 전부 알려드립니다!\n\n\n \n 유튜브 채널을 운영하면서 가장 큰 고민, 바로 영상 편집 시간이죠. 솔직히 우리가 영화제 출품작을 만드는 건 아니잖아요? 정보성 영상이나 쇼츠에서 정말 중요한 건 화려한 영상미가 아니라 정확한 정보 전달과 빠른 제작 속도입니다. 완벽한 영상 한 개보다 괜찮은 영상 10개가 수익에는 훨씬 유리하거든요. 오늘, 여러분의 컴퓨터를 쇼츠 공장으로 만드는 비밀을 알려드릴 테니 끝까지 함께해주세요!  \n \n영상 편집, 왜 항상 시간과의 싸움일까?  \n많은 분들이 영상 편집의 어려움을 토로합니다. 프리미어 프로 같은 전문 툴은 배우는 데만 몇 달, 영상 하나 만드는 데 몇 시간이 걸리죠. 월 구독료도 부담스럽고요. 캡컷 같은 툴은 비교적 쉽지만, 타임라인 방식이라 여전히 복잡하고 템플릿 기반 도구들은 영상이 비슷비슷해져 차별화가 어렵습니다.\n특히 정보성 채널을 운영하다 보면 콘텐츠 기획보다 편집에 시간이 더 오래 걸리는 배보다 배꼽이 더 큰 상황을 마주하게 됩니다. 정보성 콘텐츠는 신선도가 생명인데, 편집에 며칠씩 걸리면 이미 낡은 정보가 되어버리기 일쑤죠. 바로 이런 문제들을 해결할 새로운 접근법이 필요했습니다.\n⚠️ 비효율적인 작업 방식의 문제점\n콘텐츠의 '골든 타임'을 놓치고 계신가요? 긴 편집 시간은 시의성 있는 주제를 다루기 어렵게 만들고, 결국 채널의 성장을 더디게 하는 가장 큰 원인이 될 수 있습니다.\n \nAI 영상 편집의 신세계, 비디오스튜  \n이런 고민을 한 방에 해결해 줄 도구가 바로 비디오스튜(VideoStew)입니다. 클라우드 기반의 AI 영상 편집 플랫폼으로, 복잡한 설치 과정 없이 웹 브라우저에서 바로 사용할 수 있죠. 비디오스튜의 핵심 특징은 다음과 같습니다.\n슬라이드 기반 편집: 파워포인트처럼 슬라이드 단위로 편집하여 복잡한 타임라인을 배울 필요가 없습니다. 직관적이고 정말 쉬워요.\nAI 자동 제작: 텍스트만 입력하면 AI가 영상 초안을 뚝딱 만들어줍니다. 영상, 배경음악, 나레이션까지 자동으로 매칭해주니 우리는 내용만 확인하고 수정하면 끝!\n웹 기반 작업 환경: 프로그램 설치 없이 인터넷만 되면 어디서든 작업할 수 있습니다. 카페에서도, 집에서도 자유롭게 영상을 만들어 보세요.\n  알아두세요!\n비디오스튜는 콘텐츠 생성 개수에는 제한이 없지만, 최종 영상을 추출(렌더링)하는 시간을 기준으로 크레딧을 차감합니다. 요금제에 따라 제공되는 렌더링 시간과 기능이 다르니 꼭 확인해보세요!\n \n비디오스튜, 3가지 방법으로 완전 정복!  ️\n비디오스튜는 크게 세 가지 방식으로 영상을 만들 수 있습니다. 각 방법을 통해 어떻게 5분 만에 영상 제작이 가능한지 보여드릴게요. 자세한 사용법은 본문 아래 유튜브 영상을 참고하세요.\n1. 아이디어로 시작하기  \n주제만 던져주면 AI가 스크립트부터 영상, 음악, 나레이션까지 자동으로 완성해주는 가장 쉬운 방법입니다.\n1. '새 프로젝트'를 만들고 '아이디어로 시작하기'를 선택합니다.\n2. 스타일을 고르고 영상 주제를 입력하면 AI가 스크립트 초안을 작성해줍니다.\n3. 마음에 드는 템플릿, 배경음악, AI 보이스를 선택하면 영상 제작 끝!\n2. 웹페이지로 시작하기  \n블로그 포스팅이나 뉴스 기사 URL만 있으면 영상으로 변환할 수 있습니다.\n1. '웹페이지로 시작하기'를 선택하고 URL을 붙여넣습니다.\n2. 비디오스튜가 웹페이지를 분석해 스크립트 초안을 생성합니다.\n3. 분량이 길다면 'AI 다듬기' 기능으로 쇼츠 길이에 맞게 자동으로 요약할 수 있습니다.\n3. 준비된 스크립트로 시작하기 ✍️\n이미 작성해 둔 대본이 있다면 가장 정교하고 빠르게 고품질 영상을 만들 수 있습니다. '바이럴 썰 쇼츠 생성기' 같은 외부 AI 툴과 함께 사용하면 효율이 극대화됩니다.\n1. '준비된 스크립트로 시작하기'를 선택하고 대본을 붙여넣습니다.\n2. 템플릿과 배경음악, AI 보이스를 설정하면 기본 영상이 생성됩니다.\n3. 미리 준비한 이미지를 업로드하여 각 슬라이드에 드래그 앤 드롭으로 교체해주면 완성!\n  BGM 사용, 이것만은 알고 가세요!\n비디오스튜의 BGM을 활용한 동영상을 유튜브 채널에 추가하려면 워크스페이스에 유튜브 채널 주소가 추가되어 있어야 합니다. 하지만 채널은 하나만 등록이 가능하므로 여러 채널을 운영하신다면 BGM 사용에 제약이 있을 수 있습니다. 이런 분들을 위해 제가 직접 수노(Suno) AI로 만든 다양한 BGM을 무료로 제공하고 있으니, 아래 참고해 자유롭게 사용하세요!\n무료 BGM 다운로드 하기\n마무리: 이제 당신도 영상 제작 전문가!  \n정말 놀랍지 않나요? 기존에 몇 시간씩 걸리던 영상 편집 작업이 이제는 단 5분에서 10분이면 충분합니다. 오늘 배운 세 가지 방법을 활용하면, 아이디어만으로, 또는 URL 하나만으로, 혹은 직접 쓴 대본으로 순식간에 영상을 만들 수 있습니다.\n하루에 영상 하나 만들기도 벅찼던 분들이 이제는 여러 개의 영상을 만들 수 있게 되었습니다. 이것이 바로 수익형 채널 운영의 핵심입니다. 템플릿 기능을 잘 활용하여 여러분만의 스타일을 만들면서 제작 속도를 더욱 높여보세요. 더 이상 편집 시간에 얽매이지 말고, 콘텐츠의 질을 높이는 데 집중하시길 바랍니다. 더 궁금한 점이 있다면 댓글로 물어봐주세요~ \n \n\n\n\n \n \n \n비디오스튜 핵심 요약\n✨ 시간 단축: 몇 시간 걸릴 작업을 단 5~10분으로! AI 자동화로 편집 시간을 획기적으로 줄여줍니다.\n  세 가지 제작 방식: 아이디어, 웹페이지, 스크립트 어떤 재료로든 영상을 만들 수 있습니다.\n  직관적인 편집: PPT처럼 쉬운 슬라이드 방식으로 누구나 전문가처럼 편집할 수 있습니다.\n ‍  효율 극대화: 콘텐츠 다량 생산으로 수익형 채널 성장의 핵심 동력을 확보할 수 있습니다.\n이제 영상 편집 시간에 스트레스 받지 마세요!\n자주 묻는 질문 ❓\nQ: 비디오스튜는 어떤 사람에게 가장 유용한가요?\nA: 정보성 콘텐츠나 쇼츠를 주력으로 제작하며, 빠른 시간 안에 많은 영상을 만들어야 하는 유튜버나 콘텐츠 제작자에게 가장 유용합니다. 편집 시간을 줄이고 기획에 더 집중하고 싶은 분들께 강력히 추천합니다.\nQ: 영상 편집을 전혀 모르는데, 사용하기 어렵지 않나요?\nA: 전혀 어렵지 않습니다. 비디오스튜는 파워포인트처럼 슬라이드 기반으로 작동하여 타임라인 개념이 필요 없습니다. 또한 텍스트만 입력하면 AI가 영상 초안을 만들어주기 때문에 초보자도 쉽게 고품질 영상을 제작할 수 있습니다.\nQ: 제가 만든 대본이나 이미지를 사용할 수 있나요?\nA: 네, 물론입니다. '준비된 스크립트로 시작하기' 기능을 통해 직접 작성한 대본을 사용할 수 있으며, 가지고 있는 이미지를 업로드하여 영상에 자유롭게 적용할 수 있습니다.\nQ: 비디오스튜에서 제공하는 배경음악을 유튜브에 사용해도 저작권에 문제가 없나요?\nA: 네, 문제없습니다. 다만, 유튜브 채널에 BGM을 활용한 동영상을 게시하려면 워크스페이스에 본인의 유튜브 채널 주소를 등록해야 합니다. 채널은 하나만 등록 가능하니 참고하세요.\nQ: 꼭 프로그램을 설치해야 하나요?\nA: 아니요, 비디오스튜는 클라우드 기반 서비스이므로 별도의 프로그램 설치 없이 웹 브라우저에서 바로 접속하여 사용할 수 있습니다.\n\n\n\n{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"FAQPage\",\n    \"mainEntity\": [\n        {\n            \"@type\": \"Question\",\n            \"name\": \"비디오스튜는 어떤 사람에게 가장 유용한가요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  정보성 콘텐츠나 쇼츠를 주력으로 제작하며, 빠른 시간 안에 많은 영상을 만들어야 하는 유튜버나 콘텐츠 제작자에게 가장 유용합니다. 편집 시간을 줄이고 기획에 더 집중하고 싶은 분들께 강력히 추천합니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"영상 편집을 전혀 모르는데, 사용하기 어렵지 않나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  전혀 어렵지 않습니다. 비디오스튜는 파워포인트처럼 슬라이드 기반으로 작동하여 타임라인 개념이 필요 없습니다. 또한 텍스트만 입력하면 AI가 영상 초안을 만들어주기 때문에 초보자도 쉽게 고품질 영상을 제작할 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"제가 만든 대본이나 이미지를 사용할 수 있나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  네, 물론입니다. '준비된 스크립트로 시작하기' 기능을 통해 직접 작성한 대본을 사용할 수 있으며, 가지고 있는 이미지를 업로드하여 영상에 자유롭게 적용할 수 있습니다.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"비디오스튜에서 제공하는 배경음악을 유튜브에 사용해도 저작권에 문제가 없나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  네, 문제없습니다. 다만, 유튜브 채널에 BGM을 활용한 동영상을 게시하려면 워크스페이스에 본인의 유튜브 채널 주소를 등록해야 합니다. 채널은 하나만 등록 가능하니 참고하세요.\"\n            }\n        },\n        {\n            \"@type\": \"Question\",\n            \"name\": \"꼭 프로그램을 설치해야 하나요?\",\n            \"acceptedAnswer\": {\n                \"@type\": \"Answer\",\n                \"text\": \"  아니요, 비디오스튜는 클라우드 기반 서비스이므로 별도의 프로그램 설치 없이 웹 브라우저에서 바로 접속하여 사용할 수 있습니다.\"\n            }\n        }\n    ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483643",
-    "pubDate": "Sun, 17 Aug 2025 12:35:14 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "Ai 보이스",
-      "ai 영상 편집",
-      "동영상 편집기",
-      "비디오스튜",
-      "쇼츠 만들기",
-      "슬라이드 기반 편집",
-      "영상 자동 제작",
-      "영상 편집 툴",
-      "유튜브 편집",
-      "콘텐츠 제작"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "F1 더 무비",
-    "description": "트레일러 영상이 나왔을 때 소리가 아이폰의 진동 센서와 연동되었다고 해서 사람들 사이에서 이슈였던 영화다. 메가박스 남양주 현대아울렛 스페이스원 돌비 시네마에서 봤는데 음향과 음량이 정말 뛰어났다. 자동차 엔진의 저음이 몸이 떨릴 정도로 강하게 전달 됐다. 영화 평점에서 시나리오가 0점이길래 내용이 그리 없나 싶었지만 나름 짜임새 있어서 재미있게 봤다. 결국 승리 트로피를 누가 받을지 궁금했는데 엔딩도 나름 괜찮았다.\n\r\n레이싱을 잘 안다고 생각한 적은 없었는데 영화 처음에 나오는 데이토나 트랙도 아는 트랙이고 계속 해서 나오는 레이싱 관련 내용도 상당히 이해가 잘 가서 레이싱 게임을 열심히 한게 좀 도움이 됐다. 아무 생각없이 갔는데 돌비 5주년 특가로 인당 만원에 봤다. 몰입도가 상당한 잘 만든 영화다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hyeonseok.com/blog/940",
-    "pubDate": "Sat, 16 Aug 2025 18:25:19 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "아프리카 별풍선 20554432개가 터진날",
-    "description": "영상: https://www.youtube.com/watch?v=CP_VW7cF8A0\n\n\n\n \n20억원치는 개뿔 버그였음\n20개 쐈다고 하네요\n알고나니 슬픈 일이였다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1376",
-    "pubDate": "Mon, 18 Aug 2025 14:14:50 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Untitled",
-    "description": "​ 강의 만들어야 하지만 집중도 안되고 해서 몇 일 째 nano-banana 갖고 노는 중이다. 내 게임 캐릭터와 피규어의 이미지를 소스로 이런 저런 시도들을 해보고 있는데 나름 괜찮게 뽑히는 경우도 있음. 근데 한방에 간단하게 나오는 경우는 없고, 짧은 시간 안에 원하는 결과물이 나와도 워낙 저해상도라서 후작업에 엄청 시간이 많이 들어갔다. ​ 현재 nano-banana을 직접 사용할 수 … More",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://megayuchi.com/2025/08/21/7152/",
-    "pubDate": "Thu, 21 Aug 2025 08:20:02 +0000",
-    "creator": "megayuchi",
-    "categories": [
-      "IT",
-      "Pub",
-      "ai",
-      "nano-banana"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "고객 서비스는 왜 좋아질 수 없을까?",
-    "description": "얼마 전에 열흘 정도 미국에 다녀왔다. 나는 미국 출장을 가면 동부로 들어가서 서부로 나오거나, 반대로 서부로 들어가서 동부로 나오는데, 미국은 워낙 큰 나라라서 이동하는 게 참 어렵다. 이번에도 미국 내에서만 방문한 곳이 꽤 많고, 땅덩어리가 커서 직행 비행기 노선이 없는 곳도 많아서 미국 내에서만 비행기를 8번 탔다. 이전에는 다양한 항공사를 이용했지만, 대한항공과 제휴되기도 하고 그나마(...)",
+    "title": "Introducing Next Edit Suggestions in JetBrains AI Assistant",
+    "description": "With the latest release of JetBrains AI Assistant, we’ve introduced a long-awaited feature – next edit suggestions. These new suggestions are now available in Beta across JetBrains IDEs for Java, Kotlin, and Python. Next edit suggestions offer intelligent recommendations for edits across your entire file – not just the next line of code. The new feature […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/08/why-does-customer-service-always-have-to-suck.html",
-    "pubDate": "Sun, 17 Aug 2025 21:26:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://blog.jetbrains.com/ai/2025/08/introducing-next-edit-suggestions-in-jetbrains-ai-assistant/",
+    "pubDate": "Mon, 18 Aug 2025 16:14:18 +0000",
+    "creator": "Anton Semenkin",
     "categories": [
-      "Uncategorized",
-      "general"
+      "news",
+      "ai-assistant",
+      "ai-in-ides"
     ]
   }
 ]
