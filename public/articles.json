@@ -19,103 +19,68 @@
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Bring Your Own Model to Chat in Visual Studio",
-    "description": "We’re excited to announce that you can now bring your own language model into Visual Studio Chat. You can connect API keys from providers (OpenAI, Anthropic, and Google) to access a wider range of models. This makes it easy to test the latest releases, customize workflows, or run on infrastructure you control. What it unlocks […]\nThe post Bring Your Own Model to Chat in Visual Studio appeared first on Visual Studio Blog.",
+    "title": "크롬 흰색창 혹은 흰색스크린 오류",
+    "description": "윈도 업데이트 후 크롬 브라우저가 온통 하얀색으로 나왔다. 해당 증상은 ANGLE graphics backend를 OpenGL을 사용하면서 그래픽 가속을 켜놓은 경우에만 발생하는 것으로 보인다. 따라서 ANGLE graphics backend 설정을 Default로 재설정해주면 해결할 수 있다. 아래는 ANGLE 설정을 재설정하는 방법이다.\n \n1. 크롬의 흰색창 증상\n증상은 아래처럼 Chrome browser 실행시 그냥 하얀 화면, 흰색창으로 나타나는 경우이다. 진짜 아무것도 보이지 않는다.\nChrome white screen\n\n\n \n2. 해결 방법\n먼저 어떻게 해서든지 크롬 화면이 나오도록 실행해야 하는데, 이는 그래픽 가속을 끄는 옵션을 사용하면 된다. 먼저 실행된 크롬 브라우저를 종료한다. 대충 흰색 창의 우측 상단 X 마크가 있을 법한 위치를 눌러서 크롬을 닫는다. 혹은 창 선택 후 Alt+F4로 닫아도 된다.\n크롬이 닫힌 뒤에 Powershell을 하나 실행시킨다. 실행은 \"윈도우 + R\"키를 눌러서 나온 실행 창에서 powershell이라고 치면 된다. Powershell 에서 크롬이 설치된 디렉토리로 이동하는데, 경로는 보통 \"C:\\Program Files\\Google\\Chrome\\Application\" 이다. 아래처럼 cd (change directory) 명령을 사용하면 된다. 오타를 낼 것 같다면 Tab키를 사용해서 자동완성으로 디렉토리를 찾아가면 편리하다.\ncd \"C:\\Program Files\\Google\\Chrome\\Application\"\n이제 해당 디렉토리에서 crhome.exe --disable-gpu 명령으로 크롬을 실행한다. 아래는 powershell에서 명령하는 모습을 캡쳐한 그림 파일이다.\nChome disable gpu option\n\n\n이렇게 하면 이제 크롬 화면이 보일 것이다. 임시로 띄운 것이므로 여기서 설정을 손봐야 한다. 먼저 주소창에서 chrome://flags를 실행한다. 그리고 주소창 아래의 돋보기 검색창에 ANGLE을 타이핑하면 Choose ANGLE graphics backend가 보일 것이다. 이 값이 Default가 아닌 OpenGL 같은 다른 값으로 되어있을 것이다.\nchrome flags - Choose ANGLE graphics backend - OpenGL\n\n\n이제 default로 값을 변경한 뒤에 크롬창 우측 하단에 재시작을 눌러주면 재시작 되면서 제대로 작동 될 것이다.\nchrome flags - Choose ANGLE graphics backend - Default\n\n\n만일 이렇게 설정 한뒤에도 계속 흰색창 화면이 나온다면 앞의  crhome.exe --disable-gpu 로 실행한 뒤에 \"설정\"에서 \"시스템\"의 \"가능한 경우 그래픽 가속 사용\"을 꺼두는 방법 밖에 없다.\n크롬 - 설정 - 시스템 - 가능한 경우 그래픽 가속 사용\n\n\n현재 문제가 발생한 이유는 OpenGL관련 부분이나 DirectX 부분을 업데이트하면서 뭔가 꼬인 것이 아닐까 하는 의심이 든다.\n \n \n히스토리\n2025.08.24 처음 글 씀",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/bring-your-own-model-visual-studio-chat/",
-    "pubDate": "Wed, 20 Aug 2025 15:40:20 +0000",
-    "creator": "Rhea Patel, Samruddhi Khandale",
+    "link": "http://sunyzero.tistory.com/318",
+    "pubDate": "Sun, 24 Aug 2025 22:05:21 +0900",
+    "creator": "sunyzero",
     "categories": [
-      "Copilot",
-      "Anthropic",
-      "Artificial Intelligence",
-      "BYOK",
-      "Claude",
-      "Gemini",
-      "Google",
-      "GPT",
-      "Key",
-      "Models",
-      "OpenAI",
-      "Visual Studio"
+      "컴퓨터 관련/윈도 패밀리",
+      "Chrome disable GPU",
+      "chrome OpenGL",
+      "Chrome white screen window",
+      "Chrome 그래픽 가속",
+      "가능한 경우 그래픽 가속 사용 문제",
+      "크롬 흰색스크린 문제",
+      "크롬 흰색창 문제"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Model Context Protocol (MCP) is Now Generally Available in Visual Studio 🎉",
-    "description": "We’re excited to announce that MCP support is now GA in Visual Studio—unlocking richer, real-time context from your entire development stack and expanding the power of Agent Mode like never before. Model Context Protocol (MCP) is an open standard that makes it easy for AI agents to connect with external tools and services—think of it […]\nThe post Model Context Protocol (MCP) is Now Generally Available in Visual Studio 🎉 appeared first on Visual Studio Blog.",
+    "title": "고대 사람들은 무엇을 행복이라고 불렀을까?",
+    "description": "법과 정의, 운명과 용기 속에서 행복을 고민한 고대인의 지혜 따라가기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/mcp-is-now-generally-available-in-visual-studio/",
-    "pubDate": "Tue, 19 Aug 2025 18:23:21 +0000",
-    "creator": "Allie Barry",
-    "categories": [
-      "Copilot",
-      "Visual Studio",
-      "Agent Mode",
-      "agents",
-      "Artificial Intelligence",
-      "Authentication",
-      "code",
-      "GitHub",
-      "GitHub Copilot",
-      "LLM",
-      "MCP",
-      "microsoft",
-      "Model Context Protocol",
-      "security",
-      "servers"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "The State of Python 2025",
-    "description": "This is a guest post from Michael Kennedy, the founder of Talk Python and a PSF Fellow. Welcome to the highlights, trends, and key actions from the eighth annual Python Developers Survey. This survey is conducted as a collaborative effort between the Python Software Foundation and JetBrains’ PyCharm team. My name is Michael Kennedy, and […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2025/08/the-state-of-python-2025/",
-    "pubDate": "Mon, 18 Aug 2025 11:42:07 +0000",
-    "creator": "Evgenia Verbina",
-    "categories": [
-      "data-science",
-      "web-development",
-      "python",
-      "survey",
-      "trends"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "우리는 가성비 좋은 행복을 누릴 수 있을까?",
-    "description": "[구체적인 행복] 오래된 오해를 풀고 진짜 행복이 있는 방향으로 가자",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosspick-2025-2a",
-    "pubDate": "Tue, 19 Aug 2025 00:00:00 GMT",
+    "link": "https://toss.im/tossfeed/article/tosspick-2025-2b",
+    "pubDate": "Tue, 19 Aug 2025 00:01:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 6,
+    "id": 4,
     "imageUrl": "",
-    "title": "무한 애너지 획득을 위한 탄계",
-    "description": "영상: https://www.youtube.com/watch?v=daRSa6YZKyg\n\n\n\n \n원자력 발전은 지구에 있는걸 다 캐봐야 만년 정도 갑니다.\n하지막 핵폐기물은 5만년을 기다려야하기 때문에 무한희 쓸 수는 없습니다.\n그래서 영상에서는\n핵발전소를 돌린 전기로 입자가속기를 돌려 지구에서 삼중수소를 만드는 방법을 소개하고 있습니다.\n핵육합 발전은 아직 상용회되진 않았지만 이것까지 된다면\n핵발전소로 삼중수소를 만들고 \n삼중수소로 핵융합발전을 하고\n전기로 공기중에 이산화 탄소로 석유까지 만들고 나면 무한 루프가 완성됩니다.\n \n거기다 무중성자 핵융합까지가면 그냥 바다물로 핵융합이 되기 때문에 위의 절차를 다 뛰어 넘을 수 있습니다.\n \n영상에서 논란점은 에너지만 무한하다면 공기중의 이산화탄소를 석유로 돌릴 수 있다는거 ...\n와 쩐다..",
+    "title": "토스, ‘토스 삼성카드’ 출시",
+    "description": "토스페이, 토스쇼핑, 토스프라임 혜택을 카드 한 장에",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1379",
-    "pubDate": "Sun, 24 Aug 2025 00:22:04 +0900",
-    "creator": "SIDNFT",
+    "link": "https://toss.im/tossfeed/article/39673",
+    "pubDate": "Mon, 18 Aug 2025 01:29:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Dependabot support for vcpkg",
+    "description": "We are excited to announce that GitHub’s Dependabot now brings automated dependency updates to C++ projects using vcpkg. This support is available for projects using vcpkg manifest files, empowering teams to keep their library dependencies current and secure with minimal effort. With Dependabot, your repo can receive automatic pull requests to upgrade your libraries to […]\nThe post Dependabot support for vcpkg appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/dependabot-support-for-vcpkg/",
+    "pubDate": "Mon, 18 Aug 2025 18:30:16 +0000",
+    "creator": "Jamie Magee",
     "categories": [
-      "유튜브",
-      "핵융합"
+      "C++",
+      "Vcpkg",
+      "dependabot",
+      "GitHub",
+      "vcpkg"
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "imageUrl": "",
     "title": "이제는 클로드(Claude) 시대! ChatGPT를 능가하는 AI 챗봇의 숨겨진 5가지 능력",
     "description": "많은 분들이 여전히 ChatGPT를 주로 사용하시죠? 그런데 초기 아이디어 자동 생성부터 깔끔한 답변, 사용자 맞춤 인터페이스까지, 클로드(Claude) AI가 ChatGPT보다 더 탁월한 5가지 비결을 공개합니다. 당신의 작업 효율을 극대화할 새로운 AI 파트너, 클로드를 만나보세요!\n\n\n \n AI 챗봇 하면 여전히 ChatGPT를 가장 먼저 떠올리시는 분들이 많으실 거예요. 저 역시 그랬습니다. 처음에는 ChatGPT가 거의 유일한 선택지라고 생각했죠. 그런데 말이죠, 세상엔 정말 좋은 AI 대안들이 많다는 걸 직접 경험하고 깨달았습니다. 특히 오늘 소개해드릴 '클로드(Claude) AI'는 초기 아이디어 구상부터 작업의 효율성까지, 여러분의 기대를 뛰어넘는 놀라운 경험을 선사할 거예요. 과연 클로드가 어떻게 여러분의 창의적인 작업을 '자동 생성'하는 비결을 가지고 있는지, 저와 함께 자세히 알아볼까요?\n✨ 1. 더 나은 초기 아이디어 자동 생성\n음, 혹시 ChatGPT를 쓰다가 '이거, 뭘 물어봐야 할지 막막한데?' 싶었던 경험 없으세요? 특히 빈 대화창을 마주할 때 말이죠. 물론 ChatGPT의 '커스텀 GPT' 기능에서는 초기 프롬프트가 잘 나오긴 해요. 사실 이 기능, 정말 과소평가되어 있다고 생각합니다. 아이디어가 잘 떠오르지 않을 때 정말 유용하죠. 하지만 일반 대화에서는 이런 시작 프롬프트가 잘 제공되지 않아서 아쉬울 때가 많아요. 심지어 마이크로소프트의 코파일럿(Copilot)이 이 점에서는 더 낫다고 느낄 때도 있습니다.\n\n\n  클로드의 차별점: 클로드(Claude)는 새 대화를 시작할 때마다 여러 개의 초기 프롬프트 옵션을 제공하며, 이 프롬프트들을 다양한 카테고리(예: 클로드의 추천, 일상생활)로 깔끔하게 분류해 놓아 사용자의 아이디어 발상을 효과적으로 돕습니다.\n그런데 클로드(Claude)는 시작부터 다릅니다. 새 대화를 시작할 때마다 여러 개의 초기 프롬프트 옵션을 제공해주죠. 단순히 많은 것뿐만 아니라, 이 프롬프트들을 다양한 카테고리로 깔끔하게 분류해 놓았다는 점이 정말 인상적입니다. 예를 들어, '클로드의 추천(Claude's choice)' 섹션에서는 '새로운 관점 발견하기' 같은 조금 독특하면서도 영감을 주는 주제들을 만날 수 있어요. 또 '일상생활(Life stuff)' 섹션에서는 아침 루틴 팁이나 기념일 계획 같은 실용적인 아이디어들도 얻을 수 있습니다. 저는 개인적으로 이런 세심한 배려가 클로드를 더 자주 찾게 만드는 이유 중 하나라고 생각해요.\n  2. 훨씬 더 이해하기 쉬운 답변\n\n\nChatGPT, 솔직히 정말 디테일한 답변을 잘 만들어냅니다. 특히 '심층 연구(Deep Research)' 같은 기능은 정말 감탄스럽죠. 기본적인 질문을 하더라도, 개요 기반으로 답변해달라고 요청하면 엄청나게 상세한 내용을 얻을 수 있습니다. 정보의 양 자체는 정말 풍부해요.\n \n하지만 제가 좀 아쉽다고 느끼는 부분이 있습니다. 바로 정보의 '가독성'이에요. 때때로 ChatGPT의 답변은 너무 많은 정보가 한꺼번에 쏟아져 나와서 복잡하게 느껴질 때가 있습니다. 저는 개인적으로 표 형식의 정보를 선호하는데, 그럼에도 불구하고 어떤 답변들은 너무 복잡해서 따라가기 어려울 때가 종종 있었어요. 마치 정보의 숲에 길을 잃는 기분이랄까요?  \n\n\n\n반면에 클로드는 답변을 거의 언제나 '훨씬 더 이해하기 쉬운' 형식으로 제공합니다. 깔끔하게 정리된 문단, 중요한 내용은 명확하게 구분되어 있어서 한눈에 쏙쏙 들어와요. 덕분에 내용을 파악하는 데 드는 시간이 훨씬 줄어들고, 제가 얻고 싶은 핵심 정보를 명확하게 이해할 수 있죠. 복잡한 내용을 빠르게 파악하고 싶을 때, 클로드가 정말 빛을 발합니다.\n✍️ 3. 탁월한 글쓰기 맞춤 설정 기능\nChatGPT가 많은 부분에서 뛰어나지만, 개인적으로 '글쓰기' 영역에서는 아직 좀 부족하다고 생각합니다. 물론 새롭게 업데이트되는 모델들이 마케팅에서 강조하는 만큼 완벽한 수준은 아닌 것 같아요. 'ChatGPT Canvas' 같은 도구도 괜찮긴 하지만, 다른 AI 도구들에 비하면 글쓰기 맞춤 설정 기능이 아쉽다는 생각이 들었습니다.\n\n\n클로드는 글쓰기 관련해서 정말 다양한 기능을 제공합니다. 우선 '스타일 변경' 기능이 압권이에요. '간결하게', '설명적으로', '공식적으로' 같은 사전 설정된 옵션은 물론, 저만의 맞춤 스타일을 직접 만들거나 기존 스타일을 편집할 수도 있습니다. 이건 ChatGPT의 '지시사항'과 비슷하다고 볼 수도 있지만, 클로드에서는 훨씬 더 명확하고 직관적으로 느껴졌어요. 마치 나만의 비서에게 글쓰기 스타일을 세세하게 알려주는 느낌이랄까요?\n \n클로드로 글을 쓰는 게 즐거운 또 다른 이유는 '사전 설정된 제안'에서 선택할 수 있다는 점입니다. 콘텐츠를 편집하는 옵션도 있고, 심지어 콘텐츠 캘린더나 교육 자료 같은 것을 개발하는 데도 활용할 수 있죠. 물론 저는 AI가 모든 글을 대신 쓰는 것에 대해서는 아직 회의적입니다만, 아이디어의 '윤곽'을 잡는 데는 클로드가 정말 탁월하다고 확신합니다. 거의 대부분의 경우, 저는 ChatGPT 대신 클로드를 사용할 것을 추천하고 싶어요.\n  4. 더 깔끔한 인터페이스와 외관 맞춤 설정\n 솔직히 ChatGPT의 인터페이스도 처음 출시되었을 때에 비하면 많이 좋아졌죠. 특히 '프로젝트(Projects)' 기능은 정말 필수적인 기능이라고 생각합니다. 하지만 동시에, 여전히 클로드 같은 다른 AI 도구에 비해 부족한 부분이 있다고 느낍니다.\nChatGPT는 '프로젝트' 기능을 제외하고는 인터페이스 맞춤 설정 옵션이 그리 많지 않아요. 제가 ChatGPT를 사용하면서 가장 아쉬웠던 점 중 하나였습니다. 그래서 클로드를 처음 사용했을 때 정말 기뻤던 기억이 납니다.\n⚠️ 주의: 클로드에는 아직 ChatGPT의 '프로젝트'와 같은 강력한 대화 정리 기능은 없습니다. 하지만 인터페이스 외관 맞춤 설정 기능으로 사용자의 편의성을 높이는 데 중점을 둡니다.\n\n\n 물론 클로드에는 '프로젝트' 같은 기능이 없다는 점은 아쉽긴 해요 (개인적으로는 이런 기능이 추가되면 정말 좋을 것 같아요!). 하지만 인터페이스를 사용자 입맛에 맞게 조절하는 데 있어서는 정말 최고입니다. 예를 들어, 다양한 글꼴 중에서 선택할 수 있어요. 그리고 전반적으로 클로드 인터페이스의 색상 조합과 전체적인 디자인이 ChatGPT보다 훨씬 더 좋다고 생각합니다. ChatGPT는 약간 '유틸리티적'이고 기능에만 초점을 맞춘 느낌이라면, 클로드는 사용 자체가 정말 '즐겁다'는 느낌을 줍니다. 시각적인 편안함이 작업 효율에도 영향을 미친다고 생각해요.\n  5. 깃허브(GitHub) 통합 및 편리한 채팅 관리 \n\n\n 코딩은 사람들이 클로드를 사용하는 가장 흔한 이유 중 하나이고, 제 생각엔 이 부분에서도 클로드가 ChatGPT보다 더 적합한 도구입니다. 기본적으로 클로드 아티팩트(Claude Artifacts) 내에서 프롬프트를 선택하고 코드를 작성할 수 있는 옵션이 있죠. 여기에 더해, 클로드는 깃허브(GitHub)와 통합됩니다!  \n \n깃허브 통합 기능을 활용하면 자신의 리포지토리(저장소)를 클로드 앱에 연결할 수 있어요. 원하는 리포지토리를 선택해서 클로드로 가져오기만 하면 되죠. 덕분에 코딩 관련 작업이 훨씬 쉬워집니다. 개발자분들이라면 이 기능의 가치를 더 크게 느끼실 거예요. 협업에도 유리하고, 코드 분석이나 개선에도 큰 도움이 될 수 있습니다.\n \n\n\n그리고 이건 제가 개인적으로 정말 사랑하는 기능인데요, 바로 '채팅 일괄 삭제' 기능입니다! ChatGPT의 '프로젝트' 기능이 대화 정리에 도움이 되긴 하지만, 여전히 채팅을 한 번에 여러 개 삭제할 수 없다는 점이 너무 불편했어요. 일일이 지우는 건 정말 지루하고 시간이 많이 걸리는 작업이라, 결국 필요 없는 대화들이 계속 쌓이게 되더라고요. 이 문제를 해결하는 가장 쉬운 방법이 바로 '일괄 삭제'인데, ChatGPT는 아직 이 기능이 없어서 아쉽습니다. 하지만 클로드는 이 기능을 제공합니다! 각 대화 옆의 체크박스를 선택하고 '선택 항목 삭제'를 누르기만 하면 끝이에요. 깔끔하게 정리된 작업 공간은 기분까지 좋게 만들죠. ✨\n \n핵심 요약\n✨ 첫 번째 핵심: 클로드는 대화 시작 시 다양한 카테고리별 초기 프롬프트를 제공하여 아이디어 생성을 돕습니다.\n  두 번째 핵심: ChatGPT보다 훨씬 깔끔하고 이해하기 쉬운 답변 형식으로 정보 파악이 용이합니다.\n  세 번째 핵심: 글쓰기 스타일 맞춤 설정, 사전 제안 등 강력한 글쓰기 보조 기능으로 아웃라인 구성에 탁월합니다.\n ‍  네 번째 핵심: 사용자 친화적인 인터페이스 디자인과 깃허브 통합, 채팅 일괄 삭제 등 편리한 기능들을 제공합니다.\n클로드를 통해 더 스마트하고 효율적인 AI 활용을 경험해보세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: 클로드가 ChatGPT보다 초기 아이디어 생성에 더 좋다고 하는 이유는 무엇인가요?\nA1: 클로드는 새로운 대화를 시작할 때 다양한 카테고리로 분류된 초기 프롬프트 옵션을 제공하여 사용자가 질문을 시작하기 전에 아이디어를 얻고 생각을 확장하는 데 도움을 줍니다. ChatGPT는 커스텀 GPT 외에는 이런 기능이 부족합니다.\nQ2: 클로드의 답변 가독성이 뛰어나다고 했는데, 어떤 점이 다른가요?\nA2: 클로드는 복잡한 정보를 깔끔하고 구조화된 형태로 제시하여 한눈에 내용을 파악하기 쉽게 합니다. 반면 ChatGPT는 정보의 양이 많을 때 다소 복잡하게 느껴질 수 있습니다.\nQ3: 글쓰기 기능에서 클로드가 ChatGPT보다 뛰어난 점은 무엇인가요?\nA3: 클로드는 글쓰기 스타일 변경(간결, 설명, 공식 등) 기능과 맞춤 스타일 생성, 그리고 콘텐츠 편집 및 개발을 위한 사전 설정 제안 등을 제공하여 글의 아웃라인을 잡거나 특정 톤앤매너에 맞춰 글을 작성할 때 유용합니다.\nQ4: 클로드의 인터페이스 외관 맞춤 설정은 어떤 특징이 있나요?\nA4: 클로드는 다양한 글꼴 옵션을 제공하며, 전반적인 색상 조합과 디자인이 사용자 친화적이고 시각적으로 편안함을 줍니다. ChatGPT에 비해 더 개인화된 작업 환경을 만들 수 있습니다.\n \n결론적으로, ChatGPT가 여전히 강력한 AI 도구인 것은 분명합니다. 하지만 제가 직접 경험해본 결과, 초기 아이디어 자동 생성, 가독성 높은 답변, 풍부한 글쓰기 맞춤 설정, 사용자 친화적인 인터페이스, 그리고 개발자를 위한 깃허브 통합과 편리한 채팅 관리 기능까지, 클로드가 여러 면에서 ChatGPT를 능가하는 '숨겨진 보석'이라는 생각이 듭니다. 특히 AI를 활용해 새로운 아이디어를 얻거나, 복잡한 정보를 깔끔하게 정리하고 싶은 분들에게 클로드는 정말 매력적인 대안이 될 수 있을 거예요. 여러분도 이 똑똑한 AI 대안을 직접 경험해보시고, 여러분의 작업 방식을 한 단계 업그레이드해보시는 건 어떨까요? 분명 후회하지 않으실 겁니다!",
@@ -139,6 +104,21 @@
     ]
   },
   {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Announcing Proxy 4: The Next Leap in C++ Polymorphism",
+    "description": "Version 4 of Microsoft's Proxy library brings feature improvements, better diagnostics, better code generation, modern compiler/debugger support.\nThe post Announcing Proxy 4: The Next Leap in C++ Polymorphism appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/announcing-proxy-4-the-next-leap-in-c-polymorphism/",
+    "pubDate": "Tue, 19 Aug 2025 16:35:10 +0000",
+    "creator": "Mingxin Wang",
+    "categories": [
+      "Announcement",
+      "C++"
+    ]
+  },
+  {
     "id": 8,
     "imageUrl": "",
     "title": "Coding 기반 애니메이션 생성 방법",
@@ -153,97 +133,37 @@
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Introducing Next Edit Suggestions in JetBrains AI Assistant",
-    "description": "With the latest release of JetBrains AI Assistant, we’ve introduced a long-awaited feature – next edit suggestions. These new suggestions are now available in Beta across JetBrains IDEs for Java, Kotlin, and Python. Next edit suggestions offer intelligent recommendations for edits across your entire file – not just the next line of code. The new feature […]",
+    "title": "The State of Python 2025",
+    "description": "This is a guest post from Michael Kennedy, the founder of Talk Python and a PSF Fellow. Welcome to the highlights, trends, and key actions from the eighth annual Python Developers Survey. This survey is conducted as a collaborative effort between the Python Software Foundation and JetBrains’ PyCharm team. My name is Michael Kennedy, and […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/08/introducing-next-edit-suggestions-in-jetbrains-ai-assistant/",
-    "pubDate": "Mon, 18 Aug 2025 16:14:18 +0000",
-    "creator": "Anton Semenkin",
+    "link": "https://blog.jetbrains.com/pycharm/2025/08/the-state-of-python-2025/",
+    "pubDate": "Mon, 18 Aug 2025 11:42:07 +0000",
+    "creator": "Evgenia Verbina",
     "categories": [
-      "news",
-      "ai-assistant",
-      "ai-in-ides"
+      "data-science",
+      "web-development",
+      "python",
+      "survey",
+      "trends"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "[MULTI] 시즌 위한 육성인가 육성 위한 시즌인가, 사카츠쿠 2025",
-    "description": "No description available",
+    "title": "신기한 컴퓨터 아이오프너 / 피자 키를 누르면 피자가 주문된다. / i-Opener 아이오프너",
+    "description": "아이오프너는 90년대 후반 나온 컴퓨터 입니다.\nIT 버블 전에 나왔으시 신기한 물건이겠죠\n \n키보드에 피자 키가 있다고 합니다. ㄷㄷ\n누르면 피자가 주문된다는군요.\n \n영상: https://www.youtube.com/watch?v=IxpbNF8_bCM\n\n\n\n \n이 제품은 99 달러에 저렴하게 팔고\n인터넷통신비를 받아서 수익을 내려고 했습니다.\n전용 인터넷을 써야 동작하도록 만들긴했지만 ... 양덕들이 그만\n \n하지만 제품을 뜯어본 사람들이 개조해서 일반 컴퓨터 처럼 쓰기 시작함에 따라\n손해가 나버린 비운의 컴퓨터 입니다.\n \n전용 인터넷을 사용해주지않으면 당연히 사업이 정상적으로 운영될 수 없었기 때문에\n망해서 사라져 버렸습니다.\n안타깝군요\n \n \n \n \n아이오프너 실기 영상: https://www.youtube.com/watch?v=gvlCM9bnhMo",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2347",
-    "pubDate": "Tue, 19 Aug 2025 00:00:16 +0900",
-    "creator": "(RULIWEB`Д')/",
+    "link": "http://serverdown.tistory.com/1380",
+    "pubDate": "Sun, 24 Aug 2025 18:22:40 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "프리뷰"
+      "유튜브"
     ]
   },
   {
     "id": 11,
-    "imageUrl": "",
-    "title": "고객 서비스는 왜 좋아질 수 없을까?",
-    "description": "얼마 전에 열흘 정도 미국에 다녀왔다. 나는 미국 출장을 가면 동부로 들어가서 서부로 나오거나, 반대로 서부로 들어가서 동부로 나오는데, 미국은 워낙 큰 나라라서 이동하는 게 참 어렵다. 이번에도 미국 내에서만 방문한 곳이 꽤 많고, 땅덩어리가 커서 직행 비행기 노선이 없는 곳도 많아서 미국 내에서만 비행기를 8번 탔다. 이전에는 다양한 항공사를 이용했지만, 대한항공과 제휴되기도 하고 그나마(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/08/why-does-customer-service-always-have-to-suck.html",
-    "pubDate": "Sun, 17 Aug 2025 21:26:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "general"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Dependabot support for vcpkg",
-    "description": "We are excited to announce that GitHub’s Dependabot now brings automated dependency updates to C++ projects using vcpkg. This support is available for projects using vcpkg manifest files, empowering teams to keep their library dependencies current and secure with minimal effort. With Dependabot, your repo can receive automatic pull requests to upgrade your libraries to […]\nThe post Dependabot support for vcpkg appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/dependabot-support-for-vcpkg/",
-    "pubDate": "Mon, 18 Aug 2025 18:30:16 +0000",
-    "creator": "Jamie Magee",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "dependabot",
-      "GitHub",
-      "vcpkg"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Using SQL and databases in JetBrains IDEs",
-    "description": "Check out our recent livestream from August 14 on How to Work With SQL and Databases in JetBrains IDEs. In this demo session, we showed how to write SQL queries and work with databases in any JetBrains IDE and explored a range of use cases for embedded database functionality, from simple queries to more advanced […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/datagrip/2025/08/18/using-sql-and-databases-in-jetbrains-ides/",
-    "pubDate": "Mon, 18 Aug 2025 14:21:34 +0000",
-    "creator": "Stanislav Garkusha",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "망하는 도시에 모여든다. / 탕핑족의 밝은 미래 / 은퇴사연",
-    "description": "영상: https://www.youtube.com/watch?v=JsMQvfApluk\n\n\n\n \n탕핑족이란\n누워있는 사람이라는 뜻으로 중국 공산당의 영향을 벗어나기위해 아무것도 하지 않는 사람을 의미합니다.\n중국 공산당은 무슨일을하든 온갖명목의 세금과 벌금으로 뜻어가기 때문에 사화활동을 아예 안해버리는 방법을 씁니다.\n만약 활동을 한다해도 최소금액만 사용하고 고 나중을위해 모읍니다.+\n \n중국의 부동산 몰락\n중국은 코로나이후 최악의 부동산 침체를 겪고 있습니다.\n그러다보니 일부지역의 아파트 가격은 -90% 까지도 내려갔다고 합니다.\n중국의 망한도시중에 관광지는 새로운 시장이 형성되고 있다고 합니다.\n쫄딱 망해서 월세를 포함해 모든 물가가 떡락하다보니 탕핑 족들이 이곳으로 모이고 있다고 합니다.\n월 50만원 이하로 생활한다고 합니다.\n \n부동산 소유자들에게는 나쁜일이겠지만\n물가가 낮아짐에 따라 사람이 모여들고 저렴한 생활이 가능하다고 합니다.\n그러다보니 시장도 돌아가고 도시가 정상적으로 돌아가게 되었다는\n훈훈한 이야기 였습니다.\n \n \n어느곳이나 바닥을 치면 좋아지기 마련이거 같습니다..",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1378",
-    "pubDate": "Sat, 23 Aug 2025 18:09:12 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "은퇴",
-      "중국",
-      "탕핑족"
-    ]
-  },
-  {
-    "id": 15,
     "imageUrl": "",
     "title": "케이팝 문화는 아타리 쇼크 처럼 될 가능성이 있다.",
     "description": "영상: https://www.youtube.com/watch?v=LyQ5hhm90B4\n\n\n\n \n \n내용 중에 아타리쇼크가 나옵니다.\n무슨 이야기냐하면\n돈이되는걸 알게 되면 미디어가 어마어마한 양이 양산이 되는데\n그러면 돈만 먹으려고 떨어지는 퀄리티로 양상이 되며 나중에 버린다는 것입니다.\n \n헐리우드에 중국 자본이 들어갈때도 영화에 역활이 엉성한 중국 배우가 나오면서\n퀀리티가 떨어지는 현상이 있었는데 그런식인거 같습니다.\n \n꼭 그렇게 된다기 보다는 잘못되기 시작한다면\n이 문제로 잘못될 가능성이 있다고 보시면됩니다.\n \n10년후에나 있을일일 수도 있으니\n주의해야합니다.",
@@ -255,5 +175,55 @@
     "categories": [
       "유튜브"
     ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "소비쿠폰 8월 안에 다 쓰면 최대 5만 원 쿠폰 받을 수 있어요.",
+    "description": "따로 신청하지 않아도 자동으로 응모돼요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-policies-48",
+    "pubDate": "Fri, 22 Aug 2025 01:09:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Union + 비트필드 와 비트연산 플래그",
+    "description": "게임을 만들다보면 속성 값을 주기 위해 flag를 사용할때가 많다. e.g : IsGame Type PackedType 이때 메모리 사용을 줄이기 위해 조건에 따라 32비트 정수에 넣고 이를 shift해서 사용한다 (많은 경우 이와 같음, 나도그랬고) 이러한 경우 addflag 하거나 remove flag 할때 bit 연산을 해야한다. 이를 비트연산 플래그라고 한다. 아래와 같은 특징이 있는데 한 변수(unsigned int)안의 비트 단위로 여러 상태를 저장하며 메모리 효율적이고, 조합 가능 (여러 플래그를 동시에 켤 수 있음). 단점은 코드에서 FLAG_XXX 같은 상수 없이는 의미를 파악하기 어렵다. ( 매크로 매번 만들어줘야함) 또한 union과 비트필드를 활용해서도 사용할 수 있는.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/sorkelf/223974285915?fromRss=true&trackingCode=rss",
+    "pubDate": "Mon, 18 Aug 2025 13:32:43 +0900",
+    "creator": "sorkelf",
+    "categories": [
+      "C/C++"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "'국민 명함앱' 리멤버 5,000억대 M&amp;A&nbsp; - 왜 지금, 왜 이 가격인가?",
+    "description": "1. 딜 한눈에 보기(Deal snapshot)  거래 구조 : 글로벌 PEF EQT가 기존 최대주주 아크앤파트너스(Ark & Partners)의 경영권 지분(약 47%)을 인수하는 SPA 체결. 지분 100% 기준 기업가치 ‘5,000억대 중반’ 평가. 타 주요 주주(라인플러스, 사람인HR) 지분 협의 병행. 성과 트랙 : 아크는 2021년 말 약 1,0",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/309",
+    "pubDate": "Thu, 21 Aug 2025 03:00:10 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "의미에 맞는 href 사용",
+    "description": "링크에 onclick 핸들러를 달 때 href에 #을 많이 사용하는데 특이하게 http://를 사용한 경우를 봤다. 딱히 신경쓰지 않고 있었는데 이로 인한 버그가 리포팅됐다.\n\r\n\r\n 사파리는 링크를 롱탭해서 프리뷰를 볼 수 있는데 http://로 href 값을 정하면 프리뷰에서 오류가 발생한다. 이 외에도 새탭을 연다든가 북마크로 저장을 한다든가 할 때도 오류가 발생할 것이다.\n\r\n\r\nhref 값이 필요 없는 경우에는 <button> 요소를 사용하도록 하자. HTML의 의미가 왜 중요한지 말해주는 또 하나의 사례라고 할 수 있겠다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hyeonseok.com/blog/942",
+    "pubDate": "Sun, 24 Aug 2025 15:39:59 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
