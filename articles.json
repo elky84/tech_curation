@@ -2,75 +2,92 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "의미에 맞는 href 사용",
-    "description": "링크에 onclick 핸들러를 달 때 href에 #을 많이 사용하는데 특이하게 http://를 사용한 경우를 봤다. 딱히 신경쓰지 않고 있었는데 이로 인한 버그가 리포팅됐다.\n\r\n\r\n 사파리는 링크를 롱탭해서 프리뷰를 볼 수 있는데 http://로 href 값을 정하면 프리뷰에서 오류가 발생한다. 이 외에도 새탭을 연다든가 북마크로 저장을 한다든가 할 때도 오류가 발생할 것이다.\n\r\n\r\nhref 값이 필요 없는 경우에는 <button> 요소를 사용하도록 하자. HTML의 의미가 왜 중요한지 말해주는 또 하나의 사례라고 할 수 있겠다.",
+    "title": "'국민 명함앱' 리멤버 5,000억대 M&amp;A&nbsp; - 왜 지금, 왜 이 가격인가?",
+    "description": "1. 딜 한눈에 보기(Deal snapshot)  거래 구조 : 글로벌 PEF EQT가 기존 최대주주 아크앤파트너스(Ark & Partners)의 경영권 지분(약 47%)을 인수하는 SPA 체결. 지분 100% 기준 기업가치 ‘5,000억대 중반’ 평가. 타 주요 주주(라인플러스, 사람인HR) 지분 협의 병행. 성과 트랙 : 아크는 2021년 말 약 1,0",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hyeonseok.com/blog/942",
-    "pubDate": "Sun, 24 Aug 2025 15:39:59 GMT",
-    "creator": "Unknown",
+    "link": "https://brunch.co.kr/@@LOc/309",
+    "pubDate": "Thu, 21 Aug 2025 03:00:10 GMT",
+    "creator": "고명환",
     "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "nano-banana  테스트 후기",
-    "description": "​ 강의 만들어야 하지만 집중도 안되고 해서 몇 일 째 nano-banana 갖고 노는 중이다. 내 게임 캐릭터와 피규어의 이미지를 소스로 이런 저런 시도들을 해보고 있는데 나름 괜찮게 뽑히는 경우도 있음. 근데 한방에 간단하게 나오는 경우는 없고, 짧은 시간 안에 원하는 결과물이 나와도 워낙 저해상도라서 후작업에 엄청 시간이 많이 들어갔다. ​ 현재 nano-banana을 직접 사용할 수 … More nano-banana  테스트 후기",
+    "title": "How Kotlin Notebook Helps You Teach Programming",
+    "description": "Kotlin Notebook is a great tool for educators who want to teach programming in a more hands-on way. It lets you combine runnable code, Markdown textual explanations, and visualizations in one interactive environment. There’s no need to switch between multiple windows with slides, live demos, and IDEs during lectures. You can use a single notebook […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://megayuchi.com/2025/08/21/7152/",
-    "pubDate": "Thu, 21 Aug 2025 08:20:02 +0000",
-    "creator": "megayuchi",
+    "link": "https://blog.jetbrains.com/kotlin/2025/08/how-kotlin-notebook-helps-teach-programming/",
+    "pubDate": "Tue, 26 Aug 2025 19:21:30 +0000",
+    "creator": "Ksenia Shneyveys",
     "categories": [
-      "IT",
-      "Pub",
-      "ai",
-      "nano-banana"
+      "news",
+      "education",
+      "education-research",
+      "kotlin-notebook"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Bring Your Own Model to Chat in Visual Studio",
-    "description": "We’re excited to announce that you can now bring your own language model into Visual Studio Chat. You can connect API keys from providers (OpenAI, Anthropic, and Google) to access a wider range of models. This makes it easy to test the latest releases, customize workflows, or run on infrastructure you control. What it unlocks […]\nThe post Bring Your Own Model to Chat in Visual Studio appeared first on Visual Studio Blog.",
+    "title": "케이팝 문화는 아타리 쇼크 처럼 될 가능성이 있다.",
+    "description": "영상: https://www.youtube.com/watch?v=LyQ5hhm90B4\n\n\n\n \n \n내용 중에 아타리쇼크가 나옵니다.\n무슨 이야기냐하면\n돈이되는걸 알게 되면 미디어가 어마어마한 양이 양산이 되는데\n그러면 돈만 먹으려고 떨어지는 퀄리티로 양상이 되며 나중에 버린다는 것입니다.\n \n헐리우드에 중국 자본이 들어갈때도 영화에 역활이 엉성한 중국 배우가 나오면서\n퀀리티가 떨어지는 현상이 있었는데 그런식인거 같습니다.\n \n꼭 그렇게 된다기 보다는 잘못되기 시작한다면\n이 문제로 잘못될 가능성이 있다고 보시면됩니다.\n \n10년후에나 있을일일 수도 있으니\n주의해야합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/bring-your-own-model-visual-studio-chat/",
-    "pubDate": "Wed, 20 Aug 2025 15:40:20 +0000",
-    "creator": "Rhea Patel, Samruddhi Khandale",
+    "link": "http://serverdown.tistory.com/1377",
+    "pubDate": "Fri, 22 Aug 2025 20:43:52 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Copilot",
-      "Anthropic",
-      "Artificial Intelligence",
-      "BYOK",
-      "Claude",
-      "Gemini",
-      "Google",
-      "GPT",
-      "Key",
-      "Models",
-      "OpenAI",
-      "Visual Studio"
+      "유튜브"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Better Control over Your Copilot Code Suggestions",
-    "description": "Copilot code completions and suggestions in the editor speed you up in your daily programming and coding activities, at every keystroke. They help you finish the line you’re typing or anticipate your next edit, making your workflow smoother and faster. At the same time, editor is where you focus and put in the deep work. […]\nThe post Better Control over Your Copilot Code Suggestions appeared first on Visual Studio Blog.",
+    "title": "게임 양산으로 대박이난 인디개발사 / 아울캐미 랩스 Owlchemy Labs",
+    "description": "영상: https://www.youtube.com/watch?v=VDFBVXhHYwc\n\n\n\n \n똥게임들에 환멸을 느껴 게임을 자동으로 만들고\n배포하는 프로그램을 만들어 어마어마한 양의 게임을 출시한 이팀은 ...\n성공했습니다.\n그들의 성공스토리를 배워봅시다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/better-control-over-your-copilot-code-suggestions/",
-    "pubDate": "Thu, 21 Aug 2025 16:00:37 +0000",
-    "creator": "Simona Liao",
+    "link": "http://serverdown.tistory.com/1382",
+    "pubDate": "Mon, 25 Aug 2025 17:41:35 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "GitHub Copilot",
-      "Visual Studio",
-      "Visual Studio 2022"
+      "유튜브",
+      "인디게임"
     ]
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "[MULTI] 게임스컴 2025, 공식 방송 및 관련 기사 종합",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2349",
+    "pubDate": "Mon, 25 Aug 2025 08:19:51 +0900",
+    "creator": "샤말란의눈",
+    "categories": [
+      "특집"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "카지노에서 왠 파판 브금이 ...",
+    "description": "영상: https://www.youtube.com/watch?v=J2ZGFyysmLQ\n\n\n\n4:44 에 나옵니다.\n파판x 브금 같군요\n세기말 분위기 나는군욥",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1381",
+    "pubDate": "Mon, 25 Aug 2025 12:33:09 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "카지노"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "The Visual Studio August Update is here – smarter AI, better debugging, and more control",
     "description": "The August 2025 update for Visual Studio 2022 (v17.14) is now available, and it’s all about helping developers stay focused, productive, and in control. Whether you’re building games, tuning performance, or exploring AI, this release brings meaningful improvements that make everyday development smoother and smarter. GPT-5 support now available We’re excited to announce that GPT-5 […]\nThe post The Visual Studio August Update is here – smarter AI, better debugging, and more control appeared first on Visual Studio Blog.",
@@ -94,72 +111,87 @@
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "엄격한 사랑",
-    "description": "American Idol을 시작으로 수많은 원조 오디션 프로그램의 프로듀서이자 전세계에서 가장 뛰어난 음악 사업가 중 한 명인 사이먼 코웰의 팟캐스트를 얼마 전에 참 재미있게 들었다. 요샌 그나마 나아진 것 같은데, 이분이 몇 년 전 오디션 프로그램에서 참가자 평가하는 것을 본 분이라면 듣는 사람이 민망하고 미안할 정도로 차갑고 독하다는 것을 모두 다 인정할 것이다. 나도 빙빙 돌려(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/08/tough-love.html",
-    "pubDate": "Wed, 20 Aug 2025 21:23:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "entertainment",
-      "failure",
-      "FoundersAtWork",
-      "media",
-      "Strong",
-      "vc"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "클로드(Claude)가 내 이메일 습관을 바꾼 방법: 놀랍도록 쉬운 AI 활용법",
-    "description": "매일 쏟아지는 이메일 홍수 속에서 중요한 내용을 놓치진 않으셨나요? 오늘은 AI 비서 클로드(Claude)가 어떻게 제 이메일 습관을 완전히 바꿔 놓았는지, 그리고 이메일 과부하에서 벗어나 더 효율적인 업무 생활을 시작할 수 있게 도와주었는지 솔직한 후기를 들려드릴게요. 생각보다 훨씬 쉽고 강력한 경험에 깜짝 놀라실 거예요!\n  클로드, 이메일을 '읽고' '이해하다'니!\n\n\n \n 솔직히 고백하자면, 저는 제 이메일함을 한동안 거의 포기 상태로 방치하고 있었어요. 중요한 메일과 광고 메일이 뒤섞여 있어 일일이 확인하는 게 너무 번거로웠거든요. 그러다 문득, 클로드(Claude)의 커넥터(Connectors) 기능에 대한 소식을 듣게 되었죠. 과연 이 AI 챗봇이 제 혼돈의 이메일함을 정리해 줄 수 있을까, 반신반의하면서도 한번 시도해 보기로 했어요. 결과는… 기대 이상이었습니다.\n\n클로드의 커넥터 기능은 단순히 채팅 인터페이스를 넘어, AI를 다양한 외부 서비스와 연결해주는 생산성 허브로 변모시켰어요. 이메일, 캘린더 앱부터 결제 프로세서, 심지어 디자인 툴까지 수십 가지 서비스와 연결할 수 있더라고요. 물론, 이 멋진 기능은 유료 클로드 플랜(Max, Team, Enterprise, Pro) 사용자에게만 제공됩니다. 무료 티어에서는 대부분의 커넥터에 접근할 수 없다는 점은 참고하셔야 할 것 같아요.\n  Gmail 연동, 생각보다 너무 쉬웠어요!\n저는 처음에 API 설정 같은 복잡한 과정을 예상했어요. 그런데 막상 해보니, 웬걸? 채 1분도 걸리지 않아 Gmail 연동이 완료되더라고요. 아래 간단한 절차를 따라 했더니 금세 끝났습니다.\n\n\n\n\n  Gmail과 클로드 연결 방법:\n\n클로드에 접속해 좌측 하단의 '설정(Settings)'으로 이동합니다.\n메뉴 옵션에서 '커넥터(Connectors)'를 클릭합니다.\n아래로 스크롤하여 '커넥터 찾아보기(Browse Connectors)'를 선택합니다.\n목록에서 'Gmail'을 찾아 '+' 버튼을 클릭합니다.\n'계속(Continue)'을 클릭하고 클로드에게 Gmail 계정 접근 권한을 부여합니다.\nGoogle 인증 시스템의 메시지에 따라 필요한 권한을 승인합니다.\n기술적인 부분에서는 OAuth 2.0을 사용해서 인증하더라고요. 클로드는 제 비밀번호를 저장하지 않고, 언제든지 Google 계정 설정을 통해 철회할 수 있는 임시 액세스 토큰을 얻는 방식이었어요. 개인 정보 보호에 신경 썼다는 점에서 안심이 되었습니다.\n\n정말 놀라웠던 점은 클로드가 단순히 텍스트를 읽는 것을 넘어 이메일의 문맥을 이해하는 능력이었어요. 대화 스레드를 인식하고, 후속 조치 패턴을 파악하며, 홍보성 이메일과 정말 중요한 메시지를 구별해내는 모습은 정말 인상 깊었습니다.\n다른 구글 서비스와의 연동도 유용했습니다. 구글 드라이브에서 문서 변경 사항을 요약해주는 것처럼, 클로드는 이메일과 캘린더 약속을 교차 참조하여 커뮤니케이션의 전체 맥락을 파악해주더군요. 업무용 앱과 연결하니 그 유용성이 더욱 빛을 발했어요. Gmail, Google 캘린더, Asana 사이를 오갈 필요 없이 클로드 인터페이스 하나로 모든 것을 처리할 수 있었죠.\n✨ 놀라울 만큼 똑똑한 클로드의 이메일 요약 기능\n클로드를 Gmail에 연결하고 나서, 저는 실제 상황에서 그 요약 기능을 시험해보기로 했어요. 솔직히 다른 AI 도구들이 종종 중요한 세부 사항을 놓치는 일반적인 요약을 제공하는 경우가 많아서 큰 기대를 하지는 않았습니다. 하지만 클로드는 저의 예상을 완전히 뒤엎었습니다.\n\n클로드의 이메일 요약은 단순한 텍스트 추출을 넘어섭니다. 문맥을 이해하고, 메시지 간의 관계를 파악하며, 정보성 내용과 조치가 필요한 내용을 정확히 구분하더라고요. 이건 정말 '똑똑하다'는 표현이 딱 맞는 것 같아요.\n\n저는 몇 가지 프롬프트로 클로드를 테스트해보았어요. 예를 들어, 이렇게 물어봤죠. \"이번 주에 제가 답장해야 할 이메일은 뭐가 있을까요?\" 그러자 클로드는 놀랍게도, 당장 조치가 필요한 클라이언트 문의 메일 2개를 정확히 식별해냈습니다. 반면, 제가 원했던 대로 홍보성 콘텐츠나 영수증, 뉴스레터, 자동 보안 알림 등은 완벽하게 걸러냈어요.\n\n\n\n\n조금 더 광범위한 질문도 해봤습니다. \"지난 3일간 받은 이메일 중 주요 안건이 뭔가요?\" 클로드는 다음과 같이 깔끔하게 정리해주더군요.\n신규 프로젝트 진행 상황 업데이트\n주요 협력사와의 미팅 및 계약 관련 내용\n내부 시스템 개선을 위한 팀원 의견 수렴\n제가 일일이 메시지를 스크롤하며 패턴을 찾으려 애썼던 것보다 훨씬 더 유용했어요. 정말 시간을 엄청나게 절약할 수 있었죠.\n\n그리고 가장 중요한 테스트는 이거였어요. \"혹시 지난 한 달간 제가 놓쳤을 만한 중요한 이메일이 있을까요?\" 이 질문에 클로드는 제가 미처 확인하지 못했던 한 협업 제안 메일과 중요한 청구서 마감일 알림 메일을 찾아내 플래그를 달아주었어요. 만약 클로드가 아니었다면 큰 문제로 이어질 뻔한 상황이었죠. 단순히 읽는 것을 넘어, 마치 비서처럼 중요한 내용을 짚어주는 기능에 정말 감탄했습니다.\n\n특히 길고 복잡한 이메일 스레드를 요약해달라고 요청했을 때도 빛을 발했어요. 예를 들어, 프로젝트 지연에 대한 장황한 논의가 담긴 메일 스레드에서 클로드는 핵심 결정 사항과 다음 조치 항목만 정확히 추출해내고, 불필요한 논의는 깔끔하게 무시했습니다. 이게 바로 '해석'이죠, 단순한 정보 나열이 아니라요!\n  그렇지만 알아둬야 할 몇 가지 한계점\n클로드의 이메일 통합 기능은 전반적으로 매우 만족스러웠지만, 완벽하지는 않았습니다. 몇 가지 알아두어야 할 점들이 있어요.\n⚠️ 클로드 이메일 통합의 한계:\n\n클로드는 이메일을 읽고 분석만 할 뿐, 직접 보내거나 예약할 수는 없습니다. (아직까지는요!)\n이메일에 삽입된 이미지는 현재 인식하지 못합니다. 텍스트 기반 정보만 처리 가능해요.\n가장 눈에 띄는 것은 속도입니다. 간단한 요청은 빠르지만, 상세한 분석이나 방대한 양의 메일을 처리할 때는 조금 느리게 느껴질 수 있어요.\n개인 정보 보호 문제도 고려해야 합니다. Anthropic은 데이터를 학습에 사용하지 않는다고 명시했지만, 이메일이 AI에 의해 처리된다는 점은 인지하고 있어야겠죠.\n복잡한 형식의 이메일, 특히 디자인이 복잡한 마케팅 이메일은 문맥을 파악하는 데 어려움을 겪을 수 있습니다.\n프롬프트 작성 능력이 중요해요. 모호한 요청은 일반적인 결과를 낳고, 구체적인 요청은 훨씬 더 나은 통찰력을 제공합니다.\n하지만 제 경험상, 클로드가 이메일 관리에서 절약해주는 시간은 가끔 발생하는 속도 저하나 형식 관련 문제점보다 훨씬 더 가치가 있었습니다. 만약 여러분도 이메일 과부하로 고통받고 있다면, 클로드는 분명 '인박스 제로(Inbox Zero)'를 달성하는 데 큰 도움을 줄 수 있을 거예요. 다만, 여러분의 판단과 검토를 완전히 대체하기보다는 강력한 이메일 비서로 활용하는 것이 가장 현명하다고 생각합니다.\n \n핵심 요약\n✨ 첫 번째 핵심: 클로드 커넥터로 Gmail을 손쉽게 연결, 단 1분 만에 AI 이메일 비서 설정 완료!\n  두 번째 핵심: 클로드는 이메일의 문맥을 이해하고, 중요한 내용과 불필요한 광고를 정확히 구분하여 요약합니다.\n  세 번째 핵심: \"놓쳤을 중요한 메일\"을 찾아주어 업무 효율을 극대화하고, 위기 상황을 사전에 방지합니다.\n ‍  네 번째 핵심: 일부 한계점(송신 불가, 이미지 미인식 등)이 있지만, 이메일 과부하 해결에 탁월한 보조 도구입니다.\n클로드 유료 플랜 사용자라면 지금 바로 이메일 지옥에서 탈출할 기회! 여러분의 생산성을 한 단계 업그레이드해보세요.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 클로드의 이메일 요약 기능은 무료로 사용할 수 있나요?\nA1: 아쉽게도 클로드의 커넥터 기능은 유료 플랜(Max, Team, Enterprise, Pro)에서만 제공됩니다. 이메일 연동 및 요약 기능을 사용하시려면 유료 구독이 필요합니다.\nQ2: 클로드가 제 이메일 내용을 학습에 사용하나요?\nA2: Anthropic은 클로드가 커넥터를 통해 처리하는 사용자 데이터를 모델 학습에 사용하지 않는다고 밝히고 있습니다. 개인 정보 보호 정책을 준수하며, 사용자는 언제든지 Gmail 접근 권한을 철회할 수 있습니다.\nQ3: 클로드가 이메일에서 놓치는 정보는 없나요?\nA3: 클로드는 이메일의 문맥을 깊이 이해하고 중요한 내용을 잘 요약하지만, 몇 가지 한계점이 있습니다. 예를 들어, 이메일에 삽입된 이미지는 현재 인식하지 못하며, 매우 복잡한 형식의 마케팅 이메일은 문맥 파악에 어려움을 겪을 수 있습니다. 또한, 사용자 판단을 완전히 대체하기보다는 보조 도구로 활용하는 것이 좋습니다.\n이메일 과부하로 지쳐있던 저에게 클로드의 이메일 통합 기능은 정말이지 한 줄기 빛과 같았어요. 이메일 관리에 들이던 시간을 절약하고, 더 중요한 일에 집중할 수 있게 된 거죠. 여러분도 이메일 스트레스에서 벗어나 생산성을 높이고 싶다면, 클로드를 활용한 스마트한 이메일 관리에 도전해보시는 건 어떨까요? 분명 후회하지 않으실 거예요!",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483646",
-    "pubDate": "Mon, 25 Aug 2025 10:22:21 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "ai 생산성 도구",
-      "AI 이메일 관리",
-      "anthropic claude",
-      "스마트 이메일 비서",
-      "이메일 과부하 해결",
-      "이메일 자동 분류",
-      "지메일 AI 통합",
-      "클로드 사용 후기",
-      "클로드 이메일 요약",
-      "클로드 커넥터"
-    ]
-  },
-  {
     "id": 8,
     "imageUrl": "",
-    "title": "크롬 흰색창 혹은 흰색스크린 오류",
-    "description": "윈도 업데이트 후 크롬 브라우저가 온통 하얀색으로 나왔다. 해당 증상은 ANGLE graphics backend를 OpenGL을 사용하면서 그래픽 가속을 켜놓은 경우에만 발생하는 것으로 보인다. 따라서 ANGLE graphics backend 설정을 Default로 재설정해주면 해결할 수 있다. 아래는 ANGLE 설정을 재설정하는 방법이다.\n \n1. 크롬의 흰색창 증상\n증상은 아래처럼 Chrome browser 실행시 그냥 하얀 화면, 흰색창으로 나타나는 경우이다. 진짜 아무것도 보이지 않는다.\nChrome white screen\n\n\n \n2. 해결 방법\n먼저 어떻게 해서든지 크롬 화면이 나오도록 실행해야 하는데, 이는 그래픽 가속을 끄는 옵션을 사용하면 된다. 먼저 실행된 크롬 브라우저를 종료한다. 대충 흰색 창의 우측 상단 X 마크가 있을 법한 위치를 눌러서 크롬을 닫는다. 혹은 창 선택 후 Alt+F4로 닫아도 된다.\n크롬이 닫힌 뒤에 Powershell을 하나 실행시킨다. 실행은 \"윈도우 + R\"키를 눌러서 나온 실행 창에서 powershell이라고 치면 된다. Powershell 에서 크롬이 설치된 디렉토리로 이동하는데, 경로는 보통 \"C:\\Program Files\\Google\\Chrome\\Application\" 이다. 아래처럼 cd (change directory) 명령을 사용하면 된다. 오타를 낼 것 같다면 Tab키를 사용해서 자동완성으로 디렉토리를 찾아가면 편리하다.\ncd \"C:\\Program Files\\Google\\Chrome\\Application\"\n이제 해당 디렉토리에서 crhome.exe --disable-gpu 명령으로 크롬을 실행한다. 아래는 powershell에서 명령하는 모습을 캡쳐한 그림 파일이다.\nChome disable gpu option\n\n\n이렇게 하면 이제 크롬 화면이 보일 것이다. 임시로 띄운 것이므로 여기서 설정을 손봐야 한다. 먼저 주소창에서 chrome://flags를 실행한다. 그리고 주소창 아래의 돋보기 검색창에 ANGLE을 타이핑하면 Choose ANGLE graphics backend가 보일 것이다. 이 값이 Default가 아닌 OpenGL 같은 다른 값으로 되어있을 것이다.\nchrome flags - Choose ANGLE graphics backend - OpenGL\n\n\n이제 default로 값을 변경한 뒤에 크롬창 우측 하단에 재시작을 눌러주면 재시작 되면서 제대로 작동 될 것이다.\nchrome flags - Choose ANGLE graphics backend - Default\n\n\n만일 이렇게 설정 한뒤에도 계속 흰색창 화면이 나온다면 앞의  crhome.exe --disable-gpu 로 실행한 뒤에 \"설정\"에서 \"시스템\"의 \"가능한 경우 그래픽 가속 사용\"을 꺼두는 방법 밖에 없다.\n크롬 - 설정 - 시스템 - 가능한 경우 그래픽 가속 사용\n\n\n현재 문제가 발생한 이유는 OpenGL관련 부분이나 DirectX 부분을 업데이트하면서 뭔가 꼬인 것이 아닐까 하는 의심이 든다.\n \n \n히스토리\n2025.08.24 처음 글 씀",
+    "title": "Better Control over Your Copilot Code Suggestions",
+    "description": "Copilot code completions and suggestions in the editor speed you up in your daily programming and coding activities, at every keystroke. They help you finish the line you’re typing or anticipate your next edit, making your workflow smoother and faster. At the same time, editor is where you focus and put in the deep work. […]\nThe post Better Control over Your Copilot Code Suggestions appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://sunyzero.tistory.com/318",
-    "pubDate": "Sun, 24 Aug 2025 22:05:21 +0900",
-    "creator": "sunyzero",
+    "link": "https://devblogs.microsoft.com/visualstudio/better-control-over-your-copilot-code-suggestions/",
+    "pubDate": "Thu, 21 Aug 2025 16:00:37 +0000",
+    "creator": "Simona Liao",
     "categories": [
-      "컴퓨터 관련/윈도 패밀리",
-      "Chrome disable GPU",
-      "chrome OpenGL",
-      "Chrome white screen window",
-      "Chrome 그래픽 가속",
-      "가능한 경우 그래픽 가속 사용 문제",
-      "크롬 흰색스크린 문제",
-      "크롬 흰색창 문제"
+      "GitHub Copilot",
+      "Visual Studio",
+      "Visual Studio 2022"
     ]
   },
   {
     "id": 9,
+    "imageUrl": "",
+    "title": "신기한 컴퓨터 아이오프너 / 피자 키를 누르면 피자가 주문된다. / i-Opener 아이오프너",
+    "description": "아이오프너는 90년대 후반 나온 컴퓨터 입니다.\nIT 버블 전에 나왔으시 신기한 물건이겠죠\n \n키보드에 피자 키가 있다고 합니다. ㄷㄷ\n누르면 피자가 주문된다는군요.\n \n영상: https://www.youtube.com/watch?v=IxpbNF8_bCM\n\n\n\n \n이 제품은 99 달러에 저렴하게 팔고\n인터넷통신비를 받아서 수익을 내려고 했습니다.\n전용 인터넷을 써야 동작하도록 만들긴했지만 ... 양덕들이 그만\n \n하지만 제품을 뜯어본 사람들이 개조해서 일반 컴퓨터 처럼 쓰기 시작함에 따라\n손해가 나버린 비운의 컴퓨터 입니다.\n \n전용 인터넷을 사용해주지않으면 당연히 사업이 정상적으로 운영될 수 없었기 때문에\n망해서 사라져 버렸습니다.\n안타깝군요\n \n \n \n \n아이오프너 실기 영상: https://www.youtube.com/watch?v=gvlCM9bnhMo",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1380",
+    "pubDate": "Sun, 24 Aug 2025 18:22:40 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "코드 품질 개선 기법 18편: 함수만 보고 관계는 보지 못한다",
+    "description": "이 글은 2024년 3월 21일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-18",
+    "pubDate": "Wed, 27 Aug 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "내가 가본 우리나라 앱 개발 뒷 이야기",
+    "description": "며칠 전 공개했던 내가 가본 우리나라 웹사이트를 앱으로도 만들어봤습니다.\n안드로이드, 아이폰 그리고 맥 앱까지. (맥은 아직 심사 중이에요)\n간단한 아이디어였고 제가 쓰고 싶은 마음에 만들기도 했지만,\n루비 온 레일즈, Vue.js, React\n계속 이렇게 공부만 하면서 왔다 갔다 해야 하나?\n루비 온 레일즈 8의 기본 기능을 최대한 활용해 보고 싶었습니다.\nHotwire, Stimulus, Turbo, importmap을 통한 외부 종속성 없는 자바스크립트 환경.\nKamal 을 통한 배포.\nSolid Queue를 통한 백그라운드 작업.\nSolid Cache 캐싱.\nsqlite와 홈서버로 프로덕션 환경 운영해 보기.\nHotwire Native를 통한 모바일 앱 개발까지.\n웹사이트를 다 만들고 나서 아주 홀가분했습니다. Hotwire에 대해 거의 아는 게 없었지만 AI 덕분에 수월했어요.\n모바일 앱을 만들기 위해 Hotwire Native와 이틀 정도 씨름하다가…\n결국 플러터를 선택해서 안드로이드, 아이폰, 맥 앱을 만들었습니다.\n클로드 코드로만 작업했고, 제가 직접 코드에 관여한 부분은 없었던 것 같아요.\n여러 작업을 병렬로 안 하고 최대한 순차적으로 진행하려고 노력했습니다.\n규모가 작은 앱이긴 하지만, 이번 작업으로 이 스택에 자신감이 생겼습니다.\n함께 읽으면 좋은 글:\n루비가 느리다고?\n집에서 서버를 운영하는 게 가능한가요?\n진짜 1인 개발자 전성시대",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/08/27/my-korea-map.html",
+    "pubDate": "2025-08-26T15:59:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Text, wav 를 통한 입술 모양 이미지 생성 방법",
+    "description": "이 글은 Text, wav 를 통한 입술 모양 이미지 생성 방법을 간략히 정리해 본다.\n\n\n\n서론\n디지털 휴먼 및 가상 아바타 기술의 발전에 따라, 텍스트 입력에 대한 실시간 립 애니메이션 생성 기술의 중요성이 증대되고 있다. 전통적인 방식은 텍스트로부터 완전한 오디오 파일을 생성한 후, 해당 파일을 기반으로 비디오 프레임을 합성하는 배치(Batch) 처리 방식을 채택한다. 그러나 이 방식은 오디오 파일 생성과 비디오 렌더링에 소요되는 시간으로 인해 상당한 지연(Latency)이 발생하며, 실시간 상호작용 애플리케이션에는 부적합하다. 본 글은 실시간 텍스트립싱크를 구현하기 위한 핵심 기술 요소를 분석한다.\n\n\n실시간 립싱크 구현을 위한 핵심 파이프라인\n실시간 립싱크 시스템은 단일 모델이 아닌, 두 가지 핵심 기술이 순차적으로 결합된 파이프라인(Pipeline) 구조로 구현된다.\n\n\n1.  스트리밍 텍스트음성 변환 (Streaming TexttoSpeech, TTS)\n 실시간성을 확보하기 위한 첫 번째 단계는 스트리밍 TTS 엔진이다. 이는 입력 텍스트를 완성된 오디오 파일로 변환하는 것이 아니라, 연속적인 오디오 데이터 스트림(Stream)으로 즉시 생성하는 기술이다. 텍스트가 입력되는 즉시 오디오 청크(Chunk)가 생성되어 파이프라인의 후속 단계로 전달되므로, 전체 문장이 끝날 때까지 기다릴 필요가 없다. 이는 전체 지연 시간을 최소화하는 데 결정적인 역할을 한다.\n\n\n2.  저지연 얼굴 애니메이션 (Lowlatency Facial Animation)\n    두 번째 단계는 스트리밍 TTS로부터 전달받은 오디오 청크를 입력받아, 이에 상응하는 입 모양 애니메이션을 즉각적으로 생성하는 모델이다. 이 모델은 오디오 파형, 음소(Phoneme), 또는 음성 특징(Feature)을 분석하여 얼굴 모델의 특정 파라미터를 제어한다. 여기서 핵심은 최소한의 연산으로 최대한 자연스러운 움직임을 생성하여, 오디오와 시각적 출력 사이의 동기화를 유지하는 것이다.\n\n\n구현 방식에 따른 기술적 접근\n실시간 립싱크는 요구되는 성능과 사용 가능한 하드웨어 자원에 따라 다양한 접근 방식이 존재한다.\n\n\n1. 고성능 GPU 기반 솔루션: NVIDIA Riva 및 Audio2Face\nNVIDIA에서 제공하는 이 솔루션은 현재 가장 높은 수준의 실시간성과 품질을 제공하는 산업 표준으로 평가된다. NVIDIA Riva는 고성종 스트리밍 TTS 엔진의 역할을 수행하며, Audio2Face는 Riva로부터 생성된 오디오 스트림을 입력받아 3D 아바타의 얼굴 메쉬(Mesh)를 실시간으로 정교하게 제어한다. 이 방식은 RTX 시리즈 이상의 고성능 GPU를 요구하지만, 매우 낮은 지연 시간과 사실적인 표정 변화를 구현할 수 있다는 장점이 있다.\n\n\n2. 경량화 오픈소스 모델 조합\n제한된 하드웨어 환경에서는 경량화된 오픈소스 모델을 조합하여 시스템을 구축할 수 있다. 예를 들어, 빠른 추론 속도를 보이는 LivePortrait 또는 Wav2Lip과 같은 얼굴 애니메이션 모델과 PiperTTS와 같은 경량 스트리밍 TTS 엔진을 결합하는 방식이다. 이 접근법은 시스템의 전체적인 연산량을 줄여 소비자용 GPU 또는 CPU 환경에서도 실시간 처리를 가능하게 하는 것을 목표로 한다. 다만, 각 구성 요소를 연결하고 최적화하는 추가적인 개발 과정이 요구된다.\n\n\nMediaPipe\nMediaPipe 라이브러리는 립싱크 시스템 구축에 있어 중요한 기반 기술을 제공한다. MediaPipe의 Face Landmarker 기능은 이미지나 비디오 프레임에서 478개의 3D 얼굴 랜드마크와 52개의 블렌드셰이프(Blendshapes)를 정밀하게 추출한다. 블렌드셰이프는 '입 벌리기', '미소' 등 특정 표정의 강도를 수치화한 데이터로, 3D 모델을 제어하는 표준 파라미터로 사용된다.\n\n\n그러나 MediaPipe 자체는 오디오 데이터를 해석하여 립싱크 애니메이션을 생성하는 기능을 포함하고 있지 않다. MediaPipe는 단지 얼굴의 기하학적 구조와 표정을 '표현'하고 '측정'하는 도구일 뿐이다. 따라서 MediaPipe를 활용한 립싱크 시스템을 구축하기 위해서는, 오디오 스트림을 입력받아 이에 상응하는 블렌드셰이프 값을 예측하는 별도의 '오디오투블렌드셰이프(AudiotoBlendshape)' 변환 모델이 반드시 필요하다. 이 모델이 오디오 분석 엔진의 역할을 수행하며, MediaPipe는 그 결과를 받아 시각적으로 렌더링하는 후처리단에 위치하게 된다.\n\n\n결론\n실시간 텍스트 기반 립싱크는 단순한 모델 하나가 아닌, 스트리밍 TTS와 저지연 얼굴 애니메이션 모델이 유기적으로 결합된 파이프라인을 통해 구현되는 복합적인 기술이다. 고성능 환경에서는 NVIDIA의 솔루션이, 자원이 제한된 환경에서는 경량화된 오픈소스 모델들의 조합이 효과적인 대안이 될 수 있다. MediaPipe와 같은 라이브러리는 얼굴 애니메이션의 최종 출력단을 담당하는 핵심적인 구성 요소이지만, 그 자체만으로는 완전한 립싱크 솔루션이 될 수 없으며 오디오를 해석하는 별도의 AI 모델과의 연동이 필수적이다. \n\n\n레퍼런스\n\n얼굴 특징 감지 가이드  |  Google AI Edge  |  Google AI for Developers\nFace-detection-mediapipe/Mediapipe-Face-Detector.ipynb at main · nikitansg/Face-detection-mediapipe\nLivePortrait: Bring portraits to life!\nSadTalker: [CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation\nWav2Lip: This repository contains the codes of \"A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild\", published at ACM Multimedia 2020. For HD commercial model, please try out Sync Labs\npiper: A fast, local neural text to speech system\nTMElyralab/MuseTalk: MuseTalk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting\ndreamtalk: Official implementations for paper: DreamTalk: When Expressive Talking Head Generation Meets Diffusion Probabilistic Models\naudio2face-3d Model by NVIDIA | NVIDIA NIM\nEmoTalk_release: This is the official source for our ICCV 2023 paper \"EmoTalk: Speech-Driven Emotional Disentanglement for 3D Face Animation\"",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/08/text-wav.html",
+    "pubDate": "2025-08-22T21:31:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Unveiling Ruby Debuggers: byebug, debug gem, and the Power of RubyMine",
+    "description": "Hello, Ruby developers! Whether you are a seasoned Ruby developer or just getting started, mastering the debugger will save you time and frustration when tracking down bugs. At RubyMine, we’ve spent years building debugging tools for Ruby. In this blog series, we’re sharing some of the insights we’ve gained along the way. In this post, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ruby/2025/08/unveiling-ruby-debuggers-byebug-debug-gem-and-the-power-of-rubymine/",
+    "pubDate": "Tue, 26 Aug 2025 07:11:53 +0000",
+    "creator": "Dmitry Pogrebnoy",
+    "categories": [
+      "rubymine"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "이제는 클로드(Claude) 시대! ChatGPT를 능가하는 AI 챗봇의 숨겨진 5가지 능력",
     "description": "많은 분들이 여전히 ChatGPT를 주로 사용하시죠? 그런데 초기 아이디어 자동 생성부터 깔끔한 답변, 사용자 맞춤 인터페이스까지, 클로드(Claude) AI가 ChatGPT보다 더 탁월한 5가지 비결을 공개합니다. 당신의 작업 효율을 극대화할 새로운 AI 파트너, 클로드를 만나보세요!\n\n\n \n AI 챗봇 하면 여전히 ChatGPT를 가장 먼저 떠올리시는 분들이 많으실 거예요. 저 역시 그랬습니다. 처음에는 ChatGPT가 거의 유일한 선택지라고 생각했죠. 그런데 말이죠, 세상엔 정말 좋은 AI 대안들이 많다는 걸 직접 경험하고 깨달았습니다. 특히 오늘 소개해드릴 '클로드(Claude) AI'는 초기 아이디어 구상부터 작업의 효율성까지, 여러분의 기대를 뛰어넘는 놀라운 경험을 선사할 거예요. 과연 클로드가 어떻게 여러분의 창의적인 작업을 '자동 생성'하는 비결을 가지고 있는지, 저와 함께 자세히 알아볼까요?\n✨ 1. 더 나은 초기 아이디어 자동 생성\n음, 혹시 ChatGPT를 쓰다가 '이거, 뭘 물어봐야 할지 막막한데?' 싶었던 경험 없으세요? 특히 빈 대화창을 마주할 때 말이죠. 물론 ChatGPT의 '커스텀 GPT' 기능에서는 초기 프롬프트가 잘 나오긴 해요. 사실 이 기능, 정말 과소평가되어 있다고 생각합니다. 아이디어가 잘 떠오르지 않을 때 정말 유용하죠. 하지만 일반 대화에서는 이런 시작 프롬프트가 잘 제공되지 않아서 아쉬울 때가 많아요. 심지어 마이크로소프트의 코파일럿(Copilot)이 이 점에서는 더 낫다고 느낄 때도 있습니다.\n\n\n  클로드의 차별점: 클로드(Claude)는 새 대화를 시작할 때마다 여러 개의 초기 프롬프트 옵션을 제공하며, 이 프롬프트들을 다양한 카테고리(예: 클로드의 추천, 일상생활)로 깔끔하게 분류해 놓아 사용자의 아이디어 발상을 효과적으로 돕습니다.\n그런데 클로드(Claude)는 시작부터 다릅니다. 새 대화를 시작할 때마다 여러 개의 초기 프롬프트 옵션을 제공해주죠. 단순히 많은 것뿐만 아니라, 이 프롬프트들을 다양한 카테고리로 깔끔하게 분류해 놓았다는 점이 정말 인상적입니다. 예를 들어, '클로드의 추천(Claude's choice)' 섹션에서는 '새로운 관점 발견하기' 같은 조금 독특하면서도 영감을 주는 주제들을 만날 수 있어요. 또 '일상생활(Life stuff)' 섹션에서는 아침 루틴 팁이나 기념일 계획 같은 실용적인 아이디어들도 얻을 수 있습니다. 저는 개인적으로 이런 세심한 배려가 클로드를 더 자주 찾게 만드는 이유 중 하나라고 생각해요.\n  2. 훨씬 더 이해하기 쉬운 답변\n\n\nChatGPT, 솔직히 정말 디테일한 답변을 잘 만들어냅니다. 특히 '심층 연구(Deep Research)' 같은 기능은 정말 감탄스럽죠. 기본적인 질문을 하더라도, 개요 기반으로 답변해달라고 요청하면 엄청나게 상세한 내용을 얻을 수 있습니다. 정보의 양 자체는 정말 풍부해요.\n \n하지만 제가 좀 아쉽다고 느끼는 부분이 있습니다. 바로 정보의 '가독성'이에요. 때때로 ChatGPT의 답변은 너무 많은 정보가 한꺼번에 쏟아져 나와서 복잡하게 느껴질 때가 있습니다. 저는 개인적으로 표 형식의 정보를 선호하는데, 그럼에도 불구하고 어떤 답변들은 너무 복잡해서 따라가기 어려울 때가 종종 있었어요. 마치 정보의 숲에 길을 잃는 기분이랄까요?  \n\n\n\n반면에 클로드는 답변을 거의 언제나 '훨씬 더 이해하기 쉬운' 형식으로 제공합니다. 깔끔하게 정리된 문단, 중요한 내용은 명확하게 구분되어 있어서 한눈에 쏙쏙 들어와요. 덕분에 내용을 파악하는 데 드는 시간이 훨씬 줄어들고, 제가 얻고 싶은 핵심 정보를 명확하게 이해할 수 있죠. 복잡한 내용을 빠르게 파악하고 싶을 때, 클로드가 정말 빛을 발합니다.\n✍️ 3. 탁월한 글쓰기 맞춤 설정 기능\nChatGPT가 많은 부분에서 뛰어나지만, 개인적으로 '글쓰기' 영역에서는 아직 좀 부족하다고 생각합니다. 물론 새롭게 업데이트되는 모델들이 마케팅에서 강조하는 만큼 완벽한 수준은 아닌 것 같아요. 'ChatGPT Canvas' 같은 도구도 괜찮긴 하지만, 다른 AI 도구들에 비하면 글쓰기 맞춤 설정 기능이 아쉽다는 생각이 들었습니다.\n\n\n클로드는 글쓰기 관련해서 정말 다양한 기능을 제공합니다. 우선 '스타일 변경' 기능이 압권이에요. '간결하게', '설명적으로', '공식적으로' 같은 사전 설정된 옵션은 물론, 저만의 맞춤 스타일을 직접 만들거나 기존 스타일을 편집할 수도 있습니다. 이건 ChatGPT의 '지시사항'과 비슷하다고 볼 수도 있지만, 클로드에서는 훨씬 더 명확하고 직관적으로 느껴졌어요. 마치 나만의 비서에게 글쓰기 스타일을 세세하게 알려주는 느낌이랄까요?\n \n클로드로 글을 쓰는 게 즐거운 또 다른 이유는 '사전 설정된 제안'에서 선택할 수 있다는 점입니다. 콘텐츠를 편집하는 옵션도 있고, 심지어 콘텐츠 캘린더나 교육 자료 같은 것을 개발하는 데도 활용할 수 있죠. 물론 저는 AI가 모든 글을 대신 쓰는 것에 대해서는 아직 회의적입니다만, 아이디어의 '윤곽'을 잡는 데는 클로드가 정말 탁월하다고 확신합니다. 거의 대부분의 경우, 저는 ChatGPT 대신 클로드를 사용할 것을 추천하고 싶어요.\n  4. 더 깔끔한 인터페이스와 외관 맞춤 설정\n 솔직히 ChatGPT의 인터페이스도 처음 출시되었을 때에 비하면 많이 좋아졌죠. 특히 '프로젝트(Projects)' 기능은 정말 필수적인 기능이라고 생각합니다. 하지만 동시에, 여전히 클로드 같은 다른 AI 도구에 비해 부족한 부분이 있다고 느낍니다.\nChatGPT는 '프로젝트' 기능을 제외하고는 인터페이스 맞춤 설정 옵션이 그리 많지 않아요. 제가 ChatGPT를 사용하면서 가장 아쉬웠던 점 중 하나였습니다. 그래서 클로드를 처음 사용했을 때 정말 기뻤던 기억이 납니다.\n⚠️ 주의: 클로드에는 아직 ChatGPT의 '프로젝트'와 같은 강력한 대화 정리 기능은 없습니다. 하지만 인터페이스 외관 맞춤 설정 기능으로 사용자의 편의성을 높이는 데 중점을 둡니다.\n\n\n 물론 클로드에는 '프로젝트' 같은 기능이 없다는 점은 아쉽긴 해요 (개인적으로는 이런 기능이 추가되면 정말 좋을 것 같아요!). 하지만 인터페이스를 사용자 입맛에 맞게 조절하는 데 있어서는 정말 최고입니다. 예를 들어, 다양한 글꼴 중에서 선택할 수 있어요. 그리고 전반적으로 클로드 인터페이스의 색상 조합과 전체적인 디자인이 ChatGPT보다 훨씬 더 좋다고 생각합니다. ChatGPT는 약간 '유틸리티적'이고 기능에만 초점을 맞춘 느낌이라면, 클로드는 사용 자체가 정말 '즐겁다'는 느낌을 줍니다. 시각적인 편안함이 작업 효율에도 영향을 미친다고 생각해요.\n  5. 깃허브(GitHub) 통합 및 편리한 채팅 관리 \n\n\n 코딩은 사람들이 클로드를 사용하는 가장 흔한 이유 중 하나이고, 제 생각엔 이 부분에서도 클로드가 ChatGPT보다 더 적합한 도구입니다. 기본적으로 클로드 아티팩트(Claude Artifacts) 내에서 프롬프트를 선택하고 코드를 작성할 수 있는 옵션이 있죠. 여기에 더해, 클로드는 깃허브(GitHub)와 통합됩니다!  \n \n깃허브 통합 기능을 활용하면 자신의 리포지토리(저장소)를 클로드 앱에 연결할 수 있어요. 원하는 리포지토리를 선택해서 클로드로 가져오기만 하면 되죠. 덕분에 코딩 관련 작업이 훨씬 쉬워집니다. 개발자분들이라면 이 기능의 가치를 더 크게 느끼실 거예요. 협업에도 유리하고, 코드 분석이나 개선에도 큰 도움이 될 수 있습니다.\n \n\n\n그리고 이건 제가 개인적으로 정말 사랑하는 기능인데요, 바로 '채팅 일괄 삭제' 기능입니다! ChatGPT의 '프로젝트' 기능이 대화 정리에 도움이 되긴 하지만, 여전히 채팅을 한 번에 여러 개 삭제할 수 없다는 점이 너무 불편했어요. 일일이 지우는 건 정말 지루하고 시간이 많이 걸리는 작업이라, 결국 필요 없는 대화들이 계속 쌓이게 되더라고요. 이 문제를 해결하는 가장 쉬운 방법이 바로 '일괄 삭제'인데, ChatGPT는 아직 이 기능이 없어서 아쉽습니다. 하지만 클로드는 이 기능을 제공합니다! 각 대화 옆의 체크박스를 선택하고 '선택 항목 삭제'를 누르기만 하면 끝이에요. 깔끔하게 정리된 작업 공간은 기분까지 좋게 만들죠. ✨\n \n핵심 요약\n✨ 첫 번째 핵심: 클로드는 대화 시작 시 다양한 카테고리별 초기 프롬프트를 제공하여 아이디어 생성을 돕습니다.\n  두 번째 핵심: ChatGPT보다 훨씬 깔끔하고 이해하기 쉬운 답변 형식으로 정보 파악이 용이합니다.\n  세 번째 핵심: 글쓰기 스타일 맞춤 설정, 사전 제안 등 강력한 글쓰기 보조 기능으로 아웃라인 구성에 탁월합니다.\n ‍  네 번째 핵심: 사용자 친화적인 인터페이스 디자인과 깃허브 통합, 채팅 일괄 삭제 등 편리한 기능들을 제공합니다.\n클로드를 통해 더 스마트하고 효율적인 AI 활용을 경험해보세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: 클로드가 ChatGPT보다 초기 아이디어 생성에 더 좋다고 하는 이유는 무엇인가요?\nA1: 클로드는 새로운 대화를 시작할 때 다양한 카테고리로 분류된 초기 프롬프트 옵션을 제공하여 사용자가 질문을 시작하기 전에 아이디어를 얻고 생각을 확장하는 데 도움을 줍니다. ChatGPT는 커스텀 GPT 외에는 이런 기능이 부족합니다.\nQ2: 클로드의 답변 가독성이 뛰어나다고 했는데, 어떤 점이 다른가요?\nA2: 클로드는 복잡한 정보를 깔끔하고 구조화된 형태로 제시하여 한눈에 내용을 파악하기 쉽게 합니다. 반면 ChatGPT는 정보의 양이 많을 때 다소 복잡하게 느껴질 수 있습니다.\nQ3: 글쓰기 기능에서 클로드가 ChatGPT보다 뛰어난 점은 무엇인가요?\nA3: 클로드는 글쓰기 스타일 변경(간결, 설명, 공식 등) 기능과 맞춤 스타일 생성, 그리고 콘텐츠 편집 및 개발을 위한 사전 설정 제안 등을 제공하여 글의 아웃라인을 잡거나 특정 톤앤매너에 맞춰 글을 작성할 때 유용합니다.\nQ4: 클로드의 인터페이스 외관 맞춤 설정은 어떤 특징이 있나요?\nA4: 클로드는 다양한 글꼴 옵션을 제공하며, 전반적인 색상 조합과 디자인이 사용자 친화적이고 시각적으로 편안함을 줍니다. ChatGPT에 비해 더 개인화된 작업 환경을 만들 수 있습니다.\n \n결론적으로, ChatGPT가 여전히 강력한 AI 도구인 것은 분명합니다. 하지만 제가 직접 경험해본 결과, 초기 아이디어 자동 생성, 가독성 높은 답변, 풍부한 글쓰기 맞춤 설정, 사용자 친화적인 인터페이스, 그리고 개발자를 위한 깃허브 통합과 편리한 채팅 관리 기능까지, 클로드가 여러 면에서 ChatGPT를 능가하는 '숨겨진 보석'이라는 생각이 듭니다. 특히 AI를 활용해 새로운 아이디어를 얻거나, 복잡한 정보를 깔끔하게 정리하고 싶은 분들에게 클로드는 정말 매력적인 대안이 될 수 있을 거예요. 여러분도 이 똑똑한 AI 대안을 직접 경험해보시고, 여러분의 작업 방식을 한 단계 업그레이드해보시는 건 어떨까요? 분명 후회하지 않으실 겁니다!",
@@ -183,85 +215,15 @@
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "[MULTI] 게임스컴 2025, 공식 방송 및 관련 기사 종합",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2349",
-    "pubDate": "Mon, 25 Aug 2025 08:19:51 +0900",
-    "creator": "샤말란의눈",
-    "categories": [
-      "특집"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "비전공자도 이해할 수 있는 웹 개발의 역사",
-    "description": "동영상이나, 음성 따위의 각종 멀티미디어를 이용하는 인터넷을 이르는 말. = 월드 와이드 웹. 국립국어원 표준국어대사전   시작하며 요즘 글이 뜸했습니다. 사실 뉴스레터 서비스가 유료로 전환되고 나니, 예전처럼 손이 잘 안 가게 되네요. (한 번 발송할 때 마다 치킨 한 마리값이 사라집니다..ㅠㅠ) 그래서 역사 콘텐츠를 텍스트가 아닌 다른 방식으로 즐길 수 있는 방법을 알아보고 있는데요, 그중 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://ppss.kr/archives/257673",
-    "pubDate": "Fri, 22 Aug 2025 01:16:53 +0000",
-    "creator": "사소한 것들의 역사",
-    "categories": [
-      "IT",
-      "역사"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Text, wav 를 통한 입술 모양 이미지 생성 방법",
-    "description": "이 글은 Text, wav 를 통한 입술 모양 이미지 생성 방법을 간략히 정리해 본다.\n\n\n\n서론\n디지털 휴먼 및 가상 아바타 기술의 발전에 따라, 텍스트 입력에 대한 실시간 립 애니메이션 생성 기술의 중요성이 증대되고 있다. 전통적인 방식은 텍스트로부터 완전한 오디오 파일을 생성한 후, 해당 파일을 기반으로 비디오 프레임을 합성하는 배치(Batch) 처리 방식을 채택한다. 그러나 이 방식은 오디오 파일 생성과 비디오 렌더링에 소요되는 시간으로 인해 상당한 지연(Latency)이 발생하며, 실시간 상호작용 애플리케이션에는 부적합하다. 본 글은 실시간 텍스트립싱크를 구현하기 위한 핵심 기술 요소를 분석한다.\n\n\n실시간 립싱크 구현을 위한 핵심 파이프라인\n실시간 립싱크 시스템은 단일 모델이 아닌, 두 가지 핵심 기술이 순차적으로 결합된 파이프라인(Pipeline) 구조로 구현된다.\n\n\n1.  스트리밍 텍스트음성 변환 (Streaming TexttoSpeech, TTS)\n 실시간성을 확보하기 위한 첫 번째 단계는 스트리밍 TTS 엔진이다. 이는 입력 텍스트를 완성된 오디오 파일로 변환하는 것이 아니라, 연속적인 오디오 데이터 스트림(Stream)으로 즉시 생성하는 기술이다. 텍스트가 입력되는 즉시 오디오 청크(Chunk)가 생성되어 파이프라인의 후속 단계로 전달되므로, 전체 문장이 끝날 때까지 기다릴 필요가 없다. 이는 전체 지연 시간을 최소화하는 데 결정적인 역할을 한다.\n\n\n2.  저지연 얼굴 애니메이션 (Lowlatency Facial Animation)\n    두 번째 단계는 스트리밍 TTS로부터 전달받은 오디오 청크를 입력받아, 이에 상응하는 입 모양 애니메이션을 즉각적으로 생성하는 모델이다. 이 모델은 오디오 파형, 음소(Phoneme), 또는 음성 특징(Feature)을 분석하여 얼굴 모델의 특정 파라미터를 제어한다. 여기서 핵심은 최소한의 연산으로 최대한 자연스러운 움직임을 생성하여, 오디오와 시각적 출력 사이의 동기화를 유지하는 것이다.\n\n\n구현 방식에 따른 기술적 접근\n실시간 립싱크는 요구되는 성능과 사용 가능한 하드웨어 자원에 따라 다양한 접근 방식이 존재한다.\n\n\n1. 고성능 GPU 기반 솔루션: NVIDIA Riva 및 Audio2Face\nNVIDIA에서 제공하는 이 솔루션은 현재 가장 높은 수준의 실시간성과 품질을 제공하는 산업 표준으로 평가된다. NVIDIA Riva는 고성종 스트리밍 TTS 엔진의 역할을 수행하며, Audio2Face는 Riva로부터 생성된 오디오 스트림을 입력받아 3D 아바타의 얼굴 메쉬(Mesh)를 실시간으로 정교하게 제어한다. 이 방식은 RTX 시리즈 이상의 고성능 GPU를 요구하지만, 매우 낮은 지연 시간과 사실적인 표정 변화를 구현할 수 있다는 장점이 있다.\n\n\n2. 경량화 오픈소스 모델 조합\n제한된 하드웨어 환경에서는 경량화된 오픈소스 모델을 조합하여 시스템을 구축할 수 있다. 예를 들어, 빠른 추론 속도를 보이는 LivePortrait 또는 Wav2Lip과 같은 얼굴 애니메이션 모델과 PiperTTS와 같은 경량 스트리밍 TTS 엔진을 결합하는 방식이다. 이 접근법은 시스템의 전체적인 연산량을 줄여 소비자용 GPU 또는 CPU 환경에서도 실시간 처리를 가능하게 하는 것을 목표로 한다. 다만, 각 구성 요소를 연결하고 최적화하는 추가적인 개발 과정이 요구된다.\n\n\nMediaPipe\nMediaPipe 라이브러리는 립싱크 시스템 구축에 있어 중요한 기반 기술을 제공한다. MediaPipe의 Face Landmarker 기능은 이미지나 비디오 프레임에서 478개의 3D 얼굴 랜드마크와 52개의 블렌드셰이프(Blendshapes)를 정밀하게 추출한다. 블렌드셰이프는 '입 벌리기', '미소' 등 특정 표정의 강도를 수치화한 데이터로, 3D 모델을 제어하는 표준 파라미터로 사용된다.\n\n\n그러나 MediaPipe 자체는 오디오 데이터를 해석하여 립싱크 애니메이션을 생성하는 기능을 포함하고 있지 않다. MediaPipe는 단지 얼굴의 기하학적 구조와 표정을 '표현'하고 '측정'하는 도구일 뿐이다. 따라서 MediaPipe를 활용한 립싱크 시스템을 구축하기 위해서는, 오디오 스트림을 입력받아 이에 상응하는 블렌드셰이프 값을 예측하는 별도의 '오디오투블렌드셰이프(AudiotoBlendshape)' 변환 모델이 반드시 필요하다. 이 모델이 오디오 분석 엔진의 역할을 수행하며, MediaPipe는 그 결과를 받아 시각적으로 렌더링하는 후처리단에 위치하게 된다.\n\n\n결론\n실시간 텍스트 기반 립싱크는 단순한 모델 하나가 아닌, 스트리밍 TTS와 저지연 얼굴 애니메이션 모델이 유기적으로 결합된 파이프라인을 통해 구현되는 복합적인 기술이다. 고성능 환경에서는 NVIDIA의 솔루션이, 자원이 제한된 환경에서는 경량화된 오픈소스 모델들의 조합이 효과적인 대안이 될 수 있다. MediaPipe와 같은 라이브러리는 얼굴 애니메이션의 최종 출력단을 담당하는 핵심적인 구성 요소이지만, 그 자체만으로는 완전한 립싱크 솔루션이 될 수 없으며 오디오를 해석하는 별도의 AI 모델과의 연동이 필수적이다. \n\n\n레퍼런스\n\n얼굴 특징 감지 가이드  |  Google AI Edge  |  Google AI for Developers\nFace-detection-mediapipe/Mediapipe-Face-Detector.ipynb at main · nikitansg/Face-detection-mediapipe\nLivePortrait: Bring portraits to life!\nSadTalker: [CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation\nWav2Lip: This repository contains the codes of \"A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild\", published at ACM Multimedia 2020. For HD commercial model, please try out Sync Labs\npiper: A fast, local neural text to speech system\nTMElyralab/MuseTalk: MuseTalk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting\ndreamtalk: Official implementations for paper: DreamTalk: When Expressive Talking Head Generation Meets Diffusion Probabilistic Models\naudio2face-3d Model by NVIDIA | NVIDIA NIM\nEmoTalk_release: This is the official source for our ICCV 2023 paper \"EmoTalk: Speech-Driven Emotional Disentanglement for 3D Face Animation\"",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/08/text-wav.html",
-    "pubDate": "2025-08-22T21:31:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "내가 가본 우리나라 앱 개발 뒷 이야기",
-    "description": "며칠 전 공개했던 내가 가본 우리나라 웹사이트를 앱으로도 만들어봤습니다.\n안드로이드, 아이폰 그리고 맥 앱까지. (맥은 아직 심사 중이에요)\n간단한 아이디어였고 제가 쓰고 싶은 마음에 만들기도 했지만,\n루비 온 레일즈, Vue.js, React\n계속 이렇게 공부만 하면서 왔다 갔다 해야 하나?\n루비 온 레일즈 8의 기본 기능을 최대한 활용해 보고 싶었습니다.\nHotwire, Stimulus, Turbo, importmap을 통한 외부 종속성 없는 자바스크립트 환경.\nKamal 을 통한 배포.\nSolid Queue를 통한 백그라운드 작업.\nSolid Cache 캐싱.\nsqlite와 홈서버로 프로덕션 환경 운영해 보기.\nHotwire Native를 통한 모바일 앱 개발까지.\n웹사이트를 다 만들고 나서 아주 홀가분했습니다. Hotwire에 대해 거의 아는 게 없었지만 AI 덕분에 수월했어요.\n모바일 앱을 만들기 위해 Hotwire Native와 이틀 정도 씨름하다가…\n결국 플러터를 선택해서 안드로이드, 아이폰, 맥 앱을 만들었습니다.\n클로드 코드로만 작업했고, 제가 직접 코드에 관여한 부분은 없었던 것 같아요.\n여러 작업을 병렬로 안 하고 최대한 순차적으로 진행하려고 노력했습니다.\n규모가 작은 앱이긴 하지만, 이번 작업으로 이 스택에 자신감이 생겼습니다.\n함께 읽으면 좋은 글:\n루비가 느리다고?\n집에서 서버를 운영하는 게 가능한가요?\n진짜 1인 개발자 전성시대",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/08/27/my-korea-map.html",
-    "pubDate": "2025-08-26T15:59:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "클라우드 플레어 뒤에 있는 웹서버에서 사용자 IP를 로그로 남기기",
-    "description": "클라우드 플레어 뒤에 있는 웹서버의 로그를 보니 클라우드 플에어 프록시 서버의 IP를 남기고 있다. 클라우드 플레어는 CF-Connecting-IP로 실제 IP를 넘겨주고 있어서 이것을 이용하게 설정할 필요가 있다.\n\r\n\r\n엔진엑스의 real_ip 모듈을 사용하면 특정 IP 범위의 요청에서 $remote_addr의 값을 변경할 수 있게 해 준다. 클라우드 플레어의 IP 범위는 https://www.cloudflare.com/ips-v4/ 주소에서 텍스트 형태로 제공하고 있다. 이 것을 엔진엑스에서 set_real_ip_from으로 추가하고 클라우드 플레어가 전달해주는 실제 IP로 덮어 써주면 된다.\n\r\n\r\nhttp {\r\n    set_real_ip_from 173.245.48.0/20;\r\n    set_real_ip_from 103.21.244.0/22;\r\n    set_real_ip_from 103.22.200.0/22;\r\n    set_real_ip_from 103.31.4.0/22;\r\n    set_real_ip_from 141.101.64.0/18;\r\n    set_real_ip_from 108.162.192.0/18;\r\n    set_real_ip_from 190.93.240.0/20;\r\n    set_real_ip_from 188.114.96.0/20;\r\n    set_real_ip_from 197.234.240.0/22;\r\n    set_real_ip_from 198.41.128.0/17;\r\n    set_real_ip_from 162.158.0.0/15;\r\n    set_real_ip_from 104.16.0.0/13;\r\n    set_real_ip_from 104.24.0.0/14;\r\n    set_real_ip_from 172.64.0.0/13;\r\n    set_real_ip_from 131.0.72.0/22;\r\n\r\n    real_ip_header CF-Connecting-IP;\r\n    ...\r\n}\n\r\n\r\n이렇게 하면 로그 템플릿의 $remote_addr이 클라우드 플레어가 전달해주는 IP로 치환되어 저장되게 된다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hyeonseok.com/blog/941",
-    "pubDate": "Sat, 23 Aug 2025 22:10:51 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "Kotlin on the Backend – What’s New From KotlinConf 2025",
-    "description": "KotlinConf 2025 has firmly placed server-side Kotlin in the spotlight, and rightly so. Between Spring collaboration, an upgraded ecosystem, performance boosts, AI tooling, and the adoption of the language by big companies, this is Kotlin at its (backend) best. Here’s a breakdown of what was announced, what’s new, and what you absolutely must check out […]",
+    "title": "의미에 맞는 href 사용",
+    "description": "링크에 onclick 핸들러를 달 때 href에 #을 많이 사용하는데 특이하게 http://를 사용한 경우를 봤다. 딱히 신경쓰지 않고 있었는데 이로 인한 버그가 리포팅됐다.\n\r\n\r\n 사파리는 링크를 롱탭해서 프리뷰를 볼 수 있는데 http://로 href 값을 정하면 프리뷰에서 오류가 발생한다. 이 외에도 새탭을 연다든가 북마크로 저장을 한다든가 할 때도 오류가 발생할 것이다.\n\r\n\r\nhref 값이 필요 없는 경우에는 <button> 요소를 사용하도록 하자. HTML의 의미가 왜 중요한지 말해주는 또 하나의 사례라고 할 수 있겠다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/08/kotlin-on-the-backend-what-s-new-from-kotlinconf-2025/",
-    "pubDate": "Fri, 22 Aug 2025 15:02:47 +0000",
-    "creator": "Alina Dolgikh",
-    "categories": [
-      "community",
-      "kotlinconf",
-      "news",
-      "server-side"
-    ]
+    "link": "https://hyeonseok.com/blog/942",
+    "pubDate": "Sun, 24 Aug 2025 15:39:59 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
