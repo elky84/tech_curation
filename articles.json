@@ -2,53 +2,204 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "클로드(Claude)가 내 이메일 습관을 바꾼 방법: 놀랍도록 쉬운 AI 활용법",
-    "description": "매일 쏟아지는 이메일 홍수 속에서 중요한 내용을 놓치진 않으셨나요? 오늘은 AI 비서 클로드(Claude)가 어떻게 제 이메일 습관을 완전히 바꿔 놓았는지, 그리고 이메일 과부하에서 벗어나 더 효율적인 업무 생활을 시작할 수 있게 도와주었는지 솔직한 후기를 들려드릴게요. 생각보다 훨씬 쉽고 강력한 경험에 깜짝 놀라실 거예요!\n  클로드, 이메일을 '읽고' '이해하다'니!\n\n\n \n 솔직히 고백하자면, 저는 제 이메일함을 한동안 거의 포기 상태로 방치하고 있었어요. 중요한 메일과 광고 메일이 뒤섞여 있어 일일이 확인하는 게 너무 번거로웠거든요. 그러다 문득, 클로드(Claude)의 커넥터(Connectors) 기능에 대한 소식을 듣게 되었죠. 과연 이 AI 챗봇이 제 혼돈의 이메일함을 정리해 줄 수 있을까, 반신반의하면서도 한번 시도해 보기로 했어요. 결과는… 기대 이상이었습니다.\n\n클로드의 커넥터 기능은 단순히 채팅 인터페이스를 넘어, AI를 다양한 외부 서비스와 연결해주는 생산성 허브로 변모시켰어요. 이메일, 캘린더 앱부터 결제 프로세서, 심지어 디자인 툴까지 수십 가지 서비스와 연결할 수 있더라고요. 물론, 이 멋진 기능은 유료 클로드 플랜(Max, Team, Enterprise, Pro) 사용자에게만 제공됩니다. 무료 티어에서는 대부분의 커넥터에 접근할 수 없다는 점은 참고하셔야 할 것 같아요.\n  Gmail 연동, 생각보다 너무 쉬웠어요!\n저는 처음에 API 설정 같은 복잡한 과정을 예상했어요. 그런데 막상 해보니, 웬걸? 채 1분도 걸리지 않아 Gmail 연동이 완료되더라고요. 아래 간단한 절차를 따라 했더니 금세 끝났습니다.\n\n\n\n\n  Gmail과 클로드 연결 방법:\n\n클로드에 접속해 좌측 하단의 '설정(Settings)'으로 이동합니다.\n메뉴 옵션에서 '커넥터(Connectors)'를 클릭합니다.\n아래로 스크롤하여 '커넥터 찾아보기(Browse Connectors)'를 선택합니다.\n목록에서 'Gmail'을 찾아 '+' 버튼을 클릭합니다.\n'계속(Continue)'을 클릭하고 클로드에게 Gmail 계정 접근 권한을 부여합니다.\nGoogle 인증 시스템의 메시지에 따라 필요한 권한을 승인합니다.\n기술적인 부분에서는 OAuth 2.0을 사용해서 인증하더라고요. 클로드는 제 비밀번호를 저장하지 않고, 언제든지 Google 계정 설정을 통해 철회할 수 있는 임시 액세스 토큰을 얻는 방식이었어요. 개인 정보 보호에 신경 썼다는 점에서 안심이 되었습니다.\n\n정말 놀라웠던 점은 클로드가 단순히 텍스트를 읽는 것을 넘어 이메일의 문맥을 이해하는 능력이었어요. 대화 스레드를 인식하고, 후속 조치 패턴을 파악하며, 홍보성 이메일과 정말 중요한 메시지를 구별해내는 모습은 정말 인상 깊었습니다.\n다른 구글 서비스와의 연동도 유용했습니다. 구글 드라이브에서 문서 변경 사항을 요약해주는 것처럼, 클로드는 이메일과 캘린더 약속을 교차 참조하여 커뮤니케이션의 전체 맥락을 파악해주더군요. 업무용 앱과 연결하니 그 유용성이 더욱 빛을 발했어요. Gmail, Google 캘린더, Asana 사이를 오갈 필요 없이 클로드 인터페이스 하나로 모든 것을 처리할 수 있었죠.\n✨ 놀라울 만큼 똑똑한 클로드의 이메일 요약 기능\n클로드를 Gmail에 연결하고 나서, 저는 실제 상황에서 그 요약 기능을 시험해보기로 했어요. 솔직히 다른 AI 도구들이 종종 중요한 세부 사항을 놓치는 일반적인 요약을 제공하는 경우가 많아서 큰 기대를 하지는 않았습니다. 하지만 클로드는 저의 예상을 완전히 뒤엎었습니다.\n\n클로드의 이메일 요약은 단순한 텍스트 추출을 넘어섭니다. 문맥을 이해하고, 메시지 간의 관계를 파악하며, 정보성 내용과 조치가 필요한 내용을 정확히 구분하더라고요. 이건 정말 '똑똑하다'는 표현이 딱 맞는 것 같아요.\n\n저는 몇 가지 프롬프트로 클로드를 테스트해보았어요. 예를 들어, 이렇게 물어봤죠. \"이번 주에 제가 답장해야 할 이메일은 뭐가 있을까요?\" 그러자 클로드는 놀랍게도, 당장 조치가 필요한 클라이언트 문의 메일 2개를 정확히 식별해냈습니다. 반면, 제가 원했던 대로 홍보성 콘텐츠나 영수증, 뉴스레터, 자동 보안 알림 등은 완벽하게 걸러냈어요.\n\n\n\n\n조금 더 광범위한 질문도 해봤습니다. \"지난 3일간 받은 이메일 중 주요 안건이 뭔가요?\" 클로드는 다음과 같이 깔끔하게 정리해주더군요.\n신규 프로젝트 진행 상황 업데이트\n주요 협력사와의 미팅 및 계약 관련 내용\n내부 시스템 개선을 위한 팀원 의견 수렴\n제가 일일이 메시지를 스크롤하며 패턴을 찾으려 애썼던 것보다 훨씬 더 유용했어요. 정말 시간을 엄청나게 절약할 수 있었죠.\n\n그리고 가장 중요한 테스트는 이거였어요. \"혹시 지난 한 달간 제가 놓쳤을 만한 중요한 이메일이 있을까요?\" 이 질문에 클로드는 제가 미처 확인하지 못했던 한 협업 제안 메일과 중요한 청구서 마감일 알림 메일을 찾아내 플래그를 달아주었어요. 만약 클로드가 아니었다면 큰 문제로 이어질 뻔한 상황이었죠. 단순히 읽는 것을 넘어, 마치 비서처럼 중요한 내용을 짚어주는 기능에 정말 감탄했습니다.\n\n특히 길고 복잡한 이메일 스레드를 요약해달라고 요청했을 때도 빛을 발했어요. 예를 들어, 프로젝트 지연에 대한 장황한 논의가 담긴 메일 스레드에서 클로드는 핵심 결정 사항과 다음 조치 항목만 정확히 추출해내고, 불필요한 논의는 깔끔하게 무시했습니다. 이게 바로 '해석'이죠, 단순한 정보 나열이 아니라요!\n  그렇지만 알아둬야 할 몇 가지 한계점\n클로드의 이메일 통합 기능은 전반적으로 매우 만족스러웠지만, 완벽하지는 않았습니다. 몇 가지 알아두어야 할 점들이 있어요.\n⚠️ 클로드 이메일 통합의 한계:\n\n클로드는 이메일을 읽고 분석만 할 뿐, 직접 보내거나 예약할 수는 없습니다. (아직까지는요!)\n이메일에 삽입된 이미지는 현재 인식하지 못합니다. 텍스트 기반 정보만 처리 가능해요.\n가장 눈에 띄는 것은 속도입니다. 간단한 요청은 빠르지만, 상세한 분석이나 방대한 양의 메일을 처리할 때는 조금 느리게 느껴질 수 있어요.\n개인 정보 보호 문제도 고려해야 합니다. Anthropic은 데이터를 학습에 사용하지 않는다고 명시했지만, 이메일이 AI에 의해 처리된다는 점은 인지하고 있어야겠죠.\n복잡한 형식의 이메일, 특히 디자인이 복잡한 마케팅 이메일은 문맥을 파악하는 데 어려움을 겪을 수 있습니다.\n프롬프트 작성 능력이 중요해요. 모호한 요청은 일반적인 결과를 낳고, 구체적인 요청은 훨씬 더 나은 통찰력을 제공합니다.\n하지만 제 경험상, 클로드가 이메일 관리에서 절약해주는 시간은 가끔 발생하는 속도 저하나 형식 관련 문제점보다 훨씬 더 가치가 있었습니다. 만약 여러분도 이메일 과부하로 고통받고 있다면, 클로드는 분명 '인박스 제로(Inbox Zero)'를 달성하는 데 큰 도움을 줄 수 있을 거예요. 다만, 여러분의 판단과 검토를 완전히 대체하기보다는 강력한 이메일 비서로 활용하는 것이 가장 현명하다고 생각합니다.\n \n핵심 요약\n✨ 첫 번째 핵심: 클로드 커넥터로 Gmail을 손쉽게 연결, 단 1분 만에 AI 이메일 비서 설정 완료!\n  두 번째 핵심: 클로드는 이메일의 문맥을 이해하고, 중요한 내용과 불필요한 광고를 정확히 구분하여 요약합니다.\n  세 번째 핵심: \"놓쳤을 중요한 메일\"을 찾아주어 업무 효율을 극대화하고, 위기 상황을 사전에 방지합니다.\n ‍  네 번째 핵심: 일부 한계점(송신 불가, 이미지 미인식 등)이 있지만, 이메일 과부하 해결에 탁월한 보조 도구입니다.\n클로드 유료 플랜 사용자라면 지금 바로 이메일 지옥에서 탈출할 기회! 여러분의 생산성을 한 단계 업그레이드해보세요.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 클로드의 이메일 요약 기능은 무료로 사용할 수 있나요?\nA1: 아쉽게도 클로드의 커넥터 기능은 유료 플랜(Max, Team, Enterprise, Pro)에서만 제공됩니다. 이메일 연동 및 요약 기능을 사용하시려면 유료 구독이 필요합니다.\nQ2: 클로드가 제 이메일 내용을 학습에 사용하나요?\nA2: Anthropic은 클로드가 커넥터를 통해 처리하는 사용자 데이터를 모델 학습에 사용하지 않는다고 밝히고 있습니다. 개인 정보 보호 정책을 준수하며, 사용자는 언제든지 Gmail 접근 권한을 철회할 수 있습니다.\nQ3: 클로드가 이메일에서 놓치는 정보는 없나요?\nA3: 클로드는 이메일의 문맥을 깊이 이해하고 중요한 내용을 잘 요약하지만, 몇 가지 한계점이 있습니다. 예를 들어, 이메일에 삽입된 이미지는 현재 인식하지 못하며, 매우 복잡한 형식의 마케팅 이메일은 문맥 파악에 어려움을 겪을 수 있습니다. 또한, 사용자 판단을 완전히 대체하기보다는 보조 도구로 활용하는 것이 좋습니다.\n이메일 과부하로 지쳐있던 저에게 클로드의 이메일 통합 기능은 정말이지 한 줄기 빛과 같았어요. 이메일 관리에 들이던 시간을 절약하고, 더 중요한 일에 집중할 수 있게 된 거죠. 여러분도 이메일 스트레스에서 벗어나 생산성을 높이고 싶다면, 클로드를 활용한 스마트한 이메일 관리에 도전해보시는 건 어떨까요? 분명 후회하지 않으실 거예요!",
+    "title": "IntelliJ IDEA 2025.2.1 Is Out!",
+    "description": "We’ve just released the first minor update for IntelliJ IDEA 2025.2 – v2025.2.1. You can update to this version from inside the IDE, via the Toolbox App, or by using snaps for Ubuntu. You can also download it from our website. This release includes the following improvements: To find out more about the resolved issues, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483646",
-    "pubDate": "Mon, 25 Aug 2025 10:22:21 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://blog.jetbrains.com/idea/2025/08/intellij-idea-2025-2-1/",
+    "pubDate": "Fri, 29 Aug 2025 09:34:49 +0000",
+    "creator": "Julia Shashkova",
     "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "ai 생산성 도구",
-      "AI 이메일 관리",
-      "anthropic claude",
-      "스마트 이메일 비서",
-      "이메일 과부하 해결",
-      "이메일 자동 분류",
-      "지메일 AI 통합",
-      "클로드 사용 후기",
-      "클로드 이메일 요약",
-      "클로드 커넥터"
+      "releases",
+      "bug-fix-update",
+      "intellij-idea-2025-2"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "토스인사이트, 첫 보고서 '스테이블코인: 새로운 금융 인프라의 부상' 발간  ",
-    "description": "토스의 금융경영연구소 토스인사이트 분석력이 담긴 첫 보고서 발간",
+    "title": "What’s Next for Kotlin Multiplatform and Compose Multiplatform – August 2025 Update",
+    "description": "This post outlines our priorities and the general direction for our Kotlin Multiplatform and Compose Multiplatform projects over the next six to twelve months. Our goals for Kotlin Multiplatform are closely aligned with those detailed in the Kotlin roadmap. Be sure to check it out for more context around the direction we’re heading. Key priorities […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/39889",
-    "pubDate": "Mon, 25 Aug 2025 22:55:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/kotlin/2025/08/kmp-roadmap-aug-2025/",
+    "pubDate": "Mon, 25 Aug 2025 18:47:41 +0000",
+    "creator": "Ekaterina Petrova",
+    "categories": [
+      "multiplatform",
+      "kotlin-multiplatform"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "토스페이먼츠, 항공예약발권시스템(GDS) 간편결제 국내 첫 도입",
-    "description": "NOL 인터파크투어에 토스페이 항공권 결제 적용",
+    "title": "Ready for the Best School Year Ever? Join Our STEM Clubs, Camps, and Competitions",
+    "description": "The start of a new school year brings new chances to learn, grow, and geek out on the stuff you love. If you’re into math, coding, or AI, we’ve got you covered with fun and challenging activities.  Youth Clubs Join one (or more) of our free online clubs to sharpen your skills, prep for olympiads, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/GDS",
-    "pubDate": "Mon, 25 Aug 2025 13:00:00 GMT",
+    "link": "https://blog.jetbrains.com/education/2025/08/27/new-school-year-2025-2026/",
+    "pubDate": "Wed, 27 Aug 2025 07:45:19 +0000",
+    "creator": "Alena Gupaisova",
+    "categories": [
+      "jetbrains-academy",
+      "offline-programs",
+      "csai",
+      "sdt"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2025.1.5 Is Out!",
+    "description": "We’ve released another update for IntelliJ IDEA 2025.1 – v2025.1.5. You can update to this version from inside the IDE, via the Toolbox App, or by using snaps for Ubuntu. You can also download it from our website. This release includes the following updates: To find out more about the resolved issues, please refer to […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/08/intellij-idea-2025-1-5/",
+    "pubDate": "Thu, 28 Aug 2025 16:20:57 +0000",
+    "creator": "Julia Shashkova",
+    "categories": [
+      "releases",
+      "bug-fix-update",
+      "intellij-idea-2025-1"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Hack Week 2025: How these engineers liquid-cooled a GPU server",
+    "description": "null",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://dropbox.tech/culture/hack-week-2025-liquid-cooling-gpu-server",
+    "pubDate": "Wed, 27 Aug 2025 08:00:00 -0700",
+    "creator": "\r\n                            Catie Keck\r\n            \t\t\t",
+    "categories": [
+      "Culture",
+      "AI",
+      "Developers",
+      "Infrastructure"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "집착이 유니콘을 만든다",
+    "description": "나를 만난 전문직 – 교수, 의사, 변호사, 연예인 등 – 파트타임 창업가들은 잘 알 텐데, 나는 이런 분들한테 투자하지 않는다. 최근 몇 개월 동안 이런 회사들을 몇 개 만났는데, 아직도 이렇게 여러 가지 일을 동시에 완벽하게 할 수 있다고 생각하는 분들이 많다는 것에 좀 놀랐다. 창업이 과거에 비해 더 쉬워졌고, 더 저렴해졌고, 요샌 일부 일을(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/09/only-obsession-will-make-unicorn.html",
+    "pubDate": "Sun, 31 Aug 2025 21:26:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork",
+      "people",
+      "unicorn",
+      "vc"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "콘텐츠 제작 혁명! 무료 GPTS 3종으로 초고속, 고품질 콘텐츠 만드는 법",
+    "description": "단 하나의 아이디어, 사진, 혹은 링크만으로도 전문가 수준의 콘텐츠를 뚝딱! 제가 직접 개발한 무료 GPTS 3종으로 인스타그램, 스레드 맞춤 콘텐츠는 물론, AI 음악 작곡, 그리고 SEO 최적화 블로그 글까지 초고속으로, 그것도 고품질로 만드는 비법을 공개합니다. 콘텐츠 제작의 새로운 지평을 경험해보세요!\n✨ 콘텐츠 제작, 왜 이렇게 어려울까요?\n\n\n \n 정말 많은 분들이 콘텐츠 제작의 어려움에 공감하실 거예요. 어떤 플랫폼에 맞춰서 글을 써야 할지, 눈길을 사로잡는 이미지는 어떻게 만들지, 심지어는 나만의 배경 음악까지… 창작의 과정은 늘 끝없는 고민과 시행착오의 연속이었습니다. 제가 겪어본 바로는, 아이디어가 있어도 그걸 현실로 구현하는 과정에서 지쳐버리는 경우가 정말 많았죠.\n \n하지만 오늘, 이러한 고충을 한 번에 날려버릴 수 있는 제가 직접 만든 세 가지 특별한 GPTS를 소개해 드릴까 합니다. 이 도구들은 단순한 글쓰기 보조를 넘어, 각 플랫폼의 특성에 맞춰 콘텐츠를 최적화하고, 복잡한 음악 생성 프롬프트를 자동으로 만들어주며, 심지어는 SEO까지 고려한 블로그 포스트를 HTML 코드로 척척 완성해 준답니다.\n \n이제는 아이디어나 사진 한 장, 아니면 그저 블로그 링크 하나만으로도 각 분야의 전문가처럼 콘텐츠를 손쉽게 제작할 수 있는 새로운 시대가 열렸다고 해도 과언이 아닙니다. 많은 분들이 '지피티팍인데 왜 GPT만 소개하나요?'라고 궁금해하실 텐데요. 기존 챗GPT 사용자분들이 많고, GPT를 활용한 무료 연재 기획의 일환으로 이번 GPTS들을 먼저 선보이게 되었습니다. 자, 그럼 바로 시작해볼까요?\n  챗 지피티, 인스타 앤 쓰레드 맞춤 콘텐츠 제작소: 플랫폼별 최적화의 마법\n 첫 번째로 소개해 드릴 GPTS는 바로 '챗 지피티, 인스타 앤 쓰레드 맞춤 콘텐츠 제작소'입니다. 이 GPTS의 핵심은 플랫폼별 맞춤화예요. 같은 내용이라도 쓰레드와 인스타그램에서는 전혀 다른 접근 방식이 필요하다는 것을 여러분도 잘 아실 거예요. 이 GPTS는 사용자의 요청에 따라 \"어떤 플랫폼에 맞춰 드릴까요?\"라고 물어보며, 마치 플랫폼 전문가처럼 콘텐츠를 재구성해줍니다.\n✔️ 쓰레드(Threads) 콘텐츠 제작의 비밀\n쓰레드는 정말 빠르게 정보를 소비하는 플랫폼이죠? 그래서 이 GPTS는 간결하고 강렬한 문장으로 콘텐츠를 만듭니다. 제가 직접 써보니, 경어체 대신 친근한 반말체를 사용하고, 사용자의 주의를 즉시 끌 수 있는 임팩트 있는 '후크 메시지'로 시작해서 핵심 정보를 번호로 나열하는 방식이 정말 효과적이더라구요.\n✔️ 인스타그램(Instagram) 감성 콘텐츠의 완성\n반면 인스타그램은 시각적 요소와 커뮤니티가 중심입니다. 그래서 이 GPTS는 친근한 경어체를 사용해 팔로워들과 대화하듯 접근하고, 텍스트뿐만 아니라 이미지 컨셉까지 함께 제안해줍니다. 인포그래픽과 상세한 캡션, 그리고 필수 해시태그까지, 그야말로 완성형 콘텐츠를 만들어주는 거죠. 솔직히 저도 매번 놀랍니다.\n  GPTS 활용 Tip: 단 하나의 아이디어, 블로그 링크, 혹은 사진만으로도 인스타그램과 쓰레드에 최적화된 콘텐츠를 만들 수 있어요. 블로그 포스팅 후 쓰레드에 요약 내용을 올릴 때 정말 편리하답니다!\n실제 작동 사례 살펴보기\n명언 콘텐츠 제작: 대화창에 \"마음 챙김 명언 2개\"를 입력한 후 인스타그램을 선택하면, 명언과 함께 인스타그램에 적합한 메시지, 해시태그가 작성되고 이미지 생성 여부를 물어봅니다. 몇 가지 질문에 응답하면 메시지에 맞는 이미지 생성 프롬프트가 출력되고, 잠시 후 멋진 이미지가 생성됩니다.\n블로그 요약 & 공유: 블로그 주소를 입력하면 기사를 요약하고 플랫폼 선택을 요청합니다. 쓰레드를 선택하면 이모지와 함께 쓰레드에 적합한 후크 메시지가 생성되고, 이미지 생성도 가능하죠.\n사진 기반 메시지: 사진을 업로드하고 적합한 메시지를 요청한 뒤 인스타그램을 선택하면, 사진을 분석해 사진에 맞는 메시지와 해시태그를 인스타그램 형식에 맞춰 출력해줍니다. 정말 스마트하지 않나요?\n보신 것처럼, 이 GPTS는 단순히 글을 쓰는 것을 넘어, 각 플랫폼의 특성을 정확히 이해하고 최적의 콘텐츠를 완성해 줍니다. 이제 여러분의 콘텐츠 제작이 훨씬 더 스마트해질 거예요!\n \n챗GPT 인스타 & 쓰레드 맞춤 콘텐츠 제작소 바로가기\n\n \nChatGPT - 챗GPT 인스타 & 쓰레드 맞춤 콘텐츠 제작소\n이야기를 들어주고, 배우고, 도전하는 대화형 AI 시스템\nchatgpt.com\n\n \n  수노 4.5 프롬프트 제네레이터: 나만의 AI 음악 작곡가\n두 번째 GPTS는 바로 '수노 4.5 프롬프트 제네레이터'입니다. 이 GPTS는 수노(Suno) 부문에서 글로벌 5위를 자랑하고, 'AI로 노래를 만들어 1억 번 남자'가 사용했다는 바로 그 도구입니다. 말 그대로 AI 음악 작곡의 혁명을 가져왔다고 할 수 있죠.\n수노 4.5, 무엇이 달라졌나?\n최고의 인공지능 프롬프트 기반 음악 생성 서비스인 수노가 버전 4.5로 업데이트되면서, 이전 4.0 버전과는 완전히 다른 차원의 프롬프트가 필요해졌습니다. 기존 4.0은 간결한 형태로 기본적인 음악 특성에만 집중했지만, 4.5부터는 음향 텍스처, 악기 간 상호작용, 섹션별 전개까지 구체적으로 설명하는 전문적이고 세밀한 프롬프트가 필수적이 되었죠. 바로 이러한 변화에 대응하기 위해 이 GPTS를 만들게 되었습니다.\n90가지 히트곡 장르 데이터베이스의 힘\n이 GPTS의 가장 특별한 기능은 바로 글로벌 대표 히트곡 아흔 가지 장르별 데이터베이스를 활용한다는 점입니다. 제가 직접 조사하고 정리한 PDF 문서에는 각 장르별 수노 프롬프트 예시와 구조 형식이 담겨 있는데, 이 GPTS는 사용자의 키워드에 가장 적합한 구조를 자동으로 찾아 적용해줍니다. 가사 생성 원리도 체계적이라, 프롬프트 생성 후 가사가 필요한지 물어보고 요청하면 해당 장르에 맞는 구조를 PDF에서 찾아 참조하여 멋진 가사를 만들어냅니다.\n나만의 곡 만들기, 어렵지 않아요!\n채팅창에 다음과 같이 입력해 보세요:\n'새로운 아침을 운동과 함께 시작하면서 듣는 시티팝 뮤직'\n'마블 어벤저스 주제곡 느낌' (연주곡)\n'나훈아의 고향역' (가수와 곡 스타일)\n이런 요청사항에 적합한 음악 생성 프롬프트(4.0 및 4.5 버전)가 생성되고, 가사 생성 여부를 묻습니다. 한국어 가사를 요청하면 아흔 가지 노래 목록에서 적합한 구조를 찾아 가사를 생성해줍니다. 심지어 '나훈아의 고향역'처럼 유명한 곡은 트로트 장르임을 인식하고 한국 고전 트로트 스타일의 프롬프트와 가사를 생성해내는 것을 보고 정말 놀랐습니다.\n \n이제 수노로 가서 GPTS가 생성한 음악 스타일, 노래 제목, 그리고 가사를 붙여넣고 생성 버튼만 누르면 작업 완료! 누구나 마음속에 품고 있던 자신만의 노래를 세상 밖으로 꺼내기가 막막하셨다면, '수노 4.5 프롬프트 제네레이터'가 여러분의 숨겨진 음악적 재능을 깨워줄 겁니다. 지금 바로 여러분의 이야기를 노래로 만들어보세요. 저도 얼마 전에 이 기능을 이용해서 기념일 축하곡을 만들었는데, 반응이 정말 좋았어요!\n \nSuno 4.5 Prompt Generator 바로가기\n\n \nChatGPT - Suno 4.5 Prompt Generator\n이야기를 들어주고, 배우고, 도전하는 대화형 AI 시스템\nchatgpt.com\n\n \n✍️ 시각화 블로그 기사 생성 GPTS: SEO 최적화 블로그 자동화\n마지막으로 소개해 드릴 GPTS는 바로 '시각화 블로그 기사 생성 GPTS'입니다. 이 도구는 사용자가 간단한 주제나 키워드만 입력하면, 완전한 HTML 형식의 고품질 블로그 포스트를 자동으로 생성해주는, 제가 정말 애정하는 GPTS입니다.\n⚠️ 중요 소식: 그동안 HTML 소스 배포에 컨텍스트 용량 부족의 어려움이 있었지만, 이번 GPT-5 업데이트로 문제가 해결되어 챗GPT에서도 동일한 수준의 HTML 블로그 기사 생성이 가능해졌습니다! 플러스 사용자 기준으로 기존 8K 토큰에서 32K 토큰으로 약 4배 증가한 덕분이죠. 이제 3,000자 분량의 HTML 블로그 포스트를 한 번에 완성할 수 있어요.\nGPTs의 4단계 HTML 생성 원리\n이 GPTS는 총 4단계의 체계적인 과정을 거쳐 블로그 기사를 HTML로 생성합니다. 정말 효율적이죠!\n카테고리 선택: 블로그 주제를 정하지 못했다면, 먼저 분야별 주제를 요청해 보세요. 재정 투자, IT 기술 등 총 8개의 카테고리 중 선택하면 GPT가 적절한 주제를 제안합니다.\n주제 보강 검토: 선택된 주제가 사용자가 요청한 분량(글자 수)에 적합한지 검토합니다. 만약 분량이 부족할 것으로 예상되면, GPT가 주제를 보강해서 제안해줍니다. 이 과정이 글의 완성도를 높이는 데 아주 중요해요.\n컬러 테마 선택: 총 10가지 컬러 테마 중에서 선택합니다. 이 테마에 따라 HTML 소스에 적용될 색상이 결정되어 시각적으로 아름다운 블로그를 만들 수 있습니다.\nHTML 생성: 선택된 테마에 맞는 완전한 HTML 코드를 생성합니다. HTML 생성 완료 후에는 핵심 키워드, 대표 이미지 생성 프롬프트, SEO 최적화 제목 5개 등의 추가 정보와 함께 스키마까지 자동으로 출력되어 완벽한 SEO 최적화가 가능합니다.\n어떻게 활용할 수 있을까요?\n카테고리를 선택하여 진행하거나, 바로 주제를 입력하는 두 가지 방식으로 활용할 수 있습니다.\n카테고리 선택 예시: 첫 화면에서 '분야별 블로그 주제를 제안해줘'를 클릭한 후, 예를 들어 2번 'IT, 기술' 분야를 선택합니다. GPT가 IT 관련 주제를 보여주는데, 여기서 하나를 선택하면 분량이 부족할 경우 주제를 자동으로 보강해줍니다. 그 다음 컬러 테마를 선택하면 바로 기사 작성 계획을 보여주며 HTML 기사를 생성합니다.\n주제 직접 입력 예시: 대화창에 \"건강한 사람들의 아침 루틴\"과 같은 주제를 직접 입력해 보세요. 그러면 카테고리 선택 때와 동일하게 분량 조절을 위해 주제를 보강하고, 컬러 테마 선택 후 바로 기사를 작성합니다. 만약 생성된 기사 분량이 생각보다 적다면, \"관련된 섹션을 2개 더 추가하고 기사를 확장해\"라고 요청하여 풍부한 내용의 기사를 만들 수 있습니다.\n이처럼 '시각화 블로그 기사 생성 GPTS'를 활용하면 몇 번의 클릭과 간단한 요청만으로 SEO까지 완벽하게 최적화된 고품질의 블로그 포스트를 손쉽게 완성할 수 있습니다. 코드펜에서 결과물을 확인해보면, 정말 문제없이 기사가 잘 작성된 것을 볼 수 있을 거예요. 블로그 콘텐츠 제작의 효율을 극대화하고 싶다면 이 강력한 도구를 꼭 사용해보시길 바랍니다!\n \n시각화 블로그 기사 생성 바로가기\n\n \nChatGPT - 시각화 블로그 기사 생성\n이야기를 들어주고, 배우고, 도전하는 대화형 AI 시스템\nchatgpt.com\n\n \n \n핵심 요약\n✨ 첫 번째 핵심: 무료 GPTS 3종으로 콘텐츠 제작의 모든 고민을 해결!\n  두 번째 핵심: 플랫폼(인스타/쓰레드) 맞춤 콘텐츠, AI가 자동으로 최적화.\n  세 번째 핵심: 수노 4.5 프롬프트 제네레이터로 전문적인 AI 음악 손쉽게 작곡.\n ‍  네 번째 핵심: GPT-5의 힘으로 SEO 최적화 HTML 블로그를 한 번에 생성.\n이 GPTS들은 여러분의 시간과 노력을 절약하고 창의력을 극대화하는 데 도움을 줄 것입니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 소개된 GPTS들은 모두 무료로 사용할 수 있나요?\nA1: 네, 제가 직접 만든 이 3가지 GPTS는 모두 무료로 사용할 수 있도록 공개되었습니다. 챗GPT 플러스 사용자라면 누구든지 접근하여 활용할 수 있습니다. 단, 수노와 같은 외부 서비스 이용 시 해당 서비스의 정책에 따라 비용이 발생할 수 있습니다.\nQ2: 블로그 기사 생성 GPTS가 HTML 코드를 생성한다고 했는데, 추가적인 편집이 필요한가요?\nA2: 이 GPTS는 SEO에 최적화된 완전한 HTML 코드를 생성해주므로, 기본적인 구조와 스타일은 바로 사용할 수 있습니다. 물론, 개인의 브랜드 아이덴티티나 특정 디자인 요구사항에 맞춰 세부적인 편집이나 추가 스타일링을 하는 것은 얼마든지 가능하며, 코드펜에서 미리 확인하고 수정하는 것을 추천합니다.\nQ3: 수노 4.5 프롬프트 제네레이터로 만든 음악은 상업적으로 이용할 수 있나요?\nA3: 수노 4.5 프롬프트 제네레이터는 수노 서비스를 활용하여 음악을 만드는 것을 돕는 도구입니다. 생성된 음악의 상업적 이용 가능 여부는 수노(Suno) 서비스의 라이선스 및 이용 약관에 따라 달라지므로, 수노 공식 웹사이트에서 관련 정책을 확인하시는 것이 가장 정확합니다.\n마무리하며: 콘텐츠 제작의 미래, 여러분의 손에!\n이번 포스팅에서는 SNS 맞춤 콘텐츠 제작부터 AI 음악 작곡, 그리고 SEO에 최적화된 블로그 자동 생성까지, 여러분의 콘텐츠 제작을 훨씬 더 스마트하고 효율적으로 만들어 줄 3가지 무료 GPTS를 소개해 드렸습니다. 솔직히 저도 이 도구들을 만들면서 '와, 정말 여기까지 왔구나' 하고 감탄했거든요.\n이 GPTS들이 여러분의 창작 활동에 새로운 활력을 불어넣고, 시간과 노력을 절약하는 데 큰 도움이 되기를 진심으로 바랍니다. 콘텐츠 제작의 부담을 덜고, 더 많은 아이디어를 자유롭게 펼쳐나가시길 응원합니다!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483647",
+    "pubDate": "Mon, 25 Aug 2025 19:08:36 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "AI 블로그 생성",
+      "ai 음악 작곡",
+      "GPT-5 활용",
+      "seo 최적화 블로그",
+      "무료 gpts",
+      "수노 AI 프롬프트",
+      "쓰레드 마케팅",
+      "인스타그램 콘텐츠 제작",
+      "콘텐츠 마케팅 도구",
+      "콘텐츠 제작 ai"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "오픈챗 메시지들로부터 트렌딩 키워드 추출하기",
+    "description": "들어가며안녕하세요. AI Services Lab 팀의 ML 엔지니어 박희웅입니다. 저희 팀에서는 LINE 오픈챗과 관련해 다양한 AI/ML 모델을 개발해 서빙하고 있는데요. 지난 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/extracting-trending-keywords-from-openchat-messages",
+    "pubDate": "Fri, 29 Aug 2025 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 4,
+    "id": 9,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 16화, 보답인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2350",
+    "pubDate": "Wed, 27 Aug 2025 21:26:17 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "마치 한 편의 마피아 영화, 마피아: 올드 컨트리",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2352",
+    "pubDate": "Sun, 31 Aug 2025 22:43:23 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "The Visual Studio August Update is here – smarter AI, better debugging, and more control",
+    "description": "The August 2025 update for Visual Studio 2022 (v17.14) is now available, and it’s all about helping developers stay focused, productive, and in control. Whether you’re building games, tuning performance, or exploring AI, this release brings meaningful improvements that make everyday development smoother and smarter. GPT-5 support now available We’re excited to announce that GPT-5 […]\nThe post The Visual Studio August Update is here – smarter AI, better debugging, and more control appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-august-update-is-here-smarter-ai-better-debugging-and-more-control/",
+    "pubDate": "Tue, 26 Aug 2025 18:22:28 +0000",
+    "creator": "Mads Kristensen",
+    "categories": [
+      "Copilot",
+      "Debug",
+      "Git",
+      "GitHub Copilot",
+      "Productivity",
+      "Visual Studio",
+      "C++",
+      "MCP",
+      "Models",
+      "Next Edits Suggestion",
+      "Sign in"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Exploring Data Science With Kotlin: A Powerlifting Case Study",
+    "description": "This is a guest post from Adele Carpenter. Adele is a Software Engineer and Consultant at Trifork Amsterdam, where she works on educational systems in the Kotlin/Java/Spring ecosystem and advises customers on their projects. TL;DR This blog post uses a dataset from the sport of powerlifting to get you up and running with Kotlin Notebooks, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/08/exploring-data-science-with-kotlin-a-powerlifting-case-study/",
+    "pubDate": "Wed, 27 Aug 2025 10:18:33 +0000",
+    "creator": "Alyona Chernyaeva",
+    "categories": []
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "Roadmap for AI in Visual Studio (September)",
     "description": "Today, we’re excited to share our public roadmap, which outlines the next steps in evolving Visual Studio with AI-powered agentic experiences. With every month, we aim to deliver smarter, faster, and more intuitive tools that enhance your coding experience. Disclaimer: The items outlined here represent ongoing work for the month. They are not commitments or […]\nThe post Roadmap for AI in Visual Studio (September) appeared first on Visual Studio Blog.",
@@ -68,139 +219,13 @@
     ]
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "안티들의 말은 무시해라",
-    "description": "얼마 전에 요새 큰 고민이 있는 우리 투자사 대표와 이야기를 했다. 사업은 그냥 나쁘지 않게 진행되고 있는데, 이 회사의 제품에 대한 악플과 형편없는 리뷰 때문에 밤잠을 설치고 있었다. 아마도 이런 고민을 하거나, 한 번 정도는 해 본 대표들이 있을 것이다. 특히나 일반 고객과 실물 시장과의 접점이 훨씬 많은 B2C 서비스 또는 먹고, 입고, 바르는 제품을(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/08/dont-listen-to-your-haters.html",
-    "pubDate": "Sun, 24 Aug 2025 21:26:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "B2C",
-      "brand",
-      "FoundersAtWork"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "ReSharper’s New Out-of-Process Engine Cuts Visual Studio startup UI freezes by 61%",
-    "description": "Visual Studio power users love ReSharper’s deep analysis, but the cost has been the occasional UI hiccup that breaks the flow of work. In ReSharper 2025.2, analysis runs in a separate 64-bit worker out of Visual Studio’s UI process. Previously, ReSharper shared Visual Studio’s UI process, so long analyses could stall the UI thread. Now, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/08/28/resharper-s-new-out-of-process-engine-cuts-ui-freezes-in-visual-studio-by-80/",
-    "pubDate": "Thu, 28 Aug 2025 07:00:00 +0000",
-    "creator": "Mehul Harry",
-    "categories": [
-      "how-tos",
-      "news",
-      "resharper",
-      "oop",
-      "out-of-process",
-      "performance",
-      "resharper_oop",
-      "visual-studio"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "게임 양산으로 대박이난 인디개발사 / 아울캐미 랩스 Owlchemy Labs",
-    "description": "영상: https://www.youtube.com/watch?v=VDFBVXhHYwc\n\n\n\n \n똥게임들에 환멸을 느껴 게임을 자동으로 만들고\n배포하는 프로그램을 만들어 어마어마한 양의 게임을 출시한 이팀은 ...\n성공했습니다.\n그들의 성공스토리를 배워봅시다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1382",
-    "pubDate": "Mon, 25 Aug 2025 17:41:35 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "인디게임"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "2025년 튤립 버블 이미 터졌었다 / 중국 보이차 폭락 사건",
-    "description": "(뭐냐이거 고사리인가)\n \n영상: https://www.youtube.com/watch?v=udo-O5P6ne0\n\n\n\n \n보이차 1kg 에 5억가던게 현재 5천만원이며 살아날 가승성이 없어보입니다.\n보이차는 오래두면 숙성이라고 해서 가치가 올라가는 이상한 상품인데요\n이때문에 사람들이 사서 보관해두기도하고 뇌물로 주기도 해서 \n부정부패 청산을 위해 여러가지 고치를 하다보니\n보이차 랑 마오타이 술 등의 가격이 맛이 가버렸군요.\n \n모르는 사이에 맛탱이가 가는 사업들이 있었군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1384",
-    "pubDate": "Fri, 29 Aug 2025 20:25:44 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "버블",
-      "보이차",
-      "중국"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "카지노에서 왠 파판 브금이 ...",
-    "description": "영상: https://www.youtube.com/watch?v=J2ZGFyysmLQ\n\n\n\n4:44 에 나옵니다.\n파판x 브금 같군요\n세기말 분위기 나는군욥",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1381",
-    "pubDate": "Mon, 25 Aug 2025 12:33:09 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "카지노"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Ready for the Best School Year Ever? Join Our STEM Clubs, Camps, and Competitions",
-    "description": "The start of a new school year brings new chances to learn, grow, and geek out on the stuff you love. If you’re into math, coding, or AI, we’ve got you covered with fun and challenging activities.  Youth Clubs Join one (or more) of our free online clubs to sharpen your skills, prep for olympiads, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/08/27/new-school-year-2025-2026/",
-    "pubDate": "Wed, 27 Aug 2025 07:45:19 +0000",
-    "creator": "Alena Gupaisova",
-    "categories": [
-      "jetbrains-academy",
-      "offline-programs",
-      "csai",
-      "sdt"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "토스, ‘2025 광주디자인비엔날레’ 참가",
-    "description": "포용 디자인 전시 공간 운영",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/2025universaldesgin",
-    "pubDate": "Sat, 30 Aug 2025 23:36:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "오픈챗 메시지들로부터 트렌딩 키워드 추출하기",
-    "description": "들어가며안녕하세요. AI Services Lab 팀의 ML 엔지니어 박희웅입니다. 저희 팀에서는 LINE 오픈챗과 관련해 다양한 AI/ML 모델을 개발해 서빙하고 있는데요. 지난 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/extracting-trending-keywords-from-openchat-messages",
-    "pubDate": "Fri, 29 Aug 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
+    "id": 14,
     "imageUrl": "",
     "title": "월 20만원 클로드 AI 구독? 브라우저 제어 기능, 과연 그 값어치를 할까",
     "description": "월 20만원이라는 거액을 들여 클로드 AI의 브라우저 제어 기능을 구독해야 할까요? 앤트로픽의 새로운 크롬 확장 프로그램이 우리의 웹 브라우징 경험을 어떻게 바꾸고, 어떤 잠재적 위험을 안고 있는지 심층적으로 분석합니다. 이 혁신적인 기능이 과연 그 값어치를 하는지 함께 고민해 보세요.\n요즘 AI 기술 발전 속도가 정말 무섭다는 생각을 많이 하는데요, 여러분은 어떠세요? 특히 앤트로픽(Anthropic)의 클로드(Claude) AI가 최근 공개한 기능은 저를 깜짝 놀라게 했습니다. 바로 '브라우저 제어' 기능인데요. 아니, AI가 내 브라우저를 직접 조작한다고? 솔직히 처음 들었을 때 기대보다는 좀 묘한 불안감이 앞섰어요. 과연 이 기능이 우리에게 어떤 의미를 가지며, 또 월 20만원에 달하는(?) 구독료가 과연 합당한지, 오늘은 저와 함께 이 흥미로운 주제를 파헤쳐볼까 합니다.\n앤트로픽은 최근 클로드 AI의 크롬 확장 프로그램을 공개하며, 특정 사용자들을 대상으로 이 기능을 시험하고 있다고 발표했어요. 이 확장 프로그램은 클로드가 사용자의 브라우저 활동을 '볼 수' 있게 할 뿐만 아니라, 심지어는 사용자를 대신해 '작업을 수행할 수' 있도록 한다고 합니다. 마치 미래 영화에서 보던 일이 현실이 되는 것만 같은 느낌이죠. 그런데 말입니다, 이 미래가 정말 우리가 원하던 미래일까요?  \n\n\n  클로드 AI의 브라우저 제어 기능, 무엇이 가능할까?\n클로드 AI의 브라우저 제어 기능은 크게 두 가지 측면에서 작동합니다. 하나는 '맥락 이해 능력'의 강화이고, 다른 하나는 '실제 브라우저 조작'입니다. 이 두 가지가 합쳐지면 상상 이상의 시너지를 낼 수 있다고 하는데요, 자세히 한번 들여다보죠.\n \n\n\n\n \n브라우저 내용 파악 및 응답 개선\n가장 기본적인 기능은 클로드가 사용자가 브라우저에서 무엇을 하고 있는지 실시간으로 파악하는 것입니다. 예를 들어, 제가 어떤 기사를 읽고 있다면 클로드는 그 내용을 이해하고 제가 던지는 질문에 훨씬 더 정확하고 맥락에 맞는 답변을 해줄 수 있게 되는 거죠. 마치 옆에서 제 활동을 지켜보며 언제든 조언해 줄 준비가 된 비서 같다고 할까요? 확장 프로그램 내 챗봇 창을 통해 이런 상호작용이 가능하다고 합니다.\n브라우저 직접 제어: 미래인가, 과도한 개입인가?\n앤트로픽의 비전은 여기서 멈추지 않습니다. 클로드는 단순히 맥락을 파악하는 것을 넘어, 직접 브라우저를 조작하여 사용자를 대신해 작업을 수행할 수 있습니다. 상상만 해도 대단하지 않나요? 몇 가지 예시를 통해 이 기능을 좀 더 구체적으로 살펴보겠습니다.\n  예시 1: 아파트 매물 찾기\n여러분, 이사할 집을 찾아본 경험 있으시죠? 앤트로픽은 사용자가 Zillow(해외 부동산 웹사이트)에서 아파트를 찾을 때, 클로드에게 원하는 조건을 말하면 클로드가 직접 Zillow에 접속해 매물을 검색하고, 가장 적합한 목록을 찾아 공유해 줄 수 있다고 설명합니다. 심지어 어떤 페이지 콘텐츠를 읽어야 하는지 등 필요한 권한까지 사용자에게 알려준다고 해요.\n  예시 2: 음식 주문하기\n저녁 메뉴를 고르다가 '마늘 면'이 갑자기 당기는 날이 있죠? 클로드에게 DoorDash(해외 배달 앱)에서 평점 좋은 마늘 면 식당을 찾아 장바구니에 담아달라고 요청할 수 있습니다. 클로드는 DoorDash 홈페이지를 인식하고, '마늘 면'을 검색창에 입력한 뒤 엔터 키를 누르는 일련의 과정을 직접 보여준다고 합니다. 이거, 거의 SF 영화의 한 장면 아닌가요?\n음... 솔직히 말해서, 광고하는 대로 작동한다면 정말 엄청난 기능임은 분명합니다. 하지만 제가 직접 써보니, 아니 솔직히 말하면 아직 써보지 못했지만 상상해볼 때, 과연 모든 일에 AI의 도움을 받아야 할까 하는 의문이 들어요. 저는 새로운 아파트를 찾아보는 과정이나, 맛있는 저녁 식당을 고르는 과정에서 나름의 즐거움을 느끼거든요. 클로드가 어떤 기준으로 '나에게 맞는' 아파트를 고르고, 어떤 식당의 '마늘 면'이 가장 맛있을 거라고 판단할 수 있을까요? 이런 주관적인 선택들은 여전히 사람의 몫이라고 생각합니다.\n\n\n⚠️ 편리함 뒤에 숨겨진 위험: 클로드 AI와 보안 문제\n아무리 편리하다고 해도, AI가 내 브라우저를 직접 제어한다는 것은 필연적으로 보안 문제와 연결될 수밖에 없습니다. 앤트로픽 역시 이 부분에 대해 투명하게 언급하고 있는데요, 중요한 것은 우리가 어떤 위험을 감수해야 하는지 정확히 알아야 한다는 점입니다.\n프롬프트 인젝션 공격의 위험성\n앤트로픽은 AI 브라우저가 '프롬프트 인젝션 공격'에 취약할 수 있다고 인정했습니다. 이는 악의적인 행위자가 AI 모델에 악성 지시를 삽입하여 오작동을 유도하는 사이버 공격의 일종입니다. 테스트 결과, 안전장치를 구현하기 전에는 이런 공격의 성공률이 무려 23.6%에 달했다고 해요.\n⚠️ 끔찍한 예시: 메일함 삭제 공격\n실제로 앤트로픽의 한 테스트에서, 클로드 AI는 악성 지시가 담긴 이메일을 읽고는 사용자의 메일함에 있는 모든 이메일을 삭제하는 명령을 그대로 수행했다고 합니다. 상상만 해도 아찔하죠? 소중한 메일들이 한순간에 사라진다면... 정말 생각하기도 싫습니다.\n앤트로픽의 안전장치와 현재의 한계\n다행히 앤트로픽은 이러한 보안 우려를 해소하기 위해 여러 안전장치를 마련하고 있다고 밝혔습니다. 사용자에게 사이트별 권한을 제어할 수 있는 기능을 제공하고, 콘텐츠 게시, 구매, 개인 정보 공유와 같은 '고위험' 작업 전에 반드시 사용자에게 확인을 거치도록 한다고 해요. 또한, 클로드의 개인 데이터 처리 방식에 대한 지침을 개선하고, 금융 거래나 성인/불법 콘텐츠 관련 사이트 등 '고위험 사이트'에 대해서는 아예 접근을 차단했다고 합니다. 이런 노력들은 분명 긍정적입니다. 하지만... 그럼에도 불구하고 아직은 초기 단계라 조심스러울 수밖에 없다는 게 제 생각입니다. 계속해서 안전장치를 보강 중이며, 그래서 현재는 테스트 규모도 매우 제한적이라고 하네요.\n\n\n  월 20만원? 클로드 AI 브라우저 제어 기능, 어떻게 사용할 수 있나?\n자, 그럼 이 혁신적이면서도 논란의 여지가 있는 기능을 어떻게 하면 사용할 수 있을까요? 현재로서는 접근이 상당히 제한적입니다. 앤트로픽은 초기 테스트를 오직 1,000명의 클로드 맥스(Claude Max) 구독자에게만 제공하고 있습니다. 여기서 중요한 건 '맥스' 구독료인데요, 월 100달러 또는 200달러에 달하는, 우리 돈으로 치면 대략 월 13만원에서 26만원(환율에 따라 변동) 정도의 어마어마한 금액입니다.  \n앤트로픽은 향후 몇 주에 걸쳐 더 많은 맥스 구독자에게 초기 접근 권한을 확대할 예정이라고 합니다. 제 생각에는 언젠가는 프로 구독자(월 20달러)에게도 테스트 기회가 주어지지 않을까 조심스럽게 예측해봅니다만, 현재로서는 '그들만의 리그'라고 볼 수 있겠습니다. 지금 당장이라도 기다림 명단에 등록할 수는 있지만, 앞서 언급된 위험을 감수해야 한다는 경고 문구를 간과해서는 안 됩니다. 즉, 악의적인 사용자들로부터 다음과 같은 위험에 노출될 수 있다는 거죠.\n여러분의 계정이나 파일에 접근\n개인 정보 공유\n여러분을 대신한 구매 진행\n의도하지 않은 행동 수행\n음, 단순히 편리함을 얻기 위해 감수하기에는 위험 부담이 너무 크지 않나 하는 생각이 강하게 듭니다. 특히나 월 20만원 이상의 비용을 지불해야 한다는 점을 고려하면 말이죠.\n\n\n\n  핵심 요약\n브라우저 제어 기능: 클로드 AI가 사용자의 브라우저 활동을 파악하고, 직접 웹사이트를 조작하여 작업을 대신 수행합니다.\n잠재적 편리성: 아파트 검색, 음식 주문 등 반복적이거나 시간 소모적인 작업을 AI가 대신 처리해줄 수 있습니다.\n심각한 보안 우려: 프롬프트 인젝션 공격에 취약하며, 초기 테스트에서 악성 지시에 따라 이메일을 삭제한 사례가 보고되었습니다.\n높은 구독료와 제한된 접근: 현재 월 100~200달러의 클로드 맥스 구독자에게만 제공되며, 여전히 여러 위험을 안고 있습니다.\n이 기능은 미래 기술의 한 단면을 보여주지만, 개인 정보 보호와 보안에 대한 신중한 고려가 필요합니다. 과연 그 값어치를 할지는 사용자의 판단에 달려 있습니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 클로드 AI 브라우저 제어 기능의 구독료는 얼마인가요?\n현재 이 기능은 앤트로픽의 최상위 플랜인 클로드 맥스(Claude Max) 구독자에게만 제공되며, 월 100달러 또는 200달러(한화 약 13만원~26만원, 환율에 따라 변동)입니다. 상당히 높은 가격대입니다.\nQ2: 브라우저 제어 기능은 어떤 작업을 대신 해줄 수 있나요?\n웹사이트 탐색, 특정 정보 검색, 온라인 양식 작성, 아파트 매물 찾기, 음식 주문하기 등 사용자를 대신하여 브라우저에서 다양한 작업을 수행할 수 있습니다. 맥락을 이해하고 적절한 조치를 취하는 것이 가능하다고 합니다.\nQ3: 클로드 AI 브라우저 제어 기능 사용 시 보안 위험은 없나요?\n앤트로픽은 '프롬프트 인젝션 공격'과 같은 잠재적 보안 위험이 있음을 인정하고 있습니다. 현재 안전장치를 마련하고 있지만, 사용자의 계정 접근, 개인 정보 공유, 무단 구매 등 악의적인 행위에 노출될 위험이 여전히 존재할 수 있습니다. 아직 초기 테스트 단계라 주의가 필요합니다.\nQ4: 일반 사용자도 이 기능을 곧 사용할 수 있을까요?\n현재는 극히 제한된 클로드 맥스 구독자에게만 초기 접근이 허용되고 있습니다. 앤트로픽은 점진적으로 더 많은 맥스 구독자에게 확대한 뒤, 향후에는 프로 구독자에게도 기회가 주어질 가능성이 있다고 예측해 볼 수 있습니다. 하지만 일반 사용자가 바로 접근하기까지는 상당한 시간이 걸릴 것으로 예상됩니다.\n월 20만원이라는 높은 비용을 감수하면서 클로드 AI의 브라우저 제어 기능을 구독할 가치가 있을까요? 편리함의 극대화를 추구하는 사람들에게는 매력적인 제안일 수 있습니다. 하지만 제 개인적인 생각으로는, 아직은 보안 문제와 주관적인 판단의 영역에서 넘어야 할 산이 많아 보입니다. 당장은 제가 직접 브라우징하고 선택하는 즐거움을 포기할 만큼의 매력은 못 느끼는 게 솔직한 심정입니다.\n물론, 앞으로 기술이 발전하고 안전장치가 더욱 견고해진다면 이야기는 달라질 수 있겠죠. 여러분은 이 혁신적인 기능에 대해 어떻게 생각하시나요? 댓글로 의견을 공유해 주세요!",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483648",
+    "link": "https://muzbox.tistory.com/483648",
     "pubDate": "Fri, 29 Aug 2025 10:53:42 +0900",
     "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
@@ -218,32 +243,15 @@
     ]
   },
   {
-    "id": 14,
-    "imageUrl": "",
-    "title": "@TransactionalEventListener 내부 동작 보기",
-    "description": "📌 개요\n스프링을 사용하다 보면 이벤트 기반 아키텍처를 자주 접하게 된다. 그 중 많이 쓰는 것이 @TransactionalEventListener인데, 적용과 별개로 내부 동작을 파헤치는 곳이 없는 것 같아 아주 조금 확인해보는 시간을 가지려고 한다. \n@TransactionalEventListener는 Spring의 트랜잭션 동기화(Transaction Synchronization) 메커니즘을 활용해 이벤트 실행 시점을 트랜잭션의 상태와 결합합니다. 핵심적으로, 이벤트가 발행될 때 즉시 실행되지 않고, 트랜잭션의 특정 단계(커밋, 롤백 등)에 맞춰 실행되도록 '예약'하는 방식으로 동작한다.\n📌 기본 개념\n기본 이벤트 리스너 vs 트랜잭셔널 이벤트 리스너\n기본 이벤트 리스너\n@Component\nclass OrderEventHandler {\n\n    @EventListener\n    fun handle(event: PaidCompleteEvent) {\n        log.info(\"일반 이벤트 리스너 호출: ${event.orderUUId}\")\n    }\n}\n\n\nApplicationEventPublisher.publishEvent(event) 호출 시 즉시 실행\n트랜잭션과 무관하게 동작\n트랜잭셔널 이벤트 리스너\n@Component\nclass OrderEventHandler {\n\n    @TransactionalEventListener(phase = TransactionPhase.AFTER_COMMIT)\n    fun handle(event: PaidCompleteEvent) {\n        log.info(\"트랜잭션 커밋 이후 실행: ${event.orderUUId}\")\n    }\n}\n\n트랜잭션 경계와 결합\nphase에 따라 실행 시점 제어 가능\n실행 시점 (TransactionPhase)\n@TransactionalEventListener는 트랜잭션의 수명 주기에 맞춰 이벤트를 실행한다.\nPhase\nWhen\n\n\n\nBEFORE_COMMIT\n커밋 직전에 실행\n\n\nAFTER_COMMIT\n커밋 성공 직후 실행 (기본값)\n\n\nAFTER_ROLLBACK\n롤백 직후 실행\n\n\nAFTER_COMPLETION\n커밋/롤백 완료 후 실행 (성공/실패 무관)\n\n\n📌 내부 동작\n1. 이벤트 발행\neventPublisher.publishEvent(new PaidCompleteEvent(...));\n\n\n이 시점에서는 즉시 실행되지 않는다.\n대신, TransactionSynchronizationManager에 \"트랜잭션 끝날 때 실행할 콜백\"을 등록한다.\n2. @TransactionalEventListener의 특별한 처리\n스프링 부트가 실행될 때, TransactionalEventListenerFactory라는 BeanPostProcessor가 등록된다.\n\n이 Factory는 @TransactionalEventListener가 붙은 메서드를 스캔한다. 해당 메서드를 TransactionalApplicationListener라는 특별한 리스너 객체로 감싼다. 즉, \"이 메서드는 단순한 이벤트 리스너가 아니라, 트랜잭션 경계와 관련된 특별한 리스너\"라고 스프링에 알려주는 장치이다.\n역할: @TransactionalEventListener가 붙은 메서드를 스프링 이벤트 리스너로 등록하는 팩토리\n💡 주요 메서드\nsupportsMethod : 특정 메서드가 이벤트 리스너로 등록될 수 있는지 판단\ncreateApplicationListener : 실제 이벤트를 처리할 ApplicationListener 인스턴스를 생성\n\n일반 이벤트 리스너는 ApplicationListenerMethodAdapter를 쓰지만,\n@TransactionalEventListener는 TransactionalApplicationListenerMethodAdapter를 쓴다.\n\n이 어댑터가 트랜잭션과 연동되어 이벤트 실행 시점을 BEFORE_COMMIT, AFTER_COMMIT, AFTER_ROLLBACK, AFTER_COMPLETION으로 맞춰 준다.\n3. 메서드와 이벤트를 연결하는 Adapter : TransactionalApplicationListenerMethodAdapter\n역할 : @TransactionalEventListener 메서드를 감싸서 트랜잭션 라이프사이클에 맞게 실행 시점을 조정하는 어댑터\n@TransactionalEventListener가 붙은 메서드를 감싸서 트랜잭션 동기화 매니저(TransactionSynchronizationManager)에 등록\n지정된 트랜잭션 Phase(BEFORE_COMMIT, AFTER_COMMIT, AFTER_ROLLBACK, AFTER_COMPLETION)에 이벤트 실행 시점을 맞춤\n내부에 여러 메서드가 있지만 내가 생각했을때 onApplicationEvent 메서드가 핵심인것 같다. \n\n트랜잭션이 활성화되어 있을 때\nTransactionalApplicationListenerSynchronization.register(...) 호출 시 이벤트를 즉시 실행하지 않고 예약한다.\n예약된 이벤트는 트랜잭션이 커밋되거나 롤백될 때 실행된다.\n내부적으로 TransactionSynchronizationManager에 등록되어 트랜잭션과 이벤트 실행을 동기화한다.\n트랜잭션이 없지만 fallback 실행이 허용된 경우\nisDefaultExecution()이 true이면, 트랜잭션 없이도 이벤트를 즉시 실행한다.\n단, Phase가 AFTER_ROLLBACK인 경우 경고 로그를 남긴다.\n트랜잭션도 없고 fallback도 허용되지 않은 경우\n이벤트는 무시되고 실행되지 않는다.\n이 메서드 덕분에 트랜잭션 커밋 이후에만 실행해야 하는 로직과, 트랜잭션과 상관없이 바로 실행해도 되는 로직을 명확히 구분할 수 있는 것 같다.\n역할 정리\n너무 이해하기 어렵다. 역할을 단순히 정리를 하자면\n트랜잭션 활성 여부 판단\n이벤트를 즉시 실행할지, 등록할지, 무시할지 결정\n등록이 성공하면 실제 이벤트 실행은 Synchronization에게 위임\n4. 트랜잭션 시점에 맞춰 이벤트 실행을 담당 : TransactionalApplicationListenerSynchronization\n이벤트 실행 자체와 콜백 관리를 책임지는 핵심 메서드:  processEventWithCallbacks()\n\n역할: 트랜잭션 시점에 이벤트를 실제로 실행\n콜백 처리: 이벤트 실행 전(preProcessEvent), 후(postProcessEvent) 콜백 지원\n예외 처리: 이벤트 실행 중 예외 발생 시 postProcessEvent에 예외 전달\n이벤트 실행 메서드 : beforeCommit, afterCompletion\n\n트랜잭션 커밋 전 : beforeCommit (TransactionPhase.BEFORE_COMMIT일 때만)\n트랜잭션이 완료된 후 : afterCompletion\n클래스 역할 정리\n이벤트를 트랜잭션 Commit/Rollback 시점에 실행\nBEFORE_COMMIT, AFTER_COMMIT, AFTER_ROLLBACK, AFTER_COMPLETION 모두 처리 가능\n이벤트 실행 전후로 콜백(pre/post) 처리 가능\n트랜잭션이 없으면 fallbackExecution 옵션에 따라 즉시 실행하거나 무시\n📌 정리\n이벤트 발행: 서비스 계층에서 ApplicationEventPublisher.publishEvent()가 호출\n어댑터 실행: TransactionalApplicationListenerMethodAdapter의 onApplicationEvent 메서드가 호출.\n트랜잭션 동기화 등록: 현재 활성화된 트랜잭션이 있으면, 이벤트와 그 실행 정보를 담은 TransactionalApplicationListenerSynchronization 객체를 TransactionSynchronizationManager에 등록.\n트랜잭션 종료: 트랜잭션이 커밋되거나 롤백되면, TransactionSynchronizationManager는 등록된 TransactionalApplicationListenerSynchronization 객체의 콜백 메서드(beforeCommit 또는 afterCompletion)를 호출.\n이벤트 실행: 콜백 메서드는 @TransactionalEventListener에 지정된 TransactionPhase에 따라 예약된 이벤트 핸들러 메서드를 실제로 호출.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://velog.io/@sweet_sumin/TransactionalEventListener-%EB%82%B4%EB%B6%80-%EB%8F%99%EC%9E%91-%EB%B3%B4%EA%B8%B0",
-    "pubDate": "Fri, 29 Aug 2025 05:32:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "Hack Week 2025: How these engineers liquid-cooled a GPU server",
-    "description": "null",
+    "title": "정규표현식 성능을 높이려면",
+    "description": "정규표현식 메타문자의 성능 우선순위가 있느냐는 질문을 받았다. 일단 메타문자는 검사 범위의 차이를 가지고 있을 뿐, 성능 차이는 없다. 하지만 성능 우열을 결정할 수는 있다. 기준은 내가 찾으려는 문자열의 위치. \n\n\n수량자는 최대 검사모드가 디폴트이기 때문에 .*은 입력 순간 모든 문자를 검사한다. 이후 종료 문자인 b를 찾아야 하는데 b의 위치는 뒤에서 두 번째이므로 한 단계만 뒤로 후퇴하면 끝.\n\n\n\n\n\nb의 위치가 바뀌면?\n\n\n같은 정규표현식임에도 .*으로 모든 문자를 검사한 상태에서 앞부분에 위치한 b를 찾기 위해 수백 단계의 후퇴 과정이 발생한다.\n\n\n\n\n\n수량자 최소 검사모드\n\n\n*?는 최소 검사모드이기 때문에 앞에서부터 하나씩 검사한다. 결과적으로 뒤에서 두 번째 위치하는 b를 찾기 위해 수백 단계의 검사 과정 발생.\n\n\n\n그래서 b가 앞부분에 있을 때는 검사가 순식간에 끝난다.\n\n\n\n정규표현식을 잘 쓰고 싶다면 정규표현식이 아닌 데이터에 집중해야 한다.\n\n정규표현식 3원칙\n\n검사 대상 문자열에 대한 충분한 이해\n뚜렷한 검사 목적\n정규표현식에 대한 충분한 이해 \n\n이 책이 끝날 때까지 이 3원칙, 특히 대상 문자열에 대한 이해의 중요성을 지겹게 강조하는 나를 만나게 될 것이다. - 데이터 분석이 쉬워지는 정규표현식 (57페이지)\n\n\n\n관련 글\n\n정규표현식이 최선일까?\n정규표현식 몰라도 된다",
     "reviews": [],
     "syllabus": [],
-    "link": "https://dropbox.tech/culture/hack-week-2025-liquid-cooling-gpu-server",
-    "pubDate": "Wed, 27 Aug 2025 08:00:00 -0700",
-    "creator": "\r\n                            Catie Keck\r\n            \t\t\t",
-    "categories": [
-      "Culture",
-      "AI",
-      "Developers",
-      "Infrastructure"
-    ]
+    "link": "https://kangmyounghun.blogspot.com/2025/08/blog-post.html",
+    "pubDate": "2025-08-30T06:30:00.004Z",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
