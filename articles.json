@@ -2,21 +2,36 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.1.5 Is Out!",
-    "description": "We’ve released another update for IntelliJ IDEA 2025.1 – v2025.1.5. You can update to this version from inside the IDE, via the Toolbox App, or by using snaps for Ubuntu. You can also download it from our website. This release includes the following updates: To find out more about the resolved issues, please refer to […]",
+    "title": "RubyMine Is Now Free for Non-Commercial Use",
+    "description": "Hold on to your helper methods – RubyMine is now FREE for non-commercial use! Whether you’re learning Ruby and Rails, pushing open-source forward, creating dev content, or building your passion project, we want to make sure you have the tools to enjoy what you do even more… for free. Another chapter in the story We […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/08/intellij-idea-2025-1-5/",
-    "pubDate": "Thu, 28 Aug 2025 16:20:57 +0000",
-    "creator": "Julia Shashkova",
+    "link": "https://blog.jetbrains.com/ruby/2025/09/rubymine-is-now-free-for-non-commercial-use/",
+    "pubDate": "Tue, 02 Sep 2025 10:58:39 +0000",
+    "creator": "Iryna Pisklyarova",
     "categories": [
-      "releases",
-      "bug-fix-update",
-      "intellij-idea-2025-1"
+      "news",
+      "rubymine"
     ]
   },
   {
     "id": 2,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2025.2.1 Is Out!",
+    "description": "We’ve just released the first minor update for IntelliJ IDEA 2025.2 – v2025.2.1. You can update to this version from inside the IDE, via the Toolbox App, or by using snaps for Ubuntu. You can also download it from our website. This release includes the following improvements: To find out more about the resolved issues, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/08/intellij-idea-2025-2-1/",
+    "pubDate": "Fri, 29 Aug 2025 09:34:49 +0000",
+    "creator": "Julia Shashkova",
+    "categories": [
+      "releases",
+      "bug-fix-update",
+      "intellij-idea-2025-2"
+    ]
+  },
+  {
+    "id": 3,
     "imageUrl": "",
     "title": "2025년 튤립 버블 이미 터졌었다 / 중국 보이차 폭락 사건",
     "description": "(뭐냐이거 고사리인가)\n \n영상: https://www.youtube.com/watch?v=udo-O5P6ne0\n\n\n\n \n보이차 1kg 에 5억가던게 현재 5천만원이며 살아날 가승성이 없어보입니다.\n보이차는 오래두면 숙성이라고 해서 가치가 올라가는 이상한 상품인데요\n이때문에 사람들이 사서 보관해두기도하고 뇌물로 주기도 해서 \n부정부패 청산을 위해 여러가지 고치를 하다보니\n보이차 랑 마오타이 술 등의 가격이 맛이 가버렸군요.\n \n모르는 사이에 맛탱이가 가는 사업들이 있었군요",
@@ -33,53 +48,92 @@
     ]
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "내가 가본 우리나라 앱 개발 뒷 이야기",
-    "description": "며칠 전 공개했던 내가 가본 우리나라 웹사이트를 앱으로도 만들어봤습니다.\n안드로이드, 아이폰 그리고 맥 앱까지. (맥은 아직 심사 중이에요)\n간단한 아이디어였고 제가 쓰고 싶은 마음에 만들기도 했지만,\n루비 온 레일즈, Vue.js, React\n계속 이렇게 공부만 하면서 왔다 갔다 해야 하나?\n루비 온 레일즈 8의 기본 기능을 최대한 활용해 보고 싶었습니다.\nHotwire, Stimulus, Turbo, importmap을 통한 외부 종속성 없는 자바스크립트 환경.\nKamal 을 통한 배포.\nSolid Queue를 통한 백그라운드 작업.\nSolid Cache 캐싱.\nsqlite와 홈서버로 프로덕션 환경 운영해 보기.\nHotwire Native를 통한 모바일 앱 개발까지.\n웹사이트를 다 만들고 나서 아주 홀가분했습니다. Hotwire에 대해 거의 아는 게 없었지만 AI 덕분에 수월했어요.\n모바일 앱을 만들기 위해 Hotwire Native와 이틀 정도 씨름하다가…\n결국 플러터를 선택해서 안드로이드, 아이폰, 맥 앱을 만들었습니다.\n클로드 코드로만 작업했고, 제가 직접 코드에 관여한 부분은 없었던 것 같아요.\n여러 작업을 병렬로 안 하고 최대한 순차적으로 진행하려고 노력했습니다.\n규모가 작은 앱이긴 하지만, 이번 작업으로 이 스택에 자신감이 생겼습니다.\n함께 읽으면 좋은 글:\n루비가 느리다고?\n집에서 서버를 운영하는 게 가능한가요?\n진짜 1인 개발자 전성시대",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/08/27/my-korea-map.html",
-    "pubDate": "2025-08-26T15:59:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 4,
     "imageUrl": "",
-    "title": "What’s Next for CLion: The 2025.3 Roadmap",
-    "description": "We’ve begun work on our next major release, 2025.3, which we plan to introduce in November. After reviewing your feedback and our strategic goals, we’ve prioritized the following: 🚀 Transitioning to the CLion Nova language engine as the default. 🏗️ Improvements to project formats and build tools. 🎛️ Improvements to features for embedded development. 🤖 […]",
+    "title": "ICPC World Finals Livestream: ecnerwala and SecondThread Speed-Solving Kotlin Challenge",
+    "description": "Join us live from the ICPC World Finals in Baku, Azerbaijan, for a special event. This year, we are hosting a head-to-head match where two of the world’s top competitive programmers, Andrew ‘ecnerwala’ He and David ‘SecondThread’ Harmeyer, will speed-solve Kotlin problems in real time.  Save the date: September 2, 2025, at 9:30 am UTC […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2025/08/2025-3-roadmap/",
-    "pubDate": "Wed, 27 Aug 2025 14:46:13 +0000",
-    "creator": "Oleg Zinovyev",
+    "link": "https://blog.jetbrains.com/kotlin/2025/08/icpc-world-finals-livestream-ecnerwala-secondthread-kotlin/",
+    "pubDate": "Fri, 29 Aug 2025 19:29:31 +0000",
+    "creator": "Ksenia Shneyveys",
     "categories": [
       "news",
-      "roadmap",
-      "clionnova",
-      "esp32",
-      "junie",
-      "platformio",
-      "qt",
-      "sysbuild",
-      "zephyr-west"
+      "competitive-programming",
+      "icpc",
+      "livestream"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "토스, 첫 기술 경진대회 ‘NEXT ML 챌린지’ 참가자 모집",
-    "description": "‘광고 클릭 예측(CTR) 모델 개발’ 주제로 10월 13일 오전 10시까지 참가 가능",
+    "title": "Cursor의 빠른 속도의 비밀",
+    "description": "Cursor 에디터가 어떻게 이토록 빠르게 작동하는지, 그 기술적 배경을 설명하는 강의영상입니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/nextml",
-    "pubDate": "Sun, 31 Aug 2025 22:00:00 GMT",
+    "link": "https://coolspeed.wordpress.com/2025/09/01/cursor%ec%9d%98-%eb%b9%a0%eb%a5%b8-%ec%86%8d%eb%8f%84%ec%9d%98-%eb%b9%84%eb%b0%80/",
+    "pubDate": "Mon, 01 Sep 2025 14:32:03 +0000",
+    "creator": "coolspeed",
+    "categories": [
+      "AI",
+      "programming",
+      "Cursor",
+      "Vibe-coding"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Roadmap for AI in Visual Studio (September)",
+    "description": "Today, we’re excited to share our public roadmap, which outlines the next steps in evolving Visual Studio with AI-powered agentic experiences. With every month, we aim to deliver smarter, faster, and more intuitive tools that enhance your coding experience. Disclaimer: The items outlined here represent ongoing work for the month. They are not commitments or […]\nThe post Roadmap for AI in Visual Studio (September) appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/roadmap-for-ai-in-visual-studio-september/",
+    "pubDate": "Wed, 27 Aug 2025 18:02:11 +0000",
+    "creator": "Rhea Patel",
+    "categories": [
+      "Copilot",
+      "Visual Studio",
+      "Agent",
+      "Artificial Intelligence",
+      "Chat",
+      "Models",
+      "Roadmap"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "정규표현식 성능을 높이려면",
+    "description": "정규표현식 메타문자의 성능 우선순위가 있느냐는 질문을 받았다. 일단 메타문자는 검사 범위의 차이를 가지고 있을 뿐, 성능 차이는 없다. 하지만 성능 우열을 결정할 수는 있다. 기준은 내가 찾으려는 문자열의 위치. \n\n\n수량자는 최대 검사모드가 디폴트이기 때문에 .*은 입력 순간 모든 문자를 검사한다. 이후 종료 문자인 b를 찾아야 하는데 b의 위치는 뒤에서 두 번째이므로 한 단계만 뒤로 후퇴하면 끝.\n\n\n\n\n\nb의 위치가 바뀌면?\n\n\n같은 정규표현식임에도 .*으로 모든 문자를 검사한 상태에서 앞부분에 위치한 b를 찾기 위해 수백 단계의 후퇴 과정이 발생한다.\n\n\n\n\n\n수량자 최소 검사모드\n\n\n*?는 최소 검사모드이기 때문에 앞에서부터 하나씩 검사한다. 결과적으로 뒤에서 두 번째 위치하는 b를 찾기 위해 수백 단계의 검사 과정 발생.\n\n\n\n그래서 b가 앞부분에 있을 때는 검사가 순식간에 끝난다.\n\n\n\n정규표현식을 잘 쓰고 싶다면 정규표현식이 아닌 데이터에 집중해야 한다.\n\n정규표현식 3원칙\n\n검사 대상 문자열에 대한 충분한 이해\n뚜렷한 검사 목적\n정규표현식에 대한 충분한 이해 \n\n이 책이 끝날 때까지 이 3원칙, 특히 대상 문자열에 대한 이해의 중요성을 지겹게 강조하는 나를 만나게 될 것이다. - 데이터 분석이 쉬워지는 정규표현식 (57페이지)\n\n\n\n관련 글\n\n정규표현식이 최선일까?\n정규표현식 몰라도 된다",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/08/blog-post.html",
+    "pubDate": "2025-08-30T06:30:00.004Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 6,
+    "id": 8,
+    "imageUrl": "",
+    "title": "AI의 독",
+    "description": "전에 내가 AI가 중요한 게 아니라 비즈니스가 더 중요하다는 글을 썼는데, 그 내용의 연장선상의 글이다. 요새 직업상 또는 비직업상 만나는 사람들이, 정도의 차이는 있지만, 모두 다 AI 이야기를 한다. 특히나 창업가들은 AI라는 이 거대한 tech 물결을 어떻게 더 잘 타서 남들보다 더 빨리, 그리고 더 멀리 갈 수 있을지 매일 고민하면서 부서와 업무와는 상관없이 전사적(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/08/be-careful-what-you-ask-for-with-ai.html",
+    "pubDate": "Wed, 27 Aug 2025 21:26:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "FoundersAtWork",
+      "strategy",
+      "technology",
+      "vc"
+    ]
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "코드 품질 개선 기법 18편: 함수만 보고 관계는 보지 못한다",
     "description": "이 글은 2024년 3월 21일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
@@ -91,7 +145,70 @@
     "categories": []
   },
   {
-    "id": 7,
+    "id": 10,
+    "imageUrl": "",
+    "title": "Boost Your Copilot Collaboration with Reusable Prompt Files",
+    "description": "Writing effective prompts for AI tools can be time-consuming and challenging. Cement those efforts by leveraging reusable prompt files. These custom prompts allow for quick access at the prompt box, and they’re automatically stored and shared with your teammates to make it easy to multiply your Copilot successes.   Reusable prompt files solve the prompt-writing challenge  Reusable prompt files let you write, save, and run prompts right […]\nThe post Boost Your Copilot Collaboration with Reusable Prompt Files appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/boost-your-copilot-collaboration-with-reusable-prompt-files/",
+    "pubDate": "Tue, 02 Sep 2025 12:00:42 +0000",
+    "creator": "Jessie Houghton",
+    "categories": [
+      "Visual Studio",
+      "Customization",
+      "GitHub Copilot",
+      "GitHub Copilot Chat",
+      "Prompting"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "A New Ranking Framework for Better Notification Quality on Instagram",
+    "description": "We’re sharing how Meta is applying machine learning (ML) and diversity algorithms to improve notification quality and user experience.  We’ve introduced a diversity-aware notification ranking framework to reduce uniformity and deliver a more varied and engaging mix of notifications. This new framework reduces the volume of notifications and drives higher engagement rates through more diverse [...]\nRead More...\nThe post A New Ranking Framework for Better Notification Quality on Instagram appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/09/02/ml-applications/a-new-ranking-framework-for-better-notification-quality-on-instagram/",
+    "pubDate": "Tue, 02 Sep 2025 16:00:08 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "ML Applications",
+      "Instagram"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "집착이 유니콘을 만든다",
+    "description": "나를 만난 전문직 – 교수, 의사, 변호사, 연예인 등 – 파트타임 창업가들은 잘 알 텐데, 나는 이런 분들한테 투자하지 않는다. 최근 몇 개월 동안 이런 회사들을 몇 개 만났는데, 아직도 이렇게 여러 가지 일을 동시에 완벽하게 할 수 있다고 생각하는 분들이 많다는 것에 좀 놀랐다. 창업이 과거에 비해 더 쉬워졌고, 더 저렴해졌고, 요샌 일부 일을(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/09/only-obsession-will-make-unicorn.html",
+    "pubDate": "Sun, 31 Aug 2025 21:26:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork",
+      "people",
+      "unicorn",
+      "vc"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "토스, 아고다와 업무협약 체결..결제 편의성 강화 및 공동 프로모션 협력",
+    "description": "토스 오규인 부사장, 아고다 줄리아나 리타노  부사장 등 참석",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/agoda",
+    "pubDate": "Wed, 27 Aug 2025 08:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "악역영애 4컷 만화 - 16화, 보답인데스와",
     "description": "No description available",
@@ -105,117 +222,27 @@
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "마치 한 편의 마피아 영화, 마피아: 올드 컨트리",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2352",
-    "pubDate": "Sun, 31 Aug 2025 22:43:23 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "HTTP에 대해 처음 아하 모먼트를 느꼈던 순간",
-    "description": "오래전 HTTP 프로토콜을 공부하다가 느꼈던 기쁜 감정이 떠올랐습니다.\n텔넷으로 웹서버에 접속한 뒤\n\ntelnet example.com 80\n\n\nHTTP 메시지를 스스로 한땀한땀 입력해 봅니다.  \n\nGET /index.html HTTP/1.1\nHost: example.com\nUser-Agent: jeho\n\n\n\n마지막에 빈 줄을 꼭 넣어야 서버가 “아, 요청이 끝났구나” 하고 응답을 줍니다.\n\n마찬가지로 POST 요청도 보내보면서 어떻게 파라메터가 전달되는지도 관찰하고…\n이렇게 기반 프로토콜의 이해를 높여가면 라이브러리도 쉽게 사용할 수 있고 트러블 슈팅도 잘할 수 있게 됩니다.\n\n\n함께 읽으면 좋은 글:\ntypedef 이해하기\n파일시스템 Api 를 공부하기 위한 최고의 프로그램",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/programming/2025/09/01/http-smtp.html",
-    "pubDate": "2025-09-01T03:41:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "전통적인 비즈니스",
-    "description": "2016년에 시작한 대치동 입시 전문 '시대인재' 가 누적 글로벌 가입 9,200만명, MAU 800만, 누적 투자 1,500억의 '콴다' 를 운영하는 매스프레소의 최대 주주가 되었다고 한다.\n'시대인재' 하이컨시, 틱톡 제치고 '매스프레소' 최대주주로\n소프트웨어가 세상을 집어삼키는 시대가 왔고,\nAI가 세상을 다 휩쓸것 같지만,\n불황에는 전통 산업이 소프트웨어 기업을 집어삼키는게 훨씬 쉬워진 것 같다.\n누적 글로벌 가입 9,200만명, MAU 800만이면 정말 성공한 제품이다.\n한국에서 시작한 회사 중 이정도의 성적표를 서비스가 몇개나 있을까 생각한다면 정말 대단한 회사이고 제품이다.\n그럼에도 전통적인 입시 교육 회사가 쉽게 기술과 제품을 살 수 있게 됐다.  \n한국이라는 곳에서 제품을 만든다면 섹터에 따라 글로벌 제품의 방정식이 생각보다 큰 가치를 못낼 수도 있다는걸,\n우리 제품이 속해있는 섹터가 어떻게 돈을 버는지 이해하는 것이 훨씬 더 중요하다는 걸 다시금 느낀다.  \n전통적인 사업을 하는 기업들의 비즈니스가 얼마나 강력한지도 다시금 깨닫고 말이다.\n혼자 자취할때 자주 보던 '오늘의 집'도 이제는 '한샘'과 '이케아'를 본다.\n'리디' 페이퍼를 버전별로 사다가 이제는 다시 교보문고를 찾아간다.\n인터넷 은행을 쓰던 중 이제는 좀 더 예금 이율이 높은 전통 은행에 예금을 넣는다.\n물론 넷플릭스, 쿠팡, 배민, 토스 증권은 여전히 내 일상을 바꾸었지만 다시 원래대로 돌아간 것들이 대단히 많다.\n모두가 넷플릭스, 쿠팡, 배민, 토스와 같을 수 없다는 것도 알게 됐다.  \n스타트업이 세상을 바꾸는 혁신에 대해 함부로 무시해서 안되지만,\n전통 기업이 갖고 있는 비즈니스 모델이 얼마나 단단한지도 함부로 봐선 안된다는 것도 알게 됐다.  \n사업이라는 건 정말 어렵고,\n그걸 20년, 30년 계속 해오신 분들은 정말 대단하신 분들이라는걸 요즘 많이 느낀다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jojoldu.tistory.com/843",
-    "pubDate": "Sun, 31 Aug 2025 18:34:32 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "매스프레소",
-      "사업",
-      "스타트업",
-      "시대인재",
-      "콴다"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "How Kotlin Notebook Helps You Teach Programming",
-    "description": "Kotlin Notebook is a great tool for educators who want to teach programming in a more hands-on way. It lets you combine runnable code, Markdown textual explanations, and visualizations in one interactive environment. There’s no need to switch between multiple windows with slides, live demos, and IDEs during lectures. You can use a single notebook […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/08/how-kotlin-notebook-helps-teach-programming/",
-    "pubDate": "Tue, 26 Aug 2025 19:21:30 +0000",
-    "creator": "Ksenia Shneyveys",
-    "categories": [
-      "news",
-      "education",
-      "education-research",
-      "kotlin-notebook"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Enabling Kotlin incremental compilation on Buck2",
-    "description": "The Kotlin incremental compiler has been a true gem for developers chasing faster compilation since its introduction in build tools. Now, we’re excited to bring its benefits to Buck2 –  Meta’s build system – to unlock even more speed and efficiency for Kotlin developers. Unlike a traditional compiler that recompiles an entire module every time, [...]\nRead More...\nThe post Enabling Kotlin incremental compilation on Buck2 appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/08/26/open-source/enabling-kotlin-incremental-compilation-on-buck2/",
-    "pubDate": "Tue, 26 Aug 2025 16:00:52 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Open Source"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "오픈챗 메시지들로부터 트렌딩 키워드 추출하기",
-    "description": "들어가며안녕하세요. AI Services Lab 팀의 ML 엔지니어 박희웅입니다. 저희 팀에서는 LINE 오픈챗과 관련해 다양한 AI/ML 모델을 개발해 서빙하고 있는데요. 지난 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/extracting-trending-keywords-from-openchat-messages",
-    "pubDate": "Fri, 29 Aug 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "[MULTI] 이제는 익숙해지고 무뎌진 각별함과 황홀함, 소드 오브 더 씨",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2353",
-    "pubDate": "Mon, 01 Sep 2025 17:08:18 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "300만 줄의 코드로 배운 것들",
-    "description": "+270만, -240만, 290개\n이건 내가 처음부터 끝까지 서비스 하나를 만들고 약 4년간 작성해본 코드 양이며, 모듈 숫자이다.\n혼자 서비스를 하면서 선택한 아키텍처 덕분에 안정적인 서비스를 해볼 수 있었다. 정승욱님이 발표한 코드 제로 관련에 나온 코드를 기반하여 수정하고 개선한 프로젝트를 사용했다.\n최근엔 iOS 개발도 약 10개월 진행하였는데 iOS TCA를 이해하면서 작성한 코드 역시 +46만 줄, -32만 줄 수정하였다.\n안드로이드 개발자가 본 iOS TCA 살펴보기\n이 글에서는\n4년간 서비스를 만들며 다듬어온 실용적인 모듈화 전략\n인터페이스 분리 원칙(ISP)을 적용해 빌드 속도를 개선한 경험을 소개\n시나리오 기반의 유닛 테스트 방법\n모듈화\n모듈화의 목적은 무엇일까? 클린 아키텍처를 사용하기 위해서는 모듈화를 해야 한다는 이야기가 있다.\n그렇지 않다. 필자의 모듈은 크게 4가지로 나뉜다.\nCore: UI를 제외한 기본 동작을 처리하는 모듈, 여기에는 테스트용 모듈도 포함된다.\nCore-App: 앱 내에서 사용하기 위한 디자인 시스템, UI를 포함하는 모듈이다. 이 역시 테스트 용도 모듈이 포함된다.\nData: 일반적으로 클린 아키텍처의 data, domain, data store 등을 포함한다.\nFeature: 화면을 기준으로 정리한 모듈\n2개의 Core를 나눈 이유는 완전 기본 동작을 위한 코드와 앱 내에서 UI를 포함하는 부분을 나누기 위함이다. 그 말은 core는 어디서든 사용할 수 있음을 뜻하는 완전 코어한 모듈이다.\nISP(인터페이스 분리 원칙)\n모든 코드는 인터페이스 분리 원칙을 기반한 모듈화 구성이다.\n다음 구성에 대한 참고 : 드로이드 나이츠 코드를 참고하면 이를 볼 수 있다.\ninterface를 정의하는 모듈 하나\n구현체를 정의하는 모듈\n테스트 시에 가져다 사용할 Fake 모듈\nFeature에는 interface를 기반하여 모든 코드를 구성하고, 테스트를 위한 fake 모듈을 기반하여 테스트를 진행할 수 있다.\n구현체 모듈을 수정하더라도 interface를 바라보는 모듈은 재빌드 대상에서 제외되기 때문에 더 빠른 개발이 가능한데, 일반적으로 1분에서 최대 3분 이내 빌드 가능해 빠른 개발이 가능했었다.\n이건 단순 모듈의 분리가 아닌 interface를 바라보도록 만든 구조 덕분에 가능했다고 생각한다.\n다만, core를 수정한다면 implementation이 feature의 구현체들이 참조하기 때문에 오랜 시간 걸릴 수 있다.\n서버에서 내려주는 오류에 따른 응답 처리\n서버 응답에 대한 처리는 서버에서 Alert/Toast 등의 노출도 제어할 수 있도록 개발하였다.\n이에 따라 Error 발생 시 모든 기본 응답은 서버에서 내려주는 대로 노출할 수 있게 되었다. 화면 별로 처음 로드하는 기준을 정하고, 재시도 가능한 형태를 구분하여 개발하였다.\n데이터\n네트워크 모듈의 interface를 주입받아 사용한다. 로컬 데이터는 앱의 성격상 정말 필요한 경우가 아니라면 사용할 일은 없다. 보통 금융 관련은 로컬에 데이터를 저장하는 선택보단 실시간 데이터가 더 중요하다.\n금융 앱의 특성상 데이터를 저장할 때는 기본 Android Keystore를 활용하여 저장하고 값을 꺼내 사용한다.\n도메인은 사용했나?\n도메인은 이전 글에서 작성했지만 클라이언트 아키텍처에 대한 단상 - ‘서버’가 진짜 ‘도메인’ 아닐까? 정말 필요하지 않은 이상 사용하지 않았다.\n1개 이상의 repository에 접근해서 서로 다른 데이터의 합이 필요한 경우 사용하였다. 지금 공부하는 개발자들은 안드로이드 아키텍처에 가깝다고 생각하겠지만, 지금까지 꾸준히 MVP > MVVM > 클린 아키텍처 적용을 해본 개발자들이라면 원래 그런 것 아니야? 라는 생각을 하는 것은 당연하다. 필자도 오랜 기간 단순 포워딩하는 것이 필요하지 않음을 알고 있다.\nView\n뷰와 뷰모델의 사용은 그냥 흔한 방식이다. UiState를 활용해 데이터를 처리하도록 만들었고, 이때 @Immutable, @Stable을 붙여 사용하였다.\n\n@Immutable\ndata class SomeUiState(\n    val items: ImmutableList<String>,\n    val showProgress: Boolean,\n    val showPlaceholder: Boolean,\n) {\n\n    companion object {\n        \n        val Default = SomeUiState(\n            items = persistentListOf(),\n            showProgress = false,\n            showPlaceholder = false,\n        )\n\n        val Placeholder = Default.copy(\n            showPlaceholder = true,\n            items = persistentListOf(\"a\", \"b\"),\n        )\n    }\n}\n\n\n위와 같은 형태이다. 리컴포지션을 중요하게 생각하니 ImmutableList 역시 사용한다.\nCompose는 일반적인 방식이며, Stateful, Stateless를 구분하여 사용하며\nSomeRoute: Navigation에서 불러지는 화면\nSomeScreen: Route에서 불러다 사용하는 내부의 internal fun SomeScreen()\nSomeComponent: Screen을 조합하는 모든 구성 요소는 Component를 활용한다.\n    \n당연하지만 Component는 Stateless 형태로 작성해야 한다. 다만 모듈의 위치에 따라 data class를 전달받기도 한다.\n시나리오 기반 테스트\n모든 ViewModel의 로직은 UnitTest를 포함하는데, 2023 드로이드 나이츠 발표자료에서 일부 소개한 방식을 사용한다.\n아래와 같은 시나리오 기반의 코드가 가능하다.\n사용자가 버튼을 누른다.\n입력값이 있다면 flow를 진행하고, 그렇지 않다면 filter에 걸린다.\nUiState 상 프로그레스를 실행한다.\n동의 화면이(Alert/BottomSheet 등)이 뜨면 응답에 따라 동작이 달라진다.\n    \nYes 진행하고 네트워크 통신을 시작한다.\nNo 진행을 중단하고 프로그레스를 원래 상태로 되돌린다.\n네트워크 응답에 따라\n    \n실패하면 서버에서 내려주는 Alert/Toast 등을 노출하고 프로그레스를 되돌린다.\n성공하면 완료 처리한다.\n위의 모든 단계를 UnitTest에서 테스트하고 버튼의 복구까지 이어지는 UiState의 상태를 확인하는 식으로 개발하였다. 모두 완벽하진 않다. 다만 UiTest를 하지 않아도 UnitTest 만으로 어느 정도 범위에서 안정적인 서비스가 가능하다는 장점을 가진다.\n이런 테스트는 1,000개가 넘게 포함되어 있었다.\nKSP를 활용한 Hilt Module 정의\n메모리상 빠르게 사라질 수 있도록 하려고 Data 모듈에 대한 정의는 Activity 라이프사이클에 따르도록 만들었고, 정말 필요한 경우가 아니라면 싱글턴은 최소한으로 사용하였다.\n이런 부분도 자동화를 하고 싶었고, KSP를 활용해 자동화했다. 기존에는 Dagger를 활용하였는데, Hilt를 사용함으로써 더 간결해졌다.\nKSP를 활용해 Hilt 모듈을 자동으로 생성할 수 있도록 만들어 사용하였는데, Kilt(Kotlin + Hilt)를 별도로 만들어 두었다.\n@KiltGenerateModule을 추가하면 자동으로 Hilt의 @Module을 만들어주는 역할을 한다.\n참고 : Dagger를 사용하면 사실상 빌드 시간이 더 단축된다. Hilt는 수동으로 구성하던 많은 코드를 자동으로 만드는데 이 역할은 Android Studio의 플러그인이 해주고 있다. 다만 빌드 시간이 늘어날 수밖에 없다.(사실 Dagger일 때 1-2분이었지만 3분 이상으로 늘기도 했다)\n수많은 모듈\n수많은 모듈에서는 당연하지만 결국 모듈의 관리가 가장 중요하다.\nAndroid에서 효율적인 모듈 디펜던시 관리하기, build-logic으로 전환하기?\nbuild-logic을 사용하는 것은 어찌 보면 필수이다. 최소한의 코드를 사용하여 build.gradle.kts를 관리하여야 한다.\n그리고 필자는 사실상 App 모듈을 수정하지 않는 것을 선호한다. 사실 만들고 나면 고칠 일은 거의 없다. 모두 피처 모듈의 형태를 띠고 있으니 더더욱 수정할 일은 없다.\n그럼 implementation은 어떻게 하는가? 위 글에도 나오긴 하지만 이제 저 방식으로도 힘들다.\n그래서 수정한 코드 방식은 아래와 같다.\n\ndependencies {\n    rootProject.subprojects.filterProject {\n        implementation(it)\n    }\n}\n\n\n필터는 왜 필요한가? 모든 모듈이 하위에 바로 위치하는 것은 아니다. :폴더:폴더:모듈 의 형태를 가지는 경우가 더 흔하다. 그래서 filter를 통해 구분한다.\n\nfun Set<Project>.filterProject(\n    body: (target: Project) -> Unit,\n) {\n    forEach { project ->\n        if (project.name != \"app\" && project.buildFile.isFile) {\n            body(project)\n        }\n    }\n}\n\n\n사실상 위에서부터 순서대로 settings.gradle.kts에 정의한 모든 모듈을 참조하기에 app 모듈이 아닌 경우를 구분해야 한다.\n어찌 보면 단점이다. 기존엔 그냥 특정 모듈을 바로 공통으로 접근할 수 있었는데, 그렇지 않아서 수정한 상태다.\n레거시 ViewModel에서 AAC-ViewModel로\nAAC-ViewModel을 사용하지 않았다. 이유는 굳이 써야 할 이유가 없었다.\n하지만 안드로이드 16이 나오면서 이제 AAC-ViewModel을 꼭 사용하긴 해야 한다. 그렇지 않다면 데이터 savedstate를 처리해 주어야 한다. 안드로이드 16부터는 폴더블 기기 600dp 부터 화면 회전이 강제화된다. 회전을 막는다고 하더라도 무시되고 동작한다.\n예외를 하면 회전했을 때 좌우에 여백을 공백으로 만들 뿐 회전을 막는 것 역시 아니다. 근데 최근에 이거 안 쓰는 개발자가 있을까 싶다.\niOS TCA\nTCA를 처음부터 한 것은 아니고 중간부터 투입되어 개발하게 되었다.\n안드로이드 개발자가 본 iOS TCA 살펴보기\nTCA는 리덕스로 작성되어 있다. 다행히도 안드로이드 개발에서 사용하던 플로우 이벤트 처리 방식을 그대로 이어가면서 개발이 가능하였다는 점이다. 적응하는 시간은 오래 걸렸다. 일반적으로 UiState를 리턴하는 리액트 방식과는 다르게 다음 액션을 전달하는 방식의 차이가 있다. 그래서 이후 안드로이드 아키텍처를 만들면서 소개한 내용과 이어진다.(블로그 글 참고)\n10개월이라는 짧은 기간 동안 TCA를 사용해보면서 느낀 점은 딱 하나. 오류 위치를 알려주지 않는다. 의외로 해결법은 간단한데, 코드를 분리해야 한다. 코드를 분리한다고 하여도 오류를 잘 알려주는 것은 아니다.\n그냥 어딘가 문법 오류가 있다. 끝. 일일이 주석 처리해 가면서 찾아야 한다. 다행히 런타임 오류가 아닌 것이 어디인가 싶다.\n그리고 또 하나 경험한 내용은 앱의 이름 덕분에 앱이 그냥 종료되어지는 오류도 만나보았다. 특정 버전의 OS에서만 오류가 발생하였다. 의심 가는 걸 Gemini와 GPT 둘 다에게 질문했지만 찾지 못했다. 결국 감으로 찾은 이유는 앱 이름이 겹쳐서였다는 사실이다.\n앱이 그냥 아무 이유 없이 꺼지는데 분석을 자세히 해보면 더 빨리 찾았겠지만 iOS 경험이 많지 않은 상태에서 AI가 없었다면 며칠 걸렸을지도 모르지만 다행히 하루 만에 이유를 찾고 해결해보았다.\n결국\n결국 요구사항을 잘 반영하는 코드를 만들고 싶은 욕심과 AI를 더 잘 활용하는 방법 등이 있다.\nTCA를 하면서 한 가지 느낀 점은 굳이 Data 모듈도 나누어야 할까? 라는 의문이다. 자동화를 통해 Data 모듈도 KSP로 JSON 통신하는 것을 만들고, 이것을 API 정의한 것에 연동하는 과정을 만들면 더 쉬운 개발도 가능하다는 점이다.\n그런 관점에서 이전에 작성한 도메인 관련 글의 인사이트를 다시 얻게 되었다.\n마무리\n약 4년 동안 입력한 코드 양만 합산 316만 줄이다. 여기에는 자동으로 생성되어지는 json이나 파일들이 있을 거니 이런 걸 제외하더라도 300만 줄의 코드를 쳤다는 것이긴 하다. 단순히 파일 이동도 있으니 더 제외하면 더 줄어들겠지만.\n코드양이 많다고 많은 걸 해본 것도 아니다. 그냥 즐겁게 코드를 입력하고, 이해하기 위해서 기존의 코드를 가져와 그대로 사용하지 않고 직접 입력하면서 이해하는 것을 우선하려고 노력하였다. 다행히 이를 통해 더 많은 코드를 수정하고 반영할 수 있었다.\n다만 누구나 이 코드를 수정할 수 있는가? 뷰는 가능하지만 core는 어렵다. 기본적인 이해를 바탕으로 하기에는 프레임워크를 이해해야 하는 것과 같다.",
+    "title": "월 20만원 클로드 AI 구독? 브라우저 제어 기능, 과연 그 값어치를 할까",
+    "description": "월 20만원이라는 거액을 들여 클로드 AI의 브라우저 제어 기능을 구독해야 할까요? 앤트로픽의 새로운 크롬 확장 프로그램이 우리의 웹 브라우징 경험을 어떻게 바꾸고, 어떤 잠재적 위험을 안고 있는지 심층적으로 분석합니다. 이 혁신적인 기능이 과연 그 값어치를 하는지 함께 고민해 보세요.\n요즘 AI 기술 발전 속도가 정말 무섭다는 생각을 많이 하는데요, 여러분은 어떠세요? 특히 앤트로픽(Anthropic)의 클로드(Claude) AI가 최근 공개한 기능은 저를 깜짝 놀라게 했습니다. 바로 '브라우저 제어' 기능인데요. 아니, AI가 내 브라우저를 직접 조작한다고? 솔직히 처음 들었을 때 기대보다는 좀 묘한 불안감이 앞섰어요. 과연 이 기능이 우리에게 어떤 의미를 가지며, 또 월 20만원에 달하는(?) 구독료가 과연 합당한지, 오늘은 저와 함께 이 흥미로운 주제를 파헤쳐볼까 합니다.\n앤트로픽은 최근 클로드 AI의 크롬 확장 프로그램을 공개하며, 특정 사용자들을 대상으로 이 기능을 시험하고 있다고 발표했어요. 이 확장 프로그램은 클로드가 사용자의 브라우저 활동을 '볼 수' 있게 할 뿐만 아니라, 심지어는 사용자를 대신해 '작업을 수행할 수' 있도록 한다고 합니다. 마치 미래 영화에서 보던 일이 현실이 되는 것만 같은 느낌이죠. 그런데 말입니다, 이 미래가 정말 우리가 원하던 미래일까요?  \n\n\n  클로드 AI의 브라우저 제어 기능, 무엇이 가능할까?\n클로드 AI의 브라우저 제어 기능은 크게 두 가지 측면에서 작동합니다. 하나는 '맥락 이해 능력'의 강화이고, 다른 하나는 '실제 브라우저 조작'입니다. 이 두 가지가 합쳐지면 상상 이상의 시너지를 낼 수 있다고 하는데요, 자세히 한번 들여다보죠.\n \n\n\n\n \n브라우저 내용 파악 및 응답 개선\n가장 기본적인 기능은 클로드가 사용자가 브라우저에서 무엇을 하고 있는지 실시간으로 파악하는 것입니다. 예를 들어, 제가 어떤 기사를 읽고 있다면 클로드는 그 내용을 이해하고 제가 던지는 질문에 훨씬 더 정확하고 맥락에 맞는 답변을 해줄 수 있게 되는 거죠. 마치 옆에서 제 활동을 지켜보며 언제든 조언해 줄 준비가 된 비서 같다고 할까요? 확장 프로그램 내 챗봇 창을 통해 이런 상호작용이 가능하다고 합니다.\n브라우저 직접 제어: 미래인가, 과도한 개입인가?\n앤트로픽의 비전은 여기서 멈추지 않습니다. 클로드는 단순히 맥락을 파악하는 것을 넘어, 직접 브라우저를 조작하여 사용자를 대신해 작업을 수행할 수 있습니다. 상상만 해도 대단하지 않나요? 몇 가지 예시를 통해 이 기능을 좀 더 구체적으로 살펴보겠습니다.\n  예시 1: 아파트 매물 찾기\n여러분, 이사할 집을 찾아본 경험 있으시죠? 앤트로픽은 사용자가 Zillow(해외 부동산 웹사이트)에서 아파트를 찾을 때, 클로드에게 원하는 조건을 말하면 클로드가 직접 Zillow에 접속해 매물을 검색하고, 가장 적합한 목록을 찾아 공유해 줄 수 있다고 설명합니다. 심지어 어떤 페이지 콘텐츠를 읽어야 하는지 등 필요한 권한까지 사용자에게 알려준다고 해요.\n  예시 2: 음식 주문하기\n저녁 메뉴를 고르다가 '마늘 면'이 갑자기 당기는 날이 있죠? 클로드에게 DoorDash(해외 배달 앱)에서 평점 좋은 마늘 면 식당을 찾아 장바구니에 담아달라고 요청할 수 있습니다. 클로드는 DoorDash 홈페이지를 인식하고, '마늘 면'을 검색창에 입력한 뒤 엔터 키를 누르는 일련의 과정을 직접 보여준다고 합니다. 이거, 거의 SF 영화의 한 장면 아닌가요?\n음... 솔직히 말해서, 광고하는 대로 작동한다면 정말 엄청난 기능임은 분명합니다. 하지만 제가 직접 써보니, 아니 솔직히 말하면 아직 써보지 못했지만 상상해볼 때, 과연 모든 일에 AI의 도움을 받아야 할까 하는 의문이 들어요. 저는 새로운 아파트를 찾아보는 과정이나, 맛있는 저녁 식당을 고르는 과정에서 나름의 즐거움을 느끼거든요. 클로드가 어떤 기준으로 '나에게 맞는' 아파트를 고르고, 어떤 식당의 '마늘 면'이 가장 맛있을 거라고 판단할 수 있을까요? 이런 주관적인 선택들은 여전히 사람의 몫이라고 생각합니다.\n\n\n⚠️ 편리함 뒤에 숨겨진 위험: 클로드 AI와 보안 문제\n아무리 편리하다고 해도, AI가 내 브라우저를 직접 제어한다는 것은 필연적으로 보안 문제와 연결될 수밖에 없습니다. 앤트로픽 역시 이 부분에 대해 투명하게 언급하고 있는데요, 중요한 것은 우리가 어떤 위험을 감수해야 하는지 정확히 알아야 한다는 점입니다.\n프롬프트 인젝션 공격의 위험성\n앤트로픽은 AI 브라우저가 '프롬프트 인젝션 공격'에 취약할 수 있다고 인정했습니다. 이는 악의적인 행위자가 AI 모델에 악성 지시를 삽입하여 오작동을 유도하는 사이버 공격의 일종입니다. 테스트 결과, 안전장치를 구현하기 전에는 이런 공격의 성공률이 무려 23.6%에 달했다고 해요.\n⚠️ 끔찍한 예시: 메일함 삭제 공격\n실제로 앤트로픽의 한 테스트에서, 클로드 AI는 악성 지시가 담긴 이메일을 읽고는 사용자의 메일함에 있는 모든 이메일을 삭제하는 명령을 그대로 수행했다고 합니다. 상상만 해도 아찔하죠? 소중한 메일들이 한순간에 사라진다면... 정말 생각하기도 싫습니다.\n앤트로픽의 안전장치와 현재의 한계\n다행히 앤트로픽은 이러한 보안 우려를 해소하기 위해 여러 안전장치를 마련하고 있다고 밝혔습니다. 사용자에게 사이트별 권한을 제어할 수 있는 기능을 제공하고, 콘텐츠 게시, 구매, 개인 정보 공유와 같은 '고위험' 작업 전에 반드시 사용자에게 확인을 거치도록 한다고 해요. 또한, 클로드의 개인 데이터 처리 방식에 대한 지침을 개선하고, 금융 거래나 성인/불법 콘텐츠 관련 사이트 등 '고위험 사이트'에 대해서는 아예 접근을 차단했다고 합니다. 이런 노력들은 분명 긍정적입니다. 하지만... 그럼에도 불구하고 아직은 초기 단계라 조심스러울 수밖에 없다는 게 제 생각입니다. 계속해서 안전장치를 보강 중이며, 그래서 현재는 테스트 규모도 매우 제한적이라고 하네요.\n\n\n  월 20만원? 클로드 AI 브라우저 제어 기능, 어떻게 사용할 수 있나?\n자, 그럼 이 혁신적이면서도 논란의 여지가 있는 기능을 어떻게 하면 사용할 수 있을까요? 현재로서는 접근이 상당히 제한적입니다. 앤트로픽은 초기 테스트를 오직 1,000명의 클로드 맥스(Claude Max) 구독자에게만 제공하고 있습니다. 여기서 중요한 건 '맥스' 구독료인데요, 월 100달러 또는 200달러에 달하는, 우리 돈으로 치면 대략 월 13만원에서 26만원(환율에 따라 변동) 정도의 어마어마한 금액입니다.  \n앤트로픽은 향후 몇 주에 걸쳐 더 많은 맥스 구독자에게 초기 접근 권한을 확대할 예정이라고 합니다. 제 생각에는 언젠가는 프로 구독자(월 20달러)에게도 테스트 기회가 주어지지 않을까 조심스럽게 예측해봅니다만, 현재로서는 '그들만의 리그'라고 볼 수 있겠습니다. 지금 당장이라도 기다림 명단에 등록할 수는 있지만, 앞서 언급된 위험을 감수해야 한다는 경고 문구를 간과해서는 안 됩니다. 즉, 악의적인 사용자들로부터 다음과 같은 위험에 노출될 수 있다는 거죠.\n여러분의 계정이나 파일에 접근\n개인 정보 공유\n여러분을 대신한 구매 진행\n의도하지 않은 행동 수행\n음, 단순히 편리함을 얻기 위해 감수하기에는 위험 부담이 너무 크지 않나 하는 생각이 강하게 듭니다. 특히나 월 20만원 이상의 비용을 지불해야 한다는 점을 고려하면 말이죠.\n\n\n\n  핵심 요약\n브라우저 제어 기능: 클로드 AI가 사용자의 브라우저 활동을 파악하고, 직접 웹사이트를 조작하여 작업을 대신 수행합니다.\n잠재적 편리성: 아파트 검색, 음식 주문 등 반복적이거나 시간 소모적인 작업을 AI가 대신 처리해줄 수 있습니다.\n심각한 보안 우려: 프롬프트 인젝션 공격에 취약하며, 초기 테스트에서 악성 지시에 따라 이메일을 삭제한 사례가 보고되었습니다.\n높은 구독료와 제한된 접근: 현재 월 100~200달러의 클로드 맥스 구독자에게만 제공되며, 여전히 여러 위험을 안고 있습니다.\n이 기능은 미래 기술의 한 단면을 보여주지만, 개인 정보 보호와 보안에 대한 신중한 고려가 필요합니다. 과연 그 값어치를 할지는 사용자의 판단에 달려 있습니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 클로드 AI 브라우저 제어 기능의 구독료는 얼마인가요?\n현재 이 기능은 앤트로픽의 최상위 플랜인 클로드 맥스(Claude Max) 구독자에게만 제공되며, 월 100달러 또는 200달러(한화 약 13만원~26만원, 환율에 따라 변동)입니다. 상당히 높은 가격대입니다.\nQ2: 브라우저 제어 기능은 어떤 작업을 대신 해줄 수 있나요?\n웹사이트 탐색, 특정 정보 검색, 온라인 양식 작성, 아파트 매물 찾기, 음식 주문하기 등 사용자를 대신하여 브라우저에서 다양한 작업을 수행할 수 있습니다. 맥락을 이해하고 적절한 조치를 취하는 것이 가능하다고 합니다.\nQ3: 클로드 AI 브라우저 제어 기능 사용 시 보안 위험은 없나요?\n앤트로픽은 '프롬프트 인젝션 공격'과 같은 잠재적 보안 위험이 있음을 인정하고 있습니다. 현재 안전장치를 마련하고 있지만, 사용자의 계정 접근, 개인 정보 공유, 무단 구매 등 악의적인 행위에 노출될 위험이 여전히 존재할 수 있습니다. 아직 초기 테스트 단계라 주의가 필요합니다.\nQ4: 일반 사용자도 이 기능을 곧 사용할 수 있을까요?\n현재는 극히 제한된 클로드 맥스 구독자에게만 초기 접근이 허용되고 있습니다. 앤트로픽은 점진적으로 더 많은 맥스 구독자에게 확대한 뒤, 향후에는 프로 구독자에게도 기회가 주어질 가능성이 있다고 예측해 볼 수 있습니다. 하지만 일반 사용자가 바로 접근하기까지는 상당한 시간이 걸릴 것으로 예상됩니다.\n월 20만원이라는 높은 비용을 감수하면서 클로드 AI의 브라우저 제어 기능을 구독할 가치가 있을까요? 편리함의 극대화를 추구하는 사람들에게는 매력적인 제안일 수 있습니다. 하지만 제 개인적인 생각으로는, 아직은 보안 문제와 주관적인 판단의 영역에서 넘어야 할 산이 많아 보입니다. 당장은 제가 직접 브라우징하고 선택하는 즐거움을 포기할 만큼의 매력은 못 느끼는 게 솔직한 심정입니다.\n물론, 앞으로 기술이 발전하고 안전장치가 더욱 견고해진다면 이야기는 달라질 수 있겠죠. 여러분은 이 혁신적인 기능에 대해 어떻게 생각하시나요? 댓글로 의견을 공유해 주세요!",
     "reviews": [],
     "syllabus": [],
-    "link": "https://thdev.tech/review/2025/08/31/Review-Android/",
-    "pubDate": "Sun, 31 Aug 2025 00:00:00 +0000",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://muzbox.tistory.com/483648",
+    "pubDate": "Fri, 29 Aug 2025 10:53:42 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "AI 구독료",
+      "AI 보안 문제",
+      "AI 자동화",
+      "브라우저 제어",
+      "앤트로픽",
+      "인공지능 확장 프로그램",
+      "크롬 확장 프로그램",
+      "클로드 ai",
+      "클로드 맥스",
+      "프롬프트 인젝션"
+    ]
   }
 ]
