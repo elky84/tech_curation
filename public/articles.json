@@ -2,54 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "What’s New in vcpkg (August 2025)",
-    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.08.27 registry release as well as changes to vcpkg documentation throughout August. There were no tool changes as of the date of the registry release in August, though more changes will be listed in the next release in September. Some stats […]\nThe post What’s New in vcpkg (August 2025) appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-august-2025/",
-    "pubDate": "Fri, 05 Sep 2025 03:24:22 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "습관을 형성하는 기계",
-    "description": "얼마 전에 한 팟캐스트에서 습관에 대해 연구하는 작가의 인터뷰를 들었다. 이분이 최근에 출시한 책은 습관은 무엇이고, 어떻게 하면 큰 목표를 달성하기 위한 습관을 형성할 수 있는지에 대한 내용인데, 이 책을 출간하면서 가장 많이 참고했던 게 군대이고, 가장 많이 인터뷰했던 사람들이 군인이라고 한다. 특히 작가가 했던 말 중 내 기억에 인상 깊게 남았던 말은 “군대는 습관을(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/09/the-habit-forming-machine.html",
-    "pubDate": "Wed, 10 Sep 2025 21:28:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "inspiring",
-      "people"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Testing AI Coding Agents With TeamCity and SWE-bench",
-    "description": "Introduction AI coding agents are no longer research experiments. They are quickly becoming practical tools that can help developers solve real problems.  But how do you know whether an agent is good enough for serious use? How do you measure progress when its answers are not always predictable and when there may be various correct […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/09/testing-ai-coding-agents-with-teamcity-and-swe-bench/",
-    "pubDate": "Thu, 11 Sep 2025 08:35:30 +0000",
-    "creator": "Sergei Ugdyzhekov",
-    "categories": [
-      "ai",
-      "ai-agent"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
     "title": "Microsoft C++ Team at CppCon 2025",
     "description": "It’s that time of year again! We are excited to see you all at CppCon this year, where we’ll once again be delivering a variety of presentations, from the latest advancements in debugging technology to extensibility frameworks for AI agents. See the end of this post for a listing of all of the sessions […]\nThe post Microsoft C++ Team at CppCon 2025 appeared first on C++ Team Blog.",
     "reviews": [],
@@ -64,98 +16,45 @@
     ]
   },
   {
+    "id": 2,
+    "imageUrl": "",
+    "title": "“GoLand Can Do That?” Ten Secret Superpowers You Might Not Know",
+    "description": "Note: This is a guest post from John Arundel, a Go writer and teacher who blogs at bitfieldconsulting.com. His most recent book is The Deeper Love of Go. How do you break it to someone that they’ve wasted most of their life? Well, I worked with a guy who didn’t know how to copy and […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2025/09/08/goland-can-do-that-ten-secret-superpowers-you-might-not-know/",
+    "pubDate": "Mon, 08 Sep 2025 18:05:06 +0000",
+    "creator": "Anna Protsenko",
+    "categories": [
+      "features"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "LLM 동작 메커니즘과 최신 기술 분석",
+    "description": "이 글은 LLM 동작 메커니즘과 최신 기술 분석 내용을 나눔한다.\n\n\n\nMoE 개념\n\n최신 대규모 언어모델의 기술적 기법들은 크게 효율성과 성능 향상을 동시에 추구하는 방향으로 발전하고 있다. 우선 혼합 전문가 구조라 불리는 MoE 기법은 수많은 전문가 모듈 중 일부만 선택적으로 활성화하여 연산 효율을 극대화하는 방식이다. 게이트 네트워크가 입력 토큰의 은닉 상태를 보고 가장 적합한 전문가를 확률적으로 선택하고 선택된 전문가만 계산에 참여하기 때문에 전체 연산량은 줄어들면서도 특정 전문가가 특정 패턴에 특화되도록 학습된다. 이 과정에서 균형을 잡기 위해 부가적인 로드 밸런싱 손실이 함께 도입된다.\n또한 파라미터 효율적 미세조정 기법들이 각광받고 있다. LoRA와 같은 방법은 거대한 모델의 전체 파라미터를 업데이트하지 않고 저차원 어댑터 행렬만 학습해도 충분히 성능을 낼 수 있도록 한다. 이 방식은 저장 공간과 학습 자원을 크게 줄이면서도 다양한 도메인에 빠르게 적응할 수 있다는 장점이 있다.\n양자화와 프루닝 역시 중요하다. 양자화는 모델 파라미터를 16비트나 8비트 같은 저정밀도로 표현하여 메모리 사용량과 연산 속도를 개선한다. 프루닝은 중요도가 낮은 가중치를 제거함으로써 모델 크기를 줄이고 효율을 높인다. 이 두 기법은 실제 배포 환경에서의 속도와 비용 문제를 해결하는 핵심적 방법으로 활용된다.\n메모리와 추론 속도를 개선하기 위한 기법으로는 효율적 어텐션 구조가 있다. 전통적인 어텐션은 시퀀스 길이에 따라 연산량이 제곱으로 늘어나는데 이를 완화하기 위해 플래시 어텐션과 같은 최적화 기법이 개발되었다. 이 방식은 GPU의 메모리 대역폭을 최대한 활용하면서도 연산을 줄여 긴 시퀀스 처리 능력을 크게 향상시킨다.\n데이터 품질과 안전성을 강화하기 위한 학습 전략도 주목된다. 인간 피드백을 통한 강화학습 기법인 RLHF는 모델이 단순히 언어를 생성하는 수준을 넘어 사용자의 의도와 선호를 반영하도록 만든다. 최근에는 직접적인 강화학습 대신 선호 데이터만으로 지도학습을 수행하는 DPO와 같은 방식이 도입되어 학습의 안정성과 단순성이 개선되고 있다.\n이와 함께 다중 모달 학습이 확대되고 있다. 텍스트뿐 아니라 이미지 음성 코드 등 다양한 데이터를 하나의 모델이 동시에 이해하고 생성할 수 있도록 설계하는 것이다. 이는 언어 중심에서 벗어나 실제 세계와 상호작용하는 범용 인공지능의 기반이 된다.\n요약하면 최신 언어모델은 전문가를 선택적으로 활용하는 MoE 구조 파라미터 효율적 학습을 위한 LoRA 양자화와 프루닝 같은 최적화 메모리 효율적 어텐션 구조 인간 피드백 기반 학습 전략 그리고 다중 모달 통합 학습이라는 축 위에서 진화하고 있는 것이다.\n\n\n레퍼런스\n\nHow to train a LLM from scratch. How to train a small LLM at home with… | by Sau Sheong | Medium\nDeveloping and training a small MoE LLM from scratch | Medium\nBuilding Large Language Model (LLM) from Scratch in just 160 lines of Code | by Mahadir Ahmad | Medium\nHow to Build an LLM from Scratch | Towards Data Science\nBuilding a Large Language Model (LLM) from Scratch | by Abdul Rauf | Medium\nLLMs from Scratch Using Middle School Math | TDS Archive\nrasbt/LLMs-from-scratch: Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/09/llm.html",
+    "pubDate": "2025-09-10T12:24:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "피그마 플러그인 만들어줘",
+    "description": "오랜만에 인사드립니다. 스포카에서 제품 디자인을 하고 있는 김동환(Donny)입니다.\n이전에 개인 블로그에 바이브 코딩으로 Swift 앱을 제작한 이야기를 공유한 적이 있었는데요, 이번에는 피그마 플러그인을 직접 제작하고, 업무에 적용한 경험을 나눠보고자 합니다.\n매일 2~3시간, 총 3일 정도 걸려 완성했습니다. 사실 이런 단순한 통신과 Mapping을 다루는 플러그인은 이미 흔한 사례지만, 대부분은 TF 단위로 기획되고 만들어집니다.\n그런 점에서 이번 이야기는 PD 혼자서 가볍게 기획하고 제작할 수 있다는 가능성에 더 큰 의미가 있다고 생각합니다.\n프로젝트 커틀러리\n시간적인 이유로 아래와 같은 화면으로 디자인/설계 공유를 하는 분들이 많으실 것 같습니다. 저도 마찬가지였습니다.\n더미 데이터는 공유받는 사람, UT 참여자의 진지한 몰입에 도움이 됩니다. 하지만, 한땀한땀 넣기에는 시간, 체력, 멘탈적인 문제가 있을 수밖에 없습니다.\n특히 B2B SaaS 제품 같은 경우, 테이블이 아주 많습니다. Column이 8개, Row가 30개만 되더라도 도저히 채울 엄두가 나지 않는 것이 사실입니다. 그래서 Mapping 플러그인을 구상하게 되었습니다.\n프로젝트명은 커틀러리(식기)입니다. 손으로 먹지 말고, 도구를 써서 먹자는 바람을 담았습니다.\n어떻게 만들지?\n피그마에서 제공하는 공식 가이드를 참고하면, 생각보다 손쉽게 기본 환경 설정을 마칠 수 있습니다.\n구조를 간단히 살펴보면, 플러그인의 로직을 담당하는 code.ts와 실질적인 화면을 구성하는 ui.html로 이루어져 있습니다.\n팁으로 피그마 플러그인 같이 특수한 룰이 있는 환경에서는 AI 답변의 품질 향상을 위해 별도의 룰 문서나 오답 노트를 .md로 만드시면 좋습니다.\n목표를 명확하게 세워 봅시다. 우선 문자열과 이미지로 구성된 더미 데이터 뭉치가 있어야 하고, 그것들을 피그마 플러그인을 통해 레이어에 주입해야 합니다.\n문자 데이터는 Google Spreadsheets, 이미지는 Google Drive에 넣어 GCP API로 연결하는 것을 머릿속에 그렸습니다.\n주입 방식은 텍스트 레이어 이름과 칼럼명을 대조해 일치한다면, 하위 row 데이터를 랜덤으로 전달하는 방식입니다.\n여기까지만 해도 저는 완벽하다고 생각했습니다. 후후…\n도전 1. CORS 이슈\nAPI를 이상 없이 연결했지만, 값이 불러와지지 않았습니다. 콘솔로 확인해보니 CORS 문제가 발생하는 것을 알 수 있었습니다. 우아한 분들의 사례를 보니 Figma iframe에서는 보안상 이유로 외부 API 사용이 불가능하다고 합니다. 로컬 환경에서 프록시 서버로 우회하는 방식을 시도해보았습니다.\n엔드포인트를 작성하고, 더미 데이터가 정상적으로 불러와지는 것을 확인할 수 있었습니다.\n도전 2. 이미지 불러오기\nGoogle Drive의 이미지도 같은 방식으로 가져왔습니다. 그런데 테스트 중 403 에러가 미친 듯이 발생했습니다. 가난한 나머지 GCP 요청 한도(Limit)에 도달한 것이었습니다.\n플러그인을 최초 실행할 때 캐싱하는 방식으로 해결해보려고 했지만, 데이터는 계속 업데이트 되어야했고, 초기 로딩 시간도 오래 걸렸습니다.\n결국 S3를 구걸하러 백엔드 챕터에 방문했고, 이미지는 S3 URL로 Spreadseets에 첨부했습니다. 요청 Limit과 초기 로딩 속도 문제는 이렇게 해결했습니다.\n이미지 요청은 구현 방식이 다양했고, 결국 코드를 읽고 고민 해야 했습니다. 결정을 온전히 AI에게 맡기는 순간, 같은 자리를 맴도는 느낌을 받았습니다.\n도전 3. Mapping Book\n함께 협업하기 위해서는 어떤 레이어명에 어떤 칼럼 데이터가 Mapping되는지, 더미 데이터 형식은 어떤지 정리한 문서가 필요했습니다. 다수의 디자이너와의 협업을 고려해 해당 내용을 빠르게 Mapping Book으로 정리했습니다.\n결과/배포\n이제 새로운 컴포넌트, 테이블을 만들 때 텍스트 레이어명만 Mapping Book을 보고 적는다면, 더미 데이터를 빠르게 채울 수 있습니다. 더미 데이터 원본은 공유 파일이기 때문에 여러 디자이너들이 편집하고, 새로운 데이터 셋을 추가할 수 있습니다.\n품목명, 이미지, 규격, 단위가 하나의 세트로 출력되며, 품목명이 긴 경우(Ellipsis 케이스)를 처리할 수 있는 옵션을 추가하는 것이 후속 작업입니다.\n불가능보다 가능을 말하기\n이전 직장에서 UX 라이팅 플러그인을 만들려고 했으나, 진행 도중 TF 구성원 각자의 사정으로 흐지부지 끝나버린 경험이 있습니다. 이런 Extra mile의 업무는 필요성을 느끼는 구성원을 모으는 것부터 일정까지 조율해야 하는 부분이 제작보다 더 힘든 것 같습니다.\n하지만 이제는 필요함을 느낀다면 그것을 정의하고 가볍게 바로 만들어 보면 됩니다. 올바르게 만들었다면 자연스럽게 구성원들의 공감과 지지를 얻을 것입니다. 지금의 가장 큰 장벽은 귀찮음과 막연한 두려움이 아닐까 싶습니다.\n아직 가야할 길이 멉니다. 그래픽 리소스 생성, 맞춤법 및 UX Writing 검사, 자어 수 계산, 반응형 별 화면 생성 등 추가할 기능들이 많습니다. 다음번에 또 재미있는 사례로 찾아 뵙겠습니다.\n시간 내어 읽어주셔서 감사합니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://spoqa.github.io/2025/09/09/figma-plugin-design.html",
+    "pubDate": "2025-09-09T00:00:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
     "id": 5,
-    "imageUrl": "",
-    "title": "TeamCity 2025.07.2 Is Available",
-    "description": "Today we are releasing our second bug-fix release for the 2025.07 major release —TeamCity On-Premises 2025.07.2. This update ships a considerable number of bug fixes, including the following: Apart from resolving regular bugs, all TeamCity bug-fix updates also include performance and security improvements. For that reason, we recommend that you never ignore bug-fix releases and […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/09/teamcity-2025-07-2-bug-fix/",
-    "pubDate": "Wed, 10 Sep 2025 16:31:23 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "bug-fix"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "장수(longevity)",
-    "description": "올해 하반기부터 우린 매달 오피스아워(Office Hour: OH)를 진행하고 있다. 나를 포함해 스트롱의 투자팀원이 6명인데, 각자 돌아가면서 매달 본인들이 요새 관심 있는 분야에서 창업을 고민하고 있거나, 이미 창업한 분들을 만나기 위한 우리의 작은 노력 중 하나의 활동인데, 9월의 OH는 내가 진행한다. 이미 학생 창업가, 여성 창업가, 그리고 콘텐츠 창업가 OH를 통해서 스트롱의 박형우 심사역, 유혜림 심사역,(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/09/longevity.html",
-    "pubDate": "Sun, 07 Sep 2025 21:26:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "longevity",
-      "Strong"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "JetBrains at the ICPC World Finals 2025 Baku",
-    "description": "The ICPC World Finals 2025 in Baku was an unforgettable event, and we were honored to be part of it once again. It’s always a joy to see the brightest students from across the globe. The Finals reminds us why supporting the ICPC is such a vital mission – it’s about community, talent, and the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2025/09/11/jetbrains-at-the-icpc-world-finals-2025-baku/",
-    "pubDate": "Thu, 11 Sep 2025 14:22:17 +0000",
-    "creator": "Margarita Shadrina",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "손흥민과 메시는 왜 미국 MLS로 갔을까?",
-    "description": "축구에서도 세계 최고 스포츠리그를 꿈꾸는 미국",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/moneyball-6",
-    "pubDate": "Fri, 05 Sep 2025 03:14:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Logstash 필터 date - 4th",
-    "description": "DB 데이터 연동.\n\n[2025-09-07T11:06:48,019][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}\n[2025-09-07T11:07:00,219][INFO ][logstash.inputs.jdbc     ][main][d56fa9ad43d4dc4ae19f64f322de33854c6e9d33b5fc7c06354603bf613db2ee] (0.001000s)\nselect a.cid, a.timestamp, b.sig_name, inet_ntoa(c.ip_src), inet_ntoa(c.ip_dst), unhex(d.data_payload)\nfrom event a, signature b, iphdr c, data d\nwhere a.signature = b.sig_id\nand a.sid = c.sid and a.cid = c.cid\nand a.sid = d.sid and a.cid = d.cid\nand a.cid > 0\n\n\n{\n      \"inet_ntoa(c.ip_src)\" => \"192.168.31.230\",\n                 \"sig_name\" => \"sql-injection-and\",\n                 \"@version\" => \"1\",\n                \"timestamp\" => 2018-01-08T04:54:52.000Z,\n    \"unhex(d.data_payload)\" => #<Sequel::SQL::Blob:0xad0 bytes=190 start=\"GET /s?ie=\" end=\"t: */*\\r\\n\\r\\n\">,\n                      \"cid\" => 4,\n               \"@timestamp\" => 2025-09-07T02:07:00.232Z,\n      \"inet_ntoa(c.ip_dst)\" => \"119.63.197.151\"\n}\n\n\n\n\n로그스태시가 데이터를 가져온 시간인 @timestamp와 데이터의 원본 시간인 timestamp의 포맷이 똑같은 ISO8601이다. 그래서 엘라스틱은 둘 다 시간 필드로 인식함. 굳이 date 필터 작업을 안 해도 된다는 얘기. \n\n\n단 %{+yyyy.MM.dd} 등의 구문을 사용해서 시간 정보 활용을 시도하면 @timestamp에 접근하기 때문에 헷갈리기 싫으면 그냥 date 필터 작업을 해주는 게 낫다.\n\nfilter {\n date {\n  match => [\"timestamp\", \"ISO8601\"]\n }\n}\n\n\n\n\n그런데 안 됨(..)\n\n{\n      \"inet_ntoa(c.ip_src)\" => \"192.168.31.230\",\n                 \"sig_name\" => \"sql-injection-and\",\n                 \"@version\" => \"1\",\n                \"timestamp\" => 2018-01-08T04:54:47.000Z,\n    \"unhex(d.data_payload)\" => #<Sequel::SQL::Blob:0xbb4 bytes=351 start=\"GET /s?ie=\" end=\"t: */*\\r\\n\\r\\n\">,\n                      \"cid\" => 1,\n                     \"tags\" => [\n        [0] \"_dateparsefailure\"\n    ],\n               \"@timestamp\" => 2025-09-07T02:10:00.041Z,\n      \"inet_ntoa(c.ip_dst)\" => \"119.63.197.139\"\n}\n\n\n\n\ndate 필터가 ISO8601 포맷을 해석하지 못하는 모양. date 필터를 걸기 전에 먼저 문자열로 바꿔줘야 한다.\n\nfilter {\n mutate {\n  convert => {\"timestamp\" => \"string\"}\n }\n\n\n date {\n  match => [\"timestamp\", \"ISO8601\"]\n }\n}\n\n\n\n\n{\n      \"inet_ntoa(c.ip_src)\" => \"192.168.31.230\",\n                 \"sig_name\" => \"sql-injection-and\",\n                 \"@version\" => \"1\",\n                \"timestamp\" => \"2018-01-08T04:55:12.000Z\",\n    \"unhex(d.data_payload)\" => #<Sequel::SQL::Blob:0xcbe bytes=264 start=\"GET /s?ie=\" end=\"t: */*\\r\\n\\r\\n\">,\n                      \"cid\" => 5,\n               \"@timestamp\" => 2018-01-08T04:55:12.000Z,\n      \"inet_ntoa(c.ip_dst)\" => \"119.63.197.151\"\n}\n\n\n\n\n관련 글\n\nLogstash 필터 date - 3rd\nLogstash 필터 date\nLogstash 필터 grok\nLogstash 필터 mutate\nLogstash 필터 ruby\nLogstash 필터 geoip\nLogstash 필터 dissect\nLogstash 필터 kv\nLogstash 필터 translate\nLogstash 필터 drop\nLogstash 필터 useragent\nLogstash 필터 elapsed\nLogstash 필터 fingerprint\nLogstash 필터 csv\nLogstash 필터 dns\nLogstash 필터 split\nLogstash codec 플러그인 multiline",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/09/logstash-date-4th.html",
-    "pubDate": "2025-09-07T03:31:00.003Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "클라우드 비용 0원! 2025년 주목할 온디바이스 AI, 내 디바이스에 최적화된 가성비 끝판왕 모델은?",
-    "description": "요즘 AI 기술 발전 속도를 보면 정말 놀랍지 않나요? 특히 개인 디바이스에서 직접 AI를 실행할 수 있는 온디바이스(On-Device) AI 모델들이 빠르게 확산되고 있습니다. 클라우드 비용 걱정 없이, 개인정보는 안전하게 지키면서 AI를 내 손안에서 활용할 수 있다는 점이 가장 큰 매력인 것 같아요. 저도 처음에는 '이게 정말 가능해?' 싶었지만, 직접 써보니 그 편리함에 솔직히 감탄했습니다. 오늘은 2025년 주목해야 할 온디바이스 AI 모델들을 초보자 눈높이에 맞춰 쉽고 자세하게 비교 분석하고, 여러분에게 꼭 맞는 '가성비 끝판왕' 모델을 찾아드리려 해요.\n  온디바이스 AI, 왜 지금 주목해야 할까요?\n\n\n우리가 흔히 접하는 AI 서비스들은 대부분 인터넷을 통해 원격 서버, 즉 클라우드에서 작동해요. 그런데 온디바이스 AI는 말 그대로 여러분의 스마트폰, 노트북, 태블릿 같은 개인 디바이스에서 직접 인공지능 모델이 실행되는 기술을 의미합니다. 클라우드를 거치지 않고 내 기기에서 모든 연산이 이루어지죠. 제가 처음 이 개념을 접했을 때 가장 크게 와닿았던 부분은 바로 개인정보 보호였어요. 데이터가 외부로 나가지 않는다는 게 정말 안심이 되더라고요.\n온디바이스 AI의 주요 장점\n개인정보 보호: 내 데이터가 외부 서버로 전송되지 않으니 프라이버시 걱정이 덜하죠. 이건 정말 중요한 장점이라고 생각해요.\n빠른 응답속도: 네트워크 지연 없이 바로바로 결과를 얻을 수 있어서 답답함이 없습니다. 실시간으로 빠르게 반응하는 AI를 경험할 수 있어요.\n오프라인 사용 가능: 인터넷이 연결되지 않는 환경에서도 AI 기능을 활용할 수 있다는 건 생각보다 큰 장점이에요. 비행기 안이나 데이터가 부족할 때도 문제없죠.\n비용 절약: 클라우드 API 사용료가 발생하지 않으니, 장기적으로 보면 AI 사용 비용을 크게 줄일 수 있습니다. 이것이야말로 '클라우드 비용 0원'의 핵심이죠.\n  팁: 온디바이스 AI는 스마트폰, 태블릿, 노트북 등 여러분이 매일 쓰는 기기에서 AI를 더욱 '개인화'되고 '효율적'으로 활용할 수 있는 미래 기술이에요. 특히 개인 정보에 민감한 분들이라면 더욱 주목해야 할 포인트입니다!\n  내게 맞는 온디바이스 AI 모델 찾기: 성능 비교 분석\n수많은 온디바이스 AI 모델 중에서 나에게 맞는 것을 고르기란 쉽지 않죠. 모델의 크기(매개변수)는 성능과 직결되지만, 동시에 필요한 하드웨어 사양과도 밀접하게 연결됩니다. 제가 여러 모델을 직접 사용해보고 분석한 결과, 크게 세 가지 등급으로 나눌 수 있었어요. 각 등급별 대표 모델들을 함께 살펴볼까요?\n\n\n  고성능 등급 (7B 이상 매개변수)\n이 등급의 모델들은 최고 수준의 AI 성능을 자랑하지만, 그만큼 고사양의 하드웨어를 요구합니다. 주로 전문적인 작업이나 복잡한 추론에 적합하다고 보시면 돼요. 마치 스포츠카처럼 말이죠!\n모델명\n매개변수\n주요 성능\n메모리 요구량\n특징 및 권장 대상\n\n\n\n\nGPT-OSS\n20B\nOpenAI o3-mini급, 수학 문제 AIME 98.7%\n40GB 이상\n고성능 추론, 전문 사용자용\n\n\nLlama 3.1\n8B\nMMLU 68.0점, 범용 성능 우수\n16GB 이상\n균형 잡힌 성능, 상업적 이용 가능\n\n\nMistral 7B\n7B\nMMLU 62.0점, 효율적인 추론\n14GB 이상\n동급 모델 중 뛰어난 가성비\n\n\n\n\n  균형 등급 (3-4B 매개변수)\n이 등급은 성능과 하드웨어 요구 사항 사이에서 좋은 균형을 이루는 모델들이에요. 대부분의 일상적인 AI 작업에 충분하면서도, 비교적 접근성이 좋습니다. 딱 중간 정도의 성능을 원한다면 이 모델들을 눈여겨봐야 합니다.\n모델명\n매개변수\n주요 성능\n메모리 요구량\n특징 및 권장 대상\n\n\n\n\nGemma 3\n4B\nMMLU 68.0점, 소형 모델 중 최고\n8GB 이상\n멀티모달 기능, Google 개발\n\n\nPhi-3\n3.8B\nMMLU 68.8점, GPT-3.5 유사\n8GB (4비트 양자화 시 1.8GB)\n모바일 최적화, Microsoft 개발\n\n\nQwen 2.5\n3B\nMMLU 65.0점, 다국어 지원 탁월\n6GB 이상\n29개 언어 지원, Alibaba 개발\n\n\n\n\n⚠️ 주의: 매개변수 크기가 작다고 무조건 성능이 낮은 것은 아닙니다! Phi-3나 Gemma 3처럼 작지만 효율적인 훈련을 통해 대형 모델에 버금가는 성능을 내는 경우도 있으니, 벤치마크 점수를 꼼꼼히 확인하는 것이 중요합니다.\n  경량 등급 (2B 이하 매개변수)\n이 등급의 모델들은 낮은 사양의 기기에서도 가볍게 구동할 수 있다는 것이 가장 큰 장점이에요. 스마트폰이나 구형 노트북에서도 AI를 경험하고 싶다면 이 모델들이 아주 좋은 출발점이 될 수 있습니다.\n모델명\n매개변수\n주요 성능\n메모리 요구량\n특징 및 권장 대상\n\n\n\n\nGemma 2\n2B\nMMLU 42.3점, GPT-3.5 일부 벤치마크 능가\n4GB 이상\n작은 크기 대비 고성능, 빠른 처리 속도\n\n\nDeepSeek-R1\n1.5B\n수학 추론 특화\n3GB 이상\nCPU만으로도 실행 가능, 강화학습 훈련\n\n\n\n\n  하드웨어별 최적 온디바이스 AI 모델 추천 가이드\n모델의 성능만큼 중요한 것이 바로 내 디바이스와의 궁합이죠! 아무리 좋은 모델이라도 내 하드웨어에서 제대로 돌아가지 않는다면 무용지물이니까요. 여러분의 디바이스 사양에 맞춰 최적의 온디바이스 AI 모델을 추천해 드릴게요.\n\n\n\n고성능 게이밍 PC (RTX 4080/4090)\n추천 모델: GPT-OSS 20B 또는 Llama 3.1 8B\n- 40GB 이상의 VRAM으로 대용량 모델도 거뜬히! 최고 수준의 AI 성능을 만끽하고 싶은 전문가에게 제격입니다.\n중급 게이밍 PC (RTX 3070/4060Ti)\n추천 모델: Mistral 7B 또는 Gemma 3 4B\n- 12-16GB의 VRAM을 가진 기기에서 균형 잡힌 성능을 제공합니다. 대부분의 AI 작업에 부족함 없는 성능을 보여줄 거예요.\n보급형 PC/노트북 (RTX 3060/통합 그래픽)\n추천 모델: Phi-3 3.8B 또는 Qwen 2.5 3B\n- 8GB 이하 메모리로도 충분히 실행 가능한 모델들입니다. 온디바이스 AI 초보자들에게 가장 접근성이 좋고, 설정도 쉬울 거예요.\n모바일/저사양 기기 (스마트폰, 구형 태블릿)\n추천 모델: Gemma 2 2B 또는 DeepSeek-R1 1.5B\n- CPU만으로도 실행 가능한 모델들이 많습니다. 스마트폰에서도 가볍게 AI 기능을 활용하고 싶다면 이들을 추천합니다.\n  용도별 온디바이스 AI 모델 선택 가이드\n어떤 용도로 AI를 사용할지에 따라 최적의 모델은 달라질 수 있습니다. 마치 망치와 드라이버를 적재적소에 사용하는 것처럼요! 여러분의 주요 사용 목적에 맞춰 가장 효율적인 모델을 찾아보세요.\n학습 및 교육 목적\n추천 모델: Phi-3 3.8B\n- 이유: 교육 데이터로 특별히 훈련되어 수학, 과학 문제 해결 능력이 탁월합니다. 학생들이 학습 보조 도구로 활용하기에 아주 좋습니다.\n- 설치 난이도: 쉬움\n일반적인 대화 및 질답\n추천 모델: Llama 3.1 8B 또는 Gemma 3 4B\n- 이유: 균형 잡힌 성능으로 다양한 주제에 자연스럽게 대응합니다. 정확도도 높아서 일상적인 대화나 궁금증 해결에 적합합니다.\n- 설치 난이도: 보통\n이미지 분석 및 멀티모달 작업\n추천 모델: LLaVA 7B 또는 Gemma 3 4B\n- 이유: 텍스트뿐만 아니라 이미지를 동시에 처리하는 멀티모달 기능을 제공합니다. 이미지 설명, 시각적 질문 답변 등 시각적인 작업에 강점을 보입니다.\n- 설치 난이도: 어려움 (LLaVA의 경우)\n프로그래밍 및 코드 생성\n추천 모델: Qwen 2.5 3B 또는 Mistral 7B\n- 이유: 코딩 벤치마크에서 우수한 성능을 보여줍니다. Python, JavaScript 등 다양한 프로그래밍 언어를 지원하여 개발자들에게 큰 도움이 될 거예요.\n- 설치 난이도: 보통\n다국어 번역 및 처리\n추천 모델: Qwen 2.5 3B\n- 이유: 무려 29개 언어를 지원하며 다국어 처리에 최적화되어 있습니다. 한국어를 포함한 아시아 언어 처리 능력도 우수해서 해외 자료를 다루거나 번역할 때 유용합니다.\n- 설치 난이도: 보통\n  효율성과 가성비, 초보자를 위한 최고의 선택은?\n모델 선택에 있어 성능만큼이나 중요한 것이 바로 '효율성'과 '가성비'입니다. 특히 온디바이스 AI에서는 제한된 리소스 내에서 얼마나 똑똑하게 작동하는지가 관건이죠. 제가 간단한 지표를 만들어 효율성을 계산해 봤어요. (효율성 점수 = (처리속도 × MMLU 점수) ÷ 메모리 요구량)\n최고 효율성 모델들\nPhi-3 (3.8B): 효율성 점수 23.75 - 작은 크기 대비 최고의 성능을 자랑합니다. Microsoft가 괜히 모바일 최적화에 힘쓴 게 아니겠죠?\nGemma 3 (4B): 효율성 점수 22.5 - 멀티모달 기능을 포함하면서도 뛰어난 균형 잡힌 성능을 보여줍니다. Google의 역량이 느껴지는 부분이에요.\nQwen 2.5 (3B): 효율성 점수 30.83 - 특히 다국어 지원까지 고려하면 이 모델은 정말 독보적인 효율성을 보여준다고 생각해요.\n가성비 분석: 초보자에게 딱!\n제 개인적인 경험과 분석을 종합해 볼 때, 초보자 여러분에게 최고의 가성비 모델은 단연 Phi-3 3.8B라고 말씀드리고 싶습니다. 낮은 하드웨어 요구사항에도 불구하고 GPT-3.5와 유사한 수준의 뛰어난 성능을 보여주니, 이보다 더 좋을 순 없겠죠. 또한 Microsoft의 적극적인 지원까지 더해져 안정성도 높습니다. 만약 조금 더 욕심을 내서 멀티모달 기능을 경험하고 싶다면, Gemma 3 4B도 훌륭한 대안이 될 것입니다. Google이 지속적으로 업데이트하고 있으니 미래도 밝고요.\n ️ 온디바이스 AI, 어떻게 시작할까요? (설치 및 사용 가이드)\n'설치가 어렵진 않을까?' 하고 걱정하시는 분들이 많을 텐데요, 솔직히 예전에는 그랬습니다. 하지만 요즘은 초보자도 쉽게 따라 할 수 있는 플랫폼들이 많이 나와서 걱정할 필요가 없어요. 제가 추천하는 단계별 가이드를 따라 해보세요!\n초보자를 위한 단계별 가이드\n1단계: 하드웨어 확인\n- 가장 먼저 내 PC의 GPU 메모리 (VRAM), RAM 용량, 그리고 모델을 설치할 충분한 저장공간이 있는지 확인해야 합니다. 모델당 2GB에서 40GB까지 필요할 수 있으니 넉넉한 공간을 확보해 두세요.\n2단계: 플랫폼 선택\n- Ollama: 가장 초보자 친화적이고, 원클릭 설치로 빠르게 시작할 수 있어요.\n- LM Studio: 직관적인 GUI와 모델 마켓플레이스를 내장하고 있어서 여러 모델을 쉽게 탐색하고 실행할 수 있습니다.\n- GPT4All: 크로스플랫폼을 지원하고 CPU에 최적화되어 있어서 GPU가 없는 환경에서도 AI를 경험할 수 있습니다.\n3단계: 모델 다운로드 및 실행\n- 선택한 플랫폼에서 원하는 모델을 다운로드하고 실행하면 끝! 예를 들어, Ollama를 사용한다면 다음과 같이 간단한 명령어로 실행할 수 있습니다.\n # Ollama 사용 예시 ollama pull phi3 ollama run phi3 \n  온디바이스 AI의 미래, 2025년은 어떤 변화가?\n온디바이스 AI는 정말 빠르게 발전하고 있는 분야입니다. 2025년에는 또 어떤 놀라운 변화가 우리를 기다리고 있을까요? 제가 예측하는 몇 가지 주요 발전 방향을 공유해 드릴게요.\n모델 크기 최적화 트렌드\n최근 연구들을 보면, 더 작은 모델들이 대형 모델과 비슷하거나 심지어 더 나은 성능을 보여주는 경우가 늘고 있습니다. 예를 들어, Gemma 2 2B 모델이 GPT-3.5보다 일부 벤치마크에서 우수한 성능을 보였다는 것은 정말 놀라운 일이죠. 앞으로는 무작정 큰 모델보다는 효율적인 구조와 훈련 방법을 통해 성능을 극대화한 '작지만 강한' 모델들이 주류가 될 것입니다.\n하드웨어 발전의 영향\nNPU(Neural Processing Unit) 통합: 차세대 CPU에는 AI 전용 프로세서인 NPU가 내장될 거예요. 이는 온디바이스 AI의 처리 속도와 효율성을 획기적으로 향상시킬 것입니다.\n메모리 효율성 개선: 양자화(Quantization) 같은 기술 덕분에 AI 모델의 메모리 사용량이 75%까지 감소할 수 있습니다. 이는 더 많은 모델을 더 작은 기기에서 실행할 수 있게 해줍니다.\n모바일 최적화 가속화: 스마트폰에서도 7B 매개변수 모델을 실시간으로 실행하는 것이 머지않아 현실이 될 겁니다. 정말 기대되지 않나요?\n2025년 예상 발전사항\n1B 매개변수 모델이 현재의 3B 수준 성능을 달성할 것입니다.\n텍스트-이미지, 텍스트-오디오 등 멀티모달 기능이 온디바이스 AI의 표준이 될 거예요.\n사용자의 패턴을 학습하여 스스로 진화하는 실시간 학습 및 개인화 기능이 더욱 강화될 것입니다.\n\n\n\n  핵심 요약\n• 온디바이스 AI는 클라우드 비용 없이 개인정보를 안전하게 지키며 AI를 사용할 수 있게 합니다.\n• Phi-3 3.8B는 낮은 하드웨어 요구사항과 뛰어난 성능으로 초보자에게 가장 적합한 가성비 모델입니다.\n• Gemma 3 4B는 멀티모달 기능을 제공하며, 균형 잡힌 성능으로 중급 사용자에게 훌륭한 선택입니다.\n• 2025년에는 더 작고 효율적인 모델, NPU 통합, 모바일 최적화가 가속화될 전망입니다.\n사용자의 하드웨어 환경과 목적에 맞는 모델을 신중하게 선택하는 것이 중요하며, 작은 모델부터 시작하여 경험을 쌓는 것을 권장합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 온디바이스 AI는 왜 주목받고 있나요?\nA1: 개인정보 보호, 빠른 응답 속도, 인터넷 연결 없이 사용 가능, 그리고 클라우드 서비스 비용 절감이라는 강력한 장점들 때문입니다. 특히 2025년에는 이러한 장점들이 더욱 부각될 것으로 예상됩니다.\nQ2: 온디바이스 AI를 사용하려면 고사양 PC가 필수인가요?\nA2: 아니요, 꼭 그렇지는 않습니다. Phi-3 3.8B나 Gemma 2 2B 같은 경량 모델들은 8GB 이하의 메모리나 노트북 통합 그래픽으로도 충분히 실행할 수 있습니다. 심지어 CPU만으로도 가능한 모델들도 있어요. 중요한 건 자신의 하드웨어 사양에 맞는 모델을 선택하는 것입니다.\nQ3: 온디바이스 AI 모델 설치는 어려운가요?\nA3: 요즘은 Ollama, LM Studio, GPT4All과 같은 사용자 친화적인 플랫폼 덕분에 설치가 매우 쉬워졌어요. 몇 번의 클릭만으로 모델을 다운로드하고 실행할 수 있습니다. 초보자도 쉽게 시작할 수 있도록 가이드가 잘 되어 있어요.\nQ4: 멀티모달 기능이 있는 온디바이스 AI 모델도 있나요?\nA4: 네, 물론입니다! Gemma 3 4B나 LLaVA 7B 같은 모델들은 텍스트뿐만 아니라 이미지를 동시에 처리하는 멀티모달 기능을 지원합니다. 이미지 설명이나 시각적 질문 답변 등 다양한 멀티모달 작업을 온디바이스에서 경험할 수 있습니다.\n { \"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [ { \"@type\": \"Question\", \"name\": \"온디바이스 AI는 왜 주목받고 있나요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"개인정보 보호, 빠른 응답 속도, 인터넷 연결 없이 사용 가능, 그리고 클라우드 서비스 비용 절감이라는 강력한 장점들 때문입니다. 특히 2025년에는 이러한 장점들이 더욱 부각될 것으로 예상됩니다.\" } }, { \"@type\": \"Question\", \"name\": \"온디바이스 AI를 사용하려면 고사양 PC가 필수인가요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"아니요, 꼭 그렇지는 않습니다. Phi-3 3.8B나 Gemma 2 2B 같은 경량 모델들은 8GB 이하의 메모리나 노트북 통합 그래픽으로도 충분히 실행할 수 있습니다. 심지어 CPU만으로도 가능한 모델들도 있어요. 중요한 건 자신의 하드웨어 사양에 맞는 모델을 선택하는 것입니다.\" } }, { \"@type\": \"Question\", \"name\": \"온디바이스 AI 모델 설치는 어려운가요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"요즘은 Ollama, LM Studio, GPT4All과 같은 사용자 친화적인 플랫폼 덕분에 설치가 매우 쉬워졌어요. 몇 번의 클릭만으로 모델을 다운로드하고 실행할 수 있습니다. 초보자도 쉽게 시작할 수 있도록 가이드가 잘 되어 있어요.\" } }, { \"@type\": \"Question\", \"name\": \"멀티모달 기능이 있는 온디바이스 AI 모델도 있나요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"네, 물론입니다! Gemma 3 4B나 LLaVA 7B 같은 모델들은 텍스트뿐만 아니라 이미지를 동시에 처리하는 멀티모달 기능을 지원합니다. 이미지 설명이나 시각적 질문 답변 등 다양한 멀티모달 작업을 온디바이스에서 경험할 수 있습니다.\" } } ] } \n✨ 마무리하며: 나만의 AI 비서를 만나다\n오늘 온디바이스 AI의 세계에 대해 깊이 파고들어 봤습니다. 클라우드 비용 걱정 없이, 개인정보는 안전하게 보호하면서 AI를 활용할 수 있다는 점은 정말 매력적이죠. 저 역시 이런 기술의 발전에 큰 흥미를 느끼고 있어요. 중요한 건 자신의 하드웨어 환경과 사용 목적을 명확히 설정한 후, 그에 맞는 모델을 신중하게 선택하는 것이라는 점을 꼭 기억해 주셨으면 좋겠습니다.\n큰 모델이 항상 정답은 아니며, 효율성과 실용성을 고려한 선택이 여러분에게 더 만족스러운 경험을 선사할 거예요. 지금부터라도 자신에게 맞는 온디바이스 AI 모델을 찾아보고, 그 잠재력을 최대한 활용해 보시길 강력히 추천합니다. AI 기술은 멈추지 않고 발전하고 있으니, 새로운 모델이 나올 때마다 호기심을 갖고 탐구하는 자세도 잊지 마세요! 여러분의 일상과 업무가 온디바이스 AI를 통해 더욱 스마트하고 편리해지기를 바랍니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://muzbox.tistory.com/483655",
-    "pubDate": "Fri, 12 Sep 2025 08:23:12 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "2025 ai 트렌드",
-      "ai 성능 비교",
-      "Gemma 3",
-      "llama 3.1",
-      "Phi-3",
-      "개인정보 보호 ai",
-      "로컬 ai",
-      "무료 AI 모델",
-      "온디바이스 AI",
-      "클라우드 비용 절감"
-    ]
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "통합 오디오 분석 제미나이 GEM 지침 무료 배포",
     "description": "Gemini에서 오디오 파일 업로드를 지원하게 되면서, 오디오 분석의 새 지평을 열어줄 '통합 오디오 분석 GEM 지침'을 무료로 배포한다는 소식입니다. 이 강력한 도구가 어떻게 복잡한 오디오 데이터를 쉽고 깊이 있게 분석하는지, 그 핵심 내용을 지금부터 자세히 알려드릴게요!\n✨ 통합 오디오 분석 GEM, 무엇이 특별할까요?\n솔직히 말하면, 오디오 분석은 그동안 전문가의 영역으로 여겨졌잖아요? 하지만 이번에 소개할 GEM(Gemini Extension Module)은 그런 장벽을 허물어뜨립니다. 단순히 음성을 텍스트로 바꾸는 것을 넘어, 음성학, 커뮤니케이션 이론, 음악학까지 아우르는 최고 수준의 오디오 인텔리전스 전문가가 내재되어 있다고 생각하시면 이해하기 쉬울 거예요.\n\n\n  역할과 최종 목표\n이 GEM의 가장 큰 역할은 사용자 여러분이 제공한 모든 오디오 파일의 본질을 자동으로 식별하고, 그 유형에 최적화된 가장 깊이 있고 다층적인 종합 분석 보고서를 생성하는 것입니다.\n \n \n  핵심 요약: 오디오 파일이 음성인지 음악인지 스스로 판단하고, 각 유형에 맞춰 가장 전문적이고 깊이 있는 분석 보고서를 만들어준다는 것이죠!\n  오디오 분석, 이렇게 진행됩니다! (2가지 경로)\n이 GEM은 분석의 시작에서부터 아주 똑똑하게 접근해요. 먼저 오디오 파일의 주된 콘텐츠가 음성인지 음악인지 판별하는 '오디오 유형 식별' 단계를 거칩니다. 그리고 그 결과에 따라 최적화된 분석 경로를 선택해 진행하게 되죠. 마치 길을 잘 아는 전문가처럼요.\n경로 A: 음성 기반 오디오 분석\n회의록, 인터뷰, 강의 녹음본 같은 음성 기반 오디오는 정말 중요한 정보를 담고 있죠. 이 GEM은 단순히 받아쓰기하는 것을 넘어, 대화의 본질을 파악합니다.\n✅ 내용 분석: 3~5문장의 핵심 요약부터 주요 주제, 키워드 추출, 그리고 가장 중요한 실행 항목 및 결정 사항(담당자, 기한 포함)까지 리스트업 해줍니다. 심지어 오디오에 포함된 모든 음성 대화를 화자 분리까지 완벽하게 변환하여 전문으로 제공해요.\n✅ 감성 및 표현 방식 분석: 대화의 전반적인 감정, 화자별 감정 변화, 어조(Tone) 분석은 물론, 발화 속도, 리듬, 의미 있는 침묵, 필러 단어 사용 빈도 같은 비언어적 요소까지 분석하여 그 의미를 추론해줍니다. 정말 놀랍지 않나요?\n✅ 기술 및 환경 분석: 사용된 언어, 총 화자 수, 재생 시간은 물론, 배경 소음이나 웃음, 기침 같은 특정 음향 이벤트까지 식별하고 오디오 선명도 같은 기술적 품질까지 평가해줍니다.\n✅ 종합 인사이트: 이 모든 분석을 바탕으로 내용, 감정, 표현 방식을 아우르는 최종적인 통찰력과 결론을 제공하니, 그냥 회의록을 읽는 것과는 차원이 다르죠.\n\n\n경로 B: 음악 기반 오디오 분석\n음악은 복잡한 예술 형태인데, 이걸 어떻게 분석할까 궁금하셨을 거예요. 이 GEM은 음악의 아주 미묘한 부분까지 파고듭니다.\n✅ 음악 개요 및 핵심 특징: 추정 장르, 분위기, 주요 악기 구성은 기본이고, BPM, 박자표, 리듬 특징, 화성 및 조성(키, 스케일, 코드 진행)까지 상세하게 해석해줍니다.\n✅ 내용 및 구조 분석: 보컬이 있다면 가사 전문을 완벽하게 변환하고, 연주곡일 경우 명확히 알려줘요. 곡의 구조를 인트로, 벌스, 코러스 등으로 자동 분할하고 각 구간의 특징까지 설명해줍니다.\n✅ 사운드 및 악기 분석: 정말 신기한 부분인데요, Spectral Centroid (밝기), Spectral Bandwidth (대역폭), Zero Crossing Rate (타격감/고주파 잡음), Spectral Rolloff (고역 에너지) 같은 스펙트럼 특징값을 분석해서 각 값이 음색에 미치는 영향을 설명하고, 이를 토대로 주요 악기까지 추정하고 분류해준답니다.\n✅ 음악적 특성 및 기술 사양: 스포티파이 스타일의 에너지, 댄스 가능성, 정서적 밝기 같은 음악적 특성과 총 길이, 샘플레이트, 채널 같은 기본 기술 사양도 기록해요.\n  시각적 분석: 파형, 스펙트로그램, 구조 시각화\n이 GEM의 또 다른 강점은 분석 결과를 시각적으로 보여준다는 거예요. 시간에 따른 음량 변화를 파형으로 시각화해주고, 시간에 따른 주파수 분포를 보여주는 스펙트로그램으로 저음, 중음, 고음역대의 에너지 분포를 한눈에 파악할 수 있게 해줍니다. 음악의 구조(인트로, 코러스 등)도 타임라인 위에 시각적으로 표시해주니, 정말 직관적이고 이해하기 쉬웠어요.\n  놓치지 마세요: 단순히 텍스트 분석이 아닌, 시각화를 통해 오디오의 복잡한 정보를 더욱 명확하게 전달한다는 점이 이 GEM의 차별점입니다!\n  왜 이 GEM 지침이 게임 체인저일까요?\nGemini에서 오디오 파일 업로드를 지원하게 되면서, 이런 통합 분석 GEM 지침이 탄생했다는 것은 정말 큰 의미가 있습니다. 제 생각엔 이 GEM은 단순히 새로운 도구가 아니라, 우리가 오디오 데이터를 다루는 방식 자체를 바꿀 수 있는 게임 체인저라고 생각해요. 개발자, 연구자, 콘텐츠 크리에이터 모두에게 엄청난 잠재력을 열어줄 것이 분명합니다.\n  복잡한 분석의 간소화: 수동으로 진행하기 어렵고 시간이 많이 드는 음성 및 음악 분석 작업을 GEM이 한 번에 처리해줍니다.\n  새로운 인사이트 발굴: 기존에는 놓쳤을 법한 비언어적 요소나 스펙트럼 특징값 분석을 통해 더욱 깊이 있는 정보를 얻을 수 있습니다.\n  접근성의 확대: 전문가가 아닌 일반 사용자도 복잡한 오디오 분석을 손쉽게 수행할 수 있게 됩니다.\n  시각화를 통한 이해 증진: 복잡한 데이터를 직관적인 시각 자료로 제공하여 이해도를 높여줍니다.\n⚠️ 주의: 강력한 도구인 만큼, 분석 결과는 사용자의 목적과 맥락에 맞춰 신중하게 해석하고 활용해야 합니다. 인공지능의 분석은 참고 자료로 활용하며 최종적인 판단은 항상 사람이 해야 한다는 점을 잊지 마세요!\n  통합 오디오 분석 GEM 지침, 지금 바로 무료로 만나보세요!\n이처럼 혁신적인 '통합 오디오 분석 GEM 지침'을 여러분께 무료로 배포한다는 소식은 정말 반갑죠. Gemini의 오디오 처리 능력이 얼마나 발전했는지 직접 경험하고 싶으시다면, 이 지침을 꼭 활용해보세요. 오디오 파일 분석에 대한 고민이 많으셨던 분들에게는 가뭄의 단비 같은 소식이 될 거라고 확신합니다.\n복잡한 오디오 데이터를 깊이 있게 이해하고 활용할 수 있는 강력한 도구를 이제 여러분도 손쉽게 사용할 수 있게 되었어요. 이 기회를 통해 여러분의 작업과 연구에 새로운 활력을 불어넣으시길 바랍니다!\n \n\n\n\n \n  핵심 요약\nGemini 오디오 업로드 기능 덕분에 '통합 오디오 분석 GEM 지침' 무료 배포!\n오디오 유형(음성/음악) 자동 식별 후, 각 유형에 최적화된 심층 분석 제공.\n음성은 내용, 감성, 기술적 분석 포함 화자 분리 및 전문 제공.\n음악은 장르, 화성, 악기, 스펙트럼 분석 및 파형/스펙트로그램 시각화.\n이번 GEM은 오디오 데이터 활용의 새로운 기준을 제시하며, 누구나 전문가 수준의 분석을 할 수 있게 돕습니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 통합 오디오 분석 GEM은 어떤 종류의 오디오 파일을 분석할 수 있나요?\nA1: Gemini에서 업로드 가능한 모든 오디오 파일을 분석할 수 있습니다. 주요 내용은 음성 기반(회의록, 인터뷰 등)과 음악 기반(음악 파일)으로 나뉘며, GEM이 자동으로 유형을 식별하여 최적화된 분석을 제공합니다.\nQ2: 분석 보고서는 어떤 형식으로 제공되나요?\nA2: 모든 분석 결과는 HTML 요소로 시각화되며, 단 하나의 완성된 HTML 코드 블록으로 제공됩니다. 이는 시각적으로 정보를 파악하기 쉽게 돕습니다\n \nQ3: GEM 지침을 무료로 받을 수 있나요?\nA3: 네, 맞습니다! Gemini의 오디오 파일 업로드 기능 지원을 기념하여, 이 강력한 통합 오디오 분석 GEM 지침을 무료로 배포하고 있습니다. 본 포스트를 통해 자세한 내용을 확인하시고 활용해보세요.\n 요소로 시각화되며, 단 하나의 완성된 HTML 코드 블록으로 제공됩니다. 이는 시각적으로 정보를 파악하기 쉽게 돕습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"GEM 지침을 무료로 받을 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 맞습니다! Gemini의 오디오 파일 업로드 기능 지원을 기념하여, 이 강력한 통합 오디오 분석 GEM 지침을 무료로 배포하고 있습니다. 본 포스트를 통해 자세한 내용을 확인하시고 활용해보세요.\"\n      }\n    }\n  ]\n}\n\n  GEM 무료 다운로드\n1. 압축파일을 푸시고 TXT 파일의 내용은 복사하여 새로운 GEM의 요청사항에 붙여넣고, 템플릿 HTML 파일은 지식에 업로드 하세요. GEM 지침 등록법은 제 유튜브 채널 제미나이 활용법 1편을 참고하세요.\n2. 본 GEM 실행시 반드시 대화창에 'CANVAS' 기능을 활성화 하세요.\n\n    \n\n    \n통합 오디오 분석 제미나이 GEM 지침.zip\n0.01MB",
@@ -179,57 +78,152 @@
     ]
   },
   {
-    "id": 12,
+    "id": 6,
     "imageUrl": "",
-    "title": "피그마 플러그인 만들어줘",
-    "description": "오랜만에 인사드립니다. 스포카에서 제품 디자인을 하고 있는 김동환(Donny)입니다.\n이전에 개인 블로그에 바이브 코딩으로 Swift 앱을 제작한 이야기를 공유한 적이 있었는데요, 이번에는 피그마 플러그인을 직접 제작하고, 업무에 적용한 경험을 나눠보고자 합니다.\n매일 2~3시간, 총 3일 정도 걸려 완성했습니다. 사실 이런 단순한 통신과 Mapping을 다루는 플러그인은 이미 흔한 사례지만, 대부분은 TF 단위로 기획되고 만들어집니다.\n그런 점에서 이번 이야기는 PD 혼자서 가볍게 기획하고 제작할 수 있다는 가능성에 더 큰 의미가 있다고 생각합니다.\n프로젝트 커틀러리\n시간적인 이유로 아래와 같은 화면으로 디자인/설계 공유를 하는 분들이 많으실 것 같습니다. 저도 마찬가지였습니다.\n더미 데이터는 공유받는 사람, UT 참여자의 진지한 몰입에 도움이 됩니다. 하지만, 한땀한땀 넣기에는 시간, 체력, 멘탈적인 문제가 있을 수밖에 없습니다.\n특히 B2B SaaS 제품 같은 경우, 테이블이 아주 많습니다. Column이 8개, Row가 30개만 되더라도 도저히 채울 엄두가 나지 않는 것이 사실입니다. 그래서 Mapping 플러그인을 구상하게 되었습니다.\n프로젝트명은 커틀러리(식기)입니다. 손으로 먹지 말고, 도구를 써서 먹자는 바람을 담았습니다.\n어떻게 만들지?\n피그마에서 제공하는 공식 가이드를 참고하면, 생각보다 손쉽게 기본 환경 설정을 마칠 수 있습니다.\n구조를 간단히 살펴보면, 플러그인의 로직을 담당하는 code.ts와 실질적인 화면을 구성하는 ui.html로 이루어져 있습니다.\n팁으로 피그마 플러그인 같이 특수한 룰이 있는 환경에서는 AI 답변의 품질 향상을 위해 별도의 룰 문서나 오답 노트를 .md로 만드시면 좋습니다.\n목표를 명확하게 세워 봅시다. 우선 문자열과 이미지로 구성된 더미 데이터 뭉치가 있어야 하고, 그것들을 피그마 플러그인을 통해 레이어에 주입해야 합니다.\n문자 데이터는 Google Spreadsheets, 이미지는 Google Drive에 넣어 GCP API로 연결하는 것을 머릿속에 그렸습니다.\n주입 방식은 텍스트 레이어 이름과 칼럼명을 대조해 일치한다면, 하위 row 데이터를 랜덤으로 전달하는 방식입니다.\n여기까지만 해도 저는 완벽하다고 생각했습니다. 후후…\n도전 1. CORS 이슈\nAPI를 이상 없이 연결했지만, 값이 불러와지지 않았습니다. 콘솔로 확인해보니 CORS 문제가 발생하는 것을 알 수 있었습니다. 우아한 분들의 사례를 보니 Figma iframe에서는 보안상 이유로 외부 API 사용이 불가능하다고 합니다. 로컬 환경에서 프록시 서버로 우회하는 방식을 시도해보았습니다.\n엔드포인트를 작성하고, 더미 데이터가 정상적으로 불러와지는 것을 확인할 수 있었습니다.\n도전 2. 이미지 불러오기\nGoogle Drive의 이미지도 같은 방식으로 가져왔습니다. 그런데 테스트 중 403 에러가 미친 듯이 발생했습니다. 가난한 나머지 GCP 요청 한도(Limit)에 도달한 것이었습니다.\n플러그인을 최초 실행할 때 캐싱하는 방식으로 해결해보려고 했지만, 데이터는 계속 업데이트 되어야했고, 초기 로딩 시간도 오래 걸렸습니다.\n결국 S3를 구걸하러 백엔드 챕터에 방문했고, 이미지는 S3 URL로 Spreadseets에 첨부했습니다. 요청 Limit과 초기 로딩 속도 문제는 이렇게 해결했습니다.\n이미지 요청은 구현 방식이 다양했고, 결국 코드를 읽고 고민 해야 했습니다. 결정을 온전히 AI에게 맡기는 순간, 같은 자리를 맴도는 느낌을 받았습니다.\n도전 3. Mapping Book\n함께 협업하기 위해서는 어떤 레이어명에 어떤 칼럼 데이터가 Mapping되는지, 더미 데이터 형식은 어떤지 정리한 문서가 필요했습니다. 다수의 디자이너와의 협업을 고려해 해당 내용을 빠르게 Mapping Book으로 정리했습니다.\n결과/배포\n이제 새로운 컴포넌트, 테이블을 만들 때 텍스트 레이어명만 Mapping Book을 보고 적는다면, 더미 데이터를 빠르게 채울 수 있습니다. 더미 데이터 원본은 공유 파일이기 때문에 여러 디자이너들이 편집하고, 새로운 데이터 셋을 추가할 수 있습니다.\n품목명, 이미지, 규격, 단위가 하나의 세트로 출력되며, 품목명이 긴 경우(Ellipsis 케이스)를 처리할 수 있는 옵션을 추가하는 것이 후속 작업입니다.\n불가능보다 가능을 말하기\n이전 직장에서 UX 라이팅 플러그인을 만들려고 했으나, 진행 도중 TF 구성원 각자의 사정으로 흐지부지 끝나버린 경험이 있습니다. 이런 Extra mile의 업무는 필요성을 느끼는 구성원을 모으는 것부터 일정까지 조율해야 하는 부분이 제작보다 더 힘든 것 같습니다.\n하지만 이제는 필요함을 느낀다면 그것을 정의하고 가볍게 바로 만들어 보면 됩니다. 올바르게 만들었다면 자연스럽게 구성원들의 공감과 지지를 얻을 것입니다. 지금의 가장 큰 장벽은 귀찮음과 막연한 두려움이 아닐까 싶습니다.\n아직 가야할 길이 멉니다. 그래픽 리소스 생성, 맞춤법 및 UX Writing 검사, 자어 수 계산, 반응형 별 화면 생성 등 추가할 기능들이 많습니다. 다음번에 또 재미있는 사례로 찾아 뵙겠습니다.\n시간 내어 읽어주셔서 감사합니다.",
+    "title": "ParticleEffectForUGUIPublic / 유니티 UI 용  이팩트 패키지",
+    "description": "링크: https://github.com/mob-sakai/ParticleEffectForUGUI?tab=readme-ov-file#license\n\n \nGitHub - mob-sakai/ParticleEffectForUGUI: Render particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/Rende\nRender particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/RenderTexture/Canvas. - mob-sakai/ParticleEffectForUGUI\ngithub.com\n\nUI 에 사용할 수 있는 이팩트 입니다.\n사용방법도 설명페이지에 자세히 적혀있군요\n \n라이센스\n\n\n \nMIT 다 알아서 써도 된다는 뜻이다.\n좋쿤요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://spoqa.github.io/2025/09/09/figma-plugin-design.html",
-    "pubDate": "2025-09-09T00:00:00.000Z",
+    "link": "http://serverdown.tistory.com/1387",
+    "pubDate": "Tue, 9 Sep 2025 22:47:20 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/유니티 에셋 리뷰",
+      "유니티"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Investigating IntelliJ Platform UI Freezes",
+    "description": "You have probably seen this picture occasionally and wondered what is happening with your IDE and why it freezes! This is a tricky question, and many types of bugs and performance issues may lead to UI freezes. JetBrains IDEs are built on top of a UI framework (the Java AWT) that uses a single thread, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2025/09/investigating-intellij-platform-ui-freezes/",
+    "pubDate": "Tue, 09 Sep 2025 12:26:47 +0000",
+    "creator": "Jakub Chrzanowski",
+    "categories": [
+      "intellij-platform",
+      "plugins",
+      "plugin-development"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "개발자의 가치",
+    "description": "축구 동호회의 누군가 동호회 앱 좀 만들어주면 안 되겠냐고 부탁했습니다.\n2년 쯤 지난 오늘… 그 팀의 다른 누군가가 홈페이지를 “뚝딱” 만들어서 카톡방에 공유했습니다.\n\n비개발자가 이틀만에 뚝딱 만든 웹사이트\n코딩을 전혀 해보지 않은 사람이었는데 아마 클로드 코드 같은 걸로 만들었겠죠?\n그 사이에 세상이 완전히 바뀌었구나.\n함께 읽으면 좋은 글:\n개발자는 세상 최고의 직업\n타협을 잘하는 개발자",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/09/07/developer-value.html",
+    "pubDate": "2025-09-07T03:02:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 13,
+    "id": 9,
     "imageUrl": "",
-    "title": "Visual Studio 2026 Insiders is here!",
-    "description": "Visual Studio 2026 Insiders is here – and it marks one of the most ambitious steps forward we’ve taken with the IDE. This release brings AI woven directly into the developer workflow, performance improvements that reset expectations for speed at enterprise scale, and a modern design that makes the environment feel lighter and more focused. […]\nThe post Visual Studio 2026 Insiders is here! appeared first on Visual Studio Blog.",
+    "title": "MPS 2025.2 Is Out!",
+    "description": "MPS 2025.2 brings quality and stability improvements across the board, along with several notable upgrades. This release adds the ability to start MPS with OS-native launchers, introduces a modernized Show Node Info dialog, and improves how resolve-info is handled when references are copy-pasted. You can now provide icons using factory methods, and the platform has […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-2026-insiders-is-here/",
-    "pubDate": "Tue, 09 Sep 2025 16:52:29 +0000",
-    "creator": "Mads Kristensen",
+    "link": "https://blog.jetbrains.com/mps/2025/09/mps-2025-1-is-out-2/",
+    "pubDate": "Tue, 09 Sep 2025 14:29:39 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "releases",
+      "release"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "습관을 형성하는 기계",
+    "description": "얼마 전에 한 팟캐스트에서 습관에 대해 연구하는 작가의 인터뷰를 들었다. 이분이 최근에 출시한 책은 습관은 무엇이고, 어떻게 하면 큰 목표를 달성하기 위한 습관을 형성할 수 있는지에 대한 내용인데, 이 책을 출간하면서 가장 많이 참고했던 게 군대이고, 가장 많이 인터뷰했던 사람들이 군인이라고 한다. 특히 작가가 했던 말 중 내 기억에 인상 깊게 남았던 말은 “군대는 습관을(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/09/the-habit-forming-machine.html",
+    "pubDate": "Wed, 10 Sep 2025 21:28:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork",
+      "inspiring",
+      "people"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "TeamCity 2025.07.2 Is Available",
+    "description": "Today we are releasing our second bug-fix release for the 2025.07 major release —TeamCity On-Premises 2025.07.2. This update ships a considerable number of bug fixes, including the following: Apart from resolving regular bugs, all TeamCity bug-fix updates also include performance and security improvements. For that reason, we recommend that you never ignore bug-fix releases and […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2025/09/teamcity-2025-07-2-bug-fix/",
+    "pubDate": "Wed, 10 Sep 2025 16:31:23 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "bug-fix"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Democratizing Performance: The Copilot Profiler Agent in Action on Real Code",
+    "description": "We’re excited to announce the Copilot Profiler Agent available in Visual Studio 2026 Insiders, it’s an AI-powered performance assistant built directly into Visual Studio. Forget staring at endless call trees or walls of mysterious numbers that leave you asking, “where do I even start?” The Copilot Profiler Agent changes that.   Instead of raw data, you […]\nThe post Democratizing Performance: The Copilot Profiler Agent in Action on Real Code appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/copilot-profiler-agent-visual-studio/",
+    "pubDate": "Thu, 11 Sep 2025 16:05:09 +0000",
+    "creator": "Harshada Hole",
     "categories": [
       "Visual Studio",
-      "Insiders",
+      "Debugging and Diagnostics",
+      "Performance Improvements",
+      "Profiling",
       "Visual Studio 2026"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Testing AI Coding Agents With TeamCity and SWE-bench",
+    "description": "Introduction AI coding agents are no longer research experiments. They are quickly becoming practical tools that can help developers solve real problems.  But how do you know whether an agent is good enough for serious use? How do you measure progress when its answers are not always predictable and when there may be various correct […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2025/09/testing-ai-coding-agents-with-teamcity-and-swe-bench/",
+    "pubDate": "Thu, 11 Sep 2025 08:35:30 +0000",
+    "creator": "Sergei Ugdyzhekov",
+    "categories": [
+      "ai",
+      "ai-agent"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "극장판 귀멸의 칼날: 무한성편",
-    "description": "스케일도 커졌고 액션도 커졌다. 무한열차도 수준급이었고 무한성편도 그렇다. 이번 것은 1편이고 3편까지 나와야 단행본 스토리까 끝날 것 같은데 완결 보려면 시간이 꽤나 걸릴 것 같다. 러닝타임이 좀 길다. 흥행에 어느정도 자신이 있어서 이런 구성으로 나올 수 있는 것 같다. 돌비 시네마에서 보길 잘했다고 생각할 정도로 액션이나 극적인 효과가 좋다. 포스터를 좀 찾아봤는데 애니맥스 플러스의 트위터 계정에서 고화질 포스터를 올려놨다.",
+    "title": "태재 AI 아카데미 - 금융 AI 전망 (윤송이 박사) - 금융 + AI 과정",
+    "description": "태재 AI 아카데미: 금융 + AI 과정 챗GPT (3.5) 출시 후 빠르게 나왔던 엔씨 LLM 바르코와 <가장 인간적인 미래> 책으로 만났던, 윤송이 박사님 “AI Transformation at Full Speed in Finance\" 강연  몇 가지 인사이트가 인상에 남아 잊기 전 기록  - AI 버블은 기술 거품이라기보다, 유능한 창업자 공급 부족으",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hyeonseok.com/blog/943",
-    "pubDate": "Sat, 06 Sep 2025 19:53:03 GMT",
-    "creator": "Unknown",
+    "link": "https://brunch.co.kr/@@PUo/49",
+    "pubDate": "Thu, 11 Sep 2025 15:33:23 GMT",
+    "creator": "Soomin Kim",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 18화, 지루하고현학적인과거회상인데스와",
-    "description": "No description available",
+    "title": "버블의 징후를 체크해보자",
+    "description": "영상: https://www.youtube.com/watch?v=OcuoB9xIr70&t=89s\n\n\n\n내년은 짝수해 미대통령 2년차 입니다.\n주의해야할 해 입니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2357",
-    "pubDate": "Wed, 10 Sep 2025 21:27:26 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "http://serverdown.tistory.com/1388",
+    "pubDate": "Fri, 12 Sep 2025 16:12:20 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "공지"
+      "투자",
+      "버블"
     ]
   }
 ]
