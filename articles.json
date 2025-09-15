@@ -2,45 +2,48 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "걸음 보조 로봇 기사",
-    "description": "영상: https://www.youtube.com/watch?v=QjHcJfI7Cik\n\n\n\n \n치아 임플란트 처럼 결국 더 걸을 수 있음으로서\n인간의 수명은 늘어날 것입니다.\n \n추천주\n미국 - 테슬라, 엔비디아\n한국 - 로보티즈, 원익홀딩스\n중국 - Kodex 차이나휴머노이드로봇\n잘모르시면 그냥 글로벌로\nPLUS 글로벌휴머노이드로봇액티브",
+    "title": "C++ Language Updates in MSVC Build Tools v14.50",
+    "description": "C++ Language Updates in MSVC Build Tools v14.50 It has been some time since we have provided an update on MSVC progress, and this one comes with the latest major update to our IDE: Visual Studio 2026 version 18.0. This version of Visual Studio ships with the MSVC Build Tools version 14.50, which includes version […]\nThe post C++ Language Updates in MSVC Build Tools v14.50 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1389",
-    "pubDate": "Sat, 13 Sep 2025 13:18:23 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/cppblog/c-language-updates-in-msvc-build-tools-v14-50/",
+    "pubDate": "Wed, 10 Sep 2025 13:51:18 +0000",
+    "creator": "Cameron DaCamara",
     "categories": [
-      "투자",
-      "로봇"
+      "Announcement",
+      "C++",
+      "Featured",
+      "C++ language",
+      "compiler",
+      "MSVC",
+      "VC++"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "버블의 징후를 체크해보자",
-    "description": "영상: https://www.youtube.com/watch?v=OcuoB9xIr70&t=89s\n\n\n\n내년은 짝수해 미대통령 2년차 입니다.\n주의해야할 해 입니다.",
+    "title": "피그마 플러그인 만들어줘",
+    "description": "오랜만에 인사드립니다. 스포카에서 제품 디자인을 하고 있는 김동환(Donny)입니다.\n이전에 개인 블로그에 바이브 코딩으로 Swift 앱을 제작한 이야기를 공유한 적이 있었는데요, 이번에는 피그마 플러그인을 직접 제작하고, 업무에 적용한 경험을 나눠보고자 합니다.\n매일 2~3시간, 총 3일 정도 걸려 완성했습니다. 사실 이런 단순한 통신과 Mapping을 다루는 플러그인은 이미 흔한 사례지만, 대부분은 TF 단위로 기획되고 만들어집니다.\n그런 점에서 이번 이야기는 PD 혼자서 가볍게 기획하고 제작할 수 있다는 가능성에 더 큰 의미가 있다고 생각합니다.\n프로젝트 커틀러리\n시간적인 이유로 아래와 같은 화면으로 디자인/설계 공유를 하는 분들이 많으실 것 같습니다. 저도 마찬가지였습니다.\n더미 데이터는 공유받는 사람, UT 참여자의 진지한 몰입에 도움이 됩니다. 하지만, 한땀한땀 넣기에는 시간, 체력, 멘탈적인 문제가 있을 수밖에 없습니다.\n특히 B2B SaaS 제품 같은 경우, 테이블이 아주 많습니다. Column이 8개, Row가 30개만 되더라도 도저히 채울 엄두가 나지 않는 것이 사실입니다. 그래서 Mapping 플러그인을 구상하게 되었습니다.\n프로젝트명은 커틀러리(식기)입니다. 손으로 먹지 말고, 도구를 써서 먹자는 바람을 담았습니다.\n어떻게 만들지?\n피그마에서 제공하는 공식 가이드를 참고하면, 생각보다 손쉽게 기본 환경 설정을 마칠 수 있습니다.\n구조를 간단히 살펴보면, 플러그인의 로직을 담당하는 code.ts와 실질적인 화면을 구성하는 ui.html로 이루어져 있습니다.\n팁으로 피그마 플러그인 같이 특수한 룰이 있는 환경에서는 AI 답변의 품질 향상을 위해 별도의 룰 문서나 오답 노트를 .md로 만드시면 좋습니다.\n목표를 명확하게 세워 봅시다. 우선 문자열과 이미지로 구성된 더미 데이터 뭉치가 있어야 하고, 그것들을 피그마 플러그인을 통해 레이어에 주입해야 합니다.\n문자 데이터는 Google Spreadsheets, 이미지는 Google Drive에 넣어 GCP API로 연결하는 것을 머릿속에 그렸습니다.\n주입 방식은 텍스트 레이어 이름과 칼럼명을 대조해 일치한다면, 하위 row 데이터를 랜덤으로 전달하는 방식입니다.\n여기까지만 해도 저는 완벽하다고 생각했습니다. 후후…\n도전 1. CORS 이슈\nAPI를 이상 없이 연결했지만, 값이 불러와지지 않았습니다. 콘솔로 확인해보니 CORS 문제가 발생하는 것을 알 수 있었습니다. 우아한 분들의 사례를 보니 Figma iframe에서는 보안상 이유로 외부 API 사용이 불가능하다고 합니다. 로컬 환경에서 프록시 서버로 우회하는 방식을 시도해보았습니다.\n엔드포인트를 작성하고, 더미 데이터가 정상적으로 불러와지는 것을 확인할 수 있었습니다.\n도전 2. 이미지 불러오기\nGoogle Drive의 이미지도 같은 방식으로 가져왔습니다. 그런데 테스트 중 403 에러가 미친 듯이 발생했습니다. 가난한 나머지 GCP 요청 한도(Limit)에 도달한 것이었습니다.\n플러그인을 최초 실행할 때 캐싱하는 방식으로 해결해보려고 했지만, 데이터는 계속 업데이트 되어야했고, 초기 로딩 시간도 오래 걸렸습니다.\n결국 S3를 구걸하러 백엔드 챕터에 방문했고, 이미지는 S3 URL로 Spreadseets에 첨부했습니다. 요청 Limit과 초기 로딩 속도 문제는 이렇게 해결했습니다.\n이미지 요청은 구현 방식이 다양했고, 결국 코드를 읽고 고민 해야 했습니다. 결정을 온전히 AI에게 맡기는 순간, 같은 자리를 맴도는 느낌을 받았습니다.\n도전 3. Mapping Book\n함께 협업하기 위해서는 어떤 레이어명에 어떤 칼럼 데이터가 Mapping되는지, 더미 데이터 형식은 어떤지 정리한 문서가 필요했습니다. 다수의 디자이너와의 협업을 고려해 해당 내용을 빠르게 Mapping Book으로 정리했습니다.\n결과/배포\n이제 새로운 컴포넌트, 테이블을 만들 때 텍스트 레이어명만 Mapping Book을 보고 적는다면, 더미 데이터를 빠르게 채울 수 있습니다. 더미 데이터 원본은 공유 파일이기 때문에 여러 디자이너들이 편집하고, 새로운 데이터 셋을 추가할 수 있습니다.\n품목명, 이미지, 규격, 단위가 하나의 세트로 출력되며, 품목명이 긴 경우(Ellipsis 케이스)를 처리할 수 있는 옵션을 추가하는 것이 후속 작업입니다.\n불가능보다 가능을 말하기\n이전 직장에서 UX 라이팅 플러그인을 만들려고 했으나, 진행 도중 TF 구성원 각자의 사정으로 흐지부지 끝나버린 경험이 있습니다. 이런 Extra mile의 업무는 필요성을 느끼는 구성원을 모으는 것부터 일정까지 조율해야 하는 부분이 제작보다 더 힘든 것 같습니다.\n하지만 이제는 필요함을 느낀다면 그것을 정의하고 가볍게 바로 만들어 보면 됩니다. 올바르게 만들었다면 자연스럽게 구성원들의 공감과 지지를 얻을 것입니다. 지금의 가장 큰 장벽은 귀찮음과 막연한 두려움이 아닐까 싶습니다.\n아직 가야할 길이 멉니다. 그래픽 리소스 생성, 맞춤법 및 UX Writing 검사, 자어 수 계산, 반응형 별 화면 생성 등 추가할 기능들이 많습니다. 다음번에 또 재미있는 사례로 찾아 뵙겠습니다.\n시간 내어 읽어주셔서 감사합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1388",
-    "pubDate": "Fri, 12 Sep 2025 16:12:20 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "투자",
-      "버블"
-    ]
+    "link": "https://spoqa.github.io/2025/09/09/figma-plugin-design.html",
+    "pubDate": "2025-09-09T00:00:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 18화, 지루하고현학적인과거회상인데스와",
-    "description": "No description available",
+    "title": "JetBrains Mellum Now Available on Amazon Bedrock Marketplace – For Free",
+    "description": "Production-grade code completion at your fingertips – deploy Mellum instantly with full control and zero extra model fees JetBrains Mellum – our focused large language model (LLM) for code completion – is now available on the Amazon Bedrock Marketplace. This means Mellum is easier than ever to use in real-world applications, with instant access via […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2357",
-    "pubDate": "Wed, 10 Sep 2025 21:27:26 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/ai/2025/09/jetbrains-mellum-now-available-on-amazon-bedrock-marketplace-for-free/",
+    "pubDate": "Mon, 08 Sep 2025 12:56:47 +0000",
+    "creator": "Valerie Kuzmina",
     "categories": [
-      "공지"
+      "jetbrains-ai",
+      "news"
     ]
   },
   {
@@ -60,108 +63,74 @@
   {
     "id": 5,
     "imageUrl": "",
-    "title": "[MULTI] 루터슈터의 왕좌 탈환, 보더랜드 4",
-    "description": "No description available",
+    "title": "Kotlin 2.2.20 Released",
+    "description": "The Kotlin 2.2.20 release is out, delivering important changes for web development. Kotlin/Wasm is now Beta, with improvements to exception handling in JavaScript interop, npm dependency management, built-in browser debugging support, and a new shared source set for js and wasmJs targets. Additionally, here are some main highlights: For the complete list of changes, see […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2358",
-    "pubDate": "Thu, 11 Sep 2025 21:05:01 +0900",
-    "creator": "「RULIWEB」",
+    "link": "https://blog.jetbrains.com/kotlin/2025/09/kotlin-2-2-20-released/",
+    "pubDate": "Wed, 10 Sep 2025 09:54:07 +0000",
+    "creator": "Sarah Haggarty",
     "categories": [
-      "리뷰"
+      "releases"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "호구 개발자를 위한 비즈니스",
-    "description": "이제 처음 개발에 뛰어드는 사람들이 AI를 통해 뭔가를 만들 때 버셀, 수파베이스 같은 걸로 서비스 하는 사람들이 대부분 아닐까요?\n하지만 서비스가 커지기 시작했을 때 이들에게 지불해야 하는 가격은 잘 계산해보지 않는 것 같습니다.\n버셀이나 수파베이스 창업자는 “맞아 맞아, 그때가서 생각해보면 돼!” 하고 함박웃음을 지으며 맞장구를 쳐줄 것 같네요.\n물론 그때가서 생각해봐도 됩니다. 빨리 빠져나올 수 있는 실력이 있다면요.\n사실 이게 지금 일어나고 있는 일들입니다.\n계속 컴퓨터 공학을 깊이 파고 들어야 하는 이유가 여기있습니다.\n함께 읽으면 좋은 글:\n집에서 서버를 운영하는 게 가능한가요?\n서버 비용을 아끼던 사람들 (feat. 카카오 옛날 이야기)",
+    "title": "JetBrains at the ICPC World Finals 2025 Baku",
+    "description": "The ICPC World Finals 2025 in Baku was an unforgettable event, and we were honored to be part of it once again. It’s always a joy to see the brightest students from across the globe. The Finals reminds us why supporting the ICPC is such a vital mission – it’s about community, talent, and the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/09/08/sucker-developer.html",
-    "pubDate": "2025-09-08T02:24:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/blog/2025/09/11/jetbrains-at-the-icpc-world-finals-2025-baku/",
+    "pubDate": "Thu, 11 Sep 2025 14:22:17 +0000",
+    "creator": "Margarita Shadrina",
+    "categories": [
+      "competitive-programming",
+      "icpc"
+    ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "Logstash 필터 date - 4th",
-    "description": "DB 데이터 연동.\n\n[2025-09-07T11:06:48,019][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}\n[2025-09-07T11:07:00,219][INFO ][logstash.inputs.jdbc     ][main][d56fa9ad43d4dc4ae19f64f322de33854c6e9d33b5fc7c06354603bf613db2ee] (0.001000s)\nselect a.cid, a.timestamp, b.sig_name, inet_ntoa(c.ip_src), inet_ntoa(c.ip_dst), unhex(d.data_payload)\nfrom event a, signature b, iphdr c, data d\nwhere a.signature = b.sig_id\nand a.sid = c.sid and a.cid = c.cid\nand a.sid = d.sid and a.cid = d.cid\nand a.cid > 0\n\n\n{\n      \"inet_ntoa(c.ip_src)\" => \"192.168.31.230\",\n                 \"sig_name\" => \"sql-injection-and\",\n                 \"@version\" => \"1\",\n                \"timestamp\" => 2018-01-08T04:54:52.000Z,\n    \"unhex(d.data_payload)\" => #<Sequel::SQL::Blob:0xad0 bytes=190 start=\"GET /s?ie=\" end=\"t: */*\\r\\n\\r\\n\">,\n                      \"cid\" => 4,\n               \"@timestamp\" => 2025-09-07T02:07:00.232Z,\n      \"inet_ntoa(c.ip_dst)\" => \"119.63.197.151\"\n}\n\n\n\n\n로그스태시가 데이터를 가져온 시간인 @timestamp와 데이터의 원본 시간인 timestamp의 포맷이 똑같은 ISO8601이다. 그래서 엘라스틱은 둘 다 시간 필드로 인식함. 굳이 date 필터 작업을 안 해도 된다는 얘기. \n\n\n단 %{+yyyy.MM.dd} 등의 구문을 사용해서 시간 정보 활용을 시도하면 @timestamp에 접근하기 때문에 헷갈리기 싫으면 그냥 date 필터 작업을 해주는 게 낫다.\n\nfilter {\n date {\n  match => [\"timestamp\", \"ISO8601\"]\n }\n}\n\n\n\n\n그런데 안 됨(..)\n\n{\n      \"inet_ntoa(c.ip_src)\" => \"192.168.31.230\",\n                 \"sig_name\" => \"sql-injection-and\",\n                 \"@version\" => \"1\",\n                \"timestamp\" => 2018-01-08T04:54:47.000Z,\n    \"unhex(d.data_payload)\" => #<Sequel::SQL::Blob:0xbb4 bytes=351 start=\"GET /s?ie=\" end=\"t: */*\\r\\n\\r\\n\">,\n                      \"cid\" => 1,\n                     \"tags\" => [\n        [0] \"_dateparsefailure\"\n    ],\n               \"@timestamp\" => 2025-09-07T02:10:00.041Z,\n      \"inet_ntoa(c.ip_dst)\" => \"119.63.197.139\"\n}\n\n\n\n\ndate 필터가 ISO8601 포맷을 해석하지 못하는 모양. date 필터를 걸기 전에 먼저 문자열로 바꿔줘야 한다.\n\nfilter {\n mutate {\n  convert => {\"timestamp\" => \"string\"}\n }\n\n\n date {\n  match => [\"timestamp\", \"ISO8601\"]\n }\n}\n\n\n\n\n{\n      \"inet_ntoa(c.ip_src)\" => \"192.168.31.230\",\n                 \"sig_name\" => \"sql-injection-and\",\n                 \"@version\" => \"1\",\n                \"timestamp\" => \"2018-01-08T04:55:12.000Z\",\n    \"unhex(d.data_payload)\" => #<Sequel::SQL::Blob:0xcbe bytes=264 start=\"GET /s?ie=\" end=\"t: */*\\r\\n\\r\\n\">,\n                      \"cid\" => 5,\n               \"@timestamp\" => 2018-01-08T04:55:12.000Z,\n      \"inet_ntoa(c.ip_dst)\" => \"119.63.197.151\"\n}\n\n\n\n\n관련 글\n\nLogstash 필터 date - 3rd\nLogstash 필터 date\nLogstash 필터 grok\nLogstash 필터 mutate\nLogstash 필터 ruby\nLogstash 필터 geoip\nLogstash 필터 dissect\nLogstash 필터 kv\nLogstash 필터 translate\nLogstash 필터 drop\nLogstash 필터 useragent\nLogstash 필터 elapsed\nLogstash 필터 fingerprint\nLogstash 필터 csv\nLogstash 필터 dns\nLogstash 필터 split\nLogstash codec 플러그인 multiline",
+    "title": "TeamCity 2025.07.2 Is Available",
+    "description": "Today we are releasing our second bug-fix release for the 2025.07 major release —TeamCity On-Premises 2025.07.2. This update ships a considerable number of bug fixes, including the following: Apart from resolving regular bugs, all TeamCity bug-fix updates also include performance and security improvements. For that reason, we recommend that you never ignore bug-fix releases and […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/09/logstash-date-4th.html",
-    "pubDate": "2025-09-07T03:31:00.003Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/teamcity/2025/09/teamcity-2025-07-2-bug-fix/",
+    "pubDate": "Wed, 10 Sep 2025 16:31:23 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "bug-fix"
+    ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "“GoLand Can Do That?” Ten Secret Superpowers You Might Not Know",
-    "description": "Note: This is a guest post from John Arundel, a Go writer and teacher who blogs at bitfieldconsulting.com. His most recent book is The Deeper Love of Go. How do you break it to someone that they’ve wasted most of their life? Well, I worked with a guy who didn’t know how to copy and […]",
+    "title": "악역영애 4컷 만화 - 18화, 지루하고현학적인과거회상인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2025/09/08/goland-can-do-that-ten-secret-superpowers-you-might-not-know/",
-    "pubDate": "Mon, 08 Sep 2025 18:05:06 +0000",
-    "creator": "Anna Protsenko",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2357",
+    "pubDate": "Wed, 10 Sep 2025 21:27:26 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "features"
+      "공지"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "장수(longevity)",
-    "description": "올해 하반기부터 우린 매달 오피스아워(Office Hour: OH)를 진행하고 있다. 나를 포함해 스트롱의 투자팀원이 6명인데, 각자 돌아가면서 매달 본인들이 요새 관심 있는 분야에서 창업을 고민하고 있거나, 이미 창업한 분들을 만나기 위한 우리의 작은 노력 중 하나의 활동인데, 9월의 OH는 내가 진행한다. 이미 학생 창업가, 여성 창업가, 그리고 콘텐츠 창업가 OH를 통해서 스트롱의 박형우 심사역, 유혜림 심사역,(...)",
+    "title": "태재 AI 아카데미 - 금융 AI 전망 (윤송이 박사) - 금융 + AI 과정",
+    "description": "태재 AI 아카데미: 금융 + AI 과정 챗GPT (3.5) 출시 후 빠르게 나왔던 엔씨 LLM 바르코와 <가장 인간적인 미래> 책으로 만났던, 윤송이 박사님 “AI Transformation at Full Speed in Finance\" 강연  몇 가지 인사이트가 인상에 남아 잊기 전 기록  - AI 버블은 기술 거품이라기보다, 유능한 창업자 공급 부족으",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/09/longevity.html",
-    "pubDate": "Sun, 07 Sep 2025 21:26:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "longevity",
-      "Strong"
-    ]
+    "link": "https://brunch.co.kr/@@PUo/49",
+    "pubDate": "Thu, 11 Sep 2025 15:33:23 GMT",
+    "creator": "Soomin Kim",
+    "categories": []
   },
   {
     "id": 10,
-    "imageUrl": "",
-    "title": "Junie Is Now Available in CLion: Supercharge Your C and C++ Development Today",
-    "description": "Starting with version 2025.2.1, CLion now supports Junie, the AI coding agent by JetBrains, thanks to an integration that is currently in Beta. Developers working on embedded systems, projects written in C or C++, or performance-critical software can now experience the full benefit of Junie’s project insights and tooling, directly in CLion. With Junie, you […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2025/09/junie-availability/",
-    "pubDate": "Wed, 10 Sep 2025 07:26:43 +0000",
-    "creator": "Oleg Zinovyev",
-    "categories": [
-      "news",
-      "ai",
-      "beta",
-      "junie"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "습관을 형성하는 기계",
-    "description": "얼마 전에 한 팟캐스트에서 습관에 대해 연구하는 작가의 인터뷰를 들었다. 이분이 최근에 출시한 책은 습관은 무엇이고, 어떻게 하면 큰 목표를 달성하기 위한 습관을 형성할 수 있는지에 대한 내용인데, 이 책을 출간하면서 가장 많이 참고했던 게 군대이고, 가장 많이 인터뷰했던 사람들이 군인이라고 한다. 특히 작가가 했던 말 중 내 기억에 인상 깊게 남았던 말은 “군대는 습관을(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/09/the-habit-forming-machine.html",
-    "pubDate": "Wed, 10 Sep 2025 21:28:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "inspiring",
-      "people"
-    ]
-  },
-  {
-    "id": 12,
     "imageUrl": "",
     "title": "Testing AI Coding Agents With TeamCity and SWE-bench",
     "description": "Introduction AI coding agents are no longer research experiments. They are quickly becoming practical tools that can help developers solve real problems.  But how do you know whether an agent is good enough for serious use? How do you measure progress when its answers are not always predictable and when there may be various correct […]",
@@ -176,7 +145,21 @@
     ]
   },
   {
-    "id": 13,
+    "id": 11,
+    "imageUrl": "",
+    "title": "Read Meta’s 2025 Sustainability Report",
+    "description": "[...]\nRead More...\nThe post Read Meta’s 2025 Sustainability Report appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://sustainability.atmeta.com/2025-sustainability-report/",
+    "pubDate": "Fri, 12 Sep 2025 16:36:33 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "통합 오디오 분석 제미나이 GEM 지침 무료 배포",
     "description": "Gemini에서 오디오 파일 업로드를 지원하게 되면서, 오디오 분석의 새 지평을 열어줄 '통합 오디오 분석 GEM 지침'을 무료로 배포한다는 소식입니다. 이 강력한 도구가 어떻게 복잡한 오디오 데이터를 쉽고 깊이 있게 분석하는지, 그 핵심 내용을 지금부터 자세히 알려드릴게요!\n✨ 통합 오디오 분석 GEM, 무엇이 특별할까요?\n솔직히 말하면, 오디오 분석은 그동안 전문가의 영역으로 여겨졌잖아요? 하지만 이번에 소개할 GEM(Gemini Extension Module)은 그런 장벽을 허물어뜨립니다. 단순히 음성을 텍스트로 바꾸는 것을 넘어, 음성학, 커뮤니케이션 이론, 음악학까지 아우르는 최고 수준의 오디오 인텔리전스 전문가가 내재되어 있다고 생각하시면 이해하기 쉬울 거예요.\n\n\n  역할과 최종 목표\n이 GEM의 가장 큰 역할은 사용자 여러분이 제공한 모든 오디오 파일의 본질을 자동으로 식별하고, 그 유형에 최적화된 가장 깊이 있고 다층적인 종합 분석 보고서를 생성하는 것입니다.\n \n \n  핵심 요약: 오디오 파일이 음성인지 음악인지 스스로 판단하고, 각 유형에 맞춰 가장 전문적이고 깊이 있는 분석 보고서를 만들어준다는 것이죠!\n  오디오 분석, 이렇게 진행됩니다! (2가지 경로)\n이 GEM은 분석의 시작에서부터 아주 똑똑하게 접근해요. 먼저 오디오 파일의 주된 콘텐츠가 음성인지 음악인지 판별하는 '오디오 유형 식별' 단계를 거칩니다. 그리고 그 결과에 따라 최적화된 분석 경로를 선택해 진행하게 되죠. 마치 길을 잘 아는 전문가처럼요.\n경로 A: 음성 기반 오디오 분석\n회의록, 인터뷰, 강의 녹음본 같은 음성 기반 오디오는 정말 중요한 정보를 담고 있죠. 이 GEM은 단순히 받아쓰기하는 것을 넘어, 대화의 본질을 파악합니다.\n✅ 내용 분석: 3~5문장의 핵심 요약부터 주요 주제, 키워드 추출, 그리고 가장 중요한 실행 항목 및 결정 사항(담당자, 기한 포함)까지 리스트업 해줍니다. 심지어 오디오에 포함된 모든 음성 대화를 화자 분리까지 완벽하게 변환하여 전문으로 제공해요.\n✅ 감성 및 표현 방식 분석: 대화의 전반적인 감정, 화자별 감정 변화, 어조(Tone) 분석은 물론, 발화 속도, 리듬, 의미 있는 침묵, 필러 단어 사용 빈도 같은 비언어적 요소까지 분석하여 그 의미를 추론해줍니다. 정말 놀랍지 않나요?\n✅ 기술 및 환경 분석: 사용된 언어, 총 화자 수, 재생 시간은 물론, 배경 소음이나 웃음, 기침 같은 특정 음향 이벤트까지 식별하고 오디오 선명도 같은 기술적 품질까지 평가해줍니다.\n✅ 종합 인사이트: 이 모든 분석을 바탕으로 내용, 감정, 표현 방식을 아우르는 최종적인 통찰력과 결론을 제공하니, 그냥 회의록을 읽는 것과는 차원이 다르죠.\n\n\n경로 B: 음악 기반 오디오 분석\n음악은 복잡한 예술 형태인데, 이걸 어떻게 분석할까 궁금하셨을 거예요. 이 GEM은 음악의 아주 미묘한 부분까지 파고듭니다.\n✅ 음악 개요 및 핵심 특징: 추정 장르, 분위기, 주요 악기 구성은 기본이고, BPM, 박자표, 리듬 특징, 화성 및 조성(키, 스케일, 코드 진행)까지 상세하게 해석해줍니다.\n✅ 내용 및 구조 분석: 보컬이 있다면 가사 전문을 완벽하게 변환하고, 연주곡일 경우 명확히 알려줘요. 곡의 구조를 인트로, 벌스, 코러스 등으로 자동 분할하고 각 구간의 특징까지 설명해줍니다.\n✅ 사운드 및 악기 분석: 정말 신기한 부분인데요, Spectral Centroid (밝기), Spectral Bandwidth (대역폭), Zero Crossing Rate (타격감/고주파 잡음), Spectral Rolloff (고역 에너지) 같은 스펙트럼 특징값을 분석해서 각 값이 음색에 미치는 영향을 설명하고, 이를 토대로 주요 악기까지 추정하고 분류해준답니다.\n✅ 음악적 특성 및 기술 사양: 스포티파이 스타일의 에너지, 댄스 가능성, 정서적 밝기 같은 음악적 특성과 총 길이, 샘플레이트, 채널 같은 기본 기술 사양도 기록해요.\n  시각적 분석: 파형, 스펙트로그램, 구조 시각화\n이 GEM의 또 다른 강점은 분석 결과를 시각적으로 보여준다는 거예요. 시간에 따른 음량 변화를 파형으로 시각화해주고, 시간에 따른 주파수 분포를 보여주는 스펙트로그램으로 저음, 중음, 고음역대의 에너지 분포를 한눈에 파악할 수 있게 해줍니다. 음악의 구조(인트로, 코러스 등)도 타임라인 위에 시각적으로 표시해주니, 정말 직관적이고 이해하기 쉬웠어요.\n  놓치지 마세요: 단순히 텍스트 분석이 아닌, 시각화를 통해 오디오의 복잡한 정보를 더욱 명확하게 전달한다는 점이 이 GEM의 차별점입니다!\n  왜 이 GEM 지침이 게임 체인저일까요?\nGemini에서 오디오 파일 업로드를 지원하게 되면서, 이런 통합 분석 GEM 지침이 탄생했다는 것은 정말 큰 의미가 있습니다. 제 생각엔 이 GEM은 단순히 새로운 도구가 아니라, 우리가 오디오 데이터를 다루는 방식 자체를 바꿀 수 있는 게임 체인저라고 생각해요. 개발자, 연구자, 콘텐츠 크리에이터 모두에게 엄청난 잠재력을 열어줄 것이 분명합니다.\n  복잡한 분석의 간소화: 수동으로 진행하기 어렵고 시간이 많이 드는 음성 및 음악 분석 작업을 GEM이 한 번에 처리해줍니다.\n  새로운 인사이트 발굴: 기존에는 놓쳤을 법한 비언어적 요소나 스펙트럼 특징값 분석을 통해 더욱 깊이 있는 정보를 얻을 수 있습니다.\n  접근성의 확대: 전문가가 아닌 일반 사용자도 복잡한 오디오 분석을 손쉽게 수행할 수 있게 됩니다.\n  시각화를 통한 이해 증진: 복잡한 데이터를 직관적인 시각 자료로 제공하여 이해도를 높여줍니다.\n⚠️ 주의: 강력한 도구인 만큼, 분석 결과는 사용자의 목적과 맥락에 맞춰 신중하게 해석하고 활용해야 합니다. 인공지능의 분석은 참고 자료로 활용하며 최종적인 판단은 항상 사람이 해야 한다는 점을 잊지 마세요!\n  통합 오디오 분석 GEM 지침, 지금 바로 무료로 만나보세요!\n이처럼 혁신적인 '통합 오디오 분석 GEM 지침'을 여러분께 무료로 배포한다는 소식은 정말 반갑죠. Gemini의 오디오 처리 능력이 얼마나 발전했는지 직접 경험하고 싶으시다면, 이 지침을 꼭 활용해보세요. 오디오 파일 분석에 대한 고민이 많으셨던 분들에게는 가뭄의 단비 같은 소식이 될 거라고 확신합니다.\n복잡한 오디오 데이터를 깊이 있게 이해하고 활용할 수 있는 강력한 도구를 이제 여러분도 손쉽게 사용할 수 있게 되었어요. 이 기회를 통해 여러분의 작업과 연구에 새로운 활력을 불어넣으시길 바랍니다!\n \n\n\n\n \n  핵심 요약\nGemini 오디오 업로드 기능 덕분에 '통합 오디오 분석 GEM 지침' 무료 배포!\n오디오 유형(음성/음악) 자동 식별 후, 각 유형에 최적화된 심층 분석 제공.\n음성은 내용, 감성, 기술적 분석 포함 화자 분리 및 전문 제공.\n음악은 장르, 화성, 악기, 스펙트럼 분석 및 파형/스펙트로그램 시각화.\n이번 GEM은 오디오 데이터 활용의 새로운 기준을 제시하며, 누구나 전문가 수준의 분석을 할 수 있게 돕습니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 통합 오디오 분석 GEM은 어떤 종류의 오디오 파일을 분석할 수 있나요?\nA1: Gemini에서 업로드 가능한 모든 오디오 파일을 분석할 수 있습니다. 주요 내용은 음성 기반(회의록, 인터뷰 등)과 음악 기반(음악 파일)으로 나뉘며, GEM이 자동으로 유형을 식별하여 최적화된 분석을 제공합니다.\nQ2: 분석 보고서는 어떤 형식으로 제공되나요?\nA2: 모든 분석 결과는 HTML 요소로 시각화되며, 단 하나의 완성된 HTML 코드 블록으로 제공됩니다. 이는 시각적으로 정보를 파악하기 쉽게 돕습니다\n \nQ3: GEM 지침을 무료로 받을 수 있나요?\nA3: 네, 맞습니다! Gemini의 오디오 파일 업로드 기능 지원을 기념하여, 이 강력한 통합 오디오 분석 GEM 지침을 무료로 배포하고 있습니다. 본 포스트를 통해 자세한 내용을 확인하시고 활용해보세요.\n 요소로 시각화되며, 단 하나의 완성된 HTML 코드 블록으로 제공됩니다. 이는 시각적으로 정보를 파악하기 쉽게 돕습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"GEM 지침을 무료로 받을 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 맞습니다! Gemini의 오디오 파일 업로드 기능 지원을 기념하여, 이 강력한 통합 오디오 분석 GEM 지침을 무료로 배포하고 있습니다. 본 포스트를 통해 자세한 내용을 확인하시고 활용해보세요.\"\n      }\n    }\n  ]\n}\n\n  GEM 무료 다운로드\n1. 압축파일을 푸시고 TXT 파일의 내용은 복사하여 새로운 GEM의 요청사항에 붙여넣고, 템플릿 HTML 파일은 지식에 업로드 하세요. GEM 지침 등록법은 제 유튜브 채널 제미나이 활용법 1편을 참고하세요.\n2. 본 GEM 실행시 반드시 대화창에 'CANVAS' 기능을 활성화 하세요.\n\n    \n\n    \n통합 오디오 분석 제미나이 GEM 지침.zip\n0.01MB",
@@ -200,29 +183,47 @@
     ]
   },
   {
-    "id": 14,
+    "id": 13,
     "imageUrl": "",
-    "title": "Read Meta’s 2025 Sustainability Report",
-    "description": "[...]\nRead More...\nThe post Read Meta’s 2025 Sustainability Report appeared first on Engineering at Meta.",
+    "title": "버블의 징후를 체크해보자",
+    "description": "영상: https://www.youtube.com/watch?v=OcuoB9xIr70&t=89s\n\n\n\n내년은 짝수해 미대통령 2년차 입니다.\n주의해야할 해 입니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://sustainability.atmeta.com/2025-sustainability-report/",
-    "pubDate": "Fri, 12 Sep 2025 16:36:33 +0000",
-    "creator": "Unknown",
+    "link": "http://serverdown.tistory.com/1388",
+    "pubDate": "Fri, 12 Sep 2025 16:12:20 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Uncategorized"
+      "투자",
+      "버블"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "[MULTI] 도전과 절망 그리고 그 끝의 절정, 할로우 나이트 : 실크송",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2356",
+    "pubDate": "Wed, 10 Sep 2025 16:12:50 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "피그마 플러그인 만들어줘",
-    "description": "오랜만에 인사드립니다. 스포카에서 제품 디자인을 하고 있는 김동환(Donny)입니다.\n이전에 개인 블로그에 바이브 코딩으로 Swift 앱을 제작한 이야기를 공유한 적이 있었는데요, 이번에는 피그마 플러그인을 직접 제작하고, 업무에 적용한 경험을 나눠보고자 합니다.\n매일 2~3시간, 총 3일 정도 걸려 완성했습니다. 사실 이런 단순한 통신과 Mapping을 다루는 플러그인은 이미 흔한 사례지만, 대부분은 TF 단위로 기획되고 만들어집니다.\n그런 점에서 이번 이야기는 PD 혼자서 가볍게 기획하고 제작할 수 있다는 가능성에 더 큰 의미가 있다고 생각합니다.\n프로젝트 커틀러리\n시간적인 이유로 아래와 같은 화면으로 디자인/설계 공유를 하는 분들이 많으실 것 같습니다. 저도 마찬가지였습니다.\n더미 데이터는 공유받는 사람, UT 참여자의 진지한 몰입에 도움이 됩니다. 하지만, 한땀한땀 넣기에는 시간, 체력, 멘탈적인 문제가 있을 수밖에 없습니다.\n특히 B2B SaaS 제품 같은 경우, 테이블이 아주 많습니다. Column이 8개, Row가 30개만 되더라도 도저히 채울 엄두가 나지 않는 것이 사실입니다. 그래서 Mapping 플러그인을 구상하게 되었습니다.\n프로젝트명은 커틀러리(식기)입니다. 손으로 먹지 말고, 도구를 써서 먹자는 바람을 담았습니다.\n어떻게 만들지?\n피그마에서 제공하는 공식 가이드를 참고하면, 생각보다 손쉽게 기본 환경 설정을 마칠 수 있습니다.\n구조를 간단히 살펴보면, 플러그인의 로직을 담당하는 code.ts와 실질적인 화면을 구성하는 ui.html로 이루어져 있습니다.\n팁으로 피그마 플러그인 같이 특수한 룰이 있는 환경에서는 AI 답변의 품질 향상을 위해 별도의 룰 문서나 오답 노트를 .md로 만드시면 좋습니다.\n목표를 명확하게 세워 봅시다. 우선 문자열과 이미지로 구성된 더미 데이터 뭉치가 있어야 하고, 그것들을 피그마 플러그인을 통해 레이어에 주입해야 합니다.\n문자 데이터는 Google Spreadsheets, 이미지는 Google Drive에 넣어 GCP API로 연결하는 것을 머릿속에 그렸습니다.\n주입 방식은 텍스트 레이어 이름과 칼럼명을 대조해 일치한다면, 하위 row 데이터를 랜덤으로 전달하는 방식입니다.\n여기까지만 해도 저는 완벽하다고 생각했습니다. 후후…\n도전 1. CORS 이슈\nAPI를 이상 없이 연결했지만, 값이 불러와지지 않았습니다. 콘솔로 확인해보니 CORS 문제가 발생하는 것을 알 수 있었습니다. 우아한 분들의 사례를 보니 Figma iframe에서는 보안상 이유로 외부 API 사용이 불가능하다고 합니다. 로컬 환경에서 프록시 서버로 우회하는 방식을 시도해보았습니다.\n엔드포인트를 작성하고, 더미 데이터가 정상적으로 불러와지는 것을 확인할 수 있었습니다.\n도전 2. 이미지 불러오기\nGoogle Drive의 이미지도 같은 방식으로 가져왔습니다. 그런데 테스트 중 403 에러가 미친 듯이 발생했습니다. 가난한 나머지 GCP 요청 한도(Limit)에 도달한 것이었습니다.\n플러그인을 최초 실행할 때 캐싱하는 방식으로 해결해보려고 했지만, 데이터는 계속 업데이트 되어야했고, 초기 로딩 시간도 오래 걸렸습니다.\n결국 S3를 구걸하러 백엔드 챕터에 방문했고, 이미지는 S3 URL로 Spreadseets에 첨부했습니다. 요청 Limit과 초기 로딩 속도 문제는 이렇게 해결했습니다.\n이미지 요청은 구현 방식이 다양했고, 결국 코드를 읽고 고민 해야 했습니다. 결정을 온전히 AI에게 맡기는 순간, 같은 자리를 맴도는 느낌을 받았습니다.\n도전 3. Mapping Book\n함께 협업하기 위해서는 어떤 레이어명에 어떤 칼럼 데이터가 Mapping되는지, 더미 데이터 형식은 어떤지 정리한 문서가 필요했습니다. 다수의 디자이너와의 협업을 고려해 해당 내용을 빠르게 Mapping Book으로 정리했습니다.\n결과/배포\n이제 새로운 컴포넌트, 테이블을 만들 때 텍스트 레이어명만 Mapping Book을 보고 적는다면, 더미 데이터를 빠르게 채울 수 있습니다. 더미 데이터 원본은 공유 파일이기 때문에 여러 디자이너들이 편집하고, 새로운 데이터 셋을 추가할 수 있습니다.\n품목명, 이미지, 규격, 단위가 하나의 세트로 출력되며, 품목명이 긴 경우(Ellipsis 케이스)를 처리할 수 있는 옵션을 추가하는 것이 후속 작업입니다.\n불가능보다 가능을 말하기\n이전 직장에서 UX 라이팅 플러그인을 만들려고 했으나, 진행 도중 TF 구성원 각자의 사정으로 흐지부지 끝나버린 경험이 있습니다. 이런 Extra mile의 업무는 필요성을 느끼는 구성원을 모으는 것부터 일정까지 조율해야 하는 부분이 제작보다 더 힘든 것 같습니다.\n하지만 이제는 필요함을 느낀다면 그것을 정의하고 가볍게 바로 만들어 보면 됩니다. 올바르게 만들었다면 자연스럽게 구성원들의 공감과 지지를 얻을 것입니다. 지금의 가장 큰 장벽은 귀찮음과 막연한 두려움이 아닐까 싶습니다.\n아직 가야할 길이 멉니다. 그래픽 리소스 생성, 맞춤법 및 UX Writing 검사, 자어 수 계산, 반응형 별 화면 생성 등 추가할 기능들이 많습니다. 다음번에 또 재미있는 사례로 찾아 뵙겠습니다.\n시간 내어 읽어주셔서 감사합니다.",
+    "title": "ParticleEffectForUGUIPublic / 유니티 UI 용  이팩트 패키지",
+    "description": "링크: https://github.com/mob-sakai/ParticleEffectForUGUI?tab=readme-ov-file#license\n\n \nGitHub - mob-sakai/ParticleEffectForUGUI: Render particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/Rende\nRender particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/RenderTexture/Canvas. - mob-sakai/ParticleEffectForUGUI\ngithub.com\n\nUI 에 사용할 수 있는 이팩트 입니다.\n사용방법도 설명페이지에 자세히 적혀있군요\n \n라이센스\n\n\n \nMIT 다 알아서 써도 된다는 뜻이다.\n좋쿤요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://spoqa.github.io/2025/09/09/figma-plugin-design.html",
-    "pubDate": "2025-09-09T00:00:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "http://serverdown.tistory.com/1387",
+    "pubDate": "Tue, 9 Sep 2025 22:47:20 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/유니티 에셋 리뷰",
+      "유니티"
+    ]
   }
 ]
