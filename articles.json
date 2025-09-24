@@ -2,81 +2,19 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "미국에서 스시를 팔기위한 노력 / 캘리포니아 롤",
-    "description": "영상: https://www.youtube.com/watch?v=rE_FAwhBo9Y\n\n\n\n \n아무리 좋다고해도 그들의 벽은 높다.\n나는 이 벽을 적응하고 넘어야한다.\n \n요즘은 채소나 해초도 건강식이라고 좋아하다.\n거의 60년이 지나서 ...",
+    "title": "[MULTI] 선택을 버리고 복수에 전념하여, 다잉 라이트: 더 비스트",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1397",
-    "pubDate": "Sun, 21 Sep 2025 14:16:40 +0900",
-    "creator": "SIDNFT",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2361",
+    "pubDate": "Fri, 19 Sep 2025 01:00:03 +0900",
+    "creator": "「RULIWEB」",
     "categories": [
-      "유튜브"
+      "리뷰"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "FAQ: New AI Quotas",
-    "description": "We hear you. And you’re right – the new quotas are a reduction from what you experienced. When we launched, we had little usage data for agentic experiences and no top‑up feature existed, so we set quotas much higher than the real cost of AI usage (tokens from providers) as a temporary measure. That felt […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/09/faq-new-ai-quota/",
-    "pubDate": "Tue, 16 Sep 2025 15:01:26 +0000",
-    "creator": "Ilya Petrov",
-    "categories": [
-      "news",
-      "ai-assistant",
-      "ai-in-ides",
-      "junie"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "욕심과 능력의 조율",
-    "description": "관련해서 내가 여러 번 포스팅했고, 우리 투자사 대표님들을 포함, 나를 만나본 분들은 나한테 자주 듣는 말인데, 하고 싶은 것과 할 수 있는 것 관련 내용이다. 작든 크든, 회사를 운영할 때 대표이사는 스스로에게 매우 냉정하게 물어보고 확인해야 할 것들이 여러 가지가 있는데, 그중 하나가 바로 본인과 팀이 할 수 있는 것과 하고 싶은 것을 스스로에게 물어보고,(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/09/aligning-wants-and-capabilities.html",
-    "pubDate": "Wed, 17 Sep 2025 21:34:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "general",
-      "strategy",
-      "Strong"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Announcing: JetBrains .NET Days Online 2025",
-    "description": "A free, online event for the .NET community. JetBrains .NET Days Online returns for two focused days of practical talks, live demos, and real-world tips from community speakers and the JetBrains .NET team. Register now → Event basics Registration: https://lp.jetbrains.com/dotnet-days-2025 Agenda highlights Here’s a preview of what we’ve got in store for you: How to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/09/18/announcing-jetbrains-net-days-online-2025/",
-    "pubDate": "Thu, 18 Sep 2025 18:59:30 +0000",
-    "creator": "Mehul Harry",
-    "categories": [
-      "net-tools",
-      "ai",
-      "ai-assistant",
-      "dotcover",
-      "dotmemory",
-      "dotpeek",
-      "dottrace",
-      "events",
-      "resharper",
-      "rider",
-      "testing",
-      "net-days-online",
-      "conference",
-      "webinars"
-    ]
-  },
-  {
-    "id": 5,
     "imageUrl": "",
     "title": "The Early Access Program for Rider 2025.3 Is Now Open!",
     "description": "We’re excited to kick off the Early Access Program (EAP) for Rider 2025.3! With the first preview build now available, you can try out the new features we’ve been working on and let us know what you think. Your feedback plays a vital role in shaping the final release. If you haven’t joined an EAP […]",
@@ -97,63 +35,156 @@
     ]
   },
   {
-    "id": 6,
+    "id": 3,
     "imageUrl": "",
-    "title": "노코드 도구 Dify 사용기",
-    "description": "이 글은 노코드 도구 Dify 사용기이다. \n\n\n레퍼런스\n\nGuide to Dify, an open-source platform for developing large language model (LLM) applications | by Gen. Devin DL. | Medium\nDify.AI – Medium\nExplore Dify: A Step-by-Step Guide to Building a Simple LLM-Powered Application | by Ken Maeda | Medium\nGetting Started with Dify: No-Code AI Application Development | by Research Graph | Medium",
+    "title": "From AI-Generated to Production-Ready Code: WebStorm Refactorings for the Modern Workflow",
+    "description": "We’ve all been there. You ask your AI tool to generate a React component, and the initial result works perfectly in the beginning. The AI gives you a functional 250-line component that gets the job done quickly and is exactly what you need for rapid prototyping. But even though AI does indeed excel at generating […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/09/dify.html",
-    "pubDate": "2025-09-16T07:16:00.000Z",
+    "link": "https://blog.jetbrains.com/webstorm/2025/09/from-ai-generated-to-production-ready-code-webstorm-refactorings-for-the-modern-workflow/",
+    "pubDate": "Tue, 23 Sep 2025 14:15:39 +0000",
+    "creator": "Jan-Niklas Wortmann",
+    "categories": [
+      "tips-tricks",
+      "refactorings"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "The Ktor roadmap and previews",
+    "description": "As in previous years, we have been working on the Ktor roadmap, and we want to say thank everyone for their contributions and feedback to help us prioritize the roadmap! The OpenAPI and WebRTC support is already in preview since the Ktor 3.3.0 release. Check out the What’s New section for a full overview of […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/09/ktor-roadmap-2025/",
+    "pubDate": "Tue, 23 Sep 2025 19:00:47 +0000",
+    "creator": "Simon Vergauwen",
+    "categories": [
+      "ktor",
+      "news",
+      "releases",
+      "release"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "DOGE를 알면 시장이 보인다",
+    "description": "정부 지출 변화에서 읽는 투자 전략",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/US-Investment-Insights-3",
+    "pubDate": "Fri, 19 Sep 2025 07:14:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 7,
+    "id": 6,
     "imageUrl": "",
-    "title": "JetBrains Academy – September Digest",
-    "description": "Do you remember, dancin’ in September? 🎶 This September, let JetBrains keep the rhythm of your studies strong with free JetBrains IDEs and tools for study, a brand-new collaboration between AWS and JetBrains Academy, exclusive opportunities for school students, and more. Ready to groove into learning?",
+    "title": "Supercharging Unit Test Generation with in-IDE TestSpark",
+    "description": "Test generation is an essential yet time-consuming part of quality assurance. Automating test-generation techniques means accelerating the development process and improving the quality of the final software. However, traditional automated techniques, and their respective tools, are not usually user-friendly, having a command-line interface and not being integrated with the IDE. To boost acceleration and quality […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/09/19/jetbrains-academy-september/",
-    "pubDate": "Fri, 19 Sep 2025 11:02:32 +0000",
-    "creator": "Maria Sharobaeva",
+    "link": "https://blog.jetbrains.com/research/2025/09/testspark-unit-test-generation/",
+    "pubDate": "Tue, 23 Sep 2025 11:13:56 +0000",
+    "creator": "Katie Fraser",
     "categories": [
-      "digest",
-      "jetbrains-academy",
-      "newsletter"
+      "idea",
+      "research",
+      "testing",
+      "intellij-idea",
+      "jetbrains-research",
+      "test-generation"
     ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "개발자 없이도 가능해진 1인 창업 시대&nbsp; - AI대중화가 바꾼 스타트업 생존 전략",
+    "description": "AI(인공지능)프로그램의 대중화는 단순한 기술 트렌드를 넘어, 창업 환경 전반을 재구성하고 있습니다. 과거엔 아이디어, 자본, 인력, 개발, 역량 등이 창업 성공의 기본조건이었다면, 이제는 개발자 없이도, 소수 인원으로도 시장 진입이 가능해지는 시대가 왔습니다. 본 포스팅에서는 AI대중화가 어떻게 창업 환경을 변화시키고 있는지, 1인 창엊자 혹은 최소 인력",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/312",
+    "pubDate": "Tue, 23 Sep 2025 03:00:10 GMT",
+    "creator": "고명환",
+    "categories": []
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "밸브의 도박 규제를 피하기위한 새로운 방법 / 루트박스",
-    "description": "영상: https://youtu.be/bpwF4YLQwos?t=716\n\n\n\n11분50초에 나옵니다.\n도박규제에서 자유롭기위해 특이한 방식을 사용하네요\n \n유럽의 랜덤박스 규제를 벗어나기위한 노력으로\n상자를 까면 랜덤 보상을 주지 않고 새로운 방법을 시도 하였습니다.\n \n밸브 루트박스 란?\n몇가지 변화된 방식이 있습니다.\n \n방식1\n상점에 아이템을 랜덤하게 보여주며\n1주일간 써볼 수 있습니다.\n(코스츔 인듯)\n이후엔 구매해야하는데 계속 사용할 수 있는데\n아이템 가격은 정가에 팝니다.\n이로 인해 랜덤박스 규제에서 벗어날 수 있습니다.\n하지만 이러다보니 아이템 가격이 200만원짜리도 생겨났습니다.\n방법2\n3일마다 루트박스를 줍니다.\n열어보면 아이템이 있고 구매할수있는 기회를 줍니다.\n써볼 수는 없습니다.\n다른 아이템을 보고싶으면 지금 보이는건 버리고\n3일후 다시 오면 됩니다.\n아이템은 정가에 팔지만 아이템마다 가격은 다릅니다.",
+    "title": "IntelliJ IDEA 2025.2.2 Is Out!",
+    "description": "IntelliJ IDEA 2025.2.2 has arrived with several valuable fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates included in this version: To find out more details about the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1395",
-    "pubDate": "Fri, 19 Sep 2025 17:01:14 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/idea/2025/09/intellij-idea-2025-2-2/",
+    "pubDate": "Fri, 19 Sep 2025 09:53:11 +0000",
+    "creator": "Maria Kosukhina",
     "categories": [
-      "유튜브",
-      "새로운방법",
-      "스팀"
+      "releases",
+      "bug-fix-update",
+      "intellij-idea",
+      "intellij-idea-2025-2"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "What makes a good product?",
-    "description": "No description available",
+    "title": "토스, ‘1사 1교’ 결연 통해 한전초서 초등학생 대상 금융교육 실시",
+    "description": "인근 초등학생도 초청… 총 66명 대상 금융 교육 성료",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossproductprinciples",
-    "pubDate": "Wed, 17 Sep 2025 08:09:00 GMT",
+    "link": "https://toss.im/tossfeed/article/tossedu2025",
+    "pubDate": "Thu, 18 Sep 2025 16:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 10,
+    "imageUrl": "",
+    "title": "문재인 정부 중국에게 용산 땅 팔아재인 정부 중국에게 용산 땅 팔아",
+    "description": "(충격) 이게 실제로 있었군요\n\n\n와 래알 있네\n \n \n영상: https://www.youtube.com/watch?v=OjbDjlBE9eI\n\n\n\n5분대에 나옵니다.\n중국 정부에게 실제로 땅을 팔았다고 합니다.\n이 거 팔아서 지형이 바뀌는건 아니지만 굳이 왜파냐는거죠\n의문을 크게 가져봅니다.\n \n이명박시절에 김어준때 방송 보면서 민주당 좋다고 따라 다녔는데 \n지금은 생각이 바꼈습니다. \n문재인 정보 파면 팔수록 이상한거 많이 했네요\n영상에보면 주한미군 철수도 진행하려고 했는데\n이 부분은 북한은 원하지 않았던거 같습니다.\n북한도 미국 군대 때문에 중국에 흡수되지 않았다는 사실을 인지하고 있다는군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1393",
+    "pubDate": "Wed, 17 Sep 2025 19:05:18 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "미국에서 스시를 팔기위한 노력 / 캘리포니아 롤",
+    "description": "영상: https://www.youtube.com/watch?v=rE_FAwhBo9Y\n\n\n\n \n아무리 좋다고해도 그들의 벽은 높다.\n나는 이 벽을 적응하고 넘어야한다.\n \n요즘은 채소나 해초도 건강식이라고 좋아하다.\n거의 60년이 지나서 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1397",
+    "pubDate": "Sun, 21 Sep 2025 14:16:40 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Enhancements to XAML Live Preview in Visual Studio for .NET MAUI",
+    "description": "The XAML Live Preview feature in Visual Studio 2022 version 17.14 introduces a significant usability improvement for .NET MAUI projects: the XAML Live Preview window is now available during design time, eliminating the requirement to initiate a debug session. This change streamlines the UI development workflow for .NET MAUI applications. Design-Time Availability Previously, XAML Live […]\nThe post Enhancements to XAML Live Preview in Visual Studio for .NET MAUI appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/enhancements-to-xaml-live-preview-in-visual-studio-for-net-maui/",
+    "pubDate": "Mon, 22 Sep 2025 17:26:51 +0000",
+    "creator": "Rachel Kang (SHE/HER)",
+    "categories": [
+      "GitHub Copilot",
+      "Visual Studio",
+      ".NET MAUI",
+      "XAML"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "8 Common DevOps Problems And How to Solve Them With GoLand",
     "description": "One of the most popular posts on the /devops subreddit says, “After 24 years in IT, I’m done. I don’t want to debug another YAML file. This is not how I foresee spending my life.” DevOps can be frustrating, and the 3,000+ people who upvoted that post clearly agree. It doesn’t have to be this […]",
@@ -169,7 +200,19 @@
     ]
   },
   {
-    "id": 11,
+    "id": 14,
+    "imageUrl": "",
+    "title": "AI가 인간에게 ‘완전한 휴식’을 선물하면, 나는 뭐 하고 살까?",
+    "description": "[살아남는 노동] 천선란 단편소설 〈판의 서사〉",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tosspick-2025-3b",
+    "pubDate": "Tue, 23 Sep 2025 01:02:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "eBay Honored at Fast Company's Innovation by Design Awards",
     "description": "The eBay Evo brand and design system received three honorable mentions.",
@@ -180,56 +223,6 @@
     "creator": "eBay News Team",
     "categories": [
       "article"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "opensearch-3.2.0",
-    "description": "opensearch 윈도우 버전은 도커 이미지만 있었는데 이제 설치 버전도 제공한다. 환경변수(관리자 패스워드) 등록 및 보안 플러그인 셋업(opensearch-windows-install.bat) 과정이 좀 낯설지만 매뉴얼대로만 하면 어렵진 않음.  \n\n\n\n\n\n\n데이터 수집툴은 data-prepper라는 게 있는데 로그스태시가 편해서 opensearch 플러그인만 추가 설치.\n\n\n\n\n\nPS D:\\ELK\\logstash-9.1.3\\bin> .\\logstash-plugin install logstash-output-opensearch\n\"Using bundled JDK: D:\\ELK\\logstash-9.1.3\\jdk\\bin\\java.exe\"\nValidating logstash-output-opensearch\nResolving mixin dependencies\nUpdating mixin dependencies logstash-mixin-ecs_compatibility_support\nBundler attempted to update logstash-mixin-ecs_compatibility_support but its version stayed the same\nInstalling logstash-output-opensearch\nInstallation successful\nPS D:\\ELK\\logstash-9.1.3\\bin> .\\logstash-plugin list output\n\"Using bundled JDK: D:\\ELK\\logstash-9.1.3\\jdk\\bin\\java.exe\"\nlogstash-integration-aws\n ├── logstash-codec-cloudfront\n ├── logstash-codec-cloudtrail\n ├── logstash-input-cloudwatch\n ├── logstash-input-s3\n ├── logstash-input-sqs\n ├── logstash-output-cloudwatch\n ├── logstash-output-s3\n ├── logstash-output-sns\n └── logstash-output-sqs\nlogstash-integration-kafka\n ├── logstash-input-kafka\n └── logstash-output-kafka\nlogstash-integration-logstash\n ├── logstash-input-logstash\n └── logstash-output-logstash\nlogstash-integration-rabbitmq\n ├── logstash-input-rabbitmq\n └── logstash-output-rabbitmq\nlogstash-output-csv\nlogstash-output-elasticsearch\nlogstash-output-email\nlogstash-output-file\nlogstash-output-graphite\nlogstash-output-http\nlogstash-output-lumberjack\nlogstash-output-nagios\nlogstash-output-null\nlogstash-output-opensearch\nlogstash-output-pipe\nlogstash-output-redis\nlogstash-output-stdout\nlogstash-output-tcp\nlogstash-output-udp\nlogstash-output-webhdfs\n\nColored by Color Scripter\ncs\n\n\n\n\nopensearch 플러그인 제공하는 거 보니 아마존이랑 엘라스틱 잘 화해한 모양.\n\n\n관련 글\n\nElasticsearch SQL - 2nd\nOpen Disto for Elasticsearch",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/09/opensearch-320.html",
-    "pubDate": "2025-09-17T13:39:00.001Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "A Farewell to Consoles",
-    "description": "Starting from the 2025.3 release, DataGrip and other JetBrains IDEs with database support will stop using the term query console. From now on, we’ll use query file – because consoles were essentially files all along, and it’s time the UI reflected that. We’ve made the workflow simpler, more discoverable, and more consistent. A bit of […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/datagrip/2025/09/16/a-farewell-to-consoles/",
-    "pubDate": "Tue, 16 Sep 2025 16:46:20 +0000",
-    "creator": "Maksim Sobolevskiy",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "전국민 1인당 10만 원! 2차 민생회복 소비쿠폰 신청하세요",
-    "description": "신청 방법부터 사용기한까지 총정리",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-51",
-    "pubDate": "Mon, 22 Sep 2025 03:10:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Mobile Attribution in The Privacy-First Era",
-    "description": "개요 개인정보 보호의 중요성이 대두되면서 모바일 어트리뷰선의 패러다임은 크게 변화하였다. 과거에는 IDFA, GAID 등의 광고 식별자를 통해 명확한 측정이 가능하였으나, 사용자의 개인정보 보호를 최우선으로 하는 현대에는 더이상 Deterministic한 사용자 식별이 불가능하다. 이 글에서는 Apple의 SKAdNetwork(SKAN)와 Google의 Privacy Sandbox로 대표하는 모바일 환경의 개인정보 보호 프레임워크에 대해 설명하고, 어떻게 확률론적으로 모바일 어트리뷰선을 획득하는지에 대해 알아보겠다. 어떻게 알고 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://01010011.blog/2025/09/17/mobile-attribution-in-the-privacy-first-era/",
-    "pubDate": "Wed, 17 Sep 2025 11:47:41 +0000",
-    "creator": "bahamoth",
-    "categories": [
-      "programming"
     ]
   }
 ]
