@@ -2,84 +2,24 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "[MULTI] 선택을 버리고 복수에 전념하여, 다잉 라이트: 더 비스트",
-    "description": "No description available",
+    "title": "학교가 가르칠 수 없는 것",
+    "description": "일주일 전에 내가 10년째 벤처파트너로 활동하고 있는 국내 1호 악셀러레이터 프라이머 26기 데모데이가 있었다. 나는 프라이머 데모데이는 항상 흥행 수표라고 농담하는데, 이날도 1,000명이 넘는 분들이 와서 한국의 창업 열기는 아직도 뜨겁고, 이제 시작이라는 확신을 다시 한번 가졌다. 프라이머 데모데이의 주인은 창업가들이고, 하이라이트는 이들의 피칭이다. 공식적인 행사가 끝나면 하나의 번외 일정이 있는데, 프라이머 파트너들과의 AMA(Ask Me(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2361",
-    "pubDate": "Fri, 19 Sep 2025 01:00:03 +0900",
-    "creator": "「RULIWEB」",
+    "link": "https://www.thestartupbible.com/2025/09/some-things-that-school-can-never-teach.html",
+    "pubDate": "Wed, 24 Sep 2025 21:23:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "리뷰"
+      "Uncategorized",
+      "cockroach",
+      "education",
+      "FoundersAtWork",
+      "general",
+      "primer"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "The Early Access Program for Rider 2025.3 Is Now Open!",
-    "description": "We’re excited to kick off the Early Access Program (EAP) for Rider 2025.3! With the first preview build now available, you can try out the new features we’ve been working on and let us know what you think. Your feedback plays a vital role in shaping the final release. If you haven’t joined an EAP […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/09/17/the-early-access-program-for-rider-2025-3/",
-    "pubDate": "Wed, 17 Sep 2025 09:01:46 +0000",
-    "creator": "Angelina Feofilova",
-    "categories": [
-      "news",
-      "releases",
-      "rider",
-      "eap",
-      "godot",
-      "release",
-      "unity",
-      "unreal-engine"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "From AI-Generated to Production-Ready Code: WebStorm Refactorings for the Modern Workflow",
-    "description": "We’ve all been there. You ask your AI tool to generate a React component, and the initial result works perfectly in the beginning. The AI gives you a functional 250-line component that gets the job done quickly and is exactly what you need for rapid prototyping. But even though AI does indeed excel at generating […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/webstorm/2025/09/from-ai-generated-to-production-ready-code-webstorm-refactorings-for-the-modern-workflow/",
-    "pubDate": "Tue, 23 Sep 2025 14:15:39 +0000",
-    "creator": "Jan-Niklas Wortmann",
-    "categories": [
-      "tips-tricks",
-      "refactorings"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "The Ktor roadmap and previews",
-    "description": "As in previous years, we have been working on the Ktor roadmap, and we want to say thank everyone for their contributions and feedback to help us prioritize the roadmap! The OpenAPI and WebRTC support is already in preview since the Ktor 3.3.0 release. Check out the What’s New section for a full overview of […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/09/ktor-roadmap-2025/",
-    "pubDate": "Tue, 23 Sep 2025 19:00:47 +0000",
-    "creator": "Simon Vergauwen",
-    "categories": [
-      "ktor",
-      "news",
-      "releases",
-      "release"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "DOGE를 알면 시장이 보인다",
-    "description": "정부 지출 변화에서 읽는 투자 전략",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/US-Investment-Insights-3",
-    "pubDate": "Fri, 19 Sep 2025 07:14:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
     "imageUrl": "",
     "title": "Supercharging Unit Test Generation with in-IDE TestSpark",
     "description": "Test generation is an essential yet time-consuming part of quality assurance. Automating test-generation techniques means accelerating the development process and improving the quality of the final software. However, traditional automated techniques, and their respective tools, are not usually user-friendly, having a command-line interface and not being integrated with the IDE. To boost acceleration and quality […]",
@@ -98,62 +38,63 @@
     ]
   },
   {
-    "id": 7,
+    "id": 3,
     "imageUrl": "",
-    "title": "개발자 없이도 가능해진 1인 창업 시대&nbsp; - AI대중화가 바꾼 스타트업 생존 전략",
-    "description": "AI(인공지능)프로그램의 대중화는 단순한 기술 트렌드를 넘어, 창업 환경 전반을 재구성하고 있습니다. 과거엔 아이디어, 자본, 인력, 개발, 역량 등이 창업 성공의 기본조건이었다면, 이제는 개발자 없이도, 소수 인원으로도 시장 진입이 가능해지는 시대가 왔습니다. 본 포스팅에서는 AI대중화가 어떻게 창업 환경을 변화시키고 있는지, 1인 창엊자 혹은 최소 인력",
+    "title": "[MULTI] 입문하려면 지금이다, 편안한 승차감 '하늘의 궤적 the 1st'",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/312",
-    "pubDate": "Tue, 23 Sep 2025 03:00:10 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.2.2 Is Out!",
-    "description": "IntelliJ IDEA 2025.2.2 has arrived with several valuable fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates included in this version: To find out more details about the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/09/intellij-idea-2025-2-2/",
-    "pubDate": "Fri, 19 Sep 2025 09:53:11 +0000",
-    "creator": "Maria Kosukhina",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2362",
+    "pubDate": "Fri, 19 Sep 2025 17:22:01 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "releases",
-      "bug-fix-update",
-      "intellij-idea",
-      "intellij-idea-2025-2"
+      "리뷰"
     ]
   },
   {
-    "id": 9,
+    "id": 4,
     "imageUrl": "",
-    "title": "토스, ‘1사 1교’ 결연 통해 한전초서 초등학생 대상 금융교육 실시",
-    "description": "인근 초등학생도 초청… 총 66명 대상 금융 교육 성료",
+    "title": "Islands Theme: The New Look Coming to JetBrains IDEs",
+    "description": "Starting with version 2025.2.3, JetBrains IDEs will offer a new look: the Islands theme, available in both dark and light modes. This update is a visual refresh, which means that all functionality will remain the same. The new theme can be turned on or off in the Appearance settings. This step brings us closer to […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossedu2025",
-    "pubDate": "Thu, 18 Sep 2025 16:00:00 GMT",
+    "link": "https://blog.jetbrains.com/platform/2025/09/islands-theme-the-new-look-coming-to-jetbrains-ides/",
+    "pubDate": "Mon, 22 Sep 2025 16:24:54 +0000",
+    "creator": "Olga Berdnikova",
+    "categories": [
+      "intellij-platform",
+      "ui"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "전국민 1인당 10만 원! 2차 민생회복 소비쿠폰 신청하세요",
+    "description": "신청 방법부터 사용기한까지 총정리",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-policies-51",
+    "pubDate": "Mon, 22 Sep 2025 03:10:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 10,
+    "id": 6,
     "imageUrl": "",
-    "title": "문재인 정부 중국에게 용산 땅 팔아재인 정부 중국에게 용산 땅 팔아",
-    "description": "(충격) 이게 실제로 있었군요\n\n\n와 래알 있네\n \n \n영상: https://www.youtube.com/watch?v=OjbDjlBE9eI\n\n\n\n5분대에 나옵니다.\n중국 정부에게 실제로 땅을 팔았다고 합니다.\n이 거 팔아서 지형이 바뀌는건 아니지만 굳이 왜파냐는거죠\n의문을 크게 가져봅니다.\n \n이명박시절에 김어준때 방송 보면서 민주당 좋다고 따라 다녔는데 \n지금은 생각이 바꼈습니다. \n문재인 정보 파면 팔수록 이상한거 많이 했네요\n영상에보면 주한미군 철수도 진행하려고 했는데\n이 부분은 북한은 원하지 않았던거 같습니다.\n북한도 미국 군대 때문에 중국에 흡수되지 않았다는 사실을 인지하고 있다는군요",
+    "title": "From AI-Generated to Production-Ready Code: WebStorm Refactorings for the Modern Workflow",
+    "description": "We’ve all been there. You ask your AI tool to generate a React component, and the initial result works perfectly in the beginning. The AI gives you a functional 250-line component that gets the job done quickly and is exactly what you need for rapid prototyping. But even though AI does indeed excel at generating […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1393",
-    "pubDate": "Wed, 17 Sep 2025 19:05:18 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/webstorm/2025/09/from-ai-generated-to-production-ready-code-webstorm-refactorings-for-the-modern-workflow/",
+    "pubDate": "Tue, 23 Sep 2025 14:15:39 +0000",
+    "creator": "Jan-Niklas Wortmann",
     "categories": [
-      "유튜브"
+      "tips-tricks",
+      "refactorings"
     ]
   },
   {
-    "id": 11,
+    "id": 7,
     "imageUrl": "",
     "title": "미국에서 스시를 팔기위한 노력 / 캘리포니아 롤",
     "description": "영상: https://www.youtube.com/watch?v=rE_FAwhBo9Y\n\n\n\n \n아무리 좋다고해도 그들의 벽은 높다.\n나는 이 벽을 적응하고 넘어야한다.\n \n요즘은 채소나 해초도 건강식이라고 좋아하다.\n거의 60년이 지나서 ...",
@@ -167,52 +108,94 @@
     ]
   },
   {
+    "id": 8,
+    "imageUrl": "",
+    "title": "JetBrains Academy – September Digest",
+    "description": "Do you remember, dancin’ in September? 🎶 This September, let JetBrains keep the rhythm of your studies strong with free JetBrains IDEs and tools for study, a brand-new collaboration between AWS and JetBrains Academy, exclusive opportunities for school students, and more. Ready to groove into learning?",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/education/2025/09/19/jetbrains-academy-september/",
+    "pubDate": "Fri, 19 Sep 2025 11:02:32 +0000",
+    "creator": "Maria Sharobaeva",
+    "categories": [
+      "digest",
+      "jetbrains-academy",
+      "newsletter"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "More Updates and Fixes for ReSharper and Rider 2025.2",
+    "description": "A second set of updates and bug fixes for the 2025.2 release of ReSharper and Rider has just been made public.  Let’s take a look at what’s been improved. ReSharper 2025.2.2 To make your transition to Visual Studio 2026 seamless, ReSharper now installs a lightweight migration extension bundled with the product. This extension will be carried over automatically by […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/09/18/resharper-rider-2025-2-2/",
+    "pubDate": "Thu, 18 Sep 2025 14:49:19 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "resharper",
+      "rider",
+      "junie"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "[MULTI] 애매한 목표와 애매한 결과, 데몬 X 마키나 타이타닉 사이언",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2363",
+    "pubDate": "Sun, 21 Sep 2025 14:02:57 +0900",
+    "creator": "「RULIWEB」",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 20화, 악역영애 행동인 데스와 ②",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2365",
+    "pubDate": "Wed, 24 Sep 2025 16:48:12 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
     "id": 12,
     "imageUrl": "",
-    "title": "Enhancements to XAML Live Preview in Visual Studio for .NET MAUI",
-    "description": "The XAML Live Preview feature in Visual Studio 2022 version 17.14 introduces a significant usability improvement for .NET MAUI projects: the XAML Live Preview window is now available during design time, eliminating the requirement to initiate a debug session. This change streamlines the UI development workflow for .NET MAUI applications. Design-Time Availability Previously, XAML Live […]\nThe post Enhancements to XAML Live Preview in Visual Studio for .NET MAUI appeared first on Visual Studio Blog.",
+    "title": "DOGE를 알면 시장이 보인다",
+    "description": "정부 지출 변화에서 읽는 투자 전략",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/enhancements-to-xaml-live-preview-in-visual-studio-for-net-maui/",
-    "pubDate": "Mon, 22 Sep 2025 17:26:51 +0000",
-    "creator": "Rachel Kang (SHE/HER)",
-    "categories": [
-      "GitHub Copilot",
-      "Visual Studio",
-      ".NET MAUI",
-      "XAML"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "8 Common DevOps Problems And How to Solve Them With GoLand",
-    "description": "One of the most popular posts on the /devops subreddit says, “After 24 years in IT, I’m done. I don’t want to debug another YAML file. This is not how I foresee spending my life.” DevOps can be frustrating, and the 3,000+ people who upvoted that post clearly agree. It doesn’t have to be this […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2025/09/17/8-common-devops-problems-and-how-to-solve-them-with-goland/",
-    "pubDate": "Wed, 17 Sep 2025 18:15:54 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "features",
-      "devops",
-      "goland"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "AI가 인간에게 ‘완전한 휴식’을 선물하면, 나는 뭐 하고 살까?",
-    "description": "[살아남는 노동] 천선란 단편소설 〈판의 서사〉",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosspick-2025-3b",
-    "pubDate": "Tue, 23 Sep 2025 01:02:00 GMT",
+    "link": "https://toss.im/tossfeed/article/US-Investment-Insights-3",
+    "pubDate": "Fri, 19 Sep 2025 07:14:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 15,
+    "id": 13,
+    "imageUrl": "",
+    "title": "Video Streaming With the AV1 Video Codec in Mobile Devices",
+    "description": "Today, Meta, Vodafone, and Google released a white paper, “Video Streaming with the AV1 Video Codec in Mobile Devices,” detailing the benefits of the AV1 codec, an advanced video compression technique, to enhance the streaming video experience on mobile devices.  The white paper recommends that: Vendors of core processors (SoCs) should evaluate the adoption of [...]\nRead More...\nThe post Video Streaming With the AV1 Video Codec in Mobile Devices appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/09/24/video-engineering/video-streaming-with-av1-video-codec-mobile-devices-meta-white-paper/",
+    "pubDate": "Wed, 24 Sep 2025 08:00:44 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Video Engineering"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "eBay Honored at Fast Company's Innovation by Design Awards",
     "description": "The eBay Evo brand and design system received three honorable mentions.",
@@ -223,6 +206,22 @@
     "creator": "eBay News Team",
     "categories": [
       "article"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Compose Multiplatform 1.9.0 Released: Compose Multiplatform for Web Goes Beta",
+    "description": "Compose Multiplatform for web, powered by Wasm, is now in Beta! This major milestone shows that Compose Multiplatform for web is no longer just experimental, but ready for real-world use by early adopters. This is more than a technical step forward. It’s a community achievement, made possible by feedback from early adopters of the Alpha […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/09/compose-multiplatform-1-9-0-compose-for-web-beta/",
+    "pubDate": "Mon, 22 Sep 2025 10:45:12 +0000",
+    "creator": "Ekaterina Volodko",
+    "categories": [
+      "multiplatform",
+      "compose-for-web",
+      "compose-multiplatform"
     ]
   }
 ]
