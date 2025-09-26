@@ -2,99 +2,33 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "학교가 가르칠 수 없는 것",
-    "description": "일주일 전에 내가 10년째 벤처파트너로 활동하고 있는 국내 1호 악셀러레이터 프라이머 26기 데모데이가 있었다. 나는 프라이머 데모데이는 항상 흥행 수표라고 농담하는데, 이날도 1,000명이 넘는 분들이 와서 한국의 창업 열기는 아직도 뜨겁고, 이제 시작이라는 확신을 다시 한번 가졌다. 프라이머 데모데이의 주인은 창업가들이고, 하이라이트는 이들의 피칭이다. 공식적인 행사가 끝나면 하나의 번외 일정이 있는데, 프라이머 파트너들과의 AMA(Ask Me(...)",
+    "title": "Hytale 하이테일에 (게임) 대해 알아보자 / 망했다고 합니다.",
+    "description": "마인크레프트에서 서버 운영에서 출발한 이 게임팀은\n마인크래프트에서 독립해 스스로 게임을 만들기 시작하는데 ...\n \n게임 트레일러: https://www.youtube.com/watch?v=e2_wZ3z-tVA\n\n\n\n \n \n \n \n개발 스토리 요약: https://www.youtube.com/watch?v=xKxvjOUM67I\n\n\n\n \n \n보면 재밌어보입니다.\n소재는 좋았습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/09/some-things-that-school-can-never-teach.html",
-    "pubDate": "Wed, 24 Sep 2025 21:23:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "http://serverdown.tistory.com/1396",
+    "pubDate": "Sat, 20 Sep 2025 17:38:49 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Uncategorized",
-      "cockroach",
-      "education",
-      "FoundersAtWork",
-      "general",
-      "primer"
+      "유튜브",
+      "개발스토리",
+      "게임"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Supercharging Unit Test Generation with in-IDE TestSpark",
-    "description": "Test generation is an essential yet time-consuming part of quality assurance. Automating test-generation techniques means accelerating the development process and improving the quality of the final software. However, traditional automated techniques, and their respective tools, are not usually user-friendly, having a command-line interface and not being integrated with the IDE. To boost acceleration and quality […]",
+    "title": "The Kotlin AI Stack: Build AI Agents With Koog, Code Smarter With Junie, and More",
+    "description": "AI is changing how we build software, and Kotlin is ready to meet that change by empowering developers to build AI-powered apps and by enhancing the developer experience through AI-based tools. This post explores both angles: the tools for developing AI-powered apps, both from JetBrains and from the community, and the ways Kotlin is evolving […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2025/09/testspark-unit-test-generation/",
-    "pubDate": "Tue, 23 Sep 2025 11:13:56 +0000",
-    "creator": "Katie Fraser",
-    "categories": [
-      "idea",
-      "research",
-      "testing",
-      "intellij-idea",
-      "jetbrains-research",
-      "test-generation"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "[MULTI] 입문하려면 지금이다, 편안한 승차감 '하늘의 궤적 the 1st'",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2362",
-    "pubDate": "Fri, 19 Sep 2025 17:22:01 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Islands Theme: The New Look Coming to JetBrains IDEs",
-    "description": "Starting with version 2025.2.3, JetBrains IDEs will offer a new look: the Islands theme, available in both dark and light modes. This update is a visual refresh, which means that all functionality will remain the same. The new theme can be turned on or off in the Appearance settings. This step brings us closer to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/09/islands-theme-the-new-look-coming-to-jetbrains-ides/",
-    "pubDate": "Mon, 22 Sep 2025 16:24:54 +0000",
-    "creator": "Olga Berdnikova",
-    "categories": [
-      "intellij-platform",
-      "ui"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "전국민 1인당 10만 원! 2차 민생회복 소비쿠폰 신청하세요",
-    "description": "신청 방법부터 사용기한까지 총정리",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-51",
-    "pubDate": "Mon, 22 Sep 2025 03:10:00 GMT",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/kotlin/2025/09/the-kotlin-ai-stack-build-ai-agents-with-koog-code-smarter-with-junie-and-more/",
+    "pubDate": "Wed, 24 Sep 2025 08:26:32 +0000",
+    "creator": "Alyona Chernyaeva",
     "categories": []
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "From AI-Generated to Production-Ready Code: WebStorm Refactorings for the Modern Workflow",
-    "description": "We’ve all been there. You ask your AI tool to generate a React component, and the initial result works perfectly in the beginning. The AI gives you a functional 250-line component that gets the job done quickly and is exactly what you need for rapid prototyping. But even though AI does indeed excel at generating […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/webstorm/2025/09/from-ai-generated-to-production-ready-code-webstorm-refactorings-for-the-modern-workflow/",
-    "pubDate": "Tue, 23 Sep 2025 14:15:39 +0000",
-    "creator": "Jan-Niklas Wortmann",
-    "categories": [
-      "tips-tricks",
-      "refactorings"
-    ]
-  },
-  {
-    "id": 7,
+    "id": 3,
     "imageUrl": "",
     "title": "미국에서 스시를 팔기위한 노력 / 캘리포니아 롤",
     "description": "영상: https://www.youtube.com/watch?v=rE_FAwhBo9Y\n\n\n\n \n아무리 좋다고해도 그들의 벽은 높다.\n나는 이 벽을 적응하고 넘어야한다.\n \n요즘은 채소나 해초도 건강식이라고 좋아하다.\n거의 60년이 지나서 ...",
@@ -108,54 +42,24 @@
     ]
   },
   {
-    "id": 8,
+    "id": 4,
     "imageUrl": "",
-    "title": "JetBrains Academy – September Digest",
-    "description": "Do you remember, dancin’ in September? 🎶 This September, let JetBrains keep the rhythm of your studies strong with free JetBrains IDEs and tools for study, a brand-new collaboration between AWS and JetBrains Academy, exclusive opportunities for school students, and more. Ready to groove into learning?",
+    "title": "The Ktor roadmap and previews",
+    "description": "As in previous years, we have been working on the Ktor roadmap, and we want to say thank everyone for their contributions and feedback to help us prioritize the roadmap! The OpenAPI and WebRTC support is already in preview since the Ktor 3.3.0 release. Check out the What’s New section for a full overview of […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/09/19/jetbrains-academy-september/",
-    "pubDate": "Fri, 19 Sep 2025 11:02:32 +0000",
-    "creator": "Maria Sharobaeva",
+    "link": "https://blog.jetbrains.com/kotlin/2025/09/ktor-roadmap-2025/",
+    "pubDate": "Tue, 23 Sep 2025 19:00:47 +0000",
+    "creator": "Simon Vergauwen",
     "categories": [
-      "digest",
-      "jetbrains-academy",
-      "newsletter"
+      "ktor",
+      "news",
+      "releases",
+      "release"
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "More Updates and Fixes for ReSharper and Rider 2025.2",
-    "description": "A second set of updates and bug fixes for the 2025.2 release of ReSharper and Rider has just been made public.  Let’s take a look at what’s been improved. ReSharper 2025.2.2 To make your transition to Visual Studio 2026 seamless, ReSharper now installs a lightweight migration extension bundled with the product. This extension will be carried over automatically by […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/09/18/resharper-rider-2025-2-2/",
-    "pubDate": "Thu, 18 Sep 2025 14:49:19 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "resharper",
-      "rider",
-      "junie"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "[MULTI] 애매한 목표와 애매한 결과, 데몬 X 마키나 타이타닉 사이언",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2363",
-    "pubDate": "Sun, 21 Sep 2025 14:02:57 +0900",
-    "creator": "「RULIWEB」",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 11,
+    "id": 5,
     "imageUrl": "",
     "title": "악역영애 4컷 만화 - 20화, 악역영애 행동인 데스와 ②",
     "description": "No description available",
@@ -169,7 +73,24 @@
     ]
   },
   {
-    "id": 12,
+    "id": 6,
+    "imageUrl": "",
+    "title": "Enhancements to XAML Live Preview in Visual Studio for .NET MAUI",
+    "description": "The XAML Live Preview feature in Visual Studio 2022 version 17.14 introduces a significant usability improvement for .NET MAUI projects: the XAML Live Preview window is now available during design time, eliminating the requirement to initiate a debug session. This change streamlines the UI development workflow for .NET MAUI applications. Design-Time Availability Previously, XAML Live […]\nThe post Enhancements to XAML Live Preview in Visual Studio for .NET MAUI appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/enhancements-to-xaml-live-preview-in-visual-studio-for-net-maui/",
+    "pubDate": "Mon, 22 Sep 2025 17:26:51 +0000",
+    "creator": "Rachel Kang (SHE/HER)",
+    "categories": [
+      "GitHub Copilot",
+      "Visual Studio",
+      ".NET MAUI",
+      "XAML"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "DOGE를 알면 시장이 보인다",
     "description": "정부 지출 변화에서 읽는 투자 전략",
@@ -181,7 +102,116 @@
     "categories": []
   },
   {
+    "id": 8,
+    "imageUrl": "",
+    "title": "밸브의 도박 규제를 피하기위한 새로운 방법 / 루트박스",
+    "description": "영상: https://youtu.be/bpwF4YLQwos?t=716\n\n\n\n11분50초에 나옵니다.\n도박규제에서 자유롭기위해 특이한 방식을 사용하네요\n \n유럽의 랜덤박스 규제를 벗어나기위한 노력으로\n상자를 까면 랜덤 보상을 주지 않고 새로운 방법을 시도 하였습니다.\n \n밸브 루트박스 란?\n몇가지 변화된 방식이 있습니다.\n \n방식1\n상점에 아이템을 랜덤하게 보여주며\n1주일간 써볼 수 있습니다.\n(코스츔 인듯)\n이후엔 구매해야하는데 계속 사용할 수 있는데\n아이템 가격은 정가에 팝니다.\n이로 인해 랜덤박스 규제에서 벗어날 수 있습니다.\n하지만 이러다보니 아이템 가격이 200만원짜리도 생겨났습니다.\n방법2\n3일마다 루트박스를 줍니다.\n열어보면 아이템이 있고 구매할수있는 기회를 줍니다.\n써볼 수는 없습니다.\n다른 아이템을 보고싶으면 지금 보이는건 버리고\n3일후 다시 오면 됩니다.\n아이템은 정가에 팔지만 아이템마다 가격은 다릅니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1395",
+    "pubDate": "Fri, 19 Sep 2025 17:01:14 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "새로운방법",
+      "스팀"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "몰살해주마 모험가놈들! 던전 워페어 3",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2364",
+    "pubDate": "Sun, 21 Sep 2025 20:12:22 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "2025년 제미나이 '고퀄리티 젬' 5가지 무료 공개: AI 활용 끝판왕!",
+    "description": "여러분의 AI 활용, 아직도 뻔하고 기계적이라고 느끼시나요? 오늘 2025년 새롭게 공개된 제미나이 젬 공유 기능과 함께, 제가 직접 만든 '고퀄리티 젬' 5가지를 만나보세요. 마치 30년 경력의 전문가처럼, 실제 사람처럼, 그리고 여러분만의 완벽한 비서처럼 변신하는 AI의 놀라운 세계를 경험하게 될 겁니다. AI 탐지 프로그램도 속이는 이 특급 노하우, 지금 바로 공개합니다!\n✨ 2025년, 제미나이 젬 공유 기능의 등장과 '고퀄리티 젬' 대공개!\n\n\n \n 여러분도 아시다시피, 그동안 챗GPT에는 GPTs라는 기능이 있어서 사용자들이 만든 특화된 AI를 쉽게 공유하고 활용할 수 있었잖아요? 그런데 드디어! 구글의 제미나이에서도 이와 유사한 기능인 젬 지침 공유 기능이 새롭게 추가되었습니다.\n\n\n \n 2025년 9월 21일 오늘부로 제미나이 사용자들도 자신만의 맞춤형 AI 지침을 만들어서 다른 사람들과 공유할 수 있게 된 거죠. 정말 기다렸던 기능이 드디어 출시된 겁니다. 솔직히 말하면, 저도 이 순간을 얼마나 기다렸는지 몰라요!\n  꿀팁: 젬(Gem)이란?\n사용자가 특정 목적에 맞춰 생성형 AI의 지시사항, 기능, 데이터를 맞춤 설정하여 만든 특화된 AI입니다. 마치 앱스토어에서 앱을 다운로드하듯이, 다른 사람이 만든 젬을 활용하거나 직접 만들어서 공유할 수 있습니다. 각 젬은 고유한 페르소나와 전문 지식을 가지고 있어서 특정 작업을 훨씬 더 효율적으로 처리할 수 있게 해줘요.\n이런 역사적인 순간을 기념해서, 제가 그동안 혼자만 몰래 사용하던 '고퀄리티 젬' 지침 5개를 여러분께 처음으로 대공개하려고 합니다. 이 지침들은 제가 일상에서 정말 많이 활용하고 있는 편리한 도구들이에요. 각각 다른 분야에 특화되어 있어서 창의적 이미지 생성, 인간적인 글쓰기, 심리 진단, 운세 분석, 업무 지원까지 정말 독특하고 실용적인 영역들을 커버할 수 있도록 구성했습니다.\n \n그럼 지금부터 하나씩 자세히 소개해드리면서 어떻게 활용할 수 있는지, 제가 직접 경험한 예시와 함께 보여드리겠습니다. 기대하셔도 좋습니다!\n  1. '프롬프트 아티스트': 창의적인 이미지 생성을 위한 마법 젬\n가장 먼저 소개해드릴 젬은 '프롬프트 아티스트'입니다. 이 젬은 정말 혁신적이라고 말할 수 있어요. 사용자가 단순히 \"시작\"이라고 입력하면, 바로 5가지 창의적인 이미지 생성을 '나노바바나 스타일'을 활용하여 도와줍니다. 피규어 제작, 미니어처 상점, 유리병 속 기념품, 건담 모델 피규어, 레고 미니피규어까지, 상상 이상의 결과물을 만들어내죠.\n예를 들어, 피규어 이미지 생성을 해볼까요? 프롬프트 아티스트 젬을 실행한 후 '시작'을 입력합니다. 그러면 5가지 선택사항이 나오는데, 여기서 '1'을 입력하면 피규어 제작 모드로 진입하게 돼요. 젬의 요청에 따라 이미지를 업로드하면 잠시 후 피규어 생성을 위한 최적의 프롬프트가 자동으로 생성되고, 이미지를 생성할지 물어보는데 'Y'를 입력하면 됩니다. 결과물은 정말이지 상상했던 것 이상으로 디테일하고 생동감이 넘쳐서 깜짝 놀랄 거예요.\n미니어처 상점 기능도 정말 유용해요. 특정 제품 이미지를 업로드하면 해당 메이커의 미니어처 상점을 완벽하게 구현해줍니다. 제가 직접 써보니, 정말 눈을 의심할 정도로 섬세하게 표현해주더라고요. 나머지 3가지 옵션인 유리병 속 기념품, 프라모델 피규어, 레고 미니피규어도 여러분이 상상하는 그대로, 아니 그 이상을 보여줄 겁니다. 직접 한번 만들어보시면 제가 왜 이렇게 극찬하는지 아실 거예요.\nhttps://gemini.google.com/gem/18jkG6tveT7paESp9PIKXDQlrVwc5aMxQ?usp=sharing\n  활용 팁: 프롬프트 아티스트는 단순히 이미지를 만드는 것을 넘어, 여러분의 아이디어를 시각화하는 강력한 도구로 활용될 수 있어요. 제품 디자인 구상, 스토리보드 제작, 게임 캐릭터 컨셉 아트 등 무한한 가능성을 탐험해보세요! 비즈니스 기획자나 크리에이터에게는 정말 필수적인 젬이 될 겁니다.\n✍️ 2. '인간처럼 자연스러운 글쓰기': AI 글쓰기의 새로운 지평\n두 번째로 소개해드릴 젬은 '인간처럼 자연스러운 글쓰기' 젬입니다. 이건 정말 혁신적인 연구를 바탕으로 제가 직접 만든 작품인데요. 최근 터키 대학교 연구팀이 발표한 '라다(LADA)'라는 AI가 전 세계적으로 큰 화제가 되었습니다.\n확산 방식 글쓰기(Diffusion Writing)란?\n기존의 챗GPT와 같은 AI는 앞에서부터 한 단어씩 순차적으로 글을 쓰는 '순차 방식'을 사용합니다. 하지만 라다는 전체 문장을 조망하며 빈칸을 채워나가는 '확산 방식'으로 글을 쓰죠. 마치 십자말풀이를 풀 듯이, 글의 전체 구조를 먼저 잡고 여러 번의 수정을 거쳐 글의 완성도를 높이는 과정과 같다고 보시면 돼요.\n이 연구 결과가 정말 충격적이었어요. 라다가 쓴 글의 자연스러움 점수가 44.6점으로, 인간이 쓴 글의 43.0점과 거의 똑같았거든요. 반면 기존 AI는 18.4점으로 너무 뻔하고 기계적이라는 평을 받았죠. 심지어 기존 AI 탐지 프로그램들이 라다의 글을 전혀 찾아내지 못했다고 합니다. 정말이지 놀랍지 않나요?\n구분\n자연스러움 점수 (45점 만점)\nAI 탐지 가능성\n\n\n\n\n인간이 쓴 글\n43.0점\n없음\n\n\n확산 방식 AI (라다)\n44.6점\n낮음 (탐지 불가)\n\n\n기존 순차 방식 AI\n18.4점\n높음 (탐지 가능)\n\n\n\n이 연구에서 영감을 받아 제가 만든 이 젬도 똑같은 확산 방식을 사용합니다. 덕분에 \"정말 정말\" 같은 감정적 반복이나, \"아니 정확히 말하면\" 같은 자연스러운 수정 표현이 글 속에 녹아들게 되죠. 또 인간적인 불완전함을 의도적으로 연출해서 \"제가 겪어본 바로는\", \"솔직히 놀랐다\" 같은 개인적 경험이나 감정 표현을 자연스럽게 넣어줍니다. 이렇게 하면 정말로 사람이 쓴 것 같은, 개성 있는 글이 탄생해요. 제가 직접 사용해보고 감탄했던 부분입니다.\n사용법도 간단해요. 젬을 실행하고 '시작'을 입력하면 주제를 묻습니다. 예를 들어 '기적을 부르는 아침 습관'이라고 입력해볼게요. 그러면 바로 지침에 맞게 사람이 쓴 것처럼 자연스러운 문장으로 작성이 시작됩니다. 결과물 마지막에는 여러 추가 옵션이 보이는데, '블로그 포스팅 느낌'이라고 입력하면 요청사항에 적합한 글로 재구성해주고요. 원래 가지고 있는 글이 있다면 '아래 원문을 지침에 맞게 수정해'라고 입력하고 원문을 추가하여 요청하면 됩니다. 이 젬은 글쓰기 작업의 효율과 퀄리티를 동시에 끌어올려 줄 거예요.\nhttps://gemini.google.com/gem/1kyeSU63W3CQUvyM3CbleIDwnt2mYR5Tn?usp=sharing\n⚠️ 주의: AI가 생성한 글을 무조건적으로 자신의 것으로 사용하기보다는, 최종 검토와 수정을 거쳐 여러분만의 개성을 더하는 것이 중요합니다. AI는 훌륭한 조력자이지만, 창의적인 영감과 인간적인 감성은 여전히 우리의 몫이니까요. 글의 맥락과 감성을 더욱 풍부하게 만들 수 있다는 점 잊지 마세요.\n  3. 'MBTI 진단 챗봇': 심리 분석을 넘어선 몰입형 경험\n세 번째는 'MBTI 진단 챗봇' 젬인데요. 이건 정말 재미있으면서도 실용적인 젬입니다. 요즘 MBTI가 정말 인기잖아요? 특히 한국에서는 거의 필수 대화 주제가 되었다고 해도 과언이 아니죠. 사람들은 자신을 이해하고 타인을 알아가는 도구로 MBTI를 적극적으로 활용하고 있어요.\n\n\n사용자가 \"시작\"이라고 입력하면 바로 두 가지 선택지가 나타납니다. 표준 MBTI 진단과 한국인 맞춤형 MBTI 진단 중에서 선택할 수 있어요. 여기서 정말 중요한 건 단순히 텍스트 기반으로 질문과 답변을 주고받는 게 아니라는 점입니다. 이 젬의 가장 큰 특징은 완전한 HTML 웹 애플리케이션 형태로 진단을 진행한다는 거예요. 마치 전문적인 심리 진단 웹사이트에 들어온 것 같은 느낌을 받을 수 있어서 사용자 경험이 아주 뛰어나답니다.\n특히 '한국인 맞춤형 진단'은 우리나라 문화와 정서에 맞는 질문들로 구성되어 있어요. 예를 들어 회식 문화라든지, 눈치 보는 상황, 집단주의적 성향 등 한국 사회의 특수한 상황들을 반영한 질문들이 포함되어 있죠. 그래서 진단을 받는 사람들이 훨씬 더 몰입하고 공감할 수 있습니다.\n그리고 진단 결과도 단순히 \"당신은 ENFP입니다\"로 끝나는 게 아니라, 각 성향별로 상세한 설명과 함께 한국 사회에서 그 성격 유형이 어떤 강점과 약점을 가지는지, 어떤 직업이나 관계에서 잘 맞는지까지 구체적으로 알려줍니다. 이렇게 자세하고 시각적인 결과지는 자신을 이해하는 데 정말 큰 도움이 돼요. 제가 직접 해보니, 제 MBTI에 대한 새로운 통찰을 얻을 수 있었어요!\nhttps://gemini.google.com/gem/1CCoR57Ys_cpK6ws1nWdgEMkL3GZ1RQcc?usp=sharing\n  흥미로운 점: MBTI 챗봇은 단순한 진단 도구가 아니라, 자신을 이해하고 타인과의 관계를 개선하는 데 도움을 줄 수 있는 자기 성찰의 기회를 제공합니다. 결과지를 통해 자신의 강점을 극대화하고 약점을 보완할 방법을 찾아보세요. 친구들과 함께 해보는 것도 좋은 대화 주제가 될 거예요.\n  4. '지피티 팍의 사주명리학 마스터': 전통과 현대 기술의 만남\n네 번째 젬은 '지피티 팍의 사주명리학 마스터'입니다. 이 젬은 정말 대단한데요. 30년 경력의 사주명리학 전문가라는 페르소나를 가지고 있어서 사주팔자, 오행, 십신의 관계를 깊이 있게 분석해줍니다. 마치 오랜 시간 한 길을 걸어온 장인에게 상담받는 느낌을 받을 수 있어요.\n하지만 여기서 끝이 아니에요. 이 젬의 진짜 혁신적인 부분은 분석 결과를 현대적이고 시각적인 HTML 리포트로 제작해준다는 점입니다. 기존의 사주 해석이 단순히 텍스트로만 나열되는 것과는 완전히 차원이 다르죠. 저는 이 기능을 처음 봤을 때 '와, 드디어 AI가 여기까지 왔구나!' 하고 솔직히 놀랐습니다.\n실제로 생성되는 리포트를 보면 정말 놀라실 거예요. 먼저 기본 정보부터 시작해서 사주팔자를 아름다운 표 형태로 정리해줍니다. 시주, 일주, 월주, 년주별로 간지, 천간, 지지, 그리고 각각의 의미까지 체계적으로 보여주죠. 특히 오행 분석 부분에서는 목, 화, 토, 금, 수 각각의 개수에 따라 실시간으로 막대그래프가 생성됩니다. 이렇게 시각화된 오행 분포를 보면 자신의 오행 밸런스가 한눈에 들어와요. 어떤 오행이 부족하고 어떤 오행이 과한지 직관적으로 파악할 수 있어서 정말 유용합니다.\n시각적인 사주명리학 리포트의 특징\n✓ 체계적인 기본 정보: 사주팔자를 시주, 일주, 월주, 년주별로 간지, 천간, 지지, 의미까지 명확하게 정리한 표로 제공합니다.\n✓ 오행 분포 막대그래프: 목, 화, 토, 금, 수 각각의 개수에 따른 시각적인 막대그래프를 통해 오행 밸런스를 한눈에 파악할 수 있어요. 어떤 기운이 강하고 약한지 직관적으로 알 수 있죠.\n✓ 상세한 운세 분석: 일간 분석부터 종합 총운, 2025년 기준 띠별 운세, 직장운 상세 분석, 그리고 인생을 위한 최종 조언까지 방대한 정보를 제공합니다.\n✓ 구체적인 인생 조언: 추천 직업 분야 3가지와 함께 인생 전반에 걸쳐 도움이 될 만한 실질적인 조언을 아끼지 않습니다.\n이 정도 퀄리티면 유료 서비스와 비교해도 전혀 손색이 없을 것 같습니다. 전통적인 지혜를 현대적인 방식으로 경험하고 싶은 분들께 강력히 추천하는 젬이에요.\nhttps://gemini.google.com/gem/1Wcs70RsZ520mxo4NCAFrvAudsLHUtm3y?usp=sharing\n  5. '나의 완벽한 비서': 복잡한 업무를 체계적으로 해결\n마지막으로 소개할 젬은 '나의 완벽한 비서'입니다. 이 젬은 정말 혁신적이라고 할 수 있어요. 단순한 질의응답 AI가 아니라, 사용자를 직속 상관으로 모시는 '수석 비서'라는 정체성을 가지고 있습니다. 제가 직접 써보니, 마치 옆에 진짜 비서가 있는 듯한 착각마저 들더라고요.\n이 비서 젬의 가장 큰 특징은 어떤 주제든 깊이 있는 전문적 분석을 하면서도 누구나 쉽게 이해할 수 있도록 설명한다는 점이에요. 마치 정말 경험 많은 수석 비서가 복잡한 업무를 체계적으로 정리해서 보고하는 것 같은 느낌을 받을 수 있습니다. 응답 구조도 정말 체계적이에요. 모든 답변이 '업무 처리 결과'로 시작해서 '핵심 솔루션', '실무 팁', '주의사항' 순서로 구성됩니다. 이렇게 표준화된 형식 덕분에 어떤 질문을 해도 일관성 있고 체계적인 답변을 받을 수 있다는 장점이 있죠.\n핵심 비서 젬의 특별한 기능들\n✓ 전문성과 쉬운 설명의 조화: 어떤 주제든 깊이 있는 분석을 하면서도 초보자도 쉽게 이해할 수 있도록 명쾌하게 설명해줍니다.\n✓ 체계적인 응답 구조: 모든 답변이 '업무 처리 결과' → '핵심 솔루션' → '실무 팁' → '주의사항' 순서로 일관성 있게 구성됩니다.\n✓ 실무에 바로 적용 가능한 팁: 단순히 이론적인 설명으로 끝나는 것이 아니라, 각 단계마다 즉시 활용할 수 있는 구체적인 조언을 제공하여 실질적인 도움을 줍니다. 예를 들어 이메일 작성법을 물어보면 \"이런 상황에서는 이 표현을 쓰면 더 효과적입니다\"라는 식으로 실전 팁까지 알려줘요.\n✓ 명확한 의도 파악: 질문이 불명확할 때는 절대로 추측해서 답변하지 않습니다. 대신 \"정확한 처리를 위해 확인드리겠습니다\"라고 하면서 의도를 명확히 파악하기 위한 재질문을 던져요. 이런 세심한 배려가 정말 전문 비서 같은 느낌을 줍니다.\n✓ 최신 정보 반영 및 후속 업무 제안: 최신 정보가 필요한 경우에는 자동으로 웹 검색을 수행해서 정확하고 시의적절한 정보를 제공해줍니다. 그리고 답변이 끝나면 항상 3가지씩 후속 업무를 제안하여 여러분이 놓칠 수 있는 부분까지 꼼꼼히 챙겨줘요.\n예를 들어 '상사에게 프로젝트 지연을 보고하는 이메일을 어떻게 작성해야 할까?' 라고 물어보면, 전략과 함께 구체적인 메일 작성 예시, 실질적인 실무 팁, 그리고 후속 업무까지 완벽하게 제안합니다. 이 젬 하나면 어떤 업무든 든든하게 처리할 수 있을 거예요.\nhttps://gemini.google.com/gem/1ynkFjznk0FlHuiVd_hedJuW-SA7pNH0g?usp=sharing\n  핵심 요약\n✓ 2025년 제미나이 젬 공유 기능 출시: 이제 누구나 자신만의 맞춤형 AI를 만들고 공유할 수 있게 되었습니다.\n✓ 5가지 고퀄리티 젬 무료 공개: 이미지 생성, 자연스러운 글쓰기, MBTI 진단, 사주 분석, 전문 비서 등 다양한 분야를 커버합니다.\n✓ 확산 방식 AI 글쓰기: 인간과 구별하기 어려운 자연스러운 문장 생성으로 AI 탐지 회피 가능성이 높습니다.\n✓ AI 활용의 새로운 패러다임: 이제 AI는 단순한 도구를 넘어, 각자의 필요에 완벽히 맞춰진 전문 파트너가 될 수 있습니다.\n이 젬들을 통해 여러분의 일상과 업무 효율이 극적으로 향상될 것입니다. 직접 경험해보세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: 제미나이 젬은 챗GPT의 GPTs와 어떻게 다른가요?\nA: 기능적인 측면에서는 사용자 맞춤형 AI를 만들고 공유한다는 점에서 유사하지만, 제미나이 젬은 구글의 강력한 멀티모달 기능과 연동되어 더욱 다양한 형태의 상호작용과 콘텐츠 생성이 가능하다는 장점이 있습니다. 특히 HTML 렌더링을 통한 시각적 결과물 제공은 차별화된 부분이에요. 제 생각엔 이 부분이 제미나이 젬의 핵심적인 강점이라고 봅니다.\nQ2: 젬을 직접 만들려면 어떤 지식이 필요할까요?\nA: 기본적인 프롬프트 엔지니어링 개념만 있다면 누구나 쉽게 젬을 만들 수 있습니다. 복잡한 코딩 지식은 필요 없으며, 마치 대화하듯이 젬의 페르소나와 지시사항을 입력하는 방식으로 제작할 수 있어요. 구글에서 제공하는 가이드라인을 참고하시면 더욱 빠르게 익힐 수 있습니다. 저도 처음에는 어렵게 생각했는데, 해보니 정말 별거 아니더라고요.\nQ3: 오늘 공개된 젬들은 모두 무료로 사용할 수 있나요?\nA: 네, 오늘 소개해 드린 5가지 고퀄리티 젬은 모두 무료로 공개되어 있습니다. 제미나이 젬 공유 플랫폼을 통해 누구나 쉽게 찾아 사용해볼 수 있어요. 여러분의 AI 활용 경험을 한 단계 업그레이드할 절호의 기회이니 꼭 사용해보시길 바랍니다. 제가 직접 만들어보니 정말 아낌없이 드리고 싶은 마음이랄까요!\n자, 이렇게 해서 제가 그동안 혼자만 몰래 아껴두었던 '고퀄리티 젬' 5가지를 모두 소개해드렸습니다. 솔직히 저도 이걸 공개하면서 아쉬운 마음이 들지만, 여러분의 AI 활용 경험이 한 단계 더 성장할 수 있다면 그걸로 충분하다고 생각합니다. 정말로요!\n앞으로도 더 유용하고 혁신적인 AI 활용 팁들을 가지고 여러분을 찾아뵙겠습니다. 직접 이 젬들을 경험해보시고, 여러분만의 창의적인 활용법을 발견해보시는 건 어떨까요? 제미나이 젬이 가져올 AI의 새로운 시대를 함께 만들어가요!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://muzbox.tistory.com/483658",
+    "pubDate": "Sun, 21 Sep 2025 12:02:33 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "AI 글쓰기",
+      "AI 비서",
+      "AI 활용 끝판왕",
+      "MBTI 챗봇",
+      "고퀄리티 AI",
+      "사주명리학 AI",
+      "이미지 생성 AI",
+      "제미나이 업데이트 2025",
+      "제미나이 젬",
+      "확산 방식 글쓰기"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2025.2.2 Is Out!",
+    "description": "IntelliJ IDEA 2025.2.2 has arrived with several valuable fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates included in this version: To find out more details about the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/09/intellij-idea-2025-2-2/",
+    "pubDate": "Fri, 19 Sep 2025 09:53:11 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": [
+      "releases",
+      "bug-fix-update",
+      "intellij-idea",
+      "intellij-idea-2025-2"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "스테이블 코인의 여정",
+    "description": "80년대 금융 시장에 '파생상품'이라는 것이 처음 등장했을 때, 세상은 열광했다. 수학과 통계 모델을 기반으로 미래의 리스크를 예측하고 거래하는, 그야말로 '완벽한 금융 공학'의 탄생처럼 보였다. 수많은 천재들이 이 새로운 시장에 뛰어들었고, 복잡한 수식으로 무장한 상품들이 쏟아져 나왔다. 나 또한 숫자로 세상을 분석하는 퀀트로서, 그 지적인 아름다움에 매",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@H9i/86",
+    "pubDate": "Wed, 24 Sep 2025 14:06:02 GMT",
+    "creator": "권용진",
+    "categories": []
+  },
+  {
     "id": 13,
+    "imageUrl": "",
+    "title": "P-Canvas, 팀을 이해하기 위한 엔지니어링 기법",
+    "description": "매니징도 엔지니어링이 가능할까?안녕하세요. ABC Studio에서 ABC Platform 팀을 맡고 있는 송재욱입니다.저희 팀에서는 '재생산 비용을 낮추는 행위'를 엔지니어링으로 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/p-canvas-a-technique-for-understanding-your-team",
+    "pubDate": "Fri, 19 Sep 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "[MULTI] 애매한 목표와 애매한 결과, 데몬 X 마키나 타이타닉 사이언",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2363",
+    "pubDate": "Sun, 21 Sep 2025 14:02:57 +0900",
+    "creator": "「RULIWEB」",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "Video Streaming With the AV1 Video Codec in Mobile Devices",
     "description": "Today, Meta, Vodafone, and Google released a white paper, “Video Streaming with the AV1 Video Codec in Mobile Devices,” detailing the benefits of the AV1 codec, an advanced video compression technique, to enhance the streaming video experience on mobile devices.  The white paper recommends that: Vendors of core processors (SoCs) should evaluate the adoption of [...]\nRead More...\nThe post Video Streaming With the AV1 Video Codec in Mobile Devices appeared first on Engineering at Meta.",
@@ -192,36 +222,6 @@
     "creator": "Unknown",
     "categories": [
       "Video Engineering"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "eBay Honored at Fast Company's Innovation by Design Awards",
-    "description": "The eBay Evo brand and design system received three honorable mentions.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://innovation.ebayinc.com/stories/ebay-honored-at-fast-companys-innovation-by-design-awards/",
-    "pubDate": "Thu, 18 Sep 2025 00:00:00 -0700",
-    "creator": "eBay News Team",
-    "categories": [
-      "article"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Compose Multiplatform 1.9.0 Released: Compose Multiplatform for Web Goes Beta",
-    "description": "Compose Multiplatform for web, powered by Wasm, is now in Beta! This major milestone shows that Compose Multiplatform for web is no longer just experimental, but ready for real-world use by early adopters. This is more than a technical step forward. It’s a community achievement, made possible by feedback from early adopters of the Alpha […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/09/compose-multiplatform-1-9-0-compose-for-web-beta/",
-    "pubDate": "Mon, 22 Sep 2025 10:45:12 +0000",
-    "creator": "Ekaterina Volodko",
-    "categories": [
-      "multiplatform",
-      "compose-for-web",
-      "compose-multiplatform"
     ]
   }
 ]
