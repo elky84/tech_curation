@@ -2,11 +2,41 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "AI 만능설에 대한 우려와 짜증 – 수정(fix) 문제",
+    "description": "국중고딩 시절부터 서브컬처에 빠져있던 자로서 nano-banana같은 ai가 나와서 나같은 똥손도 동인활동이 가능해졌다는 점에서 약간 반기는 면도 있다. 근데 이거 쓰면 쓸수록 대단하면서도 등신같고 헛점이 명확하다고 느낀다. 첫시도에 잘 생성해줘서 그게 맘에 들면 베스트다. 그러나 수정을 하고 싶다면 이제부터 지옥이 펼쳐진다. 미세 수정을 시작하면 어떤 마법의 주문을 외워도 내가 원하는 쪽으로 가기가 어렵다. 결과물에 대한 수정을 … More AI 만능설에 대한 우려와 짜증 – 수정(fix) 문제",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://megayuchi.com/2025/09/26/ai-%eb%a7%8c%eb%8a%a5%ec%84%a4%ec%97%90-%eb%8c%80%ed%95%9c-%ec%9a%b0%eb%a0%a4%ec%99%80-%ec%a7%9c%ec%a6%9d-%ec%88%98%ec%a0%95fix-%eb%ac%b8%ec%a0%9c/",
+    "pubDate": "Fri, 26 Sep 2025 06:56:18 +0000",
+    "creator": "megayuchi",
+    "categories": [
+      "Development",
+      "IT",
+      "Pub",
+      "ai",
+      "nano-banana"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "The Kotlin AI Stack: Build AI Agents With Koog, Code Smarter With Junie, and More",
+    "description": "AI is changing how we build software, and Kotlin is ready to meet that change by empowering developers to build AI-powered apps and by enhancing the developer experience through AI-based tools. This post explores both angles: the tools for developing AI-powered apps, both from JetBrains and from the community, and the ways Kotlin is evolving […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/09/the-kotlin-ai-stack-build-ai-agents-with-koog-code-smarter-with-junie-and-more/",
+    "pubDate": "Wed, 24 Sep 2025 08:26:32 +0000",
+    "creator": "Alyona Chernyaeva",
+    "categories": []
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
     "title": "2025년 추석 완강 챌린지",
     "description": "주니어일때 명절은 밀린 공부를 몰아서 할 수 있는 행복한 시간이였다.\n주말까지 껴있는 경우 거의 8~10일을 출근하지 않고 공부할 수 있으니 Todo 목록에 있는 대부분의 개인 프로젝트들, 블로그에 정리해야할 것들, 밀린 책들을 다 보는 시간으로 가졌다.\n특히 2017년 추석이 역대급 황금연휴였는데, 10.02 에만 휴가를 쓰면 09.30 ~ 10.09 까지 총 10일을 쉴 수 있었다.\n\n\n이때 진짜 너무 행복하게 시간을 보내서 추석 연휴 동안 5개의 기술 블로그 글을 발행했다.\n\n\n\n당시 팀에 새로 합류한 분들을 위한 Spock 관련된 1,2편의 글이나 코드리뷰로 종종 언급했던 메소드 파라미터, eslint적용 등 여러 내용들을 정리하고 추가로 학습했다.\n밀린 공부와 글감들을 다 발산하는데 10일 내내 도파민이 넘쳐흐르는 것 같았다.\n특히 토비님이 추천하신 TDD로 xUnit 만들기를 이때 진행했었고, 그 과정도 상세히 정리하는 시간을 가졌다.\n\n\n\nJUnit 만들어보기\n결혼 이후에는 예전처럼 개인 공부하는데 모든 시간을 쓸 순 없지만 그럼에도 여전히 명절 연휴는 나에겐 성취감을 주는 귀한 시간이다.\n혼자서 긴 시간 공부하다보면 지루할때도 많았다.\n그럴때는 지인들과 스터디 까페에 모여서 하루종일 모각코를 진행하기도 했다.\n아침 8~9시 사이에 모여서 공부하다가 잡담도 하고 점심시간에 밥도 같이 먹으면서 공부했던 것들을 공유하고 각자 일정에 맞춰 퇴근도 하면서 완전히 자유롭게, 다만 외롭지 않게 공부했다.\n건강한 식단과 규칙적인 운동을 하고나면 건강과 체력이 좋아지는 것 처럼,\n긴 연휴를 알차게 보내면 그만큼의 마음 건강이 단단해졌다.\n그래서 이렇게 시간을 보내고 나면 아무리 긴 연휴기간이였어도 회사 복귀가 전혀 힘들지 않았다.\n코로나 기간이후로 이렇게 다 같이 추석 연휴때 모여서 각자가 공부하고 싶은 주제를 공부하고 이야기 나누는 모임은 없어졌다.\n그러다보니 이제 연휴에 혼자서만 계속 공부하고 있다.\n올해 추석은 2017년처럼 또다시 황금연휴다.\n10.10일만 휴가를 쓴다면 총 10일을 연속해서 쉴 수 있는 긴 시간이다.\n이 시간을 코로나 전처럼 건강하게 보낼 순 없을까?\n그래서 이번에 이 긴 추석 연휴동안 온라인으로 많은 사람들이 모여서 함께 공부하는 시간을 준비했습니다.\n'향로' 와 함께하는 추석 완강 챌린지\n\n\n10월에는 카카오 신입 공채 코딩 테스트, 삼성전자 신입 개발 코딩 테스트 등 여러 대기업들의 공채가 있고,\n토스, 당근 등 여러 많은 회사들이 여전히 채용을 활발히 하고 있는 기간입니다.\n이번 추석 연휴 기간 동안 공부하고 싶었던 주제가 있거나 즐겁게 '함께' 공부하는 시간을 가지고 싶으신 분들이라면 저와 같이 추석 완강 챌린지를 함께해요!\n추석 연휴 동안 원하는 강의를 구매하실 수 있게 40% 할인 쿠폰도 함께 드리니 이번 추석때는 함께 성장해요 :)",
     "reviews": [],
     "syllabus": [],
-    "link": "http://jojoldu.tistory.com/846",
+    "link": "https://jojoldu.tistory.com/846",
     "pubDate": "Fri, 26 Sep 2025 17:02:00 +0900",
     "creator": "향로 (기억보단 기록을)",
     "categories": [
@@ -20,7 +50,21 @@
     ]
   },
   {
-    "id": 2,
+    "id": 4,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 20화, 악역영애 행동인 데스와 ②",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2365",
+    "pubDate": "Wed, 24 Sep 2025 16:48:12 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 5,
     "imageUrl": "",
     "title": "How Java Open-Source Projects Use IntelliJ IDEA: Real-World Examples – Part 2",
     "description": "In Part 1 of this series, we introduced some of the Java community’s most recognized open-source projects. Now, we’re back with more standouts: projects that speed up builds, strengthen testing, and simplify working with modern web stacks. And as always, IntelliJ IDEA helps maintainers move faster, confidently, and with a focus on quality. 🌿 jsoup […]",
@@ -39,121 +83,44 @@
     ]
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "페이스페이가 그리는 결제의 새 얼굴",
-    "description": "일상을 바꾸는 결제의 진화, 더 안전하고 편리하게",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/outsight-facepay",
-    "pubDate": "Fri, 26 Sep 2025 01:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Rider Roadmap: What to Expect From the Upcoming Updates and Releases",
-    "description": "With Rider 2025.2 already out in the wild and the 2025.3 release cycle underway, we want to take a step back and give you a broader picture of where Rider is headed. This roadmap covers our plans for Rider 2025.3 and what you can expect from the minor updates included in the 2025.2 release line. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/09/25/rider-rider-roadmap-2025-3/",
-    "pubDate": "Thu, 25 Sep 2025 13:22:46 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "rider",
-      "net-10",
-      "azure-devops",
-      "cmake",
-      "game-developement",
-      "nuget",
-      "opentelemetry",
-      "roslyn",
-      "unity",
-      "unreal-engine",
-      "ux-ui"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "스테이블 코인의 여정",
-    "description": "80년대 금융 시장에 '파생상품'이라는 것이 처음 등장했을 때, 세상은 열광했다. 수학과 통계 모델을 기반으로 미래의 리스크를 예측하고 거래하는, 그야말로 '완벽한 금융 공학'의 탄생처럼 보였다. 수많은 천재들이 이 새로운 시장에 뛰어들었고, 복잡한 수식으로 무장한 상품들이 쏟아져 나왔다. 나 또한 숫자로 세상을 분석하는 퀀트로서, 그 지적인 아름다움에 매",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@H9i/86",
-    "pubDate": "Wed, 24 Sep 2025 14:06:02 GMT",
-    "creator": "권용진",
-    "categories": []
-  },
-  {
     "id": 6,
     "imageUrl": "",
-    "title": "학교가 가르칠 수 없는 것",
-    "description": "일주일 전에 내가 10년째 벤처파트너로 활동하고 있는 국내 1호 악셀러레이터 프라이머 26기 데모데이가 있었다. 나는 프라이머 데모데이는 항상 흥행 수표라고 농담하는데, 이날도 1,000명이 넘는 분들이 와서 한국의 창업 열기는 아직도 뜨겁고, 이제 시작이라는 확신을 다시 한번 가졌다. 프라이머 데모데이의 주인은 창업가들이고, 하이라이트는 이들의 피칭이다. 공식적인 행사가 끝나면 하나의 번외 일정이 있는데, 프라이머 파트너들과의 AMA(Ask Me(...)",
+    "title": "Video Streaming With the AV1 Video Codec in Mobile Devices",
+    "description": "Today, Meta, Vodafone, and Google released a white paper, “Video Streaming with the AV1 Video Codec in Mobile Devices,” detailing the benefits of the AV1 codec, an advanced video compression technique, to enhance the streaming video experience on mobile devices.  The white paper recommends that: Vendors of core processors (SoCs) should evaluate the adoption of [...]\nRead More...\nThe post Video Streaming With the AV1 Video Codec in Mobile Devices appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/09/some-things-that-school-can-never-teach.html",
-    "pubDate": "Wed, 24 Sep 2025 21:23:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://engineering.fb.com/2025/09/24/video-engineering/video-streaming-with-av1-video-codec-mobile-devices-meta-white-paper/",
+    "pubDate": "Wed, 24 Sep 2025 08:00:44 +0000",
+    "creator": "Unknown",
     "categories": [
-      "Uncategorized",
-      "cockroach",
-      "education",
-      "FoundersAtWork",
-      "general",
-      "primer"
+      "Video Engineering"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "PD1 AI 해커톤, 그 뜨거웠던 열기 속으로!",
-    "description": "최근 LY Corporation뿐 아니라 IT 산업 전반에서 AI 기술을 서비스에 접목하려는 움직임이 활발히 이어지고 있습니다. 메시징과 커뮤니케이션, 콘텐츠, 업무 자동화에 이르...",
+    "title": "The Ktor roadmap and previews",
+    "description": "As in previous years, we have been working on the Ktor roadmap, and we want to say thank everyone for their contributions and feedback to help us prioritize the roadmap! The OpenAPI and WebRTC support is already in preview since the Ktor 3.3.0 release. Check out the What’s New section for a full overview of […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/pd1-ai-hackathon-recap",
-    "pubDate": "Fri, 26 Sep 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/kotlin/2025/09/ktor-roadmap-2025/",
+    "pubDate": "Tue, 23 Sep 2025 19:00:47 +0000",
+    "creator": "Simon Vergauwen",
+    "categories": [
+      "ktor",
+      "news",
+      "releases",
+      "release"
+    ]
   },
   {
     "id": 8,
-    "imageUrl": "",
-    "title": "Islands Theme: The New Look Coming to JetBrains IDEs",
-    "description": "Starting with version 2025.2.3, JetBrains IDEs will offer a new look: the Islands theme, available in both dark and light modes. This update is a visual refresh, which means that all functionality will remain the same. The new theme can be turned on or off in the Appearance settings. This step brings us closer to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/09/islands-theme-the-new-look-coming-to-jetbrains-ides/",
-    "pubDate": "Mon, 22 Sep 2025 16:24:54 +0000",
-    "creator": "Olga Berdnikova",
-    "categories": [
-      "intellij-platform",
-      "ui"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 20화, 악역영애 행동인 데스와 ②",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2365",
-    "pubDate": "Wed, 24 Sep 2025 16:48:12 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 10,
     "imageUrl": "",
     "title": "미국에서 스시를 팔기위한 노력 / 캘리포니아 롤",
     "description": "영상: https://www.youtube.com/watch?v=rE_FAwhBo9Y\n\n\n\n \n아무리 좋다고해도 그들의 벽은 높다.\n나는 이 벽을 적응하고 넘어야한다.\n \n요즘은 채소나 해초도 건강식이라고 좋아하다.\n거의 60년이 지나서 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1397",
+    "link": "http://serverdown.tistory.com/1397",
     "pubDate": "Sun, 21 Sep 2025 14:16:40 +0900",
     "creator": "SIDNFT",
     "categories": [
@@ -161,90 +128,118 @@
     ]
   },
   {
-    "id": 11,
+    "id": 9,
     "imageUrl": "",
-    "title": "Hytale 하이테일에 (게임) 대해 알아보자 / 망했다고 합니다.",
-    "description": "마인크레프트에서 서버 운영에서 출발한 이 게임팀은\n마인크래프트에서 독립해 스스로 게임을 만들기 시작하는데 ...\n \n게임 트레일러: https://www.youtube.com/watch?v=e2_wZ3z-tVA\n\n\n\n \n \n \n \n개발 스토리 요약: https://www.youtube.com/watch?v=xKxvjOUM67I\n\n\n\n \n \n보면 재밌어보입니다.\n소재는 좋았습니다.",
+    "title": "몰살해주마 모험가놈들! 던전 워페어 3",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1396",
-    "pubDate": "Sat, 20 Sep 2025 17:38:49 +0900",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2364",
+    "pubDate": "Sun, 21 Sep 2025 20:12:22 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "테슬라의 목표는 로보택시의 대량생산",
+    "description": "전기차 보급은 쉽지 않습니다.\n비싸고\n불날까바 보유를 꺼려합니다.\n이 문제를 해결하기위해 택시 (보유할 필요 없는 자동차) 가 필요했고\n자율 주행이 필요했으며 이제 대량 생산을위해 로봇으로 연결됩니다.\n \n영상: https://www.youtube.com/watch?v=hftkuORCF_o\n\n\n\n7분에 나옵니다.\n \n로보택시를 대량 생산하면 사람들이 차를 안사도 되는 시대가옵니다.\n자동차는 소유해봤자 아무리 많이쳐줘도 소유한 시간의 1/4 정도만 운전을 합니다.\n대부분 주차 상태로 지냅니다.\n이부분에서 모두가 로보택시를 타버린다면\n1. 주차할 필요 없다.\n2. 주차장을 보유할 필요가 없다.\n라는 장점이 있습니다.\n이것은 로보택시가 차를 보유하는 비용보다 훨씬 저렴하다면 가능할 것입니다.\n그래서 대량생산 방식을 개발중인 것입니다.\n영상에서는 Unboxed 방식이과 생산자를 로봇화 하는 것으로 달성합니다.\n즉 로봇은 대량생산을 위해 필요하는 핵심요소 입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1398",
+    "pubDate": "Thu, 25 Sep 2025 19:42:39 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브",
-      "개발스토리",
-      "게임"
+      "로봇",
+      "테슬라"
     ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "토스, 웰로와 함께 추석맞이 고향사랑기부제 이벤트 진행",
+    "description": "10만 원 기부 시 전액 세액공제·3만 원 상당 답례품 제공",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/41019",
+    "pubDate": "Thu, 25 Sep 2025 07:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "챗GPT 품은 카톡 업데이트, 2025년 10월 예정!",
-    "description": "드디어 기다리던 소식이 현실이 되었습니다! 한국인의 필수 앱 카카오톡이 2025년 10월, 챗GPT(GPT-5 기반)와 자체 AI '카나나'를 품고 대대적인 변신을 예고했어요. 단순한 메신저를 넘어, AI 비서와 소셜 플랫폼으로 진화하는 카카오톡의 혁신적인 변화와 함께 5천만 사용자의 일상이 어떻게 달라질지, 그리고 프라이버시는 안전하게 지켜질지 자세히 알아볼게요. AI 시대, '카톡해'의 의미가 완전히 새로워질 거예요!\n\n\n 한국인의 삶에 깊숙이 자리 잡은 카카오톡이 오는 2025년 10월, 챗GPT를 품고 대대적인 업데이트를 앞두고 있다는 소식입니다. 저도 이 소식을 듣고 정말 놀라지 않을 수 없었는데요, 단순한 AI 기능 추가를 넘어 카카오톡 15년 역사상 가장 큰 변화가 될 것이라고 하니, 그 내용이 더욱 궁금해집니다. 그럼 지금부터 이 혁신적인 업데이트가 우리의 일상을 어떻게 바꿀지, 그리고 주요 내용은 무엇인지 자세히 살펴보겠습니다.\n✨ 국내 최초 OpenAI 전략적 제휴의 빛나는 결실\n이번 카카오톡 업데이트는 단순한 기능 추가를 넘어, 카카오와 OpenAI가 8개월간 공들여 진행한 공동 개발 프로젝트의 최종 결과물이라고 해요. 특히 정신아 카카오 대표가 2025년 9월 23일 경기도 용인 카카오 AI 캠퍼스에서 열린 '이프 카카오(if(kakao) 2025)' 컨퍼런스에서 직접 발표하면서, 그 의미를 더했어요. 정신아 대표님은 이번 통합이 사용자 경험을 완전히 바꿔놓을 새로운 AI 서비스가 될 것이라고 강조했습니다.\n생각해보니, 카카오가 OpenAI와 전략적 제휴를 맺은 것이 벌써 2025년 2월 4일이었네요. 당시 샘 올트먼 OpenAI CEO와 정신아 카카오 대표가 함께 기자간담회에 참석해 'AI 서비스 대중화'라는 공동 목표를 밝히면서 큰 기대를 모았었죠. 이번 카카오톡과 챗GPT의 통합은 OpenAI가 국내 기업과 맺은 첫 번째 전략적 제휴의 구체적인 성과라는 점에서 정말 특별하다고 할 수 있습니다.\n최신 기술의 정점, GPT-5 기반 모델 적용\n카카오톡에 탑재되는 챗GPT는 놀랍게도 OpenAI의 최신 모델인 GPT-5를 기반으로 한다고 합니다. 현재 일반 사용자들이 접하는 챗GPT보다 훨씬 더 발전된 기술력을 자랑하는데요, 텍스트와 이미지를 처리하고 생성하는 능력은 물론, 고도로 복잡한 맥락까지 인지하는 능력을 갖췄다고 해요. 올리버 제이 OpenAI 인터내셔널 비즈니스 총괄은 \"카카오톡은 한국에서 가족, 친구, 창작자, 기업이 연결되는 플랫폼이며, 이제 세계 최고 수준의 AI가 이 공간에 함께하게 됐다\"고 언급하며 이번 통합의 중요성을 다시 한번 강조했습니다.\n  GPT-5의 주요 특징:\n\n향상된 텍스트 및 이미지 처리/생성 능력\n더욱 정교해진 맥락 인지 능력\n현재 사용 가능한 모델 대비 혁신적인 성능 향상\n  카카오톡 15년 만의 대대적 개편, 그 핵심은?\n이번 AI 통합은 카카오톡이 지난 15년간 쌓아온 역사를 뛰어넘는 대대적인 개편을 동반합니다. 단순히 AI 기능을 추가하는 것을 넘어, 카카오톡의 기본적인 사용 방식 자체를 혁신적으로 변화시킬 예정이라고 해요. 저는 이 부분이 정말 기대되더라고요!\n채팅탭 상단의 'ChatGPT' 버튼 신설\n가장 눈에 띄는 변화는 바로 카카오톡 채팅탭 상단에 생기는 'ChatGPT' 버튼입니다. 별도의 앱을 설치할 필요 없이, 이 버튼 하나만 누르면 바로 챗GPT를 이용할 수 있다고 해요. 그리고 여기서 생성된 대화 내용이나 콘텐츠는 채팅방에 즉시 공유할 수 있어서, 친구들과 대화하다가 궁금한 점이 생기면 바로 AI의 도움을 받고 그 결과를 공유하는 방식으로 활용할 수 있을 것 같아요. 유용하 카카오 AI에이전트플랫폼 성과리더는 \"모든 기능이 대화 안에서 자연스럽게 연결되는 새로운 사용자 경험\"이라고 설명했답니다. 상상만 해도 편리함이 느껴지지 않나요?\n\n\n카카오 에이전트를 통한 생태계 통합\n여기서 끝이 아닙니다. 단순히 AI 채팅을 넘어, 챗GPT가 카카오 에이전트를 통해 카카오 생태계 전반과 연동되는 것이 이번 통합의 진정한 핵심이라고 할 수 있어요. 예를 들어, \"성수동 카페 추천해줘\"라고 물어보면 AI가 알아서 카카오맵을 열어주고, \"엄마 생일 선물로 뭐가 좋을까?\"라는 질문에는 선물하기 서비스로 연결되어 바로 결제까지 할 수 있게 됩니다.\n멜론과 연동되어 인기 노래 차트 정보를 제공하거나, 카카오 예약하기를 통해 식당 예약까지 한 번에 처리하는 것도 가능하다고 하니, 이건 정말 혁신적인 변화라고 생각해요. 이러한 통합 서비스는 앞으로 카카오 계열사뿐만 아니라 공공기관, 외부 파트너들까지 참여하는 대규모 AI 서비스 생태계 플랫폼으로 확장될 예정이라고 하니, 미래의 카카오톡이 정말 기대됩니다.\n⚠️ 주의 사항: 새로운 기능들이 편리함을 제공하지만, AI가 제공하는 정보는 최종 확인이 필요할 수 있습니다. 특히 결제나 예약과 관련된 중요한 결정은 반드시 직접 재확인하는 습관을 들이는 것이 좋겠죠!\n  자체 AI 카나나와의 강력한 시너지 효과\n카카오가 OpenAI와의 협력을 추진하면서 동시에 자체 개발한 AI 서비스 '카나나(Kanana)'도 카카오톡에 통합된다는 점은 정말 주목할 만한 부분이에요. 특히, 카나나는 사용자 데이터의 프라이버시를 최우선으로 고려한 \"온디바이스 AI\" 기술을 적용했다고 합니다. 이 기술이 왜 중요할까요?\n\n\n온디바이스 AI로 프라이버시를 한층 강화\n온디바이스 AI는 스마트폰 내에서만 작동하는 AI 기술을 의미해요. 즉, 사용자의 민감한 대화 데이터가 외부 서버로 전송되지 않고, 오직 사용자 스마트폰 안에서만 처리된다는 것이죠. 강지훈 카카오 AI디스커버리 성과리더는 \"카카오톡 속 대화는 언제나 개인 정보라는 원칙 아래 보호되어야 한다\"며, 데이터를 외부 서버로 보내지 않는 '카나나 나노'를 직접 개발했다고 설명했습니다. 개인 정보 보호에 대한 우려가 많았던 만큼, 이런 점은 정말 환영할 만한 소식입니다.\n세계 최고 수준의 한국어 이해력\n카나나의 또 다른 강점은 바로 세계 최고 수준의 한국어 이해력입니다. 21억 파라미터 기준으로 대형 모델의 약 95% 수준 성능을 구현하면서도, 같은 크기의 글로벌 모델 대비 맥락 감지 능력에서 40% 이상 우위를 보인다고 해요. 게다가 카나나 나노 모델은 676MB라는 경량화된 크기 덕분에 와이파이 환경에서 단 18초 만에 다운로드가 가능하다고 합니다. 카카오의 목표는 올 연말까지 전체 카카오톡 사용자의 절반 이상이 온디바이스 AI를 사용할 수 있도록 하는 것이라고 해요.\n카나나는 복잡한 다자간 대화 속에서도 맥락을 정확히 파악하여 적절한 에이전트를 실행할 수 있어요. 예를 들어 대화 요약, 통화 녹음 및 요약, 숏폼 자동 생성, 그리고 기존 샵(#)검색을 대체하는 '카나나 검색' 등 정말 다양한 기능을 제공한다고 하니, 우리의 스마트폰 생활이 훨씬 더 스마트해질 것 같다는 기대감이 듭니다.\n\n\n  메신저 기능의 혁신적 개편: 더 편리하고 소셜하게!\nAI 통합 외에도 카카오톡은 기본적인 메신저 기능에서도 15년 만의 대대적인 변화를 겪습니다. 저는 개인적으로 이런 사용자 편의성 개선을 정말 오랫동안 기다려왔던 터라 이번 소식이 더욱 반가웠어요.\n사용자 편의성 대폭 향상\n가장 큰 변화 중 하나는 바로 채팅방 폴더 기능 도입입니다. 이제 사용자들은 채팅방을 '안읽음', '친구', '직장' 등 원하는 카테고리별로 분류할 수 있게 돼요. 저처럼 채팅방이 너무 많아서 중요한 메시지를 놓치기 쉬웠던 분들에게는 정말 희소식일 것 같습니다. 또한, 많은 분들이 요구했던 메시지 수정 기능이 드디어 추가된다고 합니다! 지난 8월 메시지 삭제 기능을 24시간으로 연장한 데 이어, 이번 수정 기능까지 더해지면서 사용자 편의성이 정말 크게 향상되었어요. 그리고 안읽음 폴더에서 채팅방을 아래로 당기면 안 읽은 메시지를 미리 볼 수 있는 기능도 새롭게 추가된다고 하니, 사소한 디테일까지 신경 쓴 모습이 엿보입니다.\nSNS 기능 강화로 소셜 플랫폼 진화\n친구탭은 인스타그램처럼 타임라인 피드 기능으로 개편되어, 친구들의 게시물을 확인하고 일상을 공유할 수 있는 소셜 미디어 플랫폼으로 진화합니다. 새로운 '지금탭'도 추가된다고 하니, 카카오톡이 단순한 메신저를 넘어 종합 소셜 플랫폼으로 확실히 자리매김할 것 같아요. 이제 친구들과의 소통이 더욱 다채로워지겠네요!\n  AI 시대를 앞서가는 카카오의 전략적 의미\n정신아 대표는 \"오늘을 시작으로 카카오톡 대화창은 더 많은 것이 실현되는 '가능성의 창'이 될 것\"이라며, \"'카톡해'라는 말은 이제 단순히 '메시지 보내'라는 뜻을 넘어, 카카오 AI를 통해 더 큰 세상을 경험한다는 새로운 의미로 해석될 것\"이라고 강조했습니다. 저도 그 말에 깊이 공감합니다. 생각해보면, 한국 인구의 대부분인 5천만 카카오톡 사용자가 별도 학습 없이도 일상에서 자연스럽게 최첨단 AI 기술을 경험할 수 있게 되는 것이니까요. OpenAI의 올리버 제이 총괄 역시 \"한국인의 일상에 세계적 수준의 AI를 심게 되었다\"고 평가했습니다.\n글로벌 AI 생태계에서의 차별화\n이번 카카오와 OpenAI의 협력은 단순히 기술을 도입하는 것을 넘어, 한국 시장에 최적화된 AI 경험을 제공한다는 점에서 정말 큰 의미가 있다고 봐요. 카카오가 오랜 시간 동안 쌓아온 한국 사용자 데이터와 서비스 경험이 OpenAI의 최첨단 기술과 결합하여, 글로벌 AI 서비스들과 차별화된, 현지화된 서비스를 구현했다는 점이죠. 미그다드 제퍼 OpenAI 프로덕트 매니저는 \"카카오와의 협력은 글로벌 기술과 로컬 리더십을 결합하는 의미 있는 사례\"라고 평가하며, 앞으로 AI 생태계 전반에서 협력을 확대할 계획이라고 밝혔습니다.\n  보안과 프라이버시에 대한 카카오의 깊은 고민\n아무래도 AI가 우리 일상에 깊숙이 들어오는 만큼, 보안과 프라이버시 문제는 민감할 수밖에 없죠. 카카오는 이 부분에 대해서도 명확한 가이드라인을 제시했습니다. 정신아 대표는 \"카카오톡 데이터는 ChatGPT에 학습되지 않고 서버에 저장되지 않는다\"고 강조하며, 사용자 프라이버시 보호를 위한 기술적 조치를 완료했다고 밝혔어요. 이 부분은 정말 중요하다고 생각해요.\n특히 자체 개발한 카나나의 경우, 앞서 설명드렸던 온디바이스 AI 기술을 적용해서 모든 정보가 카카오톡 내부에서만 처리되도록 설계되었어요. 클라우드 서버에 연결할 필요 없이 안전하게 AI 서비스를 위한 데이터를 처리할 수 있다는 점이 정말 안심이 됩니다. 우리가 가장 많이 사용하는 메신저 앱인 만큼, 이런 보안 조치들은 필수적이라고 할 수 있습니다.\n  향후 전망과 카카오의 야심찬 확장 계획\n카카오는 2025년 10월 챗GPT 서비스 시작을 시작으로, 연말까지 카나나 인 카카오톡의 다양한 기능들을 순차적으로 출시할 예정이라고 해요. 김병학 카나나 성과리더는 \"카카오톡뿐 아니라 다양한 카카오 서비스에서 카나나 모델을 자연스럽게 경험하게 될 것\"이라며, \"에이전틱 AI 연구를 통해 일상을 보다 편리하게 변화시키겠다\"는 포부를 밝혔습니다.\n'AI 네이티브 컴퍼니'로의 전환 가속화\n이번 OpenAI와의 협업은 카카오가 그동안 추진해온 'AI 네이티브 컴퍼니' 전환 전략의 핵심 축입니다. 카카오는 자체 개발한 AI 모델과 외부의 우수한 API를 적재적소에 활용하는 '모델 오케스트레이션' 전략을 통해 사용자에게 최상의 서비스를 제공하려 노력하고 있어요. 정신아 대표는 \"하반기를 기점으로 전 국민이 매일 AI를 카카오톡을 접점으로 경험할 수 있도록 하겠다\"며 \"카카오톡과 연결된 다양한 AI 서비스를 순차적으로 출시해 전 국민 AI 시대를 열겠다\"고 힘주어 말했습니다. 이 포부를 들으니, 앞으로 카카오가 만들어갈 AI 기반의 새로운 세상이 정말 궁금해집니다.\n  핵심 요약\n✔️ 2025년 10월, 카카오톡에 챗GPT (GPT-5 기반)와 카나나 AI 전격 통합: 5천만 사용자의 일상에 AI가 자연스럽게 스며듭니다.\n✔️ 카카오 에이전트 통한 생태계 연동: 카카오맵, 선물하기, 멜론 등 다양한 카카오 서비스와 AI가 직접 연결됩니다.\n✔️ 온디바이스 AI '카나나'로 강력한 프라이버시 보호: 사용자 데이터가 외부 서버로 전송되지 않고 스마트폰 내에서만 처리됩니다.\n✔️ 메신저 기능 대대적 개편: 채팅방 폴더, 메시지 수정, SNS형 피드 등 사용자 편의성과 소셜 기능이 크게 강화됩니다.\n이 모든 변화는 카카오톡을 단순한 메신저를 넘어, 개인화된 AI 비서이자 종합적인 소셜 플랫폼으로 진화시키려는 카카오의 큰 그림입니다. 기대해도 좋겠죠?\n❓ 자주 묻는 질문 (FAQ)\nQ1: 챗GPT가 카카오톡에 언제부터 적용되나요?\nA1: 2025년 10월부터 단계적으로 적용될 예정입니다. 카카오는 연말까지 다양한 AI 기능을 순차적으로 출시하며, 카카오톡 사용자들의 AI 경험을 확대할 계획입니다.\nQ2: 카카오톡에 적용되는 AI 모델은 무엇인가요?\nA2: OpenAI의 최신 모델인 GPT-5와 카카오가 자체 개발한 온디바이스 AI '카나나(Kanana)'가 함께 적용됩니다. GPT-5는 범용적인 대화 및 콘텐츠 생성에, 카나나는 특히 한국어 기반의 개인화된 온디바이스 AI 기능에 강점을 보입니다.\nQ3: 사용자 개인 정보는 안전하게 보호되나요?\nA3: 네, 카카오는 사용자 프라이버시 보호를 최우선으로 합니다. 카카오톡 대화 데이터는 챗GPT 학습에 사용되지 않으며, 서버에 저장되지 않습니다. 특히 자체 개발한 카나나 AI는 온디바이스 기술을 통해 모든 정보가 사용자 스마트폰 내에서만 처리되도록 설계되었습니다.\nQ4: AI 기능 외에 카카오톡 메신저 기능에도 변화가 있나요?\nA4: 네, 챗GPT 통합과 함께 채팅방 폴더 기능, 메시지 수정 기능이 추가됩니다. 또한, 친구탭이 인스타그램과 유사한 타임라인 피드 형태로 개편되어 소셜 기능이 강화되는 등 15년 만의 대대적인 메신저 기능 개편이 이루어질 예정입니다.\n카카오와 OpenAI의 이번 통합은 한국 AI 산업의 새로운 이정표가 될 것으로 전망됩니다. 5천만 사용자가 일상에서 자연스럽게 AI를 경험하게 되면서, AI 기술의 대중화와 함께 새로운 디지털 생태계의 시작을 알리는 신호탄이 될 거예요. 저는 정말 기대가 큽니다!\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"챗GPT가 카카오톡에 언제부터 적용되나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"2025년 10월부터 단계적으로 적용될 예정입니다. 카카오는 연말까지 다양한 AI 기능을 순차적으로 출시하며, 카카오톡 사용자들의 AI 경험을 확대할 계획입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"카카오톡에 적용되는 AI 모델은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"OpenAI의 최신 모델인 GPT-5와 카카오가 자체 개발한 온디바이스 AI '카나나(Kanana)'가 함께 적용됩니다. GPT-5는 범용적인 대화 및 콘텐츠 생성에, 카나나는 특히 한국어 기반의 개인화된 온디바이스 AI 기능에 강점을 보입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"사용자 개인 정보는 안전하게 보호되나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 카카오는 사용자 프라이버시 보호를 최우선으로 합니다. 카카오톡 대화 데이터는 챗GPT 학습에 사용되지 않으며, 서버에 저장되지 않습니다. 특히 자체 개발한 카나나 AI는 온디바이스 기술을 통해 모든 정보가 사용자 스마트폰 내에서만 처리되도록 설계되었습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI 기능 외에 카카오톡 메신저 기능에도 변화가 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 챗GPT 통합과 함께 채팅방 폴더 기능, 메시지 수정 기능이 추가됩니다. 또한, 친구탭이 인스타그램과 유사한 타임라인 피드 형태로 개편되어 소셜 기능이 강화되는 등 15년 만의 대대적인 메신저 기능 개편이 이루어질 예정입니다.\"\n      }\n    }\n  ]\n}",
+    "title": "Grok Imagine으로 AI 영상&middot;이미지 무료 생성! 초보자를 위한 xAI 완전 가이드",
+    "description": "Grok Imagine은 2025년 8월, xAI가 선보인 혁신적인 AI 이미지 및 비디오 생성 도구입니다. 텍스트 프롬프트만으로 고품질 이미지를 생성할 수 있으며, 특정 조건 하에 최대 15초 길이의 비디오 생성도 가능하여 많은 이들의 관심을 받고 있죠. 오늘 이 가이드에서는 Grok Imagine의 모든 것을 초보자의 눈높이에 맞춰 쉽고 자세하게 알려드릴게요! 지금 바로 당신의 상상을 현실로 만들어 보세요.\n  Grok Imagine, 당신의 상상을 현실로 바꾸는 AI!\n\n\nAI 기술이 발전하는 속도를 보면 정말 놀랍다는 생각밖에 들지 않아요. 특히 최근에 일론 머스크의 xAI가 2025년 8월에 정식 출시한 Grok Imagine은 AI 이미지 및 비디오 생성 분야에 새로운 바람을 불어넣고 있는데요. 제 생각엔 이 도구가 꽤나 큰 판도를 바꿀 것 같다는 예감이 듭니다.\nGrok Imagine은 Aurora 모델을 기반으로, 단순한 텍스트 프롬프트만으로도 정말 멋진 고품질 이미지와 최대 15초 길이의 비디오를 만들어낼 수 있어요. 특히 무료 사용자에게도 이미지 생성 기회를 제공한다는 점이 매력적입니다. 하지만 비디오 생성의 경우, 무료 접근이 제한되거나 특정 조건 하에만 가능할 수 있으니 유의해야 합니다.\n  Grok Imagine이 정확히 뭔가요?\n그럼 Grok Imagine이 정확히 어떤 녀석인지 좀 더 깊이 알아볼까요? Grok Imagine은 xAI가 개발한 차세대 멀티모달 AI 도구입니다. 이름에서도 알 수 있듯이, 여러분의 상상(Imagine)을 현실로 만들어주는 역할을 합니다. 간단하게 텍스트만 입력하면, AI가 그 내용을 시각적인 결과물로 변환해주죠.\n이 도구의 핵심은 바로 xAI가 독자적으로 개발한 Aurora 모델에 있습니다. 이 모델은 자기회귀(autoregressive) 혼합 전문가 네트워크 아키텍처를 사용해서 텍스트와 이미지 데이터를 동시에 처리하는 능력을 가지고 있어요. 마치 뇌가 여러 정보를 한 번에 처리하듯이 말이죠. 덕분에 인터넷의 수십억 개에 달하는 방대한 데이터로 훈련되어 세상에 대한 깊은 이해를 갖추고 있습니다.\n\n\n\n \n그래서 어떤 결과물이 나오냐고요? Aurora 모델 덕분에 매우 사실적인 렌더링이 가능하고, 사용자가 원하는 텍스트 명령을 정확하게 수행하는 것이 특징입니다. 심지어 이미지를 생성하는 것뿐만 아니라, 기존에 가지고 있던 이미지를 업로드해서 편집하거나 개선하는 기능까지 제공하니, 활용 범위가 정말 넓다고 볼 수 있습니다. 제가 직접 써보니, 복잡한 프롬프트도 꽤 잘 이해해서 결과물을 내주는 게 인상 깊었습니다.\n  Grok Imagine의 사용 한도 자세히 알아보기\nGrok Imagine의 사용 한도는 무료 사용자와 유료 사용자 간에 차이가 있습니다. 2025년 9월 현재 기준으로, 무료 사용자는 다음과 같은 기능들을 이용할 수 있습니다. 다만, 비디오 생성 기능은 무료 사용자에게는 매우 제한적이거나, 대기 목록 등록 또는 유료 구독이 필요할 수 있습니다.\n  팁: Grok Imagine의 사용 한도는 2시간 롤링 윈도우 방식으로 적용됩니다. 이는 주로 이미지 생성에 해당하며, 생성 후 2시간이 지나면 다시 사용 한도가 채워진다는 의미입니다. 비디오 생성은 무료 사용자에게 제한적일 수 있습니다.\n이미지 생성 한도\n일부 소스에 따르면 무료 사용자는 2시간마다 약 10개의 이미지를 생성할 수 있지만, 일일 총 생성 한도는 3~10개 사이로 제한될 수 있습니다. 이는 '캘린더 데이' 기준과 '2시간 롤링 윈도우' 방식 간의 혼동으로 보입니다.\n최대 1024x1024 해상도까지 지원하여 고품질 이미지를 얻을 수 있습니다.\n비디오 생성 한도\n무료 사용자에게 비디오 생성 기능은 매우 제한적이거나 이용이 불가능할 수 있습니다. 대부분의 경우, 비디오 생성은 유료 구독 플랜에 포함되어 있거나 대기 목록을 통해 접근이 가능합니다. (이전 문서에서 언급된 '안드로이드 하루 약 25개, iOS 하루 약 20개'와 같은 구체적인 무료 비디오 한도는 공식적으로 확인되지 않았습니다.)\n비디오 길이는 최대 15초이며, 사운드 포함 여부는 사용 환경에 따라 다를 수 있습니다.\n이미지 분석 한도\n하루 약 3개의 이미지 분석 가능\n\n\n따라서 캐주얼한 이미지 생성 용도로는 여전히 매력적이지만, 비디오 생성의 경우 유료 플랜을 고려해야 할 수 있습니다.\n  더 강력한 기능을 원한다면? 유료 구독 플랜 자세히 보기\n무료 사용자에게도 충분한 기회를 제공하지만, 더 많은 기능과 높은 한도가 필요한 전문가나 헤비 유저를 위해 Grok Imagine은 다양한 유료 구독 플랜을 제공합니다. 제 주변에서도 업무용으로 사용하기 위해 유료 플랜을 고민하는 분들이 꽤 있더라고요.\n플랜\n월 요금\n이미지 생성 (2시간마다)\n비디오 생성 (하루)\n주요 혜택\n\n\n\n\nX Premium\n$8\n50개\n50개\n우선순위 처리\n\n\nX Premium+\n$16\n100개\n100개\n향상된 분석 기능, 광고 제거, 최우선 처리\n\n\nSuperGrok Heavy\nxAI 공식 웹사이트 참조*\n무제한\n500개\nGrok 4 Heavy 모델 접근, 전문가용 고급 기능\n\n\n\n\n* 정확한 가격은 xAI 공식 웹사이트에서 확인해주세요.\nSuperGrok Heavy 플랜의 정확한 가격 정보는 xAI 공식 웹사이트(https://x.ai/grok)에서 확인하시는 것이 가장 정확합니다. 각 플랜마다 제공되는 혜택과 한도가 다르니, 본인의 사용 목적과 빈도에 맞춰 가장 적합한 플랜을 선택하는 것이 중요합니다.\n✨ Grok Imagine의 핵심 기능, 어떤 것들이 있을까요?\nGrok Imagine은 단순히 이미지만 만드는 것을 넘어, 사용자의 편의성과 창작의 자유를 극대화하는 다양한 기능들을 제공합니다. 제가 직접 사용해보면서 느낀 인상 깊었던 몇 가지를 소개해 드릴게요.\n1. 다양한 생성 모드\nGrok Imagine은 사용자의 다양한 니즈에 맞춰 4가지 모드를 제공합니다. 상황에 따라 원하는 모드를 선택하여 최적의 결과물을 얻을 수 있습니다.\nNormal 모드: 일반적인 이미지 및 비디오 생성에 사용합니다.\nFun 모드: 재미있고 유머러스한, 톡톡 튀는 콘텐츠를 만들고 싶을 때 좋습니다.\nCustom 모드: 사용자 정의 옵션으로 더 세밀한 제어가 가능하며, 특정 스타일이나 분위기를 연출할 때 유용합니다.\nSpicy 모드: 성인 콘텐츠 생성이 가능한 모드이지만, 일정 제한이 있으며 사용에 주의가 필요합니다.\n2. 빠른 실시간 생성\n이 기능은 정말 독특하면서도 창의적인데요, 사용자가 화면을 스크롤하기만 해도 새로운 이미지를 빠르게 생성해줍니다. 덕분에 창작자들은 빠르게 다양한 아이디어를 탐색하고, 영감을 얻을 수 있습니다.\n3. 이미지-비디오 변환\n정적인 이미지를 움직이는 비디오로 변환하는 기능은 Grok Imagine의 강력한 특징 중 하나입니다. 기존에 가지고 있던 이미지를 업로드하거나, Grok Imagine으로 생성한 이미지를 선택해서 6~15초 길이의 루핑 비디오로 만들 수 있어요. 여기서 끝이 아닙니다! 자동으로 오디오 트랙을 포함할 수 있으며, 이는 사용 환경에 따라 다를 수 있습니다. 따라서 배경음악 포함 여부는 확인이 필요합니다.\n4. 음성 입력 지원\n텍스트 입력이 번거롭다면? 걱정 마세요! Grok Imagine은 음성 명령으로도 이미지와 비디오를 생성할 수 있습니다. \"Speak\" 버튼을 누르고 원하는 프롬프트를 말하면, AI가 이를 정확하게 해석하여 시각 콘텐츠로 구현해줍니다. 저 같은 경우엔 아이디어가 갑자기 떠올랐을 때 말로 바로 입력할 수 있어서 좋았어요.\n⚔️ 경쟁사 대비 Grok Imagine의 장단점은?\n어떤 AI 도구든 완벽할 수는 없죠. Grok Imagine 역시 장점과 단점을 모두 가지고 있습니다. 다른 유명 AI 이미지 생성 도구들과 비교했을 때 Grok Imagine이 어떤 위치에 있는지 한번 살펴볼까요?\n장점\n제한적이지만 무료 이미지 접근성: MidJourney나 DALL·E 3 같은 서비스는 유료 또는 매우 제한적인 무료 기능을 제공하는 반면, Grok Imagine은 무료 사용자에게도 이미지 생성 기회를 제공합니다. (단, 비디오 생성은 제한적일 수 있습니다.)\n뛰어난 속도: 일론 머스크의 주장에 따르면, 경쟁사들이 이미지 1개를 생성하는 시간에 Grok Imagine은 비디오를 생성할 수 있을 정도로 빠르다고 합니다. 실제로 써보니 체감 속도가 꽤 빨랐습니다.\nX 플랫폼 통합: X(구 트위터) 앱 내에서 바로 콘텐츠를 생성하고 공유할 수 있어 사용이 매우 편리합니다.\n단점\n품질 한계: 아직까지는 Google Veo 3나 OpenAI Sora 같은 최상위 모델과 비교했을 때 비디오 품질이 다소 떨어진다는 평가가 있습니다. 하지만 계속 개선될 것이라고 믿습니다.\n지역 제한: 아쉽게도 일부 기능은 현재 미국에서만 사용 가능합니다. 빨리 전 세계로 확장되기를 바라는 마음입니다.\n안전성 우려: \"Spicy 모드\"로 인해 부적절한 콘텐츠가 생성될 가능성이 있다는 우려도 제기되고 있습니다. 사용 시 주의가 필요해요.\n\n\n⚠️ 주의: Grok Imagine의 'Spicy 모드'는 성인 콘텐츠 생성이 가능합니다. 이 기능은 신중하게 사용해야 하며, 부적절한 콘텐츠를 생성하거나 공유하지 않도록 각별히 유의해주세요.\n  Grok Imagine, 이렇게 사용하면 돼요! (초보자 가이드)\n자, 이제 Grok Imagine을 직접 사용해볼 차례입니다. 어렵지 않으니, 저와 함께 차근차근 따라 해 볼까요?\n1. 앱 설치 및 설정\niOS App Store 또는 Google Play Store에서 \"Grok\"을 검색하여 설치합니다.\nX(구 트위터) 계정으로 간편하게 로그인할 수 있습니다.\n최신 버전으로 업데이트되어 있는지 확인하는 것이 중요합니다.\n2. 이미지 생성하기\n앱 상단에 있는 \"Imagine\" 탭을 선택합니다.\n\"Type to Imagine\" 입력창에 여러분이 상상하는 이미지를 텍스트로 자세히 입력합니다. (프롬프트 작성법은 아래에서 더 자세히 다룰게요!)\n원하는 생성 모드(Normal, Fun, Custom, Spicy)를 선택합니다.\n몇 초만 기다리면 AI가 생성한 멋진 이미지 결과물을 확인할 수 있습니다.\n화면을 스크롤하면 추가적인 변형 이미지들이 자동으로 생성되니, 마음에 드는 이미지가 나올 때까지 계속 찾아볼 수 있습니다.\n3. 비디오 생성하기\n생성된 이미지 하단의 \"Make Video\" 버튼을 클릭합니다.\n또는 기존 이미지를 업로드한 후 비디오 변환 기능을 이용할 수도 있습니다.\nGrok Imagine이 6~15초 길이의 루핑 비디오를 생성해줍니다. 오디오 트랙 포함 여부는 사용 환경에 따라 다를 수 있습니다.\n생성된 비디오는 바로 공유하거나 다운로드하여 다양한 곳에 활용할 수 있습니다.\n  활용 팁과 모범 사례로 더 멋진 결과물 만들기\nAI 이미지 생성 도구는 프롬프트가 핵심입니다. 어떤 명령어를 입력하느냐에 따라 결과물의 퀄리티가 천차만별로 달라지죠. 저도 처음에는 시행착오를 많이 겪었는데, 몇 가지 팁만 알아도 정말 만족스러운 결과물을 얻을 수 있습니다.\n효과적인 프롬프트 작성법\n구체적이고 상세한 설명: \"고양이\"보다는 \"파란 눈을 가진 흰 털의 페르시안 고양이가 햇살이 비치는 창가에 앉아있는 모습, 털 한 올 한 올이 선명하게 보이는 하이퍼리얼리스틱 스타일\"처럼 최대한 자세히 묘사할수록 AI가 여러분의 의도를 정확히 파악합니다.\n스타일 키워드 포함: \"hyperrealistic\", \"anime style\", \"watercolor painting\", \"pixel art\" 등 원하는 시각적 스타일을 명시하면 결과물의 분위기를 쉽게 조절할 수 있습니다.\n조명과 구도 명시: \"golden hour lighting\", \"close-up portrait\", \"wide angle shot\", \"dramatic lighting\" 등 조명과 카메라 구도를 구체적으로 언급하여 더욱 전문적인 결과물을 만들어 보세요.\n무료 사용량 최적화 전략\n무료 사용 한도를 최대한 효율적으로 활용하는 것도 중요하겠죠? 몇 가지 전략을 소개해 드릴게요.\n배치 프롬프트 활용: 여러 아이디어를 하나의 프롬프트에 결합하거나, 한 번에 여러 개의 이미지를 요청하여 효율성을 높일 수 있습니다.\n시간대 고려: 사용량이 적은 시간대(예: 심야 시간)에 집중적으로 사용하는 것도 하나의 방법입니다.\n우선순위 설정: 중요한 작업을 위해 한도를 미리 보존해두는 습관을 들이세요. 급하게 필요한 이미지가 있다면 먼저 생성하는 거죠.\n\n\n  Grok Imagine의 빛나는 미래, 다음은 무엇일까?\nxAI는 Grok Imagine이 \"거의 매일 개선될 것\"이라고 발표했습니다. 이 말은 즉, 현재의 장점은 더욱 강화되고, 단점은 빠르게 보완될 것이라는 희망적인 메시지라고 생각합니다. 저도 매일매일 어떤 새로운 기능이 추가될지 기대가 큽니다.\n예정된 기능\n더 긴 비디오 생성: 현재 15초 길이에 만족하지 않고, 더욱 긴 길이의 비디오를 생성할 수 있도록 확장될 예정입니다. (텍스트-투-비디오 기능 확장도 2025년 10월에 예정되어 있습니다.) 짧은 영상 콘텐츠 제작에는 아주 큰 도움이 될 거예요.\n웹 버전 출시: 현재는 모바일 앱 전용이지만, 조만간 웹 브라우저에서도 Grok Imagine을 이용할 수 있게 되어 접근성이 더욱 높아질 것으로 보입니다.\n고급 편집 도구: 인페인팅(inpainting)이나 아웃페인팅(outpainting) 같은 고급 이미지 수정 기능들이 추가될 예정입니다. 이는 전문가들에게 특히 반가운 소식일 겁니다.\n커스텀 스타일 훈련: 사용자가 원하는 특정 스타일을 AI에 학습시켜 자신만의 고유한 스타일로 이미지를 생성할 수 있는 fine-tuning 기능도 기대됩니다.\n글로벌 확장\n현재 일부 기능이 미국에 한정되어 있어 아쉬움을 느끼는 분들이 많을 텐데요. xAI는 전 세계 사용자로의 확장을 적극적으로 추진하고 있습니다. 머지않아 한국 사용자들도 모든 기능을 제한 없이 이용할 수 있을 것으로 전망되니, 조금만 더 기다려봐야 할 것 같아요.\n  핵심 요약\n1. 제한적인 무료 이미지 생성 기회: 무료 사용자에게 이미지 생성 기회를 제공하지만, 비디오 생성은 매우 제한적이거나 유료 구독이 필요할 수 있습니다.\n2. Aurora 모델 기반: xAI의 독자 기술로 사실적인 렌더링과 정확한 명령 수행이 가능.\n3. 이미지-비디오 변환 기능: 정적인 이미지를 15초 길이의 비디오로 변환하며, 오디오 트랙 포함 여부는 사용 환경에 따라 다를 수 있습니다.\n4. X 플랫폼 통합 및 빠른 속도: X 앱 내에서 편리하게 생성 및 공유, 경쟁사 대비 뛰어난 생성 속도.\n*본 내용은 2025년 9월 26일 기준 최신 정보를 바탕으로 작성되었습니다.\n❓ 자주 묻는 질문 (FAQ)\nGrok Imagine에 대해 자주 묻는 질문들을 모아봤습니다. 궁금증 해결에 도움이 되길 바랍니다.\nGrok Imagine은 완전히 무료인가요?\nGrok Imagine은 무료 사용자에게 이미지 생성 기회를 제공합니다. 하지만 비디오 생성은 매우 제한적이거나, 대기 목록 등록 또는 유료 구독이 필요할 수 있습니다. 이미지 생성의 경우, 2시간마다 한도가 재설정되는 롤링 윈도우 방식이 적용되지만, 일일 총 생성 한도는 제한될 수 있습니다. 더 많은 기능과 높은 한도를 원한다면 유료 구독 플랜을 이용할 수 있습니다.\nGrok Imagine으로 생성된 비디오는 어느 정도 길이인가요?\n현재 Grok Imagine은 최대 15초 길이의 루핑 비디오를 생성할 수 있습니다. 오디오 트랙 포함 여부는 사용 환경에 따라 다를 수 있습니다. xAI는 앞으로 더 긴 길이의 비디오 생성 기능도 추가할 예정이라고 합니다.\nGrok Imagine을 사용하려면 X(구 트위터) 계정이 필수인가요?\n네, Grok Imagine은 X 앱 내에서 서비스되는 도구이므로, X 계정을 통한 로그인이 필수입니다. X 계정만 있다면 누구나 쉽게 Grok Imagine을 시작할 수 있습니다.\nGrok Imagine은 AI 이미지 및 비디오 생성 분야에서 접근성과 혁신을 동시에 실현한 정말 주목할 만한 도구라고 생각합니다. 특히 무료 사용자에게도 이미지 생성 기회를 제공하며, 15초 길이의 비디오 생성(오디오 트랙 포함 여부는 환경에 따라 다름)이 가능하다는 점은 매력적이죠.\n물론 품질 면에서는 Google Veo 3나 OpenAI Sora 같은 최상위 경쟁사 대비 아직 개선의 여지가 있는 것이 사실입니다. 하지만 제한적인 무료 이미지 접근성, 빠른 생성 속도, X 플랫폼과의 완벽한 통합이라는 강력한 장점 덕분에 많은 사용자들의 관심을 한몸에 받고 있습니다. 제 생각엔 창작자, 학생, 그리고 소규모 비즈니스 운영자들에게는 정말 비용 효율적인 훌륭한 대안이 될 수 있을 거예요.\nxAI의 발표처럼 Grok Imagine은 \"거의 매일 개선될 것\"이라고 하니, 앞으로 어떤 놀라운 업데이트가 이루어질지 정말 기대가 큽니다. 이미지 생성은 무료로 시작할 수 있는 만큼, AI 이미지 및 비디오 생성에 관심 있는 분들이라면 주저하지 말고 지금 바로 Grok Imagine을 경험해보시길 강력히 추천합니다! 여러분의 상상력을 마음껏 펼쳐보세요.\n⁂",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483659",
-    "pubDate": "Tue, 23 Sep 2025 15:51:43 +0900",
+    "link": "http://muzbox.tistory.com/483660",
+    "pubDate": "Fri, 26 Sep 2025 10:51:53 +0900",
     "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
       "AI, 미래기술/AI 인사이트",
-      "AI 네이티브 컴퍼니",
-      "GPT-5 카카오톡",
-      "온디바이스 AI",
-      "카나나 AI",
-      "카카오 AI 통합",
-      "카카오 OpenAI 제휴",
-      "카카오 에이전트",
-      "카카오톡 ChatGPT",
-      "카카오톡 메시지 수정",
-      "카카오톡 업데이트 2025"
+      "AI 비디오 생성",
+      "AI 이미지 생성",
+      "ai 콘텐츠 제작",
+      "Aurora 모델",
+      "Grok Imagine",
+      "Grok 앱",
+      "XAI",
+      "무료 ai 툴",
+      "일론 머스크 ai",
+      "텍스트-비디오 변환"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Compose Multiplatform 1.9.0 Released: Compose Multiplatform for Web Goes Beta",
-    "description": "Compose Multiplatform for web, powered by Wasm, is now in Beta! This major milestone shows that Compose Multiplatform for web is no longer just experimental, but ready for real-world use by early adopters. This is more than a technical step forward. It’s a community achievement, made possible by feedback from early adopters of the Alpha […]",
+    "title": "From AI-Generated to Production-Ready Code: WebStorm Refactorings for the Modern Workflow",
+    "description": "We’ve all been there. You ask your AI tool to generate a React component, and the initial result works perfectly in the beginning. The AI gives you a functional 250-line component that gets the job done quickly and is exactly what you need for rapid prototyping. But even though AI does indeed excel at generating […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/09/compose-multiplatform-1-9-0-compose-for-web-beta/",
-    "pubDate": "Mon, 22 Sep 2025 10:45:12 +0000",
-    "creator": "Ekaterina Volodko",
+    "link": "https://blog.jetbrains.com/webstorm/2025/09/from-ai-generated-to-production-ready-code-webstorm-refactorings-for-the-modern-workflow/",
+    "pubDate": "Tue, 23 Sep 2025 14:15:39 +0000",
+    "creator": "Jan-Niklas Wortmann",
     "categories": [
-      "multiplatform",
-      "compose-for-web",
-      "compose-multiplatform"
+      "tips-tricks",
+      "refactorings"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Supercharging Unit Test Generation with in-IDE TestSpark",
-    "description": "Test generation is an essential yet time-consuming part of quality assurance. Automating test-generation techniques means accelerating the development process and improving the quality of the final software. However, traditional automated techniques, and their respective tools, are not usually user-friendly, having a command-line interface and not being integrated with the IDE. To boost acceleration and quality […]",
+    "title": "Continuing Positive Impact: This Year’s AI4SE Interns in their New Roles at JetBrains",
+    "description": "In our last post, we introduced the talented intern cohort from our AI for Software Engineering (AI4SE) research partnership with Delft University of Technology (TU Delft). In this post, we’re excited to spotlight the next chapter in their journey: their evolution from interns to full-time members of our tech team. As interns, they didn’t just […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2025/09/testspark-unit-test-generation/",
-    "pubDate": "Tue, 23 Sep 2025 11:13:56 +0000",
+    "link": "https://blog.jetbrains.com/research/2025/09/ai4se-interns-employees-part-2/",
+    "pubDate": "Thu, 25 Sep 2025 14:37:14 +0000",
     "creator": "Katie Fraser",
     "categories": [
-      "idea",
+      "news",
       "research",
-      "testing",
-      "intellij-idea",
-      "jetbrains-research",
-      "test-generation"
+      "ai4se",
+      "interns",
+      "interviews"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "AI 시대, 내 경쟁력은 어디서 찾아야 할까?",
-    "description": "[살아남는 노동] 기술의 속도를 따라잡는 것 보다 더 중요한 ‘이것’",
+    "title": "Enhancements to XAML Live Preview in Visual Studio for .NET MAUI",
+    "description": "The XAML Live Preview feature in Visual Studio 2022 version 17.14 introduces a significant usability improvement for .NET MAUI projects: the XAML Live Preview window is now available during design time, eliminating the requirement to initiate a debug session. This change streamlines the UI development workflow for .NET MAUI applications. Design-Time Availability Previously, XAML Live […]\nThe post Enhancements to XAML Live Preview in Visual Studio for .NET MAUI appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosspick-2025-3a",
-    "pubDate": "Tue, 23 Sep 2025 00:34:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/visualstudio/enhancements-to-xaml-live-preview-in-visual-studio-for-net-maui/",
+    "pubDate": "Mon, 22 Sep 2025 17:26:51 +0000",
+    "creator": "Rachel Kang (SHE/HER)",
+    "categories": [
+      "GitHub Copilot",
+      "Visual Studio",
+      ".NET MAUI",
+      "XAML"
+    ]
   }
 ]
