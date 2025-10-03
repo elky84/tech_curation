@@ -2,37 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "[책 리뷰] 밑바닥부터 만들면서 배우는 LLM",
-    "description": "해당 도서는 길벗 출판사의 리뷰이벤트로 증정받았습니다. OpenAI에서 GPT가 나온이후로, 수 많은 LLM(Large Language Model)이 나오게 되었습니다. llama나 deepseek, qwen과 같은 sLM 까지 포함하면 굉장히 빠르게 발전하고 있는 분야가 이 부분입니다. 현재 AI 프로젝트라고 하면 대부분 이런 LLM이나 sLM을 이용한 결과를 내는 것이 대부분입니다. 그렇다면 모두가 LLM을 정확히 이해해야 하는가라고 물어보면 사실 그런건 아닙니다. 그런데, LLM을 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://charsyam.wordpress.com/2025/09/29/%ec%b1%85-%eb%a6%ac%eb%b7%b0-%eb%b0%91%eb%b0%94%eb%8b%a5%eb%b6%80%ed%84%b0-%eb%a7%8c%eb%93%a4%eb%a9%b4%ec%84%9c-%eb%b0%b0%ec%9a%b0%eb%8a%94-llm/",
-    "pubDate": "Mon, 29 Sep 2025 16:01:11 +0000",
-    "creator": "charsyam",
-    "categories": [
-      "Uncategorized"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "“I tried out JetBrains’ code analysis tool Qodana”",
-    "description": "This is the English version of the Japanese article first published by Jan Maki on Qiita. This post was not commissioned by Qodana and was written independently. For more information please reach out to them in the comments or via their link tree. Qodana is JetBrains’ code analysis platform for quality and aspects of code […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/09/i-tried-out-jetbrains-code-analysis-tool-qodana/",
-    "pubDate": "Mon, 29 Sep 2025 12:59:55 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "ai",
-      "use-case",
-      "qodana",
-      "static-code-analysis"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
     "title": "퇴직연금은 이걸로 (0111P0) 1Q 미국나스닥100 미국채혼합50액티브",
     "description": "영상: https://www.youtube.com/watch?v=ePqmiTTJcBY\n\n\n\n현재 채권도 바닥이라 좋고\nAI 때문에 나스닥도 좋습니다.\n그리고 한국은 확장 재정 지출 때문에 원화가치가 하락합니다.\n \n그래서 이 상품에 들어가기 좋습니다.\n채권 / 기술주 / 달러 \n다 들어가 있습니다.\n \n특히 퇴직연금은 채권도 30% 정도 사야되서 모든 현금을 다 투자하려면 이걸 많이사는 것이 좋습니다.\n \n퇴직연금아니고 일반계좌라면 채권혼합된거 굳이 사실 필요 없습니다.\n하락시기에 물타는 기술만 좋다면\n그냥 나스닥100 사는게 효율이 더 좋습니다.",
     "reviews": [],
@@ -48,87 +17,47 @@
     ]
   },
   {
+    "id": 2,
+    "imageUrl": "",
+    "title": "LLMs Are the Key to Mutation Testing and Better Compliance",
+    "description": "Following our keynote presentations at FSE 2025 and Eurostar 2025, we’re delving further into the development of Meta’s Automated Compliance Hardening (ACH) tool, an LLM-based tool for software testing that is automating aspects of compliance adherence at Meta, while accelerating developer and product velocity. By leveraging LLMs we’ve been able to overcome the barriers that [...]\nRead More...\nThe post LLMs Are the Key to Mutation Testing and Better Compliance appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/09/30/security/llms-are-the-key-to-mutation-testing-and-better-compliance/",
+    "pubDate": "Tue, 30 Sep 2025 16:00:08 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "AI Research",
+      "ML Applications",
+      "Security & Privacy"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Grok Imagine으로 AI 영상&middot;이미지 무료 생성! 초보자를 위한 xAI 완전 가이드",
+    "description": "Grok Imagine은 2025년 8월, xAI가 선보인 혁신적인 AI 이미지 및 비디오 생성 도구입니다. 텍스트 프롬프트만으로 고품질 이미지를 생성할 수 있으며, 특정 조건 하에 최대 15초 길이의 비디오 생성도 가능하여 많은 이들의 관심을 받고 있죠. 오늘 이 가이드에서는 Grok Imagine의 모든 것을 초보자의 눈높이에 맞춰 쉽고 자세하게 알려드릴게요! 지금 바로 당신의 상상을 현실로 만들어 보세요.\n  Grok Imagine, 당신의 상상을 현실로 바꾸는 AI!\n\n\nAI 기술이 발전하는 속도를 보면 정말 놀랍다는 생각밖에 들지 않아요. 특히 최근에 일론 머스크의 xAI가 2025년 8월에 정식 출시한 Grok Imagine은 AI 이미지 및 비디오 생성 분야에 새로운 바람을 불어넣고 있는데요. 제 생각엔 이 도구가 꽤나 큰 판도를 바꿀 것 같다는 예감이 듭니다.\nGrok Imagine은 Aurora 모델을 기반으로, 단순한 텍스트 프롬프트만으로도 정말 멋진 고품질 이미지와 최대 15초 길이의 비디오를 만들어낼 수 있어요. 특히 무료 사용자에게도 이미지 생성 기회를 제공한다는 점이 매력적입니다. 하지만 비디오 생성의 경우, 무료 접근이 제한되거나 특정 조건 하에만 가능할 수 있으니 유의해야 합니다.\n  Grok Imagine이 정확히 뭔가요?\n그럼 Grok Imagine이 정확히 어떤 녀석인지 좀 더 깊이 알아볼까요? Grok Imagine은 xAI가 개발한 차세대 멀티모달 AI 도구입니다. 이름에서도 알 수 있듯이, 여러분의 상상(Imagine)을 현실로 만들어주는 역할을 합니다. 간단하게 텍스트만 입력하면, AI가 그 내용을 시각적인 결과물로 변환해주죠.\n이 도구의 핵심은 바로 xAI가 독자적으로 개발한 Aurora 모델에 있습니다. 이 모델은 자기회귀(autoregressive) 혼합 전문가 네트워크 아키텍처를 사용해서 텍스트와 이미지 데이터를 동시에 처리하는 능력을 가지고 있어요. 마치 뇌가 여러 정보를 한 번에 처리하듯이 말이죠. 덕분에 인터넷의 수십억 개에 달하는 방대한 데이터로 훈련되어 세상에 대한 깊은 이해를 갖추고 있습니다.\n\n\n\n \n그래서 어떤 결과물이 나오냐고요? Aurora 모델 덕분에 매우 사실적인 렌더링이 가능하고, 사용자가 원하는 텍스트 명령을 정확하게 수행하는 것이 특징입니다. 심지어 이미지를 생성하는 것뿐만 아니라, 기존에 가지고 있던 이미지를 업로드해서 편집하거나 개선하는 기능까지 제공하니, 활용 범위가 정말 넓다고 볼 수 있습니다. 제가 직접 써보니, 복잡한 프롬프트도 꽤 잘 이해해서 결과물을 내주는 게 인상 깊었습니다.\n  Grok Imagine의 사용 한도 자세히 알아보기\nGrok Imagine의 사용 한도는 무료 사용자와 유료 사용자 간에 차이가 있습니다. 2025년 9월 현재 기준으로, 무료 사용자는 다음과 같은 기능들을 이용할 수 있습니다. 다만, 비디오 생성 기능은 무료 사용자에게는 매우 제한적이거나, 대기 목록 등록 또는 유료 구독이 필요할 수 있습니다.\n  팁: Grok Imagine의 사용 한도는 2시간 롤링 윈도우 방식으로 적용됩니다. 이는 주로 이미지 생성에 해당하며, 생성 후 2시간이 지나면 다시 사용 한도가 채워진다는 의미입니다. 비디오 생성은 무료 사용자에게 제한적일 수 있습니다.\n이미지 생성 한도\n일부 소스에 따르면 무료 사용자는 2시간마다 약 10개의 이미지를 생성할 수 있지만, 일일 총 생성 한도는 3~10개 사이로 제한될 수 있습니다. 이는 '캘린더 데이' 기준과 '2시간 롤링 윈도우' 방식 간의 혼동으로 보입니다.\n최대 1024x1024 해상도까지 지원하여 고품질 이미지를 얻을 수 있습니다.\n비디오 생성 한도\n무료 사용자에게 비디오 생성 기능은 매우 제한적이거나 이용이 불가능할 수 있습니다. 대부분의 경우, 비디오 생성은 유료 구독 플랜에 포함되어 있거나 대기 목록을 통해 접근이 가능합니다. (이전 문서에서 언급된 '안드로이드 하루 약 25개, iOS 하루 약 20개'와 같은 구체적인 무료 비디오 한도는 공식적으로 확인되지 않았습니다.)\n비디오 길이는 최대 15초이며, 사운드 포함 여부는 사용 환경에 따라 다를 수 있습니다.\n이미지 분석 한도\n하루 약 3개의 이미지 분석 가능\n\n\n따라서 캐주얼한 이미지 생성 용도로는 여전히 매력적이지만, 비디오 생성의 경우 유료 플랜을 고려해야 할 수 있습니다.\n  더 강력한 기능을 원한다면? 유료 구독 플랜 자세히 보기\n무료 사용자에게도 충분한 기회를 제공하지만, 더 많은 기능과 높은 한도가 필요한 전문가나 헤비 유저를 위해 Grok Imagine은 다양한 유료 구독 플랜을 제공합니다. 제 주변에서도 업무용으로 사용하기 위해 유료 플랜을 고민하는 분들이 꽤 있더라고요.\n플랜\n월 요금\n이미지 생성 (2시간마다)\n비디오 생성 (하루)\n주요 혜택\n\n\n\n\nX Premium\n$8\n50개\n50개\n우선순위 처리\n\n\nX Premium+\n$16\n100개\n100개\n향상된 분석 기능, 광고 제거, 최우선 처리\n\n\nSuperGrok Heavy\nxAI 공식 웹사이트 참조*\n무제한\n500개\nGrok 4 Heavy 모델 접근, 전문가용 고급 기능\n\n\n\n\n* 정확한 가격은 xAI 공식 웹사이트에서 확인해주세요.\nSuperGrok Heavy 플랜의 정확한 가격 정보는 xAI 공식 웹사이트(https://x.ai/grok)에서 확인하시는 것이 가장 정확합니다. 각 플랜마다 제공되는 혜택과 한도가 다르니, 본인의 사용 목적과 빈도에 맞춰 가장 적합한 플랜을 선택하는 것이 중요합니다.\n✨ Grok Imagine의 핵심 기능, 어떤 것들이 있을까요?\nGrok Imagine은 단순히 이미지만 만드는 것을 넘어, 사용자의 편의성과 창작의 자유를 극대화하는 다양한 기능들을 제공합니다. 제가 직접 사용해보면서 느낀 인상 깊었던 몇 가지를 소개해 드릴게요.\n1. 다양한 생성 모드\nGrok Imagine은 사용자의 다양한 니즈에 맞춰 4가지 모드를 제공합니다. 상황에 따라 원하는 모드를 선택하여 최적의 결과물을 얻을 수 있습니다.\nNormal 모드: 일반적인 이미지 및 비디오 생성에 사용합니다.\nFun 모드: 재미있고 유머러스한, 톡톡 튀는 콘텐츠를 만들고 싶을 때 좋습니다.\nCustom 모드: 사용자 정의 옵션으로 더 세밀한 제어가 가능하며, 특정 스타일이나 분위기를 연출할 때 유용합니다.\nSpicy 모드: 성인 콘텐츠 생성이 가능한 모드이지만, 일정 제한이 있으며 사용에 주의가 필요합니다.\n2. 빠른 실시간 생성\n이 기능은 정말 독특하면서도 창의적인데요, 사용자가 화면을 스크롤하기만 해도 새로운 이미지를 빠르게 생성해줍니다. 덕분에 창작자들은 빠르게 다양한 아이디어를 탐색하고, 영감을 얻을 수 있습니다.\n3. 이미지-비디오 변환\n정적인 이미지를 움직이는 비디오로 변환하는 기능은 Grok Imagine의 강력한 특징 중 하나입니다. 기존에 가지고 있던 이미지를 업로드하거나, Grok Imagine으로 생성한 이미지를 선택해서 6~15초 길이의 루핑 비디오로 만들 수 있어요. 여기서 끝이 아닙니다! 자동으로 오디오 트랙을 포함할 수 있으며, 이는 사용 환경에 따라 다를 수 있습니다. 따라서 배경음악 포함 여부는 확인이 필요합니다.\n4. 음성 입력 지원\n텍스트 입력이 번거롭다면? 걱정 마세요! Grok Imagine은 음성 명령으로도 이미지와 비디오를 생성할 수 있습니다. \"Speak\" 버튼을 누르고 원하는 프롬프트를 말하면, AI가 이를 정확하게 해석하여 시각 콘텐츠로 구현해줍니다. 저 같은 경우엔 아이디어가 갑자기 떠올랐을 때 말로 바로 입력할 수 있어서 좋았어요.\n⚔️ 경쟁사 대비 Grok Imagine의 장단점은?\n어떤 AI 도구든 완벽할 수는 없죠. Grok Imagine 역시 장점과 단점을 모두 가지고 있습니다. 다른 유명 AI 이미지 생성 도구들과 비교했을 때 Grok Imagine이 어떤 위치에 있는지 한번 살펴볼까요?\n장점\n제한적이지만 무료 이미지 접근성: MidJourney나 DALL·E 3 같은 서비스는 유료 또는 매우 제한적인 무료 기능을 제공하는 반면, Grok Imagine은 무료 사용자에게도 이미지 생성 기회를 제공합니다. (단, 비디오 생성은 제한적일 수 있습니다.)\n뛰어난 속도: 일론 머스크의 주장에 따르면, 경쟁사들이 이미지 1개를 생성하는 시간에 Grok Imagine은 비디오를 생성할 수 있을 정도로 빠르다고 합니다. 실제로 써보니 체감 속도가 꽤 빨랐습니다.\nX 플랫폼 통합: X(구 트위터) 앱 내에서 바로 콘텐츠를 생성하고 공유할 수 있어 사용이 매우 편리합니다.\n단점\n품질 한계: 아직까지는 Google Veo 3나 OpenAI Sora 같은 최상위 모델과 비교했을 때 비디오 품질이 다소 떨어진다는 평가가 있습니다. 하지만 계속 개선될 것이라고 믿습니다.\n지역 제한: 아쉽게도 일부 기능은 현재 미국에서만 사용 가능합니다. 빨리 전 세계로 확장되기를 바라는 마음입니다.\n안전성 우려: \"Spicy 모드\"로 인해 부적절한 콘텐츠가 생성될 가능성이 있다는 우려도 제기되고 있습니다. 사용 시 주의가 필요해요.\n\n\n⚠️ 주의: Grok Imagine의 'Spicy 모드'는 성인 콘텐츠 생성이 가능합니다. 이 기능은 신중하게 사용해야 하며, 부적절한 콘텐츠를 생성하거나 공유하지 않도록 각별히 유의해주세요.\n  Grok Imagine, 이렇게 사용하면 돼요! (초보자 가이드)\n자, 이제 Grok Imagine을 직접 사용해볼 차례입니다. 어렵지 않으니, 저와 함께 차근차근 따라 해 볼까요?\n1. 앱 설치 및 설정\niOS App Store 또는 Google Play Store에서 \"Grok\"을 검색하여 설치합니다.\nX(구 트위터) 계정으로 간편하게 로그인할 수 있습니다.\n최신 버전으로 업데이트되어 있는지 확인하는 것이 중요합니다.\n2. 이미지 생성하기\n앱 상단에 있는 \"Imagine\" 탭을 선택합니다.\n\"Type to Imagine\" 입력창에 여러분이 상상하는 이미지를 텍스트로 자세히 입력합니다. (프롬프트 작성법은 아래에서 더 자세히 다룰게요!)\n원하는 생성 모드(Normal, Fun, Custom, Spicy)를 선택합니다.\n몇 초만 기다리면 AI가 생성한 멋진 이미지 결과물을 확인할 수 있습니다.\n화면을 스크롤하면 추가적인 변형 이미지들이 자동으로 생성되니, 마음에 드는 이미지가 나올 때까지 계속 찾아볼 수 있습니다.\n3. 비디오 생성하기\n생성된 이미지 하단의 \"Make Video\" 버튼을 클릭합니다.\n또는 기존 이미지를 업로드한 후 비디오 변환 기능을 이용할 수도 있습니다.\nGrok Imagine이 6~15초 길이의 루핑 비디오를 생성해줍니다. 오디오 트랙 포함 여부는 사용 환경에 따라 다를 수 있습니다.\n생성된 비디오는 바로 공유하거나 다운로드하여 다양한 곳에 활용할 수 있습니다.\n  활용 팁과 모범 사례로 더 멋진 결과물 만들기\nAI 이미지 생성 도구는 프롬프트가 핵심입니다. 어떤 명령어를 입력하느냐에 따라 결과물의 퀄리티가 천차만별로 달라지죠. 저도 처음에는 시행착오를 많이 겪었는데, 몇 가지 팁만 알아도 정말 만족스러운 결과물을 얻을 수 있습니다.\n효과적인 프롬프트 작성법\n구체적이고 상세한 설명: \"고양이\"보다는 \"파란 눈을 가진 흰 털의 페르시안 고양이가 햇살이 비치는 창가에 앉아있는 모습, 털 한 올 한 올이 선명하게 보이는 하이퍼리얼리스틱 스타일\"처럼 최대한 자세히 묘사할수록 AI가 여러분의 의도를 정확히 파악합니다.\n스타일 키워드 포함: \"hyperrealistic\", \"anime style\", \"watercolor painting\", \"pixel art\" 등 원하는 시각적 스타일을 명시하면 결과물의 분위기를 쉽게 조절할 수 있습니다.\n조명과 구도 명시: \"golden hour lighting\", \"close-up portrait\", \"wide angle shot\", \"dramatic lighting\" 등 조명과 카메라 구도를 구체적으로 언급하여 더욱 전문적인 결과물을 만들어 보세요.\n무료 사용량 최적화 전략\n무료 사용 한도를 최대한 효율적으로 활용하는 것도 중요하겠죠? 몇 가지 전략을 소개해 드릴게요.\n배치 프롬프트 활용: 여러 아이디어를 하나의 프롬프트에 결합하거나, 한 번에 여러 개의 이미지를 요청하여 효율성을 높일 수 있습니다.\n시간대 고려: 사용량이 적은 시간대(예: 심야 시간)에 집중적으로 사용하는 것도 하나의 방법입니다.\n우선순위 설정: 중요한 작업을 위해 한도를 미리 보존해두는 습관을 들이세요. 급하게 필요한 이미지가 있다면 먼저 생성하는 거죠.\n\n\n  Grok Imagine의 빛나는 미래, 다음은 무엇일까?\nxAI는 Grok Imagine이 \"거의 매일 개선될 것\"이라고 발표했습니다. 이 말은 즉, 현재의 장점은 더욱 강화되고, 단점은 빠르게 보완될 것이라는 희망적인 메시지라고 생각합니다. 저도 매일매일 어떤 새로운 기능이 추가될지 기대가 큽니다.\n예정된 기능\n더 긴 비디오 생성: 현재 15초 길이에 만족하지 않고, 더욱 긴 길이의 비디오를 생성할 수 있도록 확장될 예정입니다. (텍스트-투-비디오 기능 확장도 2025년 10월에 예정되어 있습니다.) 짧은 영상 콘텐츠 제작에는 아주 큰 도움이 될 거예요.\n웹 버전 출시: 현재는 모바일 앱 전용이지만, 조만간 웹 브라우저에서도 Grok Imagine을 이용할 수 있게 되어 접근성이 더욱 높아질 것으로 보입니다.\n고급 편집 도구: 인페인팅(inpainting)이나 아웃페인팅(outpainting) 같은 고급 이미지 수정 기능들이 추가될 예정입니다. 이는 전문가들에게 특히 반가운 소식일 겁니다.\n커스텀 스타일 훈련: 사용자가 원하는 특정 스타일을 AI에 학습시켜 자신만의 고유한 스타일로 이미지를 생성할 수 있는 fine-tuning 기능도 기대됩니다.\n글로벌 확장\n현재 일부 기능이 미국에 한정되어 있어 아쉬움을 느끼는 분들이 많을 텐데요. xAI는 전 세계 사용자로의 확장을 적극적으로 추진하고 있습니다. 머지않아 한국 사용자들도 모든 기능을 제한 없이 이용할 수 있을 것으로 전망되니, 조금만 더 기다려봐야 할 것 같아요.\n  핵심 요약\n1. 제한적인 무료 이미지 생성 기회: 무료 사용자에게 이미지 생성 기회를 제공하지만, 비디오 생성은 매우 제한적이거나 유료 구독이 필요할 수 있습니다.\n2. Aurora 모델 기반: xAI의 독자 기술로 사실적인 렌더링과 정확한 명령 수행이 가능.\n3. 이미지-비디오 변환 기능: 정적인 이미지를 15초 길이의 비디오로 변환하며, 오디오 트랙 포함 여부는 사용 환경에 따라 다를 수 있습니다.\n4. X 플랫폼 통합 및 빠른 속도: X 앱 내에서 편리하게 생성 및 공유, 경쟁사 대비 뛰어난 생성 속도.\n*본 내용은 2025년 9월 26일 기준 최신 정보를 바탕으로 작성되었습니다.\n❓ 자주 묻는 질문 (FAQ)\nGrok Imagine에 대해 자주 묻는 질문들을 모아봤습니다. 궁금증 해결에 도움이 되길 바랍니다.\nGrok Imagine은 완전히 무료인가요?\nGrok Imagine은 무료 사용자에게 이미지 생성 기회를 제공합니다. 하지만 비디오 생성은 매우 제한적이거나, 대기 목록 등록 또는 유료 구독이 필요할 수 있습니다. 이미지 생성의 경우, 2시간마다 한도가 재설정되는 롤링 윈도우 방식이 적용되지만, 일일 총 생성 한도는 제한될 수 있습니다. 더 많은 기능과 높은 한도를 원한다면 유료 구독 플랜을 이용할 수 있습니다.\nGrok Imagine으로 생성된 비디오는 어느 정도 길이인가요?\n현재 Grok Imagine은 최대 15초 길이의 루핑 비디오를 생성할 수 있습니다. 오디오 트랙 포함 여부는 사용 환경에 따라 다를 수 있습니다. xAI는 앞으로 더 긴 길이의 비디오 생성 기능도 추가할 예정이라고 합니다.\nGrok Imagine을 사용하려면 X(구 트위터) 계정이 필수인가요?\n네, Grok Imagine은 X 앱 내에서 서비스되는 도구이므로, X 계정을 통한 로그인이 필수입니다. X 계정만 있다면 누구나 쉽게 Grok Imagine을 시작할 수 있습니다.\nGrok Imagine은 AI 이미지 및 비디오 생성 분야에서 접근성과 혁신을 동시에 실현한 정말 주목할 만한 도구라고 생각합니다. 특히 무료 사용자에게도 이미지 생성 기회를 제공하며, 15초 길이의 비디오 생성(오디오 트랙 포함 여부는 환경에 따라 다름)이 가능하다는 점은 매력적이죠.\n물론 품질 면에서는 Google Veo 3나 OpenAI Sora 같은 최상위 경쟁사 대비 아직 개선의 여지가 있는 것이 사실입니다. 하지만 제한적인 무료 이미지 접근성, 빠른 생성 속도, X 플랫폼과의 완벽한 통합이라는 강력한 장점 덕분에 많은 사용자들의 관심을 한몸에 받고 있습니다. 제 생각엔 창작자, 학생, 그리고 소규모 비즈니스 운영자들에게는 정말 비용 효율적인 훌륭한 대안이 될 수 있을 거예요.\nxAI의 발표처럼 Grok Imagine은 \"거의 매일 개선될 것\"이라고 하니, 앞으로 어떤 놀라운 업데이트가 이루어질지 정말 기대가 큽니다. 이미지 생성은 무료로 시작할 수 있는 만큼, AI 이미지 및 비디오 생성에 관심 있는 분들이라면 주저하지 말고 지금 바로 Grok Imagine을 경험해보시길 강력히 추천합니다! 여러분의 상상력을 마음껏 펼쳐보세요.\n⁂",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483660",
+    "pubDate": "Fri, 26 Sep 2025 10:51:53 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "AI 비디오 생성",
+      "AI 이미지 생성",
+      "ai 콘텐츠 제작",
+      "Aurora 모델",
+      "Grok Imagine",
+      "Grok 앱",
+      "XAI",
+      "무료 ai 툴",
+      "일론 머스크 ai",
+      "텍스트-비디오 변환"
+    ]
+  },
+  {
     "id": 4,
-    "imageUrl": "",
-    "title": "유전자 단백질 분석을 위한 알파폴드 모델과 GNN 관계, 그리고 동작 메커니즘",
-    "description": "이 글은 구글 딥마인드(DeepMind)가 개발하여 생명과학계에 혁신을 가져온 단백질 3차원 구조 예측 모델, 알파폴드2(AlphaFold2)의 핵심 딥러닝 아키텍처를 정리한다. \n\n\n\nHighly accurate protein structure prediction with AlphaFold | Nature\n\n알파폴드2의 성공은 트랜스포머(Transformer)의 어텐션 메커니즘을 그래프 신경망(GNN)의 관계형 추론 프레임워크에 통합하고, 3차원 공간적 제약을 직접 모델링한 결과물이다. 이 글은 알파폴드2의 주요 구성요소인 다중 서열 정렬(MSA), 이보포머(Evoformer), 구조 모듈(Structure Module)의 역할을 기술하고, 이러한 구조가 GNN 및 트랜스포머의 원리와 어떻게 결합되는지 심도 있게 고찰하고자 한다.\n\n머리말\n단백질의 기능은 고유한 3차원 입체 구조에 의해 결정되므로, 아미노산 서열로부터 3차원 구조를 예측하는 '단백질 접힘 문제'는 지난 50년간 생명과학 분야의 핵심적인 난제였다. 기존의 실험적 방법들은 막대한 시간과 비용이 소요되어 단백질 연구의 큰 장벽으로 작용해왔다.\n이러한 상황에서 2020년 구글 딥마인드가 발표한 알파폴드2는 딥러닝을 통해 이 문제를 전례 없는 정확도로 해결하며 해당 분야의 패러다임을 전환시켰다. 본 보고서는 알파폴드2의 기술적 근간을 이루는 딥러닝 아키텍처를 세부적으로 분석하여, 그 성공 요인을 규명하는 데 중점을 둔다.\n\n알파폴드2 아키텍처의 핵심 구성요소\n알파폴드2의 시스템은 입력된 아미노산 서열로부터 3차원 구조를 예측하기까지, 여러 독창적인 모듈이 유기적으로 연동되는 파이프라인으로 구성된다.\n\n다중 서열 정렬 (Multiple Sequence Alignment, MSA)\n알파폴드2는 단일 아미노산 서열이 아닌, 방대한 유전체 데이터베이스 검색을 통해 확보한 수천 개의 유사 서열 묶음, 즉 MSA를 주된 입력으로 활용한다. 이는 진화 과정에서 특정 위치의 아미노산이 변이될 때, 다른 위치의 아미노산도 함께 변이되는 '공진화(Co-evolution)' 정보를 포착하기 위함이다. 공진화 관계에 있는 아미노산 쌍은 3차원 구조상에서 물리적으로 근접할 확률이 높기 때문에, 이는 구조 예측의 결정적인 단서로 작용한다.\n\n이보포머 (Evoformer): 그래프 기반 추론 엔진\n이보포머는 MSA 정보로부터 구조적 단서를 추론하는 알파폴드2의 핵심 엔진이다. 이 모듈은 두 종류의 정보를 병렬적으로 처리하고 상호작용시키며 반복적으로 정교화한다.\nMSA 표현 (1D 정보): MSA 내 아미노산 서열 간의 관계를 나타낸다.\n\n쌍 표현 (Pair Representation, 2D 정보): 아미노산 쌍(i, j) 사이의 거리 및 방향과 같은 기하학적 관계를 행렬 형태로 나타낸다. 이는 사실상 그래프의 인접 행렬과 유사한 역할을 수행한다.\n\n\n\n이보포머 내부에서는 트랜스포머의 어텐션(Attention) 메커니즘이 MSA와 쌍 표현 사이의 정보 교환을 촉진한다. 즉, 서열의 공진화 정보가 두 아미노산이 가까울 것이라는 구조 정보를 강화하고, 역으로 특정 아미노산 쌍이 가깝다는 정보가 MSA 내의 관계를 재해석하는 데 도움을 준다. 이 과정이 수십 개의 이보포머 블록을 거치며 반복되어, 구조에 대한 예측은 점차 명확해진다.\n\n구조 모듈 (Structure Module): 3차원 좌표 생성\n\n이보포머를 통해 최종적으로 정제된 쌍 표현 행렬은 각 아미노산 쌍의 기하학적 관계에 대한 신뢰도 높은 지도로 볼 수 있다. 구조 모듈은 이 지도를 바탕으로 각 아미노산을 하나의 강체(rigid body)로 간주하고, 이들의 3차원 공간상 위치(회전 및 변환)를 직접적으로 예측한다. 이 과정에서는 '불변점 어텐션(IPA)'이라는 특수 메커니즘을 사용하여, 예측된 단백질 전체가 회전하거나 이동하더라도 내부의 상대적인 구조는 변하지 않는 물리적 일관성을 보장한다.\n\nGNN과 트랜스포머 관점에서의 아키텍처 융합\n알파폴드의 핵심적인 혁신은 GNN의 관계형 추론 프레임워크와 트랜스포머의 강력한 정보 교환 방식을 3차원 공간 문제에 맞게 융합한 데 있다.\n\n\nGNN 프레임워크: 알파폴드는 단백질을 아미노산(노드)과 이들 간의 상호작용(엣지)으로 구성된 완전 연결 그래프(Fully Connected Graph)로 간주한다. 쌍 표현(Pair Representation)은 이 그래프의 엣지 가중치를 동적으로 학습하는 역할을 수행한다.\n\n\n\n트랜스포머의 어텐션 메커니즘: 알파폴드는 GNN의 메시지 전달 과정을 트랜스포머의 어텐션으로 구현한다. 일반적인 GNN이 1홉(hop) 이웃의 정보만 취합하는 것과 달리, 어텐션은 모든 노드가 다른 모든 노드와 직접적으로 정보를 교환하도록 한다. 이를 통해 모델은 어떤 노드의 정보를 더 중요하게 참고할지(Attention Score)를 학습하여 전역적인 문맥을 효과적으로 파악한다. 이보포머 블록을 반복하는 것은 GNN 레이어를 여러 겹 쌓는 것과 동일한 효과를 낸다.\n\n\n\n3차원 공간 정보의 직접적 활용: 전통적인 GNN이 추상적인 연결성을 다루는 반면, 알파폴드의 구조 모듈은 3차원 공간에서의 회전과 변환이라는 기하학적 특징을 직접적으로 다룬다. '불변점 어텐션(IPA)'은 이러한 3차원 변환에도 예측의 일관성을 유지하게 하는 핵심 장치로, 이는 GNN이 실제 물리 공간의 제약을 학습하도록 진화한 형태로 볼 수 있다.\n\n\n구조(Structure)와 기능(Function)의 차이\n알파폴드의 역할을 정확히 이해하기 위해서는 예측 목표가 단백질의 '기능'이 아닌 '구조'라는 점을 명확히 해야 한다.\n알파폴드는 특정 단백질이 어떤 역할을 수행하는지(예: '신호 전달')를 직접 분류하는 기능 예측 모델이 아니다. 대신, 해당 단백질을 구성하는 모든 원자의 3차원 공간 좌표(x, y, z)를 예측하여 물리적인 형태(Shape)를 알아내는 구조 예측 모델이다.\n구조 예측이 생명과학에서 결정적으로 중요한 이유는 \"구조가 기능을 결정한다(Structure Dictates Function)\"는 근본 원리 때문이다. 특정 효소 단백질이 화학 반응을 촉진하는 기능은, 그 표면에 특정 분자만 결합할 수 있는 고유한 3차원 홈(활성 부위)이라는 구조를 가지고 있기 때문에 가능하다. 따라서 정확한 3차원 구조 정보는 단백질의 기능을 이해하고 제어하기 위한 가장 필수적인 전제 조건이다.\n결론적으로, 알파폴드는 기능이라는 최종 목적지를 향한 여정에서 가장 어렵고 중요한 첫 관문인 '3차원 구조 설계도'를 제공하는 역할을 수행한다.\n\n\n\n\n알파폴드의 3차원 공간 좌표 표현 및 정규화 방식\n이 장은 딥마인드(DeepMind)의 단백질 구조 예측 모델 알파폴드(AlphaFold)가 3차원 공간 좌표를 어떻게 표현하고 예측하는지에 대한 기술적 원리를 분석하는 것을 목적으로 한다. 단백질의 3차원 구조는 전체적인 회전(Rotation) 및 이동(Translation) 변환에 대해 불변(Invariant)하는 특성을 가지므로, 절대적인 전역 좌표(Global Coordinates)를 직접 예측하는 방식은 학습에 본질적인 한계를 가진다. 본 보고서는 알파폴드가 이 문제를 해결하기 위해 도입한 지역 좌표계(Local Frame)와 상대적 변환(Relative Transformation) 기반의 독창적인 접근법을 상세히 기술한다.\n문제 정의: 전역 좌표계 방식의 한계\n기존의 딥러닝 모델이 3차원 객체의 구조를 예측할 때, 각 구성 요소의 절대적인 (x, y, z) 좌표를 직접 출력하도록 설계하는 것은 일반적이다. 그러나 이 방식은 단백질 구조 예측에 다음과 같은 심각한 문제를 야기한다. \n\n\nSE(3) 등변성(Equivariance) 위배: 단백질의 기능과 구조적 본질은 분자 전체가 3차원 공간상에서 회전하거나 이동해도 변하지 않는다. 하지만 절대 좌표 값은 이러한 변환에 따라 완전히 달라진다.\n학습의 비효율성: 모델은 동일한 구조에 대해서도 무한히 많은 정답(좌표 값)을 학습해야 하므로, 데이터의 복잡성이 기하급수적으로 증가하여 안정적인 학습이 거의 불가능하다.\n\n결론적으로, 전역 좌표계는 단백질 구조의 내재적 특성을 표현하기에 부적합하며, 이를 직접 예측하는 것은 비효율적이고 불안정한 접근법이다.\n\n알파폴드의 해결책: 지역 좌표계와 상대적 변환 예측\n알파폴드는 전역 좌표 문제를 해결하기 위해, 예측 대상을 '절대 위치'에서 '상대적 관계'로 변환하였다. 이 접근법은 다음 세 단계로 구성된다.\n1단계: 각 아미노산 잔기에 지역 좌표계(Local Frame) 설정\n알파폴드는 단백질을 구성하는 모든 아미노산 잔기(residue)마다 고유한 지역 좌표계를 설정한다. 이 좌표계는 각 잔기의 뼈대(backbone)를 구성하는 3개의 원자(N, Cα, C')를 기준으로 정의된다.\n\n원점 (Origin): 알파탄소(Cα)\n축 (Axes): Cα, N, C' 원자들의 상대적 위치 벡터를 기반으로 직교 좌표계(x, y, z축)를 생성한다.\n\n이 방식을 통해 단백질 전체의 위치와 상관없이, 각 아미노산은 자신만의 독립적인 기준 좌표계를 갖게 된다.\n2단계: 좌표계 간의 상대적 변환(Transformation) 예측\n알파폴드 모델의 최종 단계인 '구조 모듈(Structure Module)'은 절대 좌표를 직접 예측하지 않는다. 대신, i번째 아미노산의 지역 좌표계에서 i+1번째 아미노산의 지역 좌표계로 변환하기 위해 필요한 회전(Rotation)과 이동(Translation) 값을 예측한다.\n\n회전: 3x3 회전 행렬 (Rotation Matrix)\n이동: 3차원 이동 벡터 (Translation Vector)\n\n이 상대적 변환 값은 단백질 전체의 위치나 방향과 무관하게 항상 일정하므로, 모델은 구조의 본질적인 기하학적 관계만을 학습하게 된다.\n3단계: 예측된 변환을 통한 전체 구조 조립\n모든 잔기 쌍에 대한 상대적 변환 값이 예측되면, 이를 순차적으로 적용하여 전체 3차원 구조를 조립한다.\n첫 번째 아미노산의 지역 좌표계를 공간의 원점에 배치한다.\n예측된 첫 번째 변환(회전/이동)을 적용하여 두 번째 아미노산의 위치와 방향을 계산한다.\n이 과정을 단백질 서열의 마지막 잔기까지 반복하여 모든 뼈대 원자의 3차원 좌표를 최종적으로 결정한다. \n\n\n알파폴드의 접근 방식은 다음과 같은 핵심적인 장점을 가진다.\n\n\n구분\n\n전역 좌표 예측 방식\n\n알파폴드의 지역 좌표계 방식\n\n\n예측 대상\n\n각 원자의 최종 (x, y, z) 절대 좌표\n\n아미노산 잔기 간의 상대적 회전/이동 값\n\n\n특징\n\nSE(3) 등변성을 위배하여 학습이 불안정하다.\n\nSE(3) 등변성(Equivariance)을 자연스럽게 만족하여 안정적이고 효율적인 학습이 가능하다.\n\n\n비유\n\n건물의 모든 벽돌의 GPS 좌표를 학습하는 것\n\n한 벽돌에서 다음 벽돌까지의 방향과 거리를 학습하는 것\n\n\n\n결론적으로, 알파폴드의 혁신은 3차원 공간 좌표라는 결과물을 직접 예측하는 대신, 문제를 지역 좌표계 간의 기하학적 관계로 재정의한 데에 있다. 이는 3D 구조 예측 문제에서 딥러닝 모델이 가져야 할 회전/이동 불변성(등변성)을 확보하는 표준적인 해법을 제시했으며, 알파폴드가 전례 없는 정확도를 달성할 수 있었던 가장 핵심적인 기술적 토대이다.\n\n\n\n마무리\n알파폴드2의 성공은 단일한 혁신이 아닌 여러 핵심 기술의 유기적인 결합에 기인한다. 그 핵심은 (1) 진화적 정보(MSA)를 초기 단서로 활용하고, (2) GNN의 프레임워크 위에서 트랜스포머의 어텐션 메커니즘을 통해 관계를 추론하며, (3) 최종적으로 3차원 공간의 물리적 제약을 만족하는 구조를 생성하는 정교한 파이프라인을 구축한 데 있다.\n특히, 아미노산을 노드로, 상호작용을 엣지로 간주하는 그래프적 접근 방식은 단백질 접힘 문제를 관계형 추론 문제로 재정의하였으며, 이는 GNN과 트랜스포머 모델이 융합될 때 복잡한 과학적 시스템을 얼마나 효과적으로 모델링할 수 있는지를 입증하는 대표적인 사례이다. 알파폴드2의 등장은 단백질 구조 생물학 연구를 가속화했을 뿐만 아니라, 향후 신약 개발 및 질병 연구에 있어 AI 기반의 과학적 발견이 핵심적인 역할을 수행할 것임을 시사한다.\n\n\n레퍼런스\n\n분자식, 소셜 관계, 다차원 모델 위상 관계 예측에 사용되는 PyGeometric 기반 그래프 데이터 학습 방법\n딥러닝 하드웨어 확장성 고려한 PyTorch Lightning 기반 그래프 딥러닝 지원 PyTorch Geometric 사용방법 및 단백질 기능 등 다양한 모델 학습 예시\n화학, 재료 분자, 다차원 형상 데이터 학습, 예측, 재구성에 사용되는 GCN(Graph Convolutional Networks. GNN)과 GDL (Geometric Deep Learning)에 대해",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/09/gnn.html",
-    "pubDate": "2025-09-30T11:26:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "투자하는 기본적인 방법 - 욕심 부리지 마라",
-    "description": "영상: https://www.youtube.com/watch?v=5M_kImE_Juw\n\n\n\n25분 24초에 나옵니다.\n \n매수 방법\n어차피 투자 실력이 쌓이지 않은 상태라면 \n어마어마하게 분산해서 200종류를 사보는 것도 좋다고 합니다.\n살 때는 좋다는거 그냥 사서 도 됩니다.\n나쁜 종목만 아니라면 3년 정도 물려있기만해도 전고점 다시 가는 경우가 많습니다.\n하지만 욕심을 부려서 무리한 비중을 들어가면 안됩니다. \n예측은 맞지 도 않을 뿐더로\n견디면 되는 구간을 견딜 수 없을 수도 있습니다.\n이번이 성공하더라도 실패 할때까지 이런짓을 반복하게 되기 때문에\n반드시 실패하게 됩니다.\n \n \n매도 방법\n내계좌를 봐도 되고 시장 지표를 봐도 되는데\n50% 쯤 오른 후에는 비중을 줄입니다.\n이때도 욕심 부리면 안됩니다.\n하나도 안팔고 꼭대기 까지가면 정말 좋겠지만\n이것도 욕심이며 \n자랑하는 심리가 발동해서 내려갈때 못파는 경우가 발생합니다.\n\"이번에도 지난번 고점 갈꺼야\" 라고 생각하면서 기다리다\n역사적 고점을 맞는 수가 발생하면\n회복하는데 3~5년이 걸릴 수 있기 때문에\n(ETF 라면 회복이 돌 수도 있지만 개별주라면 회복이 안될 수 있습니다.)\n충분히 올랐다면 줄여서 현금을 만들어야합니다.\n영상에선 20% 정도를 이야기하는데 50% 도 괜찮을 것같습니다.\n역사적 고점에서는 서로가 성공담만 이야기 하기 때문에\n같이 취해있으면 안됩니다.\n \n \n \n초보라면\n팔아야할때 사야할때 욕심을 부리다보면 \n언젠가 예측 불가능한 현상이 나오면서 맛이 갈 수 있습니다.\n왜냐하면 욕심 때문에 예측 불가능한 현상이 나올때까지 극단적인 행동을 할 것이기 때문입니다.\n내일 당장 10배 간다고 해도 적당한 비중만 들고 가야하며\n내일 휴지가 된다고 확실이 들더라도 일정비중만 매도해야합니다.\n길게보면 내 실력이 형편 없기 때문에 예측은 1도 맞지 않기 때문입니다.\n호히려 반대로 가는 경우가 많았습니다.\n지나보면 \"그게 다 욕심이구나\" 라는 생각이 들것입니다.\n이 생각이 들었을때 현금을 들고 살아있어야하 다음번 기회를 잡을 수 있다는 것도 기억하시고\n절대 욕심부리지마시고 욕심을 부렸다면 기억하고 다음번엔 그렇게 하지 않으셔야합니다.\n투자는 어마어마하게 긴 시간을 해야하기 때문에 심리에 휘둘리면 투자를 이어나갈 수 없게됩니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1408",
-    "pubDate": "Wed, 1 Oct 2025 13:21:56 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "투자"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Fixing Overload Resolution For Parameter Arrays in C++/CLI",
-    "description": "Fix a problem in C++/CLI parameter array overload resolution which affects newer .NET versions.\nThe post Fixing Overload Resolution For Parameter Arrays in C++/CLI appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/fixing-overload-resolution-for-parameter-arrays-in-c-cli/",
-    "pubDate": "Mon, 29 Sep 2025 14:00:08 +0000",
-    "creator": "Tanveer Gani",
-    "categories": [
-      "C++",
-      "C++/CLI"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "DataGrip Is Now Free for Non-Commercial Use",
-    "description": "We’re excited to announce a change in our licensing model that we believe will benefit the developer community – DataGrip is now free for non-commercial use! With this change, DataGrip joins JetBrains RustRover, CLion, Rider, WebStorm, and RubyMine, which are already free for non-commercial use. Read on to learn more about the change and why […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/datagrip/2025/10/01/datagrip-is-now-free-for-non-commercial-use/",
-    "pubDate": "Wed, 01 Oct 2025 14:43:11 +0000",
-    "creator": "Stanislav Garkusha",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "토스, 플랫폼 최초 증권사 주식담보대출 비교서비스 제공",
-    "description": "KB증권·NH투자증권과 협업",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/kbnh",
-    "pubDate": "Thu, 25 Sep 2025 14:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Better AI Depends on Better Data: We Need Your Help",
-    "description": "TL;DR Over the past few years, AI has made remarkable progress, but it doesn’t always deliver what professional developers need. One key reason is that most models are trained on public datasets that don’t reflect the complex, real-world scenarios faced by professional developers every day. Without such real-world data, our AI tools will fall short. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2025/09/30/detailed-data-sharing-for-better-ai/",
-    "pubDate": "Tue, 30 Sep 2025 11:52:06 +0000",
-    "creator": "Kris Kang",
-    "categories": [
-      "news",
-      "data-sharing"
-    ]
-  },
-  {
-    "id": 10,
     "imageUrl": "",
     "title": "AI 만능설에 대한 우려와 짜증 – 수정(fix) 문제",
     "description": "국중고딩 시절부터 서브컬처에 빠져있던 자로서 nano-banana같은 ai가 나와서 나같은 똥손도 동인활동이 가능해졌다는 점에서 약간 반기는 면도 있다. 근데 이거 쓰면 쓸수록 대단하면서도 등신같고 헛점이 명확하다고 느낀다. 첫시도에 잘 생성해줘서 그게 맘에 들면 베스트다. 그러나 수정을 하고 싶다면 이제부터 지옥이 펼쳐진다. 미세 수정을 시작하면 어떤 마법의 주문을 외워도 내가 원하는 쪽으로 가기가 어렵다. 결과물에 대한 수정을 … More AI 만능설에 대한 우려와 짜증 – 수정(fix) 문제",
@@ -146,80 +75,188 @@
     ]
   },
   {
-    "id": 11,
+    "id": 5,
     "imageUrl": "",
-    "title": "스팀 - 멀웨어감염 게임된 2D 플렛포머 게임 삭제",
-    "description": "영상: https://youtu.be/oKwBGpMz9hs?t=570\n\n\n\n9분 30초에 짤막하게 나옵니다.\n \n스팀에 올라오는 게임도 안전한건 아닌가 봅니다.\n암호화폐는 이미 도난 당한 후에 삭제 되었다고 합니다.\n \n아마도 멀웨어는 지갑주소를 복붙할때 본인 지갑주소로 슬적 바꿔넣는 기능이 있을것 같습니다.\n스팀도 안전한건 아닌가 봅니다.",
+    "title": "바이낸스 코인베이스 써클 - 패이 사업 + 이자 사업 시작되었습니다.",
+    "description": "영상: https://youtu.be/LYdBZXfF-7A?t=561\n\n\n\n9분20초에 나옵니다.\n공중파에서 언급했다는 것이 중요합니다.\n \n바이낸스는 페이 사업이 시작되었고\n한참전에 하고 있었는데 이제 공중파에서 말을 하네요\n코인베이스는 USDC 를 저금하면 이자를 4% 주고\n패이사업 역시 시작했습니다. \n드디어 미국의 실물 경제에 코인이 사용됩니다.\n \n서클 인터넷 주가를 보니 거의 바닥인거 같으니 오늘밤 들어가봅니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1402",
-    "pubDate": "Mon, 29 Sep 2025 15:40:51 +0900",
+    "link": "http://serverdown.tistory.com/1406",
+    "pubDate": "Tue, 30 Sep 2025 12:02:57 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "게임",
-      "멀웨어",
-      "스팀"
+      "투자",
+      "바이낸스",
+      "써클",
+      "코인",
+      "코인베이스"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "2025년 추석 완강 챌린지",
+    "description": "주니어일때 명절은 밀린 공부를 몰아서 할 수 있는 행복한 시간이였다.\n주말까지 껴있는 경우 거의 8~10일을 출근하지 않고 공부할 수 있으니 Todo 목록에 있는 대부분의 개인 프로젝트들, 블로그에 정리해야할 것들, 밀린 책들을 다 보는 시간으로 가졌다.\n특히 2017년 추석이 역대급 황금연휴였는데, 10.02 에만 휴가를 쓰면 09.30 ~ 10.09 까지 총 10일을 쉴 수 있었다.\n\n\n이때 진짜 너무 행복하게 시간을 보내서 추석 연휴 동안 5개의 기술 블로그 글을 발행했다.\n\n\n\n당시 팀에 새로 합류한 분들을 위한 Spock 관련된 1,2편의 글이나 코드리뷰로 종종 언급했던 메소드 파라미터, eslint적용 등 여러 내용들을 정리하고 추가로 학습했다.\n밀린 공부와 글감들을 다 발산하는데 10일 내내 도파민이 넘쳐흐르는 것 같았다.\n특히 토비님이 추천하신 TDD로 xUnit 만들기를 이때 진행했었고, 그 과정도 상세히 정리하는 시간을 가졌다.\n\n\n\nJUnit 만들어보기\n결혼 이후에는 예전처럼 개인 공부하는데 모든 시간을 쓸 순 없지만 그럼에도 여전히 명절 연휴는 나에겐 성취감을 주는 귀한 시간이다.\n혼자서 긴 시간 공부하다보면 지루할때도 많았다.\n그럴때는 지인들과 스터디 까페에 모여서 하루종일 모각코를 진행하기도 했다.\n아침 8~9시 사이에 모여서 공부하다가 잡담도 하고 점심시간에 밥도 같이 먹으면서 공부했던 것들을 공유하고 각자 일정에 맞춰 퇴근도 하면서 완전히 자유롭게, 다만 외롭지 않게 공부했다.\n건강한 식단과 규칙적인 운동을 하고나면 건강과 체력이 좋아지는 것 처럼,\n긴 연휴를 알차게 보내면 그만큼의 마음 건강이 단단해졌다.\n그래서 이렇게 시간을 보내고 나면 아무리 긴 연휴기간이였어도 회사 복귀가 전혀 힘들지 않았다.\n코로나 기간이후로 이렇게 다 같이 추석 연휴때 모여서 각자가 공부하고 싶은 주제를 공부하고 이야기 나누는 모임은 없어졌다.\n그러다보니 이제 연휴에 혼자서만 계속 공부하고 있다.\n올해 추석은 2017년처럼 또다시 황금연휴다.\n10.10일만 휴가를 쓴다면 총 10일을 연속해서 쉴 수 있는 긴 시간이다.\n이 시간을 코로나 전처럼 건강하게 보낼 순 없을까?\n그래서 이번에 이 긴 추석 연휴동안 온라인으로 많은 사람들이 모여서 함께 공부하는 시간을 준비했습니다.\n'향로' 와 함께하는 추석 완강 챌린지\n\n\n10월에는 카카오 신입 공채 코딩 테스트, 삼성전자 신입 개발 코딩 테스트 등 여러 대기업들의 공채가 있고,\n토스, 당근 등 여러 많은 회사들이 여전히 채용을 활발히 하고 있는 기간입니다.\n이번 추석 연휴 기간 동안 공부하고 싶었던 주제가 있거나 즐겁게 '함께' 공부하는 시간을 가지고 싶으신 분들이라면 저와 같이 추석 완강 챌린지를 함께해요!\n추석 연휴 동안 원하는 강의를 구매하실 수 있게 40% 할인 쿠폰도 함께 드리니 이번 추석때는 함께 성장해요 :)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/846",
+    "pubDate": "Fri, 26 Sep 2025 17:02:00 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "연휴",
+      "인프런",
+      "챌린지",
+      "추석",
+      "추석 열공",
+      "향로"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Better AI Depends on Better Data: We Need Your Help",
+    "description": "TL;DR Over the past few years, AI has made remarkable progress, but it doesn’t always deliver what professional developers need. One key reason is that most models are trained on public datasets that don’t reflect the complex, real-world scenarios faced by professional developers every day. Without such real-world data, our AI tools will fall short. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/blog/2025/09/30/detailed-data-sharing-for-better-ai/",
+    "pubDate": "Tue, 30 Sep 2025 11:52:06 +0000",
+    "creator": "Kris Kang",
+    "categories": [
+      "news",
+      "data-sharing"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "PD1 AI 해커톤, 그 뜨거웠던 열기 속으로!",
+    "description": "최근 LY Corporation뿐 아니라 IT 산업 전반에서 AI 기술을 서비스에 접목하려는 움직임이 활발히 이어지고 있습니다. 메시징과 커뮤니케이션, 콘텐츠, 업무 자동화에 이르...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/pd1-ai-hackathon-recap",
+    "pubDate": "Fri, 26 Sep 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "토스페이 혜택, 사용법 총정리 2025년 10월",
+    "description": "클룩, 아고다, 구글플레이부터 백화점, 홈쇼핑 등 할인·적립 쿠폰 확인하기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tosspay-2025-02",
+    "pubDate": "Tue, 30 Sep 2025 15:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Fixing Overload Resolution For Parameter Arrays in C++/CLI",
+    "description": "Fix a problem in C++/CLI parameter array overload resolution which affects newer .NET versions.\nThe post Fixing Overload Resolution For Parameter Arrays in C++/CLI appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/fixing-overload-resolution-for-parameter-arrays-in-c-cli/",
+    "pubDate": "Mon, 29 Sep 2025 14:00:08 +0000",
+    "creator": "Tanveer Gani",
+    "categories": [
+      "C++",
+      "C++/CLI"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "ReSharper and Visual Studio 2026: Day-One Compatibility, Migration Steps, and Performance Gains",
+    "description": "Microsoft Visual Studio 2026 Insiders is here, and the next major VS update is on the horizon. As with any new Visual Studio version, one of the first questions developers ask is: “Will my extensions work after updating – especially ReSharper?”.  The short answer is a resounding “yes”. But there’s more to the story, and […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/10/02/resharper-and-visual-studio-2026/",
+    "pubDate": "Thu, 02 Oct 2025 13:41:41 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "news",
+      "resharper",
+      "dotultimate",
+      "oop",
+      "visual-studio-2026",
+      "visual-studio-2026-insiders"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "인디게임 - CLOVER PIT / 슬롯머신 게임",
-    "description": "트레일러: https://www.youtube.com/watch?v=CtX2WIBqsds\n\n\n\n \n \n영상: https://www.youtube.com/watch?v=RKmRfxyZhcY\n\n\n\n14분20초에 콤보가 연속으로 터지는 장면이 있군요\n \n멋진 비주얼입니다.",
+    "title": "Networking at the Heart of AI — @Scale: Networking 2025 Recap",
+    "description": "AI is everywhere and, as network engineers, we are right in the thick of it: building the network infrastructure for AI. This year, at  our largest @Scale:Networking ever, engineers from Meta, ByteDance, Google, Microsoft, Oracle, AMD, Broadcom, Cisco, and NVIDIA came together to share our latest experiences in architecting, designing, operating, and debugging our AI [...]\nRead More...\nThe post Networking at the Heart of AI — @Scale: Networking 2025 Recap appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1403",
-    "pubDate": "Mon, 29 Sep 2025 16:05:26 +0900",
-    "creator": "SIDNFT",
+    "link": "https://engineering.fb.com/2025/09/26/networking-traffic/networking-at-the-heart-of-ai-scale-networking-2025-recap/",
+    "pubDate": "Fri, 26 Sep 2025 16:00:52 +0000",
+    "creator": "Unknown",
     "categories": [
-      "게임",
-      "인도게임"
+      "ML Applications",
+      "Networking & Traffic"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Accelerating our Android apps with Baseline Profiles",
-    "description": "Key Takeways: With billions of Android app users, we’re always looking to improve the Meta app experience, and in this post, we explore the ways we’ve leveraged Android’s Baseline Profiles to significantly improve their performance. We discuss the performance challenges we’ve faced as Meta’s apps, how the needs of users have become more complex over [...]\nRead More...\nThe post Accelerating our Android apps with Baseline Profiles appeared first on Engineering at Meta.",
+    "title": "Visual Studio September Update – profiler agent, app modernization, and more",
+    "description": "The September 2025 update for Visual Studio 2022 (v17.14) is now available. In this month, we are bringing you a fully integrated and game-changing agentic AI experience, from code generation to modernization, profiling, and code reviews.   Profiler Agent We’ve heard the feedback loud and clear developers love the Profiler Agent. So, we’re bringing it […]\nThe post Visual Studio September Update – profiler agent, app modernization, and more appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/10/01/android/accelerating-our-android-apps-with-baseline-profiles/",
-    "pubDate": "Wed, 01 Oct 2025 16:00:17 +0000",
-    "creator": "Unknown",
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update/",
+    "pubDate": "Tue, 30 Sep 2025 13:30:50 +0000",
+    "creator": "Simona Liao",
     "categories": [
-      "Android"
+      "Copilot",
+      "Debug",
+      "GitHub Copilot",
+      "Productivity",
+      "Visual Studio",
+      "Agent",
+      "Code Reviews",
+      "MCP",
+      "Mermaid",
+      "Modernization"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "이춘운과 백태태",
-    "description": "최근에 \"재능이 너무 없고, 지금 이정도 실력이면 개발을 포기하고 다른 직업을 찾아보라\" 는 멘토님의 피드백 때문에 개발자의 길을 포기했다는 글을 보았다.\n예전에 비슷한 피드백을 받아본 입장에서 한 두명의 의견으로 본인이 선택한 길을 포기하는 것이 너무 안타까워 이메일로 내 생각을 전달드렸다.\n개발자 되기 좋은 성향이 따로 있다고 생각하진 않는다.\n어떤 특성과 강점을 가진 개발자가 있을 뿐이지, 개발자에겐 어떤 재능이 무조건 있어야 한다고 생각하진 않는다.\n다만, 그런 내 생각과 달리 누군가는 직업별로 적합한 재능이 있을 수 있다고 생각할 수 있다.\n운명같은 재능과 직업이 만나는 드라마틱한 상황이 나에겐 없다고 생각한다면 좌절감이 든다.\n근데 그 운명이라는게, 재능이라는건 무엇일까?\n대학생 시절 아사다 지로 작가님의 \"창궁의 묘성\" 이라는 작품에 빠져 읽었다.\n창궁의 묘성은 전체적으로 1,2,3권까지만 주변에 추천 한다.\n이토 히로부미를 아시아를 지킨 영웅으로 표현하는 등 후반부 들어서서 동의하지 않는 부분이 너무 많다.\n4권의 경우 급하게 마무리한 티가 많이 난다.\n3권까지는 정말로 몰입감이 높다.\n이 작품에는 크게 2명의 주인공이 등장한다.\n양문수와 이춘운 이라는 인물로, 이 중 이춘운은 마을에서 똥을 주워 팔며 간신히 살아가는 인물이다.\n이 둘은 한 번도 틀린 적이 없다는 점성술사 백태태에게 자신들의 운명을 물어본다.\n양문수의 점괘는 천하의 재상이 되는 운명이였다.\n백태태는 양문수에게는 점괘 그대로 전달한다.\n하지만 며칠 내로 굶어 죽을 운명을 가진 이춘운에게는 너무나 가여워 차마 그대로 말하지 못하고 처음으로 거짓 점괘를 말한다.\n너는 세상의 모든 보물을 다 가질 운명이라고 말이다.\n가난한 이씨 집안의 넷째아들, 샤오리야. 너의 수호성은 오랑캐의 별, 묘성.\n그날 밤, 하늘과 땅을 가르는 북두칠성의 자루부분은 하늘 꼭대기에서 찬란히 빛나는 묘성으로 향하고 있었지.\n그것은 곧 천자가 사는 자미궁을 그 국자로 퍼내라는 명령이 아니겠느냐.\n너는 반드시 천하의 모든 재물과 금은보화를 한 손에 거머쥐게 될 게다.\n두려워마라.\n너에게는 항상 천궁을 다스리는 오랑캐의 별, 묘성이 함께할 테니까\n춘운은 백태태는 절대 틀리지 않는다는 말을 되뇌며 거세를 하고 환관이 된다.\n실제 운명과는 다른 가짜 점괘였지만,\n이춘운은 그걸 진짜라고 믿고 스스로 운명을 개척해나가 결국 보물이 가득한 궁으로 들어가 마침내 권력의 정점에 이른다.\n가짜 점괘를 진짜라고 믿고 개척해나가는 이춘운의 모습이 너무 인상 깊어서 설령 사실이 아니더라도 스스로가 확실하게 믿는다면 그게 곧 운명이 된다고 생각하게 되었다.\n\"진실이든 거짓이든, 믿어버리면 인생이 변해. 나는 내 생각대로 살고 싶어\"\n1권 p291\n어떤 선택이든 남이 아니라, 내가 선택해야 한다.\n남의 의견은 남일 뿐이다.\n나에겐 그걸 잘해낼 힘이 충분히 있다고 믿는 사람들이 해내는 놀라운 일들을 주변에서 많이 보았다.\n그러니 누가 뭐라하든 스스로를 믿어보자.\n\n\n\n\n\n이번 추석은 10일이나 되는 긴 기간입니다.\n저는 요번 기간 동안 부족하다고 생각했던 몇개 강의들을 진득하게 공부 할 예정입니다.\n이춘운처럼 저도 제가 더 훌륭한 리더가 될 수 있다고 믿어보려고요.\n추석에도 열정을 태우고 싶으신 분들이라면 이번 추석에 서로 응원해보는 알찬 시간을 함께 하면 좋겠습니다.\n'향로' 와 함께하는 추석 완강 챌린지\n함께 보면 좋은 글\n개발자 되기 좋은 성향\n소설에 몰입하기",
+    "title": "개발 시간 반으로 줄이는 UI 컴포넌트 전략: '이거 뭔지' 모르는 답답함 해소",
+    "description": "개발 과정에서 ‘이 버튼은 어떻게 만들지?’ ‘이 상황엔 어떤 요소를 써야 할까?’ 같은 UI 컴포넌트 고민, 다들 한 번쯤 해보셨죠? 이 글은 초보 개발자도 헤매지 않고 핵심 UI 컴포넌트들을 정확히 이해하고 활용해서 개발 시간을 절반으로 줄일 수 있는 실질적인 전략을 제시합니다. 막막했던 UI 개발에 자신감을 불어넣어 드릴 거예요.\n  UI 컴포넌트, 대체 뭘까요? 왜 이렇게 중요할까요?\n\n\n\n처음 코딩을 시작했을 때, 기능 구현은 어떻게든 되겠는데 화면에 보이는 요소들, 예를 들어 체크박스나 드롭다운 같은 것들이 너무 헷갈렸던 기억이 나요. 이름조차 생소해서 이걸 어떻게 불러야 할지, 언제 써야 할지 막막했던 적, 저만 그런 건 아니겠죠?\nUI 컴포넌트란 쉽게 말해 웹이나 모바일 앱 같은 사용자 인터페이스(UI)를 구성하는 데 쓰이는 재사용 가능한 최소 단위를 말합니다. 마치 레고 블록처럼 버튼, 입력 필드, 체크박스, 카드 등 다양한 디자인과 기능을 가진 부품들이 모여서 하나의 페이지를 이루고, 이를 통해 사용자는 시스템과 상호작용하며 필요한 정보를 얻게 되는 거죠. 하나하나 직접 조립하는 게 아니라 만들어진 블록을 가져다 쓰는 개념이에요.\n그럼 왜 이 UI 컴포넌트들이 그렇게 중요할까요? 제 생각엔 크게 두 가지 이유가 있어요. 첫째, 재사용성이 뛰어나다는 점이에요. 한 번 제대로 만들어둔 버튼은 웹사이트의 어느 페이지에서든, 아니면 다른 프로젝트에서조차 똑같이 가져다 쓸 수 있죠. 개발 시간을 확 줄여주는 마법 같은 일이 벌어집니다.\n둘째는 일관성을 유지하기 쉽다는 것이에요. 모든 페이지의 버튼이 같은 모양, 같은 색, 같은 동작을 한다고 상상해보세요. 사용자는 훨씬 더 직관적으로 앱을 이해하고 편안하게 사용할 수 있게 됩니다. 우리가 2025년에 흔히 쓰는 잘 만든 앱들을 보면, 이런 일관성이 정말 중요한 역할을 하고 있잖아요? 예를 들어, 다음 글에서 함께 만들 할 일 관리 앱에서도 '할 일 추가 버튼', '완료 체크박스', '삭제 버튼' 등이 모두 통일된 스타일을 가져야 사용하기 편할 거예요.\n\n\n  핵심 UI 컴포넌트, 헷갈리지 말고 제대로 알아봅시다!\n이제 가장 많이 쓰이고, 또 가장 헷갈리기 쉬운 핵심 UI 컴포넌트들을 하나씩 살펴보면서 정확한 이름과 용도를 익혀볼 거예요. 더 이상 '저기 있는 그거!'라고 하지 말고, 정확한 명칭으로 소통하면서 개발 효율을 높여봐요.\n \nUI 컴포넌트를 미리 체험할 수 있는 'UI 컴포넌트 쇼케이스'를 활용하시면 \n컴포넌트 이해에 도움이 될 거예요. \n아래 링크를 참고하세요.\n\n \n로그인 - Google 계정\n이메일 또는 휴대전화\naccounts.google.com\n\n\n \n1. 사용자 행동 유도: 버튼과 입력 필드\n사용자의 액션을 유도하거나 정보를 받는 가장 기본적인 요소들이죠.\n버튼 (Button): 사용자가 클릭해서 특정 행동을 취할 때 사용하는 가장 기본적인 컴포넌트예요. 기본(파란색 계열), 보조(회색 계열), 외곽선, 그리고 위험(빨간색 계열) 등 다양한 스타일이 있고, 상황에 따라 비활성화(disabled)할 수도 있습니다. 클릭할 때마다 버튼에 할당된 명령을 수행하는, 정말 없어서는 안 될 핵심 요소라고 할 수 있어요.\n입력 필드 (Input Field): 사용자로부터 정보를 입력받을 때 사용하는 컴포넌트예요. 일반 상태, 정보를 입력할 수 없는 비활성화 상태, 그리고 잘못된 정보가 입력되었을 때 나타나는 오류 상태가 있습니다. 예를 들어, 구독 양식에서 이메일 주소를 입력할 때 유효성 검사를 통해 \"이메일은 필수 항목입니다\" 또는 \"유효한 이메일 주소를 입력해주세요\" 같은 오류 메시지를 띄워 사용자에게 올바른 정보 입력을 유도하는 경우가 많죠. 올바르게 입력되면 \"구독해주셔서 감사합니다!\" 같은 성공 메시지가 나타나기도 하고요.\n2. 정보 탐색과 분류: 탭과 선택 컴포넌트\n많은 정보를 효율적으로 보여주고, 사용자가 원하는 것을 선택하게 돕는 중요한 컴포넌트들이에요.\n탭 (Tab): 관련된 정보를 여러 섹션으로 나누어 사용자가 원하는 내용만 골라볼 수 있게 해주는 컴포넌트예요. 제품 상세 페이지에서 '설명', '사양', '리뷰' 탭을 클릭할 때마다 해당 내용만 깔끔하게 정리되어 나타나는 것을 떠올려보세요. 복잡한 정보를 효과적으로 보여주는 데 정말 유용하죠.\n사용자 선택을 받아내는 네 가지 핵심 컴포넌트\n이제 사용자에게 옵션을 제시하고 선택을 받는 네 가지 중요한 컴포넌트를 알아볼게요. 각각의 용도가 명확해서 정확히 이해하고 사용하는 게 중요해요.\n드롭다운 (Dropdown): 선택지가 많을 때 화면을 깔끔하게 유지하면서도 많은 옵션을 제공할 수 있는 컴포넌트예요. 클릭하면 옵션 목록이 펼쳐지고, 그중 하나를 선택할 수 있습니다. 국가 선택이나 연도 선택처럼 수십 개의 옵션이 있을 때 정말 유용하죠.\n라디오 버튼 (Radio Button): 여러 옵션 중 반드시 단 하나만 선택해야 할 때 사용해요. 모든 옵션이 화면에 명확히 보이며, 하나를 선택하면 이전에 선택했던 것은 자동으로 해제됩니다. 성별 선택이나 결제 방법 선택 같은 상황에 딱 맞습니다.\n체크박스 (Checkbox): 여러 항목을 동시에 선택하거나, 어떤 항목에 대한 동의 여부를 표시할 때 사용합니다. 각각의 체크박스는 독립적으로 체크하거나 해제할 수 있어요. 약관 동의나 관심사 선택처럼 복수 선택이 필요한 경우에 주로 쓰입니다.\n토글 (Toggle): 켜짐/꺼짐 두 가지 상태를 직관적으로 표시하는 컴포넌트예요. 스위치를 좌우로 움직이는 애니메이션 덕분에 상태 변화가 명확하죠. 알림 설정이나 다크 모드 전환 같은 기능에 많이 사용됩니다.\n사용자 설정 페이지를 예로 들면, 언어는 드롭다운으로 여러 언어 중 선택하고, 테마는 라디오 버튼으로 라이트/다크 모드 중 하나만 선택하며, 알림은 토글 스위치로 켜고 끄고, 마케팅 동의는 체크박스로 체크하는 식으로 각각의 컴포넌트가 용도에 맞게 명확하게 구분되어 사용되는 걸 볼 수 있어요. 이렇게 각 컴포넌트의 특성을 이해하면 적재적소에 배치해서 사용자 경험을 크게 향상시킬 수 있습니다.\n\n\n3. 값 조절과 피드백: 슬라이더와 알림\n사용자가 값을 부드럽게 조절하거나, 시스템의 상태를 인지하게 하는 중요한 컴포넌트들이에요.\n슬라이더 (Slider): 정해진 범위 안에서 값을 부드럽게 조절할 때 사용해요. 볼륨 조절, 밝기 조절, 가격 범위 설정 같은 곳에서 많이 쓰이죠. 미디어 플레이어에서 재생 진행률을 조절하는 슬라이더를 보면, 드래그하면서 실시간으로 재생 시간이 바뀌는 걸 볼 수 있습니다. 숫자로 직접 입력하는 것보다 훨씬 직관적이고 편리해요.\n알림 (Notification): 사용자에게 현재 상황이나 피드백을 전달할 때 사용해요. 정보 알림은 파란색, 성공 알림은 초록색, 경고 알림은 노란색, 오류 알림은 빨간색으로 표시해서 색상만으로도 상황을 직감할 수 있게 하는 경우가 많습니다. 파일 업로드 시뮬레이터를 생각해보면, 성공 시 초록색 \"성공적으로 업로드되었습니다!\", 경고 시 노란색 \"파일 크기가 초과합니다\", 실패 시 빨간색 \"지원하지 않는 파일 형식입니다\"와 같은 메시지가 잠시 후 사라지는 식으로 나타나죠. 정말 편리하고 사용자 친화적인 요소입니다.\n4. 진행 상황과 보조 정보: 로더와 툴팁\n사용자가 기다려야 할 때 지루함을 덜어주고, 필요한 정보를 숨김없이 제공하는 컴포넌트들이에요.\n로더 (Loader): 사용자를 기다리게 할 때, '지금 뭔가 작업 중'이라는 것을 시각적으로 보여줘서 답답함을 줄여주는 컴포넌트예요. 빙글빙글 도는 아이콘인 스피너 (Spinner)와 진행률을 막대로 보여주는 프로그레스 바 (ProgressBar)가 대표적이죠. 데이터 로딩 시뮬레이터에서 '데이터 가져오기' 버튼을 누르면 스피너와 함께 \"서버에서 데이터를 가져오는 중\" 메시지가 뜨고, 진행률 바가 서서히 채워지다가 완료되면 프로필 카드가 나타나는 흐름을 떠올려보세요. 사용자에게 신뢰를 주는 아주 중요한 요소입니다.\n툴팁 (Tooltip): 마우스를 올렸을 때 추가 정보를 보여주는 작은 말풍선이에요. 화면을 복잡하게 만들지 않으면서도 필요한 정보를 즉각적으로 제공할 수 있다는 장점이 있습니다. 에디터 툴바의 저장 아이콘에 마우스를 올리면 \"문서 저장\" 툴팁이 나타나는 것처럼 말이죠. 아이콘만으로는 기능을 알기 어려울 때 정말 유용하며, 보통 간결하게 한 줄로 작성하는 것이 좋습니다.\n5. 집중과 확장: 모달, 팝업, 팝오버\n사용자의 주의를 집중시키거나, 특정 요소에 대한 상세 정보를 제공할 때 쓰는 컴포넌트들이에요.\n모달 (Modal): 현재 페이지 위에 레이어처럼 떠오르는 창이에요. 주로 중요한 확인이나 정보 입력 등 사용자의 즉각적인 반응을 필요로 할 때 사용합니다. 계정 삭제 버튼을 클릭했을 때 화면 중앙에 모달 창이 뜨고 배경이 어두워지면서, 모달이 닫히기 전까지는 뒤 배경과 상호작용할 수 없게 되는 경우가 대표적이죠.\n팝업 (Popup): 모달과 달리 완전히 새로운 브라우저 창으로 열리는 방식이에요. 하지만 요즘은 대부분의 브라우저에서 팝업을 차단하기 때문에 잘 사용되지 않습니다. 중요한 확인이 필요할 때는 모달을 쓰는 것이 일반적이에요.\n팝오버 (Popover): 특정 요소를 클릭했을 때 그 근처에 나타나는 작은 정보창이에요. 모달보다는 가볍고, 툴팁보다는 많은 내용을 담을 수 있습니다. 사용자 아바타를 클릭하면 바로 아래에 프로필 미리보기 팝오버가 나타나고, 팝오버 바깥을 클릭하면 자동으로 사라지는 식이죠. 전체 화면을 가리지 않으면서 필요한 정보를 바로 볼 수 있어서 간단한 메뉴나 정보 표시에 아주 유용해요.\n6. 시각적 소통: 아이콘\n텍스트 없이도 의미를 전달하는 강력한 시각적 요소입니다.\n아이콘 (Icon): 텍스트 없이도 의미를 전달하는 시각적 요소로, 일관된 스타일로 사용하는 것이 정말 중요해요. 예를 들어, 정보 아이콘은 파란색 동그라미에 'i'자, 성공 아이콘은 초록색 체크 마크, 경고 아이콘은 노란색 삼각형에 느낌표, 오류 아이콘은 빨간색 엑스표 등 색상과 모양만으로도 의미를 즉시 파악할 수 있도록 디자인됩니다. 버튼 안에 아이콘을 넣을 때는 텍스트와의 간격을 잘 맞추면 훨씬 보기 좋아요.\n✨ 실전 활용: UI 컴포넌트로 나만의 계산기 앱 만들기\n이제 이론적으로 배운 컴포넌트들을 실제로 어떻게 활용하는지, 간단한 계산기 앱을 만들면서 보여드릴게요. 요즘 핫한 노코드/로우코드 앱 빌더를 활용하면, 채팅창에 원하는 컴포넌트 목록과 기능을 설명하는 것만으로도 앱이 뚝딱 만들어진답니다.\n다양한 컴포넌트를 활용하여 만든 다기능 계산기는 아래 링크를 참고하세요.\n\n \n로그인 - Google 계정\n이메일 또는 휴대전화\naccounts.google.com\n\n\n \n \n예를 들어, 채팅창에 '일반/공학/단위변환 기능이 포함된 계산기를 만들어 줘. 다음 컴포넌트들을 모두 사용해'라고 입력하고, 앞서 설명한 버튼, 탭, 토글, 체크박스, 슬라이더, 라디오 버튼, 드롭다운, 로더, 팝오버 등의 목록을 제공하는 거죠. 그러면 AI가 이 모든 요구사항을 반영해서 멋진 계산기 앱을 만들어줍니다.\n메인 화면: 버튼과 탭이 기본으로 구성됩니다. 설정 아이콘을 클릭하면 모달 창이 뜨는데, 여기에는 토글 스위치, 체크박스, 슬라이더 등 다양한 컴포넌트가 보이죠.\n공학용 탭: 각도 단위 선택을 위한 라디오 버튼, 계산 과정 보기를 위한 로더(AI가 결과 출력 전까지) 등이 배치됩니다.\n단위 변환 탭: 변환 종류 및 from/to 단위를 선택할 때 드롭다운이 사용되고, 변환할 값은 입력창을 통해 받게 되어 있어요.\n이처럼 앱 빌더를 활용하면 우리가 배운 대부분의 컴포넌트를 사용한 앱을 순식간에 완성할 수 있습니다. 놀랍지 않나요? 솔직히 전 처음 보고 좀 놀랐어요.\n\n\n  문제 해결도 컴포넌트 이름을 정확히 알면 훨씬 쉬워져요!\n가령, 계산기록 팝오버 창이 잘리는 문제를 발견했을 때, 채팅창에 '계산기록 팝오버 창이 잘리는 문제를 해결해'라고 요청하면 바로 수정됩니다. 또, 라이트 모드에서 단위 변환 탭의 드롭다운 목록 글자색이 배경과 비슷해서 잘 안 보인다면, '라이트 모드에서 단위 변환 탭의 드롭다운 목록 글자색을 흰색으로 변경해'라고 정확히 요청할 수 있죠. 컴포넌트 이름을 모른다면 '저기, 그거 검은색으로 바꿔줘'라고 말하며 답답해했을 거예요. 명칭을 아는 것이 이렇게 중요합니다.\n  핵심 요약\n✅ UI 컴포넌트는 재사용성과 일관성을 통해 개발 효율을 극대화합니다.\n✅ 버튼, 입력 필드, 탭, 드롭다운, 라디오 버튼, 체크박스, 토글은 사용자 상호작용의 기본입니다.\n✅ 슬라이더, 알림, 로더, 툴팁, 모달, 팝오버, 아이콘은 사용자 경험을 풍부하게 만드는 핵심 요소입니다.\n✅ 컴포넌트의 정확한 명칭과 용도 이해는 문제 해결 능력을 높이고 개발 속도를 가속화합니다.\n이 핵심들을 기억하면 UI 개발이 더 이상 어렵지 않을 거예요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: UI 컴포넌트의 명칭을 정확히 아는 것이 왜 그렇게 중요한가요?\nA1: 컴포넌트의 정확한 명칭을 알면 개발자 간의 소통이 원활해지고, 필요한 기능을 검색하거나 문제 해결을 위해 AI 도구에 요청할 때 더욱 정확하고 빠르게 해결할 수 있습니다. 마치 공구 이름을 모르면 집을 짓기 어려운 것과 같아요.\nQ2: 드롭다운, 라디오 버튼, 체크박스, 토글은 어떤 기준으로 구분해서 사용해야 하나요?\nA2: 드롭다운은 선택지가 많을 때 화면 공간을 효율적으로 사용하고, 라디오 버튼은 여러 옵션 중 단 하나만 선택할 때, 체크박스는 여러 개를 동시에 선택하거나 동의 여부를 표시할 때 사용합니다. 토글은 켜짐/꺼짐처럼 두 가지 상태를 직관적으로 전환할 때 적합합니다. 각 컴포넌트의 특성을 이해하고 사용자 경험에 맞춰 선택하는 것이 중요해요.\nQ3: 모달과 팝오버는 어떻게 다른가요?\nA3: 모달은 현재 페이지 위에 레이어처럼 떠서 사용자의 주의를 집중시키고, 모달이 닫히기 전까지는 뒤 배경과 상호작용할 수 없습니다. 중요한 확인이나 정보 입력에 주로 사용하죠. 반면 팝오버는 특정 요소를 클릭했을 때 그 근처에 나타나는 작은 정보창으로, 모달보다 가볍고, 팝오버 바깥을 클릭하면 자동으로 사라지는 등 비교적 가벼운 정보 표시에 사용됩니다.\n  마무리하며: UI 컴포넌트, 개발 속도를 결정하는 핵심!\n오늘 우리는 버튼부터 아이콘까지 15가지 핵심 UI 컴포넌트들의 정확한 이름과 용도를 배워봤어요. 이제 더 이상 '저기 있는 그거!'가 아니라, '드롭다운 컴포넌트'라고 정확히 말할 수 있게 된 거죠. 이런 작은 변화가 실제 개발 환경에서는 엄청난 효율 차이를 만듭니다. UI 컴포넌트에 대한 깊은 이해는 선택이 아니라 개발자의 필수 역량이라고 감히 말씀드리고 싶어요.\n  직접 경험해보세요!\n이 글에서 설명한 'UI 컴포넌트 쇼케이스'와 '계산기 앱'은 글 설명란 링크에서 직접 체험해보실 수 있도록 준비해둘게요. 눈으로 보는 것과 직접 만져보는 것은 정말 다르답니다. 복습하시면서 각 컴포넌트의 동작 방식과 용도를 몸으로 익히시면, 훨씬 더 확실하게 개념을 잡으실 수 있을 거예요.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://jojoldu.tistory.com/847",
-    "pubDate": "Sun, 28 Sep 2025 15:30:31 +0900",
-    "creator": "향로 (기억보단 기록을)",
+    "link": "https://muzbox.tistory.com/483661",
+    "pubDate": "Sun, 28 Sep 2025 00:25:28 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "생각정리",
-      "개발자",
-      "백태태",
-      "아사다 지로",
-      "이춘운",
-      "재능",
-      "창궁의 묘성",
-      "커리어"
+      "AI, 미래기술/AI 인사이트",
+      "DALL-E 프롬프트",
+      "UI 컴포넌트",
+      "UX 디자인",
+      "개발 속도",
+      "개발 효율",
+      "레고 블록 UI",
+      "사용자 인터페이스",
+      "웹 개발",
+      "컴포넌트 라이브러리",
+      "프론트엔드"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "실패를 통과하는 일",
-    "description": "퍼블리 창업자 박소령님의 책 실패를 통과하는 일을 재밌게 읽고 북토크도 다녀왔습니다.\n저는 커리어리에서 큐레이터로 활동을 한 적이 있습니다.\n이후에도 메일을 여러 번 주고받았습니다.\n\n다시 읽어봐도 따뜻하고 배려가 돋보이는 메일\n이런 회사들이 잘 되면 좋겠다 생각했던 것 같습니다.\n하지만 이 메일을 써주신 분은 1개월 뒤에 갑작스레 회사를 떠나게 됐다는 퇴사 메일을 보내주셨습니다.\n회사를 위해 이렇게 열심히 큐레이터들과 커뮤니케이션하다가 갑작스레 해고 통보를 받는다는 건 어떤 느낌일까요? 너무 끔찍해서 상상을 이어가기가 어렵습니다.\n리더라는 자리는 얼마나 고통스러운 자리인가.\n또 한 가지 인상적인 일도 떠오릅니다.\n어제 북토크 말미에서도 이와 비슷한 상황을 봤습니다.\n기왕 책을 썼으니 지금 할 수 있는 일에 최선을 다해보자는 마음이라는 얘기를 들었습니다.\n한 편으로 제 부족한 모습도 다시 한번 반성했습니다.\n책을 써놓고는 마무리는 편집자에게 다 떠넘기고 북토크든 유튜브든 출연하기 싫어했던 제 모습. 부끄러움을 느꼈습니다.\n아니!?\n정말 우연히도 뒷자리에 제 책의 편집자님이 와있는 것 아니겠습니까?\n조금 전에 했던 생각 그대로 미안한 마음을 전달하며 편집자님과 잠시 담소를 나눴습니다. 😁\n집에 걸어오면서 생각했습니다.\n함께 읽으면 좋은 글:\n맙소사, 내가 책을 쓸 줄이야\n회사를 그만두도록 뽐뿌를 준 책들",
+    "title": "토스, 토스쇼핑서 10월 한 달간 ‘10% 적립 프로모션’ 진행",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/09/30/passing-failure.html",
-    "pubDate": "2025-09-30T07:42:00.000Z",
+    "link": "https://toss.im/tossfeed/article/41221",
+    "pubDate": "Wed, 01 Oct 2025 15:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   }
