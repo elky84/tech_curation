@@ -2,21 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "나온지 아무도 모르는 애플 비전프로 M5",
-    "description": "이 사진이 유명한가봅니다. 언론에선 다 이거 쓰네요\n \n \n영상: https://www.youtube.com/watch?v=TBvFev6V9jc\n\n\n\n일단 유튜브에 사는 사람도 없구요\n홈페이지 정보로만 파악해봅시다.\nㅋㅋㅋ",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1441",
-    "pubDate": "Thu, 23 Oct 2025 23:06:02 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "애플"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
     "title": "반복된 안개 속 드러나는 진실, 사일런트 힐 f",
     "description": "No description available",
     "reviews": [],
@@ -29,84 +14,98 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "imageUrl": "",
-    "title": "토스, 앱인토스 출시 100일 만에 제휴 미니앱 200개 돌파",
-    "description": "금융 넘어 생활 서비스로 확장",
+    "title": "Why Performance Matters in Python Development",
+    "description": "This is a guest post from Dido Grigorov, a deep learning engineer and Python programmer with 17 years of experience in the field. Python’s flexibility and ease of use make it a go-to language for developers, but its interpreted nature and global interpreter lock (GIL) can lead to performance bottlenecks, especially in large-scale or resource-intensive […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/41463",
-    "pubDate": "Mon, 20 Oct 2025 07:15:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/pycharm/2025/10/why-performance-matters-in-python-development/",
+    "pubDate": "Thu, 23 Oct 2025 11:31:12 +0000",
+    "creator": "Evgenia Verbina",
+    "categories": [
+      "web-development",
+      "performance",
+      "python"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Modernizing Visual Studio Extension Compatibility: Effortless Migration for Extension Developers and Users",
+    "description": "We have great news for extension users and developers: Visual Studio 2026 is introducing an extension compatibility model designed specifically to make your life easier. Our top priority is to ensure that your extensions continue to work seamlessly across Visual Studio releases – with no extra effort required from you. For users: extensions that work […]\nThe post Modernizing Visual Studio Extension Compatibility: Effortless Migration for Extension Developers and Users appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/modernizing-visual-studio-extension-compatibility-effortless-migration-for-extension-developers-and-users/",
+    "pubDate": "Tue, 21 Oct 2025 14:00:36 +0000",
+    "creator": "Tina Schrepfer (LI)",
+    "categories": [
+      "Extensibility",
+      "Visual Studio",
+      "Extensions",
+      "Visual Studio 2026"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "토스페이먼츠, 미스터홈즈와 업무협약 체결…부동산 거래 투명성 높인다",
-    "description": "부동산 거래에 카드 결제 시스템 도입",
+    "title": "함께 목소리 내기",
+    "description": "스트롱의 mission statement는 “Together, We are All Strong”이다. 아주 간단한 문장이지만, 이 문장을 만드는 과정은 간단하지 않았고, 표면적인 의미는 단순하지만, 내포하는 의미는 꽤 깊고 powerful 하다. 우리가 봤을 때 스타트업의 생태계를 만들고, 이끌고, 지탱하는 가장 큰 3명의 이해관계자는 LP, GP, 그리고 창업가이다. LP는 우리 같은 VC에게 자금을 제공해 주는, 돈 먹이사슬의 가장 상단에 있는 우리의(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/41465",
-    "pubDate": "Mon, 20 Oct 2025 07:22:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2025/10/stand-up-speak-up.html",
+    "pubDate": "Sun, 19 Oct 2025 21:34:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork",
+      "inspiring",
+      "Strong",
+      "vc"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Scaling LLM Inference: Innovations in Tensor Parallelism, Context Parallelism, and Expert Parallelism",
-    "description": "At Meta, we are constantly pushing the boundaries of LLM inference systems to power applications such as the Meta AI App. We’re sharing how we developed and implemented advanced parallelism techniques to optimize key performance metrics related to resource efficiency, throughput, and latency. The rapid evolution of large language models (LLMs) has ushered in a [...]\nRead More...\nThe post Scaling LLM Inference: Innovations in Tensor Parallelism, Context Parallelism, and Expert Parallelism appeared first on Engineering at Meta.",
+    "title": "작년보다 카드값 많이 나왔다면? 상생페이백으로 최대 30만원 환급 받으세요!",
+    "description": "늘어난 카드 소비액 20%를 디지털 온누리상품권으로 돌려드려요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/10/17/ai-research/scaling-llm-inference-innovations-tensor-parallelism-context-parallelism-expert-parallelism/",
-    "pubDate": "Fri, 17 Oct 2025 16:00:50 +0000",
+    "link": "https://toss.im/tossfeed/article/money-policies-52",
+    "pubDate": "Fri, 24 Oct 2025 05:42:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "AI Research"
-    ]
+    "categories": []
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "토스플레이스, 설치 가맹점 수 20만 돌파…최고 밀집 상권은 ‘홍대’",
-    "description": "트렌드 상권에 집중",
+    "title": "Scaling Privacy Infrastructure for GenAI Product Innovation",
+    "description": "How does Meta empower its product teams to harness GenAI’s power responsibly? In this post, we delve into how Meta addresses the challenges of safeguarding data in the GenAI era by scaling its Privacy Aware Infrastructure (PAI), with a particular focus on Meta’s AI glasses as an example GenAI use case.  We’ll describe in detail [...]\nRead More...\nThe post Scaling Privacy Infrastructure for GenAI Product Innovation appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/41459",
-    "pubDate": "Mon, 20 Oct 2025 07:10:00 GMT",
+    "link": "https://engineering.fb.com/2025/10/23/security/scaling-privacy-infrastructure-for-genai-product-innovation/",
+    "pubDate": "Thu, 23 Oct 2025 08:00:00 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "Security & Privacy"
+    ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "311일차 근황",
-    "description": "영상: https://youtu.be/2qLguSpuX2Q\n\n\n\n \n은퇴자용ETF 소개\nKodex 미국S&P500데일리커버드콜OTM\n코드: 0005A0\n1년에 15% 배당이 나오는 S&P500\n \n유니티 할로윈 이벤트 응모\n개발 영상을 올리면 잡다한 보상을 주는 이벤트 입니다.\n24일까지라 시간이 얼마 없으니 지금 준비하긴 늦었을 것입니다.\n \n갤럭시XR\n참고영상: https://www.youtube.com/live/tzj9tFHtm_Y?si=VTV5SnPTlND-whzt\n\n\n\n \n컨트롤러가 부담된다 33만원\n사용자 리뷰 영상을 기다리는중\n \n아이폰17 발매로 중고가 떡락\n저라면 아이폰16 플러스 사고 싶긴한데\n갤럭시XR 나왔으니 갤럭시로 넘어갈까 고민중입니다.\n \nNFT 아트 근황\n첨부영상: https://youtu.be/8q3lQkxtA8A?si=76ui-HKGMG1BxQYN\n\n\n\n \n \n \n가치가 1/100 로 급락해버렸고 거래도 없습니다.\n버블이라고 봐야겠죠\n인터넷 광케이블 버블\n2차전지 버블\n등도 이야기 합니다.\n \n \n개발 계획 공유\nNFT 망했어도 게임에 적용할 예정입니다.\nXR 기기 대응을 계획에 추가했습니다.",
+    "title": "에스티팜 - 오르면 빠지는 바이오 종목",
+    "description": "설명은 들어보자\n영상: https://www.youtube.com/watch?v=8wTfXWnQ7t0\n\n\n\n영상만 보면 갓 치료재 회사인데 \n주가는 안가는 저주에 빠졌습니다.\n죽어라 횡보하는군요\n좋은건 사실이니까 소개만 해드리겠습니다. \n \n \n연중 차트 (2025년)\n\n\n최근에도 갈것 같이하다 확빼버렸습니다.\n \n \n5년치 차트\n\n\n미치도록 안가는 회사군요\n \n빠질때 사면 올라오는 회사 같습니다.\n급등하면 팔아야하는 특성이 있습니다.\n잘못 사면 5년도 물릴 수 있는 종목이라 빠질때 물타서 회속할대 나오는걸 반복해야겠습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1440",
-    "pubDate": "Thu, 23 Oct 2025 18:13:09 +0900",
+    "link": "http://serverdown.tistory.com/1445",
+    "pubDate": "Fri, 24 Oct 2025 14:26:36 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브",
-      "근황"
+      "투자"
     ]
   },
   {
     "id": 8,
-    "imageUrl": "",
-    "title": "데이터 노가다 실수담 - 13th",
-    "description": "3만 개에 육박하는 변수 발생 내역. 같은 변수라도 달라지는 값 때문에 다양성이 증가한 결과.  \n\n\n\n\n\n변수값으로 사용된 숫자만 삭제해도 다양성을 줄여 데이터 발생 범위를 좁힐 수 있다. 내가 알고 싶은 건 전체적인 변수 변화지, 세부적인 변수값 변화가 아니기 때문. 분석 목적에 영향을 주지 않는 요소를 제거하는 차원 축소 결과. \n\n\n\n그런데 URL 인코딩 패턴 때문에 가독성이 떨어진다. 디코딩 시도.\n\n\n\n\n\n왜 디코딩이 안 되지?\n\n\n%2F는 /를 의미하는 16진수 2F를 URL 인코딩한 결과. 그런데 변수 내역을 보니 숫자가 없다. 삭제 과정에서 URL 인코딩 패턴의 숫자까지 삭제했구나(..) 변수값으로 사용된 순수 숫자만을 삭제해야 한다.\n\n\n\n\n\n\n\n\n\n데이터 처리 과정 전반에 관여하는 정규표현식에 대한 이해 없이는 그 좋다는 스플렁크를 제대로 사용하기 어렵다. 엑셀로 표만 그리는 수준에 머무르기 십상.\n\n\n관련 글\n\n데이터 노가다 실수담 - 14th\n데이터 노가다 실수담 - 12th\nVIM 꼼수의 발견 - 10th",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/10/13th.html",
-    "pubDate": "2025-10-17T08:04:00.009Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "아무도 몰랐던 F1~F12 키보드 기능키의 비밀: 60년 역사를 파헤치다",
     "description": "오래된 키보드 위에 놓인 F1부터 F12까지의 기능키들, 혹시 그 존재의 이유나 오늘날의 활용법에 대해 깊이 생각해본 적 있으신가요? 많은 사람이 무심코 지나치는 이 키들에는 사실 60년에 걸친 놀라운 역사와 효율을 향한 기술 발전의 노력이 담겨 있답니다. 오늘은 이 숨겨진 이야기들을 함께 파헤쳐 볼까요?\n⌨️ F1~F12 기능키, 대체 왜 만들어졌을까?\n\n\n키보드 상단의 F1부터 F12까지, 이 기능키들은 언뜻 보면 가장 많이 사용되는 키는 아닌 것 같아요. 스크롤 락(Scroll Lock)이나 인서트(Insert) 키처럼 아예 쓸모없게 느껴지진 않지만, 그 오랜 존재감에도 불구하고 많은 사람에게는 여전히 미스터리죠. 사실 컴퓨터 역사의 다른 많은 표준처럼, 이 기능키들에도 흥미로운 이야기가 숨어 있습니다. 이 키들이 처음 만들어진 시절의 기술적 제약은 지금은 더 이상 문제가 되지 않지만, 여전히 유용하게 활용될 수 있는 방법이 많답니다.\n그래픽 없는 시절의 필수품\n거슬러 올라가 1960년대와 1970년대, 컴퓨터는 지금처럼 화려한 그래픽 사용자 인터페이스(GUI)가 없었어요. 오직 키보드를 통해서만 컴퓨터와 상호작용해야 하는 터미널 인터페이스 시대였죠. 요즘처럼 Ctrl + C 같은 단축키도 1970년대 제록스(Xerox) 직원들이 고안하기 전까지는 존재하지 않았고요.\n생각해 보세요. 수십 가지 기능을 클릭할 수 있는 메뉴에 숨겨둘 수도 없었던 시절, 사용자는 모든 명령어를 일일이 기억해야 했습니다. 프로그램마다 명령어 체계도 통일성이 없었으니, 이건 정말 어려운 일이었을 거예요. 제가 만약 그 시절 사람이었다면 아마 컴퓨터 사용을 포기했을지도 모르겠네요!\n효율성을 위한 혁신\n바로 이때, F(Function) 키가 등장했습니다! 사용자들은 이 키를 이용해 프로그램에 빠르게 명령을 전달할 수 있었죠. F 키는 특정 프로그램에 고정된 목적이 없었기 때문에, 각 프로그램은 이 키들을 자신에게 유용한 기능으로 자유롭게 할당할 수 있었습니다. 덕분에 자주 쓰는 기능은 외워서 쓰고, 화면에 표시된 텍스트를 통해 어떤 F 키가 무슨 기능을 하는지 확인하면서 명령줄 프로그램 사용이 훨씬 쉬워졌어요.\n  알고 계셨나요? 레딧 사용자 Kufat에 따르면, 기능키가 가치 있었던 또 다른 깊은 이유가 있대요. 바로 컴퓨터에 명령을 전송하는 데 필요한 입력 횟수를 줄여주었다는 점인데요. 옛날 시스템은 키를 한 번 누를 때마다 메인프레임 작업을 중단시키는 경우가 많았기 때문에, 최소한의 키 입력으로 작업을 수행하는 것이 효율성에 정말 중요했다고 합니다!\n  왜 하필 12개일까? 그 숨겨진 이야기\n왜 기능키가 12개나 되는지에 대한 궁금증, 저도 예전부터 참 많았는데요. 이 질문에 대한 답은 1981년에 출시되어 엄청난 인기를 끌었던 IBM PC에서 찾아볼 수 있습니다. 이 기종이 컴퓨터 업계의 수많은 비공식적인 표준을 만들어냈거든요.\nIBM PC는 처음에는 왼쪽에 10개의 기능키가 달린 Model F 키보드와 함께 출시되었어요. 그런데 IBM은 나중에 더 저렴하고, 지금은 전설적인 키보드로 불리는 Model M 키보드로 이를 교체했습니다. 이 Model M 키보드의 폭발적인 인기는 수많은 복제품을 낳았고, 그 결과 상단에 12개의 기능키가 배열된 이 레이아웃이 오늘날 키보드의 사실상 표준이 되었답니다. 참 재미있죠?\n\n\n  2025년, F1~F12 키의 현대적 활용법 (Windows 기준)\n한때 프로그램별로 자유롭게 프로그래밍되었던 기능키들은 이제 어느 정도 정형화된 목적을 가지게 되었어요. 물론 다양한 프로그램에서 각기 다르게 사용되기도 하지만, 대부분의 앱에서 공통적으로 발견되는 유용한 기능들이 있답니다. 오늘은 2025년 현재 Windows 운영체제를 기준으로 F1부터 F12까지의 주요 기능들을 살펴볼게요. (참고로 Mac 키보드에서는 F 키에 화면 밝기 조절, 미디어 제어 등 다른 기능이 인쇄되어 있고, Fn 키를 눌러야 표준 기능키로 작동해요.)\n기능키\n주요 기능 (Windows)\n팁 & 활용\n\n\n\n\nF1\n대부분의 프로그램에서 도움말(Help) 메뉴 열기\nWin + F1은 Edge에서 \"Windows 11 도움말\"을 검색하니 주의하세요.\n\n\nF2\n파일/폴더 이름 변경, Excel/Google Sheets 셀 편집\n선택된 파일에 F2를 누르면 바로 이름 변경 가능! BIOS 진입 시에도 사용돼요.\n\n\nF3\n프로그램 내 검색 기능 실행 (Ctrl + F와 유사)\n검색 후 F3을 누르면 다음 결과로 이동! 명령 프롬프트에서 이전 명령 반복.\n\n\nF4\n파일 탐색기 주소 표시줄 활성화, Alt + F4로 창 닫기, Ctrl + F4로 탭 닫기\nAlt + F4는 의외로 자주 쓰게 되는 단축키죠!\n\n\nF5\n브라우저/파일 탐색기 새로고침, PowerPoint 슬라이드 쇼 시작\nCtrl + F5는 브라우저 캐시 무시하고 강제 새로고침! 개발자에게 유용해요.\n\n\nF6\n웹 브라우저 주소 표시줄로 커서 이동\n빠르게 검색하거나 다른 페이지로 이동할 때 편리해요.\n\n\nF7\nMS Office 맞춤법 검사, Shift + F7로 동의어 사전, 브라우저에서 '캐럿 탐색' 활성화\nOffice 작업이 많은 분들에게 특히 유용하겠네요.\n\n\nF8\nMS Office 매크로 창, Excel 선택 영역 확장\n예전 Windows에서는 안전 모드 진입 키였으나, 요즘은 사용 빈도가 낮아요.\n\n\nF9\nWord 문서 새로고침, Outlook 수동 송수신, Excel 수식 재계산\nOffice 사용자라면 알아두면 좋은 기능들이 많죠.\n\n\nF10\n앱 메뉴 바 활성화, Shift + F10으로 마우스 우클릭\n마우스가 고장 났거나 키보드만 쓸 때 Shift + F10은 정말 편리해요!\n\n\nF11\n대부분의 앱 전체 화면 모드 전환\n다른 방해 없이 하나의 앱에 집중하고 싶을 때 최고죠!\n\n\nF12\n브라우저 개발자 도구 활성화, 여러 앱에서 다른 이름으로 저장 대화 상자 열기\n웹 개발자들에게 F12는 없어서는 안 될 친구죠!\n\n\n\n⚠️ 주의! F 키들은 프로그램에 따라 기능이 달라질 수 있어요. 특히 일부 노트북에서는 Fn 키와 함께 눌러야 본래의 F 키 기능을 하는 경우도 있으니, 사용 전 확인하는 것이 좋겠죠?\n  활용도를 높이는 방법: 기능키 재매핑\n앞서 살펴본 것처럼 F 키들은 여전히 유용하게 쓰이지만, 만약 자신에게 필요한 기능이 아니라면 어떻게 해야 할까요? 저는 개인적으로 F8 키는 거의 쓰지 않는 편인데요. 이런 경우 F 키들을 자신만의 방식으로 재매핑해서 활용도를 극대화할 수 있답니다!\n\n\n특히 Windows 사용자라면, 마이크로소프트의 숨겨진 보석 같은 도구 모음인 PowerToys 스위트에 포함된 '키보드 관리자(Keyboard Manager)' 유틸리티를 활용하는 것을 추천해요. 이 도구를 사용하면 특정 F 키에 원하는 다른 키 조합이나 명령을 할당할 수 있어서, 나만의 맞춤형 키보드를 만들 수 있습니다. 예를 들어, 자주 사용하는 특정 프로그램을 실행하거나, 복잡한 단축키를 F8 하나로 대체하는 식이죠. 정말 편리하지 않나요?\n✨ 핵심 요약: F 기능키, 과거와 현재를 잇다\n  핵심 요약\n1. 기능키의 탄생 배경: 1960~70년대 그래픽 없는 컴퓨터 시대, 복잡한 명령어를 빠르게 입력하기 위한 효율적인 수단으로 개발되었습니다.\n2. 12개 표준의 비밀: 1981년 출시된 IBM PC와 Model M 키보드의 폭발적인 인기가 오늘날 12개의 기능키 배열을 표준으로 만들었습니다.\n3. 오늘날의 F 키 활용: 도움말(F1), 이름 변경(F2), 새로고침(F5), 전체 화면(F11) 등 다양한 프로그램에서 유용하게 사용되는 핵심 기능들이 많습니다.\n4. 나만의 기능키 만들기: PowerToys의 '키보드 관리자' 같은 도구를 이용해 F 키를 재매핑하여 자신만의 맞춤형 단축키로 활용할 수 있습니다.\n기능키는 단순한 키보드 버튼을 넘어, 컴퓨터 발전의 한 단면을 보여주는 흥미로운 유산입니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 기능키는 모든 운영체제에서 동일하게 작동하나요?\n아니요, 그렇지 않습니다. 오늘 글에서는 Windows 운영체제를 기준으로 설명했지만, Mac 키보드의 F 키는 기본적으로 밝기 조절, 미디어 제어 등 다른 멀티미디어 기능을 수행하며, Fn 키를 눌러야 일반적인 F 키로 작동합니다. Linux 등 다른 운영체제에서도 프로그램에 따라 기능이 달라질 수 있습니다.\nQ2: F 키의 원래 기능이 아닌 다른 기능으로 바꾸는 방법이 있나요?\n네, 가능합니다. Windows 사용자라면 Microsoft PowerToys 스위트에 포함된 '키보드 관리자(Keyboard Manager)' 유틸리티를 사용하면 F 키에 다른 키 조합이나 원하는 명령을 할당하여 재매핑할 수 있습니다. Mac 사용자 역시 시스템 설정에서 기능키를 재설정할 수 있습니다.\nQ3: F 키 중 가장 유용한 키는 무엇이라고 생각하세요?\n제 개인적인 경험으로는 F5 (새로고침), F2 (이름 변경/셀 편집), 그리고 Alt + F4 (창 닫기)가 가장 빈번하게 사용되고 유용하다고 생각합니다. 특히 웹 서핑이나 문서 작업 시 시간을 크게 절약해주는 기능들이죠. 물론 사용자마다 선호하는 기능은 다를 수 있습니다!\n { \"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [ { \"@type\": \"Question\", \"name\": \"기능키는 모든 운영체제에서 동일하게 작동하나요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"아니요, 그렇지 않습니다. 오늘 글에서는 Windows 운영체제를 기준으로 설명했지만, Mac 키보드의 F 키는 기본적으로 밝기 조절, 미디어 제어 등 다른 멀티미디어 기능을 수행하며, Fn 키를 눌러야 일반적인 F 키로 작동합니다. Linux 등 다른 운영체제에서도 프로그램에 따라 기능이 달라질 수 있습니다.\" } }, { \"@type\": \"Question\", \"name\": \"F 키의 원래 기능이 아닌 다른 기능으로 바꾸는 방법이 있나요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"네, 가능합니다. Windows 사용자라면 Microsoft PowerToys 스위트에 포함된 '키보드 관리자(Keyboard Manager)' 유틸리티를 사용하면 F 키에 다른 키 조합이나 원하는 명령을 할당하여 재매핑할 수 있습니다. Mac 사용자 역시 시스템 설정에서 기능키를 재설정할 수 있습니다.\" } }, { \"@type\": \"Question\", \"name\": \"F 키 중 가장 유용한 키는 무엇이라고 생각하세요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"제 개인적인 경험으로는 F5 (새로고침), F2 (이름 변경/셀 편집), 그리고 Alt + F4 (창 닫기)가 가장 빈번하게 사용되고 유용하다고 생각합니다. 특히 웹 서핑이나 문서 작업 시 시간을 크게 절약해주는 기능들이죠. 물론 사용자마다 선호하는 기능은 다를 수 있습니다!\" } } ] } \n어떠셨나요? 오늘은 키보드 위에 존재하지만 무심코 지나쳤던 F1~F12 기능키들의 흥미로운 역사와 현대적 활용법, 그리고 개인화 팁까지 알아보는 시간을 가졌습니다. 이 작고 오래된 키들이 컴퓨터 발전의 한 단면을 보여주는 동시에, 여전히 우리의 디지털 생활을 더 스마트하게 만들어줄 수 있다는 사실이 정말 놀랍지 않나요?\n다음번 키보드를 사용할 때는 F 키들을 한 번 더 살펴보며 숨겨진 기능들을 활용해보시길 바랍니다. 작은 변화가 큰 편리함으로 이어질 수도 있을 거예요! 그럼 다음에 또 흥미로운 이야기로 찾아올게요!",
@@ -130,54 +129,54 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "imageUrl": "",
-    "title": "[MULTI] 궁극체 진화까지 조금만 더, 디지몬 스토리 타임 스트레인저",
-    "description": "No description available",
+    "title": "From Python to Kotlin: A Transition Worth Making",
+    "description": "This article was written by an external contributor. When it comes to writing short scripts or CRUDs, Python is a great choice. With its rich ecosystem and broad adoption, it can be easily used to scrape some data or to perform data analysis. However, maintaining a large codebase in Python can be very problematic. Python’s […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2378",
-    "pubDate": "Thu, 23 Oct 2025 09:20:41 +0900",
-    "creator": "(RULIWEB`Д')/",
+    "link": "https://blog.jetbrains.com/kotlin/2025/10/from-python-to-kotlin-a-transition-worth-making/",
+    "pubDate": "Wed, 22 Oct 2025 11:29:44 +0000",
+    "creator": "Alina Dolgikh",
     "categories": [
-      "리뷰"
+      "industry-trends",
+      "kotlin",
+      "python",
+      "news"
     ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "우주에서 펼쳐지는 새로운 산업 경쟁",
+    "description": "우주 산업 구조 변화와 투자의 기회",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/US-Investment-Insights-5",
+    "pubDate": "Fri, 24 Oct 2025 01:52:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "멕시코 게임 폭력세 부과 법안 검토중",
-    "description": "로고에 있는건 팀닌자 팀로고 입니다.\n으들은 폭력적이거나 야한 비디오게임 전문 개발 팀입니다.\n \n \n \n영상: https://youtu.be/2nQKVtKBFVs?t=661\n\n\n\n11분에 나옵니다.\n \n\n\nC 등금: 폭력적이거나 성적 컨텐츠가 있다.\nD 등금: 폭력적이거나 성적 컨텐츠가  자주 나온다.\n \n청소년의 공격성과 고립감 등의 연관성이 확인되었다고 하네요\n매출의 8% 를 내야하는거 같습니다.",
+    "title": "How BoldSign Modernized Development at Scale With JetBrains dotUltimate",
+    "description": "When the engineering team at Syncfusion set out to build BoldSign, a modern e-signature platform, they knew speed and stability would be critical. Supporting 40,000+ organizations across industries like finance, legal, and IT, BoldSign had to offer fast, secure document signing at scale without slowing down its own development cycles in the process.  But as adoption grew, so […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1436",
-    "pubDate": "Tue, 21 Oct 2025 17:50:41 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/dotnet/2025/10/23/how-boldsign-modernized-development-at-scale-with-jetbrains-dotultimate/",
+    "pubDate": "Thu, 23 Oct 2025 19:47:22 +0000",
+    "creator": "Mehul Harry",
     "categories": [
-      "게임",
-      "게임",
-      "멕시코"
+      "net-tools",
+      "case-study",
+      "rider",
+      "casestudy",
+      "dotultimate"
     ]
   },
   {
     "id": 12,
-    "imageUrl": "",
-    "title": "나는 아이폰 17 보다 16 Plus 중고로",
-    "description": "아이폰 구버전 중고가 가격 미췄다.\n외이러케 되었냐하면\n\n\n아이폰 17 새거 가격이 미춰버렸습니다.\n너무 가격이 잘나와서 중고가를 학살해버렸고\n애플 주가 마자 살려버렸습니다.\n\n\n25년 1월 부터 차트인데 17발표후 반등에 성공해서 최고가에 가버렸다.\n그만큼 이번제품은 좋다.\n \n중고가격 학살 쇼츠\n쇼츠: https://www.youtube.com/shorts/SUGzLE4BWTg\n\n\n\n \n이 영상보고 이것저것 찾아봤더니 이상황이였다.\n \n제품 포인트\n아이폰 17 은 디스플레이가 좋습니다.\n고 주사율에 밝기 등 모든면에서 월등합니다.\n하지만 나는 17 아니고 16 Plus 살껀데 이유는 \n화면 크기이다 이제 노안이라 키보드 치기도 힘들다 작은 화면으론 안돼겠다.\n더 좋은 디스플레이고 나발이고 화면 안보이면 닾이 없다.\n \n쇼핑 포인트\n중고 상품은 네이버 쇼핑이 싸다.\n새 재품은 쿠팡이 싸다\n수수료 문제로 싼제품은 쿠팡에서 팔면 이윤이 안남는다는 설도 있다.\n제품값이 꽤 비싸니까 네이버 플러스 였나 맴버쉽 등록해서 사야겠다.\n \n잘한다 애플",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1435",
-    "pubDate": "Tue, 21 Oct 2025 12:09:11 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "아이폰",
-      "애플",
-      "중고"
-    ]
-  },
-  {
-    "id": 13,
     "imageUrl": "",
     "title": "[MULTI] 새로운 옷을 입고 돌아온 새 시대의 순수 액션, 닌자 가이덴 4",
     "description": "No description available",
@@ -191,32 +190,47 @@
     ]
   },
   {
-    "id": 14,
+    "id": 13,
     "imageUrl": "",
-    "title": "Disaggregated Scheduled Fabric: Scaling Meta’s AI Journey",
-    "description": "Disaggregated Schedule Fabric (DSF) is Meta’s next-generation network fabric technology for AI training networks that addresses the challenges of existing Clos-based networks. We’re sharing the challenges and innovations surrounding DSF and discussing future directions, including the creation of mega clusters through DSF and non-DSF region interconnectivity, as well as the exploration of alternative switching technologies. [...]\nRead More...\nThe post Disaggregated Scheduled Fabric: Scaling Meta’s AI Journey appeared first on Engineering at Meta.",
+    "title": "갤럭시 XR 소개 요약 / Android XR / 체험 리뷰 퍼옴",
+    "description": "체험기 리뷰\n영상:https://www.youtube.com/watch?v=6SJ243AY67M\n\n\n\n이분은 아예 제품을 받으셨네요 ㄷㄷㄷ\n다른 영상에서 확인했는데 전용 베터리 라고 합니다.\n\n\n베터리 단자인데 본적없는 모양이군요\n\n\n장착하면 이렇게\n \n \n실시간 시청중입니다.\n \n영상: https://www.youtube.com/watch?v=tzj9tFHtm_Y\n\n\n\n \n \n \n공개된 사실\n가격 269만원\n컨트롤로 있으나 별매다.\n외부에 디스플레이는 없어 보인다. - 비전프로의 패르소나 없다.\n안드로이드 앱을 사용할 수 있다.\nAndroid XR 용 포토샵 앱이 있다. \n말을 해서 AI 가 앱을 전환하는 장면이 있었다.\n유튜브에 VR 탭이 생긴다.\n넷플릭스 XR 도 있다고 한다.\n아스트로이드 라는 웹 게임? 영화에 AI 가 나오고 대화가 가능한데\n한국어로 인사 해달라고 하자 한국말로 인사를 했다.\n영화는 360 도 모든곳을 돌려 볼 수 있었다.\nPC 의 화면을 그대로 볼 수 있다.\nPC 모니터가 없어도 XR 로 볼 수 있다는걸 강조한다.\n스타듀 밸리의 화면을 AI 에게 물어보는 시연이 있었다.\nAI 는 게임의 사용법을 설명해준다.\n친구들이 내 게임 화면을 볼 수 있다.\n스팀에서 보드게임 같이하는 기능인듯\nVR 아바타가 표시된다 버튜버용도로 쓸 수 있을 듯하다.\n표정과 손 움직임이 트래킹 된다.\n\n\n블루투스 게임 패드 별매\n오레오 과자 상자를 돌려보는 장면 등장 - 무리해서 넣은거 같다\n1799 달러\n구글 AI Pro 12 개월 공짜 - 30만원 쯤할듯\n유튜브 프리미엄 12 개월 무료 - 15만원쯤\n한국인은 티빙 구독권을 준다 - 6개\n충전중에도 사용할 수 있으며\n베터리로 동영상 촬영을 2시간반 정도\n \n확인하지 못한 부분\n외장베터리가 전용 단자인지 usb-c 베터리 인지 확인이 안됨\n오프라인에서 갤럭시 XR 용 처방 렌즈 - 다비치 안경점에서\n전화 - 폰이 갤럭시면 삼성 갤럭시 스토어 로그인을 해두면 문자와 전화를 동기화 해서 보거나 받을 수 있다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/10/20/data-center-engineering/disaggregated-scheduled-fabric-scaling-metas-ai-journey/",
-    "pubDate": "Mon, 20 Oct 2025 16:00:37 +0000",
-    "creator": "Unknown",
+    "link": "http://serverdown.tistory.com/1437",
+    "pubDate": "Wed, 22 Oct 2025 11:51:51 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Data Center Engineering",
-      "Networking & Traffic"
+      "유튜브",
+      "XR",
+      "갤럭시",
+      "삼성전자"
     ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "토스, 앱인토스 출시 100일 만에 제휴 미니앱 200개 돌파",
+    "description": "금융 넘어 생활 서비스로 확장",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/41463",
+    "pubDate": "Mon, 20 Oct 2025 07:15:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "[MULTI] 부침 후 새로운 시작, 배틀필드 6",
-    "description": "No description available",
+    "title": "나온지 아무도 모르는 애플 비전프로 M5",
+    "description": "이 사진이 유명한가봅니다. 언론에선 다 이거 쓰네요\n \n \n영상: https://www.youtube.com/watch?v=TBvFev6V9jc\n\n\n\n일단 유튜브에 사는 사람도 없구요\n홈페이지 정보로만 파악해봅시다.\nㅋㅋㅋ",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2374",
-    "pubDate": "Fri, 17 Oct 2025 16:39:28 +0900",
-    "creator": "「RULIWEB」",
+    "link": "http://serverdown.tistory.com/1441",
+    "pubDate": "Thu, 23 Oct 2025 23:06:02 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "리뷰"
+      "유튜브",
+      "애플"
     ]
   }
 ]
