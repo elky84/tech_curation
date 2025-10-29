@@ -2,115 +2,55 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "없다는 이야기를 신박하게 하는 방법 / 쇼츠",
-    "description": "영상: https://www.youtube.com/watch?v=G9PSHj1nAJk\n\n\n\n \n마지막에 ㅋ",
+    "title": "Evaluating Kotlin in Real Projects",
+    "description": "Guest post by Urs Peter, Senior Software Engineer and JetBrains-certified Kotlin Trainer. For readers who’d like a more structured way to build Kotlin skills, Urs also leads the Kotlin Upskill Program at Xebia Academy. This is the second post in The Ultimate Guide to Successfully Adopting Kotlin in a Java-Dominated Environment, a series that follows how […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1450",
-    "pubDate": "Mon, 27 Oct 2025 13:29:19 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "쇼츠",
-      "유머"
-    ]
+    "link": "https://blog.jetbrains.com/kotlin/2025/10/evaluating-kotlin-in-real-projects/",
+    "pubDate": "Tue, 28 Oct 2025 14:56:06 +0000",
+    "creator": "Alyona Chernyaeva",
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Scaling Privacy Infrastructure for GenAI Product Innovation",
-    "description": "How does Meta empower its product teams to harness GenAI’s power responsibly? In this post, we delve into how Meta addresses the challenges of safeguarding data in the GenAI era by scaling its Privacy Aware Infrastructure (PAI), with a particular focus on Meta’s AI glasses as an example GenAI use case.  We’ll describe in detail [...]\nRead More...\nThe post Scaling Privacy Infrastructure for GenAI Product Innovation appeared first on Engineering at Meta.",
+    "title": "Introducing Planning in Visual Studio (Public Preview)",
+    "description": "Quick prompts are great for small fixes, but they fall short on big projects. You end up rewriting instructions, tweaking them constantly, and hoping the model stays on track. It gives Copilot a visible, structured path to follow, one that updates as it works and keeps you in control at every step. In Agent Mode, […]\nThe post Introducing Planning in Visual Studio (Public Preview) appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/10/23/security/scaling-privacy-infrastructure-for-genai-product-innovation/",
-    "pubDate": "Thu, 23 Oct 2025 08:00:00 +0000",
-    "creator": "Unknown",
+    "link": "https://devblogs.microsoft.com/visualstudio/introducing-planning-in-visual-studio-public-preview/",
+    "pubDate": "Wed, 22 Oct 2025 15:54:18 +0000",
+    "creator": "Rhea Patel",
     "categories": [
-      "Security & Privacy"
+      "Artificial Intelligence",
+      "Copilot",
+      "GitHub Copilot",
+      "Visual Studio",
+      "Planning",
+      "Planning Mode",
+      "Spec Driven Development"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "The State of Django 2025",
-    "description": "Welcome to the highlights and key takeaways from the recently released Django Developers Survey. Now in its fourth year, this annual collaboration between the Django Software Foundation and PyCharm tabulates responses from over 4,600 Django developers worldwide. If you work with Python and the web more broadly, there’s a lot to learn from what’s happening […]",
+    "title": "How BoldSign Modernized Development at Scale With JetBrains dotUltimate",
+    "description": "When the engineering team at Syncfusion set out to build BoldSign, a modern e-signature platform, they knew speed and stability would be critical. Supporting 40,000+ organizations across industries like finance, legal, and IT, BoldSign had to offer fast, secure document signing at scale without slowing down its own development cycles in the process.  But as adoption grew, so […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2025/10/the-state-of-django-2025/",
-    "pubDate": "Mon, 27 Oct 2025 12:05:09 +0000",
-    "creator": "Will Vincent",
+    "link": "https://blog.jetbrains.com/dotnet/2025/10/23/how-boldsign-modernized-development-at-scale-with-jetbrains-dotultimate/",
+    "pubDate": "Thu, 23 Oct 2025 19:47:22 +0000",
+    "creator": "Mehul Harry",
     "categories": [
-      "web-development",
-      "django",
-      "survey"
+      "net-tools",
+      "case-study",
+      "rider",
+      "casestudy",
+      "dotultimate"
     ]
   },
   {
     "id": 4,
-    "imageUrl": "",
-    "title": "Why Performance Matters in Python Development",
-    "description": "This is a guest post from Dido Grigorov, a deep learning engineer and Python programmer with 17 years of experience in the field. Python’s flexibility and ease of use make it a go-to language for developers, but its interpreted nature and global interpreter lock (GIL) can lead to performance bottlenecks, especially in large-scale or resource-intensive […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2025/10/why-performance-matters-in-python-development/",
-    "pubDate": "Thu, 23 Oct 2025 11:31:12 +0000",
-    "creator": "Evgenia Verbina",
-    "categories": [
-      "web-development",
-      "performance",
-      "python"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "마라톤은 어떻게 웰니스의 상징이 됐을까",
-    "description": "러닝 붐이 만들어낸 달리기 경제학",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/moneyball-7",
-    "pubDate": "Mon, 27 Oct 2025 01:47:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "사용자 제작 관련",
-    "description": "얼마 전에 읽은 기사에 의하면 전 세계 유튜브 사용자의 99%는 평생 한 번도 그 어떤 영상도 올리지 않는다고 한다. 이들은 다른 유튜브 사용자 1%가 올린 콘텐츠를 소비하기만 한다. 내가 오래전에 뮤직쉐이크를 했을 때도 모든 유저의 20%만 음악을 생성했고, 나머지 80%는 한 번도 음악을 만들지 않고 남이 만든 음악을 듣기만 해서, 콘텐츠 생성과 소비의 대략적인 기울어진(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/10/user-creation-is-only-for-the-1.html",
-    "pubDate": "Wed, 22 Oct 2025 21:27:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "consumer",
-      "creator",
-      "FoundersAtWork",
-      "musicshake"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "How to Use a Spec-Driven Approach for Coding with AI",
-    "description": "Let’s see how this works with Junie, the AI coding agent by JetBrains. What you’ll get from this guide Developing complex software features can be daunting. Such tasks often feel overwhelming due to the sheer size of the codebase, the uncertainty of dependencies, and the difficulty of keeping all requirements in mind. With the advent […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/junie/2025/10/how-to-use-a-spec-driven-approach-for-coding-with-ai/",
-    "pubDate": "Mon, 27 Oct 2025 11:07:32 +0000",
-    "creator": "Anton Arhipov",
-    "categories": [
-      "news",
-      "ai-in-ides",
-      "coding-agent",
-      "jetbrains",
-      "junie"
-    ]
-  },
-  {
-    "id": 8,
     "imageUrl": "",
     "title": "한 줄을 얻기 위한 전체",
     "description": "국비학원을 통해 Java 와 웹 개발을 처음 배울때, 이걸 어떻게 해야 빠르게 흡수할 수 있을까 고민을 많이 했습니다.\n단순히 선생님의 설명을 듣는 것 만으로는 전혀 이해가 되지 않았기에 여러 방안들을 고민했죠.\n그 중 가장 저한테 효과가 좋았던 방법은 \"학원 동기들을 가르치는 것\" 이였습니다.\n매일 수업 시간 (오전 9시부터 오후 4시까지) 에 배운 내용들을 정리해서 1~2시간 안에 요약해서 학원 동기들을 가르치는 것이죠.\n남을 가르치기 위해 무언갈 공부하는 것이 정말 잘 배울 수 있음을 알게 되었습니다.\n스프링 프레임워크의 AOP에 대한 내용을 배우던 시간에 리플렉션에 대해 설명을 들었는데, 이해가 잘 안되었습니다.\n이게 도대체 어디에 필요하지? 어떻게 활용되지? 사용하면서 주의해야할 것은 없나? 등등이였죠.\n어찌됐든 수업시간에 언급은 되었기에 이걸 동기들에게 가르치긴 해야해서 갖고 있던 책들에서의 설명을 몇번 더 읽어보았습니다.\n개념적으로 이해는 되는데 이걸 사용하면서 주의해야할 점들은 뭐가 있을지가 궁금했습니다.\n스터디 시간에 누가 질문을 할 수도 있으니깐요.\n그래서 \"이걸 실제 실무에서 사용할때 조심해야할 부분은 뭐지?\" 라고 생각하면서 관련된 책을 검색 하던 중 이상민님이 쓰신 자바 성능을 결정짓는 코딩 습관과 튜닝 이야기 을 발견하게 되었습니다.\n\n\n리플렉션을 실무에서 어떨 때 사용해야하고, 어떤 점을 주의해야하는지에 관한 목차가 있었죠.\n\n\n이거다 싶어서 수업을 마치자마자 강남 교보문고로 달려가 바로 구매해서 내용을 정리했습니다.\n자바의 정석, 열혈강의 자바, 토비의 스프링과 함께 이상민님의 \"자바 성능을 결정짓는 코딩 습관과 튜닝 이야기\" 까지 여러 책들에서 리플렉션에 관한 내용들을 모두 모아 정리했습니다.\n정리된 내용을 기반으로 동기분들께 그날의 수업 내용들을 요약 정리해서 전달했는데, 그 내용들이 너무 좋았는지 스터디가 끝나고 어디서 알게 된 것인지 많이들 궁금해했습니다.\n신난 저는 방금 사온 따끈따끈한 이상민님의 책을 소개 했었습니다.\n예상과는 달리 수백페이지에서 고작 열 몇 페이지를 보려고 2만원을 쓰는 것에 동기들은 되게 신기하게 저를 봤습니다.\n(당시엔 자장면이 4천원대였으니깐요)\n리플렉션 챕터는 24개 챕터 중 하나이기에 단순 계산으로만 보면 4% (1/24) 의 내용만 확인하려고 100%를 지불하는 비합리적인 선택을 한 셈이죠.\n그래도 전혀 아깝다는 생각은 들지 않았습니다.\n필요했던 지식 한 줄은 얻었으니깐요.\n그 이후에도 \"이 한 문장을 얻으려고 이 책을, 이 강의를 샀구나\" 를 자주 경험했습니다.\n예를 들면, 예전에도 몇번 언급했던 \"그대들 어떻게 살 것인가\" 에서 이 문장을 얻었습니다.\n\"자신을 불쌍하다고 말하는 사람들은 대부분 위대하다.\"\n자신을 불쌍하다고 인식하는 것은 위대해지고 싶기 때문이다.\n스스로를 불쌍하게 여기는 사람은 스스로를 위대하게 여긴다.\n그것은 왕위를 빼앗긴 임금이 스스로를 불쌍하게 여기는 것과 같다.\n왕위를 잃은 임금이 아니라면 그 누가 자신이 왕위에 앉지 않았다고 해서 슬퍼할 것인가.\n자신이 실수한 것을 후회하는 마음이 생기는 까닭은 그때 올바른 행동할 수 있었다는 것을 알고 있기 때문이란다.\n우리에게 올바른 이성의 목소리를 듣고, 그 목소리가 말하는 대로 행동할 힘이 없다면 우리는 절대로 자신이 실수한 것을 후회하지도, 그 때문에 고통스러워하지도 않을 거야.\nVlad Mihalcea님의 고성능 JPA & Hibernate (High-Performance Java Persistence)에 있는 34. Batching the Update Operation with JPA and Hibernate 챕터에서 Batch 환경에서 JPA의 Merge와 Hibernate의 Update를 상세하게 비교 설명해준 것 역시 오래 남았습니다.\n\"아, 이 한 문장을 얻으려고 이 책을 샀구나.\"\n\"이 한 줄을 위해 이 강의를 들었구나.\"\n머릿속 안개가 걷히고 무언가 '딱'하고 박히는 그 순간의 희열. 그것만으로도 책 한 권, 강의 하나의 가치는 충분했습니다.\n올해 할로윈도 한번 이 한 문장을, 한 챕터를 얻기 위해 써보는 것은 어떨까요?\n지식의 가치는 분량에 비례하지 않습니다. \n때로는 10시간짜리 강의도, 500페이지짜리 책도, 나를 '아하!'하게 만드는 '단 한 줄'을 위해 존재합니다.\n올해 할로윈, 여러분도 그 '한 줄'을 찾는 여정에 동참해 보시는 건 어떨까요?\n그래서 준비했습니다.\n[할로윈 스터디 챌린지: 나만의 한 줄 찾기]\n\n \n향로와 함께하는 '향로윈' 완강 챌린지 챌린지 | 향로 - 인프런\n할로윈에도 공부는 계속된다. \"하루 만에 찾는, 나만의 결정적인 한 줄\" 딱 하루. 강의 + 미션 + 라이브 듣고 랜덤 포인트 뽑기부터 시크릿 향로 키캡까지 받아가세요.\nwww.inflearn.com\n\n \n할로윈 당일, 하루 종일 인프런 강의를 들으며 각자 '나를 성장시킨 단 하나의 배움'을 얻고 공유하는 챌린지입니다.\n제가 상민님의 책에서 리플렉션의 핵심을 배운 것처럼, 여러분도 이번 챌린지를 통해 오랫동안 고민했던 문제의 실마리를, 혹은 새로운 영감을 주는 '결정적인 한 줄'을 발견하게 되길 진심으로 바랍니다.\n함께 공부합시다. 여러분의 '한 줄'을 기다리겠습니다.",
@@ -128,81 +68,108 @@
     ]
   },
   {
-    "id": 9,
+    "id": 5,
     "imageUrl": "",
-    "title": "엔비디아의 마지막은 이럴것이다.",
-    "description": "영상: https://youtu.be/s4ISefLulWg?t=985\n\n\n\n16분 30초에 나옵니다.\n닷컴 버블과 시스코의 사례를 이야기합니다.\n물론 엔비디아도 이 역사를 모를리가 없습니다. 이때 상장된 회사였으니까요\n \n시스코 몰락 요약\n인터넷 회선을 크게 확장하던 시키여서 장비가 많이 팔립니다.\n인터넷을 많이 깐 정도가 아니라 넘치게 깔았고\n결국 어느날 더이상 늘릴 일이 없어서 그때부터 추락을 격습니다.\n\n\n시스코의 모든 차트 입니다. 20년 존버하니 최고점 다시 오긴오네요. \n2009년 아이폰 탄생 시점부터 다시 투자했어도 나쁘지않은 상승율이네요\n물론 대 하락을 견디지는 일은 쉽지 않습니다.\n \n \n엔비디아의 대응\n엔비디아도 이 역사를 당연히 알고 있구요\n언젠간 데이터센터가 다 건설되고 엔비디아 장비의 수요는 줄 것입니다.\n장비 교체 주기가 있긴한데 그건 시스코도 마찮가지라 하락시기에 이런걸로 방어할 순 없을 것입니다.\n \n그래서 엔비디아는 연상장비 대여 사업과\nAGI - 오픈AI 투자\nAI 바이오 산업\n자율주행 / 로봇 산업\n양자컴퓨터 산업\nCPU 개발 - 인텔 먹었죠\n클라우드 서버 - 오라클 투자\n등에 영역을 늘리고 있습니다.\n이거 세개중에 하나가 터지면 하락을 방어할 수 있을 것입니다.\n앞으로도 버는 수익으로 미래 산업을 더 늘릴 것으로 보이구요\n방어하기전에 수익 피크가 터진다면 몰락을 피할 순 없겠죠\n \n대충 에상연도는 2030년 쯤이 될꺼 같습니다.\n이 시기는 미국 민주당이 스타게이트 산업을 방해한다거나\n중국이 딥시크 같이 최적화로 더 적은 장비로 해결하는 방법을 보여준다면 시간이 앞당겨 질것입니다.\n \n너무 많은 세력이 들어가있어서 이것을 예측하는것은 어려울 것입니다.\n시간이 지나면 적당히 비중을 조절하시고\n1위 2위가 바뀌는 시점에 잘 판단해야할 것입니다.\n \n그리고 이런 버블 몰락은 미국에게는 큰 타격이 되고 중국에게는 좋은 기회가 될것입니다.\n즉 엔비디아의 몰락을 중국은 원하고 있습니다.",
+    "title": "금이 부족하다. / 이후의 시나리",
+    "description": "영상: https://www.youtube.com/watch?v=MImAaE56SBg\n\n\n\n \n중국이 금거래소를 차린 이시점에서\n런던의 금거래 방식에 의문이 생겼습니다.\n런던의 금 거래 방식은 전세계 금거래소장들이 모여서 금값은 이렇게 하지 하고 합의 하면 합의가 됩니다.\n그래서 현재 금 가격 시세는 실제금으로 측정한 시세가 아니라 사람들이 합의를 해서 만들어낸 가격입니다.\n그리고 종이 금 (ETF) 은 실물 금보다 더많이 발행되었을 가능성이 있습니다.\n금은 생산이 안되는데 사겟다는 사람이 많으니 발행이 많이 된것입니다.\n \n영상보시면 나오는데 이미 런던 금속 거래소는 니켈가격을 못잡아서 거래를 취소한 이력이 있습니다.\n2022년이였나 최근 일 입니다.\n런던이 상당히 맛이 갔다는 의미입니다.\n \n \n시나리오1 - 선한방식\n종의 금의 값이 실제금을 증서로 나눈값에 맞도록 맞춰진다.\n시장 친화적인 정상적인 방법입니다.\n하지만 금거래소는 금 잔고를 확인시켜주지 못할 것이고 금값이 정상화되면\n가격이 급등할텐데 이때 나오는 매도를 돈으로 받혀야하는데 돈이 없겠죠\n이때까지 너무 싸게 금을 팔았는데 이제 비싸게 되팔겠다고 하는거니까요\n중국 상하이 금거래소가 가격 결정권을 잡게됩니다.\n이것은 중국이 원하는 시나리오 입니다.\n일어난다면 중국이 아편전쟁 이후 처음으로 영국에 복수하는 사건이 될 것입니다.\n이미 인도는 영국을 경제력에서 따라잡아버려 영국은 많은 굴욕을 겪고 있습니다.\n \n시나리오 2 - 비트코인이 대안이다.\n런던은 시세 조정을 포기하고 금값은 어마어마하게 올라갑니다.\n종이금이 실물금을 따라가는 경우도 있고\n바꿔줄 방법이 없어서 휴지가 될 수도 있습니다.\n그래서 대안으로 비트코인을 추천하게되며\n수량이 정해져있는 비트코인이 금의 기능을 대신하게 됩니다.\n비트코인은 소유 방식이 명확하기 때문에 금에서 발생한 문제가 없습니다.\n이러면 비트코인이 떡상하며\n미국이 원하는 시나리오입니다.\n \n어떻게 되든 일어나는 일\n금가격이 실물금의 수량에 맞게 반영되며 최대 40배 (닉슨 쇼크 때 값) 오르게 됩니다. \n닉슨 쇼크 : 달러를 금으로 바꿔주는 보증을 안하겠다는 발표 입니다.\n이것은 결론이 났을때 이야기고 그 사이에는 종이금은 안된다느니 하면서 쥐고 흔들고 난리일 것입니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1443",
-    "pubDate": "Fri, 24 Oct 2025 01:30:34 +0900",
+    "link": "http://serverdown.tistory.com/1447",
+    "pubDate": "Sat, 25 Oct 2025 13:34:58 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브",
-      "버블",
-      "엔비디아",
+      "투자",
+      "ETF",
+      "런던",
+      "비트코인",
+      "영국",
       "중국"
     ]
   },
   {
-    "id": 10,
+    "id": 6,
     "imageUrl": "",
-    "title": "주식으로 큰돈 벌면 일상이 망가지는 이유 / 쇼츠",
-    "description": "영상: https://www.youtube.com/shorts/4iFBJGNn1pg\n\n\n\n \n결국 주식을 잘하다보면 월급 받는 일을 못하게 됩니다.\n처음에 배당주로 입문하는 사람은 이런현상이 잘 없는데 (급등을 안하니까)\n기술주를 주로 하는 사람들은 한번 갈때 왕창 가다보니\n월급 정도를 넘어버릴 수도 있습니다.\n이러다보면 일이 손에 안잡히는 현상이 생기고 결국 퇴사해서 전업 투자자로 가는데\n하지만 기술주는 안좋을때는 아주 길게 눕습니다.\n그걸 모르고 퇴사했으니 당해보면 당황할 수 있습니다.\n월급 받는 일을 한다면 절대 욕심부리지 말고 야금야금 먹는게 맞습니다.",
+    "title": "인플루언서 따라 질러버린 새 옷은 정말 내 취향일까?",
+    "description": "[취향 발견] 손민수부터 디토소비까지, 소비는 곧 내 삶의 모양일까?",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1451",
-    "pubDate": "Mon, 27 Oct 2025 13:34:52 +0900",
-    "creator": "SIDNFT",
+    "link": "https://toss.im/tossfeed/article/tosspick-2025-4b",
+    "pubDate": "Wed, 29 Oct 2025 01:02:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "AI 시대에 살아남기",
+    "description": "지난해 이맘때 일 것이다. 프롬프트 엔지니어링에 대하여 스터디 그룹을 만들어서 학습하기 시작했다. 직전에 AI 페어 프로그래밍에 대해서 학습하기도 했지만 프롬프트 작성을 잘하고 싶다는 생각에 스터디를 시작했다. 3개월 정도 책 네 권을 학습했다. 프롬프트 엔지니어링뿐만 아니라 AI 시대 어떤 소양을 키워야 할지도 학습하고 AI 페어 프로그래밍에 대해서도 추",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/50",
+    "pubDate": "Fri, 24 Oct 2025 02:23:49 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Kodee’s Kotlin Roundup: Finally Back with News",
+    "description": "It’s been a while since you last heard from me – I know, I’ve been a busy bee! Between releases and launches, time just flew by. But I’ve got plenty of updates to share with you. Let’s start with some of the biggest highlights from September and October, and if you’re curious, scroll down for […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/10/kodees-kotlin-roundup-october-edition/",
+    "pubDate": "Mon, 27 Oct 2025 13:19:53 +0000",
+    "creator": "Kodee",
     "categories": [
-      "투자",
-      "마음",
-      "쇼츠",
-      "주식"
+      "news"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "오픈AI 아틀라스 브라우저",
+    "description": "오픈 AI에서 아틀라스라는 브라우저를 내놨다고 해서 깔아봤다.\n\r\n\r\n 챗GPT 계정으로 로그인 해야 사용할 수 있다.\n\r\n\r\n 뭔가 오류가 있는지 패스키를 사용할 수 없다.\n\r\n\r\n 다른 브라우저의 정보를 가져온다든가 기본 브라우저 설정, 기본적인 아틀라스 사용법 안내를 받으면 설치가 완료된다. 챗GPT 계정만든지 벌써 3년이 되었다.\n\r\n\r\n 첫인상은 아주 심플한데 놀랍게도 주소창이 없다. 주소창이 있을 것 같은 곳에 마우스를 올리면 주소창이 나오고 여기에 입력을 할 수 있다.  메시지를 입력하면 챗GPT와 연결되는 추천 메시지가 나오고 구글 검색도 선택할 수 있다. 연관도가 높은 웹페이지도 같이 나온다. 메시지가 아닌 URL을 입력하면 웹사이트로 연결된다. 지금까지 대부분의 브라우저는 구글이 주소창을 독점했는데 이에 대한 강한 도전이 보인다.\n\r\n\r\n 웹페이지에서 사이드 바를 열어서 그 페이지를 대상으로 채팅을 할 수 있다. 페이지를 요약한다든가 인스타그램 프로필을 개선하는 것과 같은 추천 작업도 나온다. 이제 사람들이 긴글은 요약해달라고 하고 자세히 안 읽게 될 것 같다. 필요한 것을 자연어로 질의하는 식으로 많이 바뀔 것 같다.\n\r\n\r\n사용자 에이전트 문자열은 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36로 나오는데 이거는 웹뷰의 문자열이고 아틀라스는 ChatGPT Atlas/1.2025.288.15 (Mac OS X 15.6.1; arm64; build 20251023205637000) Aura/1.2025.288.15를 사용한다고 한다.\n\r\n\r\n입력기 관련 버그가 하나 보였지만 전통적인 브라우저 UX를 많이 건드렸음에도 만듦새가 좋다. MCP 나왔을 때 브라우저가 없어지는 것이 아닌가 싶었는데 제품이 벌써 나왔다. 기술 변화가 정말 빠르다. 앞으로 오픈AI가 어떻게 시대를 바꿔갈지 기대가 된다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hyeonseok.com/blog/944",
+    "pubDate": "Sat, 25 Oct 2025 07:41:25 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "2026년 동아마라톤까지 기록 단축을 위한 20주 보강운동 스케줄",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kimchihill.com/2025/10/24/20-week-strength-training-for-2026-donga-marathon/?utm_source=rss&utm_medium=rss&utm_campaign=20-week-strength-training-for-2026-donga-marathon",
+    "pubDate": "Fri, 24 Oct 2025 14:39:59 +0000",
+    "creator": "kimchihill",
+    "categories": [
+      "Korean essay"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "아무도 몰랐던 F1~F12 키보드 기능키의 비밀: 60년 역사를 파헤치다",
-    "description": "오래된 키보드 위에 놓인 F1부터 F12까지의 기능키들, 혹시 그 존재의 이유나 오늘날의 활용법에 대해 깊이 생각해본 적 있으신가요? 많은 사람이 무심코 지나치는 이 키들에는 사실 60년에 걸친 놀라운 역사와 효율을 향한 기술 발전의 노력이 담겨 있답니다. 오늘은 이 숨겨진 이야기들을 함께 파헤쳐 볼까요?\n⌨️ F1~F12 기능키, 대체 왜 만들어졌을까?\n\n\n키보드 상단의 F1부터 F12까지, 이 기능키들은 언뜻 보면 가장 많이 사용되는 키는 아닌 것 같아요. 스크롤 락(Scroll Lock)이나 인서트(Insert) 키처럼 아예 쓸모없게 느껴지진 않지만, 그 오랜 존재감에도 불구하고 많은 사람에게는 여전히 미스터리죠. 사실 컴퓨터 역사의 다른 많은 표준처럼, 이 기능키들에도 흥미로운 이야기가 숨어 있습니다. 이 키들이 처음 만들어진 시절의 기술적 제약은 지금은 더 이상 문제가 되지 않지만, 여전히 유용하게 활용될 수 있는 방법이 많답니다.\n그래픽 없는 시절의 필수품\n거슬러 올라가 1960년대와 1970년대, 컴퓨터는 지금처럼 화려한 그래픽 사용자 인터페이스(GUI)가 없었어요. 오직 키보드를 통해서만 컴퓨터와 상호작용해야 하는 터미널 인터페이스 시대였죠. 요즘처럼 Ctrl + C 같은 단축키도 1970년대 제록스(Xerox) 직원들이 고안하기 전까지는 존재하지 않았고요.\n생각해 보세요. 수십 가지 기능을 클릭할 수 있는 메뉴에 숨겨둘 수도 없었던 시절, 사용자는 모든 명령어를 일일이 기억해야 했습니다. 프로그램마다 명령어 체계도 통일성이 없었으니, 이건 정말 어려운 일이었을 거예요. 제가 만약 그 시절 사람이었다면 아마 컴퓨터 사용을 포기했을지도 모르겠네요!\n효율성을 위한 혁신\n바로 이때, F(Function) 키가 등장했습니다! 사용자들은 이 키를 이용해 프로그램에 빠르게 명령을 전달할 수 있었죠. F 키는 특정 프로그램에 고정된 목적이 없었기 때문에, 각 프로그램은 이 키들을 자신에게 유용한 기능으로 자유롭게 할당할 수 있었습니다. 덕분에 자주 쓰는 기능은 외워서 쓰고, 화면에 표시된 텍스트를 통해 어떤 F 키가 무슨 기능을 하는지 확인하면서 명령줄 프로그램 사용이 훨씬 쉬워졌어요.\n  알고 계셨나요? 레딧 사용자 Kufat에 따르면, 기능키가 가치 있었던 또 다른 깊은 이유가 있대요. 바로 컴퓨터에 명령을 전송하는 데 필요한 입력 횟수를 줄여주었다는 점인데요. 옛날 시스템은 키를 한 번 누를 때마다 메인프레임 작업을 중단시키는 경우가 많았기 때문에, 최소한의 키 입력으로 작업을 수행하는 것이 효율성에 정말 중요했다고 합니다!\n  왜 하필 12개일까? 그 숨겨진 이야기\n왜 기능키가 12개나 되는지에 대한 궁금증, 저도 예전부터 참 많았는데요. 이 질문에 대한 답은 1981년에 출시되어 엄청난 인기를 끌었던 IBM PC에서 찾아볼 수 있습니다. 이 기종이 컴퓨터 업계의 수많은 비공식적인 표준을 만들어냈거든요.\nIBM PC는 처음에는 왼쪽에 10개의 기능키가 달린 Model F 키보드와 함께 출시되었어요. 그런데 IBM은 나중에 더 저렴하고, 지금은 전설적인 키보드로 불리는 Model M 키보드로 이를 교체했습니다. 이 Model M 키보드의 폭발적인 인기는 수많은 복제품을 낳았고, 그 결과 상단에 12개의 기능키가 배열된 이 레이아웃이 오늘날 키보드의 사실상 표준이 되었답니다. 참 재미있죠?\n\n\n  2025년, F1~F12 키의 현대적 활용법 (Windows 기준)\n한때 프로그램별로 자유롭게 프로그래밍되었던 기능키들은 이제 어느 정도 정형화된 목적을 가지게 되었어요. 물론 다양한 프로그램에서 각기 다르게 사용되기도 하지만, 대부분의 앱에서 공통적으로 발견되는 유용한 기능들이 있답니다. 오늘은 2025년 현재 Windows 운영체제를 기준으로 F1부터 F12까지의 주요 기능들을 살펴볼게요. (참고로 Mac 키보드에서는 F 키에 화면 밝기 조절, 미디어 제어 등 다른 기능이 인쇄되어 있고, Fn 키를 눌러야 표준 기능키로 작동해요.)\n기능키\n주요 기능 (Windows)\n팁 & 활용\n\n\n\n\nF1\n대부분의 프로그램에서 도움말(Help) 메뉴 열기\nWin + F1은 Edge에서 \"Windows 11 도움말\"을 검색하니 주의하세요.\n\n\nF2\n파일/폴더 이름 변경, Excel/Google Sheets 셀 편집\n선택된 파일에 F2를 누르면 바로 이름 변경 가능! BIOS 진입 시에도 사용돼요.\n\n\nF3\n프로그램 내 검색 기능 실행 (Ctrl + F와 유사)\n검색 후 F3을 누르면 다음 결과로 이동! 명령 프롬프트에서 이전 명령 반복.\n\n\nF4\n파일 탐색기 주소 표시줄 활성화, Alt + F4로 창 닫기, Ctrl + F4로 탭 닫기\nAlt + F4는 의외로 자주 쓰게 되는 단축키죠!\n\n\nF5\n브라우저/파일 탐색기 새로고침, PowerPoint 슬라이드 쇼 시작\nCtrl + F5는 브라우저 캐시 무시하고 강제 새로고침! 개발자에게 유용해요.\n\n\nF6\n웹 브라우저 주소 표시줄로 커서 이동\n빠르게 검색하거나 다른 페이지로 이동할 때 편리해요.\n\n\nF7\nMS Office 맞춤법 검사, Shift + F7로 동의어 사전, 브라우저에서 '캐럿 탐색' 활성화\nOffice 작업이 많은 분들에게 특히 유용하겠네요.\n\n\nF8\nMS Office 매크로 창, Excel 선택 영역 확장\n예전 Windows에서는 안전 모드 진입 키였으나, 요즘은 사용 빈도가 낮아요.\n\n\nF9\nWord 문서 새로고침, Outlook 수동 송수신, Excel 수식 재계산\nOffice 사용자라면 알아두면 좋은 기능들이 많죠.\n\n\nF10\n앱 메뉴 바 활성화, Shift + F10으로 마우스 우클릭\n마우스가 고장 났거나 키보드만 쓸 때 Shift + F10은 정말 편리해요!\n\n\nF11\n대부분의 앱 전체 화면 모드 전환\n다른 방해 없이 하나의 앱에 집중하고 싶을 때 최고죠!\n\n\nF12\n브라우저 개발자 도구 활성화, 여러 앱에서 다른 이름으로 저장 대화 상자 열기\n웹 개발자들에게 F12는 없어서는 안 될 친구죠!\n\n\n\n⚠️ 주의! F 키들은 프로그램에 따라 기능이 달라질 수 있어요. 특히 일부 노트북에서는 Fn 키와 함께 눌러야 본래의 F 키 기능을 하는 경우도 있으니, 사용 전 확인하는 것이 좋겠죠?\n  활용도를 높이는 방법: 기능키 재매핑\n앞서 살펴본 것처럼 F 키들은 여전히 유용하게 쓰이지만, 만약 자신에게 필요한 기능이 아니라면 어떻게 해야 할까요? 저는 개인적으로 F8 키는 거의 쓰지 않는 편인데요. 이런 경우 F 키들을 자신만의 방식으로 재매핑해서 활용도를 극대화할 수 있답니다!\n\n\n특히 Windows 사용자라면, 마이크로소프트의 숨겨진 보석 같은 도구 모음인 PowerToys 스위트에 포함된 '키보드 관리자(Keyboard Manager)' 유틸리티를 활용하는 것을 추천해요. 이 도구를 사용하면 특정 F 키에 원하는 다른 키 조합이나 명령을 할당할 수 있어서, 나만의 맞춤형 키보드를 만들 수 있습니다. 예를 들어, 자주 사용하는 특정 프로그램을 실행하거나, 복잡한 단축키를 F8 하나로 대체하는 식이죠. 정말 편리하지 않나요?\n✨ 핵심 요약: F 기능키, 과거와 현재를 잇다\n  핵심 요약\n1. 기능키의 탄생 배경: 1960~70년대 그래픽 없는 컴퓨터 시대, 복잡한 명령어를 빠르게 입력하기 위한 효율적인 수단으로 개발되었습니다.\n2. 12개 표준의 비밀: 1981년 출시된 IBM PC와 Model M 키보드의 폭발적인 인기가 오늘날 12개의 기능키 배열을 표준으로 만들었습니다.\n3. 오늘날의 F 키 활용: 도움말(F1), 이름 변경(F2), 새로고침(F5), 전체 화면(F11) 등 다양한 프로그램에서 유용하게 사용되는 핵심 기능들이 많습니다.\n4. 나만의 기능키 만들기: PowerToys의 '키보드 관리자' 같은 도구를 이용해 F 키를 재매핑하여 자신만의 맞춤형 단축키로 활용할 수 있습니다.\n기능키는 단순한 키보드 버튼을 넘어, 컴퓨터 발전의 한 단면을 보여주는 흥미로운 유산입니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 기능키는 모든 운영체제에서 동일하게 작동하나요?\n아니요, 그렇지 않습니다. 오늘 글에서는 Windows 운영체제를 기준으로 설명했지만, Mac 키보드의 F 키는 기본적으로 밝기 조절, 미디어 제어 등 다른 멀티미디어 기능을 수행하며, Fn 키를 눌러야 일반적인 F 키로 작동합니다. Linux 등 다른 운영체제에서도 프로그램에 따라 기능이 달라질 수 있습니다.\nQ2: F 키의 원래 기능이 아닌 다른 기능으로 바꾸는 방법이 있나요?\n네, 가능합니다. Windows 사용자라면 Microsoft PowerToys 스위트에 포함된 '키보드 관리자(Keyboard Manager)' 유틸리티를 사용하면 F 키에 다른 키 조합이나 원하는 명령을 할당하여 재매핑할 수 있습니다. Mac 사용자 역시 시스템 설정에서 기능키를 재설정할 수 있습니다.\nQ3: F 키 중 가장 유용한 키는 무엇이라고 생각하세요?\n제 개인적인 경험으로는 F5 (새로고침), F2 (이름 변경/셀 편집), 그리고 Alt + F4 (창 닫기)가 가장 빈번하게 사용되고 유용하다고 생각합니다. 특히 웹 서핑이나 문서 작업 시 시간을 크게 절약해주는 기능들이죠. 물론 사용자마다 선호하는 기능은 다를 수 있습니다!\n { \"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [ { \"@type\": \"Question\", \"name\": \"기능키는 모든 운영체제에서 동일하게 작동하나요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"아니요, 그렇지 않습니다. 오늘 글에서는 Windows 운영체제를 기준으로 설명했지만, Mac 키보드의 F 키는 기본적으로 밝기 조절, 미디어 제어 등 다른 멀티미디어 기능을 수행하며, Fn 키를 눌러야 일반적인 F 키로 작동합니다. Linux 등 다른 운영체제에서도 프로그램에 따라 기능이 달라질 수 있습니다.\" } }, { \"@type\": \"Question\", \"name\": \"F 키의 원래 기능이 아닌 다른 기능으로 바꾸는 방법이 있나요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"네, 가능합니다. Windows 사용자라면 Microsoft PowerToys 스위트에 포함된 '키보드 관리자(Keyboard Manager)' 유틸리티를 사용하면 F 키에 다른 키 조합이나 원하는 명령을 할당하여 재매핑할 수 있습니다. Mac 사용자 역시 시스템 설정에서 기능키를 재설정할 수 있습니다.\" } }, { \"@type\": \"Question\", \"name\": \"F 키 중 가장 유용한 키는 무엇이라고 생각하세요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"제 개인적인 경험으로는 F5 (새로고침), F2 (이름 변경/셀 편집), 그리고 Alt + F4 (창 닫기)가 가장 빈번하게 사용되고 유용하다고 생각합니다. 특히 웹 서핑이나 문서 작업 시 시간을 크게 절약해주는 기능들이죠. 물론 사용자마다 선호하는 기능은 다를 수 있습니다!\" } } ] } \n어떠셨나요? 오늘은 키보드 위에 존재하지만 무심코 지나쳤던 F1~F12 기능키들의 흥미로운 역사와 현대적 활용법, 그리고 개인화 팁까지 알아보는 시간을 가졌습니다. 이 작고 오래된 키들이 컴퓨터 발전의 한 단면을 보여주는 동시에, 여전히 우리의 디지털 생활을 더 스마트하게 만들어줄 수 있다는 사실이 정말 놀랍지 않나요?\n다음번 키보드를 사용할 때는 F 키들을 한 번 더 살펴보며 숨겨진 기능들을 활용해보시길 바랍니다. 작은 변화가 큰 편리함으로 이어질 수도 있을 거예요! 그럼 다음에 또 흥미로운 이야기로 찾아올게요!",
+    "title": "The Launch of Developer Productivity AI Arena: An Open Platform for Benchmarking AI Coding Agents",
+    "description": "For 25 years, JetBrains has shaped the software development landscape across multiple programming languages, advancing how developers and organizations build software. Our focus has always been on improving productivity and the overall developer experience. With the rise of AI, a key challenge now is understanding how to measure the real-world productivity gains provided by AI-assisted […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483671",
-    "pubDate": "Tue, 21 Oct 2025 14:51:29 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://blog.jetbrains.com/blog/2025/10/28/the-launch-of-developer-productivity-ai-arena-an-open-platform-for-benchmarking-ai-coding-agents/",
+    "pubDate": "Tue, 28 Oct 2025 21:14:20 +0000",
+    "creator": "Arun Gupta",
     "categories": [
-      "윈도우 사용팁/하드웨어",
-      "F1 F12 키보드",
-      "f12 개발자 도구",
-      "F키 재매핑",
-      "PowerToys",
-      "기능키 활용법",
-      "생산성 향상",
-      "윈도우 단축키",
-      "컴퓨터 역사",
-      "키보드 기능",
-      "키보드 단축키"
+      "ai",
+      "news",
+      "ai-agents",
+      "ai-arena",
+      "productivity"
     ]
   },
   {
     "id": 12,
-    "imageUrl": "",
-    "title": "Introducing Matter: The AI Development Companion for Product Teams",
-    "description": "At JetBrains, we’ve spent 25 years building tools for developers. Over the past two years, we’ve seen that AI isn’t just changing how developers write code – it’s beginning to reshape the entire process of product development. Not only is AI making developers more productive, helping with everything from code completion to testing and deployment, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/matter/2025/10/introducing-matter-the-ai-development-companion-for-product-teams/",
-    "pubDate": "Wed, 22 Oct 2025 15:27:31 +0000",
-    "creator": "Elena Berendeeva",
-    "categories": [
-      "news",
-      "releases",
-      "ai"
-    ]
-  },
-  {
-    "id": 13,
     "imageUrl": "",
     "title": "느린걸음 (2)",
     "description": "단축근무를 시작한 지 어느덧 2년이 지났다..  딸아이의 장애를 알게 되었을 때, 세상이 무너지는 것 같은 마음에 한동안 회사일은 아무것도 손에 잡히지 않았다. 모든 지인의 연락을 끊었고.. 커리어를 포기하고 휴직까지 고민했지만, 리더와 수차례 면담 후에 결국 오전 근무만 하는 단축근무를 선택했고, 그렇게 조금씩 일과 삶의 균형을 찾아갔다. 월급이 반으로",
@@ -214,27 +181,46 @@
     "categories": []
   },
   {
-    "id": 14,
+    "id": 13,
     "imageUrl": "",
-    "title": "토스는 왜 ‘얼굴’을 이야기하는가",
-    "description": "오리지널 필름  기획 코멘터리",
+    "title": "과학상식 - 광속으로 이동하면서 관측하기",
+    "description": "광속 문제\n내가 광속으로 이동하면서 목표지점을 관측한다면\n두배의 재생 속도로 보게 되는 것이냐\n라는 질문입니다.\n \n영상: https://youtu.be/qwDyvMZ3Cfo?t=266\n\n\n\n \n5분에 나옵니다.\n시청자 질문이구요\n \n5년 거리의 목표물을 보고 있고 내가 광속으로 추진해서 가까워지면\n상대방은 2배 빠른속도로 재생되야 하는거 아닌가 라는 질문입니다.\n계속 쳐다보면 그렇게 되야 도착했을때 시점이 맞게 됩니다.\n \n추가로 빛의 속도로 멀어지면 영상이 뒤로 되감기는 효과가 있겠습니다.\n \n하지만 우리의 똑똑이 과학자들은 이에 제대로 답하지 못하고 있네요\n그냥 광속으로 가는 추진기나 만들자",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/outsight-thepowerofface",
-    "pubDate": "Fri, 24 Oct 2025 07:32:00 GMT",
+    "link": "http://serverdown.tistory.com/1453",
+    "pubDate": "Tue, 28 Oct 2025 12:58:52 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "과학"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "작년보다 카드값 많이 나왔다면? 상생페이백으로 최대 30만원 환급 받으세요!",
+    "description": "늘어난 카드 소비액 20%를 디지털 온누리상품권으로 돌려드려요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-policies-52",
+    "pubDate": "Fri, 24 Oct 2025 05:42:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "AI 시대에 살아남기",
-    "description": "지난해 이맘때 일 것이다. 프롬프트 엔지니어링에 대하여 스터디 그룹을 만들어서 학습하기 시작했다. 직전에 AI 페어 프로그래밍에 대해서 학습하기도 했지만 프롬프트 작성을 잘하고 싶다는 생각에 스터디를 시작했다. 3개월 정도 책 네 권을 학습했다. 프롬프트 엔지니어링뿐만 아니라 AI 시대 어떤 소양을 키워야 할지도 학습하고 AI 페어 프로그래밍에 대해서도 추",
+    "title": "The State of Django 2025",
+    "description": "Welcome to the highlights and key takeaways from the recently released Django Developers Survey. Now in its fourth year, this annual collaboration between the Django Software Foundation and PyCharm tabulates responses from over 4,600 Django developers worldwide. If you work with Python and the web more broadly, there’s a lot to learn from what’s happening […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/50",
-    "pubDate": "Fri, 24 Oct 2025 02:23:49 GMT",
-    "creator": "고종범",
-    "categories": []
+    "link": "https://blog.jetbrains.com/pycharm/2025/10/the-state-of-django-2025/",
+    "pubDate": "Mon, 27 Oct 2025 12:05:09 +0000",
+    "creator": "Will Vincent",
+    "categories": [
+      "web-development",
+      "django",
+      "survey"
+    ]
   }
 ]
