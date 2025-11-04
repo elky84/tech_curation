@@ -2,11 +2,139 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "New GitHub Copilot capabilities for C++ developers: Upgrade MSVC, improve build performance, and refactor C++ code",
+    "description": "Yesterday at GitHub Universe, GitHub announced support for custom agents. Custom agents are specialized configurations with custom prompts and context that focus Copilot on specific development tasks. On the C++ team, we have a similar goal: Provide differentiated capabilities that optimize GitHub Copilot for C++ development tasks. As a first step towards this goal, we’re […]\nThe post New GitHub Copilot capabilities for C++ developers: Upgrade MSVC, improve build performance, and refactor C++ code appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/new-github-copilot-capabilities-for-c-developers-upgrade-msvc-improve-build-performance-and-refactor-c-code/",
+    "pubDate": "Wed, 29 Oct 2025 16:06:33 +0000",
+    "creator": "Erika Sweet",
+    "categories": [
+      "Announcement",
+      "C++",
+      "Copilot"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 24화, 반장 선거인 데스와 ②",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2381",
+    "pubDate": "Wed, 29 Oct 2025 20:23:03 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "대구 만촌 자이 르네 모형 파괴 사건 그후 ...",
+    "description": "멋지다\n \n\n\n2x2 로 4동이 있는거 같다.\n법원 건물인줄\n \n \n \n \n사건 발단\n\n\n분양권을 개 비싸게 샀던 사람이 의자를 던진 사건이다.\n9억대 아파트가 분양권이 올라 12억까지 가게 되었고\n미분양이 나자 -25% 할인 분양을 했다고 한다.\n(미분양이 나면 분양권이 남아돌기 때문에 굳이 돈주고 살 이유가 없다.)\n분노한 구매자는 참지못하고 그만 분양 사무소에서 난동을 부리다 \n아파트 모형에다 의자를 꽂아버렸다.\n \n\n\n \n이러케 모형은 넘어지고 ...\n이거 모형 전체가 가격이 3억 정도고 수리하는데 억이 드느니 하던데\n내가봐선 3천만원 정도면 수리 가능할꺼 같다.\n(미대 출신들의 인건비는 저렴하다)\n어차피 분양도 다끝나가고 적당히 합의 했을 수도 있고\n자작극일 수도 있다는 추측이 있다.\n결과적으로 유명해져서 분영이 잘되었기 때문이다.\n7억 정도까지 낮아지긴 했지만 ...\n \n그런데 ...\n범어는 대구 1급지이기 때문에 성공의 상징이다.\n미국 주식이 잘나가고 비트코인도 잘나가던 시기를 거치더니\n아파트는 14억까지 올라갔고 하락 방어도 잘되었다.\n \n \n후기 뉴스\n\n\n얌바 본전왔다 탈출해라 ㅋㅋㅋ\n \n영상: https://www.youtube.com/watch?v=y6Ge3seo6mk\n\n\n\n4분 40초에 짤막하게 리뷰 나옵니다.\n \n미분양나면 건설자에서 의자를 던질 것을 적극 고려해보아야 할 것이다.\n \n포스코도 침수 피해 나왔을때 주가가 최저가였고\n에코프로도 공장 불이 났을때 주가가 최저가였다.\n한국은 윤석열 개엄 선포 때가 코스피 최저가 였다.\n바닥에서 피가 흥건할때는 악재뉴스는 호재가 된다.\n기억하자",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1458",
+    "pubDate": "Mon, 3 Nov 2025 14:40:47 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "대구",
+      "분양"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Bring Your Own Key (BYOK) Is Coming Soon to JetBrains AI",
+    "description": "At JetBrains, we’ve always believed in giving developers the best possible tools to enhance productivity and creativity. Recently, you’ve shared important feedback about AI usage limits, transparency, and the freedom to choose which AI providers you use. We heard you loud and clear. That’s why we are working to introduce bring-your-own-key (BYOK) support for JetBrains […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/11/bring-your-own-key-byok-is-coming-soon-to-jetbrains-ai/",
+    "pubDate": "Mon, 03 Nov 2025 15:15:02 +0000",
+    "creator": "Denis Shiryaev",
+    "categories": [
+      "news",
+      "ai-in-ides"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "IntelliJ Platform 2025.3: What Plugin Developers Should Know",
+    "description": "As we approach the release of IntelliJ IDEA 2025.3, we would like to share key information about changes that may impact your plugin development process. This post addresses common questions from the developer community and provides guidance on maintaining compatibility with the latest IntelliJ Platform versions. No Immediate Upgrade Required If you built your plugin […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2025/11/intellij-platform-2025-3-what-plugin-developers-should-know/",
+    "pubDate": "Mon, 03 Nov 2025 14:07:54 +0000",
+    "creator": "Jakub Chrzanowski",
+    "categories": [
+      "idea",
+      "intellij-platform",
+      "news",
+      "plugins",
+      "intellij-idea",
+      "plugin-development"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "유연 휘발유 - 공기가 납으로 가득차 있다.",
+    "description": "현재는 다 해결되었고\n과거 이야기 입니다.\n \n영상: https://www.youtube.com/watch?v=mGIe9fu-6w4\n\n\n\n \n사람들이 석유차가 전기차 보다 좋다고 하지만\n그 논리는 쥐뿔도 맞지 않는 이야기 이며\n거의 100년간 어마어마한 개선을 통해 온게 지금의 석유차 입니다.\n연료통 폭발을 막는 장치\n주차중에 자동차엔진에서 연료를 제거하는 장치\n정말 많은 안전장치들이 포함되어있습니다.\n \n하지만 가장 중요한 것 바로 매연\n이것은 부자와 가난한자는 모두 같은 공기를 마신다는 지극히 단조로운 논리 때문에\n전기차를 밀 수 밖에 없습니다.\n \n부자들이 삶을 아무리 돈으로 휘감아도 공기를 가난한자와 분리할 수는 없기 때문입니다.\n모든 부자들도 이 논리에선 무너집니다.\n전기차가 비싼 이유도 서민들 타라고 만든게 아닙니다.\n \n제글 마윈의 공기에 대한 발언을 한번 참고해주시고\nhttps://serverdown.tistory.com/1121\n\n \n마윈이 기분 좋았던 시절의 이야기 / 특공 물 음식 하지만 공기는 ...\n영상: https://youtu.be/eemg-ZEKyrM?t=139223분에 나옵니다. 특별한 상위 계급들은 건강에 관련된 물건은 특별이 공급 (특공) 받습니다.일반인들은 오염된 음식과 물을 먹고 살고 있지요하지만 오늘은 기\nblog.sidnft.com\n\n \n부자들도 공기앞에선 무조건 합의 합니다.\n그 어떤 부자도 이걸 부정하진 않습니다.\n \n영화 - 엘리시움\n\n\n부자들이 지구 밖에다 거주지를 만들었다.\n이렇게 만들어도 결국 지구의 자원을 가져와야하고 공장을 돌려야하기 때문에\n출장을 갈 필요가 있고 결국 공기를 어떻게 피할 할 방법이 없습니다.\n \n전기차에 과한 기대\n저는 전기차로 넘어갈 것이라고 생각하고 있구요\n이는 부자들이 쓰는게 서민에게 넘어오는 현상이 역사적으로 반복되었기 때문입니다.\n언젠가는 사람들이 석유차는 나쁘고 전기차는 좋다는 인식이 생길 것이라고 확신합니다.\n \n2차전지 좀가자~\n\n\n미친 에코프로의 5년치 차트입니다. 이제 좀 오를랑 말랑 하네요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1455",
+    "pubDate": "Sun, 2 Nov 2025 16:18:39 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "공기",
+      "괴담",
+      "부자",
+      "전기차"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Finding Order in the Mayhem: A Novel Concurrency Testing Tool that Improved the Kotlin Compiler",
+    "description": "If you’ve ever tried to track down a bug in concurrent programs, you know how chaotic and frustrating it can be: everything seems to work fine, then suddenly crashes, and you can’t quite pin down why – all while the bugs slip through.  To bring order to this chaos, at JetBrains Research we built LitmusKt […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2025/10/litmuskt-concurrency-testing/",
+    "pubDate": "Wed, 29 Oct 2025 12:12:14 +0000",
+    "creator": "Katie Fraser",
+    "categories": [
+      "kotlin",
+      "research",
+      "concurrency",
+      "jetbrains-research",
+      "testing"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Splunk DB Connect - 5th",
+    "description": "KV_MODE 사용하지 않을 때.\n\n\n\n\n\n\n\n\nkey=\"value' 구조의 원본 데이터를 테이블 구조로 만들지 못한다.\n\n\n\n\nKV_MODE를 사용하면,\n\n\n\n\n\n테이블 구조 생성 성공.\n\n\n\nKV_MODE 기능을 생각하면 당연한 결과. 그런데 예전에 테스트 할 땐 KV_MODE랑 관계 없이 테이블 구조가 만들어졌었는데(..) 내 기억이 잘못됐나?\n\n\n관련 글\n\nSplunk DB Connect - 4th\nSplunk DB Connect\nSplunk의 필드 처리 순서 - 2nd",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2025/10/splunk-db-connect-5th.html",
+    "pubDate": "2025-10-30T12:53:00.002Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
     "title": "프롬프트 300개 복붙만으로 AI 생산성 2배 올리는 방법",
     "description": "인공지능(AI)을 업무에 효과적으로 활용하고 싶지만, 어떤 질문을 던져야 할지 막막하셨나요? 'GPT PARK's Prompt Hub'는 마케팅, 개발, 콘텐츠 제작 등 각 분야 전문가들이 엄선한 프롬프트들을 제공하여, 복사-붙여넣기만으로 AI 생산성을 획기적으로 높여주는 비결을 담고 있습니다. 지금 바로 여러분의 AI 활용 능력을 한 단계 업그레이드할 기회를 잡으세요!\n\n\n\n \"오늘 날씨 어때?\" 같은 간단한 질문을 넘어, 인공지능(AI)을 정말 '일 잘하는 동료'처럼 활용하고 싶으신가요? 아마 많은 분이 AI 채팅창을 열었을 때, 무엇을 어떻게 질문해야 원하는 결과물을 얻을 수 있을지 막막했던 경험을 해보셨을 거예요. 제 주변에도 이런 고민을 하는 분들이 정말 많더라고요.\n맞아요, 좋은 질문이 좋은 답변을 만듭니다. 솔직히 저도 AI와 씨름하면서 '이게 최선인가?'라는 생각을 자주 했었거든요. 하지만 이제는 그럴 필요가 없습니다. 바로 이 지점에서 여러분의 AI 활용 능력을 극적으로 향상시켜 줄 비밀 무기, 'GPT PARK's Prompt Hub'를 소개합니다. 2025년, AI 시대의 생산성 혁명은 바로 여기에서 시작됩니다.\n'GPT PARK's Prompt Hub'가 왜 지금 필요한가요?\n우리가 AI를 사용하는 목적은 단순히 정보 검색을 넘어, 아이디어를 얻거나, 콘텐츠를 만들거나, 복잡한 작업을 효율적으로 처리하는 데 있습니다. 그런데 막상 AI와 대화하다 보면 원하는 답변을 얻기까지 수많은 시행착오를 겪기 마련이죠. 이런 비효율적인 과정이 반복되면 결국 AI 활용 자체를 포기하게 될 수도 있습니다.\n\n\n'GPT PARK's Prompt Hub'는 바로 이런 문제점에서 출발했습니다. 이 플랫폼은 단순히 프롬프트를 모아놓은 것을 넘어, 마케팅, 소프트웨어 개발, 콘텐츠 제작부터 일상생활에 이르기까지, 각 분야의 전문가들이 실제로 사용하는 실용적인 프롬프트들을 엄선하여 제공하는 보물창고입니다. 저는 이 사이트를 처음 접했을 때, '아, 드디어 AI와 제대로 대화할 수 있는 길을 찾았구나!' 하고 무릎을 탁 쳤습니다.\n  핵심 요점: 'GPT PARK's Prompt Hub'는 AI 활용의 시행착오를 줄이고, 구체적이고 효과적인 질문을 통해 사용자가 원하는 결과물을 빠르고 정확하게 얻도록 돕는 것을 목표로 합니다. AI를 더 이상 어렵게 느끼지 않도록 돕는 가장 스마트한 지름길이죠.\n  'GPT PARK's Prompt Hub' 파헤치기: 어떤 곳인가요?\n앞서 말씀드렸지만, 이곳은 일반적인 프롬프트 모음 사이트와는 차원이 다릅니다. 이 사이트의 목표는 사용자가 AI 앞에서 더 이상 망설이지 않고, 구체적이고 효과적인 질문을 통해 원하는 결과물을 얻도록 돕는 것입니다. 마치 나만의 AI 어시스턴트에게 정확한 지시를 내리는 법을 배우는 것과 같다고 할까요? 다양한 분야의 전문가들이 직접 사용하며 효과를 검증한 프롬프트들이기에 그 신뢰도는 두말할 나위가 없습니다.\n특히 흥미로운 점은, 단순히 질문 템플릿을 제공하는 것을 넘어 AI 챗봇의 정체성, 역할, 말투까지 지정할 수 있는 '챗봇 지침(Gems & GPTs)' 섹션이 있다는 거예요. 이건 정말 대단한 기능이라고 생각합니다. 나만의 전문 AI 챗봇을 만들 수 있는 가능성을 열어주는 거죠.\n  초보도 전문가처럼! '프롬프트 허브' 완벽 활용 4단계\n'GPT PARK's Prompt Hub'는 직관적인 디자인 덕분에 사용법이 정말 간단합니다. 저는 처음에 혹시 어렵지 않을까 걱정했는데, 막상 사용해보니 전혀 그렇지 않더라고요! 여러분도 쉽게 따라 할 수 있도록 핵심적인 활용법을 4단계로 나누어 자세히 알려드릴게요.\n\n\n1단계: 두 개의 보물상자, '분야별 프롬프트'와 '챗봇 지침'\n사이트에 접속하면 상단에 두 개의 주요 탭이 눈에 뜁니다. 마치 잘 정리된 서랍처럼 말이죠.\n분야별 프롬프트: 마케터, 개발자, 학생, 작가 등 누구나 일상과 업무에서 바로 사용할 수 있는 일반적인 프롬프트 200개가 모여 있습니다. 대부분의 사용자가 가장 많이 이용하게 될 메인 공간이라고 보시면 돼요. 저도 이 섹션에서 정말 많은 아이디어를 얻었습니다.\n챗봇 지침 (Gems & GPTs): 이곳은 조금 더 특별한 공간입니다. 단순한 일회성 질문이 아니라, AI 챗봇의 정체성, 역할, 말투를 지정하여 '100개의 나만의 전문 챗봇'을 만들기 위한 '시스템 지침'들이 모여있죠. 현재는 채널 멤버십 회원 전용으로, 암호를 통해 접근할 수 있다고 합니다. 이 기능은 정말 AI 활용의 게임 체인저가 될 것이라고 확신합니다.\n2단계: 나에게 꼭 맞는 프롬프트를 찾아라! 스마트 필터링\n'분야별 프롬프트' 탭을 선택하면, 마케팅, 소프트웨어 개발, 콘텐츠 제작, 비즈니스/생산성 등 다양한 카테고리 버튼이 나타납니다. 'All' 버튼을 누르면 모든 분야의 프롬프트를 한눈에 볼 수 있고요. 특정 분야(예: '디자인/창작')를 클릭하면 해당 카테고리에 속한 프롬프트만 깔끔하게 필터링되어 나타납니다. 아이콘과 함께 표시되어 원하는 분야를 쉽게 찾을 수 있어서 정말 편리합니다. 원하는 정보를 빠르게 찾을 수 있다는 건, 결국 시간 절약으로 이어진다는 뜻이겠죠!\n3단계: 마법의 버튼, '프롬프트 복사'\n마음에 드는 프롬프트를 찾으셨나요? 각 카드에는 제목과 설명, 그리고 실제 프롬프트 내용이 보기 쉽게 정리되어 있습니다. 이제 가장 편리한 기능을 사용할 차례입니다. 바로 '프롬프트 복사' 버튼이죠!\n프롬프트 아래에 있는 '프롬프트 복사' 버튼을 클릭해 보세요. 단 한 번의 클릭으로 전체 프롬프트 내용이 클립보드에 복사됩니다. 버튼이 '복사 완료!'로 바뀌는 시각적 피드백 덕분에 혼동할 염려도 전혀 없죠. 이 기능 덕분에 저도 작업 속도가 정말 빨라졌습니다. 이제 여러분이 사용하는 AI 챗봇(ChatGPT, Gemini, Claude 등)에 돌아가 붙여넣기만 하면 됩니다. 정말 쉽죠?\n4단계 (가장 중요!): 나만의 옷을 입히자! 커스터마이징의 힘\n'Prompt Hub'의 프롬프트들은 훌륭한 '템플릿'입니다. 여기서 중요한 점은, 복사한 프롬프트를 그대로 사용하기보다는 [ ] 로 표시된 부분을 여러분의 상황에 맞게 수정하여 사용하는 것이 훨씬 더 효과적이라는 겁니다.\n예를 들어, 복사한 프롬프트가 다음과 같다면:\n신제품 [제품 이름]을 홍보하기 위한 인스타그램 게시물 아이디어 5가지를 생성해 줘. 타겟 고객은 [타겟 고객 설명]이고, 목표는 참여도 증진이야. 이모지와 해시태그를 포함해 줘.\n이렇게 수정해서 질문하는 겁니다:\n신제품 '글로우업 비건 세럼'을 홍보하기 위한 인스타그램 게시물 아이디어 5가지를 생성해 줘. 타겟 고객은 '환경에 관심이 많은 20대 여성'이고, 목표는 참여도 증진이야. 이모지와 해시태그를 포함해 줘.\n이 작은 수정만으로 AI는 훨씬 더 정확하고 만족스러운 결과물을 제공할 것입니다. AI는 우리가 던지는 질문에 따라 무한한 잠재력을 보여주니까요. 마치 요리할 때 레시피를 기본으로 나만의 재료를 추가하는 것과 비슷하다고 생각하시면 돼요.\n⚠️ 주의할 점: 프롬프트를 복사한 뒤, [ ] 안의 내용을 본인의 상황에 맞게 꼭 수정하는 과정을 잊지 마세요. 이 단계가 AI의 잠재력을 최대로 끌어내고, 만족스러운 결과를 얻는 핵심 열쇠입니다. 복사-붙여넣기만으로는 100%의 효과를 보기 어렵습니다.\n✨ 이런 분들에게 'GPT PARK's Prompt Hub'를 강력 추천합니다!\n'GPT PARK's Prompt Hub'는 정말 다양한 분야의 사람들에게 큰 도움이 될 수 있는 도구라고 생각합니다. 특히 다음과 같은 분들이라면, 이 플랫폼을 통해 업무 효율과 생산성을 2배 이상 끌어올릴 수 있을 거예요.\nAI 마케터: 바이럴 캠페인 아이디어나 광고 카피 문구, SEO 전략 수립이 막막할 때. 혹은 고객 세분화 분석 등 복잡한 마케팅 전략을 세울 때도 큰 도움이 됩니다.\n개발자 & 기획자: 코드 리팩토링, API 설계 초안, 단위 테스트 케이스 생성, 아니면 복잡한 기능 요구사항을 명확하게 정리하고 싶을 때. 개발 과정의 막힌 부분을 시원하게 뚫어줄 겁니다.\n콘텐츠 크리에이터: 유튜브 스크립트 초안, 블로그 글 구성, 소설 아이디어, 심지어는 SNS 게시물 문구까지! 영감이 필요할 때마다 이 플랫폼이 든든한 조력자가 되어줄 거예요.\n학생 & 연구원: 복잡한 개념을 쉽게 이해하고 싶거나, 에세이 개요를 잡고, 논문 초록을 작성해야 할 때. 방대한 자료를 요약하는 데도 탁월한 성능을 발휘합니다.\n모든 직장인: 회의록 요약, 보고서 초안 작성, 이메일 작성, 발표 자료 구성 등 일상적인 업무를 더 빠르고 효율적으로 처리하고 싶을 때. 야근이 줄어드는 마법을 경험하실지도 모릅니다!\n  핵심 요약\n1. AI 활용의 장벽을 낮춥니다: 전문가가 엄선한 프롬프트로 누구나 AI를 쉽게 시작하고, 원하는 결과를 얻을 수 있도록 돕습니다.\n2. 시간 절약과 생산성 향상: 잘 만들어진 프롬프트를 복사-붙여넣기만 하면 되므로, 프롬프트 작성에 드는 시간을 획기적으로 줄여줍니다.\n3. 맞춤형 결과 도출: [ ]로 표시된 부분을 자신의 상황에 맞춰 수정함으로써, AI가 더욱 정교하고 개인화된 결과물을 제공합니다.\n4. 다양한 분야 전문가 지원: 마케팅, 개발, 콘텐츠 제작 등 폭넓은 전문 분야 프롬프트들을 제공하여, 각 직무의 특성을 살린 AI 활용을 가능하게 합니다.\n  잊지 마세요! 좋은 프롬프트는 좋은 질문에서 시작되며, 그 질문을 찾는 시간을 'GPT PARK's Prompt Hub'가 아껴줄 것입니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 'GPT PARK's Prompt Hub'는 무료로 이용할 수 있나요?\nA: 네, 대부분의 '분야별 프롬프트'는 누구나 무료로 이용할 수 있도록 제공됩니다. 하지만 '챗봇 지침(Gems & GPTs)'과 같이 특정 전문가용 고급 기능들은 채널 멤버십 회원 전용으로 운영되며, 암호를 통해 접근할 수 있습니다.\nQ2: 어떤 AI 챗봇과 함께 사용하는 것이 좋은가요?\nA: ChatGPT, Gemini, Claude, Copilot 등 텍스트 기반의 거의 모든 AI 챗봇에서 활용할 수 있습니다. 프롬프트를 복사해서 여러분이 주로 사용하는 AI 챗봇에 붙여넣기만 하면 되니, 호환성에 대한 걱정은 전혀 하지 않으셔도 됩니다. 저도 여러 AI 챗봇에서 시도해봤는데 다 잘 작동하더라고요!\nQ3: 프롬프트를 직접 수정하는 과정이 왜 중요한가요?\nA: '프롬프트 허브'의 프롬프트들은 기본적으로 훌륭한 '템플릿' 역할을 합니다. 하지만 AI의 가장 큰 장점은 여러분의 특정 상황과 요구사항에 맞춰 맞춤형 결과물을 생성할 수 있다는 점이에요. [ ]로 표시된 부분을 여러분의 실제 정보로 수정하면, AI가 훨씬 더 정확하고 만족스러운, 그리고 무엇보다 '나만을 위한' 결과물을 제공하게 됩니다. 이 과정을 통해 여러분의 창의력과 AI의 능력이 결합되어 시너지를 낼 수 있죠.\n { \"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [ { \"@type\": \"Question\", \"name\": \"'GPT PARK's Prompt Hub'는 무료로 이용할 수 있나요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"네, 대부분의 '분야별 프롬프트'는 누구나 무료로 이용할 수 있도록 제공됩니다. 하지만 '챗봇 지침(Gems & GPTs)'과 같이 특정 전문가용 고급 기능들은 채널 멤버십 회원 전용으로 운영되며, 암호를 통해 접근할 수 있습니다.\" } }, { \"@type\": \"Question\", \"name\": \"어떤 AI 챗봇과 함께 사용하는 것이 좋은가요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"ChatGPT, Gemini, Claude, Copilot 등 텍스트 기반의 거의 모든 AI 챗봇에서 활용할 수 있습니다. 프롬프트를 복사해서 여러분이 주로 사용하는 AI 챗봇에 붙여넣기만 하면 되니, 호환성에 대한 걱정은 전혀 하지 않으셔도 됩니다. 저도 여러 AI 챗봇에서 시도해봤는데 다 잘 작동하더라고요!\" } }, { \"@type\": \"Question\", \"name\": \"프롬프트를 직접 수정하는 과정이 왜 중요한가요?\", \"acceptedAnswer\": { \"@type\": \"Answer\", \"text\": \"'프롬프트 허브'의 프롬프트들은 기본적으로 훌륭한 '템플릿' 역할을 합니다. 하지만 AI의 가장 큰 장점은 여러분의 특정 상황과 요구사항에 맞춰 맞춤형 결과물을 생성할 수 있다는 점이에요. [ ]로 표시된 부분을 여러분의 실제 정보로 수정하면, AI가 훨씬 더 정확하고 만족스러운, 그리고 무엇보다 '나만을 위한' 결과물을 제공하게 됩니다. 이 과정을 통해 여러분의 창의력과 AI의 능력이 결합되어 시너지를 낼 수 있죠.\" } } ] } \n'GPT PARK's Prompt Hub'는 AI 시대를 살아가는 우리에게 꼭 필요한 '스마트 도구 상자'와 같습니다. 더 이상 빈 화면 앞에서 고민하거나, AI와 씨름하며 소중한 시간을 낭비하지 마세요. 잘 만들어진 프롬프트 하나가 여러분의 시간과 노력을 획기적으로 줄여주고, 창의력의 한계를 뛰어넘게 해줄 것입니다. 솔직히 말하면, 저도 이 도구 덕분에 AI를 바라보는 시선 자체가 완전히 바뀌었습니다.\n지금 바로 'GPT PARK's Prompt Hub'를 방문하여 여러분의 AI 활용 능력을 한 단계 업그레이드하고, 최고의 생산성을 경험해 보세요! 여러분의 AI 라이프가 더욱 풍요로워질 겁니다.\n \n➡️ 'GPT PARK's Prompt Hub' 바로가기",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483675",
+    "link": "https://muzbox.tistory.com/483675",
     "pubDate": "Wed, 29 Oct 2025 10:12:49 +0900",
     "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
@@ -24,74 +152,79 @@
     ]
   },
   {
-    "id": 2,
+    "id": 10,
     "imageUrl": "",
-    "title": "BGTD ETF / 비트코인 반 금 반",
-    "description": "와 이거 좋네요\n영상: https://www.youtube.com/watch?v=67OnfiLYXXQ\n\n\n\n \n \n \n레버리지를 써서\n비트코인을 100% / 금을 100% 들고 있는 상품입니다.\n올해 나왔고 성정은 어마어마하게 좋습니다.\n저도 이걸로 갈아타야겠습니다.\n \n \n\n\n올해 성적인데 금 상승율 만큼은 먹었습니다.\n빗코가 안좋았는데도 충분히 금 상승량 만큼 올랐습니다.",
+    "title": "<월간 미니앱> 10월 호: 하루의 시작을 가볍게 만드는 미니앱 3가지",
+    "description": "토스 미니앱을 처음 써본다면 ‘이것’부터 시작해 보세요",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1457",
-    "pubDate": "Mon, 3 Nov 2025 02:46:10 +0900",
-    "creator": "SIDNFT",
+    "link": "https://toss.im/tossfeed/article/monthlyminiapp-1",
+    "pubDate": "Fri, 31 Oct 2025 06:54:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Grazie’s Next Step: Built-In Language Intelligence for Your IDE",
+    "description": "Over the last few years, Grazie has grown from a simple proofreading tool into a comprehensive writing assistant for developers, offering intelligent support across different contexts like code comments, documentation, and README files. Starting with the upcoming 2025.3 IDE versions, Grazie will become a native part of IntelliJ-based IDEs through the Natural Languages plugin, bringing […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/grazie/2025/10/grazie-s-next-step-built-in-language-intelligence-for-your-ide/",
+    "pubDate": "Thu, 30 Oct 2025 12:43:27 +0000",
+    "creator": "Svetlana Novikova",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "내 채널 왜 안 클까? AI가 진단하는 유튜브 채널 문제점과 맞춤형 성장 플랜",
+    "description": "혹시 여러분의 유튜브 채널이 정체기에 있나요? 어떤 콘텐츠를 만들어야 할지, 경쟁 채널은 어떻게 분석해야 할지 막막하신가요? 더 이상 감에 의존하지 마세요! AI 기반 분석 도구인 '지피티 팍의 유튜브 채널 컨설턴트'와 함께라면, 실시간 데이터 분석과 AI 인사이트를 통해 여러분만의 맞춤형 성장 전략을 세울 수 있습니다. 오늘 이 글에서 여러분의 채널이 왜 성장하지 못하는지 진단하고, AI가 제안하는 구체적인 성장 플랜까지 모두 공개합니다.\n 수많은 크리에이터들이 유튜브 채널 성장을 꿈꾸지만, 막상 채널을 운영하다 보면 예상치 못한 난관에 부딪히기 마련이에요. 특히나 구독자가 늘지 않거나, 조회수가 제자리걸음일 때는 정말 막막하죠. 데이터가 중요하다는 건 알지만, 그 복잡한 숫자들을 어떻게 해석하고 실제 전략으로 연결해야 할지는 또 다른 문제고요. 아마 이 글을 읽고 계신 여러분도 비슷한 고민을 하고 계실 거예요.\n\n\n이런 크리에이터 분들을 위해, 오늘은 여러분의 유튜브 채널 성장을 한 단계 더 끌어올릴 수 있는 강력한 비밀 무기, 바로 '지피티 팍의 유튜브 채널 컨설턴트' 앱을 소개하려고 해요. 이 앱은 단순한 분석을 넘어, AI의 힘으로 여러분이 '그래서 뭘 해야 하는지'까지 명확하게 제시해주는, 정말 특별한 도구랍니다.\n  유튜브 데이터 API, 채널 성장의 핵심 열쇠\n'지피티 팍의 유튜브 채널 컨설턴트' 앱의 핵심 기반은 바로 유튜브 데이터 API v3입니다. 이 API는 유튜브에 공개된 수많은 데이터를 실시간으로 가져와 분석할 수 있게 해주는데요. 구독자 수, 조회수, 댓글 수부터 경쟁 채널의 콘텐츠 전략까지, 모든 것을 파악할 수 있는 강력한 도구라고 생각하시면 돼요. 심지어 구글 클라우드 콘솔에서 API 키만 발급받으면 하루 10,000쿼터까지 무료로 사용할 수 있어서, 개인 프로젝트나 소규모 채널 운영에는 정말 충분한 양이랍니다.\n  API 키 발급은 어떻게 하나요?\n구글 클라우드 콘솔에 접속해 새 프로젝트를 만든 후, 'API 및 서비스' 메뉴에서 '유튜브 데이터 API v3'를 활성화하고 '사용자 인증 정보'에서 API 키를 생성하면 돼요. 이 키는 절대 외부에 공유하면 안 된다는 점, 꼭 기억하세요! Gemini에게 물어보면 자세한 가이드도 얻을 수 있답니다.\n유튜브 데이터 API v3의 주요 기능은 크게 다섯 가지로 나눌 수 있어요. 이 기능들을 조합하여 채널 분석, 키워드 분석, 라이징 스타 발굴 등 다양한 분석 기능을 구현할 수 있죠.\n기능\n설명\n\n\n\n\nSearch\n키워드로 채널이나 인기 영상을 검색하여 특정 주제의 트렌드를 파악합니다.\n\n\nChannels\n채널의 구독자 수, 총 조회수, 영상 개수 등 기본 정보를 가져와 규모를 파악합니다.\n\n\nVideos\n각 영상의 제목, 설명, 태그, 조회수, 좋아요, 댓글 등 상세 통계를 분석합니다.\n\n\nPlaylistItems\n채널의 모든 업로드 영상 목록을 가져와 콘텐츠 전략 전체를 한눈에 파악합니다.\n\n\nComments\n영상의 댓글을 분석하여 시청자들의 실제 반응과 피드백을 확인합니다.\n\n\n\n이 모든 기능을 바탕으로 '지피티 팍의 유튜브 채널 컨설턴트' 앱이 탄생했는데요. 개발 과정에서도 AI Studio Build를 활용해 수많은 피드백과 수정을 거치며 완성도를 높였어요. 마치 AI와 함께 대화하며 코드를 짜는 '바이브 코딩'을 경험하는 것 같았답니다. 덕분에 복잡한 데이터 분석을 누구나 쉽게 이해하고 활용할 수 있는 앱으로 만들 수 있었죠.\n  '지피티 팍의 유튜브 채널 컨설턴트 프로'의 3가지 핵심 기능\n이제 여러분의 채널 성장을 위한 필수 도구, '지피티 팍의 유튜브 채널 컨설턴트 프로' 앱의 핵심 기능들을 좀 더 자세히 알아볼까요? 이 앱은 단순히 데이터를 보여주는 것을 넘어, AI가 구체적인 실행 전략까지 제안해주는 진정한 컨설팅 도구입니다.\n\n\n1.   채널 분석: 우리 채널, 뭐가 문제일까?\n특정 채널을 집중적으로 분석하여 강점과 약점을 파악하는 기능이에요. 종합 대시보드에서는 구독자 수, 총 조회수, 인기 영상 분포, 시간대별 성과 등 핵심 지표를 차트로 한눈에 볼 수 있습니다. 여기서 특히 주목할 만한 것은 AI 기반 3대 심층 분석입니다.\nAI 경쟁 전략 분석: 분석 채널을 이길 수 있는 새로운 채널 컨셉, 콘텐츠 방향, 운영 계획, 수익화 모델까지 제안합니다. 초기 3개월 집중 성장 로드맵과 영상 제목 10개 제안은 정말 실질적인 도움을 줘요.\nAI 성장 과정 분석: 채널의 영상 기록을 초기, 중기, 최신 3단계로 나누어 시기별 성과와 전략 변화를 추적하여 성공 요인을 파악합니다.\nAI 채널 진단 및 컨설팅: 현재 채널의 문제점을 진단하고, 콘텐츠, 시청자 참여, 브랜딩 등 다각적인 관점에서 단기/장기 실행 계획을 제공합니다.\n\n\n2.   키워드 분석: 어떤 주제가 지금 뜰까?\n특정 주제나 키워드의 시장 트렌드를 파악하는 기능입니다. 어떤 영상들이 인기 있는지, 어떤 채널들이 시장을 장악하고 있는지 보여주며, 국가별, 영상 형식별, 카테고리별로 필터링하여 정밀하게 분석할 수 있어요. AI가 해당 키워드로 성공할 수 있는 채널 전략까지 자동으로 생성해주니, 다음 콘텐츠 아이디어를 얻는 데 정말 유용하죠.\n3.   공략 채널 찾기: 경쟁 없는 블루오션을 찾아라!\n경쟁이 덜한 기회의 시장을 찾아내는, 크리에이터라면 정말 궁금할 만한 기능입니다. 크게 두 가지로 나뉘는데요.\n라이징 스타 채널 찾기: 최근 3개월, 6개월, 1년 내 개설되었지만 영상 대비 구독자 전환율이 높은, 소위 '떡상' 채널들을 발굴하여 벤치마킹할 수 있게 도와줍니다.\n빈집 토픽 찾기: 특정 해시태그의 상위 인기 영상 데이터를 수집해 조회수 분포, 채널 집중도, 채널 활성도를 분석합니다. AI가 이 데이터를 종합적으로 해석하여 해당 시장이 레드오션인지 블루오션인지 판단하고, 차별화 전략까지 제시해줍니다. 예를 들어, 채널 집중도는 높지만 활동이 뜸하다면 '과거 강자들이 비워둔 기회의 시장'으로 판단해 블루오션 진입 전략을 알려주는 식이죠.\n ️ 앱, 이렇게 사용해 보세요! (간단 가이드)\n자, 이제 이 강력한 앱을 어떻게 사용하는지 핵심만 콕 짚어 알려드릴게요. 생각보다 정말 간단하답니다!\nAPI 키 입력: 제일 먼저 우측 상단 설정 버튼을 클릭해 아까 발급받은 API 키를 붙여넣고 저장하세요. 이 키는 브라우저에 암호화되어 저장되니 한 번만 입력하면 됩니다.\n채널 분석 시작: 상단의 검색창에 분석하고 싶은 채널 이름(예: 'GPT PARK')을 입력하면, 앱이 자동으로 채널을 찾아 모든 영상을 분석하고 대시보드를 보여줍니다. 기본 정보와 차트, 조회수 순으로 정렬된 영상 목록을 확인할 수 있어요.\nAI 진단 활용: 만약 여러분의 채널이라면 'AI 채널 진단 및 컨설팅'을 통해 콘텐츠, 시청자 참여, 브랜딩, 수익화 측면의 단기/장기 솔루션을 받아보세요. 경쟁 채널 분석이 필요하다면 'AI 경쟁 전략 분석'으로 새로운 채널 컨셉과 운영 전략을 제안받을 수 있습니다.\n키워드 분석 활용: '키워드 분석' 탭에서는 '제미나이 활용법'과 같은 특정 키워드를 입력해 시장 트렌드를 파악하고 AI 기반의 운용 전략을 수립할 수 있습니다.\n  핵심 요약\nAI 기반 심층 분석: 채널의 강점과 약점을 파악하고 경쟁 채널을 이길 전략을 AI가 직접 제안합니다.\n맞춤형 성장 플랜: 콘텐츠, 시청자 참여, 브랜딩, 수익화 등 다각적인 측면에서 구체적인 단기/장기 실행 계획을 제공합니다.\n블루오션 기회 발굴: '라이징 스타 채널'과 '빈집 토픽' 기능을 통해 성장 가능성이 높은 새로운 시장을 찾아냅니다.\n데이터 기반 의사결정: 복잡한 유튜브 데이터를 AI가 쉽고 명확하게 해석하여 효율적인 채널 운영을 돕습니다.\n더 이상 감에 의존하지 마세요. 이제 AI와 함께 데이터 기반의 스마트한 성장을 경험할 때입니다!\n  지피티 팍 채널 컨설턴트 BASIC 버전 무료 배포!\n좋은 소식은, 여러분 모두 이 강력한 도구를 직접 경험해볼 수 있다는 거예요! '지피티 팍의 유튜브 채널 컨설턴트' BASIC 버전을 블로그 아래 링크를 통해 무료로 배포합니다.\n[BASIC 무료 사용하기]\n  BASIC 버전 기능: '채널 분석'과 '키워드 분석' 두 가지 핵심 기능을 모두 이용할 수 있습니다. 여러분의 채널을 진단하고, 트렌드를 파악하는 데 충분할 거예요.\n'공략 채널 찾기' 기능(라이징 스타 채널 찾기, 빈집 토픽 찾기)은 PRO 버전 전용 기능이에요. PRO 버전을 이용하고 싶으시다면 저희 유튜브 채널 멤버십에 가입하시면 됩니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: '지피티 팍의 유튜브 채널 컨설턴트' 앱은 어떤 사용자에게 가장 유용할까요?\nA: 채널 성장에 고민이 많은 초보 크리에이터부터, 데이터 기반의 전략적인 채널 운영을 원하는 중급 이상 크리에이터까지 모두에게 유용해요. 특히 채널 컨셉 설정, 콘텐츠 기획, 경쟁 분석, 수익화 전략 등 전반적인 채널 운영에 대한 AI의 맞춤형 조언을 얻고 싶은 분들께 강력히 추천합니다.\nQ2: API 키는 왜 필요한가요? 보안 문제는 없나요?\nA: API 키는 유튜브 데이터에 접근하기 위한 일종의 신분증이에요. 이 키를 통해 앱이 유튜브의 공개 데이터를 가져올 수 있죠. 저희 앱에서는 이 키를 여러분의 브라우저에 암호화하여 저장하며, 외부에 전송하거나 공유하지 않기 때문에 보안 걱정은 안 하셔도 돼요. 다만, 다른 사람에게 키가 유출되지 않도록 본인만 잘 관리해주시는 게 중요합니다.\nQ3: BASIC 버전과 PRO 버전의 가장 큰 차이점은 무엇인가요?\nA: BASIC 버전은 '채널 분석'과 '키워드 분석'이라는 두 가지 핵심 기능을 통해 현재 채널의 문제점을 진단하고 콘텐츠 아이디어를 얻는 데 중점을 둡니다. 반면 PRO 버전은 여기에 더해 '공략 채널 찾기'(라이징 스타 채널, 빈집 토픽) 기능을 제공하여, 경쟁 우위 확보를 위한 블루오션 시장 발굴과 차별화 전략 수립에 특화되어 있어요. 여러분의 채널 성장 단계에 맞춰 선택하시면 됩니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"'지피티 팍의 유튜브 채널 컨설턴트' 앱은 어떤 사용자에게 가장 유용할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"채널 성장에 고민이 많은 초보 크리에이터부터, 데이터 기반의 전략적인 채널 운영을 원하는 중급 이상 크리에이터까지 모두에게 유용해요. 특히 채널 컨셉 설정, 콘텐츠 기획, 경쟁 분석, 수익화 전략 등 전반적인 채널 운영에 대한 AI의 맞춤형 조언을 얻고 싶은 분들께 강력히 추천합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"API 키는 왜 필요한가요? 보안 문제는 없나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"API 키는 유튜브 데이터에 접근하기 위한 일종의 신분증이에요. 이 키를 통해 앱이 유튜브의 공개 데이터를 가져올 수 있죠. 저희 앱에서는 이 키를 여러분의 브라우저에 암호화하여 저장하며, 외부에 전송하거나 공유하지 않기 때문에 보안 걱정은 안 하셔도 돼요. 다만, 다른 사람에게 키가 유출되지 않도록 본인만 잘 관리해주시는 게 중요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"BASIC 버전과 PRO 버전의 가장 큰 차이점은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"BASIC 버전은 '채널 분석'과 '키워드 분석'이라는 두 가지 핵심 기능을 통해 현재 채널의 문제점을 진단하고 콘텐츠 아이디어를 얻는 데 중점을 둡니다. 반면 PRO 버전은 여기에 더해 '공략 채널 찾기'(라이징 스타 채널, 빈집 토픽) 기능을 제공하여, 경쟁 우위 확보를 위한 블루오션 시장 발굴과 차별화 전략 수립에 특화되어 있어요. 여러분의 채널 성장 단계에 맞춰 선택하시면 됩니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483676",
+    "pubDate": "Sun, 2 Nov 2025 11:49:26 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "투자",
-      "btgd",
-      "금",
-      "비트코인"
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "AI 유튜브 분석",
+      "라이징 유튜브 채널",
+      "유튜브 SEO",
+      "유튜브 데이터 API",
+      "유튜브 수익화",
+      "유튜브 전략",
+      "유튜브 채널 성장",
+      "유튜브 키워드 연구",
+      "채널 컨설팅",
+      "콘텐츠 제작"
     ]
   },
   {
-    "id": 3,
+    "id": 13,
     "imageUrl": "",
-    "title": "[Livestream recording] Maximizing TeamCity: New Features in Action and a Look Ahead",
-    "description": "In our latest livestream, TeamCity Solutions Engineers Ricardo Leite and Daniel Gallo hosted a livestream packed with exciting updates about TeamCity – from brand-new features already making life easier for CI/CD engineers, to a sneak peek at what’s next for 2026. If you missed it or just want a quick refresher, here are the key […]",
+    "title": "인플루언서 따라 질러버린 새 옷은 정말 내 취향일까?",
+    "description": "[취향 발견] 손민수부터 디토소비까지, 소비는 곧 내 삶의 모양일까?",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/10/livestream-recording-maximizing-teamcity/",
-    "pubDate": "Thu, 30 Oct 2025 16:37:54 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "livestream",
-      "news",
-      "webinar"
-    ]
+    "link": "https://toss.im/tossfeed/article/tosspick-2025-4b",
+    "pubDate": "Wed, 29 Oct 2025 01:02:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
-    "id": 4,
+    "id": 14,
     "imageUrl": "",
-    "title": "The MPS 2025.3 Early Access Program Has Started",
-    "description": "We’re starting the MPS 2025.3 Early Access Program (EAP) today. You can download the first 2025.3 EAP release and try it out now! DOWNLOAD MPS 2025.3 EAP Besides numerous bug fixes, this release brings three major improvements: Light and dark TextIcon options TextIcon’s layers can now be configured to apply to the light, dark, or […]",
+    "title": "토스증권의 감동적인 고객 서비스",
+    "description": "며칠 전 어떤 서류를 떼기 위해 토스증권에 오후 4시쯤 전화로 문의를 했습니다.\n밤 10시쯤 되어 생각이 났습니다. 아 맞다. 문서 출력해둬야지.\n토스증권에 전화를 했더니 다행히 전화를 받았습니다.\n상담원분께서 이리저리 알아보시는 것 같았습니다.\n보통의 고객 서비스팀은 여기서 어쩔 수 없다 할 것이 분명합니다만… 토스팀은 달랐습니다.\n저는 크게 감동받았습니다. 옆에 있던 아내도 깜짝 놀랐습니다. 이런 회사는 처음봤다고.\n토스증권에 지금까지 문의를 5번 정도 한 것 같은데, 모두 다른 상담원이지만 서비스 퀄리티는 한결같았습니다.\n유니콘이 되어서도 모든 팀이 이렇게 열정적으로 일하는 시스템.\n함께 읽으면 좋은 글:\n한글로 코딩하기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/mps/2025/10/the-mps-2025-3-eap-has-started/",
-    "pubDate": "Wed, 29 Oct 2025 12:28:32 +0000",
-    "creator": "Vaclav Pech",
-    "categories": [
-      "releases",
-      "eap",
-      "release"
-    ]
+    "link": "https://jeho.page/essay/2025/11/03/toss.html",
+    "pubDate": "2025-11-03T07:17:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Upgrading C++ Projects to Visual Studio 2026",
-    "description": "With Visual Studio 2026 version 18.0 getting closer to General Availability (GA), we want to share with you how you can upgrade your projects from your current versions of Visual Studio and the Microsoft C++ (MSVC) Build Tools to the latest versions. The new IDE ships with the v145 platform toolset for MSBuild C++ projects […]\nThe post Upgrading C++ Projects to Visual Studio 2026 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/upgrading-c-projects-to-visual-studio-2026/",
-    "pubDate": "Thu, 30 Oct 2025 16:53:05 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "Announcement",
-      "C++",
-      "MSVC",
-      "visual studio",
-      "visual studio 2026"
-    ]
-  },
-  {
-    "id": 6,
+    "id": 15,
     "imageUrl": "",
     "title": "과학상식 - 광속으로 이동하면서 관측하기",
     "description": "광속 문제\n내가 광속으로 이동하면서 목표지점을 관측한다면\n두배의 재생 속도로 보게 되는 것이냐\n라는 질문입니다.\n \n영상: https://youtu.be/qwDyvMZ3Cfo?t=266\n\n\n\n \n5분에 나옵니다.\n시청자 질문이구요\n \n5년 거리의 목표물을 보고 있고 내가 광속으로 추진해서 가까워지면\n상대방은 2배 빠른속도로 재생되야 하는거 아닌가 라는 질문입니다.\n계속 쳐다보면 그렇게 되야 도착했을때 시점이 맞게 됩니다.\n \n추가로 빛의 속도로 멀어지면 영상이 뒤로 되감기는 효과가 있겠습니다.\n \n하지만 우리의 똑똑이 과학자들은 이에 제대로 답하지 못하고 있네요\n그냥 광속으로 가는 추진기나 만들자",
@@ -104,119 +237,5 @@
       "유튜브",
       "과학"
     ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Grazie’s Next Step: Built-In Language Intelligence for Your IDE",
-    "description": "Over the last few years, Grazie has grown from a simple proofreading tool into a comprehensive writing assistant for developers, offering intelligent support across different contexts like code comments, documentation, and README files. Starting with the upcoming 2025.3 IDE versions, Grazie will become a native part of IntelliJ-based IDEs through the Natural Languages plugin, bringing […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/grazie/2025/10/grazie-s-next-step-built-in-language-intelligence-for-your-ide/",
-    "pubDate": "Thu, 30 Oct 2025 12:43:27 +0000",
-    "creator": "Svetlana Novikova",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 24화, 반장 선거인 데스와 ②",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2381",
-    "pubDate": "Wed, 29 Oct 2025 20:23:03 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "토스, 5개 외국어 공식 지원… 외국인 금융생활 접근성 강화",
-    "description": "외국인 고객의 금융 접근성 확대 및 이용 편의성 강화",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/multilingual-support",
-    "pubDate": "Sun, 02 Nov 2025 23:22:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "정규표현식: 성능 - 2nd",
-    "description": "변수를 포함한 URI 구간에서 FILE 정보 추출.\n\n\n\n\n확장자를 포함한 FILE 정보만 추출하고 싶으면,\n\n\n\n\n확장자를 포함한 FILE 구조를 정규표현식에 반영. 81단계의 검사 과정 소요.\n\n\n\n\n\n변수 정보를 제외한 URL 구간에서 추출하면 19단계 소요.\n\n\n\n\n변수 정보를 포함한 URI는 URL보다 더 길고, 더 다양한 상태 변화를 갖는다. 그만큼 정규표현식의 복잡도나 성능 소모량이 커질 수 있다는 얘기. 그래서 정규표현식을 좀 더 쉽게 사용하려면 검사 범위를 좁혀야 한다. SPL 작성도 더 쉬워짐.\n\n\n\n\n\n\n관련 글\n\n정규표현식: 성능\n정규표현식이 최선일까?\n정규표현식 몰라도 된다\n데이터 노가다 실수담 - 10th",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/11/2nd.html",
-    "pubDate": "2025-11-02T05:01:00.002Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "토스, 보안 컨퍼런스 ‘가디언즈 2025’ 개최…경험과 노하우 나눈다",
-    "description": "누구나 참여 가능한 보안 컨퍼런스",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/41945",
-    "pubDate": "Thu, 30 Oct 2025 08:18:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "[NS] 명확한 장단점 그리고 미래에 대한 기대, 포켓몬 레전즈 Z-A",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2380",
-    "pubDate": "Wed, 29 Oct 2025 11:20:05 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "공부가 재미 없다면 방법이 잘못된거다 — Andrej Karpathy",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://coolspeed.wordpress.com/2025/11/02/%ea%b3%b5%eb%b6%80%ea%b0%80-%ec%9e%ac%eb%af%b8-%ec%97%86%eb%8b%a4%eb%a9%b4-%eb%b0%a9%eb%b2%95%ec%9d%b4-%ec%9e%98%eb%aa%bb%eb%90%9c%ea%b1%b0%eb%8b%a4-andrej-karpathy/",
-    "pubDate": "Sun, 02 Nov 2025 07:29:06 +0000",
-    "creator": "coolspeed",
-    "categories": [
-      "未分类"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "The Modern Enterprise Toolkit for Secure, High-Quality Code",
-    "description": "On November 19, 2025, join JetBrains Qodana for a live session exploring how enterprises can embed quality, security, and compliance directly into their development workflows. Hosted by Product Specialist, Kai Schmithuesen, this session will walk you through the latest Qodana capabilities and real-world applications for modern software development and DevOps teams. Mark your calendars and […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/10/the-modern-enterprise-toolkit-for-secure-high-quality-code/",
-    "pubDate": "Mon, 27 Oct 2025 17:05:41 +0000",
-    "creator": "Kerry Beetge",
-    "categories": []
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "인앱택스 - 인앱 결제 부가세 계산 도우미",
-    "description": "직장인 소개팅 서비스인 커피한잔의 모든 수익은 100% 인앱결제를 통해 얻고 있습니다.\n그런데 구글이나 애플에서 보내주는 레포트를 보면 부가세가 얼마고 서비스 수수료가 얼마인지 정확하게 알기가 어렵습니다.\n하지만 그렇다고 세무사에게 모든 걸 맡기고 나는 아무 것도 모르고 있긴 싫으니…\n옛날 같으면 루비 스크립트로 만들어서 저 혼자서 썼을 겁니다.\n\n\n\n세금 계산 다 해주고 신고까지 해줄 수 있다면 좋겠지만, 그런 일들은 직접하셔야 한답니다.\n매출, 수수료, 부가세, 실지급액까지만 계산해줍니다.\n인앱결제를 구현하면서 겪었던 지식들도 정리해봤습니다.\n\n인앱택스 FAQ\n서비스 주소는 여기입니다.\nhttps://tax.jeho.page\n많은 분들이 쓸 것 같지는 않지만… 그래도 사용하시는 개발자 분들에게 도움이 되면 좋겠습니다.\n함께 읽으면 좋은 글:\n안드로이드 플레이스토어에서 인앱결제 부가가치세 설정하기\n카카오와 구글의 플레이스토어 전쟁\n안드로이드 매출 순위에 무슨 일이?",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/10/27/inapp-tax.html",
-    "pubDate": "2025-10-27T04:24:00.000Z",
-    "creator": "Unknown",
-    "categories": []
   }
 ]
