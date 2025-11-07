@@ -2,84 +2,175 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Visual Studio October Update – new models, memories, planning, and more",
-    "description": "The October 2025 update for Visual Studio 2022 (v17.14) is now available. In this month, we are bringing you improvements to model choices and agentic flows.  New Models  We now have Claude Sonnet 4.5  and Claude Haiku 4.5 available in the chat window. This means the latest innovations for driving your agentic workflows is right at your fingertips.  Memories  For […]\nThe post Visual Studio October Update – new models, memories, planning, and more appeared first on Visual Studio Blog.",
+    "title": "유연 휘발유 - 공기가 납으로 가득차 있다.",
+    "description": "현재는 다 해결되었고\n과거 이야기 입니다.\n \n영상: https://www.youtube.com/watch?v=mGIe9fu-6w4\n\n\n\n \n사람들이 석유차가 전기차 보다 좋다고 하지만\n그 논리는 쥐뿔도 맞지 않는 이야기 이며\n거의 100년간 어마어마한 개선을 통해 온게 지금의 석유차 입니다.\n연료통 폭발을 막는 장치\n주차중에 자동차엔진에서 연료를 제거하는 장치\n정말 많은 안전장치들이 포함되어있습니다.\n \n하지만 가장 중요한 것 바로 매연\n이것은 부자와 가난한자는 모두 같은 공기를 마신다는 지극히 단조로운 논리 때문에\n전기차를 밀 수 밖에 없습니다.\n \n부자들이 삶을 아무리 돈으로 휘감아도 공기를 가난한자와 분리할 수는 없기 때문입니다.\n모든 부자들도 이 논리에선 무너집니다.\n전기차가 비싼 이유도 서민들 타라고 만든게 아닙니다.\n \n제글 마윈의 공기에 대한 발언을 한번 참고해주시고\nhttps://serverdown.tistory.com/1121\n\n \n마윈이 기분 좋았던 시절의 이야기 / 특공 물 음식 하지만 공기는 ...\n영상: https://youtu.be/eemg-ZEKyrM?t=139223분에 나옵니다. 특별한 상위 계급들은 건강에 관련된 물건은 특별이 공급 (특공) 받습니다.일반인들은 오염된 음식과 물을 먹고 살고 있지요하지만 오늘은 기\nblog.sidnft.com\n\n \n부자들도 공기앞에선 무조건 합의 합니다.\n그 어떤 부자도 이걸 부정하진 않습니다.\n \n영화 - 엘리시움\n\n\n부자들이 지구 밖에다 거주지를 만들었다.\n이렇게 만들어도 결국 지구의 자원을 가져와야하고 공장을 돌려야하기 때문에\n출장을 갈 필요가 있고 결국 공기를 어떻게 피할 할 방법이 없습니다.\n \n전기차에 과한 기대\n저는 전기차로 넘어갈 것이라고 생각하고 있구요\n이는 부자들이 쓰는게 서민에게 넘어오는 현상이 역사적으로 반복되었기 때문입니다.\n언젠가는 사람들이 석유차는 나쁘고 전기차는 좋다는 인식이 생길 것이라고 확신합니다.\n \n2차전지 좀가자~\n\n\n미친 에코프로의 5년치 차트입니다. 이제 좀 오를랑 말랑 하네요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update/",
-    "pubDate": "Thu, 30 Oct 2025 12:00:36 +0000",
-    "creator": "Jessie Houghton",
+    "link": "http://serverdown.tistory.com/1455",
+    "pubDate": "Sun, 2 Nov 2025 16:18:39 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Visual Studio"
+      "유튜브",
+      "공기",
+      "괴담",
+      "부자",
+      "전기차"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Upgrading C++ Projects to Visual Studio 2026",
-    "description": "With Visual Studio 2026 version 18.0 getting closer to General Availability (GA), we want to share with you how you can upgrade your projects from your current versions of Visual Studio and the Microsoft C++ (MSVC) Build Tools to the latest versions. The new IDE ships with the v145 platform toolset for MSBuild C++ projects […]\nThe post Upgrading C++ Projects to Visual Studio 2026 appeared first on C++ Team Blog.",
+    "title": "Taming the Billion Dollar Mistake: Maarten Balliauw’s Guide to C# Nullable Reference Types",
+    "description": "At the most recent JetBrains.NET Days Online 2025 event, Maarten Balliauw delivered a comprehensive session on migrating existing codebases to use C# nullable reference types, a feature that’s been available since C# 8 but remains underutilized in many legacy projects. Through practical examples and migration strategies, Maarten demonstrated how to bring null safety to your […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/upgrading-c-projects-to-visual-studio-2026/",
-    "pubDate": "Thu, 30 Oct 2025 16:53:05 +0000",
-    "creator": "Augustin Popa",
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/04/maarten-balliauws-guide-to-csharp-nullable-reference-types/",
+    "pubDate": "Tue, 04 Nov 2025 13:39:13 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "Announcement",
-      "C++",
-      "MSVC",
-      "visual studio",
-      "visual studio 2026"
+      "net-tools",
+      "resharper",
+      "rider",
+      "c",
+      "nullable-reference-types",
+      "webinars"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "The Rider 2025.3 Release Candidate Is Now Available",
-    "description": "The next big release for Rider is just around the corner! If you’re eager to get a sneak peek, you can download the Release Candidate version of Rider 2025.3 from our website right now.  Here are the feature highlights of the Rider 2025.3 RC build: If you encounter any issues when using the Rider 2025.3 […]",
+    "title": "Java Annotated Monthly – November 2025",
+    "description": "This edition is packed with insightful, practical, and curiosity-fueling reads. From hands-on advice to thought-provoking pieces, we’ve gathered a nice selection of stories that will help you stay sharp and inspired in the tech world. We’re also happy to have Josh Long as our featured content author this month! Expect some top-notch insights and a […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/11/05/the-rider-2025-3-release-candidate/",
-    "pubDate": "Wed, 05 Nov 2025 16:30:53 +0000",
-    "creator": "Sasha Ivanova",
+    "link": "https://blog.jetbrains.com/idea/2025/11/java-annotated-monthly-november-2025/",
+    "pubDate": "Wed, 05 Nov 2025 12:10:48 +0000",
+    "creator": "Irina Mariasova",
     "categories": [
-      "net-tools",
-      "eap",
-      "releases",
-      "rider",
-      "game-development",
-      "monitoring",
-      "perforce",
-      "release-candiate"
+      "news",
+      "ai",
+      "java-annotated",
+      "java-annotated-monthly",
+      "kotlin",
+      "spring"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "토스, 초록우산과 함께 '2025 자립 플러스 프로젝트' 성료",
-    "description": "금융자립 교육 프로그램 진행",
+    "title": "dotInsights | November 2025",
+    "description": "Did you know? C# includes a feature called “expression-bodied members“, which allows you to define one-line methods, properties, constructors, and destructors in a very concise way. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. 🔦 From […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/41943",
-    "pubDate": "Thu, 30 Oct 2025 04:28:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/05/dotinsights-november-2025/",
+    "pubDate": "Wed, 05 Nov 2025 13:54:51 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "불완전한 광고 ID 선언 / Admob / Unity",
-    "description": "테스트 빌드를 올렸는데 거부 당했습니다.\n \n일단 빌드가 잘되어야하기 때문에 유니티에서 구글 애드의 id 가 들어가줘야합니다.\n유니티에서 이 메뉴\n\n\nSetting 버튼 누르면\n\n\n인스팩터에 이런게 뜹니다.\n요런거 에드몹에서 앱 만드시면 주는 걸 넣어야합니다.\n\n\n앱 ID 를 넣어야합니다.\n광고 개별 ID (배너, 전면 광고) 이런거 아닙니다.\n불완전한 광고 ID 선언 를 해결해보겠습니다.\n \nPlay Store Console 에서\n\n\n개시 개요 에 경고가 뜨구요\n우측에 \"문제 보기\" 클릭\n\n\n요런게 뜨구요 \"선언 작성\"\n\n\n광고 ID 로 보내주는군요\n\n\n\"예\" 선택\n\n\n용도는 이거두개 채크했다\n제일 우측 하단에 \"저장\" 버튼이 있다 누르면 \"개시 개요 로 보내준다.\"",
+    "title": "CentOS7의 Splunk - 4th",
+    "description": "스플렁크 v10부터 GLIBC 버전이 낮다면서 centos7에서 실행이 되지 않는다.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n\n[root@Snort ~]# rpm -ivh splunk-10.0.0-e8eb0c4654f8.x86_64.rpm\nwarning: splunk-10.0.0-e8eb0c4654f8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID b3cd4420: NOKEY\nPreparing...                          ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: cannot create directory /opt/splunk\nUpdating / installing...\n   1:splunk-10.0.0-e8eb0c4654f8       ################################# [100%]\nfind: ‘/opt/splunk/lib/python3.7/site-packages’: No such file or directory\ncomplete\n[root@Snort ~]# cd /opt/splunk\n[root@Snort splunk]# bin/splunk start --accept-license\nbin/splunk: /lib64/libc.so.6: version `GLIBC_2.25' not found (required by bin/splunk)\ncs\n\n\n\n\n포워더도 마찬가지.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n\n[root@Snort ~]# rpm -ivh splunkforwarder-10.0.0-e8eb0c4654f8.x86_64.rpm\nwarning: splunkforwarder-10.0.0-e8eb0c4654f8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID b3cd4420: NOKEY\nPreparing...                          ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: cannot create directory /opt/splunkforwarder\nUpdating / installing...\n   1:splunkforwarder-10.0.0-e8eb0c4654################################# [100%]\nfind: ‘/opt/splunkforwarder/lib/python3.7/site-packages’: No such file or directory\nfind: ‘/opt/splunkforwarder/lib/python3.9/site-packages’: No such file or directory\ncomplete\n[root@Snort ~]# \n[root@Snort ~]# cd /opt/splunkforwarder/\n[root@Snort splunkforwarder]# bin/splunk start --acctpe-license\nbin/splunk: /lib64/libc.so.6: version `GLIBC_2.25' not found (required by bin/splunk)\n[root@Snort splunkforwarder]#\n[root@Snort splunkforwarder]# ldd --version\nldd (GNU libc) 2.17\nCopyright (C) 2012 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nWritten by Roland McGrath and Ulrich Drepper.\n\nColored by Color Scripter\ncs\n\n\n\n\nGLIBC를 업데이트 해야 하나 싶어 찾아보니 운영체제 전반에 관여하는 라이브러리니 건드리지 말라는 의견이 대부분. Rocky Linux 10에서 잘 실행된다.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n\n[root@rocky ~]# ldd --version\nldd (GNU libc) 2.39\nCopyright (C) 2024 Free Software Foundation, Inc.\n이 프로그램은 자유 소프트웨어입니다. 복사조건은 소스를 참조하십시오.  상품성\n이나 특정 목적에 대한 적합성을 비롯하여 어떠한 보증도 하지 않습니다.\n만든 사람: Roland McGrath 및 Ulrich Drepper.\n[root@rocky ~]#\n[root@rocky ~]# rpm -ivh splunkforwarder-10.0.1-c486717c322b.x86_64.rpm\n경고: splunkforwarder-10.0.1-c486717c322b.x86_64.rpm: 헤더 V4 RSA/SHA256 Signature, 키 ID b3cd4420: NOKEY\n확인...                             ################################# [100%]\n준비 중...                         ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: 디렉터리 /opt/splunkforwarder을(를) 만들 수 없습니다\n최신화 / 설치하기...\n   1:splunkforwarder-10.0.1-c486717c32################################# [100%]\nfind: ‘/opt/splunkforwarder/lib/python3.7/site-packages’: 그런 파일이나 디렉터리가 없습니다\nfind: ‘/opt/splunkforwarder/lib/python3.9/site-packages’: 그런 파일이나 디렉터리가 없습니다\ncomplete\n[root@rocky ~]# \n[root@rocky ~]# cd /opt/splunkforwarder/\n[root@rocky splunkforwarder]# bin/splunk start --accept-license\nWarning: Attempting to revert the SPLUNK_HOME ownership\nWarning: Executing \"chown -R splunkfwd:splunkfwd /opt/splunkforwarder\"\n \nThis appears to be your first time running this version of Splunk.\n \nSplunk software must create an administrator account during startup. Otherwise, you cannot log in.\nCreate credentials for the administrator account.\nCharacters do not appear on the screen when you type in credentials.\n \nPlease enter an administrator username: admin\nPassword must contain at least:\n   * 8 total printable ASCII character(s).\nPlease enter a new password:\nPlease confirm new password:\nCreating unit file...\nImportant: splunk will start under systemd as user: splunkfwd\nThe unit file has been created.\n \n \nSplunk> CSI: Logfiles.\n \nChecking prerequisites...\n        Checking mgmt port [8089]: open\n                Creating: /opt/splunkforwarder/var/lib/splunk\n                Creating: /opt/splunkforwarder/var/run/splunk\n                Creating: /opt/splunkforwarder/var/run/splunk/appserver/i18n\n                Creating: /opt/splunkforwarder/var/run/splunk/appserver/modules/static/css\n                Creating: /opt/splunkforwarder/var/run/splunk/upload\n                Creating: /opt/splunkforwarder/var/run/splunk/search_telemetry\n                Creating: /opt/splunkforwarder/var/run/splunk/search_log\n                Creating: /opt/splunkforwarder/var/spool/splunk\n                Creating: /opt/splunkforwarder/var/spool/dirmoncache\n                Creating: /opt/splunkforwarder/var/lib/splunk/authDb\n                Creating: /opt/splunkforwarder/var/lib/splunk/hashDb\n                Creating: /opt/splunkforwarder/var/run/splunk/collect\n                Creating: /opt/splunkforwarder/var/run/splunk/sessions\nNew certs have been generated in '/opt/splunkforwarder/etc/auth'.\nNew certs have been generated in '/opt/splunkforwarder/etc/auth'.\n        Checking conf files for problems...\n        Done\n        Checking default conf files for edits...\n        Validating installed files against hashes from '/opt/splunkforwarder/splunkforwarder-10.0.1-c486717c322b-linux-amd64-manifest'\n        All installed files intact.\n        Done\nAll preliminary checks passed.\n \nStarting splunk server daemon (splunkd)...\nDone\n\nColored by Color Scripter\ncs\n\n\n\n\n관련 글\n\n\nCentOS7의 Splunk - 3rd\nCentOS7의 Splunk\nSplunkForwarder v9\nCould not bind to port 8089\n스플렁크와 엘라스틱 서비스 실행 차이",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1460",
-    "pubDate": "Mon, 3 Nov 2025 21:29:57 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
+    "link": "https://kangmyounghun.blogspot.com/2025/11/centos7-splunk-4th.html",
+    "pubDate": "2025-11-04T07:59:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 6,
+    "imageUrl": "",
+    "title": "차트매매 VWAP  전략 따라해보자 / 키움증권 HTS 수식편집기",
+    "description": "영상: https://www.youtube.com/watch?v=zOiFJYV5mRo&list=WL\n\n\n\n \n이평선에 거래량을 더한 지표입니다.\n세력이 들어갈때 따라 들어가고 나오고를 선으로 볼 수 있습니다.\n거기다가 추가로\n손익비 와 자동 손절을 조합하면 안전한 트레이드가 가능할 것같습니다.\n \n추가로 배울점\n영상을 보시면 초반에 적당히 먹으면 절반은 팝니다.\n기 기술로 안전하게 투자금을 줄이고 현금을 늘릴 수 있습니다.\n \n들어가는 지점을 정확히 알 수 있다면 \n가격이 비쌀때 빠진다고 자꾸 매수하는 실수를 방지할 수 있습니다.\n \n키움증권에서 지표 추가하기\n키움에는 VWAP 이 없습니다. 국내 HTS 에서 없는곳이 많다는군요\n그래서 만들어서 써야합니다.\n영상: https://www.youtube.com/watch?v=xe8N42zyzHA&t=73s\n\n\n\n \n수식 관리자로 만듭니다.\n\n\n( 평균(종가,기간1) + 평균(거래량,기간1) ) / 평균(거래량,기간1)\n이렇게 입력했습니다.\n \n추가 스테일\n스케일 에서 가격을 체크하셔야 차트에 표시됩니다.\n안그러면 RSI 처럼 별도의 선으로 하단에 추가되는 엉뚱한 문제가 있군요\n \n \n화이팅",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1464",
+    "pubDate": "Fri, 7 Nov 2025 00:25:01 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "투자",
+      "차트매매"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Roadmap for AI in Visual Studio (November)",
+    "description": "Today, we’re excited to share our public roadmap, which outlines the next steps in evolving Visual Studio with AI-powered agentic experiences. With every month, we aim to deliver smarter, faster, and more intuitive tools that enhance your coding experience. Disclaimer: The items outlined here represent ongoing work for the month. They are not commitments or […]\nThe post Roadmap for AI in Visual Studio (November) appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/roadmap-for-ai-in-visual-studio-november/",
+    "pubDate": "Wed, 05 Nov 2025 19:32:56 +0000",
+    "creator": "Rhea Patel",
+    "categories": [
+      "Copilot",
+      "GitHub Copilot",
+      "Roadmap",
+      "AI Agents",
+      "Artificial Intelligence",
+      "GitHub"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Bring Your Own Key (BYOK) Is Coming Soon to JetBrains AI",
+    "description": "At JetBrains, we’ve always believed in giving developers the best possible tools to enhance productivity and creativity. Recently, you’ve shared important feedback about AI usage limits, transparency, and the freedom to choose which AI providers you use. We heard you loud and clear. That’s why we are working to introduce bring-your-own-key (BYOK) support for JetBrains […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/11/bring-your-own-key-byok-is-coming-soon-to-jetbrains-ai/",
+    "pubDate": "Mon, 03 Nov 2025 15:15:02 +0000",
+    "creator": "Denis Shiryaev",
+    "categories": [
+      "news",
+      "ai-in-ides"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "[MULTI] 남의 것으로 내부를 채우고 간소화된 루터 슈터, 듀엣 나이트 어비스",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2382",
+    "pubDate": "Tue, 04 Nov 2025 15:49:20 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "토스증권의 감동적인 고객 서비스",
+    "description": "며칠 전 어떤 서류를 떼기 위해 토스증권에 오후 4시쯤 전화로 문의를 했습니다.\n밤 10시쯤 되어 생각이 났습니다. 아 맞다. 문서 출력해둬야지.\n토스증권에 전화를 했더니 다행히 전화를 받았습니다.\n상담원분께서 이리저리 알아보시는 것 같았습니다.\n보통의 고객 서비스팀은 여기서 어쩔 수 없다 할 것이 분명합니다만… 토스팀은 달랐습니다.\n저는 크게 감동받았습니다. 옆에 있던 아내도 깜짝 놀랐습니다. 이런 회사는 처음봤다고.\n토스증권에 지금까지 문의를 5번 정도 한 것 같은데, 모두 다른 상담원이지만 서비스 퀄리티는 한결같았습니다.\n유니콘이 되어서도 모든 팀이 이렇게 열정적으로 일하는 시스템.\nP.S. 스팸메일함에도 없던 그 메일은… 다음 날 오전 10시에 도착했습니다.\n함께 읽으면 좋은 글:\n한글로 코딩하기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/11/03/toss.html",
+    "pubDate": "2025-11-03T07:17:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "토스페이 혜택, 사용법 총정리 2025년 11월",
+    "description": "올리브영, 무신사, 오늘의집부터 면세점, 해외쇼핑까지 할인·적립 쿠폰 확인하기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tosspay-2025-02",
+    "pubDate": "Fri, 31 Oct 2025 15:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "내 채널 왜 안 클까? AI가 진단하는 유튜브 채널 문제점과 맞춤형 성장 플랜",
     "description": "혹시 여러분의 유튜브 채널이 정체기에 있나요? 어떤 콘텐츠를 만들어야 할지, 경쟁 채널은 어떻게 분석해야 할지 막막하신가요? 더 이상 감에 의존하지 마세요! AI 기반 분석 도구인 '지피티 팍의 유튜브 채널 컨설턴트'와 함께라면, 실시간 데이터 분석과 AI 인사이트를 통해 여러분만의 맞춤형 성장 전략을 세울 수 있습니다. 오늘 이 글에서 여러분의 채널이 왜 성장하지 못하는지 진단하고, AI가 제안하는 구체적인 성장 플랜까지 모두 공개합니다.\n 수많은 크리에이터들이 유튜브 채널 성장을 꿈꾸지만, 막상 채널을 운영하다 보면 예상치 못한 난관에 부딪히기 마련이에요. 특히나 구독자가 늘지 않거나, 조회수가 제자리걸음일 때는 정말 막막하죠. 데이터가 중요하다는 건 알지만, 그 복잡한 숫자들을 어떻게 해석하고 실제 전략으로 연결해야 할지는 또 다른 문제고요. 아마 이 글을 읽고 계신 여러분도 비슷한 고민을 하고 계실 거예요.\n\n\n이런 크리에이터 분들을 위해, 오늘은 여러분의 유튜브 채널 성장을 한 단계 더 끌어올릴 수 있는 강력한 비밀 무기, 바로 '지피티 팍의 유튜브 채널 컨설턴트' 앱을 소개하려고 해요. 이 앱은 단순한 분석을 넘어, AI의 힘으로 여러분이 '그래서 뭘 해야 하는지'까지 명확하게 제시해주는, 정말 특별한 도구랍니다.\n  유튜브 데이터 API, 채널 성장의 핵심 열쇠\n'지피티 팍의 유튜브 채널 컨설턴트' 앱의 핵심 기반은 바로 유튜브 데이터 API v3입니다. 이 API는 유튜브에 공개된 수많은 데이터를 실시간으로 가져와 분석할 수 있게 해주는데요. 구독자 수, 조회수, 댓글 수부터 경쟁 채널의 콘텐츠 전략까지, 모든 것을 파악할 수 있는 강력한 도구라고 생각하시면 돼요. 심지어 구글 클라우드 콘솔에서 API 키만 발급받으면 하루 10,000쿼터까지 무료로 사용할 수 있어서, 개인 프로젝트나 소규모 채널 운영에는 정말 충분한 양이랍니다.\n  API 키 발급은 어떻게 하나요?\n구글 클라우드 콘솔에 접속해 새 프로젝트를 만든 후, 'API 및 서비스' 메뉴에서 '유튜브 데이터 API v3'를 활성화하고 '사용자 인증 정보'에서 API 키를 생성하면 돼요. 이 키는 절대 외부에 공유하면 안 된다는 점, 꼭 기억하세요! Gemini에게 물어보면 자세한 가이드도 얻을 수 있답니다.\n유튜브 데이터 API v3의 주요 기능은 크게 다섯 가지로 나눌 수 있어요. 이 기능들을 조합하여 채널 분석, 키워드 분석, 라이징 스타 발굴 등 다양한 분석 기능을 구현할 수 있죠.\n기능\n설명\n\n\n\n\nSearch\n키워드로 채널이나 인기 영상을 검색하여 특정 주제의 트렌드를 파악합니다.\n\n\nChannels\n채널의 구독자 수, 총 조회수, 영상 개수 등 기본 정보를 가져와 규모를 파악합니다.\n\n\nVideos\n각 영상의 제목, 설명, 태그, 조회수, 좋아요, 댓글 등 상세 통계를 분석합니다.\n\n\nPlaylistItems\n채널의 모든 업로드 영상 목록을 가져와 콘텐츠 전략 전체를 한눈에 파악합니다.\n\n\nComments\n영상의 댓글을 분석하여 시청자들의 실제 반응과 피드백을 확인합니다.\n\n\n\n이 모든 기능을 바탕으로 '지피티 팍의 유튜브 채널 컨설턴트' 앱이 탄생했는데요. 개발 과정에서도 AI Studio Build를 활용해 수많은 피드백과 수정을 거치며 완성도를 높였어요. 마치 AI와 함께 대화하며 코드를 짜는 '바이브 코딩'을 경험하는 것 같았답니다. 덕분에 복잡한 데이터 분석을 누구나 쉽게 이해하고 활용할 수 있는 앱으로 만들 수 있었죠.\n  '지피티 팍의 유튜브 채널 컨설턴트 프로'의 3가지 핵심 기능\n이제 여러분의 채널 성장을 위한 필수 도구, '지피티 팍의 유튜브 채널 컨설턴트 프로' 앱의 핵심 기능들을 좀 더 자세히 알아볼까요? 이 앱은 단순히 데이터를 보여주는 것을 넘어, AI가 구체적인 실행 전략까지 제안해주는 진정한 컨설팅 도구입니다.\n\n\n1.   채널 분석: 우리 채널, 뭐가 문제일까?\n특정 채널을 집중적으로 분석하여 강점과 약점을 파악하는 기능이에요. 종합 대시보드에서는 구독자 수, 총 조회수, 인기 영상 분포, 시간대별 성과 등 핵심 지표를 차트로 한눈에 볼 수 있습니다. 여기서 특히 주목할 만한 것은 AI 기반 3대 심층 분석입니다.\nAI 경쟁 전략 분석: 분석 채널을 이길 수 있는 새로운 채널 컨셉, 콘텐츠 방향, 운영 계획, 수익화 모델까지 제안합니다. 초기 3개월 집중 성장 로드맵과 영상 제목 10개 제안은 정말 실질적인 도움을 줘요.\nAI 성장 과정 분석: 채널의 영상 기록을 초기, 중기, 최신 3단계로 나누어 시기별 성과와 전략 변화를 추적하여 성공 요인을 파악합니다.\nAI 채널 진단 및 컨설팅: 현재 채널의 문제점을 진단하고, 콘텐츠, 시청자 참여, 브랜딩 등 다각적인 관점에서 단기/장기 실행 계획을 제공합니다.\n\n\n2.   키워드 분석: 어떤 주제가 지금 뜰까?\n특정 주제나 키워드의 시장 트렌드를 파악하는 기능입니다. 어떤 영상들이 인기 있는지, 어떤 채널들이 시장을 장악하고 있는지 보여주며, 국가별, 영상 형식별, 카테고리별로 필터링하여 정밀하게 분석할 수 있어요. AI가 해당 키워드로 성공할 수 있는 채널 전략까지 자동으로 생성해주니, 다음 콘텐츠 아이디어를 얻는 데 정말 유용하죠.\n3.   공략 채널 찾기: 경쟁 없는 블루오션을 찾아라!\n경쟁이 덜한 기회의 시장을 찾아내는, 크리에이터라면 정말 궁금할 만한 기능입니다. 크게 두 가지로 나뉘는데요.\n라이징 스타 채널 찾기: 최근 3개월, 6개월, 1년 내 개설되었지만 영상 대비 구독자 전환율이 높은, 소위 '떡상' 채널들을 발굴하여 벤치마킹할 수 있게 도와줍니다.\n빈집 토픽 찾기: 특정 해시태그의 상위 인기 영상 데이터를 수집해 조회수 분포, 채널 집중도, 채널 활성도를 분석합니다. AI가 이 데이터를 종합적으로 해석하여 해당 시장이 레드오션인지 블루오션인지 판단하고, 차별화 전략까지 제시해줍니다. 예를 들어, 채널 집중도는 높지만 활동이 뜸하다면 '과거 강자들이 비워둔 기회의 시장'으로 판단해 블루오션 진입 전략을 알려주는 식이죠.\n ️ 앱, 이렇게 사용해 보세요! (간단 가이드)\n자, 이제 이 강력한 앱을 어떻게 사용하는지 핵심만 콕 짚어 알려드릴게요. 생각보다 정말 간단하답니다!\nAPI 키 입력: 제일 먼저 우측 상단 설정 버튼을 클릭해 아까 발급받은 API 키를 붙여넣고 저장하세요. 이 키는 브라우저에 암호화되어 저장되니 한 번만 입력하면 됩니다.\n채널 분석 시작: 상단의 검색창에 분석하고 싶은 채널 이름(예: 'GPT PARK')을 입력하면, 앱이 자동으로 채널을 찾아 모든 영상을 분석하고 대시보드를 보여줍니다. 기본 정보와 차트, 조회수 순으로 정렬된 영상 목록을 확인할 수 있어요.\nAI 진단 활용: 만약 여러분의 채널이라면 'AI 채널 진단 및 컨설팅'을 통해 콘텐츠, 시청자 참여, 브랜딩, 수익화 측면의 단기/장기 솔루션을 받아보세요. 경쟁 채널 분석이 필요하다면 'AI 경쟁 전략 분석'으로 새로운 채널 컨셉과 운영 전략을 제안받을 수 있습니다.\n키워드 분석 활용: '키워드 분석' 탭에서는 '제미나이 활용법'과 같은 특정 키워드를 입력해 시장 트렌드를 파악하고 AI 기반의 운용 전략을 수립할 수 있습니다.\n  핵심 요약\nAI 기반 심층 분석: 채널의 강점과 약점을 파악하고 경쟁 채널을 이길 전략을 AI가 직접 제안합니다.\n맞춤형 성장 플랜: 콘텐츠, 시청자 참여, 브랜딩, 수익화 등 다각적인 측면에서 구체적인 단기/장기 실행 계획을 제공합니다.\n블루오션 기회 발굴: '라이징 스타 채널'과 '빈집 토픽' 기능을 통해 성장 가능성이 높은 새로운 시장을 찾아냅니다.\n데이터 기반 의사결정: 복잡한 유튜브 데이터를 AI가 쉽고 명확하게 해석하여 효율적인 채널 운영을 돕습니다.\n더 이상 감에 의존하지 마세요. 이제 AI와 함께 데이터 기반의 스마트한 성장을 경험할 때입니다!\n  지피티 팍 채널 컨설턴트 BASIC 버전 무료 배포!\n좋은 소식은, 여러분 모두 이 강력한 도구를 직접 경험해볼 수 있다는 거예요! '지피티 팍의 유튜브 채널 컨설턴트' BASIC 버전을 블로그 아래 링크를 통해 무료로 배포합니다.\n[BASIC 무료 사용하기]\n  BASIC 버전 기능: '채널 분석'과 '키워드 분석' 두 가지 핵심 기능을 모두 이용할 수 있습니다. 여러분의 채널을 진단하고, 트렌드를 파악하는 데 충분할 거예요.\n'공략 채널 찾기' 기능(라이징 스타 채널 찾기, 빈집 토픽 찾기)은 PRO 버전 전용 기능이에요. PRO 버전을 이용하고 싶으시다면 저희 유튜브 채널 멤버십에 가입하시면 됩니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: '지피티 팍의 유튜브 채널 컨설턴트' 앱은 어떤 사용자에게 가장 유용할까요?\nA: 채널 성장에 고민이 많은 초보 크리에이터부터, 데이터 기반의 전략적인 채널 운영을 원하는 중급 이상 크리에이터까지 모두에게 유용해요. 특히 채널 컨셉 설정, 콘텐츠 기획, 경쟁 분석, 수익화 전략 등 전반적인 채널 운영에 대한 AI의 맞춤형 조언을 얻고 싶은 분들께 강력히 추천합니다.\nQ2: API 키는 왜 필요한가요? 보안 문제는 없나요?\nA: API 키는 유튜브 데이터에 접근하기 위한 일종의 신분증이에요. 이 키를 통해 앱이 유튜브의 공개 데이터를 가져올 수 있죠. 저희 앱에서는 이 키를 여러분의 브라우저에 암호화하여 저장하며, 외부에 전송하거나 공유하지 않기 때문에 보안 걱정은 안 하셔도 돼요. 다만, 다른 사람에게 키가 유출되지 않도록 본인만 잘 관리해주시는 게 중요합니다.\nQ3: BASIC 버전과 PRO 버전의 가장 큰 차이점은 무엇인가요?\nA: BASIC 버전은 '채널 분석'과 '키워드 분석'이라는 두 가지 핵심 기능을 통해 현재 채널의 문제점을 진단하고 콘텐츠 아이디어를 얻는 데 중점을 둡니다. 반면 PRO 버전은 여기에 더해 '공략 채널 찾기'(라이징 스타 채널, 빈집 토픽) 기능을 제공하여, 경쟁 우위 확보를 위한 블루오션 시장 발굴과 차별화 전략 수립에 특화되어 있어요. 여러분의 채널 성장 단계에 맞춰 선택하시면 됩니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"'지피티 팍의 유튜브 채널 컨설턴트' 앱은 어떤 사용자에게 가장 유용할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"채널 성장에 고민이 많은 초보 크리에이터부터, 데이터 기반의 전략적인 채널 운영을 원하는 중급 이상 크리에이터까지 모두에게 유용해요. 특히 채널 컨셉 설정, 콘텐츠 기획, 경쟁 분석, 수익화 전략 등 전반적인 채널 운영에 대한 AI의 맞춤형 조언을 얻고 싶은 분들께 강력히 추천합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"API 키는 왜 필요한가요? 보안 문제는 없나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"API 키는 유튜브 데이터에 접근하기 위한 일종의 신분증이에요. 이 키를 통해 앱이 유튜브의 공개 데이터를 가져올 수 있죠. 저희 앱에서는 이 키를 여러분의 브라우저에 암호화하여 저장하며, 외부에 전송하거나 공유하지 않기 때문에 보안 걱정은 안 하셔도 돼요. 다만, 다른 사람에게 키가 유출되지 않도록 본인만 잘 관리해주시는 게 중요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"BASIC 버전과 PRO 버전의 가장 큰 차이점은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"BASIC 버전은 '채널 분석'과 '키워드 분석'이라는 두 가지 핵심 기능을 통해 현재 채널의 문제점을 진단하고 콘텐츠 아이디어를 얻는 데 중점을 둡니다. 반면 PRO 버전은 여기에 더해 '공략 채널 찾기'(라이징 스타 채널, 빈집 토픽) 기능을 제공하여, 경쟁 우위 확보를 위한 블루오션 시장 발굴과 차별화 전략 수립에 특화되어 있어요. 여러분의 채널 성장 단계에 맞춰 선택하시면 됩니다.\"\n      }\n    }\n  ]\n}",
@@ -103,146 +194,50 @@
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Universal Entry Point: A Single Entry Point for Context-Aware Coding Assistance",
-    "description": "Modern IDEs are powerful tools with many useful features. When we talk about developer productivity, one thing that comes to mind is mastering the IDE – learning its features, like refactorings, navigation, or code generation, and remembering how to invoke them. However, discovering all the relevant features of your IDE, and knowing when and how […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/11/universal-entry-point-a-single-entry-point-for-context-aware-coding-assistance/",
-    "pubDate": "Tue, 04 Nov 2025 15:21:09 +0000",
-    "creator": "Marit van Dijk",
-    "categories": [
-      "features",
-      "news",
-      "code-completion",
-      "command-line-completion",
-      "context-aware-coding-assistance"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Roadmap for AI in Visual Studio (November)",
-    "description": "Today, we’re excited to share our public roadmap, which outlines the next steps in evolving Visual Studio with AI-powered agentic experiences. With every month, we aim to deliver smarter, faster, and more intuitive tools that enhance your coding experience. Disclaimer: The items outlined here represent ongoing work for the month. They are not commitments or […]\nThe post Roadmap for AI in Visual Studio (November) appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/roadmap-for-ai-in-visual-studio-november/",
-    "pubDate": "Wed, 05 Nov 2025 19:32:56 +0000",
-    "creator": "Rhea Patel",
-    "categories": [
-      "Copilot",
-      "GitHub Copilot",
-      "Roadmap",
-      "AI Agents",
-      "Artificial Intelligence",
-      "GitHub"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 25화, 악역영애 행동인 데스와 ③",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2383",
-    "pubDate": "Wed, 05 Nov 2025 20:52:33 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "AI 제품 개발 중 마주칠 수 있는 보안 위협 사례와 대책 방안",
-    "description": "이 글은 Tech-Verse 2025에서 발표된 AI 프로덕트 개발의 리스크와 미티게이션 세션을 글로 옮긴 것입니다.안녕하세요. LINE+ Security Engineering 김...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/risks-and-mitigations-in-ai-products-development",
-    "pubDate": "Tue, 04 Nov 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "PhpStorm Plugins You Might Not Know",
-    "description": "PhpStorm comes with a ton of built-in features, and you can add even more with plugins. They bring new languages, tools, and small improvements that make everyday coding smoother. Many of the best ones come from independent developers. One of them is Dmitrii Derepko, who built several handy tools for working with web projects and […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2025/11/phpstorm-plugins-you-might-not-know/",
-    "pubDate": "Tue, 04 Nov 2025 16:15:49 +0000",
-    "creator": "Roman Pronskiy",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "The ReSharper, .NET Tools, and ReSharper C++ 2025.3 Release Candidates Are Now Available",
-    "description": "Get a preview of all the latest features and improvements set to be shipped with the next major ReSharper by downloading the Release Candidate builds that have just landed. The ReSharper 2025.3 Release Candidate For the full list of changes included in this build, please refer to the issue tracker.  dotTrace, dotMemory, dotCover and dotPeek […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/11/05/the-resharper-dotnet-tools-2025-3-release-candidate/",
-    "pubDate": "Wed, 05 Nov 2025 16:30:45 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "resharpercplusplus",
-      "resharper",
-      "release-candidate",
-      "resharper-c"
-    ]
-  },
-  {
     "id": 13,
     "imageUrl": "",
-    "title": "Taming the Billion Dollar Mistake: Maarten Balliauw’s Guide to C# Nullable Reference Types",
-    "description": "At the most recent JetBrains.NET Days Online 2025 event, Maarten Balliauw delivered a comprehensive session on migrating existing codebases to use C# nullable reference types, a feature that’s been available since C# 8 but remains underutilized in many legacy projects. Through practical examples and migration strategies, Maarten demonstrated how to bring null safety to your […]",
+    "title": "10 Smart Performance Hacks For Faster Python Code",
+    "description": "This is a guest post from Dido Grigorov, a deep learning engineer and Python programmer with 17 years of experience in the field. In the rapidly evolving domain of software development, Python has established itself as a premier language, renowned for its simplicity, readability, and versatility. It underpins a vast range of applications, from web […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/11/04/maarten-balliauws-guide-to-csharp-nullable-reference-types/",
-    "pubDate": "Tue, 04 Nov 2025 13:39:13 +0000",
-    "creator": "Sasha Ivanova",
+    "link": "https://blog.jetbrains.com/pycharm/2025/11/10-smart-performance-hacks-for-faster-python-code/",
+    "pubDate": "Wed, 05 Nov 2025 10:50:20 +0000",
+    "creator": "Evgenia Verbina",
     "categories": [
-      "net-tools",
-      "resharper",
-      "rider",
-      "c",
-      "nullable-reference-types",
-      "webinars"
+      "web-development",
+      "performance",
+      "python"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Busy Plugin Developers Newsletter – Q3 2025",
-    "description": "Your quarterly dose of plugin dev news, tools, and tips from JetBrains.  ⭐ Community Spotlight JetBrains Plugin Developer Conf 2025 Is Coming Up Soon 📅 November 5, 2025 | Online | FreeLearn how to build the next great JetBrains plugin! Join our annual free virtual event focused on developing plugins for JetBrains products. Explore topics […]",
+    "title": "Video Invisible Watermarking at Scale",
+    "description": "At Meta, we use invisible watermarking for a variety of content provenance use cases on our platforms. Invisible watermarking serves a number of use cases, including detecting AI-generated videos, verifying who posted a video first, and identifying the source and tools used to create a video. We’re sharing how we overcame the challenges of scaling [...]\nRead More...\nThe post Video Invisible Watermarking at Scale appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/11/busy-plugin-developers-newsletter-q3-2025/",
-    "pubDate": "Mon, 03 Nov 2025 16:18:07 +0000",
-    "creator": "Elena Kerpeleva",
+    "link": "https://engineering.fb.com/2025/11/04/video-engineering/video-invisible-watermarking-at-scale/",
+    "pubDate": "Tue, 04 Nov 2025 18:00:52 +0000",
+    "creator": "Unknown",
     "categories": [
-      "marketplace",
-      "news",
-      "newsletters",
-      "busy-plugin-developers"
+      "Video Engineering"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "공부가 재미 없다면 방법이 잘못된거다 — Andrej Karpathy",
-    "description": "No description available",
+    "title": "BGTD ETF / 비트코인 반 금 반",
+    "description": "와 이거 좋네요\n영상: https://www.youtube.com/watch?v=67OnfiLYXXQ\n\n\n\n \n \n \n레버리지를 써서\n비트코인을 100% / 금을 100% 들고 있는 상품입니다.\n올해 나왔고 성정은 어마어마하게 좋습니다.\n저도 이걸로 갈아타야겠습니다.\n \n \n\n\n올해 성적인데 금 상승율 만큼은 먹었습니다.\n빗코가 안좋았는데도 충분히 금 상승량 만큼 올랐습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://coolspeed.wordpress.com/2025/11/02/%ea%b3%b5%eb%b6%80%ea%b0%80-%ec%9e%ac%eb%af%b8-%ec%97%86%eb%8b%a4%eb%a9%b4-%eb%b0%a9%eb%b2%95%ec%9d%b4-%ec%9e%98%eb%aa%bb%eb%90%9c%ea%b1%b0%eb%8b%a4-andrej-karpathy/",
-    "pubDate": "Sun, 02 Nov 2025 07:29:06 +0000",
-    "creator": "coolspeed",
+    "link": "http://serverdown.tistory.com/1457",
+    "pubDate": "Mon, 3 Nov 2025 02:46:10 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "未分类"
+      "투자",
+      "btgd",
+      "금",
+      "비트코인"
     ]
   }
 ]
