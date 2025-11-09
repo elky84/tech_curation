@@ -2,114 +2,32 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Growing Kotlin Adoption in Your Company",
-    "description": "Guest post by Urs Peter, Senior Software Engineer and JetBrains-certified Kotlin Trainer. For readers who’d like a more structured way to build Kotlin skills, Urs also leads the Kotlin Upskill Program at Xebia Academy. This is the third post in The Ultimate Guide to Successfully Adopting Kotlin in a Java-Dominated Environment, a series that follows how […]",
+    "title": "AI 에이전트 프레임웍의 불편한 진실",
+    "description": "이 글은 AI 에이전트 프레임웍의 불편한 진실을 경험을 반영해 이야기해보도록 한다. 약간 새로운 스타일로 다음과 같이 목차를 만들어 이야기할 생각이다.\n\n\n에이전트의 기반 LLM의 근본적 한계. 환각\n\n\nRAG는 만능 도구가 아니다.\n\n\n블랙박스화된 프레임웍. 간단한 질문 하나로 인해 발생되는 일들?\n\n\n토큰 사용은 숨겨져 있다.\n\n\n\n\n멀티 에이전트과 가난한 인프라의 충돌\n\n\n누가 돈을 벌어가나?\n\n\n\n마무리\n\n\n\n레퍼런스\n\nWe Spent $47K on AI Agents in Production. Here's What Broke. | Towards AI",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/11/growing-kotlin-adoption-in-your-company-2/",
-    "pubDate": "Wed, 05 Nov 2025 11:15:53 +0000",
-    "creator": "Alyona Chernyaeva",
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/ai.html",
+    "pubDate": "2025-11-07T01:49:00.000Z",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "IntelliJ Platform 2025.3: What Plugin Developers Should Know",
-    "description": "As we approach the release of IntelliJ IDEA 2025.3, we would like to share key information about changes that may impact your plugin development process. This post addresses common questions from the developer community and provides guidance on maintaining compatibility with the latest IntelliJ Platform versions. No Immediate Upgrade Required If you built your plugin […]",
+    "title": "dotInsights | November 2025",
+    "description": "Did you know? C# includes a feature called “expression-bodied members“, which allows you to define one-line methods, properties, constructors, and destructors in a very concise way. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. 🔦 From […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/11/intellij-platform-2025-3-what-plugin-developers-should-know/",
-    "pubDate": "Mon, 03 Nov 2025 14:07:54 +0000",
-    "creator": "Jakub Chrzanowski",
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/05/dotinsights-november-2025/",
+    "pubDate": "Wed, 05 Nov 2025 13:54:51 +0000",
+    "creator": "Rachel Appel",
     "categories": [
-      "idea",
-      "intellij-platform",
-      "news",
-      "plugins",
-      "intellij-idea",
-      "plugin-development"
+      "net-tools",
+      "dotinsights"
     ]
   },
   {
     "id": 3,
-    "imageUrl": "",
-    "title": "코드 품질 개선 기법 22편: To equal, or not to equal",
-    "description": "이 글은 2024년 4월 18일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-22",
-    "pubDate": "Fri, 07 Nov 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "[MULTI] 남의 것으로 내부를 채우고 간소화된 루터 슈터, 듀엣 나이트 어비스",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2382",
-    "pubDate": "Tue, 04 Nov 2025 15:49:20 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "토스 미니앱은 처음이라 궁금한 질문들",
-    "description": "아직 낯선 토스 미니앱을 향한 물음에 답해드릴게요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/toss_miniapp_qna",
-    "pubDate": "Tue, 04 Nov 2025 06:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "목표 지연",
-    "description": "멘토링을 종종 하다보면 \"좋은 회사에 합격하면 그때 컨퍼런스에 나가서 발표를 하는 것이 목표\" 라는 이야기를 듣는다.\n컨퍼런스에서 발표를 하는 것은 개발자로서는 좋은 동기부여가 된다.\n그래서 적극 지지하는 편인데,\n앞에 붙은 전제 조건인, 좋은 회사에 합격해야만 한다가 마음에 걸린다.\n그래서 \"왜 좋은 회사에 합격해야만 하는건가요?\" 라고 질문하면, \"대규모 트래픽, 대용량 데이터 처리, 서비스 회사의 경험이 없으면 사람들에게 도움이 되는 지식을 전달할 수 없을 것 같다\" 라는 답변을 가장 많이 듣는다.\n승려와 수수께끼에는 다음의 이야기가 있다.\n추측컨대 레니는 아버지와 같은 운명을 피하고 싶은 생각에 잔인한 타협안을 받아들였을 것이다.\n오래도록 일하고 나서야 잠깐 동안 하고 싶은 일을 할 수 있는 운명.\n이런 운명을 표현하는 공식적인 단어는 없다.\n하지만 보험회사에서 일한 경력으로 볼 때, 레니라면 이 운명을 '미뤄 놓은 인생 설계(Deferred Life Plan)` 라고 부를 것 같았다.\n이 보험 상품의 혜택을 완벽하게 받으려면, 인생을 두 부분으로 확실히 나눠야만 한다.\n1단계: 해야만 하는 것을 해라.\n(그렇게 미룬 후, 궁극적으로)\n2단계: 자신이 하고 싶은 일을 한다.\n우리는 어린 시절부터 비슷한 말을 수 없이 들으며 자란다.\n'뛰기 전에 걷는 것부터 배워라' '첫 술에 배부르랴' '젊어 고생은 사서도 한다' '인내는 쓰지만 그 열매는 달다' 등...\n...\n실리콘밸리에서도 '미뤄 놓은 인생 설계'의 관점대로 사는 방식이 유행이다.\n사람들은 대부분 빨리 부자가 되는 게 1단계를 가장 빨리 통과하는 방법이라고 생각한다.\n...\n비즈니스 아이디어 대부분은 자금 지원을 받지 못한다.\n자금을 지원받은 기업들, 즉 아주 똑똑한 사람들이 아이디어를 충분히 검토한 결과 투자할 만한 가치가 있다는 판정을 받은 기업들 조차 대부분은 결국 실패한다.\n운이 좋았던 몇몇 사람들도 2단계로 넘어가면 목적의식과 방향감각을 잃는다.\n본인이 '정말' 하고 싶은 일이 뭔지를 생각해 본 적이 없거나 1단계에서 너무 많은 시간과 정신력을 할애한 나머지, 어떤 비전으로 나아가야 할지 길을 잃어버리기 때문이다.\n나도 커뮤니티를 통해 성장한 경우라서 커뮤니티에서의 활동을 지향하는 것에 적극 지지한다.\n이 목표는 대단히 훌륭하고, 업계 전체에 항상 이렇게 커뮤니티에 기여하고자 하는 분들이 계시는건 좋은 일이고 응원한다.\n근데 하고 싶은 것을 하기 위해 사전 조건을 달성하는 것에 대해서는 항상 우려를 표한다.\n어떤 조건을 달성하고 나서 원하는 것을 실행하는 것에는 크게 2가지 문제가 있다.\n조건을 달성해도 원했던 목표를 실행에 옮기지 못할 수도 있다.\n하고 싶었던 것이 진짜로 원했던 것이 맞는지 확인하는 것이 너무 늦다\n큰 회사에 간다고 컨퍼런스에서 발표할 주제가 생기느냐? 라고 한다면 전혀 아니다.\n문제를 해결하는 방법이 거의 공식화 되어있는 것이 많다.\n그리고 이미 많은 시니어들이 그 문제를 해결한 경험이 있어, 주니어인 경우엔 본인이 직접 해결하는 경험을 쌓기가 쉽지 않다.\n몇년 간 큰 회사로 이직하기 위해 준비하고, 큰 회사에 가서 발표할만한 문제를 해결하는 경험을 얻기 위해 또 시간을 보내고, 그렇게 한참 시간이 지나고서 그때도 컨퍼런스 발표가 하고 싶어질까?\n혹은 그때가서 발표를 해봤더니 그렇게 재밌지 않으면 그땐 어떡할까?\n내가 하고 싶은 일이 있다면, 그건 즉시 실행해봐야 한다.\n이를테면 좋은 서비스 회사에 합격하고 나서 컨퍼런스 발표를 시도하는 것이 아니라, 현재 회사안에서 동료들을 대상으로 발표를 할 수도 있고 동아리, 친구들 앞에서도 내가 고민했던 내용들을 정리해서 공유하는 시간을 가져도 좋다.\n현재 회사에서도 내 나름대로 고민한게 있다면 그걸로 여러 작은 컨퍼런스에서 발표를 시도해보는 것이다.\n꼭 대형 컨퍼런스만이 컨퍼런스는 아니다.\n주니어 개발자분들 혹은 아주 많은 제약이 있는 조직에서의 경험을 필요로 하는 컨퍼런스들도 많다.\n젋은 개발자들이 발표하는 유스콘이나 AWS 한국 사용자 모임에서 운영하는 여러 소모임들, 요즘 활발하게 공유되는 타입스크립트 백엔드 모임 등등 다양한 주제로 많다.\n현재 내가 처해있는 상황에서 내 나름대로 고민하고 해결한 방법은 뭐든 타인에게 도움이 되는 주제다.\n큰 회사들의 경험이 필요한 사람들도 있고, 작은 조직에서의 경험, 취준생으로서의 경험, 주니어 개발자로서의 경험, B2B 서비스에서의 경험 등 다양한 경험을 필요로 하는 조직과 개발자들이 세상에 많다.\n하고 싶은 것이 있다면 어떤 조건을 달성하지 않더라도 바로 실행에 옮기는 것이 좋다.\n목표를, 하고 싶은 것을 지연시키지 말자.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jojoldu.tistory.com/853",
-    "pubDate": "Fri, 7 Nov 2025 09:23:16 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "AWS 사용자 모임",
-      "개발자",
-      "유스콘",
-      "컨퍼런스 발표",
-      "타입스크립트 백엔드 모임"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "노가다 먼저 해라(스케일이 안되는 일을 먼저 해라)",
-    "description": "이 글은 이미 폴 그레이엄이 ‘Do Things that Don’t Scale’에서 제품을 만들 때 처음부터 스케일을 생각하지 말고, 한 땀 한 땀 노가다로 시작하라고 강조한 내용을 거의 재탕하는 포스팅이다. 이제 필수 고전이 된 이 글은 대부분의 창업가가 읽어 봤을 텐데, 제품과 사업의 초기 실적을 만들기 위해서는 노동집약적인 노가다를 하면서 초기 고객들과 충분한 대화를 하고 이들이 원하는(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/11/its-okay-to-do-things-that-dont-scale.html",
-    "pubDate": "Wed, 05 Nov 2025 21:36:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "B2B",
-      "B2C",
-      "FoundersAtWork",
-      "hustle",
-      "musicshake",
-      "strategy",
-      "vc"
-    ]
-  },
-  {
-    "id": 8,
     "imageUrl": "",
     "title": "CentOS7의 Splunk - 4th",
     "description": "스플렁크 v10부터 GLIBC 버전이 낮다면서 centos7에서 실행이 되지 않는다.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n\n[root@Snort ~]# rpm -ivh splunk-10.0.0-e8eb0c4654f8.x86_64.rpm\nwarning: splunk-10.0.0-e8eb0c4654f8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID b3cd4420: NOKEY\nPreparing...                          ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: cannot create directory /opt/splunk\nUpdating / installing...\n   1:splunk-10.0.0-e8eb0c4654f8       ################################# [100%]\nfind: ‘/opt/splunk/lib/python3.7/site-packages’: No such file or directory\ncomplete\n[root@Snort ~]# cd /opt/splunk\n[root@Snort splunk]# bin/splunk start --accept-license\nbin/splunk: /lib64/libc.so.6: version `GLIBC_2.25' not found (required by bin/splunk)\ncs\n\n\n\n\n포워더도 마찬가지.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n\n[root@Snort ~]# rpm -ivh splunkforwarder-10.0.0-e8eb0c4654f8.x86_64.rpm\nwarning: splunkforwarder-10.0.0-e8eb0c4654f8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID b3cd4420: NOKEY\nPreparing...                          ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: cannot create directory /opt/splunkforwarder\nUpdating / installing...\n   1:splunkforwarder-10.0.0-e8eb0c4654################################# [100%]\nfind: ‘/opt/splunkforwarder/lib/python3.7/site-packages’: No such file or directory\nfind: ‘/opt/splunkforwarder/lib/python3.9/site-packages’: No such file or directory\ncomplete\n[root@Snort ~]# \n[root@Snort ~]# cd /opt/splunkforwarder/\n[root@Snort splunkforwarder]# bin/splunk start --acctpe-license\nbin/splunk: /lib64/libc.so.6: version `GLIBC_2.25' not found (required by bin/splunk)\n[root@Snort splunkforwarder]#\n[root@Snort splunkforwarder]# ldd --version\nldd (GNU libc) 2.17\nCopyright (C) 2012 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nWritten by Roland McGrath and Ulrich Drepper.\n\nColored by Color Scripter\ncs\n\n\n\n\nGLIBC를 업데이트 해야 하나 싶어 찾아보니 운영체제 전반에 관여하는 라이브러리니 건드리지 말라는 의견이 대부분. Rocky Linux 10에서 잘 실행된다.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n\n[root@rocky ~]# ldd --version\nldd (GNU libc) 2.39\nCopyright (C) 2024 Free Software Foundation, Inc.\n이 프로그램은 자유 소프트웨어입니다. 복사조건은 소스를 참조하십시오.  상품성\n이나 특정 목적에 대한 적합성을 비롯하여 어떠한 보증도 하지 않습니다.\n만든 사람: Roland McGrath 및 Ulrich Drepper.\n[root@rocky ~]#\n[root@rocky ~]# rpm -ivh splunkforwarder-10.0.1-c486717c322b.x86_64.rpm\n경고: splunkforwarder-10.0.1-c486717c322b.x86_64.rpm: 헤더 V4 RSA/SHA256 Signature, 키 ID b3cd4420: NOKEY\n확인...                             ################################# [100%]\n준비 중...                         ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: 디렉터리 /opt/splunkforwarder을(를) 만들 수 없습니다\n최신화 / 설치하기...\n   1:splunkforwarder-10.0.1-c486717c32################################# [100%]\nfind: ‘/opt/splunkforwarder/lib/python3.7/site-packages’: 그런 파일이나 디렉터리가 없습니다\nfind: ‘/opt/splunkforwarder/lib/python3.9/site-packages’: 그런 파일이나 디렉터리가 없습니다\ncomplete\n[root@rocky ~]# \n[root@rocky ~]# cd /opt/splunkforwarder/\n[root@rocky splunkforwarder]# bin/splunk start --accept-license\nWarning: Attempting to revert the SPLUNK_HOME ownership\nWarning: Executing \"chown -R splunkfwd:splunkfwd /opt/splunkforwarder\"\n \nThis appears to be your first time running this version of Splunk.\n \nSplunk software must create an administrator account during startup. Otherwise, you cannot log in.\nCreate credentials for the administrator account.\nCharacters do not appear on the screen when you type in credentials.\n \nPlease enter an administrator username: admin\nPassword must contain at least:\n   * 8 total printable ASCII character(s).\nPlease enter a new password:\nPlease confirm new password:\nCreating unit file...\nImportant: splunk will start under systemd as user: splunkfwd\nThe unit file has been created.\n \n \nSplunk> CSI: Logfiles.\n \nChecking prerequisites...\n        Checking mgmt port [8089]: open\n                Creating: /opt/splunkforwarder/var/lib/splunk\n                Creating: /opt/splunkforwarder/var/run/splunk\n                Creating: /opt/splunkforwarder/var/run/splunk/appserver/i18n\n                Creating: /opt/splunkforwarder/var/run/splunk/appserver/modules/static/css\n                Creating: /opt/splunkforwarder/var/run/splunk/upload\n                Creating: /opt/splunkforwarder/var/run/splunk/search_telemetry\n                Creating: /opt/splunkforwarder/var/run/splunk/search_log\n                Creating: /opt/splunkforwarder/var/spool/splunk\n                Creating: /opt/splunkforwarder/var/spool/dirmoncache\n                Creating: /opt/splunkforwarder/var/lib/splunk/authDb\n                Creating: /opt/splunkforwarder/var/lib/splunk/hashDb\n                Creating: /opt/splunkforwarder/var/run/splunk/collect\n                Creating: /opt/splunkforwarder/var/run/splunk/sessions\nNew certs have been generated in '/opt/splunkforwarder/etc/auth'.\nNew certs have been generated in '/opt/splunkforwarder/etc/auth'.\n        Checking conf files for problems...\n        Done\n        Checking default conf files for edits...\n        Validating installed files against hashes from '/opt/splunkforwarder/splunkforwarder-10.0.1-c486717c322b-linux-amd64-manifest'\n        All installed files intact.\n        Done\nAll preliminary checks passed.\n \nStarting splunk server daemon (splunkd)...\nDone\n\nColored by Color Scripter\ncs\n\n\n\n\n관련 글\n\n\nCentOS7의 Splunk - 3rd\nCentOS7의 Splunk\nSplunkForwarder v9\nCould not bind to port 8089\n스플렁크와 엘라스틱 서비스 실행 차이",
@@ -121,36 +39,7 @@
     "categories": []
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "LiteLLM 사용 방법",
-    "description": "이 글은 LiteLLM 사용 방법을 정리한다.\n\n\n\n레퍼런스\n\nLiteLLM and MCP: One Gateway to Rule All AI Models | by Rick Hightower | Medium",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/litellm.html",
-    "pubDate": "2025-11-07T01:55:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Busy Plugin Developers Newsletter – Q3 2025",
-    "description": "Your quarterly dose of plugin dev news, tools, and tips from JetBrains.  ⭐ Community Spotlight JetBrains Plugin Developer Conf 2025 Is Coming Up Soon 📅 November 5, 2025 | Online | FreeLearn how to build the next great JetBrains plugin! Join our annual free virtual event focused on developing plugins for JetBrains products. Explore topics […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/11/busy-plugin-developers-newsletter-q3-2025/",
-    "pubDate": "Mon, 03 Nov 2025 16:18:07 +0000",
-    "creator": "Elena Kerpeleva",
-    "categories": [
-      "marketplace",
-      "news",
-      "newsletters",
-      "busy-plugin-developers"
-    ]
-  },
-  {
-    "id": 11,
+    "id": 4,
     "imageUrl": "",
     "title": "아무도 몰랐던 USB 포트 색깔의 비밀, 당신은 제대로 쓰고 있요?",
     "description": "USB 포트의 색깔이 단순한 디자인이라고 생각하셨나요? 사실 각 색상에는 USB 포트의 숨겨진 능력, 즉 데이터 전송 속도와 전력 공급량이 담겨 있습니다. 이 글을 통해 여러분의 기기들이 최적의 성능을 낼 수 있도록 올바른 USB 포트 사용법을 알려드릴게요. 지금 바로 당신의 USB 포트를 확인해보세요!\n\n\n 혹시 여러분은 노트북이나 컴퓨터, 심지어 TV나 자동차에 있는 USB 포트들을 무심코 사용하고 계시지는 않나요? 저도 오랫동안 그랬답니다. 그냥 빈 곳에 아무거나 꽂으면 되는 줄 알았죠. 하지만 USB 기술이 워낙 발전해서 이제는 단순히 ‘꽂으면 된다’고 생각하기에는 놓치는 부분이 너무 많아졌어요.\nUSB-A 포트는 우리 주변 어디에나 존재해요. 노트북, 모니터, TV, 게임 콘솔, 심지어 자동차까지 정말 많은 기기에서 볼 수 있는 흔한 직사각형 커넥터죠. 하지만 시간이 흐르면서 USB-A 포트도 정말 많이 진화했답니다. 그래서 이제는 모든 포트가 다 같은 기능을 하는 게 아니라는 사실! 어떤 포트는 키보드나 마우스 같은 기본적인 주변 기기용으로, 또 다른 포트는 엄청나게 빠른 속도로 데이터를 전송하거나 더 높은 전력을 공급해서 기기를 빠르게 충전할 수 있도록 설계되었어요.\n그렇다고 기기의 사용자 매뉴얼을 일일이 찾아볼 필요는 없어요. 다행히도 많은 USB-A 포트는 어떤 기능을 하는지 시각적인 힌트를 제공하고 있거든요. 바로 포트 안쪽의 플라스틱 삽입 부분 색깔이죠! 일반적으로 검정, 파랑, 틸, 빨강 또는 노랑 같은 색깔이 포트가 표준인지, 고속인지, 아니면 고전력 충전용인지 알려주는 역할을 합니다. 정말 신기하죠?\n왜 USB 포트 색깔이 중요한가요? 숨겨진 언어를 해독하다!  \n솔직히 저도 대부분의 사람들처럼 USB 포트의 색깔 같은 건 전혀 신경 쓰지 않았어요. 그냥 편하거나 가까운 곳에 아무 기기나 연결했죠. 'USB는 USB지!' 하는 마음이었달까요. 그런데 자세히 살펴보니, 노트북, 자동차, 게임 콘솔, TV 등 우리 주변의 USB 포트들이 겉으로는 비슷해 보여도 실제로는 다 다르다는 걸 알게 됐습니다.\n이 색깔들이 바로 각 포트가 무엇을 할 수 있는지 정확히 알려주는 비밀스러운 언어였던 거죠. USB 포트의 핵심은 속도와 전력입니다. 어떤 포트는 충전을 위해 더 많은 전력을 공급하도록 설계되었고, 또 어떤 포트는 파일 전송 속도를 최우선으로 하며, 둘의 장점을 적절히 조합한 포트도 있습니다. 아, 그런데 이 사실을 깨닫고 나니 제가 그동안 얼마나 비효율적으로 USB 포트를 사용해왔는지 알 수 있었어요.\n\n\n이게 왜 중요하냐고요? 생각보다 큰 차이를 만듭니다. 예를 들어, 잘못된 포트를 사용하면 스마트폰이 충전되는 데 한참 걸리거나, 파일 전송이 끝없이 늘어질 수 있습니다. 외장 하드 드라이브나 USB 메모리를 연결할 때도 마찬가지예요. 부적절한 포트를 사용하면 데이터 전송 시간이 몇 분씩 더 길어질 수 있죠. 꽤 답답한 상황이 벌어질 수 있습니다. 정말로요!\nUSB 포트가 실제로 어떤 기능을 하는지 이해하려면 해당 포트의 버전을 알아야 해요. 하지만 그 모든 정보를 외우거나 매뉴얼을 찾아볼 필요 없이, 포트의 색깔에만 주의를 기울여도 충분합니다. 이 간단한 지식만으로도 각 기기가 필요로 하는 전력이나 속도를 제대로 공급받을 수 있게 할 수 있죠. 제가 이 사실을 깨닫고 나서는, 그냥 아무 데나 꽂던 옛 습관이 얼마나 비효율적이었는지 분명히 알게 되었답니다.\n검정, 파랑, 빨강… USB 포트 색깔별 의미 완전 정복!  \n이제부터 가장 중요한 정보를 알려드릴게요. 우리가 일상에서 가장 흔하게 접하는 USB 포트 색깔은 파랑, 검정, 하양이고, 때로는 빨강이나 노랑 포트도 볼 수 있습니다. 각 색깔이 무엇을 의미하는지 지금부터 자세히 알려드릴게요!\n  알고 계셨나요? USB 버전은 1.1, 2.0, 3.0(3.1 Gen1), 3.1 Gen2, 3.2, 4 등으로 계속 진화하고 있습니다. 숫자가 높을수록 일반적으로 더 빠른 속도와 높은 전력을 제공해요.\n색상\n주요 USB 버전\n주요 특징\n추천 용도\n\n\n\n\n검정 (Black)\nUSB 2.0\n안정적이지만 느린 데이터 전송. 충전 속도는 느린 편.\n키보드, 마우스, 프린터 등 저속 주변 기기\n\n\n파랑 (Blue)\nUSB 3.0 (3.1 Gen 1)\nUSB 2.0보다 최대 10배 빠른 데이터 전송. 보통 수준의 충전 속도.\n외장 하드 드라이브, USB 메모리, 고속 데이터 전송 기기\n\n\n틸 (Teal)\nUSB 3.1 Gen 2 이상\n매우 빠른 데이터 전송과 함께 높은 전력 출력 제공.\n고성능 외장 SSD, VR 헤드셋 등 속도와 전력 모두 중요한 기기\n\n\n빨강/노랑 (Red/Yellow)\n고출력 충전 포트\n컴퓨터 전원이 꺼져 있거나 절전 모드일 때도 전력 공급 (Always-on). 고속 충전 가능.\n스마트폰, 태블릿, 보조배터리 등 전력 소모가 큰 기기 충전\n\n\n하양 (White)\nUSB 1.1 또는 구형\n매우 느린 데이터 전송 속도.\n아주 오래된 주변 기기. 요즘은 거의 보기 어려움.\n\n\n\n여기서 한 가지 알아두실 점이 있습니다. USB 색깔 규격이 모든 브랜드나 모든 기기에 걸쳐 아주 엄격하게 표준화되어 있는 것은 아니라는 사실이죠. 이론적으로는 어떤 제조업체가 USB 1.1 포트에 파란색을 사용할 수도 있습니다. 하지만 대부분의 잘 알려진 브랜드는 위에서 설명한 표준 색상 관례를 따르는 편이에요. 만약 확실하게 알고 싶다면, 사용하시는 기기의 설명서나 제조사 사양을 확인하는 것이 가장 정확합니다.\n이제는 스마트하게! 올바른 포트 사용 전략  \nUSB 포트 색깔이 의미하는 바를 제대로 이해하고 나니, 저의 기기 사용 습관도 완전히 바뀌었어요. 이전에는 그저 아무 데나 꽂았던 것을 이제는 각 기기에 가장 적합한 포트를 찾아 연결하기 시작한 거죠. 솔직히 말하면, 이 작은 변화가 가져온 효율성 향상에 정말 놀랐습니다.\n이제 제 스마트폰은 가능한 한 항상 빨간색이나 노란색 포트에 연결해서 충전합니다. 덕분에 배터리가 훨씬 빠르게 채워져서 더 이상 충전 때문에 애태우는 일이 없어요. 외장 하드 드라이브는 주저 없이 파란색이나 틸색 포트로 직행합니다. 덕분에 파일 백업이나 대용량 파일 전송이 예전보다 훨씬 빨라졌어요. 이전에 겪었던 긴 기다림은 이제 옛말이 되었죠. 키보드와 마우스 같은 경우는 검은색 USB 2.0 포트에도 충분히 잘 작동해서, 더 빠른 포트들은 정말 속도가 필요한 기기들을 위해 아껴둘 수 있게 되었습니다. 이렇게 전략적으로 사용하니, 괜히 느린 포트에 중요한 기기를 꽂아 시간을 낭비할 일이 없어져서 너무 좋아요!\n\n\nUSB-A 포트의 기능을 파악하는 데 색깔이 첫 번째 단서이긴 하지만, 그것이 전부는 아닙니다. 색깔 외에도 USB-A 포트에는 추가 정보를 제공하는 기호들이 종종 있어요. 예를 들어, 'SS' 또는 'SuperSpeed'라는 글자는 빠른 데이터 전송 기능을 의미하며, 때로는 'SS10'처럼 숫자가 함께 표시되어 10Gbps의 USB 3.1 Gen 2 속도를 나타내기도 합니다. 충전 전용 포트의 경우, 번개 모양이나 배터리 아이콘이 함께 표시되어 전력 출력만을 위한 포트임을 알려주기도 하니, 이런 작은 디테일에도 신경을 쓰는 것이 좋겠죠?\n이러한 USB 포트 색깔의 차이를 알게 되면서, 이제 제 기기들을 연결하는 행위는 단순한 습관이 아니라 의도적인 행동이 되었습니다. 이 지식은 단순히 PC를 사용할 때뿐만 아니라, 자동차, TV, 다른 여러 가전제품에 이르기까지 확장되어 모든 기기가 마땅히 받아야 할 최적의 전력과 속도를 누리게 해줍니다. 여러분도 오늘 알려드린 정보를 바탕으로 USB 포트를 더 스마트하게 사용하시길 바랍니다!\n  핵심 요약\n✔️ USB 포트 색깔은 기능을 나타내는 비밀 코드: 검정, 파랑, 틸, 빨강/노랑, 하양 등 각 색깔은 데이터 전송 속도와 전력 공급량을 의미합니다.\n✔️ 잘못된 포트 사용은 성능 저하를 초래: 기기 특성에 맞지 않는 포트 사용 시 충전이 느려지거나 파일 전송 시간이 길어질 수 있습니다.\n✔️ 스마트한 매칭으로 효율 극대화: 스마트폰은 고출력(빨강/노랑), 외장하드는 고속(파랑/틸), 키보드/마우스는 표준(검정) 포트에 연결하세요.\n✔️ 색깔 외 추가 표식도 확인: 'SS', 'SuperSpeed' 문구나 번개/배터리 아이콘 등도 포트의 기능을 알려주는 중요한 단서입니다.\n이 정보를 통해 여러분의 디지털 라이프가 한층 더 편리해지기를 바랍니다. 궁금한 점이 있다면 언제든지 댓글로 남겨주세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: USB 포트 색깔은 모든 기기에서 표준화되어 있나요?\nA1: 일반적으로 주요 브랜드와 최신 기기들은 색상 규격을 따르지만, 완전히 엄격하게 표준화되어 있다고 보기는 어렵습니다. 확실한 정보는 기기 매뉴얼을 확인하는 것이 가장 좋습니다.\nQ2: 제 노트북에 빨간색 USB 포트가 없는데, 스마트폰 고속 충전은 어떻게 하나요?\nA2: 빨간색/노란색 포트가 없다면, 파란색(USB 3.0/3.1) 포트도 기존 검은색(USB 2.0) 포트보다 더 빠른 충전 속도를 제공합니다. 만약 더 빠른 충전을 원한다면, 고속 충전을 지원하는 외부 충전기를 사용하는 것이 좋습니다.\nQ3: USB-C 타입 포트도 색깔로 구분할 수 있나요?\nA3: USB-C 타입은 USB-A와 달리 포트 자체의 색상으로 기능을 구분하는 경우는 거의 없습니다. USB-C는 단자 모양이 동일하며, Thunderbolt 지원 여부나 USB Power Delivery (PD) 등의 추가 기능은 케이블이나 기기의 스펙을 통해 확인해야 합니다.\n{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"USB 포트 색깔은 모든 기기에서 표준화되어 있나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"일반적으로 주요 브랜드와 최신 기기들은 색상 규격을 따르지만, 완전히 엄격하게 표준화되어 있다고 보기는 어렵습니다. 확실한 정보는 기기 매뉴얼을 확인하는 것이 가장 좋습니다.\"}},{\"@type\":\"Question\",\"name\":\"제 노트북에 빨간색 USB 포트가 없는데, 스마트폰 고속 충전은 어떻게 하나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"빨간색/노란색 포트가 없다면, 파란색(USB 3.0/3.1) 포트도 기존 검은색(USB 2.0) 포트보다 더 빠른 충전 속도를 제공합니다. 만약 더 빠른 충전을 원한다면, 고속 충전을 지원하는 외부 충전기를 사용하는 것이 좋습니다.\"}},{\"@type\":\"Question\",\"name\":\"USB-C 타입 포트도 색깔로 구분할 수 있나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"USB-C 타입은 USB-A와 달리 포트 자체의 색상으로 기능을 구분하는 경우는 거의 없습니다. USB-C는 단자 모양이 동일하며, Thunderbolt 지원 여부나 USB Power Delivery (PD) 등의 추가 기능은 케이블이나 기기의 스펙을 통해 확인해야 합니다.\"}}]}",
@@ -174,83 +63,153 @@
     ]
   },
   {
-    "id": 12,
+    "id": 5,
     "imageUrl": "",
-    "title": "유연 휘발유 - 공기가 납으로 가득차 있다.",
-    "description": "현재는 다 해결되었고\n과거 이야기 입니다.\n \n영상: https://www.youtube.com/watch?v=mGIe9fu-6w4\n\n\n\n \n사람들이 석유차가 전기차 보다 좋다고 하지만\n그 논리는 쥐뿔도 맞지 않는 이야기 이며\n거의 100년간 어마어마한 개선을 통해 온게 지금의 석유차 입니다.\n연료통 폭발을 막는 장치\n주차중에 자동차엔진에서 연료를 제거하는 장치\n정말 많은 안전장치들이 포함되어있습니다.\n \n하지만 가장 중요한 것 바로 매연\n이것은 부자와 가난한자는 모두 같은 공기를 마신다는 지극히 단조로운 논리 때문에\n전기차를 밀 수 밖에 없습니다.\n \n부자들이 삶을 아무리 돈으로 휘감아도 공기를 가난한자와 분리할 수는 없기 때문입니다.\n모든 부자들도 이 논리에선 무너집니다.\n전기차가 비싼 이유도 서민들 타라고 만든게 아닙니다.\n \n제글 마윈의 공기에 대한 발언을 한번 참고해주시고\nhttps://serverdown.tistory.com/1121\n\n \n마윈이 기분 좋았던 시절의 이야기 / 특공 물 음식 하지만 공기는 ...\n영상: https://youtu.be/eemg-ZEKyrM?t=139223분에 나옵니다. 특별한 상위 계급들은 건강에 관련된 물건은 특별이 공급 (특공) 받습니다.일반인들은 오염된 음식과 물을 먹고 살고 있지요하지만 오늘은 기\nblog.sidnft.com\n\n \n부자들도 공기앞에선 무조건 합의 합니다.\n그 어떤 부자도 이걸 부정하진 않습니다.\n \n영화 - 엘리시움\n\n\n부자들이 지구 밖에다 거주지를 만들었다.\n이렇게 만들어도 결국 지구의 자원을 가져와야하고 공장을 돌려야하기 때문에\n출장을 갈 필요가 있고 결국 공기를 어떻게 피할 할 방법이 없습니다.\n \n전기차에 과한 기대\n저는 전기차로 넘어갈 것이라고 생각하고 있구요\n이는 부자들이 쓰는게 서민에게 넘어오는 현상이 역사적으로 반복되었기 때문입니다.\n언젠가는 사람들이 석유차는 나쁘고 전기차는 좋다는 인식이 생길 것이라고 확신합니다.\n \n2차전지 좀가자~\n\n\n미친 에코프로의 5년치 차트입니다. 이제 좀 오를랑 말랑 하네요",
+    "title": "불완전한 광고 ID 선언 / Admob / Unity",
+    "description": "테스트 빌드를 올렸는데 거부 당했습니다.\n \n일단 빌드가 잘되어야하기 때문에 유니티에서 구글 애드의 id 가 들어가줘야합니다.\n유니티에서 이 메뉴\n\n\nSetting 버튼 누르면\n\n\n인스팩터에 이런게 뜹니다.\n요런거 에드몹에서 앱 만드시면 주는 걸 넣어야합니다.\n\n\n앱 ID 를 넣어야합니다.\n광고 개별 ID (배너, 전면 광고) 이런거 아닙니다.\n불완전한 광고 ID 선언 를 해결해보겠습니다.\n \nPlay Store Console 에서\n\n\n개시 개요 에 경고가 뜨구요\n우측에 \"문제 보기\" 클릭\n\n\n요런게 뜨구요 \"선언 작성\"\n\n\n광고 ID 로 보내주는군요\n\n\n\"예\" 선택\n\n\n용도는 이거두개 채크했다\n제일 우측 하단에 \"저장\" 버튼이 있다 누르면 \"개시 개요 로 보내준다.\"",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1455",
-    "pubDate": "Sun, 2 Nov 2025 16:18:39 +0900",
+    "link": "http://serverdown.tistory.com/1460",
+    "pubDate": "Mon, 3 Nov 2025 21:29:57 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브",
-      "공기",
-      "괴담",
-      "부자",
-      "전기차"
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "TIGER 미국AI전력SMR ETF 출시 / OKLO SMR 에 집중 투자",
+    "description": "ETF 새로 나와서 관심을 가져봅시다..\n \n \n \n영상: https://www.youtube.com/watch?v=Oa8twgdsXmc\n\n\n\n \n \nOKLO 와 SMR 에 집중 투사하는 ETF 입니다.\n미국 주식 사느니 한국 ETF 가 양도세도 없고 좋습니다.\nAI 는 버블일 수 있으나 발전소는 남아서 오래오래 산업을 발전 시킬 것으로 보입니다.\nOPEN AI 상장할때나 2030 년에 하차하면 되지 않을까 싶군요\n늦었을때 따라 타자 테마 ETF",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1463",
+    "pubDate": "Thu, 6 Nov 2025 16:19:24 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "투자",
+      "ETF"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "시맨틱 캐쉬로 RAG 가속하기",
+    "description": "이 글은 사용자 질의를 시멘틱 벡터로 변환해 생성된 답을 미리 캐쉬에 저장해 놓고, 다음 유사 질의 시 관련 캐쉬 답변을 리턴하는 시맨틱 캐쉬 RAG 가속 방법을 알아본다.\n \n\n\n\n\n레퍼런스\n\nSemantic Cache: How to Speed Up LLM and RAG Applications | by Kostiantyn Ivanov | Oct, 2025 | Medium",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/rag.html",
+    "pubDate": "2025-11-07T02:00:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)",
+    "description": "흥미로운 글이 있어, 정리해 남긴다. 제목은 \"어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)\". 말 그대로^^\n\n레퍼런스\n\nAgentic AI has changed my career. I don’t write code… or at least, I… | by Elliot Graebert | Sep, 2025 | Medium",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/1.html",
+    "pubDate": "2025-11-07T02:10:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "토스 미니앱은 처음이라 궁금한 질문들",
+    "description": "아직 낯선 토스 미니앱을 향한 물음에 답해드릴게요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/toss_miniapp_qna",
+    "pubDate": "Tue, 04 Nov 2025 06:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "토스, 5개 외국어 공식 지원… 외국인 금융생활 접근성 강화",
+    "description": "외국인 고객의 금융 접근성 확대 및 이용 편의성 강화",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/multilingual-support",
+    "pubDate": "Sun, 02 Nov 2025 23:22:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "DeepSeek OCR 사용 방법",
+    "description": "이 글은 DeepSeek OCR 사용 방법을 정리한다. \n\n\n레퍼런스\n\nHow to run DeepSeek-OCR ?. DeepSeek-OCR is a newly released… | by Harishkumar Pillai | Oct, 2025 | Stackademic\ndeepseek-ai/DeepSeek-OCR · Hugging Face",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/deepseek-ocr.html",
+    "pubDate": "2025-11-07T01:52:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Busy Plugin Developers Newsletter – Q3 2025",
+    "description": "Your quarterly dose of plugin dev news, tools, and tips from JetBrains.  ⭐ Community Spotlight JetBrains Plugin Developer Conf 2025 Is Coming Up Soon 📅 November 5, 2025 | Online | FreeLearn how to build the next great JetBrains plugin! Join our annual free virtual event focused on developing plugins for JetBrains products. Explore topics […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2025/11/busy-plugin-developers-newsletter-q3-2025/",
+    "pubDate": "Mon, 03 Nov 2025 16:18:07 +0000",
+    "creator": "Elena Kerpeleva",
+    "categories": [
+      "marketplace",
+      "news",
+      "newsletters",
+      "busy-plugin-developers"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "내 채널 왜 안 클까? AI가 진단하는 유튜브 채널 문제점과 맞춤형 성장 플랜",
-    "description": "혹시 여러분의 유튜브 채널이 정체기에 있나요? 어떤 콘텐츠를 만들어야 할지, 경쟁 채널은 어떻게 분석해야 할지 막막하신가요? 더 이상 감에 의존하지 마세요! AI 기반 분석 도구인 '지피티 팍의 유튜브 채널 컨설턴트'와 함께라면, 실시간 데이터 분석과 AI 인사이트를 통해 여러분만의 맞춤형 성장 전략을 세울 수 있습니다. 오늘 이 글에서 여러분의 채널이 왜 성장하지 못하는지 진단하고, AI가 제안하는 구체적인 성장 플랜까지 모두 공개합니다.\n 수많은 크리에이터들이 유튜브 채널 성장을 꿈꾸지만, 막상 채널을 운영하다 보면 예상치 못한 난관에 부딪히기 마련이에요. 특히나 구독자가 늘지 않거나, 조회수가 제자리걸음일 때는 정말 막막하죠. 데이터가 중요하다는 건 알지만, 그 복잡한 숫자들을 어떻게 해석하고 실제 전략으로 연결해야 할지는 또 다른 문제고요. 아마 이 글을 읽고 계신 여러분도 비슷한 고민을 하고 계실 거예요.\n\n\n이런 크리에이터 분들을 위해, 오늘은 여러분의 유튜브 채널 성장을 한 단계 더 끌어올릴 수 있는 강력한 비밀 무기, 바로 '지피티 팍의 유튜브 채널 컨설턴트' 앱을 소개하려고 해요. 이 앱은 단순한 분석을 넘어, AI의 힘으로 여러분이 '그래서 뭘 해야 하는지'까지 명확하게 제시해주는, 정말 특별한 도구랍니다.\n  유튜브 데이터 API, 채널 성장의 핵심 열쇠\n'지피티 팍의 유튜브 채널 컨설턴트' 앱의 핵심 기반은 바로 유튜브 데이터 API v3입니다. 이 API는 유튜브에 공개된 수많은 데이터를 실시간으로 가져와 분석할 수 있게 해주는데요. 구독자 수, 조회수, 댓글 수부터 경쟁 채널의 콘텐츠 전략까지, 모든 것을 파악할 수 있는 강력한 도구라고 생각하시면 돼요. 심지어 구글 클라우드 콘솔에서 API 키만 발급받으면 하루 10,000쿼터까지 무료로 사용할 수 있어서, 개인 프로젝트나 소규모 채널 운영에는 정말 충분한 양이랍니다.\n  API 키 발급은 어떻게 하나요?\n구글 클라우드 콘솔에 접속해 새 프로젝트를 만든 후, 'API 및 서비스' 메뉴에서 '유튜브 데이터 API v3'를 활성화하고 '사용자 인증 정보'에서 API 키를 생성하면 돼요. 이 키는 절대 외부에 공유하면 안 된다는 점, 꼭 기억하세요! Gemini에게 물어보면 자세한 가이드도 얻을 수 있답니다.\n유튜브 데이터 API v3의 주요 기능은 크게 다섯 가지로 나눌 수 있어요. 이 기능들을 조합하여 채널 분석, 키워드 분석, 라이징 스타 발굴 등 다양한 분석 기능을 구현할 수 있죠.\n기능\n설명\n\n\n\n\nSearch\n키워드로 채널이나 인기 영상을 검색하여 특정 주제의 트렌드를 파악합니다.\n\n\nChannels\n채널의 구독자 수, 총 조회수, 영상 개수 등 기본 정보를 가져와 규모를 파악합니다.\n\n\nVideos\n각 영상의 제목, 설명, 태그, 조회수, 좋아요, 댓글 등 상세 통계를 분석합니다.\n\n\nPlaylistItems\n채널의 모든 업로드 영상 목록을 가져와 콘텐츠 전략 전체를 한눈에 파악합니다.\n\n\nComments\n영상의 댓글을 분석하여 시청자들의 실제 반응과 피드백을 확인합니다.\n\n\n\n이 모든 기능을 바탕으로 '지피티 팍의 유튜브 채널 컨설턴트' 앱이 탄생했는데요. 개발 과정에서도 AI Studio Build를 활용해 수많은 피드백과 수정을 거치며 완성도를 높였어요. 마치 AI와 함께 대화하며 코드를 짜는 '바이브 코딩'을 경험하는 것 같았답니다. 덕분에 복잡한 데이터 분석을 누구나 쉽게 이해하고 활용할 수 있는 앱으로 만들 수 있었죠.\n  '지피티 팍의 유튜브 채널 컨설턴트 프로'의 3가지 핵심 기능\n이제 여러분의 채널 성장을 위한 필수 도구, '지피티 팍의 유튜브 채널 컨설턴트 프로' 앱의 핵심 기능들을 좀 더 자세히 알아볼까요? 이 앱은 단순히 데이터를 보여주는 것을 넘어, AI가 구체적인 실행 전략까지 제안해주는 진정한 컨설팅 도구입니다.\n\n\n1.   채널 분석: 우리 채널, 뭐가 문제일까?\n특정 채널을 집중적으로 분석하여 강점과 약점을 파악하는 기능이에요. 종합 대시보드에서는 구독자 수, 총 조회수, 인기 영상 분포, 시간대별 성과 등 핵심 지표를 차트로 한눈에 볼 수 있습니다. 여기서 특히 주목할 만한 것은 AI 기반 3대 심층 분석입니다.\nAI 경쟁 전략 분석: 분석 채널을 이길 수 있는 새로운 채널 컨셉, 콘텐츠 방향, 운영 계획, 수익화 모델까지 제안합니다. 초기 3개월 집중 성장 로드맵과 영상 제목 10개 제안은 정말 실질적인 도움을 줘요.\nAI 성장 과정 분석: 채널의 영상 기록을 초기, 중기, 최신 3단계로 나누어 시기별 성과와 전략 변화를 추적하여 성공 요인을 파악합니다.\nAI 채널 진단 및 컨설팅: 현재 채널의 문제점을 진단하고, 콘텐츠, 시청자 참여, 브랜딩 등 다각적인 관점에서 단기/장기 실행 계획을 제공합니다.\n\n\n2.   키워드 분석: 어떤 주제가 지금 뜰까?\n특정 주제나 키워드의 시장 트렌드를 파악하는 기능입니다. 어떤 영상들이 인기 있는지, 어떤 채널들이 시장을 장악하고 있는지 보여주며, 국가별, 영상 형식별, 카테고리별로 필터링하여 정밀하게 분석할 수 있어요. AI가 해당 키워드로 성공할 수 있는 채널 전략까지 자동으로 생성해주니, 다음 콘텐츠 아이디어를 얻는 데 정말 유용하죠.\n3.   공략 채널 찾기: 경쟁 없는 블루오션을 찾아라!\n경쟁이 덜한 기회의 시장을 찾아내는, 크리에이터라면 정말 궁금할 만한 기능입니다. 크게 두 가지로 나뉘는데요.\n라이징 스타 채널 찾기: 최근 3개월, 6개월, 1년 내 개설되었지만 영상 대비 구독자 전환율이 높은, 소위 '떡상' 채널들을 발굴하여 벤치마킹할 수 있게 도와줍니다.\n빈집 토픽 찾기: 특정 해시태그의 상위 인기 영상 데이터를 수집해 조회수 분포, 채널 집중도, 채널 활성도를 분석합니다. AI가 이 데이터를 종합적으로 해석하여 해당 시장이 레드오션인지 블루오션인지 판단하고, 차별화 전략까지 제시해줍니다. 예를 들어, 채널 집중도는 높지만 활동이 뜸하다면 '과거 강자들이 비워둔 기회의 시장'으로 판단해 블루오션 진입 전략을 알려주는 식이죠.\n ️ 앱, 이렇게 사용해 보세요! (간단 가이드)\n자, 이제 이 강력한 앱을 어떻게 사용하는지 핵심만 콕 짚어 알려드릴게요. 생각보다 정말 간단하답니다!\nAPI 키 입력: 제일 먼저 우측 상단 설정 버튼을 클릭해 아까 발급받은 API 키를 붙여넣고 저장하세요. 이 키는 브라우저에 암호화되어 저장되니 한 번만 입력하면 됩니다.\n채널 분석 시작: 상단의 검색창에 분석하고 싶은 채널 이름(예: 'GPT PARK')을 입력하면, 앱이 자동으로 채널을 찾아 모든 영상을 분석하고 대시보드를 보여줍니다. 기본 정보와 차트, 조회수 순으로 정렬된 영상 목록을 확인할 수 있어요.\nAI 진단 활용: 만약 여러분의 채널이라면 'AI 채널 진단 및 컨설팅'을 통해 콘텐츠, 시청자 참여, 브랜딩, 수익화 측면의 단기/장기 솔루션을 받아보세요. 경쟁 채널 분석이 필요하다면 'AI 경쟁 전략 분석'으로 새로운 채널 컨셉과 운영 전략을 제안받을 수 있습니다.\n키워드 분석 활용: '키워드 분석' 탭에서는 '제미나이 활용법'과 같은 특정 키워드를 입력해 시장 트렌드를 파악하고 AI 기반의 운용 전략을 수립할 수 있습니다.\n  핵심 요약\nAI 기반 심층 분석: 채널의 강점과 약점을 파악하고 경쟁 채널을 이길 전략을 AI가 직접 제안합니다.\n맞춤형 성장 플랜: 콘텐츠, 시청자 참여, 브랜딩, 수익화 등 다각적인 측면에서 구체적인 단기/장기 실행 계획을 제공합니다.\n블루오션 기회 발굴: '라이징 스타 채널'과 '빈집 토픽' 기능을 통해 성장 가능성이 높은 새로운 시장을 찾아냅니다.\n데이터 기반 의사결정: 복잡한 유튜브 데이터를 AI가 쉽고 명확하게 해석하여 효율적인 채널 운영을 돕습니다.\n더 이상 감에 의존하지 마세요. 이제 AI와 함께 데이터 기반의 스마트한 성장을 경험할 때입니다!\n  지피티 팍 채널 컨설턴트 BASIC 버전 무료 배포!\n좋은 소식은, 여러분 모두 이 강력한 도구를 직접 경험해볼 수 있다는 거예요! '지피티 팍의 유튜브 채널 컨설턴트' BASIC 버전을 블로그 아래 링크를 통해 무료로 배포합니다.\n[BASIC 무료 사용하기]\n  BASIC 버전 기능: '채널 분석'과 '키워드 분석' 두 가지 핵심 기능을 모두 이용할 수 있습니다. 여러분의 채널을 진단하고, 트렌드를 파악하는 데 충분할 거예요.\n'공략 채널 찾기' 기능(라이징 스타 채널 찾기, 빈집 토픽 찾기)은 PRO 버전 전용 기능이에요. PRO 버전을 이용하고 싶으시다면 저희 유튜브 채널 멤버십에 가입하시면 됩니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: '지피티 팍의 유튜브 채널 컨설턴트' 앱은 어떤 사용자에게 가장 유용할까요?\nA: 채널 성장에 고민이 많은 초보 크리에이터부터, 데이터 기반의 전략적인 채널 운영을 원하는 중급 이상 크리에이터까지 모두에게 유용해요. 특히 채널 컨셉 설정, 콘텐츠 기획, 경쟁 분석, 수익화 전략 등 전반적인 채널 운영에 대한 AI의 맞춤형 조언을 얻고 싶은 분들께 강력히 추천합니다.\nQ2: API 키는 왜 필요한가요? 보안 문제는 없나요?\nA: API 키는 유튜브 데이터에 접근하기 위한 일종의 신분증이에요. 이 키를 통해 앱이 유튜브의 공개 데이터를 가져올 수 있죠. 저희 앱에서는 이 키를 여러분의 브라우저에 암호화하여 저장하며, 외부에 전송하거나 공유하지 않기 때문에 보안 걱정은 안 하셔도 돼요. 다만, 다른 사람에게 키가 유출되지 않도록 본인만 잘 관리해주시는 게 중요합니다.\nQ3: BASIC 버전과 PRO 버전의 가장 큰 차이점은 무엇인가요?\nA: BASIC 버전은 '채널 분석'과 '키워드 분석'이라는 두 가지 핵심 기능을 통해 현재 채널의 문제점을 진단하고 콘텐츠 아이디어를 얻는 데 중점을 둡니다. 반면 PRO 버전은 여기에 더해 '공략 채널 찾기'(라이징 스타 채널, 빈집 토픽) 기능을 제공하여, 경쟁 우위 확보를 위한 블루오션 시장 발굴과 차별화 전략 수립에 특화되어 있어요. 여러분의 채널 성장 단계에 맞춰 선택하시면 됩니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"'지피티 팍의 유튜브 채널 컨설턴트' 앱은 어떤 사용자에게 가장 유용할까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"채널 성장에 고민이 많은 초보 크리에이터부터, 데이터 기반의 전략적인 채널 운영을 원하는 중급 이상 크리에이터까지 모두에게 유용해요. 특히 채널 컨셉 설정, 콘텐츠 기획, 경쟁 분석, 수익화 전략 등 전반적인 채널 운영에 대한 AI의 맞춤형 조언을 얻고 싶은 분들께 강력히 추천합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"API 키는 왜 필요한가요? 보안 문제는 없나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"API 키는 유튜브 데이터에 접근하기 위한 일종의 신분증이에요. 이 키를 통해 앱이 유튜브의 공개 데이터를 가져올 수 있죠. 저희 앱에서는 이 키를 여러분의 브라우저에 암호화하여 저장하며, 외부에 전송하거나 공유하지 않기 때문에 보안 걱정은 안 하셔도 돼요. 다만, 다른 사람에게 키가 유출되지 않도록 본인만 잘 관리해주시는 게 중요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"BASIC 버전과 PRO 버전의 가장 큰 차이점은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"BASIC 버전은 '채널 분석'과 '키워드 분석'이라는 두 가지 핵심 기능을 통해 현재 채널의 문제점을 진단하고 콘텐츠 아이디어를 얻는 데 중점을 둡니다. 반면 PRO 버전은 여기에 더해 '공략 채널 찾기'(라이징 스타 채널, 빈집 토픽) 기능을 제공하여, 경쟁 우위 확보를 위한 블루오션 시장 발굴과 차별화 전략 수립에 특화되어 있어요. 여러분의 채널 성장 단계에 맞춰 선택하시면 됩니다.\"\n      }\n    }\n  ]\n}",
+    "title": "Inside Visual Studio: Improving Open-Source Workflows with vcpkg",
+    "description": "vcpkg, an open-source C/C++ package manager maintained by Microsoft, is increasingly recognized as a leading dependency management solution. As an enterprise-grade tool, it enables organizations to streamline library imports, reduce duplication, and support flexible, reproducible builds across a wide array of environments. This need for streamlined dependency management is especially relevant in the build system […]\nThe post Inside Visual Studio: Improving Open-Source Workflows with vcpkg appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483676",
-    "pubDate": "Sun, 2 Nov 2025 11:49:26 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://devblogs.microsoft.com/cppblog/inside-visual-studio-improving-open-source-workflows-with-vcpkg/",
+    "pubDate": "Thu, 06 Nov 2025 23:34:56 +0000",
+    "creator": "Eve Silfanus",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "AI 유튜브 분석",
-      "라이징 유튜브 채널",
-      "유튜브 SEO",
-      "유튜브 데이터 API",
-      "유튜브 수익화",
-      "유튜브 전략",
-      "유튜브 채널 성장",
-      "유튜브 키워드 연구",
-      "채널 컨설팅",
-      "콘텐츠 제작"
+      "C++",
+      "Vcpkg",
+      "vcpkg",
+      "visual studio"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "공부가 재미 없다면 방법이 잘못된거다 — Andrej Karpathy",
-    "description": "No description available",
+    "title": "정규표현식: 성능 - 2nd",
+    "description": "변수를 포함한 URI 구간에서 FILE 정보 추출.\n\n\n\n\n확장자를 포함한 FILE 정보만 추출하고 싶으면,\n\n\n\n\n확장자를 포함한 FILE 구조를 정규표현식에 반영. 81단계의 검사 과정 소요.\n\n\n\n\n\n변수 정보를 제외한 URL 구간에서 추출하면 19단계 소요.\n\n\n\n\n변수 정보를 포함한 URI는 URL보다 더 길고, 더 다양한 상태 변화를 갖는다. 그만큼 정규표현식의 복잡도나 성능 소모량이 커질 수 있다는 얘기. 그래서 정규표현식을 좀 더 쉽게 사용하려면 검사 범위를 좁혀야 한다. SPL 작성도 더 쉬워짐.\n\n\n\n\n\n\n관련 글\n\n정규표현식: 성능\n정규표현식이 최선일까?\n정규표현식 몰라도 된다\n데이터 노가다 실수담 - 10th",
     "reviews": [],
     "syllabus": [],
-    "link": "https://coolspeed.wordpress.com/2025/11/02/%ea%b3%b5%eb%b6%80%ea%b0%80-%ec%9e%ac%eb%af%b8-%ec%97%86%eb%8b%a4%eb%a9%b4-%eb%b0%a9%eb%b2%95%ec%9d%b4-%ec%9e%98%eb%aa%bb%eb%90%9c%ea%b1%b0%eb%8b%a4-andrej-karpathy/",
-    "pubDate": "Sun, 02 Nov 2025 07:29:06 +0000",
-    "creator": "coolspeed",
-    "categories": [
-      "未分类"
-    ]
+    "link": "https://kangmyounghun.blogspot.com/2025/11/2nd.html",
+    "pubDate": "2025-11-02T05:01:00.002Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "AI가 냉장고 속을 '이해'하는 '냉장고 속을 부탁해' 무료앱 배포",
-    "description": "매일 뭐 먹을지 고민하는 당신에게, 이제 냉장고 문만 열면 AI 셰프가 최고의 레시피를 제안합니다. Google AI Gemini와 Imagen이 탄생시킨 '냉장고 속을 부탁해' 앱으로 음식물 쓰레기는 줄이고, 요리의 즐거움은 키워보세요. 당신의 주방이 완전히 새로워집니다.\n\n\n매일 아침, 점심, 저녁. \"오늘 뭐 먹지?\"라는 질문은 우리 삶에서 영원히 끝나지 않을 숙제 같지 않나요? 냉장고 문을 열고 가득한 재료들을 보지만, 정작 뭘 해 먹어야 할지 막막했던 경험, 저만 그런 건 아닐 거예요. 결국 배달 앱을 켜면서 '아, 저 재료들 다 어떻게 하지…' 하고 죄책감을 느꼈던 순간들도 많았죠. 이런 우리 모두의 오래된 고민을 시원하게 해결해 줄 아주 특별한 주방 동반자가 드디어 세상에 나왔습니다. 바로 냉장고 사진 한 장으로 잠자고 있던 식재료에 새로운 생명을 불어넣어 주는 AI 요리 비서, '냉장고 속을 부탁해' 앱입니다.\n솔직히 말하면, 처음 이 아이디어가 생각났을때 '진짜 가능할까?' 하고 반신반의했어요. 하지만 Google의 개발자 지원 프로그램인 'Build with Google AI (바이브코딩)'를 통해 이 놀라운 아이디어가 현실이 되었답니다. 개발자들은 Google AI Studio라는 정말 강력한 웹 기반 도구를 활용해서, 최첨단 AI 모델인 Gemini와 Imagen을 손쉽게 테스트하고 앱에 빠르게 통합할 수 있었죠. 덕분에 복잡하고 어려운 AI 기술이 이제 우리 주방 안으로 쏙 들어와서, 요리 경험 자체를 완전히 바꿔놓을 준비를 마쳤습니다. 2025년, 이제 '오늘 뭐 먹지?' 고민은 이 앱에게 맡겨도 될 것 같아요.\n오늘은 이 혁신적인 앱이 어떻게 우리의 식생활을 혁신하는지, 그 심층적인 기능과 사용법을 저와 함께 자세히 파헤쳐 볼까 합니다. 기대되지 않으세요?\n  '냉장고 속을 부탁해'의 핵심 기능 Deep Dive\n이 앱이 시중에 나와 있는 수많은 레시피 앱들과 차원이 다르다고 자신 있게 말할 수 있는 이유는 바로 AI 기술이 접목된 네 가지 강력한 차별점 때문입니다. 단순히 레시피를 찾아주는 것을 넘어, 요리의 전 과정을 스마트하게 도와주는 진정한 파트너라고 할 수 있죠.\n\n\n① 눈으로 보고 '이해'하는 AI, Gemini\n'냉장고 속을 부탁해'의 가장 핵심적인 강점은 단연 Google의 막강한 멀티모달 AI, Gemini에 있습니다. 사용자가 냉장고 사진을 업로드하면, Gemini는 단순하게 이미지 속에서 형태만 인식하는 것을 넘어, 사진 속 식재료 하나하나를 마치 사람처럼 '이해'하기 시작합니다. 음… 예를 들면, 어지럽게 놓인 채소 더미, 누가 봐도 반쯤 사용한 소스병, 심지어 우유팩의 브랜드까지 식별해서 정확한 재료 목록을 눈 깜짝할 사이에 만들어내죠.\n제가 직접 테스트해 봤는데, 정말 놀랍더군요. 단순히 '채소'라고 인식하는 게 아니라 '시들기 시작한 상추', '반 개 남은 양파' 이런 식으로 상태까지 추론하더라고요! 이게 단순히 재료를 나열하는 것을 넘어서, 각 재료의 신선도나 현재 상태까지 고려해서 가장 최적의, 그리고 창의적인 레시피를 제안하는 기반이 됩니다. 이 부분이 정말 중요한데, 음식물 쓰레기를 줄이는 데 크게 기여할 수 있겠다는 생각이 들었어요.\n② 상상력을 현실로, Imagen으로 보는 완성 요리\n\"이 레시피, 과연 맛있어 보일까?\" 요리 초보자든 베테랑이든, 이 질문은 요리에 대한 동기를 부여하는 아주 중요한 요소일 겁니다. 솔직히 글로만 된 레시피로는 감이 잘 안 올 때가 많잖아요? '냉장고 속을 부탁해'는 이 점을 정확히 꿰뚫고 있었어요.\n레시피 카드 우측 상단의 작은 카메라 아이콘을 한번 눌러보세요. 그러면 Google의 최첨단 이미지 생성 모델인 Imagen이 마법을 부리기 시작합니다. 레시피의 이름과 상세한 설명을 바탕으로, 마치 전문 푸드 포토그래퍼가 갓 촬영한 듯한 먹음직스러운 완성 요리 이미지를 그 자리에서 바로 생성해 줍니다. 정말 감탄이 나오지 않을 수 없죠. 이건 그냥 보기 좋은 것을 넘어, 요리에 대한 영감을 제대로 불어넣어 주고, 어떤 그릇에 어떻게 담아야 할지 플레이팅 아이디어까지 제공해서 요리의 즐거움을 한층 더 끌어올려 줍니다. 제 생각엔 이 기능 하나만으로도 이 앱을 써볼 가치가 충분하다고 느껴졌어요.\n③ 나만의 맞춤형 셰프, 이제 당신의 취향을 말해보세요\nAI는 식별된 재료를 가장 효율적이고 맛있게 사용할 수 있는 레시피를 먼저 똑똑하게 추천합니다. 그런데 여기서 끝이 아니에요. 이건 정말 '개인 맞춤형 셰프'가 아닐까 싶을 정도로 디테일한 설정이 가능해요. 사용자는 '한식', '이탈리안', '퓨전' 등 원하는 요리 스타일을 선택할 수 있고요, 심지어 '채식', '글루텐 프리', '저탄수화물' 같은 특정 식단 필터를 적용해서 수많은 레시피 중에서 내 상황과 입맛에 정말 꼭! 맞는 '오늘의 메뉴'를 발견할 수 있습니다.\n냉장고 한 켠에서 잊고 있던 자투리 재료들 있잖아요? 이걸 어떻게 활용해야 할지 몰라 버리곤 했는데, 이제 AI가 그걸 기가 막히게 조합해서 창의적인 방법들을 제안해 줍니다. 아, 생각만 해도 뭔가 뿌듯하고 재미있지 않나요? 이건 요리 이상의 경험을 제공해 주는 것 같아요.\n④ 요리의 흐름을 돕는 스마트 기능들: 양손은 자유롭게, 장보기는 스마트하게\n요리하다 보면 양념 묻은 손으로 스마트폰 화면을 터치하느라 고생했던 경험, 다들 있으시죠? 저도 손에 밀가루 범벅인 채로 레시피 다음 단계를 넘기려다 포기한 적이 한두 번이 아니에요. '냉장고 속을 부탁해'는 이런 사소하지만 불편했던 점까지 세심하게 배려했습니다.\n스피커 아이콘만 클릭하면 작동하는 단계별 음성 안내(TTS) 기능 덕분에, 이제 두 손을 자유롭게 요리에만 집중할 수 있어요. AI가 친절하게 다음 단계를 차근차근 읽어주니, 정말 편리하더라고요. 마치 옆에 요리 선생님이 서 있는 듯한 느낌을 받았답니다.\n게다가 레시피를 확인하다가 '아, 이 재료가 없네!' 하고 깨달았을 때가 있어요. 이때 앱이 이를 놓치지 않고 자동으로 감지해서 스마트 쇼핑 목록에 추가할 수 있도록 도와줍니다. 더 이상 장을 보러 가서 필요한 재료를 깜빡하고 다시 돌아오는 불상사는 없을 겁니다. 저처럼 건망증 심한 사람에게는 정말 구세주 같은 기능이었어요!\n  '냉장고 속을 부탁해' A to Z 사용 가이드\n이렇게 혁신적인 앱이라면 사용법이 어렵지 않을까 걱정하실 수도 있겠지만, 놀라울 정도로 직관적이고 간단합니다. 제가 직접 사용해 본 경험을 바탕으로, 여러분도 쉽게 따라 할 수 있도록 상세하게 알려드릴게요.\n\n\n\n \n[1단계] 냉장고 문을 열고, 찰칵!  \n앱의 메인 화면에서 이미지 업로드 영역을 터치하여 냉장고 내부가 선명하게 보이는 사진을 찍거나 앨범에서 선택합니다. 팁을 드리자면, 사진이 선명하고 냉장고 속 재료들이 잘 보일수록 AI가 재료를 훨씬 더 정확하게 인식하니까, 조금만 신경 써서 찍어주세요!\n[2단계] AI의 마법을 기다리세요 ✨\n업로드가 완료되면, 잠시만 기다려주세요. Gemini AI가 사진을 열심히 분석해서 냉장고 속 재료 목록을 파악하고, 이를 바탕으로 여러분에게 꼭 맞는 맞춤 레시피들을 제안하기 시작합니다. 이 모든 과정이 단 몇 초에서 몇 분 안에 완료된다는 점이 정말 놀라웠어요. 제가 생각했던 것보다 훨씬 빠르더라고요!\n[3단계] 오늘의 레시피를 고르고 탐색하기  \n화면에 다양한 레시피 카드들이 나타날 거예요. 좌측 사이드바에는 다양한 필터가 있으니, 이걸 활용해서 '한식'이나 '채식'처럼 원하는 조건의 레시피만 똑똑하게 추려볼 수 있습니다. 그리고 레시피 카드 우측 상단의 카메라 아이콘을 눌러서 Imagen이 생성한 완성 요리 이미지를 미리 확인하는 재미도 절대로 놓치지 마세요. 시각적인 즐거움이 요리 의욕을 마구 샘솟게 할 거예요!\n[4단계] 즐거운 요리 시간!  ‍ \n마음에 쏙 드는 레시피를 선택했다면, 이제 상세 요리 모드로 진입합니다. 여기서 재료 목록을 다시 한번 꼼꼼하게 확인하고, 혹시 부족한 재료가 있다면 '쇼핑 목록에 추가' 버튼을 눌러 바로 담아두세요. 이제 좌우 화살표를 눌러 다음 단계로 넘어가거나, 스피커 아이콘으로 음성 안내 기능을 이용하면서 즐겁게 요리를 시작하면 됩니다. 참 쉽죠?\n[5단계] 스마트한 장보기  \n요리가 끝나고 이제 장을 볼 시간이 되면, 앱 상단 탭에서 '쇼핑 목록'으로 이동해 보세요. 요리 중 추가해 둔 품목들이 깔끔하게 정리되어 있을 겁니다. 이걸 보면서 필요한 것만 딱! 구매할 수 있어서 정말 효율적이에요. 불필요한 충동구매도 줄일 수 있고, 필요한 재료를 잊어버리는 일도 없으니, 저처럼 계획 없는 장보기를 싫어하는 분들에겐 최고일 겁니다!\n  핵심 요약\n✅ Google Gemini AI: 냉장고 속 재료를 마치 사람처럼 '이해'하고 분석하여 최적의 레시피를 제안합니다.\n✅ Google Imagen: 레시피 설명을 기반으로 먹음직스러운 완성 요리 이미지를 즉석에서 생성하여 요리 의욕을 높여줍니다.\n✅ 개인 맞춤형 레시피: 요리 스타일, 식단 필터 등 다양한 옵션으로 나에게 꼭 맞는 레시피를 손쉽게 찾을 수 있습니다.\n✅ 스마트 주방 도우미: 음성 안내 기능과 스마트 쇼핑 목록으로 요리와 장보기의 편리함을 극대화합니다.\n'냉장고 속을 부탁해' 앱은 단순한 레시피 제공을 넘어, AI 기술로 우리의 식생활을 더 스마트하고 지속 가능하게 만드는 혁신적인 솔루션입니다.\n  단순한 앱을 넘어, 무료로 사용하세요!!\n'냉장고 속을 부탁해' 앱은 단순히 편리한 요리 도구, 그 이상입니다. 제 생각엔 이 앱이 우리의 식생활 문화 전반에 아주 긍정적인 영향을 미칠 수 있다고 확신해요. 가장 큰 장점 중 하나는 바로 음식물 쓰레기를 줄이는 데 크게 기여한다는 점입니다. 냉장고 구석에 잊고 있던 재료들을 AI가 기가 막히게 재발견해 주니, 더 이상 아깝게 버리는 음식이 줄어들겠죠. 이건 정말 환경 보호에도 큰 도움이 되는 일이라고 생각합니다.\n또한, 밖에서 사 먹거나 배달 음식에만 의존하기보다는, 냉장고 속 재료들로 건강하고 맛있는 집밥을 직접 만들어 즐기도록 유도합니다. AI가 제안하는 창의적인 레시피들을 따라 요리하다 보면, 어느새 요리의 새로운 즐거움을 발견하고, 누구나 자신감 넘치는 '우리 집 셰프'가 될 수 있을 거예요. 솔직히 말해서, 요리에 재미를 붙이면 삶의 질이 달라진다고 생각합니다.\nGoogle AI Studio와 같은 개방적인 개발 도구 덕분에, 이제 아이디어만 있다면 누구든지 세상을 더 좋게 바꿀 멋진 AI 애플리케이션을 직접 만들 수 있는 시대가 활짝 열렸습니다. '냉장고 속을 부탁해'는 그 무한한 가능성을 실제로 보여주는 정말 훌륭하고 멋진 예시라고 생각합니다.\n오늘 저녁, 냉장고 앞에서 뭘 해 먹어야 할지 더 이상 망설이지 마세요. 사진 한 장으로 시작되는 즐거운 미식 여행, '냉장고 속을 부탁해'와 함께 떠나보는 것은 어떨까요? 제 경험상 정말 후회하지 않으실 거예요!\n[ 냉장고 속을 부탁해 -무료링크]\n\n \n로그인 - Google 계정\n이메일 또는 휴대전화\naccounts.google.com\n\n \n❓ 자주 묻는 질문 (FAQ)\nQ1: '냉장고 속을 부탁해' 앱은 무료인가요?\nA1: 네, '냉장고 속을 부탁해' 앱은 모든 주요 앱 스토어에서 무료로 다운로드하여 사용할 수 있습니다. 기본적인 모든 기능은 무료로 제공되며, 일부 프리미엄 기능은 추후 유료 구독으로 전환될 수 있습니다.\nQ2: AI가 냉장고 속 재료를 얼마나 정확하게 인식하나요?\nA2: Google의 최신 멀티모달 AI인 Gemini를 기반으로 하여 매우 높은 정확도를 자랑합니다. 재료의 종류는 물론, 대략적인 양과 신선도까지 추론하여 레시피 제안에 반영합니다. 단, 사진의 선명도와 냉장고 내부의 조명 상태에 따라 인식률에 차이가 있을 수 있습니다.\nQ3: 앱을 사용하려면 특별한 준비물이 필요한가요?\nA3: 특별한 준비물은 필요하지 않습니다. 스마트폰에 앱을 설치한 후, 냉장고 내부를 촬영할 수 있는 카메라만 있다면 바로 이용할 수 있습니다. 인터넷 연결은 필수입니다.\nQ4: 제가 원하는 요리 스타일이나 식단만 따로 필터링할 수 있나요?\nA4: 네, 물론입니다. '냉장고 속을 부탁해' 앱은 다양한 맞춤형 필터 기능을 제공합니다. 한식, 중식, 양식 등의 요리 스타일부터 채식, 저탄수화물, 글루텐 프리와 같은 식단 옵션까지 설정하여 자신에게 가장 적합한 레시피를 쉽게 찾아볼 수 있습니다.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"'냉장고 속을 부탁해' 앱은 무료인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, '냉장고 속을 부탁해' 앱은 모든 주요 앱 스토어에서 무료로 다운로드하여 사용할 수 있습니다. 기본적인 모든 기능은 무료로 제공되며, 일부 프리미엄 기능은 추후 유료 구독으로 전환될 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI가 냉장고 속 재료를 얼마나 정확하게 인식하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Google의 최신 멀티모달 AI인 Gemini를 기반으로 하여 매우 높은 정확도를 자랑합니다. 재료의 종류는 물론, 대략적인 양과 신선도까지 추론하여 레시피 제안에 반영합니다. 단, 사진의 선명도와 냉장고 내부의 조명 상태에 따라 인식률에 차이가 있을 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"앱을 사용하려면 특별한 준비물이 필요한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"특별한 준비물은 필요하지 않습니다. 스마트폰에 앱을 설치한 후, 냉장고 내부를 촬영할 수 있는 카메라만 있다면 바로 이용할 수 있습니다. 인터넷 연결은 필수입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"제가 원하는 요리 스타일이나 식단만 따로 필터링할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 물론입니다. '냉장고 속을 부탁해' 앱은 다양한 맞춤형 필터 기능을 제공합니다. 한식, 중식, 양식 등의 요리 스타일부터 채식, 저탄수화물, 글루텐 프리와 같은 식단 옵션까지 설정하여 자신에게 가장 적합한 레시피를 쉽게 찾아볼 수 있습니다.\"\n      }\n    }\n  ]\n}",
+    "title": "차트매매 VWAP  전략 따라해보자 / 키움증권 HTS 수식편집기",
+    "description": "영상: https://www.youtube.com/watch?v=zOiFJYV5mRo&list=WL\n\n\n\n \n이평선에 거래량을 더한 지표입니다.\n세력이 들어갈때 따라 들어가고 나오고를 선으로 볼 수 있습니다.\n거기다가 추가로\n손익비 와 자동 손절을 조합하면 안전한 트레이드가 가능할 것같습니다.\n \n추가로 배울점\n영상을 보시면 초반에 적당히 먹으면 절반은 팝니다.\n기 기술로 안전하게 투자금을 줄이고 현금을 늘릴 수 있습니다.\n \n들어가는 지점을 정확히 알 수 있다면 \n가격이 비쌀때 빠진다고 자꾸 매수하는 실수를 방지할 수 있습니다.\n \n키움증권에서 지표 추가하기\n키움에는 VWAP 이 없습니다. 국내 HTS 에서 없는곳이 많다는군요\n그래서 만들어서 써야합니다.\n영상: https://www.youtube.com/watch?v=xe8N42zyzHA&t=73s\n\n\n\n \n수식 관리자로 만듭니다.\n\n\nAA=종가;\nBB=AA*거래량;\nX1=SUM(BB,기간1);\nX2=SUM(V,기간1);\nX1/X2\n이렇게 입력했습니다.\n여러줄로 나눠서 계산할 수 있었군요\n \n추가로 스테일 수정 필요\n스케일 에서 가격을 체크하셔야 차트에 표시됩니다.\n안그러면 RSI 처럼 별도의 선으로 하단에 추가되는 엉뚱한 문제가 있군요\n \n결과물\n수식 넣고나서 바로는 다시 계산하지는 않고 주봉 일봉 바꿔줘야 다시 계산되는군요\n\n\n점선 부분이 VWAP 입니다.\n \n화이팅",
     "reviews": [],
     "syllabus": [],
-    "link": "http://muzbox.tistory.com/483677",
-    "pubDate": "Tue, 4 Nov 2025 07:49:34 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "http://serverdown.tistory.com/1464",
+    "pubDate": "Fri, 7 Nov 2025 00:25:01 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "AI 요리 앱",
-      "AI 주방 비서",
-      "Google AI Gemini",
-      "Google Imagen",
-      "냉장고 속을 부탁해",
-      "맞춤형 식단",
-      "무료 레시피 앱",
-      "스마트 레시피",
-      "요리 앱 추천",
-      "음식물 쓰레기 줄이기"
+      "투자",
+      "차트매매"
     ]
   }
 ]
