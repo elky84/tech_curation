@@ -2,44 +2,166 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "AI 에이전트 프레임웍의 불편한 진실",
-    "description": "이 글은 AI 에이전트 프레임웍의 불편한 진실을 경험을 반영해 이야기해보도록 한다. 약간 새로운 스타일로 다음과 같이 목차를 만들어 이야기할 생각이다.\n\n\n에이전트의 기반 LLM의 근본적 한계. 환각\n\n\nRAG는 만능 도구가 아니다.\n\n\n블랙박스화된 프레임웍. 간단한 질문 하나로 인해 발생되는 일들?\n\n\n토큰 사용은 숨겨져 있다.\n\n\n\n\n멀티 에이전트과 가난한 인프라의 충돌\n\n\n누가 돈을 벌어가나?\n\n\n\n마무리\n\n\n\n레퍼런스\n\nWe Spent $47K on AI Agents in Production. Here's What Broke. | Towards AI",
+    "title": "10 Smart Performance Hacks For Faster Python Code",
+    "description": "This is a guest post from Dido Grigorov, a deep learning engineer and Python programmer with 17 years of experience in the field. In the rapidly evolving domain of software development, Python has established itself as a premier language, renowned for its simplicity, readability, and versatility. It underpins a vast range of applications, from web […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/ai.html",
-    "pubDate": "2025-11-07T01:49:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/pycharm/2025/11/10-smart-performance-hacks-for-faster-python-code/",
+    "pubDate": "Wed, 05 Nov 2025 10:50:20 +0000",
+    "creator": "Evgenia Verbina",
+    "categories": [
+      "web-development",
+      "performance",
+      "python"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "dotInsights | November 2025",
-    "description": "Did you know? C# includes a feature called “expression-bodied members“, which allows you to define one-line methods, properties, constructors, and destructors in a very concise way. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. 🔦 From […]",
+    "title": "Azure VM의 Ubuntu Server 라이선스 주의 사항",
+    "description": "오랜만에 주말에 여유를 부리나 했더니 갑자기 폰에 신용카드 해외 결제 알림이 떠서 긴장하며 내역을 확인했습니다.\n결제 알림은 Azure 사용 요금의 결제 였습니다. 하지만 나의 경우는 충분한 Azure 크레딧이 있어서 등록해 놓은 신용카드로 결제될 일은 없었습니다. 결제의 내용을 확인하는 과정에서 내가 간과한 부분을 확인하게 되었고, 이 내용은 글로남기는게 좋겠다고 생각했습니다.\n \n신용카드로 결제된 내역이 궁금해 청구 보고서를 내려 받아 확인 해봤습니다.\n다른 비용은 모두 크레딧으로 차감 되었으나 다음 그림의 빨간 상자에 보이는 Azure Marketplace Service 항목의 33,951원이 청구된 것이었습니다.\n\n\n다시, 구독의 [비용 관리] 섹션의 [비용 분석] 메뉴에서 청구된 월의 <청구서 세부 정보> 항목을 선택해 해당 부분을 자세히 확인했더니, 다음 그림의 빨간 상자에 보이는 Ubuntu Server 20.04 LTS의 라이선스 비용이었습니다.\n\n\n \nAzure에서 리눅스 VM을 배포하면서 거의 습관적으로 Ubuntu Server 20.04 LTS를 사용할때가 많습니다. \n최근에는 Ubuntu Server 22.04 LTS가 많이 사용되는데, Azure 마켓플레이스에서 Ubuntu Server 22.04 LTS는 다음 그림처럼 라이선스가 무료로 표시되어 있습니다. \n \n \n당연히 Ubuntu Server 20.04 LTS도 무료 라이선스라고 안이하게 생각한 저의 잘못이었음을 뒤늦게 깨달았습니다. \n다음 그림에서 보인 것처럼 Ubuntu Server 20.04 LTS는 공급자가 달랐고, 유료 라이선스 정책으로 시간당 0.045$를 부과하고 있었기에, 이 부분은 마이크로소프트의 Azure 크레딧으로 차감할 수 없었던 것입니다.\n \n\n\n \n돈을 지불한 경험은 오래가지요.\n여러분은 저의 경험을 간접 경험하여 비용을 아끼세요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/11/05/dotinsights-november-2025/",
-    "pubDate": "Wed, 05 Nov 2025 13:54:51 +0000",
-    "creator": "Rachel Appel",
+    "link": "http://www.dokyun.pe.kr/381",
+    "pubDate": "Sun, 9 Nov 2025 20:26:04 +0900",
+    "creator": "강철 벼룩",
     "categories": [
-      "net-tools",
-      "dotinsights"
+      "Azure &amp; Windows/Azure",
+      "azure",
+      "License",
+      "Linux",
+      "UbuntuServer20.04"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "CentOS7의 Splunk - 4th",
-    "description": "스플렁크 v10부터 GLIBC 버전이 낮다면서 centos7에서 실행이 되지 않는다.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n\n[root@Snort ~]# rpm -ivh splunk-10.0.0-e8eb0c4654f8.x86_64.rpm\nwarning: splunk-10.0.0-e8eb0c4654f8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID b3cd4420: NOKEY\nPreparing...                          ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: cannot create directory /opt/splunk\nUpdating / installing...\n   1:splunk-10.0.0-e8eb0c4654f8       ################################# [100%]\nfind: ‘/opt/splunk/lib/python3.7/site-packages’: No such file or directory\ncomplete\n[root@Snort ~]# cd /opt/splunk\n[root@Snort splunk]# bin/splunk start --accept-license\nbin/splunk: /lib64/libc.so.6: version `GLIBC_2.25' not found (required by bin/splunk)\ncs\n\n\n\n\n포워더도 마찬가지.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n\n[root@Snort ~]# rpm -ivh splunkforwarder-10.0.0-e8eb0c4654f8.x86_64.rpm\nwarning: splunkforwarder-10.0.0-e8eb0c4654f8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID b3cd4420: NOKEY\nPreparing...                          ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: cannot create directory /opt/splunkforwarder\nUpdating / installing...\n   1:splunkforwarder-10.0.0-e8eb0c4654################################# [100%]\nfind: ‘/opt/splunkforwarder/lib/python3.7/site-packages’: No such file or directory\nfind: ‘/opt/splunkforwarder/lib/python3.9/site-packages’: No such file or directory\ncomplete\n[root@Snort ~]# \n[root@Snort ~]# cd /opt/splunkforwarder/\n[root@Snort splunkforwarder]# bin/splunk start --acctpe-license\nbin/splunk: /lib64/libc.so.6: version `GLIBC_2.25' not found (required by bin/splunk)\n[root@Snort splunkforwarder]#\n[root@Snort splunkforwarder]# ldd --version\nldd (GNU libc) 2.17\nCopyright (C) 2012 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nWritten by Roland McGrath and Ulrich Drepper.\n\nColored by Color Scripter\ncs\n\n\n\n\nGLIBC를 업데이트 해야 하나 싶어 찾아보니 운영체제 전반에 관여하는 라이브러리니 건드리지 말라는 의견이 대부분. Rocky Linux 10에서 잘 실행된다.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n\n[root@rocky ~]# ldd --version\nldd (GNU libc) 2.39\nCopyright (C) 2024 Free Software Foundation, Inc.\n이 프로그램은 자유 소프트웨어입니다. 복사조건은 소스를 참조하십시오.  상품성\n이나 특정 목적에 대한 적합성을 비롯하여 어떠한 보증도 하지 않습니다.\n만든 사람: Roland McGrath 및 Ulrich Drepper.\n[root@rocky ~]#\n[root@rocky ~]# rpm -ivh splunkforwarder-10.0.1-c486717c322b.x86_64.rpm\n경고: splunkforwarder-10.0.1-c486717c322b.x86_64.rpm: 헤더 V4 RSA/SHA256 Signature, 키 ID b3cd4420: NOKEY\n확인...                             ################################# [100%]\n준비 중...                         ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: 디렉터리 /opt/splunkforwarder을(를) 만들 수 없습니다\n최신화 / 설치하기...\n   1:splunkforwarder-10.0.1-c486717c32################################# [100%]\nfind: ‘/opt/splunkforwarder/lib/python3.7/site-packages’: 그런 파일이나 디렉터리가 없습니다\nfind: ‘/opt/splunkforwarder/lib/python3.9/site-packages’: 그런 파일이나 디렉터리가 없습니다\ncomplete\n[root@rocky ~]# \n[root@rocky ~]# cd /opt/splunkforwarder/\n[root@rocky splunkforwarder]# bin/splunk start --accept-license\nWarning: Attempting to revert the SPLUNK_HOME ownership\nWarning: Executing \"chown -R splunkfwd:splunkfwd /opt/splunkforwarder\"\n \nThis appears to be your first time running this version of Splunk.\n \nSplunk software must create an administrator account during startup. Otherwise, you cannot log in.\nCreate credentials for the administrator account.\nCharacters do not appear on the screen when you type in credentials.\n \nPlease enter an administrator username: admin\nPassword must contain at least:\n   * 8 total printable ASCII character(s).\nPlease enter a new password:\nPlease confirm new password:\nCreating unit file...\nImportant: splunk will start under systemd as user: splunkfwd\nThe unit file has been created.\n \n \nSplunk> CSI: Logfiles.\n \nChecking prerequisites...\n        Checking mgmt port [8089]: open\n                Creating: /opt/splunkforwarder/var/lib/splunk\n                Creating: /opt/splunkforwarder/var/run/splunk\n                Creating: /opt/splunkforwarder/var/run/splunk/appserver/i18n\n                Creating: /opt/splunkforwarder/var/run/splunk/appserver/modules/static/css\n                Creating: /opt/splunkforwarder/var/run/splunk/upload\n                Creating: /opt/splunkforwarder/var/run/splunk/search_telemetry\n                Creating: /opt/splunkforwarder/var/run/splunk/search_log\n                Creating: /opt/splunkforwarder/var/spool/splunk\n                Creating: /opt/splunkforwarder/var/spool/dirmoncache\n                Creating: /opt/splunkforwarder/var/lib/splunk/authDb\n                Creating: /opt/splunkforwarder/var/lib/splunk/hashDb\n                Creating: /opt/splunkforwarder/var/run/splunk/collect\n                Creating: /opt/splunkforwarder/var/run/splunk/sessions\nNew certs have been generated in '/opt/splunkforwarder/etc/auth'.\nNew certs have been generated in '/opt/splunkforwarder/etc/auth'.\n        Checking conf files for problems...\n        Done\n        Checking default conf files for edits...\n        Validating installed files against hashes from '/opt/splunkforwarder/splunkforwarder-10.0.1-c486717c322b-linux-amd64-manifest'\n        All installed files intact.\n        Done\nAll preliminary checks passed.\n \nStarting splunk server daemon (splunkd)...\nDone\n\nColored by Color Scripter\ncs\n\n\n\n\n관련 글\n\n\nCentOS7의 Splunk - 3rd\nCentOS7의 Splunk\nSplunkForwarder v9\nCould not bind to port 8089\n스플렁크와 엘라스틱 서비스 실행 차이",
+    "title": "언리얼 + 스팀 출시 설명 영상 퍼옴",
+    "description": "vjdha\n\n\n \n제가 만든거 아니구요\n유튜브 영상 가져왔습니다.\n저도 이번에 스팀 출시를 노리고 있어서 참고하게되었습니다.\n \n영상: https://www.youtube.com/watch?v=0S4qfaD8NZs&t=52s\n\n\n\n한달동안 만들었군요\n화이팅\n \n스팀 페이지 : https://store.steampowered.com/app/3513560/Lost_Balls/?l=koreana\n\n \nLost Balls on Steam\nOutsmart ruthless gangsters in a high-stakes portside chase! This third-person shooter challenges you to collect every lost golf ball, run, quick reflexes, and, when necessary, your weapon to survive the relentless pursuit.\nstore.steampowered.com",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/11/centos7-splunk-4th.html",
-    "pubDate": "2025-11-04T07:59:00.000Z",
+    "link": "http://serverdown.tistory.com/1465",
+    "pubDate": "Sun, 9 Nov 2025 23:40:27 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "게임",
+      "스팀",
+      "언리얼"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Busy Plugin Developers Newsletter – Q3 2025",
+    "description": "Your quarterly dose of plugin dev news, tools, and tips from JetBrains.  ⭐ Community Spotlight JetBrains Plugin Developer Conf 2025 Is Coming Up Soon 📅 November 5, 2025 | Online | FreeLearn how to build the next great JetBrains plugin! Join our annual free virtual event focused on developing plugins for JetBrains products. Explore topics […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2025/11/busy-plugin-developers-newsletter-q3-2025/",
+    "pubDate": "Mon, 03 Nov 2025 16:18:07 +0000",
+    "creator": "Elena Kerpeleva",
+    "categories": [
+      "marketplace",
+      "news",
+      "newsletters",
+      "busy-plugin-developers"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "목표 지연",
+    "description": "멘토링을 종종 하다보면 \"좋은 회사에 합격하면 그때 컨퍼런스에 나가서 발표를 하는 것이 목표\" 라는 이야기를 듣는다.\n컨퍼런스에서 발표를 하는 것은 개발자로서는 좋은 동기부여가 된다.\n그래서 적극 지지하는 편인데,\n앞에 붙은 전제 조건인, 좋은 회사에 합격해야만 한다가 마음에 걸린다.\n그래서 \"왜 좋은 회사에 합격해야만 하는건가요?\" 라고 질문하면, \"대규모 트래픽, 대용량 데이터 처리, 서비스 회사의 경험이 없으면 사람들에게 도움이 되는 지식을 전달할 수 없을 것 같다\" 라는 답변을 가장 많이 듣는다.\n승려와 수수께끼에는 다음의 이야기가 있다.\n추측컨대 레니는 아버지와 같은 운명을 피하고 싶은 생각에 잔인한 타협안을 받아들였을 것이다.\n오래도록 일하고 나서야 잠깐 동안 하고 싶은 일을 할 수 있는 운명.\n이런 운명을 표현하는 공식적인 단어는 없다.\n하지만 보험회사에서 일한 경력으로 볼 때, 레니라면 이 운명을 '미뤄 놓은 인생 설계(Deferred Life Plan)` 라고 부를 것 같았다.\n이 보험 상품의 혜택을 완벽하게 받으려면, 인생을 두 부분으로 확실히 나눠야만 한다.\n1단계: 해야만 하는 것을 해라.\n(그렇게 미룬 후, 궁극적으로)\n2단계: 자신이 하고 싶은 일을 한다.\n우리는 어린 시절부터 비슷한 말을 수 없이 들으며 자란다.\n'뛰기 전에 걷는 것부터 배워라' '첫 술에 배부르랴' '젊어 고생은 사서도 한다' '인내는 쓰지만 그 열매는 달다' 등...\n...\n실리콘밸리에서도 '미뤄 놓은 인생 설계'의 관점대로 사는 방식이 유행이다.\n사람들은 대부분 빨리 부자가 되는 게 1단계를 가장 빨리 통과하는 방법이라고 생각한다.\n...\n비즈니스 아이디어 대부분은 자금 지원을 받지 못한다.\n자금을 지원받은 기업들, 즉 아주 똑똑한 사람들이 아이디어를 충분히 검토한 결과 투자할 만한 가치가 있다는 판정을 받은 기업들 조차 대부분은 결국 실패한다.\n운이 좋았던 몇몇 사람들도 2단계로 넘어가면 목적의식과 방향감각을 잃는다.\n본인이 '정말' 하고 싶은 일이 뭔지를 생각해 본 적이 없거나 1단계에서 너무 많은 시간과 정신력을 할애한 나머지, 어떤 비전으로 나아가야 할지 길을 잃어버리기 때문이다.\n나도 커뮤니티를 통해 성장한 경우라서 커뮤니티에서의 활동을 지향하는 것에 적극 지지한다.\n이 목표는 대단히 훌륭하고, 업계 전체에 항상 이렇게 커뮤니티에 기여하고자 하는 분들이 계시는건 좋은 일이고 응원한다.\n근데 하고 싶은 것을 하기 위해 사전 조건을 달성하는 것에 대해서는 항상 우려를 표한다.\n어떤 조건을 달성하고 나서 원하는 것을 실행하는 것에는 크게 2가지 문제가 있다.\n조건을 달성해도 원했던 목표를 실행에 옮기지 못할 수도 있다.\n하고 싶었던 것이 진짜로 원했던 것이 맞는지 확인하는 것이 너무 늦다\n큰 회사에 간다고 컨퍼런스에서 발표할 주제가 생기느냐? 라고 한다면 전혀 아니다.\n문제를 해결하는 방법이 거의 공식화 되어있는 것이 많다.\n그리고 이미 많은 시니어들이 그 문제를 해결한 경험이 있어, 주니어인 경우엔 본인이 직접 해결하는 경험을 쌓기가 쉽지 않다.\n몇년 간 큰 회사로 이직하기 위해 준비하고, 큰 회사에 가서 발표할만한 문제를 해결하는 경험을 얻기 위해 또 시간을 보내고, 그렇게 한참 시간이 지나고서 그때도 컨퍼런스 발표가 하고 싶어질까?\n혹은 그때가서 발표를 해봤더니 그렇게 재밌지 않으면 그땐 어떡할까?\n내가 하고 싶은 일이 있다면, 그건 즉시 실행해봐야 한다.\n이를테면 좋은 서비스 회사에 합격하고 나서 컨퍼런스 발표를 시도하는 것이 아니라, 현재 회사안에서 동료들을 대상으로 발표를 할 수도 있고 동아리, 친구들 앞에서도 내가 고민했던 내용들을 정리해서 공유하는 시간을 가져도 좋다.\n현재 회사에서도 내 나름대로 고민한게 있다면 그걸로 여러 작은 컨퍼런스에서 발표를 시도해보는 것이다.\n꼭 대형 컨퍼런스만이 컨퍼런스는 아니다.\n주니어 개발자분들 혹은 아주 많은 제약이 있는 조직에서의 경험을 필요로 하는 컨퍼런스들도 많다.\n젋은 개발자들이 발표하는 유스콘이나 AWS 한국 사용자 모임에서 운영하는 여러 소모임들, 요즘 활발하게 공유되는 타입스크립트 백엔드 모임 등등 다양한 주제로 많다.\n현재 내가 처해있는 상황에서 내 나름대로 고민하고 해결한 방법은 뭐든 타인에게 도움이 되는 주제다.\n큰 회사들의 경험이 필요한 사람들도 있고, 작은 조직에서의 경험, 취준생으로서의 경험, 주니어 개발자로서의 경험, B2B 서비스에서의 경험 등 다양한 경험을 필요로 하는 조직과 개발자들이 세상에 많다.\n하고 싶은 것이 있다면 어떤 조건을 달성하지 않더라도 바로 실행에 옮기는 것이 좋다.\n목표를, 하고 싶은 것을 지연시키지 말자.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://jojoldu.tistory.com/853",
+    "pubDate": "Fri, 7 Nov 2025 09:23:16 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "AWS 사용자 모임",
+      "개발자",
+      "유스콘",
+      "컨퍼런스 발표",
+      "타입스크립트 백엔드 모임"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "네이비씰처럼 살기",
+    "description": "이 블로그를 통해 올해 내가 가장 많이 듣는 팟캐스트가 엘리트 운동선수들 인터뷰라고 했는데, 운동선수들 팟캐스트 외에 또 자주 듣는 건 전직 특수부대 출신 군인들의(미군) 팟캐스트다. 일단 미국의 엘리트 운동선수와 특수부대원의 팟캐스트를 들을 때마다 가장 놀라운 건, 말을 너무 논리적으로 잘 한다는 건데, 내가 아는 한국의 운동선수와 군인들과 비교하면 너무 차이가 난다. 물론, 말을 잘하니까 팟캐스트도(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/11/living-like-a-navy-seal.html",
+    "pubDate": "Sun, 09 Nov 2025 21:27:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "discipline",
+      "FoundersAtWork",
+      "general",
+      "inspiring",
+      "sports"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Inside Visual Studio: Improving Open-Source Workflows with vcpkg",
+    "description": "vcpkg, an open-source C/C++ package manager maintained by Microsoft, is increasingly recognized as a leading dependency management solution. As an enterprise-grade tool, it enables organizations to streamline library imports, reduce duplication, and support flexible, reproducible builds across a wide array of environments. This need for streamlined dependency management is especially relevant in the build system […]\nThe post Inside Visual Studio: Improving Open-Source Workflows with vcpkg appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/inside-visual-studio-improving-open-source-workflows-with-vcpkg/",
+    "pubDate": "Thu, 06 Nov 2025 23:34:56 +0000",
+    "creator": "Eve Silfanus",
+    "categories": [
+      "C++",
+      "Vcpkg",
+      "vcpkg",
+      "visual studio"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)",
+    "description": "흥미로운 글이 있어, 정리해 남긴다. 제목은 \"어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)\". 말 그대로^^\n\n레퍼런스\n\nAgentic AI has changed my career. I don’t write code… or at least, I… | by Elliot Graebert | Sep, 2025 | Medium",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/1.html",
+    "pubDate": "2025-11-07T02:10:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 4,
+    "id": 9,
+    "imageUrl": "",
+    "title": "DeepSeek OCR 사용 방법",
+    "description": "이 글은 DeepSeek OCR 사용 방법을 정리한다. \n\n\n레퍼런스\n\nHow to run DeepSeek-OCR ?. DeepSeek-OCR is a newly released… | by Harishkumar Pillai | Oct, 2025 | Stackademic\ndeepseek-ai/DeepSeek-OCR · Hugging Face",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/deepseek-ocr.html",
+    "pubDate": "2025-11-07T01:52:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "차트매매 VWAP  전략 따라해보자 / 키움증권 HTS 수식편집기",
+    "description": "영상: https://www.youtube.com/watch?v=zOiFJYV5mRo&list=WL\n\n\n\n \n이평선에 거래량을 더한 지표입니다.\n세력이 들어갈때 따라 들어가고 나오고를 선으로 볼 수 있습니다.\n거기다가 추가로\n손익비 와 자동 손절을 조합하면 안전한 트레이드가 가능할 것같습니다.\n \n추가로 배울점\n영상을 보시면 초반에 적당히 먹으면 절반은 팝니다.\n기 기술로 안전하게 투자금을 줄이고 현금을 늘릴 수 있습니다.\n \n들어가는 지점을 정확히 알 수 있다면 \n가격이 비쌀때 빠진다고 자꾸 매수하는 실수를 방지할 수 있습니다.\n \n키움증권에서 지표 추가하기\n키움에는 VWAP 이 없습니다. 국내 HTS 에서 없는곳이 많다는군요\n그래서 만들어서 써야합니다.\n영상: https://www.youtube.com/watch?v=xe8N42zyzHA&t=73s\n\n\n\n \n수식 관리자로 만듭니다.\n\n\nAA=종가;\nBB=AA*거래량;\nX1=SUM(BB,기간1);\nX2=SUM(V,기간1);\nX1/X2\n이렇게 입력했습니다.\n여러줄로 나눠서 계산할 수 있었군요\n \n추가로 스테일 수정 필요\n스케일 에서 가격을 체크하셔야 차트에 표시됩니다.\n안그러면 RSI 처럼 별도의 선으로 하단에 추가되는 엉뚱한 문제가 있군요\n \n결과물\n수식 넣고나서 바로는 다시 계산하지는 않고 주봉 일봉 바꿔줘야 다시 계산되는군요\n\n\n점선 부분이 VWAP 입니다.\n \n화이팅",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://serverdown.tistory.com/1464",
+    "pubDate": "Fri, 7 Nov 2025 00:25:01 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "투자",
+      "차트매매"
+    ]
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "아무도 몰랐던 USB 포트 색깔의 비밀, 당신은 제대로 쓰고 있요?",
     "description": "USB 포트의 색깔이 단순한 디자인이라고 생각하셨나요? 사실 각 색상에는 USB 포트의 숨겨진 능력, 즉 데이터 전송 속도와 전력 공급량이 담겨 있습니다. 이 글을 통해 여러분의 기기들이 최적의 성능을 낼 수 있도록 올바른 USB 포트 사용법을 알려드릴게요. 지금 바로 당신의 USB 포트를 확인해보세요!\n\n\n 혹시 여러분은 노트북이나 컴퓨터, 심지어 TV나 자동차에 있는 USB 포트들을 무심코 사용하고 계시지는 않나요? 저도 오랫동안 그랬답니다. 그냥 빈 곳에 아무거나 꽂으면 되는 줄 알았죠. 하지만 USB 기술이 워낙 발전해서 이제는 단순히 ‘꽂으면 된다’고 생각하기에는 놓치는 부분이 너무 많아졌어요.\nUSB-A 포트는 우리 주변 어디에나 존재해요. 노트북, 모니터, TV, 게임 콘솔, 심지어 자동차까지 정말 많은 기기에서 볼 수 있는 흔한 직사각형 커넥터죠. 하지만 시간이 흐르면서 USB-A 포트도 정말 많이 진화했답니다. 그래서 이제는 모든 포트가 다 같은 기능을 하는 게 아니라는 사실! 어떤 포트는 키보드나 마우스 같은 기본적인 주변 기기용으로, 또 다른 포트는 엄청나게 빠른 속도로 데이터를 전송하거나 더 높은 전력을 공급해서 기기를 빠르게 충전할 수 있도록 설계되었어요.\n그렇다고 기기의 사용자 매뉴얼을 일일이 찾아볼 필요는 없어요. 다행히도 많은 USB-A 포트는 어떤 기능을 하는지 시각적인 힌트를 제공하고 있거든요. 바로 포트 안쪽의 플라스틱 삽입 부분 색깔이죠! 일반적으로 검정, 파랑, 틸, 빨강 또는 노랑 같은 색깔이 포트가 표준인지, 고속인지, 아니면 고전력 충전용인지 알려주는 역할을 합니다. 정말 신기하죠?\n왜 USB 포트 색깔이 중요한가요? 숨겨진 언어를 해독하다!  \n솔직히 저도 대부분의 사람들처럼 USB 포트의 색깔 같은 건 전혀 신경 쓰지 않았어요. 그냥 편하거나 가까운 곳에 아무 기기나 연결했죠. 'USB는 USB지!' 하는 마음이었달까요. 그런데 자세히 살펴보니, 노트북, 자동차, 게임 콘솔, TV 등 우리 주변의 USB 포트들이 겉으로는 비슷해 보여도 실제로는 다 다르다는 걸 알게 됐습니다.\n이 색깔들이 바로 각 포트가 무엇을 할 수 있는지 정확히 알려주는 비밀스러운 언어였던 거죠. USB 포트의 핵심은 속도와 전력입니다. 어떤 포트는 충전을 위해 더 많은 전력을 공급하도록 설계되었고, 또 어떤 포트는 파일 전송 속도를 최우선으로 하며, 둘의 장점을 적절히 조합한 포트도 있습니다. 아, 그런데 이 사실을 깨닫고 나니 제가 그동안 얼마나 비효율적으로 USB 포트를 사용해왔는지 알 수 있었어요.\n\n\n이게 왜 중요하냐고요? 생각보다 큰 차이를 만듭니다. 예를 들어, 잘못된 포트를 사용하면 스마트폰이 충전되는 데 한참 걸리거나, 파일 전송이 끝없이 늘어질 수 있습니다. 외장 하드 드라이브나 USB 메모리를 연결할 때도 마찬가지예요. 부적절한 포트를 사용하면 데이터 전송 시간이 몇 분씩 더 길어질 수 있죠. 꽤 답답한 상황이 벌어질 수 있습니다. 정말로요!\nUSB 포트가 실제로 어떤 기능을 하는지 이해하려면 해당 포트의 버전을 알아야 해요. 하지만 그 모든 정보를 외우거나 매뉴얼을 찾아볼 필요 없이, 포트의 색깔에만 주의를 기울여도 충분합니다. 이 간단한 지식만으로도 각 기기가 필요로 하는 전력이나 속도를 제대로 공급받을 수 있게 할 수 있죠. 제가 이 사실을 깨닫고 나서는, 그냥 아무 데나 꽂던 옛 습관이 얼마나 비효율적이었는지 분명히 알게 되었답니다.\n검정, 파랑, 빨강… USB 포트 색깔별 의미 완전 정복!  \n이제부터 가장 중요한 정보를 알려드릴게요. 우리가 일상에서 가장 흔하게 접하는 USB 포트 색깔은 파랑, 검정, 하양이고, 때로는 빨강이나 노랑 포트도 볼 수 있습니다. 각 색깔이 무엇을 의미하는지 지금부터 자세히 알려드릴게요!\n  알고 계셨나요? USB 버전은 1.1, 2.0, 3.0(3.1 Gen1), 3.1 Gen2, 3.2, 4 등으로 계속 진화하고 있습니다. 숫자가 높을수록 일반적으로 더 빠른 속도와 높은 전력을 제공해요.\n색상\n주요 USB 버전\n주요 특징\n추천 용도\n\n\n\n\n검정 (Black)\nUSB 2.0\n안정적이지만 느린 데이터 전송. 충전 속도는 느린 편.\n키보드, 마우스, 프린터 등 저속 주변 기기\n\n\n파랑 (Blue)\nUSB 3.0 (3.1 Gen 1)\nUSB 2.0보다 최대 10배 빠른 데이터 전송. 보통 수준의 충전 속도.\n외장 하드 드라이브, USB 메모리, 고속 데이터 전송 기기\n\n\n틸 (Teal)\nUSB 3.1 Gen 2 이상\n매우 빠른 데이터 전송과 함께 높은 전력 출력 제공.\n고성능 외장 SSD, VR 헤드셋 등 속도와 전력 모두 중요한 기기\n\n\n빨강/노랑 (Red/Yellow)\n고출력 충전 포트\n컴퓨터 전원이 꺼져 있거나 절전 모드일 때도 전력 공급 (Always-on). 고속 충전 가능.\n스마트폰, 태블릿, 보조배터리 등 전력 소모가 큰 기기 충전\n\n\n하양 (White)\nUSB 1.1 또는 구형\n매우 느린 데이터 전송 속도.\n아주 오래된 주변 기기. 요즘은 거의 보기 어려움.\n\n\n\n여기서 한 가지 알아두실 점이 있습니다. USB 색깔 규격이 모든 브랜드나 모든 기기에 걸쳐 아주 엄격하게 표준화되어 있는 것은 아니라는 사실이죠. 이론적으로는 어떤 제조업체가 USB 1.1 포트에 파란색을 사용할 수도 있습니다. 하지만 대부분의 잘 알려진 브랜드는 위에서 설명한 표준 색상 관례를 따르는 편이에요. 만약 확실하게 알고 싶다면, 사용하시는 기기의 설명서나 제조사 사양을 확인하는 것이 가장 정확합니다.\n이제는 스마트하게! 올바른 포트 사용 전략  \nUSB 포트 색깔이 의미하는 바를 제대로 이해하고 나니, 저의 기기 사용 습관도 완전히 바뀌었어요. 이전에는 그저 아무 데나 꽂았던 것을 이제는 각 기기에 가장 적합한 포트를 찾아 연결하기 시작한 거죠. 솔직히 말하면, 이 작은 변화가 가져온 효율성 향상에 정말 놀랐습니다.\n이제 제 스마트폰은 가능한 한 항상 빨간색이나 노란색 포트에 연결해서 충전합니다. 덕분에 배터리가 훨씬 빠르게 채워져서 더 이상 충전 때문에 애태우는 일이 없어요. 외장 하드 드라이브는 주저 없이 파란색이나 틸색 포트로 직행합니다. 덕분에 파일 백업이나 대용량 파일 전송이 예전보다 훨씬 빨라졌어요. 이전에 겪었던 긴 기다림은 이제 옛말이 되었죠. 키보드와 마우스 같은 경우는 검은색 USB 2.0 포트에도 충분히 잘 작동해서, 더 빠른 포트들은 정말 속도가 필요한 기기들을 위해 아껴둘 수 있게 되었습니다. 이렇게 전략적으로 사용하니, 괜히 느린 포트에 중요한 기기를 꽂아 시간을 낭비할 일이 없어져서 너무 좋아요!\n\n\nUSB-A 포트의 기능을 파악하는 데 색깔이 첫 번째 단서이긴 하지만, 그것이 전부는 아닙니다. 색깔 외에도 USB-A 포트에는 추가 정보를 제공하는 기호들이 종종 있어요. 예를 들어, 'SS' 또는 'SuperSpeed'라는 글자는 빠른 데이터 전송 기능을 의미하며, 때로는 'SS10'처럼 숫자가 함께 표시되어 10Gbps의 USB 3.1 Gen 2 속도를 나타내기도 합니다. 충전 전용 포트의 경우, 번개 모양이나 배터리 아이콘이 함께 표시되어 전력 출력만을 위한 포트임을 알려주기도 하니, 이런 작은 디테일에도 신경을 쓰는 것이 좋겠죠?\n이러한 USB 포트 색깔의 차이를 알게 되면서, 이제 제 기기들을 연결하는 행위는 단순한 습관이 아니라 의도적인 행동이 되었습니다. 이 지식은 단순히 PC를 사용할 때뿐만 아니라, 자동차, TV, 다른 여러 가전제품에 이르기까지 확장되어 모든 기기가 마땅히 받아야 할 최적의 전력과 속도를 누리게 해줍니다. 여러분도 오늘 알려드린 정보를 바탕으로 USB 포트를 더 스마트하게 사용하시길 바랍니다!\n  핵심 요약\n✔️ USB 포트 색깔은 기능을 나타내는 비밀 코드: 검정, 파랑, 틸, 빨강/노랑, 하양 등 각 색깔은 데이터 전송 속도와 전력 공급량을 의미합니다.\n✔️ 잘못된 포트 사용은 성능 저하를 초래: 기기 특성에 맞지 않는 포트 사용 시 충전이 느려지거나 파일 전송 시간이 길어질 수 있습니다.\n✔️ 스마트한 매칭으로 효율 극대화: 스마트폰은 고출력(빨강/노랑), 외장하드는 고속(파랑/틸), 키보드/마우스는 표준(검정) 포트에 연결하세요.\n✔️ 색깔 외 추가 표식도 확인: 'SS', 'SuperSpeed' 문구나 번개/배터리 아이콘 등도 포트의 기능을 알려주는 중요한 단서입니다.\n이 정보를 통해 여러분의 디지털 라이프가 한층 더 편리해지기를 바랍니다. 궁금한 점이 있다면 언제든지 댓글로 남겨주세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: USB 포트 색깔은 모든 기기에서 표준화되어 있나요?\nA1: 일반적으로 주요 브랜드와 최신 기기들은 색상 규격을 따르지만, 완전히 엄격하게 표준화되어 있다고 보기는 어렵습니다. 확실한 정보는 기기 매뉴얼을 확인하는 것이 가장 좋습니다.\nQ2: 제 노트북에 빨간색 USB 포트가 없는데, 스마트폰 고속 충전은 어떻게 하나요?\nA2: 빨간색/노란색 포트가 없다면, 파란색(USB 3.0/3.1) 포트도 기존 검은색(USB 2.0) 포트보다 더 빠른 충전 속도를 제공합니다. 만약 더 빠른 충전을 원한다면, 고속 충전을 지원하는 외부 충전기를 사용하는 것이 좋습니다.\nQ3: USB-C 타입 포트도 색깔로 구분할 수 있나요?\nA3: USB-C 타입은 USB-A와 달리 포트 자체의 색상으로 기능을 구분하는 경우는 거의 없습니다. USB-C는 단자 모양이 동일하며, Thunderbolt 지원 여부나 USB Power Delivery (PD) 등의 추가 기능은 케이블이나 기기의 스펙을 통해 확인해야 합니다.\n{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"USB 포트 색깔은 모든 기기에서 표준화되어 있나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"일반적으로 주요 브랜드와 최신 기기들은 색상 규격을 따르지만, 완전히 엄격하게 표준화되어 있다고 보기는 어렵습니다. 확실한 정보는 기기 매뉴얼을 확인하는 것이 가장 좋습니다.\"}},{\"@type\":\"Question\",\"name\":\"제 노트북에 빨간색 USB 포트가 없는데, 스마트폰 고속 충전은 어떻게 하나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"빨간색/노란색 포트가 없다면, 파란색(USB 3.0/3.1) 포트도 기존 검은색(USB 2.0) 포트보다 더 빠른 충전 속도를 제공합니다. 만약 더 빠른 충전을 원한다면, 고속 충전을 지원하는 외부 충전기를 사용하는 것이 좋습니다.\"}},{\"@type\":\"Question\",\"name\":\"USB-C 타입 포트도 색깔로 구분할 수 있나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"USB-C 타입은 USB-A와 달리 포트 자체의 색상으로 기능을 구분하는 경우는 거의 없습니다. USB-C는 단자 모양이 동일하며, Thunderbolt 지원 여부나 USB Power Delivery (PD) 등의 추가 기능은 케이블이나 기기의 스펙을 통해 확인해야 합니다.\"}}]}",
@@ -63,36 +185,7 @@
     ]
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "불완전한 광고 ID 선언 / Admob / Unity",
-    "description": "테스트 빌드를 올렸는데 거부 당했습니다.\n \n일단 빌드가 잘되어야하기 때문에 유니티에서 구글 애드의 id 가 들어가줘야합니다.\n유니티에서 이 메뉴\n\n\nSetting 버튼 누르면\n\n\n인스팩터에 이런게 뜹니다.\n요런거 에드몹에서 앱 만드시면 주는 걸 넣어야합니다.\n\n\n앱 ID 를 넣어야합니다.\n광고 개별 ID (배너, 전면 광고) 이런거 아닙니다.\n불완전한 광고 ID 선언 를 해결해보겠습니다.\n \nPlay Store Console 에서\n\n\n개시 개요 에 경고가 뜨구요\n우측에 \"문제 보기\" 클릭\n\n\n요런게 뜨구요 \"선언 작성\"\n\n\n광고 ID 로 보내주는군요\n\n\n\"예\" 선택\n\n\n용도는 이거두개 채크했다\n제일 우측 하단에 \"저장\" 버튼이 있다 누르면 \"개시 개요 로 보내준다.\"",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1460",
-    "pubDate": "Mon, 3 Nov 2025 21:29:57 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "TIGER 미국AI전력SMR ETF 출시 / OKLO SMR 에 집중 투자",
-    "description": "ETF 새로 나와서 관심을 가져봅시다..\n \n \n \n영상: https://www.youtube.com/watch?v=Oa8twgdsXmc\n\n\n\n \n \nOKLO 와 SMR 에 집중 투사하는 ETF 입니다.\n미국 주식 사느니 한국 ETF 가 양도세도 없고 좋습니다.\nAI 는 버블일 수 있으나 발전소는 남아서 오래오래 산업을 발전 시킬 것으로 보입니다.\nOPEN AI 상장할때나 2030 년에 하차하면 되지 않을까 싶군요\n늦었을때 따라 타자 테마 ETF",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1463",
-    "pubDate": "Thu, 6 Nov 2025 16:19:24 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "투자",
-      "ETF"
-    ]
-  },
-  {
-    "id": 7,
+    "id": 12,
     "imageUrl": "",
     "title": "시맨틱 캐쉬로 RAG 가속하기",
     "description": "이 글은 사용자 질의를 시멘틱 벡터로 변환해 생성된 답을 미리 캐쉬에 저장해 놓고, 다음 유사 질의 시 관련 캐쉬 답변을 리턴하는 시맨틱 캐쉬 RAG 가속 방법을 알아본다.\n \n\n\n\n\n레퍼런스\n\nSemantic Cache: How to Speed Up LLM and RAG Applications | by Kostiantyn Ivanov | Oct, 2025 | Medium",
@@ -104,112 +197,51 @@
     "categories": []
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)",
-    "description": "흥미로운 글이 있어, 정리해 남긴다. 제목은 \"어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)\". 말 그대로^^\n\n레퍼런스\n\nAgentic AI has changed my career. I don’t write code… or at least, I… | by Elliot Graebert | Sep, 2025 | Medium",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/1.html",
-    "pubDate": "2025-11-07T02:10:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "토스 미니앱은 처음이라 궁금한 질문들",
-    "description": "아직 낯선 토스 미니앱을 향한 물음에 답해드릴게요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/toss_miniapp_qna",
-    "pubDate": "Tue, 04 Nov 2025 06:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "토스, 5개 외국어 공식 지원… 외국인 금융생활 접근성 강화",
-    "description": "외국인 고객의 금융 접근성 확대 및 이용 편의성 강화",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/multilingual-support",
-    "pubDate": "Sun, 02 Nov 2025 23:22:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "DeepSeek OCR 사용 방법",
-    "description": "이 글은 DeepSeek OCR 사용 방법을 정리한다. \n\n\n레퍼런스\n\nHow to run DeepSeek-OCR ?. DeepSeek-OCR is a newly released… | by Harishkumar Pillai | Oct, 2025 | Stackademic\ndeepseek-ai/DeepSeek-OCR · Hugging Face",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/deepseek-ocr.html",
-    "pubDate": "2025-11-07T01:52:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Busy Plugin Developers Newsletter – Q3 2025",
-    "description": "Your quarterly dose of plugin dev news, tools, and tips from JetBrains.  ⭐ Community Spotlight JetBrains Plugin Developer Conf 2025 Is Coming Up Soon 📅 November 5, 2025 | Online | FreeLearn how to build the next great JetBrains plugin! Join our annual free virtual event focused on developing plugins for JetBrains products. Explore topics […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/11/busy-plugin-developers-newsletter-q3-2025/",
-    "pubDate": "Mon, 03 Nov 2025 16:18:07 +0000",
-    "creator": "Elena Kerpeleva",
-    "categories": [
-      "marketplace",
-      "news",
-      "newsletters",
-      "busy-plugin-developers"
-    ]
-  },
-  {
     "id": 13,
     "imageUrl": "",
-    "title": "Inside Visual Studio: Improving Open-Source Workflows with vcpkg",
-    "description": "vcpkg, an open-source C/C++ package manager maintained by Microsoft, is increasingly recognized as a leading dependency management solution. As an enterprise-grade tool, it enables organizations to streamline library imports, reduce duplication, and support flexible, reproducible builds across a wide array of environments. This need for streamlined dependency management is especially relevant in the build system […]\nThe post Inside Visual Studio: Improving Open-Source Workflows with vcpkg appeared first on C++ Team Blog.",
+    "title": "Bring Your Own Key (BYOK) Is Coming Soon to JetBrains AI",
+    "description": "At JetBrains, we’ve always believed in giving developers the best possible tools to enhance productivity and creativity. Recently, you’ve shared important feedback about AI usage limits, transparency, and the freedom to choose which AI providers you use. We heard you loud and clear. That’s why we are working to introduce bring-your-own-key (BYOK) support for JetBrains […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/inside-visual-studio-improving-open-source-workflows-with-vcpkg/",
-    "pubDate": "Thu, 06 Nov 2025 23:34:56 +0000",
-    "creator": "Eve Silfanus",
+    "link": "https://blog.jetbrains.com/ai/2025/11/bring-your-own-key-byok-is-coming-soon-to-jetbrains-ai/",
+    "pubDate": "Mon, 03 Nov 2025 15:15:02 +0000",
+    "creator": "Denis Shiryaev",
     "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg",
-      "visual studio"
+      "news",
+      "ai-in-ides"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "정규표현식: 성능 - 2nd",
-    "description": "변수를 포함한 URI 구간에서 FILE 정보 추출.\n\n\n\n\n확장자를 포함한 FILE 정보만 추출하고 싶으면,\n\n\n\n\n확장자를 포함한 FILE 구조를 정규표현식에 반영. 81단계의 검사 과정 소요.\n\n\n\n\n\n변수 정보를 제외한 URL 구간에서 추출하면 19단계 소요.\n\n\n\n\n변수 정보를 포함한 URI는 URL보다 더 길고, 더 다양한 상태 변화를 갖는다. 그만큼 정규표현식의 복잡도나 성능 소모량이 커질 수 있다는 얘기. 그래서 정규표현식을 좀 더 쉽게 사용하려면 검사 범위를 좁혀야 한다. SPL 작성도 더 쉬워짐.\n\n\n\n\n\n\n관련 글\n\n정규표현식: 성능\n정규표현식이 최선일까?\n정규표현식 몰라도 된다\n데이터 노가다 실수담 - 10th",
+    "title": "CentOS7의 Splunk - 4th",
+    "description": "스플렁크 v10부터 GLIBC 버전이 낮다면서 centos7에서 실행이 되지 않는다.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n\n[root@Snort ~]# rpm -ivh splunk-10.0.0-e8eb0c4654f8.x86_64.rpm\nwarning: splunk-10.0.0-e8eb0c4654f8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID b3cd4420: NOKEY\nPreparing...                          ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: cannot create directory /opt/splunk\nUpdating / installing...\n   1:splunk-10.0.0-e8eb0c4654f8       ################################# [100%]\nfind: ‘/opt/splunk/lib/python3.7/site-packages’: No such file or directory\ncomplete\n[root@Snort ~]# cd /opt/splunk\n[root@Snort splunk]# bin/splunk start --accept-license\nbin/splunk: /lib64/libc.so.6: version `GLIBC_2.25' not found (required by bin/splunk)\ncs\n\n\n\n\n포워더도 마찬가지.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n\n[root@Snort ~]# rpm -ivh splunkforwarder-10.0.0-e8eb0c4654f8.x86_64.rpm\nwarning: splunkforwarder-10.0.0-e8eb0c4654f8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID b3cd4420: NOKEY\nPreparing...                          ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: cannot create directory /opt/splunkforwarder\nUpdating / installing...\n   1:splunkforwarder-10.0.0-e8eb0c4654################################# [100%]\nfind: ‘/opt/splunkforwarder/lib/python3.7/site-packages’: No such file or directory\nfind: ‘/opt/splunkforwarder/lib/python3.9/site-packages’: No such file or directory\ncomplete\n[root@Snort ~]# \n[root@Snort ~]# cd /opt/splunkforwarder/\n[root@Snort splunkforwarder]# bin/splunk start --acctpe-license\nbin/splunk: /lib64/libc.so.6: version `GLIBC_2.25' not found (required by bin/splunk)\n[root@Snort splunkforwarder]#\n[root@Snort splunkforwarder]# ldd --version\nldd (GNU libc) 2.17\nCopyright (C) 2012 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nWritten by Roland McGrath and Ulrich Drepper.\n\nColored by Color Scripter\ncs\n\n\n\n\nGLIBC를 업데이트 해야 하나 싶어 찾아보니 운영체제 전반에 관여하는 라이브러리니 건드리지 말라는 의견이 대부분. Rocky Linux 10에서 잘 실행된다.\n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n\n[root@rocky ~]# ldd --version\nldd (GNU libc) 2.39\nCopyright (C) 2024 Free Software Foundation, Inc.\n이 프로그램은 자유 소프트웨어입니다. 복사조건은 소스를 참조하십시오.  상품성\n이나 특정 목적에 대한 적합성을 비롯하여 어떠한 보증도 하지 않습니다.\n만든 사람: Roland McGrath 및 Ulrich Drepper.\n[root@rocky ~]#\n[root@rocky ~]# rpm -ivh splunkforwarder-10.0.1-c486717c322b.x86_64.rpm\n경고: splunkforwarder-10.0.1-c486717c322b.x86_64.rpm: 헤더 V4 RSA/SHA256 Signature, 키 ID b3cd4420: NOKEY\n확인...                             ################################# [100%]\n준비 중...                         ################################# [100%]\nverify that this sytem has all the commands we will require to perform the preflight step\nno need to run the splunk-preinstall upgrade check\nuseradd: 디렉터리 /opt/splunkforwarder을(를) 만들 수 없습니다\n최신화 / 설치하기...\n   1:splunkforwarder-10.0.1-c486717c32################################# [100%]\nfind: ‘/opt/splunkforwarder/lib/python3.7/site-packages’: 그런 파일이나 디렉터리가 없습니다\nfind: ‘/opt/splunkforwarder/lib/python3.9/site-packages’: 그런 파일이나 디렉터리가 없습니다\ncomplete\n[root@rocky ~]# \n[root@rocky ~]# cd /opt/splunkforwarder/\n[root@rocky splunkforwarder]# bin/splunk start --accept-license\nWarning: Attempting to revert the SPLUNK_HOME ownership\nWarning: Executing \"chown -R splunkfwd:splunkfwd /opt/splunkforwarder\"\n \nThis appears to be your first time running this version of Splunk.\n \nSplunk software must create an administrator account during startup. Otherwise, you cannot log in.\nCreate credentials for the administrator account.\nCharacters do not appear on the screen when you type in credentials.\n \nPlease enter an administrator username: admin\nPassword must contain at least:\n   * 8 total printable ASCII character(s).\nPlease enter a new password:\nPlease confirm new password:\nCreating unit file...\nImportant: splunk will start under systemd as user: splunkfwd\nThe unit file has been created.\n \n \nSplunk> CSI: Logfiles.\n \nChecking prerequisites...\n        Checking mgmt port [8089]: open\n                Creating: /opt/splunkforwarder/var/lib/splunk\n                Creating: /opt/splunkforwarder/var/run/splunk\n                Creating: /opt/splunkforwarder/var/run/splunk/appserver/i18n\n                Creating: /opt/splunkforwarder/var/run/splunk/appserver/modules/static/css\n                Creating: /opt/splunkforwarder/var/run/splunk/upload\n                Creating: /opt/splunkforwarder/var/run/splunk/search_telemetry\n                Creating: /opt/splunkforwarder/var/run/splunk/search_log\n                Creating: /opt/splunkforwarder/var/spool/splunk\n                Creating: /opt/splunkforwarder/var/spool/dirmoncache\n                Creating: /opt/splunkforwarder/var/lib/splunk/authDb\n                Creating: /opt/splunkforwarder/var/lib/splunk/hashDb\n                Creating: /opt/splunkforwarder/var/run/splunk/collect\n                Creating: /opt/splunkforwarder/var/run/splunk/sessions\nNew certs have been generated in '/opt/splunkforwarder/etc/auth'.\nNew certs have been generated in '/opt/splunkforwarder/etc/auth'.\n        Checking conf files for problems...\n        Done\n        Checking default conf files for edits...\n        Validating installed files against hashes from '/opt/splunkforwarder/splunkforwarder-10.0.1-c486717c322b-linux-amd64-manifest'\n        All installed files intact.\n        Done\nAll preliminary checks passed.\n \nStarting splunk server daemon (splunkd)...\nDone\n\nColored by Color Scripter\ncs\n\n\n\n\n관련 글\n\n\nCentOS7의 Splunk - 3rd\nCentOS7의 Splunk\nSplunkForwarder v9\nCould not bind to port 8089\n스플렁크와 엘라스틱 서비스 실행 차이",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2025/11/2nd.html",
-    "pubDate": "2025-11-02T05:01:00.002Z",
+    "link": "https://kangmyounghun.blogspot.com/2025/11/centos7-splunk-4th.html",
+    "pubDate": "2025-11-04T07:59:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "차트매매 VWAP  전략 따라해보자 / 키움증권 HTS 수식편집기",
-    "description": "영상: https://www.youtube.com/watch?v=zOiFJYV5mRo&list=WL\n\n\n\n \n이평선에 거래량을 더한 지표입니다.\n세력이 들어갈때 따라 들어가고 나오고를 선으로 볼 수 있습니다.\n거기다가 추가로\n손익비 와 자동 손절을 조합하면 안전한 트레이드가 가능할 것같습니다.\n \n추가로 배울점\n영상을 보시면 초반에 적당히 먹으면 절반은 팝니다.\n기 기술로 안전하게 투자금을 줄이고 현금을 늘릴 수 있습니다.\n \n들어가는 지점을 정확히 알 수 있다면 \n가격이 비쌀때 빠진다고 자꾸 매수하는 실수를 방지할 수 있습니다.\n \n키움증권에서 지표 추가하기\n키움에는 VWAP 이 없습니다. 국내 HTS 에서 없는곳이 많다는군요\n그래서 만들어서 써야합니다.\n영상: https://www.youtube.com/watch?v=xe8N42zyzHA&t=73s\n\n\n\n \n수식 관리자로 만듭니다.\n\n\nAA=종가;\nBB=AA*거래량;\nX1=SUM(BB,기간1);\nX2=SUM(V,기간1);\nX1/X2\n이렇게 입력했습니다.\n여러줄로 나눠서 계산할 수 있었군요\n \n추가로 스테일 수정 필요\n스케일 에서 가격을 체크하셔야 차트에 표시됩니다.\n안그러면 RSI 처럼 별도의 선으로 하단에 추가되는 엉뚱한 문제가 있군요\n \n결과물\n수식 넣고나서 바로는 다시 계산하지는 않고 주봉 일봉 바꿔줘야 다시 계산되는군요\n\n\n점선 부분이 VWAP 입니다.\n \n화이팅",
+    "title": "The Rider 2025.3 Release Candidate Is Now Available",
+    "description": "The next big release for Rider is just around the corner! If you’re eager to get a sneak peek, you can download the Release Candidate version of Rider 2025.3 from our website right now.  Here are the feature highlights of the Rider 2025.3 RC build: If you encounter any issues when using the Rider 2025.3 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1464",
-    "pubDate": "Fri, 7 Nov 2025 00:25:01 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/05/the-rider-2025-3-release-candidate/",
+    "pubDate": "Wed, 05 Nov 2025 16:30:53 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "투자",
-      "차트매매"
+      "net-tools",
+      "eap",
+      "releases",
+      "rider",
+      "game-development",
+      "monitoring",
+      "perforce",
+      "release-candiate"
     ]
   }
 ]
