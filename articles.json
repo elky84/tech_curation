@@ -2,207 +2,129 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Inside Visual Studio: Improving Open-Source Workflows with vcpkg",
-    "description": "vcpkg, an open-source C/C++ package manager maintained by Microsoft, is increasingly recognized as a leading dependency management solution. As an enterprise-grade tool, it enables organizations to streamline library imports, reduce duplication, and support flexible, reproducible builds across a wide array of environments. This need for streamlined dependency management is especially relevant in the build system […]\nThe post Inside Visual Studio: Improving Open-Source Workflows with vcpkg appeared first on C++ Team Blog.",
+    "title": "What’s Been Fixed in Rider 2025.3",
+    "description": "Each release of JetBrains Rider is shaped by an ongoing conversation between our team and our users. Your feedback, bug reports, and upvotes complement our internal QA processes and performance tracking, helping us understand how issues manifest across diverse environments and project setups. This collaboration allows us to prioritize the fixes that have the greatest […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/inside-visual-studio-improving-open-source-workflows-with-vcpkg/",
-    "pubDate": "Thu, 06 Nov 2025 23:34:56 +0000",
-    "creator": "Eve Silfanus",
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/11/what-s-been-fixed-in-rider-2025-3/",
+    "pubDate": "Tue, 11 Nov 2025 15:49:14 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg",
-      "visual studio"
+      "net-tools",
+      "rider",
+      "bug-fix",
+      "bug-fix-update",
+      "quality-assurance"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)",
-    "description": "흥미로운 글이 있어, 정리해 남긴다. 제목은 \"어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)\". 말 그대로^^\n\n레퍼런스\n\nAgentic AI has changed my career. I don’t write code… or at least, I… | by Elliot Graebert | Sep, 2025 | Medium",
+    "title": "C# 14 Language Features in ReSharper and Rider 2025.3",
+    "description": "Last year marked the first time we shipped ReSharper and Rider side by side with the official .NET SDK release – and we’re happy to announce that we’ve done it again with the 2025.3 release! Download Rider 2025.3 Download ReSharper 2025.3 With .NET 10 and C# 14, both ReSharper and Rider are ready on day […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/1.html",
-    "pubDate": "2025-11-07T02:10:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/11/csharp-14-language-features-in-resharper-and-rider-2025-3/",
+    "pubDate": "Tue, 11 Nov 2025 15:49:55 +0000",
+    "creator": "Matthias Koch",
+    "categories": [
+      "net-tools",
+      "how-tos",
+      "net",
+      "c",
+      "inspections",
+      "quick-fixes",
+      "resharper",
+      "rider"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "10 Smart Performance Hacks For Faster Python Code",
-    "description": "This is a guest post from Dido Grigorov, a deep learning engineer and Python programmer with 17 years of experience in the field. In the rapidly evolving domain of software development, Python has established itself as a premier language, renowned for its simplicity, readability, and versatility. It underpins a vast range of applications, from web […]",
+    "title": "JetBrains Plugin Developer Conf 2025 Recordings Are Now Live",
+    "description": "On November 5, 2025, we hosted the second annual JetBrains Plugin Developer Conf, a day dedicated to everything related to building, publishing, and growing plugins for JetBrains IDEs.Thank you to everyone who joined us live and helped make this year’s event even more interactive and inspiring than before! If you missed the live stream or […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2025/11/10-smart-performance-hacks-for-faster-python-code/",
-    "pubDate": "Wed, 05 Nov 2025 10:50:20 +0000",
-    "creator": "Evgenia Verbina",
+    "link": "https://blog.jetbrains.com/platform/2025/11/jetbrains-plugin-developer-conf-2025-recordings-are-now-live/",
+    "pubDate": "Tue, 11 Nov 2025 17:51:08 +0000",
+    "creator": "Elena Kerpeleva",
     "categories": [
-      "web-development",
-      "performance",
-      "python"
+      "events",
+      "livestreams",
+      "marketplace",
+      "plugins",
+      "jetbrains-marketplace",
+      "plugin-development"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "차트매매 VWAP  전략 따라해보자 / 키움증권 HTS 수식편집기",
-    "description": "영상: https://www.youtube.com/watch?v=zOiFJYV5mRo&list=WL\n\n\n\n \n이평선에 거래량을 더한 지표입니다.\n세력이 들어갈때 따라 들어가고 나오고를 선으로 볼 수 있습니다.\n거기다가 추가로\n손익비 와 자동 손절을 조합하면 안전한 트레이드가 가능할 것같습니다.\n \n추가로 배울점\n영상을 보시면 초반에 적당히 먹으면 절반은 팝니다.\n기 기술로 안전하게 투자금을 줄이고 현금을 늘릴 수 있습니다.\n \n들어가는 지점을 정확히 알 수 있다면 \n가격이 비쌀때 빠진다고 자꾸 매수하는 실수를 방지할 수 있습니다.\n \n키움증권에서 지표 추가하기\n키움에는 VWAP 이 없습니다. 국내 HTS 에서 없는곳이 많다는군요\n그래서 만들어서 써야합니다.\n영상: https://www.youtube.com/watch?v=xe8N42zyzHA&t=73s\n\n\n\n \n수식 관리자로 만듭니다.\n\n\nAA=종가;\nBB=AA*거래량;\nX1=SUM(BB,기간1);\nX2=SUM(V,기간1);\nX1/X2\n이렇게 입력했습니다.\n여러줄로 나눠서 계산할 수 있었군요\n \n추가로 스테일 수정 필요\n스케일 에서 가격을 체크하셔야 차트에 표시됩니다.\n안그러면 RSI 처럼 별도의 선으로 하단에 추가되는 엉뚱한 문제가 있군요\n \n결과물\n수식 넣고나서 바로는 다시 계산하지는 않고 주봉 일봉 바꿔줘야 다시 계산되는군요\n\n\n점선 부분이 VWAP 입니다.\n \n화이팅",
+    "title": "ReSharper C++ 2025.3: C++26 Language Support, Faster Unreal Engine Startup, and Visual Studio 2026 Compatibility",
+    "description": "We’re excited to announce that ReSharper C++ 2025.3 is here, bringing major language updates, performance improvements, and a refined UI in the upcoming Microsoft Visual Studio 2026 release. This version advances C++26 support with new language features, improves constexpr evaluation, and offers a refined Out-of-Process mode for smoother, more responsive performance. Unreal Engine developers will […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1464",
-    "pubDate": "Fri, 7 Nov 2025 00:25:01 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/rscpp/2025/11/11/resharper-cpp-2025-3/",
+    "pubDate": "Tue, 11 Nov 2025 15:48:50 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "투자",
-      "차트매매"
+      "news",
+      "releases",
+      "resharpercplusplus",
+      "c-26",
+      "constexpr",
+      "release",
+      "resharper-c",
+      "unreal-engine"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "TIGER 미국AI전력SMR ETF 출시 / OKLO SMR 에 집중 투자",
-    "description": "ETF 새로 나와서 관심을 가져봅시다..\n \n \n \n영상: https://www.youtube.com/watch?v=Oa8twgdsXmc\n\n\n\n \n \nOKLO 와 SMR 에 집중 투사하는 ETF 입니다.\n미국 주식 사느니 한국 ETF 가 양도세도 없고 좋습니다.\nAI 는 버블일 수 있으나 발전소는 남아서 오래오래 산업을 발전 시킬 것으로 보입니다.\nOPEN AI 상장할때나 2030 년에 하차하면 되지 않을까 싶군요\n늦었을때 따라 타자 테마 ETF",
+    "title": "Rider 2025.3: Day-One Support for .NET 10 and C# 14, a New Default UI, and Faster Startup",
+    "description": "Rider 2025.3 arrives alongside the .NET 10 SDK, continuing our commitment to day-one support for the latest .NET and C# features. This release brings full compatibility with .NET 10 and comprehensive support for C# 14, including extension members, extension operators, and user-defined compound assignment operators – all ready to use from the moment you upgrade […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://serverdown.tistory.com/1463",
-    "pubDate": "Thu, 6 Nov 2025 16:19:24 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/11/rider-2025-3-day-one-support-for-dotnet-10/",
+    "pubDate": "Tue, 11 Nov 2025 15:48:17 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "투자",
-      "ETF"
+      "net-tools",
+      "news",
+      "releases",
+      "rider",
+      "net-10",
+      "c-14",
+      "gamedev"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "시맨틱 캐쉬로 RAG 가속하기",
-    "description": "이 글은 사용자 질의를 시멘틱 벡터로 변환해 생성된 답을 미리 캐쉬에 저장해 놓고, 다음 유사 질의 시 관련 캐쉬 답변을 리턴하는 시맨틱 캐쉬 RAG 가속 방법을 알아본다.\n \n\n\n\n\n레퍼런스\n\nSemantic Cache: How to Speed Up LLM and RAG Applications | by Kostiantyn Ivanov | Oct, 2025 | Medium",
+    "title": "Roadmap for AI in Visual Studio (November)",
+    "description": "Today, we’re excited to share our public roadmap, which outlines the next steps in evolving Visual Studio with AI-powered agentic experiences. With every month, we aim to deliver smarter, faster, and more intuitive tools that enhance your coding experience. Disclaimer: The items outlined here represent ongoing work for the month. They are not commitments or […]\nThe post Roadmap for AI in Visual Studio (November) appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/rag.html",
-    "pubDate": "2025-11-07T02:00:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/visualstudio/roadmap-for-ai-in-visual-studio-november/",
+    "pubDate": "Wed, 05 Nov 2025 19:32:56 +0000",
+    "creator": "Rhea Patel",
+    "categories": [
+      "Copilot",
+      "GitHub Copilot",
+      "Roadmap",
+      "AI Agents",
+      "Artificial Intelligence",
+      "GitHub"
+    ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "329일차 - 간단한 게임 만들기 1일차",
-    "description": "야심차게 시작했지만 한시간반만에 막혀서 작업 종료 합니당\n \n영상: https://www.youtube.com/watch?v=b7dg3FiHD2g\n\n\n\n \n고치고 다시 오겠습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1468",
-    "pubDate": "Mon, 10 Nov 2025 23:19:05 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "인디게임"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "앱리뷰 OPlayer / 아이폰 안드로이드 미디어 재생 앱",
-    "description": "짤막 설명\n최근 아이폰에서 안드로이드로 기기를 변경했습니다.\n안드로이드가 저렴하기도 하고 각종 악세도 (에어팟 같은거) 저렴하고 좋습니다.\n그런데 안드로이드는 GoodReader 가 없어 파일을 열어보는 기능을 제대로 쓸수가 없었습니다.\n음악재생도 제대로 안되구요 \n그래서 대안을 찾다보니 이걸 쓰게 되었습니다.\n \n아이폰 / 안드로이드 에서 웹이나 FTP 파일을 업로드 다운로드 할 수 있고\n미디어를 재생할 수 있습니다.\nmkv 나 여러 영상 포맷을 지원합니다.\n저는 유료로 사서 쓰고 있는데 매우 만족하고 있습니다.\n무료용인 OPlayer Lite 도 있으니 써버고 \n기능은 동일하니 써보고 만족하면 사서 쓰시기 바랍니다.\nLite 는 쓰다보면 가끔 구매하라는 창이 뜹니다.\n닫기 버튼 누르면 쉽게 닫을 수 있습니다. \n무료로 계속 써도 크게 불편하진 않습니다.\n \n \n아이폰 사용자\n아이폰은 usb 연결한다고 파일을 보낼 수 있는게 아니기 때문에\n파일을 아이폰으로 보내는 기능이 가장 중요합니다.\n웹 브라우저나 FTP 로 파일을 보낼 수 있으니 아주 편합니다.\nPC 에서 FTP 프로그램은 잘되있는게 많아서 파일 관리를 FTP 로 하면 빠르게 여러 파일을 관리할 수 있습니다.\n \n안드로이드 사용자\n안드로이드는 USB 반 꽂으면 파일 옮기는건 쉽기 때문에 파일전송이 문제는 아니고\n영상, 음악 재생이 중요합니다.\n \n재생 시 문제점\n내가 이미 본건지 알 수 가 없습니다. 파일이 너무 많고 파일명이 길다면 파일을 제대로 구분할 수가 없습니다.\n아이폰의 GoodReader 는 아직 재생한적이 없는 파일을 녹색 점으로 알려주는데 이런건 아쉽군요\n \n음악 랜덤 재생 없다구요 ? - 있습니다.\n랜덤 재생이 없다는 유저들이 불만이 있는데 기능 있습니다.\n재생 목록 이라는 기능이 있기 때문에 폴더 전채를 재생 목록에 넣어야합니다.\n방법은 폴더에 들어가서 우측 하단에 [+] 버튼 누르면 [모두 재생] 이 있습니다.\n모드 재생 하시면 재생 화면에 화살표 꼬여있는 버튼이 있습니다. \n한곡만 플레이하는경우엔 이버튼이 없어서 없다고 느끼는 유저가 있는거 같군요\n \n저는 영상 인코딩이 별도로 안해도 되서 편하게 쓰고 있습니다.\nmov mkv 등등 이상한 포멧으로 주는 사람들이 많아서 기본 프로그램으로는 열어볼 수 없는 경우가 있어서 이 앱이 유용했습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://serverdown.tistory.com/1466",
-    "pubDate": "Mon, 10 Nov 2025 17:02:31 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "아이폰",
-      "안드로이드",
-      "앱리뷰"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Video Invisible Watermarking at Scale",
-    "description": "At Meta, we use invisible watermarking for a variety of content provenance use cases on our platforms. Invisible watermarking serves a number of use cases, including detecting AI-generated videos, verifying who posted a video first, and identifying the source and tools used to create a video. We’re sharing how we overcame the challenges of scaling [...]\nRead More...\nThe post Video Invisible Watermarking at Scale appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/04/video-engineering/video-invisible-watermarking-at-scale/",
-    "pubDate": "Tue, 04 Nov 2025 18:00:52 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Video Engineering"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "인플루언서여서가 아니라 시장이 원했던 거예요",
-    "description": "색칠 지도 사용자가 부쩍 늘고 있습니다.\n최근에 지인 두 명에게 각각 들은 이야기입니다.\n“좋겠다. 넌 인플루언서니깐 앱 홍보가 쉽잖아. 보통 사람들은 런칭해도 아무도 안 써.”\n어쩌면 많은 분들이 이 말에 끄덕이면서 현실을 오해할지도 모르겠습니다.\n일단 내가 인플루언서인가?\n그렇다면 제가 생각하는 답은 무엇이냐고요?\n알고 봤더니 시장도 그걸 원했던 것 뿐.\n색칠 지도는 제 블로그에도, 링크드인에도, 쓰레드에도 공유하기 전, 클리앙에 가장 먼저 공유했습니다.\n별생각도 없이 몇 줄 쓴 이 글에 하루 1,500 명의 사용자들이 가입을 했고…\n‘와씨… 이거 뭐야. 시장도 이걸 원하고 있었잖아?’\n가슴이 두근두근하는 순간이었습니다. 내가 제대로 짚었구나.\n이제 그 반대의 예도 들려드리고 싶습니다.\n‘인플루언서’일지도 모르는 제가 런칭한 다른 서비스가 있습니다.\n인앱택스.\n1인 개발자들이 인앱결제로 수익을 냈을 때 부가세 결제를 도와주는 프로그램.\n이 제품을 제 인플루언서 블로그와 쓰레드에 공개했습니다. 그 결과를 알려드립니다.\n카카오 로그인을 통한 가입자 10명.\n실제로 매출 자료를 입력해 본 사용자 0명.\n색칠 지도와 인앱택스는 뭐가 달랐을까요?  \n함께 읽으면 좋은 글:\n색칠 지도 - 내가 가본 우리나라",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/11/10/pmf.html",
-    "pubDate": "2025-11-10T13:37:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "[MULTI] 익스트랙션의 새 한계를 향해, 아크 레이더스",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2384",
-    "pubDate": "Sat, 08 Nov 2025 12:50:06 +0900",
-    "creator": "「RULIWEB」",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Growing Kotlin Adoption in Your Company",
-    "description": "Guest post by Urs Peter, Senior Software Engineer and JetBrains-certified Kotlin Trainer. For readers who’d like a more structured way to build Kotlin skills, Urs also leads the Kotlin Upskill Program at Xebia Academy. This is the third post in The Ultimate Guide to Successfully Adopting Kotlin in a Java-Dominated Environment, a series that follows how […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/11/growing-kotlin-adoption-in-your-company-2/",
-    "pubDate": "Wed, 05 Nov 2025 11:15:53 +0000",
-    "creator": "Alyona Chernyaeva",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Meta’s Generative Ads Model (GEM): The Central Brain Accelerating Ads Recommendation AI Innovation",
-    "description": "We’re sharing details about Meta’s Generative Ads Recommendation Model (GEM), a new foundation model that delivers increased ad performance and advertiser ROI by enhancing other ads recommendation models’ ability to serve relevant ads. GEM’s novel architecture allows it to scale with an increasing number of parameters while consistently generating more precise predictions efficiently. GEM propagates [...]\nRead More...\nThe post Meta’s Generative Ads Model (GEM): The Central Brain Accelerating Ads Recommendation AI Innovation appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/",
-    "pubDate": "Mon, 10 Nov 2025 17:00:01 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "ML Applications"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Spotify Podcast 이전하기 - BIM Insight Digest 시작",
-    "description": "2012년부터 진행했던 Podcast (BIM, CG, SW). 지금까지 Internet Archive 를 이용해 Podcast 호스팅하고 있었는 데, 최근 다시 시작해야겠다는 생각이 들어, Spotify Podcast로 이사하려 한다. 이 과정을 기록한다. \n\n\n오랫동안 무료 호스팅으로 애용했던 Internet Archive\n\nMotivation\n2021년까지 지속했던 Podcast인데, 특히, BIM을 중심으로 진행했었다. 출발은 본인이 저술한 책을 좀 더 알기 쉽게 설명해, 출판사에 조금이나마 도움을 주고자 시작했다. 이게 주객이 전도되어 무려 십년 이상 방송하게 되었다. 개인적으로 알고 있던 것을 다시 정리해 방송하니, 스스로 자극되고, 공부되는 듯한 느낌이 좋았다. 코로나 쯤 너무 오래했고, 하고 싶은 말은 다 한 것 같다는 생각이 들어, 마지막 방송 이후로 지금까지 방송을 쉬었다.\n\n\nBIM digest podcast\n\n그러다, 최근 BIM을 하시는 분들 중에 이론적으로만 접근하시거나, 관리자 위치에 계신 분들이 BIM에 대해 잘못된 이론적 이해만으로 위험한? 이야기를 하고 계시는 것을 보고 다시 Podcast를 해야 하겠다는 생각이 들었다. \n\n\n이론과 현실의 차이\n\nTransfer\n스포티파이 팟캐스트 채널 개설은 매우 쉽다. 호스팅도 자체 제공해 준다. 순서는 다음과 같다. \nTools to manage and grow your podcast - Spotify for Creators 에 가입하고, 새로운 쇼를 만들어 팟캐스트 채널 기본 정보를 입력한 후, 첫 에피소스 방송 녹음파일을 업로드하면 된다. \n\n\n시간이 지나면, 다양한 Podcast 채널(Apple, Google 등)에 본인 방송이 검색으로 표출될 것이다.\n\n\nAgain, Podcast\n약 15년 동안 Podcast를 하다 보니, 호스팅 플랫폼이 크게 3번 바뀌면서 관리가 쉽지 않았는 데, 스포티파이는 빅테크 기업이니 오래가겠지란 생각으로 시작한다. \n\n\n당연하다고 생각했던 것들이 시간이 지나면서 잊혀지고, 잘못 알고 있는 사람들이 조금씩 많아질 때, 방송을 하고 싶은 모티브가 되는 것 같다. 몇 년 간 쉬었으니 이제 천천히 다시 시작!",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/spotify-podcast.html",
-    "pubDate": "2025-11-08T07:28:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 15,
     "imageUrl": "",
     "title": "Azure VM의 Ubuntu Server 라이선스 주의 사항",
     "description": "오랜만에 주말에 여유를 부리나 했더니 갑자기 폰에 신용카드 해외 결제 알림이 떠서 긴장하며 내역을 확인했습니다.\n결제 알림은 Azure 사용 요금의 결제 였습니다. 하지만 나의 경우는 충분한 Azure 크레딧이 있어서 등록해 놓은 신용카드로 결제될 일은 없었습니다. 결제의 내용을 확인하는 과정에서 내가 간과한 부분을 확인하게 되었고, 이 내용은 글로남기는게 좋겠다고 생각했습니다.\n \n신용카드로 결제된 내역이 궁금해 청구 보고서를 내려 받아 확인 해봤습니다.\n다른 비용은 모두 크레딧으로 차감 되었으나 다음 그림의 빨간 상자에 보이는 Azure Marketplace Service 항목의 33,951원이 청구된 것이었습니다.\n\n\n다시, 구독의 [비용 관리] 섹션의 [비용 분석] 메뉴에서 청구된 월의 <청구서 세부 정보> 항목을 선택해 해당 부분을 자세히 확인했더니, 다음 그림의 빨간 상자에 보이는 Ubuntu Server 20.04 LTS의 라이선스 비용이었습니다.\n\n\n \nAzure에서 리눅스 VM을 배포하면서 거의 습관적으로 Ubuntu Server 20.04 LTS를 사용할때가 많습니다. \n최근에는 Ubuntu Server 22.04 LTS가 많이 사용되는데, Azure 마켓플레이스에서 Ubuntu Server 22.04 LTS는 다음 그림처럼 라이선스가 무료로 표시되어 있습니다. \n\n\n \n당연히 Ubuntu Server 20.04 LTS도 무료 라이선스라고 안이하게 생각한 저의 잘못이었음을 뒤늦게 깨달았습니다. \n다음 그림에서 보인 것처럼 Ubuntu Server 20.04 LTS는 공급자가 달랐고, 유료 라이선스 정책으로 시간당 0.045$를 부과하고 있었기에, 이 부분은 마이크로소프트의 Azure 크레딧으로 차감할 수 없었던 것입니다.\n \n\n\n \n돈을 지불한 경험은 오래가지요.\n여러분은 저의 경험을 간접 경험하여 비용을 아끼세요.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://www.dokyun.pe.kr/381",
+    "link": "https://www.dokyun.pe.kr/381",
     "pubDate": "Sun, 9 Nov 2025 20:26:04 +0900",
     "creator": "강철 벼룩",
     "categories": [
@@ -212,5 +134,117 @@
       "Linux",
       "UbuntuServer20.04"
     ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "생계비계좌로 월 250만 원이 압류 걱정 없이 보호돼요",
+    "description": "채무자의 기본적인 생활을 더 안정적으로 보장하기 위한 제도에요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-policies-53",
+    "pubDate": "Fri, 07 Nov 2025 07:14:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Building AI Agents in Kotlin – Part 1: A Minimal Coding Agent ",
+    "description": "Building agents is weird. You’re not writing code that does things. You’re writing code that gives an LLM the ability to do things, and the LLM decides what to do. What is an agent? An agent is an LLM that calls your functions in a loop until it decides the task is complete. That shift […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/11/building-ai-agents-in-kotlin-part-1-a-minimal-coding-agent/",
+    "pubDate": "Tue, 11 Nov 2025 08:35:38 +0000",
+    "creator": "Fatimazahra El Akkary",
+    "categories": [
+      "tutorials",
+      "ai",
+      "ai-agents"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "DeepSeek OCR 기능 및 기술",
+    "description": "이 글은 DeepSeek OCR 기능 및 주요 기술을 정리한다. \n\n\nDeepseek OCR 실행 예시\n\n\n머리말\nDeepSeek-OCR은 이미지나 PDF 문서를 구조화된 마크다운(Markdown) 텍스트로 변환하기 위해 설계된 30억(3B) 매개변수 규모의 비전-언어 모델(VLM)이다. 이는 중국의 AI 기업 DeepSeek AI에 의해 개발되었으며, 이 기업은 DeepSeek Coder 및 LLM 시리즈와 같은 고성용 오픈웨이트 모델을 저비용으로 개발하여 주목받은 바 있다.\n\n\n전통적인 OCR(광학 문자 인식) 시스템은 문자를 감지하고 단어를 조립한 후 구조를 추론하는 순차적 방식을 사용한다. 이로 인해 복잡한 테이블, 양식, 또는 다단 레이아웃(layout)을 정확하게 인식하는 데 한계가 있었다. DeepSeek-OCR은 이러한 접근 방식과 근본적으로 차별화된다. 이 모델은 전체 문서 페이지를 단일한 시각적 컨텍스트로 취급하며, 레이아웃을 인식하는 비전-언어 과제로 문제를 재정의한다.\n\n\n핵심 기술\n딥시크OCR은 '컨텍스트 광학 압축(contexts optical compression)'을 지원한다. 이 모델은 DeepEncoder라는 시각 인코더와 DeepSeek3B-MoE라는 언어 디코더로 구성된다. \n\n\n딥시크OCR 구조\n\n\nDeepEncoder는 SAM(Segment Anything Model)과 CLIP의 개념을 활용하여 1024x1024 픽셀 이미지에서 생성될 수 있는 수천 개의 시각적 패치(patch)를 단 수백 개의 핵심적인 '비전 토큰(vision token)'으로 압축한다. 이 압축된 시각 정보는 텍스트 정보를 픽셀로 인코딩하는 것이 정보 밀도 측면에서 더 효율적이라는 통찰에 기반한다.\n\n\n이 압축 기술을 통해 10배의 압축률에서도 97% 수준의 텍스트 복원 정확도를 달성하며, 기존 방식 대비 7배에서 20배 적은 토큰으로 전체 문서를 표현할 수 있다. 결과적으로 LLM 디코더의 제한된 컨텍스트 윈도우(context window) 내에서도 긴 문서 전체의 구조를 이해하고 처리하는 것이 가능해진다.\n\n\nDeepSeek-OCR은 속도와 정확도를 조절할 수 있는 다양한 프리셋(preset)을 제공한다. Tiny, Small, Base, Large 모드는 입력 이미지 해상도를 조절하여 일반적인 문서 처리에 사용된다. \n\n\n성능\n성능 측면에서 DeepSeek-OCR은 OmniDocBench와 같은 표준 벤치마크에서 Tesseract, PaddleOCR과 같은 전통적인 오픈소스 OCR 엔진의 성능을 크게 능가한다. 특히 테이블 및 복잡한 구조 인식에서 강점을 보이며, Google Document AI와 같은 상용 API와 경쟁 가능한 수준의 정확도를 제공한다. 고성능 GPU(A6000 등) 환경에서는 페이지당 1초 미만의 추론 속도를 달성할 수 있다.\n\n\n운영 환경에서 이 모델은 약 6-7GB의 가중치(bf16 기준)를 가지며, CPU 실행도 가능하지만 실질적인 성능을 위해 8GB에서 12GB VRAM을 갖춘 GPU가 권장된다.\n\n\n프로덕션 환경에서의 효율적인 서빙을 위해 vLLM이 공식적으로 지원된다. vLLM은 PagedAttention이라는 핵심 기술을 사용하는 고성능 LLM 추론 엔진이다. PagedAttention은 운영체제의 가상 메모리 페이징과 유사하게, KV 캐시(Key-Value Cache)를 비연속적인 소규모 '블록(block)' 단위로 분할하여 관리한다. 이는 기존 서빙 방식의 비효율적인 메모리 과다 할당(over-reservation) 및 단편화 문제를 해결하여, 메모리 사용량을 최적화하고 연속적인 배치 처리를 통해 전체 처리량(throughput)을 극대화한다.\n\n\n의존성\n구현 시에는 `pdf2image` 라이브러리(poppler 의존성)를 사용하여 PDF를 페이지별 PNG 이미지로 변환하는 전처리가 필요하다. 이때 입력 DPI(150-180은 속도, 220 이상은 품질) 설정이 결과물의 품질과 속도 간의 중요한 절충점이 된다. 모델 로드 시에는 `trust_remote_code=True` 플래그가 필요하며, `torch.bfloat16` 타입을 사용하여 메모리 사용량을 줄일 수 있다. 추론은 OCR 작업의 결정론적(deterministic) 특성을 고려하여 `do_sample=False`로 설정하는 것이 일반적이다.\n\n레퍼런스\n\nHow to run DeepSeek-OCR ?. DeepSeek-OCR is a newly released… | by Harishkumar Pillai | Oct, 2025 | Stackademic\ndeepseek-ai/DeepSeek-OCR · Hugging Face\nWhat Makes DeepSeek OCR So Powerful? | LearnOpenCV",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/deepseek-ocr.html",
+    "pubDate": "2025-11-07T01:52:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "목표 지연",
+    "description": "멘토링을 종종 하다보면 \"좋은 회사에 합격하면 그때 컨퍼런스에 나가서 발표를 하는 것이 목표\" 라는 이야기를 듣는다.\n컨퍼런스에서 발표를 하는 것은 개발자로서는 좋은 동기부여가 된다.\n그래서 적극 지지하는 편인데,\n앞에 붙은 전제 조건인, 좋은 회사에 합격해야만 한다가 마음에 걸린다.\n그래서 \"왜 좋은 회사에 합격해야만 하는건가요?\" 라고 질문하면, \"대규모 트래픽, 대용량 데이터 처리, 서비스 회사의 경험이 없으면 사람들에게 도움이 되는 지식을 전달할 수 없을 것 같다\" 라는 답변을 가장 많이 듣는다.\n승려와 수수께끼에는 다음의 이야기가 있다.\n추측컨대 레니는 아버지와 같은 운명을 피하고 싶은 생각에 잔인한 타협안을 받아들였을 것이다.\n오래도록 일하고 나서야 잠깐 동안 하고 싶은 일을 할 수 있는 운명.\n이런 운명을 표현하는 공식적인 단어는 없다.\n하지만 보험회사에서 일한 경력으로 볼 때, 레니라면 이 운명을 '미뤄 놓은 인생 설계(Deferred Life Plan)` 라고 부를 것 같았다.\n이 보험 상품의 혜택을 완벽하게 받으려면, 인생을 두 부분으로 확실히 나눠야만 한다.\n1단계: 해야만 하는 것을 해라.\n(그렇게 미룬 후, 궁극적으로)\n2단계: 자신이 하고 싶은 일을 한다.\n우리는 어린 시절부터 비슷한 말을 수 없이 들으며 자란다.\n'뛰기 전에 걷는 것부터 배워라' '첫 술에 배부르랴' '젊어 고생은 사서도 한다' '인내는 쓰지만 그 열매는 달다' 등...\n...\n실리콘밸리에서도 '미뤄 놓은 인생 설계'의 관점대로 사는 방식이 유행이다.\n사람들은 대부분 빨리 부자가 되는 게 1단계를 가장 빨리 통과하는 방법이라고 생각한다.\n...\n비즈니스 아이디어 대부분은 자금 지원을 받지 못한다.\n자금을 지원받은 기업들, 즉 아주 똑똑한 사람들이 아이디어를 충분히 검토한 결과 투자할 만한 가치가 있다는 판정을 받은 기업들 조차 대부분은 결국 실패한다.\n운이 좋았던 몇몇 사람들도 2단계로 넘어가면 목적의식과 방향감각을 잃는다.\n본인이 '정말' 하고 싶은 일이 뭔지를 생각해 본 적이 없거나 1단계에서 너무 많은 시간과 정신력을 할애한 나머지, 어떤 비전으로 나아가야 할지 길을 잃어버리기 때문이다.\n나도 커뮤니티를 통해 성장한 경우라서 커뮤니티에서의 활동을 지향하는 것에 적극 지지한다.\n이 목표는 대단히 훌륭하고, 업계 전체에 항상 이렇게 커뮤니티에 기여하고자 하는 분들이 계시는건 좋은 일이고 응원한다.\n근데 하고 싶은 것을 하기 위해 사전 조건을 달성하는 것에 대해서는 항상 우려를 표한다.\n어떤 조건을 달성하고 나서 원하는 것을 실행하는 것에는 크게 2가지 문제가 있다.\n조건을 달성해도 원했던 목표를 실행에 옮기지 못할 수도 있다.\n하고 싶었던 것이 진짜로 원했던 것이 맞는지 확인하는 것이 너무 늦다\n큰 회사에 간다고 컨퍼런스에서 발표할 주제가 생기느냐? 라고 한다면 전혀 아니다.\n문제를 해결하는 방법이 거의 공식화 되어있는 것이 많다.\n그리고 이미 많은 시니어들이 그 문제를 해결한 경험이 있어, 주니어인 경우엔 본인이 직접 해결하는 경험을 쌓기가 쉽지 않다.\n몇년 간 큰 회사로 이직하기 위해 준비하고, 큰 회사에 가서 발표할만한 문제를 해결하는 경험을 얻기 위해 또 시간을 보내고, 그렇게 한참 시간이 지나고서 그때도 컨퍼런스 발표가 하고 싶어질까?\n혹은 그때가서 발표를 해봤더니 그렇게 재밌지 않으면 그땐 어떡할까?\n내가 하고 싶은 일이 있다면, 그건 즉시 실행해봐야 한다.\n이를테면 좋은 서비스 회사에 합격하고 나서 컨퍼런스 발표를 시도하는 것이 아니라, 현재 회사안에서 동료들을 대상으로 발표를 할 수도 있고 동아리, 친구들 앞에서도 내가 고민했던 내용들을 정리해서 공유하는 시간을 가져도 좋다.\n현재 회사에서도 내 나름대로 고민한게 있다면 그걸로 여러 작은 컨퍼런스에서 발표를 시도해보는 것이다.\n꼭 대형 컨퍼런스만이 컨퍼런스는 아니다.\n주니어 개발자분들 혹은 아주 많은 제약이 있는 조직에서의 경험을 필요로 하는 컨퍼런스들도 많다.\n젋은 개발자들이 발표하는 유스콘이나 AWS 한국 사용자 모임에서 운영하는 여러 소모임들, 요즘 활발하게 공유되는 타입스크립트 백엔드 모임 등등 다양한 주제로 많다.\n현재 내가 처해있는 상황에서 내 나름대로 고민하고 해결한 방법은 뭐든 타인에게 도움이 되는 주제다.\n큰 회사들의 경험이 필요한 사람들도 있고, 작은 조직에서의 경험, 취준생으로서의 경험, 주니어 개발자로서의 경험, B2B 서비스에서의 경험 등 다양한 경험을 필요로 하는 조직과 개발자들이 세상에 많다.\n하고 싶은 것이 있다면 어떤 조건을 달성하지 않더라도 바로 실행에 옮기는 것이 좋다.\n목표를, 하고 싶은 것을 지연시키지 말자.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/853",
+    "pubDate": "Fri, 7 Nov 2025 09:23:16 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "AWS 사용자 모임",
+      "개발자",
+      "유스콘",
+      "컨퍼런스 발표",
+      "타입스크립트 백엔드 모임"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "토스, 마케팅 지표를 새롭게 보다… 토스애즈 ‘광고 측정 리포트’ 공개",
+    "description": "광고의 진짜 효과를 보는 방법",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/42357",
+    "pubDate": "Tue, 11 Nov 2025 10:08:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "AI 에이전트 프레임웍의 불편한 진실",
+    "description": "이 글은 AI 에이전트 프레임웍의 불편한 진실을 경험을 반영해 이야기해보도록 한다. \n\n\n에이전트의 기반 LLM의 근본적 한계. 환각\nAI 에이전트 프레임워크는 근본적으로 그 기반이 되는 대규모 언어 모델(LLM)의 성능에 종속된다. 에이전트의 자율적 행동, 계획 수립, 도구 사용 결정은 모두 LLM의 추론 능력에서 비롯된다. 그러나 LLM은 '환각(Hallucination)'이라는 고질적인 한계를 지닌다. 환각은 모델이 사실에 근거하지 않거나 맥락과 무관한 정보를 확신을 가지고 생성하는 현상이다. 에이전트 시스템에서 이러한 환각은 단순한 오답을 넘어, 존재하지 않는 API를 호출하려 하거나, 잘못된 사실을 기반으로 후속 계획을 수립하는 등 치명적인 오류로 이어진다.\n\n\n\nRAG는 만능 도구가 아니다.\n검색 증강 생성(RAG)은 에이전트가 외부 지식에 접근하도록 돕는 핵심 기술로 사용되지만, 이는 만능 해결책이 아니다. RAG 시스템의 효율성은 검색(Retrieval)과 생성(Generation) 두 단계의 품질에 모두 의존한다. 검색 단계에서 벡터 데이터베이스가 사용자의 복잡한 의도와 무관하거나 오래된 정보를 반환할 경우, LLM은 부정확한 컨텍스트를 기반으로 응답을 생성하게 된다. 또한, 원본 문서를 의미론적으로 적절하게 분할(chunking)하는 과정 자체가 복잡한 엔지니어링 문제이다. RAG는 검색된 정보가 LLM의 환각을 억제할 것이라 기대되지만, 모델이 제공된 컨텍스트를 무시하거나 잘못 해석하여 여전히 환각을 일으키는 경우는 빈번하게 발생한다.\n\n\n블랙박스화된 프레임웍. 간단한 질문 하나로 인해 발생되는 일들?\n최신 에이전트 프레임워크는 높은 수준의 추상화를 제공하여 개발자가 복잡한 로직 없이도 에이전트를 구현할 수 있도록 지원한다. 그러나 이러한 추상화는 시스템을 '블랙박스(Black Box)'로 만든다. 사용자의 간단한 질의 하나를 처리하기 위해, 프레임워크 내부에서는 수많은 연쇄 반응이 일어난다. 여기에는 질의 분석을 위한 LLM 호출, 적절한 도구 선택을 위한 추론, 도구 입력값 포맷팅, 실제 도구 실행(API, DB 조회), 결과 파싱, 그리고 최종 응답 생성을 위한 또 다른 LLM 호출 등이 포함된다. 이 과정 중 어느 한 단계에서 오류가 발생할 경우, 추상화된 계층에 가려져 문제의 근본 원인을 파악하고 디버깅하는 것은 극도로 어려워진다.\n\n\n가려져 있는 수많은 프롬프트\n\n\n토큰 사용은 숨겨져 있다.\n에이전트 프레임워크의 블랙박스 특성은 예측 불가능한 비용 문제로 직결된다. 에이전트가 자율적으로 작동하며 ReAct(Reason-Act) 프롬프트나 CoT(Chain of Thought)와 같은 추론 과정을 거칠 때, 사용자가 인지하지 못하는 수많은 내부적 LLM 호출이 발생한다. 사용자는 단 하나의 질의를 입력했지만, 시스템은 계획 수립, 도구 사용, 중간 평가, 최종 응답 생성을 위해 여러 차례 LLM API와 통신하며 막대한 양의 토큰을 소모한다. 이러한 '숨겨진 토큰 사용량'은 시스템의 운영 비용을 예측 불가능하게 만들며, 프로토타입 단계에서는 드러나지 않았던 비용 문제가 실제 서비스 운영 시 심각한 장애물로 작용한다.\n\n\n\n멀티 에이전트과 가난한 인프라의 충돌\n최근의 에이전트 연구는 단일 에이전트를 넘어, 여러 전문화된 에이전트가 협업하는 '멀티 에이전트(Multi-Agent)' 시스템으로 확장되고 있다. 그러나 이러한 복잡한 시스템은 막대한 계산 자원과 정교한 인프라를 요구한다. 각 에이전트는 독립적인 추론을 위해 LLM을 호출해야 하며, 에이전트 간의 통신과 조율(orchestration) 과정 역시 추가적인 LLM 호출을 유발한다. 이는 시스템 전체의 지연 시간(latency)을 기하급수적으로 증가시킨다. 소규모 기업이나 개발자가 보유한 제한된 '빈약한 인프라'로는 이러한 복합적인 상호작용을 감당하기 어렵다. 결과적으로, 멀티 에이전트 시스템은 개념적으로는 강력하지만, 극심한 속도 저하와 자원 병목 현상으로 인해 실질적인 프로덕션 환경에 적용되기 어려운 한계에 부딪힌다.\n\n\n누가 돈을 벌어가나?\n현재 AI 에이전트 생태계의 경제적 구조를 살펴보면, 수익은 특정 주체에 집중되는 경향이 있다. 가장 큰 수익은 LLM API를 제공하는 거대 기술 기업(예: OpenAI, Anthropic, Google)이 창출한다. 에이전트 프레임워크가 복잡한 내부 추론을 위해 더 많은 토큰을 소모할수록, 이들 모델 공급자의 매출은 증가한다. 또한, LangChain(LangSmith)이나 LlamaIndex와 같이 에이전트 개발 프레임워크를 제공하는 기업들은 개발 과정을 단순화하는 도구와 관찰 가능성(observability) 솔루션, 엔터프라이즈 지원을 유료화하며 수익을 창출한다. 반면, 이러한 도구를 활용하여 실제 애플리케이션을 구축하려는 다수의 개발자나 기업은 높은 API 비용과 확장성의 한계라는 현실적 장벽에 직면하게 된다.\n\n\n마무리\n결론적으로, AI 에이전트 프레임워크는 자율적으로 작업을 수행하는 AI라는 매력적인 비전을 제시하지만, 그 이면에는 불편한 진실이 존재한다. 현재의 에이전트는 기반 LLM의 환각 문제, RAG 시스템의 취약성, 프레임워크의 불투명성, 그리고 통제 불가능한 토큰 비용이라는 근본적인 한계에 직면해 있다. 이러한 문제들은 에이전트 시스템을 실험적인 프로토타입 수준에서 안정적인 프로덕션 서비스로 이전하는 데 가장 큰 장애물로 작용한다. 진정한 자율 에이전트의 구현은 프레임워크의 발전뿐만 아니라, LLM 자체의 신뢰성 향상과 이를 뒷받침할 수 있는 성숙한 인프라스트럭처의 확보를 전제로 한다.\n\n\n레퍼런스\n\nWe Spent $47K on AI Agents in Production. Here's What Broke. | Towards AI\nPost | LinkedIn\nAgent-Washing 101: The Hidden Risk in AI Automation | LinkedIn\n\n부록: 숨겨져 있는 토큰 사용",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/ai.html",
+    "pubDate": "2025-11-07T01:49:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Visual Studio 2026 is here: faster, smarter, and a hit with early adopters",
+    "description": "Dear developers, We’re thrilled to announce that Visual Studio 2026 is now generally available! This is a moment we’ve built side by side with you. Your feedback has helped shape this release more than any before. Since the introduction of the Insiders Channel in September, more developers have downloaded and tested this preview than any […]\nThe post Visual Studio 2026 is here: faster, smarter, and a hit with early adopters appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-2026-is-here-faster-smarter-and-a-hit-with-early-adopters/",
+    "pubDate": "Tue, 11 Nov 2025 16:08:47 +0000",
+    "creator": "Mads Kristensen",
+    "categories": [
+      "Visual Studio",
+      "Announcement",
+      "Release",
+      "Visual Studio 2026"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "코딩 없이도 앱이 탄생한다! 바이브코딩",
+    "description": "소프트웨어 개발에 대한 지식이 없는 사람들도 이제는 앱, 웹 서비스, 프로토타입을 빠르게 만들 수 있는 시대가 도래했습니다. 최근 뜨는 개념이 바이브코팅이 바로 그 중심에 있어요. 스타트업 창업자에게 바이브코딩은 기술 진입장벽을 낮추고, 초기 제품 출시 시간을 단축하며, 소수인원이나 혼자서도 사업을 시작 할 수 있게 하는 강력한 수단입니다. 본 글에서는 바",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/313",
+    "pubDate": "Mon, 10 Nov 2025 03:45:23 GMT",
+    "creator": "고명환",
+    "categories": []
   }
 ]
