@@ -2,162 +2,52 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Azure VM의 Ubuntu Server 라이선스 주의 사항",
-    "description": "오랜만에 주말에 여유를 부리나 했더니 갑자기 폰에 신용카드 해외 결제 알림이 떠서 긴장하며 내역을 확인했습니다.\n결제 알림은 Azure 사용 요금의 결제 였습니다. 하지만 나의 경우는 충분한 Azure 크레딧이 있어서 등록해 놓은 신용카드로 결제될 일은 없었습니다. 결제의 내용을 확인하는 과정에서 내가 간과한 부분을 확인하게 되었고, 이 내용은 글로남기는게 좋겠다고 생각했습니다.\n \n신용카드로 결제된 내역이 궁금해 청구 보고서를 내려 받아 확인 해봤습니다.\n다른 비용은 모두 크레딧으로 차감 되었으나 다음 그림의 빨간 상자에 보이는 Azure Marketplace Service 항목의 33,951원이 청구된 것이었습니다.\n\n\n다시, 구독의 [비용 관리] 섹션의 [비용 분석] 메뉴에서 청구된 월의 <청구서 세부 정보> 항목을 선택해 해당 부분을 자세히 확인했더니, 다음 그림의 빨간 상자에 보이는 Ubuntu Server 20.04 LTS의 라이선스 비용이었습니다.\n\n\n \nAzure에서 리눅스 VM을 배포하면서 거의 습관적으로 Ubuntu Server 20.04 LTS를 사용할때가 많습니다. \n최근에는 Ubuntu Server 22.04 LTS가 많이 사용되는데, Azure 마켓플레이스에서 Ubuntu Server 22.04 LTS는 다음 그림처럼 라이선스가 무료로 표시되어 있습니다. \n\n\n \n당연히 Ubuntu Server 20.04 LTS도 무료 라이선스라고 안이하게 생각한 저의 잘못이었음을 뒤늦게 깨달았습니다. \n다음 그림에서 보인 것처럼 Ubuntu Server 20.04 LTS는 공급자가 달랐고, 유료 라이선스 정책으로 시간당 0.045$를 부과하고 있었기에, 이 부분은 마이크로소프트의 Azure 크레딧으로 차감할 수 없었던 것입니다.\n \n\n\n \n돈을 지불한 경험은 오래가지요.\n여러분은 저의 경험을 간접 경험하여 비용을 아끼세요.",
+    "title": "Open Source Is Good for the Environment",
+    "description": "Most people have heard of open-source software. But have you heard about open hardware? And did you know open source can have a positive impact on the environment? On this episode of the Meta Tech Podcast, Pascal Hartig sits down with Dharmesh and Lisa to talk about all things open hardware, and Meta’s biggest announcements [...]\nRead More...\nThe post Open Source Is Good for the Environment appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.dokyun.pe.kr/381",
-    "pubDate": "Sun, 9 Nov 2025 20:26:04 +0900",
-    "creator": "강철 벼룩",
+    "link": "https://engineering.fb.com/2025/11/14/production-engineering/open-source-is-good-for-the-environment/",
+    "pubDate": "Fri, 14 Nov 2025 20:54:14 +0000",
+    "creator": "Unknown",
     "categories": [
-      "Azure &amp; Windows/Azure",
-      "azure",
-      "License",
-      "Linux",
-      "UbuntuServer20.04"
+      "Data Center Engineering",
+      "ML Applications",
+      "Open Source",
+      "Production Engineering",
+      "Meta Tech Podcast"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "The Go Ecosystem in 2025: Key Trends in Frameworks, Tools, and Developer Practices",
-    "description": "Go turns 16 this year. To celebrate this milestone, we have taken a closer look at the latest Developer Ecosystem Survey results and examined the evolution of the Go ecosystem over the past five years. According to JetBrains Data Playground, 2.2 million professional developers use Go as their primary programming language – twice as many […]",
+    "title": "코딩 없이도 앱이 탄생한다! 바이브코딩",
+    "description": "소프트웨어 개발에 대한 지식이 없는 사람들도 이제는 앱, 웹 서비스, 프로토타입을 빠르게 만들 수 있는 시대가 도래했습니다. 최근 뜨는 개념이 바이브코팅이 바로 그 중심에 있어요. 스타트업 창업자에게 바이브코딩은 기술 진입장벽을 낮추고, 초기 제품 출시 시간을 단축하며, 소수인원이나 혼자서도 사업을 시작 할 수 있게 하는 강력한 수단입니다. 본 글에서는 바",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2025/11/10/go-language-trends-ecosystem-2025/",
-    "pubDate": "Mon, 10 Nov 2025 09:24:35 +0000",
-    "creator": "Elena Ufliand",
-    "categories": [
-      "goland",
-      "golang"
-    ]
+    "link": "https://brunch.co.kr/@@LOc/313",
+    "pubDate": "Mon, 10 Nov 2025 03:45:23 GMT",
+    "creator": "고명환",
+    "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "온라인 쇼핑 실패 이제 그만! 2025년 AI 가상 피팅 '나노 바나나'로 해결하는 옷 고민",
-    "description": "온라인 쇼핑의 흔한 고민, '이 옷이 나에게 어울릴까?' 이제는 끝!  최신 AI 기술이 탑재된 가상 피팅 앱 '나노 바나나'로 스타일링 실패 없이 똑똑하게 쇼핑하는 방법을 알려드려요. 개인 맞춤 AI 스타일리스트부터 사실적인 가상 착용까지, '나노 바나나'의 모든 것을 파헤쳐 보세요.\n\n\n혹시 온라인에서 옷을 구매할 때마다 한숨을 쉬었던 경험 있으신가요? 예쁜 모델이 입고 있는 옷은 멋져 보이지만, 막상 내가 입으면 왠지 모르게 어색하거나 기대했던 핏이 나오지 않아 실망했던 기억이 다들 있으실 겁니다. 사이즈 실패는 물론이고, 나에게 어울리는 컬러나 디자인이 아닐까 봐 걱정만 하다가 장바구니에 담아둔 옷들을 결국 구매하지 못하는 경우도 많죠. 이런 고민들 때문에 소중한 시간과 돈을 낭비하고 계셨다면, 이제 그럴 필요가 없어졌어요! 혁신적인 AI 기술로 무장한 가상 피팅 앱 '나노 바나나'가 여러분의 옷 고민을 말끔히 해결해 줄 준비를 마쳤으니까요.\n오늘은 '나노 바나나'가 어떻게 우리의 쇼핑 경험을 완전히 바꿔놓을지, 그 놀라운 기능들과 함께 앱을 스마트하게 활용하는 방법을 자세히 소개해 드릴게요. 더 이상 온라인 쇼핑 실패는 없을 거예요!\n✨ '나노 바나나 가상 착용'이란 무엇일까요?\n'나노 바나나 가상 착용'은 단순히 온라인에서 찾은 옷을 내 사진 위에 입혀보는 기능을 넘어섭니다. 이 앱은 개인 맞춤형 AI 스타일리스트 역할을 톡톡히 해내는 스마트한 가상 피팅 솔루션이라고 할 수 있어요. 여러분의 사진 한 장만 있으면 AI가 사용자의 체형과 개인적인 분위기를 섬세하게 분석하고, 다양한 상황에 딱 맞는 스타일을 놀라울 정도로 정확하게 추천해 줍니다.\n온라인 쇼핑 중에 마음에 드는 옷을 발견했을 때, 더 이상 망설일 필요가 없습니다. 구매 버튼을 누르기 전에 '나노 바나나'에 내 사진을 불러와 직접 입혀보며 마치 실제 옷을 입어본 듯한 사실적인 착용 모습을 미리 확인해볼 수 있죠. 이제 옷장 가득 후회만 남는 쇼핑은 잊고, '나노 바나나'와 함께라면 성공적인 온라인 쇼핑이 현실이 됩니다.\n  2025년 AI 기술의 정수: '나노 바나나'는 최신 딥러닝 기술과 컴퓨터 비전 기술을 결합하여, 사용자의 체형을 정확하게 인식하고 옷의 재질과 핏감을 실감 나게 구현합니다. 단순한 이미지 합성이 아닌, 실제와 같은 가상 피팅을 가능하게 하는 것이죠.\n  '나노 바나나'의 놓칠 수 없는 핵심 기능 4가지\n1. 내 전담 AI 스타일리스트: 똑똑한 'AI 추천 옷장'\n아침마다 '오늘은 뭘 입지?' 하고 옷장 앞에서 한참을 서성였던 경험, 다들 있으실 거예요. 중요한 면접이나 특별한 데이트를 앞두고 '어떤 옷을 입어야 할까?' 고민하는 것도 마찬가지죠. 이제는 이런 고민을 '나노 바나나'에게 맡겨보세요! 앱의 'AI 추천 옷장'에 여러분의 사진을 올리고, '결혼식 하객룩', '편안한 카페 나들이', '중요한 비즈니스 미팅' 등 옷이 필요한 상황을 입력하기만 하면 됩니다.\n\n\n그러면 AI가 여러분의 체형과 분위기, 그리고 입력한 상황에 딱 맞는 완벽한 착장 두 가지를 제안해 줍니다. 머리부터 발끝까지 전체적인 스타일링을 추천해 주니, 마치 나만을 위한 전담 스타일리스트가 생긴 듯한 기분을 느낄 수 있을 거예요. 어떤 옷을 어떻게 조합해야 할지 막막할 때 정말 큰 도움이 된답니다.\n2. 나만의 온라인 옷장 만들기: '나만의 옷장' 기능\n웹 서핑을 하다가 우연히 마음에 쏙 드는 옷을 발견하셨나요? 더 이상 스크린샷만 찍어두고 잊어버리지 마세요! '나노 바나나'에서는 맘에 드는 옷 이미지를 마우스로 끌어 '나만의 옷장' 영역에 쏙 넣어두거나, 이미지를 복사(Ctrl+C)해서 붙여넣기(Ctrl+V)만 해도 아이템이 자동으로 추가됩니다.\n이렇게 손쉽게 모은 아이템들로 나만의 디지털 옷장을 가득 채울 수 있습니다. 언제든지 '나만의 옷장'에 저장된 아이템들을 불러와 가상으로 입어보며 새로운 조합을 시도하고, 나만의 개성 넘치는 스타일을 마음껏 실험해 볼 수 있죠. 패션 잡지에서 본 멋진 코디도 내 옷장 아이템으로 바로 시뮬레이션해볼 수 있다는 사실!\n3. 놀랍도록 사실적인 가상 피팅: '추가하기' & '교체하기' 모드\n'나노 바나나'의 진정한 매력은 바로 실제 옷을 입은 듯한 리얼한 가상 피팅 기능에 있습니다. 옷의 주름, 재질감, 몸에 붙는 핏까지 섬세하게 구현되어 시각적인 만족도가 매우 높아요. 특히 두 가지 모드를 통해 더욱 정교한 스타일링이 가능합니다.\n'추가하기' 모드: 이미 입고 있는 티셔츠 위에 새로운 재킷을 걸치거나, 드레스 위에 예쁜 목걸이를 더하는 것처럼, 기존 의상 위에 다른 아이템을 자연스럽게 레이어링할 수 있습니다. 겹쳐 입는 스타일링도 문제없어요.\n'교체하기' 모드: 입고 있던 청바지를 새로운 디자인의 스커트로 바꾸거나, 상의를 다른 컬러의 블라우스로 교체하는 등, 비슷한 종류의 아이템을 감쪽같이 교체하여 완전히 다른 분위기의 스타일을 손쉽게 연출할 수 있습니다.\n⚠️ 주의사항: 가상 피팅 시 내 사진의 포즈와 의류 아이템의 각도가 완벽하게 일치하지 않을 수 있습니다. 하지만 AI가 최대한 자연스럽게 합성해주므로, 전체적인 분위기와 핏을 확인하는 데는 전혀 문제가 없습니다!\n4. 상황에 몰입감을 더하는 배경 자동 변경\n'나노 바나나'는 단순한 가상 피팅을 넘어선 몰입감을 선사합니다. 만약 AI가 여러분에게 '해변 휴가' 룩을 추천했다면, 가상 피팅 시 여러분의 사진 배경이 황금빛 모래사장과 푸른 바다가 펼쳐진 아름다운 해변으로 자동으로 바뀝니다. 반대로 '중요한 회의' 룩을 입으면 깔끔하고 세련된 오피스 배경이 펼쳐지죠.\n이처럼 의상 스타일에 맞는 배경이 자동으로 적용되어, 마치 여러분이 그 상황에 직접 가 있는 듯한 높은 몰입감과 함께 스타일을 확인할 수 있습니다. 옷뿐만 아니라 그 옷이 연출하는 전체적인 분위기까지 한눈에 파악할 수 있어 더욱 현명한 선택을 할 수 있도록 도와줍니다.\n  차근차근 따라 해보는 '나노 바나나' 사용법 가이드\n'나노 바나나' 앱, 생각보다 훨씬 쉽고 직관적이에요! 제가 지금부터 단계별로 자세히 알려드릴 테니, 함께 따라 해보세요.\n단계\n설명\n팁/기능\n\n\n\n\nSTEP 1\n내 인물 사진 업로드하기\n앱 중앙 캔버스 클릭, 드래그 앤 드롭, 클립보드 붙여넣기 (Ctrl+V)\n\n\nSTEP 2\nAI에게 스타일 추천받기 (왼쪽 'AI 추천 옷장')\n'결혼식 하객룩', '편안한 카페 나들이' 등 상황 입력 후 '추천 생성' 클릭\n\n\nSTEP 3\n나만의 옷장 채우기 (오른쪽 '나만의 옷장')\n온라인 쇼핑몰/SNS 이미지 드래그 또는 복사/붙여넣기. AI가 아이템 이름 자동 인식.\n\n\nSTEP 4\n가상 착용 시작!\nAI 추천 또는 내 옷장 아이템을 사진 위로 드래그. '추가하기'/'교체하기' 모드 활용.\n\n\n\n\n  핵심 요약\n✔️ AI 스타일리스트: 개인 사진과 상황에 맞춰 두 가지 스타일을 제안, 패션 고민 해결!\n✔️ 나만의 온라인 옷장: 웹에서 발견한 옷을 쉽고 빠르게 저장, 디지털 옷장 구축!\n✔️ 사실적 가상 피팅: '추가하기'/'교체하기' 모드로 실제 같은 착용감 미리 확인!\n✔️ 몰입형 배경 전환: 의상에 맞는 배경 자동 적용으로 스타일의 완성도를 높임!\n*이 모든 기능으로 2025년 당신의 온라인 쇼핑이 더욱 스마트하고 즐거워질 거예요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: '나노 바나나 가상 착용' 앱은 유료 서비스인가요?\nA1: '나노 바나나'는 기본적으로 무료로 제공되는 기능들이 많지만, 더욱 전문적인 AI 스타일 추천이나 고해상도 가상 피팅 이미지 저장 등 일부 프리미엄 기능은 유료 구독 서비스로 제공될 수 있습니다. 자세한 내용은 앱 내 공지를 참고해 주세요.\nQ2: AI가 추천해 주는 스타일이 정말 나에게 어울릴까요?\nA2: 네, '나노 바나나'의 AI는 사용자의 업로드된 사진을 기반으로 체형 분석뿐만 아니라 전반적인 분위기와 피부 톤까지 고려하여 스타일을 추천합니다. 수많은 패션 데이터를 학습했기 때문에 개인의 취향에 맞는 높은 정확도의 추천을 기대할 수 있습니다. 피드백을 통해 AI의 추천을 더욱 정교하게 만들 수도 있어요.\nQ3: 가상 피팅 시 배경 자동 변경 기능은 항상 작동하나요?\nA3: 배경 자동 변경 기능은 AI가 의상에 적합한 상황을 인지했을 때 주로 작동합니다. 예를 들어, 수영복에는 해변 배경이, 정장에는 사무실 배경이 자동으로 적용되는 식이죠. 사용자가 직접 배경을 선택하거나, 원하지 않을 경우 기능을 비활성화할 수도 있습니다.\n \n\n\n\n\n'나노 바나나 가상 착용'은 단순한 재미를 넘어, 우리의 쇼핑 습관을 더욱 스마트하고 합리적으로 만들어 줄 2025년의 강력한 도구입니다. 더 이상 불확실함에 돈과 시간을 낭비하지 마세요! 내가 원하는 옷을 미리 입어보고, AI가 추천하는 스타일로 나의 잠재된 패션 감각을 깨워보세요.\n지금 바로 '나노 바나나 가상 착용'으로 새로운 스타일의 문을 활짝 열어보시는 건 어떨까요? 여러분의 옷 고민이 즐거운 패션 탐험으로 바뀌는 마법을 경험하게 될 거예요!  \n \n✨ '나노 바나나 가상 착용' 무료 다운로드\n이 앱을 사용하기 위해서는 구글아이디가 필요합니다.\n\n \n로그인 - Google 계정\n이메일 또는 휴대전화\naccounts.google.com",
+    "title": "Visual Studio 2026 is here: faster, smarter, and a hit with early adopters",
+    "description": "Dear developers, We’re thrilled to announce that Visual Studio 2026 is now generally available! This is a moment we’ve built side by side with you. Your feedback has helped shape this release more than any before. Since the introduction of the Insiders Channel in September, more developers have downloaded and tested this preview than any […]\nThe post Visual Studio 2026 is here: faster, smarter, and a hit with early adopters appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483681",
-    "pubDate": "Thu, 13 Nov 2025 17:18:31 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-2026-is-here-faster-smarter-and-a-hit-with-early-adopters/",
+    "pubDate": "Tue, 11 Nov 2025 16:08:47 +0000",
+    "creator": "Mads Kristensen",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "AI 가상 피팅",
-      "AI 스타일리스트",
-      "ai 패션 추천",
-      "가상 착용 앱",
-      "개인 맞춤 코디",
-      "나노 바나나",
-      "스마트 쇼핑",
-      "온라인 쇼핑 실패",
-      "옷 고민 해결",
-      "패션 기술 2025"
+      "Visual Studio",
+      "Announcement",
+      "Release",
+      "Visual Studio 2026"
     ]
   },
   {
     "id": 4,
-    "imageUrl": "",
-    "title": "ReSharper 2025.3: Day-One C# 14 Support, Visual Studio 2026 Compatibility, and Major Performance Gains",
-    "description": "We’re pleased to announce the release of ReSharper 2025.3 in sync with .NET 10, continuing our tradition of releases that deliver day-one support for the newest C# language features. This version brings comprehensive C# 14 coverage, including extension members, extension operators, and user-defined compound assignment operators – all ready to use as soon as you […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/11/11/resharper-2025-3-day-one-csharp-14-support-visual-studio-2026-compatible/",
-    "pubDate": "Tue, 11 Nov 2025 15:48:34 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "releases",
-      "resharper",
-      "out-of-process-2",
-      "performance",
-      "visual-studio-2026"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Meta’s Generative Ads Model (GEM): The Central Brain Accelerating Ads Recommendation AI Innovation",
-    "description": "We’re sharing details about Meta’s Generative Ads Recommendation Model (GEM), a new foundation model that delivers increased ad performance and advertiser ROI by enhancing other ads recommendation models’ ability to serve relevant ads. GEM’s novel architecture allows it to scale with an increasing number of parameters while consistently generating more precise predictions efficiently. GEM propagates [...]\nRead More...\nThe post Meta’s Generative Ads Model (GEM): The Central Brain Accelerating Ads Recommendation AI Innovation appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/",
-    "pubDate": "Mon, 10 Nov 2025 17:00:01 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "ML Applications"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 26화, 위기인데스와 ①",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2386",
-    "pubDate": "Wed, 12 Nov 2025 16:46:48 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "인플루언서여서가 아니라 시장이 원했던 거예요",
-    "description": "색칠 지도 사용자가 부쩍 늘고 있습니다.\n최근에 지인 두 명에게 각각 들은 이야기입니다.\n“좋겠다. 넌 인플루언서니깐 앱 홍보가 쉽잖아. 보통 사람들은 런칭해도 아무도 안 써.”\n어쩌면 많은 분들이 이 말에 끄덕이면서 현실을 오해할지도 모르겠습니다.\n일단 내가 인플루언서인가?\n그렇다면 제가 생각하는 답은 무엇이냐고요?\n알고 봤더니 시장도 그걸 원했던 것 뿐.\n색칠 지도는 제 블로그에도, 링크드인에도, 쓰레드에도 공유하기 전, 클리앙에 가장 먼저 공유했습니다.\n별생각도 없이 몇 줄 쓴 이 글에 하루 1,500 명의 사용자들이 가입을 했고…\n‘와씨… 이거 뭐야. 시장도 이걸 원하고 있었잖아?’\n가슴이 두근두근하는 순간이었습니다. 내가 제대로 짚었구나.\n이제 그 반대의 예도 들려드리고 싶습니다.\n‘인플루언서’일지도 모르는 제가 런칭한 다른 서비스가 있습니다.\n인앱택스.\n1인 개발자들이 인앱결제로 수익을 냈을 때 부가세 결제를 도와주는 프로그램.\n이 제품을 제 인플루언서 블로그와 쓰레드에 공개했습니다. 그 결과를 알려드립니다.\n카카오 로그인을 통한 가입자 10명.\n실제로 매출 자료를 입력해 본 사용자 0명.\n색칠 지도와 인앱택스는 뭐가 달랐을까요?  \n함께 읽으면 좋은 글:\n색칠 지도 - 내가 가본 우리나라",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/11/10/pmf.html",
-    "pubDate": "2025-11-10T13:37:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "코드 품질 개선 기법 22편: To equal, or not to equal",
-    "description": "이 글은 2024년 4월 18일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-22",
-    "pubDate": "Fri, 07 Nov 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)",
-    "description": "흥미로운 글이 있어, 정리해 남긴다. 좀 더 상세한 내용은 레퍼런스를 참고 바란다. 본 글의 제목은 \"어느 코딩 1도 모르는 문과생 바이브 코딩 경험기:)\". 말 그대로^^\n\n\n\n바이브 코딩(AI Vibecoding Is a Black Box, Why We Need Transparency and Tinkerability)\n\n\n머리말\n\nAI 기술을 활용한 코딩 방식은 크게 '바이브 코딩(Vibe Coding)'과 '에이전트 AI(Agentic AI)'라는 두 가지 패러다임으로 구분될 수 있다. 이 두 접근법은 개발자의 개입 수준, 상호작용의 속도, 그리고 자동화의 범위에서 근본적인 차이를 보인다.\n\n\n바이브 코딩은 AI 지원 프로그래밍(AI-Assisted Programming)의 한 형태로, 개발자와 AI가 실시간으로 상호작용하는 능동적(active) 프로세스이다. 이는 본질적으로 AI와 페어 프로그래밍을 수행하는 것과 유사하며, 개발자가 주도자(driver) 역할을, AI가 보조자(observer) 역할을 맡는다. 반복 주기는 수 초 단위로 짧으며, 개발자의 작업 흐름(flow)을 지원하는 데 중점을 둔다.\n\n\n반면 에이전트 AI는 개발자가 AI에게 명확한 목표를 위임하는 수동적(passive) 프로세스에 해당한다. 이 모델에서 AI는 자율적 에이전트로서 작동하며, 코드 분석, 작성, 테스트, 심지어 풀 리퀘스트 생성에 이르는 복합적 작업을 독립적으로 수행할 수 있다. 반복 주기는 수 분에서 수 시간에 이르며, 개발자의 직접적인 개입을 최소화하는 것을 목표로 한다.\n\n\n바이브 코딩의 일반적 경험\n바이브 코딩의 일반적인 도입 과정은 기술적 숙련도가 상대적으로 낮거나 해당 코드베이스에 익숙하지 않은 인력이 간단한 작업을 처리하는 것에서 시작되는 경향이 있다. 초기 단계에서 사용자는 UI의 사소한 버그 수정이나 문구 변경과 같은 명확하게 정의된 소규모 작업을 AI의 도움을 받아 수행한다.\n\n\n\n바이브 코딩 도구 사용 예시\n\n\n이 과정은 통상적으로 1) 수정할 코드를 수동으로 탐색하고, 2) AI에게 자연어 프롬프트로 변경을 지시하며, 3) 생성된 코드를 검토하고, 4) 결과를 수동으로 검증하는 단계를 포함한다. AI가 한 번에 완벽한 코드를 생성하지 못하는 경우가 많으므로, 원하는 결과를 얻기까지 여러 차례의 반복적인 프롬프팅이 요구된다.\n\n\n작업의 복잡성이 증가하거나 AI가 특정 문제에 고착되는 경우, 사용자는 병렬 처리 방식으로 접근법을 변경할 수 있다. 이는 단일 AI 모델 대신, 다수의 독립적인 개발 환경에서 서로 다른 모델이나 프롬프트를 사용하여 동일한 문제를 동시에 처리하는 전략이다.\n\n\n바이브 코딩의 장점\n바이브 코딩의 주요 장점 중 하나는 코드 기여의 진입 장벽을 낮춘다는 점이다. 코딩 실무 경험이 적은 관리직이나 비개발 직군 인력도 특정 프레임워크에 대한 깊은 지식 없이 간단한 코드 수정에 기여할 수 있다.\n\n\n또한 단순 반복 작업의 효율화에 기여한다. 숙련된 개발자에게도 정형화된 코드(boilerplate) 작성이나 간단한 버그 수정은 시간이 소요되는 작업이며, AI는 이러한 작업을 신속하게 처리하여 개발자가 더 복잡한 문제에 집중하도록 돕는다.\n\n\n생소한 코드베이스를 탐색하거나 새로운 기술을 학습할 때 가이드 역할을 수행할 수 있다.\n\n\n수 초 단위의 즉각적인 피드백 루프는 개발자가 코드를 실험하고 아이디어를 빠르게 검증하는 것을 용이하게 하여, 중단 없는 '몰입(flow)' 상태를 유지하는 데 긍정적인 영향을 미친다.\n\n\n단점 및 한계\n바이브 코딩은 제공되는 컨텍스트에 크게 의존한다. 만약 코드베이스가 오래되어 방치된 코드나 안티패턴(anti-pattern)을 다수 포함하고 있다면, AI는 이러한 부정확한 패턴을 학습하여 비표준적인 코드를 생성할 위험이 있다. 이는 코드 실행 안전성, 보안 문제, 해킹 등 치명적 이슈를 포함할 수 있다. \n\n\n인간의 개입이 필수적인 병목현상(Human-in-the-Loop Bottleneck)이 존재한다. 이 방식은 본질적으로 능동적인 상호작용을 요구하므로, 시스템의 전체 처리량은 AI의 속도가 아닌, 인간이 동시에 관리할 수 있는 작업의 수와 생성된 코드를 검토 및 테스트하는 속도에 의해 제한된다.\n\n\nAI가 특정 문제 해결 과정에서 국소 최적해(local optima)에 고착되어 비효율적인 해결책을 반복적으로 제안하는 현상이 발생할 수 있다.\n\n\nAI가 생성한 코드는 반드시 인간에 의해 검증되어야 하므로, 이 검토 비용이 발생한다. 경우에 따라서는 AI의 제안을 수정하고 검증하는 데 소요되는 시간이 숙련된 개발자가 직접 작성하는 시간보다 더 오래 걸릴 수도 있다.\n\n\n더 중요한 문제는 바이브 코딩 결과물이 블랙박스거나 스파게티 코드 덩어리가 될 수 있다는 점이다. 비 개발자가 바이브 코딩을 남용할 때 주로 이런 문제가 발생한다. 유지보수되지 않고, 읽기 어려운 산출물은 결국 버려지게 되어 있다. \n\n\n바이브 코딩 도구 개발사는 이런 문제에 대해 책임지지 않을 것이다.\n\n\n한계 극복 및 발전\n바이브 코딩의 효율성을 높이고 단점을 완화하기 위해서는 AI에 제공되는 컨텍스트의 품질을 향상시키는 것이 필수적이다. 이는 단순히 프롬프트를 개선하는 것을 넘어, AI가 참조할 수 있는 프로젝트의 코딩 스타일 가이드, 회피해야 할 안티패턴 목록, 테스트 명령어 등을 '규칙(Rules)' 파일 형태로 명시하여 제공하는 방식을 포함한다.\n\n\n이 정보가 AI 프롬프트에 자동으로 주입되면, AI는 프로젝트의 맥락에 더 부합하는 코드를 생성할 수 있다. 요약하자면, 바이브 코딩은 개발 워크플로우를 강화하는 패러다임으로, 특히 비전문가의 코드 기여 장벽을 낮추고 단순 작업을 가속화하는 데 유용하다. 그러나 이 방식의 내재적 한계인 인간 개입 의존성과 컨텍스트 부족 문제는, 결국 개발자의 역할이 AI의 참여자에서 위임자로 전환되는 '에이전트 AI' 패러다임으로의 발전을 촉진하는 요인이 된다.\n\n레퍼런스\n\nAgentic AI has changed my career. I don’t write code… or at least, I… | by Elliot Graebert | Sep, 2025 | Medium\nDon’t be a Vibe Coder. Problems with Vibe Coding | by Mehul Gupta | Data Science in Your Pocket | Medium\nAI Vibecoding Is a Black Box, Why We Need Transparency and Tinkerability\nVibe Coding Can Create Unseen Vulnerabilities  - DevOps.com",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/1.html",
-    "pubDate": "2025-11-07T02:10:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Optimize Your C++ Build Times with GitHub Copilot",
-    "description": "Long build times are one of the top pain points for C++ projects. If you’ve ever waited too long for a C++ build to finish, you know how much it can slow down your productivity. In past years, we introduced C++ Build Insights to help you analyze traces and find bottlenecks. However, we know that […]\nThe post Optimize Your C++ Build Times with GitHub Copilot appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/optimize-your-c-build-times-with-github-copilot/",
-    "pubDate": "Wed, 12 Nov 2025 17:12:48 +0000",
-    "creator": "David Li",
-    "categories": [
-      "Build Insights",
-      "Build Optimization",
-      "C++",
-      "Build Time"
-    ]
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "토스씨엑스, 부산에 첫 지역 거점 개소… 빅데이터 기반 상담센터 설립",
     "description": "디지털 혁신 거점",
@@ -169,58 +59,161 @@
     "categories": []
   },
   {
-    "id": 12,
+    "id": 5,
     "imageUrl": "",
-    "title": "[MULTI] 익스트랙션의 새 한계를 향해, 아크 레이더스",
-    "description": "No description available",
+    "title": "Spotify Podcast 이전하기 - BIM Insight Digest 시작",
+    "description": "2012년부터 진행했던 Podcast (BIM, CG, SW). 지금까지 Internet Archive 를 이용해 Podcast 호스팅하고 있었는 데, 최근 다시 시작해야겠다는 생각이 들어, Spotify Podcast로 이사하려 한다. 이 과정을 기록한다. \n\n\n오랫동안 무료 호스팅으로 애용했던 Internet Archive\n\nMotivation\n2021년까지 지속했던 Podcast인데, 특히, BIM을 중심으로 진행했었다. 출발은 본인이 저술한 책을 좀 더 알기 쉽게 설명해, 출판사에 조금이나마 도움을 주고자 시작했다. 이게 주객이 전도되어 무려 십년 이상 방송하게 되었다. 개인적으로 알고 있던 것을 다시 정리해 방송하니, 스스로 자극되고, 공부되는 듯한 느낌이 좋았다. 코로나 쯤 너무 오래했고, 하고 싶은 말은 다 한 것 같다는 생각이 들어, 마지막 방송 이후로 지금까지 방송을 쉬었다.\n\n\nBIM digest podcast\n\n그러다, 최근 BIM을 하시는 분들 중에 이론적으로만 접근하시거나, 관리자 위치에 계신 분들이 BIM에 대해 잘못된 이론적 이해만으로 위험한? 이야기를 하고 계시는 것을 보고 다시 Podcast를 해야 하겠다는 생각이 들었다. \n\n\n이론과 현실의 차이\n\nTransfer\n스포티파이 팟캐스트 채널 개설은 매우 쉽다. 호스팅도 자체 제공해 준다. 순서는 다음과 같다. \nTools to manage and grow your podcast - Spotify for Creators 에 가입하고, 새로운 쇼를 만들어 팟캐스트 채널 기본 정보를 입력한 후, 첫 에피소스 방송 녹음파일을 업로드하면 된다. \n\n\n시간이 지나면, 다양한 Podcast 채널(Apple, Google 등)에 본인 방송이 검색으로 표출될 것이다.\n\n\nAgain, Podcast\n약 15년 동안 Podcast를 하다 보니, 호스팅 플랫폼이 크게 3번 바뀌면서 관리가 쉽지 않았는 데, 스포티파이는 빅테크 기업이니 오래가겠지란 생각으로 시작한다. \n\n\n당연하다고 생각했던 것들이 시간이 지나면서 잊혀지고, 잘못 알고 있는 사람들이 조금씩 많아질 때, 방송을 하고 싶은 모티브가 되는 것 같다. 몇 년 간 쉬었으니 이제 천천히 다시 시작!",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2384",
-    "pubDate": "Sat, 08 Nov 2025 12:50:06 +0900",
-    "creator": "「RULIWEB」",
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/spotify-podcast.html",
+    "pubDate": "2025-11-08T07:28:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Pushsphere: LINE 메신저의 빠르고 신뢰할 수 있는 대량 푸시 알림 비법",
+    "description": "이 글은 Tech-Verse 2025에서 발표된 Pushsphere: LINE의 신뢰성 있고 신속한 대량 푸시 알림 비법 세션을 글로 옮긴 것입니다.안녕하세요. LINE Plus ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/pushsphere-reliable-and-prompt-high-volume-push-notification",
+    "pubDate": "Thu, 13 Nov 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2025.3 💚 Spring 7",
+    "description": "Major Spring Framework releases don’t come around often – and when they do, they tend to reshape how we build applications for years to come. Spring Framework 7 is one of those releases. It simplifies many aspects of development, cleans up some long-standing pain points, and introduces features that previously required custom annotations or boilerplate-heavy […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-2025-3-spring-7/",
+    "pubDate": "Fri, 14 Nov 2025 15:31:52 +0000",
+    "creator": "Andrey Belyaev",
     "categories": [
-      "리뷰"
+      "news",
+      "intellij-idea",
+      "spring-7",
+      "spring-framework"
     ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "토스, 마케팅 지표를 새롭게 보다… 토스애즈 ‘광고 측정 리포트’ 공개",
+    "description": "광고의 진짜 효과를 보는 방법",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/42357",
+    "pubDate": "Tue, 11 Nov 2025 10:08:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "인플루언서여서가 아니라 시장이 원했던 거예요",
+    "description": "색칠 지도 사용자가 부쩍 늘고 있습니다.\n최근에 지인 두 명에게 각각 들은 이야기입니다.\n“좋겠다. 넌 인플루언서니깐 앱 홍보가 쉽잖아. 보통 사람들은 런칭해도 아무도 안 써.”\n어쩌면 많은 분들이 이 말에 끄덕이면서 현실을 오해할지도 모르겠습니다.\n일단 내가 인플루언서인가?\n그렇다면 제가 생각하는 답은 무엇이냐고요?\n알고 봤더니 시장도 그걸 원했던 것 뿐.\n색칠 지도는 제 블로그에도, 링크드인에도, 쓰레드에도 공유하기 전, 클리앙에 가장 먼저 공유했습니다.\n별생각도 없이 몇 줄 쓴 이 글에 하루 1,500 명의 사용자들이 가입을 했고…\n‘와씨… 이거 뭐야. 시장도 이걸 원하고 있었잖아?’\n가슴이 두근두근하는 순간이었습니다. 내가 제대로 짚었구나.\n이제 그 반대의 예도 들려드리고 싶습니다.\n‘인플루언서’일지도 모르는 제가 런칭한 다른 서비스가 있습니다.\n인앱택스.\n1인 개발자들이 인앱결제로 수익을 냈을 때 부가세 결제를 도와주는 프로그램.\n이 제품을 제 인플루언서 블로그와 쓰레드에 공개했습니다. 그 결과를 알려드립니다.\n카카오 로그인을 통한 가입자 10명.\n실제로 매출 자료를 입력해 본 사용자 0명.\n색칠 지도와 인앱택스는 뭐가 달랐을까요?  \n함께 읽으면 좋은 글:\n색칠 지도 - 내가 가본 우리나라",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/11/10/pmf.html",
+    "pubDate": "2025-11-10T13:37:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Azure MCP Server Now Built-In with Visual Studio 2026: A New Era for Agentic Workflows",
+    "description": "Managing cloud resources often means juggling multiple tools, writing custom scripts, and switching contexts between your IDE and cloud management portals. These extra steps slow development and make it harder to build intelligent, secure applications efficiently. We’re excited to announce that Azure MCP Server (Model Context Protocol) tools are now generally available out-of-the-box in Visual […]\nThe post Azure MCP Server Now Built-In with Visual Studio 2026: A New Era for Agentic Workflows appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/azure-mcp-server-now-built-in-with-visual-studio-2026-a-new-era-for-agentic-workflows/",
+    "pubDate": "Fri, 14 Nov 2025 14:00:14 +0000",
+    "creator": "Yun Jung Choi",
+    "categories": [
+      "Azure",
+      "Cloud",
+      "Copilot",
+      "Visual Studio",
+      "MCP",
+      "Visual Studio 2026"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "330일차 - 간단한게임제작기 2일차",
+    "description": "영상: https://www.youtube.com/watch?v=5U30EcKSfV8\n\n\n\n \n오버레이 카메라 문제는 \nbase 카메라에서 stack 을 열어보면 오버레이 카메라를 추가할 수 있더군요\n \n사용된 이팩트는 Cartoon FX 4 Remaster\n링크: Cartoon FX 4 Remaster | VFX Particles | Unity Asset Store\n\n \nCartoon FX 4 Remaster | 시각 효과 파티클 | Unity Asset Store\nAdd depth to your next project with Cartoon FX 4 Remaster from Jean Moreno. Find this & more 시각 효과 파티클 on the Unity Asset Store.\nassetstore.unity.com\n\n유니티 6 를 잘 지원하고\n다양한 종류가 있어서 쓸만한거 같습니다.\n할인할때 사세요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1469",
+    "pubDate": "Tue, 11 Nov 2025 21:28:40 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작",
+      "유니티",
+      "인디게임",
+      "자작게임"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "토스, 현대면세점과 ‘페이스페이’ 업무협약 체결… 공동 프로모션 협력",
+    "description": "디지털 결제 혁신 협력",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/42329",
+    "pubDate": "Tue, 11 Nov 2025 05:36:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "333일차 - 간단한게임제작기 3일차",
-    "description": "영상: https://www.youtube.com/watch?v=s7XNbYT42QY\n\n\n\n라이프 감소 / 추가 - 이팩트 랑 사운드  작업 했군요\n걸린 시간은 1시간 입니다.\n낮에는 너무 놀았습니다.",
+    "title": "A first look at the all‑new UX in Visual Studio 2026",
+    "description": "Visual Studio 2026 introduces a refreshed user experience, thoughtfully crafted for clarity, accessibility, and a clean interface that feels right at home on Windows. This update is the result of extensive collaboration with developers and incorporates valuable feedback from the community. We’ve improved typography, iconography, and the overall layout to minimize distractions and keep your […]\nThe post A first look at the all‑new UX in Visual Studio 2026 appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1475",
-    "pubDate": "Fri, 14 Nov 2025 01:29:30 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/visualstudio/a-first-look-at-the-all%e2%80%91new-ux-in-visual-studio-2026/",
+    "pubDate": "Thu, 13 Nov 2025 15:00:29 +0000",
+    "creator": "Ruben Rios",
     "categories": [
-      "프로그래밍/자작",
-      "자작게임"
+      "Accessibility",
+      "Visual Studio",
+      "Announcement",
+      "UI Refresh",
+      "Visual Studio 2026"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "[MULTI] 앉아보게 굉장한 모험담을 들려줄 테니, DQ 로토 삼부작 HD-2D",
-    "description": "No description available",
+    "title": "네이버와 두나무의 포괄적 주식 교환 - 한국 가상자산 시장의 대전환 신호",
+    "description": "네이버와 두나무, 왜 주식 교환이 주목받는가? 2025년 9월, 국내 IT와 금융시장을 뒤흔든 소식이 전해졌습니다. 바로 네이버가 업비트 운영사 두나무와 포괄적 주식 교환을 추진하다는 뉴스입니다. 네이버는 국내 최대 검색 / 콘텐츠 / 간편결제 플랫폼 보유 두나무는 거래소 업비트를 통해 국내 가상자산 거래의 80%이상 점유 이 두 회사의 결합은 단순 투자",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2385",
-    "pubDate": "Tue, 11 Nov 2025 20:24:40 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
+    "link": "https://brunch.co.kr/@@LOc/314",
+    "pubDate": "Fri, 14 Nov 2025 03:23:15 GMT",
+    "creator": "고명환",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "1인 개발자 셀프 인터뷰",
-    "description": "메이저 신문사에서 인터뷰 요청이 들어와서 메일로 길게 답장을 보내드렸습니다. 그런데…\n\n본인 소개와 함께, 솔로프리너로 창업하게 된 계기를 간단히 말씀해주실 수 있을까요?\n저는 커피한잔이라는 직장인 소개팅 서비스를 만들어서 1인 개발자로 살고 있는 김재호라고 합니다.\n내 실력은 진짜일까 가짜일까?\n\n팀을 꾸려 창업하는 대신, 혼자서 시작한 이유는 무엇인가요? 처음부터 의도했던 건지, 자연스럽게 그렇게 된 건지 궁금합니다.\n처음에는 팀을 꾸려 창업했습니다. 하지만 런칭 후 얼마 되지 않아서 다들 뿔뿔히 흩어지게 됐습니다.\n\n일반 프리랜서와 솔로프리너의 차이가 뭐라고 보시는지요.\n일의 주도권의 차이아닐까요?\n\n현재 운영 중인 제품이나 서비스, 주요 고객층, 수익 모델은 어떻게 되나요?\n커피한잔은 30대 직장인들이 쓰는 소개팅 어플입니다.\n최근에는 색칠 지도라는 내가 가본 우리나라 지역을 색칠하는 다른 서비스를 오픈하기도 했습니다.\n\n민감한 부분일 수 있지만, 공개 가능한 범위에서 월 혹은 연 매출 규모를 공유해주실 수 있을까요? (대략적인 구간 혹은 비율도 괜찮고, 원하지 않으실 경우 답변 생략하셔도 됩니다)\n대기업에서 밤낮없이 일하며 받았던 월급보다 많은 수익이 나고 있습니다.\n\n초기에 매출을 만들기까지 가장 어려웠던 점은 무엇이었나요? 매출이 발생하기까지 걸린 시간도 궁금합니다.\n돈을 벌게 되기까지는 3년 정도가 걸렸습니다.\n\n“성장성에 한계가 있다”, “결국 강의로 수익을 돌린다”, “스케일이 없다” 등 솔로프리너에 대한 비판도 있습니다. 이런 비판에 대해서는 어떻게 생각하시나요.\n성장성에 한계가 있다는 말은 지금까지는 사실이었을 수도 있습니다. 인간 1명이 해낼 수 있는 일에는 한계가 있기 때문에.\n\nVC 업계도 솔로프리너에 대해 아직 보수적인 판단을 내리고 있는거 같습니다. 혹시 솔로프리너에게도 투자가 반드시 필요한 순간이 온다고 생각하시는지, 아니면 계속 이대로 성장하는 방향이 낫다고 보시는지 궁금합니다.\nVC들은 아마 솔로프리너에게 투자하지 않을 겁니다. 궂은 일들을 10년 동안 포기하지 않고 할 수 있는 똑똑하고 성실한 팀을 찾는 것들이 그들의 일인데, ‘솔로’ 창업자에게 투자했다가 창업자가 그만두면? 완전 나가리가 되어버리는 것.\n\n솔로프리너로 오래 가기 위해 개인적으로 지켜오고 있는 원칙이나 루틴이 있다면 공유해주실 수 있을까요?\n매일 코딩하기 입니다. 눈이 오나 비가 오나 매일 코딩하기.\n\n매일 코딩한 흔적들\n\n지금 같은 방향으로 창업하려는 예비 솔로프리너에게 해주고 싶은 현실적인 조언 2~3가지가 있다면요?\n솔로프리너는 유행이기도 하지만 어쩔수 없는 현실이기도 합니다.\n함께 읽으면 좋은 글:\n나는 얼마짜리 사람인가\n진짜 1인 개발자 전성시대",
+    "title": "StyleX: A Styling Library for CSS at Scale",
+    "description": "StyleX is Meta’s styling system for large-scale applications. It combines the ergonomics of CSS-in-JS with the performance of static CSS, generating collision-free atomic CSS while allowing for expressive, type-safe style authoring. StyleX was open sourced at the end of 2023 and has since become the standard styling system across Meta products like Facebook, Instagram, WhatsApp, [...]\nRead More...\nThe post StyleX: A Styling Library for CSS at Scale appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/11/11/self-interview.html",
-    "pubDate": "2025-11-11T13:53:00.000Z",
+    "link": "https://engineering.fb.com/2025/11/11/web/stylex-a-styling-library-for-css-at-scale/",
+    "pubDate": "Tue, 11 Nov 2025 17:58:20 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "Open Source",
+      "Web"
+    ]
   }
 ]
