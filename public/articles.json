@@ -2,177 +2,103 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Open Source Is Good for the Environment",
-    "description": "Most people have heard of open-source software. But have you heard about open hardware? And did you know open source can have a positive impact on the environment? On this episode of the Meta Tech Podcast, Pascal Hartig sits down with Dharmesh and Lisa to talk about all things open hardware, and Meta’s biggest announcements [...]\nRead More...\nThe post Open Source Is Good for the Environment appeared first on Engineering at Meta.",
+    "title": "SplunkForwarder v9 - 2nd",
+    "description": "다수 포워더 운영 효율을 높이는 방법은 배포 서버 연동. \n\n\n\n\n이후 데이터 추가 과정에서 배포 클라이언트로 연동된 포워더를 선택해주면 된다. 포워더 그룹을 의미하는 서버 클래스명 입력 필수.\n\n\n\n\n\n다음은 데이터 추가 과정에서 생성된 서버 클래스와 데이터 연동 정책을 의미하는 앱.\n\n\n\n\n\n\n\n다음은 생성된 앱 정책의 기본 설정. 포워더로 배포가 끝난 정책은 포워더 재시작을 통해 적용되는데, '앱 활성화' 설정만으로도 정상 동작한다. 데이터 추가 과정에서 등록된 포워더만 선택해주면 나머지는 신경쓸 게 없다는 얘기.\n\n\n\n\n포워더 관리 메뉴를 이용해도 같은 결과를 얻을 수는 있는데 비추. 앱을 만들어서 서버 클래스에 등록시켜야 하는데, _server_app_'서버 클래스' 이름을 갖는 앱 디렉토리를 UI를 통하지 않고 직접 만들어야 하고, 'Splunkd 다시 시작' 옵션도 필수로 선택해야 한다.\n\n\n관련 글\n\nSplunkForwarder v9\nCentOS7의 Splunk\n스플렁크와 엘라스틱 서비스 실행 차이",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/14/production-engineering/open-source-is-good-for-the-environment/",
-    "pubDate": "Fri, 14 Nov 2025 20:54:14 +0000",
+    "link": "https://kangmyounghun.blogspot.com/2025/11/splunkforwarder-v9-2nd.html",
+    "pubDate": "2025-11-09T10:02:00.000Z",
     "creator": "Unknown",
-    "categories": [
-      "Data Center Engineering",
-      "ML Applications",
-      "Open Source",
-      "Production Engineering",
-      "Meta Tech Podcast"
-    ]
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "코딩 없이도 앱이 탄생한다! 바이브코딩",
-    "description": "소프트웨어 개발에 대한 지식이 없는 사람들도 이제는 앱, 웹 서비스, 프로토타입을 빠르게 만들 수 있는 시대가 도래했습니다. 최근 뜨는 개념이 바이브코팅이 바로 그 중심에 있어요. 스타트업 창업자에게 바이브코딩은 기술 진입장벽을 낮추고, 초기 제품 출시 시간을 단축하며, 소수인원이나 혼자서도 사업을 시작 할 수 있게 하는 강력한 수단입니다. 본 글에서는 바",
+    "title": "StyleX: A Styling Library for CSS at Scale",
+    "description": "StyleX is Meta’s styling system for large-scale applications. It combines the ergonomics of CSS-in-JS with the performance of static CSS, generating collision-free atomic CSS while allowing for expressive, type-safe style authoring. StyleX was open sourced at the end of 2023 and has since become the standard styling system across Meta products like Facebook, Instagram, WhatsApp, [...]\nRead More...\nThe post StyleX: A Styling Library for CSS at Scale appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/313",
-    "pubDate": "Mon, 10 Nov 2025 03:45:23 GMT",
-    "creator": "고명환",
-    "categories": []
+    "link": "https://engineering.fb.com/2025/11/11/web/stylex-a-styling-library-for-css-at-scale/",
+    "pubDate": "Tue, 11 Nov 2025 17:58:20 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Open Source",
+      "Web"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Visual Studio 2026 is here: faster, smarter, and a hit with early adopters",
-    "description": "Dear developers, We’re thrilled to announce that Visual Studio 2026 is now generally available! This is a moment we’ve built side by side with you. Your feedback has helped shape this release more than any before. Since the introduction of the Insiders Channel in September, more developers have downloaded and tested this preview than any […]\nThe post Visual Studio 2026 is here: faster, smarter, and a hit with early adopters appeared first on Visual Studio Blog.",
+    "title": "사업자 신용 점수, 대출 전에 미리 관리하세요",
+    "description": "사업자 신용 점수 관리가 필요한 이유와 가장 쉽게 관리할 수 있는 방법을 알려드려요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-2026-is-here-faster-smarter-and-a-hit-with-early-adopters/",
-    "pubDate": "Tue, 11 Nov 2025 16:08:47 +0000",
-    "creator": "Mads Kristensen",
-    "categories": [
-      "Visual Studio",
-      "Announcement",
-      "Release",
-      "Visual Studio 2026"
-    ]
+    "link": "https://toss.im/tossfeed/article/tossmoment-19",
+    "pubDate": "Fri, 14 Nov 2025 07:52:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "토스씨엑스, 부산에 첫 지역 거점 개소… 빅데이터 기반 상담센터 설립",
-    "description": "디지털 혁신 거점",
+    "title": "수직 중앙 정렬한 텍스트가 치우쳐 보이는 이유",
+    "description": "[![NHN Cloud_meetup banner_fontAlign_202511.png](https://image.toast.com/aaaadh/real/2025/techblog/NHN%20Cloudmeetup%20bannerfontAlign202511.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n\r\r\n혹시 어떤 요소에 넣은 텍스트를 예쁘게 보이려 수직 중앙 정렬 스타일을 적용했는데 조금 치우쳐 보였던 경험이 있으신가요? 화면을 보다 보니 다양한 텍스트들이 조금 삐뚤빼뚤해 보였던 적이 있으신가요? 혹시 아래 문장도 조금 치우쳐져 보이시나요? \r\r\n\r\r\n그렇다면 이건 기분 탓이 아니라 진짜 치우쳐 표시되기 때문입니다.\n\r\r\n\r\r\n폰트 메트릭, 브라우저 렌더링, 픽셀 밀도의 상호작용이 만들어 내는 미묘한 차이 때문이죠. 이번 글에서는 폰트가 왜 그렇게 보이는지, 그리고 우리가 어떻게 좀 더 자연스럽게 정렬을 맞춰줄 수 있는지 함께 알아봅니다.\r\r\n\r\r\n## [여기](https://codepen.io/jajugoguma/full/LEVEyEm) 알파벳 대문자 M이 있습니다.\r\r\n\r\r\n> 대문자 M을 선택한 이유는 폰트 디자인에서 M이 대문자 기준 높이(Cap height)를 측정할 때 사용되는 대표적인 문자이기 때문입니다.\r\r\n> M은 위아래 경계가 명확한 직선으로 이루어져 있어 높이 측정이 용이하고, 상하 정렬 상태를 명확히 관찰할 수 있습니다. 또한 대부분의 폰트에서 M은 일관된 특성을 보여 폰트 간 비교에도 적합합니다.\r\r\n\r\r\n![text1.png](https://image.toast.com/aaaadh/real/2025/techblog/text1.png)\r\r\n\r\r\n> 위 이미지는 `devicePixelRatio`가 2인 화면(2x 스케일링), Chrome 136에서 캡처된 이미지로, 다른 환경에서는 다르게 표시될 수 있습니다.\r\r\n\r\r\n위 이미지는 `font-family: Pretendard, font-size: 50px`이 적용된 알파벳 대문자 `M`이 화면에 표시되는 실제 크기를 측정한 이미지입니다. `font-size`로 설정한 값(`50px`)과 달리 `59.5px`의 높이를 갖는 것을 확인할 수 있습니다. 내가 지정한 크기로 표시되지 않는다니, 잘못 표시되는 것일까요?\r\r\n\r\r\n결론부터 말씀드리자면, 아닙니다. 이것은 폰트와 `font-size`, 그리고 브라우저가 이렇게 나타나도록 만들어져 있기 때문입니다.\r\r\n\r\r\n\r\r\n## 폰트는 어떻게 만들어져 있을까?\r\r\n\r\r\n폰트는 수학적으로 정의된 **좌표 공간** 안에서 만들어집니다. 이 공간 안에서 문자들의 상대적 크기, 간격, 기준선 등(메트릭)이 정해지며, **글자 모양과 메트릭이 결합되어 렌더링**됩니다.\r\r\n\r\r\n즉, 폰트의 모양과 메트릭을 결정짓기 전에 폰트가 만들어질 좌표 공간을 정해야 하고 이를 **Em-square**라고 합니다. 그리고 이 사각형의 크기를 **EM 크기**라고 합니다. EM 크기는 상대적 단위의 크기로 일반적으로 1000 또는 2048 단위로 설정됩니다.\r\r\n\r\r\n좌표 공간을 지정했으면 폰트 메트릭을 결정할 차례입니다. 폰트 메트릭은 **폰트 모양이 좌표 내에 어디에 표시될지**를 결정하는 아주 중요한 지표입니다. 메트릭이 없으면 글자가 좌표 공간 내에서 멋대로 배치되어 글자가 삐뚤빼뚤하게 표시될 수 있습니다. 아래는 주요 폰트 메트릭에 대한 설명과 이해를 돕기 위한 그림입니다.\r\r\n\r\r\n![text2.png](https://image.toast.com/aaaadh/real/2025/techblog/text2.png)\r\r\n\r\r\n| 요소           | 설명                                                                                                        |\r\r\n| -------------- | ----------------------------------------------------------------------------------------------------------- |\r\r\n| **EM Square**  | 글꼴의 모든 문자가 설계되는 가상의 좌표 공간\n모든 글자는 이 가상의 정사각형 안에서 상대 좌표로 설계된다. |\r\r\n| **Baseline**   | 글자가 놓이는 기준 선                                                                                       |\r\r\n| **x-height**   | 소문자 ‘x’의 높이(소문자 기준 높이)                                                                        |\r\r\n| **Cap height** | 대문자 기준 높이(‘M’, ‘H’ 등)                                                                              |\r\r\n| **Ascender**   | ‘b’, ‘d’, ‘k’처럼 위로 튀어나온 부분의 최대 높이                                                            |\r\r\n| **Descender**  | ‘g’, ‘p’, ‘y’처럼 아래로 내려가는 부분의 깊이                                                               |\r\r\n\r\r\n즉, 폰트의 모든 글자는 Baseline을 기준으로 Descender 만큼 아래로 나타날 수 있고, Ascender 만큼 위로 나타날 수 있습니다. 또한 EM 크기는 기준이 되는 상대적 단위의 크기이므로 Ascender와 Descender의 합이 EM 크기보다 작거나 클 수 있습니다.\r\r\n\r\r\n이제 폰트 메트릭까지 설정했으니, 폰트의 각 글자의 모양만 만들면 폰트가 만들어집니다. 아래는 예제에서 사용한 폰트 Pretendard의 메트릭 정보입니다.\r\r\n\r\r\n![text3.png](https://image.toast.com/aaaadh/real/2025/techblog/text3.png)\r\r\n\r\r\n\r\r\n## 그래서 폰트 크기는 어떻게 결정되는데?\r\r\n\r\r\n앞서 우리가 `font-size`로 설정한 값이 실제 폰트 크기로 설정되지 않는 이유 중 하나는 `font-size`가 이렇게 나타나도록 만들어져 있기 때문이라고 했습니다. 이에 대해 결론부터 말하자면 `font-size`는 폰트의 문자 그 자체의 높이가 아닌 **폰트의 `em-square`의 크기를 결정**짓는 속성입니다.[](https://www.w3.org/TR/CSS2/fonts.html#font-size-props)\r\r\n\r\r\n이제 Pretendard 폰트가 `font-size`값에 따라 크기가 어떻게 결정되는지 알아봅시다. Pretendard 폰트는 2048 단위의 EM 크기에서 1949(Ascender)+494(Descender) 단위를 사용합니다. 이는 EM 크기가 `2048px`로 결정되면 폰트의 크기는 `2443(=1949+494)px`이 된다는 의미입니다.[](https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align?utm_source=CSS-Weekly&utm_campaign=Issue-253&utm_medium=web)\r\r\n\r\r\n그러면 예제의 높이를 계산해 볼까요? `font-size: 50px`이라는 뜻은 EM 크기가 `50px`로 결정되었다는 뜻이고, 이에 따라 폰트의 크기는 `59.5(≈ 2443 / 2048 * 50)px`(2x 스케일링으로 `0.5px`까지 표현 가능)로 계산됩니다. 이 값은 예제가 갖는 값과 동일하다는 것을 알 수 있습니다.\r\r\n\r\r\n이제 우리는 메트릭 정보와 `font-size`를 이용해 실제로 폰트가 몇 픽셀로 나타날지 계산할 수 있습니다!\r\r\n\r\r\n```\r\r\n폰트 크기 = (${Ascender} + ${Descender}) / ${EM 크기} \\* ${font-size}\r\r\n```\r\r\n\r\r\n\r\r\n## 내가 궁금한 건 폰트가 왜 치우치냐예요.\r\r\n\r\r\n지금까지 폰트가 왜 치우쳐 나타나는지 알기 위해 폰트의 크기가 어떻게 결정되는지를 알아봤습니다. 폰트가 치우치는 것은 이렇게 결정된 폰트 크기 내에 문자가 어떻게 배치되는지에 따라 결정되는 것입니다. 우리는 폰트 메트릭에서 문자가 놓일 기준선과 문자의 기준 높이, 그리고 위/아래 최대 높이를 알 수 있었습니다. 이를 활용하면 문자가 위/아래에 얼마 만큼의 여백을 두고 나타날지(수직으로 어디에 정렬될지) 알 수 있습니다.\r\r\n\r\r\n먼저 글자의 높이와 여백을 쉽게 측정하기 위해 예제의 `font-size`를 `51px`로 조정해서 폰트의 크기가 정수(`61px`)로 결정되도록 조정하겠습니다.[](https://codepen.io/jajugoguma/full/OPVPqax)\r\r\n\r\r\n![text4.png](https://image.toast.com/aaaadh/real/2025/techblog/text4.png)\r\r\n\r\r\n이제 대문자 M의 크기와 위/아래 여백의 크기를 계산해 봅시다. 앞서 수식에서 `(${Ascender} + ${Descender})`을 계산하고자 하는 메트릭 값으로 치환하면 원하는 계산 결과를 얻을 수 있습니다.\r\r\n\r\r\n```js\r\r\n// 대문자 M의 크기 ≈ ${Cap height} / ${EM 크기} * ${font-size}\r\r\n1448 / 2048 * 51 = 36.05859375(px)\r\r\n// 아래 여백의 크기 ≈ ${Descender} / ${EM 크기} * ${font-size}\r\r\n494 / 2048 * 51 = 12.30175781(px)\r\r\n// 위 여백의 크기 ≈(${Ascender} - ${Cap height}) / ${EM 크기} _ ${font-size}\r\r\n(1949 - 1448) / 2048 _ 51 = 12.47607422(px)\r\r\n```\r\r\n\r\r\n아래는 실제 화면에 나타나는 대문자 M의 크기과 위/아래 여백의 크기를 확인할 수 있는 그림입니다.(2x 환경의 `pt` 단위는 스케일링된 픽셀 크기입니다.)\r\r\n\r\r\n| Chrome                              | Chrome(2x)                          | Safari                                | Safari(2x)                            | FireFox                               | Firefox(2x)                            |\r\r\n| ----------------------------------- | ----------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- | -------------------------------------- |\r\r\n|![text5_chrome.png](https://image.toast.com/aaaadh/real/2025/techblog/text5chrome.png)|![text5_chrome2x.png](https://image.toast.com/aaaadh/real/2025/techblog/text5chrome2x.png)|![text5_safari.png](https://image.toast.com/aaaadh/real/2025/techblog/text5safari.png)|![text5_safari2.png](https://image.toast.com/aaaadh/real/2025/techblog/text5safari2.png)|![text5_firefox.png](https://image.toast.com/aaaadh/real/2025/techblog/text5firefox.png)|![text5_firefox2.png](https://image.toast.com/aaaadh/real/2025/techblog/text5firefox2.png)|\r\r\n\r\r\n위 그림에 따라 세 브라우저 모두 환경 무관하게 폰트 크기가 `61px`, 대문자 M의 크기는 1x 환경에서 `37px`, 2x 환경에서 `36.5px`로 동일하게 계산된 것을 볼 수 있습니다. 그러나 브라우저마다 각 환경에 따른 위/아래 여백 계산 결과에 차이를 보여 동일한 폰트에 동일한 문자라 할지라도 환경에 따라 텍스트가 시각적으로 중앙에 정렬되어 보일 수도, 그렇지 않을 수도 있음을 알 수 있습니다.\r\r\n\r\r\n이번 예제는 그래도 폰트의 크기도, 대문자 M의 크기도 홀수로 계산되고 위/아래 여백으로 사용될 너비가 짝수여서 어떻게든 중앙에 나타날 수 있는 형태였습니다. 하지만, 위/아래 여백으로 사용될 너비가 홀수라면 어떻게 될까요?\r\r\n\r\r\n이번에는 `font-size`를 `11px`로 설정해서 폰트 크기는 홀수(`13px`), 대문자 M의 크기는 짝수(`8px`)로 나타내 보도록 하겠습니다.[](https://codepen.io/jajugoguma/full/azOOKEE) 먼저, 변경된 값과 폰트 메트릭에 따른 크기를 다시 계산해 봅시다.\r\r\n\r\r\n```js\r\r\n// 대문자 M의 크기 ≈ ${Cap height} / ${EM 크기} * ${font-size}\r\r\n1448 / 2048 * 11 = 7.77734375(px)\r\r\n// 아래 여백의 크기 ≈ ${Descender} / ${EM 크기} * ${font-size}\r\r\n494 / 2048 * 11 = 2.65332031(px)\r\r\n// 위 여백의 크기 ≈(${Ascender} - ${Cap height}) / ${EM 크기} _ ${font-size}\r\r\n(1949 - 1448) / 2048 _ 11 = 2.69091797(px)\r\r\n```\r\r\n\r\r\n| Chrome                                                             | Chrome(2x)                                                         |\r\r\n| ------------------------------------------------------------------ | ------------------------------------------------------------------ |\r\r\n|![text6_chrome.png](https://image.toast.com/aaaadh/real/2025/techblog/text6chrome.png) |![text6_chrome2.png](https://image.toast.com/aaaadh/real/2025/techblog/text6chrome2.png) |\r\r\n|![text7_chrome.png](https://image.toast.com/aaaadh/real/2025/techblog/text7chrome.png)| ![text7_chrome2.png](https://image.toast.com/aaaadh/real/2025/techblog/text7chrome2.png) |\r\r\n\r\r\n대문자 M의 크기가 짝수(`8px`)로 결정됨에 따라 위/아래 여백으로 사용 가능한 크기가 홀수(`5px`)로 결정됩니다. 그러나 2x 환경에서는 `.5px`까지 렌더링할 수 있어서 중앙 정렬이 잘 되어 보이지만, 1x 환경에서는 픽셀을 반으로 나누는 게 불가능해 한 쪽으로 `1px` 치우쳐 보일 수밖에 없습니다.\r\r\n\r\r\n지금까지 확인한 바와 같이 텍스트는 텍스트를 보는 환경에 따라 폰트 크기 내에서 수직 중앙 정렬이 될 수도, 아닐 수도 있다는 사실을 알았습니다. 다양한 CSS 수직 정렬 속성(`vertical-align`, `align-items`, `justify-content` 등)은 폰트 크기 내 텍스트를 정렬하는 것이 아니고 일정한 기준에 따라 폰트 자체의 위치를 조정하는 것으로 앞서 설명 드렸던 **치우쳐 보이는 이유**에서 벗어날 수 없습니다. 따라서 이것이 진정 수직 중앙 정렬한 텍스트가 치우쳐 보이는 이유입니다.\r\r\n\r\r\n\r\r\n## 우리는 아무것도 할 수 없나요?\r\r\n\r\r\n텍스트는 환경에 따라 정렬되어 보인다는 점이 다르다 해도 작게는 0.5px에서 크게는 2px 정도 치우쳐 보이게 됩니다. 이 정도 차이가 일반적으로 큰 문제를 일으키지는 않지만, 이 차이가 굉장히 중요한 문제를 일으키는 때가 있을 수 있습니다. 그러면 우리는 아무것도 할 수 없는 것 일까요?\r\r\n\r\r\n꼭 그렇지만은 않습니다. **보편적인 환경에 대해 모든 문제를 해결하는 것은 어렵지만, 필요한 때에 필요한 곳에서는 제한적으로 대응할 수 있습니다.**\r\r\n\r\r\n\r\r\n### **실용적인 대응 방법**\r\r\n\r\r\n1. **CSS transform 활용하기**[](https://codepen.io/jajugoguma/pen/OPVVwgR?editors=1100)\r\r\n   텍스트가 시각적으로 정확히 중앙에 보이도록 미세하게 조정이 필요한 경우 `transform` 속성을 사용하여 텍스트 위치를 조정할 수 있습니다.\r\r\n\r\r\n    ```css\r\r\n   .vertically-centered-text {\r\r\n   display: flex;\r\r\n   align-items: center;\r\r\n   transform: translateY(-0.5px); /_ 상황에 따라 값 조정 _/\r\r\n   }\r\r\n    ```\r\r\n\r\r\n2. **폰트별 보정 값 적용하기**[](https://codepen.io/jajugoguma/pen/WbvvKzZ?editors=1400)\r\r\n   특정 폰트와 크기에서 반복적으로 발생하는 정렬 문제가 있다면, 해당 조합에 대한 보정 값을 미리 계산하여 적용할 수 있습니다.\r\r\n\r\r\n    ```css\r\r\n   .apple-sd-gothic-neo {\r\r\n   font-family: 'Apple SD Gothic Neo';\r\r\n   transform: translateY(-1.5px);\r\r\n   }\r\r\n\r\r\n   .segoe-ui {\r\r\n   font-family: SegoeUI;\r\r\n   transform: translateY(-3px);\r\r\n   }\r\r\n    ```\r\r\n\r\r\n3. **텍스트 대신 아이콘이나 SVG 사용하기**\r\r\n   정확한 수직 정렬이 매우 중요한 UI 요소(예: 버튼의 아이콘)의 경우, 텍스트 대신 SVG나 아이콘 폰트를 사용하면 더 정확한 배치가 가능합니다.\r\r\n\r\r\n4. **텍스트 박스에 패딩/마진 추가하기**[](https://codepen.io/jajugoguma/pen/pvJJZQK?editors=1400%3C/sup%3E)\r\r\n   텍스트를 담은 요소에 적절한 패딩/마진을 추가하면 미세한 정렬 차이를 눈에 덜 띄게 할 수 있습니다.\r\r\n\r\r\n    ```css\r\r\n   /_ margin을 이용한 정렬 보정 _/\r\r\n   .align-with-margin {\r\r\n   margin-top: -3px;\r\r\n   }\r\r\n\r\r\n   /_ padding을 이용한 정렬 보정 _/\r\r\n   .align-with-padding {\r\r\n   padding-bottom: 3px;\r\r\n   }\r\r\n    ```\r\r\n\r\r\n5. **브라우저 환경 감지 및 조건부 스타일 적용하기**[](https://codepen.io/jajugoguma/pen/EajjpJB)\r\r\n   특정 브라우저나 픽셀 밀도에 따라 다른 보정 값을 적용할 수 있습니다.\r\r\n\r\r\n    ```js\r\r\n   // 브라우저와 픽셀 밀도에 따른 보정 클래스 추가\r\r\n   const element = document.querySelector('.text');\r\r\n\r\r\n   if (navigator.userAgent.includes('Chrome')) {\r\r\n   element.classList.add('chrome-adjustment');\r\r\n   } else if (navigator.userAgent.includes('Safari')) {\r\r\n   element.classList.add('safari-adjustment');\r\r\n   } else if (navigator.userAgent.includes('Firefox')) {\r\r\n   element.classList.add('firefox-adjustment');\r\r\n   }\r\r\n\r\r\n   element.classList.add(`pixelratio-${window.devicePixelRatio}x-adjustment`);\r\r\n    ```\r\r\n\r\r\n    ```css\r\r\n   .chrome-adjustment.pixelratio-1x-adjustment {\r\r\n   transform: translateY(-1px);\r\r\n   }\r\r\n   .chrome-adjustment.pixelratio-2x-adjustment {\r\r\n   transform: translateY(-1.5px);\r\r\n   }\r\r\n   .safari-adjustment.pixelratio-1x-adjustment {\r\r\n   transform: translateY(-1px);\r\r\n   }\r\r\n   .safari-adjustment.pixelratio-2x-adjustment {\r\r\n   transform: translateY(-1px);\r\r\n   }\r\r\n   .firefox-adjustment.pixelratio-1x-adjustment {\r\r\n   transform: translateY(-1.5px);\r\r\n   }\r\r\n   .firefox-adjustment.pixelratio-2x-adjustment {\r\r\n   transform: translateY(-2px);\r\r\n   }\r\r\n    ```\r\r\n\r\r\n\r\r\n## 결론\r\r\n\r\r\n폰트는 디자인적인 이유와 기술적인 제약으로 인해 완벽하게 수직 중앙 정렬되어 보이지 않을 수 있습니다. 이는 폰트 메트릭의 특성, 브라우저의 렌더링 방식, 픽셀 밀도 등 여러 요인이 복합적으로 작용한 결과입니다.\r\r\n\r\r\n완벽한 수직 중앙 정렬을 위한 마법 같은 해결책은 없지만, 폰트의 동작 방식을 이해하고 특정 상황에 맞는 보정을 적용한다면 시각적으로 더 만족스러운 결과를 얻을 수 있습니다.\r\r\n\r\r\n무엇보다 중요한 것은 이러한 차이가 '오류'가 아니라 폰트와 텍스트 렌더링의 본질적인 특성임을 이해하는 것입니다. 보통의 경우 이 미세한 차이는 사용자 경험에 큰 영향을 주지 않으므로, 지나친 완벽주의보다는 전체적인 디자인 일관성과 사용성에 집중하는 것이 바람직합니다.\r\r\n\r\r\nNHN Cloud의 NCUI개발팀은 NCUI 컴포넌트 라이브러리를 통해 NHN Cloud 콘솔 구현 시 더 쉽고 빠르게 UI를 구현할 수 있도록 돕고 있습니다. 이번 글은 그 과정에서 얻은 고민과 작은 팁을 공유한 것으로, 많은 분들이 앞으로 개발하시는 데 참고가 되었으면 좋겠습니다. 긴 글을 읽어 주셔서 감사합니다! \r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_202511.png](https://image.toast.com/aaaadh/alpha/2025/techblog/NHN%20Cloudmeetup%20bannerfooter202511.png)](https://www.nhncloud.com/kr)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/42407",
-    "pubDate": "Wed, 12 Nov 2025 10:52:00 GMT",
+    "link": "https://meetup.nhncloud.com/posts/397",
+    "pubDate": "Tue, 11 Nov 2025 23:35:18 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Spotify Podcast 이전하기 - BIM Insight Digest 시작",
-    "description": "2012년부터 진행했던 Podcast (BIM, CG, SW). 지금까지 Internet Archive 를 이용해 Podcast 호스팅하고 있었는 데, 최근 다시 시작해야겠다는 생각이 들어, Spotify Podcast로 이사하려 한다. 이 과정을 기록한다. \n\n\n오랫동안 무료 호스팅으로 애용했던 Internet Archive\n\nMotivation\n2021년까지 지속했던 Podcast인데, 특히, BIM을 중심으로 진행했었다. 출발은 본인이 저술한 책을 좀 더 알기 쉽게 설명해, 출판사에 조금이나마 도움을 주고자 시작했다. 이게 주객이 전도되어 무려 십년 이상 방송하게 되었다. 개인적으로 알고 있던 것을 다시 정리해 방송하니, 스스로 자극되고, 공부되는 듯한 느낌이 좋았다. 코로나 쯤 너무 오래했고, 하고 싶은 말은 다 한 것 같다는 생각이 들어, 마지막 방송 이후로 지금까지 방송을 쉬었다.\n\n\nBIM digest podcast\n\n그러다, 최근 BIM을 하시는 분들 중에 이론적으로만 접근하시거나, 관리자 위치에 계신 분들이 BIM에 대해 잘못된 이론적 이해만으로 위험한? 이야기를 하고 계시는 것을 보고 다시 Podcast를 해야 하겠다는 생각이 들었다. \n\n\n이론과 현실의 차이\n\nTransfer\n스포티파이 팟캐스트 채널 개설은 매우 쉽다. 호스팅도 자체 제공해 준다. 순서는 다음과 같다. \nTools to manage and grow your podcast - Spotify for Creators 에 가입하고, 새로운 쇼를 만들어 팟캐스트 채널 기본 정보를 입력한 후, 첫 에피소스 방송 녹음파일을 업로드하면 된다. \n\n\n시간이 지나면, 다양한 Podcast 채널(Apple, Google 등)에 본인 방송이 검색으로 표출될 것이다.\n\n\nAgain, Podcast\n약 15년 동안 Podcast를 하다 보니, 호스팅 플랫폼이 크게 3번 바뀌면서 관리가 쉽지 않았는 데, 스포티파이는 빅테크 기업이니 오래가겠지란 생각으로 시작한다. \n\n\n당연하다고 생각했던 것들이 시간이 지나면서 잊혀지고, 잘못 알고 있는 사람들이 조금씩 많아질 때, 방송을 하고 싶은 모티브가 되는 것 같다. 몇 년 간 쉬었으니 이제 천천히 다시 시작!",
+    "title": "Introducing Copilot auto model selection (preview)",
+    "description": "Faster responses, a lower chance of rate limiting, and 10% off premium requests for paid users – auto picks the best available model for each request based on current capacity and performance. With auto, you don’t need to choose a specific model. Copilot automatically selects the best one for your task. Auto model selection in […]\nThe post Introducing Copilot auto model selection (preview) appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/spotify-podcast.html",
-    "pubDate": "2025-11-08T07:28:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/visualstudio/introducing-copilot-auto-model-selection-preview/",
+    "pubDate": "Wed, 12 Nov 2025 17:38:43 +0000",
+    "creator": "Rhea Patel, Nhu Do",
+    "categories": [
+      "Copilot",
+      "GitHub Copilot",
+      "Models",
+      "Artificial Intelligence",
+      "Auto"
+    ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Pushsphere: LINE 메신저의 빠르고 신뢰할 수 있는 대량 푸시 알림 비법",
-    "description": "이 글은 Tech-Verse 2025에서 발표된 Pushsphere: LINE의 신뢰성 있고 신속한 대량 푸시 알림 비법 세션을 글로 옮긴 것입니다.안녕하세요. LINE Plus ...",
+    "title": "Fix build issues using GitHub Copilot after upgrading MSVC Build Tools",
+    "description": "A few problems have reared their heads at every company where I’ve worked on C++ as a Software Engineer over the past 20 years. For the most part, those problems have nothing to do with the language and how it is used, but instead all the “other” stuff, like dealing with long build times, getting […]\nThe post Fix build issues using GitHub Copilot after upgrading MSVC Build Tools appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/pushsphere-reliable-and-prompt-high-volume-push-notification",
-    "pubDate": "Thu, 13 Nov 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/app-modernization-cpp-private-preview/",
+    "pubDate": "Wed, 12 Nov 2025 17:00:21 +0000",
+    "creator": "Michael Price",
+    "categories": [
+      "Announcement",
+      "C++",
+      "Copilot",
+      "Frontend"
+    ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.3 💚 Spring 7",
-    "description": "Major Spring Framework releases don’t come around often – and when they do, they tend to reshape how we build applications for years to come. Spring Framework 7 is one of those releases. It simplifies many aspects of development, cleans up some long-standing pain points, and introduces features that previously required custom annotations or boilerplate-heavy […]",
+    "title": "토스, ‘사업자 신용점수 조회 서비스’ 출시",
+    "description": "영향 항목 한 눈에 확인 가능",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-2025-3-spring-7/",
-    "pubDate": "Fri, 14 Nov 2025 15:31:52 +0000",
-    "creator": "Andrey Belyaev",
-    "categories": [
-      "news",
-      "intellij-idea",
-      "spring-7",
-      "spring-framework"
-    ]
+    "link": "https://toss.im/tossfeed/article/42403",
+    "pubDate": "Wed, 12 Nov 2025 10:54:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 8,
-    "imageUrl": "",
-    "title": "토스, 마케팅 지표를 새롭게 보다… 토스애즈 ‘광고 측정 리포트’ 공개",
-    "description": "광고의 진짜 효과를 보는 방법",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/42357",
-    "pubDate": "Tue, 11 Nov 2025 10:08:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "인플루언서여서가 아니라 시장이 원했던 거예요",
-    "description": "색칠 지도 사용자가 부쩍 늘고 있습니다.\n최근에 지인 두 명에게 각각 들은 이야기입니다.\n“좋겠다. 넌 인플루언서니깐 앱 홍보가 쉽잖아. 보통 사람들은 런칭해도 아무도 안 써.”\n어쩌면 많은 분들이 이 말에 끄덕이면서 현실을 오해할지도 모르겠습니다.\n일단 내가 인플루언서인가?\n그렇다면 제가 생각하는 답은 무엇이냐고요?\n알고 봤더니 시장도 그걸 원했던 것 뿐.\n색칠 지도는 제 블로그에도, 링크드인에도, 쓰레드에도 공유하기 전, 클리앙에 가장 먼저 공유했습니다.\n별생각도 없이 몇 줄 쓴 이 글에 하루 1,500 명의 사용자들이 가입을 했고…\n‘와씨… 이거 뭐야. 시장도 이걸 원하고 있었잖아?’\n가슴이 두근두근하는 순간이었습니다. 내가 제대로 짚었구나.\n이제 그 반대의 예도 들려드리고 싶습니다.\n‘인플루언서’일지도 모르는 제가 런칭한 다른 서비스가 있습니다.\n인앱택스.\n1인 개발자들이 인앱결제로 수익을 냈을 때 부가세 결제를 도와주는 프로그램.\n이 제품을 제 인플루언서 블로그와 쓰레드에 공개했습니다. 그 결과를 알려드립니다.\n카카오 로그인을 통한 가입자 10명.\n실제로 매출 자료를 입력해 본 사용자 0명.\n색칠 지도와 인앱택스는 뭐가 달랐을까요?  \n함께 읽으면 좋은 글:\n색칠 지도 - 내가 가본 우리나라",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/11/10/pmf.html",
-    "pubDate": "2025-11-10T13:37:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Azure MCP Server Now Built-In with Visual Studio 2026: A New Era for Agentic Workflows",
-    "description": "Managing cloud resources often means juggling multiple tools, writing custom scripts, and switching contexts between your IDE and cloud management portals. These extra steps slow development and make it harder to build intelligent, secure applications efficiently. We’re excited to announce that Azure MCP Server (Model Context Protocol) tools are now generally available out-of-the-box in Visual […]\nThe post Azure MCP Server Now Built-In with Visual Studio 2026: A New Era for Agentic Workflows appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/azure-mcp-server-now-built-in-with-visual-studio-2026-a-new-era-for-agentic-workflows/",
-    "pubDate": "Fri, 14 Nov 2025 14:00:14 +0000",
-    "creator": "Yun Jung Choi",
-    "categories": [
-      "Azure",
-      "Cloud",
-      "Copilot",
-      "Visual Studio",
-      "MCP",
-      "Visual Studio 2026"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "330일차 - 간단한게임제작기 2일차",
-    "description": "영상: https://www.youtube.com/watch?v=5U30EcKSfV8\n\n\n\n \n오버레이 카메라 문제는 \nbase 카메라에서 stack 을 열어보면 오버레이 카메라를 추가할 수 있더군요\n \n사용된 이팩트는 Cartoon FX 4 Remaster\n링크: Cartoon FX 4 Remaster | VFX Particles | Unity Asset Store\n\n \nCartoon FX 4 Remaster | 시각 효과 파티클 | Unity Asset Store\nAdd depth to your next project with Cartoon FX 4 Remaster from Jean Moreno. Find this & more 시각 효과 파티클 on the Unity Asset Store.\nassetstore.unity.com\n\n유니티 6 를 잘 지원하고\n다양한 종류가 있어서 쓸만한거 같습니다.\n할인할때 사세요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1469",
-    "pubDate": "Tue, 11 Nov 2025 21:28:40 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "유니티",
-      "인디게임",
-      "자작게임"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "토스, 현대면세점과 ‘페이스페이’ 업무협약 체결… 공동 프로모션 협력",
-    "description": "디지털 결제 혁신 협력",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/42329",
-    "pubDate": "Tue, 11 Nov 2025 05:36:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
     "imageUrl": "",
     "title": "A first look at the all‑new UX in Visual Studio 2026",
     "description": "Visual Studio 2026 introduces a refreshed user experience, thoughtfully crafted for clarity, accessibility, and a clean interface that feels right at home on Windows. This update is the result of extensive collaboration with developers and incorporates valuable feedback from the community. We’ve improved typography, iconography, and the overall layout to minimize distractions and keep your […]\nThe post A first look at the all‑new UX in Visual Studio 2026 appeared first on Visual Studio Blog.",
@@ -190,30 +116,103 @@
     ]
   },
   {
-    "id": 14,
+    "id": 9,
     "imageUrl": "",
-    "title": "네이버와 두나무의 포괄적 주식 교환 - 한국 가상자산 시장의 대전환 신호",
-    "description": "네이버와 두나무, 왜 주식 교환이 주목받는가? 2025년 9월, 국내 IT와 금융시장을 뒤흔든 소식이 전해졌습니다. 바로 네이버가 업비트 운영사 두나무와 포괄적 주식 교환을 추진하다는 뉴스입니다. 네이버는 국내 최대 검색 / 콘텐츠 / 간편결제 플랫폼 보유 두나무는 거래소 업비트를 통해 국내 가상자산 거래의 80%이상 점유 이 두 회사의 결합은 단순 투자",
+    "title": "Rider 2025.3: Day-One Support for .NET 10 and C# 14, a New Default UI, and Faster Startup",
+    "description": "Rider 2025.3 arrives alongside the .NET 10 SDK, continuing our commitment to day-one support for the latest .NET and C# features. This release brings full compatibility with .NET 10 and comprehensive support for C# 14, including extension members, extension operators, and user-defined compound assignment operators – all ready to use from the moment you upgrade […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/314",
-    "pubDate": "Fri, 14 Nov 2025 03:23:15 GMT",
-    "creator": "고명환",
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/11/rider-2025-3-day-one-support-for-dotnet-10/",
+    "pubDate": "Tue, 11 Nov 2025 15:48:17 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "news",
+      "releases",
+      "rider",
+      "net-10",
+      "c-14",
+      "gamedev"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "우연히 뜬 두개의 영상 / 당신은 특별하지 않다.",
+    "description": "오늘도 유튜브를 보고 있는데 두개의 영상이 우연히 연속으로 떳습니다.\n영상의 주요 내용은 서울대 입학 후 7년간 고시 공부를 했지만 실패한 경험당에 대한 내용이였고\n두번째 영상은 비트코인 공부를 하고 알트코인에 투자했다 실패한 사연이였습니다.\n \n고시 공부 7년 후 실패담\n영상1: https://www.youtube.com/watch?v=I8lAbPud1_c&t=638s\n\n\n\n나는 평범한 사람이였다는 것을 깨닳고 변화가 시작된 사람\n \n코인 투자 실패담\n영상2:: https://www.youtube.com/watch?v=FIWndm7lgQ0&t=432s\n\n\n\n공부를 많이 해서 나는 다르다고 생각했으나\n결국 같았고 시장을 이해한 분이군요\n \n \n투자에서는 나는 대단하다고 믿는 것은 위험한 행동입니다.\n나만 성공한다면 우연인 것이고 지속될 수 없습니다.\n \n인간은 욕심이 너무 많고\n나는 평범하고 실패할 수 있다는 것을 잊지 말아야할 것입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1470",
+    "pubDate": "Thu, 13 Nov 2025 10:51:21 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "투자",
+      "투자"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "JetBrains and DMCC AI Centre Announce Strategic Partnership to Accelerate AI Innovation",
+    "description": "JetBrains and the DMCC AI Centre, a premier hub for artificial intelligence (AI) and innovation in the UAE, have announced a strategic collaboration to advance the growth of AI-driven innovation, entrepreneurship, and technical excellence within Dubai’s technology ecosystem. The agreement marks a key step in JetBrains’ rapid expansion across the MENA region, as its local […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/blog/2025/11/11/jetbrains-and-dmcc-ai-centre-announce-strategic-partnership-to-accelerate-ai-innovation/",
+    "pubDate": "Tue, 11 Nov 2025 07:00:00 +0000",
+    "creator": "Delphine Massenhove",
+    "categories": [
+      "ai",
+      "news"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "코드 품질 개선 기법 23편: 반환의 끝이 에지 케이스의 끝",
+    "description": "이 글은 2024년 4월 25일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-23",
+    "pubDate": "Fri, 14 Nov 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "토스, 마케팅 지표를 새롭게 보다… 토스애즈 ‘광고 측정 리포트’ 공개",
+    "description": "광고의 진짜 효과를 보는 방법",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/42357",
+    "pubDate": "Tue, 11 Nov 2025 10:08:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "1인 개발자 셀프 인터뷰",
+    "description": "메이저 신문사에서 인터뷰 요청이 들어와서 메일로 길게 답장을 보내드렸습니다. 그런데…\n\n본인 소개와 함께, 솔로프리너로 창업하게 된 계기를 간단히 말씀해주실 수 있을까요?\n저는 커피한잔이라는 직장인 소개팅 서비스를 만들어서 1인 개발자로 살고 있는 김재호라고 합니다.\n내 실력은 진짜일까 가짜일까?\n\n팀을 꾸려 창업하는 대신, 혼자서 시작한 이유는 무엇인가요? 처음부터 의도했던 건지, 자연스럽게 그렇게 된 건지 궁금합니다.\n처음에는 팀을 꾸려 창업했습니다. 하지만 런칭 후 얼마 되지 않아서 다들 뿔뿔히 흩어지게 됐습니다.\n\n일반 프리랜서와 솔로프리너의 차이가 뭐라고 보시는지요.\n일의 주도권의 차이아닐까요?\n\n현재 운영 중인 제품이나 서비스, 주요 고객층, 수익 모델은 어떻게 되나요?\n커피한잔은 30대 직장인들이 쓰는 소개팅 어플입니다.\n최근에는 색칠 지도라는 내가 가본 우리나라 지역을 색칠하는 다른 서비스를 오픈하기도 했습니다.\n\n민감한 부분일 수 있지만, 공개 가능한 범위에서 월 혹은 연 매출 규모를 공유해주실 수 있을까요? (대략적인 구간 혹은 비율도 괜찮고, 원하지 않으실 경우 답변 생략하셔도 됩니다)\n대기업에서 밤낮없이 일하며 받았던 월급보다 많은 수익이 나고 있습니다.\n\n초기에 매출을 만들기까지 가장 어려웠던 점은 무엇이었나요? 매출이 발생하기까지 걸린 시간도 궁금합니다.\n돈을 벌게 되기까지는 3년 정도가 걸렸습니다.\n\n“성장성에 한계가 있다”, “결국 강의로 수익을 돌린다”, “스케일이 없다” 등 솔로프리너에 대한 비판도 있습니다. 이런 비판에 대해서는 어떻게 생각하시나요.\n성장성에 한계가 있다는 말은 지금까지는 사실이었을 수도 있습니다. 인간 1명이 해낼 수 있는 일에는 한계가 있기 때문에.\n\nVC 업계도 솔로프리너에 대해 아직 보수적인 판단을 내리고 있는거 같습니다. 혹시 솔로프리너에게도 투자가 반드시 필요한 순간이 온다고 생각하시는지, 아니면 계속 이대로 성장하는 방향이 낫다고 보시는지 궁금합니다.\nVC들은 아마 솔로프리너에게 투자하지 않을 겁니다. 궂은 일들을 10년 동안 포기하지 않고 할 수 있는 똑똑하고 성실한 팀을 찾는 것들이 그들의 일인데, ‘솔로’ 창업자에게 투자했다가 창업자가 그만두면? 완전 나가리가 되어버리는 것.\n\n솔로프리너로 오래 가기 위해 개인적으로 지켜오고 있는 원칙이나 루틴이 있다면 공유해주실 수 있을까요?\n매일 코딩하기 입니다. 눈이 오나 비가 오나 매일 코딩하기.\n\n매일 코딩한 흔적들\n\n지금 같은 방향으로 창업하려는 예비 솔로프리너에게 해주고 싶은 현실적인 조언 2~3가지가 있다면요?\n솔로프리너는 유행이기도 하지만 어쩔수 없는 현실이기도 합니다.\n함께 읽으면 좋은 글:\n나는 얼마짜리 사람인가\n진짜 1인 개발자 전성시대",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/11/11/self-interview.html",
+    "pubDate": "2025-11-11T13:53:00.000Z",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "StyleX: A Styling Library for CSS at Scale",
-    "description": "StyleX is Meta’s styling system for large-scale applications. It combines the ergonomics of CSS-in-JS with the performance of static CSS, generating collision-free atomic CSS while allowing for expressive, type-safe style authoring. StyleX was open sourced at the end of 2023 and has since become the standard styling system across Meta products like Facebook, Instagram, WhatsApp, [...]\nRead More...\nThe post StyleX: A Styling Library for CSS at Scale appeared first on Engineering at Meta.",
+    "title": "악역영애 4컷 만화 - 26화, 위기인데스와 ①",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/11/web/stylex-a-styling-library-for-css-at-scale/",
-    "pubDate": "Tue, 11 Nov 2025 17:58:20 +0000",
-    "creator": "Unknown",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2386",
+    "pubDate": "Wed, 12 Nov 2025 16:46:48 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "Open Source",
-      "Web"
+      "웹툰"
     ]
   }
 ]
