@@ -2,132 +2,22 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "JetBrains Plugin Developer Conf 2025 Recordings Are Now Live",
-    "description": "On November 5, 2025, we hosted the second annual JetBrains Plugin Developer Conf, a day dedicated to everything related to building, publishing, and growing plugins for JetBrains IDEs.Thank you to everyone who joined us live and helped make this year’s event even more interactive and inspiring than before! If you missed the live stream or […]",
+    "title": "구글 클라우드 유니버설 렛져 알아보자 / GCUL / Google Cloud Universal Ledger",
+    "description": "구글 블록체인 ?\n \n영상: https://youtu.be/2DjOCESf0cY?t=900\n\n\n\n15분에 잠깐 언급된다.\n \n구글이 한닷\n구글이 운영하는 블록체인이라고 합니다.\nNFT 를 개발할 수 있다고 하네요\n솔리디티 같은 스마트컨트랙트 언어가 있나봅니다.\n \n현재상태는 개발문서가 나오지 않았고\n스마트컨트랙트 언어는 파이선 이라고 합니다. (좋네요)\n \n \n \n네이버도 ?\n찾아보니 네이버도 뭔가 있군요\n\n\n네이버는 문서를 보니 기업용으로 폐쇄형인거 같습니다.\n개발은 포기하구요\n \n \n현재상황\n아직 나온게 없어서 기다려봐야할꺼 같습니다.\n단순하게 보면 스마트컨트렉트 언어를 지원하겠다는 거 같습니다.\n결국 구글이나 네이버도 이더리움 같은 레이어1 코인을 운영할것 같고\n아마 이코인을 수수료로 시스템이 돌아갈 것 같습니다.\n \n결론\n은행이 될꺼 라는거죠",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2025/11/jetbrains-plugin-developer-conf-2025-recordings-are-now-live/",
-    "pubDate": "Tue, 11 Nov 2025 17:51:08 +0000",
-    "creator": "Elena Kerpeleva",
+    "link": "https://serverdown.tistory.com/1477",
+    "pubDate": "Sat, 15 Nov 2025 15:24:30 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "events",
-      "livestreams",
-      "marketplace",
-      "plugins",
-      "jetbrains-marketplace",
-      "plugin-development"
+      "유튜브",
+      "GCUL",
+      "구글",
+      "블록체인"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "토스, 마케팅 지표를 새롭게 보다… 토스애즈 ‘광고 측정 리포트’ 공개",
-    "description": "광고의 진짜 효과를 보는 방법",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/42357",
-    "pubDate": "Tue, 11 Nov 2025 10:08:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "What Developers Really Mean by “Bad Code”",
-    "description": "The phrase “bad code” gets thrown around in reviews and online forums all the time. But what does it actually mean? It’s a good example of the vague terms that occasionally make the rounds in developer circles without much to qualify them.  We’ve collected opinions on the subject, metrics, and code risks that you can […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/11/what-is-bad-code/",
-    "pubDate": "Wed, 12 Nov 2025 15:43:47 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "opinion",
-      "bad-code",
-      "code-quality",
-      "qodana"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.3 💚 Spring 7",
-    "description": "Major Spring Framework releases don’t come around often – and when they do, they tend to reshape how we build applications for years to come. Spring Framework 7 is one of those releases. It simplifies many aspects of development, cleans up some long-standing pain points, and introduces features that previously required custom annotations or boilerplate-heavy […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-2025-3-spring-7/",
-    "pubDate": "Fri, 14 Nov 2025 15:31:52 +0000",
-    "creator": "Andrey Belyaev",
-    "categories": [
-      "news",
-      "intellij-idea",
-      "spring-7",
-      "spring-framework"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "AI 조미료",
-    "description": "얼마 전에, 우리와 공동투자도 많이 하고, 나랑 개인적으로도 친한 다른 투자자와 한국의 초기 AI 스타트업과 창업가들에 대해 이야기할 기회가 있었다. 요새 한국의 초기 AI 시장 분위기는 어떤지, AI 스타트업을 만드는 창업가들은 어떤 사람들인지, 그리고 한국은 이 혼란스러운 시장에서 어떤 플레이를 해야 하는지와 같은 흥미로운 내용이었다. 우리는 초기 회사들을 많이 만난다. 그리고 평균적으로 매달 한두 개의(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/11/the-ai-msg.html",
-    "pubDate": "Wed, 12 Nov 2025 21:42:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "ai",
-      "bubble",
-      "failure",
-      "FoundersAtWork",
-      "Strong",
-      "technology"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "네이버와 두나무의 포괄적 주식 교환 - 한국 가상자산 시장의 대전환 신호",
-    "description": "네이버와 두나무, 왜 주식 교환이 주목받는가? 2025년 9월, 국내 IT와 금융시장을 뒤흔든 소식이 전해졌습니다. 바로 네이버가 업비트 운영사 두나무와 포괄적 주식 교환을 추진하다는 뉴스입니다. 네이버는 국내 최대 검색 / 콘텐츠 / 간편결제 플랫폼 보유 두나무는 거래소 업비트를 통해 국내 가상자산 거래의 80%이상 점유 이 두 회사의 결합은 단순 투자",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/314",
-    "pubDate": "Fri, 14 Nov 2025 03:23:15 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Open Source Is Good for the Environment",
-    "description": "Most people have heard of open-source software. But have you heard about open hardware? And did you know open source can have a positive impact on the environment? On this episode of the Meta Tech Podcast, Pascal Hartig sits down with Dharmesh and Lisa to talk about all things open hardware, and Meta’s biggest announcements [...]\nRead More...\nThe post Open Source Is Good for the Environment appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/14/production-engineering/open-source-is-good-for-the-environment/",
-    "pubDate": "Fri, 14 Nov 2025 20:54:14 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Data Center Engineering",
-      "ML Applications",
-      "Open Source",
-      "Production Engineering",
-      "Meta Tech Podcast"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "토스, 현대면세점과 ‘페이스페이’ 업무협약 체결… 공동 프로모션 협력",
-    "description": "디지털 결제 혁신 협력",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/42329",
-    "pubDate": "Tue, 11 Nov 2025 05:36:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "QCY N70 잘못된 구입기 / 쿠팡 반품비를 조심하세요",
     "description": "QCY N70 리뷰\n영상: https://www.youtube.com/watch?v=1DmdQnf44Cg\n\n\n\n \n뭔가 때깔이 좋아보이서 사고 싶어졌다.\n \n이거 대신에 보고 있던게 보스 qc 이어버드 다\n음질이 좋다는데 혹해서 고민하고 있었다.\n\n\n가격이 18만원 ... \n2021년에 나온 오래된 모델이다.\n이것도 베터리 시간은 마음에 들지 않는다.\n \n구매전 비교평\n무선 이어폰은 쓰다보면 베터리가 줄어든다. 3~5년쯤 쓰면 절반이하로 줄어든다.\n내 에어팟은 7년쯤 되니 재생시간이 10분도 안된다.\n그래서 무조건 재생시간이 긴게 좋은데 보스는 6 시간 이 부분이 제일큰 단점이였다.\nJBL Tune Buds2 는 재생시간이 긴것으로 유명한다. 10시간이다.\n(가격도 8.5만원 정도다)\nQCY N70 은 7 시간 이였다.\n가격도 중요 선택요인이다. \n무선이어폰은 베터리 수명때문에 오래 못쓴다.\n그래서 싼걸 찾기 마련인다.\n그래서 이번엔 QCY 로 가본다.\n \n \n \n바보같은 (비싸게) 구입기\n그래서 QYC N70 으로 사려고 여기저기를 검색\n네이버나 여러곳에서 11만원에 비싸게 팔고 있었다.\n그러다 쿠팡에서 7.5만원에 파는걸 발견해서 질러버렸다.\n(하지만 중국껀 알리에서 검색해야한다는 사실을 잃고 있었다.)\n \n배송일이 ...\n\n\n6만원이 출시가격인데 1.5만원 더 주고 사버렸다.\n그런데 배송일이 11/28 ... 아직 많이 남았다.\n취소하려고 했는데 이미 출발해서 받은 다음 반송하라고 한다.\n\n\n \n그런데 이 제품 취소하면 배송비가 제품비 만큼 나온다.\n제품이 품절되어 제품 설명 스샷이 없다. \n질문 스샷 밖에 없다.\n\n\n이 제품은 해외직구라 반송비용이 엄청나다.\n(불량이면 버리는게 나을 정도)\n반송비용이 제품비 만큼 나오는 상품이라 불량이면 바꿔주냐고 물어보지만\n불리한 말을 피하고 있다.\n(장사는 이렇게 해한다. 보고 배우자)\n \n더 싸게 파는 곳이 있더라\n구입한 물건은 다시 검색하지 말라는 속담이 있다.\n중국꺼라 당연히 알리에서 판다.\n내가 구매할 당시엔 알리에서 안팔던데 \n이제는 되네 ...\n\n\n그렇다 난 호구 똥멍청이가 되었다.\n2.5만원이나 더 주고 사면서 안좋은 조건은 다 걸렸다.\n쿠팡에 실망했고 너무 슬프다.\n이게 불량이나 벽돌이 오면 울어야겠다.\n \n \n반품비 예시 스샷\n\n\n제 제품은 다 팔려서 그런지 아예 없어져서 스샷을 못찍었습니다.\n다른 제품인데요 이런식으로 반품비가 엄청 비싸게 적혀있습니다.\n반품하지 말라는 뜻이니\n불량이면 무료로 되겠지 이렇게 생각하시면 안됩니다.\n\n\n이런식으로 환불 해줄 것 같이 적혀있지만 \n반품을 할때 이미 -100% 가 되기 때문에 환불해줄 금액은 없을 것 같습니다..\n그러니 제품설명에 그림은 믿지 마시고\n배송기간이 아주 길고 반품비가 적혀있으면 구입하지 말것을 추천드립니다.\n불신이 가득해지고 심적으로 매우 힘드네요",
@@ -145,25 +35,73 @@
     ]
   },
   {
-    "id": 10,
+    "id": 3,
     "imageUrl": "",
-    "title": "돈지랄",
-    "description": "요새같이 창업 scene이 재미있고 짜릿했을 때가 없을 정도로 좋은 기술과 좋은 창업가들이 이 생태계에서 많이 보인다. 일어나서 다시 잘 때까지, 이 짧은 시간 동안 매일매일 뭔가 새로운 기술과 제품이 시장에 홍수같이 쏟아져서 남들보다 앞서가긴커녕, 남들과 페이스를 맞추고 따라가기도 힘들 정도로 벅차고, 가끔은 공황 상태에 빠지기도 하지만, 일상이 항상 똑같아서 매너리즘에 빠져 있는 다른 직장인들에 비하면(...)",
+    "title": "Introducing Copilot auto model selection (preview)",
+    "description": "Faster responses, a lower chance of rate limiting, and 10% off premium requests for paid users – auto picks the best available model for each request based on current capacity and performance. With auto, you don’t need to choose a specific model. Copilot automatically selects the best one for your task. Auto model selection in […]\nThe post Introducing Copilot auto model selection (preview) appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/11/dont-fuck-with-other-peoples-money.html",
-    "pubDate": "Sun, 16 Nov 2025 21:35:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://devblogs.microsoft.com/visualstudio/introducing-copilot-auto-model-selection-preview/",
+    "pubDate": "Wed, 12 Nov 2025 17:38:43 +0000",
+    "creator": "Rhea Patel, Nhu Do",
     "categories": [
-      "Uncategorized",
-      "failure",
-      "fundraising",
-      "general",
-      "vc"
+      "Copilot",
+      "GitHub Copilot",
+      "Models",
+      "Artificial Intelligence",
+      "Auto"
     ]
   },
   {
-    "id": 11,
+    "id": 4,
+    "imageUrl": "",
+    "title": "토스 미니앱을 더 잘 쓰기 위한 7가지 질문과 답변",
+    "description": "알고 사용하면 더 가까워지는 토스 미니앱",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/toss_miniapp_qna_2",
+    "pubDate": "Thu, 13 Nov 2025 07:34:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Introducing MSVC AddressSanitizer for ARM64 targets",
+    "description": "We are pleased to announce AddressSanitizer (ASan) support for the Microsoft C++ (MSVC) Build Tools for ARM64 targets. ASan is a runtime memory error detector that identifies difficult-to-find bugs with zero false positives and improves memory safety. More technical information on ASan can be found at aka.ms/asan.  ASan has long supported the x64 and x86 architectures. With the release of Visual Studio 2026 for […]\nThe post Introducing MSVC AddressSanitizer for ARM64 targets appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/introducing-msvc-addresssanitizer-for-arm64-targets/",
+    "pubDate": "Mon, 17 Nov 2025 20:51:21 +0000",
+    "creator": "Zachary Johnson",
+    "categories": [
+      "AddressSanitizer",
+      "Announcement",
+      "C++",
+      "address sanitizer"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Perform wide-sweeping refactors using C++ code editing tools for GitHub Copilot",
+    "description": "Refactoring a C++ codebase can often require tracking updates across various sections of multiple files to ensure accuracy and relevancy.  Historically, developers have relied on manual searches across a codebase and refactoring tools to perform these types of edits. However, with GitHub Copilot agents, developers can now delegate these complex editing tasks to the agent, […]\nThe post Perform wide-sweeping refactors using C++ code editing tools for GitHub Copilot appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/perform-wide-sweeping-refactors-using-c-code-editing-tools-for-github-copilot/",
+    "pubDate": "Wed, 12 Nov 2025 17:31:14 +0000",
+    "creator": "Sinem Akinci",
+    "categories": [
+      "Announcement",
+      "C++",
+      "Copilot",
+      "GitHub",
+      "New Feature",
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "수직 중앙 정렬한 텍스트가 치우쳐 보이는 이유",
     "description": "[![NHN Cloud_meetup banner_fontAlign_202511.png](https://image.toast.com/aaaadh/real/2025/techblog/NHN%20Cloudmeetup%20bannerfontAlign202511.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n\r\r\n혹시 어떤 요소에 넣은 텍스트를 예쁘게 보이려 수직 중앙 정렬 스타일을 적용했는데 조금 치우쳐 보였던 경험이 있으신가요? 화면을 보다 보니 다양한 텍스트들이 조금 삐뚤빼뚤해 보였던 적이 있으신가요? 혹시 아래 문장도 조금 치우쳐져 보이시나요? \r\r\n\r\r\n그렇다면 이건 기분 탓이 아니라 진짜 치우쳐 표시되기 때문입니다.\n\r\r\n\r\r\n폰트 메트릭, 브라우저 렌더링, 픽셀 밀도의 상호작용이 만들어 내는 미묘한 차이 때문이죠. 이번 글에서는 폰트가 왜 그렇게 보이는지, 그리고 우리가 어떻게 좀 더 자연스럽게 정렬을 맞춰줄 수 있는지 함께 알아봅니다.\r\r\n\r\r\n## [여기](https://codepen.io/jajugoguma/full/LEVEyEm) 알파벳 대문자 M이 있습니다.\r\r\n\r\r\n> 대문자 M을 선택한 이유는 폰트 디자인에서 M이 대문자 기준 높이(Cap height)를 측정할 때 사용되는 대표적인 문자이기 때문입니다.\r\r\n> M은 위아래 경계가 명확한 직선으로 이루어져 있어 높이 측정이 용이하고, 상하 정렬 상태를 명확히 관찰할 수 있습니다. 또한 대부분의 폰트에서 M은 일관된 특성을 보여 폰트 간 비교에도 적합합니다.\r\r\n\r\r\n![text1.png](https://image.toast.com/aaaadh/real/2025/techblog/text1.png)\r\r\n\r\r\n> 위 이미지는 `devicePixelRatio`가 2인 화면(2x 스케일링), Chrome 136에서 캡처된 이미지로, 다른 환경에서는 다르게 표시될 수 있습니다.\r\r\n\r\r\n위 이미지는 `font-family: Pretendard, font-size: 50px`이 적용된 알파벳 대문자 `M`이 화면에 표시되는 실제 크기를 측정한 이미지입니다. `font-size`로 설정한 값(`50px`)과 달리 `59.5px`의 높이를 갖는 것을 확인할 수 있습니다. 내가 지정한 크기로 표시되지 않는다니, 잘못 표시되는 것일까요?\r\r\n\r\r\n결론부터 말씀드리자면, 아닙니다. 이것은 폰트와 `font-size`, 그리고 브라우저가 이렇게 나타나도록 만들어져 있기 때문입니다.\r\r\n\r\r\n\r\r\n## 폰트는 어떻게 만들어져 있을까?\r\r\n\r\r\n폰트는 수학적으로 정의된 **좌표 공간** 안에서 만들어집니다. 이 공간 안에서 문자들의 상대적 크기, 간격, 기준선 등(메트릭)이 정해지며, **글자 모양과 메트릭이 결합되어 렌더링**됩니다.\r\r\n\r\r\n즉, 폰트의 모양과 메트릭을 결정짓기 전에 폰트가 만들어질 좌표 공간을 정해야 하고 이를 **Em-square**라고 합니다. 그리고 이 사각형의 크기를 **EM 크기**라고 합니다. EM 크기는 상대적 단위의 크기로 일반적으로 1000 또는 2048 단위로 설정됩니다.\r\r\n\r\r\n좌표 공간을 지정했으면 폰트 메트릭을 결정할 차례입니다. 폰트 메트릭은 **폰트 모양이 좌표 내에 어디에 표시될지**를 결정하는 아주 중요한 지표입니다. 메트릭이 없으면 글자가 좌표 공간 내에서 멋대로 배치되어 글자가 삐뚤빼뚤하게 표시될 수 있습니다. 아래는 주요 폰트 메트릭에 대한 설명과 이해를 돕기 위한 그림입니다.\r\r\n\r\r\n![text2.png](https://image.toast.com/aaaadh/real/2025/techblog/text2.png)\r\r\n\r\r\n| 요소           | 설명                                                                                                        |\r\r\n| -------------- | ----------------------------------------------------------------------------------------------------------- |\r\r\n| **EM Square**  | 글꼴의 모든 문자가 설계되는 가상의 좌표 공간\n모든 글자는 이 가상의 정사각형 안에서 상대 좌표로 설계된다. |\r\r\n| **Baseline**   | 글자가 놓이는 기준 선                                                                                       |\r\r\n| **x-height**   | 소문자 ‘x’의 높이(소문자 기준 높이)                                                                        |\r\r\n| **Cap height** | 대문자 기준 높이(‘M’, ‘H’ 등)                                                                              |\r\r\n| **Ascender**   | ‘b’, ‘d’, ‘k’처럼 위로 튀어나온 부분의 최대 높이                                                            |\r\r\n| **Descender**  | ‘g’, ‘p’, ‘y’처럼 아래로 내려가는 부분의 깊이                                                               |\r\r\n\r\r\n즉, 폰트의 모든 글자는 Baseline을 기준으로 Descender 만큼 아래로 나타날 수 있고, Ascender 만큼 위로 나타날 수 있습니다. 또한 EM 크기는 기준이 되는 상대적 단위의 크기이므로 Ascender와 Descender의 합이 EM 크기보다 작거나 클 수 있습니다.\r\r\n\r\r\n이제 폰트 메트릭까지 설정했으니, 폰트의 각 글자의 모양만 만들면 폰트가 만들어집니다. 아래는 예제에서 사용한 폰트 Pretendard의 메트릭 정보입니다.\r\r\n\r\r\n![text3.png](https://image.toast.com/aaaadh/real/2025/techblog/text3.png)\r\r\n\r\r\n\r\r\n## 그래서 폰트 크기는 어떻게 결정되는데?\r\r\n\r\r\n앞서 우리가 `font-size`로 설정한 값이 실제 폰트 크기로 설정되지 않는 이유 중 하나는 `font-size`가 이렇게 나타나도록 만들어져 있기 때문이라고 했습니다. 이에 대해 결론부터 말하자면 `font-size`는 폰트의 문자 그 자체의 높이가 아닌 **폰트의 `em-square`의 크기를 결정**짓는 속성입니다.[](https://www.w3.org/TR/CSS2/fonts.html#font-size-props)\r\r\n\r\r\n이제 Pretendard 폰트가 `font-size`값에 따라 크기가 어떻게 결정되는지 알아봅시다. Pretendard 폰트는 2048 단위의 EM 크기에서 1949(Ascender)+494(Descender) 단위를 사용합니다. 이는 EM 크기가 `2048px`로 결정되면 폰트의 크기는 `2443(=1949+494)px`이 된다는 의미입니다.[](https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align?utm_source=CSS-Weekly&utm_campaign=Issue-253&utm_medium=web)\r\r\n\r\r\n그러면 예제의 높이를 계산해 볼까요? `font-size: 50px`이라는 뜻은 EM 크기가 `50px`로 결정되었다는 뜻이고, 이에 따라 폰트의 크기는 `59.5(≈ 2443 / 2048 * 50)px`(2x 스케일링으로 `0.5px`까지 표현 가능)로 계산됩니다. 이 값은 예제가 갖는 값과 동일하다는 것을 알 수 있습니다.\r\r\n\r\r\n이제 우리는 메트릭 정보와 `font-size`를 이용해 실제로 폰트가 몇 픽셀로 나타날지 계산할 수 있습니다!\r\r\n\r\r\n```\r\r\n폰트 크기 = (${Ascender} + ${Descender}) / ${EM 크기} \\* ${font-size}\r\r\n```\r\r\n\r\r\n\r\r\n## 내가 궁금한 건 폰트가 왜 치우치냐예요.\r\r\n\r\r\n지금까지 폰트가 왜 치우쳐 나타나는지 알기 위해 폰트의 크기가 어떻게 결정되는지를 알아봤습니다. 폰트가 치우치는 것은 이렇게 결정된 폰트 크기 내에 문자가 어떻게 배치되는지에 따라 결정되는 것입니다. 우리는 폰트 메트릭에서 문자가 놓일 기준선과 문자의 기준 높이, 그리고 위/아래 최대 높이를 알 수 있었습니다. 이를 활용하면 문자가 위/아래에 얼마 만큼의 여백을 두고 나타날지(수직으로 어디에 정렬될지) 알 수 있습니다.\r\r\n\r\r\n먼저 글자의 높이와 여백을 쉽게 측정하기 위해 예제의 `font-size`를 `51px`로 조정해서 폰트의 크기가 정수(`61px`)로 결정되도록 조정하겠습니다.[](https://codepen.io/jajugoguma/full/OPVPqax)\r\r\n\r\r\n![text4.png](https://image.toast.com/aaaadh/real/2025/techblog/text4.png)\r\r\n\r\r\n이제 대문자 M의 크기와 위/아래 여백의 크기를 계산해 봅시다. 앞서 수식에서 `(${Ascender} + ${Descender})`을 계산하고자 하는 메트릭 값으로 치환하면 원하는 계산 결과를 얻을 수 있습니다.\r\r\n\r\r\n```js\r\r\n// 대문자 M의 크기 ≈ ${Cap height} / ${EM 크기} * ${font-size}\r\r\n1448 / 2048 * 51 = 36.05859375(px)\r\r\n// 아래 여백의 크기 ≈ ${Descender} / ${EM 크기} * ${font-size}\r\r\n494 / 2048 * 51 = 12.30175781(px)\r\r\n// 위 여백의 크기 ≈(${Ascender} - ${Cap height}) / ${EM 크기} _ ${font-size}\r\r\n(1949 - 1448) / 2048 _ 51 = 12.47607422(px)\r\r\n```\r\r\n\r\r\n아래는 실제 화면에 나타나는 대문자 M의 크기과 위/아래 여백의 크기를 확인할 수 있는 그림입니다.(2x 환경의 `pt` 단위는 스케일링된 픽셀 크기입니다.)\r\r\n\r\r\n| Chrome                              | Chrome(2x)                          | Safari                                | Safari(2x)                            | FireFox                               | Firefox(2x)                            |\r\r\n| ----------------------------------- | ----------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- | -------------------------------------- |\r\r\n|![text5_chrome.png](https://image.toast.com/aaaadh/real/2025/techblog/text5chrome.png)|![text5_chrome2x.png](https://image.toast.com/aaaadh/real/2025/techblog/text5chrome2x.png)|![text5_safari.png](https://image.toast.com/aaaadh/real/2025/techblog/text5safari.png)|![text5_safari2.png](https://image.toast.com/aaaadh/real/2025/techblog/text5safari2.png)|![text5_firefox.png](https://image.toast.com/aaaadh/real/2025/techblog/text5firefox.png)|![text5_firefox2.png](https://image.toast.com/aaaadh/real/2025/techblog/text5firefox2.png)|\r\r\n\r\r\n위 그림에 따라 세 브라우저 모두 환경 무관하게 폰트 크기가 `61px`, 대문자 M의 크기는 1x 환경에서 `37px`, 2x 환경에서 `36.5px`로 동일하게 계산된 것을 볼 수 있습니다. 그러나 브라우저마다 각 환경에 따른 위/아래 여백 계산 결과에 차이를 보여 동일한 폰트에 동일한 문자라 할지라도 환경에 따라 텍스트가 시각적으로 중앙에 정렬되어 보일 수도, 그렇지 않을 수도 있음을 알 수 있습니다.\r\r\n\r\r\n이번 예제는 그래도 폰트의 크기도, 대문자 M의 크기도 홀수로 계산되고 위/아래 여백으로 사용될 너비가 짝수여서 어떻게든 중앙에 나타날 수 있는 형태였습니다. 하지만, 위/아래 여백으로 사용될 너비가 홀수라면 어떻게 될까요?\r\r\n\r\r\n이번에는 `font-size`를 `11px`로 설정해서 폰트 크기는 홀수(`13px`), 대문자 M의 크기는 짝수(`8px`)로 나타내 보도록 하겠습니다.[](https://codepen.io/jajugoguma/full/azOOKEE) 먼저, 변경된 값과 폰트 메트릭에 따른 크기를 다시 계산해 봅시다.\r\r\n\r\r\n```js\r\r\n// 대문자 M의 크기 ≈ ${Cap height} / ${EM 크기} * ${font-size}\r\r\n1448 / 2048 * 11 = 7.77734375(px)\r\r\n// 아래 여백의 크기 ≈ ${Descender} / ${EM 크기} * ${font-size}\r\r\n494 / 2048 * 11 = 2.65332031(px)\r\r\n// 위 여백의 크기 ≈(${Ascender} - ${Cap height}) / ${EM 크기} _ ${font-size}\r\r\n(1949 - 1448) / 2048 _ 11 = 2.69091797(px)\r\r\n```\r\r\n\r\r\n| Chrome                                                             | Chrome(2x)                                                         |\r\r\n| ------------------------------------------------------------------ | ------------------------------------------------------------------ |\r\r\n|![text6_chrome.png](https://image.toast.com/aaaadh/real/2025/techblog/text6chrome.png) |![text6_chrome2.png](https://image.toast.com/aaaadh/real/2025/techblog/text6chrome2.png) |\r\r\n|![text7_chrome.png](https://image.toast.com/aaaadh/real/2025/techblog/text7chrome.png)| ![text7_chrome2.png](https://image.toast.com/aaaadh/real/2025/techblog/text7chrome2.png) |\r\r\n\r\r\n대문자 M의 크기가 짝수(`8px`)로 결정됨에 따라 위/아래 여백으로 사용 가능한 크기가 홀수(`5px`)로 결정됩니다. 그러나 2x 환경에서는 `.5px`까지 렌더링할 수 있어서 중앙 정렬이 잘 되어 보이지만, 1x 환경에서는 픽셀을 반으로 나누는 게 불가능해 한 쪽으로 `1px` 치우쳐 보일 수밖에 없습니다.\r\r\n\r\r\n지금까지 확인한 바와 같이 텍스트는 텍스트를 보는 환경에 따라 폰트 크기 내에서 수직 중앙 정렬이 될 수도, 아닐 수도 있다는 사실을 알았습니다. 다양한 CSS 수직 정렬 속성(`vertical-align`, `align-items`, `justify-content` 등)은 폰트 크기 내 텍스트를 정렬하는 것이 아니고 일정한 기준에 따라 폰트 자체의 위치를 조정하는 것으로 앞서 설명 드렸던 **치우쳐 보이는 이유**에서 벗어날 수 없습니다. 따라서 이것이 진정 수직 중앙 정렬한 텍스트가 치우쳐 보이는 이유입니다.\r\r\n\r\r\n\r\r\n## 우리는 아무것도 할 수 없나요?\r\r\n\r\r\n텍스트는 환경에 따라 정렬되어 보인다는 점이 다르다 해도 작게는 0.5px에서 크게는 2px 정도 치우쳐 보이게 됩니다. 이 정도 차이가 일반적으로 큰 문제를 일으키지는 않지만, 이 차이가 굉장히 중요한 문제를 일으키는 때가 있을 수 있습니다. 그러면 우리는 아무것도 할 수 없는 것 일까요?\r\r\n\r\r\n꼭 그렇지만은 않습니다. **보편적인 환경에 대해 모든 문제를 해결하는 것은 어렵지만, 필요한 때에 필요한 곳에서는 제한적으로 대응할 수 있습니다.**\r\r\n\r\r\n\r\r\n### **실용적인 대응 방법**\r\r\n\r\r\n1. **CSS transform 활용하기**[](https://codepen.io/jajugoguma/pen/OPVVwgR?editors=1100)\r\r\n   텍스트가 시각적으로 정확히 중앙에 보이도록 미세하게 조정이 필요한 경우 `transform` 속성을 사용하여 텍스트 위치를 조정할 수 있습니다.\r\r\n\r\r\n    ```css\r\r\n   .vertically-centered-text {\r\r\n   display: flex;\r\r\n   align-items: center;\r\r\n   transform: translateY(-0.5px); /_ 상황에 따라 값 조정 _/\r\r\n   }\r\r\n    ```\r\r\n\r\r\n2. **폰트별 보정 값 적용하기**[](https://codepen.io/jajugoguma/pen/WbvvKzZ?editors=1400)\r\r\n   특정 폰트와 크기에서 반복적으로 발생하는 정렬 문제가 있다면, 해당 조합에 대한 보정 값을 미리 계산하여 적용할 수 있습니다.\r\r\n\r\r\n    ```css\r\r\n   .apple-sd-gothic-neo {\r\r\n   font-family: 'Apple SD Gothic Neo';\r\r\n   transform: translateY(-1.5px);\r\r\n   }\r\r\n\r\r\n   .segoe-ui {\r\r\n   font-family: SegoeUI;\r\r\n   transform: translateY(-3px);\r\r\n   }\r\r\n    ```\r\r\n\r\r\n3. **텍스트 대신 아이콘이나 SVG 사용하기**\r\r\n   정확한 수직 정렬이 매우 중요한 UI 요소(예: 버튼의 아이콘)의 경우, 텍스트 대신 SVG나 아이콘 폰트를 사용하면 더 정확한 배치가 가능합니다.\r\r\n\r\r\n4. **텍스트 박스에 패딩/마진 추가하기**[](https://codepen.io/jajugoguma/pen/pvJJZQK?editors=1400%3C/sup%3E)\r\r\n   텍스트를 담은 요소에 적절한 패딩/마진을 추가하면 미세한 정렬 차이를 눈에 덜 띄게 할 수 있습니다.\r\r\n\r\r\n    ```css\r\r\n   /_ margin을 이용한 정렬 보정 _/\r\r\n   .align-with-margin {\r\r\n   margin-top: -3px;\r\r\n   }\r\r\n\r\r\n   /_ padding을 이용한 정렬 보정 _/\r\r\n   .align-with-padding {\r\r\n   padding-bottom: 3px;\r\r\n   }\r\r\n    ```\r\r\n\r\r\n5. **브라우저 환경 감지 및 조건부 스타일 적용하기**[](https://codepen.io/jajugoguma/pen/EajjpJB)\r\r\n   특정 브라우저나 픽셀 밀도에 따라 다른 보정 값을 적용할 수 있습니다.\r\r\n\r\r\n    ```js\r\r\n   // 브라우저와 픽셀 밀도에 따른 보정 클래스 추가\r\r\n   const element = document.querySelector('.text');\r\r\n\r\r\n   if (navigator.userAgent.includes('Chrome')) {\r\r\n   element.classList.add('chrome-adjustment');\r\r\n   } else if (navigator.userAgent.includes('Safari')) {\r\r\n   element.classList.add('safari-adjustment');\r\r\n   } else if (navigator.userAgent.includes('Firefox')) {\r\r\n   element.classList.add('firefox-adjustment');\r\r\n   }\r\r\n\r\r\n   element.classList.add(`pixelratio-${window.devicePixelRatio}x-adjustment`);\r\r\n    ```\r\r\n\r\r\n    ```css\r\r\n   .chrome-adjustment.pixelratio-1x-adjustment {\r\r\n   transform: translateY(-1px);\r\r\n   }\r\r\n   .chrome-adjustment.pixelratio-2x-adjustment {\r\r\n   transform: translateY(-1.5px);\r\r\n   }\r\r\n   .safari-adjustment.pixelratio-1x-adjustment {\r\r\n   transform: translateY(-1px);\r\r\n   }\r\r\n   .safari-adjustment.pixelratio-2x-adjustment {\r\r\n   transform: translateY(-1px);\r\r\n   }\r\r\n   .firefox-adjustment.pixelratio-1x-adjustment {\r\r\n   transform: translateY(-1.5px);\r\r\n   }\r\r\n   .firefox-adjustment.pixelratio-2x-adjustment {\r\r\n   transform: translateY(-2px);\r\r\n   }\r\r\n    ```\r\r\n\r\r\n\r\r\n## 결론\r\r\n\r\r\n폰트는 디자인적인 이유와 기술적인 제약으로 인해 완벽하게 수직 중앙 정렬되어 보이지 않을 수 있습니다. 이는 폰트 메트릭의 특성, 브라우저의 렌더링 방식, 픽셀 밀도 등 여러 요인이 복합적으로 작용한 결과입니다.\r\r\n\r\r\n완벽한 수직 중앙 정렬을 위한 마법 같은 해결책은 없지만, 폰트의 동작 방식을 이해하고 특정 상황에 맞는 보정을 적용한다면 시각적으로 더 만족스러운 결과를 얻을 수 있습니다.\r\r\n\r\r\n무엇보다 중요한 것은 이러한 차이가 '오류'가 아니라 폰트와 텍스트 렌더링의 본질적인 특성임을 이해하는 것입니다. 보통의 경우 이 미세한 차이는 사용자 경험에 큰 영향을 주지 않으므로, 지나친 완벽주의보다는 전체적인 디자인 일관성과 사용성에 집중하는 것이 바람직합니다.\r\r\n\r\r\nNHN Cloud의 NCUI개발팀은 NCUI 컴포넌트 라이브러리를 통해 NHN Cloud 콘솔 구현 시 더 쉽고 빠르게 UI를 구현할 수 있도록 돕고 있습니다. 이번 글은 그 과정에서 얻은 고민과 작은 팁을 공유한 것으로, 많은 분들이 앞으로 개발하시는 데 참고가 되었으면 좋겠습니다. 긴 글을 읽어 주셔서 감사합니다! \r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_202511.png](https://image.toast.com/aaaadh/alpha/2025/techblog/NHN%20Cloudmeetup%20bannerfooter202511.png)](https://www.nhncloud.com/kr)",
@@ -175,7 +113,58 @@
     "categories": []
   },
   {
-    "id": 12,
+    "id": 8,
+    "imageUrl": "",
+    "title": "Optimize Your C++ Build Times with GitHub Copilot",
+    "description": "Long build times are one of the top pain points for C++ projects. If you’ve ever waited too long for a C++ build to finish, you know how much it can slow down your productivity. In past years, we introduced C++ Build Insights to help you analyze traces and find bottlenecks. However, we know that […]\nThe post Optimize Your C++ Build Times with GitHub Copilot appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/optimize-your-c-build-times-with-github-copilot/",
+    "pubDate": "Wed, 12 Nov 2025 17:12:48 +0000",
+    "creator": "David Li",
+    "categories": [
+      "Build Insights",
+      "Build Optimization",
+      "C++",
+      "Build Time"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "에픽스토어 무료게임 Scourge bringe / Songs of Silence",
+    "description": "무료게임이 또 나왔군요\n언제쯤 이정도 만들 수 있을런지 ... (좌절)\n \n \nScourge bringe / 스컬지 브링거\n영상: https://www.youtube.com/watch?v=WUZf7S2NxnU\n\n\n\n플렛포머 게임이군요 공긱이 이동과 섞여서 \n거의 날아 다닐 수 있다고 합니다.\n잘만들었군요\n \n \nSongs of Silence / 송 오브 사일런스\n영상: https://www.youtube.com/watch?v=dzgYgO_PUN8\n\n\n\n \n히어로즈 오브 마이트 앤 매직 생각나는군요\n이동은 턴제 같은데\n전투는 잘 모르겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1476",
+    "pubDate": "Fri, 14 Nov 2025 18:32:33 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "게임",
+      "무료게임"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "JetBrains Plugin Developer Conf 2025 Recordings Are Now Live",
+    "description": "On November 5, 2025, we hosted the second annual JetBrains Plugin Developer Conf, a day dedicated to everything related to building, publishing, and growing plugins for JetBrains IDEs.Thank you to everyone who joined us live and helped make this year’s event even more interactive and inspiring than before! If you missed the live stream or […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2025/11/jetbrains-plugin-developer-conf-2025-recordings-are-now-live/",
+    "pubDate": "Tue, 11 Nov 2025 17:51:08 +0000",
+    "creator": "Elena Kerpeleva",
+    "categories": [
+      "events",
+      "livestreams",
+      "marketplace",
+      "plugins",
+      "jetbrains-marketplace",
+      "plugin-development"
+    ]
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "C# 14 Language Features in ReSharper and Rider 2025.3",
     "description": "Last year marked the first time we shipped ReSharper and Rider side by side with the official .NET SDK release – and we’re happy to announce that we’ve done it again with the 2025.3 release! Download Rider 2025.3 Download ReSharper 2025.3 With .NET 10 and C# 14, both ReSharper and Rider are ready on day […]",
@@ -196,48 +185,71 @@
     ]
   },
   {
-    "id": 13,
+    "id": 12,
     "imageUrl": "",
-    "title": "코드 품질 개선 기법 23편: 반환의 끝이 에지 케이스의 끝",
-    "description": "이 글은 2024년 4월 25일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
+    "title": "Fix build issues using GitHub Copilot after upgrading MSVC Build Tools",
+    "description": "A few problems have reared their heads at every company where I’ve worked on C++ as a Software Engineer over the past 20 years. For the most part, those problems have nothing to do with the language and how it is used, but instead all the “other” stuff, like dealing with long build times, getting […]\nThe post Fix build issues using GitHub Copilot after upgrading MSVC Build Tools appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-23",
-    "pubDate": "Fri, 14 Nov 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/app-modernization-cpp-private-preview/",
+    "pubDate": "Wed, 12 Nov 2025 17:00:21 +0000",
+    "creator": "Michael Price",
+    "categories": [
+      "Announcement",
+      "C++",
+      "Copilot",
+      "Frontend"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Why Diffusion Models Could Change Developer Workflows in 2026",
+    "description": "Developers spend much of their time editing, refactoring, and debugging rather than producing entirely new code. Code creation tends to involve non-sequential back-and-forth refinement rather than typing out a complete function in one uninterrupted sequence. You might sketch a part, adjust parameters, skip ahead, then revisit earlier sections to refine them.  Diffusion models, and in […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/11/why-diffusion-models-could-change-developer-workflows-in-2026/",
+    "pubDate": "Mon, 17 Nov 2025 07:23:13 +0000",
+    "creator": "Damian Bogunowicz",
+    "categories": [
+      "coding",
+      "plugin-development",
+      "jetbrains-ai",
+      "research",
+      "ai",
+      "python"
+    ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "ReSharper 2025.3: Day-One C# 14 Support, Visual Studio 2026 Compatibility, and Major Performance Gains",
-    "description": "We’re pleased to announce the release of ReSharper 2025.3 in sync with .NET 10, continuing our tradition of releases that deliver day-one support for the newest C# language features. This version brings comprehensive C# 14 coverage, including extension members, extension operators, and user-defined compound assignment operators – all ready to use as soon as you […]",
+    "title": "[MULTI] 지스타 2025, 취재·컨퍼런스 등 관련 기사 종합",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/11/11/resharper-2025-3-day-one-csharp-14-support-visual-studio-2026-compatible/",
-    "pubDate": "Tue, 11 Nov 2025 15:48:34 +0000",
-    "creator": "Sasha Ivanova",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2388",
+    "pubDate": "Mon, 17 Nov 2025 09:08:18 +0900",
+    "creator": "샤말란의눈",
     "categories": [
-      "net-tools",
-      "releases",
-      "resharper",
-      "out-of-process-2",
-      "performance",
-      "visual-studio-2026"
+      "특집"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "25년 11월 수능 AI 만점 받아",
-    "description": "문제가 공개가 안되는데 이번부터는 공개가 되나봅니다.\n돌려본 사람이 있었고\n만점 받았다고 합니다.\n인간이고 수능이고 끝났습니다.\n \n \n영상: https://youtu.be/GWBfIov4r6M?t=2129\n\n\n\n35분에 나옵니다.\n모두 2시간 이내 완료했고\nGPT 5 코덱스가 (200억 파라메터) 이 만점을 받았다고 합니다.\n다른 것들도 대부분 점수가 좋습니다.",
+    "title": "What’s Been Fixed in Rider 2025.3",
+    "description": "Each release of JetBrains Rider is shaped by an ongoing conversation between our team and our users. Your feedback, bug reports, and upvotes complement our internal QA processes and performance tracking, helping us understand how issues manifest across diverse environments and project setups. This collaboration allows us to prioritize the fixes that have the greatest […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1480",
-    "pubDate": "Sun, 16 Nov 2025 22:09:50 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/11/what-s-been-fixed-in-rider-2025-3/",
+    "pubDate": "Tue, 11 Nov 2025 15:49:14 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "유튜브"
+      "net-tools",
+      "rider",
+      "bug-fix",
+      "bug-fix-update",
+      "quality-assurance"
     ]
   }
 ]
