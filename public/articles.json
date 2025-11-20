@@ -2,46 +2,48 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "에픽스토어 무료게임 Scourge bringe / Songs of Silence",
-    "description": "무료게임이 또 나왔군요\n언제쯤 이정도 만들 수 있을런지 ... (좌절)\n \n \nScourge bringe / 스컬지 브링거\n영상: https://www.youtube.com/watch?v=WUZf7S2NxnU\n\n\n\n플렛포머 게임이군요 공긱이 이동과 섞여서 \n거의 날아 다닐 수 있다고 합니다.\n잘만들었군요\n \n \nSongs of Silence / 송 오브 사일런스\n영상: https://www.youtube.com/watch?v=dzgYgO_PUN8\n\n\n\n \n히어로즈 오브 마이트 앤 매직 생각나는군요\n이동은 턴제 같은데\n전투는 잘 모르겠습니다.",
+    "title": "IntelliJ IDEA 2025.3 💚 Spring 7",
+    "description": "Major Spring Framework releases don’t come around often – and when they do, they tend to reshape how we build applications for years to come. Spring Framework 7 is one of those releases. It simplifies many aspects of development, cleans up some long-standing pain points, and introduces features that previously required custom annotations or boilerplate-heavy […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1476",
-    "pubDate": "Fri, 14 Nov 2025 18:32:33 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-2025-3-spring-7/",
+    "pubDate": "Fri, 14 Nov 2025 15:31:52 +0000",
+    "creator": "Andrey Belyaev",
     "categories": [
-      "게임",
-      "무료게임"
+      "news",
+      "intellij-idea",
+      "spring-7",
+      "spring-framework"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "[NS2] 뭉클하면서 쌉싸름한 왕눈식 무쌍의 완성, 젤다무쌍 봉인 전기",
-    "description": "No description available",
+    "title": "How to Prepare for the Future of Programming",
+    "description": "Start a start-up? Scratch that. Call your mom. Go back to school? Don’t go back to school. Learn to code? Don’t learn to code. Forget coding. Only prompt engineering matters now. Actually, I heard it’s overrated. You think we’re gonna be prompting in 5 years? 2 years? Nonsense. All this hype is being blown so […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2387",
-    "pubDate": "Wed, 12 Nov 2025 17:42:48 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://blog.jetbrains.com/education/2025/11/17/how-to-prepare-for-the-future-of-programming/",
+    "pubDate": "Mon, 17 Nov 2025 11:17:09 +0000",
+    "creator": "Clara Maine",
     "categories": [
-      "리뷰"
+      "jetbrains-academy",
+      "ai",
+      "ai-assistance",
+      "ai-code-completion",
+      "ai-assisted-programming",
+      "career",
+      "developers",
+      "education",
+      "for-learners",
+      "jetbrains-research",
+      "jetbrainsacademy-2",
+      "learn",
+      "learn-programming"
     ]
   },
   {
     "id": 3,
-    "imageUrl": "",
-    "title": "토스씨엑스, 부산에 첫 지역 거점 개소… 빅데이터 기반 상담센터 설립",
-    "description": "디지털 혁신 거점",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/42407",
-    "pubDate": "Wed, 12 Nov 2025 10:52:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
     "imageUrl": "",
     "title": "인프런에 socket프로그래밍 강좌 올렸습니다.",
     "description": "“온라인 게임 개발을 위한 socket 프로그래밍”이라는 제목으로 11챕터짜리 강좌를 올렸습니다.socket프로그래밍에 경험이 없지만 본인 프로젝트에 네트워크를 붙이고 싶으신 분들에게 도움이 되리라 생각합니다.인프런에서 검색하지 마시고 아래의 링크를 클릭해서 구입해주시면 제게 경제적으로 조금 더 도움이 됩니다. 온라인 게임 개발을 위한 socket 프로그래밍– https://inf.run/NPjP6 다른 강의들도 도움이 될 수 있으므로 살펴보시기 바랍니다. D3D12프로그래밍 기초편 – https://inf.run/WYdmsD3D12프로그래밍 기초플러스 – https://inf.run/dW4QZDirectX … More 인프런에 socket프로그래밍 강좌 올렸습니다.",
@@ -60,17 +62,31 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "imageUrl": "",
-    "title": "Blockudoku 게임 앱 분석",
-    "description": "구글이 추천해준 게임인데 보자마자 게임룰을 알 정도로 아주 단순했습니다.\n \n \n업데이트 현황\n\n\n지금이 11월 이니까 최근에 업데이트 되었다.\n \n \n리뷰점수\n\n\n리뷰 점수 높은게 부럽다.\n다운로드 1억회 ㄷㄷㄷ\n잡겜이 아니였다.\n \n게임영상: https://www.youtube.com/watch?v=FCa5uQx4dj8\n\n\n\n3x3 이나 4x4 가 채워지면 블록이 파괴됩니다.\n간단하면서도 멋진 방식이군요\n저도 어서 단순한 게임을 만들어봐야겠습니다.\n \n \n안드로이드 앱\n앱링크: https://play.google.com/store/apps/details?id=com.easybrain.block.puzzle.games&hl=ko\n\n \nBlockudoku - 블록 퍼즐 게임 - Google Play 앱\n클래식 블록 퍼즐 게임: 스도쿠 메커니즘을 활용하여 블록을 최대한 많이 파괴하세요!\nplay.google.com",
+    "title": "악역영애 4컷 만화 - 27화, 위기인데스와 ②",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1478",
-    "pubDate": "Sun, 16 Nov 2025 21:26:07 +0900",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2390",
+    "pubDate": "Wed, 19 Nov 2025 20:22:29 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "원스토어에 게임 올려보자 / 날림 작성",
+    "description": "어떻게 돌아가는지 알기위해 간단한 게임을 올려보겠습니다.\n \n가입\n쉽습니다. 그냥 가입하면 되네요\n사업자등록증이 필요합니다.\n \n앱 추가\n콘솔 링크: \n앱추가 버튼이 있습니다. 누르면 간단히 됩니다.\n \n앱 출시전 설정\n상단에 [검증 요청] 메뉴가 있는데 여기 누란된 정보들이 표시 됩니다.\n요구사항을 보면서 하나씩 완료 하시면 됩니다.\n원스토어는 조건이 매우 덜 까다롭습니다.\n \n앱 업데이트\n[신규 바이너리 업데이트] 라는 메뉴에 업로드 버튼이 있습니다.\n올리면 검증 시간이 걸린다고 합니다.\n \n \n앱 검증\n검증을 진짜로 하나봅니다.\n\n\n요류가 떻고 사유로 \"게임 플레이 불가능\" 이 라고 적혀있군요 ㄷㄷㄷ\n사람이 해보나봅니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1485",
+    "pubDate": "Wed, 19 Nov 2025 19:46:19 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브"
+      "프로그래밍/자작"
     ]
   },
   {
@@ -93,93 +109,38 @@
   {
     "id": 7,
     "imageUrl": "",
-    "title": "토스 미니앱을 더 잘 쓰기 위한 7가지 질문과 답변",
-    "description": "알고 사용하면 더 가까워지는 토스 미니앱",
+    "title": "Mark Your Calendars! Qodana Events in November",
+    "description": "As 2025 starts racing to a close, the JetBrains Qodana team is ending the year with a series of events dedicated to what matters most in modern software development: secure workflows, high-quality code, and practical tooling that empowers developers to ship with confidence. Whether you’re working in security engineering, backend development, DevOps, or AI-powered applications, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/toss_miniapp_qna_2",
-    "pubDate": "Thu, 13 Nov 2025 07:34:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/qodana/2025/11/mark-your-calendars-qodana-events-in-november/",
+    "pubDate": "Mon, 17 Nov 2025 10:29:46 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "events",
+      "codesecurity",
+      "intellij-idea",
+      "qodana",
+      "webinars"
+    ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "Fix build issues using GitHub Copilot after upgrading MSVC Build Tools",
-    "description": "A few problems have reared their heads at every company where I’ve worked on C++ as a Software Engineer over the past 20 years. For the most part, those problems have nothing to do with the language and how it is used, but instead all the “other” stuff, like dealing with long build times, getting […]\nThe post Fix build issues using GitHub Copilot after upgrading MSVC Build Tools appeared first on C++ Team Blog.",
+    "title": "에픽스토어 무료게임 Scourge bringe / Songs of Silence",
+    "description": "무료게임이 또 나왔군요\n언제쯤 이정도 만들 수 있을런지 ... (좌절)\n \n \nScourge bringe / 스컬지 브링거\n영상: https://www.youtube.com/watch?v=WUZf7S2NxnU\n\n\n\n플렛포머 게임이군요 공긱이 이동과 섞여서 \n거의 날아 다닐 수 있다고 합니다.\n잘만들었군요\n \n \nSongs of Silence / 송 오브 사일런스\n영상: https://www.youtube.com/watch?v=dzgYgO_PUN8\n\n\n\n \n히어로즈 오브 마이트 앤 매직 생각나는군요\n이동은 턴제 같은데\n전투는 잘 모르겠습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/app-modernization-cpp-private-preview/",
-    "pubDate": "Wed, 12 Nov 2025 17:00:21 +0000",
-    "creator": "Michael Price",
+    "link": "https://serverdown.tistory.com/1476",
+    "pubDate": "Fri, 14 Nov 2025 18:32:33 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Announcement",
-      "C++",
-      "Copilot",
-      "Frontend"
+      "게임",
+      "무료게임"
     ]
   },
   {
     "id": 9,
-    "imageUrl": "",
-    "title": "AI 앱, 코딩 없이 전 세계로 배포하는 최신 가이드: Vercel &amp; GitHub 활용법",
-    "description": "혹시 AI 앱을 만들고도 소스 노출, 로그인 불편함 때문에 배포를 망설였나요?  GitHub와 Vercel을 활용해 코딩 없이도 AI 앱을 전 세계에 안전하게 배포하고 독립적인 웹사이트로 만드는 방법을 알려드립니다. 특히 API 키 보안까지 완벽하게 해결하는 노하우를 공개합니다. 이제 여러분의 아이디어를 전 세계와 공유하세요!\n\n\n 여러분이 어렵게 만든 AI 앱, 혹시 여전히 AI Studio 빌드 링크로만 공유하고 계셨나요? 물론 편리하긴 하지만, 저는 그 방법이 항상 아쉬웠어요. 로그인해야 볼 수 있고, 무엇보다 내 소스 코드가 그대로 노출된다는 점이 너무 신경 쓰였거든요. 아이디어가 고스란히 공개되는 기분이라고 해야 할까요? 게다가 API 키 유출 걱정까지… 정말 답답한 부분들이 많았죠.\n하지만 걱정 마세요! 오늘은 이 모든 고민을 한 번에 날려버릴 수 있는 아주 특별한 방법을 알려드리려고 해요. 코딩을 전혀 몰라도, 여러분이 만든 AI 앱을 진짜 전문가처럼 독립적인 웹사이트 형태로 전 세계에 공개하는 방법! 그것도 단 몇 분 만에 가능하답니다. 지금 보고 계신 이런 멋진 웹사이트도 이 방법으로 만들 수 있어요. 어때요, 정말 놀랍지 않나요?\n이 강의 하나면 여러분의 앱은 더 이상 구글 로그인도, AI Studio 빌드 사용법 숙지도 필요 없이 그저 링크만 클릭하면 바로 사용할 수 있게 됩니다. 무엇보다 소스 코드까지 안전하게 보호되니, 이제 마음 놓고 여러분의 멋진 아이디어를 세상에 보여줄 수 있을 거예요. \n  GitHub: 내 코드의 안전한 온라인 저장소\n먼저, 우리의 소스 코드와 파일들을 안전하게 보관하고 관리해 줄 든든한 온라인 저장소, GitHub(깃허브)에 대해 간단히 알아볼게요. 사실 깃허브는 개발자들에게는 거의 필수적인 서비스라고 할 수 있어요. 쉽게 말해 우리가 만든 코드나 파일을 안전하게 저장하고 관리할 수 있는 온라인 저장소라고 보시면 됩니다. 마치 구글 드라이브나 네이버 클라우드처럼 파일을 올려두는 공간인데, 특히 개발자들이 코드를 저장하고 공유하는 데 특화되어 있죠. 전 세계 개발자들이 모여 함께 작업하고 공유하는 공간, 그렇게 이해하면 좀 더 쉽지 않을까 싶어요.\n\n\n깃허브 계정 생성하기\n깃허브 계정을 만드는 건 정말 간단해요. 이미 많은 분이 구글 계정을 가지고 계실 테니, 그걸 활용하면 1분도 채 걸리지 않을 거예요. 정말 편해졌죠!\ngithub.com에 접속 후 메인 화면 중앙의 'Sign Up' 버튼을 클릭합니다.\n다음 화면에서 'Continue with Google'을 선택하고 사용할 구글 아이디를 클릭하세요.\n깃허브 로그인 화면에서 '계속'을 클릭한 후, 깃허브에서 사용할 사용자명(Username)을 확인하고 'Create account'를 클릭합니다.\n잠시 기다리면 바로 여러분의 깃허브 사용자 화면으로 이동할 거예요.\n첫 번째 저장소(Repository) 만들기\n깃허브에서는 코드나 파일을 저장하는 공간을 '저장소(Repository)'라고 부르는데요. 이 저장소를 만드는 것부터 시작해볼게요.\n왼쪽에 있는 'Create Repository' 버튼을 클릭합니다.\n'Repository name'과 'Description'을 입력하세요. 간단한 HTML 랜딩 페이지를 예시로 든다면, 이름과 설명을 'first-homepage'로 지정할 수 있겠죠.\n참고로, 깃허브에서는 이 저장소명이 여러분의 웹페이지 주소 일부가 됩니다 (예: github.com/사용자명/first-homepage). 나중에 소스 공유할 때 요긴하게 쓰이니 기억해두세요.\n파일 업로드 및 관리\n이제 저장소가 생겼으니 파일을 추가해야겠죠? 깃허브에서는 직접 코드를 입력하거나 소스 파일을 업로드할 수 있어요.\n화면 중앙의 'creating a new file'을 클릭하면 코드 편집 화면에서 직접 소스를 입력할 수 있습니다.\n'uploading an existing file'을 클릭하면 외부 파일을 업로드할 수 있어요. 우리는 미리 만들어 둔 HTML 파일을 등록해 봅시다.\n파일 업로드가 끝나면 'Commit changes' 란에 간단한 변경사항과 설명을 입력하고 'Commit changes' 버튼을 클릭하면 업로드가 완료됩니다.\n  꿀팁: 업로드한 파일은 언제든지 수정할 수 있어요. 파일을 클릭해 미리보기 화면으로 이동한 후 우측 상단의 연필 모양 아이콘을 클릭하면 편집 화면으로 전환됩니다. 수정 후 다시 'Commit changes' 버튼을 클릭하면 되죠. 깃허브는 이렇게 여러 파일들의 변경사항을 한눈에 확인할 수 있어서 정말 편리합니다.\n아, 그리고 중요한 점! 메인 HTML 파일명은 반드시 'index'로 변경해주세요. 대부분의 웹 서버는 기본적으로 `index.html` 파일을 해당 디렉터리의 메인 페이지로 인식하거든요. 이 부분은 꼭 기억해야 할 핵심 포인트예요.\n  Vercel: 내 앱을 전 세계로 배포하는 마법\n자, 이제 깃허브에 잘 올려둔 우리의 소중한 파일들을 실제 웹사이트로 만들어주는 Vercel(버셀)이라는 서비스를 사용해 볼 시간입니다. 버셀은 우리가 만든 웹사이트를 전 세계 누구나 접속할 수 있는 실제 인터넷 주소로 만들어주는, 정말 고마운 서비스예요. 특히 개인 프로젝트나 비상업적 용도에 적합한 무료 요금제(Hobby 플랜)를 제공하는데, 신용카드 등록 없이도 사용할 수 있을 정도로 상당히 관대한 한도를 제공합니다. 부담 없이 시작할 수 있다는 거죠! 제가 직접 써보니 개인 개발자에게 이만한 서비스가 없었어요.\n\n\n버셀 계정 생성 및 깃허브 연결\n버셀 계정 생성도 깃허브만큼이나 간단해요. 그리고 무엇보다 중요한 건 깃허브와 연동하는 과정이죠.\n주소창에 vercel.com을 입력하고 접속합니다. 메인 페이지 오른쪽 위의 'Sign Up' 버튼을 클릭하세요.\n구독 플랜 중 무료인 'Hobby'를 선택하고 사용자명(Username)을 입력한 후 'Continue' 버튼을 클릭합니다.\n여기서 중요! 반드시 'GitHub' 버튼을 클릭하세요. 팝업창 아래 'Authorize Vercel'을 클릭하면 버셀 가입이 완료됩니다.\n다음으로 깃허브 설치를 위해 중앙의 'Install' 버튼을 클릭합니다. 팝업창에서 'All repositories'를 선택하고 'Install' 버튼을 다시 클릭하면, 깃허브와 버셀의 연동 작업이 끝납니다.\n첫 앱 배포하기\n이제 깃허브와 버셀이 연결되었으니, 우리가 깃허브에 올려둔 프로젝트를 배포해 볼 차례예요.\n연결이 완료되면 좀 전에 깃허브를 통해 작업한 저장소 목록이 보일 거예요. 여기서 우리가 배포하고 싶은 저장소 옆의 'Import' 버튼을 클릭합니다.\n버셀은 정말 똑똑해서 프로젝트에 포함된 소스를 자동으로 분석해요. '아, 이건 HTML 파일이네!' 하고 다 파악한 후 최적화된 설정을 보여주니, 우리는 그저 'Deploy' 버튼만 클릭하면 끝! 정말 쉽죠?\n잠시 후 '축하합니다!' 메시지와 함께 미리보기 화면이 나타나면, 정상적으로 배포(Deploy)가 완료된 겁니다. 화면 아래 버튼을 클릭하여 대시보드로 이동하세요.\n'Production Deployment' 화면에서 'Domains' 섹션을 보면 방금 배포가 완료된 우리 앱(웹페이지)의 주소가 보입니다. 이 주소를 공유하면 다른 사람들이 바로 접속해서 사용할 수 있어요.\n  팁: 버셀과 깃허브를 처음 연결할 때만 이런 복잡한(?) 과정이 필요하고, 그다음부터는 버셀 대시보드에서 우측 상단의 'Visit'를 클릭해 프로젝트를 선택하는 것으로 간단하게 관리할 수 있어요.\nCI/CD: 지속적인 통합과 배포의 마법\n그럼 배포한 앱에 수정사항이 발생하면 앞서 알려드린 연결에서 배포까지의 모든 과정을 다시 거쳐야 할까요? 물론 아니죠! 여기서 깃허브와 버셀 연동의 진짜 마법이 펼쳐집니다.\n이제 깃허브는 우리가 코드를 수정할 때마다 버셀에게 “방금 코드를 수정했어요!”라고 자동으로 알려줍니다. 그러면 버셀이 알아서 새로운 버전으로 다시 배포를 시작하고요. 이걸 바로 개발자들이 말하는 CI(Continuous Integration)/CD(Continuous Delivery), 즉 지속적 통합과 지속적 배포라고 해요. 제가 직접 테스트해 보니 정말 신기하고 편했어요. 한 번 예시를 통해 볼까요?\n깃허브에서 앞서 배포한 HTML 파일의 제목을 \"유용한 에이아이 도구 모음\"으로 수정합니다.\n'Commit changes'의 변경사항을 '제목 수정'이라고 입력하고 저장합니다.\n그러면 버셀로 이동해서 보면, 수정된 내용이 반영되어 자동으로 재배포가 진행되고, 실제 실행을 해보면 변경사항이 제대로 적용된 것을 확인할 수 있습니다. 정말 편리하지 않나요?\n⚙️ AI Studio 앱 배포: API 유무에 따른 전략\n이제 단순 HTML 파일이 아닌, AI Studio 빌드에서 작업한 실제 AI 앱을 깃허브에 업로드하고 버셀로 배포하는 방법을 알려드릴게요. 이때 중요한 건, 앱이 API를 사용하는지 여부에 따라 접근 방식이 조금 달라진다는 점이에요.\nAI Studio 앱 깃허브 업로드\nAI Studio에서 만든 앱을 깃허브에 올리는 과정은 놀랍도록 간편합니다.\n먼저 AI Studio 빌드 채팅창에서 여러분이 만들었던 앱을 띄워놓습니다. 예를 들어, 휴대폰 배경화면을 생성하는 모바일 전용 한글 웹 앱을 만들어 달라고 요청했던 앱이 될 수 있겠죠.\n우측 상단의 깃허브 아이콘('GitHub에 저장' 버튼)을 클릭하고 '깃허브에 로그인하여 계속하기'를 클릭합니다.\n팝업창에서 아래로 스크롤하여 '설치 및 승인' 버튼을 클릭합니다.\n저장소 이름과 설명을 입력하고 'Public'을 선택한 후 'Create Git Repo'를 클릭합니다.\n다음 화면에 업로드할 파일 목록이 보일 거예요. 화면 아래 'Stage and commit all changes' 버튼을 클릭하면 깃허브로 업로드하는 과정이 완료됩니다.\n버셀을 통한 AI Studio 앱 배포 (API 유무)\n이제 깃허브에 올라간 AI Studio 앱을 버셀로 배포해봅시다. 여기서 중요한 차이점을 발견할 수 있을 거예요.\n버셀로 가서 우측 상단에 'Visit'를 클릭해서 프로젝트를 선택한 후, 조금 전에 업로드한 깃허브 프로젝트를 'Import'하면 됩니다.\n우리가 앞서 배포한 건 단순한 HTML 파일이라 `index.html` 파일명이 중요했어요. 하지만 지금 배포한 AI 앱은, 버셀이 '이건 React 기반 앱이구나!' 하고 자동으로 인식합니다. 그래서 파일명 같은 것을 전혀 신경 쓸 필요 없이 'Import'와 'Deploy' 버튼만 누르면 배포가 완료돼요. 정말 똑똑하죠!\n이런 식으로 경주마 레이싱 게임 'Gee Wiz' 같은 AI를 사용하지 않는 (즉, API가 필요 없는) 앱은 에러 없이 제대로 배포되고 발행된 주소를 통해서도 잘 접속되며 정상 작동하는 것을 확인할 수 있습니다. 저도 배포하고 나서 바로 게임을 플레이해봤는데 정말 만족스러웠어요.\n⚠️ 주의: 그런데 사실, 제미나이 API를 사용하는 첫 번째 앱은 배포 과정에서 문제는 없었지만 실행하면 아무 화면도 보이지 않았을 거예요. 왜냐하면 제미나이 API를 사용하고 있기 때문입니다. 물론 버셀에서 프로젝트를 세팅할 때 API 키를 등록할 수도 있지만, 이렇게 배포하게 되면 여러분의 API를 다른 사람들이 무단으로 사용하게 되어 보안이나 예상치 못한 비용 발생의 문제가 생길 수 있어요. 이 점은 정말 중요합니다!\n  API 키 보안: 사용자에게 키 관리 맡기기\n결국, 앱은 여러분이 만들어 배포하고 API는 사용자들의 것으로 사용하게 해야겠죠. 이게 가장 이상적인 방법입니다. 그래야 여러분의 API 키가 안전하게 보호되고 불필요한 비용 발생을 막을 수 있어요. 이제 AI Studio 앱을 수정하여 사용자 로컬 드라이브에 API 키를 암호화하여 저장하고 테스트하는 기능을 추가해볼게요.\nAI Studio 앱 수정: 외장형 API 키 관리로 전환\nAI Studio 빌드의 강력한 기능을 활용해 앱에 외장형 API 키 관리 기능을 추가해봅시다.\nAI Studio 빌드에서 첫 번째 앱(모바일 배경화면 생성기)을 다시 불러옵니다.\n채팅창에 \"API key 관리를 내장형이 아닌 외장형으로 변경해야 해. 버튼을 클릭하면 이 앱에 사용된 모든 API 키를 사용자 로컬 드라이브에 암호화해서 저장하고, 연결 테스트를 하는 팝업창을 생성해\"라고 요청합니다.\n요청이 완료되면, 완성된 앱에는 API 키를 입력하고 연결 테스트 한 후 저장하는 기능이 추가된 것을 확인할 수 있을 거예요. 이러면 앱 개발자도 내장된 API가 아닌, API 키를 발급받아 사용하게 됩니다.\n기능이 추가되었으니, 수정된 소스를 깃허브에 다시 업로드하는 것을 잊지 마세요!\nGoogle Cloud에서 API 키 발급받기\n이제 사용자에게 제공할 API 키를 Google Cloud에서 발급받는 방법을 알아볼게요. 이 키를 통해 사용자가 직접 자신의 환경에서 AI 모델을 활용할 수 있게 됩니다.\nGoogle Cloud Console (https://console.cloud.google.com/)에 접속합니다.\n'프로젝트 만들기 또는 선택' 버튼을 클릭합니다. 이미 다른 프로젝트가 있다면, 화면처럼 순서대로 클릭해서 새 프로젝트를 만들 수 있어요.\n새 프로젝트에서 '프로젝트 명'을 입력하고 '만들기'를 클릭합니다.\n프로젝트가 제대로 생성이 되었는지 좌측 상단의 프로젝트 버튼을 클릭, 방금 생성된 프로젝트 명을 선택한 후 계정이 활성화된 것을 확인하세요.\n다시 AI Studio 빌드로 가서 우측 상단에 'Switch to API key' 아이콘을 클릭합니다.\n그다음 'Create a new key'를 선택하고 '프로젝트 가져오기'에서 좀 전에 만든 프로젝트를 체크하고 가져오기 합니다.\n가져온 프로젝트를 선택한 후, 키 이름을 입력하고 '키 만들기'를 클릭하세요. 이러면 API 키가 만들어지긴 하지만, 키 값을 바로 확인할 수는 없습니다.\n키 값을 얻기 위해 AI Studio 첫 화면에서 좌측 하단에 'Get API key'를 선택하면 보이는 프로젝트 목록 우측에, 복사 아이콘을 클릭하면 키 값이 복사됩니다. 이제 이 키를 여러분의 앱 사용자에게 제공할 수 있습니다.\nAPI 키 테스트 및 최종 확인\n발급받은 API 키가 제대로 작동하는지 확인하는 과정도 중요해요. 저는 제 스마트폰에서도 직접 확인해봤는데, 정말 뿌듯했어요.\n다시 앱으로 돌아와 우측 상단의 키 관리 창을 열고 방금 복사한 키 값을 넣고 '연결 테스트'를 합니다. 문제가 없다면 성공!\n마지막으로 버셀에서 배포된 앱의 주소로 가서 API 키 값을 테스트해도 아무런 문제가 없음을 확인합니다. 제 스마트폰에서도 완벽하게 동작하는 것을 확인했습니다. 이제 여러분의 AI 앱은 완벽한 독립 웹사이트로 전 세계에 서비스될 준비를 마친 겁니다!\n  핵심 요약\n1. GitHub는 코드와 파일을 안전하게 관리하고 협업하는 온라인 저장소입니다.\n2. Vercel은 GitHub와 연동하여 웹 앱을 전 세계에 무료로 배포할 수 있는 강력한 플랫폼입니다.\n3. AI 앱 배포 시, `index.html` 파일명과 CI/CD 자동 배포 기능을 활용할 수 있습니다.\n4. API 키 보안을 위해 AI Studio 앱을 수정하여 사용자가 직접 API 키를 관리하도록 설정해야 합니다.\n이 네 가지 핵심 사항만 잘 이해하고 적용한다면, 여러분도 2025년 최고의 AI 앱 개발자로 거듭날 수 있습니다!\n❓ 자주 묻는 질문 (FAQ)\nQ1: 코딩을 전혀 몰라도 정말 AI 앱을 배포할 수 있나요?\n네, 물론입니다! AI Studio 빌드에서 앱을 만들고, GitHub와 Vercel은 직관적인 인터페이스를 제공하기 때문에 코딩 지식이 없어도 충분히 배포할 수 있습니다. 오늘 배운 가이드라인을 따라하면 누구든 가능해요.\nQ2: Vercel의 무료 요금제(Hobby 플랜)는 어느 정도까지 사용할 수 있나요?\nVercel의 Hobby 플랜은 개인 프로젝트 및 비상업적 용도에 매우 관대한 한도를 제공합니다. 월별 빌드 시간, 대역폭, 함수 실행 등 대부분의 개인 개발자가 충분히 사용할 수 있는 수준이에요. 신용카드 등록 없이 시작할 수 있다는 점도 큰 장점입니다.\nQ3: AI Studio 앱의 API 키 보안이 왜 그렇게 중요한가요?\nAPI 키는 여러분의 계정과 연결되어 AI 모델 사용에 대한 비용이 발생할 수 있습니다. 만약 키가 노출되면 다른 사람이 무단으로 사용해 예상치 못한 과금이 발생하거나, 여러분의 API 사용 한도가 소진될 수 있기 때문에 철저한 보안이 필수적입니다. 사용자가 직접 키를 관리하게 하는 것이 가장 안전한 방법입니다.\n오늘 강의 내용을 다시 한번 정리해드리면서 마무리할까 합니다. 여러분은 오늘 AI Studio 빌드에서 만든 앱을 깃허브에 저장하고, 버셀을 통해 누구나 접속할 수 있는 실제 웹사이트로 배포하는 전 과정을 배우셨습니다. 정말 많은 것을 해내신 거예요!\n이 방법을 통해, 이제 여러분은 구글 로그인이나 소스 코드 노출 걱정 없이 안전하게 자신의 AI 앱을 공유할 수 있게 되었습니다. 특히 중요한 점은, 제미나이 API를 사용하는 앱의 경우, 여러분의 API 키를 보호하기 위해 반드시 '외장형'으로 관리 방식을 변경해야 한다는 것이었죠. 사용자가 직접 자신의 API 키를 입력하게 만들어, 보안과 비용 문제를 모두 현명하게 해결했습니다.\n  이 기사에서 사용된 2개의 앱 무료링크\n  AI 모바일 배경화면 생성기 \n공유용 : https://ai.studio/apps/drive/1tuSsk3Vc1ZNMDPwjzLZh_PYoKHQmrig1\n배포용 : https://mobile-wallpaper-generator.vercel.app/\n  GEE WIZ 경마게임 \n공유용 :  https://ai.studio/apps/drive/1whAHjrX-Wg7n4jWwjZZ3rVbGMsyU3nVz\n배포용 :  https://gee-wiz.vercel.app/",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483682",
-    "pubDate": "Sun, 16 Nov 2025 13:00:13 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "AI Studio 빌드",
-      "ai 개발자",
-      "AI 앱 배포",
-      "api 키 보안",
-      "Github",
-      "vercel",
-      "모바일 앱 배포",
-      "웹사이트 만들기",
-      "지속적 배포 CI/CD",
-      "코딩 없이 앱 배포"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "What Developers Really Mean by “Bad Code”",
-    "description": "The phrase “bad code” gets thrown around in reviews and online forums all the time. But what does it actually mean? It’s a good example of the vague terms that occasionally make the rounds in developer circles without much to qualify them.  We’ve collected opinions on the subject, metrics, and code risks that you can […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/11/what-is-bad-code/",
-    "pubDate": "Wed, 12 Nov 2025 15:43:47 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "opinion",
-      "bad-code",
-      "code-quality",
-      "qodana"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "돈지랄",
-    "description": "요새같이 창업 scene이 재미있고 짜릿했을 때가 없을 정도로 좋은 기술과 좋은 창업가들이 이 생태계에서 많이 보인다. 일어나서 다시 잘 때까지, 이 짧은 시간 동안 매일매일 뭔가 새로운 기술과 제품이 시장에 홍수같이 쏟아져서 남들보다 앞서가긴커녕, 남들과 페이스를 맞추고 따라가기도 힘들 정도로 벅차고, 가끔은 공황 상태에 빠지기도 하지만, 일상이 항상 똑같아서 매너리즘에 빠져 있는 다른 직장인들에 비하면(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/11/dont-fuck-with-other-peoples-money.html",
-    "pubDate": "Sun, 16 Nov 2025 21:35:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "failure",
-      "fundraising",
-      "general",
-      "vc"
-    ]
-  },
-  {
-    "id": 12,
     "imageUrl": "",
     "title": "Why Diffusion Models Could Change Developer Workflows in 2026",
     "description": "Developers spend much of their time editing, refactoring, and debugging rather than producing entirely new code. Code creation tends to involve non-sequential back-and-forth refinement rather than typing out a complete function in one uninterrupted sequence. You might sketch a part, adjust parameters, skip ahead, then revisit earlier sections to refine them.  Diffusion models, and in […]",
@@ -198,7 +159,26 @@
     ]
   },
   {
-    "id": 13,
+    "id": 10,
+    "imageUrl": "",
+    "title": "새로운 세상, 새로운 시각, 새로운 생각",
+    "description": "요새 한국의 어린이들 10명에게 나중에 커서 뭐 하고 싶은지 물어보면 절반 이상이 연예인, 가수 또는 유튜버가 되고 싶다고 대답한다는 이야기를 전에 어디서 들었다. 관련 자료를 찾아보려고 했는데, 공식적인 시장 조사 자료는 없지만 한국 사회의 분위기를 보면 대충 맞을 것 같고 아마도 몇 년 후에는 이렇게 대답하는 어린이들이 10명 중 10명이 될 것 같은 느낌도 든다.(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/11/different-thinking-for-the-whacky-new-world.html",
+    "pubDate": "Wed, 19 Nov 2025 21:29:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "creator",
+      "FoundersAtWork",
+      "general",
+      "inspiring",
+      "media"
+    ]
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "Efficient Optimization With Ax, an Open Platform for Adaptive Experimentation",
     "description": "We’ve released Ax 1.0, an open-source platform that uses machine learning to automatically guide complex, resource-intensive experimentation. Ax is used at scale across Meta to improve AI models, tune production infrastructure, and accelerate advances in ML and even hardware design. Our accompanying paper, “Ax: A Platform for Adaptive Experimentation” explains Ax’s architecture, methodology, and how it [...]\nRead More...\nThe post Efficient Optimization With Ax, an Open Platform for Adaptive Experimentation appeared first on Engineering at Meta.",
@@ -212,29 +192,65 @@
     ]
   },
   {
-    "id": 14,
+    "id": 12,
     "imageUrl": "",
-    "title": "네이버와 두나무의 포괄적 주식 교환 - 한국 가상자산 시장의 대전환 신호",
-    "description": "네이버와 두나무, 왜 주식 교환이 주목받는가? 2025년 9월, 국내 IT와 금융시장을 뒤흔든 소식이 전해졌습니다. 바로 네이버가 업비트 운영사 두나무와 포괄적 주식 교환을 추진하다는 뉴스입니다. 네이버는 국내 최대 검색 / 콘텐츠 / 간편결제 플랫폼 보유 두나무는 거래소 업비트를 통해 국내 가상자산 거래의 80%이상 점유 이 두 회사의 결합은 단순 투자",
+    "title": "Azure MCP Server Now Built-In with Visual Studio 2026: A New Era for Agentic Workflows",
+    "description": "Managing cloud resources often means juggling multiple tools, writing custom scripts, and switching contexts between your IDE and cloud management portals. These extra steps slow development and make it harder to build intelligent, secure applications efficiently. We’re excited to announce that Azure MCP Server (Model Context Protocol) tools are now generally available out-of-the-box in Visual […]\nThe post Azure MCP Server Now Built-In with Visual Studio 2026: A New Era for Agentic Workflows appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/314",
-    "pubDate": "Fri, 14 Nov 2025 03:23:15 GMT",
-    "creator": "고명환",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/visualstudio/azure-mcp-server-now-built-in-with-visual-studio-2026-a-new-era-for-agentic-workflows/",
+    "pubDate": "Fri, 14 Nov 2025 14:00:14 +0000",
+    "creator": "Yun Jung Choi",
+    "categories": [
+      "Azure",
+      "Cloud",
+      "Copilot",
+      "Visual Studio",
+      "MCP",
+      "Visual Studio 2026"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "익숙하고도 새로운 모습, 포켓몬 레전즈 Z-A",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2389",
+    "pubDate": "Tue, 18 Nov 2025 16:39:03 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "구글 클라우드 유니버설 렛져 알아보자 / GCUL / Google Cloud Universal Ledger",
+    "description": "구글 블록체인 ?\n \n영상: https://youtu.be/2DjOCESf0cY?t=900\n\n\n\n15분에 잠깐 언급된다.\n \n구글이 한닷\n구글이 운영하는 블록체인이라고 합니다.\nNFT 를 개발할 수 있다고 하네요\n솔리디티 같은 스마트컨트랙트 언어가 있나봅니다.\n \n현재상태는 개발문서가 나오지 않았고\n스마트컨트랙트 언어는 파이선 이라고 합니다. (좋네요)\n \n \n \n네이버도 ?\n찾아보니 네이버도 뭔가 있군요\n\n\n네이버는 문서를 보니 기업용으로 폐쇄형인거 같습니다.\n개발은 포기하구요\n \n \n현재상황\n아직 나온게 없어서 기다려봐야할꺼 같습니다.\n단순하게 보면 스마트컨트렉트 언어를 지원하겠다는 거 같습니다.\n결국 구글이나 네이버도 이더리움 같은 레이어1 코인을 운영할것 같고\n아마 이코인을 수수료로 시스템이 돌아갈 것 같습니다.\n \n결론\n은행이 될꺼 라는거죠",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1477",
+    "pubDate": "Sat, 15 Nov 2025 15:24:30 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "GCUL",
+      "구글",
+      "블록체인"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Announcing the Completion of the Core 2Africa System: Building the Future of Connectivity Together",
-    "description": "Connecting Africa and the World We’re excited to share the completion of the core 2Africa infrastructure, the world’s longest open access subsea cable system. 2Africa is a landmark subsea cable system that sets a new standard for global connectivity. This project is the result of years of collaboration, innovation, and a shared vision to connect [...]\nRead More...\nThe post Announcing the Completion of the Core 2Africa System: Building the Future of Connectivity Together appeared first on Engineering at Meta.",
+    "title": "토스 미니앱을 더 잘 쓰기 위한 7가지 질문과 답변",
+    "description": "알고 사용하면 더 가까워지는 토스 미니앱",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/17/connectivity/core-2africa-system-completion-future-connectivity/",
-    "pubDate": "Tue, 18 Nov 2025 06:00:58 +0000",
+    "link": "https://toss.im/tossfeed/article/toss_miniapp_qna_2",
+    "pubDate": "Thu, 13 Nov 2025 07:34:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "Connectivity"
-    ]
+    "categories": []
   }
 ]
