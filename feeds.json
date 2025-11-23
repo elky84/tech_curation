@@ -885,6 +885,22 @@
     "posts": [
       {
         "creator": "SIDNFT",
+        "title": "유니티 오래된 Input 설정하기 / Active Input Handling / Input.GetKeyDown",
+        "link": "https://serverdown.tistory.com/1490",
+        "pubDate": "Sat, 22 Nov 2025 21:11:32 +0900",
+        "author": "SIDNFT",
+        "comments": "https://serverdown.tistory.com/1490#entry1490comment",
+        "content": "<p data-ke-size=\"size16\">&nbsp;</p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"247\" data-origin-height=\"154\"><span data-url=\"https://blog.kakaocdn.net/dn/THEvK/dJMcagDVJ3a/KCRPm4kiw6r7z44ksZ2BT1/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/THEvK/dJMcagDVJ3a/KCRPm4kiw6r7z44ksZ2BT1/img.png\"><img src=\"https://blog.kakaocdn.net/dn/THEvK/dJMcagDVJ3a/KCRPm4kiw6r7z44ksZ2BT1/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FTHEvK%2FdJMcagDVJ3a%2FKCRPm4kiw6r7z44ksZ2BT1%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"247\" height=\"154\" data-origin-width=\"247\" data-origin-height=\"154\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">Input.GetKeyDown(KeyCode.Alpha1)</p>\n<p data-ke-size=\"size16\">요런식의 구버전 코드는 그냥은 안되고 옵션을 건드려줘야한다.</p>\n<p data-ke-size=\"size16\">Project Settings 에 Other ~~ 쪽에 가면 있다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<h2 data-ke-size=\"size26\">Active Input Handling &lt; -이거다</h2>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">여기 설정을</p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"941\" data-origin-height=\"892\"><span data-url=\"https://blog.kakaocdn.net/dn/dtDfUQ/dJMcacarXPQ/lPpk1ftzoANocLLy6DO771/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/dtDfUQ/dJMcacarXPQ/lPpk1ftzoANocLLy6DO771/img.png\"><img src=\"https://blog.kakaocdn.net/dn/dtDfUQ/dJMcacarXPQ/lPpk1ftzoANocLLy6DO771/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdtDfUQ%2FdJMcacarXPQ%2FlPpk1ftzoANocLLy6DO771%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"941\" height=\"892\" data-origin-width=\"941\" data-origin-height=\"892\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">눌러보면</p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"369\" data-origin-height=\"154\"><span data-url=\"https://blog.kakaocdn.net/dn/Q4pHY/dJMb99Y58C8/i3tE5e0Dew5R56UlG0tO10/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/Q4pHY/dJMb99Y58C8/i3tE5e0Dew5R56UlG0tO10/img.png\"><img src=\"https://blog.kakaocdn.net/dn/Q4pHY/dJMb99Y58C8/i3tE5e0Dew5R56UlG0tO10/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQ4pHY%2FdJMb99Y58C8%2Fi3tE5e0Dew5R56UlG0tO10%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"369\" height=\"154\" data-origin-width=\"369\" data-origin-height=\"154\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">Both 눌러서 둘다 설치해버리자</p>\n<p data-ke-size=\"size16\">어차피 신버전 Input 도 적응해야한다.</p>\n<p data-ke-size=\"size16\">설정하면 유니티가 재시작한다.</p>\n<p data-ke-size=\"size16\">작업 잘 정리해서 누르도록</p>",
+        "contentSnippet": "Input.GetKeyDown(KeyCode.Alpha1)\n요런식의 구버전 코드는 그냥은 안되고 옵션을 건드려줘야한다.\nProject Settings 에 Other ~~ 쪽에 가면 있다.\n \nActive Input Handling < -이거다\n \n여기 설정을\n\n\n \n눌러보면\n\n\nBoth 눌러서 둘다 설치해버리자\n어차피 신버전 Input 도 적응해야한다.\n설정하면 유니티가 재시작한다.\n작업 잘 정리해서 누르도록",
+        "guid": "https://serverdown.tistory.com/1490",
+        "categories": [
+          "프로그래밍/개발메모",
+          "유니티"
+        ],
+        "isoDate": "2025-11-22T12:11:32.000Z"
+      },
+      {
+        "creator": "SIDNFT",
         "title": "338일차 - 간단한게임제작기4일차",
         "link": "https://serverdown.tistory.com/1489",
         "pubDate": "Sat, 22 Nov 2025 01:32:20 +0900",
@@ -1030,21 +1046,6 @@
           "취업"
         ],
         "isoDate": "2025-11-17T05:18:09.000Z"
-      },
-      {
-        "creator": "SIDNFT",
-        "title": "25년 11월 수능 AI 만점 받아",
-        "link": "https://serverdown.tistory.com/1480",
-        "pubDate": "Sun, 16 Nov 2025 22:09:50 +0900",
-        "author": "SIDNFT",
-        "comments": "https://serverdown.tistory.com/1480#entry1480comment",
-        "content": "<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"311\" data-origin-height=\"250\"><span data-url=\"https://blog.kakaocdn.net/dn/dE7Ff6/dJMcafZhcN8/kbTf4JqFBLedwJqe56yjDk/img.png\" data-phocus=\"https://blog.kakaocdn.net/dn/dE7Ff6/dJMcafZhcN8/kbTf4JqFBLedwJqe56yjDk/img.png\"><img src=\"https://blog.kakaocdn.net/dn/dE7Ff6/dJMcafZhcN8/kbTf4JqFBLedwJqe56yjDk/img.png\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdE7Ff6%2FdJMcafZhcN8%2FkbTf4JqFBLedwJqe56yjDk%2Fimg.png\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"311\" height=\"250\" data-origin-width=\"311\" data-origin-height=\"250\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">문제가 공개가 안되는데 이번부터는 공개가 되나봅니다.</p>\n<p data-ke-size=\"size16\">돌려본 사람이 있었고</p>\n<p data-ke-size=\"size16\">만점 받았다고 합니다.</p>\n<p data-ke-size=\"size16\"><span style=\"text-align: start;\">인간이고 수능이고 끝났습니다.</span></p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">영상: <a href=\"https://youtu.be/GWBfIov4r6M?t=2129\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://youtu.be/GWBfIov4r6M?t=2129</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=GWBfIov4r6M\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/LkoFI/hyZNz1SnNK/6DzTz47mCpmAk1OOsrOLHK/img.jpg?width=1280&amp;height=720&amp;face=0_0_1280_720,https://scrap.kakaocdn.net/dn/dFbK11/hyZNYA8Tbt/OZKRNqEF0QMzgBZFdlBqHk/img.jpg?width=1280&amp;height=720&amp;face=0_0_1280_720\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"IT뉴스 - GPT-5.1, 그룹 채팅, 수능 리더보드, Gemini 3, 나노바나나2 유출, SIMA2, Grok 업데이트, Scribe v2 \" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/GWBfIov4r6M\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">35분에 나옵니다.</p>\n<p data-ke-size=\"size16\">모두 2시간 이내 완료했고</p>\n<p data-ke-size=\"size16\">GPT 5 코덱스가 (200억 파라메터) 이 만점을 받았다고 합니다.</p>\n<p data-ke-size=\"size16\">다른 것들도 대부분 점수가 좋습니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>",
-        "contentSnippet": "문제가 공개가 안되는데 이번부터는 공개가 되나봅니다.\n돌려본 사람이 있었고\n만점 받았다고 합니다.\n인간이고 수능이고 끝났습니다.\n \n \n영상: https://youtu.be/GWBfIov4r6M?t=2129\n\n\n\n35분에 나옵니다.\n모두 2시간 이내 완료했고\nGPT 5 코덱스가 (200억 파라메터) 이 만점을 받았다고 합니다.\n다른 것들도 대부분 점수가 좋습니다.",
-        "guid": "https://serverdown.tistory.com/1480",
-        "categories": [
-          "유튜브"
-        ],
-        "isoDate": "2025-11-16T13:09:50.000Z"
       }
     ]
   },
