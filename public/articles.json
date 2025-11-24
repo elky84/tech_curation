@@ -2,71 +2,209 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "청소년에서 사회초년생으로… 토스, 수능 마친 고3 금융교육 지원",
-    "description": "사회초년생 금융역량 강화 지원",
+    "title": "More Updates and Fixes for ReSharper and Rider 2025.3",
+    "description": "A second set of updates and bug fixes for the 2025.3 release of ReSharper and Rider has just been made public.  Let’s take a look at what’s been improved. ReSharper 2025.3.0.2  For the full list of issues resolved in this build, please refer to our issue tracker. Rider 2025.3.0.2 For the full list of issues we’ve resolved in this […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/42655",
-    "pubDate": "Sun, 16 Nov 2025 21:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/20/resharper-rider-2025-3-0-2/",
+    "pubDate": "Thu, 20 Nov 2025 16:04:23 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "resharper",
+      "rider",
+      "junie"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "AI 업무에 활용하기 / 프롬프트 생성을 해보자 / 마스카라",
-    "description": "마스카라 프롬프트 생성 AI  써보자~\n \n \n \n영상: https://www.youtube.com/watch?v=Mpk4LNZ_P4c\n\n\n\n엄청 길게 만들어준다고 합니다.",
+    "title": "Introducing MSVC AddressSanitizer for ARM64 targets",
+    "description": "We are pleased to announce AddressSanitizer (ASan) support for the Microsoft C++ (MSVC) Build Tools for ARM64 targets. ASan is a runtime memory error detector that identifies difficult-to-find bugs with zero false positives and improves memory safety. More technical information on ASan can be found at aka.ms/asan.  ASan has long supported the x64 and x86 architectures. With the release of Visual Studio 2026 for […]\nThe post Introducing MSVC AddressSanitizer for ARM64 targets appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1487",
-    "pubDate": "Thu, 20 Nov 2025 14:28:18 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/cppblog/introducing-msvc-addresssanitizer-for-arm64-targets/",
+    "pubDate": "Mon, 17 Nov 2025 20:51:21 +0000",
+    "creator": "Zachary Johnson",
     "categories": [
-      "유튜브",
-      "Ai",
-      "마스카라"
+      "AddressSanitizer",
+      "Announcement",
+      "C++",
+      "address sanitizer"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Helping Decision‑Makers Say Yes to Kotlin",
-    "description": "Guest post by Urs Peter, Senior Software Engineer and JetBrains-certified Kotlin Trainer. For readers who’d like a more structured way to build Kotlin skills, Urs also leads the Kotlin Upskill Program at Xebia Academy. This is the fourth post in The Ultimate Guide to Successfully Adopting Kotlin in a Java-Dominated Environment, a series that follows how […]",
+    "title": "2025-11-18 / MDD 10% 도달 / 약간 사보겠습니다.",
+    "description": "내 상황\nMDD 10% 는 자산이 최고가에서 -10% 떨어졌다는 뜻입니다.\n1억 가지고 있었다면 9천이 된상태입니다.\n현금은 가만히 뒀는데 5% -> 6.5% 로 비증이 늘었습니다.\n이제 20% 정도 현금을 써서 매수 들어가야합니다.\n바닥이 아닐 수 있기 때문에 현금을 남겨둬야합니다.\n \n \n각종 공포지수 보는 페이지\n링크: https://www.marketcycleview.com/ko\n\n \nMCV - 시장 심리 분석 플랫폼 | 투자 심리지표, 모멘텀 투자\n시장 심리를 분석하여 더 나은 투자 결정을 내리세요. 모멘텀 투자, 대통령 사이클, 계절성 분석, 인간지표 등 다양한 투자 도구를 제공합니다.\nwww.marketcycleview.com\n\n \n \nCNN 공포 탐욕 지수\n\n\nCNN 공포지수 인데요 13이면 많이 떨어졌다고 보시면됩니다.\n이번 불장에서 80 정도까지 올라갔다 떨어진 것입니다.\n전체 사람들중 87% 는 공포에 질린 상태라고 보시면 됩니다.\n \n무섭지만 매수 할 시점입니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/11/helping-decision-makers-say-yes-to-kotlin/",
-    "pubDate": "Tue, 18 Nov 2025 12:11:19 +0000",
-    "creator": "Alyona Chernyaeva",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1482",
+    "pubDate": "Tue, 18 Nov 2025 20:42:33 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "자산관리"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "How to Prepare for the Future of Programming",
-    "description": "Start a start-up? Scratch that. Call your mom. Go back to school? Don’t go back to school. Learn to code? Don’t learn to code. Forget coding. Only prompt engineering matters now. Actually, I heard it’s overrated. You think we’re gonna be prompting in 5 years? 2 years? Nonsense. All this hype is being blown so […]",
+    "title": "익숙하고도 새로운 모습, 포켓몬 레전즈 Z-A",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/11/17/how-to-prepare-for-the-future-of-programming/",
-    "pubDate": "Mon, 17 Nov 2025 11:17:09 +0000",
-    "creator": "Clara Maine",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2389",
+    "pubDate": "Tue, 18 Nov 2025 16:39:03 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "jetbrains-academy",
-      "ai",
-      "ai-assistance",
-      "ai-code-completion",
-      "ai-assisted-programming",
-      "career",
-      "developers",
-      "education",
-      "for-learners",
-      "jetbrains-research",
-      "jetbrainsacademy-2",
-      "learn",
-      "learn-programming"
+      "게임툰"
     ]
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "소비자 DNA",
+    "description": "2주 전에 잠깐 동경에 갔었는데, 과거부터 친분이 있던 일본 VC들과 다양한 이야기를 했다. 자연스럽게 한국과 일본의 스타트업 생태계 이야기를 특히 많이 했는데, 한국에 집중적으로 투자하는 나 같은 VC는 당연히 일본 시장보단 한국 스타트업 시장이 더 좋다고 믿지만, 내가 만난 일본 VC들도 대부분 한국의 벤처생태계를 부러워하는 느낌을 강하게 받았다. 어떤 일본 VC는 대놓고 나에게 한국 벤처생태계를(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2025/11/koreas-consumer-dna.html",
+    "pubDate": "Sun, 23 Nov 2025 21:21:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "B2C",
+      "brand",
+      "consumer",
+      "FoundersAtWork",
+      "inspiring",
+      "korea",
+      "vc"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Learn AI-Assisted Programming With Junie: Free Courses From JetBrains Academy and Nebius",
+    "description": "For over 25 years, JetBrains has been driven by a desire to make developers more productive and enhance the developer experience by providing smarter, more efficient tools. JetBrains Academy advances this mission by empowering learners to study computer science and gain hands-on experience with the professional tools they’ll use in their future careers. AI is […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/education/2025/11/20/learn-ai-assisted-programming-with-junie-free-courses-from-jetbrains-academy-and-nebius/",
+    "pubDate": "Thu, 20 Nov 2025 12:09:26 +0000",
+    "creator": "Regina Muradova",
+    "categories": [
+      "ai-assistant",
+      "coding",
+      "education",
+      "jetbrains-academy",
+      "learning-courses",
+      "news",
+      "ai-agents",
+      "ai-code-completion",
+      "ai-assisted-programming",
+      "junie",
+      "online-learning"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "338일차 - 간단한게임제작기4일차",
+    "description": "영상: https://www.youtube.com/watch?v=qng5Ckfg82w\n\n\n\n간단한 게임이라 그런지 2주일쯤 해서 완성되고 있습니다.\n내일은 출시 가능할꺼 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1489",
+    "pubDate": "Sat, 22 Nov 2025 01:32:20 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작",
+      "유니티",
+      "인디게임",
+      "자작게임"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization",
+    "description": "We’re introducing Zoomer, Meta’s comprehensive, automated debugging and optimization platform for AI.  Zoomer works across all of our training and inference workloads at Meta and provides deep performance insights that enable energy savings, workflow acceleration, and efficiency gains in our AI infrastructure.  Zoomer has delivered training time reductions, and significant QPS improvements, making it the [...]\nRead More...\nThe post Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/11/21/data-infrastructure/zoomer-powering-ai-performance-meta-intelligent-debugging-optimization/",
+    "pubDate": "Fri, 21 Nov 2025 21:00:15 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Data Center Engineering",
+      "Data Infrastructure",
+      "ML Applications"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "AI 를 업무에 활용하는 방법 / 전문가 에이전트",
+    "description": "AI 를 이런식으로 이용할 수 가있군요\nAI 마다 전문 영역화 룰을 지정한후에\n내가 하려는 행동에 대해 물어봅니다.\n \n내 업무를 보고 판단할 사람도 미리만들고\n효율성 따지는 사람\n빠른일 좋아하는 사람\n등의 각자의 역활을 지정하고\n \n내가 하려는 일을 미리 물어보면\n일을하기전에 미리 대답을 들을 수 있습니다.\n \n한두번 확인 작업을 거치면 완벽한 준비를 알 수 있을 것입니다.\n상관에게 자주 컴펌-빠꾸를 반복하면 짜증을 유발 할 수 있기 때문입니다.\n \n영상: https://www.youtube.com/watch?v=Rn-35uzYBvI\n\n\n\n1분 30초에 나옵니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1484",
+    "pubDate": "Wed, 19 Nov 2025 18:18:26 +0900",
+    "creator": "SIDNFT",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Enhancing HDR on Instagram for iOS With Dolby Vision",
+    "description": "We’re sharing how we’ve enabled Dolby Vision and ambient viewing environment (amve) on the Instagram iOS app to enhance the video viewing experience. HDR videos created on iPhones contain unique Dolby Vision and amve metadata that we needed to support end-to-end Instagram for iOS is now the first Meta app to support Dolby Vision video, [...]\nRead More...\nThe post Enhancing HDR on Instagram for iOS With Dolby Vision appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/11/17/ios/enhancing-hdr-on-instagram-for-ios-with-dolby-vision/",
+    "pubDate": "Mon, 17 Nov 2025 17:30:25 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "iOS",
+      "Video Engineering",
+      "Instagram"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Database Features in Rider",
+    "description": "Rider provides robust support for working with databases directly within the IDE – powered by DataGrip! Rider and DataGrip smooth development workflows by allowing you to manage and interact with a variety of database systems. This integration enhances productivity for developers who frequently work with data.  Database projects and connectivity There has long been support […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/17/database-features-in-rider/",
+    "pubDate": "Mon, 17 Nov 2025 14:08:01 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "data",
+      "database",
+      "nosql",
+      "rider",
+      "sql"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "GEMINI 3 PRO 발표 요약",
+    "description": "영상: https://www.youtube.com/watch?v=YIV_URly8g0\n\n\n\n \n요약\n멀티모달이다. 화면을 보고 이해하는 능력이 올라감\n코딩툴을 웹페이지에 내장했다.\n \n이정도가 핵심인거 같습니다.\n결국 AI 가 화면을 이해하면 스마트폰을 타치할 필요없이 말로 처리가 가능해질 것입니다.\n코딩툴이 통합됨에 따라 자동 개발 능력이 향상될 것입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1483",
+    "pubDate": "Wed, 19 Nov 2025 14:59:32 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "Ai",
+      "구글"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "Why Diffusion Models Could Change Developer Workflows in 2026",
     "description": "Developers spend much of their time editing, refactoring, and debugging rather than producing entirely new code. Code creation tends to involve non-sequential back-and-forth refinement rather than typing out a complete function in one uninterrupted sequence. You might sketch a part, adjust parameters, skip ahead, then revisit earlier sections to refine them.  Diffusion models, and in […]",
@@ -85,19 +223,7 @@
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "테슬라 FSD v14 출시 임박, 자율주행의 새 시대",
-    "description": "테슬라 FSD v14, 왜 중요한가? 테슬라가 곧 출시 할 테슬라 FSD v14는 단순한 업데이트를 넘어 자율주행 상용화의 분수령으로 평가받고 있습니다. 일론 머스크는  \"14.2 버전부터는 차양이 마치 감각을 가진 존재처럼 느껴질 것\" 이라고 강조했습니다. 이는 단순한 마케팅 문구가 아니라, 실제 AI모델의 성능이 이전 세대와 비교할 수 없을 만큼 향상되",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/315",
-    "pubDate": "Fri, 21 Nov 2025 03:26:09 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 7,
+    "id": 14,
     "imageUrl": "",
     "title": "Spend Less Time Upgrading, More Time Coding in Visual Studio 2026",
     "description": "In the past, moving to the next major version of Visual Studio could take hours, sometimes days, to recreate your dev environment the way you like it. Visual Studio 2026 makes it easier than ever to stay current with the latest productivity features, performance improvements, and security fixes all without disrupting your flow. With the […]\nThe post Spend Less Time Upgrading, More Time Coding in Visual Studio 2026 appeared first on Visual Studio Blog.",
@@ -118,118 +244,15 @@
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "[MULTI] 지스타 2025, 취재·컨퍼런스 등 관련 기사 종합",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2388",
-    "pubDate": "Mon, 17 Nov 2025 09:08:18 +0900",
-    "creator": "샤말란의눈",
-    "categories": [
-      "특집"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "AI 활용해 1인 기업에 도전하는 유튜버",
-    "description": "용기 !\n영상: https://www.youtube.com/watch?v=spb0p1p1C9k\n\n\n\n모티브는 이것인가봅니다.\n\"샘 알트먼의 1인기업 유니콘 가능하다\" \n도전해봅시다.\n \n \n \n \n \n \n \nAI 로 직원을 늘리는 방법\n영상: https://www.youtube.com/watch?v=Rn-35uzYBvI&t=8s\n\n\n\n이것은 다른 사람 영상입니다.\nAI 에이전트를 통해 특정 영역의 직원을 뽑을 수 있고 그들의 조언이나 관리를 받을 수 있습니다.\n이러면 사람 직원을 덜 뽑을 수 있겠죠",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1486",
-    "pubDate": "Thu, 20 Nov 2025 10:58:22 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "Ai",
-      "창업"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Key Transparency Comes to Messenger",
-    "description": "We’re excited to share another advancement in the security of your conversations on Messenger: the launch of key transparency verification for end-to-end encrypted chats.  This new feature enables an additional level of assurance that only you — and the people you’re communicating with — can see or listen to what is sent, and that no [...]\nRead More...\nThe post Key Transparency Comes to Messenger appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/20/security/key-transparency-comes-to-messenger/",
-    "pubDate": "Thu, 20 Nov 2025 17:00:21 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Security & Privacy"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "AI 를 업무에 활용하는 방법 / 전문가 에이전트",
-    "description": "AI 를 이런식으로 이용할 수 가있군요\nAI 마다 전문 영역화 룰을 지정한후에\n내가 하려는 행동에 대해 물어봅니다.\n \n내 업무를 보고 판단할 사람도 미리만들고\n효율성 따지는 사람\n빠른일 좋아하는 사람\n등의 각자의 역활을 지정하고\n \n내가 하려는 일을 미리 물어보면\n일을하기전에 미리 대답을 들을 수 있습니다.\n \n한두번 확인 작업을 거치면 완벽한 준비를 알 수 있을 것입니다.\n상관에게 자주 컴펌-빠꾸를 반복하면 짜증을 유발 할 수 있기 때문입니다.\n \n영상: https://www.youtube.com/watch?v=Rn-35uzYBvI\n\n\n\n1분 30초에 나옵니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1484",
-    "pubDate": "Wed, 19 Nov 2025 18:18:26 +0900",
-    "creator": "SIDNFT",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "More Updates and Fixes for ReSharper and Rider 2025.3",
-    "description": "A second set of updates and bug fixes for the 2025.3 release of ReSharper and Rider has just been made public.  Let’s take a look at what’s been improved. ReSharper 2025.3.0.2  For the full list of issues resolved in this build, please refer to our issue tracker. Rider 2025.3.0.2 For the full list of issues we’ve resolved in this […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/11/20/resharper-rider-2025-3-0-2/",
-    "pubDate": "Thu, 20 Nov 2025 16:04:23 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "resharper",
-      "rider",
-      "junie"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 27화, 위기인데스와 ②",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2390",
-    "pubDate": "Wed, 19 Nov 2025 20:22:29 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "토스, 돈과 삶의 관계 다룬 라이프스타일 매거진 ‘더 머니이슈’ 출간",
-    "description": "전국 동네서점 33곳서 만나볼 수 있어",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/42651",
-    "pubDate": "Mon, 17 Nov 2025 00:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization",
-    "description": "We’re introducing Zoomer, Meta’s comprehensive, automated debugging and optimization platform for AI.  Zoomer works across all of our training and inference workloads at Meta and provides deep performance insights that enable energy savings, workflow acceleration, and efficiency gains in our AI infrastructure.  Zoomer has delivered training time reductions, and significant QPS improvements, making it the [...]\nRead More...\nThe post Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization appeared first on Engineering at Meta.",
+    "title": "7년 이상 연체자라면? 새도약기금 확인해보세요",
+    "description": "최대 원금 80% 감면부터 소각까지 지원해드려요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/21/data-infrastructure/zoomer-powering-ai-performance-meta-intelligent-debugging-optimization/",
-    "pubDate": "Fri, 21 Nov 2025 21:00:15 +0000",
+    "link": "https://toss.im/tossfeed/article/money-policies-54",
+    "pubDate": "Thu, 20 Nov 2025 07:02:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "Data Center Engineering",
-      "Data Infrastructure",
-      "ML Applications"
-    ]
+    "categories": []
   }
 ]
