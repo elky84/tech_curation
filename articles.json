@@ -2,27 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Open Source in Focus: Projects We’re Proud to Support",
-    "description": "At JetBrains, we love seeing the developer community grow and thrive. That’s why we support open-source projects that make a real difference — the ones that help developers learn, build, and create better software together. We’re proud to back open-source maintainers with free licenses and to contribute to initiatives that strengthen the ecosystem and the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2025/11/18/open-source-in-focus-projects-we-re-proud-to-support/",
-    "pubDate": "Tue, 18 Nov 2025 12:07:29 +0000",
-    "creator": "Lena Morozova",
-    "categories": [
-      "community",
-      "rustrover",
-      "community-support",
-      "intellij-idea",
-      "open-source-program",
-      "oss-projects",
-      "pycharm",
-      "webstorm"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
     "title": "Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization",
     "description": "We’re introducing Zoomer, Meta’s comprehensive, automated debugging and optimization platform for AI.  Zoomer works across all of our training and inference workloads at Meta and provides deep performance insights that enable energy savings, workflow acceleration, and efficiency gains in our AI infrastructure.  Zoomer has delivered training time reductions, and significant QPS improvements, making it the [...]\nRead More...\nThe post Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization appeared first on Engineering at Meta.",
     "reviews": [],
@@ -37,31 +16,46 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "imageUrl": "",
-    "title": "11/20 삼성전자 사내 강연 - 그래서 스테이블코인이 뭔데 저자 강연",
-    "description": "감사하게도 국내 최고의 IT 기업인 삼성전자의 모바일 사업부에서 <그래서 스테이블코인이 뭔데>와 관련한 강연을 하게 되었습니다.  무려 200명 이상의 임직원 분들이 참여해주셨습니다. 사내 방송국에서 온라인 강연을 하였는데, 이렇게 많은 분들이 참여할줄 몰랐어서 당황하였습니다.     확실히 엔지니어분들과 테크 현업에 계신 분들이다보니 질문의 수준이 굉장하",
+    "title": "AI 업무에 활용하기 / 프롬프트 생성을 해보자 / 마스카라",
+    "description": "마스카라 프롬프트 생성 AI  써보자~\n \n \n \n영상: https://www.youtube.com/watch?v=Mpk4LNZ_P4c\n\n\n\n엄청 길게 만들어준다고 합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@H9i/92",
-    "pubDate": "Sun, 23 Nov 2025 19:20:50 GMT",
-    "creator": "권용진",
+    "link": "https://serverdown.tistory.com/1487",
+    "pubDate": "Thu, 20 Nov 2025 14:28:18 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "Ai",
+      "마스카라"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "토스는 왜 밴드 ADOY(아도이), 아티스트 16팀과 ‘뮤직비디오’를 만들었을까?",
+    "description": "토스임팩트 뮤직비디오 〈Spectrum〉에 담긴 작가들의 메시지",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/outsight-spectrum",
+    "pubDate": "Mon, 24 Nov 2025 07:00:00 GMT",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "The Second Release of MPS 2025.3 Early Access Program",
-    "description": "Starting today, you can download the second EAP release for MPS 2025.3 and try all the latest updates. DOWNLOAD MPS 2025.3 EAP 2 This release includes several noteworthy improvements: JavaDoc language overhaul The JavaDoc language has been completely migrated to use the jetbrains.mps.lang.text language for text representation and editing. This change should have minimal impact […]",
+    "title": "유니티 멀티플레이 동기화 / 경정론적 물리",
+    "description": "영상: https://www.youtube.com/watch?v=2r-k9WcdI3A\n\n\n\n9분 30초에 나옵니다.\n물리 기반으로 동기화가 되면\n같은 입력을 가지면 같은 결과가 나올 것이기 때문에\n입력값만 보네면 자연스럽게 화면이 같을 것이라는 논리 입니다.\n \n저도 옛날에 구현해보려고 했다가\n여러번 실패했었던 적이 있습니다.\n유니티에서 아예 구현해 준다면 편하겠군요\n \n \n좋아보입니다.\n통신량도 줄구요\n \n유니티 6.7 쯤에서 된다는거 같네요\n멀티플레이를 강화중이라고 합니다.\n \n\n\n이 채널 구독하시면 최신유니티 정보가 많이 올라옵니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/mps/2025/11/the-mps-2025-3-eap2/",
-    "pubDate": "Tue, 18 Nov 2025 15:45:59 +0000",
-    "creator": "Vaclav Pech",
+    "link": "https://serverdown.tistory.com/1494",
+    "pubDate": "Mon, 24 Nov 2025 20:19:02 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "releases",
-      "eap",
-      "release"
+      "프로그래밍/개발메모",
+      "유니티"
     ]
   },
   {
@@ -86,43 +80,124 @@
   {
     "id": 6,
     "imageUrl": "",
-    "title": "익숙하고도 새로운 모습, 포켓몬 레전즈 Z-A",
-    "description": "No description available",
+    "title": "IntelliJ IDEA 2025.2.5 Is Out!",
+    "description": "We’ve just released IntelliJ IDEA 2025.2.5. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates: To find out more details about the issues resolved, please refer to […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2389",
-    "pubDate": "Tue, 18 Nov 2025 16:39:03 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-2025-2-5/",
+    "pubDate": "Thu, 20 Nov 2025 19:45:59 +0000",
+    "creator": "Julia Shashkova",
     "categories": [
-      "게임툰"
+      "releases",
+      "bug-fix-update",
+      "intellij-idea",
+      "intellij-idea-2025-2"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "토스는 왜 밴드 ADOY(아도이), 아티스트 16팀과 ‘뮤직비디오’를 만들었을까?",
-    "description": "토스임팩트 뮤직비디오 〈Spectrum〉에 담긴 작가들의 메시지",
+    "title": "세 명의 스승님",
+    "description": "회사 생활을 하면서 세 명의 스승님을 만났습니다.\n적이 아니라 같은 편이라는 것이 너무나 든든한 사람들.\n처음엔 그저 똑똑하고 코딩을 잘해서 마음이 끌리나 보다 했는데 돌아보니 그런 게 아니었습니다.\n말과 행동이 일치하는 솔직함과 정직함.\n나는 이런 사람들을 좋아하고 존경하는구나.\n아, 나도 이런 사람이 되고 싶다.\n이분들이 일하는 걸 옆에서 지켜보면서 나도 닮고 싶다는 마음을 가졌던 것 같습니다.\n며칠 전 메일을 하나 받았습니다.\n\n며칠 전 고민 상담을 하는 후배 개발자님에게 받은 메일 중\n읽다가 깜짝 놀랐습니다. 정도를 걷는 게 몸에 밴 것 같다고? 내가?\n\n버핏 할아버지의 2025년 주주서한\n버핏 할아버지가 써주신 주주서한을 찬찬히 읽어보다가 세 명의 스승님이 떠올랐습니다.\n제 마음은 잘 전달되었을까요?\n독자 여러분들도 훌륭한 친구를 만나면 꼭 옆에 두시고 함께 성장할 수 있으시길 바랍니다.\n\n\n함께 읽으면 좋은 글:\n그건 네가 스스로 결정해야지\n10초에 한 번씩 컴파일하다 혼난 이야기\n옆 집 건물주에게 형사 소송한 썰",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/outsight-spectrum",
-    "pubDate": "Mon, 24 Nov 2025 07:00:00 GMT",
+    "link": "https://jeho.page/essay/2025/11/25/three-mentors.html",
+    "pubDate": "2025-11-25T06:28:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "Amper Update, November 2025 – Extensibility Preview",
-    "description": "Amper 0.9.0 is out, and it brings the first version of our extensibility prototype! Read on for all of the details, and see the release notes for the full list of changes and bug fixes. To get support for Amper’s latest features, use IntelliJ IDEA 2025.3 Beta (or newer). New Amper website We revamped our […]",
+    "title": "Unwrap Innovation: How Sellers and Buyers Use AI to Brighten the Holidays",
+    "description": "eBay’s AI tools help sellers list faster, manage messages, and boost visibility, while giving buyers personalized discovery, trusted authentication, and a smoother, safer holiday shopping experience.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/amper/2025/11/amper-update-november-2025/",
-    "pubDate": "Mon, 24 Nov 2025 14:47:36 +0000",
-    "creator": "Joffrey Bion",
-    "categories": []
+    "link": "https://innovation.ebayinc.com/stories/unwrap-innovation-how-sellers-and-buyers-use-ai-to-brighten-the-holidays/",
+    "pubDate": "Tue, 25 Nov 2025 00:00:00 -0800",
+    "creator": "eBay News Team",
+    "categories": [
+      "article"
+    ]
   },
   {
     "id": 9,
+    "imageUrl": "",
+    "title": "More Updates and Fixes for ReSharper and Rider 2025.3",
+    "description": "A second set of updates and bug fixes for the 2025.3 release of ReSharper and Rider has just been made public.  Let’s take a look at what’s been improved. ReSharper 2025.3.0.2  For the full list of issues resolved in this build, please refer to our issue tracker. Rider 2025.3.0.2 For the full list of issues we’ve resolved in this […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/11/20/resharper-rider-2025-3-0-2/",
+    "pubDate": "Thu, 20 Nov 2025 16:04:23 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "resharper",
+      "rider",
+      "junie"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Scaling Kotlin Adoption Across Your Organization",
+    "description": "Guest post by Urs Peter, Senior Software Engineer and JetBrains-certified Kotlin Trainer. For readers who’d like a more structured way to build Kotlin skills, Urs also leads the Kotlin Upskill Program at Xebia Academy. This is the fifth post in The Ultimate Guide to Successfully Adopting Kotlin in a Java-Dominated Environment, a series that follows how […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2025/11/scaling-kotlin-adoption-across-your-organization/",
+    "pubDate": "Mon, 24 Nov 2025 11:42:14 +0000",
+    "creator": "Alyona Chernyaeva",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Open-source IntelliJ IDEA: A Simpler Way to Build and Contribute to the Community",
+    "description": "IntelliJ IDEA’s source code has been publicly available for more than 15 years, helping millions of developers learn, experiment, and contribute to their IDE and build their own tools. Now, we’re taking our commitment to open-source to the next level by making it even easier for the community to explore, build, and contribute! What’s New? […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-open-source/",
+    "pubDate": "Tue, 25 Nov 2025 12:07:11 +0000",
+    "creator": "Dmitriy Smirnov",
+    "categories": [
+      "news"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "sajou no hana / 일본 밴드 / 애니노래",
+    "description": "공식채널: https://www.youtube.com/channel/UCleWyL3f1xJU3Huj7NzRE5Q\n \n \n \n리스트\n어떤 과학의 초전자포 T ED2 青嵐のあとで ( 아오아라시노 아토데 / 초여름 바람이 지나간 뒤에)\n영상: https://www.youtube.com/watch?v=EXrwSBFXcZA&list=RDEXrwSBFXcZA&start_radio=1\n\n\n\n저는 여기서 부터 입문했습니다.\n초전자포T 끝날때는 다른 사건이 시작되는게 많아서 여운이 남고\n목소리가 좋다고 느꼈습니다.\n \n초전자포T 1기 ED 도 좋습니다. (다른사람 곡입니다.)\n \n \n던만추3기 OP Evergreen\n영상: https://www.youtube.com/watch?v=-OMeFPCpgiA&list=RD-OMeFPCpgiA&start_radio=1\n\n\n\n계속 주시하던 결과 던만추 3기 OP 에 나왔습니다.\n던만추도 이때가 좋았고 가면 갈 수록 힘이 빠지는 느낌이 ...\n \n던만추4기 OP 天灯 (텐토 / 천등)'\n영상: https://www.youtube.com/watch?v=AwUqgyHGy00&list=RDAwUqgyHGy00&start_radio=1\n\n\n\nEvergreen 다음에 나온 것이며 마지막에 일부 가사가 동일합니다.\n그래서 Evergreen  과 天灯 나온 순서가 자주 햇갈립니다.\n애니는 내용 까먹었습니다.\n \n \n던만추4기 ED 2 - 切り傷 (키레키즈 / 베인상처)\n영상: https://www.youtube.com/watch?v=-c_PJohuhKk&list=RD-c_PJohuhKk&start_radio=1\n\n\n\n빼먹어서 추가했습니다.\n빠졌는지 몰랐습니다. AI 도 빼먹고 나도 빼먹고\n 작업 했었군요\n \n \n다른 이야기지만 4기 파트1 의 엔딩은 영상이 기억에 있군요\n던만추4기 파트1 ED TV  영상: https://www.youtube.com/watch?v=DANvZOWsIXo&list=RDDANvZOWsIXo&start_radio=1\n보신 분은 부시구요\n \n \n \n던만추5기 ED Hydrate ( 하이드레이트 )\n영상: https://www.youtube.com/watch?v=l4rB99ZoI-8&list=RDl4rB99ZoI-8&start_radio=1\n\n\n\n이게 던만추 마지막 이였던거 같은데\n훌륭한 엔딩으로 마무리 되었습니다.\n음악 시작부분에 바람넣는 기계에서 나는 소리 같은게 들어가있는데\n음질 테스트할때 좋은 샘플입니다.\n \n애니 이외의 독립된 노래가 있는데 감흥은 없었고 여기까지가 기억에 많이 남는군요\n업데이트 되면 내용을 늘려보겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1495",
+    "pubDate": "Tue, 25 Nov 2025 19:54:33 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "노래",
+      "애니",
+      "일본"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "AI 활용해 1인 기업에 도전하는 유튜버",
+    "description": "용기 !\n영상: https://www.youtube.com/watch?v=spb0p1p1C9k\n\n\n\n모티브는 이것인가봅니다.\n\"샘 알트먼의 1인기업 유니콘 가능하다\" \n도전해봅시다.\n \n \n \n \n \n \n \nAI 로 직원을 늘리는 방법\n영상: https://www.youtube.com/watch?v=Rn-35uzYBvI&t=8s\n\n\n\n이것은 다른 사람 영상입니다.\nAI 에이전트를 통해 특정 영역의 직원을 뽑을 수 있고 그들의 조언이나 관리를 받을 수 있습니다.\n이러면 사람 직원을 덜 뽑을 수 있겠죠",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1486",
+    "pubDate": "Thu, 20 Nov 2025 10:58:22 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "Ai",
+      "창업"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "소비자 DNA",
     "description": "2주 전에 잠깐 동경에 갔었는데, 과거부터 친분이 있던 일본 VC들과 다양한 이야기를 했다. 자연스럽게 한국과 일본의 스타트업 생태계 이야기를 특히 많이 했는데, 한국에 집중적으로 투자하는 나 같은 VC는 당연히 일본 시장보단 한국 스타트업 시장이 더 좋다고 믿지만, 내가 만난 일본 VC들도 대부분 한국의 벤처생태계를 부러워하는 느낌을 강하게 받았다. 어떤 일본 VC는 대놓고 나에게 한국 벤처생태계를(...)",
@@ -143,99 +218,20 @@
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Spend Less Time Upgrading, More Time Coding in Visual Studio 2026",
-    "description": "In the past, moving to the next major version of Visual Studio could take hours, sometimes days, to recreate your dev environment the way you like it. Visual Studio 2026 makes it easier than ever to stay current with the latest productivity features, performance improvements, and security fixes all without disrupting your flow. With the […]\nThe post Spend Less Time Upgrading, More Time Coding in Visual Studio 2026 appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/spend-less-time-upgrading-more-time-coding-in-visual-studio-2026/",
-    "pubDate": "Tue, 18 Nov 2025 17:00:27 +0000",
-    "creator": "Jason Chlus",
-    "categories": [
-      "Copilot",
-      "Installation and Updates",
-      "Productivity",
-      "Visual Studio",
-      "Modernization",
-      "Setup",
-      "Updates",
-      "Visual Studio 2026"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "7년 이상 연체자라면? 새도약기금 확인해보세요",
-    "description": "최대 원금 80% 감면부터 소각까지 지원해드려요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-54",
-    "pubDate": "Thu, 20 Nov 2025 07:02:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Spring Boot 4: Leaner, Safer Apps and a New Kotlin Baseline",
-    "description": "Spring Boot 4.0 has officially landed. At JetBrains, we’ve been tracking the updates since the first milestones to ensure that IntelliJ IDEA delivers a smooth and reliable development experience. While many of the core capabilities come directly from Spring Framework 7, Spring Boot remains the adoption enabler that brings everything together: sensible defaults, consistent configuration, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/11/spring-boot-4/",
-    "pubDate": "Thu, 20 Nov 2025 20:11:35 +0000",
-    "creator": "Andrey Belyaev",
-    "categories": [
-      "news",
-      "spring-boot",
-      "spring-boot-4"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Scaling Kotlin Adoption Across Your Organization",
-    "description": "Guest post by Urs Peter, Senior Software Engineer and JetBrains-certified Kotlin Trainer. For readers who’d like a more structured way to build Kotlin skills, Urs also leads the Kotlin Upskill Program at Xebia Academy. This is the fifth post in The Ultimate Guide to Successfully Adopting Kotlin in a Java-Dominated Environment, a series that follows how […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/11/scaling-kotlin-adoption-across-your-organization/",
-    "pubDate": "Mon, 24 Nov 2025 11:42:14 +0000",
-    "creator": "Alyona Chernyaeva",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.2.5 Is Out!",
-    "description": "We’ve just released IntelliJ IDEA 2025.2.5. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates: To find out more details about the issues resolved, please refer to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-2025-2-5/",
-    "pubDate": "Thu, 20 Nov 2025 19:45:59 +0000",
-    "creator": "Julia Shashkova",
-    "categories": [
-      "releases",
-      "bug-fix-update",
-      "intellij-idea",
-      "intellij-idea-2025-2"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "Visual Studio – Built for the Speed of Modern Development",
-    "description": "Visual Studio will adopt the Modern Support Lifecycle as a continuously updated IDE designed to deliver innovation as soon as it is ready, while maintaining the reliability and stability you count on every day with control over your build tools choices. \nThe post Visual Studio – Built for the Speed of Modern Development appeared first on Visual Studio Blog.",
+    "title": "AI 활용 GEMINI 3 PRO 코딩툴 관련 영상 모음",
+    "description": "GEMINI 3 PRO 설명 영상\n영상: https://www.youtube.com/watch?v=YIV_URly8g0\n\n\n\n제미나이3 전반적인 설명이 있습니다.\n그후에\n \nGEMINI 3 PRO 코딩툴영상\n영상: https://www.youtube.com/watch?v=JvKo0WvwVEg&t=386s\n\n\n\n코딩툴만 보여주는 여상입니다.\n공짜일떄 빨리 사용해봅시다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-built-for-the-speed-of-modern-development/",
-    "pubDate": "Mon, 24 Nov 2025 15:00:06 +0000",
-    "creator": "Paul Chapman",
+    "link": "https://serverdown.tistory.com/1488",
+    "pubDate": "Thu, 20 Nov 2025 19:41:55 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Visual Studio",
-      "Announcement",
-      "lifecycle",
-      "Support",
-      "Visual Studio 2026"
+      "유튜브",
+      "Ai",
+      "gemini",
+      "제미나이"
     ]
   }
 ]
