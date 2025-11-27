@@ -2,126 +2,49 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization",
-    "description": "We’re introducing Zoomer, Meta’s comprehensive, automated debugging and optimization platform for AI.  Zoomer works across all of our training and inference workloads at Meta and provides deep performance insights that enable energy savings, workflow acceleration, and efficiency gains in our AI infrastructure.  Zoomer has delivered training time reductions, and significant QPS improvements, making it the [...]\nRead More...\nThe post Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization appeared first on Engineering at Meta.",
+    "title": "충격 중국의 인신매매 인플러언서 잡히고 실물 공개되 ...",
+    "description": "뉴스에 올라온 사진 입니다.\n뉴스: https://v.daum.net/v/20251118135311895\n\n \n“남친 만나고 올게” 캄보디아 간 中인플루언서 실종\n중국 SNS 더우인에서 활동하는 11만 팔로워의 인플루언서 ‘오렌지언니(橙子姐姐)’의 모습. 더우인 캡처캄보디아에 남자친구를 만나러 떠난 중국 유명 인플루언서가 귀국을 앞두고 돌연 연락이\nv.daum.net\n\n기사 보면 전신 샷도 있습니당 ㅋ\n \n저화질 전체샷\n\n\n \n \n \n영상: https://www.youtube.com/watch?v=1bzXbU0QTEo\n\n\n\n뉴스는 대륙남 !\n \n\n\n이쁘네 \n \n \n잡히고나니\n\n\n찹혀서 고생을 했나 넙대데 해졌다고 합니다.\n \n\n\n한화면에 비교샷\n오 뭔가 비슷한거 같다.\n \n교훈\n인스타 사진 그거다 가짜다",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/21/data-infrastructure/zoomer-powering-ai-performance-meta-intelligent-debugging-optimization/",
-    "pubDate": "Fri, 21 Nov 2025 21:00:15 +0000",
-    "creator": "Unknown",
+    "link": "https://serverdown.tistory.com/1500",
+    "pubDate": "Wed, 26 Nov 2025 18:30:19 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Data Center Engineering",
-      "Data Infrastructure",
-      "ML Applications"
+      "유튜브",
+      "유뉴브"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "AI 업무에 활용하기 / 프롬프트 생성을 해보자 / 마스카라",
-    "description": "마스카라 프롬프트 생성 AI  써보자~\n \n \n \n영상: https://www.youtube.com/watch?v=Mpk4LNZ_P4c\n\n\n\n엄청 길게 만들어준다고 합니다.",
+    "title": "Building AI Agents in Kotlin – Part 2: A Deeper Dive Into Tools ",
+    "description": "In the previous article, we saw how to build a basic coding agent with list, read, write, and edit capabilities. Today, we’ll dive into how to extend the agents’ capabilities by creating additional tools within the Koog framework. As an example, we’ll be building an ExecuteShellCommandTool, teaching our agent to run code and close the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1487",
-    "pubDate": "Thu, 20 Nov 2025 14:28:18 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/ai/2025/11/building-ai-agents-in-kotlin-part-2-a-deeper-dive-into-tools/",
+    "pubDate": "Wed, 26 Nov 2025 08:23:35 +0000",
+    "creator": "Bruno Lannoo",
     "categories": [
-      "유튜브",
-      "Ai",
-      "마스카라"
+      "kotlin",
+      "tutorials",
+      "ai",
+      "ai-agents"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "토스는 왜 밴드 ADOY(아도이), 아티스트 16팀과 ‘뮤직비디오’를 만들었을까?",
-    "description": "토스임팩트 뮤직비디오 〈Spectrum〉에 담긴 작가들의 메시지",
+    "title": "Amper Update, November 2025 – Extensibility Preview",
+    "description": "Amper 0.9.0 is out, and it brings the first version of our extensibility prototype! Read on for all of the details, and see the release notes for the full list of changes and bug fixes. To get support for Amper’s latest features, use IntelliJ IDEA 2025.3 Beta (or newer). New Amper website We revamped our […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/outsight-spectrum",
-    "pubDate": "Mon, 24 Nov 2025 07:00:00 GMT",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/amper/2025/11/amper-update-november-2025/",
+    "pubDate": "Mon, 24 Nov 2025 14:47:36 +0000",
+    "creator": "Joffrey Bion",
     "categories": []
   },
   {
     "id": 4,
-    "imageUrl": "",
-    "title": "유니티 멀티플레이 동기화 / 경정론적 물리",
-    "description": "영상: https://www.youtube.com/watch?v=2r-k9WcdI3A\n\n\n\n9분 30초에 나옵니다.\n물리 기반으로 동기화가 되면\n같은 입력을 가지면 같은 결과가 나올 것이기 때문에\n입력값만 보네면 자연스럽게 화면이 같을 것이라는 논리 입니다.\n \n저도 옛날에 구현해보려고 했다가\n여러번 실패했었던 적이 있습니다.\n유니티에서 아예 구현해 준다면 편하겠군요\n \n \n좋아보입니다.\n통신량도 줄구요\n \n유니티 6.7 쯤에서 된다는거 같네요\n멀티플레이를 강화중이라고 합니다.\n \n\n\n이 채널 구독하시면 최신유니티 정보가 많이 올라옵니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1494",
-    "pubDate": "Mon, 24 Nov 2025 20:19:02 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "유니티"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "New release cadence and support lifecycle for Microsoft C++ Build Tools",
-    "description": "Starting with Visual Studio 2026, we are introducing a new support lifecycle for the Microsoft C++ (MSVC) Build Tools. We are also updating the MSVC release cadence. As Visual Studio moves to a Modern Lifecycle with monthly feature updates and an annual new version, decoupling the compiler from the IDE offers you the best of […]\nThe post New release cadence and support lifecycle for Microsoft C++ Build Tools appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/new-release-cadence-and-support-lifecycle-for-msvc-build-tools/",
-    "pubDate": "Mon, 24 Nov 2025 15:00:25 +0000",
-    "creator": "Marian Luparu",
-    "categories": [
-      "C++",
-      "Visual Studio",
-      "MSVC",
-      "Upgrade",
-      "visual studio",
-      "visual studio 2026"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.2.5 Is Out!",
-    "description": "We’ve just released IntelliJ IDEA 2025.2.5. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates: To find out more details about the issues resolved, please refer to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-2025-2-5/",
-    "pubDate": "Thu, 20 Nov 2025 19:45:59 +0000",
-    "creator": "Julia Shashkova",
-    "categories": [
-      "releases",
-      "bug-fix-update",
-      "intellij-idea",
-      "intellij-idea-2025-2"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "세 명의 스승님",
-    "description": "회사 생활을 하면서 세 명의 스승님을 만났습니다.\n적이 아니라 같은 편이라는 것이 너무나 든든한 사람들.\n처음엔 그저 똑똑하고 코딩을 잘해서 마음이 끌리나 보다 했는데 돌아보니 그런 게 아니었습니다.\n말과 행동이 일치하는 솔직함과 정직함.\n나는 이런 사람들을 좋아하고 존경하는구나.\n아, 나도 이런 사람이 되고 싶다.\n이분들이 일하는 걸 옆에서 지켜보면서 나도 닮고 싶다는 마음을 가졌던 것 같습니다.\n며칠 전 메일을 하나 받았습니다.\n\n며칠 전 고민 상담을 하는 후배 개발자님에게 받은 메일 중\n읽다가 깜짝 놀랐습니다. 정도를 걷는 게 몸에 밴 것 같다고? 내가?\n\n버핏 할아버지의 2025년 주주서한\n버핏 할아버지가 써주신 주주서한을 찬찬히 읽어보다가 세 명의 스승님이 떠올랐습니다.\n제 마음은 잘 전달되었을까요?\n독자 여러분들도 훌륭한 친구를 만나면 꼭 옆에 두시고 함께 성장할 수 있으시길 바랍니다.\n\n\n함께 읽으면 좋은 글:\n그건 네가 스스로 결정해야지\n10초에 한 번씩 컴파일하다 혼난 이야기\n옆 집 건물주에게 형사 소송한 썰",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/11/25/three-mentors.html",
-    "pubDate": "2025-11-25T06:28:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Unwrap Innovation: How Sellers and Buyers Use AI to Brighten the Holidays",
-    "description": "eBay’s AI tools help sellers list faster, manage messages, and boost visibility, while giving buyers personalized discovery, trusted authentication, and a smoother, safer holiday shopping experience.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://innovation.ebayinc.com/stories/unwrap-innovation-how-sellers-and-buyers-use-ai-to-brighten-the-holidays/",
-    "pubDate": "Tue, 25 Nov 2025 00:00:00 -0800",
-    "creator": "eBay News Team",
-    "categories": [
-      "article"
-    ]
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "More Updates and Fixes for ReSharper and Rider 2025.3",
     "description": "A second set of updates and bug fixes for the 2025.3 release of ReSharper and Rider has just been made public.  Let’s take a look at what’s been improved. ReSharper 2025.3.0.2  For the full list of issues resolved in this build, please refer to our issue tracker. Rider 2025.3.0.2 For the full list of issues we’ve resolved in this […]",
@@ -138,19 +61,86 @@
     ]
   },
   {
-    "id": 10,
+    "id": 5,
     "imageUrl": "",
-    "title": "Scaling Kotlin Adoption Across Your Organization",
-    "description": "Guest post by Urs Peter, Senior Software Engineer and JetBrains-certified Kotlin Trainer. For readers who’d like a more structured way to build Kotlin skills, Urs also leads the Kotlin Upskill Program at Xebia Academy. This is the fifth post in The Ultimate Guide to Successfully Adopting Kotlin in a Java-Dominated Environment, a series that follows how […]",
+    "title": "AI 노래 모음",
+    "description": "고스타그램\n영상: https://www.youtube.com/watch?v=6iJkm-hMD3k&list=RD6iJkm-hMD3k&start_radio=1\n\n\n\n신나는거\n \n \n \n파도의 끝\n영상: https://www.youtube.com/watch?v=GWMgIouBiQg&list=RDGWMgIouBiQg&start_radio=1\n\n\n\n겨울에 바다 노래 뽑아내는 AI",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/11/scaling-kotlin-adoption-across-your-organization/",
-    "pubDate": "Mon, 24 Nov 2025 11:42:14 +0000",
-    "creator": "Alyona Chernyaeva",
+    "link": "https://serverdown.tistory.com/1497",
+    "pubDate": "Wed, 26 Nov 2025 14:22:29 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "Ai"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Central Dogma 컨트롤 플레인으로 LY Corporation의 수천 개 서비스를 연결하기",
+    "description": "이 글은 Tech-Verse 2025에서 발표된 Central Dogma Control Plane으로 LY Corporation의 수천 개 서비스를 연결하기 세션을 글로 옮긴 것입...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/connecting-thousands-of-services-with-central-dogma-control-plane",
+    "pubDate": "Fri, 21 Nov 2025 06:30:00 GMT",
+    "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 11,
+    "id": 7,
+    "imageUrl": "",
+    "title": "Spring Boot 4: Leaner, Safer Apps and a New Kotlin Baseline",
+    "description": "Spring Boot 4.0 has officially landed. At JetBrains, we’ve been tracking the updates since the first milestones to ensure that IntelliJ IDEA delivers a smooth and reliable development experience. While many of the core capabilities come directly from Spring Framework 7, Spring Boot remains the adoption enabler that brings everything together: sensible defaults, consistent configuration, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/11/spring-boot-4/",
+    "pubDate": "Thu, 20 Nov 2025 20:11:35 +0000",
+    "creator": "Andrey Belyaev",
+    "categories": [
+      "news",
+      "spring-boot",
+      "spring-boot-4"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "세 명의 스승님",
+    "description": "회사 생활을 하면서 세 명의 스승님을 만났습니다.\n적이 아니라 같은 편이라는 것이 너무나 든든한 사람들.\n처음엔 그저 똑똑하고 코딩을 잘해서 마음이 끌리나 보다 했는데 돌아보니 그런 게 아니었습니다.\n말과 행동이 일치하는 솔직함과 정직함.\n나는 이런 사람들을 좋아하고 존경하는구나.\n아, 나도 이런 사람이 되고 싶다.\n이분들이 일하는 걸 옆에서 지켜보면서 나도 닮고 싶다는 마음을 가졌던 것 같습니다.\n며칠 전 메일을 하나 받았습니다.\n\n며칠 전 고민 상담을 하는 후배 개발자님에게 받은 메일 중\n읽다가 깜짝 놀랐습니다. 정도를 걷는 게 몸에 밴 것 같다고? 내가?\n\n버핏 할아버지의 2025년 주주서한\n버핏 할아버지가 써주신 주주서한을 찬찬히 읽어보다가 세 명의 스승님이 떠올랐습니다.\n제 마음은 잘 전달되었을까요?\n독자 여러분들도 훌륭한 친구를 만나면 꼭 옆에 두시고 함께 성장할 수 있으시길 바랍니다.\n\n\n함께 읽으면 좋은 글:\n그건 네가 스스로 결정해야지\n10초에 한 번씩 컴파일하다 혼난 이야기\n옆 집 건물주에게 형사 소송한 썰",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/11/25/three-mentors.html",
+    "pubDate": "2025-11-25T06:28:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "코딩 없이 5분 만에 전문가급 웹사이트? AI 랜딩페이지 아키텍트가 답!",
+    "description": "복잡한 웹사이트 기획부터 코딩, 배포까지 단 5분 만에 끝낼 수 있다면 어떠세요? 2025년, AI 기술의 발전은 더 이상 꿈이 아닙니다. 비개발자도 전문가급 랜딩페이지를 만들고 싶은 분들을 위해, AI 랜딩페이지 아키텍트가 어떻게 이 모든 과정을 혁신하는지 자세히 알아보겠습니다. 이제 여러분의 상상이 현실이 되는 시대가 도래했습니다.\n  왜 랜딩페이지가 필요할까요?\n\n\n음, 생각해 보면 많은 분들이 거창한 웹 애플리케이션보다는 자신을 소개하거나 특정 서비스를 홍보할 수 있는 간단하면서도 전문적인 랜딩페이지 하나를 더 필요로 하시는 것 같아요. 특히 개발 취업을 준비 중인 분들이나, 개인 사업을 시작하려는 분들에게는 명함처럼 내밀 수 있는 포트폴리오 사이트나 회사 홍보 페이지가 정말 필수적이죠.\n그런데 막상 만들려고 하면 어디서부터 시작해야 할지 막막할 때가 많습니다. 코딩 지식이 없어서 못 만드는 것보다, 사실은 '어떤 내용을 담아야 할까?', '디자인은 어떻게 해야 촌스럽지 않을까?' 같은 기획 단계에서부터 좌절하는 경우가 태반이에요. 저도 주변에서 그런 어려움을 자주 접하곤 했습니다.\n  '랜딩페이지 메이커' 젬 지침의 탄생과 한계\n이런 문제를 해결하고자 제가 처음 시도했던 것이 바로 '랜딩페이지 메이커' 젬(GEM) 지침입니다. 이 지침은 AI에게 랜딩페이지 제작에 필요한 모든 단계를 아주 구체적으로 알려주는 매뉴얼이라고 할 수 있죠. 크게 세 부분으로 나뉩니다.\nRole (역할): AI에게 구글의 수석 UX/UI 디자이너이자 전문 카피라이터라는 정체성을 부여합니다. 단순히 구조만 설계하는 것을 넘어, 사용자의 심리를 꿰뚫는 매력적인 문구와 실제 개발 가능한 수준의 디테일한 기획력을 갖추도록 명시했죠.\nContext (맥락): 최종 목표를 '메인 페이지와 4개의 서브 페이지가 완벽하게 연결된 고품질 웹사이트 제작'으로 설정하고, 웹사이트 주제, 타겟 고객, 핵심 목표를 입력받도록 했습니다.\nTask & Process (작업 절차): 이 부분이 핵심인데요. 총 3단계로 구성됩니다.\n\n스텝 1. 브랜드 아이덴티티: 사이트맵, Primary Color(Hex Code와 선택 이유), Typography, Mood Board(형용사 3가지)를 구체적으로 지시합니다.\n스텝 2. 메인 페이지 상세 기획: Hero Section (헤드라인, 서브 텍스트, CTA 버튼 2개), Problem & Solution, Key Features 3개, Social Proof까지 실제 들어갈 문구를 모두 작성하도록 합니다.\n스텝 3. 서브 페이지 4종: 각 페이지의 제목, 목표, 헤더 카피, 핵심 바디 콘텐츠, CTA를 상세하게 작성하도록 지시합니다.\n이 젬 지침을 활용하면, '열린 입 치과 의원 홈페이지'처럼 간단한 입력만으로도 브랜드 아이덴티티부터 아주 구체적인 UX/UI 방법론이 포함된 랜딩페이지 생성 지침을 바로 받아볼 수 있었습니다. 심지어 이 기획안을 기반으로 실제 코드를 짜서 프로토타입을 미리 확인하는 것도 가능했죠.\n⚠️ 하지만 젬 지침은 한 번 등록하면 제미나이에서 바로 사용 가능하고 응답도 빠르다는 장점이 있지만, 때로는 출력물의 내용이 많거나 복잡할 때 우리가 원하는 만큼 일관성 있는 결과를 제공하지 못하는 한계가 있었습니다. \n*GEM지침원본은 본문 하단에 있습니다.\n  2025년의 해결책: AI 랜딩페이지 아키텍트\n이러한 한계를 극복하고 더 일관성 있고 강력한 결과물을 얻기 위해 앱으로 구현한 것이 바로 오늘 여러분께 소개해 드릴 'AI 랜딩페이지 아키텍트'입니다. 2025년 현재, 이 앱은 랜딩페이지 제작 과정을 완전히 새로운 차원으로 끌어올렸다고 자신 있게 말씀드릴 수 있어요. 이제 앱을 사용해 보는 과정을 함께 살펴보시죠.\n간편한 웹사이트 기획안 생성\n메인 화면에서 웹사이트 주제, 타겟 고객, 핵심 목표만 입력하면, AI가 이 정보를 바탕으로 랜딩페이지 기획안을 생성합니다. 만약 주제를 어떤 걸로 해야 할지 고민된다면, 우측 상단의 '주제 예시 선택' 버튼을 눌러보세요. 개인 홈페이지, 포트폴리오, 회사 홍보 페이지 등 자주 사용되는 20가지 유형이 미리 준비되어 있습니다.\n예를 들어, 저는 '이력서/경력소개'를 선택하고 '20년 경력 공인중개사 박동산'이라고 입력해 보았습니다. 타겟 고객이나 핵심 목표 설정도 귀찮다면, 주제 입력칸 아래 '타겟과 목표 자동 완성' 버튼을 누르세요. AI가 주제를 분석해서 가장 적절한 타겟과 목표를 자동으로 채워줍니다. 물론, 이 내용은 언제든 자신의 상황에 맞게 수정할 수 있습니다.\n모든 입력이 완료되면 '기획안 생성 시작' 버튼만 누르면 됩니다. 잠시만 기다리면 전문가가 작성한 듯한 기획안이 순식간에 나옵니다! 젬 지침에서 구현했던 브랜드 아이덴티티, 전체 구조 전략, 메인 및 서브페이지 기획, 심지어 폴더 구조와 기타 가이드까지 랜딩페이지 기획안의 모든 것이 생성되는 것을 볼 수 있었어요. 정말 놀라웠습니다.\n기획안 기반 웹사이트 제작 및 프로토타입 확인\n생성된 기획안 내용을 복사하여 AI 스튜디오 빌드에 붙여넣기만 하면, AI가 이 기획안을 바탕으로 웹사이트를 만들어줍니다. 동시에, 'AI 랜딩페이지 아키텍트' 앱 자체에서도 프로토타입을 미리 볼 수 있는 기능을 제공합니다. 기획안 생성 후 우측 상단의 'PROTO TYPE 만들기'를 클릭하면 잠시 후 프로토타입이 완성되죠.\n이 HTML 파일은 간단한 테스트나 클라이언트 시안 확인용으로 정말 유용합니다. 다운로드한 HTML 파일을 더블클릭만 해도 브라우저에서 바로 열리기 때문에, 시안을 빠르게 확인할 수 있어 효율적이죠. AI 스튜디오 빌드에서 최종 완성된 랜딩페이지를 확인하면, 20년 경력 공인중개사의 아이덴티티가 잘 반영된 브랜드 페이지가 생성되어 있을 겁니다. 사용자는 이제 이 기본 틀에 자신에게 맞는 내용을 추가하거나 수정하며 현실화할 수 있습니다.\n  완성된 랜딩페이지, Vercel로 배포하기\nAI 랜딩페이지 아키텍트로 생성한 랜딩페이지를 세상에 공개하는 방법은 매우 간단합니다. Vercel을 활용하면 되는데, 그 방법을 다시 한번 자세히 알려드릴게요.\n\n\n\nGitHub 저장소 생성: 먼저 '깃허브 저장' 버튼을 클릭하고, 사이트명과 설명을 입력한 후 '공개'로 변경합니다. 그리고 하단의 'Create Git Repo' 버튼을 클릭하면 잠시 후 업로드 파일 목록이 보이고, 그 아래 'Change' 버튼을 클릭하면 GitHub에 업로드가 완료됩니다.\nVercel로 Import: 이제 Vercel로 이동하여 우측의 'Add New' > 'Project'를 클릭합니다. 저장소 목록에서 방금 GitHub에 업로드한 프로젝트 옆의 'Import' 버튼을 클릭한 후, 화면이 바뀌면 'Deploy'를 클릭합니다.\n배포 완료 및 공개 설정: 잠시 기다리면 배포가 완료되고, 대시보드 화면에 배포된 주소가 나타납니다. 이 사이트를 공개하려면 대시보드 위 메뉴의 'Settings'에서 'Deployment Protection' 탭을 선택하고 'Vercel Authentication'에 있는 슬라이드 스위치를 '비활성화'해야 합니다.\n이 과정을 거치면 기본적인 웹사이트가 완성되어 누구나 접근할 수 있게 됩니다. 정말 간단하죠? 이전에는 상상하기 어려웠던 전문가급 웹사이트 배포가 이제는 몇 번의 클릭만으로 가능해진 셈입니다.\n[ AI 랜딩페이지 아키텍트로 만들어 배포된 페이지 예시]\nhttps://visual-impact-portfolio.vercel.app/\nhttps://park-dong-san-real-estate-portfolio.vercel.app/\nhttps://insight-flow-zeta.vercel.app/\nhttps://cheonhataepyeong-super.vercel.app/\nhttps://career-momentum.vercel.app/\nhttps://creator-profile-card.vercel.app/\nhttps://digital-goods-store.vercel.app/\nhttps://kim-sang-dam-portfolio.vercel.app/\n ️ 이미지 관리: 시각적 매력을 더하는 마무리\n생성된 기획안에는 이미지 링크가 loremflickr로 되어있는 경우가 있습니다. 이는 임시 플레이스홀더 이미지인데요, 사이트 서비스 자체는 무료이고 무료 이미지가 많지만, 실제 배포를 위해서는 저작권 문제가 없는 무료 이미지나 자신만의 이미지로 교체하는 것이 중요합니다. 이 점은 꼭 주의하셔야 합니다.\n  팁: '이 페이지에 이미지의 위치와 이미지를 교체하기 위해 적합한 이미지 생성 프롬프트를 알려줘. 앱 수정이 아니야. 응답만 해.'라고 입력하면, AI가 해당 사이트에 포함된 모든 이미지와 대체할 이미지의 생성 프롬프트를 상세하게 보여줍니다. 여기서 AI로 생성한 이미지나 보유 중인 이미지를 클라우드 등에 공유한 후, 이미지 주소와 함께 '메인 프로필 이미지를 이 주소로 변경해달라'고 요청하면 됩니다.\n✨ 이제 당신도 전문가급 웹사이트 오너!\n지금까지 'AI 랜딩페이지 아키텍트'를 활용하여 코딩 지식 없이도 전문가 수준의 웹사이트를 기획하고, 제작하고, 배포하는 모든 과정을 살펴보았습니다. 솔직히 저도 처음에는 이렇게까지 쉽고 빠르게 구현될 줄 몰랐습니다. 물론, 코딩 지식이 있다면 더 세밀하게 커스터마이징하고 자신만의 개성을 더할 수 있겠지만, 없어도 충분히 훌륭한 결과물을 만들 수 있다는 점이 가장 큰 매력이라고 생각해요.\n2025년, AI 기술은 정말 우리 삶의 많은 부분을 변화시키고 있습니다. 특히 웹 개발 분야에서는 비전문가도 창작자가 될 수 있는 강력한 도구를 제공하고 있죠. 이제 복잡한 개발 과정에 발목 잡히지 말고, 여러분의 아이디어를 마음껏 펼쳐보세요. 'AI 랜딩페이지 아키텍트'가 그 여정에 든든한 조력자가 되어줄 것입니다. 여러분의 웹사이트가 세상에 공개될 날을 기대하며, 오늘 글을 마치겠습니다.\n  핵심 요약\n1. 기획부터 배포까지 5분 만에 가능: AI 랜딩페이지 아키텍트는 복잡한 웹사이트 제작 과정을 대폭 단축합니다.\n2. AI가 전문 디자이너 역할 수행: 젬 지침을 기반으로 AI가 UX/UI 및 카피라이팅까지 기획해줍니다.\n3. 비개발자도 전문가급 결과물: 코딩 지식 없이도 개인, 포트폴리오, 회사 홍보 페이지 등을 손쉽게 제작할 수 있습니다.\n4. Vercel 연동으로 즉시 배포: 생성된 페이지는 GitHub를 통해 Vercel로 연동, 클릭 몇 번으로 실제 웹에 공개됩니다.\nAI 기술은 끊임없이 발전하고 있습니다. 최신 정보를 참고하여 더 효율적인 웹사이트 제작을 경험해보세요.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 'AI 랜딩페이지 아키텍트'는 정말 코딩 지식이 없어도 사용할 수 있나요?\n네, 물론입니다. 이 앱은 복잡한 코딩 과정 없이, 웹사이트 주제, 타겟 고객, 핵심 목표만 입력하면 AI가 기획부터 디자인, 그리고 기본적인 HTML 코드까지 생성해줍니다. 비개발자도 전문가 수준의 랜딩페이지를 만들 수 있도록 설계되었습니다.\nQ2: 생성된 랜딩페이지의 디자인이나 콘텐츠를 수정할 수 있나요?\n네, 생성된 기획안과 HTML 코드는 얼마든지 수정할 수 있습니다. AI가 제공하는 기본 틀은 훌륭한 출발점이 되며, 사용자의 필요에 따라 텍스트, 이미지, 색상 등을 자유롭게 변경하여 자신만의 개성을 더할 수 있습니다. 코딩 지식이 있다면 더욱 세밀한 커스터마이징도 가능합니다.\nQ3: 웹사이트를 배포하는 과정이 어렵지는 않나요?\n전혀 어렵지 않습니다. 'AI 랜딩페이지 아키텍트'는 GitHub 연동 기능을 제공하며, 생성된 코드를 GitHub에 업로드한 후 Vercel과 같은 호스팅 서비스를 이용하면 몇 번의 클릭만으로 손쉽게 웹사이트를 배포할 수 있습니다. 자세한 과정은 본문에서 단계별로 설명해 드리고 있습니다.\nGEM 지침과  AI 랜딩페이지 아키텍트\n\n    \n\n    \n랜딩페이지GEM 지침.txt\n0.00MB\n\n\n \n[ AI 랜딩페이지 아키텍트 사용하기]\n\n \n로그인 - Google 계정\n이메일 또는 휴대전화\naccounts.google.com\n\n \n \n \n \n생성된 기획안에는 이미지 링크가 loremflickr로 되어있는 경우가 있습니다. 이는 임시 플레이스홀더 이미지인데요, 사이트 서비스 자체는 무료이고 무료 이미지가 많지만, 실제 배포를 위해서는 저작권 문제가 없는 무료 이미지나 자신만의 이미지로 교체하는 것이 중요합니다. 이 점은 꼭 주의하셔야 합니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483683",
+    "pubDate": "Sun, 23 Nov 2025 21:19:50 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "2025년 AI 기술",
+      "AI 랜딩페이지",
+      "AI 웹디자인",
+      "vercel 배포",
+      "랜딩페이지 아키텍트",
+      "비개발자 웹사이트",
+      "웹사이트 제작",
+      "자동 웹사이트 생성",
+      "코딩 없이 웹사이트",
+      "포트폴리오 사이트"
+    ]
+  },
+  {
+    "id": 10,
     "imageUrl": "",
     "title": "Open-source IntelliJ IDEA: A Simpler Way to Build and Contribute to the Community",
     "description": "IntelliJ IDEA’s source code has been publicly available for more than 15 years, helping millions of developers learn, experiment, and contribute to their IDE and build their own tools. Now, we’re taking our commitment to open-source to the next level by making it even easier for the community to explore, build, and contribute! What’s New? […]",
@@ -164,74 +154,76 @@
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "imageUrl": "",
-    "title": "sajou no hana / 일본 밴드 / 애니노래",
-    "description": "공식채널: https://www.youtube.com/channel/UCleWyL3f1xJU3Huj7NzRE5Q\n \n \n \n리스트\n어떤 과학의 초전자포 T ED2 青嵐のあとで ( 아오아라시노 아토데 / 초여름 바람이 지나간 뒤에)\n영상: https://www.youtube.com/watch?v=EXrwSBFXcZA&list=RDEXrwSBFXcZA&start_radio=1\n\n\n\n저는 여기서 부터 입문했습니다.\n초전자포T 끝날때는 다른 사건이 시작되는게 많아서 여운이 남고\n목소리가 좋다고 느꼈습니다.\n \n초전자포T 1기 ED 도 좋습니다. (다른사람 곡입니다.)\n \n \n던만추3기 OP Evergreen\n영상: https://www.youtube.com/watch?v=-OMeFPCpgiA&list=RD-OMeFPCpgiA&start_radio=1\n\n\n\n계속 주시하던 결과 던만추 3기 OP 에 나왔습니다.\n던만추도 이때가 좋았고 가면 갈 수록 힘이 빠지는 느낌이 ...\n \n던만추4기 OP 天灯 (텐토 / 천등)'\n영상: https://www.youtube.com/watch?v=AwUqgyHGy00&list=RDAwUqgyHGy00&start_radio=1\n\n\n\nEvergreen 다음에 나온 것이며 마지막에 일부 가사가 동일합니다.\n그래서 Evergreen  과 天灯 나온 순서가 자주 햇갈립니다.\n애니는 내용 까먹었습니다.\n \n \n던만추4기 ED 2 - 切り傷 (키레키즈 / 베인상처)\n영상: https://www.youtube.com/watch?v=-c_PJohuhKk&list=RD-c_PJohuhKk&start_radio=1\n\n\n\n빼먹어서 추가했습니다.\n빠졌는지 몰랐습니다. AI 도 빼먹고 나도 빼먹고\n 작업 했었군요\n \n \n다른 이야기지만 4기 파트1 의 엔딩은 영상이 기억에 있군요\n던만추4기 파트1 ED TV  영상: https://www.youtube.com/watch?v=DANvZOWsIXo&list=RDDANvZOWsIXo&start_radio=1\n보신 분은 부시구요\n \n \n \n던만추5기 ED Hydrate ( 하이드레이트 )\n영상: https://www.youtube.com/watch?v=l4rB99ZoI-8&list=RDl4rB99ZoI-8&start_radio=1\n\n\n\n이게 던만추 마지막 이였던거 같은데\n훌륭한 엔딩으로 마무리 되었습니다.\n음악 시작부분에 바람넣는 기계에서 나는 소리 같은게 들어가있는데\n음질 테스트할때 좋은 샘플입니다.\n \n애니 이외의 독립된 노래가 있는데 감흥은 없었고 여기까지가 기억에 많이 남는군요\n업데이트 되면 내용을 늘려보겠습니다.",
+    "title": "11/20 삼성전자 사내 강연 - 그래서 스테이블코인이 뭔데 저자 강연",
+    "description": "감사하게도 국내 최고의 IT 기업인 삼성전자의 모바일 사업부에서 <그래서 스테이블코인이 뭔데>와 관련한 강연을 하게 되었습니다.  무려 200명 이상의 임직원 분들이 참여해주셨습니다. 사내 방송국에서 온라인 강연을 하였는데, 이렇게 많은 분들이 참여할줄 몰랐어서 당황하였습니다.     확실히 엔지니어분들과 테크 현업에 계신 분들이다보니 질문의 수준이 굉장하",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1495",
-    "pubDate": "Tue, 25 Nov 2025 19:54:33 +0900",
+    "link": "https://brunch.co.kr/@@H9i/92",
+    "pubDate": "Sun, 23 Nov 2025 19:20:50 GMT",
+    "creator": "권용진",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "1인개발자 성공담 / 노마드 리스트 / 당신이 사용할 앱을 만들어라",
+    "description": "노마드리스트 홈페이지: https://nomads.com/\n\n \nNomads.com\n  Go nomad: Join a global community of remote workers living around the world\nnomads.com\n\n \n \n노마드 리스트 는 1인개발자가 어느나라가서 일을 하면 좋은지를 적어놓은 문서 입니다.\n이 문서를 작업하다 대박이 난 이야기를 들을 수 있습니다.\n \n영상: https://www.youtube.com/watch?v=4_JfCAgTaLM\n\n\n\n \n한줄 요약\n내가 필요한 앱을 만들고 그걸 홍보한다.\n \n \n성공담은 언제나 중요합니다.\n요즘은 방패용사도 성공하는 시대입니다.\n \n \n \n추가로 발견\n영상: https://www.youtube.com/watch?v=TAHc3kvvXbU\n\n\n\n이 분도 앱을 만들어 작은 성공을 하신 케이스로\n이 영상도 역시 내가 하고 싶은걸 앱으로 만들어 성과를 낸 방식입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1499",
+    "pubDate": "Wed, 26 Nov 2025 18:18:03 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브",
-      "노래",
-      "애니",
-      "일본"
+      "프로그래밍/개발메모",
+      "성공담"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "AI 활용해 1인 기업에 도전하는 유튜버",
-    "description": "용기 !\n영상: https://www.youtube.com/watch?v=spb0p1p1C9k\n\n\n\n모티브는 이것인가봅니다.\n\"샘 알트먼의 1인기업 유니콘 가능하다\" \n도전해봅시다.\n \n \n \n \n \n \n \nAI 로 직원을 늘리는 방법\n영상: https://www.youtube.com/watch?v=Rn-35uzYBvI&t=8s\n\n\n\n이것은 다른 사람 영상입니다.\nAI 에이전트를 통해 특정 영역의 직원을 뽑을 수 있고 그들의 조언이나 관리를 받을 수 있습니다.\n이러면 사람 직원을 덜 뽑을 수 있겠죠",
+    "title": "1인개발자 - 사업자등록을  왜 해야하는 갈까요? 에 대한 영상",
+    "description": "영상: https://www.youtube.com/watch?v=CU-KfQR6Nfs\n\n\n\n \n비용 처리랑 세금 문제 때문입니다.\n영상에 다양한 이야기가 있으니 보시는게 좋습니다.\n \n왜 라는 것을 해결주는 여상이라 그런가\n내용이 좋습니다.\n구독해야겠군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1486",
-    "pubDate": "Thu, 20 Nov 2025 10:58:22 +0900",
+    "link": "https://serverdown.tistory.com/1501",
+    "pubDate": "Wed, 26 Nov 2025 18:58:36 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브",
-      "Ai",
-      "창업"
+      "프로그래밍/개발메모",
+      "1인개발자"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "소비자 DNA",
-    "description": "2주 전에 잠깐 동경에 갔었는데, 과거부터 친분이 있던 일본 VC들과 다양한 이야기를 했다. 자연스럽게 한국과 일본의 스타트업 생태계 이야기를 특히 많이 했는데, 한국에 집중적으로 투자하는 나 같은 VC는 당연히 일본 시장보단 한국 스타트업 시장이 더 좋다고 믿지만, 내가 만난 일본 VC들도 대부분 한국의 벤처생태계를 부러워하는 느낌을 강하게 받았다. 어떤 일본 VC는 대놓고 나에게 한국 벤처생태계를(...)",
+    "title": "Master Spring Data AOT in IntelliJ IDEA",
+    "description": "Spring’s AOT engine has been around since the Spring Native days, but Spring Data never really benefited from it – until now. Repository infrastructure is one of the most dynamic parts of the framework, and for years it relied heavily on proxies, reflection, and queries generated at runtime. That flexibility has a price: it slows […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/11/koreas-consumer-dna.html",
-    "pubDate": "Sun, 23 Nov 2025 21:21:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://blog.jetbrains.com/idea/2025/11/spring-data-aot/",
+    "pubDate": "Wed, 26 Nov 2025 14:50:05 +0000",
+    "creator": "Andrey Belyaev",
     "categories": [
-      "Uncategorized",
-      "B2C",
-      "brand",
-      "consumer",
-      "FoundersAtWork",
-      "inspiring",
-      "korea",
-      "vc"
+      "news",
+      "sping-data-aot",
+      "spring",
+      "spring-data"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "AI 활용 GEMINI 3 PRO 코딩툴 관련 영상 모음",
-    "description": "GEMINI 3 PRO 설명 영상\n영상: https://www.youtube.com/watch?v=YIV_URly8g0\n\n\n\n제미나이3 전반적인 설명이 있습니다.\n그후에\n \nGEMINI 3 PRO 코딩툴영상\n영상: https://www.youtube.com/watch?v=JvKo0WvwVEg&t=386s\n\n\n\n코딩툴만 보여주는 여상입니다.\n공짜일떄 빨리 사용해봅시다.",
+    "title": "Unwrap Innovation: How Sellers and Buyers Use AI to Brighten the Holidays",
+    "description": "eBay’s AI tools help sellers list faster, manage messages, and boost visibility, while giving buyers personalized discovery, trusted authentication, and a smoother, safer holiday shopping experience.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1488",
-    "pubDate": "Thu, 20 Nov 2025 19:41:55 +0900",
-    "creator": "SIDNFT",
+    "link": "https://innovation.ebayinc.com/stories/unwrap-innovation-how-sellers-and-buyers-use-ai-to-brighten-the-holidays/",
+    "pubDate": "Tue, 25 Nov 2025 00:00:00 -0800",
+    "creator": "eBay News Team",
     "categories": [
-      "유튜브",
-      "Ai",
-      "gemini",
-      "제미나이"
+      "article"
     ]
   }
 ]
