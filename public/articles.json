@@ -2,158 +2,120 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "테슬라 FSD v14 출시 임박, 자율주행의 새 시대",
-    "description": "테슬라 FSD v14, 왜 중요한가? 테슬라가 곧 출시 할 테슬라 FSD v14는 단순한 업데이트를 넘어 자율주행 상용화의 분수령으로 평가받고 있습니다. 일론 머스크는  \"14.2 버전부터는 차양이 마치 감각을 가진 존재처럼 느껴질 것\" 이라고 강조했습니다. 이는 단순한 마케팅 문구가 아니라, 실제 AI모델의 성능이 이전 세대와 비교할 수 없을 만큼 향상되",
+    "title": "연말정산 환급, 확실하게 챙기는 연금계좌 활용법",
+    "description": "세금 돌려받고, 노후 자산도 키우는 연금계좌의 모든 것",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/315",
-    "pubDate": "Fri, 21 Nov 2025 03:26:09 GMT",
-    "creator": "고명환",
+    "link": "https://toss.im/tossfeed/article/money-skills-5",
+    "pubDate": "Wed, 26 Nov 2025 06:19:00 GMT",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "1인개발 - 앱 출시 후 광고와 유료 사용자 모으기까지 / 바이브코딩 / 마케팅",
-    "description": "1인 비즈니스 수익화 : K\n영상: https://www.youtube.com/watch?v=pY9a4ecAtI4\n\n\n\n만드는게 쉬워진 이상\n이제 어려운 것은 마케팅입니다.\n사람에게 알리는 방법이 아주 힘듭니다.\n \n광고도 무적이 아닙니다.\n자세한건 영상을 보셔야 합니다.",
+    "title": "Solving Advent of Code in Rust, With Just Enough AI",
+    "description": "A year ago, I wrote a blog post about solving Advent of Code puzzles using Rust as the implementation language. I believe it’s still relevant if you plan to use Rust this year. In one section, I advised limiting the use of AI and demonstrated how to disable the relevant functionality in RustRover, either partially […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1505",
-    "pubDate": "Thu, 27 Nov 2025 22:05:08 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/rust/2025/11/28/solving-advent-of-code-in-rust-with-just-enough-ai/",
+    "pubDate": "Fri, 28 Nov 2025 14:23:56 +0000",
+    "creator": "Vitaly Bragilevsky",
     "categories": [
-      "유튜브",
-      "1인개발",
-      "마케팅",
-      "바이브코딩"
+      "contests",
+      "rustrover",
+      "advent-of-code",
+      "contest",
+      "rust"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "코드 품질 개선 기법 24편: 유산의 가치",
-    "description": "이 글은 2024년 5월 9일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고 ...",
+    "title": "토스는 왜 밴드 ADOY(아도이), 아티스트 16팀과 ‘뮤직비디오’를 만들었을까?",
+    "description": "토스임팩트 뮤직비디오 〈Spectrum〉에 담긴 작가들의 메시지",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-24",
-    "pubDate": "Fri, 21 Nov 2025 02:00:00 GMT",
+    "link": "https://toss.im/tossfeed/article/outsight-spectrum",
+    "pubDate": "Mon, 24 Nov 2025 07:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "1인개발 성공 스토리 - 타이머 앱",
-    "description": "영상: https://www.youtube.com/watch?v=z0wjM9YDZEo\n\n\n\n \n독일 개발자 루카스 헤르만(Lukas Hermann)은 간단한 **원격 제어 타이머 웹 앱 '스테이지타이머(StageTimer.io)'**로 큰 성공을 거둔 인물입니다.\n \n웸페이지: https://stagetimer.io/\n\n \nRemote-controlled Countdown Timer | stagetimer.io\nShow a fullscreen timer to your presenter while you control it from another device. Runs in the browser. Basic version is free. Works on all screen sizes.\nstagetimer.io\n\n \n\n\n윗부분 시간 표시되는 부분을 생방송 화면에 표시하고\n여러사람이 이것저것 수정할 수 있는 거 같습니다.\n타임어택 하는 게임 스트리머들에게 필요하겠군요\n정확한 수익 창출 모델은 잘 모르겠습니다.\n광고 가 붙은거 같진 않은데 사람들이 유료로 쓴다고 하네요\n \n대부분의 개발한 앱을 자랑하려면 레딧 사용이 필수 인거 같습니다.\n레딧을 파봐야겠군요",
+    "title": "2025 블프 비트코인 채굴기 구경해보자",
+    "description": "돌아온 블프\n블트는 돌아왔고 글이 늦었습니다.\n쇼핑몰은 마인샵 이용합니다.\n링크: https://mineshop.eu/\n \n내가 지른 것\n이번주면 세일도 끝이군요.\n저는 NANO 3S 질렀습니다.\n\n\n저는 저번에 날렴 먹은적이 있어서 전원 공급장치가 남아있어서 이걸 질렀습니다.\n할인해줘봐야 배송비로 다 나가는군요\n작년엔 NANO 3 를 2대나 샀지만 둘다 과열로 태워 먹었습니다. \n이번엔 과열을 시키지 않기 위해 뚜따와 방열판 추가 설치를 할 것입니다.\n \n채굴기 구입 주의 - 양자컴퓨터 이슈\n채굴기 구입은 점점 줄여야할 것 같습니다.\n양자컴퓨터 발전으로 2030년 정도에는 비트코인도 암호체계를 변경해야하는 이슈가 생길 것 같습니다.\n이러면 구버전 채굴기는 다 못쓰게 될 가능성이 있습니다.\n채굴기 구매에 주의가 필요합니다. \n(호환이 된다고 하면 문제는 아닙니다.)\n \n \n \n안살꺼지만 구경은 해봅시다.\nCanaan Avalon Q home Bitcoin Asic miner\n\n\n가격: 270 만원\n성능: 90 TH/s\n소비전력: 1670 Wh\n쇼핑몰 링크: https://mineshop.eu/canaan-avalon-q-home-bitcoin-asic-miner\n \n성능은 엄청나구요\n제가 채굴기에 깨작깨작 쓴돈이 100만원은 되는거 같군요 그냥 큰거 하나 살껄 하는 생각도 드네요\n소비전력은 가정에서 감당하기 힘든 정도입니다.\n가정에서 가볍게 돌리려면 300w/h 를 넘으면 안될 꺼 같습니다.\n이정도 돌리려면 공장이나 \n농촌에서 태왕광 패널 설치해서 돌려야 할꺼 같습니다.\n \n \n \n그 다음 성능의 물건\nAvalon Mini 3 Home Bitcoin miner.\n\n\n길쭉하게 생겼군요 영상을 찾아볼까요\n영상:https://www.youtube.com/watch?v=WKCKyob6pLg\n\n\n\n가격: 147만원\n성능: 37.5 TH/s\n소비전력: 750w\n소핑몰 링크: https://mineshop.eu/avalon-mini-3-home-bitcoin-miner\n \n이것도 가정에서 돌리려면 부담이 될 소비전력이군요\n열은 잘 내게 생겼습니다.\n어차피 온풍기 써보면 이것보다 전기를 많이 쓰긴합니다.\n온풍도 하면서 비코 채굴도 하는게 좋을꺼 같긴합니다.\n \n \n그다음은 제가 산거\nAvalon Nano 3S - 6 TH/s Home Bitcoin Miner and heater 140W\n\n\n가격: 44만원\n성능: 6TH/s\n소비전력: 140w\n \n주의: 전원 공급장치 별도 로 사야됩니다.\n소핑몰 링크: https://mineshop.eu/avalon-nano-3s-6-ths-home-bitcoin-miner-and-heater-140w\n \n \n아답타 별도로 사야합니다. \n이 제품만 사면 못돌려요\n \n지난번에 과열로 2대 날려먹고 히터로 쓰면 안된다는 것을 깨닳았습니다.\n이번엔 케이스 뜯어내고 추가 방영판도 설치할 예정입니다.\n주위 공기가 뜨거워지면 과열을 식힐 수 없어 고장이 나는 제품이니 \n무리하게 구입하지 마세요\n \n \nNerdQaxe++ Rev6.1 – Bitcoin Solo Miner\n\n\n가격: 56만원\n성능: 6TH/s\n소비전력: 100w\n전원 공급 장치 포함되있습니다.\n소핑몰 링크: https://mineshop.eu/nerdqaxe-rev6-bitcoin-solo-miner\n수냉 모댈도 있군요 10만원 더비싸네요\n \n위에꺼보다 가격이 비싼데요 써본결과 과열이 없는 제품입니다.\n집에선 이런거 돌리는게 맞는거 같아요\n가격이 비싼대신 소비 전력이 적습니다.\n그결과 열이 적게 나기 때문에 문제가 적습니다.\n케이스가 없고 노출된 상태인것도 장점일 수 있습니다. \n가끔 먼지를 털어 줍시다.\n \n이하 재밌는 제품들\nNerdQaxe++ Rev6 Hydro – Bitcoin Solo Miner (수냉)\n\n\n쇼핑몰 링크: https://mineshop.eu/nerdqaxe-rev6-hydro-bitcoin-solo-miner\n추천하는건 아니고 신기해서 봤습니다.\n이거 말고 약간 싼 구버전 모델이 있는데 \n채굴기 세계에선 구버전 사면 안됩니다. 성능이 안좋습니다.\n \n \n \n \nNerdOctaxe Home Bitcoin Miner (오 괜춘)\n\n\n쇼핑몰 링크: https://mineshop.eu/nerdoctaxe-home-bitcoin-miner\n \n이 제품은 두개를 옆으로 붙였습니다.\nNerdQaxe++ 두개 사는 가격보다는 싸군요\n가격적 매리트는 있긴하네요\n두개 옆으로 붙어있으면 열이 잘 안빠질꺼 같긴한데 안써봐서 모르겠습니다.\n혼돈의 변종이 탄생했군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1504",
-    "pubDate": "Thu, 27 Nov 2025 21:25:42 +0900",
+    "link": "https://serverdown.tistory.com/1502",
+    "pubDate": "Thu, 27 Nov 2025 13:50:52 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브",
-      "성공기",
-      "앱개발"
+      "코인",
+      "비트코인",
+      "채굴기"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "개발자 유튜브 채널 (한국) / 모아보자",
-    "description": "조코딩\n\n\n채널: https://www.youtube.com/@jocoding\n제일 잘나가는 채널 입니다.\n인기 있는 분야에 집중하십니다.\n \n \n \n최라마\n\n\n채널: https://www.youtube.com/@llamachoi\n강연도 하시는거 같습니다.\n \n \n원너겟의 게임 인문학\n\n\n채널: https://www.youtube.com/@wonnugget/videos\n마지막 영상이 1년전이군요 \n \n \n \n \n바코\n\n\n링크: https://www.youtube.com/@GameDevBaco\n2개월전이 마지막이군요\n2024년 게임회사에서 게임을하나 만들었는데 대막이 나서\n퇴사해서 직접 게임개발에 도전했던걸로 들었던거 같은데 소식이 드문드문하군요\n \n \n반가반가 1인 개발자\n\n\n링크: https://www.youtube.com/@bangacoding\n최근에 발견했습니다. \n퇴사하고 1년 되셨나봅니다.\nAI 개발 스타트업 회사에 갔다가 비전 없어서 퇴사하신거 같습니다.\n그런데 잘한거 같습니다.\n요즘 AI 학습을 직접 시키는 회사는 없으니까요\n영상: https://www.youtube.com/watch?v=PWAnoiKYrTo\n\n\n\n후기는 언제 중요합니다.\n \n \n다국어 개발자 [포트폴리오 사업가]\n\n\n채널: https://www.youtube.com/@weknowit\n인디해킹이라고 딸깍으로 어덯게 돈벌지를 연구하는 분야가있습니다.\n딸깍 분야를 공부해보시죠\n \n \n \n세라 in 호주  \n\n\n채널: https://www.youtube.com/@Sarah_In_Aus\n본인이 쓸 앱을 만들었군요 \n이런 방식이 가장 좋은 방법입니다.\n \n \n \n안똔AI\n채널: https://www.youtube.com/@%EC%95%88%EB%98%94AI\n\n \n안똔AI\nAI시대 트렌드/전략 영상 그만 보고 실습으로 바로 따라하세요!\nwww.youtube.com\n\n영상: https://www.youtube.com/watch?v=A_Q9qSsdz34\n\n\n\n이분은 AI 를 실무에 사용해보려는 노력을 하고 계십니다.\n \n \n아자캄 키우기_진짜 AI 사용기\n\n\n채널: https://www.youtube.com/@azakam_ai\n이분은 1인 기업에 도전 중이십니다.\n샘 알트먼이 \"1인 유니콘 기업 가능하다\" 이라고 했던 발언이 출발인거 같습니다.\n \n \novov 은성\n\n\n채널: https://www.youtube.com/@ovoveuni\n\n \novov 은성\n1인 개발자로 게임 개발 영상을 업로드합니다.   contact: ovovgames@gmail.com\nwww.youtube.com\n\n영상: https://www.youtube.com/watch?v=vV8WAnzVSWo&t=4s\n\n\n\n게임만들었다는 영상으로 입문했습니다.\n퇴사 감개월만에 ㄷㄷㄷ\n빠르군요\n \n \n서울대 한범 교수의 바이브코딩\n\n\n채널: https://www.youtube.com/@ProfHanBuhm\n대학교수이며 AI 로 창업을 도전 중이십니다.",
+    "title": "IntelliJ IDEA 2025.3 Release Candidate Is Here",
+    "description": "The Release Candidate for IntelliJ IDEA 2025.3 is now available, and we’re closing the Early Access Program for this development cycle.  Thank you to everyone who evaluated the EAP builds, shared feedback, and reported issues. Your input has been invaluable in shaping the upcoming release. When we opened the IntelliJ IDEA 2025.3 EAP, we outlined […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1498",
-    "pubDate": "Wed, 26 Nov 2025 18:06:17 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-2025-3-release-candidate/",
+    "pubDate": "Fri, 28 Nov 2025 14:04:53 +0000",
+    "creator": "Maria Kosukhina",
     "categories": [
-      "유튜브",
-      "1인개발자"
+      "eap",
+      "intellij-idea"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "New release cadence and support lifecycle for Microsoft C++ Build Tools",
-    "description": "Starting with Visual Studio 2026, we are introducing a new support lifecycle for the Microsoft C++ (MSVC) Build Tools. We are also updating the MSVC release cadence. As Visual Studio moves to a Modern Lifecycle with monthly feature updates and an annual new version, decoupling the compiler from the IDE offers you the best of […]\nThe post New release cadence and support lifecycle for Microsoft C++ Build Tools appeared first on C++ Team Blog.",
+    "title": "VC는 똑똑하지 않아도 된다",
+    "description": "2012년도에 스트롱을 시작했을 때, 내가 VC를 만들어서 잘할 수 있을진 확신이 없었지만, 두 가지만은 확신이 있었다. 그리고 이 두 개의 확신은 스트롱을 시작하고 13년이 지난 오늘도 우리 회사의 기초가 되는 두 개의 튼튼한 기둥 역할을 하고 있다. 하나는, 당시에 – 그리고 지금도 마찬가지다 – 시장에 존재하던 대부분의 VC와는 다른 성향과 색깔을 가진 투자자가 될 수(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/new-release-cadence-and-support-lifecycle-for-msvc-build-tools/",
-    "pubDate": "Mon, 24 Nov 2025 15:00:25 +0000",
-    "creator": "Marian Luparu",
+    "link": "https://www.thestartupbible.com/2025/11/lets-be-honest-vcs-dont-have-to-be-smart.html",
+    "pubDate": "Wed, 26 Nov 2025 21:29:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "C++",
-      "Visual Studio",
-      "MSVC",
-      "Upgrade",
-      "visual studio",
-      "visual studio 2026"
+      "Uncategorized",
+      "inspiring",
+      "people",
+      "Strong",
+      "vc"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "Master Spring Data AOT in IntelliJ IDEA",
-    "description": "Spring’s AOT engine has been around since the Spring Native days, but Spring Data never really benefited from it – until now. Repository infrastructure is one of the most dynamic parts of the framework, and for years it relied heavily on proxies, reflection, and queries generated at runtime. That flexibility has a price: it slows […]",
+    "title": "네이버 두나무 합병",
+    "description": "제가 놓치지 않고 꼭 듣고 싶은 이야기는 네이버의 이해진 의장님이 들려주시는 이야기입니다.\n본인은 스스로가 말을 못한다고 하시지만 제가 보기에는 타고난  달변가입니다.\n네이버 직원들에게 부러운 것은 이해진 의장님의 모든 사내 강연을 다시 볼 수 있다는 것입니다.\n두나무와 네이버파이낸셜의 합병 덕분에 정말 오랜만에 이해진 의장님의 이야기를 다시 한 번 들을 수 있었습니다.\n빌 게이츠나 마크 주커버그, 일론 머스크는 유튜브에 엄청 자주 나와서 대중들에게 생각을 공유하는데 우리나라 경영자들은 왜 그러지 않는지도 생각해보게 됩니다.\n우리나라의 리더들도 경험과 생각을 많이 들려주는 날이 온다면 기쁠 것 같네요.\n\n\n\n함께 읽으면 좋은 글:\n파랑새는 내 손 안에 있다\n나는 얼마짜리 사람인가?",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/11/spring-data-aot/",
-    "pubDate": "Wed, 26 Nov 2025 14:50:05 +0000",
-    "creator": "Andrey Belyaev",
-    "categories": [
-      "news",
-      "sping-data-aot",
-      "spring",
-      "spring-data"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "세 명의 스승님",
-    "description": "회사 생활을 하면서 세 명의 스승님을 만났습니다.\n적이 아니라 같은 편이라는 것이 너무나 든든한 사람들.\n처음엔 그저 똑똑하고 코딩을 잘해서 마음이 끌리나 보다 했는데 돌아보니 그런 게 아니었습니다.\n말과 행동이 일치하는 솔직함과 정직함.\n나는 이런 사람들을 좋아하고 존경하는구나.\n아, 나도 이런 사람이 되고 싶다.\n이분들이 일하는 걸 옆에서 지켜보면서 나도 닮고 싶다는 마음을 가졌던 것 같습니다.\n며칠 전 메일을 하나 받았습니다.\n\n며칠 전 고민 상담을 하는 후배 개발자님에게 받은 메일 중\n읽다가 깜짝 놀랐습니다. 정도를 걷는 게 몸에 밴 것 같다고? 내가?\n\n버핏 할아버지의 2025년 주주서한\n버핏 할아버지가 써주신 주주서한을 찬찬히 읽어보다가 세 명의 스승님이 떠올랐습니다.\n제 마음은 잘 전달되었을까요?\n독자 여러분들도 훌륭한 친구를 만나면 꼭 옆에 두시고 함께 성장할 수 있으시길 바랍니다.\n\n\n함께 읽으면 좋은 글:\n그건 네가 스스로 결정해야지\n10초에 한 번씩 컴파일하다 혼난 이야기\n옆 집 건물주에게 형사 소송한 썰",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/11/25/three-mentors.html",
-    "pubDate": "2025-11-25T06:28:00.000Z",
+    "link": "https://jeho.page/essay/2025/11/28/naver-dumanu.html",
+    "pubDate": "2025-11-28T10:23:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
+    "id": 8,
+    "imageUrl": "",
+    "title": "스타트업도 인재를 채용할 수 있는 방법 - 실리콘벨리 유럽 사례로 보는 채용 전략",
+    "description": "1. 배경설명 : 스타트업 채용의 현실 스타트업은 빠른 성장과 혁신을 기반으로 하지만, 대기업 대비 급여 / 복지 / 브랜드 인지도에서 열세에  있어 인재 확보에 어려움을 겪습니다. 특히 초기 단계에서는 현금 흐름이 불안정하고 조직 체계가 완전하지 않아 지원자가 적게 모이는 경향이 있습니다. 이러한 환경에서 글로벌 스타트업들은 어떻게 우수 인재를 확보했는지",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/316",
+    "pubDate": "Fri, 28 Nov 2025 03:11:34 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
     "id": 9,
-    "imageUrl": "",
-    "title": "충격 중국의 인신매매 인플러언서 잡히고 실물 공개되 ...",
-    "description": "뉴스에 올라온 사진 입니다.\n뉴스: https://v.daum.net/v/20251118135311895\n\n \n“남친 만나고 올게” 캄보디아 간 中인플루언서 실종\n중국 SNS 더우인에서 활동하는 11만 팔로워의 인플루언서 ‘오렌지언니(橙子姐姐)’의 모습. 더우인 캡처캄보디아에 남자친구를 만나러 떠난 중국 유명 인플루언서가 귀국을 앞두고 돌연 연락이\nv.daum.net\n\n기사 보면 전신 샷도 있습니당 ㅋ\n \n저화질 전체샷\n\n\n \n \n \n영상: https://www.youtube.com/watch?v=1bzXbU0QTEo\n\n\n\n뉴스는 대륙남 !\n \n\n\n이쁘네 \n \n \n잡히고나니\n\n\n찹혀서 고생을 했나 넙대데 해졌다고 합니다.\n \n\n\n한화면에 비교샷\n오 뭔가 비슷한거 같다.\n \n교훈\n인스타 사진 그거다 가짜다",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1500",
-    "pubDate": "Wed, 26 Nov 2025 18:30:19 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "유뉴브"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Visual Studio – Built for the Speed of Modern Development",
-    "description": "Visual Studio will adopt the Modern Support Lifecycle as a continuously updated IDE designed to deliver innovation as soon as it is ready, while maintaining the reliability and stability you count on every day with control over your build tools choices. \nThe post Visual Studio – Built for the Speed of Modern Development appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-built-for-the-speed-of-modern-development/",
-    "pubDate": "Mon, 24 Nov 2025 15:00:06 +0000",
-    "creator": "Paul Chapman",
-    "categories": [
-      "Visual Studio",
-      "Announcement",
-      "lifecycle",
-      "Support",
-      "Visual Studio 2026"
-    ]
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "Building AI Agents in Kotlin – Part 2: A Deeper Dive Into Tools ",
     "description": "In the previous article, we saw how to build a basic coding agent with list, read, write, and edit capabilities. Today, we’ll dive into how to extend the agents’ capabilities by creating additional tools within the Koog framework. As an example, we’ll be building an ExecuteShellCommandTool, teaching our agent to run code and close the […]",
@@ -170,69 +132,106 @@
     ]
   },
   {
-    "id": 12,
+    "id": 10,
     "imageUrl": "",
-    "title": "Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization",
-    "description": "We’re introducing Zoomer, Meta’s comprehensive, automated debugging and optimization platform for AI.  Zoomer works across all of our training and inference workloads at Meta and provides deep performance insights that enable energy savings, workflow acceleration, and efficiency gains in our AI infrastructure.  Zoomer has delivered training time reductions, and significant QPS improvements, making it the [...]\nRead More...\nThe post Zoomer: Powering AI Performance at Meta’s Scale Through Intelligent Debugging and Optimization appeared first on Engineering at Meta.",
+    "title": "1인개발자 성공담 / 노마드 리스트 / 당신이 사용할 앱을 만들어라",
+    "description": "노마드리스트 홈페이지: https://nomads.com/\n\n \nNomads.com\n  Go nomad: Join a global community of remote workers living around the world\nnomads.com\n\n \n \n노마드 리스트 는 1인개발자가 어느나라가서 일을 하면 좋은지를 적어놓은 문서 입니다.\n이 문서를 작업하다 대박이 난 이야기를 들을 수 있습니다.\n \n영상: https://www.youtube.com/watch?v=4_JfCAgTaLM\n\n\n\n \n한줄 요약\n내가 필요한 앱을 만들고 그걸 홍보한다.\n \n \n성공담은 언제나 중요합니다.\n요즘은 방패용사도 성공하는 시대입니다.\n \n \n \n추가로 발견\n영상: https://www.youtube.com/watch?v=TAHc3kvvXbU\n\n\n\n이 분도 앱을 만들어 작은 성공을 하신 케이스로\n이 영상도 역시 내가 하고 싶은걸 앱으로 만들어 성과를 낸 방식입니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/11/21/data-infrastructure/zoomer-powering-ai-performance-meta-intelligent-debugging-optimization/",
-    "pubDate": "Fri, 21 Nov 2025 21:00:15 +0000",
-    "creator": "Unknown",
+    "link": "https://serverdown.tistory.com/1499",
+    "pubDate": "Wed, 26 Nov 2025 18:18:03 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Data Center Engineering",
-      "Data Infrastructure",
-      "ML Applications"
+      "프로그래밍/개발메모",
+      "성공담"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "[MULTI] 로마의 패권은 바다에 있다, 아노 117: 팍스 로마나",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2392",
+    "pubDate": "Mon, 24 Nov 2025 13:57:20 +0900",
+    "creator": "「RULIWEB」",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "AI 브라우저의 불편한 진실",
+    "description": "인공지능(AI)은 우리의 일상에 깊숙이 파고들고 있습니다. 특히 ‘AI 브라우저’라는 새로운 개념은 웹 탐색의 미래를 바꿀 혁신으로 기대를 모았죠. 하지만 과연 그 기대가 현실과 일치할까요? 오늘, 우리는 최근 출시된 AI 브라우저들의 불편한 진실을 파헤쳐보고, 현재의 기술이 어디까지 와 있는지 솔직하게 이야기해보려 합니다. 지금 바로 AI 브라우저의 민낯을 함께 들여다보시죠.\n  프롬프트 주입 공격: AI 브라우저의 아킬레스건\n\n\n요즘 LLM(거대 언어 모델) 열풍과 함께 'AI 브라우저'라는 새로운 트렌드가 생겨났습니다. OpenAI나 Perplexity 같은 거물들도 구글 크롬이라는 절대 강자에 도전장을 내밀었죠. 독점 체제에 경쟁이 생기는 건 언제나 환영할 일이지만, 솔직히 말해서 이 새로운 AI 브라우저들은 아직 '준비가 안 됐다'는 생각이 들어요. 저는 한 주 정도 ChatGPT Atlas 브라우저를 사용해보다가 결국 삭제하고 말았는데, 이 경험이 이 분야를 더 깊이 들여다보게 된 계기가 되었죠. 파고들수록 우리가 엉뚱한 방향으로 가고 있는 건 아닌가 하는 불안감이 커졌습니다.\n가장 큰 문제 중 하나는 바로 프롬프트 주입 공격(Prompt Injection Attack)에 취약하다는 점이에요. 이게 뭐냐면, 웹사이트가 숨겨진 명령어를 슬쩍 심어 놓으면 AI가 사용자의 지시 대신 그 숨겨진 명령어를 따르게 되는 것을 말합니다. 해킹과는 조금 달라요. AI는 그저 페이지에 있는 모든 텍스트를 읽는데, 여기엔 우리 눈에는 보이지 않는 텍스트도 포함되거든요. 그래서 AI 브라우저는 이 숨겨진 텍스트를 진짜 명령으로 착각할 수 있습니다.\n심지어 OpenAI조차도 ChatGPT Atlas 브라우저가 아직 프롬프트 주입에 취약하다고 인정했습니다. 얼마나 쉽게 공격이 가능한지 직접 실험해보니 정말 충격적이었어요. 기술적인 세부 내용은 보안상 말씀드리기 어렵지만, 저는 꽤 인기 있는 AI 브라우저인 Dia를 속여 제가 만든 페이지에서는 요약이나 답변을 할 때마다 해적처럼 말하고 '개' 대신 '바다개'라고 말하게 만들었죠. 어찌 보면 유치한 예시지만, AI가 제 숨겨진 지시에 더 귀 기울였다는 것을 증명하기엔 충분했습니다.\n이런 간단한 트릭에도 AI의 응답이 달라진다면, 악의적인 웹사이트가 어떤 일을 벌일지 상상해보세요. 쇼핑 사이트는 AI를 조작해서 더 비싼 제품을 추천하게 만들 수도 있고, 사기성 사이트는 AI 에이전트가 안전하지 않은 링크로 유도하게 만들 수도 있습니다. 제가 ChatGPT Atlas에서 똑같은 결과를 재현하지는 못했지만, 제가 시도한 방법이 결코 고도로 정교한 방식은 아니었다는 점을 기억해야 합니다.\n⚠️ 주의하세요! AI 브라우저를 사용할 때는 방문하는 사이트가 어떤 숨겨진 명령을 가지고 있을지 항상 경계해야 합니다. 알 수 없는 링크나 의심스러운 콘텐츠는 가급적 피하는 것이 안전합니다.\n\n\n  당신은 사용자가 아닌 '제품'입니다: 은밀한 데이터 수집\n차세대 AI 모델을 위한 데이터 사냥\n수년 동안 구글은 우리가 누구인지에 대한 상세한 프로필을 구축해왔습니다. 검색 기록으로 어떤 광고를 보여줄지 파악하는 것부터 시작해서, 지도나 유튜브 같은 다른 서비스들을 통해 우리의 습관, 위치, 관심사에 대한 더 많은 데이터를 수집했죠. 그런데 LLM 시대에는 상황이 훨씬 미묘하고 달라졌습니다. 많은 사람들이 AI와 대화할 때 얼마나 많은 것을 포기하고 있는지 잘 깨닫지 못하는 것 같아요.\n기존 검색과 달리, 사람들은 LLM과의 상호작용이 마치 실제 대화처럼 느껴지기 때문에 훨씬 더 개인적인 정보를 공유하는 경향이 있습니다. 심지어 어떤 사람들은 ChatGPT를 심리 치료사처럼 대하기도 하더군요. 문제는 이렇게 나눈 대화가 단순히 거기에 머물러 있지 않는다는 것입니다. 많은 경우, 여러분들이 제공한 데이터는 미래 모델을 훈련하거나 개선하는 데 사용됩니다.\n이 말은 여러분의 개인적인 이야기, 선호도, 의사 결정이 수백만 명의 다른 사용자들을 위한 AI의 행동 방식을 형성하는 데이터셋의 일부가 될 수 있다는 뜻입니다. AI 브라우저가 여러분이 방문하는 모든 페이지와 작성하는 모든 프롬프트를 클라우드로 전송할 때, 개인 정보 보호 비용은 상상을 초월할 정도로 높아지게 됩니다. 이것이야말로 기업들이 할 수 있는 가장 순수한 형태의 프로파일링이고, AI 브라우저가 바로 이 목적을 달성하기 위한 가장 쉬운 방법이라는 게 저의 생각입니다.\n  데이터 주권, 이제는 필수가 되었죠! 개인 정보를 공유하기 전에 AI 서비스의 데이터 정책을 꼼꼼히 확인하고, 민감한 정보는 가급적 입력하지 않는 습관을 들이는 것이 중요합니다.\n⚙️ AI '에이전트'의 불편한 진실: 문제 해결은 미지수\n위험까지 떠안아야 할까요?\nAI 에이전트가 어떻게 작동하는지 잘 모르시는 분들을 위해 간단히 설명하자면, 프롬프트에 따라 자동으로 여러 작업을 처리하도록 설계된 기능입니다. 이론적으로는 시간을 절약해줘야 하죠. 하지만 현실에서는 거의 그렇지 못합니다. 제가 ChatGPT Atlas 브라우저의 에이전트 모드를 사용해봤을 때, 거의 쓸모가 없었어요. 엉뚱한 행동을 하거나, 요청하지도 않은 텍스트를 요약하고, 스크롤 바 같은 기본적인 것들조차 완전히 무시하곤 했습니다. 게다가 너무 느려서 제가 직접 처리하는 것보다 세 배는 더 오래 걸렸죠. 돕기는커녕 계속 방해가 되는 느낌이었어요.\n더 큰 문제는 바로 보안입니다. 이 에이전트 기능도 앞에서 언급했던 프롬프트 주입 공격에 취약한데, 그 결과는 훨씬 더 심각할 수 있습니다. AI 브라우저가 피싱 이메일 같은 사기에 넘어가도록 속을 수도 있다는 거예요. 이건 정말 대실패라고밖에 말할 수 없죠. 만약 에이전트 기능이 AI 브라우저의 주요 판매 포인트 중 하나인데, 오히려 이런 막대한 위험을 안겨준다면 대체 왜 이런 브라우저를 사용해야 하는 걸까요? 아직은 시기상조라는 생각이 듭니다.\n 확장 프로그램으로 충분합니다: 결국 모두 크로미움 기반\n오늘날 가장 인기 있는 AI 브라우저들을 한번 살펴보세요. Perplexity Comet, ChatGPT Atlas, Dia 등 대부분이 놀랍도록 비슷합니다. 질문이 너무 광범위하거나 모호할 때 LLM을 호출하고, 현재 보고 있는 페이지를 읽고 질문에 답하는 AI 사이드바를 추가하며, 기본적인 에이전트 기능을 포함하여 특정 작업을 자동화하려고 하죠. 이게 거의 전체 패키지라고 볼 수 있습니다.\n하지만 이렇게 뜯어보면, 이 모든 기능들이 사실 AI 브라우저만의 전유물은 아닙니다. 일반적인 크로미움(Chromium) 기반 브라우저에 몇 가지 확장 프로그램을 추가하는 것만으로 거의 모든 기능을 재현할 수 있죠. 실제 AI의 지능은 브라우저 자체가 아니라 클라우드에서 오기 때문에, 브라우저는 모델을 위한 일종의 '프런트 엔드' 역할만 하는 셈입니다.\n예를 들어, Perplexity는 이미 구글 검색을 대체하는 자체 AI 검색 확장 프로그램을 가지고 있습니다. AI 사이드바 기능의 경우, FillApp 같은 것을 사용하면 '거창한' AI 사이드바와 약간의 에이전트 동작까지 얻을 수 있습니다. 이렇게 여러 조각들을 모으면, 새로운 브라우저를 설치할 필요 없이 거의 동일한 기능 세트를 가질 수 있게 되는 거죠. 굳이 새로운 브라우저를 설치하며 알 수 없는 위험을 감수할 필요가 없다는 것이 저의 솔직한 생각입니다.\n\n\n\n  핵심 요약\n1. 프롬프트 주입 공격 취약성: AI 브라우저는 숨겨진 웹사이트 명령에 쉽게 조작될 수 있어 사용자 의도와 다른 결과를 낳을 위험이 큽니다.\n2. 개인 정보 유출 위험: 대화형 AI는 사용자의 개인적인 정보를 수집하여 다음 AI 모델 훈련에 활용될 수 있으며, 이는 새로운 형태의 프로파일링으로 이어집니다.\n3. AI 에이전트의 낮은 효율성 및 보안 문제: 현재 AI 에이전트는 기대만큼 문제를 해결해주지 못하며, 오히려 피싱 등 심각한 보안 위험에 사용자를 노출시킬 수 있습니다.\n4. 확장 프로그램으로 대체 가능한 기능: 대부분의 AI 브라우저 기능은 크로미움 기반 브라우저의 확장 프로그램으로 충분히 구현 가능하며, 별도 브라우저의 필요성을 약화시킵니다.\nAI 브라우저의 현재는 기대만큼 빛나지 않습니다. 혁신을 위해서는 더 근본적인 접근 방식이 필요합니다.\n✨ AI 브라우저, 더 높은 목표를 향해 나아가야 할 때\n기업들은 LLM만으로는 브라우저를 '스마트'하게 만들기에 충분하다는 생각을 이제는 벗어나야 합니다. AI는 단순히 사이드바에 앉아서 이미 페이지에 있는 내용을 반복하는 것을 넘어, 실제 사용자 경험을 개선하는 방향으로 나아가야 한다고 봅니다. 바로 이 점 때문에 Arc 브라우저가 그 후속작인 Dia와는 전혀 다른 느낌을 주었던 거죠. 아, Arc가 사라진 이후로 아직까지 그 자리를 채워줄 만한 브라우저를 찾지 못해서, 저는 여전히 '브라우저 난민' 신세로 이 옵션 저 옵션 사이를 헤매고 있습니다. 언젠가는 진짜 '혁신적인' AI 브라우저가 등장하기를 바라봅니다. 오늘 2025년 보고서가 여러분의 AI 브라우저 선택에 조금이나마 도움이 되었기를 바랍니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: AI 브라우저의 '프롬프트 주입 공격'이란 무엇인가요?\nA1: 프롬프트 주입 공격은 웹사이트가 사용자에게는 보이지 않는 숨겨진 명령을 삽입하여, AI가 사용자의 실제 요청 대신 웹사이트의 의도대로 동작하게 만드는 보안 취약점을 말합니다. 이는 AI가 페이지의 모든 텍스트를 읽는 특성 때문에 발생할 수 있습니다.\nQ2: AI 브라우저가 제 개인 정보를 어떻게 활용하나요?\nA2: AI 브라우저는 사용자가 방문하는 웹페이지와 AI와의 대화 내용을 포함한 다양한 데이터를 수집할 수 있습니다. 이 데이터는 종종 AI 모델의 훈련 및 개선에 사용되어, 사용자의 개인적인 정보가 미래 AI 모델의 행동 방식에 영향을 미칠 수 있습니다. 이는 새로운 형태의 사용자 프로파일링으로 이어질 수 있습니다.\nQ3: AI 에이전트 기능은 실제로 유용한가요?\nA3: 현재로서는 AI 에이전트 기능이 기대만큼 효율적이지 않다는 평가가 많습니다. 엉뚱한 동작을 하거나 속도가 느린 경우가 많으며, 프롬프트 주입 공격에 취약하여 피싱 등 심각한 보안 위험에 노출될 가능성도 있어 실질적인 문제 해결보다는 새로운 위험을 초래할 수 있습니다.\nQ4: AI 브라우저 대신 기존 브라우저와 확장 프로그램을 사용하는 것이 더 나은 선택일까요?\nA4: 네, 많은 AI 브라우저의 핵심 기능들은 크로미움 기반 브라우저에 AI 관련 확장 프로그램을 설치하는 것만으로도 충분히 구현 가능합니다. AI의 '지능'이 클라우드 기반이라는 점을 고려할 때, 굳이 새로운 AI 브라우저를 설치하면서 잠재적인 보안 위험이나 성능 저하를 감수할 필요가 없을 수 있습니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI 브라우저의 '프롬프트 주입 공격'이란 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"프롬프트 주입 공격은 웹사이트가 사용자에게는 보이지 않는 숨겨진 명령을 삽입하여, AI가 사용자의 실제 요청 대신 웹사이트의 의도대로 동작하게 만드는 보안 취약점을 말합니다. 이는 AI가 페이지의 모든 텍스트를 읽는 특성 때문에 발생할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI 브라우저가 제 개인 정보를 어떻게 활용하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"AI 브라우저는 사용자가 방문하는 웹페이지와 AI와의 대화 내용을 포함한 다양한 데이터를 수집할 수 있습니다. 이 데이터는 종종 AI 모델의 훈련 및 개선에 사용되어, 사용자의 개인적인 정보가 미래 AI 모델의 행동 방식에 영향을 미칠 수 있습니다. 이는 새로운 형태의 사용자 프로파일링으로 이어질 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI 에이전트 기능은 실제로 유용한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재로서는 AI 에이전트 기능이 기대만큼 효율적이지 않다는 평가가 많습니다. 엉뚱한 동작을 하거나 속도가 느린 경우가 많으며, 프롬프트 주입 공격에 취약하여 피싱 등 심각한 보안 위험에 노출될 가능성도 있어 실질적인 문제 해결보다는 새로운 위험을 초래할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI 브라우저 대신 기존 브라우저와 확장 프로그램을 사용하는 것이 더 나은 선택일까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 많은 AI 브라우저의 핵심 기능들은 크로미움 기반 브라우저에 AI 관련 확장 프로그램을 설치하는 것만으로도 충분히 구현 가능합니다. AI의 '지능'이 클라우드 기반이라는 점을 고려할 때, 굳이 새로운 AI 브라우저를 설치하면서 잠재적인 보안 위험이나 성능 저하를 감수할 필요가 없을 수 있습니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483684",
+    "pubDate": "Thu, 27 Nov 2025 14:04:58 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "ai 브라우저",
+      "AI 에이전트",
+      "ai 트렌드 2025",
+      "chatgpt atlas",
+      "Perplexity Comet",
+      "개인 정보 보호",
+      "데이터 프로파일링",
+      "브라우저 보안",
+      "크로미움 확장 프로그램",
+      "프롬프트 주입 공격"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "2025 블프 비트코인 채굴기 구경해보자",
-    "description": "돌아온 블프\n블트는 돌아왔고 글이 늦었습니다.\n쇼핑몰은 마인샵 이용합니다.\n링크: https://mineshop.eu/\n \n내가 지른 것\n이번주면 세일도 끝이군요.\n저는 NANO 3S 질렀습니다.\n\n\n저는 저번에 날렴 먹은적이 있어서 전원 공급장치가 남아있어서 이걸 질렀습니다.\n할인해줘봐야 배송비로 다 나가는군요\n작년엔 NANO 3 를 2대나 샀지만 둘다 과열로 태워 먹었습니다. \n이번엔 과열을 시키지 않기 위해 뚜따와 방열판 추가 설치를 할 것입니다.\n \n채굴기 구입 주의 - 양자컴퓨터 이슈\n채굴기 구입은 점점 줄여야할 것 같습니다.\n양자컴퓨터 발전으로 2030년 정도에는 비트코인도 암호체계를 변경해야하는 이슈가 생길 것 같습니다.\n이러면 구버전 채굴기는 다 못쓰게 될 가능성이 있습니다.\n채굴기 구매에 주의가 필요합니다. \n(호환이 된다고 하면 문제는 아닙니다.)\n \n \n \n안살꺼지만 구경은 해봅시다.\nCanaan Avalon Q home Bitcoin Asic miner\n\n\n가격: 270 만원\n성능: 90 TH/s\n소비전력: 1670 Wh\n쇼핑몰 링크: https://mineshop.eu/canaan-avalon-q-home-bitcoin-asic-miner\n \n성능은 엄청나구요\n제가 채굴기에 깨작깨작 쓴돈이 100만원은 되는거 같군요 그냥 큰거 하나 살껄 하는 생각도 드네요\n소비전력은 가정에서 감당하기 힘든 정도입니다.\n가정에서 가볍게 돌리려면 300w/h 를 넘으면 안될 꺼 같습니다.\n이정도 돌리려면 공장이나 \n농촌에서 태왕광 패널 설치해서 돌려야 할꺼 같습니다.\n \n \n \n그 다음 성능의 물건\nAvalon Mini 3 Home Bitcoin miner.\n\n\n길쭉하게 생겼군요 영상을 찾아볼까요\n영상:https://www.youtube.com/watch?v=WKCKyob6pLg\n\n\n\n가격: 147만원\n성능: 37.5 TH/s\n소비전력: 750w\n소핑몰 링크: https://mineshop.eu/avalon-mini-3-home-bitcoin-miner\n \n이것도 가정에서 돌리려면 부담이 될 소비전력이군요\n열은 잘 내게 생겼습니다.\n어차피 온풍기 써보면 이것보다 전기를 많이 쓰긴합니다.\n온풍도 하면서 비코 채굴도 하는게 좋을꺼 같긴합니다.\n \n \n그다음은 제가 산거\nAvalon Nano 3S - 6 TH/s Home Bitcoin Miner and heater 140W\n\n\n가격: 44만원\n성능: 6TH/s\n소비전력: 140w\n \n주의: 전원 공급장치 별도 로 사야됩니다.\n소핑몰 링크: https://mineshop.eu/avalon-nano-3s-6-ths-home-bitcoin-miner-and-heater-140w\n \n \n아답타 별도로 사야합니다. \n이 제품만 사면 못돌려요\n \n지난번에 과열로 2대 날려먹고 히터로 쓰면 안된다는 것을 깨닳았습니다.\n이번엔 케이스 뜯어내고 추가 방영판도 설치할 예정입니다.\n주위 공기가 뜨거워지면 과열을 식힐 수 없어 고장이 나는 제품이니 \n무리하게 구입하지 마세요\n \n \nNerdQaxe++ Rev6.1 – Bitcoin Solo Miner\n\n\n가격: 56만원\n성능: 6TH/s\n소비전력: 100w\n전원 공급 장치 포함되있습니다.\n소핑몰 링크: https://mineshop.eu/nerdqaxe-rev6-bitcoin-solo-miner\n수냉 모댈도 있군요 10만원 더비싸네요\n \n위에꺼보다 가격이 비싼데요 써본결과 과열이 없는 제품입니다.\n집에선 이런거 돌리는게 맞는거 같아요\n가격이 비싼대신 소비 전력이 적습니다.\n그결과 열이 적게 나기 때문에 문제가 적습니다.\n케이스가 없고 노출된 상태인것도 장점일 수 있습니다. \n가끔 먼지를 털어 줍시다.\n \n이하 재밌는 제품들\nNerdQaxe++ Rev6 Hydro – Bitcoin Solo Miner (수냉)\n\n\n쇼핑몰 링크: https://mineshop.eu/nerdqaxe-rev6-hydro-bitcoin-solo-miner\n추천하는건 아니고 신기해서 봤습니다.\n이거 말고 약간 싼 구버전 모델이 있는데 \n채굴기 세계에선 구버전 사면 안됩니다. 성능이 안좋습니다.\n \n \n \n \nNerdOctaxe Home Bitcoin Miner (오 괜춘)\n\n\n쇼핑몰 링크: https://mineshop.eu/nerdoctaxe-home-bitcoin-miner\n \n이 제품은 두개를 옆으로 붙였습니다.\nNerdQaxe++ 두개 사는 가격보다는 싸군요\n가격적 매리트는 있긴하네요\n두개 옆으로 붙어있으면 열이 잘 안빠질꺼 같긴한데 안써봐서 모르겠습니다.\n혼돈의 변종이 탄생했군요",
+    "title": "Advent of Code 2025: A Kotlin Playground",
+    "description": "Join us live for five days of Advent of Code puzzles and five Kotlin livestreams on December 1–5. Solve the puzzles in Kotlin with help from Kotlin team experts and fun community guests, climb the leaderboard, learn new tricks, and have a chance to win some prizes along the way! Here’s what we have planned […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1502",
-    "pubDate": "Thu, 27 Nov 2025 13:50:52 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/kotlin/2025/11/advent-of-code-in-kotlin-2025/",
+    "pubDate": "Fri, 28 Nov 2025 15:18:12 +0000",
+    "creator": "Ksenia Shneyveys",
     "categories": [
-      "코인",
-      "비트코인",
-      "채굴기"
+      "news",
+      "advent-of-code",
+      "aoc",
+      "prizes"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "ReSharper and Rider 2025.3.0.3: A Fresh Set of Updates Released",
-    "description": "Another set of updates for the 2025.3 versions of ReSharper and Rider has just been released.  Let’s take a look at what’s been improved. ReSharper 2025.3.0.3 The most notable fix of this build is that extension methods from source-only NuGet packages are now recognized correctly in the editor and by InspectCode. [RSRP-502165]. You can find the […]",
+    "title": "I Went to BazelCon 2025 – Here’s Everything You Need to Know",
+    "description": "This year, BazelCon was held at the Omni Atlanta Hotel at Centennial Park for a very special occasion: the tenth anniversary of Bazel 🎉 For me, visiting from Europe, Atlanta made quite the first impression. The city felt bigger than anything I’ve seen back home, and with KubeCon happening right next door, the streets were […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/11/27/resharper-and-rider-2025-3-0-3/",
-    "pubDate": "Thu, 27 Nov 2025 13:40:26 +0000",
-    "creator": "Sasha Ivanova",
+    "link": "https://blog.jetbrains.com/clion/2025/11/bazelcon-2025/",
+    "pubDate": "Thu, 27 Nov 2025 14:54:22 +0000",
+    "creator": "Daniel Brauner",
     "categories": [
-      "net-tools",
-      "minor-updates",
+      "events",
       "news",
-      "releases",
-      "resharper",
-      "rider",
-      "update"
+      "bazel",
+      "build-tools"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Unwrap Innovation: How Sellers and Buyers Use AI to Brighten the Holidays",
-    "description": "eBay’s AI tools help sellers list faster, manage messages, and boost visibility, while giving buyers personalized discovery, trusted authentication, and a smoother, safer holiday shopping experience.",
+    "title": "One Could Simply Add Nullability Check Support… Without Even Noticing It",
+    "description": "(The Growing Pains of a Good Idea: What Happens After JSpecify Adoption Begins) The good news: JSpecify is finally here JSpecify adoption is accelerating. You don’t even need to “install” it – nullability support now arrives automatically with your dependencies.  If you somehow missed the long history behind the JSpecify effort and want a quick […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://innovation.ebayinc.com/stories/unwrap-innovation-how-sellers-and-buyers-use-ai-to-brighten-the-holidays/",
-    "pubDate": "Tue, 25 Nov 2025 00:00:00 -0800",
-    "creator": "eBay News Team",
+    "link": "https://blog.jetbrains.com/idea/2025/11/one-could-simply-add-nullability-check-support-without-even-noticing-it/",
+    "pubDate": "Thu, 27 Nov 2025 13:07:00 +0000",
+    "creator": "Andrei Kogun",
     "categories": [
-      "article"
+      "java",
+      "news",
+      "jspecify"
     ]
   }
 ]
