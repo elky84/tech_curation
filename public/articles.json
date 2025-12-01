@@ -2,65 +2,54 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "1인개발자 - 사업자등록을  왜 해야하는 갈까요? 에 대한 영상",
-    "description": "영상: https://www.youtube.com/watch?v=CU-KfQR6Nfs\n\n\n\n \n비용 처리랑 세금 문제 때문입니다.\n영상에 다양한 이야기가 있으니 보시는게 좋습니다.\n \n왜 라는 것을 해결주는 여상이라 그런가\n내용이 좋습니다.\n구독해야겠군요",
+    "title": "네이버 두나무 합병",
+    "description": "제가 놓치지 않고 꼭 듣고 싶은 이야기는 네이버의 이해진 의장님이 들려주시는 이야기입니다.\n본인은 스스로가 말을 못한다고 하시지만 제가 보기에는 타고난  달변가입니다.\n네이버 직원들에게 부러운 것은 이해진 의장님의 모든 사내 강연을 다시 볼 수 있다는 것입니다.\n두나무와 네이버파이낸셜의 합병 덕분에 정말 오랜만에 이해진 의장님의 이야기를 다시 한 번 들을 수 있었습니다.\n빌 게이츠나 마크 주커버그, 일론 머스크는 유튜브에 엄청 자주 나와서 대중들에게 생각을 공유하는데 우리나라 경영자들은 왜 그러지 않는지도 생각해보게 됩니다.\n우리나라의 리더들도 경험과 생각을 많이 들려주는 날이 온다면 기쁠 것 같네요.\n\n\n\n함께 읽으면 좋은 글:\n파랑새는 내 손 안에 있다\n나는 얼마짜리 사람인가?",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1501",
-    "pubDate": "Wed, 26 Nov 2025 18:58:36 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "1인개발자"
-    ]
+    "link": "https://jeho.page/essay/2025/11/28/naver-dumanu.html",
+    "pubDate": "2025-11-28T10:23:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "What’s New in TeamCity 2025.11: AI Assistant, New Pipeline Features, Enhanced Server Encryption Settings, and More.",
-    "description": "TeamCity 2025.11 introduces new build steps for pipelines, enhanced encryption settings, and a refreshed experience that makes powerful CI/CD workflows easier to create and manage. Here’s what’s new in this release. Introducing AI Assistant (Early Access) TeamCity is a true powerhouse, but mastering every one of its features can be challenging. To help you get […]",
+    "title": "세 명의 스승님",
+    "description": "회사 생활을 하면서 세 명의 스승님을 만났습니다.\n적이 아니라 같은 편이라는 것이 너무나 든든한 사람들.\n처음엔 그저 똑똑하고 코딩을 잘해서 마음이 끌리나 보다 했는데 돌아보니 그런 게 아니었습니다.\n말과 행동이 일치하는 솔직함과 정직함.\n나는 이런 사람들을 좋아하고 존경하는구나.\n아, 나도 이런 사람이 되고 싶다.\n이분들이 일하는 걸 옆에서 지켜보면서 나도 닮고 싶다는 마음을 가졌던 것 같습니다.\n며칠 전 메일을 하나 받았습니다.\n\n며칠 전 고민 상담을 하는 후배 개발자님에게 받은 메일 중\n읽다가 깜짝 놀랐습니다. 정도를 걷는 게 몸에 밴 것 같다고? 내가?\n\n버핏 할아버지의 2025년 주주서한\n버핏 할아버지가 써주신 주주서한을 찬찬히 읽어보다가 세 명의 스승님이 떠올랐습니다.\n제 마음은 잘 전달되었을까요?\n독자 여러분들도 훌륭한 친구를 만나면 꼭 옆에 두시고 함께 성장할 수 있으시길 바랍니다.\n\n\n함께 읽으면 좋은 글:\n그건 네가 스스로 결정해야지\n10초에 한 번씩 컴파일하다 혼난 이야기\n옆 집 건물주에게 형사 소송한 썰",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/11/teamcity-202511/",
-    "pubDate": "Thu, 27 Nov 2025 14:00:54 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "net-tools",
-      "ai-assistant",
-      "releases",
-      "teamcity-2",
-      "news",
-      "release"
-    ]
+    "link": "https://jeho.page/essay/2025/11/25/three-mentors.html",
+    "pubDate": "2025-11-25T06:28:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "New release cadence and support lifecycle for Microsoft C++ Build Tools",
-    "description": "Starting with Visual Studio 2026, we are introducing a new support lifecycle for the Microsoft C++ (MSVC) Build Tools. We are also updating the MSVC release cadence. As Visual Studio moves to a Modern Lifecycle with monthly feature updates and an annual new version, decoupling the compiler from the IDE offers you the best of […]\nThe post New release cadence and support lifecycle for Microsoft C++ Build Tools appeared first on C++ Team Blog.",
+    "title": "VC는 똑똑하지 않아도 된다",
+    "description": "2012년도에 스트롱을 시작했을 때, 내가 VC를 만들어서 잘할 수 있을진 확신이 없었지만, 두 가지만은 확신이 있었다. 그리고 이 두 개의 확신은 스트롱을 시작하고 13년이 지난 오늘도 우리 회사의 기초가 되는 두 개의 튼튼한 기둥 역할을 하고 있다. 하나는, 당시에 – 그리고 지금도 마찬가지다 – 시장에 존재하던 대부분의 VC와는 다른 성향과 색깔을 가진 투자자가 될 수(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/new-release-cadence-and-support-lifecycle-for-msvc-build-tools/",
-    "pubDate": "Mon, 24 Nov 2025 15:00:25 +0000",
-    "creator": "Marian Luparu",
+    "link": "https://www.thestartupbible.com/2025/11/lets-be-honest-vcs-dont-have-to-be-smart.html",
+    "pubDate": "Wed, 26 Nov 2025 21:29:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "C++",
-      "Visual Studio",
-      "MSVC",
-      "Upgrade",
-      "visual studio",
-      "visual studio 2026"
+      "Uncategorized",
+      "inspiring",
+      "people",
+      "Strong",
+      "vc"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "드림씨어터 40주년 기념 앨범 Quarantième: Live à Paris",
-    "description": "드림씨어터의 팬이지만 라이브는 불편해서 잘 듣지 않는다. 하지만 이번 앨범 'Quarantième: Live à Paris'는 듣다가 간만에 CD까지 구매했다. 파리의 아디다스 아레나에서 녹음되었고 DVD 촬영을 같이 했다고 하는데 소리도 아주 좋다. 앨범 제목은 프랑스어 인데 영어로 '40th: Live in Paris'를 의미한다. 드림씨어터의 40주년 기념 라이브 앨범이고 포트노이의 복귀 앨범이기도 하다.\n\r\n\r\n처음에는 보컬 소리가 많이 달라서 라브리에가 아닌줄 알았다. 아무래도 예전 처럼 고음 위주로 노래하기는 힘드니 창법도 바꾸고 키도 바꿔서 소리가 조금 달라졌다고 한다. 조단 루디스의 음색도 아주 풍부하다. 존명도 솔로 파트에서 드라이브가 잔뜩 걸린 소리를 들려준다. 패트루치야 항상 한결같다. 앨범 전반적으로 좀 헤비한 느낌이다. 시간이 참 빠르다. 앞으로도 계속해서 좋은 음반이 나오기를 기대한다.",
+    "title": "토스는 왜 밴드 ADOY(아도이), 아티스트 16팀과 ‘뮤직비디오’를 만들었을까?",
+    "description": "토스임팩트 뮤직비디오 〈Spectrum〉에 담긴 작가들의 메시지",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hyeonseok.com/blog/945",
-    "pubDate": "Sat, 29 Nov 2025 05:22:32 GMT",
+    "link": "https://toss.im/tossfeed/article/outsight-spectrum",
+    "pubDate": "Mon, 24 Nov 2025 07:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
@@ -81,94 +70,53 @@
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Open-source IntelliJ IDEA: A Simpler Way to Build and Contribute to the Community",
-    "description": "IntelliJ IDEA’s source code has been publicly available for more than 15 years, helping millions of developers learn, experiment, and contribute to the IDE, as well as build their own tools. Now, we’re taking our commitment to open source a step further by making it even easier for the community to explore, build, and contribute! […]",
+    "title": "1인게임 개발의 흐름 파악 및 장기 계획 / 나도코딩",
+    "description": "영상: https://www.youtube.com/watch?v=OLGX_XtX7Fc\n\n\n\n \n분위기가 어떻게 돌아가는지 파학할 수 있는 영상이였습니다.\n위험성은 치킨집 창업보다 쉽습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/11/intellij-idea-open-source/",
-    "pubDate": "Tue, 25 Nov 2025 12:07:11 +0000",
-    "creator": "Dmitriy Smirnov",
+    "link": "https://serverdown.tistory.com/1508",
+    "pubDate": "Fri, 28 Nov 2025 16:15:53 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "news"
+      "유튜브",
+      "1인개발",
+      "게임개발"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "토스는 왜 밴드 ADOY(아도이), 아티스트 16팀과 ‘뮤직비디오’를 만들었을까?",
-    "description": "토스임팩트 뮤직비디오 〈Spectrum〉에 담긴 작가들의 메시지",
+    "title": "“Why”가 아니라 “What”",
+    "description": "이 글을 읽는 다른 VC가 있다면, 아마도 나와 비슷할 것인데, 다음과 같은 창업가들을 분명 만나본 적이 있을 것이다. 내가 열린 마음으로 사람들을 만나는 직업을 갖고 있지만, 아무리 만나도 호감이 안 가고, 만나면 만날수록 더 싫어지는 종류의 창업가들이 있다. 실은 이런 분들이 여러 종류가 있지만, 요새 내가 정말 피하고 싶은, 만나면 하루가 다 피곤해지는 분들이 바로(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/outsight-spectrum",
-    "pubDate": "Mon, 24 Nov 2025 07:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "팔러워 숫자 믿지마라 / Patreon (패트리온) CEO 발언",
-    "description": "패트리오 설명\n패트리온은 온리팬즈와 같은 크레이터 후원 플렛폼 입니다.\n온리팬즈는 사람을 기준으로 팬을 모으는 거라면\n패트리온은 크리에이터 일을 하는 사람들을 중심으로 운영되는거 같습니다.\n운동선수, 연예인 이런사람들은 온리팬즈 갔고 \n패트리온 에서는 애니 프사를 사용하는 예술 창작자 들이 대다수인거 같습니다.\n \n영상: https://www.youtube.com/watch?v=TcSOinAVqes\n\n\n\n팔러워 수도 믿지 말고\n조회수도 믿지 말라\n이것들은 플렛폼이 열마나 보여주느냐에 따라 얻을 수 있는거지 내것이 아니다.\n \n결국 수익화는 이런걸로 하는게 아니고\n우리 사이트 가입해서 후원 받아라 라는 홍보 맨트 같구요\n그런데 유튜브도 구독하기 생겨서 큰일이군요\n \n짦은 평이지만 유튜브 보단 수위가 높은 창작물을 다루는거 같습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1510",
-    "pubDate": "Sun, 30 Nov 2025 09:56:09 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "수익화"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "2025 블프 비트코인 채굴기 구경해보자",
-    "description": "돌아온 블프\n블트는 돌아왔고 글이 늦었습니다.\n쇼핑몰은 마인샵 이용합니다.\n링크: https://mineshop.eu/\n \n내가 지른 것\n이번주면 세일도 끝이군요.\n저는 NANO 3S 질렀습니다.\n\n\n저는 저번에 날렴 먹은적이 있어서 전원 공급장치가 남아있어서 이걸 질렀습니다.\n할인해줘봐야 배송비로 다 나가는군요\n작년엔 NANO 3 를 2대나 샀지만 둘다 과열로 태워 먹었습니다. \n이번엔 과열을 시키지 않기 위해 뚜따와 방열판 추가 설치를 할 것입니다.\n \n채굴기 구입 주의 - 양자컴퓨터 이슈\n채굴기 구입은 점점 줄여야할 것 같습니다.\n양자컴퓨터 발전으로 2030년 정도에는 비트코인도 암호체계를 변경해야하는 이슈가 생길 것 같습니다.\n이러면 구버전 채굴기는 다 못쓰게 될 가능성이 있습니다.\n채굴기 구매에 주의가 필요합니다. \n(호환이 된다고 하면 문제는 아닙니다.)\n \n \n \n안살꺼지만 구경은 해봅시다.\nCanaan Avalon Q home Bitcoin Asic miner\n\n\n가격: 270 만원\n성능: 90 TH/s\n소비전력: 1670 Wh\n쇼핑몰 링크: https://mineshop.eu/canaan-avalon-q-home-bitcoin-asic-miner\n \n성능은 엄청나구요\n제가 채굴기에 깨작깨작 쓴돈이 100만원은 되는거 같군요 그냥 큰거 하나 살껄 하는 생각도 드네요\n소비전력은 가정에서 감당하기 힘든 정도입니다.\n가정에서 가볍게 돌리려면 300w/h 를 넘으면 안될 꺼 같습니다.\n이정도 돌리려면 공장이나 \n농촌에서 태왕광 패널 설치해서 돌려야 할꺼 같습니다.\n \n \n \n그 다음 성능의 물건\nAvalon Mini 3 Home Bitcoin miner.\n\n\n길쭉하게 생겼군요 영상을 찾아볼까요\n영상:https://www.youtube.com/watch?v=WKCKyob6pLg\n\n\n\n가격: 147만원\n성능: 37.5 TH/s\n소비전력: 750w\n소핑몰 링크: https://mineshop.eu/avalon-mini-3-home-bitcoin-miner\n \n이것도 가정에서 돌리려면 부담이 될 소비전력이군요\n열은 잘 내게 생겼습니다.\n어차피 온풍기 써보면 이것보다 전기를 많이 쓰긴합니다.\n온풍도 하면서 비코 채굴도 하는게 좋을꺼 같긴합니다.\n \n \n그다음은 제가 산거\nAvalon Nano 3S - 6 TH/s Home Bitcoin Miner and heater 140W\n\n\n가격: 44만원\n성능: 6TH/s\n소비전력: 140w\n \n주의: 전원 공급장치 별도 로 사야됩니다.\n소핑몰 링크: https://mineshop.eu/avalon-nano-3s-6-ths-home-bitcoin-miner-and-heater-140w\n \n \n아답타 별도로 사야합니다. \n이 제품만 사면 못돌려요\n \n지난번에 과열로 2대 날려먹고 히터로 쓰면 안된다는 것을 깨닳았습니다.\n이번엔 케이스 뜯어내고 추가 방영판도 설치할 예정입니다.\n주위 공기가 뜨거워지면 과열을 식힐 수 없어 고장이 나는 제품이니 \n무리하게 구입하지 마세요\n \n \nNerdQaxe++ Rev6.1 – Bitcoin Solo Miner\n\n\n가격: 56만원\n성능: 6TH/s\n소비전력: 100w\n전원 공급 장치 포함되있습니다.\n소핑몰 링크: https://mineshop.eu/nerdqaxe-rev6-bitcoin-solo-miner\n수냉 모댈도 있군요 10만원 더비싸네요\n \n위에꺼보다 가격이 비싼데요 써본결과 과열이 없는 제품입니다.\n집에선 이런거 돌리는게 맞는거 같아요\n가격이 비싼대신 소비 전력이 적습니다.\n그결과 열이 적게 나기 때문에 문제가 적습니다.\n케이스가 없고 노출된 상태인것도 장점일 수 있습니다. \n가끔 먼지를 털어 줍시다.\n \n이하 재밌는 제품들\nNerdQaxe++ Rev6 Hydro – Bitcoin Solo Miner (수냉)\n\n\n쇼핑몰 링크: https://mineshop.eu/nerdqaxe-rev6-hydro-bitcoin-solo-miner\n추천하는건 아니고 신기해서 봤습니다.\n이거 말고 약간 싼 구버전 모델이 있는데 \n채굴기 세계에선 구버전 사면 안됩니다. 성능이 안좋습니다.\n \n \n \n \nNerdOctaxe Home Bitcoin Miner (오 괜춘)\n\n\n쇼핑몰 링크: https://mineshop.eu/nerdoctaxe-home-bitcoin-miner\n \n이 제품은 두개를 옆으로 붙였습니다.\nNerdQaxe++ 두개 사는 가격보다는 싸군요\n가격적 매리트는 있긴하네요\n두개 옆으로 붙어있으면 열이 잘 안빠질꺼 같긴한데 안써봐서 모르겠습니다.\n혼돈의 변종이 탄생했군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1502",
-    "pubDate": "Thu, 27 Nov 2025 13:50:52 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "코인",
-      "비트코인",
-      "채굴기"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Unwrap Innovation: How Sellers and Buyers Use AI to Brighten the Holidays",
-    "description": "eBay’s AI tools help sellers list faster, manage messages, and boost visibility, while giving buyers personalized discovery, trusted authentication, and a smoother, safer holiday shopping experience.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://innovation.ebayinc.com/stories/unwrap-innovation-how-sellers-and-buyers-use-ai-to-brighten-the-holidays/",
-    "pubDate": "Tue, 25 Nov 2025 00:00:00 -0800",
-    "creator": "eBay News Team",
-    "categories": [
-      "article"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "VC는 똑똑하지 않아도 된다",
-    "description": "2012년도에 스트롱을 시작했을 때, 내가 VC를 만들어서 잘할 수 있을진 확신이 없었지만, 두 가지만은 확신이 있었다. 그리고 이 두 개의 확신은 스트롱을 시작하고 13년이 지난 오늘도 우리 회사의 기초가 되는 두 개의 튼튼한 기둥 역할을 하고 있다. 하나는, 당시에 – 그리고 지금도 마찬가지다 – 시장에 존재하던 대부분의 VC와는 다른 성향과 색깔을 가진 투자자가 될 수(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/11/lets-be-honest-vcs-dont-have-to-be-smart.html",
-    "pubDate": "Wed, 26 Nov 2025 21:29:00 +0000",
+    "link": "https://www.thestartupbible.com/2025/12/go-from-why-to-what.html",
+    "pubDate": "Sun, 30 Nov 2025 21:28:00 +0000",
     "creator": "Kihong Bae",
     "categories": [
       "Uncategorized",
-      "inspiring",
-      "people",
-      "Strong",
+      "failure",
+      "FoundersAtWork",
+      "general",
       "vc"
     ]
   },
   {
-    "id": 12,
+    "id": 8,
+    "imageUrl": "",
+    "title": "[MULTI] 매력적인 여정, 유난히 느린 발걸음... 스타세이비어",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2394",
+    "pubDate": "Sat, 29 Nov 2025 01:13:08 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "Advent of Code 2025: A Kotlin Playground",
     "description": "Join us live for five days of Advent of Code puzzles and five Kotlin livestreams on December 1–5. Solve the puzzles in Kotlin with help from Kotlin team experts and fun community guests, climb the leaderboard, learn new tricks, and have a chance to win some prizes along the way! Here’s what we have planned […]",
@@ -185,52 +133,95 @@
     ]
   },
   {
-    "id": 13,
+    "id": 10,
     "imageUrl": "",
-    "title": "Building AI Agents in Kotlin – Part 2: A Deeper Dive Into Tools ",
-    "description": "In the previous article, we saw how to build a basic coding agent with list, read, write, and edit capabilities. Today, we’ll dive into how to extend the agents’ capabilities by creating additional tools within the Koog framework. As an example, we’ll be building an ExecuteShellCommandTool, teaching our agent to run code and close the […]",
+    "title": "팔러워 숫자 믿지마라 / Patreon (패트리온) CEO 발언",
+    "description": "패트리오 설명\n패트리온은 온리팬즈와 같은 크레이터 후원 플렛폼 입니다.\n온리팬즈는 사람을 기준으로 팬을 모으는 거라면\n패트리온은 크리에이터 일을 하는 사람들을 중심으로 운영되는거 같습니다.\n운동선수, 연예인 이런사람들은 온리팬즈 갔고 \n패트리온 에서는 애니 프사를 사용하는 예술 창작자 들이 대다수인거 같습니다.\n \n영상: https://www.youtube.com/watch?v=TcSOinAVqes\n\n\n\n팔러워 수도 믿지 말고\n조회수도 믿지 말라\n이것들은 플렛폼이 열마나 보여주느냐에 따라 얻을 수 있는거지 내것이 아니다.\n \n결국 수익화는 이런걸로 하는게 아니고\n우리 사이트 가입해서 후원 받아라 라는 홍보 맨트 같구요\n그런데 유튜브도 구독하기 생겨서 큰일이군요\n \n짦은 평이지만 유튜브 보단 수위가 높은 창작물을 다루는거 같습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/11/building-ai-agents-in-kotlin-part-2-a-deeper-dive-into-tools/",
-    "pubDate": "Wed, 26 Nov 2025 08:23:35 +0000",
-    "creator": "Bruno Lannoo",
+    "link": "https://serverdown.tistory.com/1510",
+    "pubDate": "Sun, 30 Nov 2025 09:56:09 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "kotlin",
-      "tutorials",
-      "ai",
-      "ai-agents"
+      "유튜브",
+      "수익화"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "I Went to BazelCon 2025 – Here’s Everything You Need to Know",
+    "description": "This year, BazelCon was held at the Omni Atlanta Hotel at Centennial Park for a very special occasion: the tenth anniversary of Bazel 🎉 For me, visiting from Europe, Atlanta made quite the first impression. The city felt bigger than anything I’ve seen back home, and with KubeCon happening right next door, the streets were […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/clion/2025/11/bazelcon-2025/",
+    "pubDate": "Thu, 27 Nov 2025 14:54:22 +0000",
+    "creator": "Daniel Brauner",
+    "categories": [
+      "events",
+      "news",
+      "bazel",
+      "build-tools"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Solving Advent of Code in Rust, With Just Enough AI",
+    "description": "A year ago, I wrote a blog post about solving Advent of Code puzzles using Rust as the implementation language. I believe it’s still relevant if you plan to use Rust this year. In one section, I advised limiting the use of AI and demonstrated how to disable the relevant functionality in RustRover, either partially […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2025/11/28/solving-advent-of-code-in-rust-with-just-enough-ai/",
+    "pubDate": "Fri, 28 Nov 2025 14:23:56 +0000",
+    "creator": "Vitaly Bragilevsky",
+    "categories": [
+      "contests",
+      "rustrover",
+      "advent-of-code",
+      "contest",
+      "rust"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "1인개발 수익화 / 멀티쓰레드 런치 / 만들면서 홍보하라",
+    "description": "영상: https://www.youtube.com/watch?v=RFlv5-3PCm0\n\n\n\n \n만들면서 무료로 제공하면거 사용자를 늘려야한다.\n만들고나서 홍보를 생각하면 이미 너무 늦었다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1503",
+    "pubDate": "Thu, 27 Nov 2025 14:12:44 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "1인개발",
+      "수익화"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Kodee’s Kotlin Roundup: Too Much News to Keep Quiet About",
-    "description": "I’ve gathered the latest Kotlin highlights for you – from the Kotlin Reddit AMA and documentation updates to learning programs and Google Summer of Code 2025 projects. Whether you’re here to stay up to date or just looking for something interesting to explore, there’s plenty to dive into. Where You Can Learn More YouTube Highlights",
+    "title": "코드 품질 개선 기법 25편: 요컨대... 무슨 말이죠?",
+    "description": "이 글은 2024년 5월 16일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/11/kodees-kotlin-roundup-november-edition/",
-    "pubDate": "Wed, 26 Nov 2025 11:34:28 +0000",
-    "creator": "Kodee",
-    "categories": [
-      "news"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-25",
+    "pubDate": "Thu, 27 Nov 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Visual Studio – Built for the Speed of Modern Development",
-    "description": "Visual Studio will adopt the Modern Support Lifecycle as a continuously updated IDE designed to deliver innovation as soon as it is ready, while maintaining the reliability and stability you count on every day with control over your build tools choices. \nThe post Visual Studio – Built for the Speed of Modern Development appeared first on Visual Studio Blog.",
+    "title": "The Ultimate KMP Watchlist: Level Up Your Skills in 10 Talks",
+    "description": "The best way to skip the “beginner mistakes” phase is to learn from the teams who have already solved them at scale. For Week 3 of KMP Level Up, we’ve curated the Top 10 KotlinConf talks that cover the full spectrum of adoption, from massive production case studies to deep dives into the compiler. Whether […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-built-for-the-speed-of-modern-development/",
-    "pubDate": "Mon, 24 Nov 2025 15:00:06 +0000",
-    "creator": "Paul Chapman",
+    "link": "https://blog.jetbrains.com/kotlin/2025/11/the-ultimate-kmp-watchlist/",
+    "pubDate": "Mon, 24 Nov 2025 16:44:40 +0000",
+    "creator": "Ekaterina Petrova",
     "categories": [
-      "Visual Studio",
-      "Announcement",
-      "lifecycle",
-      "Support",
-      "Visual Studio 2026"
+      "multiplatform"
     ]
   }
 ]
