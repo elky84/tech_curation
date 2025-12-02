@@ -2,18 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "네이버 두나무 합병",
-    "description": "제가 놓치지 않고 꼭 듣고 싶은 이야기는 네이버의 이해진 의장님이 들려주시는 이야기입니다.\n본인은 스스로가 말을 못한다고 하시지만 제가 보기에는 타고난  달변가입니다.\n네이버 직원들에게 부러운 것은 이해진 의장님의 모든 사내 강연을 다시 볼 수 있다는 것입니다.\n두나무와 네이버파이낸셜의 합병 덕분에 정말 오랜만에 이해진 의장님의 이야기를 다시 한 번 들을 수 있었습니다.\n빌 게이츠나 마크 주커버그, 일론 머스크는 유튜브에 엄청 자주 나와서 대중들에게 생각을 공유하는데 우리나라 경영자들은 왜 그러지 않는지도 생각해보게 됩니다.\n우리나라의 리더들도 경험과 생각을 많이 들려주는 날이 온다면 기쁠 것 같네요.\n\n\n\n함께 읽으면 좋은 글:\n파랑새는 내 손 안에 있다\n나는 얼마짜리 사람인가?",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/11/28/naver-dumanu.html",
-    "pubDate": "2025-11-28T10:23:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
     "title": "세 명의 스승님",
     "description": "회사 생활을 하면서 세 명의 스승님을 만났습니다.\n적이 아니라 같은 편이라는 것이 너무나 든든한 사람들.\n처음엔 그저 똑똑하고 코딩을 잘해서 마음이 끌리나 보다 했는데 돌아보니 그런 게 아니었습니다.\n말과 행동이 일치하는 솔직함과 정직함.\n나는 이런 사람들을 좋아하고 존경하는구나.\n아, 나도 이런 사람이 되고 싶다.\n이분들이 일하는 걸 옆에서 지켜보면서 나도 닮고 싶다는 마음을 가졌던 것 같습니다.\n며칠 전 메일을 하나 받았습니다.\n\n며칠 전 고민 상담을 하는 후배 개발자님에게 받은 메일 중\n읽다가 깜짝 놀랐습니다. 정도를 걷는 게 몸에 밴 것 같다고? 내가?\n\n버핏 할아버지의 2025년 주주서한\n버핏 할아버지가 써주신 주주서한을 찬찬히 읽어보다가 세 명의 스승님이 떠올랐습니다.\n제 마음은 잘 전달되었을까요?\n독자 여러분들도 훌륭한 친구를 만나면 꼭 옆에 두시고 함께 성장할 수 있으시길 바랍니다.\n\n\n함께 읽으면 좋은 글:\n그건 네가 스스로 결정해야지\n10초에 한 번씩 컴파일하다 혼난 이야기\n옆 집 건물주에게 형사 소송한 썰",
     "reviews": [],
@@ -24,7 +12,116 @@
     "categories": []
   },
   {
+    "id": 2,
+    "imageUrl": "",
+    "title": "Upgrade MSVC, improve C++ build performance, and refactor C++ code with GitHub Copilot",
+    "description": "Visual Studio 2026 introduces new GitHub Copilot capabilities to support C++ developers in three development tasks:  Performing large-scale C++ refactors  Improving C++ build performance   Upgrading Microsoft C++ (MSVC) Build Tools  These experiences are available now as a Private Preview in Visual Studio 2026. Install Visual Studio 2026 and join the waitlist for Private Preview today.  C++ code editing tools for GitHub […]\nThe post Upgrade MSVC, improve C++ build performance, and refactor C++ code with GitHub Copilot appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/upgrade-msvc-improve-c-build-performance-and-refactor-c-code-with-github-copilot/",
+    "pubDate": "Mon, 01 Dec 2025 16:24:40 +0000",
+    "creator": "Erika Sweet",
+    "categories": [
+      "Copilot",
+      "Visual Studio"
+    ]
+  },
+  {
     "id": 3,
+    "imageUrl": "",
+    "title": "커뮤니티와 함께 성장하는 실무 보안 지식, LINE CTF",
+    "description": "안녕하세요. 보안 엔지니어 여석기입니다. LY Corporation에서는 2021년부터 매년 글로벌 보안 기술 대회인 LINE CTF를 개최하고 있습니다. LINE CTF는 보안에...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/line-ctf-practical-security-knowledge-that-grows-with-community",
+    "pubDate": "Wed, 26 Nov 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "로보틱 님부스 - 인간세탁기 / 엔지니어TV",
+    "description": "영상: https://www.youtube.com/watch?v=MQd7MGhFUJ4\n\n\n\n11분 부터 나옵니다.\n \n인간세탁기가  나왔는데요 사람이 선채로 들어가면 씻겨준다고 합니다.\n물도 덜쓰고 편리해보입니다.. 15분 정도 돌리면 된다네요\n노인이라도 남이 씻겨주는건 쉽지 않은 알입니다. \n샤워실 크기줄이는데도 좋아보입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1512",
+    "pubDate": "Sun, 30 Nov 2025 20:02:52 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "로봇"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "스타트업도 인재를 채용할 수 있는 방법 - 실리콘벨리 유럽 사례로 보는 채용 전략",
+    "description": "1. 배경설명 : 스타트업 채용의 현실 스타트업은 빠른 성장과 혁신을 기반으로 하지만, 대기업 대비 급여 / 복지 / 브랜드 인지도에서 열세에  있어 인재 확보에 어려움을 겪습니다. 특히 초기 단계에서는 현금 흐름이 불안정하고 조직 체계가 완전하지 않아 지원자가 적게 모이는 경향이 있습니다. 이러한 환경에서 글로벌 스타트업들은 어떻게 우수 인재를 확보했는지",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/316",
+    "pubDate": "Fri, 28 Nov 2025 03:11:34 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "AI 브라우저의 불편한 진실",
+    "description": "인공지능(AI)은 우리의 일상에 깊숙이 파고들고 있습니다. 특히 ‘AI 브라우저’라는 새로운 개념은 웹 탐색의 미래를 바꿀 혁신으로 기대를 모았죠. 하지만 과연 그 기대가 현실과 일치할까요? 오늘, 우리는 최근 출시된 AI 브라우저들의 불편한 진실을 파헤쳐보고, 현재의 기술이 어디까지 와 있는지 솔직하게 이야기해보려 합니다. 지금 바로 AI 브라우저의 민낯을 함께 들여다보시죠.\n  프롬프트 주입 공격: AI 브라우저의 아킬레스건\n\n\n요즘 LLM(거대 언어 모델) 열풍과 함께 'AI 브라우저'라는 새로운 트렌드가 생겨났습니다. OpenAI나 Perplexity 같은 거물들도 구글 크롬이라는 절대 강자에 도전장을 내밀었죠. 독점 체제에 경쟁이 생기는 건 언제나 환영할 일이지만, 솔직히 말해서 이 새로운 AI 브라우저들은 아직 '준비가 안 됐다'는 생각이 들어요. 저는 한 주 정도 ChatGPT Atlas 브라우저를 사용해보다가 결국 삭제하고 말았는데, 이 경험이 이 분야를 더 깊이 들여다보게 된 계기가 되었죠. 파고들수록 우리가 엉뚱한 방향으로 가고 있는 건 아닌가 하는 불안감이 커졌습니다.\n가장 큰 문제 중 하나는 바로 프롬프트 주입 공격(Prompt Injection Attack)에 취약하다는 점이에요. 이게 뭐냐면, 웹사이트가 숨겨진 명령어를 슬쩍 심어 놓으면 AI가 사용자의 지시 대신 그 숨겨진 명령어를 따르게 되는 것을 말합니다. 해킹과는 조금 달라요. AI는 그저 페이지에 있는 모든 텍스트를 읽는데, 여기엔 우리 눈에는 보이지 않는 텍스트도 포함되거든요. 그래서 AI 브라우저는 이 숨겨진 텍스트를 진짜 명령으로 착각할 수 있습니다.\n심지어 OpenAI조차도 ChatGPT Atlas 브라우저가 아직 프롬프트 주입에 취약하다고 인정했습니다. 얼마나 쉽게 공격이 가능한지 직접 실험해보니 정말 충격적이었어요. 기술적인 세부 내용은 보안상 말씀드리기 어렵지만, 저는 꽤 인기 있는 AI 브라우저인 Dia를 속여 제가 만든 페이지에서는 요약이나 답변을 할 때마다 해적처럼 말하고 '개' 대신 '바다개'라고 말하게 만들었죠. 어찌 보면 유치한 예시지만, AI가 제 숨겨진 지시에 더 귀 기울였다는 것을 증명하기엔 충분했습니다.\n이런 간단한 트릭에도 AI의 응답이 달라진다면, 악의적인 웹사이트가 어떤 일을 벌일지 상상해보세요. 쇼핑 사이트는 AI를 조작해서 더 비싼 제품을 추천하게 만들 수도 있고, 사기성 사이트는 AI 에이전트가 안전하지 않은 링크로 유도하게 만들 수도 있습니다. 제가 ChatGPT Atlas에서 똑같은 결과를 재현하지는 못했지만, 제가 시도한 방법이 결코 고도로 정교한 방식은 아니었다는 점을 기억해야 합니다.\n⚠️ 주의하세요! AI 브라우저를 사용할 때는 방문하는 사이트가 어떤 숨겨진 명령을 가지고 있을지 항상 경계해야 합니다. 알 수 없는 링크나 의심스러운 콘텐츠는 가급적 피하는 것이 안전합니다.\n\n\n  당신은 사용자가 아닌 '제품'입니다: 은밀한 데이터 수집\n차세대 AI 모델을 위한 데이터 사냥\n수년 동안 구글은 우리가 누구인지에 대한 상세한 프로필을 구축해왔습니다. 검색 기록으로 어떤 광고를 보여줄지 파악하는 것부터 시작해서, 지도나 유튜브 같은 다른 서비스들을 통해 우리의 습관, 위치, 관심사에 대한 더 많은 데이터를 수집했죠. 그런데 LLM 시대에는 상황이 훨씬 미묘하고 달라졌습니다. 많은 사람들이 AI와 대화할 때 얼마나 많은 것을 포기하고 있는지 잘 깨닫지 못하는 것 같아요.\n기존 검색과 달리, 사람들은 LLM과의 상호작용이 마치 실제 대화처럼 느껴지기 때문에 훨씬 더 개인적인 정보를 공유하는 경향이 있습니다. 심지어 어떤 사람들은 ChatGPT를 심리 치료사처럼 대하기도 하더군요. 문제는 이렇게 나눈 대화가 단순히 거기에 머물러 있지 않는다는 것입니다. 많은 경우, 여러분들이 제공한 데이터는 미래 모델을 훈련하거나 개선하는 데 사용됩니다.\n이 말은 여러분의 개인적인 이야기, 선호도, 의사 결정이 수백만 명의 다른 사용자들을 위한 AI의 행동 방식을 형성하는 데이터셋의 일부가 될 수 있다는 뜻입니다. AI 브라우저가 여러분이 방문하는 모든 페이지와 작성하는 모든 프롬프트를 클라우드로 전송할 때, 개인 정보 보호 비용은 상상을 초월할 정도로 높아지게 됩니다. 이것이야말로 기업들이 할 수 있는 가장 순수한 형태의 프로파일링이고, AI 브라우저가 바로 이 목적을 달성하기 위한 가장 쉬운 방법이라는 게 저의 생각입니다.\n  데이터 주권, 이제는 필수가 되었죠! 개인 정보를 공유하기 전에 AI 서비스의 데이터 정책을 꼼꼼히 확인하고, 민감한 정보는 가급적 입력하지 않는 습관을 들이는 것이 중요합니다.\n⚙️ AI '에이전트'의 불편한 진실: 문제 해결은 미지수\n위험까지 떠안아야 할까요?\nAI 에이전트가 어떻게 작동하는지 잘 모르시는 분들을 위해 간단히 설명하자면, 프롬프트에 따라 자동으로 여러 작업을 처리하도록 설계된 기능입니다. 이론적으로는 시간을 절약해줘야 하죠. 하지만 현실에서는 거의 그렇지 못합니다. 제가 ChatGPT Atlas 브라우저의 에이전트 모드를 사용해봤을 때, 거의 쓸모가 없었어요. 엉뚱한 행동을 하거나, 요청하지도 않은 텍스트를 요약하고, 스크롤 바 같은 기본적인 것들조차 완전히 무시하곤 했습니다. 게다가 너무 느려서 제가 직접 처리하는 것보다 세 배는 더 오래 걸렸죠. 돕기는커녕 계속 방해가 되는 느낌이었어요.\n더 큰 문제는 바로 보안입니다. 이 에이전트 기능도 앞에서 언급했던 프롬프트 주입 공격에 취약한데, 그 결과는 훨씬 더 심각할 수 있습니다. AI 브라우저가 피싱 이메일 같은 사기에 넘어가도록 속을 수도 있다는 거예요. 이건 정말 대실패라고밖에 말할 수 없죠. 만약 에이전트 기능이 AI 브라우저의 주요 판매 포인트 중 하나인데, 오히려 이런 막대한 위험을 안겨준다면 대체 왜 이런 브라우저를 사용해야 하는 걸까요? 아직은 시기상조라는 생각이 듭니다.\n 확장 프로그램으로 충분합니다: 결국 모두 크로미움 기반\n오늘날 가장 인기 있는 AI 브라우저들을 한번 살펴보세요. Perplexity Comet, ChatGPT Atlas, Dia 등 대부분이 놀랍도록 비슷합니다. 질문이 너무 광범위하거나 모호할 때 LLM을 호출하고, 현재 보고 있는 페이지를 읽고 질문에 답하는 AI 사이드바를 추가하며, 기본적인 에이전트 기능을 포함하여 특정 작업을 자동화하려고 하죠. 이게 거의 전체 패키지라고 볼 수 있습니다.\n하지만 이렇게 뜯어보면, 이 모든 기능들이 사실 AI 브라우저만의 전유물은 아닙니다. 일반적인 크로미움(Chromium) 기반 브라우저에 몇 가지 확장 프로그램을 추가하는 것만으로 거의 모든 기능을 재현할 수 있죠. 실제 AI의 지능은 브라우저 자체가 아니라 클라우드에서 오기 때문에, 브라우저는 모델을 위한 일종의 '프런트 엔드' 역할만 하는 셈입니다.\n예를 들어, Perplexity는 이미 구글 검색을 대체하는 자체 AI 검색 확장 프로그램을 가지고 있습니다. AI 사이드바 기능의 경우, FillApp 같은 것을 사용하면 '거창한' AI 사이드바와 약간의 에이전트 동작까지 얻을 수 있습니다. 이렇게 여러 조각들을 모으면, 새로운 브라우저를 설치할 필요 없이 거의 동일한 기능 세트를 가질 수 있게 되는 거죠. 굳이 새로운 브라우저를 설치하며 알 수 없는 위험을 감수할 필요가 없다는 것이 저의 솔직한 생각입니다.\n\n\n\n  핵심 요약\n1. 프롬프트 주입 공격 취약성: AI 브라우저는 숨겨진 웹사이트 명령에 쉽게 조작될 수 있어 사용자 의도와 다른 결과를 낳을 위험이 큽니다.\n2. 개인 정보 유출 위험: 대화형 AI는 사용자의 개인적인 정보를 수집하여 다음 AI 모델 훈련에 활용될 수 있으며, 이는 새로운 형태의 프로파일링으로 이어집니다.\n3. AI 에이전트의 낮은 효율성 및 보안 문제: 현재 AI 에이전트는 기대만큼 문제를 해결해주지 못하며, 오히려 피싱 등 심각한 보안 위험에 사용자를 노출시킬 수 있습니다.\n4. 확장 프로그램으로 대체 가능한 기능: 대부분의 AI 브라우저 기능은 크로미움 기반 브라우저의 확장 프로그램으로 충분히 구현 가능하며, 별도 브라우저의 필요성을 약화시킵니다.\nAI 브라우저의 현재는 기대만큼 빛나지 않습니다. 혁신을 위해서는 더 근본적인 접근 방식이 필요합니다.\n✨ AI 브라우저, 더 높은 목표를 향해 나아가야 할 때\n기업들은 LLM만으로는 브라우저를 '스마트'하게 만들기에 충분하다는 생각을 이제는 벗어나야 합니다. AI는 단순히 사이드바에 앉아서 이미 페이지에 있는 내용을 반복하는 것을 넘어, 실제 사용자 경험을 개선하는 방향으로 나아가야 한다고 봅니다. 바로 이 점 때문에 Arc 브라우저가 그 후속작인 Dia와는 전혀 다른 느낌을 주었던 거죠. 아, Arc가 사라진 이후로 아직까지 그 자리를 채워줄 만한 브라우저를 찾지 못해서, 저는 여전히 '브라우저 난민' 신세로 이 옵션 저 옵션 사이를 헤매고 있습니다. 언젠가는 진짜 '혁신적인' AI 브라우저가 등장하기를 바라봅니다. 오늘 2025년 보고서가 여러분의 AI 브라우저 선택에 조금이나마 도움이 되었기를 바랍니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: AI 브라우저의 '프롬프트 주입 공격'이란 무엇인가요?\nA1: 프롬프트 주입 공격은 웹사이트가 사용자에게는 보이지 않는 숨겨진 명령을 삽입하여, AI가 사용자의 실제 요청 대신 웹사이트의 의도대로 동작하게 만드는 보안 취약점을 말합니다. 이는 AI가 페이지의 모든 텍스트를 읽는 특성 때문에 발생할 수 있습니다.\nQ2: AI 브라우저가 제 개인 정보를 어떻게 활용하나요?\nA2: AI 브라우저는 사용자가 방문하는 웹페이지와 AI와의 대화 내용을 포함한 다양한 데이터를 수집할 수 있습니다. 이 데이터는 종종 AI 모델의 훈련 및 개선에 사용되어, 사용자의 개인적인 정보가 미래 AI 모델의 행동 방식에 영향을 미칠 수 있습니다. 이는 새로운 형태의 사용자 프로파일링으로 이어질 수 있습니다.\nQ3: AI 에이전트 기능은 실제로 유용한가요?\nA3: 현재로서는 AI 에이전트 기능이 기대만큼 효율적이지 않다는 평가가 많습니다. 엉뚱한 동작을 하거나 속도가 느린 경우가 많으며, 프롬프트 주입 공격에 취약하여 피싱 등 심각한 보안 위험에 노출될 가능성도 있어 실질적인 문제 해결보다는 새로운 위험을 초래할 수 있습니다.\nQ4: AI 브라우저 대신 기존 브라우저와 확장 프로그램을 사용하는 것이 더 나은 선택일까요?\nA4: 네, 많은 AI 브라우저의 핵심 기능들은 크로미움 기반 브라우저에 AI 관련 확장 프로그램을 설치하는 것만으로도 충분히 구현 가능합니다. AI의 '지능'이 클라우드 기반이라는 점을 고려할 때, 굳이 새로운 AI 브라우저를 설치하면서 잠재적인 보안 위험이나 성능 저하를 감수할 필요가 없을 수 있습니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI 브라우저의 '프롬프트 주입 공격'이란 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"프롬프트 주입 공격은 웹사이트가 사용자에게는 보이지 않는 숨겨진 명령을 삽입하여, AI가 사용자의 실제 요청 대신 웹사이트의 의도대로 동작하게 만드는 보안 취약점을 말합니다. 이는 AI가 페이지의 모든 텍스트를 읽는 특성 때문에 발생할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI 브라우저가 제 개인 정보를 어떻게 활용하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"AI 브라우저는 사용자가 방문하는 웹페이지와 AI와의 대화 내용을 포함한 다양한 데이터를 수집할 수 있습니다. 이 데이터는 종종 AI 모델의 훈련 및 개선에 사용되어, 사용자의 개인적인 정보가 미래 AI 모델의 행동 방식에 영향을 미칠 수 있습니다. 이는 새로운 형태의 사용자 프로파일링으로 이어질 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI 에이전트 기능은 실제로 유용한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"현재로서는 AI 에이전트 기능이 기대만큼 효율적이지 않다는 평가가 많습니다. 엉뚱한 동작을 하거나 속도가 느린 경우가 많으며, 프롬프트 주입 공격에 취약하여 피싱 등 심각한 보안 위험에 노출될 가능성도 있어 실질적인 문제 해결보다는 새로운 위험을 초래할 수 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI 브라우저 대신 기존 브라우저와 확장 프로그램을 사용하는 것이 더 나은 선택일까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 많은 AI 브라우저의 핵심 기능들은 크로미움 기반 브라우저에 AI 관련 확장 프로그램을 설치하는 것만으로도 충분히 구현 가능합니다. AI의 '지능'이 클라우드 기반이라는 점을 고려할 때, 굳이 새로운 AI 브라우저를 설치하면서 잠재적인 보안 위험이나 성능 저하를 감수할 필요가 없을 수 있습니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483684",
+    "pubDate": "Thu, 27 Nov 2025 14:04:58 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "ai 브라우저",
+      "AI 에이전트",
+      "ai 트렌드 2025",
+      "chatgpt atlas",
+      "Perplexity Comet",
+      "개인 정보 보호",
+      "데이터 프로파일링",
+      "브라우저 보안",
+      "크로미움 확장 프로그램",
+      "프롬프트 주입 공격"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "1인게임 개발의 흐름 파악 및 장기 계획 / 나도코딩",
+    "description": "영상: https://www.youtube.com/watch?v=OLGX_XtX7Fc\n\n\n\n \n분위기가 어떻게 돌아가는지 파학할 수 있는 영상이였습니다.\n위험성은 치킨집 창업보다 쉽습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1508",
+    "pubDate": "Fri, 28 Nov 2025 16:15:53 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "1인개발",
+      "게임개발"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Cutting Through the Noise: Smarter Context Management for LLM-Powered Agents",
+    "description": "Imagine you’re working on a project and jotting down every single idea, experiment, and failure. After a while, your notes pile up so high that finding what’s useful takes more time and energy than the work itself. A similar problem faces users of software engineering (SE) agents: the agents “take notes” on every generated output, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2025/12/efficient-context-management/",
+    "pubDate": "Mon, 01 Dec 2025 13:31:44 +0000",
+    "creator": "Katie Fraser",
+    "categories": [
+      "research",
+      "ai-agents",
+      "jetbrains-research"
+    ]
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "VC는 똑똑하지 않아도 된다",
     "description": "2012년도에 스트롱을 시작했을 때, 내가 VC를 만들어서 잘할 수 있을진 확신이 없었지만, 두 가지만은 확신이 있었다. 그리고 이 두 개의 확신은 스트롱을 시작하고 13년이 지난 오늘도 우리 회사의 기초가 되는 두 개의 튼튼한 기둥 역할을 하고 있다. 하나는, 당시에 – 그리고 지금도 마찬가지다 – 시장에 존재하던 대부분의 VC와는 다른 성향과 색깔을 가진 투자자가 될 수(...)",
@@ -42,81 +139,46 @@
     ]
   },
   {
-    "id": 4,
+    "id": 10,
     "imageUrl": "",
-    "title": "토스는 왜 밴드 ADOY(아도이), 아티스트 16팀과 ‘뮤직비디오’를 만들었을까?",
-    "description": "토스임팩트 뮤직비디오 〈Spectrum〉에 담긴 작가들의 메시지",
+    "title": "내 게임 알려보자 / 레딧 활동 체험기",
+    "description": "레딧 사용자는 똑똑하기 때문에 홍보목적인 글을 쓰면 여러가지 방법으로 안보이게 처리됩니다.\n레딧은 카르마 라는 수치가 있어서 활동을 해야 포인트를 모을 수 있습니다.\n단기간 내에 유명해지기는 어려운 구조입니다.\n적극적으로 활동해야합니다.\n \n인디게임 서브레딧\nr/IndieGaming - 활발하게 운영되는 인디 게임 관련 커뮤니티입니다. 개발자가 자신의 게임을 홍보할 수 있습니다.\n(없어진듯) r/indiegames - 인디 게임 관련 또 다른 서브레딧으로, 신규 게임을 공유하는 데 좋습니다.\nr/gamedev - 게임 개발에 관한 모든 것을 다루며, 개발 과정을 공유하거나 피드백을 받을 수 있습니다. 홍보가 허용되는 경우도 있지만, 규칙을 확인해야 합니다.\nr/PlayMyGame - 인디 개발자들이 게임을 공유하고 다른 사람들이 플레이하도록 요청하는 곳입니다.\nr/DestroyMyGame - 혹독한 피드백을 받아 게임을 개선하고 싶은 개발자에게 적합한 서브레딧입니다.\n \n특수 주제 서브레딧\n특정 장르 및 플랫폼 서브레딧\n게임의 장르나 플랫폼에 맞는 서브레딧을 찾아 홍보하면 더 효과적일 수 있습니다. \nr/platformer - 플랫포머 게임을 공유하고 토론합니다.\nr/roguelikedev - 로그라이크 게임 개발에 특화된 서브레딧입니다.\nr/webgames - 브라우저에서 바로 플레이할 수 있는 게임을 홍보할 수 있습니다.\n\n게임 엔진별 레딧\nr/Unity3D - 유니티로 만든 것\nr/unrealengine - 언리얼로 만든 것\n \n \n일단 글을 써보자\n글 내용\n제목\nI made a puzzle game for a month\n본문\nI uploaded it to Unity Play.  \nIt can also be played on the iPhone.  \nThank you for the evaluation.\n# paydemo video\nhttps://www.youtube.com/shorts/s05ryDd9adM\n# Unity Play\nhttps://play.unity.com/ko/games/fb8df491-0bdd-417e-88b8-af692eb40f42/122-easy-v10\n# game rules\n1. Click on the square to get +1. Life is -1.  \n2. If you make a line into the same number, you get points.  \n3. If the life becomes zero, it's a game over.\n\n글 올려보기 1차시도\nr/Unity3D 는 글을 써봤지만 가입하자마자 쓴글이라 카르마 가 부족해서 보이지 않게 되었다는 알람이 떴습니다.\n원문\nHello and welcome to Reddit! If you are receiving this message it is because you are a new user and the post you just made may not be visible to others. It was likely removed for the sake of spam prevention because your account is either young or lacking in karma. Karma are the useless points someone gets whenever they receive an upvote. And while you can't do anything with them\n\n사람인지 봇인지 구문하기 위해 카르마를 모으는 절차가 필요합니다.\n여기저기 둘러보면서 문위기를 파악하라는 내용의 알림이였습니다.\n좀 더 낮은 커뮤니티에서 활동을 해서 카르마를 올려야 겠습니다.\n \n \n글써보기 2차 시도\nr/webgames 여기는 플레이되는 링크만 있으면 글을 쓸 수 있는거 같습니다.\n여기다 게시를 해봤습니다.\n유류트 영상을 표시해야하는데 잘 모르겠습니다.\n\n\n앗 여기서도 게시가 안되네요\n룰 조건에 가입후 한달 기다리라고 합니다.\n이외에도 구동에 문제 없어야하고\n게임 페이지 단독으로 표시되어야하고 등등\n고도의 광고 꼼수는 써서는 안된다고 합니다.\n더 낮은 조건의 커뮤니티를 찾거나 12월 말에 다시 시도해야겠군요\n \n글써보기 3차 시도 (예정)\nr/PlayMyGame 은 2주후에 쓸 수 있다고 합니다.\n여기서 다시 도전해보겠습니다.\n \n(작성중)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/outsight-spectrum",
-    "pubDate": "Mon, 24 Nov 2025 07:00:00 GMT",
+    "link": "https://serverdown.tistory.com/1511",
+    "pubDate": "Sun, 30 Nov 2025 18:00:55 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "레딧"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "드림씨어터 40주년 기념 앨범 Quarantième: Live à Paris",
+    "description": "드림씨어터의 팬이지만 라이브는 불편해서 잘 듣지 않는다. 하지만 이번 앨범 'Quarantième: Live à Paris'는 듣다가 간만에 CD까지 구매했다. 파리의 아디다스 아레나에서 녹음되었고 DVD 촬영을 같이 했다고 하는데 소리도 아주 좋다. 앨범 제목은 프랑스어 인데 영어로 '40th: Live in Paris'를 의미한다. 드림씨어터의 40주년 기념 라이브 앨범이고 포트노이의 복귀 앨범이기도 하다.\n\r\n\r\n처음에는 보컬 소리가 많이 달라서 라브리에가 아닌줄 알았다. 아무래도 예전 처럼 고음 위주로 노래하기는 힘드니 창법도 바꾸고 키도 바꿔서 소리가 조금 달라졌다고 한다. 조단 루디스의 음색도 아주 풍부하다. 존명도 솔로 파트에서 드라이브가 잔뜩 걸린 소리를 들려준다. 패트루치야 항상 한결같다. 앨범 전반적으로 좀 헤비한 느낌이다. 시간이 참 빠르다. 앞으로도 계속해서 좋은 음반이 나오기를 기대한다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hyeonseok.com/blog/945",
+    "pubDate": "Sat, 29 Nov 2025 05:22:32 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 5,
+    "id": 12,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 28화, 위기인데스와 ③",
-    "description": "No description available",
+    "title": "AI 초보 개발자가 스터디로 만든 사내 챗봇",
+    "description": "1. 들어가며 이 글은 AI 모르는 개발자가 스터디로 사내 챗봇을 구축하는 과정을 정리한 기록이다. 작은 팀에서 제한된 개발 리소스로 챗봇을 만들어가는 과정에 초점을 맞췄다. 참고로, 필자가 초기 설계를 담당했지만 핵심 주요 로직은 팀원과 같이 구현하였다.  대상 독자 - 챗봇을 처음 만들어보는 초보/주니어 개발자 - AI 기반 서비스를 실험해보려는 개발자",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2393",
-    "pubDate": "Wed, 26 Nov 2025 21:04:05 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
+    "link": "https://brunch.co.kr/@@2MrI/874",
+    "pubDate": "Sat, 29 Nov 2025 08:28:13 GMT",
+    "creator": "기술블로그",
+    "categories": []
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "1인게임 개발의 흐름 파악 및 장기 계획 / 나도코딩",
-    "description": "영상: https://www.youtube.com/watch?v=OLGX_XtX7Fc\n\n\n\n \n분위기가 어떻게 돌아가는지 파학할 수 있는 영상이였습니다.\n위험성은 치킨집 창업보다 쉽습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1508",
-    "pubDate": "Fri, 28 Nov 2025 16:15:53 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "1인개발",
-      "게임개발"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "“Why”가 아니라 “What”",
-    "description": "이 글을 읽는 다른 VC가 있다면, 아마도 나와 비슷할 것인데, 다음과 같은 창업가들을 분명 만나본 적이 있을 것이다. 내가 열린 마음으로 사람들을 만나는 직업을 갖고 있지만, 아무리 만나도 호감이 안 가고, 만나면 만날수록 더 싫어지는 종류의 창업가들이 있다. 실은 이런 분들이 여러 종류가 있지만, 요새 내가 정말 피하고 싶은, 만나면 하루가 다 피곤해지는 분들이 바로(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/12/go-from-why-to-what.html",
-    "pubDate": "Sun, 30 Nov 2025 21:28:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "failure",
-      "FoundersAtWork",
-      "general",
-      "vc"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "[MULTI] 매력적인 여정, 유난히 느린 발걸음... 스타세이비어",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2394",
-    "pubDate": "Sat, 29 Nov 2025 01:13:08 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 9,
+    "id": 13,
     "imageUrl": "",
     "title": "Advent of Code 2025: A Kotlin Playground",
     "description": "Join us live for five days of Advent of Code puzzles and five Kotlin livestreams on December 1–5. Solve the puzzles in Kotlin with help from Kotlin team experts and fun community guests, climb the leaderboard, learn new tricks, and have a chance to win some prizes along the way! Here’s what we have planned […]",
@@ -133,95 +195,34 @@
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "팔러워 숫자 믿지마라 / Patreon (패트리온) CEO 발언",
-    "description": "패트리오 설명\n패트리온은 온리팬즈와 같은 크레이터 후원 플렛폼 입니다.\n온리팬즈는 사람을 기준으로 팬을 모으는 거라면\n패트리온은 크리에이터 일을 하는 사람들을 중심으로 운영되는거 같습니다.\n운동선수, 연예인 이런사람들은 온리팬즈 갔고 \n패트리온 에서는 애니 프사를 사용하는 예술 창작자 들이 대다수인거 같습니다.\n \n영상: https://www.youtube.com/watch?v=TcSOinAVqes\n\n\n\n팔러워 수도 믿지 말고\n조회수도 믿지 말라\n이것들은 플렛폼이 열마나 보여주느냐에 따라 얻을 수 있는거지 내것이 아니다.\n \n결국 수익화는 이런걸로 하는게 아니고\n우리 사이트 가입해서 후원 받아라 라는 홍보 맨트 같구요\n그런데 유튜브도 구독하기 생겨서 큰일이군요\n \n짦은 평이지만 유튜브 보단 수위가 높은 창작물을 다루는거 같습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1510",
-    "pubDate": "Sun, 30 Nov 2025 09:56:09 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "수익화"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "I Went to BazelCon 2025 – Here’s Everything You Need to Know",
-    "description": "This year, BazelCon was held at the Omni Atlanta Hotel at Centennial Park for a very special occasion: the tenth anniversary of Bazel 🎉 For me, visiting from Europe, Atlanta made quite the first impression. The city felt bigger than anything I’ve seen back home, and with KubeCon happening right next door, the streets were […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2025/11/bazelcon-2025/",
-    "pubDate": "Thu, 27 Nov 2025 14:54:22 +0000",
-    "creator": "Daniel Brauner",
-    "categories": [
-      "events",
-      "news",
-      "bazel",
-      "build-tools"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Solving Advent of Code in Rust, With Just Enough AI",
-    "description": "A year ago, I wrote a blog post about solving Advent of Code puzzles using Rust as the implementation language. I believe it’s still relevant if you plan to use Rust this year. In one section, I advised limiting the use of AI and demonstrated how to disable the relevant functionality in RustRover, either partially […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2025/11/28/solving-advent-of-code-in-rust-with-just-enough-ai/",
-    "pubDate": "Fri, 28 Nov 2025 14:23:56 +0000",
-    "creator": "Vitaly Bragilevsky",
-    "categories": [
-      "contests",
-      "rustrover",
-      "advent-of-code",
-      "contest",
-      "rust"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "1인개발 수익화 / 멀티쓰레드 런치 / 만들면서 홍보하라",
-    "description": "영상: https://www.youtube.com/watch?v=RFlv5-3PCm0\n\n\n\n \n만들면서 무료로 제공하면거 사용자를 늘려야한다.\n만들고나서 홍보를 생각하면 이미 너무 늦었다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1503",
-    "pubDate": "Thu, 27 Nov 2025 14:12:44 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "1인개발",
-      "수익화"
-    ]
-  },
-  {
     "id": 14,
     "imageUrl": "",
-    "title": "코드 품질 개선 기법 25편: 요컨대... 무슨 말이죠?",
-    "description": "이 글은 2024년 5월 16일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
+    "title": "AI 마소에서 꿈꾸는 기업형 AI 서비스",
+    "description": "영상: https://www.youtube.com/watch?v=IcH6wAOWrGc\n\n\n\n \n요약\n회사에 돌아다니는 모든 문서를 가지고 있고\nAI 에게 물어보면 알아서 요약 이나 보고서를 써달라고 할대 이를 해결해 줄것 이라고 합니다.\n \n결국 사람이 방향을 결정할 것이니 실시간 정보 까지 전부 취합해서 보고서를 받는다면\n가장 정확한 판단을 내릴 수 있을 것입니다.\n \n제품의 아이디어를 잘 요양해준 영상입니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-25",
-    "pubDate": "Thu, 27 Nov 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1507",
+    "pubDate": "Fri, 28 Nov 2025 16:12:31 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "Ai"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "The Ultimate KMP Watchlist: Level Up Your Skills in 10 Talks",
-    "description": "The best way to skip the “beginner mistakes” phase is to learn from the teams who have already solved them at scale. For Week 3 of KMP Level Up, we’ve curated the Top 10 KotlinConf talks that cover the full spectrum of adoption, from massive production case studies to deep dives into the compiler. Whether […]",
+    "title": "1인개발 성공 스토리 - 타이머 앱",
+    "description": "영상: https://www.youtube.com/watch?v=z0wjM9YDZEo\n\n\n\n \n독일 개발자 루카스 헤르만(Lukas Hermann)은 간단한 **원격 제어 타이머 웹 앱 '스테이지타이머(StageTimer.io)'**로 큰 성공을 거둔 인물입니다.\n \n웸페이지: https://stagetimer.io/\n\n \nRemote-controlled Countdown Timer | stagetimer.io\nShow a fullscreen timer to your presenter while you control it from another device. Runs in the browser. Basic version is free. Works on all screen sizes.\nstagetimer.io\n\n \n\n\n윗부분 시간 표시되는 부분을 생방송 화면에 표시하고\n여러사람이 이것저것 수정할 수 있는 거 같습니다.\n타임어택 하는 게임 스트리머들에게 필요하겠군요\n정확한 수익 창출 모델은 잘 모르겠습니다.\n광고 가 붙은거 같진 않은데 사람들이 유료로 쓴다고 하네요\n \n대부분의 개발한 앱을 자랑하려면 레딧 사용이 필수 인거 같습니다.\n레딧을 파봐야겠군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/11/the-ultimate-kmp-watchlist/",
-    "pubDate": "Mon, 24 Nov 2025 16:44:40 +0000",
-    "creator": "Ekaterina Petrova",
+    "link": "https://serverdown.tistory.com/1504",
+    "pubDate": "Thu, 27 Nov 2025 21:25:42 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "multiplatform"
+      "유튜브",
+      "성공기",
+      "앱개발"
     ]
   }
 ]
