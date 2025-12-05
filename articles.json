@@ -2,75 +2,70 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "사람과 이어지기 위해 쓰는 돈과 시간과 마음은 무엇을 남길까?",
-    "description": "수백 명을 만나온 20년 차 인터뷰어, 은유 작가가 말하는 관계에 대한 세 가지 깨달음",
+    "title": "Kibana Alert",
+    "description": "특정 조건 발생 시 경보 생성 기능은 유료다. 정확히 얘기하면 메일 발송 등 경보 발령 의미를 찾을 수 있는 기능이 유료. 일단 메일 커넥터 생성. 이때 gmail 서버 인증을 받으려면 앱 비밀번호(구글 계정 관리)를 먼저 만들어놔야 한다.\n\n\n\n\n경보 룰 생성 과정에서 메일 커넥터 선택.\n\n\n\n\n\n\n유료 기능이 부담스럽다면 오픈서치\n\n\n먼저 메일 송수신 설정.\n\n\n\n\n\n\n이후 키바나 커넥터에 해당하는 메일 채널 생성 과정에서 송수신 정보 추가. \n\n\n\n메일 서버 인증을 위한 키스토어 추가. 이때 추가하는 비밀번호는 gmail 앱 비밀번호. (이후 서비스 재시작을 한 번 해줘야 하는 듯)\n\nPS D:\\ELK\\vopen\\opensearch-3.3.2\\bin> .\\opensearch-keystore add opensearch.notifications.core.email.mhkang589.username\nEnter value for opensearch.notifications.core.email.mhkang589.username:\nPS D:\\ELK\\vopen\\opensearch-3.3.2\\bin> \nPS D:\\ELK\\vopen\\opensearch-3.3.2\\bin> .\\opensearch-keystore add opensearch.notifications.core.email.mhkang589.password\nEnter value for opensearch.notifications.core.email.mhkang589.password:\n\n\n\n\n경보 룰 생성 과정에서 메일 채널 선택.\n\n\n\n\n\n\n경보 알림 기능은 분명 편하다. 분석이 정확하다는 전제하에서. \n\n\n관련 글\n\nWatcher 맛보기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosspick-2025-5a",
-    "pubDate": "Wed, 03 Dec 2025 01:00:00 GMT",
+    "link": "https://kangmyounghun.blogspot.com/2025/11/kibana-alert.html",
+    "pubDate": "2025-11-30T05:22:00.005Z",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "골드메탈 여러가지 3D 툴 추",
-    "description": "영상: https://www.youtube.com/watch?v=fSLXIVzSJPg\n\n\n\n \n이 영상에 나오는 내용입니다.\n \n블록밴치\n링크: https://www.blockbench.net/\n\n \nBlockbench\nTexturing Tools Create, edit and paint texture right inside the program. Create or import palettes, paint, or draw shapes. Blockbench can automatically create a UV map and template for your model so that you can start painting right away. You can paint dir\nwww.blockbench.net\n\n픽셀 아트로 텍스쳐로 만들면 3D 로 변환해주는거 같습니다.\n3D 툴보다는 사용하기 쉽다... 는 정도\n \n매지카 복셀\n링크: https://ephtracy.github.io/\n\n \nMagicaVoxel\n \nephtracy.github.io\n\n \n매지카 복셀로 만들었다는 한국 개발자 - WORLD WAR V: LAST CALL\n영상: https://www.youtube.com/watch?v=6khosTtqvLY\n\n\n\n그래픽이 특이합니다.",
+    "title": "FalkorDB와 LLM을 활용한 BIM 그래프 에이전트 개발",
+    "description": "이 글은 IFC(Industry Foundation Classes) 포맷의 BIM 데이터를 FalkorDB 그래프 데이터베이스로 변환하고, 로컬 LLM(Ollama)을 연동하여 자연어 질의가 가능한 AI 에이전트를 구축하는 전체 과정을 기술한다. 도커(Docker) 기반의 데이터베이스 서버 구성부터 Python 의존성 설치, 데이터 적재 및 애플리케이션 실행 방법을 단계별로 정리한다.\n\n개발 환경 및 전제 조건\n본 시스템은 온프레미스 환경에서의 실행을 가정하며, 다음 컴포넌트들을 필요로 한다.\n\nDocker: 그래프 데이터베이스(FalkorDB) 실행\nPython 3.9+: 데이터 변환 및 에이전트 로직 수행\nOllama: 로컬 LLM 추론 서버\n하드웨어: LLM 구동을 위한 적정 수준의 GPU 또는 메모리(RAM 16GB 이상 권장)\n\n데이터베이스 서버 구축 (FalkorDB)\nFalkorDB는 Redis API 호환 고성능 그래프 데이터베이스다. Docker 컨테이너를 사용하여 신속하게 배포한다.\ndocker run -p 6379:6379 -p 3000:3000 -it --rm -v ./data:/var/lib/falkordb/data falkordb/falkordb\n\n-p 6379:6379: FalkorDB(Redis 프로토콜) 접속 포트 바인딩. Python 클라이언트가 이 포트로 통신한다.\n-p 3000:3000: (옵션) FalkorDB 시각화 도구 등을 위한 포트 바인딩.\n-it --rm: 대화형 모드로 실행하며, 컨테이너 종료 시 자동 삭제.\n-v ./data:/var/lib/falkordb/data: 호스트의 ./data 디렉토리를 컨테이너 내 데이터 저장소로 마운트하여 데이터 영속성(Persistence)을 보장한다.\n패키지 및 모델 설치\nIFC 파싱, 그래프 DB 연결, LLM 체인 구성을 위한 라이브러리를 설치한다.\n\nPlaintext\nfalkordb\nlangchain\nlangchain-ollama\nlangchain-core\nifcopenshell\npython-dotenv\nstreamlit\n자연어를 Cypher 쿼리로 변환(Text-to-Cypher)하는 작업에는 코드 생성 능력이 뛰어난 모델이 필요하다. 본 프로젝트에서는 qwen2.5-coder:7b 모델을 사용한다.\n# Ollama 설치 후 아래 명령어 실행\nollama pull qwen2.5-coder:7b\n데이터베이스 연결 정보 및 그래프 네임스페이스 설정을 위해 프로젝트 루트에 .env 파일을 생성한다.\nFALKORDB_HOST=localhost\nFALKORDB_PORT=6379\nFALKORDB_GRAPH=bim\nFALKORDB_USERNAME=\nFALKORDB_PASSWORD=\n데이터 적재 (ETL Process)\nBIM 데이터(.ifc)를 그래프 구조(노드 및 엣지)로 변환하여 FalkorDB에 적재하는 과정이다.\n\nifcopenshell을 이용해 IFC 엔티티 파싱.\nsrc.falkordb_graph_converter 모듈이 엔티티를 노드로, 관계(포함, 집합 등)를 엣지로 변환.\n속성(Property Set) 정보를 JSON 형태로 직렬화하여 노드에 저장.\n# 기본 변환 (input 폴더 내의 IFC 파일 자동 감지)\npython import_ifc_to_falkordb.py\n실행된 결과 FalkorDB 의 서버에 접속해 확인해 보면 다음과 같이 파싱된 IFC 데이터셋이 그래프DB로 구축된 것을 확인할 수 있다. \n\n\n\n웹 기반 에이전트 실행\n데이터 적재가 완료되면 Streamlit 기반의 웹 인터페이스를 구동하여 질의응답 시스템을 활성화한다.\n\n질의 입력: 사용자 자연어 질문 수신.\nCypher 변환: LLM(qwen2.5-coder)이 스키마 정보를 바탕으로 질문을 Cypher 쿼리로 변환.\n쿼리 실행: FalkorDB 엔진이 그래프 탐색 수행 후 JSON 결과 반환.\n답변 생성: LLM이 JSON 결과를 해석하여 자연어 답변 생성.\nstreamlit run BIM_graph_agent_web_falkordb.py\n결론\n위 과정을 통해 구축된 시스템은 복잡한 BIM 데이터의 위상학적 관계를 그래프로 표현하고, 별도의 쿼리 언어 학습 없이 자연어만으로 건물 정보를 조회할 수 있는 환경을 제공한다. FalkorDB의 빠른 인덱싱과 로컬 LLM의 보안성을 결합하여 실무에 적용 가능한 수준의 응답 속도와 데이터 프라이버시를 확보할 수 있다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1515",
-    "pubDate": "Tue, 2 Dec 2025 20:19:24 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "유니티"
-    ]
+    "link": "http://daddynkidsmakers.blogspot.com/2025/11/falkordb-llm-bim.html",
+    "pubDate": "2025-11-29T15:58:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Solving Advent of Code in Rust, With Just Enough AI",
-    "description": "A year ago, I wrote a blog post about solving Advent of Code puzzles using Rust as the implementation language. I believe it’s still relevant if you plan to use Rust this year. In one section, I advised limiting the use of AI and demonstrated how to disable the relevant functionality in RustRover, either partially […]",
+    "title": "Unlocking the Power of Web with Copilot Chat’s New URL Context",
+    "description": "There are many scenarios where Copilot Chat can feel limited by the built-in model training data. Maybe you want guidance on the latest web framework, documentation, or project-specific resources—but Copilot’s responses just aren’t specific enough. For developers who rely on up-to-date or esoteric answers, this gap can be a real frustration.  URL Context: Bringing the web into Copilot Chat  With the new URL context feature, Copilot Chat can now access […]\nThe post Unlocking the Power of Web with Copilot Chat’s New URL Context appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2025/11/28/solving-advent-of-code-in-rust-with-just-enough-ai/",
-    "pubDate": "Fri, 28 Nov 2025 14:23:56 +0000",
-    "creator": "Vitaly Bragilevsky",
+    "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-web-with-copilot-chats-new-url-context/",
+    "pubDate": "Thu, 04 Dec 2025 13:00:24 +0000",
+    "creator": "Jessie Houghton",
     "categories": [
-      "contests",
-      "rustrover",
-      "advent-of-code",
-      "contest",
-      "rust"
+      "Visual Studio"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "(2년전) 개발자 부트캠프 가격 거품이다. / 3개월 천만원 ㄷㄷㄷ",
-    "description": "거품의 시기\n네카라쿠배 취업 전설 이후에 개발자 부트캠프 가격은 엄청나게 거품이 생긴적이 있나봅니다.\n(코로나 시기에 엄청나게 연봉을 높게주고 신입을 뽑은 역사를 의미합니다.)\n취업자 중에는 부트캠프 출신들이 있긴 했으나\n이들은 기본적으로 컴공과 학생들이고 개발 능력도 있는 사람들이 수강해서 취엄한것인다.\n이걸 과대 포장 하고 성공담 팔이를 하다보니 초보자도 3개월만에 취업 가능하다고 ....\n그 뒤론 해봐야 안되는 시나리오가 펼쳐집니다.\n부트캠프가 학원인줄 알았는데 하원보다는 상위에 있는 개념이더군요\n과외를 해도 이것보다 싸겠다. 는 생각이 ...\n \n영상: https://www.youtube.com/watch?v=2WYZTGODunQ\n\n\n\n \n영상 요약\n절대 비추 라고 합니다.\n광고는 초보도 취업 하는 수준으로 올려준다는 거였는데\n시간적 여유가 없기 때문에 불가능해 보인다고 합니다.\n현재 개발자 학원 시장은 거품 상태로 보시는군요.\n(2년전 영상이니까 이 판단이 맞았습니다.)\n \n핵심\n광고 문구는 사기이며\n초보가 가서 실력자 될 수는 없다.\n인프런에 좋은 강의를 듣고 초보 때고 나서 간다면\n오히려 배울 것이 없을 것이다.\n \n제 관점\n개발자가 되기 위한 여러가지 방법이 있지만 이렇게 비싼 방법이 있는줄은 몰랐습니다. \n개발은 어차피 이해가 되어야하기 때문에 시간이 많이 필요합니다.\n최고의 교육으로 때러 넣는다고 해도 머리가 받아줄 수 없는 물리적 시간 말입니다.\n \n대안\n추천 방법은 인프런 강의 - 싸다 시간 무한, 모르면 Q&A 들어갑니다.\n학원 - 6개월 정도의 넉넉한 시간 / 학생들도 취업 부담이 있음\n대학 강의 - 기간이 길지만 밀도가 낮다. / 학생들이 취업 의지 낮음\n부트 캠프 - 초보를 가지고 뭘할 순 없고  실력자가가 가서 취업기술을 배워 상위 회사에 노려보기 위한 목적이라면 말이 된다.\n \n저는 놀이방 같은 건줄 알았는데\n미친 가격과 교육 기간에 놀라봅니다.\n \n이젠 거품 시기도 끝났고\n쿠팡에서도 중국 개발자가 더 많다고 하니\n\n\n다 거품이였던 시기 였습니다.\n \n \n2024년 부캠 추천영상\n영상: https://www.youtube.com/watch?v=kBpqbZeFqrc\n\n\n\n학원에 대한 설명이 아닙니다.\n부트캡프 입니다. 나오고 나면 반드시 취업이 되야합니다.\n \n걸러야하는 조건\n등록전 물어보는 대답에 말돌리기가 시전되면 피해야합니다. \n- 답할 능력이 없는 것입니다.\n일단 코딩 기초 있으면 걸러야함\n- 초보가 올꺼면 지지부진합니다.\n이것도하고 저것도 하고 하면 걸러야함\n- 그거할 시간 없습니다. 취업이 되는거에 집중해야합니다.\n취미로 가는게 아닙니다.\n오직 취업만 생각해야합니다.",
+    "title": "Visual Studio November Update – Visual Studio 2026, Cloud Agent Preview, and more",
+    "description": "Visual Studio 2026 is here! If you haven’t heard the news yet, we’re excited to share with you that Visual Studio 2026 is now generally available! This new version can better assist you with several performance improvements, a redesigned user experience, and a major leap in AI-driven development. Read more about it here and get […]\nThe post Visual Studio November Update – Visual Studio 2026, Cloud Agent Preview, and more appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1519",
-    "pubDate": "Wed, 3 Dec 2025 14:56:42 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-visual-studio-2026-cloud-agent-preview-and-more/",
+    "pubDate": "Wed, 03 Dec 2025 16:00:24 +0000",
+    "creator": "Simona Liao",
     "categories": [
-      "유튜브",
-      "개발자"
+      "GitHub Copilot",
+      "Visual Studio",
+      "Visual Studio 2026"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "로보틱 님부스 - 인간세탁기 / 엔지니어TV",
-    "description": "영상: https://www.youtube.com/watch?v=MQd7MGhFUJ4\n\n\n\n11분 부터 나옵니다.\n \n인간세탁기가  나왔는데요 사람이 선채로 들어가면 씻겨준다고 합니다.\n물도 덜쓰고 편리해보입니다.. 15분 정도 돌리면 된다네요\n노인이라도 남이 씻겨주는건 쉽지 않은 알입니다. \n샤워실 크기줄이는데도 좋아보입니다.",
+    "title": "Upgrade MSVC, improve C++ build performance, and refactor C++ code with GitHub Copilot",
+    "description": "Visual Studio 2026 introduces new GitHub Copilot capabilities to support C++ developers in three development tasks:  Performing large-scale C++ refactors  Improving C++ build performance   Upgrading Microsoft C++ (MSVC) Build Tools  These experiences are available now as a Private Preview in Visual Studio 2026. Install Visual Studio 2026 and join the waitlist for Private Preview today.  C++ code editing tools for GitHub […]\nThe post Upgrade MSVC, improve C++ build performance, and refactor C++ code with GitHub Copilot appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1512",
-    "pubDate": "Sun, 30 Nov 2025 20:02:52 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/visualstudio/upgrade-msvc-improve-c-build-performance-and-refactor-c-code-with-github-copilot/",
+    "pubDate": "Mon, 01 Dec 2025 16:24:40 +0000",
+    "creator": "Erika Sweet",
     "categories": [
-      "로봇"
+      "Copilot",
+      "Visual Studio"
     ]
   },
   {
@@ -94,18 +89,15 @@
   {
     "id": 7,
     "imageUrl": "",
-    "title": "I Went to BazelCon 2025 – Here’s Everything You Need to Know",
-    "description": "This year, BazelCon was held at the Omni Atlanta Hotel at Centennial Park for a very special occasion: the tenth anniversary of Bazel 🎉 For me, visiting from Europe, Atlanta made quite the first impression. The city felt bigger than anything I’ve seen back home, and with KubeCon happening right next door, the streets were […]",
+    "title": "[MULTI] 비슷하면서도 한층 풍부해진 시리즈의 1.5, 옥토패스 트래블러 0",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2025/11/bazelcon-2025/",
-    "pubDate": "Thu, 27 Nov 2025 14:54:22 +0000",
-    "creator": "Daniel Brauner",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2396",
+    "pubDate": "Wed, 03 Dec 2025 20:00:10 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "events",
-      "news",
-      "bazel",
-      "build-tools"
+      "리뷰"
     ]
   },
   {
@@ -127,30 +119,39 @@
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Ask Us Anything During JetBrains AMA Week",
-    "description": "JetBrains will be hosting a series of open Ask Me Anything (AMA) sessions on Reddit December 9–12. On scheduled days, our product teams will join r/jetbrains to talk directly with developers who use our tools every day. We’ll be there for honest conversations about what’s working, what’s not, and where your priorities lie. Your feedback […]",
+    "title": "유튜브가 TV를 완전히 대체할 수 없는 이유",
+    "description": "최근 거실 TV는 넷플릭스를 넘어 유튜브가 점령한 듯 보이죠. 뉴스, 예능, 드라마 할 것 없이 모두 유튜브로 소비되는 시, 우리는 정말 TV를 떠나왔을까요? 생성형 AI 시대, 콘텐츠의 홍수 속에서 우리가 놓치고 있는 '인간적인 이야기'의 가치와 유튜브가 TV를 완전히 대체할 수 없는 진짜 이유를 파헤쳐봅니다.\n\n\n  1. 유튜브의 '무한 자유'가 역설적으로 '결정 피로'를 부른다\n유튜브의 가장 큰 매력 중 하나는 바로 ‘선택의 자유’라고 생각해요. 언제든 원하는 영상을 골라볼 수 있고, AI가 사용자의 취향을 분석해서 딱 맞는 콘텐츠를 추천해주죠. 마치 나만을 위한 비서가 있는 것 같은 기분마저 듭니다. 그런데 말이죠, 이 끝없이 펼쳐진 선택지들이 때로는 피로감으로 다가오기도 합니다.\n저만 그런가요? “오늘은 뭘 볼까?” 하며 수십 개의 썸네일을 넘기다가 결국은 아무것도 제대로 보지 못한 채 시간이 흘러버리는 경험, 여러분도 한두 번쯤 있으실 거예요. 이런 현상을 ‘결정 피로(Decision Fatigue)’라고 부르는데요. 무한한 자유가 역설적으로 더 큰 스트레스를 안겨주는 거죠. 보고 싶은 건 많고, 시간은 한정적인데, 내 선택이 과연 최선인지 계속 의심하게 됩니다.\n생각해보면, 예전 TV 시절에는 이런 고민이 훨씬 덜했어요. 방송사에서 정해준 편성표에 맞춰 모두가 같은 시간에 ‘함께’ 드라마를 보고, 예능을 보며 웃었죠. 이런 단순함이 오히려 시청자들에게 ‘시청의 리듬’을 만들어주고, 콘텐츠에 온전히 몰입할 수 있도록 도와줬던 것 같습니다. 요즘처럼 복잡한 세상에선 이런 단순함이 주는 편안함이 가끔 그립기도 해요.\n  팁: 결정 피로를 줄이려면, 시청할 콘텐츠의 장르나 시청 시간을 미리 정해두거나, 정주행할 시리즈를 한두 개만 집중해서 보는 것도 좋은 방법이에요!\n ‍ ‍ ‍  2. TV는 '공동체 경험'을, 유튜브는 '개인의 세계'를 확장한다\nTV는 단순히 콘텐츠를 보여주는 매체 그 이상이었어요. 온 가족이 거실에 모여 같은 예능 프로그램을 보며 웃고 떠들거나, 다음 날 학교나 직장에서 친구, 동료들과 어젯밤 드라마 이야기에 꽃을 피웠던 경험, 다들 있으실 겁니다. 이건 단순한 콘텐츠 소비가 아니라, ‘공유된 문화 경험(Shared Cultural Experience)’이자 ‘공동체의 연결고리’였죠.\n하지만 유튜브는 그 방식이 완전히 다릅니다. 각자의 스마트폰이나 태블릿 앞에서 각자의 알고리즘이 추천하는 영상들을 보고 있어요. 어떤 사람은 인기 브이로그를, 다른 사람은 심층적인 정치 분석 영상을, 또 어떤 사람은 한창 빠져있는 게임 방송을 보고 있을 겁니다. 결국 유튜브는 공동체의 연결 대신, 개개인의 세계를 심도 있게 확장시켜주는 역할을 합니다.\n물론 개인의 취향을 깊이 파고들 수 있다는 장점은 분명하지만, 문제는 이제 “같은 것을 본 사람”을 찾기가 점점 어려워진다는 점이에요. 과거에는 “어제 그 드라마 봤어?” 한마디로 대화가 시작되었지만, 이제는 각자의 알고리즘이 만든 세상 속에서 서로 다른 경험을 쌓아가고 있습니다. 이렇게 단절된 경험은 소통의 폭을 좁히고, 때로는 고립감을 느끼게 할 수도 있어요.\n\n\n  3. 생성형 AI 시대, 콘텐츠의 홍수 속에 '의미'가 사라진다\n현재 2025년, 생성형 AI(Generative AI)는 유튜브 콘텐츠 제작 방식을 급진적으로 변화시키고 있습니다. 이제 AI는 영상 편집, 자막 생성, 심지어 내레이션까지 자동으로 처리해주고, 더 나아가서는 AI가 직접 영상을 기획하고 제작하는 수준에 이르렀죠. 덕분에 콘텐츠의 양(量)은 폭발적으로 증가했지만, 그 이면에는 우려스러운 그림자가 드리워져 있습니다.\n바로 콘텐츠가 가진 ‘질(質)’과 ‘진정성’이 점점 옅어지고 있다는 점입니다. AI가 만든 영상은 기술적으로는 완벽할지 모릅니다. 매끄러운 화면 전환, 완벽한 발음의 내레이션, 깔끔한 자막 등 흠잡을 데가 없어 보이죠. 하지만 그 속에는 인간만이 전달할 수 있는 감정, 미묘한 맥락, 그리고 깊이 있는 서사적 여운이 부족합니다.\n결국 AI는 ‘기술적으로 완벽한 콘텐츠’는 무한정 만들어낼 수 있지만, ‘사람의 마음에 깊이 남는 이야기’를 만드는 데는 한계가 있습니다. 진정한 의미에서 사람들을 울리고 웃기며, 생각하게 만드는 콘텐츠는 여전히 인간의 손길, 즉 인간적인 시각과 경험에서 비롯된다고 생각해요. 저는 이 차이가 바로 생성형 AI 시대에 우리가 주목해야 할 가장 중요한 지점이라고 봅니다.\n  4. 알고리즘의 편향 — 유튜브는 우리를 '확증 편향'에 가둔다\n유튜브의 AI 추천 시스템은 정말이지 놀랍도록 정교합니다. 사용자가 어떤 영상을 좋아하는지 귀신같이 알아내고, 계속해서 취향에 맞는 영상을 제안해주죠. 하지만 이 친절함 뒤에는 ‘디지털 편향(Digital Bias)’이라는 숨겨진 위험이 도사리고 있습니다.\nAI는 우리에게 “당신이 좋아할 만한 걸 더 보여줄게”라고 말하지만, 이건 동시에 “당신이 좋아하지 않을 만한 다른 세계는 보여주지 않을게”라는 의미가 될 수 있습니다. 즉, 우리가 이미 가지고 있는 생각이나 신념을 강화하는 콘텐츠만을 계속 보여줌으로써 ‘확증 편향(Confirmation Bias)’에 갇히게 만드는 것이죠. 결국 우리는 점점 더 비슷한 정보와 관점 속에 머물게 되고, 시야는 좁아질 수밖에 없습니다.\n⚠️ 경고: 알고리즘 편향은 특정 정보에만 노출되게 하여, 잘못된 정보나 극단적인 관점에 쉽게 빠지게 만들 수 있습니다. 다양한 미디어를 통해 균형 잡힌 시각을 갖는 것이 중요합니다.\n반면 TV는 어땠나요? 과거 지상파 방송들은 의도적으로 다양한 장르와 시사 프로그램을 편성하여 시청자들에게 균형 잡힌 시야를 제공하고자 노력했습니다. 내가 원하든 원치 않든, 뉴스, 다큐멘터리, 교양 프로그램 등을 접하며 자연스럽게 세상의 다양한 면을 알게 되었죠. AI는 아직 이런 ‘균형의 감각’을 완전히 대체하지 못하는 것 같습니다. 이 점이 TV가 가진 공익적 역할의 중요한 부분이라고 생각해요.\n\n\n ️ 5. TV는 여전히 '공공의 미디어'로서 그 역할을 다한다\n유튜브가 주로 광고 수익을 기반으로 한 상업적 플랫폼이라면, TV는 여전히 ‘공공적 미디어’로서의 중요한 가치를 지닙니다. 비상 상황에서 재난 속보를 실시간으로 전달하고, 중요한 선거 개표 방송을 통해 민주주의 과정을 중계하며, 사회적 이슈에 대한 심층 보도를 통해 공론의 장을 형성하는 역할은 2025년 현재에도 TV가 가장 강력하게 수행하는 기능입니다.\n물론 유튜브를 통해서도 속보나 사회적 이슈를 접할 수 있지만, 파편화된 정보와 개인화된 추천 알고리즘 속에서는 공신력 있는 정보를 신속하고 일관성 있게 전달하는 데 한계가 있을 수밖에 없어요. 특히 국가적 재난이나 중대한 사회적 의제에 대해서는 모든 국민이 같은 정보를 동시에 접하고 함께 대응하는 것이 중요합니다. 이점에서 TV는 여전히 대체 불가능한 역할을 담당하고 있습니다.\n그러므로 유튜브가 아무리 성장하고 개인화된 콘텐츠 소비를 주도하더라도, ‘공익적 미디어’로서의 TV의 자리는 쉽게 사라지지 않을 겁니다. 오히려 급변하는 미디어 환경 속에서 그 중요성은 더욱 부각될 수도 있다고 생각해요. 다양한 관점과 균형 잡힌 정보 전달이라는 기본적인 책무는 상업적 이윤 추구만으로는 완벽히 채워질 수 없으니까요.\n  6. 생성형 AI 시대, '인간적인 콘텐츠'가 진정한 경쟁력이 된다\n미래에는 AI가 영상 콘텐츠의 90% 이상을 만들어낼지도 모른다는 예측도 나오고 있습니다. 정말 놀라운 기술의 발전이죠. 하지만 저는 사람들이 여전히 ‘사람이 직접 만든 콘텐츠’를 더욱 신뢰하고 가치를 둔다고 봅니다. 왜냐하면 우리는 기계의 완벽한 논리보다는, 인간의 진솔한 감정과 경험에 더 깊이 반응하기 때문이에요.\n앞으로의 미디어 경쟁은 단순히 “누가 더 기술적으로 잘 만드는가?”를 넘어, “누가 더 인간적으로, 진정성 있게 이야기하는가?”에 달려 있을 것이라고 확신합니다. AI는 완벽한 형식을 구현할 수 있지만, 그 속에 담긴 의미와 감동, 그리고 사람 사이의 공감대를 형성하는 능력은 여전히 인간의 고유한 영역으로 남아있을 겁니다.\n결국 AI는 효율성을 제공하고 콘텐츠의 양을 폭발적으로 늘리겠지만, 진정한 울림을 주는 '이야기꾼'은 여전히 인간이라는 사실을 명심해야 합니다. 이 근본적인 차이가 바로 유튜브가 TV를 완전히 대체할 수 없는 가장 중요한 이유이며, 다가올 AI 시대의 콘텐츠 전략에서 우리가 반드시 놓치지 말아야 할 핵심 가치라고 생각해요.\n✅ 결론: 유튜브는 TV의 '끝'이 아닌, 또 다른 '진화'다\n유튜브가 TV를 완전히 대체했다는 말은, 어쩌면 성급한 판단일지도 모릅니다. 저는 유튜브가 TV의 기능을 완전히 소멸시킨 것이 아니라, TV가 해오던 많은 역할을 새로운 디지털 환경에 맞춰 진화시킨 플랫폼이라고 생각해요.\n유튜브는 개인화된 미디어로서 사용자의 취향을 깊이 파고들지만, TV는 여전히 공공적이고 공동체적인 미디어로서 사회적 역할을 다하고 있습니다. 그리고 2025년 현재, 생성형 AI의 등장으로 이 둘의 경계는 더욱 흐려지고 있죠.\n하지만 분명한 건 하나입니다. 다가올 AI 시대의 미디어 경쟁은 단순한 기술의 싸움이 아니라, ‘인간성의 복원력 싸움’이라는 점입니다. 기계는 아무리 정교하고 완벽한 영상을 만들어낼 수 있어도, 그 안에 담긴 이야기를 진심으로 ‘전달’하고 사람의 마음을 움직이는 것은 여전히 인간의 고유한 영역으로 남아있습니다.\n결국, 유튜브와 TV는 서로 다른 방식으로 우리의 삶에 스며들어 있을 뿐, 각자의 가치와 역할을 가지고 공존하며 미디어의 미래를 만들어갈 것이라고 믿습니다.\n  핵심 요약\n✔️ 유튜브의 무한한 선택권은 '결정 피로'를 유발하며, 단순했던 TV 시절의 시청 리듬을 그립게 만듭니다.\n✔️ 생성형 AI는 콘텐츠 양을 늘리지만, '인간적 진정성'을 희석시켜 기술적 완벽함과 감동 사이의 간극을 만듭니다.\n✔️ TV는 여전히 '공동체적 경험'과 '공공의 미디어'로서의 책임을 다하며 대체 불가능한 역할을 수행합니다.\n✔️ 미래 미디어의 진정한 경쟁력은 '기술'이 아닌 '인간력', 즉 감동을 주는 인간적인 이야기에 달려 있습니다.\n미디어 환경의 변화 속에서도, 결국 사람의 마음을 움직이는 것은 기술이 아닌 '사람의 이야기'라는 점을 잊지 말아야 합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1. 유튜브가 TV를 완전히 대체하지 못하는 가장 큰 이유는 무엇인가요?\n가장 큰 이유는 TV가 제공하는 '공동체적 시청 경험'과 '공공 미디어로서의 역할'을 유튜브가 완벽히 대체하기 어렵기 때문입니다. 유튜브는 개인화에 강하지만, 재난 속보나 사회적 이슈의 공론장 역할, 그리고 같은 시대를 공유하는 문화적 경험 제공에는 TV가 여전히 더 강력합니다.\nQ2. 생성형 AI가 콘텐츠 제작에 미치는 긍정적 영향과 부정적 영향은 무엇인가요?\n긍정적인 영향으로는 콘텐츠 제작의 효율성 증대 및 양적 폭발적인 증가를 들 수 있습니다. 하지만 부정적인 영향으로는 '인간적인 진정성'과 '깊이 있는 서사'의 부재로 인해 기술적으로 완벽하지만 감동 없는 콘텐츠가 양산될 수 있다는 점입니다.\nQ3. '결정 피로'란 무엇이며, 유튜브 시청 시 어떻게 나타날 수 있나요?\n'결정 피로'는 너무 많은 선택지 앞에서 결정을 내리는 데 지쳐 심리적으로 피로감을 느끼는 현상입니다. 유튜브에서는 수많은 영상 썸네일과 끊임없는 추천 목록 앞에서 무엇을 볼지 계속 고민하다가 결국 아무것도 보지 못하거나 만족도가 떨어지는 결과를 초래할 수 있습니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"유튜브가 TV를 완전히 대체하지 못하는 가장 큰 이유는 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"가장 큰 이유는 TV가 제공하는 '공동체적 시청 경험'과 '공공 미디어로서의 역할'을 유튜브가 완벽히 대체하기 어렵기 때문입니다. 유튜브는 개인화에 강하지만, 재난 속보나 사회적 이슈의 공론장 역할, 그리고 같은 시대를 공유하는 문화적 경험 제공에는 TV가 여전히 더 강력합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"생성형 AI가 콘텐츠 제작에 미치는 긍정적 영향과 부정적 영향은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"긍정적인 영향으로는 콘텐츠 제작의 효율성 증대 및 양적 폭발적인 증가를 들 수 있습니다. 하지만 부정적인 영향으로는 '인간적인 진정성'과 '깊이 있는 서사'의 부재로 인해 기술적으로 완벽하지만 감동 없는 콘텐츠가 양산될 수 있다는 점입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"'결정 피로'란 무엇이며, 유튜브 시청 시 어떻게 나타날 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"'결정 피로'는 너무 많은 선택지 앞에서 결정을 내리는 데 지쳐 심리적으로 피로감을 느끼는 현상입니다. 유튜브에서는 수많은 영상 썸네일과 끊임없는 추천 목록 앞에서 무엇을 볼지 계속 고민하다가 결국 아무것도 보지 못하거나 만족도가 떨어지는 결과를 초래할 수 있습니다.\"\n      }\n    }\n  ]\n}",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2025/12/03/ask-us-anything-during-jetbrains-ama-week/",
-    "pubDate": "Wed, 03 Dec 2025 11:24:48 +0000",
-    "creator": "Anna Maltseva",
+    "link": "https://muzbox.tistory.com/483686",
+    "pubDate": "Thu, 4 Dec 2025 10:57:03 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "events",
-      "ama"
+      "AI, 미래기술/AI 인사이트",
+      "AI 시대 미디어 트렌드",
+      "결정 피로 콘텐츠",
+      "공공 미디어 역할",
+      "디지털 확증 편향",
+      "미디어 공동체 경험",
+      "생성형 AI 미디어",
+      "알고리즘 편향",
+      "유튜브 TV 대체",
+      "인간적인 콘텐츠",
+      "콘텐츠 진정성"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "[NS2] 예측불가로 찾아오는 도파민 폭발, 커비의 에어 라이더",
-    "description": "No description available",
+    "title": "dotInsights | December 2025",
+    "description": "Did you know? Calling GC.Collect() explicitly forces the garbage collector to run and reclaim memory from unreachable objects. However, it’s generally discouraged to use this method in most applications because the garbage collector is highly optimized to run automatically. Forcing it can lead to performance issues by interrupting the normal optimization process. Welcome to dotInsights […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2395",
-    "pubDate": "Mon, 01 Dec 2025 17:26:20 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://blog.jetbrains.com/dotnet/2025/12/02/dotinsights-december-2025/",
+    "pubDate": "Tue, 02 Dec 2025 13:38:29 +0000",
+    "creator": "Rachel Appel",
     "categories": [
-      "리뷰"
+      "net-tools"
     ]
   },
   {
@@ -172,58 +173,60 @@
   {
     "id": 12,
     "imageUrl": "",
-    "title": "AI처럼 생각하기",
-    "description": "No description available",
+    "title": "(2년전) 개발자 부트캠프 가격 거품이다. / 3개월 천만원 ㄷㄷㄷ",
+    "description": "거품의 시기\n네카라쿠배 취업 전설 이후에 개발자 부트캠프 가격은 엄청나게 거품이 생긴적이 있나봅니다.\n(코로나 시기에 엄청나게 연봉을 높게주고 신입을 뽑은 역사를 의미합니다.)\n취업자 중에는 부트캠프 출신들이 있긴 했으나\n이들은 기본적으로 컴공과 학생들이고 개발 능력도 있는 사람들이 수강해서 취엄한것인다.\n이걸 과대 포장 하고 성공담 팔이를 하다보니 초보자도 3개월만에 취업 가능하다고 ....\n그 뒤론 해봐야 안되는 시나리오가 펼쳐집니다.\n부트캠프가 학원인줄 알았는데 하원보다는 상위에 있는 개념이더군요\n과외를 해도 이것보다 싸겠다. 는 생각이 ...\n \n영상: https://www.youtube.com/watch?v=2WYZTGODunQ\n\n\n\n \n영상 요약\n절대 비추 라고 합니다.\n광고는 초보도 취업 하는 수준으로 올려준다는 거였는데\n시간적 여유가 없기 때문에 불가능해 보인다고 합니다.\n현재 개발자 학원 시장은 거품 상태로 보시는군요.\n(2년전 영상이니까 이 판단이 맞았습니다.)\n \n핵심\n광고 문구는 사기이며\n초보가 가서 실력자 될 수는 없다.\n인프런에 좋은 강의를 듣고 초보 때고 나서 간다면\n오히려 배울 것이 없을 것이다.\n \n제 관점\n개발자가 되기 위한 여러가지 방법이 있지만 이렇게 비싼 방법이 있는줄은 몰랐습니다. \n개발은 어차피 이해가 되어야하기 때문에 시간이 많이 필요합니다.\n최고의 교육으로 때러 넣는다고 해도 머리가 받아줄 수 없는 물리적 시간 말입니다.\n \n대안\n추천 방법은 인프런 강의 - 싸다 시간 무한, 모르면 Q&A 들어갑니다.\n학원 - 6개월 정도의 넉넉한 시간 / 학생들도 취업 부담이 있음\n대학 강의 - 기간이 길지만 밀도가 낮다. / 학생들이 취업 의지 낮음\n부트 캠프 - 초보를 가지고 뭘할 순 없고  실력자가가 가서 취업기술을 배워 상위 회사에 노려보기 위한 목적이라면 말이 된다.\n \n저는 놀이방 같은 건줄 알았는데\n미친 가격과 교육 기간에 놀라봅니다.\n \n이젠 거품 시기도 끝났고\n쿠팡에서도 중국 개발자가 더 많다고 하니\n\n\n다 거품이였던 시기 였습니다.\n \n \n2024년 부캠 추천영상\n영상: https://www.youtube.com/watch?v=kBpqbZeFqrc\n\n\n\n학원에 대한 설명이 아닙니다.\n부트캡프 입니다. 나오고 나면 반드시 취업이 되야합니다.\n \n걸러야하는 조건\n등록전 물어보는 대답에 말돌리기가 시전되면 피해야합니다. \n- 답할 능력이 없는 것입니다.\n일단 코딩 기초 있으면 걸러야함\n- 초보가 올꺼면 지지부진합니다.\n이것도하고 저것도 하고 하면 걸러야함\n- 그거할 시간 없습니다. 취업이 되는거에 집중해야합니다.\n취미로 가는게 아닙니다.\n오직 취업만 생각해야합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://beejei.medium.com/ai%EC%B2%98%EB%9F%BC-%EC%83%9D%EA%B0%81%ED%95%98%EA%B8%B0-206d1c0a37d8?source=rss-9f14ea26d32f------2",
-    "pubDate": "Sun, 30 Nov 2025 18:38:48 GMT",
-    "creator": "Beejei",
+    "link": "https://serverdown.tistory.com/1519",
+    "pubDate": "Wed, 3 Dec 2025 14:56:42 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "인생",
-      "교육",
-      "철학",
-      "과학",
-      "ai"
+      "유튜브",
+      "개발자"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "역대급 썸네일 / 너무나 강렬해서 안누를 수 없었다.",
-    "description": "디자인 같은거 다 필요 없다.\n내인생 가장 강렬한 썸네일이였다.\n미대 나와서 10년 하이퍼리얼리즘 정물화 그리는 사람도 이 썸네일을 이길 수 없을 것이다.\n \n \n영상: https://www.youtube.com/watch?v=maGgS6V6zHA\n\n\n\n맛탱이간 인생썰을 풀어줍니다.",
+    "title": "Grok Models Come to the AI Chat in JetBrains IDEs",
+    "description": "We’re expanding our AI offering with xAI’s Grok family of LLMs: Grok 4, Grok 4.1 Fast, Grok 4.1 Fast (Non-Reasoning), and Grok Code Fast 1. With the addition of these models in the AI chat across all JetBrains IDEs, you now have even more flexibility to choose the model that best fits your workflow. How […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1518",
-    "pubDate": "Wed, 3 Dec 2025 14:32:37 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/ai/2025/12/grok-models-come-to-the-ai-chat-in-jetbrains-ides/",
+    "pubDate": "Tue, 02 Dec 2025 15:30:49 +0000",
+    "creator": "Anna Maltseva",
     "categories": [
-      "유튜브",
-      "유튜브"
+      "news",
+      "ai-in-ides"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "FalkorDB와 LLM을 활용한 BIM 그래프 에이전트 개발",
-    "description": "이 글은 IFC(Industry Foundation Classes) 포맷의 BIM 데이터를 FalkorDB 그래프 데이터베이스로 변환하고, 로컬 LLM(Ollama)을 연동하여 자연어 질의가 가능한 AI 에이전트를 구축하는 전체 과정을 기술한다. 도커(Docker) 기반의 데이터베이스 서버 구성부터 Python 의존성 설치, 데이터 적재 및 애플리케이션 실행 방법을 단계별로 정리한다.\n\n개발 환경 및 전제 조건\n본 시스템은 온프레미스 환경에서의 실행을 가정하며, 다음 컴포넌트들을 필요로 한다.\n\nDocker: 그래프 데이터베이스(FalkorDB) 실행\nPython 3.9+: 데이터 변환 및 에이전트 로직 수행\nOllama: 로컬 LLM 추론 서버\n하드웨어: LLM 구동을 위한 적정 수준의 GPU 또는 메모리(RAM 16GB 이상 권장)\n\n데이터베이스 서버 구축 (FalkorDB)\nFalkorDB는 Redis API 호환 고성능 그래프 데이터베이스다. Docker 컨테이너를 사용하여 신속하게 배포한다.\ndocker run -p 6379:6379 -p 3000:3000 -it --rm -v ./data:/var/lib/falkordb/data falkordb/falkordb\n\n-p 6379:6379: FalkorDB(Redis 프로토콜) 접속 포트 바인딩. Python 클라이언트가 이 포트로 통신한다.\n-p 3000:3000: (옵션) FalkorDB 시각화 도구 등을 위한 포트 바인딩.\n-it --rm: 대화형 모드로 실행하며, 컨테이너 종료 시 자동 삭제.\n-v ./data:/var/lib/falkordb/data: 호스트의 ./data 디렉토리를 컨테이너 내 데이터 저장소로 마운트하여 데이터 영속성(Persistence)을 보장한다.\n패키지 및 모델 설치\nIFC 파싱, 그래프 DB 연결, LLM 체인 구성을 위한 라이브러리를 설치한다.\n\nPlaintext\nfalkordb\nlangchain\nlangchain-ollama\nlangchain-core\nifcopenshell\npython-dotenv\nstreamlit\n자연어를 Cypher 쿼리로 변환(Text-to-Cypher)하는 작업에는 코드 생성 능력이 뛰어난 모델이 필요하다. 본 프로젝트에서는 qwen2.5-coder:7b 모델을 사용한다.\n# Ollama 설치 후 아래 명령어 실행\nollama pull qwen2.5-coder:7b\n데이터베이스 연결 정보 및 그래프 네임스페이스 설정을 위해 프로젝트 루트에 .env 파일을 생성한다.\nFALKORDB_HOST=localhost\nFALKORDB_PORT=6379\nFALKORDB_GRAPH=bim\nFALKORDB_USERNAME=\nFALKORDB_PASSWORD=\n데이터 적재 (ETL Process)\nBIM 데이터(.ifc)를 그래프 구조(노드 및 엣지)로 변환하여 FalkorDB에 적재하는 과정이다.\n\nifcopenshell을 이용해 IFC 엔티티 파싱.\nsrc.falkordb_graph_converter 모듈이 엔티티를 노드로, 관계(포함, 집합 등)를 엣지로 변환.\n속성(Property Set) 정보를 JSON 형태로 직렬화하여 노드에 저장.\n# 기본 변환 (input 폴더 내의 IFC 파일 자동 감지)\npython import_ifc_to_falkordb.py\n실행된 결과 FalkorDB 의 서버에 접속해 확인해 보면 다음과 같이 파싱된 IFC 데이터셋이 그래프DB로 구축된 것을 확인할 수 있다. \n\n\n\n웹 기반 에이전트 실행\n데이터 적재가 완료되면 Streamlit 기반의 웹 인터페이스를 구동하여 질의응답 시스템을 활성화한다.\n\n질의 입력: 사용자 자연어 질문 수신.\nCypher 변환: LLM(qwen2.5-coder)이 스키마 정보를 바탕으로 질문을 Cypher 쿼리로 변환.\n쿼리 실행: FalkorDB 엔진이 그래프 탐색 수행 후 JSON 결과 반환.\n답변 생성: LLM이 JSON 결과를 해석하여 자연어 답변 생성.\nstreamlit run BIM_graph_agent_web_falkordb.py\n결론\n위 과정을 통해 구축된 시스템은 복잡한 BIM 데이터의 위상학적 관계를 그래프로 표현하고, 별도의 쿼리 언어 학습 없이 자연어만으로 건물 정보를 조회할 수 있는 환경을 제공한다. FalkorDB의 빠른 인덱싱과 로컬 LLM의 보안성을 결합하여 실무에 적용 가능한 수준의 응답 속도와 데이터 프라이버시를 확보할 수 있다.",
+    "title": "골드메탈 여러가지 3D 툴 추",
+    "description": "영상: https://www.youtube.com/watch?v=fSLXIVzSJPg\n\n\n\n \n이 영상에 나오는 내용입니다.\n \n블록밴치\n링크: https://www.blockbench.net/\n\n \nBlockbench\nTexturing Tools Create, edit and paint texture right inside the program. Create or import palettes, paint, or draw shapes. Blockbench can automatically create a UV map and template for your model so that you can start painting right away. You can paint dir\nwww.blockbench.net\n\n픽셀 아트로 텍스쳐로 만들면 3D 로 변환해주는거 같습니다.\n3D 툴보다는 사용하기 쉽다... 는 정도\n \n매지카 복셀\n링크: https://ephtracy.github.io/\n\n \nMagicaVoxel\n \nephtracy.github.io\n\n \n매지카 복셀로 만들었다는 한국 개발자 - WORLD WAR V: LAST CALL\n영상: https://www.youtube.com/watch?v=6khosTtqvLY\n\n\n\n그래픽이 특이합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/11/falkordb-llm-bim.html",
-    "pubDate": "2025-11-29T15:58:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1515",
+    "pubDate": "Tue, 2 Dec 2025 20:19:24 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "유니티"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "토스, 무료 해외송금 국가 50개국으로 확대",
-    "description": "외국인 금융생활 편의 강화",
+    "title": "악역영애 4컷 만화 - 29화, 밥을 더 맛있게 먹는 데스와~",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/foreign-money-transfer",
-    "pubDate": "Tue, 02 Dec 2025 07:18:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2397",
+    "pubDate": "Wed, 03 Dec 2025 23:33:46 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
   }
 ]
