@@ -2,69 +2,71 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "DataGrip 2025.3: Migration From Consoles to Query Files, Connection to Cloud Providers, Introspection Levels for Amazon Redshift, and More!",
-    "description": "DataGrip 2025.3, the final major update of the year, is here! Let’s take a look at what it has to offer. Download DataGrip 2025.3 Migration from query consoles to query files Previously, when referring to the SQL files that are attached to a data source by default, we used the term query console, and their […]",
+    "title": "Why changing keyboard shortcuts in Visual Studio isn’t as simple as it seems",
+    "description": "A straight look at what’s behind the keys We’ve all tried unlearning a keyboard shortcut – it feels like forgetting how to breathe. Muscle memory doesn’t mess around. We wrestle with this every time someone suggest a “quick” shortcut change. It’s not just editing a keybinding but navigating a history that makes Visual Studio so […]\nThe post Why changing keyboard shortcuts in Visual Studio isn’t as simple as it seems appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/datagrip/2025/12/02/datagrip-2025-3-migration-from-consoles-to-query-files-connection-to-cloud-providers-introspection-levels-for-amazon-redshift-and-more/",
-    "pubDate": "Tue, 02 Dec 2025 14:47:09 +0000",
-    "creator": "Richie Mitish",
+    "link": "https://devblogs.microsoft.com/visualstudio/why-changing-keyboard-shortcuts-in-visual-studio-isnt-as-simple-as-it-seems/",
+    "pubDate": "Wed, 03 Dec 2025 15:00:13 +0000",
+    "creator": "Mads Kristensen",
     "categories": [
-      "news",
-      "releases",
-      "newsletter"
+      "Visual Studio",
+      "Keyboard Shortcuts",
+      "Visual Studio 2026"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "드림씨어터 40주년 기념 앨범 Quarantième: Live à Paris",
-    "description": "드림씨어터의 팬이지만 라이브는 불편해서 잘 듣지 않는다. 하지만 이번 앨범 'Quarantième: Live à Paris'는 듣다가 간만에 CD까지 구매했다. 파리의 아디다스 아레나에서 녹음되었고 DVD 촬영을 같이 했다고 하는데 소리도 아주 좋다. 앨범 제목은 프랑스어 인데 영어로 '40th: Live in Paris'를 의미한다. 드림씨어터의 40주년 기념 라이브 앨범이고 포트노이의 복귀 앨범이기도 하다.\n\r\n\r\n처음에는 보컬 소리가 많이 달라서 라브리에가 아닌줄 알았다. 아무래도 예전 처럼 고음 위주로 노래하기는 힘드니 창법도 바꾸고 키도 바꿔서 소리가 조금 달라졌다고 한다. 조단 루디스의 음색도 아주 풍부하다. 존명도 솔로 파트에서 드라이브가 잔뜩 걸린 소리를 들려준다. 패트루치야 항상 한결같다. 앨범 전반적으로 좀 헤비한 느낌이다. 시간이 참 빠르다. 앞으로도 계속해서 좋은 음반이 나오기를 기대한다.",
+    "title": "Unlocking the Power of Web with Copilot Chat’s New URL Context",
+    "description": "There are many scenarios where Copilot Chat can feel limited by the built-in model training data. Maybe you want guidance on the latest web framework, documentation, or project-specific resources—but Copilot’s responses just aren’t specific enough. For developers who rely on up-to-date or esoteric answers, this gap can be a real frustration.  URL Context: Bringing the web into Copilot Chat  With the new URL context feature, Copilot Chat can now access […]\nThe post Unlocking the Power of Web with Copilot Chat’s New URL Context appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hyeonseok.com/blog/945",
-    "pubDate": "Sat, 29 Nov 2025 05:22:32 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-web-with-copilot-chats-new-url-context/",
+    "pubDate": "Thu, 04 Dec 2025 13:00:24 +0000",
+    "creator": "Jessie Houghton",
+    "categories": [
+      "Visual Studio"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "미국의 성장 동력으로 떠오른 텍사스",
-    "description": "새로운 성장 주(州)에서 발견한 투자 포인트",
+    "title": "New Livestream: Engineers Talk About Spring Boot 4, Life, and Other Stuff",
+    "description": "Join us as we welcome the Spring team and Evgeny Borisov for a new IntelliJ IDEA livestream, where we’ll discuss what’s new in Spring Boot 4 and how all the new updates work in IntelliJ IDEA. Date: December 11, 2025 Time: 4:00–5:00 pm UTC REGISTER FOR THE LIVESTREAM Session abstract In this livestream, we’ll explore […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/US-Investment-Insights-6",
-    "pubDate": "Mon, 01 Dec 2025 11:44:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/idea/2025/12/new-livestream-engineers-talk-about-spring-boot-4-life-and-other-stuff/",
+    "pubDate": "Mon, 01 Dec 2025 14:22:36 +0000",
+    "creator": "Anna Rovinskaia",
+    "categories": [
+      "livestreams",
+      "intellij-idea",
+      "intellijidealivestream",
+      "livestream",
+      "webinars"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "토스페이 혜택, 사용법 총정리 2025년 12월",
-    "description": "무신사, 아고다, 앱스토어부터 이마트24, 우리동네GS까지 할인·적립 쿠폰 확인하기",
+    "title": "Profiler Agent – Delegate the analysis, not the performance",
+    "description": "In Visual Studio 2026 we introduced Copilot Profiler Agent, a new AI-powered assistant that helps you analyze and optimize performance bottlenecks in your code. By combining the power of GitHub Copilot with Visual Studio’s performance profiler, you can now ask natural language questions about performance, get insights into hot paths, and quickly identify optimization opportunities. […]\nThe post Profiler Agent – Delegate the analysis, not the performance appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosspay-2025-02",
-    "pubDate": "Sun, 30 Nov 2025 15:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/visualstudio/delegate-the-analysis-not-the-performance/",
+    "pubDate": "Tue, 02 Dec 2025 15:00:16 +0000",
+    "creator": "Nik Karpinsky",
+    "categories": [
+      "Performance",
+      "Visual Studio",
+      "Agent",
+      "Copilot",
+      "Profiling"
+    ]
   },
   {
     "id": 5,
-    "imageUrl": "",
-    "title": "나는 나에게 다정한 번역가가 될 수 있을까?",
-    "description": "[관계의 기술] 나를 가혹하게 오역하지 말 것",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosspick-2025-5b",
-    "pubDate": "Wed, 03 Dec 2025 01:01:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
     "imageUrl": "",
     "title": "미국의 BBB 계좌 / 아이들 용 은퇴 계좌",
     "description": "영상: https://www.youtube.com/watch?v=EV1QvYnrus8\n\n\n\n이 기사 초반에 나오는 내용이구요\n \n어린이들에게 1,000 달러 투자계좌를 만들어주구요 20세까지 존버 시키게 됩니다.\n투자는 미국의 미래 기술에 투자하게 됩니다.\n20년 후엔 백만달러 (가장 좋은 시나리오) 가 되면\n아디들은 놀고 먹으면서 하고싶은일을 하게 되는 멋진 계획입니다.\n \n긍정적인 시나리오\n엣날 미래 영화들을 보면 사람들은 놀고 로봇이 일하는 멋진 세상을 그린 영화들이 있습니다.\n이런 세상에선 생활비를 어떻게 충당할까요\n사회주의라면 연금을 주겠지만\n자유주의라면 과거의 투자 소득으로 이를 해결할 것입니다.\n(투자를 하고 말고는 자유니까요)\n투자 소득이 어마어마해진다면 배당 소득으로도 월급 만큼 생겨나는 세상입니다.\n(커버드콜 같은거 말이죠)\n미래에는 로봇이 생산을 대체할테니까\n물건값이 저렴해질 것이라는 전망도 있습니다.\n이것은 과거 20년전 중국이 생산에 참여하면서 물가 상승을 억제했던 역사가 있습니다.\n그리고 이 시기에는 중국이 미국 국채를 사주면서 금리조차 낮았습니다.\n이젠 로봇이 중국을 대신할 것이며 초 호황기 시절이 오게 됩니다.\n \n \n부정적인 시나리오\n로봇 생산은 실패로 돌아가 물가를 잡지 못하고\n금리를 인상하게 됩니다.\n그 결과  BBB 투자도 손실을 입게 되고 \n아이들 뿐만 아니라 모든 세대가 고통 받게 될것 같지만\n로봇 생산이 실패하면 중국을 다시 키우고\n과거의 중국 호황기 시절을 재연 할 수 도 있습니다.\n(이번엔 중국이 아니고 인도 베트남 아프리카 등을 키우겠지만요)",
@@ -80,91 +82,21 @@
     ]
   },
   {
+    "id": 6,
+    "imageUrl": "",
+    "title": "dotInsights | December 2025",
+    "description": "Did you know? Calling GC.Collect() explicitly forces the garbage collector to run and reclaim memory from unreachable objects. However, it’s generally discouraged to use this method in most applications because the garbage collector is highly optimized to run automatically. Forcing it can lead to performance issues by interrupting the normal optimization process. Welcome to dotInsights […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/12/02/dotinsights-december-2025/",
+    "pubDate": "Tue, 02 Dec 2025 13:38:29 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools"
+    ]
+  },
+  {
     "id": 7,
-    "imageUrl": "",
-    "title": "[NS2] 예측불가로 찾아오는 도파민 폭발, 커비의 에어 라이더",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2395",
-    "pubDate": "Mon, 01 Dec 2025 17:26:20 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "AV1 — Now Powering 30% of Netflix Streaming",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80?source=rss----2615bd06b42e---4",
-    "pubDate": "Thu, 04 Dec 2025 20:09:30 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "av1",
-      "video-encoding",
-      "streaming",
-      "aomedia",
-      "netflix"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "역대급 썸네일 / 너무나 강렬해서 안누를 수 없었다.",
-    "description": "디자인 같은거 다 필요 없다.\n내인생 가장 강렬한 썸네일이였다.\n미대 나와서 10년 하이퍼리얼리즘 정물화 그리는 사람도 이 썸네일을 이길 수 없을 것이다.\n \n \n영상: https://www.youtube.com/watch?v=maGgS6V6zHA\n\n\n\n맛탱이간 인생썰을 풀어줍니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1518",
-    "pubDate": "Wed, 3 Dec 2025 14:32:37 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "유튜브"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "RockyLinux9의 X윈도우 GDM 오류 : 아, 뭔가 문제가 생겼습니다",
-    "description": "Rocky Linux 9 리눅스에서 X.org 에러로 인해 \"아, 뭔가 문제가 생겼습니다. 문제가 발생했지만 복구하지 못했습니다. 시스템 관리자에게 문의하십시오\" 메시지가 나온 경우를 에러 처리 하는 방법이다.\n일전에 강의를 하다가 실습 이미지를 가지고 이것저것 해보는 수강자 분이 갑자기 X윈도가 안된다고 했다. 그래서 고쳐드렸는데, 에러를 찾아내면서 해결하는 과정을 보시더니, 다른 프로그램의 오류나 충돌도 이런 해결 방식을 사용할 수 있냐고 질문하시길래, 100% 같은 방법은 아니지만 얼추 비슷하게 할 수 있다고 말씀드렸다. 이렇게 문제를 해결하는 방법에 대해 더 자세히 알기를 원하셨지만 부족한 강의 시간 때문에 따로 과외를 해드릴 수는 없었고, 여기에 블로그 글로 남겨서 읽을 수 있게 해드리겠다고 하였다. 이 글은 당시 과정을 재현하기 위해 Virtualbox에 RockyLinux9을 설치하고 같은 오류를 만든 후 그림 및 로그를 캡쳐하였다.\n \n1. 에러 상태\n에러 상태는 어느 날 갑자기 X윈도우 로그인을 담당하는 GDM(GNOME Display Manager)가 화면을 띄우지 못하고 아래처럼 에러를 뱉어내는 상황이다. 어제 수업까지는 잘 되었다고 하는데, 당일 아침에 와서 실습용 컴퓨터를 켜니까 저렇게 에러가 발생했다고 하였다.\nRocky Linux 9 GDM error : 아, 뭔가 문제가 생겼습니다.\n\n\n그런데 이와 별개로 \"아, 뭔가 문제가 생겼습니다\"라는 메시지가 너무 귀엽지 않은가? 시스템 언어가 English인 경우에는 \"Oh no! Something has gone wrong. A problem has occurred and the system can't recover. Please log out and try again.\"이라고 표시된다. 해석이 좀 엉망이긴 한데, 이건 기계 번역이라서 그럴 것이다.\n \n2. 해결 방법을 모색\n모든 프로그램의 문제를 해결하기 위해서는 최우선적으로 log 메시지를 살펴봐야 한다. 일반적으로 로그 메시지는 journalctl로 보거나 아니면 개별적으로 해당 프로세스가 남기는 log 파일이 있다면 그것을 살펴본다. 로그가 하나도 나오지 않는 시스템이라면 strace 같은 것으로 추적하는 방법을 실행하면서 함수가 error로 리턴하는 경우를 살펴보면 된다.\n이 작업은 root의 권한을 필요로 하기 때문에 su - 로 변경하던가, 아니면 sudoers를 잡아놨다면 sudo로 명령한다. 여기서는 su - 로 root 유저로 변경한 것을 간주하여 명령하도록 한다.\n \n2.1. X window의 로그 살펴보기\nRocky Linux 9에서는 startx 명령어를 사용해서 수동으로 X window를 실행할 수 있다. 기존에 X 윈도우가 띄워져 있으면 에러가 발생할 수 있기 때문에 default target을 multi-user.target으로 바꾸고 수동으로 startx를 해야만 한다. default target을 변경하는 명령은 아래와 같다.\nsystemctl isolate multi-user.target\n위 명령을 성공한 뒤에, startx를 실행했더니 아래처럼 실패가 발생한다. 아래 그림은 관련 화면을 캡쳐한 것이다.\nRocky Linux 9 : systemctl isolate multi-user.target; startx;\n\n\n로그 파일의 위치는 /var/log/Xorg.0.log로 보인다. X server가 종료되는 것을 확인 후 해당 위치를 가서 확인해본다. (종료되지 않는다면 강제로 Ctrl-C를 눌러 종료한다)\nRocky Linux 9 : Xorg.0.log 파일\n\n\nX 서버 로그는 information은 (II)로 표시하고, 에러는 (EE)로 표시한다. 따라서 (EE)문자열을 검색하면 빠르게 에러 위치를 찾을 수 있다. 위 그림에서 에러 위치에 AIGLX error: dlopen of /usr/lib64/dri/swrast_dri.so failed (/usr/lib64/dri/swrast_dri.so: undefined symbol:  amdgpu_cs_ctx_stable_pstate) 으로 표시된 것을 볼 수 있다.\n여기서 undefined symbol은 ABI가 깨진 것이다. 아마도 개발자가 함수명을 변경했을 것으로 보인다. 그러나 swrast_dri.so가 문제는 아니다. 반대로 swrast_dri.so에서 amdgpu_cs_ctx_stable_pstate를 호출하는 대상이 되는 shared object를 찾아야 한다. 그리고 해당 so를 업데이트해주는 것이 맞는데, 이걸 찾기 위해 역으로 호출하는 관계를 찾아야 한다.\n \n2.2. rpm으로 오류의 원인 파일 찾기\n패키지 관리툴인 rpm 명령의 query 옵션으로 /usr/lib64/dri/swrast_dri.so가 어느 패키지에 속한 파일인지 역추적해본다.\nRocky Linux 9 : mesa-dri-drivers의 swrast_dri.so 파일\n\n\n패키지 이름은 mesa-dri-drivers 이다. 이 패키지가 언제 변경되었는지 추적하기 위해 dnf history를 통해 살펴본다. 해당 패키지의 이력은 history id 1은 설치될 때이고, history id 26번은 bcc-tools를 설치할 때 업데이트 되었다.\nRocky Linux 9 : dnf history mesa-dri-drivers\n\n\n자세한 트랜잭션을 보기 위해 26번 ID를 살펴보자. mesa-dri-drivers-21.3.4-2.el9.x86_64에서 mesa-dri-drivers-22.3.0-2.el9.x86_64로 업데이트 된 것을 알 수 있다.\nRocky Linux 9 : dnf history : bcc-tools\n\n\ndnf history info 26은 dnf install bcc-tools 명령을 의미하고, dependency에 의해mesa-dri-drivers가 upgrade 된 것을 볼 수 있다. 보기 쉽게 위 그림에는 노란색 화살표로 표시해두었다.\n아래는 rpm -qR로 디펜던시도 확인해 보았다. 명령어가 길어서 아래에 history를 적어 두었다. 출력되는 명령어 순서는 괘념치 말자. 사실 이미 여기서 직감적으로 libdrm_amdgpu.so.1 가 범인인 것을 알 수 있었다. 왜냐하면 shared object가 호출하는 함수이름이 amdgpu_cs_ctx_stable_pstate이므로 amdgpu라는 단어가 들어갈 가능성이 높았기 때문이다. 설상가상으로 libdrm_amdgpu.so.1 파일이 등장하니까 금방 확인이 가능했다. 따라서 rpm -qf <library PATH>/libdrm_amdgpu.so.1으로 바로 찾을 수 있지만, 여기서는 직감보다는 좀 더 제너럴한 방법으로 해결 방법을 찾아가는 것을 살펴볼 것이다.\nRocky Linux 9 : rpm query\n\n\nldd swrast_dri.so 명령어로 링킹된 shared object 파일을 조사해보면 다음과 같이 볼 수 있다. 사실 안해봐도 되지만 뭐든지 2중, 3중으로 확인하는 것이 좋다.\nRocky Linux 9 : ldd swrast_dri.so\n\n\n \n2.3. ltrace로 추적하기\n리눅스에는 프로그램의 실행을 추적하기 위해서 strace, ltrace를 제공한다. 이 2가지 툴은 개발자나 관리자에게 거의 필수적으로 배워야 하는 툴이다. strace는 system call tracer이고, ltrace는 library call tracer이다. 여기서는 사용자 라이브러리 함수인 amdgpu_cs_ctx_stable_pstate가 문제이므로 ltrace를 사용한다.\nltrace로 startx의 실제 실행 파일인 xinit가 실행될 때를 추적해보자. shared object는 메모리를 할당하는 과정이 포함되므로 malloc-free를 추적하면 쉽다. 사용된 옵션은 아래와 같다.\n-s <string length>\nstring length\n기본값이 32라서 argument가 긴 경우 짤릴 수 있다. 보통 128~256을 많이 사용한다.\n\n\n-o <file>\n화면 출력이 아닌 지정된 file 출력으로 변경한다.\n\n\n-S\nlibrary call뿐만 아니라 system call도 같이 출력한다.\n\n\n-f\nfork를 follow한다.\n\n\n\n \nRocky Linux 9 : ltrace 명령어 실행\n\n\nltrace로 xinit를 추적한 뒤에 출력 파일인 ltrace_xinit.txt를 열어서 추적하다보면 dlopen하는 부분에서 swrast_dir.so를 여는 부분을 찾을 수 있다. 그리고 swrast_dir.so를 open한 뒤에 어느 순간에 amdgpu_cs_ctx_stable_pstate를 호출하다가 undefined symbol 오류를 내는 부분이 나올 것으로 예측할 수 있을 것이다. \n파일을 오픈하는 함수는 openat이므로 openat@SYS를 찾으면 된다. 아래 그림에 표시해 두었다.\nRocky Linux 9 : ltrace 명령어 로그 : openat@SYS 검색\n\n\n위 그림에서 openat@SYS을 살펴보면 각각 오픈하는 so(shared object) 파일들이 libglapi.so libdrm_radeon.so, libdrm_amdgpu.so, libelf.so등으로 보인다. 여기서 libelf.so는 시스템에서 기본으로 사용하는 shared object이므로 범인이 아니다. 참고로 2171 openat@SYS(AT_FDCWD, \"/lib64/libdrm_amdgpu.so.1\"을 오픈하는 것을 볼 수 있는데, 직후 _dl_catch_exception 익셉션은 그냥 발생하는 것이므로 에러가 아니다. 그러면 이제 원인이 된 라이브러리 목록을 알았으니 하나하나 찾아가면 된다. \n찾는 방법은 심볼 이름들로 찾으면 되는데, static library는 nm으로 찾지만 so는 readelf -s (-s옵션은 --syms로 심볼을 본다는 뜻)으로 찾는다. 따라서 여기서는 readelf를 사용한다. \n그런데 symbol name이 길면 [...]으로 축약되어 출력된다. 그냥 볼 때는 별 상관이 없지만 자세한 심볼 이름이 필요한 경우는 민폐다. 따라서 -W (--wide) 옵션으로 symbol의 fullname을 보는 경우가 많다.\nRocky Linux 9 : readelf libdrm_amdgpu.so.1\n\n\n위와 같은 방법을 쓰다보면 amdgpu_cs_... 어쩌구가 있는 라이브러리인  libdrm_amdgpu.so.1을 찾을 수 있다. 그리고 rpm -qf로 해당 파일이 어느 패키지에 속해있는지 추적해보면 libdrm 인 것을 알 수 있다.\nRocky Linux 9 : rpm -qf /lib64/libdrm_amdgpu.so.1\n\n\n 이제 dnf update libdrm 으로 문제를 일으킨 패키지를 업데이트 해주자.(간접 의존성이 있어서 자동 업데이트가 안된 것이므로 이렇게 수동으로 업데이트하면 된다.) \ndnf update libdrm\n업데이트가 완료된 뒤에는 다시 graphical.target으로 돌아가야 한다. systemctl 명령어를 아래와 같이 사용한다. (재부팅해도 되지만 사실 재부팅을 안하고 해결하는 것이 제일 좋은 방식이다. 실제 서버나 워크스테이션은 정말 최후의 상황에만 재부팅을 한다. 시스템 관리자나 개발자는 재부팅 없이 문제를 해결하는 방법을 찾아야만 한다.)\nsystemctl isolate graphical.target\n \n이제 제대로 작동하게 될 것이다. 위와 같은 경우는 흔하지는 않지만 간혹 시스템에서 발생되는 문제이다. 모든 패키지가 의존성이 완벽하지 않아서 A패키지가 의존성에 의해 B를 추가 업그레이드 했는데, 다른 패키지인 X가 Y를 의존하고, 하필이면 Y가 B의 기능을 사용하는 관계라면 어떻게 될까? 이런 경우 B의 ABI가 변경된 경우, 즉 위와 같이 symbol name이나 argument가 변경되었다면 이를 인지하지 못한 X, Y를 호출하면서 오류가 발생한다. 이런 경우 Y를 업그레이드 해주면 되지만, 그걸 찾아내려면 위와 같이 하나하나 찾아내야 한다. 이렇게 indirect한 하위 의존성은 복잡한 패키지 구조에서는 찾기 힘들 때가 있다. \n물론 모든 패키지를 다 업데이트하면 해결되는 경우도 있지만, 안정성 때문에 security에 관련된 최소한의 업데이트만 하는 경우가 많기 때문에 핀셋처럼 딱 찾아내는 방법도 알아둬야만 한다. 위 예시는 그런 경우를 찾아내는 방법이다.\n이제 libdrm를 업데이트 한 뒤에 /lib64 디렉터리로 이동해서 readelf로 해당 심볼을 제대로 찾아 낼 수 있다.\nRocky Linux 9 : readelf libdrm_amdgpu.so.1 ❘ grep amdgpu_cs_ctx_stable_pstate\n\n\n \n2.4. 원인과 결과\n나중에 알게되었는데, 이 강의말고 이전 강의에 bpf를 이용한 시스템 문제 해결, 튜닝 수업이 있었는데, 해당 강의 자료 PDF가 들어있는 디렉토리를 수강자분께서 보고 관심이 생겨서 쉬는 시간에 실습하셨다고 했다. 그래서 bcc-tools를 설치했다가 의존성에 의해 mesa-dri-drivers가 업데이트 되어 발생한 문제였다. (원래 수강자분이 듣던 강의는 bash shell programming이라서 bcc-tools를 쓸 일이 없으므로 설치할 일도 없었다.) 궁금증이 원인이었는데, 수강자분은 딴짓해서 죄송하다고 했지만, 사실 이렇게 궁금증이 많아서 이것저것 해보는 분들이 나중에 대성하는 경향이 있어서 오히려 기운을 복돋아 드렸다. 나중에 높은 사람이거나 유명한 사람이 되면 나를 좀 이끌어 달라고... -_-;;\n \n3. LD_DEBUG를 사용하는 방법(꼼수)\n이건 팁이면서 다른 방식의 해결법이다. 사실 이 방법이 더 쉽다. startx 실행시 아래처럼 LD_DEBUG=libs를 주고 실행하면 아래와 같은 출력을 볼 수 있다. 이 기능은 모든 CLI 명령어에 쓸 수 있다. 예를 들어 ls에 붙이면 ls가 호출하는 라이브러리를 모두 볼 수 있다.\nLD_DEBUG=libs startx\nLD_DEBUG=libs startx의 실행 결과는 아래 그림과 같다. 여기서 find library부분에 어떤 라이브러리를 참조하는지 나오는데, swrast_dri.so가 참조되기 전에 가져온 라이브러리 파일 경로를 보면 된다. 여기서 보이는 파일은 libglapi.so, libdrm_radeon.so libdrm_amdgpu.so, libelf.so, libxcd-dri3.so뿐이다. 이들만 readelf, rpm -qf, dnf history 로 조사해보면 금방 오류를 확인할 수 있다. 이 방법은 약간 꼼수에 가깝지만 실력자들이 많이 사용하는 기능이다.\nLD_DEBUG=libs 사용 방법\n\n\n \nLD_DEBUG에는 libs 말고도 reloc, files, bindings, unused 등등... 다양한 기능이 있으므로 높은 수준의 개발자나 admin 기법을 배우고자 한다면 꼭 살펴보도록 하자. 이런 고급 꼼수 기법은 아무나 가르쳐주는 기법이 아니므로, 알아두면 정말 큰 도움이 될 것이다.\n \n \n히스토리\n2025.11.29 첫 릴리즈.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://sunyzero.tistory.com/321",
-    "pubDate": "Sat, 29 Nov 2025 13:47:48 +0900",
-    "creator": "sunyzero",
-    "categories": [
-      "컴퓨터 관련/리눅스 데스크탑",
-      "Linux GDM 에러",
-      "ltrace",
-      "readelf",
-      "RockyLinux9",
-      "strace",
-      "swrast_dri.so",
-      "록키리눅스9",
-      "아 뭔가 문제가 생겼습니다"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Bring your own AI agent to JetBrains IDEs",
-    "description": "Hey! Here at JetBrains, we’re always happy to bring our users the best and most popular tools available on the market. This has been true for decades with conventional dev tooling: compilers, debuggers, build tools, etc; in the past several years, we’ve shipped all the newest LLMs in the same manner, and we want the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/12/bring-your-own-ai-agent-to-jetbrains-ides/",
-    "pubDate": "Fri, 05 Dec 2025 12:40:45 +0000",
-    "creator": "Sergey Ignatov",
-    "categories": [
-      "ai-assistant",
-      "acp"
-    ]
-  },
-  {
-    "id": 12,
     "imageUrl": "",
     "title": "MPS 2025.3 Release Candidate Is Ready!",
     "description": "As the last step on our way toward the final release, the Release Candidate for MPS 2025.3 is now available for you to download! DOWNLOAD MPS 2025.3 RC 1 To find out what features to expect in this release, check out the earlier updates from the EAP 1 and EAP 2 builds. The full list […]",
@@ -180,27 +112,75 @@
     ]
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
-    "title": "사람, 영원히 안 변하는 자산",
-    "description": "내가 2012년에 스트롱의 첫 번째 펀드를 만들 때는 VC 사업에 대해서 정말 아무것도 몰랐다. 어떻게 돈을 모으고, 어떤 방식으로 펀드가 작동하는지, 그리고 남에게 받은 돈을 어떻게 운영해야 하는지 감이 전혀 없었다. 그냥 딱 한 가지 자신 있었던 건, 남들이 잘 못 알아보고, 잘 안 알아보는 똑똑한 창업가를 그 누구보다 먼저 알아보고 이들에게 투자할 수 있는(...)",
+    "title": "Ask Us Anything During JetBrains AMA Week",
+    "description": "JetBrains will be hosting a series of open Ask Me Anything (AMA) sessions on Reddit December 9–12. On scheduled days, our product teams will join r/jetbrains to talk directly with developers who use our tools every day. We’ll be there for honest conversations about what’s working, what’s not, and where your priorities lie. Your feedback […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2025/12/investing-in-people-is-the-most-derisked-investment.html",
-    "pubDate": "Wed, 03 Dec 2025 21:29:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://blog.jetbrains.com/blog/2025/12/03/ask-us-anything-during-jetbrains-ama-week/",
+    "pubDate": "Wed, 03 Dec 2025 11:24:48 +0000",
+    "creator": "Anna Maltseva",
     "categories": [
-      "Uncategorized",
-      "cockroach",
-      "fundraising",
-      "hustle",
-      "people",
-      "Strong",
-      "vc"
+      "events",
+      "ama"
     ]
   },
   {
-    "id": 14,
+    "id": 9,
+    "imageUrl": "",
+    "title": "The Deprecation of K1 Mode",
+    "description": "As the next step in the evolution of K2 mode, with the IntelliJ IDEA 2025.3 release we are officially deprecating its predecessor, K1 mode. In this post, we’ll give some background about K2 mode and discuss its current state, including adoption numbers, performance test results, and feature parity and stability. As always, we recommend updating […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/12/the-deprecation-of-k1-mode/",
+    "pubDate": "Thu, 04 Dec 2025 09:41:37 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": [
+      "news"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "유튜브가 TV를 완전히 대체할 수 없는 이유",
+    "description": "최근 거실 TV는 넷플릭스를 넘어 유튜브가 점령한 듯 보이죠. 뉴스, 예능, 드라마 할 것 없이 모두 유튜브로 소비되는 시, 우리는 정말 TV를 떠나왔을까요? 생성형 AI 시대, 콘텐츠의 홍수 속에서 우리가 놓치고 있는 '인간적인 이야기'의 가치와 유튜브가 TV를 완전히 대체할 수 없는 진짜 이유를 파헤쳐봅니다.\n\n\n  1. 유튜브의 '무한 자유'가 역설적으로 '결정 피로'를 부른다\n유튜브의 가장 큰 매력 중 하나는 바로 ‘선택의 자유’라고 생각해요. 언제든 원하는 영상을 골라볼 수 있고, AI가 사용자의 취향을 분석해서 딱 맞는 콘텐츠를 추천해주죠. 마치 나만을 위한 비서가 있는 것 같은 기분마저 듭니다. 그런데 말이죠, 이 끝없이 펼쳐진 선택지들이 때로는 피로감으로 다가오기도 합니다.\n저만 그런가요? “오늘은 뭘 볼까?” 하며 수십 개의 썸네일을 넘기다가 결국은 아무것도 제대로 보지 못한 채 시간이 흘러버리는 경험, 여러분도 한두 번쯤 있으실 거예요. 이런 현상을 ‘결정 피로(Decision Fatigue)’라고 부르는데요. 무한한 자유가 역설적으로 더 큰 스트레스를 안겨주는 거죠. 보고 싶은 건 많고, 시간은 한정적인데, 내 선택이 과연 최선인지 계속 의심하게 됩니다.\n생각해보면, 예전 TV 시절에는 이런 고민이 훨씬 덜했어요. 방송사에서 정해준 편성표에 맞춰 모두가 같은 시간에 ‘함께’ 드라마를 보고, 예능을 보며 웃었죠. 이런 단순함이 오히려 시청자들에게 ‘시청의 리듬’을 만들어주고, 콘텐츠에 온전히 몰입할 수 있도록 도와줬던 것 같습니다. 요즘처럼 복잡한 세상에선 이런 단순함이 주는 편안함이 가끔 그립기도 해요.\n  팁: 결정 피로를 줄이려면, 시청할 콘텐츠의 장르나 시청 시간을 미리 정해두거나, 정주행할 시리즈를 한두 개만 집중해서 보는 것도 좋은 방법이에요!\n ‍ ‍ ‍  2. TV는 '공동체 경험'을, 유튜브는 '개인의 세계'를 확장한다\nTV는 단순히 콘텐츠를 보여주는 매체 그 이상이었어요. 온 가족이 거실에 모여 같은 예능 프로그램을 보며 웃고 떠들거나, 다음 날 학교나 직장에서 친구, 동료들과 어젯밤 드라마 이야기에 꽃을 피웠던 경험, 다들 있으실 겁니다. 이건 단순한 콘텐츠 소비가 아니라, ‘공유된 문화 경험(Shared Cultural Experience)’이자 ‘공동체의 연결고리’였죠.\n하지만 유튜브는 그 방식이 완전히 다릅니다. 각자의 스마트폰이나 태블릿 앞에서 각자의 알고리즘이 추천하는 영상들을 보고 있어요. 어떤 사람은 인기 브이로그를, 다른 사람은 심층적인 정치 분석 영상을, 또 어떤 사람은 한창 빠져있는 게임 방송을 보고 있을 겁니다. 결국 유튜브는 공동체의 연결 대신, 개개인의 세계를 심도 있게 확장시켜주는 역할을 합니다.\n물론 개인의 취향을 깊이 파고들 수 있다는 장점은 분명하지만, 문제는 이제 “같은 것을 본 사람”을 찾기가 점점 어려워진다는 점이에요. 과거에는 “어제 그 드라마 봤어?” 한마디로 대화가 시작되었지만, 이제는 각자의 알고리즘이 만든 세상 속에서 서로 다른 경험을 쌓아가고 있습니다. 이렇게 단절된 경험은 소통의 폭을 좁히고, 때로는 고립감을 느끼게 할 수도 있어요.\n\n\n  3. 생성형 AI 시대, 콘텐츠의 홍수 속에 '의미'가 사라진다\n현재 2025년, 생성형 AI(Generative AI)는 유튜브 콘텐츠 제작 방식을 급진적으로 변화시키고 있습니다. 이제 AI는 영상 편집, 자막 생성, 심지어 내레이션까지 자동으로 처리해주고, 더 나아가서는 AI가 직접 영상을 기획하고 제작하는 수준에 이르렀죠. 덕분에 콘텐츠의 양(量)은 폭발적으로 증가했지만, 그 이면에는 우려스러운 그림자가 드리워져 있습니다.\n바로 콘텐츠가 가진 ‘질(質)’과 ‘진정성’이 점점 옅어지고 있다는 점입니다. AI가 만든 영상은 기술적으로는 완벽할지 모릅니다. 매끄러운 화면 전환, 완벽한 발음의 내레이션, 깔끔한 자막 등 흠잡을 데가 없어 보이죠. 하지만 그 속에는 인간만이 전달할 수 있는 감정, 미묘한 맥락, 그리고 깊이 있는 서사적 여운이 부족합니다.\n결국 AI는 ‘기술적으로 완벽한 콘텐츠’는 무한정 만들어낼 수 있지만, ‘사람의 마음에 깊이 남는 이야기’를 만드는 데는 한계가 있습니다. 진정한 의미에서 사람들을 울리고 웃기며, 생각하게 만드는 콘텐츠는 여전히 인간의 손길, 즉 인간적인 시각과 경험에서 비롯된다고 생각해요. 저는 이 차이가 바로 생성형 AI 시대에 우리가 주목해야 할 가장 중요한 지점이라고 봅니다.\n  4. 알고리즘의 편향 — 유튜브는 우리를 '확증 편향'에 가둔다\n유튜브의 AI 추천 시스템은 정말이지 놀랍도록 정교합니다. 사용자가 어떤 영상을 좋아하는지 귀신같이 알아내고, 계속해서 취향에 맞는 영상을 제안해주죠. 하지만 이 친절함 뒤에는 ‘디지털 편향(Digital Bias)’이라는 숨겨진 위험이 도사리고 있습니다.\nAI는 우리에게 “당신이 좋아할 만한 걸 더 보여줄게”라고 말하지만, 이건 동시에 “당신이 좋아하지 않을 만한 다른 세계는 보여주지 않을게”라는 의미가 될 수 있습니다. 즉, 우리가 이미 가지고 있는 생각이나 신념을 강화하는 콘텐츠만을 계속 보여줌으로써 ‘확증 편향(Confirmation Bias)’에 갇히게 만드는 것이죠. 결국 우리는 점점 더 비슷한 정보와 관점 속에 머물게 되고, 시야는 좁아질 수밖에 없습니다.\n⚠️ 경고: 알고리즘 편향은 특정 정보에만 노출되게 하여, 잘못된 정보나 극단적인 관점에 쉽게 빠지게 만들 수 있습니다. 다양한 미디어를 통해 균형 잡힌 시각을 갖는 것이 중요합니다.\n반면 TV는 어땠나요? 과거 지상파 방송들은 의도적으로 다양한 장르와 시사 프로그램을 편성하여 시청자들에게 균형 잡힌 시야를 제공하고자 노력했습니다. 내가 원하든 원치 않든, 뉴스, 다큐멘터리, 교양 프로그램 등을 접하며 자연스럽게 세상의 다양한 면을 알게 되었죠. AI는 아직 이런 ‘균형의 감각’을 완전히 대체하지 못하는 것 같습니다. 이 점이 TV가 가진 공익적 역할의 중요한 부분이라고 생각해요.\n\n\n ️ 5. TV는 여전히 '공공의 미디어'로서 그 역할을 다한다\n유튜브가 주로 광고 수익을 기반으로 한 상업적 플랫폼이라면, TV는 여전히 ‘공공적 미디어’로서의 중요한 가치를 지닙니다. 비상 상황에서 재난 속보를 실시간으로 전달하고, 중요한 선거 개표 방송을 통해 민주주의 과정을 중계하며, 사회적 이슈에 대한 심층 보도를 통해 공론의 장을 형성하는 역할은 2025년 현재에도 TV가 가장 강력하게 수행하는 기능입니다.\n물론 유튜브를 통해서도 속보나 사회적 이슈를 접할 수 있지만, 파편화된 정보와 개인화된 추천 알고리즘 속에서는 공신력 있는 정보를 신속하고 일관성 있게 전달하는 데 한계가 있을 수밖에 없어요. 특히 국가적 재난이나 중대한 사회적 의제에 대해서는 모든 국민이 같은 정보를 동시에 접하고 함께 대응하는 것이 중요합니다. 이점에서 TV는 여전히 대체 불가능한 역할을 담당하고 있습니다.\n그러므로 유튜브가 아무리 성장하고 개인화된 콘텐츠 소비를 주도하더라도, ‘공익적 미디어’로서의 TV의 자리는 쉽게 사라지지 않을 겁니다. 오히려 급변하는 미디어 환경 속에서 그 중요성은 더욱 부각될 수도 있다고 생각해요. 다양한 관점과 균형 잡힌 정보 전달이라는 기본적인 책무는 상업적 이윤 추구만으로는 완벽히 채워질 수 없으니까요.\n  6. 생성형 AI 시대, '인간적인 콘텐츠'가 진정한 경쟁력이 된다\n미래에는 AI가 영상 콘텐츠의 90% 이상을 만들어낼지도 모른다는 예측도 나오고 있습니다. 정말 놀라운 기술의 발전이죠. 하지만 저는 사람들이 여전히 ‘사람이 직접 만든 콘텐츠’를 더욱 신뢰하고 가치를 둔다고 봅니다. 왜냐하면 우리는 기계의 완벽한 논리보다는, 인간의 진솔한 감정과 경험에 더 깊이 반응하기 때문이에요.\n앞으로의 미디어 경쟁은 단순히 “누가 더 기술적으로 잘 만드는가?”를 넘어, “누가 더 인간적으로, 진정성 있게 이야기하는가?”에 달려 있을 것이라고 확신합니다. AI는 완벽한 형식을 구현할 수 있지만, 그 속에 담긴 의미와 감동, 그리고 사람 사이의 공감대를 형성하는 능력은 여전히 인간의 고유한 영역으로 남아있을 겁니다.\n결국 AI는 효율성을 제공하고 콘텐츠의 양을 폭발적으로 늘리겠지만, 진정한 울림을 주는 '이야기꾼'은 여전히 인간이라는 사실을 명심해야 합니다. 이 근본적인 차이가 바로 유튜브가 TV를 완전히 대체할 수 없는 가장 중요한 이유이며, 다가올 AI 시대의 콘텐츠 전략에서 우리가 반드시 놓치지 말아야 할 핵심 가치라고 생각해요.\n✅ 결론: 유튜브는 TV의 '끝'이 아닌, 또 다른 '진화'다\n유튜브가 TV를 완전히 대체했다는 말은, 어쩌면 성급한 판단일지도 모릅니다. 저는 유튜브가 TV의 기능을 완전히 소멸시킨 것이 아니라, TV가 해오던 많은 역할을 새로운 디지털 환경에 맞춰 진화시킨 플랫폼이라고 생각해요.\n유튜브는 개인화된 미디어로서 사용자의 취향을 깊이 파고들지만, TV는 여전히 공공적이고 공동체적인 미디어로서 사회적 역할을 다하고 있습니다. 그리고 2025년 현재, 생성형 AI의 등장으로 이 둘의 경계는 더욱 흐려지고 있죠.\n하지만 분명한 건 하나입니다. 다가올 AI 시대의 미디어 경쟁은 단순한 기술의 싸움이 아니라, ‘인간성의 복원력 싸움’이라는 점입니다. 기계는 아무리 정교하고 완벽한 영상을 만들어낼 수 있어도, 그 안에 담긴 이야기를 진심으로 ‘전달’하고 사람의 마음을 움직이는 것은 여전히 인간의 고유한 영역으로 남아있습니다.\n결국, 유튜브와 TV는 서로 다른 방식으로 우리의 삶에 스며들어 있을 뿐, 각자의 가치와 역할을 가지고 공존하며 미디어의 미래를 만들어갈 것이라고 믿습니다.\n  핵심 요약\n✔️ 유튜브의 무한한 선택권은 '결정 피로'를 유발하며, 단순했던 TV 시절의 시청 리듬을 그립게 만듭니다.\n✔️ 생성형 AI는 콘텐츠 양을 늘리지만, '인간적 진정성'을 희석시켜 기술적 완벽함과 감동 사이의 간극을 만듭니다.\n✔️ TV는 여전히 '공동체적 경험'과 '공공의 미디어'로서의 책임을 다하며 대체 불가능한 역할을 수행합니다.\n✔️ 미래 미디어의 진정한 경쟁력은 '기술'이 아닌 '인간력', 즉 감동을 주는 인간적인 이야기에 달려 있습니다.\n미디어 환경의 변화 속에서도, 결국 사람의 마음을 움직이는 것은 기술이 아닌 '사람의 이야기'라는 점을 잊지 말아야 합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1. 유튜브가 TV를 완전히 대체하지 못하는 가장 큰 이유는 무엇인가요?\n가장 큰 이유는 TV가 제공하는 '공동체적 시청 경험'과 '공공 미디어로서의 역할'을 유튜브가 완벽히 대체하기 어렵기 때문입니다. 유튜브는 개인화에 강하지만, 재난 속보나 사회적 이슈의 공론장 역할, 그리고 같은 시대를 공유하는 문화적 경험 제공에는 TV가 여전히 더 강력합니다.\nQ2. 생성형 AI가 콘텐츠 제작에 미치는 긍정적 영향과 부정적 영향은 무엇인가요?\n긍정적인 영향으로는 콘텐츠 제작의 효율성 증대 및 양적 폭발적인 증가를 들 수 있습니다. 하지만 부정적인 영향으로는 '인간적인 진정성'과 '깊이 있는 서사'의 부재로 인해 기술적으로 완벽하지만 감동 없는 콘텐츠가 양산될 수 있다는 점입니다.\nQ3. '결정 피로'란 무엇이며, 유튜브 시청 시 어떻게 나타날 수 있나요?\n'결정 피로'는 너무 많은 선택지 앞에서 결정을 내리는 데 지쳐 심리적으로 피로감을 느끼는 현상입니다. 유튜브에서는 수많은 영상 썸네일과 끊임없는 추천 목록 앞에서 무엇을 볼지 계속 고민하다가 결국 아무것도 보지 못하거나 만족도가 떨어지는 결과를 초래할 수 있습니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"유튜브가 TV를 완전히 대체하지 못하는 가장 큰 이유는 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"가장 큰 이유는 TV가 제공하는 '공동체적 시청 경험'과 '공공 미디어로서의 역할'을 유튜브가 완벽히 대체하기 어렵기 때문입니다. 유튜브는 개인화에 강하지만, 재난 속보나 사회적 이슈의 공론장 역할, 그리고 같은 시대를 공유하는 문화적 경험 제공에는 TV가 여전히 더 강력합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"생성형 AI가 콘텐츠 제작에 미치는 긍정적 영향과 부정적 영향은 무엇인가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"긍정적인 영향으로는 콘텐츠 제작의 효율성 증대 및 양적 폭발적인 증가를 들 수 있습니다. 하지만 부정적인 영향으로는 '인간적인 진정성'과 '깊이 있는 서사'의 부재로 인해 기술적으로 완벽하지만 감동 없는 콘텐츠가 양산될 수 있다는 점입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"'결정 피로'란 무엇이며, 유튜브 시청 시 어떻게 나타날 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"'결정 피로'는 너무 많은 선택지 앞에서 결정을 내리는 데 지쳐 심리적으로 피로감을 느끼는 현상입니다. 유튜브에서는 수많은 영상 썸네일과 끊임없는 추천 목록 앞에서 무엇을 볼지 계속 고민하다가 결국 아무것도 보지 못하거나 만족도가 떨어지는 결과를 초래할 수 있습니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483686",
+    "pubDate": "Thu, 4 Dec 2025 10:57:03 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "AI 시대 미디어 트렌드",
+      "결정 피로 콘텐츠",
+      "공공 미디어 역할",
+      "디지털 확증 편향",
+      "미디어 공동체 경험",
+      "생성형 AI 미디어",
+      "알고리즘 편향",
+      "유튜브 TV 대체",
+      "인간적인 콘텐츠",
+      "콘텐츠 진정성"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "유튜브는 당장 내일 망할 것 처럼 만들어진다. / 당신은 흔들리지 마라",
+    "description": "영상: https://www.youtube.com/watch?v=ZevUAcIlz6E\n\n\n\n2분에 나옵니다.\n진실은 이겁니다.\n \n유튜브는 원래 내일 세상이 망할 것 같이 말해야 사람들이 몰립니다.\n또 그렇게 방송하는게 맞습니다.\n안그러면 봐주지 않거든요\n \n하지만 만드는 사람의 진실은 이겁니다.\n영향 받지 마라\n세상은 그렇게 돌아가지 않습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1522",
+    "pubDate": "Fri, 5 Dec 2025 10:37:59 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "유튜브"
+    ]
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "충격 이혼 썰 / 결혼하려고 했더니 애딸린 이혼남이였다.",
     "description": "영상: https://www.youtube.com/watch?v=HXB7AiIObag\n\n\n\n너무 나 흥미진진합니다.\n남자에겐 사연이 계속 나옵니다.\n \n불리하면 \"잘 들어봐\" 를 시전해주십니다.\n불리한건 절대 말 안하는 건 국룰 입니당.",
@@ -215,17 +195,45 @@
     ]
   },
   {
-    "id": 15,
+    "id": 13,
     "imageUrl": "",
-    "title": "354일차 - 간단한게임만들기 9일차 / 개발일지",
-    "description": "영상: https://www.youtube.com/watch?v=e396l7H9cI0&t=25s\n\n\n\n \n개발일지 입니다.\n이제 거의 막바지이며 이후로는\n컨텐츠를 붙이면 안좋아질 수도 있는 수준에 가까워졌습니다.\n \n\n\n한분이 게임이 안끝날 수도 있다는 점을 지적해주셨습니다.\n감사합니다.\n \n플레이하러가기\n웹에서 플라이 가능합니다.\n게임 링크: https://play.unity.com/en/games/fb8df491-0bdd-417e-88b8-af692eb40f42/122-easy-v11",
+    "title": "Visual Studio November Update – Visual Studio 2026, Cloud Agent Preview, and more",
+    "description": "Visual Studio 2026 is here! If you haven’t heard the news yet, we’re excited to share with you that Visual Studio 2026 is now generally available! This new version can better assist you with several performance improvements, a redesigned user experience, and a major leap in AI-driven development. Read more about it here and get […]\nThe post Visual Studio November Update – Visual Studio 2026, Cloud Agent Preview, and more appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1523",
-    "pubDate": "Fri, 5 Dec 2025 13:49:21 +0900",
-    "creator": "SIDNFT",
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-visual-studio-2026-cloud-agent-preview-and-more/",
+    "pubDate": "Wed, 03 Dec 2025 16:00:24 +0000",
+    "creator": "Simona Liao",
     "categories": [
-      "프로그래밍/자작"
+      "GitHub Copilot",
+      "Visual Studio",
+      "Visual Studio 2026"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "독일 뮌헨 공과대학교(TUM) 세계 최대 규모 오픈소스 3D 건물 지도 데이터셋 글로벌 빌딩 아틀라스 기술 개발 이야기",
+    "description": "이 글은 독일 뮌헨 공과대학교(TUM) 연구팀이 개발하여 공개한 세계 최대 규모의 3D 건물 지도 데이터셋인 글로벌 빌딩 아틀라스(Global Building Atlas) 프로젝트에 대해 설명한다. 특히, 인공지능과 위성 영상 분석 기술을 결합하여 전 세계에 존재하는 건물을 3차원 모델로 구현한 방법을 기술적 관점에서 이야기나눈다.\n\n\n\nLiterally a Map Showing All the Buildings in the World\n이 결과는 오픈소스로 공개되었으며, 기존에 가장 방대하다고 알려진 데이터셋이 포함하던 약 17억 개의 건물 수치를 대폭 상회하는 규모로 개발되었다. 그동안 디지털 지도 데이터에서 소외되었던 아프리카, 남미, 아시아의 농촌 지역 건물들까지 정밀하게 포착해냈다는 점에서 기술적 진보를 보여준다.\n개발과정\n지도의 기반이 된 데이터는 주로 2019년에 촬영된 플래닛스코프(PlanetScope) 위성 이미지를 활용하였으며, 연구팀은 이를 통해 각 건물의 2D 바닥 면적뿐만 아니라 높이 정보까지 정밀하게 추출했다. 이 지도가 제공하는 높이 데이터의 해상도는 3x3미터 수준으로, 기존의 글로벌 건물 높이 데이터셋들이 주로 90미터 해상도에 그쳤던 것과 비교하면 약 30배 이상 정밀도가 향상된 수치이다. 제공되는 데이터는 건물의 대략적인 형태와 높이를 단순화하여 표현하는 LoD1(Level of Detail 1) 수준의 3D 모델 형식을 따르고 있어, 전 지구적 규모의 방대한 데이터를 다루면서도 활용성을 확보했다.\n\n이 연구는 기존 데이터셋이 가진 커버리지의 한계와 3D 정보의 부재를 해결하기 위해 진행되었으며, 전 세계 약 27억 5천만 개의 건물을 포함하는 방대한 규모의 데이터를 구축하였다. 이는 기존의 가장 포괄적인 데이터베이스보다 10억 개 이상 많은 수치로, 그동안 데이터상에서 누락되었던 전 세계 건물의 약 40% 이상을 메우는 성과이다.\n\n\n연구팀은 이 데이터셋 구축을 위해 플래닛스코프(PlanetScope) 위성 이미지만을 사용하는 머신러닝 기반 파이프라인을 개발했다.  이 과정은 크게 건물 폴리곤 생성과 높이 추정의 두 단계로 나뉘며, 기존의 오픈소스 건물 데이터(OpenStreetMap, Google, Microsoft 등)와 자체 생성한 데이터를 '품질 기반 융합 전략'을 통해 결합하여 데이터의 완성도를 극대화했다. 이를 통해 완성된 'GBA-Height'는 3x3미터의 공간 해상도를 제공하는데, 이는 기존 글로벌 제품들이 제공하던 90미터 해상도보다 약 30배 더 정밀한 수준이며 이를 통해 지역 및 전 지구 규모에서 신뢰할 수 있는 건물 부피 분석이 가능해졌다.\n\n\n또한 연구팀은 건물 높이 정보를 포함한 'GBA-LoD1' 모델을 생성하여 약 26억 8천만 건의 건물 인스턴스를 구현했으며, 이는 전체의 97%에 달하는 높은 완성도를 보인다.  높이 추정의 정확도를 나타내는 RMSE(평균제곱근오차)는 대륙별로 1.5미터에서 8.9미터 사이로 나타났으며, 특히 오세아니아와 유럽에서 높은 정확도를 보였다. 데이터 분석 결과, 아시아가 건물 수와 총 부피 면에서 압도적인 비중을 차지하는 반면, 아프리카는 건물 수는 많으나 총 부피가 작아 소규모 또는 비공식 건물이 다수 분포함을 시사했다. \n\n\n\n\n공개된 GlobalBuildingAtlas LoD1 웹 서비스(선릉역, 뉴욕 근처 생성된 3D건물모델)\n\nAI 모델 개발 접근법\n\n인공지능 모델 개발 및 활용 관점에서 본 GlobalBuildingAtlas(GBA) 프로젝트는 3미터 해상도의 단일 시점(Monocular) 위성 영상인 PlanetScope 데이터를 입력으로 받아 전 지구적 규모의 3D 건물 모델을 생성하는 파이프라인을 구축했다는 점에서 기술적 의미가 있다. 전체 시스템은 크게 2D 건물 폴리곤 생성을 위한 의미론적 분할(Semantic Segmentation) 네트워크와 3D 높이 추정을 위한 단안 높이 추정(Monocular Height Estimation) 네트워크로 이원화되어 설계되었다.\n\n\n\n2D 건물 폴리곤 생성 모델의 경우, 연구팀은 UPerNet(Unified Perceptual Parsing Network) 아키텍처를 기반으로 하되 백본(Backbone)으로 ConvNeXt-Tiny를 사용했다.  모델의 성능을 높이기 위해 '추출(Extraction)'과 '정규화(Regularization)'라는 두 단계의 네트워크를 직렬로 구성한 점이 특징이다. 첫 번째 네트워크가 위성 영상에서 1차적인 이진 마스크를 생성하면, 동일한 아키텍처를 가진 두 번째 정규화 네트워크가 이를 입력받아 노이즈를 제거하고 건물 경계를 다듬는다. 특히 정규화 네트워크 학습 시에는 깨끗한 폴리곤 마스크에 인위적인 노이즈를 주입한 것을 입력 데이터로 사용하여, 모델이 거친 마스크를 정제된 형태로 복원하는 일종의 디노이징(Denoising) 기능을 수행하도록 훈련시켰다.\n\n\n3D 높이 추정 모델은 HTC-DC Net(Hybrid Transformer-CNN with Dynamic Classification)을 채택했다. 이는 CNN 계열인 EfficientNet-B5를 백본으로 사용하여 이미지의 특징을 추출하고, 비전 트랜스포머(ViT) 인코더를 결합하여 지역적 특징과 전역적 특징 간의 관계를 학습하는 하이브리드 구조이다. 높이 예측 방식으로는 단순한 회귀(Regression) 대신 '분류-회귀(Classification-Regression)' 패러다임을 적용했다. 이는 높이 범위를 먼저 구간별로 분류(Classification)한 뒤, 해당 구간 내에서 미세 값을 회귀로 조정하는 방식으로, 이를 통해 예측의 안정성을 높였다. 학습 데이터로는 전 세계 168개 도시의 항공 LiDAR 데이터에서 추출한 정규화된 디지털 표면 모델(nDSM)을 정답 레이블(Ground Truth)로 활용했다.\n\n\n추론(Inference) 및 배포 단계에서는 모델 예측의 불확실성(Uncertainty)을 정량화하기 위해 테스트 시간 증강(TTA, Test Time Augmentation) 기법을 도입했다. 대용량 위성 영상을 처리할 때 슬라이딩 윈도우 방식을 적용하여 겹치는 영역에 대해 픽셀당 최대 4번의 예측을 수행하고, 이 결과값들의 분산을 계산하여 데이터의 신뢰도 지표로 삼았다. 이러한 딥러닝 파이프라인은 기존 오픈소스 데이터가 커버하지 못하는 지역의 데이터를 생성하는 데 핵심적인 역할을 했으나, 아프리카 등 학습 데이터(LiDAR)가 전무한 지역에 대해서는 도메인 적응(Domain Adaptation)의 한계가 존재함을 명시하고 있다.\n\n\n기술 연구 및 개발 의미\n이 연구는 단순한 데이터 구축을 넘어 유엔의 지속가능발전목표(SDG) 11번, 특히 토지 소비율과 인구 증가율의 비율을 모니터링하는 데 있어 단순 면적보다 '건물 부피' 기반 지표가 도시의 개발 상태와 인구 밀도를 더 정확하게 반영함을 입증했다. 1인당 건축 부피와 GDP의 상관관계를 분석한 결과, 부피 기반 지표가 경제 발전 수준을 더 잘 설명하는 것으로 나타났다. \n\n\n\n상관관계 분석 결과\n\n이러한 고해상도 3D 데이터의 공개는 도시 계획, 재난 위험 관리, 기후 변화 대응 연구 분야에 즉각적인 활용이 가능하다. 구체적으로는 홍수나 지진 발생 시 피해 규모를 건물의 높이와 부피에 기반해 정확하게 시뮬레이션하거나, 도시의 건물 밀도와 부피를 분석하여 에너지 소비 효율을 계산하고 인구 과밀 지역의 주거 환경을 파악하는 기초 자료로 쓰일 수 있다. 해당 연구의 방법론과 데이터셋 구축 과정에 대한 상세한 내용은 과학 저널인 Earth System Science Data에 게재되어 학술적 검증을 마쳤으며, 연구팀은 이 데이터를 오픈 소스로 공개하여 전 세계 연구자와 정책 입안자들이 자유롭게 활용할 수 있도록 했다.\n\n\n\n마무리\n논문의 주 저자들을 보면 알겠지만, 모두 중국인이다(요즘 놀랍지도 않은...). 논문은 매우 기술적이고, AI 사용 접근 방법은 똑똑하다. 글로벌 연구 분야에서 이런 상황들이 최근 몇 년 사이 크게 많아지고 있다. 이들이 접근한 방법들을 보고 있자면 여러가지 생각이 든다. 사실, 국내 연구 학계(산학연 포함)에서 이렇게 대규모의 데이터셋 수집, 구축, 기술 개발, 성능 분석, 연구 과정의 투명한? 오픈소스 공개, 여러 저자들 간의 협력적 연구를 통한 시너지 효과를 발생하는 경우는 매우 드물다. 좋은 연구 결과를 만든 것은 연구자들의 열정과 노력도 중요하겠지만 연구 핵심기술 개발에 대한 선택과 집중이 가능한 연구 환경이 전제 되어야 한다. 이런 환경의 연구기관 인프라는 참 부럽다는 생각이다.\n\n\n레퍼런스\n\nLiterally a Map Showing All the Buildings in the World\nzhu-xlab/GlobalBuildingAtlas\nESSD - GlobalBuildingAtlas: an open global and complete dataset of building polygons, heights and LoD1 3D models",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/12/tum-3d.html",
+    "pubDate": "2025-12-06T05:17:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "[NS2] 예측불가로 찾아오는 도파민 폭발, 커비의 에어 라이더",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2395",
+    "pubDate": "Mon, 01 Dec 2025 17:26:20 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
     ]
   }
 ]
