@@ -2,41 +2,189 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "제품리뷰 - 무선 마이크 마오노 PD200W",
-    "description": "15만원\n비싼 감이 있는데 싼거사서 노이즈 때문에 차차 올리다보면 \n이가격 까지 옵니다. 한방에 지르는게 아끼는 걸 수 있습니다.\n성능에는 문제 없구요 (영상 보시면 됩니다.)\n \n \n단점으로 보이는 것\n1. 이거 툭쳐서 떨어질 수 있을꺼 같긴한데 ...\n텀블러도 쏟는 사람이 있으니 이것도 가능한 시나리오 같습니다.\n2. 강의 녹음하려면 모니터를 본채로 말을 해야하는데\n이게 눈앞에 있으면 모니터를 가릴꺼 같고\n내 옆에 있으면 녹음이 잘 안될꺼 같긴한데 ...\n강의 용이 아니고 인터뷰 용인가 싶기도\n \n \n하지만 저는 15,000원 짜리 핀마이크를 쓰고 있습니다.\n모니터 안가리는 제품있으면 정말 좋겠다.\n \n영상: https://www.youtube.com/watch?v=HlXA3x88GQE",
+    "title": "First-Class Docker Support: Building and Deploying Containers With TeamCity",
+    "description": "This article was brought to you by Kumar Harsh, draft.dev. Docker has changed the way we build and ship software. Instead of wrestling with “it works on my machine” issues, developers can now package applications and all their dependencies into a neat, portable container that runs anywhere. No wonder Docker has become the de facto […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1545",
-    "pubDate": "Mon, 15 Dec 2025 15:32:17 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/teamcity/2025/12/first-class-docker-support/",
+    "pubDate": "Fri, 19 Dec 2025 12:53:54 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "제품리뷰"
+      "best-practices",
+      "teamcity-2",
+      "testing",
+      "devopspains",
+      "docker"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Best Programming Courses in 2025: New and Favorite Picks on JetBrains Academy",
-    "description": "“It’s tiiiiiiiiiiiime!”, and not just for Mariah Carey on the playlist. Here’s our annual roundup of JetBrains Academy courses – the favorites you loved this year and the new courses launched in 2025. If you’re trying to figure out where to start, what to learn next, or how to invest in your future skills, this […]",
+    "title": "C++ code editing tools for GitHub Copilot: now in Public Preview",
+    "description": "In November, we introduced C++ code editing tools for GitHub Copilot as a Private Preview, focusing on partnering with customers to tackle one of the common, taxing challenges for C++ development: refactoring at scale. Since then, we’ve listened to feedback and refined our tooling to make wide-sweeping C++ edits easier. “With C++ code editing tools […]\nThe post C++ code editing tools for GitHub Copilot: now in Public Preview appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2025/12/18/best-programming-courses-in-2025-new-and-favorite-picks-on-jetbrains-academy/",
-    "pubDate": "Thu, 18 Dec 2025 11:54:30 +0000",
-    "creator": "Regina Muradova",
+    "link": "https://devblogs.microsoft.com/cppblog/c-code-editing-tools-for-github-copilot-now-in-public-preview/",
+    "pubDate": "Tue, 16 Dec 2025 18:25:48 +0000",
+    "creator": "Sinem Akinci",
     "categories": [
-      "jetbrains-academy",
-      "learning-courses",
-      "beginner",
-      "best-courses",
-      "jetbrainsacademy-2",
-      "learn-to-code",
-      "online-learning",
-      "python",
-      "rust"
+      "C++",
+      "Copilot",
+      "New Feature",
+      "Visual Studio"
     ]
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "[NS] 룰렛 위 우리네 인생사, 더 게임 오브 라이프 for NS",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2403",
+    "pubDate": "Thu, 18 Dec 2025 00:00:00 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "How AI fixed my procrastination",
+    "description": "I struggled to get started. For ages, I kept putting off building this website, creating a new programming language for Visual Studio, and coming up with fresh color themes. Each project looked overwhelming, and I couldn’t find the time or motivation to jump in. It all just felt like too much at once. But when […]\nThe post How AI fixed my procrastination appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/how-ai-fixed-my-procrastination/",
+    "pubDate": "Mon, 22 Dec 2025 15:00:38 +0000",
+    "creator": "Mads Kristensen",
+    "categories": [
+      "Artificial Intelligence",
+      "Copilot",
+      "Visual Studio",
+      "Agent Mode",
+      "AI Agents"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Windows 앱은 왜 점점 무거워질까? 2025년, 사라진 '네이티브 앱'의 추억과 현실",
+    "description": "과거의 윈도우 앱들은 놀랍도록 가볍고 빠르게 작동하며 사용자들에게 쾌적한 경험을 선사했습니다. 하지만 현재, 우리는 점점 무거워지고 느려지는 앱들에 익숙해지고 있죠. 개발 편의성이라는 명분 뒤에 숨겨진 사용자 경험의 희생, 그리고 '네이티브 앱'이라는 단어가 잊혀져 가는 현실 속에서 과연 어떤 변화가 있었는지 함께 자세히 살펴보겠습니다.\n\n\n✨ 과거의 영광, '네이티브 앱'은 무엇이었을까?\n윈도우에서 '네이티브 앱'이라고 하면, 그 운영체제 자체의 언어와 프레임워크를 기반으로 만들어진 애플리케이션을 의미했어요. Win32, MFC, .NET(WPF, WinForms) 같은 기술들, 그리고 좀 더 최근에는 UWP(Universal Windows Platform)나 WinUI 같은 것들이 대표적이죠. 이 앱들은 운영체제의 '모국어'를 구사하기 때문에 시스템 자원을 가장 효율적으로 사용하고, OS의 디자인 가이드라인이나 사용자 경험(UX)을 충실히 따랐습니다.\n그래서 과거의 많은 윈도우 앱들은 정말이지 상상할 수 없을 정도로 빠르고 가벼웠습니다. Notepad++, Winamp, Paint.NET, foobar2000, Everything Search 같은 이름들을 들어보시면 아마 고개를 끄덕이실 거예요. 용량도 몇 MB에 불과한데, 실행은 눈 깜짝할 사이에 되고, RAM도 거의 사용하지 않았죠. 솔직히 저도 가끔 이런 앱들을 쓰면서 '아, 옛날 앱이 짱이지!' 하고 감탄할 때가 많아요. 구형 컴퓨터에서도 전혀 버벅거림 없이 잘 돌아가는 걸 보면, 정말이지 최적화의 극치를 보여줬다고 생각합니다.\n  네이티브 앱이란? 운영체제 고유의 프레임워크를 사용하여 개발되어, OS의 기능과 자원을 가장 효율적으로 활용하는 애플리케이션을 의미합니다. 마치 그 운영체제만을 위해 태어난 것처럼, OS와 완벽하게 조화를 이루는 것이 특징이죠.\n  웹 기술 만능주의, 개발자들의 선택 'Electron'\n그런데 어느 순간부터 '네이티브 앱'이라는 단어는 점점 희미해지기 시작했습니다. 그 자리를 채운 것은 다름 아닌 웹 기술을 기반으로 한 앱들이었죠. 특히 Electron이나 PWA(Progressive Web Apps) 같은 기술들이 대세로 떠오르면서, 개발자들은 윈도우, macOS, 리눅스 등 각기 다른 운영체제별로 앱을 따로 만들 필요가 없어졌습니다.\n이게 왜 그렇게 매력적이었냐면, 한 번 HTML, CSS, JavaScript로 웹 앱을 만들면 Electron이 이 웹 앱을 마치 데스크톱 애플리케이션처럼 실행시켜 주기 때문이에요. Electron은 Chromium 브라우저 엔진과 Node.js 런타임을 통째로 앱에 포함시키는 방식인데, 덕분에 개발자들은 하나의 코드베이스만 관리하면 됩니다. 개발팀에 웹 개발자만 있어도 모든 플랫폼용 앱을 만들 수 있게 된 거죠. 반복 작업도 줄어들고, UI 변경도 훨씬 쉽습니다. 기존에 수많은 웹 라이브러리가 있다는 것도 엄청난 장점이고요.\n이런 장점들 덕분에 Slack, Discord, Figma의 데스크톱 클라이언트, Obsidian, Notion, 그리고 최근의 WhatsApp까지, 수많은 유명 앱들이 Electron이나 유사한 웹 기술을 택했습니다. 개발자 입장에서는 더할 나위 없이 편리한 선택지였던 거죠. 제 생각엔 이 흐름을 거스를 수 없었을 것 같아요. 그런데 말입니다, 개발자의 이런 편리함이 과연 사용자에게도 좋은 방향이었을까요?\n\n\n  사용자가 지불하는 '성능 세금': 앱이 무거워지는 이유\n아쉽게도, 개발자 편의성의 대가는 고스란히 사용자에게 '성능 세금'으로 부과되었습니다. Electron 앱은 기본적으로 자기만의 브라우저를 통째로 품고 있습니다. 여러 Electron 앱을 동시에 실행하면, 마치 여러 개의 크롬 브라우저를 띄워 놓은 것처럼 수많은 Chromium 인스턴스가 여러분의 PC 메모리를 점령하게 됩니다. 제가 겪어본 바로는, 한두 개만 켜도 RAM 사용량이 확 오르더라고요.\n고성능 PC를 사용한다면 체감하기 어려울 수도 있지만, 보급형 노트북이나 오래된 컴퓨터에서는 그야말로 끔찍한 성능 저하를 경험하게 됩니다. 앱 실행 속도는 현저히 느려지고, UI 요소들이 네이티브 앱처럼 부드럽게 작동하지 않거나 시스템 테마와 동떨어지는 경우도 흔합니다. 키보드 단축키도 제멋대로인 경우가 있고요. 게다가 이렇게 여러 브라우저가 메모리에 상주하고 있으면 노트북 배터리 수명에도 치명적일 수밖에 없습니다.\n물론 모든 Electron 앱이 나쁘다는 건 아닙니다. 대표적인 예시가 바로 Visual Studio Code(VS Code)죠. VS Code는 Electron 기반임에도 불구하고 뛰어난 성능과 놀라운 최적화를 보여주는, 최고의 코드 편집기 중 하나입니다. 이 사례를 보면 Electron 자체가 문제가 아니라, 개발 과정에서 최적화에 대한 '관심'과 '노력'이 줄어들기 쉬운 환경이 조성되었다는 점이 더 큰 문제라고 생각해요. 편리함 뒤에 숨겨진 책임감의 부재랄까요?\n⚠️ 주의! 저사양 PC나 오래된 노트북 사용자라면 웹 기반 앱의 성능 저하를 더욱 크게 체감할 수 있습니다. 수많은 백그라운드 프로세스가 시스템 리소스를 잠식하고, 이는 느려진 반응 속도와 급격한 배터리 소모로 이어질 수 있어요.\n  마이크로소프트도 이 변화를 부추기고 있나?\n이런 흐름에 마이크로소프트 역시 크게 제동을 걸지 않았다는 점도 주목할 만합니다. 아니, 어쩌면 마이크로소프트 자체가 이러한 변화를 은연중에 부추기고 있는지도 모릅니다. Edge 브라우저의 엔진을 앱에 내장할 수 있는 WebView2 같은 기술을 제공하고 있고, 마이크로소프트 스토어에는 이미 웹 기반 Electron 앱들이 차고 넘치죠. 심지어 마이크로소프트의 자체 제품인 Teams나 Office의 일부 요소들도 웹 기술에 크게 의존하고 있습니다.\n엎친 데 덮친 격으로, 전통적인 윈도우 UI 프레임워크들은 시간이 갈수록 파편화되고 혼란스러워지고 있습니다. Win32, WPF, UWP, WinUI 3, 그리고 MAUI까지, 끊임없이 새로운 프레임워크가 등장하고 바뀌면서 소규모 개발자들이나 인디 개발자들이 윈도우 전용 코드베이스를 유지하는 것이 거의 불가능에 가까워졌어요. '내가 이미 React를 아는데, 굳이 XAML과 씨름할 필요가 있을까?' 하고 생각하는 게 어쩌면 당연한 일입니다.\n게다가 스토어에서 Electron 앱도 잘 받아주는데, 굳이 고생해서 네이티브 도구를 만들 이유가 없어지는 거죠. 과거 네이티브 윈도우 앱들은 셸 확장, 전역 단축키, 파일 연결, 드래그 앤 드롭, 알림 시스템, 심지어 작업 표시줄 통합 같은 시스템 기능들과 정말 유기적으로 연결되어 있었습니다. 이런 섬세한 통합성은 점점 더 획일화되는 웹 UI에서는 재현하기 어렵습니다. 잘 만들어진 네이티브 앱과 웹 기반 앱을 비교해 보면, 특히 저사양 하드웨어에서는 성능 차이가 극명하게 드러나는 걸 알 수 있어요.\n\n\n  그럼에도 불구하고, '진정한' 네이티브 앱은 살아있다!\n그럼에도 불구하고, 다행히도 여전히 훌륭한 네이티브 윈도우 앱들이 꾸준히 개발되고 유지되고 있습니다. Everything Search, ShareX, AutoHotKey, EarTrumpet 같은 도구들은 현대적인 네이티브 소프트웨어도 얼마든지 빠르고, 특정 기능에 집중하며, 운영체제에 완벽하게 통합될 수 있다는 살아있는 증거죠. 저도 이런 앱들을 써볼 때마다 '아, 이게 진짜 윈도우 앱이지!' 하고 무릎을 탁 치곤 합니다.\n이런 앱들은 불필요한 기능 없이 핵심적인 역할에 충실하며, 시스템 리소스를 최소한으로 사용합니다. 덕분에 아무리 오래된 PC에서도 쾌적하게 작동하죠. 이들이 보여주는 성능과 완성도는 웹 기반 앱들이 쉽게 따라올 수 없는, 네이티브 앱만의 고유한 강점이라고 생각합니다. 여전히 이런 노력을 기울이는 개발자분들께 정말 감사드리고 싶어요.\n  핵심 요약\n1. 과거의 네이티브 앱은 OS와 긴밀히 연동되어 놀라운 성능과 효율을 자랑했습니다.\n2. Electron 등 웹 기술은 개발자에게 막대한 편의성을 주었지만, 사용자는 무거운 앱으로 인한 성능 저하를 감수하게 되었습니다.\n3. 마이크로소프트의 정책과 파편화된 프레임워크 역시 웹 기반 앱 확산에 영향을 미쳤습니다.\n4. 여전히 훌륭한 네이티브 앱들이 존재하며, 사용자 인식 변화와 개발자의 노력으로 네이티브 앱의 가치가 재조명될 수 있습니다.\n결국, 기술 발전의 편리함과 사용자 경험 사이의 균형을 찾는 것이 중요합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ: Electron 앱이 정말 그렇게 나쁜가요?\nA: Electron 자체는 개발 편의성을 제공하는 훌륭한 도구입니다. 하나의 코드베이스로 여러 플랫폼에 쉽게 배포할 수 있다는 점은 분명한 장점이죠. 하지만 개발자가 최적화에 덜 신경 쓰게 만들 수 있다는 점이 문제입니다. 잘 만들어진 Electron 앱은 훌륭한 성능을 보여주기도 합니다 (예: VS Code).\nQ: 네이티브 앱 개발은 왜 점점 줄어드나요?\nA: 주로 개발 비용과 복잡성 때문입니다. 여러 플랫폼에 맞춰 코드를 따로 작성해야 하고, 윈도우 UI 프레임워크의 파편화도 한몫합니다. 웹 기술은 한 번의 개발로 여러 플랫폼에 대응할 수 있어 경제적인 선택지로 여겨지기 때문입니다.\nQ: 일반 사용자가 네이티브 앱과 웹 기반 앱을 어떻게 구분할 수 있나요?\nA: 일반적으로 네이티브 앱은 시스템 리소스를 적게 사용하고, 빠르게 실행되며, OS 테마나 동작 방식에 더 통합된 느낌을 줍니다. 작업 관리자에서 프로세스 이름을 확인하거나(Chromium 관련 프로세스가 많다면 웹 기반일 확률이 높습니다), 앱의 '정보'에서 사용된 프레임워크를 찾아보는 방법도 있습니다.\nQ: 미래에 네이티브 앱이 다시 인기를 얻을 수 있을까요?\nA: 사용자들의 성능과 통합성에 대한 요구가 커지고, 개발자들이 최적화와 OS 통합의 중요성을 다시 인식한다면 충분히 가능성이 있습니다. 마이크로소프트의 정책 변화와 새로운 네이티브 개발 도구의 등장이 큰 영향을 미칠 것입니다. 결국 균형점이 중요하다고 생각합니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Electron 앱이 정말 그렇게 나쁜가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Electron 자체는 개발 편의성을 제공하는 훌륭한 도구입니다. 하나의 코드베이스로 여러 플랫폼에 쉽게 배포할 수 있다는 점은 분명한 장점이죠. 하지만 개발자가 최적화에 덜 신경 쓰게 만들 수 있다는 점이 문제입니다. 잘 만들어진 Electron 앱은 훌륭한 성능을 보여주기도 합니다 (예: VS Code).\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"네이티브 앱 개발은 왜 점점 줄어드나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"주로 개발 비용과 복잡성 때문입니다. 여러 플랫폼에 맞춰 코드를 따로 작성해야 하고, 윈도우 UI 프레임워크의 파편화도 한몫합니다. 웹 기술은 한 번의 개발로 여러 플랫폼에 대응할 수 있어 경제적인 선택지로 여겨지기 때문입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"일반 사용자가 네이티브 앱과 웹 기반 앱을 어떻게 구분할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"일반적으로 네이티브 앱은 시스템 리소스를 적게 사용하고, 빠르게 실행되며, OS 테마나 동작 방식에 더 통합된 느낌을 줍니다. 작업 관리자에서 프로세스 이름을 확인하거나(Chromium 관련 프로세스가 많다면 웹 기반일 확률이 높습니다), 앱의 '정보'에서 사용된 프레임워크를 찾아보는 방법도 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"미래에 네이티브 앱이 다시 인기를 얻을 수 있을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"사용자들의 성능과 통합성에 대한 요구가 커지고, 개발자들이 최적화와 OS 통합의 중요성을 다시 인식한다면 충분히 가능성이 있습니다. 마이크로소프트의 정책 변화와 새로운 네이티브 개발 도구의 등장이 큰 영향을 미칠 것입니다. 결국 균형점이 중요하다고 생각합니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483693",
+    "pubDate": "Wed, 17 Dec 2025 15:17:11 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "윈도우 사용팁/윈도우11 사용법",
+      "electron",
+      "pwa",
+      "RAM 사용량",
+      "UWP",
+      "Win32",
+      "네이티브 앱",
+      "성능 저하",
+      "앱 최적화",
+      "웹 앱",
+      "윈도우 앱"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Bring Your Own Key (BYOK) Is Now Live in JetBrains IDEs",
+    "description": "Bring Your Own Key (BYOK) is now available in the AI chat inside JetBrains IDEs as well as for AI agents, including JetBrains’ Junie and Claude Agent. Whether you’re looking to use cutting-edge frontier models, cost-efficient small models, locally hosted private models, or experimental research previews, BYOK makes it easy to bring them all directly […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2025/12/bring-your-own-key-byok-is-now-live-in-jetbrains-ides/",
+    "pubDate": "Thu, 18 Dec 2025 15:59:56 +0000",
+    "creator": "Ekaterina Zharova",
+    "categories": [
+      "news",
+      "ai-in-ides"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption",
+    "description": "The 2025 Typed Python Survey, conducted by contributors from JetBrains, Meta, and the broader Python typing community, offers a comprehensive look at the current state of Python’s type system and developer tooling. With 1,241 responses (a 15% increase from last year), the survey captures the evolving sentiment, challenges, and opportunities around Python typing in the [...]\nRead More...\nThe post Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
+    "pubDate": "Mon, 22 Dec 2025 14:00:16 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Culture",
+      "DevInfra"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "ReSharper and Rider 2025.3.1 Released: Next Edit Suggestions and Other Important Updates",
+    "description": "Since the 2025.3 release, we’ve published several rapid-response updates (2025.3.0.1–2025.3.0.4) for ReSharper and Rider to address the most urgent issues as quickly as possible. The 2025.3.1 update brings all of those fixes together and includes additional improvements that required more time to implement.  For Rider, it also delivers the data-sharing functionality we announced earlier this […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2025/12/18/resharper-and-rider-2025-3-1/",
+    "pubDate": "Thu, 18 Dec 2025 17:47:54 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "jetbrains-ai",
+      "resharper",
+      "rider",
+      "next-edit-suggestion"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "사내 AI 리터러시를 향상하기 위한 AI Campus Day를 개최했습니다",
+    "description": "LINE Plus의 오피스가 '캠퍼스'로 변신했습니다.회의실은 강의실이, LINER들은 학생이 되었습니다.위 모습은 지난 12월 2일에 열린 사내 행사 AI Campus Day의 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/ai-campus-day-for-enhancing-ai-literacy-of-employees",
+    "pubDate": "Fri, 19 Dec 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Debugging, but Without the Drama (A Visual Studio 2026 Story)",
+    "description": "It starts the way these things always start.  A red build. A failing test. And that quiet, sinking feeling of “This worked yesterday.”  Meet Sam. Sam’s not a junior, not a rockstar, just a solid developer who’s shipped enough code to know that bugs don’t care how confident you feel on Monday morning.  That test failure does not offer much help […]\nThe post Debugging, but Without the Drama (A Visual Studio 2026 Story) appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-2026-debugging-with-copilot/",
+    "pubDate": "Tue, 16 Dec 2025 15:00:12 +0000",
+    "creator": "Harshada Hole",
+    "categories": [
+      "Visual Studio",
+      "Debugging and Diagnostics",
+      "Developer Productivity",
+      "Performance",
+      "Visual Studio 2026"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "DrP: Meta’s Root Cause Analysis Platform at Scale",
+    "description": "Incident investigation can be a daunting task in today’s digital landscape, where large-scale systems comprise numerous interconnected components and dependencies DrP is a root cause analysis (RCA) platform, designed by Meta, to programmatically automate the investigation process, significantly reducing the mean time to resolve (MTTR) for incidents and alleviating on-call toil Today, DrP is used [...]\nRead More...\nThe post DrP: Meta’s Root Cause Analysis Platform at Scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
+    "pubDate": "Fri, 19 Dec 2025 17:35:13 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Data Infrastructure",
+      "ML Applications"
+    ]
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "How We Built Meta Ray-Ban Display: From Zero to Polish",
     "description": "We’re going behind the scenes of the Meta Ray-Ban Display, Meta’s most advanced AI glasses yet. In a previous episode we met the team behind the Meta Neural Band, the EMG wristband packaged with the Ray-Ban Display. Now we’re delving into the glasses themselves. Kenan and Emanuel, from Meta’s Wearables org, join Pascal Hartig on [...]\nRead More...\nThe post How We Built Meta Ray-Ban Display: From Zero to Polish appeared first on Engineering at Meta.",
@@ -52,147 +200,19 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "스타트업 IPO 완전 정리 - 공모가부터 청약, 성장까지 한 번에 이해하기",
-    "description": "최근 우리나라 스타트업 시장을 보면 IPO(기업공개)를 선택하는 기업들이 눈에 띄게 늘어나고 있습니다. 과거에는 IPO가 일부 대기업이나 중견기업의 전유물처럼 여겨졌다면, 이제는 기술력과 성장성을 갖춘 스타트업이라면 충분히 도전할 수 있는 선택지가 되었습니다. 실제로 IT, 플랫폼, 바이오, 콘텐츠 기업을 중심으로 코스탁 성장이 꾸준히 증가하고 있습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/319",
-    "pubDate": "Fri, 19 Dec 2025 03:35:58 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Query Consoles Are Coming Back ",
-    "description": "Hi DataGrip and Database Tools community, Shortly after the 2025.3 release, your feedback made it clear that the redesigned workflow for query files and query consoles introduced issues in several important scenarios, especially when working with global data sources. After reviewing the impact, we’ve decided that the best course of action is to revert this […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/datagrip/2025/12/18/query-consoles-are-coming-back/",
-    "pubDate": "Thu, 18 Dec 2025 15:35:20 +0000",
-    "creator": "Dmitry Romanov",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "DrP: Meta’s Root Cause Analysis Platform at Scale",
-    "description": "Incident investigation can be a daunting task in today’s digital landscape, where large-scale systems comprise numerous interconnected components and dependencies DrP is a root cause analysis (RCA) platform, designed by Meta, to programmatically automate the investigation process, significantly reducing the mean time to resolve (MTTR) for incidents and alleviating on-call toil Today, DrP is used [...]\nRead More...\nThe post DrP: Meta’s Root Cause Analysis Platform at Scale appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
-    "pubDate": "Fri, 19 Dec 2025 17:35:13 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Data Infrastructure",
-      "ML Applications"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Next Edit Suggestions: Now Generally Available",
-    "description": "The next edit suggestions feature is now enabled in all JetBrains IDEs for JetBrains AI Pro, AI Ultimate, and AI Enterprise subscribers. Yes, you read that right! JetBrains-native diff suggestions are available right in your editor. Global support for optimized latency. Out-of-the-box IDE actions for reliability. And the best part? It doesn’t consume your AI […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/12/next-edit-suggestions-now-generally-available/",
-    "pubDate": "Thu, 18 Dec 2025 16:10:39 +0000",
-    "creator": "Anton Semenkin",
-    "categories": [
-      "news",
-      "ai-assistant",
-      "ai-in-ides"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Netflix Live Origin",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/netflix-live-origin-41f1b0ad5371?source=rss----2615bd06b42e---4",
-    "pubDate": "Mon, 15 Dec 2025 17:38:16 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "live-origin",
-      "live-streaming",
-      "content-delivery-network",
-      "cloud-storage"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "내가 팔면 오르는 코인시장 / 누눙지",
-    "description": "영상: https://www.youtube.com/watch?v=w15xkTXOhuI\n\n\n\n \n간발의 차이 ㄷㄷㄷ\n그저 아깝다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1543",
-    "pubDate": "Mon, 15 Dec 2025 12:22:51 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "유튜브"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "요즘 사람들의 경제 매거진 〈더 머니이슈〉, 지금 읽어야 하는 이유",
-    "description": "담당 에디터, 마케터, 디자이너의 원픽 아티클을 소개해요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/the-money-issue-pick",
-    "pubDate": "Fri, 19 Dec 2025 01:24:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "MPS 2025.3 Has Been Released!",
-    "description": "MPS 2025.3 introduces a major overhaul of the JavaDoc language, significant changes to generator plans, and a major update to the reflective editor. It also enables keyboard actions in the Logical view and allows TextIcon to offer visually distinct variants for light and dark themes. DOWNLOAD MPS 2025.3 What’s new Check out all the available […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/mps/2025/12/mps-2025-3-is-out/",
-    "pubDate": "Wed, 17 Dec 2025 11:47:53 +0000",
-    "creator": "Vaclav Pech",
-    "categories": [
-      "releases",
-      "release"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Top 3 Qodana 2025.3 Release Highlights ",
-    "description": "Qodana 2025.3 delivers important new capabilities that help teams standardize their development practices, improve compliance, make audits easier, and simplify large-scale code analysis.  From introducing Global Project Configuration, a major step toward scalable, centralized policy management, to expanding license auditing for .NET and enhancing monorepository support for Java and Kotlin, Qodana 2025.3 makes it easier […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2025/12/top-3-qodana-2025-3-release-highlights/",
-    "pubDate": "Fri, 19 Dec 2025 14:34:25 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "releases",
-      "code-quality",
-      "maven",
-      "qodana"
-    ]
-  },
-  {
     "id": 13,
     "imageUrl": "",
-    "title": "The Ultimate Guide to Successfully Adopting Kotlin in a Java-Dominated Environment",
-    "description": "Adopting Kotlin in a Java-centric company  is not about flipping a switch or rewriting everything “the right way”. It’s about people, timing, risk, and trust. Over the last four weeks, we’ve published a series of blog posts by Urs Peter, covering all of these aspects of migrating to Kotlin. In this post, we’ll tie the […]",
+    "title": "유니티로 바이브 코딩 세팅 - 자동 리프레시 끄기는 사람에게는 안좋습니다.",
+    "description": "영상: https://www.youtube.com/watch?v=fxbJpKBYUE8\n\n\n\n \n \n유영한 정보\n\n\n \n이 영상에서는 바이브 코딩 때문에 자동 갱신을 끄고 있습니다.\n여기서 끄게 되면 다른 프로젝트도 동일한 셋팅으로 사용하게 됩니다.\nAI 야 매번 필요할때 수동으로 갱신 하겠지만\n사람은 까먹을 수 있습니다.\n \n저도 이상태로 두고 다른 작업하다 잊어 먹었는데\n그후에 동작이 매우 이상해서 한참 보도 눈치 챘습니다.\n엄청난 시간낭비를 하고나니 알았습니다.\n \n사람이 개발할꺼면 자동갱신 켜는게 맞겠구나\nAI 와 사람은 공존할 수 없나봅니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2025/12/the-ultimate-guide-to-successfully-adopting-kotlin-in-a-java-dominated-environment/",
-    "pubDate": "Thu, 18 Dec 2025 15:04:44 +0000",
-    "creator": "Alyona Chernyaeva",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1550",
+    "pubDate": "Thu, 18 Dec 2025 16:58:29 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "유니티"
+    ]
   },
   {
     "id": 14,
@@ -209,13 +229,18 @@
   {
     "id": 15,
     "imageUrl": "",
-    "title": "사내 AI 리터러시를 향상하기 위한 AI Campus Day를 개최했습니다",
-    "description": "LINE Plus의 오피스가 '캠퍼스'로 변신했습니다.회의실은 강의실이, LINER들은 학생이 되었습니다.위 모습은 지난 12월 2일에 열린 사내 행사 AI Campus Day의 ...",
+    "title": "When AI Amplifies Your Bad (and Good) Habits",
+    "description": "AI is more like a megaphone than a magic wand. It amplifies what is already there. Whatever habits you bring to your workflow, good or bad, AI will turn up the volume.  Every untested component, undocumented design, and ill-specified feature, to name a few, becomes louder when AI enters the mix. Teams with a clear […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/ai-campus-day-for-enhancing-ai-literacy-of-employees",
-    "pubDate": "Fri, 19 Dec 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/ai/2025/12/when-ai-amplifies-your-bad-and-good-habits/",
+    "pubDate": "Wed, 17 Dec 2025 14:36:12 +0000",
+    "creator": "Kris Kang",
+    "categories": [
+      "ai",
+      "best-practices",
+      "collaboration",
+      "industry-trends"
+    ]
   }
 ]
