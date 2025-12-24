@@ -2,72 +2,23 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "First-Class Docker Support: Building and Deploying Containers With TeamCity",
-    "description": "This article was brought to you by Kumar Harsh, draft.dev. Docker has changed the way we build and ship software. Instead of wrestling with “it works on my machine” issues, developers can now package applications and all their dependencies into a neat, portable container that runs anywhere. No wonder Docker has become the de facto […]",
+    "title": "Thread Dumps and Project Loom (Virtual Threads)",
+    "description": "If you’ve been keeping up with Java virtual threads, you already know that this hot new feature significantly improves hardware utilization for parallel I/O-bound operations. Virtual threads map multiple concurrent I/O operations to a single OS thread without blocking. The novel aspect of this approach is that it requires minimal changes to the codebase, as […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/12/first-class-docker-support/",
-    "pubDate": "Fri, 19 Dec 2025 12:53:54 +0000",
-    "creator": "Dmitrii Korovin",
+    "link": "https://blog.jetbrains.com/idea/2025/12/thread-dumps-and-project-loom-virtual-threads/",
+    "pubDate": "Tue, 23 Dec 2025 14:14:55 +0000",
+    "creator": "Igor Kulakov",
     "categories": [
-      "best-practices",
-      "teamcity-2",
-      "testing",
-      "devopspains",
-      "docker"
+      "features",
+      "idea",
+      "debug",
+      "thread-dumps",
+      "virtual-threads"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "C++ code editing tools for GitHub Copilot: now in Public Preview",
-    "description": "In November, we introduced C++ code editing tools for GitHub Copilot as a Private Preview, focusing on partnering with customers to tackle one of the common, taxing challenges for C++ development: refactoring at scale. Since then, we’ve listened to feedback and refined our tooling to make wide-sweeping C++ edits easier. “With C++ code editing tools […]\nThe post C++ code editing tools for GitHub Copilot: now in Public Preview appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/c-code-editing-tools-for-github-copilot-now-in-public-preview/",
-    "pubDate": "Tue, 16 Dec 2025 18:25:48 +0000",
-    "creator": "Sinem Akinci",
-    "categories": [
-      "C++",
-      "Copilot",
-      "New Feature",
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "[NS] 룰렛 위 우리네 인생사, 더 게임 오브 라이프 for NS",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2403",
-    "pubDate": "Thu, 18 Dec 2025 00:00:00 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "How AI fixed my procrastination",
-    "description": "I struggled to get started. For ages, I kept putting off building this website, creating a new programming language for Visual Studio, and coming up with fresh color themes. Each project looked overwhelming, and I couldn’t find the time or motivation to jump in. It all just felt like too much at once. But when […]\nThe post How AI fixed my procrastination appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/how-ai-fixed-my-procrastination/",
-    "pubDate": "Mon, 22 Dec 2025 15:00:38 +0000",
-    "creator": "Mads Kristensen",
-    "categories": [
-      "Artificial Intelligence",
-      "Copilot",
-      "Visual Studio",
-      "Agent Mode",
-      "AI Agents"
-    ]
-  },
-  {
-    "id": 5,
     "imageUrl": "",
     "title": "Windows 앱은 왜 점점 무거워질까? 2025년, 사라진 '네이티브 앱'의 추억과 현실",
     "description": "과거의 윈도우 앱들은 놀랍도록 가볍고 빠르게 작동하며 사용자들에게 쾌적한 경험을 선사했습니다. 하지만 현재, 우리는 점점 무거워지고 느려지는 앱들에 익숙해지고 있죠. 개발 편의성이라는 명분 뒤에 숨겨진 사용자 경험의 희생, 그리고 '네이티브 앱'이라는 단어가 잊혀져 가는 현실 속에서 과연 어떤 변화가 있었는지 함께 자세히 살펴보겠습니다.\n\n\n✨ 과거의 영광, '네이티브 앱'은 무엇이었을까?\n윈도우에서 '네이티브 앱'이라고 하면, 그 운영체제 자체의 언어와 프레임워크를 기반으로 만들어진 애플리케이션을 의미했어요. Win32, MFC, .NET(WPF, WinForms) 같은 기술들, 그리고 좀 더 최근에는 UWP(Universal Windows Platform)나 WinUI 같은 것들이 대표적이죠. 이 앱들은 운영체제의 '모국어'를 구사하기 때문에 시스템 자원을 가장 효율적으로 사용하고, OS의 디자인 가이드라인이나 사용자 경험(UX)을 충실히 따랐습니다.\n그래서 과거의 많은 윈도우 앱들은 정말이지 상상할 수 없을 정도로 빠르고 가벼웠습니다. Notepad++, Winamp, Paint.NET, foobar2000, Everything Search 같은 이름들을 들어보시면 아마 고개를 끄덕이실 거예요. 용량도 몇 MB에 불과한데, 실행은 눈 깜짝할 사이에 되고, RAM도 거의 사용하지 않았죠. 솔직히 저도 가끔 이런 앱들을 쓰면서 '아, 옛날 앱이 짱이지!' 하고 감탄할 때가 많아요. 구형 컴퓨터에서도 전혀 버벅거림 없이 잘 돌아가는 걸 보면, 정말이지 최적화의 극치를 보여줬다고 생각합니다.\n  네이티브 앱이란? 운영체제 고유의 프레임워크를 사용하여 개발되어, OS의 기능과 자원을 가장 효율적으로 활용하는 애플리케이션을 의미합니다. 마치 그 운영체제만을 위해 태어난 것처럼, OS와 완벽하게 조화를 이루는 것이 특징이죠.\n  웹 기술 만능주의, 개발자들의 선택 'Electron'\n그런데 어느 순간부터 '네이티브 앱'이라는 단어는 점점 희미해지기 시작했습니다. 그 자리를 채운 것은 다름 아닌 웹 기술을 기반으로 한 앱들이었죠. 특히 Electron이나 PWA(Progressive Web Apps) 같은 기술들이 대세로 떠오르면서, 개발자들은 윈도우, macOS, 리눅스 등 각기 다른 운영체제별로 앱을 따로 만들 필요가 없어졌습니다.\n이게 왜 그렇게 매력적이었냐면, 한 번 HTML, CSS, JavaScript로 웹 앱을 만들면 Electron이 이 웹 앱을 마치 데스크톱 애플리케이션처럼 실행시켜 주기 때문이에요. Electron은 Chromium 브라우저 엔진과 Node.js 런타임을 통째로 앱에 포함시키는 방식인데, 덕분에 개발자들은 하나의 코드베이스만 관리하면 됩니다. 개발팀에 웹 개발자만 있어도 모든 플랫폼용 앱을 만들 수 있게 된 거죠. 반복 작업도 줄어들고, UI 변경도 훨씬 쉽습니다. 기존에 수많은 웹 라이브러리가 있다는 것도 엄청난 장점이고요.\n이런 장점들 덕분에 Slack, Discord, Figma의 데스크톱 클라이언트, Obsidian, Notion, 그리고 최근의 WhatsApp까지, 수많은 유명 앱들이 Electron이나 유사한 웹 기술을 택했습니다. 개발자 입장에서는 더할 나위 없이 편리한 선택지였던 거죠. 제 생각엔 이 흐름을 거스를 수 없었을 것 같아요. 그런데 말입니다, 개발자의 이런 편리함이 과연 사용자에게도 좋은 방향이었을까요?\n\n\n  사용자가 지불하는 '성능 세금': 앱이 무거워지는 이유\n아쉽게도, 개발자 편의성의 대가는 고스란히 사용자에게 '성능 세금'으로 부과되었습니다. Electron 앱은 기본적으로 자기만의 브라우저를 통째로 품고 있습니다. 여러 Electron 앱을 동시에 실행하면, 마치 여러 개의 크롬 브라우저를 띄워 놓은 것처럼 수많은 Chromium 인스턴스가 여러분의 PC 메모리를 점령하게 됩니다. 제가 겪어본 바로는, 한두 개만 켜도 RAM 사용량이 확 오르더라고요.\n고성능 PC를 사용한다면 체감하기 어려울 수도 있지만, 보급형 노트북이나 오래된 컴퓨터에서는 그야말로 끔찍한 성능 저하를 경험하게 됩니다. 앱 실행 속도는 현저히 느려지고, UI 요소들이 네이티브 앱처럼 부드럽게 작동하지 않거나 시스템 테마와 동떨어지는 경우도 흔합니다. 키보드 단축키도 제멋대로인 경우가 있고요. 게다가 이렇게 여러 브라우저가 메모리에 상주하고 있으면 노트북 배터리 수명에도 치명적일 수밖에 없습니다.\n물론 모든 Electron 앱이 나쁘다는 건 아닙니다. 대표적인 예시가 바로 Visual Studio Code(VS Code)죠. VS Code는 Electron 기반임에도 불구하고 뛰어난 성능과 놀라운 최적화를 보여주는, 최고의 코드 편집기 중 하나입니다. 이 사례를 보면 Electron 자체가 문제가 아니라, 개발 과정에서 최적화에 대한 '관심'과 '노력'이 줄어들기 쉬운 환경이 조성되었다는 점이 더 큰 문제라고 생각해요. 편리함 뒤에 숨겨진 책임감의 부재랄까요?\n⚠️ 주의! 저사양 PC나 오래된 노트북 사용자라면 웹 기반 앱의 성능 저하를 더욱 크게 체감할 수 있습니다. 수많은 백그라운드 프로세스가 시스템 리소스를 잠식하고, 이는 느려진 반응 속도와 급격한 배터리 소모로 이어질 수 있어요.\n  마이크로소프트도 이 변화를 부추기고 있나?\n이런 흐름에 마이크로소프트 역시 크게 제동을 걸지 않았다는 점도 주목할 만합니다. 아니, 어쩌면 마이크로소프트 자체가 이러한 변화를 은연중에 부추기고 있는지도 모릅니다. Edge 브라우저의 엔진을 앱에 내장할 수 있는 WebView2 같은 기술을 제공하고 있고, 마이크로소프트 스토어에는 이미 웹 기반 Electron 앱들이 차고 넘치죠. 심지어 마이크로소프트의 자체 제품인 Teams나 Office의 일부 요소들도 웹 기술에 크게 의존하고 있습니다.\n엎친 데 덮친 격으로, 전통적인 윈도우 UI 프레임워크들은 시간이 갈수록 파편화되고 혼란스러워지고 있습니다. Win32, WPF, UWP, WinUI 3, 그리고 MAUI까지, 끊임없이 새로운 프레임워크가 등장하고 바뀌면서 소규모 개발자들이나 인디 개발자들이 윈도우 전용 코드베이스를 유지하는 것이 거의 불가능에 가까워졌어요. '내가 이미 React를 아는데, 굳이 XAML과 씨름할 필요가 있을까?' 하고 생각하는 게 어쩌면 당연한 일입니다.\n게다가 스토어에서 Electron 앱도 잘 받아주는데, 굳이 고생해서 네이티브 도구를 만들 이유가 없어지는 거죠. 과거 네이티브 윈도우 앱들은 셸 확장, 전역 단축키, 파일 연결, 드래그 앤 드롭, 알림 시스템, 심지어 작업 표시줄 통합 같은 시스템 기능들과 정말 유기적으로 연결되어 있었습니다. 이런 섬세한 통합성은 점점 더 획일화되는 웹 UI에서는 재현하기 어렵습니다. 잘 만들어진 네이티브 앱과 웹 기반 앱을 비교해 보면, 특히 저사양 하드웨어에서는 성능 차이가 극명하게 드러나는 걸 알 수 있어요.\n\n\n  그럼에도 불구하고, '진정한' 네이티브 앱은 살아있다!\n그럼에도 불구하고, 다행히도 여전히 훌륭한 네이티브 윈도우 앱들이 꾸준히 개발되고 유지되고 있습니다. Everything Search, ShareX, AutoHotKey, EarTrumpet 같은 도구들은 현대적인 네이티브 소프트웨어도 얼마든지 빠르고, 특정 기능에 집중하며, 운영체제에 완벽하게 통합될 수 있다는 살아있는 증거죠. 저도 이런 앱들을 써볼 때마다 '아, 이게 진짜 윈도우 앱이지!' 하고 무릎을 탁 치곤 합니다.\n이런 앱들은 불필요한 기능 없이 핵심적인 역할에 충실하며, 시스템 리소스를 최소한으로 사용합니다. 덕분에 아무리 오래된 PC에서도 쾌적하게 작동하죠. 이들이 보여주는 성능과 완성도는 웹 기반 앱들이 쉽게 따라올 수 없는, 네이티브 앱만의 고유한 강점이라고 생각합니다. 여전히 이런 노력을 기울이는 개발자분들께 정말 감사드리고 싶어요.\n  핵심 요약\n1. 과거의 네이티브 앱은 OS와 긴밀히 연동되어 놀라운 성능과 효율을 자랑했습니다.\n2. Electron 등 웹 기술은 개발자에게 막대한 편의성을 주었지만, 사용자는 무거운 앱으로 인한 성능 저하를 감수하게 되었습니다.\n3. 마이크로소프트의 정책과 파편화된 프레임워크 역시 웹 기반 앱 확산에 영향을 미쳤습니다.\n4. 여전히 훌륭한 네이티브 앱들이 존재하며, 사용자 인식 변화와 개발자의 노력으로 네이티브 앱의 가치가 재조명될 수 있습니다.\n결국, 기술 발전의 편리함과 사용자 경험 사이의 균형을 찾는 것이 중요합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ: Electron 앱이 정말 그렇게 나쁜가요?\nA: Electron 자체는 개발 편의성을 제공하는 훌륭한 도구입니다. 하나의 코드베이스로 여러 플랫폼에 쉽게 배포할 수 있다는 점은 분명한 장점이죠. 하지만 개발자가 최적화에 덜 신경 쓰게 만들 수 있다는 점이 문제입니다. 잘 만들어진 Electron 앱은 훌륭한 성능을 보여주기도 합니다 (예: VS Code).\nQ: 네이티브 앱 개발은 왜 점점 줄어드나요?\nA: 주로 개발 비용과 복잡성 때문입니다. 여러 플랫폼에 맞춰 코드를 따로 작성해야 하고, 윈도우 UI 프레임워크의 파편화도 한몫합니다. 웹 기술은 한 번의 개발로 여러 플랫폼에 대응할 수 있어 경제적인 선택지로 여겨지기 때문입니다.\nQ: 일반 사용자가 네이티브 앱과 웹 기반 앱을 어떻게 구분할 수 있나요?\nA: 일반적으로 네이티브 앱은 시스템 리소스를 적게 사용하고, 빠르게 실행되며, OS 테마나 동작 방식에 더 통합된 느낌을 줍니다. 작업 관리자에서 프로세스 이름을 확인하거나(Chromium 관련 프로세스가 많다면 웹 기반일 확률이 높습니다), 앱의 '정보'에서 사용된 프레임워크를 찾아보는 방법도 있습니다.\nQ: 미래에 네이티브 앱이 다시 인기를 얻을 수 있을까요?\nA: 사용자들의 성능과 통합성에 대한 요구가 커지고, 개발자들이 최적화와 OS 통합의 중요성을 다시 인식한다면 충분히 가능성이 있습니다. 마이크로소프트의 정책 변화와 새로운 네이티브 개발 도구의 등장이 큰 영향을 미칠 것입니다. 결국 균형점이 중요하다고 생각합니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Electron 앱이 정말 그렇게 나쁜가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Electron 자체는 개발 편의성을 제공하는 훌륭한 도구입니다. 하나의 코드베이스로 여러 플랫폼에 쉽게 배포할 수 있다는 점은 분명한 장점이죠. 하지만 개발자가 최적화에 덜 신경 쓰게 만들 수 있다는 점이 문제입니다. 잘 만들어진 Electron 앱은 훌륭한 성능을 보여주기도 합니다 (예: VS Code).\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"네이티브 앱 개발은 왜 점점 줄어드나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"주로 개발 비용과 복잡성 때문입니다. 여러 플랫폼에 맞춰 코드를 따로 작성해야 하고, 윈도우 UI 프레임워크의 파편화도 한몫합니다. 웹 기술은 한 번의 개발로 여러 플랫폼에 대응할 수 있어 경제적인 선택지로 여겨지기 때문입니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"일반 사용자가 네이티브 앱과 웹 기반 앱을 어떻게 구분할 수 있나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"일반적으로 네이티브 앱은 시스템 리소스를 적게 사용하고, 빠르게 실행되며, OS 테마나 동작 방식에 더 통합된 느낌을 줍니다. 작업 관리자에서 프로세스 이름을 확인하거나(Chromium 관련 프로세스가 많다면 웹 기반일 확률이 높습니다), 앱의 '정보'에서 사용된 프레임워크를 찾아보는 방법도 있습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"미래에 네이티브 앱이 다시 인기를 얻을 수 있을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"사용자들의 성능과 통합성에 대한 요구가 커지고, 개발자들이 최적화와 OS 통합의 중요성을 다시 인식한다면 충분히 가능성이 있습니다. 마이크로소프트의 정책 변화와 새로운 네이티브 개발 도구의 등장이 큰 영향을 미칠 것입니다. 결국 균형점이 중요하다고 생각합니다.\"\n      }\n    }\n  ]\n}",
@@ -91,82 +42,118 @@
     ]
   },
   {
-    "id": 6,
+    "id": 3,
     "imageUrl": "",
-    "title": "Bring Your Own Key (BYOK) Is Now Live in JetBrains IDEs",
-    "description": "Bring Your Own Key (BYOK) is now available in the AI chat inside JetBrains IDEs as well as for AI agents, including JetBrains’ Junie and Claude Agent. Whether you’re looking to use cutting-edge frontier models, cost-efficient small models, locally hosted private models, or experimental research previews, BYOK makes it easy to bring them all directly […]",
+    "title": "Top 3 Qodana 2025.3 Release Highlights ",
+    "description": "Qodana 2025.3 delivers important new capabilities that help teams standardize their development practices, improve compliance, make audits easier, and simplify large-scale code analysis.  From introducing Global Project Configuration, a major step toward scalable, centralized policy management, to expanding license auditing for .NET and enhancing monorepository support for Java and Kotlin, Qodana 2025.3 makes it easier […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/12/bring-your-own-key-byok-is-now-live-in-jetbrains-ides/",
-    "pubDate": "Thu, 18 Dec 2025 15:59:56 +0000",
-    "creator": "Ekaterina Zharova",
+    "link": "https://blog.jetbrains.com/qodana/2025/12/top-3-qodana-2025-3-release-highlights/",
+    "pubDate": "Fri, 19 Dec 2025 14:34:25 +0000",
+    "creator": "Kerry Beetge",
     "categories": [
-      "news",
-      "ai-in-ides"
+      "releases",
+      "code-quality",
+      "maven",
+      "qodana"
     ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "관중 1200만 시대, 한국 프로야구 인기의 비결",
+    "description": "지역, 세대, 미디어가 만든 K-스포츠 팬덤의 탄생",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/moneyball-8",
+    "pubDate": "Fri, 19 Dec 2025 08:58:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "[NS] 룰렛 위 우리네 인생사, 더 게임 오브 라이프 for NS",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2403",
+    "pubDate": "Thu, 18 Dec 2025 00:00:00 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "코드 품질 개선 기법 27편: 티끌이 모여 태산이 되듯 의존성도 쌓이면",
+    "description": "이 글은 2024년 5월 30일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-27",
+    "pubDate": "Tue, 23 Dec 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption",
-    "description": "The 2025 Typed Python Survey, conducted by contributors from JetBrains, Meta, and the broader Python typing community, offers a comprehensive look at the current state of Python’s type system and developer tooling. With 1,241 responses (a 15% increase from last year), the survey captures the evolving sentiment, challenges, and opportunities around Python typing in the [...]\nRead More...\nThe post Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption appeared first on Engineering at Meta.",
+    "title": "First-Class Docker Support: Building and Deploying Containers With TeamCity",
+    "description": "This article was brought to you by Kumar Harsh, draft.dev. Docker has changed the way we build and ship software. Instead of wrestling with “it works on my machine” issues, developers can now package applications and all their dependencies into a neat, portable container that runs anywhere. No wonder Docker has become the de facto […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
-    "pubDate": "Mon, 22 Dec 2025 14:00:16 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/teamcity/2025/12/first-class-docker-support/",
+    "pubDate": "Fri, 19 Dec 2025 12:53:54 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "Culture",
-      "DevInfra"
+      "best-practices",
+      "teamcity-2",
+      "testing",
+      "devopspains",
+      "docker"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "ReSharper and Rider 2025.3.1 Released: Next Edit Suggestions and Other Important Updates",
-    "description": "Since the 2025.3 release, we’ve published several rapid-response updates (2025.3.0.1–2025.3.0.4) for ReSharper and Rider to address the most urgent issues as quickly as possible. The 2025.3.1 update brings all of those fixes together and includes additional improvements that required more time to implement.  For Rider, it also delivers the data-sharing functionality we announced earlier this […]",
+    "title": "Gemini CLI 사용법 - QnA 게시판 만들기(feat. SpecKit)",
+    "description": "안녕하세요. 이번 글은 Gemini CLI, SpecKit, Supabase, Vercel을 활용해 QnA 시스템을 구현하는 내용에 대해 작성한 글입니다.\nGemini CLI 설정부터 SpecKit을 사용하는 흐름, Supabase 설정 및 UI 개선하는 과정을 담았습니다.\n키워드 : Gemini CLI 사용법, Gemini CLI with SpecKit, Supabase, Vercel, Gemini Code Assist\n\n\nGemini CLI\n소개\nGemini CLI는 Google의 AI 모델(Gemini)을 CLI 환경에서 사용할 수 있게 해주는 개발자 도구\n최근 터미널 기반의 제품이 많이 나오는데, 직접 사용해보면 생산성이 많이 좋아지는 것을 느낄 수 있음\nGemini 모델의 장점 때문에 Gemini CLI를 쓰게 됨\n    \n(1) 긴 컨텍스트 : 컨텍스트를 많이 넣을 수 있기 때문에 복잡한 작업, 많은 컨텍스트가 필요할 때 유리\n(2) 가격 : Gemini 모델의 가격은 다른 모델의 가격 대비 엄청 저렴함(특히 Gemini Flash Lite가 저렴해서 자주 사용함)\n공식 문서, Docs\nGemini CLI 설치\nGemini CLI는 Node.js 환경에서 동작하므로, 사전에 Node.js가 설치되어 있어야 함\n    \n만약 Node가 설치되어 있지 않다면 Node.js 페이지를 확인해서 Node 설치\nnpm으로 글로벌하게 설치\n\n  npm install -g @google/gemini-cli\n\n    \nGemini CLI 실행\n터미널에서 gemini 입력 후 엔터\n    \n만약 첫 실행이면 인증 방식을 선택하게 됨\n구글 계정 로그인, API Key 방식, 구글 클라우드의 Vertex AI를 통해 인증할 수 있음\n저는 Gemini를 구독하고 있어서 구글 로그인으로 선택함\n\n/model을 입력하면 모델을 선택할 수 있음\n    \nPro (gemini-3-pro-preview, gemini-2.5-pro)로 설정\n\nGemini CLI 주요 명령어\n명령어\n      설명\n    \n/help\n      사용 가능한 명령어 목록 확인\n    \n/model\n      모델 선택 (gemini-3-pro 등)\n    \n/memory show\n      현재 로드된 GEMINI.md 내용 확인\n    \n/memory refresh\n      GEMINI.md 파일 다시 로드\n    \n/memory add <text>\n      메모리에 텍스트 추가\n    \n/chat\n      대화 저장/불러오기/공유\n    \n/chat save <tag>\n      현재 대화를 태그로 저장\n    \n/chat resume <tag>\n      저장된 대화 이어서 진행\n    \n/mcp\n      MCP 서버 목록 및 상태 확인\n    \n/tools\n      사용 가능한 도구 목록\n    \n/stats\n      토큰 사용량, 세션 시간 등 통계\n    \n/restore\n      체크포인트로 롤백 (파일 변경 전 상태)\n    \n/clear\n      터미널 화면 초기화 (Ctrl+L)\n    \n/compress\n      대화 컨텍스트를 요약해서 토큰 절약\n    \n/copy\n      마지막 응답을 클립보드에 복사\n    \n/settings\n      설정 편집기 열기\n    \nstats 입력시 아래와 같이 Session의 통계 정보를 제공함\n\nExtensions\n    \n다양한 Extensions이 존재하며, 설치하고 싶으면 아래와 같이 실행(나노바나나 Extension)\n\n  gemini extensions install https://github.com/gemini-cli-extensions/nanobanana\n\n    \nGEMINI.md 설정\nGEMINI.md는 Gemini CLI에게 프로젝트 Context와 작업 규칙(Rules)을 알려주는 설정 파일\n    \n이 파일에 작성한 내용은 모든 대화에서 시스템 프롬프트처럼 적용됨\nGemini CLI는 여러 위치의 GEMINI.md를 자동으로 찾아서 합쳐줌\n    \n아래 순서대로 로드되며, 모든 파일의 내용이 합쳐짐. 같은 항목에 대해 충돌이 있으면 하위 파일이 우선 적용됨(프로젝트가 글로벌보다 더 우선 적용)\n\n  # 1) 글로벌(모든 프로젝트 공통) : 공통 규칙, 한국어 사용 등\n  ~/.gemini/GEMINI.md      \n\t\n  # 2) 프로젝트 루트 : 기술 스택, 구조 위주\n  /project-root/GEMINI.md \n\t\n  # 3) 하위 디렉토리(해당 폴더에서 작업할 경우)\n  /project-root/src/GEMINI.md\n\n    \n현재 로드된 컨텍스트는 /memory show 명령어로 확인할 수 있으며, CLI 하단에 로드된 파일 개수가 표시됨\nGEMINI.md에 자주 들어가는 내용\n    \n기술 스택 : Python 3.13\n코딩 컨벤션 : 네이밍 컨벤션\n프로젝트 구조 : 폴더 설명\n에러 처리 방식, API 호출 패턴\n금지 사항 : 특정 라이브러리 사용 금지\n참고 문서 : @로 외부 파일 import 가능\n다른 파일을 Import해서 불러오고 싶을 때는 @을 사용함. 프로젝트 문서나 스타일 가이드를 분리해서 관리할 때 유용함\n\n  # GEMINI.md \n\t\n  ## Project Context \n  @docs/architecture.md \n  @docs/api-spec.md \n\n    \nGEMINI.md를 수정했으면 /memory refresh로 반영해야 함\n컨텍스트가 길다고 좋은 것은 아니므로 이 파일도 계속 관리해야 함\n\n\nSpecKit을 활용한 SDD 개발\n소개\nSpecKit은 GitHub에서 만든 오픈소스로 SDD(Spec Driven Development) 도구\n    \nAI 코딩 에이전트(Gemini CLI, Claude Code 등)와 함께 사용하도록 설계됨\n만들어진 계기\n    \nAI에게 그냥 A 만들어줘라고 하면 의도와 다르게 나오거나 아키텍처가 엉망인 경우가 많음. 이 문제를 해결하기 위해 SpecKit은 코드 작성 전에 Spec을 정의하고 이를 기반으로 AI가 구현하도록 유도함\n이 Spec을 사람이 리뷰하면 되고, 리뷰하는 과정도 이 도구 사용법 안에 자연스레 존재함\n    \n코드보다 이 Spec을 더 잘 관리하고, 잘 작성하는 것이 중요하다는 의견이 있는데, 저도 동의함. 기본적인 문서 작성이 더 중요해지는 시기\nWorkflow 흐름\n    \n크게 6단계로 설명할 수 있음\n(1) Specify : 기능 요구사항 정의(기술 스택이 아닌 무엇을 만들지)\n(2) Clarify : 애매한 부분, 의사결정이 필요한 부분을 질문하며 구체화\n(3) Plan : 기술 스택, 아키텍처 등 계획을 세움\n(4) Tasks : Plan을 기반으로 구현할 Task 생성\n(5) Analyze : Spec과 Task의 일관성 검증\n(6) Implement : Task 기반으로 코드 구현\nSpecKit 설치하기\nPython의 uv 설치\n\n  curl -LsSf https://astral.sh/uv/install.sh | sh\n\n    \nSpecKit 글로벌 설치\n\n  uv tool install specify-cli --from git+https://github.com/github/spec-kit.git\n\n    \nSpecKit 프로젝트 설정\nSpecKit 프로젝트 초기 설정\n\n  specify init ask-kyleschool --ai gemini\n\n    \n만약 이미 폴더가 생성되어 있고, 현재 폴더에서 설정하고 싶은 경우\n\n  cd existing-project \n  specify init . --ai gemini\n\n    \n\n이제 .gemini 폴더와 .specify 폴더를 보면 SpecKit 관련 파일들이 생성된 것을 볼 수 있음\n\nGemini CLI에서도 커맨드가 보임\n\nSpecKit을 활용한 개발\n위에서 소개한 6단계를 실제로 진행\n단계\n      명령어\n      설명\n    \n1. Specify\n      /speckit.specify\n      기능 요구사항 정의\n    \n2. Clarify\n      /speckit.clarify\n      애매한 부분 구체화\n    \n3. Plan\n      /speckit.plan\n      기술 스택, 아키텍처 계획\n    \n4. Tasks\n      /speckit.tasks\n      구현할 태스크 생성\n    \n5. Analyze\n      /speckit.analyze\n      Spec-Task 일관성 검증\n    \n6. Implement\n      /speckit.implement\n      코드 구현\n    \nSpecify로 요구사항 구체화\n\n/speckit.specify \"SQL 강의를 진행하는데, 학생들이 자유롭게 질문을 남기면 AI가 자동으로 답변을 남겨주는 플랫폼을  만들고 싶어.\"\n\n\n조금 시간이 지나면 Branch, Spec이 완성됨\n    \n여기서 디자인적 요소는 제외하고 기능 구현에 집중함\n\nClarify를 통해 구체화\n이제 clarify를 입력해서 애매한 부분에 대해 구체화를 진행\n\n/speckit.clarify\n\n\n아래 화면처럼 질문들이 나타나고, 답변하면 됨\n\n“Short. supabase를 사용하고 Social Login을 진행해”라고 답변함\n이번엔 모델 질문\n\nGemini 2.5 Flash Lite를 사용하라고 답하고, 다른 질문들도 답변하고 이제 모두 Clarify 됨\n\nPlan : 계획 생성\n\n/speckit.plan\n\n\nplan이 모두 세워짐\n\nTasks : Task 생성\n이제 tasks 실행\n\n/speckit.tasks\n\n\n이제 tasks 생성 완료\n\n생성된 tasks를 확인해보니 다음과 같음\n\nAnalyze : Spec과 Task의 일관성 검증\n\n/speckit.analyze\n\n\nSpecKit이 분석(analyze) 도중 Critical 이슈를 감지하면, 사용자에게 해결 방향을 물어봄\n\nCritical 이슈를 해결하기 위해 Tasks.md 수정하라고 지시함\n    \nConstitution Alignment Issue\nSpecKit 기본 원칙(constitution)에 “테스트 먼저 작성(Test-First)”이 필수로 되어 있음\n근데 현재 tasks.md를 보니 테스트 작성 태스크가 없거나 너무 뒤에 있음 (T025/T026이 마지막 폴리싱 단계)\n요약하면 테스트 먼저 써야 하는데 구현 태스크만 잔뜩 있어서 이슈 제시\n\n위와 같이 tasks.md를 수정함\n    \nTest tasks 추가 : Phase 3, 4, 5에 테스트 Task 추가 (Test-First 원칙 준수)\nRLS task 명시 : “같은 강의의 질문만 보이게” 가시성 규칙 명확히 함 (FR-009)\nInput Sanitization : 보안용 입력값 검증 Task 추가 (T012)\nDependencies 업데이트 : 테스트 도구 설치(T002)\nImplement : 코드 구현\n이제 코드 구현. 이 작업은 앞선 작업들보다 시간이 더 소요됨\n\n/speckit.implement\n\n\n약 13분 정도 소요됨. 이 시간엔 위에서 작성된 Spec 문서를 다시 확인하거나 인프라 작업을 준비함(DB 등)\n\n코드 구현 후, 이제 어떻게 진행하면 좋을지 물어봄(=인프라 작업 등의 안내를 받기 위해)\n\n\n\n환경 설정\n앞서 구현한 코드를 실행하기 위해 Supabase 및 Gemini API 설정 진행\nSupabase 설정\nSupabase 가입 후 새 프로젝트 생성\n\n프로젝트 Settings - API Keys - Legacy anon, service_role API Keys를 누르면 anon_key를 확인할 수 있음\n\nSupabase URL은 Settings - Data API - Project URL에서 확인할 수 있음\n\n위 두 키를 .env.local에 저장함. 이 파일은 .gitignore에 추가되어야 함(Push 방지)\nGemini API 설정\nAI Studio에서 생성할 수 있음\n홈페이지 접속 후 Get API Key - API 키 만들기 - 이름 설정하면 Key가 저장됨\nSupabase와 마찬가지로 Gemini API Key를 .env.local에 저장함\nSupabase - Database 생성\nsupabase/migrations/20251220_init_schema.sql의 내용을 Supabase SQL Editor에서 실행\n\n이제 필요한 Database가 생성됨\n소셜 로그인 설정\n소셜 로그인 설정을 하기 위해서 구글 클라우드 계정이 필요함\n    \n만약 이 과정이 번거로우면 처음엔 소셜 로그인 설정을 추가하지 않아도 무방함. 하지만 서비스로 만들 땐 소셜 로그인을 지원하는 것이 필요함\n구글 클라우드 계정을 하나 생성한 후, Auth 페이지로 이동\n만약 처음 생성했다면 아무것도 존재하지 않고, 시작하기 버튼을 클릭해야 함\n\n앱 정보를 입력하고 나머지도 순차적으로 입력 후 저장\n    \n대상 : 외부\n\n그 후, 클라이언트를 클릭한 후, 클라이언트 만들기 클릭\n\n클라이언트를 만들면 다음과 같이 설정이 저장됨. JSON 다운로드를 해두는 것을 추천(잃어버리지 않도록 주의. 다운로드 폴더에 그대로 두지 않기)\n\n이제 Supabase로 돌아와서 Authentication - Sign In / Providers - Google을 선택\n\nEnable Sign in with Google을 설정하고 위에서 만든 클라이언트 id와 클라이언트 secret 값을 붙여넣기\n    \n하단에 있는 Callback URL 값은 이후에 사용할 예정이므로 복사 클릭\n\n다시 구글 클라우드의 Client쪽에 다음과 같이 추가\n    \n승인된 JavaScript 원본 : 실행시킬 URL 입력. 지금은 배포하지 않고 제 로컬에서 실행할 예정이라 localhost:3000만 추가함\n        \n나중에 배포하면 배포한 URL 웹페이지를 입력하면 됨\n승인된 리디렉션 URI : 위에 Google 로그인에서 복사한 Callback URL 입력\n\n\n\n개발 결과 확인\n이제 인프라 설정이 완료되었으므로, 터미널에서 아래 명령어 실행해서 개발 결과 확인\n\nnpm run dev\n\n\nlocalhost:3000으로 접속하면 다음과 같이 뜸\n\n구글로 로그인을 시도하니 정상적으로 로그인 완료\n로그인 후 닉네임 설정을 하게 됨\n\n강의 페이지로 이동\n\n‘BigQuery 쿼리를 실행하기 위한 기본적인 쿼리 구성 요소를 알려주세요’라고 질문함\n\n그 결과 질문이 올라옴\n\n답변은 다음과 같이 달림. 단, 마크다운 설정이 필요할 것 같음\n\n만약 실행하는 과정에서 오류가 발생하면 Gemini CLI에게 오류를 보내고 수정하라고 가이드하면 됨. 만약 반복된다면 전체적으로 점검하라고 요청하는 것을 추천\n\n\nUI 개선\n새로운 Spec을 통해 디자인 개선하기\n기능 구현은 되었고, 디자인을 개선하기 위해 다시 Spec을 작성함\n\n위에서 진행한 것처럼 clarify, plan, tasks, analyze, implement를 실행한 후 기다림\n    \n이제 마크다운을 잘 표현하고, 디자인이 살짝 개선됨\n\n더 자세한 지시를 통해 디자인 개선하기\n만들어진 디자인이 마음에 들지 않아 어떻게 개선할지 고민하다가, Claude Code의 frontend-design 스킬을 참고해서 개선하라고 지시함\nGEMINI.md 파일에 아래 내용을 추가함\n\n  ## Frontend Design\n  - Please refer to @frontend-design.md when implementing frontend designs\n\n    \nGEMINI.md를 수정한 후, 해당 지시를 기반으로 디자인을 개선하라고 지시함\n\n처음 버전보다 더 세련된 느낌. 만약 내가 원하는 방향성이 있다면 디자인 레퍼런스를 구체적으로 줄수록 만족스러운 결과가 나올 수 있음\n\n\nGemini CLI에게 아이디어 문의\n이제 또 무엇을 하면 좋을지 아이디어를 물어봤더니, 좋은 아이디어를 줬음\n\n위 내용을 모두 모아서 하나의 Spec으로 정의해서 구현해달라고 지시함\n    \n강의 클릭시 대기 시간에 system_log 형식으로 구현함\n\n\nGemini Code Assist를 활용한 AI 코드 리뷰\n이제 GitHub에 Push함. 처음 작업이라 main에 바로 Push했으나, 그 이후엔 브랜치를 새롭게 만들어서 확인하는 것을 추천함\nGemini Code Assist를 설치하면 GitHub에서 Pull Request가 발생할 때 코드를 Gemini가 리뷰해줌. 이 설정을 해두는 것을 추천\n설정\nGemini Code Assist GitHub App 페이지 이동 -> Configure 클릭\n\n로그인을 완료한 후, 사용할 GitHub Repository를 추가\n\nAI 코드 리뷰 결과\n이렇게 설정한 후, Pull Request를 하면 아래와 같이 리뷰가 달림(아래 리뷰는 다른 Repo에서 Gemini Code Assist가 리뷰한 내용을 가져옴)\n\n\n\n\nVercel 배포\nSupabase와 Vercel이 잘 통합되어 있으므로, Vercel을 통해 배포하는 것을 추천\n이 부분에 대해 글을 작성할 예정은 아니였지만, 간단하게라도 가이드를 남겨봄\nVercel - New Project를 누르면 GitHub에서 Import를 할 수 있음\n\n\nSupabase URL, Anon Key를 추가하면 어렵지 않게 배포할 수 있음\nVercel 배포가 완료되면 새로운 URL이 생성됨. 이 URL을 Google Cloud OAuth(위에 소셜 로그인 부분)에 가서 승인된 JavaScript 원본에 Vercel URL을 추가해야 함\n그리고 Supabase에서도 URL 설정을 추가해야 함\n    \nSupabase > Authentication > URL Configuration에서 Site URL을 Vercel URL로 변경\n\n\n후기\nGemini CLI도 많이 사용하면서 도구에 적응하게 됨. 이런 도구들은 실제로 써보고, 피드백 루프를 돌리는 과정이 필요함\nGemini CLI의 Release Notes를 보면 새로운 기능들이 계속 생기고 있음. 앞으로 계속 더 발전할 것 같음\nClaude Code와 Gemini CLI 둘 다 사용하게 되었는데, 필요에 맞게 사용할 수 있도록 계속 시도해볼 예정\n    \nGemini CLI가 컨텍스트가 많기 때문에 핵심 AI 에이전트로 쓰고, Gemini CLI에서 Claude Code나 Codex를 실행하게 하는 것도 방법이고, 이미 이런 시도를 하는 분들이 계심\nAI 에이전트 도구들의 설정을 동일하게 저장해서 (예를 들어 AGENT.md를 만들어서) 관리하는 것이 필요할 듯. 새로운 도구로 이사하는 것이 번거롭게 느껴질 수 있음\n\n\n\n이 글은 GDE 프로그램에서 진행한 AI Sprint에 참여하며 작성한 글입니다.\n\nGoogle Cloud credits are provided for this project. #AISprint",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2025/12/18/resharper-and-rider-2025-3-1/",
-    "pubDate": "Thu, 18 Dec 2025 17:47:54 +0000",
-    "creator": "Sasha Ivanova",
+    "link": "https://zzsza.github.io/ai/2025/12/21/gemini-cli-qna-board/",
+    "pubDate": "Sun, 21 Dec 2025 00:00:00 +0000",
+    "creator": "Unknown",
     "categories": [
-      "net-tools",
-      "jetbrains-ai",
-      "resharper",
-      "rider",
-      "next-edit-suggestion"
+      "basic",
+      "ai"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "사내 AI 리터러시를 향상하기 위한 AI Campus Day를 개최했습니다",
-    "description": "LINE Plus의 오피스가 '캠퍼스'로 변신했습니다.회의실은 강의실이, LINER들은 학생이 되었습니다.위 모습은 지난 12월 2일에 열린 사내 행사 AI Campus Day의 ...",
+    "title": "How Mobile Development Teams Use Kotlin in 2025: Insights From a Certified Trainer",
+    "description": "This is the second guest post in a two-part series from José Luis González. José Luis has a PhD in software development and is a JetBrains-certified Kotlin Trainer, who works with developers and engineering teams to deepen their Kotlin skills and apply the language effectively in real projects. At Hyperskill, he runs Kotlin instructor-led training for […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/ai-campus-day-for-enhancing-ai-literacy-of-employees",
-    "pubDate": "Fri, 19 Dec 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/kotlin/2025/12/how-mobile-development-teams-use-kotlin-in-2025/",
+    "pubDate": "Fri, 19 Dec 2025 14:44:34 +0000",
+    "creator": "Ksenia Shneyveys",
+    "categories": [
+      "news"
+    ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "Debugging, but Without the Drama (A Visual Studio 2026 Story)",
-    "description": "It starts the way these things always start.  A red build. A failing test. And that quiet, sinking feeling of “This worked yesterday.”  Meet Sam. Sam’s not a junior, not a rockstar, just a solid developer who’s shipped enough code to know that bugs don’t care how confident you feel on Monday morning.  That test failure does not offer much help […]\nThe post Debugging, but Without the Drama (A Visual Studio 2026 Story) appeared first on Visual Studio Blog.",
+    "title": "안전은 기본, 비용 절감은 덤: AI 서비스에 별도 가드레일이 필요한 이유",
+    "description": "들어가며: 가드레일이 뭔가요?AI를 안전하게 사용하기 위한 여러 장치를 통틀어 보통 '가드레일(guardrails)'이라고 부릅니다. 자동차 주행 중 도로를 벗어나거나 옆 차선을 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-2026-debugging-with-copilot/",
-    "pubDate": "Tue, 16 Dec 2025 15:00:12 +0000",
-    "creator": "Harshada Hole",
-    "categories": [
-      "Visual Studio",
-      "Debugging and Diagnostics",
-      "Developer Productivity",
-      "Performance",
-      "Visual Studio 2026"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/safety-and-cost-saving-why-separate-guardrails-are-necessary",
+    "pubDate": "Wed, 17 Dec 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 11,
@@ -186,61 +173,68 @@
   {
     "id": 12,
     "imageUrl": "",
-    "title": "How We Built Meta Ray-Ban Display: From Zero to Polish",
-    "description": "We’re going behind the scenes of the Meta Ray-Ban Display, Meta’s most advanced AI glasses yet. In a previous episode we met the team behind the Meta Neural Band, the EMG wristband packaged with the Ray-Ban Display. Now we’re delving into the glasses themselves. Kenan and Emanuel, from Meta’s Wearables org, join Pascal Hartig on [...]\nRead More...\nThe post How We Built Meta Ray-Ban Display: From Zero to Polish appeared first on Engineering at Meta.",
+    "title": "토스, 소상공인의 도전과 성장을 함께 하는 ‘비터스윗 마켓’ 오픈 ",
+    "description": "토스임팩트의 첫 오프라인 활동",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/12/17/virtual-reality/meta-ray-ban-display-from-zero-to-polish/",
-    "pubDate": "Wed, 17 Dec 2025 14:00:17 +0000",
+    "link": "https://toss.im/tossfeed/article/43787",
+    "pubDate": "Thu, 18 Dec 2025 15:00:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "Culture",
-      "Virtual Reality",
-      "Meta Tech Podcast"
-    ]
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "유니티로 바이브 코딩 세팅 - 자동 리프레시 끄기는 사람에게는 안좋습니다.",
-    "description": "영상: https://www.youtube.com/watch?v=fxbJpKBYUE8\n\n\n\n \n \n유영한 정보\n\n\n \n이 영상에서는 바이브 코딩 때문에 자동 갱신을 끄고 있습니다.\n여기서 끄게 되면 다른 프로젝트도 동일한 셋팅으로 사용하게 됩니다.\nAI 야 매번 필요할때 수동으로 갱신 하겠지만\n사람은 까먹을 수 있습니다.\n \n저도 이상태로 두고 다른 작업하다 잊어 먹었는데\n그후에 동작이 매우 이상해서 한참 보도 눈치 챘습니다.\n엄청난 시간낭비를 하고나니 알았습니다.\n \n사람이 개발할꺼면 자동갱신 켜는게 맞겠구나\nAI 와 사람은 공존할 수 없나봅니다.",
+    "title": "기획부터 썸네일까지 AI 원스톱! 유튜브 플레이리스트 제작 치트키 공개",
+    "description": "유튜브 플레이리스트 채널, 영상을 직접 편집해야 한다는 부담감 때문에 시작도 못 해보셨나요? 더 이상 그런 고민은 필요 없습니다. 기획부터 음악, 썸네일, 그리고 전문가급 오디오 스펙트럼 영상 제작까지 AI가 원스톱으로 해결해주는 신세계를 경험해보세요. 클릭 몇 번으로 누구나 쉽게 유튜브 수익화를 달성할 수 있는 궁극의 치트키를 지금 바로 공개합니다.\n요즘 유튜브에서 잔잔한 음악과 함께 멋진 배경 영상이 흘러나오는 플레이리스트 채널이 큰 인기를 끌고 있죠. 로파이걸(Lofi Girl) 같은 채널은 이런 플레이리스트 영상만으로도 어마어마한 조회수와 함께 상당한 광고 수익을 올리고 있다고 알려져 있습니다. 많은 분들이 '나도 한번 해볼까?' 생각하시지만, 막상 시작하려니 막막한 부분이 한두 가지가 아니었을 겁니다.\n\n\n \n과연 내가 어떤 컨셉으로 채널을 만들지, 저작권 걱정 없는 음원은 어디서 구해야 할지, 게다가 프리미어나 파이널컷 같은 복잡한 편집 프로그램을 다뤄야 한다는 압박감까지… 정말이지 시작도 전에 지쳐버리기 일쑤였죠. 썸네일 디자인도 빼놓을 수 없고요. 이 모든 과정을 하나하나 배우려면 솔직히 시간과 노력이 정말 많이 들었습니다.\n그런데 말입니다. 이 모든 고민을 단숨에 날려버릴 놀라운 AI 솔루션이 등장했습니다. 이제 클릭 몇 번만으로 이 모든 과정을 해결하고 여러분만의 플레이리스트 채널을 운영하며 수익을 창출할 수 있게 되었어요. 자, 저와 함께 이 혁신적인 방법을 자세히 알아보시죠!\n  플레이리스트 채널, 왜 그렇게 어려웠을까요?\n먼저, 기존의 플레이리스트 채널 제작 방식이 왜 그렇게 만만치 않았는지 그 어려움을 짚어보겠습니다. 크게 세 단계로 나눌 수 있는데, 이 과정 하나하나가 결코 쉽지 않았어요.\n1. 컨셉 설정과 음원 수급의 딜레마\n단순히 '좋은 노래 모음'으로는 경쟁력을 갖기 어려웠죠. '비 오는 밤 성수동 카페', '새벽 3시 집중력을 높이는 로파이'처럼 구체적인 상황과 감성을 담은 컨셉을 잡아야 하는데, 여기서부터 많은 분들이 막막함을 느꼈을 거예요. 게다가 저작권 걱정 없이 좋은 음원을 확보하는 건 또 다른 큰 산이었습니다. 유튜브 오디오 보관함이나 NCS 같은 무료 음원도 있지만, 너무 많은 사람들이 사용해서 차별화가 어렵다는 단점이 있었죠.\n  AI 음원의 등장: 요즘은 수노(Suno AI)나 유디오(Udio) 같은 AI로 직접 음원을 만드는 추세예요. 하지만 이것도 처음에는 '프롬프트'를 어떻게 작성해야 원하는 결과물을 얻을 수 있을지 정말 어렵게 느껴질 수 있습니다.\n2. 시각 자료 제작의 복잡성\n음악만 계속 틀어놓으면 시청자들이 금세 지루함을 느낄 수 있죠. 그래서 배경 영상이나 이미지가 필수인데, 미드저니(Midjourney)나 캔바(Canva) 같은 도구를 배우는 것도 일이었어요. 거기서 끝이 아니죠! 정적인 이미지에 오디오 스펙트럼 같은 움직임을 더해서 시청자의 시선을 사로잡아야 했습니다. 그런데 이런 효과를 넣으려면 프리미어 프로나 캡컷(CapCut) 같은 전문 영상 편집 프로그램을 배워야 하니, 이 단계에서 좌절하는 분들이 많았을 겁니다.\n3. 긴 영상 편집과 렌더링의 고통\n배경 영상 위에 음원을 배치하고, 화면 하단에 곡 제목을 표시하고, 여러 영상 효과를 반영하는 것 자체가 어려운 작업입니다. 특히 플레이리스트 영상처럼 1시간 이상의 긴 영상을 원활하게 편집하고 렌더링하려면 앞서 언급한 전문 영상 편집 프로그램은 거의 필수적이죠. 배우는 것도 어렵지만, 저사양 컴퓨터로는 렌더링에만 반나절이 걸리는 경우도 허다해서 '대체 언제 다 만들지?' 하는 생각이 절로 들었습니다.\n\n\n4. 시간 소모와 초기 노출의 한계\n이 모든 과정을 숙련자가 해도 영상 하나 만드는 데 최소 3시간에서 5시간은 족히 걸렸습니다. 기획/선곡 1~2시간, 시각 자료 제작 30분~1시간, 편집/렌더링 1~2시간, 유튜브 업로드/SEO 30분… 매일 이렇게 작업하려면 정말 힘들었겠죠? 게다가 이미 로파이걸 같은 거대 채널들이 시장을 장악하고 있어서 신규 채널이 알고리즘의 선택을 받기까지는 최소 3~6개월 이상의 꾸준한 노력이 필요했습니다. 매번 새로운 무드를 찾아내고 수십 곡의 리스트를 짜는 작업은 창의적인 에너지를 엄청나게 소모하며 소재 고갈에 빠지기 쉬웠고요.\n하지만 오늘 제가 소개해드릴 방법은 이 모든 과정을 획기적으로 단축시켜줍니다. 특히 AI 도구를 활용하면 저작권 문제에서 훨씬 자유롭고, 제작 시간도 놀랍도록 줄일 수 있으니, 정말 솔깃하지 않나요? 이제 본격적으로 강력한 두 가지 앱을 소개해드릴게요!\n  AI 플레이리스트 제작, 시작 전 준비물!\n자, 그럼 이 놀라운 AI 도구들을 사용하기 전에 몇 가지 준비할 것이 있습니다. 생각보다 간단하니 걱정 마세요!\n구글 아이디 및 API 발급: 구글의 최신 AI 모델인 제미나이를 기반으로 작동하는 'AI 플레이리스트 크리에이터'를 사용하려면 구글 AI 스튜디오 사용을 위한 구글 아이디와 API 발급이 필요해요. API 발급 방법은 제가 다른 영상에서 상세히 다뤘으니, 본문이나 댓글에 있는 링크를 참고하셔서 먼저 발급받아주세요.\nSuno AI 가입: 음악 생성을 위해 suno.com에 접속하셔서 간단하게 가입해주셔야 합니다.\n⚠️ 중요! Suno AI 유료 플랜: Suno AI에서 생성한 음원을 유튜브 수익 창출이나 음원 발매 등 상업적으로 활용하려면 반드시 유료 플랜에 가입해야 합니다. 이 점 꼭 기억해 주세요!\n이 두 가지 준비물이 갖춰졌다면, 이제 본격적으로 AI와 함께 플레이리스트 채널을 만드는 여정을 시작해볼까요?\n  AI 플레이리스트 크리에이터: 기획부터 썸네일까지 원스톱!\n이 앱은 구글의 최신 AI 모델인 제미나이를 기반으로 작동하는데요. 단순히 아이디어만 툭 던져주는 수준이 아닙니다. 실제 음악 생성에 필요한 전문적인 프롬프트부터 채널 운영에 필수적인 모든 요소를 그야말로 원스톱으로 제공해줘요. 제가 직접 써보니, 정말이지 '이게 되네?' 싶을 정도로 놀라웠습니다.\n\n\n✨ AI 플레이리스트 크리에이터의 핵심 기능 4가지\n클릭을 부르는 감성적인 제목 생성: '재즈 음악'처럼 평범한 제목이 아닌, 이모지와 감성적인 문구, 그리고 검색 키워드까지 고려한 매력적인 제목을 뽑아줍니다. 예를 들어, ' ️ 비 오는 밤, 따뜻한 커피와 함께 듣는 감성 재즈'처럼요.\nSuno 5.0에 최적화된 프롬프트 생성: 단순히 '재즈 만들어줘'가 아닙니다. 악기 구성, 공간감, 연주 스타일까지 아주 디테일하게 작성된 전문적인 프롬프트를 생성해줘요. 여러분은 그저 복사해서 Suno AI에 붙여넣기만 하면 끝입니다!\n맞춤형 가사 생성: 인트로, 벌스, 코러스 같은 곡 구조를 설정해서 가사를 뽑을 수 있고요. 가사가 없는 연주곡 모드도 지원하니, 다양한 컨셉을 시도해볼 수 있습니다.\n가장 중요한, 고퀄리티 썸네일 자동 생성: 배경에 'PLAYLIST'라는 문구가 자연스럽게 들어간 고퀄리티 이미지를 생성하고, 그 위에 원하는 감성 폰트로 제목까지 합성해줍니다. 포토샵 같은 전문 프로그램은 전혀 필요 없어요. 정말 정말 편리하죠!\n ️ AI 플레이리스트 크리에이터 사용법 (단계별 가이드)\n사용 편의성을 위해 화면을 양쪽으로 나누어 'AI 플레이리스트 크리에이터'와 'Suno AI'를 함께 실행하는 것을 추천해요. 그러면 작업 효율이 훨씬 높아집니다.\n장르 선택: 앱 첫 화면에서 플레이리스트 채널에서 가장 인기 있는 장르를 선택합니다. 만약 원하는 장르가 없다면 직접 입력할 수도 있어요. (예시: 로파이(Lo-Fi) 장르 선택)\n제목 선택: 선택한 장르에 적합한 제목 리스트가 생성되면, 그중 마음에 드는 감성적인 제목을 고릅니다. (예시: '비오는 날 창밖 보며 멍 때리기 좋은 감성' 선택)\n프롬프트 및 가사 설정: 화면이 바뀌면 왼쪽에 Suno AI용 프롬프트가 나타나요. 오른쪽에서는 생성할 가사의 언어와 곡 수를 선택하고, 곡의 구성을 설정합니다. 앱이 사용자가 선택한 내용에 적합한 곡 구성을 미리 추천해 주니 정말 편리하죠. 그 다음 가사에 적용할 비유와 은유의 정도를 선택하고, 인트로/아웃트로에도 가사를 포함할지 결정한 후 가사를 생성합니다. 연주곡을 원한다면 '가사 없음'을 선택하면 됩니다.\nSEO 정보 생성 및 저장: 빠른 유튜브 SEO 작업을 위해 영상 제목, 설명, 해시태그, 키워드를 생성하는 기능이 있어요. 이걸 메모장에 미리 복사해두면 나중에 정말 유용하게 쓸 수 있습니다.\nSuno AI로 음악 생성: AI 플레이리스트 크리에이터에서 생성된 Suno AI용 프롬프트를 복사하여 Suno AI의 스타일 칸에 붙여넣습니다. 가사가 생성되면 제목과 가사를 각각 복사한 후 Suno AI에 붙여넣기 하고 'Create' 버튼을 클릭하여 곡을 생성합니다.\n썸네일 생성 및 다운로드: 곡이 생성되는 동안 유튜브 썸네일 탭으로 이동하여 스타일과 폰트를 선택한 후 '생성' 버튼을 클릭합니다. 플레이리스트 제목이 멋지게 적용된 썸네일이 생성되는데, 수정사항이 있다면 입력하여 이미지의 일관성을 유지한 채 원하는 내용만 수정할 수 있습니다. 마음에 드는 썸네일은 바로 다운로드하세요!\n곡 다운로드: Suno AI에서 생성된 로파이 음악을 들어보고, 만족스럽다면 가사만큼 같은 작업을 반복하여 곡을 생성한 후 모두 다운로드합니다.\n  스펙트럼 스튜디오: 영상 편집 없이 전문가급 영상 만들기!\n이제 Suno AI로 만든 음악 파일을 가지고 '스펙트럼 스튜디오'를 활용해 실제 플레이리스트 영상을 만들어 볼 차례입니다. 이 도구는 정말이지 혁신적이라고 생각해요. 복잡한 영상 편집 프로그램 없이도 브라우저에서 바로 유튜브 플레이리스트 영상을 만들 수 있는 웹 기반 도구거든요!\n\n\n\n프리미어 프로나 파이널컷 같은 전문 편집 프로그램을 따로 배우지 않아도 되고, 프로그램을 설치할 필요도 없이 인터넷 브라우저만 있으면 어디서든 사용할 수 있다는 점이 정말 매력적입니다. 게다가, 앞서 소개한 AI 플레이리스트 크리에이터와 달리 AI 기능을 사용하지 않기 때문에 API 발급도 필요 없고, 가입만 하면 바로 사용할 수 있어요. 접근성이 정말 좋죠?\n  스펙트럼 스튜디오의 독보적인 강점 5가지\n환상적인 오디오 스펙트럼 기능: 음악에 반응해서 실시간으로 움직이는 시각화 효과를 만들어줍니다. 막대형, 원형, 파형 등 다양한 스타일을 선택할 수 있고, 색상부터 반응 민감도까지 세밀하게 조정해서 나만의 감성을 표현할 수 있어요.\n로고 배경 자동 제거: 포토샵 없이도 클릭 한 번으로 로고 배경을 깔끔하게 제거하여 영상에 자연스럽게 합성할 수 있습니다. 채널의 브랜딩을 강화하는 데 아주 유용하죠.\n감성적인 특수 효과와 필터: 물방울, 반짝이는 입자, 빈티지 필터 등을 추가하여 영상을 훨씬 풍성하고 감성적으로 만들 수 있습니다. 시청자들의 눈을 즐겁게 해줄 거예요.\n타임라인 자동 복사 기능: 버튼 한 번으로 유튜브 설명란에 들어갈 곡 제목과 시간 정보가 자동으로 복사됩니다. 일일이 시간을 적을 필요가 없으니 정말이지 시간을 엄청나게 아낄 수 있습니다!\n빠르고 안전한 로컬 렌더링 방식: 여러분의 파일을 서버로 보내지 않고 PC에서 바로 처리하기 때문에 개인정보 유출 걱정이 없고, 렌더링 속도도 빠르며 안전합니다.\n이 모든 강점 덕분에 2시간짜리 플레이리스트 영상을 편집부터 렌더링 완료까지 40분에서 50분이면 충분하다고 합니다. 기존 방식으로는 몇 시간씩 걸리던 작업을 1시간 안에 끝낼 수 있다니, 정말 놀랍지 않나요?\n⚙️ 스펙트럼 스튜디오 사용법 (단계별 가이드)\n음악 파일 업로드: Suno AI에서 작업한 음악 파일을 스펙트럼 스튜디오에 업로드합니다. 업로드한 파일의 재생 순서도 변경할 수 있으니 참고하세요.\n타임라인 복사: 상단에 있는 타임라인 복사 버튼을 클릭하면, 해당 곡으로 바로 이동할 수 있는 타임라인이 자동으로 생성됩니다. 이것도 메모장에 복사해 두면 유튜브 업로드 시 매우 유용해요.\n이미지 및 로고 등록: 앞서 AI 플레이리스트 크리에이터에서 만들어둔 썸네일 이미지를 등록합니다. 채널 로고가 있다면 함께 업로드할 수 있어요.\n재생 설정: 전체 음악을 몇 번 반복할지 재생 횟수를 선택하고 오디오 품질도 선택한 후 편집 스튜디오로 넘어갑니다.\n편집 스튜디오 설정:\n\n오디오 스펙트럼: 왼쪽에서 막대형, 미니막대형, 원형, 파형 등 다양한 스타일을 선택하고, 오른쪽 아래에서 스펙트럼의 위치, 크기, 스타일 등 세부 속성을 변경합니다.\n로고 조정: 오른쪽 위에서 업로드한 로고 이미지의 크기와 위치를 조절하고, 배경 제거 기능을 활용하여 깔끔하게 적용할 수 있습니다.\n배경 효과: 왼쪽 아래에서는 배경 이미지에 다양한 필터와 비네팅 효과를 줄 수 있습니다.\n특수 효과: 바로 아래에는 배경 이미지 위에 움직이는 물방울과 반짝임 특수효과를 적용하고, 이 효과들의 속성을 제어하는 특별한 기능이 있습니다.\n비디오 내보내기: 모든 설정이 완료되면 우측 상단의 '비디오 내보내기'를 클릭하고, 다음 화면에서 'MP4 렌더링 시작'을 클릭합니다. 저장할 파일명 설정 후 바로 렌더링이 시작되며, 짧은 시간 안에 고품질 영상이 완성됩니다.\n✅ 완성된 플레이리스트 영상, 유튜브에 업로드하기!\n이제 대망의 마지막 단계입니다! AI의 도움으로 완성된 플레이리스트 영상을 유튜브에 등록하는 방법을 알려드릴게요. 이 과정도 생각보다 어렵지 않으니 잘 따라와 주세요.\n영상 업로드: 유튜브 우측 상단의 '만들기'에서 '동영상 업로드'를 클릭하고, 스펙트럼 스튜디오에서 렌더링한 영상을 등록합니다.\n정보 입력: AI 플레이리스트 크리에이터에서 미리 복사해 둔 영상 제목을 붙여넣고, 영상 설명란에도 미리 준비한 설명, 해시태그, 타임라인을 붙여넣습니다. 썸네일도 등록하시고요.\n세부 설정: 몇 가지 옵션 사항에 체크하고, 키워드까지 붙여넣기 한 후 동영상 언어를 한국어로 변경합니다.\n공개 설정: 하단의 '다음'을 클릭하면 공개 설정 화면이 나옵니다. 유튜브가 업로드하고 화질 처리를 완료할 때까지는 일단 '비공개'로 설정해 두는 것이 좋습니다.\n영어 자막 추가 (선택 사항): 왼쪽 메뉴에서 '자막'을 선택하고 '언어 추가' 버튼 클릭 후 '영어'를 선택합니다. 그 다음 영어 우측의 '제목 및 설명 수정' 모드로 들어가서 제목, 영상 설명, 해시태그를 영어로 번역하여 붙여넣습니다. 이렇게 하면 영어권 국가에서 접속하는 시청자들에게 영상 제목과 설명이 영어로 보이게 되어 글로벌 시청자 유입에 유리합니다.\n최종 공개: 모든 설정이 완료되고 영상 처리가 끝나면, 비공개 영상을 '공개'로 변경하시면 됩니다.\n어때요, 정말 간단하죠? 이 과정들을 거치면 여러분의 플레이리스트 채널이 멋지게 세상에 공개될 것입니다.\n  핵심 요약\n1. AI 플레이리스트 크리에이터로 기획, 음악 프롬프트, 가사, 썸네일을 원스톱으로 생성해요.\n2. Suno AI 유료 플랜으로 상업적 이용 가능한 고품질 저작권 프리 음원을 만들 수 있어요.\n3. 스펙트럼 스튜디오로 복잡한 편집 없이 오디오 스펙트럼 영상을 초고속으로 만들어요.\n4. SEO 최적화된 업로드와 영어 자막 추가로 글로벌 시청자를 사로잡아요.\nAI 기술을 활용하면 누구나 쉽고 빠르게 유튜브 플레이리스트 채널 운영이 가능해집니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: AI 플레이리스트 채널이 왜 인기가 많나요?\nA1: 영상 편집이나 저작권 걱정 없이 AI 도구로 고품질의 플레이리스트 영상을 쉽고 빠르게 제작할 수 있기 때문입니다. 초기 진입 장벽이 낮아 누구나 쉽게 시작하여 수익을 창출할 수 있다는 점이 큰 장점이에요.\nQ2: Suno AI 유료 플랜은 왜 필요한가요?\nA2: Suno AI의 무료 플랜으로 생성한 음악은 상업적으로 이용할 수 없습니다. 유튜브 수익 창출이나 음원 발매 등 상업적 활용을 위해서는 반드시 유료 플랜에 가입해야 저작권 문제없이 안전하게 활동할 수 있어요.\nQ3: AI 플레이리스트 크리에이터와 스펙트럼 스튜디오의 주요 차이점은 무엇인가요?\nA3: AI 플레이리스트 크리에이터는 플레이리스트 기획, 음악 프롬프트, 가사, 썸네일 등 '콘텐츠 아이디어와 생성'에 중점을 둔 AI 기반 도구입니다. 반면 스펙트럼 스튜디오는 음악 파일과 배경 이미지를 활용하여 오디오 스펙트럼이 포함된 '실제 영상 제작'에 특화된 웹 기반 편집 도구이며, AI 기능을 사용하지 않아 API가 필요 없습니다.\nQ4: 로컬 렌더링 방식의 장점은 무엇인가요?\nA4: 로컬 렌더링은 개인의 컴퓨터에서 직접 영상 파일을 처리하기 때문에 서버로 파일을 전송할 필요가 없어 개인 정보 유출에 대한 걱정이 없습니다. 또한, 빠르고 안정적으로 고품질의 영상을 생성할 수 있다는 장점이 있습니다.\n자, 이것으로 기획부터 썸네일, 그리고 전문가급 영상 제작까지 AI로 원스톱으로 끝내는 유튜브 플레이리스트 채널 만들기 강의를 모두 마쳤습니다. 제가 직접 경험해보니, 이 두 가지 도구를 활용하면 과거에는 초보자들이 도전조차 하지 못했던 플레이리스트 영상을 정말 쉽고 빠르게 만들 수 있다는 것을 확신했습니다. 여러분도 이제 더 이상 어렵게 생각하지 마세요! AI가 여러분의 크리에이티브한 잠재력을 활짝 열어줄 것입니다.\n특히 오늘 소개해드린 'AI 플레이리스트 크리에이터' 앱은 영상 설명란 링크를 통해 무료로 배포할 예정이니 많은 관심 부탁드립니다. 또한, 어려운 영상 편집기 없이 몇 번의 클릭만으로 플레이리스트 영상을 만들 수 있는 '스펙트럼 스튜디오'는 채널 멤버십 여러분께만 게시물을 통해 공개하도록 하겠습니다.\n이 강의가 여러분의 성공적인 유튜브 플레이리스트 채널 운영에 큰 도움이 되었기를 진심으로 바랍니다. 여러분의 구독과 좋아요, 그리고 알림 설정은 제가 더 좋은 콘텐츠를 만드는 데 큰 힘이 됩니다. 감사합니다!\n  무료 앱 사용하\n1. 'AI 플레이리스트 크리에이터' 는 아래 링크에서 무료로 사용하세요. (단, 여러분의 api 키 발급을 해야 합니다.)\n\n \nAI Playlist Creator\n \nai-playlist-creator-bice.vercel.app\n\n \n2. ' 스펙트럼 스튜디오'는 GPT PARK 유튜브 채널 멤버십 가입후 게시물에서 제공하는 링크에서 무료 사용이 가능합니다.\n\n \nGPT PARK의 AI팩트\n가장 빠르고 알찬 AI 정보를 공개합니다. 유용한 AI 인사이트 : https://muzbox.tistory.com/category/AI%2C%20미래기술 블로그 수익화 인사이트 : https://smart-it-life.tistory.com/category/블로그%20수익화 유용한 자료\nwww.youtube.com",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1550",
-    "pubDate": "Thu, 18 Dec 2025 16:58:29 +0900",
-    "creator": "SIDNFT",
+    "link": "https://muzbox.tistory.com/483694",
+    "pubDate": "Sun, 21 Dec 2025 09:26:57 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "프로그래밍/개발메모",
-      "유니티"
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "ai 유튜브",
+      "AI 플레이리스트 크리에이터",
+      "suno ai",
+      "스펙트럼 스튜디오",
+      "영상 편집 없이",
+      "오디오 스펙트럼",
+      "유튜브 수익화",
+      "유튜브 썸네일",
+      "유튜브 플레이리스트",
+      "플레이리스트 제작"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "결혼식 패키지 상품 가격, 이제 사전에 정확하게 알 수 있어요",
-    "description": "추가금 걱정 없이 결혼식 비용 미리 확인해보세요",
+    "title": "Everything You Wanted to Ask About Rust – Answered by Herbert Wolverson",
+    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were conveniently distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky sat down with Rust expert and educator Herbert Wolverson (Ardan Labs) to talk about everything Rust […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-56",
-    "pubDate": "Tue, 16 Dec 2025 08:14:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/rust/2025/12/23/everything-you-wanted-to-ask-about-rust-answered-by-herbert-wolverson/",
+    "pubDate": "Tue, 23 Dec 2025 18:36:37 +0000",
+    "creator": "Tatiana Parshutkina",
+    "categories": [
+      "rustrover",
+      "livestream"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "When AI Amplifies Your Bad (and Good) Habits",
-    "description": "AI is more like a megaphone than a magic wand. It amplifies what is already there. Whatever habits you bring to your workflow, good or bad, AI will turn up the volume.  Every untested component, undocumented design, and ill-specified feature, to name a few, becomes louder when AI enters the mix. Teams with a clear […]",
+    "title": "IntelliJ IDEA 2025.3.1 Is Out!",
+    "description": "IntelliJ IDEA 2025.3.1 is out with a number of useful fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update brings the following improvements: For a comprehensive overview of the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2025/12/when-ai-amplifies-your-bad-and-good-habits/",
-    "pubDate": "Wed, 17 Dec 2025 14:36:12 +0000",
-    "creator": "Kris Kang",
+    "link": "https://blog.jetbrains.com/idea/2025/12/intellij-idea-2025-3-1/",
+    "pubDate": "Thu, 18 Dec 2025 15:47:09 +0000",
+    "creator": "Maria Kosukhina",
     "categories": [
-      "ai",
-      "best-practices",
-      "collaboration",
-      "industry-trends"
+      "releases",
+      "bug-fix-update",
+      "intellij-idea-2025-3"
     ]
   }
 ]
