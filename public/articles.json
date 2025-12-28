@@ -2,65 +2,74 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Everything You Wanted to Ask About Rust – Answered by Herbert Wolverson",
-    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were conveniently distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky sat down with Rust expert and educator Herbert Wolverson (Ardan Labs) to talk about everything Rust […]",
+    "title": "Ruby Turns 30: A Celebration of Code, Community, and Creativity",
+    "description": "Created by Yukihiro “Matz” Matsumoto and first released in 1995, Ruby arrived with a purpose that was simple but profound: to make coding more human, more intuitive, and more enjoyable. Its object-oriented model, dynamic typing, and elegant syntax offered a fresh alternative to the heavier and more complex languages of that era. As Ruby marks […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2025/12/23/everything-you-wanted-to-ask-about-rust-answered-by-herbert-wolverson/",
-    "pubDate": "Tue, 23 Dec 2025 18:36:37 +0000",
-    "creator": "Tatiana Parshutkina",
+    "link": "https://blog.jetbrains.com/ruby/2025/12/ruby-turns-30-a-celebration-of-code-community-and-creativity/",
+    "pubDate": "Thu, 25 Dec 2025 09:11:01 +0000",
+    "creator": "Alexey Varfolomeev",
     "categories": [
-      "rustrover",
-      "livestream"
+      "rubymine",
+      "ruby",
+      "ruby-on-rails"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Thread Dumps and Project Loom (Virtual Threads)",
-    "description": "If you’ve been keeping up with Java virtual threads, you already know that this hot new feature significantly improves hardware utilization for parallel I/O-bound operations. Virtual threads map multiple concurrent I/O operations to a single OS thread without blocking. The novel aspect of this approach is that it requires minimal changes to the codebase, as […]",
+    "title": "TeamCity Pipelines Is Now Part of TeamCity Enterprise",
+    "description": "We introduced TeamCity Pipelines in March 2024 to make CI/CD setup simpler and more intuitive, without limiting what teams can build and automate. Pipelines brought a new workflow focused on a more guided configuration experience, including a visual editor with drag-and-drop dependencies, YAML for defining building routines from scratch, and a set of practical configuration […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/12/thread-dumps-and-project-loom-virtual-threads/",
-    "pubDate": "Tue, 23 Dec 2025 14:14:55 +0000",
-    "creator": "Igor Kulakov",
+    "link": "https://blog.jetbrains.com/teamcity/2025/12/pipelines-sunset/",
+    "pubDate": "Fri, 26 Dec 2025 16:19:46 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "features",
-      "idea",
-      "debug",
-      "thread-dumps",
-      "virtual-threads"
+      "news",
+      "teamcity-2",
+      "update",
+      "teamcity-pipelines-pulse"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "kaggle 설치 및 사용방법",
-    "description": "kaggle 은 윈도우버전과 호환성이 낮다. 우분투에서는 잘 실행된다. \n\n\n\n\n다음과 같은 순서로 설치하면 된다. \n1. kaggle 웹사이트 방문 후 가입한다.\n2. kaggle > account > setting > new API key 로 키값을 얻는다. 여기서 브라우저 설정에 따라 kaggle.json이 다운안되는 경우가 많다. 이 경우 다음과 같이 이 파일을 직접 작성해야 한다.\n\n\n\n이 파일은 다음 명령으로 생성할 수 있다. 터미널에 입력한다. \nmkdir -p ~/.kaggle\necho '{\"username\":\"<user name>\",\"key\":\"<your key>\"}' > ~/.kaggle/kaggle.json\nchmod 600 ~/.kaggle/kaggle.json\n그 결과 다음 형식의 파일이 생성될 것이다.\n{\"username\":\"\",\"key\":\"\"}\n3. 터미널에서 kaggle 을 설치한다. pip install kaggle\n4. 다음과 같이 경진대회 리스트 실행해 본다. \n실행 결과는 다음과 같다.\nvenv_lmm) ktw@tron:~$ kaggle competitions list\nref                     deadline             category                reward  teamCount  userHasEntered  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3       2026-04-15 23:59:00  Featured         2,207,152 Usd        976           False  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-surface-detection            2026-02-13 23:59:00  Research           200,000 Usd        446           False  \nhttps://www.kaggle.com/competitions/google-tunix-hackathon                          2026-01-12 23:59:00  Featured           100,000 Usd         97           False  \nhttps://www.kaggle.com/competitions/csiro-biomass                                   2026-01-28 23:59:00  Research            75,000 Usd       2494           False  \nhttps://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection  2026-01-15 23:59:00  Research            55,000 Usd       1029           False",
+    "title": "코드 품질 개선 기법 27편: 티끌이 모여 태산이 되듯 의존성도 쌓이면",
+    "description": "이 글은 2024년 5월 30일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/12/kaggle.html",
-    "pubDate": "2025-12-25T10:54:00.000Z",
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-27",
+    "pubDate": "Tue, 23 Dec 2025 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption",
-    "description": "The 2025 Typed Python Survey, conducted by contributors from JetBrains, Meta, and the broader Python typing community, offers a comprehensive look at the current state of Python’s type system and developer tooling. With 1,241 responses (a 15% increase from last year), the survey captures the evolving sentiment, challenges, and opportunities around Python typing in the [...]\nRead More...\nThe post Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption appeared first on Engineering at Meta.",
+    "title": "자전거 펌프로 자동차 타이어 공기 주입하기",
+    "description": "겨울이 되어서 날씨가 추워지니 자동차 타이어의 공기압이 낮다는 경고가 떴다. 과거에는 공기압 경고가 뜨면 긴급 출동을 불러서 공기를 보충하곤 했다. 그러다가 자동차 타이어나 자전거 타이어나 똑같다는 말을 들고 직접 공기를 채워봐야 겠다고 생각하고 있었는데 드디어 그 시간이 왔다.\n\r\n\r\n최근에는 자동차 타이어에 공기를 주입하는 키트가 자동차에 포함되어 있는 경우가 많고 따로 판매하기도 한다. 시거잭에 전원을 연결해서 공기압을 설정하고 타이어에 자동으로 공기를 주입하는 방식이다. 내차는 연식이 좀 되어서 없다.\n\r\n\r\n자전거는 자주 공기를 주입해야 해서 자전거용 펌프를 하나 구입해서 사용해왔다. 압력계도 달려 있고 공기 호스를 연결한 후에 위아래로 레버를 누르면 공기가 주입되는 방식이다. 공기 주입구의 종류가 여러가지여서 젠더도 포함이 되어 있고 주입구에 따라서 약간의 조작이 필요하다. 주입구 종류는 보통 던롭, 슈레더, 프레스타 등이 있는데 유투브를 좀 찾아보니 [자전거 관리] 공기압 넣는 방법ㅣ던롭ㅣ프레스타ㅣ슈레더 이 영상이 제일 이해하기 쉽게 설명해 주고 있다.\n\r\n\r\n오토바이나 자동차는 슈레더 방식을 많이 사용해서 자전거 펌프를 연결하고 자전거 공기 주입하듯이 하면 된다. 다만 자전거에 비해서 타이어가 훨씬 두껍고 공기도 많이 들어가서 좀 힘이 든다. 뒷바퀴는 20psi, 앞바퀴는 24psi 정도였는데 다 33psi로 주입하니 매우 힘들었다.\n\r\n\r\n주입을 하고 차를 주행하니 바퀴 네개가 다 36psi로 나온다. 아마 자전거 펌프의 압력계가 좀 낮게 나오거나 주행을 좀 해서 압력이 올라간 것인 듯싶다. 직접 정비를 하니 힘은 좀 들었지만 상당히 뿌듯하다. 힘들어서 사진은 없다.\n\r\n\r\n추가로 psi를 '프사이'라고 읽었었는데 같은 발음의 다른 의미와 헷갈리지 않게 압력의 단위는 '피에스아이'라고 읽는게 좋다고 한다. 또 파스칼과는 뭐가 다른가 살펴봤더니 이거는 'Pound per Square Inch'라고 한다. 인치나 피트 같은 놈이다. 미국에서 주로 쓴다고 한다. 되도록 표준인 바(bar)나 파스칼(Pa)을 쓰도록 하자.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
-    "pubDate": "Mon, 22 Dec 2025 14:00:16 +0000",
+    "link": "https://hyeonseok.com/blog/947",
+    "pubDate": "Fri, 26 Dec 2025 10:18:25 GMT",
     "creator": "Unknown",
-    "categories": [
-      "Culture",
-      "DevInfra"
-    ]
+    "categories": []
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "루비는 공짜 점심",
+    "description": "공짜 점심은 없다는 말을 좋아합니다.\n하지만 가끔은 공짜 점심이라는 게 있는 거 아닌가? 생각이 들때도 있습니다.\n카톡 서버 개발을 하던 시절, 새로 나오는 루비를 수많은 서버 중 한 대에 설치해서 얼마나 성능이 좋아지나 측정해보곤 했습니다.\n이런 공짜 점심은 루비팀의 노고 덕분일 겁니다.\n오늘은 크리스마스.\nRuby 4.0 이네요. 메이저 버전 선물이라니 아이처럼 기쁩니다.\n\n2025년 크리스마스 선물은 Ruby 4.0\n\n\n함께 읽으면 좋은 글:\n루비가 느리다고?\nRuby는 프로그래머를 위한 선물\nRuby의 unless 쉽게 읽기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/12/25/ruby4.html",
+    "pubDate": "2025-12-25T06:52:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
     "imageUrl": "",
     "title": "[MULTI] 어쩌면 궁극의 복각, 어스토니시아 스토리",
     "description": "No description available",
@@ -74,7 +83,19 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
+    "imageUrl": "",
+    "title": "kaggle 설치 및 사용방법",
+    "description": "kaggle 은 윈도우버전과 호환성이 낮다. 우분투에서는 잘 실행된다. \n\n\n\n\n다음과 같은 순서로 설치하면 된다. \n1. kaggle 웹사이트 방문 후 가입한다.\n2. kaggle > account > setting > new API key 로 키값을 얻는다. 여기서 브라우저 설정에 따라 kaggle.json이 다운안되는 경우가 많다. 이 경우 다음과 같이 이 파일을 직접 작성해야 한다.\n\n\n\n이 파일은 다음 명령으로 생성할 수 있다. 터미널에 입력한다. \nmkdir -p ~/.kaggle\necho '{\"username\":\"<user name>\",\"key\":\"<your key>\"}' > ~/.kaggle/kaggle.json\nchmod 600 ~/.kaggle/kaggle.json\n그 결과 다음 형식의 파일이 생성될 것이다.\n{\"username\":\"\",\"key\":\"\"}\n3. 터미널에서 kaggle 을 설치한다. pip install kaggle\n4. 다음과 같이 경진대회 리스트 실행해 본다. \n실행 결과는 다음과 같다.\nvenv_lmm) ktw@tron:~$ kaggle competitions list\nref                     deadline             category                reward  teamCount  userHasEntered  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3       2026-04-15 23:59:00  Featured         2,207,152 Usd        976           False  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-surface-detection            2026-02-13 23:59:00  Research           200,000 Usd        446           False  \nhttps://www.kaggle.com/competitions/google-tunix-hackathon                          2026-01-12 23:59:00  Featured           100,000 Usd         97           False  \nhttps://www.kaggle.com/competitions/csiro-biomass                                   2026-01-28 23:59:00  Research            75,000 Usd       2494           False  \nhttps://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection  2026-01-15 23:59:00  Research            55,000 Usd       1029           False",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/12/kaggle.html",
+    "pubDate": "2025-12-25T10:54:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
     "imageUrl": "",
     "title": "How AI fixed my procrastination",
     "description": "I struggled to get started. For ages, I kept putting off building this website, creating a new programming language for Visual Studio, and coming up with fresh color themes. Each project looked overwhelming, and I couldn’t find the time or motivation to jump in. It all just felt like too much at once. But when […]\nThe post How AI fixed my procrastination appeared first on Visual Studio Blog.",
@@ -92,127 +113,7 @@
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "코드 리뷰만큼은 내가 한다",
-    "description": "카카오톡 정도 규모의 서비스를 배포하려면 큰 스트레스를 받습니다.\n이 무서운 배포를 원래는 다른 친구가 도맡아서 했습니다.\n\n배신자를 다른 팀으로 떠나보내던 날. (이제 다들 거물이 되어 사진은 모자이크 처리 했습니다)\n그후 배포는 주로 제가 하게 되었던 것 같습니다.\n오랜만에 지인들을 만나 요즘에 어떻게 코딩하는지 대화를 나눴습니다.\n이런 얘기를 들으면 정신이 혼미해집니다.\n저는 오래 전부터 코드 diff를 읽을 때 소스트리를 사용하고 있습니다.\n소스트리에서 diff를 읽는 것은 예전이나 지금이나 저의 중요한 일과입니다.\n함께 읽으면 좋은 글:\n카톡 서버 개발의 추억\n클로드코드 Max 사용기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/12/24/code-review.html",
-    "pubDate": "2025-12-24T05:27:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "루비는 공짜 점심",
-    "description": "공짜 점심은 없다는 말을 좋아합니다.\n하지만 가끔은 공짜 점심이라는 게 있는 거 아닌가? 생각이 들때도 있습니다.\n카톡 서버 개발을 하던 시절, 새로 나오는 루비를 수많은 서버 중 한 대에 설치해서 얼마나 성능이 좋아지나 측정해보곤 했습니다.\n이런 공짜 점심은 루비팀의 노고 덕분일 겁니다.\n오늘은 크리스마스.\nRuby 4.0 이네요. 메이저 버전 선물이라니 아이처럼 기쁩니다.\n\n2025년 크리스마스 선물은 Ruby 4.0\n\n\n함께 읽으면 좋은 글:\n루비가 느리다고?\nRuby는 프로그래머를 위한 선물\nRuby의 unless 쉽게 읽기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/12/25/ruby4.html",
-    "pubDate": "2025-12-25T06:52:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 9,
-    "imageUrl": "",
-    "title": "Gemini CLI 사용법 - QnA 게시판 만들기(feat. SpecKit)",
-    "description": "안녕하세요. 이번 글은 Gemini CLI, SpecKit, Supabase, Vercel을 활용해 QnA 시스템을 구현하는 내용에 대해 작성한 글입니다.\nGemini CLI 설정부터 SpecKit을 사용하는 흐름, Supabase 설정 및 UI 개선하는 과정을 담았습니다.\n키워드 : Gemini CLI 사용법, Gemini CLI with SpecKit, Supabase, Vercel, Gemini Code Assist\n\n\nGemini CLI\n소개\nGemini CLI는 Google의 AI 모델(Gemini)을 CLI 환경에서 사용할 수 있게 해주는 개발자 도구\n최근 터미널 기반의 제품이 많이 나오는데, 직접 사용해보면 생산성이 많이 좋아지는 것을 느낄 수 있음\nGemini 모델의 장점 때문에 Gemini CLI를 쓰게 됨\n    \n(1) 긴 컨텍스트 : 컨텍스트를 많이 넣을 수 있기 때문에 복잡한 작업, 많은 컨텍스트가 필요할 때 유리\n(2) 가격 : Gemini 모델의 가격은 다른 모델의 가격 대비 엄청 저렴함(특히 Gemini Flash Lite가 저렴해서 자주 사용함)\n공식 문서, Docs\nGemini CLI 설치\nGemini CLI는 Node.js 환경에서 동작하므로, 사전에 Node.js가 설치되어 있어야 함\n    \n만약 Node가 설치되어 있지 않다면 Node.js 페이지를 확인해서 Node 설치\nnpm으로 글로벌하게 설치\n\n  npm install -g @google/gemini-cli\n\n    \nGemini CLI 실행\n터미널에서 gemini 입력 후 엔터\n    \n만약 첫 실행이면 인증 방식을 선택하게 됨\n구글 계정 로그인, API Key 방식, 구글 클라우드의 Vertex AI를 통해 인증할 수 있음\n저는 Gemini를 구독하고 있어서 구글 로그인으로 선택함\n\n/model을 입력하면 모델을 선택할 수 있음\n    \nPro (gemini-3-pro-preview, gemini-2.5-pro)로 설정\n\nGemini CLI 주요 명령어\n명령어\n      설명\n    \n/help\n      사용 가능한 명령어 목록 확인\n    \n/model\n      모델 선택 (gemini-3-pro 등)\n    \n/memory show\n      현재 로드된 GEMINI.md 내용 확인\n    \n/memory refresh\n      GEMINI.md 파일 다시 로드\n    \n/memory add <text>\n      메모리에 텍스트 추가\n    \n/chat\n      대화 저장/불러오기/공유\n    \n/chat save <tag>\n      현재 대화를 태그로 저장\n    \n/chat resume <tag>\n      저장된 대화 이어서 진행\n    \n/mcp\n      MCP 서버 목록 및 상태 확인\n    \n/tools\n      사용 가능한 도구 목록\n    \n/stats\n      토큰 사용량, 세션 시간 등 통계\n    \n/restore\n      체크포인트로 롤백 (파일 변경 전 상태)\n    \n/clear\n      터미널 화면 초기화 (Ctrl+L)\n    \n/compress\n      대화 컨텍스트를 요약해서 토큰 절약\n    \n/copy\n      마지막 응답을 클립보드에 복사\n    \n/settings\n      설정 편집기 열기\n    \nstats 입력시 아래와 같이 Session의 통계 정보를 제공함\n\nExtensions\n    \n다양한 Extensions이 존재하며, 설치하고 싶으면 아래와 같이 실행(나노바나나 Extension)\n\n  gemini extensions install https://github.com/gemini-cli-extensions/nanobanana\n\n    \nGEMINI.md 설정\nGEMINI.md는 Gemini CLI에게 프로젝트 Context와 작업 규칙(Rules)을 알려주는 설정 파일\n    \n이 파일에 작성한 내용은 모든 대화에서 시스템 프롬프트처럼 적용됨\nGemini CLI는 여러 위치의 GEMINI.md를 자동으로 찾아서 합쳐줌\n    \n아래 순서대로 로드되며, 모든 파일의 내용이 합쳐짐. 같은 항목에 대해 충돌이 있으면 하위 파일이 우선 적용됨(프로젝트가 글로벌보다 더 우선 적용)\n\n  # 1) 글로벌(모든 프로젝트 공통) : 공통 규칙, 한국어 사용 등\n  ~/.gemini/GEMINI.md      \n\t\n  # 2) 프로젝트 루트 : 기술 스택, 구조 위주\n  /project-root/GEMINI.md \n\t\n  # 3) 하위 디렉토리(해당 폴더에서 작업할 경우)\n  /project-root/src/GEMINI.md\n\n    \n현재 로드된 컨텍스트는 /memory show 명령어로 확인할 수 있으며, CLI 하단에 로드된 파일 개수가 표시됨\nGEMINI.md에 자주 들어가는 내용\n    \n기술 스택 : Python 3.13\n코딩 컨벤션 : 네이밍 컨벤션\n프로젝트 구조 : 폴더 설명\n에러 처리 방식, API 호출 패턴\n금지 사항 : 특정 라이브러리 사용 금지\n참고 문서 : @로 외부 파일 import 가능\n다른 파일을 Import해서 불러오고 싶을 때는 @을 사용함. 프로젝트 문서나 스타일 가이드를 분리해서 관리할 때 유용함\n\n  # GEMINI.md \n\t\n  ## Project Context \n  @docs/architecture.md \n  @docs/api-spec.md \n\n    \nGEMINI.md를 수정했으면 /memory refresh로 반영해야 함\n컨텍스트가 길다고 좋은 것은 아니므로 이 파일도 계속 관리해야 함\n\n\nSpecKit을 활용한 SDD 개발\n소개\nSpecKit은 GitHub에서 만든 오픈소스로 SDD(Spec Driven Development) 도구\n    \nAI 코딩 에이전트(Gemini CLI, Claude Code 등)와 함께 사용하도록 설계됨\n만들어진 계기\n    \nAI에게 그냥 A 만들어줘라고 하면 의도와 다르게 나오거나 아키텍처가 엉망인 경우가 많음. 이 문제를 해결하기 위해 SpecKit은 코드 작성 전에 Spec을 정의하고 이를 기반으로 AI가 구현하도록 유도함\n이 Spec을 사람이 리뷰하면 되고, 리뷰하는 과정도 이 도구 사용법 안에 자연스레 존재함\n    \n코드보다 이 Spec을 더 잘 관리하고, 잘 작성하는 것이 중요하다는 의견이 있는데, 저도 동의함. 기본적인 문서 작성이 더 중요해지는 시기\nWorkflow 흐름\n    \n크게 6단계로 설명할 수 있음\n(1) Specify : 기능 요구사항 정의(기술 스택이 아닌 무엇을 만들지)\n(2) Clarify : 애매한 부분, 의사결정이 필요한 부분을 질문하며 구체화\n(3) Plan : 기술 스택, 아키텍처 등 계획을 세움\n(4) Tasks : Plan을 기반으로 구현할 Task 생성\n(5) Analyze : Spec과 Task의 일관성 검증\n(6) Implement : Task 기반으로 코드 구현\nSpecKit 설치하기\nPython의 uv 설치\n\n  curl -LsSf https://astral.sh/uv/install.sh | sh\n\n    \nSpecKit 글로벌 설치\n\n  uv tool install specify-cli --from git+https://github.com/github/spec-kit.git\n\n    \nSpecKit 프로젝트 설정\nSpecKit 프로젝트 초기 설정\n\n  specify init ask-kyleschool --ai gemini\n\n    \n만약 이미 폴더가 생성되어 있고, 현재 폴더에서 설정하고 싶은 경우\n\n  cd existing-project \n  specify init . --ai gemini\n\n    \n\n이제 .gemini 폴더와 .specify 폴더를 보면 SpecKit 관련 파일들이 생성된 것을 볼 수 있음\n\nGemini CLI에서도 커맨드가 보임\n\nSpecKit을 활용한 개발\n위에서 소개한 6단계를 실제로 진행\n단계\n      명령어\n      설명\n    \n1. Specify\n      /speckit.specify\n      기능 요구사항 정의\n    \n2. Clarify\n      /speckit.clarify\n      애매한 부분 구체화\n    \n3. Plan\n      /speckit.plan\n      기술 스택, 아키텍처 계획\n    \n4. Tasks\n      /speckit.tasks\n      구현할 태스크 생성\n    \n5. Analyze\n      /speckit.analyze\n      Spec-Task 일관성 검증\n    \n6. Implement\n      /speckit.implement\n      코드 구현\n    \nSpecify로 요구사항 구체화\n\n/speckit.specify \"SQL 강의를 진행하는데, 학생들이 자유롭게 질문을 남기면 AI가 자동으로 답변을 남겨주는 플랫폼을  만들고 싶어.\"\n\n\n조금 시간이 지나면 Branch, Spec이 완성됨\n    \n여기서 디자인적 요소는 제외하고 기능 구현에 집중함\n\nClarify를 통해 구체화\n이제 clarify를 입력해서 애매한 부분에 대해 구체화를 진행\n\n/speckit.clarify\n\n\n아래 화면처럼 질문들이 나타나고, 답변하면 됨\n\n“Short. supabase를 사용하고 Social Login을 진행해”라고 답변함\n이번엔 모델 질문\n\nGemini 2.5 Flash Lite를 사용하라고 답하고, 다른 질문들도 답변하고 이제 모두 Clarify 됨\n\nPlan : 계획 생성\n\n/speckit.plan\n\n\nplan이 모두 세워짐\n\nTasks : Task 생성\n이제 tasks 실행\n\n/speckit.tasks\n\n\n이제 tasks 생성 완료\n\n생성된 tasks를 확인해보니 다음과 같음\n\nAnalyze : Spec과 Task의 일관성 검증\n\n/speckit.analyze\n\n\nSpecKit이 분석(analyze) 도중 Critical 이슈를 감지하면, 사용자에게 해결 방향을 물어봄\n\nCritical 이슈를 해결하기 위해 Tasks.md 수정하라고 지시함\n    \nConstitution Alignment Issue\nSpecKit 기본 원칙(constitution)에 “테스트 먼저 작성(Test-First)”이 필수로 되어 있음\n근데 현재 tasks.md를 보니 테스트 작성 태스크가 없거나 너무 뒤에 있음 (T025/T026이 마지막 폴리싱 단계)\n요약하면 테스트 먼저 써야 하는데 구현 태스크만 잔뜩 있어서 이슈 제시\n\n위와 같이 tasks.md를 수정함\n    \nTest tasks 추가 : Phase 3, 4, 5에 테스트 Task 추가 (Test-First 원칙 준수)\nRLS task 명시 : “같은 강의의 질문만 보이게” 가시성 규칙 명확히 함 (FR-009)\nInput Sanitization : 보안용 입력값 검증 Task 추가 (T012)\nDependencies 업데이트 : 테스트 도구 설치(T002)\nImplement : 코드 구현\n이제 코드 구현. 이 작업은 앞선 작업들보다 시간이 더 소요됨\n\n/speckit.implement\n\n\n약 13분 정도 소요됨. 이 시간엔 위에서 작성된 Spec 문서를 다시 확인하거나 인프라 작업을 준비함(DB 등)\n\n코드 구현 후, 이제 어떻게 진행하면 좋을지 물어봄(=인프라 작업 등의 안내를 받기 위해)\n\n\n\n환경 설정\n앞서 구현한 코드를 실행하기 위해 Supabase 및 Gemini API 설정 진행\nSupabase 설정\nSupabase 가입 후 새 프로젝트 생성\n\n프로젝트 Settings - API Keys - Legacy anon, service_role API Keys를 누르면 anon_key를 확인할 수 있음\n\nSupabase URL은 Settings - Data API - Project URL에서 확인할 수 있음\n\n위 두 키를 .env.local에 저장함. 이 파일은 .gitignore에 추가되어야 함(Push 방지)\nGemini API 설정\nAI Studio에서 생성할 수 있음\n홈페이지 접속 후 Get API Key - API 키 만들기 - 이름 설정하면 Key가 저장됨\nSupabase와 마찬가지로 Gemini API Key를 .env.local에 저장함\nSupabase - Database 생성\nsupabase/migrations/20251220_init_schema.sql의 내용을 Supabase SQL Editor에서 실행\n\n이제 필요한 Database가 생성됨\n소셜 로그인 설정\n소셜 로그인 설정을 하기 위해서 구글 클라우드 계정이 필요함\n    \n만약 이 과정이 번거로우면 처음엔 소셜 로그인 설정을 추가하지 않아도 무방함. 하지만 서비스로 만들 땐 소셜 로그인을 지원하는 것이 필요함\n구글 클라우드 계정을 하나 생성한 후, Auth 페이지로 이동\n만약 처음 생성했다면 아무것도 존재하지 않고, 시작하기 버튼을 클릭해야 함\n\n앱 정보를 입력하고 나머지도 순차적으로 입력 후 저장\n    \n대상 : 외부\n\n그 후, 클라이언트를 클릭한 후, 클라이언트 만들기 클릭\n\n클라이언트를 만들면 다음과 같이 설정이 저장됨. JSON 다운로드를 해두는 것을 추천(잃어버리지 않도록 주의. 다운로드 폴더에 그대로 두지 않기)\n\n이제 Supabase로 돌아와서 Authentication - Sign In / Providers - Google을 선택\n\nEnable Sign in with Google을 설정하고 위에서 만든 클라이언트 id와 클라이언트 secret 값을 붙여넣기\n    \n하단에 있는 Callback URL 값은 이후에 사용할 예정이므로 복사 클릭\n\n다시 구글 클라우드의 Client쪽에 다음과 같이 추가\n    \n승인된 JavaScript 원본 : 실행시킬 URL 입력. 지금은 배포하지 않고 제 로컬에서 실행할 예정이라 localhost:3000만 추가함\n        \n나중에 배포하면 배포한 URL 웹페이지를 입력하면 됨\n승인된 리디렉션 URI : 위에 Google 로그인에서 복사한 Callback URL 입력\n\n\n\n개발 결과 확인\n이제 인프라 설정이 완료되었으므로, 터미널에서 아래 명령어 실행해서 개발 결과 확인\n\nnpm run dev\n\n\nlocalhost:3000으로 접속하면 다음과 같이 뜸\n\n구글로 로그인을 시도하니 정상적으로 로그인 완료\n로그인 후 닉네임 설정을 하게 됨\n\n강의 페이지로 이동\n\n‘BigQuery 쿼리를 실행하기 위한 기본적인 쿼리 구성 요소를 알려주세요’라고 질문함\n\n그 결과 질문이 올라옴\n\n답변은 다음과 같이 달림. 단, 마크다운 설정이 필요할 것 같음\n\n만약 실행하는 과정에서 오류가 발생하면 Gemini CLI에게 오류를 보내고 수정하라고 가이드하면 됨. 만약 반복된다면 전체적으로 점검하라고 요청하는 것을 추천\n\n\nUI 개선\n새로운 Spec을 통해 디자인 개선하기\n기능 구현은 되었고, 디자인을 개선하기 위해 다시 Spec을 작성함\n\n위에서 진행한 것처럼 clarify, plan, tasks, analyze, implement를 실행한 후 기다림\n    \n이제 마크다운을 잘 표현하고, 디자인이 살짝 개선됨\n\n더 자세한 지시를 통해 디자인 개선하기\n만들어진 디자인이 마음에 들지 않아 어떻게 개선할지 고민하다가, Claude Code의 frontend-design 스킬을 참고해서 개선하라고 지시함\nGEMINI.md 파일에 아래 내용을 추가함\n\n  ## Frontend Design\n  - Please refer to @frontend-design.md when implementing frontend designs\n\n    \nGEMINI.md를 수정한 후, 해당 지시를 기반으로 디자인을 개선하라고 지시함\n\n처음 버전보다 더 세련된 느낌. 만약 내가 원하는 방향성이 있다면 디자인 레퍼런스를 구체적으로 줄수록 만족스러운 결과가 나올 수 있음\n\n\nGemini CLI에게 아이디어 문의\n이제 또 무엇을 하면 좋을지 아이디어를 물어봤더니, 좋은 아이디어를 줬음\n\n위 내용을 모두 모아서 하나의 Spec으로 정의해서 구현해달라고 지시함\n    \n강의 클릭시 대기 시간에 system_log 형식으로 구현함\n\n\nGemini Code Assist를 활용한 AI 코드 리뷰\n이제 GitHub에 Push함. 처음 작업이라 main에 바로 Push했으나, 그 이후엔 브랜치를 새롭게 만들어서 확인하는 것을 추천함\nGemini Code Assist를 설치하면 GitHub에서 Pull Request가 발생할 때 코드를 Gemini가 리뷰해줌. 이 설정을 해두는 것을 추천\n설정\nGemini Code Assist GitHub App 페이지 이동 -> Configure 클릭\n\n로그인을 완료한 후, 사용할 GitHub Repository를 추가\n\nAI 코드 리뷰 결과\n이렇게 설정한 후, Pull Request를 하면 아래와 같이 리뷰가 달림(아래 리뷰는 다른 Repo에서 Gemini Code Assist가 리뷰한 내용을 가져옴)\n\n\n\n\nVercel 배포\nSupabase와 Vercel이 잘 통합되어 있으므로, Vercel을 통해 배포하는 것을 추천\n이 부분에 대해 글을 작성할 예정은 아니였지만, 간단하게라도 가이드를 남겨봄\nVercel - New Project를 누르면 GitHub에서 Import를 할 수 있음\n\n\nSupabase URL, Anon Key를 추가하면 어렵지 않게 배포할 수 있음\nVercel 배포가 완료되면 새로운 URL이 생성됨. 이 URL을 Google Cloud OAuth(위에 소셜 로그인 부분)에 가서 승인된 JavaScript 원본에 Vercel URL을 추가해야 함\n그리고 Supabase에서도 URL 설정을 추가해야 함\n    \nSupabase > Authentication > URL Configuration에서 Site URL을 Vercel URL로 변경\n\n\n후기\nGemini CLI도 많이 사용하면서 도구에 적응하게 됨. 이런 도구들은 실제로 써보고, 피드백 루프를 돌리는 과정이 필요함\nGemini CLI의 Release Notes를 보면 새로운 기능들이 계속 생기고 있음. 앞으로 계속 더 발전할 것 같음\nClaude Code와 Gemini CLI 둘 다 사용하게 되었는데, 필요에 맞게 사용할 수 있도록 계속 시도해볼 예정\n    \nGemini CLI가 컨텍스트가 많기 때문에 핵심 AI 에이전트로 쓰고, Gemini CLI에서 Claude Code나 Codex를 실행하게 하는 것도 방법이고, 이미 이런 시도를 하는 분들이 계심\nAI 에이전트 도구들의 설정을 동일하게 저장해서 (예를 들어 AGENT.md를 만들어서) 관리하는 것이 필요할 듯. 새로운 도구로 이사하는 것이 번거롭게 느껴질 수 있음\n\n\n\n이 글은 GDE 프로그램에서 진행한 AI Sprint에 참여하며 작성한 글입니다.\n\nGoogle Cloud credits are provided for this project. #AISprint",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://zzsza.github.io/ai/2025/12/21/gemini-cli-qna-board/",
-    "pubDate": "Sun, 21 Dec 2025 00:00:00 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "basic",
-      "ai"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "코드 품질 개선 기법 27편: 티끌이 모여 태산이 되듯 의존성도 쌓이면",
-    "description": "이 글은 2024년 5월 30일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-27",
-    "pubDate": "Tue, 23 Dec 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Ruby Turns 30: A Celebration of Code, Community, and Creativity",
-    "description": "Created by Yukihiro “Matz” Matsumoto and first released in 1995, Ruby arrived with a purpose that was simple but profound: to make coding more human, more intuitive, and more enjoyable. Its object-oriented model, dynamic typing, and elegant syntax offered a fresh alternative to the heavier and more complex languages of that era. As Ruby marks […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ruby/2025/12/ruby-turns-30-a-celebration-of-code-community-and-creativity/",
-    "pubDate": "Thu, 25 Dec 2025 09:11:01 +0000",
-    "creator": "Alexey Varfolomeev",
-    "categories": [
-      "rubymine",
-      "ruby",
-      "ruby-on-rails"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "자전거 펌프로 자동차 타이어 공기 주입하기",
-    "description": "겨울이 되어서 날씨가 추워지니 자동차 타이어의 공기압이 낮다는 경고가 떴다. 과거에는 공기압 경고가 뜨면 긴급 출동을 불러서 공기를 보충하곤 했다. 그러다가 자동차 타이어나 자전거 타이어나 똑같다는 말을 들고 직접 공기를 채워봐야 겠다고 생각하고 있었는데 드디어 그 시간이 왔다.\n\r\n\r\n최근에는 자동차 타이어에 공기를 주입하는 키트가 자동차에 포함되어 있는 경우가 많고 따로 판매하기도 한다. 시거잭에 전원을 연결해서 공기압을 설정하고 타이어에 자동으로 공기를 주입하는 방식이다. 내차는 연식이 좀 되어서 없다.\n\r\n\r\n자전거는 자주 공기를 주입해야 해서 자전거용 펌프를 하나 구입해서 사용해왔다. 압력계도 달려 있고 공기 호스를 연결한 후에 위아래로 레버를 누르면 공기가 주입되는 방식이다. 공기 주입구의 종류가 여러가지여서 젠더도 포함이 되어 있고 주입구에 따라서 약간의 조작이 필요하다. 주입구 종류는 보통 던롭, 슈레더, 프레스타 등이 있는데 유투브를 좀 찾아보니 [자전거 관리] 공기압 넣는 방법ㅣ던롭ㅣ프레스타ㅣ슈레더 이 영상이 제일 이해하기 쉽게 설명해 주고 있다.\n\r\n\r\n오토바이나 자동차는 슈레더 방식을 많이 사용해서 자전거 펌프를 연결하고 자전거 공기 주입하듯이 하면 된다. 다만 자전거에 비해서 타이어가 훨씬 두껍고 공기도 많이 들어가서 좀 힘이 든다. 뒷바퀴는 20psi, 앞바퀴는 24psi 정도였는데 다 33psi로 주입하니 매우 힘들었다.\n\r\n\r\n주입을 하고 차를 주행하니 바퀴 네개가 다 36psi로 나온다. 아마 자전거 펌프의 압력계가 좀 낮게 나오거나 주행을 좀 해서 압력이 올라간 것인 듯싶다. 직접 정비를 하니 힘은 좀 들었지만 상당히 뿌듯하다. 힘들어서 사진은 없다.\n\r\n\r\n추가로 psi를 '프사이'라고 읽었었는데 같은 발음의 다른 의미와 헷갈리지 않게 압력의 단위는 '피에스아이'라고 읽는게 좋다고 한다. 또 파스칼과는 뭐가 다른가 살펴봤더니 이거는 'Pound per Square Inch'라고 한다. 인치나 피트 같은 놈이다. 미국에서 주로 쓴다고 한다. 되도록 표준인 바(bar)나 파스칼(Pa)을 쓰도록 하자.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hyeonseok.com/blog/947",
-    "pubDate": "Fri, 26 Dec 2025 10:18:25 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "TeamCity Pipelines Is Now Part of TeamCity Enterprise",
-    "description": "We introduced TeamCity Pipelines in March 2024 to make CI/CD setup simpler and more intuitive, without limiting what teams can build and automate. Pipelines brought a new workflow focused on a more guided configuration experience, including a visual editor with drag-and-drop dependencies, YAML for defining building routines from scratch, and a set of practical configuration […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/12/pipelines-sunset/",
-    "pubDate": "Fri, 26 Dec 2025 16:19:46 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "news",
-      "teamcity-2",
-      "update",
-      "teamcity-pipelines-pulse"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "기획부터 썸네일까지 AI 원스톱! 유튜브 플레이리스트 제작 치트키 공개",
-    "description": "유튜브 플레이리스트 채널, 영상을 직접 편집해야 한다는 부담감 때문에 시작도 못 해보셨나요? 더 이상 그런 고민은 필요 없습니다. 기획부터 음악, 썸네일, 그리고 전문가급 오디오 스펙트럼 영상 제작까지 AI가 원스톱으로 해결해주는 신세계를 경험해보세요. 클릭 몇 번으로 누구나 쉽게 유튜브 수익화를 달성할 수 있는 궁극의 치트키를 지금 바로 공개합니다.\n요즘 유튜브에서 잔잔한 음악과 함께 멋진 배경 영상이 흘러나오는 플레이리스트 채널이 큰 인기를 끌고 있죠. 로파이걸(Lofi Girl) 같은 채널은 이런 플레이리스트 영상만으로도 어마어마한 조회수와 함께 상당한 광고 수익을 올리고 있다고 알려져 있습니다. 많은 분들이 '나도 한번 해볼까?' 생각하시지만, 막상 시작하려니 막막한 부분이 한두 가지가 아니었을 겁니다.\n\n\n \n과연 내가 어떤 컨셉으로 채널을 만들지, 저작권 걱정 없는 음원은 어디서 구해야 할지, 게다가 프리미어나 파이널컷 같은 복잡한 편집 프로그램을 다뤄야 한다는 압박감까지… 정말이지 시작도 전에 지쳐버리기 일쑤였죠. 썸네일 디자인도 빼놓을 수 없고요. 이 모든 과정을 하나하나 배우려면 솔직히 시간과 노력이 정말 많이 들었습니다.\n그런데 말입니다. 이 모든 고민을 단숨에 날려버릴 놀라운 AI 솔루션이 등장했습니다. 이제 클릭 몇 번만으로 이 모든 과정을 해결하고 여러분만의 플레이리스트 채널을 운영하며 수익을 창출할 수 있게 되었어요. 자, 저와 함께 이 혁신적인 방법을 자세히 알아보시죠!\n  플레이리스트 채널, 왜 그렇게 어려웠을까요?\n먼저, 기존의 플레이리스트 채널 제작 방식이 왜 그렇게 만만치 않았는지 그 어려움을 짚어보겠습니다. 크게 세 단계로 나눌 수 있는데, 이 과정 하나하나가 결코 쉽지 않았어요.\n1. 컨셉 설정과 음원 수급의 딜레마\n단순히 '좋은 노래 모음'으로는 경쟁력을 갖기 어려웠죠. '비 오는 밤 성수동 카페', '새벽 3시 집중력을 높이는 로파이'처럼 구체적인 상황과 감성을 담은 컨셉을 잡아야 하는데, 여기서부터 많은 분들이 막막함을 느꼈을 거예요. 게다가 저작권 걱정 없이 좋은 음원을 확보하는 건 또 다른 큰 산이었습니다. 유튜브 오디오 보관함이나 NCS 같은 무료 음원도 있지만, 너무 많은 사람들이 사용해서 차별화가 어렵다는 단점이 있었죠.\n  AI 음원의 등장: 요즘은 수노(Suno AI)나 유디오(Udio) 같은 AI로 직접 음원을 만드는 추세예요. 하지만 이것도 처음에는 '프롬프트'를 어떻게 작성해야 원하는 결과물을 얻을 수 있을지 정말 어렵게 느껴질 수 있습니다.\n2. 시각 자료 제작의 복잡성\n음악만 계속 틀어놓으면 시청자들이 금세 지루함을 느낄 수 있죠. 그래서 배경 영상이나 이미지가 필수인데, 미드저니(Midjourney)나 캔바(Canva) 같은 도구를 배우는 것도 일이었어요. 거기서 끝이 아니죠! 정적인 이미지에 오디오 스펙트럼 같은 움직임을 더해서 시청자의 시선을 사로잡아야 했습니다. 그런데 이런 효과를 넣으려면 프리미어 프로나 캡컷(CapCut) 같은 전문 영상 편집 프로그램을 배워야 하니, 이 단계에서 좌절하는 분들이 많았을 겁니다.\n3. 긴 영상 편집과 렌더링의 고통\n배경 영상 위에 음원을 배치하고, 화면 하단에 곡 제목을 표시하고, 여러 영상 효과를 반영하는 것 자체가 어려운 작업입니다. 특히 플레이리스트 영상처럼 1시간 이상의 긴 영상을 원활하게 편집하고 렌더링하려면 앞서 언급한 전문 영상 편집 프로그램은 거의 필수적이죠. 배우는 것도 어렵지만, 저사양 컴퓨터로는 렌더링에만 반나절이 걸리는 경우도 허다해서 '대체 언제 다 만들지?' 하는 생각이 절로 들었습니다.\n\n\n4. 시간 소모와 초기 노출의 한계\n이 모든 과정을 숙련자가 해도 영상 하나 만드는 데 최소 3시간에서 5시간은 족히 걸렸습니다. 기획/선곡 1~2시간, 시각 자료 제작 30분~1시간, 편집/렌더링 1~2시간, 유튜브 업로드/SEO 30분… 매일 이렇게 작업하려면 정말 힘들었겠죠? 게다가 이미 로파이걸 같은 거대 채널들이 시장을 장악하고 있어서 신규 채널이 알고리즘의 선택을 받기까지는 최소 3~6개월 이상의 꾸준한 노력이 필요했습니다. 매번 새로운 무드를 찾아내고 수십 곡의 리스트를 짜는 작업은 창의적인 에너지를 엄청나게 소모하며 소재 고갈에 빠지기 쉬웠고요.\n하지만 오늘 제가 소개해드릴 방법은 이 모든 과정을 획기적으로 단축시켜줍니다. 특히 AI 도구를 활용하면 저작권 문제에서 훨씬 자유롭고, 제작 시간도 놀랍도록 줄일 수 있으니, 정말 솔깃하지 않나요? 이제 본격적으로 강력한 두 가지 앱을 소개해드릴게요!\n  AI 플레이리스트 제작, 시작 전 준비물!\n자, 그럼 이 놀라운 AI 도구들을 사용하기 전에 몇 가지 준비할 것이 있습니다. 생각보다 간단하니 걱정 마세요!\n구글 아이디 및 API 발급: 구글의 최신 AI 모델인 제미나이를 기반으로 작동하는 'AI 플레이리스트 크리에이터'를 사용하려면 구글 AI 스튜디오 사용을 위한 구글 아이디와 API 발급이 필요해요. API 발급 방법은 제가 다른 영상에서 상세히 다뤘으니, 본문이나 댓글에 있는 링크를 참고하셔서 먼저 발급받아주세요.\nSuno AI 가입: 음악 생성을 위해 suno.com에 접속하셔서 간단하게 가입해주셔야 합니다.\n⚠️ 중요! Suno AI 유료 플랜: Suno AI에서 생성한 음원을 유튜브 수익 창출이나 음원 발매 등 상업적으로 활용하려면 반드시 유료 플랜에 가입해야 합니다. 이 점 꼭 기억해 주세요!\n이 두 가지 준비물이 갖춰졌다면, 이제 본격적으로 AI와 함께 플레이리스트 채널을 만드는 여정을 시작해볼까요?\n  AI 플레이리스트 크리에이터: 기획부터 썸네일까지 원스톱!\n이 앱은 구글의 최신 AI 모델인 제미나이를 기반으로 작동하는데요. 단순히 아이디어만 툭 던져주는 수준이 아닙니다. 실제 음악 생성에 필요한 전문적인 프롬프트부터 채널 운영에 필수적인 모든 요소를 그야말로 원스톱으로 제공해줘요. 제가 직접 써보니, 정말이지 '이게 되네?' 싶을 정도로 놀라웠습니다.\n\n\n✨ AI 플레이리스트 크리에이터의 핵심 기능 4가지\n클릭을 부르는 감성적인 제목 생성: '재즈 음악'처럼 평범한 제목이 아닌, 이모지와 감성적인 문구, 그리고 검색 키워드까지 고려한 매력적인 제목을 뽑아줍니다. 예를 들어, ' ️ 비 오는 밤, 따뜻한 커피와 함께 듣는 감성 재즈'처럼요.\nSuno 5.0에 최적화된 프롬프트 생성: 단순히 '재즈 만들어줘'가 아닙니다. 악기 구성, 공간감, 연주 스타일까지 아주 디테일하게 작성된 전문적인 프롬프트를 생성해줘요. 여러분은 그저 복사해서 Suno AI에 붙여넣기만 하면 끝입니다!\n맞춤형 가사 생성: 인트로, 벌스, 코러스 같은 곡 구조를 설정해서 가사를 뽑을 수 있고요. 가사가 없는 연주곡 모드도 지원하니, 다양한 컨셉을 시도해볼 수 있습니다.\n가장 중요한, 고퀄리티 썸네일 자동 생성: 배경에 'PLAYLIST'라는 문구가 자연스럽게 들어간 고퀄리티 이미지를 생성하고, 그 위에 원하는 감성 폰트로 제목까지 합성해줍니다. 포토샵 같은 전문 프로그램은 전혀 필요 없어요. 정말 정말 편리하죠!\n ️ AI 플레이리스트 크리에이터 사용법 (단계별 가이드)\n사용 편의성을 위해 화면을 양쪽으로 나누어 'AI 플레이리스트 크리에이터'와 'Suno AI'를 함께 실행하는 것을 추천해요. 그러면 작업 효율이 훨씬 높아집니다.\n장르 선택: 앱 첫 화면에서 플레이리스트 채널에서 가장 인기 있는 장르를 선택합니다. 만약 원하는 장르가 없다면 직접 입력할 수도 있어요. (예시: 로파이(Lo-Fi) 장르 선택)\n제목 선택: 선택한 장르에 적합한 제목 리스트가 생성되면, 그중 마음에 드는 감성적인 제목을 고릅니다. (예시: '비오는 날 창밖 보며 멍 때리기 좋은 감성' 선택)\n프롬프트 및 가사 설정: 화면이 바뀌면 왼쪽에 Suno AI용 프롬프트가 나타나요. 오른쪽에서는 생성할 가사의 언어와 곡 수를 선택하고, 곡의 구성을 설정합니다. 앱이 사용자가 선택한 내용에 적합한 곡 구성을 미리 추천해 주니 정말 편리하죠. 그 다음 가사에 적용할 비유와 은유의 정도를 선택하고, 인트로/아웃트로에도 가사를 포함할지 결정한 후 가사를 생성합니다. 연주곡을 원한다면 '가사 없음'을 선택하면 됩니다.\nSEO 정보 생성 및 저장: 빠른 유튜브 SEO 작업을 위해 영상 제목, 설명, 해시태그, 키워드를 생성하는 기능이 있어요. 이걸 메모장에 미리 복사해두면 나중에 정말 유용하게 쓸 수 있습니다.\nSuno AI로 음악 생성: AI 플레이리스트 크리에이터에서 생성된 Suno AI용 프롬프트를 복사하여 Suno AI의 스타일 칸에 붙여넣습니다. 가사가 생성되면 제목과 가사를 각각 복사한 후 Suno AI에 붙여넣기 하고 'Create' 버튼을 클릭하여 곡을 생성합니다.\n썸네일 생성 및 다운로드: 곡이 생성되는 동안 유튜브 썸네일 탭으로 이동하여 스타일과 폰트를 선택한 후 '생성' 버튼을 클릭합니다. 플레이리스트 제목이 멋지게 적용된 썸네일이 생성되는데, 수정사항이 있다면 입력하여 이미지의 일관성을 유지한 채 원하는 내용만 수정할 수 있습니다. 마음에 드는 썸네일은 바로 다운로드하세요!\n곡 다운로드: Suno AI에서 생성된 로파이 음악을 들어보고, 만족스럽다면 가사만큼 같은 작업을 반복하여 곡을 생성한 후 모두 다운로드합니다.\n  스펙트럼 스튜디오: 영상 편집 없이 전문가급 영상 만들기!\n이제 Suno AI로 만든 음악 파일을 가지고 '스펙트럼 스튜디오'를 활용해 실제 플레이리스트 영상을 만들어 볼 차례입니다. 이 도구는 정말이지 혁신적이라고 생각해요. 복잡한 영상 편집 프로그램 없이도 브라우저에서 바로 유튜브 플레이리스트 영상을 만들 수 있는 웹 기반 도구거든요!\n\n\n\n프리미어 프로나 파이널컷 같은 전문 편집 프로그램을 따로 배우지 않아도 되고, 프로그램을 설치할 필요도 없이 인터넷 브라우저만 있으면 어디서든 사용할 수 있다는 점이 정말 매력적입니다. 게다가, 앞서 소개한 AI 플레이리스트 크리에이터와 달리 AI 기능을 사용하지 않기 때문에 API 발급도 필요 없고, 가입만 하면 바로 사용할 수 있어요. 접근성이 정말 좋죠?\n  스펙트럼 스튜디오의 독보적인 강점 5가지\n환상적인 오디오 스펙트럼 기능: 음악에 반응해서 실시간으로 움직이는 시각화 효과를 만들어줍니다. 막대형, 원형, 파형 등 다양한 스타일을 선택할 수 있고, 색상부터 반응 민감도까지 세밀하게 조정해서 나만의 감성을 표현할 수 있어요.\n로고 배경 자동 제거: 포토샵 없이도 클릭 한 번으로 로고 배경을 깔끔하게 제거하여 영상에 자연스럽게 합성할 수 있습니다. 채널의 브랜딩을 강화하는 데 아주 유용하죠.\n감성적인 특수 효과와 필터: 물방울, 반짝이는 입자, 빈티지 필터 등을 추가하여 영상을 훨씬 풍성하고 감성적으로 만들 수 있습니다. 시청자들의 눈을 즐겁게 해줄 거예요.\n타임라인 자동 복사 기능: 버튼 한 번으로 유튜브 설명란에 들어갈 곡 제목과 시간 정보가 자동으로 복사됩니다. 일일이 시간을 적을 필요가 없으니 정말이지 시간을 엄청나게 아낄 수 있습니다!\n빠르고 안전한 로컬 렌더링 방식: 여러분의 파일을 서버로 보내지 않고 PC에서 바로 처리하기 때문에 개인정보 유출 걱정이 없고, 렌더링 속도도 빠르며 안전합니다.\n이 모든 강점 덕분에 2시간짜리 플레이리스트 영상을 편집부터 렌더링 완료까지 40분에서 50분이면 충분하다고 합니다. 기존 방식으로는 몇 시간씩 걸리던 작업을 1시간 안에 끝낼 수 있다니, 정말 놀랍지 않나요?\n⚙️ 스펙트럼 스튜디오 사용법 (단계별 가이드)\n음악 파일 업로드: Suno AI에서 작업한 음악 파일을 스펙트럼 스튜디오에 업로드합니다. 업로드한 파일의 재생 순서도 변경할 수 있으니 참고하세요.\n타임라인 복사: 상단에 있는 타임라인 복사 버튼을 클릭하면, 해당 곡으로 바로 이동할 수 있는 타임라인이 자동으로 생성됩니다. 이것도 메모장에 복사해 두면 유튜브 업로드 시 매우 유용해요.\n이미지 및 로고 등록: 앞서 AI 플레이리스트 크리에이터에서 만들어둔 썸네일 이미지를 등록합니다. 채널 로고가 있다면 함께 업로드할 수 있어요.\n재생 설정: 전체 음악을 몇 번 반복할지 재생 횟수를 선택하고 오디오 품질도 선택한 후 편집 스튜디오로 넘어갑니다.\n편집 스튜디오 설정:\n\n오디오 스펙트럼: 왼쪽에서 막대형, 미니막대형, 원형, 파형 등 다양한 스타일을 선택하고, 오른쪽 아래에서 스펙트럼의 위치, 크기, 스타일 등 세부 속성을 변경합니다.\n로고 조정: 오른쪽 위에서 업로드한 로고 이미지의 크기와 위치를 조절하고, 배경 제거 기능을 활용하여 깔끔하게 적용할 수 있습니다.\n배경 효과: 왼쪽 아래에서는 배경 이미지에 다양한 필터와 비네팅 효과를 줄 수 있습니다.\n특수 효과: 바로 아래에는 배경 이미지 위에 움직이는 물방울과 반짝임 특수효과를 적용하고, 이 효과들의 속성을 제어하는 특별한 기능이 있습니다.\n비디오 내보내기: 모든 설정이 완료되면 우측 상단의 '비디오 내보내기'를 클릭하고, 다음 화면에서 'MP4 렌더링 시작'을 클릭합니다. 저장할 파일명 설정 후 바로 렌더링이 시작되며, 짧은 시간 안에 고품질 영상이 완성됩니다.\n✅ 완성된 플레이리스트 영상, 유튜브에 업로드하기!\n이제 대망의 마지막 단계입니다! AI의 도움으로 완성된 플레이리스트 영상을 유튜브에 등록하는 방법을 알려드릴게요. 이 과정도 생각보다 어렵지 않으니 잘 따라와 주세요.\n영상 업로드: 유튜브 우측 상단의 '만들기'에서 '동영상 업로드'를 클릭하고, 스펙트럼 스튜디오에서 렌더링한 영상을 등록합니다.\n정보 입력: AI 플레이리스트 크리에이터에서 미리 복사해 둔 영상 제목을 붙여넣고, 영상 설명란에도 미리 준비한 설명, 해시태그, 타임라인을 붙여넣습니다. 썸네일도 등록하시고요.\n세부 설정: 몇 가지 옵션 사항에 체크하고, 키워드까지 붙여넣기 한 후 동영상 언어를 한국어로 변경합니다.\n공개 설정: 하단의 '다음'을 클릭하면 공개 설정 화면이 나옵니다. 유튜브가 업로드하고 화질 처리를 완료할 때까지는 일단 '비공개'로 설정해 두는 것이 좋습니다.\n영어 자막 추가 (선택 사항): 왼쪽 메뉴에서 '자막'을 선택하고 '언어 추가' 버튼 클릭 후 '영어'를 선택합니다. 그 다음 영어 우측의 '제목 및 설명 수정' 모드로 들어가서 제목, 영상 설명, 해시태그를 영어로 번역하여 붙여넣습니다. 이렇게 하면 영어권 국가에서 접속하는 시청자들에게 영상 제목과 설명이 영어로 보이게 되어 글로벌 시청자 유입에 유리합니다.\n최종 공개: 모든 설정이 완료되고 영상 처리가 끝나면, 비공개 영상을 '공개'로 변경하시면 됩니다.\n어때요, 정말 간단하죠? 이 과정들을 거치면 여러분의 플레이리스트 채널이 멋지게 세상에 공개될 것입니다.\n  핵심 요약\n1. AI 플레이리스트 크리에이터로 기획, 음악 프롬프트, 가사, 썸네일을 원스톱으로 생성해요.\n2. Suno AI 유료 플랜으로 상업적 이용 가능한 고품질 저작권 프리 음원을 만들 수 있어요.\n3. 스펙트럼 스튜디오로 복잡한 편집 없이 오디오 스펙트럼 영상을 초고속으로 만들어요.\n4. SEO 최적화된 업로드와 영어 자막 추가로 글로벌 시청자를 사로잡아요.\nAI 기술을 활용하면 누구나 쉽고 빠르게 유튜브 플레이리스트 채널 운영이 가능해집니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: AI 플레이리스트 채널이 왜 인기가 많나요?\nA1: 영상 편집이나 저작권 걱정 없이 AI 도구로 고품질의 플레이리스트 영상을 쉽고 빠르게 제작할 수 있기 때문입니다. 초기 진입 장벽이 낮아 누구나 쉽게 시작하여 수익을 창출할 수 있다는 점이 큰 장점이에요.\nQ2: Suno AI 유료 플랜은 왜 필요한가요?\nA2: Suno AI의 무료 플랜으로 생성한 음악은 상업적으로 이용할 수 없습니다. 유튜브 수익 창출이나 음원 발매 등 상업적 활용을 위해서는 반드시 유료 플랜에 가입해야 저작권 문제없이 안전하게 활동할 수 있어요.\nQ3: AI 플레이리스트 크리에이터와 스펙트럼 스튜디오의 주요 차이점은 무엇인가요?\nA3: AI 플레이리스트 크리에이터는 플레이리스트 기획, 음악 프롬프트, 가사, 썸네일 등 '콘텐츠 아이디어와 생성'에 중점을 둔 AI 기반 도구입니다. 반면 스펙트럼 스튜디오는 음악 파일과 배경 이미지를 활용하여 오디오 스펙트럼이 포함된 '실제 영상 제작'에 특화된 웹 기반 편집 도구이며, AI 기능을 사용하지 않아 API가 필요 없습니다.\nQ4: 로컬 렌더링 방식의 장점은 무엇인가요?\nA4: 로컬 렌더링은 개인의 컴퓨터에서 직접 영상 파일을 처리하기 때문에 서버로 파일을 전송할 필요가 없어 개인 정보 유출에 대한 걱정이 없습니다. 또한, 빠르고 안정적으로 고품질의 영상을 생성할 수 있다는 장점이 있습니다.\n자, 이것으로 기획부터 썸네일, 그리고 전문가급 영상 제작까지 AI로 원스톱으로 끝내는 유튜브 플레이리스트 채널 만들기 강의를 모두 마쳤습니다. 제가 직접 경험해보니, 이 두 가지 도구를 활용하면 과거에는 초보자들이 도전조차 하지 못했던 플레이리스트 영상을 정말 쉽고 빠르게 만들 수 있다는 것을 확신했습니다. 여러분도 이제 더 이상 어렵게 생각하지 마세요! AI가 여러분의 크리에이티브한 잠재력을 활짝 열어줄 것입니다.\n특히 오늘 소개해드린 'AI 플레이리스트 크리에이터' 앱은 영상 설명란 링크를 통해 무료로 배포할 예정이니 많은 관심 부탁드립니다. 또한, 어려운 영상 편집기 없이 몇 번의 클릭만으로 플레이리스트 영상을 만들 수 있는 '스펙트럼 스튜디오'는 채널 멤버십 여러분께만 게시물을 통해 공개하도록 하겠습니다.\n이 강의가 여러분의 성공적인 유튜브 플레이리스트 채널 운영에 큰 도움이 되었기를 진심으로 바랍니다. 여러분의 구독과 좋아요, 그리고 알림 설정은 제가 더 좋은 콘텐츠를 만드는 데 큰 힘이 됩니다. 감사합니다!\n  무료 앱 사용하\n1. 'AI 플레이리스트 크리에이터' 는 아래 링크에서 무료로 사용하세요. (단, 여러분의 api 키 발급을 해야 합니다.)\n\n \nAI Playlist Creator\n \nai-playlist-creator-bice.vercel.app\n\n \n2. ' 스펙트럼 스튜디오'는 GPT PARK 유튜브 채널 멤버십 가입후 게시물에서 제공하는 링크에서 무료 사용이 가능합니다.\n\n \nGPT PARK의 AI팩트\n가장 빠르고 알찬 AI 정보를 공개합니다. 유용한 AI 인사이트 : https://muzbox.tistory.com/category/AI%2C%20미래기술 블로그 수익화 인사이트 : https://smart-it-life.tistory.com/category/블로그%20수익화 유용한 자료\nwww.youtube.com",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483694",
-    "pubDate": "Sun, 21 Dec 2025 09:26:57 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "ai 유튜브",
-      "AI 플레이리스트 크리에이터",
-      "suno ai",
-      "스펙트럼 스튜디오",
-      "영상 편집 없이",
-      "오디오 스펙트럼",
-      "유튜브 수익화",
-      "유튜브 썸네일",
-      "유튜브 플레이리스트",
-      "플레이리스트 제작"
-    ]
-  },
-  {
-    "id": 15,
     "imageUrl": "",
     "title": "강의안 | 로컬 트렌드 및 창업 로드맵 - 창업",
     "description": "1. 로컬 트렌드 및 창업 로드맵   2. 로컬 트렌드 및 창업 로드맵 전체 강의안  https://docs.google.com/presentation/d/e/2PACX-1vSVdPvFpR0opgn3S0D0GW_9CVPu5XPuOAWLYFBt2pU6vvuhKLcskK48bad9d9N2Jg/pub?start=true&loop=false&delayms=3000",
@@ -221,6 +122,96 @@
     "link": "https://brunch.co.kr/@@LOc/320",
     "pubDate": "Fri, 26 Dec 2025 02:17:42 GMT",
     "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption",
+    "description": "The 2025 Typed Python Survey, conducted by contributors from JetBrains, Meta, and the broader Python typing community, offers a comprehensive look at the current state of Python’s type system and developer tooling. With 1,241 responses (a 15% increase from last year), the survey captures the evolving sentiment, challenges, and opportunities around Python typing in the [...]\nRead More...\nThe post Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
+    "pubDate": "Mon, 22 Dec 2025 14:00:16 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Culture",
+      "DevInfra"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 31화, 체육대회인데스와 ②",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2404",
+    "pubDate": "Wed, 24 Dec 2025 22:35:03 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Everything You Wanted to Ask About Rust – Answered by Herbert Wolverson",
+    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were conveniently distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky sat down with Rust expert and educator Herbert Wolverson (Ardan Labs) to talk about everything Rust […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2025/12/23/everything-you-wanted-to-ask-about-rust-answered-by-herbert-wolverson/",
+    "pubDate": "Tue, 23 Dec 2025 18:36:37 +0000",
+    "creator": "Tatiana Parshutkina",
+    "categories": [
+      "rustrover",
+      "livestream"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Thread Dumps and Project Loom (Virtual Threads)",
+    "description": "If you’ve been keeping up with Java virtual threads, you already know that this hot new feature significantly improves hardware utilization for parallel I/O-bound operations. Virtual threads map multiple concurrent I/O operations to a single OS thread without blocking. The novel aspect of this approach is that it requires minimal changes to the codebase, as […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2025/12/thread-dumps-and-project-loom-virtual-threads/",
+    "pubDate": "Tue, 23 Dec 2025 14:14:55 +0000",
+    "creator": "Igor Kulakov",
+    "categories": [
+      "features",
+      "idea",
+      "debug",
+      "thread-dumps",
+      "virtual-threads"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Advent of Code in Rust: Winners and Highlights",
+    "description": "Thank you to everyone who joined Advent of Code 2025 in Rust! It was inspiring to see many Rustaceans solving algorithmic puzzles, and celebrating the holiday coding season with the community. Before the Advent began, Vitaly Bragilevsky published a blog post on how to use AI in Advent of Code challenge responsibly and effectively. This […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2025/12/22/advent-of-code-in-rust-winners-and-highlights/",
+    "pubDate": "Mon, 22 Dec 2025 19:29:11 +0000",
+    "creator": "Tatiana Parshutkina",
+    "categories": [
+      "rustrover",
+      "advent-of-code",
+      "rust"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "코드 리뷰만큼은 내가 한다",
+    "description": "카카오톡 정도 규모의 서비스를 배포하려면 큰 스트레스를 받습니다.\n이 무서운 배포를 원래는 다른 친구가 도맡아서 했습니다.\n\n배신자를 다른 팀으로 떠나보내던 날. (이제 다들 거물이 되어 사진은 모자이크 처리 했습니다)\n그후 배포는 주로 제가 하게 되었던 것 같습니다.\n오랜만에 지인들을 만나 요즘에 어떻게 코딩하는지 대화를 나눴습니다.\n이런 얘기를 들으면 정신이 혼미해집니다.\n저는 오래 전부터 코드 diff를 읽을 때 소스트리를 사용하고 있습니다.\n소스트리에서 diff를 읽는 것은 예전이나 지금이나 저의 중요한 일과입니다.\n함께 읽으면 좋은 글:\n카톡 서버 개발의 추억\n클로드코드 Max 사용기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/12/24/code-review.html",
+    "pubDate": "2025-12-24T05:27:00.000Z",
+    "creator": "Unknown",
     "categories": []
   }
 ]
