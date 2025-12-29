@@ -2,101 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Ruby Turns 30: A Celebration of Code, Community, and Creativity",
-    "description": "Created by Yukihiro “Matz” Matsumoto and first released in 1995, Ruby arrived with a purpose that was simple but profound: to make coding more human, more intuitive, and more enjoyable. Its object-oriented model, dynamic typing, and elegant syntax offered a fresh alternative to the heavier and more complex languages of that era. As Ruby marks […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ruby/2025/12/ruby-turns-30-a-celebration-of-code-community-and-creativity/",
-    "pubDate": "Thu, 25 Dec 2025 09:11:01 +0000",
-    "creator": "Alexey Varfolomeev",
-    "categories": [
-      "rubymine",
-      "ruby",
-      "ruby-on-rails"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "TeamCity Pipelines Is Now Part of TeamCity Enterprise",
-    "description": "We introduced TeamCity Pipelines in March 2024 to make CI/CD setup simpler and more intuitive, without limiting what teams can build and automate. Pipelines brought a new workflow focused on a more guided configuration experience, including a visual editor with drag-and-drop dependencies, YAML for defining building routines from scratch, and a set of practical configuration […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2025/12/pipelines-sunset/",
-    "pubDate": "Fri, 26 Dec 2025 16:19:46 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "news",
-      "teamcity-2",
-      "update",
-      "teamcity-pipelines-pulse"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "코드 품질 개선 기법 27편: 티끌이 모여 태산이 되듯 의존성도 쌓이면",
-    "description": "이 글은 2024년 5월 30일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-27",
-    "pubDate": "Tue, 23 Dec 2025 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "자전거 펌프로 자동차 타이어 공기 주입하기",
-    "description": "겨울이 되어서 날씨가 추워지니 자동차 타이어의 공기압이 낮다는 경고가 떴다. 과거에는 공기압 경고가 뜨면 긴급 출동을 불러서 공기를 보충하곤 했다. 그러다가 자동차 타이어나 자전거 타이어나 똑같다는 말을 들고 직접 공기를 채워봐야 겠다고 생각하고 있었는데 드디어 그 시간이 왔다.\n\r\n\r\n최근에는 자동차 타이어에 공기를 주입하는 키트가 자동차에 포함되어 있는 경우가 많고 따로 판매하기도 한다. 시거잭에 전원을 연결해서 공기압을 설정하고 타이어에 자동으로 공기를 주입하는 방식이다. 내차는 연식이 좀 되어서 없다.\n\r\n\r\n자전거는 자주 공기를 주입해야 해서 자전거용 펌프를 하나 구입해서 사용해왔다. 압력계도 달려 있고 공기 호스를 연결한 후에 위아래로 레버를 누르면 공기가 주입되는 방식이다. 공기 주입구의 종류가 여러가지여서 젠더도 포함이 되어 있고 주입구에 따라서 약간의 조작이 필요하다. 주입구 종류는 보통 던롭, 슈레더, 프레스타 등이 있는데 유투브를 좀 찾아보니 [자전거 관리] 공기압 넣는 방법ㅣ던롭ㅣ프레스타ㅣ슈레더 이 영상이 제일 이해하기 쉽게 설명해 주고 있다.\n\r\n\r\n오토바이나 자동차는 슈레더 방식을 많이 사용해서 자전거 펌프를 연결하고 자전거 공기 주입하듯이 하면 된다. 다만 자전거에 비해서 타이어가 훨씬 두껍고 공기도 많이 들어가서 좀 힘이 든다. 뒷바퀴는 20psi, 앞바퀴는 24psi 정도였는데 다 33psi로 주입하니 매우 힘들었다.\n\r\n\r\n주입을 하고 차를 주행하니 바퀴 네개가 다 36psi로 나온다. 아마 자전거 펌프의 압력계가 좀 낮게 나오거나 주행을 좀 해서 압력이 올라간 것인 듯싶다. 직접 정비를 하니 힘은 좀 들었지만 상당히 뿌듯하다. 힘들어서 사진은 없다.\n\r\n\r\n추가로 psi를 '프사이'라고 읽었었는데 같은 발음의 다른 의미와 헷갈리지 않게 압력의 단위는 '피에스아이'라고 읽는게 좋다고 한다. 또 파스칼과는 뭐가 다른가 살펴봤더니 이거는 'Pound per Square Inch'라고 한다. 인치나 피트 같은 놈이다. 미국에서 주로 쓴다고 한다. 되도록 표준인 바(bar)나 파스칼(Pa)을 쓰도록 하자.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hyeonseok.com/blog/947",
-    "pubDate": "Fri, 26 Dec 2025 10:18:25 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "루비는 공짜 점심",
-    "description": "공짜 점심은 없다는 말을 좋아합니다.\n하지만 가끔은 공짜 점심이라는 게 있는 거 아닌가? 생각이 들때도 있습니다.\n카톡 서버 개발을 하던 시절, 새로 나오는 루비를 수많은 서버 중 한 대에 설치해서 얼마나 성능이 좋아지나 측정해보곤 했습니다.\n이런 공짜 점심은 루비팀의 노고 덕분일 겁니다.\n오늘은 크리스마스.\nRuby 4.0 이네요. 메이저 버전 선물이라니 아이처럼 기쁩니다.\n\n2025년 크리스마스 선물은 Ruby 4.0\n\n\n함께 읽으면 좋은 글:\n루비가 느리다고?\nRuby는 프로그래머를 위한 선물\nRuby의 unless 쉽게 읽기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jeho.page/essay/2025/12/25/ruby4.html",
-    "pubDate": "2025-12-25T06:52:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "[MULTI] 어쩌면 궁극의 복각, 어스토니시아 스토리",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2405",
-    "pubDate": "Fri, 26 Dec 2025 18:36:32 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "kaggle 설치 및 사용방법",
-    "description": "kaggle 은 윈도우버전과 호환성이 낮다. 우분투에서는 잘 실행된다. \n\n\n\n\n다음과 같은 순서로 설치하면 된다. \n1. kaggle 웹사이트 방문 후 가입한다.\n2. kaggle > account > setting > new API key 로 키값을 얻는다. 여기서 브라우저 설정에 따라 kaggle.json이 다운안되는 경우가 많다. 이 경우 다음과 같이 이 파일을 직접 작성해야 한다.\n\n\n\n이 파일은 다음 명령으로 생성할 수 있다. 터미널에 입력한다. \nmkdir -p ~/.kaggle\necho '{\"username\":\"<user name>\",\"key\":\"<your key>\"}' > ~/.kaggle/kaggle.json\nchmod 600 ~/.kaggle/kaggle.json\n그 결과 다음 형식의 파일이 생성될 것이다.\n{\"username\":\"\",\"key\":\"\"}\n3. 터미널에서 kaggle 을 설치한다. pip install kaggle\n4. 다음과 같이 경진대회 리스트 실행해 본다. \n실행 결과는 다음과 같다.\nvenv_lmm) ktw@tron:~$ kaggle competitions list\nref                     deadline             category                reward  teamCount  userHasEntered  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3       2026-04-15 23:59:00  Featured         2,207,152 Usd        976           False  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-surface-detection            2026-02-13 23:59:00  Research           200,000 Usd        446           False  \nhttps://www.kaggle.com/competitions/google-tunix-hackathon                          2026-01-12 23:59:00  Featured           100,000 Usd         97           False  \nhttps://www.kaggle.com/competitions/csiro-biomass                                   2026-01-28 23:59:00  Research            75,000 Usd       2494           False  \nhttps://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection  2026-01-15 23:59:00  Research            55,000 Usd       1029           False",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2025/12/kaggle.html",
-    "pubDate": "2025-12-25T10:54:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
     "title": "How AI fixed my procrastination",
     "description": "I struggled to get started. For ages, I kept putting off building this website, creating a new programming language for Visual Studio, and coming up with fresh color themes. Each project looked overwhelming, and I couldn’t find the time or motivation to jump in. It all just felt like too much at once. But when […]\nThe post How AI fixed my procrastination appeared first on Visual Studio Blog.",
     "reviews": [],
@@ -113,19 +18,19 @@
     ]
   },
   {
-    "id": 9,
+    "id": 2,
     "imageUrl": "",
-    "title": "강의안 | 로컬 트렌드 및 창업 로드맵 - 창업",
-    "description": "1. 로컬 트렌드 및 창업 로드맵   2. 로컬 트렌드 및 창업 로드맵 전체 강의안  https://docs.google.com/presentation/d/e/2PACX-1vSVdPvFpR0opgn3S0D0GW_9CVPu5XPuOAWLYFBt2pU6vvuhKLcskK48bad9d9N2Jg/pub?start=true&loop=false&delayms=3000",
+    "title": "루비는 공짜 점심",
+    "description": "공짜 점심은 없다는 말을 좋아합니다.\n하지만 가끔은 공짜 점심이라는 게 있는 거 아닌가? 생각이 들때도 있습니다.\n카톡 서버 개발을 하던 시절, 매년 크리스마스에 새로 나오는 루비를 수많은 서버 중 한 대에 설치해서 얼마나 성능이 좋아지나 측정해보곤 했습니다.\n이런 공짜 점심은 루비팀의 노고 덕분일 겁니다.\n오늘은 크리스마스.\nRuby 4.0 이네요. 메이저 버전 선물이라니 아이처럼 기쁩니다.\n루비팀에 감사한 마음을 갖게 됩니다.\n\n2025년 크리스마스 선물은 Ruby 4.0\n\n\n함께 읽으면 좋은 글:\n루비가 느리다고?\nRuby는 프로그래머를 위한 선물\nRuby의 unless 쉽게 읽기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/320",
-    "pubDate": "Fri, 26 Dec 2025 02:17:42 GMT",
-    "creator": "고명환",
+    "link": "https://jeho.page/essay/2025/12/25/ruby4.html",
+    "pubDate": "2025-12-25T06:52:00.000Z",
+    "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 10,
+    "id": 3,
     "imageUrl": "",
     "title": "Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption",
     "description": "The 2025 Typed Python Survey, conducted by contributors from JetBrains, Meta, and the broader Python typing community, offers a comprehensive look at the current state of Python’s type system and developer tooling. With 1,241 responses (a 15% increase from last year), the survey captures the evolving sentiment, challenges, and opportunities around Python typing in the [...]\nRead More...\nThe post Python Typing Survey 2025: Code Quality and Flexibility As Top Reasons for Typing Adoption appeared first on Engineering at Meta.",
@@ -140,7 +45,25 @@
     ]
   },
   {
-    "id": 11,
+    "id": 4,
+    "imageUrl": "",
+    "title": "Virtualbox의 설치 오류 (업그레이드 오류)",
+    "description": "Virtualbox를 업그레이드 하는 경우 이상하게 오류가 잘 발생한다. 이런 경우 십중팔구는 driver 문제이다. 기존 버전을 제거하고 새롭게 설치하는 경우라고 하더라도 아래와 같은 화면을 본다면 거의 99% drv 문제인 경우이다.\nVirtualbox : Installation failed Error: Fatal error during installation.\n\n\n이런 경우에는 재부팅하고 다시 시도하면 되는 경우도 있지만, 안되는 경우에는 다음과 같은 방법으로 시스템에 남겨진 드라이버 정보를 삭제하면 대부분 성공한다.\n \n1. 관리자 권한으로 powershell 실행\n먼저 관리자 권한으로 powershell을 실행한다. 꼭 파워쉘로 실행해야 한다. Windows11이라면 \"<Win + X>\"키를 눌러서 \"터미널(관리자)\"로 실행하면 빠르다. 혹은 \"윈도우 키\"를 누르고 powershell을 치면 \"관리자로 실행\" 혹은 \"Run as Administrator\"라는 메뉴로 실행해도 된다.\n<Ctrl-X>의 메뉴\n\n\n \n2. pnputil 명령 사용\n관리자 권한으로 powershell을 실행한 뒤에는 다음과 같이 pnputil 명령어와 Select-String을 이용해서 vbox 이름이 들어간 driver를 볼 수 있다.\npnputil /enum-drivers | Select-String -Pattern \"vbox\" -Context 1,0\n아래는 위 명령의 실행 예시이다. 결과를 보면 oem2.inf, oem11.inf, oem26.inf 의 드라이버 정보가 담긴 oem.inf 파일이 3개 보인다. oem inf 파일의 갯수는 조금 다를 수도 있다. 하여간 이들이 보인다는 것은 시스템에 Oracle Virtualbox 쓰레기 잔재들이 남아있는 것이다.\nPS C:\\Users\\SYKIM> pnputil /enum-drivers | Select-String -Pattern \"vbox\" -Context 1,0\n\n  게시된 이름:     oem2.inf\n> 원래 이름:      vboxsup.inf\n  게시된 이름:     oem11.inf\n> 원래 이름:      vboxusb.inf\n  게시된 이름:     oem26.inf\n> 원래 이름:      vboxusbmon.inf\n이들을 제거하기 위해 pnputil /delete-driver oem2.inf /uninstall /force 처럼 수동으로 일일히 명령을 내려도 되지만, 그러면 너무 귀찮아진다. 따라서 powershell script 명령으로 한방에 해결할 수 있다. 아래 코드를 복사해서 powershell 관리자 모드에서 명령하면 끝난다. \npnputil /enum-drivers | Select-String \"Published Name|Original Name\" -Context 1,0 | ForEach-Object { if ($_ -match \"Published Name\") { $pub=($_.Line -split \":\\s+\")[1].Trim() }; if ($_ -match \"Original Name\" -and $_.Line -match \"vbox\") { pnputil /delete-driver $pub /uninstall /force } }\n복붙이 어려운 분들을 위해서 아래에 다시 한번 적어두도록 하겠다. 친절하게 어디를 복붙해야 하는지 yellow색으로 색칠해두었다.\npnputil /enum-drivers | Select-String \"Published Name|Original Name\" -Context 1,0 | ForEach-Object { if ($_ -match \"Published Name\") { $pub=($_.Line -split \":\\s+\")[1].Trim() }; if ($_ -match \"Original Name\" -and $_.Line -match \"vbox\") { pnputil /delete-driver $pub /uninstall /force } }\n \n실행한 뒤에는 앞서 확인했던 pnputil /enum-drivers | Select-String -Pattern \"vbox\" -Context 1,0 명령으로 다시 한번 목록이 나오는지 확인한다. 아무것도 나오는게 없다면 재부팅 후에 다시 설치를 시도하면 된다.\n \n3. 잡담\n오라클 버추얼박스는 이상하게 설치, 삭제도 잘 안되고 사용 중에 자잘한 오류도 드럽게 많다. 아니 버전이 7.x까지 왔는데도 이런 기초적인 에러가 발생한다는 것은 개발진의 프로그래밍 능력이 심각하게 떨어지는게 아닌가 의심된다. 강의하러 갔다가 vbox 설치나 업그레이드 때문에 수강하는 분들 랩탑에서 에러 발생하면 진짜 당황스럽다. 얼마전에는 이거 잡다가 시간을 거의 1시간 넘게 허비한 적도 있다.\nVbox, 넌 좀 맞자~\n\n\n \n히스토리\n2025-12-28 릴리즈.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://sunyzero.tistory.com/323",
+    "pubDate": "Sun, 28 Dec 2025 20:28:22 +0900",
+    "creator": "sunyzero",
+    "categories": [
+      "컴퓨터 관련/윈도 패밀리",
+      "pnputil",
+      "VBox",
+      "virtualbox",
+      "virtualbox installation failed"
+    ]
+  },
+  {
+    "id": 5,
     "imageUrl": "",
     "title": "악역영애 4컷 만화 - 31화, 체육대회인데스와 ②",
     "description": "No description available",
@@ -154,7 +77,130 @@
     ]
   },
   {
+    "id": 6,
+    "imageUrl": "",
+    "title": "코드 리뷰만큼은 내가 한다",
+    "description": "카카오톡 정도 규모의 서비스를 배포하려면 큰 스트레스를 받습니다.\n이 무서운 배포를 원래는 다른 친구가 도맡아서 했습니다.\n\n배신자를 다른 팀으로 떠나보내던 날. (이제 다들 거물이 되어 사진은 모자이크 처리 했습니다)\n그후 배포는 주로 제가 하게 되었던 것 같습니다.\n오랜만에 지인들을 만나 요즘에 어떻게 코딩하는지 대화를 나눴습니다.\n이런 얘기를 들으면 정신이 혼미해집니다.\n저는 오래 전부터 코드 diff를 읽을 때 소스트리를 사용하고 있습니다.\n소스트리에서 diff를 읽는 것은 예전이나 지금이나 저의 중요한 일과입니다.\n함께 읽으면 좋은 글:\n카톡 서버 개발의 추억\n클로드코드 Max 사용기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jeho.page/essay/2025/12/24/code-review.html",
+    "pubDate": "2025-12-24T05:27:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "코드 품질 개선 기법 27편: 티끌이 모여 태산이 되듯 의존성도 쌓이면",
+    "description": "이 글은 2024년 5월 30일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-27",
+    "pubDate": "Tue, 23 Dec 2025 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "강의안 | 로컬 트렌드 및 창업 로드맵 - 창업",
+    "description": "1. 로컬 트렌드 및 창업 로드맵   2. 로컬 트렌드 및 창업 로드맵 전체 강의안  https://docs.google.com/presentation/d/e/2PACX-1vSVdPvFpR0opgn3S0D0GW_9CVPu5XPuOAWLYFBt2pU6vvuhKLcskK48bad9d9N2Jg/pub?start=true&loop=false&delayms=3000",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/320",
+    "pubDate": "Fri, 26 Dec 2025 02:17:42 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "kaggle 설치 및 사용방법",
+    "description": "kaggle 은 윈도우버전과 호환성이 낮다. 우분투에서는 잘 실행된다. \n\n\n\n\n다음과 같은 순서로 설치하면 된다. \n1. kaggle 웹사이트 방문 후 가입한다.\n2. kaggle > account > setting > new API key 로 키값을 얻는다. 여기서 브라우저 설정에 따라 kaggle.json이 다운안되는 경우가 많다. 이 경우 다음과 같이 이 파일을 직접 작성해야 한다.\n\n\n\n이 파일은 다음 명령으로 생성할 수 있다. 터미널에 입력한다. \nmkdir -p ~/.kaggle\necho '{\"username\":\"<user name>\",\"key\":\"<your key>\"}' > ~/.kaggle/kaggle.json\nchmod 600 ~/.kaggle/kaggle.json\n그 결과 다음 형식의 파일이 생성될 것이다.\n{\"username\":\"\",\"key\":\"\"}\n3. 터미널에서 kaggle 을 설치한다. pip install kaggle\n4. 다음과 같이 경진대회 리스트 실행해 본다. \n실행 결과는 다음과 같다.\nvenv_lmm) ktw@tron:~$ kaggle competitions list\nref                     deadline             category                reward  teamCount  userHasEntered  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3       2026-04-15 23:59:00  Featured         2,207,152 Usd        976           False  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-surface-detection            2026-02-13 23:59:00  Research           200,000 Usd        446           False  \nhttps://www.kaggle.com/competitions/google-tunix-hackathon                          2026-01-12 23:59:00  Featured           100,000 Usd         97           False  \nhttps://www.kaggle.com/competitions/csiro-biomass                                   2026-01-28 23:59:00  Research            75,000 Usd       2494           False  \nhttps://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection  2026-01-15 23:59:00  Research            55,000 Usd       1029           False",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2025/12/kaggle.html",
+    "pubDate": "2025-12-25T10:54:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "TeamCity Pipelines Is Now Part of TeamCity Enterprise",
+    "description": "We introduced TeamCity Pipelines in March 2024 to make CI/CD setup simpler and more intuitive, without limiting what teams can build and automate. Pipelines brought a new workflow focused on a more guided configuration experience, including a visual editor with drag-and-drop dependencies, YAML for defining building routines from scratch, and a set of practical configuration […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2025/12/pipelines-sunset/",
+    "pubDate": "Fri, 26 Dec 2025 16:19:46 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "news",
+      "teamcity-2",
+      "update",
+      "teamcity-pipelines-pulse"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "무조건 첫 번째로 써야 할 '인생 GPT' 3개 공개 (우선순위,딥리서치,원페이지 보고서)",
+    "description": "하루 종일 바쁘게 일했지만 정작 중요한 일은 하나도 끝내지 못했던 경험, 다들 있으실 겁니다. 복잡한 업무 속에서 길을 잃지 않고 핵심에 집중하게 돕는 '인생 GPT' 3가지를 소개합니다. 우선순위 정리부터 딥 리서치, 그리고 임원을 위한 원페이지 보고서 작성까지,  최신 AI 기술로 여러분의 업무 효율을 혁신적으로 높여줄 비법을 공개합니다.\n바쁜 일상 속, 김과장의 고민: \"뭐부터 해야 할까?\"  \n아침에 출근해서 밤새 쌓인 메일과 업무 목록을 보고 머리 아파 본 경험, 다들 있으실 겁니다. 제 주변 동료들도 \"뭐부터 해야 할지 모르겠어요!\"라며 한숨 쉬는 경우가 정말 많아요.\n김과장님도 오늘이 그런 날인데, 보통은 눈앞의 급한 일부터 처리하곤 하죠. 하지만 이러면 중요한 업무는 뒷전이 되고, 하루 종일 바쁘기만 한 채 성과는 없는 경우가 많습니다. 바로 여기서 우리의 첫 번째 '인생 GPT'가 빛을 발합니다!\n\n\n첫 번째 인생 GPT: '지금뭐부터?' - 업무 우선순위 정복  \n쏟아지는 업무 속에서 \"지금 뭐부터 해야 가장 효율적일까?\"라는 질문에 명확한 답을 주는 GPT가 바로 '지금뭐부터?'입니다. 이 GPT는 단순히 중요도나 긴급도만으로 업무를 판단하는 것을 넘어섭니다.\n  '지금뭐부터?' GPT, 어떻게 활용할까?\n김과장님이 오늘 처리해야 할 업무 목록을 그대로 '지금뭐부터?' GPT에 입력하면 됩니다. 그러면 GPT는 각 업무를 다음 네 가지 기준으로 분석해줍니다. 제 경험상, 이 4가지 기준이 정말 핵심이더라고요.\n중요도: 업무의 전략적 가치와 결과의 파급력.\n긴급도: 마감 기한과 즉각적인 처리 필요성.\n에너지 소모: 해당 업무를 수행하는 데 필요한 정신적, 육체적 에너지.\n기대 효과: 업무 완료 시 예상되는 긍정적인 결과.\n  팁: 특히 '에너지 소모' 항목은 정말 중요해요. 저도 예전에 중요하지만 에너지를 많이 쓰는 일을 오후에 붙잡고 있다가 효율이 급격히 떨어지는 경험을 많이 했거든요. 오전에 집중력이 최고일 때 핵심 과업을 처리하고, 오후에는 비교적 에너지가 덜 드는 업무를 배치하는 것이 현명하죠.\n'지금뭐부터?' GPT는 이렇게 분석된 데이터를 바탕으로 업무를 세 가지 그룹으로 최적화하여 제시합니다.\n즉시 실행 그룹: 고객사 방문, 협의 결과 정리 등 오늘 하루의 성패를 좌우할 핵심 과업. 최우선적으로 처리해야 합니다.\n계획 실행 그룹: 미팅 후 인지 피로를 고려하여 분할 실행이 필요한 업무들. 위임이나 축소가 가능한 부분은 최소한의 메모로 대체하여 에너지를 효율적으로 배분합니다.\n보류 또는 위임 그룹: 당장 급하지 않거나 타인에게 맡길 수 있는 업무.\n이렇게 명확하게 정리된 실행 순서를 보면, 복잡했던 머릿속이 싹 정리되는 느낌을 받을 수 있을 거예요. 김과장님도 이제 뭘 해야 할지 확실히 알게 되었죠!\n\n\n \nChatGPT - 지금 뭐부터?\n오늘의 할 일 목록을 입력하면 중요도·긴급도·에너지·효과 기준으로 우선순위를 정리하고 가장 효율적인 실행 순서와 선택 전략을 제안합니다. 생산성, 번아웃 방지, 집중력 관리까지 고려한\nchatgpt.com\n\n \n\n\n두 번째 인생 GPT: '리서치광' - 심층 시장 동향 보고서 완성  \n오후 5시, 김과장님은 고객사 방문을 무사히 마치고 월간 시장 동향 보고서를 작성해야 합니다. 그런데 이게 만만치 않죠. 국내외 친환경차 부품 기술 트렌드, 경쟁사 수주 현황, 심지어 원자재 가격 변동 추이까지... 솔직히 이 모든 것을 처음부터 직접 리서치하고 분석하려면 한 달은 족히 걸릴 겁니다. 특히 인테이크 매니폴드 같은 경우 알루미늄이나 플라스틱 복합재로 만들어지니, 원자재 가격이 곧 '원가'에 직결되잖아요. 이런 전문적인 내용을 빠르게 파악하고 정리하는 것이 정말 중요하죠.\n여기서 우리의 두 번째 '인생 GPT', 바로 '리서치광'이 등장합니다!\n  '리서치광' GPT, 활용의 정석\n'리서치광' GPT는 여러분의 짧은 요청 사항을 받아 마치 전문 리서치 애널리스트처럼 아주 상세하고 구조화된 프롬프트로 확장해줍니다. \"이런 관점도 보세요, 저런 데이터도 포함하세요\"라고 조언해주는 것과 같아요. 저는 이 기능에 처음 접했을 때 정말 감탄했어요. 단 세 줄의 요구사항이 체계적인 리서치 가이드로 변신하는 마법을 직접 경험해보세요!\n생성된 프롬프트를 활용하여 이제 본격적인 딥 리서치를 시작합니다. 챗GPT의 심층 리서치 기능을 활성화하고 웹 검색을 병행하며 데이터를 수집합니다. 여기서 그치지 않고, 좀 더 다양한 자료 확보를 위해 제미나이의 딥 리서치 기능도 함께 활용해보세요. 사람이 한 달 걸릴 리서치를 단 몇 분 만에 끝내는 놀라운 경험을 하게 될 거예요.\n\n\n \nChatGPT - 리서치 광 (The Research Maniac)\n모든 주제에 대해 심층리서치 전용 프롬프트로 확장합니다.\nchatgpt.com\n\n \n  리서치 결과를 프레젠테이션으로!\n리서치가 완료되면, 이 자료를 가지고 프레젠테이션을 만들어야겠죠? 제미나이에서 생성된 리서치는 자체 PDF 다운로드 기능이 없으므로, '내보내기' 기능을 통해 구글 Docs로 넘긴 후 PDF로 저장하는 것이 좋습니다. 이제 이 PDF를 구글 노트북LM에 업로드합니다.\n노트북LM에서 문서 분석이 완료되면, 우측의 '슬라이드 자료' 버튼을 활용해 \"월간 정기보고서 형식의 슬라이드 구조로 생성해줘 (프리미엄 딥 네이비 & 골드 테마)\"와 같이 요청합니다. 잠시 기다리면 시장 동향부터 기술 로드맵, 원가 분석 및 구체적인 실행 계획까지 완벽한 논리 체계와 시각 자료를 갖춘 전문 비즈니스 전략 보고서가 뚝딱 완성됩니다. 정말 놀랍죠? 저는 이 기능을 통해 보고서 작성 시간을 획기적으로 줄일 수 있었어요.\n⚠️ 주의: 노트북LM 자체에도 딥 리서치 기능이 있지만, LLM에서 실행한 리서치는 보고서 형태로 제공되는 반면, 노트북LM은 리서치된 문서들을 개별적인 소스로 가져오니 사용 목적에 따라 적절히 선택해야 합니다.\n\n\n세 번째 인생 GPT: '한장으로 가져와' - 임원을 위한 원페이지 보고서  \n이제 저녁 7시, 김과장님은 오늘 다녀온 고객사 출장 보고서를 작성합니다. 내일 아침 임원 보고가 예정되어 있으니 빠르고 정확하게 작성해야 하죠. 김과장님이 작성한 보고서는 회의 내용, 기술 사양, 일정 협의 등이 빼곡하게 담겨 있어 매우 상세합니다. 하지만 여기서 간과하지 말아야 할 점이 있습니다. 바로 '실무자 관점의 보고서'와 '임원이 원하는 보고서'는 형식이 완전히 다르다는 것!\n많은 임원들은 세부 내용보다는 \"결론이 뭐야?\", \"우리가 뭘 결정해야 해?\", \"리스크는 뭐야?\"를 빠르게 파악하고 싶어 합니다. 이런 상황에서 장황한 보고서는 오히려 역효과를 내기 쉽죠. 이럴 때 필요한 것이 바로 세 번째 '인생 GPT', '한장으로 가져와'입니다.\n  '한장으로 가져와' GPT, 의사결정의 핵심!\n이 GPT는 여러분이 작성한 상세한 출장 보고서나 회의록을 받아 경영진의 최종 판단을 이끌어내기 위한 핵심 내용으로 압축 정리해줍니다. 고객 신뢰 확보와 리스크 관리 사이의 선택지를 명확히 비교하고, 전략적 통찰과 실무적 결단력을 동시에 확인할 수 있는 자료로 탈바꿈시켜주죠.\n특히 인상 깊었던 점은, 임원 결정 요청 부분이 체크박스 형태로 제공된다는 것이었어요. 예를 들어, '양산 일정 8주 단축 결정 (A안)', '현행 유지 및 리스크 관리 강화 (B안)', '추가 검토 지시'와 같이 명확한 선택지를 제시하는 거죠. 임원 입장에서는 길게 읽을 필요 없이 핵심만 파악하고 바로 체크만 하면 되니, 의사결정 시간을 획기적으로 단축할 수 있습니다. 정말 편하겠죠? 저도 이 기능을 사용하면서 임원분들의 만족도가 확 올라가는 것을 체감했습니다.\n\n \nChatGPT - 한 장으로 가져와 GPT\n실무자가 작성한 보고서·메모·회의록을 임원이 즉시 판단할 수 있는 의사결정 중심 보고서로 재구성합니다. 결론, 선택지, 리스크, 결정 요청만 남기고 불필요한 설명은 제거합니다.\nchatgpt.com\n\n \n\n\n\n  핵심 요약\n1. '지금뭐부터?' GPT: 중요도, 긴급도, 에너지 소모, 기대 효과를 고려한 최적의 업무 우선순위를 제시하여 하루의 생산성을 극대화합니다.\n2. '리서치광' GPT: 짧은 요청을 상세한 프롬프트로 확장, 다중 LLM을 활용한 딥 리서치로 전문 보고서 및 슬라이드 작성을 몇 분 만에 가능하게 합니다.\n3. '한장으로 가져와' GPT: 상세한 실무 보고서를 임원 의사결정에 최적화된 원페이지 요약본으로 재구성하여 빠르고 효율적인 결정을 돕습니다.\n4. 2025년 최신 AI: 이 모든 GPT는 2025년 최신 AI 기술을 활용하여 업무 효율을 혁신적으로 변화시킬 수 있는 강력한 도구입니다.\n이 세 가지 '인생 GPT'는 김과장님의 하루를 바꾸었듯, 여러분의 업무 방식에도 혁명적인 변화를 가져올 것입니다. 지금 바로 경험해보세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: '지금뭐부터?' GPT는 단순히 할 일 목록을 정리해주는 건가요?\nA: 아니요, '지금뭐부터?' GPT는 단순한 목록 정리를 넘어섭니다. 각 업무의 중요도, 긴급도, 에너지 소모, 그리고 기대 효과라는 네 가지 핵심 기준을 바탕으로 분석하여, 가장 효율적인 실행 순서와 함께 '즉시 실행', '계획 실행' 등의 그룹으로 분류해줍니다. 이는 업무의 전략적 배치와 에너지 관리에 큰 도움을 줍니다.\nQ2: '리서치광' GPT로 작성된 보고서는 얼마나 정확한가요?\nA: '리서치광' GPT는 사용자의 짧은 요청을 바탕으로 아주 상세하고 구조화된 프롬프트로 확장하여 여러 LLM(ChatGPT, Gemini 등)의 딥 리서치 기능을 활용합니다. 웹 검색을 포함한 광범위한 데이터 분석을 통해 정보를 취합하므로, 전문적인 수준의 정확성과 심층도를 기대할 수 있습니다. 단, 최종 보고서 활용 전에는 항상 핵심 내용에 대한 교차 검증을 권장합니다.\nQ3: '한장으로 가져와' GPT는 모든 보고서에 적용할 수 있나요?\nA: '한장으로 가져와' GPT는 특히 경영진이나 의사결정권자를 위한 보고서에 매우 효과적입니다. 상세한 실무 보고서나 회의록을 핵심 내용과 의사결정 포인트를 중심으로 압축하여 제공하므로, 빠르고 명확한 판단을 유도하는 데 최적화되어 있습니다. 물론, 내부 팀원 간 공유를 위한 보고서 등 목적에 따라 유연하게 활용할 수 있습니다.\n{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"'지금뭐부터?' GPT는 단순히 할 일 목록을 정리해주는 건가요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"아니요, '지금뭐부터?' GPT는 단순한 목록 정리를 넘어섭니다. 각 업무의 중요도, 긴급도, 에너지 소모, 그리고 기대 효과라는 네 가지 핵심 기준을 바탕으로 분석하여, 가장 효율적인 실행 순서와 함께 '즉시 실행', '계획 실행' 등의 그룹으로 분류해줍니다. 이는 업무의 전략적 배치와 에너지 관리에 큰 도움을 줍니다.\"}},{\"@type\":\"Question\",\"name\":\"'리서치광' GPT로 작성된 보고서는 얼마나 정확한가요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"'리서치광' GPT는 사용자의 짧은 요청을 바탕으로 아주 상세하고 구조화된 프롬프트로 확장하여 여러 LLM(ChatGPT, Gemini 등)의 딥 리서치 기능을 활용합니다. 웹 검색을 포함한 광범위한 데이터 분석을 통해 정보를 취합하므로, 전문적인 수준의 정확성과 심층도를 기대할 수 있습니다. 단, 최종 보고서 활용 전에는 항상 핵심 내용에 대한 교차 검증을 권장합니다.\"}},{\"@type\":\"Question\",\"name\":\"'한장으로 가져와' GPT는 모든 보고서에 적용할 수 있나요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"'한장으로 가져와' GPT는 특히 경영진이나 의사결정권자를 위한 보고서에 매우 효과적입니다. 상세한 실무 보고서나 회의록을 핵심 내용과 의사결정 포인트를 중심으로 압축하여 제공하므로, 빠르고 명확한 판단을 유도하는 데 최적화되어 있습니다. 물론, 내부 팀원 간 공유를 위한 보고서 등 목적에 따라 유연하게 활용할 수 있습니다.\"}}]} \n자, 여기까지 김과장님의 하루를 통해 여러분의 업무 효율을 혁신적으로 바꿔줄 세 가지 '인생 GPT' 활용법을 모두 살펴보았습니다. 쏟아지는 업무 속에서 헤매기만 하는 것이 아니라, AI의 도움을 받아 핵심에 집중하고, 더 큰 성과를 만들어내는 스마트한 직장인이 될 수 있다는 것을 확인하셨을 겁니다. 제 개인적인 경험으로 볼 때, 이 GPT들을 여러분의 일상에 적용하면 업무의 질과 속도 모두에서 확연한 차이를 느끼게 되실 겁니다.\n더 이상 중요하지 않은 일에 에너지를 낭비하지 마세요. 오늘 소개한 GPT들을 적극 활용하여, 여러분도 김과장님처럼 업무의 달인이 되어보세요!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483695",
+    "pubDate": "Sat, 27 Dec 2025 22:48:07 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "2025 AI 활용법",
+      "ai 업무 자동화",
+      "ChatGPT 실무",
+      "보고서 작성 GPT",
+      "시장 동향 리서치",
+      "업무 효율 GPT",
+      "우선순위 정리 AI",
+      "원페이지 보고서",
+      "인생 GPT 추천",
+      "직장인 생산성"
+    ]
+  },
+  {
     "id": 12,
+    "imageUrl": "",
+    "title": "Ruby Turns 30: A Celebration of Code, Community, and Creativity",
+    "description": "Created by Yukihiro “Matz” Matsumoto and first released in 1995, Ruby arrived with a purpose that was simple but profound: to make coding more human, more intuitive, and more enjoyable. Its object-oriented model, dynamic typing, and elegant syntax offered a fresh alternative to the heavier and more complex languages of that era. As Ruby marks […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ruby/2025/12/ruby-turns-30-a-celebration-of-code-community-and-creativity/",
+    "pubDate": "Thu, 25 Dec 2025 09:11:01 +0000",
+    "creator": "Alexey Varfolomeev",
+    "categories": [
+      "rubymine",
+      "ruby",
+      "ruby-on-rails"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "일관성 있는 Agentic AI Workflow를 팀 프로젝트에 적용하는 법",
+    "description": "AI 구독은 저절로 팀 생산성을 높여주지는 않는다.개인의 노하우가 휘발되지 않고 팀의 자산으로 축적되는 워크플로우를 설계하는 것이 AI 시대 리더의 핵심 역할이다.단계별 컨텍스트 분리 + 결정적 검증(CI) + 비결정적 판단(LLM) + 작은 변경 단위로 굴러가는 일관된 워크플로우를 팀단위로 적용할 것을 제안한다. 개요 코딩 에이전트가 개발의 필수 도구가 된 지금, AI를 쓰지 않는 개발자를 찾기가 오히려 어렵다. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://01010011.blog/2025/12/28/how-to-build-a-consistent-agentic-ai-workflow-for-team-projects/",
+    "pubDate": "Sun, 28 Dec 2025 03:12:48 +0000",
+    "creator": "bahamoth",
+    "categories": [
+      "programming",
+      "agent",
+      "ai",
+      "tidying",
+      "workflow"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "Everything You Wanted to Ask About Rust – Answered by Herbert Wolverson",
     "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were conveniently distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky sat down with Rust expert and educator Herbert Wolverson (Ardan Labs) to talk about everything Rust […]",
@@ -169,48 +215,14 @@
     ]
   },
   {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Thread Dumps and Project Loom (Virtual Threads)",
-    "description": "If you’ve been keeping up with Java virtual threads, you already know that this hot new feature significantly improves hardware utilization for parallel I/O-bound operations. Virtual threads map multiple concurrent I/O operations to a single OS thread without blocking. The novel aspect of this approach is that it requires minimal changes to the codebase, as […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2025/12/thread-dumps-and-project-loom-virtual-threads/",
-    "pubDate": "Tue, 23 Dec 2025 14:14:55 +0000",
-    "creator": "Igor Kulakov",
-    "categories": [
-      "features",
-      "idea",
-      "debug",
-      "thread-dumps",
-      "virtual-threads"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Advent of Code in Rust: Winners and Highlights",
-    "description": "Thank you to everyone who joined Advent of Code 2025 in Rust! It was inspiring to see many Rustaceans solving algorithmic puzzles, and celebrating the holiday coding season with the community. Before the Advent began, Vitaly Bragilevsky published a blog post on how to use AI in Advent of Code challenge responsibly and effectively. This […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2025/12/22/advent-of-code-in-rust-winners-and-highlights/",
-    "pubDate": "Mon, 22 Dec 2025 19:29:11 +0000",
-    "creator": "Tatiana Parshutkina",
-    "categories": [
-      "rustrover",
-      "advent-of-code",
-      "rust"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "코드 리뷰만큼은 내가 한다",
-    "description": "카카오톡 정도 규모의 서비스를 배포하려면 큰 스트레스를 받습니다.\n이 무서운 배포를 원래는 다른 친구가 도맡아서 했습니다.\n\n배신자를 다른 팀으로 떠나보내던 날. (이제 다들 거물이 되어 사진은 모자이크 처리 했습니다)\n그후 배포는 주로 제가 하게 되었던 것 같습니다.\n오랜만에 지인들을 만나 요즘에 어떻게 코딩하는지 대화를 나눴습니다.\n이런 얘기를 들으면 정신이 혼미해집니다.\n저는 오래 전부터 코드 diff를 읽을 때 소스트리를 사용하고 있습니다.\n소스트리에서 diff를 읽는 것은 예전이나 지금이나 저의 중요한 일과입니다.\n함께 읽으면 좋은 글:\n카톡 서버 개발의 추억\n클로드코드 Max 사용기",
+    "title": "자전거 펌프로 자동차 타이어 공기 주입하기",
+    "description": "겨울이 되어서 날씨가 추워지니 자동차 타이어의 공기압이 낮다는 경고가 떴다. 과거에는 공기압 경고가 뜨면 긴급 출동을 불러서 공기를 보충하곤 했다. 그러다가 자동차 타이어나 자전거 타이어나 똑같다는 말을 들고 직접 공기를 채워봐야 겠다고 생각하고 있었는데 드디어 그 시간이 왔다.\n\r\n\r\n최근에는 자동차 타이어에 공기를 주입하는 키트가 자동차에 포함되어 있는 경우가 많고 따로 판매하기도 한다. 시거잭에 전원을 연결해서 공기압을 설정하고 타이어에 자동으로 공기를 주입하는 방식이다. 내차는 연식이 좀 되어서 없다.\n\r\n\r\n자전거는 자주 공기를 주입해야 해서 자전거용 펌프를 하나 구입해서 사용해왔다. 압력계도 달려 있고 공기 호스를 연결한 후에 위아래로 레버를 누르면 공기가 주입되는 방식이다. 공기 주입구의 종류가 여러가지여서 젠더도 포함이 되어 있고 주입구에 따라서 약간의 조작이 필요하다. 주입구 종류는 보통 던롭, 슈레더, 프레스타 등이 있는데 유투브를 좀 찾아보니 [자전거 관리] 공기압 넣는 방법ㅣ던롭ㅣ프레스타ㅣ슈레더 이 영상이 제일 이해하기 쉽게 설명해 주고 있다.\n\r\n\r\n오토바이나 자동차는 슈레더 방식을 많이 사용해서 자전거 펌프를 연결하고 자전거 공기 주입하듯이 하면 된다. 다만 자전거에 비해서 타이어가 훨씬 두껍고 공기도 많이 들어가서 좀 힘이 든다. 뒷바퀴는 20psi, 앞바퀴는 24psi 정도였는데 다 33psi로 주입하니 매우 힘들었다.\n\r\n\r\n주입을 하고 차를 주행하니 바퀴 네개가 다 36psi로 나온다. 아마 자전거 펌프의 압력계가 좀 낮게 나오거나 주행을 좀 해서 압력이 올라간 것인 듯싶다. 직접 정비를 하니 힘은 좀 들었지만 상당히 뿌듯하다. 힘들어서 사진은 없다.\n\r\n\r\n추가로 psi를 '프사이'라고 읽었었는데 같은 발음의 다른 의미와 헷갈리지 않게 압력의 단위는 '피에스아이'라고 읽는게 좋다고 한다. 또 파스칼과는 뭐가 다른가 살펴봤더니 이거는 'Pound per Square Inch'라고 한다. 인치나 피트 같은 놈이다. 미국에서 주로 쓴다고 한다. 되도록 표준인 바(bar)나 파스칼(Pa)을 쓰도록 하자.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jeho.page/essay/2025/12/24/code-review.html",
-    "pubDate": "2025-12-24T05:27:00.000Z",
+    "link": "https://hyeonseok.com/blog/947",
+    "pubDate": "Fri, 26 Dec 2025 10:18:25 GMT",
     "creator": "Unknown",
     "categories": []
   }
