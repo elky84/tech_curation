@@ -2,120 +2,76 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "SQLite 이제 적극적으로 사용하자",
-    "description": "영상: https://www.youtube.com/watch?v=TFASrm63wYc\n\n\n\n \n효율 때문이다.\n- 맴캐시\n- SQL \n- REDIS \n이런거 다 따로 사용하면 서비스 비용이 증가합니다.\n시작은 SQLite 에 다 때려 넣고 비용을 절양합니다.\n \n스타트가 망하는 이유에서 배우자\n스타트업 이 망하는 이유는 저급한 서비스가 아닙니다.\n수요업는 시장에 들어간 것입니다.\n차라리 빠르고 쉽게 만들고 적은 비용으로 망하는 것이 좋습니다.",
+    "title": "Insights Into China’s Developer Landscape: Key Trends From the JetBrains Developer Ecosystem Survey 2025",
+    "description": "Every year, thousands of developers take part in the JetBrains Developer Ecosystem Survey, helping us map the evolving landscape of software development worldwide. Published in eight languages with data from 20 geographical regions, the survey includes China – a fast-evolving market that shares many global characteristics while retaining distinct traits of its own.  For example, Java […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1555",
-    "pubDate": "Sat, 10 Jan 2026 16:46:58 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/research/2026/01/insights-into-china-s-developer-landscape-key-trends/",
+    "pubDate": "Tue, 13 Jan 2026 16:11:09 +0000",
+    "creator": "Sofia Kulikova",
     "categories": [
-      "프로그래밍/개발메모",
-      "SQLite"
+      "articles-2",
+      "deveco",
+      "industry-trends",
+      "china",
+      "jetbrains-research"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "강의안 | 2026 스타트업 창업 트렌드 및 로드맵 - 창업(스타트업)",
-    "description": "1. 2026 스타트업 창업 트렌드 및 로드맵(Sample 15장)   2. 2026 스타트업 창업 트렌드 및 로드맵(전체 강의안)  https://docs.google.com/presentation/d/e/2PACX-1vS-mVEOKGa8lK4uBcUkLcrLDG0s4Cl-u8_3LEBB4O2__Hj_-e-CEEJo-m71-CKONg/pub?start=f",
+    "title": "토스 뮤직비디오 〈Spectrum〉, 영화관에서 만나요",
+    "description": "토스 뮤직비디오를 만날 수 있는 전국 독립예술영화관 10곳",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/321",
-    "pubDate": "Tue, 06 Jan 2026 01:59:30 GMT",
-    "creator": "고명환",
+    "link": "https://toss.im/tossfeed/article/spectrum-theater",
+    "pubDate": "Fri, 09 Jan 2026 01:38:00 GMT",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Java Annotated Monthly – January 2026",
-    "description": "Happy New Year and welcome to the first Java Annotated Monthly of 2026! We hope this year brings fresh ideas, smarter ways to stay productive, and innovation that lasts. JAM, as always, is your island of stability in the fast-moving tech world, bringing the coolest news and practical tips. This time, we are starting strong […]",
+    "title": "How to Troubleshoot Builds With TeamCity Dashboards",
+    "description": "This article was brought to you by Damaso Sanoja, draft.dev. If you’re spending your mornings debugging Jenkins pipeline failures, waiting for builds that should take minutes but stretch into hours, or scrambling to identify which plugin update broke your deployment process, you’re not alone. These daily troubleshooting battles with legacy CI/CD systems drain engineering time […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/01/java-annotated-monthly-january-2026/",
-    "pubDate": "Tue, 06 Jan 2026 12:12:05 +0000",
-    "creator": "Irina Mariasova",
+    "link": "https://blog.jetbrains.com/teamcity/2026/01/how-to-troubleshoot-teamcity-builds-using-dashboards/",
+    "pubDate": "Mon, 12 Jan 2026 17:16:46 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "news",
-      "java-annotated",
-      "java-annotated-monthly"
+      "best-practices",
+      "teamcity-2",
+      "devopspains",
+      "docker"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "지금 제대로 해라",
-    "description": "작년 연말에 따뜻한 방콕에서 며칠 동안 휴식을 가졌다. 말이 휴식이지만, 우린 워낙 적은 인력이 많은 일을 하고, 각자 맡은 일이 있어서 일하면서 쉬는 일정이었는데, 일보다는 휴식을 더 많이 하려고 노력했다. 이 기간에 골프를 몇 번 쳤는데, 골프 라운딩이 끝나고 점수표를 보면 매번 이런 아쉬움의 말들을 했다. “1번 홀 파 5에서 물에 두 번 빠져서 4오버만(...)",
+    "title": "코드 품질 개선 기법 28편: 제약 조건에도 상속세가 발생한다",
+    "description": "이 글은 2024년 6월 6일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/01/do-the-right-thing-now-not-later.html",
-    "pubDate": "Sun, 11 Jan 2026 21:35:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "failure",
-      "FoundersAtWork",
-      "general"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 34화, 체육대회인데스와 ④",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2407",
-    "pubDate": "Wed, 07 Jan 2026 19:30:46 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Bringing Real Users Into a Product Team Gathering – A JetBrains Research Story",
-    "description": "In product development, assumptions about how people will use a tool don’t always align with the practical reality. Last spring, during a gathering of our Junie team, we set out to bridge that gap by trying something new. We ran two hands-on user workshops – one online and another in our Belgrade office. For the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/01/bringing-real-users-into-a-product-team-gathering-a-jetbrains-research-story/",
-    "pubDate": "Fri, 09 Jan 2026 12:37:47 +0000",
-    "creator": "Innokentii Burtsev",
-    "categories": [
-      "research",
-      "jetbrains-tech-insights-lab"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "웹 기반 AI Agents 개발 방법",
-    "description": "레퍼런스\n\nBuilding Smart Web AI Agents with MCP, LangGraph & FastAPI | by Shahar Gino | Jan, 2026 | Medium",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/01/ai-agents.html",
-    "pubDate": "2026-01-07T22:45:00.000Z",
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-28",
+    "pubDate": "Wed, 07 Jan 2026 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 8,
+    "id": 5,
     "imageUrl": "",
-    "title": "The era of “Know-Right”",
-    "description": "지식의 패러다임은 계속 바뀌고 있다. 초기에는 know-how 의 시대였다. 개인의 경험과 숙련이 가장 큰 자산이고, 이런 것들이 사람의 머릿속이나 일부 조직내에서만 전수되는 그런 시대였다. 그래서 know-how의 시대의 핵심 질문은 “어떻게” 였다. 당연하지만 이 어떻게를 잘 하는 사람이 인재로써 중요한 가치를 가지고, 일의 중점에 있게 되었다. 그런 시기가 점점 know-what, know-where의 시대를 거쳐오게 되지만, 예전보다 정보를 […]",
+    "title": "AI 주도 개발 라이프 사이클(AI-DLC) 정의하기  - AI 주도 개발 시대, 당신의 스프린트는 아직도 2주입니까",
+    "description": "2주 스프린트가 '애자일'이라는 착각  AWS 블로그에 올라온 AI-DLC(AI 주도 개발 라이프사이클) 글을 읽다가 뒤통수를 맞은 기분이 들었다.우리 팀은 2주 단위 스프린트를 짜면서 스스로 '애자일'하게 일한다고 믿어 왔다. 매주 스탠드업 미팅을 하고, 회고를 하고, 백로그를 관리하면서. 그런데 문득 이런 생각이 들었다.AI는 초 단위로 코드를 생성하는",
     "reviews": [],
     "syllabus": [],
-    "link": "https://charsyam.wordpress.com/2026/01/10/the-era-of-know-right/",
-    "pubDate": "Sat, 10 Jan 2026 14:43:37 +0000",
-    "creator": "charsyam",
-    "categories": [
-      "Uncategorized"
-    ]
+    "link": "https://brunch.co.kr/@@PUo/50",
+    "pubDate": "Wed, 07 Jan 2026 15:40:29 GMT",
+    "creator": "Soomin Kim",
+    "categories": []
   },
   {
-    "id": 9,
+    "id": 6,
     "imageUrl": "",
     "title": "CSS at Scale With StyleX",
     "description": "Build a large enough website with a large enough codebase, and you’ll eventually find that CSS presents challenges at scale. It’s no different at Meta, which is why we open-sourced StyleX, a solution for CSS at scale. StyleX combines the ergonomics of CSS-in-JS with the performance of static CSS. It allows atomic styling of components [...]\nRead More...\nThe post CSS at Scale With StyleX appeared first on Engineering at Meta.",
@@ -132,24 +88,31 @@
     ]
   },
   {
-    "id": 10,
+    "id": 7,
     "imageUrl": "",
-    "title": "Pay As a Local",
-    "description": "No description available",
+    "title": "SEO는 끝났다? 2026년 콘텐츠 성공 공식, 생성형 엔진 최적화(GEO) 마스터하",
+    "description": "2026년, 디지털 콘텐츠 시장은 거대한 변화의 물결에 휩싸였습니다. 이제는 단순히 키워드를 나열하는 SEO 시대가 아닌, 생성형 AI 검색(SGE/CUE)이 지배하는 GEO(Generative Engine Optimization) 시대가 도래했죠. AI는 더 이상 단순한 도구가 아니라, 콘텐츠의 생존과 수익을 결정하는 핵심 플레이어가 되었습니다. 이 글에서는 AI 슬롭(AI Slop)의 함정을 피하고, HIT(Human in the Loop) 전략을 통해 여러분의 콘텐츠를 AI 시대의 핵심 자산으로 만드는 구체적인 방법을 제시합니다. 키워드의 종말부터 제로 클릭 검색, 유튜브 알고리즘의 변화, 그리고 커뮤니티 기반 수익화까지, 새로운 디지털 수익화 공식을 파헤쳐 보세요.\n\n\n여러분, 2026년 바로 이 시점에서 혹시 유튜브나 블로그 수익이 갑자기 0원이 될 수도 있다는 사실을 알고 계셨나요? 물론, 단순히 겁을 주려는 이야기는 아닙니다. 구글과 유튜브의 새로운 AI 알고리즘이 여러분의 콘텐츠를 ‘AI 스팸’으로 분류하는 순간, 공들여 만든 모든 것이 검색 결과에서 사라져 버릴 수 있다는 현실적인 경고입니다. 실제로 일부 유튜브 쇼츠 채널들이 이미 이 AI 슬롭(AI Slop)이라는 함정에 빠져 어려움을 겪고 있고요. 그렇다면 이 거대한 변화 속에서 우리는 어떻게 살아남을 수 있을까요? 이 위기를 오히려 기회로 바꾸는 방법은 없을까요? 지금부터 2026년 디지털 수익화의 새로운 공식을 하나하나 파헤쳐 보겠습니다.\n  2026년, 디지털 수익의 대격변: SEO에서 GEO로\n최근 최신 컨설팅 보고서들을 리서치하면서 정말 놀라운 사실을 깨달았습니다. 우리가 익히 알던 기존의 검색 방식, 즉 SEO(Search Engine Optimization) 게임의 룰이 완전히 바뀌었다는 것입니다. 아니, 바뀌었다기보다는 이제는 거의 종착역에 도달했다고 보는 게 맞을 것 같아요. 이제는 GEO(Generative Engine Optimization), 즉 생성형 엔진 최적화라는 완전히 새로운 게임이 시작된 거죠. 이 변화는 단순히 검색 알고리즘의 업데이트 수준을 넘어선, 디지털 수익 생태계 전체의 대격변을 의미합니다.\n그렇다면 이 AI가 모든 것을 지배하는 새로운 환경에서 어떻게 해야 내 블로그나 유튜브 채널이 알고리즘의 처벌을 피하고, 오히려 AI의 선택을 받는 핵심 자산이 될 수 있을까요? 우리의 목표는 명확합니다. AI를 단순히 글이나 영상을 좀 더 편리하게 만들어주는 ‘도우미’ 정도로 생각하는 것이 아니라, 우리의 가장 강력한 전략적 무기로 활용하는 방법을 알아내는 것이죠. 이제 AI는 선택이 아닌 필수이자, 제대로 활용한다면 상상 이상의 성과를 가져다줄 열쇠가 될 겁니다.\n  키워드의 종말과 주제 권위성의 시대\n가장 근본적인 변화부터 짚고 넘어가죠. 바로 키워드의 종말입니다. 예전에는 '강남역 맛집'이라는 글을 쓸 때, 본문에 이 단어를 스무 번씩 반복해서 넣는 것이 일종의 '정석'처럼 여겨졌죠. 하지만 2026년 현재, 이런 전략은 더 이상 아무런 의미가 없습니다. 아니, 오히려 어뷰징(abusing)으로 분류되어 감점 요인이 될 수도 있습니다.\n구글의 SGE(Search Generative Experience)나 네이버의 CUE와 같은 생성형 엔진들은 이제 단어의 개수를 세는 것을 넘어, 콘텐츠의 문맥과 의도를 파악합니다. 그들이 집중하는 핵심은 단 하나입니다. “이 콘텐츠를 만든 사람이 이 주제에 대해 얼마나 깊이 있는 진짜 전문가인가?” 바로 이 '주제 권위성'을 평가하는 거죠.\n예를 들어, 여러분이 'AI 콘텐츠 마케팅'이라는 주제로 블로그를 운영한다고 가정해 봅시다. 과거에는 이 키워드를 포함한 글을 여러 개 발행했을 거예요. 하지만 이제는 접근법이 완전히 달라져야 합니다. 'AI 마케팅의 미래는?', 'AI 마케팅 툴 10가지 비교', 'AI 마케팅 실패 사례 분석' 등 사람들이 이 주제에 대해 궁금해할 만한 50개 이상의 세부 질문에 대해 각각 깊이 있는 답변을 제공하는 콘텐츠 클러스터(Content Cluster)를 구축해야 합니다.\n전체 콘텐츠의 80% 이상을 하나의 전문 주제에 집중할 때, AI는 비로소 여러분을 '믿을 만한 전문가'로 인식하고 검색 결과 상단에 적극적으로 노출하기 시작합니다. 여러 주제를 얕게 다루는 시대는 이제 정말 끝났다고 봐도 무방합니다.\n  GEO 시대의 핵심: AI는 단순히 키워드가 아닌, 콘텐츠의 문맥과 작성자의 전문성을 평가합니다. 하나의 주제에 깊이 파고들어 '주제 권위성'을 확보하는 것이 중요해요.\n  제로 클릭 검색과 새로운 포지션 제로\n여기서 더 충격적인 사실이 있습니다. 아무리 열심히 노력해서 전문가로 인정받아도, 정작 사람들이 여러분의 사이트를 클릭하지 않을 수도 있다는 거예요. 우리는 이를 제로 클릭 검색(Zero-Click Search)이라고 부릅니다. 말 그대로 검색 결과 페이지에서 웹사이트로의 클릭이 발생하지 않는 현상이죠. 최신 데이터에 따르면, 데스크톱 검색의 무려 46.5%, 거의 절반에 달하는 사용자들이 AI가 요약해 준 답변만 보고 검색을 끝내버린다고 합니다.\n이러한 변화로 인해 실제로 일부 글로벌 기업들은 자연 검색을 통한 방문자 수가 70%에서 80%까지 폭락하는 경험을 했습니다. 어제까지 1만 명이 방문하던 블로그에 갑자기 2천 명만 들어온다고 상상해 보세요. 정말 끔찍한 시나리오가 아닐 수 없습니다.\n따라서 이제 우리의 목표는 단순히 '클릭'이 되어서는 안 됩니다. 우리의 새로운 목표는 AI가 만들어낸 답변에 여러분의 이름이나 브랜드가 인용되는 것입니다. 예를 들어, '이 내용에 대한 더 자세한 정보는 OOO의 블로그를 참고했습니다'와 같이 출처로 명시되는 것이죠. 이것이 바로 새로운 포지션 제로(Position Zero), 즉 검색 결과 1위보다도 더 높은, AI 시대의 최고의 자리입니다. 내 콘텐츠가 AI 답변의 핵심 근거 자료로 채택되도록 만드는 것, 이것이 바로 GEO 시대의 진정한 승리 공식입니다.\n  2026년형 유튜브 알고리즘의 진실: 시청자 만족도\n이러한 변화의 물결은 유튜브에서도 거세게 몰아치고 있습니다. 어떻게 보면 검색 엔진보다 훨씬 더 직접적이고 강력한 영향을 미치고 있다고 생각해요. 과거 유튜브 성공 공식은 뭐였을까요? 맞습니다. 조회수와 시청 시간이었죠. 그래서 어떻게든 자극적인 썸네일과 제목으로 클릭을 유도하고, 일단 시청자를 영상에 붙잡아두는 것이 중요했습니다.\n하지만 2026년 현재, 유튜브 알고리즘은 오직 단 하나의 지표, 바로 시청자 만족도에만 집착합니다. 예를 들어, '초특가 아이폰 공짜로 사는 법' 같은 썸네일에 이끌려 영상을 클릭했는데, 막상 내용은 별것 없는 광고뿐이라면 시청자는 어떻게 반응할까요? 당연히 10초도 안 보고 영상을 꺼버리겠죠. 과거에는 이런 행동이 단순히 '이탈률이 높구나' 정도로 끝났지만, 이제는 다릅니다. 이탈하는 시청자의 행동 하나하나가 '이 채널은 시청자를 속이는 나쁜 채널'이라는 강력한 패널티 신호로 쌓이게 됩니다. 그리고 이 패널티는 해당 영상 하나로 끝나는 것이 아니라, 채널 전체의 노출량을 심각하게 깎아버리는 결과를 초래하죠.\n이제부터 유튜브에서의 유일한 성공 공식은 아주 명확해졌습니다. 시청자가 여러분의 영상을 다 보고 나서 '아, 진짜 시간을 잘 썼다. 이 채널 구독하길 정말 잘했다'고 진심으로 느끼게 만드는 것. 이것이 바로 전부입니다. 시청자의 진정한 만족이 곧 채널의 성장으로 직결되는 시대가 온 거죠.\n⚙️ 3단계 하이브리드 퍼널 전략: AI 시대의 유튜브 성공 공식\n그렇다면 이 완전히 새로운 전쟁터에서 우리는 어떻게 구체적으로 승리할 수 있을까요? 바로 2026년형 유튜브 성공 공식, 3단계 하이브리드 퍼널(Funnel) 전략입니다. 이 전략은 AI 시대에 최적화된 시청자 유입부터 수익화까지의 로드맵을 제시합니다.\n1단계: 유입 (Inflow) - 쇼츠를 정교한 필터로 활용\n이 단계의 핵심 무기는 바로 쇼츠(Shorts)입니다. 하지만 여기서 우리는 쇼츠에 대한 기존의 생각을 완전히 바꿔야 해요. 2026년에 쇼츠는 더 이상 단순한 바이럴 도구가 아닙니다. 아무에게나 노출되어 조회수를 높이는 것이 아니라, 정확한 타깃 시청자만 걸러내는 아주 정교한 필터로서의 역할을 수행해야 합니다. 주제에 관심도 없는 불특정 다수를 끌어모으는 것은 오히려 채널의 정체성을 흐리고 알고리즘에 나쁜 신호를 주는 최악의 전략이 될 수 있습니다.\n예를 들어 볼까요? 여러분이 최신 스마트폰을 깊이 있게 리뷰하는 기술 채널을 운영한다고 가정해 봅시다. 여기서 갑자기 요즘 유행하는 댄스 챌린지 쇼츠를 올리면 어떻게 될까요? 물론 조회수는 잠깐 폭발할 수도 있겠죠. 하지만 그 영상을 보고 들어온 수만 명의 사람들은 여러분의 전문적인 기술 리뷰에는 전혀 관심이 없을 겁니다. 이런 상황은 알고리즘에게 '이 채널은 정체성이 모호하니 기술에 관심 있는 사람들에게 추천하지 말아야겠다'는 신호를 줄 수 있습니다.\n대신에, 앞으로 리뷰할 스마트폰의 카메라 줌 기능을 100배 땡겨보는 10초짜리 쇼츠를 올려보세요. 그러면 정말 그 스마트폰 카메라 성능에 관심 있는 잠재 고객들만 여러분 채널로 유입될 겁니다. 이것이 바로 하이브리드 퍼널의 시작이자, 진짜 팬이 될 사람들을 모으는 첫 단추입니다.\n\n\n2단계: 신뢰 구축 (Building Trust) - 롱폼과 LVR 지표\n쇼츠라는 정교한 필터로 걸러진, 내 주제에 진짜 관심 있는 시청자들에게는 이제 롱폼(Long-form), 즉 긴 영상으로 깊이 있는 정보를 제공하며 신뢰를 구축해야 합니다. '당신은 나를 믿어도 좋다'는 확실한 신호를 주는 단계죠. 여기서 핵심은 알고리즘에게 '이 영상은 시청자들을 아주 만족시키고 있습니다'라는 구체적인 신호를 계속 보내는 것입니다.\n아주 중요한 숫자를 하나 제시해 드릴게요. 바로 좋아요/조회수 비율, LVR(Like View Ratio)입니다. 이 비율이 2%라면 그냥 보통 영상이지만, 만약 4%를 넘어간다면 유튜브 알고리즘은 '아, 이건 아주 훌륭한 영상이구나. 널리 알려야겠다'고 판단하여 추천을 폭발적으로 늘려준다고 합니다. 조회수가 1만 회인 영상이라면 좋아요가 최소 400개는 찍혀야 한다는 뜻이죠. LVR은 시청자가 '내 시간을 쓸 가치가 있었다'고 느끼는 가장 확실한 피드백이기 때문입니다.\n그럼 이 만족도를 어떻게 높일 수 있을까요? 두 가지 핵심 기술이 있습니다.\n영상 시작 5초 안에 핵심 가치 제시: '이 영상을 끝까지 보시면 당신은 이걸 얻어갈 수 있습니다'라는 명확한 가치를 제시해야 합니다. 두리뭉실하게 시작하면 시청자는 바로 이탈합니다.\n2~3분마다 시각적 변화: 사람의 집중력은 생각보다 짧습니다. 2~3분마다 의식적으로 화면 전환, 그래프 자료, 자막 강조 등 시각적인 변화를 주어 시청 유지율을 높여야 합니다.\n이러한 기술들로 시청 유지율을 높이고, 영상 마지막에는 '오늘 내용이 유익했다면 좋아요로 알려주세요'라고 정중하게 요청하여 LVR 4%를 달성하는 것, 이것이 이 단계의 중요한 목표입니다.\n3단계: 수익화 (Monetization) - 커뮤니티 기반의 지속 가능한 수익\n솔직히 말해서 2026년에 애드센스(AdSense)와 같은 광고 수익에만 의존하는 것은 매우 위험한 생각입니다. 최근 광고 수익의 중요도는 계속해서 낮아지고 있어요. 진짜 돈, 지속 가능한 수익은 여러분의 채널을 열성적으로 지지하는 팬덤, 바로 커뮤니티에서 나옵니다. 핵심 수익원은 크게 세 가지로 볼 수 있습니다.\n멤버십 (Memberships): 채널의 유료 멤버십을 통해 독점 콘텐츠나 혜택을 제공합니다.\n슈퍼챗 (Super Chat) 및 후원: 라이브 스트리밍 시 시청자들의 자발적인 후원을 유도합니다.\n브랜드 협력 (Brand Partnerships): 채널의 전문성을 인정하는 브랜드와의 협업을 통해 수익을 창출합니다.\n여기서 가장 중요한 건 '왜 나를 후원해야 하는가?'에 대한 명확한 가치를 제시하는 겁니다. 옛날처럼 '여러분의 후원이 제게 큰 힘이 됩니다' 같은 감성적인 호소는 더 이상 통하지 않아요. 시청자들은 명확한 가치 교환을 원합니다.\n예를 들면 이런 거죠. '제 채널에 VIP 멤버가 되시면 매주 목요일 저와 함께하는 비공개 실시간 Q&A에 참여하실 수 있고, 제가 만드는 모든 강의 자료 원본 파일을 미리 받아보실 수 있습니다.' 어때요? 아주 구체적이고 매력적인 혜택을 줘야 하는 겁니다. 이것은 구글에 의존하는 것이 아니라, 당당한 비즈니스 모델입니다. 이 개념으로 접근해야만 여러분의 채널이 단순한 취미가 아니라 지속 가능한 사업체가 될 수 있습니다.\n\n\n✨ AI 자동화의 빛과 그림자: 생산성 혁명 vs. AI 슬롭 페널티\n이제 정말 흥미로운 이야기, AI 자동화로 넘어가 보겠습니다. AI는 마치 강력한 마법 지팡이 같아요. 이걸 잘 쓰면 생산성을 10배 이상 높이는 혁명의 도구가 되지만, 잘못 휘두르면 여러분의 모든 것을 파괴하는 저주의 함정이 될 수도 있습니다.\nAI의 빛: 상상을 초월하는 생산성 향상\nAI를 제대로만 활용하면 우리의 생산성은 정말 상상을 초월할 정도로 높아집니다. 여기서 강조할 세 가지 핵심 기술이 있어요.\nAI 에이전트 리서치: 퍼플렉시티(Perplexity) 같은 AI 검색 엔진을 사용해 보세요. 예전에는 특정 주제 자료를 모으려고 논문 뒤지고, 해외 기사 번역하느라 6시간 넘게 걸렸죠. 이제 AI에게 질문 하나만 던지면 단 15분 만에 전 세계 최신 정보를 싹 요약해서 보고서 형태로 만들어 줍니다. 이건 단순히 시간을 아끼는 수준이 아니라, 콘텐츠의 깊이 자체가 달라지는 경험을 선사합니다.\n멀티모달 영상 편집: 이건 정말 혁명적입니다. 1시간짜리 강연 영상을 녹화했다고 칩시다. 팩토리(Factory)나 디스크립트(Descript) 같은 툴에 올리기만 하면, AI가 영상의 핵심 내용을 자동으로 분석해서 30분 안에 쇼츠 영상 10개를 뚝딱 만들어줍니다. 편집자 한 명의 몫을 AI가 거뜬히 해내는 셈이죠.\nAI 다국어 더빙: 일레븐랩스(ElevenLabs)나 헤이젠(HeyGen) 같은 서비스를 이용하면, 한국어로 만든 단 하나의 영상으로 무려 120개 언어의 더빙 버전을 만들 수 있습니다. 놀라운 건, 여러분의 목소리 톤과 감정을 그대로 유지하면서도 말이죠. 예전에는 이런 작업을 위해 수천만 원이 들었지만, 이제는 그 비용의 1/5 수준으로 줄었습니다. 여러분의 콘텐츠가 전 세계 시장에 동시에 진출할 수 있는 문이 활짝 열린 겁니다.\nAI의 그림자: AI 슬롭(AI Slop) 페널티의 실체\n하지만, 여기서부터가 정말 중요합니다. 이렇게 AI로 편리하게 대량으로 찍어낸 저품질 콘텐츠를 전문가들은 AI 슬롭(AI Slop), 우리말로는 'AI 오물'이라고 부르거든요. 그리고 구글과 유튜브는 이 AI 슬롭을 무려 95% 이상의 무서운 정확도로 잡아냅니다. 알고리즘이 AI 슬롭을 탐지하는 신호는 아주 명확하다고 해요.\n반복적인 문장 구조와 딱딱한 톤: 여러 영상이나 글에서 똑같은 문장 구조나 기계적인 톤이 반복되는 경우.\n감정 없는 로봇 같은 기계음: 영상에서 감정의 높낮이가 없는 기계음이 사용된 경우.\n불분명한 출처: 이 콘텐츠를 누가 만들었는지 출처가 불분명한 경우.\n시청자들의 부정적 피드백: 사용자들이 '관심 없음' 버튼을 누르거나 '이거 AI가 만들었죠?' 같은 부정적인 댓글이 달리는 경우.\n이런 데이터가 쌓이면 바로 경고등이 켜지는 겁니다. 한번 AI 슬롭으로 찍히면 그 타격은 정말 치명적이에요. 한 연구 결과를 보니, 저품질 AI 영상은 인간이 직접 만든 일반 영상보다 트래픽이 무려 5.44배나 감소했다고 합니다. 이건 단순히 노출이 좀 줄어드는 수준이 아니에요. 심지어 기존 구독자 수를 알고리즘이 줄여버리는 조치까지 적용하기 시작했다는 겁니다. 100% 자동화로 편하게 돈 벌려다가, 내 채널 자체가 그냥 공중분해될 수 있다는 뜻이죠.\n⚠️ AI 슬롭 경고: 100% AI 자동화는 편리함을 넘어 디지털 자폭 행위가 될 수 있습니다. 알고리즘은 AI가 만든 저품질 콘텐츠를 정확하게 탐지하며, 이는 채널 트래픽 및 구독자 수 감소로 이어집니다.\n  HIT 전략: 인간 개입 시스템 (Human in the Loop)\n그렇다면 이 문제점에 대한 해답은 뭘까요? AI를 아예 쓰지 말아야 할까요? 아니요, 그건 절대 아닙니다. 2026년 디지털 콘텐츠 시장의 최종 승리 전략은 바로 HIT(Human in the Loop), 즉 인간 개입 시스템입니다. AI만으로 모든 것을 자동화하는 채널도, 오직 인간의 노동력만으로 콘텐츠를 만드는 채널도 아닌, 인간과 AI의 장점만을 전략적으로 결합하는 채널이 모든 것을 차지하게 될 겁니다.\n여기서 '진정성 차익 거래'라는 아주 흥미로운 개념이 등장합니다. AI가 만든 그럴싸한 콘텐츠가 세상에 넘쳐날수록, 역설적으로 인간의 손길이 닿은 날것 그대로의 진정성 있는 콘텐츠의 가치가 희귀해져 폭등한다는 의미입니다. 마치 공장에서 찍어낸 기성품들 사이에서 장인이 한 땀 한 땀 만든 수제품이 훨씬 비싸게 팔리는 것과 같은 원리죠.\n핵심은 역할 분담입니다. 반복적인 작업, 자료 조사, 데이터 분석, 초안 생성 같은 지루하고 힘든 일은 AI라는 유능한 비서에게 맡기세요. 그리고 인간인 여러분은 더 중요한 일에 집중하는 겁니다. 바로 전체적인 방향을 잡는 전략 수립, 중요한 최종 판단, 그리고 AI가 절대로 흉내 낼 수 없는 여러분만의 인간적인 감성과 경험을 콘텐츠에 불어넣는 것이죠. AI의 압도적인 효율성과 인간의 따뜻한 진정성이 만날 때, 그 누구도 따라올 수 없는 강력한 경쟁 우위가 생기는 겁니다.\n\n\n⏳ 실제 콘텐츠 제작 워크플로: 90분의 기적\n그럼 실제 콘텐츠 제작 과정을 시간 단위로 한번 쪼개볼까요? HIT 전략이 어떻게 우리의 일상에 적용될 수 있는지 명확하게 보여드릴게요.\n단계\n주체\n활동 내용\n소요 시간\n\n\n\n\n1. 자료 리서치\nAI\n전 세계 최신 정보 요약 및 보고서 생성\n15분\n\n\n2. 기획 및 전략 수립\n인간\n핵심 메시지, 스토리라인 구상\n30분\n\n\n3. 초안 생성\nAI\n기획에 맞춰 대본/글 초안 자동 생성\n즉시\n\n\n4. 최종 검토 및 인간적 터치\n인간\n경험담, 비유, 유머 추가, 글 다듬기\n45분\n\n\n5. 발행 및 홍보\nAI\nSNS 홍보 문구, 발행 등 마무리 작업\n즉시\n\n\n\n놀랍지 않나요? 예전에는 4시간에서 8시간까지 걸리던 고품질 콘텐츠 하나가 단 90분 안에 완성되는 겁니다. 80%의 시간을 절약하면서도 콘텐츠의 품질은 인간의 마지막 터치로 극대화할 수 있습니다. 꼭 기억하세요. AI로 뼈대를 세우되, 마지막 10분은 반드시 여러분의 영혼, 즉 여러분의 경험과 진정성으로 채워 넣어야 합니다. 그것이 AI 슬롭 페널티라는 저주를 피하고 2026년에 성공하는 유일한 길입니다.\n  핵심 요약\n✅ SEO는 죽었다? GEO 시대의 도래: AI는 키워드 대신 '주제 권위성'과 '콘텐츠 클러스터'에 집중하며, AI의 인용을 받는 '새로운 포지션 제로'가 핵심 목표입니다.\n✅ 유튜브 알고리즘의 변화: 조회수보다 '시청자 만족도'에 집중하세요. 쇼츠는 '정교한 필터'로, 롱폼은 LVR(좋아요/조회수 비율 4% 이상)을 통한 '신뢰 구축'에 활용해야 합니다.\n✅ AI의 양면성: AI는 생산성을 10배 높이는 도구이지만, 100% 자동화된 저품질 'AI 슬롭'은 치명적인 페널티로 이어집니다. AI 활용 시 '인간적 터치'가 필수입니다.\n✅ HIT 전략으로 살아남기: AI에게는 반복 작업을, 인간에게는 전략 수립과 '진정성'을 부여하는 'Human in the Loop' 시스템이 AI 시대 콘텐츠 제작의 최종 승리 공식입니다.\n이러한 변화에 능동적으로 대응해야만 2026년 이후의 디지털 콘텐츠 시장에서 지속 가능한 성공을 거둘 수 있습니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: GEO(생성형 엔진 최적화)는 무엇이며, 기존 SEO와 어떻게 다른가요?\nA1: GEO는 생성형 AI 검색 엔진(SGE, CUE 등)에 콘텐츠를 최적화하는 전략입니다. 기존 SEO가 특정 키워드 반복과 검색량에 초점을 맞췄다면, GEO는 AI가 콘텐츠의 문맥과 작성자의 '주제 권위성'을 파악하여 답변에 인용하도록 만드는 것을 목표로 합니다. 이제는 키워드 밀도보다 콘텐츠의 깊이와 전문성이 훨씬 중요해졌습니다.\nQ2: '제로 클릭 검색' 시대에 웹사이트 트래픽을 늘리는 방법은 무엇인가요?\nA2: 제로 클릭 검색으로 인해 직접적인 웹사이트 방문은 줄어들 수 있습니다. 이 시대의 목표는 AI가 생성하는 답변에 여러분의 콘텐츠가 '출처'로 인용되는 '새로운 포지션 제로'를 달성하는 것입니다. 이를 위해서는 하나의 전문 주제에 대한 깊이 있는 '콘텐츠 클러스터'를 구축하여 AI가 여러분을 해당 분야의 권위 있는 정보원으로 인식하도록 해야 합니다.\nQ3: 유튜브에서 'AI 슬롭' 페널티를 피하고 성공하려면 어떻게 해야 하나요?\nA3: AI 슬롭은 AI가 만든 저품질 콘텐츠를 의미하며, 유튜브 알고리즘은 이를 정확하게 탐지하여 채널에 페널티를 줍니다. 이를 피하려면 'HIT(Human in the Loop) 전략'을 사용해야 합니다. AI에게는 자료 조사나 초안 생성 같은 반복 작업을 맡기고, 인간인 여러분은 콘텐츠의 전략 수립, 최종 검토, 그리고 인간적인 감성과 경험을 불어넣는 역할에 집중하여 진정성 있는 고품질 콘텐츠를 만들어야 합니다.\n오늘 분석한 내용, 머릿속이 조금 복잡하셨을 수도 있겠네요. 제가 딱 세 문장으로 핵심을 요약해 드리겠습니다. 첫째, AI는 당신의 유능한 부사수일 뿐, 전략을 짜고 최종 결정을 내리는 CEO는 언제나 당신 자신이어야 합니다. 둘째, 쇼츠라는 필터로 진짜 타깃을 모으고, 롱폼 영상으로 깊은 신뢰를 쌓고, 커뮤니티를 통해 진짜 수익을 내십시오. 셋째, 100% 자동화는 편리함이 아니라 디지털 자폭 행위입니다. AI가 만든 초안에 당신의 경험과 진정성이라는 영혼을 반드시 불어넣으십시오.\n마지막으로, 오늘 밤 혼자 조용히 생각해 볼 만한 질문을 하나 던지며 마무리하겠습니다. 2026년에 디지털 시장은 규모의 경쟁이 아니라 정교함과 진정성의 경쟁입니다. 이제 AI는 당신의 글, 당신의 영상, 심지어 당신의 목소리까지 거의 완벽하게 복제할 수 있는 세상이 왔습니다. 그렇다면 AI가 절대로 복제할 수 없는, 오직 당신만이 가진 고유한 가치는 무엇입니까? 여러분의 콘텐츠에서 한번 그 답을 찾아보시길 바랍니다.\n이 글이 AI 시대의 콘텐츠 전략을 세우는 데 도움이 되셨기를 진심으로 바랍니다. 감사합니다!\n⚙️ '2026 AI 시대 디지털 생존 가이드' 무료배포!\n기존의 검색 방식은 끝났습니다. 위기를 기회로 만드는 GEO 전략과 수익화의 모든 것.\n2026년, 여러분의 유튜브나 블로그 수익이 한순간에 0원이 될 수 있습니다. 구글과 유튜브의 새로운 AI 알고리즘이 여러분의 콘텐츠를 'AI 스팸'으로 감지하는 순간, 공들여 만든 결과물들은 디지털 심해 속으로 사라져 보이지 않게 됩니다. \n이것은 겁을 주기 위함이 아니라 현실입니다. 기존의 SEO 게임 룰은 끝났습니다. 이제는 생성형 엔진 최적, 즉 GEO(Generative Engine Optimization)의 시대입니다. 이 가이드북은 AI를 가장 강력한 전략적 무기로 만들어 여러분의 채널을 핵심 자산으로 키워내는 구체적인 실행 계획을 담고 있습니다.\n\n \n2026 AI 시대 디지털 생존 전략 가이드북\n \n2026-ai-survival-guide.vercel.app",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/pay-as-a-local-bef469b72f32?source=rss----53c7c27702d5---4",
-    "pubDate": "Mon, 12 Jan 2026 18:02:56 GMT",
-    "creator": "Gerum Haile",
+    "link": "https://muzbox.tistory.com/483698",
+    "pubDate": "Sun, 11 Jan 2026 12:16:50 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "payments",
-      "tech",
-      "technology",
-      "engineering"
+      "AI, 미래기술/AI 인사이트",
+      "ai슬롭",
+      "AI알고리즘",
+      "Geo",
+      "디지털수익화전략",
+      "생성형엔진최적화",
+      "유튜브수익화2026",
+      "제로클릭검색",
+      "주제권위성",
+      "콘텐츠클러스터",
+      "휴먼인더루프"
     ]
   },
   {
-    "id": 11,
+    "id": 8,
     "imageUrl": "",
     "title": "픽샐장인의 등장 / AI 코딩 / 1인개발자",
     "description": "채널명이 길군요 \n마른비 내리는 밤 잠은 안오고\n\n\n \n클로드 코드로 여러가지를 결과물이 나와서 \n공유하는 영상이였습니다.\n \n영상: https://www.youtube.com/watch?v=EPefUj1D0X4&t=167s\n\n\n\n랜딩 페이지\nhttps://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbkJRUDdzRXZ0UUczT21zMUoxMFRxdzdLeXBGZ3xBQ3Jtc0tuS0R4M0RodWVGS0czN0ZBRVdvN2RMcTFBMnZ1SlBMYTZuRTlGSl9zMkllajlwaFdqbERoXzJDU2dJM08wUGExenVIVmRRT3hTUTNfMkU1M21pNWxhdFJKZnY1UC1Eb3VsQ1o5QnBZejhscVd3bm1saw&q=https%3A%2F%2Fwww.play-t.art%2F\n\n \nYouTube\n \nwww.youtube.com\n\n \n결과물 페이지 https://www.play-t.art/\n\n \nPlaytart - 픽셀아트 강의 & 외주 플랫폼\n픽셀아트 강의 & 외주플레이타르트 픽셀아트, AI 웹사이트 제작, 창작자 생존 전략까지. 개인 창작자 중심의 미니 플랫폼입니다.\nwww.play-t.art\n\n들어가서 봤는데 픽셀아트 퀄이 촣습니다.\n \n \n전직 프로그래머 였나봅니다.\n현재는 픽셀아트 하시는거 같습니다.\n코딩도 하구요\n주시해야할 것 같습니다.",
@@ -163,31 +126,35 @@
     ]
   },
   {
-    "id": 12,
+    "id": 9,
     "imageUrl": "",
-    "title": "Logstash 필터 xml",
-    "description": "filebeat의 xml 데이터 처리. 깔끔.\n\nprocessors:\n  - include_fields:\n      fields: \"message\"\n  - decode_xml:\n      field: message\n      target_field: \"\"\n\n\n\n\n\n{\n  \"@timestamp\": \"2026-01-06T06:43:46.901Z\",\n  \"@metadata\": {\n    \"beat\": \"filebeat\",\n    \"type\": \"_doc\",\n    \"version\": \"9.2.1\"\n  },\n  \"message\": \"Jan  5 03:12:34 rocky sysmon[947]: <Event><System><Provider Name=\\\"Linux-Sysmon\\\" Guid=\\\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\\\"/><EventID>5</EventID><Version>3</Version><Level>4</Level><Task>5</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\\\"2026-01-04T18:12:34.451516000Z\\\"/><EventRecordID>8660</EventRecordID><Correlation/><Execution ProcessID=\\\"947\\\" ThreadID=\\\"947\\\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>rocky</Computer><Security UserId=\\\"0\\\"/></System><EventData><Data Name=\\\"RuleName\\\">-</Data><Data Name=\\\"UtcTime\\\">2026-01-04 18:12:34.454</Data><Data Name=\\\"ProcessGuid\\\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\\\"ProcessId\\\">2481</Data><Data Name=\\\"Image\\\">&lt;unknown process&gt;</Data><Data Name=\\\"User\\\">root</Data></EventData></Event>\",\n  \"event\": {\n    \"system\": {\n      \"channel\": \"Linux-Sysmon/Operational\",\n      \"level\": \"4\",\n      \"task\": \"5\",\n      \"opcode\": \"0\",\n      \"correlation\": \"\",\n      \"computer\": \"rocky\",\n      \"security\": {\n        \"userid\": \"0\"\n      },\n      \"provider\": {\n        \"guid\": \"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\",\n        \"name\": \"Linux-Sysmon\"\n      },\n      \"eventid\": \"5\",\n      \"version\": \"3\",\n      \"keywords\": \"0x8000000000000000\",\n      \"timecreated\": {\n        \"systemtime\": \"2026-01-04T18:12:34.451516000Z\"\n      },\n      \"eventrecordid\": \"8660\",\n      \"execution\": {\n        \"processid\": \"947\",\n        \"threadid\": \"947\"\n      }\n    },\n    \"eventdata\": {\n      \"data\": [\n        {\n          \"name\": \"RuleName\",\n          \"#text\": \"-\"\n        },\n        {\n          \"name\": \"UtcTime\",\n          \"#text\": \"2026-01-04 18:12:34.454\"\n        },\n        {\n          \"name\": \"ProcessGuid\",\n          \"#text\": \"{00000000-0000-0000-0000-000000000000}\"\n        },\n        {\n          \"name\": \"ProcessId\",\n          \"#text\": \"2481\"\n        },\n        {\n          \"name\": \"Image\",\n          \"#text\": \"<unknown process>\"\n        },\n        {\n          \"name\": \"User\",\n          \"#text\": \"root\"\n        }\n      ]\n    }\n  }\n}\n\n\n\n\n로그스태시로 같은 xml 데이터 처리.\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\t\n xml {\n  force_array => false\n  source => \"message\"\n  target => \"event\"\n }\n}\n\n\n\n\n[2026-01-06T15:53:26,650][WARN ][logstash.filters.xml     ][main][f625819b8f2d9177fe8c582c21ef75942b54954d87974d0df6db584ad56a228f] Error parsing xml with XmlSimple {:source=>\"message\", :value=>\"Jan  5 03:12:34 rocky sysmon[947]: <Event><System><Provider Name=\\\"Linux-Sysmon\\\" Guid=\\\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\\\"/><EventID>5</EventID><Version>3</Version><Level>4</Level><Task>5</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\\\"2026-01-04T18:12:34.451516000Z\\\"/><EventRecordID>8660</EventRecordID><Correlation/><Execution ProcessID=\\\"947\\\" ThreadID=\\\"947\\\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>rocky</Computer><Security UserId=\\\"0\\\"/></System><EventData><Data Name=\\\"RuleName\\\">-</Data><Data Name=\\\"UtcTime\\\">2026-01-04 18:12:34.454</Data><Data Name=\\\"ProcessGuid\\\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\\\"ProcessId\\\">2481</Data><Data Name=\\\"Image\\\">&lt;unknown process&gt;</Data><Data Name=\\\"User\\\">root</Data></EventData></Event>\\r\", :exception=>#<REXML::ParseException: Malformed XML: Content at the start of the document (got 'Jan  5 03:12:34 rocky sysmon[947]: ')\nLine: 1\nPosition: 42\nLast 80 unconsumed characters:\n<Event>>, :backtrace=>[\"D:/ELK/v9/logstash-9.2.0/vendor/bundle/jruby/3.1.0/gems/rexml-3.4.4/lib/rexml/parsers/baseparser.rb:517:in `pull_event'\", \"D:/ELK/v9/logstash-9.2.0/vendor/bundle/jruby/3.1.0/gems/rexml-3.4.4/lib/rexml/parsers/baseparser.rb:249:in `pull'\", \"D:/ELK/v9/logstash-9.2.0/vendor/bundle/jruby/3.1.0/gems/rexml-3.4.4/lib/rexml/parsers/treeparser.rb:21:in `parse'\", \"D:/ELK/v9/logstash-9.2.0/vendor/bundle/jruby/3.1.0/gems/rexml-3.4.4/lib/rexml/document.rb:468:in `build'\", \"D:/ELK/v9/logstash-9.2.0/vendor/bundle/jruby/3.1.0/gems/rexml-3.4.4/lib/rexml/document.rb:105:in `initialize'\", \"org/jruby/RubyClass.java:923:in `new'\", \"D:/ELK/v9/logstash-9.2.0/vendor/bundle/jruby/3.1.0/gems/xml-simple-1.1.9/lib/xmlsimple.rb:979:in `parse'\", \"D:/ELK/v9/logstash-9.2.0/vendor/bundle/jruby/3.1.0/gems/xml-simple-1.1.9/lib/xmlsimple.rb:164:in `xml_in'\", \"D:/ELK/v9/logstash-9.2.0/vendor/bundle/jruby/3.1.0/gems/xml-simple-1.1.9/lib/xmlsimple.rb:203:in `xml_in'\", \"D:/ELK/v9/logstash-9.2.0/vendor/bundle/jruby/3.1.0/gems/logstash-filter-xml-4.3.2/lib/logstash/filters/xml.rb:196:in `filter'\", \"D:/ELK/v9/logstash-9.2.0/logstash-core/lib/logstash/filters/base.rb:158:in `do_filter'\", \"D:/ELK/v9/logstash-9.2.0/logstash-core/lib/logstash/filters/base.rb:176:in `block in multi_filter'\", \"org/jruby/RubyArray.java:2009:in `each'\", \"D:/ELK/v9/logstash-9.2.0/logstash-core/lib/logstash/filters/base.rb:173:in `multi_filter'\", \"org/logstash/config/ir/compiler/AbstractFilterDelegatorExt.java:133:in `multi_filter'\", \"D:/ELK/v9/logstash-9.2.0/logstash-core/lib/logstash/java_pipeline.rb:317:in `block in start_workers'\"]}\n{\n    \"message\" => \"Jan  5 03:12:34 rocky sysmon[947]: <Event><System><Provider Name=\\\"Linux-Sysmon\\\" Guid=\\\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\\\"/><EventID>5</EventID><Version>3</Version><Level>4</Level><Task>5</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\\\"2026-01-04T18:12:34.451516000Z\\\"/><EventRecordID>8660</EventRecordID><Correlation/><Execution ProcessID=\\\"947\\\" ThreadID=\\\"947\\\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>rocky</Computer><Security UserId=\\\"0\\\"/></System><EventData><Data Name=\\\"RuleName\\\">-</Data><Data Name=\\\"UtcTime\\\">2026-01-04 18:12:34.454</Data><Data Name=\\\"ProcessGuid\\\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\\\"ProcessId\\\">2481</Data><Data Name=\\\"Image\\\">&lt;unknown process&gt;</Data><Data Name=\\\"User\\\">root</Data></EventData></Event>\\r\",\n       \"tags\" => [\n        [0] \"_xmlparsefailure\"\n    ]\n}\n\n\n\n\n처리를 못한다.  에러 메시지를 보면 xml 태그 시작 전 문자열 때문에 정상 포맷이 아니라 판단하는 듯. 해당 구간 삭제.\n\n\n\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\t\n mutate {\n  gsub => [\"message\", \"^[^<]+\", \"\"]\n }\n\n\n xml {\n  force_array => false\n  source => \"message\"\n  target => \"event\"\n }\n}\n\n\n\n\n[2026-01-06T15:55:20,515][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}\n{\n      \"event\" => {\n        \"EventData\" => {\n            \"Data\" => [\n                [0] {\n                    \"content\" => \"-\",\n                       \"Name\" => \"RuleName\"\n                },\n                [1] {\n                    \"content\" => \"2026-01-04 18:12:34.454\",\n                       \"Name\" => \"UtcTime\"\n                },\n                [2] {\n                    \"content\" => \"{00000000-0000-0000-0000-000000000000}\",\n                       \"Name\" => \"ProcessGuid\"\n                },\n                [3] {\n                    \"content\" => \"2481\",\n                       \"Name\" => \"ProcessId\"\n                },\n                [4] {\n                    \"content\" => \"<unknown process>\",\n                       \"Name\" => \"Image\"\n                },\n                [5] {\n                    \"content\" => \"root\",\n                       \"Name\" => \"User\"\n                }\n            ]\n        },\n           \"System\" => {\n                   \"Opcode\" => \"0\",\n                  \"EventID\" => \"5\",\n            \"EventRecordID\" => \"8660\",\n                  \"Channel\" => \"Linux-Sysmon/Operational\",\n                  \"Version\" => \"3\",\n              \"TimeCreated\" => {\n                \"SystemTime\" => \"2026-01-04T18:12:34.451516000Z\"\n            },\n                 \"Computer\" => \"rocky\",\n                    \"Level\" => \"4\",\n                     \"Task\" => \"5\",\n                \"Execution\" => {\n                \"ProcessID\" => \"947\",\n                 \"ThreadID\" => \"947\"\n            },\n                 \"Provider\" => {\n                \"Guid\" => \"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\",\n                \"Name\" => \"Linux-Sysmon\"\n            },\n                 \"Keywords\" => \"0x8000000000000000\",\n                 \"Security\" => {\n                \"UserId\" => \"0\"\n            }\n        }\n    },\n    \"message\" => \"<Event><System><Provider Name=\\\"Linux-Sysmon\\\" Guid=\\\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\\\"/><EventID>5</EventID><Version>3</Version><Level>4</Level><Task>5</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\\\"2026-01-04T18:12:34.451516000Z\\\"/><EventRecordID>8660</EventRecordID><Correlation/><Execution ProcessID=\\\"947\\\" ThreadID=\\\"947\\\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>rocky</Computer><Security UserId=\\\"0\\\"/></System><EventData><Data Name=\\\"RuleName\\\">-</Data><Data Name=\\\"UtcTime\\\">2026-01-04 18:12:34.454</Data><Data Name=\\\"ProcessGuid\\\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\\\"ProcessId\\\">2481</Data><Data Name=\\\"Image\\\">&lt;unknown process&gt;</Data><Data Name=\\\"User\\\">root</Data></EventData></Event>\\r\"\n}\n\n\n\n관련 글\n\nLogstash 필터 date\nLogstash 필터 grok\nLogstash 필터 mutate\nLogstash 필터 ruby\nLogstash 필터 geoip\nLogstash 필터 dissect\nLogstash 필터 kv\nLogstash 필터 translate\nLogstash 필터 drop\nLogstash 필터 useragent\nLogstash 필터 elapsed\nLogstash 필터 fingerprint\nLogstash 필터 csv\nLogstash 필터 dns\nLogstash 필터 split\nLogstash codec 플러그인 multiline\nSplunk의 xml 처리",
+    "title": "웹 기반 AI Agents 개발 방법",
+    "description": "레퍼런스\n\nBuilding Smart Web AI Agents with MCP, LangGraph & FastAPI | by Shahar Gino | Jan, 2026 | Medium",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/01/logstash-xml.html",
-    "pubDate": "2026-01-06T06:56:00.004Z",
+    "link": "http://daddynkidsmakers.blogspot.com/2026/01/ai-agents.html",
+    "pubDate": "2026-01-07T22:45:00.000Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 13,
+    "id": 10,
     "imageUrl": "",
-    "title": "AI 주도 개발 라이프 사이클(AI-DLC) 정의하기  - AI 주도 개발 시대, 당신의 스프린트는 아직도 2주입니까",
-    "description": "2주 스프린트가 '애자일'이라는 착각  AWS 블로그에 올라온 AI-DLC(AI 주도 개발 라이프사이클) 글을 읽다가 뒤통수를 맞은 기분이 들었다.우리 팀은 2주 단위 스프린트를 짜면서 스스로 '애자일'하게 일한다고 믿어 왔다. 매주 스탠드업 미팅을 하고, 회고를 하고, 백로그를 관리하면서. 그런데 문득 이런 생각이 들었다.AI는 초 단위로 코드를 생성하는",
+    "title": "Compose Multiplatform 1.10.0: Unified @Preview, Navigation 3, and Stable Compose Hot Reload",
+    "description": "Compose Multiplatform 1.10.0 has been released! We’re continually developing our multiplatform APIs and expanding support for Jetpack libraries commonly used on Android. Here are the highlights of this release: Get Started with Compose Multiplatform For a complete overview of the changes, check out What’s new in Compose Multiplatform 1.10.0 or the release notes on GitHub. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@PUo/50",
-    "pubDate": "Wed, 07 Jan 2026 15:40:29 GMT",
-    "creator": "Soomin Kim",
-    "categories": []
+    "link": "https://blog.jetbrains.com/kotlin/2026/01/compose-multiplatform-1-10-0/",
+    "pubDate": "Tue, 13 Jan 2026 14:48:34 +0000",
+    "creator": "Elvira Mustafina",
+    "categories": [
+      "multiplatform",
+      "compose-hot-reload",
+      "compose-multiplatform"
+    ]
   },
   {
-    "id": 14,
+    "id": 11,
     "imageUrl": "",
     "title": "사피엔스",
     "description": "워낙 유명한 책이다. 히브리어로 쓰여져서 무려 30여개의 언어로 변역됐다고 한다. 그러면 이 책은 히브리어에서 번역된 것일까 영어에서 번역된 것일까 갑자기 궁금해졌서 찾아봤다. 2011년 히브어로 책이 나오고 2014년 영어판이 나오면서 유명해 졌다고 한다. 한국어 판은 이 영어판을 번역해서 2015년 김영사에서 출간한 책이라고 한다. 책 제목만 봤을땐 철학적이어서 너무 어렵지 않을까 싶었는데 읽어보니 역사책이지만 지극히 과학적이고 곳곳에 유쾌한 상상력들이 가미되어 있어서 아주 재미있다.\n\r\n\r\n인류는 어떻게 다른 종과 달랐고 현재 어떤 위치에 있는지 깊은 통찰력을 보여준다. 처음에는 네안데르탈인이나 다른 인간 종들이 있었지만 사피엔스가 다 쓸어버렸다는 데에서는 좀 충격도 받았다. 인류는 정말 독보적으로 지구를 변화시켰고 앞으로도 그럴 것으로 생각된다. 현재의 과학으로 일어나는 일을 봤을 때 사피엔스가 계속될지에 대한 질문도 아주 날카로왔다. AI가 큰 역할을 할 것 같은데 사피엔스가 진화론적인 관점에서 계속 존재할지는 나도 부정적이다.\n\r\n\r\n앞으로 큰 변화가 있을 것 같은데 이런 변화를 어떤 관점으로 봐야 할지를 다시 생각할 수 있게 해주는 좋은 책이다. 특히 인류의 많은 문화나 개념들을 종교와 같이 상상을 토대로 한 것이라는 관점은 참으로 신선하다. 인류에 대해서 많은 것을 배웠고 지금 일어나는 일들을 이해하는데 많은 도움이 될 것 같다.",
@@ -199,21 +166,65 @@
     "categories": []
   },
   {
-    "id": 15,
+    "id": 12,
     "imageUrl": "",
-    "title": "Advent of Code 2025 in Kotlin: Puzzles, Prizes, and Community",
-    "description": "Thank you to everyone who participated in Advent of Code 2025 in Kotlin! Once again, it was a joy to see so many of you sharing solutions, cheering each other on in Slack, and keeping the holiday coding spirit alive. This year, we kicked things off with five days of livestreams on December 1–5, with […]",
+    "title": "유니티 GPGS 리더보드 띄우기 실패하는 현상",
+    "description": "로그 안보고 코딩실 수인가 해서 한참 봤네\n빌드할때 aar 이 빠져서 이런거였다.\n \n \n문제 분석한 글 \n링크: https://smilemugi.net/29\n\n \nUnity에서 GPGS v2와 Firebase 연동 후 발생한 ClassNotFoundException 해결기\nUnity 프로젝트에서 Google Play Games Services (GPGS) v2와 Firebase를 함께 사용할 때 발생한 문제를 해결한 경험을 공유하려고 합니다. 특히 업적 UI 호출 시 `AndroidJavaException: java.lang.ClassN\nsmilemugi.net\n\n \n제시하는 해결 책은 간단했다.\n \ngpgs-plugin-support-버전\n내 경우엔 \ngpgs-plugin-support-2.1.0\n이랬다.\n유니티에서 gpgs-로 찾으면 퍼즐 모양의 아이콘이 보인다.\n\n\n이 아이콘은 .aar 파일의 표시다.\n이 파일을 Assets/Plugins/Android/ 안으로 복사해주면 된다.\n자동으로 되야하지만 구글 버전이 바뀔때 마다 그게 잘 안되는거 같다.\n \n틀린 해결책\n\n\n.aar 파일을 클릭하면 인스팩터가 이렇게 보이는데\nAndroid 가 까져있있다.\n(꺼저있으니 포함되지 않은거긴한데)\n파일을 옮기지 않고 저거만 채그하면 나중에 다시 꺼져버린다.\n그냥 파일을 욺기자",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/01/advent-of-code-2025-in-kotlin/",
-    "pubDate": "Mon, 12 Jan 2026 19:33:14 +0000",
-    "creator": "Ksenia Shneyveys",
+    "link": "https://serverdown.tistory.com/1553",
+    "pubDate": "Wed, 7 Jan 2026 19:14:17 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "education",
-      "news",
-      "advent-of-code",
-      "aoc",
-      "prizes"
+      "프로그래밍/개발메모",
+      "GPGS",
+      "리더보드",
+      "유니티"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "[MULTI] 나의 히어로 아카데미아 올즈 저스티스, 진일보한 연출과 게임 모드",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2408",
+    "pubDate": "Tue, 13 Jan 2026 00:01:33 +0900",
+    "creator": "샤말란의눈",
+    "categories": [
+      "프리뷰"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Bringing Real Users Into a Product Team Gathering – A JetBrains Research Story",
+    "description": "In product development, assumptions about how people will use a tool don’t always align with the practical reality. Last spring, during a gathering of our Junie team, we set out to bridge that gap by trying something new. We ran two hands-on user workshops – one online and another in our Belgrade office. For the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/01/bringing-real-users-into-a-product-team-gathering-a-jetbrains-research-story/",
+    "pubDate": "Fri, 09 Jan 2026 12:37:47 +0000",
+    "creator": "Innokentii Burtsev",
+    "categories": [
+      "research",
+      "jetbrains-tech-insights-lab"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "The Journey to Compose Hot Reload 1.0.0",
+    "description": "Compose Hot Reload has just been promoted to stable with our 1.0.0 release. We worked hard to build a technology that is easy to use and well-integrated into existing tools while also requiring zero configuration from users. The tool is bundled with Compose Multiplatform, starting from version 1.10 (see our dedicated release blog post). While […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/01/the-journey-to-compose-hot-reload-1-0-0/",
+    "pubDate": "Tue, 13 Jan 2026 14:47:58 +0000",
+    "creator": "Sebastian Sellmair",
+    "categories": [
+      "multiplatform",
+      "compose-hot-reload",
+      "compose-multiplatform"
     ]
   }
 ]
