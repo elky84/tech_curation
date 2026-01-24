@@ -2,132 +2,75 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "이자는 언제 기회가 되고, 언제 위기가 될까?",
-    "description": "이자가 만들어낸 네 가지 역사적 장면",
+    "title": "악역영애 4컷 만화 - 36화, 달리기 시합인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/behindthemoney-15",
-    "pubDate": "Tue, 20 Jan 2026 09:20:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2411",
+    "pubDate": "Wed, 21 Jan 2026 20:19:05 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "대표가 알아야하는 2026년 바뀐 기업 정책 총정리 - 창업(스타트업)",
-    "description": "2026년은 기업 입장에서 한 문장으로 요약하면 이렇습니다.  \"규제 준법 이용은 올라가고, 대신 지원금, 정책자금 기회도 커지는 해\"  특히 스타트업, 중소기업은 인력과 시간 여력이 제한적이라, 정책 변화가 생기면 '뉴스로만 소비' 하면 손해가 나고 운영 시스템(세무/노무/수출/AI)로 반영해야 실제로 비용을 막고 기회를 잡을 수 있습니다.  오늘 글에서",
+    "title": "SID-ROOM v3 - 앱토스 NFT 게임 개발 - 점프 트리거 구현",
+    "description": "점프를 좀 날림으로 구현했군요\n하강할때 움직임이 이상합니다.\n \n올라가기\n\n\n의도하지 않았지만 상자에 올라갈 수 있군요\n \n낙하 처리\n\n\n게임 화면 밖으로 나가면 추락합니다.\n아래로 많이 내려가면 처음 위치로 리셋됩니다.\n \n트리거\n\n\n상호작용 구현을 하기위해 트리거를 만들었습니다.\n특정 위치로 가면 로그인창을 띄울 수 있습니다.\n \n영상\n전체영상: https://www.youtube.com/watch?v=VLuN_j0NuCE\n\n\n\n \n \n \n로그인 절차\n1. 로그인 창이 뜨면 로그인 버튼을 누른다.\n2. 지갑 연동 페이지가 열리면 지갑을 연동한다.\n3. 게임화면으로 돌아오면 숫자 값이 보일 것입니다. 6~8자리로 생각합니다.\n4. 게임케릭과 내 지갑 소유자 확인을 위해 게임 내에 표시된 숫자를 입력합니다.\n    매번 연동하기 귀찮을 수 있으니 연동을 유지할 수 있는 기능이 필요하겠군요\n5. NFT 가 있다면 정보가 게임 내에 표시 됩니다.\n6. 거래중이 아닌 NFT 에는 무언가를 담거나 꺼낼 수 있습니다.\n이정도 구현하면 기능연동은 끝날 것 같습니다.\n \n \n링크들\n웹페이지   Create Next App\n유튜브   메타버스준비하자 - YouTube\n블로그   'SID-ROOM' 태그의 글 목록 :: 퇴근후서버다운 SIDNFT",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/325",
-    "pubDate": "Fri, 16 Jan 2026 07:27:58 GMT",
-    "creator": "고명환",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1560",
+    "pubDate": "Mon, 19 Jan 2026 00:15:39 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작",
+      "aptos",
+      "SID-ROOM",
+      "unity",
+      "앱토스",
+      "유니티"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "학생 창업가를 위한 몇 가지 조언",
-    "description": "나는 개인적으로 학생 창업가를 좋아하고, 이들이 창업하는 걸 적극적으로 추천하고 응원한다. 우리가 학생 창업가에게만 전문적으로 투자하거나 이들에게만 투자하는 펀드가 있는 건 아니지만, 스트롱은 지금까지 꾸준히 대학생 창업팀에 투자하고 있고 이들이 하는 몇 개의 이벤트를 후원하고 있다. 그리고 우린 모두 다 바빠서 외부 강연이나 발표는 거의 안, 못 하고 있는데, 학생들 대상의 강연이나 발표, 또는 해커톤(...)",
+    "title": "Now in Public Preview: GitHub Copilot build performance for Windows",
+    "description": "Last year, we launched our new GitHub Copilot build performance capabilities in Private Preview. With help from our fantastic C++ community, we gathered insights and addressed key feedback. We’re happy to share that GitHub Copilot build performance for Windows is now in Public Preview. Today, all C++ developers can try out the new capabilities in […]\nThe post Now in Public Preview: GitHub Copilot build performance for Windows appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/01/some-words-of-advice-for-student-founders.html",
-    "pubDate": "Sun, 18 Jan 2026 21:27:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://devblogs.microsoft.com/cppblog/now-in-public-preview-github-copilot-build-performance-for-windows/",
+    "pubDate": "Wed, 21 Jan 2026 18:17:56 +0000",
+    "creator": "David Li",
     "categories": [
-      "Uncategorized",
-      "education",
-      "FoundersAtWork",
-      "Strong",
-      "students",
-      "vc"
+      "C++",
+      "Build Insights",
+      "build performance",
+      "speed"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "데이터 노가다 실수담 - 15th",
-    "description": "IIS 웹로그는 모든 필드를 '공백'으로 구분하기 때문에 원활한 필드 분류를 위해 필드값에 포함된 공백을 + 기호로 대체한다.\n\n\n\n\n가독성을 높이기 위해 +를 공백으로 치환하는 계산 필드 정책 추가.\n\n\n\n\n+가 공백으로 바뀐 agent 필드 상태를 축소해서 agent2 필드에 저장하는 정책도 추가.\n\n\n\n\n그런데 + 기호가 사라지지 않는다.\n\n\n\n\n\n검색창에서는 잘 되는데?\n\n\n\n문득 계산 필드 정책은 순서대로 실행되지 않는다는 사실이 생각났다. 계산 필드는 모든 정책을 동시에 실행하기 때문에 agent2 필드를 만드는 시점에, +가 공백으로 바뀐 agent 필드는 존재하지 않는다는 얘기. 열심히 설명해놓고 설명대로 안 했네(..)\n\n\n관련 글\n\n데이터 노가다 실수담 - 14th\n데이터 노가다 실수담\n평균의 함정\n데이터 분석이 쉬워지는 비법\n데이터 분석에 필요한 자질은 뭘까?",
+    "title": "Exposed 1.0 Is Now Available",
+    "description": "This is the first major release of Exposed – a huge milestone for both the project and the Exposed team! This release brings many new exciting features, the most requested being R2DBC support, as well as performance enhancements and bug fixes. Exposed 1.0 also introduces a stable API that guarantees no breaking changes until the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/01/15th.html",
-    "pubDate": "2026-01-22T12:55:00.003Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/kotlin/2026/01/exposed-1-0-is-now-available/",
+    "pubDate": "Fri, 23 Jan 2026 13:07:20 +0000",
+    "creator": "Simon Vergauwen",
+    "categories": [
+      "exposed",
+      "news",
+      "releases",
+      "backend",
+      "kotlin",
+      "release",
+      "server-side"
+    ]
   },
   {
     "id": 5,
-    "imageUrl": "",
-    "title": "How to Avoid Common Pitfalls With JPA and Kotlin",
-    "description": "This post was written together with Thorben Janssen, who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hibernate Problems” and the JPA newsletter. Kotlin and Jakarta Persistence (also known as JPA) are a popular combination for server-side development. Kotlin […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/01/how-to-avoid-common-pitfalls-with-jpa-and-kotlin/",
-    "pubDate": "Tue, 20 Jan 2026 17:25:41 +0000",
-    "creator": "Teodor Irkhin",
-    "categories": [
-      "kotlin",
-      "tutorials",
-      "jpa"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "The ROI of Developer Experience: How a Better CI/CD Tool Pays for Itself",
-    "description": "This article was brought to you by Cameron Pavey, draft.dev. Developer experience (DevEx) directly correlates with engineering performance, which in turn drives competitive advantage.  And yet many software engineering teams continue to operate on legacy CI/CD platforms that create unnecessary friction, burn developer hours, and ultimately limit business growth. While some teams remain trapped by […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/01/the-roi-of-dev-experience/",
-    "pubDate": "Thu, 22 Jan 2026 13:31:12 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "best-practices",
-      "teamcity-2",
-      "devopspains"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Codex Is Now Integrated Into JetBrains IDEs",
-    "description": "OpenAI Codex is now natively integrated into the JetBrains AI chat, giving you another powerful option for tackling real development tasks right inside your IDE.  You can use Codex with a JetBrains AI subscription, your ChatGPT account, or an OpenAI API key – all within the same AI сhat interface.See Codex in action in a […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/01/codex-in-jetbrains-ides/",
-    "pubDate": "Thu, 22 Jan 2026 18:14:41 +0000",
-    "creator": "Anna Maltseva",
-    "categories": [
-      "news",
-      "ai-in-ides",
-      "codex"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "텍스트,영상,이미지 넘어 '오디오'까지! 2026년, AI 콘텐츠 정복 로드맵 (무료 도구 편)",
-    "description": "텍스트, 영상, 이미지까지 정복했다면, 이제 '오디오' 차례입니다! 비싼 유료 서비스에 지치셨나요? 2026년 최신 AI 무료 오디오 도구 3종으로 회의록 작성, 음악 마스터링, 음성 합성을 여러분의 PC에서 비용 걱정 없이 해결하세요.\n\n\n  AI 콘텐츠 정복, 오디오가 마지막 퍼즐!\n여러분, 2026년 현재 우리는 이미 AI로 텍스트, 영상, 이미지 콘텐츠 영역을 사실상 정복했습니다. 그런데 유독 오디오 앞에서만 막막함을 느꼈던 분들 많으시죠? 비싼 TTS 비용, 복잡한 마스터링, 수동 회의록 작성의 번거로움… 이제 그 모든 걱정을 내려놓으세요! 오늘은 돈 한 푼 들이지 않고 여러분의 PC에서 이 모든 오디오 작업을 해결할 수 있는 유료급 AI 무료 도구 3가지를 소개해 드릴 겁니다. 제가 직접 써보니, 정말 놀라움의 연속이었어요. 음성 분석부터 음악 마스터링, 고품질 음성 합성까지, 이 강력한 도구들과 함께 오디오 콘텐츠 제작의 신세계를 경험해 보세요!\n  AI 오디오 랩: 음성&음악, 심층 분석 웹 앱\n첫 번째 도구는 AI 오디오 랩입니다. 회의 녹음이나 음악 파일을 분석해야 할 때, 내용을 정리하거나 구조를 파악하는 일이 정말 고역이죠? AI 오디오 랩은 이런 작업을 자동으로 처리해주는 웹 기반 도구입니다. 구글의 제미나이 AI와 브라우저의 웹 오디오 API를 결합해, 오디오의 텍스트 내용과 기술적인 신호 데이터를 동시에 분석해줍니다. 별도 설치 없이 브라우저에서 바로 사용 가능해서 정말 편리해요.\n\n\n회의록 자동 작성! 음성 인텔리전스 기능\n음성 파일을 업로드하고 '분석 시작' 버튼을 누르면, 놀라운 음성 인텔리전스 리포트가 생성됩니다. 화자 수, 언어, 재생 시간은 기본이고, 전체 대화의 핵심 요약, 화자별 발언 분석, 참여율 차트까지 제공됩니다. 특히 화자별로 정리된 대화 기록은 시간까지 표시되어 필요한 부분을 찾기 용이해요. 이제 클릭 한 번으로 완벽한 비즈니스 문서를 마크다운이나 PDF로 다운로드해 공유할 수 있으니, 회의록 작성 시간은 확 줄어들 겁니다.\n음악의 모든 것을 파헤치다! 뮤직 딥 다이브 기능\n음악 분석 기능도 강력합니다. 음악 파일을 업로드하면 장르, 키(Key), BPM은 물론 오디오 품질 분석, 스템 분석(보컬, 베이스, 드럼 등 파트별 특징) 결과까지 상세히 보여줍니다. 심지어 Suno AI 프롬프트가 자동 생성되어 비슷한 음악을 만들 수도 있어요. '신호처리' 탭에서는 오디오 파형의 시간 시리즈, MFCC, 크로마 차트 등을 통해 소리의 물리적 실체를 데이터로 확인할 수 있습니다.\n \n \n\n \nGPT PARK's AI Audio Lab\n \ngpt-park-ai-audio-lab.vercel.app\n\n\n    \n\n    \nAI AUDIO LAB 제작 프롬프트.txt\n0.00MB\n\n\n \n ️ Mastering Studio: 내 PC에서 전문가급 마스터링\n두 번째 도구는 Mastering Studio입니다. 음악 마스터링, 비싼 비용과 복잡함 때문에 망설이셨죠? 이 앱은 구글 Gemini AI와 브라우저 오디오 처리 기술로 여러분의 컴퓨터에서 직접 마스터링을 해줍니다. 파일을 서버로 전송할 필요 없어 보안 걱정도 없고요. 역시 설치가 필요 없는 웹 앱이라 아주 편리해요.\n\n\nAI가 만들어주는 맞춤형 마스터링\n오디오 파일을 업로드하면 마스터링을 시작할 수 있습니다. 12가지 사운드 프로필 프리셋 중에서 선택하거나, AI 로직 생성기를 활용해 보세요. 텍스트로 원하는 사운드를 설명하면 AI가 그에 맞춰 마스터링해줍니다! 원본과 마스터링된 파형을 비교해 볼 수도 있어요.\n \n마스터링 후에는 정밀 마스터링 랙에서 이퀄라이저, 아날로그 새츄레이션, 컴프레서 등 전문가급 도구로 세밀하게 조정할 수 있습니다. 무료 베이직 버전에는 일부 프로필과 AI 로직 생성 기능에 제한이 있지만, 이 정도 퀄리티의 마스터링을 무료로 쓸 수 있다는 건 정말 놀랍습니다.\n⚠️ 참고: Mastering Studio의 AI 로직 생성 및 12개 사운드 프로필 전체 이용은 프로 버전(유튜브 멤버십 전용)에서만 가능합니다.\n \n\n \nGPT PARK's Mastering Studio\n \ngpt-park-mastering-studio-basic.vercel.app\n\n\n    \n\n    \nMastering Studio 제작 프롬프트.txt\n0.00MB\n\n\n ️ Supertonic2 TTS: 무제한 무료 음성 합성의 혁명\n마지막은 Supertonic2 TTS입니다. 고품질 TTS 서비스의 API 비용이 부담스러우셨죠? Supertonic2 TTS는 깃허브에 오픈소스로 공개된 초고속 온디바이스 TTS 소스를 기반으로 제작된, 완전 무료 로컬 음성 합성 프로그램입니다. API 호출 없이 여러분의 PC에서 직접 음성을 생성하기 때문에, 몇 번을 사용하든 비용은 0원! 심지어 MIT 라이선스 기반이라 상업적 이용까지 가능합니다. 다운로드 후 바로 실행되는 EXE 파일이라 설치 걱정도 없고요.\n\n\n \n깔끔한 다크 테마 인터페이스에서 언어, 목소리, 속도, 품질(5단계)을 조절한 뒤, 텍스트를 입력하고 'Generate Speech' 버튼만 누르면 음성 생성이 완료됩니다. 원하는 음성을 WAV 파일로 저장할 수 있습니다. 혹시 처음 실행 시 오류가 발생해도, 함께 제공되는 배치파일(fix_dll_error.bat)로 쉽게 해결 가능하니 염려 마세요! 이 도구 하나면 여러분의 콘텐츠에 무제한으로 고품질 음성을 더할 수 있습니다.\n\n \nSupertonic2TTS.zip\n \ndrive.google.com\n\n \n  핵심 요약\n1. AI 오디오 랩: 음성 및 음악 파일 심층 분석으로 회의록, 음악 프로듀싱 혁신 (웹 기반, 무료).\n2. Mastering Studio: 내 PC에서 전문가급 마스터링! AI 로직 생성기로 사운드 구현 (무료 베이직 제한).\n3. Supertonic2 TTS: API 비용 0원! 무제한 고품질 음성 합성, 상업적 이용 가능 (로컬 프로그램).\n2026년, AI 오디오 로드맵과 함께 더욱 풍부한 콘텐츠를 만들어가세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: 소개된 AI 오디오 도구들은 정말 무료인가요?\nA1: 네, AI 오디오 랩, Mastering Studio (베이직 버전), Supertonic2 TTS는 모두 무료입니다. Mastering Studio의 AI 마스터링 기능 등 일부 고급 기능은 유튜브 멤버십 프로 버전에서만 제공됩니다.\nQ2: 프로그램 설치는 어떻게 하나요?\nA2: AI 오디오 랩과 Mastering Studio는 웹 기반이라 설치가 필요 없으며, Supertonic2 TTS는 EXE 파일이라 다운로드 후 바로 실행 가능합니다. 초기 오류 시 제공되는 배치 파일로 쉽게 해결됩니다.\nQ3: Supertonic2 TTS 음성을 상업적으로 이용할 수 있나요?\nA3: 네, MIT 라이선스 기반으로 제작되어 유튜브, 교육, 상업 프로젝트 등 모든 콘텐츠에 자유롭게 활용 가능합니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483701",
-    "pubDate": "Sun, 18 Jan 2026 16:52:49 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "2026 AI 콘텐츠 로드맵",
-      "AI 오디오",
-      "AI 오디오 랩",
-      "ai 음성 합성",
-      "AI 음악 마스터링",
-      "ai 회의록",
-      "Mastering Studio",
-      "Supertonic2 TTS",
-      "무료 AI 도구",
-      "온디바이스 tts"
-    ]
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "Platform Debugger Architecture Redesign for Remote Development in 2026.1",
     "description": "The IntelliJ Platform provides a powerful debugger framework that plugins can extend to support various programming languages and runtime environments. To enable remote development scenarios – where the IDE interface runs on your local machine while code executes on a remote server – we’ve redesigned the debugger architecture. This guide walks you through the changes […]",
@@ -145,91 +88,203 @@
     ]
   },
   {
-    "id": 10,
+    "id": 6,
     "imageUrl": "",
-    "title": "AI Trends to Watch In 2026",
-    "description": "We asked leaders across eBay for the most transformative tech trends to watch in the year ahead. Here’s what they had to say.",
+    "title": "데이터 노가다 실수담 - 15th",
+    "description": "IIS 웹로그는 모든 필드를 '공백'으로 구분하기 때문에 원활한 필드 분류를 위해 필드값에 포함된 공백을 + 기호로 대체한다.\n\n\n\n\n가독성을 높이기 위해 +를 공백으로 치환하는 계산 필드 정책 추가.\n\n\n\n\n+가 공백으로 바뀐 agent 필드 상태를 축소해서 agent2 필드에 저장하는 정책도 추가.\n\n\n\n\n그런데 + 기호가 사라지지 않는다.\n\n\n\n\n\n검색창에서는 잘 되는데?\n\n\n\n문득 계산 필드 정책은 순서대로 실행되지 않는다는 사실이 생각났다. 계산 필드는 모든 정책을 동시에 실행하기 때문에 agent2 필드를 만드는 시점에, +가 공백으로 바뀐 agent 필드는 존재하지 않는다는 얘기. 열심히 설명해놓고 설명대로 안 했네(..)\n\n\n관련 글\n\n데이터 노가다 실수담 - 14th\n데이터 노가다 실수담\n평균의 함정\n데이터 분석이 쉬워지는 비법\n데이터 분석에 필요한 자질은 뭘까?",
     "reviews": [],
     "syllabus": [],
-    "link": "https://innovation.ebayinc.com/stories/ai-trends-to-watch-in-2026/",
-    "pubDate": "Fri, 16 Jan 2026 00:00:00 -0800",
-    "creator": "eBay News Team",
+    "link": "https://kangmyounghun.blogspot.com/2026/01/15th.html",
+    "pubDate": "2026-01-22T12:55:00.003Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Rider 2026.1 Early Access Program Is Now Open!",
+    "description": "The Early Access Program (EAP) for Rider 2026.1 has just begun, and the first preview build for the upcoming major release is already out.  There are several ways for you to get your hands on the first preview build: A reminder of what the EAP is all about The Early Access Program is a long-standing […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/01/22/rider-2026-1-early-access-program-start/",
+    "pubDate": "Thu, 22 Jan 2026 13:41:54 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "article"
+      "net-tools",
+      "eap",
+      "releases",
+      "rider",
+      "azure",
+      "azure-devops",
+      "godot",
+      "mixed-mode-debugging",
+      "natvis",
+      "nuget",
+      "nuget-pmc",
+      "package-management"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA Conf 2026: Learn From the People Building the JVM Ecosystem",
+    "description": "You’re invited to IntelliJ IDEA Conf 2026 – a free online conference for developers working across the JVM ecosystem. Join us for two days of in-depth technical talks, practical insights, and conversations with experts who build and shape modern Java and Kotlin development. The conference will take place online on March 26–27, 2026, with sessions […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/01/intellij-idea-conf-2026-learn-from-the-people-building-the-jvm-ecosystem/",
+    "pubDate": "Wed, 21 Jan 2026 15:05:55 +0000",
+    "creator": "Anna Rovinskaia",
+    "categories": [
+      "community",
+      "events",
+      "idea",
+      "java",
+      "kotlin",
+      "livestream",
+      "news",
+      "intellij-idea"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2025.3.2 Is Out!",
+    "description": "We’ve just released another update for v2025.3.  You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. This version brings the following valuable refinements:   To see the full list of issues addressed in this version, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/01/intellij-idea-2025-3-2/",
+    "pubDate": "Thu, 22 Jan 2026 14:42:51 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": [
+      "releases",
+      "bug-fix-update",
+      "intellij-idea"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Spring Boot Debugging – Now Remote",
+    "description": "We released Spring Debugger in May 2025 to bring more clarity to the “magic” behind Spring Boot – helping you see what’s really happening inside your running application. By the end of 2025, the plugin had reached more than 300,000 unique downloads and became a trusted tool within the developer community. We’ve received a lot […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/01/spring-boot-debugging-now-remote/",
+    "pubDate": "Fri, 23 Jan 2026 16:17:13 +0000",
+    "creator": "Andrey Belyaev",
+    "categories": [
+      "news",
+      "remote-debug",
+      "remote-development",
+      "spring-debugger"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "SID-ROOM v2 - 앱토스 NFT 게임 개발",
-    "description": "업데이트 내용\n- Z 축이동\n- 상자 추가\n- 바닥 추가\n2시간 정도 작업했습니다.\n \n레딕에 글도 올렸습니다.\n레딧     NFT 사용하는 게임 만들기 시작했습니다. : r/KoreanGameDev \n\n \nReddit의 KoreanGameDev 커뮤니티\nKoreanGameDev 커뮤니티에서 이 게시물을 비롯한 다양한 콘텐츠를 살펴보세요\nwww.reddit.com\n\n \n \n링크들\n웹페이지   Create Next App\n유튜브   메타버스준비하자 - YouTube\n블로그   'SID-ROOM' 태그의 글 목록 :: 퇴근후서버다운 SIDNFT",
+    "title": "이더넷 케이블 내부와 외부 색상 코드, 당신이 몰랐던 진짜 의미는?",
+    "description": "이더넷 케이블, 겉모습은 다 같아 보이지만 사실은 색상별로 숨겨진 의미가 있다는 사실, 알고 계셨나요? 흔히 성능이나 속도를 나타낸다고 오해하기 쉽지만, 이 색상 코드에는 우리가 미처 몰랐던 진짜 활용법과 네트워크 관리의 비밀이 숨어있습니다. 오늘은 이더넷 케이블의 외부 재킷 색상부터 내부 전선의 복잡한 색상 코드까지, 그 흥미로운 세계를 함께 탐험해볼까 합니다. 과연 색상들이 어떤 역할을 하는지, 또 어떤 점에 주의해야 하는지 최신 정보를 바탕으로 자세히 알아볼게요!\n\n\n이더넷 케이블 외부 색상, 그 진짜 의미는?  \n음, 우리가 흔히 보는 이더넷 케이블들, 그냥 다 똑같이 생겼다고 생각하셨을 거예요. 파란색, 노란색, 빨간색, 초록색, 회색 심지어 분홍색까지 다양하게 있긴 하지만, 사실 그냥 예쁘라고 만든 건 아니거든요. 많은 분들이 USB 포트 색깔처럼 속도나 성능을 나타내는 게 아닐까 오해하시곤 하는데, 그건 정말 아니에요. 이 케이블 색상들은 단순히 시각적인 요소도 아니고, 성능과도 전혀 무관하답니다.\n그렇다면 왜 이렇게 다양한 색깔이 존재할까요? 바로 \"조직화\"와 \"명확성\" 때문입니다. 상상해보세요. 복잡한 데이터 센터나 사무실에서 수백 가닥의 케이블이 얽혀있는 모습을요. 그때 특정 색깔의 케이블이 어떤 용도로 쓰이는지 한눈에 파악할 수 있다면 얼마나 편리할까요?\n  잠깐! 여기서 말하는 색상 코드는 케이블 외부 재킷의 색깔을 의미합니다. 케이블 내부에 꼬여있는 전선들의 색상 코드는 연결성과 신호 전송에 매우 중요한 역할을 하는데, 이건 나중에 따로 자세히 이야기해 드릴게요. 착각하시면 안 돼요!\n대규모 네트워크 환경에서는 말할 것도 없고요, 집에서도 유용해요. 여러분의 라우터, 스위치, 모뎀 연결에 각기 다른 색상의 케이블을 사용하면, 갑자기 네트워크가 안 될 때 문제의 원인을 훨씬 쉽게 찾아낼 수 있답니다. 정말 작은 차이 같지만, 실제로 써보면 엄청난 편리함을 가져다주죠.\n이 외에도 제조사들은 케이블 카테고리(예: Cat 5, Cat 6, Cat 7)를 구분하거나, 케이블 길이, 심지어는 설치 연도(예: 2025년 설치는 파란색, 2026년 설치는 노란색)를 나타내는 데 색상을 활용하기도 합니다. 결국, 케이블 색상은 작업과 유지보수를 더 빠르고 덜 헷갈리게 만드는 데 큰 도움을 준다고 볼 수 있어요. 성능에 영향을 주진 않지만, 네트워크 관리의 효율성에는 지대한 영향을 끼치는 거죠.\n주요 색상별 용도, 과연 정해진 규칙이 있을까?  \n자, 그렇다면 각 색상들이 정확히 어떤 의미를 가지고 있을까요? 음… 사실은 정해진 \"만국 공통\" 표준은 없어요. 이 점이 좀 중요합니다. 케이블 색상의 의미는 특정 조직, 공급업체 또는 설치자가 어떻게 사용하기로 결정했는지에 따라 전적으로 달라질 수 있어요. 하지만 제가 겪어본 바로는, 몇 가지 흔한 패턴은 분명히 존재합니다.\n  파란색: 대부분 표준 네트워크 연결에 사용돼요. 데스크톱 컴퓨터, 노트북 독, 사무실 프린터 등을 네트워크 스위치나 라우터에 연결할 때 말이죠. 가장 보편적이죠!\n  노란색: PoE(Power over Ethernet) 장치에 자주 사용됩니다. IP 보안 카메라, VoIP 전화, 무선 액세스 포인트처럼 케이블 자체에서 전력을 공급받는 장치들이요.\n⬛ 검은색 또는 회색: 사무실이나 가정에서 일상적인 연결에 많이 쓰입니다. 라우터를 모뎀에 연결하거나, 게임 콘솔을 네트워크 스위치에 연결하는 경우처럼요. 저도 집에서 주로 회색 케이블을 쓰고 있어요.\n  빨간색: 이건 정말 중요한 연결에만 사용되는 경우가 많습니다. 서버, 방화벽, 비상 백업 시스템처럼 절대로 연결이 끊기면 안 되는 곳에요. 때로는 제한되거나 보안이 강화된 네트워크 구간을 나타내기도 해요.\n  녹색: 크로스오버 연결(두 개의 유사한 장치를 직접 연결할 때, 예: 스위치-스위치 또는 컴퓨터-컴퓨터)이나 스마트 온도 조절기, 빌딩 제어 시스템 같은 환경 시스템에 사용되기도 합니다.\n  주황색 또는   보라색: 비교적 드물지만, 테스트 환경, 외부 연결, 게스트나 계약자를 위한 VLAN 세그먼트와 같은 특별한 네트워크 기능에 사용될 수 있어요.\n\n\n⚠️ 경고! 다시 한번 강조하지만, 위에 설명된 색상별 의미는 보편적인 표준이 아닙니다. 색상이 어떤 용도를 암시할 수는 있지만, 중요한 장비를 연결하거나 제거하기 전에는 반드시 해당 케이블의 문서나 네트워크 관리자에게 확인하는 것이 가장 안전합니다. 실수가 발생하면 큰 문제를 초래할 수 있으니까요.\n케이블 성능? 색상 대신 '카테고리'에 주목하세요!  \n가장 중요한 포인트 중 하나인데요, 케이블 재킷의 색상은 해당 케이블의 실제 성능과는 전혀 무관하다는 것입니다. 이더넷 케이블은 '카테고리'로 분류되며, 각 카테고리는 특정 속도와 대역폭을 위해 설계되었어요.\n예를 들어볼까요?\nCat 5e는 최대 1Gbps의 속도를 지원하고요,\nCat 6a는 더 긴 거리에서 최대 10Gbps까지 처리할 수 있습니다.\nCat 8은 대역폭의 헤비급 선수라고 할 수 있는데, 데이터 센터용으로 제작되어 짧은 거리에서는 최대 40Gbps까지 도달할 수 있어요. 정말 엄청난 속도죠!\n그러니까, 화려한 분홍색 Cat 6 케이블이 칙칙한 회색 Cat 5e 케이블보다 훨씬 뛰어난 성능을 발휘할 수 있다는 이야기예요. 중요한 것은 케이블 옆면에 인쇄된 '카테고리 등급'이지, 겉으로 보이는 색상이 아니라는 점을 꼭 기억해주세요. 이 카테고리는 단순히 속도뿐만 아니라, 전기적 간섭으로부터 케이블을 얼마나 잘 보호하는지, 그리고 안정적이고 신뢰할 수 있는 연결을 얼마나 잘 유지하는지까지 정의한답니다.\n이 때문에 오래된 Cat 5 케이블을 Cat 6 또는 Cat 6a로 업그레이드하면 현대 네트워크 환경에서 확연한 성능 차이를 느낄 수 있어요. 제 경험상, 특히 고화질 스트리밍이나 대용량 파일 전송이 잦다면 체감 효과가 상당합니다.\n\n\n내부 전선 색상 코드는 왜 중요할까?  \n외부 재킷 색깔 이야기는 이제 충분히 한 것 같고, 그럼 이제 케이블 '내부' 전선들의 색상 코드로 넘어가 볼까요? 사실 여기가 진짜 중요합니다. 외부 색상이 그저 \"편의\"를 위한 것이었다면, 내부 전선의 색상 코드는 이더넷 케이블이 제대로 작동하기 위한 \"필수\" 요소예요.\n이 내부 전선 색상 코드는 크게 두 가지 국제 표준으로 나뉘어요: T568A와 T568B입니다. 이 두 가지 표준은 8개의 내부 전선(4쌍의 꼬임선)을 RJ45 커넥터의 핀에 어떤 순서로 연결할지를 정의합니다. 이 순서가 틀어지면 네트워크 연결이 아예 안 되거나, 불안정해지죠.\n대부분의 상업용 및 주거용 건물에서는 T568B 표준을 사용하는 경우가 많지만, 오래된 건물이나 특정 환경에서는 T568A를 쓰기도 합니다. 중요한 건, 양쪽 끝 커넥터의 배열이 같아야 스트레이트(Straight-through) 케이블이 되고, 한쪽은 T568A, 다른 한쪽은 T568B로 배열해야 크로스오버(Crossover) 케이블이 된다는 점이에요. 크로스오버 케이블은 스위치 없이 두 대의 컴퓨터를 직접 연결하는 등 특정 상황에서만 사용됩니다.\n핀 번호\nT568A 색상\nT568B 색상\n\n\n\n\n1\n흰-녹\n흰-주\n\n\n2\n녹\n주\n\n\n3\n흰-주\n흰-녹\n\n\n4\n파\n파\n\n\n5\n흰-파\n흰-파\n\n\n6\n주\n녹\n\n\n7\n흰-갈\n흰-갈\n\n\n8\n갈\n갈\n\n\n\n아, 그리고 잊지 말아야 할 게 하나 더 있어요. 내부 전선은 모두 꼬여있다는 사실입니다. 이렇게 꼬여있는 형태는 외부 간섭으로부터 신호 손실을 최소화하고 안정적인 통신을 가능하게 해요. 그래서 \"꼬임쌍선(Twisted Pair)\" 케이블이라고 불리는 거고요. 혹시 직접 이더넷 케이블을 만드실 기회가 있다면, 이 내부 색상 코드를 정말 정말 신중하게 맞춰야 합니다. 잘못 연결하면 정말 곤란해지거든요!\n  핵심 요약\n✅ 외부 색상은 성능과 무관: 이더넷 케이블의 외부 재킷 색상은 속도나 성능이 아닌, 주로 '조직화'와 '식별'을 위한 도구입니다.\n✅ 정해진 표준은 없음: 외부 색상에 대한 보편적인 국제 표준은 없으며, 사용자의 재량이나 특정 조직의 규칙에 따라 의미가 달라질 수 있습니다.\n✅ 성능은 '카테고리'가 결정: 케이블의 실제 성능(속도, 대역폭, 안정성)은 Cat 5e, Cat 6, Cat 8과 같은 '카테고리 등급'에 의해 결정됩니다. 구매 시 반드시 이를 확인해야 해요.\n✅ 내부 색상 코드는 필수: 케이블 내부의 꼬임쌍선 색상 코드(T568A/B)는 RJ45 커넥터 연결에 필수적이며, 네트워크 연결 안정성에 직접적인 영향을 미칩니다.\n이더넷 케이블 선택과 사용에 있어 색상이 주는 시각적 정보는 분명 도움이 되지만, 그 본질적인 역할과 성능 기준을 정확히 이해하는 것이 중요합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 이더넷 케이블 색깔이 다르면 속도도 다른가요?\nA1: 아니요, 이더넷 케이블의 외부 색상은 데이터 전송 속도나 성능과는 전혀 무관합니다. 색상은 주로 네트워크 관리의 편의를 위해 케이블의 용도를 구분하는 데 사용됩니다. 실제 속도와 성능은 'Cat(카테고리)' 등급(예: Cat 5e, Cat 6, Cat 8)에 따라 결정됩니다.\nQ2: T568A와 T568B는 무엇이며, 왜 중요한가요?\nA2: T568A와 T568B는 이더넷 케이블 내부 꼬임쌍선의 RJ45 커넥터 연결 배열을 정의하는 두 가지 국제 표준입니다. 이 표준에 따라 정확하게 연결해야 데이터 신호가 올바르게 전송되고 안정적인 네트워크 연결이 가능합니다. 이 배열이 잘못되면 통신이 불가능해지거나 불안정해질 수 있습니다.\nQ3: 집에서 이더넷 케이블을 고를 때 어떤 점을 봐야 하나요?\nA3: 집에서 사용할 케이블을 고를 때는 외부 색상보다는 케이블의 '카테고리' 등급을 확인하는 것이 가장 중요합니다. 연결하려는 장비와 인터넷 속도에 맞춰 적절한 카테고리(예: 기가비트 인터넷에는 Cat 5e 이상, 더 높은 성능을 원하면 Cat 6 이상)를 선택하는 것이 좋습니다.\nQ4: 오래된 Cat 5 케이블을 Cat 6로 바꾸면 효과가 있을까요?\nA4: 네, 상당한 효과를 볼 수 있습니다. Cat 5는 최대 100Mbps를 지원하는 반면, Cat 6는 최대 1Gbps(Cat 6a는 10Gbps)를 지원하기 때문에, 기가비트 이상의 인터넷 환경을 사용하고 계시다면 Cat 6 이상의 케이블로 교체 시 네트워크 속도와 안정성 면에서 개선을 체감하실 수 있을 거예요.\n\n\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"이더넷 케이블 색깔이 다르면 속도도 다른가요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"아니요, 이더넷 케이블의 외부 색상은 데이터 전송 속도나 성능과는 전혀 무관합니다. 색상은 주로 네트워크 관리의 편의를 위해 케이블의 용도를 구분하는 데 사용됩니다. 실제 속도와 성능은 'Cat(카테고리)' 등급(예: Cat 5e, Cat 6, Cat 8)에 따라 결정됩니다.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"T568A와 T568B는 무엇이며, 왜 중요한가요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"T568A와 T568B는 이더넷 케이블 내부 꼬임쌍선의 RJ45 커넥터 연결 배열을 정의하는 두 가지 국제 표준입니다. 이 표준에 따라 정확하게 연결해야 데이터 신호가 올바르게 전송되고 안정적인 네트워크 연결이 가능합니다. 이 배열이 잘못되면 통신이 불가능해지거나 불안정해질 수 있습니다.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"집에서 이더넷 케이블을 고를 때 어떤 점을 봐야 하나요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"집에서 사용할 케이블을 고를 때는 외부 색상보다는 케이블의 '카테고리' 등급을 확인하는 것이 가장 중요합니다. 연결하려는 장비와 인터넷 속도에 맞춰 적절한 카테고리(예: 기가비트 인터넷에는 Cat 5e 이상, 더 높은 성능을 원하면 Cat 6 이상)를 선택하는 것이 좋습니다.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"오래된 Cat 5 케이블을 Cat 6로 바꾸면 효과가 있을까요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"네, 상당한 효과를 볼 수 있습니다. Cat 5는 최대 100Mbps를 지원하는 반면, Cat 6는 최대 1Gbps(Cat 6a는 10Gbps)를 지원하기 때문에, 기가비트 이상의 인터넷 환경을 사용하고 계시다면 Cat 6 이상의 케이블로 교체 시 네트워크 속도와 안정성 면에서 개선을 체감하실 수 있을 거예요.\"\n          }\n        }\n      ]\n    }",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1558",
-    "pubDate": "Fri, 16 Jan 2026 23:15:24 +0900",
-    "creator": "SIDNFT",
+    "link": "https://muzbox.tistory.com/483703",
+    "pubDate": "Thu, 22 Jan 2026 10:50:31 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "프로그래밍/자작",
-      "SID-ROOM"
+      "윈도우 사용팁/하드웨어",
+      "Cat 5e",
+      "Cat 6",
+      "Cat 8",
+      "PoE 케이블",
+      "RJ45",
+      "T568A",
+      "T568B",
+      "네트워크 케이블",
+      "랜선 속도",
+      "이더넷 케이블 색상"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "Strip Engine Code 를 끄라고 한다. / Admob 문제로 추측",
-    "description": "문제가 로그에 찍혀서 남겨둔다.\nAssetBundle 을 읽으려고 하는데 실패를 한다.\n\n\nStrap Engine Code 글 끄라고 한다.\nAdmob 때문에 발생한다고 한다.\n영상을 읽는 건데 Admob 도 영상을 읽어야해서 그런가 보다.\n\n\nProject Setting 에 Other Option 인가에 있다.\n스샷을 보고 대충 위치를 찾아보도록 켜져있길레 껏다.\n \n \n \n로그\n01-23 00:22:07.860 11829 30918 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object) \n01-23 00:22:07.860 11829 30918 I Unity   : <LoadAssetAfter>d__51:MoveNext() \n01-23 00:22:07.860 11829 30918 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) \n01-23 00:22:07.860 11829 30918 I Unity   : \n01-23 00:22:07.861 11829 30918 E Unity   : Could not produce class with ID 329. \n01-23 00:22:07.861 11829 30918 E Unity   : This could be caused by a class being stripped from the build even though it is needed. Try disabling 'Strip Engine Code' in Player Settings. \n01-23 00:22:07.861 11829 30918 E Unity   : UnityEngine.AssetBundle:LoadAssetWithSubAssets_Internal(String, Type) \n01-23 00:22:07.861 11829 30918 E Unity   : Helper:LoadVidePlayerFromObject(AssetBundle, Action`1) \n01-23 00:22:07.861 11829 30918 E Unity   : <LoadAssetAfter>d__51:MoveNext() \n01-23 00:22:07.861 11829 30918 E Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) \n01-23 00:22:07.861 11829 30918 E Unity   :",
+    "title": "코드 품질 개선 기법 30편: (투명한) 운명의 붉은 실",
+    "description": "이 글은 2024년 6월 20일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1562",
-    "pubDate": "Fri, 23 Jan 2026 00:32:04 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-30",
+    "pubDate": "Fri, 23 Jan 2026 08:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "TeamCity 2025.11.2 Is Now Available",
-    "description": "The second bug-fix update for TeamCity On-Premises 2025.11 is ready to be installed! In this update, we have addressed a number of issues, such as: All TeamCity bug-fix updates include performance and security improvements, so we recommend that you never skip these minor updates. See TeamCity 2025.11.2 Release Notes for the complete list of resolved […]",
+    "title": "QueryDSL을 이용한 Batch Insert 성능 개선",
+    "description": "JPA 환경에서 QueryDSL-SQL을 활용해 대량 데이터 삽입 성능을 획기적으로 개선하는 방법을 소개합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/01/teamcity-2025-11-2-bug-fix/",
-    "pubDate": "Mon, 19 Jan 2026 18:32:33 +0000",
-    "creator": "Dmitrii Korovin",
+    "link": "https://cheese10yun.github.io/querydsl-batch-insert/",
+    "pubDate": "Sat, 17 Jan 2026 15:54:48 GMT",
+    "creator": "Unknown",
     "categories": [
-      "bug-fix"
+      {
+        "_": "Performance",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/Performance/"
+        }
+      },
+      {
+        "_": "JPA",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/JPA/"
+        }
+      },
+      {
+        "_": "ORM",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/ORM/"
+        }
+      },
+      {
+        "_": "Querydsl",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/Querydsl/"
+        }
+      }
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Now in Public Preview: GitHub Copilot build performance for Windows",
-    "description": "Last year, we launched our new GitHub Copilot build performance capabilities in Private Preview. With help from our fantastic C++ community, we gathered insights and addressed key feedback. We’re happy to share that GitHub Copilot build performance for Windows is now in Public Preview. Today, all C++ developers can try out the new capabilities in […]\nThe post Now in Public Preview: GitHub Copilot build performance for Windows appeared first on C++ Team Blog.",
+    "title": "The ROI of Developer Experience: How a Better CI/CD Tool Pays for Itself",
+    "description": "This article was brought to you by Cameron Pavey, draft.dev. Developer experience (DevEx) directly correlates with engineering performance, which in turn drives competitive advantage.  And yet many software engineering teams continue to operate on legacy CI/CD platforms that create unnecessary friction, burn developer hours, and ultimately limit business growth. While some teams remain trapped by […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/now-in-public-preview-github-copilot-build-performance-for-windows/",
-    "pubDate": "Wed, 21 Jan 2026 18:17:56 +0000",
-    "creator": "David Li",
+    "link": "https://blog.jetbrains.com/teamcity/2026/01/the-roi-of-dev-experience/",
+    "pubDate": "Thu, 22 Jan 2026 13:31:12 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "C++",
-      "Build Insights",
-      "build performance",
-      "speed"
+      "best-practices",
+      "teamcity-2",
+      "devopspains"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 36화, 달리기 시합인데스와",
-    "description": "No description available",
+    "title": "좋은 태도, 나쁜 태도",
+    "description": "최근 기회가 되어서 개발자의 커리어에 관한 발표를 했다.\n발표 주제는 \"탐욕 알고리즘처럼 너무 각 단계별로 최적화된 선택을 하느라 전체 최적화를 놓치는 우를 범하지 말라\" 였다.\n(이에 관해서도 따로 글로 쓸 예정이다.)\n그 발표에서 \"좋은 경험과 나쁜 경험은 없으며, 좋은 태도와 나쁜 태도만 있는 것 같다\" 라는 이야기를 드렸다.\n발표가 끝나고 QnA 때 \"그럼 좋은 태도와 나쁜 태도를 가르는 기준이 어떻게 되나요?\" 라는 질문을 받았다.\n미리 생각해둔 질문은 아니였어서 곰곰히 생각해보고 나서 다음과 같이 답변 드렸다.\n\"지금 주어진 이 일이 커리어에 도움이 되냐/안되냐를 끊임없이 판단하는 건 좋은 태도가 아닌 것 같다.\n커리어에 도움이 안되는 일이면 잘하기 위해 노력하지 않게 된다.\n그러면 결국 그 일은 도움이 안되는 경험으로 마무리 된다.\n반면, 그 일이 커리어에 도움이 될지 안될지 상관없이 이 일을 잘하기 위해 노력하는 것만 생각한다면 그게 어떤 경험이든 이후에 도움이 되는 경우가 많다.\n좋아하는 일을 선택할 수 없는 상황이라면 주어진 일 그 자체를 좋아하는 것이 좋은 태도인 것 같다.\n그리고 그 일을 좋아하려면, 그 일을 잘해야하는데, 잘하기 위한 노력 과정들이 결국은 좋은 경험으로 갈무리 되는 것 같다.\"\n여러 채널을 통해 개발자분들의 고민을 듣다보면 \"미래에 내가 가고 싶은 회사, 하고 싶은 직무를 정해두고\" 현재의 경험을 설계하는데 거기서 불일치하는 경우가 생기면 불행하다고 느끼는 경우를 많이 봤다.\n합격한 회사가 풀스택을 원하는데 저는 백엔드 개발자가 되고 싶어서 백엔드만 전문적으로 할 수 있는 회사에 계속 지원해보려고요.\n네이버 백엔드 개발자로 취업하고 싶은데 현재는 SI 회사여서 프론트엔드, 인프라 등 여러가지를 다 하고 있어서 고민이다.\n빅테크 개발자로 이직할 계획인데, 현재는 스타트업이라 MSA, k8s 같은 경험을 못해보고 있다. 회사에선 저런 환경으로의 개선 일정을 전혀 주지 않아서 고민이다.\n실시간 유저 트래픽을 받아보고 싶은데, 회사에선 계속 내부 어드민 개선 일감만 주어서 고민이다.\n내가 생각한대로 최적화된 선택만 할 수 있는 환경은 잘 없다.\n주변의 좋은 시니어 개발자분들을 보면 생각보다 생각한대로의 커리어 패스를 순차적으로 밟아오신 분들은 많지 않았다.\n그렇지만 어느 일정 궤도에 오르신 선배들을 보면 대부분 \"본인은 운이 좋아서 좋은 경험들을 많이 했고, 덕분에 좋은 기회를 얻을 수 있었다\" 라고 이야기 하신다.\n대부분은 우연한 기회로 새로운 일을 맡게 되고 , 그 일 자체를 잘하기 위해 노력하던 과정에서 새로운 경험을 얻게 되고, 그 새로운 경험으로 새로운 기회를 얻게되는 그런 과정들을 많이들 겪으셨다.\n시간이 지나고보니 그게 좋은 경험인 것을 알 수 있는 것이지, 시작하는 단계에서 판단할 수 있는 것이 아니다.\n어떤 경험을 선택하기 전에 이게 나한테 좋은지 아닌지를 너무 길게 판단할 필요는 없는 것 같다.\n어떤 경험이든 그걸 잘 하기 위한 생각만 바꾸어도 그건 전부 다 나에게 도움이 되는 경험이 되는 것 같다.\n그런 면에서 늦깎이 천재들의 비밀 도 추천한다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2411",
-    "pubDate": "Wed, 21 Jan 2026 20:19:05 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://jojoldu.tistory.com/857",
+    "pubDate": "Mon, 19 Jan 2026 08:58:42 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "웹툰"
+      "생각정리",
+      "개발자",
+      "늦깎이 천재들의 비밀",
+      "루프클럽",
+      "좋은 태도",
+      "커리어",
+      "커리어 패스"
     ]
   }
 ]
