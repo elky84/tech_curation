@@ -2,82 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "코드 품질 개선 기법 30편: (투명한) 운명의 붉은 실",
-    "description": "이 글은 2024년 6월 20일에 일본어로 먼저 발행된 기사를 번역한 글입니다.LY Corporation은 높은 개발 생산성을 유지하기 위해 코드 품질 및 개발 문화 개선에 힘쓰고...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techniques-for-improving-code-quality-30",
-    "pubDate": "Fri, 23 Jan 2026 08:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "The ROI of Developer Experience: How a Better CI/CD Tool Pays for Itself",
-    "description": "This article was brought to you by Cameron Pavey, draft.dev. Developer experience (DevEx) directly correlates with engineering performance, which in turn drives competitive advantage.  And yet many software engineering teams continue to operate on legacy CI/CD platforms that create unnecessary friction, burn developer hours, and ultimately limit business growth. While some teams remain trapped by […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/01/the-roi-of-dev-experience/",
-    "pubDate": "Thu, 22 Jan 2026 13:31:12 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "best-practices",
-      "teamcity-2",
-      "devopspains"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "철면피",
-    "description": "본인이 얼굴이 두꺼운 철면피이거나, 또는 주변에 이렇게 얼굴이 두꺼운 철면피 친구와 지인이 항상 몇 명씩 누구나 있을 것이다. 철면피는 말 그대로 얼굴이 두꺼워서 남의 비판을 신경 쓰지 않는 뻔뻔한 사람을 뜻하는데, ‘얼굴에 철판을 깔았다’라는 말도 우리는 자주 사용한다. 이 말은 어떻게, 언제 쓰이냐에 따라 긍정적인 의미를 가질 수도 있고, 부정적인 의미를 가질 수도 있는데, 오늘은(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/01/you-always-need-to-be-thick-skinned-and-shameless.html",
-    "pubDate": "Wed, 21 Jan 2026 21:34:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "consumer",
-      "FoundersAtWork",
-      "hustle"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "데이터 노가다 실수담 - 15th",
-    "description": "IIS 웹로그는 모든 필드를 '공백'으로 구분하기 때문에 원활한 필드 분류를 위해 필드값에 포함된 공백을 + 기호로 대체한다.\n\n\n\n\n가독성을 높이기 위해 +를 공백으로 치환하는 계산 필드 정책 추가.\n\n\n\n\n+가 공백으로 바뀐 agent 필드 상태를 축소해서 agent2 필드에 저장하는 정책도 추가.\n\n\n\n\n그런데 + 기호가 사라지지 않는다.\n\n\n\n\n\n검색창에서는 잘 되는데?\n\n\n\n문득 계산 필드 정책은 순서대로 실행되지 않는다는 사실이 생각났다. 계산 필드는 모든 정책을 동시에 실행하기 때문에 agent2 필드를 만드는 시점에, +가 공백으로 바뀐 agent 필드는 존재하지 않는다는 얘기. 열심히 설명해놓고 설명대로 안 했네(..)\n\n\n관련 글\n\n데이터 노가다 실수담 - 14th\n데이터 노가다 실수담\n평균의 함정\n데이터 분석이 쉬워지는 비법\n데이터 분석에 필요한 자질은 뭘까?",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/01/15th.html",
-    "pubDate": "2026-01-22T12:55:00.003Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "유니티 광고 레벨플레이 아이언소스 / LevelPlay / IronSource",
-    "description": "애드몹 광고가 부족해서 표시 못하는 상황을 겪다보니\n찾은 방법이 매디에이션 입니다.\n애드몹 자체 광고만으로 부족하기 때문에\n더 많은 입찰 업체를 연결해서 남는 광고를 경매로 넘기는 방식입니다.\n \n미디에이션을 하려면 입찰자들의 광고 모듈을 붙여줘야합니다.\n각 회사마다 방식이 있기 때문에 붙이기 어려운데요\n유니티에서는 레벨플레이를 지원합니다.\n그런데 버튼만 누르면 끝이군요 \n아주 편합니다.\n \n뒤에 더 많은 작업이 잇을꺼 같긴한데\n일단 문서를 보고 더 진행해야겠습니다.\n개발 문서: https://developers.is.com/ironsource-mobile/unity/unity-plugin/\n\n \nUnity Package Integration - IronSource Knowledge Center\nUnity Package Integration ⚡ Before you start Unity LevelPlay mediation supports Unity version 2021.3+, and Android operating systems version 4.4 (API level 19)+. iOS version support is defined per network. ironSource Ads and LevelPlay mediation support i\ndevelopers.is.com\n\n \n \n개발 순서\n\n\n어린이를 대상으로 하나요 ?\n저는 아니요 골랐습니다.\n어린이 게임 만드실분은 예 눌러아겠죠\n다음\n\n\n레벨플레이 대시보드 안내하네요\n유니티 로그인을 거쳐\n아이언소스 쪽으로 로그인 되네요\n\n\n아이언소스 회원가입하나봅니다.\n다음\n이름이랑 도시 넣는데 스샷 안찍었습니다.\n다\n앱이 출시되었는지 묻는군요 알아서 입력하시구요\n저는 새 앱에 적용할 꺼라 아니오 눌렀습니다.\n아래로 가면\n\n\nCOPPA* 는 정보 보호법이라고 하네요\n따를 것이기 때문에 Directed 디렉티드 고릅니다.\n\n\n플레이 가능한 광고를 사용하겠느냐인데\n저는 플레이가능한 광고 싫습니다.\n체크를 하면 거부하겠다는 뜻 같군요 \n저는 체크 했습니다.\n\n\n이 뒤론 메뉴가 너무 많쿤요 Admob 같은 화면이 나왔습니다.\n메뉴는 더 확인해봐야겠습니다.\n \n \n \n \n \n \n투자 관점\n이부분에서 유명한 회사가 앱러빈 입니다.\n\n\n5년치 차트인데요 엄청난 주가 향상이 있었죠\n게임은 유니티로 만드는데 광고는 앱러빈이 먹고 있었습니다.\n이번에 유니티가 이걸 하겠다고 만든게 레벨플레이 구요\n모듈 붙이기가 아주 쉬워졌으니 효과가 있을 것 같습니다.\n\n\n이제 시작 아닌가 싶군요\n저는 왕창 사야겠습니다. 가즈아~\n붙이는법 쓸려고 문서 썼는데\n투자로 갔군요 ㅎㅎ",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1563",
-    "pubDate": "Sat, 24 Jan 2026 14:34:30 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "LevelPlay",
-      "unity",
-      "레벨플레이",
-      "아이언소스",
-      "유니티"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
     "title": "Now in Public Preview: GitHub Copilot build performance for Windows",
     "description": "Last year, we launched our new GitHub Copilot build performance capabilities in Private Preview. With help from our fantastic C++ community, we gathered insights and addressed key feedback. We’re happy to share that GitHub Copilot build performance for Windows is now in Public Preview. Today, all C++ developers can try out the new capabilities in […]\nThe post Now in Public Preview: GitHub Copilot build performance for Windows appeared first on C++ Team Blog.",
     "reviews": [],
@@ -93,54 +17,231 @@
     ]
   },
   {
-    "id": 7,
+    "id": 2,
     "imageUrl": "",
-    "title": "군제 프로콘 보이 직구",
-    "description": "10년 전부터 입문용으로 써오던 에어브러쉬가 아직도 잘 되는데 스팩을 좀 높이고 싶어서 가성비 제품으로 일마존에서 직구했다. 국내 가격이랑 차이가 많이 나서 직구를 하면 가격을 많이 저렴하게 살 수 있다. 일단 네이버에 군제 프로콘 보이를 검색했을때 나오는 가격이다. 내가 구매할것은 3호로 범용적으로 쓰기 좋은 모델이다. 정확히는 3호 WA 플래티넘 Ver.2 더블액션 모델을 구입할 예정인데 네이버 쇼핑에서는 15만원 후반대에 가격이 형성되어 있다. 엔화도 그리 비싸지 않아서 일마존에서 해당 제품을 찾아봤다. 세부 모델명인 PS289로 검색해도 나온다. 배송비를 제외하면 11520엔으로 원화로는 10만7천원 정도 나오는데 많이 저렴.......",
+    "title": "Spring Boot Debugging – Now Remote",
+    "description": "We released Spring Debugger in May 2025 to bring more clarity to the “magic” behind Spring Boot – helping you see what’s really happening inside your running application. By the end of 2025, the plugin had reached more than 300,000 unique downloads and became a trusted tool within the developer community. We’ve received a lot […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/224158032060?fromRss=true&trackingCode=rss",
-    "pubDate": "Sat, 24 Jan 2026 12:11:50 +0900",
+    "link": "https://blog.jetbrains.com/idea/2026/01/spring-boot-debugging-now-remote/",
+    "pubDate": "Fri, 23 Jan 2026 16:17:13 +0000",
+    "creator": "Andrey Belyaev",
+    "categories": [
+      "news",
+      "remote-debug",
+      "remote-development",
+      "spring-debugger"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Exposed 1.0 Is Now Available",
+    "description": "This is the first major release of Exposed – a huge milestone for both the project and the Exposed team! This release brings many new exciting features, the most requested being R2DBC support, as well as performance enhancements and bug fixes. Exposed 1.0 also introduces a stable API that guarantees no breaking changes until the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/01/exposed-1-0-is-now-available/",
+    "pubDate": "Fri, 23 Jan 2026 13:07:20 +0000",
+    "creator": "Simon Vergauwen",
+    "categories": [
+      "exposed",
+      "news",
+      "releases",
+      "backend",
+      "kotlin",
+      "release",
+      "server-side"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "LargeSystemCache 설정에 대한 오해 (윈11, 윈10 최적화)",
+    "description": "윈도11 최적화 팁 중에 LargeSystemCache와 DisablePagingExecutive가 있는데, 이건 옛날에나 쓰던 방식이고, SSD를 사용하는 최근 2010년 이후의 시스템에는 오히려 문제가 되기 때문에 쓰면 안되는 설정이다. 하지만 여러 곳에서 잘못된 정보가 유통되기에 이 글을 쓰게 되었다. 실제로 주변인이 이걸 설정해서 PC와 랩탑이 이상 작동하는 문제가 있었고, 고쳐준 다음에 쓴 글이다.\n \n1. 역사적 배경 (알아둬도 큰 쓸모는 없지만...)\nLargeSystemCache와 DisablePagingExecutive 설정은 과거 HDD라고 불리는 하드 디스크를 장착한 십수년전 시스템에서 사용되던 설정으로서, 커널이라고 불리는 시스템 코어 부분이 사용하는 메모리 영역을 큰 값으로 확보해서 시스템 영역을 메모리에 상주시키는 효과가 있었다. 그렇다면 왜 시스템 영역을 메모리에 상주되는 기능이 있는지 살펴봐야 한다. 이를 위해 우린 스왑 영역에 대해서 조금 알아둬야만한다.\n우선 램은 프로그램이 실행되기 위에서 디스크에 있는 정보를 읽어서 올려두는 주 메모리 공간(main memory)이다. 모든 프로그램은 램을 사용한다는 사실부터 기억해두자.\n2000년대 중반만 하더라도 인터넷 열풍으로 PC 시장이 빠르게 성장했는데, 그에 비해 메모리(RAM) 용량은 발전이 더뎌서 1GB정도 밖에 안되는 경우가 많았다. 2026년 기준으로 보면 PC의 램 최소사양이 8~16GB이고, 게임을 하는 사람은 보통 32GB를 쓰는 것에 비하면 1GB는 엄청 작은 값이었다. 따라서 Windows에서는 여러 프로그램을 원활하게 실행하기 위해 최대한 램을 아껴써야만 했다. 이를 위해 스왑 영역을 사용하는 기법이 도입되었는데, 이는 OS(운영체제)론을 배운 학생이라면 다 알것이다. 혹시나 모르는 사람을 위해 설명하자면, 운영체제가 메모리 부족을 해결하기 위해 디스크의 특정 영역에 메모리 공간의 일부를 이동(copy and remove)시켰다가 나중에 필요할때 다시 메모리로 가져오는 기법이다. 이렇게 하면 RAM이 1GB여도 2GB인 것처럼 뻥튀기를 할 수 있었다. 운영체제론에서는 이때 사용되는 디스크 공간을 스왑공간(swap space)이라고 부르는데, 윈도에서는 페이지 파일(pagefile) 이라고 다르게 부르며 실제 위치는 C:\\pagefile.sys 에 만들어지는 경우가 많다.[1]\n참고로 메모리의 영역을 pagefile로 이동시키는 과정을 스왑 아웃(swap out)이라고 부르고, 반대로 pagefile에서 RAM으로 이동하는 과정을 스왑 인(swap in)이라고 부른다. 아래 그림을 보면 이해가 쉬울 것이다.\nWindows, Swap Out, Swap In (Gemini 생성)\n\n\n그런데 스왑 아웃이나 스왑 인에는 심각한 문제가 있다. 그건 바로 딜레이가 발생한다는 점이다. 어떤 프로그램을 수행하려고 하는데, 필요한 램 공간이 500MB정도 부족하다고 가정하자. 그럼 운영체제는 최소 500MB 이상의 메모리를 확보하기 위해 메모리 일부분을 디스크로 복사하는 과정, 즉 swap out이 발생한다. 문제는 500MB이상의 데이터를 디스크로 복사하는 과정에서 심각한 딜레이가 발생한다는 점이다(당시 하드 디스크의 속도는 대체로 초당 50~100MB수준 이었다). 따라서 500MB이상의 메모리를 swap out하려면 최소 6~10초 정도는 딜레이가 생길 것이다. 그런데 프로그램 실행시 이 정도 딜레이가 발생하면 악영향을 줄 것이다. 그렇다면 딜레이를 줄이기 위해 어떤 방법이 있을까? 그건 바로 미리미리 복사하던지, 아니면 메모리를 비워서 빈 메모리 공간을 만들어두는 것이다.\n그런데 이렇게 미리 공간을 확보하는 것이 효과가 좋은 원인을 생각해보면 HDD(하드 디스크)의 복사 속도가 매우 느렸기 때문에 발생하는 딜레이였다. 그리고 공간을 확보하기 위해 디스크를 자주 쓰거나 읽게되면 디스크로부터 데이터를 주로 많이 읽어들이는 데이터베이스나 서버들은 악영향이 생긴다. 그래서 메모리를 미리 확보하는 기법은 반대로 커널의 응답속도가 떨어뜨리는 문제가 생긴다. 그래서 주변 장치를 많이 사용하거나 혹은 커널이 대용량 데이터를 처리하는 경우에 반대로 커널(시스템) 영역이 디스크로 swap out되지 않도록 하는 기능이 필요해진 것이었다. 이를 돕는 기능이 바로 LargeSystemCache, DisablePagingExecutive 라 부르는 것이었다. 두가지 기능에 대해서는 아래에 표로 정리해두었다.\n LargeSystemCache \n대용량 캐시를 사용하도록 하여, 커널이 파일을 읽거나 메모리 영역을 사용 할 때 캐싱을 최대한 하도록 하는 기법이다. 즉 빈 공간을 남기지 말고 최대한 파일을 위한 캐시로 쓰게 한다. 윈도 서버에서 데이터베이스나 네트워크 서비스를 사용할 때 반응 속도를 올리는데 도움이 되던 설정이다. 게임이나 문서 작업을 하는 일반인들에게는 필요가 없는 설정이다.[2]\n\n\n DisablePagingExecutive  \n커널이 사용하는 영역의 메모리나 디바이스 메모리를 swap out을 하지 않고 메인 메모리에 유지하도록 하는 것이다. 위와 마찬가지로 윈도 시스템의 반응 속도를 올려주는 장점이 있었다. 혹은 디바이스 장치를 개발하는 경우에 주로 사용한다. [3]\n\n\n\n \n이들은 위에 정리한대로 메인 메모리(RAM)를 소모해서 윈도 시스템 자체의 서비스와 장치들의 반응 속도를 올리는게 핵심 목적이므로 주소 Windows Server에서 사용되는 기능이었다. 물론 개인용 PC에서 사용하던 Windows 7 (2009년)이나 Windows 8 (2012년)에는 4GB이상의 메모리를 가지고 있고, HDD 디스크를 사용하던 경우에는 이 설정이 효과가 있는 경우가 많았었다. 문제는 2010년대 중반에는 SSD가 대거 보급되었고, 8GB이상의 대용량 메모리를 가진 시스템이 늘어나면서 해당 설정이 무의미해졌다는 점이다. 지금 대부분의 시스템들은 보통 16GB이상의 메모리를 가지고 있고, 고성능의 SSD를 가지고 있기에 전혀 쓸 이유가 없는 기능이다.\n호랑이 담배 피우던 시절에 쓰는 PC설정 (Gemini 생성)\n\n\n그럼에도 불구하고 이 설정을 하면 빨라진다는 호랑이 담배피던 시절 괴담이 늘어나고 있는데, Win10이나 Win11에서  LargeSystemCache나 DisablePagingExecutive 를 설정해봐야 효과도 없고, 도리어 시스템을 불안정하게 만드는 경우도 많다. 특히 랩탑(노트북)은 이 설정을 켜면 절전모드에서 깨어날때 문제가 생기거나 몇몇 블루투스나 와이파이 장치들이 문제를 일으키기도 한다. PC 데스크탑에서는 랩탑보다는 안정적이지만 간혹 USB 장치나 PCIe 장치가 문제를 일으킬 수도 있다. 따라서 현재는 쓰면 안되는 기능이다. 그러면 이 기능을 어떻게 켜고 끄는지 살펴보자.\n \n2. LargeSystemCache, DisablePagingExecutive  끄기\n혹시라도 이 설정을 켠 사람들은 아래 방법으로 끄면 된다. 먼저 regedit를 실행해서 레지스트리 편집을 시행한다.\nLargeSystemCache와 DisablePagingExecutive 설정\n\n\n여기서 HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management 설정으로 이동하면 LargeSystemCache나 DisablePagingExecutive 설정이 보일 것이다. 이 값들은 on하는 것이 1이고, off하는 것이 0이다. 당연히 default값은 off인 0이다. 이 2가지 설정 값이 1이라면 0으로 수정하면 된다.\n \n혹시 이 값을 설정한 뒤에 페이징 파일(pagefile)을 0바이트로 설정했다면 원상복구하는 것을 추천한다. 원복을 위해서는 다음과 같이 sysdm.cpl 프로그램에 설정하는 것이 편하다. 먼저 Win + R 키를 누르면 나타나는 좌측 하단 입력창에 sysdm.cpl 을 타이핑해서 실행한다. 그리고 \"고급\" 탭에 \"성능\" 설정을 눌러서 \"성능 옵션\" 창을 띄운다. 여기서 다시 \"고급\" 탭으로 이동해서 \"가상 메모리\"의 변경 버튼을 누르면 아래 그림처럼 가상 메모리 설정을 볼 수 있다. 가상메모리 설정을 \"시스템이 관리하는 크기\"로 설정하면 원상복구가 된다. 간혹 가상메모리 크기를 고정값으로 \"사용자 지정 크기\" 로 16GB로 해두는게 좋다는 글도 있는데, 다 십수년전 옛날 설정 이야기다. 2026년 기준으로 보면 쓸데없는 설정이다.\nsysdm.cpl의 성능옵션, 가상 메모리 설정\n\n\n윈도10이나 윈도11은 옛날처럼 최적화 하는 기법이 대부분 작동하지 않는다. 오히려 요새 최적화 기법은 발열이 심각한 몇몇 랩탑의 CPU나 올인원 PC들의 CPU 성능을 80% 정도로 낮추는 기능이 유용하고, 알림을 꺼서 최적화 하는 정도만 제대로 쓸모가 있다. 그 외에는 그냥 디폴트 값을 쓰는게 좋다. 괜히 만져서 더 느려지거나 문제가 생길 수 있으니 주의하도록 하자.\n그러나 굳이 꼭 쓰고 싶다면 위에 레지스트리를 고쳐서 LargeSystemCache 정도만 쓰는 것을 추천한다. 간혹 엄청난 문서 파일들을 작업하거나 동영상 같은 것을 편집하는 경우에는 아주 조금 유용할 수는 있을 듯 하다.\n \n레퍼런스\n[1] 페이징 파일 소개, Microsoft Learn, https://learn.microsoft.com/ko-kr/troubleshoot/windows-client/performance/introduction-to-the-page-file?source=recommendations\n[2] LargeSystemCache에 대한 설명, https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc784562(v=ws.10)\n[3] DisablePagingExecutive 에 대한 설명, https://learn.microsoft.com/en-us/windows-hardware/test/wpt/wpr-command-line-options\n \n \n히스토리\n2026.01.23 문서를 처음으로 작성",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://sunyzero.tistory.com/324",
+    "pubDate": "Fri, 23 Jan 2026 19:52:55 +0900",
+    "creator": "sunyzero",
+    "categories": [
+      "컴퓨터 관련/윈도 패밀리",
+      "DisablePagingExecutive",
+      "LargeSystemCache",
+      "regedit",
+      "sysdm.cpl",
+      "Windows",
+      "windows11",
+      "운영체제",
+      "윈도 페이징 파일 설정",
+      "최적화"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Rider 2026.1 Early Access Program Is Now Open!",
+    "description": "The Early Access Program (EAP) for Rider 2026.1 has just begun, and the first preview build for the upcoming major release is already out.  There are several ways for you to get your hands on the first preview build: A reminder of what the EAP is all about The Early Access Program is a long-standing […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/01/22/rider-2026-1-early-access-program-start/",
+    "pubDate": "Thu, 22 Jan 2026 13:41:54 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "eap",
+      "releases",
+      "rider",
+      "azure",
+      "azure-devops",
+      "godot",
+      "mixed-mode-debugging",
+      "natvis",
+      "nuget",
+      "nuget-pmc",
+      "package-management"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "The AI Evolution of Graph Search at Netflix",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/the-ai-evolution-of-graph-search-at-netflix-d416ec5b1151?source=rss----2615bd06b42e---4",
+    "pubDate": "Mon, 26 Jan 2026 19:01:27 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "search-engines",
+      "graphql",
+      "software-engineering",
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Strip Engine Code 를 끄라고 한다. / Admob 문제로 추측",
+    "description": "문제가 로그에 찍혀서 남겨둔다.\nAssetBundle 을 읽으려고 하는데 실패를 한다.\n\n\nStrap Engine Code 글 끄라고 한다.\nAdmob 때문에 발생한다고 한다.\n영상을 읽는 건데 Admob 도 영상을 읽어야해서 그런가 보다.\n\n\nProject Setting 에 Other Option 인가에 있다.\n스샷을 보고 대충 위치를 찾아보도록 켜져있길레 껏다.\n \n \n \n로그\n01-23 00:22:07.860 11829 30918 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object) \n01-23 00:22:07.860 11829 30918 I Unity   : <LoadAssetAfter>d__51:MoveNext() \n01-23 00:22:07.860 11829 30918 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) \n01-23 00:22:07.860 11829 30918 I Unity   : \n01-23 00:22:07.861 11829 30918 E Unity   : Could not produce class with ID 329. \n01-23 00:22:07.861 11829 30918 E Unity   : This could be caused by a class being stripped from the build even though it is needed. Try disabling 'Strip Engine Code' in Player Settings. \n01-23 00:22:07.861 11829 30918 E Unity   : UnityEngine.AssetBundle:LoadAssetWithSubAssets_Internal(String, Type) \n01-23 00:22:07.861 11829 30918 E Unity   : Helper:LoadVidePlayerFromObject(AssetBundle, Action`1) \n01-23 00:22:07.861 11829 30918 E Unity   : <LoadAssetAfter>d__51:MoveNext() \n01-23 00:22:07.861 11829 30918 E Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) \n01-23 00:22:07.861 11829 30918 E Unity   :",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1562",
+    "pubDate": "Fri, 23 Jan 2026 00:32:04 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "New Livestream – From Detection to Remediation: Wiz in Your JetBrains IDE",
+    "description": "Join our upcoming IntelliJ IDEA livestream with Daniel Velikanski from Wiz to see how cloud security insights can be brought directly into your JetBrains IDE, helping you detect and address real risks as you code. Date: February 5, 2026 Time: 3:00–4:00 pm UTC REGISTER FOR THE LIVESTREAM Session abstract Developers move fast in the cloud, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/01/new-livestream-engineers-talk-about-spring-boot-4-life-and-other-stuff/",
+    "pubDate": "Mon, 26 Jan 2026 09:39:43 +0000",
+    "creator": "Anna Rovinskaia",
+    "categories": [
+      "livestreams",
+      "intellij-idea",
+      "intellijidealivestream",
+      "livestream",
+      "webinars"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "How We Made Variable Inspections 87 Times Faster for Unreal Engine in Rider",
+    "description": "If you’ve ever expanded a complex Unreal Engine variable in Rider’s debugger and had time to contemplate your life choices, this post is for you. We’ve rewritten our expression evaluator, and the results are dramatic: Variable inspection is up to 87 times faster on warm runs and 16 times faster on cold ones. The debugger […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/01/26/how-we-made-variable-inspections-87-times-faster-for-unreal-engine-in-rider/",
+    "pubDate": "Mon, 26 Jan 2026 13:08:53 +0000",
+    "creator": "Sasha Korepanov",
+    "categories": [
+      "net-tools",
+      "rider",
+      "eap",
+      "game-debugging",
+      "game-development",
+      "lldb",
+      "unreal-engine"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "이더넷 케이블 내부와 외부 색상 코드, 당신이 몰랐던 진짜 의미는?",
+    "description": "이더넷 케이블, 겉모습은 다 같아 보이지만 사실은 색상별로 숨겨진 의미가 있다는 사실, 알고 계셨나요? 흔히 성능이나 속도를 나타낸다고 오해하기 쉽지만, 이 색상 코드에는 우리가 미처 몰랐던 진짜 활용법과 네트워크 관리의 비밀이 숨어있습니다. 오늘은 이더넷 케이블의 외부 재킷 색상부터 내부 전선의 복잡한 색상 코드까지, 그 흥미로운 세계를 함께 탐험해볼까 합니다. 과연 색상들이 어떤 역할을 하는지, 또 어떤 점에 주의해야 하는지 최신 정보를 바탕으로 자세히 알아볼게요!\n\n\n이더넷 케이블 외부 색상, 그 진짜 의미는?  \n음, 우리가 흔히 보는 이더넷 케이블들, 그냥 다 똑같이 생겼다고 생각하셨을 거예요. 파란색, 노란색, 빨간색, 초록색, 회색 심지어 분홍색까지 다양하게 있긴 하지만, 사실 그냥 예쁘라고 만든 건 아니거든요. 많은 분들이 USB 포트 색깔처럼 속도나 성능을 나타내는 게 아닐까 오해하시곤 하는데, 그건 정말 아니에요. 이 케이블 색상들은 단순히 시각적인 요소도 아니고, 성능과도 전혀 무관하답니다.\n그렇다면 왜 이렇게 다양한 색깔이 존재할까요? 바로 \"조직화\"와 \"명확성\" 때문입니다. 상상해보세요. 복잡한 데이터 센터나 사무실에서 수백 가닥의 케이블이 얽혀있는 모습을요. 그때 특정 색깔의 케이블이 어떤 용도로 쓰이는지 한눈에 파악할 수 있다면 얼마나 편리할까요?\n  잠깐! 여기서 말하는 색상 코드는 케이블 외부 재킷의 색깔을 의미합니다. 케이블 내부에 꼬여있는 전선들의 색상 코드는 연결성과 신호 전송에 매우 중요한 역할을 하는데, 이건 나중에 따로 자세히 이야기해 드릴게요. 착각하시면 안 돼요!\n대규모 네트워크 환경에서는 말할 것도 없고요, 집에서도 유용해요. 여러분의 라우터, 스위치, 모뎀 연결에 각기 다른 색상의 케이블을 사용하면, 갑자기 네트워크가 안 될 때 문제의 원인을 훨씬 쉽게 찾아낼 수 있답니다. 정말 작은 차이 같지만, 실제로 써보면 엄청난 편리함을 가져다주죠.\n이 외에도 제조사들은 케이블 카테고리(예: Cat 5, Cat 6, Cat 7)를 구분하거나, 케이블 길이, 심지어는 설치 연도(예: 2025년 설치는 파란색, 2026년 설치는 노란색)를 나타내는 데 색상을 활용하기도 합니다. 결국, 케이블 색상은 작업과 유지보수를 더 빠르고 덜 헷갈리게 만드는 데 큰 도움을 준다고 볼 수 있어요. 성능에 영향을 주진 않지만, 네트워크 관리의 효율성에는 지대한 영향을 끼치는 거죠.\n주요 색상별 용도, 과연 정해진 규칙이 있을까?  \n자, 그렇다면 각 색상들이 정확히 어떤 의미를 가지고 있을까요? 음… 사실은 정해진 \"만국 공통\" 표준은 없어요. 이 점이 좀 중요합니다. 케이블 색상의 의미는 특정 조직, 공급업체 또는 설치자가 어떻게 사용하기로 결정했는지에 따라 전적으로 달라질 수 있어요. 하지만 제가 겪어본 바로는, 몇 가지 흔한 패턴은 분명히 존재합니다.\n  파란색: 대부분 표준 네트워크 연결에 사용돼요. 데스크톱 컴퓨터, 노트북 독, 사무실 프린터 등을 네트워크 스위치나 라우터에 연결할 때 말이죠. 가장 보편적이죠!\n  노란색: PoE(Power over Ethernet) 장치에 자주 사용됩니다. IP 보안 카메라, VoIP 전화, 무선 액세스 포인트처럼 케이블 자체에서 전력을 공급받는 장치들이요.\n⬛ 검은색 또는 회색: 사무실이나 가정에서 일상적인 연결에 많이 쓰입니다. 라우터를 모뎀에 연결하거나, 게임 콘솔을 네트워크 스위치에 연결하는 경우처럼요. 저도 집에서 주로 회색 케이블을 쓰고 있어요.\n  빨간색: 이건 정말 중요한 연결에만 사용되는 경우가 많습니다. 서버, 방화벽, 비상 백업 시스템처럼 절대로 연결이 끊기면 안 되는 곳에요. 때로는 제한되거나 보안이 강화된 네트워크 구간을 나타내기도 해요.\n  녹색: 크로스오버 연결(두 개의 유사한 장치를 직접 연결할 때, 예: 스위치-스위치 또는 컴퓨터-컴퓨터)이나 스마트 온도 조절기, 빌딩 제어 시스템 같은 환경 시스템에 사용되기도 합니다.\n  주황색 또는   보라색: 비교적 드물지만, 테스트 환경, 외부 연결, 게스트나 계약자를 위한 VLAN 세그먼트와 같은 특별한 네트워크 기능에 사용될 수 있어요.\n\n\n⚠️ 경고! 다시 한번 강조하지만, 위에 설명된 색상별 의미는 보편적인 표준이 아닙니다. 색상이 어떤 용도를 암시할 수는 있지만, 중요한 장비를 연결하거나 제거하기 전에는 반드시 해당 케이블의 문서나 네트워크 관리자에게 확인하는 것이 가장 안전합니다. 실수가 발생하면 큰 문제를 초래할 수 있으니까요.\n케이블 성능? 색상 대신 '카테고리'에 주목하세요!  \n가장 중요한 포인트 중 하나인데요, 케이블 재킷의 색상은 해당 케이블의 실제 성능과는 전혀 무관하다는 것입니다. 이더넷 케이블은 '카테고리'로 분류되며, 각 카테고리는 특정 속도와 대역폭을 위해 설계되었어요.\n예를 들어볼까요?\nCat 5e는 최대 1Gbps의 속도를 지원하고요,\nCat 6a는 더 긴 거리에서 최대 10Gbps까지 처리할 수 있습니다.\nCat 8은 대역폭의 헤비급 선수라고 할 수 있는데, 데이터 센터용으로 제작되어 짧은 거리에서는 최대 40Gbps까지 도달할 수 있어요. 정말 엄청난 속도죠!\n그러니까, 화려한 분홍색 Cat 6 케이블이 칙칙한 회색 Cat 5e 케이블보다 훨씬 뛰어난 성능을 발휘할 수 있다는 이야기예요. 중요한 것은 케이블 옆면에 인쇄된 '카테고리 등급'이지, 겉으로 보이는 색상이 아니라는 점을 꼭 기억해주세요. 이 카테고리는 단순히 속도뿐만 아니라, 전기적 간섭으로부터 케이블을 얼마나 잘 보호하는지, 그리고 안정적이고 신뢰할 수 있는 연결을 얼마나 잘 유지하는지까지 정의한답니다.\n이 때문에 오래된 Cat 5 케이블을 Cat 6 또는 Cat 6a로 업그레이드하면 현대 네트워크 환경에서 확연한 성능 차이를 느낄 수 있어요. 제 경험상, 특히 고화질 스트리밍이나 대용량 파일 전송이 잦다면 체감 효과가 상당합니다.\n\n\n내부 전선 색상 코드는 왜 중요할까?  \n외부 재킷 색깔 이야기는 이제 충분히 한 것 같고, 그럼 이제 케이블 '내부' 전선들의 색상 코드로 넘어가 볼까요? 사실 여기가 진짜 중요합니다. 외부 색상이 그저 \"편의\"를 위한 것이었다면, 내부 전선의 색상 코드는 이더넷 케이블이 제대로 작동하기 위한 \"필수\" 요소예요.\n이 내부 전선 색상 코드는 크게 두 가지 국제 표준으로 나뉘어요: T568A와 T568B입니다. 이 두 가지 표준은 8개의 내부 전선(4쌍의 꼬임선)을 RJ45 커넥터의 핀에 어떤 순서로 연결할지를 정의합니다. 이 순서가 틀어지면 네트워크 연결이 아예 안 되거나, 불안정해지죠.\n대부분의 상업용 및 주거용 건물에서는 T568B 표준을 사용하는 경우가 많지만, 오래된 건물이나 특정 환경에서는 T568A를 쓰기도 합니다. 중요한 건, 양쪽 끝 커넥터의 배열이 같아야 스트레이트(Straight-through) 케이블이 되고, 한쪽은 T568A, 다른 한쪽은 T568B로 배열해야 크로스오버(Crossover) 케이블이 된다는 점이에요. 크로스오버 케이블은 스위치 없이 두 대의 컴퓨터를 직접 연결하는 등 특정 상황에서만 사용됩니다.\n핀 번호\nT568A 색상\nT568B 색상\n\n\n\n\n1\n흰-녹\n흰-주\n\n\n2\n녹\n주\n\n\n3\n흰-주\n흰-녹\n\n\n4\n파\n파\n\n\n5\n흰-파\n흰-파\n\n\n6\n주\n녹\n\n\n7\n흰-갈\n흰-갈\n\n\n8\n갈\n갈\n\n\n\n아, 그리고 잊지 말아야 할 게 하나 더 있어요. 내부 전선은 모두 꼬여있다는 사실입니다. 이렇게 꼬여있는 형태는 외부 간섭으로부터 신호 손실을 최소화하고 안정적인 통신을 가능하게 해요. 그래서 \"꼬임쌍선(Twisted Pair)\" 케이블이라고 불리는 거고요. 혹시 직접 이더넷 케이블을 만드실 기회가 있다면, 이 내부 색상 코드를 정말 정말 신중하게 맞춰야 합니다. 잘못 연결하면 정말 곤란해지거든요!\n  핵심 요약\n✅ 외부 색상은 성능과 무관: 이더넷 케이블의 외부 재킷 색상은 속도나 성능이 아닌, 주로 '조직화'와 '식별'을 위한 도구입니다.\n✅ 정해진 표준은 없음: 외부 색상에 대한 보편적인 국제 표준은 없으며, 사용자의 재량이나 특정 조직의 규칙에 따라 의미가 달라질 수 있습니다.\n✅ 성능은 '카테고리'가 결정: 케이블의 실제 성능(속도, 대역폭, 안정성)은 Cat 5e, Cat 6, Cat 8과 같은 '카테고리 등급'에 의해 결정됩니다. 구매 시 반드시 이를 확인해야 해요.\n✅ 내부 색상 코드는 필수: 케이블 내부의 꼬임쌍선 색상 코드(T568A/B)는 RJ45 커넥터 연결에 필수적이며, 네트워크 연결 안정성에 직접적인 영향을 미칩니다.\n이더넷 케이블 선택과 사용에 있어 색상이 주는 시각적 정보는 분명 도움이 되지만, 그 본질적인 역할과 성능 기준을 정확히 이해하는 것이 중요합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 이더넷 케이블 색깔이 다르면 속도도 다른가요?\nA1: 아니요, 이더넷 케이블의 외부 색상은 데이터 전송 속도나 성능과는 전혀 무관합니다. 색상은 주로 네트워크 관리의 편의를 위해 케이블의 용도를 구분하는 데 사용됩니다. 실제 속도와 성능은 'Cat(카테고리)' 등급(예: Cat 5e, Cat 6, Cat 8)에 따라 결정됩니다.\nQ2: T568A와 T568B는 무엇이며, 왜 중요한가요?\nA2: T568A와 T568B는 이더넷 케이블 내부 꼬임쌍선의 RJ45 커넥터 연결 배열을 정의하는 두 가지 국제 표준입니다. 이 표준에 따라 정확하게 연결해야 데이터 신호가 올바르게 전송되고 안정적인 네트워크 연결이 가능합니다. 이 배열이 잘못되면 통신이 불가능해지거나 불안정해질 수 있습니다.\nQ3: 집에서 이더넷 케이블을 고를 때 어떤 점을 봐야 하나요?\nA3: 집에서 사용할 케이블을 고를 때는 외부 색상보다는 케이블의 '카테고리' 등급을 확인하는 것이 가장 중요합니다. 연결하려는 장비와 인터넷 속도에 맞춰 적절한 카테고리(예: 기가비트 인터넷에는 Cat 5e 이상, 더 높은 성능을 원하면 Cat 6 이상)를 선택하는 것이 좋습니다.\nQ4: 오래된 Cat 5 케이블을 Cat 6로 바꾸면 효과가 있을까요?\nA4: 네, 상당한 효과를 볼 수 있습니다. Cat 5는 최대 100Mbps를 지원하는 반면, Cat 6는 최대 1Gbps(Cat 6a는 10Gbps)를 지원하기 때문에, 기가비트 이상의 인터넷 환경을 사용하고 계시다면 Cat 6 이상의 케이블로 교체 시 네트워크 속도와 안정성 면에서 개선을 체감하실 수 있을 거예요.\n\n\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"이더넷 케이블 색깔이 다르면 속도도 다른가요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"아니요, 이더넷 케이블의 외부 색상은 데이터 전송 속도나 성능과는 전혀 무관합니다. 색상은 주로 네트워크 관리의 편의를 위해 케이블의 용도를 구분하는 데 사용됩니다. 실제 속도와 성능은 'Cat(카테고리)' 등급(예: Cat 5e, Cat 6, Cat 8)에 따라 결정됩니다.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"T568A와 T568B는 무엇이며, 왜 중요한가요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"T568A와 T568B는 이더넷 케이블 내부 꼬임쌍선의 RJ45 커넥터 연결 배열을 정의하는 두 가지 국제 표준입니다. 이 표준에 따라 정확하게 연결해야 데이터 신호가 올바르게 전송되고 안정적인 네트워크 연결이 가능합니다. 이 배열이 잘못되면 통신이 불가능해지거나 불안정해질 수 있습니다.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"집에서 이더넷 케이블을 고를 때 어떤 점을 봐야 하나요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"집에서 사용할 케이블을 고를 때는 외부 색상보다는 케이블의 '카테고리' 등급을 확인하는 것이 가장 중요합니다. 연결하려는 장비와 인터넷 속도에 맞춰 적절한 카테고리(예: 기가비트 인터넷에는 Cat 5e 이상, 더 높은 성능을 원하면 Cat 6 이상)를 선택하는 것이 좋습니다.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"오래된 Cat 5 케이블을 Cat 6로 바꾸면 효과가 있을까요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"네, 상당한 효과를 볼 수 있습니다. Cat 5는 최대 100Mbps를 지원하는 반면, Cat 6는 최대 1Gbps(Cat 6a는 10Gbps)를 지원하기 때문에, 기가비트 이상의 인터넷 환경을 사용하고 계시다면 Cat 6 이상의 케이블로 교체 시 네트워크 속도와 안정성 면에서 개선을 체감하실 수 있을 거예요.\"\n          }\n        }\n      ]\n    }",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483703",
+    "pubDate": "Thu, 22 Jan 2026 10:50:31 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "윈도우 사용팁/하드웨어",
+      "Cat 5e",
+      "Cat 6",
+      "Cat 8",
+      "PoE 케이블",
+      "RJ45",
+      "T568A",
+      "T568B",
+      "네트워크 케이블",
+      "랜선 속도",
+      "이더넷 케이블 색상"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "The Jenkins Migration Planning Kit",
+    "description": "This article was brought to you by Cameron Pavey, draft.dev. Jenkins has served the development community well for over a decade, but it was designed for a different era of software development. Developers who are tired of fighting with plugin compatibility issues, slow builds, and brittle configurations are exploring alternatives. But is your organization ready […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/01/jenkins-migration-planning-kit/",
+    "pubDate": "Mon, 26 Jan 2026 18:25:53 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "best-practices",
+      "teamcity-2",
+      "devopspains",
+      "jenkins"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "아르낙 빅박스 모험의 궤의 검은 석판 도색",
+    "description": "기존 아르낙의 석판을 도색했는데 원래는 아이보리 색인데 석판 느낌 낸다고 회색으로 도색했는데 이번에 검은색 석판이 나왔다... 드라이브러싱을 회색으로 해버리면 서로 컴포가 비슷한 색으로 수렴하기에 이번 검은석판은 글자 부분에만 붉은 색을 넣어주는식으로 마무리 해주었다. 프라이밍도 건너뛰고 음각이 있는 부분에 색을 칠해줄거라 마감제도 하지 않았다. ak사의 Deep Red로 글자부분을 2회 칠해주었다. 어짜피 벗어난 부분은 다 지워줄것이기에 삐져나오는것에 신경쓰지 말고 잘 칠해주었다. 그리고 삐저나온 부분을 지워주었다. 화장솜에 아크릴 물감을 녹일 수 있는 용액으로 지우면 된다. 나는 이소프로필알코올을 대량사놓은것.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/dlehddus84/224160512478?fromRss=true&trackingCode=rss",
+    "pubDate": "Mon, 26 Jan 2026 19:14:30 +0900",
     "creator": "dlehddus84",
     "categories": [
       "도색과 제작"
     ]
   },
   {
-    "id": 8,
+    "id": 13,
     "imageUrl": "",
-    "title": "IntelliJ IDEA Conf 2026: Learn From the People Building the JVM Ecosystem",
-    "description": "You’re invited to IntelliJ IDEA Conf 2026 – a free online conference for developers working across the JVM ecosystem. Join us for two days of in-depth technical talks, practical insights, and conversations with experts who build and shape modern Java and Kotlin development. The conference will take place online on March 26–27, 2026, with sessions […]",
+    "title": "[MULTI] 순수 재미로 의혹 돌파할까, 레이드 슈터 ‘하이가드’",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/01/intellij-idea-conf-2026-learn-from-the-people-building-the-jvm-ecosystem/",
-    "pubDate": "Wed, 21 Jan 2026 15:05:55 +0000",
-    "creator": "Anna Rovinskaia",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2413",
+    "pubDate": "Tue, 27 Jan 2026 03:00:00 +0900",
+    "creator": "(RULIWEB`Д')/",
     "categories": [
-      "community",
-      "events",
-      "idea",
-      "java",
-      "kotlin",
-      "livestream",
-      "news",
-      "intellij-idea"
+      "프리뷰"
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "2026년 중소벤처기업부 소상공인 지원사업 변화 총정리 - 창업(소상공인)",
-    "description": "1. 왜 2026년 소상공인 정책이 중요한가  2026년은 소상공인 정책의 패러다임이 근본적으로 전환되는 해입니다.  중소벤처기업부는 더 이상 단순한 생계 유지 목적의 지원이 아닌, 성장 가능성이 있는 '기업가형 소상공인' 육성을 정책의 중심에 두었습니다. 이를 반영해 2026년 소상공인 지원사업은 총 7개 분야, 26개 사업, 약 1조 3,410억 원",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/326",
-    "pubDate": "Wed, 21 Jan 2026 14:43:56 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 10,
+    "id": 14,
     "imageUrl": "",
     "title": "모공, 잡티, 솜털까지 표현! PURE GLOW 앱으로 AI 인물 피부 표현의 리얼리티를 극대화하는 법",
     "description": "혹시 AI로 만든 인물 이미지가 너무 부자연스러워서 실망한 적 있으신가요? 오늘은 플라스틱 같은 피부, 인형 같은 눈동자 등 이른바 ‘AI 티’ 나는 이미지를 피하고, 모공, 잡티, 솜털까지 섬세하게 표현하는 극사실적인 AI 인물 사진을 만드는 방법을 알려드립니다. 혁신적인 PURE GLOW 앱을 통해 조명, 카메라, 피부 질감, 움직임의 4가지 핵심 원칙을 적용하여 실제 사진처럼 보이는 이미지를 만드는 비법을 최신 정보로 공개합니다.\n\n\n✨ AI 인물 이미지, 왜 '진짜' 같지 않을까?\nAI 기술이 급속도로 발전하면서 이미지 생성 능력도 놀라워졌죠. 그런데 인물 사진만큼은 여전히 어딘가 어색하고 부자연스럽다는 느낌을 지울 수 없습니다. 분명히 “사실적인 인물 사진을 생성해줘”라고 요청했는데, 결과물은 플라스틱 같은 피부나 인형 같은 눈동자를 가진 이미지일 때가 많아요. 이를 우리는 흔히 “AI 티”가 난다고 표현하곤 합니다.\n이런 이미지를 SNS 피드나 블로그 포스팅 섬네일에 사용하면 어떤 일이 벌어질까요? 유저들은 한눈에 “아, 이건 그냥 대충 만든 이미지네”라는 인상을 받게 되고, 이는 곧 서비스나 콘텐츠에 대한 신뢰도 하락으로 이어지기 쉽습니다. 저도 이런 경험이 참 많았어요. 완벽한 것 같으면서도 어딘가 부족한, 이른바 ‘불쾌한 골짜기(Uncanny Valley)’ 현상이 바로 그 원인입니다.\n  제미나이와 함께 찾아낸 극사실 이미지의 비밀\n그렇다면 어떻게 해야 AI 티 없이 실제 사진처럼 보이는 극사실적인 인물 이미지를 만들 수 있을까요? 저는 이 질문을 제미나이(Gemini)에게 던져서 핵심 인사이트를 얻었습니다. 그리고 그 인사이트를 바탕으로 'PURE GLOW'라는 AI 인물 이미지 생성 앱을 직접 만들어봤어요. 제미나이의 답변은 정말 체계적이고 구체적이었습니다.\n제미나이는 AI 이미지가 부자연스러운 주된 이유로 너무 매끈한 피부, 완벽한 대칭, 과한 색감 등을 꼽았으며, 이를 해결하기 위한 네 가지 핵심 원칙을 제시했습니다. 바로 구체적인 시간대의 빛 지정, 실제 렌즈 스펙 활용, 피부의 불완전함 구현, 살아있는 움직임 담기입니다. 또한, 앱 개발 시 필요한 조명 설정, 카메라 설정, 피부 질감 옵션, 포즈 라이브러리, 필름 스톡 같은 기능들도 상세하게 제안했죠. 이제 이 인사이트들을 바탕으로 AI 이미지의 10가지 흔한 실수와 고급 테크닉을 자세히 살펴보겠습니다.\n  AI 티를 내는 10가지 흔한 실수와 개선 방안\n먼저, 왜 AI 이미지가 이상해 보이는지부터 정확히 아는 것이 중요합니다. 제미나이가 알려준 10가지 결정적인 실수를 파악하고 피하면, 여러분의 AI 이미지 퀄리티가 확연히 달라질 거예요. 제가 직접 이미지를 생성하며 겪었던 문제점들이기도 합니다.\n너무 매끈한 피부: AI는 기본적으로 완벽한 피부를 만들려 하지만, 실제 사람은 모공, 미세한 잡티, 솜털이 있어야 자연스럽습니다. 피부의 불완전함을 표현하는 디테일이 핵심이에요.\n완벽한 좌우 대칭: 사람의 얼굴은 완벽하게 대칭적이지 않습니다. 한쪽 눈썹이 살짝 높거나 입꼬리가 약간 다른 등 미묘한 비대칭이 오히려 자연스러움을 더하죠.\n비현실적인 눈동자: 너무 크거나 과하게 반짝이는 눈동자는 인형처럼 보입니다. 실제 눈은 주변 환경의 빛을 자연스럽게 반사하는 그 느낌이 중요해요.\n배경이나 간판의 깨진 글자: AI가 생성한 텍스트는 종종 이상하게 깨져 나옵니다. 배경에 간판이나 로고가 있다면, 아예 텍스트를 제외하는 것이 좋습니다.\n머리카락이 한 덩어리로 뭉쳐있음: 플라스틱 가발처럼 보이는 머리카락은 부자연스럽습니다. '바람에 자연스럽게 흩날리는 머리카락'처럼 디테일을 추가해야 합니다.\n배경이 너무 비현실적: 지나치게 깔끔하거나 과도하게 흐려진 배경은 오히려 어색해요. 실제 사진처럼 자연스러운 디테일과 보케(아웃포커싱)가 필요합니다.\nHDR처럼 색감이 과도함: 너무 선명하고 강렬한 색감은 게임 그래픽처럼 보일 수 있습니다. 좀 더 미묘하고 자연스러운 색감이 실제 사진에 가깝습니다.\n디테일이 지나치게 선명함: 모든 부분이 똑같이 선명하면 부자연스럽습니다. 실제 사진은 초점 맞은 부분만 선명하고 나머지는 살짝 흐릿하게 표현됩니다.\n포즈가 너무 과도함: 억지스러운 모델 화보 같은 포즈보다는 자연스러운 일상적 순간을 포착한 느낌이 훨씬 리얼합니다.\n조명이 너무 완벽함: 스튜디오 조명처럼 그림자가 전혀 없고 모든 것이 균일하게 밝으면 인공적으로 보입니다. 실제 환경은 빛과 그림자의 자연스러운 대비가 있어야 합니다.\n이 10가지 실수만 제대로 피해도 AI 이미지의 '티'는 정말 확연히 줄어들 것입니다. 저도 이 점들을 유의하면서 PURE GLOW 앱을 개발하고 사용하고 있습니다. 물론 처음부터 완벽하게 구현하기는 어렵지만, 꾸준히 시도하면 분명 좋은 결과를 얻을 수 있을 거예요.\n\n\n  극사실 표현을 위한 고급 테크닉: PURE GLOW의 핵심 원리\n앞서 언급된 실수들을 피하는 것을 넘어, 한 차원 높은 리얼리티를 구현하기 위한 제미나이의 고급 조언들이 있었습니다. PURE GLOW 앱은 이러한 기법들을 옵션으로 제공하여 사용자가 쉽게 적용할 수 있도록 했습니다.\n1. 필름 룩: 디지털 느낌을 없애고 아날로그 감성 더하기\n디지털 이미지는 때로 너무 선명하고 색감이 강렬해서 인공적으로 보입니다. 반면 실제 필름 카메라로 찍은 사진은 색이 좀 더 부드럽고 미묘하며, 특유의 감성을 담고 있죠. PURE GLOW는 대표적인 필름 스톡을 모방한 필터를 제공하여 이러한 아날로그적인 느낌을 연출할 수 있습니다.\n코닥 포트라 400: 따뜻하고 부드러운 색감으로, 특히 피부 톤을 아름답게 표현하는 데 탁월합니다.\n후지 400H: 살짝 차갑고 청량한 느낌으로, 현대적인 감성을 더할 때 유용합니다.\n코닥 골드 200: 따뜻하고 빈티지한 느낌을 선사하여 아련한 분위기를 연출할 수 있습니다.\n또한, 필름 사진 특유의 미세한 입자감, 즉 그레인(Grain) 효과는 오히려 이미지에 자연스럽고 따뜻한 감성을 불어넣어줍니다. PURE GLOW에서는 이러한 디테일한 옵션까지 조절할 수 있습니다.\n2. 혼합광: 실제 환경의 빛을 재현하라\n실제 실내 환경을 생각해보면, 단 하나의 광원만 있는 경우는 거의 없습니다. 창문으로 들어오는 차가운 자연광, 천장의 따뜻한 램프 조명 등 여러 광원이 섞여있는 것이 현실이죠. PURE GLOW의 '아침 창가광' 같은 조명 설정은 이처럼 복합적인 혼합광 효과를 재현하여 이미지에 극도의 사실감을 부여합니다.\n  팁: 자연스러운 혼합광은 인물의 입체감을 살리고 그림자를 부드럽게 만들어, AI 이미지가 가진 평면적인 느낌을 효과적으로 줄여줍니다.\n3. 재질감: 고급스러움과 현실감의 결정적 요소\n의상 설명을 할 때 단순히 “예쁜 원피스”라고 하는 대신, “실크 소재의 은은하게 빛나는 원피스”처럼 재질을 구체적으로 지정하는 것이 중요합니다. 재질마다 빛을 받았을 때 반사되는 방식이 다르기 때문이에요. 실크는 은은한 광택을, 린넨은 거친 반사를, 캐시미어는 부드러운 빛 흡수를 보여주죠. PURE GLOW 앱에서는 이러한 재질감 옵션을 세밀하게 조절하여 의상과 배경의 현실감을 높일 수 있습니다.\n\n\n  PURE GLOW 앱으로 만드는 '진짜' 같은 AI 인물 이미지\n제가 제미나이의 인사이트를 바탕으로 개발한 PURE GLOW 앱은 위에 언급된 모든 원칙과 고급 테크닉들을 손쉽게 적용할 수 있도록 설계되었습니다. 2026년 현재, 이 앱은 나노 바나나 프로(Nano Banana Pro) API를 활용하여 구체적인 설정값만 입력하면 누구든지 클릭 몇 번으로 극사실적인 AI 인물 이미지를 만들 수 있도록 돕습니다.\n\n\nPURE GLOW의 기본 기능\nPURE GLOW의 기본 설정은 다음과 같이 구성되어 있습니다:\n카테고리\n주요 설정 옵션\n\n\n\n\n외형 설정\n성별, 국적, 나이, 헤어스타일\n\n\n인물 디테일\n표정, 포즈, 의상, 장소\n\n\n사실감 강화\n조명 및 카메라 설정, 피부 질감 (모공, 잡티, 솜털)\n\n\n필터 및 기타\n필름 필터(코닥 포트라 400 등), 랜덤 생성 기능\n\n\n\n예를 들어, 20대 한국 여성에 오버사이즈 화이트 셔츠, 도서관 장소, 은은한 미소와 벽에 기대는 포즈, 아침 창가광 조명, 폰 카메라 후면 장비, 코닥 포트라 400 필름 필터, 그리고 초정밀 모공, 사실적 잡티, 솜털까지 적용한 피부 질감을 선택하면, 실제로 촬영한 것과 같은 높은 퀄리티의 이미지를 얻을 수 있습니다.\nPURE GLOW Pro: AI 인플루언서 기능으로 확장된 활용성\nPURE GLOW 프로 버전은 단순한 이미지 생성을 넘어, 가상 인플루언서의 하루 일과나 특정 이벤트를 AI가 자동으로 생성하고 여기에 광고까지 포함할 수 있는 획기적인 기능을 제공합니다. 이 기능은 특히 소셜 미디어 콘텐츠 제작자나 마케터에게 유용할 것입니다.\n인물 설정을 마친 후 '랜덤 일과'를 클릭하면 시간대별로 다양한 이벤트 목록이 생성되며, 이를 기반으로 레퍼런스 이미지를 등록하거나 바로 이미지를 생성하여 가상 인플루언서의 특별한 하루를 연출할 수 있습니다. 또한, 사용자가 직접 'AI 플래닝 입력 창'에 간단한 하루 일정을 입력하면, AI가 이를 바탕으로 맞춤형 이벤트 목록을 생성해주기도 합니다.\n  주목: 광고 모드에서는 특정 광고 유형을 선택하고 상품 사진과 제품명을 입력하면, 선택한 이벤트와 상품이 자연스럽게 적용된 이미지를 생성할 수 있습니다. 이는 제품 홍보 콘텐츠 제작에 혁신적인 변화를 가져올 거예요.\n생성된 이미지와 함께 인스타그램에 바로 올릴 수 있는 적절한 캡션과 해시태그까지 자동으로 제공되니, 콘텐츠 제작 과정이 훨씬 간편해집니다. 만약 캡션이 마음에 들지 않는다면 '다시 생성' 버튼을 클릭하여 새로운 캡션을 받아볼 수도 있습니다. 제가 직접 해보니 정말 편리하고 아이디어를 얻기에도 좋았습니다.\n \n\n \nPureGlow: AI Influencer Studio\n \npure-glow-basic.vercel.app\n\n \n  핵심 요약: PURE GLOW가 선사하는 AI 이미지의 새 지평\n  핵심 요약\n1. 'AI 티' 제거: PURE GLOW는 매끈한 피부, 완벽 대칭 등 AI 이미지의 흔한 실수를 보완하여 실제 사진 같은 리얼리티를 구현합니다.\n2. 4가지 핵심 원칙: 조명, 카메라, 피부 질감, 움직임의 디테일한 설정으로 극사실적인 인물 표현을 가능하게 합니다.\n3. 고급 테크닉 적용: 필름 룩, 혼합광, 재질감 표현 등 전문적인 사진 기법을 앱 내에서 쉽게 사용할 수 있습니다.\n4. AI 인플루언서 기능: 프로 버전은 가상 인플루언서의 하루를 생성하고 광고 콘텐츠까지 제작할 수 있어 콘텐츠 마케팅에 최적화되어 있습니다.\n이러한 기능들을 통해 PURE GLOW는 단순한 이미지 생성을 넘어, 새로운 형태의 디지털 콘텐츠를 창조하는 강력한 도구가 될 것입니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: PURE GLOW 앱은 어떤 AI 엔진을 사용하나요?\nA1: PURE GLOW 앱은 나노 바나나 프로(Nano Banana Pro) API를 활용하여 이미지를 생성합니다. 이를 통해 사용자들은 고품질의 사실적인 이미지를 얻을 수 있습니다.\nQ2: PURE GLOW로 만든 이미지는 상업적으로 이용해도 되나요?\nA2: 네, 상업적 이용이 가능하지만, AI 인플루언서 기능으로 생성된 이미지는 가상의 인물이라는 점을 명확히 고지해야 합니다. SNS 업로드 시 '#AI생성이미지', '#가상인물'과 같은 해시태그를 반드시 포함해 주세요.\nQ3: PURE GLOW 베이직 버전과 프로 버전의 차이점은 무엇인가요?\nA3: 베이직 버전은 사실적인 인물 이미지 생성의 기본 기능을 제공하며, 프로 버전은 여기에 AI 인플루언서 기능(하루 일과 및 광고 콘텐츠 자동 생성)이 추가되어 더욱 폭넓은 활용이 가능합니다.\nQ4: 이미지 생성 시 텍스트나 로고가 깨져서 나오는 문제가 발생합니다.\nA4: AI 이미지 생성 시 텍스트는 아직 완벽하지 않은 경우가 많습니다. 배경에 간판이나 포스터가 포함될 경우, 프롬프트에 '텍스트, 간판, 로고 제외'와 같은 지시어를 추가하여 텍스트 깨짐 현상을 방지하는 것이 좋습니다.\n마무리하며: AI 이미지의 새로운 기준을 제시하다\n지금까지 PURE GLOW 앱을 활용하여 모공, 잡티, 솜털까지 표현하는 극사실적인 AI 인물 이미지를 만드는 방법을 자세히 살펴보았습니다. AI 기술이 아직 완벽하지 않더라도, 우리가 디테일한 부분에 신경 쓰고 실제 사진의 특성을 이해한다면 충분히 '진짜보다 더 진짜 같은' 결과물을 만들 수 있다는 것을 알게 되셨으리라 생각합니다. 2026년에 들어서면서 AI 이미지 생성 기술은 더욱 빠르게 발전하고 있으며, PURE GLOW와 같은 도구들은 이러한 발전을 한층 더 가속화할 것이라고 믿어요.\n중요한 주의사항을 다시 한번 강조합니다: AI 인플루언서 기능으로 생성된 이미지는 가상의 인물입니다. SNS에 올리거나 포트폴리오에 사용할 때는 반드시 \"#AI생성이미지\", \"#가상인물\"과 같은 해시태그를 달아 실제 사람인 것처럼 오인하게 하거나 악의적으로 사용해서는 절대 안 됩니다. 이는 윤리적인 AI 사용에 있어 매우 중요한 부분이에요.\nPURE GLOW는 베이직 버전과 AI 인플루언서 기능까지 포함된 프로 버전으로 나뉘니, 여러분의 프로젝트나 필요에 맞는 버전을 선택하여 활용해보시길 바랍니다. 이 글이 여러분의 AI 이미지 생성 작업에 큰 도움이 되었기를 진심으로 바랍니다.",
@@ -164,99 +265,22 @@
     ]
   },
   {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Spring Boot Debugging – Now Remote",
-    "description": "We released Spring Debugger in May 2025 to bring more clarity to the “magic” behind Spring Boot – helping you see what’s really happening inside your running application. By the end of 2025, the plugin had reached more than 300,000 unique downloads and became a trusted tool within the developer community. We’ve received a lot […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/01/spring-boot-debugging-now-remote/",
-    "pubDate": "Fri, 23 Jan 2026 16:17:13 +0000",
-    "creator": "Andrey Belyaev",
-    "categories": [
-      "news",
-      "remote-debug",
-      "remote-development",
-      "spring-debugger"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "R&amp;D 합격은 성과지표(KPI)에서 갈린다. - 창업(스타트업)",
-    "description": "1. 왜 R&D 지원사업은 '성과지표'에서 합격이 갈릴까  처음 R&D를 신청하는 스타트업 대표님들이 가장 많이 놓치는 지점은 한 가지입니다. 정부 R&D는 '좋은 기술' 자체보다 예산 투입의 결과를 '증명 가능한 형태'로 설계했는지를 봅니다.  평가위원 입장에서 사업계획서는 결국 아래 질문에 대한 답입니다.  이 과제는 무엇을 만들고(산출물) 어떤 기준으",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/327",
-    "pubDate": "Fri, 23 Jan 2026 03:32:32 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Ktor 3.4.0 Is Now Available!",
-    "description": "Ktor 3.4.0 improves stability and addresses outstanding issues. Highlights include OpenAPI generation, Ztsd support for the compression plugin, duplex streaming for OkHttp, Structured concurrency integrations for the HTTP request lifecycle, and much more. For a detailed list of all the changes, check out the What’s new page. Stability and performance With its focus on stability […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/01/ktor-3-4-0-is-now-available/",
-    "pubDate": "Fri, 23 Jan 2026 14:05:30 +0000",
-    "creator": "Simon Vergauwen",
-    "categories": [
-      "ktor",
-      "news",
-      "releases",
-      "backend",
-      "kotlin",
-      "release",
-      "server-side"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "AI는 거창한 기술이 아니다? 우리가 미처 몰랐던 생활 속 인공지능의 진짜 얼굴",
-    "description": "우리가 모르는 사이에 우리 삶 깊숙이 파고든 인공지능. 챗GPT 같은 거창한 기술만 AI라고 생각하셨나요? 사실은 스마트폰, 스트리밍 서비스, 심지어 우리 집 가전제품까지, 인공지능은 매일매일 우리 곁에서 삶을 더 편리하고 윤택하게 만들고 있답니다. 2026년, 인공지능의 진짜 얼굴을 만나볼까요?\n요즘 인공지능(AI)이라는 단어를 빼놓고 이야기하기는 정말 어려운 것 같아요. 거리를 걷다 보면 AI 관련 광고가 눈에 띄고, 스마트폰을 켜면 AI 기반 앱이 가득하죠. 하지만 많은 분들이 AI를 아직도 영화 속 로봇이나 복잡한 미래 기술로만 생각하시는 경향이 있는 것 같아요. 솔직히 저도 그랬거든요.\n그런데 말이죠, 곰곰이 생각해보면 AI는 이미 우리 일상에 너무나 자연스럽게 스며들어 있습니다. 우리는 의식하지 못하는 사이에 AI의 도움을 받으며 살아가고 있어요. 마치 공기처럼 말이죠. 오늘은 2026년 현재, 우리가 미처 몰랐던 생활 속 인공지능의 진짜 모습을 파헤쳐보고, AI가 어떻게 우리의 삶을 더 쉽고 즐겁게 만드는지 이야기해보려 합니다.\n\n\n  우리 곁에 너무나 당연한 존재, 스마트 비서\n아침에 눈을 뜨자마자 날씨를 묻고, 커피 머신을 켜달라고 말하고, 좋아하는 음악을 틀어달라고 요청하는 경험, 혹시 있으신가요? 바로 스마트 스피커나 스마트폰의 음성 비서를 통해 이루어지는 일이죠. 구글 어시스턴트, 애플 시리, 삼성 빅스비, 아마존 알렉사 등은 이제 우리에게 너무나 익숙한 이름이 되었습니다. 사실 이들이 바로 인공지능의 대표적인 예시라는 것을 아셨나요?\n이 스마트 비서들은 단순히 명령을 수행하는 것을 넘어, 우리의 음성을 인식하고, 질문의 의도를 파악하며, 방대한 데이터를 기반으로 적절한 답변이나 서비스를 제공합니다. 예를 들어, “오늘 저녁 메뉴 추천해 줘”라고 물으면, 우리의 과거 검색 기록이나 즐겨찾는 레시피를 분석해서 개인화된 추천을 해주는 식이죠. 저는 아침마다 알렉사에게 오늘의 뉴스를 요약해달라고 요청하는데, 출근 준비를 하면서 세상 소식을 한 번에 들을 수 있어서 정말 편리해요. 이건 단순한 기술이 아니라, 제 패턴을 학습하고 저에게 맞춰주는 AI의 능력 덕분이라고 생각합니다.\n  2014년 아마존 에코 출시 이후, 스마트 스피커는 놀라운 속도로 우리 일상에 자리 잡았습니다. 이제는 거의 모든 스마트홈 기기와 연동되어 집 안의 허브 역할을 톡톡히 하고 있죠.\n\n\n✍️ 궁금증 해결사부터 창작 도구까지, LLM의 변신\n최근 몇 년간 가장 뜨거웠던 AI 분야를 꼽으라면 단연 대규모 언어 모델(LLM) 기반의 챗봇일 거예요. 챗GPT, 구글 제미니, 마이크로소프트 코파일럿 등 다양한 서비스들이 쏟아져 나오면서 정보 탐색 방식 자체를 바꿔버렸죠.\n옛날에는 어떤 정보가 궁금하면 백과사전을 뒤지거나 도서관에 가서 책을 찾아봐야 했죠. 인터넷 시대가 열리면서 검색 엔진으로 빠르게 정보를 찾을 수 있게 되었지만, 여전히 수많은 검색 결과 중에서 필요한 정보를 선별하는 건 우리의 몫이었어요. 하지만 지금은 어떤가요? 챗봇에게 질문 하나만 던지면, 인터넷의 방대한 정보를 순식간에 요약하고 정리해서 우리에게 필요한 답을 딱! 제시해줍니다. 심지어 복잡한 질문에 대한 여러 가지 관점이나 대안까지도 보여주니, 정말 놀랍지 않나요?\n저는 최근에 인테리어를 고민하면서 챗봇의 도움을 많이 받았어요. 거실에 어떤 색깔의 소파가 어울릴지, 혹은 특정 공간에 어떤 식물을 놓으면 좋을지 막연하게 생각만 하고 있었거든요. 챗봇에게 “우리 집 거실 사진을 보여주며 이 공간에 어울리는 현대적인 소파 디자인을 추천해줘”라고 입력했더니, 몇 초 만에 여러 가지 시안을 이미지로 생성해주더라고요. 또, “이런 스타일의 소파를 파는 믿을 수 있는 국내 가구 업체 3곳을 추천해줘”라고 요청하니, 관련 정보를 요약해서 보여주기도 했습니다. 덕분에 시행착오를 줄이고 시간과 비용을 절약할 수 있었죠. 이런 경험을 해보면 AI가 더 이상 거창한 기술이 아니라, 삶의 질을 높여주는 똑똑한 비서라는 것을 절감하게 됩니다.\n⚠️ 챗봇의 답변은 항상 100% 정확한 것은 아닐 수 있습니다. 중요한 정보를 얻을 때는 교차 검증하는 습관을 들이는 것이 좋습니다.\nLLM이 바꿔놓은 정보 탐색의 패러다임\n항목\n전통적 방식 (인터넷 이전)\n검색 엔진 (인터넷 초기)\nAI 챗봇 (2026년 현재)\n\n\n\n\n정보 획득 방식\n백과사전, 책, 전문가 질문\n키워드 검색, 웹사이트 방문\n자연어 질문, 종합 요약 및 생성\n\n\n정보 선별 시간\n오래 걸림 (수동 작업)\n비교적 빠르나 사용자 노력 필요\n매우 빠름 (AI 자동 선별)\n\n\n개인화 수준\n낮음\n중간 (검색 기록 기반)\n높음 (대화형 맞춤 정보)\n\n\n\n\n\n  넷플릭스만 봐도 알 수 있는 AI의 섬세한 취향 저격\n하루를 마무리하며 편안하게 소파에 앉아 넷플릭스나 유튜브를 시청하는 것만큼 행복한 순간이 있을까요? 그런데 이 스트리밍 서비스들이 끊임없이 우리에게 “OO님이 좋아할 만한 콘텐츠”를 추천해주는 이유가 무엇인지 생각해보셨나요? 네, 맞아요. 여기에도 인공지능이 숨어있습니다.\n스트리밍 서비스의 AI는 우리가 어떤 장르의 영화를 즐겨 보는지, 어떤 배우나 감독에게 관심이 많은지, 시청하는 시간대는 언제인지 등 수많은 데이터를 분석해요. 그리고 이러한 패턴을 기반으로 우리가 좋아할 만한 콘텐츠를 예측하고 추천 리스트를 만들어줍니다. 처음 서비스를 시작할 때 취향을 묻는 질문부터, 우리가 콘텐츠를 시청하는 모든 순간이 AI 학습 데이터가 되는 셈이죠.\n솔직히 예전에는 TV 채널을 이리저리 돌리거나 비디오 가게에서 한참을 서성이다가 아무거나 빌려오는 경우가 많았잖아요. 그러다 재미없는 영화를 보면 시간 낭비라는 생각이 들기도 했고요. 하지만 이제는 AI 덕분에 그런 고민을 할 필요가 없어요. AI가 저의 취향에 딱 맞는 콘텐츠만 쏙쏙 골라주니, 시간을 절약할 수 있을 뿐만 아니라 매번 만족스러운 시청 경험을 할 수 있게 되는 거죠. 서비스 제공자 입장에서는 사용자가 플랫폼에 더 오래 머물고, 재결제할 확률이 높아지니 서로 윈-윈이 되는 효과라고 볼 수 있습니다.\n\n\n  AI, 생각보다 훨씬 더 우리의 삶에 스며들었네요\n스마트 비서, 챗봇, 스트리밍 추천 외에도 AI는 정말 다양한 방식으로 우리의 삶을 풍요롭게 하고 있습니다. 스마트폰 카메라의 얼굴 인식 기능, 은행 앱의 이상 금융 거래 감지, 온라인 쇼핑몰의 맞춤형 상품 추천, 심지어는 차량 내비게이션의 실시간 교통 분석까지, 우리가 인지하지 못하는 사이에도 AI는 조용히, 그러나 강력하게 작동하고 있어요.\n물론, AI 기술의 발전이 항상 장밋빛 미래만을 의미하는 것은 아닙니다. 개인 정보 보호나 데이터 오남용, 딥페이크와 같은 윤리적인 문제들은 우리가 계속해서 논의하고 해결해나가야 할 숙제임은 분명해요. 하지만 이러한 우려에도 불구하고, AI가 우리 삶을 더 편리하고 효율적으로 만드는 긍정적인 측면이 훨씬 더 많다는 것을 부정하기는 어렵습니다.\n솔직히 처음에는 저도 AI가 너무 어렵고, '거대한 기술'이라고만 생각했어요. 하지만 이렇게 매일매일 사용하는 기술들을 되짚어보니, AI는 우리의 삶을 '더 쉽게' 만들어주는 '친근한 도구'라는 사실을 깨달았습니다. 미래의 AI는 또 어떤 모습으로 우리를 놀라게 할지, 정말 기대되지 않나요?\n  핵심 요약\n✅ AI는 스마트 비서처럼 이미 우리 일상에 깊이 스며들어 있습니다.\n✅ 챗봇은 정보 탐색을 넘어 창의적인 아이디어와 시각적 자료까지 제공합니다.\n✅ 스트리밍 서비스 추천은 AI가 우리의 취향을 섬세하게 분석한 결과입니다.\n✅ AI는 우리 삶을 더 편리하고 효율적으로 만드는 '친근한 도구'입니다.\nAI는 우리의 생각보다 훨씬 가까이에 있습니다. 조금만 관심을 가지면 AI의 놀라운 잠재력을 더욱 효과적으로 활용할 수 있을 거예요.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 제가 매일 사용하는 것 중에 AI가 적용된 예시가 또 있을까요?\nA1: 네, 아주 많습니다! 스마트폰의 얼굴 인식 잠금 해제, 지도 앱의 최적 경로 안내, 온라인 쇼핑몰의 개인 맞춤 광고, 은행 앱의 사기 거래 탐지, 심지어는 이메일 스팸 필터링까지 모두 AI 기술이 적용된 예시입니다. 이처럼 AI는 우리 삶의 거의 모든 디지털 접점에서 활동하고 있어요.\nQ2: AI가 이렇게 일상에 스며들면 혹시 개인 정보는 안전한가요?\nA2: 개인 정보 보호는 AI 시대의 중요한 과제 중 하나입니다. 대부분의 AI 서비스 제공 기업들은 암호화, 익명화 등의 기술로 데이터를 보호하고 있지만, 사용자 스스로도 불필요한 정보 제공을 줄이고, 서비스 약관을 꼼꼼히 확인하는 습관을 들이는 것이 중요합니다. 정부와 기업들도 AI 윤리 및 개인 정보 보호를 위한 법규와 가이드라인을 강화하고 있습니다.\nQ3: 미래에는 AI가 어디까지 발전할 것이라고 예상하나요?\nA3: 2026년 현재를 기준으로 볼 때, AI는 더욱 개인화되고 맞춤화된 서비스로 발전할 것으로 예상됩니다. 예를 들어, 개인의 건강 데이터를 분석하여 맞춤형 식단이나 운동 프로그램을 제안하고, 교육 분야에서는 개개인의 학습 속도에 맞는 맞춤형 학습 콘텐츠를 제공하는 등 더욱 밀접하게 우리 삶의 질을 향상시키는 방향으로 진화할 것입니다. 또한, 자율주행, 로봇 공학 등 다양한 산업 분야에서 혁신을 가속화할 것으로 보입니다.\n\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"제가 매일 사용하는 것 중에 AI가 적용된 예시가 또 있을까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"네, 아주 많습니다! 스마트폰의 얼굴 인식 잠금 해제, 지도 앱의 최적 경로 안내, 온라인 쇼핑몰의 개인 맞춤 광고, 은행 앱의 사기 거래 탐지, 심지어는 이메일 스팸 필터링까지 모두 AI 기술이 적용된 예시입니다. 이처럼 AI는 우리 삶의 거의 모든 디지털 접점에서 활동하고 있어요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"AI가 이렇게 일상에 스며들면 혹시 개인 정보는 안전한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"개인 정보 보호는 AI 시대의 중요한 과제 중 하나입니다. 대부분의 AI 서비스 제공 기업들은 암호화, 익명화 등의 기술로 데이터를 보호하고 있지만, 사용자 스스로도 불필요한 정보 제공을 줄이고, 서비스 약관을 꼼꼼히 확인하는 습관을 들이는 것이 중요합니다. 정부와 기업들도 AI 윤리 및 개인 정보 보호를 위한 법규와 가이드라인을 강화하고 있습니다.\"\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"미래에는 AI가 어디까지 발전할 것이라고 예상하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"2026년 현재를 기준으로 볼 때, AI는 더욱 개인화되고 맞춤화된 서비스로 발전할 것으로 예상됩니다. 예를 들어, 개인의 건강 데이터를 분석하여 맞춤형 식단이나 운동 프로그램을 제안하고, 교육 분야에서는 개개인의 학습 속도에 맞는 맞춤형 학습 콘텐츠를 제공하는 등 더욱 밀접하게 우리 삶의 질을 향상시키는 방향으로 진화할 것입니다. 또한, 자율주행, 로봇 공학 등 다양한 산업 분야에서 혁신을 가속화할 것으로 보입니다.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483702",
-    "pubDate": "Wed, 21 Jan 2026 12:22:39 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "AI 기술 활용",
-      "AI 윤리",
-      "LLM",
-      "개인화 ai",
-      "생활 속 ai",
-      "스마트 비서",
-      "스트리밍 추천",
-      "인공지능",
-      "일상의 편리함",
-      "챗봇"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "LargeSystemCache 설정에 대한 오해",
-    "description": "윈도11 최적화 팁 중에 LargeSystemCache와 DisablePagingExecutive가 있는데, 이건 옛날에나 쓰던 방식이고, SSD를 사용하는 최근 2010년 이후의 시스템에는 오히려 문제가 되기 때문에 쓰면 안되는 설정이다. 하지만 여러 곳에서 잘못된 정보가 유통되기에 이 글을 쓰게 되었다. 실제로 주변인이 이걸 설정해서 PC와 랩탑이 이상 작동하는 문제가 있었고, 고쳐준 다음에 쓴 글이다.\n \n1. 역사적 배경 (알아둬도 큰 쓸모는 없지만...)\nLargeSystemCache와 DisablePagingExecutive 설정은 과거 HDD라고 불리는 하드 디스크를 장착한 십수년전 시스템에서 사용되던 설정으로서, 커널이라고 불리는 시스템 코어 부분이 사용하는 메모리 영역을 큰 값으로 확보해서 시스템 영역을 메모리에 상주시키는 효과가 있었다. 그렇다면 왜 시스템 영역을 메모리에 상주되는 기능이 있는지 살펴봐야 한다. 이를 위해 우린 스왑 영역에 대해서 조금 알아둬야만한다.\n우선 램은 프로그램이 실행되기 위에서 디스크에 있는 정보를 읽어서 올려두는 주 메모리 공간(main memory)이다. 모든 프로그램은 램을 사용한다는 사실부터 기억해두자.\n2000년대 중반만 하더라도 인터넷 열풍으로 PC 시장이 빠르게 성장했는데, 그에 비해 메모리(RAM) 용량은 발전이 더뎌서 1GB정도 밖에 안되는 경우가 많았다. 2026년 기준으로 보면 PC의 램 최소사양이 8~16GB이고, 게임을 하는 사람은 보통 32GB를 쓰는 것에 비하면 1GB는 엄청 작은 값이었다. 따라서 Windows에서는 여러 프로그램을 원활하게 실행하기 위해 최대한 램을 아껴써야만 했다. 이를 위해 스왑 영역을 사용하는 기법이 도입되었는데, 이는 OS(운영체제)론을 배운 학생이라면 다 알것이다. 혹시나 모르는 사람을 위해 설명하자면, 운영체제가 메모리 부족을 해결하기 위해 디스크의 특정 영역에 메모리 공간의 일부를 이동(copy and remove)시켰다가 나중에 필요할때 다시 메모리로 가져오는 기법이다. 이렇게 하면 RAM이 1GB여도 2GB인 것처럼 뻥튀기를 할 수 있었다. 운영체제론에서는 이때 사용되는 디스크 공간을 스왑공간(swap space)이라고 부르는데, 윈도에서는 페이지 파일(pagefile) 이라고 다르게 부르며 실제 위치는 C:\\pagefile.sys 에 만들어지는 경우가 많다.[1]\n참고로 메모리의 영역을 pagefile로 이동시키는 과정을 스왑 아웃(swap out)이라고 부르고, 반대로 pagefile에서 RAM으로 이동하는 과정을 스왑 인(swap in)이라고 부른다. 아래 그림을 보면 이해가 쉬울 것이다.\nWindows, Swap Out, Swap In (Gemini 생성)\n\n\n그런데 스왑 아웃이나 스왑 인에는 심각한 문제가 있다. 그건 바로 딜레이가 발생한다는 점이다. 어떤 프로그램을 수행하려고 하는데, 필요한 램 공간이 500MB정도 부족하다고 가정하자. 그럼 운영체제는 최소 500MB 이상의 메모리를 확보하기 위해 메모리 일부분을 디스크로 복사하는 과정, 즉 swap out이 발생한다. 문제는 500MB이상의 데이터를 디스크로 복사하는 과정에서 심각한 딜레이가 발생한다는 점이다(당시 하드 디스크의 속도는 대체로 초당 50~100MB수준 이었다). 따라서 500MB이상의 메모리를 swap out하려면 최소 6~10초 정도는 딜레이가 생길 것이다. 그런데 프로그램 실행시 이 정도 딜레이가 발생하면 악영향을 줄 것이다. 그렇다면 딜레이를 줄이기 위해 어떤 방법이 있을까? 그건 바로 미리미리 복사하던지, 아니면 메모리를 비워서 빈 메모리 공간을 만들어두는 것이다.\n그런데 이렇게 미리 공간을 확보하는 것이 효과가 좋은 원인을 생각해보면 HDD(하드 디스크)의 복사 속도가 매우 느렸기 때문에 발생하는 딜레이였다. 그리고 공간을 확보하기 위해 디스크를 자주 쓰거나 읽게되면 디스크로부터 데이터를 주로 많이 읽어들이는 데이터베이스나 서버들은 악영향이 생긴다. 그래서 메모리를 미리 확보하는 기법은 반대로 커널의 응답속도가 떨어뜨리는 문제가 생긴다. 그래서 주변 장치를 많이 사용하거나 혹은 커널이 대용량 데이터를 처리하는 경우에 반대로 커널(시스템) 영역이 디스크로 swap out되지 않도록 하는 기능이 필요해진 것이었다. 이를 돕는 기능이 바로 LargeSystemCache, DisablePagingExecutive 라 부르는 것이었다. 두가지 기능에 대해서는 아래에 표로 정리해두었다.\n LargeSystemCache \n대용량 캐시를 사용하도록 하여, 커널이 파일을 읽거나 메모리 영역을 사용 할 때 캐싱을 최대한 하도록 하는 기법이다. 즉 빈 공간을 남기지 말고 최대한 파일을 위한 캐시로 쓰게 한다. 윈도 서버에서 데이터베이스나 네트워크 서비스를 사용할 때 반응 속도를 올리는데 도움이 되던 설정이다. 게임이나 문서 작업을 하는 일반인들에게는 필요가 없는 설정이다.[2]\n\n\n DisablePagingExecutive  \n커널이 사용하는 영역의 메모리나 디바이스 메모리를 swap out을 하지 않고 메인 메모리에 유지하도록 하는 것이다. 위와 마찬가지로 윈도 시스템의 반응 속도를 올려주는 장점이 있었다. 혹은 디바이스 장치를 개발하는 경우에 주로 사용한다. [3]\n\n\n\n \n이들은 위에 정리한대로 메인 메모리(RAM)를 소모해서 윈도 시스템 자체의 서비스와 장치들의 반응 속도를 올리는게 핵심 목적이므로 주소 Windows Server에서 사용되는 기능이었다. 물론 개인용 PC에서 사용하던 Windows 7 (2009년)이나 Windows 8 (2012년)에는 4GB이상의 메모리를 가지고 있고, HDD 디스크를 사용하던 경우에는 이 설정이 효과가 있는 경우가 많았었다. 문제는 2010년대 중반에는 SSD가 대거 보급되었고, 8GB이상의 대용량 메모리를 가진 시스템이 늘어나면서 해당 설정이 무의미해졌다는 점이다. 지금 대부분의 시스템들은 보통 16GB이상의 메모리를 가지고 있고, 고성능의 SSD를 가지고 있기에 전혀 쓸 이유가 없는 기능이다.\n호랑이 담배 피우던 시절에 쓰는 PC설정 (Gemini 생성)\n\n\n그럼에도 불구하고 이 설정을 하면 빨라진다는 호랑이 담배피던 시절 괴담이 늘어나고 있는데, Win10이나 Win11에서  LargeSystemCache나 DisablePagingExecutive 를 설정해봐야 효과도 없고, 도리어 시스템을 불안정하게 만드는 경우도 많다. 특히 랩탑(노트북)은 이 설정을 켜면 절전모드에서 깨어날때 문제가 생기거나 몇몇 블루투스나 와이파이 장치들이 문제를 일으키기도 한다. PC 데스크탑에서는 랩탑보다는 안정적이지만 간혹 USB 장치나 PCIe 장치가 문제를 일으킬 수도 있다. 따라서 현재는 쓰면 안되는 기능이다. 그러면 이 기능을 어떻게 켜고 끄는지 살펴보자.\n \n2. LargeSystemCache, DisablePagingExecutive  끄기\n혹시라도 이 설정을 켠 사람들은 아래 방법으로 끄면 된다. 먼저 regedit를 실행해서 레지스트리 편집을 시행한다.\nLargeSystemCache와 DisablePagingExecutive 설정\n\n\n여기서 HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management 설정으로 이동하면 LargeSystemCache나 DisablePagingExecutive 설정이 보일 것이다. 이 값들은 on하는 것이 1이고, off하는 것이 0이다. 당연히 default값은 off인 0이다. 이 2가지 설정 값이 1이라면 0으로 수정하면 된다.\n \n혹시 이 값을 설정한 뒤에 페이징 파일(pagefile)을 0바이트로 설정했다면 원상복구하는 것을 추천한다. 원복을 위해서는 다음과 같이 sysdm.cpl 프로그램에 설정하는 것이 편하다. 먼저 Win + R 키를 누르면 나타나는 좌측 하단 입력창에 sysdm.cpl 을 타이핑해서 실행한다. 그리고 \"고급\" 탭에 \"성능\" 설정을 눌러서 \"성능 옵션\" 창을 띄운다. 여기서 다시 \"고급\" 탭으로 이동해서 \"가상 메모리\"의 변경 버튼을 누르면 아래 그림처럼 가상 메모리 설정을 볼 수 있다. 가상메모리 설정을 \"시스템이 관리하는 크기\"로 설정하면 원상복구가 된다. 간혹 가상메모리 크기를 고정값으로 \"사용자 지정 크기\" 로 16GB로 해두는게 좋다는 글도 있는데, 다 십수년전 옛날 설정 이야기다. 2026년 기준으로 보면 쓸데없는 설정이다.\nsysdm.cpl의 성능옵션, 가상 메모리 설정\n\n\n윈도10이나 윈도11은 옛날처럼 최적화 하는 기법이 대부분 작동하지 않는다. 오히려 요새 최적화 기법은 발열이 심각한 몇몇 랩탑의 CPU나 올인원 PC들의 CPU 성능을 80% 정도로 낮추는 기능이 유용하고, 알림을 꺼서 최적화 하는 정도만 제대로 쓸모가 있다. 그 외에는 그냥 디폴트 값을 쓰는게 좋다. 괜히 만져서 더 느려지거나 문제가 생길 수 있으니 주의하도록 하자.\n그러나 굳이 꼭 쓰고 싶다면 위에 레지스트리를 고쳐서 LargeSystemCache 정도만 쓰는 것을 추천한다. 간혹 엄청난 문서 파일들을 작업하거나 동영상 같은 것을 편집하는 경우에는 아주 조금 유용할 수는 있을 듯 하다.\n \n레퍼런스\n[1] 페이징 파일 소개, Microsoft Learn, https://learn.microsoft.com/ko-kr/troubleshoot/windows-client/performance/introduction-to-the-page-file?source=recommendations\n[2] LargeSystemCache에 대한 설명, https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc784562(v=ws.10)\n[3] DisablePagingExecutive 에 대한 설명, https://learn.microsoft.com/en-us/windows-hardware/test/wpt/wpr-command-line-options\n \n \n히스토리\n2026.01.23 문서를 처음으로 작성",
+    "title": "기다리기",
+    "description": "샤워를 할 때 수온 조절이 바로 되지 않을 때가 있다.\n온수 쪽으로 손잡이를 돌렸는데 따뜻한 물이 나오지 않으면, 조급해져서 곧바로 반대쪽으로 돌리게 된다.\n그렇게 이리저리 돌리다 보면 정작 어느 방향이 온수인지 알 수 없게 된다.\n한쪽으로 돌려놓고 조금만 기다리면 될 일인데.\n식사할 때도 비슷한 일이 벌어진다.\n밥을 먹는 중에는 배부름이 잘 느껴지지 않는다.\n그러다 잠깐 자리에서 일어나 물을 가져오거나, 다른 일을 하다가 돌아오면 갑자기 배가 부른 것을 느끼게 된다.\n식사와 포만감 사이에는 시간 지연이 있기 때문이다.\n이 지연을 모르면 이미 충분히 먹었는데도 계속 먹게 되고, 결국 과식하게 된다.\n우리는 일상에서 이런 '지연'을 자주 경험한다.\n그리고 대부분의 경우, 그것이 지연이라는 것도 알고 있다.\n그런데 조직에서는 이 지연을 쉽게 잊는다.\n팀에 리소스가 부족해서 사람을 채용했다고 하자.\n하지만 그 사람이 지금 당장 팀의 부족함을 채워주진 못한다.\n조직에 적응하고, 업무 맥락을 익히고, 실제로 역량을 발휘하기까지는 최소 3~6개월의 시간이 필요하다.\n그 사이에도 팀은 여전히 리소스가 부족하다고 느낀다.\n마치 샤워할 때 온수 손잡이를 돌렸는데 따뜻한 물이 나오지 않는 것처럼.\n그래서 더 채용한다.\n또 채용한다.\n그러다 어느 순간, 채용한 사람들이 모두 적응을 마치고 본격적으로 역량을 발휘하기 시작한다.\n그때서야 \"왜 이렇게 사람이 많지?\"라는 생각이 든다.\n밥 먹을 때는 배부르지 않았는데, 일어나서 돌아오니 배가 터질 것 같은 것처럼.\n새로운 기능을 출시했는데 첫 1~2주간 반응이 좋지 않다고 하자.\n실패한 걸까?\n아직 알 수 없다.\n고객이 새로운 기능을 인지하고, 학습하고, 습관처럼 사용하기까지는 생각보다 긴 시간이 필요하다.\n샤워 손잡이를 돌리고 따뜻한 물이 나올 때까지 기다려야 하는 것처럼.\n반대로 출시 직후 반응이 폭발적이었다고 해서 그것이 진짜 성공인지도 모른다.\n초기의 호기심에 의한 사용인지, 이전에 쌓아둔 기능들이 이제서야 효과를 내기 시작한 것인지, 정말 고객의 문제를 해결해주는 제품인지는 시간이 지나고 사용량이 유지되는지를 봐야만 알 수 있다.\n관계도 마찬가지다.\n동료에게 무례한 말을 했을 때, 그 여파가 바로 나타나지는 않는다.\n한두 번의 실수는 괜찮아 보인다.\n상대방도 웃어넘기고, 분위기도 별로 나빠지지 않는다.\n하지만 그것이 쌓이면 어느 순간 관계가 무너진다.\n밥 먹을 때는 배부르지 않았는데, 일어서니 배가 터질 것 같은 것처럼.\n그때는 이미 늦다.\n행동과 결과 사이에는 항상 어느 정도의 지연이 있다.\n지금 느끼는 불안이나 조급함을 해소하려고 같은 행동을 계속 반복하면, 나중에 그 행동들이 한꺼번에 쏟아져 새로운 문제가 된다.\n샤워할 때는 손잡이를 돌려놓고 잠시 기다릴 줄 안다.\n식사할 때는 천천히 먹으면 과식을 피할 수 있다는 것도 안다.\n조직에서도 그렇게 해보자.\n채용을 했다면, 그 사람이 자리 잡을 시간을 주자.\n기능을 출시했다면, 고객이 적응할 시간을 주자.\n관계에서 실수를 했다면, 지금 당장 괜찮아 보여도 되돌아보자.\n행동을 했다면, 조금은 기다려보자.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://sunyzero.tistory.com/324",
-    "pubDate": "Fri, 23 Jan 2026 19:52:55 +0900",
-    "creator": "sunyzero",
+    "link": "https://jojoldu.tistory.com/858",
+    "pubDate": "Sat, 24 Jan 2026 22:20:49 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "컴퓨터 관련/윈도 패밀리",
-      "DisablePagingExecutive",
-      "LargeSystemCache",
-      "regedit",
-      "sysdm.cpl",
-      "Windows",
-      "windows11",
-      "운영체제",
-      "윈도 페이징 파일 설정",
-      "최적화"
+      "생각정리",
+      "리더십",
+      "스타트업",
+      "조직 생활",
+      "채용",
+      "학습하는 조직"
     ]
   }
 ]
