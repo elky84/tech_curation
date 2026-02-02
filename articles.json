@@ -2,156 +2,23 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "The AI Evolution of Graph Search at Netflix",
-    "description": "No description available",
+    "title": "GitHub Copilot app modernization for C++ is now in Public Preview",
+    "description": "With the launch of Visual Studio 2026, we announced a Private Preview of GitHub Copilot app modernization for C++, which reduces the cost of adopting the latest version of the MSVC Build Tools. We used the feedback we received from our many Private Preview participants to make improvements that benefit all our users. After receiving […]\nThe post GitHub Copilot app modernization for C++ is now in Public Preview appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/the-ai-evolution-of-graph-search-at-netflix-d416ec5b1151?source=rss----2615bd06b42e---4",
-    "pubDate": "Mon, 26 Jan 2026 19:01:27 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://devblogs.microsoft.com/cppblog/github-copilot-app-modernization-cpp-public-preview/",
+    "pubDate": "Tue, 27 Jan 2026 22:31:57 +0000",
+    "creator": "Michael Price",
     "categories": [
-      "search-engines",
-      "graphql",
-      "software-engineering",
-      "ai",
-      "llm"
+      "Announcement",
+      "C++",
+      "Copilot",
+      "VC++ Migration Documentation",
+      "Visual Studio"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "Game Dev in 2025: Excerpts From the State of Game Development Report",
-    "description": "As we approach the midpoint of the decade, game developers face an evolving landscape shaped by shifting job security, technology choices, platform strategies, and practical AI adoption. Our State of Game Development 2025 report reveals critical insights that provide a clearer picture of where the industry is heading. Layoffs and job security concerns The game […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/01/29/game-dev-in-2025-excerpts-from-the-state-of-game-development-report/",
-    "pubDate": "Thu, 29 Jan 2026 10:00:00 +0000",
-    "creator": "Anna Ruban",
-    "categories": [
-      "net-tools",
-      "ai",
-      "research",
-      "teamcity-2",
-      "game-development",
-      "gamedev",
-      "report",
-      "rider"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "토스페이 결제 혜택 총정리 2026년 2월",
-    "description": "애플 앱스토어, 아고다, 컬리, 오늘의집, 지그재그, 올리브영까지 할인·적립 쿠폰 확인하기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosspay-promotion",
-    "pubDate": "Sat, 31 Jan 2026 15:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "ReSharper and Rider 2025.3.2 Updates Out Now!",
-    "description": "We’ve just released another update for ReSharper, Rider and the .NET tools version 2025.3. You can update to this version from inside those tools, using the Toolbox app or our website.  Let’s take a look at the latest updates.  Rider 2025.3.2 Agent Client Protocol (ACP) agent registry support You can now browse and install ACP-compatible […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/01/29/resharper-and-rider-2025-3-2/",
-    "pubDate": "Thu, 29 Jan 2026 15:44:43 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "releases",
-      "resharper",
-      "rider"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "일관성 있는 Agentic AI Workflow를 팀 프로젝트에 적용하는 법 #2",
-    "description": "전편에서 제안한 원칙들을 어떻게 팀 프로젝트에 적용하는지에 대해 Claude Code Plugin / Skills / Hooks를 이용하여 구체적인 예시를 살펴본다. 케이스: LLM의 작업 진행사항을 이슈 트래커와 동기화하기 언젠가 AI의 개발 산출물이 인간의 수준을 아득히 뛰어넘는 날이 오면 더 이상 작업 이력을 추적할 필요가 없어지는 시점이 올지도 모른다.하지만 인간지능과 인공지능이 공동의 산출물을 함께 작업하는 현시점에서는 기존의 방식대로 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://01010011.blog/2026/01/30/how-to-build-a-consistent-agentic-ai-workflow-for-team-projects-2/",
-    "pubDate": "Fri, 30 Jan 2026 01:07:34 +0000",
-    "creator": "bahamoth",
-    "categories": [
-      "programming"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Spring Data JDBC Made Easy with IntelliJ IDEA",
-    "description": "IntelliJ IDEA is well-known for its Spring Framework support. The IDE helps with bean navigation, on-the-go bean injection, Spring Data methods completion, and assistance with generating HTTP requests for controllers. One of the areas that IDEA is good at is dealing with JPA. You, as a developer, can: Before IntelliJ IDEA 2025.3, dealing with Spring […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/",
-    "pubDate": "Wed, 28 Jan 2026 09:59:06 +0000",
-    "creator": "Andrey Belyaev",
-    "categories": [
-      "idea",
-      "java",
-      "jpa",
-      "spring-boot",
-      "spring-data",
-      "spring-data-jdbc",
-      "spring-data-jpa"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "The Jenkins Migration Planning Kit",
-    "description": "This article was brought to you by Cameron Pavey, draft.dev. Jenkins has served the development community well for over a decade, but it was designed for a different era of software development. Developers who are tired of fighting with plugin compatibility issues, slow builds, and brittle configurations are exploring alternatives. But is your organization ready […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/01/jenkins-migration-planning-kit/",
-    "pubDate": "Mon, 26 Jan 2026 18:25:53 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "best-practices",
-      "teamcity-2",
-      "devopspains",
-      "jenkins"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Add Force 1 V40 / 레이저 테마로 변경 / 실패 후 다시 개발",
-    "description": "이전 버전은 실패했습니다.\n2025년 최초로 만든 1인개발 게임이라 잘못 만들어서 이어나가길 포기하고\n2026 년에 새로 제작하였습니다.\n \n아무 코드 베이스 없이 막 코딩으로 짜서 고치기가 어려운 상황이 발생했습니다.\n고상하게 짜려다 고치기 복잡해졌고 읽기도 어렵게 되었습니다.\n다 날리고 새로 작성하였습니다.\n \n타이틀 화면\n\n\n타이틀 화면이구요 플레이 데모 환경에서 발사해볼 수 있습니다.\n(잘못 만들어서 발사가 됩니다.)\n탄환 발사는 멋이 없어서 레이저 테마로 바꿨습니다.\n \n스킬 구현\n\n\n스킬은 3종류 밖에 없습니다.\n샛다 찍어봐도 10% 정도밖에 효과가 없기 때문에 큰효과를 보기 힘듭니다.\n궁색만 갖춰둔 상황입니다.\n \n \nv40 영상\nhttps://www.youtube.com/watch?v=B8jAjZ56qn4\n\n\n\n \n \n \n \n장대한 목표\n스테이지를 많이 늘려서 광고 수익을 많이 막을 생각입니다.\n성공 실패는 모르겠고 완성이나 해봅시다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1567",
-    "pubDate": "Fri, 30 Jan 2026 17:48:12 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "AddForce1"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "IntelliJ Scala Plugin in 2025",
-    "description": "In December 2024, we published a year-in-review summary of our work on the Scala Plugin. By that time the following year, we were busy releasing IntelliJ IDEA and the Scala Plugin 2025.3, as well as preparing for the upcoming Scala 3.8 release. This was followed by a long holiday break. But as they say, not […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/scala/2026/01/27/intellij-scala-plugin-in-2025/",
-    "pubDate": "Tue, 27 Jan 2026 16:32:55 +0000",
-    "creator": "Maciej Gorywoda",
-    "categories": [
-      "scala",
-      "scala-programming",
-      "2025",
-      "intellij-idea"
-    ]
-  },
-  {
-    "id": 10,
     "imageUrl": "",
     "title": "유니티 애셋 / 2026년 퀵 스타트 번들  $2 짜리 이거는 사야합니다.",
     "description": "오건 썸네일 쓸 그림\n \n\n\n매년 하나보군요 작년엔 이걸로 SPUM 을 샀었는데 이번에도 좋은게 많쿤요\n딱 일주일\n\n\n둘러봅시다.\n \n첫줄\n\n\n발자국 소리 필요했습니다.\n \n \n두번째 줄\n\n\nLow-Ploy Medieval Fantasy Heroes - Basick Pack 은 3D 케릭터이고\n\n\n\n눈 수염 머리 같은걸 교체할 수 있더군요\n단순해서 호불호가 안생길 디자인 입니다.\n \n과일 마켓\n\n\n맛있게 생겼네요 수박게임 만들고 싶군요\nKayKit  어드벤처 케릭터\n\n\n귀여운 SD 스타일 입니다. 멋지군요\n \n \n세번째 줄\n\n\n스팰은 발사체 이팩트 입니다.\n날씨는 구름 보여주는군요\n공격 애니메이션은 ... 잘모르겠습니다.\n \n마지막줄\n\n\n카이킷 !!\n\n\n바닥 판 같은걸 주는군요 쓸일 있으려나 ...\n \n \n지난번에 무료로 정글 나무 준거 생각나네요\n\n\n나무 위가 평평했었던 애셋인데 쓸일은 없었습니다.\n \n$2 에 이정도 주다니 놀랍습니다.\n이런건 꼭사야합니다.",
@@ -168,82 +35,211 @@
     ]
   },
   {
-    "id": 11,
+    "id": 3,
     "imageUrl": "",
-    "title": "Qodana for Android: Increasing Code Quality for Kotlin-First Teams",
-    "description": "When people think about tooling for Android development, the conversation often gravitates towards platform-specific concerns: UI performance, layout validation, device compatibility, or resource management. Yet for many Android teams, the most persistent challenges don’t sit at the platform level – they’re in the team’s Kotlin codebase itself. As Android projects scale, Kotlin brings strong language […]",
+    "title": "Visual Studio Code CMake Tools 1.22: Target bookmarks and better CTest output",
+    "description": "We’re excited to announce the latest 1.22 release of the CMake Tools extension for Visual Studio Code. This update brings a host of new additions, including project outline updates for filtering and bookmarking CMake targets in large CMake projects and expanded CTest support to customize this output. To view the full list of updates with […]\nThe post Visual Studio Code CMake Tools 1.22: Target bookmarks and better CTest output appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/01/qodana-for-android-kotlin/",
-    "pubDate": "Sat, 31 Jan 2026 18:54:39 +0000",
-    "creator": "Kerry Beetge",
+    "link": "https://devblogs.microsoft.com/cppblog/visual-studio-code-cmake-tools-1-22-target-bookmarks-and-better-ctest-output/",
+    "pubDate": "Tue, 27 Jan 2026 16:36:46 +0000",
+    "creator": "Sinem Akinci",
     "categories": [
-      "android",
-      "app-development",
-      "kotlin",
-      "qodana"
+      "C++",
+      "CMake",
+      "Visual Studio Code"
     ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "유니티 웹 - Unity Play 에서 웹소켓 써보자",
+    "description": "Unity Play 장점\n유니티 플레이에서 웹 소켓을 사용할 수 있으면 트레픽 비용을 안내도 되서\n크기가 큰 게임도 부담없이 만들 수 있습니다.\n \n되다 안되니\nUnity Instance 를 과거에는 제공해줬으나 이젠 안줍니다.\nUnity Instance  가 없으면  SendMessage 를 할 수 없습니다.\n \n해결 방법\n부분적으론 해결되었지만 아직 완료하진 못했습니다. 안될 수도 있으니 참고만하세요\n \n1. 유니티에서 자바스크립트로는 호출이 가능하다. jslib 파일 사용\n2. 유니티에서 함수를 자바스크립트로 전송할 수 있다.\n3. 자바스크립트에서 유니티 함수를 받아 호출할 수 있다. (콜백가능)\n4. 자바스크립트에서 버퍼를 만들고 유니티로 주소를 보낼 수 있다. (IntPtr 타입)\n5. 버퍼를 만들고 해제하지 않으면 메모리 누수가 된다. 해제는 자바스크립트에서 만들었기 때문에 자바스크립트에서 해야한다.\n6. 추천하는 방법은 한번에 큰 버버를 만들고 끝날때 까지 지우지 말고 재사용하라는군요\n7. 버퍼에 글씨를 쓰면 유니티에서 언제든지 읽을 수 있다.\n \n이 과정들을 차례대로 확인해서 동작한다는 것을 알았습니다.\n특히 3번 이 가능합니다.\n \n처음에 RemoveCall 이라는걸 알려주던데 이건 옛날 방식이고 현재는 \nwasmTable.get 으로 바꼈다고 합니다.\nex) wasmTable.get(t함수주소)(인자값);\n \n추가로 알아낸 편리한 팁\njslib 에 전역변수가 없는데 this 라는건 쓸 수 있습니다.\nthis 는 웹브라우저의 window 를 의미하는거 같습니다.\nwindow 있으면 뭐든지 호출 할 수있죠\n \n지금은 ...\n아직 결과물은 나오지 못했고\n재료는 갖추었습니다.\n이제 시간있으면 구현해보겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1568",
+    "pubDate": "Sat, 31 Jan 2026 13:29:25 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "영상 편집 1도 몰라도 OK! 웹 브라우저만으로 나만의 감성 유튜브 채널 만들기 (2026 최신)",
+    "description": "영상 편집 프로그램 하나 없어도 문제없어요! 이제는 웹 브라우저만으로도 감성 가득한 로파이 유튜브 채널을 만들 수 있는 시대입니다. AI와 무료 웹 앱을 활용해 단 수십 분 만에 프로급 영상을 제작하는 모든 과정을 지피티팍이 쉽고 자세하게 알려드립니다. 초보자도 바로 시작할 수 있는 감성 채널, 지금 바로 만들어보세요!\n여러분, 혹시 유튜브를 보다가 창가에서 비를 맞으며 공부하는 여학생과 함께 흘러나오는 차분한 로파이 음악 채널을 접해보신 적 있으신가요? 전 세계 수백만 명이 공부할 때나 일할 때, 또는 휴식할 때 틀어놓는 이른바 '로파이 걸' 스타일의 24시간 음악 채널 말이에요. 그런 영상을 보면서 '나도 저런 감성적인 음악 채널을 만들어보고 싶다'는 생각, 한 번쯤 해보셨을 겁니다.\n\n\n하지만 막상 시작하려고 하면 막막하게 느껴지는 게 사실이죠. 프리미어 프로나 애프터 이펙트 같은 무겁고 전문적인 프로그램을 배워야 할 것 같고, 영상 편집 경험도 필수적이며, 심지어 고사양 컴퓨터까지 필요할 거라고 지레짐작하게 됩니다. 솔직히 말씀드리면, 저도 처음엔 그랬습니다. 이런 고정관념 때문에 시작조차 못 해본 분들도 많으실 거예요.\n그런데 오늘, 제가 그 모든 고정관념을 완전히 깨드리겠습니다! 무거운 프로그램을 설치할 필요도 없고, 비싼 컴퓨터도 필요 없습니다. 오직 웹 브라우저 하나만 있으면 여러분도 감성 유튜브 채널의 주인이 될 수 있습니다. 2026년, 기술은 정말 놀랍도록 발전했거든요.\n오늘 이 포스트에서는 AI와 무료 웹 앱만을 활용해서, 영상 편집 경험이 전무한 초보자도 단 수십 분 만에 프로급 로파이 플레이리스트 영상을 만드는 방법을 알려드릴게요. 제가 직접 여러 방법들을 시도해보고 가장 효율적인 과정을 정리했으니, 끝까지 따라오시면 분명 여러분만의 감성 넘치는 음악 채널을 바로 시작하실 수 있을 거예요. 자, 그럼 시작해볼까요?\n✨ 웹 브라우저 기반 감성 채널, 핵심 6단계 로드맵\n강의에 들어가기 앞서, 오늘 우리가 배울 전체 과정을 간단히 소개해드릴게요. 총 6단계로 진행되는데, 생각보다 복잡하지 않으니 너무 걱정 마세요!\n1단계: 구글 제미나이로 로파이 감성 애니메이션 이미지 생성\n2단계: 그록 AI로 정지 이미지를 6초 애니메이션 영상으로 변환\n3단계: 제가 만든 '심리스 루프 스튜디오'로 짧은 영상을 무한 루프 영상으로 변환\n4단계: 역시 제가 만든 '스핀젠'으로 음악에 맞춰 회전하는 CD 영상 제작\n5단계: 'Suno 5.0 Generator GPTs'와 SUNO를 활용해 실제 로파이 음악 생성\n6단계: 업그레이드된 '스펙트럼 스튜디오 프로'에서 모든 요소를 합쳐 최종 영상 완성\n어때요? 이 모든 과정이 웹 브라우저에서 이루어지기 때문에 프로그램 설치가 전혀 필요 없습니다. 다만, 마지막 렌더링 단계에서는 쾌적한 작업을 위해 GTX 1050급 이상의 그래픽카드가 있으면 더욱 좋습니다. 그럼 지금부터 하나씩 차근차근 따라 해 볼까요?\n ️ 1단계: 구글 제미나이로 감성 이미지 만들기\n우리 영상의 배경이 될 첫 이미지를 만드는 단계입니다. 여기서는 구글의 AI인 제미나이(Gemini)를 사용할 거예요. 제미나이는 이미지 생성 능력이 꽤나 뛰어나서 이런 감성적인 배경 만들기에 제격입니다.\n  Tip! 제미나이 채팅창에서 기본 모드 대신 '사고 모드'를 선택하면, '나노바나나 프로'라는 더 강력한 모델을 사용할 수 있어서 훨씬 더 나은 이미지 결과물을 얻을 수 있습니다. 이건 꼭 기억해두세요!\n프롬프트는 최대한 구체적이고 감성적으로 작성하는 것이 중요합니다. 예를 들어 이렇게 입력해 보세요:\n\"90년대 감성의 애니메이션 스타일. 따뜻한 분위기의 방 안에서 헤드셋을 끼고 공부하는 여학생의 낭만적인 장면. 필기 중. 16대9 비율\"\n잠시 기다리면 영상과 비슷한 감성적인 이미지가 생성될 겁니다. 마음에 드는 이미지가 나오면 바로 저장해주세요. 만약 한 번에 마음에 드는 이미지가 나오지 않는다면, 프롬프트의 세부 내용을 조금씩 바꿔가며 여러 번 시도해보세요. AI는 명령어를 어떻게 주느냐에 따라 천차만별의 결과물을 보여주니까요.\n  2단계: 정지 이미지를 움직이는 영상으로! 그록 AI 활용\n이제 우리가 만든 정지된 이미지를 살아 숨 쉬는 움직이는 영상으로 만들 차례입니다. 여기서 사용할 도구는 그록 AI(Grok AI)입니다. 그록은 X(구 트위터)에서 제공하는 AI인데요, 이미지를 영상으로 만들어주는 기능이 특히 강력해서 최근 인기를 얻고 있습니다. 무료 사용자도 하루에 6초 영상을 20개 정도 만들 수 있으니, 충분히 활용 가능합니다.\n그록 좌측 메뉴에서 '이미지'를 선택한 후, 제미나이에서 생성한 이미지를 업로드합니다. 그다음 채팅창에 이렇게 입력해 보세요.\n\"고정샷, 필기를 하다 잠시 생각에 잠긴다\"\n여기서 '고정샷'이라고 명시하는 것이 정말 중요해요! 카메라가 움직이면 나중에 영상을 무한 루프로 만들 때 어색해질 수 있거든요. 몇 번의 시도 후에 적합한 영상이 나오면, 우측 상단의 설정에서 '동영상 업스케일'을 선택하여 화질 개선을 진행합니다. 잠시 후에 필름 아이콘에 HD 표시가 뜨면 이제 저장하시면 영상 생성도 완료됩니다.\n⚠️ 주의! 생성된 영상이 항상 여러분이 원하는 대로 완벽하게 나오지 않을 수도 있다는 점을 명심하세요. AI가 아직은 완벽하게 인간의 의도를 이해하는 건 아니거든요. 만약 영상이 마음에 안 드신다면 프롬프트를 조금씩 바꿔가면서 다시 시도해보시면 됩니다. 제가 겪어본 바로는 보통 두세 번 정도 시도하면 꽤 괜찮은 결과물이 나오더라고요.\n  3단계: 6초 영상을 무한 루프로! 심리스 루프 스튜디오\n자, 이제 우리에게는 6초짜리 짧은 영상이 생겼습니다. 그런데 이 영상을 그냥 반복 재생하면 어떻게 될까요? 영상이 끝나는 지점에서 처음으로 돌아갈 때 '툭' 하고 끊기는 느낌이 들 겁니다. 이런 부자연스러운 끊김은 감성 채널의 몰입감을 크게 해치죠. 동일한 영상을 부드럽게 이어주려면 일반적으로 '크로스페이드' 같은 효과를 줘야 하는데, 캡컷 같은 비교적 쉬운 앱에서도 여러 단계를 거쳐야 하니 초보자에게는 당연히 엄두가 나지 않는 작업일 수밖에 없습니다.\n\n\n여기서 정말 유용한 앱이 바로 제가 직접 만든 '심리스 루프 스튜디오(Seamless Loop Studio)'입니다. 이 웹 앱은 무한 루프 영상을 아주 쉽게 만들어줍니다.\n앱을 실행한 후 무한 루프를 적용할 영상 소스를 업로드하고 '구간 분석 시작'을 클릭하면, 전체 구간에서 가장 자연스럽게 이어질 수 있는 끝 부분을 자동으로 찾아주는 '스마트 매칭' 기능이 바로 작동합니다. 그리고 다음 두 가지 옵션도 있습니다:\n강제 오버랩: 영상의 끝 1초 구간을 오버랩하고 크로스페이드를 강제 적용하는 방식입니다. 원본 영상이 스마트 매칭을 적용하기에 불안정한 경우에 사용하면 좋습니다.\n바운스: 영상이 끝까지 재생된 다음 다시 거꾸로 되감기면서 처음으로 돌아가는 걸 반복합니다. 영상 내에 상하좌우로의 명확한 움직임이 없는 고정된 장면에서 작은 움직임이 있을 때 특히 유용합니다.\n두 번째 단계에서 그록 AI로 만든 영상으로 직접 작업해볼게요. 해당 영상을 업로드한 후 '구간 분석 시작'을 클릭합니다. 영상처럼 스마트 매칭으로는 매우 짧은 구간 반복 재생이 되어 적합하지 않을 때가 많습니다.\n이번엔 '강제 오버랩'을 적용해보니, 영상의 끝부분과 시작 부분이 부드럽게 겹쳐지면서 끊김 없는 화면 전환이 이루어집니다. 나쁘지 않은데요?\n마지막으로 '바운스'를 적용해보니, 필기하던 학생이 고개를 들었다가 다시 숙이는 동작이 화면 오버랩도 없이 정말 자연스럽게 반복되는 것을 확인할 수 있습니다. 음, 제 생각엔 이 '바운스' 기능이 이번 영상에는 가장 좋겠네요! '렌더링 시작'을 클릭하면 잠시 후 영상으로 저장됩니다. 정말 놀랍도록 간편하죠?\n\n \n심리스 루프 스튜디오\n \nseamless-loop-studio.vercel.app\n\n \n  4단계: 회전하는 감성 CD 이미지 추가! 스핀젠\n이 단계는 필수는 아니지만, 영상의 완성도를 높이고 감성을 살리는 데 아주 큰 도움이 됩니다. 단순히 배경 영상만 있는 것보다 음악과 어울리는 회전하는 CD 이미지가 있다면 훨씬 더 전문적인 느낌을 줄 수 있거든요.\n\n\n이런 작업을 직접 하려면 포토샵 같은 프로그램으로 앨범 커버를 만들고, 영상 편집 앱으로 회전 기능을 추가하는 등 여러 단계를 거쳐야 하는데, 여간 귀찮은 작업이 아닙니다. 하지만 걱정 마세요! 이 모든 작업을 이번에도 제가 만든 '스핀젠(SpinGen)'이라는 웹 앱이 단번에 해결해줍니다.\n앱을 실행한 후, 앨범 제목, 아티스트 이름, 세부 정보를 우리가 오늘 작업할 '공부할 때 듣기 편한 로파이 음악'과 관련된 내용으로 입력합니다. '비주얼 스타일 프롬프트'에도 관련 내용을 입력하고 'AI 추천'을 클릭하면 CD 디자인을 위한 프롬프트가 자동으로 생성됩니다. 이제 바로 '디자인 생성하기'를 클릭하기만 하면 됩니다!\n잠시 후 CD 디자인 작업이 완료됩니다. 디자인이 마음에 든다면 하단의 'GIF 버튼'을 클릭하여 변환을 시작하고, 이어서 '다운로드' 버튼을 클릭하면 회전하는 CD GIF 파일이 저장됩니다. 정말 쉽죠? 이 작은 디테일 하나가 영상의 분위기를 확 살려줄 거예요.\n\n \nSpinGen - AI Vinyl Studio\n \nspin-gen.vercel.app\n\n \n  5단계: 나만의 로파이 음악 만들기! SUNO 5.0 Generator GPTs\n영상은 거의 다 준비되었는데, 가장 중요한 것이 빠졌죠? 바로 음악입니다. 감성 로파이 채널에 맞는 음악이 없다면 앙꼬 없는 찐빵이니까요. 여기서는 제가 이전에 무료로 배포했던 'Suno 5.0 Generator GPTs'와 SUNO를 활용할 겁니다.\n'Suno 5.0 Generator GPTs'에서 이렇게 입력해 보세요:\n\"공부할 때 좋은, 집중력 향상에 도움되는 차분하고 정적이면서 감성적인 로파이 연주곡. 실제 집중력 향상 임상 연구 결과를 기반으로 해\"\n이렇게 입력하시면 GPTs가 SUNO에 최적화된 프롬프트를 자동으로 생성해줍니다. 생성된 프롬프트를 복사하셔서 SUNO에 붙여넣고 음악을 여러 개 만드시면 됩니다. 이 과정을 통해 여러분의 영상에 딱 맞는 분위기의 로파이 음악을 쉽게 얻을 수 있을 거예요.\n\n \nChatGPT\nChatGPT가 답변을 듣고, 영감을 얻고, 생산력을 높이는 데 도움을 드립니다.\nchatgpt.com\n\n \n  6단계: 모든 재료를 하나로! 스펙트럼 스튜디오 프로\n드디어 마지막 단계입니다! 지금까지 만든 모든 재료들, 즉 배경 영상, 회전 CD 이미지, 그리고 로파이 음악을 하나로 합쳐서 최종 영상을 완성할 차례입니다. 여기서 사용할 도구는 '스펙트럼 스튜디오 프로(Spectrum Studio Pro)'입니다. 이 앱은 제가 이전에 소개했던 스펙트럼 스튜디오의 업그레이드 버전인데요, 동영상 배경과 GIF 스티커 추가 및 파티클 개별 설정, 그리고 기타 오류를 개선한 아주 강력한 도구입니다.\n\n\n \n이제 차근차근 따라 해보세요:\n첫 화면에서 SUNO에서 생성한 음악 파일을 모두 등록합니다. 이때 타임라인을 복사해서 저장하는 것을 잊지 마세요!\n배경 미디어에 '심리스 루프 스튜디오'로 생성한 루프 영상을 업로드합니다.\n채널 로고와 '스핀젠'에서 만든 CD 회전 파일도 등록하고, 영상 반복수와 음질을 선택한 후 다음 단계로 넘어갑니다.\n오디오 스펙트럼을 선택합니다. 이번 작업에서는 '미니 막대'를 선택하고 화면 왼쪽 하단에 배치해 볼 거예요.\n채널 로고를 우측 하단에 적당한 크기로 배치하고, 로고의 배경을 지우고 그림자 효과를 적용해서 더욱 돋보이게 만듭니다.\n회전하는 CD를 왼쪽 미니 스펙트럼 위에 적절하게 배치하고, 여기에도 그림자 효과를 적용하여 입체감을 더합니다.\n그다음 빛 반사 조명 효과를 위해 '클럽 조명'을 추가합니다. 로파이 감성을 한층 더 끌어올려 줄 겁니다.\n마지막으로 스타일 파티클을 추가하면 되는데요. 이번 예시에서는 '파편' 효과를 적용해볼게요. (나중에 하트 같은 다른 효과도 추가할 수 있습니다.)\n모든 설정이 완료되면 상단에 '비디오 내보내기'를 클릭하고 다음 화면에서 렌더링을 시작하면 끝입니다!\n이 모든 과정을 통해 완성된 영상을 유튜브에 업로드하면, 여러분만의 멋진 로파이 감성 채널이 탄생하는 거죠! 생각해보니 정말 쉽지 않나요?\n \n[이 앱은 제 유튜브 채널 멤버십 가입시 사용가능 합니다. 아래 링크를 방문하세요]\n\n \nGPT PARK의 AI팩트\n가장 빠르고 알찬 AI 정보를 공개합니다. 유용한 AI 인사이트 : https://muzbox.tistory.com/category/AI%2C%20미래기술 블로그 수익화 인사이트 : https://smart-it-life.tistory.com/category/블로그%20수익화 유용한 자료\nwww.youtube.com\n\n \n  핵심 요약\n✅ 전문 프로그램 없이 웹 브라우저만으로 모든 영상 제작이 가능!\n✅ AI와 무료 웹 앱 조합으로 누구나 프로급 감성 영상 제작 가능!\n✅ 심리스 루프 스튜디오로 끊김 없는 배경 영상 쉽게 구현!\n✅ Suno로 나만의 로파이 음악을 생성하여 저작권 걱정 없이 활용!\n오늘 소개된 모든 툴은 초보자도 쉽게 접근할 수 있도록 설계되었습니다. 포기하지 말고 도전해보세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: 정말 영상 편집 초보자도 감성 채널을 만들 수 있나요?\nA1: 네, 물론입니다! 오늘 소개된 모든 단계는 영상 편집 경험이 전혀 없는 분들도 쉽게 따라 할 수 있도록 웹 브라우저 기반의 AI 및 무료 앱으로 구성되어 있습니다. 직관적인 인터페이스와 AI의 도움으로 전문적인 기술 없이도 멋진 결과물을 만들 수 있습니다.\nQ2: 마지막 렌더링 단계에 고사양 그래픽카드가 꼭 필요한가요?\nA2: GTX 1050급 이상의 그래픽카드가 있으면 렌더링 속도가 훨씬 빨라지고 쾌적하게 작업할 수 있지만, 필수는 아닙니다. 사양이 조금 낮더라도 시간이 더 오래 걸릴 뿐, 렌더링은 가능합니다. 다만, 작업의 효율성을 위해서는 권장 사양을 고려하는 것이 좋습니다.\nQ3: '심리스 루프 스튜디오'나 '스핀젠'은 계속 무료로 사용할 수 있나요?\nA3: '심리스 루프 스튜디오'와 '스핀젠'은 2월 28일까지는 무료로 배포될 예정입니다. 그 이후에는 멤버십 가입을 통해 계속 이용하실 수 있습니다. '스펙트럼 스튜디오 프로' 역시 멤버십 가입 시 바로 이용 가능합니다.\n자, 어떤가요? 프로그램 설치 없이 웹 브라우저만으로 프로급 로파이 영상을 완성할 수 있다는 사실이 정말 놀랍지 않나요? 제가 직접 해보니 이 과정만 익혀두면 로파이뿐만 아니라 재즈, 클래식, ASMR까지 어떤 장르든 여러분의 감성을 담아 만들 수 있습니다. 프롬프트만 바꾸면 카페, 도서관, 우주 정거장, 어떤 배경이든 가능하고요. 정말 가능성이 무궁무진하다는 생각이 들었어요.\n오늘 사용한 '심리스 루프 스튜디오'와 '스핀젠'은 2월 28일까지 무료로 배포하고 있습니다. 이 기회를 놓치지 마세요! 이후에도 멤버십에 가입하시면 계속 사용하실 수 있고요, '스펙트럼 스튜디오 프로'도 멤버십 가입하시면 바로 이용 가능합니다. 모든 링크는 더보기란에 정리해서 남겨두겠습니다.\n여러분, 이제 '영상 편집 프로그램이 어렵다'는 핑계는 더 이상 통하지 않습니다. 2026년은 웹 브라우저만 있으면 누구나 크리에이터가 될 수 있는 시대입니다. 오늘 배운 내용을 바탕으로 여러분만의 감성이 담긴 음악 채널을 지금 바로 시작해보세요! 여러분의 멋진 도전을 응원합니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483706",
+    "pubDate": "Sun, 1 Feb 2026 11:35:15 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "ai 영상 제작",
+      "Spectrum Studio Pro",
+      "Suno AI 음악",
+      "감성 채널 만들기",
+      "로파이 유튜브",
+      "무료 영상 편집 앱",
+      "스핀젠",
+      "심리스 루프 영상",
+      "웹 브라우저 영상 편집",
+      "초보 유튜브 시작"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Add Force 1 V40 / 레이저 테마로 변경 / 실패 후 다시 개발",
+    "description": "이전 버전은 실패했습니다.\n2025년 최초로 만든 1인개발 게임이라 잘못 만들어서 이어나가길 포기하고\n2026 년에 새로 제작하였습니다.\n \n아무 코드 베이스 없이 막 코딩으로 짜서 고치기가 어려운 상황이 발생했습니다.\n고상하게 짜려다 고치기 복잡해졌고 읽기도 어렵게 되었습니다.\n다 날리고 새로 작성하였습니다.\n \n타이틀 화면\n\n\n타이틀 화면이구요 플레이 데모 환경에서 발사해볼 수 있습니다.\n(잘못 만들어서 발사가 됩니다.)\n탄환 발사는 멋이 없어서 레이저 테마로 바꿨습니다.\n \n스킬 구현\n\n\n스킬은 3종류 밖에 없습니다.\n샛다 찍어봐도 10% 정도밖에 효과가 없기 때문에 큰효과를 보기 힘듭니다.\n궁색만 갖춰둔 상황입니다.\n \n \nv40 영상\nhttps://www.youtube.com/watch?v=B8jAjZ56qn4\n\n\n\n \n \n \n \n장대한 목표\n스테이지를 많이 늘려서 광고 수익을 많이 막을 생각입니다.\n성공 실패는 모르겠고 완성이나 해봅시다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1567",
+    "pubDate": "Fri, 30 Jan 2026 17:48:12 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작",
+      "AddForce1"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "IntelliJ Scala Plugin in 2025",
+    "description": "In December 2024, we published a year-in-review summary of our work on the Scala Plugin. By that time the following year, we were busy releasing IntelliJ IDEA and the Scala Plugin 2025.3, as well as preparing for the upcoming Scala 3.8 release. This was followed by a long holiday break. But as they say, not […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/scala/2026/01/27/intellij-scala-plugin-in-2025/",
+    "pubDate": "Tue, 27 Jan 2026 16:32:55 +0000",
+    "creator": "Maciej Gorywoda",
+    "categories": [
+      "scala",
+      "scala-programming",
+      "2025",
+      "intellij-idea"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "잡코리아 더 리부트 (2026) 참석 후기",
+    "description": "2026.01.29 에 진행된 잡코리아 더 리부트 행사에 다녀왔다.\n\n\n사명을 왜 변경하는지에 대해, AI 시대에 어떻게 채용이 변해야하는지, 잡코리아는 어떻게 갈 것 인지를 여러 리더분들이 나오셔서 이야기를 해주셨다.\n아무래도 교육과 채용은 Value Chain이 강한 관계라서 국내 채용 1위 플랫폼인 잡코리아에서는 AI Agent에 대해 어떤 고민을 하고, 어떤 제품 방향성을 가지실지 궁금해서 참여하게 되었다.\n구인자의 채용, 구직자의 커리어 2개에 관한 AI Agent 발표와 실제 시연 부스도 운영하고 있어서 어떤 방향성을 가지시는지 쉽게 알 수 있었다.\n이런 채용 과정의 에이전트는 원티드에서도 비슷한 제품을 출시했고, 앞으로도 출시할 것으로 보고 있는데 잡코리아의 에이전트와 원티드의 에이전트, 그 외 다른 채용 플랫폼들의 에이전트들을 비교해보는 것도 앞으로 기대해볼 수 있겠다.\n1. AI 시대 채용의 기준, 새로워진 잡코리아 (09:30)\n발표자: 윤현준 CEO\n1-1. 혁신의 딜레마와 업의 재정의\n과거의 성공이 미래를 보장하지 않음 (블록버스터 vs 넷플릭스)\n\n블록버스터는 2004년 북미 9천여 개 매장을 가진 1위 기업이었지만, 'DVD 대여업'이라는 수단에만 집중하다 2010년 파산함.\n반면 넷플릭스는 '영상 콘텐츠 전달'이라는 본질에 집중해 살아남음.\n잡코리아도 지난 30년 1등이었지만, \"우리는 채용 공고 상품(DVD)을 파는 회사인가, 일과 사람을 연결(콘텐츠 전달)하는 회사인가?\"라는 질문에 봉착.\n단기적 성과(공고 판매)에 안주하는 환상형 혁신을 경계하고, 업의 본질을 재정의하기로 결정.\n새로운 사명: Worxphere (웍스피어)\n\nWork + Experience + Sphere: 일과 경험, 그리고 그 모든 영역을 아우르는 생태계를 의미함.\n잡코리아(정규직), 알바몬(비정규직), 잡플래닛(기업 정보/평판), 나인하이어(ATS), 클릭(외국인), 놉(명함)을 모두 아우르는 통합 HR 테크 그룹으로 재출범하여 일의 경험 전체를 설계할 예정\n1-2. 핵심 기술: Context Link (맥락적 연결)\n기존 데이터의 한계: 정량적 데이터 (Spec)\n\n기존 이력서나 공고는 스펙의 나열에 불과함.\n옷 비유\n\n\"2XL 양가죽 재킷\"이라는 정보(스펙)만으로는 이 옷의 핏(Fit)이나 촉감, 스타일이 나에게 맞는지 알 수 없다.\n이로 인해 서류상 조건은 맞는데 막상 만나보면 안 맞는 미스 매칭 발생.\n새로운 솔루션: 정성적 데이터 (Context)의 결합\n\n잡플래닛 인수 시너지: 잡플래닛이 가진 기업 리뷰, 면접 경험, 조직 문화 등 '맥락 데이터'를 AI가 학습함.\nContext Link: 정량적 데이터(잡코리아) + 정성적 데이터(잡플래닛)를 결합해 AI가 맥락(Context)을 파악.\n사용 예시: 단순히 \"마케터 검색해줘\"가 아니라, \"육아휴직 간 1년 차 김대리 자리에 딱 맞는, 우리 팀 분위기에 적응할 사람 찾아줘\"라고 하면 AI가 숨은 의도까지 파악해 매칭함.\n1-3. 미래 비전: Career Genome (커리어 게놈)\n이력서의 종말 (Resume -> Genome)\n\n사람이 직접 쓰고 관리하는 정적인 이력서(Resume)는 아날로그의 산물임.\nAI가 실시간 행동 데이터와 성과를 분석해 관리하는 '다이내믹 디지털 프로필(Career Genome)'로 진화.\n검증에서 예측으로\n\n과거 이력 확인(Verification)을 넘어, 이 사람이 우리 조직에 왔을 때 낼 미래 성과(Prediction)를 예측하는 모델로 전환.\n1-4. 출시 예정 서비스 요약 (Roadmap)\n컨퍼런스에서 공개된, 올 상반기부터 순차적으로 출시될 핵심 서비스들.\nTalent Agent (기업용): 인사 담당자가 자연어로 질문하면(\"육아휴직 대체자 찾아줘\"), AI가 내부/외부 데이터를 분석해 최적의 후보자를 추천하고 소싱까지 대행.\nCareer Agent (개인용): 구직자의 행동 패턴을 분석해, 공고를 검색하지 않아도 \"이 회사가 당신에게 딱 맞아요\"라고 선제적으로 제안.\nHiring Center (통합 솔루션): 공고 등록, 지원자 관리, 채용 성과 분석, 평판 관리(잡플래닛 연동)를 한곳에서 처리하는 올인원 대시보드.\n2. 왜 채용은 항상 어려운가: 구조적 진단과 전환 (10:50)\n발표자: 이창준 CSO\n2-1. 채용 시장의 난제 (Problem)\n구직자는 늘었는데 채용은 더 어려움\n\n지난 3년간 구직자는 늘었지만, 기업이 느끼는 채용 난이도와 비용은 역대 최고 수준임.\n본인도 인재 영입을 위해 지난 9월 충무로에서 판교까지 한 달간 20번 넘게 직접 찾아가 티타임을 했던 경험을 공유\n원인 1: 희소성 (Scarcity)\n\n과거엔 '마케터'면 충분했지만, 지금은 '그로스 마케터 + 특정 예산 운영 경험 + 대행사 핸들링 경험 + 우리 문화 적합성'을 모두 요구함.\n맥락(Context)에 맞는 인재를 찾다 보니 대상자가 극도로 희소해짐.\n원인 2: 시급성 (Urgency)\n\n구직자들은 더 이상 기다리지 않음. 쇼핑하듯 여러 기업을 동시에 비교하고, 경험이 나쁘면 바로 이탈함.\n기업은 검증하느라 시간이 걸리는데, 그사이 인재는 다른 곳으로 가버림.\n2-2. 해결책: AI Agent의 4가지 역할 (Solution)\nAI가 단순 요약봇이 아니라, 채용 프로세스를 대행하는 에이전트(Agent)가 되어야 한다며 4가지 역할을 정의\nRole 1: 결정 (Decision) - \"맞는지 판단해줘\"\n\n면접관들이 \"이 사람 툴은 잘 쓰는데 우리 문화에 맞을까?\"라며 결정을 미루는 시간을 줄여줌.\n스펙뿐만 아니라 '맥락 증거'를 찾아 판단 근거를 제공하여 모호한 의사결정 지원.\nRole 2: 발굴 (Discovery) - \"찾아가서 데려와\"\n\n수동 -> 능동: 공고 올리고 기다리는 방식은 끝남.\nAI가 우리 회사에 맞을법한 인재(심지어 구직 의사가 없는 잠재 후보자)를 먼저 찾아내 리스트업하고 설득함.\nRole 3: 전환 (Conversion) - \"놓치지 않게 잡아줘\"\n\n'2분 vs 1주일의 법칙'\n\n밤 11시에 침대에서 스마트폰으로 지원한 후보자에게 2분 만에 \"내일 면접 가능하신가요?\"라고 묻는 기업과, 1주일 뒤에 이메일 보내는 기업의 승패는 명확함.\nAI 에이전트가 24시간 대응하며 지원자가 이탈하지 않도록 경험 관리.\nRole 4: 통합 (Integration) - Hiring Center\n\n슬랙, 노션, 엑셀, 채용 사이트 등으로 파편화된 데이터를 하나로 모음.\n하이어링 센터(Hiring Center): 모든 채용 데이터가 흐르도록 통합해, 데이터 기반의 의사결정 지원.\n3. AI Agent가 바꾸는 채용의 미래 (14:30)\n발표자: 김요섭 CTO\n3-1. 검색의 한계와 에이전트의 필요성\n검색은 정확한 키워드가 필요함\n\n포워드 디플로이드 엔지니어(Forward Deployed Engineers, FDE)를 뽑으려면 JD를 정확히 이해하고 키워드를 넣어야 함.\n하지만 인사담당자가 회사 내 모든 직무의 전문 용어와 맥락을 이해하는 것은 불가능에 가까움.\n그 결과, \"시니어 프론트엔드 개발자\" 1명을 찾기 위해 100명의 프로필을 뒤지고 2시간을 허비하는 비효율이 발생함.\n상황(Context)을 이해하는 AI\n\n음악 추천의 예: 과거엔 \"네가 좋아하는 장르니까 들어봐\"였다면, AI 시대엔 \"야근 중이고 집중이 필요한 너에게 맞는 곡이야\"라고 제안함.\n채용도 마찬가지. 단순 조건 매칭이 아니라 \"지금 우리 팀이 신규 서비스 런칭 직전인데, 실행력 빠른 스타트업 출신 자바 개발자가 필요해\"라는 문장을 이해해야 함.\n3-2. 웍스피어의 AI 에이전트 라인업\nTalent Agent (기업용)\n\n자연어 기반 소싱: 복잡한 필터링 대신 문장으로 질문하면 AI가 의도를 파악해 인재 추천.\n유사 인재 찾기: \"이 링크드인 프로필과 비슷한 사람 찾아줘\"라고 요청하면, 해당 인재의 역량과 맥락을 분석해 유사한 후보자를 웍스피어 데이터베이스(천만 명 규모)에서 발굴함.\n포워드 디플로이드 엔지니어(Forward Deployed Engineers, FDE)처럼 낯선 직무도 AI가 먼저 JD를 학습하고 적합한 스펙을 역제안함.\nCareer Agent (구직자용)\n\n단순 공고 추천을 넘어 '합격 전략'까지 제공.\n구직자의 이력과 행동 데이터를 학습해, \"이 공고는 당신의 A 경험과는 맞지만 B 역량은 보완이 필요해요\"라며 구체적인 가이드와 자소서 작성 전략까지 코칭함.\n왜 웍스피어인가? (Why Now?)\n\nAI 기술력은 기본, 핵심은 데이터의 '양과 깊이'.\n잡코리아, 알바몬, 게임잡 등 전 산업군의 데이터 + 잡플래닛의 정성적 리뷰 데이터(맥락)가 결합되어야만 진짜 '성향 파악'이 가능\n4. 이제 채용도 퍼포먼스다 (15:00)\n발표자: 박소리 JK 사업실장\n4-1. 기존 채용 상품의 문제: '성실함'의 함정\n누구나 똑같은 광고를 봄\n\n기존 배너 광고는 고정된 위치에 고정된 시간 동안 노출되는 '성실한' 상품이었음.\n하지만 마케터 공고를 시설관리자가 보거나, 부산 기업 공고를 서울 구직자가 보는 비효율 발생.\n스타트업 시절, 돈을 써서 광고를 해도 지원자가 없거나 핏이 안 맞는 지원자만 몰려서 이력서 검토하느라 시간만 쓰는 악순환을 경험함.\n4-2. 해결책: Smart Pick (스마트픽)\n집요하고 똑똑한 채용 상품\n\n타겟팅: 컨텍스트 링크 알고리즘을 통해, 내 공고에 반응할 확률이 높은 구직자에게만 선별적으로 노출함.\n성과 기반 과금: 기간제(기간당 얼마)가 아니라, 구직자가 공고를 클릭하거나 조회했을 때만 비용이 발생하는 합리적 모델 도입.\n실제 성과 사례\n\nF&B 기업: 기존 상품 대비 지원자 수 3배 증가, 비용 30% 절감.\nK-뷰티 기업: 8개월간 못 뽑던 포지션 채용 성공, 비용 60% 절감. 담당자가 \"나만 알고 싶으니 홍보하지 말라\"고 할 정도.\n4-3. 통합 관리와 편의성\nHiring Center (하이어링 센터)\n\n잡코리아, 알바몬, 외국인 채용(클릭) 등 모든 채용 공고와 지원자를 한 곳에서 관리.\n데이터 시각화 대시보드를 제공해, 인사담당자가 상사에게 \"이번 채용 광고 효율이 이렇습니다\"라고 캡처 한 방으로 보고할 수 있게 지원.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/860",
+    "pubDate": "Fri, 30 Jan 2026 09:34:09 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "세미나",
+      "Worxphere",
+      "더 리부트",
+      "웍스피어",
+      "잡코리아",
+      "잡플래닛"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "바이브 코딩과 ADHD, 몰입",
+    "description": "꽤 오래전부터 모니터 1대만 사용해서 업무를 진행했다.\n\n\n높은 몰입감을 유지하는데 있어서 모니터가 2대일때와 1대일때의 몰입감이 완전히 달랐기 때문이다.\n근데 요즘 다시 모니터 2대를 사용하고 있다.\n산만하기는 싫지만,\nAI Agent들과 함께 병렬 작업을 하는데 있어서는 결국은 듀얼 모니터가 가진 생산성이 너무나 뛰어났기 때문이다.\n동시 수행하는 AI Agent 들의 개수가 계속해서 늘어남에 따라 모니터 1대가 가진 한계가 뚜렷했다.\n하나의 모니터에는 분산되 여러 에이전트들의 실행화면들이 있고,\n다른 하나의 모니터로는 문서 작성, 발표 자료 준비, 슬랙 답변 등 내 개인업무를 처리하고 있다.\n코딩 에이전트들 여러개 돌리다보면 성인 ADHD를 가속화 시키는 느낌이다.\nZone에 들어가듯이 IDE 에서 몰입상태로 일하는 것이 너무 좋았는데, \n지금은 에이전트들 여러개 실행해놓고 끝나는 대로 하나씩 결과 확인하고 수정해서 다시 요청하고, \n기다리는 동안 시간이 비니깐 기존 에이전트들 외 추가로 더 에이전트들을 실행해서 일감을 주고 돌리는 이 과정이... 프로젝트에는 도움이 되어도, 나한테 좋은건가?? 싶은 생각이 계속 든다.\n\n내가 주도하면서 에이전트 1개의 도움을 받으며 만드는 과정은 페어프로그래밍하는 것 처럼 몰입감 유지가 가능한데,\n여러 에이전트를 동시에 돌리면서 진행하는 과정은 당장의 결과물을 내는데 도움은 되는데, 없던 ADHD도 발병시킬 것 같다.\n\n아닌가? 이제 그냥 ADHD 인이 되는게 당연한 시대가 되버린건가?\n\n독서, 일기 등 의도적으로 싱글 스레드로 하나에만 몰입하는 시간을 가지지 않으면 안될 것 같다는 생각이 들었다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/861",
+    "pubDate": "Sun, 1 Feb 2026 13:32:37 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "ADHD",
+      "독서",
+      "몰입",
+      "바이브코딩",
+      "에이전트"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Mysql 설치 오류 - 2nd",
+    "description": "윈도우11에서 8.0 버전 설치가 안 된다. 정확히 얘기하면 세부 설정(Run MySQL Configurator) 옵션이 보이지 않는다.\n\n\n\n  \n    \n9.6 버전 설치 후 인증 방식 변경 시도. 8.0 버전부터 기본 인증 방식이 caching_sha2_password로 바뀌었는데, 애용하는 클라이언트앱 sqlyog이 2005년쯤 버전이라 지원을 안 해서(..)\n\nmysql> select user, host, plugin from mysql.user;\n+------------------+-----------+-----------------------+\n| user             | host      | plugin                |\n+------------------+-----------+-----------------------+\n| mysql.infoschema | localhost | caching_sha2_password |\n| mysql.session    | localhost | caching_sha2_password |\n| mysql.sys        | localhost | caching_sha2_password |\n| root             | localhost | caching_sha2_password |\n+------------------+-----------+-----------------------+\n4 rows in set (0.00 sec)\n\n\nmysql> alter user 'root'@'localhost' identified with mysql_native_password by '******';\nERROR 1524 (HY000): Plugin 'mysql_native_password' is not loaded\n\n\n\n\n그런데 플러그인 로딩이 안 됨. my.ini 설정을 변경('mysql_native_password=ON' 추가)하면 아예 서비스 시작도 안 된다. 'unknown variable mysql_native_password=ON' 메시지가 뜨는 걸 보니 지원을 안 하는 모양. 어쩐지 세부 설정 때 '호환 모드'가 없더라니.\n\n\n제미나이한테 물어 보니 8.4 버전까지만 지원한다고 해서 재설치. 해당 버전도 기본 지원은 아니라서 my.ini에 설정을 추가해줘야 한다.\n\n[mysqld]\nmysql_native_password=ON\n\n\n\n\nmysql> alter user 'root'@'localhost' identified with mysql_native_password by '******';\nQuery OK, 0 rows affected (0.01 sec)\n\n\nmysql> flush privileges;\nQuery OK, 0 rows affected (0.01 sec)\n\n\nmysql> select user, host, plugin from mysql.user;\n+------------------+-----------+-----------------------+\n| user             | host      | plugin                |\n+------------------+-----------+-----------------------+\n| mysql.infoschema | localhost | caching_sha2_password |\n| mysql.session    | localhost | caching_sha2_password |\n| mysql.sys        | localhost | caching_sha2_password |\n| root             | localhost | mysql_native_password |\n+------------------+-----------+-----------------------+\n4 rows in set (0.00 sec)\n\n\n\n\n이후 접속은 잘 되는데, 이번엔 csv 데이터 임포트 실패. 파일 업로드도 막아놨구나. 철통보안(..)\n\n\n\n  \n    \n다음 설정을 추가해줘야 한다.\n\n[mysqld]\nmysql_native_password=ON\nlocal_infile=1\n\n\n\n\n관련 글\n\nMysql 설치 오류\n(경) Mysql 전방탐색 지원 (축)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/01/mysql-2nd.html",
+    "pubDate": "2026-01-31T03:53:00.007Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "스테이블코인 실전 강의",
+    "description": "저는 오프라인 강의를 좋아합니다. 코로나 전에 퀀트 강의도 몇번 하였는데, 온라인 강의에 비해서 함께 집중하고 실습을 함께 하는 과정은 비교 할수 없을 정도로 장점이 많은 것 같습니다.  스테이블코인에 대한 수많은 자료들이 있습니다. 스테이블코인의 원리, 서클이 뭔지, 테더가 뭔지, 글로벌에서 어떤 일들이 일어나는지, 수박 겉핥기 식 이야기들은 많지만  실",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@H9i/93",
+    "pubDate": "Wed, 28 Jan 2026 05:35:33 GMT",
+    "creator": "권용진",
+    "categories": []
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "Rust at Scale: An Added Layer of Security for WhatsApp",
-    "description": "WhatsApp has adopted and rolled out a new layer of security for users – built with Rust – as part of its effort to harden defenses against malware threats. WhatsApp’s experience creating and distributing our media consistency library in Rust to billions of devices and browsers proves Rust is production ready at a global scale. [...]\nRead More...\nThe post Rust at Scale: An Added Layer of Security for WhatsApp appeared first on Engineering at Meta.",
+    "title": "일관성 있는 Agentic AI Workflow를 팀 프로젝트에 적용하는 법 #2",
+    "description": "전편에서 제안한 원칙들을 어떻게 팀 프로젝트에 적용하는지에 대해 Claude Code Plugin / Skills / Hooks를 이용하여 구체적인 예시를 살펴본다. 케이스: LLM의 작업 진행사항을 이슈 트래커와 동기화하기 언젠가 AI의 개발 산출물이 인간의 수준을 아득히 뛰어넘는 날이 오면 더 이상 작업 이력을 추적할 필요가 없어지는 시점이 올지도 모른다.하지만 인간지능과 인공지능이 공동의 산출물을 함께 작업하는 현시점에서는 기존의 방식대로 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/01/27/security/rust-at-scale-security-whatsapp/",
-    "pubDate": "Tue, 27 Jan 2026 15:00:09 +0000",
-    "creator": "Unknown",
+    "link": "https://01010011.blog/2026/01/30/how-to-build-a-consistent-agentic-ai-workflow-for-team-projects-2/",
+    "pubDate": "Fri, 30 Jan 2026 01:07:34 +0000",
+    "creator": "bahamoth",
     "categories": [
-      "Security & Privacy",
-      "WhatsApp"
+      "programming"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "ACP Agent Registry Is Live: Find and Connect AI Coding Agents in Your JetBrains IDE",
-    "description": "AI coding agents are multiplying fast. Some of the most common ones include Gemini CLI, Claude Code, Auggie, OpenCode, and Copilot, and more are being released every day. Each comes with its own unique strengths, specific setups, and varying levels of editor support. Keeping track of what’s out there, let alone getting it running in your […]",
+    "title": "My Journey to Airbnb: Peter Coles",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/01/acp-agent-registry/",
-    "pubDate": "Wed, 28 Jan 2026 14:56:05 +0000",
-    "creator": "Jan-Niklas Wortmann",
+    "link": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-peter-coles-0e8efd01c5a8?source=rss----53c7c27702d5---4",
+    "pubDate": "Wed, 28 Jan 2026 18:04:20 GMT",
+    "creator": "Lauren Mackevich",
     "categories": [
-      "ai-assistant",
-      "news",
-      "acp"
+      "people",
+      "data-science",
+      "economics",
+      "technology"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Rust vs JavaScript & TypeScript: performance, WebAssembly, and developer experience",
-    "description": "TL;DR Rust and JavaScript/TypeScript (JS/TS) are often perceived as rivals, but in reality, they’re complementary languages that serve different purposes and excel across different domains. They were designed with different goals in mind, which dictate the best use cases for each. JavaScript/TypeScript offers benefits such as unmatched flexibility, a massive ecosystem, and rapid iteration. Meanwhile, […]",
+    "title": "2025 프론트엔드 뉴스 한 방에 몰아보기",
+    "description": "[![NHN Cloud_meetup banner_frontendnews2025_202601_1400.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfrontendnews20252026011400%282%29.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n안녕하세요. NHN Cloud NCUI개발팀 이진우입니다.\r\r\n\r\r\n저는 매주 30여 개의 Web, Frontend, Design, Design System 등의 기술 뉴스레터를 살피고 동료들에게 공유해 왔는데요. 작년에 이어 올해도 개인적으로 인상 깊었던 아티클을 주제별로 공유드리고자 합니다.\r\r\n\r\r\n> 작년에 공유했던 2024년의 프론트엔드 뉴스 모음은 아래 경로에서 확인하실 수 있습니다.\r\r\n>  [2024 프론트엔드 뉴스 한 방에 몰아 보기](https://meetup.nhncloud.com/posts/390)\r\r\n\r\r\n관심사와 조직 내 영향력이 큰 기술 스택을 중심으로 정리한 내용이기에 프론트엔드 생태계 전체를 대변한다고 보기는 어렵지만, 흥미가 가는 주제가 있다면 함께 첨부한 링크들이 출발점으로서 작은 도움이 되기를 바랍니다.\r\r\n\r\r\n> 본문의 링크들은 과거 시점 기준의 자료이므로 변경된 내용이 있을 수 있습니다.  \r\r\n\r\r\n## Node.js의 TypeScript 지원\r\r\n\r\r\n2025년 초 Node.js는 Bun, Deno와 같은 경쟁자들에게 대적하기 위해 TypeScript 파일 실행 지원을 추가했습니다. 개발자 경험을 향상시키는 것이 주 목적이었기에 타입 체크, 컴파일이 아닌 타입을 걷어내는 것(Type Stripping)으로 방향을 잡았는데요. 이를 위해 SWC를 기반으로 한 Amaro가 핵심 도구로 기대 받았고, TypeScript 측에서도 관련 플래그를 추가했으며 최근 v24.12 버전에서 안정화 단계에 들어서게 되었습니다.\r\r\n\r\r\n### Type Stripping 개념과 구현\r\r\n\r\r\nNode.js가 채택한 Type Stripping 방식의 원리와 구현 배경을 다룹니다.\r\r\n\r\r\n* [Node.js now supports TypeScript by default](https://www.totaltypescript.com/typescript-is-coming-to-node-23)\r\r\n* [Everything you need to know about node.js type stripping](https://satanacchio.hashnode.dev/everything-you-need-to-know-about-nodejs-type-stripping)\r\r\n* [The Summer I Shipped Type Stripping](https://satanacchio.hashnode.dev/the-summer-i-shipped-type-stripping)\r\r\n\r\r\n### 생태계 지원 현황\r\r\n\r\r\nTypeScript 5.8의 플래그 추가, Amaro 1.0 릴리스, Node.js 안정화 버전 등 생태계 전반의 지원 현황입니다.\r\r\n\r\r\n* [Announcing TypeScript 5.8](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8/#the---erasablesyntaxonly-option)\r\r\n* [Node.js Moves Toward Stable TypeScript Support with Amaro 1.0](https://socket.dev/blog/node-js-moves-toward-stable-typescript-support-with-amaro-1-0)\r\r\n* [Node.js v24.12.0](https://nodejs.org/en/blog/release/v24.12.0)\r\r\n\r\r\n### 런타임 간 비교\r\r\n\r\r\nDeno와 Node.js의 TypeScript 지원 비교입니다.\r\r\n\r\r\n* [Node just added TypeScript support. What does that mean for Deno?](https://deno.com/blog/typescript-in-node-vs-deno)\r\r\n\r\r\n## React 2025 회고\r\r\n\r\r\n2025년 React를 보면 프론트엔드의 인프라라고 불러야 할 만큼 범위가 넓어졌습니다. LLM 시대에 React가 사실상 기본 출력물이 되면서 새 프레임워크는 출발부터 불리하다는 주장도 과언이 아닙니다.\r\r\n\r\r\n작년 말 v19 릴리스 이후 `action`, `useActionState`, `useOptimistic`, `` 같은 기능이 추가됐습니다. Form Submit, Loading, Error 등 웹 애플리케이션이 늘 겪는 문제를 React 기본 기능으로 끌어당긴 모양새입니다. 다만 동시성이 기본값이 될수록 개발자도 새로운 규칙을 익혀야 합니다. 코드는 더 선언적으로 보이지만, 어떤 상태를 어떤 방식으로 업데이트할지 조직 내 합의도 필요해질 것 같습니다.\r\r\n\r\r\nv19 이후 CRA(create-react-app)는 사실상 종료됐습니다. 의존성 충돌을 막기 위한 변경 사항이 병합되긴 했지만, 기존 애플리케이션도 Next.js, React Router, Vite 등으로 전환이 권고됐습니다. 이 권고 문구가 Next.js를 지나치게 강조한다며 커뮤니티에서 논란이 되기도 했습니다. 높은 채택률을 보였던 styled-components도 유지보수 모드로 전환됐습니다.\r\r\n\r\r\n연말에는 RSC 보안 이슈가 터졌습니다. React가 인프라가 됐다는 말이 과장이 아님을 보여준 사건입니다. 이제 React가 커졌다는 건 기능의 문제가 아니라 책임 범위의 문제로 봐야 할 것 같습니다.\r\r\n\r\r\n### v19 신규 기능\r\r\n\r\r\naction, useActionState, useOptimistic, Activity, useEffectEvent, use() 등 v19에서 도입된 주요 기능들입니다.\r\r\n\r\r\n* [3 ways to build forms in react (without any libraries)](https://reactpractice.dev/articles/3-ways-to-build-forms-in-react)\r\r\n* [Building Reusable Components with React 19 Actions](https://aurorascharff.no/posts/building-reusable-components-with-react19-actions/)\r\r\n* [useOptimistic to Make Your App Feel Instant](https://www.epicreact.dev/use-optimistic-to-make-your-app-feel-instant-zvyuv)\r\r\n* [How React Suspense Works Under the Hood: Throwing Promises and Declarative Async UI](https://www.epicreact.dev/how-react-suspense-works-under-the-hood-throwing-promises-and-declarative-async-ui-plbrh)\r\r\n* [React Concurrent Features: An Overview](https://certificates.dev/blog/react-concurrent-features-an-overview/)\r\r\n* [React’s useTransition and state update reordering](https://jordaneldredge.com/notes/react-rebasing/)\r\r\n* [Using Activity with Suspenseful data](https://www.simeongriggs.dev/use-the-activity-boundary-to-hide-suspenseful-components/)\r\r\n* [Tried React 19’s Activity Component Here’s What I Learned](https://javascript.plainenglish.io/tried-react-19s-activity-component-here-s-what-i-learned-b0f714003a65)\r\r\n* [Quick look into the useEffectEvent](https://www.nico.fyi/blog/quick-look-use-effect-event)\r\r\n* [React 19.2: React in its sigma era](https://dev.to/sagi0312/react-192-react-in-its-sigma-era-op7)\r\r\n* [React 19.2: The async shift is finally here](https://blog.logrocket.com/react-19-2-the-async-shift/)\r\r\n* [The next era of React has arrived: Here’s what you need to know](https://blog.logrocket.com/the-next-era-of-react/)\r\r\n* [React has changed, your Hooks should too](https://allthingssmitty.com/2025/12/01/react-has-changed-your-hooks-should-too/)\r\r\n* [React RFC: Context Selector](https://github.com/reactjs/rfcs/pull/119/)\r\r\n\r\r\n### 예외 처리\r\r\n\r\r\nError Boundary의 v19 변경 사항과 react-error-boundary 활용법입니다.\r\r\n\r\r\n* [Error Handling in React with react-error-boundary](https://certificates.dev/blog/error-handling-in-react-with-react-error-boundary)\r\r\n* [React 19 Error Boundary Behaves Differently](https://andrei-calazans.com/posts/react-19-error-boundary-changed/)\r\r\n\r\r\n### RSC(React Server Components)\r\r\n\r\r\nServer Components의 동작 원리와 import 메커니즘입니다.\r\r\n\r\r\n* [How Imports Work in RSC](https://overreacted.io/how-imports-work-in-rsc/)\r\r\n* [React Frameworks and Server-Side Features: Beyond Client-Side Rendering](https://certificates.dev/blog/react-frameworks-and-server-side-features-beyond-client-side-rendering)\r\r\n\r\r\n### RSC 보안 취약점\r\r\n\r\r\nFlight Protocol 역직렬화 과정의 원격 코드 실행 취약점(CVE-2025-55182)입니다.\r\r\n\r\r\n* [Critical Security Vulnerability in React Server Components](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components)\r\r\n* [React2Shell Security Bulletin](https://vercel.com/kb/bulletin/react2shell)\r\r\n* [Understanding the RCE Flaw in React Server Functions](https://gist.github.com/sriram-palanisamy-hat/d207174ada2fa052ad44439f22a65c7e)\r\r\n\r\r\n### 생태계 변화\r\r\n\r\r\nCRA 종료와 styled-components 유지보수 모드 전환입니다.\r\r\n\r\r\n* [create-react-app is a zombie application](https://www.clientserver.dev/p/create-react-app-is-a-zombie-application)\r\r\n* [Cut styled-components into pieces: This is our last resort](https://www.sanity.io/blog/cut-styled-components-into-pieces-this-is-our-last-resort)\r\r\n\r\r\n## 조용했던 React Compiler의 시간\r\r\n\r\r\n작년 이맘때쯤에도 React Compiler를 소개했었는데요. 떠들썩했던 2024년의 분위기와 달리 RC를 거쳐 조용히 React Compiler v1.0.0이 릴리스되었고, 이를 적용하기 위한 점진적 도입 방법에 대한 글이 올라왔습니다. 간간이 성능 개선 사례와 React Compiler를 다루는 아티클이 있었습니다.\r\r\n\r\r\n### 릴리스와 도입 가이드\r\r\n\r\r\nRC부터 v1.0.0까지의 릴리스와 점진적 도입 방법입니다.\r\r\n\r\r\n* [React Compiler RC](https://react.dev/blog/2025/04/21/react-compiler-rc)\r\r\n* [React Compiler v1.0.0](https://www.npmjs.com/package/babel-plugin-react-compiler/v/1.0.0)\r\r\n* [Incremental Adoption](https://react.dev/learn/react-compiler/incremental-adoption)\r\r\n\r\r\n### 실전 적용 사례\r\r\n\r\r\n프로덕션 환경 도입 경험과 상태 관리 라이브러리와의 관계입니다.\r\r\n\r\r\n* [Adopting the compiler at wakelet.com in production](https://github.com/reactwg/react-compiler/discussions/52)\r\r\n* [Thoughts on state management libraries in the react compiler era](https://blog.axlight.com/posts/thoughts-on-state-management-libraries-in-the-react-compiler-era/)\r\r\n\r\r\n### 트러블슈팅과 내부 모델\r\r\n\r\r\nCompiler 관련 트러블슈팅과 Compiler에서 값의 변이와 별칭 관계를 추론하는 모델을 설명합니다.\r\r\n\r\r\n* [use no memo](https://react.dev/reference/react-compiler/directives/use-no-memo)\r\r\n* [React Compiler’s Silent Failures (And How to Fix Them)](https://acusti.ca/blog/2025/12/16/react-compiler-silent-failures-and-how-to-fix-them/)\r\r\n* [The Mutability \\& Aliasing Model](https://github.com/facebook/react/blob/156b7a96f5669470182ad226306184576d6f150f/compiler/packages/babel-plugin-react-compiler/src/Inference/MUTABILITY_ALIASING_MODEL.md)\r\r\n\r\r\n## Next.js의 보안 이슈와 복잡성\r\r\n\r\r\n어느샌가 프론트엔드는 브라우저를 넘어 서버 영역에 발을 들였습니다. 웹 성능 향상을 위한 기능 개선이 이어졌고, 서버 영역 진출만큼 보안 사고도 발생했습니다. 이 흐름의 중심에 Next.js가 있습니다.\r\r\n\r\r\n기능이 추가될수록 복잡성도 함께 올라갔고, 많은 개발자가 피로감을 호소한 한 해였습니다. 대안으로 TanStack Start가 자주 언급됐고, Next.js를 떠나는 후기는 어느 순간 메모조차 하지 않을 만큼 많았습니다.\r\r\n\r\r\n보안 이슈도 빼놓을 수 없습니다. Next.js는 꽤 넓은 버전 범위에 걸쳐 미들웨어 인증 검사를 헤더만으로 우회할 수 있는 취약점이 있었습니다. 클라이언트 요청과 내부 SubRequest를 구분하기 위해 사용한 비공식 헤더가 문제였는데, 이를 악용하면 전혀 관련 없는 경로에 영향을 줄 수 있었습니다. Vercel에서 호스팅된 앱은 자체적으로 방어하고 있었다는 점에서 의문이 들기도 했습니다.\r\r\n\r\r\n일부 개발자들은 타 호스팅 업체들이 Next.js의 모든 기능을 지원하는 데 어려움을 겪고 있다고 지적했습니다. Next.js가 공식 어댑터를 제공하지 않는 점, 보안 취약점 대응에 소극적이었던 점도 비판의 대상이 됐습니다.\r\r\n\r\r\n그럼에도 Next.js는 Turbopack, React Compiler, PPR 등을 탑재한 v16을 릴리스하며 업데이트를 이어가고 있고 여전히 긍정적인 시선도 존재합니다.\r\r\n\r\r\n### 보안 취약점\r\r\n\r\r\n미들웨어 인증 우회 취약점입니다.\r\r\n\r\r\n* [Next.js and the corrupt middleware: the authorizing artifact](https://zhero-web-sec.github.io/research-and-things/nextjs-and-the-corrupt-middleware)\r\r\n* [CVE-2025-29927: Authorization Bypass in Next.js Middleware](https://github.com/advisories/GHSA-f82v-jwr5-mffw)\r\r\n\r\r\n### 셀프 호스팅과 배포\r\r\n\r\r\nVercel 외 환경에서의 Next.js 운영과 셀프 호스팅 가이드입니다.\r\r\n\r\r\n* [Deploying a Next.js App to Production in any server](https://www.saybackend.com/blog/04-deploy-nextjs-to-production-without-vercel)\r\r\n* [How we run Next.js today - and what should change](https://www.netlify.com/blog/how-we-run-nextjs/)\r\r\n* [The Complete Guide to Self-Hosting Next.js at Scale](https://dlhck.com/thoughts/the-complete-guide-to-self-hosting-nextjs-at-scale/)\r\r\n\r\r\n### Next.js 이탈 사례\r\r\n\r\r\n다른 프레임워크로 전환한 팀들의 경험담입니다.\r\r\n\r\r\n* [Why we moved off next.js](https://documenso.com/blog/why-we-moved-off-next-js)\r\r\n* [We migrated our site to Eleventy and increased performance by 24%](https://etch.co/blog/we-migrated-our-site-to-eleventy-and-increased-performance-by-24-percent/)\r\r\n* [Why we ditched Next.js and never looked back](https://northflank.com/blog/why-we-ditched-next-js-and-never-looked-back)\r\r\n\r\r\n### Next.js 비판과 대안\r\r\n\r\r\n구조적 문제와 도입 전 고려 사항과 대안으로 떠오르는 TanStack Start 관련 내용입니다.\r\r\n\r\r\n* [You don't need Next.js](https://www.comfydeploy.com/blog/you-dont-need-nextjs)\r\r\n* [You should know this before choosing Next.js](https://eduardoboucas.com/posts/2025-03-25-you-should-know-this-before-choosing-nextjs/)\r\r\n* [Why Next.js Falls Short on Software Engineering](https://blog.webf.zone/why-next-js-falls-short-on-software-engineering-d3575614bd08)\r\r\n* [Architecting with Constraints: A Pragmatic Guide](https://www.lorenstew.art/blog/always-architect-with-contraints/)\r\r\n* [Next.js vs Tanstack](https://www.kylegill.com/essays/next-vs-tanstack/)\r\r\n* [TanStack Start: New competitor to Next.js](https://ondrejvelisek.github.io/tanstack-start-new-competitor-to-nextjs/)\r\r\n* [Why developers are leaving Next.js for TanStack Start, and loving it](https://appwrite.io/blog/post/why-developers-leaving-nextjs-tanstack-start)\r\r\n\r\r\n### 긍정적 전말과 릴리스\r\r\n\r\r\nNext.js의 미래에 대한 긍정적 시각과 렌더링 방식에 대한 이해입니다.\r\r\n\r\r\n* [I like the future of Next.js](https://tigerabrodi.blog/i-like-the-future-of-nextjs)\r\r\n* [How to understand the concepts of Next.js such as CSR , SSR, SSG, ISR, RSC, SPA, and Streaming SSR?](https://dev.to/nextjser/how-to-understand-the-concepts-of-nextjs-such-as-csr-ssr-ssg-isr-rsc-spa-and-streaming-ssr-pl3)\r\r\n\r\r\n## npm 보안 위기의 해\r\r\n\r\r\n2025년은 보안 사고가 끊이지 않았습니다. 공급망 공격을 비롯한 여러 보안 취약점 등이 있었습니다. 다행히 최근 주요 플랫폼들이 발빠르게 대응하며 보안 체계를 갖춰가고 있습니다. \r\r\n\r\r\n### 개발자 계정 탈취로 인한 공급망 공격\r\r\n\r\r\n유명 라이브러리의 개발자들이 피싱으로 계정이 탈취되었고 이에 따라 오염된 패키지가 배포되는 사건들이 있었습니다.\r\r\n\r\r\n* [npm Author Qix Compromised via Phishing Email in Major Supply Chain Attack](https://socket.dev/blog/npm-author-qix-compromised-in-major-supply-chain-attack)\r\r\n* [npm debug and chalk packages compromised](https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised)\r\r\n* [Version 5.6.1 published to npm is compromised (RESOLVED)](https://github.com/chalk/chalk/issues/656)\r\r\n* [infowski - hackerspace.pl](https://social.hackerspace.pl/@informatic/115168929981581855)\r\r\n* [DuckDB npm Account Compromised in Continuing Supply Chain Attack](https://socket.dev/blog/duckdb-npm-account-compromised-in-continuing-supply-chain-attack)\r\r\n* [DuckDB NPM packages 1.3.3 and 1.29.2 compromised with malware](https://github.com/duckdb/duckdb-node/security/advisories/GHSA-w62p-hx95-gf2c)\r\r\n* [eslint-config-prettier Compromised: How npm Package with 30 Million Downloads Spread Malware](https://safedep.io/eslint-config-prettier-major-npm-supply-chain-hack/)\r\r\n* [Popular npm linter packages hijacked via phishing to drop malware](https://www.bleepingcomputer.com/news/security/popular-npm-linter-packages-hijacked-via-phishing-to-drop-malware/)\r\r\n* [npm Phishing Email Targets Developers with Typosquatted Domain](https://socket.dev/blog/npm-phishing-email-targets-developers-with-typosquatted-domain)\r\r\n* [Josh Junon - bluesky](https://bsky.app/profile/bad-at-computer.bsky.social/post/3lydioq5swk2y)\r\r\n* [JounQin - X](https://x.com/JounQin/status/1946297662069993690)\r\r\n* [npm ‘is’ Package Hijacked in Expanding Supply Chain Attack](https://socket.dev/blog/npm-is-package-hijacked-in-expanding-supply-chain-attack)\r\r\n    [](https://socket.dev/blog/tinycolor-supply-chain-attack-affects-40-packages)\r\r\n* [Popular Tinycolor npm Package Compromised in Supply Chain Attack Affecting 40+ Packages](https://socket.dev/blog/tinycolor-supply-chain-attack-affects-40-packages)\r\r\n* [ctrl/tinycolor and 40+ NPM Packages Compromised](https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised)\r\r\n\r\r\n\r\r\n### Shai-Hulud 공격\r\r\n\r\r\nShai-Hulud 대규모 공급망 공격 분석입니다.\r\r\n\r\r\n* [Shai-Hulud Returns: Over 1K NPM Packages and 27K+ Github Repos infected via Fake Bun Runtime Within Hours](https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24)\r\r\n* [The Shai-Hulud 2.0 npm worm: analysis, and what you need to know](https://securitylabs.datadoghq.com/articles/shai-hulud-2.0-npm-worm/)\r\r\n* [NPM Security Best Practices: How to Protect Your Packages After the 2025 Shai Hulud Attack](https://snyk.io/fr/articles/npm-security-best-practices-shai-hulud-attack/)\r\r\n* [GitLab discovers widespread npm supply chain attack](https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/)\r\r\n\r\r\n### 플랫폼 보안 강화\r\r\n\r\r\nnpm과 Github의 인증 체계 개선과 보안 기능 업데이트입니다.\r\r\n\r\r\n* [npm classic tokens revoked, session-based auth and CLI token management now available](https://github.blog/changelog/2025-12-09-npm-classic-tokens-revoked-session-based-auth-and-cli-token-management-now-available/)\r\r\n* [npm trusted publishing with OIDC is generally available](https://github.blog/changelog/2025-07-31-npm-trusted-publishing-with-oidc-is-generally-available/)\r\r\n* [How We're Protecting Our Newsroom from npm Supply Chain Attacks](https://pnpm.io/blog/2025/12/05/newsroom-npm-supply-chain-security)\r\r\n\r\r\n### 도구\r\r\n\r\r\n보안 강화를 위한 다양한 라이브러리입니다.\r\r\n\r\r\n* [safe-npm](https://github.com/kevinslin/safe-npm)\r\r\n* [npq](https://github.com/lirantal/npq)\r\r\n* [reproduce](https://github.com/vltpkg/reproduce)\r\r\n* [exposedbydefault](https://github.com/neberej/exposedbydefault)\r\r\n\r\r\n## 빌드 도구의 Rust 전환\r\r\n\r\r\n작년에 이어 JavaScript 툴체인의 Rust 재작성이 가속화되고 있습니다. Rust 전환 시 기존 대비 10-100배의 성능 향상이 가능하기 때문에, 복잡해진 프론트엔드 생태계에서 이 흐름은 이제 거스르기 어려워 보입니다.\r\r\n\r\r\n가장 두드러진 성과를 내는 곳은 VoidZero로 보입니다. Rolldown, Oxc, Oxfmt, Oxlint 등의 프로젝트를 운영하고 있습니다. 이 외에도 ByteDance의 Rsbuild/Rspack, 통합 툴체인 Deno, Vercel의 Turbopack, Meta의 Buck2 등이 있습니다.\r\r\n\r\r\n개인적인 경험도 있습니다. NCUI가 실제 서비스에서 어떻게 사용되는지 추적하기 위해 만든 사이드 프로젝트에서 JavaScript 기반 분석 도구를 SWC 기반으로 재개발했는데 처리 속도가 50배 이상 빨라졌습니다.\r\r\n\r\r\nVite는 지속적인 업데이트 끝에 Rolldown을 탑재한 v8 메이저 업데이트를 앞두고 있습니다. 아직 Webpack을 사용 중이라면 마이그레이션을 검토해 볼 만합니다.\r\r\n\r\r\n### Voidzero의 소식\r\r\n\r\r\nVoidzero 진영의 Rolldown 번들러 소식과 Oxlint 관련 내용입니다.\r\r\n\r\r\n* [How Rolldown Works: Module Loading, Dependency Graphs, and Optimization Explained](https://www.atriiy.dev/blog/rolldown-module-loader-and-dependency-graph/)\r\r\n* [Rolldown 1.0 Beta](https://github.com/rolldown/rolldown/releases/tag/v1.0.0-beta.1)\r\r\n* [Vite 8 Beta: The Rolldown-powered Vite](https://vite.dev/blog/announcing-vite8-beta)\r\r\n* [tsdown](https://github.com/rolldown/tsdown)\r\r\n* [Oxlint v1](https://oxc.rs/blog/2025-06-10-oxlint-stable.html)\r\r\n* [Faster Type-Aware Lint Rules: Biome vs. Oxlint](https://www.solberg.is/fast-type-aware-linting/)\r\r\n*  [Vite just passed Webpack in weekly npm downloads](https://x.com/youyuxi/status/1950234261573038444)\r\r\n\r\r\n### 번들러 비교와 전망\r\r\n\r\r\n* [The JavaScript Bundler Grand Prix](https://redmonk.com/kholterhoff/2025/12/16/javascript-bundler-grand-prix/)\r\r\n* [Bundler Explorer](https://bundler.sxzz.dev/)\r\r\n* [Speeding up the JavaScript ecosystem - Rust and JavaScript plugins](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/)\r\r\n\r\r\n## 새로운 HTML/CSS 네이티브 기능의 폭발\r\r\n\r\r\nBaseline, Interop 활동에 힘입어 HTML/CSS 네이티브 기능이 쏟아졌습니다. 사실 이런 주제의 아티클은 꾸준히 올라오지만, 최신 브라우저만을 사용자 환경으로 전제할 수 없어 깊이 들여다보지 못한 경우가 많았습니다. 그래도 관심을 놓지 않고 있다가 충분히 사용 가능한 시점에 네이티브로 전환하면 제품 품질이 확실히 좋아질 거라 생각합니다.\r\r\n\r\r\n### 네이티브 UI 컴포넌트\r\r\n\r\r\n기존에 JavaScript로 구현하던 Tooltip, Popover, Dropdown 같은 UI 패턴을 네이티브로 지원합니다.\r\r\n\r\r\n* [The Basics of Anchor Positioning](https://ishadeed.com/article/anchor-positioning/)\r\r\n* [Better anchor positioning with position-area](https://www.oddbird.net/2025/02/25/anchor-position-area/)\r\r\n* [Follow-the-leader pattern with CSS anchor positioning](https://una.im/follow-the-anchor/)\r\r\n* [The popover api is now baseline newly available](https://web.dev/blog/popover-baseline?hl=en)\r\r\n* [What is popover=hint?](https://una.im/popover-hint/)\r\r\n* [The `` element can now be customized with CSS](https://developer.chrome.com/blog/a-customizable-select?hl=en)\r\r\n* [Updates to the customizable select API](https://una.im/select-updates/)\r\r\n\r\r\n### CSS 조건문\r\r\n\r\r\nif() 함수로 CSS 속성 값 내에서 인라인 조건부 로직을 구현합니다.\r\r\n\r\r\n* [CSS conditionals with the new if() function](https://developer.chrome.com/blog/if-article/)\r\r\n* [Introduction to CSS if Statements and Conditional Logic](https://markodenic.com/introduction-to-css-if-statements-and-conditional-logic/)\r\r\n* [CSS custom functions are coming ... and they are going to be a game changer](https://www.bram.us/2025/02/09/css-custom-functions-teaser/)\r\r\n\r\r\n### 레이아웃\r\r\n\r\r\nSubgrid와 반응형 디자인 기능입니다. 참고로 작년 주제였던 Masonry 레이아웃은 여전히 진행 중입니다.\r\r\n\r\r\n* [Brand New Layouts with CSS Subgrid](https://www.joshwcomeau.com/css/subgrid/)\r\r\n* [Taking RWD(Responsive Web Design) to the extreme](https://www.smashingmagazine.com/2025/02/taking-rwd-to-the-extreme/)\r\r\n* [How much do you really know about media queries?](https://frontendmasters.com/blog/learn-media-queries/)\r\r\n* [Grid Lanes Layout Model](https://www.w3.org/TR/css-grid-3/#grid-lanes-model)\r\r\n* [MDN - Masonry Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout)\r\r\n\r\r\n### 색상과 스타일링\r\r\n\r\r\n* [CSS Custom Properties vs. Sass Variables: A Pragmatic Guide](https://www.alwaystwisted.com/articles/css-vs-sass)\r\r\n* [A pragmatic guide to modern CSS colours - part one](https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/)\r\r\n* [Making Context-Aware Components: How CSS inherit() Could Simplify Design Systems](https://www.alwaystwisted.com/articles/making-context-aware-components)\r\r\n\r\r\n### 새로운 Web API\r\r\n\r\r\nTemporal, Clipboard, Sanitizer, moveBefore 등 신규 브라우저 API와 제안입니다.\r\r\n\r\r\n* [The Clipboard API: How Did We Get Here?](https://cekrem.github.io/posts/clipboard-api-how-hard-can-it-be/)\r\r\n* [Temporal API is coming](https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/)\r\r\n* [Why the Sanitizer API is just setHTML()](https://frederikbraun.de/why-sethtml.html)\r\r\n* [Move elements around the DOM while preserving their state with moveBefore](https://www.bram.us/2025/01/16/move-elements-around-the-dom-while-preserving-their-state-with-movebefore/)\r\r\n* [Making complex web apps faster](https://blogs.windows.com/msedgedev/2025/12/09/making-complex-web-apps-faster/)\r\r\n\r\r\n### 종합 가이드\r\r\n\r\r\nHTML/CSS 신기능 전반을 다룹니다.\r\r\n\r\r\n* [Relatively new things you should know about HTML heading into 2025](https://frontendmasters.com/blog/bone-up-html-2025/)\r\r\n* [Perfecting Baseline](https://piccalil.li/blog/perfecting-baseline/)\r\r\n* ▶️ [25 new \\& rad feature of CSS](https://www.youtube.com/watch?v=QW6GECIzvsw)\r\r\n* [CSS Wrapped 2025](https://chrome.dev/css-wrapped-2025/)\r\r\n\r\r\n## AI 트렌드\r\r\n\r\r\n프론트엔드를 떠나 IT 산업 전반을 돌아보면, 2025년은 단연 LLM/AI가 가장 뜨거운 키워드였습니다. 상반기만 해도 MCP 프로토콜 소개나 LLM 기반 코드 개발 후기 정도가 화제였는데, 불과 몇 달 만에 양상이 달라졌습니다. Angular, Svelte, Chrome DevTools 등 주요 프레임워크가 공식 MCP 서버를 출시했고, Spotify와 Amazon 팀의 실전 도입 사례가 속속 공개되기 시작했습니다. 바이브 코딩, 컨텍스트 엔지니어링, 스펙 주도 개발 같은 방법론이 등장했고, 최근에는 Claude에서 Skills라는 도구까지 나왔습니다.\r\r\n\r\r\n자연스럽게 프론트엔드 영역의 생산성 개선에 관심이 쏠렸습니다. 하지만 LLM은 복잡한 인터랙션 처리에서 한계를 드러냈고, 기대만큼의 임팩트를 보여주진 못했습니다. 이 시기에 AI의 한계를 지적하는 글, 코드 리뷰의 중요성을 강조하는 글, 엔지니어의 책임을 다시 정의하는 글이 쏟아졌습니다. 미래를 단언할 수는 없지만, 현 시점에서는 개발자의 판단력이 여전히 핵심이라는 데 대체로 의견이 모이는 분위기입니다.\r\r\n\r\r\n그럼에도 프론트엔드와 AI의 접점은 계속 넓어지고 있습니다. LLM이 웹 브라우저를 직접 제어하고, React 컴포넌트를 해석하는 도구들이 등장했습니다. Figma는 빠른 속도로 AI 기능을 도입하고 있고, 디자인 토큰을 AI가 읽을 수 있는 구조로 재설계하자는 제안도 나오고 있습니다.\r\r\n\r\r\n2025년 한 해를 돌아보면 솔직히 동네 축구 같다는 생각도 듭니다. '이게 좋다' 하면 모두가 몰려가고, '저게 정답이다' 하면 또 그쪽으로 쏠리는 흐름이 반복됐습니다. 그 와중에 인상 깊었던 LLM 사용 사례와 아티클, 도구를 정리해 공유합니다.\r\r\n\r\r\n### AI 코딩의 한계와 책임\r\r\n\r\r\nLLM 기반 개발의 한계점과 개발자 책임에 대한 논의입니다.\r\r\n\r\r\n* [Can LLMs write better code if you keep asking them to \"write better code?\"](https://minimaxir.com/2025/01/write-better-code/)\r\r\n* [Why you shouldn't use AI to write documentation](https://zeroheight.com/blog/why-you-shouldnt-use-ai-to-write-documentation/)\r\r\n* [Why Your AI Coding Assistant Keeps Doing It Wrong, and How To Fix It](https://blog.thepete.net/blog/2025/05/22/why-your-ai-coding-assistant-keeps-doing-it-wrong-and-how-to-fix-it/)\r\r\n* [Your job is to deliver code you have proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/)\r\r\n* [dead framework theory](https://aifoc.us/dead-framework-theory/)\r\r\n* [How to Fix Any Bug](https://overreacted.io/how-to-fix-any-bug/)\r\r\n\r\r\n### 기업 도입 사례\r\r\n\r\r\nSpotify, Airbnb 등 대규모 조직의 AI 도입 경험입니다.\r\r\n\r\r\n* [1,500+ PRs Later: Spotify’s Journey with Our Background Coding Agent (Part 1)](https://engineering.atspotify.com/2025/11/spotifys-background-coding-agent-part-1)\r\r\n* [The New Calculus of AI-based Coding](https://blog.joemag.dev/2025/10/the-new-calculus-of-ai-based-coding.html)\r\r\n* [Accelerating Large-Scale Test Migration with LLMs](https://medium.com/airbnb-engineering/accelerating-large-scale-test-migration-with-llms-9565c208023b)\r\r\n\r\r\n### MCP와 컨텍스트 엔지니어링\r\r\n\r\r\nModel Context Protocol과 효과적인 AI 활용을 위한 컨텍스트 설계입니다.\r\r\n\r\r\n* [MCP explained without hype of fluff](https://blog.nilenso.com/blog/2025/05/12/mcp-explained-without-hype-or-fluff)\r\r\n* [Chrome DevTools MCP Server](https://developer.chrome.com/blog/chrome-devtools-mcp)\r\r\n* [Getting AI to Work in Complex Codebases](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md)\r\r\n* [Minification isn't obfuscation - Claude Code proves it](https://martinalderson.com/posts/minification-isnt-obfuscation-claude-code-proves-it/)\r\r\n\r\r\n### AI시대의 개발 방법론\r\r\n\r\r\nAPI 설계, 문서화, 추상화 등 AI와 함께하는 개발 방법론입니다.\r\r\n\r\r\n* [How to Design APIs for an AI World ](https://refactoring.fm/p/how-to-design-apis-for-an-ai-world)\r\r\n* [Writing documentation for AI: best practices](https://docs.kapa.ai/improving/writing-best-practices/)\r\r\n* [The New Calculus of AI-based Coding](https://blog.joemag.dev/2025/10/the-new-calculus-of-ai-based-coding.html)\r\r\n* [Conversation: LLMs and Building Abstractions](https://martinfowler.com/articles/convo-llm-abstractions.html)\r\r\n* [Attention Is the New Big-O](https://alexchesser.medium.com/attention-is-the-new-big-o-9c68e1ae9b27/)\r\r\n\r\r\n### 유용한 도구\r\r\n\r\r\nAI 개발에 활용할 수 있는 도구입니다.\r\r\n\r\r\n* [repomix](https://github.com/yamadashy/repomix) - 전체 Repository를 AI 친화적인 단일 파일로 압축\r\r\n* [repo2txt](https://github.com/abinthomasonline/repo2txt) - GitHub Repository를 단일 텍스트로 변환, GUI 기반으로 파일 선택 가능\r\r\n* [ai-digest](https://github.com/khromov/ai-digest) - 코드베이스를 하나의 마크다운 파일로 생성\r\r\n* [claude-flow](https://github.com/ruvnet/claude-flow) - Claude 기반 AI 에이전트를 여러 개 연결해 협업, 복잡한 작업을 단계별 워크플로우로 자동화\r\r\n* [agent-rules](https://github.com/steipete/agent-rules) - Cursor, Claude Code 같은 AI 코드 어시스턴트에게 일관된 행동 지침을 적용하는 규칙 템플릿 모음\r\r\n* [Conductor](https://conductor.build/) - Claude Code를 여러 개 동시에 실행하며 관리하는 도구\r\r\n* [Terragon](https://www.terragonlabs.com/) - Claude Code, OpenAI Codex 등 AI 코딩 에이전트를 클라우드에서 병렬 실행\r\r\n* [react-grab](https://github.com/aidenybai/react-grab) - 페이지의 모든 요소를 선택해 AI 코딩 에이전트에게 컨텍스트로 전달, 단일 스크립트 태그로 설치\r\r\n* [MCP Registry](https://github.com/mcp) - GitHub에서 다양한 MCP 서버를 모아둔 레지스트리\r\r\n* [streamdown](https://streamdown.ai/) - AI Chat 서비스처럼 마크다운 스트리밍 렌더링 지원\r\r\n* [lean-spec](https://github.com/codervisor/lean-spec) - 경량 SDD(Spec-Driven Development) 프레임워크\r\r\n\r\r\n## 그 외 분야별 소식\r\r\n\r\r\n### JavaScript/TypeScript\r\r\n\r\r\n2025년도 JavaScript와 TypeScript 생태계는 활발하게 움직였습니다. TypeScript 7의 Go 포팅 소식, 다양한 언어 패턴과 보안 이슈, 그리고 JSDoc을 활용한 타입 안정성 확보 방법 등 주요 소식을 정리했습니다.\r\r\n\r\r\n#### 언어 기능과 패턴\r\r\n\r\r\nJavaScript의 다양한 언어 기능과 활용 패턴입니다.\r\r\n\r\r\n* [There are a lot of ways to break up long tasks in JavaScript](https://macarthur.me/posts/long-tasks/)\r\r\n* [Breaking Up with Long Tasks or: how I learned to group loops and wield the yield](https://calendar.perfplanet.com/2024/breaking-up-with-long-tasks-or-how-i-learned-to-group-loops-and-wield-the-yield/)\r\r\n* [Category Theory for JavaScript/TypeScript Developers](https://ibrahimcesar.cloud/blog/category-theory-for-javascript-typescript-developers/)\r\r\n* [Say bye with JavaScript Beacon](https://hemath.dev/blog/say-bye-with-javascript-beacon/)\r\r\n* [Using await at the top level in ES Modules](https://allthingssmitty.com/2025/06/16/using-await-at-the-top-level-in-es-modules/)\r\r\n* [30 Years of JavaScript: 10 Milestones That Changed the Web](https://thenewstack.io/30-years-of-javascript-10-milestones-that-changed-the-web/)\r\r\n* [How to Control the Number of Concurrent Promises in JavaScript](https://dev.to/zacharylee/how-to-control-the-number-of-concurrent-promises-in-javascript-3mg8)\r\r\n* [Deeply immutable data structures](https://sanjeettiwari.com/notes/deeply-immutable-structures)\r\r\n* [JavaScript's Promise.race and Promise.all Are Not \"Fair\"](https://v5.chriskrycho.com/notes/javascript-promise-race-and-promise-all-are-not-fair/)\r\r\n* [Sustainable simplicity](https://frontendatscale.com/issues/42)\r\r\n\r\r\n#### TypeScript의 활용\r\r\n\r\r\nTypeScript의 고급 기능과 타입 시스템 활용법입니다.\r\r\n\r\r\n* [TypeScript vs Zod: Clearing up validation confusion](https://blog.logrocket.com/when-use-zod-typescript-both-developers-guide)\r\r\n* [6 Advanced TypeScript Tricks](https://sinja.io/blog/advanced-typescript)\r\r\n* [The Multi-Repository TypeScript Problem](https://www.carrick.tools/blog/the-multi-repository-typescript-problem/)\r\r\n\r\r\n#### JSDoc 활용\r\r\n\r\r\nTypeScript 없이 JSDoc으로 타입 안정성을 확보하는 방법입니다.\r\r\n\r\r\n* [The Nuances of JavaScript Typing using JSDoc](https://thathtml.blog/2025/12/nuances-of-typing-with-jsdoc/)\r\r\n* [How JSDoc Saved My Dev Workflow](https://spin.atomicobject.com/how-jsdoc-saved-my-dev-workflow/)\r\r\n\r\r\n#### TypeScript 생태계\r\r\n\r\r\nTypeScript의 발전 방향과 생태계 변화입니다.\r\r\n\r\r\n* [TypeScript’s rise in the AI era: Insights from Lead Architect, Anders Hejlsberg](https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/)\r\r\n* [The Inner Workings of JavaScript Source Maps](https://www.polarsignals.com/blog/posts/2025/11/04/javascript-source-maps-internals)\r\r\n* [TypeScript is going Go: Why it's the pragmatic choice](https://johnnyreilly.com/typescript-go-pragmatic-choice)\r\r\n\r\r\n#### 보안\r\r\n\r\r\nJavaScript 시큐어 코딩 관련 내용입니다.\r\r\n\r\r\n* [How to consume APIs in React using Fetch and Async/Await](https://blog.codeminer42.com/how-to-consume-apis-in-react-using-fetch-and-async-await/)\r\r\n\r\r\n### 프레임워크\r\r\n\r\r\n앞서 언급한 React 외 주요 프레임워크들의 2025년 소식을 정리했습니다. Remix의 React 결별 선언, Svelte의 성능 입증, Angular의 Zoneless 안정화 등 흥미로운 변화가 많았습니다.\r\r\n\r\r\n#### Remix\r\r\n\r\r\nReact와 결별하고 웹 표준 중심으로 재구상된 Remix v3 소식입니다.\r\r\n\r\r\n* [Wake Up! Remix](https://remix.run/blog/wake-up-remix)\r\r\n* [Remix Jam 2025](https://remix.run/jam/2025)\r\r\n* [React and Remix Choose Different Futures](https://laconicwit.com/react-and-remix-choose-different-futures/)\r\r\n* [Remix 3 and the End of React-Centric Architectures](https://thenewstack.io/remix-3-and-the-end-of-react-centric-architectures/)\r\r\n* [Just JavaScript](https://pedrocattori.com/posts/just-javascript/)\r\r\n*  [Remix v3 Preact 기반 계획 취소](https://x.com/mjackson/status/1955083457144762729)\r\r\n* [Remixing Shopify's Admin](https://shopify.engineering/remixing-admin)\r\r\n\r\r\n#### Svelte\r\r\n\r\r\n개발자 만족도 1위, 성능 벤치마크에서도 가장 빠른 성능을 기록한 Svelte 소식입니다.\r\r\n\r\r\n* [What's new in Svelte: November 2025](https://svelte.dev/blog/whats-new-in-svelte-november-2025)\r\r\n* [Svelte really is that fast](https://chuniversiteit.nl/papers/svelte-is-fast)\r\r\n* [Why startups choose React (and when you shouldn't)](https://evilmartians.com/chronicles/why-startups-choose-react-and-when-you-should-not)\r\r\n\r\r\n#### Angular\r\r\n\r\r\nZoneless 안정화와 시그널 기반 반응성 API를 도입한 Angular 소식입니다.\r\r\n\r\r\n* [Angular Summer Update 2025](https://blog.angular.dev/angular-summer-update-2025-1987592a0b42)\r\r\n* [Angular 2025 Strategy](https://blog.angular.dev/angular-2025-strategy-9ca333dfc334)\r\r\n\r\r\n#### Vue / Nuxt\r\r\n\r\r\nVercel의 Nuxt 인수와 Vue 생태계 현황입니다.\r\r\n\r\r\n* [State of Vue.js Report 2025](https://www.monterail.com/)\r\r\n* [NuxtLabs joins Vercel](https://vercel.com/blog/nuxtlabs-joins-vercel)\r\r\n* [How to build Microfrontends with Module Federation and Vue](https://alexop.dev/posts/how-to-build-microfrontends-with-module-federation-and-vue/)\r\r\n\r\r\n#### Astro\r\r\n\r\r\n클라이언트 JavaScript 최소화와 Content Collections 진화 소식입니다.\r\r\n\r\r\n* [What's new in Astro - January 2025](https://astro.build/blog/whats-new-january-2025/)\r\r\n* [Live Content Collections: A Deep Dive](https://astro.build/blog/live-content-collections-deep-dive/)\r\r\n* [Why use React?](https://adactio.com/journal/22265)\r\r\n\r\r\n#### htmx\r\r\n\r\r\n\"하위 호환성 없는 v3.0은 절대 출시하지 않겠다\"는 약속 때문에 v3를 건너뛰고 v4 출시한 htmx 소식입니다.\r\r\n\r\r\n* [htmx v4](https://htmx.org/essays/the-fetchening/)\r\r\n\r\r\n### 디자인 시스템\r\r\n\r\r\n2025년 디자인 시스템 생태계는 AI 시대를 맞아 큰 전환점을 맞이했습니다. Claude Skills와 Figma MCP 서버의 등장으로 디자인 시스템 팀이 AI를 활용해 마이그레이션 자동화, Storybook 스토리 생성, 토큰 검증 등 반복적인 작업을 자동화할 수 있게 되었고, 이에 따라 디자인 토큰을 AI가 올바르게 이해할 수 있도록 시맨틱 네이밍과 메타데이터를 추가하는 구조화가 새로운 과제로 언급되었습니다.\r\r\n\r\r\n컴포넌트 설계 철학에서는 합성이 하나의 패러다임으로 떠올랐습니다. Figma의 네이티브 슬롯 지원을 계기로 고정된 컴포넌트 대신 기본 컨테이너와 재사용 가능한 자식 요소를 분리해 제공하는 방식이 확산되었고, 다중 추상화 계층 접근법도 주목 받았습니다.\r\r\n\r\r\n디자인 토큰 영역에서는 DTCG가 18개월간 여러 가지 스펙 업데이트를 발표한 반면, 흥미롭게도 디자인 토큰이라는 용어를 처음 만든 Salesforce는 복잡해진 토큰 스펙 대신 CSS 커스텀 프로퍼티로 회귀했습니다. Figma 역시 토큰 대신 변수라는 용어를 선택하며, 업계가 토큰의 복잡성과 단순함 사이에서 균형점을 찾고 있음을 보여줍니다.\r\r\n\r\r\n#### 설계 철학과 전략\r\r\n\r\r\n디자인 시스템의 본질과 성공 전략에 대한 논의입니다.\r\r\n\r\r\n* [Beyond the Plateau of Sameness](https://yeseniaperezcruz.substack.com/p/beyond-the-plateau-of-sameness)\r\r\n* [Bias in Design Systems](https://bencallahan.com/bias-in-design-systems)\r\r\n* [The future of design systems is decentralized](https://uxdesign.cc/the-future-of-design-systems-is-decentralized-770db996442c)\r\r\n* [The dumbest design system mistakes](https://learn.thedesignsystem.guide/p/the-dumbest-design-system-mistakes)\r\r\n* [Design System Tactics](https://redesigningdesign.systems/tactics/all-tactics)\r\r\n* [designtokens.fyi](https://designtokens.fyi/)\r\r\n\r\r\n#### 컴포넌트 설계\r\r\n\r\r\n슬롯, 컴포지션, 추상화 계층 등 컴포넌트 설계 패턴입니다.\r\r\n\r\r\n* [Slots in Design Systems](https://nathanacurtis.substack.com/p/slots-in-design-systems)\r\r\n* [Using composability over inheritance to scale design systems](https://zeroheight.com/blog/using-composability-over-inheritance-to-scale-design-systems/)\r\r\n* [Multiple Layers of Abstraction in Design Systems](https://engineering.atspotify.com/2023/05/multiple-layers-of-abstraction-in-design-systems/)\r\r\n* [The power of relationships in design systems](https://learn.thedesignsystem.guide/p/the-power-of-relationships-in-design)\r\r\n\r\r\n#### 디자인 토큰\r\r\n\r\r\n토큰 스펙 진화와 실무 활용법입니다.\r\r\n\r\r\n* [What's new in the Design Tokens spec](https://zeroheight.com/blog/whats-new-in-the-design-tokens-spec/)\r\r\n* [Design Token-Based UI Architecture](https://martinfowler.com/articles/design-token-based-ui-architecture.html)\r\r\n* [A Design Token Workflow](https://www.alwaystwisted.com/articles/a-design-tokens-workflow-part-1)\r\r\n* [Generating Utility Classes from Design Tokens](https://www.alwaystwisted.com/articles/a-design-tokens-workflow-part-13)\r\r\n* [Avoiding Tokens](https://blog.damato.design/posts/avoiding-tokens/)\r\r\n* [Introducing Design Tokens Language Server](https://bennypowers.dev/posts/introducing-design-tokens-language-server/)\r\r\n\r\r\n#### AI와 디자인 시스템\r\r\n\r\r\nAI 시대에 디자인 시스템을 활용하고 최적화하는 방법입니다.\r\r\n\r\r\n* [3 practical ways LLMs can support design systems teams today](https://zeroheight.com/blog/3-practical-ways-llms-can-support-design-systems-teams-today/)\r\r\n* [Why your design system team need Claude Skills](https://learn.thedesignsystem.guide/p/why-your-design-system-team-need)\r\r\n* [Design tokens that AI can actually read](https://learn.thedesignsystem.guide/p/design-tokens-that-ai-can-actually)\r\r\n* [How to build patterns from your design system components with AI](https://learn.thedesignsystem.guide/p/how-to-build-patterns-from-your-design)\r\r\n\r\r\n#### 문서화와 운영\r\r\n\r\r\n디자인 시스템 문서화, 접근성 감사, 유지보수 전략 및 운영입니다.\r\r\n\r\r\n* [How to document your design system components](https://zeroheight.com/blog/how-to-document-your-design-system-components/)\r\r\n* [When's the right time to start documenting your design system?](https://zeroheight.com/blog/whens-the-right-time-to-start-documenting-your-design-system/)\r\r\n* [Storefront \\& Warehouse](https://blog.damato.design/posts/storefront-warehouse/)\r\r\n* [Design tokens aren't enough. ADR need a place](https://samiamdesigns.substack.com/p/design-tokens-arent-enough-architecture)\r\r\n* [Retrofitting a Design System Into an Existing Product](https://medium.com/@anilpak35/retrofitting-a-design-system-into-an-existing-product-a9ebfe3d7d30)\r\r\n\r\r\n### 라이브러리\r\r\n\r\r\n개발 생산성을 높여주는 다양한 도구들이 등장했습니다. UI 관련 라이브러리, 프로젝트 분석, TypeScript 개발, 보안, 테스트까지 카테고리별로 정리했습니다.\r\r\n\r\r\n#### UI 컴포넌트\r\r\n\r\r\nshadcn/ui는 지속적으로 엄청난 확장을 거듭하며 가장 영향력 있는 생태계 중 하나가 되었고, 지속적으로 주목받던 Base UI가 v1을 릴리스했습니다.\r\r\n\r\r\n* [shadcn/ui](https://ui.shadcn.com/) - CLI 3.0, Monorepo 지원, 다양한 신규 컴포넌트\r\r\n* [shadcn/ui.create](https://ui.shadcn.com/create) - GUI로 자신만의 shadcn/ui 구성\r\r\n* [shadcn.io](https://www.shadcn.io/) - MIT 라이선스 무료 컴포넌트 커뮤니티 레지스트리\r\r\n* [shadcn/ui Form documentation](https://ui.shadcn.com/docs/forms) - React Hook Form, TanStack Form 통합 가이드\r\r\n* [themecn](https://themecn.dev/) - shadcn 기반 테마 생성기\r\r\n* [formcn](https://formcn.dev/) - shadcn 기반 양식 생성기\r\r\n* [base-ui v1.0](https://base-ui.com/) - Radix, Material UI, Floating UI 개발자들의 컴포넌트 재정의\r\r\n* [Headless Tree](https://headless-tree.lukasbach.com/) - 트리 컴포넌트 라이브러리\r\r\n\r\r\n#### 프로젝트 분석\r\r\n\r\r\n코드베이스와 의존성을 분석하고 정리하는 도구들입니다.\r\r\n\r\r\n* [Knip](https://knip.dev/) - 불필요한 파일, 의존성, 내보내기 등을 JavaScript/TypeScript 프로젝트에서 추출\r\r\n* [qnm](https://github.com/ranyitz/qnm) - node\\_modules 탐색 CLI, 퍼지 검색, 패키지 설치 이유 설명, 모노레포 지원\r\r\n* [API Extractor](https://api-extractor.com/) - TypeScript 라이브러리 API 관리, 변경 감지, export 검증, .d.ts rollup 생성\r\r\n* [sonda](https://github.com/filipsobol/sonda) - 소스맵 분석으로 트리쉐이킹/압축 후 실제 모듈 크기 시각화\r\r\n\r\r\n#### TypeScript 개발 도구\r\r\n\r\r\nTypeScript 개발 경험을 개선하는 도구들입니다.\r\r\n\r\r\n* [ts-migrating](https://github.com/ycmjason/ts-migrating) - strict 모드 등 새 compilerOptions를 점진적으로 적용, @ts-migrating 주석으로 라인별 제어\r\r\n* [ts-exec](https://github.com/poppinss/ts-exec) - SWC로 Node에서 TypeScript 실행, ts-node/tsx 문제 해결\r\r\n* [ts-to-zod](https://github.com/fabien0102/ts-to-zod) - TypeScript 타입/인터페이스에서 Zod 스키마 자동 생성\r\r\n* [typia](https://github.com/samchon/typia) - 컴파일 타임에 타입 정보만으로 유효성 검사, 간단한 문법\r\r\n\r\r\n#### 데이터 검증과 HTTP\r\r\n\r\r\n데이터 검증과 HTTP 요청을 다루는 라이브러리들입니다.\r\r\n\r\r\n* [Of Coerce!](https://github.com/kossnocorp/ofcoerce) - Zod/Valibot 경량 대안, FormData 직접 처리, RSC 폼에 유용\r\r\n* [ffetch](https://github.com/fetch-kit/ffetch) - TypeScript HTTP 클라이언트, 타임아웃/재시도/중복 제거 내장\r\r\n* [ky](https://github.com/sindresorhus/ky) - Fetch API 기반 HTTP 클라이언트, 자동 재시도/타임아웃/JSON 옵션, 의존성 없음\r\r\n* [upfetch](https://github.com/L-Blondy/up-fetch) - fetch 개선 TypeScript 라이브러리\r\r\n\r\r\n#### 기타\r\r\n\r\r\n다양한 개발 편의 도구들입니다.\r\r\n\r\r\n* [vercel/bidc](https://github.com/vercel/bidc) - 워커/iframe/서비스 워커 간 양방향 비동기 통신, Promise/Map/Set 전송 지원\r\r\n* [dotter](https://github.com/SuperCuber/dotter) - Rust 기반 dotfile 관리자, 심볼릭 링크와 템플릿화로 여러 머신 설정 관리\r\r\n* [globby](https://github.com/sindresorhus/globby) - fast-glob 기반 사용자 친화적 glob 매칭, .gitignore 인식\r\r\n* [nstr](https://github.com/shuding/nstr) - 부동소수점 정밀도 오류 자동 감지/수정, UI 표시에 적합한 형태로 변환\r\r\n* [i18n-check](https://github.com/lingualdev/i18n-check) - i18next 번역 파일에서 누락/손상된 키 검사, CI 사용 가능\r\r\n\r\r\n## 정리하며\r\r\n\r\r\n2025년을 돌아보면 프론트엔드의 영역은 분명히 많이 확장되었습니다. React는 점점 기반 인프라에 가까워졌고, Next.js와 npm, 빌드 도구, 웹 플랫폼 전반에서도 변화가 이어졌습니다. 그 과정에서 복잡성은 늘었고, 따라가야 할 것도 많아진 한 해였습니다.\r\r\n\r\r\n내년에도 어떤 변화가 이어질지는 모르겠지만, 이 글이 관심 가는 주제를 찾거나 놓친 흐름을 되짚는 출발점이 되었으면 합니다. 감사합니다. \r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_mint_202601.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfootermint202601%282%29.png)](https://www.nhncloud.com/kr)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/01/27/rust-vs-javascript-typescript/",
-    "pubDate": "Tue, 27 Jan 2026 11:22:01 +0000",
-    "creator": "Irina Mihajlovic",
-    "categories": [
-      "comparison",
-      "javascript",
-      "rustrover",
-      "rust"
-    ]
+    "link": "https://meetup.nhncloud.com/posts/407",
+    "pubDate": "Fri, 30 Jan 2026 01:23:12 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 37화, 찾으러가는데스와",
-    "description": "No description available",
+    "title": "The Jenkins Migration Planning Kit",
+    "description": "This article was brought to you by Cameron Pavey, draft.dev. Jenkins has served the development community well for over a decade, but it was designed for a different era of software development. Developers who are tired of fighting with plugin compatibility issues, slow builds, and brittle configurations are exploring alternatives. But is your organization ready […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2414",
-    "pubDate": "Wed, 28 Jan 2026 23:40:22 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/teamcity/2026/01/jenkins-migration-planning-kit/",
+    "pubDate": "Mon, 26 Jan 2026 18:25:53 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "웹툰"
+      "best-practices",
+      "teamcity-2",
+      "devopspains",
+      "jenkins"
     ]
   }
 ]
