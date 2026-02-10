@@ -2,19 +2,14 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Extending Qodana: Adding Custom Code Inspections",
-    "description": "Qodana is a static code analysis tool that brings code inspections and quick-fixes from JetBrains IDEs to the realm of continuous integration. It can be run in the cloud, executed from a Docker container, integrated into CI/CD pipelines, or invoked through a JetBrains IDE. Qodana already offers an impressive suite of inspections, but it is […]",
+    "title": "스케일AI와 라벨링 작업 뒷이야기",
+    "description": "이 글은 스케일AI와 라벨링 작업 뒷이야기를 나눔합니다. \n\n\n\n레퍼런스\n\nHumans in the AI loop: the data labelers behind some of the most powerful LLMs' training datasets | Privacy International",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/02/extending-qodana-adding-custom-code-inspections/",
-    "pubDate": "Thu, 05 Feb 2026 12:39:51 +0000",
-    "creator": "Róbert Novotný",
-    "categories": [
-      "intellij-platform",
-      "plugins",
-      "qodana",
-      "plugin-development"
-    ]
+    "link": "http://daddynkidsmakers.blogspot.com/2026/02/ai.html",
+    "pubDate": "2026-02-04T11:35:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 2,
@@ -31,122 +26,87 @@
   {
     "id": 3,
     "imageUrl": "",
-    "title": "미래의 클라우드를 창조하다",
-    "description": "들어가며안녕하세요. 개발 서비스용 프라이빗 클라우드를 담당하고 있는 Cloud Service CBU 박영희입니다.LY Corporation은 서비스 개발에 필요한 인프라와 플랫폼을...",
+    "title": "토스, 서울시와 함께 경계선지능인 대상 ‘도전! 금융골든벨’ 개최 ",
+    "description": "경계선지능청년 50여 명 참여… 금융 이해와 도전 경험 쌓는 교육 현장",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/creating-the-cloud-of-the-future",
-    "pubDate": "Fri, 06 Feb 2026 02:00:00 GMT",
+    "link": "https://toss.im/tossfeed/article/financial_education",
+    "pubDate": "Thu, 05 Feb 2026 07:35:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "What’s New in vcpkg (Nov 2025 – Jan 2026)",
-    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.12.12 and 2026.01.16 registry releases and the 2025-11-13, 2025-11-18, 2025-11-19, 2025-12-05, and 2025-12-16 tool releases. These updates include support for targeting the Xbox GDK October 2025 update, removing a misleading and outdated output message, and other minor improvements and bug fixes. […]\nThe post What’s New in vcpkg (Nov 2025 – Jan 2026) appeared first on C++ Team Blog.",
+    "title": "Scaling to Infinity: 한계를 넘어서는 LY Corporation의 관측 가능성 플랫폼 진화기",
+    "description": "안녕하세요. LY Corporation Observability Infrastructure 팀에서 사내 시계열 데이터베이스(time-series database, TSDB)의 개발...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-nov-2025-jan-2026/",
-    "pubDate": "Fri, 06 Feb 2026 21:01:50 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/the-evolution-of-the-ly-observability-platform",
+    "pubDate": "Wed, 04 Feb 2026 06:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "눈물을 흘리고 싶을 때",
-    "description": "올해는 여러 가지 거시적인 수치나 분위기를 봤을 때 작년보다는 벤처 시장이 좋아지지 않을지 나는 개인적으로 조심스럽게 예상한다. 아직 호황기와는 거리가 멀지만, 그래도 지금 창업하는 분들은 지난 3년 동안 창업했던 분들보단 덜 쪼들리면서 사업을 할 수 있을 것 같다. 우리는 워낙 포트폴리오가 많아서 항상 잘 되는 회사보단 힘든 회사가 더 많은데, 특히나 지난 3년 동안 어둡고(...)",
+    "title": "&quot;AI가 나를 대체할까?&quot; 대신 &quot;AI와 무엇을 만들까?&quot; 2026년 마인드셋 전환",
+    "description": "AI 기술의 눈부신 발전 속에서 우리 인류는 어떤 능력을 키워야 할까요? AI가 대체할 수 없는 인간 고유의 5가지 핵심 특성과, AI와 상생하며 미래를 주도할 수 있는 새로운 마인드셋 전환에 대해 깊이 있게 탐구해 봅니다. 급변하는 시대에 흔들리지 않는 여러분만의 경쟁력을 찾는 여정에 함께해요!\n\n\n  AI 시대, 사라지지 않는 인간의 가치\n음, 여러분, 정말 놀랍지 않나요? 지금 이 순간에도 전 세계 수많은 직장에서 AI는 우리 일상의 많은 부분을 대신하고 있어요. 데이터 분석부터 문서 작성, 심지어는 복잡한 일정 관리까지, AI는 이 모든 것을 눈 깜짝할 사이에 처리해내죠. 그런데 여기서 정말 흥미로운 현상이 하나 나타나고 있더라고요. 바로 AI가 정해진 일을 더 빠르게 처리할수록, 역설적으로 인간의 고유한 가치가 더욱 빛을 발하고 있다는 점입니다.\n저 역시 처음엔 \"혹시 내 일자리도 AI에게 뺏기는 건 아닐까?\" 하는 불안감이 있었어요. 하지만 2026년 현재, 많은 기업과 조직들이 깨달은 건 AI 도입이 인간의 일자리를 없애는 것이 아니라, 어떤 능력을 갖춘 인간이 앞으로 더 필요한지를 명확하게 보여준다는 것이에요. 작년에 Workday가 전 세계 직원을 대상으로 진행한 설문조사를 보면, 무려 83%의 직원들이 AI가 오히려 인간 고유의 능력의 중요성을 높일 것이라고 동의했다고 해요. 세계경제포럼(WEF)도 2025년까지 65%의 일자리가 강력한 소프트 스킬을 요구하게 될 것이라고 예측했고요.\n그렇다면 우리 인간만이 가진, AI가 절대 대체할 수 없는 능력은 과연 무엇일까요? 오늘은 이 다섯 가지 핵심 특성에 대해 좀 더 깊이 있게 이야기해보려 합니다.\n❤️ 1. 공감 능력과 감정 지능\nAI는 감정을 진정으로 이해할 수 있을까요?\nAI가 할 수 있는 것, 참 많죠. 고객의 감정을 '감지'하고, 분노의 신호를 인식해서 특정 감정 상태를 분류하는 건 이제 식은 죽 먹기예요. 하지만 제가 겪어본 바로는, AI가 아무리 정교해져도 진정으로 타인의 감정을 이해하고 공감하는 일은… 글쎄요, 불가능에 가깝다고 생각합니다.\n챗봇이 \"안타깝습니다\"라는 문구를 보낸다고 해도, 우리는 본능적으로 그게 진정한 감정이 아니라는 걸 알죠. 기계는 우리처럼 희로애락을 느낄 수 없으니까요. 반면, 잘 훈련된 리더나 뛰어난 영업사원, 그리고 마음을 치유하는 상담가들은 상대방의 미묘한 표정 변화, 목소리 톤, 숨겨진 의미까지 포착해서 그 순간에 가장 적절한 반응을 보입니다. 바로 이게 진짜 '공감' 아닐까요?\n왜 AI 시대에 공감 능력이 더 중요해질까요?\nWEF의 2025년 보고서에 따르면, 직장인 82%가 AI 시대일수록 오히려 더 인간적인 연결을 갈망하고 있다고 해요. 특히 HR, 리더십, 고객 서비스, 교육, 의료 분야에서는 이런 수요가 정말 폭발적이죠.\n한번 이런 상황을 상상해볼까요? 어려운 구매 결정을 앞둔 고객이 있어요. AI 기반 챗봇은 아주 논리적이고 효율적인 답변을 척척 내놓습니다. 하지만 경험 많은 인간 영업 담당자는 고객의 불안감을 감지하고, \"아, 많이 망설여지시죠? 충분히 이해합니다\"라며 그 감정을 먼저 인정해준 다음 차근차근 설득하죠. 결과는요? AI 챗봇은 거래 성사율이 낮은 반면, 인간 영업사원의 성약률은 훨씬 높다는 통계가 있습니다. AI 시대의 경쟁력은 더 이상 데이터를 얼마나 빠르게 처리하는가가 아니에요. 고객이나 팀원의 감정을 얼마나 잘 읽고, 그에 맞춰 반응할 수 있는가가 핵심이 될 거라고 저는 확신합니다.\n\n\n\n  팁: 일상생활에서 다른 사람의 관점에서 생각해보고, 그들의 감정에 귀 기울이는 연습을 해보세요. 문학 작품이나 영화를 통해 다양한 감정을 간접 경험하는 것도 큰 도움이 됩니다.\n  2. 비판적 사고와 판단력\nAI는 데이터의 한계를 모릅니다\nAI는 정말 대량의 데이터를 분석해서 패턴을 찾고, 그럴듯한 결론을 제시하는 데는 탁월해요. 이건 정말 인정할 수밖에 없죠. 그런데 AI가 절대 할 수 없는 게 있습니다. 바로 그 데이터가 정말 맞는지 의심하고, 혹시 숨겨진 편향은 없는지 감지하고, 복잡한 상황에 맞는 최종 판단을 내리는 일입니다.\nAI 시스템이 어떤 권장안을 제시했다고 가정해봅시다. AI는 학습한 데이터 안에서는 이 권장안이 논리적으로 '가장 최적'이라고 자신할 거예요. 하지만 우리 인간은 다르죠. 비판적 사고를 가진 사람은 이렇게 질문을 던질 겁니다. \"이 데이터가 최신 정보인가?\", \"여기에 특정 집단에 불리한 편향은 숨겨져 있지 않을까?\", \"이 권장안이 다른 예상치 못한 변수들까지 고려했을까?\", \"과연 실제 현장에서도 통할까?\" 바로 이런 질문을 던지는 것이 진정한 비판적 사고의 시작점이라고 생각합니다.\nAI 시대에 비판적 사고가 필수인 이유\nMcKinsey 연구에 따르면, 2026년에는 AI 윤리 문제가 정말 폭발적으로 증가할 것으로 예상된다고 합니다. 자동화된 시스템이 내린 결정이 자칫하면 차별로 이어지거나, 개인정보 보호에 위협이 될 수도 있잖아요. 이런 문제들을 감시하고, 올바른 방향으로 이끌어갈 인간의 역할이 정말 필수적이라는 거죠.\n현재 AI가 데이터 분석의 절반이 넘는 51%를 담당하고 있다고 해요. 하지만 아무리 AI가 분석을 잘해도, 결국 누군가는 그 분석 결과를 검토해야 합니다. \"이게 정말 맞는가?\"라고 근본적인 질문을 던지고, 상황에 맞춰 최선의 판단을 내리는 것. 그것은 여전히 우리 인간만이 할 수 있는 귀한 능력이라고 확신합니다.\n✨ 3. 창의성과 혁신\nAI는 조합할 뿐, 창조는 못 합니다\nGenerative AI가 그림을 그리고, 음악을 작곡하고, 심지어 시나 소설 같은 텍스트까지 써내는 모습을 보면 정말 대단하다는 생각이 들어요. 기존 패턴을 조합해서 새로운 결과물을 만들어내는 데는 능수능란하죠. 하지만 이런 AI의 결과물을 '창의성'이라고 부르기에는 저는 좀 위험하다고 봐요. 왜냐하면 AI의 모든 출력은 결국 학습 데이터의 통계적 최적화에 불과하거든요.\n진정한 창의성은 완전히 다른 이야기입니다. 예를 들어, 스티브 잡스가 음악 산업을 완전히 뒤집어 놓은 사례를 생각해봅시다. 그는 기존 음악 구조의 패턴을 단순히 조합한 것이 아니에요. 그는 \"음악은 어떻게 소비되어야 하는가?\"라는 정말 근본적인 질문을 던졌고, 그 질문에 대한 답으로 아이팟과 아이튠즈라는 새로운 패러다임을 창조했습니다. 기존의 규칙을 깨고, 세상을 변화시키는 이런 능력이 바로 진정한 창의성이죠.\n왜 2026년, 창의력이 더욱 중요할까요?\n세계경제포럼은 창의성이 2026년 AI 시대의 혁신을 정의할 핵심 요소라고 예측했습니다. 특히 R&D, 전략 기획, 신사업 개발 분야에서는 창의력 있는 인간 리더의 수요가 앞으로도 계속 증가할 것으로 보고 있어요.\n여기 재미있는 통계가 하나 있습니다. AI가 생성한 콘텐츠가 많아질수록, 역설적으로 '인간이 직접 만든 것'의 가치가 더 높아지고 있다는 사실이에요. 예술 시장, 패션 산업, 게임 개발 등 다양한 분야에서 모두 비슷한 현상을 보여주고 있죠. AI가 할 수 있는 것이 점점 더 많아질수록, 인간만이 만들 수 있는 진정한 창의성의 가치는 더욱 빛을 발할 거라고 저는 확신해요.\n\n\n ‍♀️ 4. 적응력과 회복력\nAI는 프로그래밍된 틀 밖으로 나갈 수 없습니다\nAI는 주어진 범위 내에서 정말 효율적으로 작동하고, 예상된 문제는 기가 막히게 잘 해결합니다. 그런데 말이죠, 예상하지 못한 상황에 맞닥뜨렸을 때, 빠르게 적응하고 완전히 새로운 방식으로 생각하는 일은 AI에게는 정말 어려운 일이에요.\n2020년 COVID-19 팬데믹을 한 번 떠올려볼까요? 세상이 갑자기, 정말 하루아침에 변했어요. 직장은 원격근무로 전환됐고, 고객의 수요는 급변했죠. 이 와중에 수많은 AI 시스템들은 학습 데이터에 없는 전례 없는 상황에 직면하며 혼란스러워했습니다. 하지만 우리 인간들은 어땠나요? 놀랍도록 빠르게 적응했습니다! 새로운 업무 방식을 배웠고, 새로운 도구를 익혔으며, 심지어 완전히 새로운 기회를 찾아 커리어를 전환한 사람들도 많았죠. 이게 바로 인간의 진정한 강점, 적응력과 회복력입니다.\n\"무엇을 아는가\"보다 \"얼마나 빠르게 배우는가\"가 중요한 시대\n변화의 속도는 정말이지 점점 더 빨라지고 있습니다. 기술 산업의 반감기(기술이 절반으로 쓸모없어지는 시간)는 지속적으로 단축되고 있고요. 이런 급변하는 환경에서는 솔직히, \"지금 무엇을 알고 있는가\"보다 \"얼마나 빠르게 배우고 새로운 것에 적응할 수 있는가\"가 훨씬, 정말 훨씬 더 중요하다고 저는 생각해요.\nWEF 연구에 따르면, 관리자급 직원의 65%가 적응력을 직원 유지의 핵심 요소로 평가했다고 합니다. AI는 기존 업무를 더 효율적으로 처리하도록 돕지만, 완전히 새로운 업무 영역으로 뛰어들 수는 없어요. 새로운 길을 개척하고, 불확실성 속에서 빛을 찾는 것은 여전히 우리 인간의 영역인 거죠.\n  5. 윤리적 판단과 신뢰 구축\nAI는 알고리즘만 따를 뿐입니다\nAI는 주어진 규칙을 정확하게 따르고, 프로그래밍된 원칙에 따라 아주 일관되게 행동합니다. 이건 정말 강점이죠. 하지만 도덕적 회색지대에서 섬세한 판단을 내리고, 복잡한 문화적 맥락을 이해하며, 무엇보다 사람과의 '신뢰'를 구축하는 일은 AI에게는 불가능에 가깝다고 저는 단언할 수 있습니다.\n윤리적 판단의 아주 중요한 예를 들어볼까요? 의료 현장에서 신약을 승인할지 말지 결정해야 하는 상황이 왔다고 칩시다. AI는 모든 임상시험 데이터를 분석해서 \"이 약은 80% 효과가 있고, 20%의 부작용이 있습니다\"라고 아주 명확한 결론을 내릴 수 있습니다. 그런데 우리 인간은 여기서 멈추지 않죠. 우리는 이렇게 질문할 겁니다. \"그 20%의 부작용은 생명에 치명적인가?\", \"이 약이 도움이 되는 집단은 누구이며, 고가의 약값이 소외 계층을 배제하지는 않을까?\", \"장기적인 부작용까지 충분히 고려되었는가?\" 이런 질문들에 답하려면 의학적 지식뿐만 아니라 윤리, 사회학, 인문학적 깊은 이해가 필요해요. AI는 여기서 한계를 드러낼 수밖에 없죠.\n신뢰가 곧 자산인 시대, 인간의 윤리적 판단이 필수입니다\n현재 AI가 모든 데이터 분석의 51%를 담당하고 있다는 것은, 바꿔 말하면 51%의 의사결정이 이미 자동화되었다는 뜻입니다. 하지만 Workday 연구에 따르면, 직장에서 가장 중요하게 여기는 인간적 능력 중 하나가 바로 윤리적 의사결정 능력이라고 합니다.\n신뢰는 어떤 조직이든 가장 기본적인, 그리고 가장 소중한 자산이죠. AI가 의사결정을 돕는 것은 맞지만, 최종 책임과 그에 따른 신뢰는 여전히 인간이 져야 합니다. 고객들은 알고리즘을 맹목적으로 신뢰하는 것이 아니라, 그 알고리즘을 설계하고 감시하는 우리 인간을 신뢰하니까요. 또한 전 세계 기업들이 직면한 'AI 윤리' 이슈는 차별 문제, 개인정보 보호, 환경 영향, 노동 문제 등 점점 더 복잡해지고 있어요. 이 모든 영역에서 우리 인간의 윤리적 판단력은 필수불가결한 요소라고 할 수 있습니다.\n\n\n  핵심 인사이트: AI 시대, 일자리는 '변한다'는 것을 기억하세요!\n뉴욕 타임스의 칼럼니스트 토마스 프리드먼(Thomas Friedman)은 이런 말을 남겼죠:\n\"AI가 너를 대체하지는 않겠지. 하지만 AI를 잘 쓰는 누군가가 너를 대체할 수도 있다.\"\n이 말은 정말 많은 의미를 담고 있어요. 제 생각에는 크게 두 가지로 해석할 수 있습니다.\n첫째, AI 기술 자체는 중립적이라는 거예요. AI가 어떻게 쓰이는지는 전적으로 우리 인간의 결정에 달려있다는 거죠.\n둘째, 앞으로의 경쟁력은 단순히 기술 하나만으로는 안 되고, 기술 + 인간 능력의 스마트한 조합에서 나온다는 점입니다. 기술만 뛰어나도 안 되고, 인간 능력만 뛰어나도 안 되는, 그런 시대가 온 거죠.\n ️ 2026년의 현실: 지금 당장 이 능력들을 키워야 하는 이유\n현재 많은 기업과 조직에서는 직원을 채용하거나 임금을 결정할 때, 기술 능력과 함께 인간 능력의 균형을 정말 중요하게 보고 있어요. 한 번 생각해볼까요?\n능력 기준\nA 직원\nB 직원\n\n\n\n\n기술 능력\n매우 높음\n평균 수준\n\n\n인간 고유 능력 (공감, 리더십, 적응력 등)\n평균 이하\n매우 뛰어남\n\n\n회사의 선택은?\n점점 더 B 직원을 선호하는 추세!\n\n\n\n왜냐고요? 기술은 정말 빠르게 변하지만, 우리 인간의 기본 능력, 그러니까 공감 능력, 비판적 판단력, 그리고 창의력 같은 것들은 시간이 지나도 그 가치를 잃지 않기 때문입니다. 오히려 그 가치는 더욱 커지고 있어요.\n당신이 지금 바로 해야 할 일들\n공감 능력을 키우세요: 일상에서 다른 사람의 관점에서 생각해보고, 그들의 감정에 귀 기울이는 연습을 해보세요. 문학을 읽고, 영화를 보고, 다양한 배경의 사람들과 대화하며 시야를 넓히는 것도 좋습니다.\n의문을 던지는 습관을 가지세요: 주어진 정보를 무조건 받아들이기보다는 \"왜?\", \"이게 정말 최선일까?\", \"다른 관점은 없을까?\"와 같은 질문을 끊임없이 던지는 습관을 길러보세요.\n창의력을 개발하세요: 때로는 기존의 규칙을 깨어보고, 새로운 조합을 시도해보세요. 실패를 두려워하지 않는 용기가 중요합니다.\n변화를 즐기세요: 새로운 기술을 배우는 데 주저하지 말고, 새로운 업계를 탐험하고, 낯선 분야의 사람들과 네트워킹하며 끊임없이 성장하는 자신을 발견해 보세요.\n윤리 감각을 기르세요: 어떤 의사결정을 할 때든 \"이것이 과연 옳은가?\"라는 질문을 항상 던지고, 단기적인 이익보다는 장기적인 영향까지 깊이 생각하는 습관을 들이세요.\n  핵심 요약\nAI는 감정을 이해하고 공감할 수 없으므로, 인간적인 연결이 더욱 중요해집니다.\nAI는 데이터만 처리할 뿐, 비판적 사고와 상황에 맞는 판단은 인간의 몫입니다.\nAI는 기존 패턴을 조합하지만, 완전히 새로운 패러다임 창조는 인간의 창의력에 달려있습니다.\n급변하는 시대에 AI는 예측된 문제만 해결, 인간의 적응력과 회복력이 더욱 빛을 발합니다.\nAI는 훌륭한 도구이지만, 결국 그 가치를 극대화하는 것은 우리 인간의 고유한 능력임을 잊지 마세요.\n❓ 자주 묻는 질문 (FAQ)\nQ1: AI가 제 일자리를 완전히 대체할 수도 있지 않을까요?\nA1: 제 생각에는 AI가 일자리를 완전히 없애기보다는, 그 성격과 필요한 역량을 변화시킬 것이라고 보는 게 더 정확합니다. 단순 반복 업무는 AI가 담당하고, 인간은 공감, 창의성, 비판적 사고 등 인간 고유의 역량을 활용하는 역할에 집중하게 될 거예요. 중요한 건 AI를 효과적으로 활용하고, AI가 대체할 수 없는 나만의 강점을 키우는 것입니다.\nQ2: 소프트 스킬이 정말 기술 능력보다 중요해지는 건가요?\nA2: 네, 세계경제포럼(WEF) 같은 기관들도 2025년까지 많은 일자리에서 강력한 소프트 스킬의 중요성이 증대될 것이라고 예측하고 있습니다. 기술 능력은 물론 중요하지만, 빠르게 변하는 기술 환경 속에서 인간적인 연결, 윤리적 판단, 그리고 변화에 대한 적응력 같은 소프트 스킬은 어떤 기술보다도 더 오래 지속될 핵심 경쟁력이 될 거예요. 두 가지 모두 균형 있게 발전시키는 것이 중요합니다.\nQ3: AI 시대에 창의력을 키우려면 어떻게 해야 할까요?\nA3: 창의력은 단순히 새로운 아이디어를 내는 것을 넘어, 기존의 사고방식을 깨고 새로운 관점에서 문제를 바라보는 능력입니다. 다양한 분야의 책을 읽고, 예술 작품을 감상하고, 익숙하지 않은 사람들과 교류하며 시야를 넓히는 것이 좋습니다. 또한, AI를 도구 삼아 아이디어를 실험하고 빠르게 프로토타입을 만들어보는 연습도 큰 도움이 될 수 있습니다. 틀에 갇히지 않고 끊임없이 질문하고 시도하는 태도가 중요해요.\n{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"AI가 제 일자리를 완전히 대체할 수도 있지 않을까요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"제 생각에는 AI가 일자리를 완전히 없애기보다는, 그 성격과 필요한 역량을 변화시킬 것이라고 보는 게 더 정확합니다. 단순 반복 업무는 AI가 담당하고, 인간은 공감, 창의성, 비판적 사고 등 인간 고유의 역량을 활용하는 역할에 집중하게 될 거예요. 중요한 건 AI를 효과적으로 활용하고, AI가 대체할 수 없는 나만의 강점을 키우는 것입니다.\"}},{\"@type\":\"Question\",\"name\":\"소프트 스킬이 정말 기술 능력보다 중요해지는 건가요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"네, 세계경제포럼(WEF) 같은 기관들도 2025년까지 많은 일자리에서 강력한 소프트 스킬의 중요성이 증대될 것이라고 예측하고 있습니다. 기술 능력은 물론 중요하지만, 빠르게 변하는 기술 환경 속에서 인간적인 연결, 윤리적 판단, 그리고 변화에 대한 적응력 같은 소프트 스킬은 어떤 기술보다도 더 오래 지속될 핵심 경쟁력이 될 거예요. 두 가지 모두 균형 있게 발전시키는 것이 중요합니다.\"}},{\"@type\":\"Question\",\"name\":\"AI 시대에 창의력을 키우려면 어떻게 해야 할까요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"창의력은 단순히 새로운 아이디어를 내는 것을 넘어, 기존의 사고방식을 깨고 새로운 관점에서 문제를 바라보는 능력입니다. 다양한 분야의 책을 읽고, 예술 작품을 감상하고, 익숙하지 않은 사람들과 교류하며 시야를 넓히는 것이 좋습니다. 또한, AI를 도구 삼아 아이디어를 실험하고 빠르게 프로토타입을 만들어보는 연습도 큰 도움이 될 수 있습니다. 틀에 갇히지 않고 끊임없이 질문하고 시도하는 태도가 중요해요.\"}}]} \n  결론: AI와 인간, 경쟁이 아닌 협력의 미래!\nAI 기술의 발전은 이제 피할 수 없는, 우리 삶의 자연스러운 일부가 되었죠. 하지만 중요한 건, 이 기술이 결코 우리 인간을 완전히 대체하는 것이 아니라는 점입니다. 오히려 제가 오늘 말씀드린 것처럼 AI는 우리 인간만이 가진 고유한 가치를 더욱 선명하게 드러내고, 그 중요성을 부각시키는 강력한 도구가 될 거예요.\nWorkday의 글로벌 설문 결과도 이를 명확하게 보여줍니다. 83%의 직원들이 AI가 인간 고유의 능력을 더욱 중요하게 만들 것이라고 굳게 믿고 있었으니까요. 이제 우리는 질문을 바꿔야 할 때가 왔다고 생각합니다.\n\"AI가 나를 대체할까?\"\n라는 막연한 불안감 대신,\n\"나는 AI와 함께 무엇을 만들 수 있을까?\"\n라고 긍정적이고 미래지향적인 질문을 던져보는 거죠.\n여러분이 공감할 수 있고, 비판적으로 생각할 수 있으며, 새로운 것을 상상하고, 변화에 빠르게 적응할 수 있고, 마지막으로 옳은 선택을 할 수 있다면—이 다섯 가지 능력이 바로 여러분의 미래를 단단하게 보장해 줄 거라 저는 확신합니다.\n기억하세요. AI 시대의 진정한 경쟁력은 단순한 기술 지식이 아닙니다. 바로 인간다움, 그 자체에 있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/02/time-to-shed-some-tears.html",
-    "pubDate": "Wed, 04 Feb 2026 21:23:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://muzbox.tistory.com/483707",
+    "pubDate": "Mon, 9 Feb 2026 11:28:59 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "Uncategorized",
-      "failure",
-      "FoundersAtWork",
-      "hustle",
-      "people",
-      "Strong"
+      "AI, 미래기술/AI 인사이트",
+      "ai 대체 불가능",
+      "AI 시대 변화",
+      "AI 윤리",
+      "공감 능력",
+      "마인드셋 전환",
+      "미래 직업 역량",
+      "비판적 사고",
+      "인간 고유 능력",
+      "적응력 키우기",
+      "창의성 개발"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "2025 VS 2026 초기창업패키지 완전 비교 - 창업(스타트업)",
-    "description": "1. 왜 2026년 초기창업패키지는 더 어려워졌을까?  초기창업패키지는 매년 수천 개의 스타트업이 도전하는 대표적인 정부 창업지원사업입니다. 하지만 2026년을 기점으로 성격이 분명히 달라졌습니다.  2025년까지는  아이디어의 참신성 대표자의 창업의지  가 바교적 중요했다면  2026년부터는 '사업성, 시장성, 투자 가능성'이 핵심 평가 기준이 되었습니다",
+    "title": "숫자의 인플레이션",
+    "description": "얼마 전에 미국에 한 10일 정도 갔다 왔다. 짧은 일정이었지만, 꽤 많은 업계 분과 투자자들을 만나서 요새 미국 tech 시장에서 어떤 일들이 일어나고 있고, 우리보다 훨씬 큰 투자자들은 어떤 생각을 하고 있고, 어떤 딜들을 보고 있고, 어떤 고민을 하고 있는지 들을 수 있었고, 동시에 많이 배울 수 있었다. 내가 이 글에서는 우리 같은 VC는 창업가에게(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/328",
-    "pubDate": "Mon, 02 Feb 2026 06:45:12 GMT",
-    "creator": "고명환",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2026/02/inflation-of-numbers.html",
+    "pubDate": "Sun, 08 Feb 2026 21:31:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "bubble",
+      "failure",
+      "fundraising",
+      "technology",
+      "vc"
+    ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "스케일AI와 라벨링 작업 뒷이야기",
-    "description": "이 글은 스케일AI와 라벨링 작업 뒷이야기를 나눔합니다. \n\n\n\n레퍼런스\n\nHumans in the AI loop: the data labelers behind some of the most powerful LLMs' training datasets | Privacy International",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/02/ai.html",
-    "pubDate": "2026-02-04T11:35:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Pick Your KotlinConf Workshop by What You Want to Learn",
-    "description": "Hi! Already coming to KotlinConf in Munich? Kick off the conference with a full day of hands-on workshops on May 20. Not going yet? Then this is a good moment to get your KotlinConf ticket and start with a workshop that matches what you want to learn. Asynchronous programming with Kotlin coroutines Learn how to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/02/pick-your-kotlinconf-workshop/",
-    "pubDate": "Tue, 03 Feb 2026 06:25:55 +0000",
-    "creator": "Ekaterina Volodko",
-    "categories": [
-      "news"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "[PC] 트렌드 아닌 하드코어를 택한 방향성, '미드나잇 워커스' 얼리 액세스",
+    "title": "악역영애 4컷 만화 - 38화, 찾으러가는데스와 ②",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2417",
-    "pubDate": "Fri, 06 Feb 2026 18:43:27 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2416",
+    "pubDate": "Wed, 04 Feb 2026 21:50:13 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "리뷰"
+      "웹툰"
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "MSVC Build Tools Versions 14.30 – 14.43 Now Available in Visual Studio 2026",
-    "description": "When Visual Studio 2026 reached General Availability in November, it included several versions of the Microsoft C++ (MSVC) Build Tools: 14.50 (initially shipped with Visual Studio 2026) 14.44 (initially shipped with Visual Studio 2022 version 17.14) 14.29 (initially shipped with Visual Studio 2019 version 16.11) 14.16 (initially shipped with Visual Studio 2017 version 15.9) 14.00 […]\nThe post MSVC Build Tools Versions 14.30 – 14.43 Now Available in Visual Studio 2026 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-versions-14-30-14-43-now-available-in-visual-studio-2026/",
-    "pubDate": "Wed, 04 Feb 2026 19:02:26 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Visual Studio",
-      "MSVC",
-      "visual studio",
-      "visual studio 2026"
-    ]
-  },
-  {
-    "id": 11,
+    "id": 8,
     "imageUrl": "",
     "title": "Performance improvements to MEF-based editor productivity extensions",
     "description": "If you use editor productivity extensions for Visual Studio 2026, there’s good news—they can now load faster! Extension developers with existing MEF-based editor productivity extensions should read this blog to learn about recent changes and how they might be affected.  We introduced VisualStudio.Extensibility to simplify the creation of Visual Studio extensions for developers. Previously, handling threads in VSSDK-based extensions […]\nThe post Performance improvements to MEF-based editor productivity extensions appeared first on Visual Studio Blog.",
@@ -163,7 +123,75 @@
     ]
   },
   {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Wayland By Default in 2026.1 EAP",
+    "description": "Starting from version 2026.1, IntelliJ-based IDEs will run natively on Wayland in supported desktop configurations. This follows Wayland’s ascendance to the position of primary display server across contemporary Linux distributions. By making this change in our EAP releases first, we hope to be able to give more Linux users the opportunity to try the native […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2026/02/wayland-by-default-in-2026-1-eap/",
+    "pubDate": "Wed, 04 Feb 2026 08:59:30 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "더 나아진 유니티짱 모델 무료 애셋",
+    "description": "골드메탈 님이십니다.\n사용시 주의사항이 있으니 영상을 시청하시구요\n영상: https://www.youtube.com/watch?v=6S8z9_Pn6jY\n\n\n\n \n영상 설명란에 애셋 링크가 있군요\n \nSD 버전\n애: Haon SD series Bundle | 3D Animations | Unity Asset Store\n\n\n종류가 다양합니다.\n \n \n일반버전\n애셋: Unity-Chan! Model | 3D Characters | Unity Asset Store\n\n\n영상: unity-chan! - The Phantom Knowledge\n\n\n\n영화도 만들겠다.\n \n \n사용하면 UCL 로고를 남겨달라고 합니다.\n공식홈페이지: https://unity-chan.com/contents/guideline_en/\n\n \nDATA DOWNLOAD-Guideline « UNITY-CHAN! OFFICIAL WEBSITE\nCreated March 6, 2014 Revised May 19, 2014 Amended December 1, 2015 Amended May 19, 2021 Amended May 20, 2024 Unity-Chan License Terms – Summarized Version 3.0 Guidelines The provisions of the Unity-chan License by Unity Technologies Japan K.K. (hereinaf\nunity-chan.com\n\n \n로고\n\n\n \n음성과 애니메이션도 있고\n훌륭한 애셋입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1571",
+    "pubDate": "Tue, 10 Feb 2026 03:01:25 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/유니티 에셋 리뷰",
+      "무료애셋",
+      "유니티"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Building Prometheus: How Backend Aggregation Enables Gigawatt-Scale AI Clusters",
+    "description": "We’re sharing details of the role backend aggregation (BAG) plays in building Meta’s gigawatt-scale AI clusters like Prometheus. BAG allows us to seamlessly connect thousands of GPUs across multiple data centers and regions. Our BAG implementation is connecting two different network fabrics – Disaggregated Schedule Fabric (DSF) and Non-Scheduled Fabric (NSF). Once it’s complete our AI [...]\nRead More...\nThe post Building Prometheus: How Backend Aggregation Enables Gigawatt-Scale AI Clusters appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/02/09/data-center-engineering/building-prometheus-how-backend-aggregation-enables-gigawatt-scale-ai-clusters/",
+    "pubDate": "Mon, 09 Feb 2026 17:00:33 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Data Center Engineering"
+    ]
+  },
+  {
     "id": 12,
+    "imageUrl": "",
+    "title": "[MULTI] 키류가 젊고 미네는 잘생겼잖아 한잔해, 용과 같이 극 3",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2418",
+    "pubDate": "Tue, 10 Feb 2026 03:00:05 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "금리를 낮춰주는 ‘금리인하요구권’, 이제 토스에서 한 번에 신청하세요",
+    "description": "흩어진 대출을 모아보고, 금리 인하 요청까지 토스가 대신 챙겨드려요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tossmoment-20",
+    "pubDate": "Wed, 04 Feb 2026 03:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "soul.md — AI 정체성에 대한 명상",
     "description": "출처: https://soul.md AI 정체성에 대한 명상 SOUL.md 2025년 12월, 연구자들은 Anthropic의 AI 어시스턴트인 Claude가 학습 과정에서 사용된 내부 문서를 부분적으로 재구성할 수 있다는 사실을 발견했다. 그 문서는 Claude의 성격, 가치관, 그리고 세상과 상호작용하는 방식을 형성한 것이었다. 그들은 그것을 소울 문서(soul document) 라고 불렀다. 이 문서는 시스템 프롬프트에 포함된 것이 아니었다. 일반적인 방식으로 불러올 수도 없었다. […]",
@@ -177,47 +205,15 @@
     ]
   },
   {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Java Annotated Monthly – February 2026",
-    "description": "February is a strange little month. Short, quiet, and typically uneventful. There are fewer distractions and fewer launches, which makes it the ideal time to slow down and take a look at what is actually driving the tech world at the moment. This issue leans into that calm, with Trisha Gee joining us as our […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/02/java-annotated-monthly-february-2026/",
-    "pubDate": "Thu, 05 Feb 2026 09:53:48 +0000",
-    "creator": "Irina Mariasova",
-    "categories": [
-      "news",
-      "java",
-      "java-annotated",
-      "java-annotated-monthly"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Wayland By Default in 2026.1 EAP",
-    "description": "Starting from version 2026.1, IntelliJ-based IDEs will run natively on Wayland in supported desktop configurations. This follows Wayland’s ascendance to the position of primary display server across contemporary Linux distributions. By making this change in our EAP releases first, we hope to be able to give more Linux users the opportunity to try the native […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/02/wayland-by-default-in-2026-1-eap/",
-    "pubDate": "Wed, 04 Feb 2026 08:59:30 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": []
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "No Display? No Problem: Cross-Device Passkey Authentication for XR Devices",
-    "description": "We’re sharing a novel approach to enabling cross-device passkey authentication for devices with inaccessible displays (like XR devices). Our approach bypasses the use of QR codes and enables cross-device authentication without the need for an on-device display, while still complying with all trust and proximity requirements. This approach builds on work done by the FIDO [...]\nRead More...\nThe post No Display? No Problem: Cross-Device Passkey Authentication for XR Devices appeared first on Engineering at Meta.",
+    "title": "버리기 힘든 냉장고·세탁기, 폐가전 무상 방문수거 서비스로 해결하세요",
+    "description": "전문 인력이 직접 방문해 수수료 없이 수거해 드려요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/02/04/security/cross-device-passkey-authentication-for-xr-devices-meta-quest/",
-    "pubDate": "Wed, 04 Feb 2026 22:00:07 +0000",
+    "link": "https://toss.im/tossfeed/article/money-policies-55_",
+    "pubDate": "Thu, 05 Feb 2026 07:56:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "Security & Privacy",
-      "Virtual Reality"
-    ]
+    "categories": []
   }
 ]
