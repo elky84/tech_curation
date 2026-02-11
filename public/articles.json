@@ -2,128 +2,52 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "스케일AI와 라벨링 작업 뒷이야기",
-    "description": "이 글은 스케일AI와 라벨링 작업 뒷이야기를 나눔합니다. \n\n\n\n레퍼런스\n\nHumans in the AI loop: the data labelers behind some of the most powerful LLMs' training datasets | Privacy International",
+    "title": "No Display? No Problem: Cross-Device Passkey Authentication for XR Devices",
+    "description": "We’re sharing a novel approach to enabling cross-device passkey authentication for devices with inaccessible displays (like XR devices). Our approach bypasses the use of QR codes and enables cross-device authentication without the need for an on-device display, while still complying with all trust and proximity requirements. This approach builds on work done by the FIDO [...]\nRead More...\nThe post No Display? No Problem: Cross-Device Passkey Authentication for XR Devices appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/02/ai.html",
-    "pubDate": "2026-02-04T11:35:00.000Z",
+    "link": "https://engineering.fb.com/2026/02/04/security/cross-device-passkey-authentication-for-xr-devices-meta-quest/",
+    "pubDate": "Wed, 04 Feb 2026 22:00:07 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "Security & Privacy",
+      "Virtual Reality"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "2025 프론트엔드 뉴스 한 방에 몰아 보기",
-    "description": "[![NHN Cloud_meetup banner_frontendnews2025_202601_1400.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfrontendnews20252026011400%282%29.png)](https://www.nhncloud.com/?utm_source=meetup&utm_medium=post&utm_campaign=branding&utm_content=0130_frontend&utm_term=top)\r\r\n\r\r\n안녕하세요. NHN Cloud NCUI개발팀 이진우입니다.\r\r\n\r\r\n저는 매주 30여 개의 Web, Frontend, Design, Design System 등의 기술 뉴스레터를 살피고 동료들에게 공유해 왔는데요. 작년에 이어 올해도 개인적으로 인상 깊었던 아티클을 주제별로 공유드리고자 합니다.\r\r\n\r\r\n> 작년에 공유했던 2024년의 프론트엔드 뉴스 모음은 아래 경로에서 확인하실 수 있습니다.\r\r\n>  [2024 프론트엔드 뉴스 한 방에 몰아 보기](https://meetup.nhncloud.com/posts/390)\r\r\n\r\r\n관심사와 조직 내 영향력이 큰 기술 스택을 중심으로 정리한 내용이기에 프론트엔드 생태계 전체를 대변한다고 보기는 어렵지만, 흥미가 가는 주제가 있다면 함께 첨부한 링크들이 출발점으로서 작은 도움이 되기를 바랍니다.\r\r\n\r\r\n> 본문의 링크들은 과거 시점 기준의 자료이므로 변경된 내용이 있을 수 있습니다.  \r\r\n\r\r\n## Node.js의 TypeScript 지원\r\r\n\r\r\n2025년 초 Node.js는 Bun, Deno와 같은 경쟁자들에게 대적하기 위해 TypeScript 파일 실행 지원을 추가했습니다. 개발자 경험을 향상시키는 것이 주 목적이었기에 타입 체크, 컴파일이 아닌 타입을 걷어내는 것(Type Stripping)으로 방향을 잡았는데요. 이를 위해 SWC를 기반으로 한 Amaro가 핵심 도구로 기대 받았고, TypeScript 측에서도 관련 플래그를 추가했으며 최근 v24.12 버전에서 안정화 단계에 들어서게 되었습니다.\r\r\n\r\r\n### Type Stripping 개념과 구현\r\r\n\r\r\nNode.js가 채택한 Type Stripping 방식의 원리와 구현 배경을 다룹니다.\r\r\n\r\r\n* [Node.js now supports TypeScript by default](https://www.totaltypescript.com/typescript-is-coming-to-node-23)\r\r\n* [Everything you need to know about node.js type stripping](https://satanacchio.hashnode.dev/everything-you-need-to-know-about-nodejs-type-stripping)\r\r\n* [The Summer I Shipped Type Stripping](https://satanacchio.hashnode.dev/the-summer-i-shipped-type-stripping)\r\r\n\r\r\n### 생태계 지원 현황\r\r\n\r\r\nTypeScript 5.8의 플래그 추가, Amaro 1.0 릴리스, Node.js 안정화 버전 등 생태계 전반의 지원 현황입니다.\r\r\n\r\r\n* [Announcing TypeScript 5.8](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8/#the---erasablesyntaxonly-option)\r\r\n* [Node.js Moves Toward Stable TypeScript Support with Amaro 1.0](https://socket.dev/blog/node-js-moves-toward-stable-typescript-support-with-amaro-1-0)\r\r\n* [Node.js v24.12.0](https://nodejs.org/en/blog/release/v24.12.0)\r\r\n\r\r\n### 런타임 간 비교\r\r\n\r\r\nDeno와 Node.js의 TypeScript 지원 비교입니다.\r\r\n\r\r\n* [Node just added TypeScript support. What does that mean for Deno?](https://deno.com/blog/typescript-in-node-vs-deno)\r\r\n\r\r\n## React 2025 회고\r\r\n\r\r\n2025년 React를 보면 프론트엔드의 인프라라고 불러야 할 만큼 범위가 넓어졌습니다. LLM 시대에 React가 사실상 기본 출력물이 되면서 새 프레임워크는 출발부터 불리하다는 주장도 과언이 아닙니다.\r\r\n\r\r\n작년 말 v19 릴리스 이후 `action`, `useActionState`, `useOptimistic`, `` 같은 기능이 추가됐습니다. Form Submit, Loading, Error 등 웹 애플리케이션이 늘 겪는 문제를 React 기본 기능으로 끌어당긴 모양새입니다. 다만 동시성이 기본값이 될수록 개발자도 새로운 규칙을 익혀야 합니다. 코드는 더 선언적으로 보이지만, 어떤 상태를 어떤 방식으로 업데이트할지 조직 내 합의도 필요해질 것 같습니다.\r\r\n\r\r\nv19 이후 CRA(create-react-app)는 사실상 종료됐습니다. 의존성 충돌을 막기 위한 변경 사항이 병합되긴 했지만, 기존 애플리케이션도 Next.js, React Router, Vite 등으로 전환이 권고됐습니다. 이 권고 문구가 Next.js를 지나치게 강조한다며 커뮤니티에서 논란이 되기도 했습니다. 높은 채택률을 보였던 styled-components도 유지보수 모드로 전환됐습니다.\r\r\n\r\r\n연말에는 RSC 보안 이슈가 터졌습니다. React가 인프라가 됐다는 말이 과장이 아님을 보여준 사건입니다. 이제 React가 커졌다는 건 기능의 문제가 아니라 책임 범위의 문제로 봐야 할 것 같습니다.\r\r\n\r\r\n### v19 신규 기능\r\r\n\r\r\naction, useActionState, useOptimistic, Activity, useEffectEvent, use() 등 v19에서 도입된 주요 기능들입니다.\r\r\n\r\r\n* [3 ways to build forms in react (without any libraries)](https://reactpractice.dev/articles/3-ways-to-build-forms-in-react)\r\r\n* [Building Reusable Components with React 19 Actions](https://aurorascharff.no/posts/building-reusable-components-with-react19-actions/)\r\r\n* [useOptimistic to Make Your App Feel Instant](https://www.epicreact.dev/use-optimistic-to-make-your-app-feel-instant-zvyuv)\r\r\n* [How React Suspense Works Under the Hood: Throwing Promises and Declarative Async UI](https://www.epicreact.dev/how-react-suspense-works-under-the-hood-throwing-promises-and-declarative-async-ui-plbrh)\r\r\n* [React Concurrent Features: An Overview](https://certificates.dev/blog/react-concurrent-features-an-overview/)\r\r\n* [React’s useTransition and state update reordering](https://jordaneldredge.com/notes/react-rebasing/)\r\r\n* [Using Activity with Suspenseful data](https://www.simeongriggs.dev/use-the-activity-boundary-to-hide-suspenseful-components/)\r\r\n* [Tried React 19’s Activity Component Here’s What I Learned](https://javascript.plainenglish.io/tried-react-19s-activity-component-here-s-what-i-learned-b0f714003a65)\r\r\n* [Quick look into the useEffectEvent](https://www.nico.fyi/blog/quick-look-use-effect-event)\r\r\n* [React 19.2: React in its sigma era](https://dev.to/sagi0312/react-192-react-in-its-sigma-era-op7)\r\r\n* [React 19.2: The async shift is finally here](https://blog.logrocket.com/react-19-2-the-async-shift/)\r\r\n* [The next era of React has arrived: Here’s what you need to know](https://blog.logrocket.com/the-next-era-of-react/)\r\r\n* [React has changed, your Hooks should too](https://allthingssmitty.com/2025/12/01/react-has-changed-your-hooks-should-too/)\r\r\n* [React RFC: Context Selector](https://github.com/reactjs/rfcs/pull/119/)\r\r\n\r\r\n### 예외 처리\r\r\n\r\r\nError Boundary의 v19 변경 사항과 react-error-boundary 활용법입니다.\r\r\n\r\r\n* [Error Handling in React with react-error-boundary](https://certificates.dev/blog/error-handling-in-react-with-react-error-boundary)\r\r\n* [React 19 Error Boundary Behaves Differently](https://andrei-calazans.com/posts/react-19-error-boundary-changed/)\r\r\n\r\r\n### RSC(React Server Components)\r\r\n\r\r\nServer Components의 동작 원리와 import 메커니즘입니다.\r\r\n\r\r\n* [How Imports Work in RSC](https://overreacted.io/how-imports-work-in-rsc/)\r\r\n* [React Frameworks and Server-Side Features: Beyond Client-Side Rendering](https://certificates.dev/blog/react-frameworks-and-server-side-features-beyond-client-side-rendering)\r\r\n\r\r\n### RSC 보안 취약점\r\r\n\r\r\nFlight Protocol 역직렬화 과정의 원격 코드 실행 취약점(CVE-2025-55182)입니다.\r\r\n\r\r\n* [Critical Security Vulnerability in React Server Components](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components)\r\r\n* [React2Shell Security Bulletin](https://vercel.com/kb/bulletin/react2shell)\r\r\n* [Understanding the RCE Flaw in React Server Functions](https://gist.github.com/sriram-palanisamy-hat/d207174ada2fa052ad44439f22a65c7e)\r\r\n\r\r\n### 생태계 변화\r\r\n\r\r\nCRA 종료와 styled-components 유지보수 모드 전환입니다.\r\r\n\r\r\n* [create-react-app is a zombie application](https://www.clientserver.dev/p/create-react-app-is-a-zombie-application)\r\r\n* [Cut styled-components into pieces: This is our last resort](https://www.sanity.io/blog/cut-styled-components-into-pieces-this-is-our-last-resort)\r\r\n\r\r\n## 조용했던 React Compiler의 시간\r\r\n\r\r\n작년 이맘때쯤에도 React Compiler를 소개했었는데요. 떠들썩했던 2024년의 분위기와 달리 RC를 거쳐 조용히 React Compiler v1.0.0이 릴리스되었고, 이를 적용하기 위한 점진적 도입 방법에 대한 글이 올라왔습니다. 간간이 성능 개선 사례와 React Compiler를 다루는 아티클이 있었습니다.\r\r\n\r\r\n### 릴리스와 도입 가이드\r\r\n\r\r\nRC부터 v1.0.0까지의 릴리스와 점진적 도입 방법입니다.\r\r\n\r\r\n* [React Compiler RC](https://react.dev/blog/2025/04/21/react-compiler-rc)\r\r\n* [React Compiler v1.0.0](https://www.npmjs.com/package/babel-plugin-react-compiler/v/1.0.0)\r\r\n* [Incremental Adoption](https://react.dev/learn/react-compiler/incremental-adoption)\r\r\n\r\r\n### 실전 적용 사례\r\r\n\r\r\n프로덕션 환경 도입 경험과 상태 관리 라이브러리와의 관계입니다.\r\r\n\r\r\n* [Adopting the compiler at wakelet.com in production](https://github.com/reactwg/react-compiler/discussions/52)\r\r\n* [Thoughts on state management libraries in the react compiler era](https://blog.axlight.com/posts/thoughts-on-state-management-libraries-in-the-react-compiler-era/)\r\r\n\r\r\n### 트러블슈팅과 내부 모델\r\r\n\r\r\nCompiler 관련 트러블슈팅과 Compiler에서 값의 변이와 별칭 관계를 추론하는 모델을 설명합니다.\r\r\n\r\r\n* [use no memo](https://react.dev/reference/react-compiler/directives/use-no-memo)\r\r\n* [React Compiler’s Silent Failures (And How to Fix Them)](https://acusti.ca/blog/2025/12/16/react-compiler-silent-failures-and-how-to-fix-them/)\r\r\n* [The Mutability \\& Aliasing Model](https://github.com/facebook/react/blob/156b7a96f5669470182ad226306184576d6f150f/compiler/packages/babel-plugin-react-compiler/src/Inference/MUTABILITY_ALIASING_MODEL.md)\r\r\n\r\r\n## Next.js의 보안 이슈와 복잡성\r\r\n\r\r\n어느샌가 프론트엔드는 브라우저를 넘어 서버 영역에 발을 들였습니다. 웹 성능 향상을 위한 기능 개선이 이어졌고, 서버 영역 진출만큼 보안 사고도 발생했습니다. 이 흐름의 중심에 Next.js가 있습니다.\r\r\n\r\r\n기능이 추가될수록 복잡성도 함께 올라갔고, 많은 개발자가 피로감을 호소한 한 해였습니다. 대안으로 TanStack Start가 자주 언급됐고, Next.js를 떠나는 후기는 어느 순간 메모조차 하지 않을 만큼 많았습니다.\r\r\n\r\r\n보안 이슈도 빼놓을 수 없습니다. Next.js는 꽤 넓은 버전 범위에 걸쳐 미들웨어 인증 검사를 헤더만으로 우회할 수 있는 취약점이 있었습니다. 클라이언트 요청과 내부 SubRequest를 구분하기 위해 사용한 비공식 헤더가 문제였는데, 이를 악용하면 전혀 관련 없는 경로에 영향을 줄 수 있었습니다. Vercel에서 호스팅된 앱은 자체적으로 방어하고 있었다는 점에서 의문이 들기도 했습니다.\r\r\n\r\r\n일부 개발자들은 타 호스팅 업체들이 Next.js의 모든 기능을 지원하는 데 어려움을 겪고 있다고 지적했습니다. Next.js가 공식 어댑터를 제공하지 않는 점, 보안 취약점 대응에 소극적이었던 점도 비판의 대상이 됐습니다.\r\r\n\r\r\n그럼에도 Next.js는 Turbopack, React Compiler, PPR 등을 탑재한 v16을 릴리스하며 업데이트를 이어가고 있고 여전히 긍정적인 시선도 존재합니다.\r\r\n\r\r\n### 보안 취약점\r\r\n\r\r\n미들웨어 인증 우회 취약점입니다.\r\r\n\r\r\n* [Next.js and the corrupt middleware: the authorizing artifact](https://zhero-web-sec.github.io/research-and-things/nextjs-and-the-corrupt-middleware)\r\r\n* [CVE-2025-29927: Authorization Bypass in Next.js Middleware](https://github.com/advisories/GHSA-f82v-jwr5-mffw)\r\r\n\r\r\n### 셀프 호스팅과 배포\r\r\n\r\r\nVercel 외 환경에서의 Next.js 운영과 셀프 호스팅 가이드입니다.\r\r\n\r\r\n* [Deploying a Next.js App to Production in any server](https://www.saybackend.com/blog/04-deploy-nextjs-to-production-without-vercel)\r\r\n* [How we run Next.js today - and what should change](https://www.netlify.com/blog/how-we-run-nextjs/)\r\r\n* [The Complete Guide to Self-Hosting Next.js at Scale](https://dlhck.com/thoughts/the-complete-guide-to-self-hosting-nextjs-at-scale/)\r\r\n\r\r\n### Next.js 이탈 사례\r\r\n\r\r\n다른 프레임워크로 전환한 팀들의 경험담입니다.\r\r\n\r\r\n* [Why we moved off next.js](https://documenso.com/blog/why-we-moved-off-next-js)\r\r\n* [We migrated our site to Eleventy and increased performance by 24%](https://etch.co/blog/we-migrated-our-site-to-eleventy-and-increased-performance-by-24-percent/)\r\r\n* [Why we ditched Next.js and never looked back](https://northflank.com/blog/why-we-ditched-next-js-and-never-looked-back)\r\r\n\r\r\n### Next.js 비판과 대안\r\r\n\r\r\n구조적 문제와 도입 전 고려 사항과 대안으로 떠오르는 TanStack Start 관련 내용입니다.\r\r\n\r\r\n* [You don't need Next.js](https://www.comfydeploy.com/blog/you-dont-need-nextjs)\r\r\n* [You should know this before choosing Next.js](https://eduardoboucas.com/posts/2025-03-25-you-should-know-this-before-choosing-nextjs/)\r\r\n* [Why Next.js Falls Short on Software Engineering](https://blog.webf.zone/why-next-js-falls-short-on-software-engineering-d3575614bd08)\r\r\n* [Architecting with Constraints: A Pragmatic Guide](https://www.lorenstew.art/blog/always-architect-with-contraints/)\r\r\n* [Next.js vs Tanstack](https://www.kylegill.com/essays/next-vs-tanstack/)\r\r\n* [TanStack Start: New competitor to Next.js](https://ondrejvelisek.github.io/tanstack-start-new-competitor-to-nextjs/)\r\r\n* [Why developers are leaving Next.js for TanStack Start, and loving it](https://appwrite.io/blog/post/why-developers-leaving-nextjs-tanstack-start)\r\r\n\r\r\n### 긍정적 전말과 릴리스\r\r\n\r\r\nNext.js의 미래에 대한 긍정적 시각과 렌더링 방식에 대한 이해입니다.\r\r\n\r\r\n* [I like the future of Next.js](https://tigerabrodi.blog/i-like-the-future-of-nextjs)\r\r\n* [How to understand the concepts of Next.js such as CSR , SSR, SSG, ISR, RSC, SPA, and Streaming SSR?](https://dev.to/nextjser/how-to-understand-the-concepts-of-nextjs-such-as-csr-ssr-ssg-isr-rsc-spa-and-streaming-ssr-pl3)\r\r\n\r\r\n## npm 보안 위기의 해\r\r\n\r\r\n2025년은 보안 사고가 끊이지 않았습니다. 공급망 공격을 비롯한 여러 보안 취약점 등이 있었습니다. 다행히 최근 주요 플랫폼들이 발빠르게 대응하며 보안 체계를 갖춰가고 있습니다. \r\r\n\r\r\n### 개발자 계정 탈취로 인한 공급망 공격\r\r\n\r\r\n유명 라이브러리의 개발자들이 피싱으로 계정이 탈취되었고 이에 따라 오염된 패키지가 배포되는 사건들이 있었습니다.\r\r\n\r\r\n* [npm Author Qix Compromised via Phishing Email in Major Supply Chain Attack](https://socket.dev/blog/npm-author-qix-compromised-in-major-supply-chain-attack)\r\r\n* [npm debug and chalk packages compromised](https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised)\r\r\n* [Version 5.6.1 published to npm is compromised (RESOLVED)](https://github.com/chalk/chalk/issues/656)\r\r\n* [infowski - hackerspace.pl](https://social.hackerspace.pl/@informatic/115168929981581855)\r\r\n* [DuckDB npm Account Compromised in Continuing Supply Chain Attack](https://socket.dev/blog/duckdb-npm-account-compromised-in-continuing-supply-chain-attack)\r\r\n* [DuckDB NPM packages 1.3.3 and 1.29.2 compromised with malware](https://github.com/duckdb/duckdb-node/security/advisories/GHSA-w62p-hx95-gf2c)\r\r\n* [eslint-config-prettier Compromised: How npm Package with 30 Million Downloads Spread Malware](https://safedep.io/eslint-config-prettier-major-npm-supply-chain-hack/)\r\r\n* [Popular npm linter packages hijacked via phishing to drop malware](https://www.bleepingcomputer.com/news/security/popular-npm-linter-packages-hijacked-via-phishing-to-drop-malware/)\r\r\n* [npm Phishing Email Targets Developers with Typosquatted Domain](https://socket.dev/blog/npm-phishing-email-targets-developers-with-typosquatted-domain)\r\r\n* [Josh Junon - bluesky](https://bsky.app/profile/bad-at-computer.bsky.social/post/3lydioq5swk2y)\r\r\n* [JounQin - X](https://x.com/JounQin/status/1946297662069993690)\r\r\n* [npm ‘is’ Package Hijacked in Expanding Supply Chain Attack](https://socket.dev/blog/npm-is-package-hijacked-in-expanding-supply-chain-attack)\r\r\n    [](https://socket.dev/blog/tinycolor-supply-chain-attack-affects-40-packages)\r\r\n* [Popular Tinycolor npm Package Compromised in Supply Chain Attack Affecting 40+ Packages](https://socket.dev/blog/tinycolor-supply-chain-attack-affects-40-packages)\r\r\n* [ctrl/tinycolor and 40+ NPM Packages Compromised](https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised)\r\r\n\r\r\n\r\r\n### Shai-Hulud 공격\r\r\n\r\r\nShai-Hulud 대규모 공급망 공격 분석입니다.\r\r\n\r\r\n* [Shai-Hulud Returns: Over 1K NPM Packages and 27K+ Github Repos infected via Fake Bun Runtime Within Hours](https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24)\r\r\n* [The Shai-Hulud 2.0 npm worm: analysis, and what you need to know](https://securitylabs.datadoghq.com/articles/shai-hulud-2.0-npm-worm/)\r\r\n* [NPM Security Best Practices: How to Protect Your Packages After the 2025 Shai Hulud Attack](https://snyk.io/fr/articles/npm-security-best-practices-shai-hulud-attack/)\r\r\n* [GitLab discovers widespread npm supply chain attack](https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/)\r\r\n\r\r\n### 플랫폼 보안 강화\r\r\n\r\r\nnpm과 Github의 인증 체계 개선과 보안 기능 업데이트입니다.\r\r\n\r\r\n* [npm classic tokens revoked, session-based auth and CLI token management now available](https://github.blog/changelog/2025-12-09-npm-classic-tokens-revoked-session-based-auth-and-cli-token-management-now-available/)\r\r\n* [npm trusted publishing with OIDC is generally available](https://github.blog/changelog/2025-07-31-npm-trusted-publishing-with-oidc-is-generally-available/)\r\r\n* [How We're Protecting Our Newsroom from npm Supply Chain Attacks](https://pnpm.io/blog/2025/12/05/newsroom-npm-supply-chain-security)\r\r\n\r\r\n### 도구\r\r\n\r\r\n보안 강화를 위한 다양한 라이브러리입니다.\r\r\n\r\r\n* [safe-npm](https://github.com/kevinslin/safe-npm)\r\r\n* [npq](https://github.com/lirantal/npq)\r\r\n* [reproduce](https://github.com/vltpkg/reproduce)\r\r\n* [exposedbydefault](https://github.com/neberej/exposedbydefault)\r\r\n\r\r\n## 빌드 도구의 Rust 전환\r\r\n\r\r\n작년에 이어 JavaScript 툴체인의 Rust 재작성이 가속화되고 있습니다. Rust 전환 시 기존 대비 10-100배의 성능 향상이 가능하기 때문에, 복잡해진 프론트엔드 생태계에서 이 흐름은 이제 거스르기 어려워 보입니다.\r\r\n\r\r\n가장 두드러진 성과를 내는 곳은 VoidZero로 보입니다. Rolldown, Oxc, Oxfmt, Oxlint 등의 프로젝트를 운영하고 있습니다. 이 외에도 ByteDance의 Rsbuild/Rspack, 통합 툴체인 Deno, Vercel의 Turbopack, Meta의 Buck2 등이 있습니다.\r\r\n\r\r\n개인적인 경험도 있습니다. NCUI가 실제 서비스에서 어떻게 사용되는지 추적하기 위해 만든 사이드 프로젝트에서 JavaScript 기반 분석 도구를 SWC 기반으로 재개발했는데 처리 속도가 50배 이상 빨라졌습니다.\r\r\n\r\r\nVite는 지속적인 업데이트 끝에 Rolldown을 탑재한 v8 메이저 업데이트를 앞두고 있습니다. 아직 Webpack을 사용 중이라면 마이그레이션을 검토해 볼 만합니다.\r\r\n\r\r\n### Voidzero의 소식\r\r\n\r\r\nVoidzero 진영의 Rolldown 번들러 소식과 Oxlint 관련 내용입니다.\r\r\n\r\r\n* [How Rolldown Works: Module Loading, Dependency Graphs, and Optimization Explained](https://www.atriiy.dev/blog/rolldown-module-loader-and-dependency-graph/)\r\r\n* [Rolldown 1.0 Beta](https://github.com/rolldown/rolldown/releases/tag/v1.0.0-beta.1)\r\r\n* [Vite 8 Beta: The Rolldown-powered Vite](https://vite.dev/blog/announcing-vite8-beta)\r\r\n* [tsdown](https://github.com/rolldown/tsdown)\r\r\n* [Oxlint v1](https://oxc.rs/blog/2025-06-10-oxlint-stable.html)\r\r\n* [Faster Type-Aware Lint Rules: Biome vs. Oxlint](https://www.solberg.is/fast-type-aware-linting/)\r\r\n*  [Vite just passed Webpack in weekly npm downloads](https://x.com/youyuxi/status/1950234261573038444)\r\r\n\r\r\n### 번들러 비교와 전망\r\r\n\r\r\n* [The JavaScript Bundler Grand Prix](https://redmonk.com/kholterhoff/2025/12/16/javascript-bundler-grand-prix/)\r\r\n* [Bundler Explorer](https://bundler.sxzz.dev/)\r\r\n* [Speeding up the JavaScript ecosystem - Rust and JavaScript plugins](https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/)\r\r\n\r\r\n## 새로운 HTML/CSS 네이티브 기능의 폭발\r\r\n\r\r\nBaseline, Interop 활동에 힘입어 HTML/CSS 네이티브 기능이 쏟아졌습니다. 사실 이런 주제의 아티클은 꾸준히 올라오지만, 최신 브라우저만을 사용자 환경으로 전제할 수 없어 깊이 들여다보지 못한 경우가 많았습니다. 그래도 관심을 놓지 않고 있다가 충분히 사용 가능한 시점에 네이티브로 전환하면 제품 품질이 확실히 좋아질 거라 생각합니다.\r\r\n\r\r\n### 네이티브 UI 컴포넌트\r\r\n\r\r\n기존에 JavaScript로 구현하던 Tooltip, Popover, Dropdown 같은 UI 패턴을 네이티브로 지원합니다.\r\r\n\r\r\n* [The Basics of Anchor Positioning](https://ishadeed.com/article/anchor-positioning/)\r\r\n* [Better anchor positioning with position-area](https://www.oddbird.net/2025/02/25/anchor-position-area/)\r\r\n* [Follow-the-leader pattern with CSS anchor positioning](https://una.im/follow-the-anchor/)\r\r\n* [The popover api is now baseline newly available](https://web.dev/blog/popover-baseline?hl=en)\r\r\n* [What is popover=hint?](https://una.im/popover-hint/)\r\r\n* [The `` element can now be customized with CSS](https://developer.chrome.com/blog/a-customizable-select?hl=en)\r\r\n* [Updates to the customizable select API](https://una.im/select-updates/)\r\r\n\r\r\n### CSS 조건문\r\r\n\r\r\nif() 함수로 CSS 속성 값 내에서 인라인 조건부 로직을 구현합니다.\r\r\n\r\r\n* [CSS conditionals with the new if() function](https://developer.chrome.com/blog/if-article/)\r\r\n* [Introduction to CSS if Statements and Conditional Logic](https://markodenic.com/introduction-to-css-if-statements-and-conditional-logic/)\r\r\n* [CSS custom functions are coming ... and they are going to be a game changer](https://www.bram.us/2025/02/09/css-custom-functions-teaser/)\r\r\n\r\r\n### 레이아웃\r\r\n\r\r\nSubgrid와 반응형 디자인 기능입니다. 참고로 작년 주제였던 Masonry 레이아웃은 여전히 진행 중입니다.\r\r\n\r\r\n* [Brand New Layouts with CSS Subgrid](https://www.joshwcomeau.com/css/subgrid/)\r\r\n* [Taking RWD(Responsive Web Design) to the extreme](https://www.smashingmagazine.com/2025/02/taking-rwd-to-the-extreme/)\r\r\n* [How much do you really know about media queries?](https://frontendmasters.com/blog/learn-media-queries/)\r\r\n* [Grid Lanes Layout Model](https://www.w3.org/TR/css-grid-3/#grid-lanes-model)\r\r\n* [MDN - Masonry Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout)\r\r\n\r\r\n### 색상과 스타일링\r\r\n\r\r\n* [CSS Custom Properties vs. Sass Variables: A Pragmatic Guide](https://www.alwaystwisted.com/articles/css-vs-sass)\r\r\n* [A pragmatic guide to modern CSS colours - part one](https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/)\r\r\n* [Making Context-Aware Components: How CSS inherit() Could Simplify Design Systems](https://www.alwaystwisted.com/articles/making-context-aware-components)\r\r\n\r\r\n### 새로운 Web API\r\r\n\r\r\nTemporal, Clipboard, Sanitizer, moveBefore 등 신규 브라우저 API와 제안입니다.\r\r\n\r\r\n* [The Clipboard API: How Did We Get Here?](https://cekrem.github.io/posts/clipboard-api-how-hard-can-it-be/)\r\r\n* [Temporal API is coming](https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/)\r\r\n* [Why the Sanitizer API is just setHTML()](https://frederikbraun.de/why-sethtml.html)\r\r\n* [Move elements around the DOM while preserving their state with moveBefore](https://www.bram.us/2025/01/16/move-elements-around-the-dom-while-preserving-their-state-with-movebefore/)\r\r\n* [Making complex web apps faster](https://blogs.windows.com/msedgedev/2025/12/09/making-complex-web-apps-faster/)\r\r\n\r\r\n### 종합 가이드\r\r\n\r\r\nHTML/CSS 신기능 전반을 다룹니다.\r\r\n\r\r\n* [Relatively new things you should know about HTML heading into 2025](https://frontendmasters.com/blog/bone-up-html-2025/)\r\r\n* [Perfecting Baseline](https://piccalil.li/blog/perfecting-baseline/)\r\r\n* ▶️ [25 new \\& rad feature of CSS](https://www.youtube.com/watch?v=QW6GECIzvsw)\r\r\n* [CSS Wrapped 2025](https://chrome.dev/css-wrapped-2025/)\r\r\n\r\r\n## AI 트렌드\r\r\n\r\r\n프론트엔드를 떠나 IT 산업 전반을 돌아보면, 2025년은 단연 LLM/AI가 가장 뜨거운 키워드였습니다. 상반기만 해도 MCP 프로토콜 소개나 LLM 기반 코드 개발 후기 정도가 화제였는데, 불과 몇 달 만에 양상이 달라졌습니다. Angular, Svelte, Chrome DevTools 등 주요 프레임워크가 공식 MCP 서버를 출시했고, Spotify와 Amazon 팀의 실전 도입 사례가 속속 공개되기 시작했습니다. 바이브 코딩, 컨텍스트 엔지니어링, 스펙 주도 개발 같은 방법론이 등장했고, 최근에는 Claude에서 Skills라는 도구까지 나왔습니다.\r\r\n\r\r\n자연스럽게 프론트엔드 영역의 생산성 개선에 관심이 쏠렸습니다. 하지만 LLM은 복잡한 인터랙션 처리에서 한계를 드러냈고, 기대만큼의 임팩트를 보여주진 못했습니다. 이 시기에 AI의 한계를 지적하는 글, 코드 리뷰의 중요성을 강조하는 글, 엔지니어의 책임을 다시 정의하는 글이 쏟아졌습니다. 미래를 단언할 수는 없지만, 현 시점에서는 개발자의 판단력이 여전히 핵심이라는 데 대체로 의견이 모이는 분위기입니다.\r\r\n\r\r\n그럼에도 프론트엔드와 AI의 접점은 계속 넓어지고 있습니다. LLM이 웹 브라우저를 직접 제어하고, React 컴포넌트를 해석하는 도구들이 등장했습니다. Figma는 빠른 속도로 AI 기능을 도입하고 있고, 디자인 토큰을 AI가 읽을 수 있는 구조로 재설계하자는 제안도 나오고 있습니다.\r\r\n\r\r\n2025년 한 해를 돌아보면 솔직히 동네 축구 같다는 생각도 듭니다. '이게 좋다' 하면 모두가 몰려가고, '저게 정답이다' 하면 또 그쪽으로 쏠리는 흐름이 반복됐습니다. 그 와중에 인상 깊었던 LLM 사용 사례와 아티클, 도구를 정리해 공유합니다.\r\r\n\r\r\n### AI 코딩의 한계와 책임\r\r\n\r\r\nLLM 기반 개발의 한계점과 개발자 책임에 대한 논의입니다.\r\r\n\r\r\n* [Can LLMs write better code if you keep asking them to \"write better code?\"](https://minimaxir.com/2025/01/write-better-code/)\r\r\n* [Why you shouldn't use AI to write documentation](https://zeroheight.com/blog/why-you-shouldnt-use-ai-to-write-documentation/)\r\r\n* [Why Your AI Coding Assistant Keeps Doing It Wrong, and How To Fix It](https://blog.thepete.net/blog/2025/05/22/why-your-ai-coding-assistant-keeps-doing-it-wrong-and-how-to-fix-it/)\r\r\n* [Your job is to deliver code you have proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/)\r\r\n* [dead framework theory](https://aifoc.us/dead-framework-theory/)\r\r\n* [How to Fix Any Bug](https://overreacted.io/how-to-fix-any-bug/)\r\r\n\r\r\n### 기업 도입 사례\r\r\n\r\r\nSpotify, Airbnb 등 대규모 조직의 AI 도입 경험입니다.\r\r\n\r\r\n* [1,500+ PRs Later: Spotify’s Journey with Our Background Coding Agent (Part 1)](https://engineering.atspotify.com/2025/11/spotifys-background-coding-agent-part-1)\r\r\n* [The New Calculus of AI-based Coding](https://blog.joemag.dev/2025/10/the-new-calculus-of-ai-based-coding.html)\r\r\n* [Accelerating Large-Scale Test Migration with LLMs](https://medium.com/airbnb-engineering/accelerating-large-scale-test-migration-with-llms-9565c208023b)\r\r\n\r\r\n### MCP와 컨텍스트 엔지니어링\r\r\n\r\r\nModel Context Protocol과 효과적인 AI 활용을 위한 컨텍스트 설계입니다.\r\r\n\r\r\n* [MCP explained without hype of fluff](https://blog.nilenso.com/blog/2025/05/12/mcp-explained-without-hype-or-fluff)\r\r\n* [Chrome DevTools MCP Server](https://developer.chrome.com/blog/chrome-devtools-mcp)\r\r\n* [Getting AI to Work in Complex Codebases](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md)\r\r\n* [Minification isn't obfuscation - Claude Code proves it](https://martinalderson.com/posts/minification-isnt-obfuscation-claude-code-proves-it/)\r\r\n\r\r\n### AI시대의 개발 방법론\r\r\n\r\r\nAPI 설계, 문서화, 추상화 등 AI와 함께하는 개발 방법론입니다.\r\r\n\r\r\n* [How to Design APIs for an AI World ](https://refactoring.fm/p/how-to-design-apis-for-an-ai-world)\r\r\n* [Writing documentation for AI: best practices](https://docs.kapa.ai/improving/writing-best-practices/)\r\r\n* [The New Calculus of AI-based Coding](https://blog.joemag.dev/2025/10/the-new-calculus-of-ai-based-coding.html)\r\r\n* [Conversation: LLMs and Building Abstractions](https://martinfowler.com/articles/convo-llm-abstractions.html)\r\r\n* [Attention Is the New Big-O](https://alexchesser.medium.com/attention-is-the-new-big-o-9c68e1ae9b27/)\r\r\n\r\r\n### 유용한 도구\r\r\n\r\r\nAI 개발에 활용할 수 있는 도구입니다.\r\r\n\r\r\n* [repomix](https://github.com/yamadashy/repomix) - 전체 Repository를 AI 친화적인 단일 파일로 압축\r\r\n* [repo2txt](https://github.com/abinthomasonline/repo2txt) - GitHub Repository를 단일 텍스트로 변환, GUI 기반으로 파일 선택 가능\r\r\n* [ai-digest](https://github.com/khromov/ai-digest) - 코드베이스를 하나의 마크다운 파일로 생성\r\r\n* [claude-flow](https://github.com/ruvnet/claude-flow) - Claude 기반 AI 에이전트를 여러 개 연결해 협업, 복잡한 작업을 단계별 워크플로우로 자동화\r\r\n* [agent-rules](https://github.com/steipete/agent-rules) - Cursor, Claude Code 같은 AI 코드 어시스턴트에게 일관된 행동 지침을 적용하는 규칙 템플릿 모음\r\r\n* [Conductor](https://conductor.build/) - Claude Code를 여러 개 동시에 실행하며 관리하는 도구\r\r\n* [Terragon](https://www.terragonlabs.com/) - Claude Code, OpenAI Codex 등 AI 코딩 에이전트를 클라우드에서 병렬 실행\r\r\n* [react-grab](https://github.com/aidenybai/react-grab) - 페이지의 모든 요소를 선택해 AI 코딩 에이전트에게 컨텍스트로 전달, 단일 스크립트 태그로 설치\r\r\n* [MCP Registry](https://github.com/mcp) - GitHub에서 다양한 MCP 서버를 모아둔 레지스트리\r\r\n* [streamdown](https://streamdown.ai/) - AI Chat 서비스처럼 마크다운 스트리밍 렌더링 지원\r\r\n* [lean-spec](https://github.com/codervisor/lean-spec) - 경량 SDD(Spec-Driven Development) 프레임워크\r\r\n\r\r\n## 그 외 분야별 소식\r\r\n\r\r\n### JavaScript/TypeScript\r\r\n\r\r\n2025년도 JavaScript와 TypeScript 생태계는 활발하게 움직였습니다. TypeScript 7의 Go 포팅 소식, 다양한 언어 패턴과 보안 이슈, 그리고 JSDoc을 활용한 타입 안정성 확보 방법 등 주요 소식을 정리했습니다.\r\r\n\r\r\n#### 언어 기능과 패턴\r\r\n\r\r\nJavaScript의 다양한 언어 기능과 활용 패턴입니다.\r\r\n\r\r\n* [There are a lot of ways to break up long tasks in JavaScript](https://macarthur.me/posts/long-tasks/)\r\r\n* [Breaking Up with Long Tasks or: how I learned to group loops and wield the yield](https://calendar.perfplanet.com/2024/breaking-up-with-long-tasks-or-how-i-learned-to-group-loops-and-wield-the-yield/)\r\r\n* [Category Theory for JavaScript/TypeScript Developers](https://ibrahimcesar.cloud/blog/category-theory-for-javascript-typescript-developers/)\r\r\n* [Say bye with JavaScript Beacon](https://hemath.dev/blog/say-bye-with-javascript-beacon/)\r\r\n* [Using await at the top level in ES Modules](https://allthingssmitty.com/2025/06/16/using-await-at-the-top-level-in-es-modules/)\r\r\n* [30 Years of JavaScript: 10 Milestones That Changed the Web](https://thenewstack.io/30-years-of-javascript-10-milestones-that-changed-the-web/)\r\r\n* [How to Control the Number of Concurrent Promises in JavaScript](https://dev.to/zacharylee/how-to-control-the-number-of-concurrent-promises-in-javascript-3mg8)\r\r\n* [Deeply immutable data structures](https://sanjeettiwari.com/notes/deeply-immutable-structures)\r\r\n* [JavaScript's Promise.race and Promise.all Are Not \"Fair\"](https://v5.chriskrycho.com/notes/javascript-promise-race-and-promise-all-are-not-fair/)\r\r\n* [Sustainable simplicity](https://frontendatscale.com/issues/42)\r\r\n\r\r\n#### TypeScript의 활용\r\r\n\r\r\nTypeScript의 고급 기능과 타입 시스템 활용법입니다.\r\r\n\r\r\n* [TypeScript vs Zod: Clearing up validation confusion](https://blog.logrocket.com/when-use-zod-typescript-both-developers-guide)\r\r\n* [6 Advanced TypeScript Tricks](https://sinja.io/blog/advanced-typescript)\r\r\n* [The Multi-Repository TypeScript Problem](https://www.carrick.tools/blog/the-multi-repository-typescript-problem/)\r\r\n\r\r\n#### JSDoc 활용\r\r\n\r\r\nTypeScript 없이 JSDoc으로 타입 안정성을 확보하는 방법입니다.\r\r\n\r\r\n* [The Nuances of JavaScript Typing using JSDoc](https://thathtml.blog/2025/12/nuances-of-typing-with-jsdoc/)\r\r\n* [How JSDoc Saved My Dev Workflow](https://spin.atomicobject.com/how-jsdoc-saved-my-dev-workflow/)\r\r\n\r\r\n#### TypeScript 생태계\r\r\n\r\r\nTypeScript의 발전 방향과 생태계 변화입니다.\r\r\n\r\r\n* [TypeScript’s rise in the AI era: Insights from Lead Architect, Anders Hejlsberg](https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/)\r\r\n* [The Inner Workings of JavaScript Source Maps](https://www.polarsignals.com/blog/posts/2025/11/04/javascript-source-maps-internals)\r\r\n* [TypeScript is going Go: Why it's the pragmatic choice](https://johnnyreilly.com/typescript-go-pragmatic-choice)\r\r\n\r\r\n#### 보안\r\r\n\r\r\nJavaScript 시큐어 코딩 관련 내용입니다.\r\r\n\r\r\n* [How to consume APIs in React using Fetch and Async/Await](https://blog.codeminer42.com/how-to-consume-apis-in-react-using-fetch-and-async-await/)\r\r\n\r\r\n### 프레임워크\r\r\n\r\r\n앞서 언급한 React 외 주요 프레임워크들의 2025년 소식을 정리했습니다. Remix의 React 결별 선언, Svelte의 성능 입증, Angular의 Zoneless 안정화 등 흥미로운 변화가 많았습니다.\r\r\n\r\r\n#### Remix\r\r\n\r\r\nReact와 결별하고 웹 표준 중심으로 재구상된 Remix v3 소식입니다.\r\r\n\r\r\n* [Wake Up! Remix](https://remix.run/blog/wake-up-remix)\r\r\n* [Remix Jam 2025](https://remix.run/jam/2025)\r\r\n* [React and Remix Choose Different Futures](https://laconicwit.com/react-and-remix-choose-different-futures/)\r\r\n* [Remix 3 and the End of React-Centric Architectures](https://thenewstack.io/remix-3-and-the-end-of-react-centric-architectures/)\r\r\n* [Just JavaScript](https://pedrocattori.com/posts/just-javascript/)\r\r\n*  [Remix v3 Preact 기반 계획 취소](https://x.com/mjackson/status/1955083457144762729)\r\r\n* [Remixing Shopify's Admin](https://shopify.engineering/remixing-admin)\r\r\n\r\r\n#### Svelte\r\r\n\r\r\n개발자 만족도 1위, 성능 벤치마크에서도 가장 빠른 성능을 기록한 Svelte 소식입니다.\r\r\n\r\r\n* [What's new in Svelte: November 2025](https://svelte.dev/blog/whats-new-in-svelte-november-2025)\r\r\n* [Svelte really is that fast](https://chuniversiteit.nl/papers/svelte-is-fast)\r\r\n* [Why startups choose React (and when you shouldn't)](https://evilmartians.com/chronicles/why-startups-choose-react-and-when-you-should-not)\r\r\n\r\r\n#### Angular\r\r\n\r\r\nZoneless 안정화와 시그널 기반 반응성 API를 도입한 Angular 소식입니다.\r\r\n\r\r\n* [Angular Summer Update 2025](https://blog.angular.dev/angular-summer-update-2025-1987592a0b42)\r\r\n* [Angular 2025 Strategy](https://blog.angular.dev/angular-2025-strategy-9ca333dfc334)\r\r\n\r\r\n#### Vue / Nuxt\r\r\n\r\r\nVercel의 Nuxt 인수와 Vue 생태계 현황입니다.\r\r\n\r\r\n* [State of Vue.js Report 2025](https://www.monterail.com/)\r\r\n* [NuxtLabs joins Vercel](https://vercel.com/blog/nuxtlabs-joins-vercel)\r\r\n* [How to build Microfrontends with Module Federation and Vue](https://alexop.dev/posts/how-to-build-microfrontends-with-module-federation-and-vue/)\r\r\n\r\r\n#### Astro\r\r\n\r\r\n클라이언트 JavaScript 최소화와 Content Collections 진화 소식입니다.\r\r\n\r\r\n* [What's new in Astro - January 2025](https://astro.build/blog/whats-new-january-2025/)\r\r\n* [Live Content Collections: A Deep Dive](https://astro.build/blog/live-content-collections-deep-dive/)\r\r\n* [Why use React?](https://adactio.com/journal/22265)\r\r\n\r\r\n#### htmx\r\r\n\r\r\n\"하위 호환성 없는 v3.0은 절대 출시하지 않겠다\"는 약속 때문에 v3를 건너뛰고 v4 출시한 htmx 소식입니다.\r\r\n\r\r\n* [htmx v4](https://htmx.org/essays/the-fetchening/)\r\r\n\r\r\n### 디자인 시스템\r\r\n\r\r\n2025년 디자인 시스템 생태계는 AI 시대를 맞아 큰 전환점을 맞이했습니다. Claude Skills와 Figma MCP 서버의 등장으로 디자인 시스템 팀이 AI를 활용해 마이그레이션 자동화, Storybook 스토리 생성, 토큰 검증 등 반복적인 작업을 자동화할 수 있게 되었고, 이에 따라 디자인 토큰을 AI가 올바르게 이해할 수 있도록 시맨틱 네이밍과 메타데이터를 추가하는 구조화가 새로운 과제로 언급되었습니다.\r\r\n\r\r\n컴포넌트 설계 철학에서는 합성이 하나의 패러다임으로 떠올랐습니다. Figma의 네이티브 슬롯 지원을 계기로 고정된 컴포넌트 대신 기본 컨테이너와 재사용 가능한 자식 요소를 분리해 제공하는 방식이 확산되었고, 다중 추상화 계층 접근법도 주목 받았습니다.\r\r\n\r\r\n디자인 토큰 영역에서는 DTCG가 18개월간 여러 가지 스펙 업데이트를 발표한 반면, 흥미롭게도 디자인 토큰이라는 용어를 처음 만든 Salesforce는 복잡해진 토큰 스펙 대신 CSS 커스텀 프로퍼티로 회귀했습니다. Figma 역시 토큰 대신 변수라는 용어를 선택하며, 업계가 토큰의 복잡성과 단순함 사이에서 균형점을 찾고 있음을 보여줍니다.\r\r\n\r\r\n#### 설계 철학과 전략\r\r\n\r\r\n디자인 시스템의 본질과 성공 전략에 대한 논의입니다.\r\r\n\r\r\n* [Beyond the Plateau of Sameness](https://yeseniaperezcruz.substack.com/p/beyond-the-plateau-of-sameness)\r\r\n* [Bias in Design Systems](https://bencallahan.com/bias-in-design-systems)\r\r\n* [The future of design systems is decentralized](https://uxdesign.cc/the-future-of-design-systems-is-decentralized-770db996442c)\r\r\n* [The dumbest design system mistakes](https://learn.thedesignsystem.guide/p/the-dumbest-design-system-mistakes)\r\r\n* [Design System Tactics](https://redesigningdesign.systems/tactics/all-tactics)\r\r\n* [designtokens.fyi](https://designtokens.fyi/)\r\r\n\r\r\n#### 컴포넌트 설계\r\r\n\r\r\n슬롯, 컴포지션, 추상화 계층 등 컴포넌트 설계 패턴입니다.\r\r\n\r\r\n* [Slots in Design Systems](https://nathanacurtis.substack.com/p/slots-in-design-systems)\r\r\n* [Using composability over inheritance to scale design systems](https://zeroheight.com/blog/using-composability-over-inheritance-to-scale-design-systems/)\r\r\n* [Multiple Layers of Abstraction in Design Systems](https://engineering.atspotify.com/2023/05/multiple-layers-of-abstraction-in-design-systems/)\r\r\n* [The power of relationships in design systems](https://learn.thedesignsystem.guide/p/the-power-of-relationships-in-design)\r\r\n\r\r\n#### 디자인 토큰\r\r\n\r\r\n토큰 스펙 진화와 실무 활용법입니다.\r\r\n\r\r\n* [What's new in the Design Tokens spec](https://zeroheight.com/blog/whats-new-in-the-design-tokens-spec/)\r\r\n* [Design Token-Based UI Architecture](https://martinfowler.com/articles/design-token-based-ui-architecture.html)\r\r\n* [A Design Token Workflow](https://www.alwaystwisted.com/articles/a-design-tokens-workflow-part-1)\r\r\n* [Generating Utility Classes from Design Tokens](https://www.alwaystwisted.com/articles/a-design-tokens-workflow-part-13)\r\r\n* [Avoiding Tokens](https://blog.damato.design/posts/avoiding-tokens/)\r\r\n* [Introducing Design Tokens Language Server](https://bennypowers.dev/posts/introducing-design-tokens-language-server/)\r\r\n\r\r\n#### AI와 디자인 시스템\r\r\n\r\r\nAI 시대에 디자인 시스템을 활용하고 최적화하는 방법입니다.\r\r\n\r\r\n* [3 practical ways LLMs can support design systems teams today](https://zeroheight.com/blog/3-practical-ways-llms-can-support-design-systems-teams-today/)\r\r\n* [Why your design system team need Claude Skills](https://learn.thedesignsystem.guide/p/why-your-design-system-team-need)\r\r\n* [Design tokens that AI can actually read](https://learn.thedesignsystem.guide/p/design-tokens-that-ai-can-actually)\r\r\n* [How to build patterns from your design system components with AI](https://learn.thedesignsystem.guide/p/how-to-build-patterns-from-your-design)\r\r\n\r\r\n#### 문서화와 운영\r\r\n\r\r\n디자인 시스템 문서화, 접근성 감사, 유지보수 전략 및 운영입니다.\r\r\n\r\r\n* [How to document your design system components](https://zeroheight.com/blog/how-to-document-your-design-system-components/)\r\r\n* [When's the right time to start documenting your design system?](https://zeroheight.com/blog/whens-the-right-time-to-start-documenting-your-design-system/)\r\r\n* [Storefront \\& Warehouse](https://blog.damato.design/posts/storefront-warehouse/)\r\r\n* [Design tokens aren't enough. ADR need a place](https://samiamdesigns.substack.com/p/design-tokens-arent-enough-architecture)\r\r\n* [Retrofitting a Design System Into an Existing Product](https://medium.com/@anilpak35/retrofitting-a-design-system-into-an-existing-product-a9ebfe3d7d30)\r\r\n\r\r\n### 라이브러리\r\r\n\r\r\n개발 생산성을 높여주는 다양한 도구들이 등장했습니다. UI 관련 라이브러리, 프로젝트 분석, TypeScript 개발, 보안, 테스트까지 카테고리별로 정리했습니다.\r\r\n\r\r\n#### UI 컴포넌트\r\r\n\r\r\nshadcn/ui는 지속적으로 엄청난 확장을 거듭하며 가장 영향력 있는 생태계 중 하나가 되었고, 지속적으로 주목받던 Base UI가 v1을 릴리스했습니다.\r\r\n\r\r\n* [shadcn/ui](https://ui.shadcn.com/) - CLI 3.0, Monorepo 지원, 다양한 신규 컴포넌트\r\r\n* [shadcn/ui.create](https://ui.shadcn.com/create) - GUI로 자신만의 shadcn/ui 구성\r\r\n* [shadcn.io](https://www.shadcn.io/) - MIT 라이선스 무료 컴포넌트 커뮤니티 레지스트리\r\r\n* [shadcn/ui Form documentation](https://ui.shadcn.com/docs/forms) - React Hook Form, TanStack Form 통합 가이드\r\r\n* [themecn](https://themecn.dev/) - shadcn 기반 테마 생성기\r\r\n* [formcn](https://formcn.dev/) - shadcn 기반 양식 생성기\r\r\n* [base-ui v1.0](https://base-ui.com/) - Radix, Material UI, Floating UI 개발자들의 컴포넌트 재정의\r\r\n* [Headless Tree](https://headless-tree.lukasbach.com/) - 트리 컴포넌트 라이브러리\r\r\n\r\r\n#### 프로젝트 분석\r\r\n\r\r\n코드베이스와 의존성을 분석하고 정리하는 도구들입니다.\r\r\n\r\r\n* [Knip](https://knip.dev/) - 불필요한 파일, 의존성, 내보내기 등을 JavaScript/TypeScript 프로젝트에서 추출\r\r\n* [qnm](https://github.com/ranyitz/qnm) - node\\_modules 탐색 CLI, 퍼지 검색, 패키지 설치 이유 설명, 모노레포 지원\r\r\n* [API Extractor](https://api-extractor.com/) - TypeScript 라이브러리 API 관리, 변경 감지, export 검증, .d.ts rollup 생성\r\r\n* [sonda](https://github.com/filipsobol/sonda) - 소스맵 분석으로 트리쉐이킹/압축 후 실제 모듈 크기 시각화\r\r\n\r\r\n#### TypeScript 개발 도구\r\r\n\r\r\nTypeScript 개발 경험을 개선하는 도구들입니다.\r\r\n\r\r\n* [ts-migrating](https://github.com/ycmjason/ts-migrating) - strict 모드 등 새 compilerOptions를 점진적으로 적용, @ts-migrating 주석으로 라인별 제어\r\r\n* [ts-exec](https://github.com/poppinss/ts-exec) - SWC로 Node에서 TypeScript 실행, ts-node/tsx 문제 해결\r\r\n* [ts-to-zod](https://github.com/fabien0102/ts-to-zod) - TypeScript 타입/인터페이스에서 Zod 스키마 자동 생성\r\r\n* [typia](https://github.com/samchon/typia) - 컴파일 타임에 타입 정보만으로 유효성 검사, 간단한 문법\r\r\n\r\r\n#### 데이터 검증과 HTTP\r\r\n\r\r\n데이터 검증과 HTTP 요청을 다루는 라이브러리들입니다.\r\r\n\r\r\n* [Of Coerce!](https://github.com/kossnocorp/ofcoerce) - Zod/Valibot 경량 대안, FormData 직접 처리, RSC 폼에 유용\r\r\n* [ffetch](https://github.com/fetch-kit/ffetch) - TypeScript HTTP 클라이언트, 타임아웃/재시도/중복 제거 내장\r\r\n* [ky](https://github.com/sindresorhus/ky) - Fetch API 기반 HTTP 클라이언트, 자동 재시도/타임아웃/JSON 옵션, 의존성 없음\r\r\n* [upfetch](https://github.com/L-Blondy/up-fetch) - fetch 개선 TypeScript 라이브러리\r\r\n\r\r\n#### 기타\r\r\n\r\r\n다양한 개발 편의 도구들입니다.\r\r\n\r\r\n* [vercel/bidc](https://github.com/vercel/bidc) - 워커/iframe/서비스 워커 간 양방향 비동기 통신, Promise/Map/Set 전송 지원\r\r\n* [dotter](https://github.com/SuperCuber/dotter) - Rust 기반 dotfile 관리자, 심볼릭 링크와 템플릿화로 여러 머신 설정 관리\r\r\n* [globby](https://github.com/sindresorhus/globby) - fast-glob 기반 사용자 친화적 glob 매칭, .gitignore 인식\r\r\n* [nstr](https://github.com/shuding/nstr) - 부동소수점 정밀도 오류 자동 감지/수정, UI 표시에 적합한 형태로 변환\r\r\n* [i18n-check](https://github.com/lingualdev/i18n-check) - i18next 번역 파일에서 누락/손상된 키 검사, CI 사용 가능\r\r\n\r\r\n## 정리하며\r\r\n\r\r\n2025년을 돌아보면 프론트엔드의 영역은 분명히 많이 확장되었습니다. React는 점점 기반 인프라에 가까워졌고, Next.js와 npm, 빌드 도구, 웹 플랫폼 전반에서도 변화가 이어졌습니다. 그 과정에서 복잡성은 늘었고, 따라가야 할 것도 많아진 한 해였습니다.\r\r\n\r\r\n내년에도 어떤 변화가 이어질지는 모르겠지만, 이 글이 관심 가는 주제를 찾거나 놓친 흐름을 되짚는 출발점이 되었으면 합니다. 감사합니다. \r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_mint_202601.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfootermint202601%282%29.png)](https://www.nhncloud.com/?utm_source=meetup&utm_medium=post&utm_campaign=branding&utm_content=0130_frontend&utm_term=bottom)",
+    "title": "Enhanced AI Management and Analytics for Organizations",
+    "description": "Today, we’re introducing the JetBrains Console, which provides enhanced AI management and analytics for organizations, including new capabilities to manage, observe, and control AI usage and costs across teams. AI is no longer an experiment for most development teams. It’s becoming part of the core toolchain. As usage increases, so does the need for clarity. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://meetup.nhncloud.com/posts/407",
-    "pubDate": "Wed, 04 Feb 2026 07:54:51 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/ai/2026/02/enhanced-ai-management-and-analytics-for-organizations/",
+    "pubDate": "Wed, 04 Feb 2026 10:31:58 +0000",
+    "creator": "Viktor Kiselev",
+    "categories": [
+      "jetbrains-ai",
+      "news",
+      "release"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "토스, 서울시와 함께 경계선지능인 대상 ‘도전! 금융골든벨’ 개최 ",
-    "description": "경계선지능청년 50여 명 참여… 금융 이해와 도전 경험 쌓는 교육 현장",
+    "title": "What’s New in vcpkg (Nov 2025 – Jan 2026)",
+    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.12.12 and 2026.01.16 registry releases and the 2025-11-13, 2025-11-18, 2025-11-19, 2025-12-05, and 2025-12-16 tool releases. These updates include support for targeting the Xbox GDK October 2025 update, removing a misleading and outdated output message, and other minor improvements and bug fixes. […]\nThe post What’s New in vcpkg (Nov 2025 – Jan 2026) appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/financial_education",
-    "pubDate": "Thu, 05 Feb 2026 07:35:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-nov-2025-jan-2026/",
+    "pubDate": "Fri, 06 Feb 2026 21:01:50 +0000",
+    "creator": "Augustin Popa",
+    "categories": [
+      "C++",
+      "Vcpkg",
+      "vcpkg"
+    ]
   },
   {
     "id": 4,
-    "imageUrl": "",
-    "title": "Scaling to Infinity: 한계를 넘어서는 LY Corporation의 관측 가능성 플랫폼 진화기",
-    "description": "안녕하세요. LY Corporation Observability Infrastructure 팀에서 사내 시계열 데이터베이스(time-series database, TSDB)의 개발...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/the-evolution-of-the-ly-observability-platform",
-    "pubDate": "Wed, 04 Feb 2026 06:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "&quot;AI가 나를 대체할까?&quot; 대신 &quot;AI와 무엇을 만들까?&quot; 2026년 마인드셋 전환",
-    "description": "AI 기술의 눈부신 발전 속에서 우리 인류는 어떤 능력을 키워야 할까요? AI가 대체할 수 없는 인간 고유의 5가지 핵심 특성과, AI와 상생하며 미래를 주도할 수 있는 새로운 마인드셋 전환에 대해 깊이 있게 탐구해 봅니다. 급변하는 시대에 흔들리지 않는 여러분만의 경쟁력을 찾는 여정에 함께해요!\n\n\n  AI 시대, 사라지지 않는 인간의 가치\n음, 여러분, 정말 놀랍지 않나요? 지금 이 순간에도 전 세계 수많은 직장에서 AI는 우리 일상의 많은 부분을 대신하고 있어요. 데이터 분석부터 문서 작성, 심지어는 복잡한 일정 관리까지, AI는 이 모든 것을 눈 깜짝할 사이에 처리해내죠. 그런데 여기서 정말 흥미로운 현상이 하나 나타나고 있더라고요. 바로 AI가 정해진 일을 더 빠르게 처리할수록, 역설적으로 인간의 고유한 가치가 더욱 빛을 발하고 있다는 점입니다.\n저 역시 처음엔 \"혹시 내 일자리도 AI에게 뺏기는 건 아닐까?\" 하는 불안감이 있었어요. 하지만 2026년 현재, 많은 기업과 조직들이 깨달은 건 AI 도입이 인간의 일자리를 없애는 것이 아니라, 어떤 능력을 갖춘 인간이 앞으로 더 필요한지를 명확하게 보여준다는 것이에요. 작년에 Workday가 전 세계 직원을 대상으로 진행한 설문조사를 보면, 무려 83%의 직원들이 AI가 오히려 인간 고유의 능력의 중요성을 높일 것이라고 동의했다고 해요. 세계경제포럼(WEF)도 2025년까지 65%의 일자리가 강력한 소프트 스킬을 요구하게 될 것이라고 예측했고요.\n그렇다면 우리 인간만이 가진, AI가 절대 대체할 수 없는 능력은 과연 무엇일까요? 오늘은 이 다섯 가지 핵심 특성에 대해 좀 더 깊이 있게 이야기해보려 합니다.\n❤️ 1. 공감 능력과 감정 지능\nAI는 감정을 진정으로 이해할 수 있을까요?\nAI가 할 수 있는 것, 참 많죠. 고객의 감정을 '감지'하고, 분노의 신호를 인식해서 특정 감정 상태를 분류하는 건 이제 식은 죽 먹기예요. 하지만 제가 겪어본 바로는, AI가 아무리 정교해져도 진정으로 타인의 감정을 이해하고 공감하는 일은… 글쎄요, 불가능에 가깝다고 생각합니다.\n챗봇이 \"안타깝습니다\"라는 문구를 보낸다고 해도, 우리는 본능적으로 그게 진정한 감정이 아니라는 걸 알죠. 기계는 우리처럼 희로애락을 느낄 수 없으니까요. 반면, 잘 훈련된 리더나 뛰어난 영업사원, 그리고 마음을 치유하는 상담가들은 상대방의 미묘한 표정 변화, 목소리 톤, 숨겨진 의미까지 포착해서 그 순간에 가장 적절한 반응을 보입니다. 바로 이게 진짜 '공감' 아닐까요?\n왜 AI 시대에 공감 능력이 더 중요해질까요?\nWEF의 2025년 보고서에 따르면, 직장인 82%가 AI 시대일수록 오히려 더 인간적인 연결을 갈망하고 있다고 해요. 특히 HR, 리더십, 고객 서비스, 교육, 의료 분야에서는 이런 수요가 정말 폭발적이죠.\n한번 이런 상황을 상상해볼까요? 어려운 구매 결정을 앞둔 고객이 있어요. AI 기반 챗봇은 아주 논리적이고 효율적인 답변을 척척 내놓습니다. 하지만 경험 많은 인간 영업 담당자는 고객의 불안감을 감지하고, \"아, 많이 망설여지시죠? 충분히 이해합니다\"라며 그 감정을 먼저 인정해준 다음 차근차근 설득하죠. 결과는요? AI 챗봇은 거래 성사율이 낮은 반면, 인간 영업사원의 성약률은 훨씬 높다는 통계가 있습니다. AI 시대의 경쟁력은 더 이상 데이터를 얼마나 빠르게 처리하는가가 아니에요. 고객이나 팀원의 감정을 얼마나 잘 읽고, 그에 맞춰 반응할 수 있는가가 핵심이 될 거라고 저는 확신합니다.\n\n\n\n  팁: 일상생활에서 다른 사람의 관점에서 생각해보고, 그들의 감정에 귀 기울이는 연습을 해보세요. 문학 작품이나 영화를 통해 다양한 감정을 간접 경험하는 것도 큰 도움이 됩니다.\n  2. 비판적 사고와 판단력\nAI는 데이터의 한계를 모릅니다\nAI는 정말 대량의 데이터를 분석해서 패턴을 찾고, 그럴듯한 결론을 제시하는 데는 탁월해요. 이건 정말 인정할 수밖에 없죠. 그런데 AI가 절대 할 수 없는 게 있습니다. 바로 그 데이터가 정말 맞는지 의심하고, 혹시 숨겨진 편향은 없는지 감지하고, 복잡한 상황에 맞는 최종 판단을 내리는 일입니다.\nAI 시스템이 어떤 권장안을 제시했다고 가정해봅시다. AI는 학습한 데이터 안에서는 이 권장안이 논리적으로 '가장 최적'이라고 자신할 거예요. 하지만 우리 인간은 다르죠. 비판적 사고를 가진 사람은 이렇게 질문을 던질 겁니다. \"이 데이터가 최신 정보인가?\", \"여기에 특정 집단에 불리한 편향은 숨겨져 있지 않을까?\", \"이 권장안이 다른 예상치 못한 변수들까지 고려했을까?\", \"과연 실제 현장에서도 통할까?\" 바로 이런 질문을 던지는 것이 진정한 비판적 사고의 시작점이라고 생각합니다.\nAI 시대에 비판적 사고가 필수인 이유\nMcKinsey 연구에 따르면, 2026년에는 AI 윤리 문제가 정말 폭발적으로 증가할 것으로 예상된다고 합니다. 자동화된 시스템이 내린 결정이 자칫하면 차별로 이어지거나, 개인정보 보호에 위협이 될 수도 있잖아요. 이런 문제들을 감시하고, 올바른 방향으로 이끌어갈 인간의 역할이 정말 필수적이라는 거죠.\n현재 AI가 데이터 분석의 절반이 넘는 51%를 담당하고 있다고 해요. 하지만 아무리 AI가 분석을 잘해도, 결국 누군가는 그 분석 결과를 검토해야 합니다. \"이게 정말 맞는가?\"라고 근본적인 질문을 던지고, 상황에 맞춰 최선의 판단을 내리는 것. 그것은 여전히 우리 인간만이 할 수 있는 귀한 능력이라고 확신합니다.\n✨ 3. 창의성과 혁신\nAI는 조합할 뿐, 창조는 못 합니다\nGenerative AI가 그림을 그리고, 음악을 작곡하고, 심지어 시나 소설 같은 텍스트까지 써내는 모습을 보면 정말 대단하다는 생각이 들어요. 기존 패턴을 조합해서 새로운 결과물을 만들어내는 데는 능수능란하죠. 하지만 이런 AI의 결과물을 '창의성'이라고 부르기에는 저는 좀 위험하다고 봐요. 왜냐하면 AI의 모든 출력은 결국 학습 데이터의 통계적 최적화에 불과하거든요.\n진정한 창의성은 완전히 다른 이야기입니다. 예를 들어, 스티브 잡스가 음악 산업을 완전히 뒤집어 놓은 사례를 생각해봅시다. 그는 기존 음악 구조의 패턴을 단순히 조합한 것이 아니에요. 그는 \"음악은 어떻게 소비되어야 하는가?\"라는 정말 근본적인 질문을 던졌고, 그 질문에 대한 답으로 아이팟과 아이튠즈라는 새로운 패러다임을 창조했습니다. 기존의 규칙을 깨고, 세상을 변화시키는 이런 능력이 바로 진정한 창의성이죠.\n왜 2026년, 창의력이 더욱 중요할까요?\n세계경제포럼은 창의성이 2026년 AI 시대의 혁신을 정의할 핵심 요소라고 예측했습니다. 특히 R&D, 전략 기획, 신사업 개발 분야에서는 창의력 있는 인간 리더의 수요가 앞으로도 계속 증가할 것으로 보고 있어요.\n여기 재미있는 통계가 하나 있습니다. AI가 생성한 콘텐츠가 많아질수록, 역설적으로 '인간이 직접 만든 것'의 가치가 더 높아지고 있다는 사실이에요. 예술 시장, 패션 산업, 게임 개발 등 다양한 분야에서 모두 비슷한 현상을 보여주고 있죠. AI가 할 수 있는 것이 점점 더 많아질수록, 인간만이 만들 수 있는 진정한 창의성의 가치는 더욱 빛을 발할 거라고 저는 확신해요.\n\n\n ‍♀️ 4. 적응력과 회복력\nAI는 프로그래밍된 틀 밖으로 나갈 수 없습니다\nAI는 주어진 범위 내에서 정말 효율적으로 작동하고, 예상된 문제는 기가 막히게 잘 해결합니다. 그런데 말이죠, 예상하지 못한 상황에 맞닥뜨렸을 때, 빠르게 적응하고 완전히 새로운 방식으로 생각하는 일은 AI에게는 정말 어려운 일이에요.\n2020년 COVID-19 팬데믹을 한 번 떠올려볼까요? 세상이 갑자기, 정말 하루아침에 변했어요. 직장은 원격근무로 전환됐고, 고객의 수요는 급변했죠. 이 와중에 수많은 AI 시스템들은 학습 데이터에 없는 전례 없는 상황에 직면하며 혼란스러워했습니다. 하지만 우리 인간들은 어땠나요? 놀랍도록 빠르게 적응했습니다! 새로운 업무 방식을 배웠고, 새로운 도구를 익혔으며, 심지어 완전히 새로운 기회를 찾아 커리어를 전환한 사람들도 많았죠. 이게 바로 인간의 진정한 강점, 적응력과 회복력입니다.\n\"무엇을 아는가\"보다 \"얼마나 빠르게 배우는가\"가 중요한 시대\n변화의 속도는 정말이지 점점 더 빨라지고 있습니다. 기술 산업의 반감기(기술이 절반으로 쓸모없어지는 시간)는 지속적으로 단축되고 있고요. 이런 급변하는 환경에서는 솔직히, \"지금 무엇을 알고 있는가\"보다 \"얼마나 빠르게 배우고 새로운 것에 적응할 수 있는가\"가 훨씬, 정말 훨씬 더 중요하다고 저는 생각해요.\nWEF 연구에 따르면, 관리자급 직원의 65%가 적응력을 직원 유지의 핵심 요소로 평가했다고 합니다. AI는 기존 업무를 더 효율적으로 처리하도록 돕지만, 완전히 새로운 업무 영역으로 뛰어들 수는 없어요. 새로운 길을 개척하고, 불확실성 속에서 빛을 찾는 것은 여전히 우리 인간의 영역인 거죠.\n  5. 윤리적 판단과 신뢰 구축\nAI는 알고리즘만 따를 뿐입니다\nAI는 주어진 규칙을 정확하게 따르고, 프로그래밍된 원칙에 따라 아주 일관되게 행동합니다. 이건 정말 강점이죠. 하지만 도덕적 회색지대에서 섬세한 판단을 내리고, 복잡한 문화적 맥락을 이해하며, 무엇보다 사람과의 '신뢰'를 구축하는 일은 AI에게는 불가능에 가깝다고 저는 단언할 수 있습니다.\n윤리적 판단의 아주 중요한 예를 들어볼까요? 의료 현장에서 신약을 승인할지 말지 결정해야 하는 상황이 왔다고 칩시다. AI는 모든 임상시험 데이터를 분석해서 \"이 약은 80% 효과가 있고, 20%의 부작용이 있습니다\"라고 아주 명확한 결론을 내릴 수 있습니다. 그런데 우리 인간은 여기서 멈추지 않죠. 우리는 이렇게 질문할 겁니다. \"그 20%의 부작용은 생명에 치명적인가?\", \"이 약이 도움이 되는 집단은 누구이며, 고가의 약값이 소외 계층을 배제하지는 않을까?\", \"장기적인 부작용까지 충분히 고려되었는가?\" 이런 질문들에 답하려면 의학적 지식뿐만 아니라 윤리, 사회학, 인문학적 깊은 이해가 필요해요. AI는 여기서 한계를 드러낼 수밖에 없죠.\n신뢰가 곧 자산인 시대, 인간의 윤리적 판단이 필수입니다\n현재 AI가 모든 데이터 분석의 51%를 담당하고 있다는 것은, 바꿔 말하면 51%의 의사결정이 이미 자동화되었다는 뜻입니다. 하지만 Workday 연구에 따르면, 직장에서 가장 중요하게 여기는 인간적 능력 중 하나가 바로 윤리적 의사결정 능력이라고 합니다.\n신뢰는 어떤 조직이든 가장 기본적인, 그리고 가장 소중한 자산이죠. AI가 의사결정을 돕는 것은 맞지만, 최종 책임과 그에 따른 신뢰는 여전히 인간이 져야 합니다. 고객들은 알고리즘을 맹목적으로 신뢰하는 것이 아니라, 그 알고리즘을 설계하고 감시하는 우리 인간을 신뢰하니까요. 또한 전 세계 기업들이 직면한 'AI 윤리' 이슈는 차별 문제, 개인정보 보호, 환경 영향, 노동 문제 등 점점 더 복잡해지고 있어요. 이 모든 영역에서 우리 인간의 윤리적 판단력은 필수불가결한 요소라고 할 수 있습니다.\n\n\n  핵심 인사이트: AI 시대, 일자리는 '변한다'는 것을 기억하세요!\n뉴욕 타임스의 칼럼니스트 토마스 프리드먼(Thomas Friedman)은 이런 말을 남겼죠:\n\"AI가 너를 대체하지는 않겠지. 하지만 AI를 잘 쓰는 누군가가 너를 대체할 수도 있다.\"\n이 말은 정말 많은 의미를 담고 있어요. 제 생각에는 크게 두 가지로 해석할 수 있습니다.\n첫째, AI 기술 자체는 중립적이라는 거예요. AI가 어떻게 쓰이는지는 전적으로 우리 인간의 결정에 달려있다는 거죠.\n둘째, 앞으로의 경쟁력은 단순히 기술 하나만으로는 안 되고, 기술 + 인간 능력의 스마트한 조합에서 나온다는 점입니다. 기술만 뛰어나도 안 되고, 인간 능력만 뛰어나도 안 되는, 그런 시대가 온 거죠.\n ️ 2026년의 현실: 지금 당장 이 능력들을 키워야 하는 이유\n현재 많은 기업과 조직에서는 직원을 채용하거나 임금을 결정할 때, 기술 능력과 함께 인간 능력의 균형을 정말 중요하게 보고 있어요. 한 번 생각해볼까요?\n능력 기준\nA 직원\nB 직원\n\n\n\n\n기술 능력\n매우 높음\n평균 수준\n\n\n인간 고유 능력 (공감, 리더십, 적응력 등)\n평균 이하\n매우 뛰어남\n\n\n회사의 선택은?\n점점 더 B 직원을 선호하는 추세!\n\n\n\n왜냐고요? 기술은 정말 빠르게 변하지만, 우리 인간의 기본 능력, 그러니까 공감 능력, 비판적 판단력, 그리고 창의력 같은 것들은 시간이 지나도 그 가치를 잃지 않기 때문입니다. 오히려 그 가치는 더욱 커지고 있어요.\n당신이 지금 바로 해야 할 일들\n공감 능력을 키우세요: 일상에서 다른 사람의 관점에서 생각해보고, 그들의 감정에 귀 기울이는 연습을 해보세요. 문학을 읽고, 영화를 보고, 다양한 배경의 사람들과 대화하며 시야를 넓히는 것도 좋습니다.\n의문을 던지는 습관을 가지세요: 주어진 정보를 무조건 받아들이기보다는 \"왜?\", \"이게 정말 최선일까?\", \"다른 관점은 없을까?\"와 같은 질문을 끊임없이 던지는 습관을 길러보세요.\n창의력을 개발하세요: 때로는 기존의 규칙을 깨어보고, 새로운 조합을 시도해보세요. 실패를 두려워하지 않는 용기가 중요합니다.\n변화를 즐기세요: 새로운 기술을 배우는 데 주저하지 말고, 새로운 업계를 탐험하고, 낯선 분야의 사람들과 네트워킹하며 끊임없이 성장하는 자신을 발견해 보세요.\n윤리 감각을 기르세요: 어떤 의사결정을 할 때든 \"이것이 과연 옳은가?\"라는 질문을 항상 던지고, 단기적인 이익보다는 장기적인 영향까지 깊이 생각하는 습관을 들이세요.\n  핵심 요약\nAI는 감정을 이해하고 공감할 수 없으므로, 인간적인 연결이 더욱 중요해집니다.\nAI는 데이터만 처리할 뿐, 비판적 사고와 상황에 맞는 판단은 인간의 몫입니다.\nAI는 기존 패턴을 조합하지만, 완전히 새로운 패러다임 창조는 인간의 창의력에 달려있습니다.\n급변하는 시대에 AI는 예측된 문제만 해결, 인간의 적응력과 회복력이 더욱 빛을 발합니다.\nAI는 훌륭한 도구이지만, 결국 그 가치를 극대화하는 것은 우리 인간의 고유한 능력임을 잊지 마세요.\n❓ 자주 묻는 질문 (FAQ)\nQ1: AI가 제 일자리를 완전히 대체할 수도 있지 않을까요?\nA1: 제 생각에는 AI가 일자리를 완전히 없애기보다는, 그 성격과 필요한 역량을 변화시킬 것이라고 보는 게 더 정확합니다. 단순 반복 업무는 AI가 담당하고, 인간은 공감, 창의성, 비판적 사고 등 인간 고유의 역량을 활용하는 역할에 집중하게 될 거예요. 중요한 건 AI를 효과적으로 활용하고, AI가 대체할 수 없는 나만의 강점을 키우는 것입니다.\nQ2: 소프트 스킬이 정말 기술 능력보다 중요해지는 건가요?\nA2: 네, 세계경제포럼(WEF) 같은 기관들도 2025년까지 많은 일자리에서 강력한 소프트 스킬의 중요성이 증대될 것이라고 예측하고 있습니다. 기술 능력은 물론 중요하지만, 빠르게 변하는 기술 환경 속에서 인간적인 연결, 윤리적 판단, 그리고 변화에 대한 적응력 같은 소프트 스킬은 어떤 기술보다도 더 오래 지속될 핵심 경쟁력이 될 거예요. 두 가지 모두 균형 있게 발전시키는 것이 중요합니다.\nQ3: AI 시대에 창의력을 키우려면 어떻게 해야 할까요?\nA3: 창의력은 단순히 새로운 아이디어를 내는 것을 넘어, 기존의 사고방식을 깨고 새로운 관점에서 문제를 바라보는 능력입니다. 다양한 분야의 책을 읽고, 예술 작품을 감상하고, 익숙하지 않은 사람들과 교류하며 시야를 넓히는 것이 좋습니다. 또한, AI를 도구 삼아 아이디어를 실험하고 빠르게 프로토타입을 만들어보는 연습도 큰 도움이 될 수 있습니다. 틀에 갇히지 않고 끊임없이 질문하고 시도하는 태도가 중요해요.\n{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"AI가 제 일자리를 완전히 대체할 수도 있지 않을까요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"제 생각에는 AI가 일자리를 완전히 없애기보다는, 그 성격과 필요한 역량을 변화시킬 것이라고 보는 게 더 정확합니다. 단순 반복 업무는 AI가 담당하고, 인간은 공감, 창의성, 비판적 사고 등 인간 고유의 역량을 활용하는 역할에 집중하게 될 거예요. 중요한 건 AI를 효과적으로 활용하고, AI가 대체할 수 없는 나만의 강점을 키우는 것입니다.\"}},{\"@type\":\"Question\",\"name\":\"소프트 스킬이 정말 기술 능력보다 중요해지는 건가요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"네, 세계경제포럼(WEF) 같은 기관들도 2025년까지 많은 일자리에서 강력한 소프트 스킬의 중요성이 증대될 것이라고 예측하고 있습니다. 기술 능력은 물론 중요하지만, 빠르게 변하는 기술 환경 속에서 인간적인 연결, 윤리적 판단, 그리고 변화에 대한 적응력 같은 소프트 스킬은 어떤 기술보다도 더 오래 지속될 핵심 경쟁력이 될 거예요. 두 가지 모두 균형 있게 발전시키는 것이 중요합니다.\"}},{\"@type\":\"Question\",\"name\":\"AI 시대에 창의력을 키우려면 어떻게 해야 할까요?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"창의력은 단순히 새로운 아이디어를 내는 것을 넘어, 기존의 사고방식을 깨고 새로운 관점에서 문제를 바라보는 능력입니다. 다양한 분야의 책을 읽고, 예술 작품을 감상하고, 익숙하지 않은 사람들과 교류하며 시야를 넓히는 것이 좋습니다. 또한, AI를 도구 삼아 아이디어를 실험하고 빠르게 프로토타입을 만들어보는 연습도 큰 도움이 될 수 있습니다. 틀에 갇히지 않고 끊임없이 질문하고 시도하는 태도가 중요해요.\"}}]} \n  결론: AI와 인간, 경쟁이 아닌 협력의 미래!\nAI 기술의 발전은 이제 피할 수 없는, 우리 삶의 자연스러운 일부가 되었죠. 하지만 중요한 건, 이 기술이 결코 우리 인간을 완전히 대체하는 것이 아니라는 점입니다. 오히려 제가 오늘 말씀드린 것처럼 AI는 우리 인간만이 가진 고유한 가치를 더욱 선명하게 드러내고, 그 중요성을 부각시키는 강력한 도구가 될 거예요.\nWorkday의 글로벌 설문 결과도 이를 명확하게 보여줍니다. 83%의 직원들이 AI가 인간 고유의 능력을 더욱 중요하게 만들 것이라고 굳게 믿고 있었으니까요. 이제 우리는 질문을 바꿔야 할 때가 왔다고 생각합니다.\n\"AI가 나를 대체할까?\"\n라는 막연한 불안감 대신,\n\"나는 AI와 함께 무엇을 만들 수 있을까?\"\n라고 긍정적이고 미래지향적인 질문을 던져보는 거죠.\n여러분이 공감할 수 있고, 비판적으로 생각할 수 있으며, 새로운 것을 상상하고, 변화에 빠르게 적응할 수 있고, 마지막으로 옳은 선택을 할 수 있다면—이 다섯 가지 능력이 바로 여러분의 미래를 단단하게 보장해 줄 거라 저는 확신합니다.\n기억하세요. AI 시대의 진정한 경쟁력은 단순한 기술 지식이 아닙니다. 바로 인간다움, 그 자체에 있습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483707",
-    "pubDate": "Mon, 9 Feb 2026 11:28:59 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "ai 대체 불가능",
-      "AI 시대 변화",
-      "AI 윤리",
-      "공감 능력",
-      "마인드셋 전환",
-      "미래 직업 역량",
-      "비판적 사고",
-      "인간 고유 능력",
-      "적응력 키우기",
-      "창의성 개발"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "숫자의 인플레이션",
-    "description": "얼마 전에 미국에 한 10일 정도 갔다 왔다. 짧은 일정이었지만, 꽤 많은 업계 분과 투자자들을 만나서 요새 미국 tech 시장에서 어떤 일들이 일어나고 있고, 우리보다 훨씬 큰 투자자들은 어떤 생각을 하고 있고, 어떤 딜들을 보고 있고, 어떤 고민을 하고 있는지 들을 수 있었고, 동시에 많이 배울 수 있었다. 내가 이 글에서는 우리 같은 VC는 창업가에게(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/02/inflation-of-numbers.html",
-    "pubDate": "Sun, 08 Feb 2026 21:31:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "ai",
-      "bubble",
-      "failure",
-      "fundraising",
-      "technology",
-      "vc"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 38화, 찾으러가는데스와 ②",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2416",
-    "pubDate": "Wed, 04 Feb 2026 21:50:13 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Performance improvements to MEF-based editor productivity extensions",
-    "description": "If you use editor productivity extensions for Visual Studio 2026, there’s good news—they can now load faster! Extension developers with existing MEF-based editor productivity extensions should read this blog to learn about recent changes and how they might be affected.  We introduced VisualStudio.Extensibility to simplify the creation of Visual Studio extensions for developers. Previously, handling threads in VSSDK-based extensions […]\nThe post Performance improvements to MEF-based editor productivity extensions appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/performance-improvements-to-mef-based-editor-productivity-extensions/",
-    "pubDate": "Tue, 03 Feb 2026 15:00:21 +0000",
-    "creator": "Tina Schrepfer (LI), Amadeus Wieczorek",
-    "categories": [
-      "Extensibility",
-      "Visual Studio",
-      "Extensions",
-      "Performance"
-    ]
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "Wayland By Default in 2026.1 EAP",
     "description": "Starting from version 2026.1, IntelliJ-based IDEs will run natively on Wayland in supported desktop configurations. This follows Wayland’s ascendance to the position of primary display server across contemporary Linux distributions. By making this change in our EAP releases first, we hope to be able to give more Linux users the opportunity to try the native […]",
@@ -135,23 +59,7 @@
     "categories": []
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "더 나아진 유니티짱 모델 무료 애셋",
-    "description": "골드메탈 님이십니다.\n사용시 주의사항이 있으니 영상을 시청하시구요\n영상: https://www.youtube.com/watch?v=6S8z9_Pn6jY\n\n\n\n \n영상 설명란에 애셋 링크가 있군요\n \nSD 버전\n애: Haon SD series Bundle | 3D Animations | Unity Asset Store\n\n\n종류가 다양합니다.\n \n \n일반버전\n애셋: Unity-Chan! Model | 3D Characters | Unity Asset Store\n\n\n영상: unity-chan! - The Phantom Knowledge\n\n\n\n영화도 만들겠다.\n \n \n사용하면 UCL 로고를 남겨달라고 합니다.\n공식홈페이지: https://unity-chan.com/contents/guideline_en/\n\n \nDATA DOWNLOAD-Guideline « UNITY-CHAN! OFFICIAL WEBSITE\nCreated March 6, 2014 Revised May 19, 2014 Amended December 1, 2015 Amended May 19, 2021 Amended May 20, 2024 Unity-Chan License Terms – Summarized Version 3.0 Guidelines The provisions of the Unity-chan License by Unity Technologies Japan K.K. (hereinaf\nunity-chan.com\n\n \n로고\n\n\n \n음성과 애니메이션도 있고\n훌륭한 애셋입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1571",
-    "pubDate": "Tue, 10 Feb 2026 03:01:25 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/유니티 에셋 리뷰",
-      "무료애셋",
-      "유니티"
-    ]
-  },
-  {
-    "id": 11,
+    "id": 5,
     "imageUrl": "",
     "title": "Building Prometheus: How Backend Aggregation Enables Gigawatt-Scale AI Clusters",
     "description": "We’re sharing details of the role backend aggregation (BAG) plays in building Meta’s gigawatt-scale AI clusters like Prometheus. BAG allows us to seamlessly connect thousands of GPUs across multiple data centers and regions. Our BAG implementation is connecting two different network fabrics – Disaggregated Schedule Fabric (DSF) and Non-Scheduled Fabric (NSF). Once it’s complete our AI [...]\nRead More...\nThe post Building Prometheus: How Backend Aggregation Enables Gigawatt-Scale AI Clusters appeared first on Engineering at Meta.",
@@ -165,21 +73,21 @@
     ]
   },
   {
-    "id": 12,
+    "id": 6,
     "imageUrl": "",
-    "title": "[MULTI] 키류가 젊고 미네는 잘생겼잖아 한잔해, 용과 같이 극 3",
+    "title": "[PC] 트렌드 아닌 하드코어를 택한 방향성, '미드나잇 워커스' 얼리 액세스",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2418",
-    "pubDate": "Tue, 10 Feb 2026 03:00:05 +0900",
-    "creator": "(RULIWEB`Д')/",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2417",
+    "pubDate": "Fri, 06 Feb 2026 18:43:27 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
       "리뷰"
     ]
   },
   {
-    "id": 13,
+    "id": 7,
     "imageUrl": "",
     "title": "금리를 낮춰주는 ‘금리인하요구권’, 이제 토스에서 한 번에 신청하세요",
     "description": "흩어진 대출을 모아보고, 금리 인하 요청까지 토스가 대신 챙겨드려요.",
@@ -187,6 +95,91 @@
     "syllabus": [],
     "link": "https://toss.im/tossfeed/article/tossmoment-20",
     "pubDate": "Wed, 04 Feb 2026 03:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "[New Livestream] Go 1.26 Release Party",
+    "description": "Join us for the Go 1.26 Release Party, where we’ll celebrate the latest Go release together with the community. In this livestream, Go experts will walk through what’s new in Go 1.26, why the changes matter, and how they impact real-world Go development. Date: February 19, 2026 Time: 4:00 – 5:30 pm UTC The celebration […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2026/02/10/new-livestream-go-1-26-release-party/",
+    "pubDate": "Tue, 10 Feb 2026 13:12:58 +0000",
+    "creator": "Anna Protsenko",
+    "categories": [
+      "goland",
+      "golang",
+      "livestream"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Roadmap for AI in Visual Studio (February)",
+    "description": "After a busy January (catch up here), we’re shifting focus to reliability and refinement. This month is about tightening core workflows, improving agent stability, and building on the MCP foundations we’ve been laying. Agent Mode & Coding Agents Reliability is the priority this month. We’re raising the floor on agent-driven scenarios with: Better progress and […]\nThe post Roadmap for AI in Visual Studio (February) appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/roadmap-for-ai-in-visual-studio-february/",
+    "pubDate": "Wed, 04 Feb 2026 20:42:53 +0000",
+    "creator": "Rhea Patel",
+    "categories": [
+      "Copilot",
+      "Roadmap",
+      "agents",
+      "Chat",
+      "GitHub Copilot",
+      "Planning Mode"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "버리기 힘든 냉장고·세탁기, 폐가전 무상 방문수거 서비스로 해결하세요",
+    "description": "전문 인력이 직접 방문해 수수료 없이 수거해 드려요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-policies-55_",
+    "pubDate": "Thu, 05 Feb 2026 07:56:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 38화, 찾으러가는데스와 ②",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2416",
+    "pubDate": "Wed, 04 Feb 2026 21:50:13 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Introducing Databao: The JetBrains Tool That Lets You Talk to Your Data",
+    "description": "At JetBrains, we build tools that help teams work with complex systems in a more productive and enjoyable way. As AI becomes part of everyday workflows, a new challenge is emerging for data teams: How can you enable AI-assisted analytics without sacrificing accuracy, transparency, or control over data? Today, we’re introducing Databao, a new data […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/databao/2026/02/introducing-databao/",
+    "pubDate": "Tue, 10 Feb 2026 13:31:32 +0000",
+    "creator": "Claire Amaouche",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Scaling to Infinity: 한계를 넘어서는 LY Corporation의 관측 가능성 플랫폼 진화기",
+    "description": "안녕하세요. LY Corporation Observability Infrastructure 팀에서 사내 시계열 데이터베이스(time-series database, TSDB)의 개발...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/the-evolution-of-the-ly-observability-platform",
+    "pubDate": "Wed, 04 Feb 2026 06:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
@@ -207,13 +200,16 @@
   {
     "id": 15,
     "imageUrl": "",
-    "title": "버리기 힘든 냉장고·세탁기, 폐가전 무상 방문수거 서비스로 해결하세요",
-    "description": "전문 인력이 직접 방문해 수수료 없이 수거해 드려요",
+    "title": "dotInsights | February 2026",
+    "description": "Did you know? C# allows digit separators (_) in numeric literals to make large numbers more readable, e.g., int num = 1_000_000; is valid and equals one million. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-55_",
-    "pubDate": "Thu, 05 Feb 2026 07:56:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
+    "pubDate": "Tue, 10 Feb 2026 14:50:52 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
   }
 ]
