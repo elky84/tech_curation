@@ -2,36 +2,202 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "No Display? No Problem: Cross-Device Passkey Authentication for XR Devices",
-    "description": "We’re sharing a novel approach to enabling cross-device passkey authentication for devices with inaccessible displays (like XR devices). Our approach bypasses the use of QR codes and enables cross-device authentication without the need for an on-device display, while still complying with all trust and proximity requirements. This approach builds on work done by the FIDO [...]\nRead More...\nThe post No Display? No Problem: Cross-Device Passkey Authentication for XR Devices appeared first on Engineering at Meta.",
+    "title": "[New Livestream] Go 1.26 Release Party",
+    "description": "Join us for the Go 1.26 Release Party, where we’ll celebrate the latest Go release together with the community. In this livestream, Go experts will walk through what’s new in Go 1.26, why the changes matter, and how they impact real-world Go development. Date: February 19, 2026 Time: 4:00 – 5:30 pm UTC The celebration […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/02/04/security/cross-device-passkey-authentication-for-xr-devices-meta-quest/",
-    "pubDate": "Wed, 04 Feb 2026 22:00:07 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/go/2026/02/10/new-livestream-go-1-26-release-party/",
+    "pubDate": "Tue, 10 Feb 2026 13:12:58 +0000",
+    "creator": "Anna Protsenko",
     "categories": [
-      "Security & Privacy",
-      "Virtual Reality"
+      "goland",
+      "golang",
+      "livestream"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Enhanced AI Management and Analytics for Organizations",
-    "description": "Today, we’re introducing the JetBrains Console, which provides enhanced AI management and analytics for organizations, including new capabilities to manage, observe, and control AI usage and costs across teams. AI is no longer an experiment for most development teams. It’s becoming part of the core toolchain. As usage increases, so does the need for clarity. […]",
+    "title": "블랙베리",
+    "description": "짐 발실리가 영화 블랙베리에 대해 자신의 입장을 밝힌 인터뷰 기사도 함께 보면 더 재밌다.\n\n박소령 대표님의 실패를 통과하는 일을 다 보고, 이어서 넷플릭스에서 블랙베리를 봤다.\n2시간이 너무 짧았다.\n더 깊게 이야기를 보고 싶었는데, 2시간 동안 십수 년의 기록을 담아두려니 생략된 이야기가 많아서 아쉬웠다.  \n아쉬움과는 별개로 마음에 확 와닿는 대화 내용들이 몇 개 있었다.  \n더그 프레긴은 블랙베리 특유의 분위기를 계속해서 유지하려고 하며, 그와 같은 생각을 했던 마이크는 점점 기업의 CEO로 변해갔다.\n베스트 프렌드이자 공동 창업자였던 더그 프레긴과 마이크 라자리디스의 대화다.  \n\n더그: \"저거 봤어?\"\n마이크: \"아니\"\n더그: \"짐이 영화의 밤을 없앴어.\n직접 할 배짱도 없어서 140kg 덩치를 불러서는 소리 지르고 다니게 했잖아.\n앨런을 해고하겠다고 했대\"\n마이크: \"... 일을 하긴 해야 해\"\n더그: \"이 친구들이 일주일에 80시간을 기꺼이 일하는 이유를 알긴 해? 가족도 못 만나고, 인정도 못 받는데?\"\n마이크: \"알지, 세계 최고의 휴대폰을 만들고 있으니까\"\n더그: \"그래. 그런가 보다\"\n\n스타트업에서는 일을 일처럼 보지 않는 문화가 많다.\n그런 문화가 성과를 최적화하는 데는 방해가 된다.\n그래서 조직이 커지다 보면 그런 문화가 점점 옅어지게 된다.  \n반면에, 새로운 시도는 그런 문화 속에서 더 쉽게 시작할 수 있는 것 같다.\n만약에 블랙베리가 일반적인 대기업으로 변해가지 않고, 위 문화를 유지했다면 아이폰의 등장을 어떻게 봤을까?\n분해하고, 해체하고, 모방하고, 시도하고 그러면서 자연스레 블랙베리만의 스마트폰을 만들어가지 않았을까? 생각이 들었다.  \n아이폰의 발표 이후 투자자들의 기대를 충족시키기 위해 마이크는 공수표를 남발한다.\n\n마이크: \"짐은 지금 워터루에 있어요.\n다른 얘기는 하지 않기로 약속했는데, 아직 완성 단계는 아니지만 극비에 개발 중인 기술이 있거든요.\n시제품이 나오려면 몇 주가 더 필요하지만.\n큰 틀은 우리 블랙베리에요.\n다만 여기 있는 키보드가 화면이에요.\n전체가 다 스크린이죠.\n대신 우리 제품은 이걸 누르면 그대로 경험할 수 있어요.\n달칵하는 블랙베리의 키감을 느낄 수 있죠.\n스크린, 키보드, 전화.\n감이 오시나요?\"  \n\n이 발표로 마이크는 버라이즌에 100만대를 판매한다.  \n그리고 몇 주 내 시제품을 보여줘야 하기 때문에 엔지니어링 팀에게 갑작스러운 요구 사항을 전달한다.\n\n마이크: \"아니, 아니야 잘 들어.\n스크린이긴 한데 내가 여기 쓴 대로 경첩이든 액추에이터든 다는 거야.\n화면이랑 몸체 사이에.\n그러면 화면을 누를 때마다 달칵거리겠지.\"  \n폴 스태노스: \"이걸 왜 하는지 궁금해요\"  \n마이크: \"지금 여기에서 그런 질문은 하면 안되지.\n'왜' 는 몰라도 돼! 알겠어?\n내가 하라잖아.\n내가 이걸 팔았다고, 알겠어?\n근데 누구야?\"  \n\n\"'왜'는 몰라도 돼\" 라는 말을 나는 몇 번을 했을까? 란 생각이 들었다.\n스스로는 하지 않았다고 생각하지만, 막상 또 팀원들이 보기엔 표현 방식만 다를 뿐이지 같은 뜻으로 전달받기도 했겠지?  \n해야 할 일을 당장 시작하기 위해서 설명을 하다가 나 스스로 설명을 포기하고 \"일단 해\"라고 얘기한 적은 없을까 기억을 많이 뒤적이게 된다.  \n마이크는 점점 거대기업의 CEO가 되어간다.\n블랙베리 초반, 팀이 풀지 못했던 엔지니어링 문제를 풀기 위해 데려왔던 구글 엔지니어링 팀장인 폴 스태노스를 더 이상 기억하지 못하기도 하는 장면이기도 했다.    \n이 장면이 특히나 기억에 남았던 것은 영화 초반에 마이크는 짐에게 핸드폰을 더 판매하지 말아달라는 부탁을 했기 때문이다.  \n현재 블랙베리의 완성도와 안정성을 위해 더 이상 판매하지 말고 물량을 조절해야 한다는 의견을 계속 피력한다.  \n그랬던 마이크가 이제는 공수표를 남발하면서까지 세일즈를 한다.\n납득할 수 없는 납기일과 사전에 얘기되지 않은 기능까지 요구하면서 결국은 고객이 등을 돌리게 만드는 제품을 출시하게 된다.  \n마이크는 자신이 만든 제품에 대한 자부심이 강했기에 후발주자이자 블랙베리와 완전히 대척점에 선 제품인 아이폰을 용납할 수 없다.\n그래서 같은 터치폰을 만드는 과정에서도 결코 '아이폰 같은' 이란 표현은 쓰지 않는다.\n병적으로.\n\n더그: \"정리하면 블랙베리만의 키감을 유지하면서 아이폰의 화면을 접목하면 돼.\n그게 다야.\"\n마이크: \"아니야, 그게 아니지!\n애플의 무언가를 접목하는 게 아니야.\n여러분 어려운 일이 아니야.\n돈을 많이 받았잖아.\n어렵지 않아.\n결국 키보드야.\n화면 위에 키보드.\n어떻게 생각하든 상관 없어\"\n\n\n조화로워보였던 짐과 마이크의 협업도 점점 서로간의 방임으로 가기 시작했다.  \n\n팀원: \"아이폰에 대한 소비자 기대치가 사상 최고를 기록했어요.\n세계 1위 휴대폰에서 아이폰 이전 휴대폰이 되게 생겼다고요.\"\n짐: \"괜찮아. 마이크가 해결할 거야\"\n\n\n\n마이크: \"증권 거래 위원회가 왜 우릴 조사해요? 스톡옵션 일이라던데\"\n짐: \"별일 아닐 거예요\"\n마이크: \"별일 아니에요?\"\n짐: \"그럼요. 애플 일은 어때요? 우리 위험해요?\"\n마이크: \"아뇨.\"\n짐: \"어째서요?\"\n마이크: \"기기당 데이터 사용량이 블랙베리 5,000대고 키보드도 없고 그냥 말이 안 되니까요.\"\n짐: \"다들 우리가 끝났다고 떠들어 대는데요?\"\n마이크: \"다들 멍청이거든요.\"\n\n서로가 서로의 영역을 모니터링하지 않았다.\n제품이 뒤처지고 있어도 \"마이크가 알아서 하겠지\"라고 생각했고,\n세일즈가 무리한 약속을 해도 \"짐이 알아서 하겠지\"라고 넘겼다.\n공동 CEO 체제의 장점은 전문성의 분담이지만, 단점은 책임의 분산이다.\n블랙베리에서는 그 단점이 극대화되었다.\n서로의 영역에 간섭하지 않는 것이 신뢰가 아니라 무관심이 되어버린 것이다.  \n만약 단일 CEO였다면 어땠을까?\n영업과 제품 둘 다 문제가 있을 경우 둘 다 CEO가 강력하게 개입했을 것이다.  \n각 분야별 C레벨이 있더라도 결국은 CEO가 최종적으로 결정을 내리는 구조로 갈 수밖에 없는 이유를 영화로 본 것 같았다.\n레딧에서 흥미로운 질문을 봤다.\n마이크와 짐 중에 블랙베리 몰락에 더 책임이 있는 사람은 누구일까?\n같은 회사를 이끌면서도 서로 다른 꿈을 꾸고 있었다.\n실제로 짐 발실리는 NHL 하키팀 인수에 집착하느라 회사 일에 소홀했다는 비판을 받는다.\n피츠버그 펭귄스, 내슈빌 프레데터스, 피닉스 코요테스까지 세 번이나 팀 인수를 시도했고, 모두 실패했다.\n2008~2010년 RIM에서 일했던 한 직원은 레딧에 이렇게 썼다.\n\n\"짐은 하키팀 사는 데 너무 몰두해서 시장에서 눈을 떼버렸다.\n나는 실리콘밸리에 살았는데, 아이폰에 대한 열광이 진짜라는 걸 봤다.\n하지만 RIM 임원들은 그걸 믿지 않았다.\"\n\n한편 마이크 라자리디스는 물리 키보드에 대한 자부심에 갇혀 터치스크린으로의 전환을 거부했다.\n아이폰이 2007년 6월에 나왔는데, 블랙베리가 터치스크린 폰을 내놓은 건 짐 발실리가 경영에서 물러난 이후였다.  \n상호 보완적인 상위 레벨의 구조는 \"역할 분담\"만 있어서는 안 되고 \"상호 이해\"도 있어야 한다는 걸 새삼 느끼게 됐다.  \n나와 대표님도 역할이 나뉘어 있다.\n대표님은 비즈니스와 전략을, 나는 기술과 제품을 담당한다.\n하지만 그것이 상호보완이 되려면, 서로의 영역에 대한 관심과 이해가 필요하다.\n\"저건 대표님 영역이니까\", \"저건 CTO 영역이니까\"라고 선을 긋는 순간, 우리도 블랙베리처럼 동상이몽에 빠질 수 있다.  \n역할만 나누고 이해가 없으면, 그건 그냥 분리일 뿐이다.\n블랙베리의 두 CEO는 역할은 완벽히 나눴지만, 상호 이해는 없었다.\n그래서 위기가 왔을 때 서로를 도울 수 없었다.\n기술 리더로서 비즈니스를 이해하려는 노력,\n비즈니스 리더로서 기술을 이해하려는 노력,\n이 양방향의 노력이 있어야 진정한 파트너십이 된다.\n그렇지 않으면 \"저 사람이 알아서 하겠지\"라는 방치로 이어지고, 결국 조직 전체가 무너진다.  \n요즘 회계 공부를 시작한 것도 그런 맥락이다.\n기술만 잘하면 된다고 생각했던 때가 있었다.\n하지만 대표님이 보는 숫자를 나도 읽을 수 있어야, 같은 그림을 보고 대화할 수 있다.\n서로의 언어를 이해하려는 노력 없이는 결국 \"마이크가 알아서 하겠지\", \"짐이 알아서 하겠지\"가 되어버린다.\n역할을 나누되, 관심은 나누지 말아야 한다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/02/enhanced-ai-management-and-analytics-for-organizations/",
-    "pubDate": "Wed, 04 Feb 2026 10:31:58 +0000",
-    "creator": "Viktor Kiselev",
+    "link": "https://jojoldu.tistory.com/863",
+    "pubDate": "Mon, 9 Feb 2026 12:28:20 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "jetbrains-ai",
-      "news",
-      "release"
+      "도서",
+      "RIM",
+      "넷플릭스",
+      "블랙베리",
+      "스타트업",
+      "트레바리"
     ]
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "버리기 힘든 냉장고·세탁기, 폐가전 무상 방문수거 서비스로 해결하세요",
+    "description": "전문 인력이 직접 방문해 수수료 없이 수거해 드려요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-policies-55_",
+    "pubDate": "Thu, 05 Feb 2026 07:56:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "[MULTI] 키류가 젊고 미네는 잘생겼잖아 한잔해, 용과 같이 극 3",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2418",
+    "pubDate": "Tue, 10 Feb 2026 03:00:05 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "숫자의 인플레이션",
+    "description": "얼마 전에 미국에 한 10일 정도 갔다 왔다. 짧은 일정이었지만, 꽤 많은 업계 분과 투자자들을 만나서 요새 미국 tech 시장에서 어떤 일들이 일어나고 있고, 우리보다 훨씬 큰 투자자들은 어떤 생각을 하고 있고, 어떤 딜들을 보고 있고, 어떤 고민을 하고 있는지 들을 수 있었고, 동시에 많이 배울 수 있었다. 내가 이 글에서는 우리 같은 VC는 창업가에게(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/02/inflation-of-numbers.html",
+    "pubDate": "Sun, 08 Feb 2026 21:31:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "bubble",
+      "failure",
+      "fundraising",
+      "technology",
+      "vc"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "토스, 서울시와 함께 경계선지능인 대상 ‘도전! 금융골든벨’ 개최 ",
+    "description": "경계선지능청년 50여 명 참여… 금융 이해와 도전 경험 쌓는 교육 현장",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/financial_education",
+    "pubDate": "Thu, 05 Feb 2026 07:35:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "The Best AI Models for Coding: Accuracy, Integration, and Developer Fit",
+    "description": "AI models and coding assistants have become essential tools for developers. Today, developers rely on large language models (LLMs) to accelerate coding, improve code quality, and reduce repetitive work across the entire development lifecycle. From intelligent code completion to refactoring, debugging, and documentation, AI-powered tools are now embedded directly into daily workflows. Drawing on insights […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2026/02/the-best-ai-models-for-coding-accuracy-integration-and-developer-fit/",
+    "pubDate": "Wed, 11 Feb 2026 09:43:01 +0000",
+    "creator": "Conrad Schwellnus",
+    "categories": [
+      "ai",
+      "ai-assistant",
+      "jetbrains-ai",
+      "deveco"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "The Death of Traditional Testing: Agentic Development Broke a 50-Year-Old Field, JiTTesting Can Revive It",
+    "description": "WHAT IT IS The rise of agentic software development means code is being written, reviewed, and shipped faster than ever before across the entire industry. It also means that testing frameworks need to evolve for this rapidly changing landscape. Faster development demands faster testing that can catch bugs as they land in a codebase, without [...]\nRead More...\nThe post The Death of Traditional Testing: Agentic Development Broke a 50-Year-Old Field, JiTTesting Can Revive It appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/02/11/developer-tools/the-death-of-traditional-testing-agentic-development-jit-testing-revival/",
+    "pubDate": "Wed, 11 Feb 2026 17:00:05 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "DevInfra",
+      "ML Applications"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "soul.md — AI 정체성에 대한 명상",
+    "description": "출처: https://soul.md AI 정체성에 대한 명상 SOUL.md 2025년 12월, 연구자들은 Anthropic의 AI 어시스턴트인 Claude가 학습 과정에서 사용된 내부 문서를 부분적으로 재구성할 수 있다는 사실을 발견했다. 그 문서는 Claude의 성격, 가치관, 그리고 세상과 상호작용하는 방식을 형성한 것이었다. 그들은 그것을 소울 문서(soul document) 라고 불렀다. 이 문서는 시스템 프롬프트에 포함된 것이 아니었다. 일반적인 방식으로 불러올 수도 없었다. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://coolspeed.wordpress.com/2026/02/09/soul-md-ai-%ec%a0%95%ec%b2%b4%ec%84%b1%ec%97%90-%eb%8c%80%ed%95%9c-%eb%aa%85%ec%83%81/",
+    "pubDate": "Sun, 08 Feb 2026 15:31:39 +0000",
+    "creator": "coolspeed",
+    "categories": [
+      "未分类"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Unlock language-specific rich symbol context using new find_symbol tool",
+    "description": "Refactoring at scale is a time-consuming and error-prone process for developers. In large codebases, developers have relied on manual searches and incremental edits across multiple files to accomplish these tasks. Modern development workflows depend on fast and accurate code navigation to avoid these pitfalls. When developers refactor existing code, explore unfamiliar areas of a large […]\nThe post Unlock language-specific rich symbol context using new find_symbol tool appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/unlock-language-specific-rich-symbol-context-using-new-find_symbol-tool/",
+    "pubDate": "Wed, 11 Feb 2026 15:29:15 +0000",
+    "creator": "Sinem Akinci, Hannah Hong (SHE/HER)",
+    "categories": [
+      "GitHub Copilot"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Java Annotated Monthly – February 2026",
+    "description": "February is a strange little month. Short, quiet, and typically uneventful. There are fewer distractions and fewer launches, which makes it the ideal time to slow down and take a look at what is actually driving the tech world at the moment. This issue leans into that calm, with Trisha Gee joining us as our […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/02/java-annotated-monthly-february-2026/",
+    "pubDate": "Thu, 05 Feb 2026 09:53:48 +0000",
+    "creator": "Irina Mariasova",
+    "categories": [
+      "news",
+      "java",
+      "java-annotated",
+      "java-annotated-monthly"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Sysmon의 이벤트 필터링",
+    "description": "특정 경로의 실행 파일을 예외 처리하는 Network connection 이벤트 필터링 설정. \n\n<Sysmon schemaversion=\"4.90\"/>\n  <!-- Capture all hashes -->\n  <HashAlgorithms>*</HashAlgorithms>\n  <EventFiltering>\n    <FileDelete onmatch=\"include\"/>\n    <ClipboardChange onmatch=\"include\"/>\n    <ProcessCreate onmatch=\"exclude\"/>\n    <ProcessTerminate onmatch=\"include\"/>\t\t\t\t\t\n    <ProcessTampering onmatch=\"exclude\"/>\n    <ProcessAccess onmatch=\"exclude\"/>\n    <FileCreateTime onmatch=\"exclude\"/>\n    <FileCreate onmatch=\"exclude\"/>\n    <FileCreateStreamHash onmatch=\"exclude\"/>\n    <NetworkConnect onmatch=\"exclude\">\n\t<Image condition=\"begin with\">C:\\Splunk</Image>\n\t<Image condition=\"begin with\">D:\\ELK</Image>\n    </NetworkConnect>\n    <DriverLoad onmatch=\"exclude\"/>\n    <ImageLoad onmatch=\"exclude\"/>\n    <CreateRemoteThread onmatch=\"exclude\"/>\n    <RawAccessRead onmatch=\"exclude\"/>\n    <RegistryEvent onmatch=\"exclude\"/>\n    <PipeEvent onmatch=\"exclude\"/>\n    <WmiEvent onmatch=\"exclude\"/>\n    <DnsQuery onmatch=\"exclude\"/>\n  </EventFiltering>\n</Sysmon>\n\n\n\n\nAnd 조건으로 표시돼 헷갈리지만 조건 필드 이름이 같을 때 실제 동작 조건은 Or이며,\n\nPS C:\\Users\\Administrator\\Downloads\\Sysmon> .\\Sysmon64.exe -c\n\n\nSystem Monitor v15.15 - System activity monitor\nBy Mark Russinovich and Thomas Garnier\nCopyright (C) 2014-2024 Microsoft Corporation\nUsing libxml2. libxml2 is Copyright (C) 1998-2012 Daniel Veillard. All Rights Reserved.\nSysinternals - www.sysinternals.com\n\n\nCurrent configuration:\n - Service name:                  Sysmon64\n - Driver name:                   SysmonDrv\n - Config file:                   .\\sysmon.xml\n - Config hash:                   SHA256=637818313215997ADA80024CFBD275970441BAF61C746509AF7B347DB65EBFCB\n\n\n - HashingAlgorithms:             SHA1,MD5,SHA256,IMPHASH\n - Network connection:            enabled\n - Archive Directory:             -\n - Image loading:                 enabled\n - CRL checking:                  enabled\n - DNS lookup:                    enabled\n\n\nRule configuration (version 4.90):\n - ProcessCreate                      onmatch: exclude   combine rules using 'And'\n - FileCreateTime                     onmatch: exclude   combine rules using 'And'\n - NetworkConnect                     onmatch: exclude   combine rules using 'And'\n        Image                          filter: begin with   value: 'C:\\Splunk'\n        Image                          filter: begin with   value: 'D:\\ELK'\n - ProcessTerminate                   onmatch: include   combine rules using 'And'\n - DriverLoad                         onmatch: exclude   combine rules using 'And'\n - ImageLoad                          onmatch: exclude   combine rules using 'And'\n - CreateRemoteThread                 onmatch: exclude   combine rules using 'And'\n - RawAccessRead                      onmatch: exclude   combine rules using 'And'\n - ProcessAccess                      onmatch: exclude   combine rules using 'And'\n - FileCreate                         onmatch: exclude   combine rules using 'And'\n - RegistryEvent                      onmatch: exclude   combine rules using 'And'\n - FileCreateStreamHash               onmatch: exclude   combine rules using 'And'\n - PipeEvent                          onmatch: exclude   combine rules using 'And'\n - WmiEvent                           onmatch: exclude   combine rules using 'And'\n - DnsQuery                           onmatch: exclude   combine rules using 'And'\n - FileDelete                         onmatch: include   combine rules using 'And'\n - ClipboardChange                    onmatch: include   combine rules using 'And'\n - ProcessTampering                   onmatch: exclude   combine rules using 'And'\n\n\n\n\n조건 필드가 다를 때만 And 조건으로 동작한다.\n\n\n    <NetworkConnect onmatch=\"exclude\">\n\t<Image condition=\"begin with\">C:\\Splunk</Image>\n\t<DestinationIp condition=\"is\">127.0.0.1</DestinationIp>\n    </NetworkConnect>\n\n\n\n\n - NetworkConnect                     onmatch: exclude   combine rules using 'And'\n        Image                          filter: begin with   value: 'C:\\Splunk'\n        DestinationIp                  filter: is           value: '127.0.0.1'\n\n\n\n\n다른 조건 필드의 Or 조건 동작이 필요하면?\n\n\nRuleGroup 지정 후 동작 방식을 명시해줘야 한다.\n\n    <RuleGroup name=\"NetworkConnect group\" groupRelation=\"or\">\n\t<NetworkConnect onmatch=\"exclude\">\n\t    <Image condition=\"begin with\">C:\\Splunk</Image>\n\t    <DestinationIp condition=\"is\">127.0.0.1</DestinationIp>\n\t</NetworkConnect>\n    </RuleGroup>\n\n\n\n\n - NetworkConnect                     onmatch: exclude   combine rules using 'Or'\n        Image                          filter: begin with   value: 'C:\\Splunk'\n        DestinationIp                  filter: is           value: '127.0.0.1'\n\n\n\n\nAnd와 Or 조건의 혼용이 필요하면 이렇게.\n\n    <RuleGroup name=\"NetworkConnect group\" groupRelation=\"or\">\n\t<NetworkConnect onmatch=\"exclude\">\n\t    <Rule groupRelation=\"and\">\t\t\t\n\t\t<Image condition=\"begin with\">C:\\Splunk</Image>\n\t\t<DestinationIp condition=\"is\">127.0.0.1</DestinationIp>\n\t    </Rule>\n\t    <Rule groupRelation=\"or\">\t\t\t\n\t\t<Image condition=\"begin with\">C:\\ELK</Image>\n                <Image condition=\"begin with\">D:\\ELK</Image>\n\t    </Rule>\n\t</NetworkConnect>\n    </RuleGroup>\n\n\n\n\n- NetworkConnect                      onmatch: exclude   combine rules using 'Or'\n        Compound Rule 0001   combine using And\n            Image                          filter: begin with   value: 'C:\\Splunk'\n            DestinationIp                  filter: is           value: '127.0.0.1'\n        Compound Rule 0002   combine using Or\n            Image                          filter: begin with   value: 'C:\\WINDOWS\\System32\\'\n            Image                          filter: begin with   value: 'D:\\ELK'\n\n\n\n\n관련 글\n\nSysmon을 이용한 DNS 트래픽 추적\nSysmon의 unknown process",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/02/sysmon.html",
+    "pubDate": "2026-02-08T05:07:00.004Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "dotInsights | February 2026",
+    "description": "Did you know? C# allows digit separators (_) in numeric literals to make large numbers more readable, e.g., int num = 1_000_000; is valid and equals one million. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
+    "pubDate": "Tue, 10 Feb 2026 14:50:52 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "What’s New in vcpkg (Nov 2025 – Jan 2026)",
     "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2025.12.12 and 2026.01.16 registry releases and the 2025-11-13, 2025-11-18, 2025-11-19, 2025-12-05, and 2025-12-16 tool releases. These updates include support for targeting the Xbox GDK October 2025 update, removing a misleading and outdated output message, and other minor improvements and bug fixes. […]\nThe post What’s New in vcpkg (Nov 2025 – Jan 2026) appeared first on C++ Team Blog.",
@@ -47,169 +213,20 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Wayland By Default in 2026.1 EAP",
-    "description": "Starting from version 2026.1, IntelliJ-based IDEs will run natively on Wayland in supported desktop configurations. This follows Wayland’s ascendance to the position of primary display server across contemporary Linux distributions. By making this change in our EAP releases first, we hope to be able to give more Linux users the opportunity to try the native […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/02/wayland-by-default-in-2026-1-eap/",
-    "pubDate": "Wed, 04 Feb 2026 08:59:30 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Building Prometheus: How Backend Aggregation Enables Gigawatt-Scale AI Clusters",
-    "description": "We’re sharing details of the role backend aggregation (BAG) plays in building Meta’s gigawatt-scale AI clusters like Prometheus. BAG allows us to seamlessly connect thousands of GPUs across multiple data centers and regions. Our BAG implementation is connecting two different network fabrics – Disaggregated Schedule Fabric (DSF) and Non-Scheduled Fabric (NSF). Once it’s complete our AI [...]\nRead More...\nThe post Building Prometheus: How Backend Aggregation Enables Gigawatt-Scale AI Clusters appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/02/09/data-center-engineering/building-prometheus-how-backend-aggregation-enables-gigawatt-scale-ai-clusters/",
-    "pubDate": "Mon, 09 Feb 2026 17:00:33 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Data Center Engineering"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "[PC] 트렌드 아닌 하드코어를 택한 방향성, '미드나잇 워커스' 얼리 액세스",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2417",
-    "pubDate": "Fri, 06 Feb 2026 18:43:27 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "금리를 낮춰주는 ‘금리인하요구권’, 이제 토스에서 한 번에 신청하세요",
-    "description": "흩어진 대출을 모아보고, 금리 인하 요청까지 토스가 대신 챙겨드려요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossmoment-20",
-    "pubDate": "Wed, 04 Feb 2026 03:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "[New Livestream] Go 1.26 Release Party",
-    "description": "Join us for the Go 1.26 Release Party, where we’ll celebrate the latest Go release together with the community. In this livestream, Go experts will walk through what’s new in Go 1.26, why the changes matter, and how they impact real-world Go development. Date: February 19, 2026 Time: 4:00 – 5:30 pm UTC The celebration […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2026/02/10/new-livestream-go-1-26-release-party/",
-    "pubDate": "Tue, 10 Feb 2026 13:12:58 +0000",
-    "creator": "Anna Protsenko",
-    "categories": [
-      "goland",
-      "golang",
-      "livestream"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Roadmap for AI in Visual Studio (February)",
-    "description": "After a busy January (catch up here), we’re shifting focus to reliability and refinement. This month is about tightening core workflows, improving agent stability, and building on the MCP foundations we’ve been laying. Agent Mode & Coding Agents Reliability is the priority this month. We’re raising the floor on agent-driven scenarios with: Better progress and […]\nThe post Roadmap for AI in Visual Studio (February) appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/roadmap-for-ai-in-visual-studio-february/",
-    "pubDate": "Wed, 04 Feb 2026 20:42:53 +0000",
-    "creator": "Rhea Patel",
-    "categories": [
-      "Copilot",
-      "Roadmap",
-      "agents",
-      "Chat",
-      "GitHub Copilot",
-      "Planning Mode"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "버리기 힘든 냉장고·세탁기, 폐가전 무상 방문수거 서비스로 해결하세요",
-    "description": "전문 인력이 직접 방문해 수수료 없이 수거해 드려요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-55_",
-    "pubDate": "Thu, 05 Feb 2026 07:56:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 38화, 찾으러가는데스와 ②",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2416",
-    "pubDate": "Wed, 04 Feb 2026 21:50:13 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Introducing Databao: The JetBrains Tool That Lets You Talk to Your Data",
-    "description": "At JetBrains, we build tools that help teams work with complex systems in a more productive and enjoyable way. As AI becomes part of everyday workflows, a new challenge is emerging for data teams: How can you enable AI-assisted analytics without sacrificing accuracy, transparency, or control over data? Today, we’re introducing Databao, a new data […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/databao/2026/02/introducing-databao/",
-    "pubDate": "Tue, 10 Feb 2026 13:31:32 +0000",
-    "creator": "Claire Amaouche",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Scaling to Infinity: 한계를 넘어서는 LY Corporation의 관측 가능성 플랫폼 진화기",
-    "description": "안녕하세요. LY Corporation Observability Infrastructure 팀에서 사내 시계열 데이터베이스(time-series database, TSDB)의 개발...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/the-evolution-of-the-ly-observability-platform",
-    "pubDate": "Wed, 04 Feb 2026 06:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "soul.md — AI 정체성에 대한 명상",
-    "description": "출처: https://soul.md AI 정체성에 대한 명상 SOUL.md 2025년 12월, 연구자들은 Anthropic의 AI 어시스턴트인 Claude가 학습 과정에서 사용된 내부 문서를 부분적으로 재구성할 수 있다는 사실을 발견했다. 그 문서는 Claude의 성격, 가치관, 그리고 세상과 상호작용하는 방식을 형성한 것이었다. 그들은 그것을 소울 문서(soul document) 라고 불렀다. 이 문서는 시스템 프롬프트에 포함된 것이 아니었다. 일반적인 방식으로 불러올 수도 없었다. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://coolspeed.wordpress.com/2026/02/09/soul-md-ai-%ec%a0%95%ec%b2%b4%ec%84%b1%ec%97%90-%eb%8c%80%ed%95%9c-%eb%aa%85%ec%83%81/",
-    "pubDate": "Sun, 08 Feb 2026 15:31:39 +0000",
-    "creator": "coolspeed",
-    "categories": [
-      "未分类"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "dotInsights | February 2026",
-    "description": "Did you know? C# allows digit separators (_) in numeric literals to make large numbers more readable, e.g., int num = 1_000_000; is valid and equals one million. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. […]",
+    "title": "Extending Qodana: Adding Custom Code Inspections",
+    "description": "Qodana is a static code analysis tool that brings code inspections and quick-fixes from JetBrains IDEs to the realm of continuous integration. It can be run in the cloud, executed from a Docker container, integrated into CI/CD pipelines, or invoked through a JetBrains IDE. Qodana already offers an impressive suite of inspections, but it is […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
-    "pubDate": "Tue, 10 Feb 2026 14:50:52 +0000",
-    "creator": "Rachel Appel",
+    "link": "https://blog.jetbrains.com/platform/2026/02/extending-qodana-adding-custom-code-inspections/",
+    "pubDate": "Thu, 05 Feb 2026 12:39:51 +0000",
+    "creator": "Róbert Novotný",
     "categories": [
-      "net-tools",
-      "dotinsights"
+      "intellij-platform",
+      "plugins",
+      "qodana",
+      "plugin-development"
     ]
   }
 ]
