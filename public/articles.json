@@ -2,108 +2,98 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "ParSeNet, HPNet 딥러닝 모델 구조 조사 분석",
-    "description": "ParSeNet이나 HPNet과 같은 역설계(Scan-to-CAD) 모델의 핵심 '눈(Eye)' 역할을 하는 백본(Backbone) 아키텍처는 주로 3D 점군(Point Cloud)의 기하학적 특징을 추출하는 딥러닝 네트워크로 구성된다.\n\n\n1. 백본 모델(Backbone Model)의 구조와 기능\n이러한 파이프라인의 백본은 2D 이미지의 픽셀을 처리하는 CNN(ResNet 등)과 달리, 순서가 없고 불규칙하게 흩어진 3차원 좌표의 집합을 처리해야 한다. 이를 위해 주로 다음과 같은 3가지 아키텍처가 백본으로 결합되어 사용된다.\nPointNet++ (가장 표준적인 백본)\n구조: 다층 퍼셉트론(MLP)을 각 점에 독립적으로 적용한 뒤, 최대 풀링(Max Pooling)을 통해 입력 순서에 구애받지 않는 대칭 함수(Symmetric Function)를 구성한다. 여기에 계층적 샘플링(Furthest Point Sampling)과 지역 군집화(Ball Query) 기법을 더해 지역적 기하학(Local Geometry)을 캡처한다.\n기능: 단순한 좌표들을 엮어, \"이 점 주변은 평평하다\", \"이 점은 날카로운 모서리에 있다\"는 정보를 담은 고차원 특징 벡터로 변환한다.\nDGCNN (Dynamic Graph CNN)\n구조: 점들 사이의 k-최근접 이웃(k-NN) 그래프를 구성하고, 네트워크 계층이 깊어질수록 특징 공간(Feature Space) 상에서 그래프의 연결을 동적으로 다시 계산하는 EdgeConv 연산을 수행한다.\n기능: 점과 점 사이의 '관계'를 학습하는 데 특화되어 있다. 곡률이 변하는 경계면(Boundary)이나 서로 맞닿아 있는 직교 평면의 특징을 뚜렷하게 잡아낸다.\nPoint Transformer (최신 SOTA 백본)\n구조: 자연어 처리에서 쓰이는 셀프 어텐션(Self-attention) 메커니즘을 3D 점군에 맞게 변형하여 적용했다.\n기능: 모델 전체의 전역적 맥락(Global Context)을 파악한다. CAD 모델 특유의 대칭성(Symmetry)이나 반복되는 구멍(Hole) 패턴의 특징을 매우 효과적으로 추출한다.\n\n2. 입력 데이터 (Input Data) 예시\n백본 모델에 들어가는 입력값은 위상(Topology)이나 크기 정보가 없는 순수한 3D 좌표의 배열이다. 라이다(LiDAR) 스캐너나 가우시안 스플래팅 덩어리에서 추출된 표면 점 데이터가 이에 해당한다.\n형태: 실수 배열 (때로는 표면의 수직 방향을 나타내는 법선 벡터를 포함해 특징 배열로 입력됨).\n\n예시 데이터 (기계 부품의 표면 점 10,000개 추출):\n[\n [0.12, 1.55, -0.42], \n [0.13, 1.55, -0.40],\n ...\n [5.00, 2.10, 1.11] // 총 10,000개의 [x, y, z] 배열\n]\n\n\n3. 출력 데이터 (Output Data) 예시\n백본에서 추출된 특징(Feature)은 여러 개의 서브 네트워크(Head)를 거쳐, 최종적으로 '분할 라벨(Segmentation Label)'과 수학적으로 정의된 '파라미터 수치(Parameter Vector)'로 나뉘어 출력된다.\n형태 1: 점 단위 분할 확률 (Point-wise Segmentation)\n\n각 점이 어떤 수학적 도형에 속하는지 분류한다.\n예시: 점 $P_1$은 '원통(Cylinder)'일 확률 98%.\n\n형태 2: 도형 파라미터 회귀 (Primitive Parameters)\n\n분류된 덩어리에 대해 실수형 파라미터 방정식을 도출한다.\n예시 A (평면 표면이 추출된 경우): Type: Plane\nNormal_Vector (수직 벡터): [0.0, 0.0, 1.0]\nDistance_from_Origin (원점 거리): 15.5\n\n예시 B (드릴로 뚫린 구멍이 추출된 경우):\n\nType: Cylinder\nAxis_Vector (중심축 방향): [0.0, 1.0, 0.0]\nCenter_Point (중심점): [10.0, 5.0, -2.0]\nRadius (반지름 치수): 2.5 (이 수치가 설계 프로그램에서 조절 가능한 치수가 됨)\n\n이러한 출력값들이 모여서 최종적으로 솔리드웍스(SolidWorks)나 인벤터(Inventor)에서 읽을 수 있는 매크로 스크립트나 STEP 형식의 트리 구조로 조립된다.",
+    "title": "힘차게 달려라 설국열차999, 프로스트레인 2",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/02/parsenet-hpnet.html",
-    "pubDate": "2026-02-20T10:11:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2421",
+    "pubDate": "Sun, 15 Feb 2026 18:39:47 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Can a single word from a customer change a service?",
+    "title": "Safeguarding Dynamic Configuration Changes at Scale",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/usercentric",
-    "pubDate": "Thu, 19 Feb 2026 10:11:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "pubDate": "Wed, 18 Feb 2026 17:01:01 GMT",
+    "creator": "Cosmo W. Q",
+    "categories": [
+      "engineering",
+      "software-development",
+      "infrastructure",
+      "distributed-systems",
+      "software-architecture"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "LangChain Python Tutorial: 2026’s Complete Guide",
-    "description": "If you’ve read the blog post How to Build Chatbots With LangChain, you may want to know more about LangChain. This blog post will dive deeper into what LangChain offers and guide you through a few more real-world use cases. And even if you haven’t read the first post, you might still find the info […]",
+    "title": "유니티 강좌 - 픽셀아트를 위한 2D 라이팅 같이 배우기 / 골드메탈",
+    "description": "영상: https://www.youtube.com/watch?v=rR5SrfRX4qU\n\n\n\n여러가지 몰랐던 UI 들을 사용하네요\n나중에 진지하게 봐야겠당\n \n비주얼스크립팅\n글로벌 광원\n픽셀퍼팩트\n\n\n라이트\n\n\n크림자 영역\n\n\n2D 셰이더\n\n\n빛나는 외곽선\n\n\n\n하이트맵 뚝딱 (2D 노멀맵)\n\n\n2D 스프라이트 애니메이션 전부에 적용\n\n\n\n \n환경광 먹은거\n하이트맵 먹은 부분의 밝기가 달라지나봅니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/",
-    "pubDate": "Thu, 19 Feb 2026 10:40:15 +0000",
-    "creator": "Cheuk Ting Ho",
+    "link": "https://serverdown.tistory.com/1573",
+    "pubDate": "Sun, 15 Feb 2026 23:08:53 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "data-science",
-      "tutorials",
-      "ai",
-      "ai-agents",
-      "chatbots",
-      "langchain"
+      "프로그래밍/개발메모"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "필드 단위 변경 이력(History) 추적 시스템",
-    "description": "객체의 필드 변경 이력을 자동으로 추적해, 무엇이 어떻게 바뀌었는지 명확히 기록합니다.",
+    "title": "Write Modern Go Code With Junie and Claude Code",
+    "description": "Go developers can now confidently write modern Go code using the AI agents Junie and Claude Code. We at JetBrains have just released a new plugin with guidelines for AI agents that ensure they use the latest features and follow best Go practices compatible with your current version of Go, as specified in go.mod. You […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://cheese10yun.github.io/diff-history-part-1/",
-    "pubDate": "Sun, 15 Feb 2026 15:00:00 GMT",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/go/2026/02/20/write-modern-go-code-with-junie-and-claude-code/",
+    "pubDate": "Fri, 20 Feb 2026 13:29:52 +0000",
+    "creator": "Arseniy Terekhov",
     "categories": [
-      {
-        "_": "Kotlin",
-        "$": {
-          "domain": "https://cheese10yun.github.io/tags/Kotlin/"
-        }
-      },
-      {
-        "_": "Guide",
-        "$": {
-          "domain": "https://cheese10yun.github.io/tags/Guide/"
-        }
-      }
+      "goland",
+      "news"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "The Evolution of Async Rust: From Tokio to High-Level Applications",
-    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were conveniently distilled into a compact blog post format. In our yet another JetBrains livestream, Vitaly Bragilevsky was joined by Carl Lerche, the creator of Tokio, for an in-depth conversation about the […]",
+    "title": "unsloth 기반 효율적이고 환각 없는 모델 파인튜닝 개발 방법 ",
+    "description": "이 글은 신뢰성있는 모델 파인튜닝 개발 방법을 나눔한다.\n\n\n\n\n\n\npip install \"unsloth @ git+https://github.com/unslothai/unsloth.git\"\n\n\n레퍼런스\n\nFineTuning PHI-3 for RAG: Why Small Models Are Best for Production | by Nayeem Islam | Medium\nFine-Tuning Phi-3 with Unsloth: A Beginner-Friendly Guide 🚀🤖 | by Firas Tlili | Medium\nFine-tuning Small Vision Language Models: Phi-3-vision | by Liana Napalkova, PhD | Medium\nFrom Scratch: A Deep Dive into Fine-Tuning Phi-3.5 for Clinical Q&A | by Sriman | Medium\nUnsloth Notebooks | Unsloth Documentation\nUnlocking the power of data synthesis for function calling with fine-tuned SLMs | by Kosuke Fujimoto | Data Science + AI at Microsoft | Medium\nPhiCookBook/code/04.Finetuning/Phi-3-finetune-lora-python.ipynb at main · microsoft/PhiCookBook\nFine-Tuning vs. Function Calling: The New Stack for Customizing Foundation Models | by James Fahey | Medium\n오픈클로(OpenClaw) 윈도우 설치 방법,.. : 네이버블로그",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/02/17/the-evolution-of-async-rust-from-tokio-to-high-level-applications/",
-    "pubDate": "Tue, 17 Feb 2026 13:06:27 +0000",
-    "creator": "Tatiana Parshutkina",
-    "categories": [
-      "rustrover",
-      "async-rust",
-      "rust",
-      "tokio"
-    ]
+    "link": "http://daddynkidsmakers.blogspot.com/2026/02/blog-post.html",
+    "pubDate": "2026-02-18T01:08:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "회사에서 AI 개발 도구를 지원하지 않는다면",
-    "description": "요즘 다들 AI 도구에 대한 FOMO를 이야기하지만,\n이메일로 고민 상담을 들어보면 여전히 AI 도구에 대한 사내의 공식적인 지원이 없는 경우가 많다.\n(예전에 JetBrains 도구의 지원이 없어서 STS, Eclipse를 쓰던 것처럼..)\n물론, 금융권과 같이 특수하게 높은 보안 레벨을 유지해야 하는 서비스의 특성상 AI 도구 자체가 금지되는 경우도 있다.\n이런 경우는 당연히 어쩔 수 없다.  \n하지만 그런 도메인의 특성이 없는 경우에도 AI 도구를 지원하지 않는 경우가 많다.\n그럴 땐 어떻게 해야 할까?  \n10년 전이나 지금이나 개인의 생산성과 성장을 위해 필요하면 개인 비용으로 당연히 사용할 수 있다.\n그렇지만, 개인에 따라 그 비용도 부담스러울 수 있다.\n요즘의 환율로 계산하면 거의 월 30만원은 돼야 하나의 도구를 제대로 써볼 수 있는 시대에는 특히나 그렇다.  \n지금의 AI 시대를 그냥 회사 탓하면서 보낼 순 없다.\n그럴 경우엔 개인적으로 Amazon Web Services (AWS) Kiro와 JetBrains Junie, 이 두 가지를 검토해보는 것을 추천한다.\n이유는 단순하다.\n이 두 도구는 이미 회사에서 쓰고 있을 가능성이 높은 플랫폼 위에 있기 때문이다.  \nJetBrains의 Junie는 All Product 라이선스가 있을 경우 AI Pro 라이선스로 사용할 수 있다.\n(물론, JetBrains All Product 라이선스를 지원하면 AI 도구도 충분히 지원하는 회사이지 않겠냐고 할 수 있다.\n이미 JetBrains IDE에 대한 지원을 하고 거기에 추가로 AI 도구까지 지원하는 그 +α의 비용을 부담스러워해서 미지원하는 경우가 생각보다 많다.)  \n이 경우 JetBrains의 Junie는 충분히 AI 개발 경험을 쌓을 수 있는 도구다.\n다른 AI 도구들의 Max Plan처럼 미친 듯이 토큰을 사용할 수 있을 정도는 아니지만, 그래도 어느 정도는 에이전틱 프로그래밍에 대한 경험을 쌓아볼 수는 있다.  \nAWS는 국내에서는 거의 대부분의 서비스가 사용하고 있는 클라우드이다.\nAWS Kiro의 장점은 바로 그 AWS Billing에서 비용이 관리되어 별도의 계약이나 재무적 협의가 필요하지 않다는 점, 그리고 요즘 AWS에서 크레딧 지원을 많이 해준다는 점이다.  \nClaude Code, Codex, Cursor와 같은 도구들은 아무리 좋아도 회사에 도입하려면 새로운 벤더와의 계약, 신규 예산 품의, 보안 검토 등을 처음부터 시작해야 한다.  \n그런데 Kiro와 Junie는 이미 회사가 쓰고 있는 AWS, 젯브레인 생태계 안에 있다.\n즉, 새로운 벤더를 찾아 계약하는 것이 아니라 큰 협의 과정 없이 시작할 수 있다.\n앞서 이야기한 예산 품의, 보안 심사 같은 산들이 한꺼번에 낮아진다.\n솔직히 AI 코딩 도구의 성능 차이는 몇 달 단위로 뒤집힌다.\n오늘 A가 좋아도 내일 B가 더 좋아질 수 있고, 그 반대도 마찬가지다.\n그래서 나는 \"어떤 도구가 가장 뛰어난가\"보다 \"어떤 도구를 우리 팀이 가장 빨리 쓸 수 있는가\"가 더 중요하다고 생각한다.\n아무리 좋은 도구도 도입까지 6개월이 걸리면 의미가 없다.\n지금 당장 쓸 수 있는 도구를 먼저 도입하고, 팀이 AI 코딩에 익숙해지는 것이 훨씬 더 가치 있다.\n그런 관점에서 AI 도구를 사용하기 위해 사내에서 협의해야 할 것들이 너무 많다면, AWS Kiro와 JetBrains Junie를 고민해보는 것을 추천한다.\n\"좋은 건 알겠는데, 리더에게 어떻게 말씀드리지?\" 라는 고민이 있을 수 있다.    \n특히 Kiro의 경우 AWS 위에 있다 보니, 기존 예산 체계나 계정 관리 측면에서 리더를 설득할 수 있는 구체적인 포인트들이 있다.\nYan So 님이 이런 부분을 잘 정리해주신 글이 있어서 공유한다.\nKiro를 기업에서 쓰기 좋은 이유 (IAM Identity Center)\n\"왜 우리 리더들은 AI 도구를 지원하지 않는 것인가\"에 대해 리더의 입장에서의 시각과 그들을 설득하기 위한 충분한 근거를 자세히 설명해 주셨다.\n예산과 비용 처리 관점에서 왜 도입이 지연되는지, 그리고 리더 입장에서 Kiro를 어떤 포인트로 검토하면 좋을지가 실무적으로 정리되어 있다.\nAI 코딩 도구 도입이 아직인 조직이 있다면, 한번 읽어보고 팀 리더에게 제안해보자.",
+    "title": "프롬프트의 시작과 끝, 이 3가지 앱으로 종결",
+    "description": "AI와의 대화가 늘 엉뚱한 결과로 이어져 답답하셨나요? 혹은 완벽한 프롬프트를 만들고 싶지만 어디서부터 시작해야 할지 막막하셨다면, 이 글이 해답이 될 거예요. AI 활용의 새로운 기준을 제시할 세 가지 혁신적인 앱으로 프롬프트 작성의 모든 고민을 끝내고, 여러분도 진정한 AI 프롬프트 마스터가 되어 보세요!\n여러분, 혹시 AI에게 질문했는데 영 엉뚱한 답변이 나와서 황당했던 경험, 저만 있는 건 아니겠죠? 아니면, 정말 완벽한 결과물을 기대하면서 프롬프트를 만들고 싶은데, 대체 어디서부터 손을 대야 할지 감조차 안 잡히셨던 적도 분명 있으실 거예요. 오늘은 이런 고민을 시원하게 해결해 줄 마법 같은 세 가지 도구를 소개해 드리려고 해요. 이 앱들만 제대로 활용하신다면, 프롬프트 전문가의 영역이 더 이상 꿈이 아니랍니다!\n\n\n제가 직접 경험해 보니, AI는 정말 질문을 어떻게 하느냐에 따라 답변의 질이 하늘과 땅 차이로 달라져요. 단순히 \"블로그 글 써줘\"라고 짧게 물으면, 어디서 많이 본 듯한 평범한 결과물만 툭 튀어나오기 일쑤죠. 그런데 만약 \"당신은 10년 경력의 여행 작가입니다. 20대 여성을 위한 제주도 3박 4일 여행기를 감성적인 톤으로 작성해주세요\"라고 디테일하게 요청한다면? 와, 이건 정말 완전히 다른 수준의, 심지어 감동적인 결과물이 나올 때도 있더라고요.\n하지만 문제는 매번 이렇게 완벽하고 정교한 프롬프트를 직접 만드는 게 너무 어렵고 귀찮다는 점이에요. 특히 \"AI한테 어떤 역할을 부여해야 하지?\", \"어떤 조건을 추가해야 가장 좋은 결과가 나올까?\" 같은 고민을 하다 보면 시간이 정말이지 눈 깜짝할 사이에 흘러가 버리죠. 그래서 오늘 제가 소개해 드릴 이 세 가지 앱이 필요한 겁니다. 각각 다른 역할로 여러분의 프롬프트 작성 전 과정을 빈틈없이 도와줄 거예요. 마치 요리할 때 레시피를 짜주는 셰프, 맛을 미세하게 조절하는 조미료, 그리고 나만의 특별한 레시피를 정리해 주는 요리책 같다고나 할까요?\n1. AI Prompt Studio: 메타 프롬프트 설계의 마법사  ‍♀️\n여러분, 혹시 ChatGPT나 제미나이를 쓸 때 \"제주도 여행 블로그 글 하나 써줘\"라고 짧게 물어보고 나서 결과가 너무 뻔해서 실망하신 적 있으실 거예요. 사실 이건 AI의 성능 문제라기보다는, 질문하는 방식에 아쉬움이 있었을 가능성이 큽니다. AI는 질문을 어떻게 하느냐에 따라 답변의 품질이 정말이지 하늘과 땅 차이로 달라지거든요.\n\n\n하지만 문제는 매번 \"너는 10년 차 작가야, 타겟은 누구고, 형식은 마크다운으로 해줘\" 같은 복잡한 프롬프트를 직접 짜기가 너무 어렵고 번거롭다는 거죠. 바로 이 번거로움을 해결해 주는 도구가 첫 번째로 소개해 드릴 'AI Prompt Studio'입니다. 이 앱은 단순한 질문이 아닌, LLM(거대 언어 모델)의 성능을 100% 끌어낼 수 있는 '메타 프롬프트(Meta Prompt)'를 전문적으로 설계해주는 앱이에요.\n주요 기능  \n빠른 프롬프트 생성: 복잡한 설정 없이 목표만 입력하면 버튼 하나로 강력한 프롬프트를 즉시 만들어줍니다. 바쁠 때 정말 최고죠.\n역질문 유도: 사용자의 요청이 모호할 때, AI가 스스로 부족한 정보를 파악하여 \"더 나은 답변을 위해 몇 가지 질문을 해도 될까요?\" 하고 되묻도록 유도합니다. 덕분에 불필요한 시행착오를 줄일 수 있어요.\n페르소나 부여: 목표 달성에 가장 적합한 전문가 역할을 AI가 스스로 설정하고 연기하도록 지시합니다. 예를 들어, \"최고의 마케터\" 역할을 부여해서 결과물의 전문성을 확 끌어올릴 수 있어요.\n비판적 개선: 입력한 내용을 비판적으로 분석해서 논리적 허점이나 모호한 부분을 찾아내고, 더 완벽한 구조로 즉시 수정해 줍니다. 스스로 고쳐나가면서 프롬프트 실력이 확 늘 거예요.\n다섯 가지 전문 모드  ️\n이 앱의 가장 큰 특징이자 핵심은 바로 목적에 따라 골라 쓸 수 있는 다섯 가지 전문 모드를 지원한다는 점이에요. 여러분의 상황에 맞춰 선택하기만 하면 됩니다.\nRTSC 마스터 모드: 역할(Role), 작업(Task), 구조(Structure), 체인(Chain)의 앞 글자를 딴 모드인데요. 예를 들어 \"유튜브 쇼츠 대본 생성\"이라고 목표만 입력해 보세요. AI가 알아서 \"숏폼 바이럴 마케팅 디렉터\"라는 역할을 부여하고, 쇼츠 성공 공식을 완벽하게 구조화한 프롬프트를 짜줍니다. 정교하고 복잡한 창작물을 만들 때 정말 최고입니다.\n비즈니스 프레임워크 모드: 직장인분들이라면 이 모드를 강력 추천합니다! 기획안이나 보고서 쓸 때 막막하셨던 경험 다들 있으시죠? 코스타(COSTAR)나 프렙(PREP) 같은 검증된 비즈니스 틀을 자동으로 적용해서 아주 깔끔하고 논리적인 업무용 문서를 만들어 줘요. 정말이지 퇴근 시간을 앞당겨 주는 효자 앱이라고 할 수 있죠.\n프롬프트 아키텍트: 정말 귀찮을 때, 이 모드가 마법을 부려줍니다. \"복잡한 법률 문서를 쉽게 요약해 주는 AI 에이전트를 설계해 줘\"라고 딱 한 줄만 써보세요. 그럼 AI가 필요한 제약 조건과 작업 프로세스를 알아서 추론하고 설계해 냅니다. 마치 옆에 유능한 비서가 있는 것 같아요.\n버텍스 AI XML 모드: 기업용 데이터 처리나 구조화된 데이터가 필요할 때 빛을 발하는 모드예요. 결과물을 깔끔한 XML 태그 구조로 만들어주기 때문에 복잡한 데이터를 분류하거나 추출할 때 아주 정확하고 표준화된 답변을 얻을 수 있습니다. 데이터 분석가나 개발자분들께 특히 유용할 거예요.\nCoT(Chain-of-Thought) 모드: 논리적인 사고가 필요할 때 활용해 보세요. AI가 사람처럼 단계별로 추론하며 문제를 풀도록 유도하는 방식인데요. 덕분에 수학 문제나 복잡한 논리 과제에서 AI가 엉뚱한 답을 내놓는 현상을 획기적으로 줄여줍니다. 이제는 그저 \"무엇을 할지\"만 결정하시면 됩니다!\n솔직히 말하면, 이 앱은 거의 '사기 앱'이라고 불러도 될 정도예요. 왜냐하면 프롬프트 엔지니어들이 밤새워 연구하고 강의에서 수십만 원을 주고 배워야 하는 복잡한 기법들을, 버튼 클릭 몇 번만으로 누구나 완벽하게 구현할 수 있게 만들어줬거든요. 저도 처음에 써보고 정말 깜짝 놀랐습니다.\n많은 분들이 AI를 쓰면서 \"AI가 별로야\"라고 아쉬워하시는데, 제 경험상 사실은 질문을 제대로 못한 경우가 대부분입니다. 그런데 이 앱을 쓰면 그런 문제가 완전히 해결돼요. 시작하는 방법도 아주 간단합니다. 브라우저에서 접속한 뒤 우측 상단 톱니바퀴 아이콘을 클릭해서, 구글 AI 스튜디오에서 무료로 발급받은 '제미나이 API 키'만 넣어주면 준비 끝입니다. 자, 이제 '시작하기' 버튼을 누르고 여러분만의 완벽한 프롬프트를 직접 설계해 보시기 바랍니다!\n\n \nMeta Prompt Master\n \nai-prompt-studio-v2-basic.vercel.app\n\n \n  잠깐! API 키 설정 팁: AI Prompt Studio를 시작하기 전에, 구글 AI 스튜디오(aistudio.google.com)에서 무료로 제미나이 API 키를 발급받으세요. 이 키만 있으면 AI Prompt Studio의 모든 기능을 막힘없이 활용할 수 있습니다. 설정 과정도 매우 간단하니 걱정 마세요!\n2. Prompt Equalizer Pro: 글의 뉘앙스를 조율하는 이퀄라이저  \n자, 다음으로 소개해 드릴 앱은 정말이지 흥미로운 도구입니다. 바로 'Prompt Equalizer Pro'인데요. 여러분, 혹시 음악 들으실 때 취향에 맞춰 저음이나 고음을 조절하는 '이퀄라이저' 써보셨나요? 이 앱은 그 원리를 글쓰기에 그대로 가져왔습니다. 앞서 보신 'AI Prompt Studio'가 프롬프트를 '만드는' 도구였다면, 이 앱은 이미 써놓은 글의 뉘앙스를 아주 정밀하게 튜닝하고 조정하는 도구라고 보시면 됩니다. 개인적으로 써보고 정말 감탄했던 앱이에요.\n\n\n핵심 기능: 5가지 슬라이더 ✨\n앱 화면을 보시면 오른쪽에 다섯 개의 슬라이더가 보일 거예요. 이게 이 앱의 핵심인데요, 마치 음향 이퀄라이저처럼 글의 다양한 요소를 미세하게 조절할 수 있습니다.\n창의성: 슬라이더를 오른쪽으로 쭉 밀면, 평범했던 문장이 아주 은유적이고 풍성하게 변합니다. 반대로 왼쪽으로 낮추면 군더더기 없이 아주 직설적인 문장이 되죠. 소설이나 시를 쓸 때 정말 유용해요.\n명확성: 글의 이해도를 높이거나 낮출 수 있습니다. 복잡한 내용을 쉽게 풀어 설명할 때 아주 좋고, 때로는 일부러 난해하게 표현할 수도 있습니다.\n감정의 깊이: 글에 담긴 감정의 농도를 조절합니다. 따뜻하고 감성적인 글부터 차갑고 이성적인 글까지, 원하는 감정 톤을 만들 수 있어요.\n문장의 길이: 길고 유려한 문장과 짧고 간결한 문장 사이를 오갈 수 있습니다. 저는 주로 짧은 문장으로 속도감을 주고 싶을 때 사용하곤 해요.\n전문성: 이 기능이 정말 압권인데요! 수치를 높이면 아주 격식 있는 공문서 느낌부터, 낮추면 친구에게 말하는 듯한 편안한 말투까지 자유자재로 오갈 수 있습니다. 독자층에 맞춰 말투를 순식간에 바꾸는 게 가능해요.\n슬라이더 몇 번 움직이는 것만으로 글의 온도와 질감이 완전히 달라지는 게 정말 신기하지 않나요? 처음에 써봤을 때 솔직히 '이게 된다고?' 싶었어요.\nAI 페르소나 기능  \n더 놀라운 건 'AI 페르소나' 기능입니다. 앱에서 미리 제공하는 10가지 캐릭터 외에도 여러분이 직접 '냉철한 탐정'이나 '비즈니스 전문가'라고만 입력하면, AI가 그 캐릭터에 딱 맞는 말투와 성격, 그리고 최적의 이퀄라이저 값까지 알아서 세팅해 줍니다. 정말 생각지도 못한 부분에서 감탄하게 되는 기능이었어요.\n사용법도 아주 간단합니다. 처음 설정에서 API 키만 넣고 저장 폴더를 지정해 주세요. 그다음 원하는 말투의 페르소나를 고르거나 직접 만든 페르소나를 선택한 뒤, 슬라이더를 슥슥 조절하고, 원본 글을 넣은 뒤 '명작 생성' 버튼만 누르면 끝입니다. 마음에 들면 바로 파일로 저장하시면 되고요.\n소설을 쓰실 때 캐릭터마다 말투를 다르게 고정하거나, 딱딱한 보고서를 부드럽게 다듬을 때 이만한 도구가 없습니다. 단순히 수치를 높이기보다, 이것저것 만져보면서 여러분만의 '황금 조합'을 한 번 찾아보세요. 저도 저만의 조합을 찾는 재미에 푹 빠져버렸답니다!\n\n \nPrompt Equalizer Pro\n \nprompt-equalizer.vercel.app\n\n \n3. 프롬프트 마스터: 당신의 프롬프트 라이브러리  \n혹시 매번 똑같은 프롬프트를 메모장에 복사해서 쓰거나, 예전에 써둔 정말 좋은 프롬프트를 못 찾아서 헤맨 적 없으신가요? 첫 번째 앱이 프롬프트를 '만들고', 두 번째 앱이 뉘앙스를 '바꿨다면', '프롬프트 마스터'는 자주 쓰는 프롬프트를 완벽하게 '관리하고 재사용하는' 도구입니다. 이 앱 하나면 반복되는 질문을 일일이 타이핑할 필요가 완전히 사라져요. 정말 솔깃하지 않나요?\n\n\n개인적으로 저는 이 앱이 작업 효율성을 몇 배로 끌어올려 줬다고 생각해요. 예를 들어, 콘텐츠 제작자라면 유튜브 스크립트 틀을 템플릿으로 저장해두고 주제만 바꿔서 빠르게 기획할 수 있고요. 개발자라면 복잡한 코드 리뷰 프롬프트를 템플릿화해서 언어와 코드만 바꿔 끼우면 끝입니다. 비즈니스 이메일이나 마케팅 카피도 타겟과 키워드만 툭툭 던지면 전문적인 결과물이 쏟아져 나오는 경험을 하실 수 있을 거예요.\n강력한 기능  \n템플릿 생성 및 AI 제안: 첫 화면에 있는 미리 설정된 10개의 프롬프트 템플릿을 바로 사용할 수도 있지만, 여러분의 취향에 맞는 새로운 템플릿을 직접 만들 수도 있어요. 여기에 'AI 제안' 버튼까지 활용하면 더 대박입니다. 제목만 써놓고 버튼을 누르면 AI가 알아서 적절한 설명과 본문 내용을 채워주거든요. 초안 짜는 시간조차 아껴주는 거죠.\n변수 값 채우기: 프롬프트를 실행하면 화면이 둘로 나뉩니다. 왼쪽에서 미리 정해둔 변수 값들을 채워 넣고 버튼을 누르면, 오른쪽에서 실시간으로 AI의 답변이 생성됩니다. 마치 코드를 실행하는 것 같은 느낌이에요.\n강력한 검색 및 카테고리 관리: 프롬프트가 많아져도 걱정 마세요. 강력한 검색 기능과 카테고리 관리 기능이 있어서 언제든 원하는 프롬프트를 1초 만에 찾아낼 수 있습니다. 저처럼 잃어버린 프롬프트 때문에 속상했던 경험이 있으시다면 이 기능에 감사하게 될 거예요.\n라이브러리 백업: 여러분의 모든 프롬프트를 한데 모아 관리할 수 있는 라이브러리 백업 기능까지 갖췄으니, 이제 프롬프트 마스터와 함께 반복 작업에서 완전히 해방되어 보세요!\n사용법도 직관적입니다. 처음 실행할 때 제미나이 API 키와 저장 폴더만 지정해 주시면 준비 끝이에요. 이제 이 세 가지 앱을 활용하면 AI와의 소통이 훨씬 더 즐겁고 효율적으로 바뀔 거예요. 정말 추천합니다!\n\n \n프롬프트 마스터\n \nprompt-master-ten-flax.vercel.app\n\n \n  핵심 요약\n✅ AI Prompt Studio: 복잡한 '메타 프롬프트'를 손쉽게 설계해 AI 성능을 극대화합니다. RTSC, 비즈니스 프레임워크 등 5가지 전문 모드가 인상적이에요.\n✅ Prompt Equalizer Pro: 글의 창의성, 전문성, 감정 등 5가지 뉘앙스를 슬라이더로 정밀하게 조절하여 원하는 톤을 구현할 수 있습니다. AI 페르소나 기능도 정말 강력해요.\n✅ 프롬프트 마스터: 자주 사용하는 프롬프트를 템플릿으로 저장하고 관리하며, 변수를 활용해 빠르게 재사용할 수 있는 효율적인 프롬프트 관리 도구입니다.\n✅ 2026년, AI와의 대화: 이 3가지 앱을 통해 AI를 단순한 챗봇이 아닌, 여러분의 가장 강력하고 유능한 파트너로 만들 수 있습니다. 이제 프롬프트 작성에 대한 고민은 끝이에요!\n* 이 앱들은 프롬프트 작성의 번거로움을 줄이고, AI의 잠재력을 최대한 끌어낼 수 있도록 돕는 도구입니다. 각 앱의 상세 기능과 활용법을 익히면 더 큰 시너지를 얻을 수 있습니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 이 세 가지 앱이 실제로 얼마나 도움이 되나요?\nA1: 제 경험상 AI와의 소통에서 겪는 거의 모든 어려움을 해결해 준다고 생각해요. AI Prompt Studio로 처음부터 정교한 프롬프트를 만들고, Prompt Equalizer Pro로 결과물의 톤앤매너를 섬세하게 조절하며, 프롬프트 마스터로 이 모든 과정을 효율적으로 관리하고 재사용할 수 있습니다. AI 활용 능력 향상에 결정적인 역할을 해줄 겁니다.\nQ2: 각 앱의 베이직/프로 버전 차이점은 무엇인가요?\nA2: AI Prompt Studio의 경우, 베이직 버전은 '빠른 프롬프트 3종'과 같은 입문용 기능에 초점을 맞추고, 프로 버전은 이 글에서 설명한 모든 전문 모드와 기능을 제공합니다. 반면 Prompt Equalizer Pro와 프롬프트 마스터는 비회원도 대부분의 기능을 사용할 수 있으며, 소스 코드는 정회원에게만 제공되는 차이가 있습니다.\nQ3: 앱 사용에 필요한 API 키는 어떻게 발급받나요?\nA3: 세 앱 모두 구글 AI 스튜디오(aistudio.google.com)에서 무료로 발급받을 수 있는 제미나이 API 키를 사용합니다. 발급 절차가 간단하고 무료이니, AI 스튜디오에 접속하셔서 쉽게 발급받으실 수 있을 거예요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/864",
-    "pubDate": "Sun, 15 Feb 2026 00:52:38 +0900",
-    "creator": "향로 (기억보단 기록을)",
+    "link": "https://muzbox.tistory.com/483709",
+    "pubDate": "Sun, 15 Feb 2026 17:04:15 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "생각정리",
-      "AI 코딩",
-      "aws kiro",
-      "jetbrains junie",
-      "kiro",
-      "vibe coding",
-      "바이브 코딩",
-      "에이전틱 코딩",
-      "젯브레인"
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "AI Prompt Studio",
+      "ai 글쓰기 도구",
+      "ai 프롬프트",
+      "Ai 활용",
+      "llm 활용",
+      "Prompt Equalizer Pro",
+      "메타 프롬프트",
+      "프롬프트 관리",
+      "프롬프트 마스터",
+      "프롬프트 엔지니어링"
     ]
   },
   {
@@ -146,47 +136,51 @@
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Microsoft C++ (MSVC) Build Tools v14.51 Preview Released: How to Opt In",
-    "description": "Today we are releasing the first preview of the Microsoft C++ (MSVC) Build Tools version 14.51. This update, shipping in the latest Visual Studio 2026 version 18.4 Insiders release, introduces many C++23 conformance changes, bug fixes, and runtime performance improvements. Check out the release notes for an in-progress list of what’s new. Conformance improvements and […]\nThe post Microsoft C++ (MSVC) Build Tools v14.51 Preview Released: How to Opt In appeared first on C++ Team Blog.",
+    "title": "비트코인과 양자 컴퓨터 내성 암호 그리고 둟려버린 SIKE 암호",
+    "description": "(비트코인 뚫렸넹)\n \n일단 궁금하신 비트코인은 양자 컴퓨터 내성 암호화 방식으로 변경해서 양자컴퓨터를 대응할 계획입니다.\n이전에도 여러번의 비트코인 업데이트가 있었고 이번에도 이 방식으로 해결 할 것입니다.\n \n왜 당장 안바꾸나요\n아래 SIKE 암호과 뚫린 이야기에도 있지만 표준 양자내성암호화가 직정되지 않았습니다.\n섯불리 하나 도입했다가 표준이 다른걸로 선정되면 비트코인의 신뢰도가 하락 합니다.\n그냥 표준이 정해질때 까지 기다린 후에 그걸로 적용하는게 좋습니다.\n \n \n \n양자내성암화로 바꿔도 해야할 일\n현재의 암호와 방식으로는 양자 컴퓨터가 발전하게 되면 뚫릴 가능성이 있습니다.\n아마도 지갑 주소를 보고 지갑 키를 만들어내는 방식으로 공격하지 않을까 예상됩니다.\n이미 저장된 지갑 주소는 오랜기간 투자하면 결국 찾아낼 것입니다.\n(양자 컴퓨터가 20년 정도 발전한다면 말이죠)\n \n양자 내성 암호화가 되더라도 결국 지감을 주기적으로 교체하는 방식은 계속 사용해야 할 것입니다.\n \n뚫려버린 SIKE 사태에 대해 알아보자\n\n\n(국민 연금 공단은 NPS 다 햇갈리지 말자)\n \n참 허무한 방식으로 뚫려버려서 충격이 더 컸으며\n앞으로도 이런일은 벌어지기 어려울 것입니다.\n \n사이키(SIKE, Supersingular Isogeny Key Encapsulation) 암호화 방식은\n2022년 7월 5일에 NIST(미국 국립표준기술연구소) 의 양자내성암호화 사업을 시작할때 3개가 선정되었는데 그중에 한개 입니다.\n그리고 2022년 7월 22일 (17일후)에 이 암호화는 못쓴다는 결론이 났습니다.\n이걸로 양자컴퓨터가 유명해졌는데\n알려진 사실로는 이 암호화 방식은 뚫리기 위해 선정된 함정 카드였고\n수악적 허점으로 양자 컴퓨터가 아닌 일반 컴퓨터로 1시간 연산으로 키를 계산할 수 있었다고 합니다.\n \n애초에 전성되어선 안될 암호화 방식이였다.\n제 생각입니다. 양자내성암호화의 중요성을 알리기위해 뚫릴꺼 알고 선정한거 같습니다.\n실제로 이 이슈로 양자내성암호화는 유명해 졌고 암호화 교체를 준비하던 프로젝트들도 암호화를 더 쉽게 변경할 수 있도록 준비하게 되었습니다.\n \n나머지 두개는 ?\nKyber(ML-KEM)\nDilithium(ML-DSA)\n두가지 방식이 남아있습니다.\n \n두 암호화는 뚫릴꺼 같으면 차원을 증가시켜 필요 양자 큐비트 수를 증가시키는 방식으로 대응하고 있습니다.\n양자컴퓨터 발전으로 큐비트가 늘어나는 속도보다 차원을 더 많이 늘려버리면 방어가 된다는 논리입니다.\n큐피트가 창이라면 방패 수를 훨씬 늘려 버린다는 뜻입니다.\n(방패 늘리기 쉬운 방식이라는거죠)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/microsoft-c-msvc-build-tools-v14-51-preview-released-how-to-opt-in/",
-    "pubDate": "Thu, 19 Feb 2026 02:37:48 +0000",
-    "creator": "Augustin Popa",
+    "link": "https://serverdown.tistory.com/1575",
+    "pubDate": "Sat, 21 Feb 2026 20:13:36 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "C++",
-      "Visual Studio",
-      "MSVC",
-      "visual studio"
+      "코인",
+      "비트코인",
+      "양자내성암호화",
+      "양자컴퓨터"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "월드랩과 오토데스크 협업을 통한 공간 AI 개발 동향",
-    "description": "이 글은 월드랩과 오토데스크 협업을 통한 공간 AI 개발 동향을 조사한 글이다.\n\n\n\n\n\n\n\n\n\n오토데스크 마블(Autodesk Marble) 기술적 배경\n마블(Marble)은 오토데스크가 직접 개발한 제품이 아니다. 이 모델은 'AI의 대모'라 불리는 페이페이 리(Fei-Fei Li) 교수가 설립한 AI 스타트업 월드랩스(World Labs)가 개발한 핵심 생성형 3D 월드 모델이다. 오토데스크는 2026년 2월, 월드랩스에 대규모 전략적 투자를 단행하며 자사 소프트웨어와의 통합 파트너십을 발표했다.\n마블의 구체적인 첫 코드 작성일이 공식적으로 공개되지는 않았으나, 회사의 설립과 주요 제품 마일스톤을 통해 개발 타임라인을 충분히 추론할 수 있다.\n\n초기 R&D 및 시작 (2024년 1월): 페이페이 리 교수를 비롯한 최고 수준의 AI 연구진들이 3D 환경 생성과 실시간 시뮬레이션을 목표로 2024년 1월에 월드랩스를 공동 창립했다. 마블의 근간이 되는 '공간 지능(Spatial Intelligence)' 연구와 코어 모델 개발은 이때부터 본격적으로 시작되었을 가능성이 높다.\n\n프로토타입 및 베타 (2025년 9월): 약 1년 8개월의 딥테크 연구 기간을 거쳐, 2025년 9월에 마블의 첫 번째 제한적 베타 버전이 세상에 공개되었다.\n\n정식 출시 (2025년 11월): 2025년 11월 12일, 텍스트, 이미지, 비디오 등을 입력받아 상호작용 가능한 3D 환경을 즉석에서 구축하는 마블 프론티어 모델이 일반 대중에게 정식으로 론칭되었다.\n\n기술 스택\n마블은 단순히 2D 이미지를 이어 붙이는 비디오 생성 AI가 아니라, 물리적 공간의 3차원 구조를 완벽히 이해하는 거대 월드 모델(LWM, Large World Models) 아키텍처를 채택하고 있다.\n\n3D 표현 포맷 (3D Gaussian Splatting): 마블은 시점이 변하면 형태가 무너지는 기존 생성 모델들의 한계를 극복하고, 변형 없이 영구적으로 보존되는 3D 환경을 생성한다. 생성된 결과물은 3D 가우시안 스플랫(Gaussian Splats)이나 메쉬(Mesh) 형태로 다운로드하여 언리얼, 유니티 등 다른 게임 엔진으로 내보낼 수 있다.\n\n실시간 프레임 모델 (RTFM, Real-Time Frame Model): 2025년 10월에 도입된 핵심 렌더링 기술이다. 단일 GPU 환경에서도 실시간으로 월드를 생성하고 상호작용할 수 있도록, 기존 프레임들을 일종의 '공간 메모리'로 활용하여 높은 디테일을 유지한다.\n\n웹 렌더링 엔진 (SparkJS.dev): 별도의 무거운 클라이언트 없이 웹 브라우저 환경에서 매끄러운 3D 렌더링을 구현하기 위해 Three.js를 기반으로 한 독자적인 렌더러인 'SparkJS.dev'를 사용한다. 이는 가우시안 스플랫과 전통적인 WebGL 에셋(glTF 모델 등)을 한 화면에 자연스럽게 혼합해 준다.\n\n공간 편집 도구 (Chisel): 사용자가 직접 상자나 평면 같은 단순한 원시 도형(Primitive)으로 3D 뼈대를 잡으면, AI가 그 맥락을 파악해 그 위에 시각적 디테일과 텍스처를 입히는 하이브리드 3D 편집 도구를 지원한다.\n\n\n\n기존의 스테이블 디퓨전 기반 3D 생성이 단일 '객체(Object)'를 깎아내는 데 집중했다면, 월드랩스의 '마블(Marble)'은 단일 이미지나 텍스트에서 거대한 3D 가상 세계(World) 전체를 생성해 내는 기술입이다. 이를 오토데스크의 기존 생태계와 결합하는 것이 핵심이다.\nA. 백본 모델 (Backbone Models)\n\nLarge World Models (LWM) / 공간 지능(Spatial Intelligence): 단순 2D 픽셀의 패턴을 모방하는 것을 넘어, 3D 공간의 기하학(Geometry), 재질, 빛의 반사, 물리 법칙을 스스로 추론하는 거대 세계 모델을 백본으로 사용한다.\n\nNeRF 및 차세대 뉴럴 렌더링: 월드랩스의 핵심 개발진(NeRF의 창시자인 벤 밀든홀 등)의 기술적 배경을 고려할 때, 마블의 코어 엔진에는 고도화된 Neural Radiance Fields(NeRF) 기반 기술이나 가우시안 스플래팅 개념이 결합되어 시점 변화에 완벽히 대응하는 일관된 3D 씬을 연산한다.\n\nB. 학습 데이터 종류 (Training Data)\n\n일반적인 2D 이미지 쌍을 넘어서, 3D 레이아웃, 공간 깊이(Depth) 데이터, 카메라 트래킹(Pose)이 포함된 다중 시점 영상, 그리고 오토데스크가 강점을 가진 기하학적/물리적 CAD 시뮬레이션 데이터 등 공간을 이해하기 위한 복합적인 고차원 데이터로 학습된다.\n\nC. 오토데스크와의 통합 파이프라인 (Integration Workflow)\n\n편집 가능한 3D 씬 (Editable 3D Environments): 마블은 단순한 비디오 영상(예: OpenAI Sora)을 생성하는 것이 아니라, 구조화되고 상호작용 가능한 3D 환경 자체를 출력한다.\n\n라스트 마일 편집(Last-mile Editing) 생태계: 마블이 프롬프트로 전체 공간의 초안을 순식간에 생성하면, 이를 오토데스크의 Maya, 3ds Max, Revit 같은 전통적인 소프트웨어로 바로 넘길 수 있다. 여기서 아티스트나 엔지니어가 직접 폴리곤 토폴로지, 리깅, 정밀한 재질 수정을 거쳐 최종 결과물(M&E 및 AEC 분야)을 완성하게 된다.\n\n\n\n유사한 오픈소스 3D/월드 생성 모델\n마블과 같은 강력한 상용 월드 모델에 대항하여, 연구자들과 개발자들이 투명하게 활용할 수 있는 오픈소스 생태계의 3D 생성 기술들도 빠르게 발전하고 있다.\n\nDiamondWM: 구글의 'Genie'나 마블과 유사한 성격을 지닌 대표적인 오픈소스 월드 모델이다. 대량의 FPS 게임 플레이 영상을 시각적으로 학습하여 개발되었으며, 사용자의 로컬 데스크톱 GPU에서도 직접 구동하며 실시간으로 상호작용할 수 있는 점이 특징이다.\n\nNVIDIA Isaac Sim (로보틱스 및 시뮬레이션): 프롬프트 한 줄로 세상 전체를 즉석에서 그려내는 마법 같은 생성형 AI는 아니지만, 오픈소스 기반의 확장 가능한 레퍼런스 프레임워크 역할을 한다. 주로 AI 로봇 모델 훈련을 위한 합성 데이터를 대량으로 생성하고, 물리 법칙이 적용된 가상 환경을 정밀하게 시뮬레이션하는 데 핵심적으로 쓰인다.\n\nTencent Hunyuan 3D 시리즈: 텍스트나 단일 이미지를 고품질 3D 에셋으로 변환하는 오픈 웨이트 기반의 생성 모델이다. 2025년 1월 버전 2.0 출시에 이어 최신 3.0 버전은 복잡한 건축물 생성 등에 폭넓게 활용되며 3D 아티스트들의 모델링 시간을 크게 단축시키고 있다.\n\n아울러, 다음과 같은 백본 기술을 살펴볼 필요가 있다.\n\n1. 가장 빠르고 완벽한 Image-to-3D Mesh\n\nStable Fast 3D (Stability AI): 이미지를 넣으면 0.5초 만에 완벽한 텍스처와 UV 매핑이 완료된 3D 메시를 뽑아내는 오픈소스 모델이다.\n\n\nStability-AI/stable-fast-3d\n\n\n\n2. 3D 가우시안 스플래팅 + 스테이블 디퓨전(생성형 AI)의 융합\n\nDreamGaussian: 스테이블 디퓨전의 상상력과 3DGS를 결합해, 이미지를 먼저 가우시안으로 빠르게 만든 뒤 실질적으로 활용 가능한 Mesh로 변환하는 선구적인 프로젝트이다.\n\n\ndreamgaussian/dreamgaussian\n\n\n\nThreestudio: 네르프(NeRF), 3DGS, 스테이블 디퓨전을 이용한 3D 생성 연구를 한곳에 모아둔 텍스트-to-3D 통합 프레임워크이다.\n\n\n\nthreestudio-project/threestudio\n\n\n\n\n\n3. 원본 렌더링 기술\n\n3D Gaussian Splatting (Inria): 실시간 렌더링 혁명을 일으킨 오리지널 소스코드이다.\n\n\ngraphdeco-inria/gaussian-splatting\n\n\n\n\n\n최근 발표된 월드랩스의 마블과 오토데스크의 만남은 기존의 3D 제작 파이프라인(기획, 모델링, 렌더링)을 'AI 초안 생성, 디테일 모델 수정'이라는 차원으로 바꿔놓고 있다.\n결론적으로, 오토데스크가 왜 월드랩스에 그토록 막대한 자본을 투자했는지 그 전략적 배경은 명확하다. 수십 시간에 달하던 기존 CAD 및 3D 그래픽 설계자들의 수작업을 마블의 압도적인 '공간 지능'이 획기적으로 대체하고 보조할 수 있기 때문이다.\n\n\n\n레퍼런스\n\nWorld Labs lands $1B, with $200M from Autodesk, to bring world models into 3D workflows | TechCrunch\nFei-Fei Li's World Labs speeds up the world model race with Marble, its first commercial product | TechCrunch\nMarble\nAutodesk's $200m bet on spatial AI - AEC Magazine\nFei-Fei Li’s World Labs raises $1 billion to advance physical AI world model - CHOSUNBIZ\nAutodesk bets $200 million on World Labs' AI - DEVELOP3D\n\n\n부록: 가우시안 스플리터의 한계와 공간모델 개발\n\n\n오토데스크나 제조업에서 요구하는 진정한 '공간 지능'과 '파라메트릭 CAD'를 구현하려면, AI가 단순한 점과 면(Mesh)의 집합이 아닌 B-rep(경계 표현)이나 CSG(Constructive Solid Geometry) 같은 수학적 스케치와 돌출(Extrude) 명령어 시퀀스를 생성할 수 있어야 한다.\n\n이러한 치수 제어 및 파라메트릭 모델링, 그리고 공간 지능(LWM)을 향해 연구되고 있는 오픈소스 및 프로젝트들을 엄선해 조사했다.\n1. 파라메트릭 CAD 생성 및 절차적 3D 모델 (AI to CAD)\n단순한 메쉬(.obj)가 아니라, 치수를 조절할 수 있는 STEP 파일이나 CAD 명령어 스크립트를 생성하는 프로젝트들이다.\n\nDeepCAD (A Deep Generative Network for CAD Models)\n\n\n설명: 3D CAD 모델을 단순한 3D 도형이 아니라, '스케치(Profile) -> 돌출(Extrude) -> 필렛(Fillet)' 같은 CAD 명령어의 시퀀스로 인식하고 생성하는 선구적인 프로젝트이다. AI가 설계자의 작업 순서를 학습하여 파라메트릭 수정이 가능한 데이터를 추출한다.\n\n특징: 출력물이 명령어 시퀀스이므로 Fusion 360이나 SolidWorks 같은 툴에서 치수를 즉각적으로 수정할 수 있다.\n\nGitHub: \nChrisWu1997/DeepCAD\n\n\n\n\n\n\n\n\n\n\n\n[3D 스캔/점군] → PointNet++ → z → Decoder → [CAD 시퀀스. L | A | E(θ,φ,e1,e2)]\n\n\n\n\n\n\n\nZoo (구 KittyCAD)의 Text-to-CAD API 및 오픈소스 도구\n\n설명: 텍스트를 입력하면 (예: \"20개의 톱니가 있고 중심축 구멍 지름이 5mm인 기어\") 즉석에서 파라메트릭 CAD 코드(KCL - KittyCAD Language)를 생성하여 STEP, IGES 등의 포맷으로 변환해 주는 프로젝트이다.\n\n특징: 기하학적 제약 조건(Constraints)을 AI가 이해하고 코드로 작성하기 때문에 완벽한 치수 제어가 가능하다. 핵심 엔진 부분을 오픈소스로 공개하며 발전하고 있다.\n\nGitHub: \nZoo-dev / kittyCAD 인프라\n\n\n\nInfinigen (Princeton University)\n\n설명: 자연계와 사물을 100% 절차적(Procedural)인 수학 공식과 노드(Node) 트리로 생성해 내는 거대한 3D 프레임워크이다.\n\n특징: \"나뭇잎의 길이\", \"의자 다리의 두께\" 등을 파라미터(수치)로 조절할 수 있다. 가우시안 덩어리가 아니라 처음부터 수학적 규칙으로 짜인 세계를 만들기 때문에 완벽한 편집이 가능하다.\n\nGitHub: \nprinceton-vl/infinigen\n\n\n\n\n\n\n2. 공간 지능 (Spatial Intelligence) 및 LWM(Large World Model)\n단순한 2D의 연속이 아니라 물리적 3D 공간의 깊이, 기하학, 영속성을 이해하는 기초 모델(Foundation Model) 연구이다.\n\nLargeWorldModel (LWM) - UC Berkeley\n\n\n설명: 프로젝트 이름 자체가 LWM이다. 100만(1M) 토큰의 컨텍스트 창을 가진 비디오/언어 모델이다.\n\n특징: 긴 영상이나 여러 장의 이미지를 보고 그 안의 3D 공간 구조를 기억하고 이해한다. 당장 CAD 모델을 뱉어내는 용도는 아니지만, AI가 다중 시점을 통해 공간의 3차원적 기하학(Geometry)을 스스로 깨우치게 만드는 '공간 지능'의 가장 대표적인 베이스라인 모델이다.\n\nGitHub: \nLargeWorldModel/LWM\n\n\n\n\n\n\nZero123 & Zero123-Plus\n\n설명: 단일 이미지를 보고 물체의 보이지 않는 뒷면과 다른 각도의 시점을 기하학적으로 일관되게 추론해 내는 모델이다.\n\n특징: 이 기술 자체는 파라메트릭 CAD가 아니지만, 2D 이미지를 3D 파라메트릭 데이터로 역설계(Reverse Engineering)하기 위해 필수적으로 거쳐야 하는 \"공간의 시점 변화 이해\"를 담당한다.\n\nGitHub: \nSUDO-AI-3D/zero123plus\n\n\n\n\n\n\n\n현재 기술의 한계와 돌파구는 다음과 같다.\n\n현재의 한계 (Image to 3D): 이미지를 보고 가우시안 스플래팅이나 메쉬(OBJ)를 만드는 것은 빠르지만, 산업용 설계나 정밀한 편집에는 한계가 명확하다.\n\n미래의 방향 (AI to CAD): LWM과 공간 지능이 발전함에 따라, AI가 이미지를 분석한 뒤 \"이것은 반지름 5cm의 원통과 10x10의 직육면체가 결합된 형태\"라고 수학적으로 분해(CSG)하여 코드를 짜주는 방식으로 발전하고 있다. 그 선두에 DeepCAD와 Zoo(Text-to-CAD) 같은 프로젝트가 위치해 있다.\n\n\n가우시안 스플래팅(3DGS)은 시각적 복원에 초점을 맞추기 때문에 스케일이 없는(Non-scale) 폴리곤 메쉬만을 생성할 뿐, 산업용으로 조작 가능한 CSG나 B-rep 데이터를 만들지 못한다.\n\n\n부록: 두 방식 발전 방향 \n\n두 방식 중 어느 것이 '더 좋은가'는 목적에 따라 완전히 갈리며, 페이페이 리(Fei-Fei Li) 교수의 월드\n랩스(World Labs)가 추구하는 거대 세계 모델(LWM)의 방향성도 이 두 기술의 교차점에 있다. 이를 심층적으로 분석하고 최신 SOTA 프로젝트를 조사한다.\n\n1. 시퀀스 생성(DeepCAD 계열) vs 시각적 렌더링(3DGS 계열) 비교\n결론부터 말하자면, 제조/설계(AEC/CAD) 분야에서는 DeepCAD 방식이 압도적으로 우월하고, 엔터테인먼트/가상현실/로보틱스 비전 분야에서는 3DGS 방식이 절대적으로 유리하다.\n\n비교 항목DeepCAD 계열 (AI to CAD Sequence)가우시안 스플래팅 (Image to 3DGS/Mesh)\n\n핵심 원리3D 형상을 그리기 위한 **'수학적 명령어 순서'**를 추론빛의 반사와 색상을 지닌 **'타원체 입자'**를 공간에 뿌림\n결과물 포맷파라메트릭 CAD 데이터 (STEP, IGES, CSG 스크립트)포인트 클라우드, 비정형 메쉬 (PLY, OBJ)\n치수(Scale) 및 편집완벽한 절대 치수 제어 및 곡률 반경 수정 가능Scale 개념이 없으며(임의의 상대 비율), 토폴로지 편집 불가\n주요 한계점자연물(사람, 나무)이나 비정형적이고 복잡한 형상 표현 불가산업용 금형 제작이나 정밀 조립 공차 설계에 사용 불가\n\n최근의 산업 트렌드는 이 둘을 결합하여, \"3DGS로 현실 세계를 빠르게 스캔한 뒤, AI가 그 포인트 클라우드에서 기하학적 특징(원통, 평면 등)을 역산하여 CAD 시퀀스로 변환하는 방식(Scan-to-BIM / Scan-to-CAD)\"으로 진화하고 있다.\n\n2. 각 계열의 최신 SOTA 깃허브 프로젝트\n\nA. CAD 시퀀스 및 B-rep 생성 (DeepCAD의 진화형)\n단순히 모양을 맞추는 것을 넘어, 위상(Topology)과 스케치 제약 조건(Constraints)을 완벽하게 학습하는 모델들이다.\n\nSkexGen (Sketch-and-Extrude Generation)\n\n설명: DeepCAD를 발전시켜, 트랜스포머(Transformer) 구조를 이용해 2D 스케치 프로파일과 돌출(Extrude) 파라미터를 자동 회귀(Autoregressive) 방식으로 생성하는 최신 모델이다. 토폴로지 일관성이 훨씬 뛰어나다.\n\n\nyccyenchiao/SkexGen\n\n\n\nHextree / SECAD-Net\n\n설명: CAD 모델의 모서리(Edge)와 면(Face)의 상호작용을 그래프(Graph) 신경망으로 학습하여, 훨씬 복잡한 솔리드(Solid) 모델을 B-rep 형태로 생성해 낸다.\n\n\nPuhao11/SECAD-Net\n\n\n\nB. 기하학적 정밀도를 높인 가우시안 스플래팅 (3DGS의 진화형)\n3DGS의 단점인 '수학적 표면(Surface)이 없다'는 문제를 해결하여, 고품질의 메쉬를 뽑아내기 위한 모델들이다.\n\nSuGaR (Surface-Aligned Gaussian Splatting)\n\n설명: 가우시안 타원체들이 물체의 실제 표면에 납작하게 달라붙도록 강제(Alignment)하여, 3DGS에서 아주 깔끔하고 정확한 메쉬(Mesh)를 추출해 내는 SOTA 기술이다.\n\n🔗 \nAnttwo/SuGaR\n\n\n\n2D Gaussian Splatting (2DGS)\n\n설명: 3D 부피를 가진 타원체 대신 2D 디스크 형태의 가우시안을 사용하여 형상의 경계와 표면을 극도로 정밀하게 재구성한다. 자율주행이나 로보틱스 매핑에 많이 쓰인다.\n\n🔗 \nhbb1/2d-gaussian-splatting\n\n\n\n\n\n3. 페이페이 리 교수(World Labs)의 LWM 설계 방식 추론\n그녀는 수학적 기반의 B-rep이나 파라메트릭 CAD 전문가는 아니지만, 컴퓨터 비전(ImageNet 창시자)과 로보틱스(Embodied AI)의 권위자로서 '카메라 렌즈를 통해 3D 물리 공간의 구조와 깊이를 추론하는 방식'에는 세계 최고 수준의 이해도를 가지고 있다.\n따라서 월드랩스의 LWM(마블)은 제조용 CAD 생성이 아니라, 물리 법칙이 작용하는 시뮬레이션 환경 구축에 초점을 맞추어 다음과 같이 설계될 것으로 추론된다.\n\n입력 및 추론 (2D/비디오 파운데이션 기반): 디퓨전 모델이나 트랜스포머가 단일 이미지/텍스트를 입력받아 보이지 않는 뒷면과 공간의 깊이(Depth)를 추론한다. (Zero123과 유사한 공간 상상력).\n\n공간의 표현 (하이브리드 3DGS/NeRF): 생성된 공간을 B-rep이나 명령어 시퀀스가 아니라, 렌더링 속도가 빠른 3DGS나 Neural Fields로 빠르게 메모리에 올린다.\n\n물리적 지능 부여 (Semantic & Physical Grounding): 여기가 마블(Marble)의 핵심이 될 것이다. 단순한 픽셀 덩어리(3DGS)에 분할(Segmentation) 라벨을 씌워 \"이 가우시안 덩어리는 '유리'이고 깨질 수 있다\", \"저 덩어리는 '의자'이며 중력의 영향을 받는다\"라는 물리적 속성을 부여한다.\n\n출력 (Interactive 3D World): 치수 측정이 가능한 CAD가 아니라, 언리얼 엔진이나 오토데스크 Maya에서 즉시 카메라를 돌려보고 객체를 물리적으로 움직여볼 수 있는 '인터랙티브 3D 씬(Scene)' 자체를 내뱉는다.\n\nCAD 진영(DeepCAD)은 설계 도면을 역공학하는 방향으로 발전하고 있고, 비전 진영(World Labs, 3DGS)은 카메라에 찍힌 세상에 물리 엔진을 덧씌워 가상 현실을 창조하는 방향으로 평행선을 달리고 있다.\n최근의 역설계 SOTA 모델들은 이 두 가지(신경망의 패턴 인식 + 수학적 피팅)를 하나의 파이프라인으로 합친 미분 가능한 피팅(Differentiable Fitting) 방식을 사용한다.\n신경망이 점들을 분류하고 치수를 대략 추정하면, 수학적 오차(Loss)가 발생한다. 이 오차 값을 역전파(Backpropagation) 시켜서 다시 신경망을 훈련하는 구조다. 즉, AI가 단순히 '비슷하게 생겼네'하고 끝내는 것이 아니라, \"내가 예측한 원통의 반지름이 실제 스캔 점들의 분포와 수학적으로 0.2mm 오차가 있으니 가중치를 수정해야겠다\"라고 스스로 학습하는 경지에 이르렀다. (관련 대표 오픈소스: ParseNet, HPNet)\n레퍼런스\n\n\nfz-20/BGPSeg: BGPSeg: Boundary-Guided Primitive Instance Segmentation of Point Clouds",
+    "title": "참 어려운 상장 시장",
+    "description": "우리는 쿠팡의 매우 작은 주주이다. 스트롱이 쿠팡에 직접 투자하진 않았지만, 스트로의 포트폴리오였던 Recomio라는 회사가 쿠팡에 주식교환으로 인수되면서 쿠팡의 주주가 됐고, 상장 주식을 대부분 팔았지만 아직 소량을 보유하고 있다. 우리 1호 펀드의 포트폴리오인데 이미 이 펀드의 나이는 14살이 되어 간다. 청산 시점이 지났기 때문에 우리의 LP들이 지난 몇 년 동안 꾸준히 물어봤던 질문이 남은 쿠팡 주식(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/02/ai_20.html",
-    "pubDate": "2026-02-20T09:06:00.000Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2026/02/public-markets-are-hard-for-vcs.html",
+    "pubDate": "Wed, 18 Feb 2026 21:29:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "exit",
+      "general",
+      "ipo",
+      "korea",
+      "strategy",
+      "Strong"
+    ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "Java to Kotlin Conversion Comes to Visual Studio Code",
-    "description": "At JetBrains, we aim to make Kotlin development as accessible and efficient as possible across the entire ecosystem. While IntelliJ IDEA remains the premier IDE for Kotlin, we recognize that many developers use Visual Studio Code for a variety of tasks and projects. To help streamline the transition from Java to Kotlin for VS Code […]",
+    "title": "Databao Becomes a Partner of the Open Semantic Interchange Initiative led by Snowflake and other industry leaders",
+    "description": "Modern data teams need flexibility and scalability as workflows evolve and AI becomes central to analytics. They are increasingly relying on AI to enable self-service analytics and accelerate data workflows, and it has become essential to establish shared business logic and context that both humans and AI systems can reliably understand and use. That shared […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/02/java-to-kotlin-conversion-comes-to-visual-studio-code/",
-    "pubDate": "Thu, 19 Feb 2026 16:25:00 +0000",
-    "creator": "Alina Dolgikh",
-    "categories": [
-      "kotlin",
-      "news",
-      "release"
-    ]
+    "link": "https://blog.jetbrains.com/databao/2026/02/databao-becomes-osi-partner/",
+    "pubDate": "Tue, 17 Feb 2026 11:00:00 +0000",
+    "creator": "Claire Amaouche",
+    "categories": []
   },
   {
     "id": 12,
@@ -206,46 +200,38 @@
   {
     "id": 13,
     "imageUrl": "",
-    "title": "유니티 셰이더 그래프 사용해보자 / 강의시장을 어지럽힐 유튜브 영상",
-    "description": "결국 선 넘어버렸군요\n유튜브에 그냥 올라와 버렸습니다.\n강의 시장이 치열하다는 증거 입니다.\n배우기 좋은 타이밍입니다.\n셰이더를 배워봅시다.\n영상: https://www.youtube.com/watch?v=KnueAgpUL3Y&t=237s\n\n\n\n \n어렵다고 피하지 말고 \n봐두세요 \n \n온갖 용여를 다 설명해줍니다.\n메탈릭, 에미션, 등등\n \n당장은 이해가 안가도 언젠가 갑자기 머리속에서 정리될 것입니다.",
+    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1574",
-    "pubDate": "Thu, 19 Feb 2026 15:26:33 +0900",
-    "creator": "SIDNFT",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2422",
+    "pubDate": "Wed, 18 Feb 2026 15:04:52 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "프로그래밍/개발메모",
-      "셰이더",
-      "유니티"
+      "웹툰"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Safeguarding Dynamic Configuration Changes at Scale",
-    "description": "No description available",
+    "title": "월드랩과 오토데스크 협업을 통한 공간 AI 개발 동향",
+    "description": "이 글은 월드랩과 오토데스크 협업을 통한 공간 AI 개발 동향을 조사한 글이다.\n\n\n\n\n\n\n\n\n\n오토데스크 마블(Autodesk Marble) 기술적 배경\n마블(Marble)은 오토데스크가 직접 개발한 제품이 아니다. 이 모델은 'AI의 대모'라 불리는 페이페이 리(Fei-Fei Li) 교수가 설립한 AI 스타트업 월드랩스(World Labs)가 개발한 핵심 생성형 3D 월드 모델이다. 오토데스크는 2026년 2월, 월드랩스에 대규모 전략적 투자를 단행하며 자사 소프트웨어와의 통합 파트너십을 발표했다.\n마블의 구체적인 첫 코드 작성일이 공식적으로 공개되지는 않았으나, 회사의 설립과 주요 제품 마일스톤을 통해 개발 타임라인을 충분히 추론할 수 있다.\n\n초기 R&D 및 시작 (2024년 1월): 페이페이 리 교수를 비롯한 최고 수준의 AI 연구진들이 3D 환경 생성과 실시간 시뮬레이션을 목표로 2024년 1월에 월드랩스를 공동 창립했다. 마블의 근간이 되는 '공간 지능(Spatial Intelligence)' 연구와 코어 모델 개발은 이때부터 본격적으로 시작되었을 가능성이 높다.\n\n프로토타입 및 베타 (2025년 9월): 약 1년 8개월의 딥테크 연구 기간을 거쳐, 2025년 9월에 마블의 첫 번째 제한적 베타 버전이 세상에 공개되었다.\n\n정식 출시 (2025년 11월): 2025년 11월 12일, 텍스트, 이미지, 비디오 등을 입력받아 상호작용 가능한 3D 환경을 즉석에서 구축하는 마블 프론티어 모델이 일반 대중에게 정식으로 론칭되었다.\n\n기술 스택\n마블은 단순히 2D 이미지를 이어 붙이는 비디오 생성 AI가 아니라, 물리적 공간의 3차원 구조를 완벽히 이해하는 거대 월드 모델(LWM, Large World Models) 아키텍처를 채택하고 있다.\n\n3D 표현 포맷 (3D Gaussian Splatting): 마블은 시점이 변하면 형태가 무너지는 기존 생성 모델들의 한계를 극복하고, 변형 없이 영구적으로 보존되는 3D 환경을 생성한다. 생성된 결과물은 3D 가우시안 스플랫(Gaussian Splats)이나 메쉬(Mesh) 형태로 다운로드하여 언리얼, 유니티 등 다른 게임 엔진으로 내보낼 수 있다.\n\n실시간 프레임 모델 (RTFM, Real-Time Frame Model): 2025년 10월에 도입된 핵심 렌더링 기술이다. 단일 GPU 환경에서도 실시간으로 월드를 생성하고 상호작용할 수 있도록, 기존 프레임들을 일종의 '공간 메모리'로 활용하여 높은 디테일을 유지한다.\n\n웹 렌더링 엔진 (SparkJS.dev): 별도의 무거운 클라이언트 없이 웹 브라우저 환경에서 매끄러운 3D 렌더링을 구현하기 위해 Three.js를 기반으로 한 독자적인 렌더러인 'SparkJS.dev'를 사용한다. 이는 가우시안 스플랫과 전통적인 WebGL 에셋(glTF 모델 등)을 한 화면에 자연스럽게 혼합해 준다.\n\n공간 편집 도구 (Chisel): 사용자가 직접 상자나 평면 같은 단순한 원시 도형(Primitive)으로 3D 뼈대를 잡으면, AI가 그 맥락을 파악해 그 위에 시각적 디테일과 텍스처를 입히는 하이브리드 3D 편집 도구를 지원한다.\n\n\n\n기존의 스테이블 디퓨전 기반 3D 생성이 단일 '객체(Object)'를 깎아내는 데 집중했다면, 월드랩스의 '마블(Marble)'은 단일 이미지나 텍스트에서 거대한 3D 가상 세계(World) 전체를 생성해 내는 기술입이다. 이를 오토데스크의 기존 생태계와 결합하는 것이 핵심이다.\nA. 백본 모델 (Backbone Models)\n\nLarge World Models (LWM) / 공간 지능(Spatial Intelligence): 단순 2D 픽셀의 패턴을 모방하는 것을 넘어, 3D 공간의 기하학(Geometry), 재질, 빛의 반사, 물리 법칙을 스스로 추론하는 거대 세계 모델을 백본으로 사용한다.\n\nNeRF 및 차세대 뉴럴 렌더링: 월드랩스의 핵심 개발진(NeRF의 창시자인 벤 밀든홀 등)의 기술적 배경을 고려할 때, 마블의 코어 엔진에는 고도화된 Neural Radiance Fields(NeRF) 기반 기술이나 가우시안 스플래팅 개념이 결합되어 시점 변화에 완벽히 대응하는 일관된 3D 씬을 연산한다.\n\nB. 학습 데이터 종류 (Training Data)\n\n일반적인 2D 이미지 쌍을 넘어서, 3D 레이아웃, 공간 깊이(Depth) 데이터, 카메라 트래킹(Pose)이 포함된 다중 시점 영상, 그리고 오토데스크가 강점을 가진 기하학적/물리적 CAD 시뮬레이션 데이터 등 공간을 이해하기 위한 복합적인 고차원 데이터로 학습된다.\n\nC. 오토데스크와의 통합 파이프라인 (Integration Workflow)\n\n편집 가능한 3D 씬 (Editable 3D Environments): 마블은 단순한 비디오 영상(예: OpenAI Sora)을 생성하는 것이 아니라, 구조화되고 상호작용 가능한 3D 환경 자체를 출력한다.\n\n라스트 마일 편집(Last-mile Editing) 생태계: 마블이 프롬프트로 전체 공간의 초안을 순식간에 생성하면, 이를 오토데스크의 Maya, 3ds Max, Revit 같은 전통적인 소프트웨어로 바로 넘길 수 있다. 여기서 아티스트나 엔지니어가 직접 폴리곤 토폴로지, 리깅, 정밀한 재질 수정을 거쳐 최종 결과물(M&E 및 AEC 분야)을 완성하게 된다.\n\n\n\n유사한 오픈소스 3D/월드 생성 모델\n마블과 같은 강력한 상용 월드 모델에 대항하여, 연구자들과 개발자들이 투명하게 활용할 수 있는 오픈소스 생태계의 3D 생성 기술들도 빠르게 발전하고 있다.\n\nDiamondWM: 구글의 'Genie'나 마블과 유사한 성격을 지닌 대표적인 오픈소스 월드 모델이다. 대량의 FPS 게임 플레이 영상을 시각적으로 학습하여 개발되었으며, 사용자의 로컬 데스크톱 GPU에서도 직접 구동하며 실시간으로 상호작용할 수 있는 점이 특징이다.\n\nNVIDIA Isaac Sim (로보틱스 및 시뮬레이션): 프롬프트 한 줄로 세상 전체를 즉석에서 그려내는 마법 같은 생성형 AI는 아니지만, 오픈소스 기반의 확장 가능한 레퍼런스 프레임워크 역할을 한다. 주로 AI 로봇 모델 훈련을 위한 합성 데이터를 대량으로 생성하고, 물리 법칙이 적용된 가상 환경을 정밀하게 시뮬레이션하는 데 핵심적으로 쓰인다.\n\nTencent Hunyuan 3D 시리즈: 텍스트나 단일 이미지를 고품질 3D 에셋으로 변환하는 오픈 웨이트 기반의 생성 모델이다. 2025년 1월 버전 2.0 출시에 이어 최신 3.0 버전은 복잡한 건축물 생성 등에 폭넓게 활용되며 3D 아티스트들의 모델링 시간을 크게 단축시키고 있다.\n\n아울러, 다음과 같은 백본 기술을 살펴볼 필요가 있다.\n\n1. 가장 빠르고 완벽한 Image-to-3D Mesh\n\nStable Fast 3D (Stability AI): 이미지를 넣으면 0.5초 만에 완벽한 텍스처와 UV 매핑이 완료된 3D 메시를 뽑아내는 오픈소스 모델이다.\n\n\nStability-AI/stable-fast-3d\n\n\n\n2. 3D 가우시안 스플래팅 + 스테이블 디퓨전(생성형 AI)의 융합\n\nDreamGaussian: 스테이블 디퓨전의 상상력과 3DGS를 결합해, 이미지를 먼저 가우시안으로 빠르게 만든 뒤 실질적으로 활용 가능한 Mesh로 변환하는 선구적인 프로젝트이다.\n\n\ndreamgaussian/dreamgaussian\n\n\n\nThreestudio: 네르프(NeRF), 3DGS, 스테이블 디퓨전을 이용한 3D 생성 연구를 한곳에 모아둔 텍스트-to-3D 통합 프레임워크이다.\n\n\n\nthreestudio-project/threestudio\n\n\n\n\n\n3. 원본 렌더링 기술\n\n3D Gaussian Splatting (Inria): 실시간 렌더링 혁명을 일으킨 오리지널 소스코드이다.\n\n\ngraphdeco-inria/gaussian-splatting\n\n\n\n\n\n최근 발표된 월드랩스의 마블과 오토데스크의 만남은 기존의 3D 제작 파이프라인(기획, 모델링, 렌더링)을 'AI 초안 생성, 디테일 모델 수정'이라는 차원으로 바꿔놓고 있다.\n결론적으로, 오토데스크가 왜 월드랩스에 그토록 막대한 자본을 투자했는지 그 전략적 배경은 명확하다. 수십 시간에 달하던 기존 CAD 및 3D 그래픽 설계자들의 수작업을 마블의 압도적인 '공간 지능'이 획기적으로 대체하고 보조할 수 있기 때문이다.\n\n\n\n레퍼런스\n\nWorld Labs lands $1B, with $200M from Autodesk, to bring world models into 3D workflows | TechCrunch\nFei-Fei Li's World Labs speeds up the world model race with Marble, its first commercial product | TechCrunch\nMarble\nAutodesk's $200m bet on spatial AI - AEC Magazine\nFei-Fei Li’s World Labs raises $1 billion to advance physical AI world model - CHOSUNBIZ\nAutodesk bets $200 million on World Labs' AI - DEVELOP3D\n\n\n부록: 가우시안 스플리터의 한계와 공간모델 개발\n\n\n오토데스크나 제조업에서 요구하는 진정한 '공간 지능'과 '파라메트릭 CAD'를 구현하려면, AI가 단순한 점과 면(Mesh)의 집합이 아닌 B-rep(경계 표현)이나 CSG(Constructive Solid Geometry) 같은 수학적 스케치와 돌출(Extrude) 명령어 시퀀스를 생성할 수 있어야 한다.\n\n이러한 치수 제어 및 파라메트릭 모델링, 그리고 공간 지능(LWM)을 향해 연구되고 있는 오픈소스 및 프로젝트들을 엄선해 조사했다.\n1. 파라메트릭 CAD 생성 및 절차적 3D 모델 (AI to CAD)\n단순한 메쉬(.obj)가 아니라, 치수를 조절할 수 있는 STEP 파일이나 CAD 명령어 스크립트를 생성하는 프로젝트들이다.\n\nDeepCAD (A Deep Generative Network for CAD Models)\n\n\n설명: 3D CAD 모델을 단순한 3D 도형이 아니라, '스케치(Profile) -> 돌출(Extrude) -> 필렛(Fillet)' 같은 CAD 명령어의 시퀀스로 인식하고 생성하는 선구적인 프로젝트이다. AI가 설계자의 작업 순서를 학습하여 파라메트릭 수정이 가능한 데이터를 추출한다.\n\n특징: 출력물이 명령어 시퀀스이므로 Fusion 360이나 SolidWorks 같은 툴에서 치수를 즉각적으로 수정할 수 있다.\n\nGitHub: \nChrisWu1997/DeepCAD\n\n\n\n\n\n\n\n\n\n\n\n[3D 스캔/점군] → PointNet++ → z → Decoder → [CAD 시퀀스. L | A | E(θ,φ,e1,e2)]\n\n\n\n\n\n\n\nZoo (구 KittyCAD)의 Text-to-CAD API 및 오픈소스 도구\n\n설명: 텍스트를 입력하면 (예: \"20개의 톱니가 있고 중심축 구멍 지름이 5mm인 기어\") 즉석에서 파라메트릭 CAD 코드(KCL - KittyCAD Language)를 생성하여 STEP, IGES 등의 포맷으로 변환해 주는 프로젝트이다.\n\n특징: 기하학적 제약 조건(Constraints)을 AI가 이해하고 코드로 작성하기 때문에 완벽한 치수 제어가 가능하다. 핵심 엔진 부분을 오픈소스로 공개하며 발전하고 있다.\n\nGitHub: \nZoo-dev / kittyCAD 인프라\n\n\n\nInfinigen (Princeton University)\n\n설명: 자연계와 사물을 100% 절차적(Procedural)인 수학 공식과 노드(Node) 트리로 생성해 내는 거대한 3D 프레임워크이다.\n\n특징: \"나뭇잎의 길이\", \"의자 다리의 두께\" 등을 파라미터(수치)로 조절할 수 있다. 가우시안 덩어리가 아니라 처음부터 수학적 규칙으로 짜인 세계를 만들기 때문에 완벽한 편집이 가능하다.\n\nGitHub: \nprinceton-vl/infinigen\n\n\n\n\n\n\n2. 공간 지능 (Spatial Intelligence) 및 LWM(Large World Model)\n단순한 2D의 연속이 아니라 물리적 3D 공간의 깊이, 기하학, 영속성을 이해하는 기초 모델(Foundation Model) 연구이다.\n\nLargeWorldModel (LWM) - UC Berkeley\n\n\n설명: 프로젝트 이름 자체가 LWM이다. 100만(1M) 토큰의 컨텍스트 창을 가진 비디오/언어 모델이다.\n\n특징: 긴 영상이나 여러 장의 이미지를 보고 그 안의 3D 공간 구조를 기억하고 이해한다. 당장 CAD 모델을 뱉어내는 용도는 아니지만, AI가 다중 시점을 통해 공간의 3차원적 기하학(Geometry)을 스스로 깨우치게 만드는 '공간 지능'의 가장 대표적인 베이스라인 모델이다.\n\nGitHub: \nLargeWorldModel/LWM\n\n\n\n\n\n\nZero123 & Zero123-Plus\n\n설명: 단일 이미지를 보고 물체의 보이지 않는 뒷면과 다른 각도의 시점을 기하학적으로 일관되게 추론해 내는 모델이다.\n\n특징: 이 기술 자체는 파라메트릭 CAD가 아니지만, 2D 이미지를 3D 파라메트릭 데이터로 역설계(Reverse Engineering)하기 위해 필수적으로 거쳐야 하는 \"공간의 시점 변화 이해\"를 담당한다.\n\nGitHub: \nSUDO-AI-3D/zero123plus\n\n\n\n\n\n\n\n현재 기술의 한계와 돌파구는 다음과 같다.\n\n현재의 한계 (Image to 3D): 이미지를 보고 가우시안 스플래팅이나 메쉬(OBJ)를 만드는 것은 빠르지만, 산업용 설계나 정밀한 편집에는 한계가 명확하다.\n\n미래의 방향 (AI to CAD): LWM과 공간 지능이 발전함에 따라, AI가 이미지를 분석한 뒤 \"이것은 반지름 5cm의 원통과 10x10의 직육면체가 결합된 형태\"라고 수학적으로 분해(CSG)하여 코드를 짜주는 방식으로 발전하고 있다. 그 선두에 DeepCAD와 Zoo(Text-to-CAD) 같은 프로젝트가 위치해 있다.\n\n\n가우시안 스플래팅(3DGS)은 시각적 복원에 초점을 맞추기 때문에 스케일이 없는(Non-scale) 폴리곤 메쉬만을 생성할 뿐, 산업용으로 조작 가능한 CSG나 B-rep 데이터를 만들지 못한다.\n\n\n부록: 두 방식 발전 방향 \n\n두 방식 중 어느 것이 '더 좋은가'는 목적에 따라 완전히 갈리며, 페이페이 리(Fei-Fei Li) 교수의 월드\n랩스(World Labs)가 추구하는 거대 세계 모델(LWM)의 방향성도 이 두 기술의 교차점에 있다. 이를 심층적으로 분석하고 최신 SOTA 프로젝트를 조사한다.\n\n1. 시퀀스 생성(DeepCAD 계열) vs 시각적 렌더링(3DGS 계열) 비교\n결론부터 말하자면, 제조/설계(AEC/CAD) 분야에서는 DeepCAD 방식이 압도적으로 우월하고, 엔터테인먼트/가상현실/로보틱스 비전 분야에서는 3DGS 방식이 절대적으로 유리하다.\n\n비교 항목DeepCAD 계열 (AI to CAD Sequence)가우시안 스플래팅 (Image to 3DGS/Mesh)\n\n핵심 원리3D 형상을 그리기 위한 **'수학적 명령어 순서'**를 추론빛의 반사와 색상을 지닌 **'타원체 입자'**를 공간에 뿌림\n결과물 포맷파라메트릭 CAD 데이터 (STEP, IGES, CSG 스크립트)포인트 클라우드, 비정형 메쉬 (PLY, OBJ)\n치수(Scale) 및 편집완벽한 절대 치수 제어 및 곡률 반경 수정 가능Scale 개념이 없으며(임의의 상대 비율), 토폴로지 편집 불가\n주요 한계점자연물(사람, 나무)이나 비정형적이고 복잡한 형상 표현 불가산업용 금형 제작이나 정밀 조립 공차 설계에 사용 불가\n\n최근의 산업 트렌드는 이 둘을 결합하여, \"3DGS로 현실 세계를 빠르게 스캔한 뒤, AI가 그 포인트 클라우드에서 기하학적 특징(원통, 평면 등)을 역산하여 CAD 시퀀스로 변환하는 방식(Scan-to-BIM / Scan-to-CAD)\"으로 진화하고 있다.\n\n2. 각 계열의 최신 SOTA 깃허브 프로젝트\n\nA. CAD 시퀀스 및 B-rep 생성 (DeepCAD의 진화형)\n단순히 모양을 맞추는 것을 넘어, 위상(Topology)과 스케치 제약 조건(Constraints)을 완벽하게 학습하는 모델들이다.\n\nSkexGen (Sketch-and-Extrude Generation)\n\n설명: DeepCAD를 발전시켜, 트랜스포머(Transformer) 구조를 이용해 2D 스케치 프로파일과 돌출(Extrude) 파라미터를 자동 회귀(Autoregressive) 방식으로 생성하는 최신 모델이다. 토폴로지 일관성이 훨씬 뛰어나다.\n\n\nyccyenchiao/SkexGen\n\n\n\nHextree / SECAD-Net\n\n설명: CAD 모델의 모서리(Edge)와 면(Face)의 상호작용을 그래프(Graph) 신경망으로 학습하여, 훨씬 복잡한 솔리드(Solid) 모델을 B-rep 형태로 생성해 낸다.\n\n\nPuhao11/SECAD-Net\n\n\n\nB. 기하학적 정밀도를 높인 가우시안 스플래팅 (3DGS의 진화형)\n3DGS의 단점인 '수학적 표면(Surface)이 없다'는 문제를 해결하여, 고품질의 메쉬를 뽑아내기 위한 모델들이다.\n\nSuGaR (Surface-Aligned Gaussian Splatting)\n\n설명: 가우시안 타원체들이 물체의 실제 표면에 납작하게 달라붙도록 강제(Alignment)하여, 3DGS에서 아주 깔끔하고 정확한 메쉬(Mesh)를 추출해 내는 SOTA 기술이다.\n\n🔗 \nAnttwo/SuGaR\n\n\n\n2D Gaussian Splatting (2DGS)\n\n설명: 3D 부피를 가진 타원체 대신 2D 디스크 형태의 가우시안을 사용하여 형상의 경계와 표면을 극도로 정밀하게 재구성한다. 자율주행이나 로보틱스 매핑에 많이 쓰인다.\n\n🔗 \nhbb1/2d-gaussian-splatting\n\n\n\n\n\n3. 페이페이 리 교수(World Labs)의 LWM 설계 방식 추론\n그녀는 수학적 기반의 B-rep이나 파라메트릭 CAD 전문가는 아니지만, 컴퓨터 비전(ImageNet 창시자)과 로보틱스(Embodied AI)의 권위자로서 '카메라 렌즈를 통해 3D 물리 공간의 구조와 깊이를 추론하는 방식'에는 세계 최고 수준의 이해도를 가지고 있다.\n따라서 월드랩스의 LWM(마블)은 제조용 CAD 생성이 아니라, 물리 법칙이 작용하는 시뮬레이션 환경 구축에 초점을 맞추어 다음과 같이 설계될 것으로 추론된다.\n\n입력 및 추론 (2D/비디오 파운데이션 기반): 디퓨전 모델이나 트랜스포머가 단일 이미지/텍스트를 입력받아 보이지 않는 뒷면과 공간의 깊이(Depth)를 추론한다. (Zero123과 유사한 공간 상상력).\n\n공간의 표현 (하이브리드 3DGS/NeRF): 생성된 공간을 B-rep이나 명령어 시퀀스가 아니라, 렌더링 속도가 빠른 3DGS나 Neural Fields로 빠르게 메모리에 올린다.\n\n물리적 지능 부여 (Semantic & Physical Grounding): 여기가 마블(Marble)의 핵심이 될 것이다. 단순한 픽셀 덩어리(3DGS)에 분할(Segmentation) 라벨을 씌워 \"이 가우시안 덩어리는 '유리'이고 깨질 수 있다\", \"저 덩어리는 '의자'이며 중력의 영향을 받는다\"라는 물리적 속성을 부여한다.\n\n출력 (Interactive 3D World): 치수 측정이 가능한 CAD가 아니라, 언리얼 엔진이나 오토데스크 Maya에서 즉시 카메라를 돌려보고 객체를 물리적으로 움직여볼 수 있는 '인터랙티브 3D 씬(Scene)' 자체를 내뱉는다.\n\nCAD 진영(DeepCAD)은 설계 도면을 역공학하는 방향으로 발전하고 있고, 비전 진영(World Labs, 3DGS)은 카메라에 찍힌 세상에 물리 엔진을 덧씌워 가상 현실을 창조하는 방향으로 평행선을 달리고 있다.\n최근의 역설계 SOTA 모델들은 이 두 가지(신경망의 패턴 인식 + 수학적 피팅)를 하나의 파이프라인으로 합친 미분 가능한 피팅(Differentiable Fitting) 방식을 사용한다.\n신경망이 점들을 분류하고 치수를 대략 추정하면, 수학적 오차(Loss)가 발생한다. 이 오차 값을 역전파(Backpropagation) 시켜서 다시 신경망을 훈련하는 구조다. 즉, AI가 단순히 '비슷하게 생겼네'하고 끝내는 것이 아니라, \"내가 예측한 원통의 반지름이 실제 스캔 점들의 분포와 수학적으로 0.2mm 오차가 있으니 가중치를 수정해야겠다\"라고 스스로 학습하는 경지에 이르렀다. (관련 대표 오픈소스: ParseNet, HPNet)\n레퍼런스\n\n\nfz-20/BGPSeg: BGPSeg: Boundary-Guided Primitive Instance Segmentation of Point Clouds",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
-    "pubDate": "Wed, 18 Feb 2026 17:01:01 GMT",
-    "creator": "Cosmo W. Q",
-    "categories": [
-      "engineering",
-      "software-development",
-      "infrastructure",
-      "distributed-systems",
-      "software-architecture"
-    ]
+    "link": "http://daddynkidsmakers.blogspot.com/2026/02/ai_20.html",
+    "pubDate": "2026-02-20T09:06:00.000Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "unsloth 기반 효율적이고 환각 없는 모델 파인튜닝 개발 방법 ",
-    "description": "이 글은 신뢰성있는 모델 파인튜닝 개발 방법을 나눔한다.\n\n\n\n\n\n\npip install \"unsloth @ git+https://github.com/unslothai/unsloth.git\"\n\n\n레퍼런스\n\nFineTuning PHI-3 for RAG: Why Small Models Are Best for Production | by Nayeem Islam | Medium\nFine-Tuning Phi-3 with Unsloth: A Beginner-Friendly Guide 🚀🤖 | by Firas Tlili | Medium\nFine-tuning Small Vision Language Models: Phi-3-vision | by Liana Napalkova, PhD | Medium\nFrom Scratch: A Deep Dive into Fine-Tuning Phi-3.5 for Clinical Q&A | by Sriman | Medium\nUnsloth Notebooks | Unsloth Documentation\nUnlocking the power of data synthesis for function calling with fine-tuned SLMs | by Kosuke Fujimoto | Data Science + AI at Microsoft | Medium\nPhiCookBook/code/04.Finetuning/Phi-3-finetune-lora-python.ipynb at main · microsoft/PhiCookBook\nFine-Tuning vs. Function Calling: The New Stack for Customizing Foundation Models | by James Fahey | Medium\n오픈클로(OpenClaw) 윈도우 설치 방법,.. : 네이버블로그",
+    "title": "Can a single word from a customer change a service?",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/02/blog-post.html",
-    "pubDate": "2026-02-18T01:08:00.000Z",
+    "link": "https://toss.im/tossfeed/article/usercentric",
+    "pubDate": "Thu, 19 Feb 2026 10:11:00 GMT",
     "creator": "Unknown",
     "categories": []
   }
