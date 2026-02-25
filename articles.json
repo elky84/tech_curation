@@ -2,58 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "The Evolution of Async Rust: From Tokio to High-Level Applications",
-    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were conveniently distilled into a compact blog post format. In our yet another JetBrains livestream, Vitaly Bragilevsky was joined by Carl Lerche, the creator of Tokio, for an in-depth conversation about the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/02/17/the-evolution-of-async-rust-from-tokio-to-high-level-applications/",
-    "pubDate": "Tue, 17 Feb 2026 13:06:27 +0000",
-    "creator": "Tatiana Parshutkina",
-    "categories": [
-      "rustrover",
-      "async-rust",
-      "rust",
-      "tokio"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "참 어려운 상장 시장",
-    "description": "우리는 쿠팡의 매우 작은 주주이다. 스트롱이 쿠팡에 직접 투자하진 않았지만, 스트로의 포트폴리오였던 Recomio라는 회사가 쿠팡에 주식교환으로 인수되면서 쿠팡의 주주가 됐고, 상장 주식을 대부분 팔았지만 아직 소량을 보유하고 있다. 우리 1호 펀드의 포트폴리오인데 이미 이 펀드의 나이는 14살이 되어 간다. 청산 시점이 지났기 때문에 우리의 LP들이 지난 몇 년 동안 꾸준히 물어봤던 질문이 남은 쿠팡 주식(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/02/public-markets-are-hard-for-vcs.html",
-    "pubDate": "Wed, 18 Feb 2026 21:29:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "exit",
-      "general",
-      "ipo",
-      "korea",
-      "strategy",
-      "Strong"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Editor Improvements: Smooth Caret Animation and New Selection Behavior",
-    "description": "We’re continuing to modernize our IDEs, and in this update we’ve refreshed something you interact with constantly – the editor. These changes are designed to provide improved comfort, a cleaner look, and a more enjoyable experience during the hours you spend coding. We want to make the editor easier on the eyes, help you stay […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/02/editor-improvements-smooth-caret-animation-and-new-selection-behavior/",
-    "pubDate": "Tue, 17 Feb 2026 13:30:56 +0000",
-    "creator": "Bulat Davletov",
-    "categories": [
-      "intellij-platform",
-      "news"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
     "title": "Custom Agents in Visual Studio: Built in and Build-Your-Own agents",
     "description": "Agents in Visual Studio now go beyond a single general-purpose assistant. We’re shipping a set of curated preset agents that tap into deep IDE capabilities; debugging, profiling, testing alongside a framework for building your own custom agents tailored to how your team works. Built in agents Each preset agent is designed around a specific developer […]\nThe post Custom Agents in Visual Studio: Built in and Build-Your-Own agents appeared first on Visual Studio Blog.",
     "reviews": [],
@@ -70,109 +18,98 @@
     ]
   },
   {
-    "id": 5,
+    "id": 2,
     "imageUrl": "",
-    "title": "Can a single word from a customer change a service?",
-    "description": "No description available",
+    "title": "How Students Are Using AI-Powered Hints in Programming Courses",
+    "description": "Learning to code in an online course can feel like hitting a wall again and again, without much help moving forward. Our research team wanted to change that. That’s why our Education Research team built an AI-powered hints tool that doesn’t just point out errors but helps students understand them. As described in our blog […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/usercentric",
-    "pubDate": "Thu, 19 Feb 2026 10:11:00 GMT",
+    "link": "https://blog.jetbrains.com/research/2026/02/how-ai-powered-hints-used/",
+    "pubDate": "Thu, 19 Feb 2026 12:02:23 +0000",
+    "creator": "Katie Fraser",
+    "categories": [
+      "research",
+      "ai-based-hints",
+      "education-research",
+      "jetbrains-academy",
+      "jetbrains-research"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "가우시안 스플리터의 한계와 공간모델 개발",
+    "description": "오토데스크나 제조업에서 요구하는 진정한 '공간 지능'과 '파라메트릭 CAD'를 구현하려면, AI가 단순한 점과 면(Mesh)의 집합이 아닌 B-rep(경계 표현)이나 CSG(Constructive Solid Geometry) 같은 수학적 스케치와 돌출(Extrude) 명령어 시퀀스를 생성할 수 있어야 한다.\n이러한 치수 제어 및 파라메트릭 모델링, 그리고 공간 지능(LWM)을 향해 연구되고 있는 오픈소스 및 프로젝트들을 엄선해 조사했다.\n1. 파라메트릭 CAD 생성 및 절차적 3D 모델 (AI to CAD)\n단순한 메쉬(.obj)가 아니라, 치수를 조절할 수 있는 STEP 파일이나 CAD 명령어 스크립트를 생성하는 프로젝트들이다.\nDeepCAD (A Deep Generative Network for CAD Models)\n설명: 3D CAD 모델을 단순한 3D 도형이 아니라, '스케치(Profile) → 돌출(Extrude) → 필렛(Fillet)' 같은 CAD 명령어의 시퀀스로 인식하고 생성하는 선구적인 프로젝트이다. AI가 설계자의 작업 순서를 학습하여 파라메트릭 수정이 가능한 데이터를 추출한다.\nChrisWu1997/DeepCAD\n\nZoo Text-to-CAD API\n설명: 텍스트를 입력하면 (예: \"20개의 톱니가 있고 중심축 구멍 지름이 5mm인 기어\") 즉석에서 파라메트릭 CAD 코드(KCL - KittyCAD Language)를 생성하여 STEP, IGES 등의 포맷으로 변환해 주는 프로젝트이다.\nZoo-dev / kittyCAD 인프라\nInfinigen\n설명: 자연계와 사물을 100% 절차적(Procedural)인 수학 공식과 노드(Node) 트리로 생성해 내는 거대한 3D 프레임워크이다.\nprinceton-vl/infinigen\n2. 공간 지능 (Spatial Intelligence) 및 LWM(Large World Model)\n단순한 2D의 연속이 아니라 물리적 3D 공간의 깊이, 기하학, 영속성을 이해하는 기초 모델(Foundation Model) 연구이다.\nLargeWorldModel (LWM) - UC Berkeley\n설명: 프로젝트 이름 자체가 LWM이다. 100만(1M) 토큰의 컨텍스트 창을 가진 비디오/언어 모델이다.\nLargeWorldModel/LWM\n\nZero123\n설명: 단일 이미지를 보고 물체의 보이지 않는 뒷면과 다른 각도의 시점을 기하학적으로 일관되게 추론해 내는 모델이다.\nSUDO-AI-3D/zero123plus\n\n현재 기술의 한계와 돌파구\n현재의 한계 (Image to 3D): 이미지를 보고 가우시안 스플래팅이나 메쉬(OBJ)를 만드는 것은 빠르지만, 산업용 설계나 정밀한 편집에는 한계가 명확하다.\n부록: 두 방식 발전 방향\n두 방식 중 어느 것이 '더 좋은가'는 목적에 따라 완전히 갈리며, 페이페이 리(Fei-Fei Li) 교수의 월드랩스(World Labs)가 추구하는 거대 세계 모델(LWM)의 방향성도 이 두 기술의 교차점에 있다. 이를 심층적으로 분석하고 최신 SOTA 프로젝트를 조사한다.\n1. 시퀀스 생성(DeepCAD 계열) vs 시각적 렌더링(3DGS 계열) 비교\n결론부터 말하자면, 제조/설계(AEC/CAD) 분야에서는 DeepCAD 방식이 압도적으로 우월하고, 엔터테인먼트/가상현실/로보틱스 비전 분야에서는 3DGS 방식이 절대적으로 유리하다.\n먼저 DeepCAD 계열(AI to CAD Sequence)은 산업용 설계 도면을 만들어내는 데 특화되어 있다. 이 기술의 핵심 원리는 3D 형상의 겉모습만 묘사하는 것이 아니라, 대상을 모델링하기 위한 수학적 명령어의 순서를 인공지능이 직접 추론해 내는 것이다. 그 결과물은 단순한 점토 덩어리가 아니라, 실제 설계 프로그램에서 즉시 다룰 수 있는 파라메트릭 CAD 데이터(STEP, IGES, CSG 스크립트 등) 형태로 출력된다. 이 방식의 가장 큰 무기는 완벽한 절대 치수 제어와 세밀한 곡률 반경 수정이 가능하다는 점이다. 하지만 수학적인 공식으로 딱 떨어지지 않는 자연물(사람, 나무 등)이나 비정형적이고 복잡한 형상을 표현하는 데는 뚜렷한 한계를 보인다.\n반면 가우시안 스플래팅(Image to 3DGS/Mesh)은 현실 세계의 시각적인 복원에 모든 초점을 맞추고 있다. 빛의 반사와 색상 정보를 지닌 무수히 많은 타원체 입자를 3D 공간에 흩뿌려 세상을 사실적으로 표현하는 것이 핵심 원리이다. 그렇기 때문에 결과물 역시 속이 꽉 찬 설계 데이터가 아니라, 텅 빈 공간에 떠 있는 포인트 클라우드나 비정형 메쉬(PLY, OBJ) 형태로 도출된다. 이 방식은 사진처럼 정밀하고 압도적인 시각 효과를 주지만, 물리적인 절대 치수(Scale) 개념이 없고 임의의 상대 비율만 존재하여 토폴로지(구조) 편집이 원천적으로 불가능하다. 따라서 0.1mm의 오차도 허용되지 않는 산업용 금형 제작이나 정밀 조립을 위한 공차 설계 등에는 사용할 수 없다.\n최근의 산업 트렌드는 이 둘을 결합하여, \"3DGS로 현실 세계를 빠르게 스캔한 뒤, AI가 그 포인트 클라우드에서 기하학적 특징(원통, 평면 등)을 역산하여 CAD 시퀀스로 변환하는 방식(Scan-to-BIM / Scan-to-CAD)\"으로 진화하고 있다.\n2. 각 계열의 최신 SOTA 깃허브 프로젝트\nA. CAD 시퀀스 및 B-rep 생성 (DeepCAD의 진화형)\n단순히 모양을 맞추는 것을 넘어, 위상(Topology)과 스케치 제약 조건(Constraints)을 완벽하게 학습하는 모델들이다.\nSkexGen (Sketch-and-Extrude Generation)\nyccyenchiao/SkexGen\nHextree / SECAD-Net\nPuhao11/SECAD-Net\nB. 기하학적 정밀도를 높인 가우시안 스플래팅 (3DGS의 진화형)\n3DGS의 단점인 '수학적 표면(Surface)이 없다'는 문제를 해결하여, 고품질의 메쉬를 뽑아내기 위한 모델들이다.\nSuGaR (Surface-Aligned Gaussian Splatting)\nAnttwo/SuGaR\n2D Gaussian Splatting (2DGS)\nhbb1/2d-gaussian-splatting\n3. 페이페이 리 교수(World Labs)의 LWM 설계 방식 추론\n그녀는 수학적 기반의 B-rep이나 파라메트릭 CAD 전문가는 아니지만, 컴퓨터 비전(ImageNet 창시자)과 로보틱스(Embodied AI)의 권위자로서 '카메라 렌즈를 통해 3D 물리 공간의 구조와 깊이를 추론하는 방식'에는 세계 최고 수준의 이해도를 가지고 있다.\n따라서 월드랩스의 LWM(마블)은 제조용 CAD 생성이 아니라, 물리 법칙이 작용하는 시뮬레이션 환경 구축에 초점을 맞추어 다음과 같이 설계될 것으로 추론된다.\n입력 및 추론 (2D/비디오 파운데이션 기반): 디퓨전 모델이나 트랜스포머가 단일 이미지/텍스트를 입력받아 보이지 않는 뒷면과 공간의 깊이(Depth)를 추론한다. (Zero123과 유사한 공간 상상력).\nCAD 진영(DeepCAD)은 설계 도면을 역공학하는 방향으로 발전하고 있고, 비전 진영(World Labs, 3DGS)은 카메라에 찍힌 세상에 물리 엔진을 덧씌워 가상 현실을 창조하는 방향으로 평행선을 달리고 있다.\n최근의 역설계 SOTA 모델들은 이 두 가지(신경망의 패턴 인식 + 수학적 피팅)를 하나의 파이프라인으로 합친 미분 가능한 피팅(Differentiable Fitting) 방식을 사용한다.\n신경망이 점들을 분류하고 치수를 대략 추정하면, 수학적 오차(Loss)가 발생한다. 이 오차 값을 역전파(Backpropagation) 시켜서 다시 신경망을 훈련하는 구조다. 즉, AI가 단순히 '비슷하게 생겼네'하고 끝내는 것이 아니라, \"내가 예측한 원통의 반지름이 실제 스캔 점들의 분포와 수학적으로 0.2mm 오차가 있으니 가중치를 수정해야겠다\"라고 스스로 학습하는 경지에 이르렀다. (관련 대표 오픈소스: ParseNet, HPNet)\n레퍼런스\nfz-20/BGPSeg: BGPSeg: Boundary-Guided Primitive Instance Segmentation of Point Clouds",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2026/02/blog-post_24.html",
+    "pubDate": "2026-02-24T10:32:25.942Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 6,
+    "id": 4,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
-    "description": "No description available",
+    "title": "RCCLX: Innovating GPU communications on AMD platforms",
+    "description": "We are open-sourcing the initial version of RCCLX – an enhanced version of RCCL that we developed and tested on Meta’s internal workloads. RCCLX is fully integrated with Torchcomms and aims to empower researchers and developers to accelerate innovation, regardless of their chosen backend. Communication patterns for AI models are constantly evolving, as are hardware [...]\nRead More...\nThe post RCCLX: Innovating GPU communications on AMD platforms appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2422",
-    "pubDate": "Wed, 18 Feb 2026 15:04:52 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/",
+    "pubDate": "Tue, 24 Feb 2026 21:30:54 +0000",
+    "creator": "Unknown",
     "categories": [
-      "웹툰"
+      "AI Research",
+      "Data Center Engineering",
+      "ML Applications",
+      "Networking & Traffic"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "#1 on Spider 2.0–DBT Benchmark – How Databao Agent Did It",
+    "description": "As of February 2026, Databao Agent ranks #1 in the Spider 2.0–DBT benchmark. This ranking measures how well agents can operate in a real dbt project, including reading the repository, understanding what’s broken, implementing the missing models, and validating everything by actually running code. Our team ended up achieving the highest score in the benchmark, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/databao/2026/02/how-databao-agent-ranked-1-spider-2-0-dbt/",
+    "pubDate": "Tue, 24 Feb 2026 07:54:58 +0000",
+    "creator": "Dmitrii Mikhailovskii",
+    "categories": [
+      "data-agent"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "The Missing Link Between AI and Business Value",
+    "description": "Let’s call a spade a spade. Some enterprises are already using AI agents, but very few can explain their impact on business performance. Metrics such as DORA, SPACE, and developer experience indicators captured through third-party platforms offer insight into delivery velocity and developer quality of life, but it is still difficult to cleanly map this […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2026/02/the-missing-link-between-ai-and-business-value/",
+    "pubDate": "Fri, 20 Feb 2026 06:27:54 +0000",
+    "creator": "Kris Kang",
+    "categories": [
+      "ai",
+      "opinion",
+      "agentic-ai",
+      "enterprise-ai",
+      "roi"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "C++ symbol context and CMake build configuration awareness for GitHub Copilot in VS Code",
-    "description": "C++ code navigation and build system tooling play an important role in the developer inner-loop. Code navigation tooling provides a precise, semantic understanding of your codebase, while build system tooling helps you express build configurations and variants for reproducible builds. In the VS Code ecosystem, these powerful capabilities are available through our C/C++ and CMake […]\nThe post C++ symbol context and CMake build configuration awareness for GitHub Copilot in VS Code appeared first on C++ Team Blog.",
+    "title": "글로벌 고객이 찾아오는 구글맵 리뷰 전략 - 창업(소상공인)",
+    "description": "1. 배경 : 왜 지금 구글맵에 주목해야 할까요?  과거에는 구글맵이 주로 해외여행이나 외국인 관광객을 위한 지도였다면, 최근 분위기는 완전히 달라졌습니다. 국내에서도 안드로이드폰 기본 탑재와 더불어, 광고성 정보가 적고 신뢰할 수 있다는 인식 덕분에 MZ세대를 중심으로 '진짜 맛집' 검색 도구로 자리 잡고 있습니다. 특히 엔데믹 이후 급증한 외국인 관광객",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/c-symbol-context-and-cmake-build-configuration-awareness-for-github-copilot-in-vs-code/",
-    "pubDate": "Thu, 19 Feb 2026 16:13:03 +0000",
-    "creator": "Sinem Akinci",
-    "categories": [
-      "C++",
-      "CMake",
-      "Copilot",
-      "Visual Studio Code"
-    ]
+    "link": "https://brunch.co.kr/@@LOc/332",
+    "pubDate": "Tue, 24 Feb 2026 06:43:37 GMT",
+    "creator": "고명환",
+    "categories": []
   },
   {
     "id": 8,
-    "imageUrl": "",
-    "title": "유니티 셰이더 그래프 사용해보자 / 강의시장을 어지럽힐 유튜브 영상",
-    "description": "결국 선 넘어버렸군요\n유튜브에 그냥 올라와 버렸습니다.\n강의 시장이 치열하다는 증거 입니다.\n배우기 좋은 타이밍입니다.\n셰이더를 배워봅시다.\n영상: https://www.youtube.com/watch?v=KnueAgpUL3Y&t=237s\n\n\n\n \n어렵다고 피하지 말고 \n봐두세요 \n \n온갖 용여를 다 설명해줍니다.\n메탈릭, 에미션, 등등\n \n당장은 이해가 안가도 언젠가 갑자기 머리속에서 정리될 것입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1574",
-    "pubDate": "Thu, 19 Feb 2026 15:26:33 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "셰이더",
-      "유니티"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "LangChain Python Tutorial: 2026’s Complete Guide",
-    "description": "If you’ve read the blog post How to Build Chatbots With LangChain, you may want to know more about LangChain. This blog post will dive deeper into what LangChain offers and guide you through a few more real-world use cases. And even if you haven’t read the first post, you might still find the info […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/",
-    "pubDate": "Thu, 19 Feb 2026 10:40:15 +0000",
-    "creator": "Cheuk Ting Ho",
-    "categories": [
-      "data-science",
-      "tutorials",
-      "ai",
-      "ai-agents",
-      "chatbots",
-      "langchain"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "2026 카페 창업 트렌드에 따른 창업 준비 전략 - 창업(소상공인)",
-    "description": "1. 도입 : 커피가 맛있는 카페? 이제는 당연히 기본값입니다.  \"우리 동네에 카페가 벌써 5개인데 내가 차려도 될까?\" 예비 사장님들의 가장 큰 고민일 것입니다. 2026년 현재, 단순히 커피가 맛있는 것만으로는 고객을 부를 수 없습니다. 골목 깊숙이 있는 우리 매장까지 손님이 찾아오게 만들려면 '목적성 메뉴(디저트)'와 '압도적 운영 효율(스마트 시스",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/329",
-    "pubDate": "Thu, 19 Feb 2026 09:26:51 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "식당 수익 개선, 5가지 실무 전략 - 창업(소상공인)",
-    "description": "1. 배경 : 왜 지금 수익 구조를 점검해야 하는가?  최근 외식업계는 '3고(고물가, 고금리, 고환율)' 현상과 가파른 인건비 상승으로 인해 유례없는 위기를 맞고 있습니다. 단순히 매출액이 높다고 해서 안심할 수 있는 시대는 지났습니다. 열심히 음식을 팔아도 임대료, 인건비, 재료비를 내고 나면 사장님 손에 쥐어지는 돈이 처참한 경우가 많기 때문입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/330",
-    "pubDate": "Fri, 20 Feb 2026 07:46:31 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 12,
     "imageUrl": "",
     "title": "SQL 대시보드 shaper",
     "description": "SQL을 입력하면 차트를 그려주는 데이터 시각화 툴 shaper.\n\nC:\\Users\\Administrator>pip install shaper-bin\nCollecting shaper-bin\n  Downloading shaper_bin-0.14.0-py3-none-any.whl.metadata (2.3 kB)\nRequirement already satisfied: requests>=2.31.0 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from shaper-bin) (2.32.5)\nRequirement already satisfied: charset_normalizer<4,>=2 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from requests>=2.31.0->shaper-bin) (3.4.4)\nRequirement already satisfied: idna<4,>=2.5 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from requests>=2.31.0->shaper-bin) (3.11)\nRequirement already satisfied: urllib3<3,>=1.21.1 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from requests>=2.31.0->shaper-bin) (1.26.20)\nRequirement already satisfied: certifi>=2017.4.17 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from requests>=2.31.0->shaper-bin) (2025.11.12)\nDownloading shaper_bin-0.14.0-py3-none-any.whl (12 kB)\nInstalling collected packages: shaper-bin\nSuccessfully installed shaper-bin-0.14.0\n\n\n[notice] A new release of pip is available: 25.3 -> 26.0.1\n[notice] To update, run: python.exe -m pip install --upgrade pip\n\n\nC:\\Users\\Administrator>shaper\nFetching Shaper binary...\nInstallation failed: Unsupported platform: windows-x86_64\n\n\n\n\n윈도우는 아직 지원하지 않아서 WSL 우분투에 설치.\n\nroot@easyDATA:~# pip install shaper-bin\nerror: externally-managed-environment\n\n\n× This environment is externally managed\n╰─> To install Python packages system-wide, try apt install\n    python3-xyz, where xyz is the package you are trying to\n    install.\n\n\n    If you wish to install a non-Debian-packaged Python package,\n    create a virtual environment using python3 -m venv path/to/venv.\n    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make\n    sure you have python3-full installed.\n\n\n    If you wish to install a non-Debian packaged Python application,\n    it may be easiest to use pipx install xyz, which will manage a\n    virtual environment for you. Make sure you have pipx installed.\n\n\n    See /usr/share/doc/python3.12/README.venv for more information.\n\n\nnote: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.\nhint: See PEP 668 for the detailed specification.\n\n\n\n\n시스템 안전성을 위해 가상환경을 추천하는 듯. 그냥 강제 설치.\n\nroot@easyDATA:~# pip install shaper-bin --break-system-packages\nCollecting shaper-bin\n  Downloading shaper_bin-0.14.0-py3-none-any.whl.metadata (2.3 kB)\nRequirement already satisfied: requests>=2.31.0 in /usr/lib/python3/dist-packages (from shaper-bin) (2.31.0)\nDownloading shaper_bin-0.14.0-py3-none-any.whl (12 kB)\nInstalling collected packages: shaper-bin\nSuccessfully installed shaper-bin-0.14.0\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\n\n\n\n\n실행하면 localhost:5454 포트로 접속할 수 있는 웹 UI를 제공한다.\n\nroot@easyDATA:~# shaper\nFetching Shaper binary...\nLoading checksums...\nDownloading shaper v0.14.0 for linux-x86_64...\nVerifying checksum...\nChecksum verified successfully\nInstallation complete!\ntime=2026-02-20T15:11:08.349+09:00 level=INFO msg=\"Starting Shaper\" version=0.14.0\ntime=2026-02-20T15:11:08.349+09:00 level=INFO msg=\"For configuration options see --help or visit https://taleshape.com/shaper/docs for more\"\ntime=2026-02-20T15:11:08.349+09:00 level=INFO msg=\"Created data directory\" path=/root/.shaper\ntime=2026-02-20T15:11:08.349+09:00 level=INFO msg=\"SQLite opened\" file=/root/.shaper/shaper_internal.sqlite\ntime=2026-02-20T15:11:08.361+09:00 level=INFO msg=\"DuckDB opened\" file=/root/.shaper/shaper.duckdb\ntime=2026-02-20T15:11:08.361+09:00 level=INFO msg=\"Loading init-sql-file\" path=/root/.shaper/init.sql\ntime=2026-02-20T15:11:08.361+09:00 level=INFO msg=\"init-sql-file does not exist, skipping\" path=/root/.shaper/init.sql\ntime=2026-02-20T15:11:08.472+09:00 level=WARN msg=\"No users found. Authentication is disabled until first user is created. Make sure you don't expose sensitive data publicly.\"\ntime=2026-02-20T15:11:08.472+09:00 level=INFO msg=\"nats: Not listening on any network interfaces. Specify a port to make NATS available on the network.\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats: Starting nats-server\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Version:  2.12.3\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Git:      [not set]\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Name:     ND3IDHLHXLSNSXSYIMZM6UG5ZXVHKSZZG7RRPD67ETIFFYQDC2BMIVSZ\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Node:     CKVn21lV\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   ID:       ND3IDHLHXLSNSXSYIMZM6UG5ZXVHKSZZG7RRPD67ETIFFYQDC2BMIVSZ\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats: Starting JetStream\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats: ---------------- JETSTREAM ----------------\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Strict:          true\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Max Memory:      11.50 GB\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Max Storage:     715.04 GB\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Store Directory: \\\"/root/.shaper/nats/jetstream\\\"\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   API Level:       2\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats: -------------------------------------------\"\ntime=2026-02-20T15:11:08.474+09:00 level=INFO msg=\"nats: Took 596.612µs to start JetStream\"\ntime=2026-02-20T15:11:08.474+09:00 level=INFO msg=\"nats: Server is ready\"\ntime=2026-02-20T15:11:08.481+09:00 level=INFO msg=\"Loaded scheduled tasks\"\ntime=2026-02-20T15:11:08.481+09:00 level=INFO msg=\"Snapshots disabled\"\ntime=2026-02-20T15:11:08.482+09:00 level=INFO msg=\"Web server is listening at localhost:5454\"\ntime=2026-02-20T15:11:08.482+09:00 level=INFO msg=\"Open http://localhost:5454 in your browser\"\n\n\n\n\n간단한 데이터 분석 시 주로 사용하는 Logparser는 차트 기능이 단순해서 엑셀 병용이 필수였는데, shaper는 쿼리를 바로바로 차트로 그릴 수 있어서 매우 편하다. 다이렉트로 윈도우 이벤트 접근까지 가능해지면 대박인데 해줄래나(..)\n\n\n\n\n\n관련 글\n\nLogParser 활용(Web Log 이상징후 분석)",
@@ -184,44 +121,21 @@
     "categories": []
   },
   {
-    "id": 13,
+    "id": 9,
     "imageUrl": "",
-    "title": "벽돌 쌓기",
-    "description": "보이지 않는 벽돌\n얼마 전에 올린 유튜브 영상에 이런 댓글이 달렸다.\n\n\"침대에 누워서 영상을 보다가, 울컥 한 것도 처음이네요.\n결국 못 참고 집 밖에서 '끅끅' 애써 참아가며 울다가 들어왔습니다.\"\n\n요즘 개발자들 사이에서 불안 이라는 단어가 자주 보인다.\n공부를 하고는 있는데 이게 맞는 건지 모르겠고, 열심히 하고 있는데 성장하고 있는 건지 느껴지지 않는다.\n밖에서는 AI 때문에 점점 더 개발자의 자리가 없을거라고, 지금 하고 있는 노력들이 무용지물이 될 거라는 이야기가 계속 돈다.  \n빵집 압축 프로그램을 만드신 양병규 개발자님이 이스터에그로 자신의 생각을 숨겨놓은 내용이 있다. \n마침 이 내용이 클리앙에도 올라와 있어서 공유하고 싶었다.\n\n한강 강바닥에 벽돌을 쌓는다.\n강변이 아니라 강바닥이다.\n헤엄쳐서 내려가서, 벽돌 한 장 놓고 올라온다.\n나와서 보면 당연히 아무것도 안 보인다.\n다음 날도 한 장, 그 다음 날도 한 장.\n사흘이고 열흘이고 한 달이고, 매일매일 벽돌을 쌓아도 수면 위에서는 아무 변화가 없다.\n이쯤 되면 의심이 생긴다.\n이걸 계속 해야 하나.\n의미가 있긴 한 건가.\n그래서 많은 사람들이 포기한다.\n근데 포기하지 않고 계속 쌓으면, 열흘이고 한 달이고 1년이고 2년이고, 언젠가는 그 벽돌이 수면 위로 올라온다.\n그때부터는 벽돌 한 장을 쌓으면 한 장이 쌓인 게 보인다.\n내 눈에만 보이는 게 아니라 남들 눈에도 보인다.\n그리고 더 중요한 건, 그때부터 재밌어진다는 거다.\n쌓는 대로 올라가는 게 보이니까.\n\n대학교 4학년 2학기부터 5학년 2학기까지 1년 반을 취업 준비했다.\nSI 회사에 들어가서도 매일 6시에 일어나서 8시 전에 출근해서 한 시간이라도 공부했다.\n이직한 뒤에도 계속 공부했다.\n회사에서 잘하지 못했으니까.\n그때는 내가 성장하고 있는 건지 아닌 건지 알 수가 없었다.\n방향도 못 잡겠고, 옆에 있는 개발자들에 비해서 부족한 건 분명했고.  \n근데 계속 쌓았다.\n그러다 어느 날부터 사람들이 나보고 잘한다고 하더라.\n그때부터 공부한 만큼 실력이 올라가는 게 느껴지기 시작했다.\n한번 그게 느껴지니까, 안 해도 될 때도 하게 됐다.\n재밌으니까.\n댓글 중에 공감되는 이야기가 있었다.\n\n\"사람마다 수심이 다르다는 말 듣자마자 마음 속에 울림이 생기고 다시 용기가 생겼습니다.\"\n\n우리가 회빙환 웹툰 주인공처럼 눈앞에 스탯 창이 떠서 경험치가 쌓이는 게 보이면 아무도 포기 안 할 거다.\n올라가는 게 보이니까.\n근데 현실은 그렇지 않다.\n눈에 보이지 않는다.\n그럼에도 보이지 않는데 쌓이는 건 분명히 있다.  \n각자가 빠져 있는 수심이 다르다.\n누군가는 3년 만에 벽돌이 수면 위로 올라오고, 누군가는 5년, 누군가는 7년이 걸릴 수도 있다.\n지금 쌓고 있는 벽돌은 보이지 않지만, 사라지지도 않는다.\n그러니까 오늘도 벽돌 한 장 쌓으면 된다.\n안 보여도 괜찮다.\n분명 쌓이고 있다.",
+    "title": "TeamCity 2025.11.3 Is Here",
+    "description": "Today we’re rolling out another bug-fix update for your TeamCity 2025.11 On-Premises servers. This update addresses a number of issues, inlcuding: All TeamCity bug-fix updates include performance and security improvements, so we recommend that you never skip these minor updates. See TeamCity 2025.11.3 Release Notes for the complete list of resolved issues. Why update? Staying […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/866",
-    "pubDate": "Mon, 23 Feb 2026 08:13:00 +0900",
-    "creator": "향로 (기억보단 기록을)",
+    "link": "https://blog.jetbrains.com/teamcity/2026/02/teamcity-2025-11-3-bug-fix/",
+    "pubDate": "Thu, 19 Feb 2026 16:48:20 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "생각정리",
-      "개발자",
-      "벽돌쌓기",
-      "빵집",
-      "양병규",
-      "취업",
-      "커리어"
+      "bug-fix"
     ]
   },
   {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Microsoft C++ (MSVC) Build Tools v14.51 Preview Released: How to Opt In",
-    "description": "Today we are releasing the first preview of the Microsoft C++ (MSVC) Build Tools version 14.51. This update, shipping in the latest Visual Studio 2026 version 18.4 Insiders release, introduces many C++23 conformance changes, bug fixes, and runtime performance improvements. Check out the release notes for an in-progress list of what’s new. Conformance improvements and […]\nThe post Microsoft C++ (MSVC) Build Tools v14.51 Preview Released: How to Opt In appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/microsoft-c-msvc-build-tools-v14-51-preview-released-how-to-opt-in/",
-    "pubDate": "Thu, 19 Feb 2026 02:37:48 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Visual Studio",
-      "MSVC",
-      "visual studio"
-    ]
-  },
-  {
-    "id": 15,
+    "id": 10,
     "imageUrl": "",
     "title": "토스, ‘2026년 인디게임 데브캠프’ 협력기업 참여",
     "description": "문체부와 콘진원 사업 일환",
@@ -230,6 +144,78 @@
     "link": "https://toss.im/tossfeed/article/45501",
     "pubDate": "Mon, 23 Feb 2026 11:10:00 GMT",
     "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "mobaXterm에서 한글 타이핑시 &quot;응답 없음&quot;으로 죽는 문제",
+    "description": "ssh접속을 위해 mobaXterm을 쓰다보면 한영 전환을 하거나 한글 타이핑을 하면 \"응답 없음\" 상태로 변하면서 프로세스가 죽는 문제가 생기곤 했다. 특히 한글을 타이핑하다가 오타가 발생해서 백스페이스로 자음이나 모음을 지울때 종종 발생했다. 그래서 mobaXterm 한글이 죽는 이유를 찾다보니 마이크로소프트가 IME(Input Method Editor)를 2가지를 가지고 있다는 것을 알았습니다. 그리고 최신의 IME(TSF방식)이 구형 프레임워크나 개발툴로 개발된 애플리케이션과 종종 충돌을 일으킨다는 것도 알게되었다.\n \n1. 해결 방법\n우선 해결 방법을 먼저 말하자면 설정에서 \"시간 및 언어\", \"언어 및 지역\", \"옵션\", \"Microsoft 입력기\" 메뉴에서 \"이전 버전의 Microsoft IME\"를 켬(on)으로 해두면 된다. 문제는 이 옵션이 꽤 깊숙한 곳에 있어서 찾아가는게 좀 어렵다. 그래서 찾아가는 방법을 한땀한땀 보여주도록 하겠다.\n먼저 \"설정\"을 실행하고, \"시간 및 언어\" 메뉴를 선택한다. 그리고 아래 그림처럼 \"한국어\"의 점3개를 눌러서 \"언어 옵션\"을 선택한다.\n윈11설정, 시간 및 언어, 언어 및 지역\n\n\n언어 옵션을 선택해서 들어가면 아랫쪽에 키보드 메뉴가 있다. 여기서 아래 그림처럼 \"Microsoft 입력기\"라는 것을 찾고, 점3개를 눌러서 \"키보드 옵션\"을 선택한다.\n한국어, 키보드, Microsoft 입력기\n\n\n키보드 옵션을 선택해서 들어가면 하단에 호환성 부분에 \"이전 버전의 Microsoft IME\"를 켬(on)으로 설정하면 끝난다. \n키보드 옵션, 호환성, 이전 버전의 Microsoft IME\n\n\n이렇게 한 뒤에 되도록이면 재부팅을 하는 것을 권장한다. 애초에 이런 설정이 필요없도록 하려면 tabby 같은 ssh client를 사용하는 것도 괜찮다. 다만 개인적으로는 mobaXterm이 더 편해서 이걸 주로 사용하는 편이다. 그리고 깨알 지식으로 mobaXterm을 사용할 때는 리가처 폰트(ligature font)를 사용하면 이상하게 화면 스크롤 속도가 느려진다. 따라서 되도록이면 ligature 글꼴 대신 일반 글꼴을 사용하는 것을 권장한다.\n \n \n2. 기술적 배경 지식\n왜 이런 문제가 생겼는지 알기 위해서는 IME의 변화에 대해서 알아야만 한다. 마이크로소프트는 XP에서 TSF(Text Services Framework)라는 새로운 IME를 도입했다. 그리고 윈도10이나 윈도11에는 구형 IME인 IMM32와 신형 IME인 TSF가 둘다 설치되고, 기본값으로는 TSF로 작동한다는 점이다. \nTSF의 특징은 비동기로 작동한다는 특징이 있다. 따라서 타이핑을 하는 것을 버퍼에 채워두었다가 완성시키거나 혹은 음성 변환이나 여러가지 기능이 있는데, 이게 기능을 추가하다보니 어느 시점부터 옛날 시스템과 뭔가 안맞는게 생겼던 것 같다. 게다가  mobaXterm은 델파이(Delphi)라고 굉장히 옛날 개발툴로 만들어지다보니 TSF와는 잘 맞지 않는 부분이 있는 것 같다. 그럼에도 불구하고 영어권은 큰 문제가 없어 보인다. 한글이나 중국 번체, 일어 한문등이 가장 큰 문제가 되는것 같은데, 이들 문자들의 특징은 여러 타이핑을 조합해서 하나의 문자가 생기는 케이스가 있다는 점이다. 영어는 hello를 칠때 h를 치면 즉각 h를 표시하면 그만이지만, 한글로 \"헬로\"를 타이핑하려면 \"ㅎ + ㅔ + ㄹ\" 까지 쳐야 \"헬\" 글자 1개가 완성된다. 여기서 ㅎ 다음에 \"ㅔ\" 대신에 \"ㅐ\"를 잘못 타이핑했다면 backspace로 지울때 현재까지 완성된 \"해\"를 지우는게 아니라 딱 \"ㅐ\"만 지우고, \"ㅎ\" 자음은 남겨야 하는데, 이런 부분이 오류를 만드는 원인이 되는 것 같다. 게다가 TSF가 비동기식이라 어떤 경우에는 잘 작동하지만, 어떤 경우에는 비동기 이벤트를 놓쳐서 \"응답 없음\"오류를 만드는 것 같다.\n물론 2026년을 기준으로 보면 대부분의 개발툴들은 TSF를 제대로 지원하는 경우가 많아서 큰 문제는 안되지만, 앞서 언급한 델파이나 아니면 cygwin, Qt을 이용하는 시스템에서는 문제가 종종 생기는 것 같다. 결국 문제가 생기는 애플리케이션을 주로 쓴다면 결국 TSF를 버리고 \"이전 버전의 Microsoft IME\"인 IMM32를 쓰는 수 밖에 없어 보인다. (마소가 근본적인 문제를 고쳐서 TSF를 쓸때도 문제없게 해주면 좋겠지만, 솔직히 기대도 안한다. 왜냐하면 지금 윈11은 툭하면 업데이트 버그가 쏟아지기 때문이다. 사소한 버그도 해결 못하는 것을 보면 윈도 개발팀의 프로그래밍 능력이 수준 이하라고 생각된다.)\n게다가 TSF를 쓰면 성능도 좋아진다고는 하지만 솔직히 요새 시스템에서 TSF를 써서 얻는 성능적 이점은 쥐꼬리의 털조각 1개만큼도 안되는 수준이라, 성능적 이점은 사실상 없다. 다만 TSF는 한자를 더 많이 지원하는 장점이 있다고 하는데, 요새 한자를 병용하거나 한자를 타이핑하는 경우는 드물기 때문에 큰 메리트가 없어 보인다.\n결론적으로 mobaXterm을 쓸때는 TSF를 쓰지 않고 IMM32를 쓰도록 \"이전 버전의 Microsoft IME\"를 설정하도록 하자.\n \n \n히스토리\n2026.02.23 릴리즈",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://sunyzero.tistory.com/325",
+    "pubDate": "Mon, 23 Feb 2026 21:07:50 +0900",
+    "creator": "sunyzero",
+    "categories": [
+      "컴퓨터 관련/윈도 패밀리",
+      "IME",
+      "mobaXterm crash",
+      "SSH Client",
+      "이전 버전의 Microsoft IME",
+      "한글 입력기"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "안정 해시 (Consistent Hash)",
+    "description": "해결하고자 하는 문제 상황  데이터를 샤딩하는 상황을 생각해보자. 보편적으로 샤드키를 모듈로 연산하여 만들어낸 해시를 사용할 것이다. 예를 들자면, 노드가 총 N개인 상황에서  와 같이 연산하여, 해당 데이터가 배치될 노드를 식별할 것이다. N…",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hudi.blog/consistent-hash/",
+    "pubDate": "Sat, 21 Feb 2026 23:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "AI Tool Switching Is Stealth Friction – Beat It at the Access Layer",
+    "description": "Has your team’s sprint velocity actually improved since you approved all those AI coding tools? If not, recent research by JetBrains and UC Irvine shows your developers may be facing a new dimension of context switching that resists the usual fixes.   The key findings were that most AI-assisted developers switched in and out of their […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2026/02/ai-tool-switching-is-stealth-friction-beat-it-at-the-access-layer/",
+    "pubDate": "Mon, 23 Feb 2026 13:19:21 +0000",
+    "creator": "Colette Des Georges",
+    "categories": [
+      "insights",
+      "jetbrains-ai",
+      "ai-in-ides",
+      "ai-in-software-development"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "월드랩과 오토데스크 협업을 통한 공간 AI 개발 동향",
+    "description": "이 글은 월드랩과 오토데스크 협업을 통한 공간 AI 개발 동향을 조사한 글이다.\n\n\n\n\n\n\n\n\n\n오토데스크 마블(Autodesk Marble) 기술적 배경\n마블(Marble)은 오토데스크가 직접 개발한 제품이 아니다. 이 모델은 'AI의 대모'라 불리는 페이페이 리(Fei-Fei Li) 교수가 설립한 AI 스타트업 월드랩스(World Labs)가 개발한 핵심 생성형 3D 월드 모델이다. 오토데스크는 2026년 2월, 월드랩스에 대규모 전략적 투자를 단행하며 자사 소프트웨어와의 통합 파트너십을 발표했다.\n마블의 구체적인 첫 코드 작성일이 공식적으로 공개되지는 않았으나, 회사의 설립과 주요 제품 마일스톤을 통해 개발 타임라인을 충분히 추론할 수 있다.\n\n초기 R&D 및 시작 (2024년 1월): 페이페이 리 교수를 비롯한 최고 수준의 AI 연구진들이 3D 환경 생성과 실시간 시뮬레이션을 목표로 2024년 1월에 월드랩스를 공동 창립했다. 마블의 근간이 되는 '공간 지능(Spatial Intelligence)' 연구와 코어 모델 개발은 이때부터 본격적으로 시작되었을 가능성이 높다.\n\n프로토타입 및 베타 (2025년 9월): 약 1년 8개월의 딥테크 연구 기간을 거쳐, 2025년 9월에 마블의 첫 번째 제한적 베타 버전이 세상에 공개되었다.\n\n정식 출시 (2025년 11월): 2025년 11월 12일, 텍스트, 이미지, 비디오 등을 입력받아 상호작용 가능한 3D 환경을 즉석에서 구축하는 마블 프론티어 모델이 일반 대중에게 정식으로 론칭되었다.\n\n기술 스택\n마블은 단순히 2D 이미지를 이어 붙이는 비디오 생성 AI가 아니라, 물리적 공간의 3차원 구조를 완벽히 이해하는 거대 월드 모델(LWM, Large World Models) 아키텍처를 채택하고 있다.\n\n3D 표현 포맷 (3D Gaussian Splatting): 마블은 시점이 변하면 형태가 무너지는 기존 생성 모델들의 한계를 극복하고, 변형 없이 영구적으로 보존되는 3D 환경을 생성한다. 생성된 결과물은 3D 가우시안 스플랫(Gaussian Splats)이나 메쉬(Mesh) 형태로 다운로드하여 언리얼, 유니티 등 다른 게임 엔진으로 내보낼 수 있다.\n\n실시간 프레임 모델 (RTFM, Real-Time Frame Model): 2025년 10월에 도입된 핵심 렌더링 기술이다. 단일 GPU 환경에서도 실시간으로 월드를 생성하고 상호작용할 수 있도록, 기존 프레임들을 일종의 '공간 메모리'로 활용하여 높은 디테일을 유지한다.\n\n웹 렌더링 엔진 (SparkJS.dev): 별도의 무거운 클라이언트 없이 웹 브라우저 환경에서 매끄러운 3D 렌더링을 구현하기 위해 Three.js를 기반으로 한 독자적인 렌더러인 'SparkJS.dev'를 사용한다. 이는 가우시안 스플랫과 전통적인 WebGL 에셋(glTF 모델 등)을 한 화면에 자연스럽게 혼합해 준다.\n\n공간 편집 도구 (Chisel): 사용자가 직접 상자나 평면 같은 단순한 원시 도형(Primitive)으로 3D 뼈대를 잡으면, AI가 그 맥락을 파악해 그 위에 시각적 디테일과 텍스처를 입히는 하이브리드 3D 편집 도구를 지원한다.\n\n\n\n기존의 스테이블 디퓨전 기반 3D 생성이 단일 '객체(Object)'를 깎아내는 데 집중했다면, 월드랩스의 '마블(Marble)'은 단일 이미지나 텍스트에서 거대한 3D 가상 세계(World) 전체를 생성해 내는 기술입이다. 이를 오토데스크의 기존 생태계와 결합하는 것이 핵심이다.\nA. 백본 모델 (Backbone Models)\n\nLarge World Models (LWM) / 공간 지능(Spatial Intelligence): 단순 2D 픽셀의 패턴을 모방하는 것을 넘어, 3D 공간의 기하학(Geometry), 재질, 빛의 반사, 물리 법칙을 스스로 추론하는 거대 세계 모델을 백본으로 사용한다.\n\nNeRF 및 차세대 뉴럴 렌더링: 월드랩스의 핵심 개발진(NeRF의 창시자인 벤 밀든홀 등)의 기술적 배경을 고려할 때, 마블의 코어 엔진에는 고도화된 Neural Radiance Fields(NeRF) 기반 기술이나 가우시안 스플래팅 개념이 결합되어 시점 변화에 완벽히 대응하는 일관된 3D 씬을 연산한다.\n\nB. 학습 데이터 종류 (Training Data)\n\n일반적인 2D 이미지 쌍을 넘어서, 3D 레이아웃, 공간 깊이(Depth) 데이터, 카메라 트래킹(Pose)이 포함된 다중 시점 영상, 그리고 오토데스크가 강점을 가진 기하학적/물리적 CAD 시뮬레이션 데이터 등 공간을 이해하기 위한 복합적인 고차원 데이터로 학습된다.\n\nC. 오토데스크와의 통합 파이프라인 (Integration Workflow)\n\n편집 가능한 3D 씬 (Editable 3D Environments): 마블은 단순한 비디오 영상(예: OpenAI Sora)을 생성하는 것이 아니라, 구조화되고 상호작용 가능한 3D 환경 자체를 출력한다.\n\n라스트 마일 편집(Last-mile Editing) 생태계: 마블이 프롬프트로 전체 공간의 초안을 순식간에 생성하면, 이를 오토데스크의 Maya, 3ds Max, Revit 같은 전통적인 소프트웨어로 바로 넘길 수 있다. 여기서 아티스트나 엔지니어가 직접 폴리곤 토폴로지, 리깅, 정밀한 재질 수정을 거쳐 최종 결과물(M&E 및 AEC 분야)을 완성하게 된다.\n\n\n\n유사한 오픈소스 3D/월드 생성 모델\n마블과 같은 강력한 상용 월드 모델에 대항하여, 연구자들과 개발자들이 투명하게 활용할 수 있는 오픈소스 생태계의 3D 생성 기술들도 빠르게 발전하고 있다.\n\nDiamondWM: 구글의 'Genie'나 마블과 유사한 성격을 지닌 대표적인 오픈소스 월드 모델이다. 대량의 FPS 게임 플레이 영상을 시각적으로 학습하여 개발되었으며, 사용자의 로컬 데스크톱 GPU에서도 직접 구동하며 실시간으로 상호작용할 수 있는 점이 특징이다.\n\nNVIDIA Isaac Sim (로보틱스 및 시뮬레이션): 프롬프트 한 줄로 세상 전체를 즉석에서 그려내는 마법 같은 생성형 AI는 아니지만, 오픈소스 기반의 확장 가능한 레퍼런스 프레임워크 역할을 한다. 주로 AI 로봇 모델 훈련을 위한 합성 데이터를 대량으로 생성하고, 물리 법칙이 적용된 가상 환경을 정밀하게 시뮬레이션하는 데 핵심적으로 쓰인다.\n\nTencent Hunyuan 3D 시리즈: 텍스트나 단일 이미지를 고품질 3D 에셋으로 변환하는 오픈 웨이트 기반의 생성 모델이다. 2025년 1월 버전 2.0 출시에 이어 최신 3.0 버전은 복잡한 건축물 생성 등에 폭넓게 활용되며 3D 아티스트들의 모델링 시간을 크게 단축시키고 있다.\n\n아울러, 다음과 같은 백본 기술을 살펴볼 필요가 있다.\n\n1. 가장 빠르고 완벽한 Image-to-3D Mesh\n\nStable Fast 3D (Stability AI): 이미지를 넣으면 0.5초 만에 완벽한 텍스처와 UV 매핑이 완료된 3D 메시를 뽑아내는 오픈소스 모델이다.\n\n\nStability-AI/stable-fast-3d\n\n\n\n2. 3D 가우시안 스플래팅 + 스테이블 디퓨전(생성형 AI)의 융합\n\nDreamGaussian: 스테이블 디퓨전의 상상력과 3DGS를 결합해, 이미지를 먼저 가우시안으로 빠르게 만든 뒤 실질적으로 활용 가능한 Mesh로 변환하는 선구적인 프로젝트이다.\n\n\ndreamgaussian/dreamgaussian\n\n\n\nThreestudio: 네르프(NeRF), 3DGS, 스테이블 디퓨전을 이용한 3D 생성 연구를 한곳에 모아둔 텍스트-to-3D 통합 프레임워크이다.\n\n\n\nthreestudio-project/threestudio\n\n\n\n\n\n3. 원본 렌더링 기술\n\n3D Gaussian Splatting (Inria): 실시간 렌더링 혁명을 일으킨 오리지널 소스코드이다.\n\n\ngraphdeco-inria/gaussian-splatting\n\n\n\n\n\n최근 발표된 월드랩스의 마블과 오토데스크의 만남은 기존의 3D 제작 파이프라인(기획, 모델링, 렌더링)을 'AI 초안 생성, 디테일 모델 수정'이라는 차원으로 바꿔놓고 있다.\n결론적으로, 오토데스크가 왜 월드랩스에 그토록 막대한 자본을 투자했는지 그 전략적 배경은 명확하다. 수십 시간에 달하던 기존 CAD 및 3D 그래픽 설계자들의 수작업을 마블의 압도적인 '공간 지능'이 획기적으로 대체하고 보조할 수 있기 때문이다.\n\n\n\n레퍼런스\n\nWorld Labs lands $1B, with $200M from Autodesk, to bring world models into 3D workflows | TechCrunch\nFei-Fei Li's World Labs speeds up the world model race with Marble, its first commercial product | TechCrunch\nMarble\nAutodesk's $200m bet on spatial AI - AEC Magazine\nFei-Fei Li’s World Labs raises $1 billion to advance physical AI world model - CHOSUNBIZ\nAutodesk bets $200 million on World Labs' AI - DEVELOP3D",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2026/02/ai_20.html",
+    "pubDate": "2026-02-20T09:06:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "2026 카페 창업 트렌드에 따른 창업 준비 전략 - 창업(소상공인)",
+    "description": "1. 도입 : 커피가 맛있는 카페? 이제는 당연히 기본값입니다.  \"우리 동네에 카페가 벌써 5개인데 내가 차려도 될까?\" 예비 사장님들의 가장 큰 고민일 것입니다. 2026년 현재, 단순히 커피가 맛있는 것만으로는 고객을 부를 수 없습니다. 골목 깊숙이 있는 우리 매장까지 손님이 찾아오게 만들려면 '목적성 메뉴(디저트)'와 '압도적 운영 효율(스마트 시스",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/329",
+    "pubDate": "Thu, 19 Feb 2026 09:26:51 GMT",
+    "creator": "고명환",
     "categories": []
   }
 ]
