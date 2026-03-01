@@ -2,101 +2,166 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Toolbox App 3.3: Introducing jetbrainsd, an Improved Linux Experience, and More",
-    "description": "Toolbox App 3.3 introduces jetbrainsd – a lightweight background service that lays the foundation for cross-IDE features like protocol handling. This release also brings significant stability improvements for Linux users, smoother plugin updates, and a number of bug fixes across all platforms. jetbrainsd Toolbox App 3.3 ships with the jetbrainsd service – a new lightweight […]",
+    "title": "LINE DEV AI 리포터즈의 여정을 공유합니다!",
+    "description": "요즘은 \"AI 써보셨어요?\"라는 질문이 더 이상 특별하게 느껴지지 않습니다. 이미 많은 개발자들이 각자의 방식으로 ChatGPT나 Claude Code 같은 AI 도구를 업무에 활...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/toolbox-app/2026/02/toolbox-app-3-3-introducing-jetbrainsd-an-improved-linux-experience-and-more/",
-    "pubDate": "Thu, 26 Feb 2026 11:31:29 +0000",
-    "creator": "Lana Novikova",
-    "categories": [
-      "jetbrains-toolbox",
-      "toolbox-app"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/introducing-the-journey-of-the-line-dev-ai-reporters",
+    "pubDate": "Mon, 23 Feb 2026 01:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "[MULTI] 신화가 되지 못한 소년들, 갓 오브 워 썬즈 오브 스파르타",
-    "description": "No description available",
+    "title": "Building LLM-Friendly MCP Tools in RubyMine: Pagination, Filtering, and Error Design",
+    "description": "RubyMine enhances the developer experience with context-aware search features that make navigating a Rails application seamless, a powerful analysis engine that detects problems in the source code, and integrated support for the most popular version control systems. With AI becoming increasingly popular among developers as a tool that helps them understand codebases or develop applications, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2425",
-    "pubDate": "Fri, 27 Feb 2026 20:28:34 +0900",
-    "creator": "(RULIWEB`Д')/",
+    "link": "https://blog.jetbrains.com/ruby/2026/02/rubymine-mcp-and-the-rails-toolset/",
+    "pubDate": "Wed, 25 Feb 2026 12:02:38 +0000",
+    "creator": "Daniel Domjan",
     "categories": [
-      "리뷰"
+      "ai",
+      "rubymine",
+      "mcp",
+      "rails"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "SQL 대시보드 shaper",
-    "description": "SQL을 입력하면 차트를 그려주는 데이터 시각화 툴 shaper.\n\nC:\\Users\\Administrator>pip install shaper-bin\nCollecting shaper-bin\n  Downloading shaper_bin-0.14.0-py3-none-any.whl.metadata (2.3 kB)\nRequirement already satisfied: requests>=2.31.0 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from shaper-bin) (2.32.5)\nRequirement already satisfied: charset_normalizer<4,>=2 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from requests>=2.31.0->shaper-bin) (3.4.4)\nRequirement already satisfied: idna<4,>=2.5 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from requests>=2.31.0->shaper-bin) (3.11)\nRequirement already satisfied: urllib3<3,>=1.21.1 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from requests>=2.31.0->shaper-bin) (1.26.20)\nRequirement already satisfied: certifi>=2017.4.17 in c:\\users\\administrator\\appdata\\local\\programs\\python\\python314\\lib\\site-packages (from requests>=2.31.0->shaper-bin) (2025.11.12)\nDownloading shaper_bin-0.14.0-py3-none-any.whl (12 kB)\nInstalling collected packages: shaper-bin\nSuccessfully installed shaper-bin-0.14.0\n\n\n[notice] A new release of pip is available: 25.3 -> 26.0.1\n[notice] To update, run: python.exe -m pip install --upgrade pip\n\n\nC:\\Users\\Administrator>shaper\nFetching Shaper binary...\nInstallation failed: Unsupported platform: windows-x86_64\n\n\n\n\n윈도우는 아직 지원하지 않아서 WSL 우분투에 설치.\n\nroot@easyDATA:~# pip install shaper-bin\nerror: externally-managed-environment\n\n\n× This environment is externally managed\n╰─> To install Python packages system-wide, try apt install\n    python3-xyz, where xyz is the package you are trying to\n    install.\n\n\n    If you wish to install a non-Debian-packaged Python package,\n    create a virtual environment using python3 -m venv path/to/venv.\n    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make\n    sure you have python3-full installed.\n\n\n    If you wish to install a non-Debian packaged Python application,\n    it may be easiest to use pipx install xyz, which will manage a\n    virtual environment for you. Make sure you have pipx installed.\n\n\n    See /usr/share/doc/python3.12/README.venv for more information.\n\n\nnote: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.\nhint: See PEP 668 for the detailed specification.\n\n\n\n\n시스템 안전성을 위해 가상환경을 추천하는 듯. 그냥 강제 설치.\n\nroot@easyDATA:~# pip install shaper-bin --break-system-packages\nCollecting shaper-bin\n  Downloading shaper_bin-0.14.0-py3-none-any.whl.metadata (2.3 kB)\nRequirement already satisfied: requests>=2.31.0 in /usr/lib/python3/dist-packages (from shaper-bin) (2.31.0)\nDownloading shaper_bin-0.14.0-py3-none-any.whl (12 kB)\nInstalling collected packages: shaper-bin\nSuccessfully installed shaper-bin-0.14.0\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\n\n\n\n\n실행하면 localhost:5454 포트로 접속할 수 있는 웹 UI를 제공한다.\n\nroot@easyDATA:~# shaper\nFetching Shaper binary...\nLoading checksums...\nDownloading shaper v0.14.0 for linux-x86_64...\nVerifying checksum...\nChecksum verified successfully\nInstallation complete!\ntime=2026-02-20T15:11:08.349+09:00 level=INFO msg=\"Starting Shaper\" version=0.14.0\ntime=2026-02-20T15:11:08.349+09:00 level=INFO msg=\"For configuration options see --help or visit https://taleshape.com/shaper/docs for more\"\ntime=2026-02-20T15:11:08.349+09:00 level=INFO msg=\"Created data directory\" path=/root/.shaper\ntime=2026-02-20T15:11:08.349+09:00 level=INFO msg=\"SQLite opened\" file=/root/.shaper/shaper_internal.sqlite\ntime=2026-02-20T15:11:08.361+09:00 level=INFO msg=\"DuckDB opened\" file=/root/.shaper/shaper.duckdb\ntime=2026-02-20T15:11:08.361+09:00 level=INFO msg=\"Loading init-sql-file\" path=/root/.shaper/init.sql\ntime=2026-02-20T15:11:08.361+09:00 level=INFO msg=\"init-sql-file does not exist, skipping\" path=/root/.shaper/init.sql\ntime=2026-02-20T15:11:08.472+09:00 level=WARN msg=\"No users found. Authentication is disabled until first user is created. Make sure you don't expose sensitive data publicly.\"\ntime=2026-02-20T15:11:08.472+09:00 level=INFO msg=\"nats: Not listening on any network interfaces. Specify a port to make NATS available on the network.\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats: Starting nats-server\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Version:  2.12.3\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Git:      [not set]\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Name:     ND3IDHLHXLSNSXSYIMZM6UG5ZXVHKSZZG7RRPD67ETIFFYQDC2BMIVSZ\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Node:     CKVn21lV\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   ID:       ND3IDHLHXLSNSXSYIMZM6UG5ZXVHKSZZG7RRPD67ETIFFYQDC2BMIVSZ\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats: Starting JetStream\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats: ---------------- JETSTREAM ----------------\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Strict:          true\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Max Memory:      11.50 GB\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Max Storage:     715.04 GB\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   Store Directory: \\\"/root/.shaper/nats/jetstream\\\"\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats:   API Level:       2\"\ntime=2026-02-20T15:11:08.473+09:00 level=INFO msg=\"nats: -------------------------------------------\"\ntime=2026-02-20T15:11:08.474+09:00 level=INFO msg=\"nats: Took 596.612µs to start JetStream\"\ntime=2026-02-20T15:11:08.474+09:00 level=INFO msg=\"nats: Server is ready\"\ntime=2026-02-20T15:11:08.481+09:00 level=INFO msg=\"Loaded scheduled tasks\"\ntime=2026-02-20T15:11:08.481+09:00 level=INFO msg=\"Snapshots disabled\"\ntime=2026-02-20T15:11:08.482+09:00 level=INFO msg=\"Web server is listening at localhost:5454\"\ntime=2026-02-20T15:11:08.482+09:00 level=INFO msg=\"Open http://localhost:5454 in your browser\"\n\n\n\n\n간단한 데이터 분석 시 주로 사용하는 Logparser는 차트 기능이 단순해서 엑셀 병용이 필수였는데, shaper는 복잡한 차트도 바로바로 그릴 수 있어서 훨씬 편하다. 다이렉트로 윈도우 이벤트 접근까지 가능해지면 대박인데 해줄래나(..)\n\n\n\n\n\n관련 글\n\nLogParser 활용(Web Log 이상징후 분석)",
+    "title": "네임드롭핑",
+    "description": "네임드롭핑(namedropping)에 대한 이야기를 내가 지난 몇 년 동안 꽤 자주 했는데, 최근에 이런 분들을 갑자기 몇 명 만나서 또 해보려고 한다. Namedropping은 말 그대로 “이름을 내뱉다”라는 의미인데, 쓸데없이 아는 사람의 이름을 파는 행위를 말한다. 아마도 이 글을 읽는 분들도 본인들이 직접 이런 경험이 있거나, 주변에 네임드롭핑을 하는 사람들이 있을 것이다. 나도 과거에 가끔 네임드롭핑을 했던(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/02/sql-shaper.html",
-    "pubDate": "2026-02-21T13:15:00.003Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2026/02/namedropping.html",
+    "pubDate": "Wed, 25 Feb 2026 21:37:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "general",
+      "people"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "글로벌 고객이 찾아오는 구글맵 리뷰 전략 - 창업(소상공인)",
-    "description": "1. 배경 : 왜 지금 구글맵에 주목해야 할까요?  과거에는 구글맵이 주로 해외여행이나 외국인 관광객을 위한 지도였다면, 최근 분위기는 완전히 달라졌습니다. 국내에서도 안드로이드폰 기본 탑재와 더불어, 광고성 정보가 적고 신뢰할 수 있다는 인식 덕분에 MZ세대를 중심으로 '진짜 맛집' 검색 도구로 자리 잡고 있습니다. 특히 엔데믹 이후 급증한 외국인 관광객",
+    "title": "ViT 및 VLM 메커니즘 이해 및 코드 스크래치하기",
+    "description": "이 글은 VLM 스크래치하는 방법을 나눔한다.\n\n\n\n\n\nVLM 레퍼런스\n\nVision Language Model from scratch in Pytorch #vlm - Qiita\nAviSoori1x/seemore: From scratch implementation of a vision language model in pure PyTorch\nnanoVLM: The simplest repository to train your VLM in pure PyTorch\nhuggingface/nanoVLM: The simplest, fastest repository for training/finetuning small-sized VLMs.\nTraining a Vision Language Model from scratch (VLM multi-modal) | by Saptarshi MT | Medium\nImplementation of Vision language models (VLM) from scratch: A Technical Deep Dive. | by Achraf Abbaoui | Medium\nWiring the Multimodal Mind: Building a Vision Language Model (VLM) from Scratch - Part 1 | by Priyanthan Govindaraj | Medium\nseemore: Implement a Vision Language Model from Scratch\nVidit-Ostwal/VLM-from-scratch: This is majorly for my own learning purpose.\nBuilding a Nano Vision-Language Model from Scratch\nnipunbatra/vlm-from-scratch\nBuilding PaliGemma VLM From Scratch using Pytorch | by Shanmuka Sadhu | Jan, 2026 | Medium\nSmolVLM - small yet mighty Vision Language Model\n\nViT 레퍼런스\n\nVision Transformer (ViT) from Scratch\nViT Scratch Implementation - PyTorch\nBuilding Vision Transformers (ViT) from Scratch | by Maninder Singh | Medium\n今井美樹 彼女と TIP ON DUO 歌詞 - 歌ネット\nBuilding a Vision Transformer from Scratch in PyTorch - GeeksforGeeks\nTraining a Vision Transformer from Scratch on CIFAR-10:No Pre-training, No Problem | by Akshay Gokhale | Medium\nVision Transformer For CIFAR-10",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/332",
-    "pubDate": "Tue, 24 Feb 2026 06:43:37 GMT",
-    "creator": "고명환",
+    "link": "http://daddynkidsmakers.blogspot.com/2026/02/vlm.html",
+    "pubDate": "2026-02-24T11:15:00.000Z",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "읽지 않는 코드의 시대",
-    "description": "[![NHN Cloud_meetup banner_coding_202602_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannercoding202602900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n>  본 콘텐츠는 작성자가 사내 게시판에 공유한 글을 가공한 것으로, 작성자의 의도와 맥락을 충실히 전달하기 위해 원문의 문장 스타일을 그대로 유지하였습니다.\r\r\n\r\r\n\r\r\n---\r\r\n\r\r\n\r\r\n나는 오랫동안 아름다운 코드를 꿈꿔 왔다.\r\r\n\r\r\n순수 함수들이 물 흐르듯 합성되고, 타입 시스템이 버그를 원천적으로 불가능하게 만들며, 수학적 증명처럼 견고한 로직이 펼쳐지는 그런 코드. 우리는 그것을 '장인 정신'이라 불렀고, 그 경지에 도달하기 위해 범주론을 공부하고, 타입 레벨 프로그래밍을 이해하려 씨름했다.\r\r\n\r\r\n그러나 어느 날 문득 깨달았다. 더 이상 아무도 코드를 읽지 않는다는 것을.\r\r\n\r\r\n## 가독성의 정의가 바뀌다\r\r\n'가독성'이라는 단어의 의미가 조용히, 그러나 근본적으로 변하고 있다.\r\r\n과거의 가독성은 **인간의 인지**를 위한 것이었다.\r\r\n\r\r\n* 개발자가 로직을 머릿속에서 추적할 수 있는가\r\r\n* 동료가 코드 리뷰에서 오류를 발견할 수 있는가\r\r\n* 6개월 후의 내가 이 코드를 이해할 수 있는가\r\r\n\r\r\n우리는 이 질문들에 답하기 위해 클린 코드(Clean Code)를 논했고, SOLID 원칙을 세웠으며, 디자인 패턴이라는 공통 언어를 만들었다. 모두 인간의 제한된 작업 기억 용량 안에서 복잡성을 다루기 위한 몸부림이었다.\r\r\n그러나 이제 가독성은 기계의 패턴 인식을 위한 것이 되어 가고 있다.\r\r\n\r\r\n* AI가 이 코드의 패턴을 학습 데이터에서 본 적 있는가\r\r\n* AI가 수정 요청을 받았을 때 정확한 위치를 찾을 수 있는가\r\r\n* AI가 로컬 변경을 가했을 때 전체 시스템이 깨지지 않는가\r\r\n\r\r\n이 두 가지 가독성은 때로 겹치지만, 본질적으로 다른 것을 최적화한다. 인간을 위한 가독성은 **추상화와 압축**을 추구한다. 반복을 제거하고, 패턴을 이름 붙이며, 복잡성을 캡슐화한다. 기계를 위한 가독성은 **명시성과 예측 가능성**을 추구한다. 관습을 따르고, 구조를 일정하게 유지하며, 장황하고 지저분해지더라도 암묵적인 것을 명시적으로 드러낸다.\r\r\n\r\r\n## 장인 정신의 비극적 위치\r\r\n\r\r\n함수형 프로그래밍이 약속했던 것은 명확했다. 인간의 인지적 한계를 코드로 극복하는 것.\r\r\n참조 투명성은 코드의 어떤 부분이든 독립적으로 추론할 수 있게 해주었다. 불변성은 시간에 따른 상태 변화를 머릿속에서 추적하는 부담을 덜어주었다. 강력한 타입 시스템은 컴파일러가 우리 대신 오류를 잡아주었다. 이 모든 것이 **인간의 한계를 보완**하기 위한 도구였다.\r\r\n\r\r\n그러나 AI에게는 보완할 한계가 없다.\r\r\n\r\r\nAI는 수백만 개의 코드베이스를 학습했다. 패턴 매칭의 원시적 힘으로 무장한 AI에게, 인간의 인지 부하를 줄여주는 우아한 추상화는 그저 노이즈에 가깝다. AI는 똑같은 CRUD 작업의 만 가지 변형을 보았다. 심혈을 기울여 작성한 우아한 모나드 트랜스포머 스택보다 평범하고 반복적인 명령형 코드가 AI에게는 더 익숙하다.\r\r\n여기서 장인 정신의 딜레마가 시작된다.\r\r\n\r\r\n함수형 프로그래밍의 지지자들은 수십 년간 같은 말을 해왔다.\r\r\n\r\r\n\"배우기는 어렵지만, 장기적 이점이 있습니다.\"\r\r\n\r\r\n그런데 AI가 명령형 프로그래밍의 진입 장벽을 무너뜨려버렸다. 이제 누구나 AI의 도움으로 명령형 코드를 빠르게 작성할 수 있다. 반면 함수형 프로그래밍의 학습 곡선은 여전히 가파르다.\r\r\n더욱 쓸쓸한 것은 함수형 프로그래밍의 아름다움을 감상할 줄 아는 사람들마저 더 이상 코드를 직접 읽지 않는다는 사실이다. 그들의 Claude Code가 대신 읽는다. 감상할 눈이 사라진 예술이 무슨 의미가 있을까.\r\r\n\r\r\n```\r\r\nClaude >> @PureFunctional OrderService::doStuff의 로직을 분석해서 설명해 줘\r\r\n```\r\r\n\r\r\n## 매개체로 전락한 코드\r\r\n\r\r\n이제 코드의 존재론적 지위가 바뀌고 있다.\r\r\n과거에 코드는 인간의 영역이었다. 우리는 그 안에서 살았다. 매일 읽고, 고치고, 확장했다. 변수명 하나에 고민하고, 함수의 위치를 두고 토론했다. 코드는 우리의 생각이 물질화된 것이었고, 그래서 우리는 그것의 아름다움에 신경 썼다.\r\r\n이제 코드는 인간의 의도와 기계의 실행 사이를 잇는 매개체가 되어 가고 있다.\r\r\n\r\r\n```\r\r\n인간의 의도 → 자연어 명세 → AI → 코드(누가 신경이나 쓰는가) → 실행\r\r\n```\r\r\n\r\r\n이 모델에서 함수형 vs 객체지향 논쟁은 x86 vs ARM 논쟁과 비슷해진다. 특정 상황에서 성능 차이가 있을 수 있다. 그러나 그것은 더 이상 인간이 거주하는 층위가 아니다.\r\r\n우리는 집을 짓는 목수에서 집을 주문하는 건축주가 되어 가고 있다. 목수에게 나뭇결은 단순한 무늬가 아니다. 그것은 나무의 강도와 방향을 말해주고, 어디를 깎고 어디를 살려야 할지 알려주며, 완성된 작품이 세월을 어떻게 견딜지를 예언한다. 그러나 건축주는 문이 제대로 닫히면 그만이다.\r\r\n\r\r\n## 새로운 미학의 등장\r\r\n\r\r\n그렇다면 AI 시대의 '좋은 코드'란 무엇인가? 새로운 미학이 필요하다.\r\r\n\r\r\n### 관용적 표현이 최적화를 이긴다\r\r\n\r\r\n```\r\r\n// AI 친화적: 수백만 번 본 패턴\r\r\nusers.stream().filter(User::isActive).toList();\r\r\n\r\r\n// AI 비친화적: 이게 뭐 하는 코드지?\r\r\nusers.stream().reduce(new ArrayList(),\r\r\n    (acc, u) -> { if(u.isActive()) acc.add(u); return acc; },\r\r\n    (a, b) -> { a.addAll(b); return a; });\r\r\n```\r\r\n\r\r\nAI는 익숙한 것을 잘 다룬다. 창의적인 최적화보다 평범한 관용구가 더 안전하다.\r\r\n\r\r\n### 추론의 지역성\r\r\n\r\r\n함수를 이해하는 데 필요한 모든 것이 눈에 보이거나, 한 번의 점프로 도달 가능해야 한다. Action at a distance는 금물이다. Dependency injection 트릭, aspect weaving, runtime proxy—이 모든 암묵적 메커니즘이 AI의 추론을 방해한다.\r\r\n\r\r\n### 예측 가능한 구조\r\r\n\r\r\n```\r\r\n/order\r\r\n  OrderController.java\r\r\n  OrderService.java\r\r\n  OrderRepository.java\r\r\n  Order.java\r\r\n```\r\r\n\r\r\nAI는 관습에서 맥락을 추론한다. 파일이 어디 있을지 예측할 수 있으면, 탐색 비용이 줄어든다. 관습은 압축된 정보다.\r\r\n\r\r\n### 명시적 상태 전이\r\r\n\r\r\n```\r\r\n// AI 친화적: 가능한 상태가 명시적으로 열거됨\r\r\nenum Status { DRAFT, SUBMITTED, FULFILLED }\r\r\n\r\r\n// AI 비친화적: 플래그 조합으로 상태를 유추해야 함\r\r\nboolean isSubmitted;\r\r\nboolean isFulfilled;\r\r\nboolean isDraft;\r\r\n```\r\r\n\r\r\n상태가 열거형으로 선언되어 있으면 AI는 전체 그림을 한눈에 파악한다. 여러 boolean 플래그를 조합해서 상태를 유추해야 하는 코드는 AI도 인간처럼 길을 잃는다. `isSubmitted`와 `isFulfilled`가 동시에 true면 무슨 상태인가?\r\r\n\r\r\n### 장황하지만 명확한 이름\r\r\n\r\r\n```\r\r\n// AI 친화적: 이름만 봐도 의도가 명확\r\r\npublic boolean isEligibleForRefundBasedOnPurchaseDateAndMembershipStatus()\r\r\n\r\r\n// AI 비친화적: 주석에 의존\r\r\n/** 구매일과 멤버십 상태에 따라 환불 가능 여부를 판단한다 */\r\r\npublic boolean canRefund()\r\r\n```\r\r\n\r\r\n인간에게는 간결한 이름과 상세한 주석이 읽기 좋을 수 있다. 그러나 AI는 주석보다 코드를 신뢰한다. 함수명 자체가 의도를 담고 있으면, AI는 별도의 맥락 없이도 정확하게 해당 함수를 활용할 수 있다.\r\r\n\r\r\n### 작은 파일, 단일 책임\r\r\n\r\r\n100줄짜리 파일 10개가 1000줄짜리보다 낫다. AI의 컨텍스트 윈도우는 실질적 제약이다. 작은 파일은 전체를 교체하기도, 부분을 수정하기도 쉽다.\r\r\n\r\r\n### 명세로서의 테스트\r\r\n\r\r\n```\r\r\n@Test\r\r\nvoid shouldRejectOrderWhenInventoryInsufficient() { ... }\r\r\n```\r\r\n\r\r\nAI는 테스트를 읽고 코드의 의도를 역으로 파악한다. 테스트 이름이 곧 요구 사항이 되고, 테스트 본문이 곧 예제가 된다.\r\r\n\r\r\n## 아이러니: 함수형의 귀환\r\r\n\r\r\n흥미로운 반전이 있다.\r\r\nAI 친화적 코드의 원칙들—불변성, 명시적 상태, 작고 순수한 함수—은 함수형 프로그래밍의 원칙과 상당 부분 겹친다.\r\r\n함수형 프로그래밍은 살아남을 것이다. 그것이 아름다워서가 아니라, **기계가 읽기 좋아서**.\r\r\n\r\r\n고차원적 추상화와 이론적 우아함은 사라질 것이다. 그러나 불변 데이터, 순수 함수, 명시적 타입은 남을 것이다. 미학은 바뀌었지만, 핵심 원칙들은 다른 이유로 생명을 얻었다. 이것이 함수형 프로그래밍 애호가들에게 위안이 될지는 모르겠다. 사랑하는 것이 살아남았지만, 사랑 받는 이유가 완전히 달라졌으니.\r\r\n\r\r\n## 결론\r\r\n\r\r\n우리는 아름다운 시대의 끝자락에 서 있다.\r\r\n코드를 매개로 인간과 인간이 소통하던 시대. 변수명 하나에 의도를 담고, 함수의 구조로 사고의 흐름을 표현하던 시대. 동료의 코드를 읽으며 그의 사고방식을 이해하고, 때로는 감탄하던 시대.\r\r\n\r\r\n그 시대가 저물고 있다.\r\r\n코드는 점점 인간의 눈을 거치지 않는 영역으로 이동하고 있다. 우리가 코드 안에서 살았기 때문에 그 아름다움에 신경 썼듯이, 우리가 코드 밖으로 나가면 그 아름다움은 의미를 잃는다. 장인 정신은 LP 레코드나 기계식 시계처럼—효율보다 과정을 사랑하는 이들의 영역으로 남게 될 것이다. 시장은 우아함을 알아봐주지 않는다. 시장은 속도를 원한다. 그리고 AI가 명령형 코드의 속도를 거의 무한히 빠르게 만들어 버렸다.\r\r\n\r\r\n그래도 우리는 가끔, 퇴근 후 조용한 사무실에서 마침내 완성한 순수 함수의 체인이 테스트를 통과하며 초록불이 켜지던 순간을 기억할 것이다. 타입 시스템이 버그를 컴파일 타임에 잡아주었을 때의 희열을. 코드가 단지 작동하는 것을 넘어, 그 자체로 하나의 증명이 되었을 때의 만족을.\r\r\n\r\r\n아름다운 추억이다.\r\r\n\r\r\n---\r\r\n\r\r\n>  본 콘텐츠는 작성자가 사내 게시판에 공유한 글을 가공한 것으로, 작성자의 의도와 맥락을 충실히 전달하기 위해 원문의 문장 스타일을 그대로 유지하였습니다.\r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_202507-01.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooter20250701.png)](https://www.nhncloud.com/kr)",
+    "title": "Migrating to Modular Monolith using Spring Modulith and IntelliJ IDEA",
+    "description": "As applications grow in complexity, maintaining a clean architecture becomes increasingly challenging. The traditional package-by-layer approach of organizing code into controllers, services, repositories, and entities packages often leads to tightly coupled code that’s hard to maintain and evolve. Spring Modulith, combined with IntelliJ IDEA’s excellent tooling support, offers a powerful solution for building well-structured modular […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://meetup.nhncloud.com/posts/408",
-    "pubDate": "Mon, 23 Feb 2026 00:20:28 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/idea/2026/02/migrating-to-modular-monolith-using-spring-modulith-and-intellij-idea/",
+    "pubDate": "Wed, 25 Feb 2026 12:40:36 +0000",
+    "creator": "Siva Katamreddy",
+    "categories": [
+      "idea",
+      "intellij-idea",
+      "spring-boot",
+      "spring-modulith"
+    ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "비트코인과 양자 컴퓨터 내성 암호 그리고 둟려버린 SIKE 암호",
-    "description": "(비트코인 뚫렸넹)\n \n일단 궁금하신 비트코인은 양자 컴퓨터 내성 암호화 방식으로 변경해서 양자컴퓨터를 대응할 계획입니다.\n이전에도 여러번의 비트코인 업데이트가 있었고 이번에도 이 방식으로 해결 할 것입니다.\n \n왜 당장 안바꾸나요\n아래 SIKE 암호과 뚫린 이야기에도 있지만 표준 양자내성암호화가 직정되지 않았습니다.\n섯불리 하나 도입했다가 표준이 다른걸로 선정되면 비트코인의 신뢰도가 하락 합니다.\n그냥 표준이 정해질때 까지 기다린 후에 그걸로 적용하는게 좋습니다.\n \n \n \n양자내성암화로 바꿔도 해야할 일\n현재의 암호와 방식으로는 양자 컴퓨터가 발전하게 되면 뚫릴 가능성이 있습니다.\n아마도 지갑 주소를 보고 지갑 키를 만들어내는 방식으로 공격하지 않을까 예상됩니다.\n이미 저장된 지갑 주소는 오랜기간 투자하면 결국 찾아낼 것입니다.\n(양자 컴퓨터가 20년 정도 발전한다면 말이죠)\n \n양자 내성 암호화가 되더라도 결국 지감을 주기적으로 교체하는 방식은 계속 사용해야 할 것입니다.\n \n뚫려버린 SIKE 사태에 대해 알아보자\n\n\n(국민 연금 공단은 NPS 다 햇갈리지 말자)\n \n참 허무한 방식으로 뚫려버려서 충격이 더 컸으며\n앞으로도 이런일은 벌어지기 어려울 것입니다.\n \n사이키(SIKE, Supersingular Isogeny Key Encapsulation) 암호화 방식은\n2022년 7월 5일에 NIST(미국 국립표준기술연구소) 의 양자내성암호화 사업을 시작할때 3개가 선정되었는데 그중에 한개 입니다.\n그리고 2022년 7월 22일 (17일후)에 이 암호화는 못쓴다는 결론이 났습니다.\n이걸로 양자컴퓨터가 유명해졌는데\n알려진 사실로는 이 암호화 방식은 뚫리기 위해 선정된 함정 카드였고\n수악적 허점으로 양자 컴퓨터가 아닌 일반 컴퓨터로 1시간 연산으로 키를 계산할 수 있었다고 합니다.\n \n애초에 전성되어선 안될 암호화 방식이였다.\n제 생각입니다. 양자내성암호화의 중요성을 알리기위해 뚫릴꺼 알고 선정한거 같습니다.\n실제로 이 이슈로 양자내성암호화는 유명해 졌고 암호화 교체를 준비하던 프로젝트들도 암호화를 더 쉽게 변경할 수 있도록 준비하게 되었습니다.\n \n나머지 두개는 ?\nKyber(ML-KEM)\nDilithium(ML-DSA)\n두가지 방식이 남아있습니다.\n \n두 암호화는 뚫릴꺼 같으면 차원을 증가시켜 필요 양자 큐비트 수를 증가시키는 방식으로 대응하고 있습니다.\n양자컴퓨터 발전으로 큐비트가 늘어나는 속도보다 차원을 더 많이 늘려버리면 방어가 된다는 논리입니다.\n큐피트가 창이라면 방패 수를 훨씬 늘려 버린다는 뜻입니다.\n(방패 늘리기 쉬운 방식이라는거죠)",
+    "title": "[책 리뷰] “우리, 프로그래머들”, 미래를 이해하기 위해, 과거를 봐야한다.",
+    "description": "어릴적에 좋아하던게, 위인전을 읽는 것이었습니다. 개발자가 되고 나서는 그런 개발의 역사를 아는 것이 재미있기도 하지만, 새로운 기술을 이해하기 위한 밑바탕이 되는 것이, 어떤 기술이 어떤 목적으로 나왔는지에 대한 것이었습니다. 책의 2부에서는 컴퓨터 역사의 거장들에 대한 이야기가 나오는데, 특히 컴파일러라는 기술이 신기하고도 대단해보였던 저에게는 BNF 표현식과 최초의 고수준 언어 포트란을 만든 존 배커스에 대한 이야기와 최초의 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1575",
-    "pubDate": "Sat, 21 Feb 2026 20:13:36 +0900",
-    "creator": "SIDNFT",
+    "link": "https://charsyam.wordpress.com/2026/02/28/%ec%b1%85-%eb%a6%ac%eb%b7%b0-%ec%9a%b0%eb%a6%ac-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%a8%b8%eb%93%a4-%eb%af%b8%eb%9e%98%eb%a5%bc-%ec%9d%b4%ed%95%b4%ed%95%98%ea%b8%b0-%ec%9c%84%ed%95%b4/",
+    "pubDate": "Sat, 28 Feb 2026 13:17:54 +0000",
+    "creator": "charsyam",
     "categories": [
-      "코인",
-      "비트코인",
-      "양자내성암호화",
-      "양자컴퓨터"
+      "Uncategorized"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "비락탈, 마법의 보드 게임을 즐겨보자!",
-    "description": "No description available",
+    "title": "가우시안 스플리터의 한계와 공간모델 개발",
+    "description": "오토데스크나 제조업에서 요구하는 진정한 '공간 지능'과 '파라메트릭 CAD'를 구현하려면, AI가 단순한 점과 면(Mesh)의 집합이 아닌 B-rep(경계 표현)이나 CSG(Constructive Solid Geometry) 같은 수학적 스케치와 돌출(Extrude) 명령어 시퀀스를 생성할 수 있어야 한다.\n이러한 치수 제어 및 파라메트릭 모델링, 그리고 공간 지능(LWM)을 향해 연구되고 있는 오픈소스 및 프로젝트들을 엄선해 조사했다.\n1. 파라메트릭 CAD 생성 및 절차적 3D 모델 (AI to CAD)\n단순한 메쉬(.obj)가 아니라, 치수를 조절할 수 있는 STEP 파일이나 CAD 명령어 스크립트를 생성하는 프로젝트들이다.\nDeepCAD (A Deep Generative Network for CAD Models)\n설명: 3D CAD 모델을 단순한 3D 도형이 아니라, '스케치(Profile) → 돌출(Extrude) → 필렛(Fillet)' 같은 CAD 명령어의 시퀀스로 인식하고 생성하는 선구적인 프로젝트이다. AI가 설계자의 작업 순서를 학습하여 파라메트릭 수정이 가능한 데이터를 추출한다.\nChrisWu1997/DeepCAD\n\nZoo Text-to-CAD API\n설명: 텍스트를 입력하면 (예: \"20개의 톱니가 있고 중심축 구멍 지름이 5mm인 기어\") 즉석에서 파라메트릭 CAD 코드(KCL - KittyCAD Language)를 생성하여 STEP, IGES 등의 포맷으로 변환해 주는 프로젝트이다.\nZoo-dev / kittyCAD 인프라\nInfinigen\n설명: 자연계와 사물을 100% 절차적(Procedural)인 수학 공식과 노드(Node) 트리로 생성해 내는 거대한 3D 프레임워크이다.\nprinceton-vl/infinigen\n2. 공간 지능 (Spatial Intelligence) 및 LWM(Large World Model)\n단순한 2D의 연속이 아니라 물리적 3D 공간의 깊이, 기하학, 영속성을 이해하는 기초 모델(Foundation Model) 연구이다.\nLargeWorldModel (LWM) - UC Berkeley\n설명: 프로젝트 이름 자체가 LWM이다. 100만(1M) 토큰의 컨텍스트 창을 가진 비디오/언어 모델이다.\nLargeWorldModel/LWM\n\nZero123\n설명: 단일 이미지를 보고 물체의 보이지 않는 뒷면과 다른 각도의 시점을 기하학적으로 일관되게 추론해 내는 모델이다.\nSUDO-AI-3D/zero123plus\n\n현재 기술의 한계와 돌파구\n현재의 한계 (Image to 3D): 이미지를 보고 가우시안 스플래팅이나 메쉬(OBJ)를 만드는 것은 빠르지만, 산업용 설계나 정밀한 편집에는 한계가 명확하다.\n부록: 두 방식 발전 방향\n두 방식 중 어느 것이 '더 좋은가'는 목적에 따라 완전히 갈리며, 페이페이 리(Fei-Fei Li) 교수의 월드랩스(World Labs)가 추구하는 거대 세계 모델(LWM)의 방향성도 이 두 기술의 교차점에 있다. 이를 심층적으로 분석하고 최신 SOTA 프로젝트를 조사한다.\n1. 시퀀스 생성(DeepCAD 계열) vs 시각적 렌더링(3DGS 계열) 비교\n결론부터 말하자면, 제조/설계(AEC/CAD) 분야에서는 DeepCAD 방식이 압도적으로 우월하고, 엔터테인먼트/가상현실/로보틱스 비전 분야에서는 3DGS 방식이 절대적으로 유리하다.\n먼저 DeepCAD 계열(AI to CAD Sequence)은 산업용 설계 도면을 만들어내는 데 특화되어 있다. 이 기술의 핵심 원리는 3D 형상의 겉모습만 묘사하는 것이 아니라, 대상을 모델링하기 위한 수학적 명령어의 순서를 인공지능이 직접 추론해 내는 것이다. 그 결과물은 단순한 점토 덩어리가 아니라, 실제 설계 프로그램에서 즉시 다룰 수 있는 파라메트릭 CAD 데이터(STEP, IGES, CSG 스크립트 등) 형태로 출력된다. 이 방식의 가장 큰 무기는 완벽한 절대 치수 제어와 세밀한 곡률 반경 수정이 가능하다는 점이다. 하지만 수학적인 공식으로 딱 떨어지지 않는 자연물(사람, 나무 등)이나 비정형적이고 복잡한 형상을 표현하는 데는 뚜렷한 한계를 보인다.\n반면 가우시안 스플래팅(Image to 3DGS/Mesh)은 현실 세계의 시각적인 복원에 모든 초점을 맞추고 있다. 빛의 반사와 색상 정보를 지닌 무수히 많은 타원체 입자를 3D 공간에 흩뿌려 세상을 사실적으로 표현하는 것이 핵심 원리이다. 그렇기 때문에 결과물 역시 속이 꽉 찬 설계 데이터가 아니라, 텅 빈 공간에 떠 있는 포인트 클라우드나 비정형 메쉬(PLY, OBJ) 형태로 도출된다. 이 방식은 사진처럼 정밀하고 압도적인 시각 효과를 주지만, 물리적인 절대 치수(Scale) 개념이 없고 임의의 상대 비율만 존재하여 토폴로지(구조) 편집이 원천적으로 불가능하다. 따라서 0.1mm의 오차도 허용되지 않는 산업용 금형 제작이나 정밀 조립을 위한 공차 설계 등에는 사용할 수 없다.\n최근의 산업 트렌드는 이 둘을 결합하여, \"3DGS로 현실 세계를 빠르게 스캔한 뒤, AI가 그 포인트 클라우드에서 기하학적 특징(원통, 평면 등)을 역산하여 CAD 시퀀스로 변환하는 방식(Scan-to-BIM / Scan-to-CAD)\"으로 진화하고 있다.\n2. 각 계열의 최신 SOTA 깃허브 프로젝트\nA. CAD 시퀀스 및 B-rep 생성 (DeepCAD의 진화형)\n단순히 모양을 맞추는 것을 넘어, 위상(Topology)과 스케치 제약 조건(Constraints)을 완벽하게 학습하는 모델들이다.\nSkexGen (Sketch-and-Extrude Generation)\nyccyenchiao/SkexGen\nHextree / SECAD-Net\nPuhao11/SECAD-Net\nB. 기하학적 정밀도를 높인 가우시안 스플래팅 (3DGS의 진화형)\n3DGS의 단점인 '수학적 표면(Surface)이 없다'는 문제를 해결하여, 고품질의 메쉬를 뽑아내기 위한 모델들이다.\nSuGaR (Surface-Aligned Gaussian Splatting)\nAnttwo/SuGaR\n2D Gaussian Splatting (2DGS)\nhbb1/2d-gaussian-splatting\n3. 페이페이 리 교수(World Labs)의 LWM 설계 방식 추론\n그녀는 수학적 기반의 B-rep이나 파라메트릭 CAD 전문가는 아니지만, 컴퓨터 비전(ImageNet 창시자)과 로보틱스(Embodied AI)의 권위자로서 '카메라 렌즈를 통해 3D 물리 공간의 구조와 깊이를 추론하는 방식'에는 세계 최고 수준의 이해도를 가지고 있다.\n따라서 월드랩스의 LWM(마블)은 제조용 CAD 생성이 아니라, 물리 법칙이 작용하는 시뮬레이션 환경 구축에 초점을 맞추어 다음과 같이 설계될 것으로 추론된다.\n입력 및 추론 (2D/비디오 파운데이션 기반): 디퓨전 모델이나 트랜스포머가 단일 이미지/텍스트를 입력받아 보이지 않는 뒷면과 공간의 깊이(Depth)를 추론한다. (Zero123과 유사한 공간 상상력).\nCAD 진영(DeepCAD)은 설계 도면을 역공학하는 방향으로 발전하고 있고, 비전 진영(World Labs, 3DGS)은 카메라에 찍힌 세상에 물리 엔진을 덧씌워 가상 현실을 창조하는 방향으로 평행선을 달리고 있다.\n최근의 역설계 SOTA 모델들은 이 두 가지(신경망의 패턴 인식 + 수학적 피팅)를 하나의 파이프라인으로 합친 미분 가능한 피팅(Differentiable Fitting) 방식을 사용한다.\n신경망이 점들을 분류하고 치수를 대략 추정하면, 수학적 오차(Loss)가 발생한다. 이 오차 값을 역전파(Backpropagation) 시켜서 다시 신경망을 훈련하는 구조다. 즉, AI가 단순히 '비슷하게 생겼네'하고 끝내는 것이 아니라, \"내가 예측한 원통의 반지름이 실제 스캔 점들의 분포와 수학적으로 0.2mm 오차가 있으니 가중치를 수정해야겠다\"라고 스스로 학습하는 경지에 이르렀다. (관련 대표 오픈소스: ParseNet, HPNet)\n레퍼런스\nfz-20/BGPSeg: BGPSeg: Boundary-Guided Primitive Instance Segmentation of Point Clouds",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2423",
-    "pubDate": "Wed, 25 Feb 2026 16:34:48 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
+    "link": "http://daddynkidsmakers.blogspot.com/2026/02/blog-post_24.html",
+    "pubDate": "2026-02-24T10:32:25.942Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 8,
+    "imageUrl": "",
+    "title": "구글 플레이 스토어 비공개 테스트 14일 요령",
+    "description": "24년 부터였나 구글 플레이 스토어에 앱을 등록하려면 \n- 테스터를 12명 모아 \n- 비공개테스트를 14일 간 진행\n이 조건이 추가로 생겼습니다.\n혼자개발하는 사람에겐 가혹한 조건이긴한데\n이것을 당송하는 요령을 요약해보겠습니다.\n \n일단 기기 12개는 필요합니다.\n그렇다고 안드로이드 기계를 12개 사는건 무리구요\n물리적으로 사람이 4명 있어야합니다.\n- LD플레이어\n- PC 용 구글 플레이 게임즈\n- 안드로이드 기기\n한명당 3개 정도는 만들 수 있으니\n4명이서 구글계정 3개를 돌리시면 됩니다.\n이 테스트는 사람수가 중요한게 아닙니다.\n여러기기에서 돌려보았는가가 중요합니다.\n정 못모으겠다면 \nLD 플레이어의 기기 정보를 고쳐가며 구글계겅 돌려가며 진행해도 됩니다..\n매일 테스트할 필요는 없고 하루에 1번 정도는 플레이 하시면 일 수는 채워집니다.\n \nLD 플레이어에서 태스트하기\nLD 플레이어 실행하시고 앱스토어 아이콘 옆에 크롬이 있습니다.\n크롭으로 가서 비공개테스트 링크를 붙여넣고 접속해보세요\n테스트 등록하기 버튼이 나오면 등록하시고\n안에 들어가면 하단에 1, 2 이런식으로 작은 글자가있는데\n2번에 스토러 링크를 제공합니다. \n그걸로 들어가서 앱을 받으시면 됩니다.\n \nPC 용 구글 플레이 게임즈\n이거는 크롬이 없기 때문에\n외부에서 브라우저로 지메일 로그인해서 링크 들어가 테스터 신청하시구요\nPC 용 구글 플레이 게임즈 앱을 실행 시키고 검색을 앱아이디로 하세요\ncom.~~~.게임이름 이런식으로 빌드할때 앱ID 가 있습니다. 이걸 입력하시면 비공개테스트 앱도 검색이 됩니다.\n들어가서 앱 다운 받고 실행하시면 됩니다.\n \n \n글국 이렇게 해서 테스트 기길을 채우시면\n통과할 수 있습니다.\n \n테스터 수랑 테스트 기간도 채웠지만 연속 3번을 테스트 부족이 떠서 \n알아낸 방법입니다.\n사람 수나 지메일 계정 수가 아니고 테스트 기기가 문제였습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1581",
+    "pubDate": "Sat, 28 Feb 2026 23:29:54 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "439일차 - UI 연출 해보자 / 개발로그",
+    "description": "영상: https://www.youtube.com/watch?v=-_TmJO8O_aM\n\n\n\n클리어 연출을 넣어야해서 기록 남겨봤습니다.\n \nUI 연출을 잘하려면\n결국 제가 말로 설명하는 부분을\n말이 필요 없게 만들면 됩니다.\n \n어느정도 잘해야 별을 3개 먹냐를 설명할 필요 없게 만드는게 참 힘드네요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1579",
+    "pubDate": "Sat, 28 Feb 2026 17:32:56 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작",
+      "개발로그",
+      "게임제작기",
+      "유니티"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Beyond the Build Log: How TeamCity Provides Actionable Build Insights",
+    "description": "This article was brought to you by Kumar Harsh, draft.dev. Where there is a CI/CD pipeline, there will be build logs. And while they’re important, anyone who’s stared at one knows the pain: thousands of lines of plain text, buried errors, and endless scrolling just to find out why something failed. What should be a […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/02/beyond-the-build-log/",
+    "pubDate": "Tue, 24 Feb 2026 11:35:16 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "devopspains",
+      "how-to",
+      "teamcity"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "436일차 - 근황 / 개발로그",
+    "description": "436일차입니다. \n438일차로 잘못말했군요\n \n영상: https://youtu.be/6-p-l1GB7Ak\n \n2주간 유튜브를 쉬어서 의무감으로 하나 올렸습니다.\n진행중인 여자그림 퍼즐 게임 과\n또 다른 퍼즐 게임에 대한 이야기 입니다.\n \n디펜스게임은 뭐라도 하나 추가한거 보여줘야할꺼 같아서 넣었습니다.\n \n다음부턴 좀 이야기를 정리해서 말해야지 횡설수설 하는군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1577",
+    "pubDate": "Wed, 25 Feb 2026 20:22:03 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작"
+    ]
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "ChatGPT, Gemini보다 강할 때? Claude가 빛을 발하는 5가지 핵심 업무",
     "description": "안녕하세요! 생성형 AI를 업무에 활용하는 분들이라면 늘 고민하실 거예요. \"어떤 AI를 써야 가장 효율적일까?\" 특히 ChatGPT와 Gemini가 워낙 유명하다 보니, Claude는 과연 어떤 특별한 강점이 있을지 궁금해하시는 분들이 많죠. 오늘은 2026년 최신 벤치마크 데이터를 바탕으로, Claude가 다른 모델들보다 확실히 빛을 발하는 5가지 핵심 업무를 깊이 있게 분석해 보려 해요. 제 경험을 섞어 가면서, 여러분의 AI 선택에 실질적인 도움을 드릴 수 있도록 노력해 보겠습니다!\n\n\n생성형 AI 시장은 이제 단순히 '더 좋은 AI'를 찾는 단계를 넘어섰어요. 이제는 '특정 상황에서 어떤 모델이 최적인가'를 고민해야 하는 시대가 된 거죠. 2026년 2월 현재, 주요 AI 모델들의 발전 속도를 보면 정말 놀랍습니다.\n간단히 주요 플레이어와 최신 모델들을 살펴볼까요?\n회사\n최신 모델 (2026년 기준)\n주요 특징\n\n\n\n\nOpenAI\nGPT-5.2 / GPT-5.3 Codex\n균형 잡힌 성능, 빠른 응답 속도\n\n\nGoogle\nGemini 3.1 Pro\n추상 추론 강화, 과학 문제 해결 특화\n\n\nAnthropic\nClaude Opus 4.6 / Sonnet 4.5\n코딩 최강, 금융 분석 최고\n\n\n\n이 강력한 AI 라인업 속에서, 과연 Claude가 특별히 빛을 발하는 순간은 언제일까요? 제가 직접 여러 프로젝트에서 사용해 본 경험과 함께, 최신 벤치마크 데이터를 토대로 Claude의 진정한 강점을 파헤쳐 보겠습니다.\n1.   코딩 및 소프트웨어 개발: Claude의 독주\n개발자라면 이 부분에 특히 주목해야 합니다. 2026년 현재, 코딩 분야에서 Claude의 성능은 정말 압도적이라고 해도 과언이 아니에요. 특히 Claude Sonnet 4.5와 Opus 4.6은 개발 워크플로우를 혁신적으로 바꿔놓을 잠재력을 가지고 있습니다.\n  최신 성능 지표가 말해주는 Claude의 힘\nSWE-Bench Verified: 77.2% — 이는 실제 소프트웨어 엔지니어링 벤치마크에서 높은 수준의 문제 해결 능력을 보여준다는 의미입니다.\n실제 GitHub 이슈 해결 성공률 77% 향상 — 실제 오픈소스 프로젝트에 기여하는 데 얼마나 유용한지 보여주는 지표죠.\n복잡한 코드 리팩토링 작업 최대 10배 빠름 — 개발 생산성에 엄청난 영향을 미칩니다.\nClaude Code 2.0 지원 — 자동 체크포인트, 실행 취소(Undo), IDE 통합 등 개발 편의성을 대폭 개선했습니다.\n대규모 코드베이스를 다루거나, 복잡한 시스템의 아키텍처를 이해하고 수정해야 할 때 Claude의 진가가 발휘되곤 합니다. 제가 직접 경험해본 바로는, 특히 수십만 라인에 달하는 레거시 코드를 분석하고 리팩토링할 때 Claude만큼 똑똑하고 끈기 있는 비서가 없었어요.\n  왜 Claude가 코딩에 유리한가?\n긴 컨텍스트 처리 능력: 방대한 코드 파일을 한 번에 읽고 맥락을 이해하는 능력이 탁월합니다.\n코드 구조 전체 파악 및 리팩토링 능력: 단순히 오류를 수정하는 것을 넘어, 전체적인 코드 품질과 설계를 개선하는 데 도움을 줍니다.\n테스트 케이스 생성 정확도: 버그를 찾고 예방하는 데 필수적인 고품질 테스트 코드를 효과적으로 생성해요.\n버그 재현 및 원인 추적 정밀도: 복잡한 버그의 발생 조건을 분석하고 근본 원인을 찾아내는 데 뛰어납니다.\n\n\n  팁: GPT-5.3 Codex도 코딩 벤치마크에서 77.3%라는 높은 점수를 기록하며 강력한 보조 선택지로 꼽히지만, 대형 프로젝트에서 긴 맥락을 안정적으로 유지하며 작업하는 측면에서는 Claude가 더 신뢰할 만하다는 평가가 지배적입니다. 복잡하고 큰 규모의 프로젝트라면 Claude를 먼저 고려해 보세요!\n2.   금융 분석 및 비즈니스 인텔리전스: Claude Opus 4.6의 특화 영역\n금융 분야는 정말 섬세하고 복잡한 데이터 처리가 필요한 영역이잖아요. 그런데 Claude는 이 분야에서 독보적인 성능을 보여주고 있습니다. 특히 Claude Opus 4.6은 금융 전문가들에게 강력한 도구가 될 것이라고 생각해요. 저도 최근에 재무 보고서 분석에 Claude를 활용해봤는데, 정말 놀라웠어요.\n  Finance Agent 벤치마크 1위!\n복잡한 재무 문서(IR 자료, 애널리스트 보고서 등)의 완벽한 처리 능력\n다중 보고서 간의 심층적인 비교 분석\n현금흐름표, 손익계산서, 대차대조표의 교차 해석 및 인사이트 도출\nClaude for Excel beta 지원: Excel 통합으로 재무 데이터 작업 효율 극대화\n다른 모델들도 물론 재무 데이터를 다룰 수 있지만, 대규모 재무 보고서를 통째로 업로드해서 수많은 세부 조항들 간의 논리적 연결을 추적하고, 나아가 정성적인 리스크 분석까지 수행하는 능력은 Claude Opus 4.6이 단연 최고였습니다. 저는 복잡한 기업공개(IPO) 문서 분석에 활용하면서 시간을 정말 많이 절약할 수 있었어요.\n  주목: Gemini 3.1 Pro가 추상 추론에 강하고, GPT-5.2도 균형 잡힌 분석을 제공하지만, 금융 특화 벤치마크에서는 Claude Opus 4.6이 가장 높은 점수를 기록하며 이 분야의 강자로 자리매김했습니다. 투자를 하시거나 기업 전략을 세우시는 분들이라면 꼭 활용해보세요!\n3.   장문 분석 및 대규모 문서 처리: Claude의 전통적 강점\nClaude는 초기 모델부터 압도적인 컨텍스트 창(context window)이 가장 큰 장점으로 꼽혔습니다. 2026년에도 이 강점은 여전히 유효하고, 오히려 더욱 강력해졌습니다. 방대한 양의 텍스트를 한 번에 처리해야 하는 작업이 많다면 Claude가 아주 좋은 선택지가 될 거예요.\n\n\n\n대규모 연구 논문 수십 편을 한 번에 분석하고 핵심 요약\n100페이지가 넘는 법률 계약서 또는 정책 문서 검토\n수십 개의 보고서를 동시에 비교하고 공통점 및 차이점 도출\n기업 내부 문서들을 기반으로 한 지식베이스 구축\nChatGPT와 Gemini도 물론 문서 처리가 가능하지만, '이 10개 문서에서 공통 리스크 요소만 추출하고, 연도별 변화까지 분석해줘'와 같이 복합적이고 심층적인 질의를 할 때는 Claude가 훨씬 더 안정적이고 정확한 결과를 내놓는다는 것을 저도 여러 번 경험했습니다. 특히 중요한 문서일수록 AI의 안정성은 정말 중요하죠.\n4. ✍️ 창의적 작업: 정교함이 필요할 땐 Claude Sonnet 4.5\n창의적 작업이라고 하면 GPT가 먼저 떠오르실 수도 있습니다. 실제로 GPT-5.2는 빠른 응답 속도, 자연스러운 문체, 실시간 음성 기능, 그리고 Prism 협업 리서치 도구 등을 통해 초안 작성에 매우 유리한 강점을 가지고 있죠. 하지만 '정교함'과 '안정적인 논리 구조'가 핵심이라면 이야기가 달라집니다. 여기서 Claude Sonnet 4.5가 빛을 발합니다.\n  Claude의 창의성, 어떤 면이 특별할까요?\n더 정교한 창작물 생성: 특히 기술 블로그, 전문 리포트, 백서와 같은 형식을 요구하는 작업에서 탁월합니다.\n전문 문서 작성에 강점: 복잡한 정보를 체계적으로 정리하고, 설득력 있는 논리를 전개하는 데 강해요.\n슬라이드 및 애니메이션 생성 최적화: 시각적인 자료 제작을 위한 아이디어 구상과 내용 구성에 도움을 줍니다.\n논리적 구조가 안정적: 길고 복잡한 글에서도 일관된 논리 흐름을 유지합니다.\n제 경험상, 빠른 아이데이션이나 초안 작성은 GPT-5.2에 맡기고, 정밀하고 완성도 높은 기술 문서나 보고서 작성은 Claude Sonnet 4.5에 맡기는 것이 가장 효율적인 조합이었습니다. 마치 빠른 스케치에는 연필을, 최종 작품에는 유화를 쓰는 것과 비슷한 느낌이랄까요?\n5. ⚡ 속도와 비용 효율: 경량 모델의 활약\n모든 작업에 최고 성능의 모델만 사용할 수는 없죠. 특히 속도가 중요하거나 비용 절감이 핵심이라면, 경량화된 모델들을 고려하는 것이 현명합니다. 이 부분에서는 Claude보다는 다른 모델들이 강점을 보입니다.\n모델\n특징\n\n\n\n\nGPT-5.2 Instant\n빠른 응답 속도, 저비용으로 일반적인 작업에 효율적\n\n\nGemini Flash\n가성비 최고, 빠르고 경제적인 선택지\n\n\nClaude Haiku\n경량 모델, 빠른 응답과 효율성 추구\n\n\n\nClaude도 Haiku라는 경량 모델을 가지고 있지만, 범용적인 빠른 처리와 비용 효율성 측면에서는 아직 GPT-5.2 Instant나 Gemini Flash가 더 경쟁력이 있다는 것이 제 생각입니다. 정말 급하거나 가볍게 테스트할 때는 이 모델들을 활용하는 것이 좋아요.\n  번외: 수학 및 추상적 논리 문제: Gemini의 영역\n이 부분은 Claude가 강하기보다는 Gemini가 압도적인 영역이라 잠시 짚고 넘어가고 싶었어요. 복잡한 알고리즘 문제, 수학 증명, 추상 패턴 인식과 같은 순수 추론 영역에서는 Gemini 3.1 Pro가 가장 높은 평균 점수를 기록하고 있습니다. Claude도 물론 강력하지만, 이 분야에서는 Gemini가 근소하게 앞서고 있다는 점을 기억해두시면 좋습니다.\n⚠️ 주의: 복잡한 수학 문제나 고도의 추상적 논리 추론이 필요한 경우, Claude보다는 Gemini 3.1 Pro가 더 신뢰할 수 있는 결과를 제공할 가능성이 높습니다. 목적에 맞는 도구를 선택하는 것이 중요하니까요!\n  종합 벤치마크 요약: 어떤 AI를 선택해야 할까?\n각 모델의 강점을 정리해 봤는데요, 전체적인 그림을 한눈에 보실 수 있도록 요약 표를 만들어봤어요.\n분야별 1위 모델\n분야\n1위 모델\n\n\n\n\n코딩\nClaude Sonnet 4.5\n\n\n금융 분석\nClaude Opus 4.6\n\n\n장문 문서 처리\nClaude Opus 4.6\n\n\n정교한 창의적 문서\nClaude Sonnet 4.5\n\n\n추상 추론\nGemini 3.1 Pro\n\n\n속도\nGPT-5.2 Instant\n\n\n비용 효율\nGemini Flash\n\n\n\n\n  핵심 요약\n1.  ️ 복잡한 코드 개발 및 리팩토링: Claude는 긴 컨텍스트와 심층적인 코드 이해력으로 개발 생산성을 극대화합니다.\n2.   전문 금융 데이터 분석: 대용량 재무 보고서 교차 분석, 리스크 평가 등 금융 분야에 특화된 독보적인 성능을 보여줍니다.\n3.   방대한 장문 문서 처리: 수백 페이지 분량의 논문이나 계약서를 안정적으로 처리하고 복합 질의에 정확히 답변합니다.\n4.   정교하고 논리적인 문서 창작: 기술 블로그, 전문 리포트 등 완성도 높은 글쓰기에 탁월합니다.\n결론적으로 AI 선택은 '무엇을 할 것인가'에 따라 달라집니다. Claude는 특정 전문 영역에서 '전문 작업용 엔진'으로서 진정한 가치를 발휘합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: Claude는 모든 면에서 ChatGPT나 Gemini보다 뒤떨어지나요?\n아니요, 그렇지 않습니다. Claude는 특정 전문 분야, 예를 들어 코딩, 금융 분석, 장문 문서 처리, 그리고 정교한 전문 문서 작성에서 ChatGPT나 Gemini보다 훨씬 더 뛰어난 성능과 안정성을 보여줍니다. '모든 것을 평균 이상으로 잘하는 모델'이라기보다는, '특정 전문 영역에서 압도적인 완성도를 제공하는 모델'이라고 이해하는 것이 정확합니다.\nQ2: 개발자라면 무조건 Claude를 사용해야 하나요?\n'무조건'은 아니지만, 복잡한 코드베이스를 다루거나, 대규모 리팩토링, 상세한 테스트 케이스 생성이 필요한 경우에는 Claude Sonnet 4.5나 Opus 4.6이 매우 강력한 선택이 될 것입니다. GPT-5.3 Codex도 훌륭하지만, 긴 코드 맥락 유지나 구조적 이해 측면에서 Claude가 더 안정적이라는 평가가 많습니다. 프로젝트의 규모와 복잡성에 따라 선택하는 것이 좋습니다.\nQ3: 비용 효율적인 작업에는 어떤 모델이 가장 좋나요?\n속도와 비용 효율성이 최우선이라면, GPT-5.2 Instant나 Gemini Flash가 더 좋은 선택이 될 수 있습니다. Claude도 Haiku라는 경량 모델이 있지만, 범용적인 빠른 처리 및 비용 경쟁력 면에서는 아직 앞선 두 모델이 유리하다고 평가됩니다. 가벼운 작업이나 빠른 테스트에는 이러한 경량 모델들을 활용해보세요.\nAI 선택은 결국 여러분의 업무 구조와 목적에 달려 있습니다. 모든 AI가 모든 작업에 완벽할 수는 없어요. 하지만 적절한 도구를 올바른 상황에 사용하는 것이 스마트한 워크플로우를 만드는 핵심이죠.\n만약 여러분이 개발자, 금융 분석가, 기술 블로거, 또는 방대한 자료를 다루는 연구자라면, Claude는 단순한 챗봇을 넘어 '전문 작업용 엔진'에 가깝습니다. 각자의 니즈에 맞춰 AI를 현명하게 활용하시길 바라며, 궁금한 점이 있다면 언제든지 댓글로 남겨주세요! 다음에 더 유익한 정보로 찾아뵙겠습니다.",
@@ -120,19 +185,36 @@
     ]
   },
   {
-    "id": 9,
+    "id": 13,
     "imageUrl": "",
-    "title": "최대 25만 원, 소상공인 경영안정 바우처로 고정비 부담 덜어요",
-    "description": "공과금과 보험료가 부담되는 소상공인이라면 확인해 보세요",
+    "title": "RCCLX: Innovating GPU Communications on AMD Platforms",
+    "description": "We are open-sourcing the initial version of RCCLX – an enhanced version of RCCL that we developed and tested on Meta’s internal workloads. RCCLX is fully integrated with Torchcomms and aims to empower researchers and developers to accelerate innovation, regardless of their chosen backend. Communication patterns for AI models are constantly evolving, as are hardware [...]\nRead More...\nThe post RCCLX: Innovating GPU Communications on AMD Platforms appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-56_",
-    "pubDate": "Fri, 27 Feb 2026 01:28:00 GMT",
+    "link": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/",
+    "pubDate": "Tue, 24 Feb 2026 21:30:54 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "AI Research",
+      "Data Center Engineering",
+      "ML Applications",
+      "Networking & Traffic"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "읽지 않는 코드의 시대",
+    "description": "[![NHN Cloud_meetup banner_coding_202602_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannercoding202602900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n>  본 콘텐츠는 작성자가 사내 게시판에 공유한 글을 가공한 것으로, 작성자의 의도와 맥락을 충실히 전달하기 위해 원문의 문장 스타일을 그대로 유지하였습니다.\r\r\n\r\r\n\r\r\n---\r\r\n\r\r\n\r\r\n나는 오랫동안 아름다운 코드를 꿈꿔 왔다.\r\r\n\r\r\n순수 함수들이 물 흐르듯 합성되고, 타입 시스템이 버그를 원천적으로 불가능하게 만들며, 수학적 증명처럼 견고한 로직이 펼쳐지는 그런 코드. 우리는 그것을 '장인 정신'이라 불렀고, 그 경지에 도달하기 위해 범주론을 공부하고, 타입 레벨 프로그래밍을 이해하려 씨름했다.\r\r\n\r\r\n그러나 어느 날 문득 깨달았다. 더 이상 아무도 코드를 읽지 않는다는 것을.\r\r\n\r\r\n## 가독성의 정의가 바뀌다\r\r\n'가독성'이라는 단어의 의미가 조용히, 그러나 근본적으로 변하고 있다.\r\r\n과거의 가독성은 **인간의 인지**를 위한 것이었다.\r\r\n\r\r\n* 개발자가 로직을 머릿속에서 추적할 수 있는가\r\r\n* 동료가 코드 리뷰에서 오류를 발견할 수 있는가\r\r\n* 6개월 후의 내가 이 코드를 이해할 수 있는가\r\r\n\r\r\n우리는 이 질문들에 답하기 위해 클린 코드(Clean Code)를 논했고, SOLID 원칙을 세웠으며, 디자인 패턴이라는 공통 언어를 만들었다. 모두 인간의 제한된 작업 기억 용량 안에서 복잡성을 다루기 위한 몸부림이었다.\r\r\n그러나 이제 가독성은 기계의 패턴 인식을 위한 것이 되어 가고 있다.\r\r\n\r\r\n* AI가 이 코드의 패턴을 학습 데이터에서 본 적 있는가\r\r\n* AI가 수정 요청을 받았을 때 정확한 위치를 찾을 수 있는가\r\r\n* AI가 로컬 변경을 가했을 때 전체 시스템이 깨지지 않는가\r\r\n\r\r\n이 두 가지 가독성은 때로 겹치지만, 본질적으로 다른 것을 최적화한다. 인간을 위한 가독성은 **추상화와 압축**을 추구한다. 반복을 제거하고, 패턴을 이름 붙이며, 복잡성을 캡슐화한다. 기계를 위한 가독성은 **명시성과 예측 가능성**을 추구한다. 관습을 따르고, 구조를 일정하게 유지하며, 장황하고 지저분해지더라도 암묵적인 것을 명시적으로 드러낸다.\r\r\n\r\r\n## 장인 정신의 비극적 위치\r\r\n\r\r\n함수형 프로그래밍이 약속했던 것은 명확했다. 인간의 인지적 한계를 코드로 극복하는 것.\r\r\n참조 투명성은 코드의 어떤 부분이든 독립적으로 추론할 수 있게 해주었다. 불변성은 시간에 따른 상태 변화를 머릿속에서 추적하는 부담을 덜어주었다. 강력한 타입 시스템은 컴파일러가 우리 대신 오류를 잡아주었다. 이 모든 것이 **인간의 한계를 보완**하기 위한 도구였다.\r\r\n\r\r\n그러나 AI에게는 보완할 한계가 없다.\r\r\n\r\r\nAI는 수백만 개의 코드베이스를 학습했다. 패턴 매칭의 원시적 힘으로 무장한 AI에게, 인간의 인지 부하를 줄여주는 우아한 추상화는 그저 노이즈에 가깝다. AI는 똑같은 CRUD 작업의 만 가지 변형을 보았다. 심혈을 기울여 작성한 우아한 모나드 트랜스포머 스택보다 평범하고 반복적인 명령형 코드가 AI에게는 더 익숙하다.\r\r\n여기서 장인 정신의 딜레마가 시작된다.\r\r\n\r\r\n함수형 프로그래밍의 지지자들은 수십 년간 같은 말을 해왔다.\r\r\n\r\r\n\"배우기는 어렵지만, 장기적 이점이 있습니다.\"\r\r\n\r\r\n그런데 AI가 명령형 프로그래밍의 진입 장벽을 무너뜨려버렸다. 이제 누구나 AI의 도움으로 명령형 코드를 빠르게 작성할 수 있다. 반면 함수형 프로그래밍의 학습 곡선은 여전히 가파르다.\r\r\n더욱 쓸쓸한 것은 함수형 프로그래밍의 아름다움을 감상할 줄 아는 사람들마저 더 이상 코드를 직접 읽지 않는다는 사실이다. 그들의 Claude Code가 대신 읽는다. 감상할 눈이 사라진 예술이 무슨 의미가 있을까.\r\r\n\r\r\n```\r\r\nClaude >> @PureFunctional OrderService::doStuff의 로직을 분석해서 설명해 줘\r\r\n```\r\r\n\r\r\n## 매개체로 전락한 코드\r\r\n\r\r\n이제 코드의 존재론적 지위가 바뀌고 있다.\r\r\n과거에 코드는 인간의 영역이었다. 우리는 그 안에서 살았다. 매일 읽고, 고치고, 확장했다. 변수명 하나에 고민하고, 함수의 위치를 두고 토론했다. 코드는 우리의 생각이 물질화된 것이었고, 그래서 우리는 그것의 아름다움에 신경 썼다.\r\r\n이제 코드는 인간의 의도와 기계의 실행 사이를 잇는 매개체가 되어 가고 있다.\r\r\n\r\r\n```\r\r\n인간의 의도 → 자연어 명세 → AI → 코드(누가 신경이나 쓰는가) → 실행\r\r\n```\r\r\n\r\r\n이 모델에서 함수형 vs 객체지향 논쟁은 x86 vs ARM 논쟁과 비슷해진다. 특정 상황에서 성능 차이가 있을 수 있다. 그러나 그것은 더 이상 인간이 거주하는 층위가 아니다.\r\r\n우리는 집을 짓는 목수에서 집을 주문하는 건축주가 되어 가고 있다. 목수에게 나뭇결은 단순한 무늬가 아니다. 그것은 나무의 강도와 방향을 말해주고, 어디를 깎고 어디를 살려야 할지 알려주며, 완성된 작품이 세월을 어떻게 견딜지를 예언한다. 그러나 건축주는 문이 제대로 닫히면 그만이다.\r\r\n\r\r\n## 새로운 미학의 등장\r\r\n\r\r\n그렇다면 AI 시대의 '좋은 코드'란 무엇인가? 새로운 미학이 필요하다.\r\r\n\r\r\n### 관용적 표현이 최적화를 이긴다\r\r\n\r\r\n```\r\r\n// AI 친화적: 수백만 번 본 패턴\r\r\nusers.stream().filter(User::isActive).toList();\r\r\n\r\r\n// AI 비친화적: 이게 뭐 하는 코드지?\r\r\nusers.stream().reduce(new ArrayList(),\r\r\n    (acc, u) -> { if(u.isActive()) acc.add(u); return acc; },\r\r\n    (a, b) -> { a.addAll(b); return a; });\r\r\n```\r\r\n\r\r\nAI는 익숙한 것을 잘 다룬다. 창의적인 최적화보다 평범한 관용구가 더 안전하다.\r\r\n\r\r\n### 추론의 지역성\r\r\n\r\r\n함수를 이해하는 데 필요한 모든 것이 눈에 보이거나, 한 번의 점프로 도달 가능해야 한다. Action at a distance는 금물이다. Dependency injection 트릭, aspect weaving, runtime proxy—이 모든 암묵적 메커니즘이 AI의 추론을 방해한다.\r\r\n\r\r\n### 예측 가능한 구조\r\r\n\r\r\n```\r\r\n/order\r\r\n  OrderController.java\r\r\n  OrderService.java\r\r\n  OrderRepository.java\r\r\n  Order.java\r\r\n```\r\r\n\r\r\nAI는 관습에서 맥락을 추론한다. 파일이 어디 있을지 예측할 수 있으면, 탐색 비용이 줄어든다. 관습은 압축된 정보다.\r\r\n\r\r\n### 명시적 상태 전이\r\r\n\r\r\n```\r\r\n// AI 친화적: 가능한 상태가 명시적으로 열거됨\r\r\nenum Status { DRAFT, SUBMITTED, FULFILLED }\r\r\n\r\r\n// AI 비친화적: 플래그 조합으로 상태를 유추해야 함\r\r\nboolean isSubmitted;\r\r\nboolean isFulfilled;\r\r\nboolean isDraft;\r\r\n```\r\r\n\r\r\n상태가 열거형으로 선언되어 있으면 AI는 전체 그림을 한눈에 파악한다. 여러 boolean 플래그를 조합해서 상태를 유추해야 하는 코드는 AI도 인간처럼 길을 잃는다. `isSubmitted`와 `isFulfilled`가 동시에 true면 무슨 상태인가?\r\r\n\r\r\n### 장황하지만 명확한 이름\r\r\n\r\r\n```\r\r\n// AI 친화적: 이름만 봐도 의도가 명확\r\r\npublic boolean isEligibleForRefundBasedOnPurchaseDateAndMembershipStatus()\r\r\n\r\r\n// AI 비친화적: 주석에 의존\r\r\n/** 구매일과 멤버십 상태에 따라 환불 가능 여부를 판단한다 */\r\r\npublic boolean canRefund()\r\r\n```\r\r\n\r\r\n인간에게는 간결한 이름과 상세한 주석이 읽기 좋을 수 있다. 그러나 AI는 주석보다 코드를 신뢰한다. 함수명 자체가 의도를 담고 있으면, AI는 별도의 맥락 없이도 정확하게 해당 함수를 활용할 수 있다.\r\r\n\r\r\n### 작은 파일, 단일 책임\r\r\n\r\r\n100줄짜리 파일 10개가 1000줄짜리보다 낫다. AI의 컨텍스트 윈도우는 실질적 제약이다. 작은 파일은 전체를 교체하기도, 부분을 수정하기도 쉽다.\r\r\n\r\r\n### 명세로서의 테스트\r\r\n\r\r\n```\r\r\n@Test\r\r\nvoid shouldRejectOrderWhenInventoryInsufficient() { ... }\r\r\n```\r\r\n\r\r\nAI는 테스트를 읽고 코드의 의도를 역으로 파악한다. 테스트 이름이 곧 요구 사항이 되고, 테스트 본문이 곧 예제가 된다.\r\r\n\r\r\n## 아이러니: 함수형의 귀환\r\r\n\r\r\n흥미로운 반전이 있다.\r\r\nAI 친화적 코드의 원칙들—불변성, 명시적 상태, 작고 순수한 함수—은 함수형 프로그래밍의 원칙과 상당 부분 겹친다.\r\r\n함수형 프로그래밍은 살아남을 것이다. 그것이 아름다워서가 아니라, **기계가 읽기 좋아서**.\r\r\n\r\r\n고차원적 추상화와 이론적 우아함은 사라질 것이다. 그러나 불변 데이터, 순수 함수, 명시적 타입은 남을 것이다. 미학은 바뀌었지만, 핵심 원칙들은 다른 이유로 생명을 얻었다. 이것이 함수형 프로그래밍 애호가들에게 위안이 될지는 모르겠다. 사랑하는 것이 살아남았지만, 사랑 받는 이유가 완전히 달라졌으니.\r\r\n\r\r\n## 결론\r\r\n\r\r\n우리는 아름다운 시대의 끝자락에 서 있다.\r\r\n코드를 매개로 인간과 인간이 소통하던 시대. 변수명 하나에 의도를 담고, 함수의 구조로 사고의 흐름을 표현하던 시대. 동료의 코드를 읽으며 그의 사고방식을 이해하고, 때로는 감탄하던 시대.\r\r\n\r\r\n그 시대가 저물고 있다.\r\r\n코드는 점점 인간의 눈을 거치지 않는 영역으로 이동하고 있다. 우리가 코드 안에서 살았기 때문에 그 아름다움에 신경 썼듯이, 우리가 코드 밖으로 나가면 그 아름다움은 의미를 잃는다. 장인 정신은 LP 레코드나 기계식 시계처럼—효율보다 과정을 사랑하는 이들의 영역으로 남게 될 것이다. 시장은 우아함을 알아봐주지 않는다. 시장은 속도를 원한다. 그리고 AI가 명령형 코드의 속도를 거의 무한히 빠르게 만들어 버렸다.\r\r\n\r\r\n그래도 우리는 가끔, 퇴근 후 조용한 사무실에서 마침내 완성한 순수 함수의 체인이 테스트를 통과하며 초록불이 켜지던 순간을 기억할 것이다. 타입 시스템이 버그를 컴파일 타임에 잡아주었을 때의 희열을. 코드가 단지 작동하는 것을 넘어, 그 자체로 하나의 증명이 되었을 때의 만족을.\r\r\n\r\r\n아름다운 추억이다.\r\r\n\r\r\n---\r\r\n\r\r\n>  본 콘텐츠는 작성자가 사내 게시판에 공유한 글을 가공한 것으로, 작성자의 의도와 맥락을 충실히 전달하기 위해 원문의 문장 스타일을 그대로 유지하였습니다.\r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_202507-01.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooter20250701.png)](https://www.nhncloud.com/kr)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://meetup.nhncloud.com/posts/408",
+    "pubDate": "Mon, 23 Feb 2026 00:20:28 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 10,
+    "id": 15,
     "imageUrl": "",
     "title": "토스, ‘2026년 인디게임 데브캠프’ 협력기업 참여",
     "description": "문체부와 콘진원 사업 일환",
@@ -140,81 +222,6 @@
     "syllabus": [],
     "link": "https://toss.im/tossfeed/article/45501",
     "pubDate": "Mon, 23 Feb 2026 11:10:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "15 Things To Do Before, During, and After KotlinConf’26",
-    "description": "So, you’re coming to KotlinConf’26? Maybe it’s your first time in Munich, or even your first time at KotlinConf. You have your tickets, you’ve learned the schedule by heart, but it might still feel a little overwhelming. Let me show you how you can have the best possible experience by guiding you through all the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/02/15-things-to-do-before-during-and-after-kotlinconf-26/",
-    "pubDate": "Thu, 26 Feb 2026 12:40:38 +0000",
-    "creator": "Kodee",
-    "categories": [
-      "news",
-      "cap-kodee",
-      "kotlinconf"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "AI Tool Switching Is Stealth Friction – Beat It at the Access Layer",
-    "description": "Has your team’s sprint velocity actually improved since you approved all those AI coding tools? If not, recent research by JetBrains and UC Irvine shows your developers may be facing a new dimension of context switching that resists the usual fixes.   The key findings were that most AI-assisted developers switched in and out of their […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/02/ai-tool-switching-is-stealth-friction-beat-it-at-the-access-layer/",
-    "pubDate": "Mon, 23 Feb 2026 13:19:21 +0000",
-    "creator": "Colette Des Georges",
-    "categories": [
-      "insights",
-      "jetbrains-ai",
-      "ai-in-ides",
-      "ai-in-software-development"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "미국 직구 배송과 관세 이야기",
-    "description": "2025년 12월 5일\n미국 켄터키주에서 생산하는 작은 제품 2개를 구매했다.\n \n구매한 제품은 알리익스프레스와 아마존 등 종합 쇼핑몰에서 판매를 하지 않는 제품이라 본사 홈페이지에서 직접 구매했다.\n종합 쇼핑몰에서만 해외 제품을 사봤지, 직접 본사에서 구매하는건 처음이었다.\n \n알리의 배송 옵션처럼 이 제품에도 배송 옵션을 제공했다.\n가장 저렴한 배송도 길어야 14일 걸린다고 표기되어 있었다. 알리와 비슷하겠지... 라고 생각한게 큰..",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://sacstory.tistory.com/entry/%EB%AF%B8%EA%B5%AD-%EC%A7%81%EA%B5%AC-%EB%B0%B0%EC%86%A1-%EA%B1%B8%EB%A6%AC%EB%8A%94-%EC%8B%9C%EA%B0%84",
-    "pubDate": "Sun, 22 Feb 2026 13:50:43 +0900",
-    "creator": "summerandwinter",
-    "categories": [
-      "Review"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "C# Extension Members",
-    "description": "Overview: What are extension members? Extension members allow you to define additional members for existing types without modifying their definitions. With them, you can add functionality to existing types you don’t have access to or don’t control, for example, built-in types or types from an API or commercial library.  Extension methods have been a feature […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/02/23/csharp-extension-members/",
-    "pubDate": "Mon, 23 Feb 2026 14:44:31 +0000",
-    "creator": "Rachel Appel",
-    "categories": [
-      "net-tools",
-      "c",
-      "c-14"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "ViT 및 VLM 메커니즘 이해 및 코드 스크래치하기",
-    "description": "이 글은 VLM 스크래치하는 방법을 나눔한다.\n\n\n\n\n\nVLM 레퍼런스\n\nVision Language Model from scratch in Pytorch #vlm - Qiita\nAviSoori1x/seemore: From scratch implementation of a vision language model in pure PyTorch\nnanoVLM: The simplest repository to train your VLM in pure PyTorch\nhuggingface/nanoVLM: The simplest, fastest repository for training/finetuning small-sized VLMs.\nTraining a Vision Language Model from scratch (VLM multi-modal) | by Saptarshi MT | Medium\nImplementation of Vision language models (VLM) from scratch: A Technical Deep Dive. | by Achraf Abbaoui | Medium\nWiring the Multimodal Mind: Building a Vision Language Model (VLM) from Scratch - Part 1 | by Priyanthan Govindaraj | Medium\nseemore: Implement a Vision Language Model from Scratch\nVidit-Ostwal/VLM-from-scratch: This is majorly for my own learning purpose.\nBuilding a Nano Vision-Language Model from Scratch\nnipunbatra/vlm-from-scratch\nBuilding PaliGemma VLM From Scratch using Pytorch | by Shanmuka Sadhu | Jan, 2026 | Medium\nSmolVLM - small yet mighty Vision Language Model\n\nViT 레퍼런스\n\nVision Transformer (ViT) from Scratch\nViT Scratch Implementation - PyTorch\nBuilding Vision Transformers (ViT) from Scratch | by Maninder Singh | Medium\n今井美樹 彼女と TIP ON DUO 歌詞 - 歌ネット\nBuilding a Vision Transformer from Scratch in PyTorch - GeeksforGeeks\nTraining a Vision Transformer from Scratch on CIFAR-10:No Pre-training, No Problem | by Akshay Gokhale | Medium\nVision Transformer For CIFAR-10",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/02/vlm.html",
-    "pubDate": "2026-02-24T11:15:00.000Z",
     "creator": "Unknown",
     "categories": []
   }
