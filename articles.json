@@ -2,74 +2,87 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "네임드롭핑",
-    "description": "네임드롭핑(namedropping)에 대한 이야기를 내가 지난 몇 년 동안 꽤 자주 했는데, 최근에 이런 분들을 갑자기 몇 명 만나서 또 해보려고 한다. Namedropping은 말 그대로 “이름을 내뱉다”라는 의미인데, 쓸데없이 아는 사람의 이름을 파는 행위를 말한다. 아마도 이 글을 읽는 분들도 본인들이 직접 이런 경험이 있거나, 주변에 네임드롭핑을 하는 사람들이 있을 것이다. 나도 과거에 가끔 네임드롭핑을 했던(...)",
+    "title": "코어키퍼 개발사의 기대되는 새 게임 - KYORA",
+    "description": "개발사의 블로그 : https://chucklefish.org/blog/kyora-thank-you/\n\n\n50만 찜 목록을 달성한 이게임은\n쿄라 ?\n \n영상: https://www.youtube.com/watch?v=8ARR4JIIEgk\n\n\n\n \n테라리아 보다 업그레이드 된 이게임은 아직 개발중입니다.\n훌륭한 도트 게임을 개발하는 회사로 보입니다.\n트레일러 영상: https://www.youtube.com/watch?v=8ARR4JIIEgk\n\n\n\n \n개방영상들도 멋집니다.\n영상: https://www.youtube.com/shorts/ZVJts7WpUsI\n\n\n\n \n \n \n \n \nINMOST \n모바일 게임도 개발하는군요\n그런데 모바일이라고해도 패키지 게임 같은 형식입니다.\n\n\n플레이 영상: https://www.youtube.com/watch?v=XDFEcpkdMaQ\n\n\n\n한국에도 많이 알려진 회사인가봅니다.\n유튜브에 영상이 많쿤요\n \n \n코어 키퍼\n영상: https://www.youtube.com/watch?v=51-FLAgjqWs\n\n\n\n \n지하를 탐사하고 건설을 하고 그런식입니다.\n \n \n3개의 게임을 봤는데요\n \n \n게임 3개를 봤는데 게임들이 다들 어둑어둑한 지하에서 뭔가 하는군요\n분위기가 매우 뛰어나며 멋진 그래픽을 보여줍니다.\n쿄라 를 열심히 기대 중입니다.\n블로그에 개발로그 4편이 올라와있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/02/namedropping.html",
-    "pubDate": "Wed, 25 Feb 2026 21:37:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://serverdown.tistory.com/1582",
+    "pubDate": "Mon, 2 Mar 2026 23:52:55 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Uncategorized",
-      "general",
-      "people"
+      "게임개발사"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "혼자 RPG 를 만드는 일은 미친짓이였다. / 에소테릭 엡 / Esoteric Ebb",
-    "description": "디스코엘리시움의 찬양 글이였군요\n\n\n디스코 엘리시움은 아직 못해봤습니다. \n(사놓긴 했습니다.)\n \n디스코 엘리시움을 출시될때 못해본 저로서는 이번에는 빠르게 도전해봐야겠습니다.\n \n \n \n영상: https://www.youtube.com/watch?v=4Aed0uppZ-I\n\n\n\n \n이분은 전투어려웠다는군요\n저는 대사 쓰는게 어려운데\n20년에 갈아엎었군요\n지금이 25년인데 ㄷㄷㄷ\n이게 프로토타입 4호 군요\n24년 잔고가 바닥 났고 퍼플리셔는 없었고\n데모를 공개했고 누군가 기사를 써줬고 점점더 추천이 늘어나는 성공 스토리였군요\n \nEsoteric Ebb 라는 게임을 출시했군요\n스팀 링크: https://store.steampowered.com/app/2057760/Esoteric_Ebb/\n트레일러 : https://www.youtube.com/watch?v=22wG-w-EnBo\n\n\n\n \n디스코엘리시움류 라는 장르가 있군요\n테무산 디스코엘리시움도 있구요\n큰영향을 준 게임임은 분명합니다.\n \n2부가 올라왔습니다.\n영상: https://www.youtube.com/watch?v=4qXhO8ouqY8\n\n\n\n \n \n \n \n훈훈한  내용이였습니다.",
+    "title": "라식 수술 하지 않는 의사, Electron 사용하는 Claude",
+    "description": "안경을 오랫동안 쓰고 있다.\n주변에서 라식이나 라섹을 추천하는 사람들이 꽤 있었다.\n근데 정작 안과 의사분들 중에서도 \"빛 번짐, 안구건조증\" 때문에 안경을 쓰는 분들이 많다.\n난 안경을 올해로 30년째 쓰고 있고, 여전히 안과에 가면 안경을 쓰신 의사분들을 종종 보게 된다.\n앤트로픽 CEO 다리오 아모데이가 \"코딩은 6~12개월 내에 해결된 문제가 될 것\"이라고 발언한 인터뷰를 봤다.\nAI가 코딩을 대체할 거라는 꽤나 강한 톤의 발언이다.\n근데 정작 Claude 데스크탑 앱은 Electron이다.\nElectron은 웹 기술(HTML/CSS/JS)로 데스크탑 앱을 만들 수 있게 해주는 프레임워크다.\n소수의 개발팀이 웹, 앱, 데스크탑을 일관되게 관리할 수 있어서, 개발자의 생산성을 높여주는 도구로 널리 쓰인다.\n슬랙도, VS Code도 다 Electron이고, 스타트업이나 제품의 본질에 집중해야 할 때 우선적으로 선택하게 된다.\n다만 그 대가로 용량도 크고, 속도도 네이티브 구현보다 훨씬 느리다.\n즉, 사용자의 사용성을 어느 정도 포기하고 개발자의 생산성을 택하는 트레이드오프다.\n여기서 의문이 생긴다.\nAI가 코딩을 다 해결해 준다면서, 왜 자사 제품은 여전히 \"개발자 생산성 우선\"인 Electron을 쓰고 있을까?\n구현이 더 이상 비싸지 않다고 외치는 회사가, 정작 본인 제품에서는 구현 비용을 아끼는 선택을 하고 있다.\n최근 Claude가 레거시 COBOL 코드를 마이그레이션할 수 있다는 주장에  IBM 주가가 폭락했다는 기사도 봤다.\n개발 비용 제로 시대?\n글쎄.\nClaude 앱부터 개발자의 생산성보다 사용자의 사용성에 더 유용한 네이티브로 전환한 다음에, IBM 레거시 이야기를 해도 늦지 않지 않을까.\nAI에 대해 부정적으로 보는 게 아니다.\n우리 팀에 쌓인 레거시들을 해결하는 데 실제로 큰 도움을 받고 있고, 앞으로 더 많이 활용해야 한다고 생각한다.\n참고로 우린 PM/PD/개발을 포함한 프로덕트 전체가 Claude Team Premium Seat를 쓰고 있다.\n다만 Hype에 대해서 너무 휩쓸리진 말자라는 것이다.\nAI 도구의 사용법 자체에만 매몰되어, 소프트웨어 엔지니어링 공부를 등한시하는 것이 걱정이다.\n모든 의사들이 라식 수술을 하지 않듯이, AI 코딩을 외치는 회사들도 여러 제품에서는 여전히 전통적인 선택을 하고 있다.\n물론 어느 시점에는 정말 그런 날이 오겠지만, 지금 당장의 FOMO에 휩쓸려서 엔지니어링 공부 자체를 소홀히 하면 안 된다.\n결국 AI가 해결해 주지 못하는 10%를 누군가는 해결해야 하고, 그게 우리의 역할이다.\n그 10%를 해결할 수 있는 힘은 결국 꾸준히 쌓아온 엔지니어링 역량에서 나온다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1580",
-    "pubDate": "Sat, 28 Feb 2026 21:59:18 +0900",
-    "creator": "SIDNFT",
+    "link": "https://jojoldu.tistory.com/867",
+    "pubDate": "Thu, 26 Feb 2026 13:12:00 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "게임",
-      "인디게임"
+      "생각정리",
+      "claude code",
+      "Electron",
+      "라식",
+      "앤트로픽",
+      "의사",
+      "클로드코드"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Optimizing Recommendation Systems with JDK’s Vector API",
-    "description": "No description available",
+    "title": "C++ Performance Improvements in MSVC Build Tools v14.51",
+    "description": "MSVC Build Tools v14.51 improves performance through a wide range of new optimizations.\nThe post C++ Performance Improvements in MSVC Build Tools v14.51 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/optimizing-recommendation-systems-with-jdks-vector-api-30d2830401ec?source=rss----2615bd06b42e---4",
-    "pubDate": "Tue, 03 Mar 2026 01:36:46 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://devblogs.microsoft.com/cppblog/c-performance-improvements-in-msvc-build-tools-v14-51/",
+    "pubDate": "Wed, 04 Mar 2026 19:41:02 +0000",
+    "creator": "Troy Johnson",
     "categories": [
-      "netflix",
-      "machine-learning",
-      "performance",
-      "java",
-      "simd"
+      "Backend",
+      "C++",
+      "MSVC"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "YouTrack 2026 Roadmap",
-    "description": "Now that we’re in 2026, we want to take a moment to reflect on the past year and share what’s ahead. YouTrack continues to grow – we’re seeing more teams than ever making the switch, and we’re deeply grateful for the trust you place in us. Together with our consulting partners, we kicked off a […]",
+    "title": "442일차 - 개발로그 - 칼질 해보자 / KYORA 참고중",
+    "description": "영상: https://www.youtube.com/watch?v=LRb-94L6I8Q&t=22s\n\n\n\n \n \n \nKYORA 의 전투 모션을 열심히 참고 중입니다.\n \n저는 SPUM 을 사용중이라 기본 모션이 칼이 앞에 가 있습니다.\n\n\n \n이러다보니 공격 즉시 충돌체크를 켜면 바도 때려지는 이슈가 있습니다.\n너무 유리한거죠\n \n\n\nKYORA 는 뒤에서 모으는 자세가 있습니다.\n\n\nIDLE 시에도 칼을 몸통에 바짝 붙여 세우기 때문에 충돌체크가 이상해질 틈이 적습니다.\n\n\n무기를 들고 있지 않는 모션도 있군요\n여러가지가  구분되어있는거 같습니다.\n \n잘만든 게임으로 보이고\n전투에 길을 잃은 저로서는",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/youtrack/2026/03/youtrack-2026-roadmap/",
-    "pubDate": "Mon, 02 Mar 2026 13:52:55 +0000",
-    "creator": "Elena Pishkova",
+    "link": "https://serverdown.tistory.com/1583",
+    "pubDate": "Tue, 3 Mar 2026 14:53:57 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "features",
-      "news",
-      "roadmap",
-      "apps",
-      "helpdesk",
-      "youtrack-cloud",
-      "youtrack-server"
+      "프로그래밍/자작",
+      "개발로그",
+      "참고게임"
     ]
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "Your First Migration: Moving a Single Project From Jenkins to TeamCity Painlessly",
+    "description": "This article was brought to you by Rajkumar Venkatasamy, draft.dev. Migrating from Jenkins can feel risky. Your pipelines work, your jobs run, and your scripts hold everything together. Jenkins isn’t broken, but over time, plugin sprawl, configuration drift, and upgrade headaches can quietly drain engineering time. But what if there’s another option? TeamCity’s user-friendly interface, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/03/first-jenkins-teamcity-migration/",
+    "pubDate": "Mon, 02 Mar 2026 09:38:11 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "how-tos",
+      "devopspains",
+      "jenkins"
+    ]
+  },
+  {
+    "id": 6,
     "imageUrl": "",
     "title": "강의안 | 2026 소자본 창업 아이템 추천 10가지 - 창업(소상공인)",
     "description": "1. 2026 소자본 창업 아이템 추천 10가지 (Sample 10장)   2. 2026 소자본 창업 아이템 추천 10가지 (전체 강의안)  https://docs.google.com/presentation/d/e/2PACX-1vSPPTKlVbTPFBR4avvAVgqq4L44UkKl3nxD23Lm5mhCpwI0jMcfqpUwkEYaotEkAQ/pub?sta",
@@ -81,152 +94,25 @@
     "categories": []
   },
   {
-    "id": 6,
+    "id": 7,
     "imageUrl": "",
-    "title": "비락탈, 마법의 보드 게임을 즐겨보자!",
+    "title": "It Wasn’t a Culture Problem: Upleveling Alert Development at Airbnb",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2423",
-    "pubDate": "Wed, 25 Feb 2026 16:34:48 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://medium.com/airbnb-engineering/it-wasnt-a-culture-problem-upleveling-alert-development-at-airbnb-01e2290eb0f5?source=rss----53c7c27702d5---4",
+    "pubDate": "Wed, 04 Mar 2026 18:01:02 GMT",
+    "creator": "Douglas Smith",
     "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "최고의 복지는 동료의 역설",
-    "description": "이 글은 모든 조직에 대한 일반론이라기보다, 사람 의존도가 높은 스타트업 팀에서 내가 겪은 경험을 바탕으로 한 이야기다.\n우리 회사는 작년에 큰 위기를 겪고, 그 위기 이후 연쇄 이탈을 겪었다.\n위기는 일단 수습됐지만, 그 뒤에 더 오래가는 문제가 남았다.\n처음 한 명이 퇴사 의사를 밝혔을 때는 위기의 여파라고 생각했다.\n이직은 원래 있는 일이고, 팀에는 아직 좋은 사람들이 많았으니까.\n근데 두 번째가 나갔다.\n세 번째까지 이어지자 이 이탈이 끝나지 않을 것 같은 두려움이 생겼다.\n특히나 특정 파트의 중심 역할을 하는 친구가 이탈할 때는 그 이후 해당 파트의 남은 인원의 40%가 자발적으로 추가 이탈했다.\n떠나는 사람들은 서로 연결되어 있었다.\n같이 밥을 먹던 사람, 코드 리뷰를 주고받던 사람, 힘든 프로젝트를 함께 버틴 사람.\n그때 알게 됐다.\n동료가 가장 큰 복지라면, 그 동료가 사라지는 순간 이 회사를 다닐 이유도 함께 약해질 수 있다는 걸.\n스타트업 채용 공고에서 \"우리 회사의 최고의 복지는 동료입니다\" 라는 문장을 자주 본다.\n맞는 말이다.\n뛰어난 사람들과 함께 일하는 경험은 연봉이나 복지 포인트만으로 설명하기 어렵다.\n나도 그 말을 믿었고, 실제로도 어느 정도는 사실이었다.\n스타트업이 대기업에 비해 가질 수 있는 몇 안 되는 진짜 경쟁력 중 하나이기도 하다.\n문제는 그 말이 너무 맞다는 데 있었다.\n사람 의존도가 높은 조직일수록 이 역설에 취약하다.\n핵심 인력에 과도하게 의존하던가, 강하게 연결되어 있던가. \n무엇이 되었든, 한 명의 이탈은 단순히 한 자리의 공백으로 끝나지 않는다.\n남아 있는 사람들에게는 하나의 신호가 된다.\n\"저 사람이 떠날 정도면, 내가 모르는 문제가 있는 걸까?\"\n\"이 팀은 지금부터 약해지는 방향으로 가는 걸까?\"\n\"나는 왜 아직 남아 있지?\"\n스타트업은 이런 충격을 흡수할 구조적 버퍼가 약하다.\n동료 몇 명이 곧 문화이고, 협업 방식이고, 버티는 이유가 되기 쉽다.\n그래서 한 명이 빠지면 팀 분위기만 흔들리는 게 아니라, 일하는 이유 자체가 흔들린다.\n결국 \"힘들지만 A가 있으니까\"로 버티던 팀은 A가 떠나는 순간 함께 흔들린다.\n그 경험을 겪고 나서 생각이 바뀌었다.\n동료가 조직의 가장 큰 장점일 수는 있다.\n하지만 '지금'의 동료만이 유일한 잔류 이유가 되어서는 안 된다.\n동료는 언제든 떠날 수 있기 때문이다.\n그게 사람이 떠나도 괜찮다는 이야기는 아니다.\n핵심은 그 소식을 들은 팀의 반응이다.\n뛰어난 A가 이직한다는 소식을 들었을 때, 팀 반응은 대체로 둘 중 하나로 갈린다.\n\"큰일이다. 나도 떠나야 하는 거 아닌가\"\n혹은\n\"아쉽다. 하지만 다음에도 좋은 사람이 오니깐 다시 시작하자\"\n둘 중 어떤 반응이 우리 조직에서 내는 반응인지가 중요하다.\n떠나는 동료에 대한 아쉬움과, 채용 프로세스에 대한 신뢰는 공존할 수 있다.\n사람을 교체 가능한 부품으로 보라는 뜻이 아니다.\n좋은 사람이 떠나더라도, 이 조직은 다시 좋은 사람을 데려올 수 있다는 시스템에 대한 믿음이 있느냐의 문제다.\n그 믿음이 있을 때만 사람의 이탈이 곧바로 조직 전체의 불안으로 번지지 않는다.\n물론 채용만으로 모든 문제가 해결되지는 않는다.\n보상, 역할의 명확성, 리더십, 사업의 방향도 결국 사람을 남게 하거나 떠나게 만든다.\n다만 내가 작년에 절실히 배운 건, \"좋은 동료를 채용해야 한다\"는 말의 의미가 생각보다 훨씬 더 넓다는 것이다.\n리더 입장에서 채용은 일을 맡길 수 있는 사람을 확보하는 행위처럼 보인다.\n하지만 팀원 입장에서는 전혀 다른 의미가 된다.\n중요한 동료가 떠난다는 소식을 들었을 때, 팀원들 마음속에는 하나의 질문이 생긴다.\n\"다음에 오는 사람도 좋은 사람일까?\"\n그 질문에 \"그래, 이 팀은 늘 좋은 사람을 데려왔잖아\"라고 답할 수 있는 팀과,\n\"그건 모르겠다\"고 불안해지는 팀의 차이는 크다.\n전자의 신뢰는 우연히 생기지 않는다.\n급하다는 이유로 기준을 쉽게 낮추지 않는다.\n스펙이 좋아도 팀과 맞지 않으면 채용하지 않는다.\n왜 채용했고 왜 보류했는지 기준과 판단 맥락을 팀 안에서 일관되게 공유한다.\n이런 경험이 반복될수록 팀은 \"이 조직은 채용을 제대로 한다\"는 감각을 갖게 된다.\n이 팀의 최고의 복지는 '지금' 있는 동료만이어서는 안 된다.\n'지금'도, '앞으로'도 좋은 동료가 계속 합류할 거라는 믿음이 복지가 되어야 한다.\n좋은 동료는 언제든 떠날 수 있다.\n좋은 채용 프로세스와 그에 대한 신뢰는 조직 안에 남는다.\n그걸 나는 작년에, 꽤 비싼 수업료를 내고 배웠다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jojoldu.tistory.com/868",
-    "pubDate": "Mon, 2 Mar 2026 17:32:29 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "개발팀 문화",
-      "스타트업 복지",
-      "스타트업 이직",
-      "스타트업 조직관리",
-      "연쇄이탈",
-      "조직 안정성",
-      "채용 프로세스",
-      "팀 문화",
-      "팀원 퇴사",
-      "핵심인재 이탈"
+      "infrastructure",
+      "software-engineering",
+      "observability",
+      "technology",
+      "engineering"
     ]
   },
   {
     "id": 8,
-    "imageUrl": "",
-    "title": "Investing in Infrastructure: Meta’s Renewed Commitment to jemalloc",
-    "description": "Meta recognizes the long-term benefits of jemalloc, a high-performance memory allocator, in its software infrastructure. We are renewing focus on jemalloc, aiming to reduce maintenance needs and modernize the codebase while continuing to evolve the allocator to adapt to the latest hardware and workloads. We are committed to continuing to develop jemalloc development with the [...]\nRead More...\nThe post Investing in Infrastructure: Meta’s Renewed Commitment to jemalloc appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/",
-    "pubDate": "Mon, 02 Mar 2026 17:00:04 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Data Infrastructure",
-      "Open Source"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Working With STM32 Arm TrustZone-Based Projects in CLion",
-    "description": "The Arm®v8-M architecture introduced a security extension called TrustZone®*, which splits the firmware running on the MCU into two worlds: secure and non-secure. In this blog post, I want to discuss how to work effectively on STM32 projects using this technology. We’ll get you all set up to use the latest and greatest code analysis […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2026/03/working-with-stm32-arm-trustzone-in-clion/",
-    "pubDate": "Mon, 02 Mar 2026 13:15:14 +0000",
-    "creator": "Jan Papesch",
-    "categories": [
-      "tips-tricks",
-      "arm",
-      "stm32",
-      "stm32cubemx",
-      "trustzone"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "구글 플레이 스토어 비공개 테스트 14일 요령",
-    "description": "24년 부터였나 구글 플레이 스토어에 앱을 등록하려면 \n- 테스터를 12명 모아 \n- 비공개테스트를 14일 간 진행\n이 조건이 추가로 생겼습니다.\n혼자개발하는 사람에겐 가혹한 조건이긴한데\n이것을 당송하는 요령을 요약해보겠습니다.\n \n일단 기기 12개는 필요합니다.\n그렇다고 안드로이드 기계를 12개 사는건 무리구요\n물리적으로 사람이 4명 있어야합니다.\n- LD플레이어\n- PC 용 구글 플레이 게임즈\n- 안드로이드 기기\n한명당 3개 정도는 만들 수 있으니\n4명이서 구글계정 3개를 돌리시면 됩니다.\n이 테스트는 사람수가 중요한게 아닙니다.\n여러기기에서 돌려보았는가가 중요합니다.\n정 못모으겠다면 \nLD 플레이어의 기기 정보를 고쳐가며 구글계겅 돌려가며 진행해도 됩니다..\n매일 테스트할 필요는 없고 하루에 1번 정도는 플레이 하시면 일 수는 채워집니다.\n \nLD 플레이어에서 태스트하기\nLD 플레이어 실행하시고 앱스토어 아이콘 옆에 크롬이 있습니다.\n크롭으로 가서 비공개테스트 링크를 붙여넣고 접속해보세요\n테스트 등록하기 버튼이 나오면 등록하시고\n안에 들어가면 하단에 1, 2 이런식으로 작은 글자가있는데\n2번에 스토러 링크를 제공합니다. \n그걸로 들어가서 앱을 받으시면 됩니다.\n \nPC 용 구글 플레이 게임즈\n이거는 크롬이 없기 때문에\n외부에서 브라우저로 지메일 로그인해서 링크 들어가 테스터 신청하시구요\nPC 용 구글 플레이 게임즈 앱을 실행 시키고 검색을 앱아이디로 하세요\ncom.~~~.게임이름 이런식으로 빌드할때 앱ID 가 있습니다. 이걸 입력하시면 비공개테스트 앱도 검색이 됩니다.\n들어가서 앱 다운 받고 실행하시면 됩니다.\n \n \n글국 이렇게 해서 테스트 기길을 채우시면\n통과할 수 있습니다.\n \n테스터 수랑 테스트 기간도 채웠지만 연속 3번을 테스트 부족이 떠서 \n알아낸 방법입니다.\n사람 수나 지메일 계정 수가 아니고 테스트 기기가 문제였습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1581",
-    "pubDate": "Sat, 28 Feb 2026 23:29:54 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "[MULTI] 신화가 되지 못한 소년들, 갓 오브 워 썬즈 오브 스파르타",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2425",
-    "pubDate": "Fri, 27 Feb 2026 20:28:34 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Building LLM-Friendly MCP Tools in RubyMine: Pagination, Filtering, and Error Design",
-    "description": "RubyMine enhances the developer experience with context-aware search features that make navigating a Rails application seamless, a powerful analysis engine that detects problems in the source code, and integrated support for the most popular version control systems. With AI becoming increasingly popular among developers as a tool that helps them understand codebases or develop applications, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ruby/2026/02/rubymine-mcp-and-the-rails-toolset/",
-    "pubDate": "Wed, 25 Feb 2026 12:02:38 +0000",
-    "creator": "Daniel Domjan",
-    "categories": [
-      "ai",
-      "rubymine",
-      "mcp",
-      "rails"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "438일차 - 또 실패한 프로덕션 검수 / 인디게임 지원사업 경험담",
-    "description": "이게 438 일차 입니다.\n영상: https://www.youtube.com/watch?v=puMFH_Urukc\n\n\n\n \n구글 플레이 스토어 프로덕션 전 2주 테스트가 2회차로 실패하는 이야기가 있습습니다.\n\n\n테스트로만 6 주를 보내고 있습니다.\n \n \n주식 이야기로 \n오라클 ORCL \n유니티 U\n테이크투 TTWO\n에픽게임즈 - 상장전\n이야기가 있습니다.\n \n인디게임 지원사업 설명은 이영상을 참고했습니다.\n영상: https://www.youtube.com/watch?v=MK5FKYHUf5Q",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1578",
-    "pubDate": "Fri, 27 Feb 2026 04:36:24 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "모바일게임",
-      "인디게임",
-      "주식"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "AI 시대에&nbsp;SaaS 스타트업 생존 전략 - 창업(스타트업)",
-    "description": "1. 배경 : 왜 지금 SaaS 생존 전략이 중요한가  최근 생성형 AI 기술이 급격히 발전하면서, 단순히 텍스트를 요약하거나 코드를 대신 짜주는 식의 '기능형 SaaS'들은 큰 위기에 직면했습니다. 대형 언어 모델(LLM)이 자체적으로 해당 기능을 무료로 제공하기 시작했기 때문입니다. 이제 사용자들은 단순한 도구가 아니라, 내 문제를 끝까지 해결해 주는",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/338",
-    "pubDate": "Tue, 03 Mar 2026 06:18:53 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 15,
     "imageUrl": "",
     "title": "FFmpeg at Meta: Media Processing at Scale",
     "description": "FFmpeg is truly a multi-tool for media processing. As an industry-standard tool it supports a wide variety of audio and video codecs and container formats. It can also orchestrate complex chains of filters for media editing and manipulation. For the people who use our apps, FFmpeg plays an important role in enabling new video experiences [...]\nRead More...\nThe post FFmpeg at Meta: Media Processing at Scale appeared first on Engineering at Meta.",
@@ -238,6 +124,112 @@
     "categories": [
       "Open Source",
       "Video Engineering"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "[책 리뷰] “우리, 프로그래머들”, 미래를 이해하기 위해, 과거를 봐야한다.",
+    "description": "어릴적에 좋아하던게, 위인전을 읽는 것이었습니다. 개발자가 되고 나서는 그런 개발의 역사를 아는 것이 재미있기도 하지만, 새로운 기술을 이해하기 위한 밑바탕이 되는 것이, 어떤 기술이 어떤 목적으로 나왔는지에 대한 것이었습니다. 책의 2부에서는 컴퓨터 역사의 거장들에 대한 이야기가 나오는데, 특히 컴파일러라는 기술이 신기하고도 대단해보였던 저에게는 BNF 표현식과 최초의 고수준 언어 포트란을 만든 존 배커스에 대한 이야기와 최초의 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://charsyam.wordpress.com/2026/02/28/%ec%b1%85-%eb%a6%ac%eb%b7%b0-%ec%9a%b0%eb%a6%ac-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%a8%b8%eb%93%a4-%eb%af%b8%eb%9e%98%eb%a5%bc-%ec%9d%b4%ed%95%b4%ed%95%98%ea%b8%b0-%ec%9c%84%ed%95%b4/",
+    "pubDate": "Sat, 28 Feb 2026 13:17:54 +0000",
+    "creator": "charsyam",
+    "categories": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "439일차 - UI 연출 해보자 / 개발로그",
+    "description": "퍼즐 게임을 출시 직전이라 마무리하는 겸해서\nUI 연출 영상을 찍고 있습니다.\n \n1일차\n영상: https://www.youtube.com/watch?v=-_TmJO8O_aM\n\n\n\n클리어 연출을 넣어야해서 기록 남겨봤습니다.\n \nUI 연출을 잘하려면\n결국 제가 말로 설명하는 부분을\n말이 필요 없게 만들면 됩니다.\n \n어느정도 잘해야 별을 3개 먹냐를 설명할 필요 없게 만드는게 참 힘드네요\n \n \n2일차\n영상: https://www.youtube.com/watch?v=ILTsHRBrRo0&feature=youtu.be\n\n\n\n바로 다음날 추가 작업 했습니다.\n- 별 획득 조건 개선\n- 효과금 추가\n- 버튼을 누르면 코인을 획득 할 수 있다는 표현 추가\n- 메인화면에서 획득한 코인이 증가하는 연출\n할일 문서를 쓰면서 작업을 했습니다.\n작업이 복잡하기 때문에 아주 잘개 나눠서 수행했습니다.\n연출도 할일 리스트를 잘 만만들면 작업을 할 수 있다는 것을 알았습니다.\n이런 방식의 작업은 AI 가 수행할때에도 도움이 될 것 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1579",
+    "pubDate": "Sat, 28 Feb 2026 17:32:56 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작",
+      "개발로그",
+      "게임제작기",
+      "유니티"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "모두의 창업 프로젝트 최대 10억원까지 받는 법 - 창업(스타트업)",
+    "description": "1. 배경 : 왜 모두의 창업 프로젝트가 중요한가요?  2026년 정부는 일자리를 '찾는 시대'에서 스스로 '만드는 시대'로의 패러다임 전환을 선언했습니다. 그 핵심이 바로 모두의 창업 프로젝트입니다. 기존 지원 사업들이 이미 사업자 등록을 마친 기업 중심이었다면, 이번 프로젝트는 아직 사업을 시작하지 않은 일반인과 예비 창업자에게 문턱을 낮춘 것이 특징입",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/334",
+    "pubDate": "Thu, 26 Feb 2026 07:50:56 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "원더랜드워 도색(하트여왕, 자바워크)",
+    "description": "육아중 시간이 날때 조금씩 도색을 하고 있습니다 ㅎㅎ 딸은 벌써 내일이면 어린이집 첫 등교입니다. 시간이 참 빠르네요. 일단 완성 사진입니다. 하트여왕 진행중 사진. 검은색 프라이밍을 한뒤 번트레드로 밑색을 깔아주었습니다. 하트여왕이 얼굴을 하얗게 하고 있네요. 흰색으로 모자 무늬와 장갑 얼굴을 칠해주고 눈섭과 입술을 검은색으로 칠해주었습니다. 화장을 시켜줍니다. 눈이 마음에 들지않아 몇번 다시 덧그렸습니다만 아직도 실력이부족하네요. 적당히 타협하고 넘어갑니다. 이번에는 붉은 옷에 그라데이션을 자연스럽게 넣어보는 연습을 해보기로 합니다. 쉐이딩하고 그냥 넘어가도 됬는데 해보는것이 중요하니까요. 매트 레드로.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/dlehddus84/224201766828?fromRss=true&trackingCode=rss",
+    "pubDate": "Mon, 02 Mar 2026 22:15:23 +0900",
+    "creator": "dlehddus84",
+    "categories": [
+      "도색과 제작"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Splunk의 eval과 rex - 5th",
+    "description": "줄바꿈(\\n) 문자를 이용해서 두 번째 라인의 계정 정보만을 검사하는 정규표현식.\n\n\n\n\n그런데 같은 정규표현식이 replace 처리 과정에서 동작하지 않는다. 검사가 실패한 거면 원본이라도 반환해야 하는데 그것도 없음.\n\n\n\n\n\nmvmap으로 다중값에 대한 개별 접근을 시도하니 원본을 반환한다. 줄바꿈 문자를 포함한 정규표현식 검사가 실패했다는 얘기.\n\n\n\n줄바꿈 문자를 빼면 두 번째 데이터가 의도대로 추출된다. 다중값은 줄 구분된 하나의 데이터가 아니라 리스트 형식으로 나열된 개별 데이터라 mvmap이 아니면 접근이 안 되고, 줄바꿈 문자로 연결할 수도 없나 보구나.\n\n\n\n\n결국 제일 간단한 방법은 mvindex로 다중값 중 원하는 데이터를 선택하는 것.\n\n\n\n\n\n반면 rex 명령어는 다중값도 접근 가능. \n\n\n\n원하는 구간만 검사할 수 있고, 검사 성공 결과만을 반환하기 때문에 필드값을 통째로 바꾸려면 문자열 전체를 검사해야 하고, 검사 실패 시 원본을 반환하는 replace보다 깔끔하다. 대신 정책 적용이 안 됨(..)\n\n줄바꿈 문자 테스트\n\n\n줄바꿈 문자로 구분된 다중값처럼 보이지만, 사실 다중값이 아니다. \n\n\n\n\n\n그래서 줄바꿈 문자로 연결 검사 가능.\n\n\n\n모든 전처리 작업이 병렬로 실행되는 계산 필드(6단계 필드 처리)는 원 소스 멀티 유즈를 구현하기 어렵다. 이 때 대안은 단계별로 처리하는 것. 스플렁크가 9단계의 복잡한 필드 처리 순서를 제공하는 이유. 2 단계는 리스트 형식의 다중값 필드 구조 완성 전이라 줄바꿈 문자도 사용 가능하다.\n\n\n\n\n\n관련 글\n\nSplunk의 eval과 rex - 4th\nSplunk의 eval과 rex\nSplunk의 역슬래시\nSplunk의 조건문\nSplunk의 dedup\nSplunk의 xml 처리",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/02/splunk-eval-rex-5th.html",
+    "pubDate": "2026-02-28T11:13:00.008Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Best Practices for Secure Error Handling in Go",
+    "description": "When you’re new to Go, error handling is definitely a paradigm shift that you need to come to terms with. Unlike in other popular languages, in Go, errors are values, not exceptions. What this means for developers is that you can’t just hide from them – you have to handle errors explicitly and at the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2026/03/02/secure-go-error-handling-best-practices/",
+    "pubDate": "Mon, 02 Mar 2026 10:31:07 +0000",
+    "creator": "Dominika Stankiewicz",
+    "categories": [
+      "goland",
+      "tutorials"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "할 놈은 한다",
+    "description": "한 달 전에 미국에서 이제 첫 번째 펀드를 만들어서 투자하고 있는 신생 VC 파트너와 잠깐 이야기할 기회가 있었다. 이 분은 전에 꽤 큰 VC에서 심사역을 몇 년 하다가 독립해서 이제 본인의 펀드로 투자를 시작했는데, 요새 대부분의 VC와 비슷하게 “AI first, AI only”를 외치면서 열심히 AI 회사들만 검토하고 있었다. 스트롱은 왜 AI에만 올인하지 않고 큰돈 안(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/03/people-who-will-do-will-do.html",
+    "pubDate": "Wed, 04 Mar 2026 21:37:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "brand",
+      "consumer",
+      "FoundersAtWork",
+      "hustle",
+      "inspiring",
+      "people",
+      "Strong"
     ]
   }
 ]
