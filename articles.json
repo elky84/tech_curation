@@ -2,6 +2,21 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "FFmpeg at Meta: Media Processing at Scale",
+    "description": "FFmpeg is truly a multi-tool for media processing. As an industry-standard tool it supports a wide variety of audio and video codecs and container formats. It can also orchestrate complex chains of filters for media editing and manipulation. For the people who use our apps, FFmpeg plays an important role in enabling new video experiences [...]\nRead More...\nThe post FFmpeg at Meta: Media Processing at Scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/",
+    "pubDate": "Mon, 02 Mar 2026 20:00:12 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Open Source",
+      "Video Engineering"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
     "title": "Working With STM32 Arm TrustZone-Based Projects in CLion",
     "description": "The Arm®v8-M architecture introduced a security extension called TrustZone®*, which splits the firmware running on the MCU into two worlds: secure and non-secure. In this blog post, I want to discuss how to work effectively on STM32 projects using this technology. We’ll get you all set up to use the latest and greatest code analysis […]",
     "reviews": [],
@@ -18,60 +33,21 @@
     ]
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "ReSharper for Visual Studio Code, Cursor, and Compatible Editors Is Out",
-    "description": "ReSharper has been a trusted productivity tool for C# developers in Visual Studio for over 20 years. Today, we’re taking the next step and officially releasing the ReSharper extension for Visual Studio Code and compatible editors. After a year in Public Preview, ReSharper has been refined to bring its C# code analysis and productivity features […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/03/05/resharper-for-visual-studio-code-cursor-and-compatible-editors-is-out/",
-    "pubDate": "Thu, 05 Mar 2026 11:31:57 +0000",
-    "creator": "Alexander Kurakin",
-    "categories": [
-      "net-tools",
-      "releases",
-      "cursor",
-      "release",
-      "resharper-for-vs-code",
-      "rider",
-      "vs-code"
-    ]
-  },
-  {
     "id": 3,
     "imageUrl": "",
-    "title": "Optimizing Recommendation Systems with JDK’s Vector API",
+    "title": "악역영애 4컷 만화 - 41화, 퇴근인데스와",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/optimizing-recommendation-systems-with-jdks-vector-api-30d2830401ec?source=rss----2615bd06b42e---4",
-    "pubDate": "Tue, 03 Mar 2026 01:36:46 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2426",
+    "pubDate": "Wed, 04 Mar 2026 21:43:58 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "netflix",
-      "machine-learning",
-      "performance",
-      "java",
-      "simd"
+      "웹툰"
     ]
   },
   {
     "id": 4,
-    "imageUrl": "",
-    "title": "443일차 - 개발로그 / v7 배포 / 퍼즐게임 피드백 / 유니티 / 펄어비스 붉은 사막",
-    "description": "영상: https://www.youtube.com/watch?v=wtAvh0KVmqc\n\n\n\n \n구글 VM 은 하루 60원이니 한달 1,800 원 그냥 쓰면 되지 않을까 싶구요\n마지막 날에가서 할인 때려서 무료가 되는걸 수도 있겠다는 생각이 듭니다.\nSID-ROOM v7 은 배포했습니다.\n아직은 허접한 기능 뿐이라 볼거리가 없습니다.\n웹페이지는 여기 입니다.\nhttps://room.sidnft.com/\n\n \nSID-ROOM | Aptos NFT\n \nroom.sidnft.com\n\n \n퍼즐게임은 피드백이 왔습니다.\n빨리고쳐서 출시해야겠습니다.\n펄어비스는 붉은 사막을 19일에 출시할 예정입니다.\n전기족 출시는 회사에 도움이 될 것 같습니다.\n스카이림과 비견되는 이야기가 외신에 있는데 \n진짜 스카이림류 스토리텔링 게임이라면 \n매우 긍정적입니다.\n하지말 일자 진행이라면 크게 실망할 것입니다.\n한국에서 스카이림 같은 게임 나왔으면 좋겠군요.\n글로벌 적으로 성공하면 더 좋구요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1585",
-    "pubDate": "Wed, 4 Mar 2026 16:43:14 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "개발로그"
-    ]
-  },
-  {
-    "id": 5,
     "imageUrl": "",
     "title": "[책 리뷰] “우리, 프로그래머들”, 미래를 이해하기 위해, 과거를 봐야한다.",
     "description": "어릴적에 좋아하던게, 위인전을 읽는 것이었습니다. 개발자가 되고 나서는 그런 개발의 역사를 아는 것이 재미있기도 하지만, 새로운 기술을 이해하기 위한 밑바탕이 되는 것이, 어떤 기술이 어떤 목적으로 나왔는지에 대한 것이었습니다. 책의 2부에서는 컴퓨터 역사의 거장들에 대한 이야기가 나오는데, 특히 컴파일러라는 기술이 신기하고도 대단해보였던 저에게는 BNF 표현식과 최초의 고수준 언어 포트란을 만든 존 배커스에 대한 이야기와 최초의 […]",
@@ -82,6 +58,23 @@
     "creator": "charsyam",
     "categories": [
       "Uncategorized"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "개발자도 당하는 구글 계정 해킹 / 유튜브",
+    "description": "개발자도 털리네요 신기해서 가져왔습니다.\n \n미끼는 광고 제휴로 자사의 홈페이지에 로그인하라고 유도 합니다.\n돈준다느니까 물수 밖에 없는 것이죠\n \n영상: https://www.youtube.com/watch?v=438eMgTRcJI\n\n\n\n \n실수는 누군가 링크로 준 사이트에가서 구글 로그인을 했고 \n(암호 입력하라고할 때 의심해야함)\n중간에 에러뜨는기 한번더 로그인을 시도\n(이때도 구글 암호를 입력함)\n해커는 해킹 해서 뭘하나\n암호화폐 구걸 방송을해서 구독자들에게서 피해를 입히는거 같습니다.\n리플을 이 지갑에 이체하면 두배로 주갔다는 내용이였군요\n \n \n구글 계정 찾는 방식 (매우 복잡)\n내 잃어버린 계정으론 로그인을 할 수 없는 상태이기 때문에 \n정상적인 시도는 엉뚱하게 흘러갑니다.\n복구 메일을 준다거나 이미 바뀐 휴대폰으로 임시 비밀번호를 준다거나 하는 식인거 같습니다.\n \n다른계정으로 support google 이라는데를 가서 문의하거나\nx.com 에가서 내 연락처를 쓰고 복구해주세요 하면 복구 링크를 전달해준다는군요\n이 과정은 복잡하기 때문에 영상을 봐야합니다.\n \n내 경우엔 ...\n저같은 경우엔 암호가 너무 어려워서 모바일 키보드로 칠 수가 없습니다.\n그리고 모바일에서 암호 입력하라는거 찾체도 뭔가 상황이 다른거라 의심이 들것입니다.\n저는 귀찮아 할꺼기 때문에 암호를 입력하지 않을 것 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1586",
+    "pubDate": "Fri, 6 Mar 2026 15:15:17 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "사연",
+      "유튜브",
+      "해킹"
     ]
   },
   {
@@ -101,29 +94,33 @@
   {
     "id": 7,
     "imageUrl": "",
-    "title": "[MULTI] 신화가 되지 못한 소년들, 갓 오브 워 썬즈 오브 스파르타",
-    "description": "No description available",
+    "title": "C++ Performance Improvements in MSVC Build Tools v14.51",
+    "description": "MSVC Build Tools v14.51 improves performance through a wide range of new optimizations.\nThe post C++ Performance Improvements in MSVC Build Tools v14.51 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2425",
-    "pubDate": "Fri, 27 Feb 2026 20:28:34 +0900",
-    "creator": "(RULIWEB`Д')/",
+    "link": "https://devblogs.microsoft.com/cppblog/c-performance-improvements-in-msvc-build-tools-v14-51/",
+    "pubDate": "Wed, 04 Mar 2026 19:41:02 +0000",
+    "creator": "Troy Johnson",
     "categories": [
-      "리뷰"
+      "Backend",
+      "C++",
+      "MSVC"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "구글 플레이 스토어 비공개 테스트 14일 요령",
-    "description": "24년 부터였나 구글 플레이 스토어에 앱을 등록하려면 \n- 테스터를 12명 모아 \n- 비공개테스트를 14일 간 진행\n이 조건이 추가로 생겼습니다.\n혼자개발하는 사람에겐 가혹한 조건이긴한데\n이것을 당송하는 요령을 요약해보겠습니다.\n \n일단 기기 12개는 필요합니다.\n그렇다고 안드로이드 기계를 12개 사는건 무리구요\n물리적으로 사람이 4명 있어야합니다.\n- LD플레이어\n- PC 용 구글 플레이 게임즈\n- 안드로이드 기기\n한명당 3개 정도는 만들 수 있으니\n4명이서 구글계정 3개를 돌리시면 됩니다.\n이 테스트는 사람수가 중요한게 아닙니다.\n여러기기에서 돌려보았는가가 중요합니다.\n정 못모으겠다면 \nLD 플레이어의 기기 정보를 고쳐가며 구글계겅 돌려가며 진행해도 됩니다..\n매일 테스트할 필요는 없고 하루에 1번 정도는 플레이 하시면 일 수는 채워집니다.\n \nLD 플레이어에서 태스트하기\nLD 플레이어 실행하시고 앱스토어 아이콘 옆에 크롬이 있습니다.\n크롭으로 가서 비공개테스트 링크를 붙여넣고 접속해보세요\n테스트 등록하기 버튼이 나오면 등록하시고\n안에 들어가면 하단에 1, 2 이런식으로 작은 글자가있는데\n2번에 스토러 링크를 제공합니다. \n그걸로 들어가서 앱을 받으시면 됩니다.\n \nPC 용 구글 플레이 게임즈\n이거는 크롬이 없기 때문에\n외부에서 브라우저로 지메일 로그인해서 링크 들어가 테스터 신청하시구요\nPC 용 구글 플레이 게임즈 앱을 실행 시키고 검색을 앱아이디로 하세요\ncom.~~~.게임이름 이런식으로 빌드할때 앱ID 가 있습니다. 이걸 입력하시면 비공개테스트 앱도 검색이 됩니다.\n들어가서 앱 다운 받고 실행하시면 됩니다.\n \n \n글국 이렇게 해서 테스트 기길을 채우시면\n통과할 수 있습니다.\n \n테스터 수랑 테스트 기간도 채웠지만 연속 3번을 테스트 부족이 떠서 \n알아낸 방법입니다.\n사람 수나 지메일 계정 수가 아니고 테스트 기기가 문제였습니다.",
+    "title": "Jenkins Plugin Management: A Practical Guide To Avoiding Dependency Hell",
+    "description": "Jenkins has always been defined by its extensibility. With more than 1,800 available plugins, there’s rarely a CI/CD problem without a plugin that addresses it. That same extensibility, however, is also the most common source of instability, security exposure, and operational overhead in Jenkins environments. This guide explains how Jenkins plugins work under the hood, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1581",
-    "pubDate": "Sat, 28 Feb 2026 23:29:54 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/teamcity/2026/03/jenkins-plugin-management/",
+    "pubDate": "Fri, 06 Mar 2026 13:39:01 +0000",
+    "creator": "Olga Bedrina",
     "categories": [
-      "프로그래밍/개발메모"
+      "plugins",
+      "devopspains",
+      "jenkins"
     ]
   },
   {
@@ -141,57 +138,35 @@
   {
     "id": 10,
     "imageUrl": "",
-    "title": "442일차 - 개발로그 - 칼질 해보자 / KYORA 참고중",
-    "description": "영상: https://www.youtube.com/watch?v=LRb-94L6I8Q&t=22s\n\n\n\n \n \n \nKYORA 의 전투 모션을 열심히 참고 중입니다.\n \n저는 SPUM 을 사용중이라 기본 모션이 칼이 앞에 가 있습니다.\n\n\n \n이러다보니 공격 즉시 충돌체크를 켜면 바도 때려지는 이슈가 있습니다.\n너무 유리한거죠\n \n\n\nKYORA 는 뒤에서 모으는 자세가 있습니다.\n\n\nIDLE 시에도 칼을 몸통에 바짝 붙여 세우기 때문에 충돌체크가 이상해질 틈이 적습니다.\n\n\n무기를 들고 있지 않는 모션도 있군요\n여러가지가  구분되어있는거 같습니다.\n \n잘만든 게임으로 보이고\n전투에 길을 잃은 저로서는",
+    "title": "인증서 톺아보기 시리즈 1: 인증서란? 디지털 신뢰의 시작",
+    "description": "[![NHN Cloud_meetup banner_certificate_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannercertificate900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 들어가며\r\r\n\r\r\n여러분은 '인증서'라고 하면 어떤 생각이 떠오르시나요? 아마 많은 분들이 '**매년 갱신해야 하는 귀찮은 일**'을 떠올리실 겁니다. 그런데 정작 인증서가 무엇인지, 왜 필요한지는 잘 모르는 경우가 많습니다. 오늘은 인증서의 기본 개념부터 도메인 인증서 관리 실무에서 알아두면 좋은 내용까지 한번 살펴보겠습니다.\r\r\n\r\r\n## 인증서(Certificate)란?\r\r\n\r\r\n인증서는 **디지털 신원 증명서**입니다. 현실 세계의 신분증이 사람을 증명하듯, 디지털 세계에서는 이 인증서라는 전자 문서가 서버, 클라이언트, 또는 개인의 신원을 증명합니다.\r\r\n\r\r\n가장 흔하게 접하는 것은 **웹 서버 인증서(도메인 인증서)**입니다. 브라우저 주소창의 자물쇠 아이콘을 클릭해 보면 인증서를 확인할 수 있는데, 이는 \"**이 서버는 진짜 example.com이 맞습니다**\"라고 증명하는 역할을 합니다.\r\r\n\r\r\n### 인증서의 핵심 구성 요소\r\r\n\r\r\n![certificate_1_900.png](https://image.toast.com/aaaadh/real/2026/techblog/certificate1900.png)\r\r\n\r\r\n* **Subject(발급 대상)**: 이 인증서가 누구(어떤 도메인/조직)를 위한 것인지 명시\r\r\n    * **CN(Common Name)**: 보호할 도메인명(예: `example.com`, `*.example.com`)\r\r\n    * **O(Organization)**: 조직/회사명(특정 유형의 인증서에서 필수)\r\r\n    * 기타: OU(부서), L(도시), ST(주/도), C(국가 코드)\r\r\n* **Issuer(발급자)**: 이 인증서를 발급한 CA의 정보\r\r\n    * 신뢰 체인 검증 시 사용\r\r\n    * **Self-signed 인증서**: Subject=Issuer(자신이 자신을 서명)\r\r\n        * 개발/테스트 환경에서 사용\r\r\n        * 브라우저가 신뢰하지 않아 경고 표시\r\r\n        * 공개 CA 발급 전 테스트용으로 유용\r\r\n    * Root CA도 자체 서명하므로 Subject=Issuer이지만, 브라우저/OS에 사전 설치되어 신뢰됨\r\r\n* **Public Key(공개 키)**: 서버 신원 검증과 안전한 키 교환에 사용\r\r\n    * 서버의 디지털 서명 검증\r\r\n    * TLS Handshake 시 안전한 세션 키 협상\r\r\n    * 대응하는 개인 키(Private Key)는 서버만 보유\r\r\n* **Validity Period(유효 기간)**: 인증서 사용 가능 기간\r\r\n    * **Not Before**: 유효 시작 일시\r\r\n    * **Not After**: 만료 일시\r\r\n    * 최근 CA/Browser Forum 규정: 최대 398일(약 13개월)\r\r\n        * **2026년 3월 15일부터: 최대 200일**\r\r\n        * **2027년 3월 15일부터: 최대 100일**\r\r\n        * **2029년 3월 15일부터: 최대 47일**\r\r\n        * 위와 같이 점차 유효 기간이 줄어들 예정\r\r\n* **Digital Signature(디지털 서명)**: CA의 개인 키로 생성한 서명\r\r\n    * 인증서 내용의 무결성 보장\r\r\n    * CA의 공개 키로 검증 가능\r\r\n    * 위변조 방지의 핵심 메커니즘\r\r\n\r\r\n\r\r\n## TLS/HTTPS 통신 과정\r\r\n\r\r\n인증서의 구조를 살펴봤으니, 이제 이 인증서가 실제 HTTPS 통신에서 어떻게 사용되는지 알아보겠습니다.\r\r\n\r\r\n### 1\\. TLS Handshake\r\r\n\r\r\n브라우저가 [https://nhncloud.com](https://nhncloud.com/)에 접속할 때 다음과 같은 프로세스를 거칩니다.\r\r\n\r\r\n```\r\r\n1. Client Hello\r\r\n   클라이언트 → 서버\r\r\n   \"안녕하세요! 저는 이런 암호화 방식들을 지원합니다.\"\r\r\n\r\r\n2. Server Hello + Certificate\r\r\n   서버 → 클라이언트\r\r\n   \"저는 이 인증서로 신원을 증명합니다.\"\r\r\n   (인증서 전송)\r\r\n\r\r\n3. Certificate Verification\r\r\n   클라이언트\r\r\n   ✓ 신뢰할 수 있는 CA가 발급한 인증서인가?\r\r\n   ✓ 유효 기간이 지나지 않았나?\r\r\n   ✓ 도메인 이름이 일치하는가?\r\r\n   ✓ 인증서가 폐기되지 않았나?(CRL/OCSP)\r\r\n\r\r\n4. Key Exchange\r\r\n   클라이언트 ↔ 서버\r\r\n   Diffie-Hellman 알고리즘으로 세션 키를 안전하게 생성\r\r\n\r\r\n5. Secure Communication\r\r\n   생성한 세션 키를 이용한 대칭 키 암호화 기반 양방향 보안 통신 시작\r\r\n```\r\r\n\r\r\n### 2\\. 비대칭 키 암호화\\(공개 키 암호화\\)\r\r\n\r\r\n위의 TLS Handshake 과정에서 인증서는 **공개 키 암호화** 방식을 사용합니다.\r\r\n\r\r\n![certificate_2_900.png](https://image.toast.com/aaaadh/real/2026/techblog/certificate2900.png)\r\r\n\r\r\n**서명 생성 과정**\r\r\n\r\r\n```\r\r\n  1. TBS(To-Be-Signed): Subject, Public Key, 유효 기간 등 인증서 정보\r\r\n     ↓\r\r\n  2. 해시 함수 적용(SHA-256 등)\r\r\n     → 고정 길이 해시값 생성\r\r\n     ↓\r\r\n  3. CA의 개인 키로 해시값 암호화\r\r\n     → 디지털 서명 완성\r\r\n```\r\r\n\r\r\n**위변조 방지 원리**: 인증서 내용이 조금이라도 변경되면 해시값이 완전히 달라지므로, CA의 공개 키로 검증 시 즉시 탐지됩니다. CA의 개인 키 없이는 유효한 서명을 만들 수 없기 때문에 위조가 불가능합니다.\r\r\n\r\r\n**핵심 원리**\r\r\n\r\r\n* 공개 키로 암호화한 데이터는 오직 개인 키로만 복호화 가능\r\r\n* 개인 키로 만든 서명은 공개 키로 검증 가능\r\r\n\r\r\n![certificate_3_900.png](https://image.toast.com/aaaadh/real/2026/techblog/certificate3900.png)\r\r\n\r\r\n## 인증 기관(CA)과 신뢰 체인\r\r\n\r\r\n### CA(Certificate Authority)의 역할\r\r\n\r\r\nCA는 인증서를 발급하고 그 진위를 보증하는 **디지털 공증인**입니다.\r\r\n\r\r\n![certificate_4_900.png](https://image.toast.com/aaaadh/real/2026/techblog/certificate4900.png)\r\r\n\r\r\n### 신뢰 체인(Chain of Trust) 검증\r\r\n\r\r\n1) 브라우저가 서버 인증서 수신\r\r\nCN: *.nhncloud.com\r\r\nIssuer: Sectigo RSA Organization Validation Secure Server CA\r\r\n\r\r\n![certificate_5.png](https://image.toast.com/aaaadh/real/2026/techblog/certificate5.png)\r\r\n\r\r\n2) Intermediate CA 인증서 확인\r\r\nIssuer: USERTrust RSA Certification Authority\r\r\n\r\r\n![certificate_6.png](https://image.toast.com/aaaadh/real/2026/techblog/certificate6.png)\r\r\n\r\r\n3) Root CA 확인\r\r\n→ 브라우저/OS에 사전 설치된 신뢰할 수 있는 Root CA 목록에 있는가?\r\r\n✓ 있으면 신뢰\r\r\n✗ 없으면 경고(\"연결이 비공개로 설정되어 있지 않습니다\")\r\r\n\r\r\n![certificate_7.png](https://image.toast.com/aaaadh/real/2026/techblog/certificate7.png)\r\r\n\r\r\n### 주요 CA 업체들\r\r\n\r\r\n* Let's Encrypt\r\r\n* DigiCert\r\r\n* GlobalSign\r\r\n* Sectigo(구 Comodo)\r\r\n\r\r\n## 인증서 파일 형식\r\r\n\r\r\n실무에서 다양한 확장자의 인증서 파일을 마주치게 되는데, 처음에는 매우 헷갈립니다.\r\r\n**인코딩 형식**(데이터 표현 방법)과 **파일 확장자**(파일명)는 다른 개념이지만 혼용되어 사용되므로 주의가 필요합니다.\r\r\n\r\r\n### 인코딩 형식(데이터 표현 방법)\r\r\n\r\r\n인증서 데이터를 저장하는 방식은 크게 2가지입니다.\r\r\n\r\r\n* **PEM(Privacy Enhanced Mail)**: Base64로 인코딩된 텍스트 형식\r\r\n    * `-----BEGIN CERTIFICATE-----`로 시작하는 형태\r\r\n    * 텍스트 편집기로 열어볼 수 있음\r\r\n* **DER(Distinguished Encoding Rules)**: 바이너리 형식\r\r\n    * 텍스트 편집기로 열면 깨진 문자 표시\r\r\n    * PEM과 내용은 같지만 인코딩 방식만 다름\r\r\n\r\r\n### 주요 파일 확장자와 용도\r\r\n\r\r\n| 확장자 | 주로 사용하는 인코딩 | 내용 | 주요 용도 |\r\r\n| --- | ----------- | --- | ----- |\r\r\n| **`.pem`** | PEM | 인증서, 개인 키, 체인 | Linux/Unix, Nginx, Apache |\r\r\n| **`.crt`** | PEM(또는 DER) | 인증서만 | 인증서 배포(Linux/Unix) |\r\r\n| **`.cer`** | DER(또는 PEM) | 인증서만 | 인증서 배포(Windows) |\r\r\n| **`.key`** | PEM(또는 DER) | 개인 키만 | 서버 개인 키 보관 |\r\r\n| **`.der`** | DER | 인증서 또는 개인 키 | DER 인코딩임을 명시 |\r\r\n| **`.pfx`, `.p12`** | 바이너리(PKCS#12) | 인증서+개인 키+체인 | Windows, IIS, Java(Java 9+부터 기본) |\r\r\n| **`.jks`** | 바이너리(Java KeyStore) | 인증서+개인 키 | Java(레거시, Java 8 이하) |\r\r\n\r\r\n### 헷갈리기 쉬운 포인트\r\r\n\r\r\n**Q. `.crt`와 `.cer`의 차이는?**\r\r\n\r\r\n* 확장자만 다르고 본질적으로 같은 인증서 파일\r\r\n* `.crt`는 주로 Linux/Unix에서, `.cer`는 Windows에서 선호\r\r\n* 두 가지 모두 PEM 또는 DER 인코딩을 사용할 수 있음\r\r\n* **중요**: 확장자로는 인코딩 형식을 알 수 없음!\r\r\n\r\r\n**Q. `.pem`과 `.crt`의 차이는?**\r\r\n\r\r\n* `.pem`: 인증서, 개인 키, 체인 등 다양한 내용 포함 가능\r\r\n* `.crt`: 일반적으로 인증서만 포함(개인 키 없음)\r\r\n* 두 가지 모두 대부분 PEM 인코딩 사용\r\r\n\r\r\n**Q. `.der` 파일은?**\r\r\n\r\r\n* DER 인코딩을 사용한다는 것을 확장자로 명시\r\r\n* 인증서 또는 개인 키 모두 가능(바이너리 형식)\r\r\n* 주로 Java, Windows 환경에서 사용\r\r\n\r\r\n### 특수 형식 상세 설명\r\r\n\r\r\n**PKCS#12(.pfx, .p12)**\r\r\n\r\r\n* 인증서+개인 키+체인을 하나의 파일로 묶은 형식\r\r\n* 비밀번호로 보호 가능\r\r\n* Windows 환경과 **Java 9 이상에서 표준 형식**\r\r\n* `.pfx`는 Windows 관례, `.p12`는 범용 확장자\r\r\n\r\r\n**JKS(Java KeyStore) - 레거시**\r\r\n\r\r\n* Java 전용 바이너리 형식\r\r\n* Java 8 이하에서 기본 형식\r\r\n* Java 9부터는 PKCS#12가 기본이므로, 신규 프로젝트는 `.p12` 사용 권장\r\r\n\r\r\n## 도메인 인증서의 종류\r\r\n\r\r\n### 적용 범위에 따른 분류\r\r\n\r\r\n```\r\r\n1. Single Domain Certificate\r\r\n   example.com만 보호\r\r\n\r\r\n2. Wildcard Certificate\r\r\n   *.example.com\r\r\n   → sub1.example.com, sub2.example.com 모두 보호\r\r\n   → example.com은 별도 추가 필요!\r\r\n\r\r\n3. Multi-Domain(SAN) Certificate\r\r\n   example.com\r\r\n   example.org\r\r\n   sub.example.net\r\r\n   → 완전히 다른 도메인들도 하나의 인증서로 보호\r\r\n```\r\r\n\r\r\n### 검증 수준에 따른 분류\r\r\n\r\r\n| 종류 | 검증 수준 | 발급 시간 | Policy OID | 용도 |\r\r\n| --- | ----- | ----- | ---------- | --- |\r\r\n| **DV(Domain Validated)** | 도메인 소유권만 확인 | 수분~수시간 | 2.23.140.1.2.1 | 일반 웹사이트, 개발/테스트 |\r\r\n| **OV(Organization Validated)** | 도메인+조직 실재 확인 | 1~3일 | 2.23.140.1.2.2 | 기업 웹사이트(NHN Cloud 도메인 인증서가 해당) |\r\r\n| **EV(Extended Validation)** | 도메인+조직+법적 실재 확인 | 1~2주 | 2.23.140.1.1 | 금융, 전자상거래(주소창에 회사명 표시) |\r\r\n\r\r\n**인증서 타입 구분 방법**\r\r\n\r\r\n인증서 내부의 **Certificate Policies** 확장 필드에 포함된 OID(Object Identifier)를 통해 DV/OV/EV를 구분할 수 있습니다.\r\r\n\r\r\n```\r\r\n# 인증서의 Policy OID 확인\r\r\nopenssl x509 -in certificate.crt -noout -text | grep -A 5 \"Certificate Policies\"\r\r\n\r\r\n# 출력 예시\r\r\n# Certificate Policies:\r\r\n#     Policy: 2.23.140.1.2.1  ← DV 인증서\r\r\n#     Policy: 2.23.140.1.2.2  ← OV 인증서\r\r\n#     Policy: 2.23.140.1.1    ← EV 인증서\r\r\n```\r\r\n\r\r\n**CA/Browser Forum 표준 Policy OID**\r\r\n\r\r\n* `2.23.140.1.2.1`: Domain Validation\r\r\n* `2.23.140.1.2.2`: Organization Validation\r\r\n* `2.23.140.1.1`: Extended Validation\r\r\n\r\r\n## 실무에서 자주 마주치는 이슈들\r\r\n\r\r\n지금까지 인증서의 기본 개념과 파일 형식, 도메인 인증서의 종류를 살펴봤습니다.\r\r\n이제 실제 도메인 인증서를 관리하면서 마주칠 수 있는 대표적인 문제들과 해결 방법을 알아보겠습니다.\r\r\n\r\r\n### 1\\. 인증서 체인 불완전\\(Incomplete Chain\\)\r\r\n\r\r\n```\r\r\n❌ 잘못된 구성\r\r\n서버: End-Entity Certificate만 제공\r\r\n\r\r\n✅ 올바른 구성\r\r\n서버: End-Entity + Intermediate CA 모두 제공\r\r\n```\r\r\n\r\r\n**증상:** 일부 구형 브라우저/디바이스에서만 인증서 오류\r\r\n\r\r\n* 최신 브라우저는 AIA(Authority Information Access)를 통해 누락된 중간 인증서를 자동으로 가져오지만, 구형은 이를 지원하지 않음\r\r\n* [SSL Labs](https://www.ssllabs.com/ssltest/)로 체인 구성 검증 가능\r\r\n\r\r\n**해결:** 제공 받은 인증서 번들 파일 모두 사용\r\r\n\r\r\n### 2\\. CN vs SAN\r\r\n\r\r\n지금까지의 내용에는 편의를 위해 Common Name(CN)에 도메인을 명시했지만, 현재는 **SAN(Subject Alternative Name)**이 표준입니다.\r\r\n\r\r\n```\r\r\n현대적인 인증서:\r\r\n CN: example.com\r\r\nSAN:\r\r\n  - DNS:example.com\r\r\n  - DNS:www.example.com\r\r\n```\r\r\n\r\r\n> **중요:** Chrome 58+ 버전(2017년 출시)부터 CN을 무시하고 SAN만 확인합니다.\r\r\n\r\r\n인증서 발급 시 SAN에 모든 도메인이 포함되어 있는지 확인해야 합니다.\r\r\n\r\r\n```\r\r\n# 인증서의 SAN 확인\r\r\nopenssl x509 -in certificate.crt -noout -text | grep -A 1 \"Subject Alternative Name\"\r\r\n```\r\r\n\r\r\n### 3\\. 실무에서 유용한 인증서 명령어\r\r\n\r\r\n\r\r\n OpenSSL 명령어 살펴보기\r\r\n\r\r\n**파일 인코딩 형식 확인**\r\r\n\r\r\n```\r\r\n# 1. 파일을 텍스트로 열어보기\r\r\ncat certificate.crt\r\r\n# → -----BEGIN CERTIFICATE----- 가 보이면 PEM 인코딩\r\r\n# → 깨진 문자가 보이면 DER 인코딩\r\r\n\r\r\n# 2\\. file 명령어로 확인\r\r\nfile certificate.crt\r\r\n# → \"PEM certificate\" 또는 \"Certificate, Version=3\"(DER) 형태 표시\r\r\n\r\r\n# 3\\. 인증서 내용 상세 확인\\(PEM/DER 자동 인식\\)\r\r\nopenssl x509 -in certificate.crt -text -noout\r\r\n\r\r\n# 4\\. 인증서 만료일 확인\r\r\nopenssl x509 -in certificate.crt -noout -dates\r\r\n```\r\r\n\r\r\n**인증서 형식 변환**\r\r\n\r\r\n```\r\r\n# 인증서: PEM → DER\r\r\nopenssl x509 -in cert.pem -outform DER -out cert.der\r\r\n\r\r\n# 인증서: DER → PEM\r\r\nopenssl x509 -in cert.der -inform DER -outform PEM -out cert.pem\r\r\n# [-inform DER] 생략 가능\r\r\n\r\r\n# 개인 키: PEM → DER\r\r\nopenssl rsa -in private.key -outform DER -out private.der\r\r\n\r\r\n# 개인 키: DER → PEM\r\r\nopenssl rsa -in private.der -inform DER -out private.key\r\r\n# [-inform DER] 생략 가능\r\r\n\r\r\n# PEM → PFX(인증서+개인 키)\r\r\nopenssl pkcs12 -export \\\r\r\n\t-out certificate.pfx \\\r\r\n\t-inkey private.key \\\r\r\n\t-in certificate.crt \\\r\r\n\t-certfile ca-bundle.crt\r\r\n\r\r\n# PFX → PEM(인증서와 개인 키 분리)\r\r\n# 인증서 추출\r\r\nopenssl pkcs12 -in certificate.pfx -clcerts -nokeys -out certificate.pem\r\r\n# 개인 키 추출\r\r\nopenssl pkcs12 -in certificate.pfx -nocerts -nodes -out private.key\r\r\n```\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n Java keytool 명령어 살펴보기\r\r\n\r\r\n**Keystore 생성 및 관리**\r\r\n\r\r\n```\r\r\n# 1\\. Keystore 내용 확인 및 인증서 만료일 확인\r\r\nkeytool -list -v -keystore keystore.p12 -storetype PKCS12\r\r\n# [-storetype PKCS12] 생략 가능\r\r\n# 만료일 영역을 찾아서 확인\r\r\n\r\r\n# 2\\. 특정 alias 인증서 상세 정보 확인\r\r\nkeytool -list -v -keystore keystore.p12 -alias myalias\r\r\n\r\r\n# 3\\. Keystore에 있는 모든 alias 목록 확인\r\r\nkeytool -list -keystore keystore.p12`\r\r\n```\r\r\n\r\r\n**PEM/PFX → Keystore 변환**\r\r\n\r\r\n```\r\r\n# 1\\. PFX를 PKCS12 keystore로 변환\\(사실상 같은 형식\\)\r\r\n# Java 9+에서는 그냥 사용 가능\r\r\nkeytool -list -keystore certificate.pfx -storetype PKCS12\r\r\n# [-storetype PKCS12] 생략 가능\r\r\n\r\r\n# 2\\. PEM 인증서를 keystore로 import\r\r\n# 먼저 PEM을 PFX로 변환\r\r\nopenssl pkcs12 -export \\\r\r\n    -in certificate.crt \\\r\r\n    -inkey private.key \\\r\r\n    -out keystore.p12 \\\r\r\n    -name myalias\r\r\n\r\r\n# 3\\. JKS keystore를 PKCS12로 변환\\(권장\\)\r\r\nkeytool -importkeystore \\\r\r\n    -srckeystore old-keystore.jks \\\r\r\n    -srcstoretype JKS \\\r\r\n    -destkeystore new-keystore.p12 \\\r\r\n    -deststoretype PKCS12\r\r\n\r\r\n# 4\\. PKCS12 keystore에서 인증서 export\r\r\nkeytool -exportcert \\\r\r\n    -keystore keystore.p12 \\\r\r\n    -alias myalias \\\r\r\n    -file exported-cert.crt`\r\r\n```\r\r\n\r\r\n**인증서 추가/삭제**\r\r\n\r\r\n```\r\r\n# 1\\. 신뢰할 수 있는 CA 인증서 추가\r\r\nkeytool -import \\\r\r\n    -trustcacerts \\\r\r\n    -alias ca-cert \\\r\r\n    -file ca.crt \\\r\r\n    -keystore truststore.p12 \\\r\r\n    -storetype PKCS12\r\r\n\r\r\n# 2\\. Keystore에서 인증서 삭제\r\r\nkeytool -delete \\\r\r\n    -alias myalias \\\r\r\n    -keystore keystore.p12\r\r\n\r\r\n# 3\\. Alias 이름 변경\r\r\nkeytool -changealias \\\r\r\n    -keystore keystore.p12 \\\r\r\n    -alias oldname \\\r\r\n    -destalias newname`\r\r\n```\r\r\n\r\r\n\r\r\n\r\r\n#### **주의 사항**\r\r\n\r\r\n* `.pem` 파일은 여러 인증서를 연결해서 하나의 파일로 만들 수 있음(체인 번들)\r\r\n* 개인 키(`.key`) 파일은 절대 외부에 노출되면 안 됨\r\r\n* Windows 환경은 주로 `.pfx`, Linux 환경은 주로 `.pem` 사용\r\r\n* Java 환경: Java 9+는 `.p12`(PKCS#12), 레거시(Java 8 이하)는 `.jks`\r\r\n* 확장자는 관례일 뿐, 실제 내용은 파일을 열어봐야 정확히 알 수 있음\r\r\n* keytool 사용 시 비밀번호 입력이 필요하며, `-storepass` 옵션으로 지정 가능\r\r\n\r\r\n## 마치며\r\r\n\r\r\n인증서는 **단순히 \"자물쇠 아이콘\"이 아닙니다.** 현대 웹 보안의 기초이자, 사용자와 서비스 간의 신뢰를 구축하는 핵심 요소입니다.\r\r\n\r\r\n**핵심 요약**\r\r\n\r\r\n* 인증서는 디지털 신원 증명서로 공개 키 암호화와 CA의 서명으로 신뢰성 보장\r\r\n* TLS Handshake를 통한 안전한 통신 수립\r\r\n* 신뢰 체인: End-Entity → Intermediate CA → Root CA\r\r\n* 파일 형식: `.pem`(텍스트), `.der`(바이너리), `.pfx`(인증서+키)\r\r\n* 실무 체크리스트: 체인 완전성, SAN 포함 여부\r\r\n\r\r\n다음 편에서는 **짧아지는 인증서 유효 기간과 이에 대한 해결책인 ACME 프로토콜**에 대해 알아보겠습니다.\r\r\n2029년 최대 47일까지 단축되는 유효 기간에 대응하는 자동화 전략과, Let's Encrypt의 무료 인증서 제공 원리를 다룹니다.\r\r\n\r\r\n긴 글을 읽어 주셔서 감사합니다. \r\r\n\r\r\n## 참고 자료\r\r\n\r\r\n### 참고 문헌\r\r\n\r\r\n* Sharon Boeyen 외, RFC - [Proposed Standard](https://tools.ietf.org/html/rfc5280), 2008. 5.\r\r\n* Qualys SSL Labs, [SSL Server Test](https://www.ssllabs.com/ssltest/)\r\r\n* 한국전자인증, [[중요공지] SSL/TLS 인증서 유효기간 단축 확정](https://cert.crosscert.com/%EC%A4%91%EC%9A%94%EA%B3%B5%EC%A7%80-ssl-tls-%EC%9D%B8%EC%A6%9D%EC%84%9C-%EC%9C%A0%ED%9A%A8%EA%B8%B0%EA%B0%84-%EB%8B%A8%EC%B6%95-%ED%99%95%EC%A0%95/), 2025. 4. 18.\r\r\n\r\r\n### NHN Cloud 인증서 관리 서비스 살펴보기\r\r\n\r\r\n> * **[Certificate Manager](https://www.nhncloud.com/kr/service/management/certificate-manager)**: 인증서, 도메인 등 만료 기한이 있는 자산을 관리하고 만료일 알림을 제공하는 서비스\r\r\n> * **[Private CA](https://www.nhncloud.com/kr/service/management/private-ca)**: 조직 내·외부에서 사용하는 사설 인증서를 발급부터 폐기까지 자동화 및 표준화하는 서비스\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_blue_202412_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooterblue202412900.png)](https://www.nhncloud.com/kr)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1583",
-    "pubDate": "Tue, 3 Mar 2026 14:53:57 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "개발로그",
-      "참고게임"
-    ]
+    "link": "https://meetup.nhncloud.com/posts/409",
+    "pubDate": "Tue, 03 Mar 2026 00:49:01 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "Does making our own decisions help us work better?",
+    "title": "Optimizing Recommendation Systems with JDK’s Vector API",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/directlyresponsible",
-    "pubDate": "Thu, 05 Mar 2026 06:41:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://netflixtechblog.com/optimizing-recommendation-systems-with-jdks-vector-api-30d2830401ec?source=rss----2615bd06b42e---4",
+    "pubDate": "Tue, 03 Mar 2026 01:36:46 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "netflix",
+      "machine-learning",
+      "performance",
+      "java",
+      "simd"
+    ]
   },
   {
     "id": 12,
-    "imageUrl": "",
-    "title": "AI 시대에&nbsp;SaaS 스타트업 생존 전략 - 창업(스타트업)",
-    "description": "1. 배경 : 왜 지금 SaaS 생존 전략이 중요한가  최근 생성형 AI 기술이 급격히 발전하면서, 단순히 텍스트를 요약하거나 코드를 대신 짜주는 식의 '기능형 SaaS'들은 큰 위기에 직면했습니다. 대형 언어 모델(LLM)이 자체적으로 해당 기능을 무료로 제공하기 시작했기 때문입니다. 이제 사용자들은 단순한 도구가 아니라, 내 문제를 끝까지 해결해 주는",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/338",
-    "pubDate": "Tue, 03 Mar 2026 06:18:53 GMT",
-    "creator": "고명환",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "최대 25만 원, 소상공인 경영안정 바우처로 고정비 부담 덜어요",
-    "description": "공과금과 보험료가 부담되는 소상공인이라면 확인해 보세요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-56_",
-    "pubDate": "Fri, 27 Feb 2026 01:28:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
     "imageUrl": "",
     "title": "혼자 RPG 를 만드는 일은 미친짓이였다. / 에소테릭 엡 / Esoteric Ebb",
     "description": "디스코엘리시움의 찬양 글이였군요\n\n\n디스코 엘리시움은 아직 못해봤습니다. \n(사놓긴 했습니다.)\n \n디스코 엘리시움을 출시될때 못해본 저로서는 이번에는 빠르게 도전해봐야겠습니다.\n \n \n \n영상: https://www.youtube.com/watch?v=4Aed0uppZ-I\n\n\n\n \n이분은 전투어려웠다는군요\n저는 대사 쓰는게 어려운데\n20년에 갈아엎었군요\n지금이 25년인데 ㄷㄷㄷ\n이게 프로토타입 4호 군요\n24년 잔고가 바닥 났고 퍼플리셔는 없었고\n데모를 공개했고 누군가 기사를 써줬고 점점더 추천이 늘어나는 성공 스토리였군요\n \nEsoteric Ebb 라는 게임을 출시했군요\n스팀 링크: https://store.steampowered.com/app/2057760/Esoteric_Ebb/\n트레일러 : https://www.youtube.com/watch?v=22wG-w-EnBo\n\n\n\n \n디스코엘리시움류 라는 장르가 있군요\n테무산 디스코엘리시움도 있구요\n큰영향을 준 게임임은 분명합니다.\n \n2부가 올라왔습니다.\n영상: https://www.youtube.com/watch?v=4qXhO8ouqY8\n\n\n\n \n \n \n \n훈훈한  내용이였습니다.",
@@ -206,20 +181,46 @@
     ]
   },
   {
-    "id": 15,
+    "id": 13,
     "imageUrl": "",
-    "title": "439일차 - UI 연출 해보자 / 개발로그",
-    "description": "퍼즐 게임을 출시 직전이라 마무리하는 겸해서\nUI 연출 영상을 찍고 있습니다.\n \n1일차\n영상: https://www.youtube.com/watch?v=-_TmJO8O_aM\n\n\n\n클리어 연출을 넣어야해서 기록 남겨봤습니다.\n \nUI 연출을 잘하려면\n결국 제가 말로 설명하는 부분을\n말이 필요 없게 만들면 됩니다.\n \n어느정도 잘해야 별을 3개 먹냐를 설명할 필요 없게 만드는게 참 힘드네요\n \n \n2일차\n영상: https://www.youtube.com/watch?v=ILTsHRBrRo0&feature=youtu.be\n\n\n\n바로 다음날 추가 작업 했습니다.\n- 별 획득 조건 개선\n- 효과금 추가\n- 버튼을 누르면 코인을 획득 할 수 있다는 표현 추가\n- 메인화면에서 획득한 코인이 증가하는 연출\n할일 문서를 쓰면서 작업을 했습니다.\n작업이 복잡하기 때문에 아주 잘개 나눠서 수행했습니다.\n연출도 할일 리스트를 잘 만만들면 작업을 할 수 있다는 것을 알았습니다.\n이런 방식의 작업은 AI 가 수행할때에도 도움이 될 것 같습니다.",
+    "title": "AI 시대에&nbsp;SaaS 스타트업 생존 전략 - 창업(스타트업)",
+    "description": "1. 배경 : 왜 지금 SaaS 생존 전략이 중요한가  최근 생성형 AI 기술이 급격히 발전하면서, 단순히 텍스트를 요약하거나 코드를 대신 짜주는 식의 '기능형 SaaS'들은 큰 위기에 직면했습니다. 대형 언어 모델(LLM)이 자체적으로 해당 기능을 무료로 제공하기 시작했기 때문입니다. 이제 사용자들은 단순한 도구가 아니라, 내 문제를 끝까지 해결해 주는",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1579",
-    "pubDate": "Sat, 28 Feb 2026 17:32:56 +0900",
+    "link": "https://brunch.co.kr/@@LOc/338",
+    "pubDate": "Tue, 03 Mar 2026 06:18:53 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "442일차 - 개발로그 - 칼질 해보자 / KYORA 참고중",
+    "description": "영상: https://www.youtube.com/watch?v=LRb-94L6I8Q&t=22s\n\n\n\n \n \n \nKYORA 의 전투 모션을 열심히 참고 중입니다.\n \n저는 SPUM 을 사용중이라 기본 모션이 칼이 앞에 가 있습니다.\n\n\n \n이러다보니 공격 즉시 충돌체크를 켜면 바도 때려지는 이슈가 있습니다.\n너무 유리한거죠\n \n\n\nKYORA 는 뒤에서 모으는 자세가 있습니다.\n\n\nIDLE 시에도 칼을 몸통에 바짝 붙여 세우기 때문에 충돌체크가 이상해질 틈이 적습니다.\n\n\n무기를 들고 있지 않는 모션도 있군요\n여러가지가  구분되어있는거 같습니다.\n \n잘만든 게임으로 보이고\n전투에 길을 잃은 저로서는",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1583",
+    "pubDate": "Tue, 3 Mar 2026 14:53:57 +0900",
     "creator": "SIDNFT",
     "categories": [
       "프로그래밍/자작",
       "개발로그",
-      "게임제작기",
-      "유니티"
+      "참고게임"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Best Practices for Secure Error Handling in Go",
+    "description": "When you’re new to Go, error handling is definitely a paradigm shift that you need to come to terms with. Unlike in other popular languages, in Go, errors are values, not exceptions. What this means for developers is that you can’t just hide from them – you have to handle errors explicitly and at the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2026/03/02/secure-go-error-handling-best-practices/",
+    "pubDate": "Mon, 02 Mar 2026 10:31:07 +0000",
+    "creator": "Dominika Stankiewicz",
+    "categories": [
+      "goland",
+      "tutorials"
     ]
   }
 ]
