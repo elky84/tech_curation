@@ -2,48 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "엔터프라이즈 LLM 서비스 구축기 2: 에이전트 엔지니어링",
-    "description": "들어가며지난 엔터프라이즈 LLM 서비스 구축기 1: 컨텍스트 엔지니어링에서는 260개의 도구와 수백 페이지의 문서를 다루는 환경에서 LLM에게 필요한 정보만 골라서 제공하는 '점진...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/building-an-llm-service-for-enterprise-2-agent-engineering",
-    "pubDate": "Mon, 09 Mar 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "서비스 가격 저가 경쟁하지 말라",
-    "description": "영상: https://www.youtube.com/watch?v=pJkTaA0o_f8\n\n\n\n \n싸게 팔면 안좋음점을 이야기 합니다.\n이것은 유저를 많이 모아서 될일이 아니라는 것을 알 수 있습니다.\n \n1. 마진이 남지 않으면 개발의지가 떨어진다.\n차라리 사람이 없으면 개발의지를 높일 수 있다.\n \n2. 사람이 많으면 할일이 많아진다.\n남지도 않는데 할일은 많아진다. 더욱더 개발 의지가 꺾인다.\n \n3. 비싼 돈을 주고 라도 사용하려는 유저는 더욱 성장할 의지가 있다.\n이들의 요구사항은 옳을 가능성이 높다.\n이 들의 요구사랑을 따르는것이 나의 성공에도 도움이 된다.\n \n가격을 낮춰서 나의 개발의지를 깎는건 큰실수다\n차라리 유자가 없고 나의 자유의지를 높이는 것이 좋다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1593",
-    "pubDate": "Thu, 12 Mar 2026 13:53:49 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "서비스",
-      "운영"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "How Advanced Browsing Protection Works in Messenger",
-    "description": "We’re sharing the technical details behind how Advanced Browsing Protection (ABP) in Messenger protects the privacy of the links clicked on within chats while still warning people about malicious links. We hope that this post has helped to illuminate some of the engineering challenges and infrastructure components involved for providing this feature for our users. [...]\nRead More...\nThe post How Advanced Browsing Protection Works in Messenger appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/",
-    "pubDate": "Mon, 09 Mar 2026 16:00:36 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Security & Privacy"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
     "title": "펄어비스 - 븕은 사막 보고 투자",
     "description": "오늘 충분히 비싼 주가인 6.2만원에 100주 샀습니다.\n장이 안좋아서 여러가지 손절 하고 들어갔습니다.\n\n\n \n여러가지 지켜본 결과 붉은 사막은 위쳐3 정도는 되고 그이상도 될 것이라고 보입니다.\n역대 최고가인 21만원 기대해봅니다.\n \n1. 어세신크리트다 없다. (경쟁자 부족)\n2. 많은 상호작용 구현 - 스카이림 급입니다.\n3. 지식 3900개 - 수집요소 같은데 거의 4천개가 구현되어 있습니다.\n4. 외신의 칭찬 - 마케팅을 잘 하고 있는것 같습니다.\n5. 레딧의 반응 - 영문명 crimson desert 의 레딧에가면 적절한 칭찬과 많은 기대감을 모으고 있습니다.\n6. 위쳐4 + GTA 6 마케팅에 시너지가 생길 것 같다.\n7. 사양 발표 (매우 저사양이다.) - 1060 으로 30프레임 지원\n백만장 단위로 판매량이 발표되면 주가는 반응할 것이라고 보이고\n혹시 출시 직후해 기존 패턴처럼 내려가면 200주 까지 늘릴 것입니다.\n \n매도 계획\n21만원 도달\n도깨비 다시 꺼내면 버블임 매도 신호\n차기작 계약 뉴스도 매도 신호 - 7년 이상 걸릴텐데 언제 나올줄 알고 이거 출시를 기다리겠냐구",
     "reviews": [],
@@ -59,58 +17,155 @@
     ]
   },
   {
-    "id": 5,
+    "id": 2,
     "imageUrl": "",
-    "title": "TLTW 배당금 들어왔습니다. 5,500 달러로 월 45달러 받기 / 커버드콜 미국 국채",
-    "description": "TLTW 는 미국 국채 20-30년 채권의 커버드콜 상품입니다.\n \n\n\n커버드콜이라 매달 배당 줍니다.\n \n바당을 주도록 설계되어있기도하고 채권 맛이 가서 잘 안오르네요\n\n\n열사가 얼마없어서 내려가는거 밖에 안보이는군요\n트럼프가 채권 살려줄려고 노력중이니\n\n\n작년 11월에 채권 많이 샀습니다.\n그때쯤해서 시장도 채권 바닥이라고 생각하는거 같습니다.\n더는 안떨어지네요 횡보중\n \n \n1년에 10% 정도 배당을 주니까 배당받으면서 그냥 버텨보겠습니다.\n배당주는 현재\nJEPI - 제피 \nGLDI - 금 커버드콜\nTLTW - 국채 커버드콜\n \n요거 하고 있습니다.\n시장이 처참할때 배당받으면 물탈 수 있어서 좋습니다.\n주식 실력 안되면 그냥 배당 받아서 물타는 능력이라도 발휘 합시다.\n \n \n맛이간 소프트웨어 도 열심히 물타고 있습니다.\nTTWO - GTA 6 올해 나온다에 걸었습니다.\nU - 유니티는 제가 게임 개발하는 툴 입니다. 좋습니다.\nZM - 화상채팅 기업용 서비스인데 취근에 앤트로픽에 투자했습니다. 믿음으로 갑니다.",
+    "title": "다들 재미있다는데, 나는 왜",
+    "description": "책을 다 읽고 나면 다음엔 뭘 읽을까 찾는 게 설레면서도 어려운 일이었다. 온라인 서점에 들어가서, 추천 도서 목록을 본다. \"이번 달 MD 추천\", \"올해의 소설\", \"독자 평점 9점 이상\". 그럴듯한 이름이 붙은 목록에서 괜찮아 보이는 책을 고른다. 표지를 보고, 줄거리를 읽고, 리뷰를 훑어보고. 별점 높고, 리뷰 많고, 추천 문구까지 그럴싸하면 장바구",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1590",
-    "pubDate": "Tue, 10 Mar 2026 23:19:56 +0900",
-    "creator": "SIDNFT",
+    "link": "https://brunch.co.kr/@@3Y0/82",
+    "pubDate": "Wed, 11 Mar 2026 23:48:01 GMT",
+    "creator": "강진우",
+    "categories": []
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "[MULTI] 2+4 = 9, 바이오하자드 레퀴엠",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2430",
+    "pubDate": "Tue, 10 Mar 2026 15:57:31 +0900",
+    "creator": "「RULIWEB」",
     "categories": [
-      "투자",
-      "미국주식",
-      "투자"
+      "리뷰"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "제이커브와 하키스틱커브",
+    "description": "스타트업 관련업을 하다 보면 누구나 다 너무 과하게 접하는 용어가 바로 ‘제이커브’와 ‘하키스틱커브’다. 머릿속에서 시각화해 보면 두 단어 모두 다 비슷한 그림이 연상되는데, 기울기가 아주 가파르게 증가하는 성장 커브가 떠오를 것이다. 아마도 스타트업을 운영하는 창업가들은 모두 다 한 번씩 꿈꾸는 그런 커브이고, 솔직히 너무 많은 창업가들이 제이커브라는 단어를 – 요샌 하키스틱커브라는 말은 아예 안 쓰는(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/03/the-j-curve-and-the-hockey-stick-curve.html",
+    "pubDate": "Wed, 11 Mar 2026 21:36:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork",
+      "hustle",
+      "unicorn",
+      "vc"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Computer Science and AI BSc Open Day in Cyprus",
+    "description": "Exciting news! The Computer Science and Artificial Intelligence bachelor’s program at Neapolis University Pafos is hosting an Open Day on March 29. This event is a great opportunity to meet the professors and current students, learn how the program works, and see the campus in person. The CSAI program is supported by the JetBrains Foundation, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/education/2026/03/10/computer-science-and-ai-bsc-open-day-in-cyprus-2/",
+    "pubDate": "Tue, 10 Mar 2026 11:03:55 +0000",
+    "creator": "Alena Gupaisova",
+    "categories": [
+      "offline-programs"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Python Unplugged on PyTV Recap",
-    "description": "Last week marked the fruition of almost a year of hard work by the entire PyCharm team. On March 4th, 2026, we hosted Python Unplugged on PyTV, our first-ever community conference featuring a 90s music-inspired online conference for the Python community. The PyCharm team is a fixture at Python conferences globally, such as PyCon US […]",
+    "title": "Visual Studio Dev Essentials: Free, Practical Tools for Every Developer ",
+    "description": "When I first found Visual Studio Dev Essentials, it felt like discovering a hidden door in the developer toolkit world. I’d heard about free tools and cloud credits, but I wasn’t sure if it would really matter in day-to-day coding life. The short answer: it absolutely does.  What struck me most was how the program was built with real developers in mind, and the fact […]\nThe post Visual Studio Dev Essentials: Free, Practical Tools for Every Developer  appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/03/python-unplugged-on-pytv-recap/",
-    "pubDate": "Fri, 13 Mar 2026 13:05:10 +0000",
-    "creator": "Will Vincent",
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-dev-essentials-free-practical-tools-for-every-developer/",
+    "pubDate": "Mon, 09 Mar 2026 15:35:00 +0000",
+    "creator": "Jim Harrer",
     "categories": [
-      "livestreams",
-      "news",
-      "amsterdam",
-      "conferences",
-      "python"
+      "Visual Studio Subscriptions",
+      "Dev Essentials"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "Datalore 2026.1: New Data Explorer Cells, Instance-Wide BYOK for AI, Stronger Security via Sidecar Containers in Kubernetes, and More",
-    "description": "The first Datalore release of the year delivers several new features that make working with data even easier. These updates are already available to Datalore Cloud users. For Datalore On-Premises, instance administrators can enable them by updating their Datalore instance. Let’s dive in! Data explorer Datalore 2026.1 introduces data explorer cells, a new way to […]",
+    "title": "Introducing Tracy: The AI Observability Library for Kotlin",
+    "description": "Tracy is an open-source Kotlin library that adds production-grade observability to AI-powered applications in minutes. It helps you debug failures, measure execution time, and track LLM usage across model calls, tool calls, and your own custom application logic. Ultimately, comprehensive observability ensures you have the exact data needed to understand real-world application behavior, analyze performance […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/datalore/2026/03/13/datalore-2026-1/",
-    "pubDate": "Fri, 13 Mar 2026 08:52:39 +0000",
-    "creator": "Vlad Ivoninskii",
+    "link": "https://blog.jetbrains.com/kotlin/2026/03/introducing-tracy-the-ai-observability-library-for-kotlin/",
+    "pubDate": "Wed, 11 Mar 2026 17:41:09 +0000",
+    "creator": "Anton Bragin",
     "categories": [
-      "datalore",
-      "datalore-ai",
-      "datalore-enterprise",
-      "release"
+      "ai",
+      "ecosystem",
+      "kotlin"
     ]
   },
   {
     "id": 8,
+    "imageUrl": "",
+    "title": "From Classroom Code to NASA Challenges: Carlos Orozco’s Journey Into Big Tech",
+    "description": "Carlos Orozco decided to study computer science when he realized that programming was about formalizing ideas and solving problems systematically. He was drawn to the mix of logic, mathematics, and creativity, a field where rigorous thinking leads to tangible results. His interest deepened when he began working on real-world projects. That’s when computer science stopped […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/education/2026/03/11/carlos-orozcos-journey-into-big-tech/",
+    "pubDate": "Wed, 11 Mar 2026 12:29:07 +0000",
+    "creator": "Maria Sharobaeva",
+    "categories": [
+      "interviews",
+      "jetbrains-academy",
+      "ai",
+      "ai-assistance",
+      "ai-code-completion",
+      "ai-assisted-programming",
+      "career",
+      "developers",
+      "education",
+      "for-learners",
+      "interview",
+      "jetbrainsacademy-2",
+      "learn",
+      "learn-programming"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "The Ethics of AI Code Review",
+    "description": "As AI technology continues to mature, its application grows wider too. Code review tools are one of the fastest growing use cases for AI in software development. They facilitate faster checks, better consistency, and the ability to catch critical security issues humans might miss.  The 2025 Stack Overflow Developer Survey reveals that 84% of developers […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/03/ethics-of-ai-code-review/",
+    "pubDate": "Wed, 11 Mar 2026 09:25:04 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "ai-code-review",
+      "qodana"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "The Impact and Achievements of AI4SE in 2025",
+    "description": "AI is reshaping how software is built, tested, and taught. In AI for Software Engineering (AI4SE), that transformation is engineered on purpose. A research partnership with Delft University of Technology (TU Delft), AI4SE brings together leading labs, industry-grade tools, and five dedicated research tracks to turn advances in AI into practical gains for developers and […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/03/ai4se-in-2025/",
+    "pubDate": "Thu, 12 Mar 2026 11:16:09 +0000",
+    "creator": "Katie Fraser",
+    "categories": [
+      "news",
+      "research",
+      "ai4se",
+      "impact"
+    ]
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "Livestream: UI Freezes in JetBrains IDE Plugins and How to Avoid Them",
     "description": "UI freezes are among the most frustrating issues plugin developers encounter. Investigating them can be particularly challenging due to the complexity of concurrent programming. What makes things even trickier is that UI freezes in JetBrains IDEs are not always caused by heavy work on the event dispatch thread. On Thursday, March 19, at 03:00 PM […]",
@@ -130,7 +185,53 @@
     ]
   },
   {
-    "id": 9,
+    "id": 12,
+    "imageUrl": "",
+    "title": "node.js express use 로 시작 + 마지막 + 예외처리 구현 및 쓸데 없었던 괴소문들",
+    "description": "1. API 처리 전후 타이밍 잡기\n\n\n시작과 종료 타이밍은 이렇게 잡습니다.\n코드\n// 전처리 + 호처리\napp.use((req, res, next) => {\n  console.log(\"api before\");\n  res.on(\"finish\", () => {\n    console.log(\"api after\");\n  });\n  next();\n});\n \n시작위치에서  res.on 으로 잡는군요\n \n2. 예외처리\n\n\n(중요) * 예외처리용 use 는 api 선언 하고나서 가장 마지막에 둬야합니다.\n안되길레 이것저것 해봤더니\n위치가 문제였습니다.\n코드 가장 마지막에 쓰세요\n코드\n// 에러 처리\n// 제일 마지막에 둬야함\napp.use(\n  (\n    //\n    err: Error,\n    req: Request,\n    res: Response,\n    next: NextFunction\n  ) => {\n    console.log(\"api err\");\n    res.status(500).json({\n      message: err.message,\n      // error: process.env.NODE_ENV === \"development\" ? err : {}, // 개발 환경에서만 스택 표시\n    });\n  }\n);\n \n \n2-2 여러가지 쓸데없는 예외처리의 괴소문\n이거는 지적만 받고 쓸데 없는 괴소문 이였습니다.\n1. bun 으로 돌려서 그렇다.\n2. api 에 async 로 되어있어야한다.\n3. req, res, next <-- next 있어야한다.\n이 세가지는 전부 상관 없었습니다.\nexpress 5 에서 다 고쳐진거 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1592",
+    "pubDate": "Thu, 12 Mar 2026 13:43:42 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "Express",
+      "Node.js",
+      "예외처리"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Datalore 2026.1: New Data Explorer Cells, Instance-Wide BYOK for AI, Stronger Security via Sidecar Containers in Kubernetes, and More",
+    "description": "The first Datalore release of the year delivers several new features that make working with data even easier. These updates are already available to Datalore Cloud users. For Datalore On-Premises, instance administrators can enable them by updating their Datalore instance. Let’s dive in! Data explorer Datalore 2026.1 introduces data explorer cells, a new way to […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/datalore/2026/03/13/datalore-2026-1/",
+    "pubDate": "Fri, 13 Mar 2026 08:52:39 +0000",
+    "creator": "Vlad Ivoninskii",
+    "categories": [
+      "datalore",
+      "datalore-ai",
+      "datalore-enterprise",
+      "release"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "TA-user-agents",
+    "description": "useragent 정보를 분석해주는 스플렁크앱. 로그스태시 useragent 필터와 같은 정규표현식 검사 기반(regexes.yaml)으로 동작하며 브라우저, 운영체제, 디바이스별로 정보를 분류해준다. 그중 브라우저 정보만 출력.\n\n\n\n\n고작 로그 7천여 개 분석하는 데 40초 넘게 소요. 같은 동작 기반의 로그스태시 필터와 비교하면 100배 이상 느리다. 정규표현식 검사 범위를 좁히면 좀 빨라질까? 운영체제와 디바이스 검사 조건 삭제.\n\n\n\n\n원래도 빨라서 체감이 잘 안 될 뿐, 같은 조건에서 로그스태시는 30% 정도의 성능 향상을 보인다. 그런데 스플렁크는 아예 동작하지 않음. 제미나이한테 물어보니 코드(user_agents.py) 수정이 필요하다고. \n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88\n89\n90\n91\n92\n93\n94\n95\n96\n97\n\nimport csv\nimport logging\nimport os\nimport sys\nfrom urllib.parse import unquote_plus\nfrom Utilities import KennyLoggins\n \nROOT_DIR = os.path.abspath(os.path.dirname(__file__))\nDATA_FILE = os.path.abspath(os.path.join(ROOT_DIR, 'uap-core', 'regexes_edit.yaml'))\nos.environ['UA_PARSER_YAML'] = DATA_FILE\n \nfrom ua_parser import user_agent_parser\n \n# The following log levels are available:\n# Debug (NOISY!!!):\n# LOG_LEVEL = logging.DEBUG\n# Info:\n# LOG_LEVEL = logging.INFO\n# Error:\nLOG_LEVEL = logging.ERROR\n \nLOG_FILENAME = 'TA-user-agents'\nkl = KennyLoggins()\nlogger = kl.get_logger(app_name=\"TA-user-agents\", file_name=LOG_FILENAME, log_level=logging.INFO)\n \n# Main routine - basically it's the standard python recipe for handling\n# Splunk lookups\n#\nif __name__ == '__main__':\n    r = csv.reader(sys.stdin)\n    w = csv.writer(sys.stdout)\n    have_header: bool = False\n \n    header = []\n    idx = -1\n    for row in r:\n        if not have_header:\n            header = row\n            logger.debug('fields found: %s' % header)\n            have_header = True\n            z = 0\n            for h in row:\n                if h == \"http_user_agent\":\n                    idx = z\n                z = z + 1\n            w.writerow(row)\n            continue\n \n        # We only care about the cs_user_agent field - everything else is filled in\n        http_user_agent = row[idx]\n        useragent = unquote_plus(http_user_agent)\n        logger.debug('found useragent %s' % http_user_agent)\n \n        logger.debug('sending to ua-parser')\n        results = []\n        try:\n            #results = user_agent_parser.Parse(http_user_agent)\n            results = user_agent_parser.ParseUserAgent(http_user_agent)\n        except Exception as err:\n            logger.error(err)\n            continue\n        logger.debug('back from ua-parser')\n \n        # create our results for Splunk\n        # using the full results\n        forSplunk = {\n            'ua_os_family': 'unknown',\n            'ua_os_major': 'unknown',\n            'ua_os_minor': 'unknown',\n            'ua_os_patch': 'unknown',\n            'ua_os_patch_minor': 'unknown',\n            'ua_family': 'unknown',\n            'ua_major': 'unknown',\n            'ua_minor': 'unknown',\n            'ua_patch': 'unknown',\n            'ua_device': 'unknown'\n        }\n \n        # UA\n        if results and 'family' in results:\n            if results['family'] is not None and results['family'] != 'Other':\n                forSplunk['ua_family'] = results['family']\n \n \n \n \n        logger.debug('for return: %s' % forSplunk)\n        # Now write it out\n        logger.debug('outputting')\n        orow = []\n        for header_name in header:\n            if header_name == \"http_user_agent\":\n                orow.append(http_user_agent)\n            else:\n                orow.append(forSplunk[header_name])\n        w.writerow(orow)\n        logger.debug('done output')\n\nColored by Color Scripter\ncs\n\n\n\n\n수정된 코드로 실행하니 35% 정도 빨라짐. 그래도 로그스태시에 비하면 50배 이상 느려(..)\n\n\n\n\n더 개선할 수 없을까?\n\n\n정규표현식 검사 범위를 더 좁히기는 힘드니, 검사 데이터양을 줄여야지. 사전 집계를 통해 7천여 개의 데이터를 1,700여 개로 축소.\n\n\n\n\n\n데이터양을 줄이니 85% 가까운 성능 개선 결과를 보여준다. 물론 여전히 로그스태시가 수십 배는 더 빠름. 같은 정규표현식 검사 기반인데 어디서 이렇게 차이가 나는 걸까(..)\n\n\n\n그런데 useragent가 이만큼 자원 소모해가면서 분석이 필요한 정보일까?\n\n\n\n\n관련 글\n\n\nLogstash 필터 useragent",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/03/ta-user-agents.html",
+    "pubDate": "2026-03-12T09:08:00.002Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "오픈클로(Openclaw) 설치 및 사용기",
     "description": "이 글은 Openclaw 설치 및 사용 방법을 간략히 공유한다. 오픈클로는 다양한 스킬(파일 정리, 웹 검색, 코딩, 추론 등등)을 사용 및 확장할 수 있는 AI에이전트 플랫폼으로 오픈소스 프로젝트로 시작되었다. 최근 개발자가 OpenAI팀에 합류했다. \n\n\n\n\n\n설치 시 주의사항\n\n윈도우에서는 오픈클로 사용해보기 위해 여러번 시도해보았으나 잘 설치 안된다(시간낭비). 그냥 리눅스나 맥북에서 설치하길 바란다. 설치는 다음 링크를 참고한다.\n\n\nInstall - OpenClaw\nopenclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way\nhttps://docs.openclaw.ai/channels/discord\n\n\n참고로, 본인은 다음 설치 명령을 사용했다. \ncurl -fsSL https://openclaw.ai/install.sh | bash\n\n\n본인은 우분투에서 설치했다. 메뉴얼 따라 설치하면, 스킬 설정하는 단계가 나오는 데, 미리 openai, gemini, discord(옵션) 등 외부 api 이용해야 할 스킬들은 미리 api token을 메모했다가 이때 입력하길 바란다.\n\n\n오픈클로 스킬 설정화면 예시(설치할 각 스킬들 리스트를 보여준다. OpenClaw, makeuseof)\n\n설치 후, 다음 명령을 실행하면, 오픈클로 진단 등이 가능하다. \n\nopenclaw doctor              # check for config issues\nopenclaw status               # gateway status\nopenclaw dashboard       # open the browser UI\nopenclaw configure         # 오픈클로 재설정\n\n\n사용하기\n모두 설치 및 설정 후 다음 명령을 터미널에 입력한다. \nopenclaw dashboard\n\n\n그럼, 오픈클로 데쉬보드 웹사이트를 다음 링크에서 확장할 수 있다. \n\nhttp://127.0.0.1:18789/chat?session=agent%3Amain%3Amain\n\n데쉬보드의 메뉴 중 채팅 선택 후 채팅창에 프롬프트를 입력해 본다. \n\n\n\n\n처음에는 에이전트와 서로 소개하는 시간을 갖는다(이름, 별명, 취미 등등). 끝나면, 파일을 정리해 달라던가 하는 등의 명령을 입력하면 된다. 스킬들을 연결했으면 해당 스킬을 사용해 명령을 수행할 것이다. 다음처럼 보다시피 파일 정리, 날씨 확인, 코딩 등 다양한 명령들을 잘 처리해 준다. \n\n\n\n\n\n내 컴퓨터 파일 알아서 정리해줘\n\n\n코딩해줘\n\n\n모니터링하기\n오픈클로 이용시 지출한 토큰량, 사용 정보 등을 모니터링하는 기능도 다음과 같이 제공된다. \n\n\n\n\n\n스킬 기능이 잘 구현되면서 에이전트가 더욱 강력해 진 느낌이다. 오픈소스라 오픈클로를 자체 서버에서 서비스할 수 있다. 코드는 공개되어 있으니, 구현이 궁금하다면 분석해 살펴보길 바란다.",
@@ -140,92 +241,5 @@
     "pubDate": "2026-03-11T13:54:00.000Z",
     "creator": "Unknown",
     "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Visual Studio Dev Essentials: Free, Practical Tools for Every Developer ",
-    "description": "When I first found Visual Studio Dev Essentials, it felt like discovering a hidden door in the developer toolkit world. I’d heard about free tools and cloud credits, but I wasn’t sure if it would really matter in day-to-day coding life. The short answer: it absolutely does.  What struck me most was how the program was built with real developers in mind, and the fact […]\nThe post Visual Studio Dev Essentials: Free, Practical Tools for Every Developer  appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-dev-essentials-free-practical-tools-for-every-developer/",
-    "pubDate": "Mon, 09 Mar 2026 15:35:00 +0000",
-    "creator": "Jim Harrer",
-    "categories": [
-      "Visual Studio Subscriptions",
-      "Dev Essentials"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "LY Corporation의 클라우드 인프라 개편: 거대한 두 개의 클라우드를 통합한 차세대 플랫폼 Flava의 아키텍처 소개",
-    "description": "안녕하세요. LY Corporation에서 프라이빗 클라우드 인프라를 담당하고 있는 이노우에입니다.LY Corporation의 방대한 트래픽과 데이터를 지탱하는 것은 저희가 직접 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/ly-corporation-next-generation-cloud-platform-flava-introduction",
-    "pubDate": "Fri, 13 Mar 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "토스, IBK저축은행과 개인사업자 전용 신용대출 ‘최초’ 출시… 업무협약 체결",
-    "description": "개인사업자 신용평가모형 새 기준 제시",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/45939",
-    "pubDate": "Mon, 09 Mar 2026 23:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "446일차 - 유니티 2026 로드맵 발표 / 웹 샵 WEB SHOP",
-    "description": "유니티 2026 로드맵 발표 중에 저는 웹 샵에 집중했습니다.\n \n이거는 제 영상이구요\n영상: https://youtu.be/nMFrk00w1CU\n\n\n\n \n \n어레이의 개발문고 요약 영상\n링크: https://youtu.be/GOHpvHf34Dk\n\n\n\n \n \n \n오니티 라이브 원본\n링크: https://youtu.be/BtObK0arD_M",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1587",
-    "pubDate": "Sat, 7 Mar 2026 15:48:12 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "감상평",
-      "유니티"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "The Impact and Achievements of AI4SE in 2025",
-    "description": "AI is reshaping how software is built, tested, and taught. In AI for Software Engineering (AI4SE), that transformation is engineered on purpose. A research partnership with Delft University of Technology (TU Delft), AI4SE brings together leading labs, industry-grade tools, and five dedicated research tracks to turn advances in AI into practical gains for developers and […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/03/ai4se-in-2025/",
-    "pubDate": "Thu, 12 Mar 2026 11:16:09 +0000",
-    "creator": "Katie Fraser",
-    "categories": [
-      "news",
-      "research",
-      "ai4se",
-      "impact"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "The Ethics of AI Code Review",
-    "description": "As AI technology continues to mature, its application grows wider too. Code review tools are one of the fastest growing use cases for AI in software development. They facilitate faster checks, better consistency, and the ability to catch critical security issues humans might miss.  The 2025 Stack Overflow Developer Survey reveals that 84% of developers […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/03/ethics-of-ai-code-review/",
-    "pubDate": "Wed, 11 Mar 2026 09:25:04 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "ai-code-review",
-      "qodana"
-    ]
   }
 ]
