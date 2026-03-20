@@ -2,6 +2,166 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "having query - 2nd",
+    "description": "useragent 발생 추이.\n\n\n\n\n\n특정 발생량 기준의 having 쿼리를 실행했는데 조회 결과가 없다.\n\n\n\n\n이유는 조건 대상인 count 필드가 없기 때문.\n\n\n\n다행히 timechart는 집계값에 대한 where 조건 구문을 지원한다.\n\n\n\n\n\n그런데 해당 구문은 단일 조건만을 지원하며, = 연산자도 지원하지 않음.\n\n\n\n복수 조건이나, = 연산자를 사용하고 싶다면 사전 집계 및 조건 지정 작업 필요.\n\n\n\n\n\n관련 글\n\n\nhaving query\nTA-user-agents\n데이터 시인성",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/03/having-query-2nd.html",
+    "pubDate": "2026-03-13T08:46:00.003Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "Scaling Jenkins: Central Controller vs Instance Sprawl",
+    "description": "This article was brought to you by Kumar Harsh, draft.dev. Jenkins has powered CI/CD pipelines for more than a decade. Many teams start with a single Jenkins controller and a handful of build jobs. At that stage, Jenkins feels simple and flexible. The problem appears later. As organizations grow, the number of pipelines increases rapidly. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/03/scaling-jenkins/",
+    "pubDate": "Mon, 16 Mar 2026 23:19:18 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "teamcity-2",
+      "devopspains",
+      "jenkins"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Friend Bubbles: Enhancing Social Discovery on Facebook Reels",
+    "description": "Friend bubbles in Facebook Reels highlight Reels your friends have liked or reacted to, helping you discover new content and making it easier to connect over shared interests. This article explains the technical architecture behind friend bubbles, including how machine learning estimates relationship strength and ranks content your friends have interacted with to create more [...]\nRead More...\nThe post Friend Bubbles: Enhancing Social Discovery on Facebook Reels appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/03/18/ml-applications/friend-bubbles-enhancing-social-discovery-on-facebook-reels/",
+    "pubDate": "Wed, 18 Mar 2026 18:19:33 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "ML Applications"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "[MULTI] 뺄셈 없이 더하다 넘쳐버린 궁극의 검은사막, 붉은사막",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2434",
+    "pubDate": "Thu, 19 Mar 2026 07:00:22 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "신뢰성 향상을 위한 SLI/SLO 활용 1편 - SLI/SLO 프레임워크 및 서비스 상태 확인 도구 LINE Status 개발기",
+    "description": "시작하며안녕하세요. SRE(Site Reliability Engineer)로 일하고 있는 어다희입니다. 저희 팀은 Media Platform SRE를 비롯해 글로벌 트래픽 관리 업...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/using-sli-slo-for-improving-reliability-1-developing-framework-and-line-status",
+    "pubDate": "Thu, 19 Mar 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "SI의 시대가 저물고 있다.",
+    "description": "SI(시스템 통합) 시장이 저물어가고 있네요. ‘위험의 외주화’가 사라지고 있습니다. 그동안 제가 원했던 방향이죠. 남에게 맡기는 게 아니라 스스로 해결하는 방식입니다. 기획자와 개발자의 경계가 허물어지고 있죠. 이젠 돈이 많아서 큰 프로젝트를 할 수 있는 회사보다, 훌륭한 개발팀을 가진 회사가 유리해졌습니다.그동안 바라기만 했는데, AI 덕분에 바뀌고 있는 것 같습니다. IT가 “기술용역”이 아닌 ‘제품’으로 팔려야 한다고 생각했습니다. 필요한... Continue Reading →",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://subokim.wordpress.com/2026/03/14/2026-si-industry-change/",
+    "pubDate": "Sat, 14 Mar 2026 03:14:17 +0000",
+    "creator": "subokim",
+    "categories": [
+      "IT산업이야기"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Get the Inside Scoop on Visual Studio Subscriptions, Straight to Your Inbox",
+    "description": "Get the Inside Scoop on Visual Studio Subscriptions, Straight to Your Inbox  A few weeks ago I was talking with a Visual Studio Enterprise subscriber. Seasoned .NET developer. Ships production code. Knows his stack inside and out.  During the conversation I mentioned one of the training benefits included in his subscription.  He stopped me.  “I didn’t even […]\nThe post Get the Inside Scoop on Visual Studio Subscriptions, Straight to Your Inbox appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/vss-newsletter-opt-in/",
+    "pubDate": "Mon, 16 Mar 2026 14:59:12 +0000",
+    "creator": "Jim Harrer",
+    "categories": [
+      "Visual Studio",
+      "Visual Studio Subscriptions",
+      "VSS Newsletter"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "[MULTI] 자레코 최후의 명ㅈ…괜찮은 RPG, 와이즈맨즈 월드 리트라이",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2432",
+    "pubDate": "Wed, 18 Mar 2026 12:48:41 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "펄어비스 -28% 붉은 사막 메타스코어 70점대 / 그래픽 외 요소 감점",
+    "description": "현재 펄어비스 주가는 매우 처참한 상태입니다.\n일주일 동안 나불되었던게 브끄러울 정도 입니다.\n \n메타스코어 점수가 떳는데 많은 리뷰어 들이 점수를 박하게 주었습니다.\n그래픽 외 모든 요소가 감점을 받았으며\n제가 기대했던 CRPG 요소는 없었던거 같고\n스토리도 형편없는거 같습니다.\n \n영혼의 물타기\n\n\n어제 까지 200 주 였고\n오늘 하한가 보고 물을타서 400 주가 되었습니다.\n \n적어도 리뷰 점수가 이러면 구매 대기자들은 구매를 보류 하는게 맞습니다.\n(주식 말고 게임 구매)\n \n리뷰 페이지\n링크: https://www.metacritic.com/game/crimson-desert\n\n \nCrimson Desert Reviews - Metacritic\nAN AGE OF FADING LEGENDS, A SAGA WRITTEN IN BLOOD Experience the untold tale of mercenaries struggling to survive in the unforgiving lands of Pywel. STORY Enter a war-torn realm of medieval fantasy, where allegiances are tested and heroes are made. Explore\nwww.metacritic.com\n\n \n\n\n리뷰어는 200 군데 정도 있습니다. 절반은 나왔으니 큰변동은 없을 것입니다.\n리뷰 하라고 키는 많이 뿌린거 같군요\n사펌 급 사태는 안일어날 것 같습니다.\n \n이후에는 유저가 리뷰할 수 있습니다.\n희박한 확율로 유저랑 리뷰어가 의견이 갈리기도 합니다\n(개다할만한 확율은 아닙니다.)\n \nCRPG 의 길은 없는 것인가 ...\n기대했던 대서사와 세계관 CRPG 의 선택요소는 없는 것 같습니다.\n한국에서 유독 이런 장르가 만들어지지 않는군요\n게임에 음성을 이미 넣었기 때문에 CRPG 요소를 이제와서 넣는건 불가능 할 것같고 \n이 회사에서 스토리가 차지하는 비중을 알게되었고 이것은 바뀌지 않을 것 같습니다.\n \n참고로 CRPG 요소는 제 의견이며 이것이 구현되더라도 흥행한다는 보장은 없습니다.\n잘못 만들면 또 이걸로 리뷰어 들이 감점을 줄수도 있구요\n \n \n주가향방 - 희망은 있나?\n1. 디지털 파운드리에 너무 공을 들였기 때문에 타 잡지사들은 분노해 있을 수 있습니다.\n이 회사는 해외에서도 이름이 알려진 회사이지만 도움이 되는 건 아닌가 봅니다.\n \n2. 스토리나 퀘스트를 업데이트 한다.\n퀘스트 진행이나 스토리를 문제 삼은것이기 때문에 이걸 고치려는 시도를 할 수 있으나\n이 방법이 성공한 사례는 없습니다. \n어차피 이 분야가 약했기 때문에 결과가 이렇게 나오는 것이라\n갑자기 노력한다고 이 능력이 생기는건 아닙니다.\n한국에선 이런걸 만들만한 사람도 없군요\n \n3. 유저들이 리뷰어를 신뢰하지 않고 구매에 들어간다.\n최근 콘코드 사태도 있고 많은 AAA 급 게임들도 출시하자 마자 서비스를 접는 일이 빈번합니다.\n(이 게임은 접기에는 너무 규모가 큽니다. 접지는 않을 것입니다.)\n리뷰어 들은 이런 관성 속에서 글을 쓰고 있고\n\"야 이것도 망하겠네\" 라고 선입견이 들어가 있을 수 있습니다.\n리뷰어가 오해했다 정도의 헤프닝으로 끝나는 길도 있습니다.\n \n나의 판단\n저는 4만원대 부터 꾸준히 매수 했고 6만원에서 상당량을 매수 했습니다.\n그리고 오늘 하한가에서 두배를 물을 타서 400 주가 되었습니다.\n이 게임이 위쳐 급이 된다면 400만장은 빠르게 달성할 것입니다.\n위쳐도 세계관 구성과 스토리가 잘되어있었지 어설푼 부분도 많았습니다.\n \n초반에 디지털 파운드리에 붙었을 때에도 이 게임은 그래픽에 몰빵했다는 의견들이 있었습니다.\n디지털 파운드리는 그래픽외의 부분은 의견을 내지 않습니다.\n이 점은 알고 있었고 그래픽 옵션 부분은 높은 점수를 받을 수 있다고 봅니다.\n \n그래픽은 래딧 유저들을 감동 시키기 충분했고\n유저들의 기대감은 위쳐나 스카이림 같은 대서사와 CRPG 스러운 무언가 였습니다.\n전투는 이제 됐고 다른 요소가 부가적으로 있다면 논의할 꺼러리는 많으니까요\n- 다양한 수집거리\n- 특이한 스킬 획득 방식\n때문에 오해를 했습니다.\n신선한 방식이 있었기 때문에 \n유저들이 알지 못하는 새로운 것을 줄것이라 희망회로를 풀가동 한거 같습니다.\n \n오늘은 코스피도 하락중이고\n이란의 석유 시설 공격도 들어갔습니다.\n이런 것들도 마이너스 요소들이라 크게 하락하는거 같습니다.\n \n적어도 회사는 300 만장이 팔려야 이후를 기약할 수 있을 것 입니다.\n판매량이 저조한 상태로는 후속작이나 차기작 꺼내봐야 신뢰 받기 어려울 것 같습니다.\n이미 도깨비 사태도 겪었구요\n \n저는 이번에도  CRPG 요소가 없다는 점을 보아\n한국에서 CRPG 를 구현하는 곳이 없는게 아닐까 의심 해봅니다.\n(인디게임중엔 있을 수 도 있습니다. 게임을 많이 해본건 아니니)\n제가 만드는게 빠를꺼 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1600",
+    "pubDate": "Thu, 19 Mar 2026 10:45:20 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "투자",
+      "crpg",
+      "주식",
+      "투자",
+      "펄어비스"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "내가 원하는 그림을 그려라",
+    "description": "우리는 일 년에 약 1,200~1,600개의 회사를 검토한다. 6명이 검토하기엔 정말 많은 숫자이지만, 제품이나 수치가 완벽하지 않은 초기 회사와 창업가들의 본질을 파악하고 좋은 회사를 선별하기 위해서는 질도 중요하지만, 결국엔 양이 매우 중요하다. 내가 항상 강조하는 “Quantity makes quality”가 좋은 회사를 투자하는 과정에도 그대로 적용된다. 결국엔 창업가들을 많이 만나야지 이 중 좋은 분을 알아볼 수 있는 눈과(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/03/its-your-business-not-theirs.html",
+    "pubDate": "Wed, 18 Mar 2026 21:34:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "confidence",
+      "focus",
+      "FoundersAtWork",
+      "vc"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "LY Corporation의 클라우드 인프라 개편: 거대한 두 개의 클라우드를 통합한 차세대 플랫폼 Flava의 아키텍처 소개",
+    "description": "안녕하세요. LY Corporation에서 프라이빗 클라우드 인프라를 담당하고 있는 이노우에입니다.LY Corporation의 방대한 트래픽과 데이터를 지탱하는 것은 저희가 직접 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/ly-corporation-next-generation-cloud-platform-flava-introduction",
+    "pubDate": "Fri, 13 Mar 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
     "title": "457일차 - 개발로그 - 유료애셋 웹에 올리려다 실패 / 펄어비스는 목요일이 출시전 마지막날",
     "description": "비간 모델이지만 웹 빌드는 지원하지 ㅇ낳아서 크게 열화되었습니다.\n \n영상: https://www.youtube.com/watch?v=ymHnk_wWz3Q\n\n\n\n \n유료에셋 웹빌드에 돌려보기\n유료애셋은 웹에 올리는게 실패했구요\n엄청 열화된 데이터를 결국 올렸습니다.\n \nSID-ROOM 프로젝트는 아래의 내용이 추가되었습니다.\n- 말하는 사람 강조 표시\n- DO 스크립트 추가\n- EXIT 처리\n다음에 할 일\n- 리스트 밖으로 아이템이 나간경우 힌트 표시\n- 리스트 아이템이 선택된 경우 강조 표시\n- 대화 나갈때 알아서 카메라 되돌리도록\n- BGM 기능 추가\n \n \n펄어비스 주가 -  붉은사막\n펄어비스는 내일이 붉은사람 출시전 마지막 날입니다.\n정보 없는 매매는 내일이 마지막이니 충분한 양을 담아봐야겠습니다.\n \n퍼즐 게임은 한국에만 출시했고 내용이 부실에서 더 보강중입니다.",
     "reviews": [],
@@ -19,228 +179,45 @@
     ]
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.3.4 is Out!",
-    "description": "We’ve just released IntelliJ IDEA 2025.3.4. This update introduces full support for Java 26 along with several notable improvements. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/03/intellij-idea-2025-3-4/",
-    "pubDate": "Tue, 17 Mar 2026 17:25:08 +0000",
-    "creator": "Julia Shashkova",
-    "categories": [
-      "releases",
-      "bug-fix-update",
-      "intellij-idea"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "having query - 2nd",
-    "description": "useragent 발생 추이.\n\n\n\n\n\n특정 발생량 기준의 having 쿼리를 실행했는데 조회 결과가 없다.\n\n\n\n\n이유는 조건 대상인 count 필드가 없기 때문.\n\n\n\n다행히 timechart는 집계값에 대한 where 조건 구문을 지원한다.\n\n\n\n\n\n그런데 해당 구문은 단일 조건만을 지원하며, = 연산자도 지원하지 않음.\n\n\n\n복수 조건이나, = 연산자를 사용하고 싶다면 사전 집계 및 조건 지정 작업 필요.\n\n\n\n\n\n관련 글\n\n\nhaving query\nTA-user-agents\n데이터 시인성",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/03/having-query-2nd.html",
-    "pubDate": "2026-03-13T08:46:00.003Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Java 26 in IntelliJ IDEA",
-    "description": "The Java release cadence means we get a new Java version every six months. Java 26 was released on March 17, 2026. At JetBrains, we are committed to supporting the latest technologies in IntelliJ IDEA and adding useful enhancements for both stable and preview features. In this blog post, we will give you an overview […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/03/java-26-in-intellij-idea/",
-    "pubDate": "Tue, 17 Mar 2026 14:17:33 +0000",
-    "creator": "Marit van Dijk",
-    "categories": [
-      "idea",
-      "java",
-      "intellij-idea",
-      "java-26"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "멀티모달 LLM (MLMM) 동작 메커니즘 분석",
-    "description": "이 글은 멀티모달 LLM (MLMM) 동작 메커니즘을 분석한 글이다. \n\n\n\n\n\n\n멀티모달 기반 트랜스포머 모델 개념\n\n\n\n어텐션 모델 메커니즘\n\n\n레퍼런스: LLM\n\nMultimodal LLMs: Learn How MLLMs Blend Vision & Language\nLarge Language Model (LLM) Tutorial - GeeksforGeeks\nAttention Mechanism in ML - GeeksforGeeks\nTransfer Learning of Multimodal Models · Hugging Face\nIntroduction · Hugging Face\nData Science, Seoul National University\n\n레퍼런스: 멀티모달\n\nWhat is a Large Language Model (LLM) - GeeksforGeeks\nWhat are Language Models in NLP? - GeeksforGeeks\nTransfer Learning of Multimodal Models · Hugging Face",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/03/llm-mlmm.html",
-    "pubDate": "2026-03-13T02:55:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "How We Taught AI Agents to See the Bigger Picture",
-    "description": "The problem: Good code is not always accepted code AI agents can write working code. They can make changes that compile, pass tests, and finish tasks. And yet the pull request might still be rejected. That happens because every codebase has its own internal logic. Teams have naming conventions, preferred APIs, and patterns they trust. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/03/how-we-taught-ai-agents-to-see-the-bigger-picture/",
-    "pubDate": "Mon, 16 Mar 2026 14:42:48 +0000",
-    "creator": "Sergei Ugdyzhekov",
-    "categories": [
-      "ai",
-      "teamcity-2",
-      "how-to"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Recommending Travel Destinations to Help Users Explore",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/recommending-travel-destinations-to-help-users-explore-5fa7a81654fb?source=rss----53c7c27702d5---4",
-    "pubDate": "Thu, 12 Mar 2026 18:55:19 GMT",
-    "creator": "Weiwei Guo",
-    "categories": [
-      "ai",
-      "travel",
-      "technology",
-      "engineering"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "우리는 실리콘밸리에 속았다",
-    "description": "SEO의 절대 강자이자 연 반복매출 4천만 달러(현재 기준: 600억원) SaaS인 Moz의 공동 창업자이자 전 CEO 랜드 피쉬킨의 창업부터 회사를 떠날때까지의 경험을 정리한 책이다.\n(2020년에는 6,740만 달러 - 1천억원 매출이었다고 한다)\n박소령 대표님의 \"실패를 통과하는 일\"과는 다른 결말을 맞이한 이야기를 본 것 같았다.\n책의 제목과 소개가 강렬해서 선입견이 생길 수도 있는데, \"실리콘밸리의 선입견에서 벗어나야 한다\"보다는 연 반복매출 500억을 달성한 SaaS 스타트업 창업자의 경험 기반 조언들이 가득한 책이었다.\n제품을 직접 만드는 창업자들이 많다 보니 제품 전략, 제품 설계, 고객 가치 등에 대한 이야기를 담은 책들이 많은데, 이 책은 SEO 컨설팅 출신의 창업자가 직접 본인의 서비스를 마케팅하고 왜 그로스해킹보다는 플라이휠에 집중해야 하는지를 전문 마케터의 시선으로 정리한 챕터들이 있어서 새로웠다.\n하드씽보다 좀 더 구체적인 시선이 많았다.\n빅테크 엔지니어 vs 스타트업 창업자의 비교\n컨설팅 vs 소프트웨어 기업\n네트워크와 그로스 해킹\n대표가 기술을 모를 때의 소프트웨어 기업 운영 방법\n1개의 서비스가 잘 될때 여러 서비스로 확장을 하면 안되는 이유\n창업자가 대표 자리를 물려줘야하는 상황 등등.\n완전 대박으로 성공했거나, 완전 망했거나와 같이 극단적인 상위 0.1%의 이야기가 아닌 상위 3%의 이야기라서 그래도 좀 더 현실적이였다.\n연매출 1,000억의 SaaS라면 충분히 본인이 잘한 점도 많고, 영웅시할 수 있는 부분도 많을 텐데 이 책은 철저하게 본인이 못했던 점, 약점을 중심으로 드러내고 조언한다.\n(특히 SaaS는 밸류에이션 평가 공식이 일반적인 기업과는 다르게 멀티플이 엄청 높은데도 말이다.)\n밑 줄 그은 곳이 너무 많아서 책의 두께가 2배가 되었다.\n\n\n오고 가는 출퇴근 시간을 잘 활용해서 봤다. 30분씩 나눠서 보면 8시간 정도면 거의 다 볼 수 있을정도로 술술 읽히는 책이다.\n\n\n스타트업의 대표님들, 창업자분들이라면 당연히 추천드리고,\n그 외 스타트업의 리더, 스타트업 합류를 고민하는 분들에게도 추천드린다.\n완전히 현실적인 이야기들을 볼 수 있다.\n\n다만 요즘의 스타트업 투자 분위기와는 좀 다르긴해서 그 점은 감안해서 보면 좋다.\n이 책에서 언급한 것처럼 10배, 100배 성공만을 성공으로 취급해서 Exit 할 수 있는 상황을 반대하는 VC 분위기가 요즘은 좀 많이 줄어든 것 같다.\n\n\n\nps) 아참 p.39 를 보면 중복된 문장이 있다.\n\"일감을 거절할 때마다 내 머릿속 뒤편에선 찜찜한 기분이 들었다.\n우리가 기회를 날리고 있는 건 아닐까?\nSEOmoz는 더 큰 무언가가 될 수 있지 않을까?\"\n(출판사 대표님께서 잘 수정해주시겠지...?)\n\n\n\nps) 반기문 유엔 사무총장님이 책에 등장한다.\n\n책 속 문장\n\n[스타트업의 치트키]\n소프트웨어 엔지니어 채용은 창업자가 직접 하는게 최고다.\n흥미로워 보이는 사람을 찾고, 인맥을 뒤져 연결 고리를 찾고, 소개 받고, 커피 한잔하고, 우리 회사 '뽕'을 주입해라.\n만약 그 사람이 관심 없다면 주변에 괜찮은 사람 없는지 물어봐라.\n그 모임 멤버 중 외부 리크루터 써서 성공했다는 사람은 한 명도 없었다.\n(적어도 초기 단계에서는)\np.9\n\n\n\n[진실이 너희를 자유케 하리라]\n진실을 숨길 수 있다고 믿는 순간, 나쁜 짓을 막아주는 브레이크가 고장 난다.\n...\n투명성은 정직함과는 다르다.\n정직함이 거짓말을 안 하는 것이라면, 투명성은 남들이 굳이 말 안하고 넘어갈 치부까지 끄집어내는 것이다.\n...\n투명성에는 공감이 필요하다.\n그냥 대놓고 \"너 헤어 스타일 개구려\" 라고 말하는 건 투명한 게 아니라 싸가지가 없는거다.\n...\n나는 CEO로서 항상 이렇게 말한다.\n\"이 이메일과 대화가 언젠가 전부 공개된다고 생각하고 행동하라\"\np.29\n\n\n\n효과적인 제품 중심 비즈니스에는 두 가지 핵심 특성이 있다.\n첫째는 도달 범위, 즉 대규모 대중에게 영향력을 발휘할 수 있는 능력이다.\n둘째는 확장성, 즉 비용이 늘어나는 속도보다 매출을 훨씬 빠르게 키울 수 있는 역량이다.\n...\n2007년, 이제 막 싹튼 소프트웨어 구독 비즈니스와 수년 된 컨설팅 비즈니스를 비교해 봤을 때, 우리의 무게 중심이 소프트웨어 쪽으로 쏠리는 건 당연했다.\n그게 모두에게 정답이라서가 아니라, 우리에게 맞았기 때문이다.\n내가 가장 좋아하는 일(사람들 돕기, 글쓰기, 강연, 커뮤니티 만들기) 은 고객을 끌어모으는 마케팅 채널이 되었다.\np.40\n\n\n\nMoz가 소프트웨어로 확장할 수 있었던 건 대규모 청중을 모았기 때문이다.\n단기적으로는 서비스 고객을, 장기적으로는 제품 구매자를 아우를 수 있는 마케팅 채널을 미리 만들어두면 게임 끝이다.\n...\n새 아이디어에 미쳐서 컨설팅 사업을 등한시하지마라.\n제품 개발에 '몰빵' 하고 싶겠지만, 컨설팅 매출이 끊기거나 퀄리티가 떨어지면 모험은 시작도 전에 끝장날 수 있다.\np.47\n\n\n\n[위대한 창업가는 '하고 싶은 일'을 하지 않는다]\n스타트업 CEO는 당신이 사랑하는 일을 하게 해주는 직업이 아니다.\n대신 스타트업은 당신이 사랑하는 비전을 만들고 그것이 실현되는 걸 끝까지 지켜볼 능력을 준다.\n당신은 이렇게 말할 수 있게 된다.\n\"지금 세상은 이렇게 돌아가지만, 내가 만들 회사가 존재하게 되면, 그리고 그 미션을 수행할 규모에 도달하면, 세상은 이렇게 바뀔 것이다.\"\n만약 당신이 열정의 대상을 \"난 이 일을 하고 싶어\" 에서 \"내가 만든 무언가가 세상을 이렇게 바꾸는 걸 보고 싶어\" 로 재설정 할 수 있다면, 당신의 기대는 현실과 일치하게 될 것이고, 사랑하는 일에서 뜯겨 나가는데서 오는 인지 부조화와 좌절감은 사라질 것이다.\np.55\n\n\n\n[창업자의 멘탈이 쓰레기라면, 회사도 결국 쓰레기가 된다]\n한 사람의 약점을 다른 사람의 강점이 커버해주는 균형 잡힌 팀이 엄청난 성공을 거둘 수 있다는 건 사실이다.\n하지만 잘 알려지지 않은 사실, 그리고 보통 수년간 운영해보고 나서야 드러나는 사실은 이것이다.\n창업자의 속성은 조직에 거의 영구적으로 박제되는 반면, 직원들의 속성은 시간이 지나면서 변한다.\n부분적으로는 창업자가 훨씬 오래 남아 더 오랫동안 영향력을 행사하기 때문이다.\n하지만 팀을 유지한다 해도, 창업자의 편향, 그들이 만든 비즈니스 구조, 채용 방식, 위임 방식, 자원 배분, 열정, 그리고 맹점에서 비롯된 지울 수 없는 각인이 남는다.\n나는 모든 규모, 산업, 구성의 회사에서 이 패턴이 반복되는 걸 본다.\n창업자(와 CEO)는 조직의 성격과 문화뿐만 아니라, 수년 혹은 수십 년간 조직의 궤적을 지배하는 근본적인 강점과 약점을 지배한다.\np.77\n\n\n\n벤, 닉, 채스를 만난 것은 행운이었다.\n남들이 불가능하다고 했던 제품을 만들어낸 그들의 성공은 내게 잘못된 자신감을 심어주었다.\n나는 내 강점에 집중하고 모즈의 약점은 채용으로 보완할 수 있다고 생각했다.\n하지만 그건 통하지 않았다.\n여러 명의 CTO와 다양한 규모 및 구성의 수많은 엔지니어링 팀을 거치면서도, 우리는 벤과 그의 팀이 링크 문제에서 보여주었던 마법을 다시 재현할 수 없었다.\np.81\n\n\n\n모든 창업자는 회사를 만들 때 가장 어려운 부분에 대해 각자 다른 의견을 가지고 있다.\n쉬운 부분에 대해서도 마찬가지다.\n...\n기묘한 진실은 그 \"가장 어려운 부분\"과 \"가장 쉬운 부분\"은 과제의 난이도보다는 창업자의 강점과 약점을 더 많이 보여준다는 것이다.\n...\n\"약점은 훌륭한 인재를 채용해서 보완하라\" 는 통념이 완전히 틀린 건 아니다.\n하지만 이 조언을 따를 땐 반드시 다음 세가지 경고를 명심해라.\n어떤 분야에 대한 깊은 지식과 이해가 없으면, 그 분야의 인맥도 없을 것이고, 누가 진짜 실력자인지 구분하기도 힘들며, 훌륭한 인재를 설득해서 데려오기도 어렵다.\n창업가의 약점은 종종 회사의 DNA에 박제되어 일종의 '부채'를 만든다.\n사람 관리 기술이 없다면? 대인 관계 갈등을 파헤치고, 누군가를 해고하고 다시 뽑고, 신뢰를 쌓는 프로세스를 만드느라 몇 달을 허비해야하는 '조직 부채'가 된다.\n약점을 보완하기 위해 누군가에게 의존한다면, 그들이 떠나는 순간 상처가 다시 벌어질 위험이 생긴다.\n...\n내 재입 기간 내내 회사의 고질적 약점이었던 엔지니어링을 취임 18개월 만에 핵심 강점으로 바꾸는 걸 목격했다.\n건너뛰기 회의(직속 상사를 건너뛰고 팀원과 직접 만나는 회의)에서 질문해라.\n단순히 문제를 파악하는 걸 넘어 구체적인 해결책으로 들어가라.\n전략과 이유를 명확하게 설명할 수 있는 엔지니어를 발견하면 힘을 실어줘라.\n엔지니어링 문화와 베스트 프랙티스에 대해 닥치는 대로 읽어라.\n디자인 리뷰나 일대일 미팅에서 들은 기술 용어와 관행을 받아 적어라.\n가르치는 성향을 가진 기술 리더를 채용해라.\n세부 사항으로부터 당신을 \"보호\"하려는 CTO를 경계해라\n복잡한 걸 쉽게 설명하는 건 직무 필수 요건이다.\n6. 결국 기술 팀을 이끄는 건 호기심과 용기다.\np.85\n\n\n\n[엉뚱한 이유로, 혹은 엉뚱한 놈들에게 투자받지 마라]\n벤처 투자를 고려하는 사람이라면 적어도 이 결정적인 교훈 하나는 챙겨가야 한다.\n당신의 비즈니스가 '수많은 실패 속 소수의 미친 대박을 찾는' 벤처 모델과 일치하지 않는다면, 이 길은 당신의 길이 아니다.\n확률에 익숙해지거나, 주사위를 던지지 마라.\n벤처 비즈니스는 아웃라이어를 위한 게임이다.\n...\n일치(Alignment)란 당신과 회사가 끝장을 보겠다는 뜻이다.\n극도로 희박한 수억, 수십억 달러짜리 결과만을 \"성공\" 이라고 인정한다는 뜻이다.\n수백만 달러를 벌어 당신과 초기 멤버들을 부자로 만들어줄 수 있는 초기 제안들을 거절하고, 미래의 희박한 확률에 베팅한다는 뜻이다.\np. 101\n\n\n\n가능하다면 네트워크를 쌓기 전에 전문성을 쌓고, 회사를 만들기 전에 네트워크를 쌓아라.\n(전문성 -> 네트워크 -> 회사)\n스타트업 구축이나 기술의 특정 측면에서 깊은 경험과 기술을 가지고 있어서, 당신과의 1시간 통화가 다른 기업가나 스타트업 팀에게 매우 가치 있게 여겨진다면, 당신은 강력한 네트워크를 구축할 확실하고 매력적인 경로를 가진 셈이다.\n소수의 사람과 회사의 문제 해결을 도와줘라.\n그러면 자금 조달 과정에서 당신을 도와줄 네트워크가 저절로 생긴다.\n그 네트워크가 자금 조달 과정을 '거의 불가능'에서 '해볼 만한 것'으로 바꿔준다.\np. 113\n\n\n\n[상위 5% 스타트업을 만들어도 넌 부자가 못 될 수도 있다]\n2001년부터 2015년까지 시애틀의 평균 테크 연봉과 같은 기간 내 Moz 수입을 비교한 차트다.\n(연매출 5천만 달러의 창업자의 15년 누적 연봉보다 시애틀의 평균 테크 연봉의 누적이 더 높다)\n...\n일이 잘 풀리면 회사 가치는 오르고, 주식 가치도 따라 오를 것이다.\n하지만 현실적으로 당신 (혹은 옵션을 행사한 직원)의 주식은 사려는 사람이 있을 때만 팔 수 있다.\n그리고 사려는 사람은, 빌어먹게도 드물다.\n...\n그럼 창업을 하지 말라는 건가? 초기 기업에 가지 말라는 건가?\n아니다.\n단지 단기적인 부를 쫓아서 하지 마라는 거다.\n커리어 전체를 몇 년으로 압축해 갈아 넣으면 그 보상으로 떼돈을 벌 수 있다는 생각은 미친 짓이고, 통계적으로 말도 안 되는 소리다.\n...\n창업을 하거나 위험한 초기 벤처에 합류해야 할 논리적이고 멋진 이유는 따로 있다.\n가장 큰 이유는 자율성이다.\n무엇을 만들지, 어떻게 일할지, 누구를 채용할지, 조직을 어떻게 굴릴지 스스로 정할 수 있는 자유 말이다.\n설령 실패한다 해도, 많은 경우 그 경험 자체가 보상이다.\n**스타트업의 가장 큰 장점 중 하나는 커리어 성장 속도를 미친듯이 앞당겨 준다는 것이다.\n...\n전략적 비전, 실행력, 리더십을 증명해 보이면, 당신은 현대 경제에서 아주 희귀하고 탐나는 인재가 된다.\n수많은 초기 기업이 소규모로 인수되는 이유도 바로 이처럼 검증된 인재를 확보하기 위해서다.\np. 122\n\n\n\n[확장 가능한 마케팅: 플라이휠이 그로스 해킹보다 낫다]\n해킹이라고 부르는 데는 다 이유가 있다.\n낮은 유지율: 1달러 오퍼로 가입한 구독자들은 프로모션이 아닌 일반 오퍼로 가입한 사람들보다 유지율이 훨씬 낮았다.\n할인 중독: 우리 팀은 이 이메일 캠페인이 가져온 매출과 성장에 지나치게 매료됐다.\n돌이켜보면, 다음번 '대박 해킹'을 찾는 중독 때문에 정작 집중해야 할 장기적인 제품 및 마케팅 투자를 등한시했다.\n브랜드 가치 하락: 대규모 할인 프로모션은, 특히 아주 많은 대중에게 제공될 때 할인과 특별 오퍼가 브랜드 정체성의 일부라는 인상을 준다.\n이는 잠재 고객들에게 정가에 구독하기보다 다음 프로모션이 시작될 때까지 기다려야 한다고 학습시키는 결과를 초래했다.\n반면, 구독 제품의 랜딩 페이지에 쏟은 전환율 최적화 (CRO) 노력은 지속적인 성공을 거두었으며, 장기적으로 긍정적인 수익을 안겨주는 투자가 되었다.\n올바른 타깃을 찾고, 그들의 거부 사유를 파악한 뒤, 랜딩 페이지의 정보를 통해 그 반대 논거를 해소하고 가입 절차를 매끄럽게 만드는 CRO 노력은 단순한 '꼼수'가 아니다.\n이는 우리 마케팅을 구동하는 근본적인 플라이휠을 개선하는 작업이다.\n...\n드롭박스의 해킹은 친구를 추천하면 추천한 사람과 받은 사람 모두에게 계정 혜택(용량)을 더 주는 '양방향 추천 시스템'이었다.\n수년 동안 이 '해킹'은 마케팅 행사 무대와 웹상의 블로그 포스트에서 다뤄졌다.\n이 전술을 끝도 없이 베껴 쓴 다른 기업들은 드롭박스만큼의 효과를 보지 못해 좌절만 맛봤다.\n드롭박스 창업자 드류 휴스턴은 2010년 \"스타트업 교훈\" 발표에서 \"한 시장 유형에서 통한 마케팅 전술이 다른 시장에서는 처참하게 실패할 수 있다\" 고 현명하게 지적했다.\n...\n어떤 그로스 해킹은 통한다.\n하지만 대부분은 안 통한다.\n진짜 교훈은 이것이어야 한다.\n이 회사들은 혁신적인 마케팅 전술 수십 가지를 시도했고, 이를 강력하고 지속적으로 개선되는 제품 및 수많은 전통적인 마케팅 모범 사례와 결합했다.\n그리고 그 조합 안에서 몇 가지 특정 전술이 특히 효과를 발휘했던 것이다.\np. 128\n\n\n\n[진짜 '핵심 가치'는 돈 버는 데 하등 도움이 안 된다]\n\"취소하려면 전화를 걸게 만들면, 장담하건대 그 귀찮음만으로도 월 이탈률이 개선될 거야.\n게다가 취소하려는 사람들과 통화하면서 그들이 누구인지, 왜 떠나는지 훨씬 잘 이해할 수 있잖아.\n꽤 많은 사람을 붙잡을 수도 있고, 나중에 다시 돌아오게 할 수도 있어.\n더 싼 요금제로 바꾸거나 다른 제품을 사게 유도할 수도 있고.\"\n\"네 말이 맞아. 전화로만 취소할 수 있게 만들면 이탈률에 확실히 영향을 줄 거야.\n하지만 우린 온라인으로 가입해놓고 취소할 때 전화하라는 서비스를 극도로 혐오해.\n그건 일부러 어렵게 만든 거잖아.\n그건 공감이 결여된 거고, 즉 TAGFEE가 아니란 소리야.\"\n\"일리 있네, 하지만 너 지금 길바닥에 엄청난 돈을 버리고 있는거야\"\n\"글쎄, 우린 항상 말하잖아.\n돈과 맞바꿀 수 있다면 그건 핵심 가치가 아니라고\"\n...\n\"우리 신조에 담긴 핵심 가치가 경쟁 우위가 될 수도 있겠지만, 그래서 우리가 그걸 지키는 건 아니다.\n우리는 그 가치가 우리가 지향하는 바를 정의하기 때문에 지키는 것이며, 어떤 상황에서 그것이 경쟁 열위가 된다 해도 우리는 고수할 것이다\" - 랄프 라르센, 존슨앤드존슨 전 CEO\np. 146\n\n\n\n[회사를 일찍 매각해야 할까? 그래, 십중팔구는 그게 답이다.]\n외부 자본을 유치하는 순간, 당신의 목표는 필연적으로 매각이나 상장을 통해 그 자본의 몇 배를 돌려주는 것으로 바뀐다.\n...\n내가 아는 많은 창업자는 엑싯 과정에서 그리 큰 돈을 벌지 못했다.\n하지만 투자자에게 수익을 돌려주고 유동성 이벤트를 달성한 이상, 그들은 평생 자신의 이력에 '성공한 기업가' 라는 칭호를 달 수 있다.\n당신은 이게 터무니없는 헛소리라고 생각할지도 모른다.\n작은 스타트업의 소소한 엑싯이 어떻게 '성공'과 동급일 수 있느냐고, 오히려 Moz처럼 연 매출 4,000만 달러가 넘는 비즈니스를 바닥부터 일군 것이야말로 진정한 '성공' 이 아니냐고 반문할 수도 있다.\n...\n성공적인 엑싯에 참여한 스타트업 직원은 설명하기 힘든 수준의 신뢰도와 엄청난 가치를 지닌 사람이라는 아우라를 얻는다.\n\"저는 XYZ 회사의 초창기 멤버였고, 그 회사가 어디에 인수될 때 함께했습니다\" 라고 말할 수 있는 능력은 실리콘밸리에 서식하는 기술자, 기업가, 투자자들의 하위문화에서 엄청난 무게감을 갖는다.\n...\n스타트업은 관련된 모든 이에게 - 창업자, 직원, 가족, 그리고 고객과 투자자에게까지 - 가혹할 만큼 고통스러운 고행이다.\n대부분의 기관 투자자 모델은 소규모 엑싯과는 본질적으로 맞지 않는다.\n그래서 실리콘밸리의 스타트업 문화는 수백만 달러나 수천만 달러에 회사를 파는 것을 '변절' 이라 부르며, '진짜 회사'를 만드는데 실패한 것이라는 지배적인 내러티브를 만들어 낸다.\n만약 당신이 창업자거나 초기 직원이거나, 혹은 그들을 아끼는 사람이라면 나는 당신에게 이 편향되고 투자자에게만 유리한 사고방식을 완전히 거부하라고 촉구한다.\n당신도 IP나 10억 달러짜리 매각이 더 작은 성과를 희생해서라도 추구해야 할 절대 선이라는 강박을 버려야 한다.\np. 214\n\n\n\n[취약함을 드러내는 것 !== 약해빠진 것]\n나는 시간을 들여 사람들을 일대일로 만나 계획을 설명하고 피드백, 질문, 우려 사항을 묻는 게 훨씬 효과적이었다.\n맞다, 시간이 훨씬 많이 걸린다.\n하지만 다 같이 모이거나 본격적으로 일을 시작할 때쯤이면, 큰 갈등들은 이미 다 생각하고 해결된 상태라는 뜻&_&이기도 하다.\n이건 프로젝트 기여자들만을 위한 게 아니다.\n리더와 매니저를 위한 것이기도 하다.\n그룹 앞에서 내 아이디어와 계획을 방어하는 건 정말 불편하고, 실수를 인정하거나 즉성에서 수정하는 건 더 어렵다.\n하지만 *_팀원들과 일대일로 소통하고 최종 계획을 발표하거나 시작하기 전에 모두의 우려를 미리 파악해 두는 건 훨씬 더 편안하다.\np. 244\n\n\n\n[집중해라]\nMoz라는 이름에 적당히 괜찮은 제품만 얹어서 매월 수백만 명의 방문자에게 들이밀면 팔릴 거라고 확신했다.\n...\n웹사이트 방문자에게 8가지 다른 물건을 파는 건 2~3개를 파는 것보다 훨씬 더 어려웠다.\n회사 내부 조직을 8개 제품을 지원하도록 구성하는 건 더욱더 어려웠다.\n...\n마치 믹스에 새로운 제품을 하나 추가할 때마다 기존의 다른 모든 제품의 성장을 조금씩 갉아먹는 것 같았다.\n...\n줄어드는 매출을 막기 위해 신규 고객 획득에 너무 의존하다 보니, 회사의 우선순위가 '신규 고객용 제품 개발'과 '기존 고객 유지 개선' 사이에서 쪼개질 수밖에 없다.\n이제 그걸 4개의 다른 제품에 곱해보라.\n...\n우선순위를 추가할 때 복잡성이 선형적이 아니라 기하급수적으로 늘어난다는 사실을 아는 건 도움이 된다.\n더 적은 사람들이 오직 소수의 것들에만 집중함으로써, 수많은 방향으로 찢어진 훨씬 더 큰 팀보다 더 많은 것을 해낼 수 있었다.\n...\n\"우리 핵심 제품은 성장하고 있지만, 만약 우리가... 하면 더 빨리 클 수 잇을텐데.\" 그 빈칸을 채우는 건 위험하다.\n복잡성을 더하고 집중력을 앗아가는 것들이 그 자리를 차지하기 때문이다.\n...\n훨씬 더 현명한 길은, 훈련과 인내심을 가지고 곁길을 무시하며, 당신이 세계 최고가 될 수 있는 오직 한 가지에 실험, 학습, 반복을 쏟아붓는 것이다.\n성장을 위한 다른 전략들은 당신이 진정으로 거대한 규모를 갖출 떄까지 기다려야 한다.\np. 299",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jojoldu.tistory.com/871",
-    "pubDate": "Sun, 15 Mar 2026 15:16:34 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "도서",
-      "rand fishkin",
-      "SaaS",
-      "랜드 피쉬킨",
-      "스타트업",
-      "스타트업북스",
-      "실리콘밸리",
-      "우리는 실리콘밸리에 속았다",
-      "창업",
-      "투자"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "node.js express use 로 시작 + 마지막 + 예외처리 구현 및 쓸데 없었던 괴소문들",
-    "description": "1. API 처리 전후 타이밍 잡기\n\n\n시작과 종료 타이밍은 이렇게 잡습니다.\n코드\n// 전처리 + 호처리\napp.use((req, res, next) => {\n  console.log(\"api before\");\n  res.on(\"finish\", () => {\n    console.log(\"api after\");\n  });\n  next();\n});\n \n시작위치에서  res.on 으로 잡는군요\n \n2. 예외처리\n\n\n(중요) * 예외처리용 use 는 api 선언 하고나서 가장 마지막에 둬야합니다.\n안되길레 이것저것 해봤더니\n위치가 문제였습니다.\n코드 가장 마지막에 쓰세요\n코드\n// 에러 처리\n// 제일 마지막에 둬야함\napp.use(\n  (\n    //\n    err: Error,\n    req: Request,\n    res: Response,\n    next: NextFunction\n  ) => {\n    console.log(\"api err\");\n    res.status(500).json({\n      message: err.message,\n      // error: process.env.NODE_ENV === \"development\" ? err : {}, // 개발 환경에서만 스택 표시\n    });\n  }\n);\n \n \n2-2 여러가지 쓸데없는 예외처리의 괴소문\n이거는 지적만 받고 쓸데 없는 괴소문 이였습니다.\n1. bun 으로 돌려서 그렇다.\n2. api 에 async 로 되어있어야한다.\n3. req, res, next <-- next 있어야한다.\n이 세가지는 전부 상관 없었습니다.\nexpress 5 에서 다 고쳐진거 같습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1592",
-    "pubDate": "Thu, 12 Mar 2026 13:43:42 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "Express",
-      "Node.js",
-      "예외처리"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Koog Comes to Java: The Enterprise AI Agent Framework From JetBrains",
-    "description": "Adding AI agents to your enterprise backend shouldn’t mean compromising your architecture. If your core systems are built in Java, orchestrating LLMs shouldn’t require you to introduce separate Python microservices or rewrite your stack. Today, we are launching Koog for Java. Originally built to keep pace as JetBrains scaled up its own activities, Koog replaces […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/03/koog-comes-to-java/",
-    "pubDate": "Tue, 17 Mar 2026 09:57:20 +0000",
-    "creator": "Vadim Briliantov",
-    "categories": [
-      "ai",
-      "ecosystem",
-      "java"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "SI의 시대가 저물고 있다.",
-    "description": "SI(시스템 통합) 시장이 저물어가고 있네요. ‘위험의 외주화’가 사라지고 있습니다. 그동안 제가 원했던 방향이죠. 남에게 맡기는 게 아니라 스스로 해결하는 방식입니다. 기획자와 개발자의 경계가 허물어지고 있죠. 이젠 돈이 많아서 큰 프로젝트를 할 수 있는 회사보다, 훌륭한 개발팀을 가진 회사가 유리해졌습니다.그동안 바라기만 했는데, AI 덕분에 바뀌고 있는 것 같습니다. IT가 “기술용역”이 아닌 ‘제품’으로 팔려야 한다고 생각했습니다. 필요한... Continue Reading →",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://subokim.wordpress.com/2026/03/14/2026-si-industry-change/",
-    "pubDate": "Sat, 14 Mar 2026 03:14:17 +0000",
-    "creator": "subokim",
-    "categories": [
-      "IT산업이야기"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "CloudBees vs TeamCity: Enterprise CI/CD Beyond Jenkins",
-    "description": "Many organizations adopt Jenkins because it’s flexible and widely supported. Over time, however, that flexibility often turns into operational overhead: maintaining plugins, debugging pipelines, and coordinating upgrades across teams. CloudBees CI and JetBrains TeamCity represent two different ways of addressing this problem. CloudBees CI builds on Jenkins, adding enterprise-grade governance, centralized management, and commercial support. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/03/cloudbees-vs-teamcity/",
-    "pubDate": "Wed, 18 Mar 2026 10:00:47 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "cloudbees",
-      "comparison"
-    ]
-  },
-  {
     "id": 13,
     "imageUrl": "",
-    "title": "크롤링 vs 스크래핑, 헷갈리지 마세요! '고스트 스크레이퍼'로 한 번에 끝내는 웹 데이터 마스터 가이드",
-    "description": "코딩 한 줄 몰라도 웹사이트 데이터를 통째로 가져올 수 있다면 어떠시겠어요? 2026년, 여전히 수작업으로 데이터를 모으는 비효율적인 방식은 이제 그만! 이 포스트에서는 크롤링과 스크래핑의 개념을 확실히 잡고, 구글 AI 스튜디오로 만들어진 혁신적인 노코드 앱 '고스트 스크레이퍼'를 통해 웹 데이터 마스터가 되는 방법을 알려드립니다. 개념부터 실제 활용법, 그리고 앱 개발에 사용된 프롬프트까지, 여러분의 데이터 수집 고민을 한 번에 해결해드릴게요!\n\n\n  크롤링 vs 스크래핑, 그 차이를 아시나요?\n여러분, '크롤링'과 '스크래핑'이라는 단어, 인터넷 좀 보셨다 하는 분들이라면 한 번쯤은 들어보셨을 거예요. 그런데 이 둘이 정확히 어떻게 다른지 명확하게 설명할 수 있는 분은 생각보다 많지 않더라고요. 어쩌면 많은 분이 같은 말처럼 혼용해서 사용하기도 하고요. 하지만 이 둘은 엄밀히 말하면 다른 개념이고, 제가 만든 '고스트 스크레이퍼'는 이 두 가지를 함께 쓴답니다. 오늘 딱 한 번만 제대로 정리해드릴게요!\n먼저, 크롤링(Crawling)은 마치 낚싯배가 드넓은 바다로 나가는 것과 같아요. 웹사이트에 직접 접속해서 페이지 전체의 HTML을 통째로 가져오는 과정이죠. 고스트 스크레이퍼에서 URL을 입력하고 버튼을 누르는 순간, 서버가 해당 사이트에 접속해서 HTML 전문을 긁어오는 게 바로 크롤링입니다.\n그렇다면 스크래핑(Scraping)은 뭘까요? 이건 바다에서 잡은 물고기들 중에서 내가 원하는 어종만 선별해서 그물에 담는 과정과 비슷해요. 크롤링으로 가져온 HTML 덩어리에서 내가 정말 필요로 하는 특정 데이터(예: 링크, 이미지 주소, 게시글 제목, 가격 정보 등)만 골라 뽑아내는 행위를 스크래핑이라고 부릅니다. 고스트 스크레이퍼는 이렇게 필요한 정보만 추출하고, 나아가 제미나이 AI가 반복 패턴을 찾아 JSON 형태로 깔끔하게 정리해주는 역할까지 한답니다.\n정리하자면, 크롤링은 '수집'이고 스크래핑은 '추출'이라고 볼 수 있어요. 정말 단순하죠? 고스트 스크레이퍼는 이 두 단계를 여러분이 버튼 하나로 자동 처리할 수 있게 도와주는 겁니다. 사실 구글이나 네이버 같은 거대 검색 엔진이 전 세계의 방대한 정보를 우리에게 보여줄 수 있는 이유도 바로 이 크롤링과 스크래핑 기술로 매일같이 데이터를 자동 수집하고 정제하고 있기 때문이랍니다. 검색 엔진이 하는 일을 이제 여러분도 할 수 있게 되는 거죠!\n크롤링 vs 스크래핑: 한눈에 비교하기\n\n\n\n구분\n크롤링 (Crawling)\n스크래핑 (Scraping)\n\n\n\n\n목적\n웹 페이지 전체 수집\n특정 데이터 추출 및 정제\n\n\n비유\n낚싯배가 바다에 나가는 것\n그물에서 원하는 물고기만 선별\n\n\n기술적 난이도\n상대적으로 낮음 (접속)\n상대적으로 높음 (파싱, 정규화)\n\n\n결과물\nRaw HTML 문서\n구조화된 데이터 (JSON, CSV 등)\n\n\n\n\n  데이터 수집의 높은 벽, 이제는 넘을 수 있습니다!\n사실 이렇게 매력적인 웹 크롤링과 스크래핑을 직접 구현하려고 하면, 생각보다 굉장히 높은 장벽에 부딪히게 됩니다. 제가 처음 배울 때도 참 힘들었죠. 그 어려움들을 한번 짚어볼게요.\nHTML과 CSS에 대한 깊은 이해: 웹사이트의 특정 데이터가 어떤 태그 안에 숨어있는지, 그 위치를 지정하는 선택자를 어떻게 작성해야 하는지 알아야만 로봇에게 정확한 명령을 내릴 수 있어요. 이걸 모르면 사실 시작조차 하기 어렵습니다.\n프로그래밍 언어와 전문 라이브러리: 파이썬 같은 언어에 BeautifulSoup, Selenium 같은 라이브러리를 조합해서 코드를 한 줄 한 줄 짜가며 예외 상황을 처리하고 데이터를 정제하는 과정은 초보자에게는 솔직히 너무나 가혹한 공부 시간을 요구하죠. 저도 밤샘 코딩 많이 해봤습니다.\n법적, 윤리적 가이드라인 준수: 웹사이트마다 작성된 로봇 텍스트 규약을 반드시 확인해야 하고, 서버에 무리를 주지 않는 기술적 매너도 갖춰야 합니다. 이건 단순히 기술을 아는 것을 넘어선 책임감이 필요한 부분이에요.\n이런 장벽들 때문에 많은 분들이 웹 데이터의 중요성을 알면서도 선뜻 도전하지 못하는 경우가 많았습니다. 그런데 이제는 달라졌습니다. '고스트 스크레이퍼'가 이 모든 복잡한 과정을 여러분 대신 처리해주니까요!\n  '고스트 스크레이퍼'를 소개합니다: 노코드 지능형 데이터 마스터\n자, 이제 오늘의 진짜 주인공, '고스트 스크레이퍼'를 제대로 소개할 시간입니다. 이 앱은 코딩을 전혀 모르는 일반인도 전문가 수준의 데이터 추출이 가능하도록 설계된 노코드 기반의 지능형 스크래핑 앱이에요. 그리고 제가 직접 경험해보니, 정말 놀랍도록 편리하고 강력했습니다.\n\n\n이 앱이 특별한 이유는 또 하나 있습니다. 바로 2026년 최신 업데이트된 구글 에이아이 스튜디오 빌드를 활용하여 만들어진 앱이라는 점이죠. 최근 AI 기술의 발전은 정말 상상을 초월하는 것 같아요. 이 앱의 핵심에는 세 가지 강력한 기술이 탑재되어 있어요.\n넥스트 제이에스 15 기반의 고속 처리 엔진: 최신 웹 프레임워크를 기반으로 구축되어서, 여러분이 URL을 입력하는 순간 백엔드 서버가 실제 크롬 브라우저처럼 해당 사이트에 접속해서 HTML 전체를 가져옵니다. 빠르고 안정적이죠.\n시각적 섹터 선택 기술: 복잡한 코드 분석 없이, 미리보기 화면에서 내가 원하는 영역을 마우스로 '클릭'만 하면 앱이 자동으로 그 구조를 파악해줍니다. 정말이지, 웹 전문가가 된 기분이에요.\n제미나이 AI와의 결합: 단순히 글자를 긁어오는 수준을 넘어서, AI가 문맥을 파악하고 비정형 데이터를 깔끔한 정형 리스트로 변환해주는 지능형 분석 기능을 제공합니다. 이 기능은 특히 PRO 버전에서만 사용 가능하며, 데이터 정리의 신세계를 경험하게 해줄 겁니다.\n  2026년 현재: '고스트 스크레이퍼'는 구글 에이아이 스튜디오 빌드의 강력한 기능을 활용하여 탄생했습니다. 코딩의 장벽을 넘어 데이터 수집 자동화의 시대를 여는 주역이라고 할 수 있죠.\n  고스트 스크레이퍼는 이렇게 탄생했습니다 (프롬프트 공개!)\n제가 이 '고스트 스크레이퍼'를 만들면서 가장 놀랐던 점은 바로, 간단한 프롬프트만으로 이런 복잡한 앱을 만들어낼 수 있었다는 사실이에요. 구글 에이아이 스튜디오 빌드의 위력이 대단하다고밖에는 할 말이 없네요. 여러분도 궁금하시죠? 어떤 프롬프트를 사용했는지 솔직하게 다 공개해드릴게요!\n기본 프롬프트\n\"웹사이트 주소를 입력하면 그 사이트의 정보를 싹 긁어와서 보여주는 도구를 만들고 싶어. 디자인은 검은색 배경에 아주 세련된 전문가용 대시보드 느낌으로 시작해줘.\"\n\"긁어온 정보를 한눈에 보기 편하게 '이미지', '링크', '표', 'AI 분석' 같은 메뉴로 나눠서 보여주게 화면을 구성해줘.\"\n\"사용자가 입력한 주소의 사이트에 실제로 접속해서 제목, 설명, 그리고 그 안에 있는 모든 글자와 이미지 주소들을 가져오는 기능을 넣어줘.\"\n\"이미지 메뉴에서는 사이트에서 찾은 모든 사진들을 사진첩처럼 격자 모양으로 예쁘게 나열해서 보여줘.\"\n\"링크 메뉴에서는 그 사이트에 연결된 모든 주소들을 목록으로 쪽 뽑아주고, 클릭하면 바로 그 주소로 이동할 수 있게 해줘.\"\n\"내 앱 화면 안에서 해당 웹사이트를 직접 띄워서 볼 수 있는 작은 미리보기 창을하나 만들어줘.\"\n\"미리보기 창에서 내가 마우스로 특정 부분을 클릭하면, 그 부분의 글자나 코드를 따로 쏙 뽑아낼 수 있는 '영역 선택' 기능을 추가해줘.\"\n\"인공지능(AI) 기능을 연결해서, 복잡한 웹사이트 내용을 분석해 게시판 글 목록이나 상품 리스트처럼 깔끔한 표로 정리해주는 기능을 만들어줘.\"\n\"찾은 데이터는 파일로 저장해서 내 컴퓨터에 내려받고, 사진들은 한꺼번에 압축해서 다운로드하는 버튼을 만들어줘.\"\n\"버튼을 누르거나 창이 바뀔 때 부드럽게 움직이도록 효과를 넣고, 처음 쓰는 사람을 위해 어떻게 쓰는지 알려주는 설명창도 추가해서 완성해줘.\"\n고급 프롬프트\n\"Next.js와 Tailwind CSS를 사용하여 'GhostScraper'라는 이름의 웹 데이터 추출 대시보드 기본 UI를 만들어줘. 상단에는 URL 입력창이 있고, 아래에는 개요, 링크, 이미지, 구조, 표, AI 분석 탭이 있는 세련된 레이아웃이어야 해.\"\n\"사용자가 입력한 URL의 HTML을 서버에서 대신 가져와서 브라우저의 CORS 문제를 해결해주는 프록시 API 라우트를 /api/proxy에 만들어줘.\"\n\"가져온 HTML 문자열을 분석해서 제목, 설명, 파비콘 같은 메타데이터와 모든 <a> 태그의 링크, <img> 태그의 이미지 주소, 그리고 <table> 데이터를 추출하는 파싱 함수를 작성해줘.\"\n\"각 탭에 추출된 데이터를 카드나 리스트 형태로 보여주는 UI를 구현해줘. 이미지 탭은 그리드 갤러리로, 링크 탭은 필터링 기능이 있는 리스트로 만들어줘.\"\n\"크롤링한 사이트의 HTML 소스를 iframe의 srcDoc 속성에 주입하여 앱 안에서 사이트 화면을 직접 볼 수 있는 미리보기 컴포넌트를 만들어줘.\"\n\"미리보기 iframe 안의 요소를 마우스로 클릭하면 해당 요소의 HTML 태그와 텍스트 내용을 추출하는 '시각적 섹터 선택기' 기능을 추가해줘. 클릭 시 요소가 하이라이트 되어야 해.\"\n\"@google/genai 라이브러리를 설치하고, Gemini API를 사용하여 수집된 HTML 데이터를 분석할 수 있는 백엔드 로직을 /api/ai-analyze에 구현해줘.\"\n\"AI 분석 탭에서 버튼을 누르면 수집된 HTML의 핵심 부분을 AI에게 보내서, 게시판 목록이나 상품 리스트 같은 반복적인 데이터를 찾아 정형화된 JSON 리스트로 변환해달라고 요청하는 프롬프트를 작성해줘.\"\n\"AI가 분석해준 JSON 데이터를 예쁜 표 형태로 렌더링하고, 이 결과를 .json 파일로 다운로드하거나 수집된 이미지들을 jszip 라이브러리로 압축해 .zip 파일로 내려받는 기능을 추가해줘.\"\n\"framer-motion을 사용해 탭 전환과 모달 창에 부드러운 애니메이션을 넣고, 상세한 사용법과 크롤링 제한 사항이 담긴 도움말 모달을 추가해서 앱을 최종 완성해줘.\"\n ️ 고스트 스크레이퍼, 직접 사용해볼까요?\n자, 이제 저와 함께 '고스트 스크레이퍼'를 직접 사용해보는 시간이에요! 말로만 듣는 것보다 직접 해보는 게 훨씬 와닿을 테니까요. 제가 네이버 증권 사이트를 예시로 보여드릴게요. 이 사이트에는 글 목록, 다양한 표 형식의 정보가 한 화면에 보이는데, 이것들을 어떻게 가져오는지 한번 보시죠.\n크롤링 시작: 고스트 스크레이퍼를 실행한 후, 해당 사이트의 주소(URL)를 입력하고 '크롤링 시작' 버튼을 클릭합니다. 그러면 시스템이 원격 서버를 통해 사이트의 HTML을 분석하기 시작해요. 이 과정은 정말 빠르게 진행된답니다.\n데이터 확인 및 분류: 추출된 데이터는 '개요', '구조', '글 목록', '표', '링크', '이미지' 탭으로 자동 분류되어 나타납니다. 각 탭에서 실시간으로 수집된 데이터를 확인할 수 있고, 개별 항목들은 CSV 파일로 쉽게 다운로드할 수 있죠. 데이터 관리, 정말 편해졌습니다.\n정밀한 타겟팅을 위한 '시각적 섹터 선택 기능'\n사이트 전체 데이터가 다 필요한 게 아니라, 특정 영역의 데이터만 필요한 경우가 분명 있을 거예요. 그럴 때 이 '시각적 섹터 선택 기능'이 정말 빛을 발합니다.\n\n\n\n미리보기 화면 활성화: 웹사이트의 실제 모습이 미리보기 창에 그대로 나타납니다. 이 상태에서 마우스를 사이트 위에서 천천히 움직여보세요.\n영역 하이라이트: 각 영역이 초록색 박스 형태로 하이라이트되는 걸 보실 수 있을 거예요. 마치 웹사이트의 뼈대를 엑스레이로 들여다보는 것 같죠? 원하는 데이터가 포함된 영역을 정확하게 찾아 클릭합니다.\n핵심 팁: 여기서 자주 실수하시는 부분이 있어요! 너무 큰 영역을 선택하시면 불필요한 데이터가 너무 많이 딸려올 수 있습니다. 최대한 내가 원하는 정보가 담긴 '작은 단위의 영역'을 클릭하시는 게 좋습니다. 그런 다음 오른쪽에서 '글 목록' 또는 '표'로 보내면, 해당 영역의 데이터만 깔끔하게 추출됩니다.\n앱의 진짜 백미, 'AI 지능형 분석'\n이 앱의 진짜 백미는 바로 'AI 지능형 분석' 기능이에요. 수집된 데이터가 너무 방대하거나 구조가 복잡해서 일일이 정리하기 힘드실 때, 이 기능을 쓰시면 그 진가를 경험하게 될 겁니다.\n이 기능을 사용하면 사람이 눈으로 보고 엑셀 표를 만들듯이, AI가 제목, 작성일, URL, 이미지 링크 같은 정보들을 구분하여 완벽한 리스트 구조로 만들어줍니다. 저도 처음에 보고는 '와, 이게 되네?' 하고 감탄했던 기억이 있네요. 단, 이 기능을 사용하기 위해서는 우측 상단 설정에서 자신의 Gemini API 키를 등록해야 하니 꼭 참고하세요!\n⚠️ 솔직하게 밝히는 '고스트 스크레이퍼'의 한계\n아무리 뛰어난 도구라도 만능은 아니죠. '고스트 스크레이퍼' 역시 태생적인 기술적 한계가 존재합니다. 솔직하게 이 부분도 말씀드려야 할 것 같아요. 그래야 여러분이 더 효과적으로 활용할 수 있으니까요.\n대형 플랫폼은 피하세요: 쿠팡, 네이버 같은 대형 플랫폼들은 기업급 보안 솔루션(예: Cloudflare)을 사용합니다. 자동 접근을 즉시 감지해 차단하기 때문에, 만약 오류가 뜬다면 도구 탓이 아니라 상대의 방어망이 너무 강력한 거라고 이해해주시면 됩니다.\n동적 로딩 사이트의 한계: 최신 SNS나 쇼핑몰 중 많은 곳이 자바스크립트를 이용해 데이터를 나중에 불러오는 '동적 로딩' 방식을 사용합니다. 고스트 스크레이퍼는 실행 전의 '정적 HTML'만 읽기 때문에, 인스타그램 같은 사이트에서는 알맹이 없는 빈 화면만 볼 수도 있어요.\n로그인과 캡차(CAPTCHA): 사용자 인증이 필요한 비공개 데이터나 봇 방지용 캡차는 자동화 도구가 넘을 수 없는 물리적인 벽입니다. 이걸 뚫으려면 플레이라이트나 퍼피티어 같은 개발자용 브라우저 제어 기술이 필요하죠.\n⚠️ 기억하세요: '고스트 스크레이퍼'는 보안 기술이 비교적 낮은 블로그, 뉴스 사이트, 중소형 쇼핑몰 같은 정적 사이트에서 가장 빠르고 효율적으로 작동합니다. 여러분의 목적에 맞게 현명하게 사용해주세요!\n  핵심 요약\n✅ 크롤링은 수집, 스크래핑은 추출! 둘은 다른 개념이지만 '고스트 스크레이퍼'는 두 가지를 한 번에 처리합니다.\n✅ 코딩 없이 웹 데이터 마스터 가능! 구글 AI 스튜디오 빌드로 만든 '고스트 스크레이퍼'는 복잡한 코딩 없이도 전문가 수준의 데이터 추출을 돕습니다.\n✅ AI 지능형 분석으로 데이터 정제 혁신! 제미나이 AI가 비정형 데이터를 깔끔한 표 형태로 자동 정리해주는 놀라운 기능이 탑재되어 있습니다.\n✅ 정적 사이트에 최적화! 블로그, 뉴스, 중소형 쇼핑몰 등 보안이 낮은 정적 사이트에서 가장 큰 효율을 발휘합니다.\n이 핵심 요약을 통해 '고스트 스크레이퍼'의 가치를 명확히 이해하고, 웹 데이터 활용의 새로운 가능성을 경험해보세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: '고스트 스크레이퍼'는 어떤 종류의 웹사이트에서 가장 잘 작동하나요?\nA: '고스트 스크레이퍼'는 블로그, 뉴스 사이트, 중소형 쇼핑몰과 같이 상대적으로 보안이 낮고 정적인 HTML 구조를 가진 웹사이트에서 가장 효과적으로 작동합니다. 대규모 플랫폼이나 동적 로딩이 많은 SNS 사이트, 로그인/캡차가 필요한 페이지에서는 기능적 한계가 있을 수 있습니다.\nQ2: 코딩을 전혀 몰라도 '고스트 스크레이퍼'를 사용할 수 있나요?\nA: 네, 그렇습니다! '고스트 스크레이퍼'는 코딩 지식이 전혀 없는 일반 사용자도 쉽게 웹 데이터를 추출하고 분석할 수 있도록 설계된 '노코드' 기반의 앱입니다. 직관적인 UI와 '시각적 섹터 선택' 기능 덕분에 누구나 쉽게 활용할 수 있습니다.\nQ3: '고스트 스크레이퍼'의 AI 분석 기능은 어떤 점이 특별한가요?\nA: AI 분석 기능은 단순히 데이터를 긁어오는 것을 넘어, 제미나이 AI가 수집된 비정형 HTML 데이터의 문맥을 파악하여 게시판 글 목록이나 상품 리스트와 같은 깔끔한 정형화된 JSON 리스트로 변환해줍니다. 이는 수동으로 데이터를 정리하는 시간을 획기적으로 줄여주는 매우 강력한 기능입니다.\n{\"@context\": \"https://schema.org\",\"@type\": \"FAQPage\",\"mainEntity\": [{\"@type\": \"Question\",\"name\": \"'고스트 스크레이퍼'는 어떤 종류의 웹사이트에서 가장 잘 작동하나요?\"},{\"@type\": \"Answer\",\"text\": \"'고스트 스크레이퍼'는 블로그, 뉴스 사이트, 중소형 쇼핑몰과 같이 상대적으로 보안이 낮고 정적인 HTML 구조를 가진 웹사이트에서 가장 효과적으로 작동합니다. 대규모 플랫폼이나 동적 로딩이 많은 SNS 사이트, 로그인/캡차가 필요한 페이지에서는 기능적 한계가 있을 수 있습니다.\" },{\"@type\": \"Question\",\"name\": \"코딩을 전혀 몰라도 '고스트 스크레이퍼'를 사용할 수 있나요?\"},{\"@type\": \"Answer\",\"text\": \"네, 그렇습니다! '고스트 스크레이퍼'는 코딩 지식이 전혀 없는 일반 사용자도 쉽게 웹 데이터를 추출하고 분석할 수 있도록 설계된 '노코드' 기반의 앱입니다. 직관적인 UI와 '시각적 섹터 선택' 기능 덕분에 누구나 쉽게 활용할 수 있습니다.\" },{\"@type\": \"Question\",\"name\": \"'고스트 스크레이퍼'의 AI 분석 기능은 어떤 점이 특별한가요?\"},{\"@type\": \"Answer\",\"text\": \"AI 분석 기능은 단순히 데이터를 긁어오는 것을 넘어, 제미나이 AI가 수집된 비정형 HTML 데이터의 문맥을 파악하여 게시판 글 목록이나 상품 리스트와 같은 깔끔한 정형화된 JSON 리스트로 변환해줍니다. 이는 수동으로 데이터를 정리하는 시간을 획기적으로 줄여주는 매우 강력한 기능입니다.\" }]}\n지금까지 크롤링과 스크래핑이 무엇인지, 그리고 이 기술을 기반으로 탄생한 '고스트 스크레이퍼'가 어떻게 여러분의 웹 데이터 활용을 혁신할 수 있는지 함께 알아보았습니다. '고스트 스크레이퍼'는 베이직과 프로, 두 가지 버전으로 나뉘는데요. 베이직은 크롤링, 수집, 다운로드 등의 기본 기능을 무료로 제공하고, 프로 버전은 제미나이 API 키를 등록하여 AI 분석 기능까지 제공합니다. 필요에 따라 선택하시면 될 것 같아요.\n \n2026년, 데이터는 곧 경쟁력입니다. '고스트 스크레이퍼'와 함께 여러분도 웹 데이터 마스터가 되어 새로운 기회를 잡으시길 바랍니다. 오늘 이 글이 도움이 되셨다면, 구독과 좋아요 꼭 눌러주세요. 다음에도 더 유익한 정보로 찾아뵙겠습니다. 감사합니다!\n \n GhostScraper BASIC 버전 바로 사용하기\n\n \nGhostScraper\n \nghost-scraper-basic.vercel.app",
+    "title": "컴공과 졸업생들은 취업할 수 있을까?",
+    "description": "주변에 컴공과 진학한 학생들이 많습니다.똑똑한 친구들은 알아서 하겠지만…아무래도 취업 걱정이 되더라고요. 그래서 정리해 보았습니다. 속도감의 시대 회사에서 AI를 120%로 활용해 일하고 있습니다.신입직원은 뽑고 있지 않습니다.AI를 잘 쓰는 시니어를 뽑고 있습니다.물론 잘 뽑히진 않고 있습니다. 하지만, 한동안 신입직원 채용은 어려운 분위기입니다. 머지않아 풀릴 것 같긴 합니다.신입직원이 필요한 곳은 있거든요.다만 지금은 어려운 분위기입니다. 지금은 AI 잘 쓰는... Continue Reading →",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483713",
-    "pubDate": "Sat, 14 Mar 2026 22:32:12 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://subokim.wordpress.com/2026/03/18/ai_age_recruit/",
+    "pubDate": "Wed, 18 Mar 2026 10:00:08 +0000",
+    "creator": "subokim",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "gemini api",
-      "고스트 스크레이퍼",
-      "구글 ai 스튜디오",
-      "노코드 스크래핑",
-      "데이터 마스터",
-      "데이터 수집",
-      "웹 데이터 추출",
-      "웹 스크래핑",
-      "웹 크롤링",
-      "자동화"
+      "개발자의삶",
+      "IT산업이야기"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 42화, 악역행동인데스와",
-    "description": "No description available",
+    "title": "Ranking Engineer Agent (REA): The Autonomous AI Agent Accelerating Meta’s Ads Ranking Innovation",
+    "description": "Meta’s Ranking Engineer Agent (REA) autonomously executes key steps across the end-to-end machine learning (ML) lifecycle for ads ranking models. This post covers REA’s ML experimentation capabilities: autonomously generating hypotheses, launching training jobs, debugging failures, and iterating on results. Future posts will cover additional REA capabilities. REA reduces the need for manual intervention. It manages [...]\nRead More...\nThe post Ranking Engineer Agent (REA): The Autonomous AI Agent Accelerating Meta’s Ads Ranking Innovation appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2431",
-    "pubDate": "Thu, 12 Mar 2026 14:46:56 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/",
+    "pubDate": "Tue, 17 Mar 2026 20:07:52 +0000",
+    "creator": "Unknown",
     "categories": [
-      "웹툰"
+      "DevInfra",
+      "ML Applications"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Claude Code로 Figma 디자인 시스템을 C++ 코드로 변환하기",
-    "description": "[![NHN Cloud_meetup banner_designSystem_202603_rv.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerdesignSystem202603rv.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n\r\r\n안녕하세요.\r\r\n제로 트러스트 보안 모델을 기반으로 NHN Cloud 리소스에 안전하게 접속할 수 있도록 지원하는 [Cloud Access](https://www.nhncloud.com/kr/service/security/cloud-access)의 Windows 클라이언트를 개발하고 있는 앱서비스보안팀 정원희입니다.\r\r\n\r\r\nCloud Access Windows 클라이언트는 [WTL](https://wtl.sourceforge.io/)/Win32 기반 C++ 네이티브 UI로 개발되어 있습니다. 네이티브 UI는 OS 수준의 성능과 낮은 리소스 사용량, 시스템 API와의 직접적인 연동 등의 이점이 있어 보안 제품 특성에 적합하지만, 웹 프론트엔드처럼 디자인 토큰을 관리하는 성숙한 생태계가 갖춰져 있지 않아 디자인 시스템 적용에 별도의 접근이 필요했습니다.\r\r\n\r\r\n이번 글에서는 이 문제를 해결하기 위해 Figma 디자인 가이드 PDF를 Claude Code에 전달하여 C++ 디자인 시스템 코드를 자동 생성한 경험을 공유하려고 합니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n## 디자인 시스템이 왜 필요했나\r\r\n\r\r\n본격적으로 들어가기 전에 디자인 시스템이 무엇인지 간단히 짚고 넘어가겠습니다. 디자인 시스템은 제품이나 서비스에서 일관된 UI/UX를 만들기 위해 색상, 타이포그래피, 컴포넌트 같은 구성 요소를 정의한 규칙 모음입니다. 웹 프론트엔드에서는 익숙한 개념이지만, C++ 네이티브 UI 개발에서는 다소 생소할 수 있습니다. 실제로 Windows C++ 개발 환경에서는 색상값, 폰트 크기 등 디자인 관련 값들을 `#define`으로 하나의 헤더 파일에 모아두는 경우가 많습니다.\r\r\n\r\r\n디자인 시스템이 없으면 개발자가 UI를 구현할 때 매번 디자이너에게 \"이 버튼 색상이 뭐였죠?\"라고 물어보거나, Figma 화면을 열어서 색상값을 직접 확인해야 합니다. 개발자마다 조금씩 다르게 구현하게 되고, 나중에 디자인이 바뀌면 코드 전체를 수정해야 합니다. 아래는 디자인 시스템이 없을 때 발생할 수 있는 전형적인 사례입니다.\r\r\n\r\r\n```cpp\r\r\n// MainView.cpp\r\r\ncolor = RGB(18, 93, 230);\r\r\n\r\r\n// SettingsView.cpp\r\r\ncolor = RGB(18, 92, 230);  // 오타 - 93이 아닌 92\r\r\n\r\r\n// LoginView.cpp\r\r\ncolor = 0xE65D12;          // BGR 순서로 작성\r\r\n```\r\r\n\r\r\n각 소스 파일에서 같은 색상을 개별적으로 정의하면 불일치와 오타가 발생하기 쉽습니다. 디자인 시스템이 코드로 정의되어 있으면 한 곳에서 정의하고 전체에서 참조하므로 이런 문제가 해결됩니다.\r\r\n\r\r\n```cpp\r\r\n// 모든 곳에서 동일하게\r\r\ncolor = primary::_7;  // #125DE6\r\r\n```\r\r\n\r\r\n\"Accent 버튼 스타일로 적용해 주세요.\"라는 요청이 오면 `ApplyAccent()` 한 줄이면 되고, 색상이 바뀌더라도 토큰값만 수정하면 전체 앱에 반영됩니다. 디자이너와 개발자 사이의 커뮤니케이션도 훨씬 단순해집니다.\r\r\n\r\r\n참고로 저희가 따르고 있는 디자인 시스템은 NHN Cloud Console 디자인 시스템으로, Figma에서 관리되고 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n### 디자인 토큰의 계층 구조\r\r\n\r\r\n디자인 시스템에서 핵심이 되는 개념이 디자인 토큰입니다. 토큰은 보통 세 단계로 나뉩니다.\r\r\n\r\r\n![CC_designsystem_1_900.png](https://image.toast.com/aaaadh/real/2026/techblog/CCdesignsystem1900.png)\r\r\n\r\r\n**프리미티브 토큰**은 `#125DE6` 같은 색상값 자체이고, **시맨틱 토큰**은 그 색상이 어디에 쓰이는지를 정의하며, **컴포넌트 프리셋**은 버튼 하나에 필요한 스타일을 한 번에 적용하는 역할입니다. 이렇게 계층을 나누면 Accent 버튼 색상이 변경되더라도 프리미티브 토큰 하나만 수정하면 나머지에 자동으로 반영됩니다.\r\r\n\r\r\n\r\r\n\r\r\n## 수작업의 한계\r\r\n\r\r\n문제는 이 토큰들을 코드로 옮기는 과정이었습니다.\r\r\n\r\r\nFigma에 정의된 색상값을 하나씩 확인하고 직접 코드로 옮겨야 했으며, 이 과정에서 오류가 발생하기 쉬웠습니다. 실제로 코드베이스에는 개발자마다 같은 색상을 다르게 정의한 경우가 존재했습니다.\r\r\n\r\r\n```cpp\r\r\n#define COLOR_ACCENT RGB(0x12, 0x5D, 0xE6)\r\r\n#define BLUE_BTN_BG RGB(18, 93, 230)\r\r\nconst COLORREF accent = 0xE65D12; // BGR 순서 혼동\r\r\n```\r\r\n\r\r\n같은 색상임에도 이름이 다르고, 표기 방식이 다르고, 심지어 RGB와 BGR이 혼재하는 경우도 있었습니다. Win32 API의 `COLORREF`는 내부적으로 BGR 순서를 사용하기 때문에 이런 혼동이 종종 발생합니다. 토큰 수가 상당하므로 수작업으로 옮기는 과정에서 이런 실수가 생기는 것은 불가피한 일이었습니다.\r\r\n\r\r\n디자인 변경이 있을 때도 문제였습니다. Figma에서 색상이 바뀌면 코드를 일일이 찾아서 수정해야 했고, 어디를 빠뜨렸는지 확인하기도 어려웠습니다.\r\r\n\r\r\n\r\r\n\r\r\n## PDF를 선택한 이유\r\r\n\r\r\n이 문제를 해결하려고 몇 가지 방법을 검토했습니다.\r\r\n\r\r\n가장 먼저 떠오르는 것은 Figma API를 직접 연동하는 방법이었으나, 저희 개발팀에는 Figma Dev Seat이나 Full Seat이 없었습니다. Figma에서 공식 MCP 서버를 제공하기는 하지만, Dev Seat 이상이 있어야 제대로 사용할 수 있고, View Seat의 경우 API call 횟수에 제한이 있는 등 실질적으로 활용하기 어려운 상황이었습니다.\r\r\n\r\r\n저희는 이미 디자인 부서로부터 디자인 가이드와 디자인 시스템을 Figma로 전달받아 협업하고 있었습니다. 이 가이드에는 색상 코드, 토큰 이름, 폰트 사이즈 같은 정보가 테이블 형태로 잘 정리되어 있었고, Figma에서 PDF로 export할 수 있었습니다.\r\r\n\r\r\n![CC_designsystem_2.png](https://image.toast.com/aaaadh/real/2026/techblog/CCdesignsystem2.png)\r\r\n\r\r\n[Claude Code가 PDF를 읽고 분석할 수 있다는 점](https://platform.claude.com/docs/ko/build-with-claude/pdf-support)에 착안하여, 이 PDF를 Claude Code에 전달하는 방식을 선택했습니다.\r\r\n\r\r\n이 방식의 가장 큰 장점은 진입 장벽이 낮다는 것입니다. Figma에서 PDF export만 하면 되므로 개발자 모드 권한이나 별도의 도구 설치가 필요 없고, 누구나 바로 사용할 수 있습니다.\r\r\n\r\r\n한 가지 유의할 점이 있습니다. Claude Code는 PDF를 페이지 단위로 렌더링된 이미지와 추출된 텍스트를 함께 활용하여 분석합니다. 따라서 디자인 가이드 PDF에 색상 코드(`#125DE6`), 토큰 이름(`primary.7`), 폰트 사이즈 등의 정보가 **이미지가 아닌 텍스트 형태**로 포함되어 있어야 정확한 추출이 가능합니다. NHN Cloud Console 디자인 시스템 가이드의 경우 이러한 정보가 테이블 형태의 텍스트로 정리되어 있었기 때문에 Claude Code가 높은 정확도로 파싱할 수 있었습니다.\r\r\n\r\r\n\r\r\n\r\r\n## Claude Code에 맡기기\r\r\n\r\r\nFigma에서 Color, Typography, Button 가이드 페이지를 각각 PDF로 export한 뒤, Claude Code에 이렇게 요청했습니다.\r\r\n\r\r\n> \"Docs/design-system의 PDF들을 분석해서 C++ 디자인 시스템 코드를 만들어줘. namespace는 `cloudaccess::design`, NHN Cloud Console 디자인 시스템 토큰과 매핑해줘.\"\r\r\n\r\r\nClaude Code는 PDF 세 개를 순서대로 분석하기 시작했습니다. Color.pdf에서 색상 토큰을, Typography.pdf에서 weight와 size를, Button.pdf에서 버튼 타입과 상태별 스타일을 추출했습니다. 그리고 이 정보를 바탕으로 C++ 코드를 생성하고, 사용 가이드 문서까지 자동으로 생성했습니다.\r\r\n\r\r\n생성된 파일 구조는 아래와 같았습니다.\r\r\n\r\r\n```\r\r\ndesign/\r\r\n├── DesignTokens.h      // 원시 색상 토큰\r\r\n├── SemanticTokens.h    // 용도별 시맨틱 토큰\r\r\n├── Typography.h        // 타이포그래피\r\r\n├── ButtonStyles.h      // 버튼 프리셋\r\r\n└── DesignSystem.h      // 통합 헤더\r\r\n```\r\r\n\r\r\n색상 토큰, 시맨틱 토큰, 타이포그래피, 버튼 프리셋을 포함한 전체 코드와 문서가 단시간 내에 생성되었습니다. 수작업이었다면 Figma 화면에서 색상값을 일일이 확인하고 코드로 옮기는 데 상당한 시간이 소요되었을 것입니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n## 생성된 코드 살펴보기\r\r\n\r\r\n생성된 코드 중 일부를 발췌하여 살펴보겠습니다.\r\r\n\r\r\n\r\r\n### 원시 색상 토큰(DesignTokens.h)\r\r\n\r\r\nPDF Color 가이드에서 추출한 모든 색상값이 `constexpr`로 정의되어 있습니다. 컴파일 타임에 확정되므로 런타임 오버헤드가 없고, 값이 잘못되면 컴파일 단계에서 검출할 수 있습니다.\r\r\n\r\r\n```cpp\r\r\nnamespace primary {\r\r\n    inline constexpr COLORREF _1 = RGB(0xE9, 0xF1, 0xFF);  // #E9F1FF - Select/Hover/Table\r\r\n    inline constexpr COLORREF _2 = RGB(0xC8, 0xDC, 0xFF);  // #C8DCFF - Progressbar bg\r\r\n    inline constexpr COLORREF _7 = RGB(0x12, 0x5D, 0xE6);  // #125DE6 - Accent Button/Link\r\r\n    inline constexpr COLORREF _8 = RGB(0x14, 0x46, 0xC8);  // #1446C8 - Accent Button Hover\r\r\n}\r\r\n\r\r\nnamespace neutral {\r\r\n    inline constexpr COLORREF _0   = RGB(0xFF, 0xFF, 0xFF);  // #FFFFFF - White\r\r\n    inline constexpr COLORREF _1   = RGB(0xF9, 0xF9, 0xF9);  // #F9F9F9 - Bg/Button hover\r\r\n    inline constexpr COLORREF _5   = RGB(0xDD, 0xDD, 0xDD);  // #DDDDDD - Border/Divider\r\r\n    inline constexpr COLORREF _9   = RGB(0x77, 0x77, 0x77);  // #777777 - Secondary text\r\r\n    inline constexpr COLORREF _100 = RGB(0x22, 0x22, 0x22);  // #222222 - Title text\r\r\n}\r\r\n```\r\r\n\r\r\n여기서 눈여겨볼 점은 네이밍입니다. Figma에서 `color.primary.7`로 정의된 토큰이 C++ 코드에서는 `primary::_7`로 매핑됩니다. NHN Cloud Console 디자인 시스템의 네이밍 규칙을 거의 그대로 유지한 덕분에 나중에 Figma에서 디자인이 변경되더라도 어떤 토큰을 수정해야 하는지 바로 찾을 수 있습니다.\r\r\n\r\r\n다음은 Figma 토큰이 C++ 코드로 어떻게 1:1 매핑되는지를 보여주는 예시입니다.\r\r\n\r\r\n| Figma (NHN Cloud Console 디자인 시스템) | PDF 표기 | C++ 코드 |\r\r\n| --------------------------------- | ------ | ------ |\r\r\n| color.primary.7 | #125DE6 | `primary::_7` |\r\r\n| color.neutral.100 | #222222 | `neutral::_100` |\r\r\n| Accent Button | bg: primary.7 | `ButtonStyles::ApplyAccent()` |\r\r\n| Body SM Medium | 13px, 500 | `typography::BodySmMedium()` |\r\r\n\r\r\n디자이너가 \"primary.7을 사용해 주세요.\"라고 전달하면, 개발자는 코드에서 `primary::_7`을 그대로 사용하면 됩니다. 디자인과 코드가 동일한 체계를 공유하므로 커뮤니케이션 비용이 줄어듭니다.\r\r\n\r\r\n\r\r\n\r\r\n### 시맨틱 토큰(SemanticTokens.h)\r\r\n\r\r\n원시 토큰을 직접 사용하기보다는 용도에 맞는 의미를 부여한 시맨틱 토큰을 사용하도록 구성했습니다. 이렇게 하면 해당 색상이 어디에 사용되는지 코드만으로 파악할 수 있습니다.\r\r\n\r\r\n```cpp\r\r\nnamespace text {\r\r\n    inline constexpr COLORREF primary     = neutral::_100;  // #222222 - Main text\r\r\n    inline constexpr COLORREF secondary   = neutral::_9;    // #777777 - Secondary text\r\r\n    inline constexpr COLORREF link        = primary::_7;    // #125DE6 - Link text\r\r\n    inline constexpr COLORREF error       = negative::_3;   // #DA1E28 - Error text\r\r\n}\r\r\n\r\r\nnamespace button::accent {\r\r\n    inline constexpr COLORREF background      = primary::_7;   // #125DE6\r\r\n    inline constexpr COLORREF hoverBackground = primary::_8;   // #1446C8\r\r\n    inline constexpr COLORREF textColor       = neutral::_0;   // #FFFFFF\r\r\n\r\r\n    // Disabled state (40% opacity - blended with white)\r\r\n    inline constexpr COLORREF disabledBackground =\r\r\n        BlendWithWhite(0x12, 0x5D, 0xE6, 0.4f);\r\r\n}\r\r\n```\r\r\n\r\r\n디자인 가이드에서 비활성(disabled) 버튼은 배경색의 opacity를 40%로 낮추도록 정의되어 있는데, Claude Code가 이를 인식하고 흰색과의 블렌딩 계산 코드까지 자동으로 생성한 점이 주목할 만합니다.\r\r\n\r\r\n\r\r\n\r\r\n### 타이포그래피(Typography.h)\r\r\n\r\r\nPDF Typography 가이드에서 추출한 폰트 크기, Weight, Line Height도 체계적으로 정의되었습니다.\r\r\n\r\r\n```cpp\r\r\nnamespace sizePx {\r\r\n    inline constexpr int heading_lg  = 16;   // Modal title\r\r\n    inline constexpr int body_sm     = 13;   // Button S/M, general text\r\r\n    inline constexpr int caption_md  = 12;   // Footer, Tooltip\r\r\n}\r\r\n\r\r\nnamespace weight {\r\r\n    inline constexpr DWORD regular   = 400;  // FW_NORMAL\r\r\n    inline constexpr DWORD medium    = 500;\r\r\n    inline constexpr DWORD bold      = 700;  // FW_BOLD\r\r\n}\r\r\n\r\r\nstruct TextStyle {\r\r\n    int sizePx;\r\r\n    DWORD weight;\r\r\n    int lineHeightPx;\r\r\n};\r\r\n```\r\r\n\r\r\n\r\r\n\r\r\n## 실제로 얻은 것\r\r\n\r\r\n가장 직접적인 효과는 시간 절약과 정확성이었습니다. PDF 분석부터 코드 생성까지 단시간에 완료되었으며, 사람이 다수의 색상값을 하나씩 옮길 때 발생하기 쉬운 오타나 RGB/BGR 혼동 같은 실수 없이 NHN Cloud Console 디자인 시스템의 네이밍 규칙이 일관되게 유지되었습니다.\r\r\n\r\r\n코드 품질 면에서도 `constexpr` 키워드를 활용한 컴파일 타임 오류 검출, 새로 합류한 개발자에게 \"이 함수만 사용하면 됩니다\"라고 안내할 수 있는 온보딩 편의성 등의 부수적인 이점도 얻을 수 있었습니다. 디자인 시스템이 업데이트될 경우에도 PDF를 다시 export하여 Claude Code에 전달하면 동일한 과정을 반복할 수 있으므로 유지보수 부담도 낮습니다.\r\r\n\r\r\n\r\r\n\r\r\n## 마치며\r\r\n\r\r\n핵심은 단순합니다. Figma API 연동이나 복잡한 파싱 코드 없이, PDF로 export한 디자인 가이드를 Claude Code가 직접 읽고 분석하여 코드로 변환할 수 있다는 것입니다.\r\r\n\r\r\n![CC_designsystem_3_900.png](https://image.toast.com/aaaadh/real/2026/techblog/CCdesignsystem3900.png)\r\r\n\r\r\nClaude Code가 PDF 내 텍스트와 테이블 데이터를 파싱할 수 있다는 점이 이 워크플로우를 가능하게 한 핵심이었습니다. 같은 방식으로 아이콘 가이드 PDF에서 아이콘 상수를 추출하거나, 스페이싱 가이드에서 레이아웃 상수를 생성하거나, 컴포넌트 스펙에서 UI 기본 설정을 만드는 등 다양한 디자인 문서에도 적용할 수 있습니다.\r\r\n\r\r\n기술적으로 복잡하거나 대단한 작업은 아닙니다. PDF를 읽어서 코드로 변환하는, 어찌 보면 단순한 작업입니다. 그러나 \"AI 도구에 PDF를 전달하면 코드를 생성할 수 있지 않을까?\"라는 작은 아이디어 하나가 실무의 생산성을 실질적으로 향상시켰습니다.\r\r\n\r\r\n**AI 코딩 도구의 활용에 반드시 고도화된 기술이 수반되어야 하는 것은 아닙니다. 일상적인 업무에서 반복되는 수작업을 발견하고 이를 자동화하려는 시도만으로도 충분한 가치를 만들어낼 수 있다고 생각합니다.**\r\r\n\r\r\n웹뿐만 아니라 네이티브 환경에서 디자인 시스템을 적용해야 하는 분들, 혹은 반복적인 수작업을 자동화할 방법을 고민하고 계신 분들에게 이 경험이 참고가 되기를 바랍니다.\r\r\n\r\r\n긴 글 읽어주셔서 감사합니다. \r\r\n\r\r\n\r\r\n\r\r\n### 참고 자료\r\r\n* [Windows Template Library](https://wtl.sourceforge.io/)\r\r\n* [NHN Cloud, Cloud Access](https://www.nhncloud.com/kr/service/security/cloud-access)\r\r\n* [Claude API Docs, 모델 기능-PDF 지원](https://platform.claude.com/docs/ko/build-with-claude/pdf-support)\r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_blue_202509.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooterblue202509.png)](https://www.nhncloud.com/kr)",
+    "title": "유니티 중국 법인 분리로 더이상 구매할 수 없는 애셋들 모음",
+    "description": "1UP GIRL 시리즈도 걸려버렸네요\n영상: https://www.youtube.com/watch?time_continue=1&v=iXehNv0-h2Y&embeds_referring_euri=https%3A%2F%2Fassetstore.unity.com%2F&embeds_referring_origin=https%3A%2F%2Fassetstore.unity.com&source_ve_path=MjM4NTE\n\n\n\n \n \n \n유니티 법인이 중국과 분리 되면서\n중국 애셋은 죽국 유니티에서 팔게 될 것입니다.\n(외국인 상대로 장사하지 못하게 하려는 수단일까요?)\n기존 유저들은 내 라이브러리에서 받으시면 되고 \n새로 구매는 막힙니다.\n중국인은 기존 유니티를 사용할 수 없으니 미리 파일을 다운 받아둬야합니다.\n그래서 한번에 모아놓은 사이트가 생겼구요\n영향 받는 모든 리스트: Greater China Unity Asset Archive\n\n \nGreater China Unity Asset Archive\nAll Free Paid Default Order Price (Low to High) Price (High to Low) Name (A-Z)\nvanquish3r.github.io\n\n \n무료인게 있으니 그걸 일부 챙겨봅니다.\n3월말까지이니 빨리 받아둬야겠습니다.\n유료는 굳이 안사도 되고 무료위주로 보겠습니다.\n1up girl 이 사라지다니 아쉽군요\n \nBook - Page Curl  - 무료\n영상: Unity Book Page Curl and Flip Effect - YouTube\n\n\n\n책넘기는 효과 입니다.\n \n \nLow Poly ShotGun Weapon Pack 2 -\n무료\n스토어: Low Poly ShotGun Weapon Pack 2 | 3D Guns | Unity Asset Store\n\n \nLow Poly ShotGun Weapon Pack 2 | 3D 총기 | Unity Asset Store\nElevate your workflow with the Low Poly ShotGun Weapon Pack 2 asset from CASTLE BRAVO. Find this & other 총기 options on the Unity Asset Store.\nassetstore.unity.com\n\n \n하나더: Low Poly AR Weapon Pack 3 | 3D Guns | Unity Asset Store\n\n \nLow Poly AR Weapon Pack 3 | 3D 총기 | Unity Asset Store\nElevate your workflow with the Low Poly AR Weapon Pack 3 asset from CASTLE BRAVO. Find this & other 총기 options on the Unity Asset Store.\nassetstore.unity.com\n\n \n권총 2 있군요: Low Poly Pistol Weapon Pack 2 | 3D Guns | Unity Asset Store\n\n \nLow Poly Pistol Weapon Pack 2 | 3D 총기 | Unity Asset Store\nElevate your workflow with the Low Poly Pistol Weapon Pack 2 asset from CASTLE BRAVO. Find this & other 총기 options on the Unity Asset Store.\nassetstore.unity.com\n\n \n권총 1 : Low Poly Pistol Weapon Pack 1 | 3D Guns | Unity Asset Store\n\n \nLow Poly Pistol Weapon Pack 1 | 3D 총기 | Unity Asset Store\nElevate your workflow with the Low Poly Pistol Weapon Pack 1 asset from CASTLE BRAVO. Find this & other 총기 options on the Unity Asset Store.\nassetstore.unity.com\n\n \n혹시 총 필요하신가요?\n \n \nBedrooms & Bathroom / Interior - Low Poly assets - 무료\n트소어: Bedrooms & Bathroom / Interior - Low Poly assets | 3D Interior | Unity Asset Store\n\n \nBedrooms & Bathroom / Interior - Low Poly assets | 3D 인테리어 | Unity Asset Store\nElevate your workflow with the Bedrooms & Bathroom / Interior - Low Poly assets asset from Fries and Seagull. Find this & other 인테리어 options on the Unity Asset Store.\nassetstore.unity.com\n\n큐브형태인거 같은데\n잡다하게 쓸 수 있을것 같습니다.\n3D Low poly Room Furniture Beds 01 - 무료\n스토어: 3D Low poly Room Furniture Beds 01 | 3D Environments | Unity Asset Store\n\n \n3D Low poly Room Furniture Beds 01 | 3D 주변환경 | Unity Asset Store\nElevate your workflow with the 3D Low poly Room Furniture Beds 01 asset from Jane Art Studios. Find this & other 주변환경 options on the Unity Asset Store.\nassetstore.unity.com\n\n방꾸미기용 가구 애셋이군요\n저는 필요합니다.\n \n \n \n \n \nBottle Fill Shader Graph - 무료\n영싱: Bottle Fill Shader Graph - Unity Free Asset - YouTube\n\n\n\n병에 물채우는 효과인데\n이거는 직점 만들어도 될꺼 같군요\n있으니까 기록은 남겨둡니다.\n \n \nBam-Bam Hammer - 무료\n스토어: Bam-Bam Hammer | 3D Characters | Unity Asset Store\n\n \nBam-Bam Hammer | 3D 캐릭터 | Unity Asset Store\nElevate your workflow with the Bam-Bam Hammer asset from Tom_Wood. Find this & other 캐릭터 options on the Unity Asset Store.\nassetstore.unity.com\n\n망치인데 멋지네요 받아둡니다.\n \n제가 받은건 이정도군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://meetup.nhncloud.com/posts/410",
-    "pubDate": "Mon, 16 Mar 2026 00:45:59 GMT",
-    "creator": "Unknown",
+    "link": "https://serverdown.tistory.com/1595",
+    "pubDate": "Fri, 13 Mar 2026 15:55:16 +0900",
+    "creator": "SIDNFT",
     "categories": []
   }
 ]
