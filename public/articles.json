@@ -2,92 +2,72 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "CLion 2026.1 Is Here",
-    "description": "GitHub Copilot, Cursor, and Other Agents in the AI Chat, Support for Custom Project Formats, DAP Debugging via TCP, and More CLion 2026.1 focuses on stability and improving the existing functionality, but that didn’t stop us from shipping some exciting new features. Most notably, you can now use more agents directly in the AI chat, […]",
+    "title": "What COVID did to our forecasting models (and what we built to handle the next shock)",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2026/03/2026-1-release/",
-    "pubDate": "Thu, 26 Mar 2026 12:04:40 +0000",
-    "creator": "Oleg Zinovyev",
+    "link": "https://medium.com/airbnb-engineering/what-covid-did-to-our-forecasting-models-and-what-we-built-to-handle-the-next-shock-ccbf0e1f7fa9?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 24 Mar 2026 17:01:01 GMT",
+    "creator": "Harrison Katz",
     "categories": [
-      "news",
-      "releases",
-      "acp",
-      "bazel",
-      "cmake",
-      "dap",
-      "git",
-      "unit-testing"
+      "technology",
+      "forecasting",
+      "data-modeling",
+      "machine-learning",
+      "data-science"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Expanding Our Core Web Development Support in PyCharm 2026.1",
-    "description": "With PyCharm 2026.1, our core IDE experience continues to evolve as we’re bringing a broader set of professional-grade web tools to all users for free. Everyone, from beginners to backend-first developers, is getting access to a substantial set of JavaScript, TypeScript, and CSS features that were previously only available with a Pro subscription. React, JavaScript, […]",
+    "title": "SRE 팀의 반복 작업을 10분의 1로 줄인 SRE 봇 개발기",
+    "description": "들어가며: 늘어나는 서비스, 새로운 인프라, 끝없는 문의여러분의 팀은 하루에 몇 번이나 같은 질문에 답하고, 같은 작업을 반복하고 계신가요?LINE Home DevOps 팀은 최근...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/03/expanding-our-core-web-development-support-in-pycharm-2026-1/",
-    "pubDate": "Wed, 25 Mar 2026 15:01:54 +0000",
-    "creator": "Ilia Afanasiev",
-    "categories": [
-      "web-development"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "코딩 에이전트를 활용한 취약점 수집·생성 자동화로 가드레일 모델 고도화",
-    "description": "LLM 시대의 보호 장치, 가드레일LLM 기반 서비스가 빠르게 확산되면서 LLM 모델의 응답을 공격자가 의도대로 ‘조종’하려는 시도도 함께 늘고 있습니다. 특히 다음과 같은 공격 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/advancing-guardrail-models-with-coding-agents",
-    "pubDate": "Wed, 25 Mar 2026 02:00:00 GMT",
+    "link": "https://techblog.lycorp.co.jp/ko/reduce-repetitive-tasks-with-sre-bot",
+    "pubDate": "Tue, 24 Mar 2026 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 4,
+    "id": 3,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2026.1 Is Out!",
-    "description": "IntelliJ IDEA 2026.1 is here, and it comes packed with an array of new features and enhancements to elevate your coding experience!  You can download this latest release from our website or update to it directly from inside the IDE, via the free Toolbox App, or using snap packages for Ubuntu. As always, all new features are brought […]",
+    "title": "Comparative Analysis of Development Cycle Speed in Java and Kotlin Based on IDE Telemetry Data",
+    "description": "Introduction Does the choice of programming language affect how fast developers deliver code? This question matters for engineering teams evaluating technology stacks, yet it is notoriously hard to answer. Self-reported surveys suffer from recall bias, lines-of-code comparisons conflate conciseness with productivity, and controlled experiments rarely scale beyond a handful of participants. In 2024, Meta introduced […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/03/intellij-idea-2026-1/",
-    "pubDate": "Wed, 25 Mar 2026 14:28:29 +0000",
-    "creator": "Maria Kosukhina",
+    "link": "https://blog.jetbrains.com/research/2026/03/comparative-analysis-of-development-cycle-speed-in-java-and-kotlin/",
+    "pubDate": "Thu, 26 Mar 2026 14:32:01 +0000",
+    "creator": "Anton Yalyshev",
     "categories": [
-      "releases"
+      "java",
+      "kotlin",
+      "languages",
+      "research",
+      "comparison",
+      "news"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "내가 안 하는 것들",
+    "description": "얼마 전에 끝난 밀라노 동계올림픽에서 한국은 10위 안에는 못 들었지만, 총 10개의 메달을 따면서 나름 선방했다. 으레 그렇듯이, 선수들이 귀국한 후에 메달리스트들은 여러 프로그램에 출연해서 결승전 때 어떤 생각을 했는지, 운동은 하루에 몇 시간씩 하는지 등과 같은 다양한 이야기하는 걸 몇 번 봤다. 내가 모든 프로그램과 인터뷰를 본 건 아니지만, 메달리스트들에게 물어보는 공통된 질문들이 대부분(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/03/what-you-dont-do-is-more-important-than-what-you-do.html",
+    "pubDate": "Sun, 29 Mar 2026 21:25:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "discipline",
+      "general",
+      "habit",
+      "sports"
     ]
   },
   {
     "id": 5,
-    "imageUrl": "",
-    "title": "eBay Partners with Meta for New Affiliate Program, Boosting Social Commerce for Sellers and Creators",
-    "description": "Facebook affiliate partnerships empowers creators to access and embed eBay listings directly within their content.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://innovation.ebayinc.com/stories/ebay-partners-with-meta-for-new-affiliate-program-boosting-social-commerce-for-sellers-and-creators/",
-    "pubDate": "Tue, 24 Mar 2026 00:00:00 -0700",
-    "creator": "Adrian Fung, Global Chief Marketing Officer, eBay",
-    "categories": [
-      "article"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "DataGrip 2026.1: AI Agents in the AI Chat, Redesigned Query Files, Data Source Templates in Your JetBrains Account, Explain Plan Flow Enhancements, and More!",
-    "description": "DataGrip 2026.1, the first major update of the year, is here! Let’s take a look at what’s inside. Download DataGrip 2026.1 Query files and consoles In this release, we are redesigning the flow for working with query files side by side with query consoles. This way, you can use either or both of them, depending […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/datagrip/2026/03/26/datagrip-2026-1-redesigned-query-files-data-source-templates-in-your-jetbrains-account-ai-agents-in-the-ai-chat-explain-plan-flow-enhancements-and-more/",
-    "pubDate": "Thu, 26 Mar 2026 17:38:16 +0000",
-    "creator": "Stanislav Garkusha",
-    "categories": []
-  },
-  {
-    "id": 7,
     "imageUrl": "",
     "title": "AI-Assisted Java Application Development with Agent Skills",
     "description": "Agent-assisted development is quickly becoming a common mode of software development. New techniques are emerging to help LLMs generate code that matches your preferences and standards. One common approach is to create an AGENTS.md, CLAUDE.md, or GEMINI.md file with project details, build instructions, and coding guidelines. The AI agent loads this file into context on […]",
@@ -108,90 +88,21 @@
     ]
   },
   {
-    "id": 8,
+    "id": 6,
     "imageUrl": "",
-    "title": "What COVID did to our forecasting models (and what we built to handle the next shock)",
-    "description": "No description available",
+    "title": "IntelliJ IDEA 2026.1 Is Out!",
+    "description": "IntelliJ IDEA 2026.1 is here, and it comes packed with an array of new features and enhancements to elevate your coding experience!  You can download this latest release from our website or update to it directly from inside the IDE, via the free Toolbox App, or using snap packages for Ubuntu. As always, all new features are brought […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/what-covid-did-to-our-forecasting-models-and-what-we-built-to-handle-the-next-shock-ccbf0e1f7fa9?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 24 Mar 2026 17:01:01 GMT",
-    "creator": "Harrison Katz",
+    "link": "https://blog.jetbrains.com/idea/2026/03/intellij-idea-2026-1/",
+    "pubDate": "Wed, 25 Mar 2026 14:28:29 +0000",
+    "creator": "Maria Kosukhina",
     "categories": [
-      "technology",
-      "forecasting",
-      "data-modeling",
-      "machine-learning",
-      "data-science"
+      "releases"
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "PhpStorm 2026.1 is Now Out",
-    "description": "Welcome to PhpStorm 2026.1! This release brings new PhpStorm MCP tools, new third-party agents inside your IDE, support for Git worktrees, and lots of other productivity-enhancing features for PHP and Laravel developers. Download PhpStorm 2026.1 PhpStorm MCP tools In PhpStorm 2025.2, we added an integrated MCP server for third-party coding agents like Claude Code, Windsurf, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2026/03/phpstorm-2026-1-is-now-out/",
-    "pubDate": "Thu, 26 Mar 2026 13:58:03 +0000",
-    "creator": "Hanna Yakush",
-    "categories": [
-      "releases",
-      "2026-1",
-      "release"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "트라이랭글 스트레티지  게임 구입기 / 스팀 / 27,900",
-    "description": "트레일러: https://www.youtube.com/watch?v=7nhTJ-Evv_U\n\n\n\n \n예전부터 해보고 싶었는데 PC 버전이 있었군요\n스팀에서 60% 할인 받아서 구입했습니다.\n \n택틱스오우거도 덜했는데\n이것도 사버렸네요\n \n제가 만드는 게임도 이런형식의 그래픽을 추구하기 때문에 도움이 될 것 같습니다.\n가보자~",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1604",
-    "pubDate": "Wed, 25 Mar 2026 22:10:35 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "게임",
-      "게임",
-      "구입기"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "460일차 - 붉은 사막 AI 고지 위반 환불 사태",
-    "description": "이거는 제 게임인데 BGM 조정에 물리 효과를 넣었습니다.\n밀거나 때리면 볼륨이 조절됩니다.\n \n \n영상 : https://www.youtube.com/watch?v=ZZP-D3CsfIk\n\n\n\n \n일단 이 뉴스로 좋아하고 있었는데\n\n\n \n \n아 좋았는데 ...\n \n \n\n\nAI 사용 고지 위반으로 환불이 가능해졌습니다.\n조작이나 스토리가 마음에 안드는 유저들은 이기능을 이용해 환불이 가능했다는군요\n \n이 일은 계기로 더 엄청난 패치를 해줬으면 좋겠습니다.\n조작법 정도 고쳐지면 좋겠다고 생각했는데\n이정도면 스토리 랑 퀘스트 진행이 엉성한것도 고쳐줘야 할꺼 같습니다.\n \n \n저는 현재 400주에 -25% 정도 손실 중입니다.\n영상에서는 손절 이야기도 했는데\n손절해야할지 더사야할지 잘모르겠습니다.\n \n \n\n\n스팀 리뷰인데요 2,300 명까지는 대체로 부정적 이였는데\n시간이 지나서 복합적으로 올라갔습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1601",
-    "pubDate": "Sun, 22 Mar 2026 15:51:06 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "투자",
-      "1인개발",
-      "crpg",
-      "붉은사막",
-      "유니티",
-      "펄어비스"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "파이어 엠블렘의 슬픈 개발자 이야기 - 티어 링 사가 / Tear Ring Saga",
-    "description": "닌텐도64 에 파이어 엠블렘이 없는게 이상하다고 생각했는데\n이유가 있었군요\n \n영상: https://www.youtube.com/watch?v=y5FgkNwEhUc\n\n\n\n \n1997년 7월 - 닌텐도는 닌텐도64 용 파이어 엠블렘을 개발한다고 발표 했으나 나중에 취소 됩니다.\n \n1999년 7월 - 1년뒤 파이어 엠블렘의 디렉터 카가 쇼조 가 인텔리전트 시스템즈를 퇴사하고 게임회사를 차리게 됩니다.\n인텔리전트 시스템즈는 지금까지고 계속 파이어 엠블렘을 만들고 있는 회사이고\n닌텐도 게임만 제작합니다.\n닌텐도 64 기기 발매 당시 이 기기는 2D 기능이 부실해 파이어 엠블렘을 만들기 힘들었다고 합니다.\n이때 디렉터는 안되겠다고 생각한건지 독립을 경정하고 \n파엠 비슷한 게임을 플레이 스테이션으로 발매하는데\n최종 이름은 티어 링 사가 고 그전이름은 엠블렘 사가 였습니다.\n \n닌텐도는 자신들의 IP 보호를 위해 여러가지 이유로 이 게임을 방해하는데 \n결국 게임 디자인 이런거에 걸리는게 아니고\n홍보 할 때 파이어 엠블렘에 묻어가려던 발언들이 문제가 되어 법정 싸움은 지게 됩니다.\n요즘 저도 게임 홍보가 힘들다는건 느끼고 있는데요 물건 잘 팔려먼 더 유명한거에 묻어가는 방법을 쓸 수 밖에 없나봅니다.\n지금봐선 굳이 그렇게 홍보하지 않아도 충분히 성공할 수 있었지만 당시엔 상공하고 싶어서 썩은 동아줄이라도 잡고 싶었나봅니다.\n법정 싸움 패배로 위약금을 물어내게되어 회사는 문을 닫습니다.\n매출의 3% 내는거 보다 소송비용이 문제가 된거 같습니다.\n \n옮겨탔으면 한길 꾸준히 파던지 그뒤론 점적하게 되고 더 이상 게임계에 이름이 나오지 않게 됩니다.\n또한 이런 이유로 파이어 엠블렘 승승장구 하고 아직도 시리즈가 잘팔립니다.\n \n닌64 로는 안나왔지만 게임큐브로 파엠이 나와버려렸고\n풀 3D 로 나왔습니다.\n \n어쩌면 2D 기술로 가려던 개발자들은 정리되고 \n3D 개발자들이 살아남는 상징적인 사건일 수도 있겠군요\n \n \n티어 링 사가\n플레이 영상: https://www.youtube.com/watch?v=hFaQp_pL7kU\n\n\n\n잠깐 봤는데 파엠과 시스템 UI 는 거의 비슷합니다.\nBGM 칭찬도 있고 제 마음에 드는 군요\n \n \n파이어 엠블렘: 창염의 궤적 (Fire Emblem: Path of Radiance) / 게임 큐브\n영상: https://www.youtube.com/watch?v=1B95v-cnXVo\n\n\n\n3D 에 음성 풀더빙이 있어서 좋았던 걸로 기억합니다.\n \n베르위크 사가\n카가 쇼조의 게임이 하나 더 있었습니다.\n영상: https://www.youtube.com/watch?v=b0zxYpa07tw\n\n\n\n조금 더 발전된 형태로 나옸으나 ...\n운명을 바꿀 정도는 아니였나봅니다.\n그뒤로 사라졌군요\n역시나 파엠은 닌64 이후로도 계속 승승장구\n \n판매량 \n티어링 사가 - 65만장\n베르위크 사가 - 17만장 (심하게 안팔렸군요)\n \n \n종합\n닌텐도 64  이후론 별다른 위기도 격지 않고 25년을 추가로 달리는 장수 프로젝트를 걷어차고\n나와서 명망해버린 개발자 스토리 였습니다.\n \n인생 위기 한번 혼다고 그걸 피하려다 이 꼴이 난거 같은데\n \n거장이 되려면 외부 환경 변화를 무시하면서라도 꿋꿋히 버텨야 한다는 것을 오늘도 배워갑니다.\n \n스티브 잡스의  스테이 풀리쉬 스테이 헝그리 라는 말이 다시 한번 생각나는군요\n\n\n레전드 디렉터가 될뻔했다 사라져 버린 스토리 였습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1603",
-    "pubDate": "Wed, 25 Mar 2026 15:20:27 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "게임"
-    ]
-  },
-  {
-    "id": 13,
+    "id": 7,
     "imageUrl": "",
     "title": "리멤버 iOS의 SwiftUI 도입기 — 허들을 하나씩 넘기며",
     "description": "No description available",
@@ -207,21 +118,77 @@
     ]
   },
   {
-    "id": 14,
+    "id": 8,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 44화, 후회인데스와 ②",
-    "description": "No description available",
+    "title": "DataGrip 2026.1: AI Agents in the AI Chat, Redesigned Query Files, Data Source Templates in Your JetBrains Account, Explain Plan Flow Enhancements, and More!",
+    "description": "DataGrip 2026.1, the first major update of the year, is here! Let’s take a look at what’s inside. Download DataGrip 2026.1 Query files and consoles In this release, we are redesigning the flow for working with query files side by side with query consoles. This way, you can use either or both of them, depending […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2436",
-    "pubDate": "Wed, 25 Mar 2026 22:51:18 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/datagrip/2026/03/26/datagrip-2026-1-redesigned-query-files-data-source-templates-in-your-jetbrains-account-ai-agents-in-the-ai-chat-explain-plan-flow-enhancements-and-more/",
+    "pubDate": "Thu, 26 Mar 2026 17:38:16 +0000",
+    "creator": "Stanislav Garkusha",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "WebStorm 2026.1: Service-powered TypeScript Engine, Junie, Claude Agent, and Codex in the AI chat, Framework Updates, and More",
+    "description": "WebStorm 2026.1 is now available! This release focuses on the everyday web development workflows where IDE support matters most, helping you stay productive in large TypeScript projects, making it easy to keep up with frameworks that evolve quickly, and bringing AI tools into the IDE so you don’t have to switch contexts. The highlights of […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/webstorm/2026/03/webstorm-2026-1/",
+    "pubDate": "Wed, 25 Mar 2026 14:59:50 +0000",
+    "creator": "Vladislav Minaev",
     "categories": [
-      "웹툰"
+      "news",
+      "releases",
+      "webstorm-2026-1"
     ]
   },
   {
-    "id": 15,
+    "id": 10,
+    "imageUrl": "",
+    "title": "A Practical Guide to Filing Taxes in Korea",
+    "description": "A guide to comprehensive income tax filing for international residents in Korea",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/korealifehacks-6-en",
+    "pubDate": "Fri, 27 Mar 2026 02:44:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "파이어 엠블렘의 슬픈 개발자 이야기 - 티어 링 사가 / Tear Ring Saga",
+    "description": "닌텐도64 에 파이어 엠블렘이 없는게 이상하다고 생각했는데\n이유가 있었군요\n \n영상: https://www.youtube.com/watch?v=y5FgkNwEhUc\n\n\n\n \n1997년 7월 - 닌텐도는 닌텐도64 용 파이어 엠블렘을 개발한다고 발표 했으나 나중에 취소 됩니다.\n \n1999년 7월 - 1년뒤 파이어 엠블렘의 디렉터 카가 쇼조 가 인텔리전트 시스템즈를 퇴사하고 게임회사를 차리게 됩니다.\n인텔리전트 시스템즈는 지금까지고 계속 파이어 엠블렘을 만들고 있는 회사이고\n닌텐도 게임만 제작합니다.\n닌텐도 64 기기 발매 당시 이 기기는 2D 기능이 부실해 파이어 엠블렘을 만들기 힘들었다고 합니다.\n이때 디렉터는 안되겠다고 생각한건지 독립을 경정하고 \n파엠 비슷한 게임을 플레이 스테이션으로 발매하는데\n최종 이름은 티어 링 사가 고 그전이름은 엠블렘 사가 였습니다.\n \n닌텐도는 자신들의 IP 보호를 위해 여러가지 이유로 이 게임을 방해하는데 \n결국 게임 디자인 이런거에 걸리는게 아니고\n홍보 할 때 파이어 엠블렘에 묻어가려던 발언들이 문제가 되어 법정 싸움은 지게 됩니다.\n요즘 저도 게임 홍보가 힘들다는건 느끼고 있는데요 물건 잘 팔려먼 더 유명한거에 묻어가는 방법을 쓸 수 밖에 없나봅니다.\n지금봐선 굳이 그렇게 홍보하지 않아도 충분히 성공할 수 있었지만 당시엔 상공하고 싶어서 썩은 동아줄이라도 잡고 싶었나봅니다.\n법정 싸움 패배로 위약금을 물어내게되어 회사는 문을 닫습니다.\n매출의 3% 내는거 보다 소송비용이 문제가 된거 같습니다.\n \n옮겨탔으면 한길 꾸준히 파던지 그뒤론 점적하게 되고 더 이상 게임계에 이름이 나오지 않게 됩니다.\n또한 이런 이유로 파이어 엠블렘 승승장구 하고 아직도 시리즈가 잘팔립니다.\n \n닌64 로는 안나왔지만 게임큐브로 파엠이 나와버려렸고\n풀 3D 로 나왔습니다.\n \n어쩌면 2D 기술로 가려던 개발자들은 정리되고 \n3D 개발자들이 살아남는 상징적인 사건일 수도 있겠군요\n \n \n티어 링 사가\n플레이 영상: https://www.youtube.com/watch?v=hFaQp_pL7kU\n\n\n\n잠깐 봤는데 파엠과 시스템 UI 는 거의 비슷합니다.\nBGM 칭찬도 있고 제 마음에 드는 군요\n \n \n파이어 엠블렘: 창염의 궤적 (Fire Emblem: Path of Radiance) / 게임 큐브\n영상: https://www.youtube.com/watch?v=1B95v-cnXVo\n\n\n\n3D 에 음성 풀더빙이 있어서 좋았던 걸로 기억합니다.\n \n베르위크 사가\n카가 쇼조의 게임이 하나 더 있었습니다.\n영상: https://www.youtube.com/watch?v=b0zxYpa07tw\n\n\n\n조금 더 발전된 형태로 나옸으나 ...\n운명을 바꿀 정도는 아니였나봅니다.\n그뒤로 사라졌군요\n역시나 파엠은 닌64 이후로도 계속 승승장구\n \n판매량 \n티어링 사가 - 65만장\n베르위크 사가 - 17만장 (심하게 안팔렸군요)\n \n \n종합\n닌텐도 64  이후론 별다른 위기도 격지 않고 25년을 추가로 달리는 장수 프로젝트를 걷어차고\n나와서 명망해버린 개발자 스토리 였습니다.\n \n인생 위기 한번 혼다고 그걸 피하려다 이 꼴이 난거 같은데\n \n거장이 되려면 외부 환경 변화를 무시하면서라도 꿋꿋히 버텨야 한다는 것을 오늘도 배워갑니다.\n \n스티브 잡스의  스테이 풀리쉬 스테이 헝그리 라는 말이 다시 한번 생각나는군요\n\n\n레전드 디렉터가 될뻔했다 사라져 버린 스토리 였습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1603",
+    "pubDate": "Wed, 25 Mar 2026 15:20:27 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "게임"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "PhpStorm 2026.1 is Now Out",
+    "description": "Welcome to PhpStorm 2026.1! This release brings new PhpStorm MCP tools, new third-party agents inside your IDE, support for Git worktrees, and lots of other productivity-enhancing features for PHP and Laravel developers. Download PhpStorm 2026.1 PhpStorm MCP tools In PhpStorm 2025.2, we added an integrated MCP server for third-party coding agents like Claude Code, Windsurf, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/phpstorm/2026/03/phpstorm-2026-1-is-now-out/",
+    "pubDate": "Thu, 26 Mar 2026 13:58:03 +0000",
+    "creator": "Hanna Yakush",
+    "categories": [
+      "releases",
+      "2026-1",
+      "release"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "뉴욕 퀀트 출신이 알려주는 솔로지옥5 이성훈 연봉",
     "description": "오랜만에 도파민 터지는 주제가 나왔다.   솔로지옥5가 종영하면서 출연자들의 직업이 화제다. 그중에서도 단연 이성훈(Samuel Lee). 인터넷에 연봉이 10억이니 1조니 이런 글들이 넘쳐나는데, 시중에 떠도는 정보들이 워낙 카더라가 많아서 같은 업계 출신으로서 한번 제대로 정리해보려고 한다.   참고로 나는 카네기멜론 컴퓨터과학 전공이고, 뉴욕 메릴린치",
@@ -231,5 +198,38 @@
     "pubDate": "Fri, 27 Mar 2026 02:49:34 GMT",
     "creator": "권용진",
     "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "코딩 에이전트를 활용한 취약점 수집·생성 자동화로 가드레일 모델 고도화",
+    "description": "LLM 시대의 보호 장치, 가드레일LLM 기반 서비스가 빠르게 확산되면서 LLM 모델의 응답을 공격자가 의도대로 ‘조종’하려는 시도도 함께 늘고 있습니다. 특히 다음과 같은 공격 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/advancing-guardrail-models-with-coding-agents",
+    "pubDate": "Wed, 25 Mar 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "2004년에 작성했던 SS3D엔진 개발 보고서",
+    "description": "코룸온라인, 묵향온라인, 루나온라인에 쓰였던 SS3D엔진의 개발 당시 보고서입니다. 당시 MS WORD로 작성했고 문서최종수정 날짜는 2004년 3월 18일로 되어있네요. 아마 2004년이 맞을겁니다. 팔콤의 YS온라인 개발건으로 출장갈 때 즈음이었던것 같아요. 빌어먹을 CHATGPT가 제가 코룸온라인 엔진 만들었다는 근거는 없다고 씨부려서 이렇게 정리해둡니다. 잊혀진 구닥다리 제품이라 해도 과거를 부정당하는건 싫으니까요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://megayuchi.com/2026/03/27/2004%eb%85%84%ec%97%90-%ec%9e%91%ec%84%b1%ed%96%88%eb%8d%98-ss3d%ec%97%94%ec%a7%84-%ea%b0%9c%eb%b0%9c-%eb%b3%b4%ea%b3%a0%ec%84%9c/",
+    "pubDate": "Thu, 26 Mar 2026 18:10:45 +0000",
+    "creator": "megayuchi",
+    "categories": [
+      "Development",
+      "IT",
+      "Pub",
+      "Corum",
+      "Corum Online",
+      "esofnet",
+      "Game Development",
+      "Game Engine Development"
+    ]
   }
 ]
