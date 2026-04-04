@@ -2,58 +2,63 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Visual Studio March Update – Build Your Own Custom Agents",
-    "description": "This month’s Visual Studio update gives you new ways to customize GitHub Copilot. Custom agents allow you to build specialized Copilot agents tailored to your team’s workflow, backed by the tools and knowledge sources that matter to your project. Alongside that, agent skills bring reusable instruction sets, and a new find_symbol tool gives agents language-aware […]\nThe post Visual Studio March Update – Build Your Own Custom Agents appeared first on Visual Studio Blog.",
+    "title": "우리 함께 만드는 포켓몬 세상, Pokémon Pokopia",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents/",
-    "pubDate": "Tue, 31 Mar 2026 16:00:18 +0000",
-    "creator": "Mark Downie",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2437",
+    "pubDate": "Tue, 31 Mar 2026 17:20:45 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "Visual Studio",
-      "Debugging and Diagnostics",
-      "GitHub Copilot"
+      "게임툰"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "A Practical Guide to Filing Taxes in Korea",
-    "description": "A guide to comprehensive income tax filing for international residents in Korea",
+    "title": "RustRover 2026.1: Professional Testing With Native cargo-nextest Integration",
+    "description": "In this release, we are focusing even more on improving the everyday developer experience by refining the core workflows and adding native cargo-nextest support directly in the IDE. Running tests in large Rust workspaces can be slow with the default test runner. Many teams rely on Nextest for faster, more scalable execution, but until now, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-6-en",
-    "pubDate": "Fri, 27 Mar 2026 02:44:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/rust/2026/04/03/rustrover-2026-1-professional-testing-with-native-cargo-nextest-integration/",
+    "pubDate": "Fri, 03 Apr 2026 14:51:59 +0000",
+    "creator": "Tatiana Parshutkina",
+    "categories": [
+      "release",
+      "rust",
+      "rustrover",
+      "testing"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "도메인에 의존하지 않는 채팅 플랫폼은 어떻게 만들었을까?",
-    "description": "들어가며안녕하세요. ABC Platform 팀에서 메시징 플랫폼(이하 MessagingHub)을 만들고 있는 송재욱입니다. 메시징은 이제 거의 모든 서비스에서 요구되는 기본 스펙인...",
+    "title": "Code like a PIRATE with Junie and GoLand",
+    "description": "This is a guest post from John Arundel, a Go writer and teacher who runs a free email course for Go learners. His most recent book is The Deeper Love of Go. Ahoy, maties! Cap’n Long John Arundel here with more tips on sailing the good ship GoLand. This time, we’ll lay aloft to the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/how-we-built-a-domain-agnostic-chat-platform",
-    "pubDate": "Wed, 01 Apr 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/go/2026/04/02/code-like-a-pirate-with-junie-and-goland/",
+    "pubDate": "Thu, 02 Apr 2026 13:34:24 +0000",
+    "creator": "Anna Protsenko",
+    "categories": [
+      "ai",
+      "goland",
+      "ai-agents",
+      "junie",
+      "tutorials"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "AI for American-Produced Cement and Concrete",
-    "description": "Meta is continuing its long-term roadmap to help the construction industry leverage AI to produce high-quality and more sustainable concrete mixes, as well as those exclusively produced in the United States.  Concurrent with the 2026 American Concrete Institute (ACI) Spring Convention, Meta is releasing a new AI model for designing concrete mixes – Bayesian Optimization [...]\nRead More...\nThe post AI for American-Produced Cement and Concrete appeared first on Engineering at Meta.",
+    "title": "대규모 서비스 환경에서의 이미지 콘텐츠 모더레이션(feat. 멀티모달 LLM)",
+    "description": "들어가며콘텐츠 모더레이션은 사용자가 생성하거나 업로드하는 텍스트, 이미지, 영상, 음성 등의 콘텐츠 중 서비스 정책 및 법적 기준에 위배되는 내용을 탐지해 적절한 조치를 수행하기 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
-    "pubDate": "Mon, 30 Mar 2026 16:00:34 +0000",
+    "link": "https://techblog.lycorp.co.jp/ko/image-content-moderation-at-scale-with-multimodal-llm",
+    "pubDate": "Mon, 30 Mar 2026 06:30:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "Data Center Engineering",
-      "ML Applications",
-      "Open Source"
-    ]
+    "categories": []
   },
   {
     "id": 5,
@@ -76,18 +81,6 @@
   {
     "id": 6,
     "imageUrl": "",
-    "title": "비자 연장 서류, 은행 없이 앱 하나로 발급받는 법 총정리",
-    "description": "잔액증명서부터 건강보험·납세증명서까지, 비자 연장 필수 서류 5가지를 수수료 없이 빠르게 받는 법 알려드려요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-4",
-    "pubDate": "Fri, 27 Mar 2026 02:39:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
     "title": "Which AI Coding Tools Do Developers Actually Use at Work?",
     "description": "The reality beyond the hype, featuring evidence from large-scale, globally representative developer surveys. If you’re like us, you can’t open your LinkedIn or X feed without there being some mention of an AI coding agent (Claude Code, Codex, Gemini CLI, Junie, and others). But which of these AI tools are actually used for development at […]",
     "reviews": [],
@@ -101,110 +94,156 @@
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "imageUrl": "",
-    "title": "Amper 0.10 – JDK Provisioning, a Maven Converter, Custom Compiler Plugins, and More",
-    "description": "Amper 0.10.0 is out, and it brings a variety of new features, such as JDK provisioning, custom Kotlin compiler plugins, a Maven-to-Amper converter, and numerous IDE improvements! Read on for all of the details, and see the release notes for the full list of changes and bug fixes. To get support for Amper’s latest features, […]",
+    "title": "Profile .NET Apps Without Restarting: Monitoring Comes to ReSharper",
+    "description": "Tracking down performance bottlenecks in Visual Studio often means interrupting your workflow, restarting your application in profiling mode, and hoping you can reliably reproduce the exact issue. We think there’s a better way. If you have already used Monitoring in Rider, this experience will feel familiar. Now, the same Monitoring experience is available in ReSharper, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/amper/2026/03/amper-0-10/",
-    "pubDate": "Tue, 31 Mar 2026 08:20:01 +0000",
-    "creator": "Kirill Likhodedov",
-    "categories": []
+    "link": "https://blog.jetbrains.com/dotnet/2026/03/31/profile-dotnet-apps-without-restarting-monitoring-comes-to-resharper/",
+    "pubDate": "Tue, 31 Mar 2026 09:16:05 +0000",
+    "creator": "Alexey Totin",
+    "categories": [
+      "net-tools",
+      "resharper",
+      "dotmemory",
+      "dottrace",
+      "dpa",
+      "monitoring",
+      "performance-monitoring",
+      "profiling"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Powering Multimodal Intelligence for Video Search",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/powering-multimodal-intelligence-for-video-search-3e0020cf1202?source=rss----2615bd06b42e---4",
+    "pubDate": "Sat, 04 Apr 2026 00:44:32 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "distributed-systems",
+      "semantic-search",
+      "machine-learning",
+      "annotations",
+      "asset-management-software"
+    ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "KotlinConf’26 Speakers: In Conversation With Lena Reinhard",
-    "description": "“Over the last three to five years, many of the promises that drew people to tech have been called into question.” The tech industry has long promised opportunity, growth, and the chance to build things that reach millions of people. Today, many of those assumptions are being questioned. At KotlinConf’26, Lena Reinhard, leadership coach, former […]",
+    "title": "내가 안 하는 것들",
+    "description": "얼마 전에 끝난 밀라노 동계올림픽에서 한국은 10위 안에는 못 들었지만, 총 10개의 메달을 따면서 나름 선방했다. 으레 그렇듯이, 선수들이 귀국한 후에 메달리스트들은 여러 프로그램에 출연해서 결승전 때 어떤 생각을 했는지, 운동은 하루에 몇 시간씩 하는지 등과 같은 다양한 이야기하는 걸 몇 번 봤다. 내가 모든 프로그램과 인터뷰를 본 건 아니지만, 메달리스트들에게 물어보는 공통된 질문들이 대부분(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/04/kotlinconf-26-speakers-in-conversation-with-lena-reinhard/",
-    "pubDate": "Thu, 02 Apr 2026 06:34:59 +0000",
-    "creator": "Daria Voronina",
+    "link": "https://www.thestartupbible.com/2026/03/what-you-dont-do-is-more-important-than-what-you-do.html",
+    "pubDate": "Sun, 29 Mar 2026 21:25:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "news",
-      "interview",
-      "kotlinconf",
-      "lena-reinhard"
+      "Uncategorized",
+      "discipline",
+      "general",
+      "habit",
+      "sports"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "Using Spring Data JPA with Kotlin",
-    "description": "This post was written together with Thorben Janssen, who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hibernate Problems” and the JPA newsletter. Spring Data JPA is based on the Jakarta Persistence specification and was originally designed for Java. That […]",
+    "title": "JetBrains Blog RSS Support Is Now Generally Available",
+    "description": "We’re excited to announce that RSS feed support for blog.jetbrains.com and all JetBrains product blogs is now generally available. After months of development and rigorous testing across 47 RSS readers on 6 platforms, we’re proud to deliver a reliable, standards-compliant way for you to read JetBrains content in the environment of your choice. What You […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/03/using-spring-data-jpa-with-kotlin/",
-    "pubDate": "Mon, 30 Mar 2026 11:30:47 +0000",
-    "creator": "Teodor Irkhin",
+    "link": "https://blog.jetbrains.com/blog/2026/04/01/rss-support/",
+    "pubDate": "Wed, 01 Apr 2026 07:11:39 +0000",
+    "creator": "Anastasiia Korzhova",
     "categories": [
-      "kotlin",
-      "jpa",
-      "tutorial"
+      "news",
+      "rss-feed"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "Health Insurance in Korea: Enrollment, Premiums and Hospital Refunds",
-    "description": "Pay your health insurance and get reimbursed for medical bills — everything you need to know.",
+    "title": "DataSpell 2026.1: AI Agents Ecosystem, Export Notebooks to PDF, Editor Improvements",
+    "description": "With the 2026.1 release, DataSpell continues to improve the way you explore data, work with notebooks, and integrate AI into your workflows. This update expands the AI ecosystem with new agents support and brings several productivity improvements throughout the IDE. Read on to discover everything that’s new in DataSpell 2026.1. AI Agents ecosystem DataSpell 2026.1 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-5-en",
-    "pubDate": "Fri, 27 Mar 2026 02:42:00 GMT",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/dataspell/2026/03/dataspell-2026-1-ai-agents-ecosystem-export-notebooks-to-pdf-editor-improvements/",
+    "pubDate": "Mon, 30 Mar 2026 14:52:08 +0000",
+    "creator": "Stanislav Garkusha",
     "categories": []
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "What is the right way to work?",
-    "description": "No description available",
+    "title": "AI for American-Produced Cement and Concrete",
+    "description": "Meta is continuing its long-term roadmap to help the construction industry leverage AI to produce high-quality and more sustainable concrete mixes, as well as those exclusively produced in the United States.  Concurrent with the 2026 American Concrete Institute (ACI) Spring Convention, Meta is releasing a new AI model for designing concrete mixes – Bayesian Optimization [...]\nRead More...\nThe post AI for American-Produced Cement and Concrete appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosscorevalues",
-    "pubDate": "Thu, 02 Apr 2026 02:00:00 GMT",
+    "link": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
+    "pubDate": "Mon, 30 Mar 2026 16:00:34 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "Data Center Engineering",
+      "ML Applications",
+      "Open Source"
+    ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "뉴욕 퀀트 출신이 알려주는 솔로지옥5 이성훈 연봉",
-    "description": "오랜만에 도파민 터지는 주제가 나왔다.   솔로지옥5가 종영하면서 출연자들의 직업이 화제다. 그중에서도 단연 이성훈(Samuel Lee). 인터넷에 연봉이 10억이니 1조니 이런 글들이 넘쳐나는데, 시중에 떠도는 정보들이 워낙 카더라가 많아서 같은 업계 출신으로서 한번 제대로 정리해보려고 한다.   참고로 나는 카네기멜론 컴퓨터과학 전공이고, 뉴욕 메릴린치",
+    "title": "노트북LM 디자인 고민 끝! 2026년 최신 Gem으로 슬라이드 자동 생성 비법 대공개",
+    "description": "슬라이드 디자인 때문에 골머리를 앓던 분들을 위한 희소식! 2026년, 구글 노트북LM과 제미나이 젬의 만남으로 여러분의 발표 자료는 완전히 새로운 차원으로 도약합니다. AI가 직접 자료를 분석하고 최적의 디자인 테마를 제안하는 혁신적인 비법, 지금 바로 만나보세요.\n  노트북 LM, 당신의 AI 비서 (그리고 숨겨진 고민 하나)\n프레젠테이션 자료 만들 때마다 '이 디자인이 과연 적절할까?' 하고 고민하느라 귀한 시간만 낭비하고 계셨나요? 내용 구성은 완벽해도 시각적인 부분에서 늘 아쉬움을 느끼셨다면, 오늘 제 이야기가 여러분의 그 오래된 고민을 시원하게 해결해줄 겁니다. 2026년인 지금, AI 기술은 정말 놀랍도록 발전했어요.\n\n\n구글이 선보인 AI 기반 연구·정리 도구, 노트북 LM은 이미 많은 분들의 개인 비서 역할을 톡톡히 해내고 있죠. PDF, 각종 문서, 유튜브 링크, 심지어 일반 텍스트까지 어떤 자료든 척척 소화해서 그 내용을 완벽하게 분석해줍니다. 오디오, 영상, 문서 등으로 요약해주고, 궁금한 점은 스스럼없이 답해주는 모습은 '와, 이거 진짜 물건인데?' 싶을 정도예요. 마치 내 모든 자료를 읽고 기억하는 똑똑한 비서가 24시간 내 옆에 있는 듯한 느낌을 줍니다.\n이 노트북 LM의 여러 기능 중에서도 특히 사랑받는 기능이 바로 프레젠테이션 슬라이드를 자동으로 생성해주는 기능입니다. 직접 써보면 '어? 이 정도면 충분히 실무에서도 바로 쓸 수 있겠는데?' 하고 감탄하게 되죠. 내용 구성이나 전체적인 흐름은 정말 기가 막히게 잘 잡아줍니다.\n⚠️ 하지만 여기서 한 가지 아쉬운 점이 있었어요. 바로 '디자인 테마' 말이죠. 아무리 내용이 좋아도 발표 자료는 시각적인 첫인상이 정말 중요하거든요. 글씨체, 색상, 배경 느낌 같은 것들이 발표의 분위기를 좌우하고, 듣는 이의 몰입도를 완전히 바꿔놓을 수 있습니다. 노트북 LM이 생성하는 기본 디자인 테마는 때때로 너무 평범해서, 많은 분들이 직접 테마를 바꾸려 시도하지만 생각보다 쉽지 않다는 피드백이 많았습니다.\n  기존 해결책의 아쉬움: Banana NL 크롬 확장 앱\n그렇다고 이 문제를 해결해줄 도구가 아예 없었던 건 아닙니다. 실제로 노트북 LM용 슬라이드 디자인 테마를 제공하는 크롬 확장 앱들이 일부 존재해요. 그중에서 특히 유명한 것이 바로 일본에서 개발된 Banana NL이라는 확장 앱입니다. 제가 겪어본 바로는, 꽤 많은 분들이 사용하고 계시더라고요.\nBanana NL은 노트북 LM에서 슬라이드 생성 설정 창을 열면, 마치 애드온처럼 그 안에 딱 붙어 나타나는 형태로 작동합니다. 그러면 사용자들은 그 안에서 무려 수백 가지에 달하는 디자인 프롬프트 템플릿 중에서 원하는 것을 골라 바로 적용할 수 있었죠. 꽤 잘 만들어져 있어서 저도 처음에는 '오, 괜찮은데?' 싶었어요.\n하지만 여기서 중요한 점은, 이 방식이 결국 '이미 만들어진 수많은 템플릿 중에서 사용자가 직접 골라야 한다'는 한계를 가지고 있다는 거예요. 문제가 뭐냐면, 내 자료가 어떤 느낌인지, 어떤 분위기인지 썸네일만 보고 직접 파악해서 고르는 게 생각보다 까다롭다는 겁니다. 비즈니스 발표인데 너무 캐주얼한 테마를 고른다거나, 감성적인 내용인데 딱딱한 기업형 테마를 고르는 등 의도치 않은 미스매치가 자주 발생했습니다. 결국 테마를 잘못 고르면 다시 처음으로 돌아가서 골라야 하고, 이 과정이 반복될수록 시간과 소중한 AI 크레딧만 낭비하게 되죠. 내 자료에 딱 맞는 것을 '골라내는 것' 자체가 또 하나의 작업이 되어버리는 셈입니다.\n  팁: Banana NL과 같은 기존 확장 앱들은 현재는 무료로 제공되는 경우가 많지만, 언제든 유료 서비스로 전환될 수 있는 잠재적인 리스크를 안고 있습니다. 장기적인 관점에서 보면 이런 점도 고려해야 할 부분이죠.\n  2026년 최신 Gem, AI가 알아서 디자인하는 시대! (오늘의 핵심)\n그래서 제가 고민 끝에 내린 결론은 이겁니다. 'AI가 내 자료를 직접 읽고 분석해서, 내용에 가장 잘 어울리는 디자인 테마를 그 자리에서 새로 만들어주면 어떨까?' 바로 이 아이디어가 오늘 제가 여러분께 소개해드릴 제미나이 젬(Gem) 지침의 핵심이에요. 마치 전문 디자이너가 여러분의 발표 자료를 꼼꼼히 읽어본 후, \"이 자료엔 이런 색감과 폰트가 정말 잘 어울리겠네요\"라고 직접 제안해주는 것처럼 말이죠.\n이 방식은 더 이상 수많은 템플릿 사이에서 헤매지 않아도 된다는 점에서 혁신적이라고 생각해요. 여러분은 그저 여러분의 자료를 제공하기만 하면 됩니다. 나머지는 AI가 알아서 척척 해낼 테니까요. 2026년, 이제 슬라이드 디자인 고민은 정말로 끝낼 때가 왔습니다!\n\n\n ️ 나만의 Gem 설치 및 설정 가이드\n자, 그럼 이 놀라운 '노트북 LM 맞춤형 프롬프트 생성기' 젬을 어떻게 설치하고 활용하는지, 차근차근 함께 실습해보도록 하겠습니다. 너무 쉽지만, 처음이 중요하니까 집중해주세요!\n1단계: Gem 지침 다운로드. 이 포스팅 하단의 '무료 Gem 지침 다운로드' 섹션에서 제공되는 블로그 링크를 통해 '노트북 LM 맞춤형 프롬프트 생성기' 지침 파일을 다운로드하여 메모장(또는 텍스트 편집기)에 불러옵니다.\n2단계: 제미나이에서 새 Gem 생성. 구글 제미나이(Gemini)로 이동하여 '새 젬(Gem)' 버튼을 클릭합니다. 젬 이름과 설명은 여러분이 알아보기 쉽게 자유롭게 입력해주세요.\n3단계: 지침 복사 및 저장. 메모장에 불러온 지침 내용을 전부 복사한 후, 제미나이의 새 젬 설정 화면에 있는 '요청사항' 부분에 붙여넣습니다. 그리고 '저장' 버튼을 클릭하면, 여러분만의 '노트북 LM 맞춤형 프롬프트 생성기' 젬이 성공적으로 설치됩니다! 정말 간단하죠?\n✨ Gem 활용의 실제: 슬라이드 자동 생성 시연\n젬 설치가 완료되었다면 이제 실제로 이 강력한 도구를 활용해볼 시간입니다. 여러분이 슬라이드 디자인을 적용하고 싶은 문서를 젬에 불러와서 실행해보세요. 이때 '사고모델로 설정' 옵션을 활성화하는 것이 중요합니다.\n자료 분석 및 프롬프트 생성: 젬은 여러분이 불러온 자료를 스스로 분석합니다. 별도로 채팅창에 어떤 것도 입력하지 않아도, 자료의 성격을 파악하여 일반 발표용, 만화용, 유튜브 영상용 중 가장 적합한 방향으로 판단하여 결과를 생성해줍니다. 물론 여러분이 직접 '만화용' 또는 '유튜브 영상용'처럼 특정 용도를 지정해줄 수도 있습니다.\n풍부한 결과물: 실행이 완료되면, 젬은 대화 목표, 디자인 설정 가이드, 슬라이드 구성 계획은 물론, 슬라이드별 스크립트까지 자동으로 생성해줍니다. 마치 전문 기획자가 옆에서 브레인스토밍을 해주는 듯한 느낌을 받을 거예요.\n여기서 한 가지 중요한 팁이 있습니다. 생성된 결과물이 너무 길어 노트북 LM에 한 번에 붙여넣기 어려울 때가 있을 수 있어요. 이럴 때는 결과물을 분리해서 활용하는 지혜가 필요합니다.\n결과물 분리 활용: 젬이 생성한 결과물 중 (3) 슬라이드 구성 계획과 (4) 슬라이드별 스크립트만 따로 복사하세요. 이 내용을 노트북 LM의 '소스 추가' 기능을 이용해 텍스트로 붙여넣고, 소스 이름을 '슬라이드 구성 계획' 등으로 명확히 변경해줍니다.\n디자인 프롬프트 적용: 다시 슬라이드 맞춤 설정으로 돌아와, 젬에서 생성한 (1) 대화 목표, 스타일 또는 역할 정의와 (2) 최종 디자인 설정 가이드까지만 복사하여 붙여넣습니다. 그리고 지침 맨 위에 '슬라이드 구성 계획에 맞게 생성해'라고 입력한 후 '생성' 버튼을 누르면, 잠시 후 여러분이 원하던 맞춤형 디자인이 적용된 슬라이드를 확인할 수 있습니다! 제가 직접 해보니 이 방법이 가장 효과적이더라고요.\n\n\n실제 사례를 보여드릴게요. 조선시대와 관련된 자료를 업로드했더니, 보시는 것처럼 고풍스러운 디자인으로 슬라이드가 뚝딱 만들어졌어요. 또 다른 예시로 동화 줄거리를 업로드했을 때는, 마치 예쁜 동화책 스타일의 슬라이드가 완성되었고요. 정말 놀랍지 않나요? AI가 자료의 맥락을 정확히 이해하고 시각적인 결과물로 표현해내는 능력이 대단하다고 느꼈습니다.\n\n\n만약 소스를 만화 줄거리로 입력하고 채팅에 '만화용'이라고 지정하면, 마치 전문 만화 기획서 같은 분위기의 결과물을 얻을 수 있습니다. 유튜브 영상용으로 사용하고자 할 때는, 젬의 채팅창 아래 '+' 버튼을 눌러 노트북 LM에 이미 등록된 문서를 선택하고 '유튜브 영상용'이라고 입력해보세요. 그러면 유튜브에 사용하기에 적합한 영상 콘티와 슬라이드 디자인까지 한 번에 생성해줍니다. 제가 확인해보니, 이 상태로 더빙만 추가하면 유튜브 영상으로 바로 활용해도 될 정도로 퀄리티가 높았습니다. 정말 활용도가 무궁무진하죠?\n  참고: 이렇게 생성된 결과물의 프롬프트는 언제든지 다시 확인할 수 있으며, 필요하다면 PDF나 파워포인트 문서로도 다운로드할 수 있습니다. 여러분의 작업 방식에 맞게 유연하게 활용해보세요.\n  핵심 요약: 노트북 LM 슬라이드 디자인, 이제 고민 끝!\n  핵심 요약\n1. 노트북 LM은 AI 기반 연구/정리 도구로, 문서 요약 및 슬라이드 자동 생성 기능이 탁월합니다.\n2. 기존 Banana NL과 같은 앱은 수백 개의 템플릿 중 수동 선택해야 하는 한계와 유료화 리스크가 있었습니다.\n3. '노트북 LM 맞춤형 프롬프트 생성기' 젬은 AI가 자료를 분석하여 최적의 디자인 테마를 자동으로 생성해줍니다.\n4. 이 젬은 일반 발표용, 만화용, 유튜브 영상용 등 다양한 목적에 맞는 맞춤형 슬라이드 디자인을 제공하여 업무 효율을 극대화합니다.\n여러분도 이 혁신적인 Gem을 활용하여 슬라이드 디자인의 새로운 지평을 열어보세요!\n  지금 바로 다운로드하세요! '노트북 LM 맞춤형 프롬프트 생성기' Gem\n제가 오늘 소개해드린 이 강력한 '노트북 LM 맞춤형 프롬프트 생성기' 젬(Gem) 지침은 완전 무료로 여러분께 공개됩니다. 아래 링크에서 부담 없이 다운로드하여 바로 사용해보세요!\n  '노트북 LM 맞춤형 프롬프트 생성기' Gem 지침 다운로드 : \n\n    \n\n    \ngoogle notebooklm 의 슬라이드용 디자인 세팅지침 v3.txt\n0.02MB\n\n\n지침 자체를 여러분의 취향이나 필요한 업무 스타일에 맞춰 얼마든지 수정해서 사용하셔도 좋습니다. 더 마음에 드는 결과가 나오거나, 더 좋은 활용 팁이 있다면 언제든 댓글로 공유해주세요. 여러분의 인사이트가 또 다른 혁신을 만들어낼 수 있습니다. 그럼, 다음에도 더 유익하고 흥미로운 정보로 다시 찾아뵙겠습니다. 감사합니다!\n❓ 자주 묻는 질문 (FAQ)\nQ1: 노트북 LM은 무엇이며, 어떤 장점이 있나요?\nA1: 노트북 LM은 구글이 개발한 AI 기반 연구 및 정리 도구입니다. PDF, 문서, 유튜브 링크 등 다양한 자료를 분석하여 요약하고 질문에 답변해주며, 특히 프레젠테이션 슬라이드를 자동으로 생성해주는 기능이 뛰어나 업무 효율을 크게 높여줍니다.\nQ2: 기존의 슬라이드 디자인 해결책(예: Banana NL)과 제미나이 젬의 차이점은 무엇인가요?\nA2: Banana NL과 같은 기존 확장 앱은 사용자가 수백 개의 디자인 템플릿 중 하나를 수동으로 선택해야 하는 방식입니다. 반면, 제미나이 젬은 AI가 여러분의 자료 내용을 직접 분석하여 가장 적합한 디자인 테마를 즉석에서 생성해주므로, 자료와 테마 간의 미스매치나 선택의 피로도를 줄여줍니다.\nQ3: '노트북 LM 맞춤형 프롬프트 생성기' 젬은 어떤 종류의 슬라이드 디자인을 지원하나요?\nA3: 이 젬은 일반 발표용은 물론, 만화 줄거리에는 만화 기획서 같은 테마를, 동화 줄거리에는 동화책 스타일을, 그리고 유튜브 영상용 콘텐츠에는 유튜브에 최적화된 결과물을 생성하는 등 다양한 목적에 맞는 맞춤형 디자인 프롬프트를 지원합니다. AI가 자료의 성격을 파악하여 최적의 스타일을 제안하거나, 사용자가 직접 용도를 지정할 수도 있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@H9i/94",
-    "pubDate": "Fri, 27 Mar 2026 02:49:34 GMT",
-    "creator": "권용진",
-    "categories": []
+    "link": "https://muzbox.tistory.com/483716",
+    "pubDate": "Sat, 28 Mar 2026 23:16:57 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "ai 디자인",
+      "ai 업무 자동화",
+      "Banana NL 대안",
+      "Google AI 도구",
+      "노트북lm",
+      "맞춤형 프롬프트",
+      "생성형 AI",
+      "슬라이드 자동 생성",
+      "제미나이 젬",
+      "프레젠테이션 테마"
+    ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "건강보험 가입부터 병원비 환급까지 총정리",
-    "description": "보험료 납부, 병원비 돌려받는 절차까지 한 번에 알려드릴게요. 앞으론 몰라서 손해보지 말고 아파도 참지 마세요!",
+    "title": "Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads",
+    "description": "Meta continues to lead the industry in utilizing groundbreaking AI Recommendation Systems (RecSys) to deliver better experiences for people, and better results for advertisers. To reach the next frontier of performance, we are scaling Meta’s Ads Recommender runtime models to LLM-scale & complexity to further a deeper understanding of people’s interests and intent. This increase [...]\nRead More...\nThe post Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-5",
-    "pubDate": "Fri, 27 Mar 2026 02:41:00 GMT",
+    "link": "https://engineering.fb.com/2026/03/31/ml-applications/meta-adaptive-ranking-model-bending-the-inference-scaling-curve-to-serve-llm-scale-models-for-ads/",
+    "pubDate": "Tue, 31 Mar 2026 16:00:17 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "ML Applications"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Pspsps Monkey / 귀여운 원숭이 3D 모델 / 유니티 유료 애셋 100% 할인 쿠폰 / 날짜 제한 있음",
-    "description": "귀여워 원숭이 3D 모델\n \n애셋 홍보용 영상: https://www.youtube.com/watch?v=Ix5veYOQZg4&t=24s\n\n\n\n일단 이렇게 생겼습니다.\n \n \n쿠폰 정보\n영상: https://www.youtube.com/watch?v=qeyyWciOyFw\n\n\n\n여기에 할인 쿠폰 번호가 있습니다.\n \n\n\n무료로 줄때 받으세요 ㅎㅎ\n \n애셋 링크: https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/pspsps-monkey-226721?clickref=1100lCap8PdL&utm_source=partnerize&utm_medium=affiliate&utm_campaign=unity_affiliate\n\n \nPspsps Monkey | 캐릭터 | Unity Asset Store\nGet the Pspsps Monkey package from SURIYUN and speed up your game development process. Find this & other 캐릭터 options on the Unity Asset Store.\nassetstore.unity.com",
+    "title": "KernelEvolve: How Meta’s Ranking Engineer Agent Optimizes AI Infrastructure",
+    "description": "This is the second post in the Ranking Engineer Agent blog series exploring the autonomous AI capabilities accelerating Meta’s Ads Ranking innovation. The previous post introduced Ranking Engineer Agent’s ML exploration capability, which autonomously designs, executes, and analyzes ranking model experiments. This post covers how to optimize the low-level infrastructure that makes those models run [...]\nRead More...\nThe post KernelEvolve: How Meta’s Ranking Engineer Agent Optimizes AI Infrastructure appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1606",
-    "pubDate": "Mon, 30 Mar 2026 23:51:10 +0900",
-    "creator": "SIDNFT",
+    "link": "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/",
+    "pubDate": "Thu, 02 Apr 2026 19:59:46 +0000",
+    "creator": "Unknown",
     "categories": [
-      "프로그래밍/유니티 에셋 리뷰"
+      "DevInfra",
+      "ML Applications"
     ]
   }
 ]
