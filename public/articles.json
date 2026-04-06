@@ -2,174 +2,106 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "우리 함께 만드는 포켓몬 세상, Pokémon Pokopia",
-    "description": "No description available",
+    "title": "What’s New in PyCharm 2026.1",
+    "description": "Welcome to PyCharm 2026.1. This release doesn’t just add features – it rethinks how you build, debug, and scale Python projects. From a brand-new debugging engine powered by debugpy to first-class uv support on remote targets and expanded JavaScript support in the free tier, this version is all about removing friction and letting you focus […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2437",
-    "pubDate": "Tue, 31 Mar 2026 17:20:45 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/pycharm/2026/03/what-s-new-in-pycharm-2026-1/",
+    "pubDate": "Mon, 30 Mar 2026 15:31:08 +0000",
+    "creator": "Ilia Afanasiev",
     "categories": [
-      "게임툰"
+      "releases"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "What’s New in RustRover 2026.1",
-    "description": "Welcome to RustRover 2026.1. This version focuses on supporting the way modern Rust teams build, test, and maintain their code. Highlights include: Key updates Code analysis is now more accurate We’ve continued improving RustRover’s code analysis, with a recent focus on reducing false positives that can cause confusion. If you notice any false positives, please […]",
+    "title": "악역영애 4컷 만화 - 45화, 만우절인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/03/30/whats-new-in-rustrover-2026-1/",
-    "pubDate": "Mon, 30 Mar 2026 15:03:50 +0000",
-    "creator": "Irina Mihajlovic",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2438",
+    "pubDate": "Wed, 01 Apr 2026 20:29:35 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "releases",
-      "rustrover",
-      "release"
+      "웹툰"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "What is the right way to work?",
-    "description": "No description available",
+    "title": "AI 네이티브 조직의 상방과 하방",
+    "description": "최근 한 달여 사이에 보안 사고가 연달아 터졌다.\n3월 24일, litellm이라는 Python 라이브러리의 PyPI 패키지에서 공급망 공격이 발견됐다.\nlitellm 1.82.7, 1.82.8 버전이 영향을 받았는데, GitHub에는 존재하지 않는 버전이 PyPI에 직접 올라간 거다.\n정상 릴리스 프로세스를 완전히 우회한 악성 배포였다.\n이게 무서운 이유는, 설치만 되면 .pth 파일이 Python 프로세스가 시작될 때마다 자동 실행된다는 것이다.\nSSH 키, .env 파일, AWS/GCP/Azure 인증 정보, K8s 설정, DB 비밀번호, 쉘 히스토리까지 전부 수집한다.\n수집한 데이터를 AES-256-CBC로 암호화해서 외부 도메인으로 전송하고, K8s 서비스 어카운트 토큰이 있으면 클러스터 전체 시크릿을 읽고 백도어 Pod를 생성하는 \"횡이동\"(Lateral Movement)까지 시도한다.\nlitellm은 OpenAI, Claude, Gemini 등 여러 LLM API를 통합 호출해주는 프록시 라이브러리다.\n직접 쓰지 않더라도 다른 패키지의 의존성으로 딸려 설치될 수 있다.\n실제로 Cursor의 MCP 플러그인 의존성으로 딸려 들어와서 발견된 케이스도 있다.\n이게 끝이 아니었다.\n3월 31일, 이번엔 axios에서 공급망 공격이 확인됐다.\naxios 리드 메인테이너의 npm 계정이 탈취돼서, GitHub CI/CD를 우회하고 npm CLI로 직접 악성 버전이 수동 배포됐다.\n영향받는 버전은 axios 1.14.1과 0.30.4.\n두 버전 모두 plain-crypto-js@4.2.1이라는 가짜 의존성을 주입하는데, 이 패키지는 axios 소스코드 어디에서도 import하지 않고 postinstall 스크립트로 악성코드(RAT, 원격 접근 트로이목마)를 실행하는 게 유일한 목적이다.\nOS 임시 폴더와 Windows ProgramData에 페이로드 파일을 복사하고, 외부 C2 서버와 통신하면서 OS별 2차 페이로드를 받아오고, 실행 후 자기 자신을 삭제해서 포렌식 증거를 없앤다.\n설치만 되면 키들이 전부 탈취될 수 있다.\n같은 시기, 다른 축에서도 사고가 터졌다.\n2월 중순에는 Chrome 취약점(CVE-2026-2441)이 공개됐다.\n악성 HTML 페이지를 렌더링하는 것만으로 브라우저 샌드박스 내부 코드 실행으로 이어질 수 있었고, 이미 실제 악용 정황이 확인돼 즉시 업데이트가 필요했다.\n이건 공급망 공격과는 다른 축이다. \nAI가 직접 만든 위험이 아니라 원래 있던 기본 보안 운영 부담인데, AI 도구 리스크는 이 부담 위에 추가된다.\nAI 자체가 문제가 아니라, AI 도구를 둘러싼 의존성 체인과 실행 환경이 완전히 공격 표면이 되었다.\n이건 \"AI 네이티브\"를 지향하는 조직일수록 더 심각한 문제가 된다.\n요즘 많은 조직이 \"AI 네이티브\"를 지향한다.\n전 직원이 Cursor를 쓰고, Claude Code를 쓰고, MCP 플러그인을 설치하고, npm 패키지를 받고, pip install을 한다.\n개발자가 아닌 사람도 AI 도구를 쓰기 위해 터미널을 열고 패키지를 설치한다.\n이건 그 자체로는 좋은 일이다.\n하지만 한 가지 문제가 있다.\nAI 도구를 설치한다는 건, 의존성 체인 위에 올라탄다는 뜻이다.\nlitellm을 직접 쓰지 않아도, Cursor MCP 플러그인이 litellm을 의존성으로 가져올 수 있다.\naxios를 직접 쓰지 않아도, 어떤 MCP 서버가 내부에서 axios를 쓰고 있을 수 있다.\n실제로 axios 사건 직후, Datadog의 CI/CD 도구인 datadog-ci와 serverless-plugin-datadog, junit-upload-github-action도 점검 대상이 됐다.\n세 도구 모두 axios를 의존성으로 가지고 있어서, 악성 버전이 배포된 3월 31일 새벽 시간대에 fresh install이 일어난 CI 환경이나 개발 머신이라면 영향을 받았을 수 있다.\nDatadog은 인프라 모니터링 도구다.\n보안을 지키기 위해 설치한 모니터링 도구의 의존성이 오히려 공격 경로가 된 셈이다.\n전 직원이 AI 도구를 설치하면, 전 직원의 머신이 공급망 공격의 표면이 된다.\n그리고 그 중에는 SSH 키가 뭔지 모르는 사람도 있고, .env 파일이 왜 위험한지 모르는 사람도 있다.\n보안팀이 빵빵한 조직이라면 이걸 감당할 수 있다.\n전 직원의 머신에 EDR(Endpoint Detection and Response)을 깔고, 패키지 설치를 모니터링하고, 이상 행위를 탐지하고, 사고가 나면 즉시 격리하고 복구할 수 있다.\n그런데 보안/데브옵스 인력이 충분하지 않은 조직이라면?\nlitellm 사건이 터졌을 때, 전 직원의 머신에서 pip show litellm을 확인하고, ~/.config/sysmon/sysmon.py 파일이 있는지 점검하고, 영향이 확인되면 \"모든 인증 정보를 탈취당한 것으로 간주\"하고 SSH 키, 클라우드 크레덴셜, API 키, DB 비밀번호를 전체 로테이션해야 한다.\naxios 사건이 터졌을 때는, 모든 프로젝트의 lockfile에서 axios 1.14.1이나 0.30.4가 있는지 확인하고, node_modules/plain-crypto-js/가 있는지 확인하고, 감염된 머신의 모든 크레덴셜을 교체해야 한다.\n크롬 제로데이가 나왔을 때는, 전 직원에게 브라우저 업데이트를 즉시 공지하고, 업데이트 여부를 확인해야 한다.\n이걸 한 달 사이에 세 번이나 해야 한다.\n그리고 이런 빈도는 앞으로 더 잦아질 것이다.\n보안 전담 인력 없이 이걸 할 수 있는 조직이 얼마나 될까.\n그래서 상방과 하방 사이의 딜레마가 생긴다.\n상방을 열면 하방이 부실해진다.\n전 직원에게 AI 도구를 열어주고, 생산성을 끌어올리고, 경쟁사보다 빠르게 움직이려는 건 좋다.\n하지만 보안팀이 빵빵하지 않으면, 한 달 사이에 세 번이나 터지는 전사 대응을 감당할 수가 없다.\n반대로 하방을 단단히 지키려고 하면 상방이 닫힌다.\n충분한 지식을 가진 사람만 도구를 설치하고, 의존성을 통제하고, 환경을 관리하면 보안은 지킬 수 있다.\n하지만 그러면 \"전 직원이 AI를 자유롭게 쓰는 조직\"과는 거리가 멀어진다.\nAI 네이티브 조직이 되고 싶은데, 정작 AI 도구를 자유롭게 쓸 수 없는 아이러니가 생긴다.\n상방을 열자니 하방이 너무 부실해지고, 하방을 단단히 하자니 상방이 너무 닫힌 구조로 간다.\n이건 \"정답이 있는 문제\"가 아니라 \"각 조직이 자기 상황에 맞게 어디쯤에 서야 하는지 고민해야 하는 문제\"다.\n보안/데브옵스 인력이 충분한 조직과 그렇지 않은 조직의 답이 같을 수 없고, 다루는 데이터의 민감도에 따라서도 답이 달라진다.\n다만 한 가지 분명한 건, 이 고민 자체를 하지 않는 조직이 제일 위험하다는 것이다.\n\"우리도 AI 네이티브 해야지\"라는 상방의 매력에만 끌려서, 하방이 어떤 상태인지 돌아보지 않는 것.\n그게 가장 큰 리스크다.\nlitellm, axios, 크롬 제로데이까지 한 달여 사이에 연달아 터진 이 사건들은 앞으로도 빈도는 줄어들지 않을 것 같다.\nAI 도구의 생태계가 커질수록 공격 표면도 같이 커지니까.\nAI 네이티브 조직일수록, 상방만큼 하방도 충분히 고민해봐야 한다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tosscorevalues",
-    "pubDate": "Thu, 02 Apr 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://jojoldu.tistory.com/875",
+    "pubDate": "Thu, 2 Apr 2026 09:32:14 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리",
+      "AI",
+      "AI네이티브",
+      "axios",
+      "devsecops",
+      "litellm",
+      "공급망공격",
+      "보안",
+      "의존성관리",
+      "조직운영",
+      "하방관리"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Amper 0.10 – JDK Provisioning, a Maven Converter, Custom Compiler Plugins, and More",
-    "description": "Amper 0.10.0 is out, and it brings a variety of new features, such as JDK provisioning, custom Kotlin compiler plugins, a Maven-to-Amper converter, and numerous IDE improvements! Read on for all of the details, and see the release notes for the full list of changes and bug fixes. To get support for Amper’s latest features, […]",
+    "title": "What’s New in vcpkg (Feb 2026 – Mar 2026): Parallel file installation and more!",
+    "description": "These updates include a security fix for OpenSSL packaging on Windows, parallel file installation for improved performance, and other improvements and bug fixes.\nThe post What’s New in vcpkg (Feb 2026 – Mar 2026): Parallel file installation and more! appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/amper/2026/03/amper-0-10/",
-    "pubDate": "Tue, 31 Mar 2026 08:20:01 +0000",
-    "creator": "Kirill Likhodedov",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-feb-2026-mar-2026-parallel-file-installation-and-more/",
+    "pubDate": "Wed, 01 Apr 2026 15:50:28 +0000",
+    "creator": "Augustin Popa",
+    "categories": [
+      "C++",
+      "Vcpkg",
+      "vcpkg"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "YouTrack Introduces Whiteboards",
-    "description": "YouTrack 2026.1 introduces Whiteboards, a new way for teams to plan, brainstorm, and collaborate. Connect your current projects to get a better overview and organize work, or add notes and turn them into tasks and articles when you’re ready. This allows project managers and teams to plan from scratch, collaborate on ongoing projects, and ensure […]",
+    "title": "KernelEvolve: How Meta’s Ranking Engineer Agent Optimizes AI Infrastructure",
+    "description": "This is the second post in the Ranking Engineer Agent blog series exploring the autonomous AI capabilities accelerating Meta’s Ads Ranking innovation. The previous post introduced Ranking Engineer Agent’s ML exploration capability, which autonomously designs, executes, and analyzes ranking model experiments. This post covers how to optimize the low-level infrastructure that makes those models run [...]\nRead More...\nThe post KernelEvolve: How Meta’s Ranking Engineer Agent Optimizes AI Infrastructure appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/youtrack/2026/04/youtrack-introduces-whiteboards/",
-    "pubDate": "Wed, 01 Apr 2026 05:20:31 +0000",
-    "creator": "Elena Pishkova",
+    "link": "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/",
+    "pubDate": "Thu, 02 Apr 2026 19:59:46 +0000",
+    "creator": "Unknown",
     "categories": [
-      "features",
-      "news",
-      "releases",
-      "release",
-      "youtrack-cloud",
-      "youtrack-server"
+      "DevInfra",
+      "ML Applications"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Smarter Live Streaming at Scale: Rolling Out VBR for All Netflix Live Events",
-    "description": "No description available",
+    "title": "현장 중심주의",
+    "description": "약 한 달 전에 유럽에 짧게 출장을 다녀왔다. 4일 동안 3개국을 방문했던 빡센 일정이었고, 왜 스트롱이 한국에 집중적으로 투자하는지 열심히 설명하고 있는데, 어떤 기관이 나에게 했던 질문 중 하나가 “스트롱은 미국 펀드인데 한국에 투자하고 있죠? 그럼, 대부분의 팀이 미국에 있나요 한국에 있나요?” 였다. 우린 미국 펀드이지만 한국에 투자하고 있기 때문에 대부분의 팀이 한국에 있다고 했고,(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/smarter-live-streaming-at-scale-rolling-out-vbr-for-all-netflix-live-events-c8f833b238cc?source=rss----2615bd06b42e---4",
-    "pubDate": "Thu, 02 Apr 2026 21:46:27 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://www.thestartupbible.com/2026/04/on-on-the-ground-approach.html",
+    "pubDate": "Sun, 05 Apr 2026 21:33:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "encoding",
-      "content-delivery-platform",
-      "adaptive-bitrate",
-      "live-streaming"
+      "Uncategorized",
+      "global",
+      "korea",
+      "Strong",
+      "vc"
     ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "Bookmark Studio: evolving bookmarks in Visual Studio",
-    "description": "Bookmarks in Visual Studio have always been a simple, reliable feature. Many developers use them regularly, and over the years we’ve heard consistent feedback from those users. Bookmarks were useful, but there were a few core gaps that kept them from being as effective and relevant as they could be. Navigation was one of the […]\nThe post Bookmark Studio: evolving bookmarks in Visual Studio appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/bookmark-studio-evolving-bookmarks-in-visual-studio/",
-    "pubDate": "Wed, 01 Apr 2026 14:09:58 +0000",
-    "creator": "Mads Kristensen",
-    "categories": [
-      "Extensibility",
-      "Visual Studio",
-      "Extensions",
-      "Navigate through code"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads",
-    "description": "Meta continues to lead the industry in utilizing groundbreaking AI Recommendation Systems (RecSys) to deliver better experiences for people, and better results for advertisers. To reach the next frontier of performance, we are scaling Meta’s Ads Recommender runtime models to LLM-scale & complexity to further a deeper understanding of people’s interests and intent. This increase [...]\nRead More...\nThe post Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/03/31/ml-applications/meta-adaptive-ranking-model-bending-the-inference-scaling-curve-to-serve-llm-scale-models-for-ads/",
-    "pubDate": "Tue, 31 Mar 2026 16:00:17 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "ML Applications"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Code like a PIRATE with Junie and GoLand",
-    "description": "This is a guest post from John Arundel, a Go writer and teacher who runs a free email course for Go learners. His most recent book is The Deeper Love of Go. Ahoy, maties! Cap’n Long John Arundel here with more tips on sailing the good ship GoLand. This time, we’ll lay aloft to the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2026/04/02/code-like-a-pirate-with-junie-and-goland/",
-    "pubDate": "Thu, 02 Apr 2026 13:34:24 +0000",
-    "creator": "Anna Protsenko",
-    "categories": [
-      "ai",
-      "goland",
-      "ai-agents",
-      "junie",
-      "tutorials"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "My Journey to Airbnb — Jonathan Woodard",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-jonathan-woodard-7efae28d7fa9?source=rss----53c7c27702d5---4",
-    "pubDate": "Thu, 02 Apr 2026 17:01:06 GMT",
-    "creator": "AirbnbEng",
-    "categories": [
-      "people",
-      "engineering",
-      "technology",
-      "cloud-security",
-      "software-engineering"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "SKT 알뜰요금제, 토스에서 혜택 챙기며 가입하는 법",
-    "description": "첫 달 요금 100% 캐시백부터 매달 쌓이는 포인트까지, SKT를 더 실속 있게 이용하세요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/toss-skt-cashback-guide",
-    "pubDate": "Fri, 03 Apr 2026 05:26:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
     "imageUrl": "",
     "title": "대규모 서비스 환경에서의 이미지 콘텐츠 모더레이션(feat. 멀티모달 LLM)",
     "description": "들어가며콘텐츠 모더레이션은 사용자가 생성하거나 업로드하는 텍스트, 이미지, 영상, 음성 등의 콘텐츠 중 서비스 정책 및 법적 기준에 위배되는 내용을 탐지해 적절한 조치를 수행하기 ...",
@@ -181,44 +113,117 @@
     "categories": []
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
-    "title": "472일차 - AI 동영상 생성으로 CRPG 도전중",
-    "description": "영상: https://www.youtube.com/watch?v=og2pnLUsAHI\n\n\n\n한국에서 게임 스토리가 약하다는 점을 역으로 이용해 \n스토리에 강한 게임에 도전중입니다.\n바로 CRPG !\n \n다양한 선택지 구현을 위해\nAI 동영상을 이용할 생각입니다.\n써봤는데 빠르게 만들기 좋았습니다.\n \n비용도 많이 들꺼 같지만 \"60초\" 게임 정도 수준을 목표로 해보려고 합니다.",
+    "title": "What is the right way to work?",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1608",
-    "pubDate": "Thu, 2 Apr 2026 23:57:58 +0900",
+    "link": "https://toss.im/tossfeed/article/tosscorevalues",
+    "pubDate": "Thu, 02 Apr 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "도메인에 의존하지 않는 채팅 플랫폼은 어떻게 만들었을까?",
+    "description": "들어가며안녕하세요. ABC Platform 팀에서 메시징 플랫폼(이하 MessagingHub)을 만들고 있는 송재욱입니다. 메시징은 이제 거의 모든 서비스에서 요구되는 기본 스펙인...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/how-we-built-a-domain-agnostic-chat-platform",
+    "pubDate": "Wed, 01 Apr 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Splunk with LLM",
+    "description": "AI Toolkit 앱(구 MLTK)이 LLM 연동 기능을 제공한다.\n\n\n\n\n\nLLM 연동을 하려면 사용자에게 mltk_admin 권한(설정 > 사용자) 필요.\n\n\n\n\n이후 제미나이 연동을 위해 aistudio.google.com에서 생성한 API 키 입력.\n\n\n\n연결 테스트 이상 없으면 설정 저장.\n\n\n\n\n이제 ai 명령어를 이용해서 LLM 질의를 할 수 있다. 보안관제 딱 대\n\n\n\n응답 속도는 좀 느리다. API 유료 결제하면 좀 빨라지는 건가(..)\n\n\n관련 글\n\n머신러닝의 한계? - 2nd",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/04/splunk-with-llm.html",
+    "pubDate": "2026-04-05T07:02:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "KotlinConf’26 Speakers: In Conversation With Lena Reinhard",
+    "description": "“Over the last three to five years, many of the promises that drew people to tech have been called into question.” The tech industry has long promised opportunity, growth, and the chance to build things that reach millions of people. Today, many of those assumptions are being questioned. At KotlinConf’26, Lena Reinhard, leadership coach, former […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/04/kotlinconf-26-speakers-in-conversation-with-lena-reinhard/",
+    "pubDate": "Thu, 02 Apr 2026 06:34:59 +0000",
+    "creator": "Daria Voronina",
+    "categories": [
+      "news",
+      "interview",
+      "kotlinconf",
+      "lena-reinhard"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Seedance 2.0 생성 테스트 / 드리미나 캡컷 / 시댄스로 검색하면 짝퉁들이 검색됩니다. 주의",
+    "description": "정확히는  capcut 의 dreamina (드리미나) 입니다.\n시댄스가 너무 유명하니까 너도나도 그이름을 쓰는 바람에 검색이 엉망이 되었습니다.\n거기다 제작자들은 외부에서 서비스할때는 시댄스라는 이름을 쓰지 않기 때문에 엉망이된거 같습니다.\n \n정식 사이트\n주의 하시고 정상적인 주소는 이갑니다.\nhttps://dreamina.capcut.com/\n\n \nDreamina image generator & video generator: All-in-one AI creative suite\nCreate stunning images and videos from simple prompts with Dreamina's AI image and video generator. Perfect for posters, logos, and avatars.\ndreamina.capcut.com\n\ncapcut.com 이 제작사 주소입니다.\n \n \n \n경쟁자들 상황\n현재 seedance 2.0 이 인기 겁색어라 이상한 곳에서 다 그거 쓴다고 검색엔진이 엉망 진창이 되었습니다.\n\n\n들어가면 시댄스 아닙니다. 광고로 낚는거 같습니다.\n검색엔진 믿어선 안될 것 같습니다.\n \n\n\n.Topview AI 얘네들도 구라치고 있습니다. 들어가면 시댄스 안됩니다.\n가격이 엄청 싸게나오는데 속지마시기 바랍니다.\n \n\n\n클링 도 가격 할인하네요\n \n\n\n소라 2 는 시댄스 출시 전날 서비스 접었습니다.\n아마 중국 서비스 보고 포기한거 같습니다.\n \n생성해보자 (무료)\n이미지는 하루에 5번\n영상은 1개 정도 무료로 생성할 수 있는거 같은데 내일 되봐야겠습니다.\n코인이 충전안될 수도 있으니\n저는 이미지 3번  영상 1번 만들어봣습니다.\n \n일단 영상을 사용하는 게임을 만들려고 준비중이구요\n원화 이미지는 예전부터 가지고 있던것 입니다.\n\n\n마봅사 차림으로 \n\n\n낚시하는 게임입니다. ㅋ\n이렇게 시작 과 끝 이미지를 만듭니다.\n \n이거 두개를 가지고 영상을 만들어줘 하면 영상이 나옵니다.\n\n\n \n영상: https://www.youtube.com/shorts/zExz4u3GC1E\n\n\n\n \n소리도 들어가 있는데 잘 어울렸습니다.\n그림만들고 영상 만들고 하면 게임도 만들 수 있는거 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1605",
+    "pubDate": "Mon, 30 Mar 2026 21:36:24 +0900",
     "creator": "SIDNFT",
     "categories": [
       "프로그래밍/자작",
-      "crpg",
-      "개발로그",
-      "씨댄스"
+      "Ai",
+      "seesance",
+      "영상생성"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Which AI Coding Tools Do Developers Actually Use at Work?",
+    "description": "The reality beyond the hype, featuring evidence from large-scale, globally representative developer surveys. If you’re like us, you can’t open your LinkedIn or X feed without there being some mention of an AI coding agent (Claude Code, Codex, Gemini CLI, Junie, and others). But which of these AI tools are actually used for development at […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
+    "pubDate": "Thu, 02 Apr 2026 09:27:20 +0000",
+    "creator": "Mikhail Bogdanov",
+    "categories": [
+      "ai",
+      "research"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Splunk 설정 변경",
-    "description": "스플렁크 설정 작업은 웹UI를 사용하는 게 편하다. 시스템 재시작이 대부분 필요 없기 때문.\n\n\n\n\n그런데 가끔 설정 파일을 직접 건드려야 할 때가 있음. 이때는 변경 설정 적용을 위해 시스템 재시작이 필수인데,\n\n\n\n\n변경 설정 재적용 기능이 있더라.\n\n\n\n\n\n이걸 이제 알았네. 제미나이야 고맙다(..)\n\n\n\n\n\n관련 글\n\nSplunk의 필드 처리 순서\ndata with no timestamp\nSplunk의 sourcetype 변경\nSplunk의 이벤트 단위 텍스트 필터링",
+    "title": "dotenv 이거  안써도 되는거였군요 / node 20.6 부터",
+    "description": "옛날 서버 만지다보니\n이 파일 저 파일에서 전부\nimport dotenv from \"dotenv\";\ndotenv.config();\n요걸 다 걸어놨는데\n \n어디가 먼저 로드되는지 모르니 필요할때마다 다 걸어둔거 같습니다.\n그런데 이러면 진짜로 파일을 읽습니다.\n이것때문에 프로그램이 뜨는데 오래걸리겠죠\ndotnev 는 node 20.6.0 부터 안써도 기본으로 .env 는 읽는다고 합니다.\n \n.env_~~~ 형식의 이름이 다른 파일은 어쩔 수 가없지만\n.env 만 사용한다면 굳이 이렇게 로드하지 않는게 프로그램 실행하는데 빠르고 좋습니다.\n \n서버 느리게 뜨는 이유가 이것 때문이였다니 충격적이군요 ㄷㄷㄷ",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/03/splunk.html",
-    "pubDate": "2026-03-29T06:53:00.001Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1609",
+    "pubDate": "Fri, 3 Apr 2026 18:06:53 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "dotenv",
+      "node"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "밸브 S&amp;BOX 게임(엔진) 은 유니티와 경쟁한다.",
-    "description": "밸브에서 개리모드 이후 샌드박스 게임을 발표했는데\n이게 게임이라기 보단 엔진입니다.\n개발언어로 c# 을 지원하는게 유니티와 경쟁하게 될 것 같습니다.\nUI 는 웹과 유사한 tailwind 방식이라고 합니다.\n \n \n \n스팀페이지: https://store.steampowered.com/app/590830/sbox/\n \n\n\n게임엔진이라 한글이 안되는건 큰문제는 아닐꺼 같습니다.\n \n \n \ns&box reddit : https://www.reddit.com/r/sandbox/\n\n \nr/sandbox\ns&box (pronounced \"sandbox\") is an upcoming game engine and platform from Facepunch Studios, the creators of Rust and Garry's Mod. Using Valve's Source 2 with a C# layer built on top, it combines the best engine tools with a new and upgraded editor.\nwww.reddit.com\n\n \n \n \n영상: https://www.youtube.com/watch?v=LNqnZVL6LBU",
+    "title": "Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads",
+    "description": "Meta continues to lead the industry in utilizing groundbreaking AI Recommendation Systems (RecSys) to deliver better experiences for people, and better results for advertisers. To reach the next frontier of performance, we are scaling Meta’s Ads Recommender runtime models to LLM-scale & complexity to further a deeper understanding of people’s interests and intent. This increase [...]\nRead More...\nThe post Meta Adaptive Ranking Model: Bending the Inference Scaling Curve to Serve LLM-Scale Models for Ads appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1612",
-    "pubDate": "Sun, 5 Apr 2026 01:36:03 +0900",
-    "creator": "SIDNFT",
-    "categories": []
+    "link": "https://engineering.fb.com/2026/03/31/ml-applications/meta-adaptive-ranking-model-bending-the-inference-scaling-curve-to-serve-llm-scale-models-for-ads/",
+    "pubDate": "Tue, 31 Mar 2026 16:00:17 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "ML Applications"
+    ]
   }
 ]
