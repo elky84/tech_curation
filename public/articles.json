@@ -2,78 +2,85 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "현장 중심주의",
-    "description": "약 한 달 전에 유럽에 짧게 출장을 다녀왔다. 4일 동안 3개국을 방문했던 빡센 일정이었고, 왜 스트롱이 한국에 집중적으로 투자하는지 열심히 설명하고 있는데, 어떤 기관이 나에게 했던 질문 중 하나가 “스트롱은 미국 펀드인데 한국에 투자하고 있죠? 그럼, 대부분의 팀이 미국에 있나요 한국에 있나요?” 였다. 우린 미국 펀드이지만 한국에 투자하고 있기 때문에 대부분의 팀이 한국에 있다고 했고,(...)",
+    "title": "Using Spring Data JDBC With Kotlin",
+    "description": "This post was written together with Thorben Janssen, who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hibernate Problems” and the JPA newsletter. Spring Data JDBC provides a simple and predictable persistence model. It focuses on aggregate roots, constructor-based mapping, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/04/on-on-the-ground-approach.html",
-    "pubDate": "Sun, 05 Apr 2026 21:33:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://blog.jetbrains.com/idea/2026/04/using-spring-data-jdbc-with-kotlin/",
+    "pubDate": "Thu, 09 Apr 2026 11:46:14 +0000",
+    "creator": "Teodor Irkhin",
     "categories": [
-      "Uncategorized",
-      "global",
-      "korea",
-      "Strong",
-      "vc"
+      "features",
+      "kotlin",
+      "tutorials",
+      "jdbc",
+      "spring"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Stop Answering the Same Question Twice: Interval-Aware Caching for Druid at Netflix Scale",
-    "description": "No description available",
+    "title": "Webinar – OSS Power-Ups: XenoAtom.Terminal.UI",
+    "description": "Join us Thursday, April 16, 2026, 15:00 – 16:30 UTC (check other timezones) for our free live webinar, OSS PowerUps – XenoAtom.Terminal.UI, with Alexandre Mutel. This is the fifteenth episode of our series of OSS Power-Ups, where we put a spotlight on open-source .NET projects. Register now and get a reminder, or join on YouTube […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/stop-answering-the-same-question-twice-interval-aware-caching-for-druid-at-netflix-scale-22fadc9b840e?source=rss----2615bd06b42e---4",
-    "pubDate": "Mon, 06 Apr 2026 22:15:14 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://blog.jetbrains.com/dotnet/2026/04/09/webinar-oss-power-ups-xenoatom-terminal-ui/",
+    "pubDate": "Thu, 09 Apr 2026 15:32:51 +0000",
+    "creator": "Matthias Koch",
     "categories": [
-      "apache-druid",
-      "cache"
+      "net-tools",
+      "livestreams",
+      "oss",
+      "power-up",
+      "terminal"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "How to Train Your First TensorFlow Model in PyCharm",
-    "description": "This is a guest post from Iulia Feroli, founder of the Back To Engineering community on YouTube. TensorFlow is a powerful open-source framework for building machine learning and deep learning systems. At its core, it works with tensors (a.k.a multi‑dimensional arrays) and provides high‑level libraries (like Keras) that make it easy to transform raw data […]",
+    "title": "유니티 애셋 / Map track markers VFX / 100% 할인코드",
+    "description": "애셋 명은 Map track markers VFX 이거구요\n바닥 클릭하면 여기라고 표시해주는 이팩트 입니다.\n \n검은 배경에선 멋지게 보이네요\n \n제 게임에도 넣어봐야겠습니다.\n \n \n데모 영상\n영상 - https://youtu.be/3OkmjnaJWRk\n\n\n\n \n \n할인 코드\n할인 코드는 여기에 - https://www.youtube.com/watch?v=Dr6XhNE2obM\n\n\n\n \n \n좋습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/04/how-to-train-your-first-tensorflow-model/",
-    "pubDate": "Tue, 07 Apr 2026 10:36:35 +0000",
-    "creator": "Evgenia Verbina",
+    "link": "https://serverdown.tistory.com/1618",
+    "pubDate": "Sat, 11 Apr 2026 21:52:11 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "data-science",
-      "tutorials",
-      "tensorflow",
-      "tensors"
+      "프로그래밍/개발메모",
+      "유니티",
+      "유니티애셋",
+      "할인"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "AI 활용 능력을 높이기 위한 사내 워크숍, 'Orchestration Development Workshop' 기사 목록",
-    "description": "LY Corporation에서는 개발 업무와 관련된 모든 엔지니어를 대상으로 실제 실무 적용 관점에서 AI 활용 능력을 높이는 워크숍, ‘Orchestration Developme...",
+    "title": "AI 를 돌리기 위해  메모리 128GB 꽂은 서양 개발자 / Zero to MVP",
+    "description": "라즈베리파이 5 AIHAT+ 를 보고 이것저것 보다가 이채널 까지 왔군요\n이분은 83GB 짜리 Nemetron 3 Super  돌리기위한 만반의 준비를 했군요\n네베트론은 엔비디아에서 제공하는 AI 인가봅니다. 처음알았네요\n \n \n영상: https://www.youtube.com/watch?v=advIzSzMAew&lc=UgxEVRAuI1De8c1L9R94AaABAg.AVQZhuj6YgxAVSrNpRZd1_\n\n\n\n \n서양인들의 자금력이란 엄청나군요\n \n영상품질이나 카메라 연출을 봐선 평범하지 않은 분 같습니다.\n장기적으로 지켜봐야겠습니다.\n \n\n\n제일 최근 영상인데 젬마4 군요\n서양 문물을 빨리 받아드려야겠습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/orchestration-development-workshop-article-list",
-    "pubDate": "Fri, 10 Apr 2026 01:59:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1617",
+    "pubDate": "Sat, 11 Apr 2026 21:20:11 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "Ai"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "How Meta Used AI to Map Tribal Knowledge in Large-Scale Data Pipelines",
-    "description": "AI coding assistants are powerful but only as good as their understanding of your codebase. When we pointed AI agents at one of Meta’s large-scale data processing pipelines – spanning four repositories, three languages, and over 4,100 files – we quickly found that they weren’t making useful edits quickly enough.  We fixed this by building [...]\nRead More...\nThe post How Meta Used AI to Map Tribal Knowledge in Large-Scale Data Pipelines appeared first on Engineering at Meta.",
+    "title": "홈서버 AMD 애픽 CPU / AMD EPYC 4545P",
+    "description": "이건 바이오스 정보 인가봅니다.\n \nAM5 소켓 이고\n소비전력이 65w 에 가만히 두면 10 이하로도 내려가는군요\n이정도 스팩이면 SQL 서버도 돌리고 게임서버도 돌릴 수 있겠습니다.\n \n가격이 cpu 만 80만원이군요\n그냥 개발용 컴터로 써도 될꺼 같기도 ...\n이런건 미니 pc 안나오나\n \n영상: https://www.youtube.com/watch?v=eUKgebtkbGk&t=467s",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/04/06/developer-tools/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines/",
-    "pubDate": "Mon, 06 Apr 2026 16:00:50 +0000",
-    "creator": "Unknown",
+    "link": "https://serverdown.tistory.com/1620",
+    "pubDate": "Mon, 13 Apr 2026 10:52:24 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "DevInfra",
-      "ML Applications"
+      "유튜브",
+      "AMD",
+      "홈서버"
     ]
   },
   {
@@ -91,86 +98,29 @@
   {
     "id": 7,
     "imageUrl": "",
-    "title": "온라인 쇼핑, 배달앱 결제 안 될 때 보는 총정리",
-    "description": "외국인이 한국 앱에서 결제가 안 되는 이유와 해결법을 순서대로 알려드려요.",
+    "title": "AI 활용 능력을 높이기 위한 사내 워크숍, 'Orchestration Development Workshop' 기사 목록",
+    "description": "LY Corporation에서는 개발 업무와 관련된 모든 엔지니어를 대상으로 실제 실무 적용 관점에서 AI 활용 능력을 높이는 워크숍, ‘Orchestration Developme...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-9",
-    "pubDate": "Fri, 10 Apr 2026 03:10:00 GMT",
+    "link": "https://techblog.lycorp.co.jp/ko/orchestration-development-workshop-article-list",
+    "pubDate": "Fri, 10 Apr 2026 01:59:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "재미니 검색요청 질문 비용 6원 / @googole/genai / 웹검색 해서 json 으로 받기",
-    "description": "재미니로 제품 가격 정보를 요약하려고 프로그램을 만들다\n웹 검색 요청 기능을 쓰려면 유료 결제 해야하는거 같아서  결제해봤습니다.\n \n처음에 뭔 했는데 미리 충전하는 메뉴를 찾은거 같고\n결제 하니 최소 16,000 원을 해야한다고 해서 했습니다.\n그런데 이건 어디에 충전되었는지 보이질 않네요\n \n두번째로 [지불] 메뉴로 가서  firebase 유저 결제를 이용해서 유료 유저로 변경했습니다.\n처음엔 실패했는데\n두번째 시도하니 성공했습니다.\n \n\n\n이후 유료 유저가 되었구요\n \n\n\n요청을 보낸결과 6원이 소비되었습니다.\n제품 하나 가격 알아보는데 6원이라니 ... 20개쯤 알아봐야하는데 \n쉽지 않겠습니다.\n \n \n// GoogleGenAI : @google/genai\n  const gen_ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });\n  const groundingTool = {\n    googleSearch: {},\n  };\n  const config = {\n    tools: [groundingTool],\n  };\n  const response = await gen_ai.models.generateContent({\n    model: \"gemini-3-flash-preview\", // 또는 사용 가능한 최신 모델 ID\n    contents: req,\n    config,\n  });\n  if (response.text === undefined) {\n    throw new Error(\"gemini_req_api_fail, \" + req);\n  }\n \nconfig 를 넣어야 웹에서 실시간으로 검색한 결과를 받을 수 있었습니다.\n예제코드 찾기가 어려웠는데 결국 찾아서 돌리는데 성공했습니다.\n구글은 자꾸 코드를 버리도 다시만들어서 제대로 도는 코드 찾기가 힘들군요",
+    "title": "토스 카드라운지 “새학기 소비 뚜렷”... 도서·뷰티 결제 두 자릿수 증가",
+    "description": "토스 카드라운지 통해 혜택 비교 가능",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1614",
-    "pubDate": "Sat, 11 Apr 2026 14:45:17 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "인공지능",
-      "제미니"
-    ]
+    "link": "https://toss.im/tossfeed/article/48453",
+    "pubDate": "Mon, 06 Apr 2026 23:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 9,
-    "imageUrl": "",
-    "title": "One Card for Transit, Payments, and Transfers in Korea",
-    "description": "Using separate apps for transit, payments, and transfers? Here’s one card that does it all — from subway rides to shopping and splitting bills.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-10-en",
-    "pubDate": "Fri, 10 Apr 2026 03:35:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "dotInsights | April 2026",
-    "description": "Did you know? You can use LINQ to XML to write queries in a readable and strongly-typed way directly against an XML document, making it one of the most intuitive ways to deal with XML in .NET. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/04/08/dotinsights-april-2026/",
-    "pubDate": "Wed, 08 Apr 2026 13:43:24 +0000",
-    "creator": "Rachel Appel",
-    "categories": [
-      "net-tools",
-      "dotinsights"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "C++23 Support in MSVC Build Tools 14.51",
-    "description": "We’re pleased to provide an update on C++23 support in the Microsoft C++ (MSVC) Build Tools. This blog post will cover the feature additions in MSVC Build Tools version 14.51, including C++23 language features, libraries, and ISO C++ Core Working Group (CWG) and Library Working Group (LWG) Issue resolutions. We’ll also discuss the plans for […]\nThe post C++23 Support in MSVC Build Tools 14.51 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/c23-support-in-msvc-build-tools-14-51/",
-    "pubDate": "Thu, 09 Apr 2026 19:03:57 +0000",
-    "creator": "Daniel Griffing",
-    "categories": [
-      "C++"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "한국에서 계좌 만드는 가장 쉬운 방법",
-    "description": "은행 안 가고도 손쉽게 원할 때 한국 계좌를 만들 수 있는 방법, 알려드려요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-7",
-    "pubDate": "Fri, 10 Apr 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
     "imageUrl": "",
     "title": "1인당 35만 원 지원하는 평생교육이용권 신청하세요",
     "description": "총 11만 5,000명의 수강료와 교재비를 지원해요",
@@ -182,31 +132,91 @@
     "categories": []
   },
   {
-    "id": 14,
+    "id": 10,
     "imageUrl": "",
-    "title": "The Complete Guide to Online Payments in Korea",
-    "description": "Why your payments don’t work on Korean apps — and how to fix them step by step.",
+    "title": "Adversarial AI: Understanding the Threats to Modern AI Systems",
+    "description": "Whether you’re in “fan” or “fear” mode (or somewhere in-between), there’s no denying that Artificial Intelligence changed how we build products, and do business. We’ve always had cybersecurity threats but now the landscape is more complex and we have to consider new forms of fraud detection, customer support, autonomous systems and generative AI hazards. Plus, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-9-en",
-    "pubDate": "Fri, 10 Apr 2026 03:11:00 GMT",
+    "link": "https://blog.jetbrains.com/qodana/2026/04/adversarial-ai-threats/",
+    "pubDate": "Tue, 07 Apr 2026 13:01:09 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "ai",
+      "adversarial-ai"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "온라인 쇼핑, 배달앱 결제 안 될 때 보는 총정리",
+    "description": "외국인이 한국 앱에서 결제가 안 되는 이유와 해결법을 순서대로 알려드려요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/korealifehacks-9",
+    "pubDate": "Fri, 10 Apr 2026 03:10:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 15,
+    "id": 12,
     "imageUrl": "",
-    "title": "Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases",
-    "description": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’re sharing how we escaped this “forking trap” – from building a dual-stack architecture [...]\nRead More...\nThe post Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases appeared first on Engineering at Meta.",
+    "title": "Trust But Canary: Configuration Safety at Scale",
+    "description": "As AI increases developer speed and productivity it also increases the need for safeguards. On this episode of the Meta Tech Podcast, Pascal Hartig sits down with Ishwari and Joe from Meta’s Configurations team to discuss how Meta makes config rollouts safe at scale. Listen in to learn about canarying and progressive rollouts, the health checks [...]\nRead More...\nThe post Trust But Canary: Configuration Safety at Scale appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/04/09/developer-tools/escaping-the-fork-how-meta-modernized-webrtc-across-50-use-cases/",
-    "pubDate": "Thu, 09 Apr 2026 16:00:34 +0000",
+    "link": "https://engineering.fb.com/2026/04/08/security/trust-but-canary-configuration-safety-at-scale-meta-tech-podcast/",
+    "pubDate": "Wed, 08 Apr 2026 18:25:26 +0000",
     "creator": "Unknown",
     "categories": [
+      "Data Infrastructure",
       "DevInfra",
-      "Open Source",
-      "Video Engineering"
+      "Production Engineering",
+      "Security & Privacy",
+      "Meta Tech Podcast"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Take full control of your floating windows in Visual Studio",
+    "description": "Make Visual Studio floating windows work perfectly with PowerToys FancyZones. Flip one option to get independent windows, better snapping, and less friction.\nThe post Take full control of your floating windows in Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/take-full-control-of-your-floating-windows-in-visual-studio/",
+    "pubDate": "Tue, 07 Apr 2026 14:00:39 +0000",
+    "creator": "Mads Kristensen",
+    "categories": [
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 46화, 지각인데스와?",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2439",
+    "pubDate": "Wed, 08 Apr 2026 18:38:31 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "My Journey to Agent-First Development With Air",
+    "description": "Some background I was an active AI user from the moment ChatGPT was first released, and I really liked its UX. Chatting is a familiar activity – I chat with my family, friends, and coworkers every day – so the learning curve was almost non-existent. On top of that, engaging with chatbots was already familiar […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/air/2026/04/my-journey-to-agent-first-development-with-air/",
+    "pubDate": "Thu, 09 Apr 2026 10:38:14 +0000",
+    "creator": "Valerii Tepliakov",
+    "categories": [
+      "ai",
+      "ai-agents"
     ]
   }
 ]
