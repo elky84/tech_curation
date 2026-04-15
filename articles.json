@@ -2,110 +2,87 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "익숙함과 새로움이 버무려진 생태계, 몬스터헌터 스토리즈 3",
+    "title": "Privacy-first connections: Empowering social experiences at Airbnb",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2440",
-    "pubDate": "Fri, 10 Apr 2026 17:36:12 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://medium.com/airbnb-engineering/privacy-first-connections-empowering-social-experiences-at-airbnb-d7dec59ef960?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 14 Apr 2026 17:01:01 GMT",
+    "creator": "Joy Jing",
     "categories": [
-      "게임툰"
+      "user-experience",
+      "data-privacy",
+      "data",
+      "privacy",
+      "engineering"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "대만 획득에대한 예언영상",
-    "description": "영상: https://www.youtube.com/watch?v=fwA6ny8fb1s\n\n\n\n \n일론 머스크 발 이구요\n1. 중국은 대만을 홍총 빼온다.\n2. 일론은 반도체 인력은 미리 미국으로 빼온다.\n3. 대만은 어차피 반도체 인력 뺏기면 가치가 없어지는 국가이기 때문에 노발 대발한다.\n상황은 이거 세가지가 돌아가고 있습니다.\n \n중요한 내용으로는\n반도체 패키징 방식이 너무 비효울 적이라 공장옆에 다음공장을 짓는게 맞습니다.\n그래서 공장을 크게크게 지을 것입니다.\n \n대만은 시간의 문제지 중국이 흡수하게 될 것 같습니다.\n외부에서 반도체 인력을 계속 빼올 것이고\n \n미국도 언제까지 대만을 지켜주기 쉽지 않습니다.\n대만도 친중이라기 보단 중국의 포섭활동으로 스파이가 존재합니다.\n이러면 베트남 처럼 지켜줘봐야 부패하는 상황이 발생하기 때문에\n길게보면 못 지킬 것이라는  설이 있습니다.\n \n만약 미중이 이것에 합의가 있다면\n중국은 전쟁 비용을 쓰느니 미국 채권을 사주는게 나을 것입니다.\n \n다음의 투자처는\n휴머노이드\n반도체 패키징  (대만 아닌쪽에) - 한국 이야기인가 ...",
+    "title": "교통비부터 온라인 쇼핑까지, 한 장으로 다 되는 토스뱅크 체크카드",
+    "description": "교통카드 따로, 결제카드 따로, 송금앱 따로 쓰고 있다면? 지하철부터 쇼핑몰 결제, 더치페이까지 한 장으로 되는 카드를 알려드려요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1621",
-    "pubDate": "Mon, 13 Apr 2026 12:07:45 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브"
-    ]
+    "link": "https://toss.im/tossfeed/article/korealifehacks-10",
+    "pubDate": "Fri, 10 Apr 2026 03:29:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Take full control of your floating windows in Visual Studio",
-    "description": "Make Visual Studio floating windows work perfectly with PowerToys FancyZones. Flip one option to get independent windows, better snapping, and less friction.\nThe post Take full control of your floating windows in Visual Studio appeared first on Visual Studio Blog.",
+    "title": "dotInsights | April 2026",
+    "description": "Did you know? You can use LINQ to XML to write queries in a readable and strongly-typed way directly against an XML document, making it one of the most intuitive ways to deal with XML in .NET. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/take-full-control-of-your-floating-windows-in-visual-studio/",
-    "pubDate": "Tue, 07 Apr 2026 14:00:39 +0000",
-    "creator": "Mads Kristensen",
+    "link": "https://blog.jetbrains.com/dotnet/2026/04/08/dotinsights-april-2026/",
+    "pubDate": "Wed, 08 Apr 2026 13:43:24 +0000",
+    "creator": "Rachel Appel",
     "categories": [
-      "Visual Studio"
+      "net-tools",
+      "dotinsights"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "How to Send Money Home from Korea: Fees, Apps, and How to Save",
-    "description": "Compare fees across transfer apps and learn \nhow to save before sending money from Korea.",
+    "title": "QueryDSL을 이용한 Batch Update 성능 개선",
+    "description": "JPA 환경에서 QueryDSL-SQL을 활용해 대량 데이터 업데이트 성능을 획기적으로 개선하는 방법을 소개합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-8-en",
-    "pubDate": "Fri, 10 Apr 2026 03:00:00 GMT",
+    "link": "https://cheese10yun.github.io/querydsl-batch-update/",
+    "pubDate": "Mon, 13 Apr 2026 15:00:00 GMT",
     "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "한국에서 해외송금할 때 알아야 할 모든 것",
-    "description": "해외송금 플랫폼별 수수료부터 수수료 절감 팁까지, 송금하기 전에 이 글부터 확인해 보세요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-8",
-    "pubDate": "Fri, 10 Apr 2026 02:59:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "토스인컴, 5월 종소세 신고 앞두고 업계 유일 '올해 환급액 미리보기' 서비스 출시",
-    "description": "예상 환급액 사전에 확인할 수 있어",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/48451",
-    "pubDate": "Wed, 08 Apr 2026 23:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "How (Not) to Learn Python",
-    "description": "While listening to Mark Smith’s inspirational talk for Python Unplugged on PyTV about How to Learn Python, what caught my attention was that Mark suggested turning off some of PyCharm’s AI features to help you learn Python more effectively. As a PyCharm user myself, I’ve found the AI-powered features beneficial in my day-to-day work; however, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/04/how-not-to-learn-python/",
-    "pubDate": "Fri, 10 Apr 2026 14:21:21 +0000",
-    "creator": "Cheuk Ting Ho",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "C++23 Support in MSVC Build Tools 14.51",
-    "description": "We’re pleased to provide an update on C++23 support in the Microsoft C++ (MSVC) Build Tools. This blog post will cover the feature additions in MSVC Build Tools version 14.51, including C++23 language features, libraries, and ISO C++ Core Working Group (CWG) and Library Working Group (LWG) Issue resolutions. We’ll also discuss the plans for […]\nThe post C++23 Support in MSVC Build Tools 14.51 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/c23-support-in-msvc-build-tools-14-51/",
-    "pubDate": "Thu, 09 Apr 2026 19:03:57 +0000",
-    "creator": "Daniel Griffing",
     "categories": [
-      "C++",
-      "MSVC"
+      {
+        "_": "Performance",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/Performance/"
+        }
+      },
+      {
+        "_": "JPA",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/JPA/"
+        }
+      },
+      {
+        "_": "ORM",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/ORM/"
+        }
+      },
+      {
+        "_": "Querydsl",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/Querydsl/"
+        }
+      }
     ]
   },
   {
-    "id": 9,
+    "id": 5,
     "imageUrl": "",
     "title": "유니티 애셋 Puppet3D  / 유니티 안에서 리깅 모델 수정 가능",
     "description": "블렌더를 배우기에는 길이 너무 멉니다.\n유니티 안에서 모델을 편집할 수 있는 애셋이 있읍니다.\n한번 보시고\n \n뼈위치 정도 옮기고 부스러기 삭제하실 분은 이걸 그냥 쓰시는게 ...\n \n \n영상: https://youtu.be/zKpMUgu7wQw",
@@ -123,7 +100,43 @@
     ]
   },
   {
-    "id": 10,
+    "id": 6,
+    "imageUrl": "",
+    "title": "Using Spring Data JDBC With Kotlin",
+    "description": "This post was written together with Thorben Janssen, who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hibernate Problems” and the JPA newsletter. Spring Data JDBC provides a simple and predictable persistence model. It focuses on aggregate roots, constructor-based mapping, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/04/using-spring-data-jdbc-with-kotlin/",
+    "pubDate": "Thu, 09 Apr 2026 11:46:14 +0000",
+    "creator": "Teodor Irkhin",
+    "categories": [
+      "features",
+      "kotlin",
+      "tutorials",
+      "jdbc",
+      "spring"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Webinar – OSS Power-Ups: XenoAtom.Terminal.UI",
+    "description": "Join us Thursday, April 16, 2026, 15:00 – 16:30 UTC (check other timezones) for our free live webinar, OSS PowerUps – XenoAtom.Terminal.UI, with Alexandre Mutel. This is the fifteenth episode of our series of OSS Power-Ups, where we put a spotlight on open-source .NET projects. Register now and get a reminder, or join on YouTube […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/04/09/webinar-oss-power-ups-xenoatom-terminal-ui/",
+    "pubDate": "Thu, 09 Apr 2026 15:32:51 +0000",
+    "creator": "Matthias Koch",
+    "categories": [
+      "net-tools",
+      "livestreams",
+      "oss",
+      "power-up",
+      "terminal"
+    ]
+  },
+  {
+    "id": 8,
     "imageUrl": "",
     "title": "Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases",
     "description": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’re sharing how we escaped this “forking trap” – from building a dual-stack architecture [...]\nRead More...\nThe post Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases appeared first on Engineering at Meta.",
@@ -139,78 +152,105 @@
     ]
   },
   {
-    "id": 11,
+    "id": 9,
     "imageUrl": "",
-    "title": "How can people find purpose in work themselves?",
+    "title": "익숙함과 새로움이 버무려진 생태계, 몬스터헌터 스토리즈 3",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/purposeinwork",
-    "pubDate": "Thu, 09 Apr 2026 10:26:00 GMT",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2440",
+    "pubDate": "Fri, 10 Apr 2026 17:36:12 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "How to Send Money Home from Korea: Fees, Apps, and How to Save",
+    "description": "Compare fees across transfer apps and learn \nhow to save before sending money from Korea.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/korealifehacks-8-en",
+    "pubDate": "Fri, 10 Apr 2026 03:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 12,
+    "id": 11,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 46화, 지각인데스와?",
-    "description": "No description available",
+    "title": "482일차 - 영상 발라 게임만들기 / 구글 vids / 유니티 COLOR MASK",
+    "description": "영상: https://www.youtube.com/watch?v=KZ-CoNpItaQ&t=647s\n\n\n\n \n영상을 이어 붙여 게임을 만들고 있구요\n드리미나로 영상 유료로 뽑고 있었는데\n구글에서 공짜로 vids 를 풀었습니다.\n \n크로마키  영상에 뒷면을 날리고 합성하는 걸 테스트해봤는데 잘되었습니다.\n유니티의 COLOR MASK 기능을 이용했구요\n그 내용이 안에 있습니다.\n \n현재 리소스를 자동으로 관리하는 기능을 넣고 있는데 \n제대로 동작을 안해서 많은 시간을 고치는데 사용하고 있군요 \n게임 좀 쉽게 만드려나 일이 늘어나고 있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2439",
-    "pubDate": "Wed, 08 Apr 2026 18:38:31 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://serverdown.tistory.com/1619",
+    "pubDate": "Sun, 12 Apr 2026 23:23:17 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "웹툰"
+      "프로그래밍/자작",
+      "개발로그",
+      "셰이더",
+      "영상생성",
+      "유니티"
     ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "AI 활용 능력을 높이기 위한 사내 워크숍, 'Orchestration Development Workshop' 기사 목록",
+    "description": "LY Corporation에서는 개발 업무와 관련된 모든 엔지니어를 대상으로 실제 실무 적용 관점에서 AI 활용 능력을 높이는 워크숍, ‘Orchestration Developme...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/orchestration-development-workshop-article-list",
+    "pubDate": "Fri, 10 Apr 2026 01:59:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "유니티 애셋 / Map track markers VFX / 100% 할인코드",
-    "description": "애셋 명은 Map track markers VFX 이거구요\n바닥 클릭하면 여기라고 표시해주는 이팩트 입니다.\n \n검은 배경에선 멋지게 보이네요\n \n제 게임에도 넣어봐야겠습니다.\n \n \n데모 영상\n영상 - https://youtu.be/3OkmjnaJWRk\n\n\n\n \n \n할인 코드\n할인 코드는 여기에 - https://www.youtube.com/watch?v=Dr6XhNE2obM\n\n\n\n \n \n좋습니다.",
+    "title": "대만 획득에대한 예언영상",
+    "description": "영상: https://www.youtube.com/watch?v=fwA6ny8fb1s\n\n\n\n \n일론 머스크 발 이구요\n1. 중국은 대만을 홍총 빼온다.\n2. 일론은 반도체 인력은 미리 미국으로 빼온다.\n3. 대만은 어차피 반도체 인력 뺏기면 가치가 없어지는 국가이기 때문에 노발 대발한다.\n상황은 이거 세가지가 돌아가고 있습니다.\n \n중요한 내용으로는\n반도체 패키징 방식이 너무 비효울 적이라 공장옆에 다음공장을 짓는게 맞습니다.\n그래서 공장을 크게크게 지을 것입니다.\n \n대만은 시간의 문제지 중국이 흡수하게 될 것 같습니다.\n외부에서 반도체 인력을 계속 빼올 것이고\n \n미국도 언제까지 대만을 지켜주기 쉽지 않습니다.\n대만도 친중이라기 보단 중국의 포섭활동으로 스파이가 존재합니다.\n이러면 베트남 처럼 지켜줘봐야 부패하는 상황이 발생하기 때문에\n길게보면 못 지킬 것이라는  설이 있습니다.\n \n만약 미중이 이것에 합의가 있다면\n중국은 전쟁 비용을 쓰느니 미국 채권을 사주는게 나을 것입니다.\n \n다음의 투자처는\n휴머노이드\n반도체 패키징  (대만 아닌쪽에) - 한국 이야기인가 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1618",
-    "pubDate": "Sat, 11 Apr 2026 21:52:11 +0900",
+    "link": "https://serverdown.tistory.com/1621",
+    "pubDate": "Mon, 13 Apr 2026 12:07:45 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "프로그래밍/개발메모",
-      "유니티",
-      "유니티애셋",
-      "할인"
+      "유튜브"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "1원 1표",
-    "description": "민주주의에서는 그 구성원의 위치, 능력, 재력과는 상관없이 한 사람이 한 표를 행사할 수 있다. 즉 1인 1표 원칙이다. 이와는 달리, 그리고 이게 적당한 비유인지 모르겠지만, 자본주의에서는 재력이 가장 중요하고, 돈이 표이기 때문에 1원 1표 원칙이다. 한국과 미국 회사에 동시에 투자하면서 최근 몇 년 동안 내가 한국에서 바뀌었으면 하는 게 몇 개 있는데, 그중 가장 바꾸고(...)",
+    "title": "재미니 검색요청 질문 비용 6원 / @googole/genai / 웹검색 해서 json 으로 받기",
+    "description": "재미니로 제품 가격 정보를 요약하려고 프로그램을 만들다\n웹 검색 요청 기능을 쓰려면 유료 결제 해야하는거 같아서  결제해봤습니다.\n \n처음에 뭔 했는데 미리 충전하는 메뉴를 찾은거 같고\n결제 하니 최소 16,000 원을 해야한다고 해서 했습니다.\n그런데 이건 어디에 충전되었는지 보이질 않네요\n \n두번째로 [지불] 메뉴로 가서  firebase 유저 결제를 이용해서 유료 유저로 변경했습니다.\n처음엔 실패했는데\n두번째 시도하니 성공했습니다.\n \n\n\n이후 유료 유저가 되었구요\n \n\n\n요청을 보낸결과 6원이 소비되었습니다.\n제품 하나 가격 알아보는데 6원이라니 ... 20개쯤 알아봐야하는데 \n쉽지 않겠습니다.\n \n \n// GoogleGenAI : @google/genai\n  const gen_ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });\n  const groundingTool = {\n    googleSearch: {},\n  };\n  const config = {\n    tools: [groundingTool],\n  };\n  const response = await gen_ai.models.generateContent({\n    model: \"gemini-3-flash-preview\", // 또는 사용 가능한 최신 모델 ID\n    contents: req,\n    config,\n  });\n  if (response.text === undefined) {\n    throw new Error(\"gemini_req_api_fail, \" + req);\n  }\n \nconfig 를 넣어야 웹에서 실시간으로 검색한 결과를 받을 수 있었습니다.\n예제코드 찾기가 어려웠는데 결국 찾아서 돌리는데 성공했습니다.\n구글은 자꾸 코드를 버리도 다시만들어서 제대로 도는 코드 찾기가 힘들군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/04/one-won-one-vote.html",
-    "pubDate": "Sun, 12 Apr 2026 21:28:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://serverdown.tistory.com/1614",
+    "pubDate": "Sat, 11 Apr 2026 14:45:17 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Uncategorized",
-      "korea",
-      "Strong",
-      "vc"
+      "프로그래밍/개발메모",
+      "인공지능",
+      "제미니"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "dotInsights | April 2026",
-    "description": "Did you know? You can use LINQ to XML to write queries in a readable and strongly-typed way directly against an XML document, making it one of the most intuitive ways to deal with XML in .NET. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. […]",
+    "title": "Three ways to connect an AI agent to your business data",
+    "description": "There are several ways to connect an AI agent to your data. Each approach solves a different problem and comes with its own trade-offs, what you’re really choosing between is speed and reliability. In this post, we’ll explore how to balance the two to get the best results for your team and use case. Today, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/04/08/dotinsights-april-2026/",
-    "pubDate": "Wed, 08 Apr 2026 13:43:24 +0000",
-    "creator": "Rachel Appel",
+    "link": "https://blog.jetbrains.com/databao/2026/04/three-ways-to-connect-an-agent/",
+    "pubDate": "Tue, 14 Apr 2026 10:00:00 +0000",
+    "creator": "Claire Amaouche",
     "categories": [
-      "net-tools",
-      "dotinsights"
+      "ai",
+      "data",
+      "data-science"
     ]
   }
 ]
