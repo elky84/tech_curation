@@ -2,87 +2,156 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Privacy-first connections: Empowering social experiences at Airbnb",
-    "description": "No description available",
+    "title": "How (Not) to Learn Python",
+    "description": "While listening to Mark Smith’s inspirational talk for Python Unplugged on PyTV about How to Learn Python, what caught my attention was that Mark suggested turning off some of PyCharm’s AI features to help you learn Python more effectively. As a PyCharm user myself, I’ve found the AI-powered features beneficial in my day-to-day work; however, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/privacy-first-connections-empowering-social-experiences-at-airbnb-d7dec59ef960?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 14 Apr 2026 17:01:01 GMT",
-    "creator": "Joy Jing",
-    "categories": [
-      "user-experience",
-      "data-privacy",
-      "data",
-      "privacy",
-      "engineering"
-    ]
+    "link": "https://blog.jetbrains.com/pycharm/2026/04/how-not-to-learn-python/",
+    "pubDate": "Fri, 10 Apr 2026 14:21:21 +0000",
+    "creator": "Cheuk Ting Ho",
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "교통비부터 온라인 쇼핑까지, 한 장으로 다 되는 토스뱅크 체크카드",
-    "description": "교통카드 따로, 결제카드 따로, 송금앱 따로 쓰고 있다면? 지하철부터 쇼핑몰 결제, 더치페이까지 한 장으로 되는 카드를 알려드려요.",
+    "title": "라즈베리파이5와 AIHAT+ 출시",
+    "description": "라즈베리파이 5 에 AIHAT+ 붙은 모델이 나왔습니다. 그런데 성능이 좋네요\n기존 파이5 는 TOPS 성능이 0.2 입니다.\n이번에 나온 AIHAT+ 는 20 정도 됩니다.\nM4 맥미니는 38 정도 된다고 합니다.\n20만원가격에 맥미니의 절반 속도가 나온다니 대단하군요\n \nAIHAT+ 2 는 40 까지도 나온다는데 아직 적용이 안되었군요\n파이5는 전력 문제로 안쓸꺼 같았는데 이러면 좀 이야기가 달라지겠군요\nLLM 도 돌릴 수 있다는 영상이 있군요\n \n소개 영상\n영상: https://www.youtube.com/watch?v=rELHzPj4nK4\n\n\n\n \n내장된채로 나오는게 아니고\n보드위에 보드를 하나 더 꽃는군요\n\n\n합체 !\n \n \nLLM 돌리는 영상\n영상: https://www.youtube.com/watch?v=wK2XSmyIGFE&t=305s\n\n\n\n \n \n오픈클로도 잘 돌구요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-10",
-    "pubDate": "Fri, 10 Apr 2026 03:29:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1613",
+    "pubDate": "Fri, 10 Apr 2026 21:06:19 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "LLM",
+      "라즈베리파이",
+      "인공지능"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "dotInsights | April 2026",
-    "description": "Did you know? You can use LINQ to XML to write queries in a readable and strongly-typed way directly against an XML document, making it one of the most intuitive ways to deal with XML in .NET. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. […]",
+    "title": "Evaluating Netflix Show Synopses with LLM-as-a-Judge",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/04/08/dotinsights-april-2026/",
-    "pubDate": "Wed, 08 Apr 2026 13:43:24 +0000",
-    "creator": "Rachel Appel",
-    "categories": [
-      "net-tools",
-      "dotinsights"
-    ]
+    "link": "https://netflixtechblog.com/evaluating-netflix-show-synopses-with-llm-as-a-judge-6269251e6f28?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 10 Apr 2026 16:26:01 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "QueryDSL을 이용한 Batch Update 성능 개선",
-    "description": "JPA 환경에서 QueryDSL-SQL을 활용해 대량 데이터 업데이트 성능을 획기적으로 개선하는 방법을 소개합니다.",
+    "title": "적게 팔수록 수익이 커지는 마스터스 골프 대회",
+    "description": "희소성의 경제학으로 완성된 스포츠 비즈니스",
     "reviews": [],
     "syllabus": [],
-    "link": "https://cheese10yun.github.io/querydsl-batch-update/",
-    "pubDate": "Mon, 13 Apr 2026 15:00:00 GMT",
+    "link": "https://toss.im/tossfeed/article/moneyball-11",
+    "pubDate": "Fri, 10 Apr 2026 01:24:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      {
-        "_": "Performance",
-        "$": {
-          "domain": "https://cheese10yun.github.io/tags/Performance/"
-        }
-      },
-      {
-        "_": "JPA",
-        "$": {
-          "domain": "https://cheese10yun.github.io/tags/JPA/"
-        }
-      },
-      {
-        "_": "ORM",
-        "$": {
-          "domain": "https://cheese10yun.github.io/tags/ORM/"
-        }
-      },
-      {
-        "_": "Querydsl",
-        "$": {
-          "domain": "https://cheese10yun.github.io/tags/Querydsl/"
-        }
-      }
-    ]
+    "categories": []
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "1인당 35만 원 지원하는 평생교육이용권 신청하세요",
+    "description": "총 11만 5,000명의 수강료와 교재비를 지원해요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-policies-59",
+    "pubDate": "Fri, 10 Apr 2026 06:02:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 47화, 후일담데스와 ①",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2441",
+    "pubDate": "Wed, 15 Apr 2026 23:54:26 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "TeamCity 2025.11.4 Is Out",
+    "description": "Our final bug-fix update for the 2025.11 On-Premises servers is now available. Version 2025.11.4 addresses a few issues, including the folowing: All TeamCity bug-fix updates include performance and security improvements, so we recommend that you never skip these minor updates. See TeamCity 2025.11.4 Release Notes for the complete list of resolved issues. Why update? Staying […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/04/teamcity-2025-11-4-bug-fix/",
+    "pubDate": "Wed, 15 Apr 2026 14:30:47 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "bug-fix"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Understanding AI’s Impact on Developer Workflows",
+    "description": "AI coding assistants are no longer shiny add‑ons: they are standard parts of our daily workflows. We know developers’ perspectives on them in the short term, and many say they get more done and spend less time on boilerplate or boring tasks. But we know far less about what happens over years of real work […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/04/ai-impact-developer-workflows/",
+    "pubDate": "Wed, 15 Apr 2026 17:00:32 +0000",
+    "creator": "Katie Fraser",
+    "categories": [
+      "research",
+      "hax",
+      "human-ai-experience",
+      "jetbrains-research",
+      "mixed-methods-study"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "재미니 검색요청 질문 비용 6원 / @googole/genai / 웹검색 해서 json 으로 받기",
+    "description": "재미니로 제품 가격 정보를 요약하려고 프로그램을 만들다\n웹 검색 요청 기능을 쓰려면 유료 결제 해야하는거 같아서  결제해봤습니다.\n \n처음에 뭔 했는데 미리 충전하는 메뉴를 찾은거 같고\n결제 하니 최소 16,000 원을 해야한다고 해서 했습니다.\n그런데 이건 어디에 충전되었는지 보이질 않네요\n \n두번째로 [지불] 메뉴로 가서  firebase 유저 결제를 이용해서 유료 유저로 변경했습니다.\n처음엔 실패했는데\n두번째 시도하니 성공했습니다.\n \n\n\n이후 유료 유저가 되었구요\n \n\n\n요청을 보낸결과 6원이 소비되었습니다.\n제품 하나 가격 알아보는데 6원이라니 ... 20개쯤 알아봐야하는데 \n쉽지 않겠습니다.\n \n \n// GoogleGenAI : @google/genai\n  const gen_ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });\n  const groundingTool = {\n    googleSearch: {},\n  };\n  const config = {\n    tools: [groundingTool],\n  };\n  const response = await gen_ai.models.generateContent({\n    model: \"gemini-3-flash-preview\", // 또는 사용 가능한 최신 모델 ID\n    contents: req,\n    config,\n  });\n  if (response.text === undefined) {\n    throw new Error(\"gemini_req_api_fail, \" + req);\n  }\n \nconfig 를 넣어야 웹에서 실시간으로 검색한 결과를 받을 수 있었습니다.\n예제코드 찾기가 어려웠는데 결국 찾아서 돌리는데 성공했습니다.\n구글은 자꾸 코드를 버리도 다시만들어서 제대로 도는 코드 찾기가 힘들군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1614",
+    "pubDate": "Sat, 11 Apr 2026 14:45:17 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/개발메모",
+      "인공지능",
+      "제미니"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "How can people find purpose in work themselves?",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/purposeinwork",
+    "pubDate": "Thu, 09 Apr 2026 10:26:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "데이터 시인성 - 9th",
+    "description": "변수 고유개수 발생 추이.\n\n\n\n\n변수 고유개수의 이상치를 제거하는 outlier 적용 결과.\n\n\n\n\n원본 차트와 outlier 실행 결과를 같이 보려면?\n\n\n변수와 outlier 분석 대상인 고유개수 필드가 동시에 존재해야 한다.\n\n\n\n\neventstats 집계를 통해 이벤트 단위로 고유개수 필드 추가.\n\n\n\n\n변수와 고유개수 필드가 따로 존재하니 차트를 동시에 그릴 수 있다. 그런데 차트 변화가 똑같네?\n\n\n\n\ntimechart를 사용할 때는 모집단 범위가 24시간 단위, 31개 데이터였는데, eventstats에서는 같은 계산 간격이라도 모집단 범위가 4만여 개로 늘어나면서 outlier 동작에 영향을 준 듯. 계산 간격을 바꾸니 변동이 발생하긴 한다. \n\n\n\n\n같은 모집단을 적용하려면?\n\n\n\n\n고유개수와 outlier 작업을 주검색과 보조검색으로 분리 후, appendcols로 결합.\n\n\n\n\n\n관련 글\n\n데이터 시인성 - 8th\n데이터 시인성\nhaving query\nSplunk의 해시 변환\n네트워크 관계망 그리기\n엘라스틱의 합집합 집계",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/04/9th.html",
+    "pubDate": "2026-04-15T12:49:24.455Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "유니티 애셋 Puppet3D  / 유니티 안에서 리깅 모델 수정 가능",
     "description": "블렌더를 배우기에는 길이 너무 멉니다.\n유니티 안에서 모델을 편집할 수 있는 애셋이 있읍니다.\n한번 보시고\n \n뼈위치 정도 옮기고 부스러기 삭제하실 분은 이걸 그냥 쓰시는게 ...\n \n \n영상: https://youtu.be/zKpMUgu7wQw",
@@ -100,7 +169,38 @@
     ]
   },
   {
-    "id": 6,
+    "id": 13,
+    "imageUrl": "",
+    "title": "홈서버 AMD 애픽 CPU / AMD EPYC 4545P",
+    "description": "이건 바이오스 정보 인가봅니다.\n \nAM5 소켓 이고\n소비전력이 65w 에 가만히 두면 10 이하로도 내려가는군요\n이정도 스팩이면 SQL 서버도 돌리고 게임서버도 돌릴 수 있겠습니다.\n \n가격이 cpu 만 80만원이군요\n그냥 개발용 컴터로 써도 될꺼 같기도 ...\n이런건 미니 pc 안나오나\n \n영상: https://www.youtube.com/watch?v=eUKgebtkbGk&t=467s",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1620",
+    "pubDate": "Mon, 13 Apr 2026 10:52:24 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브",
+      "AMD",
+      "홈서버"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "MSVC Build Tools Version 14.51 Release Candidate Now Available",
+    "description": "Try out the final preview of MSVC Build Tools v14.51\nThe post MSVC Build Tools Version 14.51 Release Candidate Now Available appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-version-14-51-release-candidate-now-available/",
+    "pubDate": "Tue, 14 Apr 2026 08:00:53 +0000",
+    "creator": "Eric Brumer",
+    "categories": [
+      "C++",
+      "MSVC"
+    ]
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "Using Spring Data JDBC With Kotlin",
     "description": "This post was written together with Thorben Janssen, who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hibernate Problems” and the JPA newsletter. Spring Data JDBC provides a simple and predictable persistence model. It focuses on aggregate roots, constructor-based mapping, […]",
@@ -115,142 +215,6 @@
       "tutorials",
       "jdbc",
       "spring"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Webinar – OSS Power-Ups: XenoAtom.Terminal.UI",
-    "description": "Join us Thursday, April 16, 2026, 15:00 – 16:30 UTC (check other timezones) for our free live webinar, OSS PowerUps – XenoAtom.Terminal.UI, with Alexandre Mutel. This is the fifteenth episode of our series of OSS Power-Ups, where we put a spotlight on open-source .NET projects. Register now and get a reminder, or join on YouTube […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/04/09/webinar-oss-power-ups-xenoatom-terminal-ui/",
-    "pubDate": "Thu, 09 Apr 2026 15:32:51 +0000",
-    "creator": "Matthias Koch",
-    "categories": [
-      "net-tools",
-      "livestreams",
-      "oss",
-      "power-up",
-      "terminal"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases",
-    "description": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’re sharing how we escaped this “forking trap” – from building a dual-stack architecture [...]\nRead More...\nThe post Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/04/09/developer-tools/escaping-the-fork-how-meta-modernized-webrtc-across-50-use-cases/",
-    "pubDate": "Thu, 09 Apr 2026 16:00:34 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "DevInfra",
-      "Open Source",
-      "Video Engineering"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "익숙함과 새로움이 버무려진 생태계, 몬스터헌터 스토리즈 3",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2440",
-    "pubDate": "Fri, 10 Apr 2026 17:36:12 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "How to Send Money Home from Korea: Fees, Apps, and How to Save",
-    "description": "Compare fees across transfer apps and learn \nhow to save before sending money from Korea.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/korealifehacks-8-en",
-    "pubDate": "Fri, 10 Apr 2026 03:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "482일차 - 영상 발라 게임만들기 / 구글 vids / 유니티 COLOR MASK",
-    "description": "영상: https://www.youtube.com/watch?v=KZ-CoNpItaQ&t=647s\n\n\n\n \n영상을 이어 붙여 게임을 만들고 있구요\n드리미나로 영상 유료로 뽑고 있었는데\n구글에서 공짜로 vids 를 풀었습니다.\n \n크로마키  영상에 뒷면을 날리고 합성하는 걸 테스트해봤는데 잘되었습니다.\n유니티의 COLOR MASK 기능을 이용했구요\n그 내용이 안에 있습니다.\n \n현재 리소스를 자동으로 관리하는 기능을 넣고 있는데 \n제대로 동작을 안해서 많은 시간을 고치는데 사용하고 있군요 \n게임 좀 쉽게 만드려나 일이 늘어나고 있습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1619",
-    "pubDate": "Sun, 12 Apr 2026 23:23:17 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/자작",
-      "개발로그",
-      "셰이더",
-      "영상생성",
-      "유니티"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "AI 활용 능력을 높이기 위한 사내 워크숍, 'Orchestration Development Workshop' 기사 목록",
-    "description": "LY Corporation에서는 개발 업무와 관련된 모든 엔지니어를 대상으로 실제 실무 적용 관점에서 AI 활용 능력을 높이는 워크숍, ‘Orchestration Developme...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/orchestration-development-workshop-article-list",
-    "pubDate": "Fri, 10 Apr 2026 01:59:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "대만 획득에대한 예언영상",
-    "description": "영상: https://www.youtube.com/watch?v=fwA6ny8fb1s\n\n\n\n \n일론 머스크 발 이구요\n1. 중국은 대만을 홍총 빼온다.\n2. 일론은 반도체 인력은 미리 미국으로 빼온다.\n3. 대만은 어차피 반도체 인력 뺏기면 가치가 없어지는 국가이기 때문에 노발 대발한다.\n상황은 이거 세가지가 돌아가고 있습니다.\n \n중요한 내용으로는\n반도체 패키징 방식이 너무 비효울 적이라 공장옆에 다음공장을 짓는게 맞습니다.\n그래서 공장을 크게크게 지을 것입니다.\n \n대만은 시간의 문제지 중국이 흡수하게 될 것 같습니다.\n외부에서 반도체 인력을 계속 빼올 것이고\n \n미국도 언제까지 대만을 지켜주기 쉽지 않습니다.\n대만도 친중이라기 보단 중국의 포섭활동으로 스파이가 존재합니다.\n이러면 베트남 처럼 지켜줘봐야 부패하는 상황이 발생하기 때문에\n길게보면 못 지킬 것이라는  설이 있습니다.\n \n만약 미중이 이것에 합의가 있다면\n중국은 전쟁 비용을 쓰느니 미국 채권을 사주는게 나을 것입니다.\n \n다음의 투자처는\n휴머노이드\n반도체 패키징  (대만 아닌쪽에) - 한국 이야기인가 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1621",
-    "pubDate": "Mon, 13 Apr 2026 12:07:45 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "재미니 검색요청 질문 비용 6원 / @googole/genai / 웹검색 해서 json 으로 받기",
-    "description": "재미니로 제품 가격 정보를 요약하려고 프로그램을 만들다\n웹 검색 요청 기능을 쓰려면 유료 결제 해야하는거 같아서  결제해봤습니다.\n \n처음에 뭔 했는데 미리 충전하는 메뉴를 찾은거 같고\n결제 하니 최소 16,000 원을 해야한다고 해서 했습니다.\n그런데 이건 어디에 충전되었는지 보이질 않네요\n \n두번째로 [지불] 메뉴로 가서  firebase 유저 결제를 이용해서 유료 유저로 변경했습니다.\n처음엔 실패했는데\n두번째 시도하니 성공했습니다.\n \n\n\n이후 유료 유저가 되었구요\n \n\n\n요청을 보낸결과 6원이 소비되었습니다.\n제품 하나 가격 알아보는데 6원이라니 ... 20개쯤 알아봐야하는데 \n쉽지 않겠습니다.\n \n \n// GoogleGenAI : @google/genai\n  const gen_ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });\n  const groundingTool = {\n    googleSearch: {},\n  };\n  const config = {\n    tools: [groundingTool],\n  };\n  const response = await gen_ai.models.generateContent({\n    model: \"gemini-3-flash-preview\", // 또는 사용 가능한 최신 모델 ID\n    contents: req,\n    config,\n  });\n  if (response.text === undefined) {\n    throw new Error(\"gemini_req_api_fail, \" + req);\n  }\n \nconfig 를 넣어야 웹에서 실시간으로 검색한 결과를 받을 수 있었습니다.\n예제코드 찾기가 어려웠는데 결국 찾아서 돌리는데 성공했습니다.\n구글은 자꾸 코드를 버리도 다시만들어서 제대로 도는 코드 찾기가 힘들군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1614",
-    "pubDate": "Sat, 11 Apr 2026 14:45:17 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "인공지능",
-      "제미니"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Three ways to connect an AI agent to your business data",
-    "description": "There are several ways to connect an AI agent to your data. Each approach solves a different problem and comes with its own trade-offs, what you’re really choosing between is speed and reliability. In this post, we’ll explore how to balance the two to get the best results for your team and use case. Today, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/databao/2026/04/three-ways-to-connect-an-agent/",
-    "pubDate": "Tue, 14 Apr 2026 10:00:00 +0000",
-    "creator": "Claire Amaouche",
-    "categories": [
-      "ai",
-      "data",
-      "data-science"
     ]
   }
 ]
