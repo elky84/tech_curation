@@ -2,91 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents",
-    "description": "Spring AI is the application-facing integration layer you may already use. Koog is the next layer up when you need agent orchestration. Spring AI already covers the chat model API, chat memory, and vector storage for RAG, and it provides Spring Boot starters with auto-configuration. Koog’s role is not to erase that, but rather to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/",
-    "pubDate": "Thu, 16 Apr 2026 14:01:57 +0000",
-    "creator": "Maria Tigina",
-    "categories": []
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "MSVC Build Tools Version 14.51 Release Candidate Now Available",
-    "description": "Try out the final preview of MSVC Build Tools v14.51\nThe post MSVC Build Tools Version 14.51 Release Candidate Now Available appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-version-14-51-release-candidate-now-available/",
-    "pubDate": "Tue, 14 Apr 2026 08:00:53 +0000",
-    "creator": "Eric Brumer",
-    "categories": [
-      "C++",
-      "MSVC"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Privacy-first connections: Empowering social experiences at Airbnb",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/privacy-first-connections-empowering-social-experiences-at-airbnb-d7dec59ef960?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 14 Apr 2026 17:01:01 GMT",
-    "creator": "Joy Jing",
-    "categories": [
-      "user-experience",
-      "data-privacy",
-      "data",
-      "privacy",
-      "engineering"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale",
-    "description": "We’re sharing insights into Meta’s Capacity Efficiency Program, where we’ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain expertise across a unified, standardized tool interface these agents help save power and free up engineers’ time away from addressing performance issues to innovating on [...]\nRead More...\nThe post Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/",
-    "pubDate": "Thu, 16 Apr 2026 16:00:34 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "DevInfra",
-      "ML Applications",
-      "Production Engineering"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "&quot;설명해줘&quot;는 옛말! AI를 나만의 인터랙티브 교사로 만드는 마법의 프롬프트 공개",
-    "description": "복잡한 개념 앞에서 더 이상 헤매지 마세요! AI는 단순히 정보를 전달하는 도구를 넘어 나만의 맞춤형 인터랙티브 교사가 될 수 있습니다. 오늘은 \"설명해줘\"는 옛말이 된 시대, AI에게 스스로 가르치고 시각화하며 피드백을 주도록 만드는 마법 같은 프롬프트를 공개합니다. 학습 효율을 극대화하는 비법을 지금 바로 확인해 보세요!\n  \"설명해줘\"는 옛말! AI를 나만의 인터랙티브 교사로 만드는 마법의 프롬프트 공개\n\n\n\"어려운 걸 누군가에게 가르칠 수 있게 된다면, 비로소 그 개념을 이해한 것이다.\" — 리처드 파인만. 이 명언처럼, 진정한 이해는 남을 가르칠 수 있을 때 비로소 완성된다고 하죠. 2026년, 인공지능 시대의 학습 방식이 완전히 새로운 패러다임을 맞이하고 있습니다. 이제 우리는 AI에게 단순히 \"설명해줘\"라고 명령하는 수준을 넘어, AI가 스스로 살아있는 교사가 되어 그래프를 그리고, 슬라이더를 제공하며, 복잡한 개념의 움직임을 눈앞에서 생생하게 보여주도록 시킬 수 있게 되었어요. 오늘은 바로 그런 놀라운 경험을 선사할 강력한 프롬프트 템플릿을 여러분께 소개하려고 합니다.\n  우리가 찾던 '마법의 프롬프트', 바로 이것입니다!\n지금부터 여러분의 학습 방식을 완전히 바꿀 프롬프트를 공개합니다. 이 짧은 한 문장이 왜 그토록 강력한지, 저와 함께 그 비밀을 파헤쳐 볼까요?\n[복잡한 개념(사용자 입력)]을 단순화 기법을 사용하여\n핵심 구성 요소로 분해하세요.\n마치 가르치는 것처럼 설명을 작성하고\n여기에 인터랙티브한 시각적 요소를 포함하여 보여주세요.\n결과물 구성요소 : 개요, 핵심구성요소, 설명, 인터랙티브요소\n            \n어떠신가요? 언뜻 보기에는 평범해 보일 수도 있지만, 이 프롬프트 안에는 학습 과학(Learning Science)의 핵심 원리 네 가지가 치밀하게 녹아있다는 사실! 이 점이 바로 이 프롬프트를 특별하게 만드는 이유입니다. 저는 이 프롬프트를 처음 접하고 정말 감탄했어요. 단순히 지시하는 것이 아니라, 학습의 본질을 꿰뚫는 설계가 돋보였거든요. \n \n아래는 위의 프롬프트를 사용한 제미나이에서의 결과물립니다. 프롬프트창에 캔버스를 활성화하고 요청하세요.\n\n\n  왜 이 프롬프트가 이토록 효과적일까요? — 4가지 학습 원리 해부\n우리의 뇌는 특정 방식으로 학습할 때 가장 효율적입니다. 이 프롬프트는 그 원리들을 정확히 공략하고 있어요. 그럼 하나씩 자세히 살펴볼까요?\n1️⃣ 청킹(Chunking) — \"핵심 구성 요소로 분해\"\n인지심리학 연구에 따르면, 인간의 작업 기억(Working Memory)은 한 번에 4±1개의 정보 단위만 처리할 수 있다고 합니다. 복잡한 정보 덩어리를 작은 단위로 나누면 뇌가 훨씬 쉽게 받아들이고 처리할 수 있다는 뜻이죠. 예를 들어, 근의 공식처럼 복잡한 공식도 \"분자 / 분모 / 판별식\"과 같이 세 부품으로 나누면 훨씬 이해하기 쉬워집니다. 이 프롬프트는 바로 이 청킹 원리를 활용하여 복잡성을 줄이고, 학습 부담을 덜어줍니다.\n\n\n2️⃣ 파인만 기법(Feynman Technique) — \"마치 가르치는 것처럼\"\n여러분도 한 번쯤 들어보셨을 파인만 기법은 누군가에게 가르치듯 설명하면 암묵적 지식이 명시적 언어로 바뀌면서 깊이 있는 이해를 돕는 강력한 학습법입니다. AI에게 \"교사처럼 설명하라\"고 지시하면, AI는 딱딱한 전문 용어를 일상어로 번역하고, 적절한 비유와 예시를 곁들여 설명하게 됩니다. 이는 마치 개인 튜터가 옆에서 개념을 쉽게 풀어주는 것과 같은 효과를 줍니다. 저는 이 부분이 특히 마음에 들더라고요. AI가 단순히 답을 내놓는 것을 넘어, '이해를 돕는' 과정 자체에 집중하게 만드는 것이죠.\n3️⃣ 이중 부호화(Dual Coding) — \"시각적 요소\"\nAllan Paivio의 이중 부호화 이론에 따르면, 텍스트와 시각 정보를 동시에 처리할 때 학습 효율이 크게 상승한다고 합니다. 글로만 읽은 개념보다 그림이나 그래프와 함께 본 개념의 기억 잔존율이 월등히 높다는 것은 이미 많은 연구를 통해 증명되었죠. 이 프롬프트는 AI에게 단순히 텍스트만 주게 하는 것이 아니라, 시각적인 요소를 포함하도록 유도하여 우리의 뇌가 정보를 두 가지 방식으로 저장하게 만듭니다. 이렇게 되면 나중에 정보를 떠올리기가 훨씬 쉬워집니다.\n4️⃣ 능동적 학습(Active Learning) — \"인터랙티브 요소\"\n수동적으로 읽기만 할 때보다 직접 값을 바꾸고 변화를 관찰할 때, 개념 이해도는 극적으로 향상됩니다. 슬라이더 하나로 \"값이 변하면 어떻게 될까?\"라는 궁금증을 즉시 해결할 수 있다면, 학습은 훨씬 더 역동적이고 즐거운 경험이 됩니다. 이 프롬프트가 요청하는 '인터랙티브 요소'는 바로 이러한 능동적 학습을 가능하게 합니다. 스스로 탐구하고, 실험하며, 결과물을 직접 눈으로 확인하는 과정은 장기 기억 형성에 결정적인 역할을 합니다.\n  팁: 이 네 가지 학습 원리를 모두 활용하는 것은 학습 효과를 극대화하는 가장 강력한 방법 중 하나입니다. AI를 통해 나만의 맞춤형 학습 환경을 만들어보세요!\n  프롬프트 해부: 네 가지 결과물 구성요소의 역할\n이 프롬프트가 요청하는 네 가지 구성요소는 각각의 명확한 역할과 학습적 기능을 가지고 있습니다. 이를 표로 정리해 보면 그 효과가 더욱 명확해집니다.\n구성요소\n역할\n학습적 기능\n\n\n\n\n개요\n큰 그림 제시\n스키마 활성화 — 뇌가 받아들일 준비\n\n\n핵심 구성요소\n부품 분해\n청킹 — 복잡성 감소\n\n\n설명\n논리적 연결\n추론 구조 제공\n\n\n인터랙티브 요소\n직접 체험\n장기 기억 형성\n\n\n\n\n이 네 단계는 \"조감 → 분석 → 종합 → 체험\"이라는 매우 자연스러운 학습 흐름을 따릅니다. 이는 교육학에서 중요한 개념인 블룸의 교육목표분류(Bloom's Taxonomy)의 하위 단계에서 상위 단계로 올라가는 경로와도 정확히 일치하는데요. 정말 놀랍지 않나요? AI가 단순한 정보 제공자를 넘어, 실제 교육 설계자의 역할을 수행하게 만드는 프롬프트인 셈입니다.\n  지금 당장 써보세요! — 5가지 실전 시나리오\n이 강력한 프롬프트를 어떤 상황에 적용할 수 있을지 궁금하시죠? 다양한 분야에서 활용할 수 있는 실전 시나리오 5가지를 소개합니다. 여러분의 학습 목표에 맞춰 자유롭게 응용해 보세요!\n  시나리오 1: 수학 개념 학습\n프롬프트: [미분]을 단순화 기법을 사용하여 핵심 구성 요소로 분해하세요...\n결과: 극한의 개념, 접선의 기울기, 함수의 변화율을 슬라이더로 조작하며 직관적으로 이해할 수 있게 됩니다. 그래프가 실시간으로 변하는 것을 보며 '아, 이런 의미였구나!' 하고 무릎을 탁 치게 될 거예요.\n  시나리오 2: 과학 원리 이해\n프롬프트: [광합성 과정]을 단순화 기법을 사용하여 핵심 구성 요소로 분해하세요...\n결과: 빛의 양, 물의 양, 이산화탄소의 양을 바꾸며 식물의 산소 생성량 변화를 관찰할 수 있습니다. 마치 가상 실험실에서 직접 실험하는 기분이 들 거예요.\n  시나리오 3: 경제·금융 개념\n프롬프트: [복리 이자]를 단순화 기법을 사용하여 핵심 구성 요소로 분해하세요...\n결과: 원금, 이자율, 기간을 조절하며 자산 증가 곡선이 어떻게 변화하는지 시각적으로 확인할 수 있습니다. 복리의 마법을 눈으로 직접 보게 될 거예요!\n\n\n  시나리오 4: 프로그래밍 알고리즘\n프롬프트: [퀵 정렬 알고리즘]을 단순화 기법을 사용하여 핵심 구성 요소로 분해하세요...\n결과: 배열의 크기를 바꾸며 피벗 선택과 분할 과정이 단계별로 애니메이션 되는 것을 보며 복잡한 알고리즘을 직관적으로 이해할 수 있습니다.\n  시나리오 5: 물리 법칙\n프롬프트: [뉴턴의 운동 제2법칙]을 단순화 기법을 사용하여 핵심 구성 요소로 분해하세요...\n결과: 질량과 힘 값을 바꾸며 가속도의 변화를 실시간으로 확인할 수 있습니다. F=ma 공식이 어떻게 작동하는지 눈으로 직접 확인해 보세요.\n⚙️ 더 똑똑하게 활용하는 프롬프트 응용 팁\n이 프롬프트의 기본 구조도 강력하지만, 몇 가지 팁을 추가하면 여러분의 개인 교사를 더욱 정교하게 만들 수 있습니다.\n✨ 팁 1: 대상 수준 지정하기\n[블록체인]을 중학생도 이해할 수 있게 단순화 기법을 사용하여...\n대상 독자를 명시하면 AI가 어휘 수준과 비유의 난이도를 자동으로 조절합니다. 마치 선생님이 학생의 눈높이에 맞춰 설명하듯이 말이죠.\n✨ 팁 2: 비유 요청 추가하기\n...설명에는 일상생활의 비유를 반드시 2개 이상 포함하세요.\n추상적인 개념이 손에 잡히는 이미지로 변환되어 훨씬 쉽게 이해됩니다. 비유는 복잡한 개념을 우리 뇌에 연결하는 강력한 다리 역할을 하죠.\n✨ 팁 3: 인터랙티브 요소 구체화\n...인터랙티브 요소는 슬라이더와 실시간 그래프를 포함해야 합니다.\n원하는 시각적 형식이 있다면 명시해 주는 것이 좋습니다. AI가 더욱 정확하게 여러분의 요구를 반영할 수 있도록 돕는 셈이죠.\n\n\n✨ 팁 4: 오개념(Misconception) 짚기\n...많은 사람이 흔히 오해하는 부분도 함께 설명하세요.\n학습자가 빠지기 쉬운 함정을 미리 방지할 수 있습니다. 저는 이 기능 덕분에 여러 번 '아차!' 했던 기억이 있어요. 올바른 이해를 돕는 데 아주 중요한 부분이죠.\n✨ 팁 5: 요약 카드 요청\n...마지막에 핵심을 한 문장으로 요약한 \"기억 카드\"를 만들어주세요.\n복습용 압축 버전까지 한 번에 얻을 수 있어서 정말 효율적입니다. 시험 기간에 이 기능이 얼마나 유용할지 상상만 해도 벌써 든든하네요!\n  실제 사용 예시 — \"근의 공식\"과의 만남\n제가 이 프롬프트로 근의 공식을 요청했을 때, AI는 정말 놀라운 결과물을 내놓았습니다. 단순히 공식을 알려주는 것을 넘어, 마치 살아있는 학습 도구를 만들어 주더군요.\n개요: 근의 공식을 \"3개의 부품으로 조립된 기계\"로 비유하여 큰 그림을 제시했어요. 덕분에 처음부터 거부감 없이 접근할 수 있었죠.\n핵심 구성요소: 분모(2a), 분자 앞부분(-b), 판별식(b²-4ac) 세 요소로 깔끔하게 분해하여 청킹 원리를 제대로 적용했습니다.\n설명: \"대칭축 ± 거리\" 구조라는 본질적인 의미를 제공하여 단순 암기가 아닌 원리 이해를 도왔습니다.\n인터랙티브 요소: a, b, c 슬라이더와 실시간으로 연동되는 포물선 그래프, 그리고 판별식 상태를 보여주는 배너까지! 특히 판별식의 부호에 따라 그래프 색이 초록(서로 다른 두 실근) → 노랑(중근) → 빨강(허근)으로 바뀌는 모습은 정말 압권이었습니다. 개념이 눈앞에서 살아 움직이는 듯했어요.\n단순히 공식을 나열하는 것이 아니라, 개념을 시각적으로 체험하며 깊이 이해할 수 있는 '살아있는 학습 도구'가 완성된 것이죠. 저는 이때 '아, AI 학습이 정말 여기까지 왔구나!' 하고 강렬하게 느꼈답니다.\n  핵심 요약\n1. 단순한 설명 넘어 인터랙티브 교사로: AI가 슬라이더, 그래프 등으로 개념을 시각화하고 체험하게 합니다.\n2. 학습 과학 기반의 강력한 프롬프트: 청킹, 파인만 기법, 이중 부호화, 능동적 학습 원리를 모두 활용합니다.\n3. 조감-분석-종합-체험의 4단계 학습 흐름: 개요-핵심 구성요소-설명-인터랙티브 요소로 체계적인 이해를 돕습니다.\n4. 다양한 분야에 적용 가능: 수학, 과학, 경제, 프로그래밍 등 어떤 복잡한 개념이든 나만의 맞춤형 교사가 될 수 있습니다.\n*이 프롬프트는 단순한 정보 획득을 넘어, 개념을 깊이 있게 '이해하는 경험'을 설계하는 데 초점을 맞춥니다.\n  마무리 — 이 프롬프트의 진짜 가치\n결론적으로 이 프롬프트의 본질은 단순히 \"정보를 얻는 것\"이 아닙니다. 오히려 \"이해하는 경험을 설계하는 것\"에 가깝다고 저는 생각해요. AI에게 교사 역할을 위임하면, 우리는 어떤 복잡한 개념 앞에서도 나만의 개인 맞춤형 강의실을 즉석에서 열 수 있게 됩니다.\n수학, 과학, 경제, 철학, 프로그래밍 등 분야를 가리지 않고 모두 적용 가능합니다. 2026년, 이제 학습은 더 이상 수동적인 정보 습득이 아니라, 능동적이고 인터랙티브한 '탐험'의 영역으로 확장되고 있습니다.\n다음번에 낯선 개념을 만나거든, 무작정 구글링부터 하기보다는 이 마법 같은 프롬프트를 꺼내보세요. 당신만을 위한, 당신의 눈높이에 맞춘 인터랙티브 교과서가 눈앞에 펼쳐질 것입니다. 우리는 이제 AI를 단순한 도구가 아닌, 훌륭한 학습 파트너이자 교사로 활용할 수 있는 시대에 살고 있습니다. 정말 설레는 미래가 아닐 수 없어요!  ✨\n❓ 자주 묻는 질문 (FAQ)\nQ1: 이 프롬프트는 어떤 AI 모델에 가장 잘 작동하나요?\nA1: 이 프롬프트는 특히 복잡한 설명을 체계적으로 정리하고 시각적/인터랙티브 요소 생성을 지원하는 멀티모달 AI 모델에 가장 효과적입니다. 예를 들어, GPT-4o, Claude 3 Opus, Gemini Advanced와 같이 최신 기능을 갖춘 모델들에서 뛰어난 결과물을 기대할 수 있습니다. 텍스트만 제공하는 모델에서도 '시각적 요소를 포함하여 보여주세요' 부분은 텍스트 기반의 상세한 묘사로 대체되어 유용하게 활용될 수 있습니다.\nQ2: '인터랙티브 요소'는 AI가 직접 구현해 주나요?\nA2: AI 모델의 기능에 따라 다릅니다. 최신 멀티모달 AI는 슬라이더, 그래프, 간단한 애니메이션의 코드 스니펫이나 시뮬레이션 아이디어를 직접 제안하거나, 또는 특정 플랫폼과의 연동을 가정하여 가상의 인터랙션을 묘사해 줄 수 있습니다. 중요한 것은 AI가 해당 요소의 필요성과 작동 방식을 '이해'하고, 그에 대한 상세한 설명을 제공하여 사용자가 직접 구현하거나 아이디어를 발전시킬 수 있도록 돕는다는 점입니다.\nQ3: 프롬프트에 '단순화 기법'이라고 명시하는 이유가 있나요?\nA3: 네, 아주 중요한 부분입니다. '단순화 기법'이라고 명시함으로써 AI에게 복잡한 개념을 불필요하게 어렵게 설명하지 말고, 핵심을 잃지 않으면서도 쉽게 이해할 수 있도록 가공해 달라는 지시를 명확히 하는 것입니다. 이는 청킹과 파인만 기법 원리와도 연결되며, 학습자가 정보 과부하를 겪지 않도록 돕는 핵심 지시어라고 할 수 있습니다.\nQ4: 이 프롬프트로 추상적인 철학 개념도 학습할 수 있을까요?\nA4: 물론입니다! 추상적인 철학 개념 또한 핵심 구성 요소로 분해하고, 비유와 은유를 사용하여 설명하며, 개념 간의 관계를 시각적으로 도식화하거나 특정 사상가의 논리 전개 과정을 인터랙티브하게 보여주는 등 다양한 방식으로 적용될 수 있습니다. AI에게 \"존 롤스의 정의론\"이나 \"칸트의 의무론\"을 입력하고 어떤 결과가 나오는지 직접 시도해보시면 놀랄 만한 통찰을 얻으실 수 있을 거예요.\n\n\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"이 프롬프트는 어떤 AI 모델에 가장 잘 작동하나요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"이 프롬프트는 특히 복잡한 설명을 체계적으로 정리하고 시각적/인터랙티브 요소 생성을 지원하는 멀티모달 AI 모델에 가장 효과적입니다. 예를 들어, GPT-4o, Claude 3 Opus, Gemini Advanced와 같이 최신 기능을 갖춘 모델들에서 뛰어난 결과물을 기대할 수 있습니다. 텍스트만 제공하는 모델에서도 '시각적 요소를 포함하여 보여주세요' 부분은 텍스트 기반의 상세한 묘사로 대체되어 유용하게 활용될 수 있습니다.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"'인터랙티브 요소'는 AI가 직접 구현해 주나요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"AI 모델의 기능에 따라 다릅니다. 최신 멀티모달 AI는 슬라이더, 그래프, 간단한 애니메이션의 코드 스니펫이나 시뮬레이션 아이디어를 직접 제안하거나, 또는 특정 플랫폼과의 연동을 가정하여 가상의 인터랙션을 묘사해 줄 수 있습니다. 중요한 것은 AI가 해당 요소의 필요성과 작동 방식을 '이해'하고, 그에 대한 상세한 설명을 제공하여 사용자가 직접 구현하거나 아이디어를 발전시킬 수 있도록 돕는다는 점입니다.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"프롬프트에 '단순화 기법'이라고 명시하는 이유가 있나요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"네, 아주 중요한 부분입니다. '단순화 기법'이라고 명시함으로써 AI에게 복잡한 개념을 불필요하게 어렵게 설명하지 말고, 핵심을 잃지 않으면서도 쉽게 이해할 수 있도록 가공해 달라는 지시를 명확히 하는 것입니다. 이는 청킹과 파인만 기법 원리와도 연결되며, 학습자가 정보 과부하를 겪지 않도록 돕는 핵심 지시어라고 할 수 있습니다.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"이 프롬프트로 추상적인 철학 개념도 학습할 수 있을까요?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"물론입니다! 추상적인 철학 개념 또한 핵심 구성 요소로 분해하고, 비유와 은유를 사용하여 설명하며, 개념 간의 관계를 시각적으로 도식화하거나 특정 사상가의 논리 전개 과정을 인터랙티브하게 보여주는 등 다양한 방식으로 적용될 수 있습니다. AI에게 '존 롤스의 정의론'이나 '칸트의 의무론'을 입력하고 어떤 결과가 나오는지 직접 시도해보시면 놀랄 만한 통찰을 얻으실 수 있을 거예요.\"\n          }\n        }\n      ]\n    }",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483719",
-    "pubDate": "Thu, 16 Apr 2026 16:35:41 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "AI 교육",
-      "ai 튜터",
-      "ai 학습법",
-      "개념 이해",
-      "능동적 학습",
-      "이중 부호화",
-      "인터랙티브 학습",
-      "파인만 기법",
-      "프롬프트 엔지니어링",
-      "학습 효율"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
     "title": "7 Best Static Code Analysis Tools",
     "description": "Investing in static code analysis tools might seem straightforward, but finding one that truly fits your team can be tough. Most tools promise the usual benefits: cleaner code, fewer bugs, better security, and more consistency in code reviews. Yet in reality, there’s a big difference between a tool the team embraces and one that everyone […]",
     "reviews": [],
@@ -100,76 +15,90 @@
     ]
   },
   {
-    "id": 7,
+    "id": 2,
     "imageUrl": "",
-    "title": "Qodana Is Now on Gartner Peer Insights! Review Qodana",
-    "description": "You may have already seen other JetBrains tools in the Gartner Magic quadrant. Now Qodana is listed on Gartner Peer Insights too! This is an important milestone for us as we continue to grow Qodana into a leading code quality platform for modern development teams. But more importantly, it’s an opportunity for our users to […]",
+    "title": "[MULTI] 스킬 트리 대격변이 훌륭한 기반 변화로, 디아블로4 : 증오의 군주",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/04/review-qodana-on-gartner/",
-    "pubDate": "Wed, 15 Apr 2026 13:24:11 +0000",
-    "creator": "Kerry Beetge",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2442",
+    "pubDate": "Wed, 22 Apr 2026 01:00:48 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "reviews"
+      "리뷰"
     ]
   },
   {
-    "id": 8,
+    "id": 3,
     "imageUrl": "",
-    "title": "실적은 그대로, 선택의 폭은 더 넓게: 주택청약종합저축 전환",
-    "description": "실적을 유지하며 다양한 주택 유형에 청약할 수 있어요",
+    "title": "Kotlin Professional Certificate by JetBrains – Now on LinkedIn Learning",
+    "description": "JetBrains has partnered with LinkedIn Learning to offer the Kotlin Professional Certificate. This is a structured learning path that covers the full scope of modern software development – from Kotlin essentials all the way to building full-stack, multiplatform applications for mobile, desktop, web, and backend environments. Start Learning Who it’s for This certification is designed […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-60",
-    "pubDate": "Fri, 17 Apr 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/kotlin/2026/04/kotlin-professional-certificate-by-jetbrains-now-on-linkedin-learning/",
+    "pubDate": "Tue, 21 Apr 2026 13:21:36 +0000",
+    "creator": "Ksenia Shneyveys",
+    "categories": [
+      "education",
+      "news"
+    ]
   },
   {
-    "id": 9,
+    "id": 4,
     "imageUrl": "",
-    "title": "제품리뷰 - 포터블 16 인치 OLED 모니터",
-    "description": "ㅈ\n \n \n영상: https://www.youtube.com/watch?v=RzStqWBlnvE\n\n\n\n \n맥제품은  윈도우에서 쓰는 일반 싸구려 모니터를 연결하면 화면이 처참합니다.\n저해상도에서 글씨를 너무 뭉개다 보니 읽을 수 없더군요\n \n그래서 작은 모니터에 고해상도를 쓰면 좋다고합니다.\n \n그래서 제 모니터 없는 맥미니에 쓸 수 있는데 16인치 포터블 모니터 !\n \n$ 160 라고 하니 30만원쯤하겠군요 (30만원짜리 안 포터블 모니터 사는게 좋을지도)\n\n\n \n가겨보고 좌절해서 안사겠습니다.\n일반 모니터 중에 알아보는 걸로 ....",
+    "title": "스타트업 교육 - 제품이 세일즈를 해결한다 / 세일즈가 제품을 해결한다.",
+    "description": "돈을 볼려면 결국 무언가를 만들어 팔아야합니다.\n만드는 것과 파는것 두가지 일이 발생하며\n이 둘을 동시에 할 수 있는 사람은 극히 드물며\n도움을 받아야합니다.\n \n내가 제품을 만드는 쪽에 특화되있는지 \n제품을 파는 쪽에 특화되있는지 잘 알아야할 것입니다.\n \n저같은경우 제품을 잘 만든다고 생각했는데\n지금와서 돌어보면 젤만드는건 쥐뿔 없고 그냥 주식을 잘했던거 같군요\n \n영상: https://www.youtube.com/watch?v=oZ5kTqabhyY",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1625",
-    "pubDate": "Sat, 18 Apr 2026 18:02:25 +0900",
+    "link": "https://serverdown.tistory.com/1627",
+    "pubDate": "Sun, 19 Apr 2026 13:45:48 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "유튜브",
-      "UPerfect",
-      "제품리뷰",
-      "휴대용모니터"
+      "유튜브"
     ]
   },
   {
-    "id": 10,
+    "id": 5,
     "imageUrl": "",
-    "title": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
-    "description": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing the idea of PQC Migration Levels to help teams within organizations manage the complexity of PQC migration for their various use cases. By outlining Meta’s approach to this work [...]\nRead More...\nThe post Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways appeared first on Engineering at Meta.",
+    "title": "Busy Plugin Developers Newsletter – Q1 2026",
+    "description": "Your quarterly dose of plugin dev news, tools, and tips from JetBrains. 🧩 Marketplace Updates Updated Approval Guidelines: New Technical Requirement We’ve added a new clause to the Plugin Approval Criteria, under Section 2.2: c. The Plugin must not modify, hide, intercept, or otherwise interfere with the functionality of any JetBrains Product in a way […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/",
-    "pubDate": "Thu, 16 Apr 2026 14:59:44 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/platform/2026/04/busy-plugin-developers-newsletter-q1-2026/",
+    "pubDate": "Mon, 20 Apr 2026 21:57:41 +0000",
+    "creator": "Elena Kerpeleva",
     "categories": [
-      "Security & Privacy"
+      "marketplace",
+      "news",
+      "newsletters",
+      "busy-plugin-developers"
     ]
   },
   {
-    "id": 11,
+    "id": 6,
     "imageUrl": "",
-    "title": "Sky’s the Limit Hackathon: 180 Projects Connecting Developers and Esports",
-    "description": "Earlier this winter, JetBrains and Cloud9 launched Sky’s the Limit, a global hackathon created to bring together two communities that share the same DNA: developers and esports enthusiasts. The idea was straightforward – developers like solving complex problems, and esports is full of strategy, data, and performance questions. Put those together, and you get plenty […]",
+    "title": "인텔 랩탑의 발열 제어를 위한 쓰로틀 프로그램 - ThrottleStop",
+    "description": "삼성 갤럭시북3에는 인텔 13세대 i5 1340p CPU가 있는데 발열이 높아서 종종 스로틀링에 걸리는 문제가 있다. 원인은 4.6GHz나 되는 터보 기능 때문인데, 4GHz 근처만 가도 순식간에 80도를 찍어버린다. 그러고는 CPU 보호를 위해 속도가 1GHz 수준으로 훅 떨어져서 랙이 걸리는 것처럼 느려진다. 실제로 크롬으로 유튜브를 보면서 간단한 빌드 작업만 실행해도 순식간에 뜨거워졌다가 스로틀링으로 버벅거린다. 이 문제를 해결하려면 삼성에서 제공하는 최대 속도로 쿨러팬을 작동시키면 해결되는데, 그러면 팬 소음이 어마무시해서 짜증이 난다. 차라리 적당한 클럭(2GHz 언저리)로 작동되면 순간 속도는 느려지지만, 발열 문제도 해결되고 순간 끊김도 줄어들텐데 왜 이런 기능은 없을까 고민하게 되었다. 마침 본인은 리눅스에서는 온도에 따라 클록 속도를 제한하는 프로그램을 만들어서 잘 사용중이었다. 그리고 윈도11도 쉬울 것 같았으나... 큰 오산이고 평택이었다. ㅠㅠ\n \n1. 윈도11의 엉망진창 발열관리\n윈도11은 CPU의 발열을 관리하기 위해 작동 클록(Hz)을 운영체제에서 제어하는게 매우 어렵다는 것을 알게 되었다. 알고 싶지 않았지만 프로그램을 개발하면서 알게된 불편한 진실이었다. 아예 불가능한 것은 아니지만 윈11은 너무 극단적으로 클록이 내려가거나 혹은 제대로 작동하지 않았다. 어떤 사람은 제어판 설정에서 \"프로세서 최대 성능\"을 99%로 하면 부스트가 꺼져서 발열 제어가 된다고 하지만, 이렇게 했더니 아예 평소에도 boost기능이 꺼져서 클록이 너무 낮아지고, 속도가 너무 느려졌다.\n본인은 원래는 Fedora Linux를 주로 사용한다. 그리고 리눅스는 커널에서 CPU클럭 속도를 쉽게 제어할 수 있는 방법을 제공하는데, 바로 /sys/devices/system/cpu/cpu번호/cpufreq/scaling_max_freq 파일에 최대 클록을 넣어서 즉시 적용하는 것이다. CPU 온도도 hwmon 센서로부터 읽으면 쉽다. 그래서 본인은 hwmon을 몇 초마다 읽어서 scaling_max_freq를 자동으로 조정하는 프로그램을 Rust로 작성했었고, 이를 daemon 서비스로 만들어서 systemd에 서비스 등록을 해뒀다. 이로 인해 본인이 사용하는 리눅스 랩탑 시스템은 CPU 온도에 따라 자동으로 CPU clock을 올리거나 낮추게 되어있다. 랩탑 뿐만 아니라 미니PC에도 이 프로그램을 사용중인데 아주 쾌적한 편이다. 아래는 이 프로그램의 web dashboard이다.\nCPU Thermal Throttler - Fedora Linux 43\n\n\n위 CPU Thermal Throttler 프로그램을 만들었던 경험을 되살려, 비슷한 기능을 윈11에서도 만들려고 했다. 하지만 결론부터 말하면 완전히 실패했다. 윈도는 레지스트리를 고치던 뭔 짓을 하던 스로틀링이 엉망으로 작동했다. 물론 내가 윈도 프로그래밍에 전문가가 아니라서 그럴 수도 있다. 하여튼 결국 실패하고, 기존에 이런 기능을 제공하는 프로그램이 있는지 조사했더니, 보통 2가지를 많이 추천하는 것 같았다. 참고로 아래 기능은 모두 Intel CPU에서만 작동한다. AMD는 이런 기능을 제공하는 프로그램이 있는지는 잘 모르겠다.\nIntel XTU - Extreme Tuning Utility [1]\nTechPowerUp의 ThrottleStop [2]\n우선 Intel XTU는 기능은 제대로 작동했지만 뭔가 어설펐다. 삼성 시스템 설정에서 제공하는 놈과 충돌이 나는건지, 아니면 애초에 그렇게 만들어졌는지 모르겠으나, 자주 설정이 풀렸다. 매번 실행해서 apply 버튼을 누르는 것도 짜증이 났다. 결국 두번째인 ThrottleStop을 설치했는데, 이 녀석은 매우 잘 작동했다.\n \n2. ThrottleStop 설정\nThrottleStop은 유명한 테크 사이트인 TechPowerUp에서 제작한 것으로 믿을 수 있는 프로그램인데, GUI는 좀 구린 편이고, 사용법도 구린 편이다. 그래서 여기서는 사용법을 조금 설명하도록 한다. 먼저 프로그램 다운로드 받고 설치 후 실행해보자. 다운로드 링크는 검색해도 알 수 있을테고, 귀찮으면 맨아래 참조 부분에 링크를 넣어두었다. 이런 프로그램은 항상 공식 사이트에서 받는걸 추천한다. 안그러면 해킹툴이 설치될 가능성이 있다.[2]\nThrottleStop and TPL configuration\n\n\nThrottleStop을 설치하고 실행하면 위 그림에서 좌측 같은 모양이 나오는데, 여기서 \"Speed Shift EPP\"를 켜져 있는지 확인한다. 그리고 TPL로 쓰여진 버튼을 누르면 우측 그림같은 모양이 나타난다.\n \n2.1. MSR Power Limit Controls, PROCHOT Offset 설정\n우측 그림을 확대해보면 아래와 같은데, 주의깊게 봐야 하는 것은 Long Power PL1, Short Power PL2, PROCHOT Offset 부분이다.\nThrottleStop PL1, PL2, PROCHOT Offset\n\n\n참고로 MSR Power Limit쪽에 PL1, PL2는 15, 28을 넣었는데 이건 각각 다음과 같다.\nPL1\n지속적인 성능을 낼때 사용하는 전력량. 일반적인 사용에서 쓸 전력값이다.\n기본적으로 28W였는데, 이 정도의 전력을 사용하면 온도가 곧잘 튀었다.\n1340p에서는 보통 15W 정도로 설정하면 좋다는 글이 있어서 그걸 참고했다.\n\n\nPL2\n짧은 시간 부스트를 낼때 사용할 전력량으로 기본값이 60W였나 그런데, 이 상태는 너무 온도가 빠르게 올랐다.\n대충 28 혹은 30W 정도를 주니까 크게 온도가 튀지 않았다. 물론 부스트 성능은 떨어졌지만, 그렇다고 무지막지하게 느려진 것은 아니였다.\n\n\n\nPROCHOT Offset은 최대 허용온도에서 몇도를 내릴 것인지를 묻는 것이다. Intel i5-1340p는 섭씨 100도가 기본값인데, 위 그림처럼 40을 넣으면 100-40=60도가 된다. 그리고 뒤에 Lock 부분을 클릭해주면 다른 프로그램이 이 값을 수정하더라도 ThrottleStop이 이 값을 다시 강제로 바꾼다고 한다. 즉 값을 고정시켜주는 기능이다.\n이렇게 설정하고 나와서 SAVE를 누르면 앞서 그림처럼  PROCHOT 온도가 60도로 보이게 된다. 이게 바로 변경되는게 아니라, 프로그램을 재실행하면 그때서야 변경된다. 그래도 변경이 안되면 재부팅을 권장한다. 윈11은 뻑하면 재부팅하는게 가장 속편하다.\n \n2.2. 기타 옵션\nOptions를 눌러서 몇가지 옵션을 지정해두면 편리하다.\nThrottleStop Options\n\n\n위와 같이 \"Start Minimized\"로 시작하면서 창을 작게 만들어서 트레이로 보내면 편리하다. 그리고 \"Minimize on Close\"를 하면 닫는 버튼을 눌러도 프로그램이 죽지 않고 트레이 아이콘 모양으로 내려간다.\n그런데 시스템 부팅시 자동으로 이 프로그램을 실행해주는 기능이 없다. 그래서 따로 수동으로 등록하는 기능을 만들어줘야 한다.\n \n2.3. 작업 스케줄러 등록\n먼저 \"작업 스케줄러\" 프로그램을 실행한다. 그러면 아래와 같이 프로그램이 보이는데, 순서대로 진행한다.\n작업스케줄러에 TrottleStop 등록\n\n\n\"작업 만들기\"로 새로운 작업을 만들고, 이름에는 ThrottleStop을 넣어두자. 그리고 \"가장 높은 수전의 권한으로 실행\"을 체크해두고, 트리거 탭으로 이동한다.\n작업스케줄러에 TrottleStop등록 - 트리거\n\n\n트리거는 언제 실행할 것인지를 결정하는데, 로그온 할 때, 모든 사용자로 설정해두면 된다. 그리고 확인을 누른다.\n그 다음에는 3번째 탭인 \"동작\" 부분을 선택한다.\n작업스케줄러에 ThrottleStop등록 - 동작\n\n\n동작을 선택하고 \"새로 만들기\"를 눌러서 동작 속성을 위와 같이 만들어준다. 프로그램 스크립트는 \"찾아보기\"로 설치된 디렉토리를 찾아서 선택해주면 된다. 본인은 \"C:\\opt\\ThrottleStop_9.7.3-beta\\ThrottleStop.exe\"에 설치했기에 저런 경로가 나온다. 그리고나서 시작 위치는 디렉토리를 적어주면 된다. 본인은 설치한 디렉토리인 \"C:\\opt\\ThrottleStop_9.7.3-beta\"를 넣어주었다. 오타를 내지 않도록 조심하자. 여기까지 했으면 마지막에 완료를 눌러주면 된다.\n제대로 작업 스케줄러가 작동하는지 재부팅을 해보자. 트레이 아이콘 있는 곳에 \"I\" 그림이 있는 빨간 아이콘이 생기면 성공이다. 그리고 커서를 그 위에 가져가면 CPU온도와 사용량 %, MHz 등등이 보일 것이다.\n \n3. 결론\nMicrosoft Windows 11에서 CPU 온도가 높아져서 빈번한 스로틀링을 막으려면 ThrottleStop 외에는 별다른 방법이 없는 것 같다. 문제는 이렇게 하면 CPU 성능의 최대값이 고정되기 때문에 충분히 냉각이 되는 환경에서도 클록 속도를 높이기는 어렵다. 이게 가장 큰 단점이다. 다만 비즈니스 랩탑의 경우는 온도가 높아지는 것보다는 이게 더 나은 것 같다.\n그리고 왠만하면 리눅스를 사용하는게 장기적으로는 정신건강에 더 이로운 것 같다. 개인적으로 윈11에서 CPU 스로틀링하는 프로그램을 만들려고 삽질하는데 일주일을 허비했고, 인텔 XTU, ThrottleStop을 세팅하고 이것저것 테스트하는데 하루를 꼬박 소비했다. 그러나 실제 대부분의 작업은 리눅스를 계속 쓰고 있다. 윈도11은 진짜 가끔 문서 작업할 때를 제외하고는 안쓰는게 함정이라고나 할까? 그리고 이번에 윈11은 쓰다보니 쓸수록 욕만 나오는 운영체제다. 진짜 윈11은 엉망진창이다.\n \n[1] Intel XTU, https://www.intel.co.kr/content/www/kr/ko/download/17881/intel-extreme-tuning-utility-intel-xtu.html\n[2] TechPowerUp - ThrottleStop Downaload, https://www.techpowerup.com/download/techpowerup-throttlestop/\n \n \n히스토리\n2026.04.19 글 작성",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/04/16/sky-s-the-limit-hackathon-180-projects-connecting-developers-and-esports/",
-    "pubDate": "Thu, 16 Apr 2026 10:18:39 +0000",
-    "creator": "Roman Prokashev",
-    "categories": []
+    "link": "https://sunyzero.tistory.com/327",
+    "pubDate": "Sun, 19 Apr 2026 23:37:57 +0900",
+    "creator": "sunyzero",
+    "categories": [
+      "컴퓨터 관련/윈도 패밀리",
+      "i5 1340p 발열 문제",
+      "intel xtu",
+      "PROCHOT",
+      "ThrottleStop",
+      "갤럭시북3",
+      "미니PC",
+      "스로틀링",
+      "윈11 랩탑 발열 문제",
+      "프로세서 최대 성능 99%"
+    ]
   },
   {
-    "id": 12,
+    "id": 7,
     "imageUrl": "",
     "title": "The Human Infrastructure: How Netflix Built the Operations Layer Behind Live at Scale",
     "description": "No description available",
@@ -187,55 +116,139 @@
     ]
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
-    "title": "결승점",
-    "description": "10년 전에 큰 비전과 야망을 갖고, 잘 다니던 대기업에서 퇴사하고 창업했는데, 10년이 지난 이 시점에 현실은 내가 상상했던 모습과는 달리 너무 초라하면 어떻게 해야 할까? 우리는 2012년도부터 투자를 시작했고, 당시에 투자한 회사는 대부분 망하거나 엑싯을 했지만, 아직도 꾸준히 사업을 영위하는 곳도 있다. 그리고 그 이후로 투자한 회사 중 이제 사업한 지 거의 10년이 되는 곳들도(...)",
+    "title": "오픈클로 같은 에이전틱 시스템 구조 및 동작 메커니즘 분석",
+    "description": "이 글은 오픈클로같은 에이전틱 시스템 구조 및 동작 메커니즘 분석해 나눔한다.\n\n\n\n\n\n\n\n레퍼런스\n\nopenclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way\nhuggingface/smolagents: smolagents: a barebones library for agents that think in code\ndusty-nv/NanoLLM: Optimized local inference for LLMs with HuggingFace-like APIs for quantization, vision/language models, multimodal agents, speech, vector DB, and RAG.\nagno-agi/agno: Build, run, manage agentic software at scale.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/04/the-finish-line.html",
-    "pubDate": "Wed, 15 Apr 2026 21:27:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "http://daddynkidsmakers.blogspot.com/2026/04/blog-post_17.html",
+    "pubDate": "2026-04-17T10:17:00.000Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "ODW #2: ADK로 싱글/멀티 에이전트를 개발해 사내 시스템과 통합",
+    "description": "안녕하세요. 2024년 4월에 신입 사원으로 LY Corporation에 입사한 Inoue Shuichi입니다. 현재 사내용 Kubernetes as a Service인 FKE 팀...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/developing-single-and-multi-agent-systems-with-adk-and-integrating-into-internal-systems",
+    "pubDate": "Wed, 15 Apr 2026 06:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Helping Decision-Makers Say Yes to Kotlin Multiplatform (KMP)",
+    "description": "This post was written by external contributors from Touchlab. KMP is a strategic platform In the current competitive landscape, the traditional mobile development model characterized by maintaining independent, duplicated codebases for iOS and Android is no longer a sustainable use of capital. This approach systematically introduces feature lag, technical debt, and a fragmented engineering culture […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/04/helping-decision-makers-say-yes-to-kmp/",
+    "pubDate": "Mon, 20 Apr 2026 14:39:57 +0000",
+    "creator": "Ekaterina Volodko",
     "categories": [
-      "Uncategorized",
-      "compounding",
-      "consistency",
-      "failure",
-      "FoundersAtWork",
-      "hustle",
-      "Strong"
+      "multiplatform",
+      "kmp",
+      "kotlin-multiplatform"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "데이터 시인성 - 9th",
+    "description": "변수 고유개수 발생 추이.\n\n\n\n\n변수 고유개수의 이상치를 제거하는 outlier 적용 결과.\n\n\n\n\n원본 차트와 outlier 실행 결과를 같이 보려면?\n\n\n변수와 outlier 분석 대상인 고유개수 필드가 동시에 존재해야 한다.\n\n\n\n\neventstats 집계를 통해 이벤트 단위로 고유개수 필드 추가.\n\n\n\n\n변수와 고유개수 필드가 따로 존재하니 차트를 동시에 그릴 수 있다. 그런데 차트 변화가 똑같네?\n\n\n\n\ntimechart를 사용할 때는 모집단 범위가 24시간 단위, 31개 데이터였는데, eventstats에서는 같은 계산 간격이라도 모집단 범위가 4만여 개로 늘어나면서 outlier 동작에 영향을 준 듯. 계산 간격을 바꾸니 변동이 발생하긴 한다. \n\n\n\n\n같은 모집단을 적용하려면?\n\n\n\n\n고유개수와 outlier 작업을 주검색과 보조검색으로 분리 후, appendcols로 결합.\n\n\n\n\n\n관련 글\n\n데이터 시인성 - 8th\n데이터 시인성\nhaving query\nSplunk의 해시 변환\n네트워크 관계망 그리기\n엘라스틱의 합집합 집계\nSplunk의 stats와 eventstats",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/04/9th.html",
+    "pubDate": "2026-04-15T12:49:24.456Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "The Road to Responsive IntelliJ-Based IDEs",
+    "description": "TL;DR: This is a technical blog post about our work to improve UI responsiveness in IntelliJ-based IDEs. It’s a multi-year effort to fix several architectural constraints. The project is still ongoing, and so far we’ve built new tools and APIs that help move performance-sensitive work away from the UI thread. This change means the UI […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2026/04/road-to-responsive-ides/",
+    "pubDate": "Fri, 17 Apr 2026 02:40:43 +0000",
+    "creator": "Patrick Scheibe",
+    "categories": [
+      "intellij-platform",
+      "plugins",
+      "performance",
+      "platform"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Understanding AI’s Impact on Developer Workflows",
+    "description": "AI coding assistants are no longer shiny add‑ons: they are standard parts of our daily workflows. We know developers’ perspectives on them in the short term, and many say they get more done and spend less time on boilerplate or boring tasks. But we know far less about what happens over years of real work […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/04/ai-impact-developer-workflows/",
+    "pubDate": "Wed, 15 Apr 2026 17:00:32 +0000",
+    "creator": "Katie Fraser",
+    "categories": [
+      "research",
+      "hax",
+      "human-ai-experience",
+      "jetbrains-research",
+      "mixed-methods-study"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "게임개발 초반은 재밌으나 결국엔 ...",
-    "description": "영상: https://www.youtube.com/watch?v=7QOphc3mA2Q\n\n\n\n \nAI 를 쓰든 말든 초반은 재밌지만 가면갈 수록 힘들고 진도가 안나가는 구간이 오게 됩니다.\n이 구간은 피할 수 없습니다.",
+    "title": "Querydsl 커서 기반 페이지네이션 - offset의 구조적 한계와 커서 방식 전환",
+    "description": "limit/offset의 성능 저하 원인을 실행 계획으로 분석하고, 커서 기반 페이지네이션으로 위치에 무관하게 일정한 조회 성능을 유지하는 방법을 다룹니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1623",
-    "pubDate": "Sat, 18 Apr 2026 00:18:34 +0900",
-    "creator": "SIDNFT",
+    "link": "https://cheese10yun.github.io/querydsl-cursor-pagination/",
+    "pubDate": "Sat, 18 Apr 2026 15:00:00 GMT",
+    "creator": "Unknown",
     "categories": [
-      "프로그래밍/개발메모",
-      "1인개발",
-      "게임개발"
+      {
+        "_": "Performance",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/Performance/"
+        }
+      },
+      {
+        "_": "JPA",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/JPA/"
+        }
+      },
+      {
+        "_": "ORM",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/ORM/"
+        }
+      },
+      {
+        "_": "Querydsl",
+        "$": {
+          "domain": "https://cheese10yun.github.io/tags/Querydsl/"
+        }
+      }
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Three ways to connect an AI agent to your business data",
-    "description": "There are several ways to connect an AI agent to your data. Each approach solves a different problem and comes with its own trade-offs, what you’re really choosing between is speed and reliability. In this post, we’ll explore how to balance the two to get the best results for your team and use case. Today, […]",
+    "title": "실적은 그대로, 선택의 폭은 더 넓게: 주택청약종합저축 전환",
+    "description": "실적을 유지하며 다양한 주택 유형에 청약할 수 있어요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/databao/2026/04/three-ways-to-connect-an-agent/",
-    "pubDate": "Tue, 14 Apr 2026 10:00:00 +0000",
-    "creator": "Claire Amaouche",
-    "categories": [
-      "ai",
-      "data",
-      "data-science"
-    ]
+    "link": "https://toss.im/tossfeed/article/money-policies-60",
+    "pubDate": "Fri, 17 Apr 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
