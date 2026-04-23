@@ -2,76 +2,85 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "7 Best Static Code Analysis Tools",
-    "description": "Investing in static code analysis tools might seem straightforward, but finding one that truly fits your team can be tough. Most tools promise the usual benefits: cleaner code, fewer bugs, better security, and more consistency in code reviews. Yet in reality, there’s a big difference between a tool the team embraces and one that everyone […]",
+    "title": "Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale",
+    "description": "We’re sharing insights into Meta’s Capacity Efficiency Program, where we’ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain expertise across a unified, standardized tool interface these agents help save power and free up engineers’ time away from addressing performance issues to innovating on [...]\nRead More...\nThe post Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/04/best-static-code-analysis-tools/",
-    "pubDate": "Mon, 20 Apr 2026 13:01:22 +0000",
-    "creator": "Elizaveta Myšáková",
+    "link": "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/",
+    "pubDate": "Thu, 16 Apr 2026 16:00:34 +0000",
+    "creator": "Unknown",
     "categories": [
-      "qodana",
-      "static-code-analysis"
+      "DevInfra",
+      "ML Applications",
+      "Production Engineering"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "[MULTI] 스킬 트리 대격변이 훌륭한 기반 변화로, 디아블로4 : 증오의 군주",
-    "description": "No description available",
+    "title": "Give AI Something Worth Amplifying: Three Priorities for Technical Leaders",
+    "description": "Most organizations are asking what AI can do for their developers. A harder question is what are your developers bringing to AI? DORA’s 2025 AI Capabilities Model report argues that AI does not level teams out – it amplifies what is already there. Stronger, high-performing organizations get more out of it, whereas the weaknesses of […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2442",
-    "pubDate": "Wed, 22 Apr 2026 01:00:48 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://blog.jetbrains.com/ai/2026/04/give-ai-something-worth-amplifying-three-priorities-for-technical-leaders/",
+    "pubDate": "Wed, 22 Apr 2026 13:52:40 +0000",
+    "creator": "Ben Burn",
     "categories": [
-      "리뷰"
+      "ai",
+      "insights",
+      "ai-in-ides"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Kotlin Professional Certificate by JetBrains – Now on LinkedIn Learning",
-    "description": "JetBrains has partnered with LinkedIn Learning to offer the Kotlin Professional Certificate. This is a structured learning path that covers the full scope of modern software development – from Kotlin essentials all the way to building full-stack, multiplatform applications for mobile, desktop, web, and backend environments. Start Learning Who it’s for This certification is designed […]",
+    "title": "역대급 AI 이미지 재현의 비밀: Style DNA Analyzer로 원본의 감성과 구도를 완벽 복제하기",
+    "description": "AI 이미지, 단순한 재현을 넘어 원본의 감성까지 복제하는 시대가 왔습니다. ‘Style DNA Analyzer’는 이미지의 시각적 유전자를 정밀 분석하여 마스터 프롬프트를 생성하고, 이를 활용해 나만의 AI 이미지 갤러리 사이트까지 구축하는 비법을 2026년 최신 기술로 알려드립니다. 예술적 영감과 기술적 실현, 그 모든 것을 이 글에서 만나보세요!\n\n\n 혹시 AI로 만든 ‘인생 이미지’를 다시 뽑아내고 싶었는데, 아무리 애를 써도 처음의 그 감동적인 구도, 조명, 색감이 재현되지 않아서 답답했던 경험 없으신가요? 저도 정말 여러 번 겪었던 일이라 그 마음을 누구보다 잘 이해합니다. 우리가 놓치고 있는 핵심이 있죠. 바로 이미지 안에 숨어있는 고유한 ‘시각적 유전자’, Style DNA입니다. 이 DNA를 알아야 비로소 원본의 감성을 완벽하게 복제할 수 있거든요.\n오늘은 이 Style DNA를 그대로 추출하고, 심지어 변이까지 가능하게 해주는 놀라운 도구를 소개해드리려고 합니다. 그리고 더 나아가, 이 강력한 도구로 뽑아낸 결과물들을 활용해서 나만의 AI 이미지 갤러리 사이트를 손쉽게 만드는 방법까지, 모든 비밀을 지금부터 낱낱이 공개하겠습니다.  AI 이미지 창작의 새로운 지평을 함께 열어보시죠!\n  Style DNA Analyzer, 대체 무엇을 하는 도구인가요?\n이름에서부터 강렬한 힌트가 느껴지시죠? 'DNA'라는 단어처럼, Style DNA Analyzer는 이미지가 품고 있는 모든 시각적 유전정보를 낱낱이 해부하고 분석해서 ‘마스터 프롬프트’로 바꿔주는 혁신적인 도구입니다. 쉽게 말해, 우리가 감탄했던 맛집 음식의 '레시피'를 알아내는 것과 똑같아요. 눈으로 본 이미지라는 ‘결과물’을 역추적해서, 그 이미지를 만들어낸 ‘레시피’인 프롬프트를 찾아내는 거죠. 이걸 바로 리버스 프롬프트 기법이라고 부릅니다.\n단순히 프롬프트 한두 줄을 뽑아내는 수준이 아닙니다. 이 앱은 이미지의 핵심 DNA를 정밀하게 추출해서, 프롬프트 안의 피사체 슬롯만 교체하면 어떤 주제든 동일한 감성과 스타일로 고품질 이미지를 무한히 생성할 수 있게 해줍니다. 한마디로 AI 이미지 창작에 있어 ‘스타일의 표준화’를 가능하게 하는 셈이죠. 여러분이 원하는 스타일의 이미지를 단 한 장만 가지고 있다면, 이제 그 스타일은 여러분의 것이 됩니다!\n  핵심 포인트: Style DNA Analyzer는 구글 제미나이 AI의 강력한 시각 분석 능력을 기반으로 동작하며, 분석된 프롬프트를 나노바나나 엔진과 연동하여 이미지를 바로 생성할 수 있습니다.\n  시각적 DNA, 어떻게 분석하고 보여주나요?\nStyle DNA Analyzer가 정말 특별한 이유는, AI 응답을 텍스트로만 보여주는 것이 아니라 구조화된 데이터 형태로 시각화하여 제공한다는 점이에요. 카메라 앵글, 렌즈 종류, 조명, 색채 팔레트, 그리고 심지어 스타일 강도 수치까지 각각의 전용 패널에 직관적인 그래프와 숫자로 표시해주니, 텍스트 프롬프트만 보는 것과는 차원이 다른 이해도를 제공합니다.\n\n\n1. 시작 전 필수 준비물: API 키 설정\n앱을 사용하기 전에 꼭 해야 할 일이 있습니다. 바로 API 키 설정이에요. 앱 우측 상단의 ‘설정’ 메뉴로 들어가셔서 제미나이 API 키를 입력한 후 ‘연결’ 버튼을 클릭해주세요. 키값이 유효하다면 연결 성공 메시지와 함께 여러분의 로컬 드라이브에 안전하게 암호화되어 저장됩니다. 이 과정은 딱 한 번만 거치면 되니, 처음 사용자분들도 어렵지 않게 하실 수 있을 거예요.\n⚠️ 주의사항: 앱 내에서 이미지를 직접 생성하면 API 비용이 발생할 수 있습니다. 비용이 부담되신다면 프롬프트만 복사하여 제미나이나 다른 AI 이미지 생성 도구에서 활용하는 방법도 있으니, 이 점 참고해주세요!\n2. 이미지 업로드 및 분석 시작\n초기 화면에서 분석하고 싶은 이미지를 업로드합니다. 좌측 상단의 ‘소스 선택’ 버튼을 클릭하거나, 화면 중앙의 이미지 미리보기 화면으로 파일을 드래그 앤 드롭하면 간단하게 이미지를 불러올 수 있어요. 이미지가 성공적으로 업로드되었다면, 이제 모든 준비가 끝났습니다.\n그다음은 ‘이미지 시퀀싱 시작’ 버튼을 클릭하는 겁니다. 몇 초만 기다리면 AI가 이미지의 DNA를 분석하여 모든 시각적 정보를 쏟아내기 시작합니다. 정말이지 마법 같은 순간이죠!\n3. 상세 분석 결과 들여다보기\n분석이 완료되면 앱 화면이 다양한 정보로 가득 채워집니다. 하나씩 자세히 살펴볼까요?\n카메라 & 렌즈 섹션: 좌측 상단에는 앵글, 샷 타입, 렌즈, 초점 거리, 피사계 심도 등 이미지를 구성하는 카메라 관련 정보들이 표시됩니다. 이 데이터들을 통해 어떤 카메라 설정으로 촬영되었는지 유추해볼 수 있어요.\n조명 시퀀싱 섹션: 바로 아래에는 시간대, 조명 방향, 고도, 대비, 그림자 등 조명 환경에 대한 상세 분석 결과가 나타납니다. 이미지의 분위기를 결정하는 중요한 요소들이죠.\n중앙 뷰포트 (특징점 시각화): 분석이 끝나면 이미지 위에 하늘색 포인트들이 나타나는데, 이게 바로 AI가 이미지의 주요 특징점을 잡아내서 직접 찍어준 좌표들입니다. 마우스를 포인트에 올리면 해당 위치의 상세 설명이 툴팁으로 표시되어, AI가 이미지의 어떤 부분에 주목했는지 직관적으로 이해할 수 있습니다.\n4. 마스터 프롬프트와 스타일 DNA 추출\n이제 이 앱의 심장부라 할 수 있는 부분입니다. ‘분석 리포트’ 섹션인데요. 맨 위에는 이미지의 상징적인 제목이 크게 표시되고, 그 아래로 ‘구조적 청사진’, ‘스타일 분석’, ‘프로의 활용 팁’ 세 가지 섹션이 전용 아이콘과 함께 순서대로 나타납니다.\n그리고 가장 중요한 ‘마스터 프롬프트’가 영문과 한글 두 가지 버전으로 출력됩니다. 이 프롬프트 안에는 [INSERT SUBJECT HERE] 또는 [주제 입력]이라는 특별한 슬롯이 포함되어 있어요. 이 부분을 여러분이 원하는 피사체나 주제로 바꿔 넣기만 하면, 원본 이미지와 완전히 동일한 스타일 DNA를 가진 다른 이미지를 무한히 생성할 수 있습니다. 정말 멋지지 않나요?\n  프로 팁: 마스터 프롬프트는 단순한 텍스트가 아니라, 여러분만의 시각적 자산을 구축하는 강력한 도구입니다. 이 프롬프트를 잘 관리하고 활용하는 것이 AI 이미지 창작의 핵심입니다.\n5. 애널리틱스 패널의 시각적 통찰력\n우측의 ‘애널리틱스 패널’도 놓칠 수 없습니다. 여기에는 이미지의 시각적 특성을 더욱 깊이 이해할 수 있는 정보들이 담겨 있어요.\n미학적 팔레트: 도넛 차트 형태로 이미지의 색상 분포를 시각적으로 보여줍니다. 차트 아래에는 추출된 주요 색상 블록 5개가 HEX 코드와 함께 점유 비율(%)로 정리되어 있어, 이미지의 전반적인 색감 구성과 비중을 한눈에 파악할 수 있습니다.\n스타일 DNA 섹션: AI가 이미지의 스타일 특성을 여러 카테고리(예: 사실주의, 판타지, 유화 등)로 나누고, 각각의 강도를 퍼센트 바 형태로 시각화합니다. 이 부분을 보면 이미지가 어떤 스타일에 얼마나 큰 비중을 두고 있는지 알 수 있습니다.\n아이덴티티 일치 확률: 바 차트 아래에 큰 숫자로 표시되는 이 점수는 마스터 프롬프트가 원본 이미지의 스타일을 얼마나 충실하게 재현할 수 있는지 보여주는 신뢰도 점수입니다. 이 숫자가 높을수록 프롬프트의 정확도가 높다고 할 수 있겠죠.\n  Style DNA, 마음대로 변이시키고 조절하는 법\nStyle DNA Analyzer의 진정한 힘은 단순히 원본을 복제하는 것을 넘어, 추출된 Style DNA를 사용자가 원하는 대로 ‘변이’시키고 ‘조절’할 수 있다는 점에 있습니다. 마치 유전자를 편집하듯이 말이죠!\n1. 추론 인터페이스로 섬세한 조정\n화면 맨 아래에 위치한 ‘추론 인터페이스’는 분석 결과에 대한 여러분의 피드백을 자연어로 입력하여 프롬프트를 수정할 수 있게 해줍니다. 예를 들어, “이미지 속 개체 재질을 나무로 변경해줘”라고 입력하면, AI가 이를 반영하여 나무 재질로 변경된 이미지를 생성해주는 식이죠. 이 기능 덕분에 더욱 세밀하고 창의적인 조절이 가능해집니다.\n2. 유전자 변이 모드로 파격적인 스타일 변화\n좀 더 과감한 변화를 원하신다면, ‘유전자 변이 모드’를 선택해보세요. 변이 레벨 슬라이더가 나타나는데, 숫자가 높을수록 스타일이 더욱 파격적으로 변형됩니다. 예를 들어, 슬라이더를 90까지 올리면 ‘부드럽고 둥근 3D 렌더링 스타일’이 갑자기 ‘초현실적 바이오-사이버네틱 스타일’로 완전히 바뀌는 것을 볼 수 있습니다. 결과물도 원본 이미지와는 완전히 다른, 상상력을 초월하는 이미지가 나올 거예요. 이 기능은 새로운 영감을 찾거나 독창적인 스타일을 탐색하고 싶을 때 정말 유용합니다.\n3. 시스템 가이던스로 특정 효과 적용하기\n특정 효과를 다른 이미지에도 일관되게 적용하고 싶을 때 ‘시스템 가이던스’를 활용할 수 있습니다. 예를 들어, 원본 이미지에 피사체 주위에 손글씨 효과가 있었는데, 이 효과를 다른 이미지에도 적용하고 싶다면요? 시스템 가이던스 텍스트 입력란에 구체적인 요청을 입력하고, ‘첨부 이미지 제공’에 체크하면 됩니다.\n예시로, ‘이미지 우측 하단에 GPT PARK 텍스트 로고를 투명하게 적용해’라고 입력한 뒤 이미지 시퀀싱을 시작해볼까요? 결과가 나오면, 다른 이미지로 교체한 후 이미지 생성을 해보면 원하는 대로 로고가 투명하게 적용된 이미지를 얻을 수 있을 겁니다. 이런 식으로 일관된 브랜딩이나 특정 시각적 요소를 적용할 때 아주 강력한 기능이에요.\n  나만의 AI 이미지 갤러리 사이트, 쉽게 만드는 비법!\nStyle DNA Analyzer로 멋진 프롬프트들을 얻었다면, 이제 이 결과물들을 세상과 공유하고 싶지 않으세요? 여러분만의 AI 이미지 갤러리 사이트를 만드는 일, 생각보다 훨씬 쉽습니다. 지피티팍의 공식 사이트에 있는 ‘AI 랜딩페이지 아키텍트 인헨서’를 활용하면 말이죠!\n1. 웹사이트 기획부터 프로토타입 생성까지\n‘AI 랜딩페이지 아키텍트 인헨서’ 첫 화면에서 웹사이트 주제를 ‘GPT 갤러리, AI 이미지와 이미지 생성 프롬프트 공유’로 입력하고, 타겟 고객과 핵심 목표를 간단히 작성한 후 ‘기획안 생성 시작’ 버튼을 클릭해보세요. 잠시 후 AI가 여러분의 아이디어를 바탕으로 멋진 기획안을 제시할 겁니다. 내용을 확인한 후 우측 상단의 ‘PROTO TYPE 만들기’를 클릭하면, 짜잔! 기본적인 웹사이트 구조가 순식간에 생성됩니다. 이미지 갤러리가 보이고, 이미지를 클릭하면 해당 프롬프트가 표시되는 형태로 말이죠. 정말이지 효율적인 작업 방식이죠.\n2. AI STUDIO BUILD로 사이트 디자인 완성\n생성된 HTML 파일을 다운로드하고, 필요한 JSON 파일을 복사한 다음 ‘AI STUDIO BUILD’로 이동합니다. 여기에 복사한 JSON 파일을 붙여넣고, 저장한 HTML 파일을 불러온 후 ‘빌드’ 버튼을 누르면 됩니다. 잠시 후, AI STUDIO가 여러분의 메인 화면에 몇 가지 디자인을 제안해 줄 거예요. 이 중에서 마음에 드는 디자인을 하나 선택하면, 여러분만의 갤러리 사이트가 눈앞에서 멋지게 완성됩니다.\n3. Firebase 연동으로 강력한 백엔드 구축\n여기서 끝이 아닙니다. AI STUDIO는 Firebase 연동을 통해 백엔드까지 손쉽게 구축할 수 있게 해줍니다. Firebase 연동은 마치 ‘이미 완성된 스마트 관리 사무실’을 통째로 빌려 쓰는 것과 같아요. 복잡한 서버 공부 없이도 구글의 강력한 서비스를 활용해 백엔드를 뚝딱 만들 수 있죠. 이 과정은 크게 네 가지 단계로 진행됩니다.\n인프라 구성: 데이터를 저장할 디지털 수납장인 Firestore를 활성화합니다. 정보를 담을 공간을 만드는 기초 공사라고 생각하시면 됩니다.\n보안 및 인증: 아무나 접근하지 못하도록 로그인 문을 만들고, 관리자만 데이터를 조작할 수 있도록 자물쇠를 채우는 단계입니다.\n데이터 바인딩: 여러분의 앱과 Firestore 수납장 사이에 데이터를 주고받을 수 있는 통신선을 연결합니다.\nCRUD 기능 구현: 정보를 새롭게 기록(Create)하고, 읽어오고(Read), 수정(Update)하고, 필요 없는 건 지우는(Delete) 이른바 ‘CRUD’ 기능을 구현하면 여러분만의 완벽한 백엔드 시스템이 완성됩니다.\n이 복잡하고 전문적인 과정들을 AI STUDIO에서는 단 한 번의 채팅 입력으로 바로 진행할 수 있습니다. 채팅창에 특정 명령어를 입력하고 실행하면, 잠시 후 Firebase 클라우드 데이터베이스 활성화 설정창이 나타나고, ‘Enable Firebase’를 클릭하는 것만으로 모든 설정이 완료됩니다.\n4. Firebase 인증 설정 및 콘텐츠 관리\n모든 과정이 완료되면 사이트에 관리자 버튼이 추가됩니다. 이 버튼을 클릭하고 인증번호를 입력했을 때 혹시 오류가 난다면, 채팅창 위에 있는 ‘Fix’ 버튼을 클릭해보세요. 만약 익명 로그인을 활성화하라는 메시지가 나타난다면, Firebase 콘솔(https://console.firebase.google.com/)로 이동하여 우측의 ‘프로젝트 및 작업 공간’에서 해당 프로젝트를 선택합니다. 다음 화면에서 좌측 메뉴의 ‘보안’ -> ‘Authentication’ -> ‘로그인 방법’ -> ‘새 제공업체 추가’ -> ‘익명’을 차례대로 선택하고 익명 사용 설정을 켜고 저장하면 됩니다. 이렇게 하면 이제 비밀번호만 알면 페이지에 콘텐츠를 자유롭게 추가하고 관리할 수 있게 됩니다.\n  핵심 요약\nStyle DNA Analyzer: AI 이미지의 시각적 유전자를 추출하여 마스터 프롬프트로 변환, 원본 감성을 완벽 복제합니다.\n직관적인 시각화: 카메라, 조명, 색채, 스타일 등 다양한 요소를 그래프와 숫자로 보여줘 이해도를 높입니다.\n프롬프트 변이 & 제어: 추론 인터페이스, 유전자 변이 모드, 시스템 가이던스로 스타일을 섬세하게 조절하거나 과감히 변경 가능합니다.\nAI 갤러리 사이트 구축: AI 랜딩페이지 아키텍트와 AI STUDIO BUILD, Firebase 연동으로 콘텐츠 관리 기능까지 갖춘 나만의 사이트를 손쉽게 만듭니다.\n이 모든 기술은 2026년 현재 무료로 배포되고 있으며, 소스 코드까지 제공되어 개발자에게도 큰 가치를 제공합니다. AI 시대, 여러분만의 창작 세계를 확장해 보세요!\n❓ 자주 묻는 질문 (FAQ)\nQ1: Style DNA Analyzer는 어떤 AI 기술을 사용하나요?\nStyle DNA Analyzer는 구글 제미나이 AI의 강력한 시각 분석 능력과 나노바나나 엔진의 이미지 생성 능력을 활용합니다. 이를 통해 이미지의 시각적 특성을 정밀하게 분석하고, 그 결과를 바탕으로 고품질 이미지를 생성할 수 있습니다.\nQ2: Style DNA Analyzer 앱은 무료인가요?\n네, Style DNA Analyzer 앱은 공식 사이트와 블로그에서 무료로 배포되고 있습니다. 제미나이 API 키만 준비하시면 바로 사용 가능하며, 유튜브 채널 정회원에게는 전체 소스 코드까지 제공되어 직접 빌드하거나 기능을 확장할 수 있습니다.\nQ3: AI 이미지 갤러리 사이트를 만들 때 백엔드는 어떻게 구축하나요?\nAI STUDIO BUILD와 Firebase를 연동하여 백엔드를 쉽게 구축할 수 있습니다. Firebase는 데이터 저장(Firestore), 보안 및 인증, 데이터 바인딩, 그리고 CRUD 기능 구현까지 모든 백엔드 작업을 간소화하여 제공합니다. AI STUDIO 채팅 인터페이스를 통해 이 모든 과정을 자동으로 진행할 수 있습니다.\n오늘 우리는 Style DNA Analyzer를 통해 AI 이미지의 시각적 유전자를 추출하고, 그 결과를 활용해 나만의 AI 이미지 갤러리 사이트까지 구축하는 놀라운 여정을 함께했습니다. 이 앱은 2026년 현재, 공식 사이트와 블로그에서 무료로 배포되고 있으며, 제미나이 API 키만 준비하시면 바로 사용 가능합니다. 또한, 유튜브 채널 정회원에게는 전체 소스 코드까지 제공되니, 개발에 관심 있는 분들께도 더할 나위 없는 기회가 될 거예요.\nStyle DNA Analyzer 및 AI 갤러리 사이트 체험하기\n \n\n \nStyle DNA Analyzer\n \nstyle-dna-3.vercel.app\n\n \n\n \nMy Google AI Studio App\n \ngpt-gallery-jeon.vercel.app",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/04/kotlin-professional-certificate-by-jetbrains-now-on-linkedin-learning/",
-    "pubDate": "Tue, 21 Apr 2026 13:21:36 +0000",
-    "creator": "Ksenia Shneyveys",
+    "link": "https://muzbox.tistory.com/483720",
+    "pubDate": "Sat, 18 Apr 2026 23:39:30 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "education",
-      "news"
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "AI 랜딩페이지 아키텍트",
+      "AI 이미지 갤러리 구축",
+      "AI 이미지 재현",
+      "AI 프롬프트 추출",
+      "DALL-E 프롬프트",
+      "Firebase 백엔드",
+      "Style DNA Analyzer",
+      "구글 제미나이 AI",
+      "나노바나나 엔진",
+      "리버스 프롬프트 기법"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "스타트업 교육 - 제품이 세일즈를 해결한다 / 세일즈가 제품을 해결한다.",
-    "description": "돈을 볼려면 결국 무언가를 만들어 팔아야합니다.\n만드는 것과 파는것 두가지 일이 발생하며\n이 둘을 동시에 할 수 있는 사람은 극히 드물며\n도움을 받아야합니다.\n \n내가 제품을 만드는 쪽에 특화되있는지 \n제품을 파는 쪽에 특화되있는지 잘 알아야할 것입니다.\n \n저같은경우 제품을 잘 만든다고 생각했는데\n지금와서 돌어보면 젤만드는건 쥐뿔 없고 그냥 주식을 잘했던거 같군요\n \n영상: https://www.youtube.com/watch?v=oZ5kTqabhyY",
+    "title": "실적은 그대로, 선택의 폭은 더 넓게: 주택청약종합저축 전환",
+    "description": "실적을 유지하며 다양한 주택 유형에 청약할 수 있어요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1627",
-    "pubDate": "Sun, 19 Apr 2026 13:45:48 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브"
-    ]
+    "link": "https://toss.im/tossfeed/article/money-policies-60",
+    "pubDate": "Fri, 17 Apr 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Busy Plugin Developers Newsletter – Q1 2026",
-    "description": "Your quarterly dose of plugin dev news, tools, and tips from JetBrains. 🧩 Marketplace Updates Updated Approval Guidelines: New Technical Requirement We’ve added a new clause to the Plugin Approval Criteria, under Section 2.2: c. The Plugin must not modify, hide, intercept, or otherwise interfere with the functionality of any JetBrains Product in a way […]",
+    "title": "PyCharm for Django Fundraiser: Why Django Matters in the AI Era – And Why We’re Supporting It",
+    "description": "Spend a few minutes around developer content, and it’s easy to come away with the impression that web apps now appear to almost write themselves. Everything that follows – review, verification, refactoring, debugging, and the open-source frameworks that make those apps dependable – gets less attention. AI can speed up code generation, but it does […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/04/busy-plugin-developers-newsletter-q1-2026/",
-    "pubDate": "Mon, 20 Apr 2026 21:57:41 +0000",
-    "creator": "Elena Kerpeleva",
+    "link": "https://blog.jetbrains.com/pycharm/2026/04/pycharm-for-django-fundraiser-why-django-matters-in-the-ai-era-and-why-we-re-supporting-it/",
+    "pubDate": "Wed, 22 Apr 2026 12:15:34 +0000",
+    "creator": "Valeria Letusheva",
     "categories": [
-      "marketplace",
-      "news",
-      "newsletters",
-      "busy-plugin-developers"
+      "pycharm",
+      "django",
+      "oss"
     ]
   },
   {
@@ -100,76 +109,6 @@
   {
     "id": 7,
     "imageUrl": "",
-    "title": "The Human Infrastructure: How Netflix Built the Operations Layer Behind Live at Scale",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/the-human-infrastructure-how-netflix-built-the-operations-layer-behind-live-at-scale-33e2a311c597?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 17 Apr 2026 15:01:02 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "netflix",
-      "incident-response",
-      "live-operations",
-      "live-broadcast-technology",
-      "live-streaming"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "오픈클로 같은 에이전틱 시스템 구조 및 동작 메커니즘 분석",
-    "description": "이 글은 오픈클로같은 에이전틱 시스템 구조 및 동작 메커니즘 분석해 나눔한다.\n\n\n\n\n\n\n\n레퍼런스\n\nopenclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way\nhuggingface/smolagents: smolagents: a barebones library for agents that think in code\ndusty-nv/NanoLLM: Optimized local inference for LLMs with HuggingFace-like APIs for quantization, vision/language models, multimodal agents, speech, vector DB, and RAG.\nagno-agi/agno: Build, run, manage agentic software at scale.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/04/blog-post_17.html",
-    "pubDate": "2026-04-17T10:17:00.000Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "ODW #2: ADK로 싱글/멀티 에이전트를 개발해 사내 시스템과 통합",
-    "description": "안녕하세요. 2024년 4월에 신입 사원으로 LY Corporation에 입사한 Inoue Shuichi입니다. 현재 사내용 Kubernetes as a Service인 FKE 팀...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/developing-single-and-multi-agent-systems-with-adk-and-integrating-into-internal-systems",
-    "pubDate": "Wed, 15 Apr 2026 06:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Helping Decision-Makers Say Yes to Kotlin Multiplatform (KMP)",
-    "description": "This post was written by external contributors from Touchlab. KMP is a strategic platform In the current competitive landscape, the traditional mobile development model characterized by maintaining independent, duplicated codebases for iOS and Android is no longer a sustainable use of capital. This approach systematically introduces feature lag, technical debt, and a fragmented engineering culture […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/04/helping-decision-makers-say-yes-to-kmp/",
-    "pubDate": "Mon, 20 Apr 2026 14:39:57 +0000",
-    "creator": "Ekaterina Volodko",
-    "categories": [
-      "multiplatform",
-      "kmp",
-      "kotlin-multiplatform"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "데이터 시인성 - 9th",
-    "description": "변수 고유개수 발생 추이.\n\n\n\n\n변수 고유개수의 이상치를 제거하는 outlier 적용 결과.\n\n\n\n\n원본 차트와 outlier 실행 결과를 같이 보려면?\n\n\n변수와 outlier 분석 대상인 고유개수 필드가 동시에 존재해야 한다.\n\n\n\n\neventstats 집계를 통해 이벤트 단위로 고유개수 필드 추가.\n\n\n\n\n변수와 고유개수 필드가 따로 존재하니 차트를 동시에 그릴 수 있다. 그런데 차트 변화가 똑같네?\n\n\n\n\ntimechart를 사용할 때는 모집단 범위가 24시간 단위, 31개 데이터였는데, eventstats에서는 같은 계산 간격이라도 모집단 범위가 4만여 개로 늘어나면서 outlier 동작에 영향을 준 듯. 계산 간격을 바꾸니 변동이 발생하긴 한다. \n\n\n\n\n같은 모집단을 적용하려면?\n\n\n\n\n고유개수와 outlier 작업을 주검색과 보조검색으로 분리 후, appendcols로 결합.\n\n\n\n\n\n관련 글\n\n데이터 시인성 - 8th\n데이터 시인성\nhaving query\nSplunk의 해시 변환\n네트워크 관계망 그리기\n엘라스틱의 합집합 집계\nSplunk의 stats와 eventstats",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/04/9th.html",
-    "pubDate": "2026-04-15T12:49:24.456Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
     "title": "The Road to Responsive IntelliJ-Based IDEs",
     "description": "TL;DR: This is a technical blog post about our work to improve UI responsiveness in IntelliJ-based IDEs. It’s a multi-year effort to fix several architectural constraints. The project is still ongoing, and so far we’ve built new tools and APIs that help move performance-sensitive work away from the UI thread. This change means the UI […]",
     "reviews": [],
@@ -185,25 +124,7 @@
     ]
   },
   {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Understanding AI’s Impact on Developer Workflows",
-    "description": "AI coding assistants are no longer shiny add‑ons: they are standard parts of our daily workflows. We know developers’ perspectives on them in the short term, and many say they get more done and spend less time on boilerplate or boring tasks. But we know far less about what happens over years of real work […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/04/ai-impact-developer-workflows/",
-    "pubDate": "Wed, 15 Apr 2026 17:00:32 +0000",
-    "creator": "Katie Fraser",
-    "categories": [
-      "research",
-      "hax",
-      "human-ai-experience",
-      "jetbrains-research",
-      "mixed-methods-study"
-    ]
-  },
-  {
-    "id": 14,
+    "id": 8,
     "imageUrl": "",
     "title": "Querydsl 커서 기반 페이지네이션 - offset의 구조적 한계와 커서 방식 전환",
     "description": "limit/offset의 성능 저하 원인을 실행 계획으로 분석하고, 커서 기반 페이지네이션으로 위치에 무관하게 일정한 조회 성능을 유지하는 방법을 다룹니다.",
@@ -240,15 +161,110 @@
     ]
   },
   {
-    "id": 15,
+    "id": 9,
     "imageUrl": "",
-    "title": "실적은 그대로, 선택의 폭은 더 넓게: 주택청약종합저축 전환",
-    "description": "실적을 유지하며 다양한 주택 유형에 청약할 수 있어요",
+    "title": "The Human Infrastructure: How Netflix Built the Operations Layer Behind Live at Scale",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-60",
-    "pubDate": "Fri, 17 Apr 2026 02:00:00 GMT",
+    "link": "https://netflixtechblog.com/the-human-infrastructure-how-netflix-built-the-operations-layer-behind-live-at-scale-33e2a311c597?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 17 Apr 2026 15:01:02 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "netflix",
+      "incident-response",
+      "live-operations",
+      "live-broadcast-technology",
+      "live-streaming"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge",
+    "description": "We’ve fundamentally transformed Facebook Groups Search to help people more reliably discover, sort through, and validate community content that’s most relevant to them. We’ve adopted a new hybrid retrieval architecture and implemented automated model-based evaluation to address the major friction points people experience when searching community content. Under this new framework, we’ve made tangible improvements [...]\nRead More...\nThe post Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/04/21/ml-applications/modernizing-the-facebook-groups-search-to-unlock-the-power-of-community-knowledge/",
+    "pubDate": "Tue, 21 Apr 2026 16:00:19 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "ML Applications"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Is convenient finance and everyday life possible for everyone?",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/conveniencetoeveryone",
+    "pubDate": "Thu, 23 Apr 2026 01:00:00 GMT",
     "creator": "Unknown",
     "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "2026년 주목할 신인 - neu / 노이 / ノイ / 가수",
+    "description": "뻔하자나\n또하나 올라왔습니다. 이번엔 오리지날 곡인가 봅니다.\n영상: https://www.youtube.com/watch?v=ZtLB7VTm1IM&list=RDZtLB7VTm1IM&start_radio=1\n\n\n\n \n몇일전 티저 영상이 잠깐 올라왔었고 5초만에 끝났지요\n\"그저께도\" 라고 한소절 올렸다고\n댓글에 불만이 가득했는데 지금은 평정되었군요\n \n \n프리텐더\n또하나의 커버곡이 올라왔습니다.\n역시 듣기 좋습니다.\n영상: https://www.youtube.com/watch?v=BDsb_w3hHVU&list=RDBDsb_w3hHVU&start_radio=1\n\n\n\n \n \n \n \n애송이의 사랑\n양파 노래 커버 곡이 올라왔습니다.\n듣기 좋습니다.\n영상: https://www.youtube.com/watch?v=wciUuemLa1g&list=RDwciUuemLa1g&start_radio=1&pp=ygUG64W47J20oAcB0gcJCdMKAYcqIYzv",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1628",
+    "pubDate": "Tue, 21 Apr 2026 00:21:14 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Incremental Highlighting for Scala",
+    "description": "If an error is detected in a file but no one sees it, is it really highlighted? This is a tale about why highlighting only what’s visible is both the strangest and the most reasonable thing to do – and how you can benefit from it. (Enable Settings | Scala | Editor | Highlighting Mode […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/scala/2026/04/21/incremental-highlighting/",
+    "pubDate": "Tue, 21 Apr 2026 14:25:37 +0000",
+    "creator": "Pavel Fatin",
+    "categories": [
+      "features",
+      "scala",
+      "scala-programming",
+      "intellij-idea"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Building a fault-tolerant metrics storage system at Airbnb",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://medium.com/airbnb-engineering/building-a-fault-tolerant-metrics-storage-system-at-airbnb-26a01a6e7017?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 21 Apr 2026 17:01:06 GMT",
+    "creator": "Rishabh Kumar",
+    "categories": [
+      "site-reliability-engineer",
+      "infrastructure",
+      "technology",
+      "engineering",
+      "software-architecture"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
+    "description": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing the idea of PQC Migration Levels to help teams within organizations manage the complexity of PQC migration for their various use cases. By outlining Meta’s approach to this work [...]\nRead More...\nThe post Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/",
+    "pubDate": "Thu, 16 Apr 2026 14:59:44 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Security & Privacy"
+    ]
   }
 ]
