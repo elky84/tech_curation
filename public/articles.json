@@ -2,89 +2,94 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2026.1.1 Is Out!",
-    "description": "IntelliJ IDEA 2026.1.1 has arrived with several valuable fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates included in this version: To find out more details about the […]",
+    "title": "Take the 2026 ISO C++ Developer Survey!",
+    "description": "The 2026 ISO C++ developer survey is now open: 2026 Annual C++ Developer Survey “Lite” : Standard C++ It takes about 10 minutes and directly informs the standardization committee and tooling vendors so the C++ ecosystem can continue evolving the right way. Please share your feedback and share with your colleagues!\nThe post Take the 2026 ISO C++ Developer Survey! appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/04/intellij-idea-2026-1-1/",
-    "pubDate": "Thu, 23 Apr 2026 13:04:22 +0000",
-    "creator": "Maria Kosukhina",
+    "link": "https://devblogs.microsoft.com/cppblog/take-the-2026-iso-c-developer-survey/",
+    "pubDate": "Wed, 22 Apr 2026 18:08:13 +0000",
+    "creator": "Augustin Popa",
     "categories": [
-      "releases"
+      "C++",
+      "ISO C++"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "게임개발 초반은 재밌으나 결국엔 ...",
-    "description": "영상: https://www.youtube.com/watch?v=7QOphc3mA2Q\n\n\n\n \nAI 를 쓰든 말든 초반은 재밌지만 가면갈 수록 힘들고 진도가 안나가는 구간이 오게 됩니다.\n이 구간은 피할 수 없습니다.",
+    "title": "AI 논란이 터저버린후의 공모전의 사후 대처",
+    "description": "영상: https://www.youtube.com/watch?v=kcyNk6lJH9Y\n\n\n\n \n사건의 저말\nAI 를 썼나 안 썼나는 지나가는 사람 입장에선 중요한 일은 아니고\n밝혀지는 과정과 왜일어났는지는 궁금함이 생겼습니다.\n(이것이 바로 컨텐츠)\n \n1등 당선자는 AI 안썼다고 여러 해명을 내놓았지만\n일은 수습이 안돼고 점점더 커지게 됩니다.\n이때까지만 해도 당선 유지를 하고 싶었던것 같습니다.\n \n일이 마무리가 안되자 \n전문가들 불러서 논의 하고 \n사람이 그린부분과 AI 가 사용된 부분이 공존함을 밝혀졌고\n최종적으로 AI 그림을 밑에 대고 위에 다시 그린형태라고 결론을 내리고\n직접 통화를 시도 하였지만 통화는 차일피일 밀렸습니다.\n \n결국 통화는 하지 않고 트레이싱(AI 그림을 보고 따라그린것) 을 인정하였고 \n무효 처리되었습니다.\n \n각자의 입장\n당선자는 진짜로 당선을 원했던거 같습니다.\n수 시간에 걸친 해명 시간이 있었습니다.\n결론이 트레이싱으로 밝혀져서 알 수 있는 사실이지만\n트레이싱도 노력의 시간이 꽤 들어갑니다. 그림 전체를 다시 그리는 노력이 들어가기 때문입니다.\n오래 그리다보면 본인도 햇갈립니다.\n \n이게 내 그림인가 AI 그림인가\n시작부터 잘못된 방식은 끝내 폭탄이 되어 돌아옵니다.\n고생한 시간은 아깝지만 잘 못 쌓아 올린 건물을 무너질 운명을 타고 납니다.\n \n샌프란시스코의 밀레니엄 타워 예시\n영상: https://www.youtube.com/watch?v=bSw81yPUBcU\n\n\n\n기초를 잘못지은 건물은 시간이 지나면서 기울기 마련입니다.\n이것은 기초를 다질때 이미 확정된 결과로 밝혀지는데 시간이 걸릴뿐 ...\n \n당선자 본인은 몰랐을 수도 있지만 전문가 입장에선 길게보면 드러날 행동...\n(다들 해봤고 결과는 뻔하다.)\n이번에 밝혀지지 않았다면 \n이 당선자는 다 큰대회에서도 실패할때까지 이 일을 반복했을 것입니다.\n(이것 역시 다른 사람들이 했던 그길을 따라 ...)\n이쯤에서 밝혀지는 \"블레이드 러너\" 의 복제인간 구분 방식이 다시 생각납니다.\n \n이쯤에서 다시 소환되는 블레이드 러너\n블레이드 러너 세계관에서는 복제인간이 있긴하지만 명확히 구분되는 무언가가 없기 때문에\n그냥 질문을 수십차례해서 수 틀리면 잡는 그런 방식을 사용합니다.\n(굉장히 비효율 적인데 너무 잘만들어서 그런가 봅니다.)\n영화에서는 여주인공이랑 9시간동안 질문했다던데 여주가 말 대답하는게 이뻐서 그냥 대화를 길게 한거 같은 느낌입니다.\n \n골치 아픈 아트의 세계\n일단 Ai 때문에 무슨 짓을 해도 의심받는 업계가 되었습니다.\nAI 한거 처럼 보일 것을 대비해 작업하는걸 일일이 기록해야한다는군요\n적어도 시간을 갈아넣은게 증명되면 노력은 인정해주는거 같습니다.\n \n결국 이렇게 불편한 방식은 인간의 발전속도를 저해하게 될 것입니다.\n아트는 이제 새로운 판단 방식을 요구받게 될 것입니다.\n \n예를들어 가볍게 4컷 만화 그리기 말고\n한화책 한권 불량을 라던가 - (노력이 너무 들어가야해서 안될꺼 같은데 ...)\n게임잼 처럼 난이도 높은 주제 정하고 시간을 짧게 주던가\n \n오늘도 손발 묶고 달리는 안트의 세계를 또한번 보게 됩니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1623",
-    "pubDate": "Sat, 18 Apr 2026 00:18:34 +0900",
+    "link": "https://serverdown.tistory.com/1633",
+    "pubDate": "Fri, 24 Apr 2026 14:01:28 +0900",
     "creator": "SIDNFT",
     "categories": [
-      "프로그래밍/개발메모",
-      "1인개발",
-      "게임개발"
+      "유튜브",
+      "논란",
+      "유튜브",
+      "인공지능"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "신뢰성 향상을 위한 SLO/SLI 도입 3편 - 서비스 적용 사례",
-    "description": "시작하며안녕하세요. Service Reliability 팀에서 SRE(site reliability engineer)로 일하고 있는 천기철입니다. SRE 팀은 사용자에게 안정적이고...",
+    "title": "C++ Code Intelligence for GitHub Copilot CLI (Preview)",
+    "description": "We recently brought C++ code understanding tools to GitHub Copilot in Visual Studio and VS Code. These tools provide precise, semantic understanding of your C++ code to GitHub Copilot using the same IntelliSense engine that powers code navigation in the IDE. Until now, these capabilities have been tied to GitHub Copilot in Visual Studio and […]\nThe post C++ Code Intelligence for GitHub Copilot CLI (Preview) appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/sli-and-slo-for-improving-reliability-3",
-    "pubDate": "Wed, 22 Apr 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/c-code-intelligence-for-github-copilot-cli-preview/",
+    "pubDate": "Wed, 22 Apr 2026 18:05:13 +0000",
+    "creator": "Erika Sweet",
+    "categories": [
+      "C++",
+      "Copilot"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "The Human Infrastructure: How Netflix Built the Operations Layer Behind Live at Scale",
-    "description": "No description available",
+    "title": "2026년 주목할 신인 - neu / 노이 / ノイ / 가수",
+    "description": "뻔하자나\n또하나 올라왔습니다. 이번엔 오리지날 곡인가 봅니다.\n영상: https://www.youtube.com/watch?v=ZtLB7VTm1IM&list=RDZtLB7VTm1IM&start_radio=1\n\n\n\n \n몇일전 티저 영상이 잠깐 올라왔었고 5초만에 끝났지요\n\"그저께도\" 라고 한소절 올렸다고\n댓글에 불만이 가득했는데 지금은 평정되었군요\n \n \n프리텐더\n또하나의 커버곡이 올라왔습니다.\n역시 듣기 좋습니다.\n영상: https://www.youtube.com/watch?v=BDsb_w3hHVU&list=RDBDsb_w3hHVU&start_radio=1\n\n\n\n \n \n \n \n애송이의 사랑\n양파 노래 커버 곡이 올라왔습니다.\n듣기 좋습니다.\n영상: https://www.youtube.com/watch?v=wciUuemLa1g&list=RDwciUuemLa1g&start_radio=1&pp=ygUG64W47J20oAcB0gcJCdMKAYcqIYzv",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/the-human-infrastructure-how-netflix-built-the-operations-layer-behind-live-at-scale-33e2a311c597?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 17 Apr 2026 15:01:02 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://serverdown.tistory.com/1628",
+    "pubDate": "Tue, 21 Apr 2026 00:21:14 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "netflix",
-      "incident-response",
-      "live-operations",
-      "live-broadcast-technology",
-      "live-streaming"
+      "유튜브"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "에이스 오브 스페이드, 기도하고 일하라, 위대한 로렌초",
-    "description": "에이스 오브 스페이드 출시때 살까 말까 하다 안샀는데, 와이프가 애기를 봐줄테니 페스타 혼자라도 다녀오라고 떠밀어줘서 갔다가 구매한 솔플게임이다. 아스모디는 항상 이벤트를 빵빵하게 해줘서 오프라인 페스타를 가면 관심있었던 게임들을 집어오게 한다. 게임은 8장의 핸드를 이용하는데 포커 족보를 이용해 데미지를 주는 방식이다. 적을 물리칠때마다 일회용, 또는 영구적인 강화나 변화를 사용할 수 있게 해준다. 인물패 즉 j q k는 추가 데미지 1이 있고 A는 추가데미지 3이 있는것도 재미있다. 해당 패가 포함된 족보를 내면 추가데미지를 더 줄 수 있기에 뒤로 갈수록 높은 데미지를 주는 패를 가지고 있는것이 중요하다. 족보를 내.......",
+    "title": "Take Control of AI Code Quality in CI: Live Demo",
+    "description": "AI is accelerating coding, but without the right checks, it can also introduce risk, inconsistency, and hidden issues into your codebase. Businesses are offering “total automation” and “AI-driven checks” while consumers lose control of code quality and security.  In this livestream, we’ll show how to take control of AI-generated code by bringing deterministic, repeatable quality […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/224262254924?fromRss=true&trackingCode=rss",
-    "pubDate": "Thu, 23 Apr 2026 11:25:37 +0900",
-    "creator": "dlehddus84",
+    "link": "https://blog.jetbrains.com/qodana/2026/04/take-control-of-ai-code-quality-in-ci-live-demo/",
+    "pubDate": "Fri, 24 Apr 2026 09:23:22 +0000",
+    "creator": "Kerry Beetge",
     "categories": [
-      "플레이"
+      "ai",
+      "code-quality",
+      "qodana"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "[MULTI] 스킬 트리 대격변이 훌륭한 기반 변화로, 디아블로4 : 증오의 군주",
+    "title": "강화도",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2442",
-    "pubDate": "Wed, 22 Apr 2026 01:00:48 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://hodolman.tistory.com/85",
+    "pubDate": "Sun, 19 Apr 2026 21:33:23 +0900",
+    "creator": "호돌맨",
     "categories": [
-      "리뷰"
+      "사진",
+      "강화도",
+      "조양방직카페"
     ]
   },
   {
@@ -110,128 +115,123 @@
   {
     "id": 8,
     "imageUrl": "",
-    "title": "[MULTI] 프래그마타, 치밀함과 섬세함이 만든 뭉클함",
-    "description": "No description available",
+    "title": "1인 게임 개발 쉽지 않았다.",
+    "description": "와 게임 하나를 1년반이나 잡고 만들었군요\n그의 소감 영상이 올라왔습니다.\n \n영상 : https://www.youtube.com/watch?v=Hm_bTGbtIfM\n\n\n\n \n \n가야 - 더 미스터리 라는 게임을\n1년반 동안 만드시고\n이쳐버린거 같습니다.\n \n1인개발로 퀄리티라는 벽을 넘기가 쉽지 않았던거 같습니다.\n \n초반에 인공지능 쓰면 다 될것 같이 알았는데 \n그러지 못했다는 부분도 충젹적이군요\n \n아직도 다 된다는 사람은 유튜브에 많이 있고 간간히 영상도 올라오긴하지만\n딸깍인들은 한 제품을 위해 1년반을 쏟아붇지는 않습니다. 길어봐야 1주일 쏟아 영상 만들고 된다고 합니다.\n \n시간을 늘리면 잘되야할꺼 같은 게임개발이\n좌절을 격어 포기하게 만드는 독이 될 수도 있다는 점을 알아둬야할 것 같습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2444",
-    "pubDate": "Thu, 23 Apr 2026 16:15:34 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://serverdown.tistory.com/1626",
+    "pubDate": "Sun, 19 Apr 2026 13:40:57 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "리뷰"
+      "유튜브",
+      "1인개발",
+      "게임개발",
+      "유튜브"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Helping Decision-Makers Say Yes to Kotlin Multiplatform (KMP)",
-    "description": "This post was written by external contributors from Touchlab. KMP is a strategic platform In the current competitive landscape, the traditional mobile development model characterized by maintaining independent, duplicated codebases for iOS and Android is no longer a sustainable use of capital. This approach systematically introduces feature lag, technical debt, and a fragmented engineering culture […]",
+    "title": "크립토는 끝났다",
+    "description": "내 블로그를 10년 이상 읽었던 분들이라면 내가 얼마나 블록체인과 Web3, 그리고 비트코인과 이더리움에 대한 포스팅을 많이 했고, 크립토와 그 기반이 되는 기술에 대해 얼마나 긍정적인 생각을 했는지 알 것이다. 스트롱은 2013년도 한국 최초의 비트코인 거래소 코빗에 투자했고, 그때부터 비트코인과 블록체인에 대한 내 관심과 사랑이 시작됐다. 이후 13년이라는 시간이 지났고, 이 시장에는 엄청 많은 변화와 up/down이(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/04/helping-decision-makers-say-yes-to-kmp/",
-    "pubDate": "Mon, 20 Apr 2026 14:39:57 +0000",
-    "creator": "Ekaterina Volodko",
+    "link": "https://www.thestartupbible.com/2026/04/crypto-is-so-dead.html",
+    "pubDate": "Wed, 22 Apr 2026 21:27:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "multiplatform",
-      "kmp",
-      "kotlin-multiplatform"
+      "비트코인",
+      "bitcoin",
+      "crypto curreny",
+      "failure",
+      "technology",
+      "web3"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "Seoul | Claude Code FDE Night 2026 세미나 후기",
-    "description": "2026 Claude Code FDE Night\nSeoul | Claude Code FDE Night · Luma 에 다녀오고 후기를 남깁니다.\n일시: 2026년 4월 17일(금) 18:30 ~ 21:00\n장소: 서울 교대역 인근\n주최: Claude Community Events (Anthropic 후원)\n공동 주최: Worxphere · SpaceY(DIO)\n진행: 최훈민 (Claude Community Ambassador, Seoul)\n1부. The FDE Playbook — 실리콘밸리의 FDE 운영법\n최규환 (Cognition)\n\nFDE (Forward Deployed Engineer): 본사에 앉아 제품을 만드는 엔지니어가 아니라, 고객사에 직접 파견되어 그 고객의 문제를 풀면서 제품을 커스터마이징·적용시키는 포지션. 컨설턴트(문제 정의) + 엔지니어(직접 구현) + 세일즈(계약 확장)가 한 몸에 섞인 직군으로, Palantir가 만들어 유명해진 개념. 최근 Cognition·Gecko Robotics 등 실리콘밸리 기업에서 가장 많이 뽑는 직군 중 하나.`\n\n\n\nFDE 모션 (motion): \"FDE라는 직군을 어떻게 배치하고, 어떻게 고객사와 일하고, 어떻게 딜을 따고 제품을 적용해 나가는지에 대한 운영 방식 전체\"를 가리키는 업계 용어. \"Sales Motion\", \"PLG Motion\"처럼 영어권에서 널리 쓰이는 \"~하는 방식·전개 형태\"라는 뜻.`\n\n\nFDE 모션의 변화\n툴 발전에 따라 Delta가 Echo의 일까지 흡수\n실행 속도가 대폭 빨라지면서 FDE 모션 자체가 툴·회사·제품에 따라 갈라지는 중\nClaude Code도 마찬가지로 이 변화의 축에 있음\nFDE 모션의 장점\n고객에게 Over-fit된 밸류 제공 가능\nOver-fit: 머신러닝의 \"과적합\"에서 빌려온 표현. 여기서는 \"해당 고객에게만 과하게 최적화된, 그 고객에 딱 맞는\" 정도의 뜻. 일반화된 SaaS로는 못 주는 수준의 밀착 가치를 고객 한 곳에 극단적으로 맞춰 제공한다는 의미.\n아주 빠르게 움직일 수 있음\n100명의 FDE를 고객사에 직접 보낼 수 있다면 계약 성공률이 크게 상승\n밸류 트래킹에 결정적으로 유리\nFDE 모션의 단점 (많이들 간과함)\n코스트가 매우 큼\nOver-fit 하려면 그만큼 FDE를 채용해야 함\n한국처럼 채용/해고가 자유롭지 않은 환경에서는 리스크가 훨씬 큼\n업무량이 극단적으로 많음\n여러 지역 고객(벤츠 등)을 맡으면 주 15시간 이하로 일하는 주가 거의 없음\n주말 근무 일상, 번아웃이 빠르게 옴\n고객은 보통 자기가 뭘 원하는지 모름\n그것을 Clarify 하는 것이 FDE의 역할\n다수 고객을 동시에 상대하면 벡터가 사방으로 퍼짐\n이 고객은 이걸, 저 고객은 저걸, 심지어 제품 방향성과 어긋나는 것까지 요구\n모든 것을 고려해 완벽한 의사결정을 해야 하므로 효율성이 떨어짐\nFDE 모션은 \"들어가면 빠져나오기 어려움\"\n제품을 도메인·프로젝트에 커스터마이징해야 할 때만 활용 권장\n단, 제품과 회사 문화 모두가 준비되어 있어야 함\n제품 측면 조건 — 반드시 커스터마이징 가능한 인프라여야 함\nPalantir, Gecko, Cognition 모두 \"커스터마이징 가능한 인프라\"로 만들어진 제품\nPalantir 출신들이 Gecko Robotics로 이동해 함께 일하는 배경\n그들의 공통점: 무조건 Generalize 함\nGeneralize: 특정 고객을 위해 하드코딩하지 않고, 어떤 고객에도 통하도록 일반화된 형태로 짜는 것. FDE가 만든 코드가 \"고객 A 전용\" 이 되면 쓰레기 코드가 쌓이지만, \"설정만 바꾸면 B 고객에도 쓰이는\" 구조로 만들면 자산이 됨.\n로직을 하드코딩하지 않고 어떤 고객에도 쓰일 수 있도록 설정값 중심으로 구성\n대표 예시: JSON/YAML 플러그인 기반 아키텍처\n커스터마이징 불가 구조에서 FDE 모션을 하면 쓰레기 코드와 Tech Debt만 누적됨\n조직 측면 조건 — 명확한 의사결정자(Division) 필요\n다양성이 늘수록 \"이 제품이 무엇을 위한 것인지\"를 잊기 쉬움\n제품의 비전과 추구 방향을 제시할 수 있는 한 명 또는 한 그룹이 있어야 함\n어떤 요구는 수용(희생)하고, 어떤 요구는 배제할지를 명확히 선언할 수 있어야 함\n개인적 전망\n지금 미국에서 가장 많이 뽑히고 있는 직군이 FDE\n단, 많은 회사가 앞으로 나아가다가 포기할 가능성 높다고 봄\n2년 이상 FDE를 운영한 회사는 Palantir, Gecko 뿐 — 단점들이 앞으로 드러날 것\nFounding Engineer 개념으로의 FDE는 괜찮을 수 있음\nFounding Engineer: 창업 초기 단계에 합류해서 CEO·CTO와 거의 공동창업자처럼 움직이는 엔지니어. 제품·기술·비즈니스 전반에 관여. FDE를 이 개념으로 소수 운용하는 것은 스타트업에서 합리적이라는 맥락.\n한국에서의 FDE 적용 — 개인 의견\nSI 역할과의 차이\n\"자사 제품이 없다\"는 차이라고 들었지만 실제로 꼭 그렇지도 않음\n이 부분은 더 생각해 볼 필요가 있음\n온프렘 요구성\n한국은 온프렘 배포 비중이 높아 속도가 훨씬 느림\nSaaS 형태로 배포하지 못하고 백엔드를 가서 바꿔야 하는 구조\nFDE의 장점은 속도인데, 그 속도를 받아줄 구조가 없으면 적용 난이도 급상승\n조직 문화\n경력 낮은 FDE가 전무급에게 \"이건 이렇게 해야 합니다\"라고 직접 말하기 어려움\n한국은 그 구조 자체가 안 됨\n홍콩에서는 최고위부터 말단까지 직접 만나 각 직급의 고충을 청취 후 제안 가능\n한국·중동에서 택한 방법: \"나보다 높은 직급의 사람을 이미 설득해 놓고 미팅에 모셔오기\"\n그렇게 조직의 다이나믹을 천천히 바꿔 나가는 우회 전략 필요\n결론 및 권장\nFDE = 커스터머 팀의 CTO 역할로 설명되는 직군 (Palantir/Gecko 공통)\n스타트업에서 Founding Engineer 개념으로 운영하는 것은 좋음\nFDE 모션은 번아웃과 Run-way 단축을 야기 — 조심스럽게 접근 필요\nQ&A\nQ. Delta와 Echo의 페어링·협업 방식이 궁금합니다.\n\nDelta / Echo: Palantir의 FDE 조직 내부 구분. 한 팀 안에서도 역할이 나뉘어 있음. Echo: 고객사 의사결정자와 관계 형성, 제품 정의, 딜 성사 등 \"비즈니스·전략 쪽\" 담당 Delta: 고객사 기술 담당자와 스펙 조율, 실제 컨피규레이션과 개발 수행 등 \"엔지니어링 쪽\" 담당 최근에는 툴이 발전하면서 Delta가 Echo의 일까지 흡수하는 방향으로 역할이 합쳐지고 있음.\n\n최규환\n어떤 Delta냐에 따라, 제품이 얼마나 도메인 특화되어 있느냐에 따라 달라짐\n일반적으로 Palantir 관점 기준\nEcho: 제품 정의, 의사결정자 탐색, 딜 메이킹, 고객사 조직 내 영향력 행사\nDelta: 테크니컬 고객 미팅, 스펙 정의, 컨피규레이션, 제품 직접 개발\n다만 최근 툴 발전으로 이 구분 자체가 빠르게 달라지고 있음\nQ. 어떤 문제를 풀면 마무리되는지, 그 뒤에는 어떤 식으로 일이 이어지나요?\n최규환\n회사마다 다르지만 Cognition 기준으로 설명하면\n초반에 FDE를 많이 배치 (인터그레이션·컨피규레이션 수요 ↑, 고객 마음 얻기 필요)\n초반에 거의 90% 리소스를 소진\n그 이후에는 고객이 온보딩되어 찾는 횟수가 현저히 줄어듦\n파이프라인을 5명 정도의 고객으로 균일하게 분산시키면 지속 가능한 구조가 됨\n인프라 서포트는 후기에도 들어가지만, 전반적 소요 리소스는 \"초기 90% → 후기 10%\" 패턴\n2부. Fireside Chat #1\n이선민 (defytheodd CEO, 前 LF AI 수석) · 황현태 (SpaceY 대표)\n\nAX (AI Transformation): DX(Digital Transformation)의 뒤를 잇는 개념으로, \"기업의 업무·조직·프로세스 전체를 AI 기반으로 재설계하는 전환 작업\". 단순히 AI 도구를 도입하는 것이 아니라, 일하는 방식 자체를 AI Native 구조로 바꾸는 것을 의미.\n\n\n\nAI Native: 처음부터 AI를 전제로 설계된 조직·제품·사람. 기존 워크플로우에 AI를 \"끼워 넣는\" 게 아니라, AI가 있는 걸 기본값으로 두고 일·제품·의사결정을 구성하는 방식.\n\n\n\nK-FDE: 세미나 중 이선민 님이 제안한 농담 섞인 개념. \"한국형 FDE\" — 야근·회식·음주가 가미된 한국 특유의 고객사 파견 엔지니어 형태를 가리키는 표현.\n\nQ. 스페이스와이는 FDE 직군을 어떻게 정의하는가?\n황현태 (SpaceY)\n스페이스와이는 AX(AI Transformation) 기업\nAX를 수행하기 위해 고객사에 파견되는 엔지니어 = 스페이스와이의 FDE\nFDE가 푸는 문제: \"레거시 조직을 AI Native 팀으로 전환하는 길\"\n즉, AX를 수행하는 FDE\nQ. 사내 FDE로서 본인의 역할을 어떻게 정의하는가?\n이선민 (defytheodd)\n한국에서는 FDE 직종에 대한 공식적 정의 자체가 거의 없는 상태\n본인이 일하는 방식이 FDE에 가까운지 돌아보며 K-FDE 개념으로 설명\n코그니션 FDE 설명과 매우 흡사한 경험\n초반 온보딩·Implementation까지 90% 리소스 투입\n레거시 시스템에 통합된 이후부터는 점점 찾는 시간이 줄어듦\n개인 사례 (LF)\nPhase 1 6개월을 마친 뒤 주 5일 → 주 1일로 전환\n본인이 제안해 성사 (원래는 나가려다 주 1일이라도 가능하냐는 요청으로 이어짐)\n현재 주 1일 근무 2개월 차\n멀티 에이전트 시스템을 기존 레거시에 모두 통합해 둠\n24시간 돌아가는 에이전트들이 룰과 패턴을 수집·준비\n미리 Ready 해두니 실제 출근일에는 주간회의 참여 + 컨펌 정도면 충분\n거의 재택이 가능한 수준까지 축소됨\nK-FDE 의 특징 (본인 관점)\n라포 쌓기 단계에 회식이 가미되면 K-FDE\n야근이 곁들여지면 더욱 K-FDE\n음주와 감정까지 더해지면 K-FDE 완성\n황현태 (SpaceY)\nFDE = 컨설턴트 + 엔지니어\n스타트업에게 컨설팅을 맡기는 엔터프라이즈는 없음 → 정면승부 대신 우회 전략 설계\n스페이스와이의 FDE 상(像)\n창업 경험 있음\n엔지니어링 실력이 뛰어남\n비즈니스 토크 가능\n멀티태스킹이 빠른, 다소 젊은 인재\n\"3개월짜리 계약을 1~10일 만에 끝내 버리는 전략\"\n창의성을 발산시키면 2주 후 고객의 창의성이 고갈됨\n그때부터 디올(dio)타임 — 우리가 조직 컨설팅을 시작\n시킬 게 없을 때, 하나씩 짚으며 AX 관련 스텝을 밟아 나감\n이것이 K-FDE의 Version 1.5 ~ 2 (말빨이 약하니 빨리 일 끝내고 컨설팅 단계로 진입)\n채널톡 FDE와의 차이: 채널톡 FDE는 채널톡 관련 업무, 스페이스와이는 AX 관련 스텝을 밟음\nQ. 최근 몇 달간 \"하입\"이라 시도했지만 결국 버리게 된 것, 반대로 남긴 것은?\n이선민 (defytheodd)\n노이즈 95%의 시대 — 노이즈를 Align해 주는 것이 FDE의 역할 중 하나\n비즈니스 가성비·공수산정·ROI 관점에서 본질을 짚어주는 것이 핵심 역할\n버린 것: Hermes Agent\nHermes Agent: 자가개선(Self-improving)을 표방하는 오픈소스 에이전트 프레임워크 중 하나. OpenFlow 대비 낫다는 얘기로 한때 주목받았음.\n\"OpenFlow보다 낫다\"는 얘기로 시도했지만 본인 레거시 환경에는 맞지 않음\nSelf-improving이라는 말과 달리 결국 노가다가 들어감\n남긴 것: Karpathy가 올리는 한 장짜리/몇 개 파일짜리 도구들\nKarpathy (Andrej Karpathy): 前 OpenAI·Tesla AI 리드. 현재 개인 연구자·교육자로 활동하며 GitHub에 단일 파일짜리 미니멀한 AI 도구들을 종종 공개함. 업계에서 \"복잡한 프레임워크보다 Karpathy가 올린 몇 줄짜리 코드가 더 실용적\"이라는 평이 많음.\nKarpathy Loop / Auto Research / LLM Wiki\n그 철학을 계승한 오픈소스 Graph Bit 등\n코드베이스에 적용 즉시 효과\n토큰 사용량이 눈에 띄게 감소\n목표 달성까지 걸리는 시간도 크게 단축\n새로운 걸 빨리 시도 → 아닌 건 즉시 버리는 사이클이 중요\n황현태 (SpaceY)\n기술적 하입 자체에는 관심 없음\n\"안정적 기술만 써야 한다\"는 꼰대 마인드가 아니라, 수없이 써봐서 관심이 식은 것\n핵심은 문제 해결 — 그리고 문제 파악보다 어려운 게 엔터프라이즈의 이해관계자 지형\n상무님이 불러서 갔는데 팀장이 저지(?) 하는 상황\n팀장이 풀려는 문제와 상무 라인이 풀려는 문제가 다름\n대표 보고 다녀오면 모든 게 뒤집히는 현상\n스페이스와이의 접근\n옛날에는 \"문제 하나만 잘 풀면 된다\"였지만 지금은 6명 모두의 문제를 풀어줘야 하는 시대\n실행 비용이 제로이기 때문에 우선순위 없이 다 풀되, 누구에게 제일 잘 보일지는 전략적으로 판단\n60년대생 부대표님(회사생활 40년)이 조직 상황 해석의 핵심 축\n\"클로드 뭐든 써도 됨\" — 중요한 건 어떤 문제를 누구의 관점에서 푸느냐\nQ. 최근 반년간 의사결정의 흐름, 지금 4월 시점의 경로는?\n황현태 (SpaceY)\nVibe Coding에 대한 판단 흐름\nVibe Coding: Andrej Karpathy가 2025년 초 퍼뜨린 용어. 개발자가 코드 한 줄 한 줄을 직접 쓰지 않고, AI에게 자연어로 \"이런 느낌의 것을 만들어줘\"라고 지시하며 결과물을 받아 조정해 나가는 개발 방식. AI가 대부분의 실제 코드를 생성.\n10월 말 리즈닝 모델 등장까지: 그냥 멋부림\n리즈닝 모델 (Reasoning Model): 답을 바로 내놓지 않고 내부적으로 생각(reasoning) 과정을 거친 후 응답하는 AI 모델. OpenAI o1, Claude의 Extended Thinking 등이 대표. 복잡한 코딩·수학·논리 문제에서 성능이 크게 향상됨. 리즈닝 모델 등장 시점부터 Vibe Coding이 \"장난감\"에서 \"실무 도구\"로 넘어갔다는 맥락.\n12월 말부터는 본인도 손 떼기 시작, 자기 자신을 실험체로 사용\nReact 못하지만 React 개발자라 속이고 프리랜서로 실제 활동\n\"된다\"는 확신을 얻음\n12월부터 대기업이 스페이스와이를 호출하기 시작\n공통점: 사내 AX팀을 1년 정도 운영하다가 한계 느끼고 연락\nAX의 세대론 (스페이스와이 관점)\n1세대: 사내 AX팀(=사내 Palantir) 구축 — 평생 해야 하는 모델, 한계 확인됨\n2세대: 전 직원에게 Claude Code를 가르치자 — 실제로 다 따라오진 않음, 주니어 이탈\n3세대: \"스타트업(15인 미만)에서는 성공사례가 있다. 너희가 부서 하나만 맡아 AX 해봐\"\n스페이스와이가 매출 24억, 인력 4~5명일 때 불려간 세대\n자동화 80개씩 하지만 그래도 조직이 안 바뀜\n4세대(현재 시도): 꼭짓점 AX — 팀 리더를 AI Native Builder로 만들기\n꼭짓점 AX: 스페이스와이가 명명한 AX 접근법. 팀 전체를 한 번에 바꾸는 것이 아니라 \"꼭짓점(팀 리더)\"을 먼저 AI Native Builder로 전환하면, 그 리더의 감각이 팀 전체의 일하는 방식을 바꾼다는 관점.\n모 유니콘 사례: 15명 팀을 만들되 팀원 없이 팀장 2개월 → 이후 \"대학생 뽑아달라\"로 바뀜\n리더가 AI Native 감각을 가지면 팀이 바뀐다\n현재 스페이스와이는 3세대와 4세대를 오가며 클라이언트와 실험 진행 중\n전사 프로젝트는 크게 실패 위험 → 부서 단위 성공 후 옆 부서로 확장\n공감되는 부분 — 이선민\n이선민 (defytheodd)\n대학생 군단으로 팀 구성 중 — 재2의 FDE 양성\n이들이 주 5일 → 주 1일 → 주 0.5일로 전환\nFDE 1명이 주 10개 기업을 보는 모델을 연구·시도\n대학생의 높은 수율/효율\n신경가소성이 말랑말랑해야 쏟아지는 정보를 다 처리 가능\nA팀장 · B팀장의 요구가 달라 충돌하는 경우에 대한 경험\n결국 회장님 보고 단계에서 다른 게 중요하다는 경우가 빈번\n그래서 \"팀장 노이즈 캔슬링\"도 병행\n덜 중요한 건 \"딸깍 1~2번\"으로 빠르게 처리, 중요한 건 딸깍 여러 번으로 리소스 집중\n이렇게 내부적으로 리소스를 재분배하는 것이 FDE의 중요한 역할\nQ. FDE의 젊음 · 조직 경험 부족 · AI Native 제품 운영\n황현태 (SpaceY)\nFDE가 대체로 젊고 스타트업 출신 → 엔터프라이즈 조직문화 이해도 낮음이 이슈\n보완책: 2인 1팀 파견\n조직 구조 파악 담당, 업셀링 담당, 멘탈 서포터 등 역할 분담\nK-FDE는 1인 수행도 가능하지만 \"도와주는 1명\"은 반드시 필요\nKnowledge Graph / Context Graph 논의\nKnowledge Graph (지식 그래프): 개념·엔티티 간의 관계를 노드와 엣지로 표현한 데이터 구조. 단순 문서 검색(RAG)이 아닌, \"A 부서의 매출\"과 \"B 부서의 매출\"처럼 같은 단어가 다른 의미로 쓰이는 맥락까지 구조적으로 표현 가능.``RAG (Retrieval-Augmented Generation): 사용자의 질문이 들어오면 관련 문서를 먼저 검색한 뒤, 그 문서를 참고해 LLM이 답변을 생성하는 방식. 사내 AI 챗봇의 표준 구조로 자리 잡았지만, 엔터프라이즈 환경에서는 암묵지·맥락 의존 지식에 취약해 한계가 드러남.\nRAG 세팅 시대는 지났다 — 100%는 안 된다는 걸 이제 다 앎\n지식은 암묵지 기반, A팀의 \"매출\"과 B팀의 \"매출\"이 다른 의미일 수 있음\n해결해야 할 문제: \"지식이 충돌할 때 화자·부서·조직 크기·상황에 따라 다르게 해석되는 상황\"\nContext Graph: Knowledge Graph에 \"누가 말했는지 / 어느 조직 / 어느 시점 / 어떤 상황\"까지 태깅되어 있어, 질문이 들어왔을 때 그 맥락에 맞는 지식을 골라 꺼낼 수 있게 설계한 구조. 엔터프라이즈 AI의 핵심 난제 중 하나.\n스페이스와이는 \"도메인 엑스퍼트를 붙여달라\" 요구 안 함\n도메인 엑스퍼트는 클라이언트의 도메인 엑스퍼트\n대신 젊은 엔지니어가 산업(가전, P&L 등)을 완벽히 이해할 때까지 \"머리 박는다\"\nQ. 지식을 쌓았다는 것이 기술적으로 어떻게 구현되었는가?\n황현태 (SpaceY)\n지식의 성격에 맞춰 구조 선택\nGraph DB에 어울리는 지식이면 Graph DB\nGraph-DB-in-RDB 구조도 씀\npgvector도 씀\npgvector: PostgreSQL에 벡터 임베딩을 저장·검색할 수 있게 해주는 확장. 별도 벡터 DB 없이 기존 RDB 하나로 의미 기반 검색까지 처리할 수 있어 최근 많이 채택됨.\n옛날에는 벡터 DB에 강박적으로 매달렸지만, 지금은 그 지식에 어울리는 구조로 쌓음\n부대표님의 조언이 큰 역할\n핵심은 \"쌓는 것\"이 아니라 \"지식 태깅\"\n누가, 어느 조직에서, 어느 시점·상황에 필요한 지식인가\n태깅이 가장 중요\n결과적으로 AI 프로젝트의 QA를 사원에게 맡기기 어려운 상황도 발생\n책임급 노하우가 Knowledge에 들어와 있어서 사원 수준에서 QA가 안 되는 역설\nQ. 제품 자체가 커스터마이징되기 쉽게 만드는 것 — 두 분의 경험은?\n이선민 (defytheodd)\n고민 중인 주제\n상대 클라이언트가 본인에 대한 의존성(Dependency)을 갖게 됨\nLF에서도 \"주 1일이라도 나와 달라\"는 역(逆) 제안을 받은 것이 그 증거\n의존성이 심해 암묵적 컨텍스트가 나 혼자에게 몰림 → 나가면 진전이 멈춤\n끊어내기 위해 만드는 것: Harness Editor\nHarness: 원뜻은 \"마구(馬具)\" — AI 모델·에이전트를 특정 작업에 맞게 감싸고 제약·평가·도구 사용을 제어하는 래퍼 구조. 평가·튜닝·실행 흐름을 묶어놓은 일종의 \"AI 작업 틀\".\n영상 편집 시퀀스를 배치하듯이\nHuman-in-the-loop / Human-out-of-the-loop 구간을 GUI로 편집 가능하게\n\"LF를 나가기 위해 만들고 있다\"\nHuman-in-the-loop (HITL): AI 자동화 흐름 중간중간에 사람이 개입·검증·승인하는 단계를 두는 설계 방식. 반대로 Human-out-of-the-loop (HOTL) 은 특정 구간을 사람 개입 없이 AI에게 완전히 맡기는 방식.\n황현태 (SpaceY)\n개발자의 PR(Pull Request) 방식을 지식 그래프에도 그대로 적용\n지식 추가/삭제/수정 시 Conflict를 Knowledge Manager가 관리\nPR이 아닌, Knowledge Manager용 보고서 형태의 표현이 새로운 문화\n지식공학(Knowledge Engineering) 시대가 다시 도래\n고객사 자체가 커스텀할 수 있는 것이 최종 목표지만, 솔직히 현 세대에서는 어렵다고 봄\nAI Native한 세대(현 20대 중반)가 올라올 때 비로소 가능해질 것\nQ. 제조업에서 AX가 특히 잘 적용되는 부분이 있는가?\n황현태 (SpaceY)\n재료/재고 예측/발주 영역 — 100% 도움됨\n적용 방식\nVision 기반도 가능\nMES 같은 시스템이 있다면 거기에 붙여서 운용 가능\nMES (Manufacturing Execution System): 제조 실행 시스템. 공장의 생산 현장에서 설비·작업·재고·품질 데이터를 실시간으로 수집·관리하는 시스템. ERP보다 더 현장에 밀착된 레이어.\n뷰티·음료 제조는 원자재 관리 흐름이 유사하므로 서로 참고 가능\n3부. Fireside Chat #2\n김요섭 (Worxphere CTO) · 최한길 (채널톡 FDE Lead)\n진행: 황현태 (SpaceY)\nQ. 전사 비개발직군 250명을 Claude Code로 AX 전환하는 전략은?\n김요섭 (Worxphere)\n전사 약 550명, 그 중 비프로덕트 조직이 약 250명\n본인의 역할: 전사 AX를 리드하는 \"회사 내부 FDE\"\n직속 FDE 팀이 비개발 조직의 AX 전환을 담당\n본인은 CTO로서 프로덕트 전체 조직의 AX를 같이 진행\n고민의 출발점\n개인 생산성/팀 생산성 레퍼런스는 많은데, \"전사의 생산성\"을 높이는 케이스는 드물었음\n대표와 논의한 결론: 목표는 \"전사의 실행력 향상 + 깊이 있는 의사결정\"\n실행 원칙: Top-down 우선\n임원 12명 중 개발자 출신은 본인 · 개발실장 · 대표 3명, 나머지는 비개발자\n지지난주에 임원 대상 AX 전환 교육 실시\n임원들이 Claude Code 기반으로 에이전트 20개씩 띄워 본인·조직 이득을 먼저 실현\n왜 Top-down이 먼저인가\n작년부터 팀 단위로 AX 시도 → 개발자가 팀에 합류하는 수준으로는 생산성 향상 한계\n결국 조직이 일하는 방식, 직무 정의 자체가 바뀌어야 함\n임원이 AX 되지 않으면 이 변화가 워킹하지 않음\n진행 순서\n임원 전환 → 주간 보고 등 업무 방식을 AI Agent 기반으로 Real-time 받게 함\n이후 FDE 팀이 비개발 직원 팀 단위로 투입해 전환·생산성 향상 수행\nQ. 솔루션 아키텍트와 FDE의 차이는?\nSolution Architect (SA): 고객사가 특정 제품·플랫폼(AWS, GCP, Palantir 등)을 도입·활용할 때, 기술 구조를 설계해 주고 프리세일즈 단계에서 기술 컨설팅을 해주는 엔지니어. 한국 SI 업계에서는 \"솔루션 아키텍트\"와 \"세일즈 엔지니어\"가 거의 같은 맥락으로 쓰임.\n최한길 (채널톡)\n팀 소속의 차이가 본질\n솔루션 아키텍트/세일즈 엔지니어 시절: 엔지니어 팀 소속\n현재 FDE: AX팀 소속\n핵심 KPI가 다름\n세일즈 엔지니어는 프리세일즈 의사결정을 빠르게, 리드타임 축소가 목표\nFDE는 회사 매출 증가가 목표 — 채널톡은 AI 상담 에이전트 ALF를 주력 판매\nALF: 채널톡이 주력으로 판매 중인 AI 상담 에이전트 제품명.\n\"어떻게 더 빨리 팔고, 더 빨리 세팅할 수 있을까\"를 고민\n세일즈 단계 조인 여부는 시장별로 다름\nB2B SaaS, 특히 엔터프라이즈는 딜 호흡이 2~3년\n엔터프라이즈에서는 엔지니어의 프리세일즈 참여가 병목 아님\n미드마켓에서는 좋은 데모 퀄리티가 매출에 직결\n채널톡의 시장 정의\n엔터프라이즈: C레벨이 직접 꼽아준 고객\n미드마켓: C레벨이 안 꼽아주고 SMB도 아닌 것\nQ. Claude Code 전환의 성과 평가는 어떻게 책정하는가?\n김요섭 (Worxphere)\n공식적으로는 3개 레이어로 측정 가능\n토큰 사용량 리더보드 (많이 썼는지)\n컨텍스트 인프라 기반의 활용도 지표 (Claude Code 내 다양한 지표)\nDORA Metrics 등 생산성 지표\nDORA Metrics: Google DORA 팀이 제시한 엔지니어링 조직 성과 지표 4종. 배포 빈도, 변경 리드타임, 변경 실패율, 복구 시간(MTTR). 개발 조직 생산성 평가의 표준 지표.\n본인의 결론: 디테일한 측정은 의미 있을까?\n차라리 Outcome으로 얘기하는 편이 낫다\n회사 관점의 Outcome\n조직 레벨: 개발 전체 Velocity가 얼마나 빨라졌는가\n비개발 조직: 실행력이 얼마나 빨라졌는가\n프로덕트 영역: 배포 속도, 가치 전달 속도 등\n정교한 측정 인프라에 많은 에포트를 쏟기보다 명확한 Outcome 기반 평가가 효율적\n250명 분량의 Claude Code 비용 부담\n당연히 크고, 단계별로 의사결정 중\n선행 작업: AI Governance 먼저 구축 (500~600명 직원, 천만 명 규모 사용자 대응)\nAI Governance: AI 사용에 대한 전사 가이드라인·보안·권한·감사 체계. 누가 어떤 데이터를 AI에 넣을 수 있고, 어떤 출력물을 외부에 내보낼 수 있는지 등을 정의하는 운영 기반.\n보안·POC를 통해 안전성과 리스크 없음을 증명해 가며 점진 확대\nPOC (Proof of Concept): 본격 도입 전에 작은 범위에서 \"이 기술/제품이 실제로 우리 상황에서 작동하는가\"를 검증하는 파일럿 프로젝트.\nQ. Claude Code 전환 속도가 가장 빨랐던 직군은?\n김요섭 (Worxphere)\n프론트엔드, 앱 개발자\n배경\n작년 8월부터 6개 프로덕트를 4개월 만에 동시 리빌드하는 대형 프로젝트 진행\n클라이언트·프론트·앱 엔지니어를 AI 기반 코딩 생산성 향상 타깃으로 지정\n당사자들 간증: 개인 생산성이 약 8배 상승\n그 인원들이 현재 회사의 FDE 팀 멤버가 됨\n본인 직속 FDE 2명도 원래 클라이언트 엔지니어 출신\n그 경험이 FDE 조직과 AI Native 전환의 Key Moment\nQ. 채널톡은 FDE를 어떤 구성으로 고객사에 투입하는가?\n최한길 (채널톡)\n전체 FDE 팀은 5명 한 팀\n팀을 애매하게 나누면 오히려 업무가 안 됨\n팀 간 교집합 영역에 대한 의사결정이 느려지기 때문\n고객사 투입 방식은 시장에 따라 다름\n미드마켓: AX 컨설턴트(DS)가 직접 투입\nDS (Deployment Specialist): 채널톡 내부 명칭으로, 개발자가 아닌 AX 컨설턴트를 가리킴. 고객사에 직접 들어가 제품을 세팅·활용하도록 돕는 역할.\n개발자는 아니지만 Vibe Coding/AI 이해도 높음\n채널톡 ALF에 대한 이해도 높아 세팅·해결이 빠름\n엔터프라이즈: FDE가 AX Ops 역할 수행\nAX Ops: DevOps처럼 \"AX 운영(Operations)\"을 담당하는 조직 컨셉. AX가 현장에서 잘 굴러가도록 공정·도구·병목을 점검하고 개선하는 역할.\n베스트 프로덕트를 위한 \"공장\" 관점으로 접근\n어느 설비에서 시간이 얼마 걸리는지, 병목이 무엇인지 체크\nDS분들이 빠르게 세팅할 수 있도록 하는 장치 제작 및 공정 체크\n왜 솔루션 아키텍트 방식과 다른가\nAWS/GCP/Palantir처럼 인프라 깊이 들어가야 하는 제품은 비개발자가 쓰기 어려움\n채널톡은 상담 팀장·상담사가 쓰는 툴 — 자유도는 높되 난이도는 낮음\n엔지니어가 직접 투입되기엔 ROI가 안 나옴, 대신 AX 컨설턴트의 속도를 끌어올리는 쪽이 최적\nQ. 인하우스 FDE 팀을 만들려는 회사에 어떤 조언이 있는가?\n김요섭 (Worxphere)\nFDE 팀만으로는 해결되지 않음\n본인은 \"회사 내부 FDE\"로서 뒤에서 풀어주는 역할\n보안 문제 (폐쇄망, 앱 차단 등)\n데이터 분산·소트 구성 등 플랫폼 레벨 이슈\n조직 이슈 (현업에서 FDE가 마주치는 것들)\nFDE 팀 위에 CTO/CIO/CEO 레벨의 스폰서십이 반드시 필요\n이것이 \"에코 역할 / 리드 에코\"에 해당\nQ. 최근 힙한 기술 대응은 어떻게 하고 있는가?\n최한길 (채널톡)\n\"AX\"라는 키워드는 수혜는 받고 있지만 본인은 별로 안 좋아함\n도구가 많이 나오는 것과 별개로, 본질인 사람이 강해지지 않으면 의미 없음\n매니저 입장에서 더 중요하게 보는 역량\n체력\n실행력, 굳센 마음가짐, 씩씩하게 세상을 살아갈 수 있는 체력\n유연한 사고력\n지금 로직이 맞다고 믿되, 틀렸다면 언제든 수정할 수 있는 태도\n도구 전환 러닝 커브에 에너지를 다 태우는 것은 오히려 손해\n김요섭 (Worxphere)\n시니어 의사결정자 입장에서는 \"큰 방향\"을 본다\n하루에도 여러 번 업데이트되는 기술 트렌드는 계속 보지만, 큰 그림이 어디로 가는지가 핵심\n해야 할 것뿐 아니라 \"하지 말아야 할 것\"을 결정해야 하기 때문\nClaude Code 로드맵·릴리즈 노트를 깊이 읽으며 제품의 전략과 의도 파악\n두 가지 다 병행: 업데이트 팔로우업 + 큰 방향 의사결정\nQ. 폐쇄망 / SAP ERP 등 엔터프라이즈 기간계 연동 경험은?\n김요섭 (Worxphere)\n폐쇄망 관련은 본인만 해당 (개인정보 처리 부분)\nSAP ERP 연동 방식\nSAP ERP: 독일 SAP社의 전사적 자원관리(ERP) 시스템. 대기업의 재무·구매·생산·인사 데이터가 모이는 기간계 시스템. 한국 대기업 대부분이 SAP 사용.\nSAP에 바로 붙이지 않음\n사내 Data Lake에 SAP 데이터를 먼저 소프트 추출·축적\n그 Data Lake에서 전사의 AI 에이전트가 접근 가능한 구조 구축\n데이터 Write는 SAP에 직접 넣고, 필요한 데이터를 다시 가져와 보관\nData Lake: 정형/비정형 데이터를 원본 그대로 대량 저장하는 저장소. 정제된 데이터만 넣는 Data Warehouse와 대비됨. SAP 등 원천 시스템의 데이터를 복제·적재해 전사 AI가 접근할 수 있는 허브로 활용.\nQ. 채널톡의 AX 전환에 대해 — 엑스퍼트(파트너)와의 커뮤니케이션은?\n최한길 (채널톡)\nAX 내에서 엑스퍼트를 밀착 담당하는 부문 존재\n예전 자유시장처럼 흘러가던 커뮤니티·리드 흐름을 최근엔 적극 관리 중\n리드 확보 후 어떻게 분배할지를 고민\n채널톡 팀의 손이 한정적이므로 결국 시장에 맡겨야 하는 부분이 존재\n엑스퍼트 전담 인력 계속 고용 중\n오퍼레이션이 자주 바뀌고 외부 전달이 민감해 혼란이 있을 수 있음 — 커뮤니티 채널 통해 전달 가능\nQ. 개인 생산성의 합이 조직의 속도를 대변하지 않는 문제 — 의사결정 품질을 높이는 AX 전략은?\n김요섭 (Worxphere)\n회사는 두 레이어로 나뉨\n의사결정 레이어 (임원)\n실행 레이어 (임직원)\n전사 생산성 = 깊고 빠른 의사결정이 오해 없이 실행으로 전달될 때 발생\n임원부터 AX 전환한 이유\n의사결정이 느린 이유는 결국 데이터·지표\n주간회의에서 \"다음 주에 얘기하자\"가 반복되는 이유도 데이터 대기\n그래서 임원 AX와 동시에 데이터 인프라 전환을 진행\n데이터 측면 개선\n부서마다 달랐던 \"매출\" 정의를 Data Catalog로 정리 (주주사 보고, 임원 집계 등이 제각각이었음)\nData Catalog: 회사에서 쓰는 데이터 항목들의 정의·출처·담당자를 정리해 놓은 목록. \"매출\"이 부서마다 다른 의미로 쓰이는 것을 단일 정의로 통일하는 기반.\n의사결정 빠르게 하기 위한 단일 소스 확보\n배치 중심이었던 데이터 흐름을 준실시간으로 전환 — FDE 팀과 데이터 분석가 협업\n임원 AI Agent 구성\nCTO/CEO/CFO용 AI 에이전트 각각 운영\n주요 보고 전에 해당 에이전트들과 여러 턴 돌려 의사결정 깊이 확보\n의사결정 시간 자체를 만들어 주기\n임원들이 실제로 의사결정에 쓸 시간보다 면접·인터뷰·결재 등에 쓰는 시간이 과도함\n이런 부분을 자동화해 의사결정 집중 시간 확보\n실행력 영역\n의사결정 결과가 중간 레이어를 거치지 않고 임직원 백그라운드에 즉시 커넥팅되도록 구성\n\"해야 할 일\"과 \"하지 말아야 할 일\"을 빠르게 결정해 주는 것이 실행력을 올리는 또 다른 방법\nQ. AX를 하다 보면 조직 구조 자체의 변화를 맞이하게 되는데, 워크스피어 내부에서도 그런 일이 있었는가?\n김요섭 (Worxphere)\n전사 AI Native 전환을 하면서 본인 CTO 역할부터 재정의\n전통 CTO: 개발 조직 아키텍처 + 비개발자에게 개발 용어 번역 + 프로젝트에 개발자 어사인\n현재: AI가 개발하는 시대이므로, 사람과 AI가 재협업할 수 있게 조직 문화·직무·일하는 방식을 다시 설계하는 사람이 CTO\nFDE의 역할도 재설계됨\n단순히 생산성을 올리러 들어가는 게 아니라, 일하는 방식과 직무의 역할 자체를 재설계\n임원의 지원 필수 — FDE 혼자서 할 수 있는 일이 아님\n프로덕트 조직도 재정의 중\n프론트엔드/백엔드의 전통 구분이 아닌, 자사만의 새 Arena와 직무 정의\n기존 SDLC를 AI-DLC / Context-DLC 등으로 재정의\nSDLC (Software Development Life Cycle): 요구사항·설계·구현·테스트·배포로 이어지는 전통적 소프트웨어 개발 생명주기.\nAI-DLC / Context-DLC: 워크스피어가 내부적으로 재정의 중인 개념. AI가 개발의 중심이 된 시대에 맞춰 \"Context 관리·AI 에이전트 운용\"을 1급 시민으로 포함시킨 새로운 개발 생명주기 프레임.\n조직명·역할·배포 방식까지 동시에 재설계\n참고 링크\nSI를 하겠다는 이상한(?) 스타트업 '스페이스와이' — 바이라인네트워크",
+    "title": "개발자 도구 캐시 정리 및 용량 줄이는 방법",
+    "description": "이 글은 개발자 도구 캐시 정리 및 용량 줄이는 방법을 간략히 나눔한다. \n\n\n기본적으로 허깅페이스, PIP 등을 사용하는 개발자로 가정한다.\n\n명령창을 띄워 다음과 같이 실행한다. \npip cache purge\nconda clean --all -y\nhuggingface-cli delete-cache\nwandb sync --clean\nnpm cache clean --force\nyarn cache clean\npnpm store prune\ndocker system prune -a --volumes\ndocker builder prune -a\ndocker image prune -a\n\n\n파이썬에서 다음을 실행한다.\n\nimport torch\ntorch.cuda.empty_cache()\n\n\n임시 폴더를 삭제한다.\nC:\\Windows\\Temp\\\nC:\\Windows\\SoftwareDistribution\\Download\\\n\n\n도커 이미지 모두 삭제하려면 다음 실행한다.\ndocker rmi -f $(docker images -q)\n\n\n레퍼런스\n\nHow to Delete Temporary Files in Windows - GeeksforGeeks",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/876",
-    "pubDate": "Sat, 18 Apr 2026 10:59:09 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "세미나",
-      "AI Agent",
-      "ai native",
-      "Anthropic",
-      "ax",
-      "claude code",
-      "fde",
-      "Forward Deployed Engineer",
-      "vibe coding"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "ODW #3: MCP 서버를 안전하게 활용해 개발 효율 높이기",
-    "description": "안녕하세요. LY Corporation의 aikawa입니다. Yahoo! 지도 및 Yahoo! 환승 안내 iOS 앱 개발을 담당하고 있고, iOS 영역의 Developer Rela...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/improving-development-efficiency-with-secure-mcp-servers",
-    "pubDate": "Tue, 21 Apr 2026 06:00:00 GMT",
+    "link": "http://daddynkidsmakers.blogspot.com/2026/04/blog-post_23.html",
+    "pubDate": "2026-04-24T02:33:33.146Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 12,
+    "id": 11,
     "imageUrl": "",
-    "title": "Security Issue in YouTrack (CVE-2026-33392): Upgrade Recommended for Server Versions Before 2025.3.132953",
-    "description": "A security vulnerability in YouTrack came to light in March 2026, and we fixed it immediately. Most of you don’t need to do anything, but we want to keep you informed. For most YouTrack administrators, this is purely an informational post. Action required from YouTrack Server administrators If you are running YouTrack Server on a […]",
+    "title": "IntelliJ IDEA 2026.1.1 Is Out!",
+    "description": "IntelliJ IDEA 2026.1.1 has arrived with several valuable fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates included in this version: To find out more details about the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/youtrack/2026/04/security-issue-in-youtrack-cve-2026-33392/",
-    "pubDate": "Fri, 17 Apr 2026 06:41:39 +0000",
-    "creator": "Elena Pishkova",
+    "link": "https://blog.jetbrains.com/idea/2026/04/intellij-idea-2026-1-1/",
+    "pubDate": "Thu, 23 Apr 2026 13:04:22 +0000",
+    "creator": "Maria Kosukhina",
     "categories": [
-      "youtrack",
-      "news",
-      "security"
+      "releases"
     ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Is convenient finance and everyday life possible for everyone?",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/conveniencetoeveryone",
+    "pubDate": "Thu, 23 Apr 2026 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge",
-    "description": "We’ve fundamentally transformed Facebook Groups Search to help people more reliably discover, sort through, and validate community content that’s most relevant to them. We’ve adopted a new hybrid retrieval architecture and implemented automated model-based evaluation to address the major friction points people experience when searching community content. Under this new framework, we’ve made tangible improvements [...]\nRead More...\nThe post Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge appeared first on Engineering at Meta.",
+    "title": "AI in DevOps: Why Adoption Lags in CI/CD (and What Comes Next)",
+    "description": "AI is everywhere except in CI/CD Developers now use AI for nearly everything, except the part that actually ships code. Recent surveys conducted by JetBrains indicate that AI is now widely used in software development, with workplace usage exceeding 90% and a large majority of developers already incorporating it into daily workflows. Developers rely on […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/04/21/ml-applications/modernizing-the-facebook-groups-search-to-unlock-the-power-of-community-knowledge/",
-    "pubDate": "Tue, 21 Apr 2026 16:00:19 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/teamcity/2026/04/ai-in-devops/",
+    "pubDate": "Thu, 23 Apr 2026 12:29:24 +0000",
+    "creator": "Olga Bedrina",
     "categories": [
-      "ML Applications"
+      "ai",
+      "deveco",
+      "devops"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "7 Best Static Code Analysis Tools",
-    "description": "Investing in static code analysis tools might seem straightforward, but finding one that truly fits your team can be tough. Most tools promise the usual benefits: cleaner code, fewer bugs, better security, and more consistency in code reviews. Yet in reality, there’s a big difference between a tool the team embraces and one that everyone […]",
+    "title": "에이스 오브 스페이드, 기도하고 일하라, 위대한 로렌초",
+    "description": "에이스 오브 스페이드 출시때 살까 말까 하다 안샀는데, 와이프가 애기를 봐줄테니 페스타 혼자라도 다녀오라고 떠밀어줘서 갔다가 구매한 솔플게임이다. 아스모디는 항상 이벤트를 빵빵하게 해줘서 오프라인 페스타를 가면 관심있었던 게임들을 집어오게 한다. 게임은 8장의 핸드를 이용하는데 포커 족보를 이용해 데미지를 주는 방식이다. 적을 물리칠때마다 일회용, 또는 영구적인 강화나 변화를 사용할 수 있게 해준다. 인물패 즉 j q k는 추가 데미지 1이 있고 A는 추가데미지 3이 있는것도 재미있다. 해당 패가 포함된 족보를 내면 추가데미지를 더 줄 수 있기에 뒤로 갈수록 높은 데미지를 주는 패를 가지고 있는것이 중요하다. 족보를 내.......",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/04/best-static-code-analysis-tools/",
-    "pubDate": "Mon, 20 Apr 2026 13:01:22 +0000",
-    "creator": "Elizaveta Myšáková",
+    "link": "https://blog.naver.com/dlehddus84/224262254924?fromRss=true&trackingCode=rss",
+    "pubDate": "Thu, 23 Apr 2026 11:25:37 +0900",
+    "creator": "dlehddus84",
     "categories": [
-      "qodana",
-      "static-code-analysis"
+      "플레이"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "약해지는 게 강해지는 것이다",
-    "description": "작년 말에 내가 2026년도에 대해 예측했던 게 있다. 올해는 시장에 돈이 더 풀려서 전반적인 스타트업 생태계가 서서히 리바운드할 것이라는 예측이었다. 실은, 이 예측을 하나씩 확인해 보면 틀리진 않았다. 시장에 돈이 정말 더 많이 풀렸고, 스타트업 생태계가 빠르게 리바운드하고 있다는 걸 누구나 다 느끼고 있을 것이다. 겉으로만 보면. 하지만, 뚜껑을 열고 그 속을 들여다보면 많이 다른(...)",
+    "title": "Building a fault-tolerant metrics storage system at Airbnb",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/04/weak-is-the-new-strong.html",
-    "pubDate": "Sun, 19 Apr 2026 21:26:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://medium.com/airbnb-engineering/building-a-fault-tolerant-metrics-storage-system-at-airbnb-26a01a6e7017?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 21 Apr 2026 17:01:06 GMT",
+    "creator": "Rishabh Kumar",
     "categories": [
-      "Uncategorized",
-      "failure",
-      "FoundersAtWork",
-      "inspiring",
-      "musicshake"
+      "site-reliability-engineer",
+      "infrastructure",
+      "technology",
+      "engineering",
+      "software-architecture"
     ]
   }
 ]
