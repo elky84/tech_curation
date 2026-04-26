@@ -2,6 +2,37 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "Busy Plugin Developers Newsletter – Q1 2026",
+    "description": "Your quarterly dose of plugin dev news, tools, and tips from JetBrains. 🧩 Marketplace Updates Updated Approval Guidelines: New Technical Requirement We’ve added a new clause to the Plugin Approval Criteria, under Section 2.2: c. The Plugin must not modify, hide, intercept, or otherwise interfere with the functionality of any JetBrains Product in a way […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2026/04/busy-plugin-developers-newsletter-q1-2026/",
+    "pubDate": "Mon, 20 Apr 2026 21:57:41 +0000",
+    "creator": "Elena Kerpeleva",
+    "categories": [
+      "marketplace",
+      "news",
+      "newsletters",
+      "busy-plugin-developers"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "스타트업 교육 - 제품이 세일즈를 해결한다 / 세일즈가 제품을 해결한다.",
+    "description": "돈을 볼려면 결국 무언가를 만들어 팔아야합니다.\n만드는 것과 파는것 두가지 일이 발생하며\n이 둘을 동시에 할 수 있는 사람은 극히 드물며\n도움을 받아야합니다.\n \n내가 제품을 만드는 쪽에 특화되있는지 \n제품을 파는 쪽에 특화되있는지 잘 알아야할 것입니다.\n \n저같은경우 제품을 잘 만든다고 생각했는데\n지금와서 돌어보면 젤만드는건 쥐뿔 없고 그냥 주식을 잘했던거 같군요\n \n영상: https://www.youtube.com/watch?v=oZ5kTqabhyY",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1627",
+    "pubDate": "Sun, 19 Apr 2026 13:45:48 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유튜브"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
     "title": "Take the 2026 ISO C++ Developer Survey!",
     "description": "The 2026 ISO C++ developer survey is now open: 2026 Annual C++ Developer Survey “Lite” : Standard C++ It takes about 10 minutes and directly informs the standardization committee and tooling vendors so the C++ ecosystem can continue evolving the right way. Please share your feedback and share with your colleagues!\nThe post Take the 2026 ISO C++ Developer Survey! appeared first on C++ Team Blog.",
     "reviews": [],
@@ -15,7 +46,94 @@
     ]
   },
   {
-    "id": 2,
+    "id": 4,
+    "imageUrl": "",
+    "title": "원더랜드워-모자장수 도색",
+    "description": "모자장수는 전체적으로 검정 슈트를 입고있어 검정 프라이머 위에 그냥 칠해주었다. 진한 보라색으로 베이스를 칠해주어 진영구분이 용이하게 해주었고 사용한 물감 종류가 적어 쉽게 칠했다. 헤어는 딥브라운으로 칠해주었는데 빠트렸네...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/dlehddus84/224262275895?fromRss=true&trackingCode=rss",
+    "pubDate": "Thu, 23 Apr 2026 11:42:13 +0900",
+    "creator": "dlehddus84",
+    "categories": [
+      "도색과 제작"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2026.1.1 Is Out!",
+    "description": "IntelliJ IDEA 2026.1.1 has arrived with several valuable fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates included in this version: To find out more details about the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/04/intellij-idea-2026-1-1/",
+    "pubDate": "Thu, 23 Apr 2026 13:04:22 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": [
+      "releases"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Kotlin Professional Certificate by JetBrains – Now on LinkedIn Learning",
+    "description": "JetBrains has partnered with LinkedIn Learning to offer the Kotlin Professional Certificate. This is a structured learning path that covers the full scope of modern software development – from Kotlin essentials all the way to building full-stack, multiplatform applications for mobile, desktop, web, and backend environments. Start Learning Who it’s for This certification is designed […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/04/kotlin-professional-certificate-by-jetbrains-now-on-linkedin-learning/",
+    "pubDate": "Tue, 21 Apr 2026 13:21:36 +0000",
+    "creator": "Ksenia Shneyveys",
+    "categories": [
+      "education",
+      "news"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "PyCharm for Django Fundraiser: Why Django Matters in the AI Era – And Why We’re Supporting It",
+    "description": "Spend a few minutes around developer content, and it’s easy to come away with the impression that web apps now appear to almost write themselves. Everything that follows – review, verification, refactoring, debugging, and the open-source frameworks that make those apps dependable – gets less attention. AI can speed up code generation, but it does […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/pycharm/2026/04/pycharm-for-django-fundraiser-why-django-matters-in-the-ai-era-and-why-we-re-supporting-it/",
+    "pubDate": "Wed, 22 Apr 2026 12:15:34 +0000",
+    "creator": "Valeria Letusheva",
+    "categories": [
+      "pycharm",
+      "django",
+      "oss"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "강화도",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hodolman.tistory.com/85",
+    "pubDate": "Sun, 19 Apr 2026 21:33:23 +0900",
+    "creator": "호돌맨",
+    "categories": [
+      "사진",
+      "강화도",
+      "조양방직카페"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Scaling Camera File Processing at Netflix",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/scaling-camera-file-processing-at-netflix-6dab2b1e80be?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 24 Apr 2026 15:06:01 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": []
+  },
+  {
+    "id": 10,
     "imageUrl": "",
     "title": "AI 논란이 터저버린후의 공모전의 사후 대처",
     "description": "영상: https://www.youtube.com/watch?v=kcyNk6lJH9Y\n\n\n\n \n사건의 저말\nAI 를 썼나 안 썼나는 지나가는 사람 입장에선 중요한 일은 아니고\n밝혀지는 과정과 왜일어났는지는 궁금함이 생겼습니다.\n(이것이 바로 컨텐츠)\n \n1등 당선자는 AI 안썼다고 여러 해명을 내놓았지만\n일은 수습이 안돼고 점점더 커지게 됩니다.\n이때까지만 해도 당선 유지를 하고 싶었던것 같습니다.\n \n일이 마무리가 안되자 \n전문가들 불러서 논의 하고 \n사람이 그린부분과 AI 가 사용된 부분이 공존함을 밝혀졌고\n최종적으로 AI 그림을 밑에 대고 위에 다시 그린형태라고 결론을 내리고\n직접 통화를 시도 하였지만 통화는 차일피일 밀렸습니다.\n \n결국 통화는 하지 않고 트레이싱(AI 그림을 보고 따라그린것) 을 인정하였고 \n무효 처리되었습니다.\n \n각자의 입장\n당선자는 진짜로 당선을 원했던거 같습니다.\n수 시간에 걸친 해명 시간이 있었습니다.\n결론이 트레이싱으로 밝혀져서 알 수 있는 사실이지만\n트레이싱도 노력의 시간이 꽤 들어갑니다. 그림 전체를 다시 그리는 노력이 들어가기 때문입니다.\n오래 그리다보면 본인도 햇갈립니다.\n \n이게 내 그림인가 AI 그림인가\n시작부터 잘못된 방식은 끝내 폭탄이 되어 돌아옵니다.\n고생한 시간은 아깝지만 잘 못 쌓아 올린 건물을 무너질 운명을 타고 납니다.\n \n샌프란시스코의 밀레니엄 타워 예시\n영상: https://www.youtube.com/watch?v=bSw81yPUBcU\n\n\n\n기초를 잘못지은 건물은 시간이 지나면서 기울기 마련입니다.\n이것은 기초를 다질때 이미 확정된 결과로 밝혀지는데 시간이 걸릴뿐 ...\n \n당선자 본인은 몰랐을 수도 있지만 전문가 입장에선 길게보면 드러날 행동...\n(다들 해봤고 결과는 뻔하다.)\n이번에 밝혀지지 않았다면 \n이 당선자는 다 큰대회에서도 실패할때까지 이 일을 반복했을 것입니다.\n(이것 역시 다른 사람들이 했던 그길을 따라 ...)\n이쯤에서 밝혀지는 \"블레이드 러너\" 의 복제인간 구분 방식이 다시 생각납니다.\n \n이쯤에서 다시 소환되는 블레이드 러너\n블레이드 러너 세계관에서는 복제인간이 있긴하지만 명확히 구분되는 무언가가 없기 때문에\n그냥 질문을 수십차례해서 수 틀리면 잡는 그런 방식을 사용합니다.\n(굉장히 비효율 적인데 너무 잘만들어서 그런가 봅니다.)\n영화에서는 여주인공이랑 9시간동안 질문했다던데 여주가 말 대답하는게 이뻐서 그냥 대화를 길게 한거 같은 느낌입니다.\n \n골치 아픈 아트의 세계\n일단 Ai 때문에 무슨 짓을 해도 의심받는 업계가 되었습니다.\nAI 한거 처럼 보일 것을 대비해 작업하는걸 일일이 기록해야한다는군요\n적어도 시간을 갈아넣은게 증명되면 노력은 인정해주는거 같습니다.\n \n결국 이렇게 불편한 방식은 인간의 발전속도를 저해하게 될 것입니다.\n아트는 이제 새로운 판단 방식을 요구받게 될 것입니다.\n \n예를들어 가볍게 4컷 만화 그리기 말고\n한화책 한권 불량을 라던가 - (노력이 너무 들어가야해서 안될꺼 같은데 ...)\n게임잼 처럼 난이도 높은 주제 정하고 시간을 짧게 주던가\n \n오늘도 손발 묶고 달리는 안트의 세계를 또한번 보게 됩니다.",
@@ -32,7 +150,54 @@
     ]
   },
   {
-    "id": 3,
+    "id": 11,
+    "imageUrl": "",
+    "title": "7 Best Static Code Analysis Tools",
+    "description": "Investing in static code analysis tools might seem straightforward, but finding one that truly fits your team can be tough. Most tools promise the usual benefits: cleaner code, fewer bugs, better security, and more consistency in code reviews. Yet in reality, there’s a big difference between a tool the team embraces and one that everyone […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/04/best-static-code-analysis-tools/",
+    "pubDate": "Mon, 20 Apr 2026 13:01:22 +0000",
+    "creator": "Elizaveta Myšáková",
+    "categories": [
+      "qodana",
+      "static-code-analysis"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "불록분해 / Tab to Dismantle / v16 업데이트",
+    "description": "영상: http://youtube.com/watch?v=xSO717ii3PU&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Faddforce1.blogspot.com%2F\n\n\n\n \n \nv16\n업데이트 했습니다. 거의 1년 만입니다.\n \n내용\n- 유니티 6.0 -> 6.3 으로 변경 \n- 발사 이팩트 추가\n- 콤보 타이머 추가\n \n \nRELATED LINKS \n   PRIVACY POLIC\n   BLOG",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1631",
+    "pubDate": "Thu, 23 Apr 2026 15:15:36 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "프로그래밍/자작",
+      "ba",
+      "유니티",
+      "자작"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "유니티애셋 - ProPixelizer",
+    "description": "15 달러 의 행복\n \n \n여기서 설명을 잘해주시네요\n영상: https://www.youtube.com/watch?v=q4epArkvVnE\n\n\n\n17분 12초에 나옵니다.\n \n내 리소스가 형편없다면 실셀화시켜서 문제를 회피할 수 있습니다.\n적극 고려해봅시다. ㅎ\n \n아주 길게 사용법도 설명해줍니다. 영상 꼭 참고하세요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1630",
+    "pubDate": "Wed, 22 Apr 2026 22:52:32 +0900",
+    "creator": "SIDNFT",
+    "categories": [
+      "유니티",
+      "유니티애셋"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "C++ Code Intelligence for GitHub Copilot CLI (Preview)",
     "description": "We recently brought C++ code understanding tools to GitHub Copilot in Visual Studio and VS Code. These tools provide precise, semantic understanding of your C++ code to GitHub Copilot using the same IntelliSense engine that powers code navigation in the IDE. Until now, these capabilities have been tied to GitHub Copilot in Visual Studio and […]\nThe post C++ Code Intelligence for GitHub Copilot CLI (Preview) appeared first on C++ Team Blog.",
@@ -47,191 +212,17 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "2026년 주목할 신인 - neu / 노이 / ノイ / 가수",
-    "description": "뻔하자나\n또하나 올라왔습니다. 이번엔 오리지날 곡인가 봅니다.\n영상: https://www.youtube.com/watch?v=ZtLB7VTm1IM&list=RDZtLB7VTm1IM&start_radio=1\n\n\n\n \n몇일전 티저 영상이 잠깐 올라왔었고 5초만에 끝났지요\n\"그저께도\" 라고 한소절 올렸다고\n댓글에 불만이 가득했는데 지금은 평정되었군요\n \n \n프리텐더\n또하나의 커버곡이 올라왔습니다.\n역시 듣기 좋습니다.\n영상: https://www.youtube.com/watch?v=BDsb_w3hHVU&list=RDBDsb_w3hHVU&start_radio=1\n\n\n\n \n \n \n \n애송이의 사랑\n양파 노래 커버 곡이 올라왔습니다.\n듣기 좋습니다.\n영상: https://www.youtube.com/watch?v=wciUuemLa1g&list=RDwciUuemLa1g&start_radio=1&pp=ygUG64W47J20oAcB0gcJCdMKAYcqIYzv",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1628",
-    "pubDate": "Tue, 21 Apr 2026 00:21:14 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Take Control of AI Code Quality in CI: Live Demo",
-    "description": "AI is accelerating coding, but without the right checks, it can also introduce risk, inconsistency, and hidden issues into your codebase. Businesses are offering “total automation” and “AI-driven checks” while consumers lose control of code quality and security.  In this livestream, we’ll show how to take control of AI-generated code by bringing deterministic, repeatable quality […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/04/take-control-of-ai-code-quality-in-ci-live-demo/",
-    "pubDate": "Fri, 24 Apr 2026 09:23:22 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "ai",
-      "code-quality",
-      "qodana"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "강화도",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hodolman.tistory.com/85",
-    "pubDate": "Sun, 19 Apr 2026 21:33:23 +0900",
-    "creator": "호돌맨",
-    "categories": [
-      "사진",
-      "강화도",
-      "조양방직카페"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "The CLion 2026.2 Roadmap: Simplified Debugger Configuration and the Ability to Use Multiple Zephyr West Profiles",
-    "description": "We’ve begun work on our next major release, version 2026.2, which we plan to introduce in a few months. After reviewing your feedback and our strategic goals, we’ve decided to focus on improving build tools, including Bazel, as well as project formats, the embedded experience, and the debugger. Here are our more specific priorities: Read […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2026/04/2026-2-roadmap/",
-    "pubDate": "Thu, 23 Apr 2026 11:29:16 +0000",
-    "creator": "Oleg Zinovyev",
-    "categories": [
-      "news",
-      "roadmap",
-      "bazel",
-      "cmake",
-      "debugger",
-      "live-watches",
-      "zephyr-west"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "1인 게임 개발 쉽지 않았다.",
-    "description": "와 게임 하나를 1년반이나 잡고 만들었군요\n그의 소감 영상이 올라왔습니다.\n \n영상 : https://www.youtube.com/watch?v=Hm_bTGbtIfM\n\n\n\n \n \n가야 - 더 미스터리 라는 게임을\n1년반 동안 만드시고\n이쳐버린거 같습니다.\n \n1인개발로 퀄리티라는 벽을 넘기가 쉽지 않았던거 같습니다.\n \n초반에 인공지능 쓰면 다 될것 같이 알았는데 \n그러지 못했다는 부분도 충젹적이군요\n \n아직도 다 된다는 사람은 유튜브에 많이 있고 간간히 영상도 올라오긴하지만\n딸깍인들은 한 제품을 위해 1년반을 쏟아붇지는 않습니다. 길어봐야 1주일 쏟아 영상 만들고 된다고 합니다.\n \n시간을 늘리면 잘되야할꺼 같은 게임개발이\n좌절을 격어 포기하게 만드는 독이 될 수도 있다는 점을 알아둬야할 것 같습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1626",
-    "pubDate": "Sun, 19 Apr 2026 13:40:57 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브",
-      "1인개발",
-      "게임개발",
-      "유튜브"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "크립토는 끝났다",
-    "description": "내 블로그를 10년 이상 읽었던 분들이라면 내가 얼마나 블록체인과 Web3, 그리고 비트코인과 이더리움에 대한 포스팅을 많이 했고, 크립토와 그 기반이 되는 기술에 대해 얼마나 긍정적인 생각을 했는지 알 것이다. 스트롱은 2013년도 한국 최초의 비트코인 거래소 코빗에 투자했고, 그때부터 비트코인과 블록체인에 대한 내 관심과 사랑이 시작됐다. 이후 13년이라는 시간이 지났고, 이 시장에는 엄청 많은 변화와 up/down이(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/04/crypto-is-so-dead.html",
-    "pubDate": "Wed, 22 Apr 2026 21:27:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "비트코인",
-      "bitcoin",
-      "crypto curreny",
-      "failure",
-      "technology",
-      "web3"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "개발자 도구 캐시 정리 및 용량 줄이는 방법",
-    "description": "이 글은 개발자 도구 캐시 정리 및 용량 줄이는 방법을 간략히 나눔한다. \n\n\n기본적으로 허깅페이스, PIP 등을 사용하는 개발자로 가정한다.\n\n명령창을 띄워 다음과 같이 실행한다. \npip cache purge\nconda clean --all -y\nhuggingface-cli delete-cache\nwandb sync --clean\nnpm cache clean --force\nyarn cache clean\npnpm store prune\ndocker system prune -a --volumes\ndocker builder prune -a\ndocker image prune -a\n\n\n파이썬에서 다음을 실행한다.\n\nimport torch\ntorch.cuda.empty_cache()\n\n\n임시 폴더를 삭제한다.\nC:\\Windows\\Temp\\\nC:\\Windows\\SoftwareDistribution\\Download\\\n\n\n도커 이미지 모두 삭제하려면 다음 실행한다.\ndocker rmi -f $(docker images -q)\n\n\n레퍼런스\n\nHow to Delete Temporary Files in Windows - GeeksforGeeks",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/04/blog-post_23.html",
-    "pubDate": "2026-04-24T02:33:33.146Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2026.1.1 Is Out!",
-    "description": "IntelliJ IDEA 2026.1.1 has arrived with several valuable fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates included in this version: To find out more details about the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/04/intellij-idea-2026-1-1/",
-    "pubDate": "Thu, 23 Apr 2026 13:04:22 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": [
-      "releases"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Is convenient finance and everyday life possible for everyone?",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/conveniencetoeveryone",
-    "pubDate": "Thu, 23 Apr 2026 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "AI in DevOps: Why Adoption Lags in CI/CD (and What Comes Next)",
-    "description": "AI is everywhere except in CI/CD Developers now use AI for nearly everything, except the part that actually ships code. Recent surveys conducted by JetBrains indicate that AI is now widely used in software development, with workplace usage exceeding 90% and a large majority of developers already incorporating it into daily workflows. Developers rely on […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/04/ai-in-devops/",
-    "pubDate": "Thu, 23 Apr 2026 12:29:24 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "ai",
-      "deveco",
-      "devops"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "에이스 오브 스페이드, 기도하고 일하라, 위대한 로렌초",
-    "description": "에이스 오브 스페이드 출시때 살까 말까 하다 안샀는데, 와이프가 애기를 봐줄테니 페스타 혼자라도 다녀오라고 떠밀어줘서 갔다가 구매한 솔플게임이다. 아스모디는 항상 이벤트를 빵빵하게 해줘서 오프라인 페스타를 가면 관심있었던 게임들을 집어오게 한다. 게임은 8장의 핸드를 이용하는데 포커 족보를 이용해 데미지를 주는 방식이다. 적을 물리칠때마다 일회용, 또는 영구적인 강화나 변화를 사용할 수 있게 해준다. 인물패 즉 j q k는 추가 데미지 1이 있고 A는 추가데미지 3이 있는것도 재미있다. 해당 패가 포함된 족보를 내면 추가데미지를 더 줄 수 있기에 뒤로 갈수록 높은 데미지를 주는 패를 가지고 있는것이 중요하다. 족보를 내.......",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/224262254924?fromRss=true&trackingCode=rss",
-    "pubDate": "Thu, 23 Apr 2026 11:25:37 +0900",
-    "creator": "dlehddus84",
-    "categories": [
-      "플레이"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "Building a fault-tolerant metrics storage system at Airbnb",
-    "description": "No description available",
+    "title": "유니티애셋 - Curved World / 런게임 / 휘어진 세계",
+    "description": "애셋 용버 영상 - https://www.youtube.com/watch?v=f8O-AmYkLRQ&t=11s\n\n\n\n진짜 멋지게 휘어버렸습니다.\n \n \n \n영상: https://www.youtube.com/watch?v=Lc2CD57sCNk&t=12s\n\n\n\n \n8분에 나오는 커브드 월드 입니다.\n런게임 만들때 쓰면 좋구요 멋지게 휘어집니다.\n \n애셋스토어 - https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblcwblhkdEZLMnA0dWtCSmI5b2JzUG9vYjlKd3xBQ3Jtc0ttSjZQS2RCNEhiU2E2eHdDU0JJSUlraXAxZVBPY1dRSWdDa3hsQ2FSaUVQMFg5X1k0TzFVSjJqLXI3bV9iczQyTVJnWUdVX1JmQjlYT2Z0WGVlWXdiYXFhdzhQakNXNXVmejZrWGdoMlNFSFhWY01OZw&q=https%3A%2F%2Fprf.hn%2Fl%2F3PXEAJv&v=Lc2CD57sCNk\n\n \nYouTube\n \nwww.youtube.com\n\n \n \n애셋 이름을 까먹고 있다가 다시 보고 적어둡니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/building-a-fault-tolerant-metrics-storage-system-at-airbnb-26a01a6e7017?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 21 Apr 2026 17:01:06 GMT",
-    "creator": "Rishabh Kumar",
+    "link": "https://serverdown.tistory.com/1632",
+    "pubDate": "Thu, 23 Apr 2026 16:18:06 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "site-reliability-engineer",
-      "infrastructure",
-      "technology",
-      "engineering",
-      "software-architecture"
+      "프로그래밍/유니티 에셋 리뷰"
     ]
   }
 ]
