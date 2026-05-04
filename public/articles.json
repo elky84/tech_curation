@@ -2,37 +2,53 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "How Meta Is Strengthening End-to-End Encrypted Backups",
-    "description": "The HSM-based Backup Key Vault Meta’s HSM-based Backup Key Vault provides the foundation for end-to-end encrypted backups for WhatsApp and Messenger. The system allows people to protect their backed-up message history with a recovery code, ensuring that the recovery code is stored in tamper-resistant hardware security modules (HSMs) and is inaccessible to Meta, cloud storage [...]\nRead More...\nThe post How Meta Is Strengthening End-to-End Encrypted Backups appeared first on Engineering at Meta.",
+    "title": "Join Us for PHPverse 2026 on June 9",
+    "description": "JetBrains PHPverse – a community-inspired professional event for PHP developers – returns once more on June 9, 2026. This year, we’re gathering some of the most influential voices in the PHP ecosystem to share their insights on shaping the modern PHP language, the internals of ecosystem tools and frameworks, and the adoption of agentic workflows […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/05/01/security/meta-strengthening-end-to-end-encrypted-backups/",
-    "pubDate": "Fri, 01 May 2026 16:00:58 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/phpstorm/2026/04/join-us-for-phpverse-2026-on-june-9/",
+    "pubDate": "Thu, 30 Apr 2026 15:10:32 +0000",
+    "creator": "Hanna Yakush",
     "categories": [
-      "Production Engineering",
-      "Security & Privacy",
-      "WhatsApp"
+      "news",
+      "phpverse"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Building or Buying: The Agentic Analytics Dilemma",
-    "description": "Every company, when evaluating new tools, technologies, or infrastructure, eventually runs into the same question: “Should we build this ourselves or buy a ready-made solution?” The default answer is often: “We can do it ourselves.” And technically, that’s true. But the real question isn’t whether it’s possible. It’s how fast and how efficiently you can […]",
+    "title": "[Livestream] TeamCity 2026.1: AI, Pipelines, and Enterprise CI/CD Improvements",
+    "description": "TeamCity 2026.1 introduces a set of focused improvements that make your CI/CD more intuitive, intelligent, and enterprise-ready. Join us for a live walkthrough of the latest updates, including support for both the Kotlin DSL and YAML in pipelines. We’ll also introduce the new TeamCity CLI, which includes agent skills for popular AI coding agents like […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/databao/2026/04/building-or-buying/",
-    "pubDate": "Tue, 28 Apr 2026 09:55:30 +0000",
-    "creator": "Claire Amaouche",
+    "link": "https://blog.jetbrains.com/teamcity/2026/04/livestream-teamcity-2026-1/",
+    "pubDate": "Tue, 28 Apr 2026 13:11:35 +0000",
+    "creator": "Olga Bedrina",
     "categories": [
-      "ai",
-      "data",
-      "data-science"
+      "livestream",
+      "livestreams",
+      "webinars",
+      "whatsnew-2"
     ]
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "Faster Rust Testing at Scale: cargo-nextest in Practice",
+    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky was joined by Rain, the creator of cargo-nextest, for a conversation about Rust testing, developer tools, open […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2026/05/01/faster-rust-tests-with-cargo-nextest/",
+    "pubDate": "Fri, 01 May 2026 15:04:21 +0000",
+    "creator": "Irina Mihajlovic",
+    "categories": [
+      "livestream",
+      "rustrover",
+      "cargo-nextest"
+    ]
+  },
+  {
+    "id": 4,
     "imageUrl": "",
     "title": "[PS5] 대중 지향 속 잃지 않은 특별함, 사로스",
     "description": "No description available",
@@ -46,78 +62,37 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 49화, 티타임인데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2446",
-    "pubDate": "Wed, 29 Apr 2026 20:59:30 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
     "id": 5,
     "imageUrl": "",
-    "title": "Using Bag-of-Words With PyCharm",
-    "description": "Have you ever wondered how machine learning models actually work with text? After all, these models require numerical input, but text is, well, text. Natural language processing (NLP) offers many ways to bridge this gap, from the large language models (LLMs) that are dominating headlines today all the way back to the foundational techniques of […]",
+    "title": "Our 2026 Direction: AI and Classic Workflows in JetBrains IDEs",
+    "description": "Two valid ways of writing code. One place to own it. Quick version for AI-news-tired readers: press here There are two ways developers create code now: We don’t think one is better than the other. Our goal is to ensure both workflows can coexist inside JetBrains IDEs without hindering each other. In practice, this means […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/04/using-bag-of-words-with-pycharm/",
-    "pubDate": "Wed, 29 Apr 2026 17:42:41 +0000",
-    "creator": "Jodie Burchell",
-    "categories": []
+    "link": "https://blog.jetbrains.com/ai/2026/04/our-2026-direction-ai-and-classic-workflows-in-jetbrains-ides/",
+    "pubDate": "Tue, 28 Apr 2026 14:18:36 +0000",
+    "creator": "Denis Shiryaev",
+    "categories": [
+      "ai-in-ides"
+    ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3",
-    "description": "TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3 In Visual Studio 2026 18.6 Insiders 3 we have updated the built-in TypeScript SDK to TypeScript 7 Beta (native preview). The TypeScript SDK provides the compiler and language service used for TypeScript and JavaScript support in Visual Studio. This update impacts any […]\nThe post TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3 appeared first on Visual Studio Blog.",
+    "title": "멍청한 1위회사의 몰락과 기회 / 제록스 / 어도비",
+    "description": "이세상 대단한걸 다 만들어넨 멍청한 회사 제록스는 이번에도 털립니다.\n제록스가 탄생시켰지만 제록스 꺼가 안된거\n마우스\nGUI \n개인용 PC\n \n그리고 어도비 도 잘 나가다  AI 로 털립니다.\n \n \n \n영상: https://www.youtube.com/watch?v=ld6IN01fEIc\n\n\n\n \n위대한 회사들은\n몸집이 커지면서 \n훌륭한 멍청이가 되나봅니다.\n자주 이러네요\n코닥\n폴라로디드\n등등",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/typescript-7-beta-now-enabled-by-default-in-visual-studio-2026-18-6-insiders-3/",
-    "pubDate": "Thu, 30 Apr 2026 17:08:44 +0000",
-    "creator": "Sayed Ibrahim Hashimi",
+    "link": "https://serverdown.tistory.com/1639",
+    "pubDate": "Fri, 1 May 2026 14:05:42 +0900",
+    "creator": "SIDNFT",
     "categories": [
-      "Visual Studio"
+      "유튜브",
+      "미국회사",
+      "어도비"
     ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "AI 해커톤",
-    "description": "오늘 전사 AI 해커톤을 진행했다.\n주제는 \"이게 되네? AI 인프톤\",\n목적은 \"AI가 어렵거나 특별한 기술이 아닌, 누구나 쉽게 쓸 수 있는 업무 도구라는 것을 직접 경험\"하는 것이었다.\nAI를 활용하는 일반적인 해커톤과 비슷하지만, 이번엔 두 가지 제약을 뒀다.\n운영/사업 1명 + 개발자 1명으로 조를 편성하되,\n\"개발자는 절대 코드를 작성하지 않고 페어인 운영/사업팀 분이 모든 구현을 한다 \",\n\"CLI는 절대 사용하지 않고 클로드 데스크탑 앱으로만 구현한다\".\n제품 직군(개발/디자인/PM)은 AI를 적극적으로 쓰지만,\n운영/사업 쪽에 계신 분들께는 여전히 AI가 어렵다.\n그리고 이건 집체교육으로 풀 수 있는 문제가 아니라고 생각했다.\nAI가 어렵지 않다는 걸 느끼게 해주는 가장 좋은 방법은 \"일상 업무에서 발생하는 답답함을 AI를 통해 본인의 손으로 직접 해결하는 경험\"이라고 생각했다.\n직접 해결하되, 막힐 때마다 옆자리 개발자 동료가 조언과 힌트를 준다.\n단, 개발자가 직접 손대는 건 절대 안 된다.\n앞으로도 이렇게 직접 AI와 함께 풀어 나가시길 바랐다.\nCLI를 금지한 것도 같은 이유다.\nCLI는 너무 어려운 도구니까.\n점심시간, 발표시간, 시상식을 빼고 나니 실제 해커톤 시간은 4시간 30분(오전 1시간 30분, 오후 3시간)이 전부였다.\n\n\n그래서 이번 해커톤도 'AI 찍먹', '개발팀과의 유대감 형성' 정도로 끝나지 않을까 싶었다.\n근데 웬걸.\n깜짝 놀랄 만한 결과물이 너무 많았다.\n일부는 오늘부터 담당 팀에서 바로 쓰기 시작했고,\n일부는 조금만 더 다듬으면 전체 팀원이 쓸 수 있었고,\n일부는 개발을 전혀 모르는 사람이 4시간 만에 어디까지 할 수 있는지 한계를 돌파한 것 같은 결과물도 있었다.\n물론 이 경험으로 \"개발자가 다 대체된다\", \"모두가 개발자가 될 수 있다\" 같은 호들갑/설레발을 치고 싶진 않다.\n(그렇게 생각하지도 않고.)\n다만, 놀라웠던 것은 해커톤의 주 타깃이었던 운영/사업팀보다 서포터에 가까웠던 개발자들이 훨씬 더 많은 인사이트를 얻었다는 점이다.\n어떤 팀에선 마케터 분이 제안한 기능을 두고, 페어를 이룬 개발자가 \"이 시간 안에는 어렵겠다\"며 좀 더 낮은 스펙을 제안한 뒤 잠깐 화장실을 다녀왔다고 한다.\n그 사이에 마케터 분이 AI와 뚝딱뚝딱 하더니, 안 될 거라던 그 기능을 만들어냈다.\n돌아온 개발자가 너무 놀랐다며 그 경험을 공유해주셨다.\n다른 분은 \"개발자는 '이 시간 안에 어디까지가 현실적으로 가능한지' 계산할 수 있는 사람들이라, 그 제약을 먼저 고려할수록 오히려 AI를 제대로 못 쓰게 되는 것 같다.\" 는 이야기도 해주셨다.\n호들갑 떠는 걸 선호하지 않음에도, 이번 해커톤 경험은 정말 좋았다.\n사실 이번 해커톤은 대표님의 제안으로 시작되었고, 나는 처음엔 반대였다.\n5월에 출시 예정인 제품들이 많았고, 그 제품들이 정말 기대됐다. 하루라도 더 빨리 내고 싶은데 해커톤을 하면 일정이 더 밀리고, 5월엔 연휴도 많아서 어영부영하다가 한 달이 끝날 것 같았다.\n근데 대표님이 \"정식 제품 출시가 더 지연되더라도 이번 해커톤은 그만큼의 가치가 있다\"고 이야기해주셨다.\n이 정도로 확신을 갖고 계신다면 해야겠다 싶어서 진행했다.\n그동안 본 많은 해커톤들에서 실제 고객이 쓰거나 사내에서 계속 사용되는 제품을 만들기보다는 단기간의 무형 가치(서로 다른 조직간의 유대감 형성, 새로운 기술 찍먹, 일상에서 벗어난 몰입 경험 등)를 만드는 이벤트로 끝나는 걸 봐왔다.\n근데 그것도 이젠 선입견이라는 걸 이번 해커톤으로 많이 깨달았다. \n요즘 시대에 내가 가장 갇혀 있는 사람이었구나 싶었다.\n형식에 대한 걱정도 많았다.\n개발자는 서포터로만 참여해야 하니 답답할 것이고, \n운영/사업팀은 같은 조인데도 본인이 하나부터 열까지 다 해야 하니 그것대로 답답할 것 같았다.\n(물론 해커톤 참여 자체는 자율이었다.)\n근데도 다들 너무 웃으면서, 즐겁게, 몰입감 있게 참여해주셨다.\n끝나고 \"또 하고 싶다\"는 이야기들을 해주셨는데, 그게 정말 큰 힘이 됐다.\n개인적으로 너무 좋은 경험이었기에, 이런 방식의 해커톤을 많은 분들께 추천드리고 싶다.\n이번 해커톤의 제대로 된 후기와 결과물은 따로 정리해서 올릴 예정이다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jojoldu.tistory.com/877",
-    "pubDate": "Thu, 30 Apr 2026 09:06:49 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "AI 네이티브",
-      "AI 해커톤",
-      "인프톤",
-      "클로드코드",
-      "해커톤"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "AI 시대에 인증 과제를 해결할 차세대 표준 후보, ID-JAG",
-    "description": "안녕하세요. LY Corporation에서 인증·인가 기반 Athenz의 개발·운영을 담당하고 있는 김정우입니다. 이 글에서는 AI 에이전트가 다양한 서비스와 연동할 때 발생하는 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/id-jag-next-generation-authentication-ai-era",
-    "pubDate": "Thu, 30 Apr 2026 04:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "일단 작은 습관을 만들어라",
     "description": "한국에서는 미국만큼 인기가 있진 않지만, 전 세계에서 1,000만 부 이상 팔리면서 오랫동안 베스트셀러 자리를 지킨 James Clear의 “Atomic Habits”라는 책이 있다. “작은 습관의 힘”이라는 제목으로 번역된 책인데 혹시 안 읽었다면, 특히 의지가 약한 분들에겐 일독을 추천한다. 이 책은 거창한 습관보단 작은 습관을 만드는 걸 강조하고, 이렇게 계속 작은 습관을 만들다 보면 전반적으로 습관을 개선할 수(...)",
@@ -138,21 +113,37 @@
     ]
   },
   {
-    "id": 10,
+    "id": 8,
     "imageUrl": "",
-    "title": "Our 2026 Direction: AI and Classic Workflows in JetBrains IDEs",
-    "description": "Two valid ways of writing code. One place to own it. Quick version for AI-news-tired readers: press here There are two ways developers create code now: We don’t think one is better than the other. Our goal is to ensure both workflows can coexist inside JetBrains IDEs without hindering each other. In practice, this means […]",
+    "title": "[MULTI] 첩보의 로망과 장르적 깊이를 아울러, 007 퍼스트 라이트",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/04/our-2026-direction-ai-and-classic-workflows-in-jetbrains-ides/",
-    "pubDate": "Tue, 28 Apr 2026 14:18:36 +0000",
-    "creator": "Denis Shiryaev",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2447",
+    "pubDate": "Fri, 01 May 2026 00:00:00 +0900",
+    "creator": "(RULIWEB`Д')/",
     "categories": [
-      "ai-in-ides"
+      "프리뷰"
     ]
   },
   {
-    "id": 11,
+    "id": 9,
+    "imageUrl": "",
+    "title": "Building or Buying: The Agentic Analytics Dilemma",
+    "description": "Every company, when evaluating new tools, technologies, or infrastructure, eventually runs into the same question: “Should we build this ourselves or buy a ready-made solution?” The default answer is often: “We can do it ourselves.” And technically, that’s true. But the real question isn’t whether it’s possible. It’s how fast and how efficiently you can […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/databao/2026/04/building-or-buying/",
+    "pubDate": "Tue, 28 Apr 2026 09:55:30 +0000",
+    "creator": "Claire Amaouche",
+    "categories": [
+      "ai",
+      "data",
+      "data-science"
+    ]
+  },
+  {
+    "id": 10,
     "imageUrl": "",
     "title": "Visual Studio April Update – Cloud Agent Integration",
     "description": "GitHub Copilot in Visual Studio is becoming more agentic with every release. This update brings cloud agent integration front and center, letting you start remote coding sessions without leaving the IDE.\nThe post Visual Studio April Update – Cloud Agent Integration appeared first on Visual Studio Blog.",
@@ -170,37 +161,7 @@
     ]
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "건담은 서울과 지방의 이야기 였다. / 모두가 서울에 살 수는 없어",
-    "description": "건담 스토리 전체를 관통해 버렸군요\n\n\n인간은 부동산에 묶여있지\n\n\n지방은 생존을 위해\n \n서울에 사람이 너무 몰려사니까 경쟁이 치열해져서 살기 어려워지니\n세종시로 분리하고 하고 이사 가기로 했는데\n누구는 일찍가고 누구는 늦게 가다보니\n서울에서 사람이 점점 빠지면서 예전에 문제였던 인간과밀 문제가 자연스럽게 해결되어버리고\n이러니 세종시로 안내려가고\n \n세종시에 먼저 내려온 사람들은 더이상 인구유입이 없어서 살기 어렵고\n세종시는 서울에 핵을 터트릴려고 하고\n \n여차저차 다 실패하고 나니 이제 서울의 고위급을 암살하려고 하는 이야기\n \n환전히 다른 해석에 무릎을 탁 ! 쳤습니다.\n \n \n영상: https://www.youtube.com/watch?v=tftB9sWB_NQ&t=13s",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1638",
-    "pubDate": "Fri, 1 May 2026 04:28:44 +0900",
-    "creator": "SIDNFT",
-    "categories": [
-      "유튜브"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Faster Rust Testing at Scale: cargo-nextest in Practice",
-    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky was joined by Rain, the creator of cargo-nextest, for a conversation about Rust testing, developer tools, open […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/05/01/faster-rust-tests-with-cargo-nextest/",
-    "pubDate": "Fri, 01 May 2026 15:04:21 +0000",
-    "creator": "Irina Mihajlovic",
-    "categories": [
-      "livestream",
-      "rustrover",
-      "cargo-nextest"
-    ]
-  },
-  {
-    "id": 14,
+    "id": 11,
     "imageUrl": "",
     "title": "Building the Future of IDEs: Inside the First JetBrains Codex Hackathon",
     "description": "39 projects, 6 finalists, and a weekend of IDE-native AI in San Francisco. Earlier this month, we brought developers together in San Francisco for the inaugural JetBrains x Codex Hackathon. Over the course of one weekend, teams built 39 IDE-native AI projects, from which six finalists emerged. The event highlighted just how rapidly developers are […]",
@@ -216,18 +177,67 @@
     ]
   },
   {
-    "id": 15,
+    "id": 12,
     "imageUrl": "",
-    "title": "Join Us for PHPverse 2026 on June 9",
-    "description": "JetBrains PHPverse – a community-inspired professional event for PHP developers – returns once more on June 9, 2026. This year, we’re gathering some of the most influential voices in the PHP ecosystem to share their insights on shaping the modern PHP language, the internals of ecosystem tools and frameworks, and the adoption of agentic workflows […]",
+    "title": "Skipper: Building Airbnb’s embedded workflow engine",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2026/04/join-us-for-phpverse-2026-on-june-9/",
-    "pubDate": "Thu, 30 Apr 2026 15:10:32 +0000",
-    "creator": "Hanna Yakush",
+    "link": "https://medium.com/airbnb-engineering/skipper-building-airbnbs-embedded-workflow-engine-f6c34552146f?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 28 Apr 2026 17:01:02 GMT",
+    "creator": "Ricardo Gamba",
     "categories": [
-      "news",
-      "phpverse"
+      "workflow",
+      "software-architecture",
+      "infrastructure",
+      "technology",
+      "engineering"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3",
+    "description": "TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3 In Visual Studio 2026 18.6 Insiders 3 we have updated the built-in TypeScript SDK to TypeScript 7 Beta (native preview). The TypeScript SDK provides the compiler and language service used for TypeScript and JavaScript support in Visual Studio. This update impacts any […]\nThe post TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3 appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/typescript-7-beta-now-enabled-by-default-in-visual-studio-2026-18-6-insiders-3/",
+    "pubDate": "Thu, 30 Apr 2026 17:08:44 +0000",
+    "creator": "Sayed Ibrahim Hashimi",
+    "categories": [
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "(강제) 모바일 디톡스",
+    "description": "지난주 미국에서 재미있는 경험을 했다. 자율주행 택시 웨이모를 탔는데, 다음 미팅으로 가는 도중 급하게 이메일을 하나 보내야 해서 차 안에서 핫스폿을 키고 일을 좀 했다. 정신없이 이메일 쓰다 보니 목적지에 도착해서 급하게 짐을 챙기고 내렸는데 아뿔싸,,,옆에 잠깐 빼놨던 전화기를 차 안에 놓고 내린 것이다. 사람이 운전하는 우버라면 그냥 다시 문 좀 열어달라고 할 텐데, 웨이모는(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/05/forced-mobile-detox.html",
+    "pubDate": "Sun, 03 May 2026 21:21:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "general",
+      "inspiring",
+      "IPhone",
+      "mobile"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 49화, 티타임인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2446",
+    "pubDate": "Wed, 29 Apr 2026 20:59:30 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
     ]
   }
 ]
