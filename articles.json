@@ -2,37 +2,19 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Join Us for PHPverse 2026 on June 9",
-    "description": "JetBrains PHPverse – a community-inspired professional event for PHP developers – returns once more on June 9, 2026. This year, we’re gathering some of the most influential voices in the PHP ecosystem to share their insights on shaping the modern PHP language, the internals of ecosystem tools and frameworks, and the adoption of agentic workflows […]",
+    "title": "Giving Copilot more C++ context using custom instructions in VS Code",
+    "description": "In February, we announced how GitHub Copilot can now use C++ symbol context and CMake build configuration awareness to deliver smarter suggestions in Visual Studio Code. Today, we’re excited to share new ways to further enhance your C++ development experience with Copilot and get the most out of the language-driven suggestions, by leveraging custom instructions […]\nThe post Giving Copilot more C++ context using custom instructions in VS Code appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2026/04/join-us-for-phpverse-2026-on-june-9/",
-    "pubDate": "Thu, 30 Apr 2026 15:10:32 +0000",
-    "creator": "Hanna Yakush",
+    "link": "https://devblogs.microsoft.com/cppblog/giving-copilot-more-c-context-using-custom-instructions-in-vs-code/",
+    "pubDate": "Mon, 04 May 2026 15:23:25 +0000",
+    "creator": "Sinem Akinci",
     "categories": [
-      "news",
-      "phpverse"
+      "C++"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "[Livestream] TeamCity 2026.1: AI, Pipelines, and Enterprise CI/CD Improvements",
-    "description": "TeamCity 2026.1 introduces a set of focused improvements that make your CI/CD more intuitive, intelligent, and enterprise-ready. Join us for a live walkthrough of the latest updates, including support for both the Kotlin DSL and YAML in pipelines. We’ll also introduce the new TeamCity CLI, which includes agent skills for popular AI coding agents like […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/04/livestream-teamcity-2026-1/",
-    "pubDate": "Tue, 28 Apr 2026 13:11:35 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "livestream",
-      "livestreams",
-      "webinars",
-      "whatsnew-2"
-    ]
-  },
-  {
-    "id": 3,
     "imageUrl": "",
     "title": "Faster Rust Testing at Scale: cargo-nextest in Practice",
     "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky was joined by Rain, the creator of cargo-nextest, for a conversation about Rust testing, developer tools, open […]",
@@ -48,68 +30,87 @@
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "imageUrl": "",
-    "title": "[PS5] 대중 지향 속 잃지 않은 특별함, 사로스",
+    "title": "Can we completely eliminate inconvenience?",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2445",
-    "pubDate": "Wed, 29 Apr 2026 14:32:36 +0900",
-    "creator": "「RULIWEB」",
+    "link": "https://toss.im/tossfeed/article/eliminateinconvenience",
+    "pubDate": "Thu, 30 Apr 2026 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 49화, 티타임인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2446",
+    "pubDate": "Wed, 29 Apr 2026 20:59:30 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "리뷰"
+      "웹툰"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Our 2026 Direction: AI and Classic Workflows in JetBrains IDEs",
-    "description": "Two valid ways of writing code. One place to own it. Quick version for AI-news-tired readers: press here There are two ways developers create code now: We don’t think one is better than the other. Our goal is to ensure both workflows can coexist inside JetBrains IDEs without hindering each other. In practice, this means […]",
+    "title": "Teaching an AI Agent to Debug Flaky Tests",
+    "description": "If you’ve been connected to the internet for a while, you’ve surely heard of AI Agent Skills. They teach your agent to do this and that. You might have even used or written a couple of them yourself. If you aren’t yet familiar with them, the idea is simple: Instead of prompting instructions for a […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/04/our-2026-direction-ai-and-classic-workflows-in-jetbrains-ides/",
-    "pubDate": "Tue, 28 Apr 2026 14:18:36 +0000",
-    "creator": "Denis Shiryaev",
+    "link": "https://blog.jetbrains.com/idea/2026/05/teaching-an-ai-agent-to-debug-flaky-tests/",
+    "pubDate": "Mon, 04 May 2026 09:14:46 +0000",
+    "creator": "Igor Kulakov",
     "categories": [
-      "ai-in-ides"
+      "ai",
+      "java",
+      "tutorials",
+      "ai-agent",
+      "ai-agents",
+      "ai-skills",
+      "intellij-idea"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "멍청한 1위회사의 몰락과 기회 / 제록스 / 어도비",
-    "description": "이세상 대단한걸 다 만들어넨 멍청한 회사 제록스는 이번에도 털립니다.\n제록스가 탄생시켰지만 제록스 꺼가 안된거\n마우스\nGUI \n개인용 PC\n \n그리고 어도비 도 잘 나가다  AI 로 털립니다.\n \n \n \n영상: https://www.youtube.com/watch?v=ld6IN01fEIc\n\n\n\n \n위대한 회사들은\n몸집이 커지면서 \n훌륭한 멍청이가 되나봅니다.\n자주 이러네요\n코닥\n폴라로디드\n등등",
+    "title": "Kodee’s Kotlin Roundup: Golden Kodee Finalists, Kotlin 2.4.0-Beta2, and New Learning Resources",
+    "description": "Hi everyone! April brought exciting community news with the announcement of the Golden Kodee finalists, along with Kotlin and tooling releases, multiplatform progress, and fresh backend resources. I also came across the new Kotlin Professional Certificate on LinkedIn Learning, which is a great way to build your skills. And if you want something more playful, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1639",
-    "pubDate": "Fri, 1 May 2026 14:05:42 +0900",
-    "creator": "SIDNFT",
+    "link": "https://blog.jetbrains.com/kotlin/2026/05/kodees-kotlin-roundup-golden-kodee-finalists-kotlin-2-4-0-beta2-and-new-learning-resources/",
+    "pubDate": "Mon, 04 May 2026 07:56:26 +0000",
+    "creator": "Viliam Sedliak",
     "categories": [
-      "유튜브",
-      "미국회사",
-      "어도비"
+      "news",
+      "kotlin-roundup"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "일단 작은 습관을 만들어라",
-    "description": "한국에서는 미국만큼 인기가 있진 않지만, 전 세계에서 1,000만 부 이상 팔리면서 오랫동안 베스트셀러 자리를 지킨 James Clear의 “Atomic Habits”라는 책이 있다. “작은 습관의 힘”이라는 제목으로 번역된 책인데 혹시 안 읽었다면, 특히 의지가 약한 분들에겐 일독을 추천한다. 이 책은 거창한 습관보단 작은 습관을 만드는 걸 강조하고, 이렇게 계속 작은 습관을 만들다 보면 전반적으로 습관을 개선할 수(...)",
+    "title": "나그네의 겉 옷을 벗긴건 햇살",
+    "description": "몇 년 전에 한참 PT를 받을 때가 있었다.\nPT만 하던 곳이라 그 시간에는 거의 나만 운동을 했다.  \n운동이 끝나면 샤워를 하고 나오는데, 어느 날은 PT 선생님이 칭찬을 하시는거다.\n\"동욱님이 샤워하고 나오면 항상 샤워실이 깨끗해요.\n제가 청소하는 것보다 더 깨끗한 것 같아요\" 라고.  \n샤워하고 나오면서 뒷정리를 굳이 신경쓰면서 하진 않았다.\n근데 그런 얘기를 듣고나니 신경쓰이기 시작했다.  \n그 뒤로는 샤워가 끝나면 항상 한번 더 돌아보고 정리할 수 있는 건 정리하고 나왔다.  \n면도기 등 일회용품들이 널브러져 있으면 주워서 버렸다.\n어쩔 때는 그 전 분이 사용하고 버리고 간 일회용 샤워타월을 주워서 버리기도 했다.  \n마지막에 나온 사람이 \"나\"이고, PT 선생님은 내가 그걸 버린 사람이라고 생각하실 수 있으니까.  \n그리고 이상한 느낌이긴 한데,\n\"이건 내가 한 게 아니니까, 내가 굳이 버릴 필요는 없지.\"\n그렇게 한번 생각하기 시작하면, 어느 순간엔 \"내가 쓴 건 맞지만, 다른 사람이 쓴 거라고 생각하실 수도 있잖아\" 라고 핑계가 점점 자라날 것 같았다.  \n그래서 그냥 다 치우고 나왔다.  \n왜 그랬을까 곰곰이 생각해보니 결국 나를 좋은 사람이라고 생각해주는 사람을 실망시키고 싶지 않았던 것 같다.  \nPT 선생님은 나를 \"머문 자리도 항상 깨끗하게 정리하는 좋은 사람\" 이라고 생각해주신 거니까.   \n규칙을 빡빡하게 정하고, 지키지 않았을 때 패널티를 먹이고 하면 최소한의 무언가는 될 수 있다.\n근데 그 이상으로 자발적으로 무언가를 하게 만들진 못하는 것 같다.\n누군가를 바꿀 수 있는 건 그 사람을 좋은 사람으로 여기는 것일 수도 있겠다는 생각이 문득 들었다.  \n결국 나그네의 겉 옷을 벗긴건 차디찬 바람이 아니라 따뜻한 햇살이었으니까.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/04/create-a-habit-first-before-improving-it.html",
-    "pubDate": "Wed, 29 Apr 2026 19:05:07 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://jojoldu.tistory.com/878",
+    "pubDate": "Mon, 4 May 2026 08:47:59 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "Uncategorized",
-      "compounding",
-      "consistency",
-      "FoundersAtWork",
-      "general",
-      "habit",
-      "inspiring",
-      "routine"
+      "생각정리",
+      "기대",
+      "나그네와햇살",
+      "동기부여",
+      "리더십",
+      "신뢰",
+      "에세이",
+      "자발성",
+      "조직문화",
+      "좋은사람"
     ]
   },
   {
@@ -129,21 +130,33 @@
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Building or Buying: The Agentic Analytics Dilemma",
-    "description": "Every company, when evaluating new tools, technologies, or infrastructure, eventually runs into the same question: “Should we build this ourselves or buy a ready-made solution?” The default answer is often: “We can do it ourselves.” And technically, that’s true. But the real question isn’t whether it’s possible. It’s how fast and how efficiently you can […]",
+    "title": "AI 시대에 인증 과제를 해결할 차세대 표준 후보, ID-JAG",
+    "description": "안녕하세요. LY Corporation에서 인증·인가 기반 Athenz의 개발·운영을 담당하고 있는 김정우입니다. 이 글에서는 AI 에이전트가 다양한 서비스와 연동할 때 발생하는 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/databao/2026/04/building-or-buying/",
-    "pubDate": "Tue, 28 Apr 2026 09:55:30 +0000",
-    "creator": "Claire Amaouche",
-    "categories": [
-      "ai",
-      "data",
-      "data-science"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/id-jag-next-generation-authentication-ai-era",
+    "pubDate": "Thu, 30 Apr 2026 04:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 10,
+    "imageUrl": "",
+    "title": "The IDE Is Already an AI Quality Variable. Is It on Your AI Agenda?",
+    "description": "Your developers’ AI tools are only as good as what they know going in. When those tools run through the right IDE, it can give them a head start – a picture of the codebase the tools would otherwise need to piece together themselves. That means your team’s IDE choices belong on your AI agenda […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2026/04/the-ide-is-already-an-ai-quality-variable-is-it-on-your-ai-agenda/",
+    "pubDate": "Thu, 30 Apr 2026 10:01:38 +0000",
+    "creator": "Colette Des Georges",
+    "categories": [
+      "ai",
+      "insights",
+      "ai-in-ides"
+    ]
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "Visual Studio April Update – Cloud Agent Integration",
     "description": "GitHub Copilot in Visual Studio is becoming more agentic with every release. This update brings cloud agent integration front and center, letting you start remote coding sessions without leaving the IDE.\nThe post Visual Studio April Update – Cloud Agent Integration appeared first on Visual Studio Blog.",
@@ -161,83 +174,63 @@
     ]
   },
   {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Building the Future of IDEs: Inside the First JetBrains Codex Hackathon",
-    "description": "39 projects, 6 finalists, and a weekend of IDE-native AI in San Francisco. Earlier this month, we brought developers together in San Francisco for the inaugural JetBrains x Codex Hackathon. Over the course of one weekend, teams built 39 IDE-native AI projects, from which six finalists emerged. The event highlighted just how rapidly developers are […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/04/building-the-future-of-ides-inside-the-first-jetbrains-codex-hackathon/",
-    "pubDate": "Wed, 29 Apr 2026 13:33:13 +0000",
-    "creator": "Dominique Rolink",
-    "categories": [
-      "ai-assistant",
-      "community",
-      "ai-agent"
-    ]
-  },
-  {
     "id": 12,
     "imageUrl": "",
-    "title": "Skipper: Building Airbnb’s embedded workflow engine",
-    "description": "No description available",
+    "title": "플레이 기록(퍼치, 좋은놈나쁜놈그리고염소, 냠냠냠, 더블러디인)",
+    "description": "3인 모임에 가져갔던 게임으로 짧게라도 기록을 남기기 위해 중간에 찍었던 사진을 남겨봅니다. 퍼치 한때 품절까지 갔었고 확장 펀딩이 끝나 확장이 오길 기다리고 있는 게임으로 협잡이 기본인 게임입니다. 장소타일과 피조물을 랜덤하게 뽑고 해당 장소를 장악하면 장소의 효과를 사용할 수 있으며 장소의 1등 2등 3등의 점수도 얻을 수 있는 게임입니다. 장악한다는것은 해당장소에 가장 많은 나의 색깔의 새를 올려두면 됩니다. 기본적으로 자기색의 새를 몇개 가지고 시작하고 주머니에서 랜덤하게 뽑은 새를 가지고 시작해 다른사람의 새를 가지고 나에게 유리한곳에 놓아줄수도 있습니다. 재미있는점은 새 무리의 크기가 같다면 서로 점.......",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/skipper-building-airbnbs-embedded-workflow-engine-f6c34552146f?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 28 Apr 2026 17:01:02 GMT",
-    "creator": "Ricardo Gamba",
+    "link": "https://blog.naver.com/dlehddus84/224273200036?fromRss=true&trackingCode=rss",
+    "pubDate": "Sun, 03 May 2026 12:02:58 +0900",
+    "creator": "dlehddus84",
     "categories": [
-      "workflow",
-      "software-architecture",
-      "infrastructure",
-      "technology",
-      "engineering"
+      "플레이"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3",
-    "description": "TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3 In Visual Studio 2026 18.6 Insiders 3 we have updated the built-in TypeScript SDK to TypeScript 7 Beta (native preview). The TypeScript SDK provides the compiler and language service used for TypeScript and JavaScript support in Visual Studio. This update impacts any […]\nThe post TypeScript 7 Beta Now Enabled by Default in Visual Studio 2026 18.6 Insiders 3 appeared first on Visual Studio Blog.",
+    "title": "SDK-Style Support for Extension Projects",
+    "description": "Starting in Visual Studio 18.5, you can create and build Visual Studio extensions (VSIX) using an officially supported SDK-style project. This brings VSIX projects into the modern build and deployment pipeline, improving incremental build performance and making the build → deploy → debug workflow more reliable. Install the Visual Studio extension development workload to get […]\nThe post SDK-Style Support for Extension Projects appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/typescript-7-beta-now-enabled-by-default-in-visual-studio-2026-18-6-insiders-3/",
-    "pubDate": "Thu, 30 Apr 2026 17:08:44 +0000",
-    "creator": "Sayed Ibrahim Hashimi",
+    "link": "https://devblogs.microsoft.com/visualstudio/sdk-style-support-for-extension-projects/",
+    "pubDate": "Wed, 29 Apr 2026 14:00:36 +0000",
+    "creator": "Matt Clark",
     "categories": [
-      "Visual Studio"
+      "Extensibility",
+      "Visual Studio",
+      "Extensions",
+      "vssdk"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "(강제) 모바일 디톡스",
-    "description": "지난주 미국에서 재미있는 경험을 했다. 자율주행 택시 웨이모를 탔는데, 다음 미팅으로 가는 도중 급하게 이메일을 하나 보내야 해서 차 안에서 핫스폿을 키고 일을 좀 했다. 정신없이 이메일 쓰다 보니 목적지에 도착해서 급하게 짐을 챙기고 내렸는데 아뿔싸,,,옆에 잠깐 빼놨던 전화기를 차 안에 놓고 내린 것이다. 사람이 운전하는 우버라면 그냥 다시 문 좀 열어달라고 할 텐데, 웨이모는(...)",
+    "title": "We Gave Agents IDE-Native Search Tools. They Got Faster and Cheaper.",
+    "description": "We ran the same coding tasks with and without prebundled tooling, across multiple models and languages. Here’s what changed. Eval-driven development IDE-native search reduced latency, cost, and budget overruns. The comparison below uses paired task-level deltas. Aggregate medians and totals are shown for orientation. Budget overruns are tasks that exceeded the USD 0.50 per-task cap. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/05/forced-mobile-detox.html",
-    "pubDate": "Sun, 03 May 2026 21:21:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://blog.jetbrains.com/ai/2026/05/what-happens-when-you-give-agents-ide-native-seach-tools/",
+    "pubDate": "Mon, 04 May 2026 13:01:16 +0000",
+    "creator": "Denis Shiryaev",
     "categories": [
-      "Uncategorized",
-      "general",
-      "inspiring",
-      "IPhone",
-      "mobile"
+      "ai-agents",
+      "ai-in-ides"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 49화, 티타임인데스와",
+    "title": "포켓몬 배틀 할 사람 모여라! 포켓몬 챔피언스",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2446",
-    "pubDate": "Wed, 29 Apr 2026 20:59:30 +0900",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2448",
+    "pubDate": "Mon, 04 May 2026 20:01:25 +0900",
     "creator": "｜RULIWEB｜",
     "categories": [
-      "웹툰"
+      "게임툰"
     ]
   }
 ]
