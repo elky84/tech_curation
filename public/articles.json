@@ -2,96 +2,23 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Giving Copilot more C++ context using custom instructions in VS Code",
-    "description": "In February, we announced how GitHub Copilot can now use C++ symbol context and CMake build configuration awareness to deliver smarter suggestions in Visual Studio Code. Today, we’re excited to share new ways to further enhance your C++ development experience with Copilot and get the most out of the language-driven suggestions, by leveraging custom instructions […]\nThe post Giving Copilot more C++ context using custom instructions in VS Code appeared first on C++ Team Blog.",
+    "title": "Democratizing Machine Learning at Netflix: Building the Model Lifecycle Graph",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/giving-copilot-more-c-context-using-custom-instructions-in-vs-code/",
-    "pubDate": "Mon, 04 May 2026 15:23:25 +0000",
-    "creator": "Sinem Akinci",
+    "link": "https://netflixtechblog.com/democratizing-machine-learning-at-netflix-building-the-model-lifecycle-graph-5cc6d5828bb1?source=rss----2615bd06b42e---4",
+    "pubDate": "Mon, 04 May 2026 16:01:02 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "C++"
+      "mlops",
+      "event-driven-architecture",
+      "machine-learning",
+      "distributed-systems",
+      "knowledge-graph"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "Faster Rust Testing at Scale: cargo-nextest in Practice",
-    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With its help, the core topics of this rich and nuanced livestream were distilled into a compact blog post format. In our recent JetBrains livestream, Vitaly Bragilevsky was joined by Rain, the creator of cargo-nextest, for a conversation about Rust testing, developer tools, open […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/05/01/faster-rust-tests-with-cargo-nextest/",
-    "pubDate": "Fri, 01 May 2026 15:04:21 +0000",
-    "creator": "Irina Mihajlovic",
-    "categories": [
-      "livestream",
-      "rustrover",
-      "cargo-nextest"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Can we completely eliminate inconvenience?",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/eliminateinconvenience",
-    "pubDate": "Thu, 30 Apr 2026 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 49화, 티타임인데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2446",
-    "pubDate": "Wed, 29 Apr 2026 20:59:30 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Teaching an AI Agent to Debug Flaky Tests",
-    "description": "If you’ve been connected to the internet for a while, you’ve surely heard of AI Agent Skills. They teach your agent to do this and that. You might have even used or written a couple of them yourself. If you aren’t yet familiar with them, the idea is simple: Instead of prompting instructions for a […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/05/teaching-an-ai-agent-to-debug-flaky-tests/",
-    "pubDate": "Mon, 04 May 2026 09:14:46 +0000",
-    "creator": "Igor Kulakov",
-    "categories": [
-      "ai",
-      "java",
-      "tutorials",
-      "ai-agent",
-      "ai-agents",
-      "ai-skills",
-      "intellij-idea"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Kodee’s Kotlin Roundup: Golden Kodee Finalists, Kotlin 2.4.0-Beta2, and New Learning Resources",
-    "description": "Hi everyone! April brought exciting community news with the announcement of the Golden Kodee finalists, along with Kotlin and tooling releases, multiplatform progress, and fresh backend resources. I also came across the new Kotlin Professional Certificate on LinkedIn Learning, which is a great way to build your skills. And if you want something more playful, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/05/kodees-kotlin-roundup-golden-kodee-finalists-kotlin-2-4-0-beta2-and-new-learning-resources/",
-    "pubDate": "Mon, 04 May 2026 07:56:26 +0000",
-    "creator": "Viliam Sedliak",
-    "categories": [
-      "news",
-      "kotlin-roundup"
-    ]
-  },
-  {
-    "id": 7,
     "imageUrl": "",
     "title": "나그네의 겉 옷을 벗긴건 햇살",
     "description": "몇 년 전에 한참 PT를 받을 때가 있었다.\nPT만 하던 곳이라 그 시간에는 거의 나만 운동을 했다.  \n운동이 끝나면 샤워를 하고 나오는데, 어느 날은 PT 선생님이 칭찬을 하시는거다.\n\"동욱님이 샤워하고 나오면 항상 샤워실이 깨끗해요.\n제가 청소하는 것보다 더 깨끗한 것 같아요\" 라고.  \n샤워하고 나오면서 뒷정리를 굳이 신경쓰면서 하진 않았다.\n근데 그런 얘기를 듣고나니 신경쓰이기 시작했다.  \n그 뒤로는 샤워가 끝나면 항상 한번 더 돌아보고 정리할 수 있는 건 정리하고 나왔다.  \n면도기 등 일회용품들이 널브러져 있으면 주워서 버렸다.\n어쩔 때는 그 전 분이 사용하고 버리고 간 일회용 샤워타월을 주워서 버리기도 했다.  \n마지막에 나온 사람이 \"나\"이고, PT 선생님은 내가 그걸 버린 사람이라고 생각하실 수 있으니까.  \n그리고 이상한 느낌이긴 한데,\n\"이건 내가 한 게 아니니까, 내가 굳이 버릴 필요는 없지.\"\n그렇게 한번 생각하기 시작하면, 어느 순간엔 \"내가 쓴 건 맞지만, 다른 사람이 쓴 거라고 생각하실 수도 있잖아\" 라고 핑계가 점점 자라날 것 같았다.  \n그래서 그냥 다 치우고 나왔다.  \n왜 그랬을까 곰곰이 생각해보니 결국 나를 좋은 사람이라고 생각해주는 사람을 실망시키고 싶지 않았던 것 같다.  \nPT 선생님은 나를 \"머문 자리도 항상 깨끗하게 정리하는 좋은 사람\" 이라고 생각해주신 거니까.   \n규칙을 빡빡하게 정하고, 지키지 않았을 때 패널티를 먹이고 하면 최소한의 무언가는 될 수 있다.\n근데 그 이상으로 자발적으로 무언가를 하게 만들진 못하는 것 같다.\n누군가를 바꿀 수 있는 건 그 사람을 좋은 사람으로 여기는 것일 수도 있겠다는 생각이 문득 들었다.  \n결국 나그네의 겉 옷을 벗긴건 차디찬 바람이 아니라 따뜻한 햇살이었으니까.",
@@ -114,67 +41,28 @@
     ]
   },
   {
-    "id": 8,
+    "id": 3,
     "imageUrl": "",
-    "title": "[MULTI] 첩보의 로망과 장르적 깊이를 아울러, 007 퍼스트 라이트",
-    "description": "No description available",
+    "title": "일단 작은 습관을 만들어라",
+    "description": "한국에서는 미국만큼 인기가 있진 않지만, 전 세계에서 1,000만 부 이상 팔리면서 오랫동안 베스트셀러 자리를 지킨 James Clear의 “Atomic Habits”라는 책이 있다. “작은 습관의 힘”이라는 제목으로 번역된 책인데 혹시 안 읽었다면, 특히 의지가 약한 분들에겐 일독을 추천한다. 이 책은 거창한 습관보단 작은 습관을 만드는 걸 강조하고, 이렇게 계속 작은 습관을 만들다 보면 전반적으로 습관을 개선할 수(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2447",
-    "pubDate": "Fri, 01 May 2026 00:00:00 +0900",
-    "creator": "(RULIWEB`Д')/",
+    "link": "https://www.thestartupbible.com/2026/04/create-a-habit-first-before-improving-it.html",
+    "pubDate": "Wed, 29 Apr 2026 19:05:07 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "프리뷰"
+      "Uncategorized",
+      "compounding",
+      "consistency",
+      "FoundersAtWork",
+      "general",
+      "habit",
+      "inspiring",
+      "routine"
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "AI 시대에 인증 과제를 해결할 차세대 표준 후보, ID-JAG",
-    "description": "안녕하세요. LY Corporation에서 인증·인가 기반 Athenz의 개발·운영을 담당하고 있는 김정우입니다. 이 글에서는 AI 에이전트가 다양한 서비스와 연동할 때 발생하는 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/id-jag-next-generation-authentication-ai-era",
-    "pubDate": "Thu, 30 Apr 2026 04:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "The IDE Is Already an AI Quality Variable. Is It on Your AI Agenda?",
-    "description": "Your developers’ AI tools are only as good as what they know going in. When those tools run through the right IDE, it can give them a head start – a picture of the codebase the tools would otherwise need to piece together themselves. That means your team’s IDE choices belong on your AI agenda […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/04/the-ide-is-already-an-ai-quality-variable-is-it-on-your-ai-agenda/",
-    "pubDate": "Thu, 30 Apr 2026 10:01:38 +0000",
-    "creator": "Colette Des Georges",
-    "categories": [
-      "ai",
-      "insights",
-      "ai-in-ides"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Visual Studio April Update – Cloud Agent Integration",
-    "description": "GitHub Copilot in Visual Studio is becoming more agentic with every release. This update brings cloud agent integration front and center, letting you start remote coding sessions without leaving the IDE.\nThe post Visual Studio April Update – Cloud Agent Integration appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-april-update-cloud-agent-integration/",
-    "pubDate": "Tue, 28 Apr 2026 19:00:04 +0000",
-    "creator": "Mark Downie",
-    "categories": [
-      "Visual Studio",
-      "Debugging and Diagnostics",
-      "GitHub Copilot",
-      "GitHub Copilot Completions",
-      "IntelliCode Completions"
-    ]
-  },
-  {
-    "id": 12,
+    "id": 4,
     "imageUrl": "",
     "title": "플레이 기록(퍼치, 좋은놈나쁜놈그리고염소, 냠냠냠, 더블러디인)",
     "description": "3인 모임에 가져갔던 게임으로 짧게라도 기록을 남기기 위해 중간에 찍었던 사진을 남겨봅니다. 퍼치 한때 품절까지 갔었고 확장 펀딩이 끝나 확장이 오길 기다리고 있는 게임으로 협잡이 기본인 게임입니다. 장소타일과 피조물을 랜덤하게 뽑고 해당 장소를 장악하면 장소의 효과를 사용할 수 있으며 장소의 1등 2등 3등의 점수도 얻을 수 있는 게임입니다. 장악한다는것은 해당장소에 가장 많은 나의 색깔의 새를 올려두면 됩니다. 기본적으로 자기색의 새를 몇개 가지고 시작하고 주머니에서 랜덤하게 뽑은 새를 가지고 시작해 다른사람의 새를 가지고 나에게 유리한곳에 놓아줄수도 있습니다. 재미있는점은 새 무리의 크기가 같다면 서로 점.......",
@@ -188,7 +76,138 @@
     ]
   },
   {
+    "id": 5,
+    "imageUrl": "",
+    "title": "AI 버튜버 개발자 - 저세상개발자",
+    "description": "요약\n3070 정도의 성능\n케릭터는 유니티로 제작\n음성은 로컬 컴퓨터에서\n비용은 한시간에 1,000 원 정도 든다. (챗봇 비용인듯)\n \n \n기능들\n꾸준히 하시더니 결국 해냈군요\n들어가야하는 중요한 기능은\n1.체팅 처리 - 사람처럼 대화하도록 대사가 나와야합니다.\n2. 음성 - 채팅처리후엔 음성으로 나와야합니다.\n3. 케릭터 표시 - 유니티를 사용하였고 표정 움직임등의 연출이 들어갑니다.\n이정도 기능이 필요한거 같습니다.\n \n영상: https://www.youtube.com/watch?v=iO4wJWOZ4TE\n\n\n\n \n거의 1년 넘게 개발하시더니 결국 해냈군요\n후원도 터지고 사람들이 좋아합니다.\n \n저도 따라하고 있는데 챗봇에서 막히고 있습니다.\n영상: https://www.youtube.com/watch?v=oB8C4FcZDD0\n\n\n\n일년전 정보인데 흘러가는 과정을 알 수 있어서 좋았습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1640",
+    "pubDate": "Mon, 4 May 2026 16:31:48 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "유튜브",
+      "Ai",
+      "버튜버"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "[MULTI] 눈은 호강하는데 심장이 뛰질 않아, 리플레이스드",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2449",
+    "pubDate": "Tue, 05 May 2026 13:18:54 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "We Gave Agents IDE-Native Search Tools. They Got Faster and Cheaper.",
+    "description": "We ran the same coding tasks with and without prebundled tooling, across multiple models and languages. Here’s what changed. Eval-driven development IDE-native search reduced latency, cost, and budget overruns. The comparison below uses paired task-level deltas. Aggregate medians and totals are shown for orientation. Budget overruns are tasks that exceeded the USD 0.50 per-task cap. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2026/05/what-happens-when-you-give-agents-ide-native-seach-tools/",
+    "pubDate": "Mon, 04 May 2026 13:01:16 +0000",
+    "creator": "Denis Shiryaev",
+    "categories": [
+      "ai-agents",
+      "ai-in-ides"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 49화, 티타임인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2446",
+    "pubDate": "Wed, 29 Apr 2026 20:59:30 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "유니티애셋리뷰 - UMotion 구매 보류 - 옷이 있는 케릭터에 대한 문제",
+    "description": "현제 무료 버전을 사용중인데 문제가 발생해서 구매를 보류한다.\n \n복잡한 현재 상황\n미소녀 캐릭터로 립싱크를 구현해 AI 버튜버를 만들려고하는데\n내가 가진 모델이 유니티에서 애니메이션을 편집할 수 없는 현상이 있다. ROOT T / ROOT Q 문제라고 하는데\n이 방식의 애니메이션은 내가 움직여도 원래 위치로 다시 덮어 쓰는거 같다. 녹화 버튼 눌러 움직여도 원상 복구 된다.\nUMotion 이 이것을 해결할 수 있으려나 싶어 무료버전으로 테스트 했는데 \n아래의 경고 문구 때문에 모델을 로드할 수 없다.\nUMotion 경고문구\nThe humanoid bone \"Hips\" is already defined in this UMotion project. It is not allowed to have multiple humanoid characters within one humanoid project.\nHip 이 여러개 들어가있는 리소스가 문제가 된다고 하는데...\n미소녀 애셋은 팔랑팔랑한 옷 때문에 몸체와 옷에 2중으로 뼈가 들어가있다.\n머리 카락도 들어간경우엔 더 많다.\n하필 미소녀 애셋이 아니면 턱움직이는 모델도 없는 상황이다.\n턱움직이는 애셋들은 아마도 옷 머리도 뼈 포함 되었을 가능성이 높다.\n이게 무료 문제인지 잘 모르겟다.\n \n문제가 생겼으니 일단 구매 보류다.\n\n\n \n반값할인중인데 아쉽다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1641",
+    "pubDate": "Tue, 5 May 2026 21:28:44 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "유니티애셋"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "State of Routing in Model Serving",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/state-of-routing-in-model-serving-16e22fe18741?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 01 May 2026 21:03:13 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "ai-platform",
+      "distributed-systems",
+      "infrastructure",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "[MULTI] 첩보의 로망과 장르적 깊이를 아울러, 007 퍼스트 라이트",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2447",
+    "pubDate": "Fri, 01 May 2026 00:00:00 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "프리뷰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "AI 시대에 인증 과제를 해결할 차세대 표준 후보, ID-JAG",
+    "description": "안녕하세요. LY Corporation에서 인증·인가 기반 Athenz의 개발·운영을 담당하고 있는 김정우입니다. 이 글에서는 AI 에이전트가 다양한 서비스와 연동할 때 발생하는 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/id-jag-next-generation-authentication-ai-era",
+    "pubDate": "Thu, 30 Apr 2026 04:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
     "id": 13,
+    "imageUrl": "",
+    "title": "Join Us for PHPverse 2026 on June 9",
+    "description": "JetBrains PHPverse – a community-inspired professional event for PHP developers – returns once more on June 9, 2026. This year, we’re gathering some of the most influential voices in the PHP ecosystem to share their insights on shaping the modern PHP language, the internals of ecosystem tools and frameworks, and the adoption of agentic workflows […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/phpstorm/2026/04/join-us-for-phpverse-2026-on-june-9/",
+    "pubDate": "Thu, 30 Apr 2026 15:10:32 +0000",
+    "creator": "Hanna Yakush",
+    "categories": [
+      "news",
+      "phpverse"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "SDK-Style Support for Extension Projects",
     "description": "Starting in Visual Studio 18.5, you can create and build Visual Studio extensions (VSIX) using an officially supported SDK-style project. This brings VSIX projects into the modern build and deployment pipeline, improving incremental build performance and making the build → deploy → debug workflow more reliable. Install the Visual Studio extension development workload to get […]\nThe post SDK-Style Support for Extension Projects appeared first on Visual Studio Blog.",
@@ -205,32 +224,19 @@
     ]
   },
   {
-    "id": 14,
-    "imageUrl": "",
-    "title": "We Gave Agents IDE-Native Search Tools. They Got Faster and Cheaper.",
-    "description": "We ran the same coding tasks with and without prebundled tooling, across multiple models and languages. Here’s what changed. Eval-driven development IDE-native search reduced latency, cost, and budget overruns. The comparison below uses paired task-level deltas. Aggregate medians and totals are shown for orientation. Budget overruns are tasks that exceeded the USD 0.50 per-task cap. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/05/what-happens-when-you-give-agents-ide-native-seach-tools/",
-    "pubDate": "Mon, 04 May 2026 13:01:16 +0000",
-    "creator": "Denis Shiryaev",
-    "categories": [
-      "ai-agents",
-      "ai-in-ides"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "포켓몬 배틀 할 사람 모여라! 포켓몬 챔피언스",
-    "description": "No description available",
+    "title": "Meet the Finalists: JetBrains x Codex Hackathon",
+    "description": "Put a capable coding model inside a developer’s primary workspace, and the IDE stops being a place where you write code. It becomes a place where you direct an agent, watch how it reasons, manage what it pays attention to, and decide when its output is worth shipping. That was the defining theme of the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2448",
-    "pubDate": "Mon, 04 May 2026 20:01:25 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/ai/2026/05/meet-the-finalists-jetbrains-codex-hackathon/",
+    "pubDate": "Mon, 04 May 2026 16:12:53 +0000",
+    "creator": "Dominique Rolink",
     "categories": [
-      "게임툰"
+      "ai-assistant",
+      "community",
+      "ai-agent"
     ]
   }
 ]
