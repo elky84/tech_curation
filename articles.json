@@ -2,93 +2,188 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Stop Sending IDE-Catchable AI Code Errors to Review",
-    "description": "AI coding tools might have handed your developers a productivity gain, but they’ve created a problem for your code review process. Pull request volume is up significantly, and the code arriving for review carries error patterns that weren’t common before generative AI. Yet it’s the same people with the same working hours who are in […]",
+    "title": "We Gave Agents IDE-Native Search Tools. They Got Faster and Cheaper.",
+    "description": "We ran the same coding tasks with and without prebundled tooling, across multiple models and languages. Here’s what changed. Eval-driven development IDE-native search reduced latency, cost, and budget overruns. The comparison below uses paired task-level deltas. Aggregate medians and totals are shown for orientation. Budget overruns are tasks that exceeded the USD 0.50 per-task cap. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/05/stop-sending-ide-catchable-ai-code-errors-to-review/",
-    "pubDate": "Tue, 05 May 2026 13:16:40 +0000",
-    "creator": "Colette Des Georges",
+    "link": "https://blog.jetbrains.com/ai/2026/05/what-happens-when-you-give-agents-ide-native-seach-tools/",
+    "pubDate": "Mon, 04 May 2026 13:01:16 +0000",
+    "creator": "Denis Shiryaev",
     "categories": [
-      "ai",
-      "insights",
+      "ai-agents",
       "ai-in-ides"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "최후의 1인(=버티기)",
-    "description": "우리는 분기마다 투자팀 전원이 모여서 현재 살아 있는 포트폴리오를 검토한다. 각 멤버는 담당하는 회사의 기업 가치가 현실적인지를 판단하고 만약 현재 상황 대비 기업 가치가 너무 높다고 판단되면 우리가 선제적으로 회사 가치를 감액한다. 예를 들면, 가장 최근 투자를 기업 가치 100억 원에 받았다면, 서류상 이 회사의 적정 기업 가치는 100억 원으로 기재하는데, 만약에 이 가치가 현실적이지(...)",
+    "title": "Giving Copilot more C++ context using custom instructions in VS Code",
+    "description": "In February, we announced how GitHub Copilot can now use C++ symbol context and CMake build configuration awareness to deliver smarter suggestions in Visual Studio Code. Today, we’re excited to share new ways to further enhance your C++ development experience with Copilot and get the most out of the language-driven suggestions, by leveraging custom instructions […]\nThe post Giving Copilot more C++ context using custom instructions in VS Code appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/05/be-the-last-man-standing.html",
-    "pubDate": "Wed, 06 May 2026 21:22:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://devblogs.microsoft.com/cppblog/giving-copilot-more-c-context-using-custom-instructions-in-vs-code/",
+    "pubDate": "Mon, 04 May 2026 15:23:25 +0000",
+    "creator": "Sinem Akinci",
     "categories": [
-      "Uncategorized",
-      "consistency",
-      "failure",
-      "FoundersAtWork",
-      "grit",
-      "hustle",
-      "inspiring",
-      "Strong"
+      "C++"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Project-Specific Build Optimizations with GitHub Copilot",
-    "description": "We are excited to announce that GitHub Copilot build performance for Windows now supports project-specific builds! Available in the latest Visual Studio Insiders, you can target a single MSBuild project or CMake target instead of analyzing your entire solution. For game developers and teams working with large codebases, this eliminates the need to wait for […]\nThe post Project-Specific Build Optimizations with GitHub Copilot appeared first on C++ Team Blog.",
+    "title": "유니티애셋리뷰 - UMotion 구매 보류 - 옷이 있는 케릭터에 대한 문제",
+    "description": "현제 무료 버전을 사용중인데 문제가 발생해서 구매를 보류한다.\n \n복잡한 현재 상황\n미소녀 캐릭터로 립싱크를 구현해 AI 버튜버를 만들려고하는데\n내가 가진 모델이 유니티에서 애니메이션을 편집할 수 없는 현상이 있다. ROOT T / ROOT Q 문제라고 하는데\n이 방식의 애니메이션은 내가 움직여도 원래 위치로 다시 덮어 쓰는거 같다. 녹화 버튼 눌러 움직여도 원상 복구 된다.\nUMotion 이 이것을 해결할 수 있으려나 싶어 무료버전으로 테스트 했는데 \n아래의 경고 문구 때문에 모델을 로드할 수 없다.\nUMotion 경고문구\nThe humanoid bone \"Hips\" is already defined in this UMotion project. It is not allowed to have multiple humanoid characters within one humanoid project.\nHip 이 여러개 들어가있는 리소스가 문제가 된다고 하는데...\n미소녀 애셋은 팔랑팔랑한 옷 때문에 몸체와 옷에 2중으로 뼈가 들어가있다.\n머리 카락도 들어간경우엔 더 많다.\n하필 미소녀 애셋이 아니면 턱움직이는 모델도 없는 상황이다.\n턱움직이는 애셋들은 아마도 옷 머리도 뼈 포함 되었을 가능성이 높다.\n이게 무료 문제인지 잘 모르겟다.\n \n문제가 생겼으니 일단 구매 보류다.\n\n\n \n반값할인중인데 아쉽다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/project-specific-build-optimizations-with-github-copilot/",
-    "pubDate": "Thu, 07 May 2026 16:42:45 +0000",
-    "creator": "David Li",
+    "link": "https://serverdown.tistory.com/1641",
+    "pubDate": "Tue, 5 May 2026 21:28:44 +0900",
+    "creator": "SID-NFT",
     "categories": [
-      "Build Optimization",
-      "C++",
-      "Build Insights",
-      "build performance",
-      "Game Development"
+      "유니티애셋"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Kotlin Ecosystem Mentorship Program: Results and Winners",
-    "description": "In the Kotlin Ecosystem Mentorship Program pilot, mentors and mentees worked together on real Kotlin open-source projects to make their first meaningful community contribution. Four pairs successfully completed the two-month program, and one eligible pair was randomly selected in the prize drawing to receive the grand prize – a trip to KotlinConf 2026 in Munich! […]",
+    "title": "인증서 톺아보기 시리즈 3: 제로 트러스트와 mTLS",
+    "description": "[![NHN Cloud_meetup banner_certificate_202604_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannercertificate202604900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 들어가며\r\r\n\r\r\n인증서 톺아보기 두 번째 시리즈, [유효기간 감소와 발급/갱신 자동화](https://meetup.nhncloud.com/posts/411)에서 우리는 서버가 클라이언트에게 \"저는 진짜 example.com입니다\"라고 증명하는 일반적인 단방향 TLS에 대해 알아봤습니다.\r\r\n\r\r\n그런데 서버만 신원을 증명하면 충분할까요? 클라이언트는 굳이 자신이 누구인지 증명하지 않아도 되는 걸까요?\r\r\n일상적인 웹 브라우징이라면 그래도 괜찮습니다. 하지만 기업 내부의 서비스끼리 통신하는 환경에서는 이야기가 다릅니다.\r\r\n\r\r\n오늘은 **클라이언트도 인증서로 자신의 신원을 증명하는 mTLS**에 대해 알아보겠습니다.\r\r\n\r\r\n\r\r\n## mTLS란?\r\r\n\r\r\nmTLS(Mutual TLS, 상호 TLS)는 서버와 클라이언트가 **서로의 신원을 인증서로 증명**하는 양방향 인증 방식입니다.\r\r\n\r\r\n### 일반 TLS vs mTLS\r\r\n\r\r\n은행 창구에 비유해 보겠습니다.\r\r\n\r\r\n일반 TLS는 고객이 은행 창구에 가서 \"여기가 진짜 OO은행 맞나요?\"하고 확인하는 것과 같습니다. 은행은 사업자 등록증(인증서)을 보여주며 자신의 신원을 증명합니다. 하지만 은행은 고객이 누구인지 따로 확인하지 않습니다. 누구든 창구에 올 수 있죠.\r\r\n\r\r\nmTLS는 여기서 한 단계 더 나아갑니다. 은행이 신원을 증명한 뒤, 고객에게도 \"신분증 보여주세요\"라고 요청합니다. **양쪽 모두가 신원을 확인해야만** 거래가 시작됩니다.\r\r\n\r\r\n![NHN Cloud_meetup diagram_certificate3_01_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramcertificate301900.png)\r\r\n\r\r\n\r\r\n## mTLS의 필요성\r\r\n\r\r\n### 왜 클라이언트도 증명해야 할까?\r\r\n\r\r\n일반적인 웹 서비스에서는 단방향 TLS로 충분합니다. 우리가 네이버 포털에 접속할 때, 네이버는 우리의 인증서를 요구하지 않습니다. 대신 ID와 비밀번호로 로그인하죠.\r\r\n\r\r\n그런데 **서비스와 서비스가 직접 통신하는 경우**는 어떨까요? 예를 들어 결제 서비스가 재고 서비스에 \"이 상품 재고 있어?\"라고 물어보는 상황에서, 재고 서비스는 이 요청이 정말 우리 회사의 결제 서비스에서 온 것인지 어떻게 확인할 수 있을까요?\r\r\n\r\r\nID/비밀번호를 코드에 넣어 두면 유출 위험이 있고, IP 주소로 확인하자니 클라우드 환경에서는 IP가 수시로 바뀝니다. 바로 이런 상황에서 **인증서 기반의 상호 인증, 즉 mTLS가 필요**합니다.\r\r\n\r\r\n### 제로 트러스트 아키텍처\r\r\n\r\r\nmTLS를 이해하려면 **제로 트러스트(Zero Trust)**라는 보안 철학을 먼저 알아야 합니다.\r\r\n\r\r\n* **전통적인 보안 모델: 성벽 모델**\r\r\n\r\r\n중세 성을 떠올려보세요. 높은 성벽이 외부의 적을 막아 주고, 성벽 안에 들어온 사람은 자유롭게 돌아다닐 수 있었습니다. 전통적인 네트워크 보안도 이와 같았습니다. 방화벽이라는 성벽 바깥은 위험하지만, 안쪽은 안전하다고 가정했죠.\r\r\n\r\r\n```\r\r\n성벽 모델 (Perimeter Security)\r\r\n────────────────────────────\r\r\n외부: 신뢰할 수 없음 (모두 차단)\r\r\n내부: 신뢰함 (자유롭게 통신)\r\r\n\r\r\n문제점: 성벽을 뚫고 내부에 침투하면 끝!\r\r\n```\r\r\n\r\r\n하지만 현실에서는 내부자에 의한 유출, 해커의 내부 침투 등이 빈번하게 발생합니다. 성벽 안에 들어온 침입자는 아무런 제약 없이 내부를 돌아다닐 수 있으니까요.\r\r\n\r\r\n* **제로 트러스트 모델: \"절대 신뢰하지 말고, 항상 검증하라\"**\r\r\n\r\r\n제로 트러스트는 **위치에 관계없이 모든 연결을 의심**하는 보안 철학입니다. 같은 사무실 안에 있더라도, 같은 네트워크에 있더라도, 매 연결마다 \"당신이 누구인지\" 증명해야 합니다.\r\r\n\r\r\n```\r\r\nZero Trust\r\r\n\"절대 신뢰하지 말고, 항상 검증하라\"\r\r\n(Never Trust, Always Verify)\r\r\n────────────────────────────\r\r\n위치와 관계없이 모든 연결에 대해\r\r\n- 인증 (Authentication): 너 누구야?\r\r\n- 인가 (Authorization): 이 작업을 할 권한이 있어?\r\r\n- 암호화 (Encryption): 통신 내용을 보호하자\r\r\n```\r\r\n\r\r\n마치 회사 건물에 들어올 때 출입증을 찍더라도, 서버실에 들어가려면 또다시 별도의 인증을 받아야 하는 것과 같습니다.\r\r\n\r\r\n**이러한 제로 트러스트를 달성하기 위한 핵심 기술이 바로 mTLS입니다.** 모든 서비스 간 통신에서 상대방의 신원을 인증서로 검증하니까요.\r\r\n\r\r\n![NHN Cloud_meetup diagram_certificate3_02_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramcertificate302900.png)\r\r\n\r\r\n### mTLS의 주요 사용 사례\r\r\n\r\r\n* **마이크로서비스 간 통신**\r\r\n\t* 결제 서비스 ↔ 재고 서비스처럼, 내부 서비스끼리 서로 신원을 확인하며 통신합니다.\r\r\n\t* Istio, Linkerd 같은 Service Mesh에서 자동으로 적용할 수 있습니다.\r\r\n\r\r\n\r\r\n* **API 보안**\r\r\n\t* API Gateway와 백엔드 서비스 사이의 통신을 보호합니다.\r\r\n\t* 토큰(비밀번호) 방식보다 더 강력한 보안을 제공합니다.\r\r\n\r\r\n\r\r\n* **IoT 디바이스 인증**\r\r\n\t* 스마트홈 기기나 센서 같은 IoT 디바이스가 클라우드 서버와 통신할 때, 각 디바이스의 신원을 인증서로 확인합니다.\r\r\n\r\r\n\r\r\n* **관리자 접근**\r\r\n\t* VPN을 대체하여 특정 관리 인터페이스의 접근을 제어합니다.\r\r\n\r\r\n\r\r\n* **파트너사 연동**\r\r\n\t* B2B API 통신에서 상대 회사의 시스템이 진짜 해당 회사인지 인증서로 확인합니다.\r\r\n\t* IP 화이트리스트보다 더 안전합니다.\r\r\n\r\r\n\r\r\n## mTLS 동작 원리\r\r\n\r\r\n### 핸드 셰이크 과정\r\r\n\r\r\n[인증서 톺아보기 시리즈 1: 인증서란? 디지털 신뢰의 시작](https://meetup.nhncloud.com/posts/409)에서 다뤘던 TLS 핸드셰이크(TLS Handshake)를 기억하시나요? 일반 TLS에서는 서버만 인증서를 보여줬지만, mTLS에서는 **클라이언트도 인증서를 보여주는 단계**가 추가됩니다.\r\r\n\r\r\n은행 창구 비유로 전체 과정을 살펴보겠습니다.\r\r\n\r\r\n```\r\r\n1. 고객이 창구에 도착(Client Hello)\r\r\n   클라이언트 → 서버\r\r\n   \"안녕하세요, 이런 암호화 방식들을 사용할 수 있습니다.\"\r\r\n\r\r\n2. 은행이 사업자등록증을 보여주며 고객에게도 신분증을 요청(Server Hello + Certificate + Certificate Request)\r\r\n   서버 → 클라이언트\r\r\n   \"제 인증서입니다. 확인해보세요.\"\r\r\n   \"당신의 인증서도 보여주세요!\"              ← mTLS에서 추가됨\r\r\n   \"이런 기관이 발급한 인증서를 신뢰합니다.\"\r\r\n\r\r\n3. 고객이 신분증을 제시(Client Certificate + Certificate Verify)\r\r\n   클라이언트 → 서버\r\r\n   \"제 인증서입니다.\"                      ← mTLS에서 추가됨\r\r\n   \"이 인증서가 진짜 제 것이라는 서명입니다.\"    ← mTLS에서 추가됨\r\r\n\r\r\n4. 은행이 고객의 신분증을 검증(Server Verification)\r\r\n   서버에서 확인하는 내용:\r\r\n   ✓ 이 인증서를 발급한 기관(CA)을 신뢰할 수 있는가?\r\r\n   ✓ 인증서의 유효 기간이 지나지 않았는가?\r\r\n   ✓ 인증서가 폐기(취소)되지 않았는가?\r\r\n   ✓ 클라이언트가 보낸 서명이 유효한가?(인증서 도용 방지)\r\r\n\r\r\n5. 거래 시작(Secure Communication)\r\r\n   양방향 신원 확인 완료! 암호화된 통신을 시작합니다.\r\r\n```\r\r\n\r\r\n![NHN Cloud_meetup diagram_certificate3_03_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramcertificate303900.png)\r\r\n\r\r\n>  위 과정은 TLS 1.2를 기준으로 설명했습니다. 최신 버전인 TLS 1.3에서는 과정이 더 간결해졌지만, mTLS의 핵심 개념을 이해하는 데는 위 설명으로 충분합니다.\r\r\n\r\r\n### 핵심 포인트\r\r\n\r\r\n일반 TLS와 비교했을 때 mTLS에서 추가되는 것은 크게 세 가지입니다.\r\r\n\r\r\n* **서버가 클라이언트에게 인증서를 요청**합니다(Certificate Request)\r\r\n* **클라이언트가 자신의 인증서를 전송**합니다(Client Certificate)\r\r\n* **클라이언트가 \"이 인증서가 진짜 내 것\"임을 개인 키로 서명하여 증명**합니다(Certificate Verify)\r\r\n\r\r\n이렇게 양방향 인증이 완료되면, 서버와 클라이언트 모두 상대방이 누구인지 확신한 상태에서 안전하게 통신할 수 있습니다.\r\r\n\r\r\n\r\r\n## mTLS 인증서 관리\r\r\n\r\r\nmTLS를 실무에 적용할 때 가장 큰 과제는 바로 **인증서 관리**입니다.\r\r\n\r\r\n일반 TLS에서는 서버 인증서만 관리하면 됐습니다. 하지만 mTLS에서는 모든 서비스가 각자의 인증서를 가지고 있어야 합니다. 서비스가 10개면 인증서도 10개 이상, 100개면 100개 이상이 필요하죠. 이 인증서들을 발급하고, 배포하고, 만료 전에 갱신해야 합니다.\r\r\n\r\r\n### 인증서 라이프사이클\r\r\n![NHN Cloud_meetup diagram_certificate3_04_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramcertificate304900.png)\r\r\n\r\r\n이 과정에서 가장 골치 아픈 것은 **배포**와 **갱신**입니다.\r\r\n\r\r\n**배포**: 새로 발급한 인증서를 각 서비스에 전달해야 합니다. 서비스가 몇 개뿐이면 수동으로 해도 되지만, 수십, 수백 개라면 자동화 없이는 불가능합니다.\r\r\n\r\r\n**갱신**: 인증서에는 유효기간이 있습니다. [인증서 톺아보기 시리즈 2: 유효기간 감소와 발급/갱신 자동화](https://meetup.nhncloud.com/posts/411)에서 살펴봤듯이 유효기간은 점점 짧아지는 추세이고, 만료되면 서비스 간 통신이 끊어지므로 미리미리 갱신해야 합니다.\r\r\n\r\r\n### 자동화가 필수인 이유\r\r\n\r\r\n인증서 하나가 만료되면 어떤 일이 벌어질까요? 해당 서비스와 통신하는 모든 서비스에 장애가 발생합니다. 마이크로서비스 환경에서는 연쇄적인 장애로 이어질 수 있죠.\r\r\n\r\r\n이런 위험을 줄이기 위해 다양한 자동화 방법이 존재합니다.\r\r\n\r\r\n| 방법 | 특징 | 적합한 경우 |\r\r\n| --- | --- | ------ |\r\r\n| **수동 관리** | 가장 단순하지만 확장성이 낮음 | 소규모, 정적 환경 |\r\r\n| **Configuration Management**(Ansible 등) | 스크립트로 자동 배포 | 중규모 인프라 |\r\r\n| **Certificate Manager**(Vault 등) | 중앙에서 인증서를 관리하고 감사 가능 | 엔터프라이즈 환경 |\r\r\n| **Service Mesh**(Istio, Linkerd) | 인증서 발급부터 갱신까지 완전 자동화 | 마이크로서비스 환경 |\r\r\n\r\r\n특히 **Service Mesh**는 애플리케이션 코드를 전혀 수정하지 않고도 mTLS를 자동 적용할 수 있어서, 마이크로서비스 환경에서 가장 많이 활용됩니다. 각 서비스 옆에 붙는 Sidecar Proxy가 인증서 발급, 갱신, mTLS 통신을 모두 대신 처리해 주기 때문입니다.\r\r\n\r\r\n![NHN Cloud_meetup diagram_certificate3_05_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramcertificate305900.png)\r\r\n\r\r\n### 직접 구축해 보기: OpenSSL로 인증서 신뢰 체인 만들기\r\r\n\r\r\nmTLS에 필요한 인증서들을 직접 만들어보면 구조를 더 잘 이해할 수 있습니다. OpenSSL을 사용해 Root CA → 서버 인증서, 클라이언트 인증서로 이어지는 신뢰 체인을 구축해 보겠습니다.\r\r\n\r\r\n>  **참고**: 이해를 돕기 위한 기초 예제입니다. 실무에서는 SAN(subject alternative name) 설정, 적절한 키 길이, 보안 저장소 등 추가적으로 고려해야 할 사항이 있습니다.\r\r\n\r\r\n```bash\r\r\n# 1. Root CA 개인 키 및 인증서 생성\r\r\n#    모든 인증서의 신뢰 출발점이 되는 Root CA를 만듭니다.\r\r\nopenssl genrsa -out ca.key 2048\r\r\n\r\r\nopenssl req -new -x509 -days 3650 -key ca.key -out ca.crt \\\r\r\n  -subj \"/C=KR/O=NHN Cloud/CN=My Root CA\"\r\r\n\r\r\n# 2. 서버 인증서 생성\r\r\n#    서버가 \"나는 진짜 이 서버야\"라고 증명할 때 사용합니다.\r\r\nopenssl genrsa -out server.key 2048\r\r\n\r\r\nopenssl req -new -key server.key -out server.csr \\\r\r\n  -subj \"/C=KR/O=NHN Cloud/CN=api-internal.example.com\"\r\r\n\r\r\nopenssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key \\\r\r\n  -CAcreateserial -out server.crt -days 365\r\r\n\r\r\n# 3. 클라이언트 인증서 생성\r\r\n#    클라이언트가 \"나는 인가된 서비스야\"라고 증명할 때 사용합니다.\r\r\nopenssl genrsa -out client.key 2048\r\r\n\r\r\nopenssl req -new -key client.key -out client.csr \\\r\r\n  -subj \"/C=KR/O=NHN Cloud/CN=service-a\"\r\r\n\r\r\nopenssl x509 -req -in client.csr -CA ca.crt -CAkey ca.key \\\r\r\n  -CAcreateserial -out client.crt -days 365\r\r\n```\r\r\n\r\r\n이렇게 만들어진 인증서들은 다음과 같은 신뢰 체인을 형성합니다.\r\r\n\r\r\n```\r\r\nca.crt (Root CA) ─ 모든 인증서의 신뢰 출발점\r\r\n├── server.crt (서버 인증서) ─ \"나는 진짜 이 서버야\"\r\r\n└── client.crt (클라이언트 인증서) ─ \"나는 인가된 서비스야\"\r\r\n```\r\r\n\r\r\n서버와 클라이언트 모두 같은 Root CA가 발급한 인증서를 가지고 있기 때문에, 서로의 인증서를 검증할 수 있습니다. 이것이 mTLS의 신뢰 기반입니다.\r\r\n\r\r\n### 직접 관리의 현실적인 어려움\r\r\n\r\r\n위의 예제에서는 인증서 3개만 만들었지만, 실제 운영 환경을 생각해보면 이야기가 달라집니다.\r\r\n\r\r\n* 서비스가 50개면? → 인증서 50개를 발급하고, 50개 서비스에 각각 배포해야 합니다.\r\r\n* 인증서가 만료되면? → 50개를 모두 갱신하고 다시 배포해야 합니다.\r\r\n* 특정 서비스가 폐기되면? → 해당 인증서를 폐기 목록(CRL)에 등록하고 다른 서비스에 알려야 합니다.\r\r\n* Root CA 개인 키가 유출되면? → 모든 인증서를 재발급해야 하는 재앙이 발생합니다.\r\r\n\r\r\nOpenSSL 명령어를 하나하나 치면서 이 모든 것을 관리하는 것은 소규모 환경에서는 가능하지만, 서비스가 늘어날수록 운영 부담이 기하급수적으로 커집니다. 만료일을 깜빡하는 순간, 서비스 장애로 이어지죠.\r\r\n\r\r\n### NHN Cloud Private CA 활용\r\r\n\r\r\n이러한 인증서 관리의 복잡성을 해결하기 위해, NHN Cloud에서 지난 해 출시한 **Private CA** 서비스를 활용할 수 있습니다.\r\r\n\r\r\n>  [NHN Cloud Private CA 서비스 살펴보기](https://www.nhncloud.com/kr/service/management/private-ca)\r\r\n\r\r\nPrivate CA는  조직 내·외부에서 사용하는 사설 인증서를 발급부터 폐기까지 자동화 및 표준화하는 서비스로, 앞서 OpenSSL로 직접 해봤던 모든 작업을 콘솔에서 간편하게 처리할 수 있습니다.\r\r\n\r\r\n**주요 기능**\r\r\n\r\r\n* **손쉬운 발급**: Root CA와 하위 CA를 클릭 몇 번으로 구축 (OpenSSL 명령어 불필요)\r\r\n* **자동화된 인증서 발급**: 인증서 템플릿, ACME를 이용한 대량 발급 및 자동 갱신\r\r\n* **중앙 집중식 관리**: 모든 인증서의 현황과 만료일을 하나의 콘솔에서 한눈에 확인\r\r\n* **폐기 관리**: CRL(Certificate Revocation List) 및 OCSP 자동 지원\r\r\n\r\r\n**방금 해 본 OpenSSL 방식과 비교해보면**\r\r\n\r\r\n```\r\r\nOpenSSL 직접 관리\r\r\n────────────────────────\r\r\n1. OpenSSL로 Root CA 생성 및 보안 저장소 구축\r\r\n2. 각 서비스별 인증서 수동 발급 (명령어 반복)\r\r\n3. 배포 스크립트 작성 및 관리\r\r\n4. 만료 추적 시스템 별도 구축\r\r\n5. 폐기 목록(CRL) 관리 인프라 별도 구축\r\r\n→ 서비스가 늘어날수록 운영 부담 증가\r\r\n\r\r\nPrivate CA 활용\r\r\n───────────────\r\r\n1. 콘솔에서 Private CA 생성\r\r\n2. 콘솔 또는 API로 인증서 발급\r\r\n3. ACME를 통한 자동 갱신 (2부에서 알아봤던 바로 그것!)\r\r\n4. CRL/OCSP 자동 제공\r\r\n→ 서비스가 늘어나도 동일한 운영 부담\r\r\n```\r\r\n\r\r\n> **Service Mesh와의 통합**\r\r\n> Istio나 Linkerd 같은 Service Mesh는 자체 CA를 제공하지만, Private CA를 External CA로 연동하면 조직 전체의 인증서 정책을 중앙에서 관리할 수 있습니다.\r\r\n\r\r\n\r\r\n## 마치며\r\r\n\r\r\nmTLS, 처음 접하면 '관리할 인증서가 너무 많은데 어떻게 하지?'하는 걱정이 앞설 수 있습니다. 하지만 요즘처럼 마이크로서비스가 서로 끊임없이 통신하는 환경에서는 \"누구와 통신하는지 확실히 알아야 한다\"는 제로 트러스트 원칙은 선택이 아닌 필수입니다.\r\r\n\r\r\n다행히 Kubernetes 환경이라면 Service Mesh(Istio, Linkerd)를 통해 코드 수정 없이 자동화할 수 있고, 일반 인프라 환경이라면 NHN Cloud의 **Private CA** 같은 관리형 PKI 서비스로 인증서 발급부터 갱신까지 중앙에서 관리할 수 있습니다.\r\r\n\r\r\n### 핵심 정리\r\r\n\r\r\n✅ **mTLS는 서버와 클라이언트가 서로를 인증하는 양방향 인증 방식**으로, 제로 트러스트의 핵심 기술입니다.\r\r\n✅ **Handshake 시 클라이언트 인증서 검증 단계**가 추가되어, 인증서가 있는 클라이언트만 접속할 수 있습니다.\r\r\n✅ **마이크로서비스, API 보안, IoT 디바이스 인증** 등 내부 통신 보안에 필수적입니다.\r\r\n✅ **Service Mesh를 사용하면 코드 수정 없이 자동 적용**이 가능하며, 인증서도 자동으로 갱신됩니다.\r\r\n✅ **인증서 관리가 핵심 과제**이며, NHN Cloud Private CA와 ACME를 활용한 자동화로 운영 부담을 줄일 수 있습니다.\r\r\n\r\r\n인증서 톺아보기 시리즈 3부작을 읽으시느라 정말 고생 많으셨습니다! 조금은 어려운 내용이지만, 이제 여러분은 인증서가 왜 필요한지, 어떻게 자동화하는지, 그리고 서비스들이 서로를 어떻게 신뢰하는지 이해하게 되었습니다.\r\r\n\r\r\n앞으로 마이크로서비스 환경을 구축하거나 제로 트러스트 보안을 고민하게 될 때 지금까지 읽었던 내용이 든든한 밑바탕이 되기를 기대하며 이만 줄입니다.\r\r\n\r\r\n읽어주셔서 감사합니다. \r\r\n\r\r\n> 인증서 톺아보기 시리즈 1, 2편은 아래 경로에서 다시 읽어 보실 수 있습니다.\r\r\n> * [인증서 톺아보기 시리즈 1: 인증서란? 디지털 신뢰의 시작](https://meetup.nhncloud.com/posts/409)\r\r\n> * [인증서 톺아보기 시리즈 2: 유효기간 감소와 발급/갱신 자동화](https://meetup.nhncloud.com/posts/411)\r\r\n\r\r\n\r\r\n## 참고 자료\r\r\n\r\r\n### 표준 및 규격\r\r\n\r\r\n* [RFC 5246 - TLS 1.2](https://datatracker.ietf.org/doc/html/rfc5246)\r\r\n* [NIST Zero Trust Architecture](https://www.nist.gov/publications/zero-trust-architecture)\r\r\n\r\r\n### 공식 문서\r\r\n\r\r\n* [Cloudflare - What is mTLS?](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/)\r\r\n\r\r\n### NHN Cloud 인증서 관리 서비스 살펴보기\r\r\n> * [Certificate Manager](https://www.nhncloud.com/kr/service/management/certificate-manager): 인증서, 도메인 등 만료 기한이 있는 자산을 관리하고 만료일 알림을 제공하는 서비스\r\r\n> * [Private CA](https://www.nhncloud.com/kr/service/management/private-ca): 인증서, 도메인 등 만료 기한이 있는 자산을 관리하고 만료일 알림을 제공하는 서비스\r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_skyblue_202604_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooterskyblue202604900.png)](https://www.nhncloud.com/kr)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/05/kotlin-ecosystem-mentorship-program/",
-    "pubDate": "Thu, 07 May 2026 14:45:45 +0000",
-    "creator": "Ksenia Shneyveys",
-    "categories": [
-      "education",
-      "news",
-      "kotlin-foundation",
-      "open-source"
-    ]
+    "link": "https://meetup.nhncloud.com/posts/413",
+    "pubDate": "Wed, 06 May 2026 04:15:55 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "The MPS 2026.1 Early Access Program Has Started",
-    "description": "The MPS 2026.1 Early Access Program (EAP) is kicking off today. Download the first 2026.1 EAP release and give it a try! DOWNLOAD MPS 2026.1 EAP Along with numerous bug fixes, this build introduces several key improvements. Migration to IntelliJ Platform 2026.1, JDK 25, and Kotlin 2.3 This MPS 2026.1 EAP build completes the jump […]",
+    "title": "유니티애셋 - Toon Shaders Pro for URP",
+    "description": "오리 모델이 탐나네요\n과일애셋도 이걸로 돌려봐야겠군요\n\n\n \n이미 반값할인인데 \n무료로 준네요\n줄때 받아야지\n \n쿠폰 영상 - https://www.youtube.com/watch?v=KkE07MYx6zM\n\n\n\n날짜 제한이 있으니 받을 수 있을때 빨리 받아봅시다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/mps/2026/05/the-mps-2025-2-eap-has-started-2/",
-    "pubDate": "Thu, 07 May 2026 14:46:05 +0000",
-    "creator": "Vaclav Pech",
+    "link": "https://serverdown.tistory.com/1645",
+    "pubDate": "Fri, 8 May 2026 20:49:24 +0900",
+    "creator": "SID-NFT",
     "categories": [
-      "releases",
-      "eap",
-      "release"
+      "프로그래밍/유니티 에셋 리뷰",
+      "유니티",
+      "유니티애셋"
     ]
   },
   {
     "id": 6,
+    "imageUrl": "",
+    "title": "Python Unplugged on PyTV: Key Takeaways From Our Community Conference",
+    "description": "What happens when a global community with a love for Python meets a splash of 90s nostalgia? You get Python Unplugged on PyTV, our first-ever fully online community conference. On March 4, 2026, Python Unplugged on PyTV set out to capture the magic of a full, in-person conference experience for people watching remotely all over […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/pycharm/2026/05/python-unplugged-on-pytv-key-takeaways-from-our-community-conference/",
+    "pubDate": "Thu, 07 May 2026 11:27:22 +0000",
+    "creator": "Evgenia Verbina",
+    "categories": [
+      "news",
+      "conference",
+      "python"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "(강제) 모바일 디톡스",
+    "description": "지난주 미국에서 재미있는 경험을 했다. 자율주행 택시 웨이모를 탔는데, 다음 미팅으로 가는 도중 급하게 이메일을 하나 보내야 해서 차 안에서 핫스폿을 키고 일을 좀 했다. 정신없이 이메일 쓰다 보니 목적지에 도착해서 급하게 짐을 챙기고 내렸는데 아뿔싸,,,옆에 잠깐 빼놨던 전화기를 차 안에 놓고 내린 것이다. 사람이 운전하는 우버라면 그냥 다시 문 좀 열어달라고 할 텐데, 웨이모는(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/05/forced-mobile-detox.html",
+    "pubDate": "Sun, 03 May 2026 21:21:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "general",
+      "inspiring",
+      "IPhone",
+      "mobile"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 50화, 어린이날데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2450",
+    "pubDate": "Wed, 06 May 2026 22:48:23 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "AI 버튜버 개발자 - 저세상개발자",
+    "description": "요약\n3070 정도의 성능\n케릭터는 유니티로 제작\n음성은 로컬 컴퓨터에서\n비용은 한시간에 1,000 원 정도 든다. (챗봇 비용인듯)\n \n \n기능들\n꾸준히 하시더니 결국 해냈군요\n들어가야하는 중요한 기능은\n1.체팅 처리 - 사람처럼 대화하도록 대사가 나와야합니다.\n2. 음성 - 채팅처리후엔 음성으로 나와야합니다.\n3. 케릭터 표시 - 유니티를 사용하였고 표정 움직임등의 연출이 들어갑니다.\n이정도 기능이 필요한거 같습니다.\n \n영상: https://www.youtube.com/watch?v=iO4wJWOZ4TE\n\n\n\n \n거의 1년 넘게 개발하시더니 결국 해냈군요\n후원도 터지고 사람들이 좋아합니다.\n \n저도 따라하고 있는데 챗봇에서 막히고 있습니다.\n영상: https://www.youtube.com/watch?v=oB8C4FcZDD0\n\n\n\n일년전 정보인데 흘러가는 과정을 알 수 있어서 좋았습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1640",
+    "pubDate": "Mon, 4 May 2026 16:31:48 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "유튜브",
+      "Ai",
+      "버튜버"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Developer Ecosystem Survey 2026 – Take Part in One of the Largest Developer Studies",
+    "description": "Since 2017, we’ve been checking in with developers around the world to better understand how the industry is evolving and where software development is headed next. This year marks the tenth edition of the Developer Ecosystem Survey, and we’d love for you to take part. When we launched the first survey, Kotlin was just emerging, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/05/developer-ecosystem-survey-2026-take-part-in-one-of-the-largest-developer-studies/",
+    "pubDate": "Wed, 06 May 2026 14:21:37 +0000",
+    "creator": "Nadia Lokot",
+    "categories": [
+      "developer-survey",
+      "research",
+      "survey"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "플레이 기록(퍼치, 좋은놈나쁜놈그리고염소, 냠냠냠, 더블러디인)",
+    "description": "3인 모임에 가져갔던 게임으로 짧게라도 기록을 남기기 위해 중간에 찍었던 사진을 남겨봅니다. 퍼치 한때 품절까지 갔었고 확장 펀딩이 끝나 확장이 오길 기다리고 있는 게임으로 협잡이 기본인 게임입니다. 장소타일과 피조물을 랜덤하게 뽑고 해당 장소를 장악하면 장소의 효과를 사용할 수 있으며 장소의 1등 2등 3등의 점수도 얻을 수 있는 게임입니다. 장악한다는것은 해당장소에 가장 많은 나의 색깔의 새를 올려두면 됩니다. 기본적으로 자기색의 새를 몇개 가지고 시작하고 주머니에서 랜덤하게 뽑은 새를 가지고 시작해 다른사람의 새를 가지고 나에게 유리한곳에 놓아줄수도 있습니다. 재미있는점은 새 무리의 크기가 같다면 서로 점.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/dlehddus84/224273200036?fromRss=true&trackingCode=rss",
+    "pubDate": "Sun, 03 May 2026 12:02:58 +0900",
+    "creator": "dlehddus84",
+    "categories": [
+      "플레이"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Monitoring reliably at scale",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://medium.com/airbnb-engineering/monitoring-reliably-at-scale-ca6483040930?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 05 May 2026 17:01:01 GMT",
+    "creator": "Abdurrahman J. Allawala",
+    "categories": [
+      "engineering",
+      "infrastructure",
+      "technology",
+      "observability",
+      "site-reliability-engineer"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "Java Annotated Monthly – May 2026",
     "description": "April flew by. The pace of tech development didn’t slow, and the flow of news and knowledge didn’t either. This month, Emily Bache joins us to share some sharp finds about AI agents and test-driven development. Java stays busy with fresh updates and practical tips, and Kotlin keeps pushing forward right next to it. The […]",
@@ -105,141 +200,36 @@
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Make Your Plugin Remote Development-Ready",
-    "description": "Remote development is changing how plugins should be built for JetBrains IDEs. The IDE is no longer a single local process: users interact with a frontend client, while the backend can run on another machine, in Docker, or in the cloud. This model is becoming increasingly important because it supports powerful remote environments, better security, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/05/make-your-plugin-remote-development-ready/",
-    "pubDate": "Thu, 07 May 2026 12:00:15 +0000",
-    "creator": "Nikita Katkov",
-    "categories": [
-      "plugin-development",
-      "remote-development",
-      "split-mode"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "What is dogfooding? How JetBrains builds better developer tools",
-    "description": "Dogfooding in software development means using your own products to build, test, and improve them. At JetBrains, it’s a core part of how we create developer tools like IntelliJ IDEA, YouTrack, and Rider. We don’t rely on assumptions or abstract user personas. We use our tools every day in real workflows, which keeps us close […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/life-at-jetbrains/2026/05/dogfooding-at-jetbrains/",
-    "pubDate": "Tue, 05 May 2026 08:59:29 +0000",
-    "creator": "Grete Kivi",
-    "categories": [
-      "culture",
-      "engineering"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "uLibSync 체험 및 내가가진 애셋들의 문제점",
-    "description": "AI 버튜버 만들고 싶어서 ...\nuLibSync 로 사운드오 입움직이는 방식에 대해 연구를 몇일간 했습니다.\n유니티짱은 완벽한 샘플 모델이였습니다.\n(무시하면 안되겠습니다.)\n1. 눈을 깜박일 수 있다.\n2. 입을 움직일 수 있다.\n제가 모아온 몇가지 애셋들을 확인한 결과\n140 달러짜리는 눈과 입 다 움직일 수 있었습니다.\n30 달러 모델은 턱을 움직일 수 있었습니다.\n입 내부 치아도 구현되어있었습니다.\n하지만 이 모델은 눈을 깜박일 수 없습니다.\n20 달러 모델들은 눈 깜박임도 안되고 입도 움직일 수 없습니다.\n \n셰이더 문제\n이 모델은 build-in 방식입니다. URP 를 지원하지 않습니다.\n몇년 뒤면 URP 만 남겠지만 지금은 과도기 구간이라 뒤죽박죽입니다.\n제 모델들은 어떤것은 build-in 만 어떤것은 urp 만 되는 혼란한 \n \n입 애니메이션을 만들어야하는데 ...\n립 싱크를 하려면 아.이.우.에.오 같은 입모양을 애니메이션으로 만들어야하는데 ...\n저는 유니티 기본 애니메이션 에디터가 적당한 수준의 편집이 될 줄 알았는데\n휴머노이드 쪽은 전혀 동작하지 않았습니다.\n(아 무것도 움직일 수 없었음)\n일반 모델은 정상 동작했지만\n휴머노이드 쪽은 전혀 동작하지 않았습니다.\n수동도 안되고 녹화도 안되고 \n이것때문에 UMotion 을 사볼까 했는데\nUMotion 도 multi Hips 관련 애러 때문에 편집이 불가능했습니다.\n로봇 같은 옷이 없는 모델들은 가능했는데\n옷이 붙어있는 경우 동일한 이름의 뼈가 많아서 에러가 나네요\n로봇은 입이 없기 때문에 입만 만들어 사람에게 붙이는 것도 할 수 없었습니다.\n내가가진 모델의 입을 움직이는 애니메이션이 필요하기 때문에 일이 어렵게 되었군요\n \n블렌더를 할 수 밖에 없나 ...\n결국 근본적인 방법은 블랜더에서 해야 ...\n애니메이션 편집툴이 하나가 더있던데\n이건 무료 버전이 없어서 사서 써봐야해서 언제 할 지 모르겠습니다.\n \n \n\n\nVery Animation\n이 애셋으로 해보라는데요\n할수 있는 것\n1. 편리한 휴머노이드 애니메이션\n2. 뼈 추가\n3. 웨이트 작업\n \n뼈 추가와 웨이트 작업으로 눈을 찌그러트려 깜박이게 보이도록 만들 수 있다고 하네요\n할인중이니 일딴 서보고 나중에 생각해야겠습니다.\n \n애셋 구매했습니다.\n \n그런데 유니티 공식 유튜브에서 애니메이션 변집 방법을 설명하는 영상을 찾았습니다.\n애니메이션 리깅 패키지 라는게 있다는데 오늘 처음 알았습니다.\n이걸로 해결이 될지는 잘 모르겼군요\n영상: https://www.youtube.com/watch?v=D5cW_hNm2-A\n\n\n\n3분 30초 정도에 나옵니다.\n영상에서는 제네릭으로 고쳐서 사용하네요\n저도 제네릭 상태에서는 애니메이션을 만들 수 는 있습니다.\n하지만 이러면 기존에 생성된 애니메이션을 사용할 수 없군요\n유니티에서 휴머노이드는 편집할 수 없다는걸 인식하고 있긴하나봅니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1642",
-    "pubDate": "Wed, 6 May 2026 16:53:39 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "프로그래밍/유니티 에셋 리뷰",
-      "립싱크",
-      "버튜버",
-      "유니티애셋"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "유니티애셋리뷰 - UMotion 구매 보류 - 옷이 있는 케릭터에 대한 문제",
-    "description": "현제 무료 버전을 사용중인데 문제가 발생해서 구매를 보류한다.\n \n복잡한 현재 상황\n미소녀 캐릭터로 립싱크를 구현해 AI 버튜버를 만들려고하는데\n내가 가진 모델이 유니티에서 애니메이션을 편집할 수 없는 현상이 있다. ROOT T / ROOT Q 문제라고 하는데\n이 방식의 애니메이션은 내가 움직여도 원래 위치로 다시 덮어 쓰는거 같다. 녹화 버튼 눌러 움직여도 원상 복구 된다.\nUMotion 이 이것을 해결할 수 있으려나 싶어 무료버전으로 테스트 했는데 \n아래의 경고 문구 때문에 모델을 로드할 수 없다.\nUMotion 경고문구\nThe humanoid bone \"Hips\" is already defined in this UMotion project. It is not allowed to have multiple humanoid characters within one humanoid project.\nHip 이 여러개 들어가있는 리소스가 문제가 된다고 하는데...\n미소녀 애셋은 팔랑팔랑한 옷 때문에 몸체와 옷에 2중으로 뼈가 들어가있다.\n머리 카락도 들어간경우엔 더 많다.\n하필 미소녀 애셋이 아니면 턱움직이는 모델도 없는 상황이다.\n턱움직이는 애셋들은 아마도 옷 머리도 뼈 포함 되었을 가능성이 높다.\n이게 무료 문제인지 잘 모르겟다.\n \n문제가 생겼으니 일단 구매 보류다.\n\n\n \n반값할인중인데 아쉽다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1641",
-    "pubDate": "Tue, 5 May 2026 21:28:44 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "유니티애셋"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Meet the Finalists: JetBrains x Codex Hackathon",
-    "description": "Put a capable coding model inside a developer’s primary workspace, and the IDE stops being a place where you write code. It becomes a place where you direct an agent, watch how it reasons, manage what it pays attention to, and decide when its output is worth shipping. That was the defining theme of the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/05/meet-the-finalists-jetbrains-codex-hackathon/",
-    "pubDate": "Mon, 04 May 2026 16:12:53 +0000",
-    "creator": "Dominique Rolink",
-    "categories": [
-      "ai-assistant",
-      "community",
-      "ai-agent"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "What’s New in vcpkg (Apr 2026)",
-    "description": "These updates include improved locking for parallel builds, cross-platform PE dependency analysis, manifest support for the depend-info command, and other improvements and bug fixes.\nThe post What’s New in vcpkg (Apr 2026) appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-apr-2026/",
-    "pubDate": "Thu, 07 May 2026 16:32:31 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.3.5 is Out!",
-    "description": "We’ve just released IntelliJ IDEA 2025.3.5. This version includes performance improvements for Spring projects – specifically for users who haven’t yet updated to v2026.1: You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/05/intellij-idea-2025-3-5/",
-    "pubDate": "Wed, 06 May 2026 17:11:39 +0000",
-    "creator": "Julia Shashkova",
-    "categories": [
-      "releases"
-    ]
-  },
-  {
     "id": 14,
     "imageUrl": "",
-    "title": "AI 버튜버 개발자 - 저세상개발자",
-    "description": "요약\n3070 정도의 성능\n케릭터는 유니티로 제작\n음성은 로컬 컴퓨터에서\n비용은 한시간에 1,000 원 정도 든다. (챗봇 비용인듯)\n \n \n기능들\n꾸준히 하시더니 결국 해냈군요\n들어가야하는 중요한 기능은\n1.체팅 처리 - 사람처럼 대화하도록 대사가 나와야합니다.\n2. 음성 - 채팅처리후엔 음성으로 나와야합니다.\n3. 케릭터 표시 - 유니티를 사용하였고 표정 움직임등의 연출이 들어갑니다.\n이정도 기능이 필요한거 같습니다.\n \n영상: https://www.youtube.com/watch?v=iO4wJWOZ4TE\n\n\n\n \n거의 1년 넘게 개발하시더니 결국 해냈군요\n후원도 터지고 사람들이 좋아합니다.\n \n저도 따라하고 있는데 챗봇에서 막히고 있습니다.\n영상: https://www.youtube.com/watch?v=oB8C4FcZDD0\n\n\n\n일년전 정보인데 흘러가는 과정을 알 수 있어서 좋았습니다.",
+    "title": "Scaling ArchUnit with Nebula ArchRules",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1640",
-    "pubDate": "Mon, 4 May 2026 16:31:48 +0900",
-    "creator": "SID-NFT",
+    "link": "https://netflixtechblog.com/scaling-archunit-with-nebula-archrules-b4642c464c5a?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 08 May 2026 15:55:59 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "유튜브",
-      "Ai",
-      "버튜버"
+      "gradle",
+      "nebula",
+      "java",
+      "archunit"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "[MULTI] 눈은 호강하는데 심장이 뛰질 않아, 리플레이스드",
-    "description": "No description available",
+    "title": "The MPS 2026.1 Early Access Program Has Started",
+    "description": "The MPS 2026.1 Early Access Program (EAP) is kicking off today. Download the first 2026.1 EAP release and give it a try! DOWNLOAD MPS 2026.1 EAP Along with numerous bug fixes, this build introduces several key improvements. Migration to IntelliJ Platform 2026.1, JDK 25, and Kotlin 2.3 This MPS 2026.1 EAP build completes the jump […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2449",
-    "pubDate": "Tue, 05 May 2026 13:18:54 +0900",
-    "creator": "(RULIWEB`Д')/",
+    "link": "https://blog.jetbrains.com/mps/2026/05/the-mps-2025-2-eap-has-started-2/",
+    "pubDate": "Thu, 07 May 2026 14:46:05 +0000",
+    "creator": "Vaclav Pech",
     "categories": [
-      "리뷰"
+      "releases",
+      "eap",
+      "release"
     ]
   }
 ]
