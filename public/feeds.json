@@ -433,7 +433,18 @@
   {
     "name": "강태욱",
     "category": "개인",
-    "posts": []
+    "posts": [
+      {
+        "title": "헤르메스 에이전트 설치 및 사용방법",
+        "link": "http://daddynkidsmakers.blogspot.com/2026/05/blog-post.html",
+        "pubDate": "2026-05-09T14:45:47.682Z",
+        "author": "Daddy Maker",
+        "content": "<div style=\"text-align: left;\">이 글은&nbsp;헤르메스 에이전트 설치 및 사용방법을 간략히 정리한 것이다.</div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/a/AVvXsEhxS1mff2N4R9NaA0ikFM_JHtv3v6GxgDjmnmabhuUKOg3DOzzb7zkLGIhjpjyQ7SwNGt6bXYf7lBMOsorfzbJvjIb56ExEJQhSOM8OZCsLDzNi5-CdesowrblRiZZx8nh6YIgvZVzkqCmevuzbHLhlliR7sgtkY9JdiEsaQsQlN2NO9sKk6qMIIk-2f5rp\" style=\"margin-left: 1em; margin-right: 1em;\"><img alt=\"\" data-original-height=\"196\" data-original-width=\"1145\" height=\"55\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEhxS1mff2N4R9NaA0ikFM_JHtv3v6GxgDjmnmabhuUKOg3DOzzb7zkLGIhjpjyQ7SwNGt6bXYf7lBMOsorfzbJvjIb56ExEJQhSOM8OZCsLDzNi5-CdesowrblRiZZx8nh6YIgvZVzkqCmevuzbHLhlliR7sgtkY9JdiEsaQsQlN2NO9sKk6qMIIk-2f5rp\" width=\"320\" /></a></div><br /></div><div style=\"text-align: left;\">헤르메스는 서버리스로 자체 로컬 컴퓨터에 설치할 수 있는 에이전트이다. 스스로 발전할 수 있도록 구현되어 있어, 지식을 계속 축척하고 이를 재사용할 수 있다.&nbsp;</div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\">설치는 리눅스에서 다음과 같이 실행한다.</div><div style=\"text-align: left;\">curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash</div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><b>레퍼런스<br /></b><ul style=\"text-align: left;\"><li><a href=\"https://github.com/nousresearch/hermes-agent\">NousResearch/hermes-agent: The agent that grows with you</a></li></ul></div>",
+        "contentSnippet": "이 글은 헤르메스 에이전트 설치 및 사용방법을 간략히 정리한 것이다.\n\n\n\n\n헤르메스는 서버리스로 자체 로컬 컴퓨터에 설치할 수 있는 에이전트이다. 스스로 발전할 수 있도록 구현되어 있어, 지식을 계속 축척하고 이를 재사용할 수 있다. \n\n\n설치는 리눅스에서 다음과 같이 실행한다.\ncurl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash\n\n\n\n레퍼런스\n\nNousResearch/hermes-agent: The agent that grows with you",
+        "id": "tag:blogger.com,1999:blog-5201956450461596914.post-4159632695249641851",
+        "isoDate": "2026-05-09T14:45:47.682Z"
+      }
+    ]
   },
   {
     "name": "권용진",
@@ -741,11 +752,6 @@
     "posts": []
   },
   {
-    "name": "벤자민로그",
-    "category": "개인",
-    "posts": []
-  },
-  {
     "name": "악보쓰는 프로그래머",
     "category": "개인",
     "posts": []
@@ -809,6 +815,21 @@
     "name": "퇴근 후 서버다운",
     "category": "개인",
     "posts": [
+      {
+        "creator": "SID-NFT",
+        "title": "기초 / 물리기반 랜더링에 대해 알아보자",
+        "link": "https://serverdown.tistory.com/1647",
+        "pubDate": "Sun, 10 May 2026 10:52:37 +0900",
+        "author": "SID-NFT",
+        "comments": "https://serverdown.tistory.com/1647#entry1647comment",
+        "content": "<p><figure class=\"imageblock alignCenter\" data-ke-mobileStyle=\"widthOrigin\" data-origin-width=\"224\" data-origin-height=\"225\"><span data-url=\"https://blog.kakaocdn.net/dn/oDns9/dJMcadu7TjD/KmBymGKgW3UILRirV7AqVK/img.jpg\" data-phocus=\"https://blog.kakaocdn.net/dn/oDns9/dJMcadu7TjD/KmBymGKgW3UILRirV7AqVK/img.jpg\"><img src=\"https://blog.kakaocdn.net/dn/oDns9/dJMcadu7TjD/KmBymGKgW3UILRirV7AqVK/img.jpg\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoDns9%2FdJMcadu7TjD%2FKmBymGKgW3UILRirV7AqVK%2Fimg.jpg\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" loading=\"lazy\" width=\"224\" height=\"225\" data-origin-width=\"224\" data-origin-height=\"225\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">PBR 이라고도 하는데</p>\n<p data-ke-size=\"size16\">3D 게임엔진의 기본 셰이더는 이걸 구현해뒀습니다.</p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">유니티 Standard 셰이더에 전부 있는 값들인데</p>\n<p data-ke-size=\"size16\">이게 뭔지는 잘 모르르 수 있습니다.</p>\n<p data-ke-size=\"size16\">결과적으로 실사 셰이더는 <span style=\"text-align: start;\">Standard<span> 만 사용하면 다 표시할 수 있으니</span></span></p>\n<p data-ke-size=\"size16\"><span style=\"text-align: start;\"><span>용어는 기억해둡시다.</span></span></p>\n<p data-ke-size=\"size16\">&nbsp;</p>\n<p data-ke-size=\"size16\">영상: <a href=\"https://www.youtube.com/watch?v=saEHAd9nzyA\" target=\"_blank\" rel=\"noopener&nbsp;noreferrer\">https://www.youtube.com/watch?v=saEHAd9nzyA</a></p>\n<figure data-ke-type=\"video\" data-ke-style=\"alignCenter\" data-video-host=\"youtube\" data-video-url=\"https://www.youtube.com/watch?v=saEHAd9nzyA\" data-video-thumbnail=\"https://scrap.kakaocdn.net/dn/n6ENM/dJMb9frJO14/HcmfdE7N8j4vzBVjnWidhk/img.jpg?width=1280&amp;height=720&amp;face=0_0_1280_720,https://scrap.kakaocdn.net/dn/r2Hdv/dJMb89572vZ/M4D2xO8YwgGbLUrGVrXpr1/img.jpg?width=1280&amp;height=720&amp;face=0_0_1280_720,https://scrap.kakaocdn.net/dn/xKeGy/dJMb9g5fu8I/Uv7W6cwTysVuM61T0WkoG0/img.jpg?width=1280&amp;height=720&amp;face=0_0_1280_720\" data-video-width=\"860\" data-video-height=\"484\" data-video-origin-width=\"860\" data-video-origin-height=\"484\" data-ke-mobilestyle=\"widthContent\" data-video-title=\"쉽게 이해하는 물리기반 렌더링(PBR)\" data-original-url=\"\"><iframe src=\"https://www.youtube.com/embed/saEHAd9nzyA\" width=\"860\" height=\"484\" frameborder=\"\" allowfullscreen=\"true\"></iframe>\n<figcaption style=\"display: none;\"></figcaption>\n</figure>\n<p data-ke-size=\"size16\">&nbsp;</p>",
+        "contentSnippet": "PBR 이라고도 하는데\n3D 게임엔진의 기본 셰이더는 이걸 구현해뒀습니다.\n \n유니티 Standard 셰이더에 전부 있는 값들인데\n이게 뭔지는 잘 모르르 수 있습니다.\n결과적으로 실사 셰이더는 Standard 만 사용하면 다 표시할 수 있으니\n용어는 기억해둡시다.\n \n영상: https://www.youtube.com/watch?v=saEHAd9nzyA",
+        "guid": "https://serverdown.tistory.com/1647",
+        "categories": [
+          "프로그래밍/개발메모"
+        ],
+        "isoDate": "2026-05-10T01:52:37.000Z"
+      },
       {
         "creator": "SID-NFT",
         "title": "트랙패드 키보드 종결자 나왔다. / Clevetura CLVX S",
@@ -1205,6 +1226,11 @@
   },
   {
     "name": "매거진 입맛",
+    "category": "큐레이션",
+    "posts": []
+  },
+  {
+    "name": "요즘 IT",
     "category": "큐레이션",
     "posts": []
   },
