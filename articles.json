@@ -2,70 +2,108 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "나는 몰랐던 AI 서비스 시장 - AI 챗봇",
-    "description": "AI 챗봇 영역이 있군요\n만들기도 쉽다고 합니다.\n \n러비더비\n케이브덕\n체타\n크랙\n등의 서비스가 있다고 합니다\n \n몇개 들어가봤는데\n선정적인 그림으로 유저를 끌어모으고 있군요 ㄷㄷㄷ\n이런 시장이 있었다니\n \n \n \n영상: https://www.youtube.com/watch?v=ac9nYXxlYyY&t=916s",
+    "title": "양자컴퓨터 학습에 쓴다 / 볼츠만 머신",
+    "description": "양컴 어디다 쓰나 했는데\n학습 난이도를 낮추는데 쓰는군요\n더 똑똑하게 만들려면 학습 두깨가 두꺼워지고\n두꺼우면 추런할때 비용이 많이 듭니다.\n \n양자컴퓨터는 이부분이 두꺼워지지 않도록 계산을 줄일 수 있게 해주는거 같습니다.\n \n \n영상: https://www.youtube.com/watch?v=Y31gTWxRdVo\n\n\n\n \n이세돌이 바닥 질때\n로봇이 7일간 택배업무를 할때\n양자컴퓨터로 AI 학습을 혁신할때\n장기투자하기 적기 입니다.\n그냥 ETF 사면 될것 같습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1655",
-    "pubDate": "Sat, 30 May 2026 16:21:17 +0900",
+    "link": "https://serverdown.tistory.com/1654",
+    "pubDate": "Sat, 30 May 2026 13:48:59 +0900",
     "creator": "SID-NFT",
     "categories": [
-      "유튜브",
-      "Ai",
-      "서비스"
+      "투자",
+      "양자컴퓨터",
+      "투자"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "AI 방송 - 시청자도 가짜로 만들어내자",
-    "description": "방송을 하려고 했더니 시청자가 없습니다.\n이러면 텐션이 떨어지기 때문에\n시청자도 가짜로 만들어 내면 되겠습니다.\n \n영상: https://www.youtube.com/watch?v=w6k18rXSuo8\n\n\n\n \n다음엔 후원도 가짜로 받아야겠습니다.",
+    "title": "Deprecating dotMemory Unit",
+    "description": "dotMemory Unit has long served as a unit testing framework for detecting memory issues in .NET code. We are grateful to everyone who has used it as part of their development and testing workflows. After careful consideration, we have decided to retire dotMemory Unit. The project will no longer receive active maintenance, compatibility updates, or […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1652",
-    "pubDate": "Tue, 26 May 2026 15:16:04 +0900",
-    "creator": "SID-NFT",
+    "link": "https://blog.jetbrains.com/dotnet/2026/05/28/deprecating-dotmemory-unit/",
+    "pubDate": "Thu, 28 May 2026 10:55:03 +0000",
+    "creator": "Alexander Kurakin",
     "categories": [
-      "유튜브",
-      "방송",
-      "버튜버",
-      "채팅",
-      "챗봇"
+      "net-tools",
+      "dotmemory",
+      "deprecated",
+      "dotmemory-unit"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Introducing the Cloud9 JetStream Theme for JetBrains IDEs",
-    "description": "Cloud9 and JetBrains have been working together on projects that connect software development and esports, from the Sky’s The Limit hackathon to custom tools built for live events, podcasts, and team content. One of the latest results of this collaboration is Cloud9 JetStream, a custom theme for JetBrains IDEs. The theme brings Cloud9’s visual identity […]",
+    "title": "What’s New for C++ Developers in Visual Studio 2026 (18.1 – 18.6)",
+    "description": "Visual Studio 2026 versions 18.1 through 18.6 deliver a wave of improvements for C++ developers. For MSVC Build Tools, the v14.51 release is now generally available with runtime performance gains and improved C++23 conformance. We also introduced Sample Profile Guided Optimization to help you improve the runtime performance of your C/C++ programs. In the IDE, […]\nThe post What’s New for C++ Developers in Visual Studio 2026 (18.1 – 18.6) appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/05/27/introducing-the-cloud9-jetstream-theme-for-jetbrains-ides/",
-    "pubDate": "Wed, 27 May 2026 15:19:19 +0000",
-    "creator": "Elena Kerpeleva",
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-for-c-developers-in-visual-studio-2026-18-1-18-6/",
+    "pubDate": "Wed, 27 May 2026 19:51:16 +0000",
+    "creator": "Augustin Popa",
     "categories": [
-      "marketplace",
-      "new-products",
-      "news",
-      "gamedev"
+      "C++",
+      "Copilot",
+      "MSVC",
+      "Visual Studio"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
-    "description": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture.  SilverTorch shows up to 23.7x higher throughput compared to the state-of-the-art approaches. It’s also showing 20.9x more compute cost efficiency compared to a CPU-based solution while also improving accuracy.  Our research paper, “SilverTorch: A [...]\nRead More...\nThe post SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems appeared first on Engineering at Meta.",
+    "title": "Dynamically Splitting Wide Partitions in Cassandra for Time Series Workloads",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
-    "pubDate": "Tue, 26 May 2026 16:00:01 +0000",
-    "creator": "Unknown",
+    "link": "https://netflixtechblog.com/dynamically-splitting-wide-partitions-in-cassandra-for-time-series-workloads-0eded064f456?source=rss----2615bd06b42e---4",
+    "pubDate": "Wed, 03 Jun 2026 02:05:05 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "ML Applications"
+      "scalability",
+      "cassandra",
+      "database",
+      "distributed-systems",
+      "timeseries"
     ]
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "High-Throughput Graph Abstraction at Netflix: Part I",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/high-throughput-graph-abstraction-at-netflix-part-i-e88063e6f6d5?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 29 May 2026 18:49:13 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "stateful-systems",
+      "distributed-systems",
+      "caching",
+      "scalability",
+      "graph-database"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "What Does It Actually Take for an IDE to Understand Rust?",
+    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With their help, the core topics of this rich and nuanced livestream were distilled into a compact blog post format. How do Rust IDEs understand code? That was the central question explored in a recent RustRover livestream featuring Lukas Wirth, Rust engineer at Zed […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2026/05/29/how-rust-ides-understand-code/",
+    "pubDate": "Fri, 29 May 2026 15:30:07 +0000",
+    "creator": "Irina Mihajlovic",
+    "categories": [
+      "engineering",
+      "industry-trends",
+      "livestream",
+      "rustrover"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
     "description": "Trained from scratch and designed for practical deployment, Mellum2 is built for routing, Q&A, sub-agents, and private AI use in software engineering systems. Today, we’re open-sourcing Mellum2, a 12B model engineered to solve the hardest parts of production AI: latency, throughput, and cost. Built from scratch and released under the Apache 2.0 license, Mellum2 offers […]",
@@ -83,50 +121,7 @@
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Deprecating dotMemory Unit",
-    "description": "dotMemory Unit has long served as a unit testing framework for detecting memory issues in .NET code. We are grateful to everyone who has used it as part of their development and testing workflows. After careful consideration, we have decided to retire dotMemory Unit. The project will no longer receive active maintenance, compatibility updates, or […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/05/28/deprecating-dotmemory-unit/",
-    "pubDate": "Thu, 28 May 2026 10:55:03 +0000",
-    "creator": "Alexander Kurakin",
-    "categories": [
-      "net-tools",
-      "dotmemory",
-      "deprecated",
-      "dotmemory-unit"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "도쿄에서 후쿠오카까지, 현장에서 답을 찾다 - CS InquiryChat 도입기",
-    "description": "프롤로그: 왜 시스템 전환을 선택했는가안녕하세요. ABC Platform 팀에서 플랫폼 기획자로 일하고 있는 김세리입니다. 저는 일본의 음식 배달 서비스인 데마에칸(Demaecan...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/introduction-of-messaginghub-inquirychat-service",
-    "pubDate": "Thu, 28 May 2026 03:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 8,
-    "imageUrl": "",
-    "title": "[MULTI] 암살 아닌 첩보. 계획보다는 임기응변의 미학, 007 퍼스트 라이트",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2458",
-    "pubDate": "Tue, 26 May 2026 21:00:51 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "JetBrains Academy – May Digest",
     "description": "Hey!  This month’s list is short, but every item is worth your time.  Apply for one of up to 40 JetBrains Foundation scholarships for the CSAI BSc program by June 9, try a new AI tools course for developers, discover a program that brings hands-on coding practice into JetBrains IDEs, and read about the value of […]",
@@ -142,38 +137,7 @@
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "What’s New for C++ Developers in Visual Studio 2026 (18.1 – 18.6)",
-    "description": "Visual Studio 2026 versions 18.1 through 18.6 deliver a wave of improvements for C++ developers. For MSVC Build Tools, the v14.51 release is now generally available with runtime performance gains and improved C++23 conformance. We also introduced Sample Profile Guided Optimization to help you improve the runtime performance of your C/C++ programs. In the IDE, […]\nThe post What’s New for C++ Developers in Visual Studio 2026 (18.1 – 18.6) appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-for-c-developers-in-visual-studio-2026-18-1-18-6/",
-    "pubDate": "Wed, 27 May 2026 19:51:16 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Copilot",
-      "MSVC",
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "TeamCity 2026.1.1 Is Now Available",
-    "description": "Today we’re rolling out the first bug-fix for TeamCity On-Premises 2026.1 servers. This update addresses over 20 issues and performance issues, including: See TeamCity 2026.1.1 Release Notes for the complete list of resolved issues. Why update? Staying up to date with minor releases ensures your TeamCity instance benefits from the following: Compatibility TeamCity 2026.1.1 shares […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/05/teamcity-2026-1-1-bug-fix/",
-    "pubDate": "Fri, 29 May 2026 11:11:53 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "bug-fix"
-    ]
-  },
-  {
-    "id": 12,
+    "id": 9,
     "imageUrl": "",
     "title": "TA-linux_secure - 3rd",
     "description": "TA-linux_secure 앱(버전 이슈인지 현재 검색은 안 됨)을 설치하면 스플렁크에 기본 내장된 linux_secure 소스타입 기능을 보강할 수 있다. 그런데 해당 앱이 만들어준 테이블 구조가 마음에 들지 않는다면? \n\n\n\n\n해당 앱은 키워드 성격의 정보를 vendor_action을 중심으로 auth_method와 pam_module_type 세 개의 테이블에 저장하는데, 이 테이블들은 동시에 존재하지 않는다. 이벤트 성격에 따라 테이블 조합이 달라진다는 얘기. 내가 원하는 조합의 키워드 필드를 만들어보자.\n\n\n\n\n\n전체 이벤트가 포함되지 않는다. vendor_action은 반드시 auth_method와 pam_module_type 중 하나와 함께 존재한다는 전제조건이 틀렸다는 얘기. 로직 수정.\n\n\n\n\n\n\n아직도 천 개 정도 모자란다. vendor_action이 항상 존재하지 않는구나. 로직 수정.\n\n\n\n\n\n이런 EDA 과정을 통해 데이터 이해도가 높아진다. 툴 숙련도는 그 과정에서 자연스레 따라오는 부산물같은 것. 이때 이왕이면 남이 만들어 놓은 걸 고쳐 쓰는 것 보다, 내 목적에 맞는 데이터 구조를 직접 만들어 보는 게 좋다. 그 과정에서 데이터를 잘 알게 되고, 그만큼 분석이 더 쉬워지니까.\n\n\n직장생활 하다 보면 업무 인수인계 과정에서 전임자가 무엇을, 어떻게, 왜 처리했는지 살펴보다, 에이 이럴 거면 그냥 내가 처음부터 다시 하는 게 낫겠다 싶을 때가 있다. 남이 만들어준 데이터 구조도 마찬가지. 결론은 내가 만든 데이터가 제일 쉽다.\n \n\n관련 글\n\nTA-linux_secure - 2nd\nTA-linux_secure\nFilebeat system 모듈\n데이터 시각화 별거 아니다\n데이터 노가다 실수담",
@@ -185,7 +149,41 @@
     "categories": []
   },
   {
-    "id": 13,
+    "id": 10,
+    "imageUrl": "",
+    "title": "나는 몰랐던 AI 서비스 시장 - AI 챗봇",
+    "description": "AI 챗봇 영역이 있군요\n만들기도 쉽다고 합니다.\n \n러비더비\n케이브덕\n체타\n크랙\n등의 서비스가 있다고 합니다\n \n몇개 들어가봤는데\n선정적인 그림으로 유저를 끌어모으고 있군요 ㄷㄷㄷ\n이런 시장이 있었다니\n \n \n \n영상: https://www.youtube.com/watch?v=ac9nYXxlYyY&t=916s",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1655",
+    "pubDate": "Sat, 30 May 2026 16:21:17 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "유튜브",
+      "Ai",
+      "서비스"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 29 May 2026 14:01:02 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "distributed-systems",
+      "software-engineering",
+      "platform-engineering",
+      "microservices",
+      "observability"
+    ]
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "악역영애 4컷 만화 - 52화, 학교잠입인데스와",
     "description": "No description available",
@@ -199,7 +197,40 @@
     ]
   },
   {
+    "id": 13,
+    "imageUrl": "",
+    "title": "새로운 세상인가, 새로운 거품인가?",
+    "description": "CB Insights의 State of Venture는 아마도 전 세계 VC와 이 분야에 종사하는 많은 분이 가장 필수적으로 읽는 보고서일 것이다. 나도 분기마다 이 보고서를 읽고 지난 분기에 글로벌 벤처 시장에서 어떤 일이 있었는지 정리하고, 우리가 투자하는 한국 시장 관련 내용이 있으면 찾아서 읽어본다. 한 분기를 정리하는 보고서라서 내용이 다양하지만, 30분 정도만 투자하면 글로벌 벤처 시장에서 돈이(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/05/a-new-world-or-a-new-bubble.html",
+    "pubDate": "Wed, 27 May 2026 21:27:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "ipo",
+      "Strong",
+      "unicorn",
+      "vc"
+    ]
+  },
+  {
     "id": 14,
+    "imageUrl": "",
+    "title": "TeamCity 2026.1.1 Is Now Available",
+    "description": "Today we’re rolling out the first bug-fix for TeamCity On-Premises 2026.1 servers. This update addresses over 20 issues and performance issues, including: See TeamCity 2026.1.1 Release Notes for the complete list of resolved issues. Why update? Staying up to date with minor releases ensures your TeamCity instance benefits from the following: Compatibility TeamCity 2026.1.1 shares […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/05/teamcity-2026-1-1-bug-fix/",
+    "pubDate": "Fri, 29 May 2026 11:11:53 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "bug-fix"
+    ]
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "유니티 애셋 $2 달러 이벤트 구입한거  / 2026-05",
     "description": "2달러 이벤트를 했구요 몇가지를 구입했습니다.\n \n \nORION Space Scene Generation Framework\n\n\n행성하나를 랜더링 한거 같던데\n스카이박스 가 필요했는데  싸길레 구매해봤습니다.\n정작 필요한 스카이박스는 이번 할인에 없군요\n \n링크: ORION Space Scene Generation Framework | Level Design | Unity Asset Store\n영상: ORION with Sky Master ULTIMATE, massive scale planet rendering and clouds in earth like planet - YouTube\n\n\n\n모바일에서 돌아가려나 ...\n \n2D Minimal - Character Maker\n\n\n괜히 샀나 싶기도 한 2D 캐릭터 들입니다.\n어디 쓸진 모르겠고 왕창 등장하는 게임 만들고 싶군요\n \n애셋 링크: 2D Minimal - Character Maker | 2D Characters | Unity Asset Store\n영상: (4) 2D Minimal - Character Maker Demo - YouTube\n\n\n\n \n \n \nToonScapes: Spring Isles\n\n\n달리기 게임 만들려고 준비중이였는데 배경이 필요해서 샀습니다.\n이것도 언제 만들지는 모르겠습니다.\n달리기 애니메이션 모델 등은 모았고 이번엔 들판 배경이군요\n \n에셋 링크: ToonScapes: Spring Isles | 3D Fantasy | Unity Asset Store\n영상: https://www.youtube.com/watch?v=GOBBx8iJFdA&time_continue=71&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Fassetstore.unity.com%2F&embeds_referring_origin=https%3A%2F%2Fassetstore.unity.com\n\n\n\n \n \n \nCombatGirls_SwordShieldCharacterPack\n\n\n칼방 여전사 입니다.\n달리기 할때 써야겠습니다.\n모델 특징\n- (미확인) 애니메이션 포함\n- (미확인)  눈 턱 뼈 없음\n \n애셋 링크: CombatGirls_SwordShieldCharacterPack | Characters | Unity Asset Store\n영상: Demo CombatGirls SwordShield\n\n\n\n \n \n \n \nLow Poly Icon Pack\n\n\n아이콘이 필요해서 샀는데\n(미확인) 지금보니 아이콘이 2D 가 아니고 3D 같군요\n \n애셋 링크: Low Poly Icon Pack | 2D Icons | Unity Asset Store\n영상: Pablo Reviews Packs: Low Poly Icon Pack - YouTube\n\n\n\n \n4416 RPG Icons Pixel Art\n\n\n이거는 진짜 2D 아이콘입니다.\n픽셀아트로 만들어져서 매우 투박한데 멀리서 보면 괜찮습니다.\n디펜스게임에 넣어도 되고 투사체나 이팩트에 그냥 튀어나와도 될것 같습니다 .\n \n애셋 링크: 4416 RPG Icons Pixel Art | 2D Icons | Unity Asset Store\n\n\n \n \nSci-Fi Weapons: Bullet Hell Sound Effects Pack\n\n\n삐용 삐용 총 소리 들어있습니다.\n좀 저질이길한데 부족한 게임을 채워주기엔 충분합니다.\n예전에 무료로 뿌렸는데 그때 못받아서 이번에 샀습니다.\n아무데나 막쓰기 부담 없습니다.\n \n에셋 링크:\nSci-Fi Weapons: Bullet Hell Sound Effects Pack | Audio Sound FX | Unity Asset Store\n\n \nSci-Fi Weapons: Bullet Hell Sound Effects Pack | 음향 효과음 | Unity Asset Store\nLayer in the sounds of Sci-Fi Weapons: Bullet Hell Sound Effects Pack from SwishSwoosh for your next project. Browse all audio options on the Unity Asset Store.\nassetstore.unity.com\n\n영상: (4) Sci-Fi Weapons: Bullet Hell Sound Effects Pack for Game Developer - YouTube\n\n\n\n \n \nMonsters Ultimate Pack 10 Cute Pro Series\n\n\n고퀄리티의 3D 몬스터가 많이 들어있습니다.\n달리기 게임에 쓸 예정입니다.\n마리에서 본거 같지만 약간씩 다르게 생겼으니 문제가 안될것 같습니다.\n \n애렛 링크: Monsters Ultimate Pack 10 Cute Pro Series | 3D Creatures | Unity Asset Store\n영상: Monsters Ultimate Pack 10 Cute Pro Series!! 700+ game ready assets | Unity, FAB, Unreal - YouTube\n\n\n\n \n \n \n사려다 안산것들\nSuccubus Sisters: Complete Edition\n\n\n이 분껀 모델 퀄은 좋은데 고사양입니다.\n게임에 쓸려면 손이 많이 가서 점점 안쓰게 되었습니다.\n그리고 서큐버스라 그런지 옷을 너무 헐벗어서 쓸 곳이 없었습니다.\n하의가 있는 옷이 없군요\n \n \nPoly Art: Wolf\n\n\n늑대 개 강아지 애니메이션이 포함된 모델입니다.\n호감은 가지만 ...  사볼까 하다 쓸일이 없어서 안샀습니다.\n다음 기회에 \n \n \n \nGUI - The Stone\n\n\n돌키우기 애셋인가 해서 봤는데\nGUI 였습니다. 돌이랑 관련 있는거 같지도 않고 낚여서 봤습니다.\n \n \nAkane\n\n\n사려고 했는데 뭔가 이질감이 들었습니다.\n칼 움직임이 너무 이상해서 그런거 같은데\n손목움직임이 없어서 그런거 같기도 하고\n아무튼 손이 안갔습니다.\n애셋 링크: Akane | Characters | Unity Asset Store\n\n \nAkane | 캐릭터 | Unity Asset Store\nGet the Akane package from SURIYUN and speed up your game development process. Find this & other 캐릭터 options on the Unity Asset Store.\nassetstore.unity.com\n\n영상이 유튜브가 아닌가 보군요 가져올 수 없군요\n들어가서 직접 참고해보세요\n \n \nPoly Art: Raccoon\n\n\n동물 세트인가 했지만 라쿤 (너구리) 세트 였습니다.\n그냥 구경만",
@@ -212,23 +243,6 @@
       "프로그래밍/유니티 에셋 리뷰",
       "유니티",
       "유니티애셋"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Visual Studio May Update – Plan, Review, Refine",
-    "description": "There’s a particular rhythm to good development work: you think, you try, you check, you adjust. This month’s Visual Studio update leans into that rhythm. Whether you’re sketching an approach with the Plan agent before touching a single file, reviewing a wave of changes across many files, or fine-tuning the context Copilot has to work […]\nThe post Visual Studio May Update – Plan, Review, Refine appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-may-update-plan-review-refine/",
-    "pubDate": "Tue, 26 May 2026 15:00:39 +0000",
-    "creator": "Mark Downie",
-    "categories": [
-      "Visual Studio",
-      "C++",
-      "GitHub Copilot",
-      "Plan agent"
     ]
   }
 ]
