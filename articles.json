@@ -2,59 +2,17 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Dynamic Repartitioning for Time Series Workloads",
-    "description": "No description available",
+    "title": "인구감소지역으로 휴가가면 최대 7만 원 할인받아요: 2026 여름맞이 숙박세일 페스타",
+    "description": "85개 지역에서 만나는 특별한 숙박 혜택",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/dynamically-splitting-wide-partitions-in-cassandra-for-time-series-workloads-0eded064f456?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 03 Jun 2026 02:05:05 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "scalability",
-      "cassandra",
-      "database",
-      "distributed-systems",
-      "timeseries"
-    ]
+    "link": "https://toss.im/tossfeed/article/money-policies-63",
+    "pubDate": "Thu, 04 Jun 2026 06:42:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-    "description": "Trained from scratch and designed for practical deployment, Mellum2 is built for routing, Q&A, sub-agents, and private AI use in software engineering systems. Today, we’re open-sourcing Mellum2, a 12B model engineered to solve the hardest parts of production AI: latency, throughput, and cost. Built from scratch and released under the Apache 2.0 license, Mellum2 offers […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-    "pubDate": "Mon, 01 Jun 2026 12:57:50 +0000",
-    "creator": "Anton Semenkin",
-    "categories": [
-      "news",
-      "releases",
-      "ai",
-      "mellum",
-      "open-source"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "High-Throughput Graph Abstraction at Netflix: Part I",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/high-throughput-graph-abstraction-at-netflix-part-i-e88063e6f6d5?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 29 May 2026 18:49:13 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "stateful-systems",
-      "distributed-systems",
-      "caching",
-      "scalability",
-      "graph-database"
-    ]
-  },
-  {
-    "id": 4,
     "imageUrl": "",
     "title": "양자컴퓨터 학습에 쓴다 / 볼츠만 머신",
     "description": "양컴 어디다 쓰나 했는데\n학습 난이도를 낮추는데 쓰는군요\n더 똑똑하게 만들려면 학습 두깨가 두꺼워지고\n두꺼우면 추런할때 비용이 많이 듭니다.\n \n양자컴퓨터는 이부분이 두꺼워지지 않도록 계산을 줄일 수 있게 해주는거 같습니다.\n \n \n영상: https://www.youtube.com/watch?v=Y31gTWxRdVo\n\n\n\n \n이세돌이 바닥 질때\n로봇이 7일간 택배업무를 할때\n양자컴퓨터로 AI 학습을 혁신할때\n장기투자하기 적기 입니다.\n그냥 ETF 사면 될것 같습니다.",
@@ -70,38 +28,23 @@
     ]
   },
   {
-    "id": 5,
+    "id": 3,
     "imageUrl": "",
-    "title": "RustWeek 2026: What We Learned, Who We Met, and What’s Next for Rust",
-    "description": "RustWeek 2026 brought more than 900 Rust developers, educators, and maintainers to Utrecht, Netherlands, for a few days of talks, hallway conversations, community meetups, hackathons, and workshops about all things Rust. As a Gold sponsor for the third year in a row, the RustRover team joined the event to support the Rust ecosystem, connect with […]",
+    "title": "What’s New in vcpkg (May 2026)",
+    "description": "This release includes major library updates for Boost 1.91, Qt 6.11, and OpenCASCADE 8.0, along with 27 new ports and over 500 port updates.\nThe post What’s New in vcpkg (May 2026) appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/06/03/rustrover-at-rustweek-2026/",
-    "pubDate": "Wed, 03 Jun 2026 11:46:01 +0000",
-    "creator": "Irina Mihajlovic",
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-may-2026/",
+    "pubDate": "Thu, 04 Jun 2026 23:08:33 +0000",
+    "creator": "Augustin Popa",
     "categories": [
-      "community",
-      "rustrover",
-      "conference",
-      "event",
-      "rust",
-      "rust-ide"
+      "C++",
+      "Vcpkg",
+      "vcpkg"
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "ODW #8: Slack MCP로 사고 대응과 FAQ 생성 작업 속도를 높이는 실습형 사내 워크숍 후기",
-    "description": "안녕하세요. LY Corporation의 Sakokawa입니다. 사내 시스템의 데이터 플랫폼 개발을 담당하고 있고, Orchestration Development Workshop의...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/slack-mcp-faq-generation-and-incident-response-support",
-    "pubDate": "Fri, 29 May 2026 01:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
+    "id": 4,
     "imageUrl": "",
     "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
     "description": "No description available",
@@ -119,22 +62,62 @@
     ]
   },
   {
-    "id": 8,
+    "id": 5,
     "imageUrl": "",
-    "title": "What’s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements",
-    "description": "Microsoft Build kicks off today in San Francisco, June 2 and 3. If you cannot make it in person, the sessions are streaming online for free, and I want to walk you through what we are announcing for Visual Studio this week. One idea tie most of it together. Code is an asset, not just […]\nThe post What’s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements appeared first on Visual Studio Blog.",
+    "title": "Sitar-agent: Building a reliable dynamic configuration sidecar at scale",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/whats-coming-next-in-visual-studio-our-microsoft-build-2026-announcements/",
-    "pubDate": "Tue, 02 Jun 2026 17:10:39 +0000",
-    "creator": "Mads Kristensen",
+    "link": "https://medium.com/airbnb-engineering/sitar-agent-building-a-reliable-dynamic-configuration-sidecar-at-scale-b7e00c152068?source=rss----53c7c27702d5---4",
+    "pubDate": "Thu, 04 Jun 2026 17:01:04 GMT",
+    "creator": "Bo Teng",
     "categories": [
-      "Visual Studio",
-      "Announcement",
-      "Build",
-      "Git",
-      "GitHub Copilot",
-      "Modernization"
+      "distributed-systems",
+      "infrastructure",
+      "software-architecture",
+      "engineering",
+      "software-development"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "TA-linux_secure - 3rd",
+    "description": "TA-linux_secure 앱(버전 이슈인지 현재 검색은 안 됨)을 설치하면 스플렁크에 기본 내장된 linux_secure 소스타입 기능을 보강할 수 있다. 그런데 해당 앱이 만들어준 테이블 구조가 마음에 들지 않는다면? \n\n\n\n\n해당 앱은 키워드 성격의 정보를 vendor_action을 중심으로 auth_method와 pam_module_type 세 개의 테이블에 저장하는데, 이 테이블들은 동시에 존재하지 않는다. 이벤트 성격에 따라 테이블 조합이 달라진다는 얘기. 내가 원하는 조합의 키워드 필드를 만들어보자.\n\n\n\n\n\n전체 이벤트가 포함되지 않는다. vendor_action은 반드시 auth_method와 pam_module_type 중 하나와 함께 존재한다는 전제조건이 틀렸다는 얘기. 로직 수정.\n\n\n\n\n\n\n아직도 천 개 정도 모자란다. vendor_action이 항상 존재하지 않는구나. 로직 수정.\n\n\n\n\n\n이런 EDA 과정을 통해 데이터 이해도가 높아진다. 툴 숙련도는 그 과정에서 자연스레 따라오는 부산물같은 것. 이때 이왕이면 남이 만들어 놓은 걸 고쳐 쓰는 것 보다, 내 목적에 맞는 데이터 구조를 직접 만들어 보는 게 좋다. 그 과정에서 데이터를 잘 알게 되고, 그만큼 분석이 더 쉬워지니까.\n\n\n직장생활 하다 보면 업무 인수인계 과정에서 전임자가 무엇을, 어떻게, 왜 처리했는지 살펴보다, 에이 이럴 거면 그냥 내가 처음부터 다시 하는 게 낫겠다 싶을 때가 있다. 남이 만들어준 데이터 구조도 마찬가지. 결론은 내가 만든 데이터가 제일 쉽다.\n \n\n관련 글\n\nTA-linux_secure - 2nd\nTA-linux_secure\nFilebeat system 모듈\n데이터 시각화 별거 아니다\n데이터 노가다 실수담",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/05/ta-linuxsecure-3rd.html",
+    "pubDate": "2026-05-29T11:01:39.459Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Toolbox App 3.5: Better Remote Development Observability, More Reliable Enterprise Configuration, and Smoother Everyday Interactions",
+    "description": "Toolbox App 3.5 focuses on making daily work smoother and managed development environments easier to monitor. The app now supports interface zooming with familiar shortcuts, provides OpenTelemetry metrics for enterprise remote development connections, and handles several long-standing reliability issues more gracefully. Remote development observability The Toolbox App now emits OpenTelemetry metrics for remote development connection […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/toolbox-app/2026/06/toolbox-app-3-5-better-remote-development-observability-more-reliable-enterprise-configuration-and-smoother-everyday-interactions/",
+    "pubDate": "Tue, 02 Jun 2026 14:37:45 +0000",
+    "creator": "Lana Novikova",
+    "categories": [
+      "jetbrains-toolbox",
+      "toolbox-app"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 53화, 이사장인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2461",
+    "pubDate": "Wed, 03 Jun 2026 20:36:59 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
     ]
   },
   {
@@ -155,98 +138,93 @@
   {
     "id": 10,
     "imageUrl": "",
-    "title": "Top Agentic Frameworks for Building Applications 2026",
-    "description": "In 2026, the world of AI is changing at a serious pace. The days of AI systems dealing solely in single-prompt interactions are coming to an end. Instead, these models are evolving into agentic systems – long-running, goal-driven software enabled by agentic frameworks that are becoming a critical layer in modern application architecture. This rapid […]",
+    "title": "이환, 원하는 건 뭐든지 할 수 있어!",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/06/top-agentic-frameworks-for-building-applications-2026/",
-    "pubDate": "Tue, 02 Jun 2026 12:12:37 +0000",
-    "creator": "Evgenia Verbina",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2460",
+    "pubDate": "Sat, 30 May 2026 15:21:53 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "data-science",
-      "ai-agents",
-      "langchain"
+      "게임툰"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "Hibernate 7.4 New Features",
-    "description": "Hibernate 7.4 introduced several improvements that simplify loading a page of data along with their associated child collection, historical data access, and audit logging. The article will focus on the following features: You can check out the sample code for this article in this GitHub repository. Limits and Fetch Joins One common requirement in data-driven […]",
+    "title": "IntelliJ IDEA 2026.1.3 Is Out!",
+    "description": "We’ve just released IntelliJ IDEA 2026.1.3. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update brings the following improvements: For a comprehensive overview of the fixes, see the release notes. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/05/hibernate-7-4-new-features/",
-    "pubDate": "Fri, 29 May 2026 14:29:53 +0000",
-    "creator": "Siva Katamreddy",
+    "link": "https://blog.jetbrains.com/idea/2026/06/intellij-idea-2026-1-3/",
+    "pubDate": "Thu, 04 Jun 2026 13:24:16 +0000",
+    "creator": "Julia Shashkova",
     "categories": [
-      "java",
-      "hibernate",
-      "jpa"
+      "releases"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "When history fails you, borrow from geography",
-    "description": "No description available",
+    "title": "노가다는 AI에게",
+    "description": "요즘 자주 보이는 마케팅.\n\n\n\n\n발전, 성취감 대신 지루함만 느끼기 십상이라 사람들은  대부분 단순 반복 작업을 싫어한다. AI가 해주면 땡큐지. 단순하고 반복적인 작업은 AI에게 맡기고 사람은 창의성을 발휘하자는, 너무나 이상적인 카피라 귀에 쏙쏙 들어온다. 그런데 마뜩지 않다. 현실을 왜곡할 수도 있기 때문.\n\n\n\n\n모두 모델링을 하고 싶어하고 데이터 작업은 피해요\n\n\n\nAI가 처리해준 결과를 보고 우아하게 판단만 내리면 된다는 뉘앙스를 주는 저 카피를 100% 믿는 이가 얼마나 될지는 모르겠지만, 일단 대부분의 데이터는 (단순 반복이 아니라) 복잡 반복 노가다 과정을 필요로 한다.\n\n \n\nData Refinery from Myounghun Kang\n\n설령 단순한 데이터를 단순한 목적으로 분석하는 상황이라 해도 AI에게 작업을 맡기는 과정은 그리 녹록지 않다. 결국 자동화를 하겠다는 건데, 자동화의 전제 조건은 동일 입력, 동일 출력. 입력이 같다면 출력도 항상 같아야 한다. LLM 기반 에이전트는 입력이 같아도 출력이 달라질 수 있다. 사용자 역량이 중요해지는 대목.\n\n\n어떤 역량?\n\n\n2000년대 초 쉘스크립트를 열심히 공부하던 시기가 있었다. 사실 스크립트란 게 간단히 정의하면 명령어 나열 이상도 이하도 아니라서 각 명령어를 한 줄씩 실행해보고 정상 동작하면 그대로 이어붙이기만 하면 된다.  \n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n\n#! /bin/sh\n# File Download\ncd /home/hosting\nwget ftp://192.168.56.1/pub/linux/src/apache/apache_1.3.27.tar.gz\nwget ftp://192.168.56.1/pub/linux/src/php/php-4.1.2.tar.gz\nwget ftp://192.168.56.1/pub/linux/src/sql/mysql-3.23.55.tar.gz\n \n# Source File unzipping\ntar xvzf apache_1.3.27.tar.gz\ntar xvzf mysql-3.23.55.tar.gz\ntar xvzf php-4.1.2.tar.gz\n \n# MySQL 3.23.55 Install\ncd /home/hosting/mysql-3.23.55\n./configure --prefix=/usr/local/mysql --with-charset=euc_kr\nmake\nmake install\ncd /usr/local/mysql\n./bin/mysql_install_db\n./bin/safe_mysqld -u root --language=korean &\n \n# Apache 1.3.27 Configuring\ncd /home/hosting\ncd apache_1.3.27\n./configure --prefix=/home/httpd\n \n# PHP 4.1.2 Install\ncd /home/hosting\nmv /home/hosting/php-4.1.2 /usr/local/php\ncd /usr/local/php\n./configure --with-apache=/home/hosting/apache_1.3.27 --with-mysql=/usr/local/mysql --enable-track-vars\nmake\nmake install\ncp /usr/local/php/php.ini-dist /usr/local/lib/php.ini\n \n# Apache 1.3.27 Install\ncd /home/hosting/apache_1.3.27\n./configure --prefix=/home/httpd --activate-module=src/modules/php4/libphp4.a\nmake\nmake install\ncd /home/hosting\n \n# /etc/rc.d/rc.local File Editting\necho \"# Apache Start\" >> /etc/rc.d/rc.local\necho \"/home/httpd/bin/apachectl start\" >> /etc/rc.d/rc.local\necho \"# MySQL Start\" >> /etc/rc.d/rc.local\necho \"/usr/local/mysql/bin/safe_mysqld -u root --language=korean &\" >> /etc/rc.d/rc.local\n \n# PHP Test file Create\necho \"<? phpinfo() ?>\" >> /home/httpd/htdocs/test.php\n/home/httpd/bin/apachectl start\n\nColored by Color Scripter\ncs\n\n\n\n그런데 다양한 명령어 조합을 통해 원하는 최종 결과를 얻으려면 당연히 단계별 명령어들의 역할과 순서를 명확히 알고 있어야 한다. 자동화를 하려면 수작업으로 전체 작업 과정을 최종 목적에 맞게 제어하는 경험이 먼저라는 얘기.\n\n\n작업 제어만 가능하면 해피엔딩? \n\n잘 정리된 표와 시각화한 그래픽 등의 결과물은 겉으로는 화려하다. 결과물만 보고는 컴퓨터가 다 알아서 하고 사람은 뭘 한 것인지 궁금해하는 사람들도 있다. 하지만 컴퓨터는 생각보다 융통성이 없다. 지정된 형식에 맞지 않으면 데이터를 전혀 읽어 들이지 못한다... 여기서 끝이 아니다. 데이터를 만든다고 반드시 의미가 있지는 않다. 데이터는 스스로 말하지 않기 때문에 처리된 데이터를 해석할 수 있어야 한다.\n\n\n다음은 예전에 재미로 구해본 대통령 후보자별 상대 후보 언급 비율. 몇 시간 끙끙대며 노가다를 했던 기억이 난다.\n\n\n\n\n2017 대선 토론\n\n\n이젠 AI 딸깍 한 방으로 끝(..)\n\n\n\n\n\n그런데 이 결과를 그대로 믿어도 되는 걸까? 버젓이 실수할 수 있다 경고하고 있는데? AI는 아직 100% 정확도를 보장하지 않는다. AI가 틀려도 내가 책임지겠다는 마인드가 아니라면, AI의 작업 결과를 검증할 수 있어야 발등 찍히지 않는다는 얘기. \n\n검증은 어떻게?\n\n\n코끼리를 본 적이 없으면 AI가 코가 없는 코끼리를 그려도 문제를 깨닫지 못한다. 원본 데이터의 구조와 의미를 알고 있을 때, 결국 스스로 분석할 수 있을 때 AI 작업 결과에 의미를 부여할 수 있다. \n\n\n\n\n\n데이터를 분석하려면 엘라스틱이나 스플렁크가 아닌 데이터를 잘 알아야 한다. (의미 파악은 기본이고) 전체적인 구조는 어떤지, 내 목적에 맞는 범위는 어딘지, 그 범위의 데이터를 어떻게 가공해야 원하는 분석이 가능한지에 대한 감을 잡을 수 있어야 한다. 이런 감각을 일깨워주는 가장 확실한 방법은 결국 데이터를 직접 만져보는 것. \n\n\n\n\n데이터를 직접 만지는 과정에서 (특히 실수를 깨닫는 과정에서) 데이터의 새로운 특징이나 데이터를 바라보는 새로운 시각을 얻을 수도 있다. 서울대 교수가 데이터 노가다를 강조하는 이유.\n\n학생들은 기업 프로젝트를 시작할 때 80% 정도의 우아한 작업과 20% 정도의 잡일로 구성될 거라고 기대한다. 막상 프로젝트를 시작해보면 정반대다. 프로젝트의 80% 정도는 ‘노가다 ’가 차지한다. 잡일을 대하는 태도와 엔지니어의 수준은 밀접한 관련이 있다. 잡일 단계에 들 때마다 좌절하고 지루해하면 초보이거나 적성이 맞지 않는 엔지니어다. 고급 엔지니어의 ‘내공’은 과거에 경험한 이런 궂은일의 축적에서 나온다.\n\n\n\n\n반복 노가다를 좋아하는 사람은 아무도 없다. 하지만 노가다를 통해 원하는 결과를 가져오는 전체 과정을 직접 경험해야만 노가다를 줄일 수 있는 방법을 알게 된다.\n\n\n\n관련 글\n\n데이터 분석(이라 쓰고 노가다라 읽는다)\n연애와 데이터 분석의 공통점\n데이터 노가다 실수담",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/when-history-fails-you-borrow-from-geography-915a72b91b5c?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 02 Jun 2026 17:01:04 GMT",
-    "creator": "Harrison Katz",
-    "categories": [
-      "technology",
-      "machine-learning",
-      "data-science",
-      "data-modeling",
-      "forecasting"
-    ]
+    "link": "https://kangmyounghun.blogspot.com/2026/06/ai.html",
+    "pubDate": "2026-06-02T11:54:41.845Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "How To Fix Common TypeScript Issues With Qodana",
-    "description": "Most TypeScript projects already run ESLint with @typescript-eslint. That covers a lot: explicit any, floating promises, non-null assertions, and more. If your linting setup is solid, you’re catching the obvious issues in the editor before code review. ESLint rules can’t produce cross-file findings. Each rule runs within a single file’s scope, which means ESLint can’t […]",
+    "title": "양자컴퓨터 투자 해야합니다. / 2026",
+    "description": "정확히는 2025 년 젠슨황 양자컴퓨터 30년 걸린다 이야기후 폭락했을 시점에 해야했습니다.\n당시 젠슨황은 엔비디아 제품이 양자컴퓨터 시뮬레이터에 사용되는지 모르고 있었다고 합니다.\n그래서 아무말 대단치를 한다음 \n당시 그 행사 주최측 대부분은 양자컴퓨터를 개발 중이여서 \n여차저차 해서 젠슨황을 설득하고 이 상황이 되었습니다.\n \n최근엔 한국에서도 양자 컴퓨터 관련 논문을 쏟아내고 있고 아무튼 이전엔 될지 안될지 몰랐다면\n이젠 되는데 얼마 걸리는지는 모르겠다 정도로 상황이 좋아졌습니다.\n \n일단 양자컴퓨터가 개발되면 통신부분 암호가 문제가 되기 때문에\n모든 통신 장비가 변경되어야합니다.\n(거의 스마트폰으로 바뀌는 느낌으로 모두 바껴야합니다.)\n신약 개발에 당연히 쓰이구요\n신물질 찾는데도 사용하구요\n투자 프로그램에도 사용한다고 합니다.\n \n개발환경에  엔비비디아 GPU 가 시뮬레이터로 필요하구요\n개발언어는 여기저기 따로 개발 중입니다.\n \n현재 양자컴퓨터 방식은 큐비트를 늘리기 힘들기 때문에 돌아간다 정도로 만족해야하고\n광자 컴퓨터 정도되면 만 큐비드를 넘길 수 있을 것 같습니다.\n \n사건 사고로는 비트코인이 털리는 일이 발생해야하구요\n \n이런 일들이 결국 발생할꺼고 그때마다 엄청나게 뜰 것입니다.\n그러니 안좋은 지금 미리미리 투자해야할 것입니다.\n \n \n \n \n영상: https://www.youtube.com/watch?v=O6aX4tkZZJ8\n\n\n\n \n \n영상에 장표 나오는거 캡쳐해둡니다.\n\n\n \nSK텔레콤 열심히 봐둬야겠습니다.\n컨티넘 QNT\n디웨이브 QBTS\n나 ETF 등으로 투자해야겠습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/06/fix-common-typescript-issues/",
-    "pubDate": "Mon, 01 Jun 2026 08:40:44 +0000",
-    "creator": "Efim Samoylov",
+    "link": "https://serverdown.tistory.com/1658",
+    "pubDate": "Thu, 4 Jun 2026 21:04:11 +0900",
+    "creator": "SID-NFT",
     "categories": [
-      "qodana",
-      "typescript"
+      "투자",
+      "양자컴퓨터"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "What Does It Actually Take for an IDE to Understand Rust?",
-    "description": "Disclaimer: This article was created using AI-based writing and communication companions. With their help, the core topics of this rich and nuanced livestream were distilled into a compact blog post format. How do Rust IDEs understand code? That was the central question explored in a recent RustRover livestream featuring Lukas Wirth, Rust engineer at Zed […]",
+    "title": "What’s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements",
+    "description": "Microsoft Build kicks off today in San Francisco, June 2 and 3. If you cannot make it in person, the sessions are streaming online for free, and I want to walk you through what we are announcing for Visual Studio this week. One idea tie most of it together. Code is an asset, not just […]\nThe post What’s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/05/29/how-rust-ides-understand-code/",
-    "pubDate": "Fri, 29 May 2026 15:30:07 +0000",
-    "creator": "Irina Mihajlovic",
+    "link": "https://devblogs.microsoft.com/visualstudio/whats-coming-next-in-visual-studio-our-microsoft-build-2026-announcements/",
+    "pubDate": "Tue, 02 Jun 2026 17:10:39 +0000",
+    "creator": "Mads Kristensen",
     "categories": [
-      "engineering",
-      "industry-trends",
-      "livestream",
-      "rustrover"
+      "Visual Studio",
+      "Announcement",
+      "Build",
+      "Git",
+      "GitHub Copilot",
+      "Modernization"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Toolbox App 3.5: Better Remote Development Observability, More Reliable Enterprise Configuration, and Smoother Everyday Interactions",
-    "description": "Toolbox App 3.5 focuses on making daily work smoother and managed development environments easier to monitor. The app now supports interface zooming with familiar shortcuts, provides OpenTelemetry metrics for enterprise remote development connections, and handles several long-standing reliability issues more gracefully. Remote development observability The Toolbox App now emits OpenTelemetry metrics for remote development connection […]",
+    "title": "High-Throughput Graph Abstraction at Netflix: Part I",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/toolbox-app/2026/06/toolbox-app-3-5-better-remote-development-observability-more-reliable-enterprise-configuration-and-smoother-everyday-interactions/",
-    "pubDate": "Tue, 02 Jun 2026 14:37:45 +0000",
-    "creator": "Lana Novikova",
+    "link": "https://netflixtechblog.com/high-throughput-graph-abstraction-at-netflix-part-i-e88063e6f6d5?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 29 May 2026 18:49:13 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "jetbrains-toolbox",
-      "toolbox-app"
+      "stateful-systems",
+      "distributed-systems",
+      "caching",
+      "scalability",
+      "graph-database"
     ]
   }
 ]
