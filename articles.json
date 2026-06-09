@@ -2,6 +2,165 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "Java Annotated Monthly – June 2026 ",
+    "description": "A fresh edition of Java Annotated Monthly has landed! The world of software development keeps moving at full speed, and this month’s selection helps you keep up without drowning in tabs. Inside, you’ll find hand-picked articles, podcasts, videos, and thought-provoking reads covering Java, Kotlin, AI, and the technologies shaping the next generation of development. Grab […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/06/java-annotated-monthly-june-2026/",
+    "pubDate": "Fri, 05 Jun 2026 10:46:22 +0000",
+    "creator": "Irina Mariasova",
+    "categories": [
+      "ai",
+      "java",
+      "kotlin",
+      "news",
+      "spring-2",
+      "java-annotated",
+      "java-annotated-monthly"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "Sitar-agent: Building a reliable dynamic configuration sidecar at scale",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://medium.com/airbnb-engineering/sitar-agent-building-a-reliable-dynamic-configuration-sidecar-at-scale-b7e00c152068?source=rss----53c7c27702d5---4",
+    "pubDate": "Thu, 04 Jun 2026 17:01:04 GMT",
+    "creator": "Bo Teng",
+    "categories": [
+      "distributed-systems",
+      "infrastructure",
+      "software-architecture",
+      "engineering",
+      "software-development"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "구글 FLOW로 웹툰,인스타 캐러셀 생성기 만들기 (무료 앱 배포)",
+    "description": "최근 구글이 공개한 새로운 AI 창작 스튜디오, 구글 플로우(FLOW)가 창작 생태계를 완전히 뒤흔들고 있습니다. 2026년 현재, 이미지 생성 비용을 사실상 '제로'로 만들면서도 나만의 독창적인 웹툰과 인스타그램 카드뉴스를 무제한으로 찍어낼 수 있는 이 놀라운 도구의 모든 것을 제가 직접 파헤쳐 보았습니다.\n\n\n여러분, 혹시 유료 AI 이미지 생성 서비스를 결제할 때마다 '아, 이번 달도 구독료가 만만치 않네'라고 생각하며 결제창 앞에서 망설여본 적 없으신가요? 아니면 공들여서 프롬프트를 입력해 예쁜 그림 한 장을 얻었는데, 그다음 장을 그리려고 하니 얼굴이 아예 딴사람이 되어버려 속상했던 경험은요? 아마 콘텐츠를 만드는 분들이라면 누구나 한 번쯤 겪었을 법한 고충일 텐데요. 저 역시 그랬습니다. 정말 정말 답답했죠. 하지만 이제 그런 걱정은 넣어두셔도 좋을 것 같습니다. 오늘 제가 소개해 드릴 구글 플로우(FLOW)는 그야말로 창작자들에게 내린 축복 같은 도구거든요. 이 글을 끝까지 읽으시면 제가 며칠 밤을 새워가며 최적화한 웹툰 생성기와 인스타 캐러셀 제작기 도구까지 바로 가져가실 수 있습니다.\n구글 플로우(FLOW)란 무엇인가? 창작의 패러다임이 변하다\n구글 플로우는 구글 랩스(Google Labs)에서 야심 차게 내놓은 멀티모달 AI 창작 스튜디오입니다. 처음 이 도구가 공개되었을 때는 단순히 AI로 영화를 만드는 툴 정도로만 알려졌었죠. 그런데 말입니다, 시간이 지나며 이미지FX와 휘스크(Veo)의 강력한 기능들이 하나둘씩 통합되더니, 이제는 이미지 생성부터 영상 제작, 그리고 에셋 관리까지 한 번에 끝낼 수 있는 거대한 플랫폼으로 진화했습니다. 구글의 최첨단 AI 모델인 제미나이(Gemini)가 중추적인 역할을 하고 있어서, 텍스트만으로도 우리가 머릿속으로만 그리던 비주얼을 아주 정교하게 뽑아낼 수 있다는 게 가장 큰 매력입니다.\n특히 제가 가장 소름 돋았던 부분은 이번에 새롭게 추가된 '도구(Tools)' 기능입니다. 이건 정말 혁명이에요. 코딩을 전혀 모르는 분들도 걱정할 필요가 없습니다. 그냥 AI에게 말로 \"이런 기능을 하는 생성기를 만들어줘\"라고 설명만 하면, 그 자리에서 나만의 맞춤형 도구가 뚝딱 만들어집니다. 소위 말하는 '바이브 코딩(Vibe Coding)'의 끝판왕이라고 할까요? 제가 직접 써보니, 이건 단순히 도구를 쓰는 걸 넘어 창작자가 직접 도구를 설계하는 시대로 진입했다는 확신이 들더라고요.\n무료 계정으로 즐기는 무제한 이미지 생성의 기쁨\n아마 많은 분이 가장 궁금해하실 부분이 바로 비용일 겁니다. 솔직히 말씀드릴게요. 저도 처음에 믿기지 않았거든요. 유료 구독을 하지 않은 일반 구글 계정으로 접속해도, 채팅창에서 '나노바나 프로'나 '나노바나 2' 같은 최신 모델을 선택하면 이미지 생성에 들어가는 크레딧 소모가 무려 0입니다. 다시 말해, 이미지를 만드는 것만큼은 사실상 무제한 무료라는 뜻이죠. 영상 제작의 경우에는 매일 50 크레딧이 충전되는데, 이 정도면 무료 계정으로도 충분히 고퀄리티의 실험적인 콘텐츠를 만들어내기에 부족함이 없습니다.\n  전문가의 팁 하나 전해드려요!\n처음 접속하신 후 '새 프로젝트'를 클릭해 채팅창을 열어보세요. 오른쪽 설정 메뉴에 들어가면 이미지의 비율(예: 16:9, 9:16)뿐만 아니라 한 번에 생성할 이미지 개수까지 세밀하게 조절할 수 있습니다. 여러 장을 한꺼번에 뽑아보면서 가장 마음에 드는 결과물을 골라내는 재미가 쏠쏠합니다.\n에이전트 기능과 부분 수정의 마법 같은 조화\n플로우의 진정한 매력은 에이전트(Agent) 기능에서 나옵니다. 미리 특정 요청 사항이나 스타일 가이드를 에이전트로 등록해두고 스위치처럼 껐다 켰다 할 수 있거든요. 예를 들어 '90년대 지브리 애니메이션 감성'과 '미래적인 사이버펑크 느낌'을 각각 에이전트로 등록해두었다고 칩시다. 같은 프롬프트를 입력해도 어떤 에이전트를 활성화하느냐에 따라 결과물은 하늘과 땅 차이가 됩니다. \"비 내리는 거리의 강아지\"라고 쳤을 때, 지브리 에이전트는 따뜻하고 몽글몽글한 수채화 느낌을 주지만, 사이버펑크 에이전트는 네온 사인이 번쩍이는 차가운 도시 분위기를 만들어내죠.\n이미지 편집 기능은 또 어떻고요? 생성된 이미지를 클릭해 편집 모드에 들어가면 부분 수정(In-painting) 기능이 기다리고 있습니다. 그림 속 인물의 옷 색깔이 마음에 안 드시나요? 그럼 옷 부분만 슥슥 칠하고 \"빨간색 원피스로 바꿔줘\"라고 입력해 보세요. 순식간에 자연스럽게 바뀝니다. 배경에 뜬금없이 나타난 쓰레기통을 지우고 싶을 때도 선택 도구로 콕 찍어 \"지워줘\"라고 하면 감쪽같이 사라집니다. 이제 복잡한 포토샵 공부 없이도 누구나 완벽한 그림을 완성할 수 있게 된 셈입니다.\n왜 2026년에도 여전히 구글 플로우가 대세인가?\n시중에는 미드저니, 스테이블 디퓨전 등 정말 훌륭한 AI 이미지 생성기들이 많습니다. 그럼에도 불구하고 왜 제가 구글 플로우를 강력하게 추천할까요? 이유는 명확합니다. 사용성, 경제성, 그리고 결과물의 일관성 때문입니다.\n구분\n기존 AI 이미지 앱\n구글 플로우 (FLOW)\n\n\n\n\n비용\n월정액(2~4만원대) 또는 건당 과금\n이미지 생성 0 크레딧 (압도적 무료)\n\n\n캐릭터 유지\n복잡한 로라(LoRA) 학습 필요\n캐릭터 등록 후 @ 호출로 얼굴 유지\n\n\n사용 난이도\n프롬프트 엔지니어링 공부 필수\n대화하듯 도구를 만들어 쓰는 직관성\n\n\n\n특히 웹툰 작가나 SNS 운영자들에게 가장 고통스러운 부분이 바로 '캐릭터의 일관성'일 텐데요. 구글 플로우는 이 문제를 아주 우아하게 해결했습니다. 좌측 메뉴의 캐릭터 탭에서 내 주인공의 얼굴을 딱 한 번만 제대로 등록해두면 됩니다. 그다음부터는 채팅창에서 @캐릭터이름을 입력하기만 하면, 어떤 배경이든 어떤 상황이든 똑같은 얼굴의 주인공을 소환할 수 있습니다. \"@철수가 카페에서 울고 있어\"라고 치면 바로 철수의 얼굴로 슬픈 장면이 생성되는 거죠. 정말 대단하지 않나요?\n나만의 웹툰 & 인스타 캐러셀 생성기 제작기\n자, 이제 더 깊숙이 들어가 볼까요? 유료 구독자의 경우 '도구' 메뉴에서 본인만의 워크플로우를 가진 앱을 빌드할 수 있습니다. 구글 AI 스튜디오의 플레이그라운드를 활용하면 더욱 정교한 로직을 짤 수 있는데요, 제미나이 모델을 불러와서 \"구글 플로우 도구 제작을 위한 시스템 프롬프트를 작성해줘\"라고 요청해 보세요. 그렇게 얻은 프롬프트를 플로우 도구 설정창에 붙여넣기만 하면 전문가급 생성기가 탄생합니다.\n⚠️ 반드시 기억해야 할 주의사항!\n창작의 열정에 취해 짧은 시간 동안 너무 많은 생성 요청을 보내면 안 됩니다. 구글 시스템에서 24시간 사용 정지 경고를 보낼 수 있거든요. 도구를 설계할 때 AI에게 미리 \"사용자 요청 속도를 조절하거나, 생성량 제한 오류를 방지하기 위한 예방 메시지를 띄워줘\"라고 명령해두는 것이 안전합니다. 저도 처음에 이거 몰랐다가 하루 동안 접속 못 해서 얼마나 답답했는지 몰라요.\n\n\n제가 직접 만든 AI 웹툰 스튜디오는 제목과 시놉시스, 그리고 캐릭터의 외형 묘사만 넣으면 끝입니다. AI가 알아서 회차별 시나리오를 쓰고, 각 컷에 들어갈 구도를 제안하며, 캐릭터 시트까지 생성해 줍니다. 컷 수를 선택하고 '일괄 생성'을 누르면 한 편의 웹툰이 차르르 그려지는데, 완성된 컷들을 세로로 길게 이어 붙여 저장하는 기능까지 넣었더니 바로 연재를 시작해도 될 수준이더라고요.\n\n\n인스타 캐러셀(카드뉴스) 제작기도 제 효자 도구입니다. 정보성 콘텐츠의 주제만 던져주면, AI가 사람들의 시선을 끌 만한 헤드라인을 뽑고 각 장에 들어갈 핵심 문구와 배경 이미지까지 한 번에 기획해 줍니다. 텍스트의 크기나 배치, 색감도 제 취향대로 미세하게 조정할 수 있어서 디자인 감각이 부족한 저 같은 사람에게는 정말 구세주 같은 존재죠.\n모두에게 열린 도구 공유와 배포의 즐거움\n혹시 \"나는 유료 구독자가 아닌데 어쩌지?\"라고 걱정하시나요? 그러실 필요 전혀 없습니다! 도구를 직접 '설계'하는 건 유료 기능이지만, 다른 사람이 정성껏 만들어 공유한 도구를 가져다 쓰는 것은 무료 계정으로도 얼마든지 가능하거든요. 제가 오늘 배포해 드리는 'BASIC' 버전 도구들만으로도 웹툰과 카드뉴스를 만드는 데 전혀 지장이 없습니다. 더 깊이 있는 기능이 필요하다면 그때 가서 프로 버전을 고민해 보셔도 늦지 않습니다.\n  한눈에 보는 핵심 요약\n1. 구글 플로우는 제미나이 엔진 기반의 차세대 AI 창작 스튜디오입니다.\n2. 이미지 생성 크레딧 소모가 0이어서 사실상 무제한 무료 창작이 가능합니다.\n3. 캐릭터 등록 및 에이전트 시스템으로 일관성 있는 작품 활동을 지원합니다.\n4. 바이브 코딩을 통해 누구나 자신만의 앱을 만들고 공유할 수 있는 열린 환경입니다.\n※ 다음 포스팅에서는 플로우를 활용한 고퀄리티 뮤직비디오 제작법을 심도 있게 다뤄보겠습니다. 기대해 주세요!\n❓ 자주 묻는 질문 (FAQ)\nQ: 무료 계정은 정말로 무제한 생성이 가능한가요?\nA: 네, 현재 정책상 '나노바나' 모델 계열을 사용하면 이미지 생성 크레딧은 차감되지 않습니다. 다만 매일 아침 충전되는 50 크레딧은 영상 생성 시에만 소모되니, 이미지는 마음껏 만드셔도 됩니다!\nQ: 제가 만든 멋진 도구를 친구에게 선물하고 싶어요.\nA: 정말 좋은 생각입니다! 도구 편집 화면 우측 상단에 '공유' 버튼이 있습니다. 거기서 링크를 복사해 친구에게 전달하면, 친구도 본인의 구글 계정으로 그 도구를 즉시 사용할 수 있습니다.\nQ: 캐릭터 얼굴이 미묘하게 자꾸 바뀌어서 고민입니다.\nA: 그럴 땐 플로우의 '캐릭터' 메뉴에서 정면, 측면 등 기준이 될 만한 사진을 먼저 등록해 보세요. 그리고 프롬프트 입력 시 꼭 @ 기호를 써서 해당 캐릭터를 먼저 소환한 뒤 동작을 묘사하면 훨씬 안정적인 결과가 나옵니다.\nFLOW 무료 도구 사용하기 (무료버전)\n여러분도 지금 바로 제가 만든 도구들을 사용해보실 수 있도록 무료 버전을 공유해 드립니다. 아래 링크를 통해 접속하셔서 여러분만의 창의력을 마음껏 발휘해 보세요!\n  AI 웹툰 스튜디오 BASIC\nhttps://labs.google/fx/tools/flow/shared/tool/3a1aadbd-3273-479b-a140-fd18c27acf07\n  인스타 Carousel Basic\nhttps://labs.google/fx/tools/flow/shared/tool/5c819d8f-a48e-421a-952f-7e2468de5419\n지금까지 구글 플로우를 활용해 비용 부담 없이 고퀄리티 콘텐츠를 만드는 법에 대해 자세히 알아보았습니다. 정말 세상이 빠르게 변하고 있다는 게 실감 나지 않나요? 불과 몇 년 전만 해도 상상만 하던 일이 이제는 손가락 몇 번 움직이는 것으로 현실이 되고 있습니다. 제가 공유해 드린 도구들이 여러분의 창작 활동에 작은 보탬이 되었으면 좋겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483724",
+    "pubDate": "Mon, 8 Jun 2026 09:18:40 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "AI웹툰생성기",
+      "AI창작스튜디오",
+      "AI캐릭터일관성",
+      "geminiai",
+      "GoogleFlow",
+      "구글랩스",
+      "구글플로우",
+      "나노바나모델",
+      "무료이미지생성",
+      "인스타카드뉴스제작"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "성공하는 유튜버의 90일 법칙: 알고리즘 학습을 위한 데이터 축적 전략",
+    "description": "유튜브 채널을 개설하고 가장 먼저 마주하는 벽은 차가운 조회수입니다. 하지만 초기 성장의 핵심은 단순한 숫자가 아니라, 유튜브 알고리즘이 내 채널의 정체성을 어떻게 학습하느냐에 달려 있습니다. 90일간의 데이터 축적 전략을 통해 흔들리지 않는 채널의 기틀을 잡는 법을 상세히 공개합니다.\n\n\n초기 조회수의 함정과 데이터 품질의 진실\n유튜브를 처음 시작하면 누구나 0이라는 숫자에 좌절하곤 합니다. 저 역시 처음 채널을 열었을 때, 며칠이 지나도록 한 자리 숫자에 머무는 조회수를 보며 \"내가 만든 영상이 그렇게 별로인가?\"라는 생각에 밤잠을 설치기도 했습니다. 하지만 이 시기에 우리가 가장 경계해야 할 것은 숫자에 대한 집착입니다. 사실 초기 유튜브 운영은 단순한 조회수 싸움이 아니라, 알고리즘에게 내 채널의 전공 분야를 가르치는 알고리즘 학습 싸움이기 때문입니다.\n유튜브 시스템은 신생 채널을 보자마자 그 성격을 완벽하게 파악하지 못합니다. 제목, 설명, 썸네일, 그리고 초기 시청자들의 반응을 종합하여 이 채널이 누구에게 필요한 콘텐츠인지를 천천히 데이터로 쌓아갑니다. 보통 초기 10개에서 30개 정도의 영상은 일종의 테스트 구간이라고 보시면 됩니다. 이 구간에서 중요한 것은 1,000명의 무작위 시청자가 아니라, 내 영상을 끝까지 봐줄 정확한 타깃 시청자 100명의 데이터입니다.\n만약 이 소중한 시기에 주제와 무관한 사람들이 들어와서 짧게 보고 나간다면 어떻게 될까요? 유튜브는 여러분의 채널을 \"클릭은 유발하지만 만족도는 낮은 채널\" 혹은 \"타깃이 불분명한 채널\"로 오해하게 됩니다. 결국 첫 단추를 잘못 끼우면 알고리즘이 엉뚱한 사람들에게 내 영상을 추천하게 되고, 성장은 더욱 더뎌지는 악순환에 빠지게 됩니다. 조회수가 낮더라도 시청 지속시간이 잘 나오는 영상을 분석하고, 그 패턴을 유지하며 다음 영상을 만드는 것이 초기 성장의 핵심 원칙입니다.\n의리 시청과 맞구독이 채널의 성장을 가로막는 이유\n우리는 주변의 응원을 먹고 사는 존재들입니다. 그래서 채널을 열자마자 가족 단톡방에 링크를 뿌리고, 친한 친구들에게 \"한 번만 봐달라\"고 부탁하죠. 심지어 오픈 채팅방에서 이른바 품앗이나 맞구독을 하며 숫자를 늘리려 애쓰기도 합니다. 하지만 냉정하게 말씀드리자면, 이러한 행동은 내 소중한 채널에 독을 타는 것과 같습니다.\n\n\n알고리즘은 \"응원해서 눌러준 사람\"과 \"콘텐츠가 진심으로 좋아서 끝까지 본 사람\"을 정확히 구분해냅니다. 여러분의 부모님이나 친구들이 여러분의 주제에 관심이 없다면, 그들은 의리상 클릭은 해주겠지만 1분도 채 되지 않아 창을 닫을 확률이 높습니다. 이 짧은 이탈 신호는 유튜브에게 \"이 영상은 볼 가치가 없다\"는 강력한 부정적 신호를 전달합니다. 결국 숫자는 잠깐 올라가겠지만, 알고리즘 추천이라는 로켓을 탈 기회는 점점 멀어지게 됩니다.\n특히 맞구독으로 모인 사람들은 다음 영상을 절대 보지 않습니다. 구독자 수는 1,000명인데 조회수는 10회도 안 나오는 채널들이 바로 이런 과정을 거친 결과물입니다. 새 영상을 올렸을 때 구독자 반응률이 떨어지면, 유튜브는 그 영상을 죽은 영상으로 판단합니다. 차라리 주제에 진심인 작은 커뮤니티나 검색 키워드 최적화에 힘쓰는 것이 낫습니다. 진짜 타깃 시청자가 반응하는 순수한 데이터만이 알고리즘을 춤추게 한다는 사실을 잊지 마세요.\n성공적인 외부 공유 전략: 양보다 질에 집중하라\n물론 외부 공유 자체가 나쁜 것은 아닙니다. 유튜브도 외부 유입을 환영하죠. 다만 그 공유의 성패는 유입량이 아니라 유입된 시청자의 질로 결정됩니다. 카페나 커뮤니티에 무턱대고 링크를 올리면 호기심 클릭은 많이 발생합니다. 하지만 그 커뮤니티 성격과 영상 주제가 맞지 않는다면 곧바로 이탈이 발생하고, 이는 채널의 신뢰도를 갉아먹습니다.\n좋은 공유는 타깃이 명확한 곳에서 이루어져야 합니다. 예를 들어 개발 관련 채널이라면 개발자들이 모인 기술 커뮤니티에, 캠핑 채널이라면 캠핑 장비 정보가 오가는 카페에 영상을 소개해야 합니다. 반대로 주제와 무관한 단톡방이나 맞구독방은 최악의 선택입니다. 조회수가 갑자기 폭등했는데 평균 시청 시간이 급락했다면, 즉시 공유 위치를 점검해야 합니다.\n유튜브의 궁극적인 목표는 사용자를 플랫폼 안에 오래 머무르게 하는 것입니다. 그래서 한 영상의 조회수뿐만 아니라, 그 영상이 다음 시청으로 자연스럽게 이어지는지가 매우 중요합니다. 시리즈형 영상을 기획하거나 플레이리스트를 만들어 시청자가 내 채널 안에서 파도타기를 하도록 유도하세요. 체류 시간은 알고리즘이 여러분을 '슈퍼 루키'로 점찍게 만드는 가장 강력한 지표입니다.\n스크롤을 멈추게 하는 썸네일과 상황 중심 제목\n초보 유튜버들이 가장 많이 하는 실수 중 하나가 썸네일을 '예쁘게' 만드는 데 집중하는 것입니다. 하지만 썸네일은 예술 작품이 아닙니다. 0.5초 안에 스크롤을 멈추게 하는 멈춤력을 가진 도구여야 합니다. 글자는 크게, 핵심 단어만 남기고, 색상 대비를 강하게 주어 시선을 낚아채야 합니다. 시청자가 영상을 클릭한 후 얻게 될 결과를 직관적으로 보여주는 것이 무엇보다 중요합니다.\n제목은 키워드 나열이 아닌 상황의 제안입니다\n제목 역시 마찬가지입니다. 단순히 검색 키워드만 나열하는 것은 기계적입니다. 독자가 \"왜 지금 이 영상을 틀어야 하는지\"에 대한 명확한 이유를 제시해야 합니다. 예를 들어 '신나는 트로트 모음'보다는 '고속도로에서 졸음 깨는 트로트 테크노 플레이리스트'가 훨씬 강력합니다. 사람은 정보를 클릭하는 것이 아니라, 자신이 처한 상황에 반응하여 클릭하기 때문입니다.\n90일간의 리듬: 왜 꾸준함이 알고리즘을 이기는가\n\n\n유튜브는 단순한 물량 공세보다 반복 가능한 리듬을 훨씬 좋아합니다. 일주일에 영상을 7편 몰아서 올리고 한 달을 쉬는 채널보다는, 주 2편씩이라도 꾸준히 고정된 시간에 올리는 채널을 유튜브 시스템은 훨씬 신뢰합니다. 이는 시청자에게도 마찬가지입니다. 정해진 시간에 영상이 올라온다는 신뢰를 줄 때, 비로소 구독자들은 여러분의 채널을 자신의 생활 루틴에 포함시키게 됩니다.\n특히 채널 개설 후 초반 90일은 같은 방향으로 뚝심 있게 밀어붙여야 하는 시기입니다. 영상 몇 개 올리고 반응이 없다고 해서 제목, 장르, 타깃을 계속 바꾸면 알고리즘은 혼란에 빠집니다. \"이 채널은 도대체 누구를 위한 채널이지?\"라는 의문이 생기는 순간, 추천 알고리즘의 학습은 초기화됩니다. 90일이라는 시간은 알고리즘이 시청자 패턴을 학습하고, 시리즈 추천 구조가 형성되며, 재방문 데이터가 축적되는 데 필요한 최소한의 숙성 기간입니다.\n유튜브 초반은 재능의 싸움이 아닙니다. 얼마나 끈기 있게 유의미한 데이터를 축적하느냐의 싸움입니다. 주 2~3회 업로드를 꾸준히 유지하며 90일을 버텨보세요. 그 과정에서 쌓인 숫자들이 여러분의 채널이 나아가야 할 진정한 나침반이 되어줄 것입니다.\n데이터 진단과 냉정한 방향 설정\n90일이 지났다면 이제 감정이 아닌 숫자로 채널을 진단해야 합니다. 많은 분들이 \"조금만 더 하면 될 것 같다\"는 막연한 기대감으로 시간을 쏟지만, 데이터는 거짓말을 하지 않습니다. 특히 최근에는 쇼츠(Shorts)와 롱폼 영상의 알고리즘 구조가 완전히 다르기 때문에, 이를 분리해서 분석하는 능력이 필수적입니다.\n내 영상이 쇼츠에서만 터지는지, 아니면 롱폼에서 시청 지속시간이 높게 나오는지 파악하고 포맷별 생존 가능성을 냉정하게 따져봐야 합니다. 유지할 부분은 강화하고, 안 되는 영상 스타일은 과감히 정리하는 결단이 필요하죠. 초기 유튜브 운영은 사람을 단순히 많이 모으는 게임이 아니라, \"누가 내 콘텐츠에 진심으로 만족했는가\"를 찾아내는 과정임을 명심하세요.\n  성공적인 채널 성장을 위한 5대 금기 사항\n ️ 품앗이 절대 금지: 가짜 조회수는 채널의 체력을 깎아먹습니다.\n  맞구독 금지: 반응 없는 유령 구독자는 알고리즘 추천을 방해합니다.\n  무분별한 공유 자제: 주제와 무관한 곳에 링크를 뿌리지 마세요.\n  의리 시청 최소화: 관심 없는 지인보다는 진짜 팬 1명을 찾으세요.\n  타깃 시청자 집중: 유튜브가 내 채널을 정확히 학습하게 하세요.\n더 자세한 운영 전략과 노하우가 궁금하신가요?\n  [GPT PARK 전자책 모음 바로가기]\n자주 묻는 질문 (FAQ)\nQ1: 지인들에게 채널을 아예 알려주지 말아야 하나요?\nA: 아니요, 완전히 숨길 필요는 없습니다. 다만 내 콘텐츠의 주제에 실제로 관심이 있고 영상을 끝까지 시청해줄 가능성이 높은 지인에게만 선별적으로 공유하는 것이 좋습니다.\nQ2: 조회수가 며칠째 0인데 영상에 문제가 있는 걸까요?\nA: 초기에는 지극히 정상입니다. 알고리즘이 아직 당신의 채널을 탐색하는 중입니다. 최소 10개 이상의 영상을 같은 방향성으로 올리며 데이터를 쌓는 기간이 필요합니다.\nQ3: 썸네일 디자인 실력이 부족한데 어떡하죠?\nA: 화려한 디자인보다 가독성과 호기심 유발이 중요합니다. 무료 디자인 툴을 활용하되, 글자를 굵고 크게 배치하여 스마트폰 화면에서도 한눈에 들어오게 만드세요.\nQ4: 90일이 지났는데도 성장이 없다면 접어야 하나요?\nA: 무조건 포기하기보다 데이터를 먼저 보세요. 클릭률은 높은데 시청 지속시간이 낮은지, 혹은 노출 자체가 안 되는지 분석하여 전략적인 수정을 거친 후 다시 도전해보는 것을 권장합니다.\n\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"지인들에게 채널을 아예 알려주지 말아야 하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"아니요, 완전히 숨길 필요는 없습니다. 다만 내 콘텐츠의 주제에 실제로 관심이 있고 영상을 끝까지 시청해줄 가능성이 높은 지인에게만 선별적으로 공유하는 것이 좋습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"조회수가 며칠째 0인데 영상에 문제가 있는 걸까요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"초기에는 지극히 정상입니다. 알고리즘이 아직 당신의 채널을 탐색하는 중입니다. 최소 10개 이상의 영상을 같은 방향성으로 올리며 데이터를 쌓는 기간이 필요합니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"썸네일 디자인 실력이 부족한데 어떡하죠?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"화려한 디자인보다 가독성과 호기심 유발이 중요합니다. 무료 디자인 툴을 활용하되, 글자를 굵고 크게 배치하여 스마트폰 화면에서도 한눈에 들어오게 만드세요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"90일이 지났는데도 성장이 없다면 접어야 하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"무조건 포기하기보다 데이터를 먼저 보세요. 클릭률은 높은데 시청 지속시간이 낮은지, 혹은 노출 자체가 안 되는지 분석하여 전략적인 수정을 거친 후 다시 도전해보는 것을 권장합니다.\"\n      }\n    }\n  ]\n}",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483723",
+    "pubDate": "Thu, 4 Jun 2026 15:08:33 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "90일 법칙",
+      "데이터 축적",
+      "맞구독 금지",
+      "시청 지속시간",
+      "유튜버 성장",
+      "유튜브 수익화",
+      "유튜브 썸네일",
+      "유튜브 알고리즘",
+      "유튜브 초기 전략",
+      "조회수 올리기"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "토스, 서민금융진흥원과 '휴면예금 되찾기' 서비스 출시",
+    "description": "휴면예금을 토스 앱에서 한 번에 조회·신청",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/50351",
+    "pubDate": "Thu, 04 Jun 2026 23:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2026.1.3 Is Out!",
+    "description": "We’ve just released IntelliJ IDEA 2026.1.3. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update brings the following improvements: For a comprehensive overview of the fixes, see the release notes. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/06/intellij-idea-2026-1-3/",
+    "pubDate": "Thu, 04 Jun 2026 13:24:16 +0000",
+    "creator": "Julia Shashkova",
+    "categories": [
+      "releases"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "노가다는 AI에게",
+    "description": "요즘 자주 보이는 마케팅.\n\n\n\n\n발전, 성취감 대신 지루함만 느끼기 십상이라 사람들은  대부분 단순 반복 작업을 싫어한다. AI가 해주면 땡큐지. 단순하고 반복적인 작업은 AI에게 맡기고 사람은 창의성을 발휘하자는, 너무나 이상적인 카피라 귀에 쏙쏙 들어온다. 그런데 마뜩지 않다. 현실을 왜곡할 수도 있기 때문.\n\n\n\n\n모두 모델링을 하고 싶어하고 데이터 작업은 피해요\n\n\n\nAI가 처리해준 결과를 보고 우아하게 판단만 내리면 된다는 뉘앙스를 주는 저 카피를 100% 믿는 이가 얼마나 될지는 모르겠지만, 일단 대부분의 데이터는 (단순 반복이 아니라) 복잡 반복 노가다 과정을 필요로 한다.\n\n \n\nData Refinery from Myounghun Kang\n\n설령 단순한 데이터를 단순한 목적으로 분석하는 상황이라 해도 AI에게 작업을 맡기는 과정은 그리 녹록지 않다. 결국 자동화를 하겠다는 건데, 자동화의 전제 조건은 동일 입력, 동일 출력. 입력이 같다면 출력도 항상 같아야 한다. LLM 기반 에이전트는 입력이 같아도 출력이 달라질 수 있다. 사용자 역량이 중요해지는 대목.\n\n\n어떤 역량?\n\n\n2000년대 초 쉘스크립트를 열심히 공부하던 시기가 있었다. 사실 스크립트란 게 간단히 정의하면 명령어 나열 이상도 이하도 아니라서 각 명령어를 한 줄씩 실행해보고 정상 동작하면 그대로 이어붙이기만 하면 된다.  \n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n\n#! /bin/sh\n# File Download\ncd /home/hosting\nwget ftp://192.168.56.1/pub/linux/src/apache/apache_1.3.27.tar.gz\nwget ftp://192.168.56.1/pub/linux/src/php/php-4.1.2.tar.gz\nwget ftp://192.168.56.1/pub/linux/src/sql/mysql-3.23.55.tar.gz\n \n# Source File unzipping\ntar xvzf apache_1.3.27.tar.gz\ntar xvzf mysql-3.23.55.tar.gz\ntar xvzf php-4.1.2.tar.gz\n \n# MySQL 3.23.55 Install\ncd /home/hosting/mysql-3.23.55\n./configure --prefix=/usr/local/mysql --with-charset=euc_kr\nmake\nmake install\ncd /usr/local/mysql\n./bin/mysql_install_db\n./bin/safe_mysqld -u root --language=korean &\n \n# Apache 1.3.27 Configuring\ncd /home/hosting\ncd apache_1.3.27\n./configure --prefix=/home/httpd\n \n# PHP 4.1.2 Install\ncd /home/hosting\nmv /home/hosting/php-4.1.2 /usr/local/php\ncd /usr/local/php\n./configure --with-apache=/home/hosting/apache_1.3.27 --with-mysql=/usr/local/mysql --enable-track-vars\nmake\nmake install\ncp /usr/local/php/php.ini-dist /usr/local/lib/php.ini\n \n# Apache 1.3.27 Install\ncd /home/hosting/apache_1.3.27\n./configure --prefix=/home/httpd --activate-module=src/modules/php4/libphp4.a\nmake\nmake install\ncd /home/hosting\n \n# /etc/rc.d/rc.local File Editting\necho \"# Apache Start\" >> /etc/rc.d/rc.local\necho \"/home/httpd/bin/apachectl start\" >> /etc/rc.d/rc.local\necho \"# MySQL Start\" >> /etc/rc.d/rc.local\necho \"/usr/local/mysql/bin/safe_mysqld -u root --language=korean &\" >> /etc/rc.d/rc.local\n \n# PHP Test file Create\necho \"<? phpinfo() ?>\" >> /home/httpd/htdocs/test.php\n/home/httpd/bin/apachectl start\n\nColored by Color Scripter\ncs\n\n\n\n그런데 다양한 명령어 조합을 통해 원하는 최종 결과를 얻으려면 당연히 단계별 명령어들의 역할과 순서를 명확히 알고 있어야 한다. 자동화를 하려면 수작업으로 전체 작업 과정을 최종 목적에 맞게 제어하는 경험이 먼저라는 얘기.\n\n\n작업 제어만 가능하면 해피엔딩? \n\n잘 정리된 표와 시각화한 그래픽 등의 결과물은 겉으로는 화려하다. 결과물만 보고는 컴퓨터가 다 알아서 하고 사람은 뭘 한 것인지 궁금해하는 사람들도 있다. 하지만 컴퓨터는 생각보다 융통성이 없다. 지정된 형식에 맞지 않으면 데이터를 전혀 읽어 들이지 못한다... 여기서 끝이 아니다. 데이터를 만든다고 반드시 의미가 있지는 않다. 데이터는 스스로 말하지 않기 때문에 처리된 데이터를 해석할 수 있어야 한다.\n\n\n다음은 예전에 재미로 구해본 대통령 후보자별 상대 후보 언급 비율. 몇 시간 끙끙대며 노가다를 했던 기억이 난다.\n\n\n\n\n2017 대선 토론\n\n\n이젠 AI 딸깍 한 방으로 끝(..)\n\n\n\n\n\n그런데 이 결과를 그대로 믿어도 되는 걸까? 버젓이 실수할 수 있다 경고하고 있는데? AI는 아직 100% 정확도를 보장하지 않는다. AI가 틀려도 내가 책임지겠다는 마인드가 아니라면, AI의 작업 결과를 검증할 수 있어야 발등 찍히지 않는다는 얘기. \n\n검증은 어떻게?\n\n\n코끼리를 본 적이 없으면 AI가 코가 없는 코끼리를 그려도 문제를 깨닫지 못한다. 원본 데이터의 구조와 의미를 알고 있을 때, 결국 스스로 분석할 수 있을 때 AI 작업 결과에 의미를 부여할 수 있다. \n\n\n\n\n\n데이터를 분석하려면 엘라스틱이나 스플렁크가 아닌 데이터를 잘 알아야 한다. (의미 파악은 기본이고) 전체적인 구조는 어떤지, 내 목적에 맞는 범위는 어딘지, 그 범위의 데이터를 어떻게 가공해야 원하는 분석이 가능한지에 대한 감을 잡을 수 있어야 한다. 이런 감각을 일깨워주는 가장 확실한 방법은 결국 데이터를 직접 만져보는 것. \n\n\n\n\n데이터를 직접 만지는 과정에서 (특히 실수를 깨닫는 과정에서) 데이터의 새로운 특징이나 데이터를 바라보는 새로운 시각을 얻을 수도 있다. 서울대 교수가 데이터 노가다를 강조하는 이유.\n\n학생들은 기업 프로젝트를 시작할 때 80% 정도의 우아한 작업과 20% 정도의 잡일로 구성될 거라고 기대한다. 막상 프로젝트를 시작해보면 정반대다. 프로젝트의 80% 정도는 ‘노가다 ’가 차지한다. 잡일을 대하는 태도와 엔지니어의 수준은 밀접한 관련이 있다. 잡일 단계에 들 때마다 좌절하고 지루해하면 초보이거나 적성이 맞지 않는 엔지니어다. 고급 엔지니어의 ‘내공’은 과거에 경험한 이런 궂은일의 축적에서 나온다.\n\n\n\n\n반복 노가다를 좋아하는 사람은 아무도 없다. 하지만 노가다를 통해 원하는 결과를 가져오는 전체 과정을 직접 경험해야만 노가다를 줄일 수 있는 방법을 알게 된다.\n\n\n\n관련 글\n\n데이터 분석(이라 쓰고 노가다라 읽는다)\n연애와 데이터 분석의 공통점\n데이터 노가다 실수담",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/06/ai.html",
+    "pubDate": "2026-06-02T11:54:41.845Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "실전의 중요성",
+    "description": "요새 한국의 주식 시장은 정말 뜨겁다 못해 활활 타오르고 있다. 나도 한국과 미국 주식을 약간 보유하고 있지만, 큰 연구나 분석 없이 내가 좋아하는 기업의 주식을 사기 때문에 한국의 public 시장에 대해서는 잘 모르지만, 조만간 코스피가 1만을 돌파할 수도 있을 것 같다는 생각을 요샌 한다. 연일 뉴스와 소셜미디어에서는 주식 분석가들이 삼성전자와 SK하이닉스에 대한 본인들의 이론과 전략을(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/06/stop-analyzing-and-start-doing.html",
+    "pubDate": "Wed, 03 Jun 2026 21:25:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "doing",
+      "FoundersAtWork",
+      "grit",
+      "hustle",
+      "korea",
+      "wharton"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "양자컴퓨터 투자 해야합니다. / 2026",
+    "description": "정확히는 2025 년 젠슨황 양자컴퓨터 30년 걸린다 이야기후 폭락했을 시점에 해야했습니다.\n당시 젠슨황은 엔비디아 제품이 양자컴퓨터 시뮬레이터에 사용되는지 모르고 있었다고 합니다.\n그래서 아무말 대단치를 한다음 \n당시 그 행사 주최측 대부분은 양자컴퓨터를 개발 중이여서 \n여차저차 해서 젠슨황을 설득하고 이 상황이 되었습니다.\n \n최근엔 한국에서도 양자 컴퓨터 관련 논문을 쏟아내고 있고 아무튼 이전엔 될지 안될지 몰랐다면\n이젠 되는데 얼마 걸리는지는 모르겠다 정도로 상황이 좋아졌습니다.\n \n일단 양자컴퓨터가 개발되면 통신부분 암호가 문제가 되기 때문에\n모든 통신 장비가 변경되어야합니다.\n(거의 스마트폰으로 바뀌는 느낌으로 모두 바껴야합니다.)\n신약 개발에 당연히 쓰이구요\n신물질 찾는데도 사용하구요\n투자 프로그램에도 사용한다고 합니다.\n \n개발환경에  엔비비디아 GPU 가 시뮬레이터로 필요하구요\n개발언어는 여기저기 따로 개발 중입니다.\n \n현재 양자컴퓨터 방식은 큐비트를 늘리기 힘들기 때문에 돌아간다 정도로 만족해야하고\n광자 컴퓨터 정도되면 만 큐비드를 넘길 수 있을 것 같습니다.\n \n사건 사고로는 비트코인이 털리는 일이 발생해야하구요\n \n이런 일들이 결국 발생할꺼고 그때마다 엄청나게 뜰 것입니다.\n그러니 안좋은 지금 미리미리 투자해야할 것입니다.\n \n \n \n \n영상: https://www.youtube.com/watch?v=O6aX4tkZZJ8\n\n\n\n \n \n영상에 장표 나오는거 캡쳐해둡니다.\n\n\n \nSK텔레콤 열심히 봐둬야겠습니다.\n컨티넘 QNT\n디웨이브 QBTS\n나 ETF 등으로 투자해야겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1658",
+    "pubDate": "Thu, 4 Jun 2026 21:04:11 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "투자",
+      "양자컴퓨터"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
     "title": "하드씽",
     "description": "작년 한 해, 책에 가장 많이 밑 줄을 그은 책이다.\n(올해는 김형석 대표님의 B밀의 숲이 될 것 같다.)\n사람을 만나 일에 대해 대화를 나누다 보면 가끔 \"무엇이 제일 어렵냐\"는 질문을 받곤 한다.\n좋은 사람을 어떻게 뽑을 것인가, 나쁜 지표를 어떻게 개선할 것인가, 고객의 요구를 어떻게 제품으로 바꿀 것인가 등등 여러가지가 떠오르지만, 그것들을 다 종합하면 결국 하나였던 것 같다.  \n\"실행에 옮기는 것.\"  \n해야 한다는 것을 이미 알고 있는데, 내가 직접 해야 해서 미뤄둔 일들이 더 오래 남았다.\n불편한 피드백을 해야 하는데 다음 기회로 넘긴 일,\n지표가 더 오르지 않는데도 여전히 그걸 붙잡고 있는 일,\n한 사람에게 미안해서 더 많은 사람의 시간을 쓰게 한 일.  \n\"어려운 일은 방법을 몰라서 어려운 것이 아니다.\n이미 알고 있는 일을 내가 직접 해야 해서 어렵다.\" \n\"하드씽\"은 이 문장에 대한 긴 사례집처럼 읽혔다.\n책에는 성공한 창업자의 멋진 장면보다, 회사를 살리기 위해 숨고 싶었던 순간들이 더 많이 등장한다.\n고객 요구와 반대 방향으로 제품을 재창조해야 했던 순간,\n직원을 해고한 뒤 회사 앞에 모습을 드러내야 했던 순간,\n닷컴 붕괴 속에서 나쁜 신호를 변명으로 덮고 싶었던 순간들.\n벤 호로위츠가 보여주는 어려움은 낯선 정답을 찾는 일이 아니라, 이미 보이는 현실을 외면하지 않는 일에 가까웠다.\n책을 읽으며 가장 오래 남은 것은 \"사람은 좋은 소식의 선행지표에는 행동하고, 나쁜 소식의 선행지표에는 변명을 찾는다\"는 대목이었다.\n좋은 숫자는 실력으로 받아들이고, 나쁜 숫자는 아직 때가 아니라고 말한다.\n그렇게 자기 자신을 설득하는 동안 문제는 사라지지 않고 더 비싼 비용을 요구하며 돌아온다.\n해고와 임원 교체에 대한 장도 같은 이유로 마음이 무거웠다.\n한 사람에게 미안해서 결정을 미루는 동안, 그 밑에서 일하는 직원들은 어떤 시간을 보내고 있는지,\n팀의 기준이 조용히 내려가고 있고,\n좋은 사람들이 침묵하고,\n조직 전체가 비용을 나눠 지불하고 있는 데도 한 사람에 대한 미안함으로 결정을 미루게 된다.\n\"당신의 의리는 직원들을 향해야 한다\"는 문장이 이걸 표현한 것 같다. \n나는 지금 어떤 일을 방법이 없다는 말로 포장하고 있을까?\n사실은 이미 알고 있는데, 내가 직접 해야 해서 미뤄둔 일은 무엇일까?\n좋은 리더가 되는 일은 더 많은 답을 아는 일보다, 이미 알고 있는 일을 덜 도망치는 일에 더 가까울지도 모르겠다.\n책 속 문장\n3장\n\n혁신을 추구하는 개발자는 가능한 모든 요소를 고려할 수는 있지만 종종 ‘고객 요구에 부합된다고’ 여겨지는 것과 반대 방향으로 나가야 한다.\n결국 혁신에는 지식과 기술과 용기가 모두 필요하다.\n그리고 때로는 회사의 설립자만이 데이터를 무시할 용기를 발휘할 수 있다.\n우리에겐 시간이 별로 없었고, 따라서 내가 나서야 했다.\n나는 이렇게 말했다.\n\"기존 고객들의 요구사항은 신경 쓸 필요 없습니다. 제품을 혁신해 재창조하는 것이, 그래서 우리가 경쟁에서 이기는 것이 더 중요합니다.\"\n\n4장\n\n[문제를 숨겨서 곪게 내두지 마라]\n어떤 인간관계에서도 소통에 필요한 대화의 양은 신뢰의 수준에 반비례한다.\n만약 내가 당신을 완벽하게 신뢰한다면, 당신이 무엇을 하는 나는 별다른 해명이나 의사소통을 요구하지 않는다.\n...\n직원들이 근본적으로 CEO를 신뢰한다면, 그렇지 않을 때보다 의사소통이 훨씬 효율적으로 이뤄질 것이다.\n이러한 신뢰를 키우기 위한 가장 핵심적인 지침은 \"있는 그대로\" 말하는 것이다.\n해결책을 찾도록 문제를 공개하는 사람을 처벌하지 않고 포상하는 문화를 형성하라.\n\n\n\n[직원을 해고하는 올바른 방법]\n1단계 : 마음을 단단히 먹고 미래를 바라보라\n2단계 : 지체하지 마라\n3단계 : 원인을 명확히 하라 : 신뢰관계를 다시 만들어 가려면 무엇보다 실패를 자인하는 것이 우선이다\n4단계 : 관리자들을 대비시켜라 : 모든 관리자가 자신의 부하직원에게 직접 해고통보를 해야 한다.\n5단계 : 회사전체에 알려라\n6단계 : 숨지말고 모습을 드러내라\n\n\n\n[임원을 해고하는 올바른 방법]\n애초에 해당임원의 직위를 제대로 정의하지 못했다 : 무엇을 원하는지 모르면 원하는 것을 얻을 가능성은 제로에 가깝다. (중략) 이런 실수는 중증 능력과 자질이 직위의 한계치지 않는 엉뚱한 영입으로 이어지게 된다.\n강점이 무엇이냐가 아니라 약점이 얼마나 없는지에 초점을 맞췄다 : 결국 당신은 별다른 약점은 없지만, 특히 필요로 하는 부분과 관련해서는 그저 그런 능력을 지닌 임원을 영입하게 된다. 당신이 필요로 하는 부분에서 세계 정상급의 강점을 갖추지 못하면 회사 역시 세계 정상급이 될 수 없다.\n포괄적 업무를 엉뚱히 두고 뽑았다  \n해당 임원이 적절치 않은 야망을 품었다  \n해당임원은 조직을 통합하는데 실패했다  \n너무 일찍 거물을 영입했다 : 당신은 향후 18개월 동안 해당 직위를 충실히 수행할 수 있는 인물을 뽑아야 한다. 미래에는 엄청난 능력을 발휘할 수 있지만, 처음 18개월 동안에는 별다른 기회를 갖지 못할 인물을 영입하는 것은 곤물이다.\n\n\n\n[패배자들이 흔히 하는 거짓말]\n\"우리가 따내는 거였는데, 저들이 아주 헐값으로 치고 들어오는 바람에... 고객은 기술을 보고 우리를 택했고 우리가 더 나은 회사라고 생각하지만, 경쟁사가 그냥 막 공짜나 다름없는 가격으로 제품을 넘기는데 어떻게 하냐고요.\n우리는 그렇게 싸게 넘기면서 이름에 먹칠할 수는 없잖아요\"\n세일즈팀을 운영해본 사람이라면 이런 겆시말을 들어본 적이 있을 것이다.\n실상은 그냥 패배다.\n경쟁에 들어가 격렬히 싸우다 졌을 뿐이다.\n하지만 자신에게 책망이 돌아오길 원치 않는 세일즈 담당자는 경쟁사에서 나온 '중고차 딜러 같은' 담당자에게 비난의 화살을 쏟아붓는다.\n...\n닷컴 붕괴의 여파가 기승을 떨전 2001년, 대형 기술 기업 모두가 분기 목표에 큰 폭으로 미달하기 시작했을 때 나는 왜 아무도 이런 상황을 예상하지 못했는지, 어떻게 이 뻔한 결과를 미리 보지 못했는지 궁금했다.\n...\n나는 앤디 그로브에게 왜 이 위대한 CEO들이 자신들의 임박한 운명에 대해 거짓말을 했는지 궁금하기 짝이 없다고 물었다.\n앤디는 그들이 투자자들에게 거짓말을 한 것이 아니라고, 그보다는 자기 자신들에게 거짓말을 한 것이라고 대답했다.\n인간은, 특히 뭔가를 이루길 원하는 인간은 오직 좋은 소식의 선행지표에만 귀를 기울인다고 앤디는 설명했다.\n예를 들어 어떤 CEO가 자사의 애플리케이션 사용율이 통상적인 월간 성장률을 뛰어넘어 25퍼센트 증가했다는 보고를 들었다고 치자.\n그는 흥분된 마음으로 당장 더 많은 엔지니어를 고용하는 등 임박한 수요 폭증에 보조를 맞출 채비를 갖출 것이다.\n이번에는 같은 CEO가 그 사용률이 25퍼센트 하락했다는 보고를 들었다고 치자.\n그는 마찬가지로 격렬한 긴박감을 느끼며 서둘러 해명 방안을 찾을 것이다.\n...\n우리의 가상 CEO(사실 거의 모든 CEO와 닮은꼴이다)는 긍정적인 선행지표에 대해서는 행위만을 취했고, 부정적인 선행지표에 대해서는 변명만을 찾았다.\n\n\n\n회사를 구축해나갈 때에는 언제든 해법이 있다고 믿어야지 그것을 찾을 확률에 주의를 기울여서는 안 된다.\n그냥 찾아내야 한다는 얘기다.\n90퍼센트든 0.1퍼센트든 확률은 중요치 않다.\nCEO의 임무는 언제든 똑같다.\n\n5장\n\n그간 이런저런 경험을 통해 내가 깨달은 사실이 하나 있었다.\n그것은 바로 임원을 영입할 때는 콜린 파월의 말대로 \"약점이 적은 사람이 아니라 강점이 많은 사람\"을 택해야 한다는 것이다.\n...\n별다른 위기가 없는 평시와 날마다 목숨을 지키기 위해 싸워야 하는 전시에 우리가 경험하는 세상은 완전히 다르다.\n\n6장\n\n당신은 어쩌면 승진과 직위에 그렇게 많은 시간을 쏟으며 심혈을 기울이는 것은 어리석은 형식주의에 지나치게 역점을 두는 일이라고 생각할지도 모른다. 정반대다.\n직위와 승진과 관련해 세심하게 계획된 엄격한 프로세스가 없다면, 직원들은 그 결과로 초래되는 불공평에 집착하게 될 것이다.\n...\n회사는 팀을 이뤄 함께 노력하는 곳이다. 직원의 잠재력이 아무리 크다 할지라도 그가 신뢰할 수 있는 방식으로 업무를 수행하지 않는 한 진가를 이끌어내는 것은 불가능하다.\n...\n하지만 무에서 유를 창조하길 원한다면, 리스크를 감수하고 시간과의 싸움에서 이겨야 한다. 이는 최고의 재능과 지식, 경험을 손에 넣어야만 한다는 뜻이다.\n\n8장\n\n기준을 설정할 때는 너무 멀리 내다봐서는 안 된다.\n앞으로 2년 후에 어떤 임무를 맡게 될지를 기준으로 임원을 판단하는 것은 불필요한 일이며 좋은 아이디어도 아니다.\n그건 그때 가서 생각할 문제다.\n지금 있는 자리에서 어떤 성과를 내고 있는가를 토대로 임원을 평가하라.\n...\n답은 \"당신의 의리는 직원들을 향해야 한다\"는 것이다.\n즉 임원진 밑에서 일하는 직원들, 엔지니어링, 마케팅, 세일즈, 재무, 인사 등을 맡고 있는 직원들 말이다.\n당신에게는 그들이 최고 수준의 경영진 밑에서 일하도록 해줄 의무가 있다.\n그것이 먼저다.\n\n9장\n\n처음 CEO가 되었을 때 나는 나만 악전고투하고 있다고 생각했다.\n다른 회사의 CEO들을 만나 보면 다들 모든 걸 지혜롭게 통제하고 있는 듯 보였다.\n그들의 사업은 언제나 기막히게 잘 풀리고 있었고 그들의 경험은 놀라운 수준이었다.\n...\n그러나 주변 CEO들의 기막히게 놀라운 회사가 파산에 이르고 헐값에 매각되는 것을 지켜보면서, 나는 나만 악전고투 하고 있는 게 아니라는 사실을 차츰 깨달았다.\n\n\n\n우리 할아버지 묘비에는 그가 좋아하던 마르크스(Karl Marx)의 “삶은 악전고투다.”라는 말이 적혀 있다.\n내 생각엔 이 말에 기업가 정신에 관한 가장 중요한 교훈이 담겨 있는 것 같다.\n악전고투를 껴안으라는 교훈 말이다",
     "reviews": [],
@@ -21,158 +180,39 @@
     ]
   },
   {
-    "id": 2,
+    "id": 11,
     "imageUrl": "",
-    "title": "Stop Pasting Tokens: OAuth2 Login for JetBrains IDE Plugins",
-    "description": "The moment a plugin needs account data, a simple API call turns into an authentication problem. The bad shortcut is familiar: ask the user to create a personal access token (PAT), make them paste it into settings, and hope it never leaks. For a JetBrains IDE plugin, use this flow instead: the user clicks the […]",
+    "title": "WPF Hot Reload Is Here: Edit Your XAML and Watch It Update Live in Rider",
+    "description": "WPF Hot Reload is now available in Rider, starting with the 2026.2 EAP 2 build. You can edit your XAML while your app is running under the debugger and see the changes immediately, with no rebuild, no restart, and no losing your place in the application. Together with the C# Hot Reload support that’s already […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/06/stop-pasting-tokens-oauth2-login-for-jetbrains-ide-plugins/",
-    "pubDate": "Mon, 01 Jun 2026 13:46:25 +0000",
-    "creator": "Jakub Chrzanowski",
+    "link": "https://blog.jetbrains.com/dotnet/2026/06/03/wpf-hot-reload-in-jetbrains-rider/",
+    "pubDate": "Wed, 03 Jun 2026 08:59:33 +0000",
+    "creator": "Sasha Ivanova",
     "categories": [
-      "intellij-platform",
-      "plugins",
-      "authentication",
-      "oauth2",
-      "plugin-development"
+      "net-tools",
+      "rider",
+      "eap",
+      "hot-reload",
+      "xaml-2"
     ]
   },
   {
-    "id": 3,
+    "id": 12,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 53화, 이사장인데스와",
-    "description": "No description available",
+    "title": "Kotlin 2.4.0 Released",
+    "description": "The Kotlin 2.4.0 release is out! Here are the main highlights: For the complete list of changes, refer to What’s new in Kotlin 2.4.0 or the release notes on GitHub. How to install Kotlin 2.4.0 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To update to […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2461",
-    "pubDate": "Wed, 03 Jun 2026 20:36:59 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/kotlin/2026/06/kotlin-2-4-0-released/",
+    "pubDate": "Wed, 03 Jun 2026 10:14:55 +0000",
+    "creator": "Sarah Haggarty",
     "categories": [
-      "웹툰"
+      "releases"
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-    "description": "Trained from scratch and designed for practical deployment, Mellum2 is built for routing, Q&A, sub-agents, and private AI use in software engineering systems. Today, we’re open-sourcing Mellum2, a 12B model engineered to solve the hardest parts of production AI: latency, throughput, and cost. Built from scratch and released under the Apache 2.0 license, Mellum2 offers […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-    "pubDate": "Mon, 01 Jun 2026 12:57:50 +0000",
-    "creator": "Anton Semenkin",
-    "categories": [
-      "news",
-      "releases",
-      "ai",
-      "mellum",
-      "open-source"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "노가다는 AI에게",
-    "description": "요즘 자주 보이는 마케팅.\n\n\n\n\n발전, 성취감 대신 지루함만 느끼기 십상이라 사람들은  대부분 단순 반복 작업을 싫어한다. AI가 해주면 땡큐지. 단순하고 반복적인 작업은 AI에게 맡기고 사람은 창의성을 발휘하자는, 너무나 이상적인 카피라 귀에 쏙쏙 들어온다. 그런데 마뜩지 않다. 현실을 왜곡할 수도 있기 때문.\n\n\n\n\n모두 모델링을 하고 싶어하고 데이터 작업은 피해요\n\n\n\nAI가 처리해준 결과를 보고 우아하게 판단만 내리면 된다는 뉘앙스를 주는 저 카피를 100% 믿는 이가 얼마나 될지는 모르겠지만, 일단 대부분의 데이터는 (단순 반복이 아니라) 복잡 반복 노가다 과정을 필요로 한다.\n\n \n\nData Refinery from Myounghun Kang\n\n설령 단순한 데이터를 단순한 목적으로 분석하는 상황이라 해도 AI에게 작업을 맡기는 과정은 그리 녹록지 않다. 결국 자동화를 하겠다는 건데, 자동화의 전제 조건은 동일 입력, 동일 출력. 입력이 같다면 출력도 항상 같아야 한다. LLM 기반 에이전트는 입력이 같아도 출력이 달라질 수 있다. 사용자 역량이 중요해지는 대목.\n\n\n어떤 역량?\n\n\n2000년대 초 쉘스크립트를 열심히 공부하던 시기가 있었다. 사실 스크립트란 게 간단히 정의하면 명령어 나열 이상도 이하도 아니라서 각 명령어를 한 줄씩 실행해보고 정상 동작하면 그대로 이어붙이기만 하면 된다.  \n\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n\n#! /bin/sh\n# File Download\ncd /home/hosting\nwget ftp://192.168.56.1/pub/linux/src/apache/apache_1.3.27.tar.gz\nwget ftp://192.168.56.1/pub/linux/src/php/php-4.1.2.tar.gz\nwget ftp://192.168.56.1/pub/linux/src/sql/mysql-3.23.55.tar.gz\n \n# Source File unzipping\ntar xvzf apache_1.3.27.tar.gz\ntar xvzf mysql-3.23.55.tar.gz\ntar xvzf php-4.1.2.tar.gz\n \n# MySQL 3.23.55 Install\ncd /home/hosting/mysql-3.23.55\n./configure --prefix=/usr/local/mysql --with-charset=euc_kr\nmake\nmake install\ncd /usr/local/mysql\n./bin/mysql_install_db\n./bin/safe_mysqld -u root --language=korean &\n \n# Apache 1.3.27 Configuring\ncd /home/hosting\ncd apache_1.3.27\n./configure --prefix=/home/httpd\n \n# PHP 4.1.2 Install\ncd /home/hosting\nmv /home/hosting/php-4.1.2 /usr/local/php\ncd /usr/local/php\n./configure --with-apache=/home/hosting/apache_1.3.27 --with-mysql=/usr/local/mysql --enable-track-vars\nmake\nmake install\ncp /usr/local/php/php.ini-dist /usr/local/lib/php.ini\n \n# Apache 1.3.27 Install\ncd /home/hosting/apache_1.3.27\n./configure --prefix=/home/httpd --activate-module=src/modules/php4/libphp4.a\nmake\nmake install\ncd /home/hosting\n \n# /etc/rc.d/rc.local File Editting\necho \"# Apache Start\" >> /etc/rc.d/rc.local\necho \"/home/httpd/bin/apachectl start\" >> /etc/rc.d/rc.local\necho \"# MySQL Start\" >> /etc/rc.d/rc.local\necho \"/usr/local/mysql/bin/safe_mysqld -u root --language=korean &\" >> /etc/rc.d/rc.local\n \n# PHP Test file Create\necho \"<? phpinfo() ?>\" >> /home/httpd/htdocs/test.php\n/home/httpd/bin/apachectl start\n\nColored by Color Scripter\ncs\n\n\n\n그런데 다양한 명령어 조합을 통해 원하는 최종 결과를 얻으려면 당연히 단계별 명령어들의 역할과 순서를 명확히 알고 있어야 한다. 자동화를 하려면 수작업으로 전체 작업 과정을 최종 목적에 맞게 제어하는 경험이 먼저라는 얘기.\n\n\n작업 제어만 가능하면 해피엔딩? \n\n잘 정리된 표와 시각화한 그래픽 등의 결과물은 겉으로는 화려하다. 결과물만 보고는 컴퓨터가 다 알아서 하고 사람은 뭘 한 것인지 궁금해하는 사람들도 있다. 하지만 컴퓨터는 생각보다 융통성이 없다. 지정된 형식에 맞지 않으면 데이터를 전혀 읽어 들이지 못한다... 여기서 끝이 아니다. 데이터를 만든다고 반드시 의미가 있지는 않다. 데이터는 스스로 말하지 않기 때문에 처리된 데이터를 해석할 수 있어야 한다.\n\n\n다음은 예전에 재미로 구해본 대통령 후보자별 상대 후보 언급 비율. 몇 시간 끙끙대며 노가다를 했던 기억이 난다.\n\n\n\n\n2017 대선 토론\n\n\n이젠 AI 딸깍 한 방으로 끝(..)\n\n\n\n\n\n그런데 이 결과를 그대로 믿어도 되는 걸까? 버젓이 실수할 수 있다 경고하고 있는데? AI는 아직 100% 정확도를 보장하지 않는다. AI가 틀려도 내가 책임지겠다는 마인드가 아니라면, AI의 작업 결과를 검증할 수 있어야 발등 찍히지 않는다는 얘기. \n\n검증은 어떻게?\n\n\n코끼리를 본 적이 없으면 AI가 코가 없는 코끼리를 그려도 문제를 깨닫지 못한다. 원본 데이터의 구조와 의미를 알고 있을 때, 결국 스스로 분석할 수 있을 때 AI 작업 결과에 의미를 부여할 수 있다. \n\n\n\n\n\n데이터를 분석하려면 엘라스틱이나 스플렁크가 아닌 데이터를 잘 알아야 한다. (의미 파악은 기본이고) 전체적인 구조는 어떤지, 내 목적에 맞는 범위는 어딘지, 그 범위의 데이터를 어떻게 가공해야 원하는 분석이 가능한지에 대한 감을 잡을 수 있어야 한다. 이런 감각을 일깨워주는 가장 확실한 방법은 결국 데이터를 직접 만져보는 것. \n\n\n\n\n데이터를 직접 만지는 과정에서 (특히 실수를 깨닫는 과정에서) 데이터의 새로운 특징이나 데이터를 바라보는 새로운 시각을 얻을 수도 있다. 서울대 교수가 데이터 노가다를 강조하는 이유.\n\n학생들은 기업 프로젝트를 시작할 때 80% 정도의 우아한 작업과 20% 정도의 잡일로 구성될 거라고 기대한다. 막상 프로젝트를 시작해보면 정반대다. 프로젝트의 80% 정도는 ‘노가다 ’가 차지한다. 잡일을 대하는 태도와 엔지니어의 수준은 밀접한 관련이 있다. 잡일 단계에 들 때마다 좌절하고 지루해하면 초보이거나 적성이 맞지 않는 엔지니어다. 고급 엔지니어의 ‘내공’은 과거에 경험한 이런 궂은일의 축적에서 나온다.\n\n\n\n\n반복 노가다를 좋아하는 사람은 아무도 없다. 하지만 노가다를 통해 원하는 결과를 가져오는 전체 과정을 직접 경험해야만 노가다를 줄일 수 있는 방법을 알게 된다.\n\n\n\n관련 글\n\n데이터 분석(이라 쓰고 노가다라 읽는다)\n연애와 데이터 분석의 공통점\n데이터 노가다 실수담",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/06/ai.html",
-    "pubDate": "2026-06-02T11:54:41.845Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "100년 마인드셋",
-    "description": "로블록스의 공동창업가이자 현대 대표이사인 David Baszuki는 이 회사를 2002년도에 창업해서 현재 24년째 운영하고 있다. 많은 창업가가 사업을 어느 정도의 궤도까지 올려놓은 후에 본인이 만든 회사를 떠나거나, 아니면 현업에서 손을 떼고, 개인적인 관심사에 더 많은 시간과 돈을 쓰는데, 이 분은 오늘도 24년 전과 비슷한 에너지로 사업에 집착한다는 게 정말 놀랍다. 그리고 앞으로 로블록스를 몇 년 더(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/06/building-with-a-100-year-mindset.html",
-    "pubDate": "Sun, 07 Jun 2026 21:31:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "compounding",
-      "consistency",
-      "FoundersAtWork",
-      "grit",
-      "hustle",
-      "people",
-      "Strong",
-      "vc"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Java Annotated Monthly – June 2026 ",
-    "description": "A fresh edition of Java Annotated Monthly has landed! The world of software development keeps moving at full speed, and this month’s selection helps you keep up without drowning in tabs. Inside, you’ll find hand-picked articles, podcasts, videos, and thought-provoking reads covering Java, Kotlin, AI, and the technologies shaping the next generation of development. Grab […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/06/java-annotated-monthly-june-2026/",
-    "pubDate": "Fri, 05 Jun 2026 10:46:22 +0000",
-    "creator": "Irina Mariasova",
-    "categories": [
-      "ai",
-      "java",
-      "kotlin",
-      "news",
-      "spring-2",
-      "java-annotated",
-      "java-annotated-monthly"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Why Zig Isn’t 1.0 (Yet)",
-    "description": "Most programming languages follow a familiar trajectory: early experimental releases, rapid iteration, and then – at some point – a 1.0 version that signals stability and the potential for serious adoption. Zig hasn’t followed that well-trodden path. What could be the reason? Andrew Kelley quit his job in 2018 to build a programming language. Eight […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/06/05/why-zig-isn-t-1-0-yet/",
-    "pubDate": "Fri, 05 Jun 2026 13:49:27 +0000",
-    "creator": "James Hilton",
-    "categories": [
-      "community",
-      "developer-recognition",
-      "ecosystem",
-      "interviews",
-      "language-design",
-      "languages",
-      "andrewkelley",
-      "clanguage",
-      "github",
-      "opensource",
-      "programming",
-      "rust",
-      "systems-programming",
-      "zig",
-      "ziglang"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "What’s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements",
-    "description": "Microsoft Build kicks off today in San Francisco, June 2 and 3. If you cannot make it in person, the sessions are streaming online for free, and I want to walk you through what we are announcing for Visual Studio this week. One idea tie most of it together. Code is an asset, not just […]\nThe post What’s Coming Next in Visual Studio: Our Microsoft Build 2026 Announcements appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/whats-coming-next-in-visual-studio-our-microsoft-build-2026-announcements/",
-    "pubDate": "Tue, 02 Jun 2026 17:10:39 +0000",
-    "creator": "Mads Kristensen",
-    "categories": [
-      "Visual Studio",
-      "Announcement",
-      "Build",
-      "Git",
-      "GitHub Copilot",
-      "Modernization"
-    ]
-  },
-  {
-    "id": 10,
+    "id": 13,
     "imageUrl": "",
     "title": "When history fails you, borrow from geography",
     "description": "No description available",
@@ -190,81 +230,34 @@
     ]
   },
   {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Kotlin 2.4.0 Released",
-    "description": "The Kotlin 2.4.0 release is out! Here are the main highlights: For the complete list of changes, refer to What’s new in Kotlin 2.4.0 or the release notes on GitHub. How to install Kotlin 2.4.0 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To update to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/06/kotlin-2-4-0-released/",
-    "pubDate": "Wed, 03 Jun 2026 10:14:55 +0000",
-    "creator": "Sarah Haggarty",
-    "categories": [
-      "releases"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "RustWeek 2026: What We Learned, Who We Met, and What’s Next for Rust",
-    "description": "RustWeek 2026 brought more than 900 Rust developers, educators, and maintainers to Utrecht, Netherlands, for a few days of talks, hallway conversations, community meetups, hackathons, and workshops about all things Rust. As a Gold sponsor for the third year in a row, the RustRover team joined the event to support the Rust ecosystem, connect with […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/06/03/rustrover-at-rustweek-2026/",
-    "pubDate": "Wed, 03 Jun 2026 11:46:01 +0000",
-    "creator": "Irina Mihajlovic",
-    "categories": [
-      "community",
-      "rustrover",
-      "conference",
-      "event",
-      "rust",
-      "rust-ide"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "유니티 농장 애셋 / 무료",
-    "description": "받아놓고 까먹지 않으려고 남겨둡니다.\n \n요거는 간단한 애셋입니다.\n애셋 - Farm props pack | 3D Exterior | Unity Asset Store\n\n \nFarm props pack | 3D 외부소품 | Unity Asset Store\nElevate your workflow with the Farm props pack asset from mr_isometric. Find this & other 외부소품 options on the Unity Asset Store.\nassetstore.unity.com\n\n \n \n그리고 요거는 알챈애셋\n애셋 - Pandazole - Farm Ranch low poly Pack | 3D Props | Unity Asset Store\n\n \nPandazole - Farm Ranch low poly Pack | 3D 소품 | Unity Asset Store\nElevate your workflow with the Pandazole - Farm Ranch low poly Pack asset from Pandazole. Find this & other 소품 options on the Unity Asset Store.\nassetstore.unity.com\n\n저는 요개 좋습니다.\n전부 다 있군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1662",
-    "pubDate": "Sat, 6 Jun 2026 19:38:28 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "프로그래밍/유니티 에셋 리뷰",
-      "유니티",
-      "유니티애셋"
-    ]
-  },
-  {
     "id": 14,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2025.3.6 Is Out!",
-    "description": "IntelliJ IDEA 2025.3.6 is now available with the latest Oracle critical patch update for Java 21. The update includes the corresponding JetBrains Runtime changes and fixes the issue [IDEA-389015], providing improved reliability and security. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a […]",
+    "title": "악역영애 4컷 만화 - 53화, 이사장인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/06/intellij-idea-2025-3-6/",
-    "pubDate": "Wed, 03 Jun 2026 13:12:33 +0000",
-    "creator": "Julia Shashkova",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2461",
+    "pubDate": "Wed, 03 Jun 2026 20:36:59 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "releases"
+      "웹툰"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "AI 모델을 아무리 키워도 넘을 수 없는 선이 있다.",
-    "description": "위의 에니메이션은 오른쪽으로 갈 수록 모델을 크기가 커지는 것이고\n아래로 내려갈 수록 오류가 얼마나 줄어드는가를 표시한 것입니다.\n모델을 계속 키우면 좋아진다고 알았던 기존의 이론을 뒤집는 논리가 나왔군요\n \n아무리 모델을 키워도 나아지지 않는 선을 발견했나봅니다.\n \n영상: https://www.youtube.com/watch?v=QkPeMzr3Qz4\n\n\n\n \n아예 다른 모델이 필요한 때가 왔군요",
+    "title": "Async VFS Content Writes – What Plugin Authors Need to Know",
+    "description": "Some plugin code follows this pattern: Historically, it was reasonable to assume that once the save finishes, the file on disk already contains the latest editor text. That is no longer guaranteed. The IntelliJ Platform can now update the VFS first and finish the disk write in the background a bit later. Code that reads […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1656",
-    "pubDate": "Wed, 3 Jun 2026 20:25:25 +0900",
-    "creator": "SID-NFT",
+    "link": "https://blog.jetbrains.com/platform/2026/06/async-vfs-content-writes-what-plugin-authors-need-to-know/",
+    "pubDate": "Wed, 03 Jun 2026 20:20:10 +0000",
+    "creator": "Jakub Chrzanowski",
     "categories": [
-      "유튜브",
-      "인공지능"
+      "intellij-platform",
+      "plugins",
+      "plugin-development",
+      "vfs"
     ]
   }
 ]
