@@ -2,17 +2,35 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "토스, 서민금융진흥원과 '휴면예금 되찾기' 서비스 출시",
-    "description": "휴면예금을 토스 앱에서 한 번에 조회·신청",
+    "title": "Scaling beyond one: How Airbnb evolved its data architecture for a multi-product world",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/50351",
-    "pubDate": "Thu, 04 Jun 2026 23:00:00 GMT",
+    "link": "https://medium.com/airbnb-engineering/scaling-beyond-one-how-airbnb-evolved-its-data-architecture-for-a-multi-product-world-6125645d470c?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 09 Jun 2026 17:01:02 GMT",
+    "creator": "Patrick Lam",
+    "categories": [
+      "data-engineering",
+      "analytics-engineering",
+      "technology",
+      "data-modeling",
+      "data-architecture"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "esql timezone - 2nd",
+    "description": "esql이 나온지도 2년. 좀 좋아졌나 싶어 오랜만에 써봤는데, 일단 GMT 기준으로 계산되던 시간 문제는 해결된 듯.\n\n\n\n\n그 외엔 변화가 없는 것 같다. 첫 번째 진입장벽은 필요한 테이블 구조를 만들 때 관련 구문을 매번 입력하는 구조. 스플렁크의 계산필드 기능 추가 시급. 설마 런타임필드 기능 쓰라는 건가?\n\n\n\n\n두 번째는 계산 간격 수동 조정. 자동 조정해달라.\n\n\n\n\n\n세 번째, replace 함수에서 역참조 지원해달라.\n\n\n\n그냥 구문 자동 줄바꿈 기능이라도 빨리 좀(..)\n\n\n관련 글\n\nesql timezone\nElasticsearch 8.11의 변화",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/06/esql-timezone-2nd.html",
+    "pubDate": "2026-06-07T03:43:12.256Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 2,
+    "id": 3,
     "imageUrl": "",
     "title": "레거시 프로젝트에서 AI 드리븐 프로젝트로 전환, AX 로드맵",
     "description": "들어가며\"AI를 쓰면 생산성이 오른다는데, 우리 팀은 어디서부터 시작해야 하지?\"라는 고민을 해보신 적 있나요? 기존 레거시 프로젝트를 AI 드리븐 프로젝트(AI-driven pr...",
@@ -24,39 +42,60 @@
     "categories": []
   },
   {
-    "id": 3,
+    "id": 4,
     "imageUrl": "",
-    "title": "Java Annotated Monthly – June 2026 ",
-    "description": "A fresh edition of Java Annotated Monthly has landed! The world of software development keeps moving at full speed, and this month’s selection helps you keep up without drowning in tabs. Inside, you’ll find hand-picked articles, podcasts, videos, and thought-provoking reads covering Java, Kotlin, AI, and the technologies shaping the next generation of development. Grab […]",
+    "title": "Fewer False Alarms, Better Coding Flow in RustRover 2026.2",
+    "description": "False positives interrupt your workflow. In RustRover 2026.1, we reduced them by up to 25% in real projects, so you’ll see fewer misleading warnings, more relevant suggestions, and smoother completion. Read on to learn what causes false positives and how we’ve been fixing them. What are false positives? The term false positive is used in […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/06/java-annotated-monthly-june-2026/",
-    "pubDate": "Fri, 05 Jun 2026 10:46:22 +0000",
-    "creator": "Irina Mariasova",
+    "link": "https://blog.jetbrains.com/rust/2026/06/09/fewer-false-positives-rustrover/",
+    "pubDate": "Tue, 09 Jun 2026 11:35:00 +0000",
+    "creator": "Manuel Ceron",
     "categories": [
-      "ai",
-      "java",
-      "kotlin",
-      "news",
-      "spring-2",
-      "java-annotated",
-      "java-annotated-monthly"
+      "rustrover",
+      "false-positives"
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "imageUrl": "",
-    "title": "100년 마인드셋",
-    "description": "로블록스의 공동창업가이자 현대 대표이사인 David Baszuki는 이 회사를 2002년도에 창업해서 현재 24년째 운영하고 있다. 많은 창업가가 사업을 어느 정도의 궤도까지 올려놓은 후에 본인이 만든 회사를 떠나거나, 아니면 현업에서 손을 떼고, 개인적인 관심사에 더 많은 시간과 돈을 쓰는데, 이 분은 오늘도 24년 전과 비슷한 에너지로 사업에 집착한다는 게 정말 놀랍다. 그리고 앞으로 로블록스를 몇 년 더(...)",
+    "title": "유니티 농장 애셋 / 무료",
+    "description": "받아놓고 까먹지 않으려고 남겨둡니다.\n \n요거는 간단한 애셋입니다.\n애셋 - Farm props pack | 3D Exterior | Unity Asset Store\n\n \nFarm props pack | 3D 외부소품 | Unity Asset Store\nElevate your workflow with the Farm props pack asset from mr_isometric. Find this & other 외부소품 options on the Unity Asset Store.\nassetstore.unity.com\n\n \n \n그리고 요거는 알챈애셋\n애셋 - Pandazole - Farm Ranch low poly Pack | 3D Props | Unity Asset Store\n\n \nPandazole - Farm Ranch low poly Pack | 3D 소품 | Unity Asset Store\nElevate your workflow with the Pandazole - Farm Ranch low poly Pack asset from Pandazole. Find this & other 소품 options on the Unity Asset Store.\nassetstore.unity.com\n\n저는 요개 좋습니다.\n전부 다 있군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/06/building-with-a-100-year-mindset.html",
-    "pubDate": "Sun, 07 Jun 2026 21:31:00 +0000",
+    "link": "https://serverdown.tistory.com/1662",
+    "pubDate": "Sat, 6 Jun 2026 19:38:28 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "프로그래밍/유니티 에셋 리뷰",
+      "유니티",
+      "유니티애셋"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "운영하지 않는 Kafka, EasyQueue를 소개합니다",
+    "description": "![소개글 배너](https://image.toast.com/aaaadh/real/2026/techblog/NHNCloudmeetupbannereasyqueue202606900.png)\r\r\n\r\r\n# 운영하지 않는 Kafka, EasyQueue를 소개합니다\r\r\n\r\r\nKafka를 직접 띄워보신 적 있으신가요. 처음에는 \"이거 그냥 `docker compose up` 하면 되는 거 아냐?\"로 가볍게 시작합니다. 그러다 운영 환경으로 옮기는 순간 일이 달라지죠. 브로커는 몇 대로 띄울지, 디스크는 어떻게 잡을지, 복제본 수와 리텐션은 얼마로 잡을지, 백업·모니터링·알람은 또 어떻게 붙일지로 일주일이 사라집니다. 어느새 본업은 Kafka 운영이 되어 있습니다.\r\r\n\r\r\n그렇다고 클라우드의 관리형 서비스로 도망치자니, 이번엔 다른 고민이 시작됩니다. 기존 Kafka 클라이언트 코드는 그대로 쓸 수 있는지, 토픽 설정은 직접 손댈 수 있는지, 컨슈머 Lag 같은 운영 지표는 어떻게 볼 것인지. \"관리형\"이라는 단어가 어디까지를 관리해 주는지가 늘 애매했습니다.\r\r\n\r\r\nNHN Cloud의 **EasyQueue**는 이 두 고민의 가운데에서 출발했습니다. 클러스터 운영은 우리에게 맡기되, Kafka 본연의 유연함은 그대로 사용자에게 돌려주자는 것. 이번 글에서는 그 사이의 균형을 어떻게 잡았는지, 그리고 EasyQueue가 어떤 분들께 잘 맞는 서비스인지를 풀어보려고 합니다.\r\r\n\r\r\n## EasyQueue가 차지하는 자리\r\r\n\r\r\nEasyQueue는 NHN Cloud가 운영하는 Apache Kafka 클러스터 위에 토픽을 만들어 바로 메시지를 주고받을 수 있게 해 주는 **완전관리형 Apache Kafka 서비스**입니다. 클러스터 설치·노드 추가·보안 패치·모니터링은 NHN Cloud가 맡고, 토픽 설계와 파티션 수, 컨슈머 그룹처럼 Kafka 본연의 유연함은 그대로 사용자가 제어할 수 있도록 설계되어 있어요. 현재 **베타 단계**로, 한국 판교·평촌 두 리전에서 사용할 수 있습니다. 한 줄로 줄이면 *\"Kafka는 그대로 쓰되, 운영은 하지 않는 Kafka\"* — 그게 EasyQueue의 자리입니다.\r\r\n\r\r\n## 관리형과 Kafka 사이, 어디에 선을 그었나\r\r\n\r\r\nEasyQueue를 만들면서 가장 먼저 정한 건 **사용자가 직접 다룰 영역과, 저희가 떠맡을 영역 사이의 선**이었습니다. 클러스터 띄우기, 노드 추가, 보안 패치, 메트릭 수집 — 이건 누가 봐도 \"운영\"의 영역이고, 사용자가 매번 신경 쓸 일이 아닙니다. 반면 토픽을 어떻게 설계할지, 파티션을 몇 개로 나눌지, 프로듀서와 컨슈머를 어떻게 구성할지는 서비스 로직에 직접 연결되는 부분이에요. 그래서 선을 분명하게 그었습니다. **클러스터 운영은 NHN Cloud가, 토픽 안쪽은 사용자가.**\r\r\n\r\r\n이 선을 정하고 나니 다음 결정이 자연스럽게 따라왔습니다. \"그럼 클러스터는 어떻게 구성할 것인가?\" 후보는 두 가지였어요. 사용자마다 전용 클러스터를 띄워 주는 방식과, 여러 사용자가 한 클러스터를 함께 쓰는 **공용 클러스터** 방식. EasyQueue는 후자를 골랐습니다. \"쓰고 싶을 때 즉시 토픽을 만들고, 안 쓰면 비용도 거의 들지 않는\" 경험을 가장 가깝게 만드는 길이었기 때문입니다. 물론 트레이드오프는 분명히 있어요. 공용 클러스터 모델은 한 토픽에 매우 큰 부하가 몰리는 대용량 워크로드에는 한계가 있을 수 있습니다.\r\r\n\r\r\n같은 맥락에서 EasyQueue는 의식적으로 **사용 제한**을 두고 있습니다. 토픽과 파티션의 사용 가능한 수는 프로젝트마다 일정 범위로 제한되어 있습니다. 처음 들으면 아쉽게 느껴질 수 있는데, 공용 클러스터 모델에서는 가장 합리적인 선택이에요. 한 사용자가 토픽 수백 개를 한꺼번에 만들면 같은 클러스터를 쓰는 다른 사용자의 성능에 영향이 갑니다. 토픽 수 제한은 이걸 사전에 막는 가드레일인 셈입니다. 더 많은 토픽이 필요하다면 고객지원으로 문의 주시면 늘려드리고, 토픽당 파티션 수도 필요에 따라 확장할 수 있어요.\r\r\n\r\r\n## 매일의 운영을 가볍게 만드는 것들\r\r\n\r\r\n### 콘솔에서 클릭 몇 번, 토픽이 뜹니다\r\r\n\r\r\n새 토픽을 만든다는 건 Kafka를 처음 다룰 때 가장 막막한 순간 중 하나입니다. CLI로 만들려면 어떤 명령을 호출해야 하는지, 클러스터 주소는 어디에 써야 하는지, 권한과 인증은 어디까지 풀어야 하는지를 거쳐야 비로소 토픽이 생기죠. EasyQueue는 이 과정을 콘솔의 화면 하나로 줄였어요. 이름, 파티션 수, 메시지 저장 기간(리텐션) 같은 항목만 정하면 사용할 수 있는 토픽이 만들어집니다. 운영 안정성에 직결되는 복제본 수(3)와 최소 동기화 복제본 수(2)는 기본값으로 미리 설정되어 있어, 토픽을 어떻게 안전하게 구성해야 할지 따로 고민하지 않아도 됩니다. 수정과 삭제도 같은 흐름이라, 토픽의 수명주기 전체가 콘솔 안에서 정리됩니다.\r\r\n\r\r\n![토픽 생성 화면](https://image.toast.com/aaaadh/real/2026/techblog/CreateTopicshadow.png)\r\r\n\r\r\n### kafka-console-producer 없이도 테스트가 됩니다\r\r\n\r\r\n토픽을 만들고 나면 다들 비슷한 동작을 합니다. 메시지가 잘 들어가는지, 잘 빠지는지를 일단 한 번 찔러보고 싶죠. 보통은 `kafka-console-producer`로 한 줄 보내고, `kafka-console-consumer`로 받아 보는 흐름입니다. EasyQueue는 이 작업을 콘솔에서 바로 할 수 있게 해 두었습니다. 토픽 상세 화면의 **메시지 전송 테스트** 버튼으로 토픽에 임의의 메시지를 흘려보내고, 같은 화면의 메시지 조회에서 파티션과 오프셋 조건으로 쌓인 메시지를 들춰볼 수 있어요. 토픽이 정상적으로 동작하는지 확인하려고 따로 클라이언트 코드를 짤 필요가 없습니다. 실제 운영에서는 애플리케이션이 Kafka 클라이언트로 메시지를 발행하지만, **개발 초기의 통신 점검이나 장애 조사 시점에 콘솔에서 바로 확인할 수 있다는 점**이 운영 부담을 줄여줍니다.\r\r\n\r\r\n![토픽 상세 화면의 메시지 탭](https://image.toast.com/aaaadh/real/2026/techblog/msgTapshadow.png)\r\r\n\r\r\n### Lag을 별도 도구 없이 본다는 것\r\r\n\r\r\nKafka를 운영해 본 사람이라면 컨슈머 Lag이 얼마나 중요한 지표인지 잘 아실 거예요. 컨슈머가 처리 속도를 따라가지 못하면 Lag이 쌓이고, 임계치를 넘으면 알람이 울리고, 그제서야 문제가 잡힙니다. 보통은 Burrow나 Kafka Exporter 같은 도구를 별도로 띄워서 봐야 하는데, EasyQueue는 콘솔 안에서 Lag을 두 가지 시점으로 보여줍니다. 토픽 상세의 **컨슈머 그룹 탭**에서는 그룹별로 지금 Lag이 얼마나 쌓여 있는지를 한 줄로 확인할 수 있고, **모니터링 탭**의 *컨슈머 그룹별 Lag* 차트에서는 시간에 따른 Lag 추이를 시계열로 볼 수 있어요. 어느 컨슈머 그룹이 지연되고 있는지, 그게 일시적인 스파이크인지 누적되는 추세인지를 별도의 사이드카나 대시보드 없이 판단할 수 있습니다.\r\r\n\r\r\n모니터링 데이터는 90일 동안 보관되기 때문에, 사후 분석도 콘솔 안에서 가능합니다. *\"지난주 새벽에 Lag이 튀었던 그게 뭐였지?\"* 같은 질문에 별도 메트릭 저장소를 뒤지지 않고 답할 수 있어요.\r\r\n\r\r\n![토픽 상세의 컨슈머 그룹 탭](https://image.toast.com/aaaadh/real/2026/techblog/ConsumerGroupTapshadow.png)\r\r\n![토픽 상세의 모니터링 탭](https://image.toast.com/aaaadh/real/2026/techblog/MonitoringTapshadow.png)\r\r\n\r\r\n### 기존 Kafka 코드, 표준 그대로 붙습니다\r\r\n\r\r\n관리형 서비스를 도입할 때 가장 큰 걱정은 락인(lock-in)입니다. \"지금은 편하지만, 나중에 다른 곳으로 옮기려면 코드를 다시 짜야 하는 거 아닌가?\" 하는 걱정이죠. EasyQueue는 이 부분을 표준 Apache Kafka 프로토콜 호환으로 풀었습니다. 사용하시던 Java, Python, Go의 Kafka 클라이언트 라이브러리를 그대로 쓰고, 접속 정보와 표준 OAuth 인증 설정(SASL/OAUTHBEARER)만 추가하면 됩니다. Kafka 자체의 사용법 — 토픽, 파티션, 컨슈머 그룹, 트랜잭션 — 은 어디서나 동일하기 때문에, 기존 컨슈머·프로듀서 코드, 모니터링 설정, 운영 노하우가 그대로 자산이 됩니다. 구체적인 코드 예제는 뒤의 *시작하기* 단계에서 다뤄볼께요.\r\r\n\r\r\n## 안에서는 이렇게 돌아갑니다\r\r\n\r\r\nEasyQueue에서 메시지는 컨슈머가 읽어 가도 삭제되지 않습니다. 설정한 보관 기간 또는 용량 한도에 도달할 때까지 토픽에 그대로 유지되기 때문에 여러 컨슈머가 각자의 진행 상황(오프셋)을 기억하면서 같은 메시지를 독립적으로 가져갈 수 있고, 컨슈머를 재시작하거나 새로 추가해 처음부터 다시 읽는 것도 가능합니다.\r\r\n\r\r\n전체 흐름은 세 단계로 정리됩니다.\r\r\n\r\r\n```\r\r\n  [Producer A] [Producer B] [Producer C]\r\r\n       │            │            │\r\r\n       └────────────┼────────────┘    ① 발행 (publish)\r\r\n                    ▼\r\r\n  ┌────────────── EasyQueue ──────────────┐\r\r\n  │                                       │\r\r\n  │   ┌─Topic ─┐  ┌─Topic ─┐  ┌─Topic ─┐  │\r\r\n  │   │ part 0 │  │ part 0 │  │ part 0 │  │\r\r\n  │   │ part 1 │  │ part 1 │  │ part 1 │  │\r\r\n  │   │ part 2 │  │ part 2 │  │ part 2 │  │  ② 저장 (store)\r\r\n  │   │ part 3 │  │ part 3 │  │ part 3 │  │     · 3중 복제\r\r\n  │   └────────┘  └────────┘  └────────┘  │\r\r\n  │                                       │\r\r\n  └───────────────────┬───────────────────┘\r\r\n                      │\r\r\n       ┌──────────────┼──────────────┐    ③ 구독 (subscribe)\r\r\n       ▼              ▼              ▼\r\r\n  [Consumer A]  [Consumer B]  [Consumer C]\r\r\n```\r\r\n\r\r\n① 프로듀서가 토픽으로 메시지를 보내고, ② EasyQueue 클러스터가 그 메시지를 토픽 내부의 파티션에 나눠 저장하고, ③ 컨슈머가 필요한 시점에 토픽에서 메시지를 읽어 갑니다. 발행·저장·구독으로 이어지는 흐름은 직접 운영하는 Kafka와 동일합니다.\r\r\n\r\r\n운영 측면에서 짚어둘 부분이 두 가지 있어요. 첫 번째는 **메시지 3중 복제**입니다. Kafka를 직접 운영하면 복제본 수와 최소 동기화 복제본 수를 토픽마다 자유롭게 정할 수 있고, 메시지 유실보다 처리 성능이 중요할 때는 이 값을 낮춰 쓰기도 합니다. EasyQueue는 이 값을 복제본 수 3, 최소 동기화 복제본 수 2로 고정했어요. 자유도는 조금 줄지만 메시지가 유실되지 않는 쪽을 기본으로 보장하기 위해서입니다. 그래서 한 메시지는 항상 서로 다른 브로커 3대에 나뉘어 저장되고, 세 복제본 중 하나가 리더를 맡아 읽기·쓰기를 처리하다가 리더가 있는 브로커에 장애가 나면 남은 복제본 중 하나가 곧바로 리더 역할을 이어받아요. 덕분에 브로커 한 대가 멈춰도 메시지 손실 없이 정상 동작이 이어집니다.\r\r\n\r\r\n두 번째는 **리전 단위로 분리된 클러스터**입니다. EasyQueue는 현재 판교와 평촌, 두 리전에 각각 독립된 클러스터를 운영합니다. 한 리전의 장애가 다른 리전으로 번지지 않도록 격리되어 있어, 운영 차원의 안정성은 인프라 레벨에서 이미 확보된 상태로 시작합니다.\r\r\n\r\r\n## 그래서, 어떻게 시작하나\r\r\n\r\r\nEasyQueue를 클라이언트로 연결하려면 세 가지 정보가 필요합니다. **인증 키** 한 쌍, **Appkey**, 그리고 토픽이 살고 있는 **Bootstrap Servers** 주소. 콘솔에서 메뉴를 세 번 들렀다 오면 끝나는 일이에요.\r\r\n\r\r\n**1단계. User Access Key 발급하기**\r\r\n\r\r\nEasyQueue는 SASL/OAUTHBEARER, 즉 OAuth 2.0 Bearer 토큰을 인증에 씁니다. 토큰 발급에 쓸 인증 키를 먼저 만들어야 해요. NHN Cloud 콘솔의 **마이 페이지 > API 보안 설정**에서 토큰 타입이 **JWT**인 User Access Key를 생성하면, *User Access Key* 와 *Secret Access Key* 한 쌍을 받게 됩니다. 이 두 값이 Kafka 클라이언트의 인증 자격증명으로 들어가요.\r\r\n\r\r\n**2단계. Appkey와 Bootstrap Servers 확인하기**\r\r\n\r\r\n인증 키를 받았으면, 이번엔 EasyQueue 콘솔로 돌아옵니다. 우측 상단의 **URL & Appkey** 메뉴에서 *Appkey*를 확인하세요. *Appkey*는 아래 *Kafka 클라이언트로 연결하기* 단계에서 토픽·컨슈머 그룹 이름의 접두어로 쓰입니다. 그다음 메시지를 주고받을 토픽을 만든 뒤 토픽 상세의 **클라이언트 접속 정보**에서 *Bootstrap Servers* 주소를 확인합니다. Bootstrap Servers는 `{region}-{cluster}-bootstrap-easyqueue.nhncloudservice.com:30000` 형태로 보입니다. 포트는 일반 Kafka 기본 포트(9092)가 아니라 **30000번대**라는 점만 짚어두세요.\r\r\n\r\r\n![URL & Appkey 확인 화면](https://image.toast.com/aaaadh/real/2026/techblog/urlAppkeymaskedshadow.png)\r\r\n\r\r\n**3단계. Kafka 클라이언트로 연결하기**\r\r\n\r\r\n여기서부터는 평소 쓰시던 Kafka 클라이언트 라이브러리를 그대로 쓰면 됩니다. 인증 방식이 PLAIN이나 SCRAM이 아니라 OAUTHBEARER라는 차이는 있지만, 이것도 표준 Apache Kafka 메커니즘이에요. 한 가지 명명 규칙만 기억하면 됩니다. **토픽 이름과 컨슈머 그룹 ID는 모두 `{APP_KEY}.` 접두어로 시작**합니다. 권한 분리를 위한 규칙이라 어기면 권한 오류가 납니다. 아래 설정값은 EasyQueue의 SASL/OAUTHBEARER 방식을 기준으로 작성했습니다. 코드의 ``에는 OAuth 토큰을 발급하는 NHN Cloud 인증 서버 주소인 `https://oauth.api.nhncloudservice.com/oauth2/token/create`를 넣습니다.\r\r\n\r\r\nJava로 메시지를 보내는 가장 단순한 예제는 다음과 같습니다.\r\r\n\r\r\n```java\r\r\nProperties props = new Properties();\r\r\nprops.put(\"bootstrap.servers\", \"\");\r\r\nprops.put(\"key.serializer\", StringSerializer.class.getName());\r\r\nprops.put(\"value.serializer\", StringSerializer.class.getName());\r\r\n\r\r\n// SASL/OAUTHBEARER 인증 설정\r\r\nprops.put(\"security.protocol\", \"SASL_SSL\");\r\r\nprops.put(\"sasl.mechanism\", \"OAUTHBEARER\");\r\r\nprops.put(\"sasl.login.callback.handler.class\",\r\r\n    \"org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginCallbackHandler\");\r\r\nprops.put(\"sasl.oauthbearer.token.endpoint.url\", \"\");\r\r\nprops.put(\"sasl.jaas.config\",\r\r\n    \"org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required \" +\r\r\n    \"clientId=\\\"\\\" \" +\r\r\n    \"clientSecret=\\\"\\\" \" +\r\r\n    \"scope=\\\"appKey:\\\";\");\r\r\n\r\r\nString topic = \".my-topic\";\r\r\ntry (KafkaProducer producer = new KafkaProducer(props)) {\r\r\n    producer.send(new ProducerRecord(topic, \"hello\"));\r\r\n}\r\r\n```\r\r\n\r\r\nPython(`confluent-kafka` 기준)이라면 비슷한 구조로 다음처럼 짧아집니다.\r\r\n\r\r\n```python\r\r\nfrom confluent_kafka import Producer\r\r\n\r\r\nconfig = {\r\r\n    \"bootstrap.servers\": \"\",\r\r\n    \"security.protocol\": \"SASL_SSL\",\r\r\n    \"sasl.mechanisms\": \"OAUTHBEARER\",\r\r\n    \"sasl.oauthbearer.method\": \"oidc\",\r\r\n    \"sasl.oauthbearer.token.endpoint.url\": \"\",\r\r\n    \"sasl.oauthbearer.client.id\": \"\",\r\r\n    \"sasl.oauthbearer.client.secret\": \"\",\r\r\n    \"sasl.oauthbearer.scope\": \"appKey:\",\r\r\n}\r\r\nproducer = Producer(config)\r\r\nproducer.produce(\".my-topic\", value=b\"hello\")\r\r\nproducer.flush()\r\r\n```\r\r\n\r\r\n컨슈머도 같은 인증 설정에 `group.id`만 `.my-group` 형태로 추가하면 끝입니다. OAuth 토큰은 클라이언트 라이브러리가 알아서 발급·갱신하기 때문에, 한 번 설정해 두면 평소처럼 메시지를 주고받게 됩니다. 다만 토큰 유효 시간이 지나면 만료되니, **장시간 실행되는 프로듀서/컨슈머라면 토큰 자동 갱신이 동작하도록 설정**해 두는 것이 안전합니다. 자세한 언어별 예제와 트랜잭션 사용법은 [Kafka 클라이언트 가이드](https://docs.nhncloud.com/ko/Data%20&%20Analytics/EasyQueue/ko/kafka-client-guide/)를 참고해 주세요.\r\r\n\r\r\n토픽이 정상적으로 동작하는지는 앞서 소개한 콘솔의 *메시지 전송 테스트* 로 한 번 더 확인해 볼 수 있어요. 개발 환경 통합부터 운영 도입까지의 거리가 짧다는 점이 EasyQueue를 도입할 때 가장 빨리 체감할 수 있는 차이입니다.\r\r\n\r\r\n## 요금과 마무리\r\r\n\r\r\n### 쓴 만큼만 내는 종량제\r\r\n\r\r\nEasyQueue는 쓴 만큼만 비용이 나가는 종량제로 운영됩니다. 별도의 인스턴스 비용 없이, 사용한 자원에 따라 네 가지 항목이 시간 단위로 누적됩니다.\r\r\n\r\r\n| 과금 구분 | 과금 기준 | 요금 |\r\r\n|---|---|---|\r\r\n| 파티션 수 | 1개당 사용 시간 누적 | 30원/시간 |\r\r\n| 저장 데이터 용량 | 1GB당 사용 시간 누적 | 1.93원/시간 |\r\r\n| 메시지 쓰기량 | 1GB당 | 140원 |\r\r\n| 메시지 읽기량 | 1GB당 | 70원 |\r\r\n\r\r\n*(2026년 6월 기준, VAT 별도. 한국(판교)·한국(평촌) 동일)*\r\r\n\r\r\n두 가지만 짚어둘게요. 저장 데이터 용량은 **복제본 수가 3이라 사용자가 저장한 실제 크기보다 최대 3배로 측정**됩니다. EasyQueue가 운영 안정성을 위해 한 메시지를 브로커 3대에 동시 저장하기 때문이에요. 앞서 살펴본 3중 복제의 비용 측 영향이 이 부분입니다. 두 번째는 토픽별로 **메시지 보존 기간, 파티션 최대 크기, 파티션 개수**를 직접 조정할 수 있다는 점입니다. 저장 비용은 결국 토픽 설정에 따라 결정되기 때문에, 트래픽 패턴이 잡히면 보존 기간을 줄이거나 파티션 크기를 조정해서 비용을 통제할 수 있어요. 가장 최신 요금은 [공식 요금 안내](https://www.nhncloud.com/kr/service/data-analytics/easyqueue#pricing) 페이지에서 확인하실 수 있습니다.\r\r\n\r\r\n### 지금의 EasyQueue, 그리고 지금 시작하기\r\r\n\r\r\nEasyQueue는 2026년 6월 기준 **베타 단계**입니다. 한국 두 리전에서 운영 중이고, 토픽·파티션 수를 일정 범위로 제한하는 것처럼 공용 클러스터 모델 위에서 의식적으로 두고 있는 가드레일도 있습니다. 사용 규모가 커지거나 더 큰 한도가 필요해 도입을 검토하는 단계라면, 고객지원으로 문의해 주시는 것이 가장 빠른 길입니다.\r\r\n\r\r\nEasyQueue가 만들고 싶었던 건 거창한 것이 아닙니다. **Kafka의 유연함은 그대로 두되, Kafka 운영의 무게는 덜어내는 것.** 그래서 Kafka가 필요할 때, 인프라 구축이 아니라 비즈니스 로직으로 바로 시간을 쓸 수 있게 하는 것. 그게 우리가 잡고 싶었던 자리입니다.\r\r\n\r\r\n콘솔에서 토픽 하나 만들어 보시는 데는 1분도 걸리지 않습니다. 한 번 띄워 보시고, 사용하시던 Kafka 코드를 그대로 붙여 보세요.\r\r\n\r\r\n- [EasyQueue 서비스 소개](https://www.nhncloud.com/kr/service/data-analytics/easyqueue)\r\r\n- [EasyQueue 사용자 가이드](https://docs.nhncloud.com/ko/Data%20&%20Analytics/EasyQueue/ko/overview/)\r\r\n- [Kafka 클라이언트 가이드](https://docs.nhncloud.com/ko/Data%20&%20Analytics/EasyQueue/ko/kafka-client-guide/)\r\r\n- 도입 문의: [NHN Cloud 고객지원 > 문의하기](https://www.nhncloud.com/kr/support/inquiry)\r\r\n\r\r\n![Meetup footer](https://image.toast.com/aaaadh/real/2026/techblog/NHNCloudmeetupbannerfooterblue202606900.png)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://meetup.nhncloud.com/posts/415",
+    "pubDate": "Thu, 11 Jun 2026 01:46:39 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "반짝이는 눈",
+    "description": "몇 주 전에 아주 행복한 경험을 했다. 그 경험이 너무 강렬해서 이 느낌을 글로 남기고 싶었고, 당시 내 생각과 기분을 종이에 펜으로 기록했었다. 이 글은 그 메모를 다시 읽고 당시의 내 생각, 기분, 그리고 느낌을 전반적으로 복기하면서 쓰는, 일종의 스스로에게 거는 최면과도 같다. 이틀 연속으로 두 분의 창업가를 만났다. 한 분은 우리가 거의 10년 전에(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/06/twinkle-twinkle-little-eyes.html",
+    "pubDate": "Wed, 10 Jun 2026 20:59:22 +0000",
     "creator": "Kihong Bae",
     "categories": [
       "Uncategorized",
-      "compounding",
-      "consistency",
       "FoundersAtWork",
       "grit",
       "hustle",
@@ -66,72 +105,34 @@
     ]
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "엔페이즈 ENPH 이야기  / 2026-06 업데이트",
-    "description": "영상: https://www.youtube.com/watch?v=RmofHHOfuYc&list=WL\n\n\n\n \n개인이 충전기 달기 너무 비싸다는 이야기구요\n4분 29초에 나옵니다. IQ-EV차저\n개인이 가정용 전력 설비를 업그레이드하려면 이튼의 설비를 달아야하는데 4천달러 정도고\n전력설비를 늘리지 않고 느리게 충전하면 2천달러에 엔페이즈꺼 쓰면 된다는군요\n \n\n\n엔페이즈 5년치 차트인데 이제 바닥찍고 두배 올랐습니다.\n \n이제는 투자해볼 가치가 있어보입니다.\n영상: https://www.youtube.com/watch?v=riHjdZ220g8\n\n\n\n2ants 중에 한분이 enph 하라를 직통으로 맞고 못팔고 암덩어리가 되어버렸는데\n계속 보고 계십니다.\n \n안좋았던때의 문제는\n- 트럼프이후 미국 태양광 보조금 삭제\n- 유럽 태양광 시장 축소\n- 중국 베터리 규제\n였습니다.\n이번에 좋아진점은 \n- 유럽 태양광 살아남 -> 전기요금 증가로 필요해짐\n- AI 관련 전력 설비 개발중 -> 엔비디아에 납품하려고 하는군요\n- 중국 베터리는 퇴출되어서 혼란기가 끝났음\n이렇습니다.\n적어도 다시 35달러 갈일은 없어보입니다.\n1-2년 내에 데이터센터용 혁신적인  전력 유지장치?  SST 를 납품하면 완성되는 시나리오 같습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1659",
-    "pubDate": "Sat, 6 Jun 2026 13:26:27 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "투자",
-      "ENPH",
-      "엔페이즈"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "양자컴퓨터 투자 해야합니다. / 2026",
-    "description": "정확히는 2025 년 젠슨황 양자컴퓨터 30년 걸린다 이야기후 폭락했을 시점에 해야했습니다.\n당시 젠슨황은 엔비디아 제품이 양자컴퓨터 시뮬레이터에 사용되는지 모르고 있었다고 합니다.\n그래서 아무말 대단치를 한다음 \n당시 그 행사 주최측 대부분은 양자컴퓨터를 개발 중이여서 \n여차저차 해서 젠슨황을 설득하고 이 상황이 되었습니다.\n \n최근엔 한국에서도 양자 컴퓨터 관련 논문을 쏟아내고 있고 아무튼 이전엔 될지 안될지 몰랐다면\n이젠 되는데 얼마 걸리는지는 모르겠다 정도로 상황이 좋아졌습니다.\n \n일단 양자컴퓨터가 개발되면 통신부분 암호가 문제가 되기 때문에\n모든 통신 장비가 변경되어야합니다.\n(거의 스마트폰으로 바뀌는 느낌으로 모두 바껴야합니다.)\n신약 개발에 당연히 쓰이구요\n신물질 찾는데도 사용하구요\n투자 프로그램에도 사용한다고 합니다.\n \n개발환경에  엔비비디아 GPU 가 시뮬레이터로 필요하구요\n개발언어는 여기저기 따로 개발 중입니다.\n \n현재 양자컴퓨터 방식은 큐비트를 늘리기 힘들기 때문에 돌아간다 정도로 만족해야하고\n광자 컴퓨터 정도되면 만 큐비드를 넘길 수 있을 것 같습니다.\n \n사건 사고로는 비트코인이 털리는 일이 발생해야하구요\n \n이런 일들이 결국 발생할꺼고 그때마다 엄청나게 뜰 것입니다.\n그러니 안좋은 지금 미리미리 투자해야할 것입니다.\n \n \n \n \n영상: https://www.youtube.com/watch?v=O6aX4tkZZJ8\n\n\n\n \n \n영상에 장표 나오는거 캡쳐해둡니다.\n\n\n \nSK텔레콤 열심히 봐둬야겠습니다.\n컨티넘 QNT\n디웨이브 QBTS\n나 ETF 등으로 투자해야겠습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1658",
-    "pubDate": "Thu, 4 Jun 2026 21:04:11 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "투자",
-      "양자컴퓨터"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "인구감소지역으로 휴가가면 최대 7만 원 할인받아요: 2026 여름맞이 숙박세일 페스타",
-    "description": "85개 지역에서 만나는 특별한 숙박 혜택",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/money-policies-63",
-    "pubDate": "Thu, 04 Jun 2026 06:42:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 8,
     "imageUrl": "",
-    "title": "토스모바일, 'CU 제휴 요금제'  출시 1년 만에 가입자 2만 명 돌파",
-    "description": "1년 만의 성과",
+    "title": "Contribute to the State of PHP Survey",
+    "description": "Together with The PHP Foundation, we’re embarking on an exciting expedition – the first annual State of PHP census that aims to tally the elePHPant population across the world. Come join us! With the help of the community, we’ve designed a comprehensive survey that aims to unearth the PHP developer trends – from years of […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/50353",
-    "pubDate": "Sun, 07 Jun 2026 23:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/phpstorm/2026/06/state-of-php-survey-2026/",
+    "pubDate": "Thu, 11 Jun 2026 10:38:57 +0000",
+    "creator": "Dominika Stankiewicz",
+    "categories": [
+      "phpstorm",
+      "survey"
+    ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 54화, 영애 목격담인데스와",
-    "description": "No description available",
+    "title": "MSVC Build Tools Preview updates – June 2026",
+    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – June 2026 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2462",
-    "pubDate": "Wed, 10 Jun 2026 23:31:54 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-june-2026/",
+    "pubDate": "Thu, 11 Jun 2026 17:09:04 +0000",
+    "creator": "Eric Brumer",
     "categories": [
-      "웹툰"
+      "Announcement",
+      "C++",
+      "MSVC"
     ]
   },
   {
@@ -156,6 +157,80 @@
   {
     "id": 11,
     "imageUrl": "",
+    "title": "Modern C++ Support in CLion: What’s New",
+    "description": "Modern C++ makes advanced high-performance techniques more accessible, with features like compile-time computation, zero-overhead abstractions, and expressive template code. But as your codebase grows, your ability to use these techniques productively depends heavily on how well your tooling understands them. Without proper language engine support, modern C++ features can lead to false positives, broken navigation, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/clion/2026/06/modern-cpp-support/",
+    "pubDate": "Wed, 10 Jun 2026 09:36:29 +0000",
+    "creator": "Oleg Zinovyev",
+    "categories": [
+      "news",
+      "tips-tricks",
+      "clionnova",
+      "code-analysis",
+      "constexpr",
+      "constexprdebugger",
+      "cpp26",
+      "gcc"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "JetBrains Plugin Developer Conf 2026 – Call for Speakers",
+    "description": "We’re excited to be preparing the third edition of Plugin Developer Conf, coming this November 2026 — a free community event focused on developing and managing plugins for JetBrains products. Over the past two years, Plugin Developer Conf has brought together experts and practitioners from across the ecosystem to share their experience and insights. From […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2026/06/jetbrains-plugin-developer-conf-2026-call-for-speakers/",
+    "pubDate": "Tue, 09 Jun 2026 19:08:21 +0000",
+    "creator": "Elena Kerpeleva",
+    "categories": [
+      "events",
+      "livestreams",
+      "marketplace",
+      "plugins",
+      "jetbrains-marketplace",
+      "plugin-development"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "MPS 2026.1 Release Candidate Arrives",
+    "description": "Before we finalize the 2026.1 release, we are presenting a release candidate build so you can preview the new features ahead of time. Download MPS 2026.1 Release Candidate now: DOWNLOAD MPS 2026.1 RC 1 The release candidate brings a single, long-awaited feature: MPS is now accessible to AI coding agents via the MCP (Model Context […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/mps/2026/06/the-mps-2026-1-rc1/",
+    "pubDate": "Thu, 11 Jun 2026 12:07:28 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "releases",
+      "eap",
+      "release"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "인프런에 ‘CUDA프로그래밍 입문’강의 올렸습니다.",
+    "description": "“CUDA 프로그래밍 입문”이라는 제목으로 인프런에 12챕터짜리 강좌를 올렸습니다.CUDA에 관심이 있지만 어떻게 시작해야 할지 막막하셨던 분들에게 도움이 되리라 생각합니다.인프런에서 검색하지 마시고 아래의 링크를 클릭해서 구입해주시면 제게 경제적으로 더 도움이 됩니다. CUDA프로그래밍 입문– https://inf.run/Ggqn5 다른 강의들도 도움이 될 수 있으므로 살펴보시기 바랍니다. D3D12프로그래밍 기초편 – https://inf.run/WYdmsD3D12프로그래밍 기초플러스 – https://inf.run/dW4QZDirectX Raytracing 프로그래밍 – https://inf.run/ovHNqWindows System 프로그래밍 – https://inf.run/JQMeCWindows Debugging Tips – https://inf.run/8TtQv온라인 게임 개발을 … More 인프런에 ‘CUDA프로그래밍 입문’강의 올렸습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://megayuchi.com/2026/06/11/%ec%9d%b8%ed%94%84%eb%9f%b0%ec%97%90-cuda%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d-%ec%9e%85%eb%ac%b8%ea%b0%95%ec%9d%98-%ec%98%ac%eb%a0%b8%ec%8a%b5%eb%8b%88%eb%8b%a4/",
+    "pubDate": "Thu, 11 Jun 2026 12:10:09 +0000",
+    "creator": "megayuchi",
+    "categories": [
+      "Development",
+      "C++",
+      "CUDA",
+      "GPGPU",
+      "GPU"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
     "title": "Static Code Analysis and the Rules of Zero, Three, and Five",
     "description": "The Rule of Zero, Three, and Five, sometimes written 0/3/5, is a set of C++ guidelines about resource ownership and the special member functions. They exist because the alternatives are double-frees, dangling pointers, and silently broken copies. In this post we’ll work through the rules by tripping over each of those bugs in turn, then […]",
     "reviews": [],
@@ -168,92 +243,6 @@
       "cpp",
       "cpp-2",
       "qodana"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "구글 FLOW로 웹툰,인스타 캐러셀 생성기 만들기 (무료 앱 배포)",
-    "description": "최근 구글이 공개한 새로운 AI 창작 스튜디오, 구글 플로우(FLOW)가 창작 생태계를 완전히 뒤흔들고 있습니다. 2026년 현재, 이미지 생성 비용을 사실상 '제로'로 만들면서도 나만의 독창적인 웹툰과 인스타그램 카드뉴스를 무제한으로 찍어낼 수 있는 이 놀라운 도구의 모든 것을 제가 직접 파헤쳐 보았습니다.\n\n\n여러분, 혹시 유료 AI 이미지 생성 서비스를 결제할 때마다 '아, 이번 달도 구독료가 만만치 않네'라고 생각하며 결제창 앞에서 망설여본 적 없으신가요? 아니면 공들여서 프롬프트를 입력해 예쁜 그림 한 장을 얻었는데, 그다음 장을 그리려고 하니 얼굴이 아예 딴사람이 되어버려 속상했던 경험은요? 아마 콘텐츠를 만드는 분들이라면 누구나 한 번쯤 겪었을 법한 고충일 텐데요. 저 역시 그랬습니다. 정말 정말 답답했죠. 하지만 이제 그런 걱정은 넣어두셔도 좋을 것 같습니다. 오늘 제가 소개해 드릴 구글 플로우(FLOW)는 그야말로 창작자들에게 내린 축복 같은 도구거든요. 이 글을 끝까지 읽으시면 제가 며칠 밤을 새워가며 최적화한 웹툰 생성기와 인스타 캐러셀 제작기 도구까지 바로 가져가실 수 있습니다.\n구글 플로우(FLOW)란 무엇인가? 창작의 패러다임이 변하다\n구글 플로우는 구글 랩스(Google Labs)에서 야심 차게 내놓은 멀티모달 AI 창작 스튜디오입니다. 처음 이 도구가 공개되었을 때는 단순히 AI로 영화를 만드는 툴 정도로만 알려졌었죠. 그런데 말입니다, 시간이 지나며 이미지FX와 휘스크(Veo)의 강력한 기능들이 하나둘씩 통합되더니, 이제는 이미지 생성부터 영상 제작, 그리고 에셋 관리까지 한 번에 끝낼 수 있는 거대한 플랫폼으로 진화했습니다. 구글의 최첨단 AI 모델인 제미나이(Gemini)가 중추적인 역할을 하고 있어서, 텍스트만으로도 우리가 머릿속으로만 그리던 비주얼을 아주 정교하게 뽑아낼 수 있다는 게 가장 큰 매력입니다.\n특히 제가 가장 소름 돋았던 부분은 이번에 새롭게 추가된 '도구(Tools)' 기능입니다. 이건 정말 혁명이에요. 코딩을 전혀 모르는 분들도 걱정할 필요가 없습니다. 그냥 AI에게 말로 \"이런 기능을 하는 생성기를 만들어줘\"라고 설명만 하면, 그 자리에서 나만의 맞춤형 도구가 뚝딱 만들어집니다. 소위 말하는 '바이브 코딩(Vibe Coding)'의 끝판왕이라고 할까요? 제가 직접 써보니, 이건 단순히 도구를 쓰는 걸 넘어 창작자가 직접 도구를 설계하는 시대로 진입했다는 확신이 들더라고요.\n무료 계정으로 즐기는 무제한 이미지 생성의 기쁨\n아마 많은 분이 가장 궁금해하실 부분이 바로 비용일 겁니다. 솔직히 말씀드릴게요. 저도 처음에 믿기지 않았거든요. 유료 구독을 하지 않은 일반 구글 계정으로 접속해도, 채팅창에서 '나노바나 프로'나 '나노바나 2' 같은 최신 모델을 선택하면 이미지 생성에 들어가는 크레딧 소모가 무려 0입니다. 다시 말해, 이미지를 만드는 것만큼은 사실상 무제한 무료라는 뜻이죠. 영상 제작의 경우에는 매일 50 크레딧이 충전되는데, 이 정도면 무료 계정으로도 충분히 고퀄리티의 실험적인 콘텐츠를 만들어내기에 부족함이 없습니다.\n  전문가의 팁 하나 전해드려요!\n처음 접속하신 후 '새 프로젝트'를 클릭해 채팅창을 열어보세요. 오른쪽 설정 메뉴에 들어가면 이미지의 비율(예: 16:9, 9:16)뿐만 아니라 한 번에 생성할 이미지 개수까지 세밀하게 조절할 수 있습니다. 여러 장을 한꺼번에 뽑아보면서 가장 마음에 드는 결과물을 골라내는 재미가 쏠쏠합니다.\n에이전트 기능과 부분 수정의 마법 같은 조화\n플로우의 진정한 매력은 에이전트(Agent) 기능에서 나옵니다. 미리 특정 요청 사항이나 스타일 가이드를 에이전트로 등록해두고 스위치처럼 껐다 켰다 할 수 있거든요. 예를 들어 '90년대 지브리 애니메이션 감성'과 '미래적인 사이버펑크 느낌'을 각각 에이전트로 등록해두었다고 칩시다. 같은 프롬프트를 입력해도 어떤 에이전트를 활성화하느냐에 따라 결과물은 하늘과 땅 차이가 됩니다. \"비 내리는 거리의 강아지\"라고 쳤을 때, 지브리 에이전트는 따뜻하고 몽글몽글한 수채화 느낌을 주지만, 사이버펑크 에이전트는 네온 사인이 번쩍이는 차가운 도시 분위기를 만들어내죠.\n이미지 편집 기능은 또 어떻고요? 생성된 이미지를 클릭해 편집 모드에 들어가면 부분 수정(In-painting) 기능이 기다리고 있습니다. 그림 속 인물의 옷 색깔이 마음에 안 드시나요? 그럼 옷 부분만 슥슥 칠하고 \"빨간색 원피스로 바꿔줘\"라고 입력해 보세요. 순식간에 자연스럽게 바뀝니다. 배경에 뜬금없이 나타난 쓰레기통을 지우고 싶을 때도 선택 도구로 콕 찍어 \"지워줘\"라고 하면 감쪽같이 사라집니다. 이제 복잡한 포토샵 공부 없이도 누구나 완벽한 그림을 완성할 수 있게 된 셈입니다.\n왜 2026년에도 여전히 구글 플로우가 대세인가?\n시중에는 미드저니, 스테이블 디퓨전 등 정말 훌륭한 AI 이미지 생성기들이 많습니다. 그럼에도 불구하고 왜 제가 구글 플로우를 강력하게 추천할까요? 이유는 명확합니다. 사용성, 경제성, 그리고 결과물의 일관성 때문입니다.\n구분\n기존 AI 이미지 앱\n구글 플로우 (FLOW)\n\n\n\n\n비용\n월정액(2~4만원대) 또는 건당 과금\n이미지 생성 0 크레딧 (압도적 무료)\n\n\n캐릭터 유지\n복잡한 로라(LoRA) 학습 필요\n캐릭터 등록 후 @ 호출로 얼굴 유지\n\n\n사용 난이도\n프롬프트 엔지니어링 공부 필수\n대화하듯 도구를 만들어 쓰는 직관성\n\n\n\n특히 웹툰 작가나 SNS 운영자들에게 가장 고통스러운 부분이 바로 '캐릭터의 일관성'일 텐데요. 구글 플로우는 이 문제를 아주 우아하게 해결했습니다. 좌측 메뉴의 캐릭터 탭에서 내 주인공의 얼굴을 딱 한 번만 제대로 등록해두면 됩니다. 그다음부터는 채팅창에서 @캐릭터이름을 입력하기만 하면, 어떤 배경이든 어떤 상황이든 똑같은 얼굴의 주인공을 소환할 수 있습니다. \"@철수가 카페에서 울고 있어\"라고 치면 바로 철수의 얼굴로 슬픈 장면이 생성되는 거죠. 정말 대단하지 않나요?\n나만의 웹툰 & 인스타 캐러셀 생성기 제작기\n자, 이제 더 깊숙이 들어가 볼까요? 유료 구독자의 경우 '도구' 메뉴에서 본인만의 워크플로우를 가진 앱을 빌드할 수 있습니다. 구글 AI 스튜디오의 플레이그라운드를 활용하면 더욱 정교한 로직을 짤 수 있는데요, 제미나이 모델을 불러와서 \"구글 플로우 도구 제작을 위한 시스템 프롬프트를 작성해줘\"라고 요청해 보세요. 그렇게 얻은 프롬프트를 플로우 도구 설정창에 붙여넣기만 하면 전문가급 생성기가 탄생합니다.\n⚠️ 반드시 기억해야 할 주의사항!\n창작의 열정에 취해 짧은 시간 동안 너무 많은 생성 요청을 보내면 안 됩니다. 구글 시스템에서 24시간 사용 정지 경고를 보낼 수 있거든요. 도구를 설계할 때 AI에게 미리 \"사용자 요청 속도를 조절하거나, 생성량 제한 오류를 방지하기 위한 예방 메시지를 띄워줘\"라고 명령해두는 것이 안전합니다. 저도 처음에 이거 몰랐다가 하루 동안 접속 못 해서 얼마나 답답했는지 몰라요.\n\n\n제가 직접 만든 AI 웹툰 스튜디오는 제목과 시놉시스, 그리고 캐릭터의 외형 묘사만 넣으면 끝입니다. AI가 알아서 회차별 시나리오를 쓰고, 각 컷에 들어갈 구도를 제안하며, 캐릭터 시트까지 생성해 줍니다. 컷 수를 선택하고 '일괄 생성'을 누르면 한 편의 웹툰이 차르르 그려지는데, 완성된 컷들을 세로로 길게 이어 붙여 저장하는 기능까지 넣었더니 바로 연재를 시작해도 될 수준이더라고요.\n\n\n인스타 캐러셀(카드뉴스) 제작기도 제 효자 도구입니다. 정보성 콘텐츠의 주제만 던져주면, AI가 사람들의 시선을 끌 만한 헤드라인을 뽑고 각 장에 들어갈 핵심 문구와 배경 이미지까지 한 번에 기획해 줍니다. 텍스트의 크기나 배치, 색감도 제 취향대로 미세하게 조정할 수 있어서 디자인 감각이 부족한 저 같은 사람에게는 정말 구세주 같은 존재죠.\n모두에게 열린 도구 공유와 배포의 즐거움\n혹시 \"나는 유료 구독자가 아닌데 어쩌지?\"라고 걱정하시나요? 그러실 필요 전혀 없습니다! 도구를 직접 '설계'하는 건 유료 기능이지만, 다른 사람이 정성껏 만들어 공유한 도구를 가져다 쓰는 것은 무료 계정으로도 얼마든지 가능하거든요. 제가 오늘 배포해 드리는 'BASIC' 버전 도구들만으로도 웹툰과 카드뉴스를 만드는 데 전혀 지장이 없습니다. 더 깊이 있는 기능이 필요하다면 그때 가서 프로 버전을 고민해 보셔도 늦지 않습니다.\n  한눈에 보는 핵심 요약\n1. 구글 플로우는 제미나이 엔진 기반의 차세대 AI 창작 스튜디오입니다.\n2. 이미지 생성 크레딧 소모가 0이어서 사실상 무제한 무료 창작이 가능합니다.\n3. 캐릭터 등록 및 에이전트 시스템으로 일관성 있는 작품 활동을 지원합니다.\n4. 바이브 코딩을 통해 누구나 자신만의 앱을 만들고 공유할 수 있는 열린 환경입니다.\n※ 다음 포스팅에서는 플로우를 활용한 고퀄리티 뮤직비디오 제작법을 심도 있게 다뤄보겠습니다. 기대해 주세요!\n❓ 자주 묻는 질문 (FAQ)\nQ: 무료 계정은 정말로 무제한 생성이 가능한가요?\nA: 네, 현재 정책상 '나노바나' 모델 계열을 사용하면 이미지 생성 크레딧은 차감되지 않습니다. 다만 매일 아침 충전되는 50 크레딧은 영상 생성 시에만 소모되니, 이미지는 마음껏 만드셔도 됩니다!\nQ: 제가 만든 멋진 도구를 친구에게 선물하고 싶어요.\nA: 정말 좋은 생각입니다! 도구 편집 화면 우측 상단에 '공유' 버튼이 있습니다. 거기서 링크를 복사해 친구에게 전달하면, 친구도 본인의 구글 계정으로 그 도구를 즉시 사용할 수 있습니다.\nQ: 캐릭터 얼굴이 미묘하게 자꾸 바뀌어서 고민입니다.\nA: 그럴 땐 플로우의 '캐릭터' 메뉴에서 정면, 측면 등 기준이 될 만한 사진을 먼저 등록해 보세요. 그리고 프롬프트 입력 시 꼭 @ 기호를 써서 해당 캐릭터를 먼저 소환한 뒤 동작을 묘사하면 훨씬 안정적인 결과가 나옵니다.\nFLOW 무료 도구 사용하기 (무료버전)\n여러분도 지금 바로 제가 만든 도구들을 사용해보실 수 있도록 무료 버전을 공유해 드립니다. 아래 링크를 통해 접속하셔서 여러분만의 창의력을 마음껏 발휘해 보세요!\n  AI 웹툰 스튜디오 BASIC\nhttps://labs.google/fx/tools/flow/shared/tool/3a1aadbd-3273-479b-a140-fd18c27acf07\n  인스타 Carousel Basic\nhttps://labs.google/fx/tools/flow/shared/tool/5c819d8f-a48e-421a-952f-7e2468de5419\n지금까지 구글 플로우를 활용해 비용 부담 없이 고퀄리티 콘텐츠를 만드는 법에 대해 자세히 알아보았습니다. 정말 세상이 빠르게 변하고 있다는 게 실감 나지 않나요? 불과 몇 년 전만 해도 상상만 하던 일이 이제는 손가락 몇 번 움직이는 것으로 현실이 되고 있습니다. 제가 공유해 드린 도구들이 여러분의 창작 활동에 작은 보탬이 되었으면 좋겠습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483724",
-    "pubDate": "Mon, 8 Jun 2026 09:18:40 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "AI웹툰생성기",
-      "AI창작스튜디오",
-      "AI캐릭터일관성",
-      "geminiai",
-      "GoogleFlow",
-      "구글랩스",
-      "구글플로우",
-      "나노바나모델",
-      "무료이미지생성",
-      "인스타카드뉴스제작"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "What’s New in vcpkg (May 2026)",
-    "description": "This release includes major library updates for Boost 1.91, Qt 6.11, and OpenCASCADE 8.0, along with 27 new ports and over 500 port updates.\nThe post What’s New in vcpkg (May 2026) appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-may-2026/",
-    "pubDate": "Thu, 04 Jun 2026 23:08:33 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Why Zig Isn’t 1.0 (Yet)",
-    "description": "Most programming languages follow a familiar trajectory: early experimental releases, rapid iteration, and then – at some point – a 1.0 version that signals stability and the potential for serious adoption. Zig hasn’t followed that well-trodden path. What could be the reason? Andrew Kelley quit his job in 2018 to build a programming language. Eight […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/06/05/why-zig-isn-t-1-0-yet/",
-    "pubDate": "Fri, 05 Jun 2026 13:49:27 +0000",
-    "creator": "James Hilton",
-    "categories": [
-      "community",
-      "developer-recognition",
-      "ecosystem",
-      "interviews",
-      "language-design",
-      "languages",
-      "andrewkelley",
-      "clanguage",
-      "github",
-      "opensource",
-      "programming",
-      "rust",
-      "systems-programming",
-      "zig",
-      "ziglang"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Scaling beyond one: How Airbnb evolved its data architecture for a multi-product world",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/scaling-beyond-one-how-airbnb-evolved-its-data-architecture-for-a-multi-product-world-6125645d470c?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 09 Jun 2026 17:01:02 GMT",
-    "creator": "Patrick Lam",
-    "categories": [
-      "data-engineering",
-      "analytics-engineering",
-      "technology",
-      "data-modeling",
-      "data-architecture"
     ]
   }
 ]
