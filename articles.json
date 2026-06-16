@@ -2,214 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Rider 2026.2 EAP 5: Code Quality Checks for Your AI Agents, and More.",
-    "description": "Rider 2026.2 EAP 5 is now available, bringing a faster startup flow with the new non-modal Welcome screen and quality-check hooks for AI agents. If you’re catching up on the 2026.2 EAP cycle, be sure to check out the blog posts we’ve already published about other updates unveiled so far, including WPF Hot Reload, the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/06/08/rider-2026-2-code-quality-check-hooks-for-ai-agents/",
-    "pubDate": "Mon, 08 Jun 2026 14:40:28 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "rider",
-      "ai-agent-hooks",
-      "claude",
-      "claude-code",
-      "codex",
-      "eap",
-      "early-access-program",
-      "jetbrains-ai",
-      "mcp-tools"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "dotInsights | June 2026",
-    "description": "Did you know? The var keyword isn’t a keyword! It’s one of several “contextual” keywords in C#, and it only has special meaning when used to declare a variable. Try defining a class called var and see what happens to the rest of your codebase… Welcome to dotInsights by JetBrains! This newsletter is the home […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/06/12/dotinsights-june-2026/",
-    "pubDate": "Fri, 12 Jun 2026 11:43:07 +0000",
-    "creator": "Matt Ellis",
-    "categories": [
-      "net-tools",
-      "dotinsights"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "반짝이는 눈",
-    "description": "몇 주 전에 아주 행복한 경험을 했다. 그 경험이 너무 강렬해서 이 느낌을 글로 남기고 싶었고, 당시 내 생각과 기분을 종이에 펜으로 기록했었다. 이 글은 그 메모를 다시 읽고 당시의 내 생각, 기분, 그리고 느낌을 전반적으로 복기하면서 쓰는, 일종의 스스로에게 거는 최면과도 같다. 이틀 연속으로 두 분의 창업가를 만났다. 한 분은 우리가 거의 10년 전에(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/06/twinkle-twinkle-little-eyes.html",
-    "pubDate": "Wed, 10 Jun 2026 20:59:22 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "grit",
-      "hustle",
-      "people",
-      "Strong",
-      "vc"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "GitHub Copilot modernization for C++ is out of preview",
-    "description": "GitHub Copilot modernization for C++ is out of preview as of Visual Studio 2026, helping you upgrade your MSVC Build Tools with an AI-guided workflow.\nThe post GitHub Copilot modernization for C++ is out of preview appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/ghcp-modernization-available/",
-    "pubDate": "Fri, 12 Jun 2026 18:46:01 +0000",
-    "creator": "Michael Price",
-    "categories": [
-      "Announcement",
-      "C++",
-      "Copilot",
-      "GitHub"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "바쁜 건 항상 좋은 것",
-    "description": "“바빠서”라는 말은 내가 제일 싫어하는 변명이지만, 아마도 학교나 직장에서 가장 자주 말하고 들을 수 있는 말 중 하나라고 생각한다. 중요한 일인데 바빠서 못 한다면 이건 그 사람에겐 별로 중요한 일이 아닌 것이고, 아마도 바빠서 못 한다고 하는 분은 평생 하지 않을 것이다. 물론, 이건 내 생각이고 나는 항상 바쁨에 대한 이런 엄격한 기준을 갖고 있는데,(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/06/busy-is-always-good.html",
-    "pubDate": "Sun, 14 Jun 2026 21:26:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "inspiring",
-      "Strong"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "LLM 슈퍼메모리 소개 및 사용기",
-    "description": "이 글은 LLM 슈퍼메모리 소개 및 사용기을 나눔한다. \n\n\n\n\n\n레퍼런스\n\nsupermemoryai/supermemory: Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/06/llm.html",
-    "pubDate": "2026-06-14T20:23:43.305Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Static Code Analysis and the Rules of Zero, Three, and Five",
-    "description": "The Rule of Zero, Three, and Five, sometimes written 0/3/5, is a set of C++ guidelines about resource ownership and the special member functions. They exist because the alternatives are double-frees, dangling pointers, and silently broken copies. In this post we’ll work through the rules by tripping over each of those bugs in turn, then […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/06/static-code-analysis-and-the-rules-of-zero-three-and-five/",
-    "pubDate": "Wed, 10 Jun 2026 16:14:45 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "how-tos",
-      "cpp",
-      "cpp-2",
-      "qodana"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Modern C++ Support in CLion: What’s New",
-    "description": "Modern C++ makes advanced high-performance techniques more accessible, with features like compile-time computation, zero-overhead abstractions, and expressive template code. But as your codebase grows, your ability to use these techniques productively depends heavily on how well your tooling understands them. Without proper language engine support, modern C++ features can lead to false positives, broken navigation, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2026/06/modern-cpp-support/",
-    "pubDate": "Wed, 10 Jun 2026 09:36:29 +0000",
-    "creator": "Oleg Zinovyev",
-    "categories": [
-      "news",
-      "tips-tricks",
-      "clionnova",
-      "code-analysis",
-      "constexpr",
-      "constexprdebugger",
-      "cpp26",
-      "gcc"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "운영하지 않는 Kafka, EasyQueue를 소개합니다",
-    "description": "![소개글 배너](https://image.toast.com/aaaadh/real/2026/techblog/NHNCloudmeetupbannereasyqueue202606900.png)\r\r\n\r\r\n# 운영하지 않는 Kafka, EasyQueue를 소개합니다\r\r\n\r\r\nKafka를 직접 띄워보신 적 있으신가요. 처음에는 \"이거 그냥 `docker compose up` 하면 되는 거 아냐?\"로 가볍게 시작합니다. 그러다 운영 환경으로 옮기는 순간 일이 달라지죠. 브로커는 몇 대로 띄울지, 디스크는 어떻게 잡을지, 복제본 수와 리텐션은 얼마로 잡을지, 백업·모니터링·알람은 또 어떻게 붙일지로 일주일이 사라집니다. 어느새 본업은 Kafka 운영이 되어 있습니다.\r\r\n\r\r\n그렇다고 클라우드의 관리형 서비스로 도망치자니, 이번엔 다른 고민이 시작됩니다. 기존 Kafka 클라이언트 코드는 그대로 쓸 수 있는지, 토픽 설정은 직접 손댈 수 있는지, 컨슈머 Lag 같은 운영 지표는 어떻게 볼 것인지. \"관리형\"이라는 단어가 어디까지를 관리해 주는지가 늘 애매했습니다.\r\r\n\r\r\nNHN Cloud의 **EasyQueue**는 이 두 고민의 가운데에서 출발했습니다. 클러스터 운영은 우리에게 맡기되, Kafka 본연의 유연함은 그대로 사용자에게 돌려주자는 것. 이번 글에서는 그 사이의 균형을 어떻게 잡았는지, 그리고 EasyQueue가 어떤 분들께 잘 맞는 서비스인지를 풀어보려고 합니다.\r\r\n\r\r\n## EasyQueue가 차지하는 자리\r\r\n\r\r\nEasyQueue는 NHN Cloud가 운영하는 Apache Kafka 클러스터 위에 토픽을 만들어 바로 메시지를 주고받을 수 있게 해 주는 **완전관리형 Apache Kafka 서비스**입니다. 클러스터 설치·노드 추가·보안 패치·모니터링은 NHN Cloud가 맡고, 토픽 설계와 파티션 수, 컨슈머 그룹처럼 Kafka 본연의 유연함은 그대로 사용자가 제어할 수 있도록 설계되어 있어요. 현재 **베타 단계**로, 한국 판교·평촌 두 리전에서 사용할 수 있습니다. 한 줄로 줄이면 *\"Kafka는 그대로 쓰되, 운영은 하지 않는 Kafka\"* — 그게 EasyQueue의 자리입니다.\r\r\n\r\r\n## 관리형과 Kafka 사이, 어디에 선을 그었나\r\r\n\r\r\nEasyQueue를 만들면서 가장 먼저 정한 건 **사용자가 직접 다룰 영역과, 저희가 떠맡을 영역 사이의 선**이었습니다. 클러스터 띄우기, 노드 추가, 보안 패치, 메트릭 수집 — 이건 누가 봐도 \"운영\"의 영역이고, 사용자가 매번 신경 쓸 일이 아닙니다. 반면 토픽을 어떻게 설계할지, 파티션을 몇 개로 나눌지, 프로듀서와 컨슈머를 어떻게 구성할지는 서비스 로직에 직접 연결되는 부분이에요. 그래서 선을 분명하게 그었습니다. **클러스터 운영은 NHN Cloud가, 토픽 안쪽은 사용자가.**\r\r\n\r\r\n이 선을 정하고 나니 다음 결정이 자연스럽게 따라왔습니다. \"그럼 클러스터는 어떻게 구성할 것인가?\" 후보는 두 가지였어요. 사용자마다 전용 클러스터를 띄워 주는 방식과, 여러 사용자가 한 클러스터를 함께 쓰는 **공용 클러스터** 방식. EasyQueue는 후자를 골랐습니다. \"쓰고 싶을 때 즉시 토픽을 만들고, 안 쓰면 비용도 거의 들지 않는\" 경험을 가장 가깝게 만드는 길이었기 때문입니다. 물론 트레이드오프는 분명히 있어요. 공용 클러스터 모델은 한 토픽에 매우 큰 부하가 몰리는 대용량 워크로드에는 한계가 있을 수 있습니다.\r\r\n\r\r\n같은 맥락에서 EasyQueue는 의식적으로 **사용 제한**을 두고 있습니다. 토픽과 파티션의 사용 가능한 수는 프로젝트마다 일정 범위로 제한되어 있습니다. 처음 들으면 아쉽게 느껴질 수 있는데, 공용 클러스터 모델에서는 가장 합리적인 선택이에요. 한 사용자가 토픽 수백 개를 한꺼번에 만들면 같은 클러스터를 쓰는 다른 사용자의 성능에 영향이 갑니다. 토픽 수 제한은 이걸 사전에 막는 가드레일인 셈입니다. 더 많은 토픽이 필요하다면 고객지원으로 문의 주시면 늘려드리고, 토픽당 파티션 수도 필요에 따라 확장할 수 있어요.\r\r\n\r\r\n## 매일의 운영을 가볍게 만드는 것들\r\r\n\r\r\n### 콘솔에서 클릭 몇 번, 토픽이 뜹니다\r\r\n\r\r\n새 토픽을 만든다는 건 Kafka를 처음 다룰 때 가장 막막한 순간 중 하나입니다. CLI로 만들려면 어떤 명령을 호출해야 하는지, 클러스터 주소는 어디에 써야 하는지, 권한과 인증은 어디까지 풀어야 하는지를 거쳐야 비로소 토픽이 생기죠. EasyQueue는 이 과정을 콘솔의 화면 하나로 줄였어요. 이름, 파티션 수, 메시지 저장 기간(리텐션) 같은 항목만 정하면 사용할 수 있는 토픽이 만들어집니다. 운영 안정성에 직결되는 복제본 수(3)와 최소 동기화 복제본 수(2)는 기본값으로 미리 설정되어 있어, 토픽을 어떻게 안전하게 구성해야 할지 따로 고민하지 않아도 됩니다. 수정과 삭제도 같은 흐름이라, 토픽의 수명주기 전체가 콘솔 안에서 정리됩니다.\r\r\n\r\r\n![토픽 생성 화면](https://image.toast.com/aaaadh/real/2026/techblog/CreateTopicshadow.png)\r\r\n\r\r\n### kafka-console-producer 없이도 테스트가 됩니다\r\r\n\r\r\n토픽을 만들고 나면 다들 비슷한 동작을 합니다. 메시지가 잘 들어가는지, 잘 빠지는지를 일단 한 번 찔러보고 싶죠. 보통은 `kafka-console-producer`로 한 줄 보내고, `kafka-console-consumer`로 받아 보는 흐름입니다. EasyQueue는 이 작업을 콘솔에서 바로 할 수 있게 해 두었습니다. 토픽 상세 화면의 **메시지 전송 테스트** 버튼으로 토픽에 임의의 메시지를 흘려보내고, 같은 화면의 메시지 조회에서 파티션과 오프셋 조건으로 쌓인 메시지를 들춰볼 수 있어요. 토픽이 정상적으로 동작하는지 확인하려고 따로 클라이언트 코드를 짤 필요가 없습니다. 실제 운영에서는 애플리케이션이 Kafka 클라이언트로 메시지를 발행하지만, **개발 초기의 통신 점검이나 장애 조사 시점에 콘솔에서 바로 확인할 수 있다는 점**이 운영 부담을 줄여줍니다.\r\r\n\r\r\n![토픽 상세 화면의 메시지 탭](https://image.toast.com/aaaadh/real/2026/techblog/msgTapshadow.png)\r\r\n\r\r\n### Lag을 별도 도구 없이 본다는 것\r\r\n\r\r\nKafka를 운영해 본 사람이라면 컨슈머 Lag이 얼마나 중요한 지표인지 잘 아실 거예요. 컨슈머가 처리 속도를 따라가지 못하면 Lag이 쌓이고, 임계치를 넘으면 알람이 울리고, 그제서야 문제가 잡힙니다. 보통은 Burrow나 Kafka Exporter 같은 도구를 별도로 띄워서 봐야 하는데, EasyQueue는 콘솔 안에서 Lag을 두 가지 시점으로 보여줍니다. 토픽 상세의 **컨슈머 그룹 탭**에서는 그룹별로 지금 Lag이 얼마나 쌓여 있는지를 한 줄로 확인할 수 있고, **모니터링 탭**의 *컨슈머 그룹별 Lag* 차트에서는 시간에 따른 Lag 추이를 시계열로 볼 수 있어요. 어느 컨슈머 그룹이 지연되고 있는지, 그게 일시적인 스파이크인지 누적되는 추세인지를 별도의 사이드카나 대시보드 없이 판단할 수 있습니다.\r\r\n\r\r\n모니터링 데이터는 90일 동안 보관되기 때문에, 사후 분석도 콘솔 안에서 가능합니다. *\"지난주 새벽에 Lag이 튀었던 그게 뭐였지?\"* 같은 질문에 별도 메트릭 저장소를 뒤지지 않고 답할 수 있어요.\r\r\n\r\r\n![토픽 상세의 컨슈머 그룹 탭](https://image.toast.com/aaaadh/real/2026/techblog/ConsumerGroupTapshadow.png)\r\r\n![토픽 상세의 모니터링 탭](https://image.toast.com/aaaadh/real/2026/techblog/MonitoringTapshadow.png)\r\r\n\r\r\n### 기존 Kafka 코드, 표준 그대로 붙습니다\r\r\n\r\r\n관리형 서비스를 도입할 때 가장 큰 걱정은 락인(lock-in)입니다. \"지금은 편하지만, 나중에 다른 곳으로 옮기려면 코드를 다시 짜야 하는 거 아닌가?\" 하는 걱정이죠. EasyQueue는 이 부분을 표준 Apache Kafka 프로토콜 호환으로 풀었습니다. 사용하시던 Java, Python, Go의 Kafka 클라이언트 라이브러리를 그대로 쓰고, 접속 정보와 표준 OAuth 인증 설정(SASL/OAUTHBEARER)만 추가하면 됩니다. Kafka 자체의 사용법 — 토픽, 파티션, 컨슈머 그룹, 트랜잭션 — 은 어디서나 동일하기 때문에, 기존 컨슈머·프로듀서 코드, 모니터링 설정, 운영 노하우가 그대로 자산이 됩니다. 구체적인 코드 예제는 뒤의 *시작하기* 단계에서 다뤄볼께요.\r\r\n\r\r\n## 안에서는 이렇게 돌아갑니다\r\r\n\r\r\nEasyQueue에서 메시지는 컨슈머가 읽어 가도 삭제되지 않습니다. 설정한 보관 기간 또는 용량 한도에 도달할 때까지 토픽에 그대로 유지되기 때문에 여러 컨슈머가 각자의 진행 상황(오프셋)을 기억하면서 같은 메시지를 독립적으로 가져갈 수 있고, 컨슈머를 재시작하거나 새로 추가해 처음부터 다시 읽는 것도 가능합니다.\r\r\n\r\r\n전체 흐름은 세 단계로 정리됩니다.\r\r\n\r\r\n```\r\r\n  [Producer A] [Producer B] [Producer C]\r\r\n       │            │            │\r\r\n       └────────────┼────────────┘    ① 발행 (publish)\r\r\n                    ▼\r\r\n  ┌────────────── EasyQueue ──────────────┐\r\r\n  │                                       │\r\r\n  │   ┌─Topic ─┐  ┌─Topic ─┐  ┌─Topic ─┐  │\r\r\n  │   │ part 0 │  │ part 0 │  │ part 0 │  │\r\r\n  │   │ part 1 │  │ part 1 │  │ part 1 │  │\r\r\n  │   │ part 2 │  │ part 2 │  │ part 2 │  │  ② 저장 (store)\r\r\n  │   │ part 3 │  │ part 3 │  │ part 3 │  │     · 3중 복제\r\r\n  │   └────────┘  └────────┘  └────────┘  │\r\r\n  │                                       │\r\r\n  └───────────────────┬───────────────────┘\r\r\n                      │\r\r\n       ┌──────────────┼──────────────┐    ③ 구독 (subscribe)\r\r\n       ▼              ▼              ▼\r\r\n  [Consumer A]  [Consumer B]  [Consumer C]\r\r\n```\r\r\n\r\r\n① 프로듀서가 토픽으로 메시지를 보내고, ② EasyQueue 클러스터가 그 메시지를 토픽 내부의 파티션에 나눠 저장하고, ③ 컨슈머가 필요한 시점에 토픽에서 메시지를 읽어 갑니다. 발행·저장·구독으로 이어지는 흐름은 직접 운영하는 Kafka와 동일합니다.\r\r\n\r\r\n운영 측면에서 짚어둘 부분이 두 가지 있어요. 첫 번째는 **메시지 3중 복제**입니다. Kafka를 직접 운영하면 복제본 수와 최소 동기화 복제본 수를 토픽마다 자유롭게 정할 수 있고, 메시지 유실보다 처리 성능이 중요할 때는 이 값을 낮춰 쓰기도 합니다. EasyQueue는 이 값을 복제본 수 3, 최소 동기화 복제본 수 2로 고정했어요. 자유도는 조금 줄지만 메시지가 유실되지 않는 쪽을 기본으로 보장하기 위해서입니다. 그래서 한 메시지는 항상 서로 다른 브로커 3대에 나뉘어 저장되고, 세 복제본 중 하나가 리더를 맡아 읽기·쓰기를 처리하다가 리더가 있는 브로커에 장애가 나면 남은 복제본 중 하나가 곧바로 리더 역할을 이어받아요. 덕분에 브로커 한 대가 멈춰도 메시지 손실 없이 정상 동작이 이어집니다.\r\r\n\r\r\n두 번째는 **리전 단위로 분리된 클러스터**입니다. EasyQueue는 현재 판교와 평촌, 두 리전에 각각 독립된 클러스터를 운영합니다. 한 리전의 장애가 다른 리전으로 번지지 않도록 격리되어 있어, 운영 차원의 안정성은 인프라 레벨에서 이미 확보된 상태로 시작합니다.\r\r\n\r\r\n## 그래서, 어떻게 시작하나\r\r\n\r\r\nEasyQueue를 클라이언트로 연결하려면 세 가지 정보가 필요합니다. **인증 키** 한 쌍, **Appkey**, 그리고 토픽이 살고 있는 **Bootstrap Servers** 주소. 콘솔에서 메뉴를 세 번 들렀다 오면 끝나는 일이에요.\r\r\n\r\r\n**1단계. User Access Key 발급하기**\r\r\n\r\r\nEasyQueue는 SASL/OAUTHBEARER, 즉 OAuth 2.0 Bearer 토큰을 인증에 씁니다. 토큰 발급에 쓸 인증 키를 먼저 만들어야 해요. NHN Cloud 콘솔의 **마이 페이지 > API 보안 설정**에서 토큰 타입이 **JWT**인 User Access Key를 생성하면, *User Access Key* 와 *Secret Access Key* 한 쌍을 받게 됩니다. 이 두 값이 Kafka 클라이언트의 인증 자격증명으로 들어가요.\r\r\n\r\r\n**2단계. Appkey와 Bootstrap Servers 확인하기**\r\r\n\r\r\n인증 키를 받았으면, 이번엔 EasyQueue 콘솔로 돌아옵니다. 우측 상단의 **URL & Appkey** 메뉴에서 *Appkey*를 확인하세요. *Appkey*는 아래 *Kafka 클라이언트로 연결하기* 단계에서 토픽·컨슈머 그룹 이름의 접두어로 쓰입니다. 그다음 메시지를 주고받을 토픽을 만든 뒤 토픽 상세의 **클라이언트 접속 정보**에서 *Bootstrap Servers* 주소를 확인합니다. Bootstrap Servers는 `{region}-{cluster}-bootstrap-easyqueue.nhncloudservice.com:30000` 형태로 보입니다. 포트는 일반 Kafka 기본 포트(9092)가 아니라 **30000번대**라는 점만 짚어두세요.\r\r\n\r\r\n![URL & Appkey 확인 화면](https://image.toast.com/aaaadh/real/2026/techblog/urlAppkeymaskedshadow.png)\r\r\n\r\r\n**3단계. Kafka 클라이언트로 연결하기**\r\r\n\r\r\n여기서부터는 평소 쓰시던 Kafka 클라이언트 라이브러리를 그대로 쓰면 됩니다. 인증 방식이 PLAIN이나 SCRAM이 아니라 OAUTHBEARER라는 차이는 있지만, 이것도 표준 Apache Kafka 메커니즘이에요. 한 가지 명명 규칙만 기억하면 됩니다. **토픽 이름과 컨슈머 그룹 ID는 모두 `{APP_KEY}.` 접두어로 시작**합니다. 권한 분리를 위한 규칙이라 어기면 권한 오류가 납니다. 아래 설정값은 EasyQueue의 SASL/OAUTHBEARER 방식을 기준으로 작성했습니다. 코드의 ``에는 OAuth 토큰을 발급하는 NHN Cloud 인증 서버 주소인 `https://oauth.api.nhncloudservice.com/oauth2/token/create`를 넣습니다.\r\r\n\r\r\nJava로 메시지를 보내는 가장 단순한 예제는 다음과 같습니다.\r\r\n\r\r\n```java\r\r\nProperties props = new Properties();\r\r\nprops.put(\"bootstrap.servers\", \"\");\r\r\nprops.put(\"key.serializer\", StringSerializer.class.getName());\r\r\nprops.put(\"value.serializer\", StringSerializer.class.getName());\r\r\n\r\r\n// SASL/OAUTHBEARER 인증 설정\r\r\nprops.put(\"security.protocol\", \"SASL_SSL\");\r\r\nprops.put(\"sasl.mechanism\", \"OAUTHBEARER\");\r\r\nprops.put(\"sasl.login.callback.handler.class\",\r\r\n    \"org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginCallbackHandler\");\r\r\nprops.put(\"sasl.oauthbearer.token.endpoint.url\", \"\");\r\r\nprops.put(\"sasl.jaas.config\",\r\r\n    \"org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required \" +\r\r\n    \"clientId=\\\"\\\" \" +\r\r\n    \"clientSecret=\\\"\\\" \" +\r\r\n    \"scope=\\\"appKey:\\\";\");\r\r\n\r\r\nString topic = \".my-topic\";\r\r\ntry (KafkaProducer producer = new KafkaProducer(props)) {\r\r\n    producer.send(new ProducerRecord(topic, \"hello\"));\r\r\n}\r\r\n```\r\r\n\r\r\nPython(`confluent-kafka` 기준)이라면 비슷한 구조로 다음처럼 짧아집니다.\r\r\n\r\r\n```python\r\r\nfrom confluent_kafka import Producer\r\r\n\r\r\nconfig = {\r\r\n    \"bootstrap.servers\": \"\",\r\r\n    \"security.protocol\": \"SASL_SSL\",\r\r\n    \"sasl.mechanisms\": \"OAUTHBEARER\",\r\r\n    \"sasl.oauthbearer.method\": \"oidc\",\r\r\n    \"sasl.oauthbearer.token.endpoint.url\": \"\",\r\r\n    \"sasl.oauthbearer.client.id\": \"\",\r\r\n    \"sasl.oauthbearer.client.secret\": \"\",\r\r\n    \"sasl.oauthbearer.scope\": \"appKey:\",\r\r\n}\r\r\nproducer = Producer(config)\r\r\nproducer.produce(\".my-topic\", value=b\"hello\")\r\r\nproducer.flush()\r\r\n```\r\r\n\r\r\n컨슈머도 같은 인증 설정에 `group.id`만 `.my-group` 형태로 추가하면 끝입니다. OAuth 토큰은 클라이언트 라이브러리가 알아서 발급·갱신하기 때문에, 한 번 설정해 두면 평소처럼 메시지를 주고받게 됩니다. 다만 토큰 유효 시간이 지나면 만료되니, **장시간 실행되는 프로듀서/컨슈머라면 토큰 자동 갱신이 동작하도록 설정**해 두는 것이 안전합니다. 자세한 언어별 예제와 트랜잭션 사용법은 [Kafka 클라이언트 가이드](https://docs.nhncloud.com/ko/Data%20&%20Analytics/EasyQueue/ko/kafka-client-guide/)를 참고해 주세요.\r\r\n\r\r\n토픽이 정상적으로 동작하는지는 앞서 소개한 콘솔의 *메시지 전송 테스트* 로 한 번 더 확인해 볼 수 있어요. 개발 환경 통합부터 운영 도입까지의 거리가 짧다는 점이 EasyQueue를 도입할 때 가장 빨리 체감할 수 있는 차이입니다.\r\r\n\r\r\n## 요금과 마무리\r\r\n\r\r\n### 쓴 만큼만 내는 종량제\r\r\n\r\r\nEasyQueue는 쓴 만큼만 비용이 나가는 종량제로 운영됩니다. 별도의 인스턴스 비용 없이, 사용한 자원에 따라 네 가지 항목이 시간 단위로 누적됩니다.\r\r\n\r\r\n| 과금 구분 | 과금 기준 | 요금 |\r\r\n|---|---|---|\r\r\n| 파티션 수 | 1개당 사용 시간 누적 | 30원/시간 |\r\r\n| 저장 데이터 용량 | 1GB당 사용 시간 누적 | 1.93원/시간 |\r\r\n| 메시지 쓰기량 | 1GB당 | 140원 |\r\r\n| 메시지 읽기량 | 1GB당 | 70원 |\r\r\n\r\r\n*(2026년 6월 기준, VAT 별도. 한국(판교)·한국(평촌) 동일)*\r\r\n\r\r\n두 가지만 짚어둘게요. 저장 데이터 용량은 **복제본 수가 3이라 사용자가 저장한 실제 크기보다 최대 3배로 측정**됩니다. EasyQueue가 운영 안정성을 위해 한 메시지를 브로커 3대에 동시 저장하기 때문이에요. 앞서 살펴본 3중 복제의 비용 측 영향이 이 부분입니다. 두 번째는 토픽별로 **메시지 보존 기간, 파티션 최대 크기, 파티션 개수**를 직접 조정할 수 있다는 점입니다. 저장 비용은 결국 토픽 설정에 따라 결정되기 때문에, 트래픽 패턴이 잡히면 보존 기간을 줄이거나 파티션 크기를 조정해서 비용을 통제할 수 있어요. 가장 최신 요금은 [공식 요금 안내](https://www.nhncloud.com/kr/service/data-analytics/easyqueue#pricing) 페이지에서 확인하실 수 있습니다.\r\r\n\r\r\n### 지금의 EasyQueue, 그리고 지금 시작하기\r\r\n\r\r\nEasyQueue는 2026년 6월 기준 **베타 단계**입니다. 한국 두 리전에서 운영 중이고, 토픽·파티션 수를 일정 범위로 제한하는 것처럼 공용 클러스터 모델 위에서 의식적으로 두고 있는 가드레일도 있습니다. 사용 규모가 커지거나 더 큰 한도가 필요해 도입을 검토하는 단계라면, 고객지원으로 문의해 주시는 것이 가장 빠른 길입니다.\r\r\n\r\r\nEasyQueue가 만들고 싶었던 건 거창한 것이 아닙니다. **Kafka의 유연함은 그대로 두되, Kafka 운영의 무게는 덜어내는 것.** 그래서 Kafka가 필요할 때, 인프라 구축이 아니라 비즈니스 로직으로 바로 시간을 쓸 수 있게 하는 것. 그게 우리가 잡고 싶었던 자리입니다.\r\r\n\r\r\n콘솔에서 토픽 하나 만들어 보시는 데는 1분도 걸리지 않습니다. 한 번 띄워 보시고, 사용하시던 Kafka 코드를 그대로 붙여 보세요.\r\r\n\r\r\n- [EasyQueue 서비스 소개](https://www.nhncloud.com/kr/service/data-analytics/easyqueue)\r\r\n- [EasyQueue 사용자 가이드](https://docs.nhncloud.com/ko/Data%20&%20Analytics/EasyQueue/ko/overview/)\r\r\n- [Kafka 클라이언트 가이드](https://docs.nhncloud.com/ko/Data%20&%20Analytics/EasyQueue/ko/kafka-client-guide/)\r\r\n- 도입 문의: [NHN Cloud 고객지원 > 문의하기](https://www.nhncloud.com/kr/support/inquiry)\r\r\n\r\r\n![Meetup footer](https://image.toast.com/aaaadh/real/2026/techblog/NHNCloudmeetupbannerfooterblue202606900.png)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://meetup.nhncloud.com/posts/415",
-    "pubDate": "Thu, 11 Jun 2026 01:46:39 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "MSVC Build Tools Preview updates – June 2026",
-    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – June 2026 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-june-2026/",
-    "pubDate": "Thu, 11 Jun 2026 17:09:04 +0000",
-    "creator": "Eric Brumer",
-    "categories": [
-      "Announcement",
-      "C++",
-      "MSVC"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Agentic AI Governance: Designing for Accountability and Control",
-    "description": "Many organizations are already deploying agentic workflows. Some are still experimental, while others are running in production. Once an AI agent can take action on behalf of a business, the question is no longer whether it’s useful, but what happens when something goes wrong. It’s tempting to focus on blame: the AI vendor, the manager, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/06/agentic-ai-governance-designing-for-accountability-and-control/",
-    "pubDate": "Wed, 10 Jun 2026 03:31:57 +0000",
-    "creator": "Conrad Schwellnus",
-    "categories": [
-      "agentic-ai",
-      "jetbrains-ai",
-      "jetbrains-central",
-      "partners",
-      "ai-governance",
-      "governance"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Best Python AI Frameworks in 2026",
-    "description": "Whether you’re building chatbots, training computer vision models, or analyzing business data, choosing the right AI framework can make or break your project. Python has become the dominant language for AI and machine learning development, and the ecosystem of frameworks supporting this work has matured significantly. The right framework choice depends on what you’re building. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/06/best-python-ai-frameworks-in-2026/",
-    "pubDate": "Thu, 11 Jun 2026 11:28:08 +0000",
-    "creator": "Evgenia Verbina",
-    "categories": [
-      "data-science",
-      "hugging-face",
-      "keras",
-      "langchain",
-      "pytorch",
-      "scikit-learn",
-      "tensorflow"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
     "title": "Contribute to the State of PHP Survey",
     "description": "Together with The PHP Foundation, we’re embarking on an exciting expedition – the first annual State of PHP census that aims to tally the elePHPant population across the world. Come join us! With the help of the community, we’ve designed a comprehensive survey that aims to unearth the PHP developer trends – from years of […]",
     "reviews": [],
@@ -223,7 +15,22 @@
     ]
   },
   {
-    "id": 14,
+    "id": 2,
+    "imageUrl": "",
+    "title": "Make Visual Studio look the way you want",
+    "description": "Themes are personal. Some of us live in dark mode, some swear by high contrast, and some of us have very strong opinions about that one shade of blue from years ago. The new themes in Visual Studio 2026 are built on Fluent, which gives us a much more consistent and accessible foundation, but we […]\nThe post Make Visual Studio look the way you want appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/make-visual-studio-look-the-way-you-want/",
+    "pubDate": "Mon, 15 Jun 2026 14:00:40 +0000",
+    "creator": "Mads Kristensen",
+    "categories": [
+      "Visual Studio",
+      "themes"
+    ]
+  },
+  {
+    "id": 3,
     "imageUrl": "",
     "title": "JetBrains Plugin Developer Conf 2026 – Call for Speakers",
     "description": "We’re excited to be preparing the third edition of Plugin Developer Conf, coming this November 2026 — a free community event focused on developing and managing plugins for JetBrains products. Over the past two years, Plugin Developer Conf has brought together experts and practitioners from across the ecosystem to share their experience and insights. From […]",
@@ -242,14 +49,191 @@
     ]
   },
   {
-    "id": 15,
+    "id": 4,
     "imageUrl": "",
-    "title": "레거시 프로젝트에서 AI 드리븐 프로젝트로 전환, AX 로드맵",
-    "description": "들어가며\"AI를 쓰면 생산성이 오른다는데, 우리 팀은 어디서부터 시작해야 하지?\"라는 고민을 해보신 적 있나요? 기존 레거시 프로젝트를 AI 드리븐 프로젝트(AI-driven pr...",
+    "title": "데이터 노가다 실수담 - 18th",
+    "description": "+and+ 패턴을 검사하는 정규표현식.\n\n\n\n\n그런데 필드 추출 결과가 이상하다. 실제 검사 결과에 포함되지 않는 패턴이 추가됨.\n\n\n\n\n원본 데이터를 보면 두 패턴은 가까이 있지도 않은데?\n\n\n\n\n원본과 정규표현식 검사 과정을 비교해보니 원본 데이터에서는 보이지 않는 U+0085라는 문자 코드가 정규표현식 검사 과정에서 표시되고 있음을 발견.\n\n\n\n\n해당 로그는 수집 장비 오동작으로 패킷이 불완전하게 저장된 결과인데, 깨진 데이터 일부가 스플렁크에서 줄바꿈문자로 인식됐나 보다. 스플렁크가 하나의 이벤트를 둘로 인식하면서 각각 실행된 추출값을 합쳐서 보여주고 있다는 얘기.\n\n\n분석 정확도를 높이고, 정규표현식도 쉽게 사용하는 방법은 목적에 맞게 범위를 축소하는 것. URI 구간에서 작업해야 하는데 깜박했네(..)\n\n\n\n\n\n관련 글\n\n데이터 노가다 실수담 - 17th\n데이터 노가다 실수담\n노가다는 AI에게\n평균의 함정\n데이터 분석이 쉬워지는 비법\n데이터 분석에 필요한 자질은 뭘까?",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/legacy-to-ai-driven-project-ax-roadmap",
-    "pubDate": "Wed, 10 Jun 2026 02:00:00 GMT",
+    "link": "https://kangmyounghun.blogspot.com/2026/06/18th.html",
+    "pubDate": "2026-06-13T08:47:07.125Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "MSVC Build Tools Preview updates – June 2026",
+    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – June 2026 appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-june-2026/",
+    "pubDate": "Thu, 11 Jun 2026 17:09:04 +0000",
+    "creator": "Eric Brumer",
+    "categories": [
+      "Announcement",
+      "C++",
+      "MSVC"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "GitHub Copilot modernization for C++ is out of preview",
+    "description": "GitHub Copilot modernization for C++ is out of preview as of Visual Studio 2026, helping you upgrade your MSVC Build Tools with an AI-guided workflow.\nThe post GitHub Copilot modernization for C++ is out of preview appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/ghcp-modernization-available/",
+    "pubDate": "Fri, 12 Jun 2026 18:46:01 +0000",
+    "creator": "Michael Price",
+    "categories": [
+      "Announcement",
+      "C++",
+      "Copilot",
+      "GitHub"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 54화, 영애 목격담인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2462",
+    "pubDate": "Wed, 10 Jun 2026 23:31:54 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Static Code Analysis and the Rules of Zero, Three, and Five",
+    "description": "The Rule of Zero, Three, and Five, sometimes written 0/3/5, is a set of C++ guidelines about resource ownership and the special member functions. They exist because the alternatives are double-frees, dangling pointers, and silently broken copies. In this post we’ll work through the rules by tripping over each of those bugs in turn, then […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/06/static-code-analysis-and-the-rules-of-zero-three-and-five/",
+    "pubDate": "Wed, 10 Jun 2026 16:14:45 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "how-tos",
+      "cpp",
+      "cpp-2",
+      "qodana"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "게임뉴스 / 젠슨황 TJ 만남 / 펄어비스 배당",
+    "description": "뀨놀의 게임 읽기 은 게임기자 채널 같습니다.\n여기서 요액해줬군요\n영상: https://www.youtube.com/watch?v=4zArvQ-npYc\n\n\n\n \n \n \n \n젠슨황 TJ (NC 대표) PC방 회동\n19분\n아일러브 아이온2 와 두유노 5090 을 외치셨군요\n젠슨황과 같이 나오면 공매도 세력들도 움찔합니다.\n게임회사에 직접 투자는 안하려나 ...\n \n스팀 넥스프페스트에 얀데레바이러스 출품 / 1인개발자 게임\n23분\n\n\n1인개발자 개발 작품인데 인기를 타고 있다고 합니다.\n위시리스트 1만 넘겼다는군요\n한번 해보시라.\n \n \n펄어비스 건\n\n\n32분에 나옵니다.\n펄어비스 소액주주 항의 집회를 하려고 했으나\n회사에서 배당 발표와 회사가치에 대한 이야기를 하면서\n갑자기 펄어비스 응원집회로 바꼈다고 하네요\n \n다들 GTA 6 발매를 11월을 피하고 있다.\n1시간\n닌텐도 게임 정도는 나오고\n모든 게임이 출시일정을 비웠다고 합니다.\n \n \n \n내년 언리얼 상장을 대비해 메타버스 쪽 띄우기가 시작될 것 같습니다.\n펄어비스도 이거에 편승하려고 여러가지 준비를 하고 있고\n자동생성형 게임들도 컨테스트 소식이 조금씩 올라오고 있군요\n개발자 모으는게 우선이니\n지난번엔 망했고 이번엔 살아나려나 메타버스",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1663",
+    "pubDate": "Sun, 14 Jun 2026 15:44:20 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "게임",
+      "게임뉴스"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "인프런에 ‘CUDA프로그래밍 입문’강의 올렸습니다.",
+    "description": "“CUDA 프로그래밍 입문”이라는 제목으로 인프런에 12챕터짜리 강좌를 올렸습니다.CUDA에 관심이 있지만 어떻게 시작해야 할지 막막하셨던 분들에게 도움이 되리라 생각합니다.인프런에서 검색하지 마시고 아래의 링크를 클릭해서 구입해주시면 제게 경제적으로 더 도움이 됩니다. CUDA프로그래밍 입문– https://inf.run/Ggqn5 다른 강의들도 도움이 될 수 있으므로 살펴보시기 바랍니다. D3D12프로그래밍 기초편 – https://inf.run/WYdmsD3D12프로그래밍 기초플러스 – https://inf.run/dW4QZDirectX Raytracing 프로그래밍 – https://inf.run/ovHNqWindows System 프로그래밍 – https://inf.run/JQMeCWindows Debugging Tips – https://inf.run/8TtQv온라인 게임 개발을 … More 인프런에 ‘CUDA프로그래밍 입문’강의 올렸습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://megayuchi.com/2026/06/11/%ec%9d%b8%ed%94%84%eb%9f%b0%ec%97%90-cuda%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d-%ec%9e%85%eb%ac%b8%ea%b0%95%ec%9d%98-%ec%98%ac%eb%a0%b8%ec%8a%b5%eb%8b%88%eb%8b%a4/",
+    "pubDate": "Thu, 11 Jun 2026 12:10:09 +0000",
+    "creator": "megayuchi",
+    "categories": [
+      "Development",
+      "C++",
+      "CUDA",
+      "GPGPU",
+      "GPU"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Opinion: The Anthropic Dispute Is Not Really About Anthropic. It’s About Trust.",
+    "description": "When the US government effectively forced Anthropic to suspend access to some of its newest AI models over security concerns (Fable 5, Mythos 5), much of the debate immediately split into familiar camps. One side saw government overreach. The other saw a necessary intervention against potentially dangerous technology. Both sides may be missing the more […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/06/anthropic-suspension/",
+    "pubDate": "Mon, 15 Jun 2026 12:10:43 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "agentic-ai",
+      "ai",
+      "jetbrains",
+      "qodana",
+      "qodana-ai"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "바쁜 건 항상 좋은 것",
+    "description": "“바빠서”라는 말은 내가 제일 싫어하는 변명이지만, 아마도 학교나 직장에서 가장 자주 말하고 들을 수 있는 말 중 하나라고 생각한다. 중요한 일인데 바빠서 못 한다면 이건 그 사람에겐 별로 중요한 일이 아닌 것이고, 아마도 바빠서 못 한다고 하는 분은 평생 하지 않을 것이다. 물론, 이건 내 생각이고 나는 항상 바쁨에 대한 이런 엄격한 기준을 갖고 있는데,(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/06/busy-is-always-good.html",
+    "pubDate": "Sun, 14 Jun 2026 21:26:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "inspiring",
+      "Strong"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Review pull requests without leaving Visual Studio",
+    "description": "Pull request integration in Visual Studio has been one of the most requested Git features. Developers have been asking for a way to open a PR, inspect the changes, discuss feedback, and finish the review without switching to the browser. The feedback on that request has played a big role in shaping this experience over […]\nThe post Review pull requests without leaving Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/review-pull-requests-without-leaving-visual-studio/",
+    "pubDate": "Thu, 11 Jun 2026 15:00:02 +0000",
+    "creator": "Leah Tran",
+    "categories": [
+      "Git",
+      "Productivity",
+      "Visual Studio",
+      "Git Integration",
+      "Pull Requests"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "MPS 2026.1 Release Candidate Arrives",
+    "description": "Before we finalize the 2026.1 release, we are presenting a release candidate build so you can preview the new features ahead of time. Download MPS 2026.1 Release Candidate now: DOWNLOAD MPS 2026.1 RC 1 The release candidate brings a single, long-awaited feature: MPS is now accessible to AI coding agents via the MCP (Model Context […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/mps/2026/06/the-mps-2026-1-rc1/",
+    "pubDate": "Thu, 11 Jun 2026 12:07:28 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "releases",
+      "eap",
+      "release"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Toss FacePay Surpasses 6 Million Subscribers",
+    "description": "Adds 3 Million New Users in Just 3 Months",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/FacePay-6million",
+    "pubDate": "Tue, 09 Jun 2026 08:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   }
