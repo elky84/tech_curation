@@ -2,145 +2,17 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Inside JetPride: How JetBrains Employees Built an LGBTQIA+ Community",
-    "description": "What makes a workplace feel welcoming? Sometimes it’s finding colleagues who share your interests. Sometimes it’s discovering people with similar experiences. Sometimes it’s knowing you can talk openly about your life, ask questions, share perspectives, and be yourself without giving it a second thought. JetPride, our LGBTQIA+ employee resource group (ERG), is one place where […]",
+    "title": "LLM 슈퍼메모리 소개 및 사용기",
+    "description": "이 글은 LLM 슈퍼메모리 소개 및 사용기을 나눔한다. \n\n\n\n\n\n레퍼런스\n\nsupermemoryai/supermemory: Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/life-at-jetbrains/2026/06/inside-jetpride-how-jetbrains-employees-built-an-lgbtqia-community/",
-    "pubDate": "Fri, 12 Jun 2026 07:59:58 +0000",
-    "creator": "Grete Kivi",
+    "link": "http://daddynkidsmakers.blogspot.com/2026/06/llm.html",
+    "pubDate": "2026-06-14T20:23:43.305Z",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "게임뉴스 / 젠슨황 TJ 만남 / 펄어비스 배당",
-    "description": "뀨놀의 게임 읽기 은 게임기자 채널 같습니다.\n여기서 요액해줬군요\n영상: https://www.youtube.com/watch?v=4zArvQ-npYc\n\n\n\n \n \n \n \n젠슨황 TJ (NC 대표) PC방 회동\n19분\n아일러브 아이온2 와 두유노 5090 을 외치셨군요\n젠슨황과 같이 나오면 공매도 세력들도 움찔합니다.\n게임회사에 직접 투자는 안하려나 ...\n \n스팀 넥스프페스트에 얀데레바이러스 출품 / 1인개발자 게임\n23분\n\n\n1인개발자 개발 작품인데 인기를 타고 있다고 합니다.\n위시리스트 1만 넘겼다는군요\n한번 해보시라.\n \n \n펄어비스 건\n\n\n32분에 나옵니다.\n펄어비스 소액주주 항의 집회를 하려고 했으나\n회사에서 배당 발표와 회사가치에 대한 이야기를 하면서\n갑자기 펄어비스 응원집회로 바꼈다고 하네요\n \n다들 GTA 6 발매를 11월을 피하고 있다.\n1시간\n닌텐도 게임 정도는 나오고\n모든 게임이 출시일정을 비웠다고 합니다.\n \n \n \n내년 언리얼 상장을 대비해 메타버스 쪽 띄우기가 시작될 것 같습니다.\n펄어비스도 이거에 편승하려고 여러가지 준비를 하고 있고\n자동생성형 게임들도 컨테스트 소식이 조금씩 올라오고 있군요\n개발자 모으는게 우선이니\n지난번엔 망했고 이번엔 살아나려나 메타버스",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1663",
-    "pubDate": "Sun, 14 Jun 2026 15:44:20 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "게임",
-      "게임뉴스"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "데이터 노가다 실수담 - 18th",
-    "description": "+and+ 패턴을 검사하는 정규표현식.\n\n\n\n\n그런데 필드 추출 결과가 이상하다. 실제 검사 결과에 포함되지 않는 패턴이 추가됨.\n\n\n\n\n원본 데이터를 보면 두 패턴은 가까이 있지도 않은데?\n\n\n\n\n원본과 정규표현식 검사 과정을 비교해보니 원본 데이터에서는 보이지 않는 U+0085라는 문자 코드가 정규표현식 검사 과정에서 표시되고 있음을 발견.\n\n\n\n\n해당 로그는 수집 장비 오동작으로 패킷이 불완전하게 저장된 결과인데, 깨진 데이터 일부가 스플렁크에서 줄바꿈문자로 인식됐나 보다. 스플렁크가 하나의 이벤트를 둘로 인식하면서 각각 실행된 추출값을 합쳐서 보여주고 있다는 얘기.\n\n\n분석 정확도를 높이고, 정규표현식도 쉽게 사용하는 방법은 목적에 맞게 범위를 축소하는 것. URI 구간에서 작업해야 하는데 깜박했네(..)\n\n\n\n\n\n관련 글\n\n데이터 노가다 실수담 - 17th\n데이터 노가다 실수담\n노가다는 AI에게\n평균의 함정\n데이터 분석이 쉬워지는 비법\n데이터 분석에 필요한 자질은 뭘까?",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/06/18th.html",
-    "pubDate": "2026-06-13T08:47:07.125Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Modern C++ Support in CLion: What’s New",
-    "description": "Modern C++ makes advanced high-performance techniques more accessible, with features like compile-time computation, zero-overhead abstractions, and expressive template code. But as your codebase grows, your ability to use these techniques productively depends heavily on how well your tooling understands them. Without proper language engine support, modern C++ features can lead to false positives, broken navigation, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2026/06/modern-cpp-support/",
-    "pubDate": "Wed, 10 Jun 2026 09:36:29 +0000",
-    "creator": "Oleg Zinovyev",
-    "categories": [
-      "news",
-      "tips-tricks",
-      "clionnova",
-      "code-analysis",
-      "constexpr",
-      "constexprdebugger",
-      "cpp26",
-      "gcc"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "dotInsights | June 2026",
-    "description": "Did you know? The var keyword isn’t a keyword! It’s one of several “contextual” keywords in C#, and it only has special meaning when used to declare a variable. Try defining a class called var and see what happens to the rest of your codebase… Welcome to dotInsights by JetBrains! This newsletter is the home […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/06/12/dotinsights-june-2026/",
-    "pubDate": "Fri, 12 Jun 2026 11:43:07 +0000",
-    "creator": "Matt Ellis",
-    "categories": [
-      "net-tools",
-      "dotinsights"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "MSVC Build Tools Preview updates – June 2026",
-    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – June 2026 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-june-2026/",
-    "pubDate": "Thu, 11 Jun 2026 17:09:04 +0000",
-    "creator": "Eric Brumer",
-    "categories": [
-      "Announcement",
-      "C++",
-      "MSVC"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Agentic AI Governance: Designing for Accountability and Control",
-    "description": "Many organizations are already deploying agentic workflows. Some are still experimental, while others are running in production. Once an AI agent can take action on behalf of a business, the question is no longer whether it’s useful, but what happens when something goes wrong. It’s tempting to focus on blame: the AI vendor, the manager, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/06/agentic-ai-governance-designing-for-accountability-and-control/",
-    "pubDate": "Wed, 10 Jun 2026 03:31:57 +0000",
-    "creator": "Conrad Schwellnus",
-    "categories": [
-      "agentic-ai",
-      "jetbrains-ai",
-      "jetbrains-central",
-      "partners",
-      "ai-governance",
-      "governance"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "인프런에 ‘CUDA프로그래밍 입문’강의 올렸습니다.",
-    "description": "“CUDA 프로그래밍 입문”이라는 제목으로 인프런에 12챕터짜리 강좌를 올렸습니다.CUDA에 관심이 있지만 어떻게 시작해야 할지 막막하셨던 분들에게 도움이 되리라 생각합니다.인프런에서 검색하지 마시고 아래의 링크를 클릭해서 구입해주시면 제게 경제적으로 더 도움이 됩니다. CUDA프로그래밍 입문– https://inf.run/Ggqn5 다른 강의들도 도움이 될 수 있으므로 살펴보시기 바랍니다. D3D12프로그래밍 기초편 – https://inf.run/WYdmsD3D12프로그래밍 기초플러스 – https://inf.run/dW4QZDirectX Raytracing 프로그래밍 – https://inf.run/ovHNqWindows System 프로그래밍 – https://inf.run/JQMeCWindows Debugging Tips – https://inf.run/8TtQv온라인 게임 개발을 … More 인프런에 ‘CUDA프로그래밍 입문’강의 올렸습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://megayuchi.com/2026/06/11/%ec%9d%b8%ed%94%84%eb%9f%b0%ec%97%90-cuda%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d-%ec%9e%85%eb%ac%b8%ea%b0%95%ec%9d%98-%ec%98%ac%eb%a0%b8%ec%8a%b5%eb%8b%88%eb%8b%a4/",
-    "pubDate": "Thu, 11 Jun 2026 12:10:09 +0000",
-    "creator": "megayuchi",
-    "categories": [
-      "Development",
-      "C++",
-      "CUDA",
-      "GPGPU",
-      "GPU"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "올림픽에서 시작해 지구촌 축제로 성장한 월드컵",
-    "description": "100년 만에 13조 원 규모의 산업이 된 스포츠 이벤트",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/moneyball-12",
-    "pubDate": "Tue, 16 Jun 2026 09:55:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
     "imageUrl": "",
     "title": "Best Python AI Frameworks in 2026",
     "description": "Whether you’re building chatbots, training computer vision models, or analyzing business data, choosing the right AI framework can make or break your project. Python has become the dominant language for AI and machine learning development, and the ecosystem of frameworks supporting this work has matured significantly. The right framework choice depends on what you’re building. […]",
@@ -160,38 +32,24 @@
     ]
   },
   {
-    "id": 11,
+    "id": 3,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 54화, 영애 목격담인데스와",
-    "description": "No description available",
+    "title": "JetBrains Marketplace Ecosystem Security Update: Addressing Malicious Third-Party AI Plugins",
+    "description": "At JetBrains, we build tools that empower developers to create, automate, and innovate. In today’s rapidly evolving software supply chain and threat landscape, we believe responsible transparency must be the foundation of our developer ecosystem. The explosion of AI-assisted development has revolutionized the way engineering teams work, but it has also introduced new vectors for […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2462",
-    "pubDate": "Wed, 10 Jun 2026 23:31:54 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/platform/2026/06/marketplace-ecosystem-security-update-malicious-ai-plugins/",
+    "pubDate": "Wed, 17 Jun 2026 16:11:49 +0000",
+    "creator": "Jakub Chrzanowski",
     "categories": [
-      "웹툰"
+      "intellij-platform",
+      "plugins",
+      "security",
+      "ide"
     ]
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Static Code Analysis and the Rules of Zero, Three, and Five",
-    "description": "The Rule of Zero, Three, and Five, sometimes written 0/3/5, is a set of C++ guidelines about resource ownership and the special member functions. They exist because the alternatives are double-frees, dangling pointers, and silently broken copies. In this post we’ll work through the rules by tripping over each of those bugs in turn, then […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/06/static-code-analysis-and-the-rules-of-zero-three-and-five/",
-    "pubDate": "Wed, 10 Jun 2026 16:14:45 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "how-tos",
-      "cpp",
-      "cpp-2",
-      "qodana"
-    ]
-  },
-  {
-    "id": 13,
+    "id": 4,
     "imageUrl": "",
     "title": "앉으면 허리아프다 모션데스크 를 준비하자 / 침대 컴퓨터 추가",
     "description": "앉아서 일하면 허리 아픈 나이가 되었다.\n이 상황이 오면 서서 일하는게 맞습니다.\n \n \n모션데스크는 앉아서 일하면 허리아픈 사람을 위해서 \n일어서서 일할 수 있도록 높이를 높여주는 기능이 있는 데스크 (책상) 입니다.\n \n영상 하나 보시구요: https://www.youtube.com/shorts/UW7tGEOQoLs\n\n\n\n \n \n \n대표적인것으로 이미 책상이 있는 사람은 비싸게 책상을 갈 필요 없이 \n책상위에 테이블을 하나더 올리는 식으로 사용할 수 있습니다.\n \n책상위에 올려 쓰는 퐁딩 방식\n루나랩 스탠딩 책상 라이트 책상높이조절대 800\n\n\n이름뒤에 800 은 폭이 800 이라는 표시입니다.\n950 도 있었던거 같군요 여러 사이즈가 있나봅니다.\n\n\n제일 저렴한게 10만원 정도군요\n허리 통증이 아직은 심하지 않거나 한번 써보자 하시는 분들은 이걸로 입문하는게 좋겟습니다.\n저는 이거 사보려구요 쓸모 있는지 없는지 알 수가 없으니\n- 모션데스크를 통채로 사긴엔 비싸다\n- 맛만 보려고\n- 새 테이블을 살 공간이 없다. (일반 테이블이 너무 많다)\n \n다리 2개 짜리 모션데스크\n\n\n다리가 두개인게 보통입니다. \n모터가 2개 들어가서 그나마 저렴합니다.\n부실한건 아니고 폭이라고 해야하나 압뒤 길이가 짧습니다. 70cm 정도가 한개 인거 같더라구요\n영상: https://www.youtube.com/watch?v=8X7V__7jNXI\n\n\n\n영상 참고하시구요 안흔들리면 무슨 제품이든 상관은 없습니다.\n\n\n가격이 이상하게 비싸군요 \n쿠팡은 비싸게 파나봅니다. 알아서 잘 찾으시길 \n \n \n \n \n \n다리 4개 모션 데스크 \n아우스 FJ07 800폭 쿼드형 듀얼모터 원목 전동 모션데스크 사무 책상 1200x800\n\n\n\n튼튼한 다리 네개 짜리 모션 데스크 입니다.\n이제품은 그나마 저려함 제품이구요 비싼건 가격이 많이 올라갑니다.\n다리가 내개면 폭이 더 길어지거나 \n모니터를 여러대 달 수 있나 봅니다.\n쇼핑몰: https://brand.naver.com/aus/products/11425142642?is_retargeting=true&c=260101_p_Naver_product&pid=Naver&deep_link_value=https%3A%2F%2Fbrand.naver.com%2Faus%2Fproducts%2F11425142642%3Fka_ref%3Dkakao%26ka_req_id%3DgN4vMivS5lckdSe7NWjIAQ%26ka_template%3Dcommerce_basic&dtm_source=KK&dtm_detail=gN4vMivS5lckdSe7NWjIAQ&dtm_campaign=commerce_basic&dtm_medium=OG\n\n \n아우스 FJ07 800폭 쿼드형 듀얼모터 원목 전동 모션데스크 사무 책상 1200x800 : 아우스\n[아우스] 아우스 공식 브랜드스토어\nbrand.naver.com\n\n가격이 좋네요\n \n \n \n(중요) 추가로 고려해야하는 문제\n케이블 길이\n테이블이 위로 올라가면  그만큼 케이블도 더 길어져야합니다.\n데스크 형태로 산다면 컴퓨터 를 거치할 수 있는 거치대가 있는 경우도 있습니다. \n고려해보시구요\n \n준비가 안되있으면 사자마자 사용못할 수 도 있습니다.\n \n추가 - 침대용 컴퓨터 책생 (?)\n영상: https://www.youtube.com/shorts/ou6Bz0P2Lhg\n\n\n\n\n\n \n\n\n제품 방식은 알겠는데\n딱봐도 영상이 많이 과장한거 같군요\n모니터 크기에 제한이 있습니다. 27인치 2개가 되네요\n어마어마하게 무거운거 한게는 안되나봅니다.\n \n그리고 다리에 지지대가 엄청 큽니다. \n걸려 넘어지거나 발로 찰 가능성이 있어 보입니다.\n \n방식은 알았으니 좀 더 제대로된 제품을 찾아봐야겠습니다.",
@@ -205,19 +63,102 @@
     ]
   },
   {
-    "id": 14,
+    "id": 5,
     "imageUrl": "",
-    "title": "LLM 슈퍼메모리 소개 및 사용기",
-    "description": "이 글은 LLM 슈퍼메모리 소개 및 사용기을 나눔한다. \n\n\n\n\n\n레퍼런스\n\nsupermemoryai/supermemory: Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+    "title": "Opinion: The Anthropic Dispute Is Not Really About Anthropic. It’s About Trust.",
+    "description": "When the US government effectively forced Anthropic to suspend access to some of its newest AI models over security concerns (Fable 5, Mythos 5), much of the debate immediately split into familiar camps. One side saw government overreach. The other saw a necessary intervention against potentially dangerous technology. Both sides may be missing the more […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/06/llm.html",
-    "pubDate": "2026-06-14T20:23:43.305Z",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/qodana/2026/06/anthropic-suspension/",
+    "pubDate": "Mon, 15 Jun 2026 12:10:43 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "agentic-ai",
+      "ai",
+      "jetbrains",
+      "qodana",
+      "qodana-ai"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Review pull requests without leaving Visual Studio",
+    "description": "Pull request integration in Visual Studio has been one of the most requested Git features. Developers have been asking for a way to open a PR, inspect the changes, discuss feedback, and finish the review without switching to the browser. The feedback on that request has played a big role in shaping this experience over […]\nThe post Review pull requests without leaving Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/review-pull-requests-without-leaving-visual-studio/",
+    "pubDate": "Thu, 11 Jun 2026 15:00:02 +0000",
+    "creator": "Leah Tran",
+    "categories": [
+      "Git",
+      "Productivity",
+      "Visual Studio",
+      "Git Integration",
+      "Pull Requests"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "비판적 사고가 필요하다구 - AI 시대 저항하기, 은퇴 연장?",
+    "description": "은퇴를 목표로 하고 있지만 그것과 별개로 학습하거나 복기해보거나 회고해 보는 것은 여전히 하고 있다. 일종의 양가 감정이랄까? 은퇴를 하더라도 내 능력을 키우고 싶다는 생각이다. 게다가 AI 가 여러가지 일을 함으로써 인간이 하던 일을 빼앗기더라도 그 과정에서 저항하고 싶기도 하고 인간만 할 수 있는게 있을 거라는 생각이다. 그래서 찾은 것이 \"비판적 사고",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/52",
+    "pubDate": "Thu, 18 Jun 2026 00:29:33 GMT",
+    "creator": "고종범",
     "categories": []
   },
   {
-    "id": 15,
+    "id": 8,
+    "imageUrl": "",
+    "title": "MSVC Build Tools Preview updates – June 2026",
+    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – June 2026 appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-june-2026/",
+    "pubDate": "Thu, 11 Jun 2026 17:09:04 +0000",
+    "creator": "Eric Brumer",
+    "categories": [
+      "Announcement",
+      "C++",
+      "MSVC"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "이제는 곧 은퇴하렵니다.",
+    "description": "이제는 곧 은퇴하렵니다. 여기서 말하는 곧이 얼마나 짧은 시간이 될지 모르겠지만 그냥 지금의 마음으로서는 은퇴를 하고 싶다. 뭔가 생각의 배설이 필요할 때마다 브런치에 오곤 했다. 그러나 정작 글을 쓴 것들 보니 뭔가 힘이 많이 들어가면서 이상한 글만 남겨두었다. 그래서 겸사겸사 날것 그대로의 글을 써보려고 한다.  제목은 그럴싸하게 곧 은퇴할 것 처럼 썼",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/51",
+    "pubDate": "Wed, 17 Jun 2026 14:09:47 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Junie: The JetBrains AI Coding Agent Leaves Beta.",
+    "description": "Junie started as an experiment. We asked, “What if an AI coding agent didn’t just guess at the details of your project, but actually used the same tools you do?” Over the last year, that experiment turned into a product used by developers every day – inside the IDE and the terminal.  Today, the JetBrains […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
+    "pubDate": "Wed, 17 Jun 2026 09:07:19 +0000",
+    "creator": "Dmitry Savelev",
+    "categories": [
+      "agentic-ai",
+      "jetbrains-ai",
+      "news",
+      "ai-agent",
+      "junie",
+      "release"
+    ]
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "GitHub Copilot modernization for C++ is out of preview",
     "description": "GitHub Copilot modernization for C++ is out of preview as of Visual Studio 2026, helping you upgrade your MSVC Build Tools with an AI-guided workflow.\nThe post GitHub Copilot modernization for C++ is out of preview appeared first on C++ Team Blog.",
@@ -231,6 +172,61 @@
       "C++",
       "Copilot",
       "GitHub"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Your JetBrains IDE Expertise, Now on LinkedIn",
+    "description": "Every developer has tools they rely on daily. The workflows they’ve built around them, the ways they’ve learned to move faster, debug smarter, and write better code – that kind of hands-on experience can be hard to put into words. We’re collaborating with LinkedIn to make it easier for you to showcase your expertise with […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/blog/2026/06/17/your-jetbrains-ide-expertise-now-on-linkedin/",
+    "pubDate": "Wed, 17 Jun 2026 13:11:02 +0000",
+    "creator": "Ekaterina Ryabukha",
+    "categories": [
+      "news"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "ID-JAG The Hard Way: 실패로 배우는 AI 에이전트 보안 핸즈온",
+    "description": "안녕하세요. LY Corporation에서 인증·인가 기반 Athenz의 개발·운영을 담당하고 있는 보안 플랫폼 엔지니어 김정우입니다.지난 글 AI 시대에 인증 과제를 해결할 차세...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/id-jag-the-hard-way-learning-ai-agent-authz-through-failure",
+    "pubDate": "Wed, 17 Jun 2026 03:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Boosting Adobe Photoshop’s Performance with MSVC and SPGO",
+    "description": "Boosting Adobe Photoshop’s Performance with MSVC and SPGO Adobe and Microsoft worked together to improve Photoshop performance and responsiveness on Windows by combining MSVC’s peak-performance build settings with Sample-based Profile-Guided Optimization (SPGO). The collaboration focused on real customer scenarios where latency matters most, including brush and stroke responsiveness, file open times, and other CPU-intensive operations […]\nThe post Boosting Adobe Photoshop’s Performance with MSVC and SPGO appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/boosting-adobe-photoshops-performance-with-msvc-and-spgo/",
+    "pubDate": "Tue, 16 Jun 2026 20:18:37 +0000",
+    "creator": "Eric Brumer",
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "dotInsights | June 2026",
+    "description": "Did you know? The var keyword isn’t a keyword! It’s one of several “contextual” keywords in C#, and it only has special meaning when used to declare a variable. Try defining a class called var and see what happens to the rest of your codebase… Welcome to dotInsights by JetBrains! This newsletter is the home […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/06/12/dotinsights-june-2026/",
+    "pubDate": "Fri, 12 Jun 2026 11:43:07 +0000",
+    "creator": "Matt Ellis",
+    "categories": [
+      "net-tools",
+      "dotinsights"
     ]
   }
 ]
