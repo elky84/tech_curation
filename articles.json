@@ -2,50 +2,19 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "공학이 아니라 철학 - AI 시대 저항하기 - 철학",
-    "description": "내가 중요하게 여기는 것은 대부분 Tech 들이다. IT 분야에 일하고 있는 때문에 기본적으로 Tech 가 중요하다. 그리고 나의 삶에 중요한 Tech 는 재테크, 근테크, 뇌테크이다. 효율적으로 재산을 불리는 행위의 재테크, 꾸준한 노력으로 근력을 키우는 근테크, 뇌세포를 유지하고 활성화하는 뇌테크이다. 이런 테크들을 위해 내가 노력하는 것은 공학적 입장",
+    "title": "Boosting Adobe Photoshop’s Performance with MSVC and SPGO",
+    "description": "Boosting Adobe Photoshop’s Performance with MSVC and SPGO Adobe and Microsoft worked together to improve Photoshop performance and responsiveness on Windows by combining MSVC’s peak-performance build settings with Sample-based Profile-Guided Optimization (SPGO). The collaboration focused on real customer scenarios where latency matters most, including brush and stroke responsiveness, file open times, and other CPU-intensive operations […]\nThe post Boosting Adobe Photoshop’s Performance with MSVC and SPGO appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/54",
-    "pubDate": "Fri, 19 Jun 2026 14:59:28 GMT",
-    "creator": "고종범",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/boosting-adobe-photoshops-performance-with-msvc-and-spgo/",
+    "pubDate": "Tue, 16 Jun 2026 20:18:37 +0000",
+    "creator": "Eric Brumer",
+    "categories": [
+      "C++"
+    ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "유튜버 - 나만사면물린다TV / 한때 SOXL 을 잘 거래하셨던분",
-    "description": "우연히 누가 추천해줘서 보게되었습니다.\n \n제가 처음 본 영상은\n특이한 전략 - https://www.youtube.com/watch?v=hv0ArRX91oM\n\n\n\n이 영상을 처음 봤습니다.\nfngu 랑 코인베이스 3배를 내리면 2주 오르면 1주 사겠다는 전략입니다.\n50% 먹으면 익절하겠다는 전략인데\n무한 매수법 비슷한 방법 같습니다.\n \n지금이 6월이라 썸머랠리에 반짝 하고 좋아질 수 있지만\n저는 8 - 9 월은 안좋을꺼라 예상 중입니다.\n \n비트코인은 최고점에서 반토막 나면 들어가는 전략이 있긴합니다만 아직은 64,000 달러인데\n50,000 까지 가야 반토막이라 이정도 빼는가 가능할지 모르겠습니다.\n \n \n이분의 첫번째 영상을 보았습니다.\n첫번째영상 - https://www.youtube.com/watch?v=P643wNZHHEk\n\n\n\nsoxl 을 50 달러 근처에서 전량 매도 하셨군요\n21년 8월 입니다. 금리 인상 전 이라 파는게 맞아보이긴합니다.\nsoxl 은 23년도 쯤에다시 날아갔던거 같군요\n \n\n\n제일 왼쪽이 첫번째 영상 시점입니다.\n오른쪽에 최저점은 25년 4월 입니다.\n \n차트 스샷 찍으면서 견디면 얼마야 했지만\n인간이 견딜 수 있는 기간이 아닌거 같습니다.\n잘 파신게 맞군요\n \n25년 4월엔 10달러까지 추락했었군요\n최저가에 샀더라도\n뒤로 1년은 견뎌야하고 마지막에 또한번의 반토막나는 하락을 견뎌야하는군요\n \n한때 훌륭한 트레이더 였지만\n사고 팔고를 지속적으로 맞출 수 없다는 것을 알 수 있었습니다.\n \n저야 겨우 본전 찾고 있지만\n그사이 절단 나신분도 있었군요\n이 좋은 장에 반도체 숏이라니 ㄷㄷㄷ\n \n추락하신분의 유튜브를 보게되어 소감 남겨봤습니다.\n이분 전략을 지속하는지 꾸준히 지켜볼 예정입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1665",
-    "pubDate": "Wed, 17 Jun 2026 14:52:52 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "투자",
-      "SOXL"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Qodana Is a Finalist in the 2026 CODiE Awards for Best DevOps Tool",
-    "description": "Qodana For DevOps: Automated Code Quality and Security, at Scale Modern DevOps teams move fast – but speed without consistency, security, and visibility creates risk. JetBrains Qodana helps DevOps teams build and ship higher-quality, more secure software by making code quality and security checks automatic, consistent, and easy to act on across the entire delivery […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/06/qodana-is-a-finalist-in-the-2026-codie-awards-for-best-devops-tool/",
-    "pubDate": "Thu, 18 Jun 2026 13:18:10 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "awards",
-      "ai",
-      "devops",
-      "intellij",
-      "qodana"
-    ]
-  },
-  {
-    "id": 4,
     "imageUrl": "",
     "title": "JetBrains Marketplace Ecosystem Security Update: Addressing Malicious Third-Party AI Plugins",
     "description": "On June 16, 2026, JetBrains received reports about 15 third-party plugins on JetBrains Marketplace that were built to steal AI provider API keys configured by users. We removed the plugins from Marketplace, blocked the related publisher accounts, and disabled the plugins in installed IDEs through our backend systems. If you were affected, see the Required […]",
@@ -62,7 +31,51 @@
     ]
   },
   {
+    "id": 3,
+    "imageUrl": "",
+    "title": "We have moved to https://developer.paypal.com/community/blog",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://medium.com/paypal-tech/we-have-moved-to-https-developer-paypal-com-community-blog-2acf7cb138a6?source=rss----6423323524ba---4",
+    "pubDate": "Mon, 15 Jun 2026 21:19:29 GMT",
+    "creator": "PayPal Tech Blog Team",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "The Data Canary: How Netflix Validates Catalog Metadata",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://medium.com/netflix-techblog/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:54:17 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "automation",
+      "site-reliability",
+      "data-validation",
+      "data-reliability",
+      "experimentation"
+    ]
+  },
+  {
     "id": 5,
+    "imageUrl": "",
+    "title": "앉으면 허리아프다 모션데스크 를 준비하자 / 침대 컴퓨터 추가",
+    "description": "앉아서 일하면 허리 아픈 나이가 되었다.\n이 상황이 오면 서서 일하는게 맞습니다.\n \n \n모션데스크는 앉아서 일하면 허리아픈 사람을 위해서 \n일어서서 일할 수 있도록 높이를 높여주는 기능이 있는 데스크 (책상) 입니다.\n \n영상 하나 보시구요: https://www.youtube.com/shorts/UW7tGEOQoLs\n\n\n\n \n \n \n대표적인것으로 이미 책상이 있는 사람은 비싸게 책상을 갈 필요 없이 \n책상위에 테이블을 하나더 올리는 식으로 사용할 수 있습니다.\n \n책상위에 올려 쓰는 퐁딩 방식\n루나랩 스탠딩 책상 라이트 책상높이조절대 800\n\n\n이름뒤에 800 은 폭이 800 이라는 표시입니다.\n950 도 있었던거 같군요 여러 사이즈가 있나봅니다.\n\n\n제일 저렴한게 10만원 정도군요\n허리 통증이 아직은 심하지 않거나 한번 써보자 하시는 분들은 이걸로 입문하는게 좋겟습니다.\n저는 이거 사보려구요 쓸모 있는지 없는지 알 수가 없으니\n- 모션데스크를 통채로 사긴엔 비싸다\n- 맛만 보려고\n- 새 테이블을 살 공간이 없다. (일반 테이블이 너무 많다)\n \n다리 2개 짜리 모션데스크\n\n\n다리가 두개인게 보통입니다. \n모터가 2개 들어가서 그나마 저렴합니다.\n부실한건 아니고 폭이라고 해야하나 압뒤 길이가 짧습니다. 70cm 정도가 한개 인거 같더라구요\n영상: https://www.youtube.com/watch?v=8X7V__7jNXI\n\n\n\n영상 참고하시구요 안흔들리면 무슨 제품이든 상관은 없습니다.\n\n\n가격이 이상하게 비싸군요 \n쿠팡은 비싸게 파나봅니다. 알아서 잘 찾으시길 \n \n \n \n \n \n다리 4개 모션 데스크 \n아우스 FJ07 800폭 쿼드형 듀얼모터 원목 전동 모션데스크 사무 책상 1200x800\n\n\n\n튼튼한 다리 네개 짜리 모션 데스크 입니다.\n이제품은 그나마 저려함 제품이구요 비싼건 가격이 많이 올라갑니다.\n다리가 내개면 폭이 더 길어지거나 \n모니터를 여러대 달 수 있나 봅니다.\n쇼핑몰: https://brand.naver.com/aus/products/11425142642?is_retargeting=true&c=260101_p_Naver_product&pid=Naver&deep_link_value=https%3A%2F%2Fbrand.naver.com%2Faus%2Fproducts%2F11425142642%3Fka_ref%3Dkakao%26ka_req_id%3DgN4vMivS5lckdSe7NWjIAQ%26ka_template%3Dcommerce_basic&dtm_source=KK&dtm_detail=gN4vMivS5lckdSe7NWjIAQ&dtm_campaign=commerce_basic&dtm_medium=OG\n\n \n아우스 FJ07 800폭 쿼드형 듀얼모터 원목 전동 모션데스크 사무 책상 1200x800 : 아우스\n[아우스] 아우스 공식 브랜드스토어\nbrand.naver.com\n\n가격이 좋네요\n \n \n \n(중요) 추가로 고려해야하는 문제\n케이블 길이\n테이블이 위로 올라가면  그만큼 케이블도 더 길어져야합니다.\n데스크 형태로 산다면 컴퓨터 를 거치할 수 있는 거치대가 있는 경우도 있습니다. \n고려해보시구요\n \n준비가 안되있으면 사자마자 사용못할 수 도 있습니다.\n \n추가 - 침대용 컴퓨터 책생 (?)\n영상: https://www.youtube.com/shorts/ou6Bz0P2Lhg\n\n\n\n\n\n \n\n\n제품 방식은 알겠는데\n딱봐도 영상이 많이 과장한거 같군요\n모니터 크기에 제한이 있습니다. 27인치 2개가 되네요\n어마어마하게 무거운거 한게는 안되나봅니다.\n \n그리고 다리에 지지대가 엄청 큽니다. \n걸려 넘어지거나 발로 찰 가능성이 있어 보입니다.\n \n방식은 알았으니 좀 더 제대로된 제품을 찾아봐야겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1664",
+    "pubDate": "Mon, 15 Jun 2026 15:32:26 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "유튜브"
+    ]
+  },
+  {
+    "id": 6,
     "imageUrl": "",
     "title": "편리가 준 해로움",
     "description": "오랜동안 리모트 워크라는 핑계로 출근을 많이 하지 않고 사람들과의 접촉을 줄였다. 시간이 생기다보니 이런저런 공부도 하게되고 좋다고 생각했다. 그런데 몇년을 하니 문제가 있다는 것을 알게 되었다. 특히 나처럼 생각이 많은 사람에게 더욱 문제가 되는 현상이 있다. 그것은 마치 AI 처럼 현실 세계에 대한 데이터가 부족해 지는 현상이다. 소위 World Mod",
@@ -74,160 +87,139 @@
     "categories": []
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "LLM 슈퍼메모리 소개 및 사용기",
-    "description": "이 글은 LLM 슈퍼메모리 소개 및 사용기을 나눔한다. \n\n\n\n\n\n레퍼런스\n\nsupermemoryai/supermemory: Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/06/llm.html",
-    "pubDate": "2026-06-14T20:23:43.305Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
     "id": 7,
     "imageUrl": "",
-    "title": "Opinion: The Anthropic Dispute Is Not Really About Anthropic. It’s About Trust.",
-    "description": "When the US government effectively forced Anthropic to suspend access to some of its newest AI models over security concerns (Fable 5, Mythos 5), much of the debate immediately split into familiar camps. One side saw government overreach. The other saw a necessary intervention against potentially dangerous technology. Both sides may be missing the more […]",
+    "title": "[MULTI] 온고지신의 명품급 증명, 모험가 엘리엇의 천 년 이야기",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/06/anthropic-suspension/",
-    "pubDate": "Mon, 15 Jun 2026 12:10:43 +0000",
-    "creator": "Kerry Beetge",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2463",
+    "pubDate": "Wed, 17 Jun 2026 12:00:22 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "agentic-ai",
-      "ai",
-      "jetbrains",
-      "qodana",
-      "qodana-ai"
+      "리뷰"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "이제는 곧 은퇴하렵니다.",
-    "description": "이제는 곧 은퇴하렵니다. 여기서 말하는 곧이 얼마나 짧은 시간이 될지 모르겠지만 그냥 지금의 마음으로서는 은퇴를 하고 싶다. 뭔가 생각의 배설이 필요할 때마다 브런치에 오곤 했다. 그러나 정작 글을 쓴 것들 보니 뭔가 힘이 많이 들어가면서 이상한 글만 남겨두었다. 그래서 겸사겸사 날것 그대로의 글을 써보려고 한다.  제목은 그럴싸하게 곧 은퇴할 것 처럼 썼",
+    "title": "하드웨어는 항상 여기에 있었다",
+    "description": "꽤 오랫동안 같은 말을 주변에서 계속 들어서 정확하게 언제부터인지 기억은 안 나지만, 최소 20년 전부터 삼성, LG, 현대 같은 한국 기업은 미래가 없다는 말을 너무 많이 들었다. 여러 가지 이유가 있었지만, 가장 많이 들었던 이유는 이 회사들은 하드웨어만 할 줄 알지, 소프트웨어를 모르기 때문이라는 것이었다. 누가 이런 관찰을 처음 했는지, 누가 이런 의견을 처음 제시했는지,(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/51",
-    "pubDate": "Wed, 17 Jun 2026 14:09:47 GMT",
-    "creator": "고종범",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2026/06/hardware-was-always-here.html",
+    "pubDate": "Sun, 21 Jun 2026 21:31:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "hardware",
+      "inspiring",
+      "korea",
+      "software"
+    ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "올림픽에서 시작해 지구촌 축제로 성장한 월드컵",
-    "description": "100년 만에 13조 원 규모의 산업이 된 스포츠 이벤트",
+    "title": "고통에 대해",
+    "description": "얼마 전에 넷플릭스 스포츠 다큐멘터리 4부작 ‘RAFA’를 굉장히 재미있게 봤다. 한국에서는 ‘나달’이라는 이름으로 방영되는데, 스페인 테니스 선수 라파엘 나달에 대한 다큐멘터리다. 이 선수를 주니어 때부터 나는 알고 있었고, 그동안 20년 넘게 팔로우해서 나름 잘 안다고 생각했는데, 이 시리즈가 재미를 넘어 그 어떤 스포츠 다큐보다 감동적으로 봤던 이유는 내가 알던 것보다 나달은 훨씬 더 투지가 넘치고(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/moneyball-12",
-    "pubDate": "Tue, 16 Jun 2026 09:55:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2026/06/on-enduring-pain-and-getting-stronger.html",
+    "pubDate": "Wed, 17 Jun 2026 21:29:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "FoundersAtWork",
+      "grit",
+      "hustle",
+      "pain",
+      "sports"
+    ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "YouTrack Security Update: Upgrade Required for YouTrack Server",
-    "description": "We’re sharing this update to inform YouTrack administrators about several security vulnerabilities that were recently identified and fixed in YouTrack. For YouTrack Cloud users, this post is purely informational – YouTrack Cloud has already been patched and no action is required.  For YouTrack Server administrators, we recommend upgrading to one of the fixed versions listed […]",
+    "title": "연봉보다 대출 많아도 추가로 빌릴 수 있을까? 바뀌는 중저신용자 대출 토스로 알림받기",
+    "description": "고금리 대출 대신 실속 있게 챙기는 생활안정자금 신용대출 미리 준비하기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/youtrack/2026/06/youtrack-security-update-youtrack-server-upgrade-required/",
-    "pubDate": "Fri, 19 Jun 2026 11:42:41 +0000",
-    "creator": "Elena Pishkova",
-    "categories": [
-      "security",
-      "youtrack",
-      "news"
-    ]
+    "link": "https://toss.im/tossfeed/article/additional-loan-pre-alert",
+    "pubDate": "Tue, 16 Jun 2026 00:34:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "구글 플로우(Flow)로 뮤직 비디오 만드는 방법",
-    "description": "단 몇 줄의 텍스트만으로 나만의 음악을 만들고, 직접 디자인한 캐릭터가 가사에 맞춰 움직이는 고퀄리티 뮤직비디오를 무료로 제작할 수 있는 시대가 열렸습니다. 구글 플로우(Flow)를 활용하면 이 모든 과정이 단 10분 만에 가능하다고 하는데요. 비용 걱정 없이 무제한으로 자신만의 개성 넘치는 뮤직비디오를 만들 수 있는 역대급 방법을 지금부터 자세히 알려드릴게요.\n✨ 구글 플로우(Flow)의 영상 제작 핵심 기능 탐구\n얼마 전, 코딩 없이 웹툰과 인스타그램 캐러셀을 손쉽게 만들 수 있는 구글 플로우를 소개해 드렸던 것을 기억하시나요? 오늘은 이 강력한 도구의 핵심인 영상 제작 기능과 한층 더 디테일해진 편집법에 대해 집중적으로 알아보려고 합니다. 플로우 내에서 나만의 독창적인 캐릭터와 배경 에셋을 구축하고, 이를 활용해 생동감 넘치는 고화질 동영상을 연출하는 핵심 과정을 지금부터 함께 살펴봐요.\n\n\n나만의 캐릭터 및 배경 에셋 구축하기\n뮤직비디오 제작의 첫걸음은 바로 나만의 매력적인 비주얼을 만드는 것부터 시작합니다. 저는 한국인 여성 캐릭터와 아름다운 배경을 만들어봤는데요, 여러분도 취향에 맞게 자유롭게 시도해 보세요.\n먼저, 프로젝트 채팅창의 옵션에서 화면 비율은 4:3으로, 생성 개수는 4개로 설정해 주세요. 그리고 생성 모델은 'Nano Banana Pro'를 선택하는 것이 좋습니다. 이제 채팅창에 “고전적인 아름다움을 간직한 20대 한국 여성의 얼굴”처럼 만들고 싶은 캐릭터를 묘사하는 텍스트를 입력해 보세요. 그러면 잠시 후, 입력한 내용에 맞는 4명의 여성 얼굴이 생성될 거예요. 각 이미지의 이름을 수정하고, 좌측 상단의 작업명도 '캐릭터 여성' 등으로 변경해 두면 나중에 에셋 라이브러리에서 정말 쉽게 찾아볼 수 있습니다.\n\n\n  꿀팁: 프로젝트로 다시 돌아와 입력창에서 골뱅이(`@`)를 클릭해 '에셋'을 불러오면, 우리가 이름을 바꾸어 저장했던 캐릭터들이 라이브러리에 안전하게 보관되어 있는 것을 확인할 수 있습니다. 에셋 관리는 영상 제작 시간을 단축하는 데 아주 중요해요!\n캐릭터를 만들었으니, 이번엔 캐릭터 뒤를 채워줄 아름다운 배경을 만들 차례입니다. 이번엔 비율을 16:9로 하고, “서정적이고 낭만적이면서 아름다운 들판”처럼 원하는 배경을 묘사하는 텍스트를 입력해 보세요. 총 네 장의 멋진 들판 배경이 만들어질 텐데, 마찬가지로 좌측 상단의 이름을 '배경(들판)' 등으로 직관적으로 수정해 두면 편리합니다.\n에셋을 활용한 동영상 생성\n이제 앞서 만들어 둔 캐릭터 이미지와 배경 에셋을 활용해 본격적인 영상 제작을 해 볼까요? 프롬프트 우측 옵션에서 '동영상' 탭과 '애셋'을 선택합니다. 화면 비율은 '16:9'로 설정하고, 영상은 크레딧이 소모되므로 생성 개수는 1개, 영상 길이는 6초로 세팅하는 것이 효율적입니다.\n미리 저장해 둔 캐릭터를 불러오려면 골뱅이(`@`)를 입력하고 아까 저장한 캐릭터 이미지 하나를 찾아 불러옵니다. 그다음 다시 골뱅이(`@`)를 눌러 좀 전에 만든 배경 하나를 불러옵니다. 이제 “캐릭터가 배경을 걸어가는 장면”처럼 원하는 장면을 입력하고 실행해 보세요. 요청한 것과 같은 장면이 영상으로 생성되는 것을 확인할 수 있을 겁니다.\n프레임 기능을 이용한 자연스러운 움직임 연출\n영상에 시작과 끝을 직접 지정하여 더욱 자연스러운 움직임을 만들고 싶다면 '프레임' 기능을 사용해 보세요. 프롬프트 우측 옵션에서 동영상 '프레임'을 선택한 다음, 시작 이미지와 종료 이미지를 드래그해서 등록합니다. 단, 'Omni Flash' 모델은 프레임을 지원하지 않으므로, 모델을 '배오 3.1 라이트'로 변경해야 합니다. 이 점은 꼭 기억해두세요!\n모델 변경 후 이미지를 다시 등록하고, 간단한 요청을 입력하면 시작과 끝에 등록한 정지 이미지대로 아주 자연스럽게 미소를 지으며 손을 흔드는 영상이 완성되는 것을 볼 수 있습니다. 정말 놀랍지 않나요?\n  AI로 뮤직비디오 만들기: 구글 플로우 & 수노 연동\n이제 AI가 최종 생성한 동영상을 확인하고, 타임라인에서 직접 편집하는 방법을 알아볼게요. 그리고 우리가 원하는 테마로 노래 가사와 스타일을 생성하고, 이를 활용해 음악과 뮤직비디오를 만드는 과정까지 심층적으로 다뤄보겠습니다. 음악 생성에는 수노(Suno)를 사용하고, 뮤직비디오용 이미지와 영상은 구글 플로우 도구를 활용해 직접 만든 '뮤직비디오 생성 도구'를 사용할 예정입니다.\n간단한 영상 편집 & 확장하기\n\n\n생성된 “달리는 고양이 캐릭터” 영상 같은 것을 클릭하면 타임라인이 포함된 상세 편집 창이 열립니다. 이 영상의 전체 길이는 대략 8초 정도였는데, 앞쪽의 일부를 잘라내려면 맨 앞쪽 끝을 마우스로 잡고 오른쪽으로 당기면 되고요, 맨 끝 쪽도 같은 방법으로 쉽게 편집할 수 있습니다.\n영상을 확장하고 싶다면 영상 끝의 플러스 버튼에서 확장을 선택해 보세요. 예를 들어, 프롬프트에 “나비를 만나서 즐겁게 논다”라고 입력하면, 입력 내용에 적합한 영상이 자연스럽게 확장된 것을 확인할 수 있습니다. 이렇게 구글 플로우에서 간단한 영상 생성과 편집하는 방법을 익힐 수 있어요.\n'뮤직비디오 만들기' 도구 활용법\n우리가 만든 '뮤직비디오 만들기' 도구의 좌측 메뉴에서 'AI 가사 생성'을 선택하고, 만들고 싶은 노래의 핵심 키워드를 입력한 뒤 원하는 장르를 선택하고 '가사 생성하기'를 클릭하세요. 그러면 아래에 제목과 수노 스타일, 그리고 가사가 자동으로 생성됩니다.\n\n\n  참고: 보다 다양하고 고도화된 수노 음악 스타일을 만들고 싶으시다면, 이전에 소개해 드렸던 '수노트'를 이용해 보시는 것도 좋은 방법입니다.\n생성된 제목과 음악 스타일, 가사를 수노에 붙여 넣고 음악을 생성한 뒤, 완성된 음악을 다운로드해 주세요. 다시 뮤비 만들기 도구로 돌아와 '비주얼 및 시나리오 설정' 메뉴에서 생성할 장면 수를 지정합니다. 여기서는 2개 장면으로 설정해 볼게요.\n영상 메인 주인공이 될 캐릭터를 지정하기 위해 'Flow 이미지 불러오기' 버튼을 클릭하고, 에셋 라이브러리 창에서 미리 만들어 두었던 캐릭터 에셋을 선택하여 프로젝트에 추가해 줍니다. 여기에 기본 화풍을 예를 들어 'Cinematic(시네마틱)'으로 선택한 뒤, 하단의 '스토리보드 생성' 버튼을 눌러줍니다. 잠시만 기다리면 AI가 가사와 시나리오를 분석해 각 파트에 어울리는 이미지 프레임들을 자동으로 생성해 낼 거예요. 정말 편리하죠?\n  완벽한 무한 루프 영상 & 최종 편집 과정\n생성된 이미지 프레임을 실제 동영상으로 변환할 차례입니다. 왼쪽 일괄 처리 메뉴에서 '전체 심리스 영상 생성' 버튼을 클릭하세요. 잠시 후, 같은 영상이 반복되어도 끊김 없는 심리스 루프 영상이 완성될 거예요. 다만, 아직 구글 플로우 자체에서는 완벽한 루프 영상을 만들지 못하는 한계가 있다는 점은 참고해야 합니다. 이럴 때는 '영상 집' 버튼을 클릭해서 모든 영상을 다운로드해 두세요.\n⚠️ 주의: 구글 플로우 자체의 심리스 루프 기능은 아직 완벽하지 않을 수 있습니다. 더 자연스러운 결과물을 원한다면 외부 도구 활용을 고려하세요.\n심리스 루프 스튜디오로 끊김 없는 영상 만들기\n구글 플로우의 한계를 극복하고, 생성된 영상의 앞뒤를 부드럽게 연결해 완벽한 루프를 만들고 싶다면, 제가 직접 만든 '심리스 루프 스튜디오'를 활용해 보세요. 먼저 저의 공식 사이트의 프로그램 메뉴에서 '유튜브 및 비디오 제작' 카테고리를 선택한 뒤, 'Seamless Loop Studio'로 이동해 줍니다.\n\n\n스튜디오 화면이 나오면 중앙의 '파일 선택' 버튼을 눌러, 루프 영상으로 만들고 싶은 비디오 소스를 업로드합니다. 우측 하단의 출력 설정 메뉴에서 루프 변환 방식 중 가장 자연스러운 매칭을 제공하는 '타입 B (스마트 매칭)'를 선택해 주는 것이 핵심이에요. 설정이 끝났다면 상단의 '구간 분석 시작' 버튼을 눌러주면, 원본보다 훨씬 끊김 없이 부드럽게 재생되는 루프 영상을 얻을 수 있습니다.\n캡컷(CapCut)으로 뮤직비디오 완성하기\n이제 마지막 단계로, 영상 편집 프로그램인 캡컷(CapCut)을 활용해 우리가 만든 비디오 소스들과 음악을 합쳐 한 편의 완성도 높은 뮤직비디오를 완성해 보겠습니다. 캡컷을 실행한 후 프로젝트를 열고 미디어 가져오기 창을 통해 앞서 완성했던 루프 영상 클립들과 Suno로 생성한 음악 파일을 한 번에 불러옵니다.\n\n\n그다음, 타임라인의 오디오 트랙에 음악 파일을 먼저 배치해 줍니다. 그리고 두 개의 루프 비디오를 상단 비디오 트랙에 차례대로 올려놓은 뒤, 필요하다면 비디오를 이어서 배치하고 음악 파일의 길이를 초과하는 영상은 잘라내세요. 장면이 바뀔 때 더 극적이고 세련된 느낌을 주기 위해 전환 효과를 추가하는 것이 좋습니다. 좌측 상단의 '전환' 메뉴를 누르고, 영상과 어울리는 오버랩 효과를 선택해 두 클립이 만나는 경계면에 적용해 보세요. 자, 이제 편집이 잘 되었는지 처음부터 전체 화면으로 재생해 볼까요? 분명 멋진 뮤직비디오가 탄생했을 겁니다!\n  핵심 요약\n1. 구글 플로우(Flow)로 나만의 캐릭터와 배경 에셋을 손쉽게 구축할 수 있어요.\n2. AI 뮤직비디오 생성 도구를 활용해 노래 가사 기반의 스토리보드와 영상을 자동 생성할 수 있습니다.\n3. 플로우의 프레임 기능과 심리스 루프 스튜디오로 끊김 없는 자연스러운 동영상 연출이 가능해요.\n4. 캡컷(CapCut)과 같은 전문 편집 툴로 음악과 영상을 결합하여 완성도 높은 뮤직비디오를 빌드할 수 있습니다.\n이제 여러분도 창의적인 아이디어만 있다면 누구나 뮤직비디오 감독이 될 수 있습니다!\n❓ 자주 묻는 질문 (FAQ)\nQ1: 구글 플로우(Flow)로 뮤직비디오를 만드는 데 필요한 비용은 얼마인가요?\nA1: 구글 플로우와 AI 뮤직비디오 생성 도구는 기본적으로 무료로 이용 가능합니다. 일부 고급 기능이나 프리미엄 에셋을 사용하고 싶다면 추가 비용이 발생할 수 있지만, 오늘 소개해 드린 핵심 기능들은 모두 무료로 즐길 수 있습니다. 심리스 루프 스튜디오 또한 무료로 제공됩니다.\nQ2: 음악은 어떻게 만드나요?\nA2: 블로그 포스트에서 소개된 것처럼, 수노(Suno)와 같은 AI 음악 생성 도구를 활용하여 원하는 장르와 가사를 입력하면 손쉽게 나만의 음악을 만들 수 있습니다. 생성된 음악 파일을 다운로드하여 뮤직비디오에 활용하세요.\nQ3: 완벽한 무한 루프 영상을 만들려면 어떤 방법을 사용해야 하나요?\nA3: 구글 플로우 자체의 심리스 루프 기능은 아직 완벽하지 않을 수 있습니다. 더 자연스러운 결과물을 위해서는 '심리스 루프 스튜디오'와 같은 외부 전문 도구를 활용하는 것을 추천합니다. 스튜디오에 영상을 업로드하고 '타입 B (스마트 매칭)' 방식으로 변환하면 끊김 없는 고품질 루프 영상을 얻을 수 있습니다.\n오늘 이렇게 구글 플로우의 강력한 영상 편집 기능부터 제가 직접 빌드한 '뮤직비디오 스튜디오' 툴 사용법까지 자세히 알아봤습니다. 텍스트 몇 줄로 나만의 음악과 영상을 뽑아내고, 심리스 루프 기술까지 적용하는 과정이 정말 쉽고 직관적이지 않나요? 오늘 소개해 드린 이 뮤직비디오 생성 도구는 제 영상을 시청해 주시는 모든 분들께 조건 없이 무료로 공개하고 있습니다.\n \n\n\n\n \n영상 설명란에 있는 '지피티팍 공식 사이트' 링크(https://gptparkai.com/)를 통해 지금 바로 접속해서 여러분만의 멋진 작품을 만들어 보시기 바랍니다. 만약 더 고도화된 기능이나 80여 개가 넘는 다양한 프리미엄 비즈니스 앱들을 제한 없이 써보고 싶으시다면, 채널 정회원 가입도 함께 고려해 주시면 감사하겠습니다.",
+    "title": "Data Projects: Managing Data Assets at Netflix Scale",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483725",
-    "pubDate": "Mon, 15 Jun 2026 11:16:57 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://medium.com/netflix-techblog/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:54:00 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
-      "AI 뮤직비디오 제작",
-      "AI 배경 생성",
-      "ai 캐릭터 생성",
-      "Suno 음악 생성",
-      "구글 플로우 뮤직비디오",
-      "무료 뮤직비디오 만들기",
-      "심리스 루프 영상",
-      "영상 에셋 관리",
-      "지피티팍 AI 도구",
-      "캡컷 뮤직비디오 편집"
+      "big-data",
+      "data-governance",
+      "data-orchestration"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "Structuring IntelliJ Plugins with Optional Content Modules",
-    "description": "What if one part of your plugin should load only when a specific IDE functionality is available? Plugin Model v2 is now available as an experimental way to structure, package, and build plugins, and to support such scenarios in a future-proof way. Its primary use case is in Split Mode (Remote Development) plugins. In this […]",
+    "title": "Make Visual Studio look the way you want",
+    "description": "Themes are personal. Some of us live in dark mode, some swear by high contrast, and some of us have very strong opinions about that one shade of blue from years ago. The new themes in Visual Studio 2026 are built on Fluent, which gives us a much more consistent and accessible foundation, but we […]\nThe post Make Visual Studio look the way you want appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/06/structuring-intellij-plugins-with-optional-content-modules/",
-    "pubDate": "Fri, 19 Jun 2026 11:45:32 +0000",
-    "creator": "Róbert Novotný",
+    "link": "https://devblogs.microsoft.com/visualstudio/make-visual-studio-look-the-way-you-want/",
+    "pubDate": "Mon, 15 Jun 2026 14:00:40 +0000",
+    "creator": "Mads Kristensen",
     "categories": [
-      "intellij-platform",
-      "plugins",
-      "plugin-development",
-      "remote-development"
+      "Visual Studio",
+      "themes"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "바쁜 건 항상 좋은 것",
-    "description": "“바빠서”라는 말은 내가 제일 싫어하는 변명이지만, 아마도 학교나 직장에서 가장 자주 말하고 들을 수 있는 말 중 하나라고 생각한다. 중요한 일인데 바빠서 못 한다면 이건 그 사람에겐 별로 중요한 일이 아닌 것이고, 아마도 바빠서 못 한다고 하는 분은 평생 하지 않을 것이다. 물론, 이건 내 생각이고 나는 항상 바쁨에 대한 이런 엄격한 기준을 갖고 있는데,(...)",
+    "title": "VMAF v1: Good Is Not Good Enough",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/06/busy-is-always-good.html",
-    "pubDate": "Sun, 14 Jun 2026 21:26:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "inspiring",
-      "Strong"
-    ]
+    "link": "https://medium.com/netflix-techblog/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:50:05 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
+    "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2464",
-    "pubDate": "Wed, 17 Jun 2026 20:14:38 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://medium.com/netflix-techblog/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:53:06 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "웹툰"
+      "ai-agent",
+      "agentic-workflow",
+      "causal-inference"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Bamboo End of Life: How to Prepare and Choose the Right CI/CD Replacement",
-    "description": "If your team is using Bamboo, you’ve probably seen the news: Bamboo Data Center is being retired as part of Atlassian’s broader Data Center transition strategy. Support will continue for several years, but many teams have already started thinking about the next step. Whether you’re considering Bamboo Cloud or moving to an entirely new CI/CD […]",
+    "title": "분석 에이전트의 힘으로 분석을 하나로 연결하다! 전문 조직에서 도전하는 생성 AI 시대의 업무 혁신과 역할 전환",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.안녕하세요. AI 에이전트로 분석을 ‘하나로 잇는’ 프로젝트 ‘PJ One Piece’의...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/06/bamboo-end-of-life/",
-    "pubDate": "Fri, 19 Jun 2026 13:10:45 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "teamcity-2",
-      "tools",
-      "cicd-2"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-105",
+    "pubDate": "Mon, 22 Jun 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
