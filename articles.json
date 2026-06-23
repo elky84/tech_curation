@@ -2,6 +2,186 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "Bamboo End of Life: How to Prepare and Choose the Right CI/CD Replacement",
+    "description": "If your team is using Bamboo, you’ve probably seen the news: Bamboo Data Center is being retired as part of Atlassian’s broader Data Center transition strategy. Support will continue for several years, but many teams have already started thinking about the next step. Whether you’re considering Bamboo Cloud or moving to an entirely new CI/CD […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/06/bamboo-end-of-life/",
+    "pubDate": "Fri, 19 Jun 2026 13:10:45 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "teamcity-2",
+      "tools",
+      "cicd-2"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "AWS Image Builder Plugin for TeamCity",
+    "description": "Cloud build agents are one of those CI/CD features that feel almost magical when everything works well. Your TeamCity server can scale build capacity up when the queue gets busy, then wind it back down when the rush is over. You get extra power exactly when you need it, without keeping machines idle the rest […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/06/teamcity-aws-ami-builder/",
+    "pubDate": "Mon, 22 Jun 2026 12:17:43 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "amazon-ec2",
+      "aws",
+      "cloud-agent",
+      "plugin"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "PHP Version Migration That Doesn’t Break Everything",
+    "description": "PHP Version Migration Demo PHP powers 71.8% of all websites with a known server-side language. It is a living language that underpins a significant portion of the modern web and one that keeps getting better. For example, EKSNEKS notes that migrating from PHP 7 to PHP 8 alone can deliver 18–42% performance gains depending on […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/06/php-version-migration/",
+    "pubDate": "Mon, 22 Jun 2026 07:10:11 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "features",
+      "qodana",
+      "phpstorm"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "How Netflix Simplified Batch Compute with Kueue",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
+    "pubDate": "Mon, 22 Jun 2026 21:35:01 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "kueue",
+      "netflix",
+      "aws",
+      "kubernetes"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "The Evolution of Cassandra Data Movement at Netflix",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:53:30 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "cassandra",
+      "icebergs",
+      "big-data",
+      "data-movement"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2?source=rss----2615bd06b42e---4",
+    "pubDate": "Tue, 23 Jun 2026 00:31:01 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "편리가 준 해로움",
+    "description": "오랜동안 리모트 워크라는 핑계로 출근을 많이 하지 않고 사람들과의 접촉을 줄였다. 시간이 생기다보니 이런저런 공부도 하게되고 좋다고 생각했다. 그런데 몇년을 하니 문제가 있다는 것을 알게 되었다. 특히 나처럼 생각이 많은 사람에게 더욱 문제가 되는 현상이 있다. 그것은 마치 AI 처럼 현실 세계에 대한 데이터가 부족해 지는 현상이다. 소위 World Mod",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/53",
+    "pubDate": "Fri, 19 Jun 2026 00:07:53 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Data Projects: Managing Data Assets at Netflix Scale",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:54:00 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "big-data",
+      "data-governance",
+      "data-orchestration"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "VMAF v1: Good Is Not Good Enough",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:50:05 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "이제는 곧 은퇴하렵니다.",
+    "description": "이제는 곧 은퇴하렵니다. 여기서 말하는 곧이 얼마나 짧은 시간이 될지 모르겠지만 그냥 지금의 마음으로서는 은퇴를 하고 싶다. 뭔가 생각의 배설이 필요할 때마다 브런치에 오곤 했다. 그러나 정작 글을 쓴 것들 보니 뭔가 힘이 많이 들어가면서 이상한 글만 남겨두었다. 그래서 겸사겸사 날것 그대로의 글을 써보려고 한다.  제목은 그럴싸하게 곧 은퇴할 것 처럼 썼",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/51",
+    "pubDate": "Wed, 17 Jun 2026 14:09:47 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Structuring IntelliJ Plugins with Optional Content Modules",
+    "description": "What if one part of your plugin should load only when a specific IDE functionality is available? Plugin Model v2 is now available as an experimental way to structure, package, and build plugins, and to support such scenarios in a future-proof way. Its primary use case is in Split Mode (Remote Development) plugins. In this […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2026/06/structuring-intellij-plugins-with-optional-content-modules/",
+    "pubDate": "Fri, 19 Jun 2026 11:45:32 +0000",
+    "creator": "Róbert Novotný",
+    "categories": [
+      "intellij-platform",
+      "plugins",
+      "plugin-development",
+      "remote-development"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:53:06 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "ai-agent",
+      "agentic-workflow",
+      "causal-inference"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
     "title": "Boosting Adobe Photoshop’s Performance with MSVC and SPGO",
     "description": "Boosting Adobe Photoshop’s Performance with MSVC and SPGO Adobe and Microsoft worked together to improve Photoshop performance and responsiveness on Windows by combining MSVC’s peak-performance build settings with Sample-based Profile-Guided Optimization (SPGO). The collaboration focused on real customer scenarios where latency matters most, including brush and stroke responsiveness, file open times, and other CPU-intensive operations […]\nThe post Boosting Adobe Photoshop’s Performance with MSVC and SPGO appeared first on C++ Team Blog.",
     "reviews": [],
@@ -14,80 +194,7 @@
     ]
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "JetBrains Marketplace Ecosystem Security Update: Addressing Malicious Third-Party AI Plugins",
-    "description": "On June 16, 2026, JetBrains received reports about 15 third-party plugins on JetBrains Marketplace that were built to steal AI provider API keys configured by users. We removed the plugins from Marketplace, blocked the related publisher accounts, and disabled the plugins in installed IDEs through our backend systems. If you were affected, see the Required […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/06/marketplace-ecosystem-security-update-malicious-ai-plugins/",
-    "pubDate": "Wed, 17 Jun 2026 16:11:49 +0000",
-    "creator": "Jakub Chrzanowski",
-    "categories": [
-      "intellij-platform",
-      "plugins",
-      "security",
-      "ide"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "We have moved to https://developer.paypal.com/community/blog",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/paypal-tech/we-have-moved-to-https-developer-paypal-com-community-blog-2acf7cb138a6?source=rss----6423323524ba---4",
-    "pubDate": "Mon, 15 Jun 2026 21:19:29 GMT",
-    "creator": "PayPal Tech Blog Team",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "The Data Canary: How Netflix Validates Catalog Metadata",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/netflix-techblog/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:54:17 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "automation",
-      "site-reliability",
-      "data-validation",
-      "data-reliability",
-      "experimentation"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "앉으면 허리아프다 모션데스크 를 준비하자 / 침대 컴퓨터 추가",
-    "description": "앉아서 일하면 허리 아픈 나이가 되었다.\n이 상황이 오면 서서 일하는게 맞습니다.\n \n \n모션데스크는 앉아서 일하면 허리아픈 사람을 위해서 \n일어서서 일할 수 있도록 높이를 높여주는 기능이 있는 데스크 (책상) 입니다.\n \n영상 하나 보시구요: https://www.youtube.com/shorts/UW7tGEOQoLs\n\n\n\n \n \n \n대표적인것으로 이미 책상이 있는 사람은 비싸게 책상을 갈 필요 없이 \n책상위에 테이블을 하나더 올리는 식으로 사용할 수 있습니다.\n \n책상위에 올려 쓰는 퐁딩 방식\n루나랩 스탠딩 책상 라이트 책상높이조절대 800\n\n\n이름뒤에 800 은 폭이 800 이라는 표시입니다.\n950 도 있었던거 같군요 여러 사이즈가 있나봅니다.\n\n\n제일 저렴한게 10만원 정도군요\n허리 통증이 아직은 심하지 않거나 한번 써보자 하시는 분들은 이걸로 입문하는게 좋겟습니다.\n저는 이거 사보려구요 쓸모 있는지 없는지 알 수가 없으니\n- 모션데스크를 통채로 사긴엔 비싸다\n- 맛만 보려고\n- 새 테이블을 살 공간이 없다. (일반 테이블이 너무 많다)\n \n다리 2개 짜리 모션데스크\n\n\n다리가 두개인게 보통입니다. \n모터가 2개 들어가서 그나마 저렴합니다.\n부실한건 아니고 폭이라고 해야하나 압뒤 길이가 짧습니다. 70cm 정도가 한개 인거 같더라구요\n영상: https://www.youtube.com/watch?v=8X7V__7jNXI\n\n\n\n영상 참고하시구요 안흔들리면 무슨 제품이든 상관은 없습니다.\n\n\n가격이 이상하게 비싸군요 \n쿠팡은 비싸게 파나봅니다. 알아서 잘 찾으시길 \n \n \n \n \n \n다리 4개 모션 데스크 \n아우스 FJ07 800폭 쿼드형 듀얼모터 원목 전동 모션데스크 사무 책상 1200x800\n\n\n\n튼튼한 다리 네개 짜리 모션 데스크 입니다.\n이제품은 그나마 저려함 제품이구요 비싼건 가격이 많이 올라갑니다.\n다리가 내개면 폭이 더 길어지거나 \n모니터를 여러대 달 수 있나 봅니다.\n쇼핑몰: https://brand.naver.com/aus/products/11425142642?is_retargeting=true&c=260101_p_Naver_product&pid=Naver&deep_link_value=https%3A%2F%2Fbrand.naver.com%2Faus%2Fproducts%2F11425142642%3Fka_ref%3Dkakao%26ka_req_id%3DgN4vMivS5lckdSe7NWjIAQ%26ka_template%3Dcommerce_basic&dtm_source=KK&dtm_detail=gN4vMivS5lckdSe7NWjIAQ&dtm_campaign=commerce_basic&dtm_medium=OG\n\n \n아우스 FJ07 800폭 쿼드형 듀얼모터 원목 전동 모션데스크 사무 책상 1200x800 : 아우스\n[아우스] 아우스 공식 브랜드스토어\nbrand.naver.com\n\n가격이 좋네요\n \n \n \n(중요) 추가로 고려해야하는 문제\n케이블 길이\n테이블이 위로 올라가면  그만큼 케이블도 더 길어져야합니다.\n데스크 형태로 산다면 컴퓨터 를 거치할 수 있는 거치대가 있는 경우도 있습니다. \n고려해보시구요\n \n준비가 안되있으면 사자마자 사용못할 수 도 있습니다.\n \n추가 - 침대용 컴퓨터 책생 (?)\n영상: https://www.youtube.com/shorts/ou6Bz0P2Lhg\n\n\n\n\n\n \n\n\n제품 방식은 알겠는데\n딱봐도 영상이 많이 과장한거 같군요\n모니터 크기에 제한이 있습니다. 27인치 2개가 되네요\n어마어마하게 무거운거 한게는 안되나봅니다.\n \n그리고 다리에 지지대가 엄청 큽니다. \n걸려 넘어지거나 발로 찰 가능성이 있어 보입니다.\n \n방식은 알았으니 좀 더 제대로된 제품을 찾아봐야겠습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1664",
-    "pubDate": "Mon, 15 Jun 2026 15:32:26 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "유튜브"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "편리가 준 해로움",
-    "description": "오랜동안 리모트 워크라는 핑계로 출근을 많이 하지 않고 사람들과의 접촉을 줄였다. 시간이 생기다보니 이런저런 공부도 하게되고 좋다고 생각했다. 그런데 몇년을 하니 문제가 있다는 것을 알게 되었다. 특히 나처럼 생각이 많은 사람에게 더욱 문제가 되는 현상이 있다. 그것은 마치 AI 처럼 현실 세계에 대한 데이터가 부족해 지는 현상이다. 소위 World Mod",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/53",
-    "pubDate": "Fri, 19 Jun 2026 00:07:53 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 7,
+    "id": 14,
     "imageUrl": "",
     "title": "[MULTI] 온고지신의 명품급 증명, 모험가 엘리엇의 천 년 이야기",
     "description": "No description available",
@@ -101,124 +208,14 @@
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "하드웨어는 항상 여기에 있었다",
-    "description": "꽤 오랫동안 같은 말을 주변에서 계속 들어서 정확하게 언제부터인지 기억은 안 나지만, 최소 20년 전부터 삼성, LG, 현대 같은 한국 기업은 미래가 없다는 말을 너무 많이 들었다. 여러 가지 이유가 있었지만, 가장 많이 들었던 이유는 이 회사들은 하드웨어만 할 줄 알지, 소프트웨어를 모르기 때문이라는 것이었다. 누가 이런 관찰을 처음 했는지, 누가 이런 의견을 처음 제시했는지,(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/06/hardware-was-always-here.html",
-    "pubDate": "Sun, 21 Jun 2026 21:31:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "ai",
-      "hardware",
-      "inspiring",
-      "korea",
-      "software"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "고통에 대해",
-    "description": "얼마 전에 넷플릭스 스포츠 다큐멘터리 4부작 ‘RAFA’를 굉장히 재미있게 봤다. 한국에서는 ‘나달’이라는 이름으로 방영되는데, 스페인 테니스 선수 라파엘 나달에 대한 다큐멘터리다. 이 선수를 주니어 때부터 나는 알고 있었고, 그동안 20년 넘게 팔로우해서 나름 잘 안다고 생각했는데, 이 시리즈가 재미를 넘어 그 어떤 스포츠 다큐보다 감동적으로 봤던 이유는 내가 알던 것보다 나달은 훨씬 더 투지가 넘치고(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/06/on-enduring-pain-and-getting-stronger.html",
-    "pubDate": "Wed, 17 Jun 2026 21:29:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "ai",
-      "FoundersAtWork",
-      "grit",
-      "hustle",
-      "pain",
-      "sports"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "연봉보다 대출 많아도 추가로 빌릴 수 있을까? 바뀌는 중저신용자 대출 토스로 알림받기",
-    "description": "고금리 대출 대신 실속 있게 챙기는 생활안정자금 신용대출 미리 준비하기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/additional-loan-pre-alert",
-    "pubDate": "Tue, 16 Jun 2026 00:34:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Data Projects: Managing Data Assets at Netflix Scale",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/netflix-techblog/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:54:00 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "big-data",
-      "data-governance",
-      "data-orchestration"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Make Visual Studio look the way you want",
-    "description": "Themes are personal. Some of us live in dark mode, some swear by high contrast, and some of us have very strong opinions about that one shade of blue from years ago. The new themes in Visual Studio 2026 are built on Fluent, which gives us a much more consistent and accessible foundation, but we […]\nThe post Make Visual Studio look the way you want appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/make-visual-studio-look-the-way-you-want/",
-    "pubDate": "Mon, 15 Jun 2026 14:00:40 +0000",
-    "creator": "Mads Kristensen",
-    "categories": [
-      "Visual Studio",
-      "themes"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "VMAF v1: Good Is Not Good Enough",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/netflix-techblog/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:50:05 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/netflix-techblog/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:53:06 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "ai-agent",
-      "agentic-workflow",
-      "causal-inference"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "분석 에이전트의 힘으로 분석을 하나로 연결하다! 전문 조직에서 도전하는 생성 AI 시대의 업무 혁신과 역할 전환",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.안녕하세요. AI 에이전트로 분석을 ‘하나로 잇는’ 프로젝트 ‘PJ One Piece’의...",
+    "title": "토스플레이스, SK브로드밴드와 손잡고 소상공인 부담 낮춘다… \"통신비·매장 운영 지원\"",
+    "description": "소상공인 상생 위해 손잡아",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-105",
-    "pubDate": "Mon, 22 Jun 2026 02:00:00 GMT",
+    "link": "https://toss.im/tossfeed/article/50707",
+    "pubDate": "Thu, 18 Jun 2026 23:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   }
