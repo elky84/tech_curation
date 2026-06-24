@@ -2,169 +2,96 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Bamboo End of Life: How to Prepare and Choose the Right CI/CD Replacement",
-    "description": "If your team is using Bamboo, you’ve probably seen the news: Bamboo Data Center is being retired as part of Atlassian’s broader Data Center transition strategy. Support will continue for several years, but many teams have already started thinking about the next step. Whether you’re considering Bamboo Cloud or moving to an entirely new CI/CD […]",
+    "title": "프롬프트 튜닝을 수작업에서 AI 튜닝으로: 유전 알고리즘 기반 자동 최적화와 고속화",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.안녕하세요. LY Corporation의 Nakano입니다. Yahoo! JAPAN Se...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/06/bamboo-end-of-life/",
-    "pubDate": "Fri, 19 Jun 2026 13:10:45 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "teamcity-2",
-      "tools",
-      "cicd-2"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-60",
+    "pubDate": "Tue, 23 Jun 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "AWS Image Builder Plugin for TeamCity",
-    "description": "Cloud build agents are one of those CI/CD features that feel almost magical when everything works well. Your TeamCity server can scale build capacity up when the queue gets busy, then wind it back down when the rush is over. You get extra power exactly when you need it, without keeping machines idle the rest […]",
+    "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/06/teamcity-aws-ami-builder/",
-    "pubDate": "Mon, 22 Jun 2026 12:17:43 +0000",
-    "creator": "Dmitrii Korovin",
+    "link": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:52:02 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "amazon-ec2",
-      "aws",
-      "cloud-agent",
-      "plugin"
+      "distributed-systems",
+      "software-engineering",
+      "platform-engineering",
+      "microservices",
+      "observability"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "PHP Version Migration That Doesn’t Break Everything",
-    "description": "PHP Version Migration Demo PHP powers 71.8% of all websites with a known server-side language. It is a living language that underpins a significant portion of the modern web and one that keeps getting better. For example, EKSNEKS notes that migrating from PHP 7 to PHP 8 alone can deliver 18–42% performance gains depending on […]",
+    "title": "The Data Canary: How Netflix Validates Catalog Metadata",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/06/php-version-migration/",
-    "pubDate": "Mon, 22 Jun 2026 07:10:11 +0000",
-    "creator": "Kerry Beetge",
+    "link": "https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:54:17 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "features",
-      "qodana",
-      "phpstorm"
+      "automation",
+      "site-reliability",
+      "data-validation",
+      "data-reliability",
+      "experimentation"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "How Netflix Simplified Batch Compute with Kueue",
+    "title": "[MULTI] 온고지신의 명품급 증명, 모험가 엘리엇의 천 년 이야기",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
-    "pubDate": "Mon, 22 Jun 2026 21:35:01 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2463",
+    "pubDate": "Wed, 17 Jun 2026 12:00:22 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "kueue",
-      "netflix",
-      "aws",
-      "kubernetes"
+      "리뷰"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "The Evolution of Cassandra Data Movement at Netflix",
-    "description": "No description available",
+    "title": "공학이 아니라 철학 - AI 시대 저항하기 - 철학",
+    "description": "내가 중요하게 여기는 것은 대부분 Tech 들이다. IT 분야에 일하고 있는 때문에 기본적으로 Tech 가 중요하다. 그리고 나의 삶에 중요한 Tech 는 재테크, 근테크, 뇌테크이다. 효율적으로 재산을 불리는 행위의 재테크, 꾸준한 노력으로 근력을 키우는 근테크, 뇌세포를 유지하고 활성화하는 뇌테크이다. 이런 테크들을 위해 내가 노력하는 것은 공학적 입장",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:53:30 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "cassandra",
-      "icebergs",
-      "big-data",
-      "data-movement"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/54",
+    "pubDate": "Fri, 19 Jun 2026 14:59:28 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
+    "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2?source=rss----2615bd06b42e---4",
-    "pubDate": "Tue, 23 Jun 2026 00:31:01 GMT",
+    "link": "https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:53:47 GMT",
     "creator": "Netflix Technology Blog",
-    "categories": []
+    "categories": [
+      "regression",
+      "predictive-analytics",
+      "operations",
+      "machine-learning"
+    ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "편리가 준 해로움",
-    "description": "오랜동안 리모트 워크라는 핑계로 출근을 많이 하지 않고 사람들과의 접촉을 줄였다. 시간이 생기다보니 이런저런 공부도 하게되고 좋다고 생각했다. 그런데 몇년을 하니 문제가 있다는 것을 알게 되었다. 특히 나처럼 생각이 많은 사람에게 더욱 문제가 되는 현상이 있다. 그것은 마치 AI 처럼 현실 세계에 대한 데이터가 부족해 지는 현상이다. 소위 World Mod",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/53",
-    "pubDate": "Fri, 19 Jun 2026 00:07:53 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Data Projects: Managing Data Assets at Netflix Scale",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:54:00 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "big-data",
-      "data-governance",
-      "data-orchestration"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "VMAF v1: Good Is Not Good Enough",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:50:05 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "이제는 곧 은퇴하렵니다.",
-    "description": "이제는 곧 은퇴하렵니다. 여기서 말하는 곧이 얼마나 짧은 시간이 될지 모르겠지만 그냥 지금의 마음으로서는 은퇴를 하고 싶다. 뭔가 생각의 배설이 필요할 때마다 브런치에 오곤 했다. 그러나 정작 글을 쓴 것들 보니 뭔가 힘이 많이 들어가면서 이상한 글만 남겨두었다. 그래서 겸사겸사 날것 그대로의 글을 써보려고 한다.  제목은 그럴싸하게 곧 은퇴할 것 처럼 썼",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/51",
-    "pubDate": "Wed, 17 Jun 2026 14:09:47 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Structuring IntelliJ Plugins with Optional Content Modules",
-    "description": "What if one part of your plugin should load only when a specific IDE functionality is available? Plugin Model v2 is now available as an experimental way to structure, package, and build plugins, and to support such scenarios in a future-proof way. Its primary use case is in Split Mode (Remote Development) plugins. In this […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/06/structuring-intellij-plugins-with-optional-content-modules/",
-    "pubDate": "Fri, 19 Jun 2026 11:45:32 +0000",
-    "creator": "Róbert Novotný",
-    "categories": [
-      "intellij-platform",
-      "plugins",
-      "plugin-development",
-      "remote-development"
-    ]
-  },
-  {
-    "id": 12,
     "imageUrl": "",
     "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
     "description": "No description available",
@@ -180,43 +107,119 @@
     ]
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
-    "title": "Boosting Adobe Photoshop’s Performance with MSVC and SPGO",
-    "description": "Boosting Adobe Photoshop’s Performance with MSVC and SPGO Adobe and Microsoft worked together to improve Photoshop performance and responsiveness on Windows by combining MSVC’s peak-performance build settings with Sample-based Profile-Guided Optimization (SPGO). The collaboration focused on real customer scenarios where latency matters most, including brush and stroke responsiveness, file open times, and other CPU-intensive operations […]\nThe post Boosting Adobe Photoshop’s Performance with MSVC and SPGO appeared first on C++ Team Blog.",
+    "title": "Step Rejection Fine-Tuning: Squeezing More Signal from Noisy Agent Trajectories",
+    "description": "If you want to dive straight into the technical details, you can read our full paper here. Imagine you are mentoring a junior developer. If they make a single logical error on line 42 of a 100-line script, do you throw away the entire file and tell them they learned nothing? Of course not. You […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/boosting-adobe-photoshops-performance-with-msvc-and-spgo/",
-    "pubDate": "Tue, 16 Jun 2026 20:18:37 +0000",
-    "creator": "Eric Brumer",
+    "link": "https://blog.jetbrains.com/research/2026/06/step-rejection-fine-tuning/",
+    "pubDate": "Wed, 17 Jun 2026 08:57:24 +0000",
+    "creator": "Igor Slinko",
     "categories": [
-      "C++"
+      "research",
+      "agent-training",
+      "step-rejection-fine-tuning"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "시멘틱 컨텍스트 OS 설계: 에이전트 시스템의 토큰 스터핑을 넘어",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.대규모 언어 모델(large language model, 이하 LLM)의 물리적 입력 한...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-59",
+    "pubDate": "Wed, 24 Jun 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "분석 에이전트의 힘으로 분석을 하나로 연결하다! 전문 조직에서 도전하는 생성 AI 시대의 업무 혁신과 역할 전환",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.안녕하세요. AI 에이전트로 분석을 ‘하나로 잇는’ 프로젝트 ‘PJ One Piece’의...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-105",
+    "pubDate": "Mon, 22 Jun 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "강의안 | AI는 우리 회사를 알고있는가? GEO마케팅 - 창업(스타트업)",
+    "description": "1. AI는 우리 회사를 알고있는가? GEO 마케팅   2. AI는 우리 회사를 알고있는가? GEO 마케팅 강의개요 ​ ​- AI는 우리 회사를 알고 있는가? GEO 마케팅 ​- 예비창업자, 기존 창업자, 소상공인, 스타트업 ​- Page : 22P ​- 강의시간 : 1시간 ​ http://www.thegamechangers.kr/ ​ https://blo",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/344",
+    "pubDate": "Sun, 21 Jun 2026 07:11:14 GMT",
+    "creator": "고명환",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2464",
+    "pubDate": "Wed, 17 Jun 2026 20:14:38 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Bamboo End of Life: How to Prepare and Choose the Right CI/CD Replacement",
+    "description": "If your team is using Bamboo, you’ve probably seen the news: Bamboo Data Center is being retired as part of Atlassian’s broader Data Center transition strategy. Support will continue for several years, but many teams have already started thinking about the next step. Whether you’re considering Bamboo Cloud or moving to an entirely new CI/CD […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/06/bamboo-end-of-life/",
+    "pubDate": "Fri, 19 Jun 2026 13:10:45 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "teamcity-2",
+      "tools",
+      "cicd-2"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "[MULTI] 온고지신의 명품급 증명, 모험가 엘리엇의 천 년 이야기",
-    "description": "No description available",
+    "title": "How to Win a Hackathon: Notes From the Judging Table",
+    "description": "At the JetBrains x Codex Hackathon, I spent two days watching teams build and then pitch their projects. The thing that decided most of the winners wasn’t just the previous twenty-four hours of work. It was the few minutes they spent presenting it. A strong project with a confusing demo loses to a simpler project […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2463",
-    "pubDate": "Wed, 17 Jun 2026 12:00:22 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://blog.jetbrains.com/ai/2026/06/how-to-win-a-hackathon-notes-from-the-judging-table/",
+    "pubDate": "Mon, 22 Jun 2026 15:41:03 +0000",
+    "creator": "Katherine Druckman",
     "categories": [
-      "리뷰"
+      "ai",
+      "best-practices",
+      "community",
+      "how-tos",
+      "hackathon"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "토스플레이스, SK브로드밴드와 손잡고 소상공인 부담 낮춘다… \"통신비·매장 운영 지원\"",
-    "description": "소상공인 상생 위해 손잡아",
+    "title": "Adopting AV1 for Real-Time Communication (RTC) at Scale",
+    "description": "Adopting AV1 for real-time communication at Meta has been a multi-year effort spanning codec selection, device eligibility, rate control, and error resilience. We’re sharing the technical and operational challenges while deploying AV1 and expanding coverage, and how we addressed them for real-time communication. We’re presenting several technologies for improving AV1 call quality, including rate control [...]\nRead More...\nThe post Adopting AV1 for Real-Time Communication (RTC) at Scale appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/50707",
-    "pubDate": "Thu, 18 Jun 2026 23:00:00 GMT",
+    "link": "https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/",
+    "pubDate": "Mon, 22 Jun 2026 16:00:08 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "Android",
+      "iOS",
+      "Video Engineering"
+    ]
   }
 ]
