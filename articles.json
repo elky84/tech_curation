@@ -2,6 +2,106 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "2027년 쯤엔 위험하다 / 대형IPO 이후 / 주식투자",
+    "description": "스페이스x 대형 IPO 를 시작으로 강세장 후반기를 알렸습니다.\n이제 너도 나도 상장을 하게 되면서 3분기 이후는 위험한 패턴이라고 알려줍니다.\n2027년에는 빠지면 다 팔아버리고 쉬어야겠습니다.\n \n이번에 금리도 좋아지고 \n불경기도 나아질텐데 이번엔 욕심부리지 말아야겠습니다.\n2020 ~ 2021년에도 이랬었고\n닷컴버블 전 1999년에도 IPO 가 급증했었고 그뒤로 문제가 되었었죠\n금융위기전에도 이런 현상은 있었나봅니다.\n \n결국 회사가 많이 상장하면 자금이 분산되면서 안좋긴할 것 같습니다.\n아예 투자안할 순 없고 채권 같은걸로 버텨야겠군요.\n \n \n영상: https://www.youtube.com/watch?v=p3eyI4aN9lk",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1666",
+    "pubDate": "Thu, 18 Jun 2026 16:37:48 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "투자",
+      "예측",
+      "투자"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "How Netflix Simplified Batch Compute with Kueue",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
+    "pubDate": "Mon, 22 Jun 2026 21:35:01 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "kueue",
+      "netflix",
+      "aws",
+      "kubernetes"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Thinking Fast & Slow for a Personalized Notification System",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:53:16 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "ai",
+      "notifications",
+      "recommendations",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "The Evolution of Cassandra Data Movement at Netflix",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:53:30 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "cassandra",
+      "icebergs",
+      "big-data",
+      "data-movement"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "PHP Version Migration That Doesn’t Break Everything",
+    "description": "PHP Version Migration Demo PHP powers 71.8% of all websites with a known server-side language. It is a living language that underpins a significant portion of the modern web and one that keeps getting better. For example, EKSNEKS notes that migrating from PHP 7 to PHP 8 alone can deliver 18–42% performance gains depending on […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/06/php-version-migration/",
+    "pubDate": "Mon, 22 Jun 2026 07:10:11 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "features",
+      "qodana",
+      "phpstorm"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "How Meta Engineered Ultra-Narrow Batteries for AI Glasses",
+    "description": "Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So how do you place a battery with enough power to run a pair of smart glasses [...]\nRead More...\nThe post How Meta Engineered Ultra-Narrow Batteries for AI Glasses appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/",
+    "pubDate": "Tue, 23 Jun 2026 16:00:38 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Culture",
+      "Production Engineering",
+      "Virtual Reality",
+      "Meta Tech Podcast"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
     "title": "프롬프트 튜닝을 수작업에서 AI 튜닝으로: 유전 알고리즘 기반 자동 최적화와 고속화",
     "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.안녕하세요. LY Corporation의 Nakano입니다. Yahoo! JAPAN Se...",
     "reviews": [],
@@ -12,25 +112,7 @@
     "categories": []
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:52:02 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "distributed-systems",
-      "software-engineering",
-      "platform-engineering",
-      "microservices",
-      "observability"
-    ]
-  },
-  {
-    "id": 3,
+    "id": 8,
     "imageUrl": "",
     "title": "The Data Canary: How Netflix Validates Catalog Metadata",
     "description": "No description available",
@@ -48,81 +130,6 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "[MULTI] 온고지신의 명품급 증명, 모험가 엘리엇의 천 년 이야기",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2463",
-    "pubDate": "Wed, 17 Jun 2026 12:00:22 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "공학이 아니라 철학 - AI 시대 저항하기 - 철학",
-    "description": "내가 중요하게 여기는 것은 대부분 Tech 들이다. IT 분야에 일하고 있는 때문에 기본적으로 Tech 가 중요하다. 그리고 나의 삶에 중요한 Tech 는 재테크, 근테크, 뇌테크이다. 효율적으로 재산을 불리는 행위의 재테크, 꾸준한 노력으로 근력을 키우는 근테크, 뇌세포를 유지하고 활성화하는 뇌테크이다. 이런 테크들을 위해 내가 노력하는 것은 공학적 입장",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/54",
-    "pubDate": "Fri, 19 Jun 2026 14:59:28 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:53:47 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "regression",
-      "predictive-analytics",
-      "operations",
-      "machine-learning"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:53:06 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "ai-agent",
-      "agentic-workflow",
-      "causal-inference"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Step Rejection Fine-Tuning: Squeezing More Signal from Noisy Agent Trajectories",
-    "description": "If you want to dive straight into the technical details, you can read our full paper here. Imagine you are mentoring a junior developer. If they make a single logical error on line 42 of a 100-line script, do you throw away the entire file and tell them they learned nothing? Of course not. You […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/06/step-rejection-fine-tuning/",
-    "pubDate": "Wed, 17 Jun 2026 08:57:24 +0000",
-    "creator": "Igor Slinko",
-    "categories": [
-      "research",
-      "agent-training",
-      "step-rejection-fine-tuning"
-    ]
-  },
-  {
     "id": 9,
     "imageUrl": "",
     "title": "시멘틱 컨텍스트 OS 설계: 에이전트 시스템의 토큰 스터핑을 넘어",
@@ -137,59 +144,81 @@
   {
     "id": 10,
     "imageUrl": "",
-    "title": "분석 에이전트의 힘으로 분석을 하나로 연결하다! 전문 조직에서 도전하는 생성 AI 시대의 업무 혁신과 역할 전환",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.안녕하세요. AI 에이전트로 분석을 ‘하나로 잇는’ 프로젝트 ‘PJ One Piece’의...",
+    "title": "YouTrack Security Update: Upgrade Required for YouTrack Server",
+    "description": "We’re sharing this update to inform YouTrack administrators about several security vulnerabilities that were recently identified and fixed in YouTrack. For YouTrack Cloud users, this post is purely informational – YouTrack Cloud has already been patched and no action is required.  For YouTrack Server administrators, we recommend upgrading to one of the fixed versions listed […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-105",
-    "pubDate": "Mon, 22 Jun 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/youtrack/2026/06/youtrack-security-update-youtrack-server-upgrade-required/",
+    "pubDate": "Fri, 19 Jun 2026 11:42:41 +0000",
+    "creator": "Elena Pishkova",
+    "categories": [
+      "security",
+      "youtrack",
+      "news"
+    ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "강의안 | AI는 우리 회사를 알고있는가? GEO마케팅 - 창업(스타트업)",
-    "description": "1. AI는 우리 회사를 알고있는가? GEO 마케팅   2. AI는 우리 회사를 알고있는가? GEO 마케팅 강의개요 ​ ​- AI는 우리 회사를 알고 있는가? GEO 마케팅 ​- 예비창업자, 기존 창업자, 소상공인, 스타트업 ​- Page : 22P ​- 강의시간 : 1시간 ​ http://www.thegamechangers.kr/ ​ https://blo",
+    "title": "Qodana Is a Finalist in the 2026 CODiE Awards for Best DevOps Tool",
+    "description": "Qodana For DevOps: Automated Code Quality and Security, at Scale Modern DevOps teams move fast – but speed without consistency, security, and visibility creates risk. JetBrains Qodana helps DevOps teams build and ship higher-quality, more secure software by making code quality and security checks automatic, consistent, and easy to act on across the entire delivery […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@LOc/344",
-    "pubDate": "Sun, 21 Jun 2026 07:11:14 GMT",
-    "creator": "고명환",
-    "categories": []
+    "link": "https://blog.jetbrains.com/qodana/2026/06/qodana-is-a-finalist-in-the-2026-codie-awards-for-best-devops-tool/",
+    "pubDate": "Thu, 18 Jun 2026 13:18:10 +0000",
+    "creator": "Kerry Beetge",
+    "categories": [
+      "awards",
+      "ai",
+      "devops",
+      "intellij",
+      "qodana"
+    ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
+    "title": "Data Projects: Managing Data Assets at Netflix Scale",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2464",
-    "pubDate": "Wed, 17 Jun 2026 20:14:38 +0900",
+    "link": "https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 19 Jun 2026 23:54:00 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "big-data",
+      "data-governance",
+      "data-orchestration"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 55화, 돌아온데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2465",
+    "pubDate": "Wed, 24 Jun 2026 23:38:23 +0900",
     "creator": "｜RULIWEB｜",
     "categories": [
       "웹툰"
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "imageUrl": "",
-    "title": "Bamboo End of Life: How to Prepare and Choose the Right CI/CD Replacement",
-    "description": "If your team is using Bamboo, you’ve probably seen the news: Bamboo Data Center is being retired as part of Atlassian’s broader Data Center transition strategy. Support will continue for several years, but many teams have already started thinking about the next step. Whether you’re considering Bamboo Cloud or moving to an entirely new CI/CD […]",
+    "title": "AI 에이전트끼리 토론한다면? 멀티 에이전트 협업으로 재설계하는 개발 프로세스",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.AI 코딩에서 어려운 점은 더 이상 코드를 생성하는 것이 아닙니다. 진짜 어려운 부분은 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/06/bamboo-end-of-life/",
-    "pubDate": "Fri, 19 Jun 2026 13:10:45 +0000",
-    "creator": "Olga Bedrina",
-    "categories": [
-      "teamcity-2",
-      "tools",
-      "cicd-2"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-219",
+    "pubDate": "Thu, 25 Jun 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
-    "id": 14,
+    "id": 15,
     "imageUrl": "",
     "title": "How to Win a Hackathon: Notes From the Judging Table",
     "description": "At the JetBrains x Codex Hackathon, I spent two days watching teams build and then pitch their projects. The thing that decided most of the winners wasn’t just the previous twenty-four hours of work. It was the few minutes they spent presenting it. A strong project with a confusing demo loses to a simpler project […]",
@@ -204,22 +233,6 @@
       "community",
       "how-tos",
       "hackathon"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Adopting AV1 for Real-Time Communication (RTC) at Scale",
-    "description": "Adopting AV1 for real-time communication at Meta has been a multi-year effort spanning codec selection, device eligibility, rate control, and error resilience. We’re sharing the technical and operational challenges while deploying AV1 and expanding coverage, and how we addressed them for real-time communication. We’re presenting several technologies for improving AV1 call quality, including rate control [...]\nRead More...\nThe post Adopting AV1 for Real-Time Communication (RTC) at Scale appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/",
-    "pubDate": "Mon, 22 Jun 2026 16:00:08 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Android",
-      "iOS",
-      "Video Engineering"
     ]
   }
 ]
