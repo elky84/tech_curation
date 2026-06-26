@@ -2,223 +2,29 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "2027년 쯤엔 위험하다 / 대형IPO 이후 / 주식투자",
-    "description": "스페이스x 대형 IPO 를 시작으로 강세장 후반기를 알렸습니다.\n이제 너도 나도 상장을 하게 되면서 3분기 이후는 위험한 패턴이라고 알려줍니다.\n2027년에는 빠지면 다 팔아버리고 쉬어야겠습니다.\n \n이번에 금리도 좋아지고 \n불경기도 나아질텐데 이번엔 욕심부리지 말아야겠습니다.\n2020 ~ 2021년에도 이랬었고\n닷컴버블 전 1999년에도 IPO 가 급증했었고 그뒤로 문제가 되었었죠\n금융위기전에도 이런 현상은 있었나봅니다.\n \n결국 회사가 많이 상장하면 자금이 분산되면서 안좋긴할 것 같습니다.\n아예 투자안할 순 없고 채권 같은걸로 버텨야겠군요.\n \n \n영상: https://www.youtube.com/watch?v=p3eyI4aN9lk",
+    "title": "총 용량 1EB 초과! 서로 역사가 다른 두 HDFS를 어떻게 연결할까? 데이터 플랫폼 연계 중 직면한 과제와 설계 결정",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.들어가며안녕하세요. LY Corporation에서 대규모 데이터 플랫폼 운영을 담당하고 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1666",
-    "pubDate": "Thu, 18 Jun 2026 16:37:48 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "투자",
-      "예측",
-      "투자"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "How Netflix Simplified Batch Compute with Kueue",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
-    "pubDate": "Mon, 22 Jun 2026 21:35:01 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "kueue",
-      "netflix",
-      "aws",
-      "kubernetes"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Thinking Fast & Slow for a Personalized Notification System",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:53:16 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "ai",
-      "notifications",
-      "recommendations",
-      "machine-learning"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "The Evolution of Cassandra Data Movement at Netflix",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:53:30 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "cassandra",
-      "icebergs",
-      "big-data",
-      "data-movement"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "PHP Version Migration That Doesn’t Break Everything",
-    "description": "PHP Version Migration Demo PHP powers 71.8% of all websites with a known server-side language. It is a living language that underpins a significant portion of the modern web and one that keeps getting better. For example, EKSNEKS notes that migrating from PHP 7 to PHP 8 alone can deliver 18–42% performance gains depending on […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/06/php-version-migration/",
-    "pubDate": "Mon, 22 Jun 2026 07:10:11 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "features",
-      "qodana",
-      "phpstorm"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "How Meta Engineered Ultra-Narrow Batteries for AI Glasses",
-    "description": "Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So how do you place a battery with enough power to run a pair of smart glasses [...]\nRead More...\nThe post How Meta Engineered Ultra-Narrow Batteries for AI Glasses appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/",
-    "pubDate": "Tue, 23 Jun 2026 16:00:38 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Culture",
-      "Production Engineering",
-      "Virtual Reality",
-      "Meta Tech Podcast"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "프롬프트 튜닝을 수작업에서 AI 튜닝으로: 유전 알고리즘 기반 자동 최적화와 고속화",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.안녕하세요. LY Corporation의 Nakano입니다. Yahoo! JAPAN Se...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-60",
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-184",
     "pubDate": "Tue, 23 Jun 2026 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 8,
+    "id": 2,
     "imageUrl": "",
-    "title": "The Data Canary: How Netflix Validates Catalog Metadata",
-    "description": "No description available",
+    "title": "Single Source of Truth",
+    "description": "아침부터 Single Source of Truth, SSOT 에 대한 이야기가 뜨겁게 진행되었다. 각 조직별로 제품 코드와 문서관련 또는 조직의 지식 관련하여 하나의 출처를 만들어야 한다는 이야기이다. 어떤 저장소에 저장할 지, 어떤 형태로 저장할지 등 표준에 대한 이야기에서부터 템플릿, 가이드 등에 대한 이야기가 뜨거웠다. 사실 개별 조직에서는 이미 각자",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:54:17 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "automation",
-      "site-reliability",
-      "data-validation",
-      "data-reliability",
-      "experimentation"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "시멘틱 컨텍스트 OS 설계: 에이전트 시스템의 토큰 스터핑을 넘어",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.대규모 언어 모델(large language model, 이하 LLM)의 물리적 입력 한...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-59",
-    "pubDate": "Wed, 24 Jun 2026 02:00:00 GMT",
-    "creator": "Unknown",
+    "link": "https://brunch.co.kr/@@24SO/55",
+    "pubDate": "Mon, 22 Jun 2026 14:37:49 GMT",
+    "creator": "고종범",
     "categories": []
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "YouTrack Security Update: Upgrade Required for YouTrack Server",
-    "description": "We’re sharing this update to inform YouTrack administrators about several security vulnerabilities that were recently identified and fixed in YouTrack. For YouTrack Cloud users, this post is purely informational – YouTrack Cloud has already been patched and no action is required.  For YouTrack Server administrators, we recommend upgrading to one of the fixed versions listed […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/youtrack/2026/06/youtrack-security-update-youtrack-server-upgrade-required/",
-    "pubDate": "Fri, 19 Jun 2026 11:42:41 +0000",
-    "creator": "Elena Pishkova",
-    "categories": [
-      "security",
-      "youtrack",
-      "news"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Qodana Is a Finalist in the 2026 CODiE Awards for Best DevOps Tool",
-    "description": "Qodana For DevOps: Automated Code Quality and Security, at Scale Modern DevOps teams move fast – but speed without consistency, security, and visibility creates risk. JetBrains Qodana helps DevOps teams build and ship higher-quality, more secure software by making code quality and security checks automatic, consistent, and easy to act on across the entire delivery […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/06/qodana-is-a-finalist-in-the-2026-codie-awards-for-best-devops-tool/",
-    "pubDate": "Thu, 18 Jun 2026 13:18:10 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "awards",
-      "ai",
-      "devops",
-      "intellij",
-      "qodana"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Data Projects: Managing Data Assets at Netflix Scale",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 19 Jun 2026 23:54:00 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "big-data",
-      "data-governance",
-      "data-orchestration"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 55화, 돌아온데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2465",
-    "pubDate": "Wed, 24 Jun 2026 23:38:23 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "AI 에이전트끼리 토론한다면? 멀티 에이전트 협업으로 재설계하는 개발 프로세스",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.AI 코딩에서 어려운 점은 더 이상 코드를 생성하는 것이 아닙니다. 진짜 어려운 부분은 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-219",
-    "pubDate": "Thu, 25 Jun 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 15,
+    "id": 3,
     "imageUrl": "",
     "title": "How to Win a Hackathon: Notes From the Judging Table",
     "description": "At the JetBrains x Codex Hackathon, I spent two days watching teams build and then pitch their projects. The thing that decided most of the winners wasn’t just the previous twenty-four hours of work. It was the few minutes they spent presenting it. A strong project with a confusing demo loses to a simpler project […]",
@@ -234,5 +40,182 @@
       "how-tos",
       "hackathon"
     ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "AI 에이전트끼리 토론한다면? 멀티 에이전트 협업으로 재설계하는 개발 프로세스",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.AI 코딩에서 어려운 점은 더 이상 코드를 생성하는 것이 아닙니다. 진짜 어려운 부분은 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-219",
+    "pubDate": "Thu, 25 Jun 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Flava DBaaS 딥다이브: 아키텍처부터 마이그레이션, 그리고 미래까지",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.들어가며안녕하세요. LY Corporation의 DBaaS DevOps 팀에서 일하고 있...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-231",
+    "pubDate": "Wed, 24 Jun 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "임베딩 안정화로 검색 리랭킹의 콜드 스타트 문제를 해결하다: LINE Part Time Jobs 적용 사례",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.안녕하세요. LY Corporation에서 머신러닝 플랫폼을 개발하고 있는 Kenta K...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-62",
+    "pubDate": "Fri, 26 Jun 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "The Unglamorous Side of Rust Web Development ",
+    "description": "This is a guest post by Mateusz Maćkowski and Marek Grzelak, co-maintainers of cot.rs and speakers at Rustikon 2026. You can watch their full talk here. In the very beginning, all we wanted to do was build a JSON API. After doing that a few times in Rust, we noticed a recurring pattern. Every new […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2026/06/25/rust-web-development-2026/",
+    "pubDate": "Thu, 25 Jun 2026 12:11:44 +0000",
+    "creator": "Irina Mihajlovic",
+    "categories": [
+      "rustrover",
+      "web-development",
+      "rust",
+      "rust-web-development"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "YouTrack Helpdesk Now Includes Customer Groups",
+    "description": "YouTrack 2026.2 introduces customer groups in YouTrack Helpdesk, helping B2B support teams tailor the support experience to different customers. Teams can manage tickets by company, team, or organization, maintain different SLAs, assign support agents to specific groups, and apply customer-specific rules. Multiple reporters from the same group can share tickets, follow updates, comment, and stay […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/youtrack/2026/06/youtrack-helpdesk-now-includes-customer-groups/",
+    "pubDate": "Wed, 24 Jun 2026 04:58:55 +0000",
+    "creator": "Elena Pishkova",
+    "categories": [
+      "features",
+      "news",
+      "releases",
+      "helpdesk",
+      "release",
+      "youtrack-cloud",
+      "youtrack-server"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Streamline C++ Code Intelligence Setup in Copilot CLI",
+    "description": "C++ developers can now bring IDE-style semantic intelligence into Copilot CLI with less setup. The C++ language server plugin supports richer code navigation, diagnostics, symbol understanding, and code changes by using the same build context your compiler does. That build context usually comes from a compile_commands.json file, which tells the language server how each source […]\nThe post Streamline C++ Code Intelligence Setup in Copilot CLI appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/streamline-c-code-intelligence-setup-in-copilot-cli/",
+    "pubDate": "Tue, 23 Jun 2026 21:04:54 +0000",
+    "creator": "Sinem Akinci",
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "공학이 아니라 철학 - AI 시대 저항하기 - 철학",
+    "description": "내가 중요하게 여기는 것은 대부분 Tech 들이다. IT 분야에 일하고 있는 때문에 기본적으로 Tech 가 중요하다. 그리고 나의 삶에 중요한 Tech 는 재테크, 근테크, 뇌테크이다. 효율적으로 재산을 불리는 행위의 재테크, 꾸준한 노력으로 근력을 키우는 근테크, 뇌세포를 유지하고 활성화하는 뇌테크이다. 이런 테크들을 위해 내가 노력하는 것은 공학적 입장",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/54",
+    "pubDate": "Fri, 19 Jun 2026 14:59:28 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "하드웨어는 항상 여기에 있었다",
+    "description": "꽤 오랫동안 같은 말을 주변에서 계속 들어서 정확하게 언제부터인지 기억은 안 나지만, 최소 20년 전부터 삼성, LG, 현대 같은 한국 기업은 미래가 없다는 말을 너무 많이 들었다. 여러 가지 이유가 있었지만, 가장 많이 들었던 이유는 이 회사들은 하드웨어만 할 줄 알지, 소프트웨어를 모르기 때문이라는 것이었다. 누가 이런 관찰을 처음 했는지, 누가 이런 의견을 처음 제시했는지,(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/06/hardware-was-always-here.html",
+    "pubDate": "Sun, 21 Jun 2026 21:31:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "hardware",
+      "inspiring",
+      "korea",
+      "software"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Save the Date: Pure Virtual C++ 2026",
+    "description": "Pure Virtual C++ is back for its 7th year! Join us on July 21 for a free, one-day virtual conference for the whole C++ community.\nThe post Save the Date: Pure Virtual C++ 2026 appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/save-the-date-pure-virtual-cpp-2026/",
+    "pubDate": "Thu, 25 Jun 2026 21:33:48 +0000",
+    "creator": "Marian Luparu",
+    "categories": [
+      "Announcement",
+      "C++",
+      "Pure Virtual C++"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "The real winner of Cursor’s $60B acquisition won’t be AI coding assistants",
+    "description": "When news broke that SpaceX would acquire Cursor’s parent company, Anysphere, in a reported $60 billion all-stock deal, most of the discussion centered around AI. This was another milestone and enormous valuation, and signal that AI is still bringing enormous disruption. Those reactions aren’t wrong but they can overshadow the bigger story. The real significance […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/06/cursor-s-60b-acquisition/",
+    "pubDate": "Thu, 25 Jun 2026 15:01:18 +0000",
+    "creator": "Kerry Beetge",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Your AI Agent Keeps Missing The Real Bottleneck.  JetBrains Rider Can Fix It Now.",
+    "description": "Here’s a case worth pondering: your app freezes for ten seconds, and you ask an AI agent what’s wrong. What does it actually do? For a long time the honest answer was: it rummages through your code and takes a wild guess. A snapshot taken by a profiler tool is runtime evidence. It knows exactly […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/06/25/performance-profiling-agent-skill-in-rider/",
+    "pubDate": "Thu, 25 Jun 2026 14:17:40 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "jetbrains-ai",
+      "rider",
+      "eap",
+      "mcp",
+      "mcp-tools"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "강의안 | AI는 우리 회사를 알고있는가? GEO마케팅 - 창업(스타트업)",
+    "description": "1. AI는 우리 회사를 알고있는가? GEO 마케팅   2. AI는 우리 회사를 알고있는가? GEO 마케팅 강의개요 ​ ​- AI는 우리 회사를 알고 있는가? GEO 마케팅 ​- 예비창업자, 기존 창업자, 소상공인, 스타트업 ​- Page : 22P ​- 강의시간 : 1시간 ​ http://www.thegamechangers.kr/ ​ https://blo",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@LOc/344",
+    "pubDate": "Sun, 21 Jun 2026 07:11:14 GMT",
+    "creator": "고명환",
+    "categories": []
   }
 ]
