@@ -2,17 +2,17 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "전화로 무서운 이야기 해주는 서비스는 무슨 이야기해주나 / 010-4444-4444",
-    "description": "나무위키 주소는 여긴거 같은데\nhttps://namu.wiki/w/010-4444-4444\n\n \n010-4444-4444\n전화로 듣는 무서운 이야기, 호러 스토리에 오신 것을 환영합니다. 무서운 이야기를 들으시려면, 1번을 눌러주세요.\nnamu.wiki\n\n \n어딜 눌러야 들을 수 있지....\n \n영상에서 직접 전화 걸어서 들려줍니다.\n영상: https://www.youtube.com/watch?v=r1ZGW8_aT_E\n\n\n\n1시간 14분 으로 가시면 잠깐 나옵니다.\n1시간 28분 40초에 한번 더 듣네요 ㅋ\n2시간 52분 30초에 시청자 깨우기위해 한번더 듣는다.\n유튜브 없던 시절엔 이렇게 했나보군요\n아마 전화는 유료였겠죠?\n \n1분에 천원 / 전화비가 제일 무섭지\n라는데 010-4444-4444 는 유료 아니라는 설이 있군요",
+    "title": "유니티 썸머 챌린지 도전해봅시다. / 2026",
+    "description": "골드매탈님과 함께 여름 테마 게임을 만들어 올려봅시다.\nAI 기능도 있군요\n기간은 7월 24일 (금) 까지\n해시태그에 이거 넣어서 SNS 에 올리라는군요\n#unitysummerchallenge #유니티썸머챌린지 #unity\n \n이 링크가 설명 페이지 같습니다.\n링크 - https://app.response.unity3d.com/e/er?utm_campaign=Other_korea_Announcement_MESD-16144-2026-06-KR-KO-Ent-KRAllUserOptIn&utm_content=MESD-16144-2026-06-KR-KO-Ent-KRAllUserOptIn-SummerChallenge-Promo-01&utm_medium=email&utm_source=Eloqua&s=795651218&lid=21898&elqTrackId=199ba80abb1348e6aebe41adeb5d3259&elq=3a51eef575a2454a82131e4b2923820f&elqaid=38307&elqat=1&elqak=8AF5AC6B75C8D7FF9AE7ECF4B088E85B95981DF20459E0AF67CD1923A6279E7DFEFC\n\n \nUnity Summer Challenge | 유니티스퀘어\nUnity Event - Unity Summer Challenge\nunitysquare.co.kr\n\n \n \n제작 영상\n영상: https://www.youtube.com/watch?v=fsP7NvFGop0",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1667",
-    "pubDate": "Mon, 22 Jun 2026 19:39:07 +0900",
+    "link": "https://serverdown.tistory.com/1670",
+    "pubDate": "Fri, 26 Jun 2026 22:09:06 +0900",
     "creator": "SID-NFT",
     "categories": [
-      "유튜브",
-      "괴담",
-      "유튜브"
+      "게임",
+      "유니티",
+      "이벤트참여"
     ]
   },
   {
@@ -33,47 +33,62 @@
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Streamline C++ Code Intelligence Setup in Copilot CLI",
-    "description": "C++ developers can now bring IDE-style semantic intelligence into Copilot CLI with less setup. The C++ language server plugin supports richer code navigation, diagnostics, symbol understanding, and code changes by using the same build context your compiler does. That build context usually comes from a compile_commands.json file, which tells the language server how each source […]\nThe post Streamline C++ Code Intelligence Setup in Copilot CLI appeared first on C++ Team Blog.",
+    "title": "총 용량 1EB 초과! 서로 역사가 다른 두 HDFS를 어떻게 연결할까? 데이터 플랫폼 연계 중 직면한 과제와 설계 결정",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.들어가며안녕하세요. LY Corporation에서 대규모 데이터 플랫폼 운영을 담당하고 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/streamline-c-code-intelligence-setup-in-copilot-cli/",
-    "pubDate": "Tue, 23 Jun 2026 21:04:54 +0000",
-    "creator": "Sinem Akinci",
-    "categories": [
-      "C++"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Our Research on Membership Inference Attacks and Preventing Privacy Leaks",
-    "description": "Imagine there’s a stranger out there who has nothing but API access to your chatbot. They are interested in knowing whether a specific patient, employee, or customer appears in the data you trained it on. Without breaching the database or stealing backups, this person can theoretically figure out this information with carefully crafted prompts and […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/06/membership-inference/",
-    "pubDate": "Thu, 25 Jun 2026 10:02:06 +0000",
-    "creator": "Katie Fraser",
-    "categories": [
-      "research",
-      "membership-inference",
-      "privacy-risks"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "산업 특화 AI LLM, VLM 모델 개발 사례 및 기술 분석 ",
-    "description": "이 글은 산업 특화 AI LLM, VLM 모델 개발 사례 및 기술 분석 내용을 간략히 정리한 것이다. \n\n\n\n산업 분야 복합추론(Complex Reasoning) 특화 모델 및 파이프라인 개발을 위해 최근 3년 내 공개된 국내외 도메인 특화 모델의 개발 사례를 정리한다. 의료, 법률, 과학 등 타 전문 도메인에서 환각(Hallucination)을 제어하고 다단계 논리 추론을 성공시킨 파이프라인의 핵심 구조와 데이터셋 예시를 정리하고, 이를 건설, 기계제조, 물류 분야에 적용한 최신 기술 트렌드를 제시한다.\n\n\n타 도메인 특화 복합추론 모델 및 파이프라인 사례\nFully Open Meditron (의학 분야)\n\n개념 및 특징: EPFL 연구진 등이 개발한 의료 특화 LLM 파이프라인으로, 학습 데이터셋 구축부터 정제, 평가까지 전 과정을 완전히 투명하게 공개한 오픈소스 프로젝트이다. Base 모델의 환각을 방지하기 위해 임상 지침(Clinical Guidelines)에 기반한 검증 루프와 전문가 검토(Clinician-vetted) 과정을 거쳐 합성 데이터를 증강하는 파이프라인을 구축하였다.\n프로젝트 링크: EPFLiGHT FullyOpenMeditron GitHub / Fully Open Meditron 논문\n\n데이터셋 예시 (Instruction Tuning Format):\n{\n\n\n\"instruction\": \"임상 가이드라인에 기반하여 환자의 증상을 진단하고 치료 계획을 수립하라.\",\n\n\"input\": \"환자(65세, 남성)는 고혈압 기왕력이 있으며, 2시간 전부터 시작된 극심한 흉통과 호흡곤란을 호소함. 혈압 160/95 mmHg, 심박수 105회/분.\",\n\n\"thought\": \"1. 흉통과 호흡곤란은 급성 관상동맥 증후군(ACS) 또는 대동맥 박리의 가능성을 시사함. 2. 고혈압 기왕력이 있으므로 심전도(ECG) 및 트로포닌 수치 확인이 최우선임. 3. 가이드라인에 따라 산소 공급 및 아스피린 투여를 고려해야 함.\",\n\n\"output\": \"급성 관상동맥 증후군(ACS)이 의심되므로 즉시 12유도 심전도 검사 및 심근효소(Troponin) 검사를 시행해야 한다. 가이드라인에 의거하여 금기가 없는 한 아스피린 300mg을 즉시 경구 투여하고 응급 심혈관 중재술이 가능한 시설로 이송을 준비한다.\"\n\n\n}\n\nPMC-LLaMA (의학·바이오 분야)\n\n개념 및 특징: PubMed Central(PMC)의 학술 논문 480만 편 이상을 기반으로 LLaMA 모델을 지속 사전학습(Continued Pre-training, CPT)하고 의학적 인과관계를 추론할 수 있도록 미세조정한 모델이다. 의학적 텍스트 간의 복잡한 상관관계를 학습하여 전문 지식 부족으로 인한 환각을 대폭 줄였다.\n프로젝트 링크: [chaoyi-wu PMC-LLaMA GitHub](https://github.com/chaoyi-wu/PMC-LLaMA)\n\n데이터셋 예시 (Medical QA Format):\n{\n\n\n  \"instruction\": \"제시된 의학적 질문에 대해 논리적 근거와 함께 최적의 옵션을 선택하라.\",\n\n  \"input\": \"질문: 23세 임산부가 배뇨 시 타는 듯한 통증으로 내원함. 비용 차단이나 약물 알레르기는 없음. 늑골척추각 압통은 없음. 다음 중 가장 적절한 치료제는 무엇인가? 옵션: A. Ampicillin, B. Ceftriaxone, C. Doxycycline, D. Nitrofurantoin\",\n\n  \"output\": \"정답은 D. Nitrofurantoin이다. 임신 중 발생한 단순 방광염(Uncomplicated Cystitis)의 1차 치료제로는 Nitrofurantoin 또는 Amoxicillin-clavulanate가 권장된다. C는 임산부에게 금기이며, A와 B는 단순 방광염의 1차 선택지로 부적절하다.\"\n\n\n}\n\nSaul-LM (법률 분야)\n\n개념 및 특징: 법률 도메인에 특화된 7B 규모의 모델로, 대규모 법률 코퍼스로 CPT를 수행한 후 법률 명제 생성 및 조항 검토의 formal validity(형식적 타당성)를 극대화하도록 파이프라인이 설계되었다. 계약서 해석이나 규제 준수 여부를 다단계로 추론하는 데 특화되어 있다.\n프로젝트 링크: sxu3 LP-Eval GitHub (Saul-LM 평가 및 벤치마크)\n\n데이터셋 예시 (Legal Reasoning Format):\nJSON\n{\n\n\n \"instruction\": \"법률 조항과 분쟁 상황을 분석하여 귀책 사유 및 계약 위반 여부를 추론하라.\",\n\n \"input\": \"계약조항: 제12조(지체상금) 공급자가 약정된 기한 내에 목적물을 인도하지 못할 경우, 지체일수 1일당 총 계약금액의 0.1%를 지체상금으로 지급한다. 단, 불가항력적인 사유는 예외로 한다. 상황: 공급업체 A는 홍수로 인한 원자재 수급 불능으로 인해 납기를 10일 지체함.\",\n\n \"thought\": \"1. 홍수가 계약서 상 '불가항력적 사유'에 부합하는지 민법 및 판례 기준 검토 필요. 2. 일반적인 기상 악화와 달리 재해 수준의 홍수는 불가항력으로 인정될 여지가 있음. 3. 따라서 지체상금 면제 조항이 적용될 가능성이 높음.\",\n\n \"output\": \"공급업체 A의 납기 지체는 홍수라는 자연재해(불가항력적 사유)에 기인한 것이므로, 제12조 단서 조항에 따라 지체상금 지급 의무가 면제될 가능성이 높다. 다만, 홍수 발생 직후 지체 없이 이 사실을 통보하고 증빙했는지 여부를 추가 확인해야 한다.\"\n\n\n}\n\nSciGLM (과학·공학 분야)\n\n개념 및 특징: 수식, 공학적 메커니즘, 화학식 등 다단계 논리 추론이 필수적인 과학 도메인을 위해 개발된 모델이다. 데이터 부족 문제를 해결하기 위해 '자가 반성적 지시어 주석(Self-Reflective Instruction Annotation)' 프레임워크를 도입하여, 모델 스스로 추론 단계를 비판하고 수정하는 파이프라인을 구축하였다.\n프로젝트 링크: [THUDM SciGLM GitHub](https://github.com/THUDM/SciGLM)\n\n데이터셋 예시 (Scientific Reasoning Format):\n{\n\n\n\"instruction\": \"물리학적 법칙을 적용하여 주어진 공학적 문제를 해결하고 계산 과정을 기술하라.\",\n\n\"input\": \"질량 10kg의 물체가 마찰이 없는 30도 경사면을 따라 미끄러져 내려갈 때, 물체의 가속도를 구하라. (중력가속도 g = 9.8 m/s^2)\",\n\n\"thought\": \"1. 경사면을 따라 내려가는 힘 F = m * g * sin(theta)이다. 2. 뉴턴의 제2법칙 F = m * a를 적용하면 m * a = m * g * sin(theta)가 된다. 3. 질량 m을 소거하면 가속도 a = g * sin(theta)이다. 4. sin(30도) = 0.5이므로 9.8 * 0.5를 계산한다.\",\n\n\"output\": \"경사면 방향으로 작용하는 성분력은 $F = mg \\sin(30^\\circ)$이다. 뉴턴의 제2법칙($F=ma$)에 의해 $ma = mg \\sin(30^\\circ)$가 성립하므로, 가속도 $a = g \\sin(30^\\circ)$가 된다. 따라서 가속도는 $9.8 \\times 0.5 = 4.9 \\text{ m/s}^2$이다.\"\n\n\n}\n\n산업 분야별 특화 모델 학습 및 파이프라인 개발 사례\n건설(Construction) 분야\n건설 표준 시방서(KDS, KCS), 설계 가이드라인, 국토교통부 고시 법령 등 방대한 건설 도메인 문서를 CPT 및 SFT로 학습시키는 파이프라인이다. 수치적 기준과 규제 조건의 환각을 방지하기 위해 LLM을 지식 그래프(Knowledge Graph) 및 BIM(빌딩정보모델링) 메타데이터와 결합한 'Agentic RAG' 구조를 주로 채택한다.\n\n\n데이터셋 예시 (건설 시방서 복합추론):\nJSON\n{\n\n\n\"instruction\": \"국가건설기준에 의거하여 현장 시공 계획의 적합성을 판정하고 근거를 제시하라.\",\n\n\"input\": \"현장 상황: 건축물 지하 외벽 콘크리트 타설 계획 중임. 설계 강도는 24MPa이며, 동절기 환경(일평균 기온 2도)에서 시공 예정임. 현장 감리는 일반 포틀랜드 시멘트를 사용한 표준 배합으로 타설을 승인하려 함.\",\n\n\"thought\": \"1. 일평균 기온이 4도 이하로 떨어지는 동절기 환경이므로 '동절기 콘크리트(한중 콘크리트)' 규정이 적용되어야 함. 2. 한중 콘크리트 시공 시 초기 동해 방지를 위한 양생 및 가열 계획이 필수적임. 3. 일반 배합 그대로 타설 시 초기 동해로 인한 균열 및 강도 저하 리스크가 매우 큼.\",\n\n\"output\": \"적합성 판단: 부적합. 일평균 기온이 4도 이하인 조건이므로 KCS 14 20 40(한중 콘크리트) 기준에 따라 특수 배합 및 보온 양생 계획이 수립되어야 한다. 일반 포틀랜드 시멘트를 사용한 표준 배합으로 동절기에 그대로 타설할 경우 초기 동해로 인한 구조물 성능 저하가 발생하므로, 가열 양생 또는 동결방지제 사용 계획을 포함한 시공 계획서로 전면 수정해야 한다.\"\n\n\n}\n\n기계제조(Manufacturing) 분야\n설비 매뉴얼, 고장 형태 영향 분석(FMEA) 문서, 센서 알람 로그 데이터를 결합한 문제 해결형 추론 모델 파이프라인이다. 텍스트 로그가 입력되면 고장의 근본 원인을 추론하고 정비 절차(SOP) API를 호출하는 'Tool-use 파이프라인' 형태로 구동된다.\n\n\n데이터셋 예시 (설비 고장 진단 복합추론):\n{\n\n\n\"instruction\": \"제조 설비의 에러 로그와 정비 매뉴얼을 매칭하여 근본 원인을 분석하고 조치 절차를 생성하라.\",\n\n\"input\": \"로그 데이터: [Error Code 0x4F2] CNC 밀링 머신 주축(Spindle) 과부하 및 온도 85도 돌파. 유압 시스템 압력 저하 발생.\",\n\n\"thought\": \"1. 에러 코드 0x4F2는 주축 과열 관련 오류임. 2. 유압 압력 저하가 동반된 것으로 보아 냉각유 공급 펌프 오작동 또는 유압 라인 누유 가능성이 높음. 3. 조치 순서는 주축 정지 -> 유압 압력 체크 -> 냉각 시스템 점검 순이어야 함.\",\n\n\"output\": \"근본 원인 분석: 유압 시스템 압력 저하로 인한 주축 냉각 유량 부족 및 마찰열 발생으로 추론됨. 조치 절차: 1단계 - CNC 장비를 즉시 비상 정지하여 주축 손상을 방지함. 2단계 - 유압 펌프 레벨 및 라인 누유 여부를 육안 점검함. 3단계 - 냉각기(Chiller)의 필터 막힘 상태를 확인 후 정비 매뉴얼 4-1장에 따라 유압 밸브를 리셋함.\"\n\n\n}\n\n물류(Logistics & SCM) 분야\n공급망 지연, 기상 변화, 통관 리스크 등 비정형 돌발 변수가 발생했을 때 대안 경로와 운영 비용을 자율 계산하는 수학적 추론 모델 파이프라인이다. LLM이 상황을 파악한 뒤 직접 최적화 알고리즘 코드(Python)를 생성하여 실행하고, 에러가 발생하면 자가 교정(Self-Correction)하는 구조로 개발된다.\n\n\n데이터셋 예시 (SCM 돌발 상황 의사결정 추론):\nJSON\n{\n\n\n\"instruction\": \"물류망 마비 상황에 대응하는 대체 운송 라우팅 계획을 수립하고 물류비용 변화를 추론하라.\",\n\n\"input\": \"상황: A항구 파업으로 인해 예정된 부품 500톤의 하역이 불가능함. 대체 항구 B를 이용할 경우 내륙 운송 거리가 150km 증가하며, 트럭 운송 단가는 톤·km당 150원임.\",\n\n\"thought\": \"1. 대체 경로 B 선택 시 추가 내륙 운송 비용 산출 필요. 2. 추가 비용 = 500톤 * 150km * 150원 = 11,250,000원. 3. 납기 지연으로 인한 페널티 비용과 비교하여 최종 의사결정을 내려야 함.\",\n\n\"output\": \"대응 계획: 선박을 대체 항구 B로 회항 조치한다. 이로 인해 발생하는 추가 내륙 물류비용은 총 11,250,000원($500 \\times 150 \\times 150$)으로 산출된다. 이는 원래 항구 A에서 파업 종료를 대기할 때 발생하는 라인 중단 페널티 비용(일일 50,000,000원 상당)보다 경제적이므로 회항 파이프라인을 즉시 가동하는 것이 타당하다.\"\n\n\n}\n\n결론\nFully Open Meditron이나 SciGLM 같은 도메인 특화 모델들의 성공 요인은 단순한 텍스트 학습이 아니라, 전문가의 사고 흐름을 모방한 논리적 추론 경로(Chain-of-Thought, Thought 태그) 데이터의 대량 구축 및 정제에 있다.\n\n\n\n\n\n따라서 현재 진행 중인 건설 AI 연구에서 환각을 제어하고 복합추론 능력을 강화하기 위해서는 아래와 같은 파이프라인 구축 전략이 요구된다.\n\n지식 주입과 논리 분리: Base 모델에 억지로 암기시키기보다 구조화된 텍스트 코퍼스로 CPT를 수행한 뒤, RAG 파이프라인과 결합하여 데이터의 정확성을 보장해야 한다.\nCoT 데이터셋 합성: 실제 엔지니어의 문제 해결 프로세스를 `<thought>` 태그 내에 단계별(Step-by-step)로 명시한 지시어 데이터셋을 최소 수만 건 이상 구축하여 SFT를 진행하는 것이 필요하다.\n\n\n레퍼런스\n\nOpen Meditron, a fully open, clinician-audited medical training corpus and evaluation protocol that closes the open-vs-closed gap on open-ended clinical evaluation.\nMeditronFO - a EPFLiGHT Collection\ndata/README.md · EPFLiGHT/fully-open-meditron at main\nMeditron is a suite of open-source medical Large Language Models (LLMs).\n오픈소스 의료 LLM '메디트론FO'\n\n\n\n부록: 데이터 학습 파이프라인 예시\n파이프라인\n\n\n\n[Base Model] ---> [1. CPT 단계] -----------> [2. SFT/Reasoning 단계] --> [3. RAG/Agent 단계] - 스케일: 20B~30B 토큰 - 스케일: 5만~10만 건 지시어 - 실시간 수치 검증 - 목적: 건설 용어/지식 주입 - 목적: CoT(<thought>) 추론 - 목적: 환각 완전 제어\n\n\n\nCPT(지속 사전학습) 코퍼스 예시\n\n\n\n{\"text\": \"[건설기준코드: KDS 41 10 05 : 2022 건축구조기준 총칙] 3. 설계하중 (1) 건축물 및 구축물은 구조적 안전성을 확보하도록 이 기준에서 규정한 고정하중, 활하중, 적설하중, 풍하중, 지진하중 등의 설계하중에 대하여 견딜 수 있도록 구조 설계되어야 한다. (2) 특수한 환경에 위치한 구조물의 경우, 토압, 수압, 파랑하중, 온도하중 등 발생 가능한 모든 유효한 하중의 영향을 추가로 고려하여야 한다.\", \"metadata\": {\"source\": \"국가건설기준센터\", \"domain\": \"건설_구조공학\", \"doc_type\": \"KDS\", \"code_id\": \"KDS_41_10_05\", \"year\": \"2022\"}}\n\n\n{\"text\": \"[LH 전문시방서: 31510 콘크리트공사] 2.1 재료 (1) 한중 콘크리트 시공 시 사용하는 시멘트는 고로슬래그 시멘트의 초기 강도 발현 지연을 고려하여, 특별한 지정이 없는 한 일반 포틀랜드 시멘트(KS L 5201) 사용을 원칙으로 한다. (2) 초기 동해 방지를 위해 가열 양생 시, 급격한 건조 및 온도 변화로 인한 균열 방지 대책을 시공 계획서에 명시하여야 한다.\", \"metadata\": {\"source\": \"LH공사\", \"domain\": \"건설_시공공학\", \"doc_type\": \"Specification\", \"code_id\": \"LH_31510\", \"year\": \"2024\"}}\n\n\n\n\n\n\n지도 미세조정 코퍼스 예시\n\n\n{\n\n\n  \"messages\": [\n\n\n    {\n\n\n      \"role\": \"user\",\n\n\n      \"content\": \"현재 동절기 환경(일평균 기온 1.5도)에서 지하 주차장 슬래브 콘크리트 타설을 준비 중이다. 시공사에서 조강 포틀랜드 시멘트를 사용하고, 타설 후 2일간 천막을 치고 갈탄을 태워 보온 양생을 하겠다는 계획서를 제출했다. 이 시공 계획의 기술적 문제점과 국가건설기준에 따른 보완 요구사항을 추론하라.\"\n\n\n    },\n\n\n    {\n\n\n      \"role\": \"assistant\",\n\n\n      \"content\": \"<thought>\\n1. 주어진 상황 분석: 일평균 기온 1.5도이므로 KCS 14 20 40(한중 콘크리트) 적용 대상이다.\\n2. 시공사 계획 검토:\\n   - 자재: 조강 포틀랜드 시멘트 선택은 초기 강도 확보에 유리하므로 타당하다.\\n   - 양생 방법: 갈탄 보온 양생 계획 수립함.\\n3. 갈탄 양생의 문제점 인출:\\n   - 갈탄 연소 시 발생하는 이산화탄소(CO2)가 콘크리트 표면과 반응하여 탄산화(중성화)를 유발함. 이는 표면 강도 저하 및 균열의 원인이 됨.\\n   - 밀폐 공간 내 일산화탄소(CO) 축적으로 인한 작업자 질식 재해 위험 존재.\\n4. 국가건설기준(KCS) 부합성 체크:\\n   - KCS에서는 한중 콘크리트 가열 양생 시 이산화탄소에 의한 탄산화 방지 대책을 세우거나 열풍기 등 간접 가열 방식을 권장함.\\n5. 결론 및 보완 지시 도출:\\n   - 갈탄 양생 전면 수정 또는 CO2 배출 제어 대책 요구.\\n   - 열풍기(전기 또는 가스) 방식으로 변경 권고.\\n   - 작업자 출입 통제 및 환기 시설 매뉴얼 추가 요구.\\n</thought>\\n제출된 시공 계획서는 국가건설기준(KCS 14 20 40 한중 콘크리트) 및 현장 안전 관리 기준에 의거하여 승인 불가하며, 아래와 같은 기술적 문제점에 대한 보완 조치가 필요하다.\\n\\n1. 콘크리트 품질 저하 (탄산화 위험):\\n갈탄 연소 시 대량의 이산화탄소(CO2)가 발생한다. 경화되지 않은 초기 콘크리트 표면이 고농도의 이산화탄소에 노출되면 수화 생성물인 수산화칼슘과 반응하여 탄산칼슘을 형성하는 '초기 탄산화(중성화)' 현상이 발생한다. 이는 콘크리트 표면을 푸석하게 만들고 장기적인 내구성을 심각하게 저하시킨다.\\n\\n2. 보완 요구사항:\\n- 가열 방식을 갈탄 연소 방식에서 이산화탄소 발생이 없는 전기 열풍기 또는 가스식 열풍기(간접 가열) 방식으로 변경하여 재제출해야 한다.\\n- 만약 부득이하게 갈탄을 사용해야 할 경우, 콘크리트 표면에 CO2가 직접 닿지 않도록 완전 밀폐 및 외부 배기 덕트 라인 설치 계획을 수립해야 하며, 질식 사고 방지를 위한 산소 및 CO 농도 측정기 배치, 환기 팬 가동 계획을 안전 계획서에 추가해야 한다.\"\n\n\n    }\n\n\n  ]\n\n\n}\n\n\n\n\nRAG 에이전트 코퍼스 포맷 예시\n\n\n{\n\n\n  \"messages\": [\n\n\n    {\n\n\n      \"role\": \"user\",\n\n\n      \"content\": \"강재 휨재의 국부좌굴을 검토하려고 한다. SM355 강재를 사용한 H형강 보의 플랜지 폭두께비 제한값을 확인하고 싶다. 관련 설계를 진행할 수 있도록 국가건설기준 규격을 조회하여 판단하라.\"\n\n\n    },\n\n\n    {\n\n\n      \"role\": \"assistant\",\n\n\n      \"content\": null,\n\n\n      \"tool_calls\": [\n\n\n        {\n\n\n          \"id\": \"call_const_api_01\",\n\n\n          \"type\": \"function\",\n\n\n          \"function\": {\n\n\n            \"name\": \"search_kds_limits\",\n\n\n            \"parameters\": {\n\n\n              \"standard_code\": \"KDS 41 31 00\",\n\n\n              \"keyword\": \"플랜지 폭두께비 제한값\",\n\n\n              \"steel_grade\": \"SM355\"\n\n\n            }\n\n\n          }\n\n\n        }\n\n\n      ]\n\n\n    },\n\n\n    {\n\n\n      \"role\": \"tool\",\n\n\n      \"tool_call_id\": \"call_const_api_01\",\n\n\n      \"name\": \"search_kds_limits\",\n\n\n      \"content\": \"{\\\"status\\\": \\\"success\\\", \\\"result\\\": \\\"KDS 41 31 00 건축강구조설계기준 표 4.1-1: SM355 강재의 휨재 플랜지 폭두께비(b/t) 제한값 - 조밀단면 한계: 0.38*sqrt(E/Fy) = 9.1, 비조밀단면 한계: 1.0*sqrt(E/Fy) = 24.0 (단, 탄성계수 E=210,000MPa, 항복강도 Fy=355MPa 기준 적용)\\\"}\"\n\n\n    },\n\n\n    {\n\n\n      \"role\": \"assistant\",\n\n\n      \"content\": \"<thought>\\n1. 외부 Tool을 통해 KDS 41 31 00의 정확한 수치 정보를 수신함.\\n2. SM355 강재 기준, 플랜지의 조밀단면 한계 폭두께비는 9.1이며 비조밀단면 한계는 24.0임을 확인.\\n3. 수신된 데이터에 기반하여 환각 없이 사용자에게 설계 가이드라인을 제공함.\\n</thought>\\n조회된 국가건설기준(KDS 41 31 00 건축강구조설계기준)에 따른 SM355 강재 휨재 플랜지의 폭두께비($b/t$) 제한값 기준은 다음과 같다.\\n\\n1. 조밀단면(Compact Section) 한계값: 9.1\\n2. 비조밀단면(Non-compact Section) 한계값: 24.0\\n\\n설계하시는 H형강 보 부재의 플랜지 폭두께비 산정 값이 9.1 이하일 경우 조밀단면으로 분류되어 부재의 소성 휨모멘트 성능을 온전히 발휘할 수 있으나, 9.1을 초과하고 24.0 이하일 경우 비조밀단면으로 분류되어 국부좌굴을 고려한 휨강도 감소 처리를 해야 한다.\"\n\n\n    }\n\n\n  ]\n\n\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/06/ai-llm-vlm.html",
-    "pubDate": "2026-06-22T01:15:06.438Z",
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-184",
+    "pubDate": "Tue, 23 Jun 2026 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Single Source of Truth",
+    "description": "아침부터 Single Source of Truth, SSOT 에 대한 이야기가 뜨겁게 진행되었다. 각 조직별로 제품 코드와 문서관련 또는 조직의 지식 관련하여 하나의 출처를 만들어야 한다는 이야기이다. 어떤 저장소에 저장할 지, 어떤 형태로 저장할지 등 표준에 대한 이야기에서부터 템플릿, 가이드 등에 대한 이야기가 뜨거웠다. 사실 개별 조직에서는 이미 각자",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/55",
+    "pubDate": "Mon, 22 Jun 2026 14:37:49 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "How Netflix Simplified Batch Compute with Kueue",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
+    "pubDate": "Mon, 22 Jun 2026 21:35:01 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "kueue",
+      "netflix",
+      "aws",
+      "kubernetes"
+    ]
+  },
+  {
     "id": 6,
+    "imageUrl": "",
+    "title": "Introducing a Recommended Agent in AI Chat, With Codex as the Current Default",
+    "description": "JetBrains AI supports multiple coding agents, including Junie, Codex, Claude Agent, and any ACP-compatible agent you bring yourself. Previously, AI users in JetBrains IDEs started in Chat mode and had to choose an agent themselves. As models became more advanced, agents became more capable and their adoption grew. We recognize that agents help users achieve […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2026/06/codex-is-now-the-recommended-agent-in-jetbrains-ai/",
+    "pubDate": "Thu, 25 Jun 2026 14:57:31 +0000",
+    "creator": "Anna Maltseva",
+    "categories": [
+      "ai",
+      "news",
+      "ai-in-ides"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "Explicit Lazy Imports Are Coming to Python 3.15",
     "description": "A while ago at PyCon US 2026, I had the pleasure of listening to the Python Steering Council give updates about new features that are being added in Python 3.15. One that stood out was explicit lazy imports (via PEP 810), which defer module loading until first use. I am curious to see how this […]",
@@ -88,30 +103,21 @@
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 55화, 돌아온데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2465",
-    "pubDate": "Wed, 24 Jun 2026 23:38:23 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
     "id": 8,
     "imageUrl": "",
-    "title": "Flava DBaaS 딥다이브: 아키텍처부터 마이그레이션, 그리고 미래까지",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.들어가며안녕하세요. LY Corporation의 DBaaS DevOps 팀에서 일하고 있...",
+    "title": "How Meta Engineered Ultra-Narrow Batteries for AI Glasses",
+    "description": "Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So how do you place a battery with enough power to run a pair of smart glasses [...]\nRead More...\nThe post How Meta Engineered Ultra-Narrow Batteries for AI Glasses appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-231",
-    "pubDate": "Wed, 24 Jun 2026 02:00:00 GMT",
+    "link": "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/",
+    "pubDate": "Tue, 23 Jun 2026 16:00:38 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "Culture",
+      "Production Engineering",
+      "Virtual Reality",
+      "Meta Tech Podcast"
+    ]
   },
   {
     "id": 9,
@@ -131,6 +137,47 @@
   {
     "id": 10,
     "imageUrl": "",
+    "title": "AI로 60초 만에 계약서 독소조항 찾아내는 비법 6가지",
+    "description": "복잡한 계약서를 한 줄씩 읽느라 밤새우던 시대는 이제 끝났습니다. 최근 인공지능 기술의 발전 덕분에, 방대한 분량의 계약서도 단 몇 초 만에 핵심 '독소조항'을 찾아낼 수 있게 되었어요. 오늘 소개해 드릴 6가지 프롬프트만 잘 활용하면, 누구나 꼼꼼하고 빠르게 계약서의 숨은 위험을 파악할 수 있습니다.\n  60초 만에 계약서 독소조항 찾는 AI 프롬프트 혁명!\n솔직히 말씀드리면, 계약서는 우리 삶의 모든 중요한 순간에 함께하는 문서라고 해도 과언이 아니에요. 주택 임대차부터 취업, 투자, 사업 제휴까지… 하지만 이 중요한 문서에 숨어 있는 ‘독소조항’을 제대로 파악하지 못해 곤란을 겪는 분들이 정말 많습니다. 특히 작은 글씨로 쓰여 있거나, 법률 용어 때문에 이해하기 어려운 조항들은 더 그렇죠.\n\n\n하지만 최근 AI 기술 덕분에 이런 걱정을 덜 수 있게 되었어요. 마치 개인 변호사가 옆에 앉아 계약서를 함께 읽어주는 것처럼, AI가 복잡한 법률 문서를 빠르게 분석하고 핵심 위험 요소를 콕 집어내 줍니다. 물론 AI는 보조 도구일 뿐, 최종 판단은 전문가의 검토가 필요하다는 점은 잊지 말아야겠죠!\n  AI 계약서 검토, 왜 필수일까요?\n제 경험상, 계약서 검토는 시간과 비용이 많이 드는 작업이었어요. 전문 변호사의 도움을 받으면 가장 확실하지만, 모든 계약에 그렇게 하기는 현실적으로 어렵죠. 이럴 때 AI 프롬프트는 초기 검토 단계에서 엄청난 효율을 제공합니다. AI를 활용하면 다음과 같은 이점을 얻을 수 있어요.\n시간 절약: 수십 페이지에 달하는 계약서를 단 몇 초 만에 분석합니다.\n비용 절감: 초기 검토 비용을 대폭 줄일 수 있습니다.\n객관성: 감정이나 선입견 없이 오직 데이터에 기반해 위험을 식별합니다.\n조항 누락 방지: 사람이 놓치기 쉬운 모호한 표현이나 누락된 핵심 조항까지 찾아냅니다.\n  60초 만에 독소조항 찾는 AI 프롬프트 6가지\n이제 가장 중요한 부분입니다. 제가 직접 써보고 가장 효과적이라고 느낀 6가지 AI 프롬프트를 공유해 드릴게요. 이 프롬프트들은 마치 돋보기를 들고 계약서 구석구석을 살피는 것처럼, 숨겨진 위험을 명확하게 드러내 줄 거예요. 계약서에 서명하기 전에 반드시 활용해 보시길 강력히 추천합니다.\n1. 전체 위험도 1차 스캔\n가장 먼저, 계약서 전체의 큰 그림을 파악하는 프롬프트입니다. 계약의 성격과 내 입장을 명확히 알려주면 AI가 빠르게 핵심 내용을 요약하고 잠재적 위험을 알려줘요.\n프롬프트: \"첨부한 PDF 계약서를 [계약 유형: 용역/임대차/근로/투자 등] 기준으로 분석해줘. 나는 이 계약에서 [내 입장: 갑/을, 제공자/수령자]야. 먼저 계약서 전체 구조를 한눈에 정리하고, 나에게 불리하거나 위험할 수 있는 조항을 '높음/중간/낮음' 위험도로 분류해서 표로 보여줘. 각 조항이 왜 위험한지 한 줄로 근거도 붙여줘. 법률 용어는 초보도 이해할 수 있게 풀어서 설명해.\"\n활용 팁: AI가 제시한 표를 통해 어떤 조항에 집중해야 할지 빠르게 파악할 수 있어요. 법률 용어가 익숙하지 않은 분들에게 특히 유용하답니다.\n2. 함정 조항만 정밀 색출\n이제 1차 스캔에서 '높음'으로 분류된 조항들을 더 깊이 파고들어 갈 차례입니다. 구체적인 시나리오를 통해 그 조항이 나에게 어떤 불리한 상황을 초래할 수 있는지 예측해 볼 수 있어요.\n프롬프트: \"이제 위험도 '높음'으로 분류한 조항만 따로 모아줘. 각 조항에 대해 (1) 원문 그대로 인용, (2) 이게 실제로 어떤 상황에서 나에게 불리하게 작동하는지 구체적 시나리오, (3) 업계 표준 대비 얼마나 불공정한지를 정리해줘. 특히 위약금, 자동 갱신, 일방적 해지, 손해배상 범위, 책임 전가 조항에 숨은 함정을 놓치지 말고 꼼꼼히 짚어줘.\"\n활용 팁: AI가 제시하는 시나리오를 통해 잠재적 위험을 현실적으로 이해하고 대비할 수 있습니다. 업계 표준과의 비교는 협상에 아주 강력한 근거가 됩니다.\n3. 불리한 조항 → 유리하게 수정안 제안\n단순히 문제점을 아는 것을 넘어, 해결책까지 AI에게 맡겨보세요. AI는 업계 표준과 합리적인 수준을 고려하여 수정 문구를 제안해 줄 거예요.\n프롬프트: \"위에서 찾은 불리한 조항들을 나에게 공정하거나 유리하게 바꾸는 '수정 문구'를 만들어줘. 형식은 이렇게: [기존 조항] → [수정 제안 조항] → [이렇게 바꾸자고 말할 때 쓸 근거 한 줄]. 상대가 받아들이기 쉽도록 너무 욕심부리지 말고, '업계 관행상 합리적'으로 보이는 선에서 협상 가능한 버전으로 작성해줘. [계약 유형]에 맞는 표준 문구를 참고해서.\"\n활용 팁: 이 프롬프트는 실제 협상 과정에서 매우 유용합니다. 제가 직접 사용해보니, AI가 제시한 수정안이 상대방에게도 합리적으로 받아들여지는 경우가 많았어요.\n4. 모호한 표현 = 분쟁 씨앗 찾기\n때로는 독소조항보다 더 위험한 것이 바로 모호한 표현입니다. 해석의 여지가 많으면 나중에 분쟁의 씨앗이 될 수 있거든요. AI에게 이런 '회색 지대'를 찾아달라고 요청해 보세요.\n프롬프트: \"계약서에서 해석이 갈릴 수 있는 모호한 단어와 문장을 전부 찾아줘. 예를 들어 '상당한 기간', '협의하여', '필요한 경우', '제반 비용' 처럼 나중에 분쟁이 생길 수 있는 표현들이야. 각각에 대해 (1) 왜 모호한지, (2) 상대가 이걸 악용하면 어떻게 되는지, (3) 어떻게 구체적인 숫자나 기준으로 못 박을지 대체 문구를 제안해줘.\"\n활용 팁: 모호한 조항은 미리 구체화하여 불확실성을 제거하는 것이 중요합니다. AI가 제시하는 대체 문구는 이런 부분을 해결하는 데 큰 도움이 될 거예요.\n5. \"빠져 있는 조항\" 체크 (가장 중요)\n사실, 가장 큰 함정은 '쓰여 있는 것'보다 '안 쓰여 있는 것'에 있을 때가 많습니다. 계약의 특성상 반드시 포함되어야 할 조항이 누락되어 있다면, 나중에 큰 손해로 이어질 수 있습니다.\n프롬프트: \"이 계약서에 '당연히 있어야 하는데 빠져 있어서' 나를 위험하게 만드는 조항이 뭔지 찾아줘. [계약 유형] 계약에서 통상 들어가는 보호 장치 — 예를 들어 손해배상 상한, 비밀유지, 지식재산권 귀속, 대금 지급 기한, 분쟁 해결 방식, 불가항력 조항 등 — 중에서 누락된 걸 목록으로 정리하고, 각각을 추가해달라고 요청할 때 쓸 문구까지 만들어줘. 함정은 '쓰여 있는 것'보다 '안 쓰여 있는 것'에 더 많아.\"\n활용 팁: 이 프롬프트는 제가 정말 중요하게 생각하는 부분입니다. 미처 생각지 못했던 보호 장치들을 AI가 짚어주면, 훨씬 안전한 계약을 만들 수 있어요.\n6. 협상용 최종 요약 + 발송 문구\n이제 AI가 찾아준 내용들을 바탕으로, 상대방에게 보낼 '계약 수정 요청서' 초안을 만들어볼 수 있습니다. 정중하면서도 나의 입장을 확실히 전달하는 문구를 AI가 작성해 줄 거예요.\n프롬프트: \"지금까지 찾은 내용을 상대에게 보낼 수 있는 '계약 수정 요청서' 형태로 정리해줘. 구성은 (1) 핵심 수정 요청 3~5개를 우선순위 순으로, (2) 각 요청의 정중하지만 단호한 근거, (3) 메일이나 메신저로 바로 보낼 수 있는 본문 초안. 톤은 [관계: 거래처/고용주/임대인]에 맞춰 협조적이되 호구로 보이지 않게. 마지막에 '이 중 금액이나 책임 범위가 걸린 조항은 서명 전 변호사 검토를 권한다'는 안내도 한 줄 넣어줘.\"\n활용 팁: AI가 제시하는 발송 문구는 불필요한 감정 소모 없이 논리적인 협상을 진행하는 데 큰 도움을 줍니다. 항상 전문가의 최종 검토를 받는 것이 가장 안전하다는 점을 명심하세요.\n  중요: AI는 강력한 보조 도구일 뿐입니다. AI가 제시하는 분석 결과는 최종 법적 판단이 아니며, 언제나 전문 변호사의 최종 검토를 거쳐야 한다는 점을 잊지 마세요. 특히 금액이나 책임 범위가 중요한 계약일수록 더욱 그렇습니다.\n  핵심 요약\n✅ 계약서 검토는 이제 AI와 함께! 6가지 프롬프트로 60초 만에 핵심 독소조항을 찾아낼 수 있습니다.\n✅ 숨은 함정은 모호한 표현과 누락된 조항! AI를 통해 미처 발견하지 못했던 위험까지 식별하세요.\n✅ 불리한 조항은 유리하게 수정 제안! AI가 업계 표준에 맞는 협상 가능한 수정 문구를 만들어줍니다.\n✅ AI는 강력한 보조 도구! 최종 법적 검토는 반드시 전문 변호사에게 맡겨 안전을 확보하세요.\n이 요약은 주요 내용을 빠르게 파악하기 위한 것입니다. 상세한 내용은 본문을 참조해 주세요.\n❓ 자주 묻는 질문 (FAQ)\nQ1: AI 계약서 검토는 법적 효력이 있나요?\n아니요, AI 계약서 검토 결과는 법적 효력이 없습니다. AI는 계약서의 잠재적 위험을 식별하고 수정안을 제안하는 강력한 보조 도구이지만, 최종적인 법적 판단이나 책임은 전문 변호사에게 있습니다. 중요한 계약은 반드시 변호사의 최종 검토를 받으셔야 합니다.\nQ2: 어떤 종류의 계약서에 AI 프롬프트를 활용할 수 있나요?\n대부분의 계약 유형에 활용할 수 있습니다. 예를 들어 용역 계약, 임대차 계약, 근로 계약, 투자 계약, 구매 및 판매 계약 등 다양한 종류의 법률 문서에 적용하여 독소조항을 찾아내고 수정안을 검토하는 데 도움을 받을 수 있습니다. 계약 유형을 프롬프트에 명확히 명시하는 것이 중요합니다.\nQ3: AI가 제안한 수정안을 그대로 사용해도 괜찮을까요?\nAI가 제안하는 수정안은 업계 표준과 합리적인 수준을 고려하여 작성되지만, 계약의 구체적인 상황과 당사자들의 특성에 따라 완벽하게 적합하지 않을 수도 있습니다. 따라서 AI 제안을 바탕으로 상대방과 논의하고, 최종적으로 전문가의 조언을 구하여 계약을 확정하는 것이 가장 좋습니다.\n대부분의 사람들은 계약서를 대충 읽고 도장부터 찍은 뒤, 나중에 문제가 터지고 나서야 작은 글씨를 다시 펼쳐봅니다. 하지만 이제 여러분은 다릅니다. 이 글을 통해 서명 전 60초 동안 함정부터 솎아내고, 유리한 협상 테이블에 앉을 수 있는 강력한 무기를 얻으셨어요. 계약서는 더 이상 '읽는 것'이 아니라, '스캔하고 분석하는 것'입니다. 현명하게 AI를 활용하여 여러분의 권리를 지켜나가시길 바랍니다!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483727",
+    "pubDate": "Fri, 26 Jun 2026 14:54:31 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 챗봇 및 지침 무료 배포",
+      "AI 계약서 검토",
+      "AI 법률 보조",
+      "계약서 분석",
+      "계약서 프롬프트",
+      "계약서 협상",
+      "독소조항",
+      "법률 ai",
+      "법률 문서 자동화",
+      "스마트 계약",
+      "을의 권리"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "The Unglamorous Side of Rust Web Development ",
+    "description": "This is a guest post by Mateusz Maćkowski and Marek Grzelak, co-maintainers of cot.rs and speakers at Rustikon 2026. You can watch their full talk here. In the very beginning, all we wanted to do was build a JSON API. After doing that a few times in Rust, we noticed a recurring pattern. Every new […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2026/06/25/rust-web-development-2026/",
+    "pubDate": "Thu, 25 Jun 2026 12:11:44 +0000",
+    "creator": "Irina Mihajlovic",
+    "categories": [
+      "rustrover",
+      "web-development",
+      "rust",
+      "rust-web-development"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
     "title": "임베딩 안정화로 검색 리랭킹의 콜드 스타트 문제를 해결하다: LINE Part Time Jobs 적용 사례",
     "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.안녕하세요. LY Corporation에서 머신러닝 플랫폼을 개발하고 있는 Kenta K...",
     "reviews": [],
@@ -141,19 +188,23 @@
     "categories": []
   },
   {
-    "id": 11,
+    "id": 13,
     "imageUrl": "",
-    "title": "AI 시대의 개발 능력은 검증력으로 결정된다, Flava API Gateway 개발 중 배운 빠른 검증과 로컬 환경 구성 전략",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.에이전트가 코드를 작성할 때 마주하는 문제코딩 에이전트의 반복 속도는 매우 빠릅니다. 이...",
+    "title": "Our Research on Membership Inference Attacks and Preventing Privacy Leaks",
+    "description": "Imagine there’s a stranger out there who has nothing but API access to your chatbot. They are interested in knowing whether a specific patient, employee, or customer appears in the data you trained it on. Without breaching the database or stealing backups, this person can theoretically figure out this information with carefully crafted prompts and […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-223",
-    "pubDate": "Thu, 25 Jun 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/research/2026/06/membership-inference/",
+    "pubDate": "Thu, 25 Jun 2026 10:02:06 +0000",
+    "creator": "Katie Fraser",
+    "categories": [
+      "research",
+      "membership-inference",
+      "privacy-risks"
+    ]
   },
   {
-    "id": 12,
+    "id": 14,
     "imageUrl": "",
     "title": "코드형 인프라(IaC)로 자동화에서 AI까지: OpenTofu와 ChatOps 도입기",
     "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.시작하며안녕하세요. 사내 클라우드 서비스 Verda와 사내 모니터링 도구 IMON에 In...",
@@ -165,59 +216,15 @@
     "categories": []
   },
   {
-    "id": 13,
-    "imageUrl": "",
-    "title": "The Dev Containers Story: Introducing EelApi for Plugin Authors",
-    "description": "Modern development has shifted one old IDE paradigm significantly: Now, not only is it possible that a project is not hosted on the same physical or remote machine as your IDE instance, it could even be that both share the same host but are separated from one another inside isolated environments. If you are a […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/06/the-dev-containers-story-introducing-eelapi-for-plugin-authors/",
-    "pubDate": "Thu, 25 Jun 2026 15:22:16 +0000",
-    "creator": "Alexander Koshevoy",
-    "categories": [
-      "intellij-platform",
-      "plugins",
-      "eelapi",
-      "plugin-development"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "How Netflix Simplified Batch Compute with Kueue",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
-    "pubDate": "Mon, 22 Jun 2026 21:35:01 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "kueue",
-      "netflix",
-      "aws",
-      "kubernetes"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "Open-Sourcing the LSP Client API in IntelliJ IDEA 2026.2",
-    "description": "Language Server Protocol (LSP) solves a real problem: before, each IDE or editor had to implement support for a specific language separately. A language server puts that work in one place and exposes it through a common protocol, providing completion, formatting, documentation, and related features. That common protocol is only a part of the IDE […]",
+    "title": "AI 시대의 개발 능력은 검증력으로 결정된다, Flava API Gateway 개발 중 배운 빠른 검증과 로컬 환경 구성 전략",
+    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.에이전트가 코드를 작성할 때 마주하는 문제코딩 에이전트의 반복 속도는 매우 빠릅니다. 이...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/06/open-sourcing-the-lsp-client-api-in-intellij-idea-2026-2/",
-    "pubDate": "Fri, 26 Jun 2026 12:38:50 +0000",
-    "creator": "Jakub Chrzanowski",
-    "categories": [
-      "idea",
-      "intellij-platform",
-      "open-source",
-      "plugins",
-      "android-studio",
-      "intellij-idea",
-      "lsp",
-      "news",
-      "plugin-development"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-223",
+    "pubDate": "Thu, 25 Jun 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
