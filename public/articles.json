@@ -2,120 +2,96 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Explicit Lazy Imports Are Coming to Python 3.15",
-    "description": "A while ago at PyCon US 2026, I had the pleasure of listening to the Python Steering Council give updates about new features that are being added in Python 3.15. One that stood out was explicit lazy imports (via PEP 810), which defer module loading until first use. I am curious to see how this […]",
+    "title": "Kotlin Notebook Sunset",
+    "description": "Starting from IntelliJ IDEA 2026.2, JetBrains will sunset Kotlin Notebook as a product and will no longer maintain it. The plugin will remain available on an open-source model so the community can continue its development.  Below, we explain why we’re making this change, how it affects current Kotlin Notebook users, what comes next, and how […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/06/explicit-lazy-imports-are-coming-to-python-3-15/",
-    "pubDate": "Thu, 25 Jun 2026 08:21:55 +0000",
-    "creator": "Cheuk Ting Ho",
+    "link": "https://blog.jetbrains.com/idea/2026/06/kotlin-notebook-sunset/",
+    "pubDate": "Mon, 29 Jun 2026 12:02:16 +0000",
+    "creator": "Marco Behler",
     "categories": [
+      "kotlin",
       "news",
-      "python"
+      "kotlin-news-2",
+      "kotlin-notebook"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Our Research on Membership Inference Attacks and Preventing Privacy Leaks",
-    "description": "Imagine there’s a stranger out there who has nothing but API access to your chatbot. They are interested in knowing whether a specific patient, employee, or customer appears in the data you trained it on. Without breaching the database or stealing backups, this person can theoretically figure out this information with carefully crafted prompts and […]",
+    "title": "나의 4개의 축 이야기 - AI 시대 학습할 것들",
+    "description": "나만의 4개의 축을 선정하게 된 것은 노정석님의 유튜브에서 한 어떤 이야기 때문이었다. 노정석님은 매일 1시간씩 AI 를 통해 학습하는 방식으로 기존 3년 정도 걸렸던 박사과정을 1년으로 줄여서 학습한다는 것을 이야기 한 적이 있다. 이 때 매우 공감된 것이 강의를 듣고 책을 읽고 논문을 읽고 하는 노력이 많이 드는 과정을 AI 를 통해 손 쉽게 얻을 수",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/06/membership-inference/",
-    "pubDate": "Thu, 25 Jun 2026 10:02:06 +0000",
-    "creator": "Katie Fraser",
-    "categories": [
-      "research",
-      "membership-inference",
-      "privacy-risks"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/56",
+    "pubDate": "Sat, 27 Jun 2026 00:24:04 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
-    "description": "No description available",
+    "title": "청년미래적금 총정리: 가입 조건, 혜택, 신청 방법 한눈에 보기 ",
+    "description": "청년미래적금, 7월 3일까지 신청하세요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08?source=rss----2615bd06b42e---4",
-    "pubDate": "Mon, 29 Jun 2026 13:01:02 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "recommendation-system",
-      "ai",
-      "netflix",
-      "machine-learning",
-      "large-language-models"
-    ]
+    "link": "https://toss.im/tossfeed/article/money-policies-64",
+    "pubDate": "Thu, 25 Jun 2026 08:16:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "How Meta Engineered Ultra-Narrow Batteries for AI Glasses",
-    "description": "Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So how do you place a battery with enough power to run a pair of smart glasses [...]\nRead More...\nThe post How Meta Engineered Ultra-Narrow Batteries for AI Glasses appeared first on Engineering at Meta.",
+    "title": "10 Years of Meta’s Commitment to Python",
+    "description": "This year marks Meta’s 10th consecutive year as a sponsor of the Python Software Foundation (PSF), the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming language and the community that sustains it. Python is one of the world’s most influential programming languages, and we use it across our engineering stack, from [...]\nRead More...\nThe post 10 Years of Meta’s Commitment to Python appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/",
-    "pubDate": "Tue, 23 Jun 2026 16:00:38 +0000",
+    "link": "https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python/",
+    "pubDate": "Tue, 30 Jun 2026 16:00:46 +0000",
     "creator": "Unknown",
     "categories": [
+      "AI Research",
       "Culture",
-      "Production Engineering",
-      "Virtual Reality",
-      "Meta Tech Podcast"
+      "Data Infrastructure",
+      "DevInfra",
+      "ML Applications",
+      "Open Source",
+      "Production Engineering"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Open-Sourcing the LSP Client API in IntelliJ IDEA 2026.2",
-    "description": "Language Server Protocol (LSP) solves a real problem: before, each IDE or editor had to implement support for a specific language separately. A language server puts that work in one place and exposes it through a common protocol, providing completion, formatting, documentation, and related features. That common protocol is only a part of the IDE […]",
+    "title": "Save the Date: Pure Virtual C++ 2026",
+    "description": "Pure Virtual C++ is back for its 7th year! Join us on July 21 for a free, one-day virtual conference for the whole C++ community.\nThe post Save the Date: Pure Virtual C++ 2026 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/06/open-sourcing-the-lsp-client-api-in-intellij-idea-2026-2/",
-    "pubDate": "Fri, 26 Jun 2026 12:38:50 +0000",
-    "creator": "Jakub Chrzanowski",
+    "link": "https://devblogs.microsoft.com/cppblog/save-the-date-pure-virtual-cpp-2026/",
+    "pubDate": "Thu, 25 Jun 2026 21:33:48 +0000",
+    "creator": "Marian Luparu",
     "categories": [
-      "idea",
-      "intellij-platform",
-      "open-source",
-      "plugins",
-      "android-studio",
-      "intellij-idea",
-      "lsp",
-      "news",
-      "plugin-development"
+      "Announcement",
+      "C++",
+      "Pure Virtual C++"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
-    "description": "Privacy controls — systems that enforce retention, access, allowed-purpose, downstream-sharing, or anonymization policies — require a reliable understanding of data to function. Before such a control can operate effectively, it must know exactly what it is looking at. This can be complex, as demonstrated by a field simply named “age“: In one context, it might [...]\nRead More...\nThe post Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study appeared first on Engineering at Meta.",
+    "title": "악역영애 4컷 만화 - 55화, 돌아온데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
-    "pubDate": "Thu, 25 Jun 2026 22:30:51 +0000",
-    "creator": "Unknown",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2465",
+    "pubDate": "Wed, 24 Jun 2026 23:38:23 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "ML Applications",
-      "Security & Privacy"
+      "웹툰"
     ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "시멘틱 컨텍스트 OS 설계: 에이전트 시스템의 토큰 스터핑을 넘어",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.대규모 언어 모델(large language model, 이하 LLM)의 물리적 입력 한...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-59",
-    "pubDate": "Wed, 24 Jun 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
     "imageUrl": "",
     "title": "AI로 60초 만에 계약서 독소조항 찾아내는 비법 6가지",
     "description": "복잡한 계약서를 한 줄씩 읽느라 밤새우던 시대는 이제 끝났습니다. 최근 인공지능 기술의 발전 덕분에, 방대한 분량의 계약서도 단 몇 초 만에 핵심 '독소조항'을 찾아낼 수 있게 되었어요. 오늘 소개해 드릴 6가지 프롬프트만 잘 활용하면, 누구나 꼼꼼하고 빠르게 계약서의 숨은 위험을 파악할 수 있습니다.\n  60초 만에 계약서 독소조항 찾는 AI 프롬프트 혁명!\n솔직히 말씀드리면, 계약서는 우리 삶의 모든 중요한 순간에 함께하는 문서라고 해도 과언이 아니에요. 주택 임대차부터 취업, 투자, 사업 제휴까지… 하지만 이 중요한 문서에 숨어 있는 ‘독소조항’을 제대로 파악하지 못해 곤란을 겪는 분들이 정말 많습니다. 특히 작은 글씨로 쓰여 있거나, 법률 용어 때문에 이해하기 어려운 조항들은 더 그렇죠.\n\n\n하지만 최근 AI 기술 덕분에 이런 걱정을 덜 수 있게 되었어요. 마치 개인 변호사가 옆에 앉아 계약서를 함께 읽어주는 것처럼, AI가 복잡한 법률 문서를 빠르게 분석하고 핵심 위험 요소를 콕 집어내 줍니다. 물론 AI는 보조 도구일 뿐, 최종 판단은 전문가의 검토가 필요하다는 점은 잊지 말아야겠죠!\n  AI 계약서 검토, 왜 필수일까요?\n제 경험상, 계약서 검토는 시간과 비용이 많이 드는 작업이었어요. 전문 변호사의 도움을 받으면 가장 확실하지만, 모든 계약에 그렇게 하기는 현실적으로 어렵죠. 이럴 때 AI 프롬프트는 초기 검토 단계에서 엄청난 효율을 제공합니다. AI를 활용하면 다음과 같은 이점을 얻을 수 있어요.\n시간 절약: 수십 페이지에 달하는 계약서를 단 몇 초 만에 분석합니다.\n비용 절감: 초기 검토 비용을 대폭 줄일 수 있습니다.\n객관성: 감정이나 선입견 없이 오직 데이터에 기반해 위험을 식별합니다.\n조항 누락 방지: 사람이 놓치기 쉬운 모호한 표현이나 누락된 핵심 조항까지 찾아냅니다.\n  60초 만에 독소조항 찾는 AI 프롬프트 6가지\n이제 가장 중요한 부분입니다. 제가 직접 써보고 가장 효과적이라고 느낀 6가지 AI 프롬프트를 공유해 드릴게요. 이 프롬프트들은 마치 돋보기를 들고 계약서 구석구석을 살피는 것처럼, 숨겨진 위험을 명확하게 드러내 줄 거예요. 계약서에 서명하기 전에 반드시 활용해 보시길 강력히 추천합니다.\n1. 전체 위험도 1차 스캔\n가장 먼저, 계약서 전체의 큰 그림을 파악하는 프롬프트입니다. 계약의 성격과 내 입장을 명확히 알려주면 AI가 빠르게 핵심 내용을 요약하고 잠재적 위험을 알려줘요.\n프롬프트: \"첨부한 PDF 계약서를 [계약 유형: 용역/임대차/근로/투자 등] 기준으로 분석해줘. 나는 이 계약에서 [내 입장: 갑/을, 제공자/수령자]야. 먼저 계약서 전체 구조를 한눈에 정리하고, 나에게 불리하거나 위험할 수 있는 조항을 '높음/중간/낮음' 위험도로 분류해서 표로 보여줘. 각 조항이 왜 위험한지 한 줄로 근거도 붙여줘. 법률 용어는 초보도 이해할 수 있게 풀어서 설명해.\"\n활용 팁: AI가 제시한 표를 통해 어떤 조항에 집중해야 할지 빠르게 파악할 수 있어요. 법률 용어가 익숙하지 않은 분들에게 특히 유용하답니다.\n2. 함정 조항만 정밀 색출\n이제 1차 스캔에서 '높음'으로 분류된 조항들을 더 깊이 파고들어 갈 차례입니다. 구체적인 시나리오를 통해 그 조항이 나에게 어떤 불리한 상황을 초래할 수 있는지 예측해 볼 수 있어요.\n프롬프트: \"이제 위험도 '높음'으로 분류한 조항만 따로 모아줘. 각 조항에 대해 (1) 원문 그대로 인용, (2) 이게 실제로 어떤 상황에서 나에게 불리하게 작동하는지 구체적 시나리오, (3) 업계 표준 대비 얼마나 불공정한지를 정리해줘. 특히 위약금, 자동 갱신, 일방적 해지, 손해배상 범위, 책임 전가 조항에 숨은 함정을 놓치지 말고 꼼꼼히 짚어줘.\"\n활용 팁: AI가 제시하는 시나리오를 통해 잠재적 위험을 현실적으로 이해하고 대비할 수 있습니다. 업계 표준과의 비교는 협상에 아주 강력한 근거가 됩니다.\n3. 불리한 조항 → 유리하게 수정안 제안\n단순히 문제점을 아는 것을 넘어, 해결책까지 AI에게 맡겨보세요. AI는 업계 표준과 합리적인 수준을 고려하여 수정 문구를 제안해 줄 거예요.\n프롬프트: \"위에서 찾은 불리한 조항들을 나에게 공정하거나 유리하게 바꾸는 '수정 문구'를 만들어줘. 형식은 이렇게: [기존 조항] → [수정 제안 조항] → [이렇게 바꾸자고 말할 때 쓸 근거 한 줄]. 상대가 받아들이기 쉽도록 너무 욕심부리지 말고, '업계 관행상 합리적'으로 보이는 선에서 협상 가능한 버전으로 작성해줘. [계약 유형]에 맞는 표준 문구를 참고해서.\"\n활용 팁: 이 프롬프트는 실제 협상 과정에서 매우 유용합니다. 제가 직접 사용해보니, AI가 제시한 수정안이 상대방에게도 합리적으로 받아들여지는 경우가 많았어요.\n4. 모호한 표현 = 분쟁 씨앗 찾기\n때로는 독소조항보다 더 위험한 것이 바로 모호한 표현입니다. 해석의 여지가 많으면 나중에 분쟁의 씨앗이 될 수 있거든요. AI에게 이런 '회색 지대'를 찾아달라고 요청해 보세요.\n프롬프트: \"계약서에서 해석이 갈릴 수 있는 모호한 단어와 문장을 전부 찾아줘. 예를 들어 '상당한 기간', '협의하여', '필요한 경우', '제반 비용' 처럼 나중에 분쟁이 생길 수 있는 표현들이야. 각각에 대해 (1) 왜 모호한지, (2) 상대가 이걸 악용하면 어떻게 되는지, (3) 어떻게 구체적인 숫자나 기준으로 못 박을지 대체 문구를 제안해줘.\"\n활용 팁: 모호한 조항은 미리 구체화하여 불확실성을 제거하는 것이 중요합니다. AI가 제시하는 대체 문구는 이런 부분을 해결하는 데 큰 도움이 될 거예요.\n5. \"빠져 있는 조항\" 체크 (가장 중요)\n사실, 가장 큰 함정은 '쓰여 있는 것'보다 '안 쓰여 있는 것'에 있을 때가 많습니다. 계약의 특성상 반드시 포함되어야 할 조항이 누락되어 있다면, 나중에 큰 손해로 이어질 수 있습니다.\n프롬프트: \"이 계약서에 '당연히 있어야 하는데 빠져 있어서' 나를 위험하게 만드는 조항이 뭔지 찾아줘. [계약 유형] 계약에서 통상 들어가는 보호 장치 — 예를 들어 손해배상 상한, 비밀유지, 지식재산권 귀속, 대금 지급 기한, 분쟁 해결 방식, 불가항력 조항 등 — 중에서 누락된 걸 목록으로 정리하고, 각각을 추가해달라고 요청할 때 쓸 문구까지 만들어줘. 함정은 '쓰여 있는 것'보다 '안 쓰여 있는 것'에 더 많아.\"\n활용 팁: 이 프롬프트는 제가 정말 중요하게 생각하는 부분입니다. 미처 생각지 못했던 보호 장치들을 AI가 짚어주면, 훨씬 안전한 계약을 만들 수 있어요.\n6. 협상용 최종 요약 + 발송 문구\n이제 AI가 찾아준 내용들을 바탕으로, 상대방에게 보낼 '계약 수정 요청서' 초안을 만들어볼 수 있습니다. 정중하면서도 나의 입장을 확실히 전달하는 문구를 AI가 작성해 줄 거예요.\n프롬프트: \"지금까지 찾은 내용을 상대에게 보낼 수 있는 '계약 수정 요청서' 형태로 정리해줘. 구성은 (1) 핵심 수정 요청 3~5개를 우선순위 순으로, (2) 각 요청의 정중하지만 단호한 근거, (3) 메일이나 메신저로 바로 보낼 수 있는 본문 초안. 톤은 [관계: 거래처/고용주/임대인]에 맞춰 협조적이되 호구로 보이지 않게. 마지막에 '이 중 금액이나 책임 범위가 걸린 조항은 서명 전 변호사 검토를 권한다'는 안내도 한 줄 넣어줘.\"\n활용 팁: AI가 제시하는 발송 문구는 불필요한 감정 소모 없이 논리적인 협상을 진행하는 데 큰 도움을 줍니다. 항상 전문가의 최종 검토를 받는 것이 가장 안전하다는 점을 명심하세요.\n  중요: AI는 강력한 보조 도구일 뿐입니다. AI가 제시하는 분석 결과는 최종 법적 판단이 아니며, 언제나 전문 변호사의 최종 검토를 거쳐야 한다는 점을 잊지 마세요. 특히 금액이나 책임 범위가 중요한 계약일수록 더욱 그렇습니다.\n  핵심 요약\n✅ 계약서 검토는 이제 AI와 함께! 6가지 프롬프트로 60초 만에 핵심 독소조항을 찾아낼 수 있습니다.\n✅ 숨은 함정은 모호한 표현과 누락된 조항! AI를 통해 미처 발견하지 못했던 위험까지 식별하세요.\n✅ 불리한 조항은 유리하게 수정 제안! AI가 업계 표준에 맞는 협상 가능한 수정 문구를 만들어줍니다.\n✅ AI는 강력한 보조 도구! 최종 법적 검토는 반드시 전문 변호사에게 맡겨 안전을 확보하세요.\n이 요약은 주요 내용을 빠르게 파악하기 위한 것입니다. 상세한 내용은 본문을 참조해 주세요.\n❓ 자주 묻는 질문 (FAQ)\nQ1: AI 계약서 검토는 법적 효력이 있나요?\n아니요, AI 계약서 검토 결과는 법적 효력이 없습니다. AI는 계약서의 잠재적 위험을 식별하고 수정안을 제안하는 강력한 보조 도구이지만, 최종적인 법적 판단이나 책임은 전문 변호사에게 있습니다. 중요한 계약은 반드시 변호사의 최종 검토를 받으셔야 합니다.\nQ2: 어떤 종류의 계약서에 AI 프롬프트를 활용할 수 있나요?\n대부분의 계약 유형에 활용할 수 있습니다. 예를 들어 용역 계약, 임대차 계약, 근로 계약, 투자 계약, 구매 및 판매 계약 등 다양한 종류의 법률 문서에 적용하여 독소조항을 찾아내고 수정안을 검토하는 데 도움을 받을 수 있습니다. 계약 유형을 프롬프트에 명확히 명시하는 것이 중요합니다.\nQ3: AI가 제안한 수정안을 그대로 사용해도 괜찮을까요?\nAI가 제안하는 수정안은 업계 표준과 합리적인 수준을 고려하여 작성되지만, 계약의 구체적인 상황과 당사자들의 특성에 따라 완벽하게 적합하지 않을 수도 있습니다. 따라서 AI 제안을 바탕으로 상대방과 논의하고, 최종적으로 전문가의 조언을 구하여 계약을 확정하는 것이 가장 좋습니다.\n대부분의 사람들은 계약서를 대충 읽고 도장부터 찍은 뒤, 나중에 문제가 터지고 나서야 작은 글씨를 다시 펼쳐봅니다. 하지만 이제 여러분은 다릅니다. 이 글을 통해 서명 전 60초 동안 함정부터 솎아내고, 유리한 협상 테이블에 앉을 수 있는 강력한 무기를 얻으셨어요. 계약서는 더 이상 '읽는 것'이 아니라, '스캔하고 분석하는 것'입니다. 현명하게 AI를 활용하여 여러분의 권리를 지켜나가시길 바랍니다!",
@@ -139,96 +115,136 @@
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "imageUrl": "",
-    "title": "Streamline C++ Code Intelligence Setup in Copilot CLI",
-    "description": "C++ developers can now bring IDE-style semantic intelligence into Copilot CLI with less setup. The C++ language server plugin supports richer code navigation, diagnostics, symbol understanding, and code changes by using the same build context your compiler does. That build context usually comes from a compile_commands.json file, which tells the language server how each source […]\nThe post Streamline C++ Code Intelligence Setup in Copilot CLI appeared first on C++ Team Blog.",
+    "title": "SSH Connections Are Moving to JetBrains Daemon in the Toolbox App 3.6 EAP",
+    "description": "Starting with the Toolbox App 3.6 Early Access Program (EAP), SSH connections to remote environments use the JetBrains Daemon (jetbrainsd) by default. We’re making this change available in the EAP first because jetbrainsd is becoming the shared background service for JetBrains tools. Moving SSH there helps us validate the new connection flow before using it […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/streamline-c-code-intelligence-setup-in-copilot-cli/",
-    "pubDate": "Tue, 23 Jun 2026 21:04:54 +0000",
-    "creator": "Sinem Akinci",
+    "link": "https://blog.jetbrains.com/toolbox-app/2026/06/ssh-connections-are-moving-to-jetbrains-daemon-in-the-toolbox-app-3-6-eap/",
+    "pubDate": "Thu, 25 Jun 2026 14:54:58 +0000",
+    "creator": "Lana Novikova",
     "categories": [
-      "C++"
+      "jetbrains-daemon",
+      "jetbrains-toolbox",
+      "remote-development",
+      "toolbox-app"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Deep work Friday",
+    "description": "우리가 하는 일이 바쁠 땐 한없이 바쁘지만, 중간중간에 조금 덜 바쁜 시기도 있다있었다. 이 기간에 그다음 바쁜 시기를 위해 충전도 하고, 밀려드는 일을 정신없이 쳐내느라 그동안 못 했던 deep work를 했다. 말은 거창하지만, 이 deep work란 외부의 방해 없이 특정 주제에 대해서 생각하거나, 내가 하는 일에 대한 책이나 기사를 읽는, 어쨌든 다른 미팅, 이메일, 카톡,(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/06/deep-work-friday.html",
+    "pubDate": "Wed, 24 Jun 2026 21:32:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "general",
+      "strategy",
+      "vc"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "Automating your Visual Studio extension builds with GitHub Actions",
-    "description": "If you’re building and maintaining Visual Studio extensions, you’ve probably ended up with some sort of build and publishing workflow – whether it’s manual, scripted, or stitched together over time. This post is for extension authors who want a simple, repeatable way to build, version, and publish their VSIX files using GitHub Actions. I’m going […]\nThe post Automating your Visual Studio extension builds with GitHub Actions appeared first on Visual Studio Blog.",
+    "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/automating-your-visual-studio-extension-builds-with-github-actions/",
-    "pubDate": "Mon, 29 Jun 2026 14:00:25 +0000",
-    "creator": "Mads Kristensen",
+    "link": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08?source=rss----2615bd06b42e---4",
+    "pubDate": "Mon, 29 Jun 2026 13:01:02 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "Visual Studio",
-      "Extensions",
-      "GitHub"
+      "recommendation-system",
+      "ai",
+      "netflix",
+      "machine-learning",
+      "large-language-models"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "Flava DBaaS 딥다이브: 아키텍처부터 마이그레이션, 그리고 미래까지",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.들어가며안녕하세요. LY Corporation의 DBaaS DevOps 팀에서 일하고 있...",
+    "title": "Kodee’s Kotlin Roundup: Kotlin Turns 15, Kotlin 2.4.0, and the Kotlin Toolchain",
+    "description": "Hi everyone! May and June brought so much Kotlin news that I needed a little extra space for this roundup. Kotlin turned 15, Kotlin 2.4.0 arrived with new capabilities for developers on every platform, and I found plenty of ways to learn, experiment, build AI agents and AI-powered applications, and explore useful Kotlin Multiplatform libraries. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-231",
-    "pubDate": "Wed, 24 Jun 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/kotlin/2026/06/kodees-kotlin-roundup-kotlin-turns-15-kotlin-2-4-0-and-the-kotlin-toolchain/",
+    "pubDate": "Tue, 30 Jun 2026 14:03:02 +0000",
+    "creator": "Viliam Sedliak",
+    "categories": [
+      "kotlin",
+      "news",
+      "kotlin-roundup"
+    ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "JetBrains Air lands on Windows",
-    "description": "We’re excited to welcome Windows developers to JetBrains Air! Download for x64 / Download for ARM64 Since we launched the JetBrains Air, Windows support has been one of the most requested updates from the developer community. We heard that feedback and worked hard to bring Air to Windows. Air is built for agent-agnostic development – […]",
+    "title": "The Real Winner of Cursor’s $60B Acquisition Won’t Be AI Coding Assistants",
+    "description": "When news broke that SpaceX would acquire Cursor’s parent company, Anysphere, in a reported $60 billion all-stock deal, most of the discussion centered around AI. This was another milestone and enormous valuation, and signal that AI is still bringing enormous disruption. Those reactions aren’t wrong but they can overshadow the bigger story. The real significance […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/air/2026/06/jetbrains-air-lands-on-windows/",
-    "pubDate": "Mon, 29 Jun 2026 15:22:50 +0000",
-    "creator": "Ivan Tiutiundzhi",
-    "categories": [
-      "ai",
-      "news"
-    ]
+    "link": "https://blog.jetbrains.com/qodana/2026/06/cursor-s-60b-acquisition/",
+    "pubDate": "Thu, 25 Jun 2026 15:01:18 +0000",
+    "creator": "Kerry Beetge",
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "AI 시대의 개발 능력은 검증력으로 결정된다, Flava API Gateway 개발 중 배운 빠른 검증과 로컬 환경 구성 전략",
-    "description": "LY Corporation의 기술 컨퍼런스인 Tech-Verse 2026의 공식 기사입니다.에이전트가 코드를 작성할 때 마주하는 문제코딩 에이전트의 반복 속도는 매우 빠릅니다. 이...",
+    "title": "Open-Sourcing the LSP Client API in IntelliJ IDEA 2026.2",
+    "description": "Language Server Protocol (LSP) solves a real problem: before, each IDE or editor had to implement support for a specific language separately. A language server puts that work in one place and exposes it through a common protocol, providing completion, formatting, documentation, and related features. That common protocol is only a part of the IDE […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/techverse2026-223",
-    "pubDate": "Thu, 25 Jun 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/platform/2026/06/open-sourcing-the-lsp-client-api-in-intellij-idea-2026-2/",
+    "pubDate": "Fri, 26 Jun 2026 12:38:50 +0000",
+    "creator": "Jakub Chrzanowski",
+    "categories": [
+      "idea",
+      "intellij-platform",
+      "open-source",
+      "plugins",
+      "android-studio",
+      "intellij-idea",
+      "lsp",
+      "news",
+      "plugin-development"
+    ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "사람은 무능해질 때까지 승진한다",
-    "description": "\"사람은 무능해질 때까지 승진한다\". 미국의 교육학자 로렌스 피터(Laurence J. Peter)가 1969년에 발표한 조직 관리 이론인 '피터의 법칙(Peter's Principle)'에 대한 말이다. 성과가 뛰어난 사람이 성과를 인정받아서 승진을 하게 된다. 그러면 이전 좋은 성과를 내던 역량외의 다른 역량이 요구된다. 승진할 수록 성과는 점점 저하되고 더이상 성과가 나오지 않는 자리까지 승진하게 된다. 결과적으로 상위 직급이 무능력해진 사람들로 채워지게 된다.\n\r\n\r\n그럼 어떻게 해야 하는가. 성과가 높다고 다 관리자로 승진시키지 않고 개인 기여자(indivisual contributor)와 같은 전문가 트랙을 만든다. 승진을 했어도 적응을 못하면 원래 높은 성과를 냈던 자리로 복귀시킨다. 보통 이렇게 하면 예전에는 나가라는 신호로 보이곤 했는데 요즘은 다르게 받아 들여진다고 한다. 자리가 높아야만 영향력을 행사할 수 있던 문화에서 개인들도 상황과 역량에 맞게 영향력을 미칠 수 있는 문화를 만드는 것이 관건이 되겠다.\n\r\n\r\n개발자들은 보통 관리보다는 기술을 선호하는데 그러면 누가 관리자가 되는가. 직접 성과를 내기 보다는 타인을 통해서 성과를 내는 사람이 관리자에 적합하다고 한다. 적절한 위임과 조율 능력, 목표와 방향 설정, 방어막 역할을 하는 사람이다. 그런데 말이 쉽지 이런 사람을 찾아보기는 쉽지 않다. 최소한의 실무력을 가지고 판단을 잘하는 사람이라고 하는데 판단을 잘 하는 사람이 실무를 못 할 리가 없지 않은가. 말처럼 쉽지 않다.",
+    "title": "안드로이드 에뮬 설정 방법 영상",
+    "description": "이 여상상이 설명이 잘되있군요\n에뮬 설정 지식이 이미 고도화가 되어있어서\n \n잘 하는 사람은 \"이것 도 모른다고?\" 생각해서 설명안하는 부분이 중간중간에 있는데\n초보 입장에선 엄청 치명적입니다.\n이 영상은 세세한 부분이 다 있습니다.\n처음해보는 사람은 \"아무것도 모릅니다.\" \n설명을 잘한 영상에는 칭찬의 댓글과 좋아요를 눌러줘야합니다.\n \n영상: https://www.youtube.com/watch?v=3tWW6Mbmh-Q&t=419s",
     "reviews": [],
     "syllabus": [],
-    "link": "https://hyeonseok.com/blog/950",
-    "pubDate": "Sun, 28 Jun 2026 07:56:50 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1671",
+    "pubDate": "Mon, 29 Jun 2026 12:49:30 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "게임",
+      "안드로이드",
+      "에뮬"
+    ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "나의 4개의 축 이야기 - AI 시대 학습할 것들",
-    "description": "나만의 4개의 축을 선정하게 된 것은 노정석님의 유튜브에서 한 어떤 이야기 때문이었다. 노정석님은 매일 1시간씩 AI 를 통해 학습하는 방식으로 기존 3년 정도 걸렸던 박사과정을 1년으로 줄여서 학습한다는 것을 이야기 한 적이 있다. 이 때 매우 공감된 것이 강의를 듣고 책을 읽고 논문을 읽고 하는 노력이 많이 드는 과정을 AI 를 통해 손 쉽게 얻을 수",
+    "title": "개발로그 - 546일차 - 작정욮 주거지 공급 / 언리얼 6 verse / 메이플스토리 바이브 캠프 / 붉은사막 / 모션데스크",
+    "description": "영상 - https://youtu.be/toB8WVOswTU?si=gBW--m3dqaRTRMw5\n\n\n\n \n \n주요 뉴스\n \n상가 오피스 지산 - 주거용 변경 허용\n공실이 많아서 해결하는 방법을 마련중이라고 합니다.\n \n언리얼6 - verse 스크립트\n포트나이트 스크립트 언어인데 언리얼 6 에 적용 됩니다.\n이번 언리얼은 맛을 좀 봐야겠습니다.\n언리얼 - 에픽게임즈 는 내년에 상장을 노리고 있습니다.\n \nverse8.io 메이플스토리 바이브 캠프\nverse8 은 AI 로 게임을 개발 할 수 있는 도구를 운영중입니다.\n웹 게임이며 Phase 엔진을 사용합니다.\nPhaser 는 뱀파이어 서바이버 를 만들때 사용한 유명한 엔진입니다.\n \n펄어비스 개인주주 시위를 하려고 했으나 ...\n시워 전날 펄어비스 에서 주주를 위한 발표를 해서 수구러 들었습니다.\n주가는 그뒤로 계속 빠졌군요\n \n내 소식\n \n퍼즐 게임\n퍼블 게임 퍼포먼스 개선 했습니다.\n퍼즐 게임은 우위를 가질만한 요소가 없어서 아이디어 고민중입니다.\n \n허리 아파 모션데스크 검색중\n너무 오래 앉아있어서 허리를 다쳤습니다.\n간단한 10만원 짜리 모션데스크를 샀습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/56",
-    "pubDate": "Sat, 27 Jun 2026 00:24:04 GMT",
-    "creator": "고종범",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1669",
+    "pubDate": "Fri, 26 Jun 2026 19:13:49 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "프로그래밍/자작",
+      "개발로그"
+    ]
   }
 ]
