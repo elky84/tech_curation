@@ -2,6 +2,18 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "AI로 웹 엔지니어 없이 LINE 앱 안에서 그룹 영상 통화 서비스 만들기",
+    "description": "들어가며LINE Developers를 통해 이용할 수 있는 LIFF(LINE Front-end Framework)를 활용하면, LINE 앱 사용자를 대상으로 나만의 서비스 공간을 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/building-group-video-calls-inside-line-app-with-ai-and-line-planet",
+    "pubDate": "Thu, 02 Jul 2026 08:45:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
     "title": "TeamCity 2026.1.2 and 2025.11.6 Are Now Available",
     "description": "Today we’re releasing two bug-fix updates for TeamCity On-Premises 2025.11 and 2026.1 servers. The 2026.1.2 update addresses a little over 10 issues, including the following: Version 2025.11.6 focuses exclusively on resolving security issues and does not include general bug fixes. To keep your server secure, we strongly recommend installing this update. See TeamCity 2026.1.2 Release […]",
     "reviews": [],
@@ -14,7 +26,157 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
+    "imageUrl": "",
+    "title": "Meta’s AI Storage Blueprint at Scale",
+    "description": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks. Reliable and fast access to storage is important to both the speed and computational cost of this AI innovation. If AI is [...]\nRead More...\nThe post Meta’s AI Storage Blueprint at Scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
+    "pubDate": "Wed, 01 Jul 2026 16:00:36 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Data Center Engineering",
+      "Data Infrastructure",
+      "Production Engineering"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "JetBrains Air lands on Windows",
+    "description": "We’re excited to welcome Windows developers to JetBrains Air! Download for x64 / Download for ARM64 Since we launched the JetBrains Air, Windows support has been one of the most requested updates from the developer community. We heard that feedback and worked hard to bring Air to Windows. Air is built for agent-agnostic development – […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/air/2026/06/jetbrains-air-lands-on-windows/",
+    "pubDate": "Mon, 29 Jun 2026 15:22:50 +0000",
+    "creator": "Ivan Tiutiundzhi",
+    "categories": [
+      "ai",
+      "news"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Improving Embedded Software Quality With Parasoft C/C++test, CLion, and AI",
+    "description": "Embedded software development comes with a unique set of pressures: strict safety and security standards, complex toolchains, and the constant challenge of catching defects as early as possible. Starting with CLion 2026.1.2, you can open SARIF findings from Parasoft C/C++test analyses for standards such as MISRA C/C++, AUTOSAR C++14, CERT C/C++, and CWE directly in […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/clion/2026/07/improving-embedded-software-quality-parasoft-clion-ai/",
+    "pubDate": "Wed, 01 Jul 2026 06:43:36 +0000",
+    "creator": "Maria Goldade",
+    "categories": [
+      "livestreams",
+      "code-analysis",
+      "embedded",
+      "webinars"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "몇가지 한계에 대하여",
+    "description": "이번주는 이상하게 한계 상황들을 마주하게 된다. 엄청나게 노력했는데 부딪히는 한계도 있겠지만 현실적으로 상황적으로 한계 상황들이 보이거나 마주하는 경우도 있다.  이제 AI 를 사용하지 않는 사람은 거의 없을 것이다. 아니 무의식적으로 사용하거나 내가 사용하는 서비스나 어플리케이션에서 사용되고 있어서 모든 사람이 사용한다고 해도 무방할 정도다. 여기에서 사",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/57",
+    "pubDate": "Thu, 02 Jul 2026 23:15:49 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "In Conversation With the Golden Kodee Winners",
+    "description": "KotlinConf 2026 marked a milestone for the Kotlin community: the very first Golden Kodee Community Awards. The awards recognize the individuals and communities whose passion and dedication help the Kotlin ecosystem thrive. From creating educational content and building engaging online communities to organizing events, fostering connections, and driving positive societal impact, the Golden Kodee Awards […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/07/in-conversation-with-the-golden-kodee-winners/",
+    "pubDate": "Fri, 03 Jul 2026 09:57:13 +0000",
+    "creator": "Jelena Ilic",
+    "categories": [
+      "kotlin",
+      "kotlinconf",
+      "golden-kodee",
+      "kotlin-conf-2026"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Kodee’s Kotlin Roundup: Kotlin Turns 15, Kotlin 2.4.0, and the Kotlin Toolchain",
+    "description": "Hi everyone! May and June brought so much Kotlin news that I needed a little extra space for this roundup. Kotlin turned 15, Kotlin 2.4.0 arrived with new capabilities for developers on every platform, and I found plenty of ways to learn, experiment, build AI agents and AI-powered applications, and explore useful Kotlin Multiplatform libraries. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/06/kodees-kotlin-roundup-kotlin-turns-15-kotlin-2-4-0-and-the-kotlin-toolchain/",
+    "pubDate": "Tue, 30 Jun 2026 14:03:02 +0000",
+    "creator": "Viliam Sedliak",
+    "categories": [
+      "kotlin",
+      "news",
+      "kotlin-roundup"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "AntigravityCLI",
+    "description": "geminiCLI 실행이 안 된다. 기존 서비스를 중단하고 Antigravity란 걸로 통합한 모양. 윈도우에서 geminiCLI를 사용하려면 Node.js 사전 설치가 필요했는데 얘는 필요 없는 듯. 설치 스크립트 링크 카피.\n\n\n\n\n\n\nPS C:\\Users\\Administrator> irm https://antigravity.google/cli/install.ps1 | iex\nI0626 20:53:33.486585 14940 installer.go:27] Running Antigravity CLI setup...\nI0626 20:53:33.539530 14940 installer_windows.go:45] Configuring Windows user PATH registry environment...\nI0626 20:53:33.540197 14940 installer_windows.go:117] Successfully added %LOCALAPPDATA%\\agy\\bin to User PATH registry variable.\nI0626 20:53:33.540197 14940 installer_windows.go:148] Broadcasting environment update system-wide...\nI0626 20:53:35.669474 14940 installer_windows.go:167] Environment update broadcast completed.\n\n\nWarning: C:\\Users\\Administrator\\AppData\\Local\\agy\\bin is not present in your active Environment PATH.\nPlease restart your active terminal session, or add it manually if needed.\n\n\n\n✅ Antigravity CLI binary placed successfully at C:\\Users\\Administrator\\AppData\\Local\\agy\\bin\\agy.exe\nNote: The binary is installed, but it is not in your active PATH. Please follow the instructions above to add it, then restart your terminal session.\n\n\n\n\n설치 후 agy.exe를 실행한 결과. 로그인 과정은 geminiCLI보다 살짝 더 까다로워졌다.\n\n\n\n\nGoogle OAuth 선택 후, 로그인 계정 지정이 끝나면 인증 코드 링크를 알려준다.\n\n\n\n\n인증 코드 카피 후,\n\n\n\n\nAntigravityCLI 창에 붙여넣기.\n\n\n\n짜잔!\n\n\n\n\n너 나랑 일 하나 같이 하자.\n\n\n\n\n잘 한다(..)\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n\nroot@easyDATA:/mnt/d/gemini# awk '{print $6}' ./secure.log |\\\n> awk -F '[\\\\[:]' '{print $1}' |\\\n> sort | uniq -c | sort -r\n 217398 sshd\n    143 login\n     16 useradd\n     14 passwd\n      2 userdel\n      2 sudo\n      2 su\n\nColored by Color Scripter\ncs\n\n\n\n관련 글\n\n노가다는 AI에게",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/06/antigravitycli.html",
+    "pubDate": "2026-06-27T04:41:12.691Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Kotlin Comes to BlueJ",
+    "description": "Kotlin support is now available in BlueJ, one of the most established environments for teaching introductory object-oriented programming (OOP). This work is the result of a collaboration between JetBrains and the BlueJ team at King’s College London, including Professor Michael Kölling and Dr. Neil Brown, whose work has shaped programming education for decades. Download BlueJ […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-comes-to-bluej/",
+    "pubDate": "Wed, 01 Jul 2026 09:50:23 +0000",
+    "creator": "Ksenia Shneyveys",
+    "categories": [
+      "education",
+      "news",
+      "beginners",
+      "object-oriented-programming"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "GitHub Copilot now an Integrated Agent in JetBrains IDEs",
+    "description": "Born out of a deep partnership between JetBrains and GitHub, this integration makes Copilot native in the agent picker and delivers a more stable agent experience directly in the IDE you already use every day. From ACP Registry to native experience Copilot was previously accessible via the ACP Registry, but this integration takes things further. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2026/06/github-copilot-now-an-integrated-agent/",
+    "pubDate": "Tue, 30 Jun 2026 13:15:31 +0000",
+    "creator": "Dominique Rolink",
+    "categories": [
+      "ai-assistant",
+      "community",
+      "ai-agent"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "사람은 무능해질 때까지 승진한다",
+    "description": "\"사람은 무능해질 때까지 승진한다\". 미국의 교육학자 로렌스 피터(Laurence J. Peter)가 1969년에 발표한 조직 관리 이론인 '피터의 법칙(Peter's Principle)'에 대한 말이다. 성과가 뛰어난 사람이 성과를 인정받아서 승진을 하게 된다. 그러면 이전 좋은 성과를 내던 역량외의 다른 역량이 요구된다. 승진할 수록 성과는 점점 저하되고 더이상 성과가 나오지 않는 자리까지 승진하게 된다. 결과적으로 상위 직급이 무능력해진 사람들로 채워지게 된다.\n\r\n\r\n그럼 어떻게 해야 하는가. 성과가 높다고 다 관리자로 승진시키지 않고 개인 기여자(indivisual contributor)와 같은 전문가 트랙을 만든다. 승진을 했어도 적응을 못하면 원래 높은 성과를 냈던 자리로 복귀시킨다. 보통 이렇게 하면 예전에는 나가라는 신호로 보이곤 했는데 요즘은 다르게 받아 들여진다고 한다. 자리가 높아야만 영향력을 행사할 수 있던 문화에서 개인들도 상황과 역량에 맞게 영향력을 미칠 수 있는 문화를 만드는 것이 관건이 되겠다.\n\r\n\r\n개발자들은 보통 관리보다는 기술을 선호하는데 그러면 누가 관리자가 되는가. 직접 성과를 내기 보다는 타인을 통해서 성과를 내는 사람이 관리자에 적합하다고 한다. 적절한 위임과 조율 능력, 목표와 방향 설정, 방어막 역할을 하는 사람이다. 그런데 말이 쉽지 이런 사람을 찾아보기는 쉽지 않다. 최소한의 실무력을 가지고 판단을 잘하는 사람이라고 하는데 판단을 잘 하는 사람이 실무를 못 할 리가 없지 않은가. 말처럼 쉽지 않다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://hyeonseok.com/blog/950",
+    "pubDate": "Sun, 28 Jun 2026 07:56:50 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
     "description": "No description available",
@@ -32,39 +194,26 @@
     ]
   },
   {
-    "id": 3,
+    "id": 14,
     "imageUrl": "",
-    "title": "Visual Studio June Update – Track Your Usage, Trust Your Tools",
-    "description": "The June update includes a Copilot Usage window refresh with proactive alerts as you approach your limits, MCP servers now get a trust check before they run anything new.\nThe post Visual Studio June Update – Track Your Usage, Trust Your Tools appeared first on Visual Studio Blog.",
+    "title": "확언 효과",
+    "description": "이 블로그를 통해서 여러 번 공유했는데, 나는 루틴과 반복을 매우 중요하게 생각한다. 내가 지금 실천하고 연습하는 루틴은 대부분 지루하고, 10년 넘게 반복하고 있는데, 약 2년 전에 새로운 루틴을 도입하기로 했다. 2024년 8월 24일부터 시작한 루틴이고, 주말을 제외한 월 ~ 금 아침마다 반복하니, 이제 2년이 안 된, 몸에 습관화가 되는 과정에 있는 루틴이다. 바로 확언을 매일(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-june-update-track-your-usage-trust-your-tools/",
-    "pubDate": "Tue, 30 Jun 2026 16:00:45 +0000",
-    "creator": "Mark Downie",
+    "link": "https://www.thestartupbible.com/2026/07/my-self-affirmation-protocol.html",
+    "pubDate": "Wed, 01 Jul 2026 21:28:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "Visual Studio",
-      "C++",
-      "Copilot"
+      "Uncategorized",
+      "compounding",
+      "consistency",
+      "FoundersAtWork",
+      "habit",
+      "inspiring"
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Meta’s AI Storage Blueprint at Scale",
-    "description": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks. Reliable and fast access to storage is important to both the speed and computational cost of this AI innovation. If AI is [...]\nRead More...\nThe post Meta’s AI Storage Blueprint at Scale appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
-    "pubDate": "Wed, 01 Jul 2026 16:00:36 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Data Center Engineering",
-      "Data Infrastructure",
-      "Production Engineering"
-    ]
-  },
-  {
-    "id": 5,
+    "id": 15,
     "imageUrl": "",
     "title": "Kotlin Notebook Sunset",
     "description": "Starting from IntelliJ IDEA 2026.2, JetBrains will sunset Kotlin Notebook as a product and will no longer maintain it. The plugin will remain available on an open-source model so the community can continue its development.  Below, we explain why we’re making this change, how it affects current Kotlin Notebook users, what comes next, and how […]",
@@ -78,156 +227,6 @@
       "news",
       "kotlin-news-2",
       "kotlin-notebook"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "GitHub Copilot now an Integrated Agent in JetBrains IDEs",
-    "description": "Born out of a deep partnership between JetBrains and GitHub, this integration makes Copilot native in the agent picker and delivers a more stable agent experience directly in the IDE you already use every day. From ACP Registry to native experience Copilot was previously accessible via the ACP Registry, but this integration takes things further. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/06/github-copilot-now-an-integrated-agent/",
-    "pubDate": "Tue, 30 Jun 2026 13:15:31 +0000",
-    "creator": "Dominique Rolink",
-    "categories": [
-      "ai-assistant",
-      "community",
-      "ai-agent"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "AI로 웹 엔지니어 없이 LINE 앱 안에서 그룹 영상 통화 서비스 만들기",
-    "description": "들어가며LINE Developers를 통해 이용할 수 있는 LIFF(LINE Front-end Framework)를 활용하면, LINE 앱 사용자를 대상으로 나만의 서비스 공간을 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/building-group-video-calls-inside-line-app-with-ai-and-line-planet",
-    "pubDate": "Thu, 02 Jul 2026 08:45:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "안드로이드 에뮬 설정 방법 영상",
-    "description": "이 여상상이 설명이 잘되있군요\n에뮬 설정 지식이 이미 고도화가 되어있어서\n \n잘 하는 사람은 \"이것 도 모른다고?\" 생각해서 설명안하는 부분이 중간중간에 있는데\n초보 입장에선 엄청 치명적입니다.\n이 영상은 세세한 부분이 다 있습니다.\n처음해보는 사람은 \"아무것도 모릅니다.\" \n설명을 잘한 영상에는 칭찬의 댓글과 좋아요를 눌러줘야합니다.\n \n영상: https://www.youtube.com/watch?v=3tWW6Mbmh-Q&t=419s",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1671",
-    "pubDate": "Mon, 29 Jun 2026 12:49:30 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "게임",
-      "안드로이드",
-      "에뮬"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "IntelliJ IDEA 2026.1.4 Is Out!",
-    "description": "IntelliJ IDEA 2026.1.4 is out with some useful fixes. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update brings the following improvements: For a comprehensive overview of the fixes, see the release notes. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/07/intellij-idea-2026-1-4/",
-    "pubDate": "Thu, 02 Jul 2026 13:02:39 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": [
-      "releases"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "유니티 썸머 챌린지 도전해봅시다. / 2026",
-    "description": "골드매탈님과 함께 여름 테마 게임을 만들어 올려봅시다.\nAI 기능도 있군요\n기간은 7월 24일 (금) 까지\n해시태그에 이거 넣어서 SNS 에 올리라는군요\n#unitysummerchallenge #유니티썸머챌린지 #unity\n \n이 링크가 설명 페이지 같습니다.\n링크 - https://app.response.unity3d.com/e/er?utm_campaign=Other_korea_Announcement_MESD-16144-2026-06-KR-KO-Ent-KRAllUserOptIn&utm_content=MESD-16144-2026-06-KR-KO-Ent-KRAllUserOptIn-SummerChallenge-Promo-01&utm_medium=email&utm_source=Eloqua&s=795651218&lid=21898&elqTrackId=199ba80abb1348e6aebe41adeb5d3259&elq=3a51eef575a2454a82131e4b2923820f&elqaid=38307&elqat=1&elqak=8AF5AC6B75C8D7FF9AE7ECF4B088E85B95981DF20459E0AF67CD1923A6279E7DFEFC\n\n \nUnity Summer Challenge | 유니티스퀘어\nUnity Event - Unity Summer Challenge\nunitysquare.co.kr\n\n \n \n제작 영상\n영상: https://www.youtube.com/watch?v=fsP7NvFGop0",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1670",
-    "pubDate": "Fri, 26 Jun 2026 22:09:06 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "게임",
-      "유니티",
-      "이벤트참여"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "몇가지 한계에 대하여",
-    "description": "이번주는 이상하게 한계 상황들을 마주하게 된다. 엄청나게 노력했는데 부딪히는 한계도 있겠지만 현실적으로 상황적으로 한계 상황들이 보이거나 마주하는 경우도 있다.  이제 AI 를 사용하지 않는 사람은 거의 없을 것이다. 아니 무의식적으로 사용하거나 내가 사용하는 서비스나 어플리케이션에서 사용되고 있어서 모든 사람이 사용한다고 해도 무방할 정도다. 여기에서 사",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/57",
-    "pubDate": "Thu, 02 Jul 2026 23:15:49 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Toolbox App 3.6: Smarter Storage Cleanup, Windows installation diagnostics, and More",
-    "description": "Toolbox App 3.6 gives you better control over local storage and makes Windows installation failures easier to diagnose. Clean up removable Toolbox App data from Settings The Toolbox App now shows how much removable data it can safely clean up, providing a breakdown for the download cache, previous versions, temporary leftovers, and leftover tool directories. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/toolbox-app/2026/07/toolbox-app-3-6-smarter-storage-cleanup-windows-installation-diagnostics-and-more/",
-    "pubDate": "Thu, 02 Jul 2026 16:30:53 +0000",
-    "creator": "Lana Novikova",
-    "categories": [
-      "jetbrains-toolbox",
-      "toolbox-app"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "JetBrains Air lands on Windows",
-    "description": "We’re excited to welcome Windows developers to JetBrains Air! Download for x64 / Download for ARM64 Since we launched the JetBrains Air, Windows support has been one of the most requested updates from the developer community. We heard that feedback and worked hard to bring Air to Windows. Air is built for agent-agnostic development – […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/air/2026/06/jetbrains-air-lands-on-windows/",
-    "pubDate": "Mon, 29 Jun 2026 15:22:50 +0000",
-    "creator": "Ivan Tiutiundzhi",
-    "categories": [
-      "ai",
-      "news"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "사람은 무능해질 때까지 승진한다",
-    "description": "\"사람은 무능해질 때까지 승진한다\". 미국의 교육학자 로렌스 피터(Laurence J. Peter)가 1969년에 발표한 조직 관리 이론인 '피터의 법칙(Peter's Principle)'에 대한 말이다. 성과가 뛰어난 사람이 성과를 인정받아서 승진을 하게 된다. 그러면 이전 좋은 성과를 내던 역량외의 다른 역량이 요구된다. 승진할 수록 성과는 점점 저하되고 더이상 성과가 나오지 않는 자리까지 승진하게 된다. 결과적으로 상위 직급이 무능력해진 사람들로 채워지게 된다.\n\r\n\r\n그럼 어떻게 해야 하는가. 성과가 높다고 다 관리자로 승진시키지 않고 개인 기여자(indivisual contributor)와 같은 전문가 트랙을 만든다. 승진을 했어도 적응을 못하면 원래 높은 성과를 냈던 자리로 복귀시킨다. 보통 이렇게 하면 예전에는 나가라는 신호로 보이곤 했는데 요즘은 다르게 받아 들여진다고 한다. 자리가 높아야만 영향력을 행사할 수 있던 문화에서 개인들도 상황과 역량에 맞게 영향력을 미칠 수 있는 문화를 만드는 것이 관건이 되겠다.\n\r\n\r\n개발자들은 보통 관리보다는 기술을 선호하는데 그러면 누가 관리자가 되는가. 직접 성과를 내기 보다는 타인을 통해서 성과를 내는 사람이 관리자에 적합하다고 한다. 적절한 위임과 조율 능력, 목표와 방향 설정, 방어막 역할을 하는 사람이다. 그런데 말이 쉽지 이런 사람을 찾아보기는 쉽지 않다. 최소한의 실무력을 가지고 판단을 잘하는 사람이라고 하는데 판단을 잘 하는 사람이 실무를 못 할 리가 없지 않은가. 말처럼 쉽지 않다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://hyeonseok.com/blog/950",
-    "pubDate": "Sun, 28 Jun 2026 07:56:50 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Open-Sourcing the LSP Client API in IntelliJ IDEA 2026.2",
-    "description": "Language Server Protocol (LSP) solves a real problem: before, each IDE or editor had to implement support for a specific language separately. A language server puts that work in one place and exposes it through a common protocol, providing completion, formatting, documentation, and related features. That common protocol is only a part of the IDE […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/06/open-sourcing-the-lsp-client-api-in-intellij-idea-2026-2/",
-    "pubDate": "Fri, 26 Jun 2026 12:38:50 +0000",
-    "creator": "Jakub Chrzanowski",
-    "categories": [
-      "idea",
-      "intellij-platform",
-      "open-source",
-      "plugins",
-      "android-studio",
-      "intellij-idea",
-      "lsp",
-      "news",
-      "plugin-development"
     ]
   }
 ]
