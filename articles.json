@@ -2,52 +2,29 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "In Conversation With the Golden Kodee Winners",
-    "description": "KotlinConf 2026 marked a milestone for the Kotlin community: the very first Golden Kodee Community Awards. The awards recognize the individuals and communities whose passion and dedication help the Kotlin ecosystem thrive. From creating educational content and building engaging online communities to organizing events, fostering connections, and driving positive societal impact, the Golden Kodee Awards […]",
+    "title": "3DGS 가우시안 스플리터 기반 건물 인프라 3차원 모델 생성 기술 분석",
+    "description": "이 글은 3DGS 가우시안 스플리터 기반 건물 인프라 3차원 모델 생성 기술 분석 내용을 나눔한다.\n\n\n레퍼런스\n\nEOGS2: EOGS++: Earth Observation Gaussian Splatting with Internal Camera Refinement and Direct Panchromatic Rendering",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/07/in-conversation-with-the-golden-kodee-winners/",
-    "pubDate": "Fri, 03 Jul 2026 09:57:13 +0000",
-    "creator": "Jelena Ilic",
-    "categories": [
-      "kotlin",
-      "kotlinconf",
-      "golden-kodee",
-      "kotlin-conf-2026"
-    ]
+    "link": "http://daddynkidsmakers.blogspot.com/2026/07/3dgs-3.html",
+    "pubDate": "2026-07-09T01:37:11.516Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "TeamCity 2026.1.2 and 2025.11.6 Are Now Available",
-    "description": "Today we’re releasing two bug-fix updates for TeamCity On-Premises 2025.11 and 2026.1 servers. The 2026.1.2 update addresses a little over 10 issues, including the following: Version 2025.11.6 focuses exclusively on resolving security issues and does not include general bug fixes. To keep your server secure, we strongly recommend installing this update. See TeamCity 2026.1.2 Release […]",
+    "title": "토스, 자립준비청년 대상 커리어 멘토링 프로그램 운영",
+    "description": "7주간의 프로그램에 토스 팀원들 직접 멘토로 참여",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/07/teamcity-2026-1-2-and-2025-11-6/",
-    "pubDate": "Wed, 01 Jul 2026 16:57:10 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "bug-fix"
-    ]
+    "link": "https://toss.im/tossfeed/article/career-mentoring",
+    "pubDate": "Sun, 05 Jul 2026 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 3,
-    "imageUrl": "",
-    "title": "Pure Virtual C++ 2026 Talks Announced",
-    "description": "The featured talks for Pure Virtual C++ 2026 are here! Join us on July 21 for a free, one-day virtual conference for the whole C++ community.\nThe post Pure Virtual C++ 2026 Talks Announced appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-talks-announced/",
-    "pubDate": "Thu, 02 Jul 2026 20:19:23 +0000",
-    "creator": "Marian Luparu",
-    "categories": [
-      "Announcement",
-      "C++",
-      "Pure Virtual C++"
-    ]
-  },
-  {
-    "id": 4,
     "imageUrl": "",
     "title": "몇가지 한계에 대하여",
     "description": "이번주는 이상하게 한계 상황들을 마주하게 된다. 엄청나게 노력했는데 부딪히는 한계도 있겠지만 현실적으로 상황적으로 한계 상황들이 보이거나 마주하는 경우도 있다.  이제 AI 를 사용하지 않는 사람은 거의 없을 것이다. 아니 무의식적으로 사용하거나 내가 사용하는 서비스나 어플리케이션에서 사용되고 있어서 모든 사람이 사용한다고 해도 무방할 정도다. 여기에서 사",
@@ -59,75 +36,7 @@
     "categories": []
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Toolbox App 3.6: Smarter Storage Cleanup, Windows installation diagnostics, and More",
-    "description": "Toolbox App 3.6 gives you better control over local storage and makes Windows installation failures easier to diagnose. Clean up removable Toolbox App data from Settings The Toolbox App now shows how much removable data it can safely clean up, providing a breakdown for the download cache, previous versions, temporary leftovers, and leftover tool directories. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/toolbox-app/2026/07/toolbox-app-3-6-smarter-storage-cleanup-windows-installation-diagnostics-and-more/",
-    "pubDate": "Thu, 02 Jul 2026 16:30:53 +0000",
-    "creator": "Lana Novikova",
-    "categories": [
-      "jetbrains-toolbox",
-      "toolbox-app"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "세레브라스 시스템즈 CBRS / HBM 없는 추론 장",
-    "description": "손에 들고 있는게 칩1개 라는거 같은데 ... 왜이케 크냐\n \n제품은 \n일반적인 반도체 뒷면에 다리가 달린 형태가 아니고\n1.2 TB/s 짜리 이더넷 컨넥터가 붙는다고 합니다.\n24kW 소비전력\n냉각수용 파이프도 있다고 합니다.\n제품은 PCIe 카드 형태로 만들어지는거 같습니다.\n보드에 이런걸 왕창 꽂아서 확장할 수 있나봅니다.\n있을껀 다 갖춘 형태군요\n(이러면 유리기판도 필요 없는 것인가...)\n \n \n\n\n젠슨황의 칩보다 훨씬 크군요\n \n소개 영상 - https://www.youtube.com/watch?v=f4Dly8I8lMY\n\n\n\n \n \n \n요약\nHBM 이 없다.\nHBM 은 너무 비싸며 불량 날 확율이 높은 부품입니다.\n이런 부품이 없다면 생산성이 높아지겠습니다.\nSRAM 사용\nHBM 대신 SRAM 을 사용하는데 이것은 TSMC 내부에서 만들어 낼 수 있습니다.\n외부 부품이 줄면 그만큼 생산 속도와 불량율 에서 이점이 있을 것 같습니다.\n추론속도가 빠르다.\nnvidia 의 10배 라는데 극단적으로 어려운 문제에서 나온 결과 같습니다.\n220 초 걸리는 문제를 20초에 결과가 나왔다는군요\n \n영상: https://www.youtube.com/watch?v=99QSJejlPxI\n\n\n\n \n현재 반도체 쪽이 힌들리고 있구요\n \n버리는 계속 숏쳤다고 자랑중인 상황입니다.\n반도체 업계 내부에서도 쇼티지를 해결하려는 움직임이 보이고\n \n빅테크들도 램 값 협상이 어려워지자\n서로 좋았던 이 시장을 파괴하기 시작하는 군요\n \n저는 광통신 ETF 사고 있는데 이것도 같이 빠지고 있어서 세레브라스 문제가 아닌거 같긴한데 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1674",
-    "pubDate": "Tue, 7 Jul 2026 14:17:17 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "투자",
-      "cbrs",
-      "HBM",
-      "반도체"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "엘라스틱 with LLM",
-    "description": "엘라스틱의 LLM 연동 설정.\n\n\n\n\n\n일단 제미나이(Google AI Studio)는 맥락이 유지되는 질답 작업을 위한 chat_completion 옵션을 제공하지 않느다. 왜 없지?\n\n\n\n\n원래 목적은 Ollama 활용이니까 패스. 그런데 Ollama는 아예 서비스 리스트에 포함되어 있지도 않음. 어쩌지? 제미나이한테 물어봤다. Ollama를 OpenAI로 속이면 된다고(..)\n\n\n\n\n\nOllama는 로컬 서비스라 API 키는 필요 없다. 아무 값이나 입력 후, chat_completion 옵션 선택.\n\n\n\n등록 완료.\n\n\n\n\n\n스플렁크에 비해 토큰을 많이 쓰는 느낌?\n\n\n관련 글\n\nSplunk with LLM",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/07/with-llm.html",
-    "pubDate": "2026-07-01T13:41:54.163Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "치지직 PiP로 보는 웹 인터페이스의 조작 경험",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.seulgi.kim/2026/07/pip.html",
-    "pubDate": "2026-07-01T15:13:47.444Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "데이터 분석이 쉬워지는 비법 - 5th",
-    "description": "서로 다른 변수 20만 개가 발생한 웹로그.\n\n\n\n\n그런데 이런 유형의 변수를 서로 다르다고 인정해줄 필요가 있을까?\n\n\n\n\n나는 변수값의 변화가 아닌, 변수라는 큰 틀의 변화가 보고 싶다. 숫자 변수값 삭제.\n\n\n\n\n숫자 변수값을 삭제하지 않은 필드 분석.\n\n\n\n\n\n숫자 변수값을 삭제한 필드 분석.\n\n\n\n\n데이터 분석 분야에는 데이터 정체성을 유지하면서 분석 범위를 좁히고자 할 때 사용하는 차원 축소라는 개념이 있다.\n\n\n\n\n\n내가 보고 싶은 게 무엇인지, 지금 보고 있는 게 진짜 보고 싶었던 것인지를 고민하면서 해왔던 작업들이 알고 보니 생전 듣도 보도 못한 데이터 차원 축소 작업이었던 것. 본질에 집중하면 결국 다 통하는 모양이다.\n\n빅데이터/인공지능이 유행하기 전부터 로그를 한 줄, 한 줄 읽어보고 싶은 욕구를 느꼈다면, VIM/grep 등을 이용해서 더 읽기 쉬운 형태로, 계산이 가능한 형태로 정제를 시도해봤다면, 친숙한 오피스 툴(엑셀?)이나 더 전문적인 데이터 계산툴(SQL?)을 사용해봤다면 충분히 잘 할 수 있다. 데이터 분석의 기본 원리는 그대로인 채 툴만 바뀌었으니까 - 엘라스틱서치로 알아보는 이상징후 분석4th\n\n\n\n관련 글\n\n데이터 분석이 쉬워지는 비법 - 4th\n데이터 분석이 쉬워지는 비법\n데이터 노가다 실수담\n스플렁크 위주로 해주세요\n데이터 분석에 필요한 자질은 뭘까?",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/07/5th.html",
-    "pubDate": "2026-07-05T04:22:45.080Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
+    "id": 4,
     "imageUrl": "",
     "title": "AI 써야할까 말아야 할까?",
     "description": "아직도 AI를 쓰지 않는 초보 개발자들이 있습니다.AI를 쓰는 건 진짜 실력이 아니라는 거죠.이 글은 그런 분들을 위한 글입니다. SNS에서 하네스 엔지니어링, 루프 엔지니어링이 떠들썩한 상황에 여전히 손코딩에 매달립니다. 아 – 그리곤 … 취직이 되지 않습니다. 그래서 불안합니다.왜 안될까?내가 실력이 없어서일까?어떻게 해야 할까? AI를 쓰는 건 진짜 실력이 아닐까?AI를 써야 할까 말아야 할까?그리고 쓰려면 어떻게 쓰라는 […]",
@@ -143,23 +52,39 @@
     ]
   },
   {
-    "id": 11,
+    "id": 5,
     "imageUrl": "",
-    "title": "공략 / NDS 파이어 엠블렘 신 문장의 수수께끼: 빛과 어둠의 영웅",
-    "description": "특이한 점\n1. 이 게임은 영문판이 없습니다.\n일본어만 있군요\n \n2. 시작할때 내 케릭터를 하나 만들 수 있습니다.\n주인공은 마르스 이지만 내 케릭터하나를 만들 수 있습니다.\n설별도 고를 수 있고 \n직업도 고를 수 있습니다.\n성능이 좋았고 제가 써봤을 때는 방어력이 상당히 높았습니다.\n \nAI 공략이 자꾸 과거 문장의 비밀 판을 알려줘서 상황이 다른부분이 많았습니다.\n \n3장 외전 - 나발 ナバール(나바루) 설득하기\n\n\n \n진입 조건\n튜터리얼을 포함해서 아무도 잃지 않으면 들아 갈 수 있었습니다.\n24턴 내에 3장을 깨야한다는 조건은 없는거 같군요\n하드모드에서는 튜터리얼이 없어서 이 조건에 걸릴거 같기도 합니다.\n \n왼족의 문을 열면 딱 서있습니다.\n오그마로 설득이 가능합니다.\nAI 가 온갖 이상한 케릭터로 된다고 하는데 \n다 실패했습니다. 오그마만 가능했습니다.\n \n\n\n이 케릭터가 오그마 (강합니다. 외우세요)\n \n설득을 못해서 3번이다 다시 플레이 했습니다.\n기록 남겨둡니다.\n \n \n10장\n옥좌 뒤에 보물상자 두개 - 걸어가진다 \n\n\n왕좌 뒤에 상자가 두게 있는데 \n못들어갈꺼 같이 생겼지만 한칸씩 밀고 들어갈 수 있습니다.\n(걸어들어갈 수 있다는 소리)\n\n\n마르스는 파이어 엠블렘 아이템을 들고 있으면 사자를 열 수 있다.\n \n \n성 외봑에 보물상자 - 도적으로 걸어간다\n외곽에 보물상자 두개가 있는데 빠르게 열려면\n도적둘을 출발 시키면 됩니다.\n난이도를 높이면 뒤에서 도적이 열고 도망간다는데 일반 난이도에서는 아무도 나타나지 않았습니다.\n \n결국 상자에선 무었이 나왔나\n설 밖 왼쪽 - 한턴동안 적 마법 못쓰게 막는 지팡이\n성 밖 오른쪽 - 문을 1칸 멀리서 열수 있는 지팡이 (문만 열 수 있음)\n옥자 위 왼쪽 - 원격 체력회복 지팡이\n옥좌 위 오른쪽 - 보물 10,000G\n좋은거 주네요\n \n14장\n일단 다 잡고난다음\n12시 방향에 밝은 테두리로 한칸이 보입니다.\n마르스가 거기위에 올라서면 방이 3개가 열리고\n아래에 빙룡 3마리가 올라 옵니다.\n빙룡 잡아도 게임 않끝나니 느긎하게 전투하시면 돕니다.\n보물 상자는 점령 전에 챙길 수 있습니다.\n \n우측 방에는 치카 가 서있는데 마르스로 설득해야합니다.\n \n\n\n좌측방에 상자 두개랑 왕좌가 있습니다. \n다 잡고나서 앉으면 됩니다.\n몰라서 한참 해맸네요",
+    "title": "Does Speaking to Agents Like Cavemen Really Save 65% of Tokens? We Test",
+    "description": "A paired A/B benchmark of the token-compression skill Caveman on Claude Code, run on SkillsBench: does it actually save tokens, and does it degrade AI agent output quality? Advertised saving: 65%. Measured saving: 8.5%. Output-token saving on real agentic tasks, with the skill forcibly activated. This is the ceiling, not the usual-case result. Why we […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1672",
-    "pubDate": "Sat, 4 Jul 2026 21:37:33 +0900",
-    "creator": "SID-NFT",
+    "link": "https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/",
+    "pubDate": "Mon, 06 Jul 2026 10:01:12 +0000",
+    "creator": "Denis Shiryaev",
     "categories": [
-      "게임",
-      "게임공략",
-      "파이어엠블렘"
+      "agentic-ai",
+      "ai",
+      "ai-assistant"
     ]
   },
   {
-    "id": 12,
+    "id": 6,
+    "imageUrl": "",
+    "title": "What’s New in vcpkg (June 2026)",
+    "description": "These June updates add a vcpkg-tool switch to skip installation when packages are already cached, OpenHarmony (OHOS) platform support, and major library updates including curl 8.21, CGAL 6.2, and Graphviz 15.\nThe post What’s New in vcpkg (June 2026) appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-june-2026/",
+    "pubDate": "Thu, 09 Jul 2026 01:28:54 +0000",
+    "creator": "Augustin Popa",
+    "categories": [
+      "C++",
+      "Vcpkg",
+      "vcpkg"
+    ]
+  },
+  {
+    "id": 7,
     "imageUrl": "",
     "title": "JetBrains AI for Teams and Organizations: From Fragmented AI Usage to Coordinated Software Development",
     "description": "We’re about to start rolling out a new set of AI capabilities that provide shared context, reusable agentic workflows, organization-level governance, and cost control for software production. Developers use different AI tools depending on the task – from JetBrains IDEs to terminal-based agents such as Claude Code, Codex, and other emerging solutions. That freedom is […]",
@@ -181,35 +106,80 @@
     ]
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
-    "title": "토스, 자립준비청년 대상 커리어 멘토링 프로그램 운영",
-    "description": "7주간의 프로그램에 토스 팀원들 직접 멘토로 참여",
+    "title": "What’s Next for TeamCity – CI/CD by JetBrains",
+    "description": "What we’re building toward As the share of code written by AI agents grows rapidly, two questions are central to effective AI adoption: How can teams turn AI usage into real productivity gains, and how can they maintain quality, security, and control while doing so? CI/CD is critical to both. Every contribution, whether written by […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/career-mentoring",
-    "pubDate": "Sun, 05 Jul 2026 01:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "요즘 해킹 방법 / 아래의 지침을 따라주세요 ㄷㄷㄷ",
-    "description": "와 불법 사이트에 들어가서 광고를 보고 있는데 황당한 방식이 있군요\n\n\n다운로드 같은걸 누르면 이런식으로 안내하는데\n터미널을 실행해 특정 명령어를 실행하라고 합니다.\n \n특정 명령어는 관리자 권한으로 높이고 특정 프로그램을 실행하는 것입니다.\n보나마나 해킹 프로그램이겠죠\n \n저렇게 친절하게 안내하니 \n속는 사람 꽤 있을 것 같습니다.\n주의해야겠습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1673",
-    "pubDate": "Sun, 5 Jul 2026 12:33:11 +0900",
-    "creator": "SID-NFT",
+    "link": "https://blog.jetbrains.com/teamcity/2026/07/whats-next-for-teamcity/",
+    "pubDate": "Tue, 07 Jul 2026 13:47:06 +0000",
+    "creator": "Yarik Aleksandrov",
     "categories": [
-      "유튜브",
-      "위험",
-      "해킹"
+      "teamcity-2",
+      "news"
     ]
   },
   {
-    "id": 15,
+    "id": 9,
+    "imageUrl": "",
+    "title": "[NS]리듬으로 물으면 리듬으로 답하라, 리듬 천국 미라클 스타즈",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2469",
+    "pubDate": "Thu, 09 Jul 2026 10:02:58 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Pure Virtual C++ 2026 Talks Announced",
+    "description": "The featured talks for Pure Virtual C++ 2026 are here! Join us on July 21 for a free, one-day virtual conference for the whole C++ community.\nThe post Pure Virtual C++ 2026 Talks Announced appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-talks-announced/",
+    "pubDate": "Thu, 02 Jul 2026 20:19:23 +0000",
+    "creator": "Marian Luparu",
+    "categories": [
+      "Announcement",
+      "C++",
+      "Pure Virtual C++"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 57화, 전생인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2468",
+    "pubDate": "Wed, 08 Jul 2026 23:10:38 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "함께 진화하며 싸워나가라! 보이드링 바운드",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2467",
+    "pubDate": "Sun, 05 Jul 2026 22:10:21 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "Natvis Comes to Linux and macOS: Visualize Your C++ Types Without Writing a Single Data Formatter",
     "description": "If you’ve ever debugged your own C++ containers, strings, or hash tables on Linux or macOS, you know the deal: to see anything useful in the debugger, you have to write a custom data formatter. And writing a good data formatter is genuinely painful. Often, the formatter ends up longer and harder to follow than […]",
@@ -226,6 +196,45 @@
       "gamedev",
       "natvis",
       "unreal-engine"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Toolbox App 3.6: Smarter Storage Cleanup, Windows installation diagnostics, and More",
+    "description": "Toolbox App 3.6 gives you better control over local storage and makes Windows installation failures easier to diagnose. Clean up removable Toolbox App data from Settings The Toolbox App now shows how much removable data it can safely clean up, providing a breakdown for the download cache, previous versions, temporary leftovers, and leftover tool directories. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/toolbox-app/2026/07/toolbox-app-3-6-smarter-storage-cleanup-windows-installation-diagnostics-and-more/",
+    "pubDate": "Thu, 02 Jul 2026 16:30:53 +0000",
+    "creator": "Lana Novikova",
+    "categories": [
+      "jetbrains-toolbox",
+      "toolbox-app"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "돈 안 내고 AI 무제한 사용? 신용카드 없이 무료 API 키 &amp; 로컬 AI 4가지 방법",
+    "description": "AI 사용료, 매달 부담스러우셨나요? 신용카드 없이도, 심지어 내 개인 정보 유출 걱정 없이 AI를 무료로 무제한 활용하는 방법이 있습니다. 무료 API 키 발급부터 효율적인 활용법까지, 당신의 AI 라이프를 한 단계 업그레이드할 비법을 지금 바로 확인해 보세요.\n여러분, 혹시 AI 서비스를 쓰면서 매달 빠져나가는 구독료나 예상치 못한 '요금 폭탄' 때문에 머리 아프셨던 적 있으신가요? 아니면 혹시나 하는 마음에 AI 기능이 들어간 앱 사용을 망설이신 분들도 분명 계실 거예요. 솔직히 말하면, 간단한 질문에 답을 얻는 용도라면 굳이 돈을 낼 필요가 전혀 없습니다. 네이버, 구글, 덕덕고 같은 검색 엔진만 활용해도 이미 충분하거든요. 구글 AI 같은 경우는 멀티모달 기능에 이미지 생성까지 무료로 제공하니, 정말 편리하죠.\n\n\n여기에 챗GPT나 Gemini 같은 무료로 열려 있는 대형 언어 모델(LLM)들을 더하면, 채팅 목적으로는 사실상 지출이 0원이에요. 하지만 진짜 돈이 새는 곳은 따로 있습니다. 바로 AI 기능을 앱에 통합해서 쓸 때 필요한 API 키를 사용할 때죠. '이거 켜뒀다가 요금 폭탄 맞으면 어떡하지?' 이런 공포감 때문에 못 써본 분들도 정말 많을 겁니다. 오늘 이 모든 공포를 제가 싹 날려 드릴게요. 무료 API 키 발급부터, 한도가 차면 현명하게 '돌려막는' 꿀팁까지, 단계별로 자세히 알려드리겠습니다.\n  AI 사용료, 이제 돈 내지 마세요! 무료 API 키의 세계로 초대합니다\n가장 먼저, 단순히 AI에게 질문하고 답변을 받는 것이 전부라면, 굳이 복잡하게 API 키를 발급받을 필요가 없습니다. 이미 많은 검색 엔진이나 AI 서비스들이 이 기능을 무료로 제공하고 있거든요.\n웹 기반 무료 AI 활용: 채팅 목적이라면 이것만으로도 충분해요!\n검색 엔진 통합 AI: 네이버, 구글, 덕덕고(DuckDuckGo) 같은 검색창에 직접 질문을 입력해 보세요. 이미 AI가 답변을 제공하고 있습니다. 특히 구글 AI는 멀티모달 기능(텍스트, 이미지 등 다양한 형태 이해)에 이미지 생성까지 가능하니, 활용도가 정말 높습니다.\n무료 LLM 서비스: 챗GPT (일부 무료 버전), Gemini 등의 서비스는 기본적인 AI 채팅 기능을 무료로 제공합니다. 대화형 AI가 필요하다면 이들 서비스를 활용하는 것만으로도 충분하죠.\n  팁: 'AI 채팅'이 주 목적이라면 사실 여기서 끝내도 좋습니다. 별도의 설치나 구독료 없이도 강력한 AI를 충분히 경험할 수 있어요.\n그런데 말입니다, 조금이라도 더 나아가서 AI 기능을 내 앱이나 서비스에 연동하고 싶다면, 그때부터 API 키가 필요해집니다. 이 API 키를 어떻게 무료로, 그리고 효율적으로 얻을 수 있을까요? 바로 다음 섹션에서 그 준비 과정을 알려드릴게요.\n  무료 API 키 발급 전, 이것만은 꼭! (구글 계정 전략)\nAPI를 활용할 계획이라면, 시작 전에 딱 하나만 준비해두시면 좋습니다. 바로 구글 계정을 용도별로 몇 개 나눠 두는 것입니다. 왜냐하면 대부분의 무료 API 서비스가 '계정 단위'로 무료 한도를 제공하기 때문이죠. 저도 처음에는 개인용, 앱 테스트용, 프로젝트용을 마구 섞어 쓰다가 관리도 복잡해지고 한도도 금방 엉켜버려서 애먹었던 기억이 납니다. 미리 분리해두면 나중에 훨씬 깔끔하게 관리할 수 있어요.\n개인용: 일상적인 테스트나 학습용으로 사용합니다.\n개발/테스트용: 특정 앱이나 서비스 개발 시 연동 테스트 용도로 사용합니다.\n프로젝트용: 특정 프로젝트에 한정하여 사용하는 계정입니다.\n  꿀팁: 구글이 정확한 숫자를 공개하진 않지만, 보통 전화번호 하나로 4~5개 정도의 계정 생성이 가능하다고 알려져 있습니다. 너무 무리하게 많이 만들려 하기보다는, 정말 필요한 만큼만 용도별로 나눠 두시는 게 좋아요.\n이렇게 준비가 되었다면, 이제 신용카드 없이도 무료 API 키를 발급받을 수 있는 곳들을 본격적으로 알아볼 시간입니다. 저와 함께 한 단계씩 진행해 보시죠!\n  신용카드 없이! 무료 AI API 키 발급받는 4가지 방법\nAI를 사용하는 앱 대부분은 API 키를 본인이 직접 등록하게 되어 있습니다. 이때 '쓰는 만큼 돈 나가는 거 아니야?' 하는 공포가 스멀스멀 올라오죠. 실제로 과금 개념 없이 이미지 생성을 마구 돌리다가 API 요금 폭탄을 맞는 경우도 주변에서 종종 봤습니다. 하지만 걱정 마세요! 최소 4군데의 서비스에서 신용카드 없이 무료로 API 키를 발급받을 수 있습니다. 바로 Groq, Cloudflare, OpenRouter, 그리고 NVIDIA NIM입니다. 하나씩 저와 함께 발급받아볼까요?\n1. Groq (그록) API 키 발급받기\nGroq는 고성능 LLM 추론에 특화된 서비스입니다. 발급 과정도 정말 간단해요.\nGroq 공식 사이트에 접속하여 구글 계정으로 바로 로그인합니다.\n로그인 후 'API 키 관리' 화면이 나타나면, 우측 상단 'Create API Key'를 클릭합니다.\n키 이름을 입력하고 하단에서 사용 기간을 선택한 후 승인 버튼을 클릭합니다.\n잠시 후 API 키가 화면에 보입니다. 이때 말고는 다시 확인할 수 없으니, 반드시 복사하여 안전한 곳에 저장해두세요!\n2. Cloudflare (클라우드플레어) API 토큰 발급받기\nCloudflare는 Workers AI를 통해 AI 기능을 제공합니다. 발급 절차가 약간 복잡하지만, 차분히 따라오시면 문제없습니다.\nCloudflare 공식 사이트에 접속하여 가입 전이라면 'Sign Up'을 클릭합니다.\n사용할 이메일과 비밀번호를 입력하고 'Sign Up' 버튼을 클릭하여 대시보드로 이동합니다.\n화면 우측 상단의 사용자 프로필을 선택한 후, 좌측 메뉴에서 'API Tokens'를 클릭합니다.\n우측 상단 'Create Token'을 클릭한 후, 목록에서 'Workers AI' 옆의 'Use template'를 클릭합니다.\nAccount Resources 섹션에서 가입한 이메일을 선택한 후 'Continue to Summary'를 클릭합니다.\n이메일 인증 요청이 뜨면, 가입 시 사용한 이메일 받은 편지함으로 이동하여 Cloudflare에서 발송된 메일을 열고 'Verify your email'을 클릭합니다.\n다시 Cloudflare 사이트로 돌아와 'Create Token'을 클릭하면 API 키가 발급됩니다.\n3. OpenRouter (오픈라우터) API 키 발급받기\nOpenRouter는 다양한 LLM을 한 곳에서 사용할 수 있게 해주는 플랫폼입니다. 발급이 아주 빠르고 간단합니다.\nOpenRouter 공식 사이트에 접속하여 화면 중앙의 구글 아이콘을 클릭, 사용할 이메일을 선택하거나 다른 계정으로 로그인합니다.\n로그인 화면에서 '계속'을 클릭하고, 'Legal Consent'에 체크 후 'Continue'를 클릭합니다.\n웰컴 화면이 나오면 'Individual'을 선택하면 잠시 후 API 키가 발급됩니다. 바로 복사하여 저장하세요!\n이후 결제 정보 입력 화면이 나오는데, 아무것도 하지 마시고 하단의 'I'll do this later'를 클릭합니다. 그다음 아무거나 선택하고 'Continue'하여 대시보드로 이동하면 됩니다.\n4. NVIDIA NIM (엔비디아 님) API 키 발급받기\nAI 테스트 플랫폼으로 명성이 높은 NVIDIA NIM에서도 무료 API 키 발급이 가능합니다. 이 키 하나로 NIM에서 지원하는 모든 AI 모델을 사용할 수 있다는 장점이 있죠.\nNVIDIA NIM 공식 사이트에 접속하여 우측 상단 'Login'을 클릭, 사용할 이메일을 입력합니다.\n암호를 입력하고 캡차(CAPTCHA)에 체크한 후, 이미지 캡차가 나오면 지시에 따라 해결하고 '계정 만들기'를 클릭합니다.\n가입한 이메일 받은 편지함에서 인증 코드를 확인한 후, 다시 사이트로 돌아와 코드를 입력하고 제출합니다.\n사용할 이름을 입력하면 로그인된 화면이 나타납니다.\n상단의 '모델(Model)' 메뉴로 들어갑니다. 수많은 AI 모델 목록 중 아무 모델이나 선택하세요.\n관련 창이 뜨면 하단 버튼을 클릭하고, 'Generate API Key'를 클릭합니다.\n국적과 전화번호를 입력합니다. 문자로 도착한 6자리 코드를 입력하고 'Verify Account'를 클릭하면 'nvapi-'로 시작하는 API 키가 생성됩니다.\n지금까지 신용카드 없이 무료 API 키를 발급받을 수 있는 4곳을 소개해 드렸습니다. 이 방법들을 잘 활용하면 AI 앱 사용에 대한 요금 걱정을 크게 덜 수 있을 거예요. 하지만 여기서 꼭 알아두셔야 할 점이 있습니다. 완전 무료, 무제한 API는 사실상 거의 없다는 것입니다. 대부분은 하루 할당량이나 무료 티어 안에서 호출하는 구조죠. 그래서 앞서 알려드린 대로 여러 구글 계정을 활용하면 사실상 무제한에 가깝게 사용할 수 있으니 참고하시길 바랍니다.\n⚠️ 주의: 무료 티어는 내가 입력한 내용이 AI 학습에 사용될 수 있습니다. 회사 자료나 민감한 개인 정보를 그냥 입력했다가 데이터 유출 위험이 생길 수도 있으니, 이 점은 반드시 유의하세요. 챗GPT나 Gemini 같은 유명 서비스들도 마찬가지입니다.\n  핵심 요약\n✅ 채팅 전용 AI는 대부분 무료 웹 서비스로 충분! (구글 AI, 챗GPT 등)\n✅ API 키는 신용카드 없이 4개 플랫폼(Groq, Cloudflare, OpenRouter, NVIDIA NIM)에서 발급 가능!\n*이 요약은 AI 활용 비용을 절감하는 핵심 방법을 담고 있습니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1: 무료 API 키를 여러 개 발급받으면 정말 무제한으로 사용할 수 있나요?\n네, 어느 정도는 가능합니다. 대부분의 무료 API 서비스는 '계정당' 무료 할당량을 제공하므로, 여러 구글 계정을 활용하여 각 서비스의 무료 할당량을 번갈아 사용하면 사실상 무제한에 가깝게 AI를 활용할 수 있습니다. 단, 각 서비스의 이용 약관을 확인하는 것이 중요합니다.\n자, 오늘 제가 준비한 내용은 여기까지입니다. 채팅만 할 거면 무료 웹 AI를 사용하고, API가 필요할 때는 4개 사이트의 무료 API 키를 활용하여 '돌려막기'하는 방법까지, 이제 여러분도 AI를 훨씬 더 스마트하게 활용할 수 있게 되셨을 겁니다.\n오늘 포스트가 여러분의 AI 생활에 정말 큰 도움이 되었기를 바랍니다. 감사합니다!",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483728",
+    "pubDate": "Mon, 6 Jul 2026 14:56:38 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "AI 요금 폭탄",
+      "AI 프라이버시",
+      "Cloudflare API",
+      "Groq API",
+      "NVIDIA NIM API",
+      "OpenRouter API",
+      "로컬 AI 구축",
+      "무료 API 키",
+      "신용카드 없이 AI",
+      "오토 젬마 스타터"
     ]
   }
 ]
