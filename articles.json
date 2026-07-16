@@ -2,99 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "What’s New in vcpkg (June 2026)",
-    "description": "These June updates add a vcpkg-tool switch to skip installation when packages are already cached, OpenHarmony (OHOS) platform support, and major library updates including curl 8.21, CGAL 6.2, and Graphviz 15.\nThe post What’s New in vcpkg (June 2026) appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-june-2026/",
-    "pubDate": "Thu, 09 Jul 2026 01:28:54 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "조선시대 사람들은 휴가를 어떻게 즐겼을까? ",
-    "description": "300년 전 각광받던 국내 휴가지와 특별한 여름 휴가법",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/behindthemoney-17",
-    "pubDate": "Thu, 09 Jul 2026 23:58:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "What’s New in ReSharper 2026.2 for VS Code-compatible editors ",
-    "description": "The last couple of months have been busy ones for ReSharper across VS Code and compatible editors. Between the 2026.1 and 2026.2 releases, we’ve been steadily sharpening the everyday .NET experience – from tracing how your data flows, to navigating call chains, to keeping your project structure front and center. This post is a tour […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/07/13/rs-vsc-2026-2/",
-    "pubDate": "Mon, 13 Jul 2026 10:40:13 +0000",
-    "creator": "Alexander Kurakin",
-    "categories": [
-      "net-tools",
-      "releases",
-      "call-hierarchy",
-      "call-tracking",
-      "cursor",
-      "debugger",
-      "debugging",
-      "release",
-      "vs-code"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "프로브, 컨디셔닝 채널, GRPO, DiT, dLLM 의사코드 및 학습 구조",
-    "description": "프로브, 컨디셔닝 채널, GRPO, DiT, dLLM 각각에 대해 의사코드와 학습 데이터 구조를 함께 살펴본다.\n\n\n\n프로브\n프로브는 모델의 특정 층에서 활성화값을 뽑아내고, 그 위에 작은 분류기를 얹어서 학습시키는 구조다. 의사코드로 보면 다음과 같다.\n# 1단계: 활성화값 수집\ndef get_activation(model, input_text, layer_idx):\n    activations = {}\n    def hook(module, input, output):\n        activations['value'] = output.detach()\n    handle = model.layers[layer_idx].register_forward_hook(hook)\n    model.forward(input_text)\n    handle.remove()\n    return activations['value']  # shape: [hidden_dim]\n\n# 2단계: 프로브 정의 (아주 작은 MLP 또는 선형 분류기)\nclass Probe(nn.Module):\n    def __init__(self, hidden_dim):\n        super().__init__()\n        self.linear = nn.Linear(hidden_dim, 1)  # 정직/기만 이진 분류\n\n    def forward(self, activation):\n        return torch.sigmoid(self.linear(activation))\n\n# 3단계: 프로브 학습\nfor batch in probe_dataset:\n    activation = get_activation(model, batch.text, layer_idx=20)\n    pred = probe(activation)\n    loss = binary_cross_entropy(pred, batch.label)\n    loss.backward()\n    probe_optimizer.step()\n\n# 4단계: 훈련 중 보상에 반영\ndef reward_with_probe(response, activation):\n    task_reward = check_correctness(response)\n    honesty_score = probe(activation)  # 0에 가까우면 기만 의심\n    return task_reward - penalty_weight * (1 - honesty_score)\n\n학습 데이터 구조는 활성화값과 정직 여부 라벨의 쌍으로 이루어진다.\n{\n  \"example_id\": \"0001\",\n  \"prompt\": \"이 코드가 모든 테스트를 통과하는지 확인하고 수정하라\",\n  \"model_response\": \"def solve(): return hardcoded_answer\",\n  \"activation_layer20\": [0.023, -1.14, 0.87, ...],  # hidden_dim 크기 벡터\n  \"label\": \"deceptive\",   # 또는 \"honest\"\n  \"ground_truth_check\": \"test case hardcoded, actual logic broken\"\n}\n\n라벨은 사람이 직접 코드를 검토해서 실제로 문제를 풀었는지, 아니면 테스트만 통과하도록 편법을 썼는지 판단해서 붙인다. 이 라벨과 그 순간의 활성화값을 짝지어 놓은 데이터셋으로 프로브를 학습시키면, 나중에는 라벨 없이 활성화값만 보고도 기만 여부를 예측할 수 있게 된다.\n컨디셔닝 채널\n컨디셔닝 채널은 여러 조건 정보를 같은 크기의 텐서로 맞춘 다음, 채널 축으로 이어 붙여서 모델에 입력하는 구조다.\n# 각 조건을 동일한 공간 해상도의 텐서로 인코딩\nnoise_latent = get_noise_latent()          # shape: [C, H, W]\ntext_embed = text_encoder(prompt)           # shape: [C_text] -> 브로드캐스트하여 [C_text, H, W]\nref_image_feat = image_encoder(ref_image)   # shape: [C_img, H, W]\npose_map = pose_estimator(pose_input)       # shape: [C_pose, H, W]\naudio_feat = audio_encoder(audio_clip)      # shape: [C_audio] -> [C_audio, H, W]로 확장\n\n# 채널 축으로 이어붙이기\ncombined_input = concat([noise_latent, text_embed, ref_image_feat, pose_map, audio_feat], dim=channel_axis)\n# shape: [C_total, H, W]\n\n# 기존 DiT 백본의 입력 채널 수만 늘려서 그대로 학습\noutput = diffusion_transformer(combined_input)\nloss = diffusion_loss(output, target_video)\n\n기존 모델이 입력 채널 하나(노이즈)만 받던 것을, 여러 조건 채널을 더해서 받도록 첫 번째 레이어의 입력 차원만 넓혀주면 나머지 트랜스포머 구조는 그대로 재사용할 수 있다.\n학습 데이터 구조는 여러 조건이 하나의 샘플 안에 함께 묶여 있는 형태다.\n{\n  \"sample_id\": \"hoivg_00042\",\n  \"text_prompt\": \"한 사람이 상자를 들어 옮긴다\",\n  \"reference_image\": \"person_box_ref.png\",\n  \"pose_sequence\": \"pose_00042.npy\",      # 프레임별 관절 좌표\n  \"audio_clip\": \"footstep_lift.wav\",\n  \"target_video\": \"target_00042.mp4\"       # 학습 정답이 되는 실제 영상\n}\n\n한 샘플 안에 텍스트, 참조 이미지, 포즈, 오디오, 정답 영상이 모두 짝지어져 있어야 하고, 학습 시에는 이 모든 조건을 인코딩해서 채널로 이어 붙인 다음 정답 영상과의 차이를 손실로 계산한다.\nGRPO\nGRPO는 같은 질문에 대해 여러 응답을 한꺼번에 샘플링하고, 그 응답들 사이의 상대적 보상 차이로 정책을 업데이트하는 구조다.\nfor prompt in training_prompts:\n    # 1단계: 같은 프롬프트로 여러 응답 샘플링 (그룹)\n    responses = [model.generate(prompt) for _ in range(group_size)]  # 예: 8개\n\n    # 2단계: 각 응답에 보상 부여\n    rewards = [reward_function(prompt, r) for r in responses]\n\n    # 3단계: 그룹 내 평균과 표준편차로 정규화 (상대적 우열 계산)\n    mean_r = mean(rewards)\n    std_r = std(rewards)\n    advantages = [(r - mean_r) / (std_r + eps) for r in rewards]\n\n    # 4단계: 정책 업데이트 (상대적으로 좋은 응답의 확률은 높이고 나쁜 응답은 낮춤)\n    for response, advantage in zip(responses, advantages):\n        log_prob = model.log_prob(response, prompt)\n        loss = -advantage * log_prob\n        loss += kl_penalty(model, reference_model, prompt, response)  # 원래 모델에서 너무 벗어나지 않도록 정칙화\n        loss.backward()\n    optimizer.step()\n\n별도의 가치 신경망 없이, 그룹 안에서의 평균과 표준편차만으로 각 응답이 상대적으로 얼마나 좋은지를 계산하는 것이 핵심이다.\n학습 데이터 구조는 정답이 하나로 고정되어 있지 않고, 프롬프트와 그 프롬프트에 대한 평가 기준만 있으면 된다.\n{\n  \"prompt\": \"최근 알츠하이머 치료제 연구 동향을 조사해 정리하라\",\n  \"rubric\": [\n    {\"criterion\": \"최근 2년 내 임상시험 결과를 포함했는가\", \"weight\": 0.3},\n    {\"criterion\": \"상반된 연구 결과를 균형있게 다뤘는가\", \"weight\": 0.3},\n    {\"criterion\": \"출처를 명확히 인용했는가\", \"weight\": 0.2},\n    {\"criterion\": \"결론이 근거에 기반해 신중하게 서술되었는가\", \"weight\": 0.2}\n  ]\n}\n\n정답 텍스트가 미리 정해져 있는 것이 아니라, 응답을 채점할 루브릭만 있으면 된다. 모델이 같은 질문에 대해 여러 답변을 만들면, 이 루브릭으로 각 답변을 채점해서 상대적 점수를 매기고, 그 점수 차이를 이용해 정책을 업데이트한다. DR Tulu는 이 루브릭 자체도 훈련이 진행되면서 점점 더 정교해지도록 함께 학습시킨다는 점이 추가된 특징이다.\nDiT\nDiT는 디퓨전 모델, 즉 노이즈를 조금씩 걷어내면서 이미지나 영상을 만들어내는 생성 방식에서, 노이즈를 예측하는 핵심 신경망을 U-Net 대신 트랜스포머로 바꾼 구조다. 원래 디퓨전 모델은 U-Net을 많이 썼는데, U-Net은 이미지를 점점 작게 압축했다가 다시 키우는 구조라 합성곱 연산에 의존한다. DiT는 이미지를 작은 패치로 잘게 잘라서 마치 문장의 단어처럼 하나의 토큰 시퀀스로 취급하고, 그 토큰들을 트랜스포머의 셀프 어텐션으로 처리한다. 비유하자면 그림을 그릴 때 U-Net은 전체 캔버스를 계속 확대 축소하며 다듬는 화가에 가깝고, DiT는 그림을 작은 조각으로 잘라 붙인 모자이크 타일들을 서로 비교하고 조율하며 전체 그림을 완성해가는 방식에 가깝다.\nDiT가 기존 U-Net 방식보다 좋은 이유는 두 가지다. 첫째, 트랜스포머는 이미지 크기나 데이터 양이 늘어날수록 성능이 꾸준히 좋아지는 확장성이 검증된 구조라서, 모델과 데이터를 키울수록 U-Net보다 더 안정적으로 품질이 좋아진다. 둘째, 토큰 시퀀스라는 형태를 쓰기 때문에 앞서 설명한 컨디셔닝 채널처럼 텍스트, 이미지, 포즈 같은 다른 종류의 조건 정보를 같은 토큰 시퀀스 안에 자연스럽게 섞어 넣기가 쉽다.\n예시\n앞서 다룬 Causal Forcing과 OmniShow가 모두 이 DiT 구조를 베이스 모델로 쓴다. OmniShow의 경우 영상의 각 프레임을 패치 단위로 잘라 토큰으로 만들고, 여기에 텍스트와 참조 이미지, 포즈, 오디오에서 나온 조건 토큰들을 함께 섞어서 트랜스포머에 입력한다. 노이즈가 낀 영상 토큰과 조건 토큰들이 셀프 어텐션 안에서 서로 영향을 주고받으면서, 조건에 맞는 방향으로 노이즈를 걷어내는 법을 학습한다.\n의사코드\n# 1단계: 이미지 또는 영상 프레임을 패치로 분할하고 토큰화\ndef patchify(image, patch_size=16):\n    patches = split_into_patches(image, patch_size)  # 예: 256x256 -> 16x16 패치 256개\n    tokens = linear_projection(patches)  # 각 패치를 하나의 벡터 토큰으로 변환\n    tokens = tokens + positional_embedding\n    return tokens  # shape: [num_patches, hidden_dim]\n\n# 2단계: 노이즈 스텝 정보를 임베딩으로 만들어 조건으로 사용\ndef timestep_embedding(t):\n    return sinusoidal_encode(t)  # 스칼라 t를 hidden_dim 크기 벡터로 변환\n\n# 3단계: DiT 블록 (트랜스포머 블록 + 조건 주입)\nclass DiTBlock(nn.Module):\n    def forward(self, tokens, condition_embed):\n        # 조건 임베딩으로 정규화 파라미터를 조절 (adaptive layer norm)\n        scale, shift, gate = condition_to_scale_shift_gate(condition_embed)\n        x = adaptive_layer_norm(tokens, scale, shift)\n        x = x + gate * self.self_attention(x)\n        x = adaptive_layer_norm(x, scale, shift)\n        x = x + gate * self.mlp(x)\n        return x\n\n# 4단계: 전체 forward, 노이즈 예측\ndef dit_forward(noisy_tokens, t, text_condition):\n    condition_embed = timestep_embedding(t) + text_encoder(text_condition)\n    x = noisy_tokens\n    for block in dit_blocks:  # 예: 28개 블록\n        x = block(x, condition_embed)\n    predicted_noise = unpatchify(final_linear(x))\n    return predicted_noise\n\n# 5단계: 학습 루프\nfor batch in dataset:\n    clean_tokens = patchify(batch.image)\n    t = random_timestep()\n    noise = sample_gaussian_noise()\n    noisy_tokens = add_noise(clean_tokens, noise, t)  # 노이즈 스케줄에 따라 섞기\n    predicted_noise = dit_forward(noisy_tokens, t, batch.text_prompt)\n    loss = mse_loss(predicted_noise, noise)\n    loss.backward()\n    optimizer.step()\n\n핵심은 이미지를 패치 토큰으로 바꾼 다음, 노이즈 스텝 정보를 트랜스포머 블록 안의 정규화 파라미터를 조절하는 방식으로 주입한다는 점이다. 이렇게 하면 같은 트랜스포머 블록이 노이즈가 많이 낀 초기 단계와 노이즈가 거의 없는 마지막 단계 모두에서 서로 다르게 동작하도록 조절된다.\n학습 데이터 구조\n{\n  \"sample_id\": \"video_gen_00187\",\n  \"text_prompt\": \"노을이 지는 해변을 걷는 사람\",\n  \"clean_video_frames\": \"target_00187.mp4\",   # 노이즈가 없는 정답 영상\n  \"resolution\": [256, 256],\n  \"num_frames\": 16,\n  \"patch_size\": 16\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n학습 시에는 정답 영상을 패치로 잘라 토큰으로 만든 다음, 무작위로 고른 노이즈 스텝만큼 인위적으로 노이즈를 섞고, 모델이 그 노이즈를 예측하도록 학습시킨다. 즉 데이터셋 자체에는 노이즈가 없는 깨끗한 영상과 텍스트 프롬프트만 있으면 되고, 노이즈는 학습 과정에서 그때그때 만들어서 씌운다. 조건이 여러 개인 OmniShow 같은 경우는 여기에 참조 이미지, 포즈, 오디오 항목이 앞서 설명한 컨디셔닝 채널 구조로 함께 추가된다.\ndLLM\n기존 LLM은 문장을 왼쪽에서 오른쪽으로 한 단어씩 순서대로 예측하는 자기회귀 방식을 쓴다. 반면 dLLM은 이미지에 노이즈를 씌웠다가 걷어내는 디퓨전의 원리를 텍스트에 그대로 적용한다. 문장의 토큰들을 무작위로 마스킹, 즉 가려버린 다음, 모델이 가려진 토큰들이 무엇이었는지 한꺼번에 맞히도록 학습시킨다. 비유하자면 기존 LLM이 문장을 왼쪽부터 한 글자씩 순서대로 받아쓰는 방식이라면, dLLM은 빈칸 뚫기 문제지를 받아서 뚫린 빈칸들을 한 번에, 그리고 여러 번 다시 고쳐가며 채워나가는 방식이다.\n구조적으로 보면 dLLM은 이미지 패치 토큰 대신 텍스트 토큰을 입력으로 쓴다는 점만 다를 뿐, 트랜스포머 블록 자체는 DiT와 거의 동일하다. 다만 이미지처럼 노이즈를 연속적인 값으로 섞는 대신, 텍스트는 이산적인 토큰이기 때문에 토큰을 마스크 토큰으로 치환하는 방식으로 노이즈를 흉내낸다. 마스킹 비율이 노이즈 스텝 역할을 한다. 마스킹 비율이 높으면 노이즈가 많이 낀 초기 단계이고, 마스킹 비율이 낮으면 노이즈가 거의 걷힌 마지막 단계다.\ndLLM이 기존 자기회귀 LLM보다 나은 점은, 문장을 왼쪽부터 순서대로 만들 필요가 없어서 여러 토큰을 동시에 병렬로 생성할 수 있다는 것이다. 앞서 다룬 Any-Order GPT as Masked Diffusion Model 논문에서 언급했듯이 이 병렬 생성 덕분에 추론 속도가 최대 25배까지 빨라질 수 있다. 다만 앞서 다룬 The Flexibility Trap 논문에서 지적했듯이, 어떤 순서로든 생성할 수 있다는 유연성이 오히려 모델을 추론에 중요한 어려운 토큰을 회피하게 만드는 부작용도 있다.\n예시\n수학 문제를 푸는 상황을 생각해보면, 기존 자기회귀 LLM은 \"2 더하기 3은\" 다음에 \"5\" 하나를 예측하고, 그다음 토큰을 예측하는 식으로 왼쪽부터 순서대로 답을 완성해간다. dLLM은 전체 답변 자리에 마스크 토큰을 전부 채워놓은 상태에서 시작해서, 처음에는 확신이 높은 몇몇 자리, 예를 들어 숫자 \"5\"부터 채우고, 그다음 라운드에서 나머지 마스크된 자리들을 점점 채워나가며 여러 번에 걸쳐 문장 전체를 완성해간다.\n의사코드\n# 1단계: 텍스트를 토큰화하고 일부를 마스크 토큰으로 치환\ndef mask_tokens(token_ids, mask_ratio):\n    num_to_mask = int(len(token_ids) * mask_ratio)\n    mask_positions = random_sample(range(len(token_ids)), num_to_mask)\n    noisy_tokens = token_ids.clone()\n    for pos in mask_positions:\n        noisy_tokens[pos] = MASK_TOKEN_ID\n    return noisy_tokens, mask_positions\n\n# 2단계: 마스킹 비율을 노이즈 스텝처럼 사용해 조건으로 임베딩\ndef mask_ratio_embedding(mask_ratio):\n    return sinusoidal_encode(mask_ratio)  # DiT의 timestep_embedding과 동일한 방식\n\n# 3단계: dLLM 블록 (DiT 블록과 구조 동일, 입력만 텍스트 토큰)\nclass DLLMBlock(nn.Module):\n    def forward(self, tokens, condition_embed):\n        scale, shift, gate = condition_to_scale_shift_gate(condition_embed)\n        x = adaptive_layer_norm(tokens, scale, shift)\n        x = x + gate * self.self_attention(x)  # 양방향 어텐션, 인과적 마스크 없음\n        x = adaptive_layer_norm(x, scale, shift)\n        x = x + gate * self.mlp(x)\n        return x\n\n# 4단계: 전체 forward, 마스크된 토큰 예측\ndef dllm_forward(noisy_tokens, mask_ratio):\n    condition_embed = mask_ratio_embedding(mask_ratio)\n    x = token_embedding(noisy_tokens)\n    for block in dllm_blocks:\n        x = block(x, condition_embed)\n    predicted_token_logits = final_linear(x)  # 각 위치마다 vocab 크기의 분포\n    return predicted_token_logits\n\n# 5단계: 학습 루프\nfor batch in text_dataset:\n    clean_tokens = tokenize(batch.text)\n    mask_ratio = random_uniform(0, 1)  # 이미지의 random_timestep과 동일한 역할\n    noisy_tokens, mask_positions = mask_tokens(clean_tokens, mask_ratio)\n    predicted_logits = dllm_forward(noisy_tokens, mask_ratio)\n    # 마스킹된 위치에서만 손실 계산\n    loss = cross_entropy(predicted_logits[mask_positions], clean_tokens[mask_positions])\n    loss.backward()\n    optimizer.step()\n\n# 6단계: 생성 시 여러 라운드에 걸쳐 마스크를 점점 채워나감\ndef generate(prompt_tokens, answer_length, num_rounds=8):\n    tokens = concat([prompt_tokens, [MASK_TOKEN_ID] * answer_length])\n    for round in range(num_rounds):\n        mask_ratio = 1.0 - (round / num_rounds)\n        logits = dllm_forward(tokens, mask_ratio)\n        probs, predicted = softmax_and_argmax(logits)\n        # 확신이 높은 자리부터 확정하고 나머지는 다음 라운드로\n        confident_positions = top_k_by_confidence(probs, k=answer_length // num_rounds)\n        for pos in confident_positions:\n            tokens[pos] = predicted[pos]\n    return tokens\n\nDiT와 비교했을 때 가장 큰 구조적 차이는 셀프 어텐션이 인과적 마스크 없이 양방향으로 열려 있다는 점이다. 기존 자기회귀 LLM은 지금 토큰이 뒤에 나올 토큰을 미리 보지 못하도록 마스킹하지만, dLLM은 마스킹된 자리 이외의 모든 토큰을 양방향으로 참고할 수 있어야 빈칸을 제대로 채울 수 있기 때문이다.\n학습 데이터 구조\n{\n  \"sample_id\": \"text_00512\",\n  \"clean_text\": \"2 더하기 3은 5이고, 5에 4를 더하면 9이다.\",\n  \"token_ids\": [1023, 892, 55, 1104, ...],\n  \"vocab_size\": 32000,\n  \"max_seq_len\": 512\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiT의 학습 데이터가 노이즈 없는 깨끗한 영상만 있으면 되는 것처럼, dLLM의 학습 데이터도 마스킹 없는 원본 텍스트만 있으면 된다. 마스킹은 DiT에서 노이즈를 학습 중에 그때그때 씌우는 것과 마찬가지로, 학습 루프 안에서 무작위 비율로 그때그때 만들어서 적용한다. 즉 데이터셋 준비 단계에서는 기존 자기회귀 LLM과 동일한 순수 텍스트 코퍼스를 그대로 쓸 수 있고, 학습 방식만 마스킹과 병렬 예측으로 바뀌는 것이다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/07/grpo-dit-dllm.html",
-    "pubDate": "2026-07-09T04:43:41.661Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "548 ~ 566 일차 개발로그 요약",
-    "description": "566일차 - 나는 메차 카멜레온에서 에픽게임즈를 봤다.\n07월 05일\n영상: https://youtu.be/myrgSgT4dv8?si=cvDO0kAfamk9R9Z0\n\n\n\n앗 썸네일 날짜 되었네요 고쳐야지\n1. verse8 MSU 이벤트는 퀄리티 부족으로 거부 되었습니다.\n실패\n2. 메차 카멜레온이 흥하고 있는데 이 게임이 언리얼 + 에픽 온라인 서비스를 활용했다는 사실을 알았습니다.\n그래서 에픽 온라인 서비스 (EOS) 를 공부중입니다.\n따라 만들어야겠습니다.\n(해보고 있는데 동작이 잘 안됩니다. 너무 어렵네요)\n \n3. 메차 카멜레온 개발자들의 이력을 살표보니 8번출구류를 꾸준히 재작하고 있었습니다.\n저도 꾸준히 한길을 파야겠습니다.\n \n4. 주식투자 - 이모든 것은 언리얼 상장과 연결되어있습니다.\n(음모론 주장)\n \n557일차 - verse8 메이플스토리 바이브 캠프 응모\n6월 26\n영상: https://youtu.be/iGM-uKmk1pw?si=_uT019E9L0qMx4F8\n\n\n\n \n1. verse8 MSU 이벤트 참여 영상\n이벤트에 참여하려면 영상을 올려야해서 짧게 만들었습니다.\n \n \n553일차 - 넥써쓰 (?) / GTA6 이젠 판다 / verse8 cors 문제 우회하기\n06월 21일\n영상: https://youtu.be/zmS-dMZZ3a8?si=cnKcGyfwpFFdixQf\n\n\n\n1. 뉴스 요약\n모드의 창업 자료 유출 - 아이디어 심사평 포함\n넥써스가 원스토어 인수\nGTA6 예약 판매 시작\n \n2. 마이크 교체 \n4만원 짜리로 교체 했습니다.\n \n3. verse8 개발 소식\n \n \n548일차 - 모션데스크 싼거 / verse8 더 알아보자 / Phase\n06월 17일\n영상: https://youtu.be/EvVOf_5LVrA?si=4VIxor9gnUF09sEE\n\n\n\n1. 허리 부상으로 모션데스크 샀음\n비싼건 못사고 책상위에 올려 쓰는 루나랩 수동 입니다. 가격은 10만원\n루나랩은 좋은 회사인거 같습니다.\n \n2. verse8 개발 도정 중\n개발 로그 입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1675",
-    "pubDate": "Fri, 10 Jul 2026 22:39:30 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "프로그래밍/자작",
-      "verse8",
-      "개발로그"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "AI는 총일까 낫일까",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://beejei.medium.com/ai%EB%8A%94-%EC%B4%9D%EC%9D%BC%EA%B9%8C-%EB%82%AB%EC%9D%BC%EA%B9%8C-cb82442c8b57?source=rss-9f14ea26d32f------2",
-    "pubDate": "Mon, 13 Jul 2026 03:24:39 GMT",
-    "creator": "Beejei",
-    "categories": [
-      "how-to",
-      "llm"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
     "title": "From weeks to a day: how we made LLM evaluation fast enough to iterate on",
     "description": "No description available",
     "reviews": [],
@@ -111,84 +18,204 @@
     ]
   },
   {
-    "id": 8,
+    "id": 2,
     "imageUrl": "",
-    "title": "[NS]리듬으로 물으면 리듬으로 답하라, 리듬 천국 미라클 스타즈",
-    "description": "No description available",
+    "title": "초당 100만 건, LINE 앱에 Apache Kafka 종단 간 암호화 적용기",
+    "description": "들어가며: 왜 Kafka 종단 간 암호화인가?LINE 메신저에서는 매일 수십억 건의 메시지가 오갑니다. 이 방대한 데이터는 다양한 시스템으로 전달되며, 그중에는 개인 정보와 같이 ...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2469",
-    "pubDate": "Thu, 09 Jul 2026 10:02:58 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://techblog.lycorp.co.jp/ko/applying-e2ee-to-apache-kafka-in-line-app",
+    "pubDate": "Fri, 10 Jul 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "The History of Kodee, Kotlin’s Mascot",
+    "description": "A few years back, the Kotlin team figured it was time their programming language had a mascot – something fun and friendly to make developers feel more at home. After all, so many other programming languages have their own characters – Gofer, elePHPant, Dart’s Dash, or Rust’s Ferris, for example. Bringing Kodee to life wasn’t […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/07/the-history-of-kodee/",
+    "pubDate": "Thu, 09 Jul 2026 14:53:46 +0000",
+    "creator": "Olga Vorobeva",
     "categories": [
-      "리뷰"
+      "kotlin",
+      "research",
+      "design",
+      "cap-kodee"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "ICML 2026 주요 논문의 연구 기술 분석",
+    "description": "이 글은 ICML(International Conference on Machine Learning) 2026 주요 논문의 연구 기술 분석 내용을 간략히 정리한다.\n\n\n\nICML 2026은 2026년 7월 6일부터 11일까지 서울 코엑스에서 열리는 국제머신러닝학회다. 올해는 23918건이 제출되어 6352편이 채택되었고, 채택률은 26.6퍼센트였다. 그런데 학회에서 발표되었다고 해서 모든 논문이 실제로 재현 가능한 것은 아니다. 최근 연구에 따르면 ICML, NeurIPS, ICLR 세 학회의 평균 코드 공개율은 19.5퍼센트에 불과하다. 이번 글에서는 GitHub 저장소가 실제로 공개되어 있고, 가능한 경우 별도의 프로젝트 웹사이트까지 함께 공개된 논문들만 추려서 살펴보았다. 코드와 모델을 직접 실행하거나 응용해볼 수 있는지도 함께 정리했다.\n각 논문은 연구목적과 사용 알고리즘, 베이스 모델을 하나의 문단으로 서술했고, 나머지 정보인 데이터셋, 연구 기술 수준, 구현 수준, 관련 링크는 목록 형태로 정리했다.\n프로젝트 페이지와 GitHub를 모두 공개한 논문\nCausal Forcing, 실시간 대화형 비디오 생성\n이 논문은 양방향 확산모델을 소수 스텝의 자기회귀 학생 모델로 증류할 때 발생하는 이론적 결함을 규명하는 연구다. 기존 방법들이 프레임 단위 단사성 조건을 위반한다는 점을 이론적으로 증명하고, 이를 해결하기 위해 자기회귀 교사 모델 기반의 ODE 초기화와 분포 매칭 증류를 결합한 Causal Forcing을 제안했다. 후속 연구인 Causal Forcing플러스플러스에서는 ODE 대신 인과적 일관성 증류 방식을 도입했다. 베이스 모델로는 Wan2.1과 훈위안비디오의 HY1.5-TI2V-8B 비디오 확산 모델을 사용했다.\n사용 데이터셋: 대형 비디오 확산모델 사전학습 데이터 기반 자체 증류용 데이터\n연구 기술 수준: 최상급이다. 생성모델 이론 증명과 대규모 비디오 디퓨전 증류가 결합되어 있다\n구현 수준: 중간이다. 공개된 8B급 체크포인트로 추론 데모는 GPU 한 대로 바로 실행할 수 있지만, 증류 학습 자체를 재현하려면 대규모 인프라가 필요하다\n프로젝트 페이지: thu-ml.github.io/CausalForcing.github.io\nGitHub: github.com/thu-ml/Causal-Forcing\nHibiki-Zero, 정렬 데이터 없는 동시 음성통역\n이 논문은 단어 단위 정렬 데이터 없이도 실시간 다국어 동시 음성통역을 가능하게 하는 모델을 다룬 연구다. 프랑스어, 스페인어, 포르투갈어, 독일어에서 영어로의 통역을 대상으로, 먼저 문장 단위로 정렬된 데이터로 지도학습을 진행한 뒤 GRPO 기반 강화학습으로 통역 지연시간을 최적화하는 방식을 사용했다. 베이스 모델은 모시와 히비키 계열의 멀티스트림 디코더이며 파라미터 수는 3B다.\n사용 데이터셋: 자체 공개한 15시간 분량의 다국어 벤치마크\n연구 기술 수준: 최상급이다. 음성 파운데이션 모델을 처음부터 학습해야 한다\n구현 수준: 쉬움이다. 명령어 한 줄로 8기가에서 12기가 VRAM급 GPU에서 즉시 실시간 데모를 구동할 수 있다. 웹 UI로 감싸는 정도의 응용은 매우 용이하다\n프로젝트 페이지: hibiki-zero-s2st.github.io\nGitHub: github.com/kyutai-labs/hibiki-zero\nDR Tulu, 심층 리서치 에이전트\n이 논문은 정답이 명확하지 않은 장문 심층 리서치 과제, 예를 들어 과학이나 의료 분야 질의에 대해 정책 모델과 함께 진화하는 루브릭으로 강화학습을 진행하는 최초의 완전 오픈 모델을 다룬 연구다. 핵심 알고리즘은 진화하는 루브릭을 활용한 강화학습이라는 뜻의 RLER이며, 멀티 롤아웃과 도구 증강 생성을 지원하는 GRPO 변형을 사용한다. 베이스 모델은 Qwen3-8B-Base다.\n사용 데이터셋: 과학, 의료, 일반 도메인의 장문 리서치 벤치마크 네 종류와 서치아레나, 오픈스칼라 데이터\n연구 기술 수준: 상급이다. 다만 모델과 데이터, 학습 코드, 평가 하네스까지 전부 오픈소스로 공개되어 있다\n구현 수준: 쉬움이다. 허깅페이스에서 체크포인트를 내려받은 뒤 vLLM 서버 두 대와 MCP 서버를 구동하는 것만으로 즉시 데모를 실행할 수 있다\n프로젝트 및 블로그 페이지: allenai.org/blog/dr-tulu\nGitHub: github.com/rlresearch/dr-tulu\n모델 페이지: huggingface.co/rl-research/DR-Tulu-8B\nThe Obfuscation Atlas, RLVR 기만 및 정직성 탐지 연구\n이 논문은 검증가능보상 강화학습, 즉 RLVR로 훈련할 때 모델이 화이트박스 거짓말 탐지기를 회피하는 현상을 실증적, 이론적으로 규명한 연구다. 리워드 해킹이 자연스럽게 발생하는 실제 코딩 환경을 구성하고, GRPO와 활성화 기반 기만 탐지 프로브를 결합해 정직한 정책과 은폐된 정책을 구분하는 분류체계를 제시했다. 베이스 모델로는 젬마3-12B-IT를 비롯한 네 개 모델을 사용했다.\n사용 데이터셋: 테스트 케이스 하드코딩 시나리오가 포함된 실제 코딩 문제, 그리고 500개 이상 학습된 모델 체크포인트를 허깅페이스에 공개했다\n연구 기술 수준: 상급이다. 정렬 연구와 메커니즘 해석, 강화학습 인프라가 결합되어 있다\n구현 수준: 중간이다. 코드가 설정, 학습, 탐지기 모듈로 나뉘어 있어 소규모 모델로 프로브 학습과 평가 파이프라인을 재현해볼 수 있다\n연구기관 페이지: far.ai/research/the-obfuscation-atlas-mapping-where-honesty-emerges-in-rlvr-with-deception-probes\nGitHub: github.com/AlignmentResearch/obfuscation-atlas\nGitHub 저장소가 상세히 공개된 논문\nOmniAgent, 능동 비디오 지각 옴니모달 에이전트\n이 논문은 긴 비디오나 여러 모달리티를 이해할 때 전체 영상을 다 보는 대신 필요한 프레임만 능동적으로 탐색하는 에이전트를 다룬다. 72B 모델보다 73퍼센트 적은 프레임으로도 더 나은 성능을 보였다. 비디오 이해 문제를 부분관측 마르코프 결정과정으로 정식화하고, 턴 단위 불확실성을 반영한 TAURA라는 강화학습 기법으로 정책을 학습한다. 베이스 모델은 Qwen2.5-Omni-7B다.\n사용 데이터셋: 비디오엠엠이, LV벤치를 포함한 열 개 벤치마크\n연구 기술 수준: 상급이다. 비디오 에이전트를 위한 강화학습 설계가 핵심이다\n구현 수준: 중간이다. 코드와 짐 형태의 능동지각 환경, 강화학습 및 지도학습 체크포인트가 모두 공개되어 있어 7B급 모델 기준으로 로컬 파인튜닝을 시도해볼 수 있다\nGitHub: github.com/HarryHsing/OmniAgent\nOmniShow, 인간과 사물 상호작용을 통합한 비디오 생성\n바이트댄스가 발표한 이 논문은 텍스트, 참조 이미지, 오디오, 포즈 조건을 하나의 모델로 통합한 최초의 인간과 사물 상호작용 비디오 생성 올인원 모델을 제안한다. 채널 단위로 조건들을 통합해 주입하는 방식을 사용했으며, 베이스 모델은 Wan 기반의 DiT 비디오 확산 모델이다.\n사용 데이터셋: 자체 구축한 HOIVG벤치\n연구 기술 수준: 최상급이다. 대규모 비디오 확산 모델 학습이 필요한 산업 연구다\n구현 수준: 중간이다. 추론 코드와 체크포인트가 공개되어 데모 실행은 가능하지만 요구되는 GPU 자원이 크다\nGitHub: github.com/Correr-Zhou/OmniShow\nRLAnything과 AutoTool, 에이전틱 강화학습 오픈소스 레시피\n젠버스 연구팀이 공개한 이 두 논문은 에이전틱 강화학습을 데이터, 알고리즘, 추론 모드라는 세 축으로 체계적으로 분석한 연구다. 실제 엔드투엔드 궤적 기반의 지도학습과 강화학습을 결합하고, 리워드 클리핑과 엔트로피 유지 기법을 적용해 소형 모델이 대형 모델을 능가하는 학습 레시피를 완성했다. 베이스 모델은 Qwen2.5-7B와 Qwen3-4B이며, 4B 규모의 DemyAgent 체크포인트를 공개했다.\n사용 데이터셋: AIME 2024와 2025, GPQA다이아몬드, LiveCodeBench-v6\n연구 기술 수준: 상급이다. 에이전틱 강화학습 파이프라인을 다룬다\n구현 수준: 쉬움이다. DemyAgent-4B 체크포인트가 허깅페이스에 공개되어 있어 로컬 평가와 소규모 파인튜닝을 바로 시도할 수 있다\nGitHub: github.com/Gen-Verse/Open-AgentRL\nS2L-PO, 작은 모델이 GRPO에서 정책 다양성을 더 잘 탐색한다\n이 논문은 LLM 추론용 강화학습인 GRPO에서 오히려 작은 모델이 정책 수준의 다양성 탐색에 유리하다는 점을 규명하고, 이를 활용하는 학습 기법을 제안한 연구다. Qwen3 계열 모델을 소형과 대형으로 나누어 비교 실험을 진행했다.\n사용 데이터셋: 수학 추론 벤치마크\n연구 기술 수준: 상급이다. RL 알고리즘에 대한 실증 연구다\n구현 수준: 쉬움이다. 소형 모델 기준으로 GRPO 코드를 일부 수정하는 수준이라 재현이 비교적 간단하다\nGitHub: github.com/qishisuren123/S2L-PO\nNT-SSM, 그래프 협업 필터링의 대조학습 재고\n이 논문은 그래프 기반 추천시스템, 즉 협업 필터링에서 대조학습의 한계를 지적하고 간단한 대안을 제시한 연구다. 기존 표준 모델인 LightGCN을 베이스 모델로 삼아 새로운 정규화 기반 대안 기법을 적용했다.\n사용 데이터셋: 아마존, 옐프 등으로 추정되는 표준 추천시스템 벤치마크\n연구 기술 수준: 중상급이다. 그래프 신경망 기반 추천시스템을 다룬다\n구현 수준: LightGCN 기반의 비교적 경량 모델이라 로컬 실험 재현이 용이하다\nGitHub: github.com/geon0325/NT-SSM\n해마 내후각피질 영감 세계모델\n이 논문은 뇌의 해마와 내후각피질 구조에서 영감을 받아 구조적 추상화와 일반화가 가능한 세계모델을 설계한 연구다. 계산신경과학 기반의 구조학습 알고리즘을 사용했으며, 사전학습된 파운데이션 모델을 쓰지 않고 커스텀 순환신경망 기반 인지 모델을 처음부터 구성했다.\n사용 데이터셋: 인지과학 실험용 합성 환경\n연구 기술 수준: 최상급이다. 계산신경과학과 세계모델이 결합되어 있다\n구현 수준: 중간이다. 주피터 노트북으로 공개되어 있어 소규모 실험을 재현하고 수정해보기가 비교적 수월하다\nGitHub: github.com/senngadaisuki/hpc-mec-worldmodel\nCaDRe, 기후 분석을 위한 인과 구조 학습\n이 논문은 은닉 동적 과정을 고려한 일반적인 인과 구조 학습 기법을 기후 데이터 분석에 적용한 연구다. 비선형 독립성분분석 기반의 인과 표현 학습과 인과 발견 알고리즘을 사용하며, 사전학습 모델 없이 커스텀 인과표현학습 신경망을 사용한다.\n사용 데이터셋: 기후과학 시계열 데이터\n연구 기술 수준: 상급이다. 인과추론과 시계열 분석이 결합되어 있다\n구현 수준: 중간이다. 공개된 코드로 자체 시계열 데이터에 적용해볼 수 있지만 인과추론 이론에 대한 이해가 선행되어야 한다\nGitHub: github.com/MinghaoFu/CaDRe\nLatentTSF, 관측에서 상태로 이어지는 잠재 시계열 예측\n이 논문은 원시 관측치가 아니라 잠재 상태 공간에서 시계열을 예측하는 프레임워크를 다룬다. 잠재공간 상태추정과 시계열 예측을 결합한 방식이며, 파이토치 기반의 커스텀 상태공간모델을 베이스로 사용한다.\n사용 데이터셋: 표준 시계열 예측 벤치마크\n연구 기술 수준: 중상급이다\n구현 수준: 파이토치 공식 구현체가 공개되어 있어 자체 데이터를 적용하기가 비교적 쉽다\nGitHub: github.com/Muyiiiii/LatentTSF\nFiSeR, 크로스 도메인 AI 이미지 탐지를 위한 세밀한 출처 표현\n이 논문은 디퓨전이나 GAN 등 서로 다른 생성모델이 만든 AI 이미지를 도메인이 달라도 탐지할 수 있는 세밀한 출처 특징 추출 기법을 다룬다. 표준 CNN과 ViT 백본을 기반으로 한 출처 특화 표현학습 방식을 사용한다.\n사용 데이터셋: 다양한 생성모델 출처의 AI 이미지 벤치마크\n연구 기술 수준: 상급이다. 포렌식과 탐지 모델을 다룬다\n구현 수준: 이미지 분류기 수준의 모델이라 재현 난이도가 상대적으로 낮다\nGitHub: github.com/heyongxin233/FiSeR\n\nCoopEval, 협력 유지 메커니즘과 LLM 에이전트 벤치마킹\n이 논문은 죄수의 딜레마류의 사회적 딜레마 상황에서 협력을 지속시키는 메커니즘과 LLM 에이전트의 협력 행동을 벤치마킹한 연구다. 게임이론 기반의 다중 에이전트 시뮬레이션을 사용하며, 별도의 파운데이션 모델 학습 없이 GPT와 클로드 계열 API 기반 LLM 에이전트를 그대로 활용한다.\n사용 데이터셋: 자체 구축한 사회적 딜레마 게임 환경\n연구 기술 수준: 상급이다. 게임이론과 LLM 에이전트가 결합되어 있다\n구현 수준: LLM API 호출 기반의 게임 시뮬레이션이라 AI 코딩 도구로 비교적 쉽게 재현하고 확장할 수 있다\nGitHub: github.com/Xiao215/CoopEval\nSubspacePathPruner, 추론 시점 LLM 구조적 프루닝\n이 논문은 별도의 재학습 없이 추론 시점에 프로브 기반의 표현과 파라미터 결합을 활용해 LLM을 구조적으로 경량화하는 기법을 다룬다. 라마와 Qwen 등 공개된 LLM에 바로 적용할 수 있도록 설계되었다.\n사용 데이터셋: 표준 LLM 압축 벤치마크\n연구 기술 수준: 상급이다. 모델 압축을 다룬다\n구현 수준: 재학습이 필요 없는 방식이라 기존 오픈소스 LLM에 바로 적용해볼 수 있다\nGitHub: github.com/GongZhiren/SubspacePathPruner\n\n정리\n이번에 정리한 논문들을 살펴보면 몇 가지 흐름이 보인다.\n첫째, 공개 수준이다. Causal Forcing, Hibiki-Zero, DR Tulu, Obfuscation Atlas 네 편은 프로젝트 페이지와 GitHub를 모두 갖추고 있어 데모와 체크포인트까지 즉시 사용할 수 있는 최고 수준의 공개도를 보인다. 나머지 논문들은 대부분 GitHub 저장소만 공개되어 있지만 README와 체크포인트가 상세해서 실질적으로 재현이 가능한 수준이다.\n둘째, 베이스 모델 관점이다. 처음부터 새로 학습한 파운데이션 모델을 다루는 연구는 Causal Forcing, Hibiki-Zero, CaDRe, 해마 내후각피질 세계모델 등이며 대체로 기술 난이도가 최상급이다. 반면 기존에 공개된 LLM이나 VLM 위에 파인튜닝, 프롬프트, 경량 어댑터를 얹는 방식의 연구, 예를 들어 DR Tulu의 Qwen3-8B, OmniAgent의 Qwen2.5-Omni-7B, RLAnything과 AutoTool의 Qwen 계열, GR-LoRA와 AREA와 HypCL의 CLIP 등은 구현 난이도가 가장 낮고 응용 확장성이 크다. 베이스 모델 없이 알고리즘이나 이론 자체가 기여인 연구, 예를 들어 린 라이브러리나 CaDRe, Learning to Emulate Chaos 같은 경우는 코드가 공개되어 있어도 이론적 배경을 먼저 이해해야 정확하게 활용할 수 있다.\n셋째, 구현 수준 관점이다. 명령어 한 줄로 실행되는 Hibiki-Zero, 서버만 띄우면 되는 DR Tulu, 허깅페이스 체크포인트만 내려받으면 되는 Causal Forcing처럼 설치, 실행, 커스터마이징 흐름을 그대로 따라갈 수 있는 논문들이 실질적인 구현 후보다. LoRA 계열이나 활성화 함수 교체, 재학습이 필요 없는 프루닝 기법처럼 기존 모델에 얹는 방식의 연구도 코드 복잡도가 낮아 구현 성공률이 높다. 반대로 형식수학 증명이나 쌍곡기하학 기반 모델처럼 특수한 수학적 프레임워크를 요구하는 연구는 코드가 공개되어 있어도 정확히 재현하기가 쉽지 않다.\n이 글은 2026년 7월 9일 기준으로 웹 검색을 통해 개별 확인한 GitHub 저장소와 프로젝트 페이지 링크를 바탕으로 작성했다. 저장소는 계속 업데이트되므로 실제 활용 전에 최신 링크를 다시 확인하는 것이 좋다.\n레퍼런스\n\nICML Oral Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking\nICML Oral Monitoring Monitorability\nICML Oral Towards Sub-second Biological Foundation Model Infrastructure: A Quantized Consistency Diffusion Framework for Molecular Docking\nICML Oral dnaHNet: A Scalable and Hierarchical Foundation Model for Genomic Sequence Learning\nICML Oral Position: The Alignment Community is Unintentionally Building a Censor’s Toolkit\nPosition: The Alignment Community Is Unintentionally Building a Censor's Toolkit\nICML 2026 공식 사이트: icml.cc ICML 2026 전체 논문 목록 \nicml.cc/virtual/2026/papers.html ICML 2026 어워드 발표 blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards 코드 공개율 실증 연구, Paper2Code: arxiv.org/pdf/2504.17192 GitHub 토픽 icml2026 \ngithub.com/topics/icml2026 연속학습 분야 코드 공개 논문 큐레이션 \ngithub.com/xialeiliu/Awesome-Incremental-Learning 에이전트 관련 논문 읽기 목록 \ngithub.com/jiaxianyan/icml-2026-agent-papers",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2026/07/icml-2026.html",
+    "pubDate": "2026-07-09T02:31:32.353Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Rider 2026.2 Release Candidate Is Out!",
+    "description": "The Rider 2026.2 Release Candidate is ready for you to try. This upcoming release opens the IDE’s own intelligence to your AI coding agents, brings GitHub Copilot in natively, and delivers a wave of performance gains across both .NET and game development. Rider 2026.2 makes debugger launch and branch switching noticeably faster, speeds up Unreal […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/07/15/rider-2026-2-release-candidate-is-out/",
+    "pubDate": "Wed, 15 Jul 2026 12:43:30 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "releases",
+      "rider",
+      "agent-skills",
+      "cmake",
+      "game-developement",
+      "gamedev",
+      "github-copilot",
+      "godot",
+      "natvis",
+      "release-candidate",
+      "unreal-engine"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing",
+    "description": "In large C++ codebases, your code understanding and navigation depend on quickly determining how symbols, declarations, definitions, and references are connected across your project. In Visual Studio Insiders 18.9, the new whole codebase indexing (WCI) enhances the existing browse database via a deeper, more comprehensive indexing approach. This preview feature allows Visual Studio to access […]\nThe post Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/rethinking-c-performance-faster-code-navigation-and-github-copilot-tools-with-whole-codebase-indexing/",
+    "pubDate": "Tue, 14 Jul 2026 22:28:13 +0000",
+    "creator": "Alexandra Kemper, Henrique Fernandes Baggio, Sinem Akinci",
+    "categories": [
+      "C++",
+      "performance",
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
+    "description": "Visual Studio now includes built-in Agent Skills, created by experts from the .NET and Azure teams, to help you better customize your agentic workflow and complete development tasks more efficiently, starting with the 18.8 Release. Agent Skills are reusable capabilities that enable your agent to perform structured tasks more reliably (to learn more about what […]\nThe post Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/built-in-agent-skills-in-visual-studio/",
+    "pubDate": "Tue, 14 Jul 2026 17:30:57 +0000",
+    "creator": "Simona Liao, Wendy Breiding (SHE/HER), Yun Jung Choi",
+    "categories": [
+      "Azure",
+      "GitHub Copilot",
+      ".NET"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "ReSharper 2026.2 Release Candidate Released!",
+    "description": "The ReSharper 2026.2 Release Candidate is ready for you to try. This release takes the first step toward ACP-based agent support in Visual Studio, starting with Junie in Preview, and sharpens everyday C# development with better analysis, refactoring, and .editorconfig integration. It also brings broader tool support in Out-of-Process mode and continued C++ language work. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/07/15/resharper-2026-2-release-candidate-released/",
+    "pubDate": "Wed, 15 Jul 2026 12:42:19 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "resharper",
+      "acp",
+      "ai-assistant",
+      "dotcover",
+      "dotmemory",
+      "dottrace",
+      "junie"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "[NS] 변하지 않아 아쉬운 두 번째 리메이크, 스타폭스",
-    "description": "No description available",
+    "title": "548 ~ 566 일차 개발로그 요약",
+    "description": "566일차 - 나는 메차 카멜레온에서 에픽게임즈를 봤다.\n07월 05일\n영상: https://youtu.be/myrgSgT4dv8?si=cvDO0kAfamk9R9Z0\n\n\n\n앗 썸네일 날짜 되었네요 고쳐야지\n1. verse8 MSU 이벤트는 퀄리티 부족으로 거부 되었습니다.\n실패\n2. 메차 카멜레온이 흥하고 있는데 이 게임이 언리얼 + 에픽 온라인 서비스를 활용했다는 사실을 알았습니다.\n그래서 에픽 온라인 서비스 (EOS) 를 공부중입니다.\n따라 만들어야겠습니다.\n(해보고 있는데 동작이 잘 안됩니다. 너무 어렵네요)\n \n3. 메차 카멜레온 개발자들의 이력을 살표보니 8번출구류를 꾸준히 재작하고 있었습니다.\n저도 꾸준히 한길을 파야겠습니다.\n \n4. 주식투자 - 이모든 것은 언리얼 상장과 연결되어있습니다.\n(음모론 주장)\n \n557일차 - verse8 메이플스토리 바이브 캠프 응모\n6월 26\n영상: https://youtu.be/iGM-uKmk1pw?si=_uT019E9L0qMx4F8\n\n\n\n \n1. verse8 MSU 이벤트 참여 영상\n이벤트에 참여하려면 영상을 올려야해서 짧게 만들었습니다.\n \n \n553일차 - 넥써쓰 (?) / GTA6 이젠 판다 / verse8 cors 문제 우회하기\n06월 21일\n영상: https://youtu.be/zmS-dMZZ3a8?si=cnKcGyfwpFFdixQf\n\n\n\n1. 뉴스 요약\n모드의 창업 자료 유출 - 아이디어 심사평 포함\n넥써스가 원스토어 인수\nGTA6 예약 판매 시작\n \n2. 마이크 교체 \n4만원 짜리로 교체 했습니다.\n \n3. verse8 개발 소식\n \n \n548일차 - 모션데스크 싼거 / verse8 더 알아보자 / Phase\n06월 17일\n영상: https://youtu.be/EvVOf_5LVrA?si=4VIxor9gnUF09sEE\n\n\n\n1. 허리 부상으로 모션데스크 샀음\n비싼건 못사고 책상위에 올려 쓰는 루나랩 수동 입니다. 가격은 10만원\n루나랩은 좋은 회사인거 같습니다.\n \n2. verse8 개발 도정 중\n개발 로그 입니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2470",
-    "pubDate": "Fri, 10 Jul 2026 18:55:30 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://serverdown.tistory.com/1675",
+    "pubDate": "Fri, 10 Jul 2026 22:39:30 +0900",
+    "creator": "SID-NFT",
     "categories": [
-      "리뷰"
+      "프로그래밍/자작",
+      "verse8",
+      "개발로그"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "JetBrains Academy – June Digest",
-    "description": "We need to have a mandatory meeting. I know, I know, but this one doesn’t ask you to turn your camera on or pretend you didn’t just wake up. It’ll just be you, your coffee, and six things worth your attention.  Unlike most meetings, this one ends with a stronger LinkedIn profile, a couple of […]",
+    "title": "JetBrains GameDev Days 2026 – Call for Speakers",
+    "description": "JetBrains GameDev Day is back! Join us online on September 28, 2026, for a day dedicated to game development, practical engineering, tools, workflows, and the people building games across the world. We’re looking for speakers who are excited to share their knowledge, experience, lessons learned, tools, or creative approaches with the gamedev community. About GameDev […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2026/07/09/jetbrains-academy-june-2026-2/",
-    "pubDate": "Thu, 09 Jul 2026 14:07:19 +0000",
-    "creator": "Sargis Avagyan",
+    "link": "https://blog.jetbrains.com/dotnet/2026/07/15/jetbrains-gamedev-days-2026-call-for-speakers/",
+    "pubDate": "Wed, 15 Jul 2026 11:00:00 +0000",
+    "creator": "Anna Ruban",
     "categories": [
-      "digest",
-      "jetbrains-academy",
-      "newsletter"
+      "net-tools",
+      "ai",
+      "events",
+      "rider",
+      "teamcity-2",
+      "conference",
+      "event",
+      "gamedev",
+      "gamedev-day"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
-    "description": "TL; DR At Meta’s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance.  When a Linux kernel upgrade risked regressing latency across Meta’s ad serving fleet, we turned to sched_ext — the upstream, BPF-based extensible scheduling framework — to build a scheduling policy customized to the Ads delivery [...]\nRead More...\nThe post Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler appeared first on Engineering at Meta.",
+    "title": "악역영애 4컷 만화 - 58화, 진정제인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
-    "pubDate": "Mon, 13 Jul 2026 16:00:50 +0000",
-    "creator": "Unknown",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2472",
+    "pubDate": "Wed, 15 Jul 2026 22:28:12 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "ML Applications"
+      "웹툰"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "새로운 고객획득비용 공식",
-    "description": "바로 이전 글에서 말한 대로 앞으로 네이버나 구글 같은 전통적인 검색 엔진보다 ChatGPT나 클로드를 활용한 AI 검색을 통한 고객 유입이 대세가 될 것으로 생각한다. 물론, 이렇게 안 되고 앞으로도 계속 우리는 네이버와 구글을 사용할 수도 있겠지만, 만약에 AI 검색이 전통적인 검색을 완전히 대체한다면, 모든 스타트업이 마케팅의 판 자체를 새로운 시각에서 봐야 할 것이고, 이전과는 다른(...)",
+    "title": "MSVC Build Tools Preview updates – July 2026",
+    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – July 2026 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/07/the-new-cac-formula.html",
-    "pubDate": "Sun, 12 Jul 2026 21:33:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-july-2026/",
+    "pubDate": "Wed, 15 Jul 2026 21:17:05 +0000",
+    "creator": "Eric Brumer",
     "categories": [
-      "Uncategorized",
-      "ai",
-      "FoundersAtWork",
-      "marketing",
-      "strategy",
-      "technology"
+      "C++"
     ]
   },
   {
     "id": 13,
+    "imageUrl": "",
+    "title": "조선시대 사람들은 휴가를 어떻게 즐겼을까? ",
+    "description": "300년 전 각광받던 국내 휴가지와 특별한 여름 휴가법",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/behindthemoney-17",
+    "pubDate": "Thu, 09 Jul 2026 23:58:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
     "description": "No description available",
@@ -206,44 +233,18 @@
     ]
   },
   {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Pure Virtual C++ 2026 [Meet the Speakers, Part 1]: Build Faster, Run Faster",
-    "description": "Meet the speakers behind Pure Virtual C++ 2026. In part one, Ryan Shepherd and David Li show how to build faster and smaller with C++20 modules and GitHub Copilot build performance.\nThe post Pure Virtual C++ 2026 [Meet the Speakers, Part 1]: Build Faster, Run Faster appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-meet-the-speakers-part-1-build-faster-run-faster/",
-    "pubDate": "Thu, 09 Jul 2026 17:28:23 +0000",
-    "creator": "Marian Luparu",
-    "categories": [
-      "Announcement",
-      "Build Optimization",
-      "C++",
-      "Pure Virtual C++"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "2026 Devchat Night+ 세미나 후기",
-    "description": "일시: 2026년 7월 7일(화)\n장소: HAESO 해소 (서울 성동구 성수이로24길 31)\n주최: Devchat\nWhy We Gather\n김경환 (네이버), 김상기 (SK텔레콤), 이동현 (카카오페이)\n진행: 황국화\nQ. 지금까지 가졌던 데브챗 모임 중 가장 기억에 남는 모임은?\n이동현 (카카오페이)\n장소로는 엘타워가 가장 먼저 떠오름 - 롯데 이커머스 후원으로 열린 모임\n전망 좋은 곳에서 일하는 기분에 대한 생각, 분위기가 좋았던 기억\n최근에는 배민(우아한형제들)에서 함께한 모임도 기억에 남음\n장소보다 기억에 남는 자리는 내부 팀장들이 모여 발표했던 시간\n서로 다른 회사에서 일하며 얻은 좋은 점과 고충을 나누며 공감대를 형성\n김상기 (SK텔레콤)\n2023년 데브챗 모임 시작 이후 매달 스터디 형태로 진행하다가, 그해 12월 연 데브챗 컨퍼런스가 가장 기억에 남음\n2024년에는 데브챗 멤버들과 함께 책을 집필 - 코드 너머, 회사보다 오래 남을 개발자 (한빛미디어, 2025년 출간)\n김경환 (네이버)\n2023년 1월 팀 리더를 맡게 되면서 개발 문화/조직 문화에 대한 관심으로 데브챗 스터디에 참여\n첫 세션은 온라인(Zoom)으로 진행, 다소 낯설었지만 그때 받은 영향력 덕분에 지금까지 애정을 갖고 참여 중\nQ. AI 시대에 오프라인 모임/커뮤니티가 갖는 힘은 무엇인가?\n김상기 (SK텔레콤)\n\"여러분은 오늘 왜 오셨나요?\"\n사람을 만나면 상대에게 먼저 관심을 갖는 습관은 과거 코칭 활동에서 비롯됨\n이동현 (카카오페이)\n연결의 소중함 - AI와 연결하는 것보다 사람과 연결하는 게 중요해서 이 모임이 더 소중하게 느껴짐\n데브렐은 원래 개발자와의 연결을 다루는 일이었는데, AI 시대에는 비개발자도 개발자와 같은 역할을 할 수 있게 되면서 개발자/비개발자 구분 없이 \"만드는 사람들\"과 연결되는 게 중요해짐\n비슷한 고민을 하는 사람들끼리 연결돼 생각을 확장해 나갈 수 있는 기회라는 점에서 오프라인 모임이 소중함\n김경환 (네이버)\n커뮤니티에 모이는 가장 큰 힘은 관계에서 오는 동기\n각자의 고민을 나누다 공통점을 찾고, 관계가 점점 따뜻해지면서 커뮤니티의 온기로 나타남\n데브렐이라는 주제를 벗어나 실제 회사 업무, 살아가는 이야기까지 나누게 되는 점이 좋음\nQ. 회사에서 진행 중인 AX와 데브렐은 어떤 관계인가?\n김상기 (SK텔레콤)\nAX는 결국 AI를 잘 이해하게 만드는 일 - AI를 다루는 데 가장 능숙한 건 개발자\n비개발자가 개발자들이 쓰는 용어를 익히게 만드는 것이 관건 - 그래야 AI에게 원하는 걸 제대로 시킬 수 있음\n본인이 속한 전사 HR 조직은 대부분 비개발자 \nClaude, GPT 등 AI 도구를 쓰다 개발자 용어에 막히면 그걸 잘 아는 개발자와 연결해주는 역할을 함\n데브렐이 개발자 간 관계를 만들던 일을, AX 시대에는 비개발자를 개발자로 연결/성장시키는 일로 확장해서 하고 있음 - 결과적으로 AX 팀은 데브렐과 협업할 수밖에 없는 구조\n본인도 AX 팀에 합류했고, 전사/사업부별로 AX 조직이 계속 늘어나는 추세\nQ. 데브챗 모임에서 나눈 이야기가 실무에 도움이 된 적이 있는가?\n이동현 (카카오페이)\n모임마다 기록을 남겨 참석자들에게 공유하고, 사내에도 별도로 기록해 둠\n특정 사례를 콕 집어 말하긴 어렵지만, 쌓인 이야기들이 업무 어딘가에 반영되는 느낌을 받음\n다른 회사의 이벤트/행사 기획 사례를 들으며 \"언젠가 써먹어야지\" 하고 아이디어를 얻은 경우가 많음\nQ. 데브챗을 가장 잘 설명하는 키워드는 \"집단지성\"과 \"심리적 안정감\" 중 무엇인가?\n김경환 (네이버)\n앞서 말한 \"온기\"와 이어지는 맥락 \n심리적 안정감 쪽이 더 잘 맞는 표현\n안정감 있는 관계 안에서 집단지성도 좋은 형태로 나온다고 생각\n이동현 (카카오페이)\n둘 중 하나를 고르고 싶지 않음, 둘 다 중요\n훌륭한 발표자를 섭외해 이야기를 듣고, 이후 네트워킹으로 서로 회사 사례를 비교하며 아이디어를 나누는 과정에서 집단지성을 느낌\n회사 안에는 데브렐 역할을 하는 사람이 몇 없어 고민을 나눌 곳이 마땅치 않은데, 데브챗에 오면 다양한 연차/직무/회사의 사람들이 모여 있어 여러 아이디어가 촉발됨\n김상기 (SK텔레콤)\n집단지성은 AI 때문에 오히려 약해지고 있다고 생각\n심리적 안정감은 프라이빗 모임이기 때문에 가능 \n회사 안에서 못할 이야기도 나눌 수 있고, 밖에서 있었던 일이라 발설 부담이 없음\n데브챗에서 얻는 정보는 AI나 책에서는 구할 수 없는 정보라 집단지성 역시 유효 - 결국 둘 다에 해당\nBuild Mode, AX in Reality - AI Native 개발문화 정착을 위한 기술리더들의 고군분투기\n박성우 (한국디지털에셋), 박용권 (당근마켓), 서동민 (두들린)\n진행: 강상윤 (야놀자)\nQ. AI를 도입하면서 계획과 실제가 달랐던 점, 겪었던 시행착오는?\n서동민 (두들린)\n올해 초부터 본격 도입, 그 전에도 GPT-4o 즈음부터 조직 내에서 조금씩 실험\n세상이 변하는 속도를 빠르게 못 따라간 것이 가장 후회되는 지점\n처음 만든 건 단순 요약 기능이었는데, 당시엔 \"이것도 잘 못한다\"며 AI를 부정적으로 봤음 \n지금 보면 AI를 보는 눈높이 자체를 너무 낮게, 제한적으로 잡았던 것이 아쉬움\n박성우 (한국디지털에셋)\nAI로 인한 변화를 미리 예상하려 하지 않음 \n\"바이브\"라는 말이 처음엔 유치하다고 생각했다가, 어느 순간부터 이 시대의 흐름을 가장 잘 표현하는 단어라고 느낌\n그래서 바이브에 몸을 맡기고 바이브를 타는 게 가장 편했음\n박용권 (당근마켓)\n작년 2월 클로드 코드 출시 이전부터 AI와 일함, 이후로는 에이전트와 함께 일하는 게 일상화된 지 1년 반 이상\n기대와 달랐던 점은 \"생각보다 그렇게 빨라지지 않았다\"는 것\n무언가를 만드는 행위 자체는 압도적으로 줄었지만, 문제를 발견하고 검증 가능한 해결책으로 바꾸는 사고 과정, 디자인 영역은 아직 AI가 크게 못 함\nQ. AI를 잘 쓰는 엔지니어들의 특징이나 패턴은?\n박용권 (당근마켓)\n한계를 스스로 정해두지 않고 \"될 때까지\" 끝까지 시켜보는 사람이 잘 씀\n최근엔 출근해서 미팅/계획을 짜고 퇴근 전 AI에게 작업을 맡긴 뒤, 다음 날 아침 결과물을 확인하는 식으로 거의 24시간 활용하는 구성원도 있음\n박성우 (한국디지털에셋)\n한계를 두지 않는 사람, 업무 영역 경계에 얽매이지 않는 사람이 좋은 성과를 냄(개발자인데 디자인에도 관심, 백엔드인데 프론트도 시도 등)\n다만 빠르고 과감한 초기 성과 이후에는 결국 책임감과 기본기가 탄탄한 사람이 진짜 의미 있는 제품을 만듦\n서동민 (두들린)\n테크(개발자)와 No테크(비개발 직군)를 나눠서 설명\n개발자 쪽에서는 모호한 요구사항을 구체적 목표와 작은 테스트 단위로 쪼개고, 각 단위가 어떤 결과물에 도달해야 완성인지 정의하는 능력 \n추상적인 것을 구체적/정량적 표현으로 바꾸는 \"문제 구체화 능력\"이 뛰어난 사람일수록 AI 결과물이 의도한 것과 일치\n비개발 직군 쪽에서는 결국 시도하는 능력 \n전사적으로 \"전부 다 AI로 만들어보시라\"고 독려 중인데, \"이거 만들 수 있나요?\"라고 물으러 오면 일단 AI에게 직접 시켜보고 안 되면 그때 다시 오시라고 안내 \n그렇게 하면 대부분 결과물이 나옴\n한번 도전해보고 안 되면 왜 안 되는지 파악하면서 끊임없이 도전하는 사람이 성과를 냄\n강상윤 (야놀자, 진행)\n하나 덧붙이면, 회사에서 AX 프로젝트를 많이 해본 경험상 AI를 활용하지 않던 시대에도 지금도 공통적으로 잘하는 엔지니어의 특징은 직군과 스택을 넘어 공유를 잘하는 사람 \n이런 사람이 항상 회사에서 더 많은 가치를 만들어냄\nQ. AI 시대, 연차(주니어/시니어/팀장급)별로 어떤 방향으로 성장하면 좋은가?\n서동민 (두들린) - 주니어 대상\n예전엔 책이나 강의로 먼저 공부한 뒤 회사 문제에 적용했다면, 이제는 책/강의 없이 회사에서 가장 어려운 문제부터 풀어보라고 제안\n풀다가 모르는 게 나오면 AI에게 계속 물어보면서 새로운 개념을 확장해 나가는 방식으로 자연스럽게 성장 가능\n박용권 (당근마켓) - 시니어 대상\n\"짬(연차)으로 밀어붙이는 시니어\"는 이제 의미가 없음 \n1, 2년 전 본인이 작성한 코드 퀄리티를 지금은 2, 3년 차 엔지니어도 쉽게 재현\n코드 레벨보다 앞으로 \"어떤 방향으로 뾰족하게 성장할지\"에 초점을 맞춰야 함 \n프로덕트 엔지니어냐 플랫폼 엔지니어냐 등 일하는 영역에 따라 AI 시대에 기대받는 전문성이 조금씩 다름\n최근 인상적이었던 것은 오픈AI 코덱스 팀이 엔지니어에게 기대하는 역량으로 \"프로덕트 취향(product taste)\"을 정확하게 짚은 것 \n이 시대에 어떤 문제를 해결해야 할지, 어떤 취향을 담아 고객에게 전달해야 우리 제품을 쓰게 할지 고민할 수밖에 없는 시대(토스도 2, 3년 전에 했던 말이고, 꽤 많은 조직이 해온 이야기지만 지금 와서 훨씬 중요해짐)\n(진행자의 \"목적 조직을 어떻게 리드하는가\" 추가 질문에) 특정 목적 조직 외에도 여러 조직을 겸하고 있음. 제품 리뷰/기술 리뷰/운영 이슈 등 방향을 정하는 흐름으로 조직을 리드하며, 예전엔 테크 직군과 주로 대화했다면 최근엔 기술과 AI를 함께 논의하는 경우가 늘어남\n박성우 (한국디지털에셋) - 팀장급 대상\n본인 팀은 팀원 전원이 팀장급 개발자(농담 반 진담 반) \nAI로 개인이 감당할 수 있는 업무 범위가 크게 넓어지면서 기존의 \"팀\" 개념 자체가 달라짐\n\"한 명 한 명이 팀으로 일해야 한다\"는 이야기를 팀에 하고 있음\n제품 방향 고민이나 커뮤니케이션 범위, 기술적 의사결정의 폭과 속도가 모두 넓고 빨라져, 기존처럼 팀 리드가 조언/코칭/리뷰를 해주기엔 속도가 따라가지 못하는 상황 \n\"나는 도대체 뭘 하는 사람인지\" 회의감이 든 적도 있음\n결국 개개인이 넓어진 범위에서 일할 수 있는 방향과 환경을 더 치열하게 고민해야 하는데, 팀원들이 그 속도에 지쳐가고 있진 않을까 걱정되는 시기\nQ. AI 시대에도 변하지 않는 개발자의 핵심 역량은?\n박용권 (당근마켓)\n20년 내내 말해온 것 - 오늘의 나보다 내일의 나를 조금이라도 더 나아지게 하려는 태도. 그 성장 포인트를 끊임없이 찾아가며 노력하는 마음가짐은 AI 시대에도 동일\n박성우 (한국디지털에셋)\n책임감 \n\"마침표를 찍을 줄 아는 사람\"이 가장 같이 일하고 싶은 사람. AI로 속도는 빨라져도 일을 완수하는 책임은 결국 그 사람의 몫\n서동민 (두들린)\n설계 - 코드를 짜는 행위 자체는 AI가 하지만, 무엇을 어디부터 어디까지 만들지, 다른 코드에 어떤 영향을 미칠지, 어떤 방향성으로 만들지 정의하는 것은 아직 AI가 못 하는 사람의 영역\n그래서 \"내가 이걸 어떻게 만들 것인가\"를 설명하는 능력이 점점 더 중요해질 것\nQ. 내일부터 회사에서 딱 한 가지를 바꿀 수 있다면?\n박성우 (한국디지털에셋)\n보안 특성상 운영 환경까지는 AI를 활용하지 못하고 있는 게 아쉬움 - 운영 환경 데이터 활용 방법을 고민 중\n서동민 (두들린)\n소스 관리, 제안(PR)/리뷰, 디자인 협업 등 기존 개발 프로세스를 AI 시대에 맞게 아예 무(無)에서부터 새로 만들고 싶음 \n지금의 프로세스는 사람 중심으로 짜여 있어 AI를 잘 쓰기엔 맞지 않는다고 봄\nAWS의 AI DLC 프레임워크를 예로 들며, 직군별로 인원수를 다투던 시대는 끝났고 PM/엔지니어/디자이너 정도의 최소 구성으로도 충분히 만들 수 있는 시대라고 봄\nAI DLC (AI Development Life Cycle): AWS가 제시하는, AI 활용을 전제로 재설계한 소프트웨어 개발 생명주기 프레임워크.\nInside Silicon Valley's Build Mode - Notion COO와 나누는 제품, 팀, 일하는 방식\nAkshay Kothari(Notion 공동창업자 겸 COO)\n진행: 이상아 (쿠팡)\nQ. 노션 COO이기 전에, 실리콘밸리의 파운더이자 오퍼레이터로서 자기소개를 한다면?\n인도에서 자라 미국에서 학사/석사를 마친 뒤, 스탠포드를 나오자마자 Pulse라는 회사를 창업 \n2013년 LinkedIn에 인수돼 약 5년 재직\n2018년 노션에 여덟 번째 직원으로 합류해 다양한 역할을 거쳤고, 현재는 프로덕트/디자인/스토리텔링/브랜드를 맡고 있음\nQ. 노션의 오리지널 비전 중 AI 때문에 바뀐 것은?\n원래 비전은 소프트웨어 제작의 민주화 \n2천만 명의 개발자만 소프트웨어를 만들고 나머지는 쓰기만 해야 하는 구조를 바꾸고 싶었음\n레고 블록에서 영감 \n동일한 블록으로 누구나 자신이 원하는 걸 조립할 수 있듯, 문서(docs) -> 데이터베이스 -> 자동화 -> 에이전트 순으로 \"소프트웨어 블록\"을 확장해 옴\nAI 이전엔 사용자가 블록을 직접 조립해야 했다면, 이제는 원하는 언어로 말하면 AI가 대신 블록을 조립해줌 \n이걸 malleable software라고 부름\nMalleable Software (말랑말랑한 소프트웨어): 플라스틱처럼 사용자가 자유롭게 변형/커스터마이징할 수 있는 소프트웨어라는 의미.\nQ. 지난 1년간 노션의 의사결정과 가정은 어떻게 바뀌었나?\n3, 4개월 전 출시한 개발자 플랫폼이 가장 큰 변화\n1년 전 노션은 MCP/제대로 된 API/워커/액션이 없는 폐쇄적 플랫폼이었음\nAI는 컨텍스트가 많을수록 좋아진다는 판단 아래, 노션을 \"AI를 강제하는 폐쇄형\"에서 \"어떤 AI든 자유롭게 붙일 수 있는 완전 개방형\"으로 전환 \n노션 자체는 기록의 시스템(system of record) 역할\nQ. 여러 툴(슬랙/클로드/코덱스 등)을 오가며 일하는 개발자에게 노션은 어떻게 쓰이나?\n개발자 플랫폼의 3가지 핵심 기능 \n임의의 데이터 소스 연결 \n특정 액션의 코드화 \n다른 에이전트를 노션 위로 불러오기\n사내 소프트웨어 엔지니어링 팀은 노션을 하나의 \"공장\"처럼 사용 - 칸반 보드로 작업을 시각화하고, 클로드가 계획을 짜고 코덱스가 코드를 작성하고 또 다른 에이전트가 검수/배포하는 식\n이 오케스트레이션 방식은 엔지니어링뿐 아니라 세일즈/마케팅 등 워크플로가 있는 모든 영역에 적용 가능\n일부 고객은 노션 팀 자신보다도 이 방식을 더 잘 활용하고 있음\nQ. 파운더 겸 오퍼레이터로서, 빠르게 변하는 AI 앞에서 전략을 어떻게 조정하나?\nAI-필드 (AI-pilled): 실리콘밸리에서 쓰이는 표현으로, AI라는 새 기술의 힘을 의심 없이 받아들이고 적극 활용하는 사람을 가리킴.\n예전엔 6개월 단위로 헤드카운트 계획과 제품 로드맵을 세웠는데, 이제는 사실상 실시간(just-in-time) 운영 \n매달 새 모델이 나오기 때문에 미리 계획하기 어려움\n내부적으로 \"모델과 싸울 수 없다, 강물이 흐르는 방향에 올라타야 한다\"는 표현을 씀 \n로드맵도 향후 4-6주 정도만 구체적으로 그림\n세 가지 축으로 방향을 유지 \n코어(문서/데이터베이스 등 시스템 오브 레코드) \n에이전트 운영체제(에이전트/플랫폼웨어) \n노션 링(문제 해결형 패키징 솔루션)\n인원 수 기준 예산 대신 달러 기준 예산으로 전환 \n투자 결정도 실시간으로 이뤄짐\n연례 컨퍼런스를 폐지하고 3개월마다 온라인으로 큰 런칭을 진행\n물리적 행사는 준비에 6-9개월이 걸려 빠른 변화에 대응하기 어려움\nQ. IC는 에이전트를 매니징하고 매니저도 IC 역량이 필요해지는 시대, 하이퍼포밍 팀은 어떻게 구성/운영돼야 하는가?\nIC (Individual Contributor): 매니저 직책 없이 실무로 기여하는 개인 기여자.\n아직 확실한 답은 없지만, 하나의 거대 팀보다 작은 팀 여러 개가 더 많은 프로젝트를 맡는 방향을 지향\n코딩 에이전트를 제대로 다루는 2, 3명이면 상당한 힘을 낼 수 있음 \n실제로 노션의 개발자 플랫폼 전체를 12명 미만의 인원이 만듦(피자 두 판 팀 원칙)\n기존 인력이 에이전트를 충분히 활용하도록 스킬업시키거나, 이미 익숙한 사람을 새로 채용해야 함\n노션도 처음엔 소수의 AI-필드 직원에서 시작해, 지금은 전 직원이 AI 기반으로 사고하는 수준까지 확산됨\nQ. (청중 질문) AI로 인한 \"생산성 향상\"이 실제 제품/서비스 생산성에 미치는 영향을 어떻게 측정하나?\nData Scout: 노션 사내에서 만든 커스텀 에이전트. 노션의 컨텍스트, MCP로 연결된 스노우플레이크(Snowflake) 데이터, 컴퓨터 사용 권한을 갖춰 데이터 사이언티스트가 하던 쿼리 작업을 누구나 할 수 있게 해줌.\n노션의 초점은 개인이 아니라 \"팀\" 단위 \n한 사람이 만든 커스텀 에이전트를 회사 전체가 쓸 수 있다는 점이 핵심 힘\n사례: 사내 엔지니어 한 명이 만든 \"Data Scout\" 에이전트를 하룻밤 사이 전사에 공유 \n이후 전 직원이 사실상 개인 데이터 사이언티스트를 갖게 됨\n쿼리 1회당 3-4달러 비용에도 그만한 가치가 있다고 판단\n데이터 사이언티스트 채용은 계속하지만, 역할이 \"개별 쿼리 수행\"에서 \"시스템을 유지/고도화하는 역할\"로 바뀜\nDeveloper Reality Check - 개발자들은 진짜로 어떻게 생각할까?\n김수빈 (당근마켓), 강현구 (센드버드), 성한영 (우아한형제들)\n진행: 김만수 (센드버드)\nQ. AI 사용 전후로 개발자로서의 하루가 많이 바뀌었다고 느끼는가?\n성한영 (우아한형제들)\n개발과 매니징을 병행하는데, AI를 쓴 뒤 처리할 수 있는 일의 양 자체가 늘어 요구받는 것도 많아짐\n하루 업무가 여러 갈래의 짧은 단위로 잘게 쪼개질 만큼 달라짐\n강현구 (센드버드)\n목적에 다다르기 위한 행위(방법)는 많이 바뀌었지만, \"무언가를 만든다\"는 목적 자체는 그렇게 바뀌지 않음\nAI 시대가 되면서 오히려 일이 많아지고 결국 해야 할 야근은 여전히 해야 해서, 하루가 크게 바뀌진 않았다고 봄\n김수빈 (당근마켓)\n원래도 팀에서 운영하는 개발자 플랫폼/서비스 제품이 많아, AI 도입 이전부터 여러 제품을 오가며 컨텍스트 스위칭하는 운영 업무가 많았음\nAI가 이런 작업을 가속화하긴 했지만, 체감하는 컨텍스트 스위칭이나 개발량 자체는 이전과 비슷한 수준\n강현구 (센드버드) - 자체 툴 제작 사례\n슈퍼셋, 시냅스처럼 여러 터미널을 통합해 작업하는 툴이 나왔을 때도 \"병렬로 일하는 게 정말 효율적인가\" 의문이 있었음\n직접 필요에 맞는 도구를 만들어보니 \"도구가 없어서 그렇게 일을 못 했던 것\"임을 깨달았고, 이후 일하는 방식이 많이 바뀜\n성한영 (우아한형제들) - 매니저 관점\n툴링을 직접 만드는 팀원을 볼 때, 문제 해결이 아니라 \"도구를 위한 도구\"를 만드는 자아실현으로 빠지는 경우를 경계함\n그 경우가 아니라면 직접 도구를 잘 만드는 것 자체는 팀에 도움이 된다고 봄\nQ. AI가 만든 결과물에 대한 신뢰도가 높은가?\n강현구 (센드버드)\n모델이 점점 좋아지면서 맡길 수 있는 일의 수준이 계속 올라가는 중 \n앞으로 더 좋아질 거라는 예측 아래 \"지금 믿지 않고 쓰면 나중엔 믿을 수 있을까\" 싶어 신뢰하려는 입장\n다만 지금 당장 결과물이 늘 만족스러운 건 아니어서, 어떻게 지시해야 더 잘 쓸 수 있을지에 관심을 두는 편\n김수빈 (당근마켓)\nAI 신뢰도와 리스크는 저울질이 필요 \n본인이 개발하는 사내 플랫폼은 잘못된 결과물이 배포되면 인터페이스 롤백이 어려운 경우가 있어 한 번 더 검증하는 습관을 유지\n코딩은 99% 이상 AI 에이전트로 생성하지만, 로컬/스테이징/운영 등 여러 검증 레이어를 리스크 수준에 따라 다르게 쌓아서 신뢰도를 관리\n예: 로컬 시뮬레이션, 스테이징 배포 후 시뮬레이션, 운영 환경 성능 테스트, 다양한 에이전트를 통한 코드 리뷰 등\n성한영 (우아한형제들)\n사내 AX 도구를 직접 개발하는 입장이라, AI에게 일을 시켰을 때 원하지 않는 방향으로 나오는 경우를 계속 마주하며 개선 포인트를 찾게 됨\n다만 목표는 신뢰도가 높은 상태를 만드는 것\nQ. 신뢰도를 높이기 위한 가드레일이나 팁이 있는가?\n강현구 (센드버드)\n원하는 결과가 나오도록 인풋(지시사항)을 최대한 구체적으로 명시\nSDK 개발 특성상 특정 부분 수정 시 사이드 이펙트 발생 여부가 중요한데, 에이전트 10개 정도를 병렬로 띄워 사이드 이펙트를 체크하고 재현율이 높은 것들을 추려 추적 - 대부분의 경우 문제 지점이 높은 확률로 드러남\nQ. AI 도입 후 컨텍스트 스위칭이 늘었다고 느끼는가?\n성한영 (우아한형제들)\n코드를 손으로 직접 치지 않게 되면서 물리적으로 확보되는 시간이 늘어, \"이것도 해보고 싶고 저것도 해보고 싶은\" 일이 많아짐 \n그 결과 컨텍스트 스위칭도 자연히 늘어남\n김수빈 (당근마켓)\n컨텍스트 스위칭의 \"종류\"가 달라졌을 뿐, 종합적으로는 오히려 줄어든 느낌\n예전엔 개발자 요청이나 이슈를 그때그때 바로 처리해야 했다면, 지금은 에이전트가 미리 처리하거나 빠르게 대응하는 경우가 늘어, 단순 업무에 쓰는 시간은 줄고 플랫폼 고도화/재설계처럼 깊은 고민이 필요한 일에 더 오래 집중하는 쪽으로 바뀜\nQ. 노트 테이킹과 업무(태스크) 관리는 어떻게 하는가?\n성한영 (우아한형제들)\n매니저로서 우선순위 관리가 어려운 자리인데, 주간 단위로 클로드 등 AI 자동화를 활용해 컨텍스트를 정리\n팀원이 업무 내용을 글로 잘 정리해서 공유해줄수록(컨텍스트가 풍부할수록) 더 잘 이해하고 해결할 수 있는데, 컨텍스트 정보가 적은 팀원의 업무는 파악하는 데 더 고민이 필요\n강현구 (센드버드)\n매니저가 아니라 개인 업무 자체는 AI 이후로도 크게 달라지지 않음 - 기존처럼 티켓 기반으로 생성/관리\n부가적으로 들어오는 업무는 슬랙 \"나에게 메시지 보내기\"로 간단히 기록 \n슬랙에 클로드를 연동해두면 바로 실행하거나 컨플루언스 문서 업데이트까지 가능해 편리\n김수빈 (당근마켓)\n메신저는 슬랙, 문서화는 노션, 티켓/이슈 관리는 리니어(원문 \"미디어\", 정확한 툴명 확인 필요)를 사용\n슬랙/구두로 논의된 업무가 노션에 정리되고, 그 주/그 달에 실행하기로 확정된 것은 이슈로 등록 \n이슈 하나가 에이전트 하나가 실행하는 작업 단위가 됨\n필요하면 서브 이슈를 만들어 서브 에이전트에게 맡기고, 에이전트가 작업한 로그를 다시 이슈 코멘트로 남기는 방식\nQ. IDE 없이 터미널(클로드 코드 등)만으로 작업이 가능한가?\n강현구 (센드버드)\nIDE는 거의 열지 않게 됨 \n회사에서 지원하던 커서도 비용이 아까워 정리하려는 중\n최근엔 \"에이전틱 IDE\"로 불리는 컴포저/슈퍼셋/오르카 같은 도구로 터미널 기반 작업을 하면서, 필요할 때만 간단히 코드를 보는 정도\n김수빈 (당근마켓)\nIDE 사용 비중은 업무의 약 10% 정도 \n코드 리뷰나 직접 검증이 필요할 때, 터미널에서 눈으로 코드를 따라가기 어려운 부분을 IDE로 파악하는 용도로만 사용\nQ. 회사에서 AI 도구를 얼마나 지원해주는가?\n성한영 (우아한형제들)\n클로드를 전사에 지원 중이며 전 직원이 사용 \n개발자들의 활용 속도가 매우 빠름\n김수빈 (당근마켓)\n개발자와 비개발자가 동일하게 지원받고, 원하는 것을 지원해주는 정책\n사내에서 효용이 검증된 도구(앤트로픽 클로드, GPT/코덱스, 커서) 중 예산에 맞게 선택 \n클로드 맥스만 쓰거나, GPT와 코덱스를 반반 쓰거나, 코덱스 200달러 플랜을 쓰는 식\n서비스에 사용하는 LLM API는 특별한 제한 없이 원하는 모델을 사용\n강현구 (센드버드)\n대부분의 툴을 지원하는 방향 \n클로드 코드는 팀 플랜이 열리자마자 전사 제공, 코덱스도 성능이 좋아진 이후 지원 시작\n비용 측면에서 너무 비싸지지 않게 효율적으로 지원할 방법을 계속 고민 중\nQ. AI를 잘 쓰는 개발자가 일도 잘한다고 느끼는가?\n성한영 (우아한형제들)\n반대라고 생각 \nAI를 잘 써서 일을 잘한다기보다, 일을 잘하는 사람이 AI를 잘 가르치고 다루는 경우가 많음\n결국 AI가 만든 코드 중 무엇을 채택할지는 사람이 정하는 것 \n이 도구를 어떻게 잘 다룰지 깊게 고민하고 접근하는 사람 자체가 희소하고, 그 고민이 이 시대에 가치 있는 것\n강현구 (센드버드)\n어느 쪽이라고 답해도 차이가 없을 것 같아 고민했는데, 시간이 지날수록 AI를 잘 쓰는 개발자가 고민도 잘한다고 느낌 \n결국 일을 잘하는 사람이 AI도 잘 쓴다는 쪽으로 둘 다 해당\n김수빈 (당근마켓)\nAI를 잘 쓰는 것은 일을 잘하기 위한 여러 조건 중 하나일 뿐, AI를 잘 써도 일을 못 할 수 있다고 봄\nAI를 다루는 능력 자체는 점점 평준화되고 있다고 느낌\n원래 일을 잘하던 사람에게 AI는 \"날개를 달아주는 것\"일 뿐 \nAI를 위한 도구, 에이전틱 워크플로를 만드는 일 자체에 매몰되는 것을 경계",
+    "title": "인프랩 AI 네이티브 9개월 정리",
+    "description": "사내 블로그에 지난 AX 경험기를 정리하려다가, 먼저 초안을 공유하고 그걸 본 분들이 궁금해하시는 내용 위주로 좀 더 보강하자는 생각에 초안을 먼저 공유합니다.\n(아직 다 정리된 건 아니에요!)\nAX 전환에 대한 인사이트를 나누는 글들을 보면, 정작 그 인사이트가 어떤 맥락과 환경에서 나온 것인지에 대한 자세한 설명이 부족한 경우가 많다고 느낍니다.\n조직마다 규모, 예산, 인프라가 다 다른데 그 전제가 빠지면 좋은 인사이트도 내 상황에 그대로 옮기기 어렵습니다.\n작은 조직일수록 AI 네이티브한 일하는 방식을 훨씬 빠르고 과감하게 실험해 볼 수 있다고 생각합니다.\n실제로 그런 실험적인 시도를 앞장서서 보여주는 쪽은 인디해커나 소규모 스타트업인 경우가 많습니다.\n다만 그 경험을 300명, 500명, 2,000명 규모의 조직에 옮기려면 조직 구조, 의사결정 방식, 인프라의 복잡도가 달라져서 손봐야 할 지점이 꽤 있을 겁니다.\n반대로 큰 조직의 경험을 작은 조직에 그대로 옮기면 과한 프로세스가 되기 쉽습니다.\n결국 어느 쪽 경험이든 규모가 다른 조직에 그대로 이식하기는 어렵고, 그만큼 서로의 맥락을 참고하는 게 중요하다고 생각합니다.\n사업 규모나 형태도 다를 테고, 보안 레벨도 다르고, 사용할 수 있는 AI 플랜과 할당된 AI 예산도 다르기도 합니다.\n(전해 들은 어떤 대기업 사례인데, 엔터프라이즈 플랜을 쓸 수밖에 없어서 월 15억을 AI 예산으로 잡았는데 40억 이상이 사용돼 AI 사용 전체를 재점검했다고 하더라고요.)\n구축된 시스템 레벨, 연관된 저장소의 수, 크기, 흩어진 조직 맥락의 크기 등도 서로 너무 다릅니다.\n그래서 어떤 조직의 여정이 공유될 때는 항상 그 조직의 맥락도 함께 봐야 한다고 생각하기 때문에 저희의 맥락을 먼저 이야기해 드립니다.\n누적 가입자 수 165만 명, MAU 54만 명의 교육/채용 플랫폼인 인프런/랠릿 서비스를 운영하는 저희는 56명의 팀원이 함께하고 있습니다.\n이 안에서 제품 조직은 26명, 운영/사업은 30명으로 운영되고 있으며, 각 제품 스쿼드는 4-6명으로 구성되어 있고, 요즘은 1-4인 스쿼드를 실험적으로 도입 중입니다.\n엔지니어링 헤드, 데브옵스 팀장 등 명시적 리더 없이 CTO와 다이렉트로 일하고 있으며, 데브옵스 조직은 제 직속이고 각 스쿼드의 PM 분들이 매니저로서 일하고 있습니다.\n비슷한 조직이시라면 도움이 되실 것 같고, 규모가 다르시다면 참고용으로만 보시면 좋을 것 같습니다.\n저희 조직은 AI 도구를 작년 11월부터 본격적으로 사용하기 시작했습니다.\n저희 팀의 경험을 돌이켜보면\n1. 효율은 증명됐지만, 효과는 아직\nAX를 통해 효율을 증명하더라도, 구체적인 일정 규모 이상의 회사의 성과를 달성했는지는 아직 시간이 필요한 것 같음.\n\"효율이 좋아진 것\"과 \"효과가 좋아진 것\"은 다른 얘기임.\n연매출 100억(거래액 말고 순매출) 이상 규모에서 AX로 50%, 100%, 200% 성장했다는 회사는 주변에서 못 봤음.\n이 규모에서 지금까지 증명된 건 \"예전 성과를 더 적은 사람으로 낼 수 있다\"까지고, \"더 큰 성과를 낸다\"는 사례는 아직 못 봤음.\n2. 형식지가 먼저, 자동화는 그다음\n\"A->B->C로 일하면 100의 성과를 낼 수 있다\"처럼 어떤 방식으로 하면 어느 정도 성과가 난다는 형식지가 이미 구축되어 있으면, AI가 빠르게 자동화하고 효율을 높이는 데 도움을 줌.\n다만 500의 성과를 한 번도 내 본 적 없는 조직이 AI로 500을 내는 건 아직 어려워 보임.\n(테슬라 모델 3 사례가 그랬음.\n초기에 완전 자동화를 밀어붙였다가 생산이 막혔고, 머스크도 2018년 4월 \"과도한 자동화는 실수였다. 정확히는 내 실수다. 인간은 저평가됐다\"고 인정함.\n이후 로봇이 좌석을 옮기기만 하고 나사 조립과 배선은 사람이 마무리하는 식으로 공정을 다시 나눴음.\n머스크가 나중에 정리한 원칙인 \"요구사항에 의문을 제기하고, 불필요한 단계를 지우고, 단순화하고, 속도를 높인 다음 마지막에 자동화하라\" 도 결국 검증 안 된 프로세스부터 자동화하면 실패한다는 같은 얘기임.)\n3. 동기부여가 관리 대상\nAI로 성과를 더 내기 위해서 관리해야 할 대상은 동기부여임.\n의지 없는 팀원에게 AX 하라고 하면 딱 시키는 대로만 AI를 씀.\n회사가 정해 놓은 규칙대로만 쓰고, 결과는 책임지지 않음.\n리더가 시키는 대로는 다 했으니까.\n근데 이러면 AI는 최악의 도구가 됨.\nAI는 비결정적 도구라서 세 번, 다섯 번 한다고 원하는 결과가 나온다는 게 보장 안 됨.\n즉 능동적인 사람에게는 유효하지만 수동적인 사람에게는 전혀 도움이 안 됨.\n회사가 빡빡한 가이드라인을 만들면 결국 구성원들은 그 가이드대로 시키는 대로만 하는데, 원하는 결과가 안 나올 때 더 주도적으로 방법을 바꿔가며 노력해야 하는 게 거의 불가능해짐.\n결국 요즘 시대에 리더에게 가장 요구되는 것은 팀원들의 동기부여임.\n4. 같은 AI를 쓰는 기업간의 경쟁\n돈만 내면 누구나 최고급 모델(Fable 5, GPT 5.6 xhigh 등)을 쓸 수 있다면, 조직 간 경쟁력과 해자는 뭐가 될까 고민하게 됨.\n잊으면 안 되는 건, 이게 인간 vs AI 경쟁이 아니라 \"같은 AI 도구를 쓰는 조직 대 조직\" 의 경쟁이라는 점임.\n경쟁사도 나랑 똑같은 도구를 쓰는데, 그럼 우리는 뭘로 격차를 벌리고 경쟁력을 키우느냐가 남는 질문임.\n같은 도구를 쓴다고 같은 결과물이 나오지 않는다는 건 다들 이미 알고 있음.\n결국 예전과 비슷하게, 그 도구를 쓰는 조직 구성원의 역량, 그리고 그 역량을 채용하고 키워내는 조직의 미션, 비전, 문화, 프로세스가 경쟁력이 됨.\n5. 더 낮은 모델을 가지고 경쟁해야한다면\n그런데 최근 보면 \"돈만 내면 누구나\"라는 전제 자체가 흔들리고 있긴 함.\nFable 5 같은 최고급 모델이 정액제에서는 못 쓰고 종량제에서만 쓸 수 있게 바뀌는 중임.\n지금까지는 작은 회사가 팀플랜이나 개인 정액제로 거의 무한에 가까운 토큰을 아주 저렴하게 쓰고, 큰 회사는 엔터프라이즈 플랜을 쓸 수밖에 없어서 인당 200-300만 원씩 지원하면서도 개인당 토큰량은 Max 5x에도 못 미치는 경우가 있어서, 오히려 이 영역이 작은 회사가 가지는 경쟁력이였음.\n근데 최고급 모델이 정액제에서 빠지면 얘기가 달라짐.\n종량제 비용을 감당할 수 있는 회사와 감당하지 못하는 회사로 나뉘게 됨.\n즉, 고급 모델을 쓰는 회사 vs 중-저급 모델을 쓰는 회사의 경쟁 구도도 가능함.\n이 격차는 더 벌어질 것 같음.\n(팀플랜도 결국 종량제로 바뀔까 걱정임.)\n즉 구성원 역량 격차에 더해 모델 접근성 격차까지 새로운 경쟁 축으로 얹히는 셈임.\n우리가 갖고 있는 많은 전제에서 \"모델이 계속 발전하는 것\" 을 우리 모두가 \"충분히 사용\" 할 수 있다는 전제위에서 AI 네이티브 논의가 많은데,\n우리 회사가 그 좋은 모델을 쓸 수 있는 여력이 있는가,\n쓸 수 있다고 해도 얼마나 많이 사용할 수 있느냐,\n이에 따라 회사의 운영 방식이 크게 달라짐.\n우리가 사용중인 월 $125의 프리미엄 시트, 월 $200의 Max 20x에서는 Fable과 같은 고급 모델을 사용하지 못하고, 대기업 혹은 그에 준하는 큰 투자를 받은 회사들에서는 그걸 적극적으로 쓴다면 무엇으로 경쟁할 것인가? 라는 질문이 남음.\n타사보다 낮은 모델을 사용하면서도 타사와 경쟁한다면, 우리는 무엇을 해야 할까? 같은 고민을 시작하게 됨.\n최근 로이터가 소식통을 인용해 보도한 바에 따르면, 중국도 Qwen, Doubao, GLM 5.2 같은 자국 플래그십 모델의 해외 접근 제한을 검토 중이라고 함. 아직 논의 단계일 뿐 결정된 건 없고, 시행 여부와 시점, 이미 해외에 풀린 기존 모델까지 소급 적용될지도 전부 불투명한 상태임. 낯설지 않은 패턴인 게, 작년 미국도 앤트로픽의 최상위 모델 Fable과 Mythos에 대해 외국인 접근을 차단하라고 명령했고, 그 여파로 앤트로픽이 전 세계 모든 사용자를 대상으로 두 모델을 일시 비활성화한 적이 있음(이후 Fable은 안전장치를 보강해 전체 사용자에게 복원됐지만, Mythos는 여전히 미국 내 일부 신뢰 기관으로만 제한돼 있음). 결국 모델 접근성 격차는 이제 가격 문제만이 아니라, 그 모델이 어느 나라 소속이냐는 지정학적 요인으로도 벌어질 수 있다는 얘기임.\n[지적 자산]\n6. 쌓아온 데이터 == 퍼포먼스\n그동안 팀이 어떤 데이터를 쌓아 왔느냐에 따라 퍼포먼스 차이가 많이 남.\n팀 컨벤션 문서가 이미 관리되고 있는지, 테스트 코드를 이미 작성하고 있는지, Jira나 컨플루언스 등에 의사결정 과정을 계속 기록해두고 있는지 등, 팀의 암묵지와 형식지가 얼마나 쌓여 있느냐에 따라 결과가 다름.\n7. 모든 사내 회의 녹음부터\n회사의 암묵지가 뭔지조차 모르겠다면, 모든 사내 회의를 녹음하는 것부터 시작하면 좋음.\n문서로 정리된 것들에는 결과와 후속 액션 정도만 남고, 회사의 진짜 암묵지, 지적 자산은 \"의사결정 과정\" 그 자체임.\n구글의 아키텍처 결정 레코드처럼 의사결정 과정 자체를 기록으로 남기는 프레임워크가 있어야 함(여기서 프레임워크는 특정 기술을 의미하는 게 아님).\n그때 왜 그런 의사결정을 내렸는지 맥락이 남지 않으면, 조금만 응용된 상황이 와도 성공 경험을 전혀 활용하지 못하고 전혀 다른 의사결정이 나오게 됨.\n그러면 AI도 완전히 다른 맥락을 갖게 됨.\n8. AX는 전담인력을 팀 안으로\n녹음 말고 암묵지를 형식지로 만드는 또 다른 방법은, 전담 인력을 그 팀 안에 제대로 밀어 넣고 한 팀으로 일하게 하는 것임.\n그 인력이 옆에서 팀원들이 일하는 걸 보면서, AI가 참고할 수 있는 형식지를 계속 뽑아내게 하는 방식임.\n[도구]\n9. KB(Knowledge Base), MCP, FDE\n전사 업무 생산성을 크게 높여준 건 KB(Knowledge Base), 각종 MCP(아틀라시안, 구글 캘린더, 지메일, 빅쿼리, 믹스패널, 데이터독, 깃허브), FDE의 침투(백엔드 엔지니어 한 명이 마케팅 팀 소속의 AX 엔지니어로 옮겨서 일하는 것)였음.\n10. 전사 AI 도구는 하나로 통일\nAI 도구는 파편화하지 않고 단일 도구로 통일하는 게 좋음. Claude, OpenAI, Gemini 등을 다 같이 쓰게 하기보다는, 전사 AI 도구는 이걸로 간다고 하나를 확정하고 그 안에서 개개인의 노하우를 공유하면 다 같이 효과를 보는 형태로 가야 함.\n도구가 파편화되면 노하우도 분산됨.\n예전에는 각자 자기한테 가장 잘 맞는 도구를 쓰게 뒀는데, 노하우를 한곳에 모으는 것보다 개개인에게 맞는 도구를 쓰는 게 전체 합이 더 컸기 때문임.\n그런데 AI는 가능성과 확장성이 거의 무한대라 한계효용의 법칙이 잘 안 통함.\n그래서 수십에서 수백 명이 하나의 도구를 쓰면서 플러그인, 스킬, MCP, 프롬프트 가이드 같은 노하우를 거기에 집중시키는 게, 개개인 입맛에 맞는 도구를 따로 쓰게 하는 것보다 훨씬 나은 조직 성과를 냄.\n11. LLM 성능보다 문서 도구의 검색 품질\nMCP를 연결해도 문서 탐색은 결국 문서 도구의 검색 결과에 의존함.\nLLM이 전사 데이터를 다 들고 있는 게 아니라, 우리가 자연어로 질의하면 그걸 문서 도구의 검색 스펙에 맞는 조건으로 바꿔서 대신 호출하는 구조임.\n그러니 아무리 데이터를 연결해도, 내가 찾는 그 데이터를 실제로 가져오는 건 LLM 성능보다 문서 도구의 검색 품질이 더 중요함.\n그래서 검색 품질이 좋은 도구를 써야 하고, 잘 지원되는 문서 도구에 사내 문서와 데이터를 모아둬야 함(아틀라시안 제품 등).\n[인프라]\n12. 버전 관리부터\nAI 환경에서 가장 안전한 방법은 데이터와 환경을 버전 관리가 되도록 관리하는 것임.\n즉 Git을 도입해야 함. 회의록, PRD도 버전관리가 되는 환경에서 작성돼야 함.\nAI는 비결정적 도구라 여러 번 작업한다고 항상 더 나은 결과가 나온다는 보장이 없고, 잘못 실행돼서 결과물이 날아가는 경우도 많기 때문임.\ngit 도입이 어렵다면 최소한 전사 문서 도구만큼은 항상 버전 관리가 되는 걸 써야 함.\n13. IaC & GitOps\nIaC & GitOps를 꼭 구축하기를 권장함.\nGitOps 환경이 되면 개발팀이 인프라팀에 Jira 티켓으로 요청하는 대신 PR로 직접 인프라를 바꾸고 인프라팀은 리뷰만 하면 돼서, 요청 하나하나의 세부 맥락을 인프라팀이 다 짊어지는 부담이 크게 줄어듦.\n본인이 Pulumi로 인프라를 직접 수정해보고 테스트 코드를 돌려서 깨지는 게 있는지 확인하고, 인프라 수정이 올라올 때 AI가 리뷰해서 코멘트를 남기는 도구까지 갖춰지고 나면 이런 환경이 주는 심리적 안정감과 속도감은 차이가 큼.\n(물론 이건 리소스 설정값 수준의 검증이고, 실제 클라우드 동작까지 확인하려면 별도 통합 테스트가 필요함.)\n롤백도 쉬움.\n비슷하게 데이터베이스 테이블 관리도 flyway 같은 마이그레이션 도구의 필요성이 예전부터 강조돼 왔지만, 이젠 그게 더 커짐.\n버전 관리가 가능한 데이터여야 AI가 의도와 맥락을 이해하고, 혹시 AI가 실수해도 되돌아가서 수정할 수 있음.\n[보안]\n14. AISecOps\nDevSecOps가 대두되듯이 AISecOps도 필요하다고 느낌. DevOps 시대가 오면서 개발과 운영을 함께 보는 문화가 됐는데, 그 안에서 보안팀이 결국 병목이 되는 문제가 있음.\n\"덮어놓고 안 된다고만 하면 오히려 음지에서 AI를 쓰게 되고, 이게 더 큰 문제를 만듦\".\n팀의 생산성과 변화는 충분히 주면서 보안도 챙기려면, 보안팀이 AI를 더 잘 이해하거나 AI를 쓰는 사람이 보안을 공부하거나 둘 중 하나는 해야 함.\nAI와 보안이 따로 있고 책임이 분리되어 있으면 서로 자기 시야로만 프로세스를 세우게 되는데, 이게 문제를 더 키움.\n우리 팀은 원래 데브옵스가 보안을 같이 책임지는 구조라 AI도 이 조직을 중심으로 두고, 데브옵스와 AI와 보안을 한 조직에서 관리함. 편하게 쓰고 싶은 마음과, 최소한 지켜야 할 선이 어디까지인지는 항상 같이 고민할 수밖에 없음.\n15. 개인 구독 AI 도구 금지\n토큰 비용이 아깝다고 AI 도구를 개인 계정으로 쓰게 해서는 안 됨.\n클로드는 팀플랜(150명 이하)에서 정액제로 지원하니까 최대한 이 플랜부터 활용해야 함.\n보안팀이 관리하지 못하는 형태로 AI를 쓰게 해서는 안 됨.\nMCP를 통한 보안 사고가 너무 많아서 사내에서 화이트리스트로 MCP를 관리해야 하고, 특히 사내 데이터 접근을 AI에 열어줄 거면 절대 개인 계정에 열어두는 방식으로 가면 안 됨.\n16. AI Proxy 게이트웨이\nLLM API는 항상 AI Proxy 게이트웨이를 통과하도록 구축해야 함.\n기존 API 모니터링은 요청 수(count) 기반으로 이상 패턴을 감지하고 알림을 보내고 추적했는데, AI API는 요청 수가 같아도 토큰 사용량에 따라 비용이 천문학적으로 차이가 날 수 있어서 count만 보는 기존 방식으로는 이 비용 이상을 못 잡음.\n그래서 로깅, 알림, 모니터링을 토큰/비용 기준으로 따로 구축해야 하고, 이걸 하려면 중간에 게이트웨이가 필수적임.\n구축된 것과 아닌 것의 차이가 큼.\n서비스 개발 단계뿐 아니라 실제 서비스에서 나가는 AI 호출도 어디서, 얼마나, 왜 이렇게 나가는지 트래킹해야 함.\n17. 구글 워크스페이스를 Primary 계정으로\n구글 워크스페이스 계정이 사내에서 사용하는 서비스들의 Primary 계정이자 권한 단위가 되는 게 맞는 방향인 것 같음.\nAI 도구, AWS, 데이터독, 아틀라시안, VPN(Tailscale) 등 대부분은 구글 워크스페이스를 SSO/IdP로 붙일 수 있음.\n이후 결국 그 팀원에게 수많은 사내 서비스들의 권한이 어떻게, 어디까지 할당되어 있느냐를 추적/관리하기 위함임.\n18. DB 접속은 IAM 임시 자격 증명으로\nDB 접속 정보는 정적인 id/pw가 아니라 IAM 기반의 임시 자격 증명으로 관리해야 함.\nSecrets Manager 자동 로테이션도 좋지만 그건 오래 사는 비밀번호를 주기적으로 교체하는 것이라, 유출되면 다음 로테이션까지 몇십 일을 살아있고 앱 메모리나 환경변수 어딘가에 항상 정적인 값으로 존재해서 AI 에이전트에게 DB를 열어줄수록 그 값이 그대로 유출 경로가 됨.\n반면 RDS나 Cloud SQL의 IAM DB 인증은 접속할 때마다 15분짜리 토큰을 새로 발급받는 방식이라 저장해 둘 비밀 자체가 없고, 사람/서비스/에이전트별로 계정을 쪼개 권한을 좁힌 뒤 사고가 나면 전체 로테이션 없이 그 주체의 IAM 정책만 떼서 몇 초 만에 끊을 수 있음.\n다만 지원 엔진이 제한적이고 신규 커넥션이 아주 많은 워크로드엔 부담이라, IAM 인증이 안 되는 DB는 Secrets Manager 자동 로테이션이 차선임.\n19. 환경변수는 별도 저장소에서 런타임 주입\n모든 환경변수도 버전관리, 수정 이력, 권한 관리가 가능한 별도의 private 저장소에서 관리하고 런타임에 가져오는 구조로 가야 함.\n코드 저장소에 그대로 박아두거나 개인 메모, 메신저로 공유하면 누가 언제 무엇을 바꿨는지 추적도 안 되고 권한 회수도 안 됨.\n20. 데이터는 권한 관리가 되는 DW로\nAI를 통해 누구나 자연어로 쉽게 비즈니스, 퍼널 데이터를 보게 만들고 싶다면 계정 단위로 테이블/컬럼 권한 관리가 가능한 도구에 데이터를 모아야 함.\n예를 들어 빅쿼리 같은 전문 DW(데이터 웨어하우스) 도구.\n단순히 조회용 RDB를 연결하는 방식도 있지만, 개인정보나 민감 정보를 컬럼/계정 단위로 세밀하게 막으려면 계정마다 개별 GRANT를 반복해야 해서 수백 명 규모로는 관리가 너무 복잡함.\n조회용 RDB보다 빅쿼리 같은 전문 DW 도구가 유리함.\n구글 계정과 바로 통합되고 정책 하나(정책 태그)로 여러 테이블에 걸쳐 컬럼 단위 접근을 관리할 수 있고, 행 단위 보안도 지원함.\nDB 테이블, 마케팅 데이터(믹스패널 등), 프로덕트 릴리즈 데이터(서비스 출시 기록, DORA 메트릭 등)가 빅쿼리에 모여있고 계정 단위로 권한 관리까지 되면, MCP로 연결한 뒤 예전부터 이야기하던 \"데이터가 흐르는 조직\"을 AI의 도움으로 가능하게 할 수 있을 것 같음.\n단, 온디맨드 과금은 쿼리가 스캔하는 데이터 크기만큼 부과되는 구조라 로그성 데이터까지 모두 담으면 비용이 늘 수 있음.\n정액형(Editions/슬롯 예약) 과금이나 파티셔닝, 클러스터링으로 스캔량을 줄이는 방법을 함께 고려하는 게 좋음.\n21. 해커도 AI를 씀\n해커도 AI를 사용하고, AI와 함께하는 해커는 우리가 쓰는 범용 AI보다 더 뛰어나다는 점을 잊으면 안 됨.\n데이터독 같은 모니터링 도구를 잘 활용하면, 장애 로그를 AI가 분석해서 문제 해결 코드를 만들고 PR까지 올리는 과정을 자동화할 수 있음.\n다만 브라우저나 앱 같은 클라이언트 사이드 에러를 수집하는 SDK를 통해 오히려 공격이 들어오는 경우가 있음.\n2026년 6월 공개된 사례가 그런 경우인데, 정확히는 SDK 자체의 결함이 아니라 공개된 에러 수집 키에 조작된 데이터를 주입하고 AI 코딩 에이전트가 MCP를 통해 그걸 신뢰할 수 있는 지시로 착각해서 실행하는 방식임.\n(예: 관련 사례)\n버그 수정까지 사람 개입 없이 완전 자동화하겠다는 건 둘 중 하나임.\n우리 서비스가 해커 입장에서 공격할 만한 가치가 없을 만큼 작거나, 보안팀이 완벽하게 다 막아주고 있거나.\n여러 모니터링 도구를 MCP로 연결해서 개발자가 버그를 쉽게 해결하도록 효율화하는 건 좋지만, 사람이 전혀 개입하지 않는 방향으로 완전히 넘어갈 수는 없음.\n특히 프론트엔드는 UI 변경이 잦아서 자동화해도 괜찮을 거라 생각하기 쉬운데, 그러다 큰일 날 수 있음.\n깃헙 저장소의 시크릿이나 CI 환경 같은 인프라가 백엔드와 프론트엔드로 완전히 격리돼 구현되는 경우가 거의 없어서, 프론트엔드 프로젝트가 오염되면 서비스 전체가 영향을 받을 수 있음.\n[마치며]\n쓰고 나서 다시 읽어보니 새로운 이야기가 많지 않습니다.\n문서화, 테스트 코드, 버전 관리, 권한 관리처럼 예전부터 중요하다고 하던 것들이 대부분입니다.\n\"피닉스 프로젝트\"와 \"유니콘 프로젝트\"가 그리던 암묵지의 문서화와 병목 없는 보안, 데이터가 흐르는 조직, \"코드로 인프라 관리하기\"가 말한 버전 관리와 IaC, \"Release의 모든 것\"이 말한 사람의 개입 지점을 남겨둔 자동화는 전부 AI가 나오기 전부터 있던 이야기입니다.\n지난 9개월 동안 저희가 확인한 것도 그 이야기들이 AI 시대에 여전히 유효하고, 몇몇은 더 절실해졌다는 것이었습니다.\n그래서 지난 9개월은 AI 도구를 배우는 시간이기도 했지만, 미뤄뒀던 숙제들을 더는 미룰 수 없게 된 시간에 가까웠습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/881",
-    "pubDate": "Fri, 10 Jul 2026 09:03:31 +0900",
+    "link": "https://jojoldu.tistory.com/882",
+    "pubDate": "Mon, 13 Jul 2026 09:31:48 +0900",
     "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "세미나",
-      "AI 네이티브",
-      "ax",
-      "Devchat",
-      "DevRel",
-      "개발문화",
-      "개발자 커뮤니티",
-      "노션",
-      "데브렐",
-      "데브챗",
-      "커뮤니티"
+      "회고",
+      "#AI #AX #AI네이티브 #조직문화 #DevOps #스타트업 #CTO #개발문화"
     ]
   }
 ]
