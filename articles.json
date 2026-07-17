@@ -2,64 +2,23 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "From weeks to a day: how we made LLM evaluation fast enough to iterate on",
-    "description": "No description available",
+    "title": "GoLand 2026.2 Is Now Available!",
+    "description": "GoLand 2026.2 is all about helping you understand and improve your Go applications with less effort. This release introduces the new Go Optimization tool window, bringing profiling, escape analysis, and struct optimization into a single workflow. You can now profile regular Go applications without additional setup, analyze production profiles, monitor CPU and memory usage in […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/from-weeks-to-a-day-how-we-made-llm-evaluation-fast-enough-to-iterate-on-14e2d35198b4?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 14 Jul 2026 17:01:03 GMT",
-    "creator": "Baharak Saberidokht",
+    "link": "https://blog.jetbrains.com/go/2026/07/16/goland-2026-2-is-now-available/",
+    "pubDate": "Thu, 16 Jul 2026 14:38:52 +0000",
+    "creator": "Artem Pronichev",
     "categories": [
-      "technology",
-      "engineering",
-      "llm",
-      "infrastructure",
-      "software-architecture"
+      "goland",
+      "releases",
+      "performance-monitoring",
+      "profiler",
+      "release"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "초당 100만 건, LINE 앱에 Apache Kafka 종단 간 암호화 적용기",
-    "description": "들어가며: 왜 Kafka 종단 간 암호화인가?LINE 메신저에서는 매일 수십억 건의 메시지가 오갑니다. 이 방대한 데이터는 다양한 시스템으로 전달되며, 그중에는 개인 정보와 같이 ...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/applying-e2ee-to-apache-kafka-in-line-app",
-    "pubDate": "Fri, 10 Jul 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "The History of Kodee, Kotlin’s Mascot",
-    "description": "A few years back, the Kotlin team figured it was time their programming language had a mascot – something fun and friendly to make developers feel more at home. After all, so many other programming languages have their own characters – Gofer, elePHPant, Dart’s Dash, or Rust’s Ferris, for example. Bringing Kodee to life wasn’t […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/07/the-history-of-kodee/",
-    "pubDate": "Thu, 09 Jul 2026 14:53:46 +0000",
-    "creator": "Olga Vorobeva",
-    "categories": [
-      "kotlin",
-      "research",
-      "design",
-      "cap-kodee"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "ICML 2026 주요 논문의 연구 기술 분석",
-    "description": "이 글은 ICML(International Conference on Machine Learning) 2026 주요 논문의 연구 기술 분석 내용을 간략히 정리한다.\n\n\n\nICML 2026은 2026년 7월 6일부터 11일까지 서울 코엑스에서 열리는 국제머신러닝학회다. 올해는 23918건이 제출되어 6352편이 채택되었고, 채택률은 26.6퍼센트였다. 그런데 학회에서 발표되었다고 해서 모든 논문이 실제로 재현 가능한 것은 아니다. 최근 연구에 따르면 ICML, NeurIPS, ICLR 세 학회의 평균 코드 공개율은 19.5퍼센트에 불과하다. 이번 글에서는 GitHub 저장소가 실제로 공개되어 있고, 가능한 경우 별도의 프로젝트 웹사이트까지 함께 공개된 논문들만 추려서 살펴보았다. 코드와 모델을 직접 실행하거나 응용해볼 수 있는지도 함께 정리했다.\n각 논문은 연구목적과 사용 알고리즘, 베이스 모델을 하나의 문단으로 서술했고, 나머지 정보인 데이터셋, 연구 기술 수준, 구현 수준, 관련 링크는 목록 형태로 정리했다.\n프로젝트 페이지와 GitHub를 모두 공개한 논문\nCausal Forcing, 실시간 대화형 비디오 생성\n이 논문은 양방향 확산모델을 소수 스텝의 자기회귀 학생 모델로 증류할 때 발생하는 이론적 결함을 규명하는 연구다. 기존 방법들이 프레임 단위 단사성 조건을 위반한다는 점을 이론적으로 증명하고, 이를 해결하기 위해 자기회귀 교사 모델 기반의 ODE 초기화와 분포 매칭 증류를 결합한 Causal Forcing을 제안했다. 후속 연구인 Causal Forcing플러스플러스에서는 ODE 대신 인과적 일관성 증류 방식을 도입했다. 베이스 모델로는 Wan2.1과 훈위안비디오의 HY1.5-TI2V-8B 비디오 확산 모델을 사용했다.\n사용 데이터셋: 대형 비디오 확산모델 사전학습 데이터 기반 자체 증류용 데이터\n연구 기술 수준: 최상급이다. 생성모델 이론 증명과 대규모 비디오 디퓨전 증류가 결합되어 있다\n구현 수준: 중간이다. 공개된 8B급 체크포인트로 추론 데모는 GPU 한 대로 바로 실행할 수 있지만, 증류 학습 자체를 재현하려면 대규모 인프라가 필요하다\n프로젝트 페이지: thu-ml.github.io/CausalForcing.github.io\nGitHub: github.com/thu-ml/Causal-Forcing\nHibiki-Zero, 정렬 데이터 없는 동시 음성통역\n이 논문은 단어 단위 정렬 데이터 없이도 실시간 다국어 동시 음성통역을 가능하게 하는 모델을 다룬 연구다. 프랑스어, 스페인어, 포르투갈어, 독일어에서 영어로의 통역을 대상으로, 먼저 문장 단위로 정렬된 데이터로 지도학습을 진행한 뒤 GRPO 기반 강화학습으로 통역 지연시간을 최적화하는 방식을 사용했다. 베이스 모델은 모시와 히비키 계열의 멀티스트림 디코더이며 파라미터 수는 3B다.\n사용 데이터셋: 자체 공개한 15시간 분량의 다국어 벤치마크\n연구 기술 수준: 최상급이다. 음성 파운데이션 모델을 처음부터 학습해야 한다\n구현 수준: 쉬움이다. 명령어 한 줄로 8기가에서 12기가 VRAM급 GPU에서 즉시 실시간 데모를 구동할 수 있다. 웹 UI로 감싸는 정도의 응용은 매우 용이하다\n프로젝트 페이지: hibiki-zero-s2st.github.io\nGitHub: github.com/kyutai-labs/hibiki-zero\nDR Tulu, 심층 리서치 에이전트\n이 논문은 정답이 명확하지 않은 장문 심층 리서치 과제, 예를 들어 과학이나 의료 분야 질의에 대해 정책 모델과 함께 진화하는 루브릭으로 강화학습을 진행하는 최초의 완전 오픈 모델을 다룬 연구다. 핵심 알고리즘은 진화하는 루브릭을 활용한 강화학습이라는 뜻의 RLER이며, 멀티 롤아웃과 도구 증강 생성을 지원하는 GRPO 변형을 사용한다. 베이스 모델은 Qwen3-8B-Base다.\n사용 데이터셋: 과학, 의료, 일반 도메인의 장문 리서치 벤치마크 네 종류와 서치아레나, 오픈스칼라 데이터\n연구 기술 수준: 상급이다. 다만 모델과 데이터, 학습 코드, 평가 하네스까지 전부 오픈소스로 공개되어 있다\n구현 수준: 쉬움이다. 허깅페이스에서 체크포인트를 내려받은 뒤 vLLM 서버 두 대와 MCP 서버를 구동하는 것만으로 즉시 데모를 실행할 수 있다\n프로젝트 및 블로그 페이지: allenai.org/blog/dr-tulu\nGitHub: github.com/rlresearch/dr-tulu\n모델 페이지: huggingface.co/rl-research/DR-Tulu-8B\nThe Obfuscation Atlas, RLVR 기만 및 정직성 탐지 연구\n이 논문은 검증가능보상 강화학습, 즉 RLVR로 훈련할 때 모델이 화이트박스 거짓말 탐지기를 회피하는 현상을 실증적, 이론적으로 규명한 연구다. 리워드 해킹이 자연스럽게 발생하는 실제 코딩 환경을 구성하고, GRPO와 활성화 기반 기만 탐지 프로브를 결합해 정직한 정책과 은폐된 정책을 구분하는 분류체계를 제시했다. 베이스 모델로는 젬마3-12B-IT를 비롯한 네 개 모델을 사용했다.\n사용 데이터셋: 테스트 케이스 하드코딩 시나리오가 포함된 실제 코딩 문제, 그리고 500개 이상 학습된 모델 체크포인트를 허깅페이스에 공개했다\n연구 기술 수준: 상급이다. 정렬 연구와 메커니즘 해석, 강화학습 인프라가 결합되어 있다\n구현 수준: 중간이다. 코드가 설정, 학습, 탐지기 모듈로 나뉘어 있어 소규모 모델로 프로브 학습과 평가 파이프라인을 재현해볼 수 있다\n연구기관 페이지: far.ai/research/the-obfuscation-atlas-mapping-where-honesty-emerges-in-rlvr-with-deception-probes\nGitHub: github.com/AlignmentResearch/obfuscation-atlas\nGitHub 저장소가 상세히 공개된 논문\nOmniAgent, 능동 비디오 지각 옴니모달 에이전트\n이 논문은 긴 비디오나 여러 모달리티를 이해할 때 전체 영상을 다 보는 대신 필요한 프레임만 능동적으로 탐색하는 에이전트를 다룬다. 72B 모델보다 73퍼센트 적은 프레임으로도 더 나은 성능을 보였다. 비디오 이해 문제를 부분관측 마르코프 결정과정으로 정식화하고, 턴 단위 불확실성을 반영한 TAURA라는 강화학습 기법으로 정책을 학습한다. 베이스 모델은 Qwen2.5-Omni-7B다.\n사용 데이터셋: 비디오엠엠이, LV벤치를 포함한 열 개 벤치마크\n연구 기술 수준: 상급이다. 비디오 에이전트를 위한 강화학습 설계가 핵심이다\n구현 수준: 중간이다. 코드와 짐 형태의 능동지각 환경, 강화학습 및 지도학습 체크포인트가 모두 공개되어 있어 7B급 모델 기준으로 로컬 파인튜닝을 시도해볼 수 있다\nGitHub: github.com/HarryHsing/OmniAgent\nOmniShow, 인간과 사물 상호작용을 통합한 비디오 생성\n바이트댄스가 발표한 이 논문은 텍스트, 참조 이미지, 오디오, 포즈 조건을 하나의 모델로 통합한 최초의 인간과 사물 상호작용 비디오 생성 올인원 모델을 제안한다. 채널 단위로 조건들을 통합해 주입하는 방식을 사용했으며, 베이스 모델은 Wan 기반의 DiT 비디오 확산 모델이다.\n사용 데이터셋: 자체 구축한 HOIVG벤치\n연구 기술 수준: 최상급이다. 대규모 비디오 확산 모델 학습이 필요한 산업 연구다\n구현 수준: 중간이다. 추론 코드와 체크포인트가 공개되어 데모 실행은 가능하지만 요구되는 GPU 자원이 크다\nGitHub: github.com/Correr-Zhou/OmniShow\nRLAnything과 AutoTool, 에이전틱 강화학습 오픈소스 레시피\n젠버스 연구팀이 공개한 이 두 논문은 에이전틱 강화학습을 데이터, 알고리즘, 추론 모드라는 세 축으로 체계적으로 분석한 연구다. 실제 엔드투엔드 궤적 기반의 지도학습과 강화학습을 결합하고, 리워드 클리핑과 엔트로피 유지 기법을 적용해 소형 모델이 대형 모델을 능가하는 학습 레시피를 완성했다. 베이스 모델은 Qwen2.5-7B와 Qwen3-4B이며, 4B 규모의 DemyAgent 체크포인트를 공개했다.\n사용 데이터셋: AIME 2024와 2025, GPQA다이아몬드, LiveCodeBench-v6\n연구 기술 수준: 상급이다. 에이전틱 강화학습 파이프라인을 다룬다\n구현 수준: 쉬움이다. DemyAgent-4B 체크포인트가 허깅페이스에 공개되어 있어 로컬 평가와 소규모 파인튜닝을 바로 시도할 수 있다\nGitHub: github.com/Gen-Verse/Open-AgentRL\nS2L-PO, 작은 모델이 GRPO에서 정책 다양성을 더 잘 탐색한다\n이 논문은 LLM 추론용 강화학습인 GRPO에서 오히려 작은 모델이 정책 수준의 다양성 탐색에 유리하다는 점을 규명하고, 이를 활용하는 학습 기법을 제안한 연구다. Qwen3 계열 모델을 소형과 대형으로 나누어 비교 실험을 진행했다.\n사용 데이터셋: 수학 추론 벤치마크\n연구 기술 수준: 상급이다. RL 알고리즘에 대한 실증 연구다\n구현 수준: 쉬움이다. 소형 모델 기준으로 GRPO 코드를 일부 수정하는 수준이라 재현이 비교적 간단하다\nGitHub: github.com/qishisuren123/S2L-PO\nNT-SSM, 그래프 협업 필터링의 대조학습 재고\n이 논문은 그래프 기반 추천시스템, 즉 협업 필터링에서 대조학습의 한계를 지적하고 간단한 대안을 제시한 연구다. 기존 표준 모델인 LightGCN을 베이스 모델로 삼아 새로운 정규화 기반 대안 기법을 적용했다.\n사용 데이터셋: 아마존, 옐프 등으로 추정되는 표준 추천시스템 벤치마크\n연구 기술 수준: 중상급이다. 그래프 신경망 기반 추천시스템을 다룬다\n구현 수준: LightGCN 기반의 비교적 경량 모델이라 로컬 실험 재현이 용이하다\nGitHub: github.com/geon0325/NT-SSM\n해마 내후각피질 영감 세계모델\n이 논문은 뇌의 해마와 내후각피질 구조에서 영감을 받아 구조적 추상화와 일반화가 가능한 세계모델을 설계한 연구다. 계산신경과학 기반의 구조학습 알고리즘을 사용했으며, 사전학습된 파운데이션 모델을 쓰지 않고 커스텀 순환신경망 기반 인지 모델을 처음부터 구성했다.\n사용 데이터셋: 인지과학 실험용 합성 환경\n연구 기술 수준: 최상급이다. 계산신경과학과 세계모델이 결합되어 있다\n구현 수준: 중간이다. 주피터 노트북으로 공개되어 있어 소규모 실험을 재현하고 수정해보기가 비교적 수월하다\nGitHub: github.com/senngadaisuki/hpc-mec-worldmodel\nCaDRe, 기후 분석을 위한 인과 구조 학습\n이 논문은 은닉 동적 과정을 고려한 일반적인 인과 구조 학습 기법을 기후 데이터 분석에 적용한 연구다. 비선형 독립성분분석 기반의 인과 표현 학습과 인과 발견 알고리즘을 사용하며, 사전학습 모델 없이 커스텀 인과표현학습 신경망을 사용한다.\n사용 데이터셋: 기후과학 시계열 데이터\n연구 기술 수준: 상급이다. 인과추론과 시계열 분석이 결합되어 있다\n구현 수준: 중간이다. 공개된 코드로 자체 시계열 데이터에 적용해볼 수 있지만 인과추론 이론에 대한 이해가 선행되어야 한다\nGitHub: github.com/MinghaoFu/CaDRe\nLatentTSF, 관측에서 상태로 이어지는 잠재 시계열 예측\n이 논문은 원시 관측치가 아니라 잠재 상태 공간에서 시계열을 예측하는 프레임워크를 다룬다. 잠재공간 상태추정과 시계열 예측을 결합한 방식이며, 파이토치 기반의 커스텀 상태공간모델을 베이스로 사용한다.\n사용 데이터셋: 표준 시계열 예측 벤치마크\n연구 기술 수준: 중상급이다\n구현 수준: 파이토치 공식 구현체가 공개되어 있어 자체 데이터를 적용하기가 비교적 쉽다\nGitHub: github.com/Muyiiiii/LatentTSF\nFiSeR, 크로스 도메인 AI 이미지 탐지를 위한 세밀한 출처 표현\n이 논문은 디퓨전이나 GAN 등 서로 다른 생성모델이 만든 AI 이미지를 도메인이 달라도 탐지할 수 있는 세밀한 출처 특징 추출 기법을 다룬다. 표준 CNN과 ViT 백본을 기반으로 한 출처 특화 표현학습 방식을 사용한다.\n사용 데이터셋: 다양한 생성모델 출처의 AI 이미지 벤치마크\n연구 기술 수준: 상급이다. 포렌식과 탐지 모델을 다룬다\n구현 수준: 이미지 분류기 수준의 모델이라 재현 난이도가 상대적으로 낮다\nGitHub: github.com/heyongxin233/FiSeR\n\nCoopEval, 협력 유지 메커니즘과 LLM 에이전트 벤치마킹\n이 논문은 죄수의 딜레마류의 사회적 딜레마 상황에서 협력을 지속시키는 메커니즘과 LLM 에이전트의 협력 행동을 벤치마킹한 연구다. 게임이론 기반의 다중 에이전트 시뮬레이션을 사용하며, 별도의 파운데이션 모델 학습 없이 GPT와 클로드 계열 API 기반 LLM 에이전트를 그대로 활용한다.\n사용 데이터셋: 자체 구축한 사회적 딜레마 게임 환경\n연구 기술 수준: 상급이다. 게임이론과 LLM 에이전트가 결합되어 있다\n구현 수준: LLM API 호출 기반의 게임 시뮬레이션이라 AI 코딩 도구로 비교적 쉽게 재현하고 확장할 수 있다\nGitHub: github.com/Xiao215/CoopEval\nSubspacePathPruner, 추론 시점 LLM 구조적 프루닝\n이 논문은 별도의 재학습 없이 추론 시점에 프로브 기반의 표현과 파라미터 결합을 활용해 LLM을 구조적으로 경량화하는 기법을 다룬다. 라마와 Qwen 등 공개된 LLM에 바로 적용할 수 있도록 설계되었다.\n사용 데이터셋: 표준 LLM 압축 벤치마크\n연구 기술 수준: 상급이다. 모델 압축을 다룬다\n구현 수준: 재학습이 필요 없는 방식이라 기존 오픈소스 LLM에 바로 적용해볼 수 있다\nGitHub: github.com/GongZhiren/SubspacePathPruner\n\n정리\n이번에 정리한 논문들을 살펴보면 몇 가지 흐름이 보인다.\n첫째, 공개 수준이다. Causal Forcing, Hibiki-Zero, DR Tulu, Obfuscation Atlas 네 편은 프로젝트 페이지와 GitHub를 모두 갖추고 있어 데모와 체크포인트까지 즉시 사용할 수 있는 최고 수준의 공개도를 보인다. 나머지 논문들은 대부분 GitHub 저장소만 공개되어 있지만 README와 체크포인트가 상세해서 실질적으로 재현이 가능한 수준이다.\n둘째, 베이스 모델 관점이다. 처음부터 새로 학습한 파운데이션 모델을 다루는 연구는 Causal Forcing, Hibiki-Zero, CaDRe, 해마 내후각피질 세계모델 등이며 대체로 기술 난이도가 최상급이다. 반면 기존에 공개된 LLM이나 VLM 위에 파인튜닝, 프롬프트, 경량 어댑터를 얹는 방식의 연구, 예를 들어 DR Tulu의 Qwen3-8B, OmniAgent의 Qwen2.5-Omni-7B, RLAnything과 AutoTool의 Qwen 계열, GR-LoRA와 AREA와 HypCL의 CLIP 등은 구현 난이도가 가장 낮고 응용 확장성이 크다. 베이스 모델 없이 알고리즘이나 이론 자체가 기여인 연구, 예를 들어 린 라이브러리나 CaDRe, Learning to Emulate Chaos 같은 경우는 코드가 공개되어 있어도 이론적 배경을 먼저 이해해야 정확하게 활용할 수 있다.\n셋째, 구현 수준 관점이다. 명령어 한 줄로 실행되는 Hibiki-Zero, 서버만 띄우면 되는 DR Tulu, 허깅페이스 체크포인트만 내려받으면 되는 Causal Forcing처럼 설치, 실행, 커스터마이징 흐름을 그대로 따라갈 수 있는 논문들이 실질적인 구현 후보다. LoRA 계열이나 활성화 함수 교체, 재학습이 필요 없는 프루닝 기법처럼 기존 모델에 얹는 방식의 연구도 코드 복잡도가 낮아 구현 성공률이 높다. 반대로 형식수학 증명이나 쌍곡기하학 기반 모델처럼 특수한 수학적 프레임워크를 요구하는 연구는 코드가 공개되어 있어도 정확히 재현하기가 쉽지 않다.\n이 글은 2026년 7월 9일 기준으로 웹 검색을 통해 개별 확인한 GitHub 저장소와 프로젝트 페이지 링크를 바탕으로 작성했다. 저장소는 계속 업데이트되므로 실제 활용 전에 최신 링크를 다시 확인하는 것이 좋다.\n레퍼런스\n\nICML Oral Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking\nICML Oral Monitoring Monitorability\nICML Oral Towards Sub-second Biological Foundation Model Infrastructure: A Quantized Consistency Diffusion Framework for Molecular Docking\nICML Oral dnaHNet: A Scalable and Hierarchical Foundation Model for Genomic Sequence Learning\nICML Oral Position: The Alignment Community is Unintentionally Building a Censor’s Toolkit\nPosition: The Alignment Community Is Unintentionally Building a Censor's Toolkit\nICML 2026 공식 사이트: icml.cc ICML 2026 전체 논문 목록 \nicml.cc/virtual/2026/papers.html ICML 2026 어워드 발표 blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards 코드 공개율 실증 연구, Paper2Code: arxiv.org/pdf/2504.17192 GitHub 토픽 icml2026 \ngithub.com/topics/icml2026 연속학습 분야 코드 공개 논문 큐레이션 \ngithub.com/xialeiliu/Awesome-Incremental-Learning 에이전트 관련 논문 읽기 목록 \ngithub.com/jiaxianyan/icml-2026-agent-papers",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/07/icml-2026.html",
-    "pubDate": "2026-07-09T02:31:32.353Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
     "imageUrl": "",
     "title": "Rider 2026.2 Release Candidate Is Out!",
     "description": "The Rider 2026.2 Release Candidate is ready for you to try. This upcoming release opens the IDE’s own intelligence to your AI coding agents, brings GitHub Copilot in natively, and delivers a wave of performance gains across both .NET and game development. Rider 2026.2 makes debugger launch and branch switching noticeably faster, speeds up Unreal […]",
@@ -84,7 +43,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 3,
     "imageUrl": "",
     "title": "Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing",
     "description": "In large C++ codebases, your code understanding and navigation depend on quickly determining how symbols, declarations, definitions, and references are connected across your project. In Visual Studio Insiders 18.9, the new whole codebase indexing (WCI) enhances the existing browse database via a deeper, more comprehensive indexing approach. This preview feature allows Visual Studio to access […]\nThe post Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing appeared first on C++ Team Blog.",
@@ -100,60 +59,39 @@
     ]
   },
   {
-    "id": 7,
+    "id": 4,
     "imageUrl": "",
-    "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
-    "description": "Visual Studio now includes built-in Agent Skills, created by experts from the .NET and Azure teams, to help you better customize your agentic workflow and complete development tasks more efficiently, starting with the 18.8 Release. Agent Skills are reusable capabilities that enable your agent to perform structured tasks more reliably (to learn more about what […]\nThe post Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio appeared first on Visual Studio Blog.",
+    "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
+    "description": "TL; DR At Meta’s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance.  When a Linux kernel upgrade risked regressing latency across Meta’s ad serving fleet, we turned to sched_ext — the upstream, BPF-based extensible scheduling framework — to build a scheduling policy customized to the Ads delivery [...]\nRead More...\nThe post Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/built-in-agent-skills-in-visual-studio/",
-    "pubDate": "Tue, 14 Jul 2026 17:30:57 +0000",
-    "creator": "Simona Liao, Wendy Breiding (SHE/HER), Yun Jung Choi",
+    "link": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
+    "pubDate": "Mon, 13 Jul 2026 16:00:50 +0000",
+    "creator": "Unknown",
     "categories": [
-      "Azure",
-      "GitHub Copilot",
-      ".NET"
+      "ML Applications"
     ]
   },
   {
-    "id": 8,
+    "id": 5,
     "imageUrl": "",
-    "title": "ReSharper 2026.2 Release Candidate Released!",
-    "description": "The ReSharper 2026.2 Release Candidate is ready for you to try. This release takes the first step toward ACP-based agent support in Visual Studio, starting with Junie in Preview, and sharpens everyday C# development with better analysis, refactoring, and .editorconfig integration. It also brings broader tool support in Out-of-Process mode and continued C++ language work. […]",
+    "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/07/15/resharper-2026-2-release-candidate-released/",
-    "pubDate": "Wed, 15 Jul 2026 12:42:19 +0000",
-    "creator": "Sasha Ivanova",
+    "link": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?source=rss----2615bd06b42e---4",
+    "pubDate": "Mon, 13 Jul 2026 22:44:11 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "net-tools",
-      "resharper",
-      "acp",
-      "ai-assistant",
-      "dotcover",
-      "dotmemory",
-      "dottrace",
-      "junie"
+      "backend-development",
+      "distributed-systems",
+      "data-engineering",
+      "observability",
+      "software-engineering"
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "548 ~ 566 일차 개발로그 요약",
-    "description": "566일차 - 나는 메차 카멜레온에서 에픽게임즈를 봤다.\n07월 05일\n영상: https://youtu.be/myrgSgT4dv8?si=cvDO0kAfamk9R9Z0\n\n\n\n앗 썸네일 날짜 되었네요 고쳐야지\n1. verse8 MSU 이벤트는 퀄리티 부족으로 거부 되었습니다.\n실패\n2. 메차 카멜레온이 흥하고 있는데 이 게임이 언리얼 + 에픽 온라인 서비스를 활용했다는 사실을 알았습니다.\n그래서 에픽 온라인 서비스 (EOS) 를 공부중입니다.\n따라 만들어야겠습니다.\n(해보고 있는데 동작이 잘 안됩니다. 너무 어렵네요)\n \n3. 메차 카멜레온 개발자들의 이력을 살표보니 8번출구류를 꾸준히 재작하고 있었습니다.\n저도 꾸준히 한길을 파야겠습니다.\n \n4. 주식투자 - 이모든 것은 언리얼 상장과 연결되어있습니다.\n(음모론 주장)\n \n557일차 - verse8 메이플스토리 바이브 캠프 응모\n6월 26\n영상: https://youtu.be/iGM-uKmk1pw?si=_uT019E9L0qMx4F8\n\n\n\n \n1. verse8 MSU 이벤트 참여 영상\n이벤트에 참여하려면 영상을 올려야해서 짧게 만들었습니다.\n \n \n553일차 - 넥써쓰 (?) / GTA6 이젠 판다 / verse8 cors 문제 우회하기\n06월 21일\n영상: https://youtu.be/zmS-dMZZ3a8?si=cnKcGyfwpFFdixQf\n\n\n\n1. 뉴스 요약\n모드의 창업 자료 유출 - 아이디어 심사평 포함\n넥써스가 원스토어 인수\nGTA6 예약 판매 시작\n \n2. 마이크 교체 \n4만원 짜리로 교체 했습니다.\n \n3. verse8 개발 소식\n \n \n548일차 - 모션데스크 싼거 / verse8 더 알아보자 / Phase\n06월 17일\n영상: https://youtu.be/EvVOf_5LVrA?si=4VIxor9gnUF09sEE\n\n\n\n1. 허리 부상으로 모션데스크 샀음\n비싼건 못사고 책상위에 올려 쓰는 루나랩 수동 입니다. 가격은 10만원\n루나랩은 좋은 회사인거 같습니다.\n \n2. verse8 개발 도정 중\n개발 로그 입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1675",
-    "pubDate": "Fri, 10 Jul 2026 22:39:30 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "프로그래밍/자작",
-      "verse8",
-      "개발로그"
-    ]
-  },
-  {
-    "id": 10,
+    "id": 6,
     "imageUrl": "",
     "title": "JetBrains GameDev Days 2026 – Call for Speakers",
     "description": "JetBrains GameDev Day is back! Join us online on September 28, 2026, for a day dedicated to game development, practical engineering, tools, workflows, and the people building games across the world. We’re looking for speakers who are excited to share their knowledge, experience, lessons learned, tools, or creative approaches with the gamedev community. About GameDev […]",
@@ -175,7 +113,80 @@
     ]
   },
   {
+    "id": 7,
+    "imageUrl": "",
+    "title": "AI 인프라 설계의 기술적 레퍼런스, <NHN FactoryX 기술 백서>를 소개합니다",
+    "description": "[![NHN Cloud_meetup banner_FactoryX WP_202606_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerFactoryX%20WP202606900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 어제의 경험으로 내일의 변화를 만들어 내는 공장, NHN FactoryX\r\r\n필요한 만큼의 GPU를 사서 랙에 꽂으면 AI 인프라가 완성될까요? \r\r\n\r\r\n실제로 대규모 GPU 클러스터를 운영해 본 팀이라면, 장비 구매는 끝이 아니라 시작이라는 것을 알 수 있습니다. 수백 장의 GPU가 동시에 통신을 시도하는 순간 네트워크에 병목이 발생하고, 학습 데이터를 읽어오는 속도가 GPU 연산을 따라가지 못해 고가의 장비가 데이터를 기다립니다. 최신 AI GPU 랙의 전력 밀도는 60~90kW에 달하지만 공랭식 냉각의 실질적 한계는 30kW 부근이라 그 이상에서는 GPU 온도를 억제할 수 없고, 결국 시스템이 스스로 성능을 깎아내리기 시작합니다.\r\r\n\r\r\nGPU를 '사는 것'과 GPU를 'AI 인프라로 만드는 것'은 완전히 다른 문제입니다. 그리고 이 간극을 메우는 데 필요한 기술적 의사결정은 생각보다 많고, 예상보다 깊습니다.\r\r\n\r\r\nNHN FactoryX는 NHN Cloud가 7년 이상의 GPU 인프라 운영 경험을 바탕으로 만든 AI 워크로드를 위한 풀스택 환경입니다. NHN FactoryX 서울 데이터 센터에 4,080장의 GPU를 단일 클러스터로 묶어 FP8 기준 27.4 EFLOPS 규모의 연산 능력을 확보했습니다. 구조는 세 개의 계층으로 나뉩니다. 맨 아래에서 수랭식 데이터 센터와 GPU 클러스터(Infrastructure)가 물리적 기반을 제공하고, 그 위에서 GPU Live와 AI EasyMaker(Platform)가 GPU 자원의 동적 할당과 ML 파이프라인을 담당하며, 최상위에는 ProjectX(Service)가 위치해 기업 전용 AI 에이전트 개발·연동 환경을 제공합니다. 현재 산업계·학계·공공 기관이 이 플랫폼 위에서 LLM 학습, 멀티모달 AI 연구, 추론 서비스를 운영하고 있습니다.\r\r\n\r\r\n![01_3layers_900.png](https://image.toast.com/aaaadh/real/2026/techblog/013layers900.png)\r\r\n\r\r\n이번에 발간한 〈NHN FactoryX 기술 백서〉는 이 중 인프라와 플랫폼 영역의 설계 근거를 약 60여 페이지에 걸쳐 풀어 설명한 기술 백서입니다.\r\r\n\r\r\n\r\r\n## NHN FactoryX의 모든 것, 〈NHN FactoryX 기술 백서〉\r\r\nAI 인프라의 도입은 더 이상 장비 구매가 아니라 기술 검증을 동반하는 의사결정 프로세스입니다. GPU 모델 사양만 비교해서는 안 되며, 인터커넥트 토폴로지, 스토리지 I/O, 네트워크 병목 대응, 냉각 설계, 선형 확장성까지, 풀스택 관점의 설계를 동시에 고민해야 합니다. 이 전체를 한 곳에서 체계적으로 다룬 자료가 부재했기 때문에 NHN Cloud는 AI 인프라 요구 사항에 NHN FactoryX가 어떻게 답하고 있는지를 하나의 문서로 정리한 기술 백서를 발간했습니다.\r\r\n\r\r\n이 백서는 위에서 다룬 NHN FactoryX의 세 레이어 가운데 인프라와 플랫폼, 즉 AI 워크로드를 물리적으로 지탱하고 자원을 지능적으로 배분하는 두 레이어의 설계 철학과 기술 근거를 담고 있습니다. 백서는 먼저 기존의 범용 클라우드 인프라가 AI 워크로드에 대응하기에 어떤 점에서 한계가 있는지 짚는 데서 출발합니다. 기존 데이터 센터는 CPU 중심 연산, 공랭식 냉각, 이더넷 기반 네트워크를 전제로 설계되어 범용 워크로드에는 효율적이지만, 대규모 AI 학습에서는 구조적 병목에 직면합니다. 이 한계를 넘기 위해 NHN FactoryX가 어떤 설계 선택을 했는지를, 다음 네 개의 핵심 영역으로 정리합니다.\r\r\n\r\r\n![02_agenda_900.png](https://image.toast.com/aaaadh/real/2026/techblog/02agenda900.png)\r\r\n\r\r\n각 영역은 독립적으로 참조할 수 있지만, 풀스택 관점에서 서로 연결되어 있습니다. 여기에서는 이 백서가 다루는 질문 중 핵심이 되는 내용을 간략하게 훑어보고자 합니다.\r\r\n\r\r\n\r\r\n## 〈NHN FactoryX 기술 백서〉 훑어보기\r\r\n### \"왜 공기로는 안 되나요?\" - 공랭식 냉각의 구조적 한계\r\r\nAI GPU의 전력 밀도는 세대마다 가파르게 올라가고 있습니다. A100 시절에는 랙당 13\\~39kW 수준이었지만, 최신 B200/B300 세대에서는 랙당 90kW에 육박합니다. 문제는 여기서 발생합니다. 공기의 체적 열용량은 물의 약 1/3,500에 불과합니다. 같은 열을 제거하려면 공기는 물보다 3,500배 많은 양이 필요하다는 뜻입니다. 랙당 전력 밀도가 30kW를 넘는 순간부터 공랭식은 열역학적 한계에 부딪힙니다.\r\r\n\r\r\n〈NHN FactoryX 기술 백서〉는 이 한계를 ASHRAE 등급 기준과 CFD 시뮬레이션 연구를 인용해 구조적으로 짚어보고, D2C 수랭식 도입 시 반드시 검증해야 할 다섯 가지 요건(벤더 호환성, 인터페이스 표준화, 운전 파라미터, 확장성, 수질 관리)을 하나하나 설명합니다. NHN FactoryX는 이 과정을 거쳐 프리쿨링 연계 운전으로 PUE 1.15 이하를 달성할 수 있는 구조를 만들었습니다. 공랭식 대비 연간 냉각 에너지를 약 30~40% 절감할 수 있는 수치입니다.\r\r\n\r\r\n자세한 내용은  〈NHN FactoryX 기술 백서〉 2.3절 전력 및 냉각 설계에서 확인하실 수 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n### \"GPU 수천 장을 어떻게 나눠 쓰나요?\" - GPU Live의 설계 철학\r\r\nGPU 클러스터를 팀별로 고정 배정하면 운영은 단순하지만, 대규모 클러스터 트레이스 분석에서 자원 활용률이 한 자릿수에서 30%대에 머무르는 사례가 보고되어 왔습니다.\r\r\n\r\r\nGPU Live는 이 문제를 동적 할당 기술로 풀되, 자체 스케줄러를 새로 만들지 않고, Kubernetes 표준 생태계의 검증된 컴포넌트 위에 NHN FactoryX 환경에 맞는 운영 정책을 얹는 방식을 택했습니다. GPU 드라이버 업데이트나 분산 학습 프레임워크의 변화를 표준 경로로 흡수할 수 있고, 향후 NPU 같은 이종 가속기가 등장해도 동일한 표준 인터페이스로 통합이 가능하도록 하기 위함입니다.\r\r\n\r\r\n그 위에 GPU Live가 직접 설계한 영역이 있습니다. 3계층 멀티테넌시(System → Organization → Project)로 조직 간 자원·정책·권한을 격리하고, GPU 기준 Best-fit 빈패킹으로 단편화를 줄이며, 쿼터·오버부킹·자동 회수를 결합해 활용률을 끌어올립니다. 학습 워크로드는 Gang Scheduling으로 일괄 시작·종료하고, 추론 워크로드는 인스턴스 단위로 장애 복구와 재배치를 처리합니다. 같은 GPU 풀에서 성격이 전혀 다른 두 워크로드를 안정적으로 수용하는 구조입니다.\r\r\n\r\r\n자세한 내용은  〈NHN FactoryX 기술 백서〉 2.4절 GPU 동적 할당 기술(GPU Live)에서 확인하실 수 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n### \"베어메탈이면 충분하지 않나요?\" — GPUaaS를 선택한 이유\r\r\n베어메탈 방식은 GPU 자원을 물리 서버 단위로 직접 할당하므로 하드웨어 성능을 최대한 활용할 수 있습니다. 다만 다수의 사용자가 동일 인프라를 공유할 경우 테넌트 간 보안 격리가 보장되지 않고, 테넌트별 환경 구성이 상이하여 장애 발생 시 일관된 운영 정책을 적용하기 어렵다는 한계가 있습니다.\r\r\n\r\r\nNHN FactoryX는 이 한계를 극복하기 위해 GPU 인프라 상위 계층에 GPUaaS 플랫폼을 구축하는 방식을 택했습니다. 테넌트·워크스페이스·프로젝트로 이어지는 계층적 구조를 기반으로 자원과 보안 통제를 일관되게 적용하고, 한 기관에서 대규모 학습으로 자원 사용량이 급증하더라도 다른 기관의 서비스에는 영향이 없는 격리 구조를 실현했습니다. 실제로 957개 GPU 노드 위에서 산업계·학계·연구계의 다수 기관이 독립된 워크스페이스를 운영하고 있습니다.\r\r\n\r\r\n서비스 계층이 추가되면 네트워크 병목으로 인한 성능 저하가 우려될 수 있지만, NHN FactoryX는 GPUaaS 플랫폼 환경에서 255노드 규모의 HPL(High Performance Linpack) 벤치마크를 수행해 베어메탈과 동일한 수준의 성능을 확인했습니다. 컨테이너가 호스트 수준의 네트워크 성능을 유지하도록 설계한 결과입니다.\r\r\n\r\r\n자세한 내용은  〈NHN FactoryX 기술 백서〉 06장 활용 사례에서 확인하실 수 있습니다.\r\r\n\r\r\n\r\r\n## 마치며\r\r\n\r\r\n이 글에서는 〈NHN FactoryX 기술 백서〉의 핵심 내용 중 일부를 살펴보았습니다. 백서 전체를 관통하는 메시지를 한 문장으로 요약해 보면 이렇습니다. AI 인프라는 개별 하드웨어의 성능 향상을 넘어, 물리적 공간 설계부터 전력 및 냉각 효율, 초고속 네트워크 튜닝, 소프트웨어 정의 기반의 관리 플랫폼까지 모든 요소가 유기적으로 통합되어야 합니다.\r\r\n\r\r\nNHN FactoryX는 이 통합을 하나의 공간에서 실현합니다. 수랭식 데이터 센터 위에 GPU 클러스터를 구성하고, GPUaaS 플랫폼으로 자원을 관리하며, AI 개발 플랫폼까지 3개 레이어를 풀스택으로 제공합니다. 동일한 GPUaaS 아키텍처 위에서 멀티테넌트 공유 환경과 기업 프라이빗 전용 환경이 모두 구현되며, 957개 GPU 노드 규모에서 베어메탈 동등 수준의 성능과 조직 간 보안 격리를 동시에 달성하고 있습니다.\r\r\n\r\r\nAI 인프라는 현재진행형입니다. GPU 세대 전환에 따른 전력 밀도 증가, Kubernetes DRA를 비롯한 자원 관리 표준의 진화, NPU 등 이종 가속기의 등장은 인프라 설계의 전제 조건을 지속적으로 변화시킵니다. NHN FactoryX는 차세대 GPU 플랫폼까지의 상위 호환성을 전제로 수랭식 인프라를 설계하였으며, GPU Live의 동적 할당 모델을 이종 가속기로 확장하기 위한 기술 검토를 진행하고 있습니다.\r\r\n\r\r\n백서에는 이 글에서 미처 다 다루지 못한 GPU 세대별 사양 비교, 5가지 성능 저하 패턴과 설계 단계 체크리스트, Scalable Unit 기반 증설 전략, 기업 프라이빗 AI 인프라 구축 사례 등이 구체적인 수치와 다이어그램과 함께 담겨 있습니다. AI 인프라 도입을 검토하는 기술 의사결정자, 대규모 AI 시스템을 설계하거나 운영하는 아키텍트 및 엔지니어 분들께 실질적인 기술 레퍼런스로 활용되길 기대합니다.\r\r\n\r\r\n긴 글을 읽어 주셔서 감사합니다. ‍♀️\r\r\n\r\r\n\r\r\n>  [NHN FactoryX 공식 포털 바로 가기](https://www.nhnfactoryx.com/?utm_source=meetup&utm_medium=post&utm_campaign=meetup&utm_content=0713_xwhitepaper)\r\r\n> \r\r\n>  [NHN FactoryX 기술 백서 다운로드](https://info.nhncloud.com/factoryx-whitepaper?utm_source=meetup&utm_medium=post&utm_campaign=meetup&utm_content=0713_xwhitepaper)\r\r\n> \r\r\n>  [NHN FactoryX 소개서 다운로드](https://info.nhncloud.com/factoryxbrochure?utm_source=meetup&utm_medium=post&utm_campaign=meetup&utm_content=0713_xwhitepaper)\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_grayd9d9d9_202606_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfootergrayd9d9d9202606900.png)](https://www.nhncloud.com/kr)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://meetup.nhncloud.com/posts/417",
+    "pubDate": "Mon, 13 Jul 2026 02:57:40 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "MPS 2026.1 Has Been Released!",
+    "description": "MPS now uses IntelliJ Platform 2026.1, JDK 25, and Kotlin 2.3. Build Language gains transitive dependencies, migrations are more reproducible, and Java stubs have received a substantial quality update. The bundled Projectional Agent Toolkit plugin enables AI coding agents to read and write MPS models, thus opening up a number of cutting-edge development concepts for […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/mps/2026/07/mps-2026-1-released/",
+    "pubDate": "Tue, 14 Jul 2026 13:21:12 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "releases",
+      "release"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "IntelliJ Scala Plugin 2026.2 Is Out!",
+    "description": "Hello everyone, The new release of IntelliJ IDEA introduces a few new features for Scala developers that we’ve been working on for some time, as well as a number of fixes and improvements. We hope that they will make your Scala experience even better than before. Build tool support The logic behind sbt tasks in […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/scala/2026/07/14/scala-plugin-2026-2/",
+    "pubDate": "Tue, 14 Jul 2026 11:00:00 +0000",
+    "creator": "Maciej Gorywoda",
+    "categories": [
+      "scala",
+      "scala-programming",
+      "2026-2",
+      "intellij-idea"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "What’s fixed in IntelliJ IDEA 2026.2",
+    "description": "Welcome to an overview of the most important fixes and usability improvements in IntelliJ IDEA 2026.2. This release brings more than 1,300 bug fixes and usability improvements, and it addresses 140 freezes and other performance issues identified through internal diagnostics and user reports. Below is a recap of the most impactful updates. Performance Responsiveness remains […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/07/whats-fixed-intellij-idea-2026-2/",
+    "pubDate": "Thu, 16 Jul 2026 15:57:45 +0000",
+    "creator": "Dmitriy Smirnov",
+    "categories": [
+      "releases"
+    ]
+  },
+  {
     "id": 11,
+    "imageUrl": "",
+    "title": "AI는 총일까 낫일까",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://beejei.medium.com/ai%EB%8A%94-%EC%B4%9D%EC%9D%BC%EA%B9%8C-%EB%82%AB%EC%9D%BC%EA%B9%8C-cb82442c8b57?source=rss-9f14ea26d32f------2",
+    "pubDate": "Mon, 13 Jul 2026 03:24:39 GMT",
+    "creator": "Beejei",
+    "categories": [
+      "how-to",
+      "llm"
+    ]
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "악역영애 4컷 만화 - 58화, 진정제인데스와",
     "description": "No description available",
@@ -189,62 +200,57 @@
     ]
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "MSVC Build Tools Preview updates – July 2026",
-    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – July 2026 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-july-2026/",
-    "pubDate": "Wed, 15 Jul 2026 21:17:05 +0000",
-    "creator": "Eric Brumer",
-    "categories": [
-      "C++"
-    ]
-  },
-  {
     "id": 13,
     "imageUrl": "",
-    "title": "조선시대 사람들은 휴가를 어떻게 즐겼을까? ",
-    "description": "300년 전 각광받던 국내 휴가지와 특별한 여름 휴가법",
+    "title": "ReSharper 2026.2 Release Candidate Released!",
+    "description": "The ReSharper 2026.2 Release Candidate is ready for you to try. This release takes the first step toward ACP-based agent support in Visual Studio, starting with Junie in Preview, and sharpens everyday C# development with better analysis, refactoring, and .editorconfig integration. It also brings broader tool support in Out-of-Process mode and continued C++ language work. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/behindthemoney-17",
-    "pubDate": "Thu, 09 Jul 2026 23:58:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/dotnet/2026/07/15/resharper-2026-2-release-candidate-released/",
+    "pubDate": "Wed, 15 Jul 2026 12:42:19 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "net-tools",
+      "resharper",
+      "acp",
+      "ai-assistant",
+      "dotcover",
+      "dotmemory",
+      "dottrace",
+      "junie"
+    ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
-    "description": "No description available",
+    "title": "Pick, manage, and get the most from your models",
+    "description": "You open the model picker, scroll past a dozen options, and pause. How are these models different? Which one should you actually use? And once you’re a few hundred messages deep, how much capacity is even left before things start dropping off? We’ve all been there. These are the kinds of questions Visual Studio now […]\nThe post Pick, manage, and get the most from your models appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?source=rss----2615bd06b42e---4",
-    "pubDate": "Mon, 13 Jul 2026 22:44:11 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://devblogs.microsoft.com/visualstudio/pick-manage-and-get-the-most-from-your-models/",
+    "pubDate": "Wed, 15 Jul 2026 14:28:43 +0000",
+    "creator": "Rachel Kang (SHE/HER)",
     "categories": [
-      "backend-development",
-      "distributed-systems",
-      "data-engineering",
-      "observability",
-      "software-engineering"
+      "Visual Studio",
+      "Copilot",
+      "GitHub Copilot",
+      "GitHub Copilot Chat",
+      "Models"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "인프랩 AI 네이티브 9개월 정리",
-    "description": "사내 블로그에 지난 AX 경험기를 정리하려다가, 먼저 초안을 공유하고 그걸 본 분들이 궁금해하시는 내용 위주로 좀 더 보강하자는 생각에 초안을 먼저 공유합니다.\n(아직 다 정리된 건 아니에요!)\nAX 전환에 대한 인사이트를 나누는 글들을 보면, 정작 그 인사이트가 어떤 맥락과 환경에서 나온 것인지에 대한 자세한 설명이 부족한 경우가 많다고 느낍니다.\n조직마다 규모, 예산, 인프라가 다 다른데 그 전제가 빠지면 좋은 인사이트도 내 상황에 그대로 옮기기 어렵습니다.\n작은 조직일수록 AI 네이티브한 일하는 방식을 훨씬 빠르고 과감하게 실험해 볼 수 있다고 생각합니다.\n실제로 그런 실험적인 시도를 앞장서서 보여주는 쪽은 인디해커나 소규모 스타트업인 경우가 많습니다.\n다만 그 경험을 300명, 500명, 2,000명 규모의 조직에 옮기려면 조직 구조, 의사결정 방식, 인프라의 복잡도가 달라져서 손봐야 할 지점이 꽤 있을 겁니다.\n반대로 큰 조직의 경험을 작은 조직에 그대로 옮기면 과한 프로세스가 되기 쉽습니다.\n결국 어느 쪽 경험이든 규모가 다른 조직에 그대로 이식하기는 어렵고, 그만큼 서로의 맥락을 참고하는 게 중요하다고 생각합니다.\n사업 규모나 형태도 다를 테고, 보안 레벨도 다르고, 사용할 수 있는 AI 플랜과 할당된 AI 예산도 다르기도 합니다.\n(전해 들은 어떤 대기업 사례인데, 엔터프라이즈 플랜을 쓸 수밖에 없어서 월 15억을 AI 예산으로 잡았는데 40억 이상이 사용돼 AI 사용 전체를 재점검했다고 하더라고요.)\n구축된 시스템 레벨, 연관된 저장소의 수, 크기, 흩어진 조직 맥락의 크기 등도 서로 너무 다릅니다.\n그래서 어떤 조직의 여정이 공유될 때는 항상 그 조직의 맥락도 함께 봐야 한다고 생각하기 때문에 저희의 맥락을 먼저 이야기해 드립니다.\n누적 가입자 수 165만 명, MAU 54만 명의 교육/채용 플랫폼인 인프런/랠릿 서비스를 운영하는 저희는 56명의 팀원이 함께하고 있습니다.\n이 안에서 제품 조직은 26명, 운영/사업은 30명으로 운영되고 있으며, 각 제품 스쿼드는 4-6명으로 구성되어 있고, 요즘은 1-4인 스쿼드를 실험적으로 도입 중입니다.\n엔지니어링 헤드, 데브옵스 팀장 등 명시적 리더 없이 CTO와 다이렉트로 일하고 있으며, 데브옵스 조직은 제 직속이고 각 스쿼드의 PM 분들이 매니저로서 일하고 있습니다.\n비슷한 조직이시라면 도움이 되실 것 같고, 규모가 다르시다면 참고용으로만 보시면 좋을 것 같습니다.\n저희 조직은 AI 도구를 작년 11월부터 본격적으로 사용하기 시작했습니다.\n저희 팀의 경험을 돌이켜보면\n1. 효율은 증명됐지만, 효과는 아직\nAX를 통해 효율을 증명하더라도, 구체적인 일정 규모 이상의 회사의 성과를 달성했는지는 아직 시간이 필요한 것 같음.\n\"효율이 좋아진 것\"과 \"효과가 좋아진 것\"은 다른 얘기임.\n연매출 100억(거래액 말고 순매출) 이상 규모에서 AX로 50%, 100%, 200% 성장했다는 회사는 주변에서 못 봤음.\n이 규모에서 지금까지 증명된 건 \"예전 성과를 더 적은 사람으로 낼 수 있다\"까지고, \"더 큰 성과를 낸다\"는 사례는 아직 못 봤음.\n2. 형식지가 먼저, 자동화는 그다음\n\"A->B->C로 일하면 100의 성과를 낼 수 있다\"처럼 어떤 방식으로 하면 어느 정도 성과가 난다는 형식지가 이미 구축되어 있으면, AI가 빠르게 자동화하고 효율을 높이는 데 도움을 줌.\n다만 500의 성과를 한 번도 내 본 적 없는 조직이 AI로 500을 내는 건 아직 어려워 보임.\n(테슬라 모델 3 사례가 그랬음.\n초기에 완전 자동화를 밀어붙였다가 생산이 막혔고, 머스크도 2018년 4월 \"과도한 자동화는 실수였다. 정확히는 내 실수다. 인간은 저평가됐다\"고 인정함.\n이후 로봇이 좌석을 옮기기만 하고 나사 조립과 배선은 사람이 마무리하는 식으로 공정을 다시 나눴음.\n머스크가 나중에 정리한 원칙인 \"요구사항에 의문을 제기하고, 불필요한 단계를 지우고, 단순화하고, 속도를 높인 다음 마지막에 자동화하라\" 도 결국 검증 안 된 프로세스부터 자동화하면 실패한다는 같은 얘기임.)\n3. 동기부여가 관리 대상\nAI로 성과를 더 내기 위해서 관리해야 할 대상은 동기부여임.\n의지 없는 팀원에게 AX 하라고 하면 딱 시키는 대로만 AI를 씀.\n회사가 정해 놓은 규칙대로만 쓰고, 결과는 책임지지 않음.\n리더가 시키는 대로는 다 했으니까.\n근데 이러면 AI는 최악의 도구가 됨.\nAI는 비결정적 도구라서 세 번, 다섯 번 한다고 원하는 결과가 나온다는 게 보장 안 됨.\n즉 능동적인 사람에게는 유효하지만 수동적인 사람에게는 전혀 도움이 안 됨.\n회사가 빡빡한 가이드라인을 만들면 결국 구성원들은 그 가이드대로 시키는 대로만 하는데, 원하는 결과가 안 나올 때 더 주도적으로 방법을 바꿔가며 노력해야 하는 게 거의 불가능해짐.\n결국 요즘 시대에 리더에게 가장 요구되는 것은 팀원들의 동기부여임.\n4. 같은 AI를 쓰는 기업간의 경쟁\n돈만 내면 누구나 최고급 모델(Fable 5, GPT 5.6 xhigh 등)을 쓸 수 있다면, 조직 간 경쟁력과 해자는 뭐가 될까 고민하게 됨.\n잊으면 안 되는 건, 이게 인간 vs AI 경쟁이 아니라 \"같은 AI 도구를 쓰는 조직 대 조직\" 의 경쟁이라는 점임.\n경쟁사도 나랑 똑같은 도구를 쓰는데, 그럼 우리는 뭘로 격차를 벌리고 경쟁력을 키우느냐가 남는 질문임.\n같은 도구를 쓴다고 같은 결과물이 나오지 않는다는 건 다들 이미 알고 있음.\n결국 예전과 비슷하게, 그 도구를 쓰는 조직 구성원의 역량, 그리고 그 역량을 채용하고 키워내는 조직의 미션, 비전, 문화, 프로세스가 경쟁력이 됨.\n5. 더 낮은 모델을 가지고 경쟁해야한다면\n그런데 최근 보면 \"돈만 내면 누구나\"라는 전제 자체가 흔들리고 있긴 함.\nFable 5 같은 최고급 모델이 정액제에서는 못 쓰고 종량제에서만 쓸 수 있게 바뀌는 중임.\n지금까지는 작은 회사가 팀플랜이나 개인 정액제로 거의 무한에 가까운 토큰을 아주 저렴하게 쓰고, 큰 회사는 엔터프라이즈 플랜을 쓸 수밖에 없어서 인당 200-300만 원씩 지원하면서도 개인당 토큰량은 Max 5x에도 못 미치는 경우가 있어서, 오히려 이 영역이 작은 회사가 가지는 경쟁력이였음.\n근데 최고급 모델이 정액제에서 빠지면 얘기가 달라짐.\n종량제 비용을 감당할 수 있는 회사와 감당하지 못하는 회사로 나뉘게 됨.\n즉, 고급 모델을 쓰는 회사 vs 중-저급 모델을 쓰는 회사의 경쟁 구도도 가능함.\n이 격차는 더 벌어질 것 같음.\n(팀플랜도 결국 종량제로 바뀔까 걱정임.)\n즉 구성원 역량 격차에 더해 모델 접근성 격차까지 새로운 경쟁 축으로 얹히는 셈임.\n우리가 갖고 있는 많은 전제에서 \"모델이 계속 발전하는 것\" 을 우리 모두가 \"충분히 사용\" 할 수 있다는 전제위에서 AI 네이티브 논의가 많은데,\n우리 회사가 그 좋은 모델을 쓸 수 있는 여력이 있는가,\n쓸 수 있다고 해도 얼마나 많이 사용할 수 있느냐,\n이에 따라 회사의 운영 방식이 크게 달라짐.\n우리가 사용중인 월 $125의 프리미엄 시트, 월 $200의 Max 20x에서는 Fable과 같은 고급 모델을 사용하지 못하고, 대기업 혹은 그에 준하는 큰 투자를 받은 회사들에서는 그걸 적극적으로 쓴다면 무엇으로 경쟁할 것인가? 라는 질문이 남음.\n타사보다 낮은 모델을 사용하면서도 타사와 경쟁한다면, 우리는 무엇을 해야 할까? 같은 고민을 시작하게 됨.\n최근 로이터가 소식통을 인용해 보도한 바에 따르면, 중국도 Qwen, Doubao, GLM 5.2 같은 자국 플래그십 모델의 해외 접근 제한을 검토 중이라고 함. 아직 논의 단계일 뿐 결정된 건 없고, 시행 여부와 시점, 이미 해외에 풀린 기존 모델까지 소급 적용될지도 전부 불투명한 상태임. 낯설지 않은 패턴인 게, 작년 미국도 앤트로픽의 최상위 모델 Fable과 Mythos에 대해 외국인 접근을 차단하라고 명령했고, 그 여파로 앤트로픽이 전 세계 모든 사용자를 대상으로 두 모델을 일시 비활성화한 적이 있음(이후 Fable은 안전장치를 보강해 전체 사용자에게 복원됐지만, Mythos는 여전히 미국 내 일부 신뢰 기관으로만 제한돼 있음). 결국 모델 접근성 격차는 이제 가격 문제만이 아니라, 그 모델이 어느 나라 소속이냐는 지정학적 요인으로도 벌어질 수 있다는 얘기임.\n[지적 자산]\n6. 쌓아온 데이터 == 퍼포먼스\n그동안 팀이 어떤 데이터를 쌓아 왔느냐에 따라 퍼포먼스 차이가 많이 남.\n팀 컨벤션 문서가 이미 관리되고 있는지, 테스트 코드를 이미 작성하고 있는지, Jira나 컨플루언스 등에 의사결정 과정을 계속 기록해두고 있는지 등, 팀의 암묵지와 형식지가 얼마나 쌓여 있느냐에 따라 결과가 다름.\n7. 모든 사내 회의 녹음부터\n회사의 암묵지가 뭔지조차 모르겠다면, 모든 사내 회의를 녹음하는 것부터 시작하면 좋음.\n문서로 정리된 것들에는 결과와 후속 액션 정도만 남고, 회사의 진짜 암묵지, 지적 자산은 \"의사결정 과정\" 그 자체임.\n구글의 아키텍처 결정 레코드처럼 의사결정 과정 자체를 기록으로 남기는 프레임워크가 있어야 함(여기서 프레임워크는 특정 기술을 의미하는 게 아님).\n그때 왜 그런 의사결정을 내렸는지 맥락이 남지 않으면, 조금만 응용된 상황이 와도 성공 경험을 전혀 활용하지 못하고 전혀 다른 의사결정이 나오게 됨.\n그러면 AI도 완전히 다른 맥락을 갖게 됨.\n8. AX는 전담인력을 팀 안으로\n녹음 말고 암묵지를 형식지로 만드는 또 다른 방법은, 전담 인력을 그 팀 안에 제대로 밀어 넣고 한 팀으로 일하게 하는 것임.\n그 인력이 옆에서 팀원들이 일하는 걸 보면서, AI가 참고할 수 있는 형식지를 계속 뽑아내게 하는 방식임.\n[도구]\n9. KB(Knowledge Base), MCP, FDE\n전사 업무 생산성을 크게 높여준 건 KB(Knowledge Base), 각종 MCP(아틀라시안, 구글 캘린더, 지메일, 빅쿼리, 믹스패널, 데이터독, 깃허브), FDE의 침투(백엔드 엔지니어 한 명이 마케팅 팀 소속의 AX 엔지니어로 옮겨서 일하는 것)였음.\n10. 전사 AI 도구는 하나로 통일\nAI 도구는 파편화하지 않고 단일 도구로 통일하는 게 좋음. Claude, OpenAI, Gemini 등을 다 같이 쓰게 하기보다는, 전사 AI 도구는 이걸로 간다고 하나를 확정하고 그 안에서 개개인의 노하우를 공유하면 다 같이 효과를 보는 형태로 가야 함.\n도구가 파편화되면 노하우도 분산됨.\n예전에는 각자 자기한테 가장 잘 맞는 도구를 쓰게 뒀는데, 노하우를 한곳에 모으는 것보다 개개인에게 맞는 도구를 쓰는 게 전체 합이 더 컸기 때문임.\n그런데 AI는 가능성과 확장성이 거의 무한대라 한계효용의 법칙이 잘 안 통함.\n그래서 수십에서 수백 명이 하나의 도구를 쓰면서 플러그인, 스킬, MCP, 프롬프트 가이드 같은 노하우를 거기에 집중시키는 게, 개개인 입맛에 맞는 도구를 따로 쓰게 하는 것보다 훨씬 나은 조직 성과를 냄.\n11. LLM 성능보다 문서 도구의 검색 품질\nMCP를 연결해도 문서 탐색은 결국 문서 도구의 검색 결과에 의존함.\nLLM이 전사 데이터를 다 들고 있는 게 아니라, 우리가 자연어로 질의하면 그걸 문서 도구의 검색 스펙에 맞는 조건으로 바꿔서 대신 호출하는 구조임.\n그러니 아무리 데이터를 연결해도, 내가 찾는 그 데이터를 실제로 가져오는 건 LLM 성능보다 문서 도구의 검색 품질이 더 중요함.\n그래서 검색 품질이 좋은 도구를 써야 하고, 잘 지원되는 문서 도구에 사내 문서와 데이터를 모아둬야 함(아틀라시안 제품 등).\n[인프라]\n12. 버전 관리부터\nAI 환경에서 가장 안전한 방법은 데이터와 환경을 버전 관리가 되도록 관리하는 것임.\n즉 Git을 도입해야 함. 회의록, PRD도 버전관리가 되는 환경에서 작성돼야 함.\nAI는 비결정적 도구라 여러 번 작업한다고 항상 더 나은 결과가 나온다는 보장이 없고, 잘못 실행돼서 결과물이 날아가는 경우도 많기 때문임.\ngit 도입이 어렵다면 최소한 전사 문서 도구만큼은 항상 버전 관리가 되는 걸 써야 함.\n13. IaC & GitOps\nIaC & GitOps를 꼭 구축하기를 권장함.\nGitOps 환경이 되면 개발팀이 인프라팀에 Jira 티켓으로 요청하는 대신 PR로 직접 인프라를 바꾸고 인프라팀은 리뷰만 하면 돼서, 요청 하나하나의 세부 맥락을 인프라팀이 다 짊어지는 부담이 크게 줄어듦.\n본인이 Pulumi로 인프라를 직접 수정해보고 테스트 코드를 돌려서 깨지는 게 있는지 확인하고, 인프라 수정이 올라올 때 AI가 리뷰해서 코멘트를 남기는 도구까지 갖춰지고 나면 이런 환경이 주는 심리적 안정감과 속도감은 차이가 큼.\n(물론 이건 리소스 설정값 수준의 검증이고, 실제 클라우드 동작까지 확인하려면 별도 통합 테스트가 필요함.)\n롤백도 쉬움.\n비슷하게 데이터베이스 테이블 관리도 flyway 같은 마이그레이션 도구의 필요성이 예전부터 강조돼 왔지만, 이젠 그게 더 커짐.\n버전 관리가 가능한 데이터여야 AI가 의도와 맥락을 이해하고, 혹시 AI가 실수해도 되돌아가서 수정할 수 있음.\n[보안]\n14. AISecOps\nDevSecOps가 대두되듯이 AISecOps도 필요하다고 느낌. DevOps 시대가 오면서 개발과 운영을 함께 보는 문화가 됐는데, 그 안에서 보안팀이 결국 병목이 되는 문제가 있음.\n\"덮어놓고 안 된다고만 하면 오히려 음지에서 AI를 쓰게 되고, 이게 더 큰 문제를 만듦\".\n팀의 생산성과 변화는 충분히 주면서 보안도 챙기려면, 보안팀이 AI를 더 잘 이해하거나 AI를 쓰는 사람이 보안을 공부하거나 둘 중 하나는 해야 함.\nAI와 보안이 따로 있고 책임이 분리되어 있으면 서로 자기 시야로만 프로세스를 세우게 되는데, 이게 문제를 더 키움.\n우리 팀은 원래 데브옵스가 보안을 같이 책임지는 구조라 AI도 이 조직을 중심으로 두고, 데브옵스와 AI와 보안을 한 조직에서 관리함. 편하게 쓰고 싶은 마음과, 최소한 지켜야 할 선이 어디까지인지는 항상 같이 고민할 수밖에 없음.\n15. 개인 구독 AI 도구 금지\n토큰 비용이 아깝다고 AI 도구를 개인 계정으로 쓰게 해서는 안 됨.\n클로드는 팀플랜(150명 이하)에서 정액제로 지원하니까 최대한 이 플랜부터 활용해야 함.\n보안팀이 관리하지 못하는 형태로 AI를 쓰게 해서는 안 됨.\nMCP를 통한 보안 사고가 너무 많아서 사내에서 화이트리스트로 MCP를 관리해야 하고, 특히 사내 데이터 접근을 AI에 열어줄 거면 절대 개인 계정에 열어두는 방식으로 가면 안 됨.\n16. AI Proxy 게이트웨이\nLLM API는 항상 AI Proxy 게이트웨이를 통과하도록 구축해야 함.\n기존 API 모니터링은 요청 수(count) 기반으로 이상 패턴을 감지하고 알림을 보내고 추적했는데, AI API는 요청 수가 같아도 토큰 사용량에 따라 비용이 천문학적으로 차이가 날 수 있어서 count만 보는 기존 방식으로는 이 비용 이상을 못 잡음.\n그래서 로깅, 알림, 모니터링을 토큰/비용 기준으로 따로 구축해야 하고, 이걸 하려면 중간에 게이트웨이가 필수적임.\n구축된 것과 아닌 것의 차이가 큼.\n서비스 개발 단계뿐 아니라 실제 서비스에서 나가는 AI 호출도 어디서, 얼마나, 왜 이렇게 나가는지 트래킹해야 함.\n17. 구글 워크스페이스를 Primary 계정으로\n구글 워크스페이스 계정이 사내에서 사용하는 서비스들의 Primary 계정이자 권한 단위가 되는 게 맞는 방향인 것 같음.\nAI 도구, AWS, 데이터독, 아틀라시안, VPN(Tailscale) 등 대부분은 구글 워크스페이스를 SSO/IdP로 붙일 수 있음.\n이후 결국 그 팀원에게 수많은 사내 서비스들의 권한이 어떻게, 어디까지 할당되어 있느냐를 추적/관리하기 위함임.\n18. DB 접속은 IAM 임시 자격 증명으로\nDB 접속 정보는 정적인 id/pw가 아니라 IAM 기반의 임시 자격 증명으로 관리해야 함.\nSecrets Manager 자동 로테이션도 좋지만 그건 오래 사는 비밀번호를 주기적으로 교체하는 것이라, 유출되면 다음 로테이션까지 몇십 일을 살아있고 앱 메모리나 환경변수 어딘가에 항상 정적인 값으로 존재해서 AI 에이전트에게 DB를 열어줄수록 그 값이 그대로 유출 경로가 됨.\n반면 RDS나 Cloud SQL의 IAM DB 인증은 접속할 때마다 15분짜리 토큰을 새로 발급받는 방식이라 저장해 둘 비밀 자체가 없고, 사람/서비스/에이전트별로 계정을 쪼개 권한을 좁힌 뒤 사고가 나면 전체 로테이션 없이 그 주체의 IAM 정책만 떼서 몇 초 만에 끊을 수 있음.\n다만 지원 엔진이 제한적이고 신규 커넥션이 아주 많은 워크로드엔 부담이라, IAM 인증이 안 되는 DB는 Secrets Manager 자동 로테이션이 차선임.\n19. 환경변수는 별도 저장소에서 런타임 주입\n모든 환경변수도 버전관리, 수정 이력, 권한 관리가 가능한 별도의 private 저장소에서 관리하고 런타임에 가져오는 구조로 가야 함.\n코드 저장소에 그대로 박아두거나 개인 메모, 메신저로 공유하면 누가 언제 무엇을 바꿨는지 추적도 안 되고 권한 회수도 안 됨.\n20. 데이터는 권한 관리가 되는 DW로\nAI를 통해 누구나 자연어로 쉽게 비즈니스, 퍼널 데이터를 보게 만들고 싶다면 계정 단위로 테이블/컬럼 권한 관리가 가능한 도구에 데이터를 모아야 함.\n예를 들어 빅쿼리 같은 전문 DW(데이터 웨어하우스) 도구.\n단순히 조회용 RDB를 연결하는 방식도 있지만, 개인정보나 민감 정보를 컬럼/계정 단위로 세밀하게 막으려면 계정마다 개별 GRANT를 반복해야 해서 수백 명 규모로는 관리가 너무 복잡함.\n조회용 RDB보다 빅쿼리 같은 전문 DW 도구가 유리함.\n구글 계정과 바로 통합되고 정책 하나(정책 태그)로 여러 테이블에 걸쳐 컬럼 단위 접근을 관리할 수 있고, 행 단위 보안도 지원함.\nDB 테이블, 마케팅 데이터(믹스패널 등), 프로덕트 릴리즈 데이터(서비스 출시 기록, DORA 메트릭 등)가 빅쿼리에 모여있고 계정 단위로 권한 관리까지 되면, MCP로 연결한 뒤 예전부터 이야기하던 \"데이터가 흐르는 조직\"을 AI의 도움으로 가능하게 할 수 있을 것 같음.\n단, 온디맨드 과금은 쿼리가 스캔하는 데이터 크기만큼 부과되는 구조라 로그성 데이터까지 모두 담으면 비용이 늘 수 있음.\n정액형(Editions/슬롯 예약) 과금이나 파티셔닝, 클러스터링으로 스캔량을 줄이는 방법을 함께 고려하는 게 좋음.\n21. 해커도 AI를 씀\n해커도 AI를 사용하고, AI와 함께하는 해커는 우리가 쓰는 범용 AI보다 더 뛰어나다는 점을 잊으면 안 됨.\n데이터독 같은 모니터링 도구를 잘 활용하면, 장애 로그를 AI가 분석해서 문제 해결 코드를 만들고 PR까지 올리는 과정을 자동화할 수 있음.\n다만 브라우저나 앱 같은 클라이언트 사이드 에러를 수집하는 SDK를 통해 오히려 공격이 들어오는 경우가 있음.\n2026년 6월 공개된 사례가 그런 경우인데, 정확히는 SDK 자체의 결함이 아니라 공개된 에러 수집 키에 조작된 데이터를 주입하고 AI 코딩 에이전트가 MCP를 통해 그걸 신뢰할 수 있는 지시로 착각해서 실행하는 방식임.\n(예: 관련 사례)\n버그 수정까지 사람 개입 없이 완전 자동화하겠다는 건 둘 중 하나임.\n우리 서비스가 해커 입장에서 공격할 만한 가치가 없을 만큼 작거나, 보안팀이 완벽하게 다 막아주고 있거나.\n여러 모니터링 도구를 MCP로 연결해서 개발자가 버그를 쉽게 해결하도록 효율화하는 건 좋지만, 사람이 전혀 개입하지 않는 방향으로 완전히 넘어갈 수는 없음.\n특히 프론트엔드는 UI 변경이 잦아서 자동화해도 괜찮을 거라 생각하기 쉬운데, 그러다 큰일 날 수 있음.\n깃헙 저장소의 시크릿이나 CI 환경 같은 인프라가 백엔드와 프론트엔드로 완전히 격리돼 구현되는 경우가 거의 없어서, 프론트엔드 프로젝트가 오염되면 서비스 전체가 영향을 받을 수 있음.\n[마치며]\n쓰고 나서 다시 읽어보니 새로운 이야기가 많지 않습니다.\n문서화, 테스트 코드, 버전 관리, 권한 관리처럼 예전부터 중요하다고 하던 것들이 대부분입니다.\n\"피닉스 프로젝트\"와 \"유니콘 프로젝트\"가 그리던 암묵지의 문서화와 병목 없는 보안, 데이터가 흐르는 조직, \"코드로 인프라 관리하기\"가 말한 버전 관리와 IaC, \"Release의 모든 것\"이 말한 사람의 개입 지점을 남겨둔 자동화는 전부 AI가 나오기 전부터 있던 이야기입니다.\n지난 9개월 동안 저희가 확인한 것도 그 이야기들이 AI 시대에 여전히 유효하고, 몇몇은 더 절실해졌다는 것이었습니다.\n그래서 지난 9개월은 AI 도구를 배우는 시간이기도 했지만, 미뤄뒀던 숙제들을 더는 미룰 수 없게 된 시간에 가까웠습니다.",
+    "title": "사냥당하던 직원이 슈퍼파워를 쥐면",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/882",
-    "pubDate": "Mon, 13 Jul 2026 09:31:48 +0900",
-    "creator": "향로 (기억보단 기록을)",
+    "link": "https://beejei.medium.com/%EC%82%AC%EB%83%A5%EB%8B%B9%ED%95%98%EB%8D%98-%EC%A7%81%EC%9B%90%EC%9D%B4-%EC%8A%88%ED%8D%BC%ED%8C%8C%EC%9B%8C%EB%A5%BC-%EC%A5%90%EB%A9%B4-d72aeb4bb5bb?source=rss-9f14ea26d32f------2",
+    "pubDate": "Mon, 13 Jul 2026 03:48:22 GMT",
+    "creator": "Beejei",
     "categories": [
-      "회고",
-      "#AI #AX #AI네이티브 #조직문화 #DevOps #스타트업 #CTO #개발문화"
+      "hr",
+      "ai"
     ]
   }
 ]
