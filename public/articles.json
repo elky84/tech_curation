@@ -2,36 +2,22 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
-    "description": "One of the best parts of a Visual Studio Subscription is discovering benefits that can make your day-to-day development work easier and more cost effective. One benefit that deserves more attention is Azure Dev/Test pricing. In fact, it’s one of the most valuable benefits included with a Visual Studio Subscription.  If you’re building cloud applications, testing new ideas, or maintaining multiple development environments, cloud costs can sometimes […]\nThe post The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure appeared first on Visual Studio Blog.",
+    "title": "Key Takeaways From PHPverse 2026",
+    "description": "On June 9, PHPverse 2026 brought together PHP developers from different backgrounds to watch talks by domain experts, exchange opinions, and even try to catch a running elePHPant. The five-hour live stream has been viewed 15,000 times in total and received 10,206 live chat comments, with over 2,600 people watching concurrently at peak hours.  Our […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-dev-test-benefit-freedom-to-build-test-and-experiment-in-azure/",
-    "pubDate": "Mon, 13 Jul 2026 22:21:36 +0000",
-    "creator": "James Rempt",
+    "link": "https://blog.jetbrains.com/phpstorm/2026/07/key-takeaways-from-phpverse-2026/",
+    "pubDate": "Fri, 17 Jul 2026 07:57:46 +0000",
+    "creator": "Hanna Yakush",
     "categories": [
-      "Azure",
-      "Visual Studio"
+      "community",
+      "events",
+      "insights",
+      "phpverse"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing",
-    "description": "In large C++ codebases, your code understanding and navigation depend on quickly determining how symbols, declarations, definitions, and references are connected across your project. In Visual Studio Insiders 18.9, the new whole codebase indexing (WCI) enhances the existing browse database via a deeper, more comprehensive indexing approach. This preview feature allows Visual Studio to access […]\nThe post Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/rethinking-c-performance-faster-code-navigation-and-github-copilot-tools-with-whole-codebase-indexing/",
-    "pubDate": "Tue, 14 Jul 2026 22:28:13 +0000",
-    "creator": "Alexandra Kemper, Henrique Fernandes Baggio, Sinem Akinci",
-    "categories": [
-      "C++",
-      "performance",
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 3,
     "imageUrl": "",
     "title": "Visual Studio Administrator? Join our Private Marketplace Preview!",
     "description": "Organizations are increasingly looking for greater control over extensions within development environments. Driven by security, compliance, and internal governance requirements, teams want more visibility into how developers discover and acquire extensions. To address these needs, we’re excited to begin previewing Private Marketplace support in Visual Studio. Private Marketplace for Visual Studio For organizations familiar with […]\nThe post Visual Studio Administrator? Join our Private Marketplace Preview! appeared first on Visual Studio Blog.",
@@ -50,180 +36,7 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Key Takeaways From PHPverse 2026",
-    "description": "On June 9, PHPverse 2026 brought together PHP developers from different backgrounds to watch talks by domain experts, exchange opinions, and even try to catch a running elePHPant. The five-hour live stream has been viewed 15,000 times in total and received 10,206 live chat comments, with over 2,600 people watching concurrently at peak hours.  Our […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2026/07/key-takeaways-from-phpverse-2026/",
-    "pubDate": "Fri, 17 Jul 2026 07:57:46 +0000",
-    "creator": "Hanna Yakush",
-    "categories": [
-      "community",
-      "events",
-      "insights",
-      "phpverse"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "게임공략 - 택틱스 오우거 리본  - 1장 / 2026-07",
-    "description": "94년도 쯤에 SFC 로 해봤던 기억이 있는데\n스토리는 모르고 그냥 플레이 했던 기억만 있다.\n이버넹 한글화가 되었고 SFC 판 보다 스토리가 더 보충된 버전이기 때문에 \n해볼만한 가치가 있다고 하는데\n \nPC 버전으로 하고 있는데 이상하게 글씨가 번져 제대로 읽기 어려웠다.\n왜이러지 ...\n \n \n \n콰드리가 요새 - 첫번째 통곡의 벽 / 언데드 출연\n패치가 된건지 죽은 언데드 안살리네요 \n쉬워졌습니다.\n처음에 등장하는 통곡의 벽 넼로맨서 나오는 요새 에서\n못깨서 1년을 잊다가 다시 진행했습니다.\n다시 붙잡고 장비부터 싹고쳐서 깼습니다.\n- 나이트와 클래릭을 추가해서 힐러가 4명\n- 버서커는 방패를 제거해서 턴이 빨리 오도록\n- 날아다니는 애는 방패만 들고 가서 요새 꼭대기의 궁수를 밀어 죽이려고 했으나 안밀려 떨어지네요 (실패)\n이렇게 해서 통곡의 벽을 넘었고\n \n옛 수로 라임 - 시스티나 구해주기\n마을에서 시스티나 구하는 시나리오 클리어후 선택지가 떳습니다.\n\n\n2번 세계평화를 고르면 시스티나를 얻을 수 있다고 하네요\n호리호리한게 잘싸우게 생겨서 2번 고릅니다. (세계 평화는 안중에 없다)\n공략에는 이 시나리오가 카오스 시나리오라는군요 \n마을 청년이 세계평화 이루겠다고 하는게 카오스 맞네요\n \n콜랐는데 일단은 동료가 안되고\n바이스가 시비 털고 시스티나를 싫어합니다.\n바이스 = 월스터인 은 탄압 받는 민족이라\n시스티나의 민족 해방 할꺼라는 이상적인 이야기는 현실성 없다고 판단한다는군요\n레오나르  는 시스티나를 쫓아냅니다.\n이 동네는 일러스트 이쁘다고 받아주는 파이어 엠블렘이랑은 다른 세계 였습니다.\n \n \n피도크 성 도착 - 암흑기사단 (이름만 봐선 악당이다.)\n암흑기사 랜슬롯 등장 (로디스 인)\n\n\n바닥에 채스 말판 같은 타일 깔아놯다 (인테리어 + 1점)\n \n대화중에 카츄아가 갑자기 옛날에 쳐들어온 이야기를 꺼내서 \n분위기를 초상집으로 만들려고 합니다.\n선택지 등장\n\n\n1번을 고르면 후반에 누나가 동료가 되는 해피 엔딩이라고 합니다.\n2번은 적이되나 봅니다.\n저는 일단 1번 고릅니다.\n \n1번 고르니까 용서해 달라고 하는 랜슬롯\n훈훈하게 풀려가네\n퇴실할때 의자 밀어서 테이블에 넣어주는 디테일이 있다.\n(훌륭)\n \n대화 끝나고 지도로 나가니 어디가라로 찍혀있는 곳이 없네\n \n아르모리카 성\n아르모리카 성으로 돌아가는길에 이벤트 가 뜬다.\n\n\n론웨 공작이 발마무사 로 향하라고 한다.\n거기에는 월스터인 강제 수용소가 있다고 한다.\n5천명이 노예 생활 중이라고 한다.\n5천명을 구할 순 없고\n설득해서 봉기를 일으키라는 임무를 준다. \n아직은 봉기가 일어날 만큼 불만이 쌓이진 않았나보다.\n(현실적이넹)\n라바니스가 게스트 동료로 들어왔다는데\n\n\n얘가 라바니스 / 발키리\n창쓰고 / 힐 마법도 쓴다. \n지도에 왼쪽에 길이 생겼다\n \n보르두 호숫가\n\n\n가는길에 성기사 랜슬롯 과 대화 씬이 있다.\n암흑기사 랜슬롯이랑은 다른 사람 맛제\n \n대화중에 오르골을 꺼내는 디테일이 있다.\n부인의 유품이라고 한다.\n \n보르두 호숫가 - 여기서부턴 스팩상 어려워진다.\n전투는 보르두 군이랑 치룬다.\n원거리 공격수가 많아서 그냥 어렵다.\n스킬을 제대로 장비하자\n전투원들 중에 무기 관련 튻화 스킬이 있다 알맞게 장비해주자\n한손검 양손검 도끼 망치 창 같은 것들이다.\n공격 스킬로 맥시멈 이팩트 라는게 있는 경우가 있다.\n2배 공격력 스킬이니 있다면 반드시 챙겨주자\n이제 스팩상 적들이 강하다.\n강력한 무기와 공격 스킬로 빠르게 제압하지 않으면 화살과 마멉을 많이 맞아 어려워진다.\n팁:\n1. 힐러는 어차피 근접 공격 할일이 잘 없으니 지팡이 빼도 된다.\n2. 버서커는 방패 없이 딜에 집중하자\n3. 워리어는 양손검으로 가자\n4. 나이트는 힐을 사용할 수 있다.\n5. 힐러는 굳이 컨트롤 할 필요 없이 AI 로 조정해도 괜찮다.\n \n\n\n기사 렉센테일 이 대장인가보다\n일러 그리기 귀찮았는지 시커멋게 칠해놯다\n중간에 라비니스 랑 아는척 한다.\n \n조드 습지 전투 - 비스트 테이머와 그리핀 두마리\n험상굳게 생긴 비스트 테이머가 그리핀 2마리를 불러옵니다.\n그리핀 한마리만 빠르게 조지면 전투가 금방 끝납니다.\n \n레아 봄 전투 #1 - 지형상 적군이 불리하다.\n발마무사 로 가는길 마지막 전투다.\n간단하게 끝나며 다음 전투에서 이 지형을 반대로 진행해야하는데 그때는 언덕 올라가기가 어렵다\n이 전투가 끝나면 선택지가 나온다.\n월스터 인들을 선동해 공기를 일으켜야하지만 이들은 지쳐있고 현재 상태가 평화롭기 때문에 움직이지 않는다.\n이럴 경우 학살로 위장해서 다른 주민들을 설득하라고 계획이 있었다.\n데님은 학살에 동참할지 거부할지를 골라야한다.\n학살에 동조하면 바이스를 따라가고 (로우 시나리오)\n거부하면 가츄아와 도망자 신세가 된다. (카오스 시나리오)\n일단 정통 영웅 RPG 시나리오는 도망자 신세가 되는것이라 이걸 먼저 선택했다.\n \n레아 봄 전투 #2 - 도망치기 / 언덕 오르기\n왼쪽 언덕을 오르는 길이 그나마 길이 넓다 난이도 자체는 어렵지 않다.\n \n1부는 이렇게 끝난다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1676",
-    "pubDate": "Wed, 15 Jul 2026 19:00:51 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "게임",
-      "게임",
-      "게임공략"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Pick, manage, and get the most from your models",
-    "description": "You open the model picker, scroll past a dozen options, and pause. How are these models different? Which one should you actually use? And once you’re a few hundred messages deep, how much capacity is even left before things start dropping off? We’ve all been there. These are the kinds of questions Visual Studio now […]\nThe post Pick, manage, and get the most from your models appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/pick-manage-and-get-the-most-from-your-models/",
-    "pubDate": "Wed, 15 Jul 2026 14:28:43 +0000",
-    "creator": "Rachel Kang (SHE/HER)",
-    "categories": [
-      "Visual Studio",
-      "Copilot",
-      "GitHub Copilot",
-      "GitHub Copilot Chat",
-      "Models"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "WebStorm 2026.2: TypeScript 7 Support, GitHub Copilot Integration, Agent Skills, and More",
-    "description": "WebStorm 2026.2 is now available! If you work on a large TypeScript codebase, this release is a meaningful upgrade. TypeScript 7 support ships out of the box for projects already using it, delivering faster type checking without requiring full project migration. GitHub Copilot is now natively integrated – with no separate plugin or additional setup […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/webstorm/2026/07/webstorm-2026-2/",
-    "pubDate": "Thu, 16 Jul 2026 14:46:25 +0000",
-    "creator": "Valeriya Masyachenko",
-    "categories": [
-      "news",
-      "releases",
-      "webstorm-2026-2"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Rider 2026.2 Release Candidate Is Out!",
-    "description": "The Rider 2026.2 Release Candidate is ready for you to try. This upcoming release opens the IDE’s own intelligence to your AI coding agents, brings GitHub Copilot in natively, and delivers a wave of performance gains across both .NET and game development. Rider 2026.2 makes debugger launch and branch switching noticeably faster, speeds up Unreal […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/07/15/rider-2026-2-release-candidate-is-out/",
-    "pubDate": "Wed, 15 Jul 2026 12:43:30 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "net-tools",
-      "releases",
-      "rider",
-      "agent-skills",
-      "cmake",
-      "game-developement",
-      "gamedev",
-      "github-copilot",
-      "godot",
-      "natvis",
-      "release-candidate",
-      "unreal-engine"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "PhpStorm 2026.2 is Now Out",
-    "description": "Welcome to the PhpStorm 2026.2 release overview. This version advances PhpStorm as a platform for your preferred coding agents, models, and AI subscriptions, improves PHP and Laravel support, and delivers productivity gains for working with Git repositories, databases, and the built-in terminal. Download PhpStorm 2026.2 AI in PhpStorm PhpStorm 2026.2 adds native support for more […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/phpstorm/2026/07/phpstorm-2026-2-is-now-out/",
-    "pubDate": "Fri, 17 Jul 2026 09:18:17 +0000",
-    "creator": "Hanna Yakush",
-    "categories": [
-      "releases",
-      "2026-2",
-      "phpstorm",
-      "release"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "From weeks to a day: how we made LLM evaluation fast enough to iterate on",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/from-weeks-to-a-day-how-we-made-llm-evaluation-fast-enough-to-iterate-on-14e2d35198b4?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 14 Jul 2026 17:01:03 GMT",
-    "creator": "Baharak Saberidokht",
-    "categories": [
-      "technology",
-      "engineering",
-      "llm",
-      "infrastructure",
-      "software-architecture"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
-    "description": "Visual Studio now includes built-in Agent Skills, created by experts from the .NET and Azure teams, to help you better customize your agentic workflow and complete development tasks more efficiently, starting with the 18.8 Release. Agent Skills are reusable capabilities that enable your agent to perform structured tasks more reliably (to learn more about what […]\nThe post Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/built-in-agent-skills-in-visual-studio/",
-    "pubDate": "Tue, 14 Jul 2026 17:30:57 +0000",
-    "creator": "Simona Liao, Wendy Breiding (SHE/HER), Yun Jung Choi",
-    "categories": [
-      "Azure",
-      "GitHub Copilot",
-      ".NET"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
-    "description": "TL; DR At Meta’s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance.  When a Linux kernel upgrade risked regressing latency across Meta’s ad serving fleet, we turned to sched_ext — the upstream, BPF-based extensible scheduling framework — to build a scheduling policy customized to the Ads delivery [...]\nRead More...\nThe post Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
-    "pubDate": "Mon, 13 Jul 2026 16:00:50 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "ML Applications"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "게임공략 - 택틱스 오우거 리본 - 3장 / 2026-07",
-    "description": "3장 휘몰아치는 야심과 욕망, 나뒹구는 개와 돼지\n개 도 나오고 돼지도 나오는 챕터 제목 ㄷㄷㄷ\n현재 선택지는\n학살을 거부 했고\n시스티나를 구했고\n레오나르의 설득을 거절 했습니다.\n카오스 시나리오 입니다.\n \n01 - 항구마을 애슈턴\n\n\n현상금 사냥꾼 카논\n악당 느낌이다.\n중간에 자판 을 죽인게 데님으로 알고 있다는 소리를 한다.\n남는 시간이 있다면 통나무 등을 부수면 재료가 나온다.\n부수고 카드를 먹어야 획득 한다.\n \n전투 종료 후\n전투는 쉬웠다\n데님의 능력을 인정하며 쓰러진다.\n \n3장의 상점\n한손도 영손도 가 생겼다 칼이랑 다른건가\n채찍이 생겼다.\n양손검은 추가된게 없다.\n \n각종 강화 주문서 는 1개 가지고 있으면 소모되는건 아닌가 보다.\n왜 사라진다고 생각했었지 ㄷㄷㄷ\n \n02 - 조드 습지\n\n\n기사 메르나트레\n데님은 \"골리앗의 데님\" 으로 유명해졌다.\n처음부터 여기까지 오는데 몇달 박에 안지났는데 ㄷㄷㄷ\n특별히 힘든거 같이 않아  AI 로 진행 시켰다",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1678",
-    "pubDate": "Sat, 18 Jul 2026 22:14:14 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "게임",
-      "게임",
-      "게임공략"
-    ]
-  },
-  {
-    "id": 14,
+    "id": 3,
     "imageUrl": "",
     "title": "Faster C++ iterative builds with GitHub Copilot",
     "description": "Slow builds are a consistent theme of feedback from C++ developers. We built GitHub Copilot build performance for Windows so you can leverage Copilot to optimize your project’s build times. This workflow will find optimizations that bring your build times down. At first, we only measured the impact of build optimizations on full clean builds. […]\nThe post Faster C++ iterative builds with GitHub Copilot appeared first on C++ Team Blog.",
@@ -245,7 +58,19 @@
     ]
   },
   {
-    "id": 15,
+    "id": 4,
+    "imageUrl": "",
+    "title": "AI 인프라 설계의 기술적 레퍼런스, <NHN FactoryX 기술 백서>를 소개합니다",
+    "description": "[![NHN Cloud_meetup banner_FactoryX WP_202606_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerFactoryX%20WP202606900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 어제의 경험으로 내일의 변화를 만들어 내는 공장, NHN FactoryX\r\r\n필요한 만큼의 GPU를 사서 랙에 꽂으면 AI 인프라가 완성될까요? \r\r\n\r\r\n실제로 대규모 GPU 클러스터를 운영해 본 팀이라면, 장비 구매는 끝이 아니라 시작이라는 것을 알 수 있습니다. 수백 장의 GPU가 동시에 통신을 시도하는 순간 네트워크에 병목이 발생하고, 학습 데이터를 읽어오는 속도가 GPU 연산을 따라가지 못해 고가의 장비가 데이터를 기다립니다. 최신 AI GPU 랙의 전력 밀도는 60~90kW에 달하지만 공랭식 냉각의 실질적 한계는 30kW 부근이라 그 이상에서는 GPU 온도를 억제할 수 없고, 결국 시스템이 스스로 성능을 깎아내리기 시작합니다.\r\r\n\r\r\nGPU를 '사는 것'과 GPU를 'AI 인프라로 만드는 것'은 완전히 다른 문제입니다. 그리고 이 간극을 메우는 데 필요한 기술적 의사결정은 생각보다 많고, 예상보다 깊습니다.\r\r\n\r\r\nNHN FactoryX는 NHN Cloud가 7년 이상의 GPU 인프라 운영 경험을 바탕으로 만든 AI 워크로드를 위한 풀스택 환경입니다. NHN FactoryX 서울 데이터 센터에 4,080장의 GPU를 단일 클러스터로 묶어 FP8 기준 27.4 EFLOPS 규모의 연산 능력을 확보했습니다. 구조는 세 개의 계층으로 나뉩니다. 맨 아래에서 수랭식 데이터 센터와 GPU 클러스터(Infrastructure)가 물리적 기반을 제공하고, 그 위에서 GPU Live와 AI EasyMaker(Platform)가 GPU 자원의 동적 할당과 ML 파이프라인을 담당하며, 최상위에는 ProjectX(Service)가 위치해 기업 전용 AI 에이전트 개발·연동 환경을 제공합니다. 현재 산업계·학계·공공 기관이 이 플랫폼 위에서 LLM 학습, 멀티모달 AI 연구, 추론 서비스를 운영하고 있습니다.\r\r\n\r\r\n![01_3layers_900.png](https://image.toast.com/aaaadh/real/2026/techblog/013layers900.png)\r\r\n\r\r\n이번에 발간한 〈NHN FactoryX 기술 백서〉는 이 중 인프라와 플랫폼 영역의 설계 근거를 약 60여 페이지에 걸쳐 풀어 설명한 기술 백서입니다.\r\r\n\r\r\n\r\r\n## NHN FactoryX의 모든 것, 〈NHN FactoryX 기술 백서〉\r\r\nAI 인프라의 도입은 더 이상 장비 구매가 아니라 기술 검증을 동반하는 의사결정 프로세스입니다. GPU 모델 사양만 비교해서는 안 되며, 인터커넥트 토폴로지, 스토리지 I/O, 네트워크 병목 대응, 냉각 설계, 선형 확장성까지, 풀스택 관점의 설계를 동시에 고민해야 합니다. 이 전체를 한 곳에서 체계적으로 다룬 자료가 부재했기 때문에 NHN Cloud는 AI 인프라 요구 사항에 NHN FactoryX가 어떻게 답하고 있는지를 하나의 문서로 정리한 기술 백서를 발간했습니다.\r\r\n\r\r\n이 백서는 위에서 다룬 NHN FactoryX의 세 레이어 가운데 인프라와 플랫폼, 즉 AI 워크로드를 물리적으로 지탱하고 자원을 지능적으로 배분하는 두 레이어의 설계 철학과 기술 근거를 담고 있습니다. 백서는 먼저 기존의 범용 클라우드 인프라가 AI 워크로드에 대응하기에 어떤 점에서 한계가 있는지 짚는 데서 출발합니다. 기존 데이터 센터는 CPU 중심 연산, 공랭식 냉각, 이더넷 기반 네트워크를 전제로 설계되어 범용 워크로드에는 효율적이지만, 대규모 AI 학습에서는 구조적 병목에 직면합니다. 이 한계를 넘기 위해 NHN FactoryX가 어떤 설계 선택을 했는지를, 다음 네 개의 핵심 영역으로 정리합니다.\r\r\n\r\r\n![02_agenda_900.png](https://image.toast.com/aaaadh/real/2026/techblog/02agenda900.png)\r\r\n\r\r\n각 영역은 독립적으로 참조할 수 있지만, 풀스택 관점에서 서로 연결되어 있습니다. 여기에서는 이 백서가 다루는 질문 중 핵심이 되는 내용을 간략하게 훑어보고자 합니다.\r\r\n\r\r\n\r\r\n## 〈NHN FactoryX 기술 백서〉 훑어보기\r\r\n### \"왜 공기로는 안 되나요?\" - 공랭식 냉각의 구조적 한계\r\r\nAI GPU의 전력 밀도는 세대마다 가파르게 올라가고 있습니다. A100 시절에는 랙당 13\\~39kW 수준이었지만, 최신 B200/B300 세대에서는 랙당 90kW에 육박합니다. 문제는 여기서 발생합니다. 공기의 체적 열용량은 물의 약 1/3,500에 불과합니다. 같은 열을 제거하려면 공기는 물보다 3,500배 많은 양이 필요하다는 뜻입니다. 랙당 전력 밀도가 30kW를 넘는 순간부터 공랭식은 열역학적 한계에 부딪힙니다.\r\r\n\r\r\n〈NHN FactoryX 기술 백서〉는 이 한계를 ASHRAE 등급 기준과 CFD 시뮬레이션 연구를 인용해 구조적으로 짚어보고, D2C 수랭식 도입 시 반드시 검증해야 할 다섯 가지 요건(벤더 호환성, 인터페이스 표준화, 운전 파라미터, 확장성, 수질 관리)을 하나하나 설명합니다. NHN FactoryX는 이 과정을 거쳐 프리쿨링 연계 운전으로 PUE 1.15 이하를 달성할 수 있는 구조를 만들었습니다. 공랭식 대비 연간 냉각 에너지를 약 30~40% 절감할 수 있는 수치입니다.\r\r\n\r\r\n자세한 내용은  〈NHN FactoryX 기술 백서〉 2.3절 전력 및 냉각 설계에서 확인하실 수 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n### \"GPU 수천 장을 어떻게 나눠 쓰나요?\" - GPU Live의 설계 철학\r\r\nGPU 클러스터를 팀별로 고정 배정하면 운영은 단순하지만, 대규모 클러스터 트레이스 분석에서 자원 활용률이 한 자릿수에서 30%대에 머무르는 사례가 보고되어 왔습니다.\r\r\n\r\r\nGPU Live는 이 문제를 동적 할당 기술로 풀되, 자체 스케줄러를 새로 만들지 않고, Kubernetes 표준 생태계의 검증된 컴포넌트 위에 NHN FactoryX 환경에 맞는 운영 정책을 얹는 방식을 택했습니다. GPU 드라이버 업데이트나 분산 학습 프레임워크의 변화를 표준 경로로 흡수할 수 있고, 향후 NPU 같은 이종 가속기가 등장해도 동일한 표준 인터페이스로 통합이 가능하도록 하기 위함입니다.\r\r\n\r\r\n그 위에 GPU Live가 직접 설계한 영역이 있습니다. 3계층 멀티테넌시(System → Organization → Project)로 조직 간 자원·정책·권한을 격리하고, GPU 기준 Best-fit 빈패킹으로 단편화를 줄이며, 쿼터·오버부킹·자동 회수를 결합해 활용률을 끌어올립니다. 학습 워크로드는 Gang Scheduling으로 일괄 시작·종료하고, 추론 워크로드는 인스턴스 단위로 장애 복구와 재배치를 처리합니다. 같은 GPU 풀에서 성격이 전혀 다른 두 워크로드를 안정적으로 수용하는 구조입니다.\r\r\n\r\r\n자세한 내용은  〈NHN FactoryX 기술 백서〉 2.4절 GPU 동적 할당 기술(GPU Live)에서 확인하실 수 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n### \"베어메탈이면 충분하지 않나요?\" — GPUaaS를 선택한 이유\r\r\n베어메탈 방식은 GPU 자원을 물리 서버 단위로 직접 할당하므로 하드웨어 성능을 최대한 활용할 수 있습니다. 다만 다수의 사용자가 동일 인프라를 공유할 경우 테넌트 간 보안 격리가 보장되지 않고, 테넌트별 환경 구성이 상이하여 장애 발생 시 일관된 운영 정책을 적용하기 어렵다는 한계가 있습니다.\r\r\n\r\r\nNHN FactoryX는 이 한계를 극복하기 위해 GPU 인프라 상위 계층에 GPUaaS 플랫폼을 구축하는 방식을 택했습니다. 테넌트·워크스페이스·프로젝트로 이어지는 계층적 구조를 기반으로 자원과 보안 통제를 일관되게 적용하고, 한 기관에서 대규모 학습으로 자원 사용량이 급증하더라도 다른 기관의 서비스에는 영향이 없는 격리 구조를 실현했습니다. 실제로 957개 GPU 노드 위에서 산업계·학계·연구계의 다수 기관이 독립된 워크스페이스를 운영하고 있습니다.\r\r\n\r\r\n서비스 계층이 추가되면 네트워크 병목으로 인한 성능 저하가 우려될 수 있지만, NHN FactoryX는 GPUaaS 플랫폼 환경에서 255노드 규모의 HPL(High Performance Linpack) 벤치마크를 수행해 베어메탈과 동일한 수준의 성능을 확인했습니다. 컨테이너가 호스트 수준의 네트워크 성능을 유지하도록 설계한 결과입니다.\r\r\n\r\r\n자세한 내용은  〈NHN FactoryX 기술 백서〉 06장 활용 사례에서 확인하실 수 있습니다.\r\r\n\r\r\n\r\r\n## 마치며\r\r\n\r\r\n이 글에서는 〈NHN FactoryX 기술 백서〉의 핵심 내용 중 일부를 살펴보았습니다. 백서 전체를 관통하는 메시지를 한 문장으로 요약해 보면 이렇습니다. AI 인프라는 개별 하드웨어의 성능 향상을 넘어, 물리적 공간 설계부터 전력 및 냉각 효율, 초고속 네트워크 튜닝, 소프트웨어 정의 기반의 관리 플랫폼까지 모든 요소가 유기적으로 통합되어야 합니다.\r\r\n\r\r\nNHN FactoryX는 이 통합을 하나의 공간에서 실현합니다. 수랭식 데이터 센터 위에 GPU 클러스터를 구성하고, GPUaaS 플랫폼으로 자원을 관리하며, AI 개발 플랫폼까지 3개 레이어를 풀스택으로 제공합니다. 동일한 GPUaaS 아키텍처 위에서 멀티테넌트 공유 환경과 기업 프라이빗 전용 환경이 모두 구현되며, 957개 GPU 노드 규모에서 베어메탈 동등 수준의 성능과 조직 간 보안 격리를 동시에 달성하고 있습니다.\r\r\n\r\r\nAI 인프라는 현재진행형입니다. GPU 세대 전환에 따른 전력 밀도 증가, Kubernetes DRA를 비롯한 자원 관리 표준의 진화, NPU 등 이종 가속기의 등장은 인프라 설계의 전제 조건을 지속적으로 변화시킵니다. NHN FactoryX는 차세대 GPU 플랫폼까지의 상위 호환성을 전제로 수랭식 인프라를 설계하였으며, GPU Live의 동적 할당 모델을 이종 가속기로 확장하기 위한 기술 검토를 진행하고 있습니다.\r\r\n\r\r\n백서에는 이 글에서 미처 다 다루지 못한 GPU 세대별 사양 비교, 5가지 성능 저하 패턴과 설계 단계 체크리스트, Scalable Unit 기반 증설 전략, 기업 프라이빗 AI 인프라 구축 사례 등이 구체적인 수치와 다이어그램과 함께 담겨 있습니다. AI 인프라 도입을 검토하는 기술 의사결정자, 대규모 AI 시스템을 설계하거나 운영하는 아키텍트 및 엔지니어 분들께 실질적인 기술 레퍼런스로 활용되길 기대합니다.\r\r\n\r\r\n긴 글을 읽어 주셔서 감사합니다. ‍♀️\r\r\n\r\r\n\r\r\n>  [NHN FactoryX 공식 포털 바로 가기](https://www.nhnfactoryx.com/?utm_source=meetup&utm_medium=post&utm_campaign=meetup&utm_content=0713_xwhitepaper)\r\r\n> \r\r\n>  [NHN FactoryX 기술 백서 다운로드](https://info.nhncloud.com/factoryx-whitepaper?utm_source=meetup&utm_medium=post&utm_campaign=meetup&utm_content=0713_xwhitepaper)\r\r\n> \r\r\n>  [NHN FactoryX 소개서 다운로드](https://info.nhncloud.com/factoryxbrochure?utm_source=meetup&utm_medium=post&utm_campaign=meetup&utm_content=0713_xwhitepaper)\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_grayd9d9d9_202606_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfootergrayd9d9d9202606900.png)](https://www.nhncloud.com/kr)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://meetup.nhncloud.com/posts/417",
+    "pubDate": "Mon, 13 Jul 2026 02:57:40 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
     "imageUrl": "",
     "title": "ReSharper 2026.2 Release Candidate Released!",
     "description": "The ReSharper 2026.2 Release Candidate is ready for you to try. This release takes the first step toward ACP-based agent support in Visual Studio, starting with Junie in Preview, and sharpens everyday C# development with better analysis, refactoring, and .editorconfig integration. It also brings broader tool support in Out-of-Process mode and continued C++ language work. […]",
@@ -264,5 +89,151 @@
       "dottrace",
       "junie"
     ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "경계가 만든 길, Load Balancer(DSR)",
+    "description": "[![NHN Cloud_meetup banner_DSR_202607_900.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerDSR202607900%281%29.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n기존의 프록시 방식 로드 밸런서(LB)는 클라이언트와 서버 사이에서 양쪽 연결을 모두 종단하고 데이터를 중계하는 구조입니다. 요청과 응답이 모두 LB를 경유하기 때문에, 응답 트래픽이 클수록 LB가 병목이 됩니다. 1KB 요청에 100MB 응답이 나가는 워크로드라면 응답이 LB 대역폭 대부분을 소모합니다. 접속자가 늘수록 LB 처리량이 선형으로 증가하고, 백엔드 서버를 늘려도 LB 자체가 처리량의 상한이 됩니다.\r\r\n\r\r\nL7 라우팅이나 SSL 종단이 필요한 표준 웹 서비스에서는 프록시 방식이 적합합니다. 하지만 응답 트래픽이 크거나 낮은 레이턴시가 중요한 워크로드에서는 구조적인 한계가 있습니다. 응답까지 LB를 경유하는 구조 자체가 병목이 되기 때문입니다. 응답 트래픽을 LB에서 분리해 서버가 클라이언트에게 직접 응답하게 하면 이 문제를 해결할 수 있습니다. 이것이 Load Balancer(DSR)의 출발점입니다.\r\r\n\r\r\n## 선 긋기\r\r\n\r\r\n![comparison_900.png](https://image.toast.com/aaaadh/real/2026/techblog/comparison900.png)\r\r\n\r\r\n두 방식의 차이는 응답 경로에 있습니다. Load Balancer(DSR)은 요청은 LB를 경유하되, 응답은 LB를 우회하는 비대칭 구조로 동작합니다. IP는 그대로 두고 L2 레벨에서 목적지 MAC만 변경해 서버로 전달하기 때문에 SNAT/DNAT를 수행하지 않습니다. 덕분에 서버에서 클라이언트 원본 IP를 그대로 확인할 수 있어, X-Forwarded-For나 Proxy Protocol 없이도 로깅과 접근 제어가 가능합니다.\r\r\n\r\r\n세션 분산은 5-tuple(소스 IP/포트, 목적지 IP/포트, 프로토콜) 기반이 기본값입니다. 세션 지속성을 활성화하면 소스 IP 기반으로 전환되어, 동일 클라이언트의 요청이 항상 같은 서버로 전달됩니다.\r\r\n\r\r\n![세션_지속성_비교.png](https://image.toast.com/aaaadh/real/2026/techblog/uC138uC158uC9C0uC18DuC131uBE44uAD50.png)\r\r\n*세션 지속성 설정: 사용 안 함 (5-Tuple Hash) vs 사용 (SOURCE_IP Hash)*\r\r\n\r\r\n단, 비대칭 구조 특성상 서버 측 설정이 필요합니다. 서버는 VIP로 들어온 요청을 받아 VIP를 출발지로 클라이언트에 직접 응답해야 하기 때문입니다. 이를 위해 lo 인터페이스에 VIP를 /32로 바인딩하고, ARP 충돌 방지를 위한 커널 파라미터(arp_ignore=1, arp_announce=2)를 설정해야 합니다.\r\r\n\r\r\n## 제약 안에서의 설계\r\r\n\r\r\nXDP로 커널 앞단에서 패킷을 처리하는 방식을 선택했습니다. 커널 네트워크 스택 진입 전 단계에서 패킷을 처리해 오버헤드를 최소화할 수 있습니다. 개발 과정에서는 여러 제약이 따랐습니다.\r\r\n\r\r\nXDP 프로그램은 동적 자료구조를 사용할 수 없고 지정된 MAP 형태의 자료구조만 사용해야 하는 제약이 있습니다. 또한, 커널에 로드하는 시점에 BPF Verifier의 검증을 통과해야 합니다. 패킷 데이터에 접근하는 모든 지점에 경계 검사를 명시해야 하고, 하나라도 누락되면 로드가 거부되는데, 거부 사유 로그가 직관적이지 않아 원인을 찾는 데 시간이 걸렸습니다. 또한 instruction 수 제한으로 복잡한 처리를 분리해야 했고, 헬스체크 probe 송신처럼 패킷을 능동적으로 생성하는 작업은 XDP에서 처리할 수 없었습니다.\r\r\n\r\r\n이를 해결하기 위해 역할을 분리했습니다. 무거운 계산과 능동적인 처리는 유저스페이스의 애플리케이션 레이어가 담당하고, 커널 레이어에서는 BPF MAP 조회만 수행합니다. 멤버 선택에 필요한 해시 데이터와 헬스체크 정보는 유저스페이스에서 미리 계산해 BPF MAP에 저장하고, 패킷 경로에서는 이를 읽기만 합니다. 데이터 경로가 단순해져 검증이 수월해지고 성능도 향상됐습니다.\r\r\n\r\r\n## 조용히 동작하는 것들\r\r\n\r\r\n![healthcheck_routing_900.png](https://image.toast.com/aaaadh/real/2026/techblog/healthcheckrouting900.png)\r\r\n\r\r\n클라이언트의 요청은 LB를 경유해 서버로 전달됩니다. VXLAN으로 캡슐화해 멤버 서버로 전송하며, 서버의 응답은 LB를 거치지 않고 클라이언트에게 직접 전달됩니다.\r\r\n\r\r\n멤버 상태는 ICMP, TCP, HTTP 프로토콜로 주기적으로 점검합니다.\r\r\n\r\r\n![헬스체크.png](https://image.toast.com/aaaadh/real/2026/techblog/uD5ECuC2A4uCCB4uD06C.png)\r\r\n*헬스체크 설정 화면 — 프로토콜, 주기, 응답 대기 시간, 재시도 횟수 설정*\r\r\n\r\r\n프로토콜과 주기, 재시도 횟수는 콘솔에서 설정할 수 있습니다. 장애가 감지된 멤버는 자동으로 분산 대상에서 제외되고, 복구되면 다시 포함됩니다. 멤버 선택은 일관성 해싱(Consistent Hashing) 기반으로 동작하기 때문에, 여러 LB 노드가 Active-Active로 구성되어도 노드 간 세션 상태 동기화 없이 동일한 분산 결정을 내릴 수 있습니다. Floating IP를 연결하면 외부 네트워크 접근도 가능하며, 멤버는 동일 서브넷 내 인스턴스만 등록할 수 있습니다.\r\r\n\r\r\n## 두 가지 선택지\r\r\n\r\r\nLoad Balancer(DSR)은 L4(TCP, UDP)만 지원합니다. L7 라우팅이나 SSL 종단이 필요한 서비스에는 기존 프록시 방식 LB가 적합하며, 두 방식을 워크로드 특성에 맞게 선택해 사용할 수 있습니다.\r\r\n\r\r\n특히 응답 트래픽이 큰 서비스에 적합합니다. 미디어 스트리밍, 대용량 파일 다운로드, 게임 서버가 대표적인 사용 사례입니다. 클라이언트 원본 IP를 서버에서 직접 확인해야 하는 경우에도 별도 헤더 파싱 없이 활용할 수 있습니다. 프로젝트당 DSR 10개, DSR당 멤버 30개의 쿼터가 적용됩니다.\r\r\n\r\r\nLoad Balancer(DSR)은 XDP/eBPF 기반 커널 단 기술을 상용 네트워크 서비스에 적용한 결과물입니다. 프록시 방식 대비 처리 성능을 높였으며, 워크로드 특성에 맞는 LB 선택이 가능해졌습니다. 모니터링과 통계 집계 기능을 보완 중이며, 운영 가시성을 높이는 방향으로 계속 발전시킬 계획입니다. Load Balancer(DSR)은 NHN Cloud에서 운영 중입니다.\r\r\n\r\r\n* [Load Balancer(DSR) 서비스 소개](https://www.nhncloud.com/kr/service/network/load-balancer-dsr)\r\r\n* [Load Balancer(DSR) 콘솔 사용 가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer%28DSR%29/ko/console-guide/)\r\r\n* 도입 문의: [NHN Cloud 고객지원 > 문의하기](https://www.nhncloud.com/kr/support/inquiry)\r\r\n\r\r\n## 참고 용어\r\r\n\r\r\n| 용어 | 설명 |\r\r\n|------|------|\r\r\n| **XDP(eXpress Data Path)** | 커널 앞단에서 패킷을 처리하는 고성능 기술. DSR의 데이터플레인 핵심입니다. |\r\r\n| **eBPF(extended Berkeley Packet Filter)** | 커널에서 안전하게 실행되는 프로그램 작성 기술. XDP 구현의 기반입니다. |\r\r\n| **VXLAN(Virtual Extensible LAN)** | L2를 L3 위에서 캡슐화하는 터널링 프로토콜. LB가 멤버로 패킷을 전달할 때 사용됩니다. |\r\r\n| **일관성 해싱(Consistent Hashing)** | 노드 변경 시 기존 세션 재배치를 최소화하는 분산 알고리즘. Active-Active 구조의 기반입니다. |\r\r\n| **BPF MAP** | eBPF 프로그램의 데이터 저장·조회 자료구조. 세션·멤버·분산 테이블을 관리합니다. |\r\r\n| **Control Plane / Data Plane** | 제어(정책 결정, 헬스체크)와 전달(패킷 처리) 역할의 분리 구조. 데이터 경로를 단순하고 빠르게 유지합니다. |\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_mint_900.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerfootermint900%281%29.png)](https://www.nhncloud.com/kr)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://meetup.nhncloud.com/posts/418",
+    "pubDate": "Mon, 20 Jul 2026 02:12:54 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Code in Space: Redefining Tech Creation with AI and XR",
+    "description": "The main message Advances in AI are already single-handedly changing how we interact with technologies. This moment might become the first interaction revolution in roughly 60 years, since the mouse-and-windowing paradigm crystallized in the 1970s and 1980s. For us at JetBrains, the most interesting part of this interaction is related to code. LLMs have introduced […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/07/ai-and-xr-future/",
+    "pubDate": "Thu, 16 Jul 2026 12:06:10 +0000",
+    "creator": "Ilya Zakharov",
+    "categories": [
+      "research",
+      "ai-xr"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing",
+    "description": "In large C++ codebases, your code understanding and navigation depend on quickly determining how symbols, declarations, definitions, and references are connected across your project. In Visual Studio Insiders 18.9, the new whole codebase indexing (WCI) enhances the existing browse database via a deeper, more comprehensive indexing approach. This preview feature allows Visual Studio to access […]\nThe post Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/rethinking-c-performance-faster-code-navigation-and-github-copilot-tools-with-whole-codebase-indexing/",
+    "pubDate": "Tue, 14 Jul 2026 22:28:13 +0000",
+    "creator": "Alexandra Kemper, Henrique Fernandes Baggio, Sinem Akinci",
+    "categories": [
+      "C++",
+      "performance",
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "MSVC Build Tools Preview updates – July 2026",
+    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – July 2026 appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-july-2026/",
+    "pubDate": "Wed, 15 Jul 2026 21:17:05 +0000",
+    "creator": "Eric Brumer",
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
+    "description": "One of the best parts of a Visual Studio Subscription is discovering benefits that can make your day-to-day development work easier and more cost effective. One benefit that deserves more attention is Azure Dev/Test pricing. In fact, it’s one of the most valuable benefits included with a Visual Studio Subscription.  If you’re building cloud applications, testing new ideas, or maintaining multiple development environments, cloud costs can sometimes […]\nThe post The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-dev-test-benefit-freedom-to-build-test-and-experiment-in-azure/",
+    "pubDate": "Mon, 13 Jul 2026 22:21:36 +0000",
+    "creator": "James Rempt",
+    "categories": [
+      "Azure",
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "GoLand 2026.2 Is Now Available!",
+    "description": "GoLand 2026.2 is all about helping you understand and improve your Go applications with less effort. This release introduces the new Go Optimization tool window, bringing profiling, escape analysis, and struct optimization into a single workflow. You can now profile regular Go applications without additional setup, analyze production profiles, monitor CPU and memory usage in […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2026/07/16/goland-2026-2-is-now-available/",
+    "pubDate": "Thu, 16 Jul 2026 14:38:52 +0000",
+    "creator": "Artem Pronichev",
+    "categories": [
+      "goland",
+      "releases",
+      "performance-monitoring",
+      "profiler",
+      "release"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Kotlin Turns 15: Celebrate the Kotlin Effect",
+    "description": "🎉 Kotlin turns 15! 🎉 For 15 years, you’ve helped shape Kotlin into the language it is today. Whether you’ve built apps, contributed to the ecosystem, taught others, or simply chosen Kotlin for your next project – thank you for being part of the journey. Today, we’re celebrating Kotlin and the people who have made […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-turns-15-celebrate-the-kotlin-effect/",
+    "pubDate": "Fri, 17 Jul 2026 13:29:40 +0000",
+    "creator": "Viliam Sedliak",
+    "categories": [
+      "kotlin",
+      "news"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "DataGrip 2026.2: AI Agent Skills, MCP Tools and CLI Commands for Data Source Management, Bundled JDBC Drivers, and Improved Session Control",
+    "description": "DataGrip 2026.2, the second major update of the year, is here! Let’s take a look at what’s inside. AI This release introduces three AI agent skills for working with databases: database-tools, database-connection-management, and database-text-to-sql. Together, they let AI agents explore and query connected databases, configure and update database connections, and generate SQL based on your […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/datagrip/2026/07/16/datagrip-2026-2-ai-agent-skills-mcp-tools-and-cli-commands-for-data-source-management-bundled-jdbc-drivers-and-improved-session-control/",
+    "pubDate": "Thu, 16 Jul 2026 14:51:54 +0000",
+    "creator": "Richie Mitish",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Pure Virtual C++ 2026 [Meet the Speakers, Part 2]: The AI-Native C++ Developer Workflow",
+    "description": "Pure Virtual C++ 2026 streams Tuesday, July 21, 2026 at 9:00 AM PT, a free, one-day virtual conference for the whole C++ community, live on YouTube (Microsoft Reactor) and Twitch, with on-demand recordings on the Visual Studio YouTube channel afterward. Register now → Welcome to part two of our Meet the Speakers series. In part one we looked at building and running […]\nThe post Pure Virtual C++ 2026 [Meet the Speakers, Part 2]: The AI-Native C++ Developer Workflow appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-meet-the-speakers-part-2-the-ai-native-c-developer-workflow/",
+    "pubDate": "Mon, 13 Jul 2026 20:36:53 +0000",
+    "creator": "Marian Luparu",
+    "categories": [
+      "Announcement",
+      "C++",
+      "Copilot",
+      "Pure Virtual C++"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "오픈챗 이름 및 설명 글로 유해성 판단하는 모델 개발하기",
+    "description": "들어가며안녕하세요. AI Services Lab 팀의 ML 엔지니어 이여운입니다. 저희 팀에서는 사용자에게 유해한 오픈챗이 노출되지 않도록 다양한 모델을 개발하고 있습니다. 이번 ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/developing-harmfulness-detection-model-for-open-chat-metadata",
+    "pubDate": "Thu, 16 Jul 2026 08:50:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
