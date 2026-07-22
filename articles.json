@@ -2,153 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing",
-    "description": "In large C++ codebases, your code understanding and navigation depend on quickly determining how symbols, declarations, definitions, and references are connected across your project. In Visual Studio Insiders 18.9, the new whole codebase indexing (WCI) enhances the existing browse database via a deeper, more comprehensive indexing approach. This preview feature allows Visual Studio to access […]\nThe post Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/rethinking-c-performance-faster-code-navigation-and-github-copilot-tools-with-whole-codebase-indexing/",
-    "pubDate": "Tue, 14 Jul 2026 22:28:13 +0000",
-    "creator": "Alexandra Kemper, Henrique Fernandes Baggio, Sinem Akinci",
-    "categories": [
-      "C++",
-      "performance",
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "C++ Dependencies Without the Headache: vcpkg + Copilot CLI",
-    "description": "At Pure Virtual C++ 2026, we build a C++ console app from an empty folder using CMake, MSVC, and GitHub Copilot CLI. This walkthrough shows a practical prompt sequence for dependency selection, reproducible builds, and controlled updates.\nThe post C++ Dependencies Without the Headache: vcpkg + Copilot CLI appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/c-dependencies-without-the-headache-vcpkg-copilot-cli/",
-    "pubDate": "Mon, 20 Jul 2026 21:05:25 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "CMake",
-      "Copilot",
-      "GitHub",
-      "Pure Virtual C++",
-      "Vcpkg",
-      "Writing Code",
-      "GitHub Copilot",
-      "vcpkg"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "토스플레이스, 서울페이 QR 단말기에서 바로 띄운다… 서울사랑상품권 결제 지원",
-    "description": "토스 프론트에서 서울페이 QR 사용 가능",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/51447",
-    "pubDate": "Thu, 16 Jul 2026 23:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Pick, manage, and get the most from your models",
-    "description": "You open the model picker, scroll past a dozen options, and pause. How are these models different? Which one should you actually use? And once you’re a few hundred messages deep, how much capacity is even left before things start dropping off? We’ve all been there. These are the kinds of questions Visual Studio now […]\nThe post Pick, manage, and get the most from your models appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/pick-manage-and-get-the-most-from-your-models/",
-    "pubDate": "Wed, 15 Jul 2026 14:28:43 +0000",
-    "creator": "Rachel Kang (SHE/HER)",
-    "categories": [
-      "Visual Studio",
-      "Copilot",
-      "GitHub Copilot",
-      "GitHub Copilot Chat",
-      "Models"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "WebStorm 2026.2: TypeScript 7 Support, GitHub Copilot Integration, Agent Skills, and More",
-    "description": "WebStorm 2026.2 is now available! If you work on a large TypeScript codebase, this release is a meaningful upgrade. TypeScript 7 support ships out of the box for projects already using it, delivering faster type checking without requiring full project migration. GitHub Copilot is now natively integrated – with no separate plugin or additional setup […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/webstorm/2026/07/webstorm-2026-2/",
-    "pubDate": "Thu, 16 Jul 2026 14:46:25 +0000",
-    "creator": "Valeriya Masyachenko",
-    "categories": [
-      "news",
-      "releases",
-      "webstorm-2026-2"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "가짜 창업가",
-    "description": "어원은 불어지만, 창업가를 뜻하는 공식 영어는 ‘entrepreneur’이다. 그리고 한국에서는 잘 사용하지 않지만, 반대말인 ‘fauxtrepreneur’라는 비공식 단어도 있다. ‘Faux’가 불어로 ‘가짜’라는 의미인데, 해석 그대로 가짜 창업가를 뜻한다. 가짜 창업가들의 시대가 다시 왔다. 요새 미국에서 다른 투자자들과 이야기하면, 이 fauxtrepreneur라는 단어가 대화에서 자주 언급되는데, 그만큼 한국이나 미국이나, 전 세계적으로 가짜 창업가들이 넘쳐흐르고 있다는 증거인 것 같다. 물론,(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/07/the-fake-entrepreneur.html",
-    "pubDate": "Wed, 15 Jul 2026 21:45:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "ai",
-      "people"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "VC의 도덕성",
-    "description": "Fizz와 Sidechat이라는 대학생을 위한 익명성 앱에 관한 이런 기사를 며칠 전에 읽었다. 어떤 VC가 두 회사를 모두 만났고, Sidechat에 투자하기로 마음먹었지만, 그 이후에도 계속 경쟁사인 Fizz를 만나면서 기밀정보를 빼냈고, 결국 본인이 투자한 Sidechat과 공유했다고 Fizz로부터 비난받는 내용의 글이다. 이와 비슷한 사건이 자주 공론화되진 않지만, 실제로는 미국뿐만 아니라 한국에서도 자주 발생하는 일이라서 공감할 수 있었던 기사다.(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/07/integrity-matters-in-the-vc-business.html",
-    "pubDate": "Sun, 19 Jul 2026 21:26:51 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "competition",
-      "FoundersAtWork",
-      "fundraising",
-      "vc"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Kotlin Turns 15: Celebrate the Kotlin Effect",
-    "description": "🎉 Kotlin turns 15! 🎉 For 15 years, you’ve helped shape Kotlin into the language it is today. Whether you’ve built apps, contributed to the ecosystem, taught others, or simply chosen Kotlin for your next project – thank you for being part of the journey. Today, we’re celebrating Kotlin and the people who have made […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-turns-15-celebrate-the-kotlin-effect/",
-    "pubDate": "Fri, 17 Jul 2026 13:29:40 +0000",
-    "creator": "Viliam Sedliak",
-    "categories": [
-      "kotlin",
-      "news"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
-    "description": "Hierarchical Interest Representation is a research area for Meta Ads. We’re exploring an upstream representation layer over the universe of Ads entities – users, advertisers, products, services – learning unified embeddings that connect users’ inferred interests with the breadth of what advertisers offer in their deep funnel ads. The innovations in Hierarchical Interest Representation are [...]\nRead More...\nThe post Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/07/15/ai-research/exploring-hierarchical-interest-representation-for-meta-ads-deep-funnel-optimization/",
-    "pubDate": "Wed, 15 Jul 2026 17:00:52 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "AI Research"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
     "title": "PhpStorm 2026.2 is Now Out",
     "description": "Welcome to the PhpStorm 2026.2 release overview. This version advances PhpStorm as a platform for your preferred coding agents, models, and AI subscriptions, improves PHP and Laravel support, and delivers productivity gains for working with Git repositories, databases, and the built-in terminal. Download PhpStorm 2026.2 AI in PhpStorm PhpStorm 2026.2 adds native support for more […]",
     "reviews": [],
@@ -164,33 +17,137 @@
     ]
   },
   {
-    "id": 11,
+    "id": 2,
     "imageUrl": "",
-    "title": "오픈챗 이름 및 설명 글로 유해성 판단하는 모델 개발하기",
-    "description": "들어가며안녕하세요. AI Services Lab 팀의 ML 엔지니어 이여운입니다. 저희 팀에서는 사용자에게 유해한 오픈챗이 노출되지 않도록 다양한 모델을 개발하고 있습니다. 이번 ...",
+    "title": "[PC] 돌고 돌아서 다시 시작점으로 자리한, 드래곤소드 : 어웨이크닝",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/developing-harmfulness-detection-model-for-open-chat-metadata",
-    "pubDate": "Thu, 16 Jul 2026 08:50:00 GMT",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2473",
+    "pubDate": "Wed, 22 Jul 2026 07:00:29 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Introducing JetBrains Context: Repository Intelligence for Coding Agents",
+    "description": "Today, we’re launching JetBrains Context, a new repository intelligence layer that helps coding agents work more efficiently and produce higher-quality results on complex codebases. As part of the JetBrains AI for Teams and Organizations rollout, JetBrains Context is now available in early access at no additional cost with your JetBrains AI subscription. It integrates with […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2026/07/introducing-jetbrains-context-repository-intelligence-for-coding-agents/",
+    "pubDate": "Tue, 21 Jul 2026 13:40:22 +0000",
+    "creator": "Eduard Gurskiy",
+    "categories": [
+      "agentic-ai",
+      "ai",
+      "news",
+      "releases"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Busy Plugin Developers Newsletter – Q2 2026",
+    "description": "Your quarterly dose of plugin dev news, tools, and tips from JetBrains 🧩 Marketplace Updates Internal API Usage Notifications To support the ongoing IntelliJ Platform API stabilization, JetBrains Marketplace now automatically notifies plugin authors when their plugins use internal APIs. This gives authors an opportunity to review and replace unsupported APIs before they affect plugin […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2026/07/busy-plugin-developers-newsletter-q2-2026/",
+    "pubDate": "Tue, 21 Jul 2026 13:22:14 +0000",
+    "creator": "Elena Kerpeleva",
+    "categories": [
+      "intellij-platform",
+      "marketplace",
+      "news",
+      "newsletters",
+      "busy-plugin-developers"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Pure Virtual C++ 2026 Is Now Live!",
+    "description": "Pure Virtual C++ 2026 is streaming now — watch five featured sessions live with Q&A, plus a full on-demand playlist, all free.\nThe post Pure Virtual C++ 2026 Is Now Live! appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-is-now-live/",
+    "pubDate": "Tue, 21 Jul 2026 15:54:35 +0000",
+    "creator": "Marian Luparu",
+    "categories": [
+      "Announcement",
+      "C++",
+      "Pure Virtual C++"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "경계가 만든 길, Load Balancer(DSR)",
+    "description": "[![NHN Cloud_meetup banner_DSR_202607_900.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerDSR202607900%281%29.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n기존의 프록시 방식 로드 밸런서(LB)는 클라이언트와 서버 사이에서 양쪽 연결을 모두 종단하고 데이터를 중계하는 구조입니다. 요청과 응답이 모두 LB를 경유하기 때문에, 응답 트래픽이 클수록 LB가 병목이 됩니다. 1KB 요청에 100MB 응답이 나가는 워크로드라면 응답이 LB 대역폭 대부분을 소모합니다. 접속자가 늘수록 LB 처리량이 선형으로 증가하고, 백엔드 서버를 늘려도 LB 자체가 처리량의 상한이 됩니다.\r\r\n\r\r\nL7 라우팅이나 SSL 종단이 필요한 표준 웹 서비스에서는 프록시 방식이 적합합니다. 하지만 응답 트래픽이 크거나 낮은 레이턴시가 중요한 워크로드에서는 구조적인 한계가 있습니다. 응답까지 LB를 경유하는 구조 자체가 병목이 되기 때문입니다. 응답 트래픽을 LB에서 분리해 서버가 클라이언트에게 직접 응답하게 하면 이 문제를 해결할 수 있습니다. 이것이 Load Balancer(DSR)의 출발점입니다.\r\r\n\r\r\n## 선 긋기\r\r\n\r\r\n![comparison_900.png](https://image.toast.com/aaaadh/real/2026/techblog/comparison900.png)\r\r\n\r\r\n두 방식의 차이는 응답 경로에 있습니다. Load Balancer(DSR)은 요청은 LB를 경유하되, 응답은 LB를 우회하는 비대칭 구조로 동작합니다. IP는 그대로 두고 L2 레벨에서 목적지 MAC만 변경해 서버로 전달하기 때문에 SNAT/DNAT를 수행하지 않습니다. 덕분에 서버에서 클라이언트 원본 IP를 그대로 확인할 수 있어, X-Forwarded-For나 Proxy Protocol 없이도 로깅과 접근 제어가 가능합니다.\r\r\n\r\r\n세션 분산은 5-tuple(소스 IP/포트, 목적지 IP/포트, 프로토콜) 기반이 기본값입니다. 세션 지속성을 활성화하면 소스 IP 기반으로 전환되어, 동일 클라이언트의 요청이 항상 같은 서버로 전달됩니다.\r\r\n\r\r\n![세션_지속성_비교.png](https://image.toast.com/aaaadh/real/2026/techblog/uC138uC158uC9C0uC18DuC131uBE44uAD50.png)\r\r\n*세션 지속성 설정: 사용 안 함 (5-Tuple Hash) vs 사용 (SOURCE_IP Hash)*\r\r\n\r\r\n단, 비대칭 구조 특성상 서버 측 설정이 필요합니다. 서버는 VIP로 들어온 요청을 받아 VIP를 출발지로 클라이언트에 직접 응답해야 하기 때문입니다. 이를 위해 lo 인터페이스에 VIP를 /32로 바인딩하고, ARP 충돌 방지를 위한 커널 파라미터(arp_ignore=1, arp_announce=2)를 설정해야 합니다.\r\r\n\r\r\n## 제약 안에서의 설계\r\r\n\r\r\nXDP로 커널 앞단에서 패킷을 처리하는 방식을 선택했습니다. 커널 네트워크 스택 진입 전 단계에서 패킷을 처리해 오버헤드를 최소화할 수 있습니다. 개발 과정에서는 여러 제약이 따랐습니다.\r\r\n\r\r\nXDP 프로그램은 동적 자료구조를 사용할 수 없고 지정된 MAP 형태의 자료구조만 사용해야 하는 제약이 있습니다. 또한, 커널에 로드하는 시점에 BPF Verifier의 검증을 통과해야 합니다. 패킷 데이터에 접근하는 모든 지점에 경계 검사를 명시해야 하고, 하나라도 누락되면 로드가 거부되는데, 거부 사유 로그가 직관적이지 않아 원인을 찾는 데 시간이 걸렸습니다. 또한 instruction 수 제한으로 복잡한 처리를 분리해야 했고, 헬스체크 probe 송신처럼 패킷을 능동적으로 생성하는 작업은 XDP에서 처리할 수 없었습니다.\r\r\n\r\r\n이를 해결하기 위해 역할을 분리했습니다. 무거운 계산과 능동적인 처리는 유저스페이스의 애플리케이션 레이어가 담당하고, 커널 레이어에서는 BPF MAP 조회만 수행합니다. 멤버 선택에 필요한 해시 데이터와 헬스체크 정보는 유저스페이스에서 미리 계산해 BPF MAP에 저장하고, 패킷 경로에서는 이를 읽기만 합니다. 데이터 경로가 단순해져 검증이 수월해지고 성능도 향상됐습니다.\r\r\n\r\r\n## 조용히 동작하는 것들\r\r\n\r\r\n![healthcheck_routing_900.png](https://image.toast.com/aaaadh/real/2026/techblog/healthcheckrouting900.png)\r\r\n\r\r\n클라이언트의 요청은 LB를 경유해 서버로 전달됩니다. VXLAN으로 캡슐화해 멤버 서버로 전송하며, 서버의 응답은 LB를 거치지 않고 클라이언트에게 직접 전달됩니다.\r\r\n\r\r\n멤버 상태는 ICMP, TCP, HTTP 프로토콜로 주기적으로 점검합니다.\r\r\n\r\r\n![헬스체크.png](https://image.toast.com/aaaadh/real/2026/techblog/uD5ECuC2A4uCCB4uD06C.png)\r\r\n*헬스체크 설정 화면 — 프로토콜, 주기, 응답 대기 시간, 재시도 횟수 설정*\r\r\n\r\r\n프로토콜과 주기, 재시도 횟수는 콘솔에서 설정할 수 있습니다. 장애가 감지된 멤버는 자동으로 분산 대상에서 제외되고, 복구되면 다시 포함됩니다. 멤버 선택은 일관성 해싱(Consistent Hashing) 기반으로 동작하기 때문에, 여러 LB 노드가 Active-Active로 구성되어도 노드 간 세션 상태 동기화 없이 동일한 분산 결정을 내릴 수 있습니다. Floating IP를 연결하면 외부 네트워크 접근도 가능하며, 멤버는 동일 서브넷 내 인스턴스만 등록할 수 있습니다.\r\r\n\r\r\n## 두 가지 선택지\r\r\n\r\r\nLoad Balancer(DSR)은 L4(TCP, UDP)만 지원합니다. L7 라우팅이나 SSL 종단이 필요한 서비스에는 기존 프록시 방식 LB가 적합하며, 두 방식을 워크로드 특성에 맞게 선택해 사용할 수 있습니다.\r\r\n\r\r\n특히 응답 트래픽이 큰 서비스에 적합합니다. 미디어 스트리밍, 대용량 파일 다운로드, 게임 서버가 대표적인 사용 사례입니다. 클라이언트 원본 IP를 서버에서 직접 확인해야 하는 경우에도 별도 헤더 파싱 없이 활용할 수 있습니다. 프로젝트당 DSR 10개, DSR당 멤버 30개의 쿼터가 적용됩니다.\r\r\n\r\r\nLoad Balancer(DSR)은 XDP/eBPF 기반 커널 단 기술을 상용 네트워크 서비스에 적용한 결과물입니다. 프록시 방식 대비 처리 성능을 높였으며, 워크로드 특성에 맞는 LB 선택이 가능해졌습니다. 모니터링과 통계 집계 기능을 보완 중이며, 운영 가시성을 높이는 방향으로 계속 발전시킬 계획입니다. Load Balancer(DSR)은 NHN Cloud에서 운영 중입니다.\r\r\n\r\r\n* [Load Balancer(DSR) 서비스 소개](https://www.nhncloud.com/kr/service/network/load-balancer-dsr)\r\r\n* [Load Balancer(DSR) 콘솔 사용 가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer%28DSR%29/ko/console-guide/)\r\r\n* 도입 문의: [NHN Cloud 고객지원 > 문의하기](https://www.nhncloud.com/kr/support/inquiry)\r\r\n\r\r\n## 참고 용어\r\r\n\r\r\n| 용어 | 설명 |\r\r\n|------|------|\r\r\n| **XDP(eXpress Data Path)** | 커널 앞단에서 패킷을 처리하는 고성능 기술. DSR의 데이터플레인 핵심입니다. |\r\r\n| **eBPF(extended Berkeley Packet Filter)** | 커널에서 안전하게 실행되는 프로그램 작성 기술. XDP 구현의 기반입니다. |\r\r\n| **VXLAN(Virtual Extensible LAN)** | L2를 L3 위에서 캡슐화하는 터널링 프로토콜. LB가 멤버로 패킷을 전달할 때 사용됩니다. |\r\r\n| **일관성 해싱(Consistent Hashing)** | 노드 변경 시 기존 세션 재배치를 최소화하는 분산 알고리즘. Active-Active 구조의 기반입니다. |\r\r\n| **BPF MAP** | eBPF 프로그램의 데이터 저장·조회 자료구조. 세션·멤버·분산 테이블을 관리합니다. |\r\r\n| **Control Plane / Data Plane** | 제어(정책 결정, 헬스체크)와 전달(패킷 처리) 역할의 분리 구조. 데이터 경로를 단순하고 빠르게 유지합니다. |\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_mint_900.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerfootermint900%281%29.png)](https://www.nhncloud.com/kr)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://meetup.nhncloud.com/posts/418",
+    "pubDate": "Mon, 20 Jul 2026 02:12:54 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 12,
+    "id": 7,
     "imageUrl": "",
-    "title": "MSVC Build Tools Preview updates – July 2026",
-    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – July 2026 appeared first on C++ Team Blog.",
+    "title": "AI 가 만능은 아니다.",
+    "description": "CAN통신 CAN 통신.자동차 네트워크 설계의 가장 기본적인 개념입니다. 브로드캐스팅 방식의 펄스 기반 네트워크죠.딜레이 타임이 거의 허용되지 않는 환경에서 사용합니다. 로봇을 설계할 때도 매우 중요한 개념입니다.로봇 코딩에서 반드시 이해해야 하는 핵심 요소 중 하나죠. 일반적인 서버 설계와는 완전히 다른 개념입니다.설계부터 검증까지 기술 철학이 완전히 다르거든요. 대표적인 예 중의 하나가 하네스 케이블입니다.전파간섭을 막는 차폐 처리의 기본인데, CAN통신을 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-july-2026/",
-    "pubDate": "Wed, 15 Jul 2026 21:17:05 +0000",
-    "creator": "Eric Brumer",
+    "link": "https://subokim.wordpress.com/2026/07/22/ai-is-not-all/",
+    "pubDate": "Tue, 21 Jul 2026 16:56:02 +0000",
+    "creator": "subokim",
     "categories": [
-      "C++"
+      "개발자의삶"
     ]
   },
   {
-    "id": 13,
+    "id": 8,
+    "imageUrl": "",
+    "title": "SOTA LLM과 강화학습",
+    "description": "이 글은 SOTA LLM과 강화학습에 대한 내용을 정리한다.\n\n\n레퍼런스\n\nControlling Reasoning Effort in LLMs",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2026/07/sota-llm.html",
+    "pubDate": "2026-07-18T23:56:00.098Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "게임공략 - 택틱스 오우거 리본  - 2장 / 2026-07",
+    "description": "2부 시작\n항구 마을 에슈턴 - 가족의 복수를 하러온 아로센\n학살 작전은 성공해서 월스터 인들이 기세를 잡았다고 2주가 흐른다.\n학살에 대한 복수로 주인공을 잡으러 온 부대와 전투가 시작된다.\n중앙길로 가면 화살 세례를 맞는다. 좌우로 분리해서 올라가자\n \n전투하면서 \"우리가 한게 아니다\" 라고 말은 하지만 전투중에 적들 죽어나고 있는데 통할리가 없다.\n\n\n프레전스 신부는 힐 때문에 데리고 나왔는데 \n아로셀 (보스) 랑 아는채 한다.\n안 데리고 나왔어도 말을 했으려나...\n\n\n거의다 잡았는데\n이제 말이 통하는 것인가  했는데\n대화는 이어지지만 전투는 계속 진행된다.\n다 때려잡으면 데님은 죽이지는 않는다고 하고 놓아준다.\n \n레아 봄 물길 전투 - 현상금 사냥꾼 용병 자판\n저번 처럼 언덕 올라가는 맵인줄 알았는데 \n물이 고여있는 징검 다리 같은 곳에서 싸운다. \n지하 수로 분위기다.\n마법사 아처 등 원거리 공격수를 3명 으로 만들어서 \nAI 로 진행 시켰더니 별 문제 없이 클리어 가능했다.\n이동의 제약이 너무 심한 맵이라 수동으로 해도 번거롭다.\n \n\n\n용병 자판  이번판 보스 인가 보다 \n\n\n카추아가 말을 하는데 \n글로 봐선 모르겠지만 \n음성은 괭장히 불량해졌다.\n저번 맵에서 머리에 화살이 많이 꽂혀서 그런지 심술이 난거 같다.\n\n\n불량함을 눈치 챘다 전투다\n\n\n물에서 문어가 꾸물 거린다.\n익 게임에ㅈ서 문어는 체력이 꽤 높았던 기억이 이따.\n \n중간에 카노푸스(풍술사) 가 자판은 실력이 있어보이니 현상금 말고 전쟁에 참여하라고 이야기 하는데\n갈가스스탄 군이 망해서 전쟁이 없다고 한다.\n(크게 방했나보다.)\n자판을 잡으면 안죽고 도망간다.\n \n \n조드 습지 전투 - 평지\n\n\n십인장 반스 가 보스 인가보다\n처음에 식인장 으로 보고 깜놀했었는데 십인장이였다.\n내 껀 왜이렇게 흐릿하게 글씨가 나오는건지\n\n\n아로셀 ?\n아로셀은 2부 처음에 싸웠던 보스 였다 여기서도 시비 털고 있다.\n\n\n카추아는 구해주지 말자고 한다만\n(어느센가 성격이 바껴있네 ㄷㄷㄷ)\n영웅 놀이에 빠져있는 데님은 귓등으로 듣고 구해주러 참전한다.\n\n\n신부도 한마디 거든다.\n(잘 아나보다)\n아르센은 레오나르와 랑 친한거 같다.\n그에 대한 이야기를 하자 흔들린다.\n설득 된건가 ...\n\n\n레오나르 봐야한다고 한다.\n자동으로 하니 아스렌 죽어버렸다.\n레오니나르를 오빠라고 하는거 보니 친족이였 나보다\n다시 도전해야지\nAI 로 하니 같은 편이 아니라 힐을 안해줬나보다\n\n\n끝나면 게스트로 들어오네요 내가 조정은 못하나봅니다.\n \n \n보르두 호숫가\n\n\n검사 겐조 이 전투의 대장인거 같다\n수배서에서 데님 얼굴 봤다고 하는데\n데님은 이번에도 \"억울하다 내가 아니다를 시전\" 하지만\n\n\n아르셀 이 말린다. \n씨알도 안먹히는 소리 인것이다. 그냥 전투나하자\n \n필살기 챙기자\n레벨13 - 14 쯤되니까 근접 캐릭 들은 필살기가 생겼다.\n무기마다 스킬이 달리지는거 같은데\n도끼 용과 망치 가 필살기가 다르게 표시되었다 \n아이템 장비 잘 해서 필살기 가지고 출전하자\n\n\n드래곤도 나오고 겐조는 닌자다\n비수를 쌍수로 들고 있다 왠지 쌔보인다.\n맵도 작고 평지라 AI 돌려놓고 자불었더니 끝나있었다.\n \n \n \n타인마우스 언덕 - 바이스 등장\n\n\n바이스가 등장해서 안부를 물어본다.\n전투중간에\n\n\n카추아 에게 고백 공격을 한 바이스\n\n\n자동으로 돌려놓고 기다렸더니 이겨있었다\n이번엔 아군도 여러명 누웠다.\n \n바이스는 월스터인 학살의 진실에 대해 너무 떠든다\nhp 를 0 으로 만들 필요는 없고 150 정도 남으면 도망가 버린다.\n바이스는 공격력이 너무 강하기 때문에\n급하다면 집중공격을해서 끝내버리자\n\n\n떠들지 말던가\n아로셀이 다 듣고 감동해버렸다.\n이후 아로셀이 정식으로 합류한다.\n나는 마법사 할배가 죽어있어서 수동으로 다시 깨야했다.\n \n \n크리자로 마을 전투 - 기사 하나 끌려간다. 구해주자\n갑자기 길이 다 없어지고 크리자로 마을 길 하나만 보인다.\n이거 못깨면 상점을 못가겠네 ....\n\n\n기사 가나쉬 \n어둑한 초상화다 빨리 퇴장하실듯\n기사가 한명 끌려나간다. \n \n난이도는 낮으니 무난하게 클리어 가능했다.\n초반맵에서 보던 맵과 비슷한에 위 아래로 맵이 좀 넓어져있다.\n(적이 나오진 않으니 가볼 일은 없을 듯)\n \n \n전투가 끝나면 끌려갔던 기사를 구하게 된다.\n\n\n기사 폴커스\n발레리아 해방 전선 조직의 기사를 구하게 된다.\n이 조직은 1부에서 시스티나가 속해있는 조직 이라고 카추아가 이야기 해준다.\n(말해주기 전엔 솔직히 몰랐다. 훌륭한 대사다.)\n라임 까지 가야하는데 \n이 전력으로 힘들꺼라고 한다.\n동료가 해적에게 잡혀있는데 구해주면 배를 태워주겠다고 한다.\n데님은 가볍게 승락한다  (선택지 같은건 없음)\n\n\n카추아는 못 믿는 눈치다.\n2부 들어와서 성격도 안좋아지고 믿지도 믿음도 없어진거 같다.\n \n폴커스 가 게스트 동료가 되었다.\n \n상점에 가니 한등급 더 좋은 무기가 들어왔다.\n\n\n내 케릭터는 쯔바이핸더 들고 있었음\n바꿔줘야겠다.\n \n직업이  추가되었네 (이제 봄)\n클래스 체인지를 모니 두개의 직업이 추가되 있었다.\n드래군 - 힐 마법 못쓴다. 나이트 보다 강할듯\n닌자 / 쿠노이치 - 마법을 못쓴다. / 바람 총을 쓸 수 있다. / 마법 중에 인술 카테고리가 있던데 그것도 쓸 수 있을지도\n클래스 체인지 주의점\n이쯤와서 처음 알았는데 클래스 체인지 하려면 아이템을 소비하는거 같았다. \n검은색으로 클래스 체인지 할 수 없었던 것은 소비 아이템이 부족해서 였다. ㄷㄷㄷ\n그러니 저장 하고 바꿔 보는걸 추천한다.\n \n콰드리가 요새\n\n\n해적 다자\n동려 구하러 온줄 알고 있네 통찰력 보소\n\n\n인질이 조촐하게 한명이다.\n똑똑한 해적 두목은 인질도해치우라고 한다.\n구하러 온 동료가 있다고 해치울꺼면 자리를 뜨던지\n인질답게 묶어 두던지 하지\n대책도 없는 해적이다.\n\n\n계획은 있구나\n여자는 살려두레\n꼭대기에 마법 쓰는 애는 강력하고 올라갈 방법이 없어서 때릴 수도 없었다.\n \n실패해서 다시 도전 했습니다.\n천천히 올라가면 바법사가 죽습니다.\n빨리 올라가면 꼭대기의 마법사랑 2명이 뭉쳐서 한명을 때리면 죽는 경우가 있었습니다\n스킬인줄 알고 적에게 아이템 써주기도 했고\n레벨을 15로 올림\n방어구 1등급 올림\n반지를 추가 장비\n- 전사의 반지 : STR + 3\n- 수비수의 반지 : DEF + 3 \n드라군은 비스트에게 강합니다.\n- 비스트 킬러\n- 비스트 바스터\n- 렘피트 포스 <- 이거는 적이 드라군 근처를 통과해서 후방을 노릴 수 없도록 합니다.\n스킬을 장착합니다.\n \n이걸로도 안되면 방어력 저하 아이템을 적에게 사용하라는 팁도 들었습니다.\n\n\n여기까지 오는데 21시간 걸렸군요 ㄷㄷㄷ\n전투가 어마어마하게 어렵군요\n \n\n\n말도 안 돼는 내가 하고 싶은 말이다.\n \n5회차 도전 후 클리어 했습니다.\n데님을 포함해서 아군이 4명 정도 누운채로 보스만 집중 공격해서 잡았습니다.\n적 쫄병이 두명정도 살아있었는데 시간을 끌면 아군이 죽어버리기 때문에\n그럴 수 없었습니다.\n \n트라이할때 마다 마법사가 자꾸 죽어서 \n회복약 들고 날아가서 회복시켜줬습니다.\n \n운명의 뭐시기 인가 시간 되돌리는 메뉴도 엄청 사용했습니다.\n움직임을 약간 다르게 하면 적도 움직임이 약간 달라지는군요\n앞으로 많이 활용해야할듯\n \n클리어를 위해서는 워리어가 필수군요\n엄청난 데미지를 넣으려면 워리어의 \"맥시멈 이팩트\" 라는 스킬을 이용해야했습니다.\n버서커 한명은 스킬이 생기는데 다른 한명은 스킬이 없어서 보내줘야할꺼 같군요\n \n\n\n클리어 보상에 \"케르케의 구전서\" 라는게 특이하군요 무슨 템일까요\n찾아보니 상점 -> 합성 에가니 케르케의 바람총 ~~ 라는 합성을 할 수 있는거 같습니다.\n(정확하진 않습니다. 이름이 비슷한것일 수도)\n \n\n\n참 ? 참이 뭘까요\n어디쓰는거지\n \n\n\n연타하다 못봤는데\n스킬 획득도 알려주는군요\n아이콘을 기억해둬야겠습니다.\n \n전투 후 대화\n\n\n이 배는 안전한가요 ... 낡아보이는데\n \n라임으로 배 태워주려고 하는데 \n시스티나가 잡혀있는 연락이 왔습니다.\n내가 구한 마법사 인거 같은데 이걸 이제 말해주네\n\n\n폴가스와 시스티나는 연인 사이 인가봅니다.\n\n\n삐뚤어진 자추아는 \"시스티나 구해줄 시간 없고 배나 빨리 태워달라\" 를 시전한다.\n이쯤되면 악역이 맞다\n\n\n시스티나를 동료로 만들기 위한 선택이지다.\n카추아는 버린다.\n \n\n\n좀 많이 먼데요 ...\n \n \n댐사 요새 - 시스티나 구하러 왔다.\n\n\n여해적 벨드레\n당연히 안돌려주겠지\n전투 진행\n적들이 고지에 있어서 \n처음에는 어려울 줄 알았지만\n싸우다보니 보스가 알아서 바닥까지 내려오게 되었다.\n무리해서 올라갈 필요 없이 보스를 잡을 수 있었다.\n적들이 처음부터 아이템을 도핑 해서 내려오는데\n나도 사용하면 좋을꺼 같다.\n죽거나 해제하기 전까지 효과가 유지된다고 한다.\n전투 후\n\n\n구했다 시스티나\n\n\n카츄아는 인생이 마음데로 되지 않아 화나있다.\n\n\n게스트로는 당장 참여하는구나 \n스킬이랑 반지가 비어있어서 장착시켜줬다.\n\n\n한바퀴 빙 돌아 라임 으로 가게된다.\n1. 항구마을 골리앗 은 처음 보는 곳이고\n2. 보드 요새 는 시스티나의 본부가 있는 곳인거 같다.\n3. 옛 수도 라임 은 데님이 가야하는 목적지 이다.\n가기전에 워리어를 보충해야할꺼 같다.\n드라군 성능이 생각보다 별로다\n필살기가 없는 근접 캐릭들은 쓸모가 없었다.\n이경우 워리어의 마이트 이백트가 대안이다.\n \n항구 마을 골리앗\n\n\n마도사 다곤\n데님 이 유명해져서 그런지 보자마자 알아챈다.\n\n\n데님 현상금은 3만 고트 다 \n기억해두자\n골목길 때문에 AI 로 돌리면 될 것 같다.\n \n전투 종료 후\n\n\n3만골드는 딸의 치료비 였나보다\n데님은 다곤 과 다곤의 딸을 헤치웠다.\n기억해 두자\n\n\n스킬 같은게 생기면 편성 에서 느낌표로 알려주고 있었다.\n(몰랐다)\n무기 강화가 있다는데 저는 없군요\n \n보드 요새\n\n\n도착해서 병사를 놀래킨다.\n시스티나가 나서면 해결이 된다.\n안구하고 왔으면 싸웠으려나 ...\n\n\n전사 세리에\n시스티나가 언니라고 부르는데 머리색은 비슷해보이네\n조직의 리더니까  언니 라고 부리 말라고 한다.\n각자의 입장이 있나보다.\n \n시스티나가 온이유는 무모한 계획을 막기 위해서 라고 한다.\n\n\n배타고 올때 말해주던가\n론웰 공작 암살 을 노리고 있었군\n\n\n나왔다 \"진정한 평화 \"\n(되겠냐구)\n\n\n대화 도중 월스터군이 이겼다는 소식이 들어온다.\n이정도면 월스터군이 잘하고 있는거같은데 월스터군에 붙을껄 그랬다.\n \n가르가스탄군이 암울해 하고 있을때 \n전과를 올리기 위해 지금 치려고 계획을 앞당긴다.\n(역시 싸움은 기세 다)\n \n시스티나가 설득에 실패하자 방을 나간다\n\n\n데님은 아무말도 안했지만 동생을 맡긴다는 언니\n선택지도 없고 그냥 넘어간다.\n \n\n\n성 난간에서 울면서 이야기 하는 시스티나\n방패로 밀면 떨어질 위치다.\n위험한데 서 있지 말자\n\n\n선택지 나왔다.\n1번을 고르면 시스티나 / 폴카스 / 바이먼 이 동료가 된다\n2번 고르면 떠나 보내는데 \n굳이 이걸 고를 필요는 없어보인다.\n \n \n옛 수도 라임\n이 맵은 미리 정찰을 할 수 없는데 이유는 \n아래의 흐름 때문에 그렇다.\n(잠입을 걸렸기 때문에 미리 보여주면 그게 더 이상했나보다.)\n \n\n\n몰래 들어가는 데님\n\n\n현상금 사냥꾼 자판 등장\n2부 2번째 전투에서 만난적이 있다.\n\n\n카추아 는 몹시 화나있다.\n\n\n데님은 매번 함정에 걸리지\n \n전투 시작\n\n\n도망을 가야하는데 카추아가 자동 진행이라 싸우고 다 죽어서 도망간다.\n1. 카추아는 버려두고 데님은 후퇴하자\n2. 좊은 통로를 막으면 유리하다 막을때는 창 계열 무기가 효과적이다.\n3. 자판이 어떻게든 뚫고 들어오는데 반피로 만들면 이벤트가 나오면서 전투가 종료된다.\n \n \n \n전투 중간\n자판 HP 를 전반 정도 깎으면 이벤트가 발생한다.\n\n\n암흑기사 바르바스\n목소리가 자판 이랑 비슷하넹\n \n성기사도 등장하는데\n둘이 싸운다.\n \n이틈에 자판은 카추아를 납치했다.\n\n\n찾고 싶으면 아르모리카성으로 오라고 한다.\n돈 가지고 오라는 것도 아니고 그냥 가기만 하면 되는건가 ...\n\n\n암흑기사 마르팀\n데님 옆에 와있다.\n기사 길더스 가 막아준다. \n데님은 아는채 아는데 나는 잘 모르겠다.\n첫 전투에 등장한 기사들인가.\n\n\n빨간바지 가 잘 어울린다.\n \n \n팁 - 무기 강화 방법\n\n\n상점 -> 구입 -> 도구 -> 제작법 순으로 타고 들어가면 판매를 합니다.\n상점 마다 한정적으로만 구매할 수 있어서 많이 업글하지는 못하겠군요\n이거 없으니까 \"아이템 합성\" 에서 무기 메뉴가 뜨질 않는군요 \n메뉴가 없으니 업글할 방법을 모르게 되는 문제가 ....\n\n\n무기 말고도 그런데 재료도 필요하다\n\"실버 잉곳\" 은 \"은광석\" 을 만든후에 만들수 있었다.\n수량이 0 이면 메뉴에서 안보이기 때문에 하나씩 만들어봐야했다.\n\n\n\"빌더 잉곳\" 에 또 \"실버 잉곳\" 이 들어가는데 결국 \"잡광석\" 만 많으면 다 만들 수 있는 구조다.\n필요할때 소량 제작하는게 맞겠다.\n너무 번거롭게 메뉴를 구성해뒀넹\n\n\n장비 중인 무기도 합성 할 수 있다.\n이때는 케릭터 이름을 고르면 된다. (편하다)\n\n\n무기 합성에도 돈이 드나 했는데 공짜로 된다.\n \n \n \n전투중 아이템 사용\n전투가 너무 어려웠다\n알아낸 팁으론 \"패왕의 낙인\" 을 적에게 쓰면 적의 공격력과 방어력이 약해진다.\n\"패왕의 봉밀주\" 를 적에게 사용하면 적의 방어력을 깎는다. \n가격이 많이 비싸므로 자동으로 진행했다 써버리면 아까울 것이다.\n또한 비스트 테이머는 아이템을 발사 할 수 있다고 한다.\n멀리서 아이템을 먹여줄 수 있으니 써봐야겠다.\n \n아르모리카 성\n항구 마을 골리앗 위에 있는 성이며\n \n론웨 공작은 다른 곳에 있고\n본진이 털리고 있다는 소식을 듣지만\n레오나르 는 아르모니카성에 보냈다는 대화가 나온다.\n코리타니에 뭔가를 빨리 보내야 한다고 한다.\n \n\n\n바르바토스 는 뭐고 밀약은 뭐지\n \n\n\n이 성은 두부분으로 나눠져있나보다 불음표 방이 보인다.\n싸우자\n \n \n전투1\n\n\n요술사 라미도스\n자판 이랑 라미도스가 맞이해준다.\n \n장비 강화 하고 패왕의 낙인도 사서 들고왔다.\n이제 전투 해보자\n \n전투 도중\n\n\n프레잔스 신부는 라미도스 와도 아는 사이였다.\n아로셀도 한만 디 해준다.\n\n\nAI 로 돌리다가 아군이 막 죽어나길레 \n자판만 집중공격해서 잡았더니\n자판은 도망가 버렸고 ....\n누나의 행방은 ...\n \n어랏 게임이 끝나지 않는다.\n마여 할멈도 잡아야하나보다... 큰일이다...\n\n\n마법사라서 집중공격 하면 금방 죽긴했다.\n \n라미도스는 전쟁으로 아들과 손자를 잃었기 때문에 전쟁 자체를 싫어했고\n데님도 같은 족속으로 생각했다.\n(자신이 옳다고 생각하는 일을 전동해서 동료들을 희생시키는 타입)\n데님이 학살 사건에 대한 의심은 마지막에 해소하지만 \n보스 이기 때문에 죽음을 돌이킬 수는 없다.\n집중적으로 두둘겨 맞고 세상을 떠났다.\n\n\n데님은 일치감치 누워있었는데 \n대사 칠려고 벌떡 일어났다.\n \n\n\n전투를 승리하면 빨간칠을 해준다.\n \n \n \n성 내 진입\n출격수가 한명 밖에 안된다.\n데님만 출전하자\n바이스가 자판을 한방에 해치웠다.\n바이스랑 1:1  떠야한다.\n \n전투 중 대화\n\n\n카추아는 데님 만 좋아했다는 사실을 알려준다.\n바이슨느 모르는게 없다.\n\n\n지는게 이벤트 인가 싶었는데\n이겨야 하나보다\n(어뜨케)\n \n아이템 장비후 다시 전투 합니다.\n제 캐릭터는 데님 / 워리어 / 양손검 상태고\n- 큐어 시드 회복약 2개\n- 매직 리프+\n- 패왕의 낙인\n이렇게 들고갔고\n\n매직리프+ 사용\n패왕의 낙인 사용\n회독등을 사용하며\n불피하게 선공은 하지 않았습니다.\n바이스가 공격하면 반격으로 마이티 이팩트가 터지도록 유도했습니다.\n좌측의 계단으로 이동했다 평지에선 싸움이 안되고 내가 높은 곳을 잡으면 유리하다.\n다른  공략보니 닌자로 언덕 와리 가리하면 바이스가 한대도 못때리는 현상이 있군요\n현재 버전에선 바이스가 가끔 한턴에 두번 움직이는 현상이 있으니\n이번에도 될지는 잘 모르겠습니다.\n\n\n\n야 다음은 내턴이고 한대만 더 때리면 이기는데 \n갑자기 등장하는 레오나르\n라임 이 함락되었다고 한다.\n이러면 혁명 나가리 아닌가 ...\n \n데님 보고 싸우지말고 우리쪽에 붙으라고 한다.\n붙어버리면 바이스의 입장이 난처해진다.\n(이게 되나?)\n\n\n와 선택지다 .... 미친 선택지\n1번을 고르면 뉴트럴(N) 로 진행되며\n아르셀이 싫어해서 이탈합니다.\n(이것으로 정할 때는 미리 장비를 빼두라는군요)\n2번을 고르면 카오스(C) 로 진행되며 반군생활을 계속 하게된다고 합니다.\n어느쪽이든 3장에서는 카추아가 등장하지 않는다는군요\n한길 카오스로 갑니다.\n \n레오나르는 설득이 통하지 않자 \n카추아도 데리고 떠나게 해줍니다.\n반쯤 맛탱이간 상태라 나중에 설득할 수 있다고 생각했나봅니다.\n이러면 왜 납치한거야\n \n이제 3장으로 넘어갑니다.\n \n시스티나를 구하지 않고 빠르게 라임으로 넘어갔으면 진행이 좀 달랐으려나 하는 생각도 드는군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1677",
+    "pubDate": "Thu, 16 Jul 2026 17:23:01 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "게임",
+      "게임공략"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "토스, SBI저축은행과 포용금융 협약 체결… 중저신용 중금리 대출 선보여",
+    "description": "포용금융 정책 추진 방향 발맞춰",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/51445",
+    "pubDate": "Sun, 19 Jul 2026 23:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "토스 카드라운지, 출시 1년만 방문자 수 11배 늘어… 카드 비교추천 서비스로 안착",
     "description": "자연 유입 방문자 대폭 상승해",
@@ -202,37 +159,57 @@
     "categories": []
   },
   {
-    "id": 14,
+    "id": 12,
     "imageUrl": "",
-    "title": "GoLand 2026.2 Is Now Available!",
-    "description": "GoLand 2026.2 is all about helping you understand and improve your Go applications with less effort. This release introduces the new Go Optimization tool window, bringing profiling, escape analysis, and struct optimization into a single workflow. You can now profile regular Go applications without additional setup, analyze production profiles, monitor CPU and memory usage in […]",
+    "title": "Escape Analysis in Go – Stack vs. Heap Allocations Explained",
+    "description": "One of the design choices Google made when developing Go was to abstract memory management away from developers so they could focus on what really matters – writing code. Things like escape analysis and garbage collection are thus automatic, and the Go compiler works in almost mystical ways. That’s one of the best features of […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2026/07/16/goland-2026-2-is-now-available/",
-    "pubDate": "Thu, 16 Jul 2026 14:38:52 +0000",
-    "creator": "Artem Pronichev",
+    "link": "https://blog.jetbrains.com/go/2026/07/20/escape-analysis/",
+    "pubDate": "Mon, 20 Jul 2026 10:15:24 +0000",
+    "creator": "Dominika Stankiewicz",
     "categories": [
       "goland",
-      "releases",
-      "performance-monitoring",
-      "profiler",
-      "release"
+      "escape-analysis",
+      "performance-optimization"
     ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "토스플레이스, 서울페이 QR 단말기에서 바로 띄운다… 서울사랑상품권 결제 지원",
+    "description": "토스 프론트에서 서울페이 QR 사용 가능",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/51447",
+    "pubDate": "Thu, 16 Jul 2026 23:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "토스, 하나은행과 ‘하나 만보기 적금’ 출시...최대 연 4.5% 금리 제공",
+    "description": "최초 가입 시 0원으로도 적금 개설 가능",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/51451",
+    "pubDate": "Wed, 15 Jul 2026 03:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Pure Virtual C++ 2026 Is Tomorrow and On-Demand Sessions Are Now Available",
-    "description": "The on-demand sessions for Pure Virtual C++ 2026 are available now on YouTube. Watch seven talks on SPGO, vcpkg + Copilot CLI, CMake Tools, PackageReference, MSVC upgrades, and C++23/26 status — then join us live tomorrow.\nThe post Pure Virtual C++ 2026 Is Tomorrow and On-Demand Sessions Are Now Available appeared first on C++ Team Blog.",
+    "title": "악역영애 4컷 만화 - 58화, 진정제인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-is-tomorrow-and-on-demand-sessions-are-now-available/",
-    "pubDate": "Mon, 20 Jul 2026 16:05:54 +0000",
-    "creator": "Marian Luparu",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2472",
+    "pubDate": "Wed, 15 Jul 2026 22:28:12 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "Announcement",
-      "C++",
-      "Pure Virtual C++"
+      "웹툰"
     ]
   }
 ]
