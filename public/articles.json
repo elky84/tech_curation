@@ -2,33 +2,20 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "ESQL - 3rd",
-    "description": "웹로그 발생 추이.\n\n\n\n\n집계 분할 기준을 추가하니 차트가 이상해짐.\n\n\n\n\n계산 간격을 좁히면 차트가 정상적으로 그려진다.\n\n\n\n\n원인은 ESQL이 계산할 수 있는 기본 데이터 범위가 1,000개 이기 때문. 범위 확대.\n\n\n\n\n최소 범위 제한에 걸려도 그 범위 내에서는 차트를 제대로 그려야 하는 거 아닌가?\n\n\n관련 글\n\nESQL - 2nd\nESQL\nElasticsearch 8.11의 변화\n데이터 노가다 실수담 - 19th",
+    "title": "Critical Security Issue Affecting TeamCity On-Premises (CVE-2026-63077) – Update to 2025.11.7 or 2026.1.3 Now",
+    "description": "Summary Details A critical security vulnerability has been identified in TeamCity On-Premises. If exploited, this flaw may enable an unauthenticated attacker with HTTP(S) access to a TeamCity server to bypass authentication checks and execute arbitrary operating system commands with the privileges of the TeamCity server process. All versions of TeamCity On-Premises are affected. TeamCity Cloud […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/07/esql-3rd.html",
-    "pubDate": "2026-07-23T12:23:19.646Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "The State of CI/CD 2026 Survey Is Now Open",
-    "description": "CI/CD is changing rapidly. Or is it?.. AI-assisted development is increasing the volume of code being written, software systems are becoming more distributed, and engineering teams are continuously rethinking how they build, test, and ship applications. At the same time, organizations are modernizing their CI/CD platforms, adopting new workflows, and experimenting with AI in their […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/07/take-cicd-survey/",
-    "pubDate": "Tue, 28 Jul 2026 10:12:25 +0000",
-    "creator": "Olga Bedrina",
+    "link": "https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/",
+    "pubDate": "Mon, 27 Jul 2026 14:09:14 +0000",
+    "creator": "Daniel Gallo",
     "categories": [
-      "survey",
-      "cicd-2",
-      "devops"
+      "news",
+      "security"
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "imageUrl": "",
     "title": "Seeed Studio's E1001 대시보드 구성",
     "description": "책상 위 전자잉크 대시보드 만들기 (Seeed Studio E1001 + Home Assistant)\n2025년부터 홈 어시스턴트(Home Assistant)로 홈 오토메이션에 관심이 생겨 미니PC로 홈서버를 들여놓고, 조명·에어컨·공기청정기 자동화를 하나씩 시작했다.\n그중 내가 가장 신경 쓴 건 실내 공기 정보였다. 집 바로 앞이 4차선 도로다 보니 공기질이 유독 중요했기 때문이다.\n집 안 곳곳에 온습도·VOC&m..",
@@ -44,24 +31,115 @@
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "imageUrl": "",
-    "title": "KotlinLLM is Going Open Source ",
-    "description": "TL;DR KotlinLLM is now public. It’s a research prototype for delegating runtime logic to an LLM from Kotlin code. Instead of calling an LLM on every request or running a separate agent, you can write an explicit Kotlin call. Its body is generated Kotlin source code, and that code is updated as your application hits […]",
+    "title": "TeamCity 2026.1.3 and 2025.11.7 Are Now Available",
+    "description": "We’re rolling out new maintenance updates for TeamCity On-Premises 2026.1 and 2025.11. Both releases are primarily focused on security, addressing more than 20 security vulnerabilities each (including a critical CVE-2026-63077 vulnerability that allows attackers to bypass authentication checks and execute arbitrary operating system commands with the privileges of the TeamCity server process). In addition, 2026.1.3 resolves several functional issues, including: Because these […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/07/kotlinllm-open-source/",
-    "pubDate": "Tue, 28 Jul 2026 07:50:41 +0000",
-    "creator": "Anastasia Birillo",
+    "link": "https://blog.jetbrains.com/teamcity/2026/07/teamcity-2026-1-3-2025-11-7-bugfix/",
+    "pubDate": "Mon, 27 Jul 2026 14:17:02 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "kotlin",
-      "research",
-      "kotlinllm",
-      "research-prototype"
+      "bug-fix",
+      "security"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "[NS] 조금은 가벼워졌어도 전략은 여전히 빛이 난다, 컬드셉트 비긴즈",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2475",
+    "pubDate": "Wed, 29 Jul 2026 18:18:05 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
     ]
   },
   {
     "id": 5,
+    "imageUrl": "",
+    "title": "Reverse Engineering with Hibernate 7.4 and IntelliJ IDEA",
+    "description": "Reverse Engineering in the context of database-driven application development means generating Java persistence artifacts such as entity classes and mapping files from an existing database schema. This is useful when the database already exists, especially in legacy systems or large projects where creating entity classes manually can be slow and error-prone. Until now, these features […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/07/reverse-engineering-with-hibernate-7-4-and-intellij-idea/",
+    "pubDate": "Mon, 27 Jul 2026 07:38:42 +0000",
+    "creator": "Siva Katamreddy",
+    "categories": [
+      "idea",
+      "java",
+      "hibernate",
+      "jpa",
+      "reverse-engineering"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "책임 회피하기",
+    "description": "오지큐 신철호 대표님과 이 회사의 투자자들 간의 갈등이 스타트업 생태계에서 요새 큰 이슈가 됐다. 나는 신철호 대표님을 과거에 뵌 적은 있지만, 친하다고는 할 수 없는 관계이고, 오지큐 회사와는 전혀 상관이 없다. 실은 이런 창업가와 투자자 사이의 분쟁과 갈등은 정확한 사정을 모르면 누가 맞고 누가 틀렸는지 판단하기가 어렵고, 대부분 he said, she said, I said 상황으로(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/07/manning-up-and-taking-accountability.html",
+    "pubDate": "Wed, 29 Jul 2026 21:37:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "general",
+      "inspiring",
+      "korea",
+      "vc"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "ESQL - 3rd",
+    "description": "웹로그 발생 추이.\n\n\n\n\n집계 분할 기준을 추가하니 차트가 이상해짐.\n\n\n\n\n계산 간격을 좁히면 차트가 정상적으로 그려진다.\n\n\n\n\n원인은 ESQL이 계산할 수 있는 기본 데이터 범위가 1,000개 이기 때문. 범위 확대.\n\n\n\n\n최소 범위 제한에 걸려도 그 범위 내에서는 차트를 제대로 그려야 하는 거 아닌가?\n\n\n관련 글\n\nESQL - 2nd\nESQL\nElasticsearch 8.11의 변화\n데이터 노가다 실수담 - 19th",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/07/esql-3rd.html",
+    "pubDate": "2026-07-23T12:23:19.646Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "The State of CI/CD 2026 Survey Is Now Open",
+    "description": "CI/CD is changing rapidly. Or is it?.. AI-assisted development is increasing the volume of code being written, software systems are becoming more distributed, and engineering teams are continuously rethinking how they build, test, and ship applications. At the same time, organizations are modernizing their CI/CD platforms, adopting new workflows, and experimenting with AI in their […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/07/take-cicd-survey/",
+    "pubDate": "Tue, 28 Jul 2026 10:12:25 +0000",
+    "creator": "Olga Bedrina",
+    "categories": [
+      "survey",
+      "cicd-2",
+      "devops"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "New Bug-Fix Releases Are Available for MPS – 2025.3.1, 2025.2.3, and 2025.1.3",
+    "description": "We’ve released updates for multiple major MPS versions that fix several additional issues. DOWNLOAD MPS What’s new Among the shared updates, two fixes backported from 2026.1 are worth highlighting: MPS-38409 – The new read-only-inspector style applies the read-only property to all editor cells in the inspector. When this style is applied to a cell in […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/mps/2026/07/new_bugfix_releases_mps-2025-3-1/",
+    "pubDate": "Fri, 24 Jul 2026 07:56:56 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "releases",
+      "release"
+    ]
+  },
+  {
+    "id": 10,
     "imageUrl": "",
     "title": "토스, 업무 연속성 국제표준 'ISO 22301' 인증 획득… 위기 대응 역량 인정",
     "description": "비즈니스 연속성 관련 국제 인증 심사 통과",
@@ -73,21 +151,7 @@
     "categories": []
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2474",
-    "pubDate": "Wed, 22 Jul 2026 21:36:28 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 7,
+    "id": 11,
     "imageUrl": "",
     "title": "Ponytail Skill for Claude Code: Does It Really Cut Agent Code by 54%?",
     "description": "Part 3 of a series where we take public “token saver” add-ons for coding agents and run the same paired A/B benchmark against each of them. Part 1 was the caveman skill (advertised −65%, measured −8.5%). Part 2 was rtk (advertised −60–90%, measured +7.6%). We ran 80 paired tasks to test the ponytail skill for […]",
@@ -103,40 +167,7 @@
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "New Bug-Fix Releases Are Available for MPS – 2025.3.1, 2025.2.3, and 2025.1.3",
-    "description": "We’ve released updates for multiple major MPS versions that fix several additional issues. DOWNLOAD MPS What’s new Among the shared updates, two fixes backported from 2026.1 are worth highlighting: MPS-38409 – The new read-only-inspector style applies the read-only property to all editor cells in the inspector. When this style is applied to a cell in […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/mps/2026/07/new_bugfix_releases_mps-2025-3-1/",
-    "pubDate": "Fri, 24 Jul 2026 07:56:56 +0000",
-    "creator": "Vaclav Pech",
-    "categories": [
-      "releases",
-      "release"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "IDE Plugin Generator – The New Beginning",
-    "description": "When IntelliJ IDEA 2026.1 arrived, creating a new IntelliJ Platform plugin became simpler. It replaced the old IDE plugin generator and the IntelliJ Platform Plugin Template with the new web-API-based IDE plugin generator, which combines the best parts of the previous approaches. The new IDE plugin generator is intended to reduce maintenance overhead and provide […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/07/ide-plugin-generator-the-new-beginning/",
-    "pubDate": "Fri, 24 Jul 2026 09:13:23 +0000",
-    "creator": "Karol Lewandowski",
-    "categories": [
-      "plugin-development",
-      "intellij",
-      "intellij-platform",
-      "news",
-      "plugins"
-    ]
-  },
-  {
-    "id": 10,
+    "id": 12,
     "imageUrl": "",
     "title": "Eval-driven development: Lessons from evaluating GenAI at scale",
     "description": "No description available",
@@ -154,7 +185,23 @@
     ]
   },
   {
-    "id": 11,
+    "id": 13,
+    "imageUrl": "",
+    "title": "(플레이중) 게임공략 - 택틱스 오우거 리본 - 4장 / 2026-0",
+    "description": "4장 시작이다.\n마지막 장이라던데 훈훈한 엔딩을 맞이할 수 있을 것인가.\n \n\n\n \n데님아 말하면 좀 보고 이야기하자 \n뒷집지지말고\n \n\n\n식사 당번 이야기에 화들짝 돌아본다\n(식사 못참지)\n성기사 위치가 하임성에 잡혀있다는 소식이다.\n \n데님 쪽은 암흑기사단이 무슨 작전인지 몰라 공격을 못하고 있다고 한다.\n분위기는 왕녀가 나와서 그쪽이 정통이니까 거기로 붙으려는 세력들이 있는거 같다.\n \n내부 적으로 농성이 발생하고 항복을 권유하는 사태도 벌어지고 있다.\n카츄아가 왕녀 라는 사실은 데님도 알고 있나보다\n \n지도가 열리는데 다 데님이 먹은 상태다\n11시 방향에 브리간테스성으로 가면 된다.\n \n.\n\n\n신상 무기들이 나왔지만 너무 비싸다\n전멸을 노려서 무기를 뺏아서 써야겠다.\n현재 총 자산은 3.5만 정도 있다.\n힐러를 안써서 그런가 아이템 비용이 많이 나가고 있다.\n돈이 부족할줄이야 ....\n \n비한나 고원 - 브리간테스성 가는길\n\n\n추가 임무에 드래군 을 넣으면 INT 상승 참을 준다고 한다.\n이러면 넣어야지\n \n\n\n\n마술사 우람 이 보스다.\n(우람)\n데님만 잡으면 출세인 모양이다.\n \n공략\n1. 레벨이 28 까지 장향되었으니 훈련하고 가자\n2. 9시 방향에 언덕에서 드래곤 두마리를 기다리자. (물 건너지 말고)\n드래군의 드래곤 킬러 를 이용하면 쉽게 잡을 수 있다.\n3. 드래곤을 해치우면 4명 정도는 3시 방향으로 빙 돌아서 언덕을 오르자\n중간에 건널 수 있는 곳이 있지만 일반 케릭터는 높이 차 때문에 안되고 \n발키리 닌자 버서커 정도만 건널 수 있었다.\n4. 나머지는 9시 방향에서 강을 건너자\n우람의 마법은 어마어마하게 강력하니 약한 애들은 근처로 갈 시도도 하지말자\n훈련을 했다면 아군의 레벨이 28 로 더 놉기 때문에 쉽게 클리어 가능하다.\n \n보상\n\n\n이번엔 각잡고 전멸 시켰다.\n월계수 가 눈에 띈다. 합성 재료 였던거 같은데 ...\n계장도 는 잘 모르겠다.\n \n \n \n브리간테스성\n\n\n \n전엔 서쪽 갔었는데 ...\n \n브리간테스성 서쪽 (정문 아님)\n\n\n정문으로 갈껄 그랬나 ...\n데님을 발견하고 \n한명을 좋아하고 \n한명을 죽이러 왔다고 적대적이다.\n(대혼란)\n적들의 방허가 엄청 부실해보인다.\n \n브리간테스성 남쪽 (정문)\n \n\n\n싸우러 왔다고 말은 하는데\n전투병력 끌고 왔다고 토짜 맞는다.\n서로 믿을 수 없는 상황이라 말이 안통하는거 같다.\n\n\n종교 단체라 그런가 죽으면 구원받는다고 한다.\n말 통할 상대가 아니다.\n이곳도 병력은 초라해 보인다.\n \n남족 정문을 진행했다. 맵이 작은데 길이 복잡하다.\n일단 경비등이 올라가는 길을 막고 있는데 파괴 불가능하다.\n때려지긴하지만 hp 표시가 없다.\n중앙에는 성을 오를 수 있는 S 자용 코스가 있는데 튼튼한 2명 정도만 회복약 들고 올라가자 \n올라가는 동안 많이 맞아야한다.\n성벽에 아처가 여러명 있는데\n무리해서 잡을 생각 하지 말고 그냥 두자\n재우거나 석화 시켜도 뒤에있는 클레릭이 풀어버린다.\n높이가 높아서 마법 말곤 공격할 방법도 없다.\n9시 방향에 멀리 돌아가는 다른 길이 있는데\n여기로 왕창 올라가자 \n올라가는동안 중앙에서 두둘겨 맞아주면 된다.\n힐 하면서 버텨보자\n올라가기만 하면 끝난다.\n \n전투 종료 후\n\n\n말로 해결하기엔 서로 원한이 많다.\n\n\n은화 이전에 나왔었나 ...\n지금 돈이 너무 없어서 장비를 살수가 없다.\n\n\n카르디아 ? 활인가 ?\n\n\n \n만렙이라 경험치 얻으려고 아처를 꺼내진 않았다.\n금화도 주는구나\n \n브리간테 성 내\n\n\n다행이 안싸우나 ...\n\n\n싸우러 온거 아니라니까\n\n\n패배자가 이런 말을 하면 안죽어도 될 사람들이 죽는다구\n\n\n승려 같은 젊은 여성 올리비아 ... \n승려인거냐 아닌거냐\n\n\n성안에 있는 사람이 프란시 신부 였다.\n데님도 몰랐고 나도 몰랐다\n\n\n죽기전에 만나러 가자\n \n암흑기사단이 고문으로 정보를 얻으려고 했다고 한다.\n아마도 가츄아에 대한 저보일꺼 같다.\n\n\n누워있다.\n\n\n알려주는데 다 알고 있다.\n(지금 보니 프사도 누워있다.)\n\n\n \n(회상 장면) 마나플로아 와 왕비가 대면 중이다.\n\n\n왕비의 싸데기 모션은 맨손공격 느낌이다.\n아무튼 쫓겨났다.\n\n\n마나플로아는 죽고 아기만 나왔다.\n\n\n브랜 신부와 프랜시 신부\n카추아는 저번 달에 죽은 프랜시의 딸 이름이였다.\n왕비도 출산이 임박했기 때문에 \n비밀로 해야한다고 한다.\n목걸이는 이 때 넘겨주었다.\n왕이 준비한 선물이고 아들이면 파란거 딸이면 빨간걸 주기로 했다고 한다.\n \n왕자가 죽었을때 카츄아를 왕도에 보냈으면 전란 이없었을꺼라고 한다.\n(죽은 왕자는 무슨일이얌)\n아무튼 이혼란은 후계가 없어서 일어난 일이였다\n\n\n하지만 보내지 않은 프랜시 신부\n\n\n암흑기사는 다른 목적이 있어서 데려갔다고 한다.\n(앵 왕위 계승이 아니면 무슨이유지?)\n\n\n도라갈루아 왕이 뭔가 남겼나 ??\n \n\n\n왕의 묘 위치를 모르는구나\n\n\n위치는 모르고 카츄아는 열쇠 같은건가 보다.\n \n\n\n이제 칼빵 날린 카츄아를 도와주자\n\n\n모르바가 누구였지\n언데드 조정하는 아저씨였나 ...\n \n\n\n \n브터 신부가 섭정이였구나 이름 까먹었었다.\n데님도 다른 사람 아들인가 ...?\n\n\n이거는 얼핏 들은거 같은데\n시골 마을애 프랜시가 괜히 주고 하는게 아니라고\n\n\n \n바크람인 이라고 한다.\n(바크람 인이 누구징)\n데님은 부정한다. \n\n\n모르바 는 프랜시 신부가 죽기전에 왕실의 묘 때무넹 찾으라는 사람이다.\n \n\n\n네 자매 ?\n\n\n올리비아가 그 자매였고\n\n\n다른 한명은 세리에 였다. \n(세리에는 우리편에 있다. 바크람 인이 형명하겠다던 그쪽이 세력이였구나)\n\n\n \n\n\n충격 받고 앉아있네\n\n\n이 스토리가 역시 정식 스토리였어\n \n\n\n벌떡 일어날떼 올리비아가 깜짝 놀라는 디테일이 있다.\n\n\n데님을 칭찬해준다.\n\n\n세명 등장하고 \n나머지 한명은 누구지?\n \n\n\n모르바는 행불 중이다.\n\n\n누나는 닾을 알고 있다.\n반하무바 신전\n이제보니 카츄아랑 좀 비슷하게 생겼다.\n\n\n마지막 한명의 이름은 세리\n\n\n브랜더 쪽에 갔구나\n세리도 반하무바 신전을 알고 있을 것이다.\n\n\n올리비아 입장 하셨습니다.\n \n\n\n힘이 왜이케 높지\n곤 (지팡이) 용 필살기도 2개 가지고있다.\n지팡이로 두둘겨 패나보다\n \n \n\n\n다음에 갈길\n \n팁 - 옛 동전 가격\n\n\n황동화 - 100\n동화 - 250\n은화 - 1,000\n금화 - 3,000\n금화 많이 나와랏\n \n\n\n \n \n해돈산 - 반하무바 신전 가는길\n데님은 보자마자 바크람 군인지 안다.\n어떻게 알지 ㄷㄷㄷ\n\n\n잡으면 알려주를 시전\n추가 임무에 드래군을 포함하라고 한다.\n드래곤이 2마리 보인다.\n드래군 과 드래곤 킬러 스킬을 이용하자.\n추가 임무에 아처를 사용하라고 한다.\n불길 건너는게 쉽지 않은 맵이니 아처를 이용하자\n아처를 넣으면 hp max 참을 주니 챙기자\n \n \n전투 종료 후 \n\n\n시원하게 알려주는게 없네\n모르바를 를 붙잡았다고 말을 하는데 ...\n \n\n\n동전 조아\n\n\n아쳐 넣는걸 깜박했다. \nhp max 참은 최대 hp 를 +5 해준다 (50 도 아니고 ... 5)\n \n \n \n반하무바 신전 - 세리 영입 조건 숙지\n지형이 높긴한데 구덩이가 두군데 있다.\n잘못 맞아서 유닛이 사라지는 경우가 있으니 주의하자\n맵 - 구덩이 추락 주의\n- 구덩에 떨어지면 영구 사망 처리된다.\n- 대사도 없기 때문에 죽은지도 모를 수 있다. 끝나고 인원체크 꼭하자\n- 세번째 자매 세리가 나오는데 hp 를 10% 이하로 떨어트려서 살려야서 보내야한다.\n   맵 시작전에 모르바가 세리는 살려달라고 말하는 이유가이거였다.\n \n \n \n\n\n세리 등장\n악역의 목소리다.\n\n\n모르바 는 몰라 를 시전한다.\n누가 구해주러 오겠지 느낌이다.\n\n\n세라는 단단히 오해하고 있다.\n\n\n금술이 목적이였다.\n(금술 = 금지된 마법)\n\n\n \n모르바를 데려가려고 입구 방향으로 끌고 나가는데 \n우연히 데님이 들어와 모르바를 확보한다.\n(운이 좋네)\n\n\n세리를 죽이지 말라고 한다.\n \n\n\n \n데리고 나왔더니 대사가 있었다.\n3자매 전부 데려나왔다.\n \n\n\n엄마에 대한 이야기가 있나보다\n\n\n바로 밝여져버리넹 ㄷㄷㄷ\n복잡한 이야기가 아닌가 보다\n \n세리는 세리에가 발레리아 군이 전멸했음에도 살아남은것을 찌른다.\n세리에는 계속 이걸로 공격당하네\n\n\n세리 의 무적의 논리다\n거의 무지개 실드 급이다.\n \n\n\n이로서 3자매는 모든 대사를 쳤다.\n \n\n\n목적은 더 강한 힘 이였다.\n이 대사 들을려고 살려둔건 아니였고 전멸 시킬려고 제일마지막에 치다보니 \n이 대사가 나왔다.\n \n\n\n대사 또 있네\n\n\n죽은거야 ? 산거야 ...\n이거는 죽인 경우 대사이다. hp 를 10% 이하로 남겨야한다.\n(다시 해야겠다. ㅠㅠ)\n \n\n\n방금까지 끌려다니던 모르바 치분한 목소리로 이야기한다.\n모두들 진정한 리더를 원하고 있고\n역경을 많이 겪은 데님이 가장 정의로운 인물이 되어가고 있다.\n \n\n\n올바른 사람이라도 암흑기사단에 잡혀있으면 \n제대로 행동할 수 없다.\n \n\n\n선택지가 발생 !\n가츄아랑 싸울 수 있겠냐는 질문이다.\n카추아를 살리려면 여기서 1번을 고릅니다.\n이후 카추아와 대면했을때 한번더 물어보고 그 질문도 답을 잘하면 카츄아는 생존합니다.\n카츄아가 살면 카츄아를 사용할 수 있고\n카츄아가 죽으면 데님은 로드 로 전직할 수 있습니다.\n로드 직업이 최강이라는군요\n \n티스토리 문제로 글을 3번째 저장 못하고 날려버렸다.\n임시 저장은 되게 해주지 UI 가 먹통이라 미리 보관해둘 수도 없었따.\n \n4번째 자매 세리는 영입 방법\n전투도 없는 간단한 방법으로 진행하면 되니 빠르게 처리하자\n(바니시아성으로 진행하면 이 이벤트는 사라진다.)\n1. 피도크성 으로 가서 이벤트를 본다.\n2. 발바로사 마을로 가서 \"야만인의 뿔피리\" 를 3개쯤 채운다.\n3. 훌련할때 유닛 3명이 \"야만인의 뿔피리\" 를 장비하고 시작한다.\n4. 훈련중에 \"야만인의 뿔피리\" 를 사용하면 날씨가 변하는데 번개 + 비 오는 날씨를 만든다.\n5. \"후퇴\" 메뉴로 맵으로 나간다.\n6. 조드 습지 갔다 다시 마을로 온다.\n7. 세리 이벤트가 뜨면서 영입할 수 있다.\n바니시아 성 가는길\n피도크성 위로 길이 생겨있다. 길따라 가면된다.\n???\n램비스 언덕\n조루시 유전\n세번의 야위전투에는 드래곤이나 비스트가 나온다\n드래군 과 종류에 맞는 킬러 스킬로 바꿔 야한다.\n킬러 스킬을 쓰니 한손검으로도 1500 정도 데미지가 들어가서 쉽게 잡을 수 있었다.\n추가입무에 좋은 무기와 참을 주니 조건을 해결해 받도록 하자\n이제 부터 무기가 너무 비싸서 살 엄두가 안난다.\n3만 있는데 무기가 7천 이다.\n적들도 많이 나나오니 마법사에게 페트로 버스트 (였나?) 석화 마법을 들려주고 \n궁수는 잠재우는 화살 스킬 을 사용해서 최대한 한번에 적은 적과 대면하게 만드는게 좋다.\n힐러들을 먼저 석화나 잠재우기를 쓰는 방법도 있다.\n망치 장비에 \"카르디아\" 라는게 2개 정도 생겼는데\n방어용 부채 라고 한다.\n나중에 \"철선\" 으로 강화하면 잘 막는다고 한다.\n이 무기를 아이템으로 사용하면 3칸 거리에서 \"참\" 마법을 사용하게 되는데\n힐러나 거리가 모잘라 할꺼 없는 캐릭터들은 이거 쥐어줘서 \"참\" 이라도 열심히 걸어보자.\n \n램버스 언덕\n\n\n여기서 좋은 아이템이 만힝 나왔다.\n전멸을 노리자\n \n \n \n바니시아성\n\n\n외길이다. 그냥 돌진 한다.\n \n바니시아성 문 앞\n \n\n\n로스로리엔 은 또 누구야\n \n바니시아성 군은 적들이 등장하니까 올줄 몰랐다는 듯이 깜짝 놀란다.\n왕녀 여기에 없나보다.\n \n팁 - 골렘 뺏아보자\n골렘이 보이는데 \"세리;\" 가 세이렌 이기 때문에 골렘 한번 뺏을 수 있다.\n\"인형계열 설득\" 스킬 장착하자\n \n전투 종료 후\n\n\n데님도 적들이 대비하지 못했다는 점에서 놀란다.\n이러면 중요인물이 여기 없다는 뜻이 된다.\n\n\n마셜 보우 2번째 획득\n \n\n\n전투가 끝나면 골렘이 가입한다고 한다.\n가입시켜서 경매장에 팔아먹으면 돈이 된다는 공략이 있다.\n한번 써보고 팔아버려야겠다.\n \n바니시아성 중앙 정원 - 암흑기사 바르바스 등장\n성이 데코가 잘되있네 정원이라니\n \n\n\n맵 우측에 이런 글씨가 있었다는걸 이번에 처음 알았다.\n레벨이 32로 막혀있는게 표시되고 있\n\n\n다.하단에는 날짜가 표시되고 있다.\n220 Days 첫전투부터 지금까지 보낸 날짜인가 ...\n초반에 쓸데 없는 데 돈을 많이 써서 진짜 돈이 부족하다 ㅠㅠ\n \n \n비니시아성 중앙 정원\n \n공략\n석화 마법사 둘\n잠재우는 필살기 있는 궁수 둘 (트렌스 샷인가 2번째 필살기)\n을 준비한다.\n마법사는 최대한 사정거리 세팅을 해서 나가자\n- 마법사의 지팡이 +1\n- 세이렌은 레인지 익스텐드 로 사정거리를 늘릴 수 있다.\n보스 근처에 가지 않으면 움직이지는 않는다.\n성벽에서 쏘는 화살을 피해 5시방향 구석까지 걸어가자\n튼튼한 애들은 성벽에 붙어서 맞아주면서 가면되고\n마법사들은 맵 가장자리로 가면된다.\n(이동 타일이 이상해서 걸어가기 쉽지 않다.)\n조금씩 성벽 위로 접근하고\n궁수 위주로 석화를 시켜주면\n기사랑 힐러가 밖으로 빠져나오게된다.\n이걸다 처리하고 더 접근하면 보스가 움직일 것이다.\n보스의 단일 대상 필살기는 맞으면 죽는다 그녕 죽고 다시 살리자\n재물의 낙인과 춤을 이용하면 공격력이 많이 약해진다.\n기사들의 방패 밀기로 적당한 위치에 가두고\n가두다보면 단일 대상 필살기를 안쓰고 다중 대상 필살기를 쓰는데 그건 맞아줄만하다.\n이거는 맞을만하니 버티면된다.\n이후엔 전멸 시키면 된다.\n \n \n전투 시작\n정원이라고 멋진 나무와 화초가 있을 줄 알았는데\n그냥 성벽이 하나 또 있다.\n\n\n궁금해서 골렘을 꺼내 봤다.\n날아다니느건 아니지만 이동에 제약이 없는거 같았다.\n \n\n\n암흑기사 둘이 여기를 찾아낼줄이야 하며 놀라고 있다.\n있긴있구나\n \n\n\n앵 암흑기사랑 싸워야하나..\n \n\n\n기적의 확보 ? \n제노비아의 성검 ?\n암흑기사는 뭔가 인생역전의 템을 찾을때까지 몸사려야하는거 같다.\n \n\n\n총 나왔다.\n오버 테크놀로지다\n \n\n\n데님을 쏘려고 한거 같은데 \n잘못쏴서 자기편을 쏴버렸다.\n시체가 사라져버려서 내가 칠해뒀다.\n이녀석 개그 담당인가.\n\n\n6방향의 기사에게 총 (범행 흉기) 를 줬다.\n잡아서 저 거 챙겨야겠다.\n \n\n\n보스가 우연히 이상한길로 들어가다보니\n방패로 가둘 수 있었다.\n죽이니까 전이석으로 도망갔다.\n \n\n\n이게 거너 (총쏘는 애) 전직증인가\n \n팁 - 낮은 레벨 마법은 마나 효율이 좋다.\n나이트 들은 힐 능력이 떨어지는데\n힐 많이 하려고 힐 III 같은걸 장창해주면 마나소비가 극심하니 힐 1단계 짜리를 쓰자\n대충\n나이트\n힐 1 - MP 15 - 110 정도 회복\n힐 2 - MP 30 - 170 정도 회복\n힐 3 - MP 45 - 220 정도 회복\n힐양은 2배 증가하지만 MP 소모량이 3배 증가하는 밸런스를 가지고 있다.\n마법사도 명상이 잘 안터지면 MP 수급이 힘드닌 꼭 높은 레벨의 마법을 쓸 필요는 없다.\n \n \n \n \n바니시아성 내 \n맵을 보니 구석에 하나가 더있었다. 3단으로 된 성이였구나\n \n\n\n시간 돌리는 기능을 쓰지말라니\nSTR 참은 중요하니까.\n도전할 가치가 있다.\n안죽으면 힐 플러스 II 를 주네\n \n공략\n그냥 플레이 하면 어렵지 않은데 \n추가 임무를 달성하려면 매우 어렵다.\n \n \n \n \n전투 시작\n\n\n카추아랑 한잔 하고 있는 암흑기사 랜슬롯\n데님에게 털리기 일보직전이라고 하자 \"카츄아 도망치자\" 시전\n\n\n카츄아는 도망 다니기 질렸다고 한다.\n \n카츄아가 도망가려는데 데님이 들어오고 전투 시작한다.\n카츄아는 맵 꼭대기에서 그냥 서있을 예정이고\n랜슬롯 만 잡으면 전투가 종료된다.\n \n전투 중\n\n\n카츄아는 암흑기사에게 이용당하고 있다고 이야기 해준다.\n왕의 피를 이은자가 필요하다는 내용\n\n\n서로 이용하는거라 괜찮다고 한다.\n공주 대우를 받으려면 카츄아도 암흑기사를 이용해야하는 것이다.\n \n \n \n \n전투 종료 후\n\n\n암흑기사 랜슬롯  hp 를 10% 정도 남기니까 도망을 갔다.\n혼자 도망가고 가츄아는 알아서 살아 남르앤다.\n\n\n미안하닷\n\n\n(털썩)\n\n\n시간을 돌릴 수 없어서 빡새게 석화 플레이로 한명씩 잡았다.\n(시간 많이 걸림)\n죽어서 살리면 실패인가 보다\n마지막에 죽은걸 못봤나 ..?\n \n\n\n단독 면담 한다.\n\n\n설득 하려고 했으나\n실패다.\n\n\n선택지가 나온다.\n1번을 선택하면 카추아가 열받아서 칼로 자결해버린다.\n그릭노 데님이 로드로 전직한다.\n2번은 선택하면 사과를 하여 열 받는것을 막는다.\n카츄아는 사실 왕이 되고 싶은 생각은 없고 위로가 필요한 상태다.\n(진정시키면 착해진다.)\n \n2번을 석택해서 카츄아를 살려본다.\n\n\n말려드는건 개뿔이고 \n전투 재밌어서 한건데 ...\n\n\n선택지 하나 더 나왔다 공량봐야징\n뭘 선택해도 살아서 합류한다고 한다.\n \n프랜시 신부의 유언을 전달해준다.\n그때 왕도로 보냈으면 전란이 없엇을 지도 모른다는 이야기\n그때 사랑해서 보내지 못했다고\n\n\n음성은 우는 음성이 나왔다.\n\n\n우는 일러스트가 있었네\n화나게 해서 자결해버리면 이런 말할 틈도 없는 연출이 나온다.\n \n\n\n바르바스 도 도망 랜슬롯 도 도망\n둘이 같이 싸우지 그랬냐\n \n끝났는데 카츄아는 동료가 되지 않았다.\n언제 되려나\n \n3만 5천골 바꿔준다고 나오는데\n환전하고나니 \n\n\n내돈 다 어디갔지 ...\n\n\n돈을 다 쓰고나니 숫자가 올랐다. \n표시가 이상하네 ....\n \n팁 - 거너 전직하려면\n워런 리포트에서 거너 구출 괄련 이벤트 퀘스트를 받아야한다고 한다.\n이제부턴 워런 리포트 자주 확인해야겠다.\n다른 저거노트 나 다른 직업들도 이런식으로 얻는거 같다.\n워랜 리포트 뉴스를 보면 마을이 추가되어있다.\n해적 마을이라는데 여기가 거너 나오는 이벤트인지 다른 이벤트인지는 잘 모르겠다.\n피도크 성으로 돌아가 스토리를 진행 시키자\n \n피도크성\n\n\n와 사람 많다.\n\n\n성에서 숨어있지 않고 싸우기로 한다.\n전투중에 죽으면 어떻게 되는거징 ㄷㄷㄷ\n\n\n연기 였나보다\n\n\n엔딩은 데님이 만든닷\n\n\n수락한다.\n마지막 전투하러간다는데 ...\n\n\n워런 리포트에서 칭호를 바꿀 수 있었다.\n\n\n바니시아성 이후 피토크성 이벤트를 보고 나서 워런 리포트 뉴스를 확인하니 세개가 더 생겼다.\n이거중에 거너 이벤트가 있나보다.\n \n티스트로이 이슈 발생\n스샷도 찍고 해야하는데 \n티스토리가 시스템을 바꾸면서 길게 글을 쓸 수가 없군요\n요약만 간단히 적고 아예 다른 방식으로 글을 만들어야할것 같습니다.\n \n거너 이벤트\n거너는 총을 쏘는데 높이 상관 없이 총알이 날아가기 때문에 편리하며 활보다 강력하다.\n바니시아성 오른쪽으로 해변과 마을이 하나 더 생기면 거너를 얻기위한 퀘스트 입니다.\n해변\n전멸 시키면 됩니다. \n능력치 참을 주니 추가 임무를 달성하시는걸 추천드립니다.\n전멸이니 천천히 전부 다 잡으면 됩니다.\n석화를 많이 쓰세요\n마을 \n거너가 궁지에 몰리고 데님이 도와주는 형태입니다.\n난이도는 높지 않습니다.\n재료가 있었는제 머시킷총을 바로 만들 수 있었습니다.\n \n하임성으로 \n바니시아성 바로밑에 하임성이 보입니다.\n무기 업그레이드 할 돈이 없고\n회복템만 잔뜩 들고 도전 했습니다.\n전투에서 전멸만 시키면 온갖 무기가 나와서 굳이 안산게 다행이였습니다.\n \n처음엔 셋중 하나를 고르는데\n저는 보스 장비를 보니 \n왼쪽은 양손검\n중앙은 한손검\n오른쪽은 월게수 채찍\n이였습니다.\n오른쪽이 드래곤도 나오길레\n드래군 으로 상대하려고 했으나 매우 어려웠습니다.\n보스의 공격력이 너무 강해서 픽픽 쓰러집니다.\n \n가츄아 출천하는 추가 임무가 있어서 출전하니\n가짜 왕녀라고 무시받는군요\n \n하임성 중앙 정원\n대장이 나이트라 팔랑크스가 가끔 겨치는데\n이때는 공격해봐야 1/4 정도 데미지 밖에 안들어갑니다.\n공격력도 매우 쌔니 방어력 강한 유닛으로 방패 밀기로 못움직이게 막았습니다.\n왼쪽 성벽은 윙부츠랑 날개인간 으로 올라가서 궁수만 빨리 해치우고\n중간부분에서 왼쪽 오른쪽으로 갈리는데\n성벽에서 화살이 날아오더라도 왼쪽길(계단으로 되어있어 올라가기 쉬움) 로 올라갑니다.\n석화를 중간중간 걸어주면 쉽게 올라갈 수 있습니다.\n \n전투 종료후 연출\n암흑기사 랜슬롯은 브랜터를 배신하고 빠져나가려고 하는데\n브랜터 쪽에 붙은 암흑기사도 있어서 편이 갈립니다.\n결국 랜슬롯은 묶여서 골방에 갇힙니다.\n \n모터팀 은 거너 퀘스트에 등장하는 암흑기사 인데\n브룬힐데 라는걸로 왕가의 피 없이 봉인을 풀수 있다고 하며\n랜슬롯 블랙 발제폰 이 함께 갇혀있고\n마르팀 안드라스 바르바스 가 브랜터와 붙게됩니다.\n분열되었다.\n \n보인을 풀려는 검도 열쇠이고 또 무언가를 해야한다는 비밀을 속삭여줍니다.\n묶인거 쉽게 풀고 탈출하네요 ㄷㄷㄷ (능력보소)\n \n하임성 성내\n추가임무에 좋은것을 주지만 저번과 같이 어렵습니다\nC.H.A.R.I.O.T 을 쓰지 않기 - VIT 참\n전투 불능 상태 없이 승리 - 윈드 완드\n전투 불능 없이 클리어 하기는 hp 가 0 되는 순간 실패하는 거 같다.\n게임 끝날때 다 살려놔도 실패하는 것이다.\n이거 얻으려면 양손 무기 나이트로 12 명 뛰어들어서 대장만 잡아으면 가능할것 같다.\n \n \n \n전투 시작 전\n암흑기사 3명은 도망가버린다.\n능력도 없는 프랜터는 데님을 상대한다.\n(그냥 항복하지 암흑기사도 없는데)\n \n전투 중간\n세리는 사랑한다는 말을 듣고 싶었나보다\n브랜터가 힘만 추구한다고 그러는데 아니라고 한다.\n데님 과 브랜터는 서로 항복하라고 권유하지만\n데님은 브랜터가 망한거 처럼보이고\n브랜터는 내가 나라를 위해 암흑기사를 쫓아냈다고 그러는데 \n설득력이 없어 보인다.\n \n \n전투 종료 후\n\n\n \n전투는 종료 되었고 \n인종 차별 없는 세상을 만들기로 한다.\n \n\n\n그래도 암흑기사는 토벌한다.\n \n \n\n\n근처에 \"공중 정원\" 이라고 생겼는데 여기가 최종 보스가 있는거 같다.\n거기 가려니까 이벤트가 발생했다.\n \n\n\n왠 여자 ?\n소개팅은 아니다 카츄아도 같이 왔다.\n침대 옆에 여자는 성기사 랜슬롯 이다.\n폐인이 되었다.\n오르골에 반응은 한다.\n \n소녀 머리쪽에 칼이 한자루 있는데 데님에게 건네준다.\n \n\n\n롬바르디아 \n이제 내 칼이다.\n한손검 인데 내 데님은 양손검으로 키웠다. \n그래서 미르딘 줬다. (아쉽네)\n그리고 바람 속성의 칼이라고하니 미르딘을 바람 속성으로 변경시켜줬다.\n \n공중 정원\n\n\n암흑기사 마르팀 이 등장한다.\n제대로 왔나보다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1680",
+    "pubDate": "Fri, 24 Jul 2026 23:50:16 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "게임",
+      "게임",
+      "게임공략"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "복잡주의자",
     "description": "나는 단순한 걸 좋아하는 simplicity의 신봉자다. 일을 어렵게 하는 것과 쉽게 하는 것, 두 가지 옵션이 있다면 크게 고민하지 않고 단순한 방법을 택한다. 복잡한 방법과 단순한 방법이 같은 결과를 낸다면, 바보가 아닌 이상 단순한 방법을 선택하지만, 나는 단순한 방법이 복잡한 것보다 결과가 약간 모자라도 그냥 단순한 방법을 선택하는 편이다. 모든 사물을 단순하게 보고 생각하는 게(...)",
@@ -170,68 +217,20 @@
     ]
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "병신을 만드는 AI",
-    "description": "우린 인바운드로 오는 콜드이메일을 웬만하면 다 읽어보고 확인하는 몇 안 되는 VC 중 하나다. 충분히 많은 회사, 창업가와 만나고 있고, 우리가 아는 네트워크에서 – 이미 투자한 300개가 넘는 창업가들의 소개, 프라이머를 통한 소개, 다른 VC의 소개 등 – “따뜻한” 소개를 워낙 많이 받아서 굳이 모르는 창업가들이 보내는 사업계획서를 안 봐도 검토해야 할 사업이 넘쳐흐르긴 하지만,(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/07/how-ai-is-making-you-stupid-really-stupid.html",
-    "pubDate": "Wed, 22 Jul 2026 21:39:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "ai",
-      "FoundersAtWork",
-      "Strong"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Code Coverage: How to Measure It, Understand the Metrics, and Improve Your Tests",
-    "description": "Code coverage is one of those metrics that every development team talks about but few use to its full potential. Whether you’re shipping a SaaS product or maintaining a legacy monolith, understanding what your tests actually exercise-and what they miss-can make the difference between a confident release and a 2AM incident page. This article walks you […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/07/code-coverage-tests/",
-    "pubDate": "Thu, 23 Jul 2026 09:49:34 +0000",
-    "creator": "Kerry Beetge",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "(플레이중) 게임공략 - 택틱스 오우거 리본 - 4장 / 2026-0",
-    "description": "4장 시작이다.\n마지막 장이라던데 훈훈한 엔딩을 맞이할 수 있을 것인가.\n \n\n\n \n데님아 말하면 좀 보고 이야기하자 \n뒷집지지말고\n \n\n\n식사 당번 이야기에 화들짝 돌아본다\n(식사 못참지)\n성기사 위치가 하임성에 잡혀있다는 소식이다.\n \n데님 쪽은 암흑기사단이 무슨 작전인지 몰라 공격을 못하고 있다고 한다.\n분위기는 왕녀가 나와서 그쪽이 정통이니까 거기로 붙으려는 세력들이 있는거 같다.\n \n내부 적으로 농성이 발생하고 항복을 권유하는 사태도 벌어지고 있다.\n카츄아가 왕녀 라는 사실은 데님도 알고 있나보다\n \n지도가 열리는데 다 데님이 먹은 상태다\n11시 방향에 브리간테스성으로 가면 된다.\n \n.\n\n\n신상 무기들이 나왔지만 너무 비싸다\n전멸을 노려서 무기를 뺏아서 써야겠다.\n현재 총 자산은 3.5만 정도 있다.\n힐러를 안써서 그런가 아이템 비용이 많이 나가고 있다.\n돈이 부족할줄이야 ....\n \n비한나 고원 - 브리간테스성 가는길\n\n\n추가 임무에 드래군 을 넣으면 INT 상승 참을 준다고 한다.\n이러면 넣어야지\n \n\n\n\n마술사 우람 이 보스다.\n(우람)\n데님만 잡으면 출세인 모양이다.\n \n공략\n1. 레벨이 28 까지 장향되었으니 훈련하고 가자\n2. 9시 방향에 언덕에서 드래곤 두마리를 기다리자. (물 건너지 말고)\n드래군의 드래곤 킬러 를 이용하면 쉽게 잡을 수 있다.\n3. 드래곤을 해치우면 4명 정도는 3시 방향으로 빙 돌아서 언덕을 오르자\n중간에 건널 수 있는 곳이 있지만 일반 케릭터는 높이 차 때문에 안되고 \n발키리 닌자 버서커 정도만 건널 수 있었다.\n4. 나머지는 9시 방향에서 강을 건너자\n우람의 마법은 어마어마하게 강력하니 약한 애들은 근처로 갈 시도도 하지말자\n훈련을 했다면 아군의 레벨이 28 로 더 놉기 때문에 쉽게 클리어 가능하다.\n \n보상\n\n\n이번엔 각잡고 전멸 시켰다.\n월계수 가 눈에 띈다. 합성 재료 였던거 같은데 ...\n계장도 는 잘 모르겠다.\n \n \n \n브리간테스성\n\n\n \n전엔 서쪽 갔었는데 ...\n \n브리간테스성 서쪽 (정문 아님)\n\n\n정문으로 갈껄 그랬나 ...\n데님을 발견하고 \n한명을 좋아하고 \n한명을 죽이러 왔다고 적대적이다.\n(대혼란)\n적들의 방허가 엄청 부실해보인다.\n \n브리간테스성 남쪽 (정문)\n \n\n\n싸우러 왔다고 말은 하는데\n전투병력 끌고 왔다고 토짜 맞는다.\n서로 믿을 수 없는 상황이라 말이 안통하는거 같다.\n\n\n종교 단체라 그런가 죽으면 구원받는다고 한다.\n말 통할 상대가 아니다.\n이곳도 병력은 초라해 보인다.\n \n남족 정문을 진행했다. 맵이 작은데 길이 복잡하다.\n일단 경비등이 올라가는 길을 막고 있는데 파괴 불가능하다.\n때려지긴하지만 hp 표시가 없다.\n중앙에는 성을 오를 수 있는 S 자용 코스가 있는데 튼튼한 2명 정도만 회복약 들고 올라가자 \n올라가는 동안 많이 맞아야한다.\n성벽에 아처가 여러명 있는데\n무리해서 잡을 생각 하지 말고 그냥 두자\n재우거나 석화 시켜도 뒤에있는 클레릭이 풀어버린다.\n높이가 높아서 마법 말곤 공격할 방법도 없다.\n9시 방향에 멀리 돌아가는 다른 길이 있는데\n여기로 왕창 올라가자 \n올라가는동안 중앙에서 두둘겨 맞아주면 된다.\n힐 하면서 버텨보자\n올라가기만 하면 끝난다.\n \n전투 종료 후\n\n\n말로 해결하기엔 서로 원한이 많다.\n\n\n은화 이전에 나왔었나 ...\n지금 돈이 너무 없어서 장비를 살수가 없다.\n\n\n카르디아 ? 활인가 ?\n\n\n \n만렙이라 경험치 얻으려고 아처를 꺼내진 않았다.\n금화도 주는구나\n \n브리간테 성 내\n\n\n다행이 안싸우나 ...\n\n\n싸우러 온거 아니라니까\n\n\n패배자가 이런 말을 하면 안죽어도 될 사람들이 죽는다구\n\n\n승려 같은 젊은 여성 올리비아 ... \n승려인거냐 아닌거냐\n\n\n성안에 있는 사람이 프란시 신부 였다.\n데님도 몰랐고 나도 몰랐다\n\n\n죽기전에 만나러 가자\n \n암흑기사단이 고문으로 정보를 얻으려고 했다고 한다.\n아마도 가츄아에 대한 저보일꺼 같다.\n\n\n누워있다.\n\n\n알려주는데 다 알고 있다.\n(지금 보니 프사도 누워있다.)\n\n\n \n(회상 장면) 마나플로아 와 왕비가 대면 중이다.\n\n\n왕비의 싸데기 모션은 맨손공격 느낌이다.\n아무튼 쫓겨났다.\n\n\n마나플로아는 죽고 아기만 나왔다.\n\n\n브랜 신부와 프랜시 신부\n카추아는 저번 달에 죽은 프랜시의 딸 이름이였다.\n왕비도 출산이 임박했기 때문에 \n비밀로 해야한다고 한다.\n목걸이는 이 때 넘겨주었다.\n왕이 준비한 선물이고 아들이면 파란거 딸이면 빨간걸 주기로 했다고 한다.\n \n왕자가 죽었을때 카츄아를 왕도에 보냈으면 전란 이없었을꺼라고 한다.\n(죽은 왕자는 무슨일이얌)\n아무튼 이혼란은 후계가 없어서 일어난 일이였다\n\n\n하지만 보내지 않은 프랜시 신부\n\n\n암흑기사는 다른 목적이 있어서 데려갔다고 한다.\n(앵 왕위 계승이 아니면 무슨이유지?)\n\n\n도라갈루아 왕이 뭔가 남겼나 ??\n \n\n\n왕의 묘 위치를 모르는구나\n\n\n위치는 모르고 카츄아는 열쇠 같은건가 보다.\n \n\n\n이제 칼빵 날린 카츄아를 도와주자\n\n\n모르바가 누구였지\n언데드 조정하는 아저씨였나 ...\n \n\n\n \n브터 신부가 섭정이였구나 이름 까먹었었다.\n데님도 다른 사람 아들인가 ...?\n\n\n이거는 얼핏 들은거 같은데\n시골 마을애 프랜시가 괜히 주고 하는게 아니라고\n\n\n \n바크람인 이라고 한다.\n(바크람 인이 누구징)\n데님은 부정한다. \n\n\n모르바 는 프랜시 신부가 죽기전에 왕실의 묘 때무넹 찾으라는 사람이다.\n \n\n\n네 자매 ?\n\n\n올리비아가 그 자매였고\n\n\n다른 한명은 세리에 였다. \n(세리에는 우리편에 있다. 바크람 인이 형명하겠다던 그쪽이 세력이였구나)\n\n\n \n\n\n충격 받고 앉아있네\n\n\n이 스토리가 역시 정식 스토리였어\n \n\n\n벌떡 일어날떼 올리비아가 깜짝 놀라는 디테일이 있다.\n\n\n데님을 칭찬해준다.\n\n\n세명 등장하고 \n나머지 한명은 누구지?\n \n\n\n모르바는 행불 중이다.\n\n\n누나는 닾을 알고 있다.\n반하무바 신전\n이제보니 카츄아랑 좀 비슷하게 생겼다.\n\n\n마지막 한명의 이름은 세리\n\n\n브랜더 쪽에 갔구나\n세리도 반하무바 신전을 알고 있을 것이다.\n\n\n올리비아 입장 하셨습니다.\n \n\n\n힘이 왜이케 높지\n곤 (지팡이) 용 필살기도 2개 가지고있다.\n지팡이로 두둘겨 패나보다\n \n \n\n\n다음에 갈길\n \n팁 - 옛 동전 가격\n\n\n황동화 - 100\n동화 - 250\n은화 - 1,000\n금화 - 3,000\n금화 많이 나와랏\n \n\n\n \n \n해돈산 - 반하무바 신전 가는길\n데님은 보자마자 바크람 군인지 안다.\n어떻게 알지 ㄷㄷㄷ\n\n\n잡으면 알려주를 시전\n추가 임무에 드래군을 포함하라고 한다.\n드래곤이 2마리 보인다.\n드래군 과 드래곤 킬러 스킬을 이용하자.\n추가 임무에 아처를 사용하라고 한다.\n불길 건너는게 쉽지 않은 맵이니 아처를 이용하자\n아처를 넣으면 hp max 참을 주니 챙기자\n \n \n전투 종료 후 \n\n\n시원하게 알려주는게 없네\n모르바를 를 붙잡았다고 말을 하는데 ...\n \n\n\n동전 조아\n\n\n아쳐 넣는걸 깜박했다. \nhp max 참은 최대 hp 를 +5 해준다 (50 도 아니고 ... 5)\n \n \n \n반하무바 신전 - 세리 영입 조건 숙지\n지형이 높긴한데 구덩이가 두군데 있다.\n잘못 맞아서 유닛이 사라지는 경우가 있으니 주의하자\n맵 - 구덩이 추락 주의\n- 구덩에 떨어지면 영구 사망 처리된다.\n- 대사도 없기 때문에 죽은지도 모를 수 있다. 끝나고 인원체크 꼭하자\n- 세번째 자매 세리가 나오는데 hp 를 10% 이하로 떨어트려서 살려야서 보내야한다.\n   맵 시작전에 모르바가 세리는 살려달라고 말하는 이유가이거였다.\n \n \n \n\n\n세리 등장\n악역의 목소리다.\n\n\n모르바 는 몰라 를 시전한다.\n누가 구해주러 오겠지 느낌이다.\n\n\n세라는 단단히 오해하고 있다.\n\n\n금술이 목적이였다.\n(금술 = 금지된 마법)\n\n\n \n모르바를 데려가려고 입구 방향으로 끌고 나가는데 \n우연히 데님이 들어와 모르바를 확보한다.\n(운이 좋네)\n\n\n세리를 죽이지 말라고 한다.\n \n\n\n \n데리고 나왔더니 대사가 있었다.\n3자매 전부 데려나왔다.\n \n\n\n엄마에 대한 이야기가 있나보다\n\n\n바로 밝여져버리넹 ㄷㄷㄷ\n복잡한 이야기가 아닌가 보다\n \n세리는 세리에가 발레리아 군이 전멸했음에도 살아남은것을 찌른다.\n세리에는 계속 이걸로 공격당하네\n\n\n세리 의 무적의 논리다\n거의 무지개 실드 급이다.\n \n\n\n이로서 3자매는 모든 대사를 쳤다.\n \n\n\n목적은 더 강한 힘 이였다.\n이 대사 들을려고 살려둔건 아니였고 전멸 시킬려고 제일마지막에 치다보니 \n이 대사가 나왔다.\n \n\n\n대사 또 있네\n\n\n죽은거야 ? 산거야 ...\n이거는 죽인 경우 대사이다. hp 를 10% 이하로 남겨야한다.\n(다시 해야겠다. ㅠㅠ)\n \n\n\n방금까지 끌려다니던 모르바 치분한 목소리로 이야기한다.\n모두들 진정한 리더를 원하고 있고\n역경을 많이 겪은 데님이 가장 정의로운 인물이 되어가고 있다.\n \n\n\n올바른 사람이라도 암흑기사단에 잡혀있으면 \n제대로 행동할 수 없다.\n \n\n\n선택지가 발생 !\n가츄아랑 싸울 수 있겠냐는 질문이다.\n카추아를 살리려면 여기서 1번을 고릅니다.\n이후 카추아와 대면했을때 한번더 물어보고 그 질문도 답을 잘하면 카츄아는 생존합니다.\n카츄아가 살면 카츄아를 사용할 수 있고\n카츄아가 죽으면 데님은 로드 로 전직할 수 있습니다.\n로드 직업이 최강이라는군요\n \n티스토리 문제로 글을 3번째 저장 못하고 날려버렸다.\n임시 저장은 되게 해주지 UI 가 먹통이라 미리 보관해둘 수도 없었따.\n \n4번째 자매 세리는 영입 방법\n전투도 없는 간단한 방법으로 진행하면 되니 빠르게 처리하자\n(바니시아성으로 진행하면 이 이벤트는 사라진다.)\n1. 피도크성 으로 가서 이벤트를 본다.\n2. 발바로사 마을로 가서 \"야만인의 뿔피리\" 를 3개쯤 채운다.\n3. 훌련할때 유닛 3명이 \"야만인의 뿔피리\" 를 장비하고 시작한다.\n4. 훈련중에 \"야만인의 뿔피리\" 를 사용하면 날씨가 변하는데 번개 + 비 오는 날씨를 만든다.\n5. \"후퇴\" 메뉴로 맵으로 나간다.\n6. 조드 습지 갔다 다시 마을로 온다.\n7. 세리 이벤트가 뜨면서 영입할 수 있다.\n바니시아 성 가는길\n피도크성 위로 길이 생겨있다. 길따라 가면된다.\n???\n램비스 언덕\n조루시 유전\n세번의 야위전투에는 드래곤이나 비스트가 나온다\n드래군 과 종류에 맞는 킬러 스킬로 바꿔 야한다.\n킬러 스킬을 쓰니 한손검으로도 1500 정도 데미지가 들어가서 쉽게 잡을 수 있었다.\n추가입무에 좋은 무기와 참을 주니 조건을 해결해 받도록 하자\n이제 부터 무기가 너무 비싸서 살 엄두가 안난다.\n3만 있는데 무기가 7천 이다.\n적들도 많이 나나오니 마법사에게 페트로 버스트 (였나?) 석화 마법을 들려주고 \n궁수는 잠재우는 화살 스킬 을 사용해서 최대한 한번에 적은 적과 대면하게 만드는게 좋다.\n힐러들을 먼저 석화나 잠재우기를 쓰는 방법도 있다.\n망치 장비에 \"카르디아\" 라는게 2개 정도 생겼는데\n방어용 부채 라고 한다.\n나중에 \"철선\" 으로 강화하면 잘 막는다고 한다.\n이 무기를 아이템으로 사용하면 3칸 거리에서 \"참\" 마법을 사용하게 되는데\n힐러나 거리가 모잘라 할꺼 없는 캐릭터들은 이거 쥐어줘서 \"참\" 이라도 열심히 걸어보자.\n \n램버스 언덕\n\n\n여기서 좋은 아이템이 만힝 나왔다.\n전멸을 노리자\n \n \n \n바니시아성\n\n\n외길이다. 그냥 돌진 한다.\n \n바니시아성 문 앞\n \n\n\n로스로리엔 은 또 누구야\n \n바니시아성 군은 적들이 등장하니까 올줄 몰랐다는 듯이 깜짝 놀란다.\n왕녀 여기에 없나보다.\n \n팁 - 골렘 뺏아보자\n골렘이 보이는데 \"세리;\" 가 세이렌 이기 때문에 골렘 한번 뺏을 수 있다.\n\"인형계열 설득\" 스킬 장착하자\n \n전투 종료 후\n\n\n데님도 적들이 대비하지 못했다는 점에서 놀란다.\n이러면 중요인물이 여기 없다는 뜻이 된다.\n\n\n마셜 보우 2번째 획득\n \n\n\n전투가 끝나면 골렘이 가입한다고 한다.\n가입시켜서 경매장에 팔아먹으면 돈이 된다는 공략이 있다.\n한번 써보고 팔아버려야겠다.\n \n바니시아성 중앙 정원 - 암흑기사 바르바스 등장\n성이 데코가 잘되있네 정원이라니\n \n\n\n맵 우측에 이런 글씨가 있었다는걸 이번에 처음 알았다.\n레벨이 32로 막혀있는게 표시되고 있\n\n\n다.하단에는 날짜가 표시되고 있다.\n220 Days 첫전투부터 지금까지 보낸 날짜인가 ...\n초반에 쓸데 없는 데 돈을 많이 써서 진짜 돈이 부족하다 ㅠㅠ\n \n \n비니시아성 중앙 정원\n \n공략\n석화 마법사 둘\n잠재우는 필살기 있는 궁수 둘 (트렌스 샷인가 2번째 필살기)\n을 준비한다.\n마법사는 최대한 사정거리 세팅을 해서 나가자\n- 마법사의 지팡이 +1\n- 세이렌은 레인지 익스텐드 로 사정거리를 늘릴 수 있다.\n보스 근처에 가지 않으면 움직이지는 않는다.\n성벽에서 쏘는 화살을 피해 5시방향 구석까지 걸어가자\n튼튼한 애들은 성벽에 붙어서 맞아주면서 가면되고\n마법사들은 맵 가장자리로 가면된다.\n(이동 타일이 이상해서 걸어가기 쉽지 않다.)\n조금씩 성벽 위로 접근하고\n궁수 위주로 석화를 시켜주면\n기사랑 힐러가 밖으로 빠져나오게된다.\n이걸다 처리하고 더 접근하면 보스가 움직일 것이다.\n보스의 단일 대상 필살기는 맞으면 죽는다 그녕 죽고 다시 살리자\n재물의 낙인과 춤을 이용하면 공격력이 많이 약해진다.\n기사들의 방패 밀기로 적당한 위치에 가두고\n가두다보면 단일 대상 필살기를 안쓰고 다중 대상 필살기를 쓰는데 그건 맞아줄만하다.\n이거는 맞을만하니 버티면된다.\n이후엔 전멸 시키면 된다.\n \n \n전투 시작\n정원이라고 멋진 나무와 화초가 있을 줄 알았는데\n그냥 성벽이 하나 또 있다.\n\n\n궁금해서 골렘을 꺼내 봤다.\n날아다니느건 아니지만 이동에 제약이 없는거 같았다.\n \n\n\n암흑기사 둘이 여기를 찾아낼줄이야 하며 놀라고 있다.\n있긴있구나\n \n\n\n앵 암흑기사랑 싸워야하나..\n \n\n\n기적의 확보 ? \n제노비아의 성검 ?\n암흑기사는 뭔가 인생역전의 템을 찾을때까지 몸사려야하는거 같다.\n \n\n\n총 나왔다.\n오버 테크놀로지다\n \n\n\n데님을 쏘려고 한거 같은데 \n잘못쏴서 자기편을 쏴버렸다.\n시체가 사라져버려서 내가 칠해뒀다.\n이녀석 개그 담당인가.\n\n\n6방향의 기사에게 총 (범행 흉기) 를 줬다.\n잡아서 저 거 챙겨야겠다.\n \n\n\n보스가 우연히 이상한길로 들어가다보니\n방패로 가둘 수 있었다.\n죽이니까 전이석으로 도망갔다.\n \n\n\n이게 거너 (총쏘는 애) 전직증인가\n \n팁 - 낮은 레벨 마법은 마나 효율이 좋다.\n나이트 들은 힐 능력이 떨어지는데\n힐 많이 하려고 힐 III 같은걸 장창해주면 마나소비가 극심하니 힐 1단계 짜리를 쓰자\n대충\n나이트\n힐 1 - MP 15 - 110 정도 회복\n힐 2 - MP 30 - 170 정도 회복\n힐 3 - MP 45 - 220 정도 회복\n힐양은 2배 증가하지만 MP 소모량이 3배 증가하는 밸런스를 가지고 있다.\n마법사도 명상이 잘 안터지면 MP 수급이 힘드닌 꼭 높은 레벨의 마법을 쓸 필요는 없다.\n \n \n \n \n바니시아성 내 \n맵을 보니 구석에 하나가 더있었다. 3단으로 된 성이였구나\n \n\n\n시간 돌리는 기능을 쓰지말라니\nSTR 참은 중요하니까.\n도전할 가치가 있다.\n안죽으면 힐 플러스 II 를 주네\n \n공략\n그냥 플레이 하면 어렵지 않은데 \n추가 임무를 달성하려면 매우 어렵다.\n \n \n \n \n전투 시작\n\n\n카추아랑 한잔 하고 있는 암흑기사 랜슬롯\n데님에게 털리기 일보직전이라고 하자 \"카츄아 도망치자\" 시전\n\n\n카츄아는 도망 다니기 질렸다고 한다.\n \n카츄아가 도망가려는데 데님이 들어오고 전투 시작한다.\n카츄아는 맵 꼭대기에서 그냥 서있을 예정이고\n랜슬롯 만 잡으면 전투가 종료된다.\n \n전투 중\n\n\n카츄아는 암흑기사에게 이용당하고 있다고 이야기 해준다.\n왕의 피를 이은자가 필요하다는 내용\n\n\n서로 이용하는거라 괜찮다고 한다.\n공주 대우를 받으려면 카츄아도 암흑기사를 이용해야하는 것이다.\n \n \n \n \n전투 종료 후\n\n\n암흑기사 랜슬롯  hp 를 10% 정도 남기니까 도망을 갔다.\n혼자 도망가고 가츄아는 알아서 살아 남르앤다.\n\n\n미안하닷\n\n\n(털썩)\n\n\n시간을 돌릴 수 없어서 빡새게 석화 플레이로 한명씩 잡았다.\n(시간 많이 걸림)\n죽어서 살리면 실패인가 보다\n마지막에 죽은걸 못봤나 ..?\n \n\n\n단독 면담 한다.\n\n\n설득 하려고 했으나\n실패다.\n\n\n선택지가 나온다.\n1번을 선택하면 카추아가 열받아서 칼로 자결해버린다.\n그릭노 데님이 로드로 전직한다.\n2번은 선택하면 사과를 하여 열 받는것을 막는다.\n카츄아는 사실 왕이 되고 싶은 생각은 없고 위로가 필요한 상태다.\n(진정시키면 착해진다.)\n \n2번을 석택해서 카츄아를 살려본다.\n\n\n말려드는건 개뿔이고 \n전투 재밌어서 한건데 ...\n\n\n선택지 하나 더 나왔다 공량봐야징\n뭘 선택해도 살아서 합류한다고 한다.\n \n프랜시 신부의 유언을 전달해준다.\n그때 왕도로 보냈으면 전란이 없엇을 지도 모른다는 이야기\n그때 사랑해서 보내지 못했다고\n\n\n음성은 우는 음성이 나왔다.\n\n\n우는 일러스트가 있었네\n화나게 해서 자결해버리면 이런 말할 틈도 없는 연출이 나온다.\n \n\n\n바르바스 도 도망 랜슬롯 도 도망\n둘이 같이 싸우지 그랬냐\n \n끝났는데 카츄아는 동료가 되지 않았다.\n언제 되려나\n \n3만 5천골 바꿔준다고 나오는데\n환전하고나니 \n\n\n내돈 다 어디갔지 ...\n\n\n돈을 다 쓰고나니 숫자가 올랐다. \n표시가 이상하네 ....\n \n팁 - 거너 전직하려면\n워런 리포트에서 거너 구출 괄련 이벤트 퀘스트를 받아야한다고 한다.\n이제부턴 워런 리포트 자주 확인해야겠다.\n다른 저거노트 나 다른 직업들도 이런식으로 얻는거 같다.\n워랜 리포트 뉴스를 보면 마을이 추가되어있다.\n해적 마을이라는데 여기가 거너 나오는 이벤트인지 다른 이벤트인지는 잘 모르겠다.\n피도크 성으로 돌아가 스토리를 진행 시키자\n \n피도크성\n\n\n와 사람 많다.\n\n\n성에서 숨어있지 않고 싸우기로 한다.\n전투중에 죽으면 어떻게 되는거징 ㄷㄷㄷ\n\n\n연기 였나보다\n\n\n엔딩은 데님이 만든닷\n\n\n수락한다.\n마지막 전투하러간다는데 ...\n\n\n워런 리포트에서 칭호를 바꿀 수 있었다.\n\n\n피토크성 이벤트를 보고 나서 워런 리포트 뉴스를 확인하니 세개가 더 생겼다.\n이거중에 거너 이벤트가 있나보다.\n해봐야지",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1680",
-    "pubDate": "Fri, 24 Jul 2026 23:50:16 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "게임",
-      "게임",
-      "게임공략"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "ReSharper C++ 2026.2: C++26 Reflection, ISPC Language Support, And More",
-    "description": "ReSharper C++ 2026.2 is out, bringing initial support for C++26 reflection, the most anticipated addition to the C++ language in recent years. This release also introduces ACP agent support in ReSharper with Junie as the first available agent, adds support for the ISPC language, and significantly speeds up indexing in Unreal Engine projects. Other highlights […]",
+    "title": "KotlinLLM is Going Open Source ",
+    "description": "TL;DR KotlinLLM is now public. It’s a research prototype for delegating runtime logic to an LLM from Kotlin code. Instead of calling an LLM on every request or running a separate agent, you can write an explicit Kotlin call. Its body is generated Kotlin source code, and that code is updated as your application hits […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rscpp/2026/07/22/resharper-cpp-2026-2-cpp-26-reflection-ispc-language-support-and-more/",
-    "pubDate": "Wed, 22 Jul 2026 14:15:39 +0000",
-    "creator": "Igor Akhmetov",
+    "link": "https://blog.jetbrains.com/research/2026/07/kotlinllm-open-source/",
+    "pubDate": "Tue, 28 Jul 2026 07:50:41 +0000",
+    "creator": "Anastasia Birillo",
     "categories": [
-      "net-tools",
-      "news",
-      "releases",
-      "resharpercplusplus",
-      "c-26",
-      "ispc",
-      "resharper-c"
+      "kotlin",
+      "research",
+      "kotlinllm",
+      "research-prototype"
     ]
   }
 ]
