@@ -2,21 +2,39 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "The Complete Package: Why Debugging Is Only Half the C# Productivity Story",
-    "description": "As .NET developers, we need to iterate on our applications while building, and part of that developer inner loop is the debugging experience. The rise of multi-platform code editors further requires developers to have all the functionality they need to build and debug their application out of the box, wherever they’re coding. Previously, .NET developers […]",
+    "title": "Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK",
+    "description": "There's a new Agent (Preview) in Copilot Chat, built on the same GitHub Copilot SDK that powers the GitHub Copilot CLI, that gets more done with less back-and-forth.\nThe post Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/07/30/the-complete-package-why-debugging-is-only-half-the-csharp-productivity-story/",
-    "pubDate": "Thu, 30 Jul 2026 18:47:54 +0000",
-    "creator": "Isaac Levin",
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-july-update-meet-the-new-agent-powered-by-copilot-sdk/",
+    "pubDate": "Tue, 28 Jul 2026 16:00:14 +0000",
+    "creator": "Mark Downie",
     "categories": [
-      "net-tools",
-      "resharper",
-      "vs-code"
+      "Visual Studio",
+      "C++",
+      "Copilot",
+      "GitHub Copilot"
     ]
   },
   {
     "id": 2,
+    "imageUrl": "",
+    "title": "Modeling Device Capabilities for Analytics",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 31 Jul 2026 16:01:02 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "data-engineering",
+      "devices",
+      "data-modeling",
+      "analytics"
+    ]
+  },
+  {
+    "id": 3,
     "imageUrl": "",
     "title": "Grafana에서 자연어로 장애 원인을 분석하기: LLM 에이전트 기반 SRELens 개발기",
     "description": "들어가며: 관측성 데이터는 많아졌지만, 분석은 여전히 어렵습니다안녕하세요. LY Corporation에서 Home 서비스의 안정성을 책임지고 있는 Home SRE(Site Reli...",
@@ -28,64 +46,76 @@
     "categories": []
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "AI로 회의록 정리, 이 세 가지만 조심하면 됩니다",
-    "description": "AI 회의록, 그냥 \"요약해줘\"만 하면 절반은 실패하는 경험, 혹시 있으신가요? 담당자나 마감일이 사라지거나, 없던 업무가 생겨나기도 하죠. 이 글에서는 AI 회의록을 사용할 때 흔히 빠지는 세 가지 함정을 짚어보고, 이를 똑똑하게 피할 수 있는 실전 프롬프트와 해결 전략을 상세히 알려드립니다.\n최근 인공지능(AI) 기술이 업무 효율을 혁신하고 있다는 이야기는 이제 일상이 되었죠. 회의록 작성에 AI를 활용하면 상당한 시간을 절약할 수 있다는 기대를 많이 하시는데요. 하지만 단순히 '요약해줘' 한마디로는 오히려 예상치 못한 문제에 부딪힐 수 있습니다. 오늘은 AI 회의록을 사용할 때 가장 흔하게 발생하는 세 가지 함정과 이를 피할 수 있는 실전 프롬프트를 함께 살펴보겠습니다.\n\n\n솔직히 말씀드리면, 저도 예전에 AI가 만든 회의록을 제대로 검수도 안 하고 팀 채널에 그대로 올렸다가, 곤란한 상황에 처한 적이 있어요. \"이거 제가 하기로 한 거 아닌데요?\"라는 피드백을 들었을 때 정말 당황했죠. 알고 보니 AI가 담당자를 슬쩍 배정해놓은 거였어요. 그날 이후로 저는 AI 회의록을 대하는 태도가 완전히 바뀌었답니다.\nAI로 회의록을 정리하면 업무 시간이 확 줄어드는 건 분명한 사실이에요. 실제로 한국은행이 취업자 5,512명을 조사한 최근 결과를 보면,\n생성형 AI를 업무에 활용한 근로자의 주당 업무시간이 3.8%, 즉 40시간 기준 약 1시간 30분 줄어든 것으로 나타났습니다.\n그런데 이 놀라운 효과는 어디까지나 AI에게 '제대로 시켰을 때'의 이야기예요. 지금부터 사람들이 가장 자주 빠지는 세 가지 함정을, 그 해결법과 함께 자세히 풀어볼게요.\n ️ 함정 ①: 요약은 되는데 '실행'이 안 남는다\n아마 많은 분이 가장 흔하게 겪는 실수일 거예요. \"이 회의록 요약해줘\"라고 AI에게 주문하면, AI는 정말 매끄럽고 술술 읽히는 줄글을 뱉어냅니다. 얼핏 보면 완벽한 요약처럼 보이죠. 그런데 막상 읽고 나면 왠지 모르게 허전하고, 정작 \"그래서 누가 뭘 해야 하지?\"라는 핵심적인 질문에 대한 답이 명확하게 남아있지 않은 경우가 많아요. 읽기엔 좋지만, 막상 실행으로 이어지기 어려운 거죠.\n  해결책: 표로 구조화하기\n해결책은 생각보다 간단합니다. AI에게 단순히 요약해달라고 할 것이 아니라, 아예 출력 형태를 표로 지정해서 실행 중심으로 재구성하라고 시키는 거예요. 이렇게 하면 '할 일', '담당', '기한', '우선순위', '상태' 등이 명확하게 정리된 결과물을 얻을 수 있습니다.\n  실전 프롬프트:\n이 회의록을 실행 중심으로 재구성해줘. 줄글 요약은 필요 없어.\n\n- 핵심 결정만 3줄 이내로\n- 그다음 '할 일'을 표로: 할 일 / 담당 / 기한 / 우선순위 / 상태\n- 회의록에 적힌 내용만 쓰고, 없으면 비워둬\n\n[회의록 붙여넣기]\n특히 \"줄글 요약은 필요 없어\"라고 못 박는 것이 중요해요. 이 한 줄로 결과물의 성격이 완전히 달라질 겁니다.\n  함정 ②: 없던 담당자·마감일이 생겨난다\n앞서 제가 직접 당했던 경험이 바로 이 함정이었어요. AI는 빈칸을 정말 싫어합니다. 그래서 담당자나 마감일이 회의록에 애매하게 언급되거나 아예 없을 경우, AI는 마치 사실인 양 그럴듯하게 추정해서 채워 넣는 경향이 있어요. 문제는 그게 사실이 아니라는 거죠. 팀원들에게 불필요한 혼란을 주고, 심지어는 없던 업무가 배정되는 최악의 상황까지 발생할 수 있습니다.\n  해결책: '추측 금지' 원칙 세우기\n이런 문제를 막으려면 AI에게 '추측 금지'라는 명확한 규칙을 부여해야 해요. 정보가 불확실할 때는 절대 임의로 채우지 말고, 오히려 '확인 필요'와 같이 명시적으로 표시하도록 지시해야 합니다.\n  실전 프롬프트:\n위 표를 만들 때 규칙을 지켜줘.\n\n- 담당자나 기한이 회의록에 명확히 없으면 '확인 필요'라고만 적어.\n- 절대 추정하거나 그럴듯하게 채우지 마.\n- 애매하면 채우기보다 비우는 쪽을 택해.\n이렇게 프롬프트를 주면 AI는 빈칸을 '확인 필요'로 남겨둡니다. 오히려 이 '확인 필요' 목록이 회의 후 팔로업의 핵심이 돼요. 어떤 부분이 아직 결정되지 않았는지가 한눈에 명확하게 보이니까요.\n  함정 ③: '논의'가 슬그머니 '확정'이 된다\n이 함정은 정말 미묘해서 놓치기 쉬워요. 회의에서 \"그건 좀 검토해보죠\"라고 가볍게 언급했던 내용이, AI 정리본에서는 \"OO을 검토한다(확정)\"처럼 확정된 업무로 둔갑해 있는 경우가 있습니다. 단순한 '논의'나 '검토 제안'이 AI를 거치면서 '반드시 해야 할 업무'로 바뀌어 버리는 거죠. 자칫하면 불필요하거나 아직 결정되지 않은 업무가 팀 전체에 할당될 수 있습니다.\n  해결책: 결정과 논의를 분리하기\n이런 문제를 방지하기 위해 저는 항상 회의록 내용을 '확정된 결정'과 '논의만 된 것'으로 명확하게 분리하도록 AI에게 지시합니다. 특히 '검토한다', '알아본다'와 같은 표현은 결정이 아닌 논의로 분류하는 기준을 세워주세요.\n  실전 프롬프트:\n내용을 두 덩어리로 나눠줘.\n1) 확정된 결정 (회의에서 '하기로 한' 것만)\n2) 논의만 된 것 (아직 결정 안 됨)\n\n'검토한다', '알아본다' 같은 표현은 2번으로 분류해.\n그리고 가장 중요한 부분인데요, 마감일과 책임자만큼은 반드시 사람이 최종 확정해야 합니다. 이 영역은 AI에게 전적으로 위임하면 안 되는, 업무의 핵심 중 핵심이라고 할 수 있어요.\n  한눈에 보는 함정·신호·대응표\n지금까지 설명드린 세 가지 함정을 한눈에 정리해봤습니다. 이 표를 통해 AI 회의록을 검수할 때 어떤 부분을 주의 깊게 봐야 할지 쉽게 파악하실 수 있을 거예요.\n함정\n위험 신호\n대응\n\n\n\n\n요약만 남음\n할 일이 안 보임\n표 구조 지정, 줄글 금지\n\n\n없던 담당자·기한\n확신에 찬 배정\n'추측 금지·확인 필요' 규칙\n\n\n논의→확정 둔갑\n'검토'가 업무로\n결정/논의 분리, 사람이 확정\n\n\n\n⏱️ 회의 전 5분, 판을 미리 짜두기\n사실 AI 회의록 뒷정리를 줄이는 가장 좋은 방법은, 회의 자체를 잘 시작하는 거예요. 회의가 시작되기 딱 5분 전에 아래 프롬프트를 돌려보세요.\n  실전 프롬프트:\n아래 안건으로 회의를 준비하려고 해.\n'오늘 반드시 결정할 것 3가지'와 '회의 후 남겨야 할 실행 항목 양식'을 만들어줘.\n\n안건: [입력]\n참석자 역할: [입력]\n이 프롬프트는 회의를 단순히 '이야기를 나누는 자리'가 아니라 '명확한 결정을 내리는 자리'로 바꿔주는 강력한 도구예요. 제 경험상, 이렇게 준비하면 실제로 회의 시간도 눈에 띄게 짧아지더라고요.\n혹시 지금도 회의록 정리에 30분 넘게 시간을 쓰고 계신다면, 다음 회의 딱 한 번만 위 방법을 적용해보세요. 분명 '이거다!' 하고 감이 확 올 거예요. 여러분은 셋 중 어떤 함정에 제일 자주 빠지세요? 댓글로 알려주시면 상황에 맞는 맞춤 프롬프트를 나눠드릴게요!\n⚠️ 주의 사항: 이 글은 일반적인 실무 안내예요. 회의록에 민감 정보(예: 개인 연락처, 구체적인 금액)가 있다면 AI에 입력하기 전에 반드시 이름은 역할명으로 바꾸고, 연락처나 금액 등은 지우세요. 그리고 결정과 기한은 반드시 사람이 최종적으로 확정하시길 강력히 권합니다.\n> 참고자료: > - AI의 빠른 확산과 생산성 효과(한국은행 BOK이슈노트, 2025.8)\n  핵심 요약\n1. AI 회의록은 '요약'이 아닌 '실행'에 집중하도록 지시하세요.\n2. AI의 '추측 금지' 원칙을 세워 없던 정보 생성을 막아야 합니다.\n3. '논의'와 '결정'을 명확히 분리하여 혼동을 피하는 것이 중요해요.\n4. 핵심 사항(담당자, 기한)은 AI에 전적으로 의존하지 않고 사람이 최종 확인해야 합니다.\nAI 활용, 이젠 영리하게!  \n❓ 자주 묻는 질문 (FAQ)\nAI 회의록 사용과 관련하여 자주 묻는 질문들을 모아봤습니다. 궁금증 해결에 도움이 되기를 바랍니다.\nQ1. 세 함정 중 뭐가 제일 위험한가요?\n개인적으로는 '없던 담당자·기한 생성'이 가장 위험하다고 생각해요. 사실이 아닌 내용이 그대로 팀에 공유되면 나중에 되돌리기가 정말 어렵거든요. 업무 혼선과 신뢰 문제까지 이어질 수 있죠.\nQ2. '확인 필요' 목록은 어떻게 활용하나요?\n이 '확인 필요' 목록은 회의 직후 담당자에게 개별적으로 물어보고 정보를 채우는 팔로업 체크리스트로 활용하면 딱 좋아요. 어떤 내용이 아직 미정인지 명확히 파악할 수 있어서 효율적입니다.\nQ3. 정리본을 그대로 팀에 공유해도 되나요?\n아니요, 절대 그대로 공유하는 건 추천하지 않습니다. 최소한 담당자, 기한, 핵심 결정 사항만이라도 사람이 한 번 더 꼼꼼하게 검수한 뒤에 공유하는 것이 좋아요. AI는 보조 도구일 뿐, 최종 책임은 우리에게 있으니까요.\nQ4. 매번 규칙을 다시 써야 하나요?\n아니요, 그럴 필요 없습니다. 앞에서 알려드린 세 가지 프롬프트 규칙들을 하나로 합쳐서 자신만의 '마스터 프롬프트'로 저장해두세요. 그리고 회의가 끝난 후 회의록 내용만 [회의록 붙여넣기] 부분에 갈아끼우면 훨씬 빠르고 편리하게 사용할 수 있습니다.\nQ5. 회의록이 두 시간 분량으로 길면요?\n회의록이 너무 길다면, 안건별로 내용을 잘라 각각 정리하도록 AI에게 요청한 뒤, 마지막에 그 실행 항목들만 다시 모아 최종 정리하도록 지시하는 것이 효과적입니다. 긴 내용을 한 번에 처리하려 하면 AI도 혼동할 수 있어요.\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"세 함정 중 뭐가 제일 위험한가요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"없던 담당자와 기한을 생성하는 함정입니다. 사실이 아닌 내용이 공유되면 되돌리기 어렵습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"확인 필요 목록은 어떻게 활용하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"회의 직후 담당자에게 물어 채우는 팔로업 체크리스트로 활용하면 좋습니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"정리본을 그대로 팀에 공유해도 되나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"안 됩니다. 담당자, 기한, 결정 사항만이라도 한 번 검수한 뒤 공유하세요.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"매번 규칙을 다시 써야 하나요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"아니요. 세 프롬프트를 하나로 합쳐 저장해두고 회의록만 갈아끼우면 됩니다.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"회의록이 두 시간 분량이면요?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"안건별로 잘라 각각 정리한 뒤 마지막에 실행 항목만 다시 모아 정리하도록 요청하세요.\"\n      }\n    }\n  ]\n}",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483730",
-    "pubDate": "Fri, 31 Jul 2026 10:50:52 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "ai 프롬프트",
-      "AI 회의록 함정",
-      "ChatGPT 회의록 정리",
-      "담당자 마감일",
-      "실행계획 표",
-      "업무 자동화",
-      "회의 생산성",
-      "회의 액션 아이템",
-      "회의 준비",
-      "회의록 검수"
-    ]
-  },
-  {
     "id": 4,
     "imageUrl": "",
-    "title": "KotlinLLM is Going Open Source ",
-    "description": "TL;DR KotlinLLM is now public. It’s a research prototype for delegating runtime logic to an LLM from Kotlin code. Instead of calling an LLM on every request or running a separate agent, you can write an explicit Kotlin call. Its body is generated Kotlin source code, and that code is updated as your application hits […]",
+    "title": "귀로 듣고 몸으로 느끼는 리듬게임, 리듬 천국 미라클 스타즈",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/07/kotlinllm-open-source/",
-    "pubDate": "Tue, 28 Jul 2026 07:50:41 +0000",
-    "creator": "Anastasia Birillo",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2479",
+    "pubDate": "Sat, 01 Aug 2026 00:45:45 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "kotlin",
-      "research",
-      "kotlinllm",
-      "research-prototype"
+      "게임툰"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "복잡주의자",
-    "description": "나는 단순한 걸 좋아하는 simplicity의 신봉자다. 일을 어렵게 하는 것과 쉽게 하는 것, 두 가지 옵션이 있다면 크게 고민하지 않고 단순한 방법을 택한다. 복잡한 방법과 단순한 방법이 같은 결과를 낸다면, 바보가 아닌 이상 단순한 방법을 선택하지만, 나는 단순한 방법이 복잡한 것보다 결과가 약간 모자라도 그냥 단순한 방법을 선택하는 편이다. 모든 사물을 단순하게 보고 생각하는 게(...)",
+    "title": "The State of CI/CD 2026 Survey Is Now Open",
+    "description": "CI/CD is changing rapidly. Or is it?.. AI-assisted development is increasing the volume of code being written, software systems are becoming more distributed, and engineering teams are continuously rethinking how they build, test, and ship applications. At the same time, organizations are modernizing their CI/CD platforms, adopting new workflows, and experimenting with AI in their […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/07/the-complicator-and-the-simplifier.html",
-    "pubDate": "Sun, 26 Jul 2026 21:29:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://blog.jetbrains.com/teamcity/2026/07/take-cicd-survey/",
+    "pubDate": "Tue, 28 Jul 2026 10:12:25 +0000",
+    "creator": "Olga Bedrina",
     "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "strategy"
+      "survey",
+      "cicd-2",
+      "devops"
     ]
   },
   {
     "id": 6,
+    "imageUrl": "",
+    "title": "Critical Security Issue Affecting TeamCity On-Premises (CVE-2026-63077) – Update to 2025.11.7 or 2026.1.3 Now",
+    "description": "Summary Details A critical security vulnerability has been identified in TeamCity On-Premises. If exploited, this flaw may enable an unauthenticated attacker with HTTP(S) access to a TeamCity server to bypass authentication checks and execute arbitrary operating system commands with the privileges of the TeamCity server process. All versions of TeamCity On-Premises are affected. TeamCity Cloud […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/",
+    "pubDate": "Mon, 27 Jul 2026 14:09:14 +0000",
+    "creator": "Daniel Gallo",
+    "categories": [
+      "news",
+      "security"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "AI 에이전트를 위한 Android CLI: 대규모 모바일 개발 환경에 적용하기",
+    "description": "LINE Android 앱은 수백 명의 개발자가 하나의 Git 저장소에서 함께 만들어 가는, 수백 개의 Gradle 모듈로 구성된 대규모 Android 앱입니다. LINE Andr...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/android-cli-for-ai-agents-at-scale",
+    "pubDate": "Thu, 30 Jul 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "토스, 업무 연속성 국제표준 'ISO 22301' 인증 획득… 위기 대응 역량 인정",
+    "description": "비즈니스 연속성 관련 국제 인증 심사 통과",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/2026-ISO22301",
+    "pubDate": "Tue, 28 Jul 2026 01:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "Reverse Engineering with Hibernate 7.4 and IntelliJ IDEA",
     "description": "Reverse Engineering in the context of database-driven application development means generating Java persistence artifacts such as entity classes and mapping files from an existing database schema. This is useful when the database already exists, especially in legacy systems or large projects where creating entity classes manually can be slow and error-prone. Until now, these features […]",
@@ -101,46 +131,6 @@
       "jpa",
       "reverse-engineering"
     ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "How do you rewrite C/C++ projects to Rust?",
-    "description": "Disclaimer: This article was created with the assistance of AI and reviewed by the JetBrains RustRover team.  C and C++ to Rust migrations are no longer just an experimental idea. More teams are now looking at Rust as a practical way to improve memory safety, reduce long-term maintenance costs, and modernize performance-critical systems. But a […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/07/27/cpp-to-rust-migration/",
-    "pubDate": "Mon, 27 Jul 2026 11:02:50 +0000",
-    "creator": "Irina Mihajlovic",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "PyTorch Tutorial for Deep Learning",
-    "description": "This is a guest post from Naa Ashiorkor, a data scientist and tech community builder. Building intelligent systems that can see, hear, understand language, and make decisions was previously the domain of specialized researchers with massive computing resources only – today, deep learning has made this accessible to developers and data scientists across the world, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/07/pytorch-tutorial-for-deep-learning/",
-    "pubDate": "Wed, 29 Jul 2026 16:18:55 +0000",
-    "creator": "Evgenia Verbina",
-    "categories": [
-      "data-science",
-      "python",
-      "pytorch"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "LogParser의 문자열 처리 - 2nd",
-    "description": "로그온 사용자, 유형별 발생 현황.\n\n\n\n\n\n사용자와 로그온 유형 정보를 합치고 싶다.\n\n\n\n\n\n\n좀 더 보기 좋게 구분.\n\n\n\n이런 경험들이 쌓이고 모이면 엘라스틱도,\n\n\n\n\n\n스플렁크도 쉬워진다.\n\n\n\n빅데이터/인공지능이 유행하기 전부터 로그를 한 줄, 한 줄 읽어보고 싶은 욕구를 느꼈다면, VIM/grep 등을 이용해서 더 읽기 쉬운 형태로, 계산이 가능한 형태로 정제를 시도해봤다면, 친숙한 오피스 툴(엑셀?)이나 더 전문적인 데이터 계산툴(SQL?)을 사용해봤다면 충분히 잘 할 수 있다. 데이터 분석의 기본 원리는 그대로인 채 툴만 바뀌었으니까 - 엘라스틱서치로 알아보는 이상징후 분석4th\n\n\n\n\n관련 글\n\n\nLogParser의 문자열 처리\nLogParser의 파일 연동\nURL, HEX, BASE64 디코딩",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/07/logparser-2nd.html",
-    "pubDate": "2026-07-30T11:44:36.289Z",
-    "creator": "Unknown",
-    "categories": []
   },
   {
     "id": 10,
@@ -160,78 +150,69 @@
   {
     "id": 11,
     "imageUrl": "",
-    "title": "책임 회피하기",
-    "description": "오지큐 신철호 대표님과 이 회사의 투자자들 간의 갈등이 스타트업 생태계에서 요새 큰 이슈가 됐다. 나는 신철호 대표님을 과거에 뵌 적은 있지만, 친하다고는 할 수 없는 관계이고, 오지큐 회사와는 전혀 상관이 없다. 실은 이런 창업가와 투자자 사이의 분쟁과 갈등은 정확한 사정을 모르면 누가 맞고 누가 틀렸는지 판단하기가 어렵고, 대부분 he said, she said, I said 상황으로(...)",
+    "title": "LogParser의 문자열 처리 - 2nd",
+    "description": "로그온 사용자, 유형별 발생 현황.\n\n\n\n\n\n사용자와 로그온 유형 정보를 합치고 싶다.\n\n\n\n\n\n\n좀 더 보기 좋게 구분.\n\n\n\n이런 경험들이 쌓이고 모이면 엘라스틱도,\n\n\n\n\n\n스플렁크도 쉬워진다.\n\n\n\n빅데이터/인공지능이 유행하기 전부터 로그를 한 줄, 한 줄 읽어보고 싶은 욕구를 느꼈다면, VIM/grep 등을 이용해서 더 읽기 쉬운 형태로, 계산이 가능한 형태로 정제를 시도해봤다면, 친숙한 오피스 툴(엑셀?)이나 더 전문적인 데이터 계산툴(SQL?)을 사용해봤다면 충분히 잘 할 수 있다. 데이터 분석의 기본 원리는 그대로인 채 툴만 바뀌었으니까 - 엘라스틱서치로 알아보는 이상징후 분석4th\n\n\n\n\n관련 글\n\n\nLogParser의 문자열 처리\nLogParser의 파일 연동\nURL, HEX, BASE64 디코딩",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/07/manning-up-and-taking-accountability.html",
-    "pubDate": "Wed, 29 Jul 2026 21:37:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "general",
-      "inspiring",
-      "korea",
-      "vc"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Ponytail Skill for Claude Code: Does It Really Cut Agent Code by 54%?",
-    "description": "Part 3 of a series where we take public “token saver” add-ons for coding agents and run the same paired A/B benchmark against each of them. Part 1 was the caveman skill (advertised −65%, measured −8.5%). Part 2 was rtk (advertised −60–90%, measured +7.6%). We ran 80 paired tasks to test the ponytail skill for […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/07/ponytail-skill-claude-tested/",
-    "pubDate": "Tue, 28 Jul 2026 13:30:08 +0000",
-    "creator": "Denis Shiryaev",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "ai-assistant"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "지금 직장인이 자신에게 물어야 할 하나의 질문",
-    "description": "Ground Truth Ep.1 36년차 리더십 구루 신수정이 말하는 일의 기준",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/groundtruth-2",
-    "pubDate": "Thu, 30 Jul 2026 11:30:00 GMT",
+    "link": "https://kangmyounghun.blogspot.com/2026/07/logparser-2nd.html",
+    "pubDate": "2026-07-30T11:44:36.289Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 14,
+    "id": 12,
     "imageUrl": "",
-    "title": "Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK",
-    "description": "There's a new Agent (Preview) in Copilot Chat, built on the same GitHub Copilot SDK that powers the GitHub Copilot CLI, that gets more done with less back-and-forth.\nThe post Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK appeared first on Visual Studio Blog.",
+    "title": "토스, 멕시카나와 MOU 체결…치킨 프랜차이즈 매장에 '페이스페이' 도입한다",
+    "description": "결제 대기 시간 줄이고 운영 효율 높여",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-july-update-meet-the-new-agent-powered-by-copilot-sdk/",
-    "pubDate": "Tue, 28 Jul 2026 16:00:14 +0000",
-    "creator": "Mark Downie",
+    "link": "https://toss.im/tossfeed/article/toss-mexicana-mou",
+    "pubDate": "Fri, 31 Jul 2026 00:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3?source=rss----2615bd06b42e---4",
+    "pubDate": "Thu, 30 Jul 2026 20:10:15 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "Visual Studio",
-      "C++",
-      "Copilot",
-      "GitHub Copilot"
+      "netflix",
+      "genai",
+      "recommendation-system",
+      "llm",
+      "large-language-models"
     ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Toss Earns ISO 22301 Certification for Business Continuity Management",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/toss-iso-22301",
+    "pubDate": "Tue, 28 Jul 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Tell your model when to think harder ",
-    "description": "Not every question deserves the same amount of thought. Renaming a variable isn’t the same as debugging a memory leak, and they don’t need the same level of thinking. So why should your model treat them the same way every time? Starting in Visual Studio 18.9 Insiders 2, it doesn’t have to. Supported models now come with a thinking […]\nThe post Tell your model when to think harder  appeared first on Visual Studio Blog.",
+    "title": "[MULTI] 서투르지만 이야기라는 열매가 맺힌다, 더 렐릭 : 퍼스트 가디언",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/tell-your-model-when-to-think-harder/",
-    "pubDate": "Wed, 29 Jul 2026 15:02:36 +0000",
-    "creator": "Rachel Kang (SHE/HER)",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2477",
+    "pubDate": "Thu, 30 Jul 2026 00:00:59 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "Visual Studio"
+      "리뷰"
     ]
   }
 ]
