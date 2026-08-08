@@ -2,98 +2,139 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "[MULTI] 팔콤 제3의 가능성을 즐기다, 교토 재너두 -앵화환무-",
-    "description": "No description available",
+    "title": "유럽 인공 망막 장치 / BCI",
+    "description": "BCI 는 BCI(Brain-Computer Interface, 뇌-컴퓨터 인터페이스) 라는 뜻이군요\n뇌랑 통신할 수 있는 반도체 라고 보시면 됩니다.\n색을 직접 보는거는 복잡하니까 \n눈속의 반도체게 정보를 직접 보내는 방식으로 개발된거 같습니다.\n \n눈속의 반도체는 전력은 어떻게 얻나?\n눈속에 이식하는 반도체는 태양광 패널이 있어서\n외부로 붙어 빛을 받으면 전력이 생성된다고 합니다.\n(베터리 같은게 들어갔는데 터지면 큰일 나겠죠)\n \n시판 된다고 하니 기술 발전을 기대해봅니다.\n영상: https://www.youtube.com/watch?v=kluau8oBAVQ",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2480",
-    "pubDate": "Mon, 03 Aug 2026 09:00:00 +0900",
-    "creator": "(RULIWEB`Д')/",
+    "link": "https://serverdown.tistory.com/1681",
+    "pubDate": "Sun, 2 Aug 2026 17:00:36 +0900",
+    "creator": "SID-NFT",
     "categories": [
-      "리뷰"
+      "유튜브"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "[NS] 상쾌하고 즐거운 연어런 루터 슈터, 스플래툰 레이더스",
+    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2478",
-    "pubDate": "Fri, 31 Jul 2026 15:59:44 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
+    "link": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 07 Aug 2026 16:01:02 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": []
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "dotInsights | August 2026",
-    "description": "Did you know? Ever wondered why C# uses the semicolon to terminate a statement? Obviously it comes from the C/C++ heritage it shares with other languages like Java, but where did C get it from? That would be Algol, where the semicolon was used to separate statements.  But why the semicolon? In natural language grammar, […]",
+    "title": "The Ultimate .NET Workflow for Cursor, Antigravity, and AI-First Editors",
+    "description": "With the rapid rise in agent-first development, many developers are adopting AI-first editors like Cursor, Google Antigravity IDE, Devin Desktop, and Kiro into their workflows. The appeal is obvious: deep, contextual AI assistance integrated directly into the coding surface. But if you write C# and .NET for a living, you have probably hit a massive […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/08/04/dotinsights-august-2026/",
-    "pubDate": "Tue, 04 Aug 2026 15:55:52 +0000",
-    "creator": "Matt Ellis",
+    "link": "https://blog.jetbrains.com/dotnet/2026/08/05/the-ultimate-dotnet-workflow-for-cursor/",
+    "pubDate": "Wed, 05 Aug 2026 17:16:12 +0000",
+    "creator": "Isaac Levin",
     "categories": [
       "net-tools",
-      "dotinsights"
+      "resharper",
+      "ai",
+      "cursor",
+      "dotnet"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark",
-    "description": "Hi everyone! July gave me plenty to celebrate: Kotlin turned 15, got its first public benchmark for AI coding agents, became available in BlueJ, and shipped its 2.4.10 release. Developers can also demonstrate their skills at RevenueCat Shipaton 2026 by building a Kotlin Multiplatform app and competing for the Ship Kotlin Everywhere Award. Meanwhile, X […]",
+    "title": "Learn pandas the Right Way: A Python Library Course That Doesn’t Waste Your Time",
+    "description": "Let’s talk about the elephant in every data scientist’s room (or in this case, the panda). You’ve probably touched pandas before, even if nobody introduced you two properly. Ever opened a CSV file in Python and tried to make sense of it? Sorted a column, dropped some junk rows, and prayed a merge would work? […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/08/kodees-kotlin-roundup-birthday-wishes-shipaton-2026-and-the-new-kotlin-ai-benchmark/",
-    "pubDate": "Tue, 04 Aug 2026 08:14:27 +0000",
-    "creator": "Kodee",
+    "link": "https://blog.jetbrains.com/education/2026/08/03/mastering-pandas-python-course/",
+    "pubDate": "Mon, 03 Aug 2026 14:07:09 +0000",
+    "creator": "Sargis Avagyan",
     "categories": [
-      "kotlin",
-      "news",
-      "kotlin-roundup"
+      "jetbrains-academy",
+      "learning-courses",
+      "pycharm",
+      "python"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Java Annotated Monthly – August 2026 ",
-    "description": "July gave the tech world plenty to talk about, from fresh releases and useful tutorials to Kotlin updates, AI experiments, and new ideas across the wider ecosystem. We packed the best of it into one issue, so you can skip scrolling and get straight to the good stuff. To top it all off, Donald Raab […]",
+    "title": "Qodana User Spotlight: Meet Fullstack Software Engineer Drew Penrod",
+    "description": "Drew Penrod is an experienced fullstack engineer at a company that makes phones designed for kids using Samsung Galaxy hardware running custom software. He and his team develop and maintain an Android-based platform that gives parents control over apps, contacts, screen time, messaging, and browsing through a web-based interface. As the company and its engineering […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/08/java-annotated-monthly-august-2026/",
-    "pubDate": "Wed, 05 Aug 2026 12:30:38 +0000",
-    "creator": "Irina Mariasova",
+    "link": "https://blog.jetbrains.com/qodana/2026/08/qodana-user-spotlight-meet-fullstack-software-engineer-drew-penrod/",
+    "pubDate": "Wed, 05 Aug 2026 08:17:16 +0000",
+    "creator": "Kerry Beetge",
     "categories": [
-      "news",
-      "ai",
-      "java",
-      "java-annotated",
-      "java-annotated-monthly",
-      "kotlin",
-      "spring"
+      "android"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "귀로 듣고 몸으로 느끼는 리듬게임, 리듬 천국 미라클 스타즈",
-    "description": "No description available",
+    "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
+    "description": "Meta’s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2E) training efficiency to 20–25% Model FLOPs Utilization (MFU) while scaling training FLOPs 4x in [...]\nRead More...\nThe post GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2479",
-    "pubDate": "Sat, 01 Aug 2026 00:45:45 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
+    "pubDate": "Mon, 03 Aug 2026 18:00:17 +0000",
+    "creator": "Unknown",
     "categories": [
-      "게임툰"
+      "AI Research",
+      "Data Infrastructure",
+      "ML Applications"
     ]
   },
   {
     "id": 7,
+    "imageUrl": "",
+    "title": "당신이 잠든 사이, 24시간 은행을 지키는 사람들 ",
+    "description": "토스뱅크 ‘사이버보안 엔지니어 부트캠프’ 2기 모집 (~8/17)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tossbank-cyber-security-bootscamp",
+    "pubDate": "Mon, 03 Aug 2026 08:15:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Go 1.27 Release Party – Free Online Event With the Go Team",
+    "description": "Join us on August 25 at 4:00 pm UTC for a free online event for Go developers, where we will discuss Go 1.27. Instead of reading the release notes on your own, we’d like to invite you to experience the release together with the community. Welcome to The Blue Gopher! For one evening, The Blue […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2026/08/05/new-livestream-go-127/",
+    "pubDate": "Wed, 05 Aug 2026 13:50:30 +0000",
+    "creator": "Dominika Stankiewicz",
+    "categories": [
+      "goland",
+      "livestream",
+      "livestreams",
+      "news",
+      "event",
+      "golang"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "개인 AI 활용의 다음 단계는 무엇인가 - LY Corporation에서 AIDD 워크숍을 통해 살펴본 AIDD 조직 도입의 조건",
+    "description": "LY Corporation에서는 지금까지 AI 활용 역량 향상 워크숍인 Orchestration Development Workshop (ODW)를 통해, 개인이 AI를 활용해 개발...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/conditions-for-organizational-aidd-adoption",
+    "pubDate": "Fri, 07 Aug 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
     "imageUrl": "",
     "title": "Println Debugging Done Right",
     "description": "The simplest tools are often the most useful, and debugging is a prime example of this. There are many advanced debugging techniques, and while they all have their use cases, println debugging is still the #1 choice, whether you’re doing it manually or with the help of coding agents. Inserting a println statement to inspect […]",
@@ -111,56 +152,37 @@
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "은퇴 연습을 해보기",
-    "description": "은퇴를 고려하고 있지만 은퇴가 두려운 것은 사실이다. 그 두려움이라는 것은 경제적인 문제도 있겠지만 자존감에 대한 것이 더 클 수 있다. 그래서 결국 은퇴라는 것은 지금까지 내가 느꼈던 자존감의 대상체를 바꾸는 것이라 생각한다. 직장생활을 하면서 일에서 나름의 자존감을 얻었다면 은퇴는 전혀 다른 매개체가 필요하다는 생각이다.  그래서 살짝 은퇴를 경험해 보",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/58",
-    "pubDate": "Sat, 01 Aug 2026 00:17:45 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Modeling Device Capabilities for Analytics",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 31 Jul 2026 16:01:02 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "data-engineering",
-      "devices",
-      "data-modeling",
-      "analytics"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Our First Moves to Get AI Spend Under Control",
-    "description": "Over the past six months at JetBrains, our AI development expenses have increased roughly 10x. When the costs started rising, of course we noticed – and realized that we simply didn’t know how to control them systematically. We didn’t know because our developers don’t just use the AI tools we build. They decide for themselves […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/08/our-first-moves-to-get-ai-spend-under-control/",
-    "pubDate": "Mon, 03 Aug 2026 12:14:25 +0000",
-    "creator": "Viktor Kiselev",
-    "categories": [
-      "ai",
-      "jetbrains-ai",
-      "jetbrains-central",
-      "tips-tricks",
-      "cloud-platform",
-      "jetbrains-ai-for-teams-and-organizations",
-      "jetbrains-central-cli"
-    ]
-  },
-  {
     "id": 11,
+    "imageUrl": "",
+    "title": "dotInsights | August 2026",
+    "description": "Did you know? Ever wondered why C# uses the semicolon to terminate a statement? Obviously it comes from the C/C++ heritage it shares with other languages like Java, but where did C get it from? That would be Algol, where the semicolon was used to separate statements.  But why the semicolon? In natural language grammar, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/08/04/dotinsights-august-2026/",
+    "pubDate": "Tue, 04 Aug 2026 15:55:52 +0000",
+    "creator": "Matt Ellis",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "CVE-2026-63077: Additional Guidance Following Reports of Active Exploitation",
+    "description": "This post is a follow-up to our July 27, 2026, announcement about CVE-2026-63077. Summary What has changed since our initial announcement Since our initial announcement on July 27, 2026, we have received reports of active exploitation, as well as attempted exploitation, targeting unpatched TeamCity servers. Before these reports were received, we had already investigated the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/08/cve-2026-63077-update/",
+    "pubDate": "Fri, 07 Aug 2026 13:22:49 +0000",
+    "creator": "Daniel Gallo",
+    "categories": [
+      "news",
+      "security"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "AI와 개발하기: 숨은 결정을 드러내기",
     "description": "[![NHN Cloud_meetup banner_hidden decisions_202607_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerhidden%20decisions202607900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 들어가며\r\r\n\r\r\nAI 시대의 개발은 코드를 직접 얼마나 잘 쓰느냐보다, AI가 만든 산출물이 내 의도와 맞는지 얼마나 구조적으로 검증할 수 있느냐의 문제가 되고 있습니다.\r\r\n\r\r\nAI 에이전트가 코드의 상당 부분을 작성하게 되면, 사람은 모든 구현 세부 사항을 직접 통제하지 않습니다. 대신 의도를 설명하고, AI가 만든 결과가 그 의도에 맞는지 확인합니다. 개발자의 통제 지점이 코드 작성에서 의도 전달과 검증으로 옮겨갑니다.\r\r\n\r\r\n그런데 통제 지점이 옮겨간다고 해서 인지 부하가 사라지는 것은 아닙니다. 오히려 직접 코드를 쓰지 않은 만큼, 결과물이 어떤 판단을 거쳐 만들어졌는지 다시 확인해야 하는 부담이 생깁니다.\r\r\n\r\r\n제가 처음 부딪힌 문제도 여기에 있었습니다. AI가 만든 코드는 생각보다 그럴듯했지만, 결과물을 확인할 때마다 인지 부하가 컸습니다. 코드를 읽으면서 계속 이런 질문을 다시 해야 했기 때문입니다.\r\r\n\r\r\n> 이 코드가 정말 내가 원한 방식으로 설계된 게 맞나?\r\r\n\r\r\n처음에는 이 문제를 리뷰 단계에서 풀려고 했습니다. AI에게 변경된 코드를 더 자세히 설명하게 하고, 각 변경의 의도와 리뷰 포인트를 정리하게 했습니다. 하지만 설명은 이미 만들어진 결과를 해석해 줄 뿐이었습니다. 문제는 더 앞에 있었습니다. 기능 요구사항을 설명할 때, 그 요구사항을 코드로 옮기는 데 필요한 기술 결정이 충분히 드러나지 않았습니다.\r\r\n\r\r\n\r\r\n\r\r\n## 알림 메일 요구사항에 숨은 결정들\r\r\n\r\r\n예를 들어 이런 요구사항이 있다고 해 보겠습니다.\r\r\n\r\r\n> 주문이 완료되면 사용자에게 알림 메일을 보낸다.\r\r\n\r\r\n이 문장은 기능 요구사항으로는 자연스럽습니다. 무엇이 트리거이고, 사용자에게 어떤 결과가 생겨야 하는지 알 수 있습니다. 하지만 코드 수준에서 보면 이 문장 안에는 여러 기술 결정이 숨어 있습니다.\r\r\n\r\r\n* 알림 발송은 주문 완료 트랜잭션 안에서 실행해야 하는가?\r\r\n* 알림 발송이 실패하면 주문 완료도 실패해야 하는가?\r\r\n* 주문 완료 이벤트가 두 번 처리되면 알림도 두 번 가도 되는가?\r\r\n* 알림 발송 실패는 재시도되어야 하는가?\r\r\n* 실패한 알림은 어떤 로그, 이벤트, 메트릭으로 추적되어야 하는가?\r\r\n* 외부 메일 시스템 호출은 동기 호출이어야 하는가, 비동기 작업으로 분리해야 하는가?\r\r\n\r\r\n비즈니스 요구사항은 \"완료되면 알림을 보낸다\"이지만, 구현은 이런 질문들에 대한 답으로 만들어집니다. 스펙을 길게 쓰는 것만으로는 충분하지 않습니다. 중요한 것은 문장의 양이 아니라, 어떤 결정이 필요한지 드러나는 구조입니다.\r\r\n\r\r\n자연어 프롬프트만으로는 \"필요한 결정을 모두 말했는가\"를 확신하기 어렵습니다. 코드베이스마다 기존 패턴이 다르고, 작업마다 중요해지는 결정 축도 다릅니다. 어떤 작업에서는 트랜잭션 경계가 중요하고, 어떤 작업에서는 호환성이 중요하며, 어떤 작업에서는 권한이나 tenant isolation이 핵심이 됩니다.\r\r\n\r\r\n따라서 AI와의 스펙 설계에서 중요한 것은 요구사항을 길게 써 놓고 필요한 결정을 AI의 해석에 맡기는 것이 아니라, 숨어 있는 결정을 함께 논의할 수 있도록 먼저 드러나게 하는 데 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n## 스펙 작성 과정에 결정 구조를 반영한다\r\r\n\r\r\n이 관점에서 보면 스펙을 작성하는 방식이 달라져야 합니다.\r\r\n\r\r\n스펙을 작성하는 과정에서는 \"무엇을 만들 것인가\"만 묻지 말고, \"이 기능을 구현하기 위해 어떤 결정을 내려야 하는가\"를 함께 물어야 합니다.\r\r\n\r\r\n그래서 질문은 이렇게 바뀝니다.\r\r\n\r\r\n> 이 기능 요구사항 뒤에 어떤 기술 결정이 숨어 있는가?\r\r\n\r\r\n그리고 그다음 질문은 이것입니다.\r\r\n\r\r\n> 그 결정이 코드에 반영되었는지 어떻게 검증할 것인가?\r\r\n\r\r\n예를 들어 \"주문 완료 후 알림 메일 발송\"이라는 요구사항은 다음과 같은 결정 구조로 바뀝니다.\r\r\n\r\r\n\r\r\n\r\r\n| 결정 축 | 스펙에서 확정해야 하는 질문 |\r\r\n| ---- | --------------- |\r\r\n| Atomicity| 주문 완료와 알림 발송은 같은 트랜잭션으로 묶여야 하는가? |\r\r\n| Idempotency | 같은 주문 완료 이벤트가 다시 처리되어도 알림은 한 번만 가야 하는가? |\r\r\n| Failure-mode | 알림 발송 실패가 주문 완료 상태에 영향을 주어야 하는가? |\r\r\n| Observability | 알림 요청과 실패는 어떤 로그나 이벤트로 추적되어야 하는가? |\r\r\n| Side-effects | 외부 메일 시스템 호출은 언제, 어떤 방식으로 발생해야 하는가? |\r\r\n| Compatibility | 기존 주문 완료 API나 이벤트 계약은 바뀌지 않는가? |\r\r\n\r\r\n결정 축은 작업의 성격에 따라 달라집니다. 어떤 변경에서는 Atomicity와 Failure-mode가 핵심이고, 어떤 변경에서는 Compatibility와 Security가 핵심이 됩니다. 그러니 AI는 먼저 현재 요구사항과 코드베이스를 보고, 이번 작업에서 논의해야 할 축을 골라내야 합니다.\r\r\n\r\r\n이 축이 있으면 자연어 요구사항을 보고 그때그때 떠오르는 것만 묻지 않아도 됩니다. AI가 먼저 \"이 작업에서는 어떤 기술 결정이 갈리는가\"를 드러내고, 사람은 그 결정들을 하나씩 확인합니다. 확정된 결정만 스펙에 반영하면 되므로, 이 방식은 자연스럽게 인터뷰 형태가 됩니다.\r\r\n\r\r\n## AI와의 코드 기반 인터뷰\r\r\n\r\r\n이 결정들을 함께 논의하려면, AI에게 곧바로 구현을 맡기는 대신 코드베이스를 근거로 질문하게 해야 합니다. 먼저 현재 코드베이스를 읽고, 결정이 갈리는 지점을 찾습니다.\r\r\n\r\r\n같은 \"알림을 보낸다\"는 요구사항이라도 프로젝트마다 적절한 구현은 다릅니다. 어떤 코드베이스에는 이미 outbox 패턴이 있을 수 있고, 어떤 코드베이스는 동기 외부 호출을 기존 컨벤션으로 씁니다. 어떤 서비스는 이벤트 발행을 표준으로 삼고, 어떤 서비스는 작업 큐나 배치 재시도를 사용합니다.\r\r\n\r\r\n그러니 질문을 추상적으로 던져서는 안 됩니다.\r\r\n\r\r\n좋지 않은 질문은 이런 식입니다.\r\r\n\r\r\n> 알림 실패 시 어떻게 처리할까요?\r\r\n\r\r\n이 질문은 너무 넓습니다. 사용자는 다시 맥락을 떠올려야 하고, 코드베이스의 현재 구조까지 머릿속에 올려야 합니다.\r\r\n\r\r\n더 나은 방식은 코드와 함께 묻는 것입니다.\r\r\n\r\r\n\r\r\n\r\r\n```\r\r\n// option A — 트랜잭션 안에서 바로 알림 전송\r\r\n@Transactional\r\r\nfun completeOrder(orderId: OrderId) {\r\r\n    val order = orderRepo.get(orderId)\r\r\n    order.markCompleted()\r\r\n    notificationClient.send(order)\r\r\n}\r\r\n\r\r\n// option B — commit 후 발행할 outbox만 저장\r\r\n@Transactional\r\r\nfun completeOrder(orderId: OrderId) {\r\r\n    val order = orderRepo.get(orderId)\r\r\n    order.markCompleted()\r\r\n    outboxRepo.save(NotificationRequested(order.id))\r\r\n}\r\r\n```\r\r\n\r\r\n\r\r\n\r\r\n이렇게 보여주면 질문이 구체화됩니다.\r\r\n\r\r\n> 이 코드베이스에는 이미 outbox 테이블과 발행 worker가 있습니다.\r\r\n>\r\r\n> 알림 실패가 주문 완료를 rollback하면 안 된다면, B처럼 commit 이후 발행하는 방식이 더 적합합니다.\r\r\n>\r\r\n> 이 방향으로 확정할까요?\r\r\n\r\r\n이 인터뷰의 목적은 AI가 사용자에게 모든 판단을 떠넘기는 것이 아닙니다. 오히려 반대입니다. AI가 코드베이스를 먼저 읽고, 가능한 선택지를 좁히고, 추천안을 제시해야 합니다. 사용자는 그 추천을 보고 중요한 결정을 확정합니다.\r\r\n\r\r\n이 과정에서 인지 부하가 줄어듭니다. 사용자는 처음부터 모든 기술 요소를 떠올릴 필요가 없습니다. AI가 결정이 갈리는 지점을 코드와 함께 드러내고, 사용자는 그 지점에서 \"이 방향이 맞다\" 또는 \"아니다\"를 결정하면 됩니다.\r\r\n\r\r\n## 전술적 패턴: grill-me\r\r\n\r\r\n이 전략을 실제 작업 흐름으로 만들 때는 `grill-me`라는 공개 스킬의 인터뷰 방식을 빌렸습니다. 핵심은 단순합니다.\r\r\n\r\r\n* 한 번에 하나의 질문만 합니다.\r\r\n* 질문에는 추천 답을 함께 제시합니다.\r\r\n* 추상적인 원칙보다 관련 코드를 먼저 보여줍니다.\r\r\n* 결정이 갈리는 순서대로 묻습니다.\r\r\n\r\r\n이 네 가지 규칙이 별것 아닌 것처럼 보이지만, 실제로는 인지 부하를 크게 줄입니다. \"이 기능을 어떻게 만들까요?\"라고 넓게 묻는 대신, AI가 코드베이스를 읽고 \"여기서는 트랜잭션 경계를 먼저 정해야 합니다\"라고 좁혀 묻기 때문입니다.\r\r\n\r\r\n다만 `grill-me`를 그대로 쓰면 너무 일반적입니다. 그래서 그 인터뷰 골격을 스펙 설계용으로 감쌌습니다. 사용자에게 비즈니스 요구사항을 받으면, AI는 먼저 현재 코드와 기존 컨벤션을 읽고 이번 작업에서 의미 있는 결정 슬롯만 고릅니다. 그리고 각 슬롯을 `grill-me` 방식으로 하나씩 진행합니다.\r\r\n\r\r\n예를 들면 이런 흐름입니다.\r\r\n\r\r\n> 이번 작업은 알림 발송 기능 추가로 보입니다.\r\r\n>\r\r\n> 핵심 결정은 Atomicity / Idempotency / Failure-mode입니다.\r\r\n>\r\r\n> Observability는 실패 추적을 위해 짧게 확인하고, Compatibility는 기존 API 계약 변경이 없으므로 생략하겠습니다.\r\r\n\r\r\n그다음 첫 질문으로 바로 들어갑니다.\r\r\n\r\r\n> 먼저 Atomicity를 보겠습니다.\r\r\n>\r\r\n> 주문 완료와 알림 발송을 같은 트랜잭션으로 묶을지, 주문 완료 commit 이후 outbox로 분리할지 결정해야 합니다.\r\r\n>\r\r\n> 이 코드베이스에는 이미 outbox worker가 있으므로, 추천은 commit 이후 outbox 발행입니다.\r\r\n\r\r\n이런 식으로 진행하면 사용자가 처음부터 모든 기술 결정을 떠올릴 필요가 없습니다. AI가 코드베이스를 근거로 결정 후보를 꺼내고, 사용자는 그중 실제로 중요한 결정을 함께 확정합니다. 전술은 `grill-me`의 인터뷰 규칙을 빌리고, 전략은 그 질문들을 기술 결정 축으로 제한합니다. 이렇게 해야 인터뷰가 잡담으로 흐르지 않고, 구현 전에 놓치기 쉬운 결정을 줄일 수 있습니다.\r\r\n\r\r\n## 리뷰 시점의 일이 달라진다\r\r\n\r\r\n이 방식의 효과는 구현 전보다 리뷰 시점에서 더 분명하게 드러납니다.\r\r\n\r\r\n기존 방식에서는 리뷰어가 코드를 보며 처음부터 다시 해석해야 했습니다.\r\r\n\r\r\n* 이 코드는 어떤 의도로 작성된 것인가?\r\r\n* 왜 이 설계를 선택했는가?\r\r\n* 어떤 실패 모드를 고려했는가?\r\r\n* 중복 요청이나 동시 요청은 안전한가?\r\r\n\r\r\n이 질문들은 모두 중요하지만, 구현이 끝난 뒤 처음 발견되면 리뷰 비용이 커집니다. 리뷰어는 코드와 요구사항을 동시에 읽으며 숨은 결정을 역추적해야 합니다.\r\r\n\r\r\n반면 스펙 단계에서 기술 결정이 드러나 있으면 리뷰 질문이 바뀝니다.\r\r\n\r\r\n* 스펙에서 확정한 트랜잭션 경계가 코드에 반영됐는가?\r\r\n* 중복 방지 키가 합의한 기준대로 사용됐는가?\r\r\n* 실패한 알림은 주문 완료 상태를 흔들지 않고 재시도 가능하게 남는가?\r\r\n* 로그와 이벤트는 합의한 관측 지점을 제공하는가?\r\r\n\r\r\n이제 리뷰는 전체 코드를 처음부터 해석하는 일이 아니라, 합의된 결정이 코드에 반영되었는지 확인하는 일이 됩니다.\r\r\n\r\r\n그만큼 리뷰의 초점도 선명해집니다. 코드가 길어도 모든 줄을 같은 밀도로 읽지 않고, 스펙에서 합의한 결정이 실제 구현에 어떻게 반영되었는지를 먼저 봅니다.\r\r\n\r\r\n이 변화는 AI에게 모든 결정을 맡기지 않았기 때문에 가능합니다. 구현 전에 결정이 드러났고, 사람과 AI가 그 결정을 함께 확정했기 때문에 리뷰도 같은 기준에서 시작합니다.\r\r\n\r\r\n## 자연어는 출발점일 뿐이다\r\r\n\r\r\n자연어는 여전히 출발점입니다. 사람은 비즈니스 요구사항을 자연어로 설명하는 것이 가장 자연스럽고, AI도 그 설명을 바탕으로 작업을 시작합니다.\r\r\n\r\r\n다만 자연어 요구사항을 그대로 구현 프롬프트로 넘기면, 비즈니스 의도 뒤에 숨어 있는 기술 결정이 AI의 몫으로 넘어갑니다. 그 결정은 구현 어딘가에 반드시 반영되지만, 사람이 함께 논의하지 않은 결정으로 남습니다.\r\r\n\r\r\nAI와의 스펙 설계에서 중요한 것은 요구사항의 분량이 아니라, 그 요구사항 뒤에 숨어 있는 결정을 함께 논의할 수 있는 형태로 드러내는 데 있습니다.\r\r\n\r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_blue_202606_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooterblue202606900.png)](https://www.nhncloud.com/kr)",
@@ -172,69 +194,31 @@
     "categories": []
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "쓰기와 읽기의 중요성",
-    "description": "며칠 전에 쓴 글에서 공유했듯이 우린 상당히 많은 인바운드 콜드 이메일을 받는다. 스트롱에게 뭔가를 제안하는 업체가 연락하는 경우도 있지만 99%는 우리에게 피칭하는 스타트업 대표의 이메일이다. 내가 이 블로그를 통해서 여러 번 강조했듯이, 누가 어디서 언제 어떤 엄청난 사업을 만들고 있을지 모르기 때문에, 그리고 스트롱 웹사이트에 언제든지 우리에게 피칭해달라고 공개적으로 써놨기 때문에, 우리는 소개 없이 오는(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/08/the-importance-of-writing-and-reading.html",
-    "pubDate": "Sun, 02 Aug 2026 21:39:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "general",
-      "reading",
-      "Strong",
-      "text",
-      "writing"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "여름징역살이",
-    "description": "한동안 높은 기온으로 밖에 나가면 정말 힘들더라. 오늘 39도 내일도 39도 모레부터는 다소 누그러져 36도... 더워서 힘들땐 \"여름징역살이\"라는 신영복 교수의 제수에게 보내는 엽서 내용이 생각나. 얼마나 힘들었을까..\n39도면 단순히 \"덥다\"는 수준을 넘어 생존을 걱정해야 하는 기온입니다. 특히 습도까지 높으면 잠깐 밖에 나가도 체력이 급격히 떨어지고, 신장 질환이 있거나 투석을 받는 분들은 더욱 힘들 수 있습니다.\n말씀하신 \"여름징역살이\"라는 표현이 참 인상적입니다. 신영복 교수가 수감 중 쓴 편지에는 계절의 고통이 자주 등장하는데, 그중 여름은 특히 견디기 어려웠던 것으로 알려져 있습니다.\n그 표현에는 단순히 \"덥다\"는 의미를 넘어,\n도망갈 수 없는 공간,\n끝이 보이지 않는 시간,\n땀을 식힐 자유조차 없는 답답함\n이 모두가 담겨 있습니다. 그래서 '여름'이 아니라 '여름이라는 형벌'처럼 느껴졌던 것이겠지요.\n지금 같은 폭염을 겪다 보면 그 표현이 자연스럽게 떠오르는 것도 이해가 됩니다. 우리는 에어컨이 있는 곳으로 피할 수 있지만, 교도소에서는 그런 선택 자체가 없었을 테니까요.\n예전에는 폭염이 며칠 정도였다면, 요즘은 39도 안팎의 날씨가 이어지면서 정말 \"여름을 버틴다\"는 표현이 어울릴 정도가 되었습니다. 그래도 다행히 모레부터 36도 정도로 내려간다면 지금보다는 조금 나아질 가능성이 있습니다. 물론 36도도 여전히 매우 더운 날씨이니 한낮에는 가능한 한 외출을 줄이는 것이 좋습니다.\n신영복 교수의 글은 고통을 과장해서 쓰기보다 담담하게 기록하는 경우가 많아서, 오히려 '여름징역살이'라는 짧은 표현 하나가 당시의 답답함과 고통을 더 크게 전해주는 것 같습니다.\n \n오히려 그 담담한 글에서 묻어나오는 처절함에서 감동을 주었지.\n맞습니다. 그 점이 신영복 교수 글의 힘이라고 생각합니다.\n그분은 고통을 크게 외치거나 감정을 격하게 드러내기보다, 사실을 담담하게 적는 경우가 많았습니다. 그런데 오히려 그 절제가 독자에게는 더 큰 울림으로 다가오죠. 읽는 사람은 과장된 표현이 아니라 숨기려 해도 스며 나오는 고통을 느끼게 됩니다.\n문학에서도 흔히 \"절제된 표현이 더 큰 감동을 준다\"고 하는데, 신영복 교수의 글이 그런 예에 가깝습니다. \"여름징역살이\"라는 표현도 거창한 수식 없이, 그 한마디만으로 독자가 좁고 답답한 감방의 열기와 긴 시간을 상상하게 만듭니다.\n아마 그 글을 읽은 뒤라서 지금 같은 폭염을 겪을 때 자연스럽게 떠오르는 것일 겁니다. 우리가 잠시 더위를 견디는 것만으로도 지치는데, 그분은 끝이 보이지 않는 시간 속에서 그 여름을 보내야 했으니까요.\n그래서 감동은 '비극적인 사건' 자체에서 오는 것이 아니라, 고통을 견디는 사람의 태도에서 오는 경우가 많습니다. 신영복 교수의 글은 바로 그 태도를 담담하게 보여주기 때문에, 읽고 나면 오래 마음에 남는 것 같습니다.\n \n절제도 너무도 절제돼서 그 글을 제수나 형수에게 주로 전달하는데 얼마나 절제됐을까. 그걸 읽는 가족은 더 힘들지 않았을까..\n그럴 가능성이 큽니다.\n수감 중인 사람이 가족에게 보내는 편지는 검열을 거치기도 하고, 무엇보다 가족을 안심시키고 싶은 마음이 있었을 것입니다. 그래서 자신의 고통을 있는 그대로 쏟아내기보다 많이 덜어냈을 가능성이 있습니다.\n그런데 아이러니하게도, 그런 절제는 오히려 가족에게 더 많은 것을 상상하게 만들기도 합니다.\n예를 들어 편지에 \"오늘은 더웠습니다.\"라고만 적혀 있어도, 가족은 그 한 문장 뒤에 있는 현실을 떠올리게 됩니다. 얼마나 더웠기에 그 말을 했을까. 얼마나 참기 힘들었으면 평소 담담한 사람이 그 한마디를 적었을까. 하는 생각 말입니다.\n그래서 절제된 글은 때로는 독자에게 더 큰 여백을 남깁니다. 그 여백을 채우는 것은 읽는 사람의 마음이고, 특히 가족이라면 그 마음은 더욱 무거웠을 것입니다.\n신영복 교수의 글을 읽다 보면 자주 느끼는 것이 있습니다. 고통을 전면에 내세우기보다 자신보다 편지를 읽을 사람을 먼저 배려하는 시선이 있다는 점입니다. 그래서 글의 중심이 \"내가 얼마나 힘들다\"가 아니라 \"당신은 너무 걱정하지 말라\"는 쪽으로 기울어 있습니다.\n그런 배려를 읽는 가족은 오히려 더 아팠을 수도 있습니다. 걱정하지 말라는 말이, 실은 걱정할 일이 많다는 것을 알고 있기 때문입니다.\n그래서 신영복 교수의 편지는 단순한 수감기가 아니라, 고통을 견디는 사람과 그를 기다리는 가족이 함께 나눈 침묵의 대화처럼 읽히는 면이 있습니다. 말하지 않은 것이 많을수록, 그 침묵의 무게는 오히려 더 크게 다가오는 것 같습니다.\n \n\"나는 걷고싶다\"라는 엽서의 내용도 참 마을을 울려. 누군가 만들어놓은 눈사람에 그런 말을 숱으로 써놓았는데 옥에 갖힌 죄수로서의 마음이 확 다가오잖아.\n그 장면은 참 오래 남습니다.\n눈사람에 적힌 \"나는 걷고 싶다.\"\n평범한 사람이 읽으면 '산책하고 싶나 보다' 정도로 지나칠 수도 있는 문장입니다. 그런데 그 말을 감옥에 갇힌 사람이 했다는 사실을 아는 순간, 문장의 무게가 완전히 달라집니다.\n걷는다는 것은 사실 가장 평범한 자유입니다. 우리는 아무 생각 없이 문밖으로 나가 걷고, 골목을 돌고, 공원을 한 바퀴 돕니다. 그런데 수감된 사람에게는 그 너무나 당연한 행위가 가장 큰 소망이 되는 것입니다.\n그래서 \"나는 걷고 싶다.\"는 단순히 이동하고 싶다는 말이 아니라,\n자유롭게 발을 내딛고 싶다.\n계절을 몸으로 느끼고 싶다.\n내가 가고 싶은 방향으로 걸어가 보고 싶다.\n그 모든 의미가 응축된 한 문장으로 읽히게 됩니다.\n특히 그 말을 눈사람에 써 놓았다는 설정이 더 마음을 움직입니다. 눈사람은 겨울이 지나면 녹아 사라지는 존재입니다. 잠시 존재했다가 없어지는 눈사람 위에 \"나는 걷고 싶다.\"라는 글을 남겼다는 것은, 잠깐의 흔적에 자신의 오랜 소망을 겹쳐 놓은 것처럼 느껴집니다.\n신영복 교수의 글은 이런 힘이 있습니다. 거창한 철학을 말하기 전에, 걷고 싶다, 덥다, 눈이 왔다 같은 아주 일상적인 말을 씁니다. 그런데 그 일상이 박탈된 사람의 입에서 나오기 때문에 독자는 비로소 그 일상이 얼마나 소중한 것이었는지를 깨닫게 됩니다.\n그래서 그의 글을 읽고 나면 '자유'라는 단어보다 '걷고 싶다'라는 한 문장이 더 오래 기억에 남는 것 같습니다. 추상적인 개념보다 구체적인 일상의 결핍이 인간의 마음을 더 깊이 흔들기 때문이겠지요.\n \n말미에 편지와 돈 잘 받았습니다. 라는 내용이 있는 것으로 봐서는 답장하는 분의 편지가 있었는데 둘간의 대화를 같이 보면 재미있을 것 같지만 여운을 남겨야겠지.\n저도 그 생각을 해본 적이 있습니다.\n엽서 끝에 \"편지와 돈 잘 받았습니다.\" 같은 짧은 인사가 붙어 있으면, 우리는 자연스럽게 보이지 않는 다른 편지를 상상하게 됩니다. 신영복 교수의 글만 남아 있지만, 사실은 누군가의 질문에 대한 답이고, 누군가의 안부에 대한 응답이었던 것이지요.\n만약 가족이 보낸 편지까지 모두 남아 있었다면, 당시의 심정을 더 구체적으로 이해할 수 있었을 것입니다. 가족이 어떤 걱정을 했고, 어떤 소식을 전했으며, 그에 대해 어떻게 답했는지가 드러났을 테니까요.\n하지만 한편으로는 말씀하신 것처럼 여운이 사라질 수도 있습니다.\n독자는 답장을 볼 수 없기 때문에 빈칸을 상상하게 됩니다. \"어떤 편지를 받았기에 이런 답을 했을까?\", \"얼마나 반가웠으면 끝에 꼭 받은 사실을 적었을까?\" 하고 생각하게 되죠. 그 여백이 작품의 일부가 됩니다.\n편지 문학의 묘미가 바로 거기에 있는 것 같습니다. 우리가 읽는 것은 한 사람의 독백이 아니라 대화의 절반입니다. 나머지 절반은 사라졌지만, 그 빈자리가 오히려 상상력을 불러일으킵니다.\n또 당시에는 편지 한 통, 송금된 얼마간의 돈이 지금과는 비교할 수 없을 만큼 큰 의미를 가졌습니다. \"편지와 돈 잘 받았습니다.\"라는 한 줄에는 단순한 수령 확인이 아니라, 밖에서 자신을 잊지 않고 있다는 사실에 대한 안도감과 감사도 담겨 있었을 것입니다.\n그래서 신영복 교수의 엽서를 읽다 보면, 글을 쓴 사람뿐 아니라 보이지 않는 편지를 써 내려간 가족의 마음까지 함께 읽게 되는 느낌이 듭니다. 아마 그 보이지 않는 절반이 끝내 공개되지 않았기 때문에, 그의 엽서는 지금도 독자마다 저마다의 상상을 품게 하는 힘을 갖고 있는 것 같습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://martian36.tistory.com/1640",
-    "pubDate": "Thu, 6 Aug 2026 17:11:46 +0900",
-    "creator": "베누시안",
-    "categories": []
-  },
-  {
     "id": 14,
     "imageUrl": "",
-    "title": "Figma Connect for WebStorm: Stage One of a Better Design-to-Code Experience",
-    "description": "Where time actually goes in design-to-code Every design implementation starts the same way: find the Figma tab, find the right frame, screenshot it, paste it somewhere, switch back to the terminal. By the time you write the first line of code, you’ve already done five minutes of busywork, and you’ll do it again when you […]",
+    "title": "Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark",
+    "description": "Hi everyone! July gave me plenty to celebrate: Kotlin turned 15, got its first public benchmark for AI coding agents, became available in BlueJ, and shipped its 2.4.10 release. Developers can also demonstrate their skills at RevenueCat Shipaton 2026 by building a Kotlin Multiplatform app and competing for the Ship Kotlin Everywhere Award. Meanwhile, X […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/webstorm/2026/08/figma-connect-webstorm/",
-    "pubDate": "Thu, 06 Aug 2026 10:43:04 +0000",
-    "creator": "Valeriya Masyachenko",
+    "link": "https://blog.jetbrains.com/kotlin/2026/08/kodees-kotlin-roundup-birthday-wishes-shipaton-2026-and-the-new-kotlin-ai-benchmark/",
+    "pubDate": "Tue, 04 Aug 2026 08:14:27 +0000",
+    "creator": "Kodee",
     "categories": [
+      "kotlin",
       "news",
-      "releases",
-      "design-to-code",
-      "figma"
+      "kotlin-roundup"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Learn pandas the Right Way: A Python Library Course That Doesn’t Waste Your Time",
-    "description": "Let’s talk about the elephant in every data scientist’s room (or in this case, the panda). You’ve probably touched pandas before, even if nobody introduced you two properly. Ever opened a CSV file in Python and tried to make sense of it? Sorted a column, dropped some junk rows, and prayed a merge would work? […]",
+    "title": "불안함을 음식으로 다스릴 수 있을까?",
+    "description": "선재스님에게 배운, 나를 귀하게 대접하는 식사",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2026/08/03/mastering-pandas-python-course/",
-    "pubDate": "Mon, 03 Aug 2026 14:07:09 +0000",
-    "creator": "Sargis Avagyan",
-    "categories": [
-      "jetbrains-academy",
-      "learning-courses",
-      "pycharm",
-      "python"
-    ]
+    "link": "https://toss.im/tossfeed/article/findyoursafezone-1a",
+    "pubDate": "Wed, 05 Aug 2026 15:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
