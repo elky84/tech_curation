@@ -819,7 +819,27 @@
   {
     "name": "coolspeed",
     "category": "개인",
-    "posts": []
+    "posts": [
+      {
+        "creator": "coolspeed",
+        "title": "RunPod에 $23.5 태워서DeepSeek‑V4‑Flash‑0731 을560 tok/s 까지 끌어올린 하루",
+        "link": "https://coolspeed.wordpress.com/2026/08/09/runpod-deepseek-v4-flash-0731/",
+        "pubDate": "Sat, 08 Aug 2026 17:10:43 +0000",
+        "content:encodedSnippet": "목표는 단순했다. RunPod에서 H200 네 장을 빌려 DeepSeek‑V4‑Flash‑0731을 직접 띄우고, “그래서 실제 코딩할 때 몇 토큰/초 나오는데?”를 내 눈으로 확인하는 것. 결과적으로 모델은 떴고, SGLang + DSpark에서 실제 코딩 워크로드 기준 약 560 tok/s를 찍었다. 대신 그 사이에 50GB 루트 디스크를 터뜨리고, 불완전 체크포인트를 만들고, CUDA graph에서 illegal memory access까지 밟았다.\n\n\n\n\n0. 시작부터 가격표가 압박감을 준다\n선택한 머신은 H200 SXM ×4. RunPod 화면에 찍힌 가격은 $18.42/h였다. “몇 시간 해보지 뭐”라고 하기에는 시계가 꽤 빠르게 돈다. 실험하면서 한 번 삐끗할 때마다 그 삽질이 곧 비용으로 환산되는 구조다.\n\n\n\n\n처음 띄운 my-deepseek Pod. H200 SXM ×4, 화면 표시 가격 $18.42/h.\n1. 첫 번째 함정: 이미지가 있다고 서버가 뜨는 건 아니었다\nSGLang 컨테이너 이미지를 RunPod Custom Template에 직접 넣었다. 여기서 첫 삽질은 “이미지를 지정하면 뭔가 알아서 떠 있겠지”라는 기대였다. 기본 프로세스가 살아 있지 않으면 Web Terminal을 붙이기도 전에 컨테이너가 내려가고 재시작을 반복한다. 결국 템플릿의 시작 명령을 sleep infinity로 두고, 컨테이너를 살아 있게 만든 뒤 터미널에서 서버를 직접 띄우는 방식으로 전환했다.\n이 시점부터 중요한 교훈 하나: GPU 서버에서 ‘Pod가 Running’과 ‘모델 API가 Ready’는 전혀 다른 상태다.\n2. 두 번째 함정: 50GB 루트 디스크를 Hugging Face 캐시로 폭파\n진짜 시간 낭비는 여기서 시작됐다. 모델을 받기 시작했는데 Hugging Face 캐시가 /root/.cache/huggingface로 향했다. Container Disk는 고작 50GB. 결국 루트가 48GB/50GB, 96%까지 차고 다음 shard를 받는 순간 No space left on device로 종료됐다.\n“모델이 안 뜬다”가 아니라, 정확히는 모델을 받을 디스크를 잘못 골랐다. GPU 4장은 그동안 아무 일도 못 하고 돈만 태우고 있었다.\n이미 받은 약 49GB를 네트워크 스토리지인 /workspace로 옮기고, Hugging Face의 cache root를 명시적으로 고정했다.\nmkdir -p /workspace/huggingface\nexport HF_HOME=/workspace/huggingface\nexport HF_HUB_CACHE=/workspace/huggingface/hub\nexport HF_XET_CACHE=/workspace/huggingface/xet\n\nhf download deepseek-ai/DeepSeek-V4-Flash-0731 \\\n  --cache-dir /workspace/huggingface/hub\n\n옮긴 뒤 루트 디스크는 96%에서 1% 수준으로 다시 비었다. 불완전하게 받은 snapshot은 버리지 않고 그대로 재사용했고, hf download가 누락된 파일만 이어받게 했다. 최종적으로 74개 파일, reconstruction 기준 약 116GB가 완성됐다.\n\n\n\n\n다운로드/초기화 과정에서 RunPod 대시보드에 보이던 디스크·메모리 활동. 모델 파일은 /workspace 쪽으로 보내는 게 핵심이었다.\n3. 체크포인트가 완성되자 비로소 ‘진짜 모델 로딩’이 시작됐다\n불완전한 snapshot 상태에서는 SGLang이 model.safetensors.index.json을 읽은 뒤 “33개 shard가 없다”고 바로 죽었다. 다운로드를 완성하고 다시 띄우자 이번에는 48/48 shard가 전부 로드됐다.\nDeepSeek V4의 커널 prewarm과 DeepGEMM JIT compile은 또 별도의 기다림이었다. CPU에서는 NVCC/CICC 프로세스들이 여러 코어를 꽉 쓰고, GPU 쪽에서는 graph capture와 warmup이 길게 이어졌다.\n\n\n\n\n\n\n\n\n\n4. 일단 기본 서빙 성공: DSpark OFF 약 140 tok/s\n먼저 speculative decoding을 끄고 baseline을 잡았다. Hopper에서 TP=4 + Marlin 경로로 띄웠고, OpenAI-compatible /v1/chat/completions에서 실제 답변이 생성되는 것을 확인했다.\nsglang serve \\\n  –trust-remote-code \\\n  –model-path /workspace/huggingface/hub/models–deepseek-ai–DeepSeek-V4-Flash-0731/snapshots/7872f01b1d1fe23eabc4c98b48bffcef5a386062 \\\n  –tp 4 \\\n  –moe-runner-backend marlin \\\n  –mem-fraction-static 0.90 \\\n  –chunked-prefill-size 4096 \\\n  –swa-full-tokens-ratio 0.1 \\\n  –host 0.0.0.0 \\\n  –port 30000\n\n\n\n\n긴 warmup과 CUDA graph capture 끝에 드디어 “The server is fired up and ready to roll!”.\n\n\n\n\n모델이 제대로 올라온 뒤에는 GPU당 대략 132GB 수준의 VRAM을 사용했다.\nBaseline benchmark\npython3 -m sglang.benchmark.serving \\\n  --backend sglang \\\n  --host 127.0.0.1 \\\n  --port 30000 \\\n  --model /workspace/huggingface/hub/models--deepseek-ai--DeepSeek-V4-Flash-0731/snapshots/7872f01b1d1fe23eabc4c98b48bffcef5a386062 \\\n  --dataset-name random \\\n  --random-input-len 256 \\\n  --random-output-len 1024 \\\n  --random-range-ratio 1 \\\n  --num-prompts 3 \\\n  --max-concurrency 1 \\\n  --request-rate inf\n\n\n지표DSpark OFF\n\nOutput throughput139.51 tok/s\nMean TPOT7.00 ms/token\ndecode 환산약 142.9 tok/s\nMean TTFT172.61 ms\n\n\n\n\n\n짧은 컨텍스트뿐 아니라 10K+ 수준의 입력에서도 TPOT가 약 7.1ms로 거의 그대로였고, 긴 컨텍스트의 영향은 주로 TTFT 쪽에서 나타났다.\n5. DSpark ON: 여기서 또 CUDA illegal memory access\n이제 DeepSeek V4 Flash의 재미있는 부분인 DSpark를 켰다. 그런데 첫 시도는 CUDA graph capture에서 죽었다. 로그의 핵심은 bs=240을 capture하던 중 DeepGEMM 경로에서 CUDA_ERROR_ILLEGAL_ADDRESS.\n해결: concurrency=1 성능을 볼 실험인데 decode CUDA graph를 수백 batch까지 잡을 이유가 없었다. --cuda-graph-max-bs-decode 16으로 낮추자 서버가 정상 기동했다.\nexport SGLANG_RAGGED_VERIFY_MODE=compact\n\nsglang serve \\\n  --trust-remote-code \\\n  --model-path /workspace/huggingface/hub/models--deepseek-ai--DeepSeek-V4-Flash-0731/snapshots/7872f01b1d1fe23eabc4c98b48bffcef5a386062 \\\n  --tp 4 \\\n  --moe-runner-backend marlin \\\n  --mem-fraction-static 0.90 \\\n  --chunked-prefill-size 4096 \\\n  --swa-full-tokens-ratio 0.1 \\\n  --speculative-algorithm DSPARK \\\n  --cuda-graph-max-bs-decode 16 \\\n  --host 0.0.0.0 \\\n  --port 30000\n\n\n\n\n\nDSpark 경로의 target verify / draft verify CUDA graph capture까지 끝난 상태. 이번에는 서버가 정상적으로 Ready.\n6. 결과: synthetic 552 tok/s, 실제 코딩 561 tok/s\n동일한 256 input / 1024 output / concurrency=1 benchmark를 다시 돌렸다.\n\n지표DSpark OFFDSpark ON변화\n\nOutput throughput139.51551.95 tok/s3.96×\nMean TPOT7.00 ms1.63 ms4.29× 개선\nTTFT172.61 ms177.09 ms거의 동일\nAccept length—5.52높은 draft acceptance\n\n\n\n\n\n“random benchmark라 실제 코딩에서는 내려가겠지?” 싶어서 별도 Python 스크립트로 LRU cache 구현 + TTL + thread safety + unittest까지 요구하는 4096-token 코딩 프롬프트를 streaming으로 측정했다. 두 번째 warm run의 결과가 오히려 더 인상적이었다.\n\n\n\n\n\n\nOutput tokens4096\nE2E output TPS548.0 tok/s\nDecode TPS approx.560.8 tok/s\nTTFT171.8 ms\nTotal wall time7.475 s\n\n\n\n\n\nsynthetic에서 551.95 tok/s, 실제 코딩에서 E2E 548 tok/s. 적어도 이번 workload에서는 “벤치마크에서만 빠른” 결과가 아니었다.\n7. 마지막에 다시 켠 이유: “1동접이면 GPU 한두 장만 일하나?”\n서버까지 내렸다가 한 가지가 계속 마음에 걸렸다. concurrency=1으로 코딩 추론할 때 H200 네 장이 실제로 얼마나 바쁜지를 안 찍어둔 것이다. 스크린샷 한 장 때문에 다시 긴 warmup을 기다리는 건 비용적으로 꽤 웃긴 일이었지만, 블로그에 남길 증거로는 가치가 있다고 판단해 DSpark ON 서버를 다시 띄웠다.\n그리고 결과는 꽤 시원했다.\n\n\n\n\n실제 코딩 생성 중 nvidia-smi. H200 네 장 모두 GPU-Util 100%. 전력은 약 324~330W, VRAM은 GPU당 약 132GB.\n동접 1개라고 GPU 한 장만 일하는 게 아니다. TP=4로 한 모델을 네 GPU에 걸쳐 돌리고 있으니, 단일 요청의 decode 과정에서도 네 장이 동시에 일한다.\n이 패턴은 예전에 SageMaker에서 임베딩 모델을 서빙했을 때 봤던 느낌과도 비슷했다. 그때도 “요청 수는 적은데 GPU utilization은 순간적으로 확 꽉 찬다”는 인상이 있었는데, 이번에는 적어도 DeepSeek V4 TP=4 추론에서 그 장면을 정확히 캡처했다.\n주의: 위 문장의 SageMaker 부분은 과거 개인 경험에 대한 기억이고 이번 실험에서 재측정한 데이터는 아니다. 이번 실험에서 직접 확인한 것은 H200 4장 모두 100% utilization을 찍었다는 점이다.\n8. $23.5로 산 것\n오늘 잔액에서 빠진 돈은 총 $23.50. 단순히 모델 API 한 번 띄우는 데 쓴 돈이라고 보면 비싸다. 하지만 이 비용으로 얻은 것은 꽤 구체적이었다.\n50GB Container Disk와 모델 캐시는 절대 같은 곳에 두지 말 것.\nHF_HOME/HF_HUB_CACHE/HF_XET_CACHE를 /workspace로 고정.\n대형 모델은 “다운로드 완료”와 “snapshot 무결성”을 따로 확인할 것.\n48 shard 중 빠진 파일이 있으면 SGLang은 당연히 뜨지 않는다.\nH200에서 DeepSeek V4 Flash baseline은 약 140 tok/s.\nTP=4 + Marlin, concurrency=1.\nDSpark를 켜니 이번 워크로드에서 약 4배.\n실제 코딩 warm run decode 약 560.8 tok/s.\nDSpark CUDA graph 문제는 max decode batch를 16으로 제한해 해결.\nbs=240 capture 중 illegal memory access를 피했다.\n1동접이어도 H200 네 장이 동시에 100%를 찍는다.\nTP=4 모델의 단일 요청도 네 장에 걸쳐 처리된다.\n\n\n\n\n서버를 내린 직후. GPU workload는 사라졌는데 Pod가 살아 있으면 시간당 요금은 계속 돈다. 그래서 이런 실험은 끝났으면 바로 꺼야 한다.\n9. 다시 한다면 이렇게 한다\n다시 처음부터 한다면 순서는 훨씬 단순해진다.\n① H200 ×4 Pod 생성 → ② container는 sleep infinity로 유지 → ③ HF cache를 /workspace로 먼저 고정 → ④ 모델을 hf download로 완전히 받기 → ⑤ DSpark OFF baseline → ⑥ DSpark ON + cuda-graph-max-bs-decode 16 → ⑦ synthetic + 실제 코딩 workload → ⑧ nvidia-smi 캡처 → ⑨ 즉시 Pod 종료.\n처음에는 “OpenCode 같은 에이전트를 깔아두면 이런 셋업을 알아서 끝내주지 않았을까” 하는 생각도 들었다. 실제로 반복적인 환경 디버깅에는 에이전트가 편했을 것이다. 하지만 끝까지 직접 로그를 따라가 본 덕분에, 어디서 디스크가 터지고, 어디서 snapshot이 불완전해지고, 어디서 CUDA graph가 죽는지까지 손에 잡히게 이해하게 됐다.\n마무리: 23.5달러짜리 수업료치고는 꽤 짜릿했다\n최종적으로 내가 보고 싶었던 숫자는 봤다. DeepSeek‑V4‑Flash‑0731, H200 네 장, SGLang + DSpark, 실제 코딩 workload에서 약 560 tok/s. 그리고 그 순간 네 장의 H200은 모두 100% utilization을 찍고 있었다.\n처음 목적은 “모델 한 번 띄워보자”였는데, 결국 얻은 건 훨씬 더 실전적인 운영 감각이었다. 대형 모델 서빙에서 병목은 GPU만이 아니다. 컨테이너 생명주기, 캐시 위치, snapshot 무결성, kernel warmup, CUDA graph shape, speculative decoding acceptance가 모두 한 줄로 연결돼 있다.\n오늘의 결론: 560 tok/s는 공짜가 아니었다.\n$23.5와 1시간 남짓의 삽질을 태우니 숫자가 나왔다.",
+        "dc:creator": "coolspeed",
+        "comments": "https://coolspeed.wordpress.com/2026/08/09/runpod-deepseek-v4-flash-0731/#respond",
+        "content": "RunPod에 $23.5 태워서DeepSeek‑V4‑Flash‑0731을560 tok/s까지 끌어올린 하루 - coolspeed",
+        "contentSnippet": "RunPod에 $23.5 태워서DeepSeek‑V4‑Flash‑0731을560 tok/s까지 끌어올린 하루 - coolspeed",
+        "guid": "http://coolspeed.wordpress.com/?p=3513",
+        "categories": [
+          "AI",
+          "network",
+          "programming",
+          "performance"
+        ],
+        "isoDate": "2026-08-08T17:10:43.000Z"
+      }
+    ]
   },
   {
     "name": "오늘도 끄적끄적",
@@ -837,6 +857,11 @@
     "posts": []
   },
   {
+    "name": "ZeroCho Blog",
+    "category": "개인",
+    "posts": []
+  },
+  {
     "name": "imays게임엔진개발자",
     "category": "개인",
     "posts": []
@@ -849,7 +874,29 @@
   {
     "name": "기억보단 기록을",
     "category": "개인",
-    "posts": []
+    "posts": [
+      {
+        "creator": "향로 (기억보단 기록을)",
+        "title": "단점 대신 약점",
+        "link": "https://jojoldu.tistory.com/883",
+        "pubDate": "Sat, 8 Aug 2026 10:45:48 +0900",
+        "author": "향로 (기억보단 기록을)",
+        "comments": "https://jojoldu.tistory.com/883#entry883comment",
+        "content": "<p>최근, 장기간의 이직 준비에 지친 분과 이야기를 나눴다.<br>면접 자리에만 가면 말을 제대로 전달하지 못하고, 대화가 수월하게 이어지지 않는다는 점이 자기 단점이라고 이야기하시길래 그건 단점이 아니라 약점일 뿐이라고 말씀드렸다.</p>\n<p>요즘 스스로 부족한 점을 발견할 때마다, 일부러 단점이라고 말하지 않으려고 한다.<br>습관처럼 &quot;이게 내 단점이지&quot;라는 말이 올라오면, 이를 꽉 깨물고 &quot;이건 내 약점이야&quot;라고 생각한다.</p>\n<p>영어로 미팅할 수도 없고,<br>고객이 원하는 것을 포착하는 감각도 떨어지고,<br>돈을 버는 감각도 뛰어나지 않다.<br>(요즘은 코딩도 너무 오래 쉬었다.)</p>\n<p>예전에는 이런 것들을 모두 내 &quot;단점&quot;이라고 생각했다.<br>근데 &quot;영어를 못하는 게 내 단점이야&quot;라고 말하면, 영어를 못하는 현재의 상태가 마치 나라는 사람의 결함처럼 느껴졌다.</p>\n<p>말은 능력 하나를 설명했을 뿐인데, 듣고 있는 나는 내 전체를 평가받은 것처럼 받아들인다.</p>\n<p>반면에 &quot;영어는 지금 내 약점이야&quot;라고 말하면 조금 달랐다.<br>지금은 영어가 약하다.<br>그러면 연습하면 된다.<br>다른 사람의 도움을 받을 수도 있고, 번역 도구를 쓸 수도 있고, 영어가 덜 필요한 다른 능력으로 보완할 수도 있다.<br>혹은 지금 내 삶에서 중요하지 않다면 우선순위를 뒤로 미룰 수도 있다.<br>어느 쪽이든 선택지가 생긴다.</p>\n<p>단점이라고 부를 때는 자책부터 했는데,<br>약점이라고 부르면 해야 할 것들을 떠올리게 된다.</p>\n<p>물론 단점이라는 말을 아예 없애려는 것은 아니다.<br>나 자신이나 다른 사람을 해치는 태도는 여전히 단점이라고 생각한다.<br>무례함.<br>폭력적인 성향.<br>잘못을 인정하지 않는 태도.<br>다른 사람을 반복해서 상처 입히면서도 대수롭지 않게 여기는 태도.<br>이런 건 &quot;원래 내가 좀 그래&quot;라고 받아들일 일이 아니다.<br>반성하고 고쳐야 한다.<br>(내가 그렇다는 건 아니고...)</p>\n<p>하지만 아직 잘하지 못하는 능력까지 나의 흠으로 만들고 싶지는 않다.<br>영어를 못하는 것도,<br>고객이 원하는 것을 포착하지 못하는 것도,<br>돈에 대한 감각이 부족한 것도<br>나라는 사람의 결함은 아니다.<br>그것은 지금의 내 약점이다.<br>키워 갈 수도 있고, 때로는 그대로 안고 살아갈 수도 있는 것들이다.</p>\n<p>사전에서 두 단어를 어떻게 구분하는지는 여기서 크게 중요하지 않다.<br>이것은 내가 나를 대하기 위해 만든 언어 규칙에 가깝다.<br>나는 자주 쓰는 단어가 결국 내 생각을 지배한다고 믿는다.<br>부족함을 계속 단점으로 부르면, 나는 나를 결함이 있는 사람으로 보게 될 것 같다.<br>반대로 약점이라고 부르면, 부족함을 외면하지 않으면서도 그 자리에 가능성을 남겨둘 수 있다.</p>\n<p>말만 바꾼다고 영어가 늘지는 않는다.<br>그분이 다음 면접에서 갑자기 말을 잘하게 되는 것도 아니다.</p>\n<p>그래도 말이 바뀌면, 그 부족함을 대하는 태도가 바뀐다.<br>&quot;나는 왜 이것도 못하지?&quot;에서<br>&quot;이건 지금 내 약점이구나. 어떻게 더 나아질 수 있을까?&quot;로.</p>\n<p>그래서 요즘은 이를 꽉 깨물고라도 고쳐 부르려고 한다.<br>&quot;이게 내 단점이야&quot; 대신, &quot;이건 지금 내 약점이야&quot;.</p>\n<p>계속 그렇게 부르다 보면, 그 부족함들은 정말로 내가 키워 갈 수 있는 영역이 될 것이라고 믿는다.</p>\n<p>내가 나를 부르는 말이, 내가 나를 대하는 방식이 될 테니까.</p>",
+        "contentSnippet": "최근, 장기간의 이직 준비에 지친 분과 이야기를 나눴다.\n면접 자리에만 가면 말을 제대로 전달하지 못하고, 대화가 수월하게 이어지지 않는다는 점이 자기 단점이라고 이야기하시길래 그건 단점이 아니라 약점일 뿐이라고 말씀드렸다.\n요즘 스스로 부족한 점을 발견할 때마다, 일부러 단점이라고 말하지 않으려고 한다.\n습관처럼 \"이게 내 단점이지\"라는 말이 올라오면, 이를 꽉 깨물고 \"이건 내 약점이야\"라고 생각한다.\n영어로 미팅할 수도 없고,\n고객이 원하는 것을 포착하는 감각도 떨어지고,\n돈을 버는 감각도 뛰어나지 않다.\n(요즘은 코딩도 너무 오래 쉬었다.)\n예전에는 이런 것들을 모두 내 \"단점\"이라고 생각했다.\n근데 \"영어를 못하는 게 내 단점이야\"라고 말하면, 영어를 못하는 현재의 상태가 마치 나라는 사람의 결함처럼 느껴졌다.\n말은 능력 하나를 설명했을 뿐인데, 듣고 있는 나는 내 전체를 평가받은 것처럼 받아들인다.\n반면에 \"영어는 지금 내 약점이야\"라고 말하면 조금 달랐다.\n지금은 영어가 약하다.\n그러면 연습하면 된다.\n다른 사람의 도움을 받을 수도 있고, 번역 도구를 쓸 수도 있고, 영어가 덜 필요한 다른 능력으로 보완할 수도 있다.\n혹은 지금 내 삶에서 중요하지 않다면 우선순위를 뒤로 미룰 수도 있다.\n어느 쪽이든 선택지가 생긴다.\n단점이라고 부를 때는 자책부터 했는데,\n약점이라고 부르면 해야 할 것들을 떠올리게 된다.\n물론 단점이라는 말을 아예 없애려는 것은 아니다.\n나 자신이나 다른 사람을 해치는 태도는 여전히 단점이라고 생각한다.\n무례함.\n폭력적인 성향.\n잘못을 인정하지 않는 태도.\n다른 사람을 반복해서 상처 입히면서도 대수롭지 않게 여기는 태도.\n이런 건 \"원래 내가 좀 그래\"라고 받아들일 일이 아니다.\n반성하고 고쳐야 한다.\n(내가 그렇다는 건 아니고...)\n하지만 아직 잘하지 못하는 능력까지 나의 흠으로 만들고 싶지는 않다.\n영어를 못하는 것도,\n고객이 원하는 것을 포착하지 못하는 것도,\n돈에 대한 감각이 부족한 것도\n나라는 사람의 결함은 아니다.\n그것은 지금의 내 약점이다.\n키워 갈 수도 있고, 때로는 그대로 안고 살아갈 수도 있는 것들이다.\n사전에서 두 단어를 어떻게 구분하는지는 여기서 크게 중요하지 않다.\n이것은 내가 나를 대하기 위해 만든 언어 규칙에 가깝다.\n나는 자주 쓰는 단어가 결국 내 생각을 지배한다고 믿는다.\n부족함을 계속 단점으로 부르면, 나는 나를 결함이 있는 사람으로 보게 될 것 같다.\n반대로 약점이라고 부르면, 부족함을 외면하지 않으면서도 그 자리에 가능성을 남겨둘 수 있다.\n말만 바꾼다고 영어가 늘지는 않는다.\n그분이 다음 면접에서 갑자기 말을 잘하게 되는 것도 아니다.\n그래도 말이 바뀌면, 그 부족함을 대하는 태도가 바뀐다.\n\"나는 왜 이것도 못하지?\"에서\n\"이건 지금 내 약점이구나. 어떻게 더 나아질 수 있을까?\"로.\n그래서 요즘은 이를 꽉 깨물고라도 고쳐 부르려고 한다.\n\"이게 내 단점이야\" 대신, \"이건 지금 내 약점이야\".\n계속 그렇게 부르다 보면, 그 부족함들은 정말로 내가 키워 갈 수 있는 영역이 될 것이라고 믿는다.\n내가 나를 부르는 말이, 내가 나를 대하는 방식이 될 테니까.",
+        "guid": "https://jojoldu.tistory.com/883",
+        "categories": [
+          "생각정리",
+          "단점",
+          "면접",
+          "약점",
+          "에세이",
+          "이직",
+          "회고"
+        ],
+        "isoDate": "2026-08-08T01:45:48.000Z"
+      }
+    ]
   },
   {
     "name": "WestwoodForever's Dev Log",
@@ -874,7 +921,31 @@
   {
     "name": "yuchi's dev",
     "category": "개인",
-    "posts": []
+    "posts": [
+      {
+        "creator": "megayuchi",
+        "title": "D3D12리소스 수명관리",
+        "link": "https://megayuchi.com/2026/08/09/d3d122%eb%a6%ac%ec%86%8c%ec%8a%a4-%ec%88%98%eb%aa%85%ea%b4%80%eb%a6%ac/",
+        "pubDate": "Sat, 08 Aug 2026 17:19:24 +0000",
+        "content:encodedSnippet": "2주전 발견한 gpu크래시 버그를 잡으면서 만든 자료들을 가지고 오랫만에 기술방송을 진행했습니다. 4K녹화본입니다.\nD3D122리소스 수명관리\nhttps://youtu.be/Sew_XGPAVM4",
+        "dc:creator": "megayuchi",
+        "comments": "https://megayuchi.com/2026/08/09/d3d122%eb%a6%ac%ec%86%8c%ec%8a%a4-%ec%88%98%eb%aa%85%ea%b4%80%eb%a6%ac/#respond",
+        "content": "2주전 발견한 gpu크래시 버그를 잡으면서 만든 자료들을 가지고 오랫만에 기술방송을 진행했습니다. 4K녹화본입니다. D3D122리소스 수명관리https://youtu.be/Sew_XGPAVM4",
+        "contentSnippet": "2주전 발견한 gpu크래시 버그를 잡으면서 만든 자료들을 가지고 오랫만에 기술방송을 진행했습니다. 4K녹화본입니다. D3D122리소스 수명관리https://youtu.be/Sew_XGPAVM4",
+        "guid": "http://megayuchi.com/?p=7238",
+        "categories": [
+          "Development",
+          "D3D12",
+          "DirectX12",
+          "DX12",
+          "Game Development",
+          "Game Engine Development",
+          "GPU",
+          "Voxel Horizon"
+        ],
+        "isoDate": "2026-08-08T17:19:24.000Z"
+      }
+    ]
   },
   {
     "name": "만화로 나누는 자유/오픈소스 소프트웨어 이야기",
@@ -994,6 +1065,54 @@
     "name": "손현호",
     "category": "개인",
     "posts": []
+  },
+  {
+    "name": "STARTUP BIBLE",
+    "category": "개인",
+    "posts": [
+      {
+        "creator": "Kihong Bae",
+        "title": "옵티마이저들",
+        "link": "https://www.thestartupbible.com/2026/08/the-optimizers.html",
+        "pubDate": "Wed, 05 Aug 2026 21:29:00 +0000",
+        "content:encodedSnippet": "요새 투자 분위기는 아직도 AI, 로보틱스, 국방, 피지컬 AI와 같은 딥테크와 하드테크에 집중됐지만, 우린 좋은 창업가들이 좋은 사업을 하고 있으면 분야와 기술관 상관없이 검토하고 투자하고 있다. 그리고 일반인들의 일상과 가장 밀접하게 연관된 분야는 어려운 기술보단 먹고, 마시고, 입고, 놀고, 어울리는 분야라는 점을 우린 매번 강조하고 스스로 상기시키면서 이 분야의 회사와 창업가를 많이 만나고 검토하고 있다.(그렇다고 우리가 딥테크와 하드테크를 안 본다는 의미는 아니다. 이 분야도 적극적으로 보고 있다.)\nConsumer 분야의 트렌드를 관찰하다 보면 요새 ‘Optimizer’라는 새로운 개념이 등장한다. 말 그대로 최적화된 인생을 살고 싶어 하는 사람인데, 어떻게 하면 가장 쉽고 효율적으로 재미도 있지만 의미도 있는 삶을 살 수 있을지 계속 연구하면서 추구하는 세대를 옵티마이저라고 부른다. 예를 들면, 더 건강하게 살고 싶지만, 수도승처럼 금욕적인 삶보단 나름의 방식으로 인생을 즐기면서 살고 싶어 하는, 현명한 지름길을 통해서 더 건강한 선택을 하고 똑똑한 방법으로 더 좋은 삶을 살고 싶어 하는 새로운 세대라고 할 수 있다.\nMZ 세대의 40% 이상이 자신은 옵티마이저라고 하는데 이들은 먹는 것에 더 많은 신경을 쓴다. 특히 비슷한 카테고리의 음식이라면 더 비싼 고급 제품을 선호한다. 이들은 다른 사람들에 비해 단백질을 더 많이 섭취하고, 섬유질을 더 많이 섭취하고, 가공음식을 덜 먹지만, 또 재미있는 사실은 맛집이라면 – 그리고 그 맛집이 초가공식품인 소금빵 가게라도 – 30분 이상 기다려서 꼭 먹고 마는 특징이 있다. 우리가 아는 일반적인 사실과는 달리 이들은 술도 남들보다 더 많이 먹지만, 되도록 더 비싼 술을 선호한다. 예를 들면, 와인도 일반 와인보다 내추럴 와인을 선호한다.\n옵티마이저는 오래 살기 위해 의식적으로 노력하는데, 다른 사람들에 비해 일주일에 4번 이상 운동하고 장수와 연관되어 있다고 알려진 사우나도 자주 한다. 대부분 애플워치와 같은 웨어러블 기기를 통해 건강을 관리하고, 외모에 대한 관심 또한 매우 높아서 비만이라고 생각하면 GLP-1을 거리낌없이 맞거나 복용하고, 보톡스와 필러도 더 많이 맞는다. 또 하나 재미있는 사실은 건강, 장수, 체중감소를 위해 아직 과학적으로 증명되지 않은 펩타이드 주사도 상당히 많이 자가주사하고 있다는 점이다. 이미 GLP-1을 통해서 자가주사에 익숙해졌기 때문에 집에서 펩타이드 주사를 편안하게 맞는 것 같다.\n이들은 기술에 대한 이해도와 수용력도 남다른데, 자연스럽게 AI도 다른 사람보다 많이 사용한다. 36%가 매일 AI 챗봇과 대화하고 절반 이상이 AI가 인생을 복잡하게 만들기보단 인생을 더 풍요롭게 만들고 있다고 생각한다.\n옵티마이저의 이런 생각과 행동을 보면서 “쯧쯧쯧” 하는 사람도 많지만, 이런 인생 최적화 철학이 가진 큰 장점이 있다. 옵티마이저는 인생을 최적화해야 한다는 강박관념을 갖고, 이 강박에 의해서 행동도 인생을 최적화하는 방향으로 자연스럽게 조정되는데, 이 사고방식과 행동 방식이 몸에 배면서 이들은 이미 스스로가 인생에서 이기고 있다는 확신을 갖게 된다는 것이다. 그리고 이기고 있다는 확신을 갖게 되면, 정말로 이길 가능성이 높아지긴 한다.\n아직도 인기 있는진 모르겠지만, 한 번 사는 인생 재미있게 살자는 YOLO와 모두가 한 번 죽는 인생 의미 있게 살자는 YODO가 큰 인기몰이를 했었는데, 옵티마이저들은 YOLO와 YODO를 적절하게 혼합한 삶을 지향하는 것 같다.\nMZ 세대를 대상으로 사업하는 창업가는 계속해서 바뀌는 이런 큰 트렌드를 잘 파악해야 하는데, 요샌 취향과 트렌드가 너무 빨리 바뀌어서 사업 환경은 더욱더 어려워지는 것 같다. Good luck.",
+        "dc:creator": "Kihong Bae",
+        "comments": "https://www.thestartupbible.com/2026/08/the-optimizers.html#respond",
+        "content": "요새 투자 분위기는 아직도 AI, 로보틱스, 국방, 피지컬 AI와 같은 딥테크와 하드테크에 집중됐지만, 우린 좋은 창업가들이 좋은 사업을 하고 있으면 분야와 기술관 상관없이 검토하고 투자하고 있다. 그리고 일반인들의 일상과 가장 밀접하게 연관된 분야는 어려운 기술보단 먹고, 마시고, 입고, 놀고, 어울리는 분야라는 점을 우린 매번 강조하고 스스로 상기시키면서 이 분야의 회사와 창업가를 많이 만나고 검토하고 있다.(그렇다고(...)",
+        "contentSnippet": "요새 투자 분위기는 아직도 AI, 로보틱스, 국방, 피지컬 AI와 같은 딥테크와 하드테크에 집중됐지만, 우린 좋은 창업가들이 좋은 사업을 하고 있으면 분야와 기술관 상관없이 검토하고 투자하고 있다. 그리고 일반인들의 일상과 가장 밀접하게 연관된 분야는 어려운 기술보단 먹고, 마시고, 입고, 놀고, 어울리는 분야라는 점을 우린 매번 강조하고 스스로 상기시키면서 이 분야의 회사와 창업가를 많이 만나고 검토하고 있다.(그렇다고(...)",
+        "guid": "https://www.thestartupbible.com/?p=9862",
+        "categories": [
+          "Uncategorized",
+          "consumer",
+          "general",
+          "inspiring",
+          "technology"
+        ],
+        "isoDate": "2026-08-05T21:29:00.000Z"
+      },
+      {
+        "creator": "Kihong Bae",
+        "title": "쓰기와 읽기의 중요성",
+        "link": "https://www.thestartupbible.com/2026/08/the-importance-of-writing-and-reading.html",
+        "pubDate": "Sun, 02 Aug 2026 21:39:00 +0000",
+        "content:encodedSnippet": "며칠 전에 쓴 글에서 공유했듯이 우린 상당히 많은 인바운드 콜드 이메일을 받는다. 스트롱에게 뭔가를 제안하는 업체가 연락하는 경우도 있지만 99%는 우리에게 피칭하는 스타트업 대표의 이메일이다. 내가 이 블로그를 통해서 여러 번 강조했듯이, 누가 어디서 언제 어떤 엄청난 사업을 만들고 있을지 모르기 때문에, 그리고 스트롱 웹사이트에 언제든지 우리에게 피칭해달라고 공개적으로 써놨기 때문에, 우리는 소개 없이 오는 이런 콜드 이메일을 웬만하면 다 읽는다.\n몇 년 전에는 이렇게 연락이 오는 창업가를 나는 되도록 30분~45분 정도 직접 만나서 어떤 분인지 파악했던 적이 있었는데, 이젠 콜드이메일이 오면 보낸 분과 두세 번 정도의 이메일 커뮤니케이션을 한 후에 이분을 만날지 안 만날지 결정을 하고, 이렇게 했을 때 전환율은 20% 미만으로 그렇게 높진 않다.\n왜 나는 10개의 콜드 이메일이 오면 왜 이 중 2명의 창업가만 대면 미팅하고, 나머지 8명은 안 만날까? 결론은 내가 이 블로그를 통해서 자주 강조하는 “쓰기와 읽기”와 연관됐는데, 이에 대해 조금 더 자세히 써보고 싶다.\n나는 한 사람이 살아온 인생, 이 분이 인생을 바라보는 태도, 생각하는 방식, 그리고 IQ와 EQ 등을 판단할 수 있는 가장 좋은 방법은 이 분이 쓴 글을 읽는 것이라고 생각한다. 모든 사람이 작가는 아니라서 작품을 만들진 않지만, 일을 하는 분이라면 누구나 다 이메일을 작성한다. 나에겐 이런 일과 관련해서 작성하는 이메일이 이들이 쓰는 글이다. 이메일 커뮤니케이션을 별로 중요하지 않게 생각하는 분들도 많은데, 업무의 많은 부분을 아직도 이메일로 하는 처지에선 이메일 = 태도, 인격, 사고방식, 논리, IQ, EQ일 정도로 나에겐 매우 중요하다.\n한 사람이 쓴 이메일을 자세히 읽어보면 여기에 정말 많은 게 담겨있어서, 콜드 이메일이 오면 나에겐 1/ 바로 지우기, 2/ 질문하기, 3/ 바로 만나기, 이 세 가지 옵션이 있다.\n일단 나는 이메일 제목을 본다. 논리적이지 못하고 본인이 상대방에게 어떤 말을 전달할지 모르는 창업가는 제목부터 무슨 말인지 잘 이해가 안 가는 경우가 많다. 이런 케이스라면 여기서 바로 삭제다. 제목을 넘어가면 본문을 읽어본다. 역시 개념이 없는 창업가의 이메일 내용은 상당히 거추장스럽고 핵심이 없다. 부사가 많고, 느낌표가 많고, 이 분이 우리에게 하고 싶은 말이 뭔지 이해가 안 간다. 두 번 읽었는데 핵심 파악이 안 되면 여기서 삭제다.\n그다음으론 첨부한 사업계획서를 확인해 본다. 이제 나는 pitch deck을 하도 많이 봐서 내용을 깊게 읽지 않고, 전반적인 흐름만 봐도 이 자료를 만든 사람이 생각하면서 만든 건지, 그냥 여기저기의 내용을 짜깁기 한 건지, 아니면 아예 AI로만 만든 건지 꽤 정확하게 파악할 수 있다. 솔직히 나는 자료를 맹신하는 편은 아니다. 자료만 번지르르하게 만들고 실제 사업은 개판으로 하는 창업가를 하도 많이 알고, 사업은 손가락과 머리로 하는 게 아니라 몸과 손발로 하는 것이라는 걸 더 믿는 편이기 때문이다. 하지만, 모르는 투자자에게 콜드로 연락할 땐, 이 두 명을 잇는 얇은 끈은 이메일과 자료라서 여기에 어느 정도의 시간과 에너지는 투자해야 한다고 생각한다.\n여기까지 통과하면, 그리고 창업가가 쓴 글, 흐름, 내용이 맘에 들면 만나서 이야기하고 싶다고 미팅 요청을 한다.\n자료까지 읽었고, 전반적으로 괜찮지만 당장 만나고 싶을 정도는 아니라면 이메일로 추가 질문을 한다. 그리고 이메일이 서로 왔다 갔다 하는 과정에서도 나는 내 나름의 human intelligence를 기반으로 이 창업가가 어떤 사람인지, 시간을 투자해서 만나볼 만한 분인지 판단하는 과정을 거친다.\n묻는 질문에 투명하고 간단명료하게 답을 할 수 있는 분인지가 가장 중요하다. 물어보는 질문에 대한 답을 장황하고 논지에 어긋나게 제공하는 분이 상당히 많은데, 이메일 커뮤니케이션만 봐도 이 분이 앞으로 직원, 투자자, 고객들과 어떻게 소통할지 그림이 그려진다.\n이메일에 내용은 없는데 부사, 느낌표, 볼드체, 밑줄, 다양한 컬러의 텍스트만 과하면 이 분은 프로페셔널한 소통이 힘든 분일 확률이 높다.\n이메일 답변이 오는 시간도 나는 중요하게 생각한다. 간단한 질문을 했는데, 답변 오는 데 일주일이 걸린다면, 이 분은 전반적으로 빠른 커뮤니케이션이 잘 안되는 분일 확률이 높다. 투자를 꼭 받아야 하는 이 간절한 시점에도 이렇게 느린 커뮤니케이션을 하는데, 실제 투자받은 후엔 얼마나 더 느릴까,,,라는 생각을 하게 된다.\nReply all과 같은 커뮤니케이션의 기본 소양도 매우 중요하게 생각한다. 내가 답변을 할 때 우리 동료분들을 모두 cc 하면, 이후의 소통은 항상 같이하는 게 기본인데, 나에게만 답변이 오고, 내가 다시 답변하면서 우리 팀을 cc 하면, 또 나에게만 답변을 한다. 결국 “항상 reply all 해주세요”라고 콕 집어서 이야기를 해드리는데, 이후에도 이걸 잘 안 하는 분도 많다. 이건 지능에 약간 문제가 있는 분이라고 생각한다.\n이렇게 이메일을 주고받는 과정에서 그 경험이 별로면, 몇 번 소통하다가 결국엔 pass 한다.\n이런 식으로 나는 콜드 이메일을 스크린해서 내 시간과 에너지를 최대한 효율적으로 사용하는 노력을 한다.\n한가지 팁을 주자면, 상대방이 잘 이해할 수 있는 이메일을 작성하고, 내용이 있는 자료를 만들고 싶다면, 가장 좋은 방법은 뭐든지 많이 써보는 것이다. 일기를 매일 쓰던, 블로그를 쓰던, 하여튼 writing을 무조건 많이 해야 한다. 그리고 잘 쓰고 싶다면, 많이 읽어야 한다. 책, 잡지, 신문 등 텍스트를 많이 읽으면 잘 쓸 수밖에 없다. 내가 아는 글을 잘 쓰는 사람들은 100% 모두 책을 정말 많이 읽고, 책을 많이 읽는 사람들은 대부분 글도 잘 쓴다.",
+        "dc:creator": "Kihong Bae",
+        "comments": "https://www.thestartupbible.com/2026/08/the-importance-of-writing-and-reading.html#comments",
+        "content": "며칠 전에 쓴 글에서 공유했듯이 우린 상당히 많은 인바운드 콜드 이메일을 받는다. 스트롱에게 뭔가를 제안하는 업체가 연락하는 경우도 있지만 99%는 우리에게 피칭하는 스타트업 대표의 이메일이다. 내가 이 블로그를 통해서 여러 번 강조했듯이, 누가 어디서 언제 어떤 엄청난 사업을 만들고 있을지 모르기 때문에, 그리고 스트롱 웹사이트에 언제든지 우리에게 피칭해달라고 공개적으로 써놨기 때문에, 우리는 소개 없이 오는(...)",
+        "contentSnippet": "며칠 전에 쓴 글에서 공유했듯이 우린 상당히 많은 인바운드 콜드 이메일을 받는다. 스트롱에게 뭔가를 제안하는 업체가 연락하는 경우도 있지만 99%는 우리에게 피칭하는 스타트업 대표의 이메일이다. 내가 이 블로그를 통해서 여러 번 강조했듯이, 누가 어디서 언제 어떤 엄청난 사업을 만들고 있을지 모르기 때문에, 그리고 스트롱 웹사이트에 언제든지 우리에게 피칭해달라고 공개적으로 써놨기 때문에, 우리는 소개 없이 오는(...)",
+        "guid": "https://www.thestartupbible.com/?p=9857",
+        "categories": [
+          "Uncategorized",
+          "FoundersAtWork",
+          "general",
+          "reading",
+          "Strong",
+          "text",
+          "writing"
+        ],
+        "isoDate": "2026-08-02T21:39:00.000Z"
+      }
+    ]
   },
   {
     "name": "매거진 입맛",
