@@ -2,6 +2,36 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "불안함을 음식으로 다스릴 수 있을까?",
+    "description": "선재스님에게 배운, 나를 귀하게 대접하는 식사",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/findyoursafezone-1a",
+    "pubDate": "Wed, 05 Aug 2026 15:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "Println Debugging Done Right",
+    "description": "The simplest tools are often the most useful, and debugging is a prime example of this. There are many advanced debugging techniques, and while they all have their use cases, println debugging is still the #1 choice, whether you’re doing it manually or with the help of coding agents. Inserting a println statement to inspect […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/08/println-debugging-done-right/",
+    "pubDate": "Thu, 06 Aug 2026 11:30:00 +0000",
+    "creator": "Igor Kulakov",
+    "categories": [
+      "idea",
+      "tips-tricks",
+      "debugging",
+      "intellij-idea",
+      "java"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
     "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
     "description": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations, we showed how modeling the order and timing of user actions (rather than relying on static, manually engineered sparse features) [...]\nRead More...\nThe post From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking appeared first on Engineering at Meta.",
     "reviews": [],
@@ -14,35 +44,6 @@
       "ML Applications",
       "Production Engineering"
     ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "RunPod에 $23.5 태워서DeepSeek‑V4‑Flash‑0731 을560 tok/s 까지 끌어올린 하루",
-    "description": "RunPod에 $23.5 태워서DeepSeek‑V4‑Flash‑0731을560 tok/s까지 끌어올린 하루 - coolspeed",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://coolspeed.wordpress.com/2026/08/09/runpod-deepseek-v4-flash-0731/",
-    "pubDate": "Sat, 08 Aug 2026 17:10:43 +0000",
-    "creator": "coolspeed",
-    "categories": [
-      "AI",
-      "network",
-      "programming",
-      "performance"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 07 Aug 2026 16:01:02 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": []
   },
   {
     "id": 4,
@@ -63,6 +64,18 @@
   {
     "id": 5,
     "imageUrl": "",
+    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 07 Aug 2026 16:01:02 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
     "title": "여름징역살이",
     "description": "한동안 높은 기온으로 밖에 나가면 정말 힘들더라. 오늘 39도 내일도 39도 모레부터는 다소 누그러져 36도... 더워서 힘들땐 \"여름징역살이\"라는 신영복 교수의 제수에게 보내는 엽서 내용이 생각나. 얼마나 힘들었을까..\n39도면 단순히 \"덥다\"는 수준을 넘어 생존을 걱정해야 하는 기온입니다. 특히 습도까지 높으면 잠깐 밖에 나가도 체력이 급격히 떨어지고, 신장 질환이 있거나 투석을 받는 분들은 더욱 힘들 수 있습니다.\n말씀하신 \"여름징역살이\"라는 표현이 참 인상적입니다. 신영복 교수가 수감 중 쓴 편지에는 계절의 고통이 자주 등장하는데, 그중 여름은 특히 견디기 어려웠던 것으로 알려져 있습니다.\n그 표현에는 단순히 \"덥다\"는 의미를 넘어,\n도망갈 수 없는 공간,\n끝이 보이지 않는 시간,\n땀을 식힐 자유조차 없는 답답함\n이 모두가 담겨 있습니다. 그래서 '여름'이 아니라 '여름이라는 형벌'처럼 느껴졌던 것이겠지요.\n지금 같은 폭염을 겪다 보면 그 표현이 자연스럽게 떠오르는 것도 이해가 됩니다. 우리는 에어컨이 있는 곳으로 피할 수 있지만, 교도소에서는 그런 선택 자체가 없었을 테니까요.\n예전에는 폭염이 며칠 정도였다면, 요즘은 39도 안팎의 날씨가 이어지면서 정말 \"여름을 버틴다\"는 표현이 어울릴 정도가 되었습니다. 그래도 다행히 모레부터 36도 정도로 내려간다면 지금보다는 조금 나아질 가능성이 있습니다. 물론 36도도 여전히 매우 더운 날씨이니 한낮에는 가능한 한 외출을 줄이는 것이 좋습니다.\n신영복 교수의 글은 고통을 과장해서 쓰기보다 담담하게 기록하는 경우가 많아서, 오히려 '여름징역살이'라는 짧은 표현 하나가 당시의 답답함과 고통을 더 크게 전해주는 것 같습니다.\n \n오히려 그 담담한 글에서 묻어나오는 처절함에서 감동을 주었지.\n맞습니다. 그 점이 신영복 교수 글의 힘이라고 생각합니다.\n그분은 고통을 크게 외치거나 감정을 격하게 드러내기보다, 사실을 담담하게 적는 경우가 많았습니다. 그런데 오히려 그 절제가 독자에게는 더 큰 울림으로 다가오죠. 읽는 사람은 과장된 표현이 아니라 숨기려 해도 스며 나오는 고통을 느끼게 됩니다.\n문학에서도 흔히 \"절제된 표현이 더 큰 감동을 준다\"고 하는데, 신영복 교수의 글이 그런 예에 가깝습니다. \"여름징역살이\"라는 표현도 거창한 수식 없이, 그 한마디만으로 독자가 좁고 답답한 감방의 열기와 긴 시간을 상상하게 만듭니다.\n아마 그 글을 읽은 뒤라서 지금 같은 폭염을 겪을 때 자연스럽게 떠오르는 것일 겁니다. 우리가 잠시 더위를 견디는 것만으로도 지치는데, 그분은 끝이 보이지 않는 시간 속에서 그 여름을 보내야 했으니까요.\n그래서 감동은 '비극적인 사건' 자체에서 오는 것이 아니라, 고통을 견디는 사람의 태도에서 오는 경우가 많습니다. 신영복 교수의 글은 바로 그 태도를 담담하게 보여주기 때문에, 읽고 나면 오래 마음에 남는 것 같습니다.\n \n절제도 너무도 절제돼서 그 글을 제수나 형수에게 주로 전달하는데 얼마나 절제됐을까. 그걸 읽는 가족은 더 힘들지 않았을까..\n그럴 가능성이 큽니다.\n수감 중인 사람이 가족에게 보내는 편지는 검열을 거치기도 하고, 무엇보다 가족을 안심시키고 싶은 마음이 있었을 것입니다. 그래서 자신의 고통을 있는 그대로 쏟아내기보다 많이 덜어냈을 가능성이 있습니다.\n그런데 아이러니하게도, 그런 절제는 오히려 가족에게 더 많은 것을 상상하게 만들기도 합니다.\n예를 들어 편지에 \"오늘은 더웠습니다.\"라고만 적혀 있어도, 가족은 그 한 문장 뒤에 있는 현실을 떠올리게 됩니다. 얼마나 더웠기에 그 말을 했을까. 얼마나 참기 힘들었으면 평소 담담한 사람이 그 한마디를 적었을까. 하는 생각 말입니다.\n그래서 절제된 글은 때로는 독자에게 더 큰 여백을 남깁니다. 그 여백을 채우는 것은 읽는 사람의 마음이고, 특히 가족이라면 그 마음은 더욱 무거웠을 것입니다.\n신영복 교수의 글을 읽다 보면 자주 느끼는 것이 있습니다. 고통을 전면에 내세우기보다 자신보다 편지를 읽을 사람을 먼저 배려하는 시선이 있다는 점입니다. 그래서 글의 중심이 \"내가 얼마나 힘들다\"가 아니라 \"당신은 너무 걱정하지 말라\"는 쪽으로 기울어 있습니다.\n그런 배려를 읽는 가족은 오히려 더 아팠을 수도 있습니다. 걱정하지 말라는 말이, 실은 걱정할 일이 많다는 것을 알고 있기 때문입니다.\n그래서 신영복 교수의 편지는 단순한 수감기가 아니라, 고통을 견디는 사람과 그를 기다리는 가족이 함께 나눈 침묵의 대화처럼 읽히는 면이 있습니다. 말하지 않은 것이 많을수록, 그 침묵의 무게는 오히려 더 크게 다가오는 것 같습니다.\n \n\"나는 걷고싶다\"라는 엽서의 내용도 참 마을을 울려. 누군가 만들어놓은 눈사람에 그런 말을 숱으로 써놓았는데 옥에 갖힌 죄수로서의 마음이 확 다가오잖아.\n그 장면은 참 오래 남습니다.\n눈사람에 적힌 \"나는 걷고 싶다.\"\n평범한 사람이 읽으면 '산책하고 싶나 보다' 정도로 지나칠 수도 있는 문장입니다. 그런데 그 말을 감옥에 갇힌 사람이 했다는 사실을 아는 순간, 문장의 무게가 완전히 달라집니다.\n걷는다는 것은 사실 가장 평범한 자유입니다. 우리는 아무 생각 없이 문밖으로 나가 걷고, 골목을 돌고, 공원을 한 바퀴 돕니다. 그런데 수감된 사람에게는 그 너무나 당연한 행위가 가장 큰 소망이 되는 것입니다.\n그래서 \"나는 걷고 싶다.\"는 단순히 이동하고 싶다는 말이 아니라,\n자유롭게 발을 내딛고 싶다.\n계절을 몸으로 느끼고 싶다.\n내가 가고 싶은 방향으로 걸어가 보고 싶다.\n그 모든 의미가 응축된 한 문장으로 읽히게 됩니다.\n특히 그 말을 눈사람에 써 놓았다는 설정이 더 마음을 움직입니다. 눈사람은 겨울이 지나면 녹아 사라지는 존재입니다. 잠시 존재했다가 없어지는 눈사람 위에 \"나는 걷고 싶다.\"라는 글을 남겼다는 것은, 잠깐의 흔적에 자신의 오랜 소망을 겹쳐 놓은 것처럼 느껴집니다.\n신영복 교수의 글은 이런 힘이 있습니다. 거창한 철학을 말하기 전에, 걷고 싶다, 덥다, 눈이 왔다 같은 아주 일상적인 말을 씁니다. 그런데 그 일상이 박탈된 사람의 입에서 나오기 때문에 독자는 비로소 그 일상이 얼마나 소중한 것이었는지를 깨닫게 됩니다.\n그래서 그의 글을 읽고 나면 '자유'라는 단어보다 '걷고 싶다'라는 한 문장이 더 오래 기억에 남는 것 같습니다. 추상적인 개념보다 구체적인 일상의 결핍이 인간의 마음을 더 깊이 흔들기 때문이겠지요.\n \n말미에 편지와 돈 잘 받았습니다. 라는 내용이 있는 것으로 봐서는 답장하는 분의 편지가 있었는데 둘간의 대화를 같이 보면 재미있을 것 같지만 여운을 남겨야겠지.\n저도 그 생각을 해본 적이 있습니다.\n엽서 끝에 \"편지와 돈 잘 받았습니다.\" 같은 짧은 인사가 붙어 있으면, 우리는 자연스럽게 보이지 않는 다른 편지를 상상하게 됩니다. 신영복 교수의 글만 남아 있지만, 사실은 누군가의 질문에 대한 답이고, 누군가의 안부에 대한 응답이었던 것이지요.\n만약 가족이 보낸 편지까지 모두 남아 있었다면, 당시의 심정을 더 구체적으로 이해할 수 있었을 것입니다. 가족이 어떤 걱정을 했고, 어떤 소식을 전했으며, 그에 대해 어떻게 답했는지가 드러났을 테니까요.\n하지만 한편으로는 말씀하신 것처럼 여운이 사라질 수도 있습니다.\n독자는 답장을 볼 수 없기 때문에 빈칸을 상상하게 됩니다. \"어떤 편지를 받았기에 이런 답을 했을까?\", \"얼마나 반가웠으면 끝에 꼭 받은 사실을 적었을까?\" 하고 생각하게 되죠. 그 여백이 작품의 일부가 됩니다.\n편지 문학의 묘미가 바로 거기에 있는 것 같습니다. 우리가 읽는 것은 한 사람의 독백이 아니라 대화의 절반입니다. 나머지 절반은 사라졌지만, 그 빈자리가 오히려 상상력을 불러일으킵니다.\n또 당시에는 편지 한 통, 송금된 얼마간의 돈이 지금과는 비교할 수 없을 만큼 큰 의미를 가졌습니다. \"편지와 돈 잘 받았습니다.\"라는 한 줄에는 단순한 수령 확인이 아니라, 밖에서 자신을 잊지 않고 있다는 사실에 대한 안도감과 감사도 담겨 있었을 것입니다.\n그래서 신영복 교수의 엽서를 읽다 보면, 글을 쓴 사람뿐 아니라 보이지 않는 편지를 써 내려간 가족의 마음까지 함께 읽게 되는 느낌이 듭니다. 아마 그 보이지 않는 절반이 끝내 공개되지 않았기 때문에, 그의 엽서는 지금도 독자마다 저마다의 상상을 품게 하는 힘을 갖고 있는 것 같습니다.",
     "reviews": [],
@@ -73,40 +86,71 @@
     "categories": []
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark",
-    "description": "Hi everyone! July gave me plenty to celebrate: Kotlin turned 15, got its first public benchmark for AI coding agents, became available in BlueJ, and shipped its 2.4.10 release. Developers can also demonstrate their skills at RevenueCat Shipaton 2026 by building a Kotlin Multiplatform app and competing for the Ship Kotlin Everywhere Award. Meanwhile, X […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/08/kodees-kotlin-roundup-birthday-wishes-shipaton-2026-and-the-new-kotlin-ai-benchmark/",
-    "pubDate": "Tue, 04 Aug 2026 08:14:27 +0000",
-    "creator": "Kodee",
-    "categories": [
-      "kotlin",
-      "news",
-      "kotlin-roundup"
-    ]
-  },
-  {
     "id": 7,
     "imageUrl": "",
-    "title": "Figma Connect for WebStorm: Stage One of a Better Design-to-Code Experience",
-    "description": "Where time actually goes in design-to-code Every design implementation starts the same way: find the Figma tab, find the right frame, screenshot it, paste it somewhere, switch back to the terminal. By the time you write the first line of code, you’ve already done five minutes of busywork, and you’ll do it again when you […]",
+    "title": "단점 대신 약점",
+    "description": "최근, 장기간의 이직 준비에 지친 분과 이야기를 나눴다.\n면접 자리에만 가면 말을 제대로 전달하지 못하고, 대화가 수월하게 이어지지 않는다는 점이 자기 단점이라고 이야기하시길래 그건 단점이 아니라 약점일 뿐이라고 말씀드렸다.\n요즘 스스로 부족한 점을 발견할 때마다, 일부러 단점이라고 말하지 않으려고 한다.\n습관처럼 \"이게 내 단점이지\"라는 말이 올라오면, 이를 꽉 깨물고 \"이건 내 약점이야\"라고 생각한다.\n영어로 미팅할 수도 없고,\n고객이 원하는 것을 포착하는 감각도 떨어지고,\n돈을 버는 감각도 뛰어나지 않다.\n(요즘은 코딩도 너무 오래 쉬었다.)\n예전에는 이런 것들을 모두 내 \"단점\"이라고 생각했다.\n근데 \"영어를 못하는 게 내 단점이야\"라고 말하면, 영어를 못하는 현재의 상태가 마치 나라는 사람의 결함처럼 느껴졌다.\n말은 능력 하나를 설명했을 뿐인데, 듣고 있는 나는 내 전체를 평가받은 것처럼 받아들인다.\n반면에 \"영어는 지금 내 약점이야\"라고 말하면 조금 달랐다.\n지금은 영어가 약하다.\n그러면 연습하면 된다.\n다른 사람의 도움을 받을 수도 있고, 번역 도구를 쓸 수도 있고, 영어가 덜 필요한 다른 능력으로 보완할 수도 있다.\n혹은 지금 내 삶에서 중요하지 않다면 우선순위를 뒤로 미룰 수도 있다.\n어느 쪽이든 선택지가 생긴다.\n단점이라고 부를 때는 자책부터 했는데,\n약점이라고 부르면 해야 할 것들을 떠올리게 된다.\n물론 단점이라는 말을 아예 없애려는 것은 아니다.\n나 자신이나 다른 사람을 해치는 태도는 여전히 단점이라고 생각한다.\n무례함.\n폭력적인 성향.\n잘못을 인정하지 않는 태도.\n다른 사람을 반복해서 상처 입히면서도 대수롭지 않게 여기는 태도.\n이런 건 \"원래 내가 좀 그래\"라고 받아들일 일이 아니다.\n반성하고 고쳐야 한다.\n(내가 그렇다는 건 아니고...)\n하지만 아직 잘하지 못하는 능력까지 나의 흠으로 만들고 싶지는 않다.\n영어를 못하는 것도,\n고객이 원하는 것을 포착하지 못하는 것도,\n돈에 대한 감각이 부족한 것도\n나라는 사람의 결함은 아니다.\n그것은 지금의 내 약점이다.\n키워 갈 수도 있고, 때로는 그대로 안고 살아갈 수도 있는 것들이다.\n사전에서 두 단어를 어떻게 구분하는지는 여기서 크게 중요하지 않다.\n이것은 내가 나를 대하기 위해 만든 언어 규칙에 가깝다.\n나는 자주 쓰는 단어가 결국 내 생각을 지배한다고 믿는다.\n부족함을 계속 단점으로 부르면, 나는 나를 결함이 있는 사람으로 보게 될 것 같다.\n반대로 약점이라고 부르면, 부족함을 외면하지 않으면서도 그 자리에 가능성을 남겨둘 수 있다.\n말만 바꾼다고 영어가 늘지는 않는다.\n그분이 다음 면접에서 갑자기 말을 잘하게 되는 것도 아니다.\n그래도 말이 바뀌면, 그 부족함을 대하는 태도가 바뀐다.\n\"나는 왜 이것도 못하지?\"에서\n\"이건 지금 내 약점이구나. 어떻게 더 나아질 수 있을까?\"로.\n그래서 요즘은 이를 꽉 깨물고라도 고쳐 부르려고 한다.\n\"이게 내 단점이야\" 대신, \"이건 지금 내 약점이야\".\n계속 그렇게 부르다 보면, 그 부족함들은 정말로 내가 키워 갈 수 있는 영역이 될 것이라고 믿는다.\n내가 나를 부르는 말이, 내가 나를 대하는 방식이 될 테니까.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/webstorm/2026/08/figma-connect-webstorm/",
-    "pubDate": "Thu, 06 Aug 2026 10:43:04 +0000",
-    "creator": "Valeriya Masyachenko",
+    "link": "https://jojoldu.tistory.com/883",
+    "pubDate": "Sat, 8 Aug 2026 10:45:48 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "news",
-      "releases",
-      "design-to-code",
-      "figma"
+      "생각정리",
+      "단점",
+      "면접",
+      "약점",
+      "에세이",
+      "이직",
+      "회고"
     ]
   },
   {
     "id": 8,
+    "imageUrl": "",
+    "title": "당신이 잠든 사이, 24시간 은행을 지키는 사람들 ",
+    "description": "토스뱅크 ‘사이버보안 엔지니어 부트캠프’ 2기 모집 (~8/17)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/tossbank-cyber-security-bootscamp",
+    "pubDate": "Mon, 03 Aug 2026 08:15:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "CVE-2026-63077: Additional Guidance Following Reports of Active Exploitation",
+    "description": "This post is a follow-up to our July 27, 2026, announcement about CVE-2026-63077. Summary What has changed since our initial announcement Since our initial announcement on July 27, 2026, we have received reports of active exploitation, as well as attempted exploitation, targeting unpatched TeamCity servers. Before these reports were received, we had already investigated the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/08/cve-2026-63077-update/",
+    "pubDate": "Fri, 07 Aug 2026 13:22:49 +0000",
+    "creator": "Daniel Gallo",
+    "categories": [
+      "news",
+      "security"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Learn pandas the Right Way: A Python Library Course That Doesn’t Waste Your Time",
+    "description": "Let’s talk about the elephant in every data scientist’s room (or in this case, the panda). You’ve probably touched pandas before, even if nobody introduced you two properly. Ever opened a CSV file in Python and tried to make sense of it? Sorted a column, dropped some junk rows, and prayed a merge would work? […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/education/2026/08/03/mastering-pandas-python-course/",
+    "pubDate": "Mon, 03 Aug 2026 14:07:09 +0000",
+    "creator": "Sargis Avagyan",
+    "categories": [
+      "jetbrains-academy",
+      "learning-courses",
+      "pycharm",
+      "python"
+    ]
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "JetBrains Academy – July Digest",
     "description": "Somewhere between the fifteenth open tab and the third iced coffee, it hit me. Maybe we don’t hate meetings. We just hate the ones where nobody has anything to say. Welcome back to another mandatory meeting. This one’s got range: Kotlin just turned 15, IntelliJ IDEA Conf dropped a lineup worth clearing your calendar for, […]",
@@ -122,107 +166,73 @@
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Qodana User Spotlight: Meet Fullstack Software Engineer Drew Penrod",
-    "description": "Drew Penrod is an experienced fullstack engineer at a company that makes phones designed for kids using Samsung Galaxy hardware running custom software. He and his team develop and maintain an Android-based platform that gives parents control over apps, contacts, screen time, messaging, and browsing through a web-based interface. As the company and its engineering […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/08/qodana-user-spotlight-meet-fullstack-software-engineer-drew-penrod/",
-    "pubDate": "Wed, 05 Aug 2026 08:17:16 +0000",
-    "creator": "Kerry Beetge",
-    "categories": [
-      "android"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "[MULTI] 팔콤 제3의 가능성을 즐기다, 교토 재너두 -앵화환무-",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2480",
-    "pubDate": "Mon, 03 Aug 2026 09:00:00 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit",
-    "description": "If you’ve been looking for a practical way to build Azure skills, Cloud Academy (a QA company) gives Visual Studio subscribers hands-on learning that fits into busy schedules.  Whether you’re new to Azure, expanding your cloud expertise, working towards certifications or preparing for more advanced projects, this benefit helps you learn by doing.  What you’ll find in Cloud Academy  The Cloud Academy benefit gives Visual Studio subscribers a flexible […]\nThe post Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit/",
-    "pubDate": "Tue, 04 Aug 2026 14:00:38 +0000",
-    "creator": "James Rempt",
-    "categories": [
-      "Visual Studio Subscriptions"
-    ]
-  },
-  {
     "id": 12,
     "imageUrl": "",
-    "title": "세이노의 가르침 / 성공하려면 이거 보라고 함 / 자기개발",
-    "description": "자기개발 책이라면 이거 하나만 보라고 추천해줌\n영상: https://www.youtube.com/shorts/OM0YJJYj1PA\n\n\n\n \n \n \n \n내용 요약\n영상: https://www.youtube.com/watch?v=m-Wu_JPl41Q",
+    "title": "D3D12리소스 수명관리",
+    "description": "2주전 발견한 gpu크래시 버그를 잡으면서 만든 자료들을 가지고 오랫만에 기술방송을 진행했습니다. 4K녹화본입니다. D3D122리소스 수명관리https://youtu.be/Sew_XGPAVM4",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1682",
-    "pubDate": "Fri, 7 Aug 2026 23:29:58 +0900",
-    "creator": "SID-NFT",
+    "link": "https://megayuchi.com/2026/08/09/d3d122%eb%a6%ac%ec%86%8c%ec%8a%a4-%ec%88%98%eb%aa%85%ea%b4%80%eb%a6%ac/",
+    "pubDate": "Sat, 08 Aug 2026 17:19:24 +0000",
+    "creator": "megayuchi",
     "categories": [
-      "유튜브",
-      "도서",
-      "자기개발"
+      "Development",
+      "D3D12",
+      "DirectX12",
+      "DX12",
+      "Game Development",
+      "Game Engine Development",
+      "GPU",
+      "Voxel Horizon"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "쓰기와 읽기의 중요성",
-    "description": "며칠 전에 쓴 글에서 공유했듯이 우린 상당히 많은 인바운드 콜드 이메일을 받는다. 스트롱에게 뭔가를 제안하는 업체가 연락하는 경우도 있지만 99%는 우리에게 피칭하는 스타트업 대표의 이메일이다. 내가 이 블로그를 통해서 여러 번 강조했듯이, 누가 어디서 언제 어떤 엄청난 사업을 만들고 있을지 모르기 때문에, 그리고 스트롱 웹사이트에 언제든지 우리에게 피칭해달라고 공개적으로 써놨기 때문에, 우리는 소개 없이 오는(...)",
+    "title": "Logstash 권한 - 3rd",
+    "description": "간만에 로그스태시. root 실행을 아예 막아놨네? path.settings 옵션 없으면 logstasy.yml도 찾지 못하고(..)\n\n\n\n\nlogstash 계정 실행은 문제 없다.\n\n\n\n\n그런데 root 계정 실행을 먼저 해버리면 이후 logstash 계정으로 실행되는 서비스가 무한 재기동 상태에 빠짐.\n\n\n\n\nroot로 먼저 실행해버리면 데이터 경로가 root 소유로 바뀌면서 logstash 계정이 접근을 못하는구나. 전엔 root 계정으로 파이프라인 테스트 후 logstash 계정으로 서비스 실행하는 데 아무 문제가 없었는데(..)\n\n\n\n\n\n소유권 변경해주면 잘 동작한다. 앞으론 root 계정 선 테스트 금지!\n\n\n\n관련 글\n\nLogstash 권한 - 2nd\nLogstash 권한\nLogstash 휴먼 버그\nLogstash의 데이터 처리\nLogstash의 줄바꿈 문자\n윈도우 Logstash 파이프라인\nLogstash의 escaped character\nLogstash 연동 에러(Limit of total fields)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/08/the-importance-of-writing-and-reading.html",
-    "pubDate": "Sun, 02 Aug 2026 21:39:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "general",
-      "reading",
-      "Strong",
-      "text",
-      "writing"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "불안함을 음식으로 다스릴 수 있을까?",
-    "description": "선재스님에게 배운, 나를 귀하게 대접하는 식사",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/findyoursafezone-1a",
-    "pubDate": "Wed, 05 Aug 2026 15:00:00 GMT",
+    "link": "https://kangmyounghun.blogspot.com/2026/08/logstash-3rd.html",
+    "pubDate": "2026-08-09T10:14:59.383Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 15,
+    "id": 14,
     "imageUrl": "",
-    "title": "IntelliJ IDEA Goes LSP: Java and Kotlin Intelligence Comes to VS Code, Cursor, and Agentic Flows",
-    "description": "It’s no secret that agentic development is changing how developers build software. As agents take on more and more of the implementation work, developers spend less and less time manually editing code.  For this manual work, they might only need a basic, narrow set of features that IDEs provide, like navigating to declarations, finding references, […]",
+    "title": "Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark",
+    "description": "Hi everyone! July gave me plenty to celebrate: Kotlin turned 15, got its first public benchmark for AI coding agents, became available in BlueJ, and shipped its 2.4.10 release. Developers can also demonstrate their skills at RevenueCat Shipaton 2026 by building a Kotlin Multiplatform app and competing for the Ship Kotlin Everywhere Award. Meanwhile, X […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/",
-    "pubDate": "Tue, 04 Aug 2026 10:48:16 +0000",
-    "creator": "Marco Behler",
+    "link": "https://blog.jetbrains.com/kotlin/2026/08/kodees-kotlin-roundup-birthday-wishes-shipaton-2026-and-the-new-kotlin-ai-benchmark/",
+    "pubDate": "Tue, 04 Aug 2026 08:14:27 +0000",
+    "creator": "Kodee",
     "categories": [
-      "news"
+      "kotlin",
+      "news",
+      "kotlin-roundup"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "D3D12 리소스 수명관리 + 디버깅 스토리",
+    "description": "렌더링 중 GPU내부에서 크래시를 유발하는 버그를 찾아서 수정했다. 재현이 쉽지 않기 때문에 요 몇 개월 사이에 간헐적으로 나오던 GPU크래시의 원인이라고 단정지을 수는 없지만, 이것까지 해서 적어도 내가 인지하고 있는 GPU크래시 유발 가능한 버그는 다 잡았다. D3D12는 리소스가 gpu에서 사용중인지 아닌지를 판별하지 않고 자동 관리도 하지 않기 때문에 GPU에 명령을 제출하고 나서 작업이 완료됐는지를 확인하지 않고 … More D3D12 리소스 수명관리 + 디버깅 스토리",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://megayuchi.com/2026/08/09/d3d12-%eb%a6%ac%ec%86%8c%ec%8a%a4-%ec%88%98%eb%aa%85%ea%b4%80%eb%a6%ac-%eb%94%94%eb%b2%84%ea%b9%85-%ec%8a%a4%ed%86%a0%eb%a6%ac/",
+    "pubDate": "Sun, 09 Aug 2026 08:59:55 +0000",
+    "creator": "megayuchi",
+    "categories": [
+      "Development",
+      "D3D12",
+      "DirectX12",
+      "DX12",
+      "Game Development",
+      "Game Engine Development",
+      "GPU",
+      "Voxel Horizon"
     ]
   }
 ]
