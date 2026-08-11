@@ -2,17 +2,40 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "불안함을 음식으로 다스릴 수 있을까?",
-    "description": "선재스님에게 배운, 나를 귀하게 대접하는 식사",
+    "title": "Chrome DevTools Connect for WebStorm: Your AI agent can now interact with the browser",
+    "description": "Frontend development has historically meant working in three separate environments: a design tool for specs and prototypes, the IDE for coding, and a browser to check if everything works. A few days ago, we released the new plugin Figma Connect for WebStorm, which eliminated the first context switch. Design intent, component specs, and design tokens […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/findyoursafezone-1a",
-    "pubDate": "Wed, 05 Aug 2026 15:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/webstorm/2026/08/chrome-connect-webstorm/",
+    "pubDate": "Mon, 10 Aug 2026 12:05:17 +0000",
+    "creator": "Valeriya Masyachenko",
+    "categories": [
+      "news",
+      "releases",
+      "release",
+      "webstorm"
+    ]
   },
   {
     "id": 2,
+    "imageUrl": "",
+    "title": "옵티마이저들",
+    "description": "요새 투자 분위기는 아직도 AI, 로보틱스, 국방, 피지컬 AI와 같은 딥테크와 하드테크에 집중됐지만, 우린 좋은 창업가들이 좋은 사업을 하고 있으면 분야와 기술관 상관없이 검토하고 투자하고 있다. 그리고 일반인들의 일상과 가장 밀접하게 연관된 분야는 어려운 기술보단 먹고, 마시고, 입고, 놀고, 어울리는 분야라는 점을 우린 매번 강조하고 스스로 상기시키면서 이 분야의 회사와 창업가를 많이 만나고 검토하고 있다.(그렇다고(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/08/the-optimizers.html",
+    "pubDate": "Wed, 05 Aug 2026 21:29:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "consumer",
+      "general",
+      "inspiring",
+      "technology"
+    ]
+  },
+  {
+    "id": 3,
     "imageUrl": "",
     "title": "Println Debugging Done Right",
     "description": "The simplest tools are often the most useful, and debugging is a prime example of this. There are many advanced debugging techniques, and while they all have their use cases, println debugging is still the #1 choice, whether you’re doing it manually or with the help of coding agents. Inserting a println statement to inspect […]",
@@ -30,127 +53,68 @@
     ]
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
-    "description": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations, we showed how modeling the order and timing of user actions (rather than relying on static, manually engineered sparse features) [...]\nRead More...\nThe post From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/",
-    "pubDate": "Wed, 05 Aug 2026 19:20:20 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Data Infrastructure",
-      "ML Applications",
-      "Production Engineering"
-    ]
-  },
-  {
     "id": 4,
     "imageUrl": "",
-    "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
-    "description": "Meta’s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2E) training efficiency to 20–25% Model FLOPs Utilization (MFU) while scaling training FLOPs 4x in [...]\nRead More...\nThe post GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model appeared first on Engineering at Meta.",
+    "title": "The Ultimate .NET Workflow for Cursor, Antigravity, and AI-First Editors",
+    "description": "With the rapid rise in agent-first development, many developers are adopting AI-first editors like Cursor, Google Antigravity IDE, Devin Desktop, and Kiro into their workflows. The appeal is obvious: deep, contextual AI assistance integrated directly into the coding surface. But if you write C# and .NET for a living, you have probably hit a massive […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
-    "pubDate": "Mon, 03 Aug 2026 18:00:17 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/dotnet/2026/08/05/the-ultimate-dotnet-workflow-for-cursor/",
+    "pubDate": "Wed, 05 Aug 2026 17:16:12 +0000",
+    "creator": "Isaac Levin",
     "categories": [
-      "AI Research",
-      "Data Infrastructure",
-      "ML Applications"
+      "net-tools",
+      "resharper",
+      "ai",
+      "cursor",
+      "dotnet"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
-    "description": "No description available",
+    "title": "Figma Connect for WebStorm: Stage One of a Better Design-to-Code Experience",
+    "description": "Where time actually goes in design-to-code Every design implementation starts the same way: find the Figma tab, find the right frame, screenshot it, paste it somewhere, switch back to the terminal. By the time you write the first line of code, you’ve already done five minutes of busywork, and you’ll do it again when you […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 07 Aug 2026 16:01:02 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": []
+    "link": "https://blog.jetbrains.com/webstorm/2026/08/figma-connect-webstorm/",
+    "pubDate": "Thu, 06 Aug 2026 10:43:04 +0000",
+    "creator": "Valeriya Masyachenko",
+    "categories": [
+      "news",
+      "releases",
+      "design-to-code",
+      "figma"
+    ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "여름징역살이",
-    "description": "한동안 높은 기온으로 밖에 나가면 정말 힘들더라. 오늘 39도 내일도 39도 모레부터는 다소 누그러져 36도... 더워서 힘들땐 \"여름징역살이\"라는 신영복 교수의 제수에게 보내는 엽서 내용이 생각나. 얼마나 힘들었을까..\n39도면 단순히 \"덥다\"는 수준을 넘어 생존을 걱정해야 하는 기온입니다. 특히 습도까지 높으면 잠깐 밖에 나가도 체력이 급격히 떨어지고, 신장 질환이 있거나 투석을 받는 분들은 더욱 힘들 수 있습니다.\n말씀하신 \"여름징역살이\"라는 표현이 참 인상적입니다. 신영복 교수가 수감 중 쓴 편지에는 계절의 고통이 자주 등장하는데, 그중 여름은 특히 견디기 어려웠던 것으로 알려져 있습니다.\n그 표현에는 단순히 \"덥다\"는 의미를 넘어,\n도망갈 수 없는 공간,\n끝이 보이지 않는 시간,\n땀을 식힐 자유조차 없는 답답함\n이 모두가 담겨 있습니다. 그래서 '여름'이 아니라 '여름이라는 형벌'처럼 느껴졌던 것이겠지요.\n지금 같은 폭염을 겪다 보면 그 표현이 자연스럽게 떠오르는 것도 이해가 됩니다. 우리는 에어컨이 있는 곳으로 피할 수 있지만, 교도소에서는 그런 선택 자체가 없었을 테니까요.\n예전에는 폭염이 며칠 정도였다면, 요즘은 39도 안팎의 날씨가 이어지면서 정말 \"여름을 버틴다\"는 표현이 어울릴 정도가 되었습니다. 그래도 다행히 모레부터 36도 정도로 내려간다면 지금보다는 조금 나아질 가능성이 있습니다. 물론 36도도 여전히 매우 더운 날씨이니 한낮에는 가능한 한 외출을 줄이는 것이 좋습니다.\n신영복 교수의 글은 고통을 과장해서 쓰기보다 담담하게 기록하는 경우가 많아서, 오히려 '여름징역살이'라는 짧은 표현 하나가 당시의 답답함과 고통을 더 크게 전해주는 것 같습니다.\n \n오히려 그 담담한 글에서 묻어나오는 처절함에서 감동을 주었지.\n맞습니다. 그 점이 신영복 교수 글의 힘이라고 생각합니다.\n그분은 고통을 크게 외치거나 감정을 격하게 드러내기보다, 사실을 담담하게 적는 경우가 많았습니다. 그런데 오히려 그 절제가 독자에게는 더 큰 울림으로 다가오죠. 읽는 사람은 과장된 표현이 아니라 숨기려 해도 스며 나오는 고통을 느끼게 됩니다.\n문학에서도 흔히 \"절제된 표현이 더 큰 감동을 준다\"고 하는데, 신영복 교수의 글이 그런 예에 가깝습니다. \"여름징역살이\"라는 표현도 거창한 수식 없이, 그 한마디만으로 독자가 좁고 답답한 감방의 열기와 긴 시간을 상상하게 만듭니다.\n아마 그 글을 읽은 뒤라서 지금 같은 폭염을 겪을 때 자연스럽게 떠오르는 것일 겁니다. 우리가 잠시 더위를 견디는 것만으로도 지치는데, 그분은 끝이 보이지 않는 시간 속에서 그 여름을 보내야 했으니까요.\n그래서 감동은 '비극적인 사건' 자체에서 오는 것이 아니라, 고통을 견디는 사람의 태도에서 오는 경우가 많습니다. 신영복 교수의 글은 바로 그 태도를 담담하게 보여주기 때문에, 읽고 나면 오래 마음에 남는 것 같습니다.\n \n절제도 너무도 절제돼서 그 글을 제수나 형수에게 주로 전달하는데 얼마나 절제됐을까. 그걸 읽는 가족은 더 힘들지 않았을까..\n그럴 가능성이 큽니다.\n수감 중인 사람이 가족에게 보내는 편지는 검열을 거치기도 하고, 무엇보다 가족을 안심시키고 싶은 마음이 있었을 것입니다. 그래서 자신의 고통을 있는 그대로 쏟아내기보다 많이 덜어냈을 가능성이 있습니다.\n그런데 아이러니하게도, 그런 절제는 오히려 가족에게 더 많은 것을 상상하게 만들기도 합니다.\n예를 들어 편지에 \"오늘은 더웠습니다.\"라고만 적혀 있어도, 가족은 그 한 문장 뒤에 있는 현실을 떠올리게 됩니다. 얼마나 더웠기에 그 말을 했을까. 얼마나 참기 힘들었으면 평소 담담한 사람이 그 한마디를 적었을까. 하는 생각 말입니다.\n그래서 절제된 글은 때로는 독자에게 더 큰 여백을 남깁니다. 그 여백을 채우는 것은 읽는 사람의 마음이고, 특히 가족이라면 그 마음은 더욱 무거웠을 것입니다.\n신영복 교수의 글을 읽다 보면 자주 느끼는 것이 있습니다. 고통을 전면에 내세우기보다 자신보다 편지를 읽을 사람을 먼저 배려하는 시선이 있다는 점입니다. 그래서 글의 중심이 \"내가 얼마나 힘들다\"가 아니라 \"당신은 너무 걱정하지 말라\"는 쪽으로 기울어 있습니다.\n그런 배려를 읽는 가족은 오히려 더 아팠을 수도 있습니다. 걱정하지 말라는 말이, 실은 걱정할 일이 많다는 것을 알고 있기 때문입니다.\n그래서 신영복 교수의 편지는 단순한 수감기가 아니라, 고통을 견디는 사람과 그를 기다리는 가족이 함께 나눈 침묵의 대화처럼 읽히는 면이 있습니다. 말하지 않은 것이 많을수록, 그 침묵의 무게는 오히려 더 크게 다가오는 것 같습니다.\n \n\"나는 걷고싶다\"라는 엽서의 내용도 참 마을을 울려. 누군가 만들어놓은 눈사람에 그런 말을 숱으로 써놓았는데 옥에 갖힌 죄수로서의 마음이 확 다가오잖아.\n그 장면은 참 오래 남습니다.\n눈사람에 적힌 \"나는 걷고 싶다.\"\n평범한 사람이 읽으면 '산책하고 싶나 보다' 정도로 지나칠 수도 있는 문장입니다. 그런데 그 말을 감옥에 갇힌 사람이 했다는 사실을 아는 순간, 문장의 무게가 완전히 달라집니다.\n걷는다는 것은 사실 가장 평범한 자유입니다. 우리는 아무 생각 없이 문밖으로 나가 걷고, 골목을 돌고, 공원을 한 바퀴 돕니다. 그런데 수감된 사람에게는 그 너무나 당연한 행위가 가장 큰 소망이 되는 것입니다.\n그래서 \"나는 걷고 싶다.\"는 단순히 이동하고 싶다는 말이 아니라,\n자유롭게 발을 내딛고 싶다.\n계절을 몸으로 느끼고 싶다.\n내가 가고 싶은 방향으로 걸어가 보고 싶다.\n그 모든 의미가 응축된 한 문장으로 읽히게 됩니다.\n특히 그 말을 눈사람에 써 놓았다는 설정이 더 마음을 움직입니다. 눈사람은 겨울이 지나면 녹아 사라지는 존재입니다. 잠시 존재했다가 없어지는 눈사람 위에 \"나는 걷고 싶다.\"라는 글을 남겼다는 것은, 잠깐의 흔적에 자신의 오랜 소망을 겹쳐 놓은 것처럼 느껴집니다.\n신영복 교수의 글은 이런 힘이 있습니다. 거창한 철학을 말하기 전에, 걷고 싶다, 덥다, 눈이 왔다 같은 아주 일상적인 말을 씁니다. 그런데 그 일상이 박탈된 사람의 입에서 나오기 때문에 독자는 비로소 그 일상이 얼마나 소중한 것이었는지를 깨닫게 됩니다.\n그래서 그의 글을 읽고 나면 '자유'라는 단어보다 '걷고 싶다'라는 한 문장이 더 오래 기억에 남는 것 같습니다. 추상적인 개념보다 구체적인 일상의 결핍이 인간의 마음을 더 깊이 흔들기 때문이겠지요.\n \n말미에 편지와 돈 잘 받았습니다. 라는 내용이 있는 것으로 봐서는 답장하는 분의 편지가 있었는데 둘간의 대화를 같이 보면 재미있을 것 같지만 여운을 남겨야겠지.\n저도 그 생각을 해본 적이 있습니다.\n엽서 끝에 \"편지와 돈 잘 받았습니다.\" 같은 짧은 인사가 붙어 있으면, 우리는 자연스럽게 보이지 않는 다른 편지를 상상하게 됩니다. 신영복 교수의 글만 남아 있지만, 사실은 누군가의 질문에 대한 답이고, 누군가의 안부에 대한 응답이었던 것이지요.\n만약 가족이 보낸 편지까지 모두 남아 있었다면, 당시의 심정을 더 구체적으로 이해할 수 있었을 것입니다. 가족이 어떤 걱정을 했고, 어떤 소식을 전했으며, 그에 대해 어떻게 답했는지가 드러났을 테니까요.\n하지만 한편으로는 말씀하신 것처럼 여운이 사라질 수도 있습니다.\n독자는 답장을 볼 수 없기 때문에 빈칸을 상상하게 됩니다. \"어떤 편지를 받았기에 이런 답을 했을까?\", \"얼마나 반가웠으면 끝에 꼭 받은 사실을 적었을까?\" 하고 생각하게 되죠. 그 여백이 작품의 일부가 됩니다.\n편지 문학의 묘미가 바로 거기에 있는 것 같습니다. 우리가 읽는 것은 한 사람의 독백이 아니라 대화의 절반입니다. 나머지 절반은 사라졌지만, 그 빈자리가 오히려 상상력을 불러일으킵니다.\n또 당시에는 편지 한 통, 송금된 얼마간의 돈이 지금과는 비교할 수 없을 만큼 큰 의미를 가졌습니다. \"편지와 돈 잘 받았습니다.\"라는 한 줄에는 단순한 수령 확인이 아니라, 밖에서 자신을 잊지 않고 있다는 사실에 대한 안도감과 감사도 담겨 있었을 것입니다.\n그래서 신영복 교수의 엽서를 읽다 보면, 글을 쓴 사람뿐 아니라 보이지 않는 편지를 써 내려간 가족의 마음까지 함께 읽게 되는 느낌이 듭니다. 아마 그 보이지 않는 절반이 끝내 공개되지 않았기 때문에, 그의 엽서는 지금도 독자마다 저마다의 상상을 품게 하는 힘을 갖고 있는 것 같습니다.",
+    "title": "Jira와 Linear를 대체하는 오픈소스 도구 4가지",
+    "description": "Plane, OpenProject, Taiga, Redmine을 같은 기준으로 비교하고, 팀 상황별 선택 기준까지 정리합니다.\n비용 절감과 자체 구축이 목표라면 오픈소스 이슈 트래커가 답이 됩니다. 데이터를 우리 인프라에 두고, 좌석 비용 없이 시작하고, 필요한 만큼만 손보고, 업그레이드 압박에서 벗어날 수 있기 때문입니다.\nJira를 제대로 써본 사람이라면 압니다. 처음엔 \"이 정도면 완벽한데?\" 싶다가, 어느 순간부터 도구의 관리자가 되어 있고, 플러그인 하나 추가할 때마다 라이선스 비용이 올라갑니다.\nLinear는 가볍고 빠르지만 클라우드 전용이라 데이터를 우리 서버에 둘 수 없고, 인원이 늘면 좌석 비용이 그대로 따라 늘어납니다. (두 도구의 상세 비교는 별도 글로 정리했습니다 → Jira vs Linear 비교)\n한눈 요약\n도구\n라이선스\n강점\n이런 팀에\n\n\n\n\nPlane\nAGPL-3.0\n현대적 화면, 속도, Jira와 Linear 가져오기\n소프트웨어와 제품 팀\n\n\nOpenProject\nGPL v3\n간트, 예산, 시간 추적, 성숙도\n고전적 프로젝트 관리가 필요한 조직\n\n\nTaiga\nAGPL-3.0\n순수 애자일(스크럼, 칸반) 집중\n스프린트 중심으로만 일하는 팀\n\n\nRedmine\nGPL v2\n플러그인 생태계, 저사양 서버\n직접 손보며 오래 쓸 기술 팀\n\n\n\n1. Plane — 지금 가장 빠르게 성장하는 대안\nPlane은 Linear의 깔끔함과 Jira의 구조를 절묘하게 섞어 놓은 도구입니다. GitHub 저장소 소개부터 \"오픈소스 Jira, Linear 대안\"을 내걸고 있고, 3년이 안 되어 GitHub 별 4만 6천 개를 넘겼습니다.\n이슈, 사이클(스프린트), 모듈(에픽), 리스트와 칸반과 캘린더와 간트와 스프레드시트까지 다섯 가지 보기, 그리고 문서(Pages)까지 한 공간에서 처리합니다. Jira, Linear, Asana에서 옮겨오는 가져오기 도구가 무료 요금제를 포함한 전 요금제에 들어 있다는 점도 이주를 고민하는 팀에는 실질적인 장점입니다.\n가장 큰 매력은 속도와 현대적인 화면입니다. Jira에서 넘어온 사람들이 \"드디어 가볍다\"고 말하는 경우가 많습니다. Docker나 Kubernetes로 설치하고, 권장 사양이 CPU 2코어에 메모리 4GB 수준이라 작은 서버로도 시작할 수 있습니다.\n라이선스와 비용 구조는 이렇습니다. 자체 설치용 Community Edition은 AGPL-3.0이고 사용자 수 제한이 없습니다.\n시간 추적, 에픽, 워크스페이스 위키 같은 기능이 필요하면 유료인 Commercial Edition으로 올라갑니다. Pro가 연 결제 기준 좌석당 월 $6로 이 분야에서 가장 낮은 첫 유료 단계입니다. 즉 자체 설치가 아끼는 것은 좌석 라이선스이지 전체 기능이 아닙니다. 이 구조는 알고 시작해야 합니다.\n단점이라면 OpenProject만큼 깊은 간트나 예산 관리는 아직 없다는 점, 그리고 세부 사용성에서 Linear보다 부족한 구석이 남아 있다는 점입니다. 그래도 소프트웨어 팀이나 제품 팀이라면 가장 먼저 검토할 도구입니다.\n2. OpenProject — 무게감 있는 엔터프라이즈용\nOpenProject는 2012년부터 발전해 온 도구라 성숙도가 다릅니다. 간트 차트, 시간 추적, 예산 관리, 회의 관리를 갖추고, 애자일과 워터폴을 한 도구에서 함께 쓰는 하이브리드 방식이 강점입니다.\n유럽 공공기관과 규제 산업에서 특히 선호하는 이유가 이 안정성과 기능의 폭입니다. 데이터 주권이 중요한 환경, 그리고 \"프로젝트 관리\"가 이슈 트래킹보다 넓은 의미인 조직에 잘 맞습니다. Community Edition만으로도 핵심 기능을 충분히 쓸 수 있습니다.\n대신 화면은 Plane만큼 세련되지 않았고, 밀도 높은 메뉴 구조 때문에 처음 온 팀원의 적응 기간이 필요합니다. 설치와 관리에도 손이 조금 더 갑니다.\n3. Taiga — 애자일에 올인한 팀을 위한 선택\n순수하게 스크럼이나 칸반으로만 일한다면 Taiga가 여전히 매력적입니다. 백로그 관리, 스프린트 계획, 번다운 차트, 스토리 포인트 같은 애자일 전용 기능이 깔끔하게 들어가 있고, 화면도 직관적입니다. 팀이 \"이슈 트래커\"보다 \"애자일 보드\"를 원한다면 잘 맞습니다.\n다만 장기 전망은 신중히 볼 필요가 있습니다. 현재 버전(6.x)의 안정 릴리스는 이어지고 있지만, 개발사가 차기 버전을 별도 저장소에서 처음부터 다시 설계하는 중이라 현재 버전의 기능 확장 속도는 예전만 못합니다. 도구와 함께 커가야 하는 팀이라면 이 점을 감안해야 합니다.\n4. Redmine — 오래됐지만 아직도 강력한 베테랑\nRedmine은 \"오픈소스 Jira의 원조\"에 가깝습니다. 2006년부터 이어진 플러그인 생태계가 넓어서 원하는 기능을 거의 다 붙일 수 있고, 저사양 서버에서도 잘 돌아갑니다.\n화면이 구식이라는 점은 분명한 단점입니다. 하지만 기술 팀이 직접 손보며 쓰고 싶다면 여전히 강력한 선택지입니다. \"우리가 직접 통제한다\"는 철학이 강한 팀, 그리고 한 번 세팅한 도구를 10년 쓰는 팀에 맞습니다.\n그 외 눈여겨볼 도구들\nLeantime: 목표와 전략을 업무와 연결하는 데 초점을 둔 도구. 단순 이슈 트래킹을 넘어 \"왜 이 일을 하는가\"를 중요하게 생각하는 팀에 적합합니다.\nHuly: 프로젝트 관리에 채팅, 문서, 간단한 인사 기능까지 모은 올인원 성격. Linear와 Slack과 Notion을 한 번에 대체하고 싶을 때 검토할 만합니다.\nKanboard / Wekan: 정말 가벼운 칸반 보드만 필요할 때. 복잡함을 극도로 싫어하는 팀에 좋습니다.\nGitLab CE의 Issues + Boards: 이미 GitLab을 쓰고 있다면 별도 도구 없이 바로 활용할 수 있습니다.\n어떻게 고를까\n솔직히 말하면 \"최고의 도구\"는 없습니다. 팀 상황에 따라 답이 달라집니다.\n소프트웨어와 제품 팀이고 화면과 속도가 중요하다 → Plane\n간트, 시간 추적, 예산, 하이브리드 방식이 필요하다 → OpenProject\n순수 애자일(스크럼, 칸반)에 집중한다 → Taiga\n커스터마이징 자유도와 가벼움이 최우선이다 → Redmine\n목표 관리나 올인원 플랫폼이 필요하다 → Leantime이나 Huly\n가장 좋은 방법은 직접 한두 주 써보는 것입니다. 대부분 Docker로 빠르게 올릴 수 있으니, 실제 워크플로를 옮겨보며 느끼는 것이 문서만 보는 것보다 훨씬 정확합니다.\nJira를 완전히 버릴 필요는 없습니다. 하지만 \"이 정도면 충분한데 왜 이렇게 비싸고 무거운가\"라는 생각이 들었다면, 위 도구 중 하나를 시험해 보는 것만으로도 팀의 선택지가 크게 넓어집니다.\n무엇을 고르든 유용한 도구 하나\n어떤 도구를 고르든, 슬랙과 PR에 돌아다니는 이슈 키를 주소창에서 바로 여는 바로가기는 그 자체로 이점입니다. 제가 만든 크롬 확장 Enhancer for Plane의 Quick open 기능이 그 역할을 합니다. Plane만이 아니라 Jira, Linear, GitHub, GitLab 주소도 등록해 쓸 수 있습니다.\n그리고 이 글에서 Plane을 골랐다면 이 확장은 필수에 가깝습니다. Plane에 없는 이슈 템플릿, 잘린 이름 넓히기, 참조 복사까지 서버 수정 없이 채워 주기 때문입니다. 자세한 소개는 별도 글로 정리했습니다. \n→ Plane을 더 편하게 쓰는 크롬 확장, Enhancer for Plane \n자주 묻는 질문\nQ. 오픈소스 자체 설치가 정말 무료인가요?\n라이선스는 무료지만 서버 비용과 운영하는 사람의 시간이 듭니다. 백업, 업그레이드, 장애 대응을 팀이 직접 감당해야 하므로, Docker 운영이 익숙한 사람이 팀에 없다면 각 도구의 클라우드 요금제와 비교해 판단하는 것이 현실적입니다.\nQ. Jira에서 데이터를 옮길 수 있나요?\n네. Plane과 Taiga는 공식 Jira 가져오기 도구를 제공하고, OpenProject와 Redmine도 이주 경로가 있습니다. 다만 어떤 도구든 커스텀 워크플로와 자동화까지 그대로 옮겨지지는 않습니다. 이주를 워크플로 재설계의 기회로 삼는 편이 좋습니다.\nQ. AGPL 라이선스면 회사에서 써도 되나요?\n사내 팀이 내부 용도로 설치해 쓰는 것은 문제가 없습니다. AGPL이 문제가 되는 경우는 소스를 수정해 외부 고객에게 서비스로 제공할 때이고, 이때는 수정한 소스를 공개할 의무가 생깁니다. 상용 서비스에 얹을 계획이 있다면 법무 검토를 거치세요.\n\n\n\n확인한 출처\nPlane 오픈소스 안내 — AGPL-3.0, 기능 범위\nPlane Pro 요금\nPlane 자체 설치 가이드 — AGPL 경계 설명\nOpenProject\nTaiga 현행 버전 저장소, 차기 버전 저장소\nRedmine",
     "reviews": [],
     "syllabus": [],
-    "link": "https://martian36.tistory.com/1640",
-    "pubDate": "Thu, 6 Aug 2026 17:11:46 +0900",
-    "creator": "베누시안",
+    "link": "https://blog.gaerae.com/2026/08/opensource-jira-alternatives.html",
+    "pubDate": "2026-08-09T13:41:33.606Z",
+    "creator": "Unknown",
     "categories": []
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "단점 대신 약점",
-    "description": "최근, 장기간의 이직 준비에 지친 분과 이야기를 나눴다.\n면접 자리에만 가면 말을 제대로 전달하지 못하고, 대화가 수월하게 이어지지 않는다는 점이 자기 단점이라고 이야기하시길래 그건 단점이 아니라 약점일 뿐이라고 말씀드렸다.\n요즘 스스로 부족한 점을 발견할 때마다, 일부러 단점이라고 말하지 않으려고 한다.\n습관처럼 \"이게 내 단점이지\"라는 말이 올라오면, 이를 꽉 깨물고 \"이건 내 약점이야\"라고 생각한다.\n영어로 미팅할 수도 없고,\n고객이 원하는 것을 포착하는 감각도 떨어지고,\n돈을 버는 감각도 뛰어나지 않다.\n(요즘은 코딩도 너무 오래 쉬었다.)\n예전에는 이런 것들을 모두 내 \"단점\"이라고 생각했다.\n근데 \"영어를 못하는 게 내 단점이야\"라고 말하면, 영어를 못하는 현재의 상태가 마치 나라는 사람의 결함처럼 느껴졌다.\n말은 능력 하나를 설명했을 뿐인데, 듣고 있는 나는 내 전체를 평가받은 것처럼 받아들인다.\n반면에 \"영어는 지금 내 약점이야\"라고 말하면 조금 달랐다.\n지금은 영어가 약하다.\n그러면 연습하면 된다.\n다른 사람의 도움을 받을 수도 있고, 번역 도구를 쓸 수도 있고, 영어가 덜 필요한 다른 능력으로 보완할 수도 있다.\n혹은 지금 내 삶에서 중요하지 않다면 우선순위를 뒤로 미룰 수도 있다.\n어느 쪽이든 선택지가 생긴다.\n단점이라고 부를 때는 자책부터 했는데,\n약점이라고 부르면 해야 할 것들을 떠올리게 된다.\n물론 단점이라는 말을 아예 없애려는 것은 아니다.\n나 자신이나 다른 사람을 해치는 태도는 여전히 단점이라고 생각한다.\n무례함.\n폭력적인 성향.\n잘못을 인정하지 않는 태도.\n다른 사람을 반복해서 상처 입히면서도 대수롭지 않게 여기는 태도.\n이런 건 \"원래 내가 좀 그래\"라고 받아들일 일이 아니다.\n반성하고 고쳐야 한다.\n(내가 그렇다는 건 아니고...)\n하지만 아직 잘하지 못하는 능력까지 나의 흠으로 만들고 싶지는 않다.\n영어를 못하는 것도,\n고객이 원하는 것을 포착하지 못하는 것도,\n돈에 대한 감각이 부족한 것도\n나라는 사람의 결함은 아니다.\n그것은 지금의 내 약점이다.\n키워 갈 수도 있고, 때로는 그대로 안고 살아갈 수도 있는 것들이다.\n사전에서 두 단어를 어떻게 구분하는지는 여기서 크게 중요하지 않다.\n이것은 내가 나를 대하기 위해 만든 언어 규칙에 가깝다.\n나는 자주 쓰는 단어가 결국 내 생각을 지배한다고 믿는다.\n부족함을 계속 단점으로 부르면, 나는 나를 결함이 있는 사람으로 보게 될 것 같다.\n반대로 약점이라고 부르면, 부족함을 외면하지 않으면서도 그 자리에 가능성을 남겨둘 수 있다.\n말만 바꾼다고 영어가 늘지는 않는다.\n그분이 다음 면접에서 갑자기 말을 잘하게 되는 것도 아니다.\n그래도 말이 바뀌면, 그 부족함을 대하는 태도가 바뀐다.\n\"나는 왜 이것도 못하지?\"에서\n\"이건 지금 내 약점이구나. 어떻게 더 나아질 수 있을까?\"로.\n그래서 요즘은 이를 꽉 깨물고라도 고쳐 부르려고 한다.\n\"이게 내 단점이야\" 대신, \"이건 지금 내 약점이야\".\n계속 그렇게 부르다 보면, 그 부족함들은 정말로 내가 키워 갈 수 있는 영역이 될 것이라고 믿는다.\n내가 나를 부르는 말이, 내가 나를 대하는 방식이 될 테니까.",
+    "title": "돌아온 신나는 해적의 삶! 어쌔신크리드 블랙 플래그 리싱크드",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/883",
-    "pubDate": "Sat, 8 Aug 2026 10:45:48 +0900",
-    "creator": "향로 (기억보단 기록을)",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2482",
+    "pubDate": "Thu, 06 Aug 2026 23:20:27 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "생각정리",
-      "단점",
-      "면접",
-      "약점",
-      "에세이",
-      "이직",
-      "회고"
+      "게임툰"
     ]
   },
   {
     "id": 8,
-    "imageUrl": "",
-    "title": "당신이 잠든 사이, 24시간 은행을 지키는 사람들 ",
-    "description": "토스뱅크 ‘사이버보안 엔지니어 부트캠프’ 2기 모집 (~8/17)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossbank-cyber-security-bootscamp",
-    "pubDate": "Mon, 03 Aug 2026 08:15:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "CVE-2026-63077: Additional Guidance Following Reports of Active Exploitation",
-    "description": "This post is a follow-up to our July 27, 2026, announcement about CVE-2026-63077. Summary What has changed since our initial announcement Since our initial announcement on July 27, 2026, we have received reports of active exploitation, as well as attempted exploitation, targeting unpatched TeamCity servers. Before these reports were received, we had already investigated the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/08/cve-2026-63077-update/",
-    "pubDate": "Fri, 07 Aug 2026 13:22:49 +0000",
-    "creator": "Daniel Gallo",
-    "categories": [
-      "news",
-      "security"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Learn pandas the Right Way: A Python Library Course That Doesn’t Waste Your Time",
-    "description": "Let’s talk about the elephant in every data scientist’s room (or in this case, the panda). You’ve probably touched pandas before, even if nobody introduced you two properly. Ever opened a CSV file in Python and tried to make sense of it? Sorted a column, dropped some junk rows, and prayed a merge would work? […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2026/08/03/mastering-pandas-python-course/",
-    "pubDate": "Mon, 03 Aug 2026 14:07:09 +0000",
-    "creator": "Sargis Avagyan",
-    "categories": [
-      "jetbrains-academy",
-      "learning-courses",
-      "pycharm",
-      "python"
-    ]
-  },
-  {
-    "id": 11,
     "imageUrl": "",
     "title": "JetBrains Academy – July Digest",
     "description": "Somewhere between the fifteenth open tab and the third iced coffee, it hit me. Maybe we don’t hate meetings. We just hate the ones where nobody has anything to say. Welcome back to another mandatory meeting. This one’s got range: Kotlin just turned 15, IntelliJ IDEA Conf dropped a lineup worth clearing your calendar for, […]",
@@ -166,56 +130,65 @@
     ]
   },
   {
-    "id": 12,
+    "id": 9,
     "imageUrl": "",
-    "title": "D3D12리소스 수명관리",
-    "description": "2주전 발견한 gpu크래시 버그를 잡으면서 만든 자료들을 가지고 오랫만에 기술방송을 진행했습니다. 4K녹화본입니다. D3D122리소스 수명관리https://youtu.be/Sew_XGPAVM4",
+    "title": " ",
+    "description": "20 Years, 1 MissionMeet Qodana Lead Alex Gopachenko Twenty years is a lifetime in software engineering. Languages rise and fall. Frameworks become obsolete. Entire categories of developer tools appear, dominate the industry, and quietly disappear again. Yet through two decades of change at JetBrains, one engineer has remained focused on a remarkably consistent problem. How […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://megayuchi.com/2026/08/09/d3d122%eb%a6%ac%ec%86%8c%ec%8a%a4-%ec%88%98%eb%aa%85%ea%b4%80%eb%a6%ac/",
-    "pubDate": "Sat, 08 Aug 2026 17:19:24 +0000",
-    "creator": "megayuchi",
+    "link": "https://blog.jetbrains.com/qodana/2026/08/alexey-gopachenko/",
+    "pubDate": "Mon, 10 Aug 2026 10:11:25 +0000",
+    "creator": "Kerry Beetge",
     "categories": [
-      "Development",
-      "D3D12",
-      "DirectX12",
-      "DX12",
-      "Game Development",
-      "Game Engine Development",
-      "GPU",
-      "Voxel Horizon"
+      "leadership"
     ]
   },
   {
-    "id": 13,
+    "id": 10,
     "imageUrl": "",
-    "title": "Logstash 권한 - 3rd",
-    "description": "간만에 로그스태시. root 실행을 아예 막아놨네? path.settings 옵션 없으면 logstasy.yml도 찾지 못하고(..)\n\n\n\n\nlogstash 계정 실행은 문제 없다.\n\n\n\n\n그런데 root 계정 실행을 먼저 해버리면 이후 logstash 계정으로 실행되는 서비스가 무한 재기동 상태에 빠짐.\n\n\n\n\nroot로 먼저 실행해버리면 데이터 경로가 root 소유로 바뀌면서 logstash 계정이 접근을 못하는구나. 전엔 root 계정으로 파이프라인 테스트 후 logstash 계정으로 서비스 실행하는 데 아무 문제가 없었는데(..)\n\n\n\n\n\n소유권 변경해주면 잘 동작한다. 앞으론 root 계정 선 테스트 금지!\n\n\n\n관련 글\n\nLogstash 권한 - 2nd\nLogstash 권한\nLogstash 휴먼 버그\nLogstash의 데이터 처리\nLogstash의 줄바꿈 문자\n윈도우 Logstash 파이프라인\nLogstash의 escaped character\nLogstash 연동 에러(Limit of total fields)",
+    "title": "Plane을 더 편하게 쓰는 크롬 확장, Enhancer for Plane",
+    "description": "오픈소스 프로젝트 관리 도구 Plane을 팀에 도입해 쓰고 있습니다. 만족스러운 만큼, 매일 부딪히는 작은 아쉬움들도 보입니다.\n버그 리포트, 장애 기록처럼 반복해서 쓰는 이슈에 템플릿이 없어서 매번 형식을 다시 씁니다.\n슬랙 메시지나 PR 제목에서 본 PROJ-123 같은 이슈 키를 바로 열 방법이 없어서 검색 화면을 거칩니다.\n목록과 드롭다운에서 긴 이름이 잘려서 비슷한 항목을 구분하기 어렵습니다.\n이슈를 채팅이나 PR에 공유하려면 키, 제목, 주소를 따로따로 복사해야 합니다.\n이 아쉬움들을 서버 수정 없이, 브라우저 확장 하나로 메우려고 직접 만든 것이 Enhancer for Plane입니다. Plane(makeplane)용 비공식 크롬 확장이고, Chrome Web Store와 GitHub에 공개되어 있습니다.\n설치: Chrome Web Store\n소스: github.com/gaerae/enhancer-for-plane\nPlane Cloud와 자체 설치 환경에서 모두 동작하고, 사용자가 직접 켠 도메인에서만 실행됩니다. Plane 서버에는 아무것도 설치하거나 수정하지 않습니다.\n무엇을 해주나\n이슈 키로 바로 열기 (Quick open)\n주소창에 issue를 입력하고 한 칸 띄운 뒤 PROJ-123을 치면 해당 이슈가 바로 열립니다. 문서나 채팅에서 키를 발견했다면 드래그해서 우클릭 메뉴로 열 수도 있습니다.\n동작 원리는 단순합니다. 이슈 주소에서 키가 들어갈 자리를 {{key}}로 표시한 링크를 등록해 두는 방식입니다.\n그래서 Plane만이 아니라 Jira, Linear, GitHub, GitLab 주소도 등록할 수 있고, 키 접두어별로 다른 도구로 보낼 수도 있습니다. ENG-는 Linear로, 나머지는 Plane으로 보내는 식이죠. Jira에서 Plane으로 이주하는 과도기에 두 도구를 오가는 팀이라면 특히 유용합니다.\n키 대신 단어를 입력하면 해당 도구의 검색으로 넘어가고, 최근에 연 이슈 목록도 주소창과 팝업에서 바로 다시 열 수 있습니다.\n\n\n\n이슈 템플릿 (제목 + 본문)\n템플릿을 한 번 등록하면 이슈 설명 편집기 도구 막대의 \"Template\" 버튼이나 단축키(Alt+T)로 제목과 본문을 한 번에 채웁니다. 본문은 마크다운으로 작성하고, 넣는 순간 변수가 채워집니다.\n{{date}}, {{date+7}} 같은 날짜 변수 — 마감일이 들어가는 양식에 유용합니다.\n{{var.이름}} 형태의 사용자 정의 변수 — 같은 템플릿을 공유해도 사람마다 자기 값으로 채워집니다.\n\n\n\n팀 템플릿 동기화\n템플릿을 담은 JSON 파일을 사내 위키든 Git 저장소든 팀이 접근할 수 있는 주소에 올려 두면, 팀원 모두가 같은 템플릿을 내려받아 씁니다. 동기화 주기를 정할 수 있고, 동기화된 템플릿은 읽기 전용이라 원본 한 곳에서만 관리됩니다. 이슈 양식을 팀 표준으로 유지하고 싶은 리더에게 이 기능이 핵심입니다.\n참조 복사\n이슈 키 옆의 버튼이나 단축키(Alt+C)로 이슈를 원하는 형식으로 복사합니다. 일반 텍스트, 마크다운 링크, 브랜치 이름 세 가지 형식이 기본으로 들어 있습니다. {{item.key}}, {{item.title}}, {{item.url}} 세 값을 조합해 형식을 직접 만들 수도 있습니다. 이슈 키로 브랜치를 만드는 팀이라면 복사 한 번으로 브랜치 이름이 나옵니다.\n\n\n\n잘린 이름 넓히기 (스타일 규칙)\nPlane은 목록과 드롭다운에서 긴 이름을 잘라 보여줍니다. 확장에 내장된 스타일 규칙 엔진이 선택자와 속성과 값 한 줄로 원하는 너비를 강제해서 이름을 되살립니다.\n자주 쓰는 규칙 두 개는 켜진 상태로 제공되고, 개발자 도구 없이 화면에서 요소를 클릭해 규칙을 추가하는 선택기도 들어 있습니다. Plane이 개편되어 선택자가 안 맞게 되어도 해당 규칙만 조용히 무효가 될 뿐 화면이 깨지지 않습니다. 각 규칙이 마지막으로 적용된 날짜를 보여주므로, 어느 규칙이 낡았는지도 바로 알 수 있습니다.\n\n\n\n집중 모드\nAlt+Shift+F로 양쪽 패널을 접고 이슈 본문만 남깁니다. 긴 설명을 읽거나 쓸 때 유용하고, 탭 단위로만 적용되어 다른 탭에는 영향이 없습니다.\n\n\n\n설치와 첫 5분\nChrome Web Store에서 설치하고, Plane 탭에서 확장 아이콘을 눌러 이 사이트에서 사용을 켭니다. 권한은 그 사이트 하나에만 부여됩니다.\n설정의 Work items에서 지금 열려 있는 이슈 주소를 붙여 넣습니다. 이 한 번의 붙여넣기로 열기, 검색, 복사가 모두 설정됩니다.\n주소창에 issue와 한 칸을 입력해 봅니다. 나머지 기능은 전부 선택 사항입니다.\n설계 원칙: 기본은 전부 꺼짐\n브라우저 확장은 편리한 만큼 권한이 민감한 도구입니다. 그래서 다음 원칙으로 만들었습니다.\n설치 직후에는 아무 사이트에서도 실행되지 않습니다. 사용자가 켠 도메인에서만 동작합니다.\nPlane 서버를 수정하지 않습니다. 모든 기능이 브라우저 안에서만 동작합니다.\n팀 동기화로 받아온 데이터는 신뢰하지 않는 입력으로 취급해 크기를 제한하고 텍스트로만 렌더링합니다.\n설정 전체를 JSON 파일로 내보내고 불러올 수 있어, 기기를 옮겨도 다시 세팅할 필요가 없습니다.\n소스가 GitHub에 공개되어 있으니 스토어 대신 소스에서 직접 로드해 쓸 수도 있고, 기능 제안이나 버그 리포트는 저장소 이슈로 남겨 주시면 됩니다.\n마치며\n정리하면 이렇습니다. Quick open은 어떤 이슈 트래커를 쓰든 그 자체로 이점입니다. Jira든 Linear든 GitHub든, 키가 돌아다니는 곳이라면 주소창 바로가기가 통합니다. 그리고 Plane 오픈소스를 골라 자체 구축한 팀이라면, 템플릿과 스타일 규칙까지 더해 필수 도구에 가깝습니다.\n이슈 트래커 자체를 고민 중이라면 함께 정리한 두 글도 참고하세요. Jira vs Linear 비교, 그리고 오픈소스 대안 비교입니다.\n도구는 결국 팀의 일하는 방식을 담는 그릇입니다. 어떤 도구를 쓰든, 그 도구가 팀을 관리하게 두지 말고 팀이 도구를 다루는 상태를 유지하시길 바랍니다.\n자주 묻는 질문\nQ. Plane 공식 확장인가요?\n아닙니다. Plane과 무관한 비공식 확장입니다. \"Plane\"은 해당 소유자의 상표입니다.\nQ. 자체 설치한 Plane에서도 되나요?\n됩니다. Plane Cloud와 자체 설치 모두 지원하고, 설정에서 해당 도메인을 켜기만 하면 됩니다.\nQ. 크롬이 아닌 브라우저에서도 쓸 수 있나요?\nManifest V3 기반 크롬 확장이라 크롬 계열(Edge 등 Chromium 기반) 브라우저에서 동작합니다. 크로미움 기반이 아닌 브라우저는 지원하지 않습니다.\nQ. 회사 보안 정책상 확장 설치가 걱정됩니다.\n소스가 공개되어 있어 감사할 수 있습니다. 사용자가 켠 도메인 밖에서는 실행되지 않고, 외부로 데이터를 보내는 기능이 없습니다. 팀 템플릿 동기화도 사용자가 직접 등록한 주소에서만 내려받습니다.\n링크\nChrome Web Store에서 설치\nGitHub 저장소 (gaerae/enhancer-for-plane)\nPlane 프로젝트",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/08/logstash-3rd.html",
-    "pubDate": "2026-08-09T10:14:59.383Z",
+    "link": "https://blog.gaerae.com/2026/08/enhancer-for-plane.html",
+    "pubDate": "2026-08-09T13:58:36.946Z",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 14,
+    "id": 11,
     "imageUrl": "",
-    "title": "Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark",
-    "description": "Hi everyone! July gave me plenty to celebrate: Kotlin turned 15, got its first public benchmark for AI coding agents, became available in BlueJ, and shipped its 2.4.10 release. Developers can also demonstrate their skills at RevenueCat Shipaton 2026 by building a Kotlin Multiplatform app and competing for the Ship Kotlin Everywhere Award. Meanwhile, X […]",
+    "title": "개인 AI 활용의 다음 단계는 무엇인가 - LY Corporation에서 AIDD 워크숍을 통해 살펴본 AIDD 조직 도입의 조건",
+    "description": "LY Corporation에서는 지금까지 AI 활용 역량 향상 워크숍인 Orchestration Development Workshop (ODW)를 통해, 개인이 AI를 활용해 개발...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/08/kodees-kotlin-roundup-birthday-wishes-shipaton-2026-and-the-new-kotlin-ai-benchmark/",
-    "pubDate": "Tue, 04 Aug 2026 08:14:27 +0000",
-    "creator": "Kodee",
+    "link": "https://techblog.lycorp.co.jp/ko/conditions-for-organizational-aidd-adoption",
+    "pubDate": "Fri, 07 Aug 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Java Annotated Monthly – August 2026 ",
+    "description": "July gave the tech world plenty to talk about, from fresh releases and useful tutorials to Kotlin updates, AI experiments, and new ideas across the wider ecosystem. We packed the best of it into one issue, so you can skip scrolling and get straight to the good stuff. To top it all off, Donald Raab […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/08/java-annotated-monthly-august-2026/",
+    "pubDate": "Wed, 05 Aug 2026 12:30:38 +0000",
+    "creator": "Irina Mariasova",
     "categories": [
-      "kotlin",
       "news",
-      "kotlin-roundup"
+      "ai",
+      "java",
+      "java-annotated",
+      "java-annotated-monthly",
+      "kotlin",
+      "spring"
     ]
   },
   {
-    "id": 15,
+    "id": 13,
     "imageUrl": "",
     "title": "D3D12 리소스 수명관리 + 디버깅 스토리",
     "description": "렌더링 중 GPU내부에서 크래시를 유발하는 버그를 찾아서 수정했다. 재현이 쉽지 않기 때문에 요 몇 개월 사이에 간헐적으로 나오던 GPU크래시의 원인이라고 단정지을 수는 없지만, 이것까지 해서 적어도 내가 인지하고 있는 GPU크래시 유발 가능한 버그는 다 잡았다. D3D12는 리소스가 gpu에서 사용중인지 아닌지를 판별하지 않고 자동 관리도 하지 않기 때문에 GPU에 명령을 제출하고 나서 작업이 완료됐는지를 확인하지 않고 … More D3D12 리소스 수명관리 + 디버깅 스토리",
@@ -233,6 +206,40 @@
       "Game Engine Development",
       "GPU",
       "Voxel Horizon"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2026.2.1 Is Out!",
+    "description": "We’ve just released the first minor update for IntelliJ IDEA 2026.2 – v2026.2.1. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. Here are the most notable updates: To find out more details about the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/08/intellij-idea-2026-2-1/",
+    "pubDate": "Mon, 10 Aug 2026 13:33:37 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": [
+      "bug-fix-update",
+      "intellij-idea"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Go 1.27 Release Party – Free Online Event With the Go Team",
+    "description": "Join us on August 25 at 4:00 pm UTC for a free online event for Go developers, where we will discuss Go 1.27. Instead of reading the release notes on your own, we’d like to invite you to experience the release together with the community. Welcome to The Blue Gopher! For one evening, The Blue […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2026/08/05/new-livestream-go-127/",
+    "pubDate": "Wed, 05 Aug 2026 13:50:30 +0000",
+    "creator": "Dominika Stankiewicz",
+    "categories": [
+      "goland",
+      "livestream",
+      "livestreams",
+      "news",
+      "event",
+      "golang"
     ]
   }
 ]
