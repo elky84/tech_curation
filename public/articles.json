@@ -2,17 +2,132 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "What Your First Months at JetBrains Look Like?",
-    "description": "Starting a new job is exciting, and there’s a lot to take in. At JetBrains, onboarding doesn’t stop after your first day. It starts when you accept your offer and continues through your first months, giving you the information, tools, and support you need to settle in and start doing your best work. Here’s what […]",
+    "title": "PyCharm for AI-assisted Django Workflows",
+    "description": "The 2026 Django Developers Survey (results coming soon!) found that AI is part of the weekly or daily workflow for 90% of respondents. AI can write code quickly, but Django developers still need to understand the application, evaluate what the agent produces, and be accountable for what ships. That makes your IDE more important, not […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/life-at-jetbrains/2026/08/new-employee-onboarding/",
-    "pubDate": "Mon, 17 Aug 2026 13:17:50 +0000",
-    "creator": "Grete Kivi",
-    "categories": []
+    "link": "https://blog.jetbrains.com/pycharm/2026/08/pycharm-for-ai-assisted-django-workflows/",
+    "pubDate": "Thu, 20 Aug 2026 13:06:50 +0000",
+    "creator": "Will Vincent",
+    "categories": [
+      "agentic-ai",
+      "ai",
+      "python",
+      "web-development",
+      "django"
+    ]
   },
   {
     "id": 2,
+    "imageUrl": "",
+    "title": "[MULTI] 다 피우지 못한 깨달음의 꽃망울, 비스트 오브 리인카네이션",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2485",
+    "pubDate": "Wed, 19 Aug 2026 05:32:02 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Qodana Expands Security Analysis with OpenGrep Rules, and More",
+    "description": "Modern software development teams face a difficult balancing act. Applications are growing more complex, release cycles are accelerating, and security expectations continue to rise.  This is especially true in a time where much more code is generated daily, which needs to be checked. Teams need tools that can identify vulnerabilities early without creating additional friction […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/08/opengrep-inspections/",
+    "pubDate": "Tue, 18 Aug 2026 10:32:06 +0000",
+    "creator": "Kerry Beetge",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Rider 2026.2.1 and ReSharper 2026.2.1 Are Here!",
+    "description": "Our first minor update for the 2026.2 release cycle is ready to download. Here’s what’s new. Rider Rider 2026.2 put AI-assisted development front and center, and v2026.2.1 keeps that momentum going: The refactoring-code skill, bundled in JetBrains Rider Median task time before: 157.9s → after: 26.6s 83% faster Cost per solved task before: USD 0.52 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/08/19/rider-resharper-2026-2-1/",
+    "pubDate": "Wed, 19 Aug 2026 15:36:45 +0000",
+    "creator": "Alexander Kurakin",
+    "categories": [
+      "net-tools",
+      "release",
+      "releases",
+      "rider",
+      "agent-skills",
+      "debugger",
+      "out-of-process-2",
+      "refactorings",
+      "resharper",
+      "resharper_oop"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Klibs.io Grows to 4,200+ KMP Projects With Smarter Discovery and New AI Integrations",
+    "description": "Explore a growing Kotlin Multiplatform catalog in your browser, or bring up-to-date library data directly into your AI development workflow through the klibs.io MCP server. When we introduced klibs.io in December 2024, the goal was simple: make it easier to find a Kotlin Multiplatform library that fits both your use case and target platforms. Since […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/08/klibsio-grows-to-4200-kmp-projects-with-smarter-discovery-and-new-ai-integrations/",
+    "pubDate": "Mon, 17 Aug 2026 13:12:57 +0000",
+    "creator": "Viliam Sedliak",
+    "categories": [
+      "kotlin",
+      "news",
+      "kotlin-multiplatform-libraries"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Ready for Go 1.27 on Day One",
+    "description": "Go 1.27 is here, and the release notes have plenty to explore. Language updates include generic methods, promoted field names in struct composite literals, and improved function type inference. Beyond the language itself, Go 1.27 expands go fix with new modernizers and adds a profile for finding goroutine leaks. These updates touch many parts of […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2026/08/20/ready-for-go-1-27-on-day-one/",
+    "pubDate": "Thu, 20 Aug 2026 10:19:21 +0000",
+    "creator": "Artem Pronichev",
+    "categories": [
+      "goland",
+      "news",
+      "go",
+      "language-release",
+      "language-support"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "데이터 시인성 - 10th",
+    "description": "데이터 발생 확률을 측정해주는 anomalousvalue 실행 결과. 값이 0에 가까울수록 발생 확률이 낮다는 의미이기 때문에 그만큼 이상징후일 가능성이 높다.\n\n\n\n\n\n문제는 값이 0에 가까울수록 눈으로 확인하기 어려운 차트가 그려진다는 것. 차트 형식에 따라 잘못된 상황 판단을 할 수도 있다는 얘기. \n\n\n\n\n\n\n이때 이상값 측정 필드 존재 여부를 수치화하는 방법이 대안이 될 수 있다.\n\n\n\n관련 글\n\n데이터 시인성 - 9th\n데이터 시인성\nhaving query\nSplunk의 해시 변환\n네트워크 관계망 그리기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/08/10th.html",
+    "pubDate": "2026-08-16T10:21:11.996Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 62화, 미행인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2486",
+    "pubDate": "Wed, 19 Aug 2026 20:35:59 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 9,
     "imageUrl": "",
     "title": "챗GPT 무료 무제한 vs 네이버&middot;카카오 AI: 한국 사용자를 위한 챗봇 선택 기준",
     "description": "매일 쓰는 AI 서비스, 과연 무엇을 골라야 할까요? 텍스트 대화 무제한 무료를 선언한 글로벌 대표 주자와 국내 환경에 최적화된 토종 포털의 서비스를 한눈에 대조하며 나에게 꼭 맞는 최적의 선택지를 찾아봅니다.\n매일 쏟아지는 인공지능 소식 속에서 어떤 도구를 메인으로 써야 할지 고민이 깊어집니다. AI 챗봇 비교를 통해 일상 작업부터 업무 생산성까지 내 상황에 가장 딱 들어맞는 기준을 명확하게 정리해 드립니다.\n\n\n1. 판도가 뒤바뀐 글로벌 AI: 무료 무제한 정책의 진짜 의미\n기존에는 무료 사용량에 엄격한 일일 상한선이 있어 질문 몇 개만 던져도 대기 시간이 발생하곤 했습니다. 하지만 기본 탑재 모델이 효율적인 경량형 모델로 전면 교체되면서 텍스트 채팅에 한해 사용 횟수 제한이 완전히 풀리는 파격적인 변화가 생겼습니다.\n이러한 변화는 단순히 \"더 비싼 고성능 모델을 무료로 제공한다\"는 뜻이 아닙니다. 추론 비용을 극적으로 낮춘 소형 모델을 앞세워 단말기 단위의 한계비용을 제로화하고, 검색창 대신 챗봇을 가장 먼저 켜게 만들겠다는 영리한 유통 전략이 숨어 있습니다.\n  과금 경계의 변화\n과거에는 \"하루에 몇 번 대화할 수 있는가\"가 유료 전환의 기준이었다면, 이제는 \"얼마나 깊이 있게 생각(추론)하고 답변을 도출할 것인가\"로 패러다임이 이동했습니다.\n\n\n2. AI 챗봇 비교: 글로벌 강자 vs 네이버·카카오\n국내 사용자의 90% 이상이 모바일 환경에서 활동하는 만큼, 로컬 생태계의 편리함과 글로벌 모델의 압도적인 범용성은 각기 다른 매력을 지닙니다. 주요 플랫폼의 특성을 비교표로 정리했습니다.\n구분\n글로벌 챗봇 (OpenAI)\n네이버 (CLOVA X / Cue:)\n카카오 (카카오톡 AI)\n\n\n\n\n무료 텍스트 혜택\n텍스트 대화 무제한 지원\n기본 무료 제공 (연동 기능 풍부)\n메신저 내 경량형 무료 접점\n\n\n한국어 로컬 맥락\n우수하나 최신 골목상권/트렌드는 약함\n지도, 쇼핑, 블로그 연계 최상\n카톡 대화 요약, 일정 조율 최상\n\n\n추론 및 코딩 역량\n복잡한 논리, 코드 작성 압도적\n문서 작성 및 요약에 강점\n일상 대화 보조에 특화\n\n\n학습 데이터 정책\n무료 기본 학습 (설정에서 끄기 가능)\n국내 개인정보 보호 가이드 준수\n사적 대화 암호화 및 제한적 활용\n\n\n\n\n토종 AI가 여전히 강력한 이유: 한국형 생태계의 힘\n외산 챗봇이 아무리 똑똑해져도 '강남역 1번 출구 근처 주차 가능한 한식집 예약'이나 '네이버페이 구매 내역 기반 제품 문의' 같은 작업에서는 네이버와 카카오의 연결성을 따라잡기 어렵습니다. 특히 일상적인 예약, 쇼핑, 메신저 대화 요약은 국내 플랫폼이 훨씬 매끄럽게 처리합니다.\n\n\n3. 목적별 맞춤형 선택 가이드\n내가 주로 어떤 작업을 수행하느냐에 따라 챗봇 조합을 다르게 가져가는 것이 가장 효율적입니다. 실제로 자주 겪는 상황을 기준으로 추천 조합을 정리해 드립니다.\n학습 및 코딩·번역: 글로벌 챗봇의 무료 무제한 모드를 메인으로 활용하여 방대한 데이터와 복잡한 논리 문제를 해결하세요.\n국내 맛집·여행·쇼핑 탐색: 실시간 리뷰와 장소 정보가 풍부한 네이버 AI 서비스를 활용하는 것이 오차를 줄이는 지름길입니다.\n모바일 일정 조율 및 메신저 업무: 번거로운 앱 전환 없이 카카오톡 안에서 바로 처리하는 카카오 AI가 가장 간편합니다.\n⚠️ 무료 사용 시 보안 주의사항\n무료 서비스의 기본 설정은 대화 내용이 모델 재학습에 활용될 수 있습니다. 회사 기밀, 민감한 개인정보, 금융 코드는 절대 입력하지 마시고, [설정] → [데이터 컨트롤]에서 모델 학습 기능을 비활성화하고 사용하세요.\n실무 생산성을 극대화하는 멀티 챗봇 교차 워크플로\n단일 플랫폼에만 의존하기보다 각 서비스의 특화 영역을 사슬처럼 연결하면 작업 소요 시간을 절반 이하로 단축할 수 있습니다. 예를 들어 글로벌 트렌드 리서치나 복잡한 프로그래밍 오류 해결은 챗GPT의 방대한 영문 코퍼스를 통해 초안을 잡고, 이를 국내 비즈니스 환경에 맞는 보고서 형식으로 다듬을 때는 네이버 클로바X에 프롬프트를 넘겨 매끄러운 비즈니스 한국어 톤앤매너로 재가공하는 방식이 대표적입니다.\n1단계 (기획 및 뼈대 구축): 글로벌 엔진을 통해 해외 최신 레퍼런스를 수집하고 논리 구조를 잡습니다.\n2단계 (로컬 팩트체크 및 서식화): 네이버 검색 연동 기능을 켜서 국내 관련 법령이나 시장 수치의 최신성을 검증합니다.\n3단계 (협업 배포): 카카오톡 AI 요약 기능을 활용해 팀원들이 바로 확인할 수 있는 3줄 핵심 브리핑 메시지로 변환합니다.\n공공·행정 문서 처리 시 놓치지 말아야 할 파일 호환 팁\n국내 업무 환경에서 빈번하게 마주치는 HWPX 및 공공기관 서식 파일 분석은 토종 엔진이 독보적인 성능을 발휘합니다. 외산 모델에 한글(HWP) 문서를 직접 업로드하면 글자가 깨지거나 서식이 무너져 엉뚱한 답변을 내놓기 일쑤지만, 국내 포털 AI는 전용 파서를 내장하여 표 구조와 문단 위계를 정확히 인식하므로 입찰 공고문이나 정부 지원 사업 요강을 분석할 때 탁월한 정확도를 보장합니다.\n마지막으로 답변의 신뢰도를 판별할 때는 출처 역추적(Grounding) 링크 제공 여부를 반드시 확인해야 합니다. 생성된 문장 끝에 원문 링크가 붙는 검색 특화 모드를 적극 병행하면, 생성형 AI 특유의 그럴듯한 거짓말인 환각 현상을 사전에 완벽히 차단하고 업무 오류를 방지할 수 있습니다.\n  핵심 요약\n1. 글로벌 챗봇의 텍스트 무제한 전환으로 일상적인 질의응답을 부담 없이 활용할 수 있습니다.\n2. 유료와 무료의 차이는 횟수가 아닌 심층 추론(Thinking)의 깊이로 재편되었습니다.\n3. 로컬 정보와 메신저 편의성은 여전히 네이버와 카카오의 고유한 강점입니다.\n4. 상황별 듀얼 활용(심층 작업은 글로벌, 로컬 탐색은 국내 플랫폼)이 가장 현명한 전략입니다.\n* 무료 사용 시 개인정보 보호를 위해 데이터 학습 동의 설정을 반드시 확인하시기 바랍니다.\n❓ 자주 묻는 질문 (FAQ)\nQ. 무료 무제한 혜택에 이미지나 파일 업로드도 포함되나요?\n아닙니다. 무제한 정책은 순수 텍스트 대화에 한정되며, 고해상도 이미지 생성, 대용량 파일 분석, 음성 대화 기능 등은 기존과 동일하게 별도의 제한이 적용됩니다.\nQ. 한국어 실시간 정보는 어떤 챗봇이 가장 정확한가요?\n국내 지역 매장, 공공기관 정책, 최근 개통된 지하철 노선 등 로컬 데이터가 필수적인 정보는 네이버의 AI 검색 연계 서비스가 가장 높은 신뢰도를 보여줍니다.\nQ. 무료 버전 사용 시 제 대화가 유출될 위험은 없나요?\n대화 내용이 외부에 직접 공개되지는 않으나, 모델 학습 데이터로 활용될 수 있습니다. 민감한 정보 입력을 피하고 설정 메뉴에서 데이터 공유 비활성화를 설정해 두시는 것을 권장합니다.\n하나의 절대적인 도구를 고집하기보다는, 각 서비스가 지닌 고유의 장점을 파악하여 유연하게 번갈아 사용하는 것이 생산성을 두 배로 끌어올리는 비결입니다. 오늘 정리해 드린 기준을 바탕으로 나만의 똑똑한 AI 활용 루틴을 만들어보세요.",
@@ -36,34 +151,7 @@
     ]
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Signatures, be true: domain errors and functional handling in Kotlin",
-    "description": "Here’s a function that signs a document: In Kotlin, Unit means the function completes without returning a meaningful value – roughly equivalent to void in Java. Got it? Now, tell me what could go wrong. You can’t.  Yet, the code might be invalid. The signing window might have closed. The database might be down. The […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-domain-errors-and-functional-handling-in-kotlin/",
-    "pubDate": "Wed, 19 Aug 2026 15:52:05 +0000",
-    "creator": "Viliam Sedliak",
-    "categories": [
-      "backend",
-      "kotlin"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "인간 디자이너라는 병목 ",
-    "description": "토스 팟캐스트   토스 디자이너가 AI를 멈춰 세우는 자리",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/52365",
-    "pubDate": "Thu, 13 Aug 2026 11:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
+    "id": 10,
     "imageUrl": "",
     "title": "How we knew COVID was over (and what our models had to unlearn)",
     "description": "No description available",
@@ -81,89 +169,54 @@
     ]
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "클로드 스킬로 10분 만에 끝내는 고품질 웹사이트 디자인 가이드",
-    "description": "AI로 웹사이트를 제작할 때 무개성한 디자인에 실망하셨나요? Refero DESIGN.md를 활용해 클로드 스킬 웹사이트 디자인 체계를 구축하면, 단 10분 만에 일관성 있고 수준 높은 UI 시스템을 적용할 수 있습니다. 본 가이드에서 구체적인 7단계 실행 방법과 프롬프트 노하우를 확인해 보세요.\n웹사이트 개발에 AI를 활용하다 보면 매번 어딘가 익숙한 보라색 그라디언트와 동글동글한 카드가 등장해 당황스러웠던 적이 있을 겁니다. 개발자가 원하는 고유의 브랜드 정체성과 규격화된 시스템을 부여하려면 정교한 제약 조건이 필수적이에요. 클로드 스킬 웹사이트 디자인 방식을 도입하면 모호한 지시 없이도 완벽한 디자인 토큰을 상시 유지할 수 있답니다.\n\n\n  AI가 만든 웹사이트가 항상 비슷해 보이는 이유\n생성형 AI 모델에게 단순히 \"모던하고 멋진 포트폴리오 웹사이트 만들어줘\"라고 지시하면 AI는 평균적인 데이터 학습 결과에 의존하게 됩니다. 결과적으로 파스텔톤 배경, 과도한 레이어 그림자, 중앙 정렬 헤더 형태의 무개성한 레이아웃이 반복되죠. AI 모델의 지능이 모자라서가 아니라 시각적 제약 조건(Design Constraints)을 명확하게 전달받지 못했기 때문이에요.\n우수한 디자이너들이 디자인 시스템을 만드는 이유는 취향이 아닌 규칙의 정립에 있습니다. 색상 팔레트, 폰트 스케일, 컴포넌트 여백과 보더 라디우스 등이 명확히 지정되어 있을 때 비로소 결과물의 정교함이 완성됩니다. 이러한 체계를 마크다운 형태로 규격화한 것이 DESIGN.md이고, 이를 매 대화마다 반복 입력할 필요 없이 고정 자산화하는 도구가 바로 클로드 스킬이에요.\n  핵심 인사이트: 디자인 규칙을 정의한 문서 하나만 확보해두면 AI 코딩 도구가 바뀌어도 동일한 브랜드 스타일을 유지한 채 웹 UI를 생성해낼 수 있습니다.\n  Refero Styles와 DESIGN.md의 개념\nRefero Styles는 실제로 활발하게 운영되는 글로벌 프로덕트들의 웹사이트에서 디자인 요소를 추출해 모아둔 AI 판독용 디자인 시스템 라이브러리입니다. 각 카드마다 폰트 조합, 컬러 hex 코드, 간격 토큰, 버튼 스펙 등이 상세하게 명시되어 있으며, 버튼 클릭 한 번으로 DESIGN.md 포맷으로 다운로드할 수 있어요.\n\n\n이 문서에는 웹 프론트엔드 구축에 필요한 모든 토큰 정보가 포함되어 있어, 클로드뿐만 아니라 커서(Cursor)나 v0 같은 다른 생성 도구에서도 즉시 활용 가능합니다. 직접 디자인 시스템을 처음부터 작성하지 않고도 검증된 테마를 빠르게 이식할 수 있다는 점이 가장 큰 장점이에요.\nRefero MCP 서버 및 스킬 저장소 활용\nRefero는 정적 다운로드 기능 외에도 에이전트가 직접 스타일 라이브러리를 검색할 수 있는 공식 MCP(Model Context Protocol) 서버와 GitHub 스킬 저장소를 제공해요. 따라서 워크플로우가 고도화되면 매번 다운로드하지 않고도 라이브러리를 동적으로 연결하여 사용할 수 있답니다.\n⚙️ 본격 시작 전 필수 선행 설정 체크리스트\n클로드에 커스텀 스킬을 추가하기 전에 가장 많이 겪는 실수가 바로 플랫폼 환경 설정입니다. 스킬은 인터랙티브한 코드 실행 환경과 긴밀히 연동되므로 관련 옵션이 꺼져 있으면 메뉴 자체가 비활성화될 수 있어요.\n⚠️ 주의사항: 스킬 메뉴가 회색으로 나타나며 클릭되지 않는다면 플랜별 가이드에 따라 '코드 실행' 스위치가 켜져 있는지 가장 먼저 점검하셔야 합니다.\n개인 플랜 (Free, Pro, Max): [설정(Settings)] → [기능(Capabilities)] 메뉴로 이동해 \"코드 실행 및 파일 생성\" 옵션을 활성화하세요.\n팀 및 엔터프라이즈 플랜 (Team, Enterprise): 조직 워크스페이스 관리자가 [조직 설정] → [스킬] 탭에서 스킬 기능과 코드 실행 옵션을 둘 다 ON으로 변경해야 팀원들이 사용할 수 있습니다.\n  클로드 스킬 웹사이트 디자인 7단계 가이드\n체계적인 클로드 스킬 웹사이트 디자인 워크플로우를 완성하는 전체 과정은 단 7단계로 마무리됩니다. 천천히 따라 해보시면 10분 이내에 자신만의 디자인 스킬을 탑재할 수 있을 거예요.\n\n\n\n1단계 · 스타일 탐색 및 선택: styles.refero.design에 접속하여 제작하려는 서비스 무드에 적합한 브랜드를 찾습니다.\n2단계 · DESIGN.md 파일 확보: 선택한 카드 하단에서 마크다운 구조의 DESIGN.md 파일을 내려받거나 텍스트를 복사합니다.\n3단계 · SKILL.md 변환 및 프론트매터 작성: 다운로드한 파일명을 SKILL.md로 변경하고 최상단에 다음과 같은 프론트매터(YAML 메타데이터)를 작성해주세요.\n---\nname: linear-style\ndescription: 다크 테마 SaaS 스타일 UI 제작용 스킬. 웹페이지, 랜딩페이지, 포트폴리오 디자인 시 본 디자인 토큰을 강제 적용함.\n---\n4단계 · 디렉터리 구조화 및 ZIP 압축: linear-style이라는 상위 폴더를 만들고 내부에 SKILL.md를 넣은 후 폴더 전체를 압축합니다. 중요: ZIP 압축 해제 시 최상위 폴더 바로 밑에 SKILL.md가 있어야 인식 실패를 방지할 수 있습니다.\n5단계 · 스킬 파일 업로드: 클로드 웹 화면이나 데스크톱 앱에서 [Customize] → [Skills] → [+] 버튼을 누르고 ZIP 파일을 올립니다.\n6단계 · 토글 활성화: 목록에 생성된 스킬 스위치를 ON 상태로 켭니다.\n7단계 · 코워크 세션에서 슬래시(/) 호출: 새로운 대화 세션을 열고 프롬프트 입력창에 /linear-style을 입력하거나 스킬 이름을 문맥에 자연스럽게 포함해 지시합니다.\n  결과물을 바꾸는 프롬프트와 자체 검증 기법\n스킬을 정상적으로 등록했더라도 프롬프트가 대충 작성되면 원하는 퀄리티를 얻을 수 없습니다. 명확한 섹션 구성 지시와 함께 자체 교정 프로세스를 프롬프트에 녹여내는 것이 완성도의 결정적 차이를 만들어냅니다.\n좋은 프롬프트 작성 프레임워크\n아래 표를 참고해 불명확한 단발성 프롬프트 대신, 검증을 요구하는 입체적인 프롬프트를 구성해 보세요.\n구분\n프롬프트 예시\n결과 차이\n\n\n\n\n비권장 (모호함)\n\"포트폴리오 사이트 예쁘게 하나 만들어줘.\"\n일반적인 보라색 기본 템플릿 출력\n\n\n권장 (정교함)\n\"/linear-style을 사용해서 개발자 포트폴리오 랜딩페이지를 제작해줘. 히어로, 프로젝트 카드 3개, 경력 사항, 방명록 섹션을 포함하고 디자인 토큰 규격을 엄격히 준수해줘. 마지막으로 DESIGN.md 규칙과 결과물을 비교 검증해 어긋난 토큰 보고서를 작성해줘.\"\n규격화된 다크 모드 토큰 완벽 적용 및 자체 검증 보고서 제공\n\n\n\n제가 실제로 테스트해 봤을 때, 문장 끝에 \"완성 후 DESIGN.md 규격과 비교 대조해서 예외가 발생한 부분을 보고해줘\"라는 요구사항을 덧붙이는 것만으로도 디자인 시스템 이탈률이 눈에 띄게 줄어드는 효과를 경험했습니다.\n ️ 트러블슈팅: 자주 발생하는 오류 3가지\n처음 스킬을 구성할 때 자주 마주치는 대표적인 문제 상황 3가지와 명쾌한 해결 방법을 정리해 드릴게요.\n1. 스킬 메뉴가 회색으로 비활성화되어 비활성 상태인 경우: 환경 설정에서 '코드 실행 및 파일 생성' 기능이 오프 상태일 가능성이 높습니다. 설정으로 이동해 스위치를 다시 켜세요.\n2. ZIP 파일 업로드 실패 오류: 압축 파일 폴더 구조에서 SKILL.md가 한 단계 더 깊은 이중 폴더 안에 들어있지 않은지 확인해 보세요. 루트 디렉터리에 파일이 바로 위치해야 합니다.\n3. 스킬을 켰음에도 AI가 이전 스타일로 답하는 경우: 프론트매터의 description 문구가 너무 모호할 수 있습니다. AI가 어떤 조건에서 이 스킬을 불러와야 하는지 구체적인 사용 맥락을 보강해 보세요.\n  핵심 요약\n✔️ 디자인 제약 조건 확보: Refero Styles에서 검증된 UI 가이드 문서(DESIGN.md)를 다운로드받습니다.\n✔️ SKILL.md 변환: 파일명 변경 및 프론트매터 추가 후 올바른 디렉터리 포맷으로 ZIP 압축해 등록합니다.\n✔️ 사전 환경 설정 점검: 플랫폼 설정의 '코드 실행 및 파일 생성' 옵션이 활성화되었는지 먼저 확인합니다.\n✔️ 검증 프롬프트 결합: 생성 후 규격 문서와 대조 분석하라는 지시를 추가해 디자인 완성도를 최상으로 올립니다.\n※ 나만의 디자인 시스템 스킬을 한 번 등록해 두면 모든 코워크 세션에서 무제한 재사용 가능합니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1. DESIGN.md 확장자를 변환하지 않고 그대로 업로드하면 작동하지 않나요?\n네, 클로드 커스텀 스킬 엔진은 SKILL.md 파일명을 표준 규격으로 인식합니다. 일반 파일 첨부는 일회성에 그치지만, 스킬로 상시 재사용하려면 반드시 파일명을 SKILL.md로 변경하고 메타데이터를 추가해 압축 업로드해야 합니다.\nQ2. 무료 이용 플랜에서도 이 기능을 활용해 웹사이트를 디자인할 수 있나요?\n네, 스킬 기능 자체는 무료(Free) 사용자 계정에서도 동일하게 지원됩니다. 다만 설정에서 '코드 실행' 옵션을 명시적으로 켜주어야 하며 사용량 한도에 약간의 차이가 있을 수 있습니다.\nQ3. 유명 브랜드의 스타일 토큰을 그대로 사용해도 저작권 이슈가 없나요?\n컬러 헥사 코드, 여백 스케일, 폰트 위계 같은 범용 토큰 수치는 독점 저작권 대상이 아닙니다. 다만 브랜드 고유의 로고, 미디어 파일, 카피라이팅 문구 등은 자체 자산으로 치환해 사용해야 안전합니다.\n지금 바로 Refero Styles에서 선호하는 마음에 드는 스타일 시스템 하나를 다운받아 나만의 스킬로 등록해 보세요. 무개성하던 AI 생성 레이아웃이 10분 만에 매끄러운 프로급 UI로 변화하는 놀라운 경험을 하게 될 것입니다!",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483731",
-    "pubDate": "Thu, 13 Aug 2026 13:55:55 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "AI 디자인 시스템",
-      "AI 웹사이트 제작",
-      "AI 프롬프트 가이드",
-      "DESIGN md",
-      "Refero Design",
-      "SKILL md",
-      "웹 UI 디자이너",
-      "클로드 스킬 웹사이트 디자인",
-      "클로드 코워크",
-      "프론트엔드 자동화"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "New in Air: Claude Subscriptions, Multiproject View, and Improved Markdown",
-    "description": "You can now use Air with your existing Claude Pro, Max, or Team subscription. Usage counts against your subscription quota – there’s no need to purchase API credits and no per-token Console billing. Login goes through Anthropic’s own authentication flow. Air never sees or stores your credentials. This was our most-requested feature and it took […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/air/2026/08/new-in-air-claude-subscriptions-multiproject-view-and-improved-markdown/",
-    "pubDate": "Wed, 19 Aug 2026 17:35:10 +0000",
-    "creator": "Vladimir Gromozdin",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "news"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "AI Coding Agents: Adoption Trends",
-    "description": "Based on the Developer Ecosystem Survey 2026, the tenth edition of our large-scale, globally representative study run by the Strategic Research and Market Intelligence team. This post picks up where our previous report on the adoption of the main AI coding tools left off in April 2026. We recently ran the Developer Ecosystem Survey 2026 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/",
-    "pubDate": "Tue, 18 Aug 2026 15:03:13 +0000",
-    "creator": "Mikhail Bogdanov",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "ai-agents"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "데이터 시인성 - 10th",
-    "description": "데이터 발생 확률을 측정해주는 anomalousvalue 실행 결과. 값이 0에 가까울수록 발생 확률이 낮다는 의미이기 때문에 그만큼 이상징후일 가능성이 높다.\n\n\n\n\n\n문제는 값이 0에 가까울수록 눈으로 확인하기 어려운 차트가 그려진다는 것. 차트 형식에 따라 잘못된 상황 판단을 할 수도 있다는 얘기. \n\n\n\n\n\n\n이때 이상값 측정 필드 존재 여부를 수치화하는 방법이 대안이 될 수 있다.\n\n\n\n관련 글\n\n데이터 시인성 - 9th\n데이터 시인성\nhaving query\nSplunk의 해시 변환\n네트워크 관계망 그리기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/08/10th.html",
-    "pubDate": "2026-08-16T10:21:11.996Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "MSVC Build Tools Preview updates – August 2026",
-    "description": "Try the latest updates to MSVC Build Tools Preview\nThe post MSVC Build Tools Preview updates – August 2026 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-august-2026/",
-    "pubDate": "Thu, 13 Aug 2026 15:01:10 +0000",
-    "creator": "Eric Brumer",
-    "categories": [
-      "C++"
-    ]
-  },
-  {
     "id": 11,
+    "imageUrl": "",
+    "title": "있는 그대로의 나",
+    "description": "나는 일과 관련된 저녁식사인 ‘비즈니스 디너’를 잘 안 한다. 주 중 일정이 워낙 빡빡해서 하루라도 루틴과 컨디션이 무너지면 그날은 당연히 힘들고, 이게 일주일 내내 영향을 미치기 때문에 되도록 일찍 자고 일찍 일어나서 내가 매일 하는 루틴을 지키는 노력을 한다. 저녁 약속이 있으면 늦게까지 뭘 먹고, 많이 먹진 않지만, 술도 먹고, 그리고 늦게 자고 일찍 일어나야(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/08/being-myself.html",
+    "pubDate": "Wed, 19 Aug 2026 21:35:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "consistency",
+      "discipline",
+      "inspiring",
+      "korea"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Toolbox App 3.7: JVM Memory Optimizations and Update Improvements",
+    "description": "Toolbox App 3.7 enables JVM memory optimization by default, improves the reliability of updates and session expiration recovery, and ensures compatibility with Windows Smart App Control. Action required: Update Toolbox App on Windows If you’re using an older version of the Toolbox App (3.4 or earlier) for Windows, update to v3.7 or later to keep […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/toolbox-app/2026/08/toolbox-app-3-7-jvm-memory-optimizations-and-update-improvements/",
+    "pubDate": "Tue, 18 Aug 2026 14:32:34 +0000",
+    "creator": "Lana Novikova",
+    "categories": [
+      "jetbrains-toolbox",
+      "toolbox-app"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "5070 Ti 에서 로컬 LLM 돌리는 속도",
+    "description": "5070 Ti 에서 로컬 LLM 돌렸을 때 속도 (TPS)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://coolspeed.wordpress.com/2026/08/18/5070-ti-local-llm-speed/",
+    "pubDate": "Tue, 18 Aug 2026 05:02:40 +0000",
+    "creator": "coolspeed",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "보안 업무를 위한 AI 에이전트 플랫폼 「SAGE」 개발기 1편: 판단은 사람에게 남기는 설계",
     "description": "안녕하세요. 사내 보안 업무에 AI를 접목하는 일을 하고 있는 Security Development Division(LINE Plus Security R&D)팀입니다.이 글은 사내...",
@@ -175,72 +228,18 @@
     "categories": []
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Rider 2026.2.1 and ReSharper 2026.2.1 Are Here!",
-    "description": "Our first minor update for the 2026.2 release cycle is ready to download. Here’s what’s new. Rider Rider 2026.2 put AI-assisted development front and center, and v2026.2.1 keeps that momentum going: The refactoring-code skill, bundled in JetBrains Rider Median task time before: 157.9s → after: 26.6s 83% faster Cost per solved task before: USD 0.52 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/08/19/rider-resharper-2026-2-1/",
-    "pubDate": "Wed, 19 Aug 2026 15:36:45 +0000",
-    "creator": "Alexander Kurakin",
-    "categories": [
-      "net-tools",
-      "release",
-      "releases",
-      "rider",
-      "agent-skills",
-      "debugger",
-      "out-of-process-2",
-      "refactorings",
-      "resharper",
-      "resharper_oop"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 62화, 미행인데스와",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2486",
-    "pubDate": "Wed, 19 Aug 2026 20:35:59 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "웹툰"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "Junie’s New Default Runs on Gemini 3.7 Flash, at 40% Off Base Pricing ",
-    "description": "Google’s most capable Flash model for coding, with a limited time discount. Most of the coding you do in a day doesn’t need a flagship model. It needs a good one that won’t have drained your budget by lunchtime. That’s the thinking behind Junie’s new default, Gemini 3.7 Flash. It’s live now in both the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/junie/2026/08/junie-gemini-3-7-flash/",
-    "pubDate": "Mon, 17 Aug 2026 10:04:21 +0000",
-    "creator": "Dmitry Savelev",
-    "categories": [
-      "agentic-ai",
-      "coding",
-      "jetbrains-ai",
-      "sales",
-      "ai-agent",
-      "junie",
-      "news"
-    ]
-  },
-  {
     "id": 15,
     "imageUrl": "",
-    "title": "Qodana Expands Security Analysis with OpenGrep Rules, and More",
-    "description": "Modern software development teams face a difficult balancing act. Applications are growing more complex, release cycles are accelerating, and security expectations continue to rise.  This is especially true in a time where much more code is generated daily, which needs to be checked. Teams need tools that can identify vulnerabilities early without creating additional friction […]",
+    "title": "택틱으 오우거 리본 - 하보림 이벤트 / 크리자로 마을",
+    "description": "위치는 크리자로  마을\n\n\n어딧냐 하면 \n\n\n상당히 아래쪽에 있네 ..\n \n \n \n \n \n내용\n\n\n \n공중정원 만 남겨둔 상황인데 이벤트 씬이 있었군요\n \n해방군에 이중 스파이가 있다는 소문이 있나보다.\n \n\n\n \n오 충격적인 전개\n \n\n\n암흠기사 발제폰의 동생이라고 한다.\n \n\n\n발제폰을 죽이러 왔다고 한다.\n복수를 위해 이곳에 왔다는 하보림\n \n회상씬\n\n\n아버지와 의견 분열이 있다.\n발제폰은 로스로리안 우선 주의를 주장한다.\n \n\n\n \n빨간옷이 발제폰 인데 칼로 아버지를 찔럿다.\n발제폰은 구데타를 일으켰고 성공한 모양이다.\n \n하보림은 잡혀서 두눈을 잃고\n부모를 죽인 누명도 뒤집어 쓰게 되었다.\n(억울한 사연이군)\n \n이런 이유로 이중 스파이는 아니라고 주장한다.\n \n전투는 없고 연출씬만 보는거였다.\n물론 하보림이 있어야겠지만",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/08/opengrep-inspections/",
-    "pubDate": "Tue, 18 Aug 2026 10:32:06 +0000",
-    "creator": "Kerry Beetge",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1684",
+    "pubDate": "Sat, 15 Aug 2026 03:39:50 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "게임공략",
+      "택틱스오우거리본"
+    ]
   }
 ]
