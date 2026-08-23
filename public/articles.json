@@ -20,19 +20,35 @@
   {
     "id": 2,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화 - 62화, 미행인데스와",
+    "title": "How we knew COVID was over (and what our models had to unlearn)",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2486",
-    "pubDate": "Wed, 19 Aug 2026 20:35:59 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://medium.com/airbnb-engineering/how-we-knew-covid-was-over-and-what-our-models-had-to-unlearn-c606b9bdb0ab?source=rss----53c7c27702d5---4",
+    "pubDate": "Wed, 19 Aug 2026 17:01:03 GMT",
+    "creator": "Harrison Katz",
     "categories": [
-      "웹툰"
+      "data-science",
+      "data-modeling",
+      "technology",
+      "machine-learning",
+      "data"
     ]
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "데이터 시인성 - 10th",
+    "description": "데이터 발생 확률을 측정해주는 anomalousvalue 실행 결과. 값이 0에 가까울수록 발생 확률이 낮다는 의미이기 때문에 그만큼 이상징후일 가능성이 높다.\n\n\n\n\n\n문제는 값이 0에 가까울수록 눈으로 확인하기 어려운 차트가 그려진다는 것. 차트 형식에 따라 잘못된 상황 판단을 할 수도 있다는 얘기. \n\n\n\n\n\n\n이때 이상값 측정 필드 존재 여부를 수치화하는 방법이 대안이 될 수 있다.\n\n\n\n관련 글\n\n데이터 시인성 - 9th\n데이터 시인성\nhaving query\nSplunk의 해시 변환\n네트워크 관계망 그리기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/08/10th.html",
+    "pubDate": "2026-08-16T10:21:11.996Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
     "imageUrl": "",
     "title": "Ready for Go 1.27 on Day One",
     "description": "Go 1.27 is here, and the release notes have plenty to explore. Language updates include generic methods, promoted field names in struct composite literals, and improved function type inference. Beyond the language itself, Go 1.27 expands go fix with new modernizers and adds a profile for finding goroutine leaks. These updates touch many parts of […]",
@@ -50,30 +66,19 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "5070 Ti 에서 로컬 LLM 돌리는 속도",
-    "description": "5070 Ti 에서 로컬 LLM 돌렸을 때 속도 (TPS)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://coolspeed.wordpress.com/2026/08/18/5070-ti-local-llm-speed/",
-    "pubDate": "Tue, 18 Aug 2026 05:02:40 +0000",
-    "creator": "coolspeed",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
     "id": 5,
     "imageUrl": "",
-    "title": "일본어 상품 검색 정확도 높이기: Elasticsearch + Kuromoji에서 OpenSearch + Sudachi로",
-    "description": "들어가며안녕하세요. LINE Plus에서 통합 커머스 개발을 맡고 있는 김진성입니다.2025년 초, 통합 커머스 프로젝트가 시작되었습니다.서비스가 안정되어 가던 중, 일본 담당자로...",
+    "title": "Toolbox App 3.7: JVM Memory Optimizations and Update Improvements",
+    "description": "Toolbox App 3.7 enables JVM memory optimization by default, improves the reliability of updates and session expiration recovery, and ensures compatibility with Windows Smart App Control. Action required: Update Toolbox App on Windows If you’re using an older version of the Toolbox App (3.4 or earlier) for Windows, update to v3.7 or later to keep […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/japanese-search-kuromoji-to-sudachi",
-    "pubDate": "Fri, 21 Aug 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/toolbox-app/2026/08/toolbox-app-3-7-jvm-memory-optimizations-and-update-improvements/",
+    "pubDate": "Tue, 18 Aug 2026 14:32:34 +0000",
+    "creator": "Lana Novikova",
+    "categories": [
+      "jetbrains-toolbox",
+      "toolbox-app"
+    ]
   },
   {
     "id": 6,
@@ -94,80 +99,6 @@
   {
     "id": 7,
     "imageUrl": "",
-    "title": "챗GPT 무료 무제한 vs 네이버&middot;카카오 AI: 한국 사용자를 위한 챗봇 선택 기준",
-    "description": "매일 쓰는 AI 서비스, 과연 무엇을 골라야 할까요? 텍스트 대화 무제한 무료를 선언한 글로벌 대표 주자와 국내 환경에 최적화된 토종 포털의 서비스를 한눈에 대조하며 나에게 꼭 맞는 최적의 선택지를 찾아봅니다.\n매일 쏟아지는 인공지능 소식 속에서 어떤 도구를 메인으로 써야 할지 고민이 깊어집니다. AI 챗봇 비교를 통해 일상 작업부터 업무 생산성까지 내 상황에 가장 딱 들어맞는 기준을 명확하게 정리해 드립니다.\n\n\n1. 판도가 뒤바뀐 글로벌 AI: 무료 무제한 정책의 진짜 의미\n기존에는 무료 사용량에 엄격한 일일 상한선이 있어 질문 몇 개만 던져도 대기 시간이 발생하곤 했습니다. 하지만 기본 탑재 모델이 효율적인 경량형 모델로 전면 교체되면서 텍스트 채팅에 한해 사용 횟수 제한이 완전히 풀리는 파격적인 변화가 생겼습니다.\n이러한 변화는 단순히 \"더 비싼 고성능 모델을 무료로 제공한다\"는 뜻이 아닙니다. 추론 비용을 극적으로 낮춘 소형 모델을 앞세워 단말기 단위의 한계비용을 제로화하고, 검색창 대신 챗봇을 가장 먼저 켜게 만들겠다는 영리한 유통 전략이 숨어 있습니다.\n  과금 경계의 변화\n과거에는 \"하루에 몇 번 대화할 수 있는가\"가 유료 전환의 기준이었다면, 이제는 \"얼마나 깊이 있게 생각(추론)하고 답변을 도출할 것인가\"로 패러다임이 이동했습니다.\n\n\n2. AI 챗봇 비교: 글로벌 강자 vs 네이버·카카오\n국내 사용자의 90% 이상이 모바일 환경에서 활동하는 만큼, 로컬 생태계의 편리함과 글로벌 모델의 압도적인 범용성은 각기 다른 매력을 지닙니다. 주요 플랫폼의 특성을 비교표로 정리했습니다.\n구분\n글로벌 챗봇 (OpenAI)\n네이버 (CLOVA X / Cue:)\n카카오 (카카오톡 AI)\n\n\n\n\n무료 텍스트 혜택\n텍스트 대화 무제한 지원\n기본 무료 제공 (연동 기능 풍부)\n메신저 내 경량형 무료 접점\n\n\n한국어 로컬 맥락\n우수하나 최신 골목상권/트렌드는 약함\n지도, 쇼핑, 블로그 연계 최상\n카톡 대화 요약, 일정 조율 최상\n\n\n추론 및 코딩 역량\n복잡한 논리, 코드 작성 압도적\n문서 작성 및 요약에 강점\n일상 대화 보조에 특화\n\n\n학습 데이터 정책\n무료 기본 학습 (설정에서 끄기 가능)\n국내 개인정보 보호 가이드 준수\n사적 대화 암호화 및 제한적 활용\n\n\n\n\n토종 AI가 여전히 강력한 이유: 한국형 생태계의 힘\n외산 챗봇이 아무리 똑똑해져도 '강남역 1번 출구 근처 주차 가능한 한식집 예약'이나 '네이버페이 구매 내역 기반 제품 문의' 같은 작업에서는 네이버와 카카오의 연결성을 따라잡기 어렵습니다. 특히 일상적인 예약, 쇼핑, 메신저 대화 요약은 국내 플랫폼이 훨씬 매끄럽게 처리합니다.\n\n\n3. 목적별 맞춤형 선택 가이드\n내가 주로 어떤 작업을 수행하느냐에 따라 챗봇 조합을 다르게 가져가는 것이 가장 효율적입니다. 실제로 자주 겪는 상황을 기준으로 추천 조합을 정리해 드립니다.\n학습 및 코딩·번역: 글로벌 챗봇의 무료 무제한 모드를 메인으로 활용하여 방대한 데이터와 복잡한 논리 문제를 해결하세요.\n국내 맛집·여행·쇼핑 탐색: 실시간 리뷰와 장소 정보가 풍부한 네이버 AI 서비스를 활용하는 것이 오차를 줄이는 지름길입니다.\n모바일 일정 조율 및 메신저 업무: 번거로운 앱 전환 없이 카카오톡 안에서 바로 처리하는 카카오 AI가 가장 간편합니다.\n⚠️ 무료 사용 시 보안 주의사항\n무료 서비스의 기본 설정은 대화 내용이 모델 재학습에 활용될 수 있습니다. 회사 기밀, 민감한 개인정보, 금융 코드는 절대 입력하지 마시고, [설정] → [데이터 컨트롤]에서 모델 학습 기능을 비활성화하고 사용하세요.\n실무 생산성을 극대화하는 멀티 챗봇 교차 워크플로\n단일 플랫폼에만 의존하기보다 각 서비스의 특화 영역을 사슬처럼 연결하면 작업 소요 시간을 절반 이하로 단축할 수 있습니다. 예를 들어 글로벌 트렌드 리서치나 복잡한 프로그래밍 오류 해결은 챗GPT의 방대한 영문 코퍼스를 통해 초안을 잡고, 이를 국내 비즈니스 환경에 맞는 보고서 형식으로 다듬을 때는 네이버 클로바X에 프롬프트를 넘겨 매끄러운 비즈니스 한국어 톤앤매너로 재가공하는 방식이 대표적입니다.\n1단계 (기획 및 뼈대 구축): 글로벌 엔진을 통해 해외 최신 레퍼런스를 수집하고 논리 구조를 잡습니다.\n2단계 (로컬 팩트체크 및 서식화): 네이버 검색 연동 기능을 켜서 국내 관련 법령이나 시장 수치의 최신성을 검증합니다.\n3단계 (협업 배포): 카카오톡 AI 요약 기능을 활용해 팀원들이 바로 확인할 수 있는 3줄 핵심 브리핑 메시지로 변환합니다.\n공공·행정 문서 처리 시 놓치지 말아야 할 파일 호환 팁\n국내 업무 환경에서 빈번하게 마주치는 HWPX 및 공공기관 서식 파일 분석은 토종 엔진이 독보적인 성능을 발휘합니다. 외산 모델에 한글(HWP) 문서를 직접 업로드하면 글자가 깨지거나 서식이 무너져 엉뚱한 답변을 내놓기 일쑤지만, 국내 포털 AI는 전용 파서를 내장하여 표 구조와 문단 위계를 정확히 인식하므로 입찰 공고문이나 정부 지원 사업 요강을 분석할 때 탁월한 정확도를 보장합니다.\n마지막으로 답변의 신뢰도를 판별할 때는 출처 역추적(Grounding) 링크 제공 여부를 반드시 확인해야 합니다. 생성된 문장 끝에 원문 링크가 붙는 검색 특화 모드를 적극 병행하면, 생성형 AI 특유의 그럴듯한 거짓말인 환각 현상을 사전에 완벽히 차단하고 업무 오류를 방지할 수 있습니다.\n  핵심 요약\n1. 글로벌 챗봇의 텍스트 무제한 전환으로 일상적인 질의응답을 부담 없이 활용할 수 있습니다.\n2. 유료와 무료의 차이는 횟수가 아닌 심층 추론(Thinking)의 깊이로 재편되었습니다.\n3. 로컬 정보와 메신저 편의성은 여전히 네이버와 카카오의 고유한 강점입니다.\n4. 상황별 듀얼 활용(심층 작업은 글로벌, 로컬 탐색은 국내 플랫폼)이 가장 현명한 전략입니다.\n* 무료 사용 시 개인정보 보호를 위해 데이터 학습 동의 설정을 반드시 확인하시기 바랍니다.\n❓ 자주 묻는 질문 (FAQ)\nQ. 무료 무제한 혜택에 이미지나 파일 업로드도 포함되나요?\n아닙니다. 무제한 정책은 순수 텍스트 대화에 한정되며, 고해상도 이미지 생성, 대용량 파일 분석, 음성 대화 기능 등은 기존과 동일하게 별도의 제한이 적용됩니다.\nQ. 한국어 실시간 정보는 어떤 챗봇이 가장 정확한가요?\n국내 지역 매장, 공공기관 정책, 최근 개통된 지하철 노선 등 로컬 데이터가 필수적인 정보는 네이버의 AI 검색 연계 서비스가 가장 높은 신뢰도를 보여줍니다.\nQ. 무료 버전 사용 시 제 대화가 유출될 위험은 없나요?\n대화 내용이 외부에 직접 공개되지는 않으나, 모델 학습 데이터로 활용될 수 있습니다. 민감한 정보 입력을 피하고 설정 메뉴에서 데이터 공유 비활성화를 설정해 두시는 것을 권장합니다.\n하나의 절대적인 도구를 고집하기보다는, 각 서비스가 지닌 고유의 장점을 파악하여 유연하게 번갈아 사용하는 것이 생산성을 두 배로 끌어올리는 비결입니다. 오늘 정리해 드린 기준을 바탕으로 나만의 똑똑한 AI 활용 루틴을 만들어보세요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483732",
-    "pubDate": "Wed, 19 Aug 2026 11:18:53 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "AI 검색 vs 챗봇",
-      "ai 서비스 비교",
-      "ai 챗봇 비교",
-      "네이버 클로바X",
-      "생성형 AI 활용법",
-      "인공지능 챗봇 추천",
-      "챗GPT 무료 무제한",
-      "챗봇 모델 비교",
-      "카카오톡 Ai",
-      "한국어 AI 챗봇"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Qodana Expands Security Analysis with OpenGrep Rules, and More",
-    "description": "Modern software development teams face a difficult balancing act. Applications are growing more complex, release cycles are accelerating, and security expectations continue to rise.  This is especially true in a time where much more code is generated daily, which needs to be checked. Teams need tools that can identify vulnerabilities early without creating additional friction […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/08/opengrep-inspections/",
-    "pubDate": "Tue, 18 Aug 2026 10:32:06 +0000",
-    "creator": "Kerry Beetge",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "보안 업무를 위한 AI 에이전트 플랫폼 「SAGE」 개발기 1편: 판단은 사람에게 남기는 설계",
-    "description": "안녕하세요. 사내 보안 업무에 AI를 접목하는 일을 하고 있는 Security Development Division(LINE Plus Security R&D)팀입니다.이 글은 사내...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/ai-agent-platform-sage-dev-log-part-1",
-    "pubDate": "Tue, 18 Aug 2026 05:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "What Your First Months at JetBrains Look Like?",
-    "description": "Starting a new job is exciting, and there’s a lot to take in. At JetBrains, onboarding doesn’t stop after your first day. It starts when you accept your offer and continues through your first months, giving you the information, tools, and support you need to settle in and start doing your best work. Here’s what […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/life-at-jetbrains/2026/08/new-employee-onboarding/",
-    "pubDate": "Mon, 17 Aug 2026 13:17:50 +0000",
-    "creator": "Grete Kivi",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "[MULTI] 다 피우지 못한 깨달음의 꽃망울, 비스트 오브 리인카네이션",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2485",
-    "pubDate": "Wed, 19 Aug 2026 05:32:02 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
     "title": "Rider Hands AI Agents The Keys To Its Refactoring Engine For Safer, Faster, And Cheaper Results",
     "description": "We traced a frontier model through fifteen C# refactoring tasks and counted what it reached for. It piped text into interactive commands 468 times. It called git 422 times and sed 392 times. It ran dotnet build 163 times. Across 2,513 tool calls it performed a structural refactoring operation exactly zero times. Not because it […]",
     "reviews": [],
@@ -185,7 +116,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
     "title": "Spring Boot Configuration Management Best Practices",
     "description": "Spring Boot provides comprehensive externalized application configuration support. It enables one application artifact to run in different environments by supplying values from various sources such as: In this article, we’ll explore the best practices for managing Spring Boot application configuration.A well-designed configuration strategy should ensure that: Configuration properties classification Typically, Spring Boot application configuration falls […]",
@@ -202,7 +133,37 @@
     ]
   },
   {
-    "id": 14,
+    "id": 9,
+    "imageUrl": "",
+    "title": "있는 그대로의 나",
+    "description": "나는 일과 관련된 저녁식사인 ‘비즈니스 디너’를 잘 안 한다. 주 중 일정이 워낙 빡빡해서 하루라도 루틴과 컨디션이 무너지면 그날은 당연히 힘들고, 이게 일주일 내내 영향을 미치기 때문에 되도록 일찍 자고 일찍 일어나서 내가 매일 하는 루틴을 지키는 노력을 한다. 저녁 약속이 있으면 늦게까지 뭘 먹고, 많이 먹진 않지만, 술도 먹고, 그리고 늦게 자고 일찍 일어나야(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/08/being-myself.html",
+    "pubDate": "Wed, 19 Aug 2026 21:35:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "consistency",
+      "discipline",
+      "inspiring",
+      "korea"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Qodana Expands Security Analysis with OpenGrep Rules, and More",
+    "description": "Modern software development teams face a difficult balancing act. Applications are growing more complex, release cycles are accelerating, and security expectations continue to rise.  This is especially true in a time where much more code is generated daily, which needs to be checked. Teams need tools that can identify vulnerabilities early without creating additional friction […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/08/opengrep-inspections/",
+    "pubDate": "Tue, 18 Aug 2026 10:32:06 +0000",
+    "creator": "Kerry Beetge",
+    "categories": []
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "A Tale of Two Flink Autoscalers",
     "description": "No description available",
@@ -219,21 +180,61 @@
     ]
   },
   {
-    "id": 15,
+    "id": 12,
     "imageUrl": "",
-    "title": "있는 그대로의 나",
-    "description": "나는 일과 관련된 저녁식사인 ‘비즈니스 디너’를 잘 안 한다. 주 중 일정이 워낙 빡빡해서 하루라도 루틴과 컨디션이 무너지면 그날은 당연히 힘들고, 이게 일주일 내내 영향을 미치기 때문에 되도록 일찍 자고 일찍 일어나서 내가 매일 하는 루틴을 지키는 노력을 한다. 저녁 약속이 있으면 늦게까지 뭘 먹고, 많이 먹진 않지만, 술도 먹고, 그리고 늦게 자고 일찍 일어나야(...)",
+    "title": "보안 업무를 위한 AI 에이전트 플랫폼 「SAGE」 개발기 1편: 판단은 사람에게 남기는 설계",
+    "description": "안녕하세요. 사내 보안 업무에 AI를 접목하는 일을 하고 있는 Security Development Division(LINE Plus Security R&D)팀입니다.이 글은 사내...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/08/being-myself.html",
-    "pubDate": "Wed, 19 Aug 2026 21:35:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://techblog.lycorp.co.jp/ko/ai-agent-platform-sage-dev-log-part-1",
+    "pubDate": "Tue, 18 Aug 2026 05:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Signatures, be true: domain errors and functional handling in Kotlin",
+    "description": "Here’s a function that signs a document: In Kotlin, Unit means the function completes without returning a meaningful value – roughly equivalent to void in Java. Got it? Now, tell me what could go wrong. You can’t.  Yet, the code might be invalid. The signing window might have closed. The database might be down. The […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-domain-errors-and-functional-handling-in-kotlin/",
+    "pubDate": "Wed, 19 Aug 2026 15:52:05 +0000",
+    "creator": "Viliam Sedliak",
     "categories": [
-      "Uncategorized",
-      "consistency",
-      "discipline",
-      "inspiring",
-      "korea"
+      "backend",
+      "kotlin"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Today I will… Modernize a .NET application",
+    "description": "Today I will modernize a .NET Framework application to .NET 10 using the GitHub Copilot modernization tooling built-in to Visual Studio.   The tooling helps us upgrade applications running on legacy versions of .NET and also migrate them to Azure. Today we’re going to focus on the upgrade portion.   And, the tooling will do […]\nThe post Today I will… Modernize a .NET application appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application/",
+    "pubDate": "Fri, 21 Aug 2026 17:00:45 +0000",
+    "creator": "Matt Soucoup, Pablo Lopes",
+    "categories": [
+      "Copilot",
+      "Modernization",
+      "Visual Studio",
+      "GitHub Copilot"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "[MULTI] 다 피우지 못한 깨달음의 꽃망울, 비스트 오브 리인카네이션",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2485",
+    "pubDate": "Wed, 19 Aug 2026 05:32:02 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
     ]
   }
 ]
