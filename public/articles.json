@@ -2,122 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "PyCharm for AI-assisted Django Workflows",
-    "description": "The 2026 Django Developers Survey (results coming soon!) found that AI is part of the weekly or daily workflow for 90% of respondents. AI can write code quickly, but Django developers still need to understand the application, evaluate what the agent produces, and be accountable for what ships. That makes your IDE more important, not […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/08/pycharm-for-ai-assisted-django-workflows/",
-    "pubDate": "Thu, 20 Aug 2026 13:06:50 +0000",
-    "creator": "Will Vincent",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "python",
-      "web-development",
-      "django"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "How we knew COVID was over (and what our models had to unlearn)",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/how-we-knew-covid-was-over-and-what-our-models-had-to-unlearn-c606b9bdb0ab?source=rss----53c7c27702d5---4",
-    "pubDate": "Wed, 19 Aug 2026 17:01:03 GMT",
-    "creator": "Harrison Katz",
-    "categories": [
-      "data-science",
-      "data-modeling",
-      "technology",
-      "machine-learning",
-      "data"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "데이터 시인성 - 10th",
-    "description": "데이터 발생 확률을 측정해주는 anomalousvalue 실행 결과. 값이 0에 가까울수록 발생 확률이 낮다는 의미이기 때문에 그만큼 이상징후일 가능성이 높다.\n\n\n\n\n\n문제는 값이 0에 가까울수록 눈으로 확인하기 어려운 차트가 그려진다는 것. 차트 형식에 따라 잘못된 상황 판단을 할 수도 있다는 얘기. \n\n\n\n\n\n\n이때 이상값 측정 필드 존재 여부를 수치화하는 방법이 대안이 될 수 있다.\n\n\n\n관련 글\n\n데이터 시인성 - 9th\n데이터 시인성\nhaving query\nSplunk의 해시 변환\n네트워크 관계망 그리기",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/08/10th.html",
-    "pubDate": "2026-08-16T10:21:11.996Z",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Ready for Go 1.27 on Day One",
-    "description": "Go 1.27 is here, and the release notes have plenty to explore. Language updates include generic methods, promoted field names in struct composite literals, and improved function type inference. Beyond the language itself, Go 1.27 expands go fix with new modernizers and adds a profile for finding goroutine leaks. These updates touch many parts of […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2026/08/20/ready-for-go-1-27-on-day-one/",
-    "pubDate": "Thu, 20 Aug 2026 10:19:21 +0000",
-    "creator": "Artem Pronichev",
-    "categories": [
-      "goland",
-      "news",
-      "go",
-      "language-release",
-      "language-support"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Toolbox App 3.7: JVM Memory Optimizations and Update Improvements",
-    "description": "Toolbox App 3.7 enables JVM memory optimization by default, improves the reliability of updates and session expiration recovery, and ensures compatibility with Windows Smart App Control. Action required: Update Toolbox App on Windows If you’re using an older version of the Toolbox App (3.4 or earlier) for Windows, update to v3.7 or later to keep […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/toolbox-app/2026/08/toolbox-app-3-7-jvm-memory-optimizations-and-update-improvements/",
-    "pubDate": "Tue, 18 Aug 2026 14:32:34 +0000",
-    "creator": "Lana Novikova",
-    "categories": [
-      "jetbrains-toolbox",
-      "toolbox-app"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "AI Coding Agents: Adoption Trends",
-    "description": "Based on the Developer Ecosystem Survey 2026, the tenth edition of our large-scale, globally representative study run by the Strategic Research and Market Intelligence team. This post picks up where our previous report on the adoption of the main AI coding tools left off in April 2026. We recently ran the Developer Ecosystem Survey 2026 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/",
-    "pubDate": "Tue, 18 Aug 2026 15:03:13 +0000",
-    "creator": "Mikhail Bogdanov",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "ai-agents"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Rider Hands AI Agents The Keys To Its Refactoring Engine For Safer, Faster, And Cheaper Results",
-    "description": "We traced a frontier model through fifteen C# refactoring tasks and counted what it reached for. It piped text into interactive commands 468 times. It called git 422 times and sed 392 times. It ran dotnet build 163 times. Across 2,513 tool calls it performed a structural refactoring operation exactly zero times. Not because it […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/08/19/rider-refactoring-code-skill/",
-    "pubDate": "Wed, 19 Aug 2026 15:37:39 +0000",
-    "creator": "Sasha Ivanova",
-    "categories": [
-      "ai",
-      "rider",
-      "agent-skills",
-      "ai-agents",
-      "ai-skills",
-      "refactorings"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
     "title": "Spring Boot Configuration Management Best Practices",
     "description": "Spring Boot provides comprehensive externalized application configuration support. It enables one application artifact to run in different environments by supplying values from various sources such as: In this article, we’ll explore the best practices for managing Spring Boot application configuration.A well-designed configuration strategy should ensure that: Configuration properties classification Typically, Spring Boot application configuration falls […]",
     "reviews": [],
@@ -133,37 +17,7 @@
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "있는 그대로의 나",
-    "description": "나는 일과 관련된 저녁식사인 ‘비즈니스 디너’를 잘 안 한다. 주 중 일정이 워낙 빡빡해서 하루라도 루틴과 컨디션이 무너지면 그날은 당연히 힘들고, 이게 일주일 내내 영향을 미치기 때문에 되도록 일찍 자고 일찍 일어나서 내가 매일 하는 루틴을 지키는 노력을 한다. 저녁 약속이 있으면 늦게까지 뭘 먹고, 많이 먹진 않지만, 술도 먹고, 그리고 늦게 자고 일찍 일어나야(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/08/being-myself.html",
-    "pubDate": "Wed, 19 Aug 2026 21:35:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "consistency",
-      "discipline",
-      "inspiring",
-      "korea"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Qodana Expands Security Analysis with OpenGrep Rules, and More",
-    "description": "Modern software development teams face a difficult balancing act. Applications are growing more complex, release cycles are accelerating, and security expectations continue to rise.  This is especially true in a time where much more code is generated daily, which needs to be checked. Teams need tools that can identify vulnerabilities early without creating additional friction […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/08/opengrep-inspections/",
-    "pubDate": "Tue, 18 Aug 2026 10:32:06 +0000",
-    "creator": "Kerry Beetge",
-    "categories": []
-  },
-  {
-    "id": 11,
+    "id": 2,
     "imageUrl": "",
     "title": "A Tale of Two Flink Autoscalers",
     "description": "No description available",
@@ -180,30 +34,172 @@
     ]
   },
   {
-    "id": 12,
+    "id": 3,
     "imageUrl": "",
-    "title": "보안 업무를 위한 AI 에이전트 플랫폼 「SAGE」 개발기 1편: 판단은 사람에게 남기는 설계",
-    "description": "안녕하세요. 사내 보안 업무에 AI를 접목하는 일을 하고 있는 Security Development Division(LINE Plus Security R&D)팀입니다.이 글은 사내...",
+    "title": "5070 Ti 에서 로컬 LLM 돌리는 속도",
+    "description": "5070 Ti 에서 로컬 LLM 돌렸을 때 속도 (TPS)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/ai-agent-platform-sage-dev-log-part-1",
-    "pubDate": "Tue, 18 Aug 2026 05:00:00 GMT",
+    "link": "https://coolspeed.wordpress.com/2026/08/18/5070-ti-local-llm-speed/",
+    "pubDate": "Tue, 18 Aug 2026 05:02:40 +0000",
+    "creator": "coolspeed",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "PyCharm for AI-assisted Django Workflows",
+    "description": "The 2026 Django Developers Survey (results coming soon!) found that AI is part of the weekly or daily workflow for 90% of respondents. AI can write code quickly, but Django developers still need to understand the application, evaluate what the agent produces, and be accountable for what ships. That makes your IDE more important, not […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/pycharm/2026/08/pycharm-for-ai-assisted-django-workflows/",
+    "pubDate": "Thu, 20 Aug 2026 13:06:50 +0000",
+    "creator": "Will Vincent",
+    "categories": [
+      "agentic-ai",
+      "ai",
+      "python",
+      "web-development",
+      "django"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "What Your First Months at JetBrains Look Like?",
+    "description": "Starting a new job is exciting, and there’s a lot to take in. At JetBrains, onboarding doesn’t stop after your first day. It starts when you accept your offer and continues through your first months, giving you the information, tools, and support you need to settle in and start doing your best work. Here’s what […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/life-at-jetbrains/2026/08/new-employee-onboarding/",
+    "pubDate": "Mon, 17 Aug 2026 13:17:50 +0000",
+    "creator": "Grete Kivi",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "ES2025의 변화",
+    "description": "2025년에도 어김없이 새로운 자바스크립트 스펙인 ES2025가 나왔습니다. \n작년 ES2024에서는 눈에 띄는 문법 변화가 많지 않았는데요. 올해는 꽤 쓸만한 기능들이 많이 추가되었습니다. 특히 Iterator와 Set 관련 기능은 실무에서도 종종 사용할 만합니다. \n하나씩 살펴보겠습니다. \nIterator Helpers \n개인적으로 ES2025에서 가장 눈에 띄는 기능입니다. \n기존에도 자바스크립트에는 iterator가 있었습니다. 예를 들어 배열의 values()를 호출하면 iterator가 나옵니다. \nconst iterator = [1, 2, 3].values();iterator.next(); // { value: 1, done: false }iterator.next(); // { value: 2, done: false } \n문제는 iterator에는 배열처럼 map이나 filter 같은 편리한 메서드가 없었다는 겁니다. \nES2025부터는 iterator에서도 이런 메서드들을 사용할 수 있습니다. \nconst result = [1, 2, 3, 4, 5]  .values()  .map((value) => value * 2)  .filter((value) => value > 5)  .toArray();console.log(result); // [6, 8, 10] \n추가된 주요 메서드는 다음과 같습니다. \niterator.map()iterator.filter()iterator.take()iterator.drop()iterator.flatMap()iterator.reduce()iterator.toArray()iterator.forEach()iterator.some()iterator.every()iterator.find() \nIterator.from도 추가되었습니다. \nconst iterator = Iterator.from([1, 2, 3]);iterator  .map((value) => value * 10)  .toArray(); // [10, 20, 30] \n얼핏 보면 배열의 map, filter와 별 차이가 없어 보입니다. \n하지만 iterator의 중요한 특징은 필요할 때 하나씩 값을 계산한다는 점입니다. \n예를 들어 무한히 숫자를 만들어내는 generator도 처리할 수 있습니다. \nfunction* numbers() {  let i = 1;  while (true) {    yield i++;  }}const result = numbers()  .filter((value) => value % 2 === 0)  .map((value) => value * 10)  .take(5)  .toArray();console.log(result); // [20, 40, 60, 80, 100] \n무한 iterator인데도 take(5)를 했기 때문에 필요한 다섯 개만 계산하고 끝납니다. \n대용량 데이터를 다루거나 generator를 자주 사용하는 경우 상당히 유용할 것 같습니다. \nSet Methods \nSet도 드디어 집합답게 사용할 수 있게 되었습니다. \n기존 Set에는 add, delete, has 정도밖에 없어서 합집합이나 교집합을 직접 구현해야 했습니다. \nES2025에서는 다음 메서드들이 추가되었습니다. \nunion()intersection()difference()symmetricDifference()isSubsetOf()isSupersetOf()isDisjointFrom() \n예제를 봅시다. \nconst a = new Set([1, 2, 3]);const b = new Set([3, 4, 5]);a.union(b);// Set { 1, 2, 3, 4, 5 }a.intersection(b);// Set { 3 }a.difference(b);// Set { 1, 2 }a.symmetricDifference(b);// Set { 1, 2, 4, 5 } \n부분집합 여부도 바로 확인할 수 있습니다. \nconst a = new Set([1, 2]);const b = new Set([1, 2, 3]);a.isSubsetOf(b);   // trueb.isSupersetOf(a); // truea.isDisjointFrom(new Set([3, 4]));// true \n알고리즘 문제 풀 때 특히 반가운 기능이네요. 실무에서도 권한이나 태그처럼 중복 없는 값들을 비교할 때 유용할 것 같습니다. \nJSON Module과 Import Attributes \nJSON 파일을 ES Module 방식으로 가져오는 방법도 표준화되었습니다. \nimport data from './data.json' with { type: 'json' };console.log(data); \n동적 import에서도 사용할 수 있습니다. \nconst module = await import('./data.json', {  with: {    type: 'json',  },});console.log(module.default); \n여기서 with { type: 'json' } 부분을 Import Attributes라고 합니다. \n파일 확장자가 .json인데 굳이 type: 'json'을 또 적어야 하나 싶을 수 있습니다. \n웹에서는 URL의 확장자가 실제 Content-Type을 보장하지 않기 때문입니다. 서버가 전혀 다른 타입의 응답을 보내는 경우도 있기 때문에 어떤 종류의 모듈을 가져오는지 명시적으로 선언하는 겁니다. \n예전에는 assert { type: 'json' } 문법이 실험적으로 사용되기도 했는데 최종 표준은 with 문법입니다. \nRegExp.escape \n드디어 정규표현식 문자열을 안전하게 escape하는 표준 함수가 생겼습니다. \n사용자가 입력한 문자열을 정규표현식에 집어넣는 상황을 생각해봅시다. \nconst keyword = 'hello.world';const regex = new RegExp(keyword); \n여기서 점(.)은 정규표현식에서 특수한 의미를 가지고 있습니다. 따라서 우리가 원한 문자열 그대로를 검색하지 않습니다. \n기존에는 직접 escape 함수를 만들거나 라이브러리를 사용해야 했습니다. \n이제는 RegExp.escape를 사용하면 됩니다. \nconst keyword = 'hello.world';const regex = new RegExp(RegExp.escape(keyword));regex.test('hello.world'); // true \n괄호, 대괄호, *, +, ?, 점 같은 정규표현식 특수 문자들을 알아서 처리해줍니다. \n검색창처럼 사용자 입력값으로 동적인 정규표현식을 만드는 경우 특히 유용합니다. \nRegExp Modifiers \n정규표현식 중간에서 특정 플래그를 켜거나 끌 수도 있게 되었습니다. \n예를 들어 i 플래그는 대소문자를 구분하지 않는 플래그입니다. \n/hello/i \n그런데 기존에는 정규표현식 전체에 플래그가 적용되었습니다. \nES2025에서는 특정 부분에서만 플래그를 적용할 수 있습니다. \nconst regex = /hello (?i:world)/;regex.test('hello world'); // trueregex.test('hello WORLD'); // trueregex.test('HELLO WORLD'); // false \n(?i:world) 부분에만 i 플래그가 적용된 겁니다. \n반대로 이미 적용된 플래그를 특정 부분에서 끌 수도 있습니다. \nconst regex = /hello (?-i:world)/i;regex.test('HELLO world'); // trueregex.test('HELLO WORLD'); // false \n지원되는 플래그는 i, m, s입니다. \n복잡한 정규표현식을 작성할 때 조금 더 세밀하게 동작을 제어할 수 있게 되었습니다. \nPromise.try \n동기 함수인지 비동기 함수인지 확실하지 않은 함수를 Promise로 처리하기 편해졌습니다. \n예를 들어 다음 함수는 동기적으로 에러를 던질 수 있습니다. \nfunction parseJSON(value) {  return JSON.parse(value);} \nPromise 체인으로 처리하려면 기존에는 다음처럼 작성할 수 있었습니다. \nPromise.resolve()  .then(() => parseJSON('잘못된 JSON'))  .catch((error) => {    console.error(error);  }); \nES2025부터는 Promise.try를 사용할 수 있습니다. \nPromise.try(() => parseJSON('잘못된 JSON'))  .then((result) => {    console.log(result);  })  .catch((error) => {    console.error(error);  }); \n콜백이 일반 값을 반환하면 resolve된 Promise가 되고, Promise를 반환하면 그 Promise를 기다립니다. 동기적으로 에러를 던지면 rejected Promise가 됩니다. \n즉 동기 함수와 비동기 함수를 동일하게 Promise 형태로 감싸고 싶을 때 유용합니다. \nFloat16Array \nTypedArray에 16비트 부동소수점 배열이 추가되었습니다. \nconst array = new Float16Array(3);array[0] = 1.5;array[1] = 2.5;array[2] = 3.5; \n기존에는 Float32Array와 Float64Array만 있었습니다. \nFloat16은 숫자의 정밀도를 낮추는 대신 메모리를 적게 차지합니다. \nAI나 그래픽 분야에서는 이미 FP16을 굉장히 많이 사용하기 때문에 이런 데이터를 자바스크립트에서 직접 다루기 좋아졌습니다. \n함께 다음 기능도 추가되었습니다. \nMath.f16round()DataView.prototype.getFloat16()DataView.prototype.setFloat16() \nMath.f16round는 숫자를 Float16으로 표현했을 때의 값으로 반올림합니다. \nMath.f16round(1.337);// Float16으로 표현 가능한 가장 가까운 값 \n마치며 \nES2025는 작년보다 실용적인 기능들이 꽤 많이 추가되었습니다. \n개인적으로는 Iterator Helpers와 Set Methods가 가장 마음에 듭니다. 지금까지 라이브러리를 사용하거나 직접 코드를 작성해야 했던 기능들이 표준으로 들어왔다는 점에서 의미가 있습니다. \nRegExp.escape 역시 별것 아닌 기능처럼 보여도 막상 필요할 때마다 직접 구현해야 했던 기능이라 반갑네요. \n다만 새로운 자바스크립트 기능은 브라우저나 Node.js 버전에 따라 지원 여부가 다르므로 실제 서비스에서 사용하기 전에는 실행 환경의 지원 여부를 확인해야 합니다. \nES2026에서는 어떤 기능들이 추가될지도 살펴봅시다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/ECMAScript/post/6a8b46575d17b6f3727eeb98",
+    "pubDate": "Sun, 23 Aug 2026 19:13:28 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "ECMAScript"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "AI Coding Agents: Adoption Trends",
+    "description": "Based on the Developer Ecosystem Survey 2026, the tenth edition of our large-scale, globally representative study run by the Strategic Research and Market Intelligence team. This post picks up where our previous report on the adoption of the main AI coding tools left off in April 2026. We recently ran the Developer Ecosystem Survey 2026 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/",
+    "pubDate": "Tue, 18 Aug 2026 15:03:13 +0000",
+    "creator": "Mikhail Bogdanov",
+    "categories": [
+      "agentic-ai",
+      "ai",
+      "ai-agents"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "Rider 2026.2.1 and ReSharper 2026.2.1 Are Here!",
+    "description": "Our first minor update for the 2026.2 release cycle is ready to download. Here’s what’s new. Rider Rider 2026.2 put AI-assisted development front and center, and v2026.2.1 keeps that momentum going: The refactoring-code skill, bundled in JetBrains Rider Median task time before: 157.9s → after: 26.6s 83% faster Cost per solved task before: USD 0.52 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/08/19/rider-resharper-2026-2-1/",
+    "pubDate": "Wed, 19 Aug 2026 15:36:45 +0000",
+    "creator": "Alexander Kurakin",
+    "categories": [
+      "net-tools",
+      "release",
+      "releases",
+      "rider",
+      "agent-skills",
+      "debugger",
+      "out-of-process-2",
+      "refactorings",
+      "resharper",
+      "resharper_oop"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "시작도 못 하는 사람들",
+    "description": "영어에 “Ready forever, starting never”라는 말이 있다. 내가 꽤 자주 사용하는 문구인데 말 그대로 평생 준비만 하고, 시작은 못 한다는 뜻이다. 우리 포트폴리오에도 이런 창업가가 있는데, 혹시 이 글을 읽는 분도 내가 혹시 준비만 하고 시작은 못 하는 사람인지 스스로 물어보고 점검해 보길 바란다. 왜냐하면 이런 사람은 뭐 하나 시작도 못 하고, 시작을 못 하기(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/08/ready-forever-starting-never.html",
+    "pubDate": "Sun, 23 Aug 2026 21:28:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "doing",
+      "FoundersAtWork"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "일본어 상품 검색 정확도 높이기: Elasticsearch + Kuromoji에서 OpenSearch + Sudachi로",
+    "description": "들어가며안녕하세요. LINE Plus에서 통합 커머스 개발을 맡고 있는 김진성입니다.2025년 초, 통합 커머스 프로젝트가 시작되었습니다.서비스가 안정되어 가던 중, 일본 담당자로...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/japanese-search-kuromoji-to-sudachi",
+    "pubDate": "Fri, 21 Aug 2026 02:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 13,
+    "id": 11,
     "imageUrl": "",
-    "title": "Signatures, be true: domain errors and functional handling in Kotlin",
-    "description": "Here’s a function that signs a document: In Kotlin, Unit means the function completes without returning a meaningful value – roughly equivalent to void in Java. Got it? Now, tell me what could go wrong. You can’t.  Yet, the code might be invalid. The signing window might have closed. The database might be down. The […]",
+    "title": "What’s Fixed and Improved in PyCharm 2026.2",
+    "description": "Across the PyCharm 2026.2 release line, we shipped 263 fixes and improvements. Many improve Python code insight directly, with more precise type inference, fewer false positives, smarter completion and imports, and more reliable refactoring. Here are some of the smaller changes you’re likely to notice in everyday Python development. SQLAlchemy 2.0 support SQLAlchemy has been […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-domain-errors-and-functional-handling-in-kotlin/",
-    "pubDate": "Wed, 19 Aug 2026 15:52:05 +0000",
-    "creator": "Viliam Sedliak",
+    "link": "https://blog.jetbrains.com/pycharm/2026/08/what-s-fixed-and-improved-in-pycharm-2026-2/",
+    "pubDate": "Wed, 19 Aug 2026 13:54:13 +0000",
+    "creator": "Will Vincent",
     "categories": [
-      "backend",
-      "kotlin"
+      "releases",
+      "python",
+      "web-development"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 62화, 미행인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2486",
+    "pubDate": "Wed, 19 Aug 2026 20:35:59 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "ES2026의 변화",
+    "description": "ES2025에서는 Iterator Helpers나 Set Methods처럼 기존 객체에 편리한 기능들이 대거 추가되었는데요. \nES2026 역시 새로운 문법 자체보다는 \"이거 왜 지금까지 없었지?\" 싶은 표준 함수들이 많이 추가되었습니다. \n특히 Array.fromAsync, Math.sumPrecise, Uint8Array의 Base64 변환 기능처럼 라이브러리나 직접 구현으로 해결하던 기능들이 눈에 띕니다. \n하나씩 살펴보겠습니다. \nMath.sumPrecise \n숫자들의 합을 좀 더 정확하게 계산해주는 Math.sumPrecise가 추가되었습니다. \n보통 배열의 합을 구할 때 다음처럼 reduce를 사용합니다. \nconst numbers = [1, 2, 3, 4];numbers.reduce((sum, value) => sum + value, 0);// 10 \n그런데 부동소수점 숫자를 더할 때는 문제가 생길 수 있습니다. \n다음 예제를 봅시다. \nconst numbers = [1e20, 0.1, -1e20];numbers.reduce((sum, value) => sum + value, 0);// 0 \n수학적으로는 당연히 0.1이어야 합니다. \n하지만 1e20처럼 매우 큰 숫자와 0.1처럼 작은 숫자를 부동소수점으로 더하는 과정에서 0.1의 정보가 사라져버립니다. \nMath.sumPrecise를 사용하면 다음과 같습니다. \nMath.sumPrecise([1e20, 0.1, -1e20]);// 0.1 \n내부적으로 단순히 앞에서부터 + 연산을 반복하는 것이 아니라 더 정확한 합계를 계산합니다. \n주의할 점은 Math.sumPrecise가 자바스크립트의 모든 부동소수점 문제를 해결해주는 것은 아니라는 점입니다. \nMath.sumPrecise([0.1, 0.2]);// 0.30000000000000004 \n0.1과 0.2 자체가 IEEE 754 부동소수점으로 정확하게 표현되지 않는 문제까지 해결하는 기능은 아닙니다. \n여러 숫자를 합치는 과정에서 생기는 추가적인 오차를 최소화하는 기능이라고 보는 것이 정확합니다. \nIterator.concat \nES2025에서 Iterator Helpers가 추가됐는데 ES2026에서는 iterator 여러 개를 연결하는 Iterator.concat이 추가되었습니다. \nconst first = [1, 2].values();const second = [3, 4].values();const third = [5, 6].values();const iterator = Iterator.concat(  first,  second,  third,);console.log(iterator.toArray());// [1, 2, 3, 4, 5, 6] \n배열의 concat과 비슷해 보입니다. \n[1, 2].concat([3, 4], [5, 6]);// [1, 2, 3, 4, 5, 6] \n차이는 역시 iterator라는 데 있습니다. \nArray.concat은 새로운 배열을 만들어야 하지만 Iterator.concat은 값을 필요할 때 하나씩 꺼냅니다. \n따라서 데이터가 아주 많거나 generator처럼 크기를 미리 알 수 없는 값을 이어붙일 때 유용합니다. \nfunction* first() {  yield 1;  yield 2;}function* second() {  yield 3;  yield 4;}Iterator.concat(first(), second())  .map((value) => value * 10)  .toArray();// [10, 20, 30, 40] \nArray.fromAsync \nArray.from의 비동기 버전이라고 보면 됩니다. \nArray.from은 iterable을 배열로 만들어줍니다. \nArray.from(new Set([1, 2, 3]));// [1, 2, 3] \n하지만 async iterator는 Array.from으로 처리할 수 없습니다. \nES2026에서는 Array.fromAsync를 사용할 수 있습니다. \nasync function* getNumbers() {  yield 1;  yield 2;  yield 3;}const numbers = await Array.fromAsync(getNumbers());console.log(numbers);// [1, 2, 3] \n각 값이 Promise여도 기다려줍니다. \nconst numbers = await Array.fromAsync([  Promise.resolve(1),  Promise.resolve(2),  Promise.resolve(3),]);console.log(numbers);// [1, 2, 3] \nmap 함수도 전달할 수 있습니다. \nconst numbers = await Array.fromAsync(  getNumbers(),  (value) => value * 10,);console.log(numbers);// [10, 20, 30] \n비동기 스트림이나 async generator의 결과를 최종적으로 배열로 모아야 할 때 꽤 유용합니다. \nError.isError \n값이 Error 객체인지 확인하는 표준 함수가 생겼습니다. \n기존에는 보통 instanceof를 사용했습니다. \nconst error = new Error('에러');error instanceof Error;// true \n하지만 instanceof에는 문제가 있습니다. \n예를 들어 iframe처럼 서로 다른 JavaScript Realm에서 만들어진 Error는 현재 Realm의 Error와 생성자가 다르기 때문에 instanceof가 false가 될 수 있습니다. \n그래서 ES2026에서는 다음처럼 사용할 수 있습니다. \nconst error = new Error('에러');Error.isError(error);// true \n일반 객체가 Error처럼 생겼다고 해서 true가 되지는 않습니다. \nError.isError({  name: 'Error',  message: '에러',});// false \n라이브러리에서 외부에서 전달받은 값이 정말 Error인지 검사할 때 특히 유용할 것 같습니다. \nMap.prototype.getOrInsert \nMap을 사용하다 보면 다음 코드를 굉장히 자주 작성합니다. \nconst counts = new Map();if (!counts.has('javascript')) {  counts.set('javascript', 0);}const count = counts.get('javascript'); \n값이 없으면 기본값을 넣고 그 값을 가져오는 패턴입니다. \nES2026부터는 getOrInsert를 사용할 수 있습니다. \nconst counts = new Map();const count = counts.getOrInsert(  'javascript',  0,);console.log(count); // 0console.log(counts.get('javascript')); // 0 \n이미 값이 있다면 기존 값을 반환합니다. \nconst counts = new Map([  ['javascript', 10],]);counts.getOrInsert('javascript', 0);// 10 \n기본값을 계산하는 비용이 큰 경우를 위한 getOrInsertComputed도 있습니다. \nconst users = new Map();const user = users.getOrInsertComputed(  'zerocho',  (key) => {    return {      id: key,      createdAt: Date.now(),    };  },); \n값이 이미 존재한다면 콜백은 실행되지 않습니다. \nWeakMap에도 동일하게 다음 메서드가 추가되었습니다. \nWeakMap.prototype.getOrInsert()WeakMap.prototype.getOrInsertComputed() \n캐시나 객체별 상태를 저장하는 코드가 상당히 간단해질 것 같습니다. \nUint8Array Base64와 Hex 변환 \n개인적으로 꽤 반가운 기능입니다. \n바이너리 데이터를 Base64로 변환하거나 다시 Uint8Array로 만드는 표준 API가 추가되었습니다. \nconst bytes = new Uint8Array([  72, 101, 108, 108, 111,]);const base64 = bytes.toBase64();console.log(base64);// \"SGVsbG8=\" \n반대로 Base64 문자열을 Uint8Array로 만들 수도 있습니다. \nconst bytes = Uint8Array.fromBase64(  'SGVsbG8=',);console.log(bytes);// Uint8Array(5) [72, 101, 108, 108, 111] \nHex도 지원합니다. \nconst bytes = new Uint8Array([  255, 0, 16,]);bytes.toHex();// \"ff0010\" \n반대로 변환할 수도 있습니다. \nUint8Array.fromHex('ff0010');// Uint8Array(3) [255, 0, 16] \n기존에는 브라우저의 btoa, atob를 사용하거나 Node.js에서는 Buffer를 사용했습니다. \n문제는 둘의 API가 서로 다르다는 점입니다. \n이제 Uint8Array 자체에서 변환할 수 있기 때문에 브라우저와 Node.js 사이에서 공통으로 사용할 수 있는 코드가 늘어났습니다. \nBase64를 부분적으로 읽거나 기존 Uint8Array에 쓰기 위한 setFromBase64, setFromHex 같은 메서드도 사용할 수 있습니다. \nJSON.parse Source Text Access \nJSON.parse의 reviver 함수가 원본 JSON 문자열에 접근할 수 있게 되었습니다. \n기존 JSON.parse의 reviver는 파싱된 값만 전달받습니다. \nJSON.parse(  '{\"count\": 123}',  (key, value) => {    console.log(key, value);    return value;  },); \n문제는 숫자를 Number로 변환하는 과정에서 이미 정보가 사라질 수 있다는 겁니다. \n예를 들어 아주 큰 정수를 생각해봅시다. \nconst json =  '{\"id\": 12345678901234567890}';const result = JSON.parse(json);console.log(result.id);// 원래 숫자와 다른 값이 될 수 있음 \nNumber가 안전하게 표현할 수 있는 정수 범위를 넘어갔기 때문입니다. \nES2026에서는 reviver의 세 번째 인자로 context가 들어옵니다. \nconst result = JSON.parse(  '{\"id\": 12345678901234567890}',  (key, value, context) => {    if (key === 'id') {      return BigInt(context.source);    }    return value;  },);console.log(result.id);// 12345678901234567890n \ncontext.source에는 해당 값이 JSON 문자열에서 실제로 어떻게 적혀 있었는지가 들어 있습니다. \n이미 Number로 변환되면서 정밀도를 잃은 값을 사용하는 대신 원본 문자열을 BigInt로 직접 변환한 겁니다. \n대용량 정수나 숫자의 정확한 표현이 중요한 데이터를 처리할 때 유용합니다. \nJSON.rawJSON \nJSON.stringify에서도 비슷한 문제가 있습니다. \nBigInt처럼 JSON이 기본적으로 처리할 수 없는 값을 직접 원하는 형태로 출력하고 싶은 경우가 있습니다. \nES2026에서는 JSON.rawJSON을 사용할 수 있습니다. \nconst value = {  id: JSON.rawJSON(    '12345678901234567890',  ),};JSON.stringify(value);// '{\"id\":12345678901234567890}' \n눈여겨볼 부분은 숫자에 따옴표가 붙지 않았다는 겁니다. \n그냥 문자열을 넣으면 다음처럼 됩니다. \nJSON.stringify({  id: '12345678901234567890',});// '{\"id\":\"12345678901234567890\"}' \nJSON.rawJSON을 사용하면 전달한 JSON 원시 값을 stringify 결과에 그대로 삽입할 수 있습니다. \nJSON.isRawJSON을 사용해서 raw JSON인지 검사하는 것도 가능합니다. \nconst value = JSON.rawJSON('123');JSON.isRawJSON(value);// true \nJSON.parse의 context.source와 함께 사용하면 JavaScript Number가 정확하게 표현하지 못하는 숫자를 JSON으로 주고받을 때 상당히 유용합니다. \n마치며 \nES2026도 새로운 문법이 대거 추가된 버전은 아닙니다. \n대신 자바스크립트를 사용하면서 매번 직접 구현하거나 Node.js와 브라우저에서 서로 다른 방법을 사용해야 했던 기능들이 표준 라이브러리로 많이 들어왔습니다. \n개인적으로는 Uint8Array의 Base64/Hex 변환 기능이 가장 반갑습니다. 브라우저에서는 atob/btoa, Node.js에서는 Buffer를 사용하는 식으로 환경마다 코드가 달라지는 경우가 많았기 때문입니다. \nArray.fromAsync도 async generator를 사용하는 코드에서는 바로 활용할 수 있겠고, Map의 getOrInsert 역시 사소하지만 자주 반복되는 코드를 많이 줄여줄 것 같습니다. \nMath.sumPrecise와 JSON의 source/rawJSON 기능처럼 자바스크립트 Number의 한계를 보완하는 API가 계속 추가되고 있다는 점도 재미있네요. \n다만 언제나 그렇듯 ES2026에 들어갔다고 해서 모든 브라우저와 모든 Node.js 버전에서 즉시 사용할 수 있는 것은 아닙니다. 실제 프로젝트에 적용할 때는 실행 환경의 지원 여부를 확인해주세요. \n내년 ES2027에서는 또 어떤 기능들이 추가될지 기대해봅시다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/ECMAScript/post/6a8b46d55d17b6f3727eec81",
+    "pubDate": "Sun, 23 Aug 2026 19:15:34 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "ECMAScript"
     ]
   },
   {
@@ -226,15 +222,13 @@
   {
     "id": 15,
     "imageUrl": "",
-    "title": "[MULTI] 다 피우지 못한 깨달음의 꽃망울, 비스트 오브 리인카네이션",
-    "description": "No description available",
+    "title": "보안 업무를 위한 AI 에이전트 플랫폼 「SAGE」 개발기 1편: 판단은 사람에게 남기는 설계",
+    "description": "안녕하세요. 사내 보안 업무에 AI를 접목하는 일을 하고 있는 Security Development Division(LINE Plus Security R&D)팀입니다.이 글은 사내...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2485",
-    "pubDate": "Wed, 19 Aug 2026 05:32:02 +0900",
-    "creator": "［RULIWEB］",
-    "categories": [
-      "리뷰"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/ai-agent-platform-sage-dev-log-part-1",
+    "pubDate": "Tue, 18 Aug 2026 05:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
