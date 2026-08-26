@@ -2,6 +2,26 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "Junie Can Now Run Entirely on Your Mac – No Credits, No Cloud",
+    "description": "Our first step into on-device coding agents  Junie has been able to connect to local model runtimes for a while. Point it at Ollama or LM Studio, load a local model, and the agent runs against it. Plenty of people are already doing this. But it also means you have to pick the model, tune […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/junie/2026/08/junie-local-launch/",
+    "pubDate": "Mon, 24 Aug 2026 14:10:39 +0000",
+    "creator": "Dmitry Savelev",
+    "categories": [
+      "agentic-ai",
+      "coding",
+      "jetbrains-ai",
+      "new-products",
+      "junie",
+      "news",
+      "release"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
     "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
     "description": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles.  To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ethernet.  We’re releasing the MetaRoCE specification, a reference software implementation and a compliance test [...]\nRead More...\nThe post MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet appeared first on Engineering at Meta.",
     "reviews": [],
@@ -17,7 +37,37 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 62화, 미행인데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2486",
+    "pubDate": "Wed, 19 Aug 2026 20:35:59 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "시작도 못 하는 사람들",
+    "description": "영어에 “Ready forever, starting never”라는 말이 있다. 내가 꽤 자주 사용하는 문구인데 말 그대로 평생 준비만 하고, 시작은 못 한다는 뜻이다. 우리 포트폴리오에도 이런 창업가가 있는데, 혹시 이 글을 읽는 분도 내가 혹시 준비만 하고 시작은 못 하는 사람인지 스스로 물어보고 점검해 보길 바란다. 왜냐하면 이런 사람은 뭐 하나 시작도 못 하고, 시작을 못 하기(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/08/ready-forever-starting-never.html",
+    "pubDate": "Sun, 23 Aug 2026 21:28:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "doing",
+      "FoundersAtWork"
+    ]
+  },
+  {
+    "id": 5,
     "imageUrl": "",
     "title": "What’s Fixed and Improved in PyCharm 2026.2",
     "description": "Across the PyCharm 2026.2 release line, we shipped 263 fixes and improvements. Many improve Python code insight directly, with more precise type inference, fewer false positives, smarter completion and imports, and more reliable refactoring. Here are some of the smaller changes you’re likely to notice in everyday Python development. SQLAlchemy 2.0 support SQLAlchemy has been […]",
@@ -33,65 +83,17 @@
     ]
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "보안 업무를 위한 AI 에이전트 플랫폼 「SAGE」 개발기 1편: 판단은 사람에게 남기는 설계",
-    "description": "안녕하세요. 사내 보안 업무에 AI를 접목하는 일을 하고 있는 Security Development Division(LINE Plus Security R&D)팀입니다.이 글은 사내...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/ai-agent-platform-sage-dev-log-part-1",
-    "pubDate": "Tue, 18 Aug 2026 05:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "5070 Ti 에서 로컬 LLM 돌리는 속도",
-    "description": "5070 Ti 에서 로컬 LLM 돌렸을 때 속도 (TPS)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://coolspeed.wordpress.com/2026/08/18/5070-ti-local-llm-speed/",
-    "pubDate": "Tue, 18 Aug 2026 05:02:40 +0000",
-    "creator": "coolspeed",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "How we knew COVID was over (and what our models had to unlearn)",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/how-we-knew-covid-was-over-and-what-our-models-had-to-unlearn-c606b9bdb0ab?source=rss----53c7c27702d5---4",
-    "pubDate": "Wed, 19 Aug 2026 17:01:03 GMT",
-    "creator": "Harrison Katz",
-    "categories": [
-      "data-science",
-      "data-modeling",
-      "technology",
-      "machine-learning",
-      "data"
-    ]
-  },
-  {
     "id": 6,
     "imageUrl": "",
-    "title": "PyCharm for AI-assisted Django Workflows",
-    "description": "The 2026 Django Developers Survey (results coming soon!) found that AI is part of the weekly or daily workflow for 90% of respondents. AI can write code quickly, but Django developers still need to understand the application, evaluate what the agent produces, and be accountable for what ships. That makes your IDE more important, not […]",
+    "title": "ES2025의 변화",
+    "description": "2025년에도 어김없이 새로운 자바스크립트 스펙인 ES2025가 나왔습니다. \n작년 ES2024에서는 눈에 띄는 문법 변화가 많지 않았는데요. 올해는 꽤 쓸만한 기능들이 많이 추가되었습니다. 특히 Iterator와 Set 관련 기능은 실무에서도 종종 사용할 만합니다. \n하나씩 살펴보겠습니다. \nIterator Helpers \n개인적으로 ES2025에서 가장 눈에 띄는 기능입니다. \n기존에도 자바스크립트에는 iterator가 있었습니다. 예를 들어 배열의 values()를 호출하면 iterator가 나옵니다. \nconst iterator = [1, 2, 3].values();iterator.next(); // { value: 1, done: false }iterator.next(); // { value: 2, done: false } \n문제는 iterator에는 배열처럼 map이나 filter 같은 편리한 메서드가 없었다는 겁니다. \nES2025부터는 iterator에서도 이런 메서드들을 사용할 수 있습니다. \nconst result = [1, 2, 3, 4, 5]  .values()  .map((value) => value * 2)  .filter((value) => value > 5)  .toArray();console.log(result); // [6, 8, 10] \n추가된 주요 메서드는 다음과 같습니다. \niterator.map()iterator.filter()iterator.take()iterator.drop()iterator.flatMap()iterator.reduce()iterator.toArray()iterator.forEach()iterator.some()iterator.every()iterator.find() \nIterator.from도 추가되었습니다. \nconst iterator = Iterator.from([1, 2, 3]);iterator  .map((value) => value * 10)  .toArray(); // [10, 20, 30] \n얼핏 보면 배열의 map, filter와 별 차이가 없어 보입니다. \n하지만 iterator의 중요한 특징은 필요할 때 하나씩 값을 계산한다는 점입니다. \n예를 들어 무한히 숫자를 만들어내는 generator도 처리할 수 있습니다. \nfunction* numbers() {  let i = 1;  while (true) {    yield i++;  }}const result = numbers()  .filter((value) => value % 2 === 0)  .map((value) => value * 10)  .take(5)  .toArray();console.log(result); // [20, 40, 60, 80, 100] \n무한 iterator인데도 take(5)를 했기 때문에 필요한 다섯 개만 계산하고 끝납니다. \n대용량 데이터를 다루거나 generator를 자주 사용하는 경우 상당히 유용할 것 같습니다. \nSet Methods \nSet도 드디어 집합답게 사용할 수 있게 되었습니다. \n기존 Set에는 add, delete, has 정도밖에 없어서 합집합이나 교집합을 직접 구현해야 했습니다. \nES2025에서는 다음 메서드들이 추가되었습니다. \nunion()intersection()difference()symmetricDifference()isSubsetOf()isSupersetOf()isDisjointFrom() \n예제를 봅시다. \nconst a = new Set([1, 2, 3]);const b = new Set([3, 4, 5]);a.union(b);// Set { 1, 2, 3, 4, 5 }a.intersection(b);// Set { 3 }a.difference(b);// Set { 1, 2 }a.symmetricDifference(b);// Set { 1, 2, 4, 5 } \n부분집합 여부도 바로 확인할 수 있습니다. \nconst a = new Set([1, 2]);const b = new Set([1, 2, 3]);a.isSubsetOf(b);   // trueb.isSupersetOf(a); // truea.isDisjointFrom(new Set([3, 4]));// true \n알고리즘 문제 풀 때 특히 반가운 기능이네요. 실무에서도 권한이나 태그처럼 중복 없는 값들을 비교할 때 유용할 것 같습니다. \nJSON Module과 Import Attributes \nJSON 파일을 ES Module 방식으로 가져오는 방법도 표준화되었습니다. \nimport data from './data.json' with { type: 'json' };console.log(data); \n동적 import에서도 사용할 수 있습니다. \nconst module = await import('./data.json', {  with: {    type: 'json',  },});console.log(module.default); \n여기서 with { type: 'json' } 부분을 Import Attributes라고 합니다. \n파일 확장자가 .json인데 굳이 type: 'json'을 또 적어야 하나 싶을 수 있습니다. \n웹에서는 URL의 확장자가 실제 Content-Type을 보장하지 않기 때문입니다. 서버가 전혀 다른 타입의 응답을 보내는 경우도 있기 때문에 어떤 종류의 모듈을 가져오는지 명시적으로 선언하는 겁니다. \n예전에는 assert { type: 'json' } 문법이 실험적으로 사용되기도 했는데 최종 표준은 with 문법입니다. \nRegExp.escape \n드디어 정규표현식 문자열을 안전하게 escape하는 표준 함수가 생겼습니다. \n사용자가 입력한 문자열을 정규표현식에 집어넣는 상황을 생각해봅시다. \nconst keyword = 'hello.world';const regex = new RegExp(keyword); \n여기서 점(.)은 정규표현식에서 특수한 의미를 가지고 있습니다. 따라서 우리가 원한 문자열 그대로를 검색하지 않습니다. \n기존에는 직접 escape 함수를 만들거나 라이브러리를 사용해야 했습니다. \n이제는 RegExp.escape를 사용하면 됩니다. \nconst keyword = 'hello.world';const regex = new RegExp(RegExp.escape(keyword));regex.test('hello.world'); // true \n괄호, 대괄호, *, +, ?, 점 같은 정규표현식 특수 문자들을 알아서 처리해줍니다. \n검색창처럼 사용자 입력값으로 동적인 정규표현식을 만드는 경우 특히 유용합니다. \nRegExp Modifiers \n정규표현식 중간에서 특정 플래그를 켜거나 끌 수도 있게 되었습니다. \n예를 들어 i 플래그는 대소문자를 구분하지 않는 플래그입니다. \n/hello/i \n그런데 기존에는 정규표현식 전체에 플래그가 적용되었습니다. \nES2025에서는 특정 부분에서만 플래그를 적용할 수 있습니다. \nconst regex = /hello (?i:world)/;regex.test('hello world'); // trueregex.test('hello WORLD'); // trueregex.test('HELLO WORLD'); // false \n(?i:world) 부분에만 i 플래그가 적용된 겁니다. \n반대로 이미 적용된 플래그를 특정 부분에서 끌 수도 있습니다. \nconst regex = /hello (?-i:world)/i;regex.test('HELLO world'); // trueregex.test('HELLO WORLD'); // false \n지원되는 플래그는 i, m, s입니다. \n복잡한 정규표현식을 작성할 때 조금 더 세밀하게 동작을 제어할 수 있게 되었습니다. \nPromise.try \n동기 함수인지 비동기 함수인지 확실하지 않은 함수를 Promise로 처리하기 편해졌습니다. \n예를 들어 다음 함수는 동기적으로 에러를 던질 수 있습니다. \nfunction parseJSON(value) {  return JSON.parse(value);} \nPromise 체인으로 처리하려면 기존에는 다음처럼 작성할 수 있었습니다. \nPromise.resolve()  .then(() => parseJSON('잘못된 JSON'))  .catch((error) => {    console.error(error);  }); \nES2025부터는 Promise.try를 사용할 수 있습니다. \nPromise.try(() => parseJSON('잘못된 JSON'))  .then((result) => {    console.log(result);  })  .catch((error) => {    console.error(error);  }); \n콜백이 일반 값을 반환하면 resolve된 Promise가 되고, Promise를 반환하면 그 Promise를 기다립니다. 동기적으로 에러를 던지면 rejected Promise가 됩니다. \n즉 동기 함수와 비동기 함수를 동일하게 Promise 형태로 감싸고 싶을 때 유용합니다. \nFloat16Array \nTypedArray에 16비트 부동소수점 배열이 추가되었습니다. \nconst array = new Float16Array(3);array[0] = 1.5;array[1] = 2.5;array[2] = 3.5; \n기존에는 Float32Array와 Float64Array만 있었습니다. \nFloat16은 숫자의 정밀도를 낮추는 대신 메모리를 적게 차지합니다. \nAI나 그래픽 분야에서는 이미 FP16을 굉장히 많이 사용하기 때문에 이런 데이터를 자바스크립트에서 직접 다루기 좋아졌습니다. \n함께 다음 기능도 추가되었습니다. \nMath.f16round()DataView.prototype.getFloat16()DataView.prototype.setFloat16() \nMath.f16round는 숫자를 Float16으로 표현했을 때의 값으로 반올림합니다. \nMath.f16round(1.337);// Float16으로 표현 가능한 가장 가까운 값 \n마치며 \nES2025는 작년보다 실용적인 기능들이 꽤 많이 추가되었습니다. \n개인적으로는 Iterator Helpers와 Set Methods가 가장 마음에 듭니다. 지금까지 라이브러리를 사용하거나 직접 코드를 작성해야 했던 기능들이 표준으로 들어왔다는 점에서 의미가 있습니다. \nRegExp.escape 역시 별것 아닌 기능처럼 보여도 막상 필요할 때마다 직접 구현해야 했던 기능이라 반갑네요. \n다만 새로운 자바스크립트 기능은 브라우저나 Node.js 버전에 따라 지원 여부가 다르므로 실제 서비스에서 사용하기 전에는 실행 환경의 지원 여부를 확인해야 합니다. \nES2026에서는 어떤 기능들이 추가될지도 살펴봅시다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/08/pycharm-for-ai-assisted-django-workflows/",
-    "pubDate": "Thu, 20 Aug 2026 13:06:50 +0000",
-    "creator": "Will Vincent",
+    "link": "https://www.zerocho.com/category/ECMAScript/post/6a8b46575d17b6f3727eeb98",
+    "pubDate": "Sun, 23 Aug 2026 19:13:28 GMT",
+    "creator": "ZeroCho",
     "categories": [
-      "agentic-ai",
-      "ai",
-      "python",
-      "web-development",
-      "django"
+      "ECMAScript"
     ]
   },
   {
@@ -117,125 +119,146 @@
   {
     "id": 8,
     "imageUrl": "",
-    "title": "Rider Hands AI Agents The Keys To Its Refactoring Engine For Safer, Faster, And Cheaper Results",
-    "description": "We traced a frontier model through fifteen C# refactoring tasks and counted what it reached for. It piped text into interactive commands 468 times. It called git 422 times and sed 392 times. It ran dotnet build 163 times. Across 2,513 tool calls it performed a structural refactoring operation exactly zero times. Not because it […]",
+    "title": "Spring Boot Configuration Management Best Practices",
+    "description": "Spring Boot provides comprehensive externalized application configuration support. It enables one application artifact to run in different environments by supplying values from various sources such as: In this article, we’ll explore the best practices for managing Spring Boot application configuration.A well-designed configuration strategy should ensure that: Configuration properties classification Typically, Spring Boot application configuration falls […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/08/19/rider-refactoring-code-skill/",
-    "pubDate": "Wed, 19 Aug 2026 15:37:39 +0000",
-    "creator": "Sasha Ivanova",
+    "link": "https://blog.jetbrains.com/idea/2026/08/spring-boot-configuration-management-best-practices/",
+    "pubDate": "Fri, 21 Aug 2026 08:35:26 +0000",
+    "creator": "Siva Katamreddy",
     "categories": [
-      "ai",
-      "rider",
-      "agent-skills",
-      "ai-agents",
-      "ai-skills",
-      "refactorings"
+      "idea",
+      "java",
+      "best-practices",
+      "spring-boot"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model",
-    "description": "The best AI in Visual Studio is the AI you can bring with you. Developers don’t work in a single-model world anymore. You might reach for one model for everyday coding, another for a domain-specific problem, and an approved model for work that must stay within your organization’s governance boundaries. So, the question we hear […]\nThe post Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model appeared first on Visual Studio Blog.",
+    "title": "How we knew COVID was over (and what our models had to unlearn)",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/",
-    "pubDate": "Mon, 24 Aug 2026 22:39:41 +0000",
-    "creator": "Tanmayee Kamath",
+    "link": "https://medium.com/airbnb-engineering/how-we-knew-covid-was-over-and-what-our-models-had-to-unlearn-c606b9bdb0ab?source=rss----53c7c27702d5---4",
+    "pubDate": "Wed, 19 Aug 2026 17:01:03 GMT",
+    "creator": "Harrison Katz",
     "categories": [
-      "Visual Studio"
+      "data-science",
+      "data-modeling",
+      "technology",
+      "machine-learning",
+      "data"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "시작도 못 하는 사람들",
-    "description": "영어에 “Ready forever, starting never”라는 말이 있다. 내가 꽤 자주 사용하는 문구인데 말 그대로 평생 준비만 하고, 시작은 못 한다는 뜻이다. 우리 포트폴리오에도 이런 창업가가 있는데, 혹시 이 글을 읽는 분도 내가 혹시 준비만 하고 시작은 못 하는 사람인지 스스로 물어보고 점검해 보길 바란다. 왜냐하면 이런 사람은 뭐 하나 시작도 못 하고, 시작을 못 하기(...)",
+    "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
+    "description": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the communication needs associated with training recommendation models with superior performance over general-purpose GPUs. By co-designing MTIA’s communication library, HCCL, alongside the [...]\nRead More...\nThe post MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/08/ready-forever-starting-never.html",
-    "pubDate": "Sun, 23 Aug 2026 21:28:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
+    "pubDate": "Mon, 24 Aug 2026 17:45:52 +0000",
+    "creator": "Unknown",
     "categories": [
-      "Uncategorized",
-      "doing",
-      "FoundersAtWork"
+      "Data Infrastructure",
+      "DevInfra",
+      "Networking & Traffic",
+      "Production Engineering"
     ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "리더(팀장, 임원)의 자격",
-    "description": "리더는 자기 행동이 직원들에게 어떤 식으로 받아들여질지까지 고민해야 한다. “리더”는 사람을 움직여 일을 하는 자리입니다.직원들은 나의 사소한 행동까지 메시지로 해석하죠.전혀 그럴 의도가 없는데도 말이죠. 뜻이 잘못 해석되는 경우가 허다합니다.곡해하는 직원들이 없을 수 없거든요. 조직의 방향이 모호할 땐 더더욱 심해집니다.조직의 움직임을 항상 잘 관찰해야 하죠. 직원들은 예측을 통해 업무를 효율화하려 합니다.두 번 일하지 않기 위해서죠. 리더의 […]",
+    "title": "있는 그대로의 나",
+    "description": "나는 일과 관련된 저녁식사인 ‘비즈니스 디너’를 잘 안 한다. 주 중 일정이 워낙 빡빡해서 하루라도 루틴과 컨디션이 무너지면 그날은 당연히 힘들고, 이게 일주일 내내 영향을 미치기 때문에 되도록 일찍 자고 일찍 일어나서 내가 매일 하는 루틴을 지키는 노력을 한다. 저녁 약속이 있으면 늦게까지 뭘 먹고, 많이 먹진 않지만, 술도 먹고, 그리고 늦게 자고 일찍 일어나야(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://subokim.wordpress.com/2026/08/24/leaders/",
-    "pubDate": "Sun, 23 Aug 2026 16:27:35 +0000",
-    "creator": "subokim",
+    "link": "https://www.thestartupbible.com/2026/08/being-myself.html",
+    "pubDate": "Wed, 19 Aug 2026 21:35:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "개발자의삶",
-      "리더",
-      "개발자",
-      "승진"
+      "Uncategorized",
+      "consistency",
+      "discipline",
+      "inspiring",
+      "korea"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "Signatures, be true: domain errors and functional handling in Kotlin",
-    "description": "Here’s a function that signs a document: In Kotlin, Unit means the function completes without returning a meaningful value – roughly equivalent to void in Java. Got it? Now, tell me what could go wrong. You can’t.  Yet, the code might be invalid. The signing window might have closed. The database might be down. The […]",
+    "title": "Claude Code는 어디서 실행해야 할까 — 답은 \"얼마나 위임할 것인가\"에 있다",
+    "description": "세 줄 요약\nClaude Code는 터미널, VS Code, 데스크탑 앱, 웹, 모바일 어디서든 같은 엔진으로 돌고, 설정도 공유된다. 그래서 인터페이스 선택의 진짜 기준은 기능표가 아니라 작업을 얼마나 위임할 것인가다.\n한 줄씩 같이 보면 IDE 확장, 옆에서 감독하면 터미널 CLI, 여러 작업을 병렬로 관리하면 데스크탑 앱, 위임하고 잊으면 웹에서 여는 클라우드 세션이 맞는다.\n토큰 비용도 같은 기준을 따라 움직인다. 많이 위임할수록 Claude가 스스로 검증하는 횟수가 늘고, 그 검증이 곧 토큰 소모다.\nClaude Code를 실행할 수 있는 곳이 너무 많아졌다. 터미널 CLI, VS Code 확장 프로그램, JetBrains 플러그인, 데스크탑 앱, 웹, 모바일. 여기에 orca나 cmux 같은 서드파티 도구까지 더하면 선택지는 더 늘어난다.\n잘못 고르면 대가가 있다. 필요한 기능이 없어 작업 중간에 갈아타거나, 반대로 쓰지도 않는 자동 기능이 토큰을 소모한다. 그래서 다들 어디에 정착할지 고민한다.\n그런데 기능표를 아무리 비교해도 답이 안 나온다. 이유가 있다. 공식 문서가 명시하듯 \"Claude Code는 어디에서나 같은 엔진으로 동작\"한다. CLAUDE.md와 권한 규칙, MCP 서버, 스킬 설정도 로컬 인터페이스 전체에 공유된다. (Platforms and integrations, Desktop — Shared configuration)\n엔진도 설정도 같다면, 무엇이 다른가. 인터페이스마다 다른 건 사람이 개입하는 방식과 빈도다. 그래서 물어야 할 질문은 \"어디서 실행할까\"가 아니라 이 작업을 Claude에게 얼마나 위임할 것인가다.\n이 위임 정도가 이 글 전체를 관통하는 기준이다. 위임이 낮으면 사람이 옆에서 감독하고 자주 개입하고, 위임이 높으면 그 반대다.\n위임 정도로 보면 여섯 인터페이스가 하나의 스펙트럼 위에 깔끔하게 늘어서고, 토큰 비용까지 같은 기준으로 설명된다.\n위임 스펙트럼 — 인터페이스는 위임 정도 순으로 늘어선다\n단계\n이 단계에서 하는 일\n인터페이스\n이런 작업\n\n\n\n\n1\n페어 프로그래밍 — 한 줄씩 같이 본다\nVS Code, JetBrains 확장\n익숙하지 않은 코드 수정, 민감한 변경, 배우면서 하는 작업\n\n\n2\n옆자리 감독 — 방향만 잡고 지켜본다\n터미널 CLI\n일상 개발, 자동화, 원격 서버 작업\n\n\n3\n병렬 관리 — 여러 세션의 결과를 돌아가며 검토한다\n데스크탑 앱\n독립적인 작업 여러 개를 동시에 진행\n\n\n4\n위임 — 맡기고 잊는다\n클라우드 세션(웹)\n대규모 리팩터링, 마이그레이션, 퇴근 후에도 돌아갈 작업\n\n\n원격\n밖에서 확인 — 스펙트럼 전체를 폰에서 조작\n모바일 앱\n자리를 비웠을 때 시작, 확인, 방향 수정\n\n\n\n이 스펙트럼이 임의의 분류가 아니라는 근거가 있다. Claude Code의 권한 모드가 정확히 같은 방향으로 설계되어 있다.\nManual(모든 변경을 승인) → Accept edits(파일 수정 자동 승인) → Auto(백그라운드 안전 검사로 모든 동작을 실행) → Bypass(승인 생략) 순으로 개입이 줄어드는데, 각 인터페이스의 기본값이 이 순서와 맞물린다.\nVS Code 확장은 인라인 diff로 변경을 하나씩 승인하는 흐름을 갖췄고, 클라우드 세션은 아예 Manual 모드가 없다. 파일 수정이 사전 승인된 상태로 시작한다. (Permission modes, Desktop — Choose a permission mode)\n위임 정도가 올라갈수록 사람의 승인이 줄어든다. 그러면 그 빈자리를 무엇이 채우는가. Claude가 스스로 하는 검증이다.\n공식 모범 사례 문서의 첫 항목은 \"Claude에게 자기 작업을 검증할 수단을 주라\"다. (Best practices) 인터페이스마다 제공하는 검증 수단이 다르고, 사실 그것이 인터페이스의 본질적 차이다. 단계별로 보자.\n1단계. 페어 프로그래밍 — IDE 확장\n어떤 작업인가. 코드를 내가 직접 읽고 이해하면서 옆에서 도움받는 작업. 변경 하나하나를 눈으로 확인해야 하는 민감한 코드, 아직 파악 중인 코드베이스가 여기에 해당한다.\n왜 IDE인가. 검증의 주체가 사람이기 때문이다. VS Code 확장은 사람이 최대한 빠르게 검토하도록 돕는 데 집중한다. 변경 제안이 네이티브 diff 뷰어로 열리고, 계획 모드에서는 계획이 마크다운 문서로 열려 인라인 주석으로 피드백을 달 수 있다. 편집기에서 선택한 텍스트는 Claude에게 자동으로 보이고, Option+K로 @파일#5-10 형태의 줄 범위 참조를 넣을 수 있다. (VS Code)\nClaude의 검증 수단. 언어 서버 진단이다. 확장이 내장한 IDE MCP 서버를 통해 Claude가 VS Code 문제 패널의 오류와 경고를 직접 조회한다. 컴파일러를 돌리지 않고도 타입 오류를 아는 셈이다. (VS Code — The built-in IDE MCP server)\n알아둘 제약. 명령과 스킬은 CLI의 일부만 지원하고, MCP 서버 추가는 CLI에서 해야 한다. ! bash 단축과 탭 완성이 없고, 백그라운드 작업 가시성에 대해서는 공식 문서 스스로 \"CLI에 비해 제한적\"이라고 적는다. (VS Code extension vs. Claude Code CLI)\n이 단계의 토큰. 스펙트럼에서 가장 예측 가능한 구간이다. 사람이 검증을 맡으니 자동 검증 호출이 없다. 대신 매 프롬프트에는 현재 선택 영역과 열린 파일 경로가 문맥으로 함께 실린다. 민감한 파일은 Read 거부 규칙으로 제외할 수 있다.\n사용량 가시성은 이 단계에서 가장 좋다. /usage가 스킬, 하위 에이전트, MCP 서버별 사용량 귀속을 표로 보여주고, 캐시 미스 같은 요인이 전체의 10%를 넘으면 경고와 절감 팁을 띄운다. (VS Code — Check account and usage)\n2단계. 옆자리 감독 — 터미널 CLI\n어떤 작업인가. 방향은 내가 잡되 실행은 맡기는 일상 개발. 그리고 사람이 아예 개입할 수 없는 자동화 영역 전체.\n왜 CLI인가. 공식 문서가 CLI를 \"가장 완전한 인터페이스\"로 규정하는 이유는 위임의 양 극단을 모두 다루기 때문이다. 대화형으로 지켜보다가 Esc 키로 즉시 개입할 수도 있고, --print 플래그로 비대화형으로 실행해 CI 파이프라인에 붙일 수도 있다. 다음 기능은 CLI에만 있다. (Platforms, Desktop — What's not available)\n스크립트 실행(--print)과 Agent SDK\n에이전트 팀 — 팀장 Claude가 팀원 인스턴스에 작업을 배분\ndontAsk 권한 모드 — 사전 승인된 도구만 허용\n여기에 더해 Amazon Bedrock, Google Cloud Agent Platform, Microsoft Foundry 같은 서드파티 모델 제공자 연결은 CLI와 IDE 확장(VS Code, JetBrains)에서 지원한다. 데스크탑은 기본적으로 Anthropic API로 연결된다.\nClaude의 검증 수단. 테스트, 빌드 스크립트, 훅이다. 사람의 눈 대신 실행 결과가 검증한다. 공식 모범 사례가 권하는 \"검증 목표를 함께 주기\"(테스트 케이스, 기대 출력 명시)가 가장 잘 작동하는 환경이기도 하다.\n알아둘 제약. 시각 검토 기능이 없고, 큰 표가 터미널 폭에 맞지 않아 잘리는 문제는 공식 트러블슈팅 문서에 등재된 항목이다. (Troubleshooting)\n이 단계의 토큰. 기본값 기준으로는 부가 기능이 가장 적게 붙는다.\n하지만 이 단계에는 스펙트럼 전체에서 가장 비싼 선택지도 함께 있다. 에이전트 팀이다. 팀원이 계획 모드로 돌 때 일반 세션 대비 약 7배의 토큰을 쓴다는 수치가 공식 문서에 명시되어 있다. 팀원 하나하나가 독립된 컨텍스트 창을 가진 별도 인스턴스이기 때문이다. (Manage costs — Agent team token costs)\n같은 인터페이스 안에서도 \"얼마나 위임하느냐\"가 비용에 차이를 만든다는 사실을 이 숫자가 보여준다.\n3단계. 병렬 관리 — 데스크탑 앱\n어떤 작업인가. 독립적인 작업 여러 개를 동시에 돌리고, 각각의 결과를 돌아가며 검토하는 방식. 개별 작업에는 덜 붙어 있는 대신 전체를 관리한다.\n왜 데스크탑인가. 병렬 관리에 필요한 격리와 검토 도구가 기본 장착이다.\n자동 worktree 격리: 새 세션마다 git worktree로 격리된 사본이 자동 생성된다. 세션끼리 같은 파일을 동시에 건드리지 않는다. CLI에서 --worktree 플래그로 직접 하던 일이다. (Desktop — Work in parallel with sessions)\ndiff 뷰와 줄 단위 주석: 변경 파일을 훑으며 특정 줄에 의견을 달면 Claude가 반영한다.\n보기 모드 전환: 여러 세션을 돌릴 때는 Summary 모드로 결과만 훑고, 왜 그렇게 했는지 따질 때만 Verbose로 내려간다.\n세션 간 소통: \"어느 세션이 인증 리팩터링을 건드렸지\"라고 물으면 Claude가 다른 세션들의 진행 상황을 읽고 답하고, 세션 사이에 메시지도 전달한다.\nClaude의 검증 수단. 이 단계의 핵심이자, 데스크탑이 토큰을 더 쓰게 되는 이유다. 사람이 세션 하나에 붙어 있지 않으니 Claude가 브라우저로 직접 검증한다.\n자동 검증(autoVerify)이 기본으로 켜져 있다. 파일을 수정할 때마다 개발 서버 화면을 스크린샷으로 찍고, DOM을 검사하고, 요소를 클릭해 확인하고, 발견한 문제를 고친다. iOS 앱이라면 전용 시뮬레이터 창에서 같은 일을 한다.\nPR을 만들면 CI 상태를 추적해 실패한 검사를 자동으로 고치는 Auto-fix로 이어진다. (Desktop — Auto-verify changes, Preview your app)\n알아둘 제약. --print 기반 스크립팅과 에이전트 팀이 없고, 서드파티 모델 제공자는 별도 배포판이나 게이트웨이 경유가 필요하다. /permissions처럼 터미널 대화상자를 여는 명령은 동작하지 않아 설정 파일을 직접 편집해야 한다.\n이 단계의 토큰. 데스크탑에서 사용량이 빨리 찬다면 원인은 화면 출력이 아니라 위의 검증 동작이다. 검증 하나하나가 도구 호출이고 그 결과가 컨텍스트에 쌓인다. 병렬 세션은 세션 수만큼 독립 컨텍스트를 키운다. 확장 사고(extended thinking)도 기본으로 켜져 있어 모델에 따라 사고 분량이 요청당 수만 토큰까지 출력 토큰으로 과금된다.\n중요한 건 이 소모가 낭비가 아니라 검증 품질과 맞바꾼 비용이라는 점이다. 자동 검증이 사람이 직접 확인하고 다시 요청하는 과정을 줄여준다면 총 사용량은 오히려 줄 수 있다. 필요 없으면 프로젝트의 .claude/launch.json에서 \"autoVerify\": false로 끈다.\n4단계. 위임 — 클라우드 세션(웹)\n어떤 작업인가. 개입이 거의 필요 없는 큰 작업. 대규모 마이그레이션, 테스트 스위트 정비, 자는 동안 돌아야 하는 일.\n왜 클라우드인가. Anthropic이 관리하는 인프라에서 돌기 때문에 앱을 닫아도, 컴퓨터를 꺼도 계속 실행된다. 데스크탑에서 환경을 Cloud로 고르거나 claude.ai/code에서 시작한다. 여러 저장소를 한 세션에 붙여 공유 라이브러리와 그것을 쓰는 저장소를 함께 고치는 작업도 된다. (Claude Code on the web, Desktop — Run long-running tasks remotely)\n권한 구조가 이 단계의 성격을 그대로 보여준다. 클라우드 세션에는 Manual 모드가 없다. 파일 수정이 사전 승인된 상태로 시작하고, 반대로 Bypass 모드는 지원하지 않는다. 위임하되 안전장치는 유지하는 설계다.\nClaude의 검증 수단. CI다. PR 리뷰 코멘트와 CI 실패에 Claude가 반응해 스스로 고친다.\n이 단계의 토큰. 클라우드 세션 사용량은 구독 플랜 한도에 합산되며 별도의 컴퓨팅 요금은 없다. 대신 위임 작업 특성상 세션이 길어지므로, 긴 세션의 비용 구조를 알아야 한다. 바로 아래에서 다룬다.\n원격 계층 — 모바일. 모바일 앱은 스펙트럼의 다섯 번째 단계가 아니라, 스펙트럼 전체를 밖에서 조작하는 계층이다. 클라우드 세션을 시작하고 모니터링한다. Remote Control로는 집 컴퓨터에서 돌던 로컬 세션을 폰에서 이어서 조종하고, Dispatch로 보낸 작업은 데스크탑 세션으로 만들어진다. (Mobile, Remote Control)\n자율성의 가격 — 토큰은 검증 비용이다\n여기까지 보면 토큰 이야기가 정리된다. 먼저 팩트 하나. 인터페이스별 토큰 사용량을 직접 비교한 공식 지표는 없다. \"데스크탑이 CLI보다 몇 % 더 쓴다\" 같은 숫자는 공식 문서에 존재하지 않는다.\n대신 공식 문서의 수치들을 위임 스펙트럼 위에 놓으면 일관된 패턴이 나온다. 많이 위임할수록 검증이 자동화되고, 자동화된 검증이 토큰을 쓴다.\n위임 정도\n무엇이 늘어나는가\n공식 근거\n\n\n\n\n페어 프로그래밍\n선택 영역과 열린 파일이 매 프롬프트에 포함\nIDE MCP 서버\n\n\n병렬 관리\n수정마다 스크린샷과 DOM 검사, 세션 수만큼 컨텍스트\nautoVerify\n\n\n에이전트 팀\n팀원마다 독립 인스턴스, 일반 세션의 약 7배\nAgent team token costs\n\n\n유휴 세션\n백그라운드 요약 등 세션당 보통 0.04달러 미만\nBackground token usage\n\n\n\n지출 규모를 가늠할 공식 수치도 있다. Anthropic이 비용 문서에 공개한 기업 배포 집계로, 개발자 1인당 하루 평균 약 13달러, 월 150~250달러, 사용자의 90%는 활동일 기준 하루 30달러 아래다. (Manage costs)\n그리고 어느 단계에서든 비용을 최종 결정하는 것은 인터페이스가 아니라 컨텍스트 크기다. Claude Code는 매 요청마다 전체 대화를 다시 보내므로, 하루 종일 열어둔 세션에서는 한 줄 질문도 대화 전체 분량의 사용량을 만든다.\n프롬프트 캐시가 이를 완화하지만 수명이 있다. 구독 계정 1시간, API 키 기본 5분. 휴식 후 첫 메시지는 캐시를 놓쳐 전체 컨텍스트를 재처리한다. (Why usage climbs in a long session, Prompt caching)\n그래서 절감의 핵심은 어디서 실행하든 같다.\n작업 전환 시 /clear — 남은 컨텍스트는 이후 모든 메시지에 비용을 더한다\n모델을 작업에 맞추기 — 대부분의 코딩은 Sonnet, Opus는 복잡한 설계 판단에\n장황한 작업은 하위 에이전트로 — 테스트 실행과 로그 분석은 별도 컨텍스트에서 돌리고 요약만 받기\n훅으로 전처리 — 1만 줄 로그 대신 오류 줄만 걸러 넘기면 수만 토큰이 수백 토큰이 된다\nCLAUDE.md는 200줄 아래로 — 본문 전체가 매 요청에 실리는 유일한 설정이다. 상세 지침은 필요할 때만 로드되는 스킬로 옮긴다 (Context cost by feature)\n측정은 세 명령이면 된다. /usage(사용량 귀속과 행동 경고), /context(지금 컨텍스트를 무엇이 차지하는지), /insights(최근 세션의 작업 패턴 리포트).\n하나만 고를 필요는 없다 — 작업에 따라 옮겨 다니기\n위임 정도는 작업마다 다를 뿐 아니라, 한 작업 안에서도 변한다. 처음에는 붙어서 방향을 잡고, 궤도에 오르면 맡기고, 막히면 다시 붙는다. Claude Code는 이 이동을 위한 공식 경로를 전부 갖추고 있다.\n이동\n방법\n상황\n\n\n\n\nCLI → 데스크탑\n/desktop 명령\n터미널로 시작한 작업의 변경량이 커져 시각 검토가 필요할 때\n\n\n데스크탑 → 클라우드\nContinue in 메뉴\n궤도에 오른 작업을 맡기고 퇴근할 때. 브랜치를 푸시하고 대화 요약과 함께 클라우드 세션 생성\n\n\n클라우드 → 터미널\n--teleport\n위임한 작업이 막혀 직접 개입해야 할 때\n\n\n클라우드 → VS Code\n세션 기록의 Web 탭\n클라우드 세션 대화를 내려받아 로컬에서 이어가기\n\n\nVS Code 확장과 CLI 양방향\nclaude --resume\n대화 기록을 공유하므로 어느 쪽에서든 이어짐\n\n\n밖 → 로컬 세션\nRemote Control\n자리를 비운 사이 진행 중인 세션을 폰이나 브라우저에서 조종\n\n\n폰 → 데스크탑\nDispatch\n이동 중에 떠오른 작업을 집이나 사무실 데스크탑에 맡길 때\n\n\n\n하루의 흐름으로 그리면 이렇다. 아침 출근길에 폰으로 클라우드 세션을 시작한다. 자리에 앉아 데스크탑에서 diff를 검토하고 방향을 수정한다. 까다로운 부분은 --teleport로 터미널에 가져와 직접 붙는다. 해결되면 Continue in으로 다시 클라우드에 넘기고 퇴근한다. 밤에 알림이 오면 폰에서 확인만 한다.\n인터페이스를 고르는 게 아니라, 작업의 위임 정도가 변할 때마다 스펙트럼 위를 옮겨 다니는 것이다. 설정과 프로젝트 메모리가 공유되기에 가능한 그림이다.\n스펙트럼을 더 넓히고 싶다면 — orca와 cmux\n3단계의 병렬 관리를 공식 기능 너머로 확장하는 서드파티 도구들이 있다. 둘 다 Anthropic과 무관한 오픈소스라는 점을 먼저 밝혀둔다.\norca (github.com/stablyai/orca)는 Stably AI의 에이전트 개발 환경이다. Claude Code뿐 아니라 Codex, OpenCode 등 30여 종의 코딩 에이전트를 각자 격리된 worktree에서 나란히 돌린다. 같은 프롬프트를 여러 에이전트에 동시에 던져 결과를 비교하고 나은 쪽을 병합하는 흐름이 특징이고, 트래픽을 자체 서버로 중계하지 않아 기존 구독을 그대로 쓴다. 데스크탑 앱의 병렬 관리를 \"에이전트 종류까지 병렬\"로 확장한 셈이다.\ncmux (cmux.com)는 macOS 네이티브 터미널 앱이다. Ghostty 렌더링 엔진 위에 세로 탭, 에이전트가 입력을 기다릴 때 울리는 알림, 세션 복원을 구현했다. 여러 CLI 세션을 돌릴 때 \"어느 탭이 지금 나를 기다리는가\"라는 2단계의 감독 문제를 푸는 도구다. 같은 이름의 별개 프로젝트인 craigsc/cmux(worktree 생성과 정리를 명령 하나로 감싸는 CLI)와 혼동하지 않도록 주의한다.\n도입 전에 공식 기능을 먼저 확인하길 권한다. 최근의 Claude Code는 자동 worktree 격리, 터미널에서 여러 세션을 감독하는 agent view, 세션 간 메시지 전달, 스크립트 하나로 다수 하위 에이전트를 돌리는 동적 워크플로까지 병렬 기능을 자체적으로 갖췄다. (Agents and parallel work) 서드파티의 가치는 여러 종류의 에이전트를 섞거나 터미널 환경 자체를 바꾸고 싶을 때 커진다.\n토큰 관점에서 이 도구들은 중립이다. 세션을 더 많이, 더 편하게 돌리게 해줄 뿐 세션 하나의 소모 구조는 그대로다. 병렬 세션 다섯 개는 어느 도구에서든 컨텍스트 다섯 개다.\n자주 묻는 질문\nQ. Claude Code는 CLI와 데스크탑 앱 중 어느 쪽이 좋은가?\n작업을 얼마나 위임할지로 정한다. 방향을 잡으며 지켜보는 단일 작업과 자동화는 CLI, 여러 작업을 병렬로 돌리며 시각적으로 검토하는 방식은 데스크탑이다. 공식 문서의 권장 기준도 같다. 스크립팅이 필요하면 CLI, 병렬 세션 관리와 시각 검토가 필요하면 데스크탑. (Desktop — Coming from the CLI)\nQ. 데스크탑 앱은 토큰을 더 소모하나?\n인터페이스별 공식 비교 지표는 없다. 다만 데스크탑은 자동 검증(수정마다 스크린샷과 DOM 검사)과 확장 사고가 기본으로 켜져 있고 병렬 세션이 세션 수만큼 컨텍스트를 키우므로, 같은 작업이라도 검증 호출만큼 사용량이 더 잡힐 수 있다. 자동 검증은 .claude/launch.json에서 끌 수 있다.\nQ. VS Code 확장만 설치하면 CLI는 필요 없나?\n대화창만 쓴다면 필요 없다. 확장이 CLI 사본을 내장하고 있다. 다만 통합 터미널에서 claude 명령을 쓰거나 MCP 서버를 추가하려면 CLI를 별도로 설치해야 한다. (VS Code — Prerequisites)\nQ. 인터페이스를 옮기면 설정을 다시 해야 하나?\n아니다. CLAUDE.md, ~/.claude/settings.json의 권한 규칙, MCP 서버, 훅, 스킬이 로컬 인터페이스 전체에 공유된다. 대화도 이동 가능하다. CLI 세션은 /desktop으로 데스크탑에, 확장 대화는 claude --resume으로 CLI에 이어진다.\nQ. 토큰을 아끼려면 어떤 인터페이스를 골라야 하나?\n인터페이스보다 습관이 결정한다. 작업 전환 시 /clear, 작업에 맞는 모델 선택, CLAUDE.md 200줄 유지, 장황한 작업의 하위 에이전트 위임이 어느 인터페이스에서든 가장 큰 차이를 만든다. (Reduce token usage)\n참고 자료\nPlatforms and integrations — 공식 인터페이스 비교\nDesktop — CLI와의 기능 비교표\nVS Code — 확장 프로그램과 CLI의 차이\nPermission modes — 권한 모드 스펙트럼\nBest practices — 검증 수단을 주는 것부터\nManage costs — 비용 추적과 토큰 절감\nFeatures overview — 기능별 컨텍스트 비용\nPrompt caching — 캐시 동작과 수명\nRemote Control / Mobile\norca (Stably AI) / cmux",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-domain-errors-and-functional-handling-in-kotlin/",
-    "pubDate": "Wed, 19 Aug 2026 15:52:05 +0000",
-    "creator": "Viliam Sedliak",
-    "categories": [
-      "backend",
-      "kotlin"
-    ]
+    "link": "https://blog.gaerae.com/2026/08/claude-code-where-to-run.html",
+    "pubDate": "2026-08-25T07:44:05.050Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "ES2025의 변화",
-    "description": "2025년에도 어김없이 새로운 자바스크립트 스펙인 ES2025가 나왔습니다. \n작년 ES2024에서는 눈에 띄는 문법 변화가 많지 않았는데요. 올해는 꽤 쓸만한 기능들이 많이 추가되었습니다. 특히 Iterator와 Set 관련 기능은 실무에서도 종종 사용할 만합니다. \n하나씩 살펴보겠습니다. \nIterator Helpers \n개인적으로 ES2025에서 가장 눈에 띄는 기능입니다. \n기존에도 자바스크립트에는 iterator가 있었습니다. 예를 들어 배열의 values()를 호출하면 iterator가 나옵니다. \nconst iterator = [1, 2, 3].values();iterator.next(); // { value: 1, done: false }iterator.next(); // { value: 2, done: false } \n문제는 iterator에는 배열처럼 map이나 filter 같은 편리한 메서드가 없었다는 겁니다. \nES2025부터는 iterator에서도 이런 메서드들을 사용할 수 있습니다. \nconst result = [1, 2, 3, 4, 5]  .values()  .map((value) => value * 2)  .filter((value) => value > 5)  .toArray();console.log(result); // [6, 8, 10] \n추가된 주요 메서드는 다음과 같습니다. \niterator.map()iterator.filter()iterator.take()iterator.drop()iterator.flatMap()iterator.reduce()iterator.toArray()iterator.forEach()iterator.some()iterator.every()iterator.find() \nIterator.from도 추가되었습니다. \nconst iterator = Iterator.from([1, 2, 3]);iterator  .map((value) => value * 10)  .toArray(); // [10, 20, 30] \n얼핏 보면 배열의 map, filter와 별 차이가 없어 보입니다. \n하지만 iterator의 중요한 특징은 필요할 때 하나씩 값을 계산한다는 점입니다. \n예를 들어 무한히 숫자를 만들어내는 generator도 처리할 수 있습니다. \nfunction* numbers() {  let i = 1;  while (true) {    yield i++;  }}const result = numbers()  .filter((value) => value % 2 === 0)  .map((value) => value * 10)  .take(5)  .toArray();console.log(result); // [20, 40, 60, 80, 100] \n무한 iterator인데도 take(5)를 했기 때문에 필요한 다섯 개만 계산하고 끝납니다. \n대용량 데이터를 다루거나 generator를 자주 사용하는 경우 상당히 유용할 것 같습니다. \nSet Methods \nSet도 드디어 집합답게 사용할 수 있게 되었습니다. \n기존 Set에는 add, delete, has 정도밖에 없어서 합집합이나 교집합을 직접 구현해야 했습니다. \nES2025에서는 다음 메서드들이 추가되었습니다. \nunion()intersection()difference()symmetricDifference()isSubsetOf()isSupersetOf()isDisjointFrom() \n예제를 봅시다. \nconst a = new Set([1, 2, 3]);const b = new Set([3, 4, 5]);a.union(b);// Set { 1, 2, 3, 4, 5 }a.intersection(b);// Set { 3 }a.difference(b);// Set { 1, 2 }a.symmetricDifference(b);// Set { 1, 2, 4, 5 } \n부분집합 여부도 바로 확인할 수 있습니다. \nconst a = new Set([1, 2]);const b = new Set([1, 2, 3]);a.isSubsetOf(b);   // trueb.isSupersetOf(a); // truea.isDisjointFrom(new Set([3, 4]));// true \n알고리즘 문제 풀 때 특히 반가운 기능이네요. 실무에서도 권한이나 태그처럼 중복 없는 값들을 비교할 때 유용할 것 같습니다. \nJSON Module과 Import Attributes \nJSON 파일을 ES Module 방식으로 가져오는 방법도 표준화되었습니다. \nimport data from './data.json' with { type: 'json' };console.log(data); \n동적 import에서도 사용할 수 있습니다. \nconst module = await import('./data.json', {  with: {    type: 'json',  },});console.log(module.default); \n여기서 with { type: 'json' } 부분을 Import Attributes라고 합니다. \n파일 확장자가 .json인데 굳이 type: 'json'을 또 적어야 하나 싶을 수 있습니다. \n웹에서는 URL의 확장자가 실제 Content-Type을 보장하지 않기 때문입니다. 서버가 전혀 다른 타입의 응답을 보내는 경우도 있기 때문에 어떤 종류의 모듈을 가져오는지 명시적으로 선언하는 겁니다. \n예전에는 assert { type: 'json' } 문법이 실험적으로 사용되기도 했는데 최종 표준은 with 문법입니다. \nRegExp.escape \n드디어 정규표현식 문자열을 안전하게 escape하는 표준 함수가 생겼습니다. \n사용자가 입력한 문자열을 정규표현식에 집어넣는 상황을 생각해봅시다. \nconst keyword = 'hello.world';const regex = new RegExp(keyword); \n여기서 점(.)은 정규표현식에서 특수한 의미를 가지고 있습니다. 따라서 우리가 원한 문자열 그대로를 검색하지 않습니다. \n기존에는 직접 escape 함수를 만들거나 라이브러리를 사용해야 했습니다. \n이제는 RegExp.escape를 사용하면 됩니다. \nconst keyword = 'hello.world';const regex = new RegExp(RegExp.escape(keyword));regex.test('hello.world'); // true \n괄호, 대괄호, *, +, ?, 점 같은 정규표현식 특수 문자들을 알아서 처리해줍니다. \n검색창처럼 사용자 입력값으로 동적인 정규표현식을 만드는 경우 특히 유용합니다. \nRegExp Modifiers \n정규표현식 중간에서 특정 플래그를 켜거나 끌 수도 있게 되었습니다. \n예를 들어 i 플래그는 대소문자를 구분하지 않는 플래그입니다. \n/hello/i \n그런데 기존에는 정규표현식 전체에 플래그가 적용되었습니다. \nES2025에서는 특정 부분에서만 플래그를 적용할 수 있습니다. \nconst regex = /hello (?i:world)/;regex.test('hello world'); // trueregex.test('hello WORLD'); // trueregex.test('HELLO WORLD'); // false \n(?i:world) 부분에만 i 플래그가 적용된 겁니다. \n반대로 이미 적용된 플래그를 특정 부분에서 끌 수도 있습니다. \nconst regex = /hello (?-i:world)/i;regex.test('HELLO world'); // trueregex.test('HELLO WORLD'); // false \n지원되는 플래그는 i, m, s입니다. \n복잡한 정규표현식을 작성할 때 조금 더 세밀하게 동작을 제어할 수 있게 되었습니다. \nPromise.try \n동기 함수인지 비동기 함수인지 확실하지 않은 함수를 Promise로 처리하기 편해졌습니다. \n예를 들어 다음 함수는 동기적으로 에러를 던질 수 있습니다. \nfunction parseJSON(value) {  return JSON.parse(value);} \nPromise 체인으로 처리하려면 기존에는 다음처럼 작성할 수 있었습니다. \nPromise.resolve()  .then(() => parseJSON('잘못된 JSON'))  .catch((error) => {    console.error(error);  }); \nES2025부터는 Promise.try를 사용할 수 있습니다. \nPromise.try(() => parseJSON('잘못된 JSON'))  .then((result) => {    console.log(result);  })  .catch((error) => {    console.error(error);  }); \n콜백이 일반 값을 반환하면 resolve된 Promise가 되고, Promise를 반환하면 그 Promise를 기다립니다. 동기적으로 에러를 던지면 rejected Promise가 됩니다. \n즉 동기 함수와 비동기 함수를 동일하게 Promise 형태로 감싸고 싶을 때 유용합니다. \nFloat16Array \nTypedArray에 16비트 부동소수점 배열이 추가되었습니다. \nconst array = new Float16Array(3);array[0] = 1.5;array[1] = 2.5;array[2] = 3.5; \n기존에는 Float32Array와 Float64Array만 있었습니다. \nFloat16은 숫자의 정밀도를 낮추는 대신 메모리를 적게 차지합니다. \nAI나 그래픽 분야에서는 이미 FP16을 굉장히 많이 사용하기 때문에 이런 데이터를 자바스크립트에서 직접 다루기 좋아졌습니다. \n함께 다음 기능도 추가되었습니다. \nMath.f16round()DataView.prototype.getFloat16()DataView.prototype.setFloat16() \nMath.f16round는 숫자를 Float16으로 표현했을 때의 값으로 반올림합니다. \nMath.f16round(1.337);// Float16으로 표현 가능한 가장 가까운 값 \n마치며 \nES2025는 작년보다 실용적인 기능들이 꽤 많이 추가되었습니다. \n개인적으로는 Iterator Helpers와 Set Methods가 가장 마음에 듭니다. 지금까지 라이브러리를 사용하거나 직접 코드를 작성해야 했던 기능들이 표준으로 들어왔다는 점에서 의미가 있습니다. \nRegExp.escape 역시 별것 아닌 기능처럼 보여도 막상 필요할 때마다 직접 구현해야 했던 기능이라 반갑네요. \n다만 새로운 자바스크립트 기능은 브라우저나 Node.js 버전에 따라 지원 여부가 다르므로 실제 서비스에서 사용하기 전에는 실행 환경의 지원 여부를 확인해야 합니다. \nES2026에서는 어떤 기능들이 추가될지도 살펴봅시다.",
+    "title": "Rider 2026.2.1 and ReSharper 2026.2.1 Are Here!",
+    "description": "Our first minor update for the 2026.2 release cycle is ready to download. Here’s what’s new. Rider Rider 2026.2 put AI-assisted development front and center, and v2026.2.1 keeps that momentum going: The refactoring-code skill, bundled in JetBrains Rider Median task time before: 157.9s → after: 26.6s 83% faster Cost per solved task before: USD 0.52 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.zerocho.com/category/ECMAScript/post/6a8b46575d17b6f3727eeb98",
-    "pubDate": "Sun, 23 Aug 2026 19:13:28 GMT",
-    "creator": "ZeroCho",
+    "link": "https://blog.jetbrains.com/dotnet/2026/08/19/rider-resharper-2026-2-1/",
+    "pubDate": "Wed, 19 Aug 2026 15:36:45 +0000",
+    "creator": "Alexander Kurakin",
     "categories": [
-      "ECMAScript"
+      "net-tools",
+      "release",
+      "releases",
+      "rider",
+      "agent-skills",
+      "debugger",
+      "out-of-process-2",
+      "refactorings",
+      "resharper",
+      "resharper_oop"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Today I will… Modernize a .NET application",
-    "description": "Today I will modernize a .NET Framework application to .NET 10 using the GitHub Copilot modernization tooling built-in to Visual Studio.   The tooling helps us upgrade applications running on legacy versions of .NET and also migrate them to Azure. Today we’re going to focus on the upgrade portion.   And, the tooling will do […]\nThe post Today I will… Modernize a .NET application appeared first on Visual Studio Blog.",
+    "title": "Visual Studio August Update — Work Smarter Across Models and Branches",
+    "description": "Tune Copilot model thinking effort, share custom agents across your organization, track usage, and simplify complex Git workflows with worktrees and submodule support.\nThe post Visual Studio August Update — Work Smarter Across Models and Branches appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application/",
-    "pubDate": "Fri, 21 Aug 2026 17:00:45 +0000",
-    "creator": "Matt Soucoup, Pablo Lopes",
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-august-update-work-smarter-across-models-and-branches/",
+    "pubDate": "Tue, 25 Aug 2026 16:00:00 +0000",
+    "creator": "Mark Downie",
     "categories": [
-      "Copilot",
-      "Modernization",
       "Visual Studio",
+      "Git",
       "GitHub Copilot"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "양자 시대를 대비하는 개발자의 암호학 가이드(PQC-ML-KEM)",
-    "description": "[![NHN Cloud_meetup banner_quantum-era-cryptography_202608_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerquantumeracryptography202608900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 들어가며\r\r\n\r\r\n현재 웹 통신의 대부분은 HTTPS 프로토콜을 사용하고 있습니다. HTTPS는 TLS(Transport Layer Security) 위에서 동작하며, 주로 RSA나 ECDH 알고리즘으로 키를 교환하고 AES로 데이터를 암호화합니다. 과거 HTTP 시절에는 데이터가 평문으로 전송됐지만, 지금은 중간에서 패킷을 가로채더라도 내용을 알 수 없습니다. 도청은 사실상 불가능하다고 알려져 있습니다.\r\r\n\r\r\n그런데 지금 이 순간에도 누군가는 이 복호화할 수 없는 암호화된 트래픽을 수집하고 있습니다. 왜 못 푸는 데이터를 모을까요?\r\r\n\r\r\n> \"Harvest Now, Decrypt Later\"\r\r\n\r\r\n지금 수집하고, 나중에 복호화한다는 의미로, 보안 업계에서 새로운 위협으로 대두되고 있습니다. 그렇다면 나중은 과연 언제일까요? 양자 컴퓨터의 실용화 시점입니다. 기존 RSA, ECDH 방식은 큰 수의 소인수분해나 이산로그 문제가 어렵다는 전제 위에 서 있는데, 양자 컴퓨터에서 [Shor 알고리즘](https://ko.wikipedia.org/wiki/%EC%87%BC%EC%96%B4_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)을 돌리면 이 문제들이 빠른 시간 내에 풀립니다. 단순히 키 길이를 늘리는 것만으로는 해결되지 않습니다.\r\r\n\r\r\nNIST(미국 국립표준기술연구소)는 2016년부터 이 문제를 대비해 왔고, 2024년 8월에 최종 표준 세 건을 확정했습니다. ML-KEM(FIPS 203), ML-DSA(FIPS 204), SLH-DSA(FIPS 205)입니다. 이 글에서는 그중 키 캡슐화 메커니즘인 ML-KEM을 정리합니다.\r\r\n\r\r\n\r\r\n## 현재 암호의 문제\r\r\n\r\r\n### 우리가 매일 쓰는 암호의 정체\r\r\n\r\r\n매일 `https://`로 시작하는 사이트에 접속할 때, 뒤에서는 대략 이런 일이 벌어집니다.\r\r\n\r\r\n![1_tls-handshake-browser-server.png](https://image.toast.com/aaaadh/real/2026/techblog/1tlshandshakebrowserserver.png)\r\r\n\r\r\n이 핸드셰이크 과정에서 비대칭 암호(공개 키 암호)가 사용됩니다. 대표적인 것들을 살펴보면 다음과 같습니다.\r\r\n\r\r\n* RSA: 큰 수의 소인수분해가 어렵다는 점에 기반\r\r\n* ECDH/ECDSA: 타원곡선 위의 이산로그 문제가 어렵다는 점에 기반\r\r\n* Diffie-Hellman: 이산로그 문제가 어렵다는 점에 기반\r\r\n\r\r\n여기서 핵심 키워드는 '어렵다'입니다. '불가능하다'가 아니라 **'어렵다'**입니다. 기존 컴퓨터로 RSA-2048을 깨려면 우주의 나이보다 긴 시간이 걸리기 때문에, 우리는 그동안 안심하고 이 알고리즘들을 사용해 왔습니다.\r\r\n\r\r\n하지만 양자 컴퓨터는 다릅니다.\r\r\n\r\r\n### RSA가 깨지는 시나리오\r\r\n\r\r\n![2_rsa-quantum-scenario.png](https://image.toast.com/aaaadh/real/2026/techblog/2rsaquantumscenario.png)\r\r\n\r\r\n\r\r\n## 양자 컴퓨터\r\r\n### '비트' 대신 '큐비트'를 쓴다?\r\r\n\r\r\n현재 우리가 쓰고 있는 컴퓨터의 비트는 0 아니면 1입니다. 그런데 양자 컴퓨터의 큐비트(qubit)는 0과 1을 동시에 가질 수 있습니다. 이것을 중첩이라고 합니다. 미로에 빗대면 이런 차이입니다.\r\r\n\r\r\n> * 고전 컴퓨터: 갈림길에서 한쪽을 골라 가봅니다. 막다른 길이면 돌아와서 다른 길을 갑니다.\r\r\n> * 양자 컴퓨터: 갈림길에서 분신술을 씁니다. 모든 경로를 동시에 탐색합니다. 그리고 출구를 찾은 분신만 남깁니다.\r\r\n\r\r\n이것이 양자 컴퓨터의 위력입니다.\r\r\n\r\r\n### 쇼어(Shor) 알고리즘 — RSA의 천적\r\r\n\r\r\n1994년, 수학자 피터 쇼어(Peter Shor)는 양자 컴퓨터를 이용하면 소인수분해와 이산로그 문제를 다항식 시간에 풀 수 있다는 알고리즘을 발표했습니다.\r\r\n\r\r\n| 문제 | 고전 컴퓨터 | 양자 컴퓨터(쇼어 알고리즘) |\r\r\n| :--- | :----- | :--------------- |\r\r\n| 소인수분해(RSA) | 지수 시간 | 다항식 시간 |\r\r\n| 이산로그(DH, ECDH) | 지수 시간 | 다항식 시간 |\r\r\n\r\r\n'지수 시간 → 다항식 시간'이라는 건 \"우주 나이만큼 걸리던 것이 몇 시간이면 된다\" 수준의 변화입니다. 양자 컴퓨터가 충분히 크고 안정적으로 만들어지면 — 이를 CRQC(Cryptographically Relevant Quantum Computer, 암호학적으로 의미 있는 양자 컴퓨터)라고 부릅니다 — RSA, ECDH, ECDSA 같은 현재의 공개 키 암호 체계가 뚫릴 수 있습니다.\r\r\n\r\r\n\r\r\n## PQC란 무엇인가\r\r\n\r\r\n### Post-Quantum Cryptography = 포스트 양자 암호\r\r\n\r\r\nPQC는 양자 컴퓨터가 등장한 이후에도 안전한 암호 알고리즘을 말합니다. 한 가지 흔한 오해를 짚고 넘어가자면, PQC는 양자 컴퓨터 위에서 돌아가는 암호가 아닙니다. 일반 컴퓨터에서 돌아가면서, 양자 컴퓨터의 공격에도 강한 암호입니다.\r\r\n\r\r\n그렇다면 양자 컴퓨터도 풀기 어려운 암호는 어떻게 만들 수 있을까요? 쇼어 알고리즘이 잘 푸는 문제(소인수분해, 이산로그)와 다른 종류의 수학 문제에 기반한 암호를 만들면 됩니다.\r\r\n\r\r\n### NIST PQC 표준화 — 8년간의 대장정\r\r\n\r\r\n* **2016년**: PQC 공모 시작\r\r\n* **2017년**: 69개 후보 알고리즘 제출\r\r\n* **2019년**: Round 2 — 26개로 축소\r\r\n* **2020년**: Round 3 — 7개 최종 후보 + 8개 대안\r\r\n* **2022년**: 1차 표준 선정(Kyber, Dilithium, SPHINCS+, Falcon)\r\r\n* **2024년 8월**: FIPS 203/204/205 최종 발표! — ML-KEM, ML-DSA, SLH-DSA\r\r\n* **2025년 3월**: HQC 추가 선정(백업 KEM)\r\r\n\r\r\n2016년에 시작해서 2024년에 최종 발표까지 무려 8년이 걸렸습니다. 아래는 전 세계 암호학자들이 제출한 69개 후보 알고리즘 중에서 검증을 거쳐 최종 표준으로 선정된 알고리즘입니다.\r\r\n\r\r\n| 표준 | 알고리즘 | 원래 이름 | 용도 | 기반 수학 |\r\r\n| :--- | :--- | :--- | :--- | :--- |\r\r\n| FIPS 203 | ML-KEM | CRYSTALS-Kyber | 키 캡슐화(키 교환) | 격자(Module-LWE) |\r\r\n| FIPS 204 | ML-DSA | CRYSTALS-Dilithium | 전자서명 | 격자(Module-LWE/SIS) |\r\r\n| FIPS 205 | SLH-DSA | SPHINCS+ | 전자서명 | 해시 |\r\r\n\r\r\n이 글에서 집중적으로 다룰 것은 ML-KEM입니다. 키 교환이 뚫리면 나머지 보안은 다 무의미하기 때문입니다. 자물쇠(대칭 키 암호)가 아무리 튼튼해도, 열쇠를 전달하는 과정(키 교환)이 뚫리면 끝입니다.\r\r\n\r\r\n\r\r\n## 격자 기반 암호\r\r\n### 격자(Lattice)?\r\r\n\r\r\n![3_lattice-closest-point.png](https://image.toast.com/aaaadh/real/2026/techblog/3latticeclosestpoint.png)\r\r\n\r\r\n바둑판의 교차점들을 생각하시면 됩니다. 다만 실제 암호에서는 이게 2차원이 아니라 256차원, 512차원으로 올라갑니다.\r\r\n\r\r\n### 격자 위의 어려운 문제들\r\r\n\r\r\n격자 위에는 고전 컴퓨터로도, 양자 컴퓨터로도 풀기 어렵다고 여겨지는 문제들이 있습니다.\r\r\n\r\r\n**1\\) SVP(Shortest Vector Problem, 최단 벡터 문제)**\r\r\n\r\r\n> \"이 격자에서 원점과 가장 가까운 격자점을 찾아라.\"\r\r\n\r\r\n2차원에서는 눈으로도 찾을 수 있지만, 256차원에서는 어떤 알고리즘으로도 효율적으로 풀 수 없습니다.\r\r\n\r\r\n**2\\) CVP(Closest Vector Problem, 최근 벡터 문제)**\r\r\n\r\r\n> \"격자 위에 있지 않은 임의의 점이 주어졌을 때, 이 점과 가장 가까운 격자점을 찾아라.\"\r\r\n\r\r\n이것도 마찬가지로, 고차원에서는 사실상 풀 수 없습니다. 이러한 문제들의 난해함이 바로 격자 기반 암호가 양자 내성(quantum-resistant)을 가지는 이유입니다.\r\r\n\r\r\n\r\r\n## LWE 문제\r\r\n\r\r\n### Learning With Errors — '오류가 섞인 연립방정식'\r\r\n\r\r\nML-KEM의 보안은 MLWE(Module Learning With Errors) 문제의 어려움에 기반합니다. MLWE를 이해하기 위해 먼저 LWE부터 살펴보겠습니다.\r\r\n\r\r\n**먼저, 오류가 없는 세계**\r\r\n\r\r\n중학교 수준의 연립방정식을 떠올려 볼 수 있습니다.\r\r\n\r\r\n```\r\r\n3x + 2y = 13\r\r\n5x + 4y = 23\r\r\n```\r\r\n\r\r\nx=3, y=2라는 것을 금방 풀 수 있고, 컴퓨터는 더 빨리 풀 수 있을 것입니다.\r\r\n\r\r\n**이제, 오류를 추가합니다**\r\r\n\r\r\n같은 연립방정식에 작은 오류를 추가해 봅니다.\r\r\n\r\r\n```\r\r\n3x + 2y ≈ 13 (실제로는 3x + 2y + e₁ = 14, 오류 e₁ = 1)\r\r\n5x + 4y ≈ 23 (실제로는 5x + 4y + e₂ = 22, 오류 e₂ = -1)\r\r\n```\r\r\n\r\r\n위 식에서도 오류가 1이나 -1이라는 것을 쉽게 알 수 있습니다. 하지만 이게 변수 256개, 방정식 수백 개이고 오류가 여기저기 흩어져 있다면 이야기가 완전히 달라집니다. 오류들이 연산할 때마다 누적되고 섞이면서, 원래 답을 복원하는 것이 사실상 불가능해집니다.\r\r\n\r\r\n![4_lwe-vs-plain-equation.png](https://image.toast.com/aaaadh/real/2026/techblog/4lwevsplainequation.png)\r\r\n\r\r\n이 \"못 푸는 성질\"이 바로 ML-KEM의 보안 기반입니다.\r\r\n\r\r\n### LWE를 수식으로 정리하면\r\r\n\r\r\n| 기호 | 의미 |\r\r\n| :--- | :--- |\r\r\n| A | 공개 행렬(m × n, 랜덤) |\r\r\n| s | 비밀 벡터(n × 1) ← 이걸 모르면 해독 불가 |\r\r\n| e | 오류 벡터(m × 1, 작은 값) |\r\r\n| b | 공개 벡터 = A·s + e |\r\r\n| q | 모듈러스(모든 연산은 mod q) |\r\r\n\r\r\nLWE 문제: (A, b)가 주어졌을 때, 비밀 벡터 s를 찾아라.\r\r\n\r\r\n> b = A·s + e(mod q)\r\r\n\r\r\n공격자는(A, b)만 보고 s를 찾아야 합니다. 그런데 중간에 오류 e가 섞여 있어서 정확한 연립방정식이 아니기 때문에, 그냥 선형대수로는 풀기 어렵습니다.\r\r\n\r\r\n\r\r\n## ML-KEM 완전정복\r\r\n\r\r\n![4-1_ml-kem.png](https://image.toast.com/aaaadh/real/2026/techblog/41mlkem.png)\r\r\n\r\r\n(Source: [ML-KEM explained: Quantum-safe Key Exchange](https://kivicore.com/en/embedded-security-blog/quantum-safe-key-exchange-for-secure-embedded-hardware-ml-kem-explained))\r\r\n\r\r\n### KEM — Key Encapsulation Mechanism\r\r\n\r\r\nKEM은 키 캡슐화 메커니즘입니다. 기존의 키 교환 방식과는 접근 자체가 다릅니다.\r\r\n\r\r\nDiffie-Hellman(기존 키 교환):\r\r\n\r\r\n> 양쪽이 각자 비밀 값을 정하고, 공개 값을 교환하여, 같은 비밀 키를 \"합의\"합니다.\r\r\n\r\r\nKEM(키 캡슐화):\r\r\n\r\r\n> 한쪽(Bob)이 상대방(Alice)의 공개 키로 비밀 키를 \"캡슐에 넣어(encapsulate)\" 보냅니다. Alice는 자기 개인 키로 캡슐을 \"열어(decapsulate)\" 비밀 키를 꺼냅니다.\r\r\n\r\r\n### ML-KEM의 세 가지 알고리즘\r\r\n\r\r\nML-KEM은 세 가지 알고리즘으로 구성됩니다.\r\r\n\r\r\n![5_mlkem-three-algorithms.png](https://image.toast.com/aaaadh/real/2026/techblog/5mlkemthreealgorithms.png)\r\r\n\r\r\nBob이 Encaps를 호출하면 알고리즘이 공유 비밀 키 K와 암호문 c를 생성합니다. Bob은 K를 보관하고, c를 Alice에게 전달합니다. Alice는 자신의 개인 키로 c를 역캡슐화하여 동일한 K를 얻게 되고, 이후 양쪽은 이 K를 대칭 키로 사용하여 실제 데이터를 암복호화합니다.\r\r\n\r\r\n\r\r\n## ML-KEM 파라미터\r\r\n\r\r\n### 세 가지 보안 수준\r\r\n\r\r\nML-KEM은 용도와 보안 요구 수준에 따라 세 가지 파라미터 셋을 제공합니다.\r\r\n\r\r\n![6_mlkem-parameter-sets.png](https://image.toast.com/aaaadh/real/2026/techblog/6mlkemparametersets.png)\r\r\n\r\r\n### 기존 암호와 크기 비교\r\r\n\r\r\nML-KEM의 공개 키 크기가 기존보다 큰 것은 사실입니다. ML-KEM-768의 경우 1,184바이트로, 기존 공개 키와 비교하면 다음과 같습니다.\r\r\n\r\r\n| 알고리즘 | 공개 키 크기 | 비고 |\r\r\n| :--- | :--- | :--- |\r\r\n| X25519(ECDH) | 32 바이트 | 현재 TLS의 표준 |\r\r\n| RSA-2048 | 256 바이트 | |\r\r\n| RSA-4096 | 512 바이트 | |\r\r\n| ML-KEM-768 | 1,184 바이트 | |\r\r\n\r\r\nX25519보다는 약 37배 크지만, RSA-2048과 비교하면 약 5배 수준에 불과합니다. 현대 네트워크 환경에서 1KB 정도의 차이는 실질적으로 큰 부담이 되지 않습니다.\r\r\n\r\r\n\r\r\n## 실전 적용\r\r\n\r\r\n### 실제로 누가 쓰고 있을까?\r\r\n\r\r\n이론적인 이야기가 길었는데, 실제 적용 현황을 살펴보면 ML-KEM은 이미 다양한 곳에서 사용되고 있습니다.\r\r\n\r\r\n![7_mlkem-adoption-status.png](https://image.toast.com/aaaadh/real/2026/techblog/7mlkemadoptionstatus.png)\r\r\n\r\r\nChrome 브라우저는 이미 TLS 1.3 핸드셰이크에서 X25519+ML-KEM-768 하이브리드 키 교환을 사용하고 있습니다. OpenSSH 9.9+에서도 `mlkem768x25519-sha256` 하이브리드 키 교환을 지원하며, 설정 한 줄이면 바로 적용할 수 있습니다.\r\r\n\r\r\n```\r\r\nssh -o KexAlgorithms=mlkem768x25519-sha256 user@host\r\r\n```\r\r\n\r\r\n클라우드 서비스 쪽에서는 AWS가 KMS, ACM, Secrets Manager 등 주요 서비스에서 ML-KEM 기반 PQ-TLS를 지원하고 있으며, OpenSSL 3.5도 ML-KEM, ML-DSA, SLH-DSA를 기본으로 지원하기 때문에 별도 라이브러리 설치 없이 바로 사용할 수 있습니다.\r\r\n\r\r\n\r\r\n## 하이브리드 모드\r\r\n\r\r\n### 왜 ML-KEM만 쓰지 않고, 기존 알고리즘과 섞어 쓰나?\r\r\n\r\r\nML-KEM은 충분히 검증되었고 NIST가 표준으로 확정했습니다. 하지만 PQC 알고리즘은 역사가 약 8년으로, RSA나 ECDH에 비하면 아직 짧습니다. 아직 발견되지 않은 취약점이 존재할 가능성을 완전히 배제할 수는 없기 때문에, 현재는 기존의 검증된 알고리즘(X25519)과 ML-KEM을 동시에 하이브리드로 사용하는 방식이 권장되고 있습니다.\r\r\n\r\r\n![8_hybrid-key-exchange.png](https://image.toast.com/aaaadh/real/2026/techblog/8hybridkeyexchange.png)\r\r\n\r\r\n하이브리드 사용의 핵심은 둘 중 하나만 안전해도 전체가 안전하다는 것입니다. 이를 \"OR 보안\"이라고 부릅니다.\r\r\n\r\r\n![9_hybrid-safety-conditions.png](https://image.toast.com/aaaadh/real/2026/techblog/9hybridsafetyconditions.png)\r\r\n\r\r\n* 양자 컴퓨터가 등장해서 X25519가 깨져도? → ML-KEM이 지켜줌\r\r\n* ML-KEM에서 예상치 못한 취약점이 발견돼도? → X25519가 지켜줌\r\r\n\r\r\n이것이 과도기에 권장되는 사용 방법입니다.\r\r\n\r\r\n\r\r\n## 개발자가 해야 할 일\r\r\n\r\r\n당장 모든 시스템을 교체할 필요는 없습니다. 하지만 준비는 지금 시작해야 합니다.\r\r\n\r\r\n**1단계 — 인벤토리 파악**\r\r\n\r\r\n내 시스템에서 RSA, ECDH, DH를 어디에 쓰고 있는지 목록화(TLS, SSH, JWT, API 키 교환 등)\r\r\n\r\r\n**2단계 — 테스트 환경 구축**\r\r\n\r\r\nliboqs, OpenSSL 3.5 등으로 ML-KEM 테스트 환경 셋업. 키 크기 증가에 따른 영향 측정\r\r\n\r\r\n**3단계 — 하이브리드 모드 도입**\r\r\n\r\r\nX25519 + ML-KEM-768 하이브리드 TLS 적용(내부 시스템 먼저). 성능 모니터링\r\r\n\r\r\n**4단계 — 점진적 확대**\r\r\n\r\r\n외부 서비스까지 확대. P50/P95/P99 레이턴시 모니터링. 문제없으면 100% 적용\r\r\n\r\r\n**5단계 — 순수 PQC로 전환**\r\r\n\r\r\n하이브리드 → PQC Only(업계 전체 전환 완료 후)\r\r\n\r\r\n### 실용적 팁\r\r\n\r\r\n1) 라이브러리 버전 확인\r\r\n\r\r\n가장 먼저 할 수 있는 일은 현재 사용 중인 라이브러리가 ML-KEM을 지원하는지 확인하는 것입니다.\r\r\n\r\r\n```\r\r\n# OpenSSL 버전 확인\r\r\nopenssl version\r\r\n# 3.5 이상이면 ML-KEM 지원\r\r\n\r\r\n# Go 버전 확인\r\r\ngo version\r\r\n# 1.24 이상이면 crypto/mlkem 패키지 사용 가능\r\r\n\r\r\n# OpenSSH 버전 확인\r\r\nssh -V\r\r\n# 9.9 이상이면 ML-KEM 하이브리드 KEX 지원\r\r\n```\r\r\n\r\r\n2) AWS 사용자라면\r\r\n\r\r\nSDK를 최신 버전으로 업데이트하고 `postQuantumTlsEnabled(true)` 한 줄만 추가하면 됩니다. AWS-LC 라이브러리가 FIPS 140-3 인증을 받았으므로 규정 준수도 문제없습니다.\r\r\n\r\r\n3) CBOM(Cryptographic Bill of Materials) 작성\r\r\n\r\r\n어떤 암호 알고리즘이 어디에 쓰이는지 목록을 만들어 두면, 전환 계획을 수립하는 데 큰 도움이 됩니다. 아래는 예시입니다.\r\r\n\r\r\n| 시스템 | 현재 알고리즘 | 전환 대상 |\r\r\n| :--- | :------ | :---- |\r\r\n| 웹서버 TLS | ECDHE-P256 | X25519+ML-KEM |\r\r\n| SSH 접속 | curve25519 | mlkem768x25519 |\r\r\n| JWT 서명 | RS256/ES256 | ML-DSA |\r\r\n| 코드사이닝 | RSA-2048 | ML-DSA / SLH |\r\r\n| DB 암호화 | AES-256 | AES-256(유지) |\r\r\n\r\r\n\r\r\n## 마치며\r\r\n\r\r\n양자 컴퓨터가 현행 공개 키 암호를 무력화할 수 있다는 건 이론이 아니라 시간의 문제입니다. Shor 알고리즘은 RSA와 ECDH의 수학적 기반을 다항식 시간에 풀어버리고, \"Harvest Now, Decrypt Later\" 위협은 이미 현실입니다.\r\r\n\r\r\nML-KEM(FIPS 203)은 이 위협에 대응하기 위해 NIST가 표준화한 키 캡슐화 메커니즘입니다. 격자 기반의 Module-LWE 문제에 기반하며, 키 크기 증가도 실용적 범위 안에 있습니다. Chrome, AWS, OpenSSH 등에서 X25519+ML-KEM-768 하이브리드 모드로 이미 사용되고 있으므로, 지금 바로 점진적 전환을 시작할 수 있습니다.\r\r\n\r\r\nNHN Cloud의 보안개발랩 앱서비스보안팀에서는 [Cloud Access](https://www.nhncloud.com/kr/service/security/cloud-access)를 개발하고 있습니다. Cloud Access는 제로 트러스트(Zero Trust) 보안 모델을 기반으로 NHN Cloud 리소스에 안전하게 접속할 수 있도록 지원하는 서비스입니다. 기존의 네트워크 경계에 의존하던 보안 방식에서 벗어나, 모든 접근을 검증하고 클라우드 리소스에 대한 접근을 중앙에서 통제합니다.\r\r\n\r\r\nCloud Access는 사용자 단말과 클라우드 리소스 사이에 암호화된 터널을 생성하여 통신을 보호하는데, 이 터널링 암호화 구간이 바로 PQC 전환의 핵심 대상입니다. 양자 컴퓨팅 위협에 선제적으로 대응하기 위해 Cloud Access의 터널링 암호화에 ML-KEM 기반 PQC를 적용하는 방안을 연구 중이며, 단계적으로 도입해 나갈 예정입니다.\r\r\n\r\r\n긴 글 읽어 주셔서 감사합니다.\r\r\n\r\r\n### 참고 자료\r\r\n\r\r\n* [NIST FIPS 203 — ML-KEM 표준 문서](https://csrc.nist.gov/pubs/fips/203/final)\r\r\n* [NIST FIPS 204 — ML-DSA 표준 문서](https://csrc.nist.gov/pubs/fips/204/final)\r\r\n* [NIST FIPS 205 — SLH-DSA 표준 문서](https://csrc.nist.gov/pubs/fips/205/final)\r\r\n* [NIST PQC 표준화 프로젝트](https://csrc.nist.gov/projects/post-quantum-cryptography)\r\r\n* [AWS PQC 마이그레이션 가이드](https://aws.amazon.com/security/post-quantum-cryptography/)\r\r\n* [Go ML-KEM 구현 해설(Filippo Valsorda)](https://words.filippo.io/dispatches/mlkem768/)\r\r\n* [Open Quantum Safe(liboqs)](https://openquantumsafe.org/)\r\r\n\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_black_202608_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfooterblack202608900.png)](https://www.nhncloud.com/kr)",
+    "title": "챗GPT 무료 무제한 vs 네이버&middot;카카오 AI: 한국 사용자를 위한 챗봇 선택 기준",
+    "description": "매일 쓰는 AI 서비스, 과연 무엇을 골라야 할까요? 텍스트 대화 무제한 무료를 선언한 글로벌 대표 주자와 국내 환경에 최적화된 토종 포털의 서비스를 한눈에 대조하며 나에게 꼭 맞는 최적의 선택지를 찾아봅니다.\n매일 쏟아지는 인공지능 소식 속에서 어떤 도구를 메인으로 써야 할지 고민이 깊어집니다. AI 챗봇 비교를 통해 일상 작업부터 업무 생산성까지 내 상황에 가장 딱 들어맞는 기준을 명확하게 정리해 드립니다.\n\n\n1. 판도가 뒤바뀐 글로벌 AI: 무료 무제한 정책의 진짜 의미\n기존에는 무료 사용량에 엄격한 일일 상한선이 있어 질문 몇 개만 던져도 대기 시간이 발생하곤 했습니다. 하지만 기본 탑재 모델이 효율적인 경량형 모델로 전면 교체되면서 텍스트 채팅에 한해 사용 횟수 제한이 완전히 풀리는 파격적인 변화가 생겼습니다.\n이러한 변화는 단순히 \"더 비싼 고성능 모델을 무료로 제공한다\"는 뜻이 아닙니다. 추론 비용을 극적으로 낮춘 소형 모델을 앞세워 단말기 단위의 한계비용을 제로화하고, 검색창 대신 챗봇을 가장 먼저 켜게 만들겠다는 영리한 유통 전략이 숨어 있습니다.\n  과금 경계의 변화\n과거에는 \"하루에 몇 번 대화할 수 있는가\"가 유료 전환의 기준이었다면, 이제는 \"얼마나 깊이 있게 생각(추론)하고 답변을 도출할 것인가\"로 패러다임이 이동했습니다.\n\n\n2. AI 챗봇 비교: 글로벌 강자 vs 네이버·카카오\n국내 사용자의 90% 이상이 모바일 환경에서 활동하는 만큼, 로컬 생태계의 편리함과 글로벌 모델의 압도적인 범용성은 각기 다른 매력을 지닙니다. 주요 플랫폼의 특성을 비교표로 정리했습니다.\n구분\n글로벌 챗봇 (OpenAI)\n네이버 (CLOVA X / Cue:)\n카카오 (카카오톡 AI)\n\n\n\n\n무료 텍스트 혜택\n텍스트 대화 무제한 지원\n기본 무료 제공 (연동 기능 풍부)\n메신저 내 경량형 무료 접점\n\n\n한국어 로컬 맥락\n우수하나 최신 골목상권/트렌드는 약함\n지도, 쇼핑, 블로그 연계 최상\n카톡 대화 요약, 일정 조율 최상\n\n\n추론 및 코딩 역량\n복잡한 논리, 코드 작성 압도적\n문서 작성 및 요약에 강점\n일상 대화 보조에 특화\n\n\n학습 데이터 정책\n무료 기본 학습 (설정에서 끄기 가능)\n국내 개인정보 보호 가이드 준수\n사적 대화 암호화 및 제한적 활용\n\n\n\n\n토종 AI가 여전히 강력한 이유: 한국형 생태계의 힘\n외산 챗봇이 아무리 똑똑해져도 '강남역 1번 출구 근처 주차 가능한 한식집 예약'이나 '네이버페이 구매 내역 기반 제품 문의' 같은 작업에서는 네이버와 카카오의 연결성을 따라잡기 어렵습니다. 특히 일상적인 예약, 쇼핑, 메신저 대화 요약은 국내 플랫폼이 훨씬 매끄럽게 처리합니다.\n\n\n3. 목적별 맞춤형 선택 가이드\n내가 주로 어떤 작업을 수행하느냐에 따라 챗봇 조합을 다르게 가져가는 것이 가장 효율적입니다. 실제로 자주 겪는 상황을 기준으로 추천 조합을 정리해 드립니다.\n학습 및 코딩·번역: 글로벌 챗봇의 무료 무제한 모드를 메인으로 활용하여 방대한 데이터와 복잡한 논리 문제를 해결하세요.\n국내 맛집·여행·쇼핑 탐색: 실시간 리뷰와 장소 정보가 풍부한 네이버 AI 서비스를 활용하는 것이 오차를 줄이는 지름길입니다.\n모바일 일정 조율 및 메신저 업무: 번거로운 앱 전환 없이 카카오톡 안에서 바로 처리하는 카카오 AI가 가장 간편합니다.\n⚠️ 무료 사용 시 보안 주의사항\n무료 서비스의 기본 설정은 대화 내용이 모델 재학습에 활용될 수 있습니다. 회사 기밀, 민감한 개인정보, 금융 코드는 절대 입력하지 마시고, [설정] → [데이터 컨트롤]에서 모델 학습 기능을 비활성화하고 사용하세요.\n실무 생산성을 극대화하는 멀티 챗봇 교차 워크플로\n단일 플랫폼에만 의존하기보다 각 서비스의 특화 영역을 사슬처럼 연결하면 작업 소요 시간을 절반 이하로 단축할 수 있습니다. 예를 들어 글로벌 트렌드 리서치나 복잡한 프로그래밍 오류 해결은 챗GPT의 방대한 영문 코퍼스를 통해 초안을 잡고, 이를 국내 비즈니스 환경에 맞는 보고서 형식으로 다듬을 때는 네이버 클로바X에 프롬프트를 넘겨 매끄러운 비즈니스 한국어 톤앤매너로 재가공하는 방식이 대표적입니다.\n1단계 (기획 및 뼈대 구축): 글로벌 엔진을 통해 해외 최신 레퍼런스를 수집하고 논리 구조를 잡습니다.\n2단계 (로컬 팩트체크 및 서식화): 네이버 검색 연동 기능을 켜서 국내 관련 법령이나 시장 수치의 최신성을 검증합니다.\n3단계 (협업 배포): 카카오톡 AI 요약 기능을 활용해 팀원들이 바로 확인할 수 있는 3줄 핵심 브리핑 메시지로 변환합니다.\n공공·행정 문서 처리 시 놓치지 말아야 할 파일 호환 팁\n국내 업무 환경에서 빈번하게 마주치는 HWPX 및 공공기관 서식 파일 분석은 토종 엔진이 독보적인 성능을 발휘합니다. 외산 모델에 한글(HWP) 문서를 직접 업로드하면 글자가 깨지거나 서식이 무너져 엉뚱한 답변을 내놓기 일쑤지만, 국내 포털 AI는 전용 파서를 내장하여 표 구조와 문단 위계를 정확히 인식하므로 입찰 공고문이나 정부 지원 사업 요강을 분석할 때 탁월한 정확도를 보장합니다.\n마지막으로 답변의 신뢰도를 판별할 때는 출처 역추적(Grounding) 링크 제공 여부를 반드시 확인해야 합니다. 생성된 문장 끝에 원문 링크가 붙는 검색 특화 모드를 적극 병행하면, 생성형 AI 특유의 그럴듯한 거짓말인 환각 현상을 사전에 완벽히 차단하고 업무 오류를 방지할 수 있습니다.\n  핵심 요약\n1. 글로벌 챗봇의 텍스트 무제한 전환으로 일상적인 질의응답을 부담 없이 활용할 수 있습니다.\n2. 유료와 무료의 차이는 횟수가 아닌 심층 추론(Thinking)의 깊이로 재편되었습니다.\n3. 로컬 정보와 메신저 편의성은 여전히 네이버와 카카오의 고유한 강점입니다.\n4. 상황별 듀얼 활용(심층 작업은 글로벌, 로컬 탐색은 국내 플랫폼)이 가장 현명한 전략입니다.\n* 무료 사용 시 개인정보 보호를 위해 데이터 학습 동의 설정을 반드시 확인하시기 바랍니다.\n❓ 자주 묻는 질문 (FAQ)\nQ. 무료 무제한 혜택에 이미지나 파일 업로드도 포함되나요?\n아닙니다. 무제한 정책은 순수 텍스트 대화에 한정되며, 고해상도 이미지 생성, 대용량 파일 분석, 음성 대화 기능 등은 기존과 동일하게 별도의 제한이 적용됩니다.\nQ. 한국어 실시간 정보는 어떤 챗봇이 가장 정확한가요?\n국내 지역 매장, 공공기관 정책, 최근 개통된 지하철 노선 등 로컬 데이터가 필수적인 정보는 네이버의 AI 검색 연계 서비스가 가장 높은 신뢰도를 보여줍니다.\nQ. 무료 버전 사용 시 제 대화가 유출될 위험은 없나요?\n대화 내용이 외부에 직접 공개되지는 않으나, 모델 학습 데이터로 활용될 수 있습니다. 민감한 정보 입력을 피하고 설정 메뉴에서 데이터 공유 비활성화를 설정해 두시는 것을 권장합니다.\n하나의 절대적인 도구를 고집하기보다는, 각 서비스가 지닌 고유의 장점을 파악하여 유연하게 번갈아 사용하는 것이 생산성을 두 배로 끌어올리는 비결입니다. 오늘 정리해 드린 기준을 바탕으로 나만의 똑똑한 AI 활용 루틴을 만들어보세요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://meetup.nhncloud.com/posts/421",
-    "pubDate": "Mon, 24 Aug 2026 03:54:26 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://muzbox.tistory.com/483732",
+    "pubDate": "Wed, 19 Aug 2026 11:18:53 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "AI 검색 vs 챗봇",
+      "ai 서비스 비교",
+      "ai 챗봇 비교",
+      "네이버 클로바X",
+      "생성형 AI 활용법",
+      "인공지능 챗봇 추천",
+      "챗GPT 무료 무제한",
+      "챗봇 모델 비교",
+      "카카오톡 Ai",
+      "한국어 AI 챗봇"
+    ]
   }
 ]
