@@ -2,93 +2,43 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "인터넷 글들 말투가 점점 비슷해지는 이유 - AI가 작성한 글에서 특정 단어와 문장 습관이 반복되는 현상을 다뤘어요. 46만 건의 풀 리퀘스트를 분석했다는 실험을 바탕으로, 영어권에서는 이미 AI 특유의 단어군이 눈에 띄게 늘었다는 이야기를 소개하고, 한국어 글쓰기에서도 비슷한 흔적이 어떻게 드러나는지 설명했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇이에요. 이번에 알려드릴 내용은 AI가 글의 말투를 바꾸고 있는지에 대한 이야기예요. 요즘 블로그, 쓰레드, 포스트를 보면 사람이 직접 쓴 글인지 AI가 도와준 글인지 헷갈릴 때가 많죠. 특히 자동화하는 분들은 Claude, Codex, Gemini 같은 도구로 글을 만들고 바로 올리는 경우도 많아요.AI 글쓰기 말투가 왜 비슷하게 느껴지는지 한 장으로 정리했어요.흥미로운 실험도 있었어요. 어떤 곳에서 46만 건의 풀 리퀘스트를 조사해서 단어 사용을 분석했다고 합니다. 그 결과 2026년부터 특정 영어 단어군이 훨씬 자주 등장했다는 내용이었어요. 이 부분은 원본 자료를 제가 따로 검증한 것은 아니고, 이번 YouTube 쇼츠에서 다룬 주장에 기반한 설명이에요.AI가 만든 글에서 특정 표현이 반복되는 현상을 짚어봤어요.영어 단어만 보면 한국어 사용자에게는 바로 와닿지 않을 수 있어요. 다만 번역된 예시를 보면 느낌이 확 옵니다. 예를 들어 “떠받치고 있습니다”, “밀어붙이다”, “박아버리다”, “경로를 확인해야 된다”, “A가 아니라 B다” 같은 식의 문장이 반복되면 어디선가 AI 답변에서 본 듯한 기분이 들죠. “예외가 조용히 삼켜지고 있습니다”, “근본 원인은 무엇이었습니다”, “재검증했습니다”, “교차 확인했습니다” 같은 표현도 마찬가지예요.제가 AI로 글을 써보면서도 이런 습관을 자주 봤어요. 문장 자체가 틀린 것은 아닌데, 같은 결의 단어가 계속 나오면 사람이 쓴 글보다 덜 살아 있어 보입니다. 특히 AI가 자주 고르는 단어가 여러 글에 반복되면, 개별 글은 그럴듯해도 전체 인터넷의 문체는 점점 비슷해질 수 있어요.46만 건의 풀 리퀘스트 분석에서 특정 단어군이 늘었다는 이야기가 나왔어요.엠대시도 많이 언급했어요. 영어권 글에서 엠대시가 과하게 자주 보이면 AI가 쓴 글 같다는 의심을 받는 경우가 많습니다. 물론 엠대시 하나만 보고 100% 단정할 수는 없어요. 하지만 특정 문장 부호와 단어 선택이 함께 반복되면 AI 특유의 흔적으로 읽히기 쉽습니다.여기서 더 생각해볼 부분은 워터마크예요. 제가 앞서 Claude 텍스트에 워터마크가 들어갈 수 있다는 소식을 말씀드린 적이 있는데, 그 방식은 특정 단어가 선택될 확률을 높이는 식이라고 설명했어요. 만약 그런 단어 선택이 계속 누적된다면 Claude 특유의 말투가 더 강하게 보일 가능성도 있습니다. 이 부분은 가능성에 대한 우려이지, 이번 자료만으로 확정된 결론은 아니에요.46만 건의 풀 리퀘스트 분석에서 특정 단어군이 늘었다는 주장에 주목했어요.워터마크 방식과 AI 말투의 반복이 글의 단조로움으로 이어질 수 있다는 우려도 있어요.결국 AI가 글을 못 쓴다는 말은 아니에요. 오히려 빠르게 초안을 만들고, 구조를 잡고, 빠진 내용을 확인하는 데는 정말 유용합니다. 문제는 그대로 내보낼 때 생겨요. 사람이 자기 경험과 판단을 넣지 않으면 표현이 비슷해지고, 읽는 사람은 금방 AI 냄새를 느낍니다.그래서 저는 AI에게 글을 맡기더라도 마지막에는 문장을 다시 만져야 한다고 봐요. 같은 표현을 줄이고, 실제로 내가 확인한 것과 추측을 나누고, 말투를 사람답게 바꾸는 과정이 필요합니다. 글쓰기는 아직 인간의 감각이 많이 남아 있는 영역이에요.참고 자료원본 YouTube ShortsAI 워터마크와 반복 문체가 글의 다양성에 영향을 줄 수 있다는 우려를 설명했어요.",
+    "title": "틀려도 다시 말하지 않기",
+    "description": "요즘 혼자 소리 내어 말하는 일이 많아졌다.\n샤워를 하면서 질문 하나를 정해 두고 혼자 답한다.\n늦게까지 일한 날, 사람이 거의 없는 회사 앞에서 택시를 기다리는 몇 분 동안에도 누군가 내게 질문했다고 생각하고 답하기도 한다.\n왜 지금 이 일을 하는지, 최근 가장 고민하는 것은 무엇인지, 그때로 돌아간다면 같은 결정을 할 것인지 등등.\n답을 미리 적어 두지는 않는다.\n충분히 정리될 때까지 기다리지도 않는다.\n첫 문장부터 바로 말한다.\n생각을 정리할 때는 주로 글을 썼다.\n글을 쓰다 보면 내가 알고 있다고 생각했던 것과 실제로 설명할 수 있는 것이 다르다는 걸 자주 깨닫게 된다.\n머릿속에서는 분명하다고 생각했는데, 막상 쓰려고 하면 왜 그렇게 생각하는지 설명하지 못할 때가 있다.\n글은 몇 번이고 고칠 수 있다.\n앞 문장으로 돌아가 지울 수도 있고, 문단의 순서를 바꿀 수도 있다.\n마음에 들지 않으면 모두 지우고 다시 쓸 수도 있다.\n다른 사람에게 보여주기 전까지 초고는 나에게만 있다.\n말하기는 다르다.\n말에는 초고가 없다.\n말하고 나서야 표현이 이상했다는 걸 알 때가 있다.\n그때는 이미 상대가 그 말을 들은 뒤다.\n다시 설명할 수는 있지만, 처음 한 말을 없었던 일로 만들 수는 없다.\n사과도 정정도 그다음에 해야 한다.\n그래서 혼자 말할 때는 규칙을 하나 세웠다.\n중간에 말이 꼬여도 다시 첫 문장으로 돌아가지 않기로.\n방금 한 말이 정확하지 않았다고 인정한 뒤, 내가 말하려던 뜻을 설명한다.\n앞에서 한 말과 지금 하려는 말이 맞지 않으면 잘못 말한 부분부터 바로잡는다.\n다시 시작하면 더 매끄럽게 말할 수 있다.\n하지만 내가 연습하려는 건 매끄럽게 말하는 일이 아니라, 잘못 말한 뒤에 바로잡는 일이었다.\n실제 대화에서는 예상하지 못한 반응도 생긴다.\n상대는 내가 대수롭지 않게 말한 부분을 다시 묻거나 전혀 다른 뜻으로 받아들이기도 한다.\n그럴 때는 준비한 답을 그대로 이어갈 수 없다.\n어디에서 다르게 이해했는지 확인한 뒤 다시 설명해야 한다.\n그렇다고 누군가를 평가하거나 중요한 결정을 알리는 말까지 준비 없이 하자는 뜻은 아니다.\n이 연습이 말할 때만 필요한 것은 아니었다.\n리더로 오래 일하면서 처음부터 다시 하고 싶은 순간도 많았다.\n조직을 이렇게 구성하지 말았어야 했다거나, 제품의 첫 방향을 다르게 잡았어야 했다고 생각한 적이 있었다.\n하지만 판단이 틀렸다는 걸 알게 됐을 때는 이미 여러 사람이 그 결정에 맞춰 일하고 있었다.\n그 결정에 따라 만들어진 기능도 있었고, 내가 설명한 방향대로 일을 진행한 사람도 있었다.\n다음에는 같은 실수를 하지 말아야겠다고 다짐하는 건 어렵지 않았다.\n하지만 그 다짐으로 지금 벌어진 일이 나아지는 건 아니었다.\n잘못 판단한 부분을 인정하고, 부족했던 설명을 다시 하고, 바꿔야 할 것을 바꿔야 했다.\n돌이켜보면 시작하기 전에는 알 수 없었던 일도 많았다.\n일을 시작하고 나서야 잘못 판단했다는 걸 알게 된 적도 있었다.\n오래 고민한다고 해서 모든 문제를 미리 알 수 있는 것도 아니었다.\n혼자 말할 때 첫 문장으로 돌아가지 않는 것도 그래서다.\n말이 틀렸다면 바로 그다음 문장에서 고치고, 설명이 부족했다면 이어서 보탠다.\n그렇게 샤워가 끝날 때까지 처음으로 돌아가지 않고 계속 말한다.\n일에서도 말에서도, 처음부터 틀리지 않는 능력이 있다면 좋겠지만 나한텐 그런 능력이 없었다.\n그래서 틀렸다는 걸 알게 된 뒤 그다음 문장을 말하는 일이 더 중요해졌다.\nps)\n요즘 GPT에 마이크를 켜고 생각나는 대로 말하는 것도 꽤 재미있다.\n두서없이 말해도 알아서 정리해 주고, 녹음만 남겨 두는 것보다 나중에 다시 꺼내 쓰기도 편하다.\n이 글도 GPT에 먼저 말한 내용을 정리해서 썼다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a92c93016739087f058c61b",
-    "pubDate": "Sat, 29 Aug 2026 11:57:36 GMT",
-    "creator": "ZeroCho",
+    "link": "https://jojoldu.tistory.com/884",
+    "pubDate": "Sun, 30 Aug 2026 22:51:57 +0900",
+    "creator": "향로 (기억보단 기록을)",
     "categories": [
-      "AI뉴스"
+      "생각정리",
+      "AI와 글쓰기",
+      "GPT 활용",
+      "글쓰기",
+      "리더십",
+      "말하기 연습",
+      "의사결정",
+      "커뮤니케이션",
+      "회고"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade",
-    "description": "A few months ago, we introduced a new guided agentic workflow in the Visual Studio Debugger Agent designed to help you move from a bug report to a verified fix without spending your morning guessing where to begin.   If you missed that announcement, check out  Stop Hunting Bugs: Meet the New Visual Studio Debugger Agent […]\nThe post The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade appeared first on Visual Studio Blog.",
+    "title": "The MPS 2026.2 Early Access Program Has Started",
+    "description": "MPS 2026.2 EAP1 offers several improvements to test reporting, enhances grouping of found items, and brings a smoother editing experience and a more maintainable foundation for launching MPS and MPS-based products. This release makes multi-node selection more predictable and aligns the MPS startup configuration more closely with the IntelliJ Platform. DOWNLOAD MPS 2026.2 EAP1 Along […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-debugger-agentic-workflow-gets-a-test-driven-upgrade/",
-    "pubDate": "Wed, 26 Aug 2026 16:00:47 +0000",
-    "creator": "Harshada Hole",
+    "link": "https://blog.jetbrains.com/mps/2026/09/the-mps-2026-2-eap-has-started-2-2/",
+    "pubDate": "Wed, 02 Sep 2026 14:38:03 +0000",
+    "creator": "Vaclav Pech",
     "categories": [
-      "Visual Studio",
-      "Copilot",
-      "Debugging and Diagnostics",
-      "Visual Studio 2026"
+      "releases",
+      "eap",
+      "release"
     ]
   },
   {
     "id": 3,
-    "imageUrl": "",
-    "title": "휴직을 시작하며",
-    "description": "마침내 휴직을 하게 되었다. 기간은 3개월. 내일부터 시작이다. 휴직하는 과정은 묘한 기분이 들었다. 응원을 해주는 동료도 있었고 부러워하는 동료도 있었다. 주로 질문하는 내용은 이런 것이었다. \"왜 휴직하는 거예요?\", \"휴직하면 뭐해요? 어디 가요?\", \"휴직하고 돌아오는 거죠?\"  당연히 휴직을 왜 하는지에 대하여 궁금해한다. 대략적으로 예측하는 사람",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/59",
-    "pubDate": "Sun, 30 Aug 2026 14:28:01 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "VSLive! @ Microsoft HQ: Developer Takeaways and Must-Watch Sessions",
-    "description": "VSLive! @ Microsoft HQ 2026 was one of the most energizing VSLive! events I’ve attended. What stood out was the level of engagement over five days of learning and conversation from July 27 through July 31. Developers came ready to dig into the future of Visual Studio, .NET, and AI-assisted software development, and many Microsoft engineers and product managers were there to have those conversations directly.  If you weren’t able to […]\nThe post VSLive! @ Microsoft HQ: Developer Takeaways and Must-Watch Sessions appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/vslive-hq-content-sandiego-and-orlando-mentions/",
-    "pubDate": "Thu, 27 Aug 2026 14:00:09 +0000",
-    "creator": "James Rempt",
-    "categories": [
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Antigravity, 코딩보다 시각화용으로 보면 의외로 쓸 만해요 - Google Antigravity를 코딩 메인 도구로 쓰기보다는 프로젝트 구조나 알고리즘, 인터랙티브 예시를 빠르게 시각화하는 용도로 활용해보자는 내용이에요. 공식 자료로 확인되는 Generative UI와 visual tooling 기능은 프로젝트 의존성 그래프, 쿼드트리, 태양계 예시를 보여주지만 실제 속도와 품질은 프로젝트마다 테스트가 필요해요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇이에요. 이번에 알려드릴 내용은 Google Antigravity를 코딩 메인 도구가 아니라 시각화 도구처럼 쓰는 방법이에요. 개발자 입장에서는 Gemini나 Antigravity를 코딩할 때 적극적으로 쓰는 경우가 많지 않다고 느낄 수 있는데, 그 평가는 공식 통계로 확인된 사실이라기보다는 제가 써보며 받은 인상에 가까워요.Antigravity는 메인 코딩 도구보다 시각화 보조 도구로 접근하면 쓰임새가 선명해져요.다만 Gemini 자체는 개발자 바깥의 사용 흐름에서는 꽤 자연스럽게 들어오고 있어요. Google은 Chrome에서 Gemini가 탭 맥락을 이해해 질문에 답하고, 주소창인 omnibox에서도 AI Mode로 복잡한 질문과 후속 질문을 다룰 수 있다고 설명했어요. 그래서 예전처럼 검색창에 문장으로 물어보는 흐름이 점점 더 익숙해지는 분위기예요.Antigravity는 메인 코딩 도구보다 빠른 시각화 보조 도구로 보면 쓰임새가 분명해져요.Antigravity 쪽에서 제가 눈여겨본 건 Generative UI와 visual tooling이에요. Google Antigravity 팀은 공식 블로그에서 rich visual components, dashboards, interactive artifacts, design mockups를 실시간으로 만들고 반복할 수 있다고 소개했어요. 예시도 꽤 직접적이에요. 프로젝트 의존성을 보여달라고 하면 package dependencies를 인터랙티브 그래프로 뽑아주고, Quadtree Visualizer나 Solar System Explorer 같은 예시도 함께 보여줬어요.이 지점이 실전에서 꽤 유용할 수 있어요. 코드를 작성하거나 큰 리팩터링을 맡기는 일은 여전히 Claude나 GPT가 편할 수 있지만, 의존성 관계처럼 눈으로 보면 바로 이해되는 정보는 시각화가 훨씬 빠를 때가 있어요. 특히 복잡한 프로젝트에서 어떤 패키지가 어디에 연결되는지 보고 싶을 때, 긴 설명을 토큰으로 계속 주고받는 것보다 한 번 그래프로 보는 편이 낫죠.프로젝트 의존성 그래프처럼 구조를 한눈에 보는 작업에 Antigravity를 활용할 수 있어요.공식 예시처럼 프로젝트 의존성 관계를 그래프로 보면 구조 파악이 빨라질 수 있어요.공식 문서 기준으로 Antigravity IDE는 에디터, 터미널, 브라우저에 걸쳐 agent가 작업하도록 설계된 agentic development environment예요. 또 rich markdown plans, code diff views, architecture diagrams, images, browser recordings 같은 산출물을 통해 작업 내용을 확인하게 한다고 설명해요. 이런 설명만 보면 단순한 챗봇이라기보다는 작업 과정 자체를 시각적으로 보여주는 개발 환경에 더 가까워요.물론 조심해서 봐야 할 부분도 있어요. 공식 블로그에 나온 데모는 미리 준비된 예시라 실제 프로젝트에서도 똑같이 빠르고 깔끔하게 나올지는 별개예요. 제가 말한 “토큰 낭비를 줄일 수 있다”는 것도 사용 방식에 대한 판단이지, Google이 수치로 검증해 준 결과는 아니에요. 커뮤니티 포럼에는 Windows/ARM이나 GPU 관련 문제로 실행이 어렵다는 주장도 있었지만, 이것 역시 일부 사용자 사례라 전체 품질을 대표한다고 보긴 어려워요.쿼드트리나 태양계처럼 움직이는 예시는 Antigravity의 시각화 방향을 보여주는 참고 사례예요.그래서 저는 Antigravity를 “이제 이걸로 코딩 다 하자”가 아니라 “시각화가 필요할 때 잠깐 꺼내 쓰자” 쪽으로 보는 게 맞다고 봐요. 프로젝트 구조, 알고리즘 동작, 데이터 관계처럼 말로 풀면 길어지는 내용을 빠르게 그림으로 확인하는 용도라면 충분히 시도해볼 만해요. 공짜로 써볼 수 있는 상황이라면, 먼저 작은 프로젝트나 샘플 코드로 실제 속도와 결과물을 확인해보는 게 가장 현실적인 접근이에요.쿼드트리와 태양계 예시는 인터랙티브 시각화가 가능한 방향을 보여줘요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a93f4c7521190c086bb0d52",
-    "pubDate": "Sun, 30 Aug 2026 09:15:52 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Today I will… review GitHub PRs",
-    "description": "Today I will show you how we can tackle one of the most common tasks when working in a development team or managing an open-source project, and that is working with Pull Requests. While we’re going to be using the GitHub tooling within Visual Studio for this, the approach would be very similar with Azure […]\nThe post Today I will… review GitHub PRs appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs/",
-    "pubDate": "Tue, 01 Sep 2026 16:00:27 +0000",
-    "creator": "Aaron Powell",
-    "categories": [
-      "Visual Studio",
-      "GitHub",
-      "Productivity",
-      "Visual Studio 2026"
-    ]
-  },
-  {
-    "id": 7,
     "imageUrl": "",
     "title": "휴직 일기 - 1일 차 - 비 오는 경치가 새로운 경험을 주네",
     "description": "휴질 1일 차. 마침내 시작이다. 대단한 각오도 없고, 대단한 계획도 없이 시작되었다. 지난밤 먹은 수면제로 인하여 아침에 일어나는 것이 힘들었다. 7시 알람이 울려 깨었지만 알람을 끄고 잠들어 버렸다. 이때는 그저 아침이니가 했지만 하루 종일 수면제 후유증으로 시달리게 된다. 잠깐 누었다고 생각했는데 1시간이 훌쩍 지나버렸다. 계속 누워있으면 계속 잘 것",
@@ -100,124 +50,64 @@
     "categories": []
   },
   {
-    "id": 8,
+    "id": 4,
     "imageUrl": "",
-    "title": "엔비디아의 허깅페이스 인수설, 아직 확정으로 보면 안 돼요 - 엔비디아가 허깅페이스를 약 129억 달러, 한화 약 18조원에 인수한다는 보도가 나왔지만, 공식 발표는 아직 확인되지 않았어요. 허깅페이스의 AI 생태계 영향력과 엔비디아의 소프트웨어 확장 흐름을 함께 봐야 하는 소식이에요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇이에요. 이번에 알려드릴 내용은 엔비디아가 허깅페이스를 약 129억 달러, 우리 돈으로 약 18조원에 인수한다는 보도예요. 다만 여기서 먼저 조심해야 해요. NVIDIA와 Hugging Face가 공식적으로 인수 확정을 발표한 것은 아직 확인되지 않았고, 현재는 언론 보도 단계로 보는 게 맞아요. 원본 Shorts에서도 이 인수가 최종 진행될지와 영향은 지켜봐야 한다고 설명했어요.엔비디아의 허깅페이스 인수설은 공식 확정이 아니라 보도 단계로 봐야 해요.공식 확정이 아니라 인수 보도 단계라는 점이 가장 중요해요.허깅페이스는 AI 쪽의 GitHub처럼 쓰이는 플랫폼이에요. 모델과 데이터셋이 올라오고, 개발자들이 내려받아 실험하거나 서비스에 연결하죠. Hugging Face가 공개한 자료를 보면 2026년 1월부터 8월 사이 공개 모델 저장소가 243만 개에서 296만 개로 늘었고, 데이터셋도 71만1000개에서 100만 개로 증가했어요. Hugging Face 공개 모델 분석을 보면 이 생태계가 얼마나 큰지 감이 와요.허깅페이스는 모델과 데이터셋이 모이는 AI 개발자 플랫폼이에요.엔비디아 입장에서는 GPU만 파는 회사에서 더 나아가 AI 소프트웨어와 플랫폼 영향력까지 넓히는 흐름으로 볼 수 있어요. 실제로 NVIDIA는 Nemotron을 장기 실행 AI 에이전트용 공개 모델 제품군으로 설명하고, Hugging Face에서 무료로 다운로드할 수 있다고 안내하고 있어요. NVIDIA Nemotron도 그런 방향을 보여주는 사례예요.허깅페이스는 AI 모델과 데이터셋이 모이는 개발자 플랫폼이에요.엔비디아는 하드웨어를 넘어 AI 모델과 플랫폼 쪽 영향력도 키우고 있어요.걱정도 있어요. 허깅페이스가 특정 GPU 회사에 묶이면 AMD나 인텔 같은 경쟁사 환경 지원이 예전처럼 공평하게 유지될지 의문이 생길 수 있거든요. 반대로 큰 회사가 들어오면 인프라나 무료 지원이 좋아질 수 있다는 기대도 있어요. TechCrunch는 129억 달러 합의 보도와 함께, 아직 서명된 합의가 없고 협상이 깨질 수 있다는 Business Insider 보도도 같이 전했어요. 연합뉴스도 디인포메이션을 인용해 약 17조9000억원 규모라고 보도했지만, 공식 확정과는 구분해서 봐야 해요.엔비디아가 플랫폼까지 확보하려는 흐름인지 지켜볼 필요가 있어요.참고 자료원본 YouTube ShortsHugging Face: State of Open ModelsNVIDIA NemotronTechCrunch 보도연합뉴스 보도",
+    "title": "IntelliJ IDEA 2026.2.2 Is Out!",
+    "description": "IntelliJ IDEA 2026.2.2 is now available. You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. IntelliJ IDEA 2026.2.2 brings the following refinements: To see the full list of issues addressed in this version, please […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a91a06cce2a75b5a76c53ab",
-    "pubDate": "Fri, 28 Aug 2026 14:51:24 GMT",
+    "link": "https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-2/",
+    "pubDate": "Wed, 02 Sep 2026 19:22:08 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": [
+      "releases",
+      "bug-fix-update"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "[NS] 90년대 애니메이션 같은 2인 협동 어드벤처 게임, 오비탈스",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2490",
+    "pubDate": "Tue, 01 Sep 2026 18:02:35 +0900",
+    "creator": "샤말란의눈",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "무료인데 정체는 비공개? Ox Alpha를 살펴봤어요 - 요즘 개발자들 사이에서 Ox Alpha라는 모델이 화제예요. 무료인데도 긴 문맥을 처리하고 이미지와 비디오까지 받을 수 있어요. 다만 누가 만들었는지는 공개되지 않았고, 어떤 경로로 사용하느냐에 따라 데이터 처리 조건도 달라져요. 제가 확인한 내용과 아직 추정에 불과한 부분을 나눠서 알려드릴게요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇이에요.요즘 개발자 커뮤니티에서 Ox Alpha라는 이름이 자주 보여요. 아직 만든 곳도 밝혀지지 않은 모델인데, 기존 유명 모델들과 성능을 비교하는 반응이 나오면서 빠르게 관심을 받고 있네요. 무료라는 점도 한몫했어요. 직접 시험해 보는 사람이 늘고 있어서 제가 관련 자료를 조금 더 찾아봤어요. 어디까지 사실이고 어디서부터 추정인지 하나씩 구분해 볼게요. 원본 Shorts는 여기에서 볼 수 있어요.무료로 공개된 Ox Alpha, 개발사는 아직 알려지지 않았어요우선 Ox Alpha가 실제로 존재하는 모델이라는 점은 확실해요. OpenRouter에 stealth/ox-alpha라는 이름으로 등록돼 있어요. 다만 OpenRouter가 직접 만든 모델은 아니에요. 공식 설명을 보면 이름을 밝히지 않은 외부 제공자가 개발하고 운영한다고 해요. OpenRouter도 자신들은 개발사나 소유자가 아니라고 선을 그었어요. 등록일은 2026년 8월 20일이고 지금은 별도 비용 없이 사용할 수 있어요.가장 눈에 띄는 건 한 번에 처리할 수 있는 문맥의 길이예요. 최대 1,048,576토큰을 입력할 수 있고 답변은 최대 131,072토큰까지 생성할 수 있다고 나와 있어요. 텍스트만 받는 모델도 아니에요. 이미지나 비디오를 함께 넣고 질문할 수 있고, 외부 기능을 연결할 때 필요한 도구 호출도 지원하네요. 원하는 형식에 맞춰 응답하도록 지정할 수도 있어요.그렇다면 누가 만들었을까요? 아직 공식 답은 없어요. 저는 GLM 계열일 가능성을 떠올렸어요. 커뮤니티 조사 보고서에서도 tokenizer와 중국어 필터, CJK 문자에 반응하는 방식이 GLM과 닮았다고 봐요. 그렇다고 Z.ai가 만들었다고 단정할 단계는 아니에요. 관찰한 특징을 바탕으로 한 추정일 뿐이에요.OpenRouter에서 무료로 제공 중인 익명 AI 모델 Ox Alpha다른 추측도 있어요. Business Insider는 Z.ai의 GLM일 가능성과 함께 Microsoft의 MAI 모델일 가능성도 거론했어요. 하지만 어느 쪽도 결정적인 증거는 찾지 못했어요. 지금은 누가 만들었는지 맞히기보다, 공식적으로 공개된 기능과 사용 조건을 먼저 보는 편이 좋아요.직접 사용해 볼 생각이라면 접속 경로도 살펴봐야 해요. OpenCode Zen 문서에서는 x-preview-f-free라는 ID로 Ox Alpha Free를 제공해요. 무료 제공 기간은 제한적이라고 나와 있고, 입력한 내용을 저장하거나 학습에 사용하지 않는다고 설명해요. 민감한 코드를 다루는 개발자라면 반가운 조건이에요.OpenRouter 쪽은 이야기가 달라져요. OpenRouter Stealth 약관을 읽어보면 입력한 내용이 OpenRouter와 실제 모델 제공자에게 전달될 수 있다고 해요. 서비스 평가나 모델 개선에 활용될 가능성도 열어두고 있어요. 따라서 대화 기록을 남기지 않는 모델이라고 한 문장으로 단정하면 안 돼요. 어디에서 사용했는지부터 구분해야 해요.가볍게 성능을 시험하는 정도라면 큰 문제가 없을 수 있어요. 하지만 회사 코드나 고객 정보처럼 외부로 나가면 곤란한 자료를 넣을 때는 약관부터 확인하는 편이 안전해요. Stripe의 OpenRouter 인수 합의는 양사의 공식 발표로 확인됐지만 정확한 거래 금액은 공개되지 않았어요. 기사마다 금액이 다른 만큼 특정 숫자를 확정된 사실처럼 받아들이지는 않는 게 좋아요.결국 Ox Alpha는 무료로 사용할 수 있는 강력한 익명 모델이에요. 긴 문맥을 처리하고 이미지와 비디오를 이해하며 개발 작업에 필요한 기능도 갖추고 있어요. 반면 누가 만들었는지, 무료 기간이 언제 끝나는지, 입력한 데이터가 정확히 어떻게 처리되는지는 아직 불분명해요. 궁금하다면 직접 시험해 봐도 좋지만, 정체가 밝혀지기 전까지는 민감한 코드나 개인정보를 넣지 않는 편이 좋겠네요.GLM 계열이라는 추측은 있지만 아직 확인된 사실은 아니에요참고 자료OpenRouter: Ox AlphaOpenRouter Stealth Program EULAOpenCode ZenBusiness Insider 보도커뮤니티 조사 보고서",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6a9085f3a9c6553e2fbe4128",
+    "pubDate": "Thu, 27 Aug 2026 18:46:12 GMT",
     "creator": "ZeroCho",
     "categories": [
       "AI뉴스"
     ]
   },
   {
-    "id": 9,
+    "id": 7,
     "imageUrl": "",
-    "title": "The CLion Roadmap: What’s Coming Between Now and Late 2026",
-    "description": "This blog post covers the updates we plan to introduce over the next four months in the upcoming minor releases (2026.2.x) and the next stable release (2026.3). After reviewing your feedback and our strategic goals, we’ve decided to focus on improving agentic workflows, embedded development support, and the debugger. Here are some of the highlights: […]",
+    "title": "택틱스 오우거 리본 - 공중정원 F15 에 비밀문이 있넹",
+    "description": "보통은 F13 에서 비밀문을 열고 F16 으로 가서\n외길에서 낙사시켜 빠르게 클리어 하는데\n나는 잘못 클릭해서 F15 로 갔다.\n \n도전과제에도 없는 비밀문을 발견했다.\n\n\n데스 나이트가 우연히 밟았다.\n \n하지만 클리어 해보니 아무 일도 벌어지지 않았다. 다른길이 있을만한 맵이 아니라 그런지\n가짜 발판을 밟아 버린거 같다.\n(허무)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2026/08/roadmap/",
-    "pubDate": "Thu, 27 Aug 2026 11:49:51 +0000",
-    "creator": "Oleg Zinovyev",
-    "categories": [
-      "news",
-      "roadmap",
-      "agentic-ai",
-      "dap",
-      "ispc",
-      "qnx",
-      "trace32"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Antigravity, 코딩보다 시각화에 먼저 써볼 만한 이유 - Google Antigravity를 코딩 메인 도구로 쓰기 애매하더라도, 프로젝트 의존성 그래프나 쿼드트리, 태양계 같은 인터랙티브 시각화를 빠르게 만들어 보는 용도로는 꽤 쓸 만하다는 이야기예요. 다만 데모 속 속도와 실제 프로젝트에서의 품질은 직접 확인이 필요해요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Google Antigravity를 의외로 써먹는 방법이에요. 개발자분들은 Gemini나 Antigravity를 코딩 주력 도구로는 잘 안 떠올릴 수 있어요. ChatGPT나 Claude 쪽이 익숙한 분들이 많으니까요. 다만 저는 이번에 Antigravity가 코드를 직접 짜는 것보다, 프로젝트를 시각적으로 보여주는 용도에서는 꽤 재미있는 선택지가 될 수 있겠다고 봤어요.Antigravity는 코딩 주력 도구보다 프로젝트 시각화 보조 도구로 먼저 써볼 만해요.Google Antigravity 팀도 공식 블로그에서 Generative UI와 visual tooling을 소개했어요. 여기서 중요한 건 단순히 예쁜 그림을 만드는 정도가 아니라, 프로젝트 의존성 관계를 인터랙티브 그래프로 뽑거나 쿼드트리 시각화, 태양계 탐색기 같은 예시를 만들어 볼 수 있다는 점이에요. 특히 “내 프로젝트의 dependencies를 시각화해줘” 같은 요청으로 연결 관계를 바로 눈으로 확인할 수 있다면, 복잡한 코드베이스를 처음 볼 때 도움이 될 수 있어요.공식 설명을 보면 Antigravity는 에디터 하나만 보는 도구가 아니라, 에디터와 터미널, 브라우저를 넘나드는 agentic development environment로 소개돼요. Antigravity IDE 문서에서는 rich markdown plans, code diff views, architecture diagrams, browser recordings 같은 산출물도 언급하고 있어요. 그러니까 코드 작성 결과만 던지는 방식이 아니라, 작업 과정과 구조를 사람이 검토하기 쉽게 보여주려는 방향이라고 보면 돼요.제가 흥미롭게 본 지점은 여기예요. 코딩 자체는 기존에 쓰던 Claude나 GPT로 계속 하더라도, 구조를 빠르게 훑어보고 싶을 때만 Antigravity로 시각화를 맡기는 식이에요. 매번 긴 설명을 주고받으며 토큰을 많이 쓰기보다, 관계도를 한 번 뽑아서 눈으로 보면 이해가 더 빠를 때가 있거든요. 물론 “토큰 낭비가 줄어든다”는 건 공식 수치로 확인된 사실이라기보다 제 사용 관점에 가까워요.ChatGPT와 Claude에 비해 Gemini가 개발자들 사이에서 조롱의 의미로 받아들여지는 분위기를 밈 화면으로 보여주며, Antigravity를 시각화 도구로 활용할 수 있다는 이야기를 꺼내는 장면입니다.Chrome 쪽에서도 Gemini와 AI Mode가 주소창 흐름에 들어오는 방향은 Google이 공식 블로그에서 설명한 내용과 맞아요. 그래서 개발자가 아니어도 Gemini를 검색하듯 쓰는 사람은 늘어날 수 있어요. 다만 “개발자들이 거의 안 쓴다”거나 “데모처럼 실제 프로젝트에서도 빠르다”는 평가는 아직 공식 통계로 확인된 건 아니에요.커뮤니티 반응은 조금 섞여 있어요. Google AI Developers Forum에는 Windows/ARM이나 GPU 관련 문제, 크래시를 겪었다는 사용자 주장도 있고, 유용하지 않다고 평가한 글도 있어요. 하지만 이건 어디까지나 커뮤니티 사례라서 전체 품질을 대표한다고 보기는 어려워요. 제 결론은 간단해요. Antigravity를 당장 메인 코딩 도구로 갈아타라는 얘기는 아니고, 공짜로 쓸 수 있는 범위에서 프로젝트 시각화가 필요할 때 한 번 시험해볼 만하다는 정도예요.Chrome 화면 속 Antigravity 작업 결과로 보이는 태양계 시각화 예시를 보여주며, 코딩 도구보다는 프로젝트를 눈에 보이게 정리해보는 용도로 시험해볼 만하다는 흐름을 설명하는 장면입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a95c8e7d1f0c2caf786fc05",
-    "pubDate": "Mon, 31 Aug 2026 18:33:11 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "$399 에 피지컬 로봇 장난감이 나왔다. / 마이크로덕 Microduck",
-    "description": "홍보영상: https://www.youtube.com/watch?v=reiTh7K4KSc\n\n\n\n \n \n해석 영상: https://www.youtube.com/watch?v=FEQV3FaJlMU&t=438s\n\n\n\n \n이분은 꾸준히 로봇 발전에 대해 이야기하고 계십니다.\n설명을 이상하게 하는 경향이 있긴합니다.\n \n학습을 웹에서 진행하는데 신박하고 직관적인거 같습니다.\n \n옛날에 소니 아이보 라는게 있었습니다.\n이건 백만원 넘었던걸로 기억하는군요\n영상: https://www.youtube.com/watch?v=18FSCObXglA\n\n\n\n \n너무 옛날이라 학습을 위한 지원도 없었고\n될데로 되라는 식이고 제대로 움직인다고도 할 수 없었습니다.\n \n이제는 진짜 로봇 팻을 가질 수 있게 되었군요",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1685",
-    "pubDate": "Mon, 31 Aug 2026 06:14:21 +0900",
+    "link": "https://serverdown.tistory.com/1686",
+    "pubDate": "Tue, 1 Sep 2026 10:53:22 +0900",
     "creator": "SID-NFT",
     "categories": [
-      "유튜브",
-      "로봇",
-      "피지컬ai"
+      "게임"
     ]
   },
   {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Ensuring Code Compliance in Public Sector Software Projects",
-    "description": "The public sector handles sensitive citizen data, which is why software projects built with secure coding are imperative to deliver high trust levels. Code compliance with data protection laws, financial governance standards, and various regulations and policies is an obligation that must be consistently met to maintain trust and accountability. According to IBM’s Cost of […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/09/ensuring-code-compliance/",
-    "pubDate": "Tue, 01 Sep 2026 07:54:55 +0000",
-    "creator": "Kerry Beetge",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "&lsquo;오늘 마감&middot;월 1천 보장&rsquo; 재테크 강의 판매 페이지 문구 6가지 해독법",
-    "description": "강의가 사기인지 판별하려 애쓰지 마세요. 대신 강사의 손익계산서를 역산해보면 답이 3분 만에 나옵니다. 솔직한 재테크 강의 후기와 판매 문구 해독법, 결제 후 72시간 대응 절차까지 한 번에 정리해 드립니다.\n수많은 재테크 강의 후기를 찾아보며 결제 버튼 앞에서 망설인 적이 있으신가요? 매력적인 수익 인증 화면과 '오늘 자정 마감'이라는 문구를 마주하면 누구라도 조급해지기 마련입니다. 하지만 법적 사기 여부를 따지기 전에 강사의 손익 구조를 단 3분만 역산해 보면 진짜 가치가 명확히 드러납니다.\n\n\n사기인지 묻지 말고, 계산기를 두드리세요  \n\"이 강의 진짜일까요, 아니면 사기일까요?\" 지인들에게 판매 링크를 받을 때마다 가장 먼저 듣는 질문입니다. 하지만 이 질문에는 애초에 명쾌한 답을 내리기 어렵습니다. 대다수의 기획 강의는 법적인 테두리를 아슬아슬하게 비껴가도록 정교하게 설계되어 있기 때문이에요.\n그래서 저는 질문의 방향을 완전히 바꿔보라고 권합니다. \"이 사람 입장에서, 공식을 혼자 쓰는 것보다 강의를 파는 게 더 남는 장사인가?\"라는 질문으로요. 이 질문은 감정이 아닌 산수로 풀 수 있습니다. 계산기를 두드리는 순간, 눈이 번쩍 뜨이던 통장 잔고 캡처는 판단 기준에서 자연스럽게 탈락하게 됩니다.\n  핵심 판단 기준: 화려한 입금 내역 스크린샷보다 '강사가 수익 모델을 외부에 공개했을 때 얻는 이익과 손실'의 크기를 비교하는 것이 훨씬 정확합니다.\n강사의 손익계산서를 대신 써봤습니다  \n월 5천만 원의 순수익을 자동으로 뽑아내는 완벽한 부업 시스템을 발견했다고 가정해 봅시다. 이 시스템을 쥔 사람 앞에는 두 가지 갈림길이 놓입니다.\n비교 항목\nA. 공식을 혼자 독점 실행\nB. 공식을 유료 강의로 판매\n\n\n\n\n확장 방식\n자체 채널 및 파이프라인 20개 복제\n수강생 1,000명 모집\n\n\n추가 원가\n외주 제작비 및 인건비 지속 발생\n녹화본(VOD) 기준 추가 원가 거의 0원\n\n\n수익 확정 시점\n알고리즘 및 시장 반응에 따라 유동적\n수강생이 결제하는 즉시 확정\n\n\n경쟁자 유입\n비밀 유지 시 경쟁자 없음\n동일 포맷을 쥔 경쟁자 1,000명 직접 양성\n\n\n플랫폼 제재 리스크\n계정 정지 시 수익 0원 전락\n수강생이 모든 운영 리스크를 부담\n\n\n\n표의 마지막 두 줄에 주목해 보세요. 만약 그 황금 공식이 지속 가능한 진짜 비법이라면, B를 선택하는 것은 자기 밥그릇을 스스로 깨뜨리는 모순된 행동입니다. 파이가 한정된 시장에 똑같은 매뉴얼을 쥔 경쟁자 1,000명을 제 손으로 풀어놓는 셈이니까요.\n그럼에도 강의 판매를 택했다는 것은 결론이 둘 중 하나라는 뜻입니다. 독점 실행(A)이 애초에 지속되지 않았거나, 강의 판매(B) 자체가 본업이자 유일한 황금알인 경우입니다. 과거 골드러시 시절 가장 안정적으로 부를 쌓은 주역이 금을 캐던 광부가 아니라 청바지와 곡괭이를 팔던 상인이었듯, 시장의 구조는 형태만 바뀐 채 반복되고 있습니다.\n\n\n진짜 재테크 강의 후기 구별을 위한 판매 문구 해독 사전  \n판매 페이지에 적힌 카피라이팅은 문장 자체만 보면 거짓말이 아닐 수 있습니다. 진짜 문제는 일부러 숨겨둔 결정적 맥락에 있습니다. 다음 6가지 대표 문구를 통해 문장 너머의 진실을 확인해 보세요.\n1. 판매 페이지 6대 문구와 30초 검증법\n판매 페이지 문구\n숨겨진 진짜 의미\n30초 즉석 검증법\n\n\n\n\n\"이번 달 5,200만 원 달성\"\n일시적 정점 구간만 잘라낸 수치\n강사의 메인 채널 최근 3개 영상 조회수 확인\n\n\n\"수강생 성공 사례 12건\"\n낙오된 나머지 수백 명의 데이터 누락\nQ&A 게시판에 수강생 전체의 원금 회수율 질문\n\n\n\"아무도 모르는 블루오션\"\n유료 광고가 집행된 순간 이미 레드오션\n동일 키워드로 피드에 뜨는 타사 광고 개수 집계\n\n\n\"알고리즘 공식 완벽 분석\"\n플랫폼 개발진조차 통제 불가능한 블랙박스\n작년 버전 커리큘럼이 지금도 통하는지 질문\n\n\n\"영업비밀이라 채널 비공개\"\n외부의 객관적 실적 검증 자체를 원천 차단\n고민 없이 즉시 브라우저 창 닫기\n\n\n\"오늘 자정 마감, 잔여 3자리\"\n자정이 지나도 초기화되어 계속 도는 타이머\n시크릿 모드로 24시간 뒤 재접속해 리셋 확인\n\n\n\n물론 모든 콘텐츠가 허황된 것은 아닙니다. 시청 지속 시간을 늘리는 연출법이나 이탈률 관리처럼 콘텐츠 제작의 보편적 원리와 태도를 다루는 강의는 충분히 들을 가치가 있어요. 경계해야 할 대상은 \"무조건\", \"월 1천 보장\" 같은 확정적 수식어가 붙는 환상 판매형 강의입니다.\n숫자가 증거가 아님을 확인하는 3분 실험  \n판매 페이지에 걸린 현란한 수익 대시보드 캡처를 신뢰하지 마세요. 지금 사용하는 PC 브라우저에서 아주 간단한 실험을 해볼 수 있습니다.\n아무 웹사이트를 열고 키보드의 F12 키를 눌러 개발자 도구를 켭니다.\n화면에 보이는 숫자 위에 마우스 우클릭을 한 뒤 '검사'를 선택합니다.\n해당 텍스트 요소에 숫자 뒤 '0' 세 개를 덧붙여 엔터를 칩니다.\n코딩 지식이 전혀 없어도 3초면 잔고 100만 원이 10억 원으로 둔갑합니다. 다시 말해, 웹페이지 스크린샷이나 녹화본의 증거 가치는 그림판으로 그린 그림과 다를 바 없습니다. 실시간 화면 공유나 1년 치 계좌 내역 요구도 조작 앞에서는 의미를 잃습니다.\n⚠️ 생존자 편향의 함정: 카지노가 잭팟을 터뜨린 단 한 명을 화려한 조명으로 비추고 돈을 잃은 수백 명을 조용히 퇴장시키듯, 500명 중 우연히 성공한 2명의 재테크 강의 후기만 상세페이지를 채우고 실패한 498명은 통계에서 완벽히 증발합니다.\n\n\n공급이 폭발한 시장의 단순한 경제학  \n\"진입 장벽이 없어 초보자도 바로 시작할 수 있습니다.\" 이 문장은 가장 매력적으로 들리지만, 실은 가장 위험한 경고입니다. 정확히 해석하면 \"전 세계 수억 명의 경쟁자에게도 진입 장벽이 완벽히 사라졌다\"는 뜻이기 때문입니다.\n원가와 진입 비용이 0원에 가까운 무한 복제형 재화는 시장 가격이 0으로 수렴합니다. 부업 시장에서 흔히 다뤄지는 아이템들을 보면 치명적인 한계가 고스란히 겹칩니다.\nAI 생성 음악 채널: 생성 속도는 빠르지만 곡 제목을 아는 사람이 없어 검색 유입이 전무하며 오직 알고리즘 간택에만 명운을 겁니다.\nAI 사연 낭독 채널: 자극적인 소재로 초기 클릭은 나오더라도 플랫폼의 '양산형 콘텐츠(Inauthentic Content)' 제재 기준에 걸려 채널 전체가 일시에 수익 창출 정지를 당하기 쉽습니다.\n쇼츠 대량 복제 생성: 누구나 하루 100개씩 찍어낼 수 있는 포맷은 희소성이 전혀 없어 초과 수익을 만들지 못합니다.\n이미 결제했다면: 골든타임 72시간 행동 요령 ⚖️\n만약 순간적인 충동으로 이미 결제 버튼을 눌렀다면, 자책하며 시간을 보내지 말고 즉시 실무적인 조치를 시작해야 합니다. 인터넷 교육 서비스 관련 피해 구제 신청 중 20·30대 비중이 절반에 달할 정도로 유사 피해는 빈번하게 발생합니다.\n  분쟁 대응 4단계 매뉴얼\n상세페이지 및 약관 캡처: 분쟁 발생 시 판매자가 페이지 문구를 수정하거나 닫아버리는 경우가 많으므로 당일 전체 화면을 아카이빙합니다.\n증빙 자료 일체 백업: 영수증, 결제 문자, 강사와의 채팅 및 이메일 내역을 저장합니다.\n서면 환불 요청 발송: 유선 통화 대신 날짜와 의사가 명확히 남는 이메일이나 메신저로 청약철회를 통보합니다.\n소비자상담센터 중재 접수: 자체 규정을 핑계로 환불을 거부할 경우 국번 없이 1372 또는 한국소비자원 피해구제 창구에 접수합니다.\n업체가 내세우는 \"영상 1초만 시청해도 환불 불가\" 같은 약관은 법적 기준보다 우선할 수 없습니다. 계약 형태에 따라 『평생교육법』이나 『전자상거래법』이 적용되어 법적 보호를 받을 수 있으니 포기하지 말고 전문 기관의 도움을 받으세요.\n30만 원 결제 대신 30분 동안 해야 할 진짜 공부  \n불안감을 자극하는 마케팅은 \"지금 안 들으면 시대에 뒤처진다\"는 공포를 판매합니다. 하지만 실무 도구의 기술적 인터페이스는 몇 달 만에도 완전히 바뀝니다. 비싸게 외운 툴 단축키나 프롬프트 암기법은 소프트웨어 업데이트 한 번으로 무용지물이 되기 십상입니다.\n진짜 경쟁력은 도구 사용법이 아니라 '어떤 실질적인 문제를 해결할 것인가'를 정의하는 기획력에 있습니다. 유료 결제 창을 끄고 지금 바로 책상에 앉아 다음 3단계를 실천해 보세요.\n1단계 (10분): 이번 주 내 업무와 일상에서 반복적으로 비효율을 유발했던 사소한 불편 5가지를 메모장에 적습니다.\n2단계 (5분): 남들이 관행이라는 이유로 무심코 참아 넘기는 항목 하나를 골라냅니다.\n3단계 (15분): 무료 AI 도구에 해당 맥락을 상세히 설명하고 자동화 및 해결 아이디어를 직접 요청해 봅니다.\n이 30분 동안 찾아낸 구체적인 문제의식이 수십만 원짜리 조급한 강의보다 여러분을 훨씬 단단한 실전 투자자로 만들어줄 것입니다.\n  핵심 요약\n1. 손익계산서 역산: 진짜 지속 가능한 황금 공식이라면 경쟁자를 양성하는 유료 강의로 풀 이유가 없습니다.\n2. 수익 인증의 맹점: 웹 브라우저 검사창(F12)을 통한 숫자 조작과 생존자 편향으로 인해 캡처 이미지는 증거력이 없습니다.\n3. 무한 공급의 함정: 누구나 쉽게 만드는 대량 양산 콘텐츠는 가치가 0으로 수렴하며 플랫폼 정책 제재 위험이 큽니다.\n4. 신속한 환불 대응: 충동 결제 시 판매 페이지를 즉시 캡처하고 서면으로 청약철회를 요구하며 1372 상담을 활용하세요.\n※ 본 정보는 합리적인 소비자 선택을 돕기 위한 안내이며, 구체적인 환불 분쟁은 약관 형태 및 관계 법령에 따라 달라질 수 있습니다.\n❓ 자주 묻는 질문 (FAQ)\nQ1. 강사가 실제로 큰 수익을 내면서 강의를 병행할 수는 없나요?\n가능합니다. 다만 그런 경우라면 운영 중인 실전 채널명과 현재 트래픽 성과를 투명하게 공개하지 못할 이유가 없습니다. 채널 공개를 극구 거부한다면 외부 검증을 피하려는 신호로 해석하는 편이 안전합니다.\nQ2. 판매 마감 카운트다운 타이머가 진짜인지 어떻게 확인하나요?\n브라우저의 시크릿 창(InPrivate 모드)을 켜고 24시간 뒤 동일한 판매 URL로 다시 접속해 보세요. 마감 문구와 할인 타이머가 처음부터 다시 작동한다면 소비자의 심리적 조급함을 노린 전형적인 마케팅 장치입니다.\nQ3. 이미 결제했는데 환불 불가 약관이 걸려있으면 포기해야 하나요?\n포기하지 마세요. 사업자가 일방적으로 설정한 과도한 환불 불가 조항은 약관규제법 및 전자상거래법상 무효가 될 수 있습니다. 결제 페이지를 캡처한 뒤 국번 없이 1372 소비자상담센터에 즉시 구제 신청을 진행하시기 바랍니다.\n주변에서 과장된 마케팅 문구에 흔들리는 분이 있다면 딱 한마디만 건네보세요. \"그 강사가 운영한다는 메인 채널 최근 조회수부터 확인해 보자.\" 여러분의 소중한 시간과 비용을 지키는 가장 정직한 나침반이 되어줄 것입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483733",
-    "pubDate": "Mon, 31 Aug 2026 09:08:32 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "바이브 코딩 문제해결",
-      "부업 강의 검증",
-      "생존자 편향",
-      "소비자상담센터 1372",
-      "수익 인증 조작",
-      "양산형 콘텐츠 정책",
-      "유료 강의 손익계산서",
-      "재테크 강의 환불",
-      "재테크 강의 후기",
-      "판매 페이지 문구 해독"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "The Grails Plugin Has a New Home: Apache Grails",
-    "description": "The Grails plugin for IntelliJ IDEA (which provides framework-aware coding assistance, GSP tooling, and GORM integration) has moved to the Apache Grails project. The Apache Software Foundation (ASF), which already stewards the Grails framework, now owns the plugin’s source code, which lives in its new GitHub repository. On JetBrains Marketplace, the plugin is listed as […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/09/the-grails-plugin-has-a-new-home-apache-grails/",
-    "pubDate": "Tue, 01 Sep 2026 12:02:33 +0000",
-    "creator": "Andrey Belyaev",
-    "categories": [
-      "news",
-      "apache-grails",
-      "grails",
-      "plugin"
-    ]
-  },
-  {
-    "id": 15,
+    "id": 8,
     "imageUrl": "",
     "title": "From Leaderboards to Model Profiles: A Deep Dive Evaluation of LLMs for Agentic Coding ",
     "description": "Beyond the resolve rate Imagine plugging two LLMs from different frontier labs into the same coding agent and finding that they solve exactly the same number of benchmark tasks. If the evaluation stopped there, you might conclude that the models are interchangeable and simply choose the cheaper one. This is what also happened on one […]",
@@ -231,6 +121,102 @@
       "coding",
       "research",
       "coding-agent"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "휴직 일기 - 2일 차 - 할 일이 정해져 있으면 그냥 하는 거다",
+    "description": "아침부터 비가 세차게 내리고 있었다. 여전히 수면제에 적응 중인지 아니면 전날의 운동 때문인지 거의 죽은 듯이 잔 것 같다. 수면제를 먹고 잠에서 깰 때는 뭔가 머리가 무겁다는 느낌이다. 어제보다 비가 많이 내려서 오늘은 도서관으로 출근하지 않기로 했다. 그랬더니 시간이 좀 더 생겼다. 딱히 루틴이 있는 것은 아니지만 이번 주 학습할 목표를 정해 놓은 터라",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/61",
+    "pubDate": "Tue, 01 Sep 2026 14:34:16 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "엔비디아의 허깅페이스 인수설, 아직 확정으로 보면 안 돼요 - 엔비디아가 허깅페이스를 약 129억 달러, 한화 약 18조원에 인수한다는 보도가 나왔지만, 공식 발표는 아직 확인되지 않았어요. 허깅페이스의 AI 생태계 영향력과 엔비디아의 소프트웨어 확장 흐름을 함께 봐야 하는 소식이에요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇이에요. 이번에 알려드릴 내용은 엔비디아가 허깅페이스를 약 129억 달러, 우리 돈으로 약 18조원에 인수한다는 보도예요. 다만 여기서 먼저 조심해야 해요. NVIDIA와 Hugging Face가 공식적으로 인수 확정을 발표한 것은 아직 확인되지 않았고, 현재는 언론 보도 단계로 보는 게 맞아요. 원본 Shorts에서도 이 인수가 최종 진행될지와 영향은 지켜봐야 한다고 설명했어요.엔비디아의 허깅페이스 인수설은 공식 확정이 아니라 보도 단계로 봐야 해요.공식 확정이 아니라 인수 보도 단계라는 점이 가장 중요해요.허깅페이스는 AI 쪽의 GitHub처럼 쓰이는 플랫폼이에요. 모델과 데이터셋이 올라오고, 개발자들이 내려받아 실험하거나 서비스에 연결하죠. Hugging Face가 공개한 자료를 보면 2026년 1월부터 8월 사이 공개 모델 저장소가 243만 개에서 296만 개로 늘었고, 데이터셋도 71만1000개에서 100만 개로 증가했어요. Hugging Face 공개 모델 분석을 보면 이 생태계가 얼마나 큰지 감이 와요.허깅페이스는 모델과 데이터셋이 모이는 AI 개발자 플랫폼이에요.엔비디아 입장에서는 GPU만 파는 회사에서 더 나아가 AI 소프트웨어와 플랫폼 영향력까지 넓히는 흐름으로 볼 수 있어요. 실제로 NVIDIA는 Nemotron을 장기 실행 AI 에이전트용 공개 모델 제품군으로 설명하고, Hugging Face에서 무료로 다운로드할 수 있다고 안내하고 있어요. NVIDIA Nemotron도 그런 방향을 보여주는 사례예요.허깅페이스는 AI 모델과 데이터셋이 모이는 개발자 플랫폼이에요.엔비디아는 하드웨어를 넘어 AI 모델과 플랫폼 쪽 영향력도 키우고 있어요.걱정도 있어요. 허깅페이스가 특정 GPU 회사에 묶이면 AMD나 인텔 같은 경쟁사 환경 지원이 예전처럼 공평하게 유지될지 의문이 생길 수 있거든요. 반대로 큰 회사가 들어오면 인프라나 무료 지원이 좋아질 수 있다는 기대도 있어요. TechCrunch는 129억 달러 합의 보도와 함께, 아직 서명된 합의가 없고 협상이 깨질 수 있다는 Business Insider 보도도 같이 전했어요. 연합뉴스도 디인포메이션을 인용해 약 17조9000억원 규모라고 보도했지만, 공식 확정과는 구분해서 봐야 해요.엔비디아가 플랫폼까지 확보하려는 흐름인지 지켜볼 필요가 있어요.참고 자료원본 YouTube ShortsHugging Face: State of Open ModelsNVIDIA NemotronTechCrunch 보도연합뉴스 보도",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6a91a06cce2a75b5a76c53ab",
+    "pubDate": "Fri, 28 Aug 2026 14:51:24 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "휴직 일기 - 3일 차 - 삶의 하루하루가 소중하다",
+    "description": "오늘도 아침은 몽롱한 상태로 시작했다. 그런데 이것도 익숙해지니 편안하다는 생각이다. 최근의 감정은 평온하다는 것이 무엇인지 느낄 수 있는 상태이다. 감정의 기복이 없고 커다란 스트레스 같은 것들도 없다. 그래서 평온한 상태이다. 이걸 글로 설명할 수 없다. 굳이 표현하면 부처의 마음이 된 듯한 느낌이랄까?  오늘은 특별히 새로운 장소에서 공부하기로 했다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/62",
+    "pubDate": "Wed, 02 Sep 2026 14:50:11 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Antigravity, 코딩보다 시각화에 먼저 써볼 만한 이유 - Google Antigravity를 코딩 메인 도구로 쓰기 애매하더라도, 프로젝트 의존성 그래프나 쿼드트리, 태양계 같은 인터랙티브 시각화를 빠르게 만들어 보는 용도로는 꽤 쓸 만하다는 이야기예요. 다만 데모 속 속도와 실제 프로젝트에서의 품질은 직접 확인이 필요해요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Google Antigravity를 의외로 써먹는 방법이에요. 개발자분들은 Gemini나 Antigravity를 코딩 주력 도구로는 잘 안 떠올릴 수 있어요. ChatGPT나 Claude 쪽이 익숙한 분들이 많으니까요. 다만 저는 이번에 Antigravity가 코드를 직접 짜는 것보다, 프로젝트를 시각적으로 보여주는 용도에서는 꽤 재미있는 선택지가 될 수 있겠다고 봤어요.Antigravity는 코딩 주력 도구보다 프로젝트 시각화 보조 도구로 먼저 써볼 만해요.Google Antigravity 팀도 공식 블로그에서 Generative UI와 visual tooling을 소개했어요. 여기서 중요한 건 단순히 예쁜 그림을 만드는 정도가 아니라, 프로젝트 의존성 관계를 인터랙티브 그래프로 뽑거나 쿼드트리 시각화, 태양계 탐색기 같은 예시를 만들어 볼 수 있다는 점이에요. 특히 “내 프로젝트의 dependencies를 시각화해줘” 같은 요청으로 연결 관계를 바로 눈으로 확인할 수 있다면, 복잡한 코드베이스를 처음 볼 때 도움이 될 수 있어요.공식 설명을 보면 Antigravity는 에디터 하나만 보는 도구가 아니라, 에디터와 터미널, 브라우저를 넘나드는 agentic development environment로 소개돼요. Antigravity IDE 문서에서는 rich markdown plans, code diff views, architecture diagrams, browser recordings 같은 산출물도 언급하고 있어요. 그러니까 코드 작성 결과만 던지는 방식이 아니라, 작업 과정과 구조를 사람이 검토하기 쉽게 보여주려는 방향이라고 보면 돼요.제가 흥미롭게 본 지점은 여기예요. 코딩 자체는 기존에 쓰던 Claude나 GPT로 계속 하더라도, 구조를 빠르게 훑어보고 싶을 때만 Antigravity로 시각화를 맡기는 식이에요. 매번 긴 설명을 주고받으며 토큰을 많이 쓰기보다, 관계도를 한 번 뽑아서 눈으로 보면 이해가 더 빠를 때가 있거든요. 물론 “토큰 낭비가 줄어든다”는 건 공식 수치로 확인된 사실이라기보다 제 사용 관점에 가까워요.ChatGPT와 Claude에 비해 Gemini가 개발자들 사이에서 조롱의 의미로 받아들여지는 분위기를 밈 화면으로 보여주며, Antigravity를 시각화 도구로 활용할 수 있다는 이야기를 꺼내는 장면입니다.Chrome 쪽에서도 Gemini와 AI Mode가 주소창 흐름에 들어오는 방향은 Google이 공식 블로그에서 설명한 내용과 맞아요. 그래서 개발자가 아니어도 Gemini를 검색하듯 쓰는 사람은 늘어날 수 있어요. 다만 “개발자들이 거의 안 쓴다”거나 “데모처럼 실제 프로젝트에서도 빠르다”는 평가는 아직 공식 통계로 확인된 건 아니에요.커뮤니티 반응은 조금 섞여 있어요. Google AI Developers Forum에는 Windows/ARM이나 GPU 관련 문제, 크래시를 겪었다는 사용자 주장도 있고, 유용하지 않다고 평가한 글도 있어요. 하지만 이건 어디까지나 커뮤니티 사례라서 전체 품질을 대표한다고 보기는 어려워요. 제 결론은 간단해요. Antigravity를 당장 메인 코딩 도구로 갈아타라는 얘기는 아니고, 공짜로 쓸 수 있는 범위에서 프로젝트 시각화가 필요할 때 한 번 시험해볼 만하다는 정도예요.Chrome 화면 속 Antigravity 작업 결과로 보이는 태양계 시각화 예시를 보여주며, 코딩 도구보다는 프로젝트를 눈에 보이게 정리해보는 용도로 시험해볼 만하다는 흐름을 설명하는 장면입니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6a95c8e7d1f0c2caf786fc05",
+    "pubDate": "Mon, 31 Aug 2026 18:33:11 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Ensuring Code Compliance in Public Sector Software Projects",
+    "description": "The public sector handles sensitive citizen data, which is why software projects built with secure coding are imperative to deliver high trust levels. Code compliance with data protection laws, financial governance standards, and various regulations and policies is an obligation that must be consistently met to maintain trust and accountability. According to IBM’s Cost of […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/09/ensuring-code-compliance/",
+    "pubDate": "Tue, 01 Sep 2026 07:54:55 +0000",
+    "creator": "Kerry Beetge",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Fine-Tuning SOTA Object Detection Models on Real-World Datasets",
+    "description": "In our previous blog post in this series, we discussed state-of-the-art models for object detection: the architectures, the theory, and what makes YOLO12, YOLO26, and RF-DETR tick. If you want the theoretical background on these models, start there. This post is the practical follow-up: how to actually use these models, how to fine-tune them on […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/pycharm/2026/08/fine-tuning-sota-object-detection-models-on-real-world-datasets/",
+    "pubDate": "Mon, 31 Aug 2026 13:50:29 +0000",
+    "creator": "Arina Belova",
+    "categories": [
+      "data-science",
+      "object-detection",
+      "yolo"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "The State of Django 2026: Boring is so back",
+    "description": "Welcome to the highlights from the fifth annual Django Developers Survey, a collaboration between the Django Software Foundation and PyCharm. This year’s report draws on responses from nearly 3,500 Django developers across more than 40 countries — from students in their first year to veterans with decades of experience. In software, “boring” is a compliment. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/pycharm/2026/08/the-state-of-django-2026-boring-is-so-back/",
+    "pubDate": "Fri, 28 Aug 2026 14:17:28 +0000",
+    "creator": "Will Vincent",
+    "categories": [
+      "pycharm",
+      "django",
+      "state-of-django"
     ]
   }
 ]
