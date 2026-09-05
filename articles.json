@@ -2,119 +2,50 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2026.2.2 Is Out!",
-    "description": "IntelliJ IDEA 2026.2.2 is now available. You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. IntelliJ IDEA 2026.2.2 brings the following refinements: To see the full list of issues addressed in this version, please […]",
+    "title": "OpenAI가 Cursor와의 모델 공급 계약을 끝내려는 이유 - OpenAI가 SpaceX에 인수된 Cursor에 대한 모델 공급 계약 종료를 통지했다는 소식입니다. 적용 제안일은 2026년 11월 12일이고, Cursor 쪽 OpenAI 모델 사용 비중은 약 5%라는 주장도 함께 나왔습니다. 다만 이것을 곧바로 Cursor에서 OpenAI 모델을 전부 못 쓴다는 뜻으로 단정하면 과장될 수 있어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Cursor에서 OpenAI 모델 제공이 끊길 수 있다는 소식이에요. 표현을 조금 정확히 잡아야 합니다. OpenAI가 밝힌 내용은 Cursor에 대한 모델 공급 계약 종료를 통지했고, 제안된 차단일이 2026년 11월 12일이라는 점이에요.OpenAI가 SpaceX 소유 Cursor와의 모델 공급 계약 종료를 통지했다는 소식 요약OpenAI의 공식 발표를 보면 이유도 꽤 분명합니다. Cursor가 SpaceX에 인수되면서 지배권 변경이 발생했고, 그 과정에서 계약상 취소할 수 있는 창구가 열렸다고 설명했어요. OpenAI는 SpaceX가 OpenAI 기술을 약관 안에서 사용할지 확신할 수 없다는 취지로 말했습니다. 특히 앞으로의 모델, 예를 들면 Astra 같은 모델도 Cursor에 제공하지 않겠다고 밝혔습니다.여기서 배경이 되는 사건은 Cursor의 SpaceX 편입이에요. Cursor는 공식 블로그에서 2026년 8월 14일 SpaceX의 일부가 됐다고 발표했습니다. 더 큰 GPU 자원에 접근해서 자체 모델을 더 강하고 저렴하게 만들겠다는 설명도 붙였고요. SpaceX의 SEC 공시에는 2026년 4월 Cursor를 인수할 수 있는 옵션 계약을 맺었고, 6월에 옵션을 행사해 합병 계약을 체결했다는 내용이 나옵니다. Cursor의 내재 지분가치는 600억 달러로 적혀 있습니다.다만 실제 사용자 영향은 조금 더 차분히 봐야 해요. The Information 보도에서는 Cursor 공동창업자 Michael Truell이 OpenAI 모델이 Cursor 사용자 트래픽의 약 5%라고 말했다고 전했습니다. X 미러에 올라온 게시물도 같은 취지로, OpenAI와 해결 방안을 논의 중이라는 주장을 담고 있습니다.적용 제안일은 2026년 11월 12일, Cursor 사용자 영향은 사용 모델에 따라 달라질 수 있음개발자 입장에서 불편한 지점은 분명합니다. 도구를 고를 때 모델 성능만 보면 됐던 시기가 점점 지나가고 있어요. 특정 모델에 깊게 의존하면, 그 모델을 가진 회사의 계약 판단이나 경쟁 관계에 영향을 받을 수 있습니다. Cursor를 OpenAI 모델 중심으로 써온 사람이라면 2026년 11월 12일이라는 날짜를 기준으로 대안을 생각해 둬야 합니다. 반대로 Cursor 자체 모델이나 다른 모델을 주로 쓰던 사람이라면 당장 체감은 크지 않을 수도 있어요.AI 회사들의 경쟁은 기술 발전을 빠르게 만들기도 하지만, 사용자가 선택할 수 있는 조합을 좁히는 방향으로도 작동합니다. 이번 일도 단순한 기능 변경이라기보다는 OpenAI, SpaceX, Cursor 사이의 신뢰와 계약 문제로 보는 편이 정확해요. 저는 앞으로 IDE를 고를 때 모델 품질뿐 아니라 공급 안정성, 대체 모델 지원, 회사 간 관계까지 같이 봐야 한다고 생각합니다.특정 AI 모델에 깊게 의존하면 회사 간 계약과 경쟁 관계에도 영향을 받을 수 있음참고 자료OpenAI의 Cursor 관련 공식 발표Cursor의 SpaceX 합류 공식 발표SpaceX SEC 공시The Information 보도Michael Truell 게시물 미러원본 쇼츠ZeroCho TV 화면에는 OpenAI가 Cursor에 모델 공급 종료를 통지했다는 내용과 관련 참고 자료 목록이 요약돼 있다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-2/",
-    "pubDate": "Wed, 02 Sep 2026 19:22:08 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": [
-      "releases",
-      "bug-fix-update"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "Ensuring Code Compliance in Public Sector Software Projects",
-    "description": "The public sector handles sensitive citizen data, which is why software projects built with secure coding are imperative to deliver high trust levels. Code compliance with data protection laws, financial governance standards, and various regulations and policies is an obligation that must be consistently met to maintain trust and accountability. According to IBM’s Cost of […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/qodana/2026/09/ensuring-code-compliance/",
-    "pubDate": "Tue, 01 Sep 2026 07:54:55 +0000",
-    "creator": "Kerry Beetge",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Stop alt-tabbing into the wrong Visual Studio",
-    "description": "A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start typing, and realize thirty […]\nThe post Stop alt-tabbing into the wrong Visual Studio appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio/",
-    "pubDate": "Wed, 02 Sep 2026 14:00:12 +0000",
-    "creator": "Mads Kristensen",
-    "categories": [
-      "Accessibility",
-      "Customization",
-      "themes"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Antigravity, 코딩보다 시각화에 먼저 써볼 만한 이유 - Google Antigravity를 코딩 메인 도구로 쓰기 애매하더라도, 프로젝트 의존성 그래프나 쿼드트리, 태양계 같은 인터랙티브 시각화를 빠르게 만들어 보는 용도로는 꽤 쓸 만하다는 이야기예요. 다만 데모 속 속도와 실제 프로젝트에서의 품질은 직접 확인이 필요해요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Google Antigravity를 의외로 써먹는 방법이에요. 개발자분들은 Gemini나 Antigravity를 코딩 주력 도구로는 잘 안 떠올릴 수 있어요. ChatGPT나 Claude 쪽이 익숙한 분들이 많으니까요. 다만 저는 이번에 Antigravity가 코드를 직접 짜는 것보다, 프로젝트를 시각적으로 보여주는 용도에서는 꽤 재미있는 선택지가 될 수 있겠다고 봤어요.Antigravity는 코딩 주력 도구보다 프로젝트 시각화 보조 도구로 먼저 써볼 만해요.Google Antigravity 팀도 공식 블로그에서 Generative UI와 visual tooling을 소개했어요. 여기서 중요한 건 단순히 예쁜 그림을 만드는 정도가 아니라, 프로젝트 의존성 관계를 인터랙티브 그래프로 뽑거나 쿼드트리 시각화, 태양계 탐색기 같은 예시를 만들어 볼 수 있다는 점이에요. 특히 “내 프로젝트의 dependencies를 시각화해줘” 같은 요청으로 연결 관계를 바로 눈으로 확인할 수 있다면, 복잡한 코드베이스를 처음 볼 때 도움이 될 수 있어요.공식 설명을 보면 Antigravity는 에디터 하나만 보는 도구가 아니라, 에디터와 터미널, 브라우저를 넘나드는 agentic development environment로 소개돼요. Antigravity IDE 문서에서는 rich markdown plans, code diff views, architecture diagrams, browser recordings 같은 산출물도 언급하고 있어요. 그러니까 코드 작성 결과만 던지는 방식이 아니라, 작업 과정과 구조를 사람이 검토하기 쉽게 보여주려는 방향이라고 보면 돼요.제가 흥미롭게 본 지점은 여기예요. 코딩 자체는 기존에 쓰던 Claude나 GPT로 계속 하더라도, 구조를 빠르게 훑어보고 싶을 때만 Antigravity로 시각화를 맡기는 식이에요. 매번 긴 설명을 주고받으며 토큰을 많이 쓰기보다, 관계도를 한 번 뽑아서 눈으로 보면 이해가 더 빠를 때가 있거든요. 물론 “토큰 낭비가 줄어든다”는 건 공식 수치로 확인된 사실이라기보다 제 사용 관점에 가까워요.ChatGPT와 Claude에 비해 Gemini가 개발자들 사이에서 조롱의 의미로 받아들여지는 분위기를 밈 화면으로 보여주며, Antigravity를 시각화 도구로 활용할 수 있다는 이야기를 꺼내는 장면입니다.Chrome 쪽에서도 Gemini와 AI Mode가 주소창 흐름에 들어오는 방향은 Google이 공식 블로그에서 설명한 내용과 맞아요. 그래서 개발자가 아니어도 Gemini를 검색하듯 쓰는 사람은 늘어날 수 있어요. 다만 “개발자들이 거의 안 쓴다”거나 “데모처럼 실제 프로젝트에서도 빠르다”는 평가는 아직 공식 통계로 확인된 건 아니에요.커뮤니티 반응은 조금 섞여 있어요. Google AI Developers Forum에는 Windows/ARM이나 GPU 관련 문제, 크래시를 겪었다는 사용자 주장도 있고, 유용하지 않다고 평가한 글도 있어요. 하지만 이건 어디까지나 커뮤니티 사례라서 전체 품질을 대표한다고 보기는 어려워요. 제 결론은 간단해요. Antigravity를 당장 메인 코딩 도구로 갈아타라는 얘기는 아니고, 공짜로 쓸 수 있는 범위에서 프로젝트 시각화가 필요할 때 한 번 시험해볼 만하다는 정도예요.Chrome 화면 속 Antigravity 작업 결과로 보이는 태양계 시각화 예시를 보여주며, 코딩 도구보다는 프로젝트를 눈에 보이게 정리해보는 용도로 시험해볼 만하다는 흐름을 설명하는 장면입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a95c8e7d1f0c2caf786fc05",
-    "pubDate": "Mon, 31 Aug 2026 18:33:11 GMT",
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6a983502d1f0c2caf78cd6a1",
+    "pubDate": "Wed, 02 Sep 2026 14:38:59 GMT",
     "creator": "ZeroCho",
     "categories": [
       "AI뉴스"
     ]
   },
   {
-    "id": 5,
+    "id": 2,
     "imageUrl": "",
-    "title": "[MULTI] 자극과 반응 그 사이의 선택, 더 블러드 오브 던워커",
-    "description": "No description available",
+    "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
+    "description": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value store at Meta, backing product metadata, counters, and configuration, and can serve billions [...]\nRead More...\nThe post ZGateway: Learnings from Putting a Proxy in Front of ZippyDB appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2489",
-    "pubDate": "Tue, 01 Sep 2026 00:00:01 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/",
+    "pubDate": "Thu, 03 Sep 2026 16:00:20 +0000",
+    "creator": "Unknown",
     "categories": [
-      "리뷰"
+      "Core Infra"
     ]
   },
   {
-    "id": 6,
+    "id": 3,
     "imageUrl": "",
-    "title": "[NS] 90년대 애니메이션 같은 2인 협동 어드벤처 게임, 오비탈스",
-    "description": "No description available",
+    "title": "The Grails Plugin Has a New Home: Apache Grails",
+    "description": "The Grails plugin for IntelliJ IDEA (which provides framework-aware coding assistance, GSP tooling, and GORM integration) has moved to the Apache Grails project. The Apache Software Foundation (ASF), which already stewards the Grails framework, now owns the plugin’s source code, which lives in its new GitHub repository. On JetBrains Marketplace, the plugin is listed as […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2490",
-    "pubDate": "Tue, 01 Sep 2026 18:02:35 +0900",
-    "creator": "샤말란의눈",
+    "link": "https://blog.jetbrains.com/idea/2026/09/the-grails-plugin-has-a-new-home-apache-grails/",
+    "pubDate": "Tue, 01 Sep 2026 12:02:33 +0000",
+    "creator": "Andrey Belyaev",
     "categories": [
-      "리뷰"
+      "news",
+      "apache-grails",
+      "grails",
+      "plugin"
     ]
   },
   {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Authenticating TeamCity Builds to External Services With OIDC",
-    "description": "Static credentials in CI/CD environments are a significant source of security risks and operational overhead. They can be accidentally leaked through logs and build artifacts. And you can never be sure who’s copying, saving, or sharing them with others during the CI/CD setup process. In addition, they require regular rotation to meet security requirements. That’s […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/09/authenticating-teamcity-builds-with-oidc/",
-    "pubDate": "Tue, 01 Sep 2026 06:58:08 +0000",
-    "creator": "Igor Brovtsin",
-    "categories": [
-      "security",
-      "news"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "택틱스 오우거 리본 - 공중정원 F15 에 비밀문이 있넹",
-    "description": "보통은 F13 에서 비밀문을 열고 F16 으로 가서\n외길에서 낙사시켜 빠르게 클리어 하는데\n나는 잘못 클릭해서 F15 로 갔다.\n \n도전과제에도 없는 비밀문을 발견했다.\n\n\n데스 나이트가 우연히 밟았다.\n \n하지만 클리어 해보니 아무 일도 벌어지지 않았다. 다른길이 있을만한 맵이 아니라 그런지\n가짜 발판을 밟아 버린거 같다.\n(허무)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1686",
-    "pubDate": "Tue, 1 Sep 2026 10:53:22 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "게임"
-    ]
-  },
-  {
-    "id": 9,
+    "id": 4,
     "imageUrl": "",
     "title": "일러스트 한 장, 마치 Live2D처럼 살아숨쉬게 만들기",
     "description": "SIGGRAPH 2026 논문 한 편에 혹해서 시작했다가, Live2D 없이 브라우저에서 도는 캐릭터까지 사흘 밤낮 끙끙 앓으며 만든 기록",
@@ -129,61 +60,7 @@
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "틀려도 다시 말하지 않기",
-    "description": "요즘 혼자 소리 내어 말하는 일이 많아졌다.\n샤워를 하면서 질문 하나를 정해 두고 혼자 답한다.\n늦게까지 일한 날, 사람이 거의 없는 회사 앞에서 택시를 기다리는 몇 분 동안에도 누군가 내게 질문했다고 생각하고 답하기도 한다.\n왜 지금 이 일을 하는지, 최근 가장 고민하는 것은 무엇인지, 그때로 돌아간다면 같은 결정을 할 것인지 등등.\n답을 미리 적어 두지는 않는다.\n충분히 정리될 때까지 기다리지도 않는다.\n첫 문장부터 바로 말한다.\n생각을 정리할 때는 주로 글을 썼다.\n글을 쓰다 보면 내가 알고 있다고 생각했던 것과 실제로 설명할 수 있는 것이 다르다는 걸 자주 깨닫게 된다.\n머릿속에서는 분명하다고 생각했는데, 막상 쓰려고 하면 왜 그렇게 생각하는지 설명하지 못할 때가 있다.\n글은 몇 번이고 고칠 수 있다.\n앞 문장으로 돌아가 지울 수도 있고, 문단의 순서를 바꿀 수도 있다.\n마음에 들지 않으면 모두 지우고 다시 쓸 수도 있다.\n다른 사람에게 보여주기 전까지 초고는 나에게만 있다.\n말하기는 다르다.\n말에는 초고가 없다.\n말하고 나서야 표현이 이상했다는 걸 알 때가 있다.\n그때는 이미 상대가 그 말을 들은 뒤다.\n다시 설명할 수는 있지만, 처음 한 말을 없었던 일로 만들 수는 없다.\n사과도 정정도 그다음에 해야 한다.\n그래서 혼자 말할 때는 규칙을 하나 세웠다.\n중간에 말이 꼬여도 다시 첫 문장으로 돌아가지 않기로.\n방금 한 말이 정확하지 않았다고 인정한 뒤, 내가 말하려던 뜻을 설명한다.\n앞에서 한 말과 지금 하려는 말이 맞지 않으면 잘못 말한 부분부터 바로잡는다.\n다시 시작하면 더 매끄럽게 말할 수 있다.\n하지만 내가 연습하려는 건 매끄럽게 말하는 일이 아니라, 잘못 말한 뒤에 바로잡는 일이었다.\n실제 대화에서는 예상하지 못한 반응도 생긴다.\n상대는 내가 대수롭지 않게 말한 부분을 다시 묻거나 전혀 다른 뜻으로 받아들이기도 한다.\n그럴 때는 준비한 답을 그대로 이어갈 수 없다.\n어디에서 다르게 이해했는지 확인한 뒤 다시 설명해야 한다.\n그렇다고 누군가를 평가하거나 중요한 결정을 알리는 말까지 준비 없이 하자는 뜻은 아니다.\n이 연습이 말할 때만 필요한 것은 아니었다.\n리더로 오래 일하면서 처음부터 다시 하고 싶은 순간도 많았다.\n조직을 이렇게 구성하지 말았어야 했다거나, 제품의 첫 방향을 다르게 잡았어야 했다고 생각한 적이 있었다.\n하지만 판단이 틀렸다는 걸 알게 됐을 때는 이미 여러 사람이 그 결정에 맞춰 일하고 있었다.\n그 결정에 따라 만들어진 기능도 있었고, 내가 설명한 방향대로 일을 진행한 사람도 있었다.\n다음에는 같은 실수를 하지 말아야겠다고 다짐하는 건 어렵지 않았다.\n하지만 그 다짐으로 지금 벌어진 일이 나아지는 건 아니었다.\n잘못 판단한 부분을 인정하고, 부족했던 설명을 다시 하고, 바꿔야 할 것을 바꿔야 했다.\n돌이켜보면 시작하기 전에는 알 수 없었던 일도 많았다.\n일을 시작하고 나서야 잘못 판단했다는 걸 알게 된 적도 있었다.\n오래 고민한다고 해서 모든 문제를 미리 알 수 있는 것도 아니었다.\n혼자 말할 때 첫 문장으로 돌아가지 않는 것도 그래서다.\n말이 틀렸다면 바로 그다음 문장에서 고치고, 설명이 부족했다면 이어서 보탠다.\n그렇게 샤워가 끝날 때까지 처음으로 돌아가지 않고 계속 말한다.\n일에서도 말에서도, 처음부터 틀리지 않는 능력이 있다면 좋겠지만 나한텐 그런 능력이 없었다.\n그래서 틀렸다는 걸 알게 된 뒤 그다음 문장을 말하는 일이 더 중요해졌다.\nps)\n요즘 GPT에 마이크를 켜고 생각나는 대로 말하는 것도 꽤 재미있다.\n두서없이 말해도 알아서 정리해 주고, 녹음만 남겨 두는 것보다 나중에 다시 꺼내 쓰기도 편하다.\n이 글도 GPT에 먼저 말한 내용을 정리해서 썼다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jojoldu.tistory.com/884",
-    "pubDate": "Sun, 30 Aug 2026 22:51:57 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "AI와 글쓰기",
-      "GPT 활용",
-      "글쓰기",
-      "리더십",
-      "말하기 연습",
-      "의사결정",
-      "커뮤니케이션",
-      "회고"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "OpenAI가 Cursor와의 모델 공급 계약을 끝내려는 이유 - OpenAI가 SpaceX에 인수된 Cursor에 대한 모델 공급 계약 종료를 통지했다는 소식입니다. 적용 제안일은 2026년 11월 12일이고, Cursor 쪽 OpenAI 모델 사용 비중은 약 5%라는 주장도 함께 나왔습니다. 다만 이것을 곧바로 Cursor에서 OpenAI 모델을 전부 못 쓴다는 뜻으로 단정하면 과장될 수 있어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Cursor에서 OpenAI 모델 제공이 끊길 수 있다는 소식이에요. 표현을 조금 정확히 잡아야 합니다. OpenAI가 밝힌 내용은 Cursor에 대한 모델 공급 계약 종료를 통지했고, 제안된 차단일이 2026년 11월 12일이라는 점이에요.OpenAI가 SpaceX 소유 Cursor와의 모델 공급 계약 종료를 통지했다는 소식 요약OpenAI의 공식 발표를 보면 이유도 꽤 분명합니다. Cursor가 SpaceX에 인수되면서 지배권 변경이 발생했고, 그 과정에서 계약상 취소할 수 있는 창구가 열렸다고 설명했어요. OpenAI는 SpaceX가 OpenAI 기술을 약관 안에서 사용할지 확신할 수 없다는 취지로 말했습니다. 특히 앞으로의 모델, 예를 들면 Astra 같은 모델도 Cursor에 제공하지 않겠다고 밝혔습니다.여기서 배경이 되는 사건은 Cursor의 SpaceX 편입이에요. Cursor는 공식 블로그에서 2026년 8월 14일 SpaceX의 일부가 됐다고 발표했습니다. 더 큰 GPU 자원에 접근해서 자체 모델을 더 강하고 저렴하게 만들겠다는 설명도 붙였고요. SpaceX의 SEC 공시에는 2026년 4월 Cursor를 인수할 수 있는 옵션 계약을 맺었고, 6월에 옵션을 행사해 합병 계약을 체결했다는 내용이 나옵니다. Cursor의 내재 지분가치는 600억 달러로 적혀 있습니다.다만 실제 사용자 영향은 조금 더 차분히 봐야 해요. The Information 보도에서는 Cursor 공동창업자 Michael Truell이 OpenAI 모델이 Cursor 사용자 트래픽의 약 5%라고 말했다고 전했습니다. X 미러에 올라온 게시물도 같은 취지로, OpenAI와 해결 방안을 논의 중이라는 주장을 담고 있습니다.적용 제안일은 2026년 11월 12일, Cursor 사용자 영향은 사용 모델에 따라 달라질 수 있음개발자 입장에서 불편한 지점은 분명합니다. 도구를 고를 때 모델 성능만 보면 됐던 시기가 점점 지나가고 있어요. 특정 모델에 깊게 의존하면, 그 모델을 가진 회사의 계약 판단이나 경쟁 관계에 영향을 받을 수 있습니다. Cursor를 OpenAI 모델 중심으로 써온 사람이라면 2026년 11월 12일이라는 날짜를 기준으로 대안을 생각해 둬야 합니다. 반대로 Cursor 자체 모델이나 다른 모델을 주로 쓰던 사람이라면 당장 체감은 크지 않을 수도 있어요.AI 회사들의 경쟁은 기술 발전을 빠르게 만들기도 하지만, 사용자가 선택할 수 있는 조합을 좁히는 방향으로도 작동합니다. 이번 일도 단순한 기능 변경이라기보다는 OpenAI, SpaceX, Cursor 사이의 신뢰와 계약 문제로 보는 편이 정확해요. 저는 앞으로 IDE를 고를 때 모델 품질뿐 아니라 공급 안정성, 대체 모델 지원, 회사 간 관계까지 같이 봐야 한다고 생각합니다.특정 AI 모델에 깊게 의존하면 회사 간 계약과 경쟁 관계에도 영향을 받을 수 있음참고 자료OpenAI의 Cursor 관련 공식 발표Cursor의 SpaceX 합류 공식 발표SpaceX SEC 공시The Information 보도Michael Truell 게시물 미러원본 쇼츠ZeroCho TV 화면에는 OpenAI가 Cursor에 모델 공급 종료를 통지했다는 내용과 관련 참고 자료 목록이 요약돼 있다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a983502d1f0c2caf78cd6a1",
-    "pubDate": "Wed, 02 Sep 2026 14:38:59 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "TeamCity 2026.2: Pipelines General Availability, BYOK for AI Assistant, and More",
-    "description": "This major update for TeamCity On-Premises introduces a number of pipeline improvements that are now moving out of EAP and joining build configurations as official, stable options for designing CI/CD workflows. We are also shipping a number of AI-related features, including an MCP toolset extension and the ability to choose any major cloud AI provider […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/09/teamcity-20262/",
-    "pubDate": "Wed, 02 Sep 2026 14:38:38 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "news",
-      "releases",
-      "teamcity-2",
-      "release",
-      "whatsnew-2"
-    ]
-  },
-  {
-    "id": 13,
+    "id": 5,
     "imageUrl": "",
     "title": "장애 Alert의 원인을 스스로 찾다: SRE Observer 개발기",
     "description": "들어가며안녕하세요. LINE Plus에서 Home 서비스의 안정성을 책임지고 있는 Home SRE(Site Reliability Engineering) 팀입니다.SRE Observ...",
@@ -195,7 +72,77 @@
     "categories": []
   },
   {
-    "id": 14,
+    "id": 6,
+    "imageUrl": "",
+    "title": "에친스톤의 용들(멍친스톤의 냥들)",
+    "description": "이번에 멍친스톤의 냥들을 구입했는데 난 이게임을 이미 해보았다. 예전에 관동의 전설이라고 PNP 파일이 올라왔을때 만들어서 플레이 했었는데 에친스톤의 용들이라는 게임의 리테마였다. 정발판 판매때 이미 즐겼던 게임이라 확장포함 4만원 이상의 가격은 이미 여러번 플레이 했던 나에겐 메리트가 그다지 없었다. 하지만 즐긴 값은 하려고 멍친스톤의 냥들만 구입했다. 14000원 정도면 게임도 괜찮았고 나쁘지 않아서 샀는데 역시나 카드 질도 좋고 빤짝이 효과도 멋지더라 직접뽑은 A4용지를 가지고 아무리 잘만들어도 이정도 품질은 절대 안나오지 싶으니 갑자기 본판도 또 가지고 싶더라 ㅎㅎ 플레이 사진인데 이정도 공간만 있으면 플레.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/dlehddus84/224394330677?fromRss=true&trackingCode=rss",
+    "pubDate": "Sat, 29 Aug 2026 18:14:23 +0900",
+    "creator": "dlehddus84",
+    "categories": [
+      "플레이"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "좋은 VC가 되는 방법",
+    "description": "요새 학생 또는 사회초년생을 만나면 이들이 VC라는 업에 관심이 상당히 많다는 것을 체감할 수 있다. 나의 20대, 또는 30대 초반을 기억해 보면 당시엔 투자가 뭔지도 잘 몰랐고 VC라는 업 자체가 너무 생소해서 이런 직업이 있는지도 몰랐는데, 요즘 젊은 분들과 만나서 이야기해 보면 가끔은 VC 업에 종사하는 나보다 이 직종에 대해서 더 잘 알고 있다는 느낌을(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/09/how-to-become-a-good-vc.html",
+    "pubDate": "Wed, 02 Sep 2026 21:28:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "general",
+      "vc"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "인터넷 글들 말투가 점점 비슷해지는 이유 - AI가 작성한 글에서 특정 단어와 문장 습관이 반복되는 현상을 다뤘어요. 46만 건의 풀 리퀘스트를 분석했다는 실험을 바탕으로, 영어권에서는 이미 AI 특유의 단어군이 눈에 띄게 늘었다는 이야기를 소개하고, 한국어 글쓰기에서도 비슷한 흔적이 어떻게 드러나는지 설명했어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇이에요. 이번에 알려드릴 내용은 AI가 글의 말투를 바꾸고 있는지에 대한 이야기예요. 요즘 블로그, 쓰레드, 포스트를 보면 사람이 직접 쓴 글인지 AI가 도와준 글인지 헷갈릴 때가 많죠. 특히 자동화하는 분들은 Claude, Codex, Gemini 같은 도구로 글을 만들고 바로 올리는 경우도 많아요.AI 글쓰기 말투가 왜 비슷하게 느껴지는지 한 장으로 정리했어요.흥미로운 실험도 있었어요. 어떤 곳에서 46만 건의 풀 리퀘스트를 조사해서 단어 사용을 분석했다고 합니다. 그 결과 2026년부터 특정 영어 단어군이 훨씬 자주 등장했다는 내용이었어요. 이 부분은 원본 자료를 제가 따로 검증한 것은 아니고, 이번 YouTube 쇼츠에서 다룬 주장에 기반한 설명이에요.AI가 만든 글에서 특정 표현이 반복되는 현상을 짚어봤어요.영어 단어만 보면 한국어 사용자에게는 바로 와닿지 않을 수 있어요. 다만 번역된 예시를 보면 느낌이 확 옵니다. 예를 들어 “떠받치고 있습니다”, “밀어붙이다”, “박아버리다”, “경로를 확인해야 된다”, “A가 아니라 B다” 같은 식의 문장이 반복되면 어디선가 AI 답변에서 본 듯한 기분이 들죠. “예외가 조용히 삼켜지고 있습니다”, “근본 원인은 무엇이었습니다”, “재검증했습니다”, “교차 확인했습니다” 같은 표현도 마찬가지예요.제가 AI로 글을 써보면서도 이런 습관을 자주 봤어요. 문장 자체가 틀린 것은 아닌데, 같은 결의 단어가 계속 나오면 사람이 쓴 글보다 덜 살아 있어 보입니다. 특히 AI가 자주 고르는 단어가 여러 글에 반복되면, 개별 글은 그럴듯해도 전체 인터넷의 문체는 점점 비슷해질 수 있어요.46만 건의 풀 리퀘스트 분석에서 특정 단어군이 늘었다는 이야기가 나왔어요.엠대시도 많이 언급했어요. 영어권 글에서 엠대시가 과하게 자주 보이면 AI가 쓴 글 같다는 의심을 받는 경우가 많습니다. 물론 엠대시 하나만 보고 100% 단정할 수는 없어요. 하지만 특정 문장 부호와 단어 선택이 함께 반복되면 AI 특유의 흔적으로 읽히기 쉽습니다.여기서 더 생각해볼 부분은 워터마크예요. 제가 앞서 Claude 텍스트에 워터마크가 들어갈 수 있다는 소식을 말씀드린 적이 있는데, 그 방식은 특정 단어가 선택될 확률을 높이는 식이라고 설명했어요. 만약 그런 단어 선택이 계속 누적된다면 Claude 특유의 말투가 더 강하게 보일 가능성도 있습니다. 이 부분은 가능성에 대한 우려이지, 이번 자료만으로 확정된 결론은 아니에요.46만 건의 풀 리퀘스트 분석에서 특정 단어군이 늘었다는 주장에 주목했어요.워터마크 방식과 AI 말투의 반복이 글의 단조로움으로 이어질 수 있다는 우려도 있어요.결국 AI가 글을 못 쓴다는 말은 아니에요. 오히려 빠르게 초안을 만들고, 구조를 잡고, 빠진 내용을 확인하는 데는 정말 유용합니다. 문제는 그대로 내보낼 때 생겨요. 사람이 자기 경험과 판단을 넣지 않으면 표현이 비슷해지고, 읽는 사람은 금방 AI 냄새를 느낍니다.그래서 저는 AI에게 글을 맡기더라도 마지막에는 문장을 다시 만져야 한다고 봐요. 같은 표현을 줄이고, 실제로 내가 확인한 것과 추측을 나누고, 말투를 사람답게 바꾸는 과정이 필요합니다. 글쓰기는 아직 인간의 감각이 많이 남아 있는 영역이에요.참고 자료원본 YouTube ShortsAI 워터마크와 반복 문체가 글의 다양성에 영향을 줄 수 있다는 우려를 설명했어요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6a92c93016739087f058c61b",
+    "pubDate": "Sat, 29 Aug 2026 11:57:36 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "휴직 일기 - 4일 차 - 도둑맞은 집중력을 찾을 수 있을까?",
+    "description": "당분간 아침은 계속 몽롱한 상태가 될 것 같다. 오늘도 약 기운에 제때 일어나지 못했다. 이번 주 검진에서는 조절해야 할 것 같다. 그래도 처방이 괜찮은 건지 평온해지기도 했고 이성적이기만 했던 것도 많이 줄어들었다. 뭔가 인간다워졌다는 생각이다. 목적을 잃은 채 사회 시스템 속에서 살아가던 것에서 깨어나서 인간다워졌다. 생각이 많아 생각에 중독되었있던 것",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/63",
+    "pubDate": "Thu, 03 Sep 2026 13:30:39 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 64화, 애미과거데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2491",
+    "pubDate": "Wed, 02 Sep 2026 23:06:35 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 11,
     "imageUrl": "",
     "title": "[MULTI] 게임스컴 2026, 공식 방송 및 관련 기사 종합",
     "description": "No description available",
@@ -209,21 +156,61 @@
     ]
   },
   {
-    "id": 15,
+    "id": 12,
     "imageUrl": "",
-    "title": "사람이 그리워지는 시대",
-    "description": "우린 전체 투자금의 10% 정도를 미국 회사에 투자한다. 과거에는 이 비중이 더 높았지만, 요샌 오히려 한국에 더 좋은 창업가가 많다고 느껴서 한국에 모든 자원을 집중하고 있다. 몇 개의 미국 투자사는 주주명부를 Carta를 통해서 관리하는데 나에게는 아직도 이 제품이 너무 어렵게 느껴진다. 투자사들이 이 회사의 제품을 사용해서 어쩔 수 없이 나도 수년 동안 사용하곤 있지만, 아직도(...)",
+    "title": "휴직 일기 - 3일 차 - 삶의 하루하루가 소중하다",
+    "description": "오늘도 아침은 몽롱한 상태로 시작했다. 그런데 이것도 익숙해지니 편안하다는 생각이다. 최근의 감정은 평온하다는 것이 무엇인지 느낄 수 있는 상태이다. 감정의 기복이 없고 커다란 스트레스 같은 것들도 없다. 그래서 평온한 상태이다. 이걸 글로 설명할 수 없다. 굳이 표현하면 부처의 마음이 된 듯한 느낌이랄까?  오늘은 특별히 새로운 장소에서 공부하기로 했다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/08/oh-how-i-miss-talking-to-real-people.html",
-    "pubDate": "Sun, 30 Aug 2026 21:31:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://brunch.co.kr/@@24SO/62",
+    "pubDate": "Wed, 02 Sep 2026 14:50:11 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Antigravity, 코딩보다 시각화용으로 보면 의외로 쓸 만해요 - Google Antigravity를 코딩 메인 도구로 쓰기보다는 프로젝트 구조나 알고리즘, 인터랙티브 예시를 빠르게 시각화하는 용도로 활용해보자는 내용이에요. 공식 자료로 확인되는 Generative UI와 visual tooling 기능은 프로젝트 의존성 그래프, 쿼드트리, 태양계 예시를 보여주지만 실제 속도와 품질은 프로젝트마다 테스트가 필요해요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇이에요. 이번에 알려드릴 내용은 Google Antigravity를 코딩 메인 도구가 아니라 시각화 도구처럼 쓰는 방법이에요. 개발자 입장에서는 Gemini나 Antigravity를 코딩할 때 적극적으로 쓰는 경우가 많지 않다고 느낄 수 있는데, 그 평가는 공식 통계로 확인된 사실이라기보다는 제가 써보며 받은 인상에 가까워요.Antigravity는 메인 코딩 도구보다 시각화 보조 도구로 접근하면 쓰임새가 선명해져요.다만 Gemini 자체는 개발자 바깥의 사용 흐름에서는 꽤 자연스럽게 들어오고 있어요. Google은 Chrome에서 Gemini가 탭 맥락을 이해해 질문에 답하고, 주소창인 omnibox에서도 AI Mode로 복잡한 질문과 후속 질문을 다룰 수 있다고 설명했어요. 그래서 예전처럼 검색창에 문장으로 물어보는 흐름이 점점 더 익숙해지는 분위기예요.Antigravity는 메인 코딩 도구보다 빠른 시각화 보조 도구로 보면 쓰임새가 분명해져요.Antigravity 쪽에서 제가 눈여겨본 건 Generative UI와 visual tooling이에요. Google Antigravity 팀은 공식 블로그에서 rich visual components, dashboards, interactive artifacts, design mockups를 실시간으로 만들고 반복할 수 있다고 소개했어요. 예시도 꽤 직접적이에요. 프로젝트 의존성을 보여달라고 하면 package dependencies를 인터랙티브 그래프로 뽑아주고, Quadtree Visualizer나 Solar System Explorer 같은 예시도 함께 보여줬어요.이 지점이 실전에서 꽤 유용할 수 있어요. 코드를 작성하거나 큰 리팩터링을 맡기는 일은 여전히 Claude나 GPT가 편할 수 있지만, 의존성 관계처럼 눈으로 보면 바로 이해되는 정보는 시각화가 훨씬 빠를 때가 있어요. 특히 복잡한 프로젝트에서 어떤 패키지가 어디에 연결되는지 보고 싶을 때, 긴 설명을 토큰으로 계속 주고받는 것보다 한 번 그래프로 보는 편이 낫죠.프로젝트 의존성 그래프처럼 구조를 한눈에 보는 작업에 Antigravity를 활용할 수 있어요.공식 예시처럼 프로젝트 의존성 관계를 그래프로 보면 구조 파악이 빨라질 수 있어요.공식 문서 기준으로 Antigravity IDE는 에디터, 터미널, 브라우저에 걸쳐 agent가 작업하도록 설계된 agentic development environment예요. 또 rich markdown plans, code diff views, architecture diagrams, images, browser recordings 같은 산출물을 통해 작업 내용을 확인하게 한다고 설명해요. 이런 설명만 보면 단순한 챗봇이라기보다는 작업 과정 자체를 시각적으로 보여주는 개발 환경에 더 가까워요.물론 조심해서 봐야 할 부분도 있어요. 공식 블로그에 나온 데모는 미리 준비된 예시라 실제 프로젝트에서도 똑같이 빠르고 깔끔하게 나올지는 별개예요. 제가 말한 “토큰 낭비를 줄일 수 있다”는 것도 사용 방식에 대한 판단이지, Google이 수치로 검증해 준 결과는 아니에요. 커뮤니티 포럼에는 Windows/ARM이나 GPU 관련 문제로 실행이 어렵다는 주장도 있었지만, 이것 역시 일부 사용자 사례라 전체 품질을 대표한다고 보긴 어려워요.쿼드트리나 태양계처럼 움직이는 예시는 Antigravity의 시각화 방향을 보여주는 참고 사례예요.그래서 저는 Antigravity를 “이제 이걸로 코딩 다 하자”가 아니라 “시각화가 필요할 때 잠깐 꺼내 쓰자” 쪽으로 보는 게 맞다고 봐요. 프로젝트 구조, 알고리즘 동작, 데이터 관계처럼 말로 풀면 길어지는 내용을 빠르게 그림으로 확인하는 용도라면 충분히 시도해볼 만해요. 공짜로 써볼 수 있는 상황이라면, 먼저 작은 프로젝트나 샘플 코드로 실제 속도와 결과물을 확인해보는 게 가장 현실적인 접근이에요.쿼드트리와 태양계 예시는 인터랙티브 시각화가 가능한 방향을 보여줘요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6a93f4c7521190c086bb0d52",
+    "pubDate": "Sun, 30 Aug 2026 09:15:52 GMT",
+    "creator": "ZeroCho",
     "categories": [
-      "Uncategorized",
-      "ai",
-      "people",
-      "Strong",
-      "technology"
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "$399 에 피지컬 로봇 장난감이 나왔다. / 마이크로덕 Microduck",
+    "description": "홍보영상: https://www.youtube.com/watch?v=reiTh7K4KSc\n\n\n\n \n \n해석 영상: https://www.youtube.com/watch?v=FEQV3FaJlMU&t=438s\n\n\n\n \n이분은 꾸준히 로봇 발전에 대해 이야기하고 계십니다.\n설명을 이상하게 하는 경향이 있긴합니다.\n \n학습을 웹에서 진행하는데 신박하고 직관적인거 같습니다.\n \n옛날에 소니 아이보 라는게 있었습니다.\n이건 백만원 넘었던걸로 기억하는군요\n영상: https://www.youtube.com/watch?v=18FSCObXglA\n\n\n\n \n너무 옛날이라 학습을 위한 지원도 없었고\n될데로 되라는 식이고 제대로 움직인다고도 할 수 없었습니다.\n \n이제는 진짜 로봇 팻을 가질 수 있게 되었군요",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1685",
+    "pubDate": "Mon, 31 Aug 2026 06:14:21 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "유튜브",
+      "로봇",
+      "피지컬ai"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
+    "description": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integrating two layers:  A structured, auditable knowledge architecture separates what [...]\nRead More...\nThe post An Organizational Second Brain: Building an AI That Learns From Experts appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+    "pubDate": "Wed, 02 Sep 2026 09:00:29 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "AI Research",
+      "ML Applications",
+      "Security & Privacy"
     ]
   }
 ]
