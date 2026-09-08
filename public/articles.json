@@ -2,71 +2,104 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Today I will… review GitHub PRs",
-    "description": "Today I will show you how we can tackle one of the most common tasks when working in a development team or managing an open-source project, and that is working with Pull Requests. While we’re going to be using the GitHub tooling within Visual Studio for this, the approach would be very similar with Azure […]\nThe post Today I will… review GitHub PRs appeared first on Visual Studio Blog.",
+    "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
+    "description": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value store at Meta, backing product metadata, counters, and configuration, and can serve billions [...]\nRead More...\nThe post ZGateway: Learnings from Putting a Proxy in Front of ZippyDB appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs/",
-    "pubDate": "Tue, 01 Sep 2026 16:00:27 +0000",
-    "creator": "Aaron Powell",
+    "link": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/",
+    "pubDate": "Thu, 03 Sep 2026 16:00:20 +0000",
+    "creator": "Unknown",
     "categories": [
-      "Visual Studio",
-      "GitHub",
-      "Productivity",
-      "Visual Studio 2026"
+      "Core Infra"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "클로드 Max 20x 요금제, 이름만 보고 판단하면 안 되는 이유 - Claude Fable 5.1 발표보다 더 크게 번진 Claude Max 5x/20x 사용량 한도 논란을 공식 문서와 커뮤니티 반응으로 나눠 정리했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Claude Fable 5.1 출시와 함께 묻히기엔 꽤 중요한 Claude Max 요금제 논란이에요. Fable 5.1은 성능이 올라가고 캐시 읽기 가격도 낮아졌습니다. Anthropic 공식 페이지 기준으로 Fable 5.1은 2026년 9월 1일 발표됐고, 캐시 읽기 가격은 100만 토큰당 0.25달러로 Fable 5보다 75% 낮아졌어요. 그래서 일반 워크로드 비용은 약 25%, 고도 에이전트 워크로드는 최대 약 45% 줄어들 수 있다고 설명합니다.Fable 5.1보다 더 커진 요금제 논란그런데 이번에 더 크게 봐야 할 부분은 Max 5x와 Max 20x 이름이 주는 인상이에요. 이름만 보면 Max 5x는 Pro의 5배, Max 20x는 Pro의 20배 사용량을 주는 것처럼 받아들이기 쉽습니다. 저도 처음엔 그렇게 이해할 수밖에 없다고 봤어요. 하지만 Anthropic Help Center의 Max 플랜 설명을 보면 이 배수는 세션당 사용량에 대한 설명이고, 별도의 주간 사용량 한도가 있습니다.이 차이가 중요합니다. 5시간마다 리셋되는 세션 한도에서는 Max 20x가 크게 보이지만, 주간 한도까지 똑같이 Pro의 20배라고 공식 문서가 확인해주지는 않기 때문이에요. 그래서 Max 20x라는 이름을 보고 전체 주간 사용량도 20배라고 기대한 사람들에게는 체감이 완전히 달라질 수 있습니다.9월 14일 25% 증가는 현재 기준으론 감소Claude Code 쪽 발표도 표현을 잘 봐야 합니다. The Mac Observer 보도에 따르면 Anthropic의 ClaudeDevs 계정은 2026년 9월 14일부터 paid plan의 Claude Code 표준 주간 한도를 영구적으로 25% 올린다고 발표했습니다. 말만 보면 사용량이 늘어나는 것처럼 들리죠.다만 현재 임시 50% 증가 프로모션이 적용된 상태라면 계산이 달라집니다. 현재를 150%로 보면 9월 14일 이후 표준 125%로 바뀌는 셈이라, 지금 체감 기준으로는 약 16.7%, 쉽게 말해 약 17% 줄어드는 효과가 납니다. Anthropic이 새 주간 한도의 고정 토큰 수를 공개하지 않았다는 점도 같이 봐야 해요.소송과 커뮤니티 주장은 구분해서 봐야 합니다미국에서 소송이 제기된 사실도 확인됩니다. Justia 사건 기록에 따르면 Kahn v. Anthropic PBC는 2026년 6월 14일 캘리포니아 북부연방지방법원에 접수됐고, 사건번호는 3:2026cv05763입니다. 다만 소송이 제기됐다는 사실과 Anthropic 책임이 확정됐다는 말은 다릅니다. 아직 판결로 확정된 내용은 아니에요.유튜브 영상 댓글 반응은 꽤 날카로웠습니다. Claude를 쓰다가 Codex로 넘어왔다는 의견, 토큰이 너무 빨리 사라진다는 체감, Max 100달러에서 200달러로 올렸는데 기대만큼 늘지 않았다는 경험담이 보였어요. 환불이나 차지백 이야기도 있었지만, 이건 댓글과 커뮤니티 주장으로만 봐야 합니다. Reddit 쪽에서도 사용량 미터 부재와 Max 20x의 체감 가치 하락을 불만으로 말하는 흐름이 있었고, 이 역시 커뮤니티 논의로 구분해야 합니다.요금제 이름보다 실제 한도를 확인하세요이번 논란에서 제가 보고 싶은 부분은 단순히 어느 모델이 더 좋으냐가 아닙니다. AI 구독제는 이름과 배수 표현만 보고 결제하면 기대와 실제 사용량이 어긋날 수 있어요. 특히 코딩처럼 긴 컨텍스트를 자주 쓰는 작업에서는 5시간 한도, 주간 한도, 캐시 비용, 모델별 제한이 실제 체감 비용을 크게 바꿉니다. Max 20x라는 이름이 보이면 먼저 그 20배가 어디에 적용되는지 확인해야 합니다.참고 자료이번 글은 원본 쇼츠, Anthropic의 Max 플랜 도움말, Anthropic의 Claude Fable 5.1 공식 페이지, The Mac Observer 보도, Justia 사건 기록, Reddit 커뮤니티 논의를 바탕으로 정리했습니다.",
+    "title": "IntelliJ IDEA 2026.2.2 Is Out!",
+    "description": "IntelliJ IDEA 2026.2.2 is now available. You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. IntelliJ IDEA 2026.2.2 brings the following refinements: To see the full list of issues addressed in this version, please […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a99966f7ed695abeef48125",
-    "pubDate": "Thu, 03 Sep 2026 15:46:55 GMT",
+    "link": "https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-2/",
+    "pubDate": "Wed, 02 Sep 2026 19:22:08 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": [
+      "releases",
+      "bug-fix-update"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "토스에 입사하고 든 10가지 생각 ",
+    "description": "내 일의 주도권을 찾아 자립하는 90일의 기록",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/findyoursafezone-2b",
+    "pubDate": "Mon, 07 Sep 2026 08:35:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
+    "description": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integrating two layers:  A structured, auditable knowledge architecture separates what [...]\nRead More...\nThe post An Organizational Second Brain: Building an AI That Learns From Experts appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+    "pubDate": "Wed, 02 Sep 2026 09:00:29 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "AI Research",
+      "ML Applications",
+      "Security & Privacy"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Kotlin 2.4.20 Released",
+    "description": "The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To update to the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-2-4-20-released/",
+    "pubDate": "Mon, 07 Sep 2026 11:30:57 +0000",
+    "creator": "Daniel Csorba",
+    "categories": [
+      "releases"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 64화, 애미과거데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2491",
+    "pubDate": "Wed, 02 Sep 2026 23:06:35 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "GPT-6 Astra 공개, AGI라는 말이 나올 만큼 달라진 점 - OpenAI가 공개한 GPT-6 Astra의 성능, 제한적 출시, 가격, 보안 위험, 그리고 유튜브 영상 댓글 반응까지 확인된 내용과 해석을 나눠 정리했어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 OpenAI의 GPT-6 Astra입니다. 이름부터 세게 나왔고, OpenAI도 이 모델을 매우 강하게 포지셔닝하고 있어요. 다만 제가 확인한 내용부터 보면, Astra가 곧바로 모두가 합의한 ‘진짜 AGI’라는 뜻은 아닙니다. OpenAI 발표와 일부 임원 발언에서는 AGI 시대의 시작처럼 표현됐지만, 그 판단은 아직 사용자와 업계의 검증을 거쳐야 하는 단계에 가까워요.제한적으로 먼저 풀리는 GPT-6 AstraOpenAI 공식 발표에 따르면 Astra는 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무에서 최상위 성능을 목표로 한 모델입니다. 지금은 먼저 제한된 조직에 제공되고, 이후 ChatGPT Plus, Pro, Business, Enterprise, OpenAI API, Microsoft Azure, AWS Bedrock 쪽으로 확대되는 흐름이에요. 그래서 당장 모든 사람이 같은 방식으로 써볼 수 있는 상황은 아닙니다.벤치마크 숫자가 크게 튄 이유눈에 띄는 건 벤치마크입니다. OpenAI는 Astra가 FrontierMath Tier 4에서 98%, ARC-AGI-3에서 99.9%, ExploitBench에서 100%를 기록했다고 밝혔어요. 수치만 보면 기대감이 커질 수밖에 없습니다. 특히 ARC-AGI-3 99.9%는 AGI 이야기가 붙기 쉬운 숫자죠. 다만 이 수치는 OpenAI가 공개한 평가 결과라는 점도 같이 봐야 합니다. 실제 사용에서 얼마나 안정적으로 이어지는지는 써봐야 감이 옵니다.문서, 코딩, 화면 조작 쪽 기대감제가 특히 기대하는 지점은 단순 답변보다 작업물 품질입니다. 기판 설계처럼 보이는 작업, 엑셀 처리, PPT 스타일 맞추기, 문서 스타일링, 게임 개발, 3D 작업 예시가 함께 언급됐어요. 개발자가 아닌 분들은 코드 성능보다 문서나 발표 자료를 얼마나 그럴듯하게 만들어 주는지가 더 크게 와닿을 수 있습니다. 개발 쪽에서는 코딩 성능도 최상급이라고 소개됐고, UI가 중간에 사용자에게 다시 물어보는 방식으로 더 인터랙티브해진 점도 흥미로웠어요.가격과 보안은 같이 봐야 합니다가격은 가볍지 않습니다. OpenAI API 기준으로 gpt-6-astra의 Standard 가격은 입력 100만 토큰당 10달러, 출력 100만 토큰당 50달러로 공개됐습니다. 컨텍스트 창은 1,050,000토큰, 최대 출력은 128,000토큰까지 지원한다고 되어 있어요. 성능이 좋으면 비용이 올라가는 건 납득할 수 있지만, 실제 업무에서 계속 쓰기에는 비용 대비 결과물을 꼭 봐야 합니다.보안 쪽도 중요합니다. OpenAI 안전성 개요에서는 Astra가 Preparedness Framework 기준 사이버보안 역량에서 Critical 수준에 도달한 첫 모델이라고 설명합니다. 도구와 접근 권한이 주어지면 알려지지 않은 보안 결함을 찾고 exploit을 만들 수 있다고도 밝혔어요. 그래서 OpenAI는 격리, 체크포인트 암호화, 전체 작업 경로 모니터링 같은 보호 장치를 강화했다고 설명합니다.시청자 반응은 기대와 의심이 같이 나왔습니다유튜브 영상 댓글을 보면 매일 리셋권을 준다는 소식에 반응한 분들이 많았고, 토큰을 더 여유 있게 쓸 수 있겠다는 기대도 보였어요. 반대로 벤치마크를 그대로 믿기보다는 실제 사용감이 중요하다는 의견, AGI라는 표현은 아직 과하다는 의견도 있었습니다. 디자인 품질과 이미지·사물 인식 개선을 바라는 반응도 눈에 띄었고요.참고 자료이번 글은 OpenAI의 GPT-6 Astra 공식 발표, GPT-6 Astra 안전성 개요, OpenAI API 모델 문서, 그리고 제가 정리한 원본 쇼츠를 바탕으로 작성했어요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6a9c1d786f0d5875ca8d8f2a",
+    "pubDate": "Sat, 05 Sep 2026 13:47:37 GMT",
     "creator": "ZeroCho",
     "categories": [
       "AI뉴스"
     ]
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Learning to Code in the Age of AI: Advice From a Top Udemy Instructor",
-    "description": "What should a beginner developer learn in order to keep up in the AI era? This is one of the most debated questions in tech right now. We got in touch with Ardit Sulce, a Python educator with over 650,000 students on Udemy, and talked about the value of struggling when learning something new, the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2026/09/03/learning-to-code-in-the-age-of-ai-advice-from-a-top-udemy-instructor/",
-    "pubDate": "Thu, 03 Sep 2026 10:45:55 +0000",
-    "creator": "Regina Muradova",
-    "categories": [
-      "interviews",
-      "jetbrains-academy",
-      "ardit-sulce",
-      "educator",
-      "jetbrains",
-      "junior-developer",
-      "learn-programming",
-      "online-courses",
-      "teach-programming",
-      "udemy"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "우리가 AI를 통제하고 있다는 착각",
-    "description": "토스 팟캐스트  진화학자 장대익이 그리는 인간과 AI 공생의 길",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/GroundTruth-4",
-    "pubDate": "Thu, 03 Sep 2026 09:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 5,
+    "id": 8,
     "imageUrl": "",
     "title": "How to Handle Errors in Go",
     "description": "This article was initially published by a community contributor, Christoph Berger, in the JetBrains’ Go Guide and has since been moved to the JetBrains Go blog. We have also updated it in August 2026 to reflect the most recent changes to the Go language. Error handling is one of the aspects in which Go differs […]",
@@ -82,51 +115,96 @@
     ]
   },
   {
-    "id": 6,
+    "id": 9,
     "imageUrl": "",
-    "title": "한국 전도사",
-    "description": "올해도 해외 출장이 꽤 많았는데 8월, 9월과 10월은 다행히도 그냥 한국에서 조용히 집중해서 일하고 있다. 특히 7월 미국 출장이 좀 빡셌는데, 미국 내에서도 이동 거리가 많았고, 만났던 투자자분들의 한국에 대한 관심이 상당히 높아서 최근 한국 시장 소식, 스트롱의 활동, 그리고 왜 한국이 투자 대상으로 계속 좋은 시장인지에 대한 설명과 설득을 많이 했기 때문이다. 정확히 세어(...)",
+    "title": "휴직 일기 - 5일 차 - 조금씩 변하는 것들",
+    "description": "오늘은 하루를 일찍 시작했다. 수면제에 적응되었는지 일찍 일어나게 되었다. 하지만 하루종일 하품이 나면서 졸린건 마찬가지였다. 오늘 처방을 받는 날이라 약은 줄였다. 아침은 어제 빌린 책을 읽는 것으로 시작했다. 내가 집중력을 왜 잃어벼렸는지 아주 잘 알 수 있는 내용들이었다. 책 이야기는 다 읽은 다음에 정리해 보려고 한다. 저자가 글을 재미있게 써서 잘",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/09/the-korea-evangelist.html",
-    "pubDate": "Sun, 06 Sep 2026 21:45:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "korea",
-      "Strong"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Fine-Tuning SOTA Object Detection Models on Real-World Datasets",
-    "description": "In our previous blog post in this series, we discussed state-of-the-art models for object detection: the architectures, the theory, and what makes YOLO12, YOLO26, and RF-DETR tick. If you want the theoretical background on these models, start there. This post is the practical follow-up: how to actually use these models, how to fine-tune them on […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/pycharm/2026/08/fine-tuning-sota-object-detection-models-on-real-world-datasets/",
-    "pubDate": "Mon, 31 Aug 2026 13:50:29 +0000",
-    "creator": "Arina Belova",
-    "categories": [
-      "data-science",
-      "object-detection",
-      "yolo"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "휴직 일기 - 1일 차 - 비 오는 경치가 새로운 경험을 주네",
-    "description": "휴질 1일 차. 마침내 시작이다. 대단한 각오도 없고, 대단한 계획도 없이 시작되었다. 지난밤 먹은 수면제로 인하여 아침에 일어나는 것이 힘들었다. 7시 알람이 울려 깨었지만 알람을 끄고 잠들어 버렸다. 이때는 그저 아침이니가 했지만 하루 종일 수면제 후유증으로 시달리게 된다. 잠깐 누었다고 생각했는데 1시간이 훌쩍 지나버렸다. 계속 누워있으면 계속 잘 것",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/60",
-    "pubDate": "Mon, 31 Aug 2026 14:26:40 GMT",
+    "link": "https://brunch.co.kr/@@24SO/64",
+    "pubDate": "Fri, 04 Sep 2026 14:16:25 GMT",
     "creator": "고종범",
     "categories": []
   },
   {
-    "id": 9,
+    "id": 10,
+    "imageUrl": "",
+    "title": "The Rider 2026.3 Early Access Program Is Open",
+    "description": "The first Early Access build for Rider 2026.3 is now available! It includes rainbow brackets, an easier way to set data breakpoints, a new Game Development plugin category, and filters in code completion. You can get the build from our website or through the Toolbox App. Here’s a look at what’s new. Rainbow brackets: You […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/09/07/rider-2026-3-eap/",
+    "pubDate": "Mon, 07 Sep 2026 09:35:21 +0000",
+    "creator": "Alexander Kurakin",
+    "categories": [
+      "net-tools",
+      "eap",
+      "code-completion",
+      "debugger",
+      "gamedev",
+      "rider",
+      "test-coverage",
+      "unreal-engine"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "OpenAI가 Cursor와의 모델 공급 계약을 끝내려는 이유 - OpenAI가 SpaceX에 인수된 Cursor에 대한 모델 공급 계약 종료를 통지했다는 소식입니다. 적용 제안일은 2026년 11월 12일이고, Cursor 쪽 OpenAI 모델 사용 비중은 약 5%라는 주장도 함께 나왔습니다. 다만 이것을 곧바로 Cursor에서 OpenAI 모델을 전부 못 쓴다는 뜻으로 단정하면 과장될 수 있어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Cursor에서 OpenAI 모델 제공이 끊길 수 있다는 소식이에요. 표현을 조금 정확히 잡아야 합니다. OpenAI가 밝힌 내용은 Cursor에 대한 모델 공급 계약 종료를 통지했고, 제안된 차단일이 2026년 11월 12일이라는 점이에요.OpenAI가 SpaceX 소유 Cursor와의 모델 공급 계약 종료를 통지했다는 소식 요약OpenAI의 공식 발표를 보면 이유도 꽤 분명합니다. Cursor가 SpaceX에 인수되면서 지배권 변경이 발생했고, 그 과정에서 계약상 취소할 수 있는 창구가 열렸다고 설명했어요. OpenAI는 SpaceX가 OpenAI 기술을 약관 안에서 사용할지 확신할 수 없다는 취지로 말했습니다. 특히 앞으로의 모델, 예를 들면 Astra 같은 모델도 Cursor에 제공하지 않겠다고 밝혔습니다.여기서 배경이 되는 사건은 Cursor의 SpaceX 편입이에요. Cursor는 공식 블로그에서 2026년 8월 14일 SpaceX의 일부가 됐다고 발표했습니다. 더 큰 GPU 자원에 접근해서 자체 모델을 더 강하고 저렴하게 만들겠다는 설명도 붙였고요. SpaceX의 SEC 공시에는 2026년 4월 Cursor를 인수할 수 있는 옵션 계약을 맺었고, 6월에 옵션을 행사해 합병 계약을 체결했다는 내용이 나옵니다. Cursor의 내재 지분가치는 600억 달러로 적혀 있습니다.다만 실제 사용자 영향은 조금 더 차분히 봐야 해요. The Information 보도에서는 Cursor 공동창업자 Michael Truell이 OpenAI 모델이 Cursor 사용자 트래픽의 약 5%라고 말했다고 전했습니다. X 미러에 올라온 게시물도 같은 취지로, OpenAI와 해결 방안을 논의 중이라는 주장을 담고 있습니다.적용 제안일은 2026년 11월 12일, Cursor 사용자 영향은 사용 모델에 따라 달라질 수 있음개발자 입장에서 불편한 지점은 분명합니다. 도구를 고를 때 모델 성능만 보면 됐던 시기가 점점 지나가고 있어요. 특정 모델에 깊게 의존하면, 그 모델을 가진 회사의 계약 판단이나 경쟁 관계에 영향을 받을 수 있습니다. Cursor를 OpenAI 모델 중심으로 써온 사람이라면 2026년 11월 12일이라는 날짜를 기준으로 대안을 생각해 둬야 합니다. 반대로 Cursor 자체 모델이나 다른 모델을 주로 쓰던 사람이라면 당장 체감은 크지 않을 수도 있어요.AI 회사들의 경쟁은 기술 발전을 빠르게 만들기도 하지만, 사용자가 선택할 수 있는 조합을 좁히는 방향으로도 작동합니다. 이번 일도 단순한 기능 변경이라기보다는 OpenAI, SpaceX, Cursor 사이의 신뢰와 계약 문제로 보는 편이 정확해요. 저는 앞으로 IDE를 고를 때 모델 품질뿐 아니라 공급 안정성, 대체 모델 지원, 회사 간 관계까지 같이 봐야 한다고 생각합니다.특정 AI 모델에 깊게 의존하면 회사 간 계약과 경쟁 관계에도 영향을 받을 수 있음참고 자료OpenAI의 Cursor 관련 공식 발표Cursor의 SpaceX 합류 공식 발표SpaceX SEC 공시The Information 보도Michael Truell 게시물 미러원본 쇼츠ZeroCho TV 화면에는 OpenAI가 Cursor에 모델 공급 종료를 통지했다는 내용과 관련 참고 자료 목록이 요약돼 있다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6a983502d1f0c2caf78cd6a1",
+    "pubDate": "Wed, 02 Sep 2026 14:38:59 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "The MPS 2026.2 Early Access Program Has Started",
+    "description": "MPS 2026.2 EAP1 offers several improvements to test reporting, enhances grouping of found items, and brings a smoother editing experience and a more maintainable foundation for launching MPS and MPS-based products. This release makes multi-node selection more predictable and aligns the MPS startup configuration more closely with the IntelliJ Platform. DOWNLOAD MPS 2026.2 EAP1 Along […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/mps/2026/09/the-mps-2026-2-eap-has-started-2-2/",
+    "pubDate": "Wed, 02 Sep 2026 14:38:03 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "releases",
+      "eap",
+      "release"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "장애 Alert의 원인을 스스로 찾다: SRE Observer 개발기",
+    "description": "들어가며안녕하세요. LINE Plus에서 Home 서비스의 안정성을 책임지고 있는 Home SRE(Site Reliability Engineering) 팀입니다.SRE Observ...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/building-sre-observer-for-alert-root-cause-analysis",
+    "pubDate": "Fri, 04 Sep 2026 01:50:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "낮에는 선거, 밤에는 전투! 어노말리 프레지던트",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2492",
+    "pubDate": "Fri, 04 Sep 2026 21:41:33 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 15,
     "imageUrl": "",
     "title": "Stop alt-tabbing into the wrong Visual Studio",
     "description": "A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start typing, and realize thirty […]\nThe post Stop alt-tabbing into the wrong Visual Studio appeared first on Visual Studio Blog.",
@@ -139,90 +217,6 @@
       "Accessibility",
       "Customization",
       "themes"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "휴직 일기 - 6일 차 - 자연 노출을 통한 회복",
-    "description": "토요일이나 오후에는 충분히 휴식을 취하고자 했다. 아내와 좋은 카페에서 수다를 떨까 했는데 강아지가 같이 나가겠다고 보채는 바람에 오후 외출을 방식을 바꾸었다. 공원에 가서 캠핑 의자를 설치하고 오늘의 날씨를 즐기기로 했다. 오늘은 유난히 바람이 좋아서 선선한 날씨를 즐길 수 있을 것 같았다. 아파트가 호수공원과 연결되어 있고 나무 데크가 깔려 있어서 경치",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/66",
-    "pubDate": "Sat, 05 Sep 2026 14:02:57 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
-    "description": "Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, and more.  Read on for the details, and check the release notes for the full list of changes and bug fixes. Additionally, klibs.io now uses the Kotlin Toolchain […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/",
-    "pubDate": "Thu, 03 Sep 2026 10:40:05 +0000",
-    "creator": "Joffrey Bion",
-    "categories": [
-      "kotlin",
-      "multiplatform",
-      "releases",
-      "toolchain",
-      "news",
-      "toolchains"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "휴직 일기 - 4일 차 - 도둑맞은 집중력을 찾을 수 있을까?",
-    "description": "당분간 아침은 계속 몽롱한 상태가 될 것 같다. 오늘도 약 기운에 제때 일어나지 못했다. 이번 주 검진에서는 조절해야 할 것 같다. 그래도 처방이 괜찮은 건지 평온해지기도 했고 이성적이기만 했던 것도 많이 줄어들었다. 뭔가 인간다워졌다는 생각이다. 목적을 잃은 채 사회 시스템 속에서 살아가던 것에서 깨어나서 인간다워졌다. 생각이 많아 생각에 중독되었있던 것",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/63",
-    "pubDate": "Thu, 03 Sep 2026 13:30:39 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "휴직 일기 - 6일 차 아침글 - 집중력을 지킨다는 것",
-    "description": "오늘부터는 글을 쓰는 방식을 바꿔보기로 했다. 지난번 만들어 놓은 음성인식 앱을 이용해서 녹음을 하여 말로 먼저 풀어놓고, 그 말을 초벌로 AI의 도움을 받아 다듬은 다음 다시 내가 직접 수정을 더해서 글로 만드는 방식이다. 전체적인 내용은 나의 생각이고 내가 발언한 것을 기준으로 하지만 AI 가 새롭게 덧댄 부분은 별도 표기해 놓는다.  아침에 읽은 책",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/65",
-    "pubDate": "Sat, 05 Sep 2026 02:37:48 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "돈에 대한 불안이 사라지는 ‘월급날 30분 루틴’은?",
-    "description": "필수 계좌 3가지, 월급날 루틴, 자산배분으로 인생 후반부 자산 우상향시키는 법",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/findyoursafezone-2a",
-    "pubDate": "Mon, 31 Aug 2026 12:07:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "The Grails Plugin Has a New Home: Apache Grails",
-    "description": "The Grails plugin for IntelliJ IDEA (which provides framework-aware coding assistance, GSP tooling, and GORM integration) has moved to the Apache Grails project. The Apache Software Foundation (ASF), which already stewards the Grails framework, now owns the plugin’s source code, which lives in its new GitHub repository. On JetBrains Marketplace, the plugin is listed as […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/09/the-grails-plugin-has-a-new-home-apache-grails/",
-    "pubDate": "Tue, 01 Sep 2026 12:02:33 +0000",
-    "creator": "Andrey Belyaev",
-    "categories": [
-      "news",
-      "apache-grails",
-      "grails",
-      "plugin"
     ]
   }
 ]
