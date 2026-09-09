@@ -16,33 +16,6 @@
   {
     "id": 2,
     "imageUrl": "",
-    "title": "IntelliJ IDEA 2026.2.2 Is Out!",
-    "description": "IntelliJ IDEA 2026.2.2 is now available. You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. IntelliJ IDEA 2026.2.2 brings the following refinements: To see the full list of issues addressed in this version, please […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-2/",
-    "pubDate": "Wed, 02 Sep 2026 19:22:08 +0000",
-    "creator": "Maria Kosukhina",
-    "categories": [
-      "releases",
-      "bug-fix-update"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "토스에 입사하고 든 10가지 생각 ",
-    "description": "내 일의 주도권을 찾아 자립하는 90일의 기록",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/findyoursafezone-2b",
-    "pubDate": "Mon, 07 Sep 2026 08:35:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
     "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
     "description": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integrating two layers:  A structured, auditable knowledge architecture separates what [...]\nRead More...\nThe post An Organizational Second Brain: Building an AI That Learns From Experts appeared first on Engineering at Meta.",
     "reviews": [],
@@ -57,21 +30,7 @@
     ]
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Kotlin 2.4.20 Released",
-    "description": "The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To update to the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-2-4-20-released/",
-    "pubDate": "Mon, 07 Sep 2026 11:30:57 +0000",
-    "creator": "Daniel Csorba",
-    "categories": [
-      "releases"
-    ]
-  },
-  {
-    "id": 6,
+    "id": 3,
     "imageUrl": "",
     "title": "악역영애 4컷 만화 - 64화, 애미과거데스와",
     "description": "No description available",
@@ -85,49 +44,135 @@
     ]
   },
   {
-    "id": 7,
+    "id": 4,
     "imageUrl": "",
-    "title": "GPT-6 Astra 공개, AGI라는 말이 나올 만큼 달라진 점 - OpenAI가 공개한 GPT-6 Astra의 성능, 제한적 출시, 가격, 보안 위험, 그리고 유튜브 영상 댓글 반응까지 확인된 내용과 해석을 나눠 정리했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 OpenAI의 GPT-6 Astra입니다. 이름부터 세게 나왔고, OpenAI도 이 모델을 매우 강하게 포지셔닝하고 있어요. 다만 제가 확인한 내용부터 보면, Astra가 곧바로 모두가 합의한 ‘진짜 AGI’라는 뜻은 아닙니다. OpenAI 발표와 일부 임원 발언에서는 AGI 시대의 시작처럼 표현됐지만, 그 판단은 아직 사용자와 업계의 검증을 거쳐야 하는 단계에 가까워요.제한적으로 먼저 풀리는 GPT-6 AstraOpenAI 공식 발표에 따르면 Astra는 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무에서 최상위 성능을 목표로 한 모델입니다. 지금은 먼저 제한된 조직에 제공되고, 이후 ChatGPT Plus, Pro, Business, Enterprise, OpenAI API, Microsoft Azure, AWS Bedrock 쪽으로 확대되는 흐름이에요. 그래서 당장 모든 사람이 같은 방식으로 써볼 수 있는 상황은 아닙니다.벤치마크 숫자가 크게 튄 이유눈에 띄는 건 벤치마크입니다. OpenAI는 Astra가 FrontierMath Tier 4에서 98%, ARC-AGI-3에서 99.9%, ExploitBench에서 100%를 기록했다고 밝혔어요. 수치만 보면 기대감이 커질 수밖에 없습니다. 특히 ARC-AGI-3 99.9%는 AGI 이야기가 붙기 쉬운 숫자죠. 다만 이 수치는 OpenAI가 공개한 평가 결과라는 점도 같이 봐야 합니다. 실제 사용에서 얼마나 안정적으로 이어지는지는 써봐야 감이 옵니다.문서, 코딩, 화면 조작 쪽 기대감제가 특히 기대하는 지점은 단순 답변보다 작업물 품질입니다. 기판 설계처럼 보이는 작업, 엑셀 처리, PPT 스타일 맞추기, 문서 스타일링, 게임 개발, 3D 작업 예시가 함께 언급됐어요. 개발자가 아닌 분들은 코드 성능보다 문서나 발표 자료를 얼마나 그럴듯하게 만들어 주는지가 더 크게 와닿을 수 있습니다. 개발 쪽에서는 코딩 성능도 최상급이라고 소개됐고, UI가 중간에 사용자에게 다시 물어보는 방식으로 더 인터랙티브해진 점도 흥미로웠어요.가격과 보안은 같이 봐야 합니다가격은 가볍지 않습니다. OpenAI API 기준으로 gpt-6-astra의 Standard 가격은 입력 100만 토큰당 10달러, 출력 100만 토큰당 50달러로 공개됐습니다. 컨텍스트 창은 1,050,000토큰, 최대 출력은 128,000토큰까지 지원한다고 되어 있어요. 성능이 좋으면 비용이 올라가는 건 납득할 수 있지만, 실제 업무에서 계속 쓰기에는 비용 대비 결과물을 꼭 봐야 합니다.보안 쪽도 중요합니다. OpenAI 안전성 개요에서는 Astra가 Preparedness Framework 기준 사이버보안 역량에서 Critical 수준에 도달한 첫 모델이라고 설명합니다. 도구와 접근 권한이 주어지면 알려지지 않은 보안 결함을 찾고 exploit을 만들 수 있다고도 밝혔어요. 그래서 OpenAI는 격리, 체크포인트 암호화, 전체 작업 경로 모니터링 같은 보호 장치를 강화했다고 설명합니다.시청자 반응은 기대와 의심이 같이 나왔습니다유튜브 영상 댓글을 보면 매일 리셋권을 준다는 소식에 반응한 분들이 많았고, 토큰을 더 여유 있게 쓸 수 있겠다는 기대도 보였어요. 반대로 벤치마크를 그대로 믿기보다는 실제 사용감이 중요하다는 의견, AGI라는 표현은 아직 과하다는 의견도 있었습니다. 디자인 품질과 이미지·사물 인식 개선을 바라는 반응도 눈에 띄었고요.참고 자료이번 글은 OpenAI의 GPT-6 Astra 공식 발표, GPT-6 Astra 안전성 개요, OpenAI API 모델 문서, 그리고 제가 정리한 원본 쇼츠를 바탕으로 작성했어요.",
+    "title": "Learning to Code in the Age of AI: Advice From a Top Udemy Instructor",
+    "description": "What should a beginner developer learn in order to keep up in the AI era? This is one of the most debated questions in tech right now. We got in touch with Ardit Sulce, a Python educator with over 650,000 students on Udemy, and talked about the value of struggling when learning something new, the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a9c1d786f0d5875ca8d8f2a",
-    "pubDate": "Sat, 05 Sep 2026 13:47:37 GMT",
+    "link": "https://blog.jetbrains.com/education/2026/09/03/learning-to-code-in-the-age-of-ai-advice-from-a-top-udemy-instructor/",
+    "pubDate": "Thu, 03 Sep 2026 10:45:55 +0000",
+    "creator": "Regina Muradova",
+    "categories": [
+      "interviews",
+      "jetbrains-academy",
+      "ardit-sulce",
+      "educator",
+      "jetbrains",
+      "junior-developer",
+      "learn-programming",
+      "online-courses",
+      "teach-programming",
+      "udemy"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "좋은 VC가 되는 방법",
+    "description": "요새 학생 또는 사회초년생을 만나면 이들이 VC라는 업에 관심이 상당히 많다는 것을 체감할 수 있다. 나의 20대, 또는 30대 초반을 기억해 보면 당시엔 투자가 뭔지도 잘 몰랐고 VC라는 업 자체가 너무 생소해서 이런 직업이 있는지도 몰랐는데, 요즘 젊은 분들과 만나서 이야기해 보면 가끔은 VC 업에 종사하는 나보다 이 직종에 대해서 더 잘 알고 있다는 느낌을(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/09/how-to-become-a-good-vc.html",
+    "pubDate": "Wed, 02 Sep 2026 21:28:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "general",
+      "vc"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "휴직 일기 - 6일 차 - 자연 노출을 통한 회복",
+    "description": "토요일이나 오후에는 충분히 휴식을 취하고자 했다. 아내와 좋은 카페에서 수다를 떨까 했는데 강아지가 같이 나가겠다고 보채는 바람에 오후 외출을 방식을 바꾸었다. 공원에 가서 캠핑 의자를 설치하고 오늘의 날씨를 즐기기로 했다. 오늘은 유난히 바람이 좋아서 선선한 날씨를 즐길 수 있을 것 같았다. 아파트가 호수공원과 연결되어 있고 나무 데크가 깔려 있어서 경치",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/66",
+    "pubDate": "Sat, 05 Sep 2026 14:02:57 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Stop alt-tabbing into the wrong Visual Studio",
+    "description": "A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start typing, and realize thirty […]\nThe post Stop alt-tabbing into the wrong Visual Studio appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio/",
+    "pubDate": "Wed, 02 Sep 2026 14:00:12 +0000",
+    "creator": "Mads Kristensen",
+    "categories": [
+      "Accessibility",
+      "Customization",
+      "themes"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "dotInsights | September 2026",
+    "description": "Did you know? Fun fact: The C# compiler (Roslyn) is open source and written in C#. It exposes APIs to analyze and generate code.  Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. ☕ Coffee Break Take […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/09/08/dotinsights-september-2026/",
+    "pubDate": "Tue, 08 Sep 2026 14:16:12 +0000",
+    "creator": "Rachel Appel",
+    "categories": [
+      "net-tools",
+      "dotinsights"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "낮에는 선거, 밤에는 전투! 어노말리 프레지던트",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2492",
+    "pubDate": "Fri, 04 Sep 2026 21:41:33 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Debug Past an HTTP 403 Without Breaking Spring Security",
+    "description": "You set a breakpoint inside a Spring MVC controller, or a service, send the request to an HTTP endpoint, and nothing happens. The response is back – and it is a 403 (or 401, or a redirect to a login page). At that point, the bug you were trying to catch is no longer the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/09/debug-past-an-http-403-without-breaking-spring-security/",
+    "pubDate": "Tue, 08 Sep 2026 12:34:18 +0000",
+    "creator": "Andrey Belyaev",
+    "categories": [
+      "features",
+      "tutorials",
+      "debug",
+      "spring",
+      "spring-debugger"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "OpenAI가 Cursor와의 모델 공급 계약을 끝내려는 이유 - OpenAI가 SpaceX에 인수된 Cursor에 대한 모델 공급 계약 종료를 통지했다는 소식입니다. 적용 제안일은 2026년 11월 12일이고, Cursor 쪽 OpenAI 모델 사용 비중은 약 5%라는 주장도 함께 나왔습니다. 다만 이것을 곧바로 Cursor에서 OpenAI 모델을 전부 못 쓴다는 뜻으로 단정하면 과장될 수 있어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Cursor에서 OpenAI 모델 제공이 끊길 수 있다는 소식이에요. 표현을 조금 정확히 잡아야 합니다. OpenAI가 밝힌 내용은 Cursor에 대한 모델 공급 계약 종료를 통지했고, 제안된 차단일이 2026년 11월 12일이라는 점이에요.OpenAI가 SpaceX 소유 Cursor와의 모델 공급 계약 종료를 통지했다는 소식 요약OpenAI의 공식 발표를 보면 이유도 꽤 분명합니다. Cursor가 SpaceX에 인수되면서 지배권 변경이 발생했고, 그 과정에서 계약상 취소할 수 있는 창구가 열렸다고 설명했어요. OpenAI는 SpaceX가 OpenAI 기술을 약관 안에서 사용할지 확신할 수 없다는 취지로 말했습니다. 특히 앞으로의 모델, 예를 들면 Astra 같은 모델도 Cursor에 제공하지 않겠다고 밝혔습니다.여기서 배경이 되는 사건은 Cursor의 SpaceX 편입이에요. Cursor는 공식 블로그에서 2026년 8월 14일 SpaceX의 일부가 됐다고 발표했습니다. 더 큰 GPU 자원에 접근해서 자체 모델을 더 강하고 저렴하게 만들겠다는 설명도 붙였고요. SpaceX의 SEC 공시에는 2026년 4월 Cursor를 인수할 수 있는 옵션 계약을 맺었고, 6월에 옵션을 행사해 합병 계약을 체결했다는 내용이 나옵니다. Cursor의 내재 지분가치는 600억 달러로 적혀 있습니다.다만 실제 사용자 영향은 조금 더 차분히 봐야 해요. The Information 보도에서는 Cursor 공동창업자 Michael Truell이 OpenAI 모델이 Cursor 사용자 트래픽의 약 5%라고 말했다고 전했습니다. X 미러에 올라온 게시물도 같은 취지로, OpenAI와 해결 방안을 논의 중이라는 주장을 담고 있습니다.적용 제안일은 2026년 11월 12일, Cursor 사용자 영향은 사용 모델에 따라 달라질 수 있음개발자 입장에서 불편한 지점은 분명합니다. 도구를 고를 때 모델 성능만 보면 됐던 시기가 점점 지나가고 있어요. 특정 모델에 깊게 의존하면, 그 모델을 가진 회사의 계약 판단이나 경쟁 관계에 영향을 받을 수 있습니다. Cursor를 OpenAI 모델 중심으로 써온 사람이라면 2026년 11월 12일이라는 날짜를 기준으로 대안을 생각해 둬야 합니다. 반대로 Cursor 자체 모델이나 다른 모델을 주로 쓰던 사람이라면 당장 체감은 크지 않을 수도 있어요.AI 회사들의 경쟁은 기술 발전을 빠르게 만들기도 하지만, 사용자가 선택할 수 있는 조합을 좁히는 방향으로도 작동합니다. 이번 일도 단순한 기능 변경이라기보다는 OpenAI, SpaceX, Cursor 사이의 신뢰와 계약 문제로 보는 편이 정확해요. 저는 앞으로 IDE를 고를 때 모델 품질뿐 아니라 공급 안정성, 대체 모델 지원, 회사 간 관계까지 같이 봐야 한다고 생각합니다.특정 AI 모델에 깊게 의존하면 회사 간 계약과 경쟁 관계에도 영향을 받을 수 있음참고 자료OpenAI의 Cursor 관련 공식 발표Cursor의 SpaceX 합류 공식 발표SpaceX SEC 공시The Information 보도Michael Truell 게시물 미러원본 쇼츠ZeroCho TV 화면에는 OpenAI가 Cursor에 모델 공급 종료를 통지했다는 내용과 관련 참고 자료 목록이 요약돼 있다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6a983502d1f0c2caf78cd6a1",
+    "pubDate": "Wed, 02 Sep 2026 14:38:59 GMT",
     "creator": "ZeroCho",
     "categories": [
       "AI뉴스"
     ]
   },
   {
-    "id": 8,
-    "imageUrl": "",
-    "title": "How to Handle Errors in Go",
-    "description": "This article was initially published by a community contributor, Christoph Berger, in the JetBrains’ Go Guide and has since been moved to the JetBrains Go blog. We have also updated it in August 2026 to reflect the most recent changes to the Go language. Error handling is one of the aspects in which Go differs […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/go/2026/09/02/how-to-handle-errors-in-go/",
-    "pubDate": "Wed, 02 Sep 2026 08:48:31 +0000",
-    "creator": "Dominika Stankiewicz",
-    "categories": [
-      "goland",
-      "error-handling",
-      "tutorials"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "휴직 일기 - 5일 차 - 조금씩 변하는 것들",
-    "description": "오늘은 하루를 일찍 시작했다. 수면제에 적응되었는지 일찍 일어나게 되었다. 하지만 하루종일 하품이 나면서 졸린건 마찬가지였다. 오늘 처방을 받는 날이라 약은 줄였다. 아침은 어제 빌린 책을 읽는 것으로 시작했다. 내가 집중력을 왜 잃어벼렸는지 아주 잘 알 수 있는 내용들이었다. 책 이야기는 다 읽은 다음에 정리해 보려고 한다. 저자가 글을 재미있게 써서 잘",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/64",
-    "pubDate": "Fri, 04 Sep 2026 14:16:25 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 10,
+    "id": 12,
     "imageUrl": "",
     "title": "The Rider 2026.3 Early Access Program Is Open",
     "description": "The first Early Access build for Rider 2026.3 is now available! It includes rainbow brackets, an easier way to set data breakpoints, a new Game Development plugin category, and filters in code completion. You can get the build from our website or through the Toolbox App. Here’s a look at what’s new. Rainbow brackets: You […]",
@@ -148,75 +193,56 @@
     ]
   },
   {
-    "id": 11,
-    "imageUrl": "",
-    "title": "OpenAI가 Cursor와의 모델 공급 계약을 끝내려는 이유 - OpenAI가 SpaceX에 인수된 Cursor에 대한 모델 공급 계약 종료를 통지했다는 소식입니다. 적용 제안일은 2026년 11월 12일이고, Cursor 쪽 OpenAI 모델 사용 비중은 약 5%라는 주장도 함께 나왔습니다. 다만 이것을 곧바로 Cursor에서 OpenAI 모델을 전부 못 쓴다는 뜻으로 단정하면 과장될 수 있어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Cursor에서 OpenAI 모델 제공이 끊길 수 있다는 소식이에요. 표현을 조금 정확히 잡아야 합니다. OpenAI가 밝힌 내용은 Cursor에 대한 모델 공급 계약 종료를 통지했고, 제안된 차단일이 2026년 11월 12일이라는 점이에요.OpenAI가 SpaceX 소유 Cursor와의 모델 공급 계약 종료를 통지했다는 소식 요약OpenAI의 공식 발표를 보면 이유도 꽤 분명합니다. Cursor가 SpaceX에 인수되면서 지배권 변경이 발생했고, 그 과정에서 계약상 취소할 수 있는 창구가 열렸다고 설명했어요. OpenAI는 SpaceX가 OpenAI 기술을 약관 안에서 사용할지 확신할 수 없다는 취지로 말했습니다. 특히 앞으로의 모델, 예를 들면 Astra 같은 모델도 Cursor에 제공하지 않겠다고 밝혔습니다.여기서 배경이 되는 사건은 Cursor의 SpaceX 편입이에요. Cursor는 공식 블로그에서 2026년 8월 14일 SpaceX의 일부가 됐다고 발표했습니다. 더 큰 GPU 자원에 접근해서 자체 모델을 더 강하고 저렴하게 만들겠다는 설명도 붙였고요. SpaceX의 SEC 공시에는 2026년 4월 Cursor를 인수할 수 있는 옵션 계약을 맺었고, 6월에 옵션을 행사해 합병 계약을 체결했다는 내용이 나옵니다. Cursor의 내재 지분가치는 600억 달러로 적혀 있습니다.다만 실제 사용자 영향은 조금 더 차분히 봐야 해요. The Information 보도에서는 Cursor 공동창업자 Michael Truell이 OpenAI 모델이 Cursor 사용자 트래픽의 약 5%라고 말했다고 전했습니다. X 미러에 올라온 게시물도 같은 취지로, OpenAI와 해결 방안을 논의 중이라는 주장을 담고 있습니다.적용 제안일은 2026년 11월 12일, Cursor 사용자 영향은 사용 모델에 따라 달라질 수 있음개발자 입장에서 불편한 지점은 분명합니다. 도구를 고를 때 모델 성능만 보면 됐던 시기가 점점 지나가고 있어요. 특정 모델에 깊게 의존하면, 그 모델을 가진 회사의 계약 판단이나 경쟁 관계에 영향을 받을 수 있습니다. Cursor를 OpenAI 모델 중심으로 써온 사람이라면 2026년 11월 12일이라는 날짜를 기준으로 대안을 생각해 둬야 합니다. 반대로 Cursor 자체 모델이나 다른 모델을 주로 쓰던 사람이라면 당장 체감은 크지 않을 수도 있어요.AI 회사들의 경쟁은 기술 발전을 빠르게 만들기도 하지만, 사용자가 선택할 수 있는 조합을 좁히는 방향으로도 작동합니다. 이번 일도 단순한 기능 변경이라기보다는 OpenAI, SpaceX, Cursor 사이의 신뢰와 계약 문제로 보는 편이 정확해요. 저는 앞으로 IDE를 고를 때 모델 품질뿐 아니라 공급 안정성, 대체 모델 지원, 회사 간 관계까지 같이 봐야 한다고 생각합니다.특정 AI 모델에 깊게 의존하면 회사 간 계약과 경쟁 관계에도 영향을 받을 수 있음참고 자료OpenAI의 Cursor 관련 공식 발표Cursor의 SpaceX 합류 공식 발표SpaceX SEC 공시The Information 보도Michael Truell 게시물 미러원본 쇼츠ZeroCho TV 화면에는 OpenAI가 Cursor에 모델 공급 종료를 통지했다는 내용과 관련 참고 자료 목록이 요약돼 있다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a983502d1f0c2caf78cd6a1",
-    "pubDate": "Wed, 02 Sep 2026 14:38:59 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "The MPS 2026.2 Early Access Program Has Started",
-    "description": "MPS 2026.2 EAP1 offers several improvements to test reporting, enhances grouping of found items, and brings a smoother editing experience and a more maintainable foundation for launching MPS and MPS-based products. This release makes multi-node selection more predictable and aligns the MPS startup configuration more closely with the IntelliJ Platform. DOWNLOAD MPS 2026.2 EAP1 Along […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/mps/2026/09/the-mps-2026-2-eap-has-started-2-2/",
-    "pubDate": "Wed, 02 Sep 2026 14:38:03 +0000",
-    "creator": "Vaclav Pech",
-    "categories": [
-      "releases",
-      "eap",
-      "release"
-    ]
-  },
-  {
     "id": 13,
     "imageUrl": "",
-    "title": "장애 Alert의 원인을 스스로 찾다: SRE Observer 개발기",
-    "description": "들어가며안녕하세요. LINE Plus에서 Home 서비스의 안정성을 책임지고 있는 Home SRE(Site Reliability Engineering) 팀입니다.SRE Observ...",
+    "title": "TypeScript 7 in WebStorm: Faster Coding Assistance for Angular and React, No Migration Required",
+    "description": "TypeScript 7 is a real game-changer, and its new Go-based language engine fundamentally alters how IDEs integrate with TypeScript. And what’s more, WebStorm 2026.2 ships stable support for it, including for Angular and React projects. No migration is required – if your team is locked on an older TypeScript version for infrastructure reasons, your project […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/building-sre-observer-for-alert-root-cause-analysis",
-    "pubDate": "Fri, 04 Sep 2026 01:50:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/webstorm/2026/09/typescript-7-in-webstorm-faster-coding-assistance-for-angular-and-react-no-migration-required/",
+    "pubDate": "Tue, 08 Sep 2026 10:54:49 +0000",
+    "creator": "Piotr Tomiak",
+    "categories": [
+      "angular",
+      "react",
+      "typescript",
+      "vue",
+      "webstorm"
+    ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "낮에는 선거, 밤에는 전투! 어노말리 프레지던트",
-    "description": "No description available",
+    "title": "한국 전도사",
+    "description": "올해도 해외 출장이 꽤 많았는데 8월, 9월과 10월은 다행히도 그냥 한국에서 조용히 집중해서 일하고 있다. 특히 7월 미국 출장이 좀 빡셌는데, 미국 내에서도 이동 거리가 많았고, 만났던 투자자분들의 한국에 대한 관심이 상당히 높아서 최근 한국 시장 소식, 스트롱의 활동, 그리고 왜 한국이 투자 대상으로 계속 좋은 시장인지에 대한 설명과 설득을 많이 했기 때문이다. 정확히 세어(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2492",
-    "pubDate": "Fri, 04 Sep 2026 21:41:33 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://www.thestartupbible.com/2026/09/the-korea-evangelist.html",
+    "pubDate": "Sun, 06 Sep 2026 21:45:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "게임툰"
+      "Uncategorized",
+      "korea",
+      "Strong"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Stop alt-tabbing into the wrong Visual Studio",
-    "description": "A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start typing, and realize thirty […]\nThe post Stop alt-tabbing into the wrong Visual Studio appeared first on Visual Studio Blog.",
+    "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
+    "description": "Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, and more.  Read on for the details, and check the release notes for the full list of changes and bug fixes. Additionally, klibs.io now uses the Kotlin Toolchain […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio/",
-    "pubDate": "Wed, 02 Sep 2026 14:00:12 +0000",
-    "creator": "Mads Kristensen",
+    "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/",
+    "pubDate": "Thu, 03 Sep 2026 10:40:05 +0000",
+    "creator": "Joffrey Bion",
     "categories": [
-      "Accessibility",
-      "Customization",
-      "themes"
+      "kotlin",
+      "multiplatform",
+      "releases",
+      "toolchain",
+      "news",
+      "toolchains"
     ]
   }
 ]
