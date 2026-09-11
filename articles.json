@@ -2,81 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "GPT-6 Astra 24시간 사용감과 개발자 일자리 변화 - GPT-6 Astra를 24시간 써본 체감, 3D·코딩·기획 작업에서의 강점, 토큰 사용량과 디자인 한계, 그리고 개발자 고용에 미칠 영향을 공식 자료와 댓글 반응까지 나눠 정리했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 GPT-6 Astra를 약 24시간 써보며 느낀 점과, 이 변화가 개발자 일에 어떤 압박을 줄 수 있는지예요. 먼저 확인된 사실부터 보면, OpenAI는 2026년 9월 3일 GPT-6 Astra를 발표했고 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무 성능 향상을 내세웠어요.Astra를 써보며 느낀 첫 인상제가 느낀 결론부터 말하면, Astra가 곧바로 AGI처럼 모든 일을 다 잘하는 단계는 아니었어요. 그래도 처음 Claude나 Fable을 접했을 때처럼 “내 말을 꽤 잘 알아듣는다”는 느낌은 분명히 있었고, 특히 Fable보다 더 잘 이해한다고 느껴지는 순간이 있었어요. 반대로 디자인처럼 감각과 기준이 필요한 작업은 아직 레퍼런스나 디자인 시스템을 엄격히 줘야 결과가 안정적이었어요. 그냥 맡기면 불필요한 여백이나 애매한 구성이 남는 경우가 있었거든요.3D와 코딩에서는 체감 차이가 컸어요Astra가 인상적이었던 쪽은 3D 작업이었어요. 무너지는 벽이나 투석기 움직임처럼 장면 안의 물리적인 흐름이 자연스럽게 보이는 예시들이 있었고, 같은 유형의 작업을 Fable 5.1과 비교했을 때 더 매끄럽다고 느꼈어요. Anthropic도 Claude Fable 5.1을 코딩과 지식 작업용 고성능 모델로 소개하고 있지만, 이 영상에서 다룬 체감상 3D 쪽은 Astra가 더 강하게 느껴졌어요. 코딩도 잘하고 계획도 꼼꼼했으며 속도도 빠르게 느껴졌지만, 기본 토큰 소모가 2~3배쯤 커 보인다는 점은 비용과 사용량 면에서 신경 써야 할 부분이에요.일자리는 해고보다 업무 재배치가 먼저 올 수 있어요많은 분들이 “이제 직장인이 대량으로 실직하는 것 아니냐”고 걱정할 수 있어요. 제 생각에는 당장 한국에서 정규직을 대규모로 자르는 그림보다는, 기존 인력에게 Astra 같은 도구를 주고 더 넓은 일을 맡기는 흐름이 먼저 올 가능성이 커 보여요. 프론트엔드 개발자가 프론트만 빨리 끝내면 백엔드나 인프라까지 보게 되는 식이죠. 다만 이건 전망이고, 공식적으로 대량 실직이 확인됐다는 뜻은 아니에요. 실제로 Stanford Digital Economy Lab 연구도 경제 전반의 광범위한 일자리 대체 증거는 찾지 못했다고 보고했어요. 대신 AI 노출 직업에서 22~25세 초기 커리어 고용이 약해진 흐름은 관찰됐다고 해요.신입에게는 더 어려운 시장이에요경력자는 AI를 자신의 경험과 결합해서 생산성을 키울 수 있어요. 반면 신입은 아직 판단 기준과 시행착오가 충분히 쌓이지 않았기 때문에, 단순 구현 능력만으로는 AI와 비교되는 압박을 더 크게 받을 수 있어요. 그래서 지금 회사에 있다면 단순히 작업 속도만 올리는 것보다, 왜 이 선택을 하는지 설명할 수 있는 경험을 쌓는 게 더 중요해져요. 유튜브 영상 댓글에서도 비슷한 반응이 많았어요. “일이 4배가 된다”, “자르지는 않지만 새로 뽑지 않는다”, “신입 채용이 더 힘들다”는 의견이 특히 많이 보였고, 일부는 회사 매출이나 수요가 같이 늘지 않으면 결국 인력 축소 압박이 생길 수 있다고 봤어요. 반면 Astra의 3D와 연구 능력은 좋지만 토큰이 많이 든다는 체감도 함께 나왔어요.참고 자료공식 발표와 성능 주장은 OpenAI의 GPT-6 Astra 발표 자료를 참고했어요. 안전성 관련 내용은 OpenAI의 GPT-6 Astra 안전성 개요를 함께 봤고, Fable 비교 기준은 Anthropic의 Claude Fable 자료를 확인했어요. 고용 영향은 Stanford Digital Economy Lab 연구를 근거로 삼았고, 원본 쇼츠는 GPT-6 Astra 24시간 체험 쇼츠예요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6aa17689fb31e8dc2a7b0ef2",
-    "pubDate": "Wed, 09 Sep 2026 15:08:58 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "클로드 Max 20x 요금제, 이름만 보고 판단하면 안 되는 이유 - Claude Fable 5.1 발표보다 더 크게 번진 Claude Max 5x/20x 사용량 한도 논란을 공식 문서와 커뮤니티 반응으로 나눠 정리했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 Claude Fable 5.1 출시와 함께 묻히기엔 꽤 중요한 Claude Max 요금제 논란이에요. Fable 5.1은 성능이 올라가고 캐시 읽기 가격도 낮아졌습니다. Anthropic 공식 페이지 기준으로 Fable 5.1은 2026년 9월 1일 발표됐고, 캐시 읽기 가격은 100만 토큰당 0.25달러로 Fable 5보다 75% 낮아졌어요. 그래서 일반 워크로드 비용은 약 25%, 고도 에이전트 워크로드는 최대 약 45% 줄어들 수 있다고 설명합니다.Fable 5.1보다 더 커진 요금제 논란그런데 이번에 더 크게 봐야 할 부분은 Max 5x와 Max 20x 이름이 주는 인상이에요. 이름만 보면 Max 5x는 Pro의 5배, Max 20x는 Pro의 20배 사용량을 주는 것처럼 받아들이기 쉽습니다. 저도 처음엔 그렇게 이해할 수밖에 없다고 봤어요. 하지만 Anthropic Help Center의 Max 플랜 설명을 보면 이 배수는 세션당 사용량에 대한 설명이고, 별도의 주간 사용량 한도가 있습니다.이 차이가 중요합니다. 5시간마다 리셋되는 세션 한도에서는 Max 20x가 크게 보이지만, 주간 한도까지 똑같이 Pro의 20배라고 공식 문서가 확인해주지는 않기 때문이에요. 그래서 Max 20x라는 이름을 보고 전체 주간 사용량도 20배라고 기대한 사람들에게는 체감이 완전히 달라질 수 있습니다.9월 14일 25% 증가는 현재 기준으론 감소Claude Code 쪽 발표도 표현을 잘 봐야 합니다. The Mac Observer 보도에 따르면 Anthropic의 ClaudeDevs 계정은 2026년 9월 14일부터 paid plan의 Claude Code 표준 주간 한도를 영구적으로 25% 올린다고 발표했습니다. 말만 보면 사용량이 늘어나는 것처럼 들리죠.다만 현재 임시 50% 증가 프로모션이 적용된 상태라면 계산이 달라집니다. 현재를 150%로 보면 9월 14일 이후 표준 125%로 바뀌는 셈이라, 지금 체감 기준으로는 약 16.7%, 쉽게 말해 약 17% 줄어드는 효과가 납니다. Anthropic이 새 주간 한도의 고정 토큰 수를 공개하지 않았다는 점도 같이 봐야 해요.소송과 커뮤니티 주장은 구분해서 봐야 합니다미국에서 소송이 제기된 사실도 확인됩니다. Justia 사건 기록에 따르면 Kahn v. Anthropic PBC는 2026년 6월 14일 캘리포니아 북부연방지방법원에 접수됐고, 사건번호는 3:2026cv05763입니다. 다만 소송이 제기됐다는 사실과 Anthropic 책임이 확정됐다는 말은 다릅니다. 아직 판결로 확정된 내용은 아니에요.유튜브 영상 댓글 반응은 꽤 날카로웠습니다. Claude를 쓰다가 Codex로 넘어왔다는 의견, 토큰이 너무 빨리 사라진다는 체감, Max 100달러에서 200달러로 올렸는데 기대만큼 늘지 않았다는 경험담이 보였어요. 환불이나 차지백 이야기도 있었지만, 이건 댓글과 커뮤니티 주장으로만 봐야 합니다. Reddit 쪽에서도 사용량 미터 부재와 Max 20x의 체감 가치 하락을 불만으로 말하는 흐름이 있었고, 이 역시 커뮤니티 논의로 구분해야 합니다.요금제 이름보다 실제 한도를 확인하세요이번 논란에서 제가 보고 싶은 부분은 단순히 어느 모델이 더 좋으냐가 아닙니다. AI 구독제는 이름과 배수 표현만 보고 결제하면 기대와 실제 사용량이 어긋날 수 있어요. 특히 코딩처럼 긴 컨텍스트를 자주 쓰는 작업에서는 5시간 한도, 주간 한도, 캐시 비용, 모델별 제한이 실제 체감 비용을 크게 바꿉니다. Max 20x라는 이름이 보이면 먼저 그 20배가 어디에 적용되는지 확인해야 합니다.참고 자료이번 글은 원본 쇼츠, Anthropic의 Max 플랜 도움말, Anthropic의 Claude Fable 5.1 공식 페이지, The Mac Observer 보도, Justia 사건 기록, Reddit 커뮤니티 논의를 바탕으로 정리했습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a99966f7ed695abeef48125",
-    "pubDate": "Thu, 03 Sep 2026 15:46:55 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "작은 걸음이 만드는 커다란 모험, 빅 워크",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2494",
-    "pubDate": "Thu, 10 Sep 2026 05:42:18 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Today I will… find hidden latency across a distributed .NET application",
-    "description": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without revealing the actual bottleneck. This article […]\nThe post Today I will… find hidden latency across a distributed .NET application appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
-    "pubDate": "Tue, 08 Sep 2026 16:00:22 +0000",
-    "creator": "Justin Yoo",
-    "categories": [
-      "Copilot",
-      "GitHub Copilot",
-      "Performance",
-      "Visual Studio",
-      "GitHub Copilot Profiler Agent",
-      "Productivity",
-      "Visual Studio 2026",
-      "Visual Studio Profiler"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "토스에 입사하고 든 10가지 생각 ",
-    "description": "내 일의 주도권을 찾아 자립하는 90일의 기록",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/findyoursafezone-2b",
-    "pubDate": "Mon, 07 Sep 2026 08:35:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
     "title": "Why Rider and ReSharper Were Slow to Start, and How Microsoft Helped Fix the Problem",
     "description": "When we launched ReSharper’s out-of-process (OOP) architecture, users reported slower startup times for IDEs using ReSharper on Windows. After profiling, the cause surprised us: Microsoft Defender was scanning our process for longer than we expected. This post is about what we found, what we learned working with Microsoft, and a tool we built that allows […]",
     "reviews": [],
@@ -97,17 +22,91 @@
     ]
   },
   {
-    "id": 7,
+    "id": 2,
     "imageUrl": "",
-    "title": "낮에는 선거, 밤에는 전투! 어노말리 프레지던트",
-    "description": "No description available",
+    "title": "Java Annotated Monthly – September 2026 ",
+    "description": "This month’s Java Annotated Monthly brings you the latest Java news, a generous dose of AI-focused articles, Kotlin updates, and highlights from a variety of technologies and frameworks, plus plenty more worth adding to your reading list. Our featured writer, Aicha Laafia, takes a closer look at upcoming JEPs and shares her key findings on […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2492",
-    "pubDate": "Fri, 04 Sep 2026 21:41:33 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://blog.jetbrains.com/idea/2026/09/java-annotated-monthly-september-2026/",
+    "pubDate": "Mon, 07 Sep 2026 11:27:14 +0000",
+    "creator": "Irina Mariasova",
+    "categories": []
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "내 말이 커리어의 무기가 되려면",
+    "description": "토스 팟캐스트  토스 광고 사업 헤드가 말하는 ‘내 언어를 무기로 만드는 법’",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/GroundTruth",
+    "pubDate": "Thu, 10 Sep 2026 11:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "휴직 일기 - 7일 차 - 이게 평범한 주말인데",
+    "description": "아침부터 아내가 강아지와 산책을 다녀오더니 오늘 또 달려야 한다고 잠을 깨웠다. 어제 만큼 맑은 날이라 정신을 차리고 나가기로 했다. 여기에 내가 욕심을 더했다. 달리기를 한 후 근력 운동을 하자고 했다. 평일에 크로스핏을 하는데 30대들이랑 하다 보니 체력이 달려서 못 쫓아가는 경우가 있다. 조금이나마 도움이 될까 해서 핵심 운동만 하려고 했다. 혹시 무",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/67",
+    "pubDate": "Sun, 06 Sep 2026 13:22:15 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "MSVC C++23: constexpr cmath with LLVM Libc",
+    "description": "Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is preparing its experimental implementation for the 14.52 build tools (compiler version 19.52)! We are still refining the feature, so expect the dust to settle only when this […]\nThe post MSVC C++23: constexpr cmath with LLVM Libc appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-c23-constexpr-cmath-with-llvm-libc/",
+    "pubDate": "Thu, 10 Sep 2026 21:19:59 +0000",
+    "creator": "Cody Miller",
     "categories": [
-      "게임툰"
+      "C++"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Join our live webinars: Migrating from Atlassian to YouTrack",
+    "description": "Atlassian is discontinuing sales and support for Data Center products. If you’re exploring alternatives, join us for a live session on September 30 to see how Jira-to-YouTrack migration works, including a demo and real customer stories. Register for the worldwide English-language webinar, hosted by the YouTrack team, or attend a regional session in Japanese hosted […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/youtrack/2026/09/migrating-from-atlassian-to-youtrack-webinar/",
+    "pubDate": "Wed, 09 Sep 2026 12:51:07 +0000",
+    "creator": "Elena Pishkova",
+    "categories": [
+      "best-practices",
+      "events",
+      "livestreams",
+      "tutorials",
+      "helpdesk",
+      "knowledge-base",
+      "webinar",
+      "youtrack",
+      "youtrack-server"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "한국 전도사",
+    "description": "올해도 해외 출장이 꽤 많았는데 8월, 9월과 10월은 다행히도 그냥 한국에서 조용히 집중해서 일하고 있다. 특히 7월 미국 출장이 좀 빡셌는데, 미국 내에서도 이동 거리가 많았고, 만났던 투자자분들의 한국에 대한 관심이 상당히 높아서 최근 한국 시장 소식, 스트롱의 활동, 그리고 왜 한국이 투자 대상으로 계속 좋은 시장인지에 대한 설명과 설득을 많이 했기 때문이다. 정확히 세어(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/09/the-korea-evangelist.html",
+    "pubDate": "Sun, 06 Sep 2026 21:45:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "korea",
+      "Strong"
     ]
   },
   {
@@ -125,38 +124,6 @@
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Rust AI in Practice: Building LLM Applications With Rig",
-    "description": "Rust AI is moving from the experimentation stage toward more practical usage. We recently kicked off a new livestream series with the Rust Foundation to explore how Rust and AI are coming together in real-world applications. In the first session, our Developer Advocate Orhun Parmaksız spoke with Stephen Korzeniewski, Lead Maintainer of Rig at 0xPlaygrounds. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/09/09/rust-ai-in-practice/",
-    "pubDate": "Wed, 09 Sep 2026 12:02:05 +0000",
-    "creator": "Irina Mihajlovic",
-    "categories": [
-      "ai",
-      "rustrover",
-      "livestream",
-      "llm-aplications",
-      "rust-ai"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Kotlin 2.4.20 Released",
-    "description": "The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To update to the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-2-4-20-released/",
-    "pubDate": "Mon, 07 Sep 2026 11:30:57 +0000",
-    "creator": "Daniel Csorba",
-    "categories": [
-      "releases"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
     "title": "휴직 일기 - 9일 차 - 산행을 가장한 상담",
     "description": "오늘은 내가 좋아하고 존경하는 분을 만나기로 한 날이다. 서울대공원 둘레길 산행을 같이 하기로 했다. 아침 일찍 서둘러서 복잡한 출근길을 뚫고 서울대공원 주차장에 차를 세웠다. 잠시 후 그분을 만났다. 너무 이른 시간이라 둘레길을 입장할 수 없어서 호수길을 걸어서 둘레길의 반대편으로 갔다. 걷는 시간 동안 이런저런 이야기를 나누었다. 둘레길이 오픈되고 천천",
     "reviews": [],
@@ -167,65 +134,97 @@
     "categories": []
   },
   {
-    "id": 12,
+    "id": 10,
     "imageUrl": "",
-    "title": "GPT-6 Astra 공개, AGI라는 말이 나올 만큼 달라진 점 - OpenAI가 공개한 GPT-6 Astra의 성능, 제한적 출시, 가격, 보안 위험, 그리고 유튜브 영상 댓글 반응까지 확인된 내용과 해석을 나눠 정리했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 OpenAI의 GPT-6 Astra입니다. 이름부터 세게 나왔고, OpenAI도 이 모델을 매우 강하게 포지셔닝하고 있어요. 다만 제가 확인한 내용부터 보면, Astra가 곧바로 모두가 합의한 ‘진짜 AGI’라는 뜻은 아닙니다. OpenAI 발표와 일부 임원 발언에서는 AGI 시대의 시작처럼 표현됐지만, 그 판단은 아직 사용자와 업계의 검증을 거쳐야 하는 단계에 가까워요.제한적으로 먼저 풀리는 GPT-6 AstraOpenAI 공식 발표에 따르면 Astra는 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무에서 최상위 성능을 목표로 한 모델입니다. 지금은 먼저 제한된 조직에 제공되고, 이후 ChatGPT Plus, Pro, Business, Enterprise, OpenAI API, Microsoft Azure, AWS Bedrock 쪽으로 확대되는 흐름이에요. 그래서 당장 모든 사람이 같은 방식으로 써볼 수 있는 상황은 아닙니다.벤치마크 숫자가 크게 튄 이유눈에 띄는 건 벤치마크입니다. OpenAI는 Astra가 FrontierMath Tier 4에서 98%, ARC-AGI-3에서 99.9%, ExploitBench에서 100%를 기록했다고 밝혔어요. 수치만 보면 기대감이 커질 수밖에 없습니다. 특히 ARC-AGI-3 99.9%는 AGI 이야기가 붙기 쉬운 숫자죠. 다만 이 수치는 OpenAI가 공개한 평가 결과라는 점도 같이 봐야 합니다. 실제 사용에서 얼마나 안정적으로 이어지는지는 써봐야 감이 옵니다.문서, 코딩, 화면 조작 쪽 기대감제가 특히 기대하는 지점은 단순 답변보다 작업물 품질입니다. 기판 설계처럼 보이는 작업, 엑셀 처리, PPT 스타일 맞추기, 문서 스타일링, 게임 개발, 3D 작업 예시가 함께 언급됐어요. 개발자가 아닌 분들은 코드 성능보다 문서나 발표 자료를 얼마나 그럴듯하게 만들어 주는지가 더 크게 와닿을 수 있습니다. 개발 쪽에서는 코딩 성능도 최상급이라고 소개됐고, UI가 중간에 사용자에게 다시 물어보는 방식으로 더 인터랙티브해진 점도 흥미로웠어요.가격과 보안은 같이 봐야 합니다가격은 가볍지 않습니다. OpenAI API 기준으로 gpt-6-astra의 Standard 가격은 입력 100만 토큰당 10달러, 출력 100만 토큰당 50달러로 공개됐습니다. 컨텍스트 창은 1,050,000토큰, 최대 출력은 128,000토큰까지 지원한다고 되어 있어요. 성능이 좋으면 비용이 올라가는 건 납득할 수 있지만, 실제 업무에서 계속 쓰기에는 비용 대비 결과물을 꼭 봐야 합니다.보안 쪽도 중요합니다. OpenAI 안전성 개요에서는 Astra가 Preparedness Framework 기준 사이버보안 역량에서 Critical 수준에 도달한 첫 모델이라고 설명합니다. 도구와 접근 권한이 주어지면 알려지지 않은 보안 결함을 찾고 exploit을 만들 수 있다고도 밝혔어요. 그래서 OpenAI는 격리, 체크포인트 암호화, 전체 작업 경로 모니터링 같은 보호 장치를 강화했다고 설명합니다.시청자 반응은 기대와 의심이 같이 나왔습니다유튜브 영상 댓글을 보면 매일 리셋권을 준다는 소식에 반응한 분들이 많았고, 토큰을 더 여유 있게 쓸 수 있겠다는 기대도 보였어요. 반대로 벤치마크를 그대로 믿기보다는 실제 사용감이 중요하다는 의견, AGI라는 표현은 아직 과하다는 의견도 있었습니다. 디자인 품질과 이미지·사물 인식 개선을 바라는 반응도 눈에 띄었고요.참고 자료이번 글은 OpenAI의 GPT-6 Astra 공식 발표, GPT-6 Astra 안전성 개요, OpenAI API 모델 문서, 그리고 제가 정리한 원본 쇼츠를 바탕으로 작성했어요.",
+    "title": "휴직 일기 - 8일 차 - 은퇴라는 삶이란",
+    "description": "아내가 오디세이를 IMAX에서 보고 싶다고 조조영화를 예약해서 아침부터 서둘러 극장에 갔다. 극장은 백화점 꼭대기 층에 있다. 그래서 영화를 보고 난 후 백화점 식당가에서 음식을 포장해 집에 가져와서 먹었다. 보통 음식을 포장하고 커피 한잔을 사면 쉽게 주차비용을 커버한다. 영화시간도 커버해 주니 별생각 없이 나왔다. 그런데 최근 주차 관련 시스템이 변경되",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6a9c1d786f0d5875ca8d8f2a",
-    "pubDate": "Sat, 05 Sep 2026 13:47:37 GMT",
-    "creator": "ZeroCho",
+    "link": "https://brunch.co.kr/@@24SO/68",
+    "pubDate": "Mon, 07 Sep 2026 13:14:05 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "작은 걸음이 만드는 커다란 모험, 빅 워크",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2494",
+    "pubDate": "Thu, 10 Sep 2026 05:42:18 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "AI뉴스"
+      "게임툰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "The Rider 2026.3 Early Access Program Is Open",
+    "description": "The first Early Access build for Rider 2026.3 is now available! It includes rainbow brackets, an easier way to set data breakpoints, a new Game Development plugin category, and filters in code completion. You can get the build from our website or through the Toolbox App. Here’s a look at what’s new. Rainbow brackets: You […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/09/07/rider-2026-3-eap/",
+    "pubDate": "Mon, 07 Sep 2026 09:35:21 +0000",
+    "creator": "Alexander Kurakin",
+    "categories": [
+      "net-tools",
+      "eap",
+      "code-completion",
+      "debugger",
+      "gamedev",
+      "rider",
+      "test-coverage",
+      "unreal-engine"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Second Bet Club",
-    "description": "VC 업계에는 Second Bet Club이라는 말이 있다. 말 그대로 두 번 베팅하는 의미인데, 같은 창업가에게 두 번 투자하는 걸 의미한다. 한 창업가에게 투자했고, 이 분이 재창업했을 때 다시 투자하는 VC도 있지만 생각보다 많지는 않다. 사람을 보고 투자하는 업인데 왜 이런 사례가 더 많지 않을까 항상 궁금했지만, 최근에 우리도 두 번 베팅하는 경험을 여러 번 하면서(...)",
+    "title": "휴직 일기 - 6일 차 - 자연 노출을 통한 회복",
+    "description": "토요일이나 오후에는 충분히 휴식을 취하고자 했다. 아내와 좋은 카페에서 수다를 떨까 했는데 강아지가 같이 나가겠다고 보채는 바람에 오후 외출을 방식을 바꾸었다. 공원에 가서 캠핑 의자를 설치하고 오늘의 날씨를 즐기기로 했다. 오늘은 유난히 바람이 좋아서 선선한 날씨를 즐길 수 있을 것 같았다. 아파트가 호수공원과 연결되어 있고 나무 데크가 깔려 있어서 경치",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/09/second-bet-club.html",
-    "pubDate": "Wed, 09 Sep 2026 21:33:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "exit",
-      "failure",
-      "FoundersAtWork",
-      "inspiring",
-      "people",
-      "Strong"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/66",
+    "pubDate": "Sat, 05 Sep 2026 14:02:57 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "한국 전도사",
-    "description": "올해도 해외 출장이 꽤 많았는데 8월, 9월과 10월은 다행히도 그냥 한국에서 조용히 집중해서 일하고 있다. 특히 7월 미국 출장이 좀 빡셌는데, 미국 내에서도 이동 거리가 많았고, 만났던 투자자분들의 한국에 대한 관심이 상당히 높아서 최근 한국 시장 소식, 스트롱의 활동, 그리고 왜 한국이 투자 대상으로 계속 좋은 시장인지에 대한 설명과 설득을 많이 했기 때문이다. 정확히 세어(...)",
+    "title": "Today I will… find hidden latency across a distributed .NET application",
+    "description": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without revealing the actual bottleneck. This article […]\nThe post Today I will… find hidden latency across a distributed .NET application appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/09/the-korea-evangelist.html",
-    "pubDate": "Sun, 06 Sep 2026 21:45:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
+    "pubDate": "Tue, 08 Sep 2026 16:00:22 +0000",
+    "creator": "Justin Yoo",
     "categories": [
-      "Uncategorized",
-      "korea",
-      "Strong"
+      "Copilot",
+      "GitHub Copilot",
+      "Performance",
+      "Visual Studio",
+      "GitHub Copilot Profiler Agent",
+      "Productivity",
+      "Visual Studio 2026",
+      "Visual Studio Profiler"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "우리가 AI를 통제하고 있다는 착각",
-    "description": "토스 팟캐스트  진화학자 장대익이 그리는 인간과 AI 공생의 길",
+    "title": "[PS] 피바다로도 채울 수 없는, 마블 울버린",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/GroundTruth-4",
-    "pubDate": "Thu, 03 Sep 2026 09:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2495",
+    "pubDate": "Fri, 11 Sep 2026 00:28:18 +0900",
+    "creator": "「RULIWEB」",
+    "categories": [
+      "리뷰"
+    ]
   }
 ]
