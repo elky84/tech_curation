@@ -10,7 +10,7 @@
         "pubDate": "Thu, 10 Sep 2026 21:19:59 +0000",
         "content:encodedSnippet": "Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is preparing its experimental implementation for the 14.52 build tools (compiler version 19.52)! We are still refining the feature, so expect the dust to settle only when this has shipped for production.\nThe feature is enabled with a combination of the /std:c++23 or later and /Zc:cmath compiler options. It is initially shipping as experimental and off by default because our implementation is powered by a new math library at compile-time and runtime, which can change performance and accuracy characteristics for existing programs. Our aim is to collect user feedback before making decisions about default behaviors, so please try the feature and give us feedback on Visual Studio Developer Community.\nWe’re publishing an accompanying series of blog posts to explain why we opted for a new math library, what the new math library has to offer users, and an explanation of what we did to implement the feature in the compiler, starting with this post!\nToday’s Situation\nSince 2015, the math functions in cmath and cstdlib are supplied by the C runtime via math.h and stdlib.h, which Microsoft ships as part of the Universal C Runtime (UCRT). The UCRT is maintained and deployed by the Windows operating system (OS) team, rather than the C++ tools team. This allows stable portions of the C runtime to be serviced in-place with OS updates, while portions tied to the toolset are shipped with the C++ build tools. Thanks to the immortal nature of the C++ Team Blog, you can travel back to 2015 and read Introducing the Universal CRT for more information on this CRT restructuring.\nIn the modern day, the UCRT math functions have known mathematical inaccuracies. See Accuracy of Mathematical Functions in Single, Double, Double Extended, and Quadruple Precision by Gladman, et al. for more info (it’s hot off the press). These inaccuracies stem from implementations that are quite old, dating to times when accuracy was often computationally infeasible. These implementations today are infrequently changed to maintain backwards compatibility, though they do receive occasional accuracy updates by the OS group.\nInaccurate but changing math functions that are deployed by the OS result in mathematical computations that depend on the OS version and hardware architecture on which they are executed. OS upgrades or porting a program to another architecture (such as x64 to arm64) can quietly and surprisingly impact the results of some UCRT math functions.\nWhy a New Math Library\nThis situation seemed untenable to us in C++23 because compile-time evaluation of math functions can become part of an application binary interface (ABI) in surprising ways, such as being supplied as an argument to a template. After much discussion, we narrowed on criteria that we found customers care about:\nAccuracy. Numerical results are as mathematically accurate as possible.\nStability. Numerical results do not change over time due to implementation changes.\nConsistency. Numerical results do not change based on where they are executed.\nPerformance. Numbers go brrr.\nThe UCRT failed to meet these lofty requirements, so we sought alternatives. We first entertained authoring a new library ourselves but quickly realized that would require years of monk-like study. We instead turned to the open-source community, focusing exclusively on solving the compile-time portion of C++23’s cmath feature (and thereby leaving the runtime execution to the UCRT) because we felt that delivering accuracy at runtime would still be computationally infeasible.\nWe found that the LLVM C Library had already made incredible progress tackling the math portions of the C runtime. The project upholds accuracy as the primary goal, aiming for correct rounding in all rounding modes, with Gladman, et al. confirming the project’s success. By targeting mathematical accuracy, the library effectively codifies a stable interface that allows for implementation flexibility and optimization. The library is actively maintained and has a healthy community supporting it.\nPeeking into the code showed a cogent, composable codebase that could easily be adapted to build with MSVC. Once we did, we were pleasantly surprised that the performance numbers often rivaled those of the UCRT. This made shipping the library for use at compile-time and runtime viable. This enables us to offer our users consistent, stable, accurate, and performant mathematical results everywhere their programs run.\nWhat’s Next\nWe believe that mathematical accuracy in floating-point libraries is an idea whose time has come. We are sure libc gives us the means to offer a stable ground for our users to build upon, but feedback is key for us in deciding how and when to roll the feature out. Please try the experimental implementation by adding /Zc:cmath to your build and reporting any issues you find to us on Visual Studio Developer Community. It is intended to be usable independently of /std:c++23 to enable the new runtime, though compile-time evaluation is only available in C++23. Support down-level has not yet shipped but has been merged internally. See microsoft/STL#6425 for more information.\nBuilding and integrating LLVM libc into the toolset has been the lion’s share of this feature. Because we’ve done that work for C++23, C++26 can build upon that base without upheaval. LLVM libc has not yet implemented all of the functions that became constexpr in C++26, but we have already added support for the functions that are ready (such as sin, cos, tan, and pow). We’re keeping an eye on those that aren’t yet (such as lgamma).\nWe aimed to keep this post relatively short, but we have some upcoming blog posts discussing details of this feature. The first is a guest post authored by libc maintainers that digs into the incredible research and engineering that has gone into producing libc. The second is a post that explains some of the tricks we pulled in the C++ build tools to ship the feature.\nStay tuned!\nCody Miller\nMicrosoft C++ Compiler Frontend Engineer\n \nThe post MSVC C++23: constexpr cmath with LLVM Libc appeared first on C++ Team Blog.",
         "dc:creator": "Cody Miller",
-        "comments": "https://devblogs.microsoft.com/cppblog/msvc-c23-constexpr-cmath-with-llvm-libc/#respond",
+        "comments": "https://devblogs.microsoft.com/cppblog/msvc-c23-constexpr-cmath-with-llvm-libc/#comments",
         "content": "<p>Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is preparing its experimental implementation for the 14.52 build tools (compiler version 19.52)! We are still refining the feature, so expect the dust to settle only when this [&#8230;]</p>\n<p>The post <a href=\"https://devblogs.microsoft.com/cppblog/msvc-c23-constexpr-cmath-with-llvm-libc/\">MSVC C++23: constexpr cmath with LLVM Libc</a> appeared first on <a href=\"https://devblogs.microsoft.com/cppblog\">C++ Team Blog</a>.</p>\n",
         "contentSnippet": "Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is preparing its experimental implementation for the 14.52 build tools (compiler version 19.52)! We are still refining the feature, so expect the dust to settle only when this […]\nThe post MSVC C++23: constexpr cmath with LLVM Libc appeared first on C++ Team Blog.",
         "guid": "https://devblogs.microsoft.com/cppblog/?p=36865",
@@ -448,6 +448,17 @@
     "posts": [
       {
         "creator": "고종범",
+        "title": "휴직 일기 - 12일 차 - 이제 좀 쉬는 방법을 알게 되는 걸까?",
+        "link": "https://brunch.co.kr/@@24SO/71",
+        "pubDate": "Fri, 11 Sep 2026 14:44:14 GMT",
+        "author": "고종범",
+        "content": "아침 일찍 일어나 지는 것은 어쩔 수 없다. 새벽이면 잠을 깬다. 그래도 수면이 부족하다는 생각은 아니다. 필요하면 낮잠을 자면 되니까. 수면이란 것이 중요한데 문제가 많은 현대인들이 많다. 나조차 언젠가부터 스트레스로 인해 적절한 시간을 잘 수 없게 되면서 많은 것들에 문제가 생겼다. 인지 능력의 저하, 집중력과 기억력의 저하, 만성 피로 그리고 그로 인",
+        "contentSnippet": "아침 일찍 일어나 지는 것은 어쩔 수 없다. 새벽이면 잠을 깬다. 그래도 수면이 부족하다는 생각은 아니다. 필요하면 낮잠을 자면 되니까. 수면이란 것이 중요한데 문제가 많은 현대인들이 많다. 나조차 언젠가부터 스트레스로 인해 적절한 시간을 잘 수 없게 되면서 많은 것들에 문제가 생겼다. 인지 능력의 저하, 집중력과 기억력의 저하, 만성 피로 그리고 그로 인",
+        "guid": "https://brunch.co.kr/@@24SO/71",
+        "isoDate": "2026-09-11T14:44:14.000Z"
+      },
+      {
+        "creator": "고종범",
         "title": "휴직 일기 - 11일 차 - 10일을 소진후",
         "link": "https://brunch.co.kr/@@24SO/70",
         "pubDate": "Thu, 10 Sep 2026 13:45:32 GMT",
@@ -511,17 +522,6 @@
         "contentSnippet": "오늘부터는 글을 쓰는 방식을 바꿔보기로 했다. 지난번 만들어 놓은 음성인식 앱을 이용해서 녹음을 하여 말로 먼저 풀어놓고, 그 말을 초벌로 AI의 도움을 받아 다듬은 다음 다시 내가 직접 수정을 더해서 글로 만드는 방식이다. 전체적인 내용은 나의 생각이고 내가 발언한 것을 기준으로 하지만 AI 가 새롭게 덧댄 부분은 별도 표기해 놓는다.  아침에 읽은 책",
         "guid": "https://brunch.co.kr/@@24SO/65",
         "isoDate": "2026-09-05T02:37:48.000Z"
-      },
-      {
-        "creator": "고종범",
-        "title": "휴직 일기 - 5일 차 - 조금씩 변하는 것들",
-        "link": "https://brunch.co.kr/@@24SO/64",
-        "pubDate": "Fri, 04 Sep 2026 14:16:25 GMT",
-        "author": "고종범",
-        "content": "오늘은 하루를 일찍 시작했다. 수면제에 적응되었는지 일찍 일어나게 되었다. 하지만 하루종일 하품이 나면서 졸린건 마찬가지였다. 오늘 처방을 받는 날이라 약은 줄였다. 아침은 어제 빌린 책을 읽는 것으로 시작했다. 내가 집중력을 왜 잃어벼렸는지 아주 잘 알 수 있는 내용들이었다. 책 이야기는 다 읽은 다음에 정리해 보려고 한다. 저자가 글을 재미있게 써서 잘",
-        "contentSnippet": "오늘은 하루를 일찍 시작했다. 수면제에 적응되었는지 일찍 일어나게 되었다. 하지만 하루종일 하품이 나면서 졸린건 마찬가지였다. 오늘 처방을 받는 날이라 약은 줄였다. 아침은 어제 빌린 책을 읽는 것으로 시작했다. 내가 집중력을 왜 잃어벼렸는지 아주 잘 알 수 있는 내용들이었다. 책 이야기는 다 읽은 다음에 정리해 보려고 한다. 저자가 글을 재미있게 써서 잘",
-        "guid": "https://brunch.co.kr/@@24SO/64",
-        "isoDate": "2026-09-04T14:16:25.000Z"
       }
     ]
   },
@@ -705,6 +705,19 @@
     "category": "게임",
     "posts": [
       {
+        "creator": "［RULIWEB］",
+        "title": "[MULTI] 돌아온 일섬의 찰진 손맛과 불꽃 튀는 검극, 귀무자 : 검의 길",
+        "link": "https://bbs.ruliweb.com/news/board/11/read/2496",
+        "pubDate": "Fri, 11 Sep 2026 20:52:57 +0900",
+        "author": "［RULIWEB］",
+        "content": "<img width=\"236\" height=\"177\" src=\"https://i3.ruliweb.com/thumb/26/09/11/1a0904fd37f5104c1.webp\">",
+        "contentSnippet": "",
+        "categories": [
+          "리뷰"
+        ],
+        "isoDate": "2026-09-11T11:52:57.000Z"
+      },
+      {
         "creator": "「RULIWEB」",
         "title": "[PS] 피바다로도 채울 수 없는, 마블 울버린",
         "link": "https://bbs.ruliweb.com/news/board/11/read/2495",
@@ -742,19 +755,6 @@
           "웹툰"
         ],
         "isoDate": "2026-09-09T13:04:27.000Z"
-      },
-      {
-        "creator": "｜RULIWEB｜",
-        "title": "낮에는 선거, 밤에는 전투! 어노말리 프레지던트",
-        "link": "https://bbs.ruliweb.com/news/board/11/read/2492",
-        "pubDate": "Fri, 04 Sep 2026 21:41:33 +0900",
-        "author": "｜RULIWEB｜",
-        "content": "<img width=\"236\" height=\"177\" src=\"https://i1.ruliweb.com/thumb/26/09/04/1a06c6256cf51ad6b.webp\">",
-        "contentSnippet": "",
-        "categories": [
-          "게임툰"
-        ],
-        "isoDate": "2026-09-04T12:41:33.000Z"
       }
     ]
   },

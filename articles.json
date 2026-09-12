@@ -2,198 +2,47 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Why Rider and ReSharper Were Slow to Start, and How Microsoft Helped Fix the Problem",
-    "description": "When we launched ReSharper’s out-of-process (OOP) architecture, users reported slower startup times for IDEs using ReSharper on Windows. After profiling, the cause surprised us: Microsoft Defender was scanning our process for longer than we expected. This post is about what we found, what we learned working with Microsoft, and a tool we built that allows […]",
+    "title": "MSVC Build Tools Preview updates – September 2026",
+    "description": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers updates from the past month, currently targeting the v14.52 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Although you can acquire the MSVC Build Tools Preview […]\nThe post MSVC Build Tools Preview updates – September 2026 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/09/09/why-rider-and-resharper-were-slow-to-start-and-how-microsoft-helped-fix-the-problem/",
-    "pubDate": "Wed, 09 Sep 2026 16:45:27 +0000",
-    "creator": "Alexander Ulitin",
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-september-2026/",
+    "pubDate": "Wed, 09 Sep 2026 21:26:30 +0000",
+    "creator": "Eric Brumer",
     "categories": [
-      "net-tools",
-      "resharper",
-      "rider",
-      "defender",
-      "microsoft",
-      "oop",
-      "out-of-process",
-      "performance",
-      "resharper_oop"
+      "MSVC"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Java Annotated Monthly – September 2026 ",
-    "description": "This month’s Java Annotated Monthly brings you the latest Java news, a generous dose of AI-focused articles, Kotlin updates, and highlights from a variety of technologies and frameworks, plus plenty more worth adding to your reading list. Our featured writer, Aicha Laafia, takes a closer look at upcoming JEPs and shares her key findings on […]",
+    "title": "악역영애 4컷 만화 - 65화, 경찰인데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/09/java-annotated-monthly-september-2026/",
-    "pubDate": "Mon, 07 Sep 2026 11:27:14 +0000",
-    "creator": "Irina Mariasova",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2493",
+    "pubDate": "Wed, 09 Sep 2026 22:04:27 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "내 말이 커리어의 무기가 되려면",
-    "description": "토스 팟캐스트  토스 광고 사업 헤드가 말하는 ‘내 언어를 무기로 만드는 법’",
+    "title": "GPT-6 Astra 24시간 사용감과 개발자 일자리 변화 - GPT-6 Astra를 24시간 써본 체감, 3D·코딩·기획 작업에서의 강점, 토큰 사용량과 디자인 한계, 그리고 개발자 고용에 미칠 영향을 공식 자료와 댓글 반응까지 나눠 정리했어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 GPT-6 Astra를 약 24시간 써보며 느낀 점과, 이 변화가 개발자 일에 어떤 압박을 줄 수 있는지예요. 먼저 확인된 사실부터 보면, OpenAI는 2026년 9월 3일 GPT-6 Astra를 발표했고 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무 성능 향상을 내세웠어요.Astra를 써보며 느낀 첫 인상제가 느낀 결론부터 말하면, Astra가 곧바로 AGI처럼 모든 일을 다 잘하는 단계는 아니었어요. 그래도 처음 Claude나 Fable을 접했을 때처럼 “내 말을 꽤 잘 알아듣는다”는 느낌은 분명히 있었고, 특히 Fable보다 더 잘 이해한다고 느껴지는 순간이 있었어요. 반대로 디자인처럼 감각과 기준이 필요한 작업은 아직 레퍼런스나 디자인 시스템을 엄격히 줘야 결과가 안정적이었어요. 그냥 맡기면 불필요한 여백이나 애매한 구성이 남는 경우가 있었거든요.3D와 코딩에서는 체감 차이가 컸어요Astra가 인상적이었던 쪽은 3D 작업이었어요. 무너지는 벽이나 투석기 움직임처럼 장면 안의 물리적인 흐름이 자연스럽게 보이는 예시들이 있었고, 같은 유형의 작업을 Fable 5.1과 비교했을 때 더 매끄럽다고 느꼈어요. Anthropic도 Claude Fable 5.1을 코딩과 지식 작업용 고성능 모델로 소개하고 있지만, 이 영상에서 다룬 체감상 3D 쪽은 Astra가 더 강하게 느껴졌어요. 코딩도 잘하고 계획도 꼼꼼했으며 속도도 빠르게 느껴졌지만, 기본 토큰 소모가 2~3배쯤 커 보인다는 점은 비용과 사용량 면에서 신경 써야 할 부분이에요.일자리는 해고보다 업무 재배치가 먼저 올 수 있어요많은 분들이 “이제 직장인이 대량으로 실직하는 것 아니냐”고 걱정할 수 있어요. 제 생각에는 당장 한국에서 정규직을 대규모로 자르는 그림보다는, 기존 인력에게 Astra 같은 도구를 주고 더 넓은 일을 맡기는 흐름이 먼저 올 가능성이 커 보여요. 프론트엔드 개발자가 프론트만 빨리 끝내면 백엔드나 인프라까지 보게 되는 식이죠. 다만 이건 전망이고, 공식적으로 대량 실직이 확인됐다는 뜻은 아니에요. 실제로 Stanford Digital Economy Lab 연구도 경제 전반의 광범위한 일자리 대체 증거는 찾지 못했다고 보고했어요. 대신 AI 노출 직업에서 22~25세 초기 커리어 고용이 약해진 흐름은 관찰됐다고 해요.신입에게는 더 어려운 시장이에요경력자는 AI를 자신의 경험과 결합해서 생산성을 키울 수 있어요. 반면 신입은 아직 판단 기준과 시행착오가 충분히 쌓이지 않았기 때문에, 단순 구현 능력만으로는 AI와 비교되는 압박을 더 크게 받을 수 있어요. 그래서 지금 회사에 있다면 단순히 작업 속도만 올리는 것보다, 왜 이 선택을 하는지 설명할 수 있는 경험을 쌓는 게 더 중요해져요. 유튜브 영상 댓글에서도 비슷한 반응이 많았어요. “일이 4배가 된다”, “자르지는 않지만 새로 뽑지 않는다”, “신입 채용이 더 힘들다”는 의견이 특히 많이 보였고, 일부는 회사 매출이나 수요가 같이 늘지 않으면 결국 인력 축소 압박이 생길 수 있다고 봤어요. 반면 Astra의 3D와 연구 능력은 좋지만 토큰이 많이 든다는 체감도 함께 나왔어요.참고 자료공식 발표와 성능 주장은 OpenAI의 GPT-6 Astra 발표 자료를 참고했어요. 안전성 관련 내용은 OpenAI의 GPT-6 Astra 안전성 개요를 함께 봤고, Fable 비교 기준은 Anthropic의 Claude Fable 자료를 확인했어요. 고용 영향은 Stanford Digital Economy Lab 연구를 근거로 삼았고, 원본 쇼츠는 GPT-6 Astra 24시간 체험 쇼츠예요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/GroundTruth",
-    "pubDate": "Thu, 10 Sep 2026 11:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6aa17689fb31e8dc2a7b0ef2",
+    "pubDate": "Wed, 09 Sep 2026 15:08:58 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "AI뉴스"
+    ]
   },
   {
     "id": 4,
-    "imageUrl": "",
-    "title": "휴직 일기 - 7일 차 - 이게 평범한 주말인데",
-    "description": "아침부터 아내가 강아지와 산책을 다녀오더니 오늘 또 달려야 한다고 잠을 깨웠다. 어제 만큼 맑은 날이라 정신을 차리고 나가기로 했다. 여기에 내가 욕심을 더했다. 달리기를 한 후 근력 운동을 하자고 했다. 평일에 크로스핏을 하는데 30대들이랑 하다 보니 체력이 달려서 못 쫓아가는 경우가 있다. 조금이나마 도움이 될까 해서 핵심 운동만 하려고 했다. 혹시 무",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/67",
-    "pubDate": "Sun, 06 Sep 2026 13:22:15 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "MSVC C++23: constexpr cmath with LLVM Libc",
-    "description": "Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is preparing its experimental implementation for the 14.52 build tools (compiler version 19.52)! We are still refining the feature, so expect the dust to settle only when this […]\nThe post MSVC C++23: constexpr cmath with LLVM Libc appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-c23-constexpr-cmath-with-llvm-libc/",
-    "pubDate": "Thu, 10 Sep 2026 21:19:59 +0000",
-    "creator": "Cody Miller",
-    "categories": [
-      "C++"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Join our live webinars: Migrating from Atlassian to YouTrack",
-    "description": "Atlassian is discontinuing sales and support for Data Center products. If you’re exploring alternatives, join us for a live session on September 30 to see how Jira-to-YouTrack migration works, including a demo and real customer stories. Register for the worldwide English-language webinar, hosted by the YouTrack team, or attend a regional session in Japanese hosted […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/youtrack/2026/09/migrating-from-atlassian-to-youtrack-webinar/",
-    "pubDate": "Wed, 09 Sep 2026 12:51:07 +0000",
-    "creator": "Elena Pishkova",
-    "categories": [
-      "best-practices",
-      "events",
-      "livestreams",
-      "tutorials",
-      "helpdesk",
-      "knowledge-base",
-      "webinar",
-      "youtrack",
-      "youtrack-server"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "한국 전도사",
-    "description": "올해도 해외 출장이 꽤 많았는데 8월, 9월과 10월은 다행히도 그냥 한국에서 조용히 집중해서 일하고 있다. 특히 7월 미국 출장이 좀 빡셌는데, 미국 내에서도 이동 거리가 많았고, 만났던 투자자분들의 한국에 대한 관심이 상당히 높아서 최근 한국 시장 소식, 스트롱의 활동, 그리고 왜 한국이 투자 대상으로 계속 좋은 시장인지에 대한 설명과 설득을 많이 했기 때문이다. 정확히 세어(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/09/the-korea-evangelist.html",
-    "pubDate": "Sun, 06 Sep 2026 21:45:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "korea",
-      "Strong"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "휴직 일기 - 6일 차 아침글 - 집중력을 지킨다는 것",
-    "description": "오늘부터는 글을 쓰는 방식을 바꿔보기로 했다. 지난번 만들어 놓은 음성인식 앱을 이용해서 녹음을 하여 말로 먼저 풀어놓고, 그 말을 초벌로 AI의 도움을 받아 다듬은 다음 다시 내가 직접 수정을 더해서 글로 만드는 방식이다. 전체적인 내용은 나의 생각이고 내가 발언한 것을 기준으로 하지만 AI 가 새롭게 덧댄 부분은 별도 표기해 놓는다.  아침에 읽은 책",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/65",
-    "pubDate": "Sat, 05 Sep 2026 02:37:48 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "휴직 일기 - 9일 차 - 산행을 가장한 상담",
-    "description": "오늘은 내가 좋아하고 존경하는 분을 만나기로 한 날이다. 서울대공원 둘레길 산행을 같이 하기로 했다. 아침 일찍 서둘러서 복잡한 출근길을 뚫고 서울대공원 주차장에 차를 세웠다. 잠시 후 그분을 만났다. 너무 이른 시간이라 둘레길을 입장할 수 없어서 호수길을 걸어서 둘레길의 반대편으로 갔다. 걷는 시간 동안 이런저런 이야기를 나누었다. 둘레길이 오픈되고 천천",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/69",
-    "pubDate": "Tue, 08 Sep 2026 12:25:23 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "휴직 일기 - 8일 차 - 은퇴라는 삶이란",
-    "description": "아내가 오디세이를 IMAX에서 보고 싶다고 조조영화를 예약해서 아침부터 서둘러 극장에 갔다. 극장은 백화점 꼭대기 층에 있다. 그래서 영화를 보고 난 후 백화점 식당가에서 음식을 포장해 집에 가져와서 먹었다. 보통 음식을 포장하고 커피 한잔을 사면 쉽게 주차비용을 커버한다. 영화시간도 커버해 주니 별생각 없이 나왔다. 그런데 최근 주차 관련 시스템이 변경되",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/68",
-    "pubDate": "Mon, 07 Sep 2026 13:14:05 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "작은 걸음이 만드는 커다란 모험, 빅 워크",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2494",
-    "pubDate": "Thu, 10 Sep 2026 05:42:18 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "The Rider 2026.3 Early Access Program Is Open",
-    "description": "The first Early Access build for Rider 2026.3 is now available! It includes rainbow brackets, an easier way to set data breakpoints, a new Game Development plugin category, and filters in code completion. You can get the build from our website or through the Toolbox App. Here’s a look at what’s new. Rainbow brackets: You […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/09/07/rider-2026-3-eap/",
-    "pubDate": "Mon, 07 Sep 2026 09:35:21 +0000",
-    "creator": "Alexander Kurakin",
-    "categories": [
-      "net-tools",
-      "eap",
-      "code-completion",
-      "debugger",
-      "gamedev",
-      "rider",
-      "test-coverage",
-      "unreal-engine"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "휴직 일기 - 6일 차 - 자연 노출을 통한 회복",
-    "description": "토요일이나 오후에는 충분히 휴식을 취하고자 했다. 아내와 좋은 카페에서 수다를 떨까 했는데 강아지가 같이 나가겠다고 보채는 바람에 오후 외출을 방식을 바꾸었다. 공원에 가서 캠핑 의자를 설치하고 오늘의 날씨를 즐기기로 했다. 오늘은 유난히 바람이 좋아서 선선한 날씨를 즐길 수 있을 것 같았다. 아파트가 호수공원과 연결되어 있고 나무 데크가 깔려 있어서 경치",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/66",
-    "pubDate": "Sat, 05 Sep 2026 14:02:57 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 14,
     "imageUrl": "",
     "title": "Today I will… find hidden latency across a distributed .NET application",
     "description": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without revealing the actual bottleneck. This article […]\nThe post Today I will… find hidden latency across a distributed .NET application appeared first on Visual Studio Blog.",
@@ -214,7 +63,19 @@
     ]
   },
   {
-    "id": 15,
+    "id": 5,
+    "imageUrl": "",
+    "title": "휴직 일기 - 9일 차 - 산행을 가장한 상담",
+    "description": "오늘은 내가 좋아하고 존경하는 분을 만나기로 한 날이다. 서울대공원 둘레길 산행을 같이 하기로 했다. 아침 일찍 서둘러서 복잡한 출근길을 뚫고 서울대공원 주차장에 차를 세웠다. 잠시 후 그분을 만났다. 너무 이른 시간이라 둘레길을 입장할 수 없어서 호수길을 걸어서 둘레길의 반대편으로 갔다. 걷는 시간 동안 이런저런 이야기를 나누었다. 둘레길이 오픈되고 천천",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/69",
+    "pubDate": "Tue, 08 Sep 2026 12:25:23 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 6,
     "imageUrl": "",
     "title": "[PS] 피바다로도 채울 수 없는, 마블 울버린",
     "description": "No description available",
@@ -225,6 +86,144 @@
     "creator": "「RULIWEB」",
     "categories": [
       "리뷰"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Kotlin 2.4.20 Released",
+    "description": "The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To update to the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-2-4-20-released/",
+    "pubDate": "Mon, 07 Sep 2026 11:30:57 +0000",
+    "creator": "Daniel Csorba",
+    "categories": [
+      "releases"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "작은 걸음이 만드는 커다란 모험, 빅 워크",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2494",
+    "pubDate": "Thu, 10 Sep 2026 05:42:18 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "AI를 전제로 다시 설계하다, Tech-Verse 2026 참관기",
+    "description": "들어가며안녕하세요. LINE Plus의 LINE VoIP Service Dev 팀에서 서버 개발을 하고 있는 한규범, ABC Studio에서 서버를 개발하고 있는 황건구입니다.저희...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/tech-verse-2026-ai-driven-development-review",
+    "pubDate": "Fri, 11 Sep 2026 01:50:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "OpenClaw 2.0, 개인 비서로 어디까지 맡겨도 될까 - OpenClaw 2.0의 변화, Codex와의 관계, Astra 사용 비용, 개인 AI 비서를 어디에 쓰면 좋은지 정리했어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 OpenClaw 2.0이에요. 제가 설명한 포인트는 단순히 새 UI가 예뻐졌다는 이야기가 아니라, 개인 AI 비서가 이제 훨씬 더 Codex 같은 형태로 가까워졌다는 점이에요.OpenAI 제품은 아니지만 연결은 깊어졌어요먼저 구분해야 할 부분이 있어요. OpenClaw는 공식 소개 기준으로 독립 501(c)(3) 비영리 재단이 관리하는 MIT 라이선스 오픈소스 프로젝트예요. OpenAI가 후원자 중 하나이고, 창작자인 Peter Steinberger가 OpenAI에서 일한다는 점도 공식 FAQ에서 확인됩니다. 다만 OpenAI가 소유하거나 통제하는 제품은 아니라고 명시되어 있어요. 그래서 “사실상 OpenAI가 내놓은 것처럼 보인다”는 체감은 이해되지만, 정확히는 OpenAI와의 접점이 매우 깊어진 독립 프로젝트라고 보는 게 맞아요.2.0에서 UI와 작업 흐름이 크게 바뀌었어요OpenClaw 2.0 릴리스 노트를 보면 v2026.8.1은 설치, 메시징, 메모리, 스킬, 모델, 자동화, 브라우저와 네이티브 앱, 플러그인, 보안까지 손댄 큰 업데이트예요. 새 Web UI는 대화 중심으로 바뀌었고 파일, 승인, 설정, 라이브 작업을 대화 가까이에 둔다고 설명합니다. 제가 봤을 때 프로젝트 선택, 권한, 모델, 엔드포인트를 고르는 화면이 Codex와 매우 비슷하게 느껴지는 이유가 여기에 있어요. 예전에는 개발자용 도구 느낌이 강했는데, 이제는 일반적인 채팅과 반복 작업을 중심으로 쓰기 쉬운 개인 비서 쪽에 더 가까워졌습니다.Codex와 OpenClaw의 역할은 달라요OpenClaw 블로그에 따르면 OpenAI 모델 실행은 기본적으로 Codex app-server harness를 통해 돌아가도록 바뀌었어요. Codex는 저수준 agent loop, thread state, tool continuation, compaction, code mode 같은 부분을 맡고, OpenClaw는 채널, 페르소나, 메모리, 세션, cron, 브라우저, 승인, OpenClaw 도구 같은 제품 레이어를 맡는 구조예요. 그래서 코딩 자체는 Codex나 Claude Code가 더 직접적이고, OpenClaw나 Hermes Agent는 “이 일을 처리해줘”라고 말로 맡기는 반복 업무에 더 잘 맞는다고 설명할 수 있어요.Astra는 강하지만 비용 부담이 커요최근 모델인 GPT-6 Astra를 연결할 수 있느냐는 질문도 있었죠. 조사 패킷의 OpenAI 요금표 기준으로 Astra는 1M 입력 250 credits, 1M 출력 1,250 credits이고 GPT-5.6 Luna는 1M 입력 5 credits, 1M 출력 30 credits예요. 개인 비서는 메모리를 관리하고 반복 작업을 스킬로 바꾸며 백그라운드에서 여러 처리를 하기 때문에, 강한 모델을 무심코 붙이면 비용이 빨리 커질 수 있어요. 그래서 저는 이런 자동화형 비서에는 Luna 정도로도 충분한 경우가 많다고 봐요.시청자 반응은 질문과 농담이 섞였어요유튜브 영상 댓글에서는 OpenAI에 스카웃된 뒤 OpenAI처럼 바뀐 OpenClaw를 여전히 OpenClaw라고 봐야 하느냐는 반응이 있었어요. 개발은 Codex를 쓰는 게 낫냐는 실용적인 질문도 나왔고, Hermes Agent로 옮긴 이유를 썸네일 농담으로 받아치는 댓글도 있었죠. 댓글만 보면 제품 정체성에 대한 궁금증과 실제 사용처에 대한 고민이 같이 나온 셈이에요. 제 기준에서는 개발만 한다면 Codex나 Claude Code를 쓰고, 메일 정리나 반복 업무처럼 말로 맡기는 일은 OpenClaw 계열을 보는 게 더 자연스러워요.참고 자료이번 글은 OpenClaw 2.0 릴리스 노트, OpenClaw 공식 소개, OpenAI 모델 연동 설명, OpenAI 요금표, 그리고 원본 쇼츠를 바탕으로 정리했어요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6aa1895afb31e8dc2a7b4071",
+    "pubDate": "Wed, 09 Sep 2026 16:29:15 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "The Evolution of WSL Support in JetBrains IDEs",
+    "description": "JetBrains IDEs have worked with WSL for many years, and over time, several ways of using it have emerged across our products. Depending on the entry point, the IDE could rely on a different underlying architecture, leading to a different experience. Starting with the 2026.2 release, there is one recommended entry point. In IntelliJ IDEA, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2026/09/the-evolution-of-wsl-support-in-jetbrains-ides/",
+    "pubDate": "Wed, 09 Sep 2026 10:39:49 +0000",
+    "creator": "Kristina Pchelintseva",
+    "categories": [
+      "ecosystem",
+      "engineering",
+      "idea",
+      "intellij-platform",
+      "remote-development",
+      "webstorm",
+      "intellij-idea",
+      "phpstorm",
+      "wsl"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "내 말이 커리어의 무기가 되려면",
+    "description": "토스 팟캐스트  토스 광고 사업 헤드가 말하는 ‘내 언어를 무기로 만드는 법’",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/GroundTruth",
+    "pubDate": "Thu, 10 Sep 2026 11:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Rust AI in Practice: Building LLM Applications With Rig",
+    "description": "Rust AI is moving from the experimentation stage toward more practical usage. We recently kicked off a new livestream series with the Rust Foundation to explore how Rust and AI are coming together in real-world applications. In the first session, our Developer Advocate Orhun Parmaksız spoke with Stephen Korzeniewski, Lead Maintainer of Rig at 0xPlaygrounds. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2026/09/09/rust-ai-in-practice/",
+    "pubDate": "Wed, 09 Sep 2026 12:02:05 +0000",
+    "creator": "Irina Mihajlovic",
+    "categories": [
+      "ai",
+      "rustrover",
+      "livestream",
+      "llm-aplications",
+      "rust-ai"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "휴직 일기 - 6일 차 아침글 - 집중력을 지킨다는 것",
+    "description": "오늘부터는 글을 쓰는 방식을 바꿔보기로 했다. 지난번 만들어 놓은 음성인식 앱을 이용해서 녹음을 하여 말로 먼저 풀어놓고, 그 말을 초벌로 AI의 도움을 받아 다듬은 다음 다시 내가 직접 수정을 더해서 글로 만드는 방식이다. 전체적인 내용은 나의 생각이고 내가 발언한 것을 기준으로 하지만 AI 가 새롭게 덧댄 부분은 별도 표기해 놓는다.  아침에 읽은 책",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/65",
+    "pubDate": "Sat, 05 Sep 2026 02:37:48 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Second Bet Club",
+    "description": "VC 업계에는 Second Bet Club이라는 말이 있다. 말 그대로 두 번 베팅하는 의미인데, 같은 창업가에게 두 번 투자하는 걸 의미한다. 한 창업가에게 투자했고, 이 분이 재창업했을 때 다시 투자하는 VC도 있지만 생각보다 많지는 않다. 사람을 보고 투자하는 업인데 왜 이런 사례가 더 많지 않을까 항상 궁금했지만, 최근에 우리도 두 번 베팅하는 경험을 여러 번 하면서(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/09/second-bet-club.html",
+    "pubDate": "Wed, 09 Sep 2026 21:33:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "exit",
+      "failure",
+      "FoundersAtWork",
+      "inspiring",
+      "people",
+      "Strong"
     ]
   }
 ]
