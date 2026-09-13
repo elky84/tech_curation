@@ -2,19 +2,120 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "MSVC Build Tools Preview updates – September 2026",
-    "description": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers updates from the past month, currently targeting the v14.52 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Although you can acquire the MSVC Build Tools Preview […]\nThe post MSVC Build Tools Preview updates – September 2026 appeared first on C++ Team Blog.",
+    "title": "[PS] 피바다로도 채울 수 없는, 마블 울버린",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-september-2026/",
-    "pubDate": "Wed, 09 Sep 2026 21:26:30 +0000",
-    "creator": "Eric Brumer",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2495",
+    "pubDate": "Fri, 11 Sep 2026 00:28:18 +0900",
+    "creator": "「RULIWEB」",
     "categories": [
-      "MSVC"
+      "리뷰"
     ]
   },
   {
     "id": 2,
+    "imageUrl": "",
+    "title": "Join our live webinars: Migrating from Atlassian to YouTrack",
+    "description": "Atlassian is discontinuing sales and support for Data Center products. If you’re exploring alternatives, join us for a live session on September 30 to see how Jira-to-YouTrack migration works, including a demo and real customer stories. Register for the worldwide English-language webinar, hosted by the YouTrack team, or attend a regional session in Japanese hosted […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/youtrack/2026/09/migrating-from-atlassian-to-youtrack-webinar/",
+    "pubDate": "Wed, 09 Sep 2026 12:51:07 +0000",
+    "creator": "Elena Pishkova",
+    "categories": [
+      "best-practices",
+      "events",
+      "livestreams",
+      "tutorials",
+      "helpdesk",
+      "knowledge-base",
+      "webinar",
+      "youtrack",
+      "youtrack-server"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "토스에 입사하고 든 10가지 생각 ",
+    "description": "내 일의 주도권을 찾아 자립하는 90일의 기록",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/findyoursafezone-2b",
+    "pubDate": "Mon, 07 Sep 2026 08:35:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "MSVC C++23: constexpr cmath with LLVM Libc",
+    "description": "Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is preparing its experimental implementation for the 14.52 build tools (compiler version 19.52)! We are still refining the feature, so expect the dust to settle only when this […]\nThe post MSVC C++23: constexpr cmath with LLVM Libc appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-c23-constexpr-cmath-with-llvm-libc/",
+    "pubDate": "Thu, 10 Sep 2026 21:19:59 +0000",
+    "creator": "Cody Miller",
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "[MULTI] 돌아온 일섬의 찰진 손맛과 불꽃 튀는 검극, 귀무자 : 검의 길",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2496",
+    "pubDate": "Fri, 11 Sep 2026 20:52:57 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "운의 경영학",
+    "description": "일본 드라마 중에 가장 좋아하고 종종 다시 보는 것이 \"중쇄를 찍자\" 이다.  \n주인공이 일 하고 있는 바이브스는 코토칸 이란 출판사의 계열사 잡지이다.\n코토칸 출판사의 사장님은 그 큰 회사의 사장님이지만 검소하게 생활을 한다.\n매일 지하철로 출퇴근을 하고,\n술/담배/도박도 전혀 하지 않고,\n잔돈은 항상 불우 이웃 모금함에 넣고,\n셋방살이를 하면서 최소한의 수준으로 생활 한다.\n주인공은 본인의 사수인 오디기리 죠에게 왜 사장님은 그런 생활을 하는지 물어본다.\n사장님은 모두 운을 모으기 위한 행동이라고 한다.  \n\n자세한건 블로그에 작성해두었다.\n중쇄를 찍자 5회 - 한점 돌파\n일본에는 이런 '운' 도 하나의 '리소스' 처럼 관리하는 콘텐츠가 많은 것 같다.\n\n\"운을 통제한다\" 라는 표현은 나한테는 과하다.\n그래서 중쇄를 찍자의 \"운을 모은다\" 는 표현이 좀 더 마음에 든다.  \n책 속에서 PPIH 그룹의 회장인 야스다 다카오의 '기세'가 느껴졌다.\n이렇게 강한 기세가 느껴지는데, 책 속에서는 권한 이양, 독재 반대 등이 나오니깐 이질감이 느껴지긴 했지만 그럼에도 요즘의 복잡한 마음과 머릿 속을 한번은 정리해주는 책이였다.  \n조직의 분위기, 기세라는 것이 정말 중요하다고 느낀다.  \n요즘은 내부에서 '학습' 이라는 것이 여전히 사람들에겐 필요할까? 라는 주제의 이야기를 많이 한다.\nAI로 인해 누구나 일정 수준 이상의 다양한 분야의 실무 결과물을 낼 수 있는 시대에,\n\"더 나은 사람\" 이 되기 위한 콘텐츠는 더 많은 사람들이 찾게 되는 반면, \"더 나은 직업인\" 이 되기 위한 실무 중심의 콘텐츠들에 대해서는 이젠 배울 동기가 없어지는 시대라고 느껴진다.\n(문학 전문 출판사와 IT 전문 출판사의 매출이나 내부 이야기를 들어보면 극과극이더라)  \n이 책의 이야기에 따르면, 지금은 때가 아닌 것이라고 볼 수 있다.\n근데 잘 될때 충분히 비축한 것이 없는데, 때도 아니라고 하면 그땐 어떻게 하는 것이 좋을까?  \n아마 지금의 스타트업들에선 그런 상황이 많은 것 같다.  \n물론 내가 이 이야기를 하면 야스다 다카오 회장님은 \"이놈! 그런 부정적인 소리나 하니 운이 따라주지 않지!\" 라고 할 것 같다.  \n어찌됐든 요즘은 이 악물고 긍정적인 표현들을 쓴다.\n그런 훈련을 하기에 더할나위 없이 좋은 시기라고 생각해서 일종의 게임처럼 느껴지기도 한다.  \n눈엔 보이지 않지만, 조직의 기세라는 것이 있다.\n그것들을 제대로 터트리려면 어떻게 하는 것이 좋을까? 라는 고민하던 차에 기존에 봐왔던 많은 책들의 내용을 다시 한번 정리해볼 수 있는 좋은 책이었다.\n특히나 OR 보다는 AND라는 이야기는 좋아하는 이와타 사토루 대표님의 이야기 가 다시금 생각났다.  \n이번주 수요일에 기다리고 기다리던 일본 최대 IT 회사인 DeNA의 3천명의 직원들을 AI 네이티브로 전환한 과정을 다룬 DeNA x AI Day 2026 컨퍼런스가 인프런에서 정식 공개 된다.  \n기세를 잘 몰아봐야겠다.\n책 속 문장\n\n'운의 경영', 즉 '중, 장기적 인생의 운 통제'가 대수의 법칙에 기반한 수법이다.\np.45\n\n\n\n모처럼 기회가 왔는데 '적당히' 해서 '배를 70% 채웠다' 또는 '80%나 채웠다' 라고 만족하면 결국 운이 나빠진다.\n얻을 수 있었던 성과를 완벽히 거둬들이지 못했다며 분통을 터뜨릴 줄 아는 사람이 진짜 승부사로서 행운을 얻는다.\np.60\n\n\n\n운이 나쁠 때는 무슨 짓을 해도 십중팔구 헛수고로 끝난다.\n나아가 더 나쁜 일을 불러들이는 불운의 악순환이 시작된다.\n게다가 불운을 이겨내려고 힘을 짜내다보면 다음에 모처럼 행운이 찾아왔을 때 힘을 쓰지 못 할 수 있다.\n...\n행운의 최대화로 성과를 충분히 비축했다면 동굴에 계속 틀어박혀 있어도 식량이 떨어지지 않으니 굳이 위험한 사냥에 나설 필요가 없다.\np.62\n\n\n\n그럼 주식 투자로 돈을 벌려면, 적어도 잃지 않으려면 어떻게 해야 할까?\n일정 수준 이상 손해가 나면 매도한다는 규칙을 미리 정하고 그 규칙을 예외없이 실행하면 된다.\n그렇게 과감히 손절매해서 얻은 자금을 다른 유망 주식에 투자하는 것이 낫다.\np.66\n\n\n\n철수하는 시점을 판단하려면 '어느 수준을 실패로 보느냐' 를 미리 정해두어야 한다.\n...\n\"성공 시나리오를 써놓는 것이 중요하다\" 라고 말하는 사람이 많지만, 성공은 어디까지나 결과에 불과하므로 미리 시나리오를 쓸 필요는 없다.\n오히려 포기의 기준이 되는 '실패 시나리오'를 미리 써두는 것이야말로 성공 비결이다.\np.69\n\n\n\n\"과감한 도전의 기세를 유지하면서도 현실을 직시한 신속한 철수를 두려워하지 말 것.\"\n...\n그래서 나는 '단행숙려'를 지향한다.\n우선 결심하고 실행한 다음에 곰곰이 생각하자는 의미다.\np.85\n\n\n\n상대방과 첫 만남에서 아무리 훌륭하고 매력적이라는 인상을 받아도, 아니 그럴수록 '사람을 과대평가하거나 지나치게 믿으면 안 된다' 라고 마음을 다잡아야 한다.\n이러한 시간 테스트는 짧으면 3~4개월, 길면 1년 정도가 좋다.\n...\n사람은 남의 속을 알 수 없기 때문에 시간 테스트가 필요하다.\n...\n개성이나 직업을 불문하고 어떤 사람을 만나든지 항상 일정하고 적절한 거리를 유지하는 것이 중요하다.\n좋은 운을 유지하려면 꼭 그래야 한다.\n적절한 거리를 유지하며 사람을 사귀는 능력에 비례해 인생이 충실해질 것이다.\np.116\n\n\n\n\"인간관계에서 지녀야 할 마음가짐 세 가지\n첫째, 인간의 질투가 얼마나 무서운지 인식하고 어떻게든 질투의 대상이 되지 않도록 주의해야 한다.\n...\n인생이나 사업에 성공했다고 으스대며 자만하는 사람이 있는데, 이것은 악운을 부르는 최악의 수다.\n세상에는 틈만 나면 남의 발목을 잡으려는 사람들이 득실거린다.\n...\n둘째, 질투를 느끼는 사람은 상대에게 결코 '부럽다' 라고 말하지 않는다.\n그렇게 말하는 순간 진 것 같은 기분이 들기 때문이다.\n그런 의미에서 다른 사람이 나에게 '부럽다' 라고 말할 때 특히 조심해야 한다.\n그 말은 재앙을 불러들이는 저주와도 같다.\n\"나는 성공했다\" 라고 자랑하는 사람치고 그 성공을 오래 유지하는 것을 보지 못했다.\n새삼 질투란 무엇인지 생각해보니 '상대의 실패를 바라는 마음이 극대화된 상태' 라고 할 수 있을 듯 하다.\n...\n마지막으로 내가 가장 싫어해서 스스로에게도 철저히 금지한 '독재'를 간단히 언급하려 한다.\n...\n창업 사장이든 샐러리맨 사장이든 독재를 휘두르며 지위를 누리려 하면 직원이 반드시 불행해진다.\n독재는 공포로 남을 지배하는 가장 평범하고도 안이한 관리법으로, 직원 개개인의 열정을 단숨에 앗아간다.\n그러니 정반대의 길을 선택해야 한다.\np.118\n\n\n\n'흔한 상품으로 폭리를 취하려 하면 당연히 들키겠지만 우리 가게에만 있는 상품이라면 괜찮지 않을까?' 라고 생각하는 사람도 있을 것이다.\n그것도 오산이다.\n반드시 들킨다.\n논리적 증거가 있어서가 아니라 정직하지 않은 기운, 교활한 분위기가 매장을 자욱하게 뒤덮어 결국은 고객이 눈치챌 수 밖에 없다.\n나는 이 사실을 깨닫고 사심 없이 정직하게 장사하기로 마음먹었다.\n'앞으로는 돈(매출과 이익)이 아닌 인기(고객의 지지)를 우선해야겠다' 라고 결심한 것이다.\np.138\n\n\n\n나카노 노부코는 자신의 저서 \"뇌의 어둠\" 에서 '모호함을 허용하는 것이 뇌 과학적으로도 좋다' 라고 말하며 '모호함을 허용하는 겸허함이 없으면 뇌가 착각을 저지른다' 라고 덧붙였다.\np.148\n\n\n\n돈키호테에서도 이 노하우를 활용하려 했지만 번번이 실패했다.\n내가 지향하는 독특한 방식이 유통 상식과 너무 멀어 직원들이 이해하지 못했기 때문이다.\n...\n'대체 어떻게 해야 직원들에게 내 생각을 전달할 수 있을까?'\n당시 돈키호테에는 창업자의 뜻을 실천하는 유능한 사원이 없었다.\n게다가 아무리 가르쳐도 직원들은 내 뜻을 제대로 구현하지 못했다.\n...\n깊이 고민한 끝에 가르쳐도 안 되는 것은 가르치는 행위 자체가 무의미하다는 결론을 내렸다.\np.167\n\n\n\n결국은 확장성이나 경쟁력 중 하나를 선택해야 했다.\n그런에 이때 이런 생각이 떠올랐다.\n'애초에 경쟁력이 있어야 확장성을 노릴 수 있는 게 아닐까?'\n...\n일반적인 소매업체였다면 단순히 확장성을 선택했을 것이다.\n하지만 그러면 운이 확실히 나빠진다.\n경쟁력이라는 최고의 운 요소를 희생했기 때문이다.\n...\n사업에서는 '둘 중 하나를 선택하자' 라는 OR 발상보다 '이것도 잡고 저것도 잡자' 라는 AND 발상을 활용해야 성공할 수 있다.\np.172\n\n\n\n자기만을 내세우며 자신의 성공만 좇으면 어떤 직원도 협력하지 않는다.\n'왜 내가 저 사람의 돈벌이를 도와야 하지?' 라는 마음일 것이다.\n...\n여러 사람이 모인 회사에서는 '나(경영자)의 성공과 행복' 이라는 단수형을 '우리(직원)의 성공과 행복' 이라는 복수형으로 바꾸어야 좋은 운을 끌어당길 수 있다.\np.179\n\n\n\n경영자의 한 걸음보다 직원의 반걸음이 회사에 훨씬 중요하다.\n경영자가 고군분투할 때보다 직원 각자가 열정적으로 일할 때 회사가 몇 배나 발전한다.\np.196\n\n\n\n부하 직원이나 주변 사람들을 '이 사람을 위해서라면 열심히 일해보고 싶다' 라고 생각하게 만드는 사람이 가장 강한 사람이다.\np.197\n\n\n\n직원들의 관점으로 상상력을 발휘해 '어떤 말을 들으면 의욕이 샘솟을까?' 라고 궁리해보자.\n현장 직원들은 \"바쁜 와중에도 정말 고마워요. 앞으로도 여러분과 함께 신나게 일하고 싶습니다\" 라며 진심으로 공감하고 경의를 표할 줄 아는 사람을 따르게 마련이다.\np.200\n\n\n\n경영자의 개별 운을 복수형인 집단 운으로 바꾸는데도 요령이 있다.\n경영자 개인의 욕망과 야심, 지향하는 목표등을 주어 전환을 통해 각각의 직원들에게 알맞은 내용으로 바꾸는 것이다.\n주어를 직원 개개인으로 바꾼 다음에 경영자가 마음속으로 그리는 회사의 방향성이나 전망 등을 '직원들이 들으면 의욕을 느낄 듯한 말'로 바꾸어 제시하면 된다.\n...\n내 뒤를 이을 경영자에게 가장 필요한 능력이 무엇인지 말하겠다.\n그것은 복잡한 현상의 본질을 꿰뚫어 보고 단순화하는 능력,\n다양한 사람을 끌어들여 이해하고 수긍하게 함으로써 의욕을 불러일으키는 능력,\n문제 해결책을 동시/복합적으로 모색할 뿐만 아니라 변화에 제때 대응해 그 해결책을 응용하는 능력이다.\np.201\n\n\n\n'기적의 연쇄'를 일으킨 비결은 일의 게임화, 그리고 그 게임을 모두가 공유하는 것이다.\n일을 게임으로 바꾸는 4대 조건은 다음과 같다.\n명확한 승부: 승부가 뚜렷하지 않으면 게임이 아니다.\n시간제한: 시간이 무제한이면 긴장감이 없다.\n최소한의 규칙: 규칙이 많고 복잡하면 이해하기 어려워서 재미가 없다.\n대폭의 자유재량권: 주변의 간섭만큼 게임의 재미를 앗아가는 것이 없다.\np.204\n\n\n\n어느 정도 경험을 쌓고 본격적으로 사회생활을 하고 있다면 단점과 열등감을 무리하게 극복하려 애쓰기보다 본인의 개성으로 인정하고 내려놓는 게 좋다.\n...\n사회인이 되면 자신의 약점에는 눈을 감고 장점을 키우는 데 전념하는 게 좋다.\np.211\n\n\n\n사람은 '호혜성의 법칙' 에 따라 누군가에게 인정받으면 거기에 부응하려 하기 마련이다.\n반대로 부족함을 질책당하면 의욕을 잃는다.\n그래서 잘한 일을 충분히 칭찬해주는 것이 중요하다.\np.217\n\n\n\n경영자에게는 '인격'만 한 능력이 없다는 것이 나의 변함없는 지론이다.\n다른 사람에게 공함하는 능력을 발휘해 '저 사람과 함께 미래를 꿈꾸고 싶다' 라고 생각하게 만드는 능력이다.\n...\n모든 직원이 '저 사람을 위해서라면 힘든 일이라도 하고 싶다' 라며 진심으로 사모할 정도의 경영자여야 집단 운 조직을 이끌 수 있다.\np.223\n\n\n\n일부러라도 철저히 이겨서 \"이래도 덤빌래?\" 라고 말할 만한 대승을 거두는 게 중요하다.\n나는 경험상 '압승을 지향하는 기세가 좋은 운을 끌어당긴다' 라고 확신한다.\n...\np.235\n\n\n\nPPIH 그룹 기업 이념집 \"원류\"\n\"제 3조 자기 의견을 확실히 말할 것\"\n권한 이양을 중시하는 우리 회사에서는 직무상 옳다고 생각하는 의견이나 주장이 있으면 상사에게 그것을 확실히 말해야 한다.\n상사가 어떻게 판단할지는 그때그때 다르지만, 부하의 의견에 항상 귀 기울이는 것이 우리 회사 상사의 요건이므로 쓸데없는 걱정은 하지 않아도 된다.\n맹목적으로 명령을 따르는 부하만 있으면 애초에 권한 이양이 성립하지 않을 것이다.\n\"제 9조 채찍과 당근\"\n\"당근과 채찍\"은 순서가 틀렸다.\n처음에 웃으며 달콤한 말을 건네면 그것을 당연하게 생각한다.\n처음에는 엄격하게 대한 다음 나중에 장점을 찾아 인정하고 칭찬해야 진정한 신뢰 관계가 구축된다.\n\"제 11조\" 부하는 상사의 부하가 아니라 회사의 자산이다.\n부하라는 소중한 자산이 최대한 활용되도록 하는 것이 상사의 임무다.\n상사는 그 인재를 활용하기 좋은 환경을 만드는 일, 적성에 맞는 직무를 찾아주는 일에 최대한의 관심과 집중력을 쏟아야 한다.\np.260",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/885",
+    "pubDate": "Mon, 7 Sep 2026 23:54:06 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "도서",
+      "PPIH",
+      "돈키호테",
+      "운의 경영학",
+      "조직 관리",
+      "중쇄를 찍자",
+      "트레바리"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Get Gemini 3.8 Flash With 75% Off",
+    "description": "Google’s newest coding model, Gemini 3.8 Flash, is tuned for long jobs and comes with an incredible launch discount. Google shipped three Flash releases in six weeks, and the newest one is built for exactly the kind of work Junie does all day: multi-step engineering tasks that take real exploration to get right. Gemini 3.8 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/junie/2026/09/junie-gemini-3-8-flash/",
+    "pubDate": "Wed, 09 Sep 2026 14:18:17 +0000",
+    "creator": "Dmitry Savelev",
+    "categories": [
+      "agentic-ai",
+      "coding",
+      "jetbrains-ai",
+      "sales",
+      "junie",
+      "promotion"
+    ]
+  },
+  {
+    "id": 8,
     "imageUrl": "",
     "title": "악역영애 4컷 만화 - 65화, 경찰인데스와",
     "description": "No description available",
@@ -28,156 +129,23 @@
     ]
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "GPT-6 Astra 24시간 사용감과 개발자 일자리 변화 - GPT-6 Astra를 24시간 써본 체감, 3D·코딩·기획 작업에서의 강점, 토큰 사용량과 디자인 한계, 그리고 개발자 고용에 미칠 영향을 공식 자료와 댓글 반응까지 나눠 정리했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 GPT-6 Astra를 약 24시간 써보며 느낀 점과, 이 변화가 개발자 일에 어떤 압박을 줄 수 있는지예요. 먼저 확인된 사실부터 보면, OpenAI는 2026년 9월 3일 GPT-6 Astra를 발표했고 컴퓨터 사용, 브라우징, 소프트웨어 엔지니어링, 사이버보안, 과학, 전문 업무 성능 향상을 내세웠어요.Astra를 써보며 느낀 첫 인상제가 느낀 결론부터 말하면, Astra가 곧바로 AGI처럼 모든 일을 다 잘하는 단계는 아니었어요. 그래도 처음 Claude나 Fable을 접했을 때처럼 “내 말을 꽤 잘 알아듣는다”는 느낌은 분명히 있었고, 특히 Fable보다 더 잘 이해한다고 느껴지는 순간이 있었어요. 반대로 디자인처럼 감각과 기준이 필요한 작업은 아직 레퍼런스나 디자인 시스템을 엄격히 줘야 결과가 안정적이었어요. 그냥 맡기면 불필요한 여백이나 애매한 구성이 남는 경우가 있었거든요.3D와 코딩에서는 체감 차이가 컸어요Astra가 인상적이었던 쪽은 3D 작업이었어요. 무너지는 벽이나 투석기 움직임처럼 장면 안의 물리적인 흐름이 자연스럽게 보이는 예시들이 있었고, 같은 유형의 작업을 Fable 5.1과 비교했을 때 더 매끄럽다고 느꼈어요. Anthropic도 Claude Fable 5.1을 코딩과 지식 작업용 고성능 모델로 소개하고 있지만, 이 영상에서 다룬 체감상 3D 쪽은 Astra가 더 강하게 느껴졌어요. 코딩도 잘하고 계획도 꼼꼼했으며 속도도 빠르게 느껴졌지만, 기본 토큰 소모가 2~3배쯤 커 보인다는 점은 비용과 사용량 면에서 신경 써야 할 부분이에요.일자리는 해고보다 업무 재배치가 먼저 올 수 있어요많은 분들이 “이제 직장인이 대량으로 실직하는 것 아니냐”고 걱정할 수 있어요. 제 생각에는 당장 한국에서 정규직을 대규모로 자르는 그림보다는, 기존 인력에게 Astra 같은 도구를 주고 더 넓은 일을 맡기는 흐름이 먼저 올 가능성이 커 보여요. 프론트엔드 개발자가 프론트만 빨리 끝내면 백엔드나 인프라까지 보게 되는 식이죠. 다만 이건 전망이고, 공식적으로 대량 실직이 확인됐다는 뜻은 아니에요. 실제로 Stanford Digital Economy Lab 연구도 경제 전반의 광범위한 일자리 대체 증거는 찾지 못했다고 보고했어요. 대신 AI 노출 직업에서 22~25세 초기 커리어 고용이 약해진 흐름은 관찰됐다고 해요.신입에게는 더 어려운 시장이에요경력자는 AI를 자신의 경험과 결합해서 생산성을 키울 수 있어요. 반면 신입은 아직 판단 기준과 시행착오가 충분히 쌓이지 않았기 때문에, 단순 구현 능력만으로는 AI와 비교되는 압박을 더 크게 받을 수 있어요. 그래서 지금 회사에 있다면 단순히 작업 속도만 올리는 것보다, 왜 이 선택을 하는지 설명할 수 있는 경험을 쌓는 게 더 중요해져요. 유튜브 영상 댓글에서도 비슷한 반응이 많았어요. “일이 4배가 된다”, “자르지는 않지만 새로 뽑지 않는다”, “신입 채용이 더 힘들다”는 의견이 특히 많이 보였고, 일부는 회사 매출이나 수요가 같이 늘지 않으면 결국 인력 축소 압박이 생길 수 있다고 봤어요. 반면 Astra의 3D와 연구 능력은 좋지만 토큰이 많이 든다는 체감도 함께 나왔어요.참고 자료공식 발표와 성능 주장은 OpenAI의 GPT-6 Astra 발표 자료를 참고했어요. 안전성 관련 내용은 OpenAI의 GPT-6 Astra 안전성 개요를 함께 봤고, Fable 비교 기준은 Anthropic의 Claude Fable 자료를 확인했어요. 고용 영향은 Stanford Digital Economy Lab 연구를 근거로 삼았고, 원본 쇼츠는 GPT-6 Astra 24시간 체험 쇼츠예요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6aa17689fb31e8dc2a7b0ef2",
-    "pubDate": "Wed, 09 Sep 2026 15:08:58 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Today I will… find hidden latency across a distributed .NET application",
-    "description": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without revealing the actual bottleneck. This article […]\nThe post Today I will… find hidden latency across a distributed .NET application appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
-    "pubDate": "Tue, 08 Sep 2026 16:00:22 +0000",
-    "creator": "Justin Yoo",
-    "categories": [
-      "Copilot",
-      "GitHub Copilot",
-      "Performance",
-      "Visual Studio",
-      "GitHub Copilot Profiler Agent",
-      "Productivity",
-      "Visual Studio 2026",
-      "Visual Studio Profiler"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "휴직 일기 - 9일 차 - 산행을 가장한 상담",
-    "description": "오늘은 내가 좋아하고 존경하는 분을 만나기로 한 날이다. 서울대공원 둘레길 산행을 같이 하기로 했다. 아침 일찍 서둘러서 복잡한 출근길을 뚫고 서울대공원 주차장에 차를 세웠다. 잠시 후 그분을 만났다. 너무 이른 시간이라 둘레길을 입장할 수 없어서 호수길을 걸어서 둘레길의 반대편으로 갔다. 걷는 시간 동안 이런저런 이야기를 나누었다. 둘레길이 오픈되고 천천",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/69",
-    "pubDate": "Tue, 08 Sep 2026 12:25:23 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "[PS] 피바다로도 채울 수 없는, 마블 울버린",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2495",
-    "pubDate": "Fri, 11 Sep 2026 00:28:18 +0900",
-    "creator": "「RULIWEB」",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Kotlin 2.4.20 Released",
-    "description": "The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To update to the […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-2-4-20-released/",
-    "pubDate": "Mon, 07 Sep 2026 11:30:57 +0000",
-    "creator": "Daniel Csorba",
-    "categories": [
-      "releases"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "작은 걸음이 만드는 커다란 모험, 빅 워크",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2494",
-    "pubDate": "Thu, 10 Sep 2026 05:42:18 +0900",
-    "creator": "｜RULIWEB｜",
-    "categories": [
-      "게임툰"
-    ]
-  },
-  {
     "id": 9,
     "imageUrl": "",
-    "title": "AI를 전제로 다시 설계하다, Tech-Verse 2026 참관기",
-    "description": "들어가며안녕하세요. LINE Plus의 LINE VoIP Service Dev 팀에서 서버 개발을 하고 있는 한규범, ABC Studio에서 서버를 개발하고 있는 황건구입니다.저희...",
+    "title": "Join Us at the Zephyr Project Meetup in Amsterdam",
+    "description": "Register for the Meetup On September 15, the Zephyr community is coming together for an in-person meetup at the JetBrains office in Amsterdam. The Zephyr Project is an open-source collaboration project hosted by the Linux Foundation. Its community brings together developers, users, silicon vendors, device manufacturers, and software companies to build a small, scalable real-time […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/tech-verse-2026-ai-driven-development-review",
-    "pubDate": "Fri, 11 Sep 2026 01:50:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/clion/2026/09/join-us-at-the-zephyr-project-meetup-in-amsterdam/",
+    "pubDate": "Thu, 10 Sep 2026 10:37:58 +0000",
+    "creator": "Maria Goldade",
+    "categories": [
+      "events",
+      "news",
+      "embedded"
+    ]
   },
   {
     "id": 10,
-    "imageUrl": "",
-    "title": "OpenClaw 2.0, 개인 비서로 어디까지 맡겨도 될까 - OpenClaw 2.0의 변화, Codex와의 관계, Astra 사용 비용, 개인 AI 비서를 어디에 쓰면 좋은지 정리했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 OpenClaw 2.0이에요. 제가 설명한 포인트는 단순히 새 UI가 예뻐졌다는 이야기가 아니라, 개인 AI 비서가 이제 훨씬 더 Codex 같은 형태로 가까워졌다는 점이에요.OpenAI 제품은 아니지만 연결은 깊어졌어요먼저 구분해야 할 부분이 있어요. OpenClaw는 공식 소개 기준으로 독립 501(c)(3) 비영리 재단이 관리하는 MIT 라이선스 오픈소스 프로젝트예요. OpenAI가 후원자 중 하나이고, 창작자인 Peter Steinberger가 OpenAI에서 일한다는 점도 공식 FAQ에서 확인됩니다. 다만 OpenAI가 소유하거나 통제하는 제품은 아니라고 명시되어 있어요. 그래서 “사실상 OpenAI가 내놓은 것처럼 보인다”는 체감은 이해되지만, 정확히는 OpenAI와의 접점이 매우 깊어진 독립 프로젝트라고 보는 게 맞아요.2.0에서 UI와 작업 흐름이 크게 바뀌었어요OpenClaw 2.0 릴리스 노트를 보면 v2026.8.1은 설치, 메시징, 메모리, 스킬, 모델, 자동화, 브라우저와 네이티브 앱, 플러그인, 보안까지 손댄 큰 업데이트예요. 새 Web UI는 대화 중심으로 바뀌었고 파일, 승인, 설정, 라이브 작업을 대화 가까이에 둔다고 설명합니다. 제가 봤을 때 프로젝트 선택, 권한, 모델, 엔드포인트를 고르는 화면이 Codex와 매우 비슷하게 느껴지는 이유가 여기에 있어요. 예전에는 개발자용 도구 느낌이 강했는데, 이제는 일반적인 채팅과 반복 작업을 중심으로 쓰기 쉬운 개인 비서 쪽에 더 가까워졌습니다.Codex와 OpenClaw의 역할은 달라요OpenClaw 블로그에 따르면 OpenAI 모델 실행은 기본적으로 Codex app-server harness를 통해 돌아가도록 바뀌었어요. Codex는 저수준 agent loop, thread state, tool continuation, compaction, code mode 같은 부분을 맡고, OpenClaw는 채널, 페르소나, 메모리, 세션, cron, 브라우저, 승인, OpenClaw 도구 같은 제품 레이어를 맡는 구조예요. 그래서 코딩 자체는 Codex나 Claude Code가 더 직접적이고, OpenClaw나 Hermes Agent는 “이 일을 처리해줘”라고 말로 맡기는 반복 업무에 더 잘 맞는다고 설명할 수 있어요.Astra는 강하지만 비용 부담이 커요최근 모델인 GPT-6 Astra를 연결할 수 있느냐는 질문도 있었죠. 조사 패킷의 OpenAI 요금표 기준으로 Astra는 1M 입력 250 credits, 1M 출력 1,250 credits이고 GPT-5.6 Luna는 1M 입력 5 credits, 1M 출력 30 credits예요. 개인 비서는 메모리를 관리하고 반복 작업을 스킬로 바꾸며 백그라운드에서 여러 처리를 하기 때문에, 강한 모델을 무심코 붙이면 비용이 빨리 커질 수 있어요. 그래서 저는 이런 자동화형 비서에는 Luna 정도로도 충분한 경우가 많다고 봐요.시청자 반응은 질문과 농담이 섞였어요유튜브 영상 댓글에서는 OpenAI에 스카웃된 뒤 OpenAI처럼 바뀐 OpenClaw를 여전히 OpenClaw라고 봐야 하느냐는 반응이 있었어요. 개발은 Codex를 쓰는 게 낫냐는 실용적인 질문도 나왔고, Hermes Agent로 옮긴 이유를 썸네일 농담으로 받아치는 댓글도 있었죠. 댓글만 보면 제품 정체성에 대한 궁금증과 실제 사용처에 대한 고민이 같이 나온 셈이에요. 제 기준에서는 개발만 한다면 Codex나 Claude Code를 쓰고, 메일 정리나 반복 업무처럼 말로 맡기는 일은 OpenClaw 계열을 보는 게 더 자연스러워요.참고 자료이번 글은 OpenClaw 2.0 릴리스 노트, OpenClaw 공식 소개, OpenAI 모델 연동 설명, OpenAI 요금표, 그리고 원본 쇼츠를 바탕으로 정리했어요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6aa1895afb31e8dc2a7b4071",
-    "pubDate": "Wed, 09 Sep 2026 16:29:15 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "The Evolution of WSL Support in JetBrains IDEs",
-    "description": "JetBrains IDEs have worked with WSL for many years, and over time, several ways of using it have emerged across our products. Depending on the entry point, the IDE could rely on a different underlying architecture, leading to a different experience. Starting with the 2026.2 release, there is one recommended entry point. In IntelliJ IDEA, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/09/the-evolution-of-wsl-support-in-jetbrains-ides/",
-    "pubDate": "Wed, 09 Sep 2026 10:39:49 +0000",
-    "creator": "Kristina Pchelintseva",
-    "categories": [
-      "ecosystem",
-      "engineering",
-      "idea",
-      "intellij-platform",
-      "remote-development",
-      "webstorm",
-      "intellij-idea",
-      "phpstorm",
-      "wsl"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "내 말이 커리어의 무기가 되려면",
-    "description": "토스 팟캐스트  토스 광고 사업 헤드가 말하는 ‘내 언어를 무기로 만드는 법’",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/GroundTruth",
-    "pubDate": "Thu, 10 Sep 2026 11:30:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 13,
     "imageUrl": "",
     "title": "Rust AI in Practice: Building LLM Applications With Rig",
     "description": "Rust AI is moving from the experimentation stage toward more practical usage. We recently kicked off a new livestream series with the Rust Foundation to explore how Rust and AI are coming together in real-world applications. In the first session, our Developer Advocate Orhun Parmaksız spoke with Stephen Korzeniewski, Lead Maintainer of Rig at 0xPlaygrounds. […]",
@@ -195,35 +163,74 @@
     ]
   },
   {
-    "id": 14,
+    "id": 11,
     "imageUrl": "",
-    "title": "휴직 일기 - 6일 차 아침글 - 집중력을 지킨다는 것",
-    "description": "오늘부터는 글을 쓰는 방식을 바꿔보기로 했다. 지난번 만들어 놓은 음성인식 앱을 이용해서 녹음을 하여 말로 먼저 풀어놓고, 그 말을 초벌로 AI의 도움을 받아 다듬은 다음 다시 내가 직접 수정을 더해서 글로 만드는 방식이다. 전체적인 내용은 나의 생각이고 내가 발언한 것을 기준으로 하지만 AI 가 새롭게 덧댄 부분은 별도 표기해 놓는다.  아침에 읽은 책",
+    "title": "Kotlin 2.4.20 Released",
+    "description": "The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To update to the […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/65",
-    "pubDate": "Sat, 05 Sep 2026 02:37:48 GMT",
+    "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-2-4-20-released/",
+    "pubDate": "Mon, 07 Sep 2026 11:30:57 +0000",
+    "creator": "Daniel Csorba",
+    "categories": [
+      "releases"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Java Annotated Monthly – September 2026 ",
+    "description": "This month’s Java Annotated Monthly brings you the latest Java news, a generous dose of AI-focused articles, Kotlin updates, and highlights from a variety of technologies and frameworks, plus plenty more worth adding to your reading list. Our featured writer, Aicha Laafia, takes a closer look at upcoming JEPs and shares her key findings on […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/09/java-annotated-monthly-september-2026/",
+    "pubDate": "Mon, 07 Sep 2026 11:27:14 +0000",
+    "creator": "Irina Mariasova",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "휴직 일기 - 9일 차 - 산행을 가장한 상담",
+    "description": "오늘은 내가 좋아하고 존경하는 분을 만나기로 한 날이다. 서울대공원 둘레길 산행을 같이 하기로 했다. 아침 일찍 서둘러서 복잡한 출근길을 뚫고 서울대공원 주차장에 차를 세웠다. 잠시 후 그분을 만났다. 너무 이른 시간이라 둘레길을 입장할 수 없어서 호수길을 걸어서 둘레길의 반대편으로 갔다. 걷는 시간 동안 이런저런 이야기를 나누었다. 둘레길이 오픈되고 천천",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/69",
+    "pubDate": "Tue, 08 Sep 2026 12:25:23 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "휴직 일기 - 12일 차 - 이제 좀 쉬는 방법을 알게 되는 걸까?",
+    "description": "아침 일찍 일어나 지는 것은 어쩔 수 없다. 새벽이면 잠을 깬다. 그래도 수면이 부족하다는 생각은 아니다. 필요하면 낮잠을 자면 되니까. 수면이란 것이 중요한데 문제가 많은 현대인들이 많다. 나조차 언젠가부터 스트레스로 인해 적절한 시간을 잘 수 없게 되면서 많은 것들에 문제가 생겼다. 인지 능력의 저하, 집중력과 기억력의 저하, 만성 피로 그리고 그로 인",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/71",
+    "pubDate": "Fri, 11 Sep 2026 14:44:14 GMT",
     "creator": "고종범",
     "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Second Bet Club",
-    "description": "VC 업계에는 Second Bet Club이라는 말이 있다. 말 그대로 두 번 베팅하는 의미인데, 같은 창업가에게 두 번 투자하는 걸 의미한다. 한 창업가에게 투자했고, 이 분이 재창업했을 때 다시 투자하는 VC도 있지만 생각보다 많지는 않다. 사람을 보고 투자하는 업인데 왜 이런 사례가 더 많지 않을까 항상 궁금했지만, 최근에 우리도 두 번 베팅하는 경험을 여러 번 하면서(...)",
+    "title": "The Rider 2026.3 Early Access Program Is Open",
+    "description": "The first Early Access build for Rider 2026.3 is now available! It includes rainbow brackets, an easier way to set data breakpoints, a new Game Development plugin category, and filters in code completion. You can get the build from our website or through the Toolbox App. Here’s a look at what’s new. Rainbow brackets: You […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/09/second-bet-club.html",
-    "pubDate": "Wed, 09 Sep 2026 21:33:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://blog.jetbrains.com/dotnet/2026/09/07/rider-2026-3-eap/",
+    "pubDate": "Mon, 07 Sep 2026 09:35:21 +0000",
+    "creator": "Alexander Kurakin",
     "categories": [
-      "Uncategorized",
-      "exit",
-      "failure",
-      "FoundersAtWork",
-      "inspiring",
-      "people",
-      "Strong"
+      "net-tools",
+      "eap",
+      "code-completion",
+      "debugger",
+      "gamedev",
+      "rider",
+      "test-coverage",
+      "unreal-engine"
     ]
   }
 ]
