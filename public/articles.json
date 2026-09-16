@@ -2,71 +2,91 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "휴직 일기 - 13일 차 - 가족이라는 존재는",
-    "description": "오늘은 처가 식구들과 가족 모임을 갖게 되었다. 올해 큰 상처가 있던 터라 오랜만에 다시 모여서 서로의 안부를 확인했다.  아내가 박완서 작가의 \"기나긴 하루\"라는 책을 읽고 책의 내용을 이야기해 주었다. 작가가 살았던 그 시절은 나의 부모님이 살던 시절이고 나의 어린 시절이기도 해서 재미있게 들을 수 있었다. 그 시절에는 사연이 없는 사람들이 없을 정도였",
+    "title": "What’s New for C++ Developers in Visual Studio 2026 (18.7 – 18.10)",
+    "description": "Over the past few months, we have continued shipping monthly Visual Studio 2026 releases, delivering improvements across all stages of the development cycle. In this blog post, we’ll recap everything that changed from version 18.7 through 18.10 (released this month) that is relevant for C++ developers. This includes new tools for maintaining and navigating C++ […]\nThe post What’s New for C++ Developers in Visual Studio 2026 (18.7 – 18.10) appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/72",
-    "pubDate": "Sat, 12 Sep 2026 14:13:34 GMT",
-    "creator": "고종범",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-for-c-developers-in-visual-studio-2026-18-7-18-10/",
+    "pubDate": "Mon, 14 Sep 2026 06:38:16 +0000",
+    "creator": "Augustin Popa",
+    "categories": [
+      "Build Optimization",
+      "C++",
+      "Copilot",
+      "MSVC",
+      "Visual Studio",
+      "visual studio",
+      "visual studio 2026"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "MSVC Build Tools Preview updates – September 2026",
-    "description": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers updates from the past month, currently targeting the v14.52 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Although you can acquire the MSVC Build Tools Preview […]\nThe post MSVC Build Tools Preview updates – September 2026 appeared first on C++ Team Blog.",
+    "title": "Java 27 in IntelliJ IDEA",
+    "description": "In line with the six-month release cadence, Java 27 was released on September 15, 2026. In this blog post, we will look at what’s included in this release, how IntelliJ IDEA continues to support the latest Java versions, and even how IntelliJ IDEA is benefiting from some of the changes to the JDK. Java 27 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-september-2026/",
-    "pubDate": "Wed, 09 Sep 2026 21:26:30 +0000",
-    "creator": "Eric Brumer",
+    "link": "https://blog.jetbrains.com/idea/2026/09/java-27-in-intellij-idea/",
+    "pubDate": "Tue, 15 Sep 2026 14:49:02 +0000",
+    "creator": "Marit van Dijk",
     "categories": [
-      "MSVC"
+      "java",
+      "news",
+      "intellij-idea",
+      "java-27"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "[MULTI] 돌아온 일섬의 찰진 손맛과 불꽃 튀는 검극, 귀무자 : 검의 길",
+    "title": "Beyond the model: Engineering AI infra with scientific judgement",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2496",
-    "pubDate": "Fri, 11 Sep 2026 20:52:57 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://medium.com/airbnb-engineering/beyond-the-model-engineering-ai-infra-with-scientific-judgement-371316d43261?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 15 Sep 2026 17:06:18 GMT",
+    "creator": "AirbnbEng",
     "categories": [
-      "리뷰"
+      "ai-agent",
+      "science",
+      "engineering",
+      "data-science",
+      "ai"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "dotInsights | September 2026",
-    "description": "Did you know? Fun fact: The C# compiler (Roslyn) is open source and written in C#. It exposes APIs to analyze and generate code.  Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. ☕ Coffee Break Take […]",
+    "title": "Microsoft at CppCon 2026",
+    "description": "Microsoft will be at CppCon 2026 in Aurora, Colorado, which is taking place from September 14 through 18. Join us for talks from Microsoft speakers and colleagues across the C++ community and visit the Microsoft booth Monday through Thursday to meet the team and discuss the tools, technologies, and challenges that matter to you. If […]\nThe post Microsoft at CppCon 2026 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/09/08/dotinsights-september-2026/",
-    "pubDate": "Tue, 08 Sep 2026 14:16:12 +0000",
-    "creator": "Rachel Appel",
+    "link": "https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2026/",
+    "pubDate": "Mon, 14 Sep 2026 00:16:42 +0000",
+    "creator": "Augustin Popa",
     "categories": [
-      "net-tools",
-      "dotinsights"
+      "C++",
+      "Survey",
+      "CppCon"
     ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Toolbox App 3.8: Improves IDE Update Handling on macOS and Fixes Keyboard Navigation",
-    "description": "Version 3.8 of the Toolbox App restores keyboard navigation in project and tool lists. On macOS, manual IDE updates stay available even when the system reports the installation directory as protected. IDE updates remain available on macOS macOS was sometimes incorrectly reporting an IDE installation directory as non-writable, causing the Toolbox App to needlessly disable […]",
+    "title": "Get Gemini 3.8 Flash With 75% Off",
+    "description": "Google’s newest coding model, Gemini 3.8 Flash, is tuned for long jobs and comes with an incredible launch discount. Google shipped three Flash releases in six weeks, and the newest one is built for exactly the kind of work Junie does all day: multi-step engineering tasks that take real exploration to get right. Gemini 3.8 […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/toolbox-app/2026/09/toolbox-app-3-8-improves-ide-update-handling-on-macos-and-fixes-keyboard-navigation/",
-    "pubDate": "Mon, 14 Sep 2026 16:05:56 +0000",
-    "creator": "Ivan Kuzmin",
+    "link": "https://blog.jetbrains.com/junie/2026/09/junie-gemini-3-8-flash/",
+    "pubDate": "Wed, 09 Sep 2026 14:18:17 +0000",
+    "creator": "Dmitry Savelev",
     "categories": [
-      "jetbrains-toolbox",
-      "toolbox-app"
+      "agentic-ai",
+      "coding",
+      "jetbrains-ai",
+      "sales",
+      "junie",
+      "promotion"
     ]
   },
   {
@@ -86,110 +106,85 @@
   {
     "id": 7,
     "imageUrl": "",
-    "title": "The Evolution of WSL Support in JetBrains IDEs",
-    "description": "JetBrains IDEs have worked with WSL for many years, and over time, several ways of using it have emerged across our products. Depending on the entry point, the IDE could rely on a different underlying architecture, leading to a different experience. Starting with the 2026.2 release, there is one recommended entry point. In IntelliJ IDEA, […]",
+    "title": "Second Bet Club",
+    "description": "VC 업계에는 Second Bet Club이라는 말이 있다. 말 그대로 두 번 베팅하는 의미인데, 같은 창업가에게 두 번 투자하는 걸 의미한다. 한 창업가에게 투자했고, 이 분이 재창업했을 때 다시 투자하는 VC도 있지만 생각보다 많지는 않다. 사람을 보고 투자하는 업인데 왜 이런 사례가 더 많지 않을까 항상 궁금했지만, 최근에 우리도 두 번 베팅하는 경험을 여러 번 하면서(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/09/the-evolution-of-wsl-support-in-jetbrains-ides/",
-    "pubDate": "Wed, 09 Sep 2026 10:39:49 +0000",
-    "creator": "Kristina Pchelintseva",
+    "link": "https://www.thestartupbible.com/2026/09/second-bet-club.html",
+    "pubDate": "Wed, 09 Sep 2026 21:33:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "ecosystem",
-      "engineering",
-      "idea",
-      "intellij-platform",
-      "remote-development",
-      "webstorm",
-      "intellij-idea",
-      "phpstorm",
-      "wsl"
+      "Uncategorized",
+      "exit",
+      "failure",
+      "FoundersAtWork",
+      "inspiring",
+      "people",
+      "Strong"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "휴직 일기 - 15일 차 - 쉬는 것에도 리듬이 생기다",
-    "description": "어제는 일요일이란 핑계를 대고 모든 것을 쉬어버렸다. 그런 날도 있는 거다. 오늘은 아내가 외출을 해서 온전히 나만의 시간을 갖게 되었다. 과연 나는 어떻게 하루를 지낼지 궁금했다. 그래도 10여 일 연습을 한 것이 있어서 인지 리듬을 갖게 된 것 같다. 아침 시간은 생각보다 짧다. 아침에 해야 하는 것들이 있다 보니 그렇다. 강아지 산책 시키고, 씻기고,",
+    "title": "휴직 일기 - 13일 차 - 가족이라는 존재는",
+    "description": "오늘은 처가 식구들과 가족 모임을 갖게 되었다. 올해 큰 상처가 있던 터라 오랜만에 다시 모여서 서로의 안부를 확인했다.  아내가 박완서 작가의 \"기나긴 하루\"라는 책을 읽고 책의 내용을 이야기해 주었다. 작가가 살았던 그 시절은 나의 부모님이 살던 시절이고 나의 어린 시절이기도 해서 재미있게 들을 수 있었다. 그 시절에는 사연이 없는 사람들이 없을 정도였",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/73",
-    "pubDate": "Mon, 14 Sep 2026 13:52:20 GMT",
+    "link": "https://brunch.co.kr/@@24SO/72",
+    "pubDate": "Sat, 12 Sep 2026 14:13:34 GMT",
     "creator": "고종범",
     "categories": []
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Why Rider and ReSharper Were Slow to Start, and How Microsoft Helped Fix the Problem",
-    "description": "When we launched ReSharper’s out-of-process (OOP) architecture, users reported slower startup times for IDEs using ReSharper on Windows. After profiling, the cause surprised us: Microsoft Defender was scanning our process for longer than we expected. This post is about what we found, what we learned working with Microsoft, and a tool we built that allows […]",
+    "title": "휴직 일기 - 12일 차 - 이제 좀 쉬는 방법을 알게 되는 걸까?",
+    "description": "아침 일찍 일어나 지는 것은 어쩔 수 없다. 새벽이면 잠을 깬다. 그래도 수면이 부족하다는 생각은 아니다. 필요하면 낮잠을 자면 되니까. 수면이란 것이 중요한데 문제가 많은 현대인들이 많다. 나조차 언젠가부터 스트레스로 인해 적절한 시간을 잘 수 없게 되면서 많은 것들에 문제가 생겼다. 인지 능력의 저하, 집중력과 기억력의 저하, 만성 피로 그리고 그로 인",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/09/09/why-rider-and-resharper-were-slow-to-start-and-how-microsoft-helped-fix-the-problem/",
-    "pubDate": "Wed, 09 Sep 2026 16:45:27 +0000",
-    "creator": "Alexander Ulitin",
-    "categories": [
-      "net-tools",
-      "resharper",
-      "rider",
-      "defender",
-      "microsoft",
-      "oop",
-      "out-of-process",
-      "performance",
-      "resharper_oop"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/71",
+    "pubDate": "Fri, 11 Sep 2026 14:44:14 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "Debug Past an HTTP 403 Without Breaking Spring Security",
-    "description": "You set a breakpoint inside a Spring MVC controller, or a service, send the request to an HTTP endpoint, and nothing happens. The response is back – and it is a 403 (or 401, or a redirect to a login page). At that point, the bug you were trying to catch is no longer the […]",
+    "title": "휴직 일기 - 11일 차 - 10일을 소진후",
+    "description": "어제는 11년 정도 함께 모임을 갖었던 멤버들을 만났다. 멀리 갔다 온지라 일기를 작성하지 못했다. 어제 이야기를 잠깐 하면 어제까지는 에너지가 그래도 유지되는 편이었다. 나름의 루틴에 따라 움직였고 생각한 만큼은 아니지만 적절한 휴직 목표의 진도도 나가고 있었다. 그래서 기쁜 마음으로 저녁에 멤버들을 만나 이런저런 이야기를 나누었다. 이 모임은 성장을 학",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/09/debug-past-an-http-403-without-breaking-spring-security/",
-    "pubDate": "Tue, 08 Sep 2026 12:34:18 +0000",
-    "creator": "Andrey Belyaev",
-    "categories": [
-      "features",
-      "tutorials",
-      "debug",
-      "spring",
-      "spring-debugger"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/70",
+    "pubDate": "Thu, 10 Sep 2026 13:45:32 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "Microsoft at CppCon 2026",
-    "description": "Microsoft will be at CppCon 2026 in Aurora, Colorado, which is taking place from September 14 through 18. Join us for talks from Microsoft speakers and colleagues across the C++ community and visit the Microsoft booth Monday through Thursday to meet the team and discuss the tools, technologies, and challenges that matter to you. If […]\nThe post Microsoft at CppCon 2026 appeared first on C++ Team Blog.",
+    "title": "AI를 전제로 다시 설계하다, Tech-Verse 2026 참관기",
+    "description": "들어가며안녕하세요. LINE Plus의 LINE VoIP Service Dev 팀에서 서버 개발을 하고 있는 한규범, ABC Studio에서 서버를 개발하고 있는 황건구입니다.저희...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2026/",
-    "pubDate": "Mon, 14 Sep 2026 00:16:42 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Survey",
-      "CppCon"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/tech-verse-2026-ai-driven-development-review",
+    "pubDate": "Fri, 11 Sep 2026 01:50:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "Get Gemini 3.8 Flash With 75% Off",
-    "description": "Google’s newest coding model, Gemini 3.8 Flash, is tuned for long jobs and comes with an incredible launch discount. Google shipped three Flash releases in six weeks, and the newest one is built for exactly the kind of work Junie does all day: multi-step engineering tasks that take real exploration to get right. Gemini 3.8 […]",
+    "title": "Join Us at the Zephyr Project Meetup in Amsterdam",
+    "description": "Register for the Meetup On September 15, the Zephyr community is coming together for an in-person meetup at the JetBrains office in Amsterdam. The Zephyr Project is an open-source collaboration project hosted by the Linux Foundation. Its community brings together developers, users, silicon vendors, device manufacturers, and software companies to build a small, scalable real-time […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/junie/2026/09/junie-gemini-3-8-flash/",
-    "pubDate": "Wed, 09 Sep 2026 14:18:17 +0000",
-    "creator": "Dmitry Savelev",
+    "link": "https://blog.jetbrains.com/clion/2026/09/join-us-at-the-zephyr-project-meetup-in-amsterdam/",
+    "pubDate": "Thu, 10 Sep 2026 10:37:58 +0000",
+    "creator": "Maria Goldade",
     "categories": [
-      "agentic-ai",
-      "coding",
-      "jetbrains-ai",
-      "sales",
-      "junie",
-      "promotion"
+      "events",
+      "news",
+      "embedded"
     ]
   },
   {
@@ -214,41 +209,27 @@
   {
     "id": 14,
     "imageUrl": "",
-    "title": "What’s New for C++ Developers in Visual Studio 2026 (18.7 – 18.10)",
-    "description": "Over the past few months, we have continued shipping monthly Visual Studio 2026 releases, delivering improvements across all stages of the development cycle. In this blog post, we’ll recap everything that changed from version 18.7 through 18.10 (released this month) that is relevant for C++ developers. This includes new tools for maintaining and navigating C++ […]\nThe post What’s New for C++ Developers in Visual Studio 2026 (18.7 – 18.10) appeared first on C++ Team Blog.",
+    "title": "Splunk의 xml 처리 - 2nd",
+    "description": "makeresults를 이용한 xml 테스트 환경. csv 포맷이라 ,를 기준으로 데이터가 잘린다.\n\n\n\n\n\neval 명령으로 변경. 그런데 데이터 추가 실패. xml에 포함된 \"와 필드 데이터 구분자인 \"가 충돌하기 때문.\n\n\n\n\nxml에 포함된 \"를 전부 예외처리(\\\").\n\n\n\n참고로 csv 포맷으로 입력한 상태에서 xmlkv와 spath는 \"에 대한 예외처리가 필요 없지만, xpath는 필요하다(..)\n\n\n\n\n\n\n\n관련 글\n\n\nSplunk의 xml 처리\nxpath를 이용한 이벤트 로그 필터링\nLogstash 필터 xml",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-for-c-developers-in-visual-studio-2026-18-7-18-10/",
-    "pubDate": "Mon, 14 Sep 2026 06:38:16 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "Build Optimization",
-      "C++",
-      "Copilot",
-      "MSVC",
-      "Visual Studio",
-      "visual studio",
-      "visual studio 2026"
-    ]
+    "link": "https://kangmyounghun.blogspot.com/2026/09/splunk-xml-2nd.html",
+    "pubDate": "2026-09-15T12:47:04.169Z",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Second Bet Club",
-    "description": "VC 업계에는 Second Bet Club이라는 말이 있다. 말 그대로 두 번 베팅하는 의미인데, 같은 창업가에게 두 번 투자하는 걸 의미한다. 한 창업가에게 투자했고, 이 분이 재창업했을 때 다시 투자하는 VC도 있지만 생각보다 많지는 않다. 사람을 보고 투자하는 업인데 왜 이런 사례가 더 많지 않을까 항상 궁금했지만, 최근에 우리도 두 번 베팅하는 경험을 여러 번 하면서(...)",
+    "title": "악역영애 4컷 만화 - 66화, 움직이면쏘는데스와",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/09/second-bet-club.html",
-    "pubDate": "Wed, 09 Sep 2026 21:33:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2497",
+    "pubDate": "Wed, 16 Sep 2026 10:28:25 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "Uncategorized",
-      "exit",
-      "failure",
-      "FoundersAtWork",
-      "inspiring",
-      "people",
-      "Strong"
+      "웹툰"
     ]
   }
 ]
