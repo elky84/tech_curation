@@ -2,152 +2,64 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "AI를 전제로 다시 설계하다, Tech-Verse 2026 참관기",
-    "description": "들어가며안녕하세요. LINE Plus의 LINE VoIP Service Dev 팀에서 서버 개발을 하고 있는 한규범, ABC Studio에서 서버를 개발하고 있는 황건구입니다.저희...",
+    "title": "LLM에게 어디까지 맡길 것인가: AI 에이전트 기반 광고 분석 리포트 자동화",
+    "description": "들어가며안녕하세요. LINE Ads에서 데이터 분석 플랫폼을 개발하고 있는 이종우, 이운열입니다.광고 매출은 상품, 광고주, 캠페인 집행 변화에 따라 매일 움직입니다. 광고 KPI...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/tech-verse-2026-ai-driven-development-review",
-    "pubDate": "Fri, 11 Sep 2026 01:50:00 GMT",
+    "link": "https://techblog.lycorp.co.jp/ko/ai-agent-ad-report-automation",
+    "pubDate": "Fri, 18 Sep 2026 01:50:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Behind the Scenes: How the OpenTelemetry Plugin Maps Your Microservices in Real-Time",
-    "description": "We’ve all been there: you join a new project, and the first thing you ask for is the architecture diagram. You’re handed a diagram that looks great, but after a week of debugging, you realize it’s six months out of date. Service A hasn’t talked to Service B since the spring, and there’s a new […]",
+    "title": "Microsoft at CppCon 2026",
+    "description": "Microsoft will be at CppCon 2026 in Aurora, Colorado, which is taking place from September 14 through 18. Join us for talks from Microsoft speakers and colleagues across the C++ community and visit the Microsoft booth Monday through Thursday to meet the team and discuss the tools, technologies, and challenges that matter to you. If […]\nThe post Microsoft at CppCon 2026 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/09/how-to-service-map-with-opentelemetry/",
-    "pubDate": "Wed, 16 Sep 2026 12:34:47 +0000",
-    "creator": "Nikita Dukin",
+    "link": "https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2026/",
+    "pubDate": "Mon, 14 Sep 2026 00:16:42 +0000",
+    "creator": "Augustin Popa",
     "categories": [
-      "all-things-web",
-      "backstage",
-      "plugin-development",
-      "goland",
-      "idea",
-      "intellij-platform",
-      "plugin-highlights",
-      "plugins",
-      "pycharm",
-      "research",
-      "rider",
-      "webstorm",
-      "intellij-idea",
-      "opentelemetry",
-      "performance-optimization"
+      "C++",
+      "Survey",
+      "CppCon"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "[PS] 피바다로도 채울 수 없는, 마블 울버린",
-    "description": "No description available",
+    "title": "한 번도 우승해 본 적 없는 것처럼 훈련하고, 한 번도 패배해 본 적 없는 것처럼 싸우자",
+    "description": "전세계에서, 특히 미국과 중국에서, 사랑받고 있는 스키선수 Eileen Gu의 인터뷰를 봤는데 이 선수는 운동도 엘리트급이지만 말도 엘리트급으로 잘 한다는 느낌을 받았다. 인터뷰어가 어떤 마음가짐으로 연습과 실전에 임하는지, 그리고 이 두가지 할 때 마음가짐에 차이가 있는지 물어보니 다음과 같은 명언을 했다. “I train like I’ve never won, and I compete like I’ve never lost.(한 번도 우승해(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2495",
-    "pubDate": "Fri, 11 Sep 2026 00:28:18 +0900",
-    "creator": "「RULIWEB」",
+    "link": "https://www.thestartupbible.com/2026/09/train-like-you-have-never-won-and-compete-like-you-have-never-lost.html",
+    "pubDate": "Wed, 16 Sep 2026 21:25:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "리뷰"
+      "Uncategorized",
+      "fighting",
+      "FoundersAtWork",
+      "inspiring",
+      "sports",
+      "vc"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "MSVC C++23: constexpr cmath with LLVM Libc",
-    "description": "Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is preparing its experimental implementation for the 14.52 build tools (compiler version 19.52)! We are still refining the feature, so expect the dust to settle only when this […]\nThe post MSVC C++23: constexpr cmath with LLVM Libc appeared first on C++ Team Blog.",
+    "title": "AI 번역의 시대1: 세태(世態)",
+    "description": "[![NHN Cloud_meetup banner_AI-translation_202609.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerAItranslation202609.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 세태(世態), 사람들의 일상생활\r\r\n\r\r\n지금 바로 클로드에 접속해, 문장 하나를 쓰고 \"영어로 번역해줘\"라는 프롬프트를 날려보세요. 어떠한 길이의 문장이나 표현이든지 빠르게 번역하고, 더 나아가 문맥을 물으며 대안을 제시하기도 합니다. AI의 등장과 발전 덕분에 누구든지 외국어를 배우지 않고도 다른 언어권의 사람과 소통할 수 있는 시대가 되었습니다.\r\r\n\r\r\n넷플릭스는 2026년 초에 공개한 주주 서한에서 콘텐츠 제작과 홍보 전 과정에 AI를 도입한다고 밝혔습니다. 자막 로컬라이제이션에 AI를 활용하여 보다 많은 시청자가 언어 장벽 없이 작품에 접근할 수 있게 하겠다는 것입니다. 유튜브는 2025년 9월, 2년간의 시험 운영을 마친 AI 다국어 더빙 기능을 전 세계의 크리에이터들에게 정식으로 출시했습니다. 화자의 억양과 톤까지 재현하는 음성 복제 방식인데, 이 기능을 쓴 채널은 전체 시청 시간의 25% 이상이 원어가 아닌 다른 언어권에서 나왔다고 합니다. 또한 올해 3월에 출시된 삼성 갤럭시 S26에서는 오버레이 번역이라는 기능이 추가되었습니다. 카메라로 메뉴판을 비추면 원문이 있던 자리에 그대로 번역문을 그려 넣는 방식입니다. 화면뿐 아니라 실시간 영상에도 번역 결과가 따라다닙니다.\r\r\n\r\r\n즐겨 이용하는 콘텐츠, 업무 등 우리들의 일상생활 곳곳에서 AI 번역이 이루어지고 있습니다. 번역가인 저도 이 흐름을 직접적으로 겪고 있습니다. CAT(Computer-Assisted Translation) 툴로 번역 업무를 하던 저 역시 클로드나 제미나이를 활용해 번역 업무를 수행하는 횟수가 늘어났습니다. 특히 짧은 문장이나 일정이 급한 작업은 클로드에 업로드한 번역 지침과 용어집(글로서리)를 참고해 AI가 번역하고 인간이 검수하는 경우가 많아졌습니다.\r\r\n\r\r\nAI 번역의 정확도가 완벽하지 않은 경우도 있지만 생산성과 속도가 어마무시하기에 저의 일손을 크게 돕고 있습니다. AI 번역은 신기한 것을 넘어서서 우리의 자연스러운 일상이 되어가고 있는데요. 그렇다면 어떻게 AI가 사람의 언어를 자연스럽게 번역할 수 있게 되었을까요? 그 이면에는 나름 복잡한 체계가 작동하고 있습니다.\r\r\n\r\r\n## AI의 번역 방식\r\r\n\r\r\n### LLM, 다음 토큰을 예측하다\r\r\n\r\r\n현재 가장 널리 쓰이는 AI 번역은 클로드·GPT·제미나이 같은 범용 대규모 언어모델(Large Language Model, LLM)에 \"번역해줘\"라고 프롬프트로 시키는 방식입니다. LLM 입장에서는 \"번역\"이 특별한 작업이 아닙니다. 그저 \"번역해줘: [원문]\"이라는 텍스트 뒤에 자연스럽게 이어질 토큰을 계속 예측하는 것으로서 모델이 원래 하던 동작과 동일합니다.\r\r\n\r\r\n### 번역을 잘하는 이유\r\r\n\r\r\n번역을 따로 가르친 적이 없는데도 이걸 잘 해내는 이유는, 학습 과정에서 같은 개념을 여러 언어로 설명하는 방대한 텍스트(위키백과, 다국어 웹 문서 등)를 함께 접했기 때문입니다. 언어 간 대응 관계를 명시적으로 배운 게 아니라, 방대한 데이터 속에서 암묵적으로 습득한 결과인 셈입니다.\r\r\n\r\r\n여기에는 구조적 차이도 하나 있습니다. 파파고 같은 기존 신경망 기계번역(Neural Machine Translation, NMT)은 원문을 읽는 인코더와 번역문을 쓰는 디코더가 분리된 **Encoder-Decoder** 구조인 반면, LLM은 원문과 번역문을 하나의 문맥으로 통째로 이어 처리하는 **Decoder-Only** 구조입니다. 이 구조는 인코더와 디코더를 따로 만들 필요 없이 디코더 하나만 깊게 쌓으면 되기 때문에 모델을 더 크게 키우기도 훨씬 수월하고, 정렬된 언어쌍 데이터 없이도 이 방대한 데이터를 그대로 학습에 쓸 수 있어 데이터 확보 면에서도 스케일링이 유리합니다.\r\r\n\r\r\n![architecture_comparison.png](https://image.toast.com/aaaadh/alpha/2026/techblog/architecturecomparison.png)\r\r\n\r\r\nLLM의 동작 원리 자체는 단순합니다. LLM은 주어진 텍스트 다음에 올 토큰을 확률적으로 예측하고, 하나씩 이어 붙여 문장을 만듭니다. 이 동작을 뒷받침하는 게 문장 안의 모든 토큰이 서로 얼마나 관련 있는지 한 번에 계산해서, 지금 만들 토큰이 어디에 얼마나 **주목**해야 하는지를 정하는 방식인 **셀프 어텐션(self-attention)**입니다. 사실 셀프 어텐션 자체는 LLM만의 원리가 아닙니다.\r\r\n원조 트랜스포머(2017)를 쓰는 NMT도 인코더와 디코더 내부에서 각각 셀프 어텐션을 쓰고, 그 둘을 잇는 크로스 어텐션(cross-attention)까지 갖춘 구조입니다. 반면 LLM은 인코더도 크로스 어텐션도 없이, 원문과 번역문을 하나로 이어 붙인 뒤 인과적 셀프 어텐션(causal self-attention) 하나만으로 전체 관계를 계산합니다. 이 구조 덕분에 문장이 길어져도 정보가 희석되지 않고, 학습 속도도 비약적으로 빨라졌습니다.\r\r\n\r\r\n![token_prediction_flow.png](https://image.toast.com/aaaadh/alpha/2026/techblog/tokenpredictionflow.png)\r\r\n\r\r\n### NMT vs LLM\r\r\n\r\r\n방금 살펴본 Encoder-Decoder(NMT)와 Decoder-Only(LLM), 즉 문장 단위 처리와 문서 전체를 하나의 문맥으로 처리하는 방식의 차이는 실무에서 아래와 같이 나타납니다.\r\r\n\r\r\n|  | 기존 NMT | LLM 기반 |\r\r\n| --- | ------ | ------ |\r\r\n| 처리 단위 | 문장 단위 | 문서·대화 전체 |\r\r\n| 지시 반영 | 파인튜닝 필요 | 프롬프트로 즉시 반영(In-Context Learning) |\r\r\n| 일관성 | Constrained Decoding으로 높은 확률로 강제 가능 | 문서가 길면 흔들릴 수 있음 |\r\r\n| 속도 | ~100ms | NMT 대비 최대 20배↑ 느림(업계 전반 10~100배) |\r\r\n\r\r\n속도 차이의 원인도 구조에 있습니다. 두 방식 모두 토큰을 한 개씩 순차 생성하지만, LLM은 매 토큰마다 훨씬 많은 레이어와 파라미터를 통과해야 합니다. 이전 토큰들의 연산을 재사용하는 KV 캐시 덕분에 매번 처음부터 다시 계산하지는 않지만, 문맥이 길어질수록 캐시 자체의 크기와 매 스텝 참조해야 할 범위가 함께 커져서 지연시간이 늘어납니다. 그래서 지연시간이 중요한 환경에서는 지금도 NMT가 쓰입니다. 이런 신경망 기반 번역 기술은 오늘날 전문 번역가들이 쓰는 CAT 툴에도 결합되어 있습니다.\r\r\n\r\r\n지금까지 살펴본 것처럼, AI는 문맥을 읽고 어디에 주목할지 계산해가며 그럴듯한 번역문을 만들어냅니다.\r\r\n하지만 엄밀히 말하면 이것은 번역이 아니라 학습된 패턴에 기반한 **확률적 추측**에 가깝습니다.\r\r\n그리고 그 추측이 언제나 옳은 것은 아닙니다.\r\r\n\r\r\n\r\r\n\r\r\n2편, 오착(誤錯)에서 이어집니다.\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_gray_202609_900.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerfootergray202609900.png)](https://www.nhncloud.com/kr)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-c23-constexpr-cmath-with-llvm-libc/",
-    "pubDate": "Thu, 10 Sep 2026 21:19:59 +0000",
-    "creator": "Cody Miller",
-    "categories": [
-      "C++"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "휴직 일기 - 11일 차 - 10일을 소진후",
-    "description": "어제는 11년 정도 함께 모임을 갖었던 멤버들을 만났다. 멀리 갔다 온지라 일기를 작성하지 못했다. 어제 이야기를 잠깐 하면 어제까지는 에너지가 그래도 유지되는 편이었다. 나름의 루틴에 따라 움직였고 생각한 만큼은 아니지만 적절한 휴직 목표의 진도도 나가고 있었다. 그래서 기쁜 마음으로 저녁에 멤버들을 만나 이런저런 이야기를 나누었다. 이 모임은 성장을 학",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/70",
-    "pubDate": "Thu, 10 Sep 2026 13:45:32 GMT",
-    "creator": "고종범",
+    "link": "https://meetup.nhncloud.com/posts/422",
+    "pubDate": "Mon, 14 Sep 2026 01:40:45 GMT",
+    "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Logpoints Walkthrough",
-    "description": "Modern development tools, especially IntelliJ IDEA, have such comprehensive debugging support that for virtually any niche use case, there is a specialized tool for the job. This can make it hard to know where to begin. If you are new to debugging tools and want the biggest return on your learning investment, the best feature […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/09/logpoints-walkthrough/",
-    "pubDate": "Wed, 16 Sep 2026 14:14:04 +0000",
-    "creator": "Igor Kulakov",
-    "categories": [
-      "idea",
-      "debug",
-      "debugging",
-      "java",
-      "kotlin",
-      "logpoints"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "Join Us at the Zephyr Project Meetup in Amsterdam",
-    "description": "Register for the Meetup On September 15, the Zephyr community is coming together for an in-person meetup at the JetBrains office in Amsterdam. The Zephyr Project is an open-source collaboration project hosted by the Linux Foundation. Its community brings together developers, users, silicon vendors, device manufacturers, and software companies to build a small, scalable real-time […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/clion/2026/09/join-us-at-the-zephyr-project-meetup-in-amsterdam/",
-    "pubDate": "Thu, 10 Sep 2026 10:37:58 +0000",
-    "creator": "Maria Goldade",
-    "categories": [
-      "events",
-      "news",
-      "embedded"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Beyond the model: Engineering AI infra with scientific judgement",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/beyond-the-model-engineering-ai-infra-with-scientific-judgement-371316d43261?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 15 Sep 2026 17:06:18 GMT",
-    "creator": "AirbnbEng",
-    "categories": [
-      "ai-agent",
-      "science",
-      "engineering",
-      "data-science",
-      "ai"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "GPT-6 Astra와 나비에-스토크스 발표, AGI 논쟁이 커진 이유 - OpenAI의 나비에-스토크스 발표와 GPT-6 Astra 역할, CAPTCHA 주장, 유튜브 영상 댓글 반응을 공식 확인 사실과 미확인 주장으로 나눠 정리했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 GPT-6 Astra를 둘러싼 꽤 큰 논쟁이에요. 처음에는 Astra를 AGI라고 부르기에는 조심스럽고, 그래도 Sora나 Fable보다 낫다는 정도로 봤어요. 그런데 OpenAI가 나비에-스토크스 밀레니엄 문제 해법을 발표하면서 이야기가 훨씬 커졌습니다.나비에-스토크스 발표에서 확인된 부분OpenAI 공식 글에 따르면 2026년 9월 8일 OpenAI는 나비에-스토크스 존재성과 매끄러움 문제에 대한 해법과 Lean 형식화를 공개했다고 밝혔어요. 다만 여기서 중요한 차이가 있어요. 문제를 직접 푼 시스템은 GPT-6 Astra보다 더 강한 내부 모델이라고 설명했고, Astra는 Lean 형식화와 검증 단계에 쓰였다고 했습니다.작업 규모도 컸어요. OpenAI는 약 1만 개의 동시 에이전트가 88시간가량 작업했고, 약 1,300억 출력 토큰을 사용했다고 밝혔습니다. 이후 GPT-6 Astra를 통한 Lean 형식화와 검증에 17시간이 더 걸렸다고 해요. 이 숫자만 보면 단일 챗봇 하나가 문제를 툭 풀었다기보다, 거대한 에이전트 집단을 동원한 연구 시스템에 가깝습니다.밀레니엄 문제는 아직 공식 인정과 다르다Clay Mathematics Institute는 밀레니엄 문제를 2000년 5월 24일 파리에서 발표했고, 각 문제에는 100만 달러 상금이 걸려 있어요. 이 중 푸앙카레 추측은 사람이 해결했고, 나머지 문제들은 오랫동안 미해결 상태로 남아 있었습니다.하지만 OpenAI의 발표와 공식 최종 인정은 분리해서 봐야 합니다. Clay의 나비에-스토크스 페이지는 조사 시점에 여전히 Active로 표시되어 있었어요. 그래서 지금 말할 수 있는 건 OpenAI가 해법을 공개했다는 사실이고, Clay가 상금을 인정했다는 뜻은 아닙니다. OpenAI도 밀레니엄 상금을 청구할 의도는 없다고 밝혔습니다.CAPTCHA 통과 주장은 커뮤니티 주장에 가깝다Astra가 CAPTCHA류 문제를 모두 풀었다는 이야기도 같이 퍼졌어요. iHAL 보도에는 Neal Agarwal의 “I’m Not a Robot” CAPTCHA 스타일 게임 48단계를 모두 완료했다는 내용이 나오지만, 조사 패킷 기준으로 OpenAI 공식 문서에서 CAPTCHA 벤치마크로 확인된 내용은 아니었습니다. 그래서 이 부분은 공식 확인 사실이 아니라 커뮤니티 주장으로 보는 게 맞아요.유튜브 영상 댓글에서 나온 반응유튜브 영상 댓글에서는 두 갈래 반응이 보였어요. 가장 많은 공감을 받은 댓글은 Astra가 문제를 푼 게 아니라 더 강한 내부 모델 또는 Bell로 추정되는 모델이 1만 개 에이전트를 구성했고, Astra는 검증에 쓰였다는 지적이었습니다. 또 피지컬 AI까지 붙으면 인간 직업이 크게 흔들릴 수 있다는 걱정, 토큰을 너무 많이 먹는다는 체감, AGI가 맞는지보다 성능 변화가 놀랍다는 반응도 있었습니다.저는 여기서 AGI를 하나의 거대한 모델 하나로만 볼 필요는 없다고 봐요. 1만 개의 의사결정 단위가 모여 문제를 풀고 검증한다면, 그 집단 자체를 새로운 형태의 지능으로 볼 수도 있습니다. 아직 공식 검증은 오래 걸리겠지만, AI가 사람이 하던 일을 하나씩 가져가는 속도는 분명히 빨라지고 있어요.참고 자료이번 정리는 OpenAI의 나비에-스토크스 발표, Clay의 밀레니엄 문제 설명, Clay의 나비에-스토크스 공식 페이지, OpenAI의 GPT-6 Astra 소개, CAPTCHA 관련 보도, 그리고 원본 쇼츠를 바탕으로 작성했어요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6aa902c0accb5eade30768ad",
-    "pubDate": "Tue, 15 Sep 2026 08:33:04 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
-  },
-  {
-    "id": 10,
+    "id": 5,
     "imageUrl": "",
     "title": "[MULTI] 돌아온 일섬의 찰진 손맛과 불꽃 튀는 검극, 귀무자 : 검의 길",
     "description": "No description available",
@@ -161,48 +73,7 @@
     ]
   },
   {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Java 27 in IntelliJ IDEA",
-    "description": "In line with the six-month release cadence, Java 27 was released on September 15, 2026. In this blog post, we will look at what’s included in this release, how IntelliJ IDEA continues to support the latest Java versions, and even how IntelliJ IDEA is benefiting from some of the changes to the JDK. Java 27 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/09/java-27-in-intellij-idea/",
-    "pubDate": "Tue, 15 Sep 2026 14:49:02 +0000",
-    "creator": "Marit van Dijk",
-    "categories": [
-      "java",
-      "news",
-      "intellij-idea",
-      "java-27"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "휴직 일기 - 15일 차 - 쉬는 것에도 리듬이 생기다",
-    "description": "어제는 일요일이란 핑계를 대고 모든 것을 쉬어버렸다. 그런 날도 있는 거다. 오늘은 아내가 외출을 해서 온전히 나만의 시간을 갖게 되었다. 과연 나는 어떻게 하루를 지낼지 궁금했다. 그래도 10여 일 연습을 한 것이 있어서 인지 리듬을 갖게 된 것 같다. 아침 시간은 생각보다 짧다. 아침에 해야 하는 것들이 있다 보니 그렇다. 강아지 산책 시키고, 씻기고,",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/73",
-    "pubDate": "Mon, 14 Sep 2026 13:52:20 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "휴직 일기 - 13일 차 - 가족이라는 존재는",
-    "description": "오늘은 처가 식구들과 가족 모임을 갖게 되었다. 올해 큰 상처가 있던 터라 오랜만에 다시 모여서 서로의 안부를 확인했다.  아내가 박완서 작가의 \"기나긴 하루\"라는 책을 읽고 책의 내용을 이야기해 주었다. 작가가 살았던 그 시절은 나의 부모님이 살던 시절이고 나의 어린 시절이기도 해서 재미있게 들을 수 있었다. 그 시절에는 사연이 없는 사람들이 없을 정도였",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/72",
-    "pubDate": "Sat, 12 Sep 2026 14:13:34 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 14,
+    "id": 6,
     "imageUrl": "",
     "title": "Bringing Correctly Rounded Math to Production with LLVM-libc",
     "description": "As we mentioned in the last cmath blog post, MSVC is using LLVM-libc for compile-time evaluation and runtime execution of math functions when /Zc:cmath is enabled. I invited LLVM-libc contributors Michael Jones and Tue Ly to write a guest blog post about how they’ve achieved what they’ve achieved. This is that blog post! I hope […]\nThe post Bringing Correctly Rounded Math to Production with LLVM-libc appeared first on C++ Team Blog.",
@@ -216,15 +87,136 @@
     ]
   },
   {
-    "id": 15,
+    "id": 7,
     "imageUrl": "",
-    "title": "엘라스틱 Runtime field - 15th",
-    "description": "로그스태시는 문자열 필드를 text(검색용)와 keyword(집계용) 타입으로 나누는데, 이때 집계용 필드 이름에 keyword(fieldname.keyword)를 붙여서 text 타입과 구분한다. beat도 타입별 역할은 같은데, 명명 규칙이 다르다. 검색용 필드 이름에 text를 붙임. \n\n\n\n\n오랜 시간 쌓인 로그스태시 사용자 경험을 무시하는 건 그렇다 치고, 일관성도 없다. 어떤 건 검색용만, 어떤 건 집계용만 존재. .text도 붙였다 안 붙였다(..) ECS가 하도 복잡해서 감당이 안 되나?\n\n\n\n\n\n그래서 keyword 필드로만 작업이 가능한 런타임 필드 생성 시 에로사항 발생. 런타임 필드는 단어 단위로 인덱싱된 text 필드에는 접근하지 못한다.\n\n\n\n\n\n젬미니 왈 원본 데이터에 접근할 수 있는 params['_source'] 구문을 사용하라고. \n\n\n\n\n그런데 v8 이후로 런타임 필드 동작 이상이 잦아서 여간 스트레스가 아니다. 슈뢰딩거의 고양이도 아니고, 필드가 보였다 안 보였다(..) \n\n\n관련 글\n\n엘라스틱 Runtime field - 14th\n엘라스틱 Runtime field\n엘라스틱 Sscripted field\n정규표현식 몰라도 된다 - 2nd",
+    "title": "휴직 일기 - 15일 차 - 쉬는 것에도 리듬이 생기다",
+    "description": "어제는 일요일이란 핑계를 대고 모든 것을 쉬어버렸다. 그런 날도 있는 거다. 오늘은 아내가 외출을 해서 온전히 나만의 시간을 갖게 되었다. 과연 나는 어떻게 하루를 지낼지 궁금했다. 그래도 10여 일 연습을 한 것이 있어서 인지 리듬을 갖게 된 것 같다. 아침 시간은 생각보다 짧다. 아침에 해야 하는 것들이 있다 보니 그렇다. 강아지 산책 시키고, 씻기고,",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/09/runtime-field-15th.html",
-    "pubDate": "2026-09-13T10:24:20.713Z",
+    "link": "https://brunch.co.kr/@@24SO/73",
+    "pubDate": "Mon, 14 Sep 2026 13:52:20 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "악역영애 4컷 만화 - 66화, 움직이면쏘는데스와",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2497",
+    "pubDate": "Wed, 16 Sep 2026 10:28:25 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "웹툰"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Splunk의 xml 처리 - 2nd",
+    "description": "makeresults를 이용한 xml 테스트 환경. csv 포맷이라 ,를 기준으로 데이터가 잘린다.\n\n\n\n\n\neval 명령으로 변경. 그런데 데이터 추가 실패. xml에 포함된 \"와 필드 데이터 구분자인 \"가 충돌하기 때문.\n\n\n\n\nxml에 포함된 \"를 전부 예외처리(\\\").\n\n\n\n참고로 csv 포맷으로 입력한 상태에서 xmlkv와 spath는 \"에 대한 예외처리가 필요 없지만, xpath는 필요하다(..)\n\n\n\n\n\n\n\n관련 글\n\n\nSplunk의 xml 처리\nxpath를 이용한 이벤트 로그 필터링\nLogstash 필터 xml",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/09/splunk-xml-2nd.html",
+    "pubDate": "2026-09-15T12:47:04.169Z",
     "creator": "Unknown",
     "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "GPT-6 Astra와 나비에-스토크스 발표, AGI 논쟁이 커진 이유 - OpenAI의 나비에-스토크스 발표와 GPT-6 Astra 역할, CAPTCHA 주장, 유튜브 영상 댓글 반응을 공식 확인 사실과 미확인 주장으로 나눠 정리했어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 GPT-6 Astra를 둘러싼 꽤 큰 논쟁이에요. 처음에는 Astra를 AGI라고 부르기에는 조심스럽고, 그래도 Sora나 Fable보다 낫다는 정도로 봤어요. 그런데 OpenAI가 나비에-스토크스 밀레니엄 문제 해법을 발표하면서 이야기가 훨씬 커졌습니다.나비에-스토크스 발표에서 확인된 부분OpenAI 공식 글에 따르면 2026년 9월 8일 OpenAI는 나비에-스토크스 존재성과 매끄러움 문제에 대한 해법과 Lean 형식화를 공개했다고 밝혔어요. 다만 여기서 중요한 차이가 있어요. 문제를 직접 푼 시스템은 GPT-6 Astra보다 더 강한 내부 모델이라고 설명했고, Astra는 Lean 형식화와 검증 단계에 쓰였다고 했습니다.작업 규모도 컸어요. OpenAI는 약 1만 개의 동시 에이전트가 88시간가량 작업했고, 약 1,300억 출력 토큰을 사용했다고 밝혔습니다. 이후 GPT-6 Astra를 통한 Lean 형식화와 검증에 17시간이 더 걸렸다고 해요. 이 숫자만 보면 단일 챗봇 하나가 문제를 툭 풀었다기보다, 거대한 에이전트 집단을 동원한 연구 시스템에 가깝습니다.밀레니엄 문제는 아직 공식 인정과 다르다Clay Mathematics Institute는 밀레니엄 문제를 2000년 5월 24일 파리에서 발표했고, 각 문제에는 100만 달러 상금이 걸려 있어요. 이 중 푸앙카레 추측은 사람이 해결했고, 나머지 문제들은 오랫동안 미해결 상태로 남아 있었습니다.하지만 OpenAI의 발표와 공식 최종 인정은 분리해서 봐야 합니다. Clay의 나비에-스토크스 페이지는 조사 시점에 여전히 Active로 표시되어 있었어요. 그래서 지금 말할 수 있는 건 OpenAI가 해법을 공개했다는 사실이고, Clay가 상금을 인정했다는 뜻은 아닙니다. OpenAI도 밀레니엄 상금을 청구할 의도는 없다고 밝혔습니다.CAPTCHA 통과 주장은 커뮤니티 주장에 가깝다Astra가 CAPTCHA류 문제를 모두 풀었다는 이야기도 같이 퍼졌어요. iHAL 보도에는 Neal Agarwal의 “I’m Not a Robot” CAPTCHA 스타일 게임 48단계를 모두 완료했다는 내용이 나오지만, 조사 패킷 기준으로 OpenAI 공식 문서에서 CAPTCHA 벤치마크로 확인된 내용은 아니었습니다. 그래서 이 부분은 공식 확인 사실이 아니라 커뮤니티 주장으로 보는 게 맞아요.유튜브 영상 댓글에서 나온 반응유튜브 영상 댓글에서는 두 갈래 반응이 보였어요. 가장 많은 공감을 받은 댓글은 Astra가 문제를 푼 게 아니라 더 강한 내부 모델 또는 Bell로 추정되는 모델이 1만 개 에이전트를 구성했고, Astra는 검증에 쓰였다는 지적이었습니다. 또 피지컬 AI까지 붙으면 인간 직업이 크게 흔들릴 수 있다는 걱정, 토큰을 너무 많이 먹는다는 체감, AGI가 맞는지보다 성능 변화가 놀랍다는 반응도 있었습니다.저는 여기서 AGI를 하나의 거대한 모델 하나로만 볼 필요는 없다고 봐요. 1만 개의 의사결정 단위가 모여 문제를 풀고 검증한다면, 그 집단 자체를 새로운 형태의 지능으로 볼 수도 있습니다. 아직 공식 검증은 오래 걸리겠지만, AI가 사람이 하던 일을 하나씩 가져가는 속도는 분명히 빨라지고 있어요.참고 자료이번 정리는 OpenAI의 나비에-스토크스 발표, Clay의 밀레니엄 문제 설명, Clay의 나비에-스토크스 공식 페이지, OpenAI의 GPT-6 Astra 소개, CAPTCHA 관련 보도, 그리고 원본 쇼츠를 바탕으로 작성했어요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6aa902c0accb5eade30768ad",
+    "pubDate": "Tue, 15 Sep 2026 08:33:04 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "휴직 일기 - 16일 차",
+    "description": "핸드폰의 알람을 꺼두었지만 아침 7시면 눈이 떠지게 된다. 물론 밤사이 몇 번 눈을 뜬다. 하지만 일어나는 시간은 7시 무렵이다. 이게 반가운 일이다. 수면의 퀄리티는 아직 문제가 있지만 몸이 때가 되면 깨어난다는 것은 정상이란 것이다. 양질의 수면을 지키기 위해 노력하지만 나이가 들수록 쉽지 않다. 게다가 회사를 다닐 때는 스트레스로 인하여 더욱 다이내믹",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/74",
+    "pubDate": "Tue, 15 Sep 2026 14:01:54 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Rider and ReSharper 2026.2.2 Are Out!",
+    "description": "We’ve released version 2026.2.2 of ReSharper, Rider, and .NET tools. You can install this update from inside the tools themselves, through the Toolbox App, or on our website. Here’s what’s new in this update. Rider 2026.2.2 AI Agent Setup widget We’ve recently added a wide range of features to help you work with coding agents […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/09/16/rd-rs-2026-2-2/",
+    "pubDate": "Wed, 16 Sep 2026 14:12:44 +0000",
+    "creator": "Alexander Kurakin",
+    "categories": [
+      "net-tools",
+      "releases",
+      "rider",
+      "ai-agent-hooks",
+      "ai-agents",
+      "code-coverage",
+      "resharper"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Today I will… improve test coverage",
+    "description": "Today I want to look at how we can improve on the test coverage that we have in the Interview Coach application. This application has some unit tests in it already, but I’m sure there is room for improvement. Defining our baseline Before we start writing tests, it’s a good idea to have a baseline […]\nThe post Today I will… improve test coverage appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-improve-test-coverage/",
+    "pubDate": "Tue, 15 Sep 2026 16:00:21 +0000",
+    "creator": "Aaron Powell",
+    "categories": [
+      "Code Coverage",
+      "Copilot",
+      "Productivity",
+      "Testing"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "AI를 쓰는 두가지 방법",
+    "description": "AI 를 쓰는 두가지 방법– Anthropic, OpenAI, Google 제품 등을 쓴다.– 우리 회사만의 LLM을 구축해서 쓴다. AI를 많이 쓰지 않는 분들은 오해를 합니다.AI를 사용하는 게 쉬우니까, AI를 구축하는 것도 쉽다고 말이죠. 아닙니다.두 개의 영역은 완전히 다릅니다.ChatGPT를 쓰는 것과 ChatGPT를 만드는 것의 차이입니다. 정리해 봅니다. 1. AI를 잘 쓰는 방법 1.1. 웹 브라우저로 chatgpt에 접속한다. ChatGPT […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://subokim.wordpress.com/2026/09/15/enterprise-ai/",
+    "pubDate": "Tue, 15 Sep 2026 14:47:39 +0000",
+    "creator": "subokim",
+    "categories": [
+      "산업이야기"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "C++ in the Age of AI: Visual Studio at CppCon 2026",
+    "description": "At CppCon 2026, we shared how Visual Studio is evolving to help you work more effectively with large C++ codebases, improve build and runtime performance, adopt the latest language features, and incorporate AI into your existing workflows. This post is a companion reading guide for our session, C++ in the Age of AI: How Visual […]\nThe post C++ in the Age of AI: Visual Studio at CppCon 2026 appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/c-in-the-age-of-ai-visual-studio-at-cppcon-2026/",
+    "pubDate": "Mon, 14 Sep 2026 19:34:43 +0000",
+    "creator": "Augustin Popa",
+    "categories": [
+      "Build Optimization",
+      "C++",
+      "Copilot",
+      "MSVC",
+      "Visual Studio"
+    ]
   }
 ]
