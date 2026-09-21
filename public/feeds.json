@@ -60,24 +60,6 @@
           "visual studio 2026"
         ],
         "isoDate": "2026-09-14T06:38:16.000Z"
-      },
-      {
-        "creator": "Augustin Popa",
-        "title": "Microsoft at CppCon 2026",
-        "link": "https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2026/",
-        "pubDate": "Mon, 14 Sep 2026 00:16:42 +0000",
-        "content:encodedSnippet": "Microsoft will be at CppCon 2026 in Aurora, Colorado, which is taking place from September 14 through 18. Join us for talks from Microsoft speakers and colleagues across the C++ community and visit the Microsoft booth Monday through Thursday to meet the team and discuss the tools, technologies, and challenges that matter to you. If you can’t make it, you can still watch the talks later on YouTube.\nSurvey\nWhether you are going to the conference or not, we also invite you to take our annual CppCon survey at aka.ms/cppcon/survey. Your feedback can help us improve our C++ developer tools and focus on solving the most pressing issues. If you are present at the conference, by taking the survey, you will also be entered into a daily raffle (Monday – Thursday), for a chance to win a Lego® prize! To participate in the raffle, simply fill out the survey, and visit the Microsoft booth at 4:30 PM each day to have a chance to win!\nMicrosoft sessions at CppCon\nOur speakers will cover AI-assisted development, MSVC, Visual Studio and Visual Studio Code, compiler optimization, C++ safety, language design, and lessons from applying stricter compiler warnings to a large production codebase. All times below are in Mountain Daylight Time (MDT).\nMonday, September 14\nThe journey to “/W4 /WX”: How hard could it be?\nKeith Stockdale\n3:15 PM to 4:15 PM\nLearn what happened when Rare enabled /W4 /WX in the multi-million-line Sea of Thieves codebase. Keith will share the team’s motivations, the work involved, the warnings that proved most valuable, and the issues uncovered along the way.\nC++ in the Age of AI: How Visual Studio Is Evolving\nDavid Li and Augustin Popa\n4:45 PM to 5:45 PM\nSee how Visual Studio is evolving for modern C++ development, with investments in IDE performance for large codebases, compiler conformance and runtime performance, and AI-powered workflows for debugging, refactoring, and optimization. The session will also show how command-line AI tools can fit into your development workflow.\nTuesday, September 15\nWhat’s New for C++ in Visual Studio Code: C++ and AI Tooling for Your Build, Your Code, Your Workflow\nSinem Akinci and Ben McMorran\n9:00 AM to 10:00 AM\nExplore improvements across the C++ development loop in Visual Studio Code, including parallel agent workflows, richer project context for GitHub Copilot, and new features for CMake development. The speakers will also demonstrate ways to share team practices through skills, custom instructions, and custom agents.\nWednesday, September 16\nTurbocharging Native Code Performance: Compiler Optimizations, Profile-Guided Optimizations, and Beyond\nEric Brumer\n2:00 PM to 3:00 PM\nLearn about new and improved compiler optimizations in Visual Studio 2026, from scalar replacement and vectorization to AVX-512 and NEON-specific improvements. Eric will also introduce sample-based profile-guided optimization (SPGO), explain how it uses runtime behavior to guide optimization decisions without traditional instrumentation, and show how to apply it in practice.\nThursday, September 17\nThe C++ Safety Issues Your Tools Can’t See\nIon Todirel\n3:15 PM to 4:15 PM\nExamine C++ safety problems that can compile cleanly and pass code review but still fail at runtime. Ion will cover recurring patterns involving temporary lifetimes, iterator invalidation, smart pointer ownership, coroutine frames, and implicit conversions, building a practical toolkit for recognizing these issues during code review.\nVisit the Microsoft booth\nThe Microsoft booth will be open Monday through Thursday, September 14 through 17. Stop by to meet engineers and product team members working on Visual Studio, Visual Studio Code, Microsoft C++ (MSVC) Build Tools, GitHub Copilot, and vcpkg.\nWe want to hear how you build C++ software today, where your tools help, and where they get in your way. Bring your questions, share feedback, see what we’re working on, or just come say hello.\nPlan your CppCon week\nReview the full CppCon 2026 schedule for the latest session details and any schedule changes. If you can’t attend a session in person, main conference talks will be published on the CppCon YouTube channel after the conference.\nWe hope you’ll join our talks, visit the booth, and share your feedback with the team throughout the week.\n \nThe post Microsoft at CppCon 2026 appeared first on C++ Team Blog.",
-        "dc:creator": "Augustin Popa",
-        "comments": "https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2026/#respond",
-        "content": "<p>Microsoft will be at CppCon 2026 in Aurora, Colorado, which is taking place from September 14 through 18. Join us for talks from Microsoft speakers and colleagues across the C++ community and visit the Microsoft booth Monday through Thursday to meet the team and discuss the tools, technologies, and challenges that matter to you. If [&#8230;]</p>\n<p>The post <a href=\"https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2026/\">Microsoft at CppCon 2026</a> appeared first on <a href=\"https://devblogs.microsoft.com/cppblog\">C++ Team Blog</a>.</p>\n",
-        "contentSnippet": "Microsoft will be at CppCon 2026 in Aurora, Colorado, which is taking place from September 14 through 18. Join us for talks from Microsoft speakers and colleagues across the C++ community and visit the Microsoft booth Monday through Thursday to meet the team and discuss the tools, technologies, and challenges that matter to you. If […]\nThe post Microsoft at CppCon 2026 appeared first on C++ Team Blog.",
-        "guid": "https://devblogs.microsoft.com/cppblog/?p=36890",
-        "categories": [
-          "C++",
-          "Survey",
-          "CppCon"
-        ],
-        "isoDate": "2026-09-14T00:16:42.000Z"
       }
     ]
   },
@@ -570,6 +552,17 @@
     "posts": [
       {
         "creator": "고종범",
+        "title": "휴직 일기 - 21일 차",
+        "link": "https://brunch.co.kr/@@24SO/78",
+        "pubDate": "Sun, 20 Sep 2026 14:46:16 GMT",
+        "author": "고종범",
+        "content": "오늘도 가을 날씨가 좋았다. 조금 덥기는 했지만 바람이 불어 시원했다. 의자에 앉아 책을 읽다가 스르르 잠에 들었던 날씨였다.  어제는 갑작스러운 일로 5시간 운전을 했는데 오늘은 한가롭게 날씨를 즐겼다. 많은 사람들이 공원에 돗자리나 텐트를 치고 가족들과 좋은 시간을 보내고 있었다. 그냥 평범한 가을의 주말이었다.  주말은 잘 보냈고 또 한 주를 시작해야<img src= \"https://img1.kakaocdn.net/thumb/R1280x0.fjpg/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Fbrunch%2Fservice%2Fuser%2F24SO%2Fimage%2FO2DQI-Imy9qbjwahaT0d1aHiRJg.JPEG\" width=\"500\" />",
+        "contentSnippet": "오늘도 가을 날씨가 좋았다. 조금 덥기는 했지만 바람이 불어 시원했다. 의자에 앉아 책을 읽다가 스르르 잠에 들었던 날씨였다.  어제는 갑작스러운 일로 5시간 운전을 했는데 오늘은 한가롭게 날씨를 즐겼다. 많은 사람들이 공원에 돗자리나 텐트를 치고 가족들과 좋은 시간을 보내고 있었다. 그냥 평범한 가을의 주말이었다.  주말은 잘 보냈고 또 한 주를 시작해야",
+        "guid": "https://brunch.co.kr/@@24SO/78",
+        "isoDate": "2026-09-20T14:46:16.000Z"
+      },
+      {
+        "creator": "고종범",
         "title": "휴직 일기 - 19일 차 - 언어를 배운 다는 것에 대하여",
         "link": "https://brunch.co.kr/@@24SO/77",
         "pubDate": "Fri, 18 Sep 2026 13:53:18 GMT",
@@ -698,16 +691,6 @@
         "contentSnippet": "makeresults를 이용한 xml 테스트 환경. csv 포맷이라 ,를 기준으로 데이터가 잘린다.\n\n\n\n\n\neval 명령으로 변경. 그런데 데이터 추가 실패. xml에 포함된 \"와 필드 데이터 구분자인 \"가 충돌하기 때문.\n\n\n\n\nxml에 포함된 \"를 전부 예외처리(\\\").\n\n\n\n참고로 csv 포맷으로 입력한 상태에서 xmlkv와 spath는 \"에 대한 예외처리가 필요 없지만, xpath는 필요하다(..)\n\n\n\n\n\n\n\n관련 글\n\n\nSplunk의 xml 처리\nxpath를 이용한 이벤트 로그 필터링\nLogstash 필터 xml",
         "id": "tag:blogger.com,1999:blog-2597780270996323853.post-5254584763866083391",
         "isoDate": "2026-09-15T12:47:04.169Z"
-      },
-      {
-        "title": "엘라스틱 Runtime field - 15th",
-        "link": "https://kangmyounghun.blogspot.com/2026/09/runtime-field-15th.html",
-        "pubDate": "2026-09-13T10:24:20.713Z",
-        "author": "강명훈",
-        "content": "<div>로그스태시는 문자열 필드를 text<span style=\"font-size: x-small;\">(검색용)</span>와 keyword<span style=\"font-size: x-small;\">(집계용)</span> 타입으로 나누는데, 이때 집계용 필드 이름에 keyword<span style=\"font-size: x-small;\">(fieldname.keyword)</span>를 붙여서 text 타입과 구분한다. beat도 타입별 역할은 같은데, 명명 규칙이 다르다. 검색용 필드 이름에 text를 붙임.&nbsp;</div><div><br /></div><div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDbIxwbyvqm3UxHm7Ep_7Erv7ycocP33E5VUYIIKvFcQ4R6qkf8ifnlOtkxkQ8Moxg3g9_5g5FsdgWJ_xGXMQNEqQgBKpn1aVQuFB40kyaj5PlfiR3PwSEf2aJ_67rMgskzQPpKwj0wyvKl7dwRhpexSxF19nKsnARuoXM4AAHr3_HB2K85wInHIQBalFQ/s1163/winlogbeat_mapping.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"696\" data-original-width=\"1163\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDbIxwbyvqm3UxHm7Ep_7Erv7ycocP33E5VUYIIKvFcQ4R6qkf8ifnlOtkxkQ8Moxg3g9_5g5FsdgWJ_xGXMQNEqQgBKpn1aVQuFB40kyaj5PlfiR3PwSEf2aJ_67rMgskzQPpKwj0wyvKl7dwRhpexSxF19nKsnARuoXM4AAHr3_HB2K85wInHIQBalFQ/s1600/winlogbeat_mapping.png\" /></a></div><br /><div><span style=\"font-size: x-small;\"><strike><span><a name='more'></a></span></strike></span>오랜 시간 쌓인 로그스태시 사용자 경험을 무시하는 건 그렇다 치고, 일관성도 없다. 어떤 건 검색용만, 어떤 건 집계용만 존재. <span style=\"font-family: courier;\">.</span>text도 붙였다 안 붙였다<span style=\"font-size: x-small;\">(..)</span> ECS가 하도 복잡해서 감당이 안 되나?</div></div><div><br /></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQtfj9kDvxL3hu7CLDi1oYeJyAj94P_8QZUn9XMk8_o3oNNma4jKsQfpyRp39XikJco57nRAdMwf48i7xd5wpF5X6p3gfbj2-4USPXfqh6wtAc9N-vS90z72arUlmCp7wyaOmDJvkTH2TCBf8VZ4c0Am9jcWZEQW4fB4LVf8sA4VV9MHU5OHi1Tv4NMEfy/s1163/winlogbeat_mapping2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"696\" data-original-width=\"1163\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQtfj9kDvxL3hu7CLDi1oYeJyAj94P_8QZUn9XMk8_o3oNNma4jKsQfpyRp39XikJco57nRAdMwf48i7xd5wpF5X6p3gfbj2-4USPXfqh6wtAc9N-vS90z72arUlmCp7wyaOmDJvkTH2TCBf8VZ4c0Am9jcWZEQW4fB4LVf8sA4VV9MHU5OHi1Tv4NMEfy/s1600/winlogbeat_mapping2.png\" /></a></div><div><br /></div><div>그래서 keyword 필드로만 작업이 가능한 런타임 필드 생성 시 에로사항 발생. 런타임 필드는 단어 단위로 인덱싱된 text 필드에는 접근하지 못한다.</div><div><br /></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWPESKvI0BPd_ChAD3vL80uYGWhsf8B30o_BxBhAfAStq9y_1hMVYkNjY-XiJNlWcPxqntoIETlmGkR04h_PYjnT8NmbXcyebgkQr_Y73lCNySTrO6KYn-zAXFzB70WlpDv5E-Ff_q9cQQU5LLntRz6jqxh_GheVmAAJ6tinqtIPVJUDaJr_ZxxXr7DkC5/s1163/runtime_field_text.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"720\" data-original-width=\"1163\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWPESKvI0BPd_ChAD3vL80uYGWhsf8B30o_BxBhAfAStq9y_1hMVYkNjY-XiJNlWcPxqntoIETlmGkR04h_PYjnT8NmbXcyebgkQr_Y73lCNySTrO6KYn-zAXFzB70WlpDv5E-Ff_q9cQQU5LLntRz6jqxh_GheVmAAJ6tinqtIPVJUDaJr_ZxxXr7DkC5/s1600/runtime_field_text.png\" /></a></div><div><br /></div><div>젬미니 왈&nbsp;<a href=\"https://kangmyounghun.blogspot.com/2024/05/runtime-field-9th.html\">원본 데이터에 접근할 수 있는 params['_source']</a>&nbsp;구문을 사용하라고.&nbsp;</div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEira8m-QiblkvfFr6P6tHoj84ssmWQxicyx_DoUFqrf84ptBvC_ZCTy6l8zcE0o_Q0ZeRizsxEgQyN9i8Z6f-kpQ2I0ZF_a6PFQaoinYBiUNw0yhoHPMWO3kCp1I26u6bhRC33C44vqO7C41ezthEaksn7t-GUq0I5QZiA2tHbK7blm2K9aeB2I5LbmbU9b/s1163/runtime_field_source.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"720\" data-original-width=\"1163\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEira8m-QiblkvfFr6P6tHoj84ssmWQxicyx_DoUFqrf84ptBvC_ZCTy6l8zcE0o_Q0ZeRizsxEgQyN9i8Z6f-kpQ2I0ZF_a6PFQaoinYBiUNw0yhoHPMWO3kCp1I26u6bhRC33C44vqO7C41ezthEaksn7t-GUq0I5QZiA2tHbK7blm2K9aeB2I5LbmbU9b/s1600/runtime_field_source.png\" /></a></div><div><br /></div><div>그런데 v8 이후로 런타임 필드 동작 이상이 잦아서 여간 스트레스가 아니다. 슈뢰딩거의 고양이도 아니고, 필드가 보였다 안 보였다<span style=\"font-size: x-small;\">(..)</span>&nbsp;</div><div><br /></div><div><div><b>관련 글</b></div><div><ul><li><a href=\"https://kangmyounghun.blogspot.com/2026/08/runtime-field-14th.html\">엘라스틱 Runtime field - 14th</a></li><li><a href=\"https://kangmyounghun.blogspot.com/2021/03/712.html\" target=\"\">엘라스틱 Runtime field</a></li><li><a href=\"http://kangmyounghun.blogspot.com/2018/07/elasticsearch-scripted-field.html\" target=\"\">엘라스틱 Sscripted field</a></li><li><a href=\"https://kangmyounghun.blogspot.com/2021/09/2nd.html\" target=\"\">정규표현식 몰라도 된다 - 2nd</a></li></ul></div></div>",
-        "contentSnippet": "로그스태시는 문자열 필드를 text(검색용)와 keyword(집계용) 타입으로 나누는데, 이때 집계용 필드 이름에 keyword(fieldname.keyword)를 붙여서 text 타입과 구분한다. beat도 타입별 역할은 같은데, 명명 규칙이 다르다. 검색용 필드 이름에 text를 붙임. \n\n\n\n\n오랜 시간 쌓인 로그스태시 사용자 경험을 무시하는 건 그렇다 치고, 일관성도 없다. 어떤 건 검색용만, 어떤 건 집계용만 존재. .text도 붙였다 안 붙였다(..) ECS가 하도 복잡해서 감당이 안 되나?\n\n\n\n\n\n그래서 keyword 필드로만 작업이 가능한 런타임 필드 생성 시 에로사항 발생. 런타임 필드는 단어 단위로 인덱싱된 text 필드에는 접근하지 못한다.\n\n\n\n\n\n젬미니 왈 원본 데이터에 접근할 수 있는 params['_source'] 구문을 사용하라고. \n\n\n\n\n그런데 v8 이후로 런타임 필드 동작 이상이 잦아서 여간 스트레스가 아니다. 슈뢰딩거의 고양이도 아니고, 필드가 보였다 안 보였다(..) \n\n\n관련 글\n\n엘라스틱 Runtime field - 14th\n엘라스틱 Runtime field\n엘라스틱 Sscripted field\n정규표현식 몰라도 된다 - 2nd",
-        "id": "tag:blogger.com,1999:blog-2597780270996323853.post-244724656805983240",
-        "isoDate": "2026-09-13T10:24:20.713Z"
       }
     ]
   },
@@ -825,6 +808,19 @@
     "name": "루리웹 - 루리웹 리뷰 게시판",
     "category": "게임",
     "posts": [
+      {
+        "creator": "샤말란의눈",
+        "title": "[MULTI] TGS2026 취재·방송 등 관련 기사 종합",
+        "link": "https://bbs.ruliweb.com/news/board/11/read/2498",
+        "pubDate": "Mon, 21 Sep 2026 06:10:49 +0900",
+        "author": "샤말란의눈",
+        "content": "<img width=\"236\" height=\"177\" src=\"https://i1.ruliweb.com/thumb/26/08/17/1a00e6564bc13b2a1.webp\">",
+        "contentSnippet": "",
+        "categories": [
+          "특집"
+        ],
+        "isoDate": "2026-09-20T21:10:49.000Z"
+      },
       {
         "creator": "｜RULIWEB｜",
         "title": "악역영애 4컷 만화 - 66화, 움직이면쏘는데스와",
@@ -1054,6 +1050,20 @@
     "posts": [
       {
         "creator": "dlehddus84",
+        "title": "멍친스톤의 냥들, 항로개척자",
+        "link": "https://blog.naver.com/dlehddus84/224417857147?fromRss=true&trackingCode=rss",
+        "pubDate": "Sun, 20 Sep 2026 17:51:58 +0900",
+        "author": "dlehddus84",
+        "content": "가볍게 꺼내기 좋은 멍친스톤이다. 지역 1~4까지 플레이하면서 강화한 카드로 보스를 잡는 게임으로 여정과 전투 두개의 부분에서 적절한 속성과 수치를 사용하는 게임이다. 1~4지역을 클리어하면서 얼마나 강화를 잘했는지와 손패 드로우에 보스를 잡을 수 있는지 아닌지 정해진다. 이번 보스는 엘레노르 인데 여정에 1회 전투에 1회 하고 모든데미지를 받을 수 있으면 클리어다. 하지만 여정에서 패가 안좋게 뽑히면서 카드가 많이 버려져 전투에서 그냥 털러버렸다... 다음은 항로개척자. 플루토게임즈에서 출시한 게임으로 리마스터 판 펀딩이 끝난 제품이다. 난 벌써 구판이 됬다. 12개월동안 세계를 돌아다니면서 미션을 달성하여 높은 점....... <img src=\"https://blogthumb.pstatic.net/MjAyNjA5MjBfMjU4/MDAxNzg5ODkzODYzMDIz.XDUhjvo3HS_Z271-Onkme5ibl7xGACko-Mx6QMc14TUg.TBeN87f792AjVnEfvx-1Faq6ZM-CcZwamzZfU34a1hIg.JPEG/KakaoTalk_20260920_173757944.jpg?type=s3\" />",
+        "contentSnippet": "가볍게 꺼내기 좋은 멍친스톤이다. 지역 1~4까지 플레이하면서 강화한 카드로 보스를 잡는 게임으로 여정과 전투 두개의 부분에서 적절한 속성과 수치를 사용하는 게임이다. 1~4지역을 클리어하면서 얼마나 강화를 잘했는지와 손패 드로우에 보스를 잡을 수 있는지 아닌지 정해진다. 이번 보스는 엘레노르 인데 여정에 1회 전투에 1회 하고 모든데미지를 받을 수 있으면 클리어다. 하지만 여정에서 패가 안좋게 뽑히면서 카드가 많이 버려져 전투에서 그냥 털러버렸다... 다음은 항로개척자. 플루토게임즈에서 출시한 게임으로 리마스터 판 펀딩이 끝난 제품이다. 난 벌써 구판이 됬다. 12개월동안 세계를 돌아다니면서 미션을 달성하여 높은 점.......",
+        "guid": "https://blog.naver.com/dlehddus84/224417857147",
+        "categories": [
+          "플레이"
+        ],
+        "isoDate": "2026-09-20T08:51:58.000Z"
+      },
+      {
+        "creator": "dlehddus84",
         "title": "브라스 버밍엄 맥주토큰 도색",
         "link": "https://blog.naver.com/dlehddus84/224416489291?fromRss=true&trackingCode=rss",
         "pubDate": "Fri, 18 Sep 2026 22:38:26 +0900",
@@ -1101,16 +1111,7 @@
   {
     "name": "TOAST Meetup",
     "category": "기업",
-    "posts": [
-      {
-        "title": "AI 번역의 시대1: 세태(世態)",
-        "link": "https://meetup.nhncloud.com/posts/422",
-        "pubDate": "Mon, 14 Sep 2026 01:40:45 GMT",
-        "content": "[![NHN Cloud_meetup banner_AI-translation_202609.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerAItranslation202609.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 세태(世態), 사람들의 일상생활\r\r\n\r\r\n지금 바로 클로드에 접속해, 문장 하나를 쓰고 \"영어로 번역해줘\"라는 프롬프트를 날려보세요. 어떠한 길이의 문장이나 표현이든지 빠르게 번역하고, 더 나아가 문맥을 물으며 대안을 제시하기도 합니다. AI의 등장과 발전 덕분에 누구든지 외국어를 배우지 않고도 다른 언어권의 사람과 소통할 수 있는 시대가 되었습니다.\r\r\n\r\r\n넷플릭스는 2026년 초에 공개한 주주 서한에서 콘텐츠 제작과 홍보 전 과정에 AI를 도입한다고 밝혔습니다. 자막 로컬라이제이션에 AI를 활용하여 보다 많은 시청자가 언어 장벽 없이 작품에 접근할 수 있게 하겠다는 것입니다. 유튜브는 2025년 9월, 2년간의 시험 운영을 마친 AI 다국어 더빙 기능을 전 세계의 크리에이터들에게 정식으로 출시했습니다. 화자의 억양과 톤까지 재현하는 음성 복제 방식인데, 이 기능을 쓴 채널은 전체 시청 시간의 25% 이상이 원어가 아닌 다른 언어권에서 나왔다고 합니다. 또한 올해 3월에 출시된 삼성 갤럭시 S26에서는 오버레이 번역이라는 기능이 추가되었습니다. 카메라로 메뉴판을 비추면 원문이 있던 자리에 그대로 번역문을 그려 넣는 방식입니다. 화면뿐 아니라 실시간 영상에도 번역 결과가 따라다닙니다.\r\r\n\r\r\n즐겨 이용하는 콘텐츠, 업무 등 우리들의 일상생활 곳곳에서 AI 번역이 이루어지고 있습니다. 번역가인 저도 이 흐름을 직접적으로 겪고 있습니다. CAT(Computer-Assisted Translation) 툴로 번역 업무를 하던 저 역시 클로드나 제미나이를 활용해 번역 업무를 수행하는 횟수가 늘어났습니다. 특히 짧은 문장이나 일정이 급한 작업은 클로드에 업로드한 번역 지침과 용어집(글로서리)를 참고해 AI가 번역하고 인간이 검수하는 경우가 많아졌습니다.\r\r\n\r\r\nAI 번역의 정확도가 완벽하지 않은 경우도 있지만 생산성과 속도가 어마무시하기에 저의 일손을 크게 돕고 있습니다. AI 번역은 신기한 것을 넘어서서 우리의 자연스러운 일상이 되어가고 있는데요. 그렇다면 어떻게 AI가 사람의 언어를 자연스럽게 번역할 수 있게 되었을까요? 그 이면에는 나름 복잡한 체계가 작동하고 있습니다.\r\r\n\r\r\n## AI의 번역 방식\r\r\n\r\r\n### LLM, 다음 토큰을 예측하다\r\r\n\r\r\n현재 가장 널리 쓰이는 AI 번역은 클로드·GPT·제미나이 같은 범용 대규모 언어모델(Large Language Model, LLM)에 \"번역해줘\"라고 프롬프트로 시키는 방식입니다. LLM 입장에서는 \"번역\"이 특별한 작업이 아닙니다. 그저 \"번역해줘: [원문]\"이라는 텍스트 뒤에 자연스럽게 이어질 토큰을 계속 예측하는 것으로서 모델이 원래 하던 동작과 동일합니다.\r\r\n\r\r\n### 번역을 잘하는 이유\r\r\n\r\r\n번역을 따로 가르친 적이 없는데도 이걸 잘 해내는 이유는, 학습 과정에서 같은 개념을 여러 언어로 설명하는 방대한 텍스트(위키백과, 다국어 웹 문서 등)를 함께 접했기 때문입니다. 언어 간 대응 관계를 명시적으로 배운 게 아니라, 방대한 데이터 속에서 암묵적으로 습득한 결과인 셈입니다.\r\r\n\r\r\n여기에는 구조적 차이도 하나 있습니다. 파파고 같은 기존 신경망 기계번역(Neural Machine Translation, NMT)은 원문을 읽는 인코더와 번역문을 쓰는 디코더가 분리된 **Encoder-Decoder** 구조인 반면, LLM은 원문과 번역문을 하나의 문맥으로 통째로 이어 처리하는 **Decoder-Only** 구조입니다. 이 구조는 인코더와 디코더를 따로 만들 필요 없이 디코더 하나만 깊게 쌓으면 되기 때문에 모델을 더 크게 키우기도 훨씬 수월하고, 정렬된 언어쌍 데이터 없이도 이 방대한 데이터를 그대로 학습에 쓸 수 있어 데이터 확보 면에서도 스케일링이 유리합니다.\r\r\n\r\r\n![architecture_comparison.png](https://image.toast.com/aaaadh/alpha/2026/techblog/architecturecomparison.png)\r\r\n\r\r\nLLM의 동작 원리 자체는 단순합니다. LLM은 주어진 텍스트 다음에 올 토큰을 확률적으로 예측하고, 하나씩 이어 붙여 문장을 만듭니다. 이 동작을 뒷받침하는 게 문장 안의 모든 토큰이 서로 얼마나 관련 있는지 한 번에 계산해서, 지금 만들 토큰이 어디에 얼마나 **주목**해야 하는지를 정하는 방식인 **셀프 어텐션(self-attention)**입니다. 사실 셀프 어텐션 자체는 LLM만의 원리가 아닙니다.\r\r\n원조 트랜스포머(2017)를 쓰는 NMT도 인코더와 디코더 내부에서 각각 셀프 어텐션을 쓰고, 그 둘을 잇는 크로스 어텐션(cross-attention)까지 갖춘 구조입니다. 반면 LLM은 인코더도 크로스 어텐션도 없이, 원문과 번역문을 하나로 이어 붙인 뒤 인과적 셀프 어텐션(causal self-attention) 하나만으로 전체 관계를 계산합니다. 이 구조 덕분에 문장이 길어져도 정보가 희석되지 않고, 학습 속도도 비약적으로 빨라졌습니다.\r\r\n\r\r\n![token_prediction_flow.png](https://image.toast.com/aaaadh/alpha/2026/techblog/tokenpredictionflow.png)\r\r\n\r\r\n### NMT vs LLM\r\r\n\r\r\n방금 살펴본 Encoder-Decoder(NMT)와 Decoder-Only(LLM), 즉 문장 단위 처리와 문서 전체를 하나의 문맥으로 처리하는 방식의 차이는 실무에서 아래와 같이 나타납니다.\r\r\n\r\r\n|  | 기존 NMT | LLM 기반 |\r\r\n| --- | ------ | ------ |\r\r\n| 처리 단위 | 문장 단위 | 문서·대화 전체 |\r\r\n| 지시 반영 | 파인튜닝 필요 | 프롬프트로 즉시 반영(In-Context Learning) |\r\r\n| 일관성 | Constrained Decoding으로 높은 확률로 강제 가능 | 문서가 길면 흔들릴 수 있음 |\r\r\n| 속도 | ~100ms | NMT 대비 최대 20배↑ 느림(업계 전반 10~100배) |\r\r\n\r\r\n속도 차이의 원인도 구조에 있습니다. 두 방식 모두 토큰을 한 개씩 순차 생성하지만, LLM은 매 토큰마다 훨씬 많은 레이어와 파라미터를 통과해야 합니다. 이전 토큰들의 연산을 재사용하는 KV 캐시 덕분에 매번 처음부터 다시 계산하지는 않지만, 문맥이 길어질수록 캐시 자체의 크기와 매 스텝 참조해야 할 범위가 함께 커져서 지연시간이 늘어납니다. 그래서 지연시간이 중요한 환경에서는 지금도 NMT가 쓰입니다. 이런 신경망 기반 번역 기술은 오늘날 전문 번역가들이 쓰는 CAT 툴에도 결합되어 있습니다.\r\r\n\r\r\n지금까지 살펴본 것처럼, AI는 문맥을 읽고 어디에 주목할지 계산해가며 그럴듯한 번역문을 만들어냅니다.\r\r\n하지만 엄밀히 말하면 이것은 번역이 아니라 학습된 패턴에 기반한 **확률적 추측**에 가깝습니다.\r\r\n그리고 그 추측이 언제나 옳은 것은 아닙니다.\r\r\n\r\r\n\r\r\n\r\r\n2편, 오착(誤錯)에서 이어집니다.\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_gray_202609_900.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerfootergray202609900.png)](https://www.nhncloud.com/kr)",
-        "contentSnippet": "[![NHN Cloud_meetup banner_AI-translation_202609.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerAItranslation202609.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n## 세태(世態), 사람들의 일상생활\r\r\n\r\r\n지금 바로 클로드에 접속해, 문장 하나를 쓰고 \"영어로 번역해줘\"라는 프롬프트를 날려보세요. 어떠한 길이의 문장이나 표현이든지 빠르게 번역하고, 더 나아가 문맥을 물으며 대안을 제시하기도 합니다. AI의 등장과 발전 덕분에 누구든지 외국어를 배우지 않고도 다른 언어권의 사람과 소통할 수 있는 시대가 되었습니다.\r\r\n\r\r\n넷플릭스는 2026년 초에 공개한 주주 서한에서 콘텐츠 제작과 홍보 전 과정에 AI를 도입한다고 밝혔습니다. 자막 로컬라이제이션에 AI를 활용하여 보다 많은 시청자가 언어 장벽 없이 작품에 접근할 수 있게 하겠다는 것입니다. 유튜브는 2025년 9월, 2년간의 시험 운영을 마친 AI 다국어 더빙 기능을 전 세계의 크리에이터들에게 정식으로 출시했습니다. 화자의 억양과 톤까지 재현하는 음성 복제 방식인데, 이 기능을 쓴 채널은 전체 시청 시간의 25% 이상이 원어가 아닌 다른 언어권에서 나왔다고 합니다. 또한 올해 3월에 출시된 삼성 갤럭시 S26에서는 오버레이 번역이라는 기능이 추가되었습니다. 카메라로 메뉴판을 비추면 원문이 있던 자리에 그대로 번역문을 그려 넣는 방식입니다. 화면뿐 아니라 실시간 영상에도 번역 결과가 따라다닙니다.\r\r\n\r\r\n즐겨 이용하는 콘텐츠, 업무 등 우리들의 일상생활 곳곳에서 AI 번역이 이루어지고 있습니다. 번역가인 저도 이 흐름을 직접적으로 겪고 있습니다. CAT(Computer-Assisted Translation) 툴로 번역 업무를 하던 저 역시 클로드나 제미나이를 활용해 번역 업무를 수행하는 횟수가 늘어났습니다. 특히 짧은 문장이나 일정이 급한 작업은 클로드에 업로드한 번역 지침과 용어집(글로서리)를 참고해 AI가 번역하고 인간이 검수하는 경우가 많아졌습니다.\r\r\n\r\r\nAI 번역의 정확도가 완벽하지 않은 경우도 있지만 생산성과 속도가 어마무시하기에 저의 일손을 크게 돕고 있습니다. AI 번역은 신기한 것을 넘어서서 우리의 자연스러운 일상이 되어가고 있는데요. 그렇다면 어떻게 AI가 사람의 언어를 자연스럽게 번역할 수 있게 되었을까요? 그 이면에는 나름 복잡한 체계가 작동하고 있습니다.\r\r\n\r\r\n## AI의 번역 방식\r\r\n\r\r\n### LLM, 다음 토큰을 예측하다\r\r\n\r\r\n현재 가장 널리 쓰이는 AI 번역은 클로드·GPT·제미나이 같은 범용 대규모 언어모델(Large Language Model, LLM)에 \"번역해줘\"라고 프롬프트로 시키는 방식입니다. LLM 입장에서는 \"번역\"이 특별한 작업이 아닙니다. 그저 \"번역해줘: [원문]\"이라는 텍스트 뒤에 자연스럽게 이어질 토큰을 계속 예측하는 것으로서 모델이 원래 하던 동작과 동일합니다.\r\r\n\r\r\n### 번역을 잘하는 이유\r\r\n\r\r\n번역을 따로 가르친 적이 없는데도 이걸 잘 해내는 이유는, 학습 과정에서 같은 개념을 여러 언어로 설명하는 방대한 텍스트(위키백과, 다국어 웹 문서 등)를 함께 접했기 때문입니다. 언어 간 대응 관계를 명시적으로 배운 게 아니라, 방대한 데이터 속에서 암묵적으로 습득한 결과인 셈입니다.\r\r\n\r\r\n여기에는 구조적 차이도 하나 있습니다. 파파고 같은 기존 신경망 기계번역(Neural Machine Translation, NMT)은 원문을 읽는 인코더와 번역문을 쓰는 디코더가 분리된 **Encoder-Decoder** 구조인 반면, LLM은 원문과 번역문을 하나의 문맥으로 통째로 이어 처리하는 **Decoder-Only** 구조입니다. 이 구조는 인코더와 디코더를 따로 만들 필요 없이 디코더 하나만 깊게 쌓으면 되기 때문에 모델을 더 크게 키우기도 훨씬 수월하고, 정렬된 언어쌍 데이터 없이도 이 방대한 데이터를 그대로 학습에 쓸 수 있어 데이터 확보 면에서도 스케일링이 유리합니다.\r\r\n\r\r\n![architecture_comparison.png](https://image.toast.com/aaaadh/alpha/2026/techblog/architecturecomparison.png)\r\r\n\r\r\nLLM의 동작 원리 자체는 단순합니다. LLM은 주어진 텍스트 다음에 올 토큰을 확률적으로 예측하고, 하나씩 이어 붙여 문장을 만듭니다. 이 동작을 뒷받침하는 게 문장 안의 모든 토큰이 서로 얼마나 관련 있는지 한 번에 계산해서, 지금 만들 토큰이 어디에 얼마나 **주목**해야 하는지를 정하는 방식인 **셀프 어텐션(self-attention)**입니다. 사실 셀프 어텐션 자체는 LLM만의 원리가 아닙니다.\r\r\n원조 트랜스포머(2017)를 쓰는 NMT도 인코더와 디코더 내부에서 각각 셀프 어텐션을 쓰고, 그 둘을 잇는 크로스 어텐션(cross-attention)까지 갖춘 구조입니다. 반면 LLM은 인코더도 크로스 어텐션도 없이, 원문과 번역문을 하나로 이어 붙인 뒤 인과적 셀프 어텐션(causal self-attention) 하나만으로 전체 관계를 계산합니다. 이 구조 덕분에 문장이 길어져도 정보가 희석되지 않고, 학습 속도도 비약적으로 빨라졌습니다.\r\r\n\r\r\n![token_prediction_flow.png](https://image.toast.com/aaaadh/alpha/2026/techblog/tokenpredictionflow.png)\r\r\n\r\r\n### NMT vs LLM\r\r\n\r\r\n방금 살펴본 Encoder-Decoder(NMT)와 Decoder-Only(LLM), 즉 문장 단위 처리와 문서 전체를 하나의 문맥으로 처리하는 방식의 차이는 실무에서 아래와 같이 나타납니다.\r\r\n\r\r\n|  | 기존 NMT | LLM 기반 |\r\r\n| --- | ------ | ------ |\r\r\n| 처리 단위 | 문장 단위 | 문서·대화 전체 |\r\r\n| 지시 반영 | 파인튜닝 필요 | 프롬프트로 즉시 반영(In-Context Learning) |\r\r\n| 일관성 | Constrained Decoding으로 높은 확률로 강제 가능 | 문서가 길면 흔들릴 수 있음 |\r\r\n| 속도 | ~100ms | NMT 대비 최대 20배↑ 느림(업계 전반 10~100배) |\r\r\n\r\r\n속도 차이의 원인도 구조에 있습니다. 두 방식 모두 토큰을 한 개씩 순차 생성하지만, LLM은 매 토큰마다 훨씬 많은 레이어와 파라미터를 통과해야 합니다. 이전 토큰들의 연산을 재사용하는 KV 캐시 덕분에 매번 처음부터 다시 계산하지는 않지만, 문맥이 길어질수록 캐시 자체의 크기와 매 스텝 참조해야 할 범위가 함께 커져서 지연시간이 늘어납니다. 그래서 지연시간이 중요한 환경에서는 지금도 NMT가 쓰입니다. 이런 신경망 기반 번역 기술은 오늘날 전문 번역가들이 쓰는 CAT 툴에도 결합되어 있습니다.\r\r\n\r\r\n지금까지 살펴본 것처럼, AI는 문맥을 읽고 어디에 주목할지 계산해가며 그럴듯한 번역문을 만들어냅니다.\r\r\n하지만 엄밀히 말하면 이것은 번역이 아니라 학습된 패턴에 기반한 **확률적 추측**에 가깝습니다.\r\r\n그리고 그 추측이 언제나 옳은 것은 아닙니다.\r\r\n\r\r\n\r\r\n\r\r\n2편, 오착(誤錯)에서 이어집니다.\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_gray_202609_900.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerfootergray202609900.png)](https://www.nhncloud.com/kr)",
-        "isoDate": "2026-09-14T01:40:45.000Z"
-      }
-    ]
+    "posts": []
   },
   {
     "name": "ZUM 기술 블로그",
@@ -1178,12 +1179,33 @@
     "posts": [
       {
         "creator": "Kihong Bae",
+        "title": "긍정랜드",
+        "link": "https://www.thestartupbible.com/2026/09/the-land-of-positivity.html",
+        "pubDate": "Sun, 20 Sep 2026 21:25:00 +0000",
+        "content:encodedSnippet": "누가 우리가 하는 일에 대해 물어보면 나는 농담 반으로 우리가 하는 초기 투자는 금융업이 아니라 건설업(=노가다)이라고 한다. 워낙 초기에 투자하고 우리가 직접 투자사를 운영하는 건 아니지만, 창업가가 회사 만드는 걸 옆에서 같이 도와주고 있고, 바닥부터 회사 만드는 걸 묘사할 때 “building”이라는 단어를 자주 사용하는데, 이게 마치 건물을 올리는 것(=building)과 비슷하기 때문이다. 또 내가 자주 사용하는 비유는 ‘소방관’인데 워낙 많은 회사에 투자하다 보니 매일매일 어디선가 크고 작은 불이 나고, 우리는 그 현장에 가서 불을 같이 꺼야 하는 역할을 하기 때문이다.\nVC가 하는 일은 외부에서 보이는 것처럼 화려하거나 폼 나는 것과는 정말 거리가 멀다. 어떤 이들은 우리가 멋진 옷 입고 – 나는 아닌데, 그래도 입어야 하는 자리면 재킷은 입는다 – 공개 장소에서 마치 우리가 특정 회사를 유니콘으로 키운 듯 이야기하니까 – 참고로 내가 투자한 회사는 많은데 내가 키운 회사는 단 하나도 없다 – VC가 엄청 화려하고 멋진 직업인 줄 안다. 실상은 완전히 반대다. 우리가 투자한 회사가 잘 될 수 있게 궂은일을 도맡아 하는 사람들이고, 잘 안되는 회사를 – 우리는 워낙 많이 투자하니까 대부분 회사가 잘 안 된다 – 어떻게든 다시 정상궤도에 오를 수 있도록 대표들과 개노가다를 같이 하는 직업이 VC이다. 나는 자신을, 투자사를 응원하는 응원단장이라고 생각하고, 여기저기서 시작되는 크고 작은 불을 끄는 소방대장이라고 생각한다.\n며칠 전에도 정말 어려운 사업을 하는 창업가들과 어떻게 하면 이 위기를 극복하고 우리가 런웨이를 몇 달 더 연장할 수 있을지 돌아가지도 않는 머리를 힘차게 굴리면서 늦게까지 통화했고, 어제도 이제 사업을 그만둬야 할지 아니면 한 번만 더 푸쉬해야할지 고민하는 대표님에게 긍정의 힘을 주입하는 노력을 열심히 하면서 안타깝고 슬픈 마음으로 하루를 마무리했다.\n내가 직접 사업을 운영하는 창업가는 아니지만, 이런 날이 계속되면 나도 체력적으로 힘들고 정신적으로 가라앉는다. 아무리 잘 자고, 잘 먹고, 잘 운동해도 나도 이제 늙은 아저씨인데 왜 이런 감정의 기복이 없겠는가. 단지 겉으로는 항상 스트롱하다고 연기할 뿐이지.\n그래도 매일 최선을 다해서 온전히 살 수 있는 에너지를 얻을 수 있는 이유는 아무리 힘들고 어려워도 스타트업 생태계는 긍정과 희망으로 가득 찬 긍정랜드이기 때문이다. 이 생태계에 있는 분들은 항상 긍정적으로 생각하고 그 긍정의 마인드는 안 될 일도 되게 만드는 기적 같은 힘이 있다.\n일반 회사나 대기업 다니는 분들과 캐주얼하게 이야기하거나 일 때문에 미팅하면 나는 다음과 같은 상황을 자주 본다. 뭔가 새로운 아이디어나 기존 방법과 다른 방식을 누군가 제안하면 즉각적인 반응은 항상 부정적이다. 그건 이래서 안 되거나 이미 해 봤는데 안 된다는 반응이 지배적이다. 그 누구도 해보자는 의견을 제시하진 않더라. 그리고 이분들과 이야기해 보면 매사에 이런 안 된다는 의견이 절대적이어서 그냥 분위기가 너무 무겁고 부정적이다.\n하지만 창업가나 스타트업 관계자들과 이야기하면 분위기가 많이 다르다. 내가 생각해 봐도 안 되거나 또는 불가능할 것 같은 아이디어가 나오면 즉각적인 반응은 일단 한 번 해보자는 것이다. 안 해봐서 모르겠지만, 일단 해보자. 그리고 되게 만들어보자. 이런 반응이 지배적이다. 물론 그건 안 되거나 내가 해 봤는데 절대로 안 된다는 의견을 제시하는 분도 있지만, 오히려 이런 의견이 소수이고 can do의 긍정적인 분위기 때문에 오히려 이런 부정적인 의견과 분위기가 밀린다.\n힘들고 출구가 안 보일때도 많지만, 나는 이런 긍정의 힘을 믿는 분들과 같이 일한다는 사실이 자랑스럽다. 한국에는 에버랜드가 있고, 미국에는 디즈니랜드가 있고, 마이클 잭슨은 네버랜드를 만들었는데, 창업가들은 긍정랜드를 만들고 있다.\n이런 긍정 마인드를 가진 분들과 교류하면 이전 글에서 이야기했던 것처럼 한 번도 우승해 본 적 없는 것처럼 훈련하고, 한 번도 패배해 본 적 없는 것처럼 싸울 수 있는 에너지를 얻는다.\n나는 스타트업은 버티는 것이라고 생각했는데, 오히려 요샌 스타트업은 감동이라는 말을 하고 싶다.",
+        "dc:creator": "Kihong Bae",
+        "comments": "https://www.thestartupbible.com/2026/09/the-land-of-positivity.html#respond",
+        "content": "누가 우리가 하는 일에 대해 물어보면 나는 농담 반으로 우리가 하는 초기 투자는 금융업이 아니라 건설업(=노가다)이라고 한다. 워낙 초기에 투자하고 우리가 직접 투자사를 운영하는 건 아니지만, 창업가가 회사 만드는 걸 옆에서 같이 도와주고 있고, 바닥부터 회사 만드는 걸 묘사할 때 “building”이라는 단어를 자주 사용하는데, 이게 마치 건물을 올리는 것(=building)과 비슷하기 때문이다. 또 내가 자주 사용하는(...)",
+        "contentSnippet": "누가 우리가 하는 일에 대해 물어보면 나는 농담 반으로 우리가 하는 초기 투자는 금융업이 아니라 건설업(=노가다)이라고 한다. 워낙 초기에 투자하고 우리가 직접 투자사를 운영하는 건 아니지만, 창업가가 회사 만드는 걸 옆에서 같이 도와주고 있고, 바닥부터 회사 만드는 걸 묘사할 때 “building”이라는 단어를 자주 사용하는데, 이게 마치 건물을 올리는 것(=building)과 비슷하기 때문이다. 또 내가 자주 사용하는(...)",
+        "guid": "https://www.thestartupbible.com/?p=9905",
+        "categories": [
+          "Uncategorized",
+          "FoundersAtWork",
+          "grit",
+          "hustle",
+          "inspiring",
+          "vc"
+        ],
+        "isoDate": "2026-09-20T21:25:00.000Z"
+      },
+      {
+        "creator": "Kihong Bae",
         "title": "한 번도 우승해 본 적 없는 것처럼 훈련하고, 한 번도 패배해 본 적 없는 것처럼 싸우자",
         "link": "https://www.thestartupbible.com/2026/09/train-like-you-have-never-won-and-compete-like-you-have-never-lost.html",
         "pubDate": "Wed, 16 Sep 2026 21:25:00 +0000",
         "content:encodedSnippet": "전세계에서, 특히 미국과 중국에서, 사랑받고 있는 스키선수 Eileen Gu의 인터뷰를 봤는데 이 선수는 운동도 엘리트급이지만 말도 엘리트급으로 잘 한다는 느낌을 받았다. 인터뷰어가 어떤 마음가짐으로 연습과 실전에 임하는지, 그리고 이 두가지 할 때 마음가짐에 차이가 있는지 물어보니 다음과 같은 명언을 했다.\n“I train like I’ve never won, and I compete like I’ve never lost.(한 번도 우승해 본 적 없는 것처럼 훈련하고, 한 번도 패배해 본 적 없는 것처럼 싸운다.)”\n올해도 많은 사람들과 이야기했고, 많은 책을 읽었고, 많은 기사를 읽었고, 많은 팟캐스트를 들었지만, 작년만큼 머릿속에 남는 인상적인 말이 없었는데, 아일린 구 선수의 이 말은 근래에 들었던 말 중 가장 멋지다고 생각했다. 그리고 나는 엘리트 스포츠리그에서 경쟁하는 업에 종사하진 않지만, 나도 이런 마인드를 가지면서 살고, 일하고 싶다는 생각을 요새 자주 한다.\n한 번도 우승하지 못한 것처럼 훈련한다는 말은 아마도 매사에 최선을 다한다는 뜻인데, 나같은 사람이 매사에 최선을 다하는 것과 특정 분야에서 정점을 찍는 엘리트 선수가 매사에 최선을 다하는 건 약간 다르다. 이 선수는 이미 올릭픽에서 금메달을 땄으니, 본인이 경쟁하는 분야에서는 최고의 실력자라는 게 증명됐고, 본인도 그걸 잘 알고 있다. 실은 우승을 이렇게 자주 하는 선수가 1년 365일 매일, 한 번도 우승하지 못한 것처럼 훈련하고 연습하는 건 굉장한 정신력이 필요하다. 김연아 선수가 스케이팅에서 한 번도 우승해 본 적 없는 것처럼 훈련하고, 이세돌 선수가 바둑에서 한 번도 우승해 본 적 없는 것처럼 연습하는 게 나는 상상이 안 가는데, 이 말을 듣고 생각해보면 내가 아는 우승을 여러 번 한 대부분의 엘리트 선수는 이런 마인드로 평소에 훈련하는 것 같다.\n나는 솔직히 어디서 우승해 본 경험도 없는데, 과연 나는 한 번도 이겨보지 못한 선수가 이번엔 꼭 우승해야지하는 간절하고 절박하고 집착하는 자세로 매사에 임하는가? 반성하고 생각할 점이 많다.\n한 번도 져보지 않은 것처럼 싸운다는 말은 한 번도 우승하지 못한 것처럼 훈련한다는 말과 비슷한 맥락이라고 생각한다. 이 또한 실전에서 싸울 땐 매번 최선을 다한다는 의미인데, 단순히 열심히 하는 걸 초월한 새로운 레벨의 투지로 경기에 임한다는 의미인 것 같다. 평생 한 번도 지지 않고 매번 이기는 사람의 정신력과 자신감은 어쩔 땐 이기지만 어쩔 땐 지는 사람과는 차원이 다르다. 전에 내가 쓴 이 글에서 돈을 벌고 흑자를 내는 것도 해 본 사람이 잘하고, 흑자를 내는 것도 습관이라고 했는데, 우승도 비슷한 것 같다. 우승을 해 본 사람만이 경험한 자신감과 우승을 해 본 사람만이 가지는 마음가짐이 있는데 한 번도 지지 않고 매번 우승한 사람의 마인드로 싸우면 이길 확률이 극적으로 올라갈 것 같다.\n나는 솔직히 매번 우승은커녕, 매번 지는 상황을 더 많이 경험하는데, 과연 나는 한 번도 패배해 본 적 없는 사람처럼 매섭고 독하게 매사에 임하는가? 이 또한 반성하고 생각할 점이 많다.\n이런 훈련 방식과 파이팅 정신을 내가 하는 일에 적용해보면 이럴 것 같다.\n회사를 검토할 때는 아무것도 모르는 사람처럼 배우고, 정말 투자하고 싶은 회사라면 단 한 번도 딜을 놓쳐본 적 없는 투자자처럼 움직이는 것이다.\n또는, 회사를 발굴할 때 아직 한 번도 성공한 회사에 투자하지 못한 것처럼 딜을 찾고, 투자한 이후에는 단 한 개의 투자도 실패한 적이 없는 것처럼 창업가를 믿고 밀어주는 것이다.\n한 번도 우승해 본 적 없는 것처럼 훈련하고, 한 번도 패배해 본 적 없는 것처럼 싸우자. 오늘도 모두 파이팅.",
         "dc:creator": "Kihong Bae",
-        "comments": "https://www.thestartupbible.com/2026/09/train-like-you-have-never-won-and-compete-like-you-have-never-lost.html#respond",
+        "comments": "https://www.thestartupbible.com/2026/09/train-like-you-have-never-won-and-compete-like-you-have-never-lost.html#comments",
         "content": "전세계에서, 특히 미국과 중국에서, 사랑받고 있는 스키선수 Eileen Gu의 인터뷰를 봤는데 이 선수는 운동도 엘리트급이지만 말도 엘리트급으로 잘 한다는 느낌을 받았다. 인터뷰어가 어떤 마음가짐으로 연습과 실전에 임하는지, 그리고 이 두가지 할 때 마음가짐에 차이가 있는지 물어보니 다음과 같은 명언을 했다. &#8220;I train like I’ve never won, and I compete like I’ve never lost.(한 번도 우승해(...)",
         "contentSnippet": "전세계에서, 특히 미국과 중국에서, 사랑받고 있는 스키선수 Eileen Gu의 인터뷰를 봤는데 이 선수는 운동도 엘리트급이지만 말도 엘리트급으로 잘 한다는 느낌을 받았다. 인터뷰어가 어떤 마음가짐으로 연습과 실전에 임하는지, 그리고 이 두가지 할 때 마음가짐에 차이가 있는지 물어보니 다음과 같은 명언을 했다. “I train like I’ve never won, and I compete like I’ve never lost.(한 번도 우승해(...)",
         "guid": "https://www.thestartupbible.com/?p=9902",
@@ -1196,27 +1218,6 @@
           "vc"
         ],
         "isoDate": "2026-09-16T21:25:00.000Z"
-      },
-      {
-        "creator": "Kihong Bae",
-        "title": "교과서로 배우는 사업",
-        "link": "https://www.thestartupbible.com/2026/09/textbook-smart-and-street-smart.html",
-        "pubDate": "Sun, 13 Sep 2026 21:36:00 +0000",
-        "content:encodedSnippet": "최근에 복싱을 다시 시작했다.(실은, 어깨가 아파서 요샌 또 쉬고 있지만…) 오래전에 복싱 연습을 좀 하다가, 이번에 13년 만에 다시 해보는 건데 역시 이만한 physical한 운동은 없다는 생각이 든다. 그런데 복싱을 계속하다 보면 땀 흘리고 기분 좋아지는 운동으로는 최고지만, 내가 나중에 길거리에서 누군가와 시비가 붙으면 정말 이 기술로 싸움에서 이길 수 있을지 의문이 생긴다. 실제로 복싱이나 태권도 올림픽 메달리스트들이 길거리 싸움에서는 그 화려한 움직임과 기술에도 불구하고 처참하게 박살나는 걸 직접 본 적도 있고, 유튜브에서도 흔히 볼 수 있다.\n왜 복싱 챔피언들이 길거리 싸움에서는 지는 걸까? 여러 가지가 있겠지만 나 같은 초보의 눈으로 봤을 때 다음과 같은 이유가 있는 것 같다.\n일단 복싱은 손으로 하는 싸움이다. 상대방도 손만 사용하면 모르겠지만 현실에서의 거친 싸움은 발도 사용하고 손에 잡히는 모든 무기가 사용되기 때문에 실전에서는 불리한 것 같다.\n복싱은 링이라는 한정된 공간에서의 싸움만 연습한다는 점도 불리한 것 같다. 실전은 지형지물을 정말 잘 이용해야 하고, 완전히 열린 공간 또는 링보다 훨씬 더 작은 공간에서 일어날 수 있다.\n복싱 글러브도 실전 싸움에선 불리한 요소로 작용할 수 있다. 맨손으로 거칠게 싸워야 하는 실전과 손에 붕대 감고, 그 위에 복싱 글러브 끼고 격투하는 건 다르다.\n그리고 가장 불리한 점은 바로 복싱은 정해진 룰이 있다는 점이다. 실전에서는 일단 이겨서 살아남아야 하니 룰 같은 건 신경쓰지 말자는 생각은 하겠지만, 그동안, 이 규칙을 항상 인지하고 훈련해왔기 때문에 아무래도 길거리에서 거친 싸움꾼을 만나도 복싱의 규칙을 최대한 지키면서 싸울 확률이 크다.\n그래서 복싱 챔피언들이 길거리 싸움에서 지는 걸 우리가 계속 보는 것 같다. 이들은 몸도 좋고, 움직임도 현란하고, 기술도 화려하지만, 불법이 아니면 – 가끔은 불법도 통한다 – 모든 게 허락되는 현장에서는 실전 경험이 더 많은 길거리 싸움꾼에게 밀린다.\n비슷한 비유인진 잘 모르겠지만, 교과서로 경영을 배우는 학자와 정책입안자가 복싱 챔피언이고 매일 실전에서 진짜 경영하는 창업가들이 길거리 싸움꾼이라는 생각을 나는 항상 한다. 비즈니스에서 중요한 건 실전이지 가만히 있는 상대방과의 연습과 학습이 아니다. 창업에 관한 책을 많이 읽고, 20년 치 하버드 MBA 케이스 스터디를 외우고, 사업에 대한 고민과 계획을 아무리 많이 해도 진짜로 사업하지 않으면 다 소용없다.\n진짜 사업은 실전이다. 규칙도 없고, 불법이 아니라면 모든 수단과 방법이 허용된다. 심지어 남들이 모르면 불법도 허용되는 게 실전인데 아직도 우리 주변에서는 교과서로 사업을 배우고 강의실에서 경영을 공부한 분들이 이래저래 하는 걸 너무 자주 본다. 이들은 매일 힘들게 길거리에서 싸우면서 줘 터지고 있는 창업가들에게 훈수질한다. 어떤 이들은 제품 한 번 만들어 보지도 않고, 사람 한 번 채용해 보지도 않고, 사업자 등록 한 번 해보지도 않고, 고객에게 아쉬운 소리 한 번 해보지도 않고, 투자유치 한 번 해보지도 않고, 마치 본인들이 모든 걸 다 아는 것 같이 행동한다. 나는 이런 분들에게 제발 현장을 경험하고, 실전에서 싸우는 창업가들의 목소리를 생생하게 들어보라고 부탁하는데 이들은 항상 교과서와 이론이 최고라고 생각한다.\n교과서로 배우는 사업은 사업이 아니라 학문이다. 그리고 학문은 위에서 말한 복싱같이 실전에서는 잘 사용해 먹을 수가 없다. 진짜 사업을 하는 분들, 그리고 사업을 하는 분들을 위한 정책을 만드는 분들은 textbook smart가 아니라 street smart가 필요하다.",
-        "dc:creator": "Kihong Bae",
-        "comments": "https://www.thestartupbible.com/2026/09/textbook-smart-and-street-smart.html#comments",
-        "content": "최근에 복싱을 다시 시작했다.(실은, 어깨가 아파서 요샌 또 쉬고 있지만…) 오래전에 복싱 연습을 좀 하다가, 이번에 13년 만에 다시 해보는 건데 역시 이만한 physical한 운동은 없다는 생각이 든다. 그런데 복싱을 계속하다 보면 땀 흘리고 기분 좋아지는 운동으로는 최고지만, 내가 나중에 길거리에서 누군가와 시비가 붙으면 정말 이 기술로 싸움에서 이길 수 있을지 의문이 생긴다. 실제로 복싱이나(...)",
-        "contentSnippet": "최근에 복싱을 다시 시작했다.(실은, 어깨가 아파서 요샌 또 쉬고 있지만…) 오래전에 복싱 연습을 좀 하다가, 이번에 13년 만에 다시 해보는 건데 역시 이만한 physical한 운동은 없다는 생각이 든다. 그런데 복싱을 계속하다 보면 땀 흘리고 기분 좋아지는 운동으로는 최고지만, 내가 나중에 길거리에서 누군가와 시비가 붙으면 정말 이 기술로 싸움에서 이길 수 있을지 의문이 생긴다. 실제로 복싱이나(...)",
-        "guid": "https://www.thestartupbible.com/?p=9899",
-        "categories": [
-          "Uncategorized",
-          "doing",
-          "FoundersAtWork",
-          "grit",
-          "hustle",
-          "inspiring"
-        ],
-        "isoDate": "2026-09-13T21:36:00.000Z"
       }
     ]
   },
