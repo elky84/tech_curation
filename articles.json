@@ -2,19 +2,67 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "GPT-6 Astra와 나비에-스토크스 발표, AGI 논쟁이 커진 이유 - OpenAI의 나비에-스토크스 발표와 GPT-6 Astra 역할, CAPTCHA 주장, 유튜브 영상 댓글 반응을 공식 확인 사실과 미확인 주장으로 나눠 정리했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 GPT-6 Astra를 둘러싼 꽤 큰 논쟁이에요. 처음에는 Astra를 AGI라고 부르기에는 조심스럽고, 그래도 Sora나 Fable보다 낫다는 정도로 봤어요. 그런데 OpenAI가 나비에-스토크스 밀레니엄 문제 해법을 발표하면서 이야기가 훨씬 커졌습니다.나비에-스토크스 발표에서 확인된 부분OpenAI 공식 글에 따르면 2026년 9월 8일 OpenAI는 나비에-스토크스 존재성과 매끄러움 문제에 대한 해법과 Lean 형식화를 공개했다고 밝혔어요. 다만 여기서 중요한 차이가 있어요. 문제를 직접 푼 시스템은 GPT-6 Astra보다 더 강한 내부 모델이라고 설명했고, Astra는 Lean 형식화와 검증 단계에 쓰였다고 했습니다.작업 규모도 컸어요. OpenAI는 약 1만 개의 동시 에이전트가 88시간가량 작업했고, 약 1,300억 출력 토큰을 사용했다고 밝혔습니다. 이후 GPT-6 Astra를 통한 Lean 형식화와 검증에 17시간이 더 걸렸다고 해요. 이 숫자만 보면 단일 챗봇 하나가 문제를 툭 풀었다기보다, 거대한 에이전트 집단을 동원한 연구 시스템에 가깝습니다.밀레니엄 문제는 아직 공식 인정과 다르다Clay Mathematics Institute는 밀레니엄 문제를 2000년 5월 24일 파리에서 발표했고, 각 문제에는 100만 달러 상금이 걸려 있어요. 이 중 푸앙카레 추측은 사람이 해결했고, 나머지 문제들은 오랫동안 미해결 상태로 남아 있었습니다.하지만 OpenAI의 발표와 공식 최종 인정은 분리해서 봐야 합니다. Clay의 나비에-스토크스 페이지는 조사 시점에 여전히 Active로 표시되어 있었어요. 그래서 지금 말할 수 있는 건 OpenAI가 해법을 공개했다는 사실이고, Clay가 상금을 인정했다는 뜻은 아닙니다. OpenAI도 밀레니엄 상금을 청구할 의도는 없다고 밝혔습니다.CAPTCHA 통과 주장은 커뮤니티 주장에 가깝다Astra가 CAPTCHA류 문제를 모두 풀었다는 이야기도 같이 퍼졌어요. iHAL 보도에는 Neal Agarwal의 “I’m Not a Robot” CAPTCHA 스타일 게임 48단계를 모두 완료했다는 내용이 나오지만, 조사 패킷 기준으로 OpenAI 공식 문서에서 CAPTCHA 벤치마크로 확인된 내용은 아니었습니다. 그래서 이 부분은 공식 확인 사실이 아니라 커뮤니티 주장으로 보는 게 맞아요.유튜브 영상 댓글에서 나온 반응유튜브 영상 댓글에서는 두 갈래 반응이 보였어요. 가장 많은 공감을 받은 댓글은 Astra가 문제를 푼 게 아니라 더 강한 내부 모델 또는 Bell로 추정되는 모델이 1만 개 에이전트를 구성했고, Astra는 검증에 쓰였다는 지적이었습니다. 또 피지컬 AI까지 붙으면 인간 직업이 크게 흔들릴 수 있다는 걱정, 토큰을 너무 많이 먹는다는 체감, AGI가 맞는지보다 성능 변화가 놀랍다는 반응도 있었습니다.저는 여기서 AGI를 하나의 거대한 모델 하나로만 볼 필요는 없다고 봐요. 1만 개의 의사결정 단위가 모여 문제를 풀고 검증한다면, 그 집단 자체를 새로운 형태의 지능으로 볼 수도 있습니다. 아직 공식 검증은 오래 걸리겠지만, AI가 사람이 하던 일을 하나씩 가져가는 속도는 분명히 빨라지고 있어요.참고 자료이번 정리는 OpenAI의 나비에-스토크스 발표, Clay의 밀레니엄 문제 설명, Clay의 나비에-스토크스 공식 페이지, OpenAI의 GPT-6 Astra 소개, CAPTCHA 관련 보도, 그리고 원본 쇼츠를 바탕으로 작성했어요.",
+    "title": "휴직 일기 - 18일 차 - 식상한 가을 날씨",
+    "description": "이제 휴직기간은 72일 남았다. 매일 이렇게 기록을 남겨 놓으니 시간이 그렇게 빠르게 가고 있다는 생각은 아니다. 그래도 하루하루 소중하게 보내야겠다는 생각은 여전하다. 흥미롭게도 삶에 대한 애착이 더 커지는 느낌이다.  \"도둑맞은 집중력\"을 다 읽고 반납했다. 집중력을 살려내기 위한 나름의 몇 가지 행동들은 유효했는지 조금씩 늘고 있는 것 같다. 특히 S",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6aa902c0accb5eade30768ad",
-    "pubDate": "Tue, 15 Sep 2026 08:33:04 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/76",
+    "pubDate": "Thu, 17 Sep 2026 13:34:54 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 2,
+    "imageUrl": "",
+    "title": "브라스 버밍엄 맥주토큰 도색",
+    "description": "브라스 버밍엄을 할때마다 맥주 토큰이 너무 밝고 질감이 없어서 뭔가 아쉬웠는데 도색을 해봤다. 어두운 분위기의 게임 아트와 대조대게 너무 밝은 나무 토큰이라 아쉬워 도색을 해봤다. 커피를 진하게 타서 이틀동안 담궈두었는데 밝은색은 빠지고 자연스러운 색이 입혀져서 맘에 들었으나 말리고 나니 다시 밝아졌다. 검은색으로 나무가 아니거나 음영이 필요한 부분을 칠해주었다. 쉐이드 도료를 이용해 톤을 확 죽여줄것이기에 지금은 어색하지만 어둡게 될것이다. 시타델 사의 아그락스 어스쉐이드를 전체적으로 발라주고 음영이 필요한부분엔 덧칠을 해주었다. 검은색과 이 쉐이드 도료만 사용했다. 쉐이드 도료는 그림자를 넣는데 사용하.......",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.naver.com/dlehddus84/224416489291?fromRss=true&trackingCode=rss",
+    "pubDate": "Fri, 18 Sep 2026 22:38:26 +0900",
+    "creator": "dlehddus84",
+    "categories": [
+      "도색과 제작"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "LLM에게 어디까지 맡길 것인가: AI 에이전트 기반 광고 분석 리포트 자동화",
+    "description": "들어가며안녕하세요. LINE Ads에서 데이터 분석 플랫폼을 개발하고 있는 이종우, 이운열입니다.광고 매출은 상품, 광고주, 캠페인 집행 변화에 따라 매일 움직입니다. 광고 KPI...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/ai-agent-ad-report-automation",
+    "pubDate": "Fri, 18 Sep 2026 01:50:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "휴직 일기 - 16일 차",
+    "description": "핸드폰의 알람을 꺼두었지만 아침 7시면 눈이 떠지게 된다. 물론 밤사이 몇 번 눈을 뜬다. 하지만 일어나는 시간은 7시 무렵이다. 이게 반가운 일이다. 수면의 퀄리티는 아직 문제가 있지만 몸이 때가 되면 깨어난다는 것은 정상이란 것이다. 양질의 수면을 지키기 위해 노력하지만 나이가 들수록 쉽지 않다. 게다가 회사를 다닐 때는 스트레스로 인하여 더욱 다이내믹",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/74",
+    "pubDate": "Tue, 15 Sep 2026 14:01:54 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "휴직 일기 - 22일 차",
+    "description": "\"무의식은 어떻게 나를 설계하는가\" 이 책을 읽기 시작했다. 나의 의지나 생각이 나를 통제하고 있을 것이라는 생각이었는데 이 책을 읽기 시작하면서 책에 나와 있는 문구대로 \"내 안에 내가 아닌 존재가 있다\"라는 생각이 들었다. 휴직 전 상담에서도 비슷한 상담을 했었다. 상담사가 이야기해 준 것은 현재의 자아와 나를 비판하는 자아가 서로 소통하지 않고 있다는",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/79",
+    "pubDate": "Mon, 21 Sep 2026 13:56:32 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 6,
     "imageUrl": "",
     "title": "Bringing Correctly Rounded Math to Production with LLVM-libc",
     "description": "As we mentioned in the last cmath blog post, MSVC is using LLVM-libc for compile-time evaluation and runtime execution of math functions when /Zc:cmath is enabled. I invited LLVM-libc contributors Michael Jones and Tue Ly to write a guest blog post about how they’ve achieved what they’ve achieved. This is that blog post! I hope […]\nThe post Bringing Correctly Rounded Math to Production with LLVM-libc appeared first on C++ Team Blog.",
@@ -28,152 +76,7 @@
     ]
   },
   {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Ktor 3.6.0 Is Now Available!",
-    "description": "Ktor 3.6.0 is here! This release is full of new experimental features, including typed authentication capabilities with specialized support for OpenID Connect and HTTP/3 support for the Netty engine. There are also a few quality-of-life improvements for routing and request handling, more convenient defaults for Kotlin Multiplatform clients, and more. Check out What’s new in […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ktor/2026/09/18/ktor-3-6-0-is-now-available/",
-    "pubDate": "Fri, 18 Sep 2026 10:45:56 +0000",
-    "creator": "Simon Vergauwen",
-    "categories": [
-      "ktor",
-      "news",
-      "releases",
-      "release"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Toolbox App 3.8: Improves IDE Update Handling on macOS and Fixes Keyboard Navigation",
-    "description": "Version 3.8 of the Toolbox App restores keyboard navigation in project and tool lists. On macOS, manual IDE updates stay available even when the system reports the installation directory as protected. IDE updates remain available on macOS macOS was sometimes incorrectly reporting an IDE installation directory as non-writable, causing the Toolbox App to needlessly disable […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/toolbox-app/2026/09/toolbox-app-3-8-improves-ide-update-handling-on-macos-and-fixes-keyboard-navigation/",
-    "pubDate": "Mon, 14 Sep 2026 16:05:56 +0000",
-    "creator": "Ivan Kuzmin",
-    "categories": [
-      "jetbrains-toolbox",
-      "toolbox-app"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Your diff has a demo now with Junie /demo",
-    "description": "You have the change ready and the tests are green. Now someone has to launch the app, find the right screen, and check the flow. Often, that someone is still you, even when an agent helped write the code. You should be able to delegate that part too. Junie /demo is a new mode in […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/junie/2026/09/junie-demo/",
-    "pubDate": "Fri, 18 Sep 2026 11:51:27 +0000",
-    "creator": "Aliaksei Kartynnik",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "coding",
-      "testing",
-      "junie"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "긍정랜드",
-    "description": "누가 우리가 하는 일에 대해 물어보면 나는 농담 반으로 우리가 하는 초기 투자는 금융업이 아니라 건설업(=노가다)이라고 한다. 워낙 초기에 투자하고 우리가 직접 투자사를 운영하는 건 아니지만, 창업가가 회사 만드는 걸 옆에서 같이 도와주고 있고, 바닥부터 회사 만드는 걸 묘사할 때 “building”이라는 단어를 자주 사용하는데, 이게 마치 건물을 올리는 것(=building)과 비슷하기 때문이다. 또 내가 자주 사용하는(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/09/the-land-of-positivity.html",
-    "pubDate": "Sun, 20 Sep 2026 21:25:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "FoundersAtWork",
-      "grit",
-      "hustle",
-      "inspiring",
-      "vc"
-    ]
-  },
-  {
     "id": 7,
-    "imageUrl": "",
-    "title": "Logpoints Walkthrough",
-    "description": "Modern development tools, especially IntelliJ IDEA, have such comprehensive debugging support that for virtually any niche use case, there is a specialized tool for the job. This can make it hard to know where to begin. If you are new to debugging tools and want the biggest return on your learning investment, the best feature […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/09/logpoints-walkthrough/",
-    "pubDate": "Wed, 16 Sep 2026 14:14:04 +0000",
-    "creator": "Igor Kulakov",
-    "categories": [
-      "idea",
-      "debug",
-      "debugging",
-      "java",
-      "kotlin",
-      "logpoints"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "휴직 일기 - 15일 차 - 쉬는 것에도 리듬이 생기다",
-    "description": "어제는 일요일이란 핑계를 대고 모든 것을 쉬어버렸다. 그런 날도 있는 거다. 오늘은 아내가 외출을 해서 온전히 나만의 시간을 갖게 되었다. 과연 나는 어떻게 하루를 지낼지 궁금했다. 그래도 10여 일 연습을 한 것이 있어서 인지 리듬을 갖게 된 것 같다. 아침 시간은 생각보다 짧다. 아침에 해야 하는 것들이 있다 보니 그렇다. 강아지 산책 시키고, 씻기고,",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/73",
-    "pubDate": "Mon, 14 Sep 2026 13:52:20 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "휴직 일기 - 21일 차",
-    "description": "오늘도 가을 날씨가 좋았다. 조금 덥기는 했지만 바람이 불어 시원했다. 의자에 앉아 책을 읽다가 스르르 잠에 들었던 날씨였다.  어제는 갑작스러운 일로 5시간 운전을 했는데 오늘은 한가롭게 날씨를 즐겼다. 많은 사람들이 공원에 돗자리나 텐트를 치고 가족들과 좋은 시간을 보내고 있었다. 그냥 평범한 가을의 주말이었다.  주말은 잘 보냈고 또 한 주를 시작해야",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/78",
-    "pubDate": "Sun, 20 Sep 2026 14:46:16 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "유니티 애셋 리뷰 - 무료 2D 판타지 장비 아이콘 / 110 Free Armor And Jewelry Icons",
-    "description": "요즘은 2D 이미지가 있으면 3D 를 만들 수 있기 때문에 이런 재료들은 매우 중요합니다.\n \n10 Free Armor And Jewelry Icons\n링크 - 110 Free Armor And Jewelry Icons | 2D Icons | Unity Asset Store\n \n \n \n \nFantasy Loot Pack - $10\n\n\n링크 - Fantasy Loot Pack | 3D Props | Unity Asset Store\n이거는 유료이고 나중에 장비 만들때 참고해야겠다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1687",
-    "pubDate": "Wed, 16 Sep 2026 19:51:04 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "프로그래밍/유니티 에셋 리뷰",
-      "유니티",
-      "유니티애셋"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Today I will… improve test coverage",
-    "description": "Today I want to look at how we can improve on the test coverage that we have in the Interview Coach application. This application has some unit tests in it already, but I’m sure there is room for improvement. Defining our baseline Before we start writing tests, it’s a good idea to have a baseline […]\nThe post Today I will… improve test coverage appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-improve-test-coverage/",
-    "pubDate": "Tue, 15 Sep 2026 16:00:21 +0000",
-    "creator": "Aaron Powell",
-    "categories": [
-      "Code Coverage",
-      "Copilot",
-      "Productivity",
-      "Testing"
-    ]
-  },
-  {
-    "id": 12,
     "imageUrl": "",
     "title": "Leave the Class Path in the Rearview Mirror",
     "description": "No description available",
@@ -190,25 +93,39 @@
     ]
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
-    "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
-    "description": "No description available",
+    "title": "New Bug-Fix Releases Are Available for MPS Versions 2026.1.1, 2025.3.2, 2025.2.4, and 2025.1.4",
+    "description": "We’ve released updates for multiple major MPS versions that fix several issues. DOWNLOAD MPS 2026.1.1 Check out all the updates in each particular version below: MPS 2026.1.1 The Projectional Agent Toolkit receives several practical improvements that allow agents to: See and invoke intentions and quick-fixes on individual nodes. Manipulate NodeAttributes, PropertyAttributes, and others. Create copies […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4",
-    "pubDate": "Thu, 17 Sep 2026 17:01:02 GMT",
-    "creator": "Pengyu Hou",
+    "link": "https://blog.jetbrains.com/mps/2026/09/mps-2026-1-1-released/",
+    "pubDate": "Wed, 16 Sep 2026 20:06:31 +0000",
+    "creator": "Vaclav Pech",
     "categories": [
-      "technology",
-      "engineering",
-      "open-source",
-      "machine-learning",
-      "ai"
+      "releases",
+      "release"
     ]
   },
   {
-    "id": 14,
+    "id": 9,
+    "imageUrl": "",
+    "title": "Java 27 in IntelliJ IDEA",
+    "description": "In line with the six-month release cadence, Java 27 was released on September 15, 2026. In this blog post, we will look at what’s included in this release, how IntelliJ IDEA continues to support the latest Java versions, and even how IntelliJ IDEA is benefiting from some of the changes to the JDK. Java 27 […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/09/java-27-in-intellij-idea/",
+    "pubDate": "Tue, 15 Sep 2026 14:49:02 +0000",
+    "creator": "Marit van Dijk",
+    "categories": [
+      "java",
+      "news",
+      "intellij-idea",
+      "java-27"
+    ]
+  },
+  {
+    "id": 10,
     "imageUrl": "",
     "title": "The AIDEs Framework: How We Built a “Theory of Everything” for AI Development Tools",
     "description": "We are living in genuinely interesting times. AI is disrupting software development at a pace where new models, tools, and practices appear almost daily. Many teams’ natural first instinct is to spend ever more time chasing updates. After almost two years of AI product and market research at JetBrains, we’ve come to a different conclusion: […]",
@@ -226,21 +143,86 @@
     ]
   },
   {
-    "id": 15,
+    "id": 11,
     "imageUrl": "",
-    "title": "Beyond the model: Engineering AI infra with scientific judgement",
-    "description": "No description available",
+    "title": "GPT-6 Astra와 나비에-스토크스 발표, AGI 논쟁이 커진 이유 - OpenAI의 나비에-스토크스 발표와 GPT-6 Astra 역할, CAPTCHA 주장, 유튜브 영상 댓글 반응을 공식 확인 사실과 미확인 주장으로 나눠 정리했어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 GPT-6 Astra를 둘러싼 꽤 큰 논쟁이에요. 처음에는 Astra를 AGI라고 부르기에는 조심스럽고, 그래도 Sora나 Fable보다 낫다는 정도로 봤어요. 그런데 OpenAI가 나비에-스토크스 밀레니엄 문제 해법을 발표하면서 이야기가 훨씬 커졌습니다.나비에-스토크스 발표에서 확인된 부분OpenAI 공식 글에 따르면 2026년 9월 8일 OpenAI는 나비에-스토크스 존재성과 매끄러움 문제에 대한 해법과 Lean 형식화를 공개했다고 밝혔어요. 다만 여기서 중요한 차이가 있어요. 문제를 직접 푼 시스템은 GPT-6 Astra보다 더 강한 내부 모델이라고 설명했고, Astra는 Lean 형식화와 검증 단계에 쓰였다고 했습니다.작업 규모도 컸어요. OpenAI는 약 1만 개의 동시 에이전트가 88시간가량 작업했고, 약 1,300억 출력 토큰을 사용했다고 밝혔습니다. 이후 GPT-6 Astra를 통한 Lean 형식화와 검증에 17시간이 더 걸렸다고 해요. 이 숫자만 보면 단일 챗봇 하나가 문제를 툭 풀었다기보다, 거대한 에이전트 집단을 동원한 연구 시스템에 가깝습니다.밀레니엄 문제는 아직 공식 인정과 다르다Clay Mathematics Institute는 밀레니엄 문제를 2000년 5월 24일 파리에서 발표했고, 각 문제에는 100만 달러 상금이 걸려 있어요. 이 중 푸앙카레 추측은 사람이 해결했고, 나머지 문제들은 오랫동안 미해결 상태로 남아 있었습니다.하지만 OpenAI의 발표와 공식 최종 인정은 분리해서 봐야 합니다. Clay의 나비에-스토크스 페이지는 조사 시점에 여전히 Active로 표시되어 있었어요. 그래서 지금 말할 수 있는 건 OpenAI가 해법을 공개했다는 사실이고, Clay가 상금을 인정했다는 뜻은 아닙니다. OpenAI도 밀레니엄 상금을 청구할 의도는 없다고 밝혔습니다.CAPTCHA 통과 주장은 커뮤니티 주장에 가깝다Astra가 CAPTCHA류 문제를 모두 풀었다는 이야기도 같이 퍼졌어요. iHAL 보도에는 Neal Agarwal의 “I’m Not a Robot” CAPTCHA 스타일 게임 48단계를 모두 완료했다는 내용이 나오지만, 조사 패킷 기준으로 OpenAI 공식 문서에서 CAPTCHA 벤치마크로 확인된 내용은 아니었습니다. 그래서 이 부분은 공식 확인 사실이 아니라 커뮤니티 주장으로 보는 게 맞아요.유튜브 영상 댓글에서 나온 반응유튜브 영상 댓글에서는 두 갈래 반응이 보였어요. 가장 많은 공감을 받은 댓글은 Astra가 문제를 푼 게 아니라 더 강한 내부 모델 또는 Bell로 추정되는 모델이 1만 개 에이전트를 구성했고, Astra는 검증에 쓰였다는 지적이었습니다. 또 피지컬 AI까지 붙으면 인간 직업이 크게 흔들릴 수 있다는 걱정, 토큰을 너무 많이 먹는다는 체감, AGI가 맞는지보다 성능 변화가 놀랍다는 반응도 있었습니다.저는 여기서 AGI를 하나의 거대한 모델 하나로만 볼 필요는 없다고 봐요. 1만 개의 의사결정 단위가 모여 문제를 풀고 검증한다면, 그 집단 자체를 새로운 형태의 지능으로 볼 수도 있습니다. 아직 공식 검증은 오래 걸리겠지만, AI가 사람이 하던 일을 하나씩 가져가는 속도는 분명히 빨라지고 있어요.참고 자료이번 정리는 OpenAI의 나비에-스토크스 발표, Clay의 밀레니엄 문제 설명, Clay의 나비에-스토크스 공식 페이지, OpenAI의 GPT-6 Astra 소개, CAPTCHA 관련 보도, 그리고 원본 쇼츠를 바탕으로 작성했어요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/beyond-the-model-engineering-ai-infra-with-scientific-judgement-371316d43261?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 15 Sep 2026 17:06:18 GMT",
-    "creator": "AirbnbEng",
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6aa902c0accb5eade30768ad",
+    "pubDate": "Tue, 15 Sep 2026 08:33:04 GMT",
+    "creator": "ZeroCho",
     "categories": [
-      "ai-agent",
-      "science",
-      "engineering",
-      "data-science",
-      "ai"
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "휴직 일기 - 17일 차 - 수요일은 좀 즐기자",
+    "description": "나는 나를 잘 몰랐지만 생각보다 목표 지향적인 면이 많다고 한다. 곰곰이 생각해 보면 그런 편이 맞는 것 같다. 휴직의 목표도 잡아 놓고 달성하기 위해 차근차근하고 있다. 심리 상담에서도 조언받았던 것은 일탈을 해보는 것이었다. 자기 자신에게 너무 높은 기준을 가지고 있어서 자신을 꽉 조이는 경향이 크다는 것이다. 그래서 수요일을 일탈의 하루로 쓰기로 했다",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/75",
+    "pubDate": "Wed, 16 Sep 2026 14:11:35 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "IntelliJ IDEA 2026.2.3 Is Out!",
+    "description": "We’ve just released IntelliJ IDEA 2026.2.3. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update brings the following improvements: For a comprehensive overview of the fixes, see the release notes. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-3/",
+    "pubDate": "Wed, 16 Sep 2026 10:53:53 +0000",
+    "creator": "Maria Kosukhina",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Behind the Scenes: How the OpenTelemetry Plugin Maps Your Microservices in Real-Time",
+    "description": "We’ve all been there: you join a new project, and the first thing you ask for is the architecture diagram. You’re handed a diagram that looks great, but after a week of debugging, you realize it’s six months out of date. Service A hasn’t talked to Service B since the spring, and there’s a new […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2026/09/how-to-service-map-with-opentelemetry/",
+    "pubDate": "Wed, 16 Sep 2026 12:34:47 +0000",
+    "creator": "Nikita Dukin",
+    "categories": [
+      "all-things-web",
+      "backstage",
+      "plugin-development",
+      "goland",
+      "idea",
+      "intellij-platform",
+      "plugin-highlights",
+      "plugins",
+      "pycharm",
+      "research",
+      "rider",
+      "webstorm",
+      "intellij-idea",
+      "opentelemetry",
+      "performance-optimization"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Ktor 3.6.0 Is Now Available!",
+    "description": "Ktor 3.6.0 is here! This release is full of new experimental features, including typed authentication capabilities with specialized support for OpenID Connect and HTTP/3 support for the Netty engine. There are also a few quality-of-life improvements for routing and request handling, more convenient defaults for Kotlin Multiplatform clients, and more. Check out What’s new in […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ktor/2026/09/18/ktor-3-6-0-is-now-available/",
+    "pubDate": "Fri, 18 Sep 2026 10:45:56 +0000",
+    "creator": "Simon Vergauwen",
+    "categories": [
+      "ktor",
+      "news",
+      "releases",
+      "release"
     ]
   }
 ]
