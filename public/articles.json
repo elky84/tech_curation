@@ -2,73 +2,79 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Faster C++ code intelligence for Copilot CLI with Whole Codebase Indexing",
-    "description": "C++ repositories can contain millions of lines of code spread across deeply connected source files and headers. Without a reusable index, navigating to definitions, finding references, or searching for symbols may require portions of that information to be analyzed again as you move through the repository. C++ code intelligence in GitHub Copilot CLI is now […]\nThe post Faster C++ code intelligence for Copilot CLI with Whole Codebase Indexing appeared first on C++ Team Blog.",
+    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/faster-c-code-intelligence-for-copilot-cli-with-whole-codebase-indexing/",
-    "pubDate": "Tue, 22 Sep 2026 22:27:22 +0000",
-    "creator": "Sinem Akinci",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2499",
+    "pubDate": "Wed, 23 Sep 2026 17:02:57 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "C++"
+      "웹툰"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "휴직 일기 - 19일 차 - 언어를 배운 다는 것에 대하여",
-    "description": "다른 언어를 배운다는 것은 흥미로운 일이다. 나는 언어에 대하여 재능이 전혀 없다. 영어도 제대로 못하는데 지금은 일본어 공부를 하고 있다. JLPT N3라는 일본어 시험에 합격했지만 일본어를 잘하는 것은 아니다. 그래서 다음 단계로 N2라는 한 단계 위의 시험을 준비하고 있다. 일본어를 배우면서 흥미로운 점을 느꼈는데 오늘은 그 이야기를 쓰려고 한다.",
+    "title": "긍정랜드",
+    "description": "누가 우리가 하는 일에 대해 물어보면 나는 농담 반으로 우리가 하는 초기 투자는 금융업이 아니라 건설업(=노가다)이라고 한다. 워낙 초기에 투자하고 우리가 직접 투자사를 운영하는 건 아니지만, 창업가가 회사 만드는 걸 옆에서 같이 도와주고 있고, 바닥부터 회사 만드는 걸 묘사할 때 “building”이라는 단어를 자주 사용하는데, 이게 마치 건물을 올리는 것(=building)과 비슷하기 때문이다. 또 내가 자주 사용하는(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/77",
-    "pubDate": "Fri, 18 Sep 2026 13:53:18 GMT",
-    "creator": "고종범",
-    "categories": []
+    "link": "https://www.thestartupbible.com/2026/09/the-land-of-positivity.html",
+    "pubDate": "Sun, 20 Sep 2026 21:25:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork",
+      "grit",
+      "hustle",
+      "inspiring",
+      "vc"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
-    "description": "No description available",
+    "title": "Bringing Private Processing to Meta AI Glasses",
+    "description": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone.  Most of the time, glasses are helping you see well, protecting your eyes and complementing your look, and [...]\nRead More...\nThe post Bringing Private Processing to Meta AI Glasses appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4",
-    "pubDate": "Thu, 17 Sep 2026 17:01:02 GMT",
-    "creator": "Pengyu Hou",
+    "link": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
+    "pubDate": "Thu, 24 Sep 2026 00:00:00 +0000",
+    "creator": "Unknown",
     "categories": [
-      "technology",
-      "engineering",
-      "open-source",
-      "machine-learning",
-      "ai"
+      "Security & Privacy"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Bringing Correctly Rounded Math to Production with LLVM-libc",
-    "description": "As we mentioned in the last cmath blog post, MSVC is using LLVM-libc for compile-time evaluation and runtime execution of math functions when /Zc:cmath is enabled. I invited LLVM-libc contributors Michael Jones and Tue Ly to write a guest blog post about how they’ve achieved what they’ve achieved. This is that blog post! I hope […]\nThe post Bringing Correctly Rounded Math to Production with LLVM-libc appeared first on C++ Team Blog.",
+    "title": "휴직 일기 - 18일 차 - 식상한 가을 날씨",
+    "description": "이제 휴직기간은 72일 남았다. 매일 이렇게 기록을 남겨 놓으니 시간이 그렇게 빠르게 가고 있다는 생각은 아니다. 그래도 하루하루 소중하게 보내야겠다는 생각은 여전하다. 흥미롭게도 삶에 대한 애착이 더 커지는 느낌이다.  \"도둑맞은 집중력\"을 다 읽고 반납했다. 집중력을 살려내기 위한 나름의 몇 가지 행동들은 유효했는지 조금씩 늘고 있는 것 같다. 특히 S",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/bringing-correctly-rounded-math-to-production-with-llvm-libc/",
-    "pubDate": "Wed, 16 Sep 2026 22:09:50 +0000",
-    "creator": "Cody Miller, Tue Ly, Michael Jones",
-    "categories": [
-      "C++"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/76",
+    "pubDate": "Thu, 17 Sep 2026 13:34:54 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "브라스 버밍엄 맥주토큰 도색",
-    "description": "브라스 버밍엄을 할때마다 맥주 토큰이 너무 밝고 질감이 없어서 뭔가 아쉬웠는데 도색을 해봤다. 어두운 분위기의 게임 아트와 대조대게 너무 밝은 나무 토큰이라 아쉬워 도색을 해봤다. 커피를 진하게 타서 이틀동안 담궈두었는데 밝은색은 빠지고 자연스러운 색이 입혀져서 맘에 들었으나 말리고 나니 다시 밝아졌다. 검은색으로 나무가 아니거나 음영이 필요한 부분을 칠해주었다. 쉐이드 도료를 이용해 톤을 확 죽여줄것이기에 지금은 어색하지만 어둡게 될것이다. 시타델 사의 아그락스 어스쉐이드를 전체적으로 발라주고 음영이 필요한부분엔 덧칠을 해주었다. 검은색과 이 쉐이드 도료만 사용했다. 쉐이드 도료는 그림자를 넣는데 사용하.......",
+    "title": "JetBrains Air: Building a System of Products for Agentic Software Development",
+    "description": "AI can produce code. Organizations still have to produce software. Agentic development is changing how software gets made, but it hasn’t changed what it costs to be wrong. Six months ago, we began publicly experimenting with agentic development environments. Around the same time, we introduced JetBrains Central as an open control and execution system for […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/224416489291?fromRss=true&trackingCode=rss",
-    "pubDate": "Fri, 18 Sep 2026 22:38:26 +0900",
-    "creator": "dlehddus84",
+    "link": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
+    "pubDate": "Tue, 22 Sep 2026 09:00:34 +0000",
+    "creator": "Kirill Skrygan",
     "categories": [
-      "도색과 제작"
+      "agentic-ai",
+      "ai",
+      "jetbrains",
+      "new-products",
+      "news",
+      "releases"
     ]
   },
   {
@@ -96,65 +102,64 @@
   {
     "id": 7,
     "imageUrl": "",
-    "title": "JetBrains Air: Building a System of Products for Agentic Software Development",
-    "description": "AI can produce code. Organizations still have to produce software. Agentic development is changing how software gets made, but it hasn’t changed what it costs to be wrong. Six months ago, we began publicly experimenting with agentic development environments. Around the same time, we introduced JetBrains Central as an open control and execution system for […]",
+    "title": "멍친스톤의 냥들, 항로개척자",
+    "description": "가볍게 꺼내기 좋은 멍친스톤이다. 지역 1~4까지 플레이하면서 강화한 카드로 보스를 잡는 게임으로 여정과 전투 두개의 부분에서 적절한 속성과 수치를 사용하는 게임이다. 1~4지역을 클리어하면서 얼마나 강화를 잘했는지와 손패 드로우에 보스를 잡을 수 있는지 아닌지 정해진다. 이번 보스는 엘레노르 인데 여정에 1회 전투에 1회 하고 모든데미지를 받을 수 있으면 클리어다. 하지만 여정에서 패가 안좋게 뽑히면서 카드가 많이 버려져 전투에서 그냥 털러버렸다... 다음은 항로개척자. 플루토게임즈에서 출시한 게임으로 리마스터 판 펀딩이 끝난 제품이다. 난 벌써 구판이 됬다. 12개월동안 세계를 돌아다니면서 미션을 달성하여 높은 점.......",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
-    "pubDate": "Tue, 22 Sep 2026 09:00:34 +0000",
-    "creator": "Kirill Skrygan",
+    "link": "https://blog.naver.com/dlehddus84/224417857147?fromRss=true&trackingCode=rss",
+    "pubDate": "Sun, 20 Sep 2026 17:51:58 +0900",
+    "creator": "dlehddus84",
     "categories": [
-      "agentic-ai",
-      "ai",
-      "jetbrains",
-      "new-products",
-      "news",
-      "releases"
+      "플레이"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "AI Is Changing How We Code. It’s Also Changing How We Learn. ",
-    "description": "AI is changing software development at a pace no one can ignore.  Developers now have powerful AI tools that can help us write code, understand unfamiliar codebases, troubleshoot problems, learn new frameworks, and get answers in seconds. That is an incredible opportunity. But as these tools become more capable, I believe something else is becoming more valuable […]\nThe post AI Is Changing How We Code. It’s Also Changing How We Learn.  appeared first on Visual Studio Blog.",
+    "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+    "description": "We’re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to [...]\nRead More...\nThe post Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/ai-is-changing-how-we-code-its-also-changing-how-we-learn/",
-    "pubDate": "Wed, 16 Sep 2026 14:00:09 +0000",
-    "creator": "James Rempt",
+    "link": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+    "pubDate": "Mon, 21 Sep 2026 16:00:37 +0000",
+    "creator": "Unknown",
     "categories": [
-      "Visual Studio"
+      "Open Source"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "LLM에게 어디까지 맡길 것인가: AI 에이전트 기반 광고 분석 리포트 자동화",
-    "description": "들어가며안녕하세요. LINE Ads에서 데이터 분석 플랫폼을 개발하고 있는 이종우, 이운열입니다.광고 매출은 상품, 광고주, 캠페인 집행 변화에 따라 매일 움직입니다. 광고 KPI...",
+    "title": "Leave the Class Path in the Rearview Mirror",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/ai-agent-ad-report-automation",
-    "pubDate": "Fri, 18 Sep 2026 01:50:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4",
+    "pubDate": "Fri, 18 Sep 2026 16:01:02 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "software-engineering",
+      "jvm",
+      "software-development",
+      "java"
+    ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "Today I will… debug a production crash",
-    "description": "We’ve all experienced this, the desktop application is hanging, the window is greyed out, and we’re just waiting for it to start to respond. Or we’re on a website and are sure that it was going to load faster than this, but we’re just waiting the loading icon spin around and around. These sorts of […]\nThe post Today I will… debug a production crash appeared first on Visual Studio Blog.",
+    "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-debug-a-production-crash/",
-    "pubDate": "Tue, 22 Sep 2026 17:05:25 +0000",
-    "creator": "Aaron Powell",
+    "link": "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4",
+    "pubDate": "Thu, 17 Sep 2026 17:01:02 GMT",
+    "creator": "Pengyu Hou",
     "categories": [
-      "Debug",
-      "Productivity",
-      "Visual Studio",
-      "async",
-      "Debugging",
-      "parallel stacks"
+      "technology",
+      "engineering",
+      "open-source",
+      "machine-learning",
+      "ai"
     ]
   },
   {
@@ -174,75 +179,58 @@
   {
     "id": 12,
     "imageUrl": "",
-    "title": "멍친스톤의 냥들, 항로개척자",
-    "description": "가볍게 꺼내기 좋은 멍친스톤이다. 지역 1~4까지 플레이하면서 강화한 카드로 보스를 잡는 게임으로 여정과 전투 두개의 부분에서 적절한 속성과 수치를 사용하는 게임이다. 1~4지역을 클리어하면서 얼마나 강화를 잘했는지와 손패 드로우에 보스를 잡을 수 있는지 아닌지 정해진다. 이번 보스는 엘레노르 인데 여정에 1회 전투에 1회 하고 모든데미지를 받을 수 있으면 클리어다. 하지만 여정에서 패가 안좋게 뽑히면서 카드가 많이 버려져 전투에서 그냥 털러버렸다... 다음은 항로개척자. 플루토게임즈에서 출시한 게임으로 리마스터 판 펀딩이 끝난 제품이다. 난 벌써 구판이 됬다. 12개월동안 세계를 돌아다니면서 미션을 달성하여 높은 점.......",
+    "title": "[MULTI] 전통적이면서 독창적인 계승, 사일런트 힐: 타운폴",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/224417857147?fromRss=true&trackingCode=rss",
-    "pubDate": "Sun, 20 Sep 2026 17:51:58 +0900",
-    "creator": "dlehddus84",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2500",
+    "pubDate": "Wed, 23 Sep 2026 19:36:13 +0900",
+    "creator": "「RULIWEB」",
     "categories": [
-      "플레이"
+      "리뷰"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Building a RAG Pipeline for Semantic Code Search: A Developer Diary and Field Notes",
-    "description": "Part 1: Parsing, chunking, and vectorization  Some time ago, we set out to build the best semantic code search platform we could: a RAG pipeline that gives LLM agents precise, citable evidence from real repositories instead of whatever grep happens to surface. The eventual solution was JetBrains Context. We got it working, we got it […]",
+    "title": "Ktor 3.6.0 Is Now Available!",
+    "description": "Ktor 3.6.0 is here! This release is full of new experimental features, including typed authentication capabilities with specialized support for OpenID Connect and HTTP/3 support for the Netty engine. There are also a few quality-of-life improvements for routing and request handling, more convenient defaults for Kotlin Multiplatform clients, and more. Check out What’s new in […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/",
-    "pubDate": "Thu, 17 Sep 2026 12:39:40 +0000",
-    "creator": "Adam Malek",
+    "link": "https://blog.jetbrains.com/ktor/2026/09/18/ktor-3-6-0-is-now-available/",
+    "pubDate": "Fri, 18 Sep 2026 10:45:56 +0000",
+    "creator": "Simon Vergauwen",
     "categories": [
-      "agentic-ai",
-      "ai"
+      "ktor",
+      "news",
+      "releases",
+      "release"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Behind the Scenes: How the OpenTelemetry Plugin Maps Your Microservices in Real-Time",
-    "description": "We’ve all been there: you join a new project, and the first thing you ask for is the architecture diagram. You’re handed a diagram that looks great, but after a week of debugging, you realize it’s six months out of date. Service A hasn’t talked to Service B since the spring, and there’s a new […]",
+    "title": "휴직 일기 - 21일 차",
+    "description": "오늘도 가을 날씨가 좋았다. 조금 덥기는 했지만 바람이 불어 시원했다. 의자에 앉아 책을 읽다가 스르르 잠에 들었던 날씨였다.  어제는 갑작스러운 일로 5시간 운전을 했는데 오늘은 한가롭게 날씨를 즐겼다. 많은 사람들이 공원에 돗자리나 텐트를 치고 가족들과 좋은 시간을 보내고 있었다. 그냥 평범한 가을의 주말이었다.  주말은 잘 보냈고 또 한 주를 시작해야",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/09/how-to-service-map-with-opentelemetry/",
-    "pubDate": "Wed, 16 Sep 2026 12:34:47 +0000",
-    "creator": "Nikita Dukin",
-    "categories": [
-      "all-things-web",
-      "backstage",
-      "plugin-development",
-      "goland",
-      "idea",
-      "intellij-platform",
-      "plugin-highlights",
-      "plugins",
-      "pycharm",
-      "research",
-      "rider",
-      "webstorm",
-      "intellij-idea",
-      "opentelemetry",
-      "performance-optimization"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/78",
+    "pubDate": "Sun, 20 Sep 2026 14:46:16 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Leave the Class Path in the Rearview Mirror",
-    "description": "No description available",
+    "title": "브라스 버밍엄 맥주토큰 도색",
+    "description": "브라스 버밍엄을 할때마다 맥주 토큰이 너무 밝고 질감이 없어서 뭔가 아쉬웠는데 도색을 해봤다. 어두운 분위기의 게임 아트와 대조대게 너무 밝은 나무 토큰이라 아쉬워 도색을 해봤다. 커피를 진하게 타서 이틀동안 담궈두었는데 밝은색은 빠지고 자연스러운 색이 입혀져서 맘에 들었으나 말리고 나니 다시 밝아졌다. 검은색으로 나무가 아니거나 음영이 필요한 부분을 칠해주었다. 쉐이드 도료를 이용해 톤을 확 죽여줄것이기에 지금은 어색하지만 어둡게 될것이다. 시타델 사의 아그락스 어스쉐이드를 전체적으로 발라주고 음영이 필요한부분엔 덧칠을 해주었다. 검은색과 이 쉐이드 도료만 사용했다. 쉐이드 도료는 그림자를 넣는데 사용하.......",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 18 Sep 2026 16:01:02 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://blog.naver.com/dlehddus84/224416489291?fromRss=true&trackingCode=rss",
+    "pubDate": "Fri, 18 Sep 2026 22:38:26 +0900",
+    "creator": "dlehddus84",
     "categories": [
-      "software-engineering",
-      "jvm",
-      "software-development",
-      "java"
+      "도색과 제작"
     ]
   }
 ]
