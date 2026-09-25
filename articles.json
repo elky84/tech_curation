@@ -2,15 +2,16 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
-    "description": "No description available",
+    "title": "AI가 다 해주는데, 나는 뭘 해야 할까? 요즘 자주 받는 커리어 고민 10가지",
+    "description": "들어가며\n최근 여러 경로로 개발자분들의 고민을 듣고 있어요. 반복적으로 받는 고민이 있는데, 저도 정답은 없지만 제 생각을 남겨두면 좋을 것 같아 기록해보아요. 이런 현상이 왜 발생했는지, 저는 어떻게 생각하고 있는지 공유합니다.\n요즘 개발자들의 고민\n자주 듣는 고민들\n(1) 회사에서 AX 시키는데, 저는 원래 프론트엔드 개발자였어요. 이게 맞을까요?\n(2) 코드를 AI가 다 작성하는데 제가 개발자라고 볼 수 있을까요? 저는 무엇을 해야 할까요?\n(3) AI 시대에 대체되지 않으려면 어떤 스킬을 갖춰야 할까요?\n(4) 이직이 안됩니다. 또는 신입 채용 공고가 없어요\n(5) 미래는 어떻게 될까요? 따라가기 벅차고, 예전에 배운 것이 의미가 없어진 느낌입니다.\n(6) AI 시대에 사람들이 덜 필요할텐데 그럼 우리는 무엇을 해야 할까요?\n(7) 예전에는 커리어에서 목표가 있었는데, 요즘은 모르겠어요. AI 블루일까요? 예전처럼 재미가 있지도 않아요\n(8) 1인 개발자하면서 디지털 노마드하고 싶어요. 어떻게 해야 해요?\n(9) (대표님 관점) 회사에 AX를 진행하고 싶은데, 무엇부터 해야 할까요?\n(10) (팀장님 관점. 주로 비개발) 팀원들이 AI를 활용해서 새로운 것들을 만드는데, 팀장인 제가 따라가지 못해서 기분이 찜찜해요\n\n이런 고민이 생기게 된 배경\nAgent 코딩 도구의 등장\n이런 고민이 생기게 된 제일 큰 이유 중 하나는 Agent 코딩 도구의 등장(Claude Code, Codex 등)\n과거 채팅 기반의 AI는 ‘조금 되네?’ 정도였다면 Agent 코딩 도구가 점점 좋아지고(도구의 하네스도 좋아지고, 모델 자체도 좋아짐) 많이 쓰면서 이런 생각을 더 하게 된다\n2년 전만 생각해도 이 정도로 사람들이 쓰진 않았다. 게다가 요즘엔 개발 직무가 아닌 분들도 Agent 도구를 사용해 Agentic Workflow를 만들고 있다\n마케터, PM, 사업 개발, 운영, HR, 재무 등 여러 직무에서 Agent를 활용해 업무를 더 빠르게 하고 있다. 이런 관점에서 개발자들이 더 스스로 고민하게 된다. 분명 몇 년 전에는 개발 역량이 해자였는데 이제 개발 역량은 예전보단 덜 해자로 느껴지게 된다\n\nAI 시대에 중요한 역량의 변화\n예전엔 코드를 잘 작성하는 것이 실력이었음. 코딩 테스트, 알고리즘, 설계 등을 얼마나 해봤는지가 중요했음\n이런 관점에서 TDD, 클린 아키텍처 등을 배우면서 도메인에 맞게 적용해보고, 실제로 해보니 어떻더라라는 경험들이 쌓일수록 실력이 늘어나는 기분이었음\n요즘은 에이전트 도구에게 어떤 구조로 짜는 것이 좋을지, 우리 비즈니스의 핵심이 무엇인지 등을 제공하면 적절한 구조로 제안을 해준다. 그 과정에서 어떤 것을 할지 판단(결정)하면 된다\n이런 것들을 경험하면서 과거에 내가 가지고 있던 역량이 쓸모가 없지 않나?라는 생각을 하게 됨. 실제로 10년 차 지인들도 이런 이야기를 하고 있음. 과거에 10년 차 정도 되면 과거 경험을 레버리지할 수 있었지만 요즘은 단순 지식은 AI가 쉽게 말해주기 때문에 가치가 예전보다 낮아진 것 같다\n\n변화 속도가 학습 속도를 넘어섬\n예전엔 프레임워크의 버전이 올라가는 속도가 빠르진 않았음. 메이저 버전은 보통 1~3년 정도에 올라가거나 그보다 늦었음. 그리고 새로운 프레임워크가 나오는 것도 그렇게 빠르지 않았고, 하나만 익히면 몇 년은 갔다. 한국에선 자바가 오랜 기간 선점하고 있었는데, 요즘엔 언어가 진짜 중요할까?라는 이야기를 하고 있음\n무언가를 배워도 세상이 더 빠르게 변화하기 때문에 이걸 진짜 해야 할까?라는 생각이 들고, 어차피 또 새로운 것이 나올텐데?라는 생각이 들면서 배움을 미루거나 중요도를 낮추게 됨\nAgent의 Context로 새로운 프레임워크의 Doc 파일을 넣으면 개발을 해주고, 내가 모르는 것을 물어보면 적절하게 답해주기 때문에 직접 뇌에 넣지 않고 Agent에게만 주입하고 있음\n\n회사도 무엇을 해야 할지 찾고 있음\n회사 입장에선 AI를 활용해서 직원들의 생산성을 올리는 것이 유리할 수 있음. 그래서 AX(AI Transformation)를 해야 한다고 말하는 기업이 많아지고 있음. 그리고 AX를 한다고 말하면 주가 상승에 영향을 주기도 함\n다만 대표님들도 해야 한다는 생각은 있지만 AI를 잘 활용한다는 것을 판단할 기준이 뚜렷하지 않음. 토큰을 많이 쓰면 잘하는 건가? 사내 도구를 많이 만들면 잘하는 건가?\n기준이 없으니 일단 많이 만들라고 하게 됨. 직원들 업무에 AI를 얹어서 이것저것 만들 수 있는 환경을 조성한다\n그래서 나오는 건 PoC와 사내 생산성 도구 위주. 사용해보면 괜찮은 것 같지만 매출이나 핵심 지표와는 연결이 안 되는 경우가 많다\n몇 개월이 지나도 매출이 크게 안 변하면 대표는 “이게 맞나?”를 고민하고, 그 고민이 그대로 현장으로 내려온다. 만드는 사람 입장에선 성과 기준 없이 떨어진 일이라 쌓이는지 알 수 없고, PoC만 반복한다. 이런 관점에서 FDE(Forward Deployed Engineer)라는 직무의 필요성이 생기고 조직 내 또는 다른 회사의 문제를 풀어주려는 시도가 보인다.\n이 부분에서 “조직을 어떻게 변화시킬 것인가?” 라는 경험이 중요한 것 같다. AC2에서 배운 내용이 도움이 되었다. 코칭, 대화 기법, 조직의 문제를 찾는 과정, 불확실한 상황을 어떻게 대할 것인가 등.\n\n채용 구조의 변화\nAgent로 인해 1명이 할 수 있는 업무의 범위가 넓어졌다. 그렇기 때문에 회사에서는 채용을 줄인다.\n요즘 요구하는 1인분은 과거 기준 3인분 정도 되는 것 같다. 그러면서 경력직은 난이도가 더 높아지고(AX 경험을 해봤다고 하면 좋아함), 신입 채용은 줄어들고 있다.\n회사에서 신입을 키우는 시간에 Agent에게 일을 시키면 더 퍼포먼스가 잘 나온다고 생각하는 것 같다. 만약 채용을 한다면 신입을 교육해야 하는데, 어떻게 교육해야 할지에 대해 구체적인 가이드가 없다면 에이전트에게 시간을 쓰는 것보다 더 많은 시간을 할애해야 하기에 신입 공고가 줄어들게 된다. 커뮤니케이션 비용이 더 크다고 생각해서 에이전트에게 더 시키게 되는 것 같다\n\n다양한 AI 전문가의 등장\n더 정확히는 AX 전문가가 많이 등장했다고 봐야 할 것 같다\n요즘 SNS를 보면 AI 전문가라고 소개하는 분들이 많다. 이분들의 경험을 보면 특정 도메인에 강점이 있고, 실행력이 빨라서 에이전트 도구를 먼저 써보고 사용법을 잘 전달하는 분들이 많다\n이건 AI라는 분야가 모델링(모델을 만들고 이해하는 쪽)과 활용(모델을 업무에 적용하는 쪽)으로 나뉘면서 생긴 자연스러운 현상인 것 같다.\n데이터, AI 분야에서 10년 경험한 사람 입장에선 이 둘을 나누는 것이 필요하다고 생각한다\n    \n모델링 쪽은 딥러닝, 트랜스포머 같은 모델 구조를 이해하고, 그 모델과 요즘 에이전트의 LLM이 어떤 차이가 있는지, 에이전트를 위한 인프라(vLLM, LiteLLM, RAG 등)는 어떻게 구성되는지를 아는 사람\n활용 쪽은 Agent 도구를 도메인에 맞게 빠르게 적용하고 전파하는 사람\n문제는 이 구분이 콘텐츠에서는 잘 안 보인다는 것. 활용 쪽 분들이 학습 자료나 SNS 콘텐츠를 잘 만들고, 흔히 말하는 후킹한 콘텐츠도 잘 만듦. 그래서 바이럴이 되는 건 대부분 활용 쪽 콘텐츠이고, 그게 일반인의 인식에 남는다\n개발자들도 SNS, 유튜브 등에서 활용 전문가들의 콘텐츠를 보고 ‘다들 저렇게 하나?’, ‘나만 뒤처지나?’ 생각하게 됨. 즉, FOMO를 유발한다\n\n정리하면\n위 여섯 가지를 관통하는 건 결국 Agent 개발 도구의 등장\n도구가 실력의 기준을 바꿨고, 배움의 유통기한을 줄였고, 회사가 뭘 해야 할지 모르게 만들었고, 채용 구조를 바꿨고, 새로운 전문가와 FOMO를 만들었다\n이런 상황에서 “내가 뭘 잘못하고 있나”로 접근하면 답이 나오진 않는 것 같다\n    \n세상이 변화했고, 그 변화하는 세상에 내가 무엇을 할 것인가, 왜 하는가?라는 관점으로 생각하는 것이 필요하다\n\n\n\n고민에 대한 제 생각\n제 생각은 정답은 아니니 다양한 의견이 있을 수 있어요. 이 사람은 이렇게 생각하는구나 정도로 생각해주시면 좋을 것 같아요\n\n(1) 회사에서 AX 시키는데, 저는 원래 프론트엔드 개발자였어요. 이게 맞을까요?\n(프론트엔드는 예시일 뿐, 백엔드, 데이터 등 모든 직무에서 적용됨)\nAX는 직무가 아니라 지금 조직이 겪고 있는 상황\n저도 과거에 데이터 조직에서 필요한 여러 일을 해왔는데, 시간이 지나서 남은 것을 보니 타이틀이나 직무가 아니라 어떤 문제를 정의했고, 어떻게 풀었는지에 대한 경험이었음. 이 경험은 다른 곳에서도 적용됨\n시간이 또 지나면 AX 담당자라는 직무는 사라질 수 있음. 마치 엑셀을 모든 사람들이 쓰는 것처럼 AI를 활용한 Agentic한 Workflow는 당연한 흐름이 될 것 같음. 이런 업무를 할 때, 현업의 모호한 요구를 문제로 바꾸고 에이전트를 활용해 시스템을 만들고 운영한 경험은 강점이 될 수 있다\n과거에 하던 직무 경험이 AX 경험에서 도움이 될 수도 있고, 아닐 수도 있음. 어떤 일을 하냐에 따라 다를 수 있음. 그렇다면 지금 어떤 선택을 해야 할까? 이런 고민이 생기게 된다\n지금 맡은 업무를 어떻게 바라볼지도 고민해보면 좋을 것 같음. 그 일이 정말 내가 하기 어려운 일인지 고민해보기\n    \n시대의 흐름이나 회사의 선택으로 하게 된 일이 나중에 자신의 커리어에 도움이 되는 경우가 있음\n너무 부정적으로 보는 것보단 왜 이런 선택을 회사에서 했는지 이해하고 맡겨진 일에 집중하는 것이 좋을 수 있음\nAX를 하자는 것은 많은 회사에서 진행하고 있어서, 다른 회사로 간다고 해서 해결되지 않을 수 있음. 결국 또 비슷한 일에 직면할 수 있음\n전문성과 관련해서 이런 고민이 생길 수 있는데, 저는 요즘 직무로 목표를 잡는 것보단 내가 어떤 사람이고 싶은지를 정의해서 그 과정에서 도구는 도구일 뿐이라고 생각하고 있음\n장기적으로는 그냥 개발자라는 직무가 대통일이 될 수도 있다고 생각함\n\n(2) 코드를 AI가 다 작성하는데 제가 개발자라고 볼 수 있을까요? 저는 무엇을 해야 할까요?\n개발자의 정의를 “코드를 작성하는 사람”에서 “문제를 소프트웨어로 푸는 사람”으로 바꾸면 됨. 코드 작성은 원래도 수단이었는데, 그 수단이 실력의 대리 지표 역할을 하다 보니 정체성처럼 느껴진 것\n코드를 안 짠다고 개발자가 아닌 게 아님. 코드를 읽고, 이게 맞는지 판단하고, 잘못됐을 때 책임지는 사람이 개발자. Agent가 짠 코드에 문제가 생기면 Agent가 책임지지 않음\n무엇을 해야 하는가는 Agent가 못 하는 것부터 보면 됨\n    \n문제 정의: 무엇을 만들지, 왜 만들지, 무엇을 안 만들지\n판단: Agent가 제안한 구조 중 우리 상황에 맞는 걸 고르기. 이게 예전에 쌓은 경험이 쓰이는 자리\n검증: 잘 됐는지 확인하는 기준 만들기. 테스트, 평가셋, 지표\n운영: 만든 후에 운영하면서 겪는 문제 해결하기\n실제로 코드를 읽는 능력은 전보다 더 중요해짐. 작성량은 줄었는데 검토량은 늘었음. 읽고 판단 못 하면 Agent 산출물을 그대로 내보내게 되고, 그게 사고가 됨\n‘오늘 무엇을 결정했지?’라는 관점으로 생각해보는 것을 추천함. ADR(Architecture Decision Record)을 잘 유지하며 근거를 남기는 습관 만들기를 추천함\nAI가 만든 것을 자신의 실력이라고 착각하는 사람들도 있음. AI가 없으면 진짜 내가 할 수 있을까? 생각하면서 내 역량 자체를 올리는 것도 필요함. 저는 AI 없이 직접 개발해보고, AI에게 리팩토링하자고 하면서 하나씩 만들곤 함. 이게 속도 관점에선 느릴 수 있지만 학습 관점에선 쌓인다고 생각해서 의도적으로 이런 시간을 추가하고 있음\n\n(3) AI 시대에 대체되지 않으려면 어떤 스킬을 갖춰야 할까요?\n“대체되지 않으려면”보다 “시간이 지나도 중요한 것”으로 질문을 바꾸는 게 더 유용함. 대체되지 않으려고 하면 계속 새로운 것이 나오고, 스킬에 쫓기게 됨. 이는 유통기한이 짧음\n시간이 지나도 중요한 것\n    \n문제 정의: 모호한 요구를 풀 수 있는 문제로 바꾸는 능력. Agent는 정의된 문제를 잘 풀지, 문제를 정의해주진 않음\n도메인 이해: 우리 비즈니스에서 뭐가 중요한지. 이걸 Agent에게 넣어줘야 좋은 결과가 나옴\n평가: 이게 잘 됐는지 판단하는 기준을 만드는 능력\n시스템 설계와 운영 감각: 실패하면 어떻게 되는지, 비용은 얼마인지, 어디서 깨지는지\n커뮤니케이션: 현업, 대표, 팀원에게 “이게 왜 필요하고 뭐가 좋아지는지”를 설명하는 것\n문제 정의와 평가를 잘 진행하려면 논리적 사고와 데이터 리터러시 역량이 필요함. 논리적으로 생각하면서 그 근거를 데이터로 제시하는 일. 다만 요즘엔 사람들이 데이터에 대해 덜 관심을 가지게 된 것 같음(AI에게 시키면 된다고 생각해서) 근본적인 사고 역량은 오히려 더 중요해졌다고 생각함\n도구 쪽에서 하나만 꼽으면 Agent 도구를 깊게 써본 경험. 프롬프트 몇 개가 아니라 하네스가 어떻게 동작하는지, 어디서 실패하는지, 컨텍스트를 어떻게 관리하는지 알 정도로. 하나를 깊게 쓰면 다른 도구로 옮기는 건 금방임. 그래서 어차피 에이전트 시대라면 에이전트를 끝까지 사용해보는 것을 추천함\n그리고 AI 시대에 중요한 역량이 무엇일까 생각해보면 저는\n    \n꾸준한 사람인가: 에이전트를 쓰면 도파민이 나와서 여러 가지로 발산하기 쉬운데, 그 와중에 하나를 꾸준히 하면서 성과를 내는 사람이 더 귀해짐\n실행력이 있는 사람인가: 에이전트를 써봤다는 실행력이 아니라, 문제가 있으면 그걸 풀기 위해 모든 걸 해보는 실행력. 남들이 생각만 하는 걸 실제로 하는 사람인지\n이걸 위한 경험은 하나의 프로젝트를 끝까지 다 해보는 것\n    \nAI 활용 역량을 어떻게 파악하냐고 물어보면, AI 활용하다가 제일 크게 겪은 문제가 무엇인지 물어보면 나옴. 엄청 고민한 부분이면 흔적이 남아 있음\nAX 역량을 정의한다면 (1) 문제를 잘 쪼개고 정의하는 역량, (2) 하나의 workflow를 만들어 운영까지 하는 역량, (3) 툴 역량. 툴은 써보면 어느 정도 늘어나니 앞의 둘이 더 중요함. AI를 안 써도 되는 부분에 굳이 안 쓰는 판단도 포함\n처음엔 너무 잘하려고 하지 말고 일단 하나씩 다 만들어볼 것. 이미 많이 경험한 분들의 암묵지를 배우는 것도 방법\n\n(4) 이직이 안됩니다. 또는 신입 채용 공고가 없어요\n먼저 인정해야 할 것: 이건 구조 문제라 개인이 노력한다고 바로 풀리지 않음. 회사는 신입을 키우는 시간 대신 Agent를 쓰고 있고, 그 선택이 단기적으로 합리적이라 이 상황이 유지될 수 있음\n그래도 할 수 있는 건 있음. 채용하는 쪽이 신입을 안 뽑는 이유가 “가르쳐야 해서”라면, 가르칠 필요 없는 사람으로 보이면 됨\n    \n만든 걸 공개하되 데모가 아니라 운영까지. 배포되어 있고, 누가 쓰고 있고, 문제가 생기면 고친 흔적이 있는 것 하나\nAgent를 써서 혼자 1인분을 하고 있다는 증거. “Claude Code로 만들었습니다”가 아니라 어떤 판단을 내가 했는지가 드러나야 함\n경력직이 AX 경험을 요구받는다면, 신입도 작은 회사에서 AX 사례 하나를 만들면 경력직 트랙으로 들어갈 수 있음\n이직을 어떻게 시작하냐고 물으면, 일단 이력서를 쓰고 채용 공고에 지원해서 서류 합격률을 봄. 그 지표가 높으냐 낮으냐에 따라 전략이 달라짐. 준비만 오래 하는 것보다 지표를 먼저 보는 게 빠름\n직무 전환(DA에서 DS/MLE 등)을 원한다면 먼저 왜 하고 싶은지가 명확해야 함. 적성이든 시대 변화로 인한 불안이든 이유는 상관없는데, 이걸 안 해두면 나중에 또 다른 고민이 생김\n현실적인 장벽은 갑자기 다른 직무로 이직하는 건 어렵다는 것. 재직 중인 회사에서 충분히 인정받고 내부에서 역할을 바꾸며 경력을 쌓는 게 현실적. 점진적으로 역할을 바꾸는 분들이 종종 있음. 그러려면 지금 자리에서 성과를 내야 함\n\n(5) 미래는 어떻게 될까요? 따라가기 벅차고, 예전에 배운 것이 의미가 없어진 느낌입니다.\n미래가 어떻게 될지는 저도 모름. 다만 전부 따라갈 필요가 없다는 건 확실함. 매주 나오는 도구를 다 써보는 사람과 하나를 깊게 쓰는 사람 중 후자가 결과물이 좋음\n따라가야 할 건 “새 모델”이 아니라 “내 문제에 이 모델이 쓸만한가”를 빨리 판단하는 감각. 그건 하나를 깊게 써봐야 생김\n예전에 배운 게 의미 없어졌다는 느낌은 절반만 맞음. 지식 자체(문법, API, 프레임워크 사용법)는 Agent가 대신 기억해줌. 그런데 그걸 배우면서 생긴 판단력(이 구조가 왜 좋은지, 어디서 깨지는지)은 Agent 산출물을 평가하는 눈으로 그대로 남아 있음\n10년 차가 예전보다 덜 유리해진 건 맞음. 지식 레버리지가 줄었으니. 대신 판단 레버리지는 늘었음. Agent가 열 개를 제안하면 그중 뭘 고를지는 경험이 있는 사람이 빠름\n배움을 미루게 되는 건 “어차피 또 바뀔 텐데”라서인데, 바뀌는 건 도구이고 안 바뀌는 건 (3)에서 말한 것들임. 배움의 대상을 도구에서 그쪽으로 옮기면 유통기한 걱정이 줄어듦\n기술의 변화가 빠른 건 맞지만, 그 상황에서 하는 경험이 쌓임. 문제 정의하는 과정, 데이터를 파악하는 과정은 도구가 바뀌어도 나중에 써먹을 수 있음\n20년 차 이상인 분들에게 물어보면 예전에 다양한 기술을 사용하셨음. 기술은 시간이 지나며 바뀐다고 생각하고 기술에 너무 집중하지 않아도 됨\n기술의 변화와 상관없이 나에 대해 집중해볼 것. 내가 어떤 경험을 쌓고 있는가? 어떤 문제를 풀어봤는가?\n뭔가를 너무 채우려고 하는 것(부족한 것을 찾는 것)보다 다양한 경험을 해보길. 게임으로 치면 그 레벨에 맞는 몬스터를 다 잡고 퀘스트도 많이 깨보는 것. 세상엔 히든 퀘스트가 꽤 많음\n\n(6) AI 시대에 사람들이 덜 필요할텐데 그럼 우리는 무엇을 해야 할까요?\n부분적으로 맞음. 같은 일을 하는 데 필요한 사람은 줄고 있음. 한 명이 3인분을 하니까\n그런데 “사람이 덜 필요하다”보다 “코드만 짜는 사람이 덜 필요하다”가 정확함. 문제를 찾는 사람, 정의하는 사람, 만든 걸 쓰게 만드는 사람은 오히려 부족함. 회사마다 AX 한다면서 뭘 해야 할지 모르는 게 그 증거\n한 명이 3인분을 하게 되면 개인이 다룰 수 있는 문제의 크기도 3배가 됨. 예전엔 팀이 필요했던 걸 혼자 할 수 있고, 예전엔 회사가 필요했던 걸 개인이 할 수 있음. 그래서 회사 밖에서 만드는 사람이 늘고 있음\n우리가 해야 할 건 “AI가 못 하는 걸 찾는 것”이 아니라 “AI로 할 수 있게 된 문제 중 아무도 안 풀고 있는 걸 찾는 것”. 전자는 방어, 후자는 확장\n큰 흐름은 개인이 어쩔 수 없음. 걱정하는 시간에 (3)의 것들을 하나씩 만드는 게 나음\n저도 미래가 어떻게 될지는 모름. 다만 관리자라는 역할은 산업혁명 이후 기업이 커지면서 등장했음. 공장 규모가 커지며 현장 감독자가 필요해진 것. AI로 관리가 어느 정도 자동화된다면 이제 인간은 방향에 대해 생각해봐야 하지 않을까\n모든 개인이 자기 인생의 CEO처럼 어떻게 살 것인가를 고민하게 될 것 같음. 피터 드러커가 자기 경영에서 지식노동자는 조직이 경력을 관리해주길 기대하기보다 스스로를 경영해야 한다고 했는데, AI 등장으로 그 이야기가 훨씬 현실적으로 다가옴\n이런 시기에도 누군가는 새로운 걸 시도하고, 그러면서 새로운 형태의 일자리가 나올 것. 저도 그 과정에서 이것저것 시도하고 있음\n반대로 “AI에 너무 맡기지 말자”는 관점의 운동도 생기지 않을까. 오프라인 활동, 독서의 가치가 더 중요해지는 시기도 올 것 같음. 그래서 요즘 안 해본 경험들을 일부러 하고 있음\n\n(7) 예전에는 커리어에서 목표가 있었는데, 요즘은 모르겠어요. AI 블루일까요? 예전처럼 재미가 있지도 않아요\n이건 앞의 고민들과 종류가 다름. 성장의 문제가 아니라 의미의 문제라서 (1)~(6)의 답으로는 안 풀림\n목표가 사라진 게 아니라 목표의 단위가 바뀌었다고 봄. 예전 목표는 “시니어 되기, 좋은 회사 가기”처럼 회사가 정해준 사다리였음. 그 사다리가 흔들리니 목표가 없어진 것처럼 느껴짐. 이제 목표는 “내가 무엇을 만들고 싶은가”로 내려와야 함. 이건 회사가 정해주지 않으니 더 어렵고, 그래서 시간이 걸림\n재미는 두 가지로 나눠볼 것. 코딩 자체가 재미였는지, 만드는 게 재미였는지\n만드는 게 재미였다면 지금이 역대 가장 재미있어야 함. 만들 수 있는 양이 늘었으니. 재미가 없다면 만들고 싶은 게 없는 것이고, 그건 목표 문제로 돌아감\n코딩 자체가 재미였다면 그건 업무에서는 줄어드는 게 맞음. 대신 취미로 남길 수 있음. 손코딩, 사이드 프로젝트, 코딩 퍼즐. 재미의 자리를 옮기는 것이지 없애는 게 아님\n“예전 같지 않다”는 정상임. 도구가 바뀌면 일의 감각이 바뀌고, 그 사이에 공백이 생김. 이 공백을 “내가 잘못됐나”로 읽으면 힘들고, “일의 형태가 바뀌는 중”으로 읽으면 견딜 만함\n인정 욕구에 대한 질문을 받은 적이 있는데, 목표와 재미 이야기와도 이어짐. 이런 욕구 자체가 있다는 건 문제가 아니고 그냥 내 성격 중 하나임. 줄이려고 하기보다 내가 어떤 경우에 차분해지는지를 아는 게 먼저라고 생각함\n인정이 외부에 의존적이라면 내가 나를 인정할 수 있는 방향으로. 타인의 인정은 사람이 바뀔 때마다 힘들어짐. 목표도 마찬가지로 회사가 주는 목표는 회사가 바뀌면 사라짐\n일단 내가 나를 잘 아껴줘야 잘 지낼 수 있음. 마음이 편치 않을 때 어떻게 잘 쉬어야 하는지부터\n\n(8) 1인 개발자하면서 디지털 노마드하고 싶어요. 어떻게 해야 해요?\n만드는 건 지금이 역대 가장 쉬움. 그런데 1인 개발의 병목은 개발이 아니라 판매임. 만들 수 있는 사람은 많아졌고, 팔 수 있는 사람은 그대로임\n그래서 순서는 “그만두고 만들기”가 아니라 “다니면서 하나 만들어서 팔아보기”. 만 원이라도 받아본 경험이 있는지가 그다음 판단의 기준이 됨\n디지털 노마드는 장소 문제가 아니라 수입 구조 문제. 어디서 일하느냐보다 회사 없이 돈이 들어오는 구조가 먼저. 그게 있으면 장소는 저절로 자유로워짐\n1인 개발을 하면 개발 시간은 30%도 안 됨. 나머지는 고객 응대, 마케팅, 결제, 세금. 이게 싫으면 1인 개발이 아니라 리모트 근무를 찾는 게 맞음. 둘은 다른 선택임\n작게 시작. 큰 서비스 하나보다 작은 도구 여러 개를 빠르게 내보내며 뭐가 반응 오는지 보는 게 빠름\n1인 개발은 결국 개인 브랜딩과 붙어 다니는데, 저는 브랜딩을 하려다가 지금의 제가 된 게 아님. 2018년부터 기술 블로그에 글을 쓰고 발표를 다녔는데 전부 저를 위한 행동이었음. 글로 안 쓰면 기억에 안 남아서 썼고, 정리가 되어 있어서 발표했고, 발표 준비하면서 또 배웠음\n그게 쌓이면서 브랜딩이 된 것. 주변에 브랜딩이 되신 분들도 브랜딩을 하려고 한 게 아니라 자신을 위해 무언가를 하다가 쌓인 경우가 대부분\n그래서 “브랜딩을 위해 X를 해야 하나”라고 물으면, 그냥 하루하루 열심히 살면서 꾸준히 무언가를 하면 되지 않을까. 자신에 대해 알아가면서, 내 인생 영화를 쓰는 느낌으로 여러 시도를 해보면서..!\n\n(9) (대표님 관점) 회사에 AX를 진행하고 싶은데, 무엇부터 해야 할까요?\n도구 보급이나 사내 생산성 도구부터 하지 말 것. 그건 배경에서 말한 “기준 없이 이것저것 만들기”의 시작임\n먼저 정할 것은 “무엇이 좋아지면 성공인가”. 매출, 비용, 리드타임 중 하나와 연결된 문제 하나. 토큰 사용량이나 만든 도구 개수는 기준이 아님\n그다음은 그 문제 하나를 끝까지 푸는 것. PoC가 아니라 운영까지. 전사 확산은 그 뒤. 한 팀에서 깊은 사례 하나가 열 개 데모보다 조직을 움직임\n외부 컨설팅보다 내부에서 실제로 만들어본 사람 한 명이 중요함. FDE라는 직무가 생기는 이유가 이것. 문제를 아는 사람이 직접 들어가서 풀어야 함\n대표가 직접 도구를 써봐야 함. 써보지 않으면 뭐가 되고 안 되는지 감이 없어서 판단을 못 하고, 판단을 못 하면 “일단 많이 만들어”로 돌아감\n조직에 요구할 것도 명확히. “AI 써라”가 아니라 “이 문제를 이 지표로 이만큼 개선해라”. 그래야 만드는 사람도 (1)의 고민을 안 하게 됨\n비개발 직군에서 AX 역량을 보여주려면 어떤 경험이 필요하냐는 질문을 받았는데, 대표님이 조직에 요구할 것도 같음\n문제를 잘 쪼개고 정의하는 것. AI를 잘 쓰는 분들은 문제를 잘 정의해서 나누고, 각 영역의 실행을 AI에게 위임함\n하나의 workflow를 만들어서 운영까지 하는 것. 운영하는 과정에서 또 문제가 생기는데 그걸 해결해보는 경험이 쌓임\nAI를 안 써도 되는 부분에 굳이 안 쓰는 것. AI 만능보다 적절하게 쓸 수 있는지\n\n(10) (팀장님 관점. 주로 비개발) 팀원들이 AI를 활용해서 새로운 것들을 만드는데, 팀장인 제가 따라가지 못해서 기분이 찜찜해요\n팀장이 직접 만들 필요는 없음. 팀장의 역할은 만드는 게 아니라 “이걸 왜 만들었고, 뭐가 좋아지는지”를 묻고 판단하는 것. 그 질문이 팀장의 AI 활용임\n찜찜함은 “모르면 안 되는 사람”이라는 생각에서 옴. 그런데 팀원이 만든 걸 팀장이 평가 못 하는 건 팀장이 뒤처져서가 아니라 평가 기준이 없어서임. 기준이 없으면 팀원과 같이 정하면 됨. “이게 되면 우리 팀 뭐가 달라져?”를 같이 답하는 것\n팀원이 만들어온 것 중 실제로 쓰이는 게 얼마나 되는지 세어볼 것. 대부분 만들기만 하고 안 쓰임. 안 쓰이는 이유를 찾고 쓰이게 만드는 게 팀장이 할 일이고, 이건 도구를 몰라도 할 수 있음\n그래도 도구는 한 번 직접 써봐야 함. 깊게는 아니어도, 뭐가 되고 안 되는지 감이 있어야 팀원의 “이건 안 돼요”와 “이건 돼요”를 판단할 수 있음. 주말에 두세 시간이면 충분함\n팀원이 팀장보다 도구를 잘 쓰는 건 앞으로 기본값임. 그걸 위협으로 보면 계속 찜찜하고, 팀의 역량으로 보면 팀장이 할 일이 명확해짐\n팀원의 AI 활용 역량을 어떻게 파악하냐고 물어보면, AI 활용하다가 제일 크게 겪은 문제가 무엇인지 물어보면 나옴. 엄청 고민한 부분이면 흔적이 나오고, 그냥 써본 거면 안 나옴. 이 질문은 도구를 몰라도 할 수 있음\n팀원이 만든 것에 대해서는 “이걸 왜 만들었고, 어떤 문제가 있었고, 어떤 변화가 있었는가”를 물어볼 것. 구현만 했는지 문제까지 커버했는지가 여기서 갈림\n툴 역량은 써보면 어느 정도 늘어남. 팀장이 다 따라갈 필요는 없지만, 하나 정도는 직접 만들어보길\n\n\n\n요즘 제 시도\n저는 요즘은 AI를 더 잘 쓰는 것만큼, AI 없이 직접 생각하는 시간을 의도적으로 만들고 있음\n    \n체스 : 순간적인 의사결정을 해야 하고, 여러 상황을 예상해서 적절한 수를 넣음. AI가 잘하는 것이지만 직접 생각하면서 생각을 키우게 됨. 무의식적으로 빠르게 결정하는 역량이 좋아지는 것을 느낌\n비슷한 관점으로 블랙잭을 하기도 했는데, 일단은 체스로 정착했고 익숙해지면 블랙잭도 더 해볼 것 같다\n종이접기 : 손으로 하는 행위가 머리를 계속 쓰게 하는 것 같고, AI에게 종이접기 물어봐도 직접적인 답을 잘 주지 못해서 오히려 더 하게 된다. AI가 이미지 생성해서 도와줄 수는 있지만 공간감에 대해서는 아직 덜 도와줘서 일단 혼자 해보고 있다. 단순한 종이접기가 아니라 종이접기로 아트를 하는 분들의 자료를 보면 엄청 어렵다\n수능 수학 공부 : 수학의 아름다움은 원래 느꼈지만 요즘 더 느끼고 있다. 수능 수학 공부하니까 생각을 더 확장할 수 있어서 도움이 된다. 이투스 구독을 하면서 정승제 선생님 강의를 보면서 강의를 어떻게 해야 좋을지, 어떻게 개념을 정리하고 응용할지에 대해서도 배우고 있다.\n위에 나온 것들이 당장 커리어에 도움이 되진 않지만 살아있음을 느끼게 도와준다. 직접 고민하고 기억하고 시행착오를 겪는 시간을 늘리는데 이게 나중에 더 큰 자산이 되지 않을까? 싶다\n그리고 다시 글을 써보는 습관을 만들려고 한다. 비문이 있어도 괜찮다. 꼭 깔끔하지 않아도 괜찮다. 내가 기록하면서 더 정리가 된다. AI 시대에 AI에게 정리를 시키는 것이 쉽지만 역설적으로 내가 직접 정리도 해보고, 글도 써보는 것을 다 놓진 않고 조금은 해봐도 좋을 것 같다(정보를 빠르게 탐색할 때는 AI 요약을 쓰기도 함)\n빠르게 결과를 만드는 것과 별개로, 제 머릿속에 경험을 남기기 위한 의도적인 수련을 하기도 하고, AI를 많이 써보기도 하고 둘 다 하고 있음\nAI가 많은 것을 대신해줄수록, 역설적으로 내가 직접 생각하고 경험하는 시간을 더 의식적으로 만드는 것이 중요해질 것 같다\n\n\n\n정리\nAI의 등장으로 개발자가 사라진다기보다 개발자에게 기대하는 역할과 실력의 기준이 바뀌고 있음\n코드를 직접 작성하는 것보다 어떤 문제를 풀 것인지 정의하고, AI가 만든 결과를 판단하고 검증하고, 실제 운영까지 해보는 경험이 중요해지고 있음\n그렇다고 지금까지 쌓은 경험이 의미 없어지는 것은 아님. 직접 개발하고 실패하면서 쌓은 경험은 AI가 만든 결과를 판단하는 기준으로 활용할 수 있음\n모든 새로운 도구를 따라가기보다는 하나를 깊게 사용해보면서 어디까지 되고, 어디서 문제가 생기는지 경험해보는 것이 좋다고 생각함\nAI를 잘 사용하는 것과 내 역량을 키우는 것을 둘 중 하나로 생각하지 않아도 됨. AI를 적극적으로 사용하면서도 직접 생각하고 배우고 기록하는 시간을 의도적으로 만들 수 있음\n결국 미래에 어떤 직무가 살아남을지는 알 수 없음. 대신 변화하는 환경에서 내가 어떤 문제를 풀 수 있는 사람이 될지는 계속 만들어갈 수 있음\n\n지금 해볼 수 있는 것\n1. Agent 도구 하나를 깊게 사용해보기\n여러 도구를 조금씩 사용하기보다 하나를 정해서 실제 문제를 처음부터 끝까지 해결해보기\n가능하면 만드는 것에서 끝내지 않고 실제 운영까지 해보기\n\n2. 내가 내린 결정을 기록하기\nAI가 무엇을 만들었는지가 아니라 그 과정에서 내가 무엇을 결정했는지 기록하기\n왜 이 문제를 풀었는지, 무엇을 하지 않기로 했는지, AI의 제안 중 무엇을 선택하고 거절했는지 남겨보기\n오늘 무엇을 만들었지?보다 오늘 무엇을 결정했지?를 생각해보기\nADR(Architecture Decision Records)를 인생에도 적용해보기\n\n3. 잘됐는지 판단하는 기준 만들기\nAI가 잘 만들었다는 느낌에서 끝내지 않기\nTest, Eval, 데이터 지표 등 내가 하는 일에 맞게 잘된 결과의 기준을 직접 만들어보기\nEval하는 다양한 방법을 학습하기. Eval 관련 글은 OpenAI, Anthropic 등에 많이 있다\n\n4. 하나의 프로젝트를 끝까지 경험해보기\n데모를 만드는 것에서 끝내지 않고 배포하고, 누군가 사용하게 하고, 문제가 생기면 고쳐보기\n이 과정에서 겪은 문제가 결국 나만의 경험으로 남음\n\n5. 도구보다 내가 풀고 있는 문제를 더 깊게 보기\n새로운 AI 도구 사용법만 공부하기보다 내가 일하는 조직과 산업에서 어떤 문제가 중요한지 관찰하기\nAI를 안 써도 되는 문제에는 굳이 AI를 쓰지 않는 판단도 해보기\n\n6. AI 없이 직접 생각하는 시간도 만들어보기\n글을 쓰거나, 책을 읽거나, 문제를 풀거나, 새로운 것을 직접 배워보기\n빠르게 답을 얻는 것과 별개로 내 머릿속에 경험을 남기기 위한 의도적인 수련도 해보기\n\n결국 제가 계속 하는 질문\n오늘 AI에게 무엇을 시켰는지보다, 오늘 나는 무엇을 판단했고 무엇을 경험했는가?",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2499",
-    "pubDate": "Wed, 23 Sep 2026 17:02:57 +0900",
-    "creator": "｜RULIWEB｜",
+    "link": "https://zzsza.github.io/diary/2026/09/24/2026-developer-career-worries/",
+    "pubDate": "Thu, 24 Sep 2026 00:00:00 +0000",
+    "creator": "Unknown",
     "categories": [
-      "웹툰"
+      "diary",
+      "diary"
     ]
   },
   {
@@ -35,100 +36,60 @@
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Bringing Private Processing to Meta AI Glasses",
-    "description": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone.  Most of the time, glasses are helping you see well, protecting your eyes and complementing your look, and [...]\nRead More...\nThe post Bringing Private Processing to Meta AI Glasses appeared first on Engineering at Meta.",
+    "title": "Ktor 3.6.0 Is Now Available!",
+    "description": "Ktor 3.6.0 is here! This release is full of new experimental features, including typed authentication capabilities with specialized support for OpenID Connect and HTTP/3 support for the Netty engine. There are also a few quality-of-life improvements for routing and request handling, more convenient defaults for Kotlin Multiplatform clients, and more. Check out What’s new in […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
-    "pubDate": "Thu, 24 Sep 2026 00:00:00 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/ktor/2026/09/18/ktor-3-6-0-is-now-available/",
+    "pubDate": "Fri, 18 Sep 2026 10:45:56 +0000",
+    "creator": "Simon Vergauwen",
     "categories": [
-      "Security & Privacy"
+      "ktor",
+      "news",
+      "releases",
+      "release"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "휴직 일기 - 18일 차 - 식상한 가을 날씨",
-    "description": "이제 휴직기간은 72일 남았다. 매일 이렇게 기록을 남겨 놓으니 시간이 그렇게 빠르게 가고 있다는 생각은 아니다. 그래도 하루하루 소중하게 보내야겠다는 생각은 여전하다. 흥미롭게도 삶에 대한 애착이 더 커지는 느낌이다.  \"도둑맞은 집중력\"을 다 읽고 반납했다. 집중력을 살려내기 위한 나름의 몇 가지 행동들은 유효했는지 조금씩 늘고 있는 것 같다. 특히 S",
+    "title": "휴직 일기 - 23일 차",
+    "description": "그런 날이 있다. 일정 기간 어떤 패턴을 유지하다 보면 한 없이 무너지는 날이 있다. 하던 것들을 멈추게 되고 딴짓을 하게 된다. 오늘 딱 그런 날이었다. 조금씩 나의 속도에 맞춰서 진행하고 있던 공부가 갑자기 하기 싫어졌다. 그래서 넷플릭스를 보며 딴짓을 했다. 순간 뭔가 잘 못된 것을 알았다. 빠르게 다시 돌아와서 하던 것을 하려고 했다. 이번에는 졸음",
     "reviews": [],
     "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/76",
-    "pubDate": "Thu, 17 Sep 2026 13:34:54 GMT",
+    "link": "https://brunch.co.kr/@@24SO/80",
+    "pubDate": "Tue, 22 Sep 2026 12:43:58 GMT",
     "creator": "고종범",
     "categories": []
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "JetBrains Air: Building a System of Products for Agentic Software Development",
-    "description": "AI can produce code. Organizations still have to produce software. Agentic development is changing how software gets made, but it hasn’t changed what it costs to be wrong. Six months ago, we began publicly experimenting with agentic development environments. Around the same time, we introduced JetBrains Central as an open control and execution system for […]",
+    "title": "휴직 일기 - 22일 차",
+    "description": "\"무의식은 어떻게 나를 설계하는가\" 이 책을 읽기 시작했다. 나의 의지나 생각이 나를 통제하고 있을 것이라는 생각이었는데 이 책을 읽기 시작하면서 책에 나와 있는 문구대로 \"내 안에 내가 아닌 존재가 있다\"라는 생각이 들었다. 휴직 전 상담에서도 비슷한 상담을 했었다. 상담사가 이야기해 준 것은 현재의 자아와 나를 비판하는 자아가 서로 소통하지 않고 있다는",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
-    "pubDate": "Tue, 22 Sep 2026 09:00:34 +0000",
-    "creator": "Kirill Skrygan",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "jetbrains",
-      "new-products",
-      "news",
-      "releases"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/79",
+    "pubDate": "Mon, 21 Sep 2026 13:56:32 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Making Local AI Smarter and Faster",
-    "description": "We want local coding agents to be smart and fast, with the ability to understand a codebase, do useful work, and finish tasks without long waits. This Junie Local update makes it practical to use a more capable model on your own machine. In the first release, we had to choose between two versions of […]",
+    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/junie/2026/09/smarter-local-al/",
-    "pubDate": "Fri, 18 Sep 2026 13:42:27 +0000",
-    "creator": "Vladimir Sotnikov",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2499",
+    "pubDate": "Wed, 23 Sep 2026 17:02:57 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "agentic-ai",
-      "data-science",
-      "open-source",
-      "releases",
-      "update",
-      "junie",
-      "local-ai",
-      "ml",
-      "updates"
+      "웹툰"
     ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "멍친스톤의 냥들, 항로개척자",
-    "description": "가볍게 꺼내기 좋은 멍친스톤이다. 지역 1~4까지 플레이하면서 강화한 카드로 보스를 잡는 게임으로 여정과 전투 두개의 부분에서 적절한 속성과 수치를 사용하는 게임이다. 1~4지역을 클리어하면서 얼마나 강화를 잘했는지와 손패 드로우에 보스를 잡을 수 있는지 아닌지 정해진다. 이번 보스는 엘레노르 인데 여정에 1회 전투에 1회 하고 모든데미지를 받을 수 있으면 클리어다. 하지만 여정에서 패가 안좋게 뽑히면서 카드가 많이 버려져 전투에서 그냥 털러버렸다... 다음은 항로개척자. 플루토게임즈에서 출시한 게임으로 리마스터 판 펀딩이 끝난 제품이다. 난 벌써 구판이 됬다. 12개월동안 세계를 돌아다니면서 미션을 달성하여 높은 점.......",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/224417857147?fromRss=true&trackingCode=rss",
-    "pubDate": "Sun, 20 Sep 2026 17:51:58 +0900",
-    "creator": "dlehddus84",
-    "categories": [
-      "플레이"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
-    "description": "We’re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to [...]\nRead More...\nThe post Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
-    "pubDate": "Mon, 21 Sep 2026 16:00:37 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Open Source"
-    ]
-  },
-  {
-    "id": 9,
     "imageUrl": "",
     "title": "Leave the Class Path in the Rearview Mirror",
     "description": "No description available",
@@ -145,25 +106,7 @@
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4",
-    "pubDate": "Thu, 17 Sep 2026 17:01:02 GMT",
-    "creator": "Pengyu Hou",
-    "categories": [
-      "technology",
-      "engineering",
-      "open-source",
-      "machine-learning",
-      "ai"
-    ]
-  },
-  {
-    "id": 11,
+    "id": 8,
     "imageUrl": "",
     "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
     "description": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea cable system to deploy multi-core fiber technology at scale, doubling [...]\nRead More...\nThe post Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable appeared first on Engineering at Meta.",
@@ -177,60 +120,99 @@
     ]
   },
   {
-    "id": 12,
+    "id": 9,
     "imageUrl": "",
-    "title": "[MULTI] 전통적이면서 독창적인 계승, 사일런트 힐: 타운폴",
-    "description": "No description available",
+    "title": "휴직 일기 - 19일 차 - 언어를 배운 다는 것에 대하여",
+    "description": "다른 언어를 배운다는 것은 흥미로운 일이다. 나는 언어에 대하여 재능이 전혀 없다. 영어도 제대로 못하는데 지금은 일본어 공부를 하고 있다. JLPT N3라는 일본어 시험에 합격했지만 일본어를 잘하는 것은 아니다. 그래서 다음 단계로 N2라는 한 단계 위의 시험을 준비하고 있다. 일본어를 배우면서 흥미로운 점을 느꼈는데 오늘은 그 이야기를 쓰려고 한다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2500",
-    "pubDate": "Wed, 23 Sep 2026 19:36:13 +0900",
-    "creator": "「RULIWEB」",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Ktor 3.6.0 Is Now Available!",
-    "description": "Ktor 3.6.0 is here! This release is full of new experimental features, including typed authentication capabilities with specialized support for OpenID Connect and HTTP/3 support for the Netty engine. There are also a few quality-of-life improvements for routing and request handling, more convenient defaults for Kotlin Multiplatform clients, and more. Check out What’s new in […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ktor/2026/09/18/ktor-3-6-0-is-now-available/",
-    "pubDate": "Fri, 18 Sep 2026 10:45:56 +0000",
-    "creator": "Simon Vergauwen",
-    "categories": [
-      "ktor",
-      "news",
-      "releases",
-      "release"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "휴직 일기 - 21일 차",
-    "description": "오늘도 가을 날씨가 좋았다. 조금 덥기는 했지만 바람이 불어 시원했다. 의자에 앉아 책을 읽다가 스르르 잠에 들었던 날씨였다.  어제는 갑작스러운 일로 5시간 운전을 했는데 오늘은 한가롭게 날씨를 즐겼다. 많은 사람들이 공원에 돗자리나 텐트를 치고 가족들과 좋은 시간을 보내고 있었다. 그냥 평범한 가을의 주말이었다.  주말은 잘 보냈고 또 한 주를 시작해야",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/78",
-    "pubDate": "Sun, 20 Sep 2026 14:46:16 GMT",
+    "link": "https://brunch.co.kr/@@24SO/77",
+    "pubDate": "Fri, 18 Sep 2026 13:53:18 GMT",
     "creator": "고종범",
     "categories": []
   },
   {
-    "id": 15,
+    "id": 10,
     "imageUrl": "",
-    "title": "브라스 버밍엄 맥주토큰 도색",
-    "description": "브라스 버밍엄을 할때마다 맥주 토큰이 너무 밝고 질감이 없어서 뭔가 아쉬웠는데 도색을 해봤다. 어두운 분위기의 게임 아트와 대조대게 너무 밝은 나무 토큰이라 아쉬워 도색을 해봤다. 커피를 진하게 타서 이틀동안 담궈두었는데 밝은색은 빠지고 자연스러운 색이 입혀져서 맘에 들었으나 말리고 나니 다시 밝아졌다. 검은색으로 나무가 아니거나 음영이 필요한 부분을 칠해주었다. 쉐이드 도료를 이용해 톤을 확 죽여줄것이기에 지금은 어색하지만 어둡게 될것이다. 시타델 사의 아그락스 어스쉐이드를 전체적으로 발라주고 음영이 필요한부분엔 덧칠을 해주었다. 검은색과 이 쉐이드 도료만 사용했다. 쉐이드 도료는 그림자를 넣는데 사용하.......",
+    "title": "Jev 오해 바로잡기: System 1 판단 모델과 LLM은 같이 쓰는 구조예요 - Jev는 LLM을 대체하는 생성형 모델이라기보다 짧고 명확한 판단을 빠르게 처리하는 System 1 모델에 가깝습니다. 복잡한 추론은 LLM에 넘기고, 단순 선택·분류는 Jev 같은 모델이 맡는 공존 구조가 핵심입니다.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 TypeSafe AI가 공개한 Jev를 둘러싼 오해예요.Jev를 이해하려면 System 1과 System 2부터 봐야 해요제가 먼저 짚고 싶은 건 Jev가 기존 LLM을 통째로 대체하는 물건이 아니라는 점이에요. 사람의 사고를 비유할 때 System 1은 빠르고 직관적인 판단에 가깝고, System 2는 천천히 따져보는 추론에 가깝다고 설명하죠. 지금 많은 LLM 서비스는 긴 문맥을 읽고 reasoning을 거쳐 답을 만드는 System 2 쪽에 강점이 있어요. 대신 단순한 선택 하나에도 생각하는 절차가 들어가면 비용과 지연 시간이 커질 수밖에 없어요.예를 들어 댓글을 보고 바로 숨길지, 통과시킬지, 사람 검토로 넘길지 정해야 한다면 매번 거대한 LLM을 부르는 건 과할 수 있어요. 이런 자리에서 Jev 같은 System 1 모델을 먼저 세우면 빠르게 분류하고, 애매하거나 복잡한 것만 LLM에 넘기는 구성이 가능해져요.공식 자료가 말하는 Jev의 역할TypeSafe AI의 Jev 공개 글은 Jev를 문자열 생성 모델이 아니라, 상태와 typed question을 받아 구조화된 확률적 결정을 내는 모델로 설명해요. TypeSafe 문서에서도 Choice, Score, Noul 같은 primitive를 통해 선택지, 점수, yes/no 확률을 반환한다고 안내해요. 그래서 Jev를 챗봇처럼 긴 답변을 쓰는 모델로 보면 어긋나요. 코드가 바로 소비할 수 있는 판단값을 주는 쪽에 가깝습니다.TypeSafe는 Jev가 System 1 작업에서 훨씬 빠르고 저렴하다고 주장하지만, 그 수치는 벤더 자체 벤치마크예요. 독립 검증으로 확정된 값처럼 받아들이기보다는, 구조상 단순 판단을 작게 처리하려는 방향이라고 이해하는 게 더 안전해요.오픈 대체 모델과 커뮤니티 논쟁추가 조사 결과에는 Jev 스타일의 로컬 대안도 나와요. Von 프로젝트는 TypeSafe Jev의 로컬 drop-in 대안을 표방하고, 비생성형 decision making에 맞춘 모델이라고 설명해요. 다만 Jev와 어느 쪽이 더 낫다는 비교는 이 자료만으로 단정할 수 없어요.커뮤니티 쪽에서는 Jev와 비슷한 구조를 이미 예전에 만들었다는 주장도 있었어요. LocalLLaMA Reddit 논의는 그런 분위기를 보여주지만, 이건 공식 확인 사실이 아니라 커뮤니티 주장으로만 봐야 해요. DCVC 자료에서는 TypeSafe AI가 4천만 달러 seed round를 유치했다는 점이 확인되지만, 투자 사실이 곧 성능 검증을 뜻하진 않아요.시청자 반응과 실제 활용 감각유튜브 영상 댓글을 보면 System 1, System 2 설명을 다니엘 카너먼의 개념과 연결해 이해한 반응이 있었고, Jev를 저렴하고 빠른 소형 차량에 비유한 댓글도 눈에 띄었어요. 반대로 LLM이 System 2에만 집중한다는 설명에 동의하지 않는 의견이나, 입력이 제한적이라 활용처가 아직 고민된다는 반응도 있었어요.제가 보기에 이 논의의 포인트는 Jev 하나로 모든 AI 작업을 끝내자는 이야기가 아니에요. 간단한 판단은 Jev 같은 모델로 빠르게 처리하고, 복잡한 생성이나 추론은 LLM이 맡게 하는 조합이 현실적인 방향이에요. AI 에이전트도 목적이 분명하면 개인이든 팀이든 쓸 수 있지만, OpenAI나 Anthropic 같은 회사가 자체 에이전트 기능을 더 내놓을 가능성까지 생각하면 사용 사례가 충분히 쌓인 뒤 선택해도 늦지 않을 수 있어요.참고 자료이번 정리는 TypeSafe AI의 Jev 공개 글, TypeSafe AI 문서, Von GitHub 저장소, DCVC의 TypeSafe 소개 자료, LocalLLaMA 커뮤니티 논의, 그리고 원본 쇼츠를 바탕으로 정리했어요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/224416489291?fromRss=true&trackingCode=rss",
-    "pubDate": "Fri, 18 Sep 2026 22:38:26 +0900",
-    "creator": "dlehddus84",
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6ab49ec8accb5eade32943e5",
+    "pubDate": "Thu, 24 Sep 2026 03:53:44 GMT",
+    "creator": "ZeroCho",
     "categories": [
-      "도색과 제작"
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "The AIDEs Framework: How We Built a “Theory of Everything” for AI Development Tools",
+    "description": "We are living in genuinely interesting times. AI is disrupting software development at a pace where new models, tools, and practices appear almost daily. Many teams’ natural first instinct is to spend ever more time chasing updates. After almost two years of AI product and market research at JetBrains, we’ve come to a different conclusion: […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/09/aides-framework/",
+    "pubDate": "Fri, 18 Sep 2026 13:52:30 +0000",
+    "creator": "Stanislav Tikhomirov",
+    "categories": [
+      "agentic-coding",
+      "ai-domain",
+      "aides-framework",
+      "research",
+      "webinars"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "휴직 일기 - 25일 차",
+    "description": "어제저녁 늦게까지 운동을 했다. 체력이 탈탈 털릴정도까지 해서인지 오늘 아침은 아주 늦게 일어났다. 예전부터 수면에 대하여 고민이 많이 있었다. 수면 시간이 짧거나 퀄리티가 좋지 않으면 일상이 자주 망가졌기 때문이다. 집중력이 부족해지고 기억력도 떨어지고 순발력도 떨어질 뿐만 아니라 체력이 저하되어 뭔가 제대로 하는 게 없다. 그래서 수면에 대하여 계속 체",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/81",
+    "pubDate": "Thu, 24 Sep 2026 13:43:19 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Code Quality Q&A With the JetBrains Qodana Team",
+    "description": "Code quality is shaped by countless decisions, from how developers manage complexity to how quickly they detect regressions. But common concepts such as technical debt, cognitive complexity and unit testing are not always clearly understood. In a new code quality Q&A session, we asked members of the Qodana team to answer some frequently searched questions […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/09/code-quality-q-a/",
+    "pubDate": "Tue, 22 Sep 2026 13:16:19 +0000",
+    "creator": "Kerry Beetge",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+    "description": "We’re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to [...]\nRead More...\nThe post Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+    "pubDate": "Mon, 21 Sep 2026 16:00:37 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Open Source"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "[MULTI] TGS2026 취재·방송 등 관련 기사 종합",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2498",
+    "pubDate": "Mon, 21 Sep 2026 06:10:49 +0900",
+    "creator": "샤말란의눈",
+    "categories": [
+      "특집"
     ]
   }
 ]
