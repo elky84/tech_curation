@@ -2,52 +2,38 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Small Talk with Emiliano Bonilla, CEO and Co-Founder of Synnax",
-    "description": "What is Small Talk? Small Talk is our short Q&A with founders from the JetBrains Startup Program. They answer a handful of questions in their own words about what they’re building, why they started, and what they’ve figured out along the way. No pitch, no polish – just a two-minute read to meet the person […]",
+    "title": "Rider 2026.2.3 Is Released!",
+    "description": "Rider 2026.2.3 brings AI performance analysis to the Monitoring tool window and fixes an issue with the AI Agent Setup widget on Windows. You can update directly from the IDE, through the Toolbox App, or by downloading the latest version from our website. AI performance insights from the Monitoring tool window Now you can ask […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/startups/2026/09/small-talk-synnax/",
-    "pubDate": "Wed, 30 Sep 2026 13:00:36 +0000",
-    "creator": "Mitsal Athaya",
+    "link": "https://blog.jetbrains.com/dotnet/2026/09/28/rd-2026-2-3/",
+    "pubDate": "Mon, 28 Sep 2026 12:25:44 +0000",
+    "creator": "Alexander Kurakin",
     "categories": [
-      "interviews",
-      "jetbrains-startup-program"
+      "release",
+      "rider",
+      "ai",
+      "dottrace",
+      "performance-monitoring"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "[NS] 압도적 밀도와 볼륨으로 상다리가 부러졌어요, 파이어 엠블렘 만자천홍",
-    "description": "No description available",
+    "title": "A New Agentic Experience: JetBrains Air in IDEs – EAP Now Open",
+    "description": "Last week, we shared our point of view on where we think agentic development is headed and introduced JetBrains’ answer to it: JetBrains Air, an open system of products for agentic development. Today, we’re launching the Early Access Program for Air in JetBrains IDEs. It’s available now as a plugin on JetBrains Marketplace or natively […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2501",
-    "pubDate": "Tue, 29 Sep 2026 18:30:21 +0900",
-    "creator": "［RULIWEB］",
+    "link": "https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/",
+    "pubDate": "Thu, 01 Oct 2026 12:42:32 +0000",
+    "creator": "Dominique Rolink",
     "categories": [
-      "리뷰"
+      "agentic-ai",
+      "ai"
     ]
   },
   {
     "id": 3,
-    "imageUrl": "",
-    "title": "회사의 비누를 만드는 사람들",
-    "description": "요즘 판교 일대를 걷다 보면 여러 현수막을 보게 된다.\n회사마다 개발자의 역할을 어떻게 생각하는지 엿볼 수 있다.  \nAI가 코드를 작성하는데, 개발자만 꼭 개발을 해야 하느냐, 개발자가 꼭 개발만 해야 하느냐는 이야기가 많다.\n직접 문제를 풀던 시간은 줄고, AI에게 일을 시키고 결과만 넘기는 사람이 된 것 같다는 개발자분들도 많다.\nAI로 바이브 코딩을 하면서 개발자가 아닌 사람들도 업무에 쓸 프로그램을 직접 만들 수 있게 됐다.\n앞으로 이렇게 만드는 사람은 더 많아질 거고, 그만큼 사고도 생길 거다.\n혼자 쓰려고 만든 프로그램에서 회사 정보가 밖으로 샐 수도 있고, 데이터를 고치다가 원래대로 돌리지 못할 수도 있다.\n그렇다고 다시 개발자만 프로그램을 만들게 하기는 어려울 것 같다.\n직접 만들어 쓰는 게 얼마나 편한지, 누군가가 해줄 때까지 기다리지 않아도 된다는 게 얼마나 편한지 이미 대부분 경험했으니까.  \n예전엔 어렵던 일을 도구 덕분에 누구나 할 수 있게 된 건 이번이 처음이 아니다.\n손 위생이 자리 잡기 전에는 병원에서 수술을 받는 일 자체가 위험했다.\n1860년대 영국 글래스고의 한 병원에서는 팔다리를 절단한 환자의 절반 가까이가 감염으로 목숨을 잃었다.\n손과 상처를 소독하기 시작하자 그 비율은 15%까지 떨어졌다.\n지금은 손 씻기를 가르치는 것만으로 설사병에 걸리는 사람이 23-40% 줄어든다고 한다.\n전문가가 아니어도 비누 하나로 감염을 꽤 막을 수 있다.\n그렇다면 비누가 흔해진 뒤로 위생과 감염을 다루는 사람들의 일은 줄었을까.\n영국에서 비누는 무거운 세금 때문에 한때 마음껏 쓰기 어려운 물건이었다.\n비누세가 없어지자 비누 산업이 빠르게 커졌다.\n그 뒤 아버지의 식료품 가게에서 일하던 윌리엄 레버는 비누를 무게로 달아 파는 대신 한 장씩 잘라 포장해서 팔기 시작했다.\n이 비누 장사가 2025년 한 해 매출만 약 78조 원인 도브와 바세린을 파는 유니레버가 되었다.  \n반면, 비누만으로는 막지 못한 감염도 있었다.\n1959년 영국에서는 병원 감염만 맡는 감염관리 간호사가 처음 생겼다.\n비누를 만들고 퍼뜨리는 사람, 비누로도 막지 못하는 감염을 연구하는 사람처럼 위생을 다루는 일은 오히려 여러 갈래로 늘었다.\n설사를 막는 일의 상당 부분은 비누가 맡고, 의사는 손을 잘 씻고도 걸리는 설사를 들여다보는 셈이다.\nAI로 프로그램을 만드는 사람이 많아지면 개발자가 하는 일은 지금과 달라질 수 있다.\n그 변화도 위생을 다루는 일처럼 갈래가 늘어나는 쪽일 것 같다.\n회사의 비누를 만드는 사람, 그리고 비누가 있어도 생기는 사고를 해결하는 사람처럼.\n누구나 AI로 프로그램을 만들려면 회사의 비누가 있어야 한다.\n회사 데이터에 안전하게 연결되고, 실수해도 되돌릴 수 있고, 매일 써도 비용이 부담되지 않는 AI 환경 말이다.\n개발자가 이런 비누를 만들어 두면 개발자가 아닌 사람도 마음 놓고 AI로 일할 수 있다.\n이런 비누로도 막지 못하는 사고가 있다.\nAI로 각자 만든 프로그램은 하나씩 떼어 보면 문제없어 보인다.\n그런데 여러 프로그램이 같은 데이터를 바꾸기 시작하면 어느 프로그램이 바꾼 값이 맞는지부터 헷갈린다.\n한 곳에서 난 오류가 다른 업무에 어디까지 번지는지도 알기 어렵다.\n사고가 나면 어디부터 복구할지도 누군가는 정해야 한다.\n이런 일에는 회사의 업무와 데이터, 이미 운영 중인 시스템을 아는 개발자가 필요하다.\n팔다리를 절단한 환자의 절반 가까이가 감염으로 목숨을 잃던 시대에서, 손 씻기와 소독이 당연해진 시대가 되기까지는 수십 년이 걸렸다.\n지금은 그만한 변화가 몇 년 사이에 일어나고 있다.\n이 시기만 지나면 괜찮아지겠지, 조금만 버티면 되겠지 하는 마음으로는 하루하루를 보내기 어렵다.\n이렇게 큰 변화를 직접 눈으로 보고 몸으로 겪을 수 있는 때는 흔치 않다.\n빨리 지나가기만 바라기에는 아까운, 멋진 시기라고 생각한다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jojoldu.tistory.com/886",
-    "pubDate": "Sat, 26 Sep 2026 14:36:52 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리",
-      "AI",
-      "개발자",
-      "비누",
-      "스타트업"
-    ]
-  },
-  {
-    "id": 4,
     "imageUrl": "",
     "title": "Firebat F1 미니PC - 35W 전력제한 바이오스 설정",
     "description": "Firebat F1 7640HS, 24GB RAM, 512GB SSD 제품의 35W 전력제한을 BIOS에서 설정하는 방법에 대한 글이다. 35W로 전력을 제한하는 이유는 발열 때문이다. Firebat F1은 발열을 해소하는데 매우 어려운 구조적 문제가 있어서 원래 설정대로 사용하면 60도를 가볍게 터치하고, 그 이상으로도 튀는 문제가 생긴다. 특히 상단에 열이 빠져나갈 구멍이 없어서 지속적으로 열이 쌓이면 문제가 생길 것 같았다.\n \n0. 제품 개요\n해당 제품은 Firebat F1, 7640HS, LPDDR5 5500MHz 24GB, 512GB NVMe SSD (firebat 제품)을 장착한 제품으로 세금 포함해서 47만원 조금 안되는 가격에 구입하였다. 이 제품은 장점은 24GB라는 메모리 용량에 있다. 내장 GPU를 사용하는 미니PC들은 보통 RAM에서 2~4GB정도를 내장 GPU의 그래픽에 사용하기 때문에 16GB 메모리를 장착한 경우에는 실제 사용가능한 메모리가 12~14로 줄어드는 부분이 있다. 하지만 이렇게 24GB를 사용하는 시스템은 4GB 정도를 iGPU용으로 전용해도 20GB가 남기 때문에 Youtube를 보면서, 프로그래밍을 하고, 문서작업을 해도 무리없이 사용할 수 있다. 단점은 LPDDR5은 메인보드에 납땜으로 부착되는 형태라서 메모리의 교체가 불가능해진다. 만일 메모리가 고장나면 매우 높은 확률로 고철이 되거나 RMS를 보내거나, 아님 전문 사설 수리점에 가야 될 수 있다. 물론 메모리는 왠만하면 고장이 안나므로 초기 불량이 아니면 큰 걱정할 필요는 없다. 그럼에도 불구하고 높은 열을 지속해서 주면 메모리 납땜이 약한 부분이 떨어지거나 문제가 생길 수는 있다.\nFirebat F1 7640HS 24GB LPDDR5 512GB SSD\n\n\n참고로 이 제품에 들어있는 LPDDR5 메모리의 클럭이 5500MHz인데, 내가 알기론 5500MHz 클럭의 제품은 주로 스마트폰에 들어가는 것으로 알고 있다. 따라서 스마트폰용으로 들어갈 메모리를 가져오거나 혹은 재생해서 사용하는게 아닌가 싶다. 특히 5500MHz LPDDR5는 최소 3~4년 전에 주로 사용하던 스펙으로 기억하는데 그렇다면 재고나 재생 메모리라는 생각이 좀 강하게 드는 편이다. 최근 대부분의 랩탑의 LPDDR5는 6400MHz이나 7~8000MHz이 넘는 스펙을 사용하고 있는 면에서 더 그런 생각이 든다. 아마도 단가를 낮출 수 있었던 것이 이런 요인이 아닌가 생각된다. 24GB RAM에 512GB SSD를 사용하고 50만원도 안되게 팔려면 이 방법이 최선이었을 것이다. 그리고 미니PC는 속도를 높여봐야 어차피 발열도 같이 늘어나서 문제가 되니까 Firebat F1같은 작은 제품은 낮은 클럭을 쓰는게 오히려 좋을 수 있다.\nFirebat F1 제품을 뜯는 방법은 조심하기만 하면 매우 쉬운 편이다. 하단의 4개의 나사를 풀고 헤라를 이용해서 옆을 살짝 벌려주면 하판 검은색 플라스틱이 툭 빠진다. 이때 옆의 전원 케이블과 WIFI 안테나를 조심해야 한다. 그리고 은색의 상판도 양옆 부분에 끼워져 있는데 헤라를 넣어서 살살 벌리면 툭하고 빠진다. 케이블들은 약하기 때문에 조심스러운 성격이 아니라면 괜히 분해하지 않는 것을 권장한다. 사실 분해해도 별다른 것도 없다. 본인이 분해한 이유는 WIFI 칩셋이 realtek 제품이 들어있는데, 이게 그닥 좋은 편은 아니라서 Intel AX210으로 변경하기 위해서 분해했다.\n먼저 이 제품의 메인보드 스펙을 CPU-Z로 확인한 것은 다음과 같다.\nFirebat F1 - mainboard - A3TS-F\n\n\n메인보드의 BIOS는 AMI이고, 현재 바이오스 버전의 날짜는 2026년 4월 8일자이다. 찾아보니까 새로운 바이오스가 없는 것으로 봐서 이게 최신 바이오스인것 같다.\nFirebat F1 - Memory - LPDDR5\n\n\n메모리는 LPDDR5 24GB인데 4개가 들어있으므로 6GB짜리 4개임을 알 수 있다. 그리고 CL 15 제품이 들어있다.\nFirebat F1 - Memory SPD module\n\n\n메모리 모듈은 LPDDR5 5500MHz Samsung 6GB 제품이다. 비어있는 정보가 많은 것으로 봐서 아무래도 재생 메모리가 아닌가 의심이 된다. 사실 재생메모리여도 삼성, SK하이닉스, 마이크론 같은 메이저 업체의 칩은 별 문제가 없는 편이다.\n \n1. 프로세서 개요\n이 제품에 들어있는 AMD 7640HS APU 프로세서의 주요 특징은 다음과 같다.[1]\n이름\nAMD Ryzen5 7640HS\n \n\n\n아키텍처\nZen4\n \n\n\nCPU Cores, Threads\n6\nSMT threads 12\n\n\nBase Clock\n4300MHz\n기본 클럭이 높은 편이라 발열이 심하다.\n\n\nBoost Clock\n5000MHz\n \n\n\nCache (L1, L2, L3)\n384KB, 6MB, 16MB\nL2가 코어당 1MB로 늘었다.\n\n\nTDP 전력 설정\n35~54W\n \n\n\nUSB4 40Gbps \n2 lanes\n \n\n\nUSB 3.2 Gen2 10Gbps\n2 lanes\n \n\n\nPCIe\n4.0\n \n\n\nMemory channels\n2 \ndual channel\n\n\nGPU\nRadeon 760M\n \n\n\n\n이 제품은 기본 클럭이 4.3GHz로 높은 편이다. 게다가 부스트 클럭은 5.0GHz로 매우 높다. 따라서 부스트가 터질때는 매우 빠르게 60~70도까지 치솟는다. 이런 높은 열은 미니PC의 급사망의 원인이 되므로, 많은 사람들은 커스텀 모드킷으로 개조된 케이스를 달기도 한다. 하지만 본인은 이걸로 게임을 하는게 아니라 그냥 문서 작업하고 유튜브 보는 용도라 차라리 전력 제한을 걸어서 발열을 낮추는 방법을 사용하기로 했다.\n \n2. 바이오스의 전력 제한 설정\n바이오스는 부팅할 때 Del 키를 누르면 되는데, 혹시라도 윈도11로 그냥 부팅되어버린다면 powershell을 관리자 모드로 실행한 뒤에 아래 명령어로 쉽게 바이오스로 들어갈 수 있다. 아래 옵션에서 r은 reboot, fw는 firmware, t는 timeout을 의미한다. 즉 재부팅하면서 firmware로 들어가고, 지금 당장 실행하라는 뜻이다.\nshutdown /r /fw /t 0\n간혹 shutdown 명령이 실패하는 경우가 있는데, 그럴 때는 다시 한번 명령하면 성공할 것이다. 이전에 내린 명령어는 위 화살표키를 누르면 바로 볼 수 있다.\n \n2.1. 바이오스 메인 화면 : BIOS MAIN\n바이오스 메인 화면에 보면 바이오스 버전 및 각종 정보가 보인다. 그냥 한번 봐두자. 현재 본인이 가진 바이오스의 core version은 5.29이고 EC Firmware는 2.05버전으로 보인다. 빌드 날짜는 아까 CPU-Z에서 본 것처럼 2026.04.08일자이다. 하단에 Memory Information을 보면 LPDDR5 24576MB가 들어있음을 볼 수 있다.\nFirebat F1 BIOS main menu\n\n\n \n2.2. 바이오스 어드밴스드 : BIOS ADVANCED\n오른쪽 화살표로 Advanced 메뉴로 이동한다. 여기서 \"CTRL-F1\" 키를 누르면 hidden menu를 볼 수 있게 해준다.\nFirebat F1 BIOS Hidden Menu\n\n\n히든 메뉴 중에 AMD CBS(Common BIOS Setting)을 들어간다. 보통 AMD는 CBS 설정에서 전력 제한(Power Limit)을 설정할 수 있게 해준다.\n \n2.2.1. AMD CBS - CPU Common Options, SMU Common Options\nAMD CBS 메뉴 아래에는 여러가지 설정이 있는데, 2가지만 수정할 것이며 \"CPU Common Options\"과 \"SMU Common Options\"이다. \nCPU Common Options에는 Boost 기능 설정이 있는데 이걸 Disabled로 변경할 것이고,  SMU(System Management Unit) Common Options에는 전력을 제한하는 System configuration을 35W로 변경할 것이다.\nFirebat F1 - Advanced - AMD CBS\n\n\n \n먼저 CPU Common Options로 들어가보면 아래와 같이 \"Core Performance Boost\"가 있는데 이것을 \"Disabled\"로 변경한다. 이렇게 하면 5GHz의 부스트를 끄게 된다. 사실 이 부스트를 켜봐야 아주 짧은 시간동안 5GHz를 쓸 수 있는데, 이게 발열을 급격하게 높이는 주범이므로 되도록이면 끄는게 좋다.\nFirebat F1 - CPU Common options - Core performance boost\n\n\n그 다음에 SMU Common options로 들어가보면 아래처럼 \"System Configurtion\" 항목이 있는데 이 부분을 Auto에서 35W로 변경해주면 된다. 검색해보니 다른 제품 중에 28W로 해도 된다는 사람도 있었는데, AMD 공식 문서에도 최소 값이 35W라고 쓰여있으므로 되도록이면 35W로 해주는게 좋다고 생각되었다. 괜히 과도하게 이상한 값을 사용하면 꼭 문제가 생겼기 때문에 되도록이면 안전한 값을 사용하도록 한다.\n\n\n \n이제 BIOS의 값을 저장하고 재부팅을 하기 위해 Save and Reset 같은 메뉴를 찾아서 실행한다.\n \n3. 윈11의 전원 설정 - powercfg.cpl\n윈11에서도 설정을 하나 해줘야 한다. 먼저 35W를 설정하기 이전에는 뭐 하는게 없어도 60도 이상을 훌쩍 넘었다. 아무것도 안해도 클럭은 아래처럼 4787.7MHz를 찍고 있었으며 이것 때문에 온도가 계속 튀었다.\nFirebat F1 default settings - HWMonitor\n\n\n이걸 35W, Core performance boost = disabled로 변경하면 아래와 같이 온도가 착해진다. CPU-Z에서도 TDP가 35W로 변경된 것을 볼 수 있다. 그리고 화룡정점으로 윈11 전원 관리 옵션 설정을 변경하기 위해 \"Win + R\"키를 누르고 powercfg.cpl 을 실행시킨 다. 그리고나서 \"설정 변경\"으로 들어가서 \"고급 전원 관리 옵션 설정 변경\"으로 클릭하면 \"최대 프로세서 상태\"가 나오는데 이걸 80%로 낮추면 3800MHz 대역으로 작동하면서 온도가 50도 언저리에서 유지된다. 이렇게 해도 미니PC 상판을 만져보면 약간 미지근한 수준이므로 Firebat F1의 구조적 방열 문제는 어쩔 수 없는 것 같다. 나중에 스마트스토어의 미니기어 같은 곳에서 모드킷이 나오면 변경하는 것이 좋을지도 모른다.[2]\nFirebat F1 - 35W system configuration - Core performance boost off - HWmonitor\n\n\n \n4. 바이오스 초기화 방법\nFirebat F1 바이오스의 메뉴를 이것저것 만지다가 갑자기 부팅이 안되는 불상사가 생겼다. 보통의 PC는 BIOS Reset 기능을 하는 jumper가 있기 때문에 뜯어서 봤는데 한참을 봐도 그런 기능은 없어 보였다. 그래서 아래와 같이 배터리를 분리했다. 배터리를 분리한 상태로 수십분을 둔 다음에 다시 연결했다. 그리고 한참을 기다렸더니 드디어 부팅이 되었다. 즉시 Restore factory default values 같은 메뉴를 찾아서 원상복구 한뒤에 다시 재부팅해서 정상 부팅되는 것을 확인하고, 배터리를 연결 후 조립을 했다.\nFirebat F1 unplug the mainboard battery connector\n\n\n혹시라도 본인과 같은 실수를 하는 사람이 있을지 몰라서 바이오스 초기화 방법까지 적어뒀다.\n \n \n5. 레퍼런스 참고\n[1] AMD 7640HS, https://www.amd.com/ko/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7640hs.html\n[2] 미니기어 스마트스토어, https://smartstore.naver.com/minigear\n \n6. 히스토리\n2026.09.26 글을 처음으로 릴리즈",
@@ -68,22 +54,19 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "imageUrl": "",
-    "title": "RustRover vs VS Code + rust-analyzer: What Changes in Your Rust Workflow",
-    "description": "As the team behind a dedicated Rust IDE, we’re naturally curious to see how RustRover stacks up against other popular setups for Rust development and the strengths and trade-offs of each one. This article is the first in a series where we’ll look at different Rust workflows.   We’re not unbiased, but we want to give […]",
+    "title": "강의안 | 정부 R&amp;D 트렌드 및 AI 활용 전략 - 창업(스타트업)",
+    "description": "1. 정부 R&D 트렌드와 기업의 AI활용 R&D 진입전략 ​ ​ 2. 정부 R&D 트렌드와 기업의 AI활용 R&D 진입전략 ​ 2026 R&D 정책 트렌드 ​전략기술로드맵 해부 ​AI 활용 R&D 진입전략 ​강의대상 : 스타트업, 중소기업 R&D 담당자 ​강의시간 : 1시간  ​ http://www.thegamechangers.kr/  https://bl",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/10/01/rustrover-vs-vs-code/",
-    "pubDate": "Thu, 01 Oct 2026 09:39:15 +0000",
-    "creator": "Irina Mihajlovic",
-    "categories": [
-      "comparison",
-      "rustrover"
-    ]
+    "link": "https://brunch.co.kr/@@LOc/345",
+    "pubDate": "Sat, 26 Sep 2026 14:02:07 GMT",
+    "creator": "고명환",
+    "categories": []
   },
   {
-    "id": 6,
+    "id": 5,
     "imageUrl": "",
     "title": "Visual Studio September Update – Power Your Workflow with Your Model",
     "description": "Bring your own AI model with updates to BYOM, fix NuGet vulnerabilities from the Error List, explore pull requests with the Git agent, see which operand decides an if condition, and attach to Podman containers.\nThe post Visual Studio September Update – Power Your Workflow with Your Model appeared first on Visual Studio Blog.",
@@ -100,28 +83,119 @@
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "imageUrl": "",
-    "title": "AI 엑셀 함수 자동화: 수식 몰라도 프롬프트 한 줄로 데이터 정리 끝내는 법",
-    "description": "AI 엑셀 함수 자동화를 쓰면 VLOOKUP, SUMIFS, 중첩 IF 같은 복잡한 수식을 외우지 않아도 됩니다. 하고 싶은 작업을 한국어로 적어 주면 AI가 수식을 만들어 주기 때문입니다. 다만 \"수식 만들어줘\"라고만 쓰면 오류가 나는 수식이 자주 나옵니다. 이 글에서는 실무에서 바로 쓰는 프롬프트 공식과 상황별 예시 6가지, 오류 수식을 AI로 고치는 방법, 그리고 꼭 지켜야 할 주의사항을 정리했습니다.\n이 글의 핵심 요약\n1. 프롬프트에는 열 구조, 원하는 결과, 엑셀 버전을 반드시 포함합니다.\n2. 수식은 AI가 만들고, 결과 검증은 사람이 합니다.\n3. 오류가 나면 오류 메시지와 수식을 그대로 붙여 넣어 디버깅을 맡깁니다.\n4. 개인정보와 거래처 정보는 가상 데이터로 바꿔서 입력합니다.\n1. 엑셀 수식 AI 자동화가 필요한 이유\n엑셀은 기능이 많지만 수식 문법이 어렵습니다. 괄호 하나, 쉼표 하나만 틀려도 #VALUE!, #N/A, #REF! 같은 오류가 나옵니다. 예전에는 검색해서 비슷한 사례를 찾아 고쳐 써야 했습니다. 지금은 AI에게 내 시트의 구조를 설명하면 그 구조에 맞는 수식을 바로 받을 수 있습니다.\n시간 절약: 수식 검색과 시행착오 시간이 줄어듭니다.\n학습 효과: AI가 수식의 동작 원리까지 설명해 주므로 함수 공부에도 도움이 됩니다.\n실수 감소: 수식을 사람이 직접 짜다 생기는 참조 범위 실수를 줄일 수 있습니다.\n\n\n2. 실패하지 않는 엑셀 AI 프롬프트 공식 4요소\nAI는 내 화면을 볼 수 없습니다. 그래서 아래 네 가지를 알려 주어야 정확한 수식이 나옵니다.\n요소\n설명\n예시\n\n\n① 데이터 구조\n열 이름과 위치, 데이터 범위\nA열 날짜, B열 담당자, C열 매출액, 2행부터 500행까지\n\n\n② 목표 결과\n무엇을 어디에 표시할지\n담당자별 월 매출 합계를 F열에 표시\n\n\n③ 엑셀 버전\n사용 가능한 함수가 다름\nMicrosoft 365 또는 엑셀 2016\n\n\n④ 출력 형식\n수식과 설명을 어떻게 받을지\n수식 한 줄과 동작 원리 3줄 설명\n\n\n\n \n복사해서 쓰는 기본 템플릿\n나는 엑셀(버전: ○○)을 사용 중이야. 시트 구조는 A열 ○○, B열 ○○, C열 ○○이고 데이터는 2행부터 ○○행까지야. 내가 원하는 결과는 ○○이고, 결과는 ○○열에 넣을 거야. 해당 셀에 바로 붙여 넣을 수 있는 수식 한 줄과, 수식의 동작 원리를 초보자 눈높이로 설명해 줘.\n3. 상황별 엑셀 함수 AI 프롬프트 예시 6가지\n① 조건에 맞는 합계 구하기 (SUMIFS)\nA열 날짜, B열 담당자, C열 매출액이야. 담당자가 \"김민수\"이고 날짜가 2026년 3월인 매출액 합계를 구하는 수식을 만들어 줘. 엑셀 365 기준이야.\nAI는 보통 SUMIFS 함수로 답합니다. 날짜 조건을 시작일과 종료일로 나누어 처리하는지 확인하세요.\n② 다른 표에서 값 찾아오기 (XLOOKUP, VLOOKUP)\nSheet1 A열에는 상품코드가 있고, Sheet2 A열에는 상품코드, B열에는 상품명, C열에는 단가가 있어. Sheet1 B열에 상품명을, C열에 단가를 가져오는 수식을 만들어 줘. 없는 코드는 \"미등록\"으로 표시해 줘. 엑셀 2016이라 XLOOKUP은 못 써.\n버전을 알려 주면 AI가 XLOOKUP 대신 INDEX와 MATCH 또는 VLOOKUP 조합으로 답합니다. 버전 정보가 중요한 이유입니다.\n③ 중복 제거와 고유값 목록 만들기 (UNIQUE)\nB열에 거래처명이 1000개 있고 중복이 많아. 중복 없이 거래처 목록만 E열에 뽑는 방법을 알려 줘. 365용 수식과 구버전용 방법을 둘 다 알려 줘.\n④ 문자열 쪼개고 합치기 (TEXTSPLIT, LEFT, MID, TEXTJOIN)\nA열에 \"서울시 강남구 테헤란로 123\" 같은 주소가 있어. 시/구/도로명으로 나누어 B, C, D열에 넣는 수식을 만들어 줘. 공백 기준으로 나누면 돼.\n⑤ 날짜와 기간 계산하기 (DATEDIF, NETWORKDAYS)\nB열에 입사일이 있어. 오늘 기준 근속 연수와 개월 수를 \"3년 4개월\" 형태로 C열에 표시하는 수식을 만들어 줘.\n⑥ 조건부 서식 규칙 만들기\nD열의 납기일이 오늘보다 지났고 E열 상태가 \"완료\"가 아닌 행 전체를 빨간색으로 칠하고 싶어. 조건부 서식에 넣을 수식과 적용 범위 설정 방법을 단계별로 알려 줘.\n4. 오류 난 엑셀 수식, AI로 디버깅하는 방법\n수식이 오류를 낸다면 AI에게 다시 질문하면 됩니다. 이때는 아래 세 가지를 함께 붙여 넣어야 원인을 정확히 짚어 줍니다.\n사용 중인 수식 전체\n화면에 표시된 오류 메시지 (예: #N/A, #VALUE!)\n참조하는 셀의 실제 값 예시 2~3개\n오류\n흔한 원인\nAI에게 물어볼 질문\n\n\n#N/A\n찾는 값이 없거나 공백, 서식 불일치\n찾는 값에 숫자와 텍스트가 섞였는지 확인하고 해결 수식을 알려 줘\n\n\n#VALUE!\n텍스트와 숫자 연산 시도\n어떤 셀의 값 때문에 오류가 나는지 찾아 줘\n\n\n#REF!\n삭제된 셀 참조\n참조가 깨진 부분을 복구하는 방법을 알려 줘\n\n\n#DIV/0!\n0으로 나누기\nIFERROR 또는 IF로 안전하게 처리하는 수식으로 바꿔 줘\n\n\n\n \n5. 엑셀 AI 활용 시 꼭 지켜야 할 주의사항\n개인정보와 기밀은 가상 데이터로 대체: 실제 이름, 연락처, 주민번호, 거래처 단가는 입력하지 마세요. 구조만 같은 샘플 데이터로 바꾸면 충분합니다.\n검증은 필수: 결과가 맞는지 10건 정도는 계산기나 수작업으로 대조하세요. 금액이나 정산 자료라면 더 꼼꼼히 확인해야 합니다.\n원본 파일은 반드시 백업: 수식을 적용하기 전에 파일을 복사해 두면 문제가 생겨도 되돌릴 수 있습니다.\n회사 보안 정책 확인: 업무 파일을 외부 AI 서비스에 올리는 것이 허용되는지 먼저 확인하세요.\n6. 업무 효율을 높이는 추가 활용 팁\n수식 해석 요청: 동료가 만든 복잡한 수식을 붙여 넣고 \"한 줄씩 쉽게 설명해 줘\"라고 하면 인수인계가 빨라집니다.\n수식 단순화: 길고 중첩이 많은 수식을 보여 주고 더 간단하게 바꿔 달라고 요청해 보세요.\n매크로와 VBA 초안: 반복 작업을 말로 설명하면 VBA 코드 초안을 받을 수 있습니다. 실행 전에 테스트 파일에서 먼저 확인하세요.\n피벗테이블 설계: 어떤 필드를 행, 열, 값에 놓아야 하는지 AI에게 물어보면 집계 설계가 쉬워집니다.\n7. 자주 묻는 질문 (FAQ)\nQ1. 무료 AI로도 엑셀 수식을 만들 수 있나요?\n네, 가능합니다. ChatGPT, 제미나이, 클로드 같은 챗봇의 무료 버전으로도 일반적인 수식은 충분히 만들 수 있습니다. 다만 무료 사용량과 제공 모델은 서비스 정책에 따라 바뀌므로 각 서비스의 현재 안내를 확인하세요.\nQ2. AI가 만든 수식이 계속 오류가 나요.\n대부분 엑셀 버전이 맞지 않거나, 열 구조 설명이 부족해서 생깁니다. 사용 중인 버전과 실제 데이터 예시 3줄, 오류 메시지를 함께 알려 주세요. 또한 한국어판 엑셀은 수식 구분자가 쉼표가 아닌 세미콜론일 수 있으니 구분자 설정도 확인해 보세요.\nQ3. 구글 스프레드시트에서도 같은 방법이 통하나요?\n대부분의 프롬프트 구조는 그대로 통합니다. 요청할 때 \"구글 스프레드시트 기준\"이라고 명시하면 ARRAYFORMULA, QUERY 같은 시트 전용 함수로 답해 줍니다.\nQ4. 엑셀 함수를 아예 공부하지 않아도 될까요?\n기본 개념은 알아 두는 것이 좋습니다. AI가 준 수식이 맞는지 판단하려면 최소한 SUM, IF, LOOKUP 계열이 어떤 동작을 하는지는 이해해야 합니다. AI는 학습 도구로도 좋으니, 수식을 받을 때 \"동작 원리도 설명해 줘\"를 습관처럼 붙이세요.\n마무리: 수식은 AI에게, 판단은 사람이 합니다\nAI 엑셀 함수 자동화의 핵심은 정확한 구조 설명과 결과 검증입니다. 오늘 소개한 4요소 템플릿으로 시작해서 자주 쓰는 업무 프롬프트를 메모장에 모아 두세요. 한 번 만든 프롬프트는 다음에도 그대로 재사용할 수 있어서 시간이 갈수록 효율이 올라갑니다. 이 글이 도움이 되셨다면 평소 가장 오래 걸리던 엑셀 작업 하나를 골라 오늘 바로 AI에게 맡겨 보세요.",
+    "title": "RustRover vs VS Code + rust-analyzer: What Changes in Your Rust Workflow",
+    "description": "As the team behind a dedicated Rust IDE, we’re naturally curious to see how RustRover stacks up against other popular setups for Rust development and the strengths and trade-offs of each one. This article is the first in a series where we’ll look at different Rust workflows.   We’re not unbiased, but we want to give […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483735",
-    "pubDate": "Thu, 1 Oct 2026 22:40:49 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://blog.jetbrains.com/rust/2026/10/01/rustrover-vs-vs-code/",
+    "pubDate": "Thu, 01 Oct 2026 09:39:15 +0000",
+    "creator": "Irina Mihajlovic",
     "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "AI 엑셀 함수",
-      "SUMIFS",
-      "xlookup",
-      "엑셀 AI 프롬프트",
-      "엑셀 수식 자동화",
-      "엑셀 업무 자동화",
-      "엑셀 함수 오류"
+      "comparison",
+      "rustrover"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "[NS] 압도적 밀도와 볼륨으로 상다리가 부러졌어요, 파이어 엠블렘 만자천홍",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2501",
+    "pubDate": "Tue, 29 Sep 2026 18:30:21 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
     ]
   },
   {
     "id": 8,
+    "imageUrl": "",
+    "title": "휴직 일기 - 30일 차",
+    "description": "마침내 30일 차. 90일 중 1/3이 지났다. 나는 무엇을 했는가? 무엇을 얻었는가? 무엇을 깨달았는가? 이런 질문을 해야겠지만 그렇게 심각하게 생각하지 않으련다. 그냥 내 인생에 있어서 휴직한 날이 있었고 그날들을 내가 사용하고 싶은 대로 사용했다고 추억으로 남기려고 한다. 은퇴 경험도 해보겠다고 했지만 직장은 그만둘 수 있어도 금융적으로 돈을 벌어야",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/83",
+    "pubDate": "Tue, 29 Sep 2026 14:09:05 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "휴직일기 - 28일 차",
+    "description": "추석명절동안 아내가 코로나에 걸려서 지역이동은 하지 않고 평상시처럼 집에서 지내게 되었다. 가족들이 모이면 좋겠지만 수험생이 있다고 코로나 걸린 사람은 오지 말라고 해서 어쩔 수 없었다. 명절이면 가족들이 모여서 함께 식사하고 서로의 안부를 묻고 덕담을 나누곤 하는데 언제부터인가 추석에 해외여행을 가거나 가족 모임을 갖지 않는 사람들이 생겨나기도 했다. 처",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://brunch.co.kr/@@24SO/82",
+    "pubDate": "Sun, 27 Sep 2026 13:31:00 GMT",
+    "creator": "고종범",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "윈도우 11 느려졌을 때 AI에게 진단받는 법 (무료 도구 + 복사해 쓰는 프롬프트)",
+    "description": "윈도우 11이 갑자기 느려졌는데 원인을 모르겠다면, 윈도우 11 느려짐 해결의 시작은 \"무엇이 느린지\"를 숫자와 로그로 확인하는 것입니다. 이 글에서는 작업 관리자, 이벤트 뷰어, 무료 진단 도구에서 뽑은 정보를 AI 챗봇에게 보여 주고 원인을 좁히는 방법을 정리했습니다. 복사해서 바로 쓰는 프롬프트 5개와 단계별 점검 순서, 그리고 AI에게 정보를 줄 때 지켜야 할 개인정보 주의사항까지 담았습니다.\n이 글의 핵심 요약\n1. AI는 내 PC를 직접 볼 수 없으니, 작업 관리자 수치와 로그를 글로 옮겨 주어야 합니다.\n2. CPU, 메모리, 디스크, 시작 프로그램 순서로 병목을 찾습니다.\n3. AI가 알려 준 명령어는 의미를 확인한 뒤 실행하고, 레지스트리 수정이나 서비스 삭제는 함부로 따라 하지 않습니다.\n4. 사용자 이름, PC 이름, IP 주소 등은 가리고 입력합니다.\n1. 윈도우 11이 느려지는 대표적인 원인\n원인은 크게 다섯 가지로 나뉩니다. AI에게 질문하기 전에 어느 쪽에 가까운지 대략 감을 잡아 두면 진단이 빨라집니다.\n시작 프로그램 과다: 부팅할 때 자동으로 실행되는 앱이 많아 부팅과 초기 사용이 느려집니다.\n메모리 부족: 브라우저 탭이나 백그라운드 앱이 메모리를 많이 쓰면 디스크 스왑이 늘어납니다.\n저장 공간 부족과 디스크 문제: C드라이브 여유 공간이 적거나 디스크 상태가 나쁘면 전체가 느려집니다.\n드라이버와 업데이트 문제: 오래된 드라이버나 업데이트 직후 충돌이 원인인 경우도 있습니다.\n악성 프로그램과 백그라운드 작업: 원치 않는 프로그램이 CPU나 디스크를 계속 사용하는 경우입니다.\n\n\n2. AI 진단 전에 준비할 정보 4가지\n\"컴퓨터가 느려요\"라는 한 줄만으로는 AI도 일반적인 팁만 나열합니다. 아래 정보를 모아서 붙여 넣으면 답변의 정확도가 크게 올라갑니다.\n준비 정보\n확인 방법\nAI에게 주는 이유\n\n\nPC 사양\n설정 > 시스템 > 정보 (CPU, 메모리, 저장장치 종류)\nHDD인지 SSD인지, 메모리 용량에 따라 진단이 달라집니다\n\n\n느려지는 상황\n언제, 어떤 작업에서 느린지 메모\n부팅 직후, 특정 앱 실행 시, 항상 등 패턴이 단서가 됩니다\n\n\n작업 관리자 수치\nCtrl + Shift + Esc, 프로세스 탭에서 CPU, 메모리, 디스크 상위 항목\n어떤 프로그램이 자원을 쓰는지 바로 보입니다\n\n\n최근 변경 사항\n업데이트, 새 프로그램 설치, 드라이버 변경 여부\n문제 발생 시점과 연결 지을 수 있습니다\n\n\n\n \n3. 단계별 진단: 작업 관리자부터 이벤트 뷰어까지\nSTEP 1. 작업 관리자로 병목 찾기\nCtrl + Shift + Esc로 작업 관리자를 열고 프로세스 탭에서 CPU, 메모리, 디스크 열을 각각 눌러 정렬합니다. 상위 5개 항목의 이름과 사용률을 메모해 두세요. 성능 탭에서는 디스크 사용률이 100%에 가깝게 유지되는지도 확인합니다.\n윈도우 11 노트북이 느려서 작업 관리자를 확인했어. CPU 사용률 상위 5개 프로세스는 [이름과 %], 메모리 상위 5개는 [이름과 사용량], 디스크 사용률은 [%]야. 사양은 [CPU, 메모리, SSD 또는 HDD]. 어떤 항목이 가장 의심스러운지 이유와 함께 순서대로 알려 주고, 각 프로세스가 정상 프로세스인지도 설명해 줘.\nSTEP 2. 시작 프로그램 정리\n설정 > 앱 > 시작 프로그램에서 목록을 확인하고, 영향이 \"높음\"으로 표시된 항목을 캡처하거나 글로 옮겨 적습니다. 삭제가 아니라 사용 안 함으로만 바꾸면 언제든 되돌릴 수 있습니다.\n아래는 내 윈도우 11 시작 프로그램 목록과 영향도야. [목록 붙여 넣기] 꺼도 안전한 항목, 꺼두면 불편해질 수 있는 항목, 잘 모르겠으니 확인이 필요한 항목으로 나누어 표로 정리해 줘.\nSTEP 3. 저장 공간과 디스크 상태 확인\n설정 > 시스템 > 저장소에서 C드라이브 사용량과 임시 파일 크기를 확인합니다. 여유 공간이 적으면 저장소 센스나 임시 파일 삭제만으로도 체감이 달라질 수 있습니다. 디스크 상태는 CrystalDiskInfo 같은 무료 도구로 확인하고, 상태 정보를 글로 옮겨 AI에게 해석을 부탁하면 됩니다.\nC드라이브 용량은 [전체 / 사용 중]이고, 임시 파일은 [크기]야. 디스크 건강 상태 정보는 [상태, 온도, 대체된 섹터 수 등]이야. 이 값들이 정상인지, 교체를 고려해야 하는지 초보자 눈높이로 설명해 줘.\nSTEP 4. 이벤트 뷰어로 오류 단서 찾기\n시작 메뉴에서 \"이벤트 뷰어\"를 검색해 열고, Windows 로그 > 시스템에서 \"오류\" 또는 \"경고\" 수준 이벤트를 확인합니다. 문제가 생긴 시각 근처의 항목에서 원본, 이벤트 ID, 설명 문구를 복사해 AI에게 물어보세요.\n윈도우 11 이벤트 뷰어의 시스템 로그에서 아래 오류가 반복돼. 원본: [이름], 이벤트 ID: [번호], 설명: [문구]. 이 오류가 PC 속도 저하와 관련이 있는지, 원인과 해결 방법을 위험도가 낮은 것부터 알려 줘.\nSTEP 5. 시스템 파일 점검 명령어\n시스템 파일 손상이 의심될 때는 관리자 권한 터미널에서 아래 명령어를 순서대로 실행하는 방법이 널리 알려져 있습니다.\nsfc /scannow: 손상된 시스템 파일을 검사하고 복구합니다.\nDISM /Online /Cleanup-Image /RestoreHealth: 윈도우 구성 요소 저장소를 복구합니다.\n검사에는 시간이 걸리고 결과 메시지도 다양합니다. 결과 문구는 AI에게 그대로 붙여 넣고 의미를 물어보는 것이 좋습니다.\n4. 증상별 AI 진단 프롬프트 모음\n증상\nAI에게 함께 알려 줄 정보\n질문 예시\n\n\n부팅이 오래 걸림\n시작 프로그램 목록, 부팅 시간\n부팅을 느리게 만들 가능성이 큰 항목을 순위로 알려 줘\n\n\n디스크 100% 유지\n작업 관리자의 디스크 상위 프로세스, 저장장치 종류\n원인 후보와 안전한 점검 순서를 알려 줘\n\n\n브라우저만 느림\n확장 프로그램 목록, 열린 탭 수, 메모리 사용량\n확장 프로그램 중 의심 가는 것과 점검 방법을 알려 줘\n\n\n업데이트 후 느려짐\n업데이트 날짜, 설치된 드라이버 변경 내역\n되돌리기 전에 확인할 것과 롤백 방법을 알려 줘\n\n\n팬 소리와 발열이 심함\nCPU 온도, 점유율 상위 프로세스\n발열 원인이 소프트웨어인지 하드웨어인지 구분하는 방법을 알려 줘\n\n\n\n \n5. 함께 쓰면 좋은 무료 진단 도구\n작업 관리자 (기본 내장): 가장 먼저 확인할 도구입니다.\nAutoruns (마이크로소프트 Sysinternals): 설정 앱보다 더 자세한 자동 실행 항목을 볼 수 있습니다.\nProcess Explorer (마이크로소프트 Sysinternals): 프로세스 구조와 자원 사용을 자세히 보여 줍니다.\nCrystalDiskInfo: 디스크 상태와 온도를 확인합니다.\nWizTree: 어떤 폴더가 용량을 많이 쓰는지 빠르게 보여 줍니다.\n도구는 반드시 공식 사이트에서 내려받고, 도구가 보여 주는 정보를 글로 옮겨 AI에게 해석을 요청하면 됩니다.\n6. AI 진단 시 꼭 지켜야 할 주의사항\n개인정보 가리기: 로그와 목록에 포함된 사용자 계정명, PC 이름, IP 주소, 이메일은 지우거나 가상 값으로 바꿔서 입력하세요.\n명령어는 의미 확인 후 실행: AI가 알려 준 명령어는 \"이 명령어가 무슨 일을 하는지 한 줄씩 설명해 줘\"라고 먼저 물어보세요.\n레지스트리 수정과 서비스 삭제는 신중하게: 되돌리기 어려운 작업은 복원 지점을 만들거나 백업한 뒤에 진행하세요.\n한 번에 하나씩 변경: 여러 설정을 동시에 바꾸면 무엇이 효과였는지 알 수 없습니다.\nAI 답변은 후보일 뿐: 로그만으로 원인을 100% 확정할 수는 없습니다. 하나씩 적용하며 변화를 확인하세요.\n7. 자주 묻는 질문 (FAQ)\nQ1. 윈도우 11이 느려지면 포맷이 답인가요?\n꼭 그렇지는 않습니다. 시작 프로그램 정리, 저장 공간 확보, 드라이버 점검만으로 개선되는 경우가 많습니다. 포맷은 모든 점검을 마치고도 해결되지 않을 때 마지막 선택지로 두세요. 진행 전에는 반드시 중요한 자료를 백업해야 합니다.\nQ2. 무료 AI 챗봇으로도 진단이 가능한가요?\n네, 가능합니다. 이 글의 방법은 작업 관리자 수치나 로그를 글로 옮겨 질문하는 방식이라 대부분의 무료 챗봇에서도 쓸 수 있습니다. 다만 무료 사용량과 기능은 서비스 정책에 따라 달라질 수 있습니다.\nQ3. AI가 알려 준 대로 했는데 더 느려졌어요.\n최근에 바꾼 설정을 하나씩 되돌려 보세요. 시작 프로그램을 \"사용 안 함\"으로 바꿨다면 다시 \"사용\"으로 바꾸고, 변경한 내용과 결과를 AI에게 다시 알려 주면 대안을 받을 수 있습니다.\nQ4. 하드웨어 문제인지 소프트웨어 문제인지 어떻게 구분하나요?\n디스크 상태 정보, 온도, 메모리 사용률을 함께 확인하세요. 상태 값이 나쁘거나 발열이 높다면 하드웨어를, 특정 프로세스가 자원을 계속 쓰고 있다면 소프트웨어를 먼저 의심해 볼 수 있습니다. 이 수치들을 AI에게 보여 주고 판단을 요청하세요.\n마무리: 감이 아니라 데이터로 진단하세요\n윈도우 11 느려짐 문제는 막연히 이것저것 설정을 바꾸기보다, 작업 관리자와 로그에서 수치를 모아 AI에게 해석을 맡기면 훨씬 빠르게 정리됩니다. 오늘 소개한 프롬프트를 메모장에 저장해 두고, 다음에 PC가 느려졌을 때 STEP 1부터 차례로 따라 해 보세요. 개인정보는 가리고, 한 번에 하나씩 바꾸는 습관만 지키면 안전하게 개선할 수 있습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483736",
+    "pubDate": "Sat, 3 Oct 2026 11:44:56 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "AI 컴퓨터 진단",
+      "pc 느려짐 해결",
+      "시작 프로그램 정리",
+      "윈도우11 느려짐",
+      "윈도우11 속도 개선",
+      "이벤트 뷰어",
+      "작업 관리자"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "[MULTI] 입문을 넘어 고점으로, 하늘의 궤적 the 2nd",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2503",
+    "pubDate": "Wed, 30 Sep 2026 12:56:07 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Software Quality Assurance Tools and Tips for Developers",
+    "description": "Testing applications before release alone is no longer enough when it comes to quality assurance for modern software development. It needs a more dynamic approach that makes QA a part of the ongoing process. According to the 2025 Stack Overflow Developer Survey, 84% of developers use or plan to use AI tools in their development […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/qodana/2026/09/software-quality-assurance-tools/",
+    "pubDate": "Tue, 29 Sep 2026 12:23:15 +0000",
+    "creator": "Kerry Beetge",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "“불안할 때 나는 맑고 산뜻한 걸 찾지 않는다”",
+    "description": "배우 고아성의 안정감 큐레이션: 7편의 시·수필·영화",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/findyoursafezone-2d",
+    "pubDate": "Tue, 29 Sep 2026 01:49:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
     "imageUrl": "",
     "title": "스타워즈 세계를 누비는 용병단, 제로 컴퍼니",
     "description": "No description available",
@@ -135,113 +209,21 @@
     ]
   },
   {
-    "id": 9,
+    "id": 15,
     "imageUrl": "",
-    "title": "A New Agentic Experience: JetBrains Air in IDEs – EAP Now Open",
-    "description": "Last week, we shared our point of view on where we think agentic development is headed and introduced JetBrains’ answer to it: JetBrains Air, an open system of products for agentic development. Today, we’re launching the Early Access Program for Air in JetBrains IDEs. It’s available now as a plugin on JetBrains Marketplace or natively […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/",
-    "pubDate": "Thu, 01 Oct 2026 12:42:32 +0000",
-    "creator": "Dominique Rolink",
-    "categories": [
-      "agentic-ai",
-      "ai"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "휴직 일기 - 30일 차",
-    "description": "마침내 30일 차. 90일 중 1/3이 지났다. 나는 무엇을 했는가? 무엇을 얻었는가? 무엇을 깨달았는가? 이런 질문을 해야겠지만 그렇게 심각하게 생각하지 않으련다. 그냥 내 인생에 있어서 휴직한 날이 있었고 그날들을 내가 사용하고 싶은 대로 사용했다고 추억으로 남기려고 한다. 은퇴 경험도 해보겠다고 했지만 직장은 그만둘 수 있어도 금융적으로 돈을 벌어야",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/83",
-    "pubDate": "Tue, 29 Sep 2026 14:09:05 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "LLM이 만든 SQL을 믿고 실행하기까지: A2A 기반의 대화형 BI 애플리케이션 개발기",
-    "description": "들어가며안녕하세요. Game Platform실의 이형중, 김민희, 정소영입니다. 저희 조직은 게임 퍼블리싱에 필요한 다양한 기능을 개발하고 운영하는 역할을 맡고 있습니다.저희는 ‘...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/a2a-conversational-bi-app",
-    "pubDate": "Fri, 02 Oct 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
+    "title": "Personalization without user identity",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 25 Sep 2026 16:01:03 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://medium.com/airbnb-engineering/personalization-without-user-identity-8e7891a1d486?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 29 Sep 2026 17:01:01 GMT",
+    "creator": "Wei Jiang",
     "categories": [
-      "identity",
-      "aws-emr",
-      "apache-spark",
-      "cloud",
-      "security"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Rider 2026.2.3 Is Released!",
-    "description": "Rider 2026.2.3 brings AI performance analysis to the Monitoring tool window and fixes an issue with the AI Agent Setup widget on Windows. You can update directly from the IDE, through the Toolbox App, or by downloading the latest version from our website. AI performance insights from the Monitoring tool window Now you can ask […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/09/28/rd-2026-2-3/",
-    "pubDate": "Mon, 28 Sep 2026 12:25:44 +0000",
-    "creator": "Alexander Kurakin",
-    "categories": [
-      "release",
-      "rider",
+      "technology",
+      "machine-learning",
+      "infrastructure",
       "ai",
-      "dottrace",
-      "performance-monitoring"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "쥐어짜내기",
-    "description": "우리가 7년 전에 첫 투자를 했고, 이후에 네 번을 더 투자해서 총 다섯번 투자한 회사의 창업가분들을 얼마전에 만났는데, 그날의 미팅에 대한 여운도 오래 갔고 여러가지 면에 있어서 개인적으로 느낀 점이 많아서 몇 자 적어보고 싶다. 일단 이 팀은 진짜 바퀴벌레팀이다. 정상적이고 이성적인 사람들이었다면 이분들은 진작 회사 문을 닫고 사업을 접어야 했는데, 바퀴벌레 같은 생존력으로 지금까지(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/09/milking-it-out.html",
-    "pubDate": "Sun, 27 Sep 2026 21:34:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "cockroach",
-      "failure",
-      "FoundersAtWork",
-      "grit",
-      "hustle"
-    ]
-  },
-  {
-    "id": 15,
-    "imageUrl": "",
-    "title": "Visual Studio Code CMake Tools 1.24",
-    "description": "CMake Tools 1.24 includes several reliability fixes and productivity improvements. You can run tests from the editor, save preset-backed cache edits as user overrides, and keep source-file lists up to date. See the CMake Tools release page and full changelog for details. Thank you to the community contributors whose work is included in these updates: […]\nThe post Visual Studio Code CMake Tools 1.24 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/visual-studio-code-cmake-tools-1-24/",
-    "pubDate": "Fri, 25 Sep 2026 22:38:54 +0000",
-    "creator": "Hannia Valera",
-    "categories": [
-      "C++",
-      "CMake",
-      "Visual Studio Code"
+      "engineering"
     ]
   }
 ]
