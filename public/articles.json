@@ -2,182 +2,96 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "AI 엑셀 함수 자동화: 수식 몰라도 프롬프트 한 줄로 데이터 정리 끝내는 법",
-    "description": "AI 엑셀 함수 자동화를 쓰면 VLOOKUP, SUMIFS, 중첩 IF 같은 복잡한 수식을 외우지 않아도 됩니다. 하고 싶은 작업을 한국어로 적어 주면 AI가 수식을 만들어 주기 때문입니다. 다만 \"수식 만들어줘\"라고만 쓰면 오류가 나는 수식이 자주 나옵니다. 이 글에서는 실무에서 바로 쓰는 프롬프트 공식과 상황별 예시 6가지, 오류 수식을 AI로 고치는 방법, 그리고 꼭 지켜야 할 주의사항을 정리했습니다.\n이 글의 핵심 요약\n1. 프롬프트에는 열 구조, 원하는 결과, 엑셀 버전을 반드시 포함합니다.\n2. 수식은 AI가 만들고, 결과 검증은 사람이 합니다.\n3. 오류가 나면 오류 메시지와 수식을 그대로 붙여 넣어 디버깅을 맡깁니다.\n4. 개인정보와 거래처 정보는 가상 데이터로 바꿔서 입력합니다.\n1. 엑셀 수식 AI 자동화가 필요한 이유\n엑셀은 기능이 많지만 수식 문법이 어렵습니다. 괄호 하나, 쉼표 하나만 틀려도 #VALUE!, #N/A, #REF! 같은 오류가 나옵니다. 예전에는 검색해서 비슷한 사례를 찾아 고쳐 써야 했습니다. 지금은 AI에게 내 시트의 구조를 설명하면 그 구조에 맞는 수식을 바로 받을 수 있습니다.\n시간 절약: 수식 검색과 시행착오 시간이 줄어듭니다.\n학습 효과: AI가 수식의 동작 원리까지 설명해 주므로 함수 공부에도 도움이 됩니다.\n실수 감소: 수식을 사람이 직접 짜다 생기는 참조 범위 실수를 줄일 수 있습니다.\n\n\n2. 실패하지 않는 엑셀 AI 프롬프트 공식 4요소\nAI는 내 화면을 볼 수 없습니다. 그래서 아래 네 가지를 알려 주어야 정확한 수식이 나옵니다.\n요소\n설명\n예시\n\n\n① 데이터 구조\n열 이름과 위치, 데이터 범위\nA열 날짜, B열 담당자, C열 매출액, 2행부터 500행까지\n\n\n② 목표 결과\n무엇을 어디에 표시할지\n담당자별 월 매출 합계를 F열에 표시\n\n\n③ 엑셀 버전\n사용 가능한 함수가 다름\nMicrosoft 365 또는 엑셀 2016\n\n\n④ 출력 형식\n수식과 설명을 어떻게 받을지\n수식 한 줄과 동작 원리 3줄 설명\n\n\n\n \n복사해서 쓰는 기본 템플릿\n나는 엑셀(버전: ○○)을 사용 중이야. 시트 구조는 A열 ○○, B열 ○○, C열 ○○이고 데이터는 2행부터 ○○행까지야. 내가 원하는 결과는 ○○이고, 결과는 ○○열에 넣을 거야. 해당 셀에 바로 붙여 넣을 수 있는 수식 한 줄과, 수식의 동작 원리를 초보자 눈높이로 설명해 줘.\n3. 상황별 엑셀 함수 AI 프롬프트 예시 6가지\n① 조건에 맞는 합계 구하기 (SUMIFS)\nA열 날짜, B열 담당자, C열 매출액이야. 담당자가 \"김민수\"이고 날짜가 2026년 3월인 매출액 합계를 구하는 수식을 만들어 줘. 엑셀 365 기준이야.\nAI는 보통 SUMIFS 함수로 답합니다. 날짜 조건을 시작일과 종료일로 나누어 처리하는지 확인하세요.\n② 다른 표에서 값 찾아오기 (XLOOKUP, VLOOKUP)\nSheet1 A열에는 상품코드가 있고, Sheet2 A열에는 상품코드, B열에는 상품명, C열에는 단가가 있어. Sheet1 B열에 상품명을, C열에 단가를 가져오는 수식을 만들어 줘. 없는 코드는 \"미등록\"으로 표시해 줘. 엑셀 2016이라 XLOOKUP은 못 써.\n버전을 알려 주면 AI가 XLOOKUP 대신 INDEX와 MATCH 또는 VLOOKUP 조합으로 답합니다. 버전 정보가 중요한 이유입니다.\n③ 중복 제거와 고유값 목록 만들기 (UNIQUE)\nB열에 거래처명이 1000개 있고 중복이 많아. 중복 없이 거래처 목록만 E열에 뽑는 방법을 알려 줘. 365용 수식과 구버전용 방법을 둘 다 알려 줘.\n④ 문자열 쪼개고 합치기 (TEXTSPLIT, LEFT, MID, TEXTJOIN)\nA열에 \"서울시 강남구 테헤란로 123\" 같은 주소가 있어. 시/구/도로명으로 나누어 B, C, D열에 넣는 수식을 만들어 줘. 공백 기준으로 나누면 돼.\n⑤ 날짜와 기간 계산하기 (DATEDIF, NETWORKDAYS)\nB열에 입사일이 있어. 오늘 기준 근속 연수와 개월 수를 \"3년 4개월\" 형태로 C열에 표시하는 수식을 만들어 줘.\n⑥ 조건부 서식 규칙 만들기\nD열의 납기일이 오늘보다 지났고 E열 상태가 \"완료\"가 아닌 행 전체를 빨간색으로 칠하고 싶어. 조건부 서식에 넣을 수식과 적용 범위 설정 방법을 단계별로 알려 줘.\n4. 오류 난 엑셀 수식, AI로 디버깅하는 방법\n수식이 오류를 낸다면 AI에게 다시 질문하면 됩니다. 이때는 아래 세 가지를 함께 붙여 넣어야 원인을 정확히 짚어 줍니다.\n사용 중인 수식 전체\n화면에 표시된 오류 메시지 (예: #N/A, #VALUE!)\n참조하는 셀의 실제 값 예시 2~3개\n오류\n흔한 원인\nAI에게 물어볼 질문\n\n\n#N/A\n찾는 값이 없거나 공백, 서식 불일치\n찾는 값에 숫자와 텍스트가 섞였는지 확인하고 해결 수식을 알려 줘\n\n\n#VALUE!\n텍스트와 숫자 연산 시도\n어떤 셀의 값 때문에 오류가 나는지 찾아 줘\n\n\n#REF!\n삭제된 셀 참조\n참조가 깨진 부분을 복구하는 방법을 알려 줘\n\n\n#DIV/0!\n0으로 나누기\nIFERROR 또는 IF로 안전하게 처리하는 수식으로 바꿔 줘\n\n\n\n \n5. 엑셀 AI 활용 시 꼭 지켜야 할 주의사항\n개인정보와 기밀은 가상 데이터로 대체: 실제 이름, 연락처, 주민번호, 거래처 단가는 입력하지 마세요. 구조만 같은 샘플 데이터로 바꾸면 충분합니다.\n검증은 필수: 결과가 맞는지 10건 정도는 계산기나 수작업으로 대조하세요. 금액이나 정산 자료라면 더 꼼꼼히 확인해야 합니다.\n원본 파일은 반드시 백업: 수식을 적용하기 전에 파일을 복사해 두면 문제가 생겨도 되돌릴 수 있습니다.\n회사 보안 정책 확인: 업무 파일을 외부 AI 서비스에 올리는 것이 허용되는지 먼저 확인하세요.\n6. 업무 효율을 높이는 추가 활용 팁\n수식 해석 요청: 동료가 만든 복잡한 수식을 붙여 넣고 \"한 줄씩 쉽게 설명해 줘\"라고 하면 인수인계가 빨라집니다.\n수식 단순화: 길고 중첩이 많은 수식을 보여 주고 더 간단하게 바꿔 달라고 요청해 보세요.\n매크로와 VBA 초안: 반복 작업을 말로 설명하면 VBA 코드 초안을 받을 수 있습니다. 실행 전에 테스트 파일에서 먼저 확인하세요.\n피벗테이블 설계: 어떤 필드를 행, 열, 값에 놓아야 하는지 AI에게 물어보면 집계 설계가 쉬워집니다.\n7. 자주 묻는 질문 (FAQ)\nQ1. 무료 AI로도 엑셀 수식을 만들 수 있나요?\n네, 가능합니다. ChatGPT, 제미나이, 클로드 같은 챗봇의 무료 버전으로도 일반적인 수식은 충분히 만들 수 있습니다. 다만 무료 사용량과 제공 모델은 서비스 정책에 따라 바뀌므로 각 서비스의 현재 안내를 확인하세요.\nQ2. AI가 만든 수식이 계속 오류가 나요.\n대부분 엑셀 버전이 맞지 않거나, 열 구조 설명이 부족해서 생깁니다. 사용 중인 버전과 실제 데이터 예시 3줄, 오류 메시지를 함께 알려 주세요. 또한 한국어판 엑셀은 수식 구분자가 쉼표가 아닌 세미콜론일 수 있으니 구분자 설정도 확인해 보세요.\nQ3. 구글 스프레드시트에서도 같은 방법이 통하나요?\n대부분의 프롬프트 구조는 그대로 통합니다. 요청할 때 \"구글 스프레드시트 기준\"이라고 명시하면 ARRAYFORMULA, QUERY 같은 시트 전용 함수로 답해 줍니다.\nQ4. 엑셀 함수를 아예 공부하지 않아도 될까요?\n기본 개념은 알아 두는 것이 좋습니다. AI가 준 수식이 맞는지 판단하려면 최소한 SUM, IF, LOOKUP 계열이 어떤 동작을 하는지는 이해해야 합니다. AI는 학습 도구로도 좋으니, 수식을 받을 때 \"동작 원리도 설명해 줘\"를 습관처럼 붙이세요.\n마무리: 수식은 AI에게, 판단은 사람이 합니다\nAI 엑셀 함수 자동화의 핵심은 정확한 구조 설명과 결과 검증입니다. 오늘 소개한 4요소 템플릿으로 시작해서 자주 쓰는 업무 프롬프트를 메모장에 모아 두세요. 한 번 만든 프롬프트는 다음에도 그대로 재사용할 수 있어서 시간이 갈수록 효율이 올라갑니다. 이 글이 도움이 되셨다면 평소 가장 오래 걸리던 엑셀 작업 하나를 골라 오늘 바로 AI에게 맡겨 보세요.",
+    "title": "Discontinuing Swift Language IDE Support in the Kotlin Multiplatform Plugin",
+    "description": "Starting with IntelliJ IDEA 2026.3 and Android Studio Rabbit 2 | 2026.2.2, we’re discontinuing Swift language IDE features in the Kotlin Multiplatform (KMP) plugin. This includes editing, syntax highlighting, and navigation within Swift files and between Swift and Kotlin. Running iOS applications and debugging Kotlin code on iOS will remain fully supported. Kotlin/Native functionality, such […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483735",
-    "pubDate": "Thu, 1 Oct 2026 22:40:49 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://blog.jetbrains.com/kotlin/2026/10/discontinuing-swift-language-ide-support-in-the-kotlin-multiplatform-plugin/",
+    "pubDate": "Mon, 05 Oct 2026 10:46:19 +0000",
+    "creator": "Anton Makeev",
     "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "AI 엑셀 함수",
-      "SUMIFS",
-      "xlookup",
-      "엑셀 AI 프롬프트",
-      "엑셀 수식 자동화",
-      "엑셀 업무 자동화",
-      "엑셀 함수 오류"
+      "kotlin",
+      "multiplatform",
+      "kotlin-multiplatform"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "The State of Kotlin in 2026 Report",
-    "description": "In 2026, Kotlin turned fifteen. Over those fifteen years, Kotlin has built a mature ecosystem, been adopted by companies around the world, and established a large and active developer community. Fifteen years is long enough to understand which technology trends lasted and which didn’t. This report looks back at Kotlin’s first fifteen years to see […]",
+    "title": "코딩만 잘하면 데이터과학자? 빠뜨리기 쉬운 ‘위험 구역’ - 데이터과학은 모델을 만드는 일보다 넓어요. 질문을 세우고 데이터의 성격을 파악한 뒤, 분석 결과의 의미와 한계까지 설명하는 과정이에요. 정형·비정형 데이터, 측정척도, 분류와 회귀를 예시로 풀어봤어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 데이터과학자가 실제로 하는 일이에요. 코딩과 통계를 배우면 준비가 끝날 것 같지만, 데이터를 받아 계산하기 전에 해야 할 일이 있어요. 바로 무엇을 알아내고 싶은지 질문을 만드는 거예요.데이터과학자는 질문부터 결과 설명까지 맡아요영화 목록에서 평균 평점을 계산하는 것과 관객이 어떤 영화를 좋아할지 예측하는 것은 다른 질문이에요. 영화 매출을 예상하거나 택시 데이터로 출퇴근 시간의 정체를 예측하는 것도 데이터과학의 예시예요. 같은 데이터를 보더라도 알고 싶은 내용에 따라 분석 방향이 달라져요.저는 먼저 질문을 세우고, 필요한 데이터를 모은 다음 시각화로 이상한 값이 있는지 살펴보는 흐름으로 설명했어요. 그 뒤 모델을 만들고 결과가 어떤 의미인지, 어디까지 해석할 수 있는지 전달해요. 미국 노동통계국의 직무 설명에서도 데이터 수집과 분석뿐 아니라 모델 검증, 시각화와 결과 전달을 주요 업무로 다뤄요.코딩과 분야 지식만 믿으면 빠지는 함정데이터과학을 이해할 때 컴퓨팅, 수학·통계, 도메인 지식이 겹치는 그림을 떠올리면 좋아요. 도메인 지식은 분석하려는 분야에 대한 이해예요. IBM의 데이터과학 설명도 프로그래밍과 수학·통계를 특정 분야의 전문지식과 결합하는 것으로 소개해요.제가 ‘위험 구역’이라고 설명한 부분은 코딩과 분야 지식은 있지만 통계적 검증이 빠진 경우예요. 업계를 잘 알고 코딩도 잘한다는 자신감 때문에 자기 판단을 곧바로 사실처럼 받아들이기 쉬워요. 이 그림은 역할을 이해하기 위한 교육적 비유예요. 개발자보다 통계를, 통계학자보다 코딩을 잘한다는 표현도 두 영역을 연결하는 역할을 강조한 설명으로 이해하면 돼요.데이터의 모양과 숫자의 의미를 구분해요엑셀의 칸처럼 행과 열에 맞춰 담을 수 있는 자료는 정형 데이터로 설명할 수 있어요. 고객 리뷰나 이미지, 영상은 비정형 데이터의 대표 예시예요. 같은 영화 분야에도 두 형태가 함께 존재해요. IBM의 정형·비정형 데이터 설명에서는 미리 정의된 스키마가 있는지를 기준으로 구분해요.자료의 모양을 봤다면 값이 무엇을 뜻하는지도 살펴봐야 해요. 영화 장르는 자연스러운 순서가 없는 명목척도이고, 불만족·보통·만족은 순서가 있는 서열척도예요. 주민등록번호처럼 숫자로 적힌 식별자도 크기를 비교하는 수량은 아니에요.온도와 매출의 차이도 중요해요. 섭씨 20도가 10도보다 두 배 뜨겁다는 뜻은 아니지만, 매출 80억 원은 50억 원의 1.6배라고 비교할 수 있어요. 펜실베이니아주립대학교의 측정척도 자료에 따르면 등간척도는 차이가, 비율척도는 차이와 비율이 의미 있어요. 계산 버튼을 누를 수 있는지보다 계산 결과를 어떻게 해석할지가 중요해요.분류와 회귀는 예측할 답의 성격이 달라요영화 장르를 고르거나 매출 100억 원을 넘을지 예·아니요로 답하는 것은 분류예요. 매출액이나 택시 이동시간처럼 수치의 크기를 예측하는 것은 회귀의 예시예요. scikit-learn의 지도학습 설명은 분류를 범주 예측, 회귀를 연속적인 목표변수 예측으로 구분해요. 범주에도 정수 라벨을 붙일 수 있으니 숫자로 출력된다는 이유만으로 회귀가 되는 건 아니에요.시청자들은 쉬운 설명과 배움에 반응했어요제공된 유튜브 영상 댓글에서는 이해하기 쉽다는 반응과, 최근 배우는 것이 없었는데 유익했다는 반응이 있었어요. 분석 방법에 관한 상반된 의견은 없었어요. 데이터를 받았을 때 바로 계산하기보다 어떤 질문에 답할지 먼저 생각하는 것, 이번 내용에서 기억해두면 좋겠어요.참고 자료직무는 BLS 직무 안내, 분야의 구성과 데이터 형태는 IBM 데이터과학 안내와 데이터 형태 비교를 참고했어요. 척도와 예측 유형은 측정척도 자료, 지도학습 자료로 보완했어요. 직접 설명한 내용은 데이터과학 1편 원본 쇼츠에서 볼 수 있어요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/09/state-of-kotlin-2026-report/",
-    "pubDate": "Tue, 29 Sep 2026 12:38:29 +0000",
-    "creator": "Daria Voronina",
+    "link": "https://www.zerocho.com/category/IT뉴스/post/6ac20ab4df5183dbffb02c8e",
+    "pubDate": "Sun, 04 Oct 2026 08:13:40 GMT",
+    "creator": "ZeroCho",
     "categories": [
-      "news",
-      "ai",
-      "backend",
-      "kotlin-multiplatform",
-      "multiplatform",
-      "state-of-kotlin"
+      "IT뉴스"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "GPT 사용량 반토막, 500달러 요금제와 dots가 만회할까요? - Pro 200의 사용량 축소와 Pro 500 출시, dots와 Space를 살펴봤어요. 한도 변경 시점과 크레딧 용도, Ultrafast의 차감 기준까지 추가 조사 결과를 반영했어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 OpenAI DevDay 2026 이후 달라지는 사용량과 새 기능이에요. 저는 사용량이 줄어든다는 소식에 클로드로 옮길까 고민했어요. dots와 Space가 그 아쉬움을 얼마나 채워줄지가 궁금했죠. 직접 써본 인상에 추가 조사 결과를 붙여 설명해볼게요.Pro 200 사용량, 언제 얼마나 줄어드나요?OpenAI 설명을 인용한 보도에 따르면 2026년 10월 30일부터 Pro 200의 Work·Codex 포함 사용량이 Plus 대비 20배에서 10배로 줄어요. GPT-6 Pro의 채팅 한도도 주 200개에서 100개로 감소해요. 모든 ChatGPT 대화에 똑같이 적용되는 제한은 아니에요.공식 Pro 요금제 안내를 보면 기존 한도 유지 대상자는 활성 구독을 유지할 경우 10월 29일까지 이전 한도를 쓸 수 있어요. 월 200달러 가격은 유지돼요. 제가 느낀 부담은 같은 돈을 내면서 포함 사용량이 줄어든다는 점이에요.보상 크레딧과 Pro 500은 별개예요기존 가입자에게 2,500달러 상당의 일회성 사용량 크레딧을 지급하고 연말에 만료한다는 내용은 보도로 확인돼요. 다만 이건 지원되는 Work·Codex 등의 추가 사용에 쓰는 크레딧이에요. 월 500달러 구독료 다섯 달분으로 결제할 수 있다는 근거는 없어요. 제가 언급한 한국 가격 79만 원과 62,500크레딧, 약 350만 원이라는 수치는 이번 추가 조사로 확인되지 않았어요.Pro 500은 Plus 대비 25배의 사용량과 Ultrafast 접근을 제공해요. 공식 속도 안내의 최대 8배는 Codex에서 GPT-6 Astra가 토큰을 생성하는 속도 기준이에요. 작업 전체가 8배 빨리 끝난다는 뜻은 아니에요. 구독 포함 사용량은 Standard 대비 8배율로 차감하고, 구매 크레딧과 Enterprise 종량제에는 6배율을 적용해요. 저는 급한 작업에서 시간을 얼마나 아끼는지 보고 선택할 것 같아요.dots는 자기 컴퓨터를 가진 AI 비서예요제가 흥미롭게 본 건 dots예요. 공식 dots 안내에 따르면 GPT-6 Astra 기반으로 자체 클라우드 컴퓨터와 기억을 활용해요. Slack에 연결하고 Work·Codex 작업도 만들 수 있어요. 대화만 하는 것에서 실제 작업을 맡기는 쪽으로 확장된 셈이죠.처음에는 무료라는 점이 눈에 들어왔지만, 정확히는 첫 dot이 Pro 또는 Business Premium에 추가 요금 없이 포함되는 구조예요. 심층 작업에는 사용량 한도가 있어요. 누구나 무제한 무료로 쓰는 비서는 아니에요. 저는 연결의 편리함이 매력적이면서도 OpenAI에 대한 의존도가 커지는 점은 부담으로 느꼈어요. Discord·Telegram은 지원하지 않는데 지원이 추가되었으면 좋겠어요.Space는 작업물을 모으고 함께 쓰는 공간이에요Space를 써보니 제가 만든 사이트와 이미지가 모여 있고, 이전 대화가 Pages 문서로 정리돼 위키처럼 느껴졌어요. 공식 DevDay 정리에서는 팀원과 ChatGPT, dot이 지식을 공유하는 협업 공간으로 설명해요. 저는 아직 작업물 보관 공간이라는 인상이 강해서 협업은 더 써보려고 해요.함께 발표된 Decisions API는 미리 정한 유한한 답 중 하나를 선택하는 제한적 프리뷰예요. GPT-6.1 Sol도 발표됐지만, 성능에 대한 호불호가 있어요.참고 자료Pro 요금제 안내, 사용량 변경 보도, 속도와 차감 기준, dots 사용 안내, DevDay 발표 정리를 참고했어요. 직접 설명한 내용은 원본 쇼츠에서 이어서 보실 수 있어요.",
+    "title": "휴직 일기 - 30일 차",
+    "description": "마침내 30일 차. 90일 중 1/3이 지났다. 나는 무엇을 했는가? 무엇을 얻었는가? 무엇을 깨달았는가? 이런 질문을 해야겠지만 그렇게 심각하게 생각하지 않으련다. 그냥 내 인생에 있어서 휴직한 날이 있었고 그날들을 내가 사용하고 싶은 대로 사용했다고 추억으로 남기려고 한다. 은퇴 경험도 해보겠다고 했지만 직장은 그만둘 수 있어도 금융적으로 돈을 벌어야",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.zerocho.com/category/AI뉴스/post/6ac13efddf5183dbffabb635",
-    "pubDate": "Sat, 03 Oct 2026 17:44:29 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "AI뉴스"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/83",
+    "pubDate": "Tue, 29 Sep 2026 14:09:05 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "“불안할 때 나는 맑고 산뜻한 걸 찾지 않는다”",
-    "description": "배우 고아성의 안정감 큐레이션: 7편의 시·수필·영화",
+    "title": "스타워즈 세계를 누비는 용병단, 제로 컴퍼니",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/findyoursafezone-2d",
-    "pubDate": "Tue, 29 Sep 2026 01:49:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2502",
+    "pubDate": "Tue, 29 Sep 2026 21:51:52 +0900",
+    "creator": "｜RULIWEB｜",
+    "categories": [
+      "게임툰"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "A More Reliable Compilation Scheme for Kotlin Multiplatform Modules",
-    "description": "The current compilation approach to Kotlin Multiplatform projects works, but sometimes can lead to unexpected or hard-to-predict behavior. For example: With Kotlin 2.5.0-Beta1, we introduced an optional “separate compilation” approach to KMP that solves both problems: make the compilation results consistent with IDE analysis, and point more consistently to problematic calls of library code from […]",
+    "title": "The Companions to Come",
+    "description": "We are working on extensions to our companions mechanism to unlock new code patterns and improve interoperability across different platforms. This post outlines these new features and provides preliminary guidance on migration. Companion blocks and extensions Many programming languages provide a notion of class or type members – functionality that does not belong to each […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/09/a-more-reliable-compilation-scheme-for-kotlin-multiplatform-modules/",
-    "pubDate": "Mon, 28 Sep 2026 09:38:26 +0000",
-    "creator": "Aleksey Zamulla",
+    "link": "https://blog.jetbrains.com/kotlin/2026/09/the-companions-to-come/",
+    "pubDate": "Wed, 30 Sep 2026 10:33:03 +0000",
+    "creator": "Alejandro Serrano Mena",
     "categories": [
-      "compiler",
-      "experimental-features",
-      "kotlin-multiplatform"
+      "kotlin",
+      "news"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Visual Studio September Update – Power Your Workflow with Your Model",
-    "description": "Bring your own AI model with updates to BYOM, fix NuGet vulnerabilities from the Error List, explore pull requests with the Git agent, see which operand decides an if condition, and attach to Podman containers.\nThe post Visual Studio September Update – Power Your Workflow with Your Model appeared first on Visual Studio Blog.",
+    "title": "Java Annotated Monthly – October 2026",
+    "description": "September gave us plenty to talk about, with major releases and thought-provoking reads. Java 27 arrived, and JetBrains opened a new chapter in agentic development with the announcement of JetBrains Air, a system of products for agentic software development, followed by the EAP of JetBrains Air in IDEs. Marit van Dijk kicks off this edition […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/",
-    "pubDate": "Tue, 29 Sep 2026 16:00:04 +0000",
-    "creator": "Mark Downie",
+    "link": "https://blog.jetbrains.com/idea/2026/10/java-annotated-monthly-october-2026/",
+    "pubDate": "Mon, 05 Oct 2026 13:05:48 +0000",
+    "creator": "Irina Mariasova",
     "categories": [
-      "Visual Studio",
-      "Agent",
-      "BYOM",
-      "GitHub Copilot"
+      "news",
+      "ai",
+      "java",
+      "java-annotated",
+      "java-annotated-monthly",
+      "kotlin",
+      "spring"
     ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "Small Talk with Emiliano Bonilla, CEO and Co-Founder of Synnax",
-    "description": "What is Small Talk? Small Talk is our short Q&A with founders from the JetBrains Startup Program. They answer a handful of questions in their own words about what they’re building, why they started, and what they’ve figured out along the way. No pitch, no polish – just a two-minute read to meet the person […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/startups/2026/09/small-talk-synnax/",
-    "pubDate": "Wed, 30 Sep 2026 13:00:36 +0000",
-    "creator": "Mitsal Athaya",
-    "categories": [
-      "interviews",
-      "jetbrains-startup-program"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "RustRover vs VS Code + rust-analyzer: What Changes in Your Rust Workflow",
-    "description": "As the team behind a dedicated Rust IDE, we’re naturally curious to see how RustRover stacks up against other popular setups for Rust development and the strengths and trade-offs of each one. This article is the first in a series where we’ll look at different Rust workflows.   We’re not unbiased, but we want to give […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rust/2026/10/01/rustrover-vs-vs-code/",
-    "pubDate": "Thu, 01 Oct 2026 09:39:15 +0000",
-    "creator": "Irina Mihajlovic",
-    "categories": [
-      "comparison",
-      "rustrover"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Personalization without user identity",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/personalization-without-user-identity-8e7891a1d486?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 29 Sep 2026 17:01:01 GMT",
-    "creator": "Wei Jiang",
-    "categories": [
-      "technology",
-      "machine-learning",
-      "infrastructure",
-      "ai",
-      "engineering"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Rider 2026.2.3 Is Released!",
-    "description": "Rider 2026.2.3 brings AI performance analysis to the Monitoring tool window and fixes an issue with the AI Agent Setup widget on Windows. You can update directly from the IDE, through the Toolbox App, or by downloading the latest version from our website. AI performance insights from the Monitoring tool window Now you can ask […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/09/28/rd-2026-2-3/",
-    "pubDate": "Mon, 28 Sep 2026 12:25:44 +0000",
-    "creator": "Alexander Kurakin",
-    "categories": [
-      "release",
-      "rider",
-      "ai",
-      "dottrace",
-      "performance-monitoring"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "LLM이 만든 SQL을 믿고 실행하기까지: A2A 기반의 대화형 BI 애플리케이션 개발기",
-    "description": "들어가며안녕하세요. Game Platform실의 이형중, 김민희, 정소영입니다. 저희 조직은 게임 퍼블리싱에 필요한 다양한 기능을 개발하고 운영하는 역할을 맡고 있습니다.저희는 ‘...",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/a2a-conversational-bi-app",
-    "pubDate": "Fri, 02 Oct 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 12,
     "imageUrl": "",
     "title": "윈도우 11 느려졌을 때 AI에게 진단받는 법 (무료 도구 + 복사해 쓰는 프롬프트)",
     "description": "윈도우 11이 갑자기 느려졌는데 원인을 모르겠다면, 윈도우 11 느려짐 해결의 시작은 \"무엇이 느린지\"를 숫자와 로그로 확인하는 것입니다. 이 글에서는 작업 관리자, 이벤트 뷰어, 무료 진단 도구에서 뽑은 정보를 AI 챗봇에게 보여 주고 원인을 좁히는 방법을 정리했습니다. 복사해서 바로 쓰는 프롬프트 5개와 단계별 점검 순서, 그리고 AI에게 정보를 줄 때 지켜야 할 개인정보 주의사항까지 담았습니다.\n이 글의 핵심 요약\n1. AI는 내 PC를 직접 볼 수 없으니, 작업 관리자 수치와 로그를 글로 옮겨 주어야 합니다.\n2. CPU, 메모리, 디스크, 시작 프로그램 순서로 병목을 찾습니다.\n3. AI가 알려 준 명령어는 의미를 확인한 뒤 실행하고, 레지스트리 수정이나 서비스 삭제는 함부로 따라 하지 않습니다.\n4. 사용자 이름, PC 이름, IP 주소 등은 가리고 입력합니다.\n1. 윈도우 11이 느려지는 대표적인 원인\n원인은 크게 다섯 가지로 나뉩니다. AI에게 질문하기 전에 어느 쪽에 가까운지 대략 감을 잡아 두면 진단이 빨라집니다.\n시작 프로그램 과다: 부팅할 때 자동으로 실행되는 앱이 많아 부팅과 초기 사용이 느려집니다.\n메모리 부족: 브라우저 탭이나 백그라운드 앱이 메모리를 많이 쓰면 디스크 스왑이 늘어납니다.\n저장 공간 부족과 디스크 문제: C드라이브 여유 공간이 적거나 디스크 상태가 나쁘면 전체가 느려집니다.\n드라이버와 업데이트 문제: 오래된 드라이버나 업데이트 직후 충돌이 원인인 경우도 있습니다.\n악성 프로그램과 백그라운드 작업: 원치 않는 프로그램이 CPU나 디스크를 계속 사용하는 경우입니다.\n\n\n2. AI 진단 전에 준비할 정보 4가지\n\"컴퓨터가 느려요\"라는 한 줄만으로는 AI도 일반적인 팁만 나열합니다. 아래 정보를 모아서 붙여 넣으면 답변의 정확도가 크게 올라갑니다.\n준비 정보\n확인 방법\nAI에게 주는 이유\n\n\nPC 사양\n설정 > 시스템 > 정보 (CPU, 메모리, 저장장치 종류)\nHDD인지 SSD인지, 메모리 용량에 따라 진단이 달라집니다\n\n\n느려지는 상황\n언제, 어떤 작업에서 느린지 메모\n부팅 직후, 특정 앱 실행 시, 항상 등 패턴이 단서가 됩니다\n\n\n작업 관리자 수치\nCtrl + Shift + Esc, 프로세스 탭에서 CPU, 메모리, 디스크 상위 항목\n어떤 프로그램이 자원을 쓰는지 바로 보입니다\n\n\n최근 변경 사항\n업데이트, 새 프로그램 설치, 드라이버 변경 여부\n문제 발생 시점과 연결 지을 수 있습니다\n\n\n\n \n3. 단계별 진단: 작업 관리자부터 이벤트 뷰어까지\nSTEP 1. 작업 관리자로 병목 찾기\nCtrl + Shift + Esc로 작업 관리자를 열고 프로세스 탭에서 CPU, 메모리, 디스크 열을 각각 눌러 정렬합니다. 상위 5개 항목의 이름과 사용률을 메모해 두세요. 성능 탭에서는 디스크 사용률이 100%에 가깝게 유지되는지도 확인합니다.\n윈도우 11 노트북이 느려서 작업 관리자를 확인했어. CPU 사용률 상위 5개 프로세스는 [이름과 %], 메모리 상위 5개는 [이름과 사용량], 디스크 사용률은 [%]야. 사양은 [CPU, 메모리, SSD 또는 HDD]. 어떤 항목이 가장 의심스러운지 이유와 함께 순서대로 알려 주고, 각 프로세스가 정상 프로세스인지도 설명해 줘.\nSTEP 2. 시작 프로그램 정리\n설정 > 앱 > 시작 프로그램에서 목록을 확인하고, 영향이 \"높음\"으로 표시된 항목을 캡처하거나 글로 옮겨 적습니다. 삭제가 아니라 사용 안 함으로만 바꾸면 언제든 되돌릴 수 있습니다.\n아래는 내 윈도우 11 시작 프로그램 목록과 영향도야. [목록 붙여 넣기] 꺼도 안전한 항목, 꺼두면 불편해질 수 있는 항목, 잘 모르겠으니 확인이 필요한 항목으로 나누어 표로 정리해 줘.\nSTEP 3. 저장 공간과 디스크 상태 확인\n설정 > 시스템 > 저장소에서 C드라이브 사용량과 임시 파일 크기를 확인합니다. 여유 공간이 적으면 저장소 센스나 임시 파일 삭제만으로도 체감이 달라질 수 있습니다. 디스크 상태는 CrystalDiskInfo 같은 무료 도구로 확인하고, 상태 정보를 글로 옮겨 AI에게 해석을 부탁하면 됩니다.\nC드라이브 용량은 [전체 / 사용 중]이고, 임시 파일은 [크기]야. 디스크 건강 상태 정보는 [상태, 온도, 대체된 섹터 수 등]이야. 이 값들이 정상인지, 교체를 고려해야 하는지 초보자 눈높이로 설명해 줘.\nSTEP 4. 이벤트 뷰어로 오류 단서 찾기\n시작 메뉴에서 \"이벤트 뷰어\"를 검색해 열고, Windows 로그 > 시스템에서 \"오류\" 또는 \"경고\" 수준 이벤트를 확인합니다. 문제가 생긴 시각 근처의 항목에서 원본, 이벤트 ID, 설명 문구를 복사해 AI에게 물어보세요.\n윈도우 11 이벤트 뷰어의 시스템 로그에서 아래 오류가 반복돼. 원본: [이름], 이벤트 ID: [번호], 설명: [문구]. 이 오류가 PC 속도 저하와 관련이 있는지, 원인과 해결 방법을 위험도가 낮은 것부터 알려 줘.\nSTEP 5. 시스템 파일 점검 명령어\n시스템 파일 손상이 의심될 때는 관리자 권한 터미널에서 아래 명령어를 순서대로 실행하는 방법이 널리 알려져 있습니다.\nsfc /scannow: 손상된 시스템 파일을 검사하고 복구합니다.\nDISM /Online /Cleanup-Image /RestoreHealth: 윈도우 구성 요소 저장소를 복구합니다.\n검사에는 시간이 걸리고 결과 메시지도 다양합니다. 결과 문구는 AI에게 그대로 붙여 넣고 의미를 물어보는 것이 좋습니다.\n4. 증상별 AI 진단 프롬프트 모음\n증상\nAI에게 함께 알려 줄 정보\n질문 예시\n\n\n부팅이 오래 걸림\n시작 프로그램 목록, 부팅 시간\n부팅을 느리게 만들 가능성이 큰 항목을 순위로 알려 줘\n\n\n디스크 100% 유지\n작업 관리자의 디스크 상위 프로세스, 저장장치 종류\n원인 후보와 안전한 점검 순서를 알려 줘\n\n\n브라우저만 느림\n확장 프로그램 목록, 열린 탭 수, 메모리 사용량\n확장 프로그램 중 의심 가는 것과 점검 방법을 알려 줘\n\n\n업데이트 후 느려짐\n업데이트 날짜, 설치된 드라이버 변경 내역\n되돌리기 전에 확인할 것과 롤백 방법을 알려 줘\n\n\n팬 소리와 발열이 심함\nCPU 온도, 점유율 상위 프로세스\n발열 원인이 소프트웨어인지 하드웨어인지 구분하는 방법을 알려 줘\n\n\n\n \n5. 함께 쓰면 좋은 무료 진단 도구\n작업 관리자 (기본 내장): 가장 먼저 확인할 도구입니다.\nAutoruns (마이크로소프트 Sysinternals): 설정 앱보다 더 자세한 자동 실행 항목을 볼 수 있습니다.\nProcess Explorer (마이크로소프트 Sysinternals): 프로세스 구조와 자원 사용을 자세히 보여 줍니다.\nCrystalDiskInfo: 디스크 상태와 온도를 확인합니다.\nWizTree: 어떤 폴더가 용량을 많이 쓰는지 빠르게 보여 줍니다.\n도구는 반드시 공식 사이트에서 내려받고, 도구가 보여 주는 정보를 글로 옮겨 AI에게 해석을 요청하면 됩니다.\n6. AI 진단 시 꼭 지켜야 할 주의사항\n개인정보 가리기: 로그와 목록에 포함된 사용자 계정명, PC 이름, IP 주소, 이메일은 지우거나 가상 값으로 바꿔서 입력하세요.\n명령어는 의미 확인 후 실행: AI가 알려 준 명령어는 \"이 명령어가 무슨 일을 하는지 한 줄씩 설명해 줘\"라고 먼저 물어보세요.\n레지스트리 수정과 서비스 삭제는 신중하게: 되돌리기 어려운 작업은 복원 지점을 만들거나 백업한 뒤에 진행하세요.\n한 번에 하나씩 변경: 여러 설정을 동시에 바꾸면 무엇이 효과였는지 알 수 없습니다.\nAI 답변은 후보일 뿐: 로그만으로 원인을 100% 확정할 수는 없습니다. 하나씩 적용하며 변화를 확인하세요.\n7. 자주 묻는 질문 (FAQ)\nQ1. 윈도우 11이 느려지면 포맷이 답인가요?\n꼭 그렇지는 않습니다. 시작 프로그램 정리, 저장 공간 확보, 드라이버 점검만으로 개선되는 경우가 많습니다. 포맷은 모든 점검을 마치고도 해결되지 않을 때 마지막 선택지로 두세요. 진행 전에는 반드시 중요한 자료를 백업해야 합니다.\nQ2. 무료 AI 챗봇으로도 진단이 가능한가요?\n네, 가능합니다. 이 글의 방법은 작업 관리자 수치나 로그를 글로 옮겨 질문하는 방식이라 대부분의 무료 챗봇에서도 쓸 수 있습니다. 다만 무료 사용량과 기능은 서비스 정책에 따라 달라질 수 있습니다.\nQ3. AI가 알려 준 대로 했는데 더 느려졌어요.\n최근에 바꾼 설정을 하나씩 되돌려 보세요. 시작 프로그램을 \"사용 안 함\"으로 바꿨다면 다시 \"사용\"으로 바꾸고, 변경한 내용과 결과를 AI에게 다시 알려 주면 대안을 받을 수 있습니다.\nQ4. 하드웨어 문제인지 소프트웨어 문제인지 어떻게 구분하나요?\n디스크 상태 정보, 온도, 메모리 사용률을 함께 확인하세요. 상태 값이 나쁘거나 발열이 높다면 하드웨어를, 특정 프로세스가 자원을 계속 쓰고 있다면 소프트웨어를 먼저 의심해 볼 수 있습니다. 이 수치들을 AI에게 보여 주고 판단을 요청하세요.\n마무리: 감이 아니라 데이터로 진단하세요\n윈도우 11 느려짐 문제는 막연히 이것저것 설정을 바꾸기보다, 작업 관리자와 로그에서 수치를 모아 AI에게 해석을 맡기면 훨씬 빠르게 정리됩니다. 오늘 소개한 프롬프트를 메모장에 저장해 두고, 다음에 PC가 느려졌을 때 STEP 1부터 차례로 따라 해 보세요. 개인정보는 가리고, 한 번에 하나씩 바꾸는 습관만 지키면 안전하게 개선할 수 있습니다.",
@@ -198,39 +112,81 @@
     ]
   },
   {
-    "id": 13,
+    "id": 8,
     "imageUrl": "",
-    "title": "Air Teams: Bring Your Best Agentic Workflows to the Whole Team – and Automate Repeatable Work",
-    "description": "Today, we’re introducing JetBrains Air Teams – the team layer for agentic development. It gives humans and agents the shared context, environments, tools, and instructions they need to work effectively together across the full development lifecycle. Air Teams is already available to JetBrains business customers, with plans to expand access to individual customers later. Try […]",
+    "title": "Software Quality Assurance Tools and Tips for Developers",
+    "description": "Testing applications before release alone is no longer enough when it comes to quality assurance for modern software development. It needs a more dynamic approach that makes QA a part of the ongoing process. According to the 2025 Stack Overflow Developer Survey, 84% of developers use or plan to use AI tools in their development […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/air/2026/09/introducing-air-teams/",
-    "pubDate": "Mon, 28 Sep 2026 13:15:11 +0000",
-    "creator": "Vladimir Gromozdin",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "jetbrains",
-      "jetbrains-ai",
-      "new-products",
-      "news",
-      "releases"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "휴직 일기 - 30일 차",
-    "description": "마침내 30일 차. 90일 중 1/3이 지났다. 나는 무엇을 했는가? 무엇을 얻었는가? 무엇을 깨달았는가? 이런 질문을 해야겠지만 그렇게 심각하게 생각하지 않으련다. 그냥 내 인생에 있어서 휴직한 날이 있었고 그날들을 내가 사용하고 싶은 대로 사용했다고 추억으로 남기려고 한다. 은퇴 경험도 해보겠다고 했지만 직장은 그만둘 수 있어도 금융적으로 돈을 벌어야",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/83",
-    "pubDate": "Tue, 29 Sep 2026 14:09:05 GMT",
-    "creator": "고종범",
+    "link": "https://blog.jetbrains.com/qodana/2026/09/software-quality-assurance-tools/",
+    "pubDate": "Tue, 29 Sep 2026 12:23:15 +0000",
+    "creator": "Kerry Beetge",
     "categories": []
   },
   {
-    "id": 15,
+    "id": 9,
+    "imageUrl": "",
+    "title": "LLM이 만든 SQL을 믿고 실행하기까지: A2A 기반의 대화형 BI 애플리케이션 개발기",
+    "description": "들어가며안녕하세요. Game Platform실의 이형중, 김민희, 정소영입니다. 저희 조직은 게임 퍼블리싱에 필요한 다양한 기능을 개발하고 운영하는 역할을 맡고 있습니다.저희는 ‘...",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://techblog.lycorp.co.jp/ko/a2a-conversational-bi-app",
+    "pubDate": "Fri, 02 Oct 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "RustRover vs VS Code + rust-analyzer: What Changes in Your Rust Workflow",
+    "description": "As the team behind a dedicated Rust IDE, we’re naturally curious to see how RustRover stacks up against other popular setups for Rust development and the strengths and trade-offs of each one. This article is the first in a series where we’ll look at different Rust workflows.   We’re not unbiased, but we want to give […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/rust/2026/10/01/rustrover-vs-vs-code/",
+    "pubDate": "Thu, 01 Oct 2026 09:39:15 +0000",
+    "creator": "Irina Mihajlovic",
+    "categories": [
+      "comparison",
+      "rustrover"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "[NS] 압도적 밀도와 볼륨으로 상다리가 부러졌어요, 파이어 엠블렘 만자천홍",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2501",
+    "pubDate": "Tue, 29 Sep 2026 18:30:21 +0900",
+    "creator": "［RULIWEB］",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "AI 엑셀 함수 자동화: 수식 몰라도 프롬프트 한 줄로 데이터 정리 끝내는 법",
+    "description": "AI 엑셀 함수 자동화를 쓰면 VLOOKUP, SUMIFS, 중첩 IF 같은 복잡한 수식을 외우지 않아도 됩니다. 하고 싶은 작업을 한국어로 적어 주면 AI가 수식을 만들어 주기 때문입니다. 다만 \"수식 만들어줘\"라고만 쓰면 오류가 나는 수식이 자주 나옵니다. 이 글에서는 실무에서 바로 쓰는 프롬프트 공식과 상황별 예시 6가지, 오류 수식을 AI로 고치는 방법, 그리고 꼭 지켜야 할 주의사항을 정리했습니다.\n이 글의 핵심 요약\n1. 프롬프트에는 열 구조, 원하는 결과, 엑셀 버전을 반드시 포함합니다.\n2. 수식은 AI가 만들고, 결과 검증은 사람이 합니다.\n3. 오류가 나면 오류 메시지와 수식을 그대로 붙여 넣어 디버깅을 맡깁니다.\n4. 개인정보와 거래처 정보는 가상 데이터로 바꿔서 입력합니다.\n1. 엑셀 수식 AI 자동화가 필요한 이유\n엑셀은 기능이 많지만 수식 문법이 어렵습니다. 괄호 하나, 쉼표 하나만 틀려도 #VALUE!, #N/A, #REF! 같은 오류가 나옵니다. 예전에는 검색해서 비슷한 사례를 찾아 고쳐 써야 했습니다. 지금은 AI에게 내 시트의 구조를 설명하면 그 구조에 맞는 수식을 바로 받을 수 있습니다.\n시간 절약: 수식 검색과 시행착오 시간이 줄어듭니다.\n학습 효과: AI가 수식의 동작 원리까지 설명해 주므로 함수 공부에도 도움이 됩니다.\n실수 감소: 수식을 사람이 직접 짜다 생기는 참조 범위 실수를 줄일 수 있습니다.\n\n\n2. 실패하지 않는 엑셀 AI 프롬프트 공식 4요소\nAI는 내 화면을 볼 수 없습니다. 그래서 아래 네 가지를 알려 주어야 정확한 수식이 나옵니다.\n요소\n설명\n예시\n\n\n① 데이터 구조\n열 이름과 위치, 데이터 범위\nA열 날짜, B열 담당자, C열 매출액, 2행부터 500행까지\n\n\n② 목표 결과\n무엇을 어디에 표시할지\n담당자별 월 매출 합계를 F열에 표시\n\n\n③ 엑셀 버전\n사용 가능한 함수가 다름\nMicrosoft 365 또는 엑셀 2016\n\n\n④ 출력 형식\n수식과 설명을 어떻게 받을지\n수식 한 줄과 동작 원리 3줄 설명\n\n\n\n \n복사해서 쓰는 기본 템플릿\n나는 엑셀(버전: ○○)을 사용 중이야. 시트 구조는 A열 ○○, B열 ○○, C열 ○○이고 데이터는 2행부터 ○○행까지야. 내가 원하는 결과는 ○○이고, 결과는 ○○열에 넣을 거야. 해당 셀에 바로 붙여 넣을 수 있는 수식 한 줄과, 수식의 동작 원리를 초보자 눈높이로 설명해 줘.\n3. 상황별 엑셀 함수 AI 프롬프트 예시 6가지\n① 조건에 맞는 합계 구하기 (SUMIFS)\nA열 날짜, B열 담당자, C열 매출액이야. 담당자가 \"김민수\"이고 날짜가 2026년 3월인 매출액 합계를 구하는 수식을 만들어 줘. 엑셀 365 기준이야.\nAI는 보통 SUMIFS 함수로 답합니다. 날짜 조건을 시작일과 종료일로 나누어 처리하는지 확인하세요.\n② 다른 표에서 값 찾아오기 (XLOOKUP, VLOOKUP)\nSheet1 A열에는 상품코드가 있고, Sheet2 A열에는 상품코드, B열에는 상품명, C열에는 단가가 있어. Sheet1 B열에 상품명을, C열에 단가를 가져오는 수식을 만들어 줘. 없는 코드는 \"미등록\"으로 표시해 줘. 엑셀 2016이라 XLOOKUP은 못 써.\n버전을 알려 주면 AI가 XLOOKUP 대신 INDEX와 MATCH 또는 VLOOKUP 조합으로 답합니다. 버전 정보가 중요한 이유입니다.\n③ 중복 제거와 고유값 목록 만들기 (UNIQUE)\nB열에 거래처명이 1000개 있고 중복이 많아. 중복 없이 거래처 목록만 E열에 뽑는 방법을 알려 줘. 365용 수식과 구버전용 방법을 둘 다 알려 줘.\n④ 문자열 쪼개고 합치기 (TEXTSPLIT, LEFT, MID, TEXTJOIN)\nA열에 \"서울시 강남구 테헤란로 123\" 같은 주소가 있어. 시/구/도로명으로 나누어 B, C, D열에 넣는 수식을 만들어 줘. 공백 기준으로 나누면 돼.\n⑤ 날짜와 기간 계산하기 (DATEDIF, NETWORKDAYS)\nB열에 입사일이 있어. 오늘 기준 근속 연수와 개월 수를 \"3년 4개월\" 형태로 C열에 표시하는 수식을 만들어 줘.\n⑥ 조건부 서식 규칙 만들기\nD열의 납기일이 오늘보다 지났고 E열 상태가 \"완료\"가 아닌 행 전체를 빨간색으로 칠하고 싶어. 조건부 서식에 넣을 수식과 적용 범위 설정 방법을 단계별로 알려 줘.\n4. 오류 난 엑셀 수식, AI로 디버깅하는 방법\n수식이 오류를 낸다면 AI에게 다시 질문하면 됩니다. 이때는 아래 세 가지를 함께 붙여 넣어야 원인을 정확히 짚어 줍니다.\n사용 중인 수식 전체\n화면에 표시된 오류 메시지 (예: #N/A, #VALUE!)\n참조하는 셀의 실제 값 예시 2~3개\n오류\n흔한 원인\nAI에게 물어볼 질문\n\n\n#N/A\n찾는 값이 없거나 공백, 서식 불일치\n찾는 값에 숫자와 텍스트가 섞였는지 확인하고 해결 수식을 알려 줘\n\n\n#VALUE!\n텍스트와 숫자 연산 시도\n어떤 셀의 값 때문에 오류가 나는지 찾아 줘\n\n\n#REF!\n삭제된 셀 참조\n참조가 깨진 부분을 복구하는 방법을 알려 줘\n\n\n#DIV/0!\n0으로 나누기\nIFERROR 또는 IF로 안전하게 처리하는 수식으로 바꿔 줘\n\n\n\n \n5. 엑셀 AI 활용 시 꼭 지켜야 할 주의사항\n개인정보와 기밀은 가상 데이터로 대체: 실제 이름, 연락처, 주민번호, 거래처 단가는 입력하지 마세요. 구조만 같은 샘플 데이터로 바꾸면 충분합니다.\n검증은 필수: 결과가 맞는지 10건 정도는 계산기나 수작업으로 대조하세요. 금액이나 정산 자료라면 더 꼼꼼히 확인해야 합니다.\n원본 파일은 반드시 백업: 수식을 적용하기 전에 파일을 복사해 두면 문제가 생겨도 되돌릴 수 있습니다.\n회사 보안 정책 확인: 업무 파일을 외부 AI 서비스에 올리는 것이 허용되는지 먼저 확인하세요.\n6. 업무 효율을 높이는 추가 활용 팁\n수식 해석 요청: 동료가 만든 복잡한 수식을 붙여 넣고 \"한 줄씩 쉽게 설명해 줘\"라고 하면 인수인계가 빨라집니다.\n수식 단순화: 길고 중첩이 많은 수식을 보여 주고 더 간단하게 바꿔 달라고 요청해 보세요.\n매크로와 VBA 초안: 반복 작업을 말로 설명하면 VBA 코드 초안을 받을 수 있습니다. 실행 전에 테스트 파일에서 먼저 확인하세요.\n피벗테이블 설계: 어떤 필드를 행, 열, 값에 놓아야 하는지 AI에게 물어보면 집계 설계가 쉬워집니다.\n7. 자주 묻는 질문 (FAQ)\nQ1. 무료 AI로도 엑셀 수식을 만들 수 있나요?\n네, 가능합니다. ChatGPT, 제미나이, 클로드 같은 챗봇의 무료 버전으로도 일반적인 수식은 충분히 만들 수 있습니다. 다만 무료 사용량과 제공 모델은 서비스 정책에 따라 바뀌므로 각 서비스의 현재 안내를 확인하세요.\nQ2. AI가 만든 수식이 계속 오류가 나요.\n대부분 엑셀 버전이 맞지 않거나, 열 구조 설명이 부족해서 생깁니다. 사용 중인 버전과 실제 데이터 예시 3줄, 오류 메시지를 함께 알려 주세요. 또한 한국어판 엑셀은 수식 구분자가 쉼표가 아닌 세미콜론일 수 있으니 구분자 설정도 확인해 보세요.\nQ3. 구글 스프레드시트에서도 같은 방법이 통하나요?\n대부분의 프롬프트 구조는 그대로 통합니다. 요청할 때 \"구글 스프레드시트 기준\"이라고 명시하면 ARRAYFORMULA, QUERY 같은 시트 전용 함수로 답해 줍니다.\nQ4. 엑셀 함수를 아예 공부하지 않아도 될까요?\n기본 개념은 알아 두는 것이 좋습니다. AI가 준 수식이 맞는지 판단하려면 최소한 SUM, IF, LOOKUP 계열이 어떤 동작을 하는지는 이해해야 합니다. AI는 학습 도구로도 좋으니, 수식을 받을 때 \"동작 원리도 설명해 줘\"를 습관처럼 붙이세요.\n마무리: 수식은 AI에게, 판단은 사람이 합니다\nAI 엑셀 함수 자동화의 핵심은 정확한 구조 설명과 결과 검증입니다. 오늘 소개한 4요소 템플릿으로 시작해서 자주 쓰는 업무 프롬프트를 메모장에 모아 두세요. 한 번 만든 프롬프트는 다음에도 그대로 재사용할 수 있어서 시간이 갈수록 효율이 올라갑니다. 이 글이 도움이 되셨다면 평소 가장 오래 걸리던 엑셀 작업 하나를 골라 오늘 바로 AI에게 맡겨 보세요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483735",
+    "pubDate": "Thu, 1 Oct 2026 22:40:49 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "AI 엑셀 함수",
+      "SUMIFS",
+      "xlookup",
+      "엑셀 AI 프롬프트",
+      "엑셀 수식 자동화",
+      "엑셀 업무 자동화",
+      "엑셀 함수 오류"
+    ]
+  },
+  {
+    "id": 13,
     "imageUrl": "",
     "title": "직책 없는 회사",
     "description": "우리는 10월 1일부로 작은 실험을 한다. 바로 회사에서 직책을 없애는 것이다. 앞으로 나를 아는 분들은 “배기홍 대표”나 “배기홍 파트너”가 아니라 “배기홍님” 또는 “기홍님”으로 불러주길 바란다. 이게 좀 어색할 수도 있기 때문에 계속 나를 대표나 파트너로 부른다고 내가 싸대기를 때리진 않겠지만 되도록 그냥 직책 없이 “님” 호칭만으로 불러주면 좋겠다. 나뿐만 아니라 스트롱 모든 분을. 실은 몇(...)",
@@ -242,6 +198,41 @@
     "categories": [
       "Uncategorized",
       "Strong"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Visual Studio September Update – Power Your Workflow with Your Model",
+    "description": "Bring your own AI model with updates to BYOM, fix NuGet vulnerabilities from the Error List, explore pull requests with the Git agent, see which operand decides an if condition, and attach to Podman containers.\nThe post Visual Studio September Update – Power Your Workflow with Your Model appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/",
+    "pubDate": "Tue, 29 Sep 2026 16:00:04 +0000",
+    "creator": "Mark Downie",
+    "categories": [
+      "Visual Studio",
+      "Agent",
+      "BYOM",
+      "GitHub Copilot"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Personalization without user identity",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://medium.com/airbnb-engineering/personalization-without-user-identity-8e7891a1d486?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 29 Sep 2026 17:01:01 GMT",
+    "creator": "Wei Jiang",
+    "categories": [
+      "technology",
+      "machine-learning",
+      "infrastructure",
+      "ai",
+      "engineering"
     ]
   }
 ]
