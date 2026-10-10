@@ -2,48 +2,74 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Your Next Action Is Two Dots Away",
-    "description": "What’s new for command completion in IntelliJ IDEA  Modern IDEs are packed with power. The real challenge isn’t whether your IDE can do something – it’s remembering how to trigger it. Some features live behind shortcuts. Others are available through intention menus, Search Everywhere, postfix completion, live templates, or tool windows. Discoverability is a constant […]",
+    "title": "더루프, 엘더스크롤 플레이",
+    "description": "더 루프 보드홀릭에서 세일로 2.4만에 구입한 더 루프를 솔플 룰로 플레이 해봤습니다. 일단 더 루프라는 게임을 2년전쯤 보드게임 페스타 때 체험해봤는데, 그땐 가격에 비해 그다지 재밋진 않았습니다. 아마 페스타 마지막날 오후쯤이었어서 설명해주시던 분이 고되서 적극적으로 설명을 해주시지 않았습니다. 자리가 비어있어 해볼수 있냐고 물어보고 바로 체험을 했으나, 게임의 배경이나 설정이라던지 이렇게 플레이 하면 좋다던지 그런건 하나도 안알려주시고 이렇게 하면되요 하고 자리를 떠버리셔서 어떻게 해야하지 하다가 그다지 재미를 느끼지 못하고 체험을 끝냈었습니다. 이 기억이 와이프에겐 너무나 안좋았던 기억이 있었는지 더.......",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/10/your-next-action-is-two-dots-away/",
-    "pubDate": "Wed, 07 Oct 2026 07:38:06 +0000",
-    "creator": "Igor Kulakov",
+    "link": "https://blog.naver.com/dlehddus84/224432080285?fromRss=true&trackingCode=rss",
+    "pubDate": "Mon, 05 Oct 2026 17:49:23 +0900",
+    "creator": "dlehddus84",
     "categories": [
-      "idea",
-      "product-updates"
+      "플레이"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "NTS: Authenticated Time at Meta",
-    "description": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com. Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and not replicated. We’ve open sourced everything, including [...]\nRead More...\nThe post NTS: Authenticated Time at Meta appeared first on Engineering at Meta.",
+    "title": "Faster Developers Don’t Make a Faster Team",
+    "description": "What engineering teams tell us about working with AI agents. Part 1 in the series. Over the past few months, I’ve spent a lot of time on discovery calls with engineering organizations, from a 16-developer software agency to telcos, game studios, and consultancies with thousands of developers. Almost none of them are asking whether to […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
-    "pubDate": "Tue, 06 Oct 2026 16:00:06 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/air/2026/10/faster-developers-don-t-make-a-faster-team/",
+    "pubDate": "Wed, 07 Oct 2026 13:08:09 +0000",
+    "creator": "Gleb Malkov",
     "categories": [
-      "Networking & Traffic",
-      "Open Source",
-      "Production Engineering"
+      "agentic-ai",
+      "ai",
+      "jetbrains",
+      "jetbrains-ai"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Logstash 필터 xml - 2nd",
-    "description": "xml 필터는 xml 코드만을 인식한다.\n\n    \n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n xml {\n  force_array => false\n  source => \"message\"\n  target => \"event\"\n }\n}\n\n\n\n\n\n[2026-10-06T23:32:51,999][WARN ][logstash.filters.xml     ][main] Error parsing xml with XmlSimple {source: \"message\", value: \"Sep  3 13:29:14 rocky sysmon[1631]: <Event><System><Provider Name=\\\"Linux-Sysmon\\\" Guid=\\\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\\\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\\\"2026-09-03T04:29:14.717687000Z\\\"/><EventRecordID>244</EventRecordID><Correlation/><Execution ProcessID=\\\"1631\\\" ThreadID=\\\"1631\\\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>rocky</Computer><Security UserId=\\\"0\\\"/></System><EventData><Data Name=\\\"RuleName\\\">-</Data><Data Name=\\\"UtcTime\\\">2026-09-03 04:29:14.722</Data><Data Name=\\\"ProcessGuid\\\">{10190b56-f79a-6a98-89bd-6677a8550000}</Data><Data Name=\\\"ProcessId\\\">2026</Data><Data Name=\\\"Image\\\">/usr/lib/systemd/systemd-userwork</Data><Data Name=\\\"FileVersion\\\">-</Data><Data Name=\\\"Description\\\">-</Data><Data Name=\\\"Product\\\">-</Data><Data Name=\\\"Company\\\">-</Data><Data Name=\\\"OriginalFileName\\\">-</Data><Data Name=\\\"CommandLine\\\">/usr/lib/systemd/systemd-userwork xxxxxxxxxxxxxxxx</Data><Data Name=\\\"CurrentDirectory\\\">/</Data><Data Name=\\\"User\\\">root</Data><Data Name=\\\"LogonGuid\\\">{10190b56-d9f0-6a98-0000-000000000000}</Data><Data Name=\\\"LogonId\\\">0</Data><Data Name=\\\"TerminalSessionId\\\">4294967295</Data><Data Name=\\\"IntegrityLevel\\\">no level</Data><Data Name=\\\"Hashes\\\">SHA1=3b0aef615e6e64d432d6e813c642a98fd5516cb1,MD5=3ef1ef384b1b35a31c7413c8be83a19e,SHA256=7500c4b7e7c6677c4004be01d0b37654948473d7c2ddbb681df8c2ccd08897f4</Data><Data Name=\\\"ParentProcessGuid\\\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\\\"ParentProcessId\\\">684</Data><Data Name=\\\"ParentImage\\\">-</Data><Data Name=\\\"ParentCommandLine\\\">-</Data><Data Name=\\\"ParentUser\\\">-</Data></EventData></Event>\\r\", exception: #<REXML::ParseException:\"Malformed XML: Content at the start of the document (got 'Sep  3 13:29:14 rocky sysmon[1631]: ')\\nLine: 1\\nPosition: 43\\nLast 80 unconsumed characters:\\n<Event>\">, backtrace: [\"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/rexml-3.4.4/lib/rexml/parsers/baseparser.rb:517:in 'pull_event'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/rexml-3.4.4/lib/rexml/parsers/baseparser.rb:249:in 'pull'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/rexml-3.4.4/lib/rexml/parsers/treeparser.rb:21:in 'parse'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/rexml-3.4.4/lib/rexml/document.rb:468:in 'build'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/rexml-3.4.4/lib/rexml/document.rb:105:in 'initialize'\", \"org/jruby/RubyClass.java:1023:in 'new'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/xml-simple-1.1.9/lib/xmlsimple.rb:979:in 'parse'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/xml-simple-1.1.9/lib/xmlsimple.rb:164:in 'xml_in'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/xml-simple-1.1.9/lib/xmlsimple.rb:203:in 'xml_in'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/logstash-filter-xml-4.3.2/lib/logstash/filters/xml.rb:196:in 'filter'\", \"D:/ELK/v9/logstash-9.5.2/logstash-core/lib/logstash/filters/base.rb:158:in 'do_filter'\", \"D:/ELK/v9/logstash-9.5.2/logstash-core/lib/logstash/filters/base.rb:176:in 'block in multi_filter'\", \"org/jruby/RubyArray.java:2097:in 'each'\", \"D:/ELK/v9/logstash-9.5.2/logstash-core/lib/logstash/filters/base.rb:173:in 'multi_filter'\", \"org/logstash/config/ir/compiler/AbstractFilterDelegatorExt.java:140:in 'multi_filter'\", \"D:/ELK/v9/logstash-9.5.2/logstash-core/lib/logstash/java_pipeline.rb:352:in 'block in start_workers'\"]}\n{\n    \"message\" => \"Sep  3 13:29:14 rocky sysmon[1631]: <Event><System><Provider Name=\\\"Linux-Sysmon\\\" Guid=\\\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\\\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\\\"2026-09-03T04:29:14.717687000Z\\\"/><EventRecordID>244</EventRecordID><Correlation/><Execution ProcessID=\\\"1631\\\" ThreadID=\\\"1631\\\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>rocky</Computer><Security UserId=\\\"0\\\"/></System><EventData><Data Name=\\\"RuleName\\\">-</Data><Data Name=\\\"UtcTime\\\">2026-09-03 04:29:14.722</Data><Data Name=\\\"ProcessGuid\\\">{10190b56-f79a-6a98-89bd-6677a8550000}</Data><Data Name=\\\"ProcessId\\\">2026</Data><Data Name=\\\"Image\\\">/usr/lib/systemd/systemd-userwork</Data><Data Name=\\\"FileVersion\\\">-</Data><Data Name=\\\"Description\\\">-</Data><Data Name=\\\"Product\\\">-</Data><Data Name=\\\"Company\\\">-</Data><Data Name=\\\"OriginalFileName\\\">-</Data><Data Name=\\\"CommandLine\\\">/usr/lib/systemd/systemd-userwork xxxxxxxxxxxxxxxx</Data><Data Name=\\\"CurrentDirectory\\\">/</Data><Data Name=\\\"User\\\">root</Data><Data Name=\\\"LogonGuid\\\">{10190b56-d9f0-6a98-0000-000000000000}</Data><Data Name=\\\"LogonId\\\">0</Data><Data Name=\\\"TerminalSessionId\\\">4294967295</Data><Data Name=\\\"IntegrityLevel\\\">no level</Data><Data Name=\\\"Hashes\\\">SHA1=3b0aef615e6e64d432d6e813c642a98fd5516cb1,MD5=3ef1ef384b1b35a31c7413c8be83a19e,SHA256=7500c4b7e7c6677c4004be01d0b37654948473d7c2ddbb681df8c2ccd08897f4</Data><Data Name=\\\"ParentProcessGuid\\\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\\\"ParentProcessId\\\">684</Data><Data Name=\\\"ParentImage\\\">-</Data><Data Name=\\\"ParentCommandLine\\\">-</Data><Data Name=\\\"ParentUser\\\">-</Data></EventData></Event>\\r\",\n       \"tags\" => [\n        [0] \"_xmlparsefailure\"\n    ]\n}\n\n\n\n\nxml 코드를 제외한 로그 헤더를 삭제해야 함.\n\n\n\n\n\nfilter {\n mutate {\n  remove_field => [\"@timestamp\", \"@version\", \"path\", \"host\"]\n }\n\t\n mutate {\n  gsub => [\"message\", \"[^<]+\", \"\"]\n  remove_field => [\"@timeatamp\", \"@version\", \"path\", \"host\"]\n }\n\n\n xml {\n  force_array => false\n  source => \"message\"\n  target => \"event\"\n }\n}\n\n\n\n\n[2026-10-06T23:41:38,391][WARN ][logstash.filters.xml     ][main] Error parsing xml with XmlSimple {source: \"message\", value: \"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\", exception: #<ArgumentError: File does not exist: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<.>, backtrace: [\"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/xml-simple-1.1.9/lib/xmlsimple.rb:1004:in 'find_xml_file'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/xml-simple-1.1.9/lib/xmlsimple.rb:168:in 'xml_in'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/xml-simple-1.1.9/lib/xmlsimple.rb:203:in 'xml_in'\", \"D:/ELK/v9/logstash-9.5.2/vendor/bundle/jruby/3.4.0/gems/logstash-filter-xml-4.3.2/lib/logstash/filters/xml.rb:196:in 'filter'\", \"D:/ELK/v9/logstash-9.5.2/logstash-core/lib/logstash/filters/base.rb:158:in 'do_filter'\", \"D:/ELK/v9/logstash-9.5.2/logstash-core/lib/logstash/filters/base.rb:176:in 'block in multi_filter'\", \"org/jruby/RubyArray.java:2097:in 'each'\", \"D:/ELK/v9/logstash-9.5.2/logstash-core/lib/logstash/filters/base.rb:173:in 'multi_filter'\", \"org/logstash/config/ir/compiler/AbstractFilterDelegatorExt.java:140:in 'multi_filter'\", \"D:/ELK/v9/logstash-9.5.2/logstash-core/lib/logstash/java_pipeline.rb:352:in 'block in start_workers'\"]}\n{\n    \"message\" => \"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\",\n       \"tags\" => [\n        [0] \"_xmlparsefailure\"\n    ]\n}\n\n\n\n\n내가 뭘 잘못했을까? 전에 사용했던 정규표현식과 비교. mutate 필터의 gsub 옵션은 전체 검색 결과를 반환하는 global 수정자 사용이 기본.\n \n\n\n\n\nglobal 수정자 해제는 안 되기 때문에 시작 위치를 고정해야 한다(..) 해봤던 작업인데도 실수 한 이유는 xml 데이터 만져본 경험이 아직 충분하지 않아서. 한 백 번 반복하면 실수 안 한다. 외워서 될 일이 아니라, 손에 익어야 되는 일이라는 얘기. \n\n\n솔직히 내가 이거 외울 수 있으면 그 능력으로 다른 거 한다. 관심과 적성, 그리고 곤조가 있어야 가능한 일. 시간 투자도 싫고, 외워지지도 않는다면 다른 적성을 찾는 게 인생이 풍요로워지는 지름길. \n\n학생들은 기업 프로젝트를 시작할 때 80% 정도의 우아한 작업과 20% 정도의 잡일로 구성될 거라고 기대한다. 막상 프로젝트를 시작해보면 정반대다. 프로젝트의 80% 정도는 ‘노가다 ’가 차지한다. 잡일을 대하는 태도와 엔지니어의 수준은 밀접한 관련이 있다. 잡일 단계에 들 때마다 좌절하고 지루해하면 초보이거나 적성이 맞지 않는 엔지니어다. 고급 엔지니어의 ‘내공’은 과거에 경험한 이런 궂은일의 축적에서 나온다.\n\n\n\n\n관련 글\n\nLogstash 필터 xml\nLogstash 필터 date\nLogstash 필터 grok\nLogstash 필터 mutate\nLogstash 필터 ruby\nLogstash 필터 geoip\nLogstash 필터 dissect\nLogstash 필터 kv\nLogstash 필터 translate\nLogstash 필터 drop\nLogstash 필터 useragent\nLogstash 필터 elapsed\nLogstash 필터 fingerprint\nLogstash 필터 csv\nLogstash 필터 dns\nLogstash 필터 split\nLogstash codec 플러그인 multiline",
+    "title": "휴직일기 - 37일 차",
+    "description": "나는 크로스핏을 하고 있다. 보통 헬스장을 짐이라고 부르지만 크로스핏은 박스라고 부른다. 내가 다니는 박스는 기존 수원지검, 현재 수원지공이 있는 곳에 있어서 운동 인증샷으로 계속 사진을 찍고 있었다. 무의식적으로 찍어서 운동기록을 남기는 거였는데 여기게 역사의 기록이 남게 되었다. 기존 간판의 기록, 그것을 교체하는 시기의 빈 공간, 새로운 간판으로의 변",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/10/logstash-xml-2nd.html",
-    "pubDate": "2026-10-06T15:41:36.481Z",
-    "creator": "Unknown",
+    "link": "https://brunch.co.kr/@@24SO/85",
+    "pubDate": "Tue, 06 Oct 2026 12:57:29 GMT",
+    "creator": "고종범",
     "categories": []
   },
   {
     "id": 4,
+    "imageUrl": "",
+    "title": "과학을 이해하는 일은 어떻게 내 삶의 안전지대가 될까?",
+    "description": "다정한 물리학자 김상욱 교수와의 대화: 인류에게 해방과 안정감을 선사한 과학적 발견 5가지",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/findyoursafezone-3a",
+    "pubDate": "Wed, 07 Oct 2026 02:30:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "Java and Kotlin by IntelliJ IDEA: The LSP-Based Extension Reaches Release Candidate",
+    "description": "Two months ago, we announced the preview of Java and Kotlin by IntelliJ IDEA – an LSP-based extension that brings IntelliJ IDEA’s Java and Kotlin intelligence to third-party editors, starting with VS Code and its forks, such as Cursor. This was our first step towards bringing IntelliJ IDEA’s Java and Kotlin intelligence beyond the IDE, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/10/java-and-kotlin-by-intellij-idea-the-lsp-based-extension-reaches-release-candidate/",
+    "pubDate": "Tue, 06 Oct 2026 09:54:39 +0000",
+    "creator": "Andrei Kogun",
+    "categories": [
+      "news"
+    ]
+  },
+  {
+    "id": 6,
     "imageUrl": "",
     "title": "Code Quality Never Changes – Or Is AI Challenging This Notion?",
     "description": "This post was adapted from Kai Schmithuesen’s talk at JetBrains Game Development Day 2026. See the full video presentation and Q&A below, or keep reading! First we are going to define what we mean by code quality then have a look at how this impacts business outcomes, where AI comes in, AI’s impact on quality […]",
@@ -55,51 +81,7 @@
     "categories": []
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Our Framework for Reviewing AI-Generated Code",
-    "description": "AI coding agents can now write thousands of lines of production code across a dozen files in the time it takes you to make coffee. The bottleneck is no longer code generation; it’s review, and nobody’s quite sure how to do it well yet. Our Human-AI eXperience team, in collaboration with researchers from Lund University, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/10/review-ai-generated/",
-    "pubDate": "Tue, 06 Oct 2026 12:17:53 +0000",
-    "creator": "Katie Fraser",
-    "categories": [
-      "research",
-      "code-review",
-      "hax"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "코딩만 잘하면 데이터과학자? 빠뜨리기 쉬운 ‘위험 구역’ - 데이터과학은 모델을 만드는 일보다 넓어요. 질문을 세우고 데이터의 성격을 파악한 뒤, 분석 결과의 의미와 한계까지 설명하는 과정이에요. 정형·비정형 데이터, 측정척도, 분류와 회귀를 예시로 풀어봤어요.",
-    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 데이터과학자가 실제로 하는 일이에요. 코딩과 통계를 배우면 준비가 끝날 것 같지만, 데이터를 받아 계산하기 전에 해야 할 일이 있어요. 바로 무엇을 알아내고 싶은지 질문을 만드는 거예요.데이터과학자는 질문부터 결과 설명까지 맡아요영화 목록에서 평균 평점을 계산하는 것과 관객이 어떤 영화를 좋아할지 예측하는 것은 다른 질문이에요. 영화 매출을 예상하거나 택시 데이터로 출퇴근 시간의 정체를 예측하는 것도 데이터과학의 예시예요. 같은 데이터를 보더라도 알고 싶은 내용에 따라 분석 방향이 달라져요.저는 먼저 질문을 세우고, 필요한 데이터를 모은 다음 시각화로 이상한 값이 있는지 살펴보는 흐름으로 설명했어요. 그 뒤 모델을 만들고 결과가 어떤 의미인지, 어디까지 해석할 수 있는지 전달해요. 미국 노동통계국의 직무 설명에서도 데이터 수집과 분석뿐 아니라 모델 검증, 시각화와 결과 전달을 주요 업무로 다뤄요.코딩과 분야 지식만 믿으면 빠지는 함정데이터과학을 이해할 때 컴퓨팅, 수학·통계, 도메인 지식이 겹치는 그림을 떠올리면 좋아요. 도메인 지식은 분석하려는 분야에 대한 이해예요. IBM의 데이터과학 설명도 프로그래밍과 수학·통계를 특정 분야의 전문지식과 결합하는 것으로 소개해요.제가 ‘위험 구역’이라고 설명한 부분은 코딩과 분야 지식은 있지만 통계적 검증이 빠진 경우예요. 업계를 잘 알고 코딩도 잘한다는 자신감 때문에 자기 판단을 곧바로 사실처럼 받아들이기 쉬워요. 이 그림은 역할을 이해하기 위한 교육적 비유예요. 개발자보다 통계를, 통계학자보다 코딩을 잘한다는 표현도 두 영역을 연결하는 역할을 강조한 설명으로 이해하면 돼요.데이터의 모양과 숫자의 의미를 구분해요엑셀의 칸처럼 행과 열에 맞춰 담을 수 있는 자료는 정형 데이터로 설명할 수 있어요. 고객 리뷰나 이미지, 영상은 비정형 데이터의 대표 예시예요. 같은 영화 분야에도 두 형태가 함께 존재해요. IBM의 정형·비정형 데이터 설명에서는 미리 정의된 스키마가 있는지를 기준으로 구분해요.자료의 모양을 봤다면 값이 무엇을 뜻하는지도 살펴봐야 해요. 영화 장르는 자연스러운 순서가 없는 명목척도이고, 불만족·보통·만족은 순서가 있는 서열척도예요. 주민등록번호처럼 숫자로 적힌 식별자도 크기를 비교하는 수량은 아니에요.온도와 매출의 차이도 중요해요. 섭씨 20도가 10도보다 두 배 뜨겁다는 뜻은 아니지만, 매출 80억 원은 50억 원의 1.6배라고 비교할 수 있어요. 펜실베이니아주립대학교의 측정척도 자료에 따르면 등간척도는 차이가, 비율척도는 차이와 비율이 의미 있어요. 계산 버튼을 누를 수 있는지보다 계산 결과를 어떻게 해석할지가 중요해요.분류와 회귀는 예측할 답의 성격이 달라요영화 장르를 고르거나 매출 100억 원을 넘을지 예·아니요로 답하는 것은 분류예요. 매출액이나 택시 이동시간처럼 수치의 크기를 예측하는 것은 회귀의 예시예요. scikit-learn의 지도학습 설명은 분류를 범주 예측, 회귀를 연속적인 목표변수 예측으로 구분해요. 범주에도 정수 라벨을 붙일 수 있으니 숫자로 출력된다는 이유만으로 회귀가 되는 건 아니에요.시청자들은 쉬운 설명과 배움에 반응했어요제공된 유튜브 영상 댓글에서는 이해하기 쉽다는 반응과, 최근 배우는 것이 없었는데 유익했다는 반응이 있었어요. 분석 방법에 관한 상반된 의견은 없었어요. 데이터를 받았을 때 바로 계산하기보다 어떤 질문에 답할지 먼저 생각하는 것, 이번 내용에서 기억해두면 좋겠어요.참고 자료직무는 BLS 직무 안내, 분야의 구성과 데이터 형태는 IBM 데이터과학 안내와 데이터 형태 비교를 참고했어요. 척도와 예측 유형은 측정척도 자료, 지도학습 자료로 보완했어요. 직접 설명한 내용은 데이터과학 1편 원본 쇼츠에서 볼 수 있어요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.zerocho.com/category/IT뉴스/post/6ac20ab4df5183dbffb02c8e",
-    "pubDate": "Sun, 04 Oct 2026 08:13:40 GMT",
-    "creator": "ZeroCho",
-    "categories": [
-      "IT뉴스"
-    ]
-  },
-  {
     "id": 7,
-    "imageUrl": "",
-    "title": "100점에서 120점으로",
-    "description": "AI 덕분에 그동안 미뤄왔던 일들을 하나씩 하고 있다.\n하루하루 놀랍고, 더 잘 활용하고 싶다.\n근데 요즘 AI 이야기를 보면 얼마나 쉽게 할 수 있는지에 대한 이야기가 많다.\n그런 이야기를 보다 보면 나도 결과를 얼마나 더 좋게 만들 수 있을지보다, 얼마나 덜 노력할 수 있을지에 먼저 관심이 간다.\n예를 들어 120의 노력을 들여 100짜리 결과물을 만들었다고 해보자.\n이제는 AI로 30의 노력만 들여도 95를 만들 수 있다.\n이 정도 차이는 괜찮다고 생각한다.\n결과를 들인 노력으로 나눠보면, 예전에는 100 / 120으로 약 0.83, 이제는 95 / 30으로 약 3.17이다.\n말하자면 노력의 가성비가 좋아진 셈이다.\n여기서 95를 100 이상으로 높이는 방법을 찾을 수도 있고, 95를 만드는 데 필요한 노력을 더 줄일 수도 있다.\n근데 95에서 100으로 가려면 얼마나 더 노력해야 할지 알기 어렵다.\n전체 노력이 다시 80, 90까지 늘어날 수도 있다.\n그러니 30을 20으로 줄이는 쪽에 관심이 가기 쉽다.\n결과는 그대로 유지하면서 노력만 줄일 수 있다면 좋다.\n문제는 결과가 조금 나빠져도, 노력이 많이 줄었다는 이유로 계속 괜찮다고 생각할 때다.\n20의 노력으로 88을 만드는 방법을 발견한다.\n95보다는 낮지만 이 정도면 비슷한데 노력은 많이 줄었다고 생각한다.\n가성비도 4.4로 더 좋아졌다.\n다음에는 10으로 77을 만든다.\n이번에도 비슷한 결과를 훨씬 적은 노력으로 만들었다고 생각한다.\n가성비는 7.7이다.\n매번 바로 직전의 결과와 비교하다 보니 기준은 조금씩 낮아진다.\n가성비는 계속 좋아지는데, 처음의 100은 이제 77이 됐다.\n제임스 클리어의 \"아주 작은 습관의 힘\" 에는 매일 1%씩 성장하거나 퇴보할 때의 차이를 계산한 예시가 나온다.\n처음 수준을 1로 놓고 매일 전날보다 1%씩 성장한다고 가정하면, 1년 뒤에는 1.01^365로 약 37.78이 된다.\n반대로 매일 1%씩 퇴보한다면, 0.99^365로 약 0.03이 된다.\n물론 결과물의 수준이 이 계산대로 달라지는 것은 아니다.\n다만 '이 정도 차이는 괜찮다' 는 판단을 반복하다 보면, 처음에는 받아들이지 않았을 결과에도 만족하게 될 수 있겠다는 생각이 든다.\n예전에는 120의 노력으로 100짜리 하나를 만들었다면 이제는 같은 노력으로 77짜리 12개를 만들 수 있다.\n만든 개수는 훨씬 늘었다.\n그런데 고객에게 필요한 결과물도 그만큼 늘었을까?\n물론 77점짜리라도 고객의 문제를 충분히 해결한다면 좋은 결과물이다.\n여러 개를 빠르게 만들어 고객의 반응을 확인하는 것도 좋은 방법일 수 있다.\n반대로 내가 100점이라고 생각한 결과물도 고객에게는 필요하지 않을 수 있다.\n그러니 77점이라는 것 자체가 문제는 아니다.\n다만 '이 정도면 충분하다'는 판단을 고객의 반응이 아니라, 내가 들인 노력으로 하고 있지는 않을까.\n고객은 내 노력의 가성비를 보고 선택하지 않는다.\n자기 문제를 해결해 주는지를 보고 선택한다.\n만든 개수와 만드는 속도만 보고 있다면, 팔리지 않는 제품을 더 빠르게 만들고 있는 건지도 모른다.\nAI로 들어가는 노력을 줄일 수 있다는 건 너무 좋다.\n그러면서 100짜리 결과물을 110, 120, 150으로도 높여 보고 싶다.\n그동안 아무리 노력해도 넘지 못했던 100의 벽을 AI와 함께 돌파하려면 어떻게 해야 할지 계속 고민하고 있다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://jojoldu.tistory.com/887",
-    "pubDate": "Sun, 4 Oct 2026 19:10:37 +0900",
-    "creator": "향로 (기억보단 기록을)",
-    "categories": [
-      "생각정리"
-    ]
-  },
-  {
-    "id": 8,
     "imageUrl": "",
     "title": "왜 일하는가",
     "description": "이나모리 가즈오 회장님의 \"왜 일하는가\" 에는 다음과 같은 일화가 나온다.\n\n\"성능은 좋을지 몰라도 이 상태로는 아무데도 쓸 수가 없네. 색이 칙칙하지 않은가.\"\n내 말을 들은 리더의 얼굴색이 순식간에 붉어졌다. 전력을 다해 만들어낸 제품을 성능이 아닌 외견으로 단박에 평가받았으니 그럴 만도 했다. 예상대로 그는 성난 기세로 반박했다.\n\"사장님도 기술자이시니 논리적으로 평가해주십시오. 색이 칙칙한 것과 제품의 성능은 관계없지 않습니까?\"\n\"물론 성능 면에서는 요구를 충족했을지 모르네. 하지만 이건 완성된 제품이 아니야.\"\n이렇게 단호하게 말하면서 샘플을 퇴짜 놓았다. 훌륭한 성능을 갖춘 제품은 당연히 겉보기에도 깔끔하고 예쁘다. 다만 그렇다고 해도 '모든 면에서 완벽해야 한다'는 점을 잊어서는 안 된다.\n외견은 '가장 바깥쪽에 있는 내용물'이다. 겉모습까지 완벽한 제품이 되어야 한다. 나는 그 리더에게 이렇게 덧붙여 말했다.\n\"세라믹은 본래 순백색이어야 해. 겉모습도 마찬가지로 '만지면 손이 베이는 게 아닐까' 두려워질 정도로 아름다워야 하지. 겉모습이 그 정도로 훌륭하면 성능도 분명 최고인 제품일 걸세.\"\n그렇게 나는 다시 한 번 '손이 베일 것 같은 제품'을 만들자고 호소했다. 너무나 훌륭하고 완벽해서, 마치 손을 대면 베일 듯한 기분이 드는, 그 정도로 완전무결한 제품을 추구해야 한다는 걸 꼭 전하고 싶었다.\n생각해보니 '손이 베일 듯한'이라는 표현은 어릴 때 부모님이 내게 자주 사용하시던 말이었다.\n\"무슨 일이든 손이 베일만큼 하라. 그러지 않으면 제대로 했다고 할 수 없다.\"\n\n이나모리 가즈오 회장님의 \"왜 일하는가\"를 읽다보니깐,\n요즘의 AI를 통해 어떻게든 더 쉽고 편하게 일을 끝내려는 방향으로 가는 것에 대해 크게 경고하는 것 같았다.  \n예를 들면, 발표 자료를 만든다고 가정해보자.\n한참 스티브잡스의 아이폰 프레젠테이션이 세상을 강타했을 때, 많은 사람들과 자료들이 슬라이드 작성 원칙들을 공유했다.  \n한 장에는 하나의 메세지를 담을 것\n제목과 본문은 짧게 쓸 것\n뒷 자리에서도 읽을 수 있을만큼 글자를 크게 쓸 것\n이런 원칙들은 이쁜 장표를 만들기 위함이 아니라, 청중이 더 발표에 몰입할 수 있도록, 이 발표가 전달하는 바가 제대로 전달될 수 있도록 하기 위함이다.  \n근데 요즘 AI를 많이 활용한다는 분들의 발표 자료는 좀 다르다.\n문장을 하나하나 읽어야 의미를 알 수 있는 장표들이 많다.\n각 항목의 설명을 읽고, 앞에서 읽은 내용과 비교하고, 그중 무엇이 중요한지 찾아야 한다.\n그러다 보면 장표를 읽는 동안 발표자의 설명을 놓치게 된다.\n혼자 읽어볼 문서라면 자세한 설명이 도움이 될 것이다.\n하지만 발표 중에 보여주는 자료라면, 청중이 설명을 들으면서 이해할 수 있는지도 살펴봐야 한다.  \n왜 도구가 충분히 발전했음에도, 결과물이 전달하는 가치는 더 낮아진걸까?\n어느 정도 쓸 만한 초안을 편의상 80점이라고 해보자.\nAI가 80점까지 빠르게 만들어주면, 나는 그 위에서 부족한 부분을 고쳐 90점, 100점으로 만들면 되지 않을까?\n초안을 만드는 시간이 줄었으니, 예전보다 완성도를 높일 여유도 생길 것 같았다.  \n그런데 막상 해보면 81점으로 고치는 일이 예전보다 더 어렵다.\nAI 활용을 잘 못해서 그런것 같아서 AI 도구를 더 잘 사용하기 위해 배우거나 프롬프트를 더 잘 작성하기 위한 노력도 한다.  \n다시 직접 키노트를 초안부터 만들어가보면 느끼게 된다.\n그런 도구의 숙련도의 문제가 아니였다.  \n예전에는 80점까지 만드는 동안 무엇을 고쳐야 할지도 함께 알아가고 있었다.  \n발표 자료를 직접 만들 때는 처음부터 완성된 장표를 만들지 않았다.\n각 장에서 전달할 핵심 메세지를 적어 전체 자료를 먼저 만들었다.\n어떤 순서로 설명할지 살펴보고, 그 위에 표와 그래프, 이미지를 넣었다.\n그러면서 문장을 줄이거나 강조할 내용을 바꿨다.  \n처음 적었던 장표 메세지를 끝까지 그대로 사용하지도 않는다.\n한 장으로 표현하려고 했던 것을 두 장으로 나누기도 하고, 두 장으로 나눠진 걸 한장으로 줄이기도 한다.  \n청중의 입장에서 보는 일도 그 과정에서 함께 했다.\n이 내용을 처음 듣는 사람이 어디를 봐야 할지 알 수 있을까, 설명을 듣는 동안 이만큼의 글을 읽을 수 있을까,\n앞 장에서 이야기한 내용을 기억하고 있어야만 이해되는 것은 아닐까 등등.  \n그러다 보니 80점쯤 되었을 때는 내가 이 자료로 무슨 말을 하려는지 처음보다 잘 알게 됐다.\n왜 이 제목을 골랐는지, 어떤 설명을 넣었다가 뺐는지, 어떤 도표를 시도했지만 적절하지 않았는지도 알고 있었다.  \n아직 아쉬운 부분도 대략 알고 있었다.\n이 장은 설명이 길어서 나누고 싶고, 저 장은 숫자가 많아서 줄이고 싶었다.\n앞부분을 고쳤으니 뒷부분의 같은 설명은 빼도 되겠다는 판단도 할 수 있었다.  \n그래서 81점, 82점으로 고치는 과정이 자연스러웠다.\n그런데 1점부터 80점까지를 통째로 AI에게 맡기면, 이 과정이 빠지는 것이였다.\n80점짜리 결과물이 있다는 것과, 내가 그 결과물을 81점으로 고칠 준비가 되어 있다는 것은 별개였다.  \n처음부터 AI에게 의도를 더 자세히 전달하면 되지 않느냐고 할 수도 있다.\n하지만 내가 무슨 말을 하고 싶은지 항상 처음부터 분명했던 것은 아니다.\n비교표를 만들어봐야 비교 기준이 적절하지 않다는 것을 알기도 하고, 여러 장을 나란히 놓고 봐야 같은 이야기를 반복하고 있다는 것을 알기도 한다.\n한 장에 내용을 배치해본 다음에야 무엇을 빼야 할지 결정할 때도 있다.\n나는 만든 것을 보면서 생각을 바꿔왔다.\n아직 만들어보지 않아서 나도 알지 못하는 내용을 처음 요청에 모두 적기는 어려웠다.  \n그러니 “초안 제작 시간을 줄이고, 남은 시간으로 완성도를 높이면 된다”는 계산에는 빠진 것이 있었다.\n초안을 만드는 시간은 내 의도를 명확하게 정리하는 시간이고 앞으로 완성도를 높이기 위해 무엇을 해야할지 정리하는 시간이였다.\n책에는 아래와 같은 내용이 있다.  \n“매일 약간의 창의와 궁리를 더해 어제보다 한 걸음 더 앞서간 오늘을 창조하라.\n그렇게 앞으로 나아가려는 마음가짐이야말로 일과 인생에 더없이 중요하며, 진정한 창조의 길로 다가가는 비결이다.”\n처음에는 AI로 더 쉽게 일을 끝내려는 태도를 경고하는 말처럼 읽었다.\n지금은 내가 그동안 어떤 과정에서 이런 궁리를 해왔는지도 살펴보게 된다.  \n모든 일을 100점으로 만들 필요는 없다.\n정해진 수준으로 정확하게 처리하면 충분한 일도 있고, 빠르게 끝낸 뒤 쉬어도 된다.\n다만 내가 더 잘하고 싶은 일이라면, 결과물을 빨리 받는 것만으로 충분한지 생각해볼 필요가 있다.\n마지막 완성도는 내가 책임지겠다고 해놓고, 정작 그것을 높이는 데 필요한 판단을 해볼 기회까지 없애고 있지는 않은지 확인해야 한다.\n새로운 도구를 써보니, 그동안 도구가 불편해서 어쩔 수 없이 들인다고 생각했던 시간이 내 생각을 정리하는 데도 도움이 되고 있었다는 걸 알게 됐다.\n이런 발견도 재미있다.  \n이 과정을 AI의 발전과 함께 어떻게 더 개선할 수 있을지, 앞으로 고민하고 시도해볼 것을 생각하니 설렌다.",
@@ -117,104 +99,19 @@
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "imageUrl": "",
-    "title": "Introducing Warm Agents, a TeamCity Plugin",
-    "description": "Waiting on “waiting for a starting agent” is a special kind of annoying when you just want your PR tests to run. It stings most when a quick one-minute build sits in the queue for ten minutes while that one slow Windows cloud instance spins up. The Warm Agents plugin is our answer to this […]",
+    "title": "휴직일기 - 40일 차",
+    "description": "어느덧 휴직한 지 40일이 지났다. 한 달여간 진행했던 것들을 정리해 보고 있는데 학습했던 것들 중 많은 것들을 까먹어버렸다. 무엇을 알고 무엇을 모르는지 구분해 놓고 한 달간의 진행사항을 재학습하고 있다. 목표로 했던 것들은 얼추 진행했지만 처음 생각했던 속도가 나지는 못했다. 남은 시간을 잘 이용하면 될 것이다.  한동안 AI 시장을 보고 있지 않다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/10/teamcity-warm-agents-plugin/",
-    "pubDate": "Wed, 07 Oct 2026 14:23:08 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "news",
-      "releases",
-      "teamcity-2",
-      "plugin",
-      "teamcity"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Start Your Next KMP App With Kotlin Toolchain 0.13",
-    "description": "The Kotlin Toolchain is a unified entry point into Kotlin. It lets you build JVM, Android, iOS, multiplatform, and server-side applications with a simple declarative configuration. With the release of v0.13, we now recommend the Kotlin Toolchain for most new Kotlin Multiplatform (KMP) projects. Earlier this year, we promoted the Kotlin Toolchain to Alpha. Since […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/10/start-your-next-kmp-app-with-kotlin-toolchain-0-13/",
-    "pubDate": "Wed, 07 Oct 2026 10:21:46 +0000",
-    "creator": "Anton Makeev",
-    "categories": [
-      "kotlin",
-      "multiplatform",
-      "releases",
-      "toolchain"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "dotInsights | October 2026",
-    "description": "Did you know? The System.Threading.Interlocked class provides atomic operations on shared variables, so multiple threads can update them safely without a lock. Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the developer community. ☕ Coffee Break Take a break […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/10/05/dotinsights-october-2026/",
-    "pubDate": "Mon, 05 Oct 2026 13:57:56 +0000",
-    "creator": "Rachel Appel",
-    "categories": [
-      "net-tools",
-      "dotinsights"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "PDF 편집&middot;변환&middot;요약 무료 도구 TOP 5와 AI 요약 프롬프트 6가지",
-    "description": "PDF 파일을 합치고, 쪼개고, 용량을 줄이고, 긴 내용을 요약해야 할 때 유료 프로그램부터 결제할 필요는 없습니다. PDF 편집 무료 프로그램만 잘 골라도 대부분의 작업이 가능하고, 여기에 AI 요약을 더하면 수십 쪽짜리 문서도 몇 분 안에 핵심만 뽑을 수 있습니다. 이 글에서는 작업별로 쓰기 좋은 무료 도구 5가지와, 바로 복사해 쓰는 AI 요약 프롬프트 6가지, 그리고 문서를 AI에 올릴 때 반드시 지킬 주의사항을 정리했습니다.\n이 글의 핵심 요약\n1. 단순 보기와 주석은 브라우저 내장 뷰어로 충분합니다.\n2. 병합, 분할, 압축은 PDF24 같은 무료 프로그램이 편합니다.\n3. 내용 수정과 변환은 Word나 LibreOffice Draw를 활용할 수 있습니다.\n4. AI 요약은 \"역할, 대상, 형식, 분량\"을 정해서 요청해야 정확합니다.\n5. 계약서, 개인정보가 담긴 문서는 올리기 전에 반드시 가리거나 공개 가능 여부를 확인하세요.\n1. 작업별로 알아보는 PDF 무료 도구 선택 기준\n도구를 고르기 전에 지금 하려는 작업이 무엇인지 먼저 정하면 선택이 쉬워집니다.\n하고 싶은 작업\n추천 방법\n비고\n\n\n보기, 형광펜, 메모\nMicrosoft Edge, Chrome 내장 뷰어\n설치 없이 바로 사용\n\n\n합치기, 나누기, 압축\nPDF24 Creator\n오프라인 작업 가능\n\n\n글자와 레이아웃 수정\nLibreOffice Draw, Word\n복잡한 문서는 모양이 틀어질 수 있음\n\n\nWord, 엑셀, 이미지로 변환\n온라인 변환 서비스\n일일 사용 횟수 제한이 있을 수 있음\n\n\n요약, 질문, 번역\nAI 챗봇 + PDF 업로드 또는 텍스트 붙여 넣기\n문서 보안 확인 필요\n\n\n\n \n\n\n2. PDF 편집·변환 무료 도구 TOP 5\n아래 도구들의 무료 범위와 기능은 업데이트에 따라 달라질 수 있으므로, 사용 전에 공식 사이트의 최신 안내를 확인하세요.\n① Microsoft Edge·Chrome 내장 PDF 뷰어: 가장 빠른 기본기\nPDF를 브라우저로 끌어다 놓으면 바로 열립니다. 하이라이트, 그리기, 텍스트 검색, 인쇄가 가능해서 단순한 검토 작업에는 별도 프로그램이 필요 없습니다. 설치가 필요 없고 가볍다는 점이 가장 큰 장점입니다. 다만 쪽 순서 바꾸기나 병합 같은 문서 구조 편집은 제한적입니다.\n② PDF24 Creator: 병합, 분할, 압축을 한 번에\n무료로 쓸 수 있는 윈도우용 PDF 도구 모음입니다. 여러 PDF를 하나로 합치기, 특정 쪽만 추출하기, 용량 줄이기 같은 반복 작업을 처리하기 편합니다. 설치형이라 외부 서버에 파일을 올리는 것이 부담스러운 문서를 다룰 때 선택지가 됩니다.\n③ LibreOffice Draw: 내용 수정이 필요할 때\n오픈소스 오피스 프로그램인 LibreOffice의 Draw로 PDF를 열면 텍스트 상자를 수정할 수 있습니다. 간단한 오타 수정이나 문구 교체에 유용합니다. 다만 글꼴이 없거나 레이아웃이 복잡한 문서는 모양이 달라질 수 있으니 수정 후 결과를 꼭 확인하세요.\n④ 온라인 PDF 변환 서비스: 설치 없이 빠르게\niLovePDF, Smallpdf 같은 온라인 서비스는 설치 없이 PDF를 Word, 이미지 등으로 변환하거나 용량을 줄여 줍니다. 무료 사용에는 횟수나 파일 크기 제한이 있을 수 있습니다. 파일이 외부 서버로 전송되므로 계약서나 개인정보가 담긴 문서는 올리지 않는 것이 안전합니다.\n⑤ PDFgear 같은 무료 통합 PDF 편집기\n보기, 편집, 변환, 서명 등을 한 프로그램에서 처리할 수 있는 무료 도구도 있습니다. 여러 도구를 오가기 번거롭다면 통합 편집기를 하나 설치해 두는 것도 방법입니다. 설치 전에 개인 및 업무 사용 가능 여부와 광고, 기능 제한 여부를 확인하세요.\n3. AI로 PDF 요약하기: 먼저 알아둘 점\n파일 업로드 방식: 많은 AI 챗봇이 PDF 업로드를 지원하지만 지원 여부와 용량 제한은 서비스마다 다릅니다.\n텍스트 붙여 넣기 방식: 업로드가 안 될 때는 필요한 부분만 복사해서 붙여 넣으면 됩니다.\n스캔본 PDF: 이미지로만 된 문서는 글자 인식(OCR)이 안 되면 요약이 어렵습니다. 먼저 텍스트로 변환하세요.\n긴 문서는 나누기: 수백 쪽 분량은 장 단위로 쪼개서 요약한 뒤 요약본을 다시 요약하면 정확도가 올라갑니다.\n4. 복사해서 쓰는 AI PDF 요약 프롬프트 6가지\n아래 프롬프트에서 대괄호 부분만 상황에 맞게 바꿔 사용하세요.\n① 핵심 요약\n첨부한 문서를 [대상: 바쁜 팀장]이 3분 안에 읽을 수 있도록 요약해 줘. 형식은 한 줄 결론, 핵심 포인트 5개, 후속 조치 3개 순서로 해 줘. 문서에 없는 내용은 추측하지 말고 \"문서에 없음\"이라고 적어 줘.\n② 목차별 구조 요약\n이 문서를 장과 절 순서대로 나누어 각각 2~3문장으로 요약하고, 각 요약 옆에 근거가 되는 쪽 번호를 표시해 줘.\n③ 표와 수치 추출\n문서에 나온 숫자, 날짜, 금액을 표로 정리해 줘. 열은 항목, 수치, 단위, 해당 쪽 번호로 구성하고, 불확실한 값은 별도 표시를 해 줘.\n④ 계약서와 약관의 주의 조항 점검\n이 계약서에서 내게 불리할 수 있는 조항을 찾아 줘. 조항 번호, 원문 요약, 위험 이유, 협의 시 제안할 수정 방향 순서로 표로 정리해 줘. 최종 법률 판단은 아니라는 점도 함께 명시해 줘.\n⑤ 논문과 보고서 읽기 보조\n이 논문의 연구 질문, 방법, 주요 결과, 한계점을 각각 3줄 이내로 정리해 줘. 비전문가가 이해할 수 있게 어려운 용어에는 짧은 설명을 붙여 줘.\n⑥ 요약 후 질문과 번역\n이 문서의 내용을 바탕으로 회의에서 나올 만한 예상 질문 5개와 답변 초안을 만들어 줘. 외국어 문서라면 핵심 단락을 자연스러운 한국어로 번역하고 전문 용어는 원문을 괄호로 병기해 줘.\n5. 요약 정확도를 높이는 프롬프트 작성 요령\n요령\n이유\n\n\n대상과 목적을 지정\n같은 문서도 독자에 따라 필요한 요약이 다릅니다\n\n\n출력 형식과 분량 지정\n글머리표, 표, 몇 줄 등을 정하면 결과가 안정적입니다\n\n\n쪽 번호 근거 요구\n원문 확인이 쉬워지고 잘못된 요약을 걸러낼 수 있습니다\n\n\n모르면 모른다고 하게 지시\n없는 내용을 지어내는 현상을 줄이는 데 도움이 됩니다\n\n\n단계별 요청\n구조 파악, 세부 요약, 질문 순으로 나누면 정확도가 올라갑니다\n\n\n\n \n6. 꼭 지켜야 할 주의사항\n민감 정보 제거: 주민등록번호, 연락처, 계좌번호, 사내 기밀이 담긴 문서는 가리거나 가상 값으로 바꾼 뒤 사용하세요.\n회사 보안 규정 확인: 업무 문서를 외부 AI 서비스에 올리는 것이 허용되는지 먼저 확인하세요.\n원문 대조: 요약 결과는 중요한 수치와 날짜를 원문과 반드시 비교하세요.\n법률, 의료, 세무 문서: AI 요약은 참고용이며 최종 판단은 전문가에게 확인받아야 합니다.\n원본 백업: 편집 전에 원본 파일을 복사해 두면 문제가 생겨도 되돌릴 수 있습니다.\n7. 자주 묻는 질문 (FAQ)\nQ1. PDF 편집 무료 프로그램으로 글자까지 자유롭게 수정할 수 있나요?\n문서에 따라 다릅니다. 글꼴 정보와 구조가 단순한 PDF는 수정이 잘 되지만, 스캔본이나 복잡한 레이아웃은 한계가 있습니다. 이럴 때는 원본 문서(Word 등)를 구하거나 변환 후 수정하는 편이 더 안정적입니다.\nQ2. PDF 용량을 줄이면 화질이 나빠지나요?\n대부분의 압축은 이미지 해상도를 낮추는 방식이라 화질이 줄 수 있습니다. 압축 강도를 단계별로 제공하는 도구라면 낮은 강도부터 시도하고 결과를 확인하세요.\nQ3. 스캔한 PDF도 AI가 요약해 주나요?\n텍스트 인식(OCR)이 되어 있거나 AI가 이미지를 읽을 수 있는 경우에만 가능합니다. 인식 결과에 오타가 많을 수 있으니 중요한 문서는 원문과 대조해 주세요.\nQ4. 무료 AI 챗봇으로도 PDF 요약이 가능한가요?\n대부분 가능하지만 업로드 가능한 파일 크기와 횟수는 서비스 정책에 따라 다릅니다. 제한에 걸리면 필요한 부분만 텍스트로 붙여 넣어 요약하는 방법을 쓰면 됩니다.\n마무리: 도구는 가볍게, 검증은 꼼꼼하게\nPDF 작업은 보기와 주석은 브라우저, 병합과 압축은 PDF24, 수정은 LibreOffice, 요약은 AI로 나누어 쓰면 유료 결제 없이도 충분히 처리됩니다. 오늘 소개한 프롬프트를 메모장에 저장해 두고, 다음에 긴 PDF를 받으면 구조 요약부터 요청해 보세요. 다만 중요한 숫자와 조항은 항상 원문과 대조하는 습관을 잊지 마세요.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483737",
-    "pubDate": "Mon, 5 Oct 2026 11:45:26 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "ai 프롬프트",
-      "PDF 변환",
-      "PDF 병합 분할",
-      "PDF 압축",
-      "pdf 요약 ai",
-      "pdf 편집 무료 프로그램",
-      "PDF24"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "[MULTI] 단점을 덮는 장점 극대화, 컨트롤: 레조넌트",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2505",
-    "pubDate": "Mon, 05 Oct 2026 16:47:44 +0900",
-    "creator": "「RULIWEB」",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "GPT6 Codex 기반 바이브 디자인 및 영상 제작 관련 테스트 결과",
-    "description": "이 글은 GPT6 Codex 기반 바이브 디자인 및 영상 제작 관련 테스트 결과를 간략히 기록해 남긴다. \n테스트 대상은 서울 선릉역 인근의 가상 대지에 계획한 지상 5층, 지하 2층 규모의 미술관·문화공간이다. 자하 하디드와 프랭크 게리의 조형 언어를 참고해 금속 곡면 외피와 유리 입면, 아트리움을 중심으로 구성했다. \n코덱스를 띄우고 Astra 모델에 프롬프트로 지시하자 Computer Use 하며 모델링, 렌더링, 애니메이션쉬지않고 작업한다. 레빗 등 실행하며 중간 에러나니 자가 수정 후 재시도하고 있다.ㅎ \nRhino, Revit 을 이용해 개념 모델에서 시작해 Blender로 모델링과 재질, 조명, 카메라 동선을 작업했다. 상공에서 건물을 조망하다가 점차 내려와 입구를 통과하고, 로비와 전시 공간을 둘러보는 32초 애니메이션을 제작했다. 주요 장면은 별도의 이미지로 렌더링했다.\n\n이후 힉스필드를 연결해 영상의 실사화도 테스트했다. 작업 화면 녹화본에서 외부 전경과 입구 접근 부분을 추출하고, 화면 UI를 잘라낸 뒤 짧은 영상으로 변환했다. 10크레딧 예산을 고려해 해상도와 길이를 제한했으며, 최종 결과는 약 8.4초, 960×512 해상도였다. 실제 사용량은 8.46크레딧이었다.\n\n\n\n\n실사화 과정에서 금속 외피와 유리 반사, 조경, 주변 건물의 표현은 한층 풍부해졌다. 다만 일부 건물 형상과 디테일이 원본과 달라지는 현상도 확인했다. 설계 형태의 정확성을 검토할 때는 원본 모델과 Blender 렌더링을 기준으로 삼고, 생성형 영상은 분위기와 공간 경험을 전달하는 용도로 활용하는 편이 적절해 보였다.\n\n이번 테스트에서는 자연어 지시를 통해 개념 모델링부터 카메라 애니메이션, 주요 장면 렌더링, 영상 실사화까지 이어지는 작업 흐름을 확인했다. \n초기 설계안을 빠르게 시각화하고 클라이언트와 공유하는 데 활용 가능성이 있지만, 설계 정확도와 영상의 시각적 완성도는 AI가 설계 영상 의도를 정확히 추론할 수 있도록 적절한 컨텐츠(도면, 설계치수, 배경, 목적 등)와 프롬프트 하네스 작업에 크게 영향을 받는다.\n이 작업은 다른 일을 하면서 두시간 정도에 걸쳐 진행되었고, 개념 설계 정도로 시작하였다. 참고로, 상세 프롬프트는 다음과 같다(사실 이 테스트에서 내가 준 컨텐츠는 거의 없었다).\n> 건축가 프랭크 게리 스타일로 Revit을 이용해 모델링해 줘. 지상 5층, 지하 2층 규모의 럭셔리 미술관 및 문화공간으로 기획하고 진행해 줘. 위치는 서울 강남구 선릉역 근처야. 가상 대지로 개념설계 진행.\n> 클라이언트 입장에서 다양한 뷰로 렌더링해 줘. 건물을 설명하는 도면뿐 아니라, 외관과 공간 분위기를 이해할 수 있는 여러 시점의 이미지를 요청.\n작업 과정을 화면에서 확인하기 위해 다음 지시도 추가했다.\n> 모델링 과정을 Blender의 해당 위치 뷰로 줌·팬하면서 보여 줘.\n> 모델링이 끝나면 스카이 뷰로 위에서 마치 새가 날아오는 것처럼 건물을 조망해 줘. 점점 카메라를 아래로 내려 입구까지 들어간 다음, 실내를 한 번 훑어보는 식으로 Blender 애니메이션을 작성해 줘. 주요 장면도 캡처해서 렌더링해 줘.\n카메라의 출발점과 이동 순서, 최종 도착 공간을 자연어로 지정했다. 결과물은 상공 조망에서 입구와 실내로 이어지는 32초 영상과 주요 장면 이미지로 구성했다.\n> 이 애니메이션 영상을 힉스필드로 연결해서 영상 제작해. 힉스필드를 이용해서 사실적으로 영상을 제작해 봐. 단, 해상도나 작업량은 사용량을 고려해서 진행해 줘. 현재 힉스필드 크레딧은 10개 내로만 사용해.\n> 첨부 영상의 외부 건물 전경에서 들어가는 부분만 추출해 짧게 실사화해 줘. \n최종 결과는 약 8.4초, 960×512 였으며, 8.46크레딧을 사용했다. 형태 보존을 요청했음에도 일부 디테일은 달라졌으므로, 생성 결과를 원본 설계와 비교하는 과정은 필요하다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/10/gpt6-codex.html",
-    "pubDate": "2026-10-05T06:17:07.768Z",
-    "creator": "Unknown",
+    "link": "https://brunch.co.kr/@@24SO/86",
+    "pubDate": "Fri, 09 Oct 2026 13:17:57 GMT",
+    "creator": "고종범",
     "categories": []
   },
   {
-    "id": 15,
+    "id": 9,
     "imageUrl": "",
     "title": "Beyond synthetic testing: Capturing and replaying real database workloads at Airbnb",
     "description": "No description available",
@@ -229,6 +126,96 @@
       "infrastructure",
       "engineering",
       "sql"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "100점에서 120점으로",
+    "description": "AI 덕분에 그동안 미뤄왔던 일들을 하나씩 하고 있다.\n하루하루 놀랍고, 더 잘 활용하고 싶다.\n근데 요즘 AI 이야기를 보면 얼마나 쉽게 할 수 있는지에 대한 이야기가 많다.\n그런 이야기를 보다 보면 나도 결과를 얼마나 더 좋게 만들 수 있을지보다, 얼마나 덜 노력할 수 있을지에 먼저 관심이 간다.\n예를 들어 120의 노력을 들여 100짜리 결과물을 만들었다고 해보자.\n이제는 AI로 30의 노력만 들여도 95를 만들 수 있다.\n이 정도 차이는 괜찮다고 생각한다.\n결과를 들인 노력으로 나눠보면, 예전에는 100 / 120으로 약 0.83, 이제는 95 / 30으로 약 3.17이다.\n말하자면 노력의 가성비가 좋아진 셈이다.\n여기서 95를 100 이상으로 높이는 방법을 찾을 수도 있고, 95를 만드는 데 필요한 노력을 더 줄일 수도 있다.\n근데 95에서 100으로 가려면 얼마나 더 노력해야 할지 알기 어렵다.\n전체 노력이 다시 80, 90까지 늘어날 수도 있다.\n그러니 30을 20으로 줄이는 쪽에 관심이 가기 쉽다.\n결과는 그대로 유지하면서 노력만 줄일 수 있다면 좋다.\n문제는 결과가 조금 나빠져도, 노력이 많이 줄었다는 이유로 계속 괜찮다고 생각할 때다.\n20의 노력으로 88을 만드는 방법을 발견한다.\n95보다는 낮지만 이 정도면 비슷한데 노력은 많이 줄었다고 생각한다.\n가성비도 4.4로 더 좋아졌다.\n다음에는 10으로 77을 만든다.\n이번에도 비슷한 결과를 훨씬 적은 노력으로 만들었다고 생각한다.\n가성비는 7.7이다.\n매번 바로 직전의 결과와 비교하다 보니 기준은 조금씩 낮아진다.\n가성비는 계속 좋아지는데, 처음의 100은 이제 77이 됐다.\n제임스 클리어의 \"아주 작은 습관의 힘\" 에는 매일 1%씩 성장하거나 퇴보할 때의 차이를 계산한 예시가 나온다.\n처음 수준을 1로 놓고 매일 전날보다 1%씩 성장한다고 가정하면, 1년 뒤에는 1.01^365로 약 37.78이 된다.\n반대로 매일 1%씩 퇴보한다면, 0.99^365로 약 0.03이 된다.\n물론 결과물의 수준이 이 계산대로 달라지는 것은 아니다.\n다만 '이 정도 차이는 괜찮다' 는 판단을 반복하다 보면, 처음에는 받아들이지 않았을 결과에도 만족하게 될 수 있겠다는 생각이 든다.\n예전에는 120의 노력으로 100짜리 하나를 만들었다면 이제는 같은 노력으로 77짜리 12개를 만들 수 있다.\n만든 개수는 훨씬 늘었다.\n그런데 고객에게 필요한 결과물도 그만큼 늘었을까?\n물론 77점짜리라도 고객의 문제를 충분히 해결한다면 좋은 결과물이다.\n여러 개를 빠르게 만들어 고객의 반응을 확인하는 것도 좋은 방법일 수 있다.\n반대로 내가 100점이라고 생각한 결과물도 고객에게는 필요하지 않을 수 있다.\n그러니 77점이라는 것 자체가 문제는 아니다.\n다만 '이 정도면 충분하다'는 판단을 고객의 반응이 아니라, 내가 들인 노력으로 하고 있지는 않을까.\n고객은 내 노력의 가성비를 보고 선택하지 않는다.\n자기 문제를 해결해 주는지를 보고 선택한다.\n만든 개수와 만드는 속도만 보고 있다면, 팔리지 않는 제품을 더 빠르게 만들고 있는 건지도 모른다.\nAI로 들어가는 노력을 줄일 수 있다는 건 너무 좋다.\n그러면서 100짜리 결과물을 110, 120, 150으로도 높여 보고 싶다.\n그동안 아무리 노력해도 넘지 못했던 100의 벽을 AI와 함께 돌파하려면 어떻게 해야 할지 계속 고민하고 있다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://jojoldu.tistory.com/887",
+    "pubDate": "Sun, 4 Oct 2026 19:10:37 +0900",
+    "creator": "향로 (기억보단 기록을)",
+    "categories": [
+      "생각정리"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "코딩만 잘하면 데이터과학자? 빠뜨리기 쉬운 ‘위험 구역’ - 데이터과학은 모델을 만드는 일보다 넓어요. 질문을 세우고 데이터의 성격을 파악한 뒤, 분석 결과의 의미와 한계까지 설명하는 과정이에요. 정형·비정형 데이터, 측정척도, 분류와 회귀를 예시로 풀어봤어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. 이번에 알려드릴 내용은 데이터과학자가 실제로 하는 일이에요. 코딩과 통계를 배우면 준비가 끝날 것 같지만, 데이터를 받아 계산하기 전에 해야 할 일이 있어요. 바로 무엇을 알아내고 싶은지 질문을 만드는 거예요.데이터과학자는 질문부터 결과 설명까지 맡아요영화 목록에서 평균 평점을 계산하는 것과 관객이 어떤 영화를 좋아할지 예측하는 것은 다른 질문이에요. 영화 매출을 예상하거나 택시 데이터로 출퇴근 시간의 정체를 예측하는 것도 데이터과학의 예시예요. 같은 데이터를 보더라도 알고 싶은 내용에 따라 분석 방향이 달라져요.저는 먼저 질문을 세우고, 필요한 데이터를 모은 다음 시각화로 이상한 값이 있는지 살펴보는 흐름으로 설명했어요. 그 뒤 모델을 만들고 결과가 어떤 의미인지, 어디까지 해석할 수 있는지 전달해요. 미국 노동통계국의 직무 설명에서도 데이터 수집과 분석뿐 아니라 모델 검증, 시각화와 결과 전달을 주요 업무로 다뤄요.코딩과 분야 지식만 믿으면 빠지는 함정데이터과학을 이해할 때 컴퓨팅, 수학·통계, 도메인 지식이 겹치는 그림을 떠올리면 좋아요. 도메인 지식은 분석하려는 분야에 대한 이해예요. IBM의 데이터과학 설명도 프로그래밍과 수학·통계를 특정 분야의 전문지식과 결합하는 것으로 소개해요.제가 ‘위험 구역’이라고 설명한 부분은 코딩과 분야 지식은 있지만 통계적 검증이 빠진 경우예요. 업계를 잘 알고 코딩도 잘한다는 자신감 때문에 자기 판단을 곧바로 사실처럼 받아들이기 쉬워요. 이 그림은 역할을 이해하기 위한 교육적 비유예요. 개발자보다 통계를, 통계학자보다 코딩을 잘한다는 표현도 두 영역을 연결하는 역할을 강조한 설명으로 이해하면 돼요.데이터의 모양과 숫자의 의미를 구분해요엑셀의 칸처럼 행과 열에 맞춰 담을 수 있는 자료는 정형 데이터로 설명할 수 있어요. 고객 리뷰나 이미지, 영상은 비정형 데이터의 대표 예시예요. 같은 영화 분야에도 두 형태가 함께 존재해요. IBM의 정형·비정형 데이터 설명에서는 미리 정의된 스키마가 있는지를 기준으로 구분해요.자료의 모양을 봤다면 값이 무엇을 뜻하는지도 살펴봐야 해요. 영화 장르는 자연스러운 순서가 없는 명목척도이고, 불만족·보통·만족은 순서가 있는 서열척도예요. 주민등록번호처럼 숫자로 적힌 식별자도 크기를 비교하는 수량은 아니에요.온도와 매출의 차이도 중요해요. 섭씨 20도가 10도보다 두 배 뜨겁다는 뜻은 아니지만, 매출 80억 원은 50억 원의 1.6배라고 비교할 수 있어요. 펜실베이니아주립대학교의 측정척도 자료에 따르면 등간척도는 차이가, 비율척도는 차이와 비율이 의미 있어요. 계산 버튼을 누를 수 있는지보다 계산 결과를 어떻게 해석할지가 중요해요.분류와 회귀는 예측할 답의 성격이 달라요영화 장르를 고르거나 매출 100억 원을 넘을지 예·아니요로 답하는 것은 분류예요. 매출액이나 택시 이동시간처럼 수치의 크기를 예측하는 것은 회귀의 예시예요. scikit-learn의 지도학습 설명은 분류를 범주 예측, 회귀를 연속적인 목표변수 예측으로 구분해요. 범주에도 정수 라벨을 붙일 수 있으니 숫자로 출력된다는 이유만으로 회귀가 되는 건 아니에요.시청자들은 쉬운 설명과 배움에 반응했어요제공된 유튜브 영상 댓글에서는 이해하기 쉽다는 반응과, 최근 배우는 것이 없었는데 유익했다는 반응이 있었어요. 분석 방법에 관한 상반된 의견은 없었어요. 데이터를 받았을 때 바로 계산하기보다 어떤 질문에 답할지 먼저 생각하는 것, 이번 내용에서 기억해두면 좋겠어요.참고 자료직무는 BLS 직무 안내, 분야의 구성과 데이터 형태는 IBM 데이터과학 안내와 데이터 형태 비교를 참고했어요. 척도와 예측 유형은 측정척도 자료, 지도학습 자료로 보완했어요. 직접 설명한 내용은 데이터과학 1편 원본 쇼츠에서 볼 수 있어요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/IT뉴스/post/6ac20ab4df5183dbffb02c8e",
+    "pubDate": "Sun, 04 Oct 2026 08:13:40 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "IT뉴스"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "GPT6 Codex 기반 바이브 디자인 및 영상 제작 관련 테스트 결과",
+    "description": "이 글은 GPT6 Codex 기반 바이브 디자인 및 영상 제작 관련 테스트 결과를 간략히 기록해 남긴다. \n테스트 대상은 서울 선릉역 인근의 가상 대지에 계획한 지상 5층, 지하 2층 규모의 미술관·문화공간이다. 자하 하디드와 프랭크 게리의 조형 언어를 참고해 금속 곡면 외피와 유리 입면, 아트리움을 중심으로 구성했다. \n코덱스를 띄우고 Astra 모델에 프롬프트로 지시하자 Computer Use 하며 모델링, 렌더링, 애니메이션쉬지않고 작업한다. 레빗 등 실행하며 중간 에러나니 자가 수정 후 재시도하고 있다.ㅎ \nRhino, Revit 을 이용해 개념 모델에서 시작해 Blender로 모델링과 재질, 조명, 카메라 동선을 작업했다. 상공에서 건물을 조망하다가 점차 내려와 입구를 통과하고, 로비와 전시 공간을 둘러보는 32초 애니메이션을 제작했다. 주요 장면은 별도의 이미지로 렌더링했다.\n\n이후 힉스필드를 연결해 영상의 실사화도 테스트했다. 작업 화면 녹화본에서 외부 전경과 입구 접근 부분을 추출하고, 화면 UI를 잘라낸 뒤 짧은 영상으로 변환했다. 10크레딧 예산을 고려해 해상도와 길이를 제한했으며, 최종 결과는 약 8.4초, 960×512 해상도였다. 실제 사용량은 8.46크레딧이었다.\n\n\n\n\n실사화 과정에서 금속 외피와 유리 반사, 조경, 주변 건물의 표현은 한층 풍부해졌다. 다만 일부 건물 형상과 디테일이 원본과 달라지는 현상도 확인했다. 설계 형태의 정확성을 검토할 때는 원본 모델과 Blender 렌더링을 기준으로 삼고, 생성형 영상은 분위기와 공간 경험을 전달하는 용도로 활용하는 편이 적절해 보였다.\n\n이번 테스트에서는 자연어 지시를 통해 개념 모델링부터 카메라 애니메이션, 주요 장면 렌더링, 영상 실사화까지 이어지는 작업 흐름을 확인했다. \n초기 설계안을 빠르게 시각화하고 클라이언트와 공유하는 데 활용 가능성이 있지만, 설계 정확도와 영상의 시각적 완성도는 AI가 설계 영상 의도를 정확히 추론할 수 있도록 적절한 컨텐츠(도면, 설계치수, 배경, 목적 등)와 프롬프트 하네스 작업에 크게 영향을 받는다.\n이 작업은 다른 일을 하면서 두시간 정도에 걸쳐 진행되었고, 개념 설계 정도로 시작하였다. 참고로, 상세 프롬프트는 다음과 같다(사실 이 테스트에서 내가 준 컨텐츠는 거의 없었다).\n> 건축가 프랭크 게리 스타일로 Revit을 이용해 모델링해 줘. 지상 5층, 지하 2층 규모의 럭셔리 미술관 및 문화공간으로 기획하고 진행해 줘. 위치는 서울 강남구 선릉역 근처야. 가상 대지로 개념설계 진행.\n> 클라이언트 입장에서 다양한 뷰로 렌더링해 줘. 건물을 설명하는 도면뿐 아니라, 외관과 공간 분위기를 이해할 수 있는 여러 시점의 이미지를 요청.\n작업 과정을 화면에서 확인하기 위해 다음 지시도 추가했다.\n> 모델링 과정을 Blender의 해당 위치 뷰로 줌·팬하면서 보여 줘.\n> 모델링이 끝나면 스카이 뷰로 위에서 마치 새가 날아오는 것처럼 건물을 조망해 줘. 점점 카메라를 아래로 내려 입구까지 들어간 다음, 실내를 한 번 훑어보는 식으로 Blender 애니메이션을 작성해 줘. 주요 장면도 캡처해서 렌더링해 줘.\n카메라의 출발점과 이동 순서, 최종 도착 공간을 자연어로 지정했다. 결과물은 상공 조망에서 입구와 실내로 이어지는 32초 영상과 주요 장면 이미지로 구성했다.\n> 이 애니메이션 영상을 힉스필드로 연결해서 영상 제작해. 힉스필드를 이용해서 사실적으로 영상을 제작해 봐. 단, 해상도나 작업량은 사용량을 고려해서 진행해 줘. 현재 힉스필드 크레딧은 10개 내로만 사용해.\n> 첨부 영상의 외부 건물 전경에서 들어가는 부분만 추출해 짧게 실사화해 줘. \n최종 결과는 약 8.4초, 960×512 였으며, 8.46크레딧을 사용했다. 형태 보존을 요청했음에도 일부 디테일은 달라졌으므로, 생성 결과를 원본 설계와 비교하는 과정은 필요하다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2026/10/gpt6-codex.html",
+    "pubDate": "2026-10-05T06:17:07.768Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Our Framework for Reviewing AI-Generated Code",
+    "description": "AI coding agents can now write thousands of lines of production code across a dozen files in the time it takes you to make coffee. The bottleneck is no longer code generation; it’s review, and nobody’s quite sure how to do it well yet. Our Human-AI eXperience team, in collaboration with researchers from Lund University, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/research/2026/10/review-ai-generated/",
+    "pubDate": "Tue, 06 Oct 2026 12:17:53 +0000",
+    "creator": "Katie Fraser",
+    "categories": [
+      "research",
+      "code-review",
+      "hax"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "NTS: Authenticated Time at Meta",
+    "description": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com. Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and not replicated. We’ve open sourced everything, including [...]\nRead More...\nThe post NTS: Authenticated Time at Meta appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+    "pubDate": "Tue, 06 Oct 2026 16:00:06 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Networking & Traffic",
+      "Open Source",
+      "Production Engineering"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Introducing Warm Agents, a TeamCity Plugin",
+    "description": "Waiting on “waiting for a starting agent” is a special kind of annoying when you just want your PR tests to run. It stings most when a quick one-minute build sits in the queue for ten minutes while that one slow Windows cloud instance spins up. The Warm Agents plugin is our answer to this […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/10/teamcity-warm-agents-plugin/",
+    "pubDate": "Wed, 07 Oct 2026 14:23:08 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "news",
+      "releases",
+      "teamcity-2",
+      "plugin",
+      "teamcity"
     ]
   }
 ]
