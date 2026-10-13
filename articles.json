@@ -2,37 +2,43 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Start Your Next KMP App With Kotlin Toolchain 0.13",
-    "description": "The Kotlin Toolchain is a unified entry point into Kotlin. It lets you build JVM, Android, iOS, multiplatform, and server-side applications with a simple declarative configuration. With the release of v0.13, we now recommend the Kotlin Toolchain for most new Kotlin Multiplatform (KMP) projects. Earlier this year, we promoted the Kotlin Toolchain to Alpha. Since […]",
+    "title": "휴직일기 - 43일 차",
+    "description": "휴직기간 90일 중 거의 절반이 지나가고 있다. 그동안 했던 것들을 정리해 보니 제대로 해놓은 게 없다. 아내는 그냥 쉬라고 하는데 나는 나름의 계획이 있어서 하고 있다. 그런데 잘 되지는 않는다. 나이가 들어 뇌의 기능적인 면이 많이 바뀌어서 그런지 어제 공부한 건 오늘 다 까먹는다. 계속 반복하는 게임을 하고 있다. 운동도 나름 근육이 늘었으나 휴직 기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/kotlin/2026/10/start-your-next-kmp-app-with-kotlin-toolchain-0-13/",
-    "pubDate": "Wed, 07 Oct 2026 10:21:46 +0000",
-    "creator": "Anton Makeev",
-    "categories": [
-      "multiplatform",
-      "kotlin"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/87",
+    "pubDate": "Mon, 12 Oct 2026 13:28:28 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Faster Developers Don’t Make a Faster Team",
-    "description": "What engineering teams tell us about working with AI agents. Part 1 in the series. Over the past few months, I’ve spent a lot of time on discovery calls with engineering organizations, from a 16-developer software agency to telcos, game studios, and consultancies with thousands of developers. Almost none of them are asking whether to […]",
+    "title": "휴직일기 - 37일 차",
+    "description": "나는 크로스핏을 하고 있다. 보통 헬스장을 짐이라고 부르지만 크로스핏은 박스라고 부른다. 내가 다니는 박스는 기존 수원지검, 현재 수원지공이 있는 곳에 있어서 운동 인증샷으로 계속 사진을 찍고 있었다. 무의식적으로 찍어서 운동기록을 남기는 거였는데 여기게 역사의 기록이 남게 되었다. 기존 간판의 기록, 그것을 교체하는 시기의 빈 공간, 새로운 간판으로의 변",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/air/2026/10/faster-developers-don-t-make-a-faster-team/",
-    "pubDate": "Wed, 07 Oct 2026 13:08:09 +0000",
-    "creator": "Gleb Malkov",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "jetbrains",
-      "jetbrains-ai"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/85",
+    "pubDate": "Tue, 06 Oct 2026 12:57:29 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+    "description": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post describes how we designed and now operate the system at Meta’s scale and how it drives [...]\nRead More...\nThe post Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+    "pubDate": "Mon, 12 Oct 2026 16:00:50 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "ML Applications"
+    ]
+  },
+  {
+    "id": 4,
     "imageUrl": "",
     "title": "NTS: Authenticated Time at Meta",
     "description": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com. Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and not replicated. We’ve open sourced everything, including [...]\nRead More...\nThe post NTS: Authenticated Time at Meta appeared first on Engineering at Meta.",
@@ -48,77 +54,40 @@
     ]
   },
   {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Introducing Warm Agents, a TeamCity Plugin",
-    "description": "Waiting on “waiting for a starting agent” is a special kind of annoying when you just want your PR tests to run. It stings most when a quick one-minute build sits in the queue for ten minutes while that one slow Windows cloud instance spins up. The Warm Agents plugin is our answer to this […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/10/teamcity-warm-agents-plugin/",
-    "pubDate": "Wed, 07 Oct 2026 14:23:08 +0000",
-    "creator": "Dmitrii Korovin",
-    "categories": [
-      "news",
-      "releases",
-      "teamcity-2",
-      "plugin",
-      "teamcity"
-    ]
-  },
-  {
     "id": 5,
     "imageUrl": "",
-    "title": "Our Framework for Reviewing AI-Generated Code",
-    "description": "AI coding agents can now write thousands of lines of production code across a dozen files in the time it takes you to make coffee. The bottleneck is no longer code generation; it’s review, and nobody’s quite sure how to do it well yet. Our Human-AI eXperience team, in collaboration with researchers from Lund University, […]",
+    "title": "사장님 할인 혜택 매달 받는 방법은? 토스 사장님 쿠폰팩 받기",
+    "description": "식자재 할인부터 매장 홍보까지, 매달 1일 새 쿠폰이 열려요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/10/review-ai-generated/",
-    "pubDate": "Tue, 06 Oct 2026 12:17:53 +0000",
-    "creator": "Katie Fraser",
-    "categories": [
-      "research",
-      "code-review",
-      "hax"
-    ]
+    "link": "https://toss.im/tossfeed/article/toss-business-owner-coupon",
+    "pubDate": "Mon, 12 Oct 2026 07:25:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "2026년 백엔드 사이드 프로젝트 주제 2: 작은 GPT 직접 만들기",
-    "description": "예전에는 백엔드 개발자의 역량을 키우기 위한 개인 프로젝트로 본인이 주로 사용하는 데이터 스토어를 직접 만들어보는 걸 추천했다.\nRDBMS나 Key Value 스토어, 메시지 큐 중 더 깊이 이해하고 싶은 시스템이 있다면 핵심 동작을 갖춘 작은 버전을 만들어보는 것이다.\n실무에서 바로 쓸 수 있을 만큼 완성하려고 하기보다는, 데이터를 저장하고 조회하거나 메시지를 전달하는 원리를 직접 구현해보자는 얘기다.\n예를 들어 작은 DB를 만들다 보면 조회가 왜 느려지는지, 인덱스가 왜 필요한지 같은 문제를 직접 작성한 코드에서 만나게 된다.\n그 문제를 하나씩 해결해보는 동안 평소 사용하던 데이터 스토어의 구조와 동작도 훨씬 이해하기 쉬워진다.\n최근에는 백엔드 개발자의 다음 개인 프로젝트로 LLM 챗봇과 평가 시스템을 만들어보는 걸 추천했다.\n앞으로 이런 시스템을 만들고 운영하는 일을 맡게 된다면, 그 안에서 사용하는 LLM도 같은 방식으로 공부해보면 좋겠다.\n데이터베이스나 메시지 큐의 핵심 동작을 직접 구현해보듯이, GPT도 작은 모델부터 직접 만들어서 학습시키고 글을 생성해보는 것이다.\n다만 혼자 시작하려면 임베딩과 어텐션, 모델 학습 같은 개념을 어떤 순서로 공부하고 구현해야 할지부터 고민이다.\n작은 모델 하나를 끝까지 만들어보도록 안내해주는 강의가 있으면, 처음 접하는 개념도 코드와 함께 익히기가 수월할 것 같다.\n이런 경험을 해볼 수 있는 강의가 Hong 님의 '실리콘밸리 개발자가 알려주는 임베딩과 Mini GPT'이다.  \n실리콘밸리 개발자가 알려주는 임베딩과 Mini GPT\n\nHong 님이 이번에 LLM 평가 하네스 강의와 이 강의를 같은 시기에 출시하셨는데, 컨셉을 너무 잘 잡아주셔서 홍보를 안 할 수가 없다...\n\n벡터와 임베딩의 기초부터 시작해 TypeScript로 Word2Vec과 자동 미분을 구현하고, Python과 PyTorch로 미니 GPT를 만든다.\n텍스트를 토큰으로 바꾸고, 임베딩과 어텐션을 거쳐 다음 토큰을 예측하는 모델을 직접 작성한다.\n여기에 작은 텍스트 데이터로 모델을 학습시키고, 저장한 모델을 다시 불러와 글을 생성하는 과정까지 이어진다.\n모델을 만든 뒤에는 학습 데이터와 검증 데이터에서 손실이 어떻게 달라지는지 확인하고, 같은 모델에서도 생성 설정에 따라 출력이 어떻게 달라지는지 비교해본다.\n특히 이 수업의 미니 GPT는 GPU 없이 CPU에서 학습할 수 있는 크기로 만든다.\n따로 GPU 서버를 빌리지 않고 자기 컴퓨터에서 모델을 학습시키고, 코드를 바꿔가며 글이 어떻게 생성되는지 실험해볼 수 있다.\n데이터베이스를 직접 만들어보듯이 LLM도 한 번 직접 만들어보며 이해하고 싶은 백엔드 개발자분들께 추천드린다.",
+    "title": "스마트폰 AI 기능 200% 활용 꿀팁: 갤럭시 AI와 제미나이, 아이폰 AI 한눈에 정리",
+    "description": "스마트폰에 AI 기능이 기본으로 들어왔는데, 막상 어디에 있는지 몰라 쓰지 못하는 경우가 많습니다. 갤럭시 AI, 구글 제미나이, 아이폰의 Apple Intelligence는 통역, 요약, 사진 지우기, 검색까지 일상에서 바로 쓸 수 있는 기능을 제공합니다. 이 글에서는 가장 실용적인 기능을 상황별로 정리하고, 설정 방법과 활용 요령, 개인정보 주의사항, 그리고 무료로 쓸 때 확인할 점까지 한 번에 알려 드립니다.\n이 글의 핵심 요약\n1. 통역, 통화 요약, 노트 정리는 업무와 여행에서 가장 체감이 큰 기능입니다.\n2. 사진 지우기와 편집은 촬영 후 후보정 시간을 크게 줄여 줍니다.\n3. 화면에서 바로 검색하는 기능과 제미나이 호출은 검색 습관을 바꿉니다.\n4. 지원 기종, 언어, 무료 제공 범위는 기기와 시기에 따라 다르므로 공식 안내를 확인하세요.\n5. 클라우드로 처리되는 기능은 개인정보를 주의해서 쓰세요.\n1. 온디바이스 AI와 클라우드 AI, 무엇이 다를까?\n스마트폰 AI 기능은 처리 위치에 따라 두 가지로 나뉩니다. 이 차이를 알면 속도와 개인정보 측면에서 어떤 기능을 쓸지 판단하기 쉽습니다.\n구분\n온디바이스 AI\n클라우드 AI\n\n\n처리 위치\n내 스마트폰 안\n서버(인터넷 연결 필요)\n\n\n장점\n빠른 반응, 데이터가 기기에 머무는 경향\n더 복잡하고 큰 모델 활용 가능\n\n\n한계\n기종과 성능에 따라 지원 범위가 다름\n네트워크 상태와 개인정보 처리 정책 확인 필요\n\n\n예시\n일부 통역, 일부 요약, 일부 사진 편집\n복잡한 질문 답변, 고난도 이미지 생성\n\n\n\n \n어떤 기능이 기기 안에서 처리되는지는 제조사와 모델에 따라 다르므로, 설정 화면의 안내 문구와 개인정보 처리 설명을 확인하는 것이 가장 정확합니다.\n\n\n2. 상황별 스마트폰 AI 꿀팁 6가지\n① 실시간 통역: 여행과 해외 통화에서\n갤럭시 AI의 통화 통역과 대화 통역(인터프리터) 기능은 서로 다른 언어로 이야기할 때 실시간으로 번역을 보여 줍니다. 구글 번역 앱과 제미나이도 음성과 카메라 번역을 지원합니다. 사용 전에 언어 팩을 미리 내려받아 두면 해외에서 데이터 걱정 없이 쓰기 좋습니다. 지원 언어는 기능마다 다르니 사용 전에 확인하세요.\n② 노트와 녹음 요약: 회의와 강의 정리\n삼성 노트와 보이스 레코더의 요약, 정리 기능이나 구글 레코더 같은 앱을 활용하면 긴 녹음을 텍스트로 변환하고 핵심만 정리할 수 있습니다. 녹음 전에는 참석자에게 동의를 구하는 것이 기본 예의이며, 상황에 따라 법적 문제가 될 수도 있습니다.\n③ 사진 속 불필요한 요소 지우기\n여행 사진에 지나가는 사람이 찍혔거나 배경에 쓰레기가 보일 때, 갤러리의 AI 편집 기능으로 해당 부분을 선택해 지울 수 있습니다. 아이폰도 지원 기종에서 사진 앱의 정리(클린업) 기능을 제공합니다. 원본이 보존되는지 확인하고, 필요하면 복사본으로 작업하세요. 사실을 왜곡하는 편집은 피하는 것이 좋습니다.\n④ 화면에서 바로 검색하기\n안드로이드의 서클 투 서치(Circle to Search)는 화면에 보이는 이미지나 글자를 동그라미로 감싸 바로 검색하는 기능입니다. 영상이나 SNS에서 본 물건 이름, 장소, 번역이 필요한 문장을 앱 전환 없이 확인할 수 있습니다. 기능을 지원하는 기종과 호출 방법은 제조사 안내를 확인하세요.\n⑤ 제미나이로 일상 질문과 문서 정리\n전원 버튼 길게 누르기나 음성 호출로 제미나이를 열어 질문하거나 글을 다듬을 수 있습니다. 화면에 보이는 내용을 기반으로 질문하는 기능이 제공되는 환경도 있습니다. 아래 프롬프트를 활용해 보세요.\n지금 화면에 보이는 공지문을 3줄로 요약하고, 내가 해야 할 일과 기한을 목록으로 정리해 줘.\n⑥ 글쓰기 도우미: 메시지와 메일 다듬기\n갤럭시 키보드의 AI 글쓰기 기능이나 아이폰의 글쓰기 도구는 문장을 정중하게, 간결하게, 친근하게 바꿔 줍니다. 업무 메시지를 보내기 전에 어조만 조정해도 오해를 줄일 수 있습니다.\n3. 갤럭시, 픽셀, 아이폰 AI 기능 비교\n기능 영역\n갤럭시 AI\n구글(제미나이·픽셀)\n아이폰(Apple Intelligence)\n\n\n통역\n통화·대화 통역 제공\n번역 앱과 제미나이 활용\n번역 기능 제공(지원 언어 확인)\n\n\n요약\n노트, 녹음, 웹 요약\n레코더 요약, 제미나이\n알림, 메시지, 메일 요약\n\n\n사진 편집\n생성형 편집, 지우기\n지우개, 편집 기능(기종별)\n클린업(지원 기종)\n\n\n화면 검색\n서클 투 서치 지원\n서클 투 서치 지원(기종별)\n시각 지능 등 별도 기능\n\n\n비고\n기종, 업데이트에 따라 다름\n기종, 계정 상태에 따라 다름\n지원 기종, 언어 확인\n\n\n\n \n표의 내용은 대표적인 기능 구성을 정리한 것으로, 실제 제공 여부는 모델명, 운영체제 버전, 지역, 언어 설정에 따라 달라질 수 있습니다.\n4. 내 폰에서 AI 기능 켜는 방법\n소프트웨어 업데이트: 설정에서 최신 버전으로 업데이트합니다. 기능이 추가되거나 위치가 바뀌는 경우가 많습니다.\nAI 설정 메뉴 찾기: 갤럭시는 설정의 AI 관련 메뉴, 아이폰은 설정의 Apple Intelligence 관련 메뉴에서 기능을 켜고 끌 수 있습니다.\n언어 설정 확인: 기능이 지원하는 언어와 기기 언어가 맞는지 확인합니다.\n필요한 언어 팩과 모델 내려받기: 오프라인 사용을 원하면 와이파이 환경에서 미리 내려받아 둡니다.\n권한 확인: 마이크, 카메라, 화면 읽기 같은 권한이 기능에 필요한지 확인하고 최소한으로 허용합니다.\n5. 무료로 쓸 때 꼭 확인할 점\n무료 제공 기간과 범위: 일부 AI 기능은 무료 제공 범위가 정책에 따라 바뀔 수 있습니다. 제조사 공지를 확인하세요.\n구독 연동 기능: 제미나이의 고급 모델이나 추가 기능은 구독 여부에 따라 달라질 수 있습니다.\n데이터 사용량: 클라우드 기반 기능은 데이터를 쓰므로 와이파이 환경을 권장합니다.\n결제 안내 확인: 사용 중 결제 유도 화면이 나오면 내용을 꼼꼼히 읽고 진행하세요.\n6. 개인정보와 보안 주의사항\n민감한 대화와 문서는 주의: 금융 정보, 신분증, 건강 정보가 담긴 화면은 AI에게 보여 주기 전에 신중히 판단하세요.\n처리 방식 확인: 기능 설명에서 기기 내 처리인지 서버 전송인지 확인합니다.\n통화 녹음과 요약: 상대방의 동의와 관련 법규를 반드시 확인하세요.\nAI 결과 검증: 요약과 번역은 틀릴 수 있으니 중요한 내용은 원문을 확인하세요.\nAI 편집 사진 표시: 편집한 사진을 공유할 때 오해의 소지가 있다면 편집 사실을 밝히는 것이 좋습니다.\n7. 자주 묻는 질문 (FAQ)\nQ1. 내 폰에서 AI 기능이 안 보여요.\n기종과 운영체제 버전, 지역, 언어 설정이 지원 조건에 맞지 않을 수 있습니다. 먼저 소프트웨어를 최신으로 업데이트하고 설정 메뉴에서 해당 기능을 검색해 보세요. 그래도 없다면 제조사 공식 안내에서 지원 기종을 확인하세요.\nQ2. 인터넷이 없어도 쓸 수 있나요?\n기기 안에서 처리되는 일부 기능은 오프라인에서도 동작하지만, 기능마다 다릅니다. 언어 팩을 미리 내려받아야 하는 경우도 있으니 사용 전에 확인하세요.\nQ3. AI 기능을 쓰면 배터리가 더 빨리 닳나요?\n기능을 집중적으로 사용하면 배터리 소모가 늘 수 있습니다. 필요 없는 기능은 설정에서 꺼 두고, 사용량이 많다면 배터리 사용 통계를 확인해 보세요.\nQ4. 안드로이드와 아이폰 중 어느 쪽 AI가 더 좋은가요?\n기능마다 강점이 다르고 지원 기종과 언어에 따라 체감이 달라집니다. 내가 자주 쓰는 기능(통역, 요약, 사진 편집 등)을 기준으로 비교하는 것이 가장 정확합니다.\n마무리: 기능을 알면 스마트폰이 달라집니다\n스마트폰 AI 기능은 한꺼번에 다 익히기보다, 가장 불편했던 상황 하나를 골라 먼저 써 보는 것이 좋습니다. 이번 주에는 통역, 녹음 요약, 사진 지우기 중 하나만 정해서 직접 시도해 보세요. 설정 메뉴 위치와 지원 범위는 계속 바뀌니, 내 폰의 최신 안내를 확인하며 활용해 보시기 바랍니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://jojoldu.tistory.com/890",
-    "pubDate": "Mon, 12 Oct 2026 08:00:11 +0900",
-    "creator": "향로 (기억보단 기록을)",
+    "link": "https://muzbox.tistory.com/483739",
+    "pubDate": "Fri, 9 Oct 2026 11:45:51 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "생각정리",
-      "Mini GPT",
-      "백엔드 개발자",
-      "사이드 프로젝트"
+      "AI, 미래기술/AI 인사이트",
+      "apple intelligence",
+      "갤럭시 AI",
+      "갤럭시 통역",
+      "서클 투 서치",
+      "스마트폰 ai 기능",
+      "안드로이드 꿀팁",
+      "제미나이 활용"
     ]
   },
   {
     "id": 7,
-    "imageUrl": "",
-    "title": "UI freeze reports are now available in JetBrains Marketplace",
-    "description": "A user reports that the IDE stopped responding, and your plugin is the prime suspect. You try the same steps, but everything works. Without more details, such as a thread dump captured during the freeze, it’s hard to know where to start. JetBrains Marketplace now gives plugin authors access to UI freeze reports attributed to […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/10/ui-freeze-reports-in-marketplace/",
-    "pubDate": "Fri, 09 Oct 2026 14:27:09 +0000",
-    "creator": "Jakub Chrzanowski",
-    "categories": [
-      "intellij-platform",
-      "marketplace-marketplace",
-      "plugins",
-      "jetbrains-marketplace",
-      "plugin-development",
-      "ui-freezes"
-    ]
-  },
-  {
-    "id": 8,
     "imageUrl": "",
     "title": "주인의식",
     "description": "이 블로그 구독자를 한 번도 분석해 본 적은 없지만 아마도 현재 스타트업을 운영하는 창업가와 회사의 대표이사가 가장 많지 않을까 싶다. 그리고 조금 규모가 있는 회사와 조직을 운영하는 대표들도 꽤 있는 거로 알고 있다. 대표이사마다 회사를 운영하는 방식도 다르고, 고민하는 점도 다를텐데, 모든 대표이사가 어떻게 하면 더 개선할 수 있을지 항상 고민하는 주제가 바로 임직원들의 주인의식일(...)",
@@ -135,21 +104,7 @@
     ]
   },
   {
-    "id": 9,
-    "imageUrl": "",
-    "title": "더루프, 엘더스크롤 플레이",
-    "description": "더 루프 보드홀릭에서 세일로 2.4만에 구입한 더 루프를 솔플 룰로 플레이 해봤습니다. 일단 더 루프라는 게임을 2년전쯤 보드게임 페스타 때 체험해봤는데, 그땐 가격에 비해 그다지 재밋진 않았습니다. 아마 페스타 마지막날 오후쯤이었어서 설명해주시던 분이 고되서 적극적으로 설명을 해주시지 않았습니다. 자리가 비어있어 해볼수 있냐고 물어보고 바로 체험을 했으나, 게임의 배경이나 설정이라던지 이렇게 플레이 하면 좋다던지 그런건 하나도 안알려주시고 이렇게 하면되요 하고 자리를 떠버리셔서 어떻게 해야하지 하다가 그다지 재미를 느끼지 못하고 체험을 끝냈었습니다. 이 기억이 와이프에겐 너무나 안좋았던 기억이 있었는지 더.......",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.naver.com/dlehddus84/224432080285?fromRss=true&trackingCode=rss",
-    "pubDate": "Mon, 05 Oct 2026 17:49:23 +0900",
-    "creator": "dlehddus84",
-    "categories": [
-      "플레이"
-    ]
-  },
-  {
-    "id": 10,
+    "id": 8,
     "imageUrl": "",
     "title": "시스템이냐 사람이냐",
     "description": "세상이 더 험악해지면서 한국에서도 이젠 잔인하고 극악무도한 범죄 사건을 종종 볼 수 있다. 여기서 자세히 쓰진 않겠지만, 끔찍한 살인사건, 엽기적인 범죄행위 등, 과거에는 외국에서만 일어날 수 있다고 생각했던 사건들이 이젠 한국에서도 일어난다. 이런 사건이 터지면 자주 등장하는 주제가 범죄를 저지른 사람의 문제냐, 아니면 이런 사람이 범죄를 저지르게 만들 수밖에 없고, 그 범죄를 사전에 방지하지 못한(...)",
@@ -167,64 +122,105 @@
     ]
   },
   {
-    "id": 11,
+    "id": 9,
     "imageUrl": "",
-    "title": "Mellum2.1 Gets to Work: A Fast Open Model for Coding Agents",
-    "description": "Trained with reinforcement learning in real environments, Mellum2.1 is built for coding agents and fast sub-agents that run on your own hardware. Today, we’re releasing Mellum2.1, the next version of the 12B mixture-of-experts model we open-sourced in June. The architecture hasn’t changed since version 2: it’s still a compact, fast model with 2.5B active parameters, […]",
+    "title": "Beyond synthetic testing: Capturing and replaying real database workloads at Airbnb",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
-    "pubDate": "Thu, 08 Oct 2026 12:00:00 +0000",
-    "creator": "Bulat Salimzianov",
+    "link": "https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 06 Oct 2026 17:01:04 GMT",
+    "creator": "Zuofei Wang",
     "categories": [
-      "news",
-      "releases",
+      "data",
+      "technology",
+      "infrastructure",
+      "engineering",
+      "sql"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "Faster Developers Don’t Make a Faster Team",
+    "description": "What engineering teams tell us about working with AI agents. Part 1 in the series. Over the past few months, I’ve spent a lot of time on discovery calls with engineering organizations, from a 16-developer software agency to telcos, game studios, and consultancies with thousands of developers. Almost none of them are asking whether to […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/air/2026/10/faster-developers-don-t-make-a-faster-team/",
+    "pubDate": "Wed, 07 Oct 2026 13:08:09 +0000",
+    "creator": "Gleb Malkov",
+    "categories": [
+      "agentic-ai",
       "ai",
-      "mellum",
-      "open-source"
+      "jetbrains",
+      "jetbrains-ai"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+    "description": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. [...]\nRead More...\nThe post Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+    "pubDate": "Mon, 12 Oct 2026 16:01:32 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Android",
+      "Data Infrastructure",
+      "iOS",
+      "Networking & Traffic",
+      "Video Engineering",
+      "Web",
+      "Instagram"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "New Report: The State of CI/CD in 2026",
-    "description": "CI/CD remains one of the foundations of modern software development. According to the JetBrains Developer Ecosystem Survey 2026, 83.4% of respondents who use DevOps practices run CI/CD pipelines. The new report looks at how teams are running those pipelines, which tools they use, and where AI fits into their workflows. It brings together findings from […]",
+    "title": "Amper Is Now the Kotlin Toolchain: Moving to the Kotlin Blog",
+    "description": "Amper has evolved into the Kotlin Toolchain, and our blog is moving along with it. This isn’t a goodbye – it’s a continuation With the release of Kotlin Toolchain 0.11, Amper became the Kotlin Toolchain: a single, unified entry point into Kotlin, now in Alpha. What’s changing To keep Kotlin ecosystem news in one place, […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/10/state-of-cicd-2026-report/",
-    "pubDate": "Thu, 08 Oct 2026 08:15:44 +0000",
-    "creator": "Olga Bedrina",
+    "link": "https://blog.jetbrains.com/amper/2026/10/amper-is-now-the-kotlin-toolchain-moving-to-the-kotlin-blog/",
+    "pubDate": "Tue, 06 Oct 2026 10:14:56 +0000",
+    "creator": "Joffrey Bion",
     "categories": [
-      "news",
-      "report",
-      "survey"
+      "news"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "[MULTI] 단점을 덮는 장점 극대화, 컨트롤: 레조넌트",
-    "description": "No description available",
+    "title": "What Would You Build in Azure If You Didn’t Have to Ask for a Budget First?",
+    "description": "Maybe you’d deploy that .NET application you’ve been working on. Try a serverless architecture. Experiment with containers. Build a proof of concept. Or spend some time exploring an Azure service you haven’t used yet.  If you’re an eligible Visual Studio subscriber, you may already have a personal Azure sandbox waiting for you.  Many Visual Studio […]\nThe post What Would You Build in Azure If You Didn’t Have to Ask for a Budget First? appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2505",
-    "pubDate": "Mon, 05 Oct 2026 16:47:44 +0900",
-    "creator": "「RULIWEB」",
+    "link": "https://devblogs.microsoft.com/visualstudio/what-would-you-build-in-azure-if-you-didnt-have-to-ask-for-a-budget-first/",
+    "pubDate": "Tue, 06 Oct 2026 14:00:03 +0000",
+    "creator": "James Rempt",
     "categories": [
-      "리뷰"
+      "Visual Studio"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "바쁜 마음을 내려놓는 가을 여행지 3곳",
-    "description": "한국관광공사의 안정감 큐레이션: 제천의 산, 고창의 습지, 부여의 성곽길",
+    "title": "Introducing Warm Agents, a TeamCity Plugin",
+    "description": "Waiting on “waiting for a starting agent” is a special kind of annoying when you just want your PR tests to run. It stings most when a quick one-minute build sits in the queue for ten minutes while that one slow Windows cloud instance spins up. The Warm Agents plugin is our answer to this […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/findyoursafezone-3b",
-    "pubDate": "Wed, 07 Oct 2026 15:17:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/teamcity/2026/10/teamcity-warm-agents-plugin/",
+    "pubDate": "Wed, 07 Oct 2026 14:23:08 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "news",
+      "releases",
+      "teamcity-2",
+      "plugin",
+      "teamcity"
+    ]
   },
   {
     "id": 15,
