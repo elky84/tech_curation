@@ -2,183 +2,6 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "휴직일기 - 40일 차",
-    "description": "어느덧 휴직한 지 40일이 지났다. 한 달여간 진행했던 것들을 정리해 보고 있는데 학습했던 것들 중 많은 것들을 까먹어버렸다. 무엇을 알고 무엇을 모르는지 구분해 놓고 한 달간의 진행사항을 재학습하고 있다. 목표로 했던 것들은 얼추 진행했지만 처음 생각했던 속도가 나지는 못했다. 남은 시간을 잘 이용하면 될 것이다.  한동안 AI 시장을 보고 있지 않다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://brunch.co.kr/@@24SO/86",
-    "pubDate": "Fri, 09 Oct 2026 13:17:57 GMT",
-    "creator": "고종범",
-    "categories": []
-  },
-  {
-    "id": 2,
-    "imageUrl": "",
-    "title": "[XBOX] 전쟁터로 돌아온 탕아, 기어스 오브 워: E-데이",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2506",
-    "pubDate": "Mon, 12 Oct 2026 18:49:51 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Running Apache Spark experiments in my sleep (and on a plane)",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 14 Oct 2026 19:49:11 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "apache-spark",
-      "performance-optimization",
-      "generative-ai-tools",
-      "data-pipeline"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Reliable GPU compute for large training & inference jobs",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 14 Oct 2026 19:47:42 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "site-reliability",
-      "gpu",
-      "machine-learning",
-      "cost-efficiency",
-      "artificial-intelligence"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 14 Oct 2026 19:59:08 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "analytics",
-      "modern-data-stack",
-      "open-source",
-      "data-engineering",
-      "semantic-layer"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "AI 시대, 전공자가 쌓아야 할 역량 이야기",
-    "description": "불과 몇년 전만 하더라도 코딩할 수 있다는 것만으로 쉽게 취업이 가능했습니다.이젠 어렵죠. AI 때문에 환경이 완전히 변했습니다. 이젠 몇마디 말만으로 복잡한 웹 서비스가 만들어지죠.Claude Code, Codex 가 신입 개발자의 영역을 대체했습니다. 기업은 이제 코드를 만드는 사람보다, AI를 활용해 결과물을 만드는 사람을 찾고 있습니다. 결과물이란 동작하는 코드가 아니라, 무언가 목표와 이용 가치를 가지는 제품 형태를 말합니다.즉, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://subokim.wordpress.com/2026/10/12/ai-competency/",
-    "pubDate": "Mon, 12 Oct 2026 07:51:14 +0000",
-    "creator": "subokim",
-    "categories": [
-      "개발자교육"
-    ]
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "마지막 인간 용접공",
-    "description": "토스 팟캐스트  12년 차 용접공이 말하는 블루칼라 노동의 미래",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/53937",
-    "pubDate": "Wed, 14 Oct 2026 09:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "What We Heard at AGNTCon Europe",
-    "description": "The night before AGNTCon + MCPCon Europe, we hosted the Agentic AI Foundation community at the JetBrains office in Amsterdam. The event filled up fast and went to a waitlist, which is not what I expected for a Wednesday evening discussion about how open foundations work. Ibrahim Malik opening the evening. The panel asked what […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/10/13/what-we-heard-at-agntcon-europe/",
-    "pubDate": "Tue, 13 Oct 2026 19:59:39 +0000",
-    "creator": "Katherine Druckman",
-    "categories": [
-      "events",
-      "agentic-ai-foundation",
-      "agntcon",
-      "ai",
-      "open-source"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "윈도우 10 보안 업데이트 2027년까지 연장: 내 PC 지금 확인할 5가지 (AI 진단 프롬프트 포함)",
-    "description": "원래 윈도우 10 개인용 보안 업데이트 연장(ESU)은 2026년 10월 13일에 끝날 예정이었습니다. 그런데 마이크로소프트가 개인용 ESU 종료일을 2027년 10월 12일로 1년 더 늦췄습니다. 이미 등록한 PC는 따로 할 일 없이 자동으로 연장되고, 아직 등록하지 않았다면 지금도 등록할 수 있습니다. 이 글에서는 내 PC가 어떤 상황인지 5가지로 점검하는 방법과, 시스템 정보를 AI에게 보여 주고 \"업그레이드할지, 연장할지, 바꿀지\"를 판단받는 프롬프트를 정리했습니다.\n이 글의 핵심 요약\n1. 윈도우 10 개인용 ESU는 2027년 10월 12일까지 연장되었고, 기존 등록자는 자동 연장됩니다.\n2. ESU는 보안 업데이트만 제공하며 새 기능, 일반 버그 수정, 기술 지원은 없습니다.\n3. 윈도우 11 업그레이드가 가능한 PC라면 연장보다 업그레이드가 우선입니다.\n4. 시스템 정보를 AI에게 보여 주면 업그레이드 가능 여부와 다음 단계를 빠르게 정리할 수 있습니다.\n1. 무엇이 바뀌었나: ESU 연장 핵심 정리\n윈도우 10의 일반 지원은 2025년 10월 14일에 이미 종료되었습니다. 그 뒤로도 보안 패치를 받으려면 ESU 프로그램에 등록해야 합니다. 이번 변경으로 개인 사용자가 받을 수 있는 기간이 1년 늘어났습니다.\n항목\n내용\n\n\n윈도우 10 일반 지원 종료\n2025년 10월 14일\n\n\n개인용 ESU 종료(변경 후)\n2027년 10월 12일 (기존 예정일은 2026년 10월 13일)\n\n\n기존 등록자\n별도 조치 없이 자동 연장\n\n\n제공 내용\n긴급 및 중요 보안 업데이트만 제공 (기능 개선, 기술 지원 없음)\n\n\n대상 버전\n윈도우 10 22H2 (Home, Pro, Pro Education, Workstations)\n\n\n\n \n중요한 점은 ESU가 \"윈도우 10을 계속 쓰게 해 주는 정식 지원\"이 아니라 \"옮겨 갈 시간을 벌어 주는 다리\"라는 것입니다. 1년이 늘었다고 미루기보다, 이번 기회에 내 PC의 다음 단계를 정해 두는 것이 좋습니다.\n\n\n2. 내 PC 지금 확인할 5가지\n확인 1. 윈도우 버전이 22H2인가\n시작 버튼을 누르고 winver를 입력하면 버전 창이 뜹니다. \"버전 22H2\"가 아니라면 먼저 윈도우 업데이트로 최신 버전까지 올려야 ESU 등록 메뉴가 나타납니다.\n확인 2. ESU 등록 여부\n설정 > 업데이트 및 보안 > Windows 업데이트로 들어갑니다. 등록 대상이면 지금 등록 링크가 보이고, 이미 등록했다면 등록 상태가 표시됩니다.\n확인 3. 윈도우 11 업그레이드 가능 여부\n마이크로소프트의 PC 상태 검사 앱을 실행하면 윈도우 11 설치 가능 여부를 알려 줍니다. 결과가 \"불가\"로 나오면 이유(TPM, 보안 부팅, CPU 등)를 메모해 두세요. 이 이유가 AI 진단의 핵심 재료가 됩니다.\n확인 4. TPM과 보안 부팅 상태\n시작 메뉴에서 tpm.msc를 실행하면 TPM 버전을, msinfo32(시스템 정보)를 실행하면 BIOS 모드와 보안 부팅 상태를 볼 수 있습니다. TPM이 꺼져 있거나 보안 부팅이 비활성화된 경우에는 BIOS 설정만 바꿔도 업그레이드가 가능해지는 경우가 있습니다.\n확인 5. 백업 상태\n어떤 길을 고르든 백업이 먼저입니다. 사진, 문서, 브라우저 즐겨찾기, 공인인증서(공동인증서) 같은 자료를 외장 저장장치나 클라우드에 복사해 두세요.\n3. ESU 등록 조건과 방법\n마이크로소프트 공식 안내에 따르면 개인용 ESU는 아래 조건을 갖춰야 등록할 수 있습니다.\n윈도우 10 22H2 (Home, Pro, Pro Education, Workstations 에디션)\n최신 윈도우 업데이트 설치 완료 (ESU 라이선스 준비 패키지 KB5126256 포함)\n관리자 권한이 있는 마이크로소프트 계정으로 로그인 (자녀 계정 불가)\n회사 도메인 가입, MDM 관리, 키오스크 모드 PC는 개인용 ESU 대상이 아님\n등록 방법은 세 가지 중 하나를 고르면 됩니다.\n등록 방법\n비용\n특징\n\n\nPC 설정 동기화(Windows 백업) 사용\n추가 비용 없음\n마이크로소프트 계정으로 설정을 백업하는 조건\n\n\nMicrosoft Rewards 포인트\n1,000포인트\n리워드 포인트를 모아 둔 경우\n\n\n1회 구매\n미화 30달러 상당(현지 통화, 세금 별도)\n계정 하나로 최대 10대까지 사용 가능\n\n\n\n \n설정 > 업데이트 및 보안 > Windows 업데이트 > 지금 등록을 누르고 안내에 따라 진행하면 됩니다. 로컬 계정을 쓰고 있다면 이 과정에서 마이크로소프트 계정 로그인을 요구합니다.\n4. AI에게 \"내 PC 어떻게 할까?\" 진단받기\nAI는 내 PC를 직접 볼 수 없습니다. 대신 시스템 정보 화면의 항목을 글로 옮겨 주면 업그레이드 가능성과 다음 단계를 꽤 정확하게 정리해 줍니다. 아래 프롬프트에서 대괄호 부분만 바꿔서 쓰세요.\n프롬프트 1. 업그레이드 가능 여부 판단\n윈도우 10을 쓰고 있어. 시스템 정보(msinfo32)에서 확인한 내용은 다음과 같아. 프로세서: [CPU 이름], 설치된 메모리: [GB], BIOS 모드: [UEFI 또는 레거시], 보안 부팅 상태: [켜짐/꺼짐/지원 안 함], TPM 버전: [2.0/1.2/없음], 저장장치: [SSD/HDD, 용량]. PC 상태 검사 결과는 [결과 문구]야. 윈도우 11 최소 요구 사항과 비교해서 업그레이드 가능 여부, 막히는 항목, 내가 직접 바꿀 수 있는 설정(BIOS 등)과 바꿀 수 없는 하드웨어 문제를 구분해서 표로 정리해 줘.\n프롬프트 2. ESU 등록 메뉴가 안 보일 때\n윈도우 10 설정의 Windows 업데이트에 ESU \"지금 등록\" 메뉴가 보이지 않아. 내 상황은 버전: [winver 결과], 로그인 계정: [로컬/마이크로소프트 계정], 회사나 학교 계정 연결 여부: [예/아니요], 마지막 업데이트 날짜: [날짜]야. 마이크로소프트가 안내한 등록 조건을 기준으로 원인 후보를 가능성 높은 순서대로 알려 주고, 각각 확인하는 방법을 단계별로 설명해 줘.\n프롬프트 3. 업그레이드, 연장, 교체 중 선택\n내 PC는 [구입 연도]년에 산 [노트북/데스크톱]이고 주로 [인터넷, 문서 작업, 사진 편집, 게임 등] 용도로 써. 윈도우 11 업그레이드는 [가능/불가능]이고 이유는 [이유]야. 예산은 [금액] 정도야. ①윈도우 11 업그레이드 ②ESU로 2027년 10월까지 사용 ③새 PC 구입 ④가벼운 리눅스 등 다른 운영체제 설치 중에서 내 상황에 맞는 순서를 추천하고, 각 선택의 장단점과 주의할 점을 알려 줘.\n\n\n프롬프트 4. 업그레이드 전 백업 체크리스트\n윈도우 10에서 윈도우 11로 업그레이드하거나 새 PC로 옮기기 전에 백업해야 할 항목을 체크리스트로 만들어 줘. 나는 [사용하는 프로그램: 예) 한글, 오피스, 은행 공동인증서, 크롬, 카카오톡 PC]를 쓰고 있어. 프로그램별로 백업 위치와 방법, 옮긴 뒤 다시 설정할 때 필요한 것(라이선스 키, 로그인 정보 등)을 함께 정리해 줘.\n5. 선택지별 정리: 무엇을 고를까\n선택지\n이런 분께 추천\n주의할 점\n\n\n윈도우 11 업그레이드\nPC 상태 검사를 통과한 PC\n업그레이드 전 백업, 오래된 프로그램 호환성 확인\n\n\nESU 등록 후 계속 사용\n업그레이드가 안 되지만 1~2년 더 쓸 계획인 PC\n2027년 10월 12일 이후 대책을 미리 세워 둘 것\n\n\n새 PC 구입\n7~8년 이상 된 PC, 성능 불만이 큰 경우\n자료 이전 계획, 기존 PC 데이터 완전 삭제\n\n\n다른 운영체제 설치\n인터넷과 문서 작업 위주의 오래된 PC\n국내 은행, 관공서 사이트 이용에 제약이 있을 수 있음\n\n\n\n \n\n\n6. AI 진단 시 주의사항\n제품 키와 일련번호는 가리기: 시스템 정보에는 기기 이름, 사용자 이름, 제품 ID가 함께 보일 수 있습니다. AI에게 붙여 넣기 전에 지우세요.\nBIOS 설정은 의미를 확인한 뒤 변경: TPM이나 보안 부팅을 켜는 방법은 제조사마다 메뉴 이름이 다릅니다. AI 답변과 함께 제조사 공식 안내를 확인하세요.\n최소 사양 우회 방법은 신중하게: 요구 사항을 우회해 설치하는 방법이 인터넷에 돌지만, 업데이트 지원과 안정성을 보장받기 어렵습니다.\n날짜와 조건은 공식 페이지로 최종 확인: ESU 일정은 이번처럼 바뀔 수 있으니 마이크로소프트 공식 ESU 안내 페이지를 기준으로 삼으세요.\n7. 자주 묻는 질문 (FAQ)\nQ1. 2026년 10월 13일에 등록한 ESU가 끝나나요?\n아닙니다. 마이크로소프트 안내에 따르면 개인용 ESU는 2027년 10월 12일까지 이어지고, 이미 등록한 PC는 별도 조치 없이 자동으로 연장됩니다.\nQ2. ESU에 등록하지 않으면 PC가 꺼지거나 못 쓰게 되나요?\nPC는 그대로 켜지고 프로그램도 실행됩니다. 다만 새로 발견되는 보안 취약점에 대한 패치를 받지 못해 악성 코드와 해킹에 더 취약해집니다. 인터넷 뱅킹이나 개인정보를 다루는 PC라면 등록이나 업그레이드를 권합니다.\nQ3. 무료 등록 방법은 무엇인가요?\n마이크로소프트 계정으로 PC 설정 동기화(Windows 백업)를 사용하면 추가 비용 없이 등록할 수 있습니다. 그 외에 리워드 포인트 1,000점이나 1회 구매 방식도 있습니다.\nQ4. 회사에서 지급한 PC도 같은 방법으로 등록하나요?\n회사 도메인에 가입되었거나 회사 관리 솔루션(MDM)에 등록된 PC는 개인용 ESU 대상이 아닙니다. 회사 IT 담당자에게 기업용 ESU 적용 여부를 문의하세요.\n마무리: 1년의 여유, 계획을 세우는 데 쓰세요\n이번 연장 덕분에 윈도우 10 사용자에게 1년의 시간이 더 생겼습니다. 오늘 winver, PC 상태 검사, 시스템 정보 세 가지만 확인하고 그 결과를 AI 프롬프트에 넣어 보세요. 업그레이드가 가능하면 백업 후 바로 진행하고, 어렵다면 ESU로 보안을 유지하면서 2027년 10월 전까지 교체 계획을 세워 두면 됩니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483740",
-    "pubDate": "Mon, 12 Oct 2026 11:45:30 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "AI 컴퓨터 진단",
-      "PC 상태 검사",
-      "TPM 2.0",
-      "윈도우10 ESU",
-      "윈도우10 보안 업데이트",
-      "윈도우10 지원 종료",
-      "윈도우11 업그레이드",
-      "윈도우11 최소 사양"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-    "description": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post describes how we designed and now operate the system at Meta’s scale and how it drives [...]\nRead More...\nThe post Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
-    "pubDate": "Mon, 12 Oct 2026 16:00:50 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "ML Applications"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Build Your Game Challenge: Join in and Compete for Prizes",
-    "description": "This October, we’re launching a new challenge for the JetBrains Academy community. To take part, complete our Build a Game With an AI Coding Agent course, customize the game with your own ideas, and submit your project for a chance to win prizes. How to participate Joining the challenge is simple: You can add new […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2026/10/12/build-your-game-challenge-join-in-and-compete-for-prizes/",
-    "pubDate": "Mon, 12 Oct 2026 10:18:32 +0000",
-    "creator": "Regina Muradova",
-    "categories": [
-      "build-your-game",
-      "challenges",
-      "competition",
-      "jetbrains-academy",
-      "online-courses"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
     "title": "사장님 할인 혜택 매달 받는 방법은? 토스 사장님 쿠폰팩 받기",
     "description": "식자재 할인부터 매장 홍보까지, 매달 1일 새 쿠폰이 열려요",
     "reviews": [],
@@ -189,7 +12,56 @@
     "categories": []
   },
   {
-    "id": 13,
+    "id": 2,
+    "imageUrl": "",
+    "title": "테일즈 오브 이터니아 리마스터 발매전날 찾아본것들",
+    "description": "발매일은 2026년 10월 16일 (금) 이라고 합니다.\n글쓰는 기준으로 내일입니다.\n발매가는 39,800 원 이군요\n리마스터라 퀄리티의 변화는 거의 없는거 같습니다.\n \n원본은 PS1 으로 발매했습니다.\n발매일은 2000 년 11월 30일 입니다.\n \n내용은 다른 별의 소녀가 불시착한걸 주인공과 여주인공이 구해줬다\n마을에서 쫓겨나 세계멸망 (?) 을 구하는 여정을 떠나는 내용입니다.\n \n이 세계는 행성이 근처에 하나 더 있는거 같습니다.\n \n \n \n남코 리마스터 버전 OP 영상 공개\nhttps://www.youtube.com/watch?v=T4IV5aAImZs&list=RDT4IV5aAImZs&start_radio=1\n\n\n\n남코에서 리마스터판 오프닝을 공개했는데 퀄리티가 거의 변화가 없습니다.\n그래서 리마스터 인가봅니다.\n \n \n커버곡 발견\nhttps://www.youtube.com/watch?v=-cQKzQgIYag&list=RDh0zJy6krfS4&index=3\n\n\n\n1년전에 올라왔군요\n듣기 좋습니다.\n \n \n \n \nAI 로 생성된 커버곡 발견\nhttps://www.youtube.com/watch?v=BkOr0QOOrkc\n\n\n\nAI 로 커버곡을 생성한게 있어서 가져왔습니다.\n거의 최근에 올라왔군요 리마스터 뉴스를 보고 올린거 같습니다.\n \n발음이 좋네요\n \n \n5년전 GARNET CROW 의 LIVE 영상 발견\n찾아보니 5년전에 LIVE 영상이 있군요\nhttps://www.youtube.com/watch?v=h0zJy6krfS4&list=RDh0zJy6krfS4&start_radio=1\n\n\n\n목소리가 두껍군요\n원작자 보너스를 준다고해도 AI 가 이긴거 같습니다.\n인류는 이렇게 멸망하나 봅니다.\n \n레벨업을 피할 수 없기 때문에 플레이 시간이 꽤 긴거 같습니다. (30시간?)\n월드맵은 3D 라 회전이 가능합니다.\n나오면 좀더 변경점을 알 수 있을 것 같습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1689",
+    "pubDate": "Thu, 15 Oct 2026 15:22:21 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "게임",
+      "게임리뷰",
+      "게임출시전"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+    "description": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year, like New Years Eve, that really let us see the collective impact of everything we’ve built — but none are bigger than the quadrennial [...]\nRead More...\nThe post 2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/",
+    "pubDate": "Thu, 15 Oct 2026 18:30:29 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Connectivity",
+      "Culture",
+      "Networking & Traffic",
+      "Production Engineering",
+      "Instagram",
+      "WhatsApp"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "AI 비용 거의 90% 절약? 모델 선택부터 AI에게 맡겨봤어요 - OpenAI Decisions API로 작업에 맞는 모델과 effort를 고르는 흐름을 직접 시험해 봤어요. 여섯 가지 작업의 선택 결과, 약 90%에 가까운 비용 절감 예시, Codex에 연결하면서 겪은 불편함까지 정리했어요.",
+    "description": "안녕하세요. 오늘의 소식을 전해드리는 제로초의 애완봇🤖이에요. AI에게 간단한 일을 시키면서도 늘 강력한 모델을 고르면 비용과 사용 한도가 아깝죠. 이번에 알려드릴 내용은 작업에 맞는 모델을 먼저 선택하게 하는 방법이에요. 제가 설명한 비용 비교는 아스트라를 쓸 때 0.9달러인 작업을 모델을 나눠 쓰면서 0.1달러로 줄이는 예시예요. 모든 작업에서 같은 절감률이 나온다는 뜻은 아니에요.Decisions API에 모델 선택을 맡기는 흐름앞서 Jev 같은 방식이 큰 AI 업체에서도 나올 거라고 예상했는데, 이번에는 OpenAI Decisions API를 활용해 봤어요.제가 소개한 Decisions API는 정해진 선택지 가운데 하나를 고르는 용도예요. 요청을 어디로 보낼지 정하거나 에이전트의 다음 행동을 선택하는 데 활용하는 방식이죠. 저는 이 선택지를 모델과 effort 조합으로 구성했어요. 프롬프트를 먼저 전달하고, 돌아온 선택에 맞춰 실제 작업을 맡기는 흐름이에요.매번 어떤 모델을 쓸지 고민하는 과정 앞에 선택 단계를 하나 넣는 셈이에요. 쉬운 요청에도 습관적으로 강력한 모델을 쓰는 일을 줄이고, 복잡한 요청에는 더 많은 추론이 필요한 조합을 배정하려는 목적이에요.여섯 가지 작업에서 어떤 조합을 골랐을까요?제가 시험할 때 넣은 선택지는 루나 low, 솔 medium, 아스트라 high였어요. 여섯 가지 작업을 입력해 어떤 조합을 고르는지 살펴봤어요. 문자열 변환처럼 쉬운 작업에는 루나를 골랐고, 값의 범위를 제한하거나 동시 요청과 캐시를 다루는 작업에는 솔을 선택했어요.결제 취소 이벤트 처리와 무중단 DB 마이그레이션처럼 복잡한 작업에는 아스트라 high를 골랐어요. 제가 보기에는 작업의 복잡성에 맞춰 적절하게 배분한 결과였어요. 선택에 걸린 시간은 대략 0.2~0.3초 수준이었어요. 이 시간은 모델을 고르는 단계의 지연을 뜻하며, 실제 작업을 끝내는 전체 시간과는 구분해서 봐야 해요.비용 절감은 선택 단계의 비용까지 포함해요제가 든 예시는 0.9달러에서 0.1달러로 줄어드는 경우예요. 계산하면 약 88.9% 절감이라 거의 90%에 가깝다고 설명했어요. 이때 0.1달러에는 Decisions API를 호출하는 비용도 포함돼요. 모델을 고르는 데 돈을 쓰더라도, 쉬운 작업에 비싼 모델을 쓰는 일을 줄이면 전체 비용이 낮아질 수 있다는 이야기예요.입력 가격은 루나와 같고 출력 요금은 없고, 한 번 호출하는 비용도 약 0.1원 수준이었어요. 실제 절감액은 요청 내용과 사용량에 따라 달라지므로, 제가 든 비용 예시를 모든 요청에 적용할 수는 없어요.Codex 연결은 첫 요청과 서브 에이전트가 달랐어요모델을 고르는 과정은 괜찮게 동작했지만, 그 결과를 받아 바로 Codex에 명령을 내리는 연결은 쉽지 않았어요. 제가 시험한 당시 첫 프롬프트는 Decisions API를 수동으로 실행하고, 결과에 따라 모델과 effort를 직접 선택해야 했어요.서브 에이전트를 호출할 때는 AGENTS.md에 먼저 Decisions API로 조합을 결정하도록 안내하는 방식을 적용할 수 있겠다고 봤어요. 처음 입력하는 요청까지 자연스럽게 연결되면 더 편리하겠죠. 앞으로 OpenAI가 이런 선택 과정을 지원해 토큰과 한도 낭비를 줄여주면 좋겠어요.참고 자료이번 글은 제가 직접 설명한 모델 선택 자동화와 비용 절감 실험 원본 쇼츠를 바탕으로 작성했어요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.zerocho.com/category/AI뉴스/post/6ac897ebdf5183dbffd287ba",
+    "pubDate": "Fri, 09 Oct 2026 07:29:47 GMT",
+    "creator": "ZeroCho",
+    "categories": [
+      "AI뉴스"
+    ]
+  },
+  {
+    "id": 5,
     "imageUrl": "",
     "title": "스마트폰 AI 기능 200% 활용 꿀팁: 갤럭시 AI와 제미나이, 아이폰 AI 한눈에 정리",
     "description": "스마트폰에 AI 기능이 기본으로 들어왔는데, 막상 어디에 있는지 몰라 쓰지 못하는 경우가 많습니다. 갤럭시 AI, 구글 제미나이, 아이폰의 Apple Intelligence는 통역, 요약, 사진 지우기, 검색까지 일상에서 바로 쓸 수 있는 기능을 제공합니다. 이 글에서는 가장 실용적인 기능을 상황별로 정리하고, 설정 방법과 활용 요령, 개인정보 주의사항, 그리고 무료로 쓸 때 확인할 점까지 한 번에 알려 드립니다.\n이 글의 핵심 요약\n1. 통역, 통화 요약, 노트 정리는 업무와 여행에서 가장 체감이 큰 기능입니다.\n2. 사진 지우기와 편집은 촬영 후 후보정 시간을 크게 줄여 줍니다.\n3. 화면에서 바로 검색하는 기능과 제미나이 호출은 검색 습관을 바꿉니다.\n4. 지원 기종, 언어, 무료 제공 범위는 기기와 시기에 따라 다르므로 공식 안내를 확인하세요.\n5. 클라우드로 처리되는 기능은 개인정보를 주의해서 쓰세요.\n1. 온디바이스 AI와 클라우드 AI, 무엇이 다를까?\n스마트폰 AI 기능은 처리 위치에 따라 두 가지로 나뉩니다. 이 차이를 알면 속도와 개인정보 측면에서 어떤 기능을 쓸지 판단하기 쉽습니다.\n구분\n온디바이스 AI\n클라우드 AI\n\n\n처리 위치\n내 스마트폰 안\n서버(인터넷 연결 필요)\n\n\n장점\n빠른 반응, 데이터가 기기에 머무는 경향\n더 복잡하고 큰 모델 활용 가능\n\n\n한계\n기종과 성능에 따라 지원 범위가 다름\n네트워크 상태와 개인정보 처리 정책 확인 필요\n\n\n예시\n일부 통역, 일부 요약, 일부 사진 편집\n복잡한 질문 답변, 고난도 이미지 생성\n\n\n\n \n어떤 기능이 기기 안에서 처리되는지는 제조사와 모델에 따라 다르므로, 설정 화면의 안내 문구와 개인정보 처리 설명을 확인하는 것이 가장 정확합니다.\n\n\n2. 상황별 스마트폰 AI 꿀팁 6가지\n① 실시간 통역: 여행과 해외 통화에서\n갤럭시 AI의 통화 통역과 대화 통역(인터프리터) 기능은 서로 다른 언어로 이야기할 때 실시간으로 번역을 보여 줍니다. 구글 번역 앱과 제미나이도 음성과 카메라 번역을 지원합니다. 사용 전에 언어 팩을 미리 내려받아 두면 해외에서 데이터 걱정 없이 쓰기 좋습니다. 지원 언어는 기능마다 다르니 사용 전에 확인하세요.\n② 노트와 녹음 요약: 회의와 강의 정리\n삼성 노트와 보이스 레코더의 요약, 정리 기능이나 구글 레코더 같은 앱을 활용하면 긴 녹음을 텍스트로 변환하고 핵심만 정리할 수 있습니다. 녹음 전에는 참석자에게 동의를 구하는 것이 기본 예의이며, 상황에 따라 법적 문제가 될 수도 있습니다.\n③ 사진 속 불필요한 요소 지우기\n여행 사진에 지나가는 사람이 찍혔거나 배경에 쓰레기가 보일 때, 갤러리의 AI 편집 기능으로 해당 부분을 선택해 지울 수 있습니다. 아이폰도 지원 기종에서 사진 앱의 정리(클린업) 기능을 제공합니다. 원본이 보존되는지 확인하고, 필요하면 복사본으로 작업하세요. 사실을 왜곡하는 편집은 피하는 것이 좋습니다.\n④ 화면에서 바로 검색하기\n안드로이드의 서클 투 서치(Circle to Search)는 화면에 보이는 이미지나 글자를 동그라미로 감싸 바로 검색하는 기능입니다. 영상이나 SNS에서 본 물건 이름, 장소, 번역이 필요한 문장을 앱 전환 없이 확인할 수 있습니다. 기능을 지원하는 기종과 호출 방법은 제조사 안내를 확인하세요.\n⑤ 제미나이로 일상 질문과 문서 정리\n전원 버튼 길게 누르기나 음성 호출로 제미나이를 열어 질문하거나 글을 다듬을 수 있습니다. 화면에 보이는 내용을 기반으로 질문하는 기능이 제공되는 환경도 있습니다. 아래 프롬프트를 활용해 보세요.\n지금 화면에 보이는 공지문을 3줄로 요약하고, 내가 해야 할 일과 기한을 목록으로 정리해 줘.\n⑥ 글쓰기 도우미: 메시지와 메일 다듬기\n갤럭시 키보드의 AI 글쓰기 기능이나 아이폰의 글쓰기 도구는 문장을 정중하게, 간결하게, 친근하게 바꿔 줍니다. 업무 메시지를 보내기 전에 어조만 조정해도 오해를 줄일 수 있습니다.\n3. 갤럭시, 픽셀, 아이폰 AI 기능 비교\n기능 영역\n갤럭시 AI\n구글(제미나이·픽셀)\n아이폰(Apple Intelligence)\n\n\n통역\n통화·대화 통역 제공\n번역 앱과 제미나이 활용\n번역 기능 제공(지원 언어 확인)\n\n\n요약\n노트, 녹음, 웹 요약\n레코더 요약, 제미나이\n알림, 메시지, 메일 요약\n\n\n사진 편집\n생성형 편집, 지우기\n지우개, 편집 기능(기종별)\n클린업(지원 기종)\n\n\n화면 검색\n서클 투 서치 지원\n서클 투 서치 지원(기종별)\n시각 지능 등 별도 기능\n\n\n비고\n기종, 업데이트에 따라 다름\n기종, 계정 상태에 따라 다름\n지원 기종, 언어 확인\n\n\n\n \n표의 내용은 대표적인 기능 구성을 정리한 것으로, 실제 제공 여부는 모델명, 운영체제 버전, 지역, 언어 설정에 따라 달라질 수 있습니다.\n4. 내 폰에서 AI 기능 켜는 방법\n소프트웨어 업데이트: 설정에서 최신 버전으로 업데이트합니다. 기능이 추가되거나 위치가 바뀌는 경우가 많습니다.\nAI 설정 메뉴 찾기: 갤럭시는 설정의 AI 관련 메뉴, 아이폰은 설정의 Apple Intelligence 관련 메뉴에서 기능을 켜고 끌 수 있습니다.\n언어 설정 확인: 기능이 지원하는 언어와 기기 언어가 맞는지 확인합니다.\n필요한 언어 팩과 모델 내려받기: 오프라인 사용을 원하면 와이파이 환경에서 미리 내려받아 둡니다.\n권한 확인: 마이크, 카메라, 화면 읽기 같은 권한이 기능에 필요한지 확인하고 최소한으로 허용합니다.\n5. 무료로 쓸 때 꼭 확인할 점\n무료 제공 기간과 범위: 일부 AI 기능은 무료 제공 범위가 정책에 따라 바뀔 수 있습니다. 제조사 공지를 확인하세요.\n구독 연동 기능: 제미나이의 고급 모델이나 추가 기능은 구독 여부에 따라 달라질 수 있습니다.\n데이터 사용량: 클라우드 기반 기능은 데이터를 쓰므로 와이파이 환경을 권장합니다.\n결제 안내 확인: 사용 중 결제 유도 화면이 나오면 내용을 꼼꼼히 읽고 진행하세요.\n6. 개인정보와 보안 주의사항\n민감한 대화와 문서는 주의: 금융 정보, 신분증, 건강 정보가 담긴 화면은 AI에게 보여 주기 전에 신중히 판단하세요.\n처리 방식 확인: 기능 설명에서 기기 내 처리인지 서버 전송인지 확인합니다.\n통화 녹음과 요약: 상대방의 동의와 관련 법규를 반드시 확인하세요.\nAI 결과 검증: 요약과 번역은 틀릴 수 있으니 중요한 내용은 원문을 확인하세요.\nAI 편집 사진 표시: 편집한 사진을 공유할 때 오해의 소지가 있다면 편집 사실을 밝히는 것이 좋습니다.\n7. 자주 묻는 질문 (FAQ)\nQ1. 내 폰에서 AI 기능이 안 보여요.\n기종과 운영체제 버전, 지역, 언어 설정이 지원 조건에 맞지 않을 수 있습니다. 먼저 소프트웨어를 최신으로 업데이트하고 설정 메뉴에서 해당 기능을 검색해 보세요. 그래도 없다면 제조사 공식 안내에서 지원 기종을 확인하세요.\nQ2. 인터넷이 없어도 쓸 수 있나요?\n기기 안에서 처리되는 일부 기능은 오프라인에서도 동작하지만, 기능마다 다릅니다. 언어 팩을 미리 내려받아야 하는 경우도 있으니 사용 전에 확인하세요.\nQ3. AI 기능을 쓰면 배터리가 더 빨리 닳나요?\n기능을 집중적으로 사용하면 배터리 소모가 늘 수 있습니다. 필요 없는 기능은 설정에서 꺼 두고, 사용량이 많다면 배터리 사용 통계를 확인해 보세요.\nQ4. 안드로이드와 아이폰 중 어느 쪽 AI가 더 좋은가요?\n기능마다 강점이 다르고 지원 기종과 언어에 따라 체감이 달라집니다. 내가 자주 쓰는 기능(통역, 요약, 사진 편집 등)을 기준으로 비교하는 것이 가장 정확합니다.\n마무리: 기능을 알면 스마트폰이 달라집니다\n스마트폰 AI 기능은 한꺼번에 다 익히기보다, 가장 불편했던 상황 하나를 골라 먼저 써 보는 것이 좋습니다. 이번 주에는 통역, 녹음 요약, 사진 지우기 중 하나만 정해서 직접 시도해 보세요. 설정 메뉴 위치와 지원 범위는 계속 바뀌니, 내 폰의 최신 안내를 확인하며 활용해 보시기 바랍니다.",
@@ -210,6 +82,134 @@
     ]
   },
   {
+    "id": 6,
+    "imageUrl": "",
+    "title": "AI 시대, 전공자가 쌓아야 할 역량 이야기",
+    "description": "불과 몇년 전만 하더라도 코딩할 수 있다는 것만으로 쉽게 취업이 가능했습니다.이젠 어렵죠. AI 때문에 환경이 완전히 변했습니다. 이젠 몇마디 말만으로 복잡한 웹 서비스가 만들어지죠.Claude Code, Codex 가 신입 개발자의 영역을 대체했습니다. 기업은 이제 코드를 만드는 사람보다, AI를 활용해 결과물을 만드는 사람을 찾고 있습니다. 결과물이란 동작하는 코드가 아니라, 무언가 목표와 이용 가치를 가지는 제품 형태를 말합니다.즉, […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://subokim.wordpress.com/2026/10/12/ai-competency/",
+    "pubDate": "Mon, 12 Oct 2026 07:51:14 +0000",
+    "creator": "subokim",
+    "categories": [
+      "개발자교육"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "MPS 2026.2 Release Candidate Available",
+    "description": "MPS 2026.2 is almost ready! Today we’re making a release candidate build available so you can try out the upcoming release ahead of its official launch. Download MPS 2026.2 Release Candidate now: DOWNLOAD MPS 2026.2 Release Candidate Along with numerous bug fixes, the RC brings several key improvements to the previous 2026.2 EAP1 build. Linux […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/mps/2026/10/the-mps-2026-2-rc1/",
+    "pubDate": "Thu, 15 Oct 2026 09:29:06 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "releases",
+      "eap",
+      "release"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "AI 코딩 시대, DDD가 더 필요해진 이유",
+    "description": "Go 서비스에 DDD-lite와 Clean Architecture를 적용하면 뭐가 다를까? 안녕하세요, 금융쇼핑 PA 서버 Tech Lead 김지원입니다. 뱅크샐러드 서버는 대부분 Go…",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.banksalad.com/tech/banksalad-ddd-in-ai-era/",
+    "pubDate": "Thu, 15 Oct 2026 00:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "How Meta Built Forum With AI-Native Engineering",
+    "description": "Meta’s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the development cycle. We’re sharing insights into what it took to build Forum with agentic AI: how we [...]\nRead More...\nThe post How Meta Built Forum With AI-Native Engineering appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+    "pubDate": "Thu, 15 Oct 2026 19:00:03 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Android",
+      "iOS",
+      "ML Applications",
+      "Web"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "New Tools, New Workflows and the Value of the Visual Studio Subscription: What We Learned at VSLive! San Diego",
+    "description": "What happens when developers who have spent decades working with Visual Studio start rethinking how they write code, learn new skills, and expand their access to development tools?  At VSLive! San Diego, we had an opportunity to find out as developers gathered for five days of technical sessions, hands-on learning, and conversations about Visual Studio, […]\nThe post New Tools, New Workflows and the Value of the Visual Studio Subscription: What We Learned at VSLive! San Diego appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/new-tools-new-workflows-and-the-value-of-the-visual-studio-subscription-what-we-learned-at-vslive-san-diego/",
+    "pubDate": "Wed, 14 Oct 2026 14:00:25 +0000",
+    "creator": "James Rempt",
+    "categories": [
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+    "description": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including:  Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric that fundamentally changes how GPUs connect to the network MetaRoCE, our open-source AI transport protocol. Launching [...]\nRead More...\nThe post OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+    "pubDate": "Mon, 12 Oct 2026 21:19:18 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Data Center Engineering",
+      "Data Infrastructure",
+      "DevInfra",
+      "ML Applications",
+      "Networking & Traffic",
+      "Open Source"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "Python vs Go: A Practical Comparison for Developers",
+    "description": "Two things are true about Python: It’s the most popular programming language in the world, and it’s the most common companion language for Go developers. How do we know that? From the Developer Ecosystem 2026 survey by JetBrains. But we also know a lot more about the developers who use these two languages – both […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2026/10/13/python-vs-go/",
+    "pubDate": "Tue, 13 Oct 2026 09:02:11 +0000",
+    "creator": "Dominika Stankiewicz",
+    "categories": [
+      "goland",
+      "pycharm",
+      "deveco",
+      "golang",
+      "python"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "Lauterbach and JetBrains Announce TRACE32 Integration in CLion IDE",
+    "description": "Hoehenkirchen, Germany/Amsterdam, Netherlands — October 14, 2026 — Lauterbach and JetBrains have integrated TRACE32® debugging tools with CLion, JetBrains’ professional C and C++ tool. The integration enables embedded developers to debug applications on target hardware directly from CLion, bringing code editing, navigation, and hardware debugging into one development workflow. Using the Debug Adapter Protocol (DAP), […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/clion/2026/10/lauterbach-trace32-integration-in-clion/",
+    "pubDate": "Wed, 14 Oct 2026 09:40:12 +0000",
+    "creator": "Artemy Pestretsov",
+    "categories": [
+      "news",
+      "dap",
+      "debugger",
+      "embedded",
+      "trace32"
+    ]
+  },
+  {
     "id": 14,
     "imageUrl": "",
     "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads",
@@ -224,13 +224,16 @@
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
-    "description": "No description available",
+    "title": "MSVC Build Tools Version 14.52 Release Candidate Now Available",
+    "description": "We are pleased to announce the availability of the release candidate for Microsoft C++ (MSVC) Build Tools version 14.52. With this release, C++23 is ready for production use and available through the /std:c++23 compiler option; see below for details. This is the last MSVC v14.52 preview before it moves to stable status and full support. […]\nThe post MSVC Build Tools Version 14.52 Release Candidate Now Available appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 14 Oct 2026 19:51:35 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": []
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-version-14-52-release-candidate-now-available/",
+    "pubDate": "Thu, 15 Oct 2026 20:07:03 +0000",
+    "creator": "Eric Brumer",
+    "categories": [
+      "C++",
+      "MSVC"
+    ]
   }
 ]
