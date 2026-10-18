@@ -2,39 +2,57 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "CASTLE: training natural language search before the first real query",
+    "title": "Integrating Netflix’s Foundation Model into Personalization applications",
     "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828?source=rss----53c7c27702d5---4",
-    "pubDate": "Tue, 13 Oct 2026 17:01:02 GMT",
-    "creator": "Wendy Ran Wei",
+    "link": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4",
+    "pubDate": "Wed, 14 Oct 2026 20:02:22 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
       "machine-learning",
-      "ai",
-      "engineering",
-      "data",
-      "technology"
+      "embedding",
+      "transformer-model",
+      "netflix",
+      "foundation-models"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "테일즈 오브 이터니아 리마스터 발매전날 찾아본것들",
-    "description": "발매일은 2026년 10월 16일 (금) 이라고 합니다.\n글쓰는 기준으로 내일입니다.\n발매가는 39,800 원 이군요\n리마스터라 퀄리티의 변화는 거의 없는거 같습니다.\n \n원본은 PS1 으로 발매했습니다.\n발매일은 2000 년 11월 30일 입니다.\n \n내용은 다른 별의 소녀가 불시착한걸 주인공과 여주인공이 구해줬다\n마을에서 쫓겨나 세계멸망 (?) 을 구하는 여정을 떠나는 내용입니다.\n \n이 세계는 행성이 근처에 하나 더 있는거 같습니다.\n \n \n \n남코 리마스터 버전 OP 영상 공개\nhttps://www.youtube.com/watch?v=T4IV5aAImZs&list=RDT4IV5aAImZs&start_radio=1\n\n\n\n남코에서 리마스터판 오프닝을 공개했는데 퀄리티가 거의 변화가 없습니다.\n그래서 리마스터 인가봅니다.\n \n \n커버곡 발견\nhttps://www.youtube.com/watch?v=-cQKzQgIYag&list=RDh0zJy6krfS4&index=3\n\n\n\n1년전에 올라왔군요\n듣기 좋습니다.\n \n \n \n \nAI 로 생성된 커버곡 발견\nhttps://www.youtube.com/watch?v=BkOr0QOOrkc\n\n\n\nAI 로 커버곡을 생성한게 있어서 가져왔습니다.\n거의 최근에 올라왔군요 리마스터 뉴스를 보고 올린거 같습니다.\n \n발음이 좋네요\n \n \n5년전 GARNET CROW 의 LIVE 영상 발견\n찾아보니 5년전에 LIVE 영상이 있군요\nhttps://www.youtube.com/watch?v=h0zJy6krfS4&list=RDh0zJy6krfS4&start_radio=1\n\n\n\n목소리가 두껍군요\n원작자 보너스를 준다고해도 AI 가 이긴거 같습니다.\n인류는 이렇게 멸망하나 봅니다.\n \n레벨업을 피할 수 없기 때문에 플레이 시간이 꽤 긴거 같습니다. (30시간?)\n월드맵은 3D 라 회전이 가능합니다.\n나오면 좀더 변경점을 알 수 있을 것 같습니다.",
+    "title": "[XBOX] 전쟁터로 돌아온 탕아, 기어스 오브 워: E-데이",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1689",
-    "pubDate": "Thu, 15 Oct 2026 15:22:21 +0900",
-    "creator": "SID-NFT",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2506",
+    "pubDate": "Mon, 12 Oct 2026 18:49:51 +0900",
+    "creator": "(RULIWEB`Д')/",
     "categories": [
-      "게임",
-      "게임리뷰",
-      "게임출시전"
+      "리뷰"
     ]
   },
   {
     "id": 3,
+    "imageUrl": "",
+    "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+    "description": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. [...]\nRead More...\nThe post Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+    "pubDate": "Mon, 12 Oct 2026 16:01:32 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Android",
+      "Data Infrastructure",
+      "iOS",
+      "Networking & Traffic",
+      "Video Engineering",
+      "Web",
+      "Instagram"
+    ]
+  },
+  {
+    "id": 4,
     "imageUrl": "",
     "title": "Lauterbach and JetBrains Announce TRACE32 Integration in CLion IDE",
     "description": "Hoehenkirchen, Germany/Amsterdam, Netherlands — October 14, 2026 — Lauterbach and JetBrains have integrated TRACE32® debugging tools with CLion, JetBrains’ professional C and C++ tool. The integration enables embedded developers to debug applications on target hardware directly from CLion, bringing code editing, navigation, and hardware debugging into one development workflow. Using the Debug Adapter Protocol (DAP), […]",
@@ -52,7 +70,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "imageUrl": "",
     "title": "MSVC Build Tools Version 14.52 Release Candidate Now Available",
     "description": "We are pleased to announce the availability of the release candidate for Microsoft C++ (MSVC) Build Tools version 14.52. With this release, C++23 is ready for production use and available through the /std:c++23 compiler option; see below for details. This is the last MSVC v14.52 preview before it moves to stable status and full support. […]\nThe post MSVC Build Tools Version 14.52 Release Candidate Now Available appeared first on C++ Team Blog.",
@@ -67,94 +85,36 @@
     ]
   },
   {
-    "id": 5,
-    "imageUrl": "",
-    "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
-    "description": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year, like New Years Eve, that really let us see the collective impact of everything we’ve built — but none are bigger than the quadrennial [...]\nRead More...\nThe post 2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/",
-    "pubDate": "Thu, 15 Oct 2026 18:30:29 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Connectivity",
-      "Culture",
-      "Networking & Traffic",
-      "Production Engineering",
-      "Instagram",
-      "WhatsApp"
-    ]
-  },
-  {
     "id": 6,
     "imageUrl": "",
-    "title": "How Netflix Made AI Coding Agents More Efficient with JetBrains IDE Intelligence",
-    "description": "Netflix plugged JetBrains’ headless code-intelligence engine – the same one behind IntelliJ IDEA – into Claude Code and Codex, then benchmarked it against a variety of scenarios. The details and numbers are available below. At a glance Company Netflix – Application Development Platform (ADP), GenAI Platform, and Agentic SDLC teams Challenge Coding agents were struggling […]",
+    "title": "휴직일기 - 43일 차",
+    "description": "휴직기간 90일 중 거의 절반이 지나가고 있다. 그동안 했던 것들을 정리해 보니 제대로 해놓은 게 없다. 아내는 그냥 쉬라고 하는데 나는 나름의 계획이 있어서 하고 있다. 그런데 잘 되지는 않는다. 나이가 들어 뇌의 기능적인 면이 많이 바뀌어서 그런지 어제 공부한 건 오늘 다 까먹는다. 계속 반복하는 게임을 하고 있다. 운동도 나름 근육이 늘었으나 휴직 기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/10/how-netflix-made-ai-coding-agents-more-efficient/",
-    "pubDate": "Thu, 15 Oct 2026 09:29:14 +0000",
-    "creator": "Anastasia Kazakova",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "case-study",
-      "java",
-      "use-case",
-      "air",
-      "case-studies"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/87",
+    "pubDate": "Mon, 12 Oct 2026 13:28:28 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "마지막 인간 용접공",
-    "description": "토스 팟캐스트  12년 차 용접공이 말하는 블루칼라 노동의 미래",
+    "title": "How Meta Built Forum With AI-Native Engineering",
+    "description": "Meta’s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the development cycle. We’re sharing insights into what it took to build Forum with agentic AI: how we [...]\nRead More...\nThe post How Meta Built Forum With AI-Native Engineering appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/53937",
-    "pubDate": "Wed, 14 Oct 2026 09:00:00 GMT",
+    "link": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+    "pubDate": "Thu, 15 Oct 2026 19:00:03 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "Android",
+      "iOS",
+      "ML Applications",
+      "Web"
+    ]
   },
   {
     "id": 8,
-    "imageUrl": "",
-    "title": "What We Heard at AGNTCon Europe",
-    "description": "The night before AGNTCon + MCPCon Europe, we hosted the Agentic AI Foundation community at the JetBrains office in Amsterdam. The event filled up fast and went to a waitlist, which is not what I expected for a Wednesday evening discussion about how open foundations work. Ibrahim Malik opening the evening. The panel asked what […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/10/13/what-we-heard-at-agntcon-europe/",
-    "pubDate": "Tue, 13 Oct 2026 19:59:39 +0000",
-    "creator": "Katherine Druckman",
-    "categories": [
-      "events",
-      "agentic-ai-foundation",
-      "agntcon",
-      "ai",
-      "open-source"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 14 Oct 2026 19:48:20 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "software-engineering",
-      "cloud-computing",
-      "serverless",
-      "cost-optimization",
-      "resource-management"
-    ]
-  },
-  {
-    "id": 10,
     "imageUrl": "",
     "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
     "description": "No description available",
@@ -171,22 +131,54 @@
     ]
   },
   {
-    "id": 11,
+    "id": 9,
     "imageUrl": "",
-    "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
-    "description": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including:  Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric that fundamentally changes how GPUs connect to the network MetaRoCE, our open-source AI transport protocol. Launching [...]\nRead More...\nThe post OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks appeared first on Engineering at Meta.",
+    "title": "나를 거절하는 VC를 대하는 방법",
+    "description": "나는 올해로 11년째 국내 최고의 액셀러레이터 프라이머의 벤처파트너로 활동하고 있다. 지난주에 프라이머 28기 데모데이가 잘 끝났는데, 그다음 날 창업가분들을 대상으로 투자 관련 AMA 세션을 진행했다. 몇 년 전부터 데모데이 다음날 항상 진행하는 세션인데, 이제 본격적으로 첫 번째 펀드레이징을 해야 하는 창업가의 입장에서 – 프라이머 투자는 이미 받았지만, 프라이머 배치에 선발되고 투자받는 것과 실제로 많은 VC에게(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
-    "pubDate": "Mon, 12 Oct 2026 21:19:18 +0000",
+    "link": "https://www.thestartupbible.com/2026/10/what-to-do-with-vcs-that-reject-you.html",
+    "pubDate": "Wed, 14 Oct 2026 21:23:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "FoundersAtWork",
+      "fundraising",
+      "primer",
+      "Strong",
+      "vc"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4",
+    "pubDate": "Wed, 14 Oct 2026 19:59:08 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": [
+      "analytics",
+      "modern-data-stack",
+      "open-source",
+      "data-engineering",
+      "semantic-layer"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+    "description": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post describes how we designed and now operate the system at Meta’s scale and how it drives [...]\nRead More...\nThe post Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+    "pubDate": "Mon, 12 Oct 2026 16:00:50 +0000",
     "creator": "Unknown",
     "categories": [
-      "Data Center Engineering",
-      "Data Infrastructure",
-      "DevInfra",
-      "ML Applications",
-      "Networking & Traffic",
-      "Open Source"
+      "ML Applications"
     ]
   },
   {
@@ -206,60 +198,48 @@
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Junie Local Comes to the NVIDIA RTX Spark",
-    "description": "Junie Local is supported on the NVIDIA RTX Spark from day one, and Windows support moves from experimental to stable. NVIDIA’s RTX Spark platform pairs a Blackwell RTX GPU with a Grace CPU to run larger local AI models in slim laptops and compact desktops. Junie Local leverages this hardware to bring local AI coding […]",
+    "title": "Google Summer of Code 2026 With the Kotlin Foundation: Recap",
+    "description": "Google Summer of Code 2026 has wrapped up! This was the Kotlin Foundation’s fourth year participating in GSoC, bringing new contributors into the Kotlin open-source ecosystem through hands-on projects and mentorship. This year, two projects successfully reached completion, tackling two areas of the ecosystem: improving recursion support in the Kotlin/Wasm backend and building a global […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/junie/2026/10/junie-local-rtx-spark/",
-    "pubDate": "Fri, 16 Oct 2026 13:53:12 +0000",
-    "creator": "Vladimir Sotnikov",
+    "link": "https://blog.jetbrains.com/kotlin/2026/10/google-summer-of-code-2026-with-kotlin/",
+    "pubDate": "Thu, 15 Oct 2026 15:03:05 +0000",
+    "creator": "Ksenia Shneyveys",
     "categories": [
-      "agentic-ai",
-      "coding",
-      "jetbrains-ai",
-      "new-products",
-      "junie",
-      "local-ai",
+      "education",
       "news",
-      "release"
+      "gsoc",
+      "open-source"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
-    "description": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objective automated testing for Android applications.” The recognition celebrates a decade of impact from work that began at University College London and went [...]\nRead More...\nThe post Sapienz Receives ISSTA 2026 Impact Paper Award appeared first on Engineering at Meta.",
+    "title": "엘라스틱 Anomaly Detection Job",
+    "description": "엘라스틱이 데이터 성격별로 알아서 이상징후를 분석해주는 ML 작업 기능을 제공한다. ECS와 호환되는 테이블 구조일 때만 ML 작업 선택 가능. 다음은 winlogbeat로 윈도우 이벤트 연동 시 선택 가능한 ML 작업 내역.   \n\n\n\n\n\n각 작업은 다양한 분석 지표를 포함하고 있다. 'Security: Authentication' 작업 선택 시 생성되는 분석 지표 내역.\n\n\n\n\n분석 목적에 맞는 필드 구조와 데이터가 존재하면 해당 지표가 생성된다.\n\n\n\n\nfilebeat로 아파치 로그 연동 시 선택 가능한 ML 작업 내역. \n\n\n\n\n아주 멍텅구리는 아님. \n\n\n\n\n그래서 쓸만할까? 이런 범용 ML의 정확도는 아직까지는 믿고 쓸 만큼의 정확도를 보장하지 못한다. 잘못된 결과가 나와도 총대 메겠다는 마인드가 아니라면 스스로 분석할 수 있을 때 참고하는 보조 지표 수준으로 활용하는 게 최선.\n\n관련 글\n머신러닝의 한계?\n노가다는 AI에게",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
-    "pubDate": "Thu, 15 Oct 2026 16:00:59 +0000",
+    "link": "https://kangmyounghun.blogspot.com/2026/10/anomaly-detection-job.html",
+    "pubDate": "2026-10-17T06:00:11.398Z",
     "creator": "Unknown",
-    "categories": [
-      "Culture",
-      "DevInfra",
-      "Open Source"
-    ]
+    "categories": []
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "자기소개서&middot;이력서 AI 첨삭 프롬프트 7가지: 하반기 공채 대비 실전 가이드",
-    "description": "하반기 공채 시즌이 되면 자기소개서 문항 앞에서 몇 시간씩 멈춰 있게 됩니다. 이때 AI를 \"대신 써 주는 도구\"로 쓰면 누구나 비슷한 글이 나오지만, \"내 경험을 정리하고 다듬어 주는 코치\"로 쓰면 이야기가 달라집니다. 이 글에서는 채용 공고 분석부터 경험 정리, 문항별 초안, 첨삭, 면접 대비까지 단계별로 쓰는 AI 첨삭 프롬프트 7가지를 정리했습니다.\n이 글의 핵심 요약\n1. 사실과 경험은 내가, 구조와 표현은 AI가 맡는다는 원칙을 지킵니다.\n2. 채용 공고와 직무 설명을 먼저 AI에게 분석시키면 방향이 선명해집니다.\n3. 경험은 STAR(상황, 과제, 행동, 결과) 구조로 정리한 뒤 문항에 맞춥니다.\n4. 글자 수, 기업명, 허위 내용은 반드시 직접 다시 확인합니다.\n1. AI 첨삭을 시작하기 전에 준비할 것\n준비물\n어디서 구하나\n왜 필요한가\n\n\n채용 공고 전문\n기업 채용 페이지\n자격 요건, 우대 사항에서 핵심 키워드를 뽑습니다\n\n\n직무 설명\n공고의 직무 소개, 공기업은 직무기술서\n직무에서 실제로 하는 일을 알아야 경험을 연결할 수 있습니다\n\n\n기업 인재상, 최근 소식\n기업 홈페이지, 보도자료\n지원동기와 입사 후 포부의 재료가 됩니다\n\n\n내 경험 목록\n직접 작성\n아르바이트, 프로젝트, 동아리, 인턴 등 날것의 기록\n\n\n\n \n특히 내 경험 목록은 AI가 대신 만들어 줄 수 없는 유일한 재료입니다. 잘 쓴 문장보다 구체적인 숫자와 장면이 담긴 메모가 훨씬 중요합니다.\n\n\n2. 단계별 AI 첨삭 프롬프트 7가지\n프롬프트 1. 채용 공고 분석\n아래는 [회사명] [직무명] 채용 공고야. 이 공고에서 회사가 가장 중요하게 보는 역량 5가지를 우선순위대로 뽑고, 각 역량을 보여 줄 수 있는 경험의 예시와 자기소개서에 넣으면 좋은 키워드를 표로 정리해 줘.\n[공고 전문 붙여 넣기]\n프롬프트 2. 경험을 STAR 구조로 정리\n내 경험을 메모 형태로 적을게. 각 경험을 STAR 구조(상황, 과제, 행동, 결과)로 정리해 주고, 결과에 숫자가 빠져 있으면 어떤 숫자를 확인해서 넣으면 좋을지 질문으로 알려 줘. 내가 쓰지 않은 사실은 절대 지어내지 마.\n[경험 메모 붙여 넣기]\n프롬프트 3. 문항별 초안 구조 잡기\n자기소개서 문항은 \"[문항 전문]\"이고 글자 수 제한은 [글자 수]자야. 앞에서 정리한 경험 중 이 문항에 가장 잘 맞는 경험을 골라 이유를 설명하고, 두괄식으로 쓸 수 있게 소제목, 첫 문장, 문단별 핵심 내용을 개요로 먼저 제안해 줘. 바로 완성 글을 쓰지는 마.\n개요를 보고 내가 직접 초안을 쓴 뒤 다음 단계로 넘어가는 것이 핵심입니다. 이렇게 해야 내 말투와 경험이 살아 있는 글이 됩니다.\n프롬프트 4. 내가 쓴 초안 첨삭\n아래는 내가 직접 쓴 자기소개서 초안이야. 내용은 바꾸지 말고 ①두괄식인지 ②문장마다 구체적인 근거가 있는지 ③직무와 연결되는지 ④중복되거나 늘어지는 표현이 있는지 기준으로 문제가 되는 문장을 표로 짚어 주고, 각 문장의 수정안을 제시해 줘.\n[초안 붙여 넣기]\n\n\n프롬프트 5. AI가 쓴 티 줄이기\n아래 글에서 상투적이거나 지나치게 매끄러워서 AI가 쓴 것처럼 보일 수 있는 표현을 찾아 줘. 예를 들어 \"끊임없이 노력하는\", \"소통의 중요성을 깨달았습니다\" 같은 표현이야. 각 표현을 내 경험의 구체적인 장면이나 숫자로 바꾸려면 어떤 정보가 필요한지 질문해 줘.\n[글 붙여 넣기]\n프롬프트 6. 이력서 경력 문장을 성과형으로\n이력서 경력과 활동 항목을 성과 중심 문장으로 바꾸고 싶어. \"무엇을 했다\"가 아니라 \"어떤 행동으로 어떤 결과를 냈다\"는 형태로, 한 줄 40자 안팎으로 다듬어 줘. 숫자가 없는 항목은 넣을 수 있는 지표를 제안만 하고 숫자를 지어내지는 마.\n[경력 항목 붙여 넣기]\n프롬프트 7. 면접 예상 질문과 꼬리 질문\n아래 자기소개서를 읽은 면접관이라고 가정해 줘. 이 글을 바탕으로 나올 만한 질문 10개와, 각 질문에 이어질 꼬리 질문을 1개씩 만들어 줘. 특히 내가 과장했거나 근거가 약해 보이는 부분을 파고드는 질문을 꼭 포함해 줘.\n[최종 자기소개서 붙여 넣기]\n3. 문항 유형별 첨삭 포인트\n문항 유형\n첨삭 포인트\nAI에게 추가로 요청할 것\n\n\n지원동기\n회사와 직무를 고른 이유가 나만의 경험과 연결되는가\n기업 최근 이슈와 내 경험의 연결 고리 3가지\n\n\n직무역량\n역량을 증명하는 행동과 결과가 구체적인가\n공고 키워드와 내 경험의 매칭표\n\n\n협업·갈등 해결\n갈등 상황에서 내가 한 행동이 분명한가\n상대 입장을 고려한 표현으로 다듬기\n\n\n성장 과정·가치관\n가치관이 실제 선택과 행동으로 드러나는가\n추상적 표현을 장면 묘사로 바꾸기\n\n\n입사 후 포부\n단계별 목표가 직무와 현실적으로 연결되는가\n입사 1년, 3년, 5년 목표 예시\n\n\n\n \n\n\n4. AI 첨삭 시 꼭 지켜야 할 주의사항\n허위 경험은 절대 금지: AI가 그럴듯한 사례를 만들어 넣는 경우가 있습니다. 내가 하지 않은 일은 한 줄도 남기지 마세요. 면접에서 반드시 드러납니다.\n글자 수는 직접 확인: AI는 한국어 글자 수를 정확히 세지 못하는 경우가 많습니다. 최종 글은 글자 수 세기 도구로 다시 확인하세요.\n기업명 실수 주의: 여러 기업에 지원하며 글을 재활용하면 다른 회사 이름이 남는 실수가 생깁니다. 제출 전 기업명을 검색해서 확인하세요.\n개인정보는 최소한으로: 주민등록번호, 연락처, 주소는 AI에게 입력할 필요가 없습니다.\n기업의 AI 사용 방침 확인: 일부 기업은 AI 작성 여부를 확인하거나 유사도 검사를 하기도 합니다. 공고에 관련 안내가 있는지 살펴보세요.\n5. 자주 묻는 질문 (FAQ)\nQ1. AI가 써 준 자기소개서를 그대로 내도 되나요?\n권하지 않습니다. 같은 프롬프트를 쓰는 지원자가 많아 문장이 비슷해지기 쉽고, 내 경험이 아닌 내용이 섞일 위험도 있습니다. 개요와 첨삭에 AI를 쓰고, 문장은 내 말투로 직접 완성하는 방식이 안전합니다.\nQ2. 무료 챗봇으로도 충분한가요?\n네. 이 글의 프롬프트는 텍스트 입력만으로 동작하기 때문에 무료 버전에서도 충분히 활용할 수 있습니다. 다만 긴 공고와 여러 문항을 한 번에 넣으면 답변이 짧아질 수 있으니 문항별로 나눠서 요청하세요.\nQ3. 경험이 별로 없는데 어떻게 하죠?\n큰 경험이 아니어도 괜찮습니다. 아르바이트에서 손님 응대 방식을 바꾼 일, 팀 과제에서 일정표를 만든 일처럼 작은 행동과 결과를 STAR로 정리하면 충분한 재료가 됩니다. 프롬프트 2를 활용해 AI에게 질문을 받아 보세요.\nQ4. 면접 준비에도 AI를 쓸 수 있나요?\n프롬프트 7로 예상 질문을 뽑은 뒤, 답변을 소리 내어 말해 보고 그 내용을 다시 AI에게 보여 주며 \"더 짧고 명확하게 만들려면?\"이라고 물어보면 모의 면접처럼 연습할 수 있습니다.\n마무리: 경험은 내가, 다듬기는 AI가\n좋은 자기소개서는 화려한 문장이 아니라 구체적인 경험에서 나옵니다. 오늘 소개한 7가지 프롬프트를 공고 분석, 경험 정리, 초안, 첨삭, 면접 순서대로 써 보세요. AI는 생각을 정리하고 표현을 다듬는 코치로만 두고, 마지막 한 문장까지 내 목소리로 마무리하면 하반기 공채에서 분명 차이가 납니다.",
+    "title": "CASTLE: training natural language search before the first real query",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483742",
-    "pubDate": "Fri, 16 Oct 2026 11:45:45 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828?source=rss----53c7c27702d5---4",
+    "pubDate": "Tue, 13 Oct 2026 17:01:02 GMT",
+    "creator": "Wendy Ran Wei",
     "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "STAR 기법",
-      "면접 예상 질문",
-      "이력서 작성",
-      "자기소개서 AI",
-      "자소서 첨삭",
-      "챗gpt 자소서",
-      "취업 준비",
-      "하반기 공채"
+      "machine-learning",
+      "ai",
+      "engineering",
+      "data",
+      "technology"
     ]
   }
 ]
