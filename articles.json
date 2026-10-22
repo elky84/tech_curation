@@ -2,136 +2,137 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "마지막 인간 용접공",
-    "description": "토스 팟캐스트  12년 차 용접공이 말하는 블루칼라 노동의 미래",
+    "title": "헤드리스 브라우저 Lightpanda",
+    "description": "엔진을 바닥부터 만든 브라우저가 새로 나왔다고 해서 놀라움과 함께 테스트 해 봤다. 사람이 아닌 기계를 위한 브라우저라는 모토를 걸고 있는 라이트판다(Lightpanda)라는 브라우저이다. 크롬이나 파이어폭스도 UI가 없는 헤드리스 모드를 지원한다. 하지만 내부적으로는 페이지를 랜더하기 때문에 헤비하게 돌리면 시스템 자원을 상당히 많이 사용하는데 라이트판다는 페이지 랜더를 하지 않는다고 한다.\n\r\n\r\ncurl -fsSL https://pkg.lightpanda.io/install.sh | bash\n\r\n\r\n간단히 설치할 수 있다. 설치하고 lightpanda serve로 서버를 띄우고 노드에서 플레이라이트와 같은 기존 툴에서 크롬 개발도구 프로토콜(Chrome DevTools Protocol)로 연결해 사용하는 방식이다.\n\r\n\r\nconst browser = await chromium.connectOverCDP('ws://127.0.0.1:9222');\n\r\n\r\n사용하기 위해서 별도 라이브러리 없이 플레이라이트를 그냥 쓰면 된다. 기존에 퍼피티어나 플레이라이트를 쓰고 있었으면 CDP 정의만 해주면 이론상 그대로 돌아간다는 말이다. 공식으로 제공하는 테스트 스크립트를 돌려봤는데 잘 작동한다.\n\r\n\r\n서버를 올린상태에서 메모리 사용량을 보니 10메가 바이트다. 물론 웹페이지를 올리면 늘겠지만 기본 메모리 사용량이 충격적이어서 화면 랜더를 안하니 훨씬 빠르고 가볍다는 말이 믿음이 간다.\n\r\n\r\n플레이라이트는 안드로이드 폰에서 구동하는 것을 실패 했었는데 라이트판다는 실행될지 시도해 봤다. 일단 터먹스(Termux)에서 바로 실행은 안된다.\n\r\n\r\n~ $ lightpanda serve --host 127.0.0.1 --port 9222\r\nerror: \"/data/data/com.termux/files/home/.local/bin/lightpanda\" has unexpected e_type: 2\n\r\n\r\n리눅스용 Arm64 빌드가 설치되어서 실행파일이 맞지 않는다. 리눅스에서 돌리기 위해 proot를 사용해서 우분투를 설치한다.\n\r\n\r\npkg install proot-distro\r\nproot-distro install ubuntu\r\nproot-distro login ubuntu\n\r\n\r\n그 안에서 실행하면 서버는 잘 뜬다.\n\r\n\r\nroot@localhost:~/lightpanda# lightpanda serve\r\n$time=1791509975793 $scope=app $level=warn $msg=\"No certificates loaded\"\r\n$time=1791509975795 $scope=note $level=note $msg=\"config tips\" robots=\"use '--obey-robots' to use a sites robots.txt\" meta=\"use '--log-filter note' to silence this message\"\r\n$time=1791509975796 $scope=note $level=note $msg=\"server running\" address=127.0.0.1:9222 max_connections=16208 max_browser_connections=16\n\r\n\r\n하지만 테스트 스크립트를 돌리면 지원하지 않는 플랫폼이라는 오류가 나는데 플레이라이트가 기본 브라우저를 사용하지 않도록 환경변수를 설정해 주면 된다.\n\r\n\r\nPLAYWRIGHT_BROWSERS_PATH=0 node index.js\n\r\n\r\n그 다음에는 설치한 우분투에 인증서가 없어서 웹페이지 접속이 안되는데 인증서를 깔아준다.\n\r\n\r\napt update\r\napt install --reinstall ca-certificates\r\nupdate-ca-certificates\n\r\n\r\n여기까지 하니 잘 된다. 터먹스에서도 라이트판다를 이용해서 플레이라이트 라이브러리를 사용할 수 있다. 기존에 플레이라이트 쓰던거를 교체해 볼까도 생각해 봤지만 accessibility.kr은 스크린 샷을 저장하기 때문에 라이트판다로 대체하기에는 힘들 것 같다. 잘 돌아가고 있는 것을 건드릴 필요는 없을 것 같아서 여기까지만 하고 나중에 서버 망가지면 다시 시도해 봐야 겠다.\n\r\n\r\n(LLM 때문에 블로그 글이 무슨 의미인가 싶다가도 귀찮음을 누르고 또 조금씩 써본다.)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/53937",
-    "pubDate": "Wed, 14 Oct 2026 09:00:00 GMT",
+    "link": "https://hyeonseok.com/blog/951",
+    "pubDate": "Sun, 18 Oct 2026 12:20:13 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Netflix Conductor: The Next Chapter",
-    "description": "No description available",
+    "title": "Junie Local Comes to the NVIDIA RTX Spark",
+    "description": "Junie Local is supported on the NVIDIA RTX Spark from day one, and Windows support moves from experimental to stable. NVIDIA’s RTX Spark platform pairs a Blackwell RTX GPU with a Grace CPU to run larger local AI models in slim laptops and compact desktops. Junie Local leverages this hardware to bring local AI coding […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 14 Oct 2026 19:50:17 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://blog.jetbrains.com/junie/2026/10/junie-local-rtx-spark/",
+    "pubDate": "Fri, 16 Oct 2026 13:53:12 +0000",
+    "creator": "Vladimir Sotnikov",
     "categories": [
-      "workflow",
-      "distributed-systems",
-      "orchestration",
-      "cassandra",
-      "netflix-conductor"
+      "agentic-ai",
+      "coding",
+      "jetbrains-ai",
+      "new-products",
+      "junie",
+      "local-ai",
+      "news",
+      "release"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Dynamics of Sentiment and Attitudes Toward AI Among Developers",
-    "description": "For the last three years, we’ve been measuring developer sentiment and attitudes toward the role of AI across the software development lifecycle via our Developer Ecosystem surveys and AI Pulse surveys. The leap happening this year is striking. You can feel it in the air – especially in JetBrains Air – and see it in […]",
+    "title": "Stop waiting on a failed build",
+    "description": "Stop solution builds after the first project failure so you can return to fixing the error sooner.\nThe post Stop waiting on a failed build appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/10/dynamics-of-sentiment-and-attitudes-toward-ai-among-developers/",
-    "pubDate": "Mon, 19 Oct 2026 11:57:55 +0000",
-    "creator": "Mikhail Bogdanov",
+    "link": "https://devblogs.microsoft.com/visualstudio/stop-waiting-on-a-failed-build/",
+    "pubDate": "Thu, 15 Oct 2026 14:00:50 +0000",
+    "creator": "Mads Kristensen",
     "categories": [
-      "agentic-ai",
-      "ai",
-      "deveco",
-      "jetbrains-ai",
-      "research",
-      "survey"
+      "Visual Studio"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "REA 역공학 도구 기반 DWG 캐드파일 분석, 캐드 뷰어 및 모델러 도구 Web App 개발기",
-    "description": "이 글은 역공학 도구인 REA(Reverse Engineering Agents)를 설치하고, 이를 이용해, AutoCAD DWG 바이너리 파일 구조를 분석한 후, 그 결과를 바탕으로 CAD 웹 뷰어를 바이브 코딩으로 개발한 과정을 간략히 기록해 남긴다. 아울러, 윈도우 실행파일 분석기로 유명한 dependency, 3D solid 모델러 등도 같은 방식으로 역공학해 웹 기반 실행 도구로 변환 개발한 후 결과를 정리한다. \n우선, DWG 파일 뷰어 개발용 테스트 대상은 연구원 본관동 평면도 DWG 파일 2종이다. 하나는 AutoCAD 2004 포맷(AC1018), 다른 하나는 2010 포맷(AC1024)으로, 둘 다 한글 텍스트와 한글 SHX 빅폰트를 사용한다. 전체 작업은 클로드 코드에 프롬프트를 주는 방식으로 진행했고, 분석부터 웹 앱 개발, 테스트까지 한 시간 남짓 걸렸다.\n\n개발된 웹 뷰어로 연 본관동 평면도 (6장 시트, 다크 모드)\nREA 소개\nREA는 Ghidra, JADX 같은 역공학 엔진들을 MCP(Model Context Protocol) 서버로 묶어, 클로드 코드 같은 LLM 에이전트가 바이너리 분석을 직접 수행할 수 있게 해주는 도구다. 네이티브 바이너리 디컴파일(exe, dll 등), 안드로이드 APK 분석, 일렉트론/자바스크립트 번들 분석, 펌웨어 추출 등 200개가 넘는 분석 도구를 제공한다. 분석 결과에는 증거(Evidence)가 함께 붙어 나오므로, LLM이 지어낸 내용인지 실제 바이너리에서 확인된 내용인지 구분할 수 있다.\nREA 설치 방법\n윈도우 기준 설치 과정은 다음과 같다. 관리자 권한 없이 모두 포터블로 설치했다.\n1) JDK 21 설치 (Ghidra 실행용). Temurin 포터블 zip을 받아 압축 해제.\nclaude mcp add rea -- cmd.exe /d /c npx -y rea-agents@latest mcp\n등록 후 doctor 명령으로 Ghidra, JADX 프로바이더가 healthy인지 확인하면 된다. npx 첫 실행은 패키지 다운로드 때문에 타임아웃될 수 있는데, 이 경우 앱을 재시작하면 연결된다.\nDWG 파일 구조 분석\n분석과 개발에 사용한 프롬프트는 대략 다음과 같다.\n이 폴더 아래의 dwg 파일을 REA로 분석해 구조를 파악해줘. 헤더 필드, 섹션 구조, 한글 텍스트 인코딩, 폰트(.shx 빅폰트/.ttf)를 확인하고 바이트 증거와 함께 문서로 정리해줘. 확인 안 된 항목은 추정으로 표시할 것.\n이후, 그 결과를 활용해 Rust 웹 앱 개발 실행해. 한글 텍스트가 정확히 표시되어야 해.\n이런식으로 하네스하면서 진행한다. 처음부터 완벽한 컨텍스트와 Goal을 넣고 하는 편이 좋으나 이 정도 도구는 적절히 피드백 주면서 개발해도 큰 무리가 없다.  \nREA로 DWG 파일을 등록해 sha256 무결성 증거를 확보하고, 파일 헤더를 바이트 단위로 분석했다. 참고로 윈도우용 Ghidra 백엔드는 PE 등 실행 파일 위주라 DWG 같은 raw 데이터 이미지의 바이트 읽기는 지원하지 않았다. 이 부분은 자체 분석 스크립트와 LibreDWG(dwg2dxf) 교차 검증으로 보완했다. 확인된 주요 내용은 다음과 같다.\n- 파일 헤더 고정 필드: 버전 문자열(AC1018/AC1024), 썸네일 주소(0x0D), 코드페이지(0x13), SummaryInfo 주소(0x20)\n분석 결과는 바이트 증거와 함께 보고서로 정리했고, 이 보고서가 이후 웹 앱 개발의 설계 근거가 됐다.\nRust 한글 지원 CAD 웹 뷰어 개발\n구성은 cargo 워크스페이스로, DWG 헤더 파서/DXF 파서/MTEXT 서식 제거를 담당하는 라이브러리 크레이트와 axum 웹 서버 크레이트로 나눴다. 파이프라인은 다음과 같다.\n업로드 DWG -> 자체 헤더 파싱(버전, 코드페이지, 썸네일) -> LibreDWG dwg2dxf 사이드카 변환 -> 자체 DXF 파싱 -> 평탄화된 엔티티 JSON -> HTML 캔버스 렌더링\n한글 처리가 이번 개발의 핵심이었다. DXF의 $ACADVER를 보고 AC1018 이하는 encoding_rs의 EUC-KR 디코더로, AC1021 이상은 UTF-8로 분기한다. MTEXT 서식 코드는 파서에서 제거한다. 도면의 원본 폰트(whgtxt.shx 등 셰이프 폰트)는 라이선스와 포맷 문제로 재현하지 않고 Noto Sans KR 웹폰트로 대체했는데, 실명 표기 용도로는 충분하다.\n\n1층 평면도 확대. 건설정보연구부, 숙직실 등 한글 실명이 CP949 디코딩으로 표시된다 (AC1018)\n\nAC1024 파일의 지하층 평면도. MTEXT 서식 코드를 제거한 한글(매점, 문서고, 교육실)이 표시된다\n뷰어 UX는 CAD 사용자에게 익숙한 구성으로 만들었다. 파일/보기 메뉴바, 레이어 패널(검색 필터, 표시 토글, 색상 피커로 레이어 색 즉시 변경), 휠 확대/축소와 드래그 이동, 커서 도면 좌표 표시, 다크/라이트 모드, 한국어/영어 UI 전환을 지원한다.\n\n보기 메뉴와 레이어 검색 필터\n\n라이트 모드 + 영문 UI\n단위 테스트 16개로 CP949 디코딩(본관동 1층평면도, 레이어명 구조기둥), MTEXT 서식 제거(실제 도면 샘플), INSERT 블록 전개, 실파일 헤더 검증을 고정했다.\n개발 끝난 결과는 다음과 같다. 보다시피 거의 완벽하게 기준이 된 도면 DWG 파일을 파싱, 처리 및 뷰어 렌더링되었다. \n\n\n\n\n\n\n\n\n개발 중 만난 문제들\n바이브 코딩이라고 해도 중간마다 하네스해야 하고, 간단한 디버깅은 피할 수 없었다. 기록해 둘 만한 것들은 다음과 같다.\n- 윈도우 GNU 러스트 툴체인에서 raw-dylib을 쓰는 최신 windows-sys 크레이트가 dlltool 오류로 빌드 실패. tokio를 1.38로 고정해 해결\n마무리\nREA 같은 역공학 MCP와 LLM 에이전트를 결합하면, 바이너리 포맷 분석부터 그 결과를 반영한 앱 개발까지 하나의 대화 흐름 안에서 처리할 수 있다. 이번 작업은 분석, 개발, 테스트, 렌더링 검증까지 한 시간 남짓 걸렸다. 다만 분석 결과를 그대로 믿기보다 LibreDWG 같은 검증된 도구와 교차 확인하는 과정, 그리고 중간 이슈를 확인하고 목표까지 가도록 가이드해줄 테스트케이스 작성은 여전히 사람이 챙겨야 할 몫이다.\n부록: 윈도우 실행파일 분석기 및 솔리드 모델러 웹 버전 도구 개발\n참고로 다음도 같은 방식으로 개발된 실행파일 분석기(개발자 사이 유명한 Dependency)도구 웹앱 버전, 솔리드 모델링 캐드 웹앱 버전이다.\n앞서 했던 프로세스와 동일하게 진행하였다. dependency는 주요 exe, dll 과 같은 컨텍스트를 바이브코딩도구에 입력하고, 프롬프트로 개발 명령을 내렸다. 이 도구는 실행파일이 300k이하라 30분정도면 개발이 완료되었다. 실행해 보면 다음 그림과 같이 웹 기반으로 exe, dll 파일을 입력받아 내부 구조를 분석하고 의존성 트리와 관련 이슈들을 분석한 후, 알기 쉽게 데쉬보드 차트 형식으로 분석 결과를 정리해 준다. 원본 도구가 단순히 윈도우에서 만 실행되고 의존성 트리 등 만 표출해 준 것에 비해 여러 기능을 추가할 수 있다. \n\n\n\n\n\n\n역공학된 Dependency 웹앱 버전(링크)\n\n마찬가지로, 3D 솔리드 모델링 도구도 유명한 관련 모델러를 참고해 같은 방식으로 개발을 하였고, 결과는 다음과 같다. 작업 과정 하네스를 포함해 전체 개발에 걸린 시간은 2~3시간 미만이다. 웹 기반 도구로 개발되었고, 다음 그림과 같이 유명 상용 모델러와 큰 차이가 없는 UX 경험을 할 수 있다. \n\n\n\n\n다음 영상은 실제로 이렇게 개발된 모델러를 통해 스케치 > 구속제약 설계 > 3차원 모델링 > 파라메트릭 수정 > 최종 완성된 결과를 보여준다. 단, 나머지 어셈블리 등 모델러 기능은 시간이 더 필요한 부분이라 계속 진행하지는 않았고 차후 작업으로 남겨두었다.\n\n\n\n역공학된 3차원 솔리드 모델러\n\n\n레퍼런스\n\n\n\n\n\n\n\n\n\nREA (rea-agents): https://www.npmjs.com/package/rea-agents\nGhidra: https://github.com/NationalSecurityAgency/ghidra\nLibreDWG: https://www.gnu.org/software/libredwg/\nhttps://github.com/tangency-labs/solidcraft\nODA, Open Design Specification for .dwg files",
+    "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+    "description": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world knowledge built into LLMs makes ad matching more intelligent and precise, compounding gains for advertisers. GenRecs Tokenization is the foundational data representation that [...]\nRead More...\nThe post GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/10/rea-dwg-rust-cad.html",
-    "pubDate": "2026-10-17T16:51:25.493Z",
+    "link": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+    "pubDate": "Mon, 19 Oct 2026 16:00:47 +0000",
     "creator": "Unknown",
-    "categories": []
+    "categories": [
+      "ML Applications"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "MSVC Build Tools Version 14.52 Release Candidate Now Available",
-    "description": "We are pleased to announce the availability of the release candidate for Microsoft C++ (MSVC) Build Tools version 14.52. With this release, C++23 is ready for production use and available through the /std:c++23 compiler option; see below for details. This is the last MSVC v14.52 preview before it moves to stable status and full support. […]\nThe post MSVC Build Tools Version 14.52 Release Candidate Now Available appeared first on C++ Team Blog.",
+    "title": "자기소개서&middot;이력서 AI 첨삭 프롬프트 7가지: 하반기 공채 대비 실전 가이드",
+    "description": "하반기 공채 시즌이 되면 자기소개서 문항 앞에서 몇 시간씩 멈춰 있게 됩니다. 이때 AI를 \"대신 써 주는 도구\"로 쓰면 누구나 비슷한 글이 나오지만, \"내 경험을 정리하고 다듬어 주는 코치\"로 쓰면 이야기가 달라집니다. 이 글에서는 채용 공고 분석부터 경험 정리, 문항별 초안, 첨삭, 면접 대비까지 단계별로 쓰는 AI 첨삭 프롬프트 7가지를 정리했습니다.\n이 글의 핵심 요약\n1. 사실과 경험은 내가, 구조와 표현은 AI가 맡는다는 원칙을 지킵니다.\n2. 채용 공고와 직무 설명을 먼저 AI에게 분석시키면 방향이 선명해집니다.\n3. 경험은 STAR(상황, 과제, 행동, 결과) 구조로 정리한 뒤 문항에 맞춥니다.\n4. 글자 수, 기업명, 허위 내용은 반드시 직접 다시 확인합니다.\n1. AI 첨삭을 시작하기 전에 준비할 것\n준비물\n어디서 구하나\n왜 필요한가\n\n\n채용 공고 전문\n기업 채용 페이지\n자격 요건, 우대 사항에서 핵심 키워드를 뽑습니다\n\n\n직무 설명\n공고의 직무 소개, 공기업은 직무기술서\n직무에서 실제로 하는 일을 알아야 경험을 연결할 수 있습니다\n\n\n기업 인재상, 최근 소식\n기업 홈페이지, 보도자료\n지원동기와 입사 후 포부의 재료가 됩니다\n\n\n내 경험 목록\n직접 작성\n아르바이트, 프로젝트, 동아리, 인턴 등 날것의 기록\n\n\n\n \n특히 내 경험 목록은 AI가 대신 만들어 줄 수 없는 유일한 재료입니다. 잘 쓴 문장보다 구체적인 숫자와 장면이 담긴 메모가 훨씬 중요합니다.\n\n\n2. 단계별 AI 첨삭 프롬프트 7가지\n프롬프트 1. 채용 공고 분석\n아래는 [회사명] [직무명] 채용 공고야. 이 공고에서 회사가 가장 중요하게 보는 역량 5가지를 우선순위대로 뽑고, 각 역량을 보여 줄 수 있는 경험의 예시와 자기소개서에 넣으면 좋은 키워드를 표로 정리해 줘.\n[공고 전문 붙여 넣기]\n프롬프트 2. 경험을 STAR 구조로 정리\n내 경험을 메모 형태로 적을게. 각 경험을 STAR 구조(상황, 과제, 행동, 결과)로 정리해 주고, 결과에 숫자가 빠져 있으면 어떤 숫자를 확인해서 넣으면 좋을지 질문으로 알려 줘. 내가 쓰지 않은 사실은 절대 지어내지 마.\n[경험 메모 붙여 넣기]\n프롬프트 3. 문항별 초안 구조 잡기\n자기소개서 문항은 \"[문항 전문]\"이고 글자 수 제한은 [글자 수]자야. 앞에서 정리한 경험 중 이 문항에 가장 잘 맞는 경험을 골라 이유를 설명하고, 두괄식으로 쓸 수 있게 소제목, 첫 문장, 문단별 핵심 내용을 개요로 먼저 제안해 줘. 바로 완성 글을 쓰지는 마.\n개요를 보고 내가 직접 초안을 쓴 뒤 다음 단계로 넘어가는 것이 핵심입니다. 이렇게 해야 내 말투와 경험이 살아 있는 글이 됩니다.\n프롬프트 4. 내가 쓴 초안 첨삭\n아래는 내가 직접 쓴 자기소개서 초안이야. 내용은 바꾸지 말고 ①두괄식인지 ②문장마다 구체적인 근거가 있는지 ③직무와 연결되는지 ④중복되거나 늘어지는 표현이 있는지 기준으로 문제가 되는 문장을 표로 짚어 주고, 각 문장의 수정안을 제시해 줘.\n[초안 붙여 넣기]\n\n\n프롬프트 5. AI가 쓴 티 줄이기\n아래 글에서 상투적이거나 지나치게 매끄러워서 AI가 쓴 것처럼 보일 수 있는 표현을 찾아 줘. 예를 들어 \"끊임없이 노력하는\", \"소통의 중요성을 깨달았습니다\" 같은 표현이야. 각 표현을 내 경험의 구체적인 장면이나 숫자로 바꾸려면 어떤 정보가 필요한지 질문해 줘.\n[글 붙여 넣기]\n프롬프트 6. 이력서 경력 문장을 성과형으로\n이력서 경력과 활동 항목을 성과 중심 문장으로 바꾸고 싶어. \"무엇을 했다\"가 아니라 \"어떤 행동으로 어떤 결과를 냈다\"는 형태로, 한 줄 40자 안팎으로 다듬어 줘. 숫자가 없는 항목은 넣을 수 있는 지표를 제안만 하고 숫자를 지어내지는 마.\n[경력 항목 붙여 넣기]\n프롬프트 7. 면접 예상 질문과 꼬리 질문\n아래 자기소개서를 읽은 면접관이라고 가정해 줘. 이 글을 바탕으로 나올 만한 질문 10개와, 각 질문에 이어질 꼬리 질문을 1개씩 만들어 줘. 특히 내가 과장했거나 근거가 약해 보이는 부분을 파고드는 질문을 꼭 포함해 줘.\n[최종 자기소개서 붙여 넣기]\n3. 문항 유형별 첨삭 포인트\n문항 유형\n첨삭 포인트\nAI에게 추가로 요청할 것\n\n\n지원동기\n회사와 직무를 고른 이유가 나만의 경험과 연결되는가\n기업 최근 이슈와 내 경험의 연결 고리 3가지\n\n\n직무역량\n역량을 증명하는 행동과 결과가 구체적인가\n공고 키워드와 내 경험의 매칭표\n\n\n협업·갈등 해결\n갈등 상황에서 내가 한 행동이 분명한가\n상대 입장을 고려한 표현으로 다듬기\n\n\n성장 과정·가치관\n가치관이 실제 선택과 행동으로 드러나는가\n추상적 표현을 장면 묘사로 바꾸기\n\n\n입사 후 포부\n단계별 목표가 직무와 현실적으로 연결되는가\n입사 1년, 3년, 5년 목표 예시\n\n\n\n \n\n\n4. AI 첨삭 시 꼭 지켜야 할 주의사항\n허위 경험은 절대 금지: AI가 그럴듯한 사례를 만들어 넣는 경우가 있습니다. 내가 하지 않은 일은 한 줄도 남기지 마세요. 면접에서 반드시 드러납니다.\n글자 수는 직접 확인: AI는 한국어 글자 수를 정확히 세지 못하는 경우가 많습니다. 최종 글은 글자 수 세기 도구로 다시 확인하세요.\n기업명 실수 주의: 여러 기업에 지원하며 글을 재활용하면 다른 회사 이름이 남는 실수가 생깁니다. 제출 전 기업명을 검색해서 확인하세요.\n개인정보는 최소한으로: 주민등록번호, 연락처, 주소는 AI에게 입력할 필요가 없습니다.\n기업의 AI 사용 방침 확인: 일부 기업은 AI 작성 여부를 확인하거나 유사도 검사를 하기도 합니다. 공고에 관련 안내가 있는지 살펴보세요.\n5. 자주 묻는 질문 (FAQ)\nQ1. AI가 써 준 자기소개서를 그대로 내도 되나요?\n권하지 않습니다. 같은 프롬프트를 쓰는 지원자가 많아 문장이 비슷해지기 쉽고, 내 경험이 아닌 내용이 섞일 위험도 있습니다. 개요와 첨삭에 AI를 쓰고, 문장은 내 말투로 직접 완성하는 방식이 안전합니다.\nQ2. 무료 챗봇으로도 충분한가요?\n네. 이 글의 프롬프트는 텍스트 입력만으로 동작하기 때문에 무료 버전에서도 충분히 활용할 수 있습니다. 다만 긴 공고와 여러 문항을 한 번에 넣으면 답변이 짧아질 수 있으니 문항별로 나눠서 요청하세요.\nQ3. 경험이 별로 없는데 어떻게 하죠?\n큰 경험이 아니어도 괜찮습니다. 아르바이트에서 손님 응대 방식을 바꾼 일, 팀 과제에서 일정표를 만든 일처럼 작은 행동과 결과를 STAR로 정리하면 충분한 재료가 됩니다. 프롬프트 2를 활용해 AI에게 질문을 받아 보세요.\nQ4. 면접 준비에도 AI를 쓸 수 있나요?\n프롬프트 7로 예상 질문을 뽑은 뒤, 답변을 소리 내어 말해 보고 그 내용을 다시 AI에게 보여 주며 \"더 짧고 명확하게 만들려면?\"이라고 물어보면 모의 면접처럼 연습할 수 있습니다.\n마무리: 경험은 내가, 다듬기는 AI가\n좋은 자기소개서는 화려한 문장이 아니라 구체적인 경험에서 나옵니다. 오늘 소개한 7가지 프롬프트를 공고 분석, 경험 정리, 초안, 첨삭, 면접 순서대로 써 보세요. AI는 생각을 정리하고 표현을 다듬는 코치로만 두고, 마지막 한 문장까지 내 목소리로 마무리하면 하반기 공채에서 분명 차이가 납니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-version-14-52-release-candidate-now-available/",
-    "pubDate": "Thu, 15 Oct 2026 20:07:03 +0000",
-    "creator": "Eric Brumer",
+    "link": "https://muzbox.tistory.com/483742",
+    "pubDate": "Fri, 16 Oct 2026 11:45:45 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "C++",
-      "MSVC"
+      "AI, 미래기술/AI 인사이트",
+      "STAR 기법",
+      "면접 예상 질문",
+      "이력서 작성",
+      "자기소개서 AI",
+      "자소서 첨삭",
+      "챗gpt 자소서",
+      "취업 준비",
+      "하반기 공채"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "AI로 E2E 회귀 테스트 자동화하기: ‘딸깍’을 파이프라인으로 바꾸기까지",
-    "description": "들어가며안녕하세요. LINE Plus에서 대만 Giftshop 서비스 QA를 담당하고 있는 김혜영입니다.최근 AI를 테스트 자동화에 활용하려는 다양한 시도와 실제 적용 사례를 접하...",
+    "title": "MPS 2026.2 Release Candidate Available",
+    "description": "MPS 2026.2 is almost ready! Today we’re making a release candidate build available so you can try out the upcoming release ahead of its official launch. Download MPS 2026.2 Release Candidate now: DOWNLOAD MPS 2026.2 Release Candidate Along with numerous bug fixes, the RC brings several key improvements to the previous 2026.2 EAP1 build. Linux […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/ai-e2e-test-automation",
-    "pubDate": "Fri, 16 Oct 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/mps/2026/10/the-mps-2026-2-rc1/",
+    "pubDate": "Thu, 15 Oct 2026 09:29:06 +0000",
+    "creator": "Vaclav Pech",
+    "categories": [
+      "releases",
+      "eap",
+      "release"
+    ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "Running Apache Spark experiments in my sleep (and on a plane)",
-    "description": "No description available",
+    "title": "Compare today’s code with an earlier commit",
+    "description": "Compare a historical commit with your working tree without checking out the commit or leaving your branch.\nThe post Compare today’s code with an earlier commit appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 14 Oct 2026 19:49:11 GMT",
-    "creator": "Netflix Technology Blog",
+    "link": "https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit/",
+    "pubDate": "Wed, 21 Oct 2026 14:00:30 +0000",
+    "creator": "Leah Tran",
     "categories": [
-      "apache-spark",
-      "performance-optimization",
-      "generative-ai-tools",
-      "data-pipeline"
+      "Visual Studio"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
-    "description": "No description available",
+    "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+    "description": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise  ~1 million GPUs. Prometheus also features technologies like closed-loop liquid cooling [...]\nRead More...\nThe post Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4",
-    "pubDate": "Wed, 14 Oct 2026 19:51:35 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "전통산업과 IT산업의 온도차",
-    "description": "AI를 쓰는 세계와 쓰지 않는 세계의 온도차 “ChatGPT가 좋다며?” AI를 잘 활용하는 사람들은 당장 내일이라도 세상이 뒤집어질 것처럼 말합니다.하지만, 아직 AI가 와닿지 않는 사람들은 마치 남의 이야기처럼 말합니다. 아직도 AI를 안 쓰는 곳이 있다고?네 있습니다. (그냥 점심 물어보는 용도로는 쓰죠) “아직도 AI 안 써?”와 “글쎄, 내 업무엔 딱히…”라는 거리 차이. 안 쓰는 분들도 변화를 부정하는 […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://subokim.wordpress.com/2026/10/21/gap-of-traditional/",
-    "pubDate": "Tue, 20 Oct 2026 15:34:41 +0000",
-    "creator": "subokim",
+    "link": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+    "pubDate": "Mon, 19 Oct 2026 13:00:10 +0000",
+    "creator": "Unknown",
     "categories": [
-      "산업이야기"
+      "Core Infra",
+      "Data Center Engineering",
+      "Data Infrastructure",
+      "ML Applications",
+      "Networking & Traffic",
+      "Production Engineering"
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "imageUrl": "",
     "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
     "description": "No description available",
@@ -148,14 +149,33 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "imageUrl": "",
-    "title": "Stop waiting on a failed build",
-    "description": "Stop solution builds after the first project failure so you can return to fixing the error sooner.\nThe post Stop waiting on a failed build appeared first on Visual Studio Blog.",
+    "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+    "description": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year, like New Years Eve, that really let us see the collective impact of everything we’ve built — but none are bigger than the quadrennial [...]\nRead More...\nThe post 2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/stop-waiting-on-a-failed-build/",
-    "pubDate": "Thu, 15 Oct 2026 14:00:50 +0000",
+    "link": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/",
+    "pubDate": "Thu, 15 Oct 2026 18:30:29 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "Connectivity",
+      "Culture",
+      "Networking & Traffic",
+      "Production Engineering",
+      "Instagram",
+      "WhatsApp"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "Organize and revisit tabs with the keyboard",
+    "description": "Reorder your document tabs and return to them by visual position with new keyboard shortcuts.\nThe post Organize and revisit tabs with the keyboard appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/organize-and-revisit-tabs-with-the-keyboard/",
+    "pubDate": "Mon, 19 Oct 2026 14:00:22 +0000",
     "creator": "Mads Kristensen",
     "categories": [
       "Visual Studio"
@@ -181,51 +201,56 @@
   {
     "id": 13,
     "imageUrl": "",
-    "title": "유니티 AI 어시스턴스 사용 문제 &amp; 후기 /  Your organization does not have a subscription that includes AI, and your account does not have a seat. Both are required to use AI, and seats are assigned by an organization admin.",
-    "description": "문제\n\n\n \n⚠️ Your organization does not have a subscription that includes AI, and your account does not have a seat. Both are required to use AI, and seats are assigned by an organization admin.\n물론 크레딧은 있지만 사용할 수 없는 상태입니다.\n14일 1,000 크레딧 을 받았는데 사용할 수 없다니.\n \n해결방법\nManager Subscription 버튼을 누릅니다.\n웹페이지 우 상단에 내 로그인 이름을 누릅니다.\n\n\nLicenses And Seats 를 부릅니다.\n중간쯤에 있으니 잘 봐야합니다.\n \n\n\nAI 구독상태 나옵니다. \nUnity AI Subscription 을 누릅니다.\n \n\n\n아래로 스크롤하면 Seats 라는 내용이 있습니다.\nInvoke 로 표시되어있다면 버튼을 누르시면 됩니다.\n저는 이미 Invoke 했기 때문에 Revoke seat 이 표시됩니다.\n \n이 상태라면 14일 후에 자동 결제 되니 잘 활용하시기 바랍니다.\n \n \n짤막 무료체험 후기\n무료로 1,000 크레딧을 14일 동안 쓸 수 있게 해주는데\n20 달러를 내면 2,000 크레딧을 주는거 같다.\n간단한 질문은 20 크레딧 정도 소비되었고\n배경 모델 생성은 100 크레딧이 소모 되었지만 퀄리티는 처참했다.\n내가가진 Kaykit Bit 블록으로 맵을 생성해 달라고 했는데 이경우 200 크레딧이 소모 되었고 아직 결과물은 나오지 않았다.\n \n아직은 사용할 만한 단계는 아닌거 같다. \n- 느리다.\n- 너무 크레딧은 많이 소모한다.\n- 사진으로 케릭터 생성 - 해볼예정\n- 영상으로 애니에미션 생성 - 해볼 예정\n \n \n사용 후기\n코딩을 시키면 100 크레딕 이상소비\n모델 생성은 10 크레딧\n애니메이션 생성도 10 크레딧 <-- 이게 가장 좋은 결과물을 보였음\n \n모델 생성 중에 배경 생성은 퀄리티가 안좋았다. 중간에 찌그러진다거나\n바닥면이 평평하지 않아서 게임내에서 바닥을 설정하기 어려웠다.\n휴머노이드를 만들기위한 리깅 은 계속 실패해서 결과물을 받아 볼 수 없었다.\n모델생성은 Tripo 를 사용하는데 웹에서 설정할 수 있는 디테일한 UI 가 없기 때문에\n문제가 발생해도 더 건드릴 여지가 없었습니다.\n무료를 사용중이였고\n유료 결제는 리깅이슈로 취소했습니다.\n \n이후 계획\n모델 생성은 다른데서 하고\n클로드 코드로 MCP 로 유니티를 조작해볼 예정입니다.",
+    "title": "후발주자의 저력",
+    "description": "전 세계가 그렇지만, 한국도 AI에 막대한 돈을 투자하겠다고 선언했고, 실제로 어느 정도 계획대로 자금을 집행하고 있는 것 같다. 그리고 한국은 상대적으로 잘 사는 나라라서 미국이나 중국만큼은 아니지만 아마도 전 세계에서 AI에 가장 많은 투자를 하는 나라 중 하나일 것이다. 솔직히 이렇게 하는 게 맞는 건지, 그리고 이 막대한 자금을 어디서 확보할 건지는 확실치 않지만, 어쨌든(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1688",
-    "pubDate": "Thu, 15 Oct 2026 11:23:26 +0900",
-    "creator": "SID-NFT",
+    "link": "https://www.thestartupbible.com/2026/10/the-latecomers-edge.html",
+    "pubDate": "Wed, 21 Oct 2026 21:15:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "유니티"
+      "Uncategorized",
+      "ai",
+      "korea",
+      "people"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "구글 시트 + 제미나이로 자동 가계부 만들기: 카드 내역 붙여넣기만 하면 끝",
-    "description": "가계부를 쓰겠다고 마음먹어도 매일 지출을 하나씩 입력하는 일은 오래가지 않습니다. 그래서 이번에는 방법을 바꿔 봤습니다. 한 달에 한 번 카드 이용 내역을 내려받아 구글 시트에 붙여 넣으면, 분류는 미리 만들어 둔 규칙표와 수식이 처리하고 분석은 제미나이가 해 주는 구조입니다. 지난번 'AI 엑셀 함수 자동화' 글의 실전편이라고 생각하시면 됩니다. 코딩 없이 무료로 따라 할 수 있습니다.\n이 글의 핵심 요약\n1. 시트는 '내역', '분류규칙', '월별요약' 3개 탭으로 구성합니다.\n2. 처음 한 번만 제미나이로 사용처 분류 규칙표를 만들면, 이후에는 수식이 자동으로 분류합니다.\n3. QUERY 함수 한 줄로 월별, 카테고리별 합계가 자동 집계됩니다.\n4. 카드번호, 승인번호 같은 정보는 AI에 넣기 전에 반드시 지웁니다.\n1. 전체 구조: 탭 3개면 충분합니다\n탭 이름\n역할\n주요 열\n\n\n내역\n카드 이용 내역을 붙여 넣는 곳\n날짜, 사용처, 금액, 카테고리(자동), 결제수단, 메모\n\n\n분류규칙\n사용처 키워드와 카테고리 연결표\n키워드, 카테고리\n\n\n월별요약\n월별, 카테고리별 합계와 차트\nQUERY 함수 결과, 원형 차트\n\n\n\n \n핵심은 카테고리를 매번 AI에게 묻지 않는 것입니다. AI는 처음에 규칙표를 만들 때만 쓰고, 이후 분류는 수식이 처리하므로 빠르고 개인정보 노출도 줄어듭니다.\n\n\n2. STEP 1. 카드 내역 내려받아 붙여 넣기\n대부분의 카드사는 홈페이지나 앱의 이용 내역 메뉴에서 기간을 정해 엑셀 파일로 내려받을 수 있습니다. 파일을 열어 날짜, 가맹점(사용처), 이용 금액 열만 복사해 '내역' 탭의 A, B, C열에 붙여 넣으세요.\n카드번호, 승인번호, 할부 정보 같은 열은 가계부에 필요 없으니 복사하지 않습니다.\n여러 카드를 쓴다면 E열(결제수단)에 카드 이름을 적어 구분합니다.\n날짜가 텍스트로 붙여 넣어졌다면 서식 > 숫자 > 날짜로 바꿔 줍니다.\n3. STEP 2. 제미나이로 분류 규칙표 만들기\n'내역' 탭의 B열(사용처)만 복사해서 중복을 제거한 뒤 제미나이에게 보여 줍니다. 금액이나 날짜는 넣지 않아도 됩니다.\n아래는 내 카드 내역의 가맹점 이름 목록이야. 이 목록을 보고 구글 시트에서 쓸 분류 규칙표를 만들어 줘. 카테고리는 [식비, 카페·간식, 교통, 쇼핑, 생활·마트, 통신·구독, 의료, 교육, 문화·여가, 경조사, 기타] 중에서만 골라. 결과는 \"키워드 | 카테고리\" 두 열의 표로 주고, 키워드는 가맹점 이름 전체가 아니라 여러 지점에 공통으로 들어가는 짧은 단어(예: 스타벅스, 이마트, 카카오T)로 뽑아 줘.\n[가맹점 목록 붙여 넣기]\n결과 표를 복사해 '분류규칙' 탭의 A열(키워드), B열(카테고리)에 붙여 넣습니다. 내가 자주 가는 동네 가게처럼 AI가 모르는 곳은 직접 한 줄씩 추가하면 됩니다.\n\n\n4. STEP 3. 수식으로 카테고리 자동 분류\n'내역' 탭 D2 셀에 아래 수식을 넣고 아래로 채우기 하면, 사용처에 규칙표의 키워드가 들어 있을 때 해당 카테고리가 자동으로 표시됩니다. 규칙에 없는 곳은 \"미분류\"로 나옵니다.\n=IFERROR(INDEX(FILTER(분류규칙!$B$2:$B, 분류규칙!$A$2:$A<>\"\", ISNUMBER(SEARCH(분류규칙!$A$2:$A, B2))), 1), \"미분류\")\n월별 집계를 위해 G1 셀에 \"월\"이라고 제목을 적고, G2 셀에는 날짜를 \"연-월\" 형태로 바꾸는 수식을 넣어 둡니다.\n=IF(A2=\"\", \"\", TEXT(A2, \"yyyy-mm\"))\n다음 달부터는 새 내역을 아래에 붙여 넣고 수식만 채우면 끝입니다. \"미분류\"가 보이면 규칙표에 키워드를 한 줄 추가하면 되니, 몇 달만 지나면 대부분 자동으로 분류됩니다.\n5. STEP 4. 월별요약 탭: QUERY 한 줄로 집계\n'월별요약' 탭 A1 셀에 아래 수식을 넣으면 월별, 카테고리별 지출 합계 표가 자동으로 만들어집니다.\n=QUERY(내역!A1:G, \"select G, D, sum(C) where C is not null group by G, D order by G desc, sum(C) desc\", 1)\n특정 달만 보고 싶다면 아래처럼 조건을 바꿉니다.\n=QUERY(내역!A1:G, \"select D, sum(C) where G = '2026-10' group by D order by sum(C) desc\", 1)\n표를 선택하고 삽입 > 차트에서 원형 차트를 고르면 카테고리별 비중이 한눈에 보입니다. 수식이 막히면 오류 메시지를 그대로 복사해 \"이 구글 시트 오류를 고쳐 줘\"라고 제미나이에게 물어보면 대부분 해결됩니다.\n\n\n6. STEP 5. 제미나이에게 월간 지출 리포트 받기\n월말에는 '월별요약' 탭의 카테고리별 합계 표만 복사해서 제미나이에게 보여 주세요. 개별 결제 내역 대신 합계만 넘기면 개인정보 걱정도 적습니다.\n아래는 내 지난달과 이번 달 카테고리별 지출 합계야. 월 생활비 목표는 [금액]원이야. ①목표 대비 초과한 카테고리 ②지난달보다 크게 늘어난 항목 ③다음 달에 실천할 수 있는 절약 방법 3가지를 짧게 정리해 줘. 숫자 계산은 표에 있는 값만 사용해.\n[요약 표 붙여 넣기]\nAI가 계산한 합계나 증감률은 시트의 수치와 한 번 대조해 보세요. 표에 없는 숫자를 만들어 내는 경우가 가끔 있습니다.\n7. 주의사항과 활용 팁\n민감 정보 제거: 카드번호, 승인번호, 계좌번호 열은 시트에도 AI에도 넣지 않습니다.\n시트 공유 범위 확인: 가계부 시트는 공유 설정을 \"제한됨\"으로 두고, 배우자와 함께 쓸 때만 해당 계정을 추가합니다.\n환불·취소 처리: 취소 건이 음수로 표시되면 그대로 두면 합계에서 자동으로 빠집니다. 양수로 따로 표시된다면 메모 열에 \"취소\"를 적고 QUERY 조건에서 제외하세요.\n시트 안 AI 기능: 요금제와 지역에 따라 구글 시트 안에서 바로 쓰는 AI 기능이 제공되기도 하지만, 이 글은 무료로 누구나 할 수 있는 복사-붙여넣기 방식을 기준으로 했습니다.\n8. 자주 묻는 질문 (FAQ)\nQ1. 엑셀에서도 같은 방법이 되나요?\n구조는 같지만 FILTER, QUERY 함수 지원 여부가 엑셀 버전에 따라 다릅니다. 엑셀에서는 QUERY 대신 피벗 테이블을 쓰면 같은 집계를 만들 수 있습니다.\nQ2. 현금 지출은 어떻게 기록하나요?\n'내역' 탭 아래쪽에 날짜, 사용처, 금액을 직접 입력하고 결제수단을 \"현금\"으로 적으면 됩니다. 카테고리는 같은 수식으로 자동 분류됩니다.\nQ3. 무료 제미나이로도 충분한가요?\n네. 규칙표 만들기와 월간 리포트는 텍스트만 주고받는 작업이라 무료 버전으로도 충분합니다. 챗GPT나 클로드를 써도 같은 프롬프트로 동작합니다.\nQ4. 분류가 틀리면 어떻게 하나요?\n규칙표에서 해당 키워드의 카테고리를 고치면 전체 내역에 바로 반영됩니다. 키워드가 너무 짧아 엉뚱한 곳과 겹친다면 조금 더 긴 키워드로 바꿔 주세요.\n마무리: 한 달에 10분이면 되는 가계부\n매일 입력하는 가계부는 오래가지 못하지만, 한 달에 한 번 붙여 넣는 가계부는 계속 쓸 수 있습니다. 오늘 탭 3개를 만들고 지난달 카드 내역으로 시험해 보세요. 규칙표는 쓸수록 똑똑해지고, 제미나이의 월간 리포트가 다음 달 소비 습관을 바꾸는 계기가 되어 줄 겁니다.",
+    "title": "IntelliJ IDEA’s Java and Kotlin for Cursor and VS Code Hits 1.0",
+    "description": "Ten weeks ago, we opened up a preview of an LSP-powered extension that brings IntelliJ IDEA’s smartness for Java and Kotlin into VS Code and Cursor. As mentioned in that blog post, this is part of a bigger initiative: moving our JVM intelligence to wherever our users are, no matter what editor or agent they […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483743",
-    "pubDate": "Mon, 19 Oct 2026 11:45:09 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
+    "link": "https://blog.jetbrains.com/idea/2026/10/intellij-idea-s-java-and-kotlin-for-cursor-and-vs-code-hits-1-0/",
+    "pubDate": "Thu, 15 Oct 2026 13:06:31 +0000",
+    "creator": "Marco Behler",
     "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "ai 가계부",
-      "QUERY 함수",
-      "구글 시트 가계부",
-      "구글 시트 함수",
-      "자동 가계부",
-      "제미나이 활용",
-      "지출 분석",
-      "카드 내역 정리"
+      "news",
+      "cursor",
+      "intellij-idea",
+      "lsp",
+      "release",
+      "vs-code"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Organize and revisit tabs with the keyboard",
-    "description": "Reorder your document tabs and return to them by visual position with new keyboard shortcuts.\nThe post Organize and revisit tabs with the keyboard appeared first on Visual Studio Blog.",
+    "title": "코파운더가 정말 필요한가?",
+    "description": "이전 포스팅에서 언급했던 프라이머 28기 데모데이의 주인공은 창업가들이고 행사의 하이라이트는 이들의 피칭이다. 공식적인 행사가 끝나면 하나의 번외 일정이 있는데, 프라이머 파트너들과의 AMA 세션이다. 몇 년 전에 실험적으로 이 AMA 세션을 시작했는데, 청중의 반응이 꽤 좋고, 프라이머 파트너분들에게도 편안하고 솔직하게 이야기할 수 있는 자리라서 이젠 거의 공식적인 일정으로 자리를 잡았다. 이번에도 진행했고 다른 파트너분들과 함께 나도(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/organize-and-revisit-tabs-with-the-keyboard/",
-    "pubDate": "Mon, 19 Oct 2026 14:00:22 +0000",
-    "creator": "Mads Kristensen",
+    "link": "https://www.thestartupbible.com/2026/10/do-we-really-need-co-founders.html",
+    "pubDate": "Sun, 18 Oct 2026 21:38:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "Visual Studio"
+      "Uncategorized",
+      "cofounder",
+      "FoundersAtWork",
+      "people",
+      "primer",
+      "Strong"
     ]
   }
 ]
