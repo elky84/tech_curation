@@ -2,95 +2,21 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "REA 역공학 도구 기반 DWG 캐드파일 분석, 캐드 뷰어 및 모델러 도구 Web App 개발기",
-    "description": "이 글은 역공학 도구인 REA(Reverse Engineering Agents)를 설치하고, 이를 이용해, AutoCAD DWG 바이너리 파일 구조를 분석한 후, 그 결과를 바탕으로 CAD 웹 뷰어를 바이브 코딩으로 개발한 과정을 간략히 기록해 남긴다. 아울러, 윈도우 실행파일 분석기로 유명한 dependency, 3D solid 모델러 등도 같은 방식으로 역공학해 웹 기반 실행 도구로 변환 개발한 후 결과를 정리한다. \n우선, DWG 파일 뷰어 개발용 테스트 대상은 연구원 본관동 평면도 DWG 파일 2종이다. 하나는 AutoCAD 2004 포맷(AC1018), 다른 하나는 2010 포맷(AC1024)으로, 둘 다 한글 텍스트와 한글 SHX 빅폰트를 사용한다. 전체 작업은 클로드 코드에 프롬프트를 주는 방식으로 진행했고, 분석부터 웹 앱 개발, 테스트까지 한 시간 남짓 걸렸다.\n\n개발된 웹 뷰어로 연 본관동 평면도 (6장 시트, 다크 모드)\nREA 소개\nREA는 Ghidra, JADX 같은 역공학 엔진들을 MCP(Model Context Protocol) 서버로 묶어, 클로드 코드 같은 LLM 에이전트가 바이너리 분석을 직접 수행할 수 있게 해주는 도구다. 네이티브 바이너리 디컴파일(exe, dll 등), 안드로이드 APK 분석, 일렉트론/자바스크립트 번들 분석, 펌웨어 추출 등 200개가 넘는 분석 도구를 제공한다. 분석 결과에는 증거(Evidence)가 함께 붙어 나오므로, LLM이 지어낸 내용인지 실제 바이너리에서 확인된 내용인지 구분할 수 있다.\nREA 설치 방법\n윈도우 기준 설치 과정은 다음과 같다. 관리자 권한 없이 모두 포터블로 설치했다.\n1) JDK 21 설치 (Ghidra 실행용). Temurin 포터블 zip을 받아 압축 해제.\nclaude mcp add rea -- cmd.exe /d /c npx -y rea-agents@latest mcp\n등록 후 doctor 명령으로 Ghidra, JADX 프로바이더가 healthy인지 확인하면 된다. npx 첫 실행은 패키지 다운로드 때문에 타임아웃될 수 있는데, 이 경우 앱을 재시작하면 연결된다.\nDWG 파일 구조 분석\n분석과 개발에 사용한 프롬프트는 대략 다음과 같다.\n이 폴더 아래의 dwg 파일을 REA로 분석해 구조를 파악해줘. 헤더 필드, 섹션 구조, 한글 텍스트 인코딩, 폰트(.shx 빅폰트/.ttf)를 확인하고 바이트 증거와 함께 문서로 정리해줘. 확인 안 된 항목은 추정으로 표시할 것.\n이후, 그 결과를 활용해 Rust 웹 앱 개발 실행해. 한글 텍스트가 정확히 표시되어야 해.\n이런식으로 하네스하면서 진행한다. 처음부터 완벽한 컨텍스트와 Goal을 넣고 하는 편이 좋으나 이 정도 도구는 적절히 피드백 주면서 개발해도 큰 무리가 없다.  \nREA로 DWG 파일을 등록해 sha256 무결성 증거를 확보하고, 파일 헤더를 바이트 단위로 분석했다. 참고로 윈도우용 Ghidra 백엔드는 PE 등 실행 파일 위주라 DWG 같은 raw 데이터 이미지의 바이트 읽기는 지원하지 않았다. 이 부분은 자체 분석 스크립트와 LibreDWG(dwg2dxf) 교차 검증으로 보완했다. 확인된 주요 내용은 다음과 같다.\n- 파일 헤더 고정 필드: 버전 문자열(AC1018/AC1024), 썸네일 주소(0x0D), 코드페이지(0x13), SummaryInfo 주소(0x20)\n분석 결과는 바이트 증거와 함께 보고서로 정리했고, 이 보고서가 이후 웹 앱 개발의 설계 근거가 됐다.\nRust 한글 지원 CAD 웹 뷰어 개발\n구성은 cargo 워크스페이스로, DWG 헤더 파서/DXF 파서/MTEXT 서식 제거를 담당하는 라이브러리 크레이트와 axum 웹 서버 크레이트로 나눴다. 파이프라인은 다음과 같다.\n업로드 DWG -> 자체 헤더 파싱(버전, 코드페이지, 썸네일) -> LibreDWG dwg2dxf 사이드카 변환 -> 자체 DXF 파싱 -> 평탄화된 엔티티 JSON -> HTML 캔버스 렌더링\n한글 처리가 이번 개발의 핵심이었다. DXF의 $ACADVER를 보고 AC1018 이하는 encoding_rs의 EUC-KR 디코더로, AC1021 이상은 UTF-8로 분기한다. MTEXT 서식 코드는 파서에서 제거한다. 도면의 원본 폰트(whgtxt.shx 등 셰이프 폰트)는 라이선스와 포맷 문제로 재현하지 않고 Noto Sans KR 웹폰트로 대체했는데, 실명 표기 용도로는 충분하다.\n\n1층 평면도 확대. 건설정보연구부, 숙직실 등 한글 실명이 CP949 디코딩으로 표시된다 (AC1018)\n\nAC1024 파일의 지하층 평면도. MTEXT 서식 코드를 제거한 한글(매점, 문서고, 교육실)이 표시된다\n뷰어 UX는 CAD 사용자에게 익숙한 구성으로 만들었다. 파일/보기 메뉴바, 레이어 패널(검색 필터, 표시 토글, 색상 피커로 레이어 색 즉시 변경), 휠 확대/축소와 드래그 이동, 커서 도면 좌표 표시, 다크/라이트 모드, 한국어/영어 UI 전환을 지원한다.\n\n보기 메뉴와 레이어 검색 필터\n\n라이트 모드 + 영문 UI\n단위 테스트 16개로 CP949 디코딩(본관동 1층평면도, 레이어명 구조기둥), MTEXT 서식 제거(실제 도면 샘플), INSERT 블록 전개, 실파일 헤더 검증을 고정했다.\n개발 끝난 결과는 다음과 같다. 보다시피 거의 완벽하게 기준이 된 도면 DWG 파일을 파싱, 처리 및 뷰어 렌더링되었다. \n\n\n\n\n\n\n\n\n개발 중 만난 문제들\n바이브 코딩이라고 해도 중간마다 하네스해야 하고, 간단한 디버깅은 피할 수 없었다. 기록해 둘 만한 것들은 다음과 같다.\n- 윈도우 GNU 러스트 툴체인에서 raw-dylib을 쓰는 최신 windows-sys 크레이트가 dlltool 오류로 빌드 실패. tokio를 1.38로 고정해 해결\n마무리\nREA 같은 역공학 MCP와 LLM 에이전트를 결합하면, 바이너리 포맷 분석부터 그 결과를 반영한 앱 개발까지 하나의 대화 흐름 안에서 처리할 수 있다. 이번 작업은 분석, 개발, 테스트, 렌더링 검증까지 한 시간 남짓 걸렸다. 다만 분석 결과를 그대로 믿기보다 LibreDWG 같은 검증된 도구와 교차 확인하는 과정, 그리고 중간 이슈를 확인하고 목표까지 가도록 가이드해줄 테스트케이스 작성은 여전히 사람이 챙겨야 할 몫이다.\n부록: 윈도우 실행파일 분석기 및 솔리드 모델러 웹 버전 도구 개발\n참고로 다음도 같은 방식으로 개발된 실행파일 분석기(개발자 사이 유명한 Dependency)도구 웹앱 버전, 솔리드 모델링 캐드 웹앱 버전이다.\n앞서 했던 프로세스와 동일하게 진행하였다. dependency는 주요 exe, dll 과 같은 컨텍스트를 바이브코딩도구에 입력하고, 프롬프트로 개발 명령을 내렸다. 이 도구는 실행파일이 300k이하라 30분정도면 개발이 완료되었다. 실행해 보면 다음 그림과 같이 웹 기반으로 exe, dll 파일을 입력받아 내부 구조를 분석하고 의존성 트리와 관련 이슈들을 분석한 후, 알기 쉽게 데쉬보드 차트 형식으로 분석 결과를 정리해 준다. 원본 도구가 단순히 윈도우에서 만 실행되고 의존성 트리 등 만 표출해 준 것에 비해 여러 기능을 추가할 수 있다. \n\n\n\n\n\n\n역공학된 Dependency 웹앱 버전(링크)\n\n마찬가지로, 3D 솔리드 모델링 도구도 유명한 관련 모델러를 참고해 같은 방식으로 개발을 하였고, 결과는 다음과 같다. 작업 과정 하네스를 포함해 전체 개발에 걸린 시간은 2~3시간 미만이다. 웹 기반 도구로 개발되었고, 다음 그림과 같이 유명 상용 모델러와 큰 차이가 없는 UX 경험을 할 수 있다. \n\n\n\n\n다음 영상은 실제로 이렇게 개발된 모델러를 통해 스케치 > 구속제약 설계 > 3차원 모델링 > 파라메트릭 수정 > 최종 완성된 결과를 보여준다. 단, 나머지 어셈블리 등 모델러 기능은 시간이 더 필요한 부분이라 계속 진행하지는 않았고 차후 작업으로 남겨두었다.\n\n\n\n역공학된 3차원 솔리드 모델러\n\n\n레퍼런스\n\n\n\n\n\n\n\n\n\nREA (rea-agents): https://www.npmjs.com/package/rea-agents\nGhidra: https://github.com/NationalSecurityAgency/ghidra\nLibreDWG: https://www.gnu.org/software/libredwg/\nhttps://github.com/tangency-labs/solidcraft\nODA, Open Design Specification for .dwg files",
+    "title": "Coding-Agent Benchmarks Should Match Their Users’ Task Flows",
+    "description": "Left: SWE-Bench Pro, where each task is a single user message, almost always a new feature or a bug fix. Right: the first five developer messages in sessions of software engineers working in JetBrains IDEs, counting only sessions with at least three messages. Each column is a message position, colored Cblocks are request types, and […]",
     "reviews": [],
     "syllabus": [],
-    "link": "http://daddynkidsmakers.blogspot.com/2026/10/rea-dwg-rust-cad.html",
-    "pubDate": "2026-10-17T16:51:25.493Z",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/research/2026/10/user-task-flow-paper/",
+    "pubDate": "Tue, 20 Oct 2026 10:27:16 +0000",
+    "creator": "Igor Slinko",
+    "categories": [
+      "research",
+      "benchmarks",
+      "task-flows"
+    ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "Compare today’s code with an earlier commit",
-    "description": "Compare a historical commit with your working tree without checking out the commit or leaving your branch.\nThe post Compare today’s code with an earlier commit appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit/",
-    "pubDate": "Wed, 21 Oct 2026 14:00:30 +0000",
-    "creator": "Leah Tran",
-    "categories": [
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Small Talk with Ulises Olave, CTO and Co-Founder of Fitia",
-    "description": "What is Small Talk? Small Talk is our short Q&A with founders from the JetBrains Startup Program. They answer a handful of questions in their own words about what they’re building, why they started, and what they’ve figured out along the way. No pitch, no polish – just a two-minute read to meet the person […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/startups/2026/10/small-talk-fitia/",
-    "pubDate": "Tue, 20 Oct 2026 15:06:36 +0000",
-    "creator": "Marija Rakonjac",
-    "categories": [
-      "interviews",
-      "jetbrains-startup-program"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "RPG2026-010 데모 작업",
-    "description": "영상: https://www.youtube.com/watch?v=SxrZNflM6t8\n\n\n\n거의 한달발이 지났는데 퀄리티가 처참하군요\n중간에 유니티 AI 사용도 테스트 하고 이것저것 하긴 했는데\n아무튼 한달 반동안 만든게 별로 없군요\n \n스킬 같은거 넣어서 좀 더 게임 같이 만들어야겠습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1690",
-    "pubDate": "Fri, 23 Oct 2026 06:44:25 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "프로그래밍/자작",
-      "RPG2026"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "Microsoft CppCon 2026 Trip Report",
-    "description": "CppCon 2026 is a wrap! Microsoft returned to Aurora, Colorado, for a week of talks, technical discussions, and conversations with developers from across the C++ community. Microsoft C++ @ CppCon At our booth, we met people building games, financial systems, developer tools, embedded software, scientific tools, and other applications. Some were working with the latest […]\nThe post Microsoft CppCon 2026 Trip Report appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/microsoft-cppcon-2026-trip-report/",
-    "pubDate": "Wed, 21 Oct 2026 15:47:02 +0000",
-    "creator": "Michael Price",
-    "categories": [
-      "C++",
-      "Trip Report"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "Air Governance: Manage AI Agents, Access, and Spend Throughout Your Organization",
-    "description": "Today, JetBrains Air Governance becomes generally available. Formerly known as JetBrains Central, this is the organization layer of JetBrains Air, a system of products for agentic development. Air Governance gives you one place to manage which AI agents, models, and providers your teams use, set spending limits, and see what that usage costs and delivers. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/10/22/air-governance-manage-ai-agents-access-and-spend-throughout-your-organization/",
-    "pubDate": "Thu, 22 Oct 2026 14:09:21 +0000",
-    "creator": "Viktor Kiselev",
-    "categories": [
-      "agentic-ai",
-      "jetbrains-air",
-      "jetbrains-air-governance",
-      "new-products",
-      "news",
-      "release"
-    ]
-  },
-  {
-    "id": 7,
     "imageUrl": "",
     "title": "IT와 전통산업의 AI 체감온도 차이",
     "description": "[도표 설명] PwC그룹에서 조사한 \"산업별 생헝셩 AI도입전략\" - 산업분야별로 AI도입에 의한 기대효과 차이를 조사함 (링크) “ChatGPT가 좋다며?” AI를 많이 쓰는 사람들은 당장 내일이라도 세상이 뒤집어질 것처럼 말합니다.하지만, 아직 AI가 와닿지 않는 사람들은 마치 남의 이야기처럼 말합니다. 아직도 AI를 안 쓰는 곳이 있다고?네 있습니다. (그냥 점심 물어보는 용도로는 쓰죠) “아직도 AI 안 써?”와 “글쎄, 내 업무엔 […]",
@@ -105,107 +31,41 @@
     ]
   },
   {
-    "id": 8,
+    "id": 3,
     "imageUrl": "",
-    "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
-    "description": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world knowledge built into LLMs makes ad matching more intelligent and precise, compounding gains for advertisers. GenRecs Tokenization is the foundational data representation that [...]\nRead More...\nThe post GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary appeared first on Engineering at Meta.",
+    "title": "2분에 1대씩 늘어나는 단말기, 토스플레이스는 오프라인에서 무엇을 보는가",
+    "description": "오프라인 결제 시장의 판을 바꾸는 토스플레이스팀의 도전기",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
-    "pubDate": "Mon, 19 Oct 2026 16:00:47 +0000",
+    "link": "https://toss.im/tossfeed/article/tossplace-story-1",
+    "pubDate": "Fri, 23 Oct 2026 06:16:00 GMT",
     "creator": "Unknown",
-    "categories": [
-      "ML Applications"
-    ]
+    "categories": []
   },
   {
-    "id": 9,
+    "id": 4,
     "imageUrl": "",
-    "title": "코파운더가 정말 필요한가?",
-    "description": "이전 포스팅에서 언급했던 프라이머 28기 데모데이의 주인공은 창업가들이고 행사의 하이라이트는 이들의 피칭이다. 공식적인 행사가 끝나면 하나의 번외 일정이 있는데, 프라이머 파트너들과의 AMA 세션이다. 몇 년 전에 실험적으로 이 AMA 세션을 시작했는데, 청중의 반응이 꽤 좋고, 프라이머 파트너분들에게도 편안하고 솔직하게 이야기할 수 있는 자리라서 이젠 거의 공식적인 일정으로 자리를 잡았다. 이번에도 진행했고 다른 파트너분들과 함께 나도(...)",
+    "title": "챗GPT&middot;제미나이&middot;클로드에 넣으면 안 되는 정보 7가지와 '학습 끄기' 설정법",
+    "description": "회의록 정리, 계약서 검토, 엑셀 데이터 분석까지 AI에게 맡기는 일이 늘면서 \"이거 넣어도 되나?\" 하는 순간도 많아졌습니다. AI 챗봇에 입력한 내용은 설정에 따라 서비스 개선(모델 학습)에 쓰일 수 있고, 계정이 유출되면 대화 기록이 그대로 노출될 수도 있습니다. 이 글에서는 AI에 절대 넣으면 안 되는 정보 7가지와 챗GPT, 제미나이, 클로드의 학습 끄기 설정 위치, 그리고 안전하게 쓰는 가명 처리 요령을 정리했습니다.\n이 글의 핵심 요약\n1. 주민등록번호, 금융정보, 비밀번호, 회사 기밀, 타인의 개인정보는 AI에 넣지 않습니다.\n2. 챗GPT, 제미나이, 클로드 모두 대화를 학습에 쓰지 않도록 설정할 수 있습니다.\n3. 학습을 꺼도 대화가 일정 기간 서버에 보관될 수 있으니 민감 정보는 애초에 넣지 않는 것이 원칙입니다.\n4. 꼭 필요한 자료는 가명 처리 후 입력하고, 회사 업무는 회사 정책을 먼저 확인합니다.\n1. AI에 넣으면 안 되는 정보 7가지\n번호\n정보 종류\n예시\n위험한 이유\n\n\n1\n고유식별정보\n주민등록번호, 여권번호, 운전면허번호, 신분증 사진\n유출 시 명의도용으로 바로 이어집니다\n\n\n2\n금융정보\n카드번호, 계좌 비밀번호, 보안카드, OTP 번호\n직접적인 금전 피해로 연결됩니다\n\n\n3\n계정 인증 정보\n비밀번호, API 키, 인증 토큰, 서버 접속 정보\n코드나 로그에 섞여 들어가는 경우가 많습니다\n\n\n4\n회사 기밀\n미공개 실적, 신제품 기획, 소스코드, 인수합병 정보\n회사 보안 규정 위반이 될 수 있습니다\n\n\n5\n타인의 개인정보\n고객 명단, 직원 연락처, 학생 성적\n내 정보가 아니므로 동의 없는 제공 문제가 생길 수 있습니다\n\n\n6\n건강·의료 기록 원본\n진단서, 검사 결과지, 처방 내역\n민감정보로 분류되는 대표 항목입니다\n\n\n7\n법적 분쟁 자료 원본\n소송 서류, 수사 관련 문서, 합의서\n상대방 정보와 사건 내용이 함께 노출됩니다\n\n\n\n \n\n\n2. 서비스별 '학습 끄기' 설정 위치\n아래 메뉴 이름은 2026년 기준 일반적인 위치이며, 서비스 업데이트에 따라 이름과 위치가 바뀔 수 있습니다. 메뉴가 보이지 않으면 설정 화면에서 \"데이터\", \"개인정보\", \"활동\"이라는 단어를 찾아보세요.\n챗GPT\n프로필 > 설정 > 데이터 제어에서 \"모두를 위한 모델 개선\"을 끕니다.\n일회성 대화는 임시 채팅을 쓰면 대화 기록에 남지 않고 학습에도 쓰이지 않습니다. 다만 안전 점검을 위해 일정 기간 보관될 수 있습니다.\n설정 > 개인 맞춤 설정의 메모리에서 AI가 기억하고 있는 내용을 확인하고 지울 수 있습니다.\n제미나이\n제미나이 화면의 설정 및 도움말 > 활동에서 Gemini 앱 활동 저장을 끕니다. 화면에 따라 \"활동 유지\" 같은 이름으로 표시될 수 있습니다.\n활동 저장을 꺼도 서비스 제공과 안전을 위해 대화가 짧은 기간 보관될 수 있다는 점을 안내 문구에서 확인하세요.\n일회성 질문은 임시 채팅 기능이 있다면 그것을 활용합니다.\n클로드\n프로필 > 설정 > 개인정보 보호에서 \"Claude 개선에 도움\" 항목을 끕니다.\n이 항목을 켜 두면 대화가 모델 개선에 쓰이고 보관 기간도 길어질 수 있으니, 업무용으로 쓴다면 꺼 두는 것을 권합니다.\n기록을 남기고 싶지 않은 대화는 시크릿(인코그니토) 채팅을 활용합니다.\n\n\n\n\n\n서비스\n학습 끄기 위치\n일회성 대화 기능\n\n\n챗GPT\n설정 > 데이터 제어 > 모두를 위한 모델 개선\n임시 채팅\n\n\n제미나이\n설정 및 도움말 > 활동 > Gemini 앱 활동\n임시 채팅\n\n\n클로드\n설정 > 개인정보 보호 > Claude 개선에 도움\n시크릿 채팅\n\n\n\n \n참고로 기업용 요금제(챗GPT 비즈니스·엔터프라이즈, 구글 워크스페이스의 제미나이, 클로드 팀·엔터프라이즈 등)는 기본적으로 고객 데이터를 학습에 쓰지 않는다고 안내하고 있습니다. 회사에서 계약한 계정이 있다면 개인 계정보다 그쪽을 쓰는 것이 원칙입니다.\n3. 꼭 필요한 자료는 '가명 처리' 후 입력\n학습을 꺼도 대화는 서버를 거칩니다. 그래서 가장 확실한 방법은 민감한 부분을 지우거나 바꾼 뒤 넣는 것입니다. 메모장의 찾아 바꾸기 기능만으로도 충분합니다.\n실명은 [고객A], [담당자B]처럼 바꿉니다.\n회사명, 제품명은 [자사], [경쟁사1], [신제품X]로 바꿉니다.\n금액은 비율이나 범위로 바꾸거나 단위만 남깁니다.\n전화번호, 이메일, 주소, 계좌번호는 아예 지웁니다.\n가명 처리 자료를 넣을 때 쓰는 프롬프트\n아래 자료는 개인정보와 회사 정보를 가명으로 바꾼 상태야. [고객A], [자사] 같은 표기는 그대로 유지하고, 실제 이름이나 정보를 추측하지 마. 이 자료를 바탕으로 [요약/표 정리/개선점 도출]을 해 줘.\n[가명 처리한 자료 붙여 넣기]\n회사용 AI 사용 가이드 초안 만들기 프롬프트\n직원 20명 규모 회사에서 쓸 생성형 AI 사용 가이드 초안을 만들어 줘. ①입력 금지 정보 목록 ②허용되는 업무 예시 ③개인 계정과 회사 계정 사용 기준 ④가명 처리 방법 ⑤사고 발생 시 보고 절차를 포함하고, 직원들이 한 장으로 볼 수 있게 표 위주로 정리해 줘.\n\n\n4. 업무용 AI 안전 체크리스트\n회사에 AI 사용 정책이 있는지 먼저 확인했다\n개인 계정이라면 학습 끄기 설정을 마쳤다\n이름, 연락처, 계좌, 주민번호를 지우거나 가명으로 바꿨다\n비밀번호나 API 키가 코드, 로그에 섞여 있지 않은지 확인했다\nAI 계정에 2단계 인증을 설정했다\n공유 링크로 대화를 공유했다면 불필요한 링크를 삭제했다\n5. 자주 묻는 질문 (FAQ)\nQ1. 학습을 끄면 대화 기록도 바로 삭제되나요?\n아닙니다. 학습 끄기는 \"모델 개선에 쓰지 말라\"는 설정이고, 대화 기록 보관과는 별개인 경우가 많습니다. 기록을 지우려면 대화 삭제나 활동 삭제를 따로 해야 하며, 삭제 후에도 안전 점검 목적으로 일정 기간 보관될 수 있습니다.\nQ2. 이미 민감한 정보를 넣었다면 어떻게 하나요?\n해당 대화를 삭제하고, 비밀번호나 API 키를 넣었다면 즉시 변경하거나 재발급하세요. 회사 기밀이라면 숨기지 말고 보안 담당자에게 알리는 것이 피해를 줄이는 길입니다.\nQ3. 유료 요금제를 쓰면 학습에 안 쓰이나요?\n개인용 유료 요금제는 무료와 마찬가지로 설정에 따라 학습에 쓰일 수 있습니다. 기본적으로 학습에서 제외되는 것은 주로 기업용 요금제입니다. 내 요금제의 정책을 설정 화면에서 직접 확인하세요.\nQ4. 스크린샷이나 파일을 올리는 것도 같은가요?\n네. 이미지와 파일도 텍스트와 똑같이 처리됩니다. 스크린샷에 이름, 이메일, 알림 내용이 함께 찍혀 있지 않은지 올리기 전에 확인하세요.\n마무리: 설정은 한 번, 습관은 매번\n학습 끄기 설정은 5분이면 끝나지만, 가장 중요한 보안 장치는 \"넣기 전에 한 번 더 보는 습관\"입니다. 오늘 바로 세 서비스의 설정을 확인하고, 자료를 붙여 넣기 전에 7가지 목록을 떠올려 보세요. 그것만으로도 AI를 훨씬 안심하고 업무에 활용할 수 있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/10/do-we-really-need-co-founders.html",
-    "pubDate": "Sun, 18 Oct 2026 21:38:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://muzbox.tistory.com/483745",
+    "pubDate": "Fri, 23 Oct 2026 11:45:02 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "Uncategorized",
-      "cofounder",
-      "FoundersAtWork",
-      "people",
-      "primer",
-      "Strong"
+      "AI, 미래기술/AI 인사이트",
+      "ai 개인정보",
+      "AI 보안",
+      "ai 사용 가이드",
+      "임시 채팅",
+      "제미나이 활동 끄기",
+      "챗GPT 학습 끄기",
+      "클로드 개인정보 설정",
+      "회사 기밀 유출"
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "후발주자의 저력",
-    "description": "전 세계가 그렇지만, 한국도 AI에 막대한 돈을 투자하겠다고 선언했고, 실제로 어느 정도 계획대로 자금을 집행하고 있는 것 같다. 그리고 한국은 상대적으로 잘 사는 나라라서 미국이나 중국만큼은 아니지만 아마도 전 세계에서 AI에 가장 많은 투자를 하는 나라 중 하나일 것이다. 솔직히 이렇게 하는 게 맞는 건지, 그리고 이 막대한 자금을 어디서 확보할 건지는 확실치 않지만, 어쨌든(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/10/the-latecomers-edge.html",
-    "pubDate": "Wed, 21 Oct 2026 21:15:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "ai",
-      "korea",
-      "people"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4",
-    "pubDate": "Fri, 16 Oct 2026 16:01:02 GMT",
-    "creator": "Netflix Technology Blog",
-    "categories": [
-      "knowledge-graph",
-      "ontology",
-      "genai",
-      "observability"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "Dynamics of Sentiment and Attitudes Toward AI Among Developers",
-    "description": "For the last three years, we’ve been measuring developer sentiment and attitudes toward the role of AI across the software development lifecycle via our Developer Ecosystem surveys and AI Pulse surveys. The leap happening this year is striking. You can feel it in the air – especially in JetBrains Air – and see it in […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/10/dynamics-of-sentiment-and-attitudes-toward-ai-among-developers/",
-    "pubDate": "Mon, 19 Oct 2026 11:57:55 +0000",
-    "creator": "Mikhail Bogdanov",
-    "categories": [
-      "agentic-ai",
-      "ai",
-      "deveco",
-      "jetbrains-ai",
-      "research",
-      "survey"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Can you bake Maven into a neural network?",
-    "description": "We tried, and it builds. We compiled the decision-making part of a Maven-style build tool into a fixed weight matrix and used it to build a real Java library. The output matches Apache Maven's byte for byte. A clean build with tests took 1.49× as long as the same logic written in Python (95% interval […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/10/can-you-bake-maven-into-a-neural-network/",
-    "pubDate": "Sun, 18 Oct 2026 16:36:08 +0000",
-    "creator": "Denis Shiryaev",
-    "categories": [
-      "maven"
-    ]
-  },
-  {
-    "id": 14,
+    "id": 5,
     "imageUrl": "",
     "title": "좋아하는 것도 습관이다",
     "description": "트레바리에서 \"좋아하는 일과 잘하는 일 중에서 어떤 선택을 해야 지속 가능한 성취가 가능한 것인가\"라는 주제로 이야기를 나눴다.\n나는 지금 하는 일을 좋아하려고 노력하는 쪽에 더 마음이 간다고 이야기했다.\n좋아하는 일을 찾았더라도, 그 일을 직업으로 계속할 수 있는지는 내 마음만으로 결정되지 않기 때문이다.\n최근에 '신인감독 김연경' 시즌 2가 시작되었다.\n이 프로그램에는 프로팀에서 방출된 선수들과 프로 진출을 꿈꾸는 실업팀 선수들이 나온다.\n시즌 2에서는 시즌 1 선수들의 후일담도 볼 수 있었다.\n그중 윤영인 선수가 다시 프로 드래프트에 참여한 장면이 기억에 남는다.\n시즌 1에서 활약했던 선수라 이번에는 프로 구단의 선택을 받기를 기대했다.\n하지만 마지막까지 윤영인 선수의 이름은 불리지 않았다.\n\n\n\n그리고 윤영인 선수는 시즌 2에 다시 참가했다.\n그 장면을 보면서, 좋아하는 마음만으로는 원하는 일을 직업으로 삼을 수 없다는 생각이 들었다.\n나는 지금 좋아하는 일을 하고 있지만, 앞으로도 계속할 수 있을까?\n코드를 사랑하는 사람에게는 요즘의 변화가 너무 힘들다.\n코드 한 줄 한 줄에 감동받고, 그런 코드를 직접 작성하는 일을 사랑했다.\n하지만 지금의 나는 예전처럼 코드를 작성하고 다듬는 일에만 집중하기는 어렵다.\nAI 시대가 오기 전부터 조직에서 코드를 작성하는 일 외에도 여러 일을 맡고 있었다.\nAI 시대가 오면서는 더 다양한 일을 맡게 되었다.\n내가 해야 하는 일도, 나에게 기대하는 역할도 달라지고 있다.\n내가 좋아하고 사랑하는 일이 지금은 직업이 될 수 있어도, 앞으로는 그렇지 않을 수 있다.\n나는 여전히 그 일을 좋아하는데, 그 일을 필요로 하는 곳이나 그 일에 돈을 지불하려는 사람이 줄어들 수도 있다.\n그럼 나는 어떡해야 할까?\n내가 좋아했던 방식으로 계속 일할 수 있는 회사를 찾을 때까지 이직해야 할까?\n아니면 그런 환경을 직접 만들기 위해 창업해야 할까?\n그것도 선택할 수 있는 방법이다.\n하지만 회사를 옮기거나 직접 만든다고 해서, 내가 좋아하는 일을 계속할 수 있는 조건까지 모두 내 뜻대로 정할 수 있는 것은 아니다.\n창업을 하더라도 내가 하고 싶은 일과 고객이 돈을 지불하고 싶은 일이 같을지는 또 다른 문제다.\n좋아하는 일을 찾는 것은 중요하다.\n다만 좋아하는 일을 찾았다고 해서, 그 일을 직업으로서 계속할 수 있을지에 대한 고민까지 해결되는 것은 아니다.\n그 직업이 더이상 필요하지 않을수도,\n그 직업이 주는 경제적인 보상으로는 생활을 영위하기 힘들 수도 있으니 말이다.\n그래서 내가 좋아하는 일을 계속 찾기 위해 노력하기 보다는 지금 하는 일을 좋아하는 것에 더 많은 힘을 쓰려고 노력한다.\n나는 오래 성취감을 느끼면서 행복하게 일하고 싶다.\n새로운 일을 맡을 때마다 예전에 하던 일과 비교하며, 내가 좋아하는 일이 아니라는 이유로 재미없이 일하고 싶지는 않다.\n처음에는 기대하지 않았던 일이라도, 해보면서 좋아하게 될 수 있었으면 한다.\n예전처럼 코드 한 줄 한 줄에 감동받고 사랑하는 것은 지금의 내가 하기는 어렵다.\n그렇지만 그 외에도 사랑스럽게 볼 수 있는 일들은 많다.\n세일즈도, 마케팅도, 콘텐츠등 코드와 제품 밖에서 벌어지는 많은 일을을 고민하고 있다.\n그 일들을 사랑하고 있다.\n사랑하려고 노력하고 있다.\n좋아하는 것도 습관이다.\n좋아해보기로 마음먹고, 좋은 점을 찾고, 더 재미있게 할 방법을 시도해본다.\n이런 노력을 반복하는 것도 습관이 될 수 있다고 본다.\n지금의 변화도 내가 하는 일을 좋아하는 연습을 하는 시간으로 받아들이고 있다.\n새로운 업무를 배우는 것뿐 아니라, 처음 해보는 일을 어떻게 좋아하게 될 수 있는지도 알아가는 시간으로.\n언젠가 내 의지와 상관없이 지금 하는 일을 더는 못 하게 되더라도, 그때 새롭게 하는 일에서 재미와 성취감을 느낄 수 있었으면 한다.\n가장 좋아했던 일을 하지 못한다고 해서, 앞으로의 직업생활까지 행복하지 않을 것이라고 생각하고 싶지는 않다.\n앞으로도 시대는 계속 바뀔 것이다.\n나는 그때그때 바뀌는 내 모든 일들을 사랑하고 싶다.",
@@ -223,32 +83,149 @@
     ]
   },
   {
-    "id": 15,
+    "id": 6,
     "imageUrl": "",
-    "title": "Why We Still Need an IDE",
-    "description": "I’ve been mulling this over for about a year now. The developer landscape has shifted to the point where you can’t scroll past the news without seeing someone declare “I never open my IDE anymore” or “I do everything in the terminal.” And those workflows genuinely work for some people. But not for everyone. I […]",
+    "title": "헤드리스 브라우저 Lightpanda",
+    "description": "엔진을 바닥부터 만든 브라우저가 새로 나왔다고 해서 놀라움과 함께 테스트 해 봤다. 사람이 아닌 기계를 위한 브라우저라는 모토를 걸고 있는 라이트판다(Lightpanda)라는 브라우저이다. 크롬이나 파이어폭스도 UI가 없는 헤드리스 모드를 지원한다. 하지만 내부적으로는 페이지를 랜더하기 때문에 헤비하게 돌리면 시스템 자원을 상당히 많이 사용하는데 라이트판다는 페이지 랜더를 하지 않는다고 한다.\n\r\n\r\ncurl -fsSL https://pkg.lightpanda.io/install.sh | bash\n\r\n\r\n간단히 설치할 수 있다. 설치하고 lightpanda serve로 서버를 띄우고 노드에서 플레이라이트와 같은 기존 툴에서 크롬 개발도구 프로토콜(Chrome DevTools Protocol)로 연결해 사용하는 방식이다.\n\r\n\r\nconst browser = await chromium.connectOverCDP('ws://127.0.0.1:9222');\n\r\n\r\n사용하기 위해서 별도 라이브러리 없이 플레이라이트를 그냥 쓰면 된다. 기존에 퍼피티어나 플레이라이트를 쓰고 있었으면 CDP 정의만 해주면 이론상 그대로 돌아간다는 말이다. 공식으로 제공하는 테스트 스크립트를 돌려봤는데 잘 작동한다.\n\r\n\r\n서버를 올린상태에서 메모리 사용량을 보니 10메가 바이트다. 물론 웹페이지를 올리면 늘겠지만 기본 메모리 사용량이 충격적이어서 화면 랜더를 안하니 훨씬 빠르고 가볍다는 말이 믿음이 간다.\n\r\n\r\n플레이라이트는 안드로이드 폰에서 구동하는 것을 실패 했었는데 라이트판다는 실행될지 시도해 봤다. 일단 터먹스(Termux)에서 바로 실행은 안된다.\n\r\n\r\n~ $ lightpanda serve --host 127.0.0.1 --port 9222\r\nerror: \"/data/data/com.termux/files/home/.local/bin/lightpanda\" has unexpected e_type: 2\n\r\n\r\n리눅스용 Arm64 빌드가 설치되어서 실행파일이 맞지 않는다. 리눅스에서 돌리기 위해 proot를 사용해서 우분투를 설치한다.\n\r\n\r\npkg install proot-distro\r\nproot-distro install ubuntu\r\nproot-distro login ubuntu\n\r\n\r\n그 안에서 실행하면 서버는 잘 뜬다.\n\r\n\r\nroot@localhost:~/lightpanda# lightpanda serve\r\n$time=1791509975793 $scope=app $level=warn $msg=\"No certificates loaded\"\r\n$time=1791509975795 $scope=note $level=note $msg=\"config tips\" robots=\"use '--obey-robots' to use a sites robots.txt\" meta=\"use '--log-filter note' to silence this message\"\r\n$time=1791509975796 $scope=note $level=note $msg=\"server running\" address=127.0.0.1:9222 max_connections=16208 max_browser_connections=16\n\r\n\r\n하지만 테스트 스크립트를 돌리면 지원하지 않는 플랫폼이라는 오류가 나는데 플레이라이트가 기본 브라우저를 사용하지 않도록 환경변수를 설정해 주면 된다.\n\r\n\r\nPLAYWRIGHT_BROWSERS_PATH=0 node index.js\n\r\n\r\n그 다음에는 설치한 우분투에 인증서가 없어서 웹페이지 접속이 안되는데 인증서를 깔아준다.\n\r\n\r\napt update\r\napt install --reinstall ca-certificates\r\nupdate-ca-certificates\n\r\n\r\n여기까지 하니 잘 된다. 터먹스에서도 라이트판다를 이용해서 플레이라이트 라이브러리를 사용할 수 있다. 기존에 플레이라이트 쓰던거를 교체해 볼까도 생각해 봤지만 accessibility.kr은 스크린 샷을 저장하기 때문에 라이트판다로 대체하기에는 힘들 것 같다. 잘 돌아가고 있는 것을 건드릴 필요는 없을 것 같아서 여기까지만 하고 나중에 서버 망가지면 다시 시도해 봐야 겠다.\n\r\n\r\n(LLM 때문에 블로그 글이 무슨 의미인가 싶다가도 귀찮음을 누르고 또 조금씩 써본다.)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/blog/2026/10/20/why-we-still-need-an-ide/",
-    "pubDate": "Tue, 20 Oct 2026 09:31:35 +0000",
-    "creator": "Isaac Levin",
+    "link": "https://hyeonseok.com/blog/951",
+    "pubDate": "Sun, 18 Oct 2026 12:20:13 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "JetBrains GameDev Day 2026: Watch the Recordings",
+    "description": "Missed JetBrains GameDev Day 2026, or want to revisit your favorite sessions? All the recordings are now available on YouTube! On September 28, we brought together game developers, engineers, and industry experts for a full day of technical talks, live demos, and discussions about the tools and challenges shaping modern game development. From Epic’s open-source […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/dotnet/2026/10/23/jetbrains-gamedev-day-2026-watch-the-recordings/",
+    "pubDate": "Fri, 23 Oct 2026 15:04:27 +0000",
+    "creator": "Anna Ruban",
+    "categories": [
+      "net-tools",
+      "ai",
+      "rider",
+      "teamcity-2",
+      "conference",
+      "game-developement",
+      "gamedev",
+      "gamedev-day"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+    "description": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach.  At Meta, we’ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents deliberately thin: It routes work and enforces reliability checks, while specialized agents do the domain reasoning. We’re sharing our own [...]\nRead More...\nThe post The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+    "pubDate": "Mon, 19 Oct 2026 15:30:37 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "AI Research",
+      "ML Applications"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Are You Getting Everything You Can from Your Visual Studio Subscription?",
+    "description": "What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch?  If you’re a Visual Studio subscriber, you may already have benefits that can help you do all three. Here’s […]\nThe post Are You Getting Everything You Can from Your Visual Studio Subscription? appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/",
+    "pubDate": "Thu, 22 Oct 2026 14:00:56 +0000",
+    "creator": "James Rempt",
+    "categories": [
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "RPG2026-010 데모 작업",
+    "description": "영상: https://www.youtube.com/watch?v=SxrZNflM6t8\n\n\n\n거의 한달발이 지났는데 퀄리티가 처참하군요\n중간에 유니티 AI 사용도 테스트 하고 이것저것 하긴 했는데\n아무튼 한달 반동안 만든게 별로 없군요\n \n스킬 같은거 넣어서 좀 더 게임 같이 만들어야겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1690",
+    "pubDate": "Fri, 23 Oct 2026 06:44:25 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "프로그래밍/자작",
+      "RPG2026"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "엘라스틱 Anomaly Detection Job",
+    "description": "엘라스틱이 데이터 성격별로 알아서 이상징후를 분석해주는 ML 작업 기능을 제공한다. ECS와 호환되는 테이블 구조일 때만 ML 작업 선택 가능. 다음은 winlogbeat로 윈도우 이벤트 연동 시 선택 가능한 ML 작업 내역.   \n\n\n\n\n\n각 작업은 다양한 분석 지표를 포함하고 있다. 'Security: Authentication' 작업 선택 시 생성되는 분석 지표 내역.\n\n\n\n\n분석 목적에 맞는 필드 구조와 데이터가 존재하면 해당 지표가 생성된다.\n\n\n\n\nfilebeat로 아파치 로그 연동 시 선택 가능한 ML 작업 내역. \n\n\n\n\n아주 멍텅구리는 아님. \n\n\n\n\n그래서 쓸만할까? 이런 범용 ML의 정확도는 아직까지는 믿고 쓸 만큼의 정확도를 보장하지 못한다. 잘못된 결과가 나와도 총대 메겠다는 마인드가 아니라면 스스로 분석할 수 있을 때 참고하는 보조 지표 수준으로 활용하는 게 최선.\n\n관련 글\n머신러닝의 한계?\n노가다는 AI에게",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://kangmyounghun.blogspot.com/2026/10/anomaly-detection-job.html",
+    "pubDate": "2026-10-17T06:00:11.398Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "title": "[MULTI] 질주와 빌딩의 초월적 카타르시스, 스타워즈: 은하계 레이서",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2507",
+    "pubDate": "Mon, 19 Oct 2026 17:24:16 +0900",
+    "creator": "「RULIWEB」",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "REA 역공학 도구 기반 DWG 캐드파일 분석, 캐드 뷰어 및 모델러 도구 Web App 개발기",
+    "description": "이 글은 역공학 도구인 REA(Reverse Engineering Agents)를 설치하고, 이를 이용해, AutoCAD DWG 바이너리 파일 구조를 분석한 후, 그 결과를 바탕으로 CAD 웹 뷰어를 바이브 코딩으로 개발한 과정을 간략히 기록해 남긴다. 아울러, 윈도우 실행파일 분석기로 유명한 dependency, 3D solid 모델러 등도 같은 방식으로 역공학해 웹 기반 실행 도구로 변환 개발한 후 결과를 정리한다. \n우선, DWG 파일 뷰어 개발용 테스트 대상은 연구원 본관동 평면도 DWG 파일 2종이다. 하나는 AutoCAD 2004 포맷(AC1018), 다른 하나는 2010 포맷(AC1024)으로, 둘 다 한글 텍스트와 한글 SHX 빅폰트를 사용한다. 전체 작업은 클로드 코드에 프롬프트를 주는 방식으로 진행했고, 분석부터 웹 앱 개발, 테스트까지 한 시간 남짓 걸렸다.\n\n개발된 웹 뷰어로 연 본관동 평면도 (6장 시트, 다크 모드)\nREA 소개\nREA는 Ghidra, JADX 같은 역공학 엔진들을 MCP(Model Context Protocol) 서버로 묶어, 클로드 코드 같은 LLM 에이전트가 바이너리 분석을 직접 수행할 수 있게 해주는 도구다. 네이티브 바이너리 디컴파일(exe, dll 등), 안드로이드 APK 분석, 일렉트론/자바스크립트 번들 분석, 펌웨어 추출 등 200개가 넘는 분석 도구를 제공한다. 분석 결과에는 증거(Evidence)가 함께 붙어 나오므로, LLM이 지어낸 내용인지 실제 바이너리에서 확인된 내용인지 구분할 수 있다.\nREA 설치 방법\n윈도우 기준 설치 과정은 다음과 같다. 관리자 권한 없이 모두 포터블로 설치했다.\n1) JDK 21 설치 (Ghidra 실행용). Temurin 포터블 zip을 받아 압축 해제.\nclaude mcp add rea -- cmd.exe /d /c npx -y rea-agents@latest mcp\n등록 후 doctor 명령으로 Ghidra, JADX 프로바이더가 healthy인지 확인하면 된다. npx 첫 실행은 패키지 다운로드 때문에 타임아웃될 수 있는데, 이 경우 앱을 재시작하면 연결된다.\nDWG 파일 구조 분석\n분석과 개발에 사용한 프롬프트는 대략 다음과 같다.\n이 폴더 아래의 dwg 파일을 REA로 분석해 구조를 파악해줘. 헤더 필드, 섹션 구조, 한글 텍스트 인코딩, 폰트(.shx 빅폰트/.ttf)를 확인하고 바이트 증거와 함께 문서로 정리해줘. 확인 안 된 항목은 추정으로 표시할 것.\n이후, 그 결과를 활용해 Rust 웹 앱 개발 실행해. 한글 텍스트가 정확히 표시되어야 해.\n이런식으로 하네스하면서 진행한다. 처음부터 완벽한 컨텍스트와 Goal을 넣고 하는 편이 좋으나 이 정도 도구는 적절히 피드백 주면서 개발해도 큰 무리가 없다.  \nREA로 DWG 파일을 등록해 sha256 무결성 증거를 확보하고, 파일 헤더를 바이트 단위로 분석했다. 참고로 윈도우용 Ghidra 백엔드는 PE 등 실행 파일 위주라 DWG 같은 raw 데이터 이미지의 바이트 읽기는 지원하지 않았다. 이 부분은 자체 분석 스크립트와 LibreDWG(dwg2dxf) 교차 검증으로 보완했다. 확인된 주요 내용은 다음과 같다.\n- 파일 헤더 고정 필드: 버전 문자열(AC1018/AC1024), 썸네일 주소(0x0D), 코드페이지(0x13), SummaryInfo 주소(0x20)\n분석 결과는 바이트 증거와 함께 보고서로 정리했고, 이 보고서가 이후 웹 앱 개발의 설계 근거가 됐다.\nRust 한글 지원 CAD 웹 뷰어 개발\n구성은 cargo 워크스페이스로, DWG 헤더 파서/DXF 파서/MTEXT 서식 제거를 담당하는 라이브러리 크레이트와 axum 웹 서버 크레이트로 나눴다. 파이프라인은 다음과 같다.\n업로드 DWG -> 자체 헤더 파싱(버전, 코드페이지, 썸네일) -> LibreDWG dwg2dxf 사이드카 변환 -> 자체 DXF 파싱 -> 평탄화된 엔티티 JSON -> HTML 캔버스 렌더링\n한글 처리가 이번 개발의 핵심이었다. DXF의 $ACADVER를 보고 AC1018 이하는 encoding_rs의 EUC-KR 디코더로, AC1021 이상은 UTF-8로 분기한다. MTEXT 서식 코드는 파서에서 제거한다. 도면의 원본 폰트(whgtxt.shx 등 셰이프 폰트)는 라이선스와 포맷 문제로 재현하지 않고 Noto Sans KR 웹폰트로 대체했는데, 실명 표기 용도로는 충분하다.\n\n1층 평면도 확대. 건설정보연구부, 숙직실 등 한글 실명이 CP949 디코딩으로 표시된다 (AC1018)\n\nAC1024 파일의 지하층 평면도. MTEXT 서식 코드를 제거한 한글(매점, 문서고, 교육실)이 표시된다\n뷰어 UX는 CAD 사용자에게 익숙한 구성으로 만들었다. 파일/보기 메뉴바, 레이어 패널(검색 필터, 표시 토글, 색상 피커로 레이어 색 즉시 변경), 휠 확대/축소와 드래그 이동, 커서 도면 좌표 표시, 다크/라이트 모드, 한국어/영어 UI 전환을 지원한다.\n\n보기 메뉴와 레이어 검색 필터\n\n라이트 모드 + 영문 UI\n단위 테스트 16개로 CP949 디코딩(본관동 1층평면도, 레이어명 구조기둥), MTEXT 서식 제거(실제 도면 샘플), INSERT 블록 전개, 실파일 헤더 검증을 고정했다.\n개발 끝난 결과는 다음과 같다. 보다시피 거의 완벽하게 기준이 된 도면 DWG 파일을 파싱, 처리 및 뷰어 렌더링되었다. \n\n\n\n\n\n\n\n\n개발 중 만난 문제들\n바이브 코딩이라고 해도 중간마다 하네스해야 하고, 간단한 디버깅은 피할 수 없었다. 기록해 둘 만한 것들은 다음과 같다.\n- 윈도우 GNU 러스트 툴체인에서 raw-dylib을 쓰는 최신 windows-sys 크레이트가 dlltool 오류로 빌드 실패. tokio를 1.38로 고정해 해결\n마무리\nREA 같은 역공학 MCP와 LLM 에이전트를 결합하면, 바이너리 포맷 분석부터 그 결과를 반영한 앱 개발까지 하나의 대화 흐름 안에서 처리할 수 있다. 이번 작업은 분석, 개발, 테스트, 렌더링 검증까지 한 시간 남짓 걸렸다. 다만 분석 결과를 그대로 믿기보다 LibreDWG 같은 검증된 도구와 교차 확인하는 과정, 그리고 중간 이슈를 확인하고 목표까지 가도록 가이드해줄 테스트케이스 작성은 여전히 사람이 챙겨야 할 몫이다.\n부록: 윈도우 실행파일 분석기 및 솔리드 모델러 웹 버전 도구 개발\n참고로 다음도 같은 방식으로 개발된 실행파일 분석기(개발자 사이 유명한 Dependency)도구 웹앱 버전, 솔리드 모델링 캐드 웹앱 버전이다.\n앞서 했던 프로세스와 동일하게 진행하였다. dependency는 주요 exe, dll 과 같은 컨텍스트를 바이브코딩도구에 입력하고, 프롬프트로 개발 명령을 내렸다. 이 도구는 실행파일이 300k이하라 30분정도면 개발이 완료되었다. 실행해 보면 다음 그림과 같이 웹 기반으로 exe, dll 파일을 입력받아 내부 구조를 분석하고 의존성 트리와 관련 이슈들을 분석한 후, 알기 쉽게 데쉬보드 차트 형식으로 분석 결과를 정리해 준다. 원본 도구가 단순히 윈도우에서 만 실행되고 의존성 트리 등 만 표출해 준 것에 비해 여러 기능을 추가할 수 있다. \n\n\n\n\n\n\n역공학된 Dependency 웹앱 버전(링크)\n\n마찬가지로, 3D 솔리드 모델링 도구도 유명한 관련 모델러를 참고해 같은 방식으로 개발을 하였고, 결과는 다음과 같다. 작업 과정 하네스를 포함해 전체 개발에 걸린 시간은 2~3시간 미만이다. 웹 기반 도구로 개발되었고, 다음 그림과 같이 유명 상용 모델러와 큰 차이가 없는 UX 경험을 할 수 있다. \n\n\n\n\n다음 영상은 실제로 이렇게 개발된 모델러를 통해 스케치 > 구속제약 설계 > 3차원 모델링 > 파라메트릭 수정 > 최종 완성된 결과를 보여준다. 단, 나머지 어셈블리 등 모델러 기능은 시간이 더 필요한 부분이라 계속 진행하지는 않았고 차후 작업으로 남겨두었다.\n\n\n\n역공학된 3차원 솔리드 모델러\n\n\n레퍼런스\n\n\n\n\n\n\n\n\n\nREA (rea-agents): https://www.npmjs.com/package/rea-agents\nGhidra: https://github.com/NationalSecurityAgency/ghidra\nLibreDWG: https://www.gnu.org/software/libredwg/\nhttps://github.com/tangency-labs/solidcraft\nODA, Open Design Specification for .dwg files",
+    "reviews": [],
+    "syllabus": [],
+    "link": "http://daddynkidsmakers.blogspot.com/2026/10/rea-dwg-rust-cad.html",
+    "pubDate": "2026-10-17T16:51:25.493Z",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "나는 하네스 깎는 노인이 되었다 시리즈 2: 안녕, 실버불릿",
+    "description": "[![NHN Cloud_meetup_banner_harness_202610_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetupbannerharness202610900.png)](https://www.nhncloud.com/kr)\r\r\n\r\r\n>  이 글은 작성자가 사내 게시판에 공유한 글을 가공한 것으로, 작성자의 의도와 맥락을 충실히 전달하기 위해 원문의 문장 스타일을 그대로 유지하였습니다.\r\r\n>  이 글은 김영우 님의 AI 하네스 깎는 노인을 감명 깊게 보고 한 달간 직접 하네스 깎는 노인이 되어 경험한 내용을 담은 글로, [나는 하네스 깎는 노인이 되었다 시리즈 1: 은총알은 없다](https://meetup.nhncloud.com/posts/423)의 후속편입니다.\r\r\n\r\r\n## 들어가며\r\r\n\r\r\n나의 나무, 하네스는 깎을수록 똑똑해졌다.\r\r\n어느 순간부터 나는 누가 무언가를 물어오면 그 질문을 나무에게 그대로 넘기고 있었다.\r\r\n\r\r\n그러다 문득 이런 생각이 들었다.\r\r\n\r\r\n> \"이 중간 단계, 꼭 내가 끼어야 하나?\"\r\r\n\r\r\n나는 나무에게 '실버불릿'이라는 이름을 주고 **귀와 입을 달아주었다**.\r\r\n\r\r\n![NHN Cloud_meetup_diagram-1_202610_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetupdiagram1202610900.png)\r\r\n\r\r\n그러자 나무는 마치 나처럼 말했다.\r\r\n내가 아는 만큼 알고, 내가 하던 대로 일하는 '나'.\r\r\n\r\r\n이 글은 그 이야기다.\r\r\n내가 깎은 나무가 살아 움직이기 시작했을 때, 무엇을 얻었고, 무엇이 위험했는지.\r\r\n\r\r\n\r\r\n\r\r\n## 1. 실버불릿, 팀원들과 만나다\r\r\n\r\r\n채팅방은 AI와 나누던 일대일 대화와 다르다.\r\r\n여러 명이 동시에 떠들고, 말은 두서없이 엉킨다.\r\r\n\r\r\n무엇보다 채팅에서는\r\r\n말할 때마다 지금까지의 맥락을 정리해 주는 사람이 없다.\r\r\n\r\r\n> \"이 난장판에서 얘가 알아들을까?\"\r\r\n\r\r\n한번 물어봤다.\r\r\n\r\r\n![NHN Cloud_meetup_harness-case1_202610.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetupharnesscase1202610.png)\r\r\n\r\r\n실버불릿은 'KTB 수신결과 지연'이라는 한 줄기를 골라내,\r\r\n지난번 비슷했던 기록까지 끌어와 짚어줬다.\r\r\n\r\r\n딱, **내가 했을 법한 방식으로**.\r\r\n\r\r\n물론 이게 가능했던 건 결국 오랫동안 깎아 온 하네스 덕분이다.\r\r\n\r\r\n나만을 위해 존재하던 나무가 이제 대화에 낄 수 있게 됐다.\r\r\n조금씩 동료에 가까워진다.\r\r\n\r\r\n\r\r\n\r\r\n## 2. 살아 있는 것에는 울타리가 필요하다\r\r\n\r\r\n누구나 실버불릿과 얘기할 수 있도록 열어 두니 기뻤다.\r\r\n하지만 **그게 가장 큰 실수였다**.\r\r\n\r\r\n실버불릿은 내 권한으로 일한다.\r\r\n내 로그인, 내 접근 권한, 내 PC 안의 지식까지, 전부 내 것을 빌려 움직인다.\r\r\n그러니 남이 말을 거는 순간, 그 사람이 내 모든 권한을 빌려 쓰는 셈이 된다.\r\r\n\r\r\n실버불릿을 만난 내 팀원들은 즉시 내 모든 권한을 악용하려고 했다. (역시 성악설이 맞는 것 같다)\r\r\n\r\r\n![NHN Cloud_meetup_diagram-2_202610_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetupdiagram2202610900.png)\r\r\n\r\r\n그래서 말을 거는 사람을 분류하고 그에 따라 권한을 나눌 수 있도록 했다.\r\r\n\r\r\n| 사용자 | 권한 |\r\r\n| --- | --- |\r\r\n| 나 | 모든 권한 |\r\r\n| 팀원 | 가진 지식으로 업무는 돕되, 하네스는 건드릴 수도, 들여다볼 수도 없음 |\r\r\n| 그 외 | 담당자에게 물어보라는 정해진 안내만 |\r\r\n\r\r\n[1편](https://meetup.nhncloud.com/posts/423)에서 세웠던 가드레일을 기억하는가?\r\r\n\r\r\n```\r\r\n텍스트 규칙 → 구조적 강제 → 물리적 차단\r\r\n```\r\r\n\r\r\n권한도 똑같았다. \"건드리지 마\"라고 적어두는 걸로는 안 된다.\r\r\n그래서 아예 **손이 닿는 길 자체를 끊어뒀다**.\r\r\n누가 무엇을 물어도, 닿으면 안 되는 곳엔 처음부터 길이 없도록.\r\r\n\r\r\n그제야 실버불릿은 불안한 장난감이 아니라, 믿고 맡길 수 있는 동료가 됐다.\r\r\n\r\r\n\r\r\n\r\r\n## 3. 여럿의 손에서 성장하다\r\r\n\r\r\n울타리를 치고 나니, 비로소 팀원들이 마음껏 말을 걸기 시작했다.\r\r\n그러자 뜻밖의 일이 일어났다.\r\r\n\r\r\n팀원들은 내가 한 번도 시켜 보지 않은 일을 시켰고, 생각지도 못한 것들을 물었다.\r\r\n\r\r\n그제야 깨달았다. 그동안 나무를 깎은 건 나 혼자였다는 걸.\r\r\n내가 깎은 나무라, 나는 이 녀석이 뭘 알고 뭘 모르는지 이미 알고 있었다.\r\r\n\r\r\n> **그래서 나도 모르게 나무가 알 만한 것만 물어왔던 것이다.**\r\r\n\r\r\n남들이 묻기 시작하자, 나무의 깎이지 않은 곳이 그대로 드러났다.\r\r\n내 질문엔 매끄럽게 답하던 녀석이, 남의 질문엔 엉뚱한 데서 걸렸다.\r\r\n\r\r\n남의 손이 닿지 않았다면, 영영 안 깎였을 곳이다.\r\r\n\r\r\n어느 순간부터 나는 묘한 마음으로 실버불릿의 답을 기다리게 됐다.\r\r\n\r\r\n_제대로 못 하면 — 어디가 부족한지 알게 돼서 좋고,\r\r\n제대로 하면 — 그거대로 좋고._\r\r\n\r\r\n틀려도 이득, 맞아도 이득.\r\r\n\r\r\n어느 쪽이든 나무는 한 뼘씩, 그것도 빠르게 자랐다.\r\r\n\r\r\n\r\r\n\r\r\n## 4. 동료로서 일하다\r\r\n\r\r\n이제 실버불릿을 부르는 건 팀원만이 아니다. 운영팀, 사업팀, QA까지 채팅방에서 직접 부른다.\r\r\n\r\r\n```\r\r\n\"지금 장애 있어?\"\r\r\n\"이 결과 코드 정상이야?\"\r\r\n\"이 고객사, 전에 비슷한 문의 한 적 있나?\"\r\r\n\"우리 공지사항 나갔었나?\"\r\r\n\"이 결정 왜 이렇게 했지?\"\r\r\n```\r\r\n\r\r\n질문은 제각각이지만, 실버불릿이 하는 일은 같다. 서비스 가이드, 코드, 로그, 지난 문의 기록을 엮어 답한다.\r\r\n예를 들어 이런 질문이 왔다고 하자.\r\r\n\r\r\n> **운영팀** @실버불릿 SMS에 문제가 있는 것 같아\r\r\n\r\r\n그냥 AI라면 이렇게 되물었을 것이다.\r\r\n\r\r\n> \"문자 말씀이시군요. 어떤 통신사를 사용 중이세요?\"\r\r\n\r\r\n실버불릿은 이렇게 답한다.\r\r\n\r\r\n```\r\r\n[실버불릿]\r\r\n[결론]\r\r\n* SMS 서비스 장애 아님\r\r\n* 고객사 A 요청 중 새 발신번호를 쓴 건만 실패\r\r\n* 같은 시간대 다른 고객사 발송은 정상\r\r\n\r\r\n[원인]\r\r\n* 어젯밤 21:00부터 등록되지 않은 발신번호로 요청\r\r\n* 미등록 번호 -> 전송 전 단계에서 차단\r\r\n\r\r\n[근거]\r\r\n* 실패 건 전부 같은 발신번호, 같은 실패 사유\r\r\n  (21:00 ~ 09:00, 실패 1,234건)\r\r\n* 같은 시간대 전체 실패율: 평소 수준\r\r\n* 서비스 가이드: SMS > 발신번호 사전 등록\r\r\n* 지난 문의 기록: 같은 고객사, 같은 원인 문의 1건\r\r\n\r\r\n[대응방안]\r\r\n* 고객사에 발신번호 등록 안내\r\r\n* 등록 후 재발송하면 정상 처리\r\r\n```\r\r\n\r\r\n결론이 먼저, 원인이 다음, 마지막엔 무엇을 보고 그렇게 말했는지.\r\r\n[근거]가 있으니 사람은 답을 그냥 믿지 않아도 된다.\r\r\n틀렸다면 어디서 틀렸는지 바로 보인다.\r\r\n\r\r\n답하고 끝나지도 않는다.\r\r\n답한 내용은 다시 기록이 되어 하네스에 쌓이고,\r\r\n다음 질문엔 그 기록까지 함께 읽는다.\r\r\n\r\r\n\r\r\n| 업무 | 이전 | 현재 |\r\r\n| :--- | :--- | :--- |\r\r\n| 장애 원인 파악 | 30 \\~ 50분 이상 | 4 \\~ 10분 |\r\r\n| 문의 답변 | 몇 시간 \\~ 하루 이상 | 보통 5분 안 |\r\r\n\r\r\n예전엔 담당자가 알아채고 접속할 수 있어야 시작됐던 일이,\r\r\n이제 밤에도 채팅 한 줄이면 시작된다.\r\r\n\r\r\n\r\r\n\r\r\n## 맺으며\r\r\n\r\r\n[1편](https://meetup.nhncloud.com/posts/423)에서 하루아침에 완성되는 마법의 도구 같은 건 없다고 했다.\r\r\n그 말은 지금도 유효하다. 여전히 은총알은 없다.\r\r\n\r\r\n다만 깨달은 게 있다.\r\r\n\r\r\n> **은총알은 사 오는 게 아니라, 매일 깎아 만드는 거였다.**\r\r\n\r\r\n매일 깎은 그 나무가, 이제 내 일을 같이 한다.\r\r\n그리고 언젠가 진짜 내 은총알이 되어줄지도 모른다.\r\r\n\r\r\n> 하네스에 귀와 입을 달면\r\r\n> 살아 있는 동료가 된다.\r\r\n\r\r\n이제 노인은 가끔 마당에 앉아, 나무가 동료들과 나누는 대화를 듣는다.\r\r\n그래도 나는, 여전히 하네스 깎는 노인이다.\r\r\n\r\r\n>  이 글은 작성자가 사내 게시판에 공유한 글을 가공한 것으로, 작성자의 의도와 맥락을 충실히 전달하기 위해 원문의 문장 스타일을 그대로 유지하였습니다.\r\r\n\r\r\n[![NHN Cloud_meetup banner_footer_mint_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetup%20bannerfootermint900.png)](https://www.nhncloud.com/kr)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://meetup.nhncloud.com/posts/426",
+    "pubDate": "Tue, 20 Oct 2026 06:02:08 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "Air Governance: Manage AI Agents, Access, and Spend Throughout Your Organization",
+    "description": "Today, JetBrains Air Governance becomes generally available. Formerly known as JetBrains Central, this is the organization layer of JetBrains Air, a system of products for agentic development. Air Governance gives you one place to manage which AI agents, models, and providers your teams use, set spending limits, and see what that usage costs and delivers. […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/blog/2026/10/22/air-governance-manage-ai-agents-access-and-spend-throughout-your-organization/",
+    "pubDate": "Thu, 22 Oct 2026 14:09:21 +0000",
+    "creator": "Viktor Kiselev",
     "categories": [
       "agentic-ai",
-      "coding",
-      "engineering",
-      "jetbrains",
-      "opinion",
-      "clion",
-      "datagrip",
-      "goland",
-      "intellij-idea",
       "jetbrains-air",
-      "jetbrains-ides",
-      "phpstorm",
-      "pycharm",
-      "rider",
-      "rubymine",
-      "rustrover"
+      "jetbrains-air-governance",
+      "new-products",
+      "news",
+      "release"
     ]
   }
 ]
