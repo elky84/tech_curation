@@ -2,151 +2,131 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "The Terminal in JetBrains IDEs Now Runs on libghostty",
-    "description": "More and more of your terminal work now runs through tools that push the terminal harder than a shell prompt ever did: AI coding agents like Claude Code and Codex, full-screen apps like Neovim and tmux, system monitors and dashboards. These tools lean on modern terminal protocols, the kind today’s best standalone terminals are built […]",
+    "title": "Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding",
+    "description": "Compare commits with your working tree, resolve merge conflicts in bulk, and keep coding with refreshed Copilot chat, Hot Exit, keyboard tab controls, and Fonts and Colors.\nThe post Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/10/jetbrains-terminal-now-uses-ghostty/",
-    "pubDate": "Tue, 27 Oct 2026 09:36:36 +0000",
-    "creator": "Ekaterina Valeeva",
+    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding/",
+    "pubDate": "Tue, 27 Oct 2026 16:00:00 +0000",
+    "creator": "Mark Downie",
     "categories": [
-      "intellij-platform",
-      "news",
-      "agentic-development",
-      "terminal"
+      "Visual Studio",
+      "Git",
+      "GitHub Copilot",
+      "Productivity"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
-    "description": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “Just-in-Time Catching Test Generation at Meta,” fully details [...]\nRead More...\nThe post Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale appeared first on Engineering at Meta.",
+    "title": "[MULTI] 극한으로 벼려낸 날카로운 액션 명검의 탄생, 팬텀 블레이드 제로",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
-    "pubDate": "Thu, 29 Oct 2026 16:00:12 +0000",
-    "creator": "Unknown",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2509",
+    "pubDate": "Mon, 26 Oct 2026 11:01:52 +0900",
+    "creator": "［RULIWEB］",
     "categories": [
-      "AI Research",
-      "ML Applications",
-      "Security & Privacy"
+      "리뷰"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "한국이 이기는 방법",
-    "description": "이전 포스팅에서 한국이 AI 전쟁에서 일등을 못 할 이유가 없다고 했다. 우리는 항상 후발주자였고, 시간이 걸렸지만, 많은 분야에서 후발주자로 출발해서 일등 한 경험이 이미 너무 많기 때문이다. 하지만, 성공 방식에 있어서는 변화가 필요하다. 나는 한국이 몇가지만 개선하면 AI 시장에서도 충분히 이길 수 있다고 생각한다. 일단 우리만의 플레이북이 필요하다. 정부와 기업이 AI, 로봇 등의 딥테크에 엄청난(...)",
+    "title": "Making Failure Diagnosis Reliable with Pensive AI",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/10/this-is-how-korea-can-win.html",
-    "pubDate": "Sun, 25 Oct 2026 21:36:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
+    "pubDate": "Mon, 26 Oct 2026 17:04:57 GMT",
+    "creator": "Netflix Technology Blog",
     "categories": [
-      "Uncategorized",
-      "ai",
-      "general",
-      "grit",
-      "hustle",
-      "korea"
+      "pensive",
+      "data-engineering",
+      "maestros",
+      "orchestration",
+      "data-science"
     ]
   },
   {
     "id": 4,
     "imageUrl": "",
-    "title": "Flava MCP Hub가 걸어온 길: AI 시대를 위한 배관 공사",
-    "description": "들어가며\"우리 서비스, 지금 어떤 상태야?\"AI 에이전트에게 이렇게 물어보신 적 있으신가요? 아마 겉보기에는 그럴듯하지만 실제로 활용하기는 어려운 답이 돌아왔을 겁니다. LLM(l...",
+    "title": "윈도우11 26H2 업데이트 총정리: 새 기능, 지금 설치하는 법, 설치 전 체크리스트 (AI 점검 프롬프트 포함)",
+    "description": "2026년 9월 29일부터 윈도우11 26H2 배포가 시작됐습니다. 이번 버전은 연 1회 나오는 기능 업데이트지만, 24H2·25H2를 쓰는 PC라면 운영체제를 통째로 다시 까는 방식이 아니라 작은 활성화 패키지(enablement package)로 올라갑니다. 이 글에서는 Microsoft 공식 문서에서 확인한 내용만 골라 새 기능, 설치 방법, 설치 전 체크리스트를 정리하고, 업데이트 전에 AI로 내 PC 상태를 점검하는 프롬프트도 함께 드립니다.\n이 글의 핵심 요약\n1. 26H2는 24H2·25H2 PC에서 활성화 패키지로 설치되며, 대부분 재시작 1번이면 끝납니다.\n2. 설치하면 지원 기간이 새로 시작됩니다. Home·Pro 24개월, Enterprise·Education 36개월입니다.\n3. 시작 메뉴·작업 표시줄·검색·파일 탐색기 개선이 묶여 들어오고, WMIC는 제거됐습니다.\n4. '기본 활성' 3가지(설정 백업, 작업 표시줄 앱 액션, 파일 탐색기 개선)는 공식 문서상 상업용(기업) 장치 기준입니다.\n\n\n1. 윈도우11 26H2는 어떤 업데이트인가요?\nMicrosoft에 따르면 26H2, 25H2, 24H2는 같은 서비스 분기(코드 기반)를 공유합니다. 그래서 새 기능 상당수는 이미 매월 누적 업데이트로 PC에 내려와 있고, 26H2 활성화 패키지는 그 기능을 켜 주는 역할을 합니다. 공식 문서가 설명하는 특징은 다음과 같습니다.\n작은 다운로드: 월간 품질 업데이트처럼 설치됩니다.\n빠른 설치: 대부분의 경우 재시작 1번으로 끝납니다.\n지원 기간 초기화: 26H2를 설치한 시점부터 새 지원 기간이 적용됩니다.\n단계적 배포: 호환성 문제가 예상되지 않는 PC부터 순차적으로 제공됩니다.\n에디션\n26H2 지원 기간\n\n\nHome\n24개월\n\n\nPro\n24개월\n\n\nEnterprise\n36개월\n\n\nEducation\n36개월\n\n\n\n \n2. 26H2 주요 새 기능 (일반 사용자 체감 기능)\n시작 메뉴와 작업 표시줄\n새 시작 메뉴: 스크롤되는 '모두' 영역과 범주 보기·그리드 보기가 생겼고, 고정됨·최근·모두 섹션을 각각 보이거나 숨길 수 있습니다.\n작업 표시줄 위치: 화면 아래뿐 아니라 위, 왼쪽, 오른쪽에 둘 수 있고, 아이콘과 높이를 줄이는 작은 작업 표시줄 옵션도 추가됐습니다.\nAI 에이전트 진행 상황 표시: 작업 표시줄에서 지원되는 AI 에이전트의 진행 상황을 볼 수 있으며, 첫 지원 대상은 Microsoft Copilot의 Researcher입니다.\n파일 탐색기\nAI 작업: 지원되는 이미지 편집, 문서 요약 기능이 들어왔습니다. 다만 OneDrive·SharePoint 파일 요약은 Microsoft 365 구독과 Copilot 라이선스가 필요합니다.\n압축 형식 추가: uu, cpio, xar, nupkg 형식을 지원합니다.\n보기·정렬 유지: 다운로드, 문서 폴더의 보기·정렬 설정이 유지됩니다.\n이름 바꾸기 음성 입력, 홈 화면 실행 속도 개선도 포함됩니다.\n검색, 보안, 기타\nWindows 검색: 열지 않고 결과 미리 보기, 오타·부분 이름으로 앱 찾기, 결과 종류(앱·설정·파일·웹) 표시가 개선됐습니다.\n스마트 앱 컨트롤: 윈도우를 새로 설치하지 않아도 켜고 끌 수 있습니다.\n패스키: 지원되는 외부 비밀번호 관리자에 저장된 패스키를 쓸 수 있습니다.\n윈도우 업데이트 재시작 감소: 해당되는 업데이트를 월간 보안 업데이트와 함께 설치해 재시작 횟수를 줄입니다.\n음성 액세스 한국어 지원: 지원되는 Copilot+ PC에서 자연어 명령과 함께 한국어 등이 추가됐습니다.\n작업 관리자 NPU 표시: NPU가 있는 PC에서 NPU 사용률 열을 켤 수 있습니다.\n3. 가정용과 기업용, 이 부분은 구분해서 보세요\n일부 블로그에서 \"26H2부터 설정 백업이 기본으로 켜진다\"고 소개하는데, 공식 문서 표현은 조금 다릅니다. Microsoft Learn 문서는 아래 3가지를 상업용(조직) 장치에서 임시 상업용 제어로 막혀 있던 기능을 기본 활성화한 것이라고 설명합니다.\n항목\n공식 문서 내용\n가정용 PC에서\n\n\nWindows 설정 백업\n대상 상업용 장치에서 기본 활성, 관리자 정책은 그대로 존중\n직접 설정에서 확인하세요\n\n\n작업 표시줄 앱별 작업(앱 액션)\n상업용 장치에서 기본 활성\n이미 월간 업데이트로 들어왔을 수 있음\n\n\n파일 탐색기 개선\n임시 상업용 제어 해제, 기본 활성\n이미 월간 업데이트로 들어왔을 수 있음\n\n\n관리자 보호(Administrator protection)\n기본 꺼짐, Intune 또는 그룹 정책으로 켬\n일반 사용자가 신경 쓸 일은 거의 없음\n\n\n내장 Sysmon\n기본 꺼짐, 켜야 사용\n보안 담당자용 기능\n\n\n\n \n정리하면, 가정용 PC에서는 26H2를 설치해도 \"갑자기 크게 바뀌는\" 느낌이 적을 수 있습니다. 많은 기능이 이미 매월 업데이트로 들어와 있기 때문입니다.\n4. 제거된 기능: WMIC\nWMIC(Windows Management Instrumentation 명령줄)는 24H2 이상에서 제거됐고, 이제 선택적 기능(FoD)으로도 설치할 수 없습니다. 오래된 배치 파일이나 사내 스크립트에서 wmic 명령을 쓰고 있다면 PowerShell 명령으로 바꿔야 합니다. 대체 명령은 별도 글에서 자세히 정리했습니다.\n5. 지금 26H2 설치하는 법\n24H2 또는 25H2를 쓰고 있다면 Windows 업데이트에서 직접 받을 수 있습니다. 단계적 배포라 PC마다 표시 시점이 다를 수 있습니다.\n1단계: 설정 > 시스템 > 정보에서 현재 버전(24H2/25H2)을 확인합니다. 23H2 이하라면 먼저 최신 버전으로 올려야 합니다.\n2단계: 설정 > Windows 업데이트에서 업데이트 확인을 누릅니다.\n3단계: \"Windows 11, 버전 26H2로 기능 업데이트\" 항목이 보이면 다운로드 및 설치를 누릅니다. 항목 이름은 화면에서 확인하세요.\n4단계: 설치가 끝나면 재시작하고, 설정 > 시스템 > 정보에서 26H2로 바뀌었는지 확인합니다.\n항목이 보이지 않는다면 아직 내 PC 차례가 아닌 것입니다. 무리해서 다른 방법으로 설치하기보다 기다리는 편이 안전합니다. 10월 누적 업데이트(KB5127648) 관련 오류는 따로 정리한 글을 참고하세요.\n\n\n6. 설치 전 체크리스트\n점검 항목\n확인 방법\n이유\n\n\n중요 파일 백업\n외장 드라이브나 클라우드에 복사\n문제 발생 시 복구용\n\n\n저장 공간\n설정 > 시스템 > 저장소\n설치 중 공간 부족 방지\n\n\n알려진 문제\nWindows release health 페이지\n내 환경에 해당하는 이슈 확인\n\n\nwmic 사용 스크립트\n배치 파일에서 wmic 검색\nWMIC 제거로 동작 안 함\n\n\nVPN·원격 데스크톱\n회사 업무용이면 IT 담당자에게 문의\n10월 업데이트 관련 이슈가 공지됨\n\n\n전원\n노트북은 전원 연결\n설치 중 종료 방지\n\n\n\n \nMicrosoft release health 페이지에는 10월 기준으로 비관리자 사용자의 원격 데스크톱 연결 오류(0xC000000D) 같은 알려진 문제가 올라와 있습니다. 업무용 PC라면 설치 전에 꼭 확인하세요.\n7. 업데이트 전 AI로 PC 점검하는 프롬프트\n아래 명령 결과를 복사해 챗GPT, 제미나이, 클로드 같은 AI에 붙여 넣으면 업데이트 전에 확인할 점을 정리해 줍니다. 결과에는 개인 정보가 거의 없지만, 컴퓨터 이름이나 사용자 이름은 지우고 붙여 넣는 것을 권장합니다.\n프롬프트 1. 업데이트 준비 상태 점검\n너는 윈도우 PC 점검 도우미야. 나는 윈도우11 26H2 기능 업데이트를 설치하려고 해.\n아래는 PowerShell에서 실행한 결과야.\n[Get-ComputerInfo -Property OsName,OsVersion,OsBuildNumber,WindowsVersion 결과 붙여넣기]\n[Get-PSDrive C 결과 붙여넣기]\n1. 현재 버전이 활성화 패키지로 26H2를 받을 수 있는 버전(24H2 또는 25H2)인지 알려줘.\n2. C 드라이브 여유 공간이 충분한지 판단하고, 부족하면 정리 방법을 알려줘.\n3. 설치 전에 내가 해야 할 일을 체크리스트로 5개 이내로 정리해줘.\n확실하지 않은 내용은 추측하지 말고 \"확인 필요\"라고 표시해줘.\n프롬프트 2. 오래된 스크립트 WMIC 사용 여부 점검\n아래는 내가 쓰는 배치 파일(.bat) 내용이야.\n[배치 파일 내용 붙여넣기]\n윈도우11 24H2 이상에서는 WMIC가 제거됐어.\n1. wmic 명령이 들어간 줄을 모두 찾아줘.\n2. 각 줄을 같은 결과를 내는 PowerShell 명령(Get-CimInstance 등)으로 바꿔줘.\n3. 바꾼 뒤 테스트하는 방법도 알려줘.\n프롬프트 3. 업데이트 후 달라진 점 확인\n윈도우11 26H2로 업데이트했어. 가정용 Home 에디션이야.\n시작 메뉴, 작업 표시줄, 파일 탐색기, 검색에서 새로 써 볼 만한 기능을 설정 경로와 함께 5개만 알려줘.\n메뉴 이름이 정확하지 않을 수 있으면 \"화면에서 확인\"이라고 덧붙여줘.\n\n\n8. 자주 묻는 질문 (FAQ)\nQ1. 26H2를 꼭 바로 설치해야 하나요?\n급할 필요는 없습니다. Home·Pro는 버전마다 지원 기간이 24개월이므로, 쓰고 있는 버전의 지원 종료 전에만 올리면 됩니다. 다만 26H2를 설치하면 지원 기간이 새로 시작된다는 장점이 있습니다.\nQ2. 업데이트 항목이 안 보이는데 고장인가요?\n아닙니다. Microsoft는 26H2를 단계적으로 배포하고 있어서 PC마다 제공 시점이 다릅니다. 업데이트 확인을 눌러도 보이지 않으면 며칠 뒤 다시 확인하세요.\nQ3. 설치 후 문제가 생기면 되돌릴 수 있나요?\n기능 업데이트는 일반적으로 설정 > 시스템 > 복구에서 일정 기간 이전 버전으로 되돌릴 수 있습니다. 되돌리기 가능 기간과 메뉴 이름은 PC 화면에서 확인하세요.\nQ4. 파일 탐색기 AI 요약은 무료인가요?\n공식 문서 기준으로 OneDrive·SharePoint 파일의 Copilot 요약은 Microsoft 365 구독과 Copilot 라이선스가 필요합니다. 모든 PC에서 무료로 쓸 수 있는 기능은 아닙니다.\n마무리: 크게 바뀌진 않아도, 지원 기간은 새로 시작됩니다\n윈도우11 26H2는 큰 변화보다는 1년 동안 들어온 기능을 정리하고 지원 기간을 새로 여는 업데이트입니다. 백업과 저장 공간만 확인하고, Windows 업데이트에 항목이 보일 때 차분히 설치하시면 됩니다. 설치 전에 위 프롬프트로 한 번 점검해 보세요.\n참고 자료\nMicrosoft Learn: What's new in Windows 11, version 26H2\nWindows IT Pro Blog: An IT pro's guide to Windows 11, version 26H2\nWindows 11, version 26H2 known issues and notifications",
     "reviews": [],
     "syllabus": [],
-    "link": "https://techblog.lycorp.co.jp/ko/flava-mcp-hub-ai-infrastructure",
-    "pubDate": "Mon, 26 Oct 2026 02:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://muzbox.tistory.com/483748",
+    "pubDate": "Fri, 30 Oct 2026 08:30:00 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "26H2 새 기능",
+      "WMIC 제거",
+      "윈도우 기능 업데이트",
+      "윈도우 업데이트 체크리스트",
+      "윈도우11 26H2",
+      "윈도우11 업데이트",
+      "윈도우11 지원 기간",
+      "활성화 패키지"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "",
-    "title": "Keep your investigation between sessions",
-    "description": "Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session.\nThe post Keep your investigation between sessions appeared first on Visual Studio Blog.",
+    "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+    "description": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus cluster.  Highlights IcePack & IceCube: Meta’s first liquid-cooled network rack with 102.4T switch blades (128×800G, Broadcom Tomahawk 6C and NVIDIA Spectrum-6 variants), running [...]\nRead More...\nThe post Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions/",
-    "pubDate": "Mon, 26 Oct 2026 12:00:10 +0000",
-    "creator": "Jason Chlus, Mads Kristensen",
+    "link": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+    "pubDate": "Mon, 26 Oct 2026 16:00:07 +0000",
+    "creator": "Unknown",
     "categories": [
-      "Visual Studio"
+      "Data Center Engineering",
+      "Data Infrastructure",
+      "DevInfra",
+      "ML Applications",
+      "Networking & Traffic",
+      "Open Source"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "2분에 1대씩 늘어나는 단말기, 토스플레이스는 오프라인에서 무엇을 보는가",
-    "description": "오프라인 결제 시장의 판을 바꾸는 토스플레이스팀의 도전기",
+    "title": "SEGGER Tools Gain Deeper Integration in CLion with AI-assisted Debugging",
+    "description": "Amsterdam, Netherlands — October 29, 2026 SEGGER’s embedded development tools are now more deeply integrated into JetBrains CLion. CLion provides dedicated configuration for J-Link debug probes as well as direct access to SEGGER’s Ozone debugger and SystemView real-time software analysis tool, connecting coding and ultra-fast flash programming with advanced debugging and real-time system analysis. CLion’s […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossplace-story-1",
-    "pubDate": "Fri, 23 Oct 2026 06:16:00 GMT",
-    "creator": "Unknown",
-    "categories": []
+    "link": "https://blog.jetbrains.com/clion/2026/10/segger-tools-gain-deeper-integration-in-clion-with-ai-assisted-debugging/",
+    "pubDate": "Thu, 29 Oct 2026 12:59:21 +0000",
+    "creator": "Artemy Pestretsov",
+    "categories": [
+      "news",
+      "debugger",
+      "embedded",
+      "j-link",
+      "segger"
+    ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "What’s New in vcpkg (Oct 2026)",
-    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2026-10-16 registry release and the 2026-09-26 tool release. These updates include configurable binary-cache compression, improved cache reliability and diagnostics, Boost 1.92, and other improvements and bug fixes. There are now 2,877 total ports available in the vcpkg curated registry. A port […]\nThe post What’s New in vcpkg (Oct 2026) appeared first on C++ Team Blog.",
+    "title": "Junie Local became 70% faster on Mac M5",
+    "description": "Junie Local now delivers ~70 tokens/s on M5 Max for coding tasks, up from ~40 tokens/s, with bursts up to 107 tokens/s. Two changes made this possible: the Splash inference engine and a new DFlash2 draft model. Back in August, when we first released Junie Local for Mac M5, we spent a lot of time […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-oct-2026/",
-    "pubDate": "Thu, 29 Oct 2026 17:58:54 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "AI on Your Terms: How We See AI in YouTrack",
-    "description": "AI on your terms When we published our YouTrack roadmap at the beginning of the year, we only briefly touched on our plans for AI. Now it’s time to share more details about how we see its role within YouTrack.  Most project management tools now ship with AI built in and switched on by default. […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/youtrack/2026/10/ai-on-your-terms-how-we-see-ai-in-youtrack/",
-    "pubDate": "Mon, 26 Oct 2026 10:29:40 +0000",
-    "creator": "Elena Pishkova",
-    "categories": [
-      "ai",
-      "youtrack",
-      "mcp",
-      "youtrack-cloud",
-      "youtrack-server"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "Junie Eco Mode",
-    "description": "Not every step of a coding task needs the smartest model in the world. Junie Eco Mode uses your selected model to investigate a coding task and create a plan, then hands implementation and testing to a lower-cost model. In two internal benchmarks, this approach reduced average model cost per task by 48% and 57%, […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/junie/2026/10/junie-eco-mode/",
-    "pubDate": "Wed, 28 Oct 2026 12:56:31 +0000",
-    "creator": "Helena Klause",
+    "link": "https://blog.jetbrains.com/junie/2026/10/junie-local-splash-dflash2/",
+    "pubDate": "Wed, 28 Oct 2026 14:40:49 +0000",
+    "creator": "Stanislav Erokhin",
     "categories": [
       "agentic-ai",
       "ai",
       "coding",
-      "jetbrains-air",
-      "testing",
-      "air",
-      "junie",
-      "news",
-      "release"
+      "jetbrains-ai",
+      "local-ai"
     ]
   },
   {
-    "id": 10,
+    "id": 8,
     "imageUrl": "",
     "title": "From GDScript to GDExtensions: One IDE for Your Godot Code",
     "description": "JetBrains has been a Platinum sponsor of the Godot Foundation since August 2025, and we’ve renewed our sponsorship into 2027. Over the past year, Rider has expanded its Godot support to cover GDScript, C#, and C++ GDExtensions in one place. It’s free for non-commercial use, including hobby projects, learning, open source, and content creation. At […]",
@@ -165,85 +145,110 @@
     ]
   },
   {
-    "id": 11,
+    "id": 9,
     "imageUrl": "",
-    "title": "Getting Started with Air in JetBrains IDEs – Part 1",
-    "description": "Setting coding agents up to handle several tasks while you continue working is easy. The harder part is knowing where each task stands, what each agent has changed, and what still needs your attention. Recently, we introduced Air in JetBrains IDEs. It brings coding agents into the environment where you already write, review, run, and […]",
+    "title": "파판 레조넌스 에서 피나 성",
+    "description": "이 이미지는 스팀페이지 에 있는거고\n\n\n로고 뒤에 여자가 마신 피나 (Dark Fina) 이다.\n \n \n \n피나는 종류가 2개 있는데\n \n\n\n요거는 그냥 피나\n이 글에서는 이 성후를 다룬다.\n밝은 분위기의 귀여운 목소리 로 나온다.\n \n\n\n그리고  마신 피나\n차가운 분위기 \n성인 여자 목소리로 바뀐다.\n \n두성우는 다른 사람인데\n일반 피나 - 후지타 아카네\n마신 피나 - 미나세 이노리\n \n샘플 영상\nhttps://www.youtube.com/watch?v=-Iq8lQ-IGy4\n\n\n\n \n \n \n후지타 아카네\n일반 성우의 후지타 아카네의 출연작에 ...\n나무위키 의 OVA 정보에보니\nhttps://namu.wiki/w/%ED%9B%84%EC%A7%80%ED%83%80%20%EC%95%84%EC%B9%B4%EB%84%A4(%EC%84%B1%EC%9A%B0)/%EC%B6%9C%EC%97%B0%EC%9E%91#toc\n \n \n\n\n요런 내용이 있습니다. \n성인용 애니 인거 같은데 \n일본은 딱히 출연작을 숨기지않거나 나무위키 정보가 잘못되었을 수 있습니다.\n게임 출연작에 파판 레조넌스는 가 없는 상태였습니다.\n아니면 동명이인이거나 \n \n \n\"성인애니에 출연했으니 파판에 출연하면 안된다.\" 같은 입장은 아니고 \n신기해서 적어봤습니다.\n파판도 오래되서 성인대상의 팬층도 노령화가 진행되고 있습니다.\n \n \n찾아보니 가명으로 참여 했다는데 \n네티즌 들이 굳이 실명에 넣은거 같다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/ai/2026/10/getting-started-with-air-part1/",
-    "pubDate": "Wed, 28 Oct 2026 10:21:42 +0000",
-    "creator": "Tanu Tams",
+    "link": "https://serverdown.tistory.com/1691",
+    "pubDate": "Sat, 24 Oct 2026 19:38:37 +0900",
+    "creator": "SID-NFT",
     "categories": [
-      "agentic-ai",
-      "coding",
-      "how-tos",
-      "jetbrains-air",
-      "air",
-      "coding-agents",
-      "ides"
+      "게임",
+      "성우",
+      "파판레조넌스"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "[MULTI] 컨셉은 사도·SRPG로서 재미는 왕도, 데몬즈 나이트 피버",
+    "description": "No description available",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2511",
+    "pubDate": "Thu, 29 Oct 2026 18:49:39 +0900",
+    "creator": "(RULIWEB`Д')/",
+    "categories": [
+      "리뷰"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "한국이 이기는 방법",
+    "description": "이전 포스팅에서 한국이 AI 전쟁에서 일등을 못 할 이유가 없다고 했다. 우리는 항상 후발주자였고, 시간이 걸렸지만, 많은 분야에서 후발주자로 출발해서 일등 한 경험이 이미 너무 많기 때문이다. 하지만, 성공 방식에 있어서는 변화가 필요하다. 나는 한국이 몇가지만 개선하면 AI 시장에서도 충분히 이길 수 있다고 생각한다. 일단 우리만의 플레이북이 필요하다. 정부와 기업이 AI, 로봇 등의 딥테크에 엄청난(...)",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://www.thestartupbible.com/2026/10/this-is-how-korea-can-win.html",
+    "pubDate": "Sun, 25 Oct 2026 21:36:00 +0000",
+    "creator": "Kihong Bae",
+    "categories": [
+      "Uncategorized",
+      "ai",
+      "general",
+      "grit",
+      "hustle",
+      "korea"
     ]
   },
   {
     "id": 12,
     "imageUrl": "",
-    "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
-    "description": "This post describes the next generation of Meta Andromeda, Meta’s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In production, the system scores every eligible ad with near ranking-level model performance at retrieval scale and surfaces the top candidates at over one [...]\nRead More...\nThe post Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design appeared first on Engineering at Meta.",
+    "title": "네이버 2단계 인증 기기에 문제가 생겼을때 해결방법",
+    "description": "저같은 경우엔 새기기에서 네이버 로그인 시키고\n2차인증 기기의 네이버 앱을 삭제 해버렸는데 \n해제 하고 삭제 해야하 한다는군요\n \n일어버린거랑 거의 비슷한 상황인거죠\n \n가장 쉬운 방법\n해결방법은 이글이 도움이 되었습니다.\nhttps://help.naver.com/service/5640/contents/1853?lang=ko&osType=COMMONOS\n\n \n2단계 인증 해제 방법 : 회원정보 고객센터\n타인의 도용 시도로부터 계정을 보호하는 2단계 인증을 해제하려면 로그인 가능/불가능 상황에 따라 아래의 방법을 확인하세요.​1. 로그인할 수 있는 경우​- MOBILE: 네이버 앱 왼쪽 위 메뉴(≡)\nhelp.naver.com\n\n \n글을 간단히 요약하자면\n1. 네이버 로그인을 시도\n2. id 암호까지 넣고 들어가면 2단계 인증 페이지가 나옵니다.\n3. 알람을 받을 수 없는 상태일테니 \"OTP 로 로그인\" 버튼을 누릅니다.\n4. 제일하단 좌측에 보면 \"2단계인증 해제\" 라는 버튼이 작게 있습니다.\n누르고 들어가면 전화번호로 나 2차 이메일로 인증번호를 받아 해제 할 수 있습니다.\n이제 아이디 / 암호 입력하면 바로 로그인 되니 들어가서 새기기로 다시 2차인증 등록합니다.\n(귀찮은데 라고 하기엔 강력한 보안 기능이기 때문입니다.)\n \n2단계 인증기기 등록 방법\n1. 모바일 네이버 앱설치\n2. 실행후 좌측 상단에 옆화면으로 가는 버튼 누릅니다.\n3. 로그인이 안되있으면 \"메일\" 아이콘 하나만 보일 것입니다. 누르면 로그인 하기 됩니다.\n4. 로그인하시고 아까 메일 아이콘이 있는 화면에 가면 이제 많은 아이콘이 보일 것입니다.\n5. 우측 상단에 톱니바퀴 버튼 \n6. \"내정보 보안기능\"\n7. \"2단계 인증\"\n여기서 현재기기 고르고 알람오는지 확인까지 하면 2단계 인증 기기로 설정됩니다.\n \n \n \n \n이게 안된다면 고객센터 복구 요청 보내기\n이 상황이라면 복잡하게 해결해야합니다.\n아마 기기를 잃어버린 김에 전화번호도 바꿨고\n2차인증 메일 등록은 안해놓은 상태일 것입니다.\n1. 네이버에 문의하려면 마이아이핀 번호가 필요합니다.\n2. 모바일 PASS 앱을 실행합니다.\n    최신버전이 아니라면 설치하라고 안내해줍니다.\n    이걸하는 이유는 아래에 나이스아이핀 가입 때문에 하는 것입니다.\n2. 나이스아이핀 앱을 설치 후 가입하고 아이핀번호 생성까지 진행해야합니다.\n    모바일 PASS 앱을 거쳐 가입합니다.\n\n3. 나이스아이핀 앱은 정말 불편한 앱입니다.\n    들어가면 전면광고가 떠있는 경우가 있는데 이걸 닫아야하는지 인식하기 힘듭니다.\n    혹시 떠있다면 우측 상단에 X 버튼을 눌러 닫으셔야 정상적인 메뉴를 볼 수 있습니다.\n3-1. 우측 하단 \"전체 메뉴\"\n3-2. \"아이핀 관리\"  들어가시면 번호 만드실 수 있습니다.\n4. 네이버에 문의 페이지로 갑니다.\n    문의페이지 - https://help.naver.com/inquiry/input.help?categoryNo=15680&serviceNo=5640&lang=ko\n5. 아이핀 번호랑 응답 받을 메일 주소를 넣을 수 있습니다.\n6. 기다리면 이후 방법이 메일로 옵니다.\n \n앱을 괜히 지워가지고 이꼴이 났군요\n정상적인 방법이라면 2차인증 기기에서 기기변경을 누르면 되었는데\nUI 가 내 기기가 2개다 화면에 보이니 이 기기의 앱을 지우면 당연히 두번째 기기로 인증이 될 줄 알았는데\n아니였습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
-    "pubDate": "Wed, 28 Oct 2026 16:00:01 +0000",
-    "creator": "Unknown",
+    "link": "https://serverdown.tistory.com/1693",
+    "pubDate": "Mon, 26 Oct 2026 23:11:36 +0900",
+    "creator": "SID-NFT",
     "categories": [
-      "ML Applications",
-      "Production Engineering"
+      "프로그래밍/강좌",
+      "네이버",
+      "보안"
     ]
   },
   {
     "id": 13,
     "imageUrl": "",
-    "title": "Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding",
-    "description": "Compare commits with your working tree, resolve merge conflicts in bulk, and keep coding with refreshed Copilot chat, Hot Exit, keyboard tab controls, and Fonts and Colors.\nThe post Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding appeared first on Visual Studio Blog.",
+    "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+    "description": "The 2026 Python Typing Survey received 1,794 responses.  Type hint use changed little across three years, but checker selection changed sharply.  Among respondents who reported which checkers they use, half selected more than one, and missing library type information was the most common difficulty. For the third consecutive year, we asked Python developers how they [...]\nRead More...\nThe post Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape appeared first on Engineering at Meta.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding/",
-    "pubDate": "Tue, 27 Oct 2026 16:00:00 +0000",
-    "creator": "Mark Downie",
+    "link": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/",
+    "pubDate": "Tue, 27 Oct 2026 15:59:24 +0000",
+    "creator": "Unknown",
     "categories": [
-      "Visual Studio",
-      "Git",
-      "GitHub Copilot",
-      "Productivity"
+      "Culture",
+      "DevInfra"
     ]
   },
   {
     "id": 14,
     "imageUrl": "",
-    "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
-    "description": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib.  A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separately in each system. PrivacyLib replaces this with a common library that runs inside [...]\nRead More...\nThe post PrivacyLib: Privacy Controls at the Data Access Boundary appeared first on Engineering at Meta.",
+    "title": "IntelliJ IDEA 2026.2.4 Is Out!",
+    "description": "IntelliJ IDEA 2026.2.4 is now available! You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update brings the following improvements: For a comprehensive overview of the fixes, see the release notes. […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/27/security/privacylib/",
-    "pubDate": "Tue, 27 Oct 2026 16:00:12 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/idea/2026/10/intellij-idea-2026-2-4/",
+    "pubDate": "Fri, 30 Oct 2026 16:11:52 +0000",
+    "creator": "Julia Shashkova",
     "categories": [
-      "AI Research",
-      "ML Applications",
-      "Security & Privacy"
+      "releases",
+      "bug-fix-update"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Preparing for Your Next Certification Could Start with Your Visual Studio Subscription ",
-    "description": "Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work?  If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to find the right resources, […]\nThe post Preparing for Your Next Certification Could Start with Your Visual Studio Subscription  appeared first on Visual Studio Blog.",
+    "title": "Flava MCP Hub가 걸어온 길: AI 시대를 위한 배관 공사",
+    "description": "들어가며\"우리 서비스, 지금 어떤 상태야?\"AI 에이전트에게 이렇게 물어보신 적 있으신가요? 아마 겉보기에는 그럴듯하지만 실제로 활용하기는 어려운 답이 돌아왔을 겁니다. LLM(l...",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription/",
-    "pubDate": "Wed, 28 Oct 2026 22:30:00 +0000",
-    "creator": "James Rempt",
-    "categories": [
-      "Visual Studio"
-    ]
+    "link": "https://techblog.lycorp.co.jp/ko/flava-mcp-hub-ai-infrastructure",
+    "pubDate": "Mon, 26 Oct 2026 02:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
   }
 ]
