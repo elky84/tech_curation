@@ -2,6 +2,167 @@
   {
     "id": 1,
     "imageUrl": "",
+    "title": "TeamCity 2026.2.2 and 2026.1.6 Updates",
+    "description": "TeamCity On-Premises 2026.2.2 and 2026.1.6 bug-fix updates are now available. These updates resolve a significant number of issues, including security and performance issues, as well as the following bugs: As always, we strongly recommend installing these updates, as they address security vulnerabilities and help keep your TeamCity On-Premises instance protected against potential threats. See TeamCity […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/teamcity/2026/11/teamcity-2026-2-2-2026-1-6-bugfix/",
+    "pubDate": "Tue, 03 Nov 2026 13:58:44 +0000",
+    "creator": "Dmitrii Korovin",
+    "categories": [
+      "bug-fix",
+      "security"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "",
+    "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+    "description": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “Just-in-Time Catching Test Generation at Meta,” fully details [...]\nRead More...\nThe post Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
+    "pubDate": "Thu, 29 Oct 2026 16:00:12 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "AI Research",
+      "ML Applications",
+      "Security & Privacy"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "",
+    "title": "Where Did the Saved Bytes Go? Compact Object Headers in IntelliJ IDEA",
+    "description": "AI agents may make code faster to produce, but they don’t make it cheaper to run. In applications managing millions of objects, memory allocation and garbage collection still matter. The JVM has been addressing these costs on several fronts: ZGC targets garbage collection pauses, Project Leyden tackles startup and warmup, and Project Lilliput reduces the […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/idea/2026/11/where-did-the-saved-bytes-go-compact-object-headers-in-intellij-idea/",
+    "pubDate": "Tue, 03 Nov 2026 12:20:40 +0000",
+    "creator": "Igor Kulakov",
+    "categories": [
+      "idea",
+      "intellij-platform",
+      "java",
+      "performance"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "부산불꽃축제 교통통제와 광안대교 통제 시간, 티켓 취소&middot;현장 수령과 지하철 귀가 방법",
+    "description": "제21회 부산불꽃축제는 11월 7일(토) 오후 7시부터 8시까지 광안리해수욕장, 이기대, 동백섬 일원에서 열립니다. 광안대교는 11월 2일(월) 오후 8시부터 부분 통제에 들어가고, 7일에는 상층부가 오후 3시 30분, 하층부가 오후 6시 30분부터 자정까지 전면 통제됩니다. 광안리 주변 도로는 7일 오전 10시부터 단계적으로 막히고 행사장 인근 주차 장소는 제공되지 않으므로, 도시철도 2호선으로 이동하는 계획을 세우는 편이 안전합니다.\n공식 교통통제 안내 페이지 열기\n페이지를 열면 통제 구간 지도와 우회로가 담긴 포스터가 나옵니다. 내 이동 경로가 어느 단계에 걸리는지 확인하세요. 페이지가 열리지 않으면 부산축제조직위원회(051-713-5000, 09:00~18:00)에 문의하세요.\n이번 주 날짜별로 챙길 일\n공식 누리집, NOL 티켓 안내, 부산시 보도자료를 날짜순으로 모았습니다. (2026년 11월 2일 확인)\n날짜일어나는 일내가 할 일\n11월 2일(월) 20시광안대교 부분 통제 시작야간에 광안대교를 지나면 차로 통제 시간 확인\n11월 5일(목)부산은행 영업점 S석 판매 종료(영업 종료 시), 티켓 취소 수수료 30% 구간 시작취소할 표가 있으면 4일까지 처리\n11월 6일(금) 13시날씨에 따라 행사 운영 여부 결정공식 누리집 공지 확인\n11월 6일(금) 17시NOL 티켓 판매·취소 마감이후로는 취소, 변경, 환불 불가\n11월 7일(토) 11시NOL 티켓 현장 수령 부스 운영 시작현장 수령 표는 예매 내역과 신분증 지참\n11월 7일(토) 15시~18시유료 관람석 입장18시 전까지 좌석 도착\n11월 7일(토) 19시~20시본 행사끝난 뒤 인근 역으로 나눠 귀가\n광안대교 통제 시간\n공식 교통통제 포스터 기준입니다. 부분 통제 구간은 차로 일부만 막히고, 전면 통제 때는 양방향 모두 지나갈 수 없습니다.\n구분방향통제 일시차로\n상층부 부분해운대→남구11월 2일~4일 20:00~다음 날 06:004차선 1개 차로\n상층부 부분해운대→남구11월 5일 20:00~6일 09:004차선 1개 차로\n상층부 부분해운대→남구11월 6일 09:00~7일 15:303~4차선 2개 차로\n하층부 부분남구→해운대11월 4일 09:00~7일 18:301차선\n하층부 부분남구→해운대11월 7일 24:00~8일 18:001차선\n전면 통제양방향11월 7일 상층 15:30~24:00, 하층 18:30~24:00전 차로\n부산시는 철거가 일찍 끝나면 통제 시간을 줄일 계획입니다. 부산교통정보서비스센터의 X 안내에는 전체 통제 기간 끝이 8일 24시로 적혀 있어 포스터의 18시와 다릅니다. 8일 저녁에 하층부를 이용한다면 출발 전에 교통 상황을 확인하세요.\n11월 7일 광안리 주변 도로 통제\n모두 \"종료 시\"까지 이어지고, 교통 상황에 따라 탄력적으로 운영됩니다.\n시작도로통제 구간우회로\n10시광안해변로언양삼거리~만남의 광장광남로, 수영로\n14시황령산로경동건설 본사입구~황령산 봉수대(현장 상황에 따라 조기 통제)안내 없음\n16시해변로, 해변로 뒤 이면도로만남의 광장~민락공원 앞 교차로, 언양불고기~광민지구대광남로, 수영로\n16시마린시티1로해원초교삼거리~대우아라트리움마린시티 2·3로\n16시황령산 순환도로부산중앙교회(남천동)~황령산봉수대~연산동, 물만골안내 없음\n17시해변로 연장 구간49호광장~언양삼거리, 구 백산허리길, 민락본동로수영로\n17시광남로(대중교통 제외)KBS삼거리~민락교수영로\n17시민락수변로수영교~민락교, 민락회타운 삼거리~부산해양경찰서 광안리파출소수영로\n17시이기대공원로부산환경공단 남부사업소→공관삼거리 일방통행(차량 많으면 전면 통제)안내 없음\n18시광남로대중교통 11개 노선(일반 9, 마을 2)도 전면 통제수영로\n19시 30분광안로, 남천바다로광안역~해수욕장사거리, 금련산역~언양사거리수영로\n지하철과 버스로 가는 길\n광안리해수욕장: 2호선 광안역 3번 출구. 버스는 광안리해수욕장 정류장(38, 42, 49, 62, 83, 83-1, 108번)\n이기대: 2호선 경성대·부경대역에서 버스 환승. 버스는 이기대어귀삼거리 또는 이기대입구 정류장(24, 27, 39, 131, 남구2, 남구8번)\n동백섬: 2호선 동백역 1번 출구. 버스는 동백섬입구 정류장(139, 307, 1003번)\n공식 찾아오시는 길 페이지는 광안리와 이기대 항목의 버스 번호가 서로 바뀌어 보여, 여기서는 하차 정류장 이름을 기준으로 적었습니다. 18시부터는 광남로 대중교통도 막히므로 버스는 정류장 위치와 우회 여부를 부산시 120 콜센터(051-120)에서 확인하세요.\n끝나고 집에 가는 방법\n부산시 안내에 따르면 귀가 때 광안역이 매우 혼잡하므로 인근 다른 역으로 나눠 이용해야 합니다. 유료 관람석 관객은 해변로 인파가 빠진 뒤에 퇴장할 수 있고, 현장 상황에 따라 퇴장이 늦어질 수 있습니다. 8시 정각에 바로 나갈 수 있다고 생각하고 기차나 고속버스를 예약하면 위험합니다.\n아래는 2026년 11월 2일 언론 보도 기준입니다. 같은 날 오후 확인 시점에 부산교통공사 공지사항에는 불꽃축제 증편 공지가 없었고, 막차 연장 여부와 시각은 미확인입니다. 부산교통공사 대표전화(1544-5005)로 확인하세요.\n도시철도 212회 증편, 2호선 운행 간격을 6~8분에서 3~4분으로 단축\n수영·광안·금련산역에 행사 전후 빈 열차 18회 추가\n혼잡하면 광안역과 금련산역은 열차가 서지 않고 지나갈 수 있음\n부산김해경전철 8회 증편, 시내버스 21개 노선 143회 추가\n시내버스 11개 노선은 현장 상황에 따라 자정까지 연장\n유료 티켓 잔여석과 취소표\n유료 관람석은 호텔아쿠아펠리스와 호메르스 호텔 앞 백사장에 마련됩니다. 1인당 최대 4매까지 살 수 있습니다.\n좌석일반부산시민 할인(10%)\nR석(테이블+의자)100,000원90,000원\nS석(의자)70,000원63,000원\n2026년 11월 2일 낮 12시 무렵 NOL 티켓 상품 페이지에는 R석 0, S석 0으로 표시되어 있었습니다. 공식 판매 기간은 11월 6일 17시까지 남아 있지만, 숫자가 0이면 그 시점에 살 수 있는 좌석이 없다는 뜻으로 보면 됩니다. 취소표가 언제 다시 풀리는지는 공식 안내에 없어, 판매 기간 안에 이 숫자를 직접 확인할 수밖에 없습니다.\nNOL 티켓 부산불꽃축제 잔여석 확인하기\n페이지의 날짜와 회차 아래에서 잔여 좌석 숫자를 확인하고, 구매하려면 로그인합니다. 페이지나 예매 오류는 NOL 고객센터(1544-1555, 09:00~18:00)에 문의하세요.\n부산은행 영업점: 11월 5일 영업 종료 시까지 S석만 판매합니다. 남은 수량은 미확인입니다. 부산은행 모바일 뱅킹 판매는 11월 1일에 끝났습니다.\n당일 현장 판매: 예매 마감 후 남은 좌석이 있을 때만 진행하고, 한정 수량이라 일찍 끝날 수 있습니다. 판매 장소와 시각은 미확인이므로 좌석 문의 전화(051-713-5075, 09:00~18:00)로 확인하세요.\n개인 거래: 주최 측은 공식 구입 절차 외 임의 거래를 불법으로 안내합니다. 보도에 따르면 경찰은 당일 사복 인력을 넣어 암표와 자릿세를 단속합니다.\n티켓 취소 수수료와 비가 올 때\n취소 시점처리\n예매 당일 자정 전취소 수수료 없음, 예매 수수료 환불(취소 기한 내)\n11월 1일~4일티켓 금액의 20%\n11월 5일~6일 17시티켓 금액의 30%\n11월 6일 17시 이후, 행사 당일취소, 변경, 환불 불가\n주최 측이 연기·취소연기·취소에 따른 취소자는 전액 환불, 티켓 금액 외 부대비용은 제외\n이미 배송받은 표는 인터넷으로 취소할 수 없습니다. 11월 6일 17시 전에 NOL 고객센터에 도착해야 하고, 수수료는 도착일 기준이며 배송료는 돌려받지 못합니다.\n운영 여부는 행사 전날인 11월 6일 13시에 날씨에 따라 결정합니다. 결정 뒤 취소 마감까지 4시간이 있습니다. 연기로 취소된 좌석은 현장에서 판매할 예정입니다.\n현장 수령과 입장 때 놓치기 쉬운 조건\n현장 수령: 10월 12일 이후 예매한 일반 표와 모든 부산시민 할인 표가 대상입니다. 11월 7일 11시부터 행사장 내 NOL 티켓 현장 수령 부스에서 받습니다. 부스의 정확한 위치는 미확인입니다.\n준비물: 예매 내역(모바일 또는 출력본)과 예매자 신분증입니다. 대리 수령은 예매자 신분증 사본과 예매 내역서가 필요합니다.\n부산시민 할인: 예매자와 동행인이 모두 부스에 가서 신분증을 보여 줍니다. 신분증에 부산 주소가 없으면 3개월 이내 발급한 주민등록등본을 함께 내야 하고, 증빙이 없으면 정상가와의 차액을 내야 합니다.\n입장 시간: 15시부터 입장합니다. 18시 전까지 관람석에 도착하지 못하면 입장도 환불도 안 됩니다. 부스 대기로 늦어져도 주최 측과 예매처는 책임지지 않습니다.\n재발권: 받은 표는 잃어버리거나 훼손해도 다시 발급되지 않습니다. 티켓과 재출입 팔찌가 없으면 입장할 수 없습니다.\n아이 동반: 2023년 11월 7일 이전 출생 아동은 표가 필요합니다. 그 이후 출생 아동은 표를 산 보호자와 함께 무료 입장하지만 좌석은 없고, 생년월일을 확인할 자료를 지참해야 합니다.\n표 없이 볼 때 알아 둘 곳\n부산시 금련산청소년수련원은 11월 7일 일부 공간을 일반에 개방합니다. 공지에 입장료 안내는 없습니다.\n생활관 앞 광장: 200명, 상시\n천문대 옥상: 110명, 18시부터\n청운정 2층: 40명, 18시부터\n삼각대와 전문 촬영 장비는 금지되고 휴대전화 촬영만 됩니다. 흡연과 음주도 금지입니다. 카드 결제 유료 주차가 되지만 만차면 들어갈 수 없고, 황령산 일대 도로 통제가 수련원 차량 진입에 주는 영향은 미확인입니다. 문의는 수련원(051-610-3211)으로 하세요.\n광안리 백사장과 해변로는 혼잡도에 따라 들어가는 인원을 조절하는 단계별 총량제를 운영합니다. 부산시는 카카오맵으로 실시간 혼잡도와 일행 위치, 화장실 위치를 제공할 예정입니다. 현장에 가지 않는다면 부산시 유튜브 채널 부산튜브와 부산MBC, KNN 생중계를 볼 수 있습니다.\n가져가면 안 되는 것\n텐트, 캠핑 의자, 우산과 양산은 다른 사람의 시야와 통행을 막으면 제지받습니다.\n자전거, 인라인, 보드는 행사장에서 쓸 수 없습니다.\n사람이 많은 곳 상공과 야간의 드론 비행은 불법이며 200만 원 이하 벌금 또는 과태료 처분을 받을 수 있습니다.\n유료 관람석에는 시각장애인 안내견을 뺀 반려동물이 들어갈 수 없고, 백사장도 반려동물 동반 자제를 요청합니다.\n불꽃 소리가 크므로 3세 미만 영유아는 청력 보호에 주의해야 합니다.\n보도에 따르면 행사장 주변 불법 주정차는 계도·단속하고, 따르지 않으면 바로 견인합니다.\n출처\n부산불꽃축제 공식 누리집: 교통통제\n부산불꽃축제 공식 누리집: 찾아오시는 길\n부산불꽃축제 공식 누리집: 티켓예매\nNOL 티켓: 제21회 부산불꽃축제\n부산시 보도자료(2026년 11월 2일)\n부산시 보도자료: 유료좌석 정규 판매\n부산시 공지: 금련산청소년수련원 개방 안내\n문화일보: 도시철도·버스 증편과 경찰 단속 보도",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://app-developer.tistory.com/entry/%EB%B6%80%EC%82%B0%EB%B6%88%EA%BD%83%EC%B6%95%EC%A0%9C-%EA%B5%90%ED%86%B5%ED%86%B5%EC%A0%9C%EC%99%80-%EA%B4%91%EC%95%88%EB%8C%80%EA%B5%90-%ED%86%B5%EC%A0%9C-%EC%8B%9C%EA%B0%84-%ED%8B%B0%EC%BC%93-%EC%B7%A8%EC%86%8C%C2%B7%ED%98%84%EC%9E%A5-%EC%88%98%EB%A0%B9%EA%B3%BC-%EC%A7%80%ED%95%98%EC%B2%A0-%EA%B7%80%EA%B0%80-%EB%B0%A9%EB%B2%95",
+    "pubDate": "Mon, 2 Nov 2026 12:15:54 +0900",
+    "creator": "브리핑허브",
+    "categories": [
+      "예매&middot;예약"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+    "description": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020.  F3 reduced execution computational costs by compiling all features into a single merged graph, but that [...]\nRead More...\nThe post F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
+    "pubDate": "Tue, 03 Nov 2026 17:00:35 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "ML Applications",
+      "Production Engineering"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "Hear What Your IDE Is Doing: New Sound Cues in JetBrains IDEs",
+    "description": "You can use the audio player below to listen to this blog post. With JetBrains IDEs 2026.3, we’re adding a new way to stay connected to your work: sound cues. A short sound can tell you if a build has finished successfully or failed, a breakpoint has been hit, or there’s something at the caret […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/platform/2026/11/accessibility-sound-cues-in-jetbrains-ides/",
+    "pubDate": "Tue, 03 Nov 2026 15:36:11 +0000",
+    "creator": "Sasha Ivanova",
+    "categories": [
+      "intellij-platform",
+      "accessibility",
+      "news"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "Use Your GitHub Copilot Plan in JetBrains Air – in Your IDE and in the Cloud",
+    "description": "GitHub and JetBrains are bringing GitHub Copilot to JetBrains Air. Air lets you hand coding tasks to agents, run them in parallel, and review their changes in one place. You can now pick GitHub Copilot as the agent in Air – locally in your JetBrains IDE, and in the cloud with Air Teams. Tasks run […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/air/2026/11/github-copilot-in-air/",
+    "pubDate": "Tue, 03 Nov 2026 18:04:19 +0000",
+    "creator": "Vladimir Gromozdin",
+    "categories": [
+      "agentic-ai",
+      "ai",
+      "jetbrains",
+      "jetbrains-ai",
+      "jetbrains-air",
+      "news"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "",
+    "title": "eMudhra Certificate Authority Incident: Status and Guidance for JetBrains Products",
+    "description": "JetBrains is responding to the industry-wide eMudhra Certificate Authority (CA) security incident, which affects certificate trust in a number of software products and development environments, including several JetBrains products. Our Security and product teams are working to address the impact and release security updates. We recommend that customers keep their JetBrains products, operating systems, and […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/security/2026/10/emudhra-certificate-authority-incident-status-and-guidance-for-jetbrains-products/",
+    "pubDate": "Fri, 30 Oct 2026 15:33:00 +0000",
+    "creator": "Anastasia Kilichenko",
+    "categories": [
+      "datalore",
+      "hub",
+      "ide-services",
+      "ides",
+      "jbr",
+      "jetbrains-ai",
+      "jetbrains-air",
+      "jetbrains-central-cli",
+      "jetbrains-context-cli",
+      "jetbrains-gateway",
+      "kotlin",
+      "mps",
+      "qodana",
+      "qodana-cloud",
+      "resharper",
+      "rider",
+      "security",
+      "teamcity",
+      "teamcity-cloud",
+      "toolbox-app",
+      "youtrack",
+      "youtrack-cloud"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "Preparing for your next certification could start with your Visual Studio Subscription ",
+    "description": "Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work?  If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to find the right resources, […]\nThe post Preparing for your next certification could start with your Visual Studio Subscription  appeared first on Visual Studio Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription/",
+    "pubDate": "Wed, 28 Oct 2026 22:30:00 +0000",
+    "creator": "James Rempt",
+    "categories": [
+      "Visual Studio"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
     "title": "What’s New in vcpkg (Oct 2026)",
     "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2026-10-16 registry release and the 2026-09-26 tool release. These updates include configurable binary-cache compression, improved cache reliability and diagnostics, Boost 1.92, and other improvements and bug fixes. There are now 2,877 total ports available in the vcpkg curated registry. A port […]\nThe post What’s New in vcpkg (Oct 2026) appeared first on C++ Team Blog.",
     "reviews": [],
@@ -16,181 +177,7 @@
     ]
   },
   {
-    "id": 2,
-    "imageUrl": "",
-    "title": "700여개의 아이콘을 하나로 묶는 법 - 뱅샐 아이콘 개편기 2편",
-    "description": "안녕하세요. 뱅크샐러드 브랜드 디자이너 홍승재예요. 앞선 1편에서는 뱅크샐러드 아이콘 2.…",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.banksalad.com/pnc/banksalad-icon-renewal-2/",
-    "pubDate": "Fri, 30 Oct 2026 00:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
-    "description": "This post describes the next generation of Meta Andromeda, Meta’s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In production, the system scores every eligible ad with near ranking-level model performance at retrieval scale and surfaces the top candidates at over one [...]\nRead More...\nThe post Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
-    "pubDate": "Wed, 28 Oct 2026 16:00:01 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "ML Applications",
-      "Production Engineering"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Prompts That Can Write Themselves: A Kotlin Experiment",
-    "description": "TL;DR Koog Agents Optimization Library is a research library developed by JetBrains Research for optimizing the prompts of Koog agents. With it, you write a first version of each instruction, mark the steps worth tuning, provide the library with a training set, and specify a way to score the agent’s output. The library then runs […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/10/koog-agents-optimization-library-prompts/",
-    "pubDate": "Thu, 29 Oct 2026 10:32:37 +0000",
-    "creator": "Nikita Khramov",
-    "categories": [
-      "research",
-      "ai-agents",
-      "jetbrains-research",
-      "koog"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "일본 면세 환급 방법, 공항별 택스리펀 위치와 현금&middot;카드 환급 수수료",
-    "description": "2026년 11월 1일 구매분부터 일본 면세 환급(택스리펀)은 세금까지 내고 산 뒤, 출국 당일 공항에서 짐을 부치기 전에 세관 확인을 받아야 가능합니다. 세관은 물건을 가지고 나가는지만 확인하고, 돈은 구매 매장이 지정한 환급 사업자가 돌려줍니다. 공항에서 할 일은 체크인 전 세관 확인과, 현금을 고른 경우 출국심사 뒤 환급기 이용입니다.\n일본 세관 공항별 키오스크 위치 지도 열기\n페이지에서 출국할 공항과 터미널을 누르면 키오스크와 세관 검사 장소가 지도에 표시됩니다. 지도가 없는 공항도 있으니, 그때는 현장 세관 직원이나 해당 공항의 관할 세관에 문의하세요.\n출국 당일 공항에서 하는 순서\n일본 관광청, 국세청, 각 공항의 공식 안내를 합친 순서입니다. (2026년 11월 3일 확인)\n도착하면 체크인보다 세관 확인을 먼저 합니다. 여권과 면세로 산 물건 전부를 들고 키오스크로 갑니다.\n키오스크에 여권을 스캔합니다. 7개 공항에서는 Visit Japan Web으로 대신할 수 있습니다.\n결과를 확인합니다. GREEN이면 끝나고, RED이면 키오스크 근처 세관 검사 장소에서 물건을 보여 줍니다.\n체크인하고 짐을 부칩니다. 세관 확인이 끝나면 물건을 위탁 수하물에 넣어도 됩니다(후쿠오카·주부공항 안내).\n보안검색과 출국심사를 지납니다. 이후에는 세관 확인을 받으러 출발 로비로 돌아갈 수 없습니다.\n현금을 고른 사람만 환급기로 갑니다. 카드, 계좌, 앱 환급은 매장이 안내한 웹사이트에서 처리합니다.\n세관 확인은 출국 당일에만 받을 수 있고 탑승권은 필요 없습니다(간사이공항 안내 기준). 관광청은 키오스크 판정 자체는 몇 초면 끝난다고 안내하지만, RED가 나오면 시간이 더 걸립니다. 절차 때문에 비행기를 놓쳐도 항공사와 세관의 보상은 없습니다.\n공항별 택스리펀 위치와 현금 환급 장소\n각 공항 공식 페이지 기준이며 운항 상황에 따라 달라질 수 있습니다. (2026년 11월 3일 확인)\n공항세관 확인(체크인 전)현금 환급\n나리타T1 중앙빌딩 4층, T2 본관 3층, T3 본관 2층. 보안검색 전, 5:30~23:00보안검색 후 Cash Japan 키오스크 24시간. 보안검색 전 Self Tax Refund T1·T2 6:00~24:00\n하네다T2 3층 6:00~26:00, T3 3층 24시간. 보안검색 전보안검색 후 Self Tax Refund T2 6:45~25:30, T3 24시간\n간사이T1 4층, T2 1층. 보안검색 전. 단말 24시간, 세관 직원은 체크인 시작부터 보안검색 종료까지출국심사 후 T1 3층 7:00~24:00, T2 1층 5:30~최종편\n후쿠오카국제선 3층 남쪽 J~M 카운터 앞, 6:00~21:00출국검사 후 3층 면세구역 HAKATA FOOD HALL 입구 옆. 단말 6:00~21:00, 카운터 7:00~21:00\n주부T1 국제선 체크인 카운터 앞, T2 체크인 카운터 옆 CIQ 정보 코너. 운항에 맞춰 운영T1 출국심사장 부근 키오스크, 20번 게이트 부근 유인 카운터. T2 출국심사장 통과 직후 10:00~21:30\n나하국제선 3층 체크인 로비국제선 2층 출국 후 구역, 6:00~21:00\n신치토세공항 페이지에서 위치 미확인. 위 세관 지도 확인국제선 3층 카운터 7:00~20:00, 키오스크는 터미널 운영시간\n현금 환급기 운영시간이 세관 확인 시간보다 짧은 공항이 있습니다. 이른 아침이나 늦은 밤 항공편이라면 현금 대신 카드 환급을 고르는 편이 안전합니다. 이 판단은 위 운영시간을 바탕으로 한 것이며, 공항이 권고한 내용은 아닙니다.\n현금 환급은 내 매장이 맞는 기계에서만 됩니다\n공항 현금 환급은 엔화만 가능하고, 구매 매장의 환급 사업자가 제휴한 기계에서만 받을 수 있습니다. 나리타공항은 보안검색 전후 기계의 대응 사업자가 서로 다르다고 안내합니다. 구매할 때 매장에서 환급 사업자 이름을 확인해 두세요.\n서비스이용 공항대상 사업자(공식 페이지 표기)\nCash Japan나리타, 신치토세, 주부, 간사이, 고베, 후쿠오카글로벌블루, J&J Tax Free, JPrefund\nSelf Tax Refund하네다, 나리타, 나하J&J Tax Free, Smart Technologies & Resources, Global Tax Free-Planet, AddSmart, LINKTIVITY, IntaSect Communications\nSelf Tax Refund는 환급 사업자에 정보를 미리 등록해야 하고, 영수증 단위로만 환급합니다. 수수료를 뺀 금액을 주며 100엔 미만은 버립니다. 세관 판정이 기계에 반영되기까지 몇 분 걸릴 수 있으니 \"미판정\"이 나오면 잠시 뒤 다시 시도하세요.\n매장별 환급 등록 기한과 수수료\n환급 수단과 수수료는 일본 정부가 정하지 않고 매장마다 다릅니다. 아래는 매장 공식 페이지에서 직접 확인한 내용만 적었습니다. (2026년 11월 3일 확인)\n매장환급 등록수수료\n돈키호테전용 사이트나 영수증 코드에서 등록. 구매일부터 180일 이내. 카드, Alipay, WeChat Pay, 공항 현금 중 선택없음. 공항 현금을 고르면 환급 사업자 수수료 발생\n마츠모토키요시J-TaxRefund에서 등록. 구매일부터 180일 이내. 세관 확인 전에 구입 내역 확인소정 수수료 차감(금액 미표기)\n빅카메라매장 안내 QR에서 등록. 구매일부터 180일 이내공식 페이지에서 미확인\n유니클로매장에서 면세 등록 후 전용 사이트에서 환급처 등록. 구매일부터 180일 이내공식 페이지에서 미확인\n니혼바시 다카시마야 S.C. 신관구매 당일 면세 카운터에서 수속(글로벌블루 운영)소정 수수료 차감(금액 미표기)\n세전 30,000엔짜리 10% 품목이면 계산대에서 33,000엔을 내고, 나중에 3,000엔에서 수수료를 뺀 금액을 받습니다. 면세 기준은 그대로 같은 매장에서 하루 세전 5,000엔 이상입니다. 수수료 비율을 적은 글도 있지만 공식 페이지에서 확인하지 못해 여기에는 쓰지 않았습니다.\nVisit Japan Web으로 스마트폰 세관 확인하기\n키오스크 줄이 길면 나리타, 하네다, 간사이, 주부, 후쿠오카, 신치토세, 나하공항에서 스마트폰으로 대신할 수 있습니다. 재류자격이 단기체재인 여행자가 대상이고, 일본 국적자는 쓸 수 없습니다. 화면은 영어만 지원합니다.\nVisit Japan Web 공식 페이지 열기\n로그인한 뒤 여권 정보와 상륙허가 증인(입국 때 여권에 붙는 스티커) 정보를 등록해 두세요. 간사이공항은 입국 후 등록이 필요하다고 안내하므로, 일본에 도착한 뒤 숙소에서 끝내는 편이 좋습니다.\n사이트가 열리지 않으면 공항 키오스크를 쓰면 되고, 키오스크는 Visit Japan Web 등록이 없어도 됩니다. 전용 Wi-Fi와 절차 문제는 공항의 세관 검사 장소에 문의하세요.\n보안검색 전 지정 구역에서 세관 전용 Wi-Fi에 연결합니다. SSID는 Customs_WiFi_For_TaxRefund, 비밀번호는 jcustoms입니다(나리타·후쿠오카 안내 기준, 간사이는 QR 연결).\nVisit Japan Web에 로그인해 리펀드 수속(リファンド手続) 메뉴를 누릅니다.\n구매 기록을 확인하고 체크인 전에 Confirm을 누릅니다.\nCompleted면 끝이고, Not Completed면 세관 검사 장소로 갑니다.\n화면 표시뜻대처\nNo purchase record found표시할 구매 기록이 없음화면을 새로 고치고, 그래도 없으면 구매 매장에 문의\nYour Wi-Fi connection was lost전용 Wi-Fi가 끊김구역 안에서 다시 연결해 Confirm, 안 되면 키오스크\nYour passport information could not be verified로그인 후 시간이 지남다시 로그인, 안 되면 키오스크\nNot Completed를 그냥 둠세관 확인 미완료검사 장소에 가지 않으면 환급 대상에서 빠짐\n환급을 못 받는 경우와 대처\n상황결과대처\n면세품이 든 짐을 먼저 부침절차 불가, 짐을 되찾을 수도 없음도착하면 세관 확인부터\n영수증의 물건 하나를 분실그 영수증 전체 환급 불가영수증별로 물건을 묶어 보관\n과자, 화장품을 일본에서 일부 사용그 영수증 전체 환급 불가키오스크를 쓰지 말고 세관 직원에게 신고\n옷, 가방, 가전을 일본에서 사용출국 때 가지고 나가면 확인 가능소모품만 조심\n세관 확인 전에 택배로 보냄환급 불가직접 들고 출국\n국내선을 타고 다른 공항에서 출국최종 출국 공항에서 절차면세품을 환승편에 맡기지 않기\n구매 후 90일이 지나 출국환급 불가구매일 확인\n구매 후 180일 안에 환급 등록을 안 함환급 불가(돈키호테, 빅카메라, 유니클로, 마츠모토키요시)귀국 전 등록\n일본에서 먹을 간식은 면세품과 따로 결제하세요. 영수증이 나뉘면 하나를 먹어도 다른 영수증의 환급에는 영향이 없습니다. 돈키호테는 일본에서 쓸 상품이 있으면 계산 전에 직원에게 말해 달라고 안내합니다.\n자주 찾는 질문\n10월에 사고 11월에 출국하면 어떻게 되나요? 기준은 출국일이 아니라 구매일이라, 10월 31일까지 산 물건은 공항 환급 대상이 아닙니다. 돈키호테는 11월 1일 영업일 구매분부터 새 제도를 적용합니다.\n공항에서 영수증을 보여 줘야 하나요? 관광청은 영수증 소지와 제시가 필수는 아니라고 안내합니다. 다만 세관이 확인을 요청할 수 있고 환급 문의에도 필요하니 환급을 받을 때까지 보관하세요.\n환급금이 안 들어오면 어디에 묻나요? 구매 기록과 환급은 구매 매장이나 매장이 안내한 사업자에 묻습니다. 세관 창구는 답하지 않고, 키오스크와 Wi-Fi, 세관 확인 문의만 받습니다.\n확인하지 못한 내용\n신치토세공항 세관 키오스크의 정확한 층과 운영시간은 공항 페이지에서 확인하지 못했습니다.\nCash Japan 안내의 간사이 운영시간과 층수는 공항 안내와 일부 달라, 표에는 공항 안내를 적었습니다.\n환급이 카드로 들어오는 기간과 적용 환율은 공식 페이지에서 공통 기준을 찾지 못했습니다.\n공식 자료\n일본 관광청 여행자 안내\n일본 세관 한국어 가이드(PDF)\n일본 국세청 온라인 세관 확인 FAQ\n공항: 나리타, 하네다, 간사이, 후쿠오카, 주부, 나하, 신치토세\n현금 환급: Cash Japan, Self Tax Refund\n매장: 돈키호테, 빅카메라, 유니클로, 마츠모토키요시, 니혼바시 다카시마야 S.C.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://app-developer.tistory.com/entry/%EC%9D%BC%EB%B3%B8-%EB%A9%B4%EC%84%B8-%ED%99%98%EA%B8%89-%EB%B0%A9%EB%B2%95-%EA%B3%B5%ED%95%AD%EB%B3%84-%ED%83%9D%EC%8A%A4%EB%A6%AC%ED%8E%80-%EC%9C%84%EC%B9%98%EC%99%80-%ED%98%84%EA%B8%88%C2%B7%EC%B9%B4%EB%93%9C-%ED%99%98%EA%B8%89-%EC%88%98%EC%88%98%EB%A3%8C",
-    "pubDate": "Tue, 3 Nov 2026 08:35:00 +0900",
-    "creator": "브리핑허브",
-    "categories": [
-      "환불&middot;조회"
-    ]
-  },
-  {
-    "id": 6,
-    "imageUrl": "",
-    "title": "토스의 마지막 퍼즐은 동네 가게 계산대 위에 있다",
-    "description": "토스플레이스 팀 리더가 말하는 50만 매장까지의 여정과 다음 비전",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://toss.im/tossfeed/article/tossplace-stroy-2",
-    "pubDate": "Thu, 29 Oct 2026 02:04:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 7,
-    "imageUrl": "",
-    "title": "선을 지우고 명료함을 채우다 - 뱅샐 아이콘 개편기 1편",
-    "description": "…",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.banksalad.com/pnc/banksalad-icon-renewal-1/",
-    "pubDate": "Fri, 30 Oct 2026 00:00:00 GMT",
-    "creator": "Unknown",
-    "categories": []
-  },
-  {
-    "id": 8,
-    "imageUrl": "",
-    "title": "JetBrains Academy – October Digest",
-    "description": "October isn’t quite done yet! A few late arrivals made the cut, and they’re too good for us to hold back until November. Inside: A free frontend event about AI, a free way to practice reviewing agent-written code, our first Coursera specialization, and three full-stack Python courses. * Applies to Junie Lite configuration, after signing […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/education/2026/10/29/jetbrains-academy-october-2026/",
-    "pubDate": "Thu, 29 Oct 2026 11:07:29 +0000",
-    "creator": "Anastasiia Pogorelova",
-    "categories": [
-      "digest",
-      "jetbrains-academy",
-      "newsletter"
-    ]
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "node.js bun 버전업 필요 / node2shell 보완 문제 발생 / 2026-11-02",
-    "description": "node 와 bun 에서 발생한다고 합니다.\n조작된 Brotli 압축으로 요청을 보내면 서버를 탈취할 수 있다고 하네요\n \nNODE.JS\nnode 는 버전마다 차이가있습니다.\n22 는 22.23.4 이상 (저는 22.18.1 을 쓰고 있었군요)\n24 는 24.22.1 이상 \n26 은 26.12.1 이상\n \n21 이하랑 25 는 종료되서 사용하지 말라고 합니다.\n \nBUN\nbun 은 bun upgrade 명령으로 버전을 쉽게 올릴 수 있습니다.\n저는 1.3.6 -> 1.4.4 로 올라갔습니다.\n \n \n대응\n버전 업하는것도 서버마다 제각각이군요\nnvm 을 쓰지 않는 써버도 있었네요\nbun 버전업이 편하다보니 bun 으로 다 통일해야겠습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1694",
-    "pubDate": "Mon, 2 Nov 2026 21:33:31 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "유튜브",
-      "보안문제"
-    ]
-  },
-  {
-    "id": 10,
-    "imageUrl": "",
-    "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
-    "description": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib.  A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separately in each system. PrivacyLib replaces this with a common library that runs inside [...]\nRead More...\nThe post PrivacyLib: Privacy Controls at the Data Access Boundary appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/27/security/privacylib/",
-    "pubDate": "Tue, 27 Oct 2026 16:00:12 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "AI Research",
-      "ML Applications",
-      "Security & Privacy"
-    ]
-  },
-  {
     "id": 11,
-    "imageUrl": "",
-    "title": "하나만 제대로 하기",
-    "description": "나는 음식이 맛있고, 직원분들이 친절하고 훈련을 잘 받은 식당을 발견하면, 웬만한 식사 약속은 이 식당에서 계속 잡는다. 지금은 사무실을 이사해서 더 이상 안가지만, 작년에 사무실 근처의 중국집을 일주일에 4번 간 적도 있다. 나는 저녁 약속이 거의 없지만 점심 약속은 거의 매일 있다. 1년 내내 점심 식사 약속이 있는데 그 많은 식사 약속을 4개의 식당에서만 잡는(...)",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/10/the-best-diet-is-the-one-that-you-can-stick-to.html",
-    "pubDate": "Wed, 28 Oct 2026 21:15:00 +0000",
-    "creator": "Kihong Bae",
-    "categories": [
-      "Uncategorized",
-      "execution",
-      "focus",
-      "general"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "[MULTI] 컨셉은 사도·SRPG로서 재미는 왕도, 데몬즈 나이트 피버",
-    "description": "No description available",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://bbs.ruliweb.com/news/board/11/read/2511",
-    "pubDate": "Thu, 29 Oct 2026 18:49:39 +0900",
-    "creator": "(RULIWEB`Д')/",
-    "categories": [
-      "리뷰"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Preparing for your next certification could start with your Visual Studio Subscription ",
-    "description": "Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work?  If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to find the right resources, […]\nThe post Preparing for your next certification could start with your Visual Studio Subscription  appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription/",
-    "pubDate": "Wed, 28 Oct 2026 22:30:00 +0000",
-    "creator": "James Rempt",
-    "categories": [
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 14,
     "imageUrl": "",
     "title": "Remote Development in 2026.3: What’s New?",
     "description": "Working on a remote machine should feel just like working on a local project: open it, start coding, and pick up where you left off. In 2026.3, JetBrains IDEs move closer to that goal. You can now start and manage remote sessions directly inside the IDE, connect over SSH using native OpenSSH, and begin working […]",
@@ -205,25 +192,64 @@
     ]
   },
   {
-    "id": 15,
+    "id": 12,
     "imageUrl": "",
-    "title": "갤럭시 탭 S12 울트라 vs S12+ 비교: 가격&middot;무게&middot;배터리&middot;포토샵 차이, 나에게 맞는 모델은?",
-    "description": "삼성전자가 10월 7일 국내 출시한 갤럭시 탭 S12 시리즈는 14.6형 울트라와 12.6형 S12+ 두 모델로 나왔습니다. 프로세서는 같지만 화면, 무게, 배터리, 가격이 다르기 때문에 어떤 용도로 쓰느냐에 따라 선택이 갈립니다. 이 글은 삼성전자 뉴스룸과 삼성닷컴 공식 정보를 기준으로 두 모델을 비교하고, 태블릿에서 바로 쓸 수 있는 AI 프롬프트도 정리했습니다.\n이 글의 핵심 요약\n1. 두 모델 모두 미디어텍 디멘시티 9500, S펜 기본 제공, 안드로이드 태블릿 최초 어도비 포토샵 탑재입니다.\n2. 울트라는 14.6형·692g(Wi-Fi)·최대 23시간, S12+는 12.6형·553g(Wi-Fi)·최대 21시간입니다(동영상 재생 기준).\n3. 출고가는 울트라 189만 9,700원~301만 8,400원, S12+ 154만 9,900원~206만 9,100원입니다.\n4. 출시 기념 구매 혜택은 10월 31일에 종료됐으니, 지금은 판매처별 현재 혜택을 따로 확인해야 합니다.\n1. 갤럭시 탭 S12 시리즈, 무엇이 새로워졌나\n\n\n이미지 출처: 삼성전자 뉴스룸\n삼성전자는 갤럭시 탭 S12 시리즈의 핵심으로 최대 23시간 배터리, 대화면에 맞춘 갤럭시 AI, 안드로이드 태블릿 최초 어도비 포토샵 탑재를 내세웠습니다. 울트라는 전작 탭 S11 울트라와 같은 5.1mm 두께를 유지하면서 삼성전자 측정 기준 NPU 약 61%, CPU 약 19%, GPU 약 17% 성능이 향상됐다고 밝혔습니다. S12+는 전작 탭 S10+(12.4형)보다 화면을 12.6형으로 키우고 두께와 무게는 줄였습니다.\n두 모델 모두 안드로이드 17 기반 One UI 9를 탑재했고, 최대 7회의 OS 업그레이드와 보안 업데이트를 지원합니다.\n2. 울트라 vs S12+ 스펙 비교표\n항목\n갤럭시 탭 S12 울트라\n갤럭시 탭 S12+\n\n\n화면\n14.6형 다이나믹 아몰레드 2X (2960x1848, 120Hz)\n12.6형 다이나믹 아몰레드 2X (2800x1752, 120Hz)\n\n\n두께 / 무게\n5.1mm / 692g(Wi-Fi), 695g(5G)\n5.3mm / 553g(Wi-Fi), 555g(5G)\n\n\n프로세서\n미디어텍 디멘시티 9500\n미디어텍 디멘시티 9500\n\n\n배터리\n11,600mAh, 동영상 최대 23시간\n10,600mAh, 동영상 최대 21시간\n\n\n충전\n최대 45W (약 95분 완충)\n최대 45W (약 95분 완충)\n\n\n무선 연결\nWi-Fi 7\nWi-Fi 6E\n\n\n메모리 / 저장공간\n12GB·256GB / 12GB·512GB / 16GB·1TB\n12GB·256GB / 12GB·512GB\n\n\n출고가\n189만 9,700원 ~ 301만 8,400원\n154만 9,900원 ~ 206만 9,100원\n\n\n\n \n출고가 차이는 최저 구성 기준 약 35만 원입니다. 실제 구매가는 판매처, 카드 할인, 시기에 따라 달라지므로 구매 직전에 다시 확인하세요.\n3. 갤럭시 AI와 포토샵, 실제로 뭘 할 수 있나\n\n\n이미지 출처: 삼성전자 뉴스룸\n두 모델 모두 대화면 멀티태스킹에 맞춘 나우 넛지 등 갤럭시 AI 기능을 지원하고, 최대 3분할 멀티 윈도우로 여러 앱을 띄워 놓고 S펜으로 작업할 수 있습니다. 삼성닷컴 안내에 따르면 키보드 액세서리의 Galaxy AI 키로 AI 어시스턴트를 호출할 수 있고, 빅스비·Gemini·퍼플렉시티 중 전환하는 옵션이 제공됩니다(네트워크 연결과 각 계정 로그인 필요).\n\n\n이미지 출처: 삼성전자 뉴스룸\n가장 눈에 띄는 변화는 어도비 포토샵입니다. 삼성전자는 안드로이드 태블릿 최초로 포토샵을 탑재했다고 밝혔고, 노타빌리티, 굿노트, 루마퓨전, 노션, 클립 스튜디오 페인트 같은 앱도 함께 소개했습니다. 포토샵의 세부 기능 범위와 구독 조건은 어도비 안내를 따로 확인하세요.\n4. 어떤 사람에게 어떤 모델이 맞을까\n울트라가 맞는 사람: 문서 두 개를 나란히 띄우는 작업, 영상 편집, 드로잉처럼 화면 면적이 생산성으로 이어지는 분. 16GB·1TB 구성이 필요하거나 Wi-Fi 7을 쓰고 싶은 분.\nS12+가 맞는 사람: 매일 가방에 넣고 다니며 필기·강의 수강·회의 메모를 하는 분. 553g으로 울트라보다 약 139g 가볍고 출고가도 낮습니다.\n공통 확인 사항: 키보드 커버는 모델 전용이고 별도 구매입니다. 노트북 대용으로 쓰려면 키보드 비용까지 예산에 넣으세요.\n5. 10월 출시 혜택은 끝났습니다: 지금 확인할 것\n삼성전자는 출시에 맞춰 10월 31일까지 삼성 AI 구독 관련 멤버십 포인트 지원, 구글 AI 프로 6개월 구독권 등 콘텐츠 혜택, AR 스크린 프로텍터 증정, 키보드 북커버 할인 등을 제공했습니다. 이 혜택들은 10월 31일로 종료됐습니다.\n11월 이후에 구매한다면 삼성닷컴과 각 판매처의 현재 프로모션을 새로 확인해야 합니다. 연말 할인 행사 기간에는 조건이 다시 바뀔 수 있으니, 아래 프롬프트로 혜택을 정리해 비교하면 편합니다.\n6. 태블릿에서 바로 쓰는 AI 프롬프트\n갤럭시 탭에서 Gemini나 챗GPT 앱에 붙여 넣어 쓰세요. 대괄호 부분만 바꾸면 됩니다.\n프롬프트 1. 울트라 vs S12+ 내 기준으로 고르기\n갤럭시 탭 S12 울트라(14.6형, 692g, 출고가 189만 9,700원부터)와 S12+(12.6형, 553g, 154만 9,900원부터) 중에서 고르려고 해.\n내 사용 패턴: [하루 사용 시간], [주 용도: 필기 / 영상 시청 / 드로잉 / 문서 작업], [들고 다니는 빈도], 예산 [금액].\n내 조건에 맞춰 두 모델을 점수로 비교하는 표를 만들고, 최종 추천 1개와 이유를 3줄로 알려 줘.\n프롬프트 2. 판매처별 혜택 비교 정리\n아래는 내가 찾은 갤럭시 탭 S12 판매처별 가격과 혜택이야.\n[판매처1: 가격, 카드 할인, 사은품]\n[판매처2: 가격, 카드 할인, 사은품]\n사은품의 실사용 가치를 내가 쓸지 여부 기준으로 따로 평가하고, 실질 구매가를 계산해서 가장 유리한 선택을 표로 정리해 줘.\n프롬프트 3. 화면 분할 공부 루틴 만들기\n나는 갤럭시 탭으로 [자격증 / 어학 / 업무 교육]을 공부하려고 해.\n왼쪽에는 [강의 영상 앱], 오른쪽에는 [필기 앱]을 띄우는 화면 분할 기준으로, 1회 [시간]분짜리 공부 루틴을 만들어 줘.\n강의 핵심을 S펜 필기로 정리하는 방법과, 끝난 뒤 필기를 붙여 넣으면 요약·퀴즈를 만들어 주는 후속 프롬프트도 함께 알려 줘.\n7. 자주 묻는 질문 (FAQ)\nQ1. 울트라와 S12+는 성능 차이가 있나요?\n두 모델 모두 미디어텍 디멘시티 9500을 탑재했습니다. 차이는 주로 화면 크기, 무게, 배터리 용량, 무선 연결(Wi-Fi 7과 6E), 최대 저장공간 구성입니다.\nQ2. S펜은 따로 사야 하나요?\n두 모델 모두 S펜을 기본 제공합니다. 키보드 커버 등 다른 액세서리는 별도 구매입니다.\nQ3. 10월 출시 혜택을 지금도 받을 수 있나요?\n삼성전자가 안내한 출시 기념 혜택은 10월 31일까지였습니다. 이후에는 판매처별로 진행하는 프로모션을 따로 확인해야 합니다.\nQ4. 포토샵은 무료인가요?\n삼성전자는 포토샵 탑재 사실을 발표했지만, 이 글에서는 무료 사용 범위와 구독 조건을 확인하지 못했습니다. 어도비와 삼성닷컴의 최신 안내를 확인하세요.\n마무리: 들고 다닐지, 펼쳐 놓고 쓸지부터 정하세요\n갤럭시 탭 S12 울트라와 S12+는 같은 프로세서에 같은 AI 기능을 쓰는 만큼, 결국 선택 기준은 화면 크기와 무게입니다. 넓은 화면으로 작업 효율을 높이고 싶다면 울트라, 매일 휴대하며 필기와 학습에 쓰려면 S12+가 맞습니다. 출시 혜택이 끝난 만큼 판매처별 현재 조건을 위 프롬프트로 정리해 비교해 보시길 바랍니다.\n참고 자료\n삼성전자 뉴스룸: 갤럭시 탭 S12 시리즈 공개\n삼성전자 뉴스룸: 갤럭시 탭 S12 시리즈·스마트태그3 국내 출시\n삼성닷컴: 갤럭시 탭 S12+\n삼성닷컴: 갤럭시 탭 S12 울트라\n디지털데일리: 갤럭시 탭 S12 뭐가 달라졌나",
+    "title": "윈도우11 26H2 업데이트 총정리: 새 기능, 지금 설치하는 법, 설치 전 체크리스트 (AI 점검 프롬프트 포함)",
+    "description": "2026년 9월 29일부터 윈도우11 26H2 배포가 시작됐습니다. 이번 버전은 연 1회 나오는 기능 업데이트지만, 24H2·25H2를 쓰는 PC라면 운영체제를 통째로 다시 까는 방식이 아니라 작은 활성화 패키지(enablement package)로 올라갑니다. 이 글에서는 Microsoft 공식 문서에서 확인한 내용만 골라 새 기능, 설치 방법, 설치 전 체크리스트를 정리하고, 업데이트 전에 AI로 내 PC 상태를 점검하는 프롬프트도 함께 드립니다.\n이 글의 핵심 요약\n1. 26H2는 24H2·25H2 PC에서 활성화 패키지로 설치되며, 대부분 재시작 1번이면 끝납니다.\n2. 설치하면 지원 기간이 새로 시작됩니다. Home·Pro 24개월, Enterprise·Education 36개월입니다.\n3. 시작 메뉴·작업 표시줄·검색·파일 탐색기 개선이 묶여 들어오고, WMIC는 제거됐습니다.\n4. '기본 활성' 3가지(설정 백업, 작업 표시줄 앱 액션, 파일 탐색기 개선)는 공식 문서상 상업용(기업) 장치 기준입니다.\n\n\n1. 윈도우11 26H2는 어떤 업데이트인가요?\nMicrosoft에 따르면 26H2, 25H2, 24H2는 같은 서비스 분기(코드 기반)를 공유합니다. 그래서 새 기능 상당수는 이미 매월 누적 업데이트로 PC에 내려와 있고, 26H2 활성화 패키지는 그 기능을 켜 주는 역할을 합니다. 공식 문서가 설명하는 특징은 다음과 같습니다.\n작은 다운로드: 월간 품질 업데이트처럼 설치됩니다.\n빠른 설치: 대부분의 경우 재시작 1번으로 끝납니다.\n지원 기간 초기화: 26H2를 설치한 시점부터 새 지원 기간이 적용됩니다.\n단계적 배포: 호환성 문제가 예상되지 않는 PC부터 순차적으로 제공됩니다.\n에디션\n26H2 지원 기간\n\n\nHome\n24개월\n\n\nPro\n24개월\n\n\nEnterprise\n36개월\n\n\nEducation\n36개월\n\n\n\n \n2. 26H2 주요 새 기능 (일반 사용자 체감 기능)\n시작 메뉴와 작업 표시줄\n새 시작 메뉴: 스크롤되는 '모두' 영역과 범주 보기·그리드 보기가 생겼고, 고정됨·최근·모두 섹션을 각각 보이거나 숨길 수 있습니다.\n작업 표시줄 위치: 화면 아래뿐 아니라 위, 왼쪽, 오른쪽에 둘 수 있고, 아이콘과 높이를 줄이는 작은 작업 표시줄 옵션도 추가됐습니다.\nAI 에이전트 진행 상황 표시: 작업 표시줄에서 지원되는 AI 에이전트의 진행 상황을 볼 수 있으며, 첫 지원 대상은 Microsoft Copilot의 Researcher입니다.\n파일 탐색기\nAI 작업: 지원되는 이미지 편집, 문서 요약 기능이 들어왔습니다. 다만 OneDrive·SharePoint 파일 요약은 Microsoft 365 구독과 Copilot 라이선스가 필요합니다.\n압축 형식 추가: uu, cpio, xar, nupkg 형식을 지원합니다.\n보기·정렬 유지: 다운로드, 문서 폴더의 보기·정렬 설정이 유지됩니다.\n이름 바꾸기 음성 입력, 홈 화면 실행 속도 개선도 포함됩니다.\n검색, 보안, 기타\nWindows 검색: 열지 않고 결과 미리 보기, 오타·부분 이름으로 앱 찾기, 결과 종류(앱·설정·파일·웹) 표시가 개선됐습니다.\n스마트 앱 컨트롤: 윈도우를 새로 설치하지 않아도 켜고 끌 수 있습니다.\n패스키: 지원되는 외부 비밀번호 관리자에 저장된 패스키를 쓸 수 있습니다.\n윈도우 업데이트 재시작 감소: 해당되는 업데이트를 월간 보안 업데이트와 함께 설치해 재시작 횟수를 줄입니다.\n음성 액세스 한국어 지원: 지원되는 Copilot+ PC에서 자연어 명령과 함께 한국어 등이 추가됐습니다.\n작업 관리자 NPU 표시: NPU가 있는 PC에서 NPU 사용률 열을 켤 수 있습니다.\n3. 가정용과 기업용, 이 부분은 구분해서 보세요\n일부 블로그에서 \"26H2부터 설정 백업이 기본으로 켜진다\"고 소개하는데, 공식 문서 표현은 조금 다릅니다. Microsoft Learn 문서는 아래 3가지를 상업용(조직) 장치에서 임시 상업용 제어로 막혀 있던 기능을 기본 활성화한 것이라고 설명합니다.\n항목\n공식 문서 내용\n가정용 PC에서\n\n\nWindows 설정 백업\n대상 상업용 장치에서 기본 활성, 관리자 정책은 그대로 존중\n직접 설정에서 확인하세요\n\n\n작업 표시줄 앱별 작업(앱 액션)\n상업용 장치에서 기본 활성\n이미 월간 업데이트로 들어왔을 수 있음\n\n\n파일 탐색기 개선\n임시 상업용 제어 해제, 기본 활성\n이미 월간 업데이트로 들어왔을 수 있음\n\n\n관리자 보호(Administrator protection)\n기본 꺼짐, Intune 또는 그룹 정책으로 켬\n일반 사용자가 신경 쓸 일은 거의 없음\n\n\n내장 Sysmon\n기본 꺼짐, 켜야 사용\n보안 담당자용 기능\n\n\n\n \n정리하면, 가정용 PC에서는 26H2를 설치해도 \"갑자기 크게 바뀌는\" 느낌이 적을 수 있습니다. 많은 기능이 이미 매월 업데이트로 들어와 있기 때문입니다.\n4. 제거된 기능: WMIC\nWMIC(Windows Management Instrumentation 명령줄)는 24H2 이상에서 제거됐고, 이제 선택적 기능(FoD)으로도 설치할 수 없습니다. 오래된 배치 파일이나 사내 스크립트에서 wmic 명령을 쓰고 있다면 PowerShell 명령으로 바꿔야 합니다. 대체 명령은 별도 글에서 자세히 정리했습니다.\n5. 지금 26H2 설치하는 법\n24H2 또는 25H2를 쓰고 있다면 Windows 업데이트에서 직접 받을 수 있습니다. 단계적 배포라 PC마다 표시 시점이 다를 수 있습니다.\n1단계: 설정 > 시스템 > 정보에서 현재 버전(24H2/25H2)을 확인합니다. 23H2 이하라면 먼저 최신 버전으로 올려야 합니다.\n2단계: 설정 > Windows 업데이트에서 업데이트 확인을 누릅니다.\n3단계: \"Windows 11, 버전 26H2로 기능 업데이트\" 항목이 보이면 다운로드 및 설치를 누릅니다. 항목 이름은 화면에서 확인하세요.\n4단계: 설치가 끝나면 재시작하고, 설정 > 시스템 > 정보에서 26H2로 바뀌었는지 확인합니다.\n항목이 보이지 않는다면 아직 내 PC 차례가 아닌 것입니다. 무리해서 다른 방법으로 설치하기보다 기다리는 편이 안전합니다. 10월 누적 업데이트(KB5127648) 관련 오류는 따로 정리한 글을 참고하세요.\n\n\n6. 설치 전 체크리스트\n점검 항목\n확인 방법\n이유\n\n\n중요 파일 백업\n외장 드라이브나 클라우드에 복사\n문제 발생 시 복구용\n\n\n저장 공간\n설정 > 시스템 > 저장소\n설치 중 공간 부족 방지\n\n\n알려진 문제\nWindows release health 페이지\n내 환경에 해당하는 이슈 확인\n\n\nwmic 사용 스크립트\n배치 파일에서 wmic 검색\nWMIC 제거로 동작 안 함\n\n\nVPN·원격 데스크톱\n회사 업무용이면 IT 담당자에게 문의\n10월 업데이트 관련 이슈가 공지됨\n\n\n전원\n노트북은 전원 연결\n설치 중 종료 방지\n\n\n\n \nMicrosoft release health 페이지에는 10월 기준으로 비관리자 사용자의 원격 데스크톱 연결 오류(0xC000000D) 같은 알려진 문제가 올라와 있습니다. 업무용 PC라면 설치 전에 꼭 확인하세요.\n7. 업데이트 전 AI로 PC 점검하는 프롬프트\n아래 명령 결과를 복사해 챗GPT, 제미나이, 클로드 같은 AI에 붙여 넣으면 업데이트 전에 확인할 점을 정리해 줍니다. 결과에는 개인 정보가 거의 없지만, 컴퓨터 이름이나 사용자 이름은 지우고 붙여 넣는 것을 권장합니다.\n프롬프트 1. 업데이트 준비 상태 점검\n너는 윈도우 PC 점검 도우미야. 나는 윈도우11 26H2 기능 업데이트를 설치하려고 해.\n아래는 PowerShell에서 실행한 결과야.\n[Get-ComputerInfo -Property OsName,OsVersion,OsBuildNumber,WindowsVersion 결과 붙여넣기]\n[Get-PSDrive C 결과 붙여넣기]\n1. 현재 버전이 활성화 패키지로 26H2를 받을 수 있는 버전(24H2 또는 25H2)인지 알려줘.\n2. C 드라이브 여유 공간이 충분한지 판단하고, 부족하면 정리 방법을 알려줘.\n3. 설치 전에 내가 해야 할 일을 체크리스트로 5개 이내로 정리해줘.\n확실하지 않은 내용은 추측하지 말고 \"확인 필요\"라고 표시해줘.\n프롬프트 2. 오래된 스크립트 WMIC 사용 여부 점검\n아래는 내가 쓰는 배치 파일(.bat) 내용이야.\n[배치 파일 내용 붙여넣기]\n윈도우11 24H2 이상에서는 WMIC가 제거됐어.\n1. wmic 명령이 들어간 줄을 모두 찾아줘.\n2. 각 줄을 같은 결과를 내는 PowerShell 명령(Get-CimInstance 등)으로 바꿔줘.\n3. 바꾼 뒤 테스트하는 방법도 알려줘.\n프롬프트 3. 업데이트 후 달라진 점 확인\n윈도우11 26H2로 업데이트했어. 가정용 Home 에디션이야.\n시작 메뉴, 작업 표시줄, 파일 탐색기, 검색에서 새로 써 볼 만한 기능을 설정 경로와 함께 5개만 알려줘.\n메뉴 이름이 정확하지 않을 수 있으면 \"화면에서 확인\"이라고 덧붙여줘.\n\n\n8. 자주 묻는 질문 (FAQ)\nQ1. 26H2를 꼭 바로 설치해야 하나요?\n급할 필요는 없습니다. Home·Pro는 버전마다 지원 기간이 24개월이므로, 쓰고 있는 버전의 지원 종료 전에만 올리면 됩니다. 다만 26H2를 설치하면 지원 기간이 새로 시작된다는 장점이 있습니다.\nQ2. 업데이트 항목이 안 보이는데 고장인가요?\n아닙니다. Microsoft는 26H2를 단계적으로 배포하고 있어서 PC마다 제공 시점이 다릅니다. 업데이트 확인을 눌러도 보이지 않으면 며칠 뒤 다시 확인하세요.\nQ3. 설치 후 문제가 생기면 되돌릴 수 있나요?\n기능 업데이트는 일반적으로 설정 > 시스템 > 복구에서 일정 기간 이전 버전으로 되돌릴 수 있습니다. 되돌리기 가능 기간과 메뉴 이름은 PC 화면에서 확인하세요.\nQ4. 파일 탐색기 AI 요약은 무료인가요?\n공식 문서 기준으로 OneDrive·SharePoint 파일의 Copilot 요약은 Microsoft 365 구독과 Copilot 라이선스가 필요합니다. 모든 PC에서 무료로 쓸 수 있는 기능은 아닙니다.\n마무리: 크게 바뀌진 않아도, 지원 기간은 새로 시작됩니다\n윈도우11 26H2는 큰 변화보다는 1년 동안 들어온 기능을 정리하고 지원 기간을 새로 여는 업데이트입니다. 백업과 저장 공간만 확인하고, Windows 업데이트에 항목이 보일 때 차분히 설치하시면 됩니다. 설치 전에 위 프롬프트로 한 번 점검해 보세요.\n참고 자료\nMicrosoft Learn: What's new in Windows 11, version 26H2\nWindows IT Pro Blog: An IT pro's guide to Windows 11, version 26H2\nWindows 11, version 26H2 known issues and notifications",
     "reviews": [],
     "syllabus": [],
-    "link": "https://muzbox.tistory.com/483749",
-    "pubDate": "Mon, 2 Nov 2026 08:30:00 +0900",
+    "link": "https://muzbox.tistory.com/483748",
+    "pubDate": "Fri, 30 Oct 2026 08:30:00 +0900",
     "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
       "AI, 미래기술/AI 인사이트",
-      "갤럭시 AI",
-      "갤럭시 탭 S12 가격",
-      "갤럭시 탭 S12 비교",
-      "갤럭시 탭 S12 울트라",
-      "갤럭시 탭 S12+",
-      "안드로이드 포토샵",
-      "태블릿 AI 활용",
-      "태블릿 추천"
+      "26H2 새 기능",
+      "WMIC 제거",
+      "윈도우 기능 업데이트",
+      "윈도우 업데이트 체크리스트",
+      "윈도우11 26H2",
+      "윈도우11 업데이트",
+      "윈도우11 지원 기간",
+      "활성화 패키지"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "DataGrip and Database Tools User Experience Survey #3 Results",
+    "description": "Introduction Hello, DataGrip community! We’re back with the results of our third DataGrip and Database Tools User Experience Survey. A big thank you to everyone who took the time to participate! This year, 1,420 people shared their experiences with DataGrip and the built-in database tools in other JetBrains IDEs. As with our first and second […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/datagrip/2026/11/03/datagrip-and-database-tools-user-experience-survey-3-results/",
+    "pubDate": "Tue, 03 Nov 2026 09:19:36 +0000",
+    "creator": "Dmitry Romanov",
+    "categories": []
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "700여개의 아이콘을 하나로 묶는 법 - 뱅샐 아이콘 개편기 2편",
+    "description": "안녕하세요. 뱅크샐러드 브랜드 디자이너 홍승재예요. 앞선 1편에서는 뱅크샐러드 아이콘 2.…",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.banksalad.com/pnc/banksalad-icon-renewal-2/",
+    "pubDate": "Fri, 30 Oct 2026 00:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "node.js bun 버전업 필요 / node2shell 보완 문제 발생 / 2026-11-02",
+    "description": "node 와 bun 에서 발생한다고 합니다.\n조작된 Brotli 압축으로 요청을 보내면 서버를 탈취할 수 있다고 하네요\n \nNODE.JS\nnode 는 버전마다 차이가있습니다.\n22 는 22.23.4 이상 (저는 22.18.1 을 쓰고 있었군요)\n24 는 24.22.1 이상 \n26 은 26.12.1 이상\n \n21 이하랑 25 는 종료되서 사용하지 말라고 합니다.\n \nBUN\nbun 은 bun upgrade 명령으로 버전을 쉽게 올릴 수 있습니다.\n저는 1.3.6 -> 1.4.4 로 올라갔습니다.\n \n \n대응\n버전 업하는것도 서버마다 제각각이군요\nnvm 을 쓰지 않는 써버도 있었네요\nbun 버전업이 편하다보니 bun 으로 다 통일해야겠습니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://serverdown.tistory.com/1694",
+    "pubDate": "Mon, 2 Nov 2026 21:33:31 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "유튜브",
+      "보안문제"
     ]
   }
 ]
