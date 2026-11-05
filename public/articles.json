@@ -2,32 +2,35 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "TeamCity 2026.2.2 and 2026.1.6 Updates",
-    "description": "TeamCity On-Premises 2026.2.2 and 2026.1.6 bug-fix updates are now available. These updates resolve a significant number of issues, including security and performance issues, as well as the following bugs: As always, we strongly recommend installing these updates, as they address security vulnerabilities and help keep your TeamCity On-Premises instance protected against potential threats. See TeamCity […]",
+    "title": "What’s New in vcpkg (Oct 2026)",
+    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2026-10-16 registry release and the 2026-09-26 tool release. These updates include configurable binary-cache compression, improved cache reliability and diagnostics, Boost 1.92, and other improvements and bug fixes. There are now 2,877 total ports available in the vcpkg curated registry. A port […]\nThe post What’s New in vcpkg (Oct 2026) appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/11/teamcity-2026-2-2-2026-1-6-bugfix/",
-    "pubDate": "Tue, 03 Nov 2026 13:58:44 +0000",
-    "creator": "Dmitrii Korovin",
+    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-oct-2026/",
+    "pubDate": "Thu, 29 Oct 2026 17:58:54 +0000",
+    "creator": "Augustin Popa",
     "categories": [
-      "bug-fix",
-      "security"
+      "C++",
+      "Vcpkg",
+      "vcpkg"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
-    "description": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “Just-in-Time Catching Test Generation at Meta,” fully details [...]\nRead More...\nThe post Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale appeared first on Engineering at Meta.",
+    "title": "아직 사람이 설 자리는 있다",
+    "description": "몇 주 전에 서울에서 우리의 가장 큰 연례행사인 AGM(Annual General Meeting: 정기조합원총회)이 있었다. 우리 같은 VC의 주주총회이다. 우리도 누군가의 돈을 받아서 투자하는 펀드매니저인데, 우리에게 돈을 제공하는 투자자를(LP: Limited Partner) 대상으로 스트롱의 일 년 동안의 활동과 성과를 공유하는 자리다. 대부분의 VC는 AGM을 하는데 그 형식과 진행방법은 천차만별이다. 우리는 한국보다 해외 LP가 더 많은데, 해외 투자자가 스트롱의(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
-    "pubDate": "Thu, 29 Oct 2026 16:00:12 +0000",
-    "creator": "Unknown",
+    "link": "https://www.thestartupbible.com/2026/11/still-plenty-of-room-for-humans.html",
+    "pubDate": "Wed, 04 Nov 2026 21:21:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "AI Research",
-      "ML Applications",
-      "Security & Privacy"
+      "Uncategorized",
+      "ai",
+      "people",
+      "Strong",
+      "team"
     ]
   },
   {
@@ -64,192 +67,176 @@
   {
     "id": 5,
     "imageUrl": "",
-    "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
-    "description": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020.  F3 reduced execution computational costs by compiling all features into a single merged graph, but that [...]\nRead More...\nThe post F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale appeared first on Engineering at Meta.",
+    "title": "JetBrains Foundation to discontinue new scholarships at Constructor University starting in 2027",
+    "description": "As JetBrains’ business direction evolves, we’re reviewing how our educational initiatives align with our priorities. As part of this shift, we’ve made the difficult decision to stop offering new scholarships at Constructor University. We know this is disappointing news, especially if you were preparing to apply or have already submitted an application. We’re sorry for […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
-    "pubDate": "Tue, 03 Nov 2026 17:00:35 +0000",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/education/2026/11/04/jetbrains-foundation-to-discontinue-new-scholarships-at-constructor-university-starting-in-2027/",
+    "pubDate": "Wed, 04 Nov 2026 10:04:33 +0000",
+    "creator": "Alena Gupaisova",
     "categories": [
-      "ML Applications",
-      "Production Engineering"
+      "offline-programs"
     ]
   },
   {
     "id": 6,
     "imageUrl": "",
-    "title": "Hear What Your IDE Is Doing: New Sound Cues in JetBrains IDEs",
-    "description": "You can use the audio player below to listen to this blog post. With JetBrains IDEs 2026.3, we’re adding a new way to stay connected to your work: sound cues. A short sound can tell you if a build has finished successfully or failed, a breakpoint has been hit, or there’s something at the caret […]",
+    "title": "TeamCity 2026.2.2 and 2026.1.6 Updates",
+    "description": "TeamCity On-Premises 2026.2.2 and 2026.1.6 bug-fix updates are now available. These updates resolve a significant number of issues, including security and performance issues, as well as the following bugs: As always, we strongly recommend installing these updates, as they address security vulnerabilities and help keep your TeamCity On-Premises instance protected against potential threats. See TeamCity […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/11/accessibility-sound-cues-in-jetbrains-ides/",
-    "pubDate": "Tue, 03 Nov 2026 15:36:11 +0000",
-    "creator": "Sasha Ivanova",
+    "link": "https://blog.jetbrains.com/teamcity/2026/11/teamcity-2026-2-2-2026-1-6-bugfix/",
+    "pubDate": "Tue, 03 Nov 2026 13:58:44 +0000",
+    "creator": "Dmitrii Korovin",
     "categories": [
-      "intellij-platform",
-      "accessibility",
-      "news"
+      "bug-fix",
+      "security"
     ]
   },
   {
     "id": 7,
     "imageUrl": "",
-    "title": "Use Your GitHub Copilot Plan in JetBrains Air – in Your IDE and in the Cloud",
-    "description": "GitHub and JetBrains are bringing GitHub Copilot to JetBrains Air. Air lets you hand coding tasks to agents, run them in parallel, and review their changes in one place. You can now pick GitHub Copilot as the agent in Air – locally in your JetBrains IDE, and in the cloud with Air Teams. Tasks run […]",
+    "title": "KT 삼성 한국시리즈 예매 일정과 티켓팅 방법, NOL 티켓 취소&middot;환불과 현장 판매",
+    "description": "KT 위즈와 삼성 라이온즈의 한국시리즈 티켓팅은 11월 2일(월) 오전 11시에 1차전부터 시작하고, 한 시간 간격으로 다음 경기가 열려 오후 5시 7차전으로 끝납니다. 예매처는 NOL(야놀자) 티켓 한 곳이며 1인당 최대 4매까지 살 수 있습니다. 온라인을 놓쳐도 취소분이 있으면 경기 시작 2시간 전부터 해당 구장에서 현장 판매를 합니다.\nNOL 티켓 포스트시즌 예매 페이지 열기\n페이지를 연 뒤 로그인하고, 보려는 차전의 예매 시작 시각에 맞춰 좌석을 고릅니다. 페이지가 열리지 않거나 예매 오류가 나면 NOL 고객센터(1544-1555)에 문의하세요.\n차전별 예매 시작 시각과 현장 판매 시각\n예매 시간과 경기 일정은 KBO 공지 첨부 표 기준이고, 현장 판매 시각은 \"경기 시작 2시간 전\" 기준으로 계산했습니다. (2026년 11월 2일 확인)\n경기경기 일시구장예매 시작(11월 2일)현장 판매 시작\n1차전11월 3일(화) 오후 6시 30분수원오전 11시오후 4시 30분\n2차전11월 4일(수) 오후 6시 30분수원낮 12시오후 4시 30분\n3차전11월 6일(금) 오후 6시 30분대구오후 1시오후 4시 30분\n4차전11월 7일(토) 오후 2시대구오후 2시낮 12시\n5차전11월 8일(일) 오후 2시대구오후 3시낮 12시\n6차전11월 10일(화) 오후 6시 30분수원오후 4시오후 4시 30분\n7차전11월 11일(수) 오후 6시 30분수원오후 5시오후 4시 30분\n헷갈리기 쉬운 점은 주말 경기입니다. 11월 7일 대구 4차전도 경기 날이 아니라 11월 2일 오후 2시에 예매가 열립니다.\n티켓팅 방법과 준비할 것\n아래 내용은 NOL 티켓 포스트시즌 페이지의 안내입니다. 2026년 11월 2일 오전 8시 35분 확인 당시 이 페이지는 아직 플레이오프 기준이었으므로, 한국시리즈 안내로 바뀌면 달라진 내용이 있는지 다시 확인하세요.\n결제 수단: 신용카드만 쓸 수 있습니다. 무통장입금과 NOL 포인트 결제는 막혀 있습니다.\n예매 수수료: 웹과 모바일은 장당 1,000원, 고객센터는 장당 3,000원입니다.\n티켓 형태: 모바일티켓만 사용합니다. 캡처 화면으로는 입장할 수 없고, 앱에서 예약번호나 바코드가 움직이는 티켓만 인정됩니다.\n전화 예매: 온라인 예매가 어려운 고령자와 장애인만 이용할 수 있습니다.\nKT 위즈 구단에 따르면 한국시리즈 입장권은 구단 예매처인 위잽(wizzap)과 티켓링크에서는 살 수 없습니다. 평소 쓰던 예매처로 들어가지 않도록 주의하세요.\n입장권을 못 샀을 때 현장 판매\nKBO에 따르면 입장권은 전량 예매로 진행하고, 현장 판매는 두 가지입니다.\n취소분 현장 판매: 취소된 표가 있을 때 경기 시작 2시간 전부터 해당 구장에서 판매합니다.\n온라인 이용이 어려운 관람객 현장 판매: 만 65세 이상(1962년 1월 1일 이전 출생자), 장애인(장애인등록증·복지카드 소지자), 외국인(여권 소지자)이 경기 당일 매표소에서 1인 1매를 살 수 있습니다.\n플레이오프 안내에서는 이 현장 판매가 전용 창구에서 200매 한정이었습니다. 한국시리즈의 수량과 수원 구장 창구 위치는 미확인입니다. KT 위즈 구단은 경기 당일 현장 판매가 취소표 발생 여부에 따라 달라질 수 있다고 안내합니다.\nKT 위즈 시즌권 회원 선예매\nKT 위즈 2026 시즌권 회원 본인은 11월 2일 오후 3시부터 9시까지 수원케이티위즈파크 중앙매표소에서 현장 선예매를 할 수 있습니다. 오후 9시에 대기 줄을 마감합니다.\n구매 수량: 홈 경기(1·2·6·7차전)는 1인 1매, 원정 경기(3·4·5차전)는 1인 2매입니다.\n준비물: 사진으로 본인을 확인할 수 있는 실물 신분증(신분증, 운전면허증, 여권, 청소년증, 학생증)과 위잽 회원 정보가 필요합니다.\n대리구매: 현장에 못 오는 회원은 대리인이 구매할 수 있습니다. 대리인 1명당 회원 1명만 가능하고, 회원 이름·아이디·연락처가 보이는 위잽 프로필 캡처와 대리인 신분증이 필요합니다.\n환불: 결제 후 취소·교환·환불이 안 되고, 진행되지 않은 차전의 티켓은 자동 취소됩니다. 빅또리·매직·어린이 회원은 대상이 아닙니다.\n수원 경기 사전주차 예약\n수원 경기 당일에는 사전 예약한 차량만 수원종합운동장 주차장에 들어갈 수 있습니다. 예약은 홈 경기 하루 전 오후 1시에 시작하며 마감될 수 있습니다. 1차전은 11월 2일, 2차전은 11월 3일 오후 1시에 열립니다. 예약 페이지에 예매번호를 입력하므로 티켓을 산 뒤에 신청하세요.\n수원 경기 사전주차 예약 페이지 열기\n페이지에서 개인정보 수집에 동의한 뒤 경기 일자를 고르고 차량번호와 전화번호를 입력해 검증합니다. 예약이 안 되면 수원종합운동장 스포츠경기팀(031-228-2700)에 문의하세요.\n주차 통제는 경기 시작 2시간 전부터 시작합니다.\n출차를 위해 사전 무인 정산기나 QR코드로 미리 정산해야 합니다.\n장안구청과 만석공원 제1·2·3주차장은 홈 경기 당일 유료로 이용할 수 있습니다.\n11월 3일에는 프로배구 한국전력 개막전이 같은 곳에서 열려, 구단이 주차와 주변 도로 혼잡을 예상하고 대중교통 이용을 권합니다.\n취소·환불 규정\n아래도 NOL 티켓의 플레이오프 기준 안내입니다. (2026년 11월 2일 확인)\n상황처리\n예매 당일 취소취소 수수료 없음, 예매 수수료도 환불\n예매 다음 날 이후 취소티켓 금액의 10% 취소 수수료, 예매 수수료 환불 안 됨\n취소 마감경기 시작 5시간 전까지\n일부 좌석만 취소불가, 전체 취소 후 새로 예매\n승부가 결정돼 열리지 않는 경기일괄 취소 처리\n우천으로 경기일 변경그대로 관람하거나 전체 취소, 결정 당일 자정까지 수수료 없음\n5회말 종료 전 서스펜디드환불 가능, 다음 날 해당 티켓으로 입장 가능\n5회말 종료 후 서스펜디드환불 불가, 다음 날 해당 티켓으로 입장\n11월 2일에 예매한 표는 2일 안에 취소하면 수수료가 없습니다. 11월 3일 1차전은 시작 5시간 전인 오후 1시 30분이 취소 마감이며, 2일이 지나 취소하면 10% 수수료가 붙습니다.\nKBO는 포스트시즌에 노게임과 강우콜드를 적용하지 않고 서스펜디드 규정만 적용합니다. 서스펜디드 경기가 되면 이닝과 관계없이 중단된 상황부터 다음 날 이어서 치릅니다.\n한국시리즈 티켓 가격\n2026년 11월 2일 오전 확인 기준으로 KBO 공지와 NOL 티켓 페이지에서 한국시리즈 좌석별 가격을 찾지 못했습니다(미확인). 예매 페이지의 좌석 안내에서 구장별 가격표를 확인하세요. 예매 수수료는 별도입니다.\n재판매와 대구 경기 교통\nNOL 티켓은 입장권 전매와 위조를 금지한다고 안내합니다. 재판매 목적으로 시스템을 우회해 구매하거나, 판매자 동의 없이 상습·영업으로 웃돈을 얹어 파는 행위는 2026년 8월 28일 시행된 개정 공연법·국민체육진흥법에 따라 불법입니다. 개인 간 거래 피해는 KBO와 NOL이 책임지지 않습니다.\n대구 경기의 한국시리즈 주차 안내는 찾지 못했습니다(미확인). NOL 티켓은 플레이오프 안내에서 주차장이 좁고 경기장 일대 교통 통제가 예상된다며 대중교통 이용을 권했습니다.\n출처\nKBO 보도자료: 한국시리즈 입장권 예매\nKBO 보도자료: 포스트시즌 우천 시 시행 세칙\nNOL 티켓 포스트시즌 안내\nKT 위즈: 한국시리즈 예매 안내\nKT 위즈: 한국시리즈 사전주차 안내",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/air/2026/11/github-copilot-in-air/",
-    "pubDate": "Tue, 03 Nov 2026 18:04:19 +0000",
-    "creator": "Vladimir Gromozdin",
+    "link": "https://app-developer.tistory.com/entry/KT-%EC%82%BC%EC%84%B1-%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88-%EC%98%88%EB%A7%A4-%EC%9D%BC%EC%A0%95%EA%B3%BC-%ED%8B%B0%EC%BC%93%ED%8C%85-%EB%B0%A9%EB%B2%95-NOL-%ED%8B%B0%EC%BC%93-%EC%B7%A8%EC%86%8C%C2%B7%ED%99%98%EB%B6%88%EA%B3%BC-%ED%98%84%EC%9E%A5-%ED%8C%90%EB%A7%A4",
+    "pubDate": "Mon, 2 Nov 2026 08:51:02 +0900",
+    "creator": "브리핑허브",
     "categories": [
-      "agentic-ai",
-      "ai",
-      "jetbrains",
-      "jetbrains-ai",
-      "jetbrains-air",
-      "news"
+      "예매&middot;예약",
+      "nol 티켓",
+      "한국시리즈 예매",
+      "한국시리즈 티켓팅"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "eMudhra Certificate Authority Incident: Status and Guidance for JetBrains Products",
-    "description": "JetBrains is responding to the industry-wide eMudhra Certificate Authority (CA) security incident, which affects certificate trust in a number of software products and development environments, including several JetBrains products. Our Security and product teams are working to address the impact and release security updates. We recommend that customers keep their JetBrains products, operating systems, and […]",
+    "title": "비상식량 리스트와 생존배낭 준비물, 행안부 기준 비상물자와 민방위 대피소 찾기",
+    "description": "행정안전부가 2026년 8월 펴낸 「비상시 국민행동요령」은 준비물을 두 가지로 나눕니다. 대피할 때 한 사람이 하나씩 메고 나가는 생존배낭(2~3일분)과, 집에 두고 쓰는 가정 비상물자(최소 3일~1달, 식량·식수는 30일분)입니다. 여기에 집·직장·학교에서 가까운 민방위 대피소를 미리 알아 두는 것이 평상시 준비의 전부입니다.\n가까운 대피소는 휴대폰 지도 앱(네이버지도, 카카오맵, T맵)이나 안전디딤돌 앱에서 '민방위 대피소'를 검색하면 바로 나옵니다. 국민안전24 홈페이지의 안전지도에서도 시·군·구별로 찾을 수 있습니다.\n이 글은 행안부 「비상시 국민행동요령 알아야 안전하다」 홍보책자와 리플릿(2026년 8월), 국민안전24 비상대비 행동요령 페이지를 2026년 11월 4일에 직접 확인해 정리했습니다.\n국민안전24 비상대비 행동요령 열기\n페이지 위쪽의 「행동요령 PDF다운로드」를 누르면 홍보책자와 리플릿 원문을 받을 수 있고, 「내주변 대피소」·「민방위 대피시설」 메뉴도 같은 화면에 있습니다. 페이지가 열리지 않으면 국민안전24 홈페이지 운영 문의(044-205-8461)로, 우리 동네 민방위 관련 문의는 시·군·구청 민방위 담당 부서로 연락하세요.\n생존배낭과 집 비상물자는 따로 준비\n요즘 많이 보이는 '3일치 비상식량'은 대부분 생존배낭 이야기입니다. 행안부 책자는 배낭과 집 비축분의 용도와 양을 다르게 잡습니다.\n구분생존배낭가정 비상물자\n\n\n쓰는 때민방위 대피소 등으로 대피한 뒤 생활비상사태 초기에 집에 머물며 생활\n양2~3일분최소 3일~1달, 식량·식수는 30일분\n단위한 사람에 하나씩, 각자 들고 이동가족 전체\n보관가방이나 캐리어에 넣어 두기배낭과 겹치는 물품도 따로 보관\n책자는 두 가지 모두 유통기한이 있는 물품을 정기적으로 확인하고 바꾸라고 적고 있습니다. 점검 주기를 몇 개월로 정하지는 않았습니다.\n생존배낭 준비물 리스트\n리플릿에 실린 생존배낭 품목을 책자의 네 가지 유형으로 나눴습니다. 음식은 조리 없이 먹을 수 있는 간편식으로 고르라고 안내합니다.\n유형품목\n\n\n생활필수품2~3일분 생수, 간편식, 화장지(물티슈), 위생용품, 담요, 여벌옷\n비상약품상비약, 처방약, 만성질환약\n안전 필수품라디오(건전지 분리 보관), 휴대용 손전등(건전지 분리 보관), 휴대폰 충전기, 보조배터리\n화생방 대비 물품비옷, 방독면, 마스크, 고무장갑, 고무장화, 김장봉투, 투명·알루미늄테이프\n라디오 건전지는 정부 안내 방송을 듣기 위해 여분을 충분히 넣어 둡니다.\n대피할 때는 통장, 보험증서, 계약서, 신분증 같은 중요 서류도 함께 챙깁니다.\n아래의 가족 비상연락카드를 작성해 배낭 안에 넣어 둡니다.\n집에 두는 비상식량과 비상물자 리스트\n책자 「비상물자 사전 준비」에 나온 품목입니다. 생존배낭보다 양이 많고, 취사도구와 연료까지 들어갑니다.\n분류품목\n\n\n식량·식수쌀, 라면, 통조림, 식수 등 30일분\n취사도구식기, 버너, 부탄캔(15개 이상)\n침구·의류담요, 내의, 방한용 여벌 옷\n위생용품세면도구, 화장지, 물티슈\n조명·통신라디오(건전지), 휴대용 손전등, 양초, 성냥(라이터), 휴대폰 충전기, 보조배터리\n화생방 대비화생방 방독면 또는 마스크·수건, 비옷·고무장갑·고무장화, 김장봉투, 투명·알루미늄테이프(문틈 밀폐용)\n식량은 가급적 조리가 필요 없는 식품으로 고르고 유통기한을 관리하라고 안내합니다. 한 사람당 추위를 막을 따뜻한 옷과 신발도 최소 한 벌씩 준비합니다.\n가정용 상비약\n구분품목\n\n\n의약품소독제, 해열진통제, 소화제, 지사제, 화상연고, 지혈제, 소염제 등\n의약 외품핀셋, 가위, 붕대, 탈지면, 반창고, 삼각건 등\n고령자, 장애인, 아동이 있으면 그에 맞는 약을 더 준비하고, 환자가 있는 집은 처방전과 처방약을 챙겨 두라고 적혀 있습니다.\n물은 얼마나 받아 두나\n행안부 책자와 국민안전24 페이지에는 한 사람당 몇 리터라는 기준이 없습니다. 다른 글에서 보이는 '하루 3L', '하루 3.8L'는 영국·미국 등 해외 안내에서 가져온 수치입니다.\n국내 책자가 따로 적은 것은 단수 대비입니다. 물탱크, 욕조, 양동이 등에 물을 충분히 받아 두고 최대한 아껴 쓰라고 안내합니다.\n내 주변 민방위 대피소 찾기\n책자에 나온 지도 앱 검색 방법입니다. 대피소의 위치, 면적, 수용인원까지 확인할 수 있습니다.\n네이버지도, 카카오맵, T맵, 안전디딤돌 앱 중 하나를 열고 '민방위 대피소'를 검색합니다.\n지도에 표시된 대피소 중 가까운 곳의 주소를 누릅니다.\n길찾기로 실제 걸어가는 경로와 시간을 확인합니다.\n집만 보지 말고 직장, 학교처럼 오래 머무는 곳 근처도 각각 찾아 두세요. 건물 입구의 빨간색 「대피소 SHELTER」 표지판 모양도 기억해 두면 처음 가는 곳에서도 찾기 쉽습니다.\n국민안전24 대피시설 지도 열기\n지도 화면에서 시·도와 시·군·구를 고르거나 도로명·장소로 검색하면 됩니다. 대피시설 외에 지진옥외대피소, 지진해일대피소, 화학사고대피소도 같은 지도에서 볼 수 있습니다.\n안전디딤돌은 2026년 11월 4일 Google Play에서 행정안전부 이름으로 「안전디딤돌」과 「(구)안전디딤돌」이 함께 보였습니다. 설치할 때 개발자가 행정안전부인지 확인하세요.\n상황별로 대피하는 곳이 다릅니다\n상황대피 장소\n\n\n재래식 무기 공격(일반적 공격)민방위 대피소, 아파트·대형 건물 지하 주차장, 지하철 역사 등\n화학 공격외부 공기를 차단할 수 있는 높은 층의 실내 공간(화학가스는 공기보다 무거워 가라앉음)\n생물학 공격지정 대피시설, 가정 등 외부 공기를 차단하고 머물 수 있는 실내 공간\n핵·방사능 공격민방위 대피소, 아파트·대형 건물 지하 주차장, 지하철 역사 등\n장마나 태풍으로 집중호우가 예상될 때는 침수 위험이 있는 저지대의 지하시설로 대피하지 말라고 안내합니다. 고층에서는 엘리베이터 대신 계단을 쓰고, 운전 중이면 차를 공터나 도로 오른쪽에 세우고 키를 꽂아 둔 채 대피합니다.\n가족 비상연락카드 만들기\n비상시에는 유·무선 통신이 끊길 수 있어 연락처와 만날 장소를 종이에 적어 두라고 안내합니다. 책자의 예시 양식에 들어가는 항목은 다음과 같습니다.\n나의 정보: 이름, 생일, 혈액형, 직장·학교, 복용약, 특이사항, 연락처, 주소\n가족 사항: 관계, 이름·생일·연락처, 주소, 직장·학교\n가족 만남의 장소: 1차, 2차, 3차(평소 약속한 곳이나 가까운 민방위 대피소)\n가족 외 비상 연락망\n신고·구조 연락처: 긴급구조 119, 범죄신고 112, 군부대 1338(수상한 사람), 질병청 1339(생화학 의심), 정부민원안내 110, 시·군·구 읍면동\n사재기 대신 평소 먹는 것부터\n책자는 생활필수품을 사재기하지 말고, 비상사태 때 정부가 실시하는 배급제에 협조하라고 적고 있습니다. 쌀, 곡류, 통조림, 라면, 손전등, 건전지, 양초, 부탄가스, 식수 등이 정부가 수급을 관리하는 생활필수품 예시입니다.\n그래서 비싼 세트를 한 번에 사기보다 집에 있는 식품과 물품을 위 표와 맞춰 보고 빠진 것만 채우는 편이 현실적입니다. 유통기한이 가까운 것은 평소에 먹고 새로 채워 넣으면 버리는 양도 줄어듭니다.\n최근 영국과 일본이 3일분 이상의 비축을 권고했다는 소식이 퍼졌지만, 보도에 따르면 두 나라 모두 재난 대비 취지였습니다. 행안부의 생존배낭 안내도 올해 새로 생긴 것이 아니라 2019년 안내서에도 있었습니다(보도 기준).\n경보가 울리면 할 일\n경보전달 방법할 일\n\n\n경계경보음성방송, 민방공 경보문자TV·라디오 청취, 개인보호물품 준비. 고층에 있는 노약자·장애인·아동은 미리 저층이나 대피소로. 항공기 공격이 예상되면 지하시설로 대피\n공습경보사이렌(1분), 음성방송, 민방공 경보문자생존배낭을 들고 민방위 대피소, 지하철역, 지하 주차장 등으로 즉시 대피\n화생방경보음성방송, 민방공 경보문자방독면·마스크·젖은 수건으로 호흡기 보호, 높은 층 실내나 바람 반대 방향으로 대피\n핵 경보사이렌, 음성방송, 민방공 경보문자지하시설이나 콘크리트 건물 안 유리창 없는 곳으로 대피\n경보해제음성방송, 민방공 경보문자부상자 구조에 협조하고 정부 안내방송 계속 청취\n대피한 뒤에는 TV·라디오의 정부 안내를 따르고, SNS로 퍼지는 확인되지 않은 소문에 흔들리지 말라고 안내합니다. 단전에 대비해 손전등과 양초를, 가스 공급이 끊길 때를 대비해 휴대용 버너와 부탄캔을 준비해 두라는 내용도 책자에 있습니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/security/2026/10/emudhra-certificate-authority-incident-status-and-guidance-for-jetbrains-products/",
-    "pubDate": "Fri, 30 Oct 2026 15:33:00 +0000",
-    "creator": "Anastasia Kilichenko",
+    "link": "https://app-developer.tistory.com/entry/%EB%B9%84%EC%83%81%EC%8B%9D%EB%9F%89-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%99%80-%EC%83%9D%EC%A1%B4%EB%B0%B0%EB%82%AD-%EC%A4%80%EB%B9%84%EB%AC%BC-%ED%96%89%EC%95%88%EB%B6%80-%EA%B8%B0%EC%A4%80-%EB%B9%84%EC%83%81%EB%AC%BC%EC%9E%90%EC%99%80-%EB%AF%BC%EB%B0%A9%EC%9C%84-%EB%8C%80%ED%94%BC%EC%86%8C-%EC%B0%BE%EA%B8%B0",
+    "pubDate": "Wed, 4 Nov 2026 16:14:54 +0900",
+    "creator": "브리핑허브",
     "categories": [
-      "datalore",
-      "hub",
-      "ide-services",
-      "ides",
-      "jbr",
-      "jetbrains-ai",
-      "jetbrains-air",
-      "jetbrains-central-cli",
-      "jetbrains-context-cli",
-      "jetbrains-gateway",
-      "kotlin",
-      "mps",
-      "qodana",
-      "qodana-cloud",
-      "resharper",
-      "rider",
-      "security",
-      "teamcity",
-      "teamcity-cloud",
-      "toolbox-app",
-      "youtrack",
-      "youtrack-cloud"
+      "환불&middot;조회"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "Preparing for your next certification could start with your Visual Studio Subscription ",
-    "description": "Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work?  If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to find the right resources, […]\nThe post Preparing for your next certification could start with your Visual Studio Subscription  appeared first on Visual Studio Blog.",
+    "title": "갤럭시 탭 S12 울트라 vs S12+ 비교: 가격&middot;무게&middot;배터리&middot;포토샵 차이, 나에게 맞는 모델은?",
+    "description": "삼성전자가 10월 7일 국내 출시한 갤럭시 탭 S12 시리즈는 14.6형 울트라와 12.6형 S12+ 두 모델로 나왔습니다. 프로세서는 같지만 화면, 무게, 배터리, 가격이 다르기 때문에 어떤 용도로 쓰느냐에 따라 선택이 갈립니다. 이 글은 삼성전자 뉴스룸과 삼성닷컴 공식 정보를 기준으로 두 모델을 비교하고, 태블릿에서 바로 쓸 수 있는 AI 프롬프트도 정리했습니다.\n이 글의 핵심 요약\n1. 두 모델 모두 미디어텍 디멘시티 9500, S펜 기본 제공, 안드로이드 태블릿 최초 어도비 포토샵 탑재입니다.\n2. 울트라는 14.6형·692g(Wi-Fi)·최대 23시간, S12+는 12.6형·553g(Wi-Fi)·최대 21시간입니다(동영상 재생 기준).\n3. 출고가는 울트라 189만 9,700원~301만 8,400원, S12+ 154만 9,900원~206만 9,100원입니다.\n4. 출시 기념 구매 혜택은 10월 31일에 종료됐으니, 지금은 판매처별 현재 혜택을 따로 확인해야 합니다.\n1. 갤럭시 탭 S12 시리즈, 무엇이 새로워졌나\n\n\n이미지 출처: 삼성전자 뉴스룸\n삼성전자는 갤럭시 탭 S12 시리즈의 핵심으로 최대 23시간 배터리, 대화면에 맞춘 갤럭시 AI, 안드로이드 태블릿 최초 어도비 포토샵 탑재를 내세웠습니다. 울트라는 전작 탭 S11 울트라와 같은 5.1mm 두께를 유지하면서 삼성전자 측정 기준 NPU 약 61%, CPU 약 19%, GPU 약 17% 성능이 향상됐다고 밝혔습니다. S12+는 전작 탭 S10+(12.4형)보다 화면을 12.6형으로 키우고 두께와 무게는 줄였습니다.\n두 모델 모두 안드로이드 17 기반 One UI 9를 탑재했고, 최대 7회의 OS 업그레이드와 보안 업데이트를 지원합니다.\n2. 울트라 vs S12+ 스펙 비교표\n항목\n갤럭시 탭 S12 울트라\n갤럭시 탭 S12+\n\n\n화면\n14.6형 다이나믹 아몰레드 2X (2960x1848, 120Hz)\n12.6형 다이나믹 아몰레드 2X (2800x1752, 120Hz)\n\n\n두께 / 무게\n5.1mm / 692g(Wi-Fi), 695g(5G)\n5.3mm / 553g(Wi-Fi), 555g(5G)\n\n\n프로세서\n미디어텍 디멘시티 9500\n미디어텍 디멘시티 9500\n\n\n배터리\n11,600mAh, 동영상 최대 23시간\n10,600mAh, 동영상 최대 21시간\n\n\n충전\n최대 45W (약 95분 완충)\n최대 45W (약 95분 완충)\n\n\n무선 연결\nWi-Fi 7\nWi-Fi 6E\n\n\n메모리 / 저장공간\n12GB·256GB / 12GB·512GB / 16GB·1TB\n12GB·256GB / 12GB·512GB\n\n\n출고가\n189만 9,700원 ~ 301만 8,400원\n154만 9,900원 ~ 206만 9,100원\n\n\n\n \n출고가 차이는 최저 구성 기준 약 35만 원입니다. 실제 구매가는 판매처, 카드 할인, 시기에 따라 달라지므로 구매 직전에 다시 확인하세요.\n3. 갤럭시 AI와 포토샵, 실제로 뭘 할 수 있나\n\n\n이미지 출처: 삼성전자 뉴스룸\n두 모델 모두 대화면 멀티태스킹에 맞춘 나우 넛지 등 갤럭시 AI 기능을 지원하고, 최대 3분할 멀티 윈도우로 여러 앱을 띄워 놓고 S펜으로 작업할 수 있습니다. 삼성닷컴 안내에 따르면 키보드 액세서리의 Galaxy AI 키로 AI 어시스턴트를 호출할 수 있고, 빅스비·Gemini·퍼플렉시티 중 전환하는 옵션이 제공됩니다(네트워크 연결과 각 계정 로그인 필요).\n\n\n이미지 출처: 삼성전자 뉴스룸\n가장 눈에 띄는 변화는 어도비 포토샵입니다. 삼성전자는 안드로이드 태블릿 최초로 포토샵을 탑재했다고 밝혔고, 노타빌리티, 굿노트, 루마퓨전, 노션, 클립 스튜디오 페인트 같은 앱도 함께 소개했습니다. 포토샵의 세부 기능 범위와 구독 조건은 어도비 안내를 따로 확인하세요.\n4. 어떤 사람에게 어떤 모델이 맞을까\n울트라가 맞는 사람: 문서 두 개를 나란히 띄우는 작업, 영상 편집, 드로잉처럼 화면 면적이 생산성으로 이어지는 분. 16GB·1TB 구성이 필요하거나 Wi-Fi 7을 쓰고 싶은 분.\nS12+가 맞는 사람: 매일 가방에 넣고 다니며 필기·강의 수강·회의 메모를 하는 분. 553g으로 울트라보다 약 139g 가볍고 출고가도 낮습니다.\n공통 확인 사항: 키보드 커버는 모델 전용이고 별도 구매입니다. 노트북 대용으로 쓰려면 키보드 비용까지 예산에 넣으세요.\n5. 10월 출시 혜택은 끝났습니다: 지금 확인할 것\n삼성전자는 출시에 맞춰 10월 31일까지 삼성 AI 구독 관련 멤버십 포인트 지원, 구글 AI 프로 6개월 구독권 등 콘텐츠 혜택, AR 스크린 프로텍터 증정, 키보드 북커버 할인 등을 제공했습니다. 이 혜택들은 10월 31일로 종료됐습니다.\n11월 이후에 구매한다면 삼성닷컴과 각 판매처의 현재 프로모션을 새로 확인해야 합니다. 연말 할인 행사 기간에는 조건이 다시 바뀔 수 있으니, 아래 프롬프트로 혜택을 정리해 비교하면 편합니다.\n6. 태블릿에서 바로 쓰는 AI 프롬프트\n갤럭시 탭에서 Gemini나 챗GPT 앱에 붙여 넣어 쓰세요. 대괄호 부분만 바꾸면 됩니다.\n프롬프트 1. 울트라 vs S12+ 내 기준으로 고르기\n갤럭시 탭 S12 울트라(14.6형, 692g, 출고가 189만 9,700원부터)와 S12+(12.6형, 553g, 154만 9,900원부터) 중에서 고르려고 해.\n내 사용 패턴: [하루 사용 시간], [주 용도: 필기 / 영상 시청 / 드로잉 / 문서 작업], [들고 다니는 빈도], 예산 [금액].\n내 조건에 맞춰 두 모델을 점수로 비교하는 표를 만들고, 최종 추천 1개와 이유를 3줄로 알려 줘.\n프롬프트 2. 판매처별 혜택 비교 정리\n아래는 내가 찾은 갤럭시 탭 S12 판매처별 가격과 혜택이야.\n[판매처1: 가격, 카드 할인, 사은품]\n[판매처2: 가격, 카드 할인, 사은품]\n사은품의 실사용 가치를 내가 쓸지 여부 기준으로 따로 평가하고, 실질 구매가를 계산해서 가장 유리한 선택을 표로 정리해 줘.\n프롬프트 3. 화면 분할 공부 루틴 만들기\n나는 갤럭시 탭으로 [자격증 / 어학 / 업무 교육]을 공부하려고 해.\n왼쪽에는 [강의 영상 앱], 오른쪽에는 [필기 앱]을 띄우는 화면 분할 기준으로, 1회 [시간]분짜리 공부 루틴을 만들어 줘.\n강의 핵심을 S펜 필기로 정리하는 방법과, 끝난 뒤 필기를 붙여 넣으면 요약·퀴즈를 만들어 주는 후속 프롬프트도 함께 알려 줘.\n7. 자주 묻는 질문 (FAQ)\nQ1. 울트라와 S12+는 성능 차이가 있나요?\n두 모델 모두 미디어텍 디멘시티 9500을 탑재했습니다. 차이는 주로 화면 크기, 무게, 배터리 용량, 무선 연결(Wi-Fi 7과 6E), 최대 저장공간 구성입니다.\nQ2. S펜은 따로 사야 하나요?\n두 모델 모두 S펜을 기본 제공합니다. 키보드 커버 등 다른 액세서리는 별도 구매입니다.\nQ3. 10월 출시 혜택을 지금도 받을 수 있나요?\n삼성전자가 안내한 출시 기념 혜택은 10월 31일까지였습니다. 이후에는 판매처별로 진행하는 프로모션을 따로 확인해야 합니다.\nQ4. 포토샵은 무료인가요?\n삼성전자는 포토샵 탑재 사실을 발표했지만, 이 글에서는 무료 사용 범위와 구독 조건을 확인하지 못했습니다. 어도비와 삼성닷컴의 최신 안내를 확인하세요.\n마무리: 들고 다닐지, 펼쳐 놓고 쓸지부터 정하세요\n갤럭시 탭 S12 울트라와 S12+는 같은 프로세서에 같은 AI 기능을 쓰는 만큼, 결국 선택 기준은 화면 크기와 무게입니다. 넓은 화면으로 작업 효율을 높이고 싶다면 울트라, 매일 휴대하며 필기와 학습에 쓰려면 S12+가 맞습니다. 출시 혜택이 끝난 만큼 판매처별 현재 조건을 위 프롬프트로 정리해 비교해 보시길 바랍니다.\n참고 자료\n삼성전자 뉴스룸: 갤럭시 탭 S12 시리즈 공개\n삼성전자 뉴스룸: 갤럭시 탭 S12 시리즈·스마트태그3 국내 출시\n삼성닷컴: 갤럭시 탭 S12+\n삼성닷컴: 갤럭시 탭 S12 울트라\n디지털데일리: 갤럭시 탭 S12 뭐가 달라졌나",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription/",
-    "pubDate": "Wed, 28 Oct 2026 22:30:00 +0000",
-    "creator": "James Rempt",
+    "link": "https://muzbox.tistory.com/483749",
+    "pubDate": "Mon, 2 Nov 2026 08:30:00 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "Visual Studio"
+      "AI, 미래기술/AI 인사이트",
+      "갤럭시 AI",
+      "갤럭시 탭 S12 가격",
+      "갤럭시 탭 S12 비교",
+      "갤럭시 탭 S12 울트라",
+      "갤럭시 탭 S12+",
+      "안드로이드 포토샵",
+      "태블릿 AI 활용",
+      "태블릿 추천"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "What’s New in vcpkg (Oct 2026)",
-    "description": "This blog post summarizes changes to the vcpkg package manager as part of the 2026-10-16 registry release and the 2026-09-26 tool release. These updates include configurable binary-cache compression, improved cache reliability and diagnostics, Boost 1.92, and other improvements and bug fixes. There are now 2,877 total ports available in the vcpkg curated registry. A port […]\nThe post What’s New in vcpkg (Oct 2026) appeared first on C++ Team Blog.",
+    "title": "휴직일기 - 61일 차",
+    "description": "점점 글을 쓰는 기간이 길어지고 있다. 나한테는 좋은 징조이다. 그만큼 뭔가 내가 원하던 나의 속도를 찾았다는 것이다. 최근 집중력이 좋아져서 몰입하는 것도 있어서 나만의 속도를 찾게 되었다.  오늘로써 목표로 한 기초사항들을 모두 완료했다. 휴직하고 제일 하고 싶었던 것은 언젠가 나만의 시간을 갖으며 이런 것을 할 수 있을 것이라 생각했던 것들을 했다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-oct-2026/",
-    "pubDate": "Thu, 29 Oct 2026 17:58:54 +0000",
-    "creator": "Augustin Popa",
-    "categories": [
-      "C++",
-      "Vcpkg",
-      "vcpkg"
-    ]
+    "link": "https://brunch.co.kr/@@24SO/89",
+    "pubDate": "Fri, 30 Oct 2026 14:09:06 GMT",
+    "creator": "고종범",
+    "categories": []
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "Remote Development in 2026.3: What’s New?",
-    "description": "Working on a remote machine should feel just like working on a local project: open it, start coding, and pick up where you left off. In 2026.3, JetBrains IDEs move closer to that goal. You can now start and manage remote sessions directly inside the IDE, connect over SSH using native OpenSSH, and begin working […]",
+    "title": "사용자를 위한 아이콘이란 무엇일까? - 뱅샐 아이콘 개편기 3편",
+    "description": "안녕하세요. 뱅크샐러드 브랜드 디자이너 홍승재예요. 앞선 1, 2편에서는 기존 아이콘의 아웃라인을 과감하게 걷어내고, 색채학과 조형 규칙을 세워 뱅크샐러드만의 새로운 시각적 언어를 만드는 과정을 소개했어요. 하지만 70…",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/platform/2026/10/remote-development-in-2026-3-what-s-new/",
-    "pubDate": "Fri, 30 Oct 2026 15:55:39 +0000",
-    "creator": "Dejan Milicic",
-    "categories": [
-      "intellij-platform",
-      "remote-development"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "윈도우11 26H2 업데이트 총정리: 새 기능, 지금 설치하는 법, 설치 전 체크리스트 (AI 점검 프롬프트 포함)",
-    "description": "2026년 9월 29일부터 윈도우11 26H2 배포가 시작됐습니다. 이번 버전은 연 1회 나오는 기능 업데이트지만, 24H2·25H2를 쓰는 PC라면 운영체제를 통째로 다시 까는 방식이 아니라 작은 활성화 패키지(enablement package)로 올라갑니다. 이 글에서는 Microsoft 공식 문서에서 확인한 내용만 골라 새 기능, 설치 방법, 설치 전 체크리스트를 정리하고, 업데이트 전에 AI로 내 PC 상태를 점검하는 프롬프트도 함께 드립니다.\n이 글의 핵심 요약\n1. 26H2는 24H2·25H2 PC에서 활성화 패키지로 설치되며, 대부분 재시작 1번이면 끝납니다.\n2. 설치하면 지원 기간이 새로 시작됩니다. Home·Pro 24개월, Enterprise·Education 36개월입니다.\n3. 시작 메뉴·작업 표시줄·검색·파일 탐색기 개선이 묶여 들어오고, WMIC는 제거됐습니다.\n4. '기본 활성' 3가지(설정 백업, 작업 표시줄 앱 액션, 파일 탐색기 개선)는 공식 문서상 상업용(기업) 장치 기준입니다.\n\n\n1. 윈도우11 26H2는 어떤 업데이트인가요?\nMicrosoft에 따르면 26H2, 25H2, 24H2는 같은 서비스 분기(코드 기반)를 공유합니다. 그래서 새 기능 상당수는 이미 매월 누적 업데이트로 PC에 내려와 있고, 26H2 활성화 패키지는 그 기능을 켜 주는 역할을 합니다. 공식 문서가 설명하는 특징은 다음과 같습니다.\n작은 다운로드: 월간 품질 업데이트처럼 설치됩니다.\n빠른 설치: 대부분의 경우 재시작 1번으로 끝납니다.\n지원 기간 초기화: 26H2를 설치한 시점부터 새 지원 기간이 적용됩니다.\n단계적 배포: 호환성 문제가 예상되지 않는 PC부터 순차적으로 제공됩니다.\n에디션\n26H2 지원 기간\n\n\nHome\n24개월\n\n\nPro\n24개월\n\n\nEnterprise\n36개월\n\n\nEducation\n36개월\n\n\n\n \n2. 26H2 주요 새 기능 (일반 사용자 체감 기능)\n시작 메뉴와 작업 표시줄\n새 시작 메뉴: 스크롤되는 '모두' 영역과 범주 보기·그리드 보기가 생겼고, 고정됨·최근·모두 섹션을 각각 보이거나 숨길 수 있습니다.\n작업 표시줄 위치: 화면 아래뿐 아니라 위, 왼쪽, 오른쪽에 둘 수 있고, 아이콘과 높이를 줄이는 작은 작업 표시줄 옵션도 추가됐습니다.\nAI 에이전트 진행 상황 표시: 작업 표시줄에서 지원되는 AI 에이전트의 진행 상황을 볼 수 있으며, 첫 지원 대상은 Microsoft Copilot의 Researcher입니다.\n파일 탐색기\nAI 작업: 지원되는 이미지 편집, 문서 요약 기능이 들어왔습니다. 다만 OneDrive·SharePoint 파일 요약은 Microsoft 365 구독과 Copilot 라이선스가 필요합니다.\n압축 형식 추가: uu, cpio, xar, nupkg 형식을 지원합니다.\n보기·정렬 유지: 다운로드, 문서 폴더의 보기·정렬 설정이 유지됩니다.\n이름 바꾸기 음성 입력, 홈 화면 실행 속도 개선도 포함됩니다.\n검색, 보안, 기타\nWindows 검색: 열지 않고 결과 미리 보기, 오타·부분 이름으로 앱 찾기, 결과 종류(앱·설정·파일·웹) 표시가 개선됐습니다.\n스마트 앱 컨트롤: 윈도우를 새로 설치하지 않아도 켜고 끌 수 있습니다.\n패스키: 지원되는 외부 비밀번호 관리자에 저장된 패스키를 쓸 수 있습니다.\n윈도우 업데이트 재시작 감소: 해당되는 업데이트를 월간 보안 업데이트와 함께 설치해 재시작 횟수를 줄입니다.\n음성 액세스 한국어 지원: 지원되는 Copilot+ PC에서 자연어 명령과 함께 한국어 등이 추가됐습니다.\n작업 관리자 NPU 표시: NPU가 있는 PC에서 NPU 사용률 열을 켤 수 있습니다.\n3. 가정용과 기업용, 이 부분은 구분해서 보세요\n일부 블로그에서 \"26H2부터 설정 백업이 기본으로 켜진다\"고 소개하는데, 공식 문서 표현은 조금 다릅니다. Microsoft Learn 문서는 아래 3가지를 상업용(조직) 장치에서 임시 상업용 제어로 막혀 있던 기능을 기본 활성화한 것이라고 설명합니다.\n항목\n공식 문서 내용\n가정용 PC에서\n\n\nWindows 설정 백업\n대상 상업용 장치에서 기본 활성, 관리자 정책은 그대로 존중\n직접 설정에서 확인하세요\n\n\n작업 표시줄 앱별 작업(앱 액션)\n상업용 장치에서 기본 활성\n이미 월간 업데이트로 들어왔을 수 있음\n\n\n파일 탐색기 개선\n임시 상업용 제어 해제, 기본 활성\n이미 월간 업데이트로 들어왔을 수 있음\n\n\n관리자 보호(Administrator protection)\n기본 꺼짐, Intune 또는 그룹 정책으로 켬\n일반 사용자가 신경 쓸 일은 거의 없음\n\n\n내장 Sysmon\n기본 꺼짐, 켜야 사용\n보안 담당자용 기능\n\n\n\n \n정리하면, 가정용 PC에서는 26H2를 설치해도 \"갑자기 크게 바뀌는\" 느낌이 적을 수 있습니다. 많은 기능이 이미 매월 업데이트로 들어와 있기 때문입니다.\n4. 제거된 기능: WMIC\nWMIC(Windows Management Instrumentation 명령줄)는 24H2 이상에서 제거됐고, 이제 선택적 기능(FoD)으로도 설치할 수 없습니다. 오래된 배치 파일이나 사내 스크립트에서 wmic 명령을 쓰고 있다면 PowerShell 명령으로 바꿔야 합니다. 대체 명령은 별도 글에서 자세히 정리했습니다.\n5. 지금 26H2 설치하는 법\n24H2 또는 25H2를 쓰고 있다면 Windows 업데이트에서 직접 받을 수 있습니다. 단계적 배포라 PC마다 표시 시점이 다를 수 있습니다.\n1단계: 설정 > 시스템 > 정보에서 현재 버전(24H2/25H2)을 확인합니다. 23H2 이하라면 먼저 최신 버전으로 올려야 합니다.\n2단계: 설정 > Windows 업데이트에서 업데이트 확인을 누릅니다.\n3단계: \"Windows 11, 버전 26H2로 기능 업데이트\" 항목이 보이면 다운로드 및 설치를 누릅니다. 항목 이름은 화면에서 확인하세요.\n4단계: 설치가 끝나면 재시작하고, 설정 > 시스템 > 정보에서 26H2로 바뀌었는지 확인합니다.\n항목이 보이지 않는다면 아직 내 PC 차례가 아닌 것입니다. 무리해서 다른 방법으로 설치하기보다 기다리는 편이 안전합니다. 10월 누적 업데이트(KB5127648) 관련 오류는 따로 정리한 글을 참고하세요.\n\n\n6. 설치 전 체크리스트\n점검 항목\n확인 방법\n이유\n\n\n중요 파일 백업\n외장 드라이브나 클라우드에 복사\n문제 발생 시 복구용\n\n\n저장 공간\n설정 > 시스템 > 저장소\n설치 중 공간 부족 방지\n\n\n알려진 문제\nWindows release health 페이지\n내 환경에 해당하는 이슈 확인\n\n\nwmic 사용 스크립트\n배치 파일에서 wmic 검색\nWMIC 제거로 동작 안 함\n\n\nVPN·원격 데스크톱\n회사 업무용이면 IT 담당자에게 문의\n10월 업데이트 관련 이슈가 공지됨\n\n\n전원\n노트북은 전원 연결\n설치 중 종료 방지\n\n\n\n \nMicrosoft release health 페이지에는 10월 기준으로 비관리자 사용자의 원격 데스크톱 연결 오류(0xC000000D) 같은 알려진 문제가 올라와 있습니다. 업무용 PC라면 설치 전에 꼭 확인하세요.\n7. 업데이트 전 AI로 PC 점검하는 프롬프트\n아래 명령 결과를 복사해 챗GPT, 제미나이, 클로드 같은 AI에 붙여 넣으면 업데이트 전에 확인할 점을 정리해 줍니다. 결과에는 개인 정보가 거의 없지만, 컴퓨터 이름이나 사용자 이름은 지우고 붙여 넣는 것을 권장합니다.\n프롬프트 1. 업데이트 준비 상태 점검\n너는 윈도우 PC 점검 도우미야. 나는 윈도우11 26H2 기능 업데이트를 설치하려고 해.\n아래는 PowerShell에서 실행한 결과야.\n[Get-ComputerInfo -Property OsName,OsVersion,OsBuildNumber,WindowsVersion 결과 붙여넣기]\n[Get-PSDrive C 결과 붙여넣기]\n1. 현재 버전이 활성화 패키지로 26H2를 받을 수 있는 버전(24H2 또는 25H2)인지 알려줘.\n2. C 드라이브 여유 공간이 충분한지 판단하고, 부족하면 정리 방법을 알려줘.\n3. 설치 전에 내가 해야 할 일을 체크리스트로 5개 이내로 정리해줘.\n확실하지 않은 내용은 추측하지 말고 \"확인 필요\"라고 표시해줘.\n프롬프트 2. 오래된 스크립트 WMIC 사용 여부 점검\n아래는 내가 쓰는 배치 파일(.bat) 내용이야.\n[배치 파일 내용 붙여넣기]\n윈도우11 24H2 이상에서는 WMIC가 제거됐어.\n1. wmic 명령이 들어간 줄을 모두 찾아줘.\n2. 각 줄을 같은 결과를 내는 PowerShell 명령(Get-CimInstance 등)으로 바꿔줘.\n3. 바꾼 뒤 테스트하는 방법도 알려줘.\n프롬프트 3. 업데이트 후 달라진 점 확인\n윈도우11 26H2로 업데이트했어. 가정용 Home 에디션이야.\n시작 메뉴, 작업 표시줄, 파일 탐색기, 검색에서 새로 써 볼 만한 기능을 설정 경로와 함께 5개만 알려줘.\n메뉴 이름이 정확하지 않을 수 있으면 \"화면에서 확인\"이라고 덧붙여줘.\n\n\n8. 자주 묻는 질문 (FAQ)\nQ1. 26H2를 꼭 바로 설치해야 하나요?\n급할 필요는 없습니다. Home·Pro는 버전마다 지원 기간이 24개월이므로, 쓰고 있는 버전의 지원 종료 전에만 올리면 됩니다. 다만 26H2를 설치하면 지원 기간이 새로 시작된다는 장점이 있습니다.\nQ2. 업데이트 항목이 안 보이는데 고장인가요?\n아닙니다. Microsoft는 26H2를 단계적으로 배포하고 있어서 PC마다 제공 시점이 다릅니다. 업데이트 확인을 눌러도 보이지 않으면 며칠 뒤 다시 확인하세요.\nQ3. 설치 후 문제가 생기면 되돌릴 수 있나요?\n기능 업데이트는 일반적으로 설정 > 시스템 > 복구에서 일정 기간 이전 버전으로 되돌릴 수 있습니다. 되돌리기 가능 기간과 메뉴 이름은 PC 화면에서 확인하세요.\nQ4. 파일 탐색기 AI 요약은 무료인가요?\n공식 문서 기준으로 OneDrive·SharePoint 파일의 Copilot 요약은 Microsoft 365 구독과 Copilot 라이선스가 필요합니다. 모든 PC에서 무료로 쓸 수 있는 기능은 아닙니다.\n마무리: 크게 바뀌진 않아도, 지원 기간은 새로 시작됩니다\n윈도우11 26H2는 큰 변화보다는 1년 동안 들어온 기능을 정리하고 지원 기간을 새로 여는 업데이트입니다. 백업과 저장 공간만 확인하고, Windows 업데이트에 항목이 보일 때 차분히 설치하시면 됩니다. 설치 전에 위 프롬프트로 한 번 점검해 보세요.\n참고 자료\nMicrosoft Learn: What's new in Windows 11, version 26H2\nWindows IT Pro Blog: An IT pro's guide to Windows 11, version 26H2\nWindows 11, version 26H2 known issues and notifications",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483748",
-    "pubDate": "Fri, 30 Oct 2026 08:30:00 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "26H2 새 기능",
-      "WMIC 제거",
-      "윈도우 기능 업데이트",
-      "윈도우 업데이트 체크리스트",
-      "윈도우11 26H2",
-      "윈도우11 업데이트",
-      "윈도우11 지원 기간",
-      "활성화 패키지"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "DataGrip and Database Tools User Experience Survey #3 Results",
-    "description": "Introduction Hello, DataGrip community! We’re back with the results of our third DataGrip and Database Tools User Experience Survey. A big thank you to everyone who took the time to participate! This year, 1,420 people shared their experiences with DataGrip and the built-in database tools in other JetBrains IDEs. As with our first and second […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/datagrip/2026/11/03/datagrip-and-database-tools-user-experience-survey-3-results/",
-    "pubDate": "Tue, 03 Nov 2026 09:19:36 +0000",
-    "creator": "Dmitry Romanov",
-    "categories": []
-  },
-  {
-    "id": 14,
-    "imageUrl": "",
-    "title": "700여개의 아이콘을 하나로 묶는 법 - 뱅샐 아이콘 개편기 2편",
-    "description": "안녕하세요. 뱅크샐러드 브랜드 디자이너 홍승재예요. 앞선 1편에서는 뱅크샐러드 아이콘 2.…",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.banksalad.com/pnc/banksalad-icon-renewal-2/",
+    "link": "https://blog.banksalad.com/pnc/banksalad-icon-renewal-3/",
     "pubDate": "Fri, 30 Oct 2026 00:00:00 GMT",
     "creator": "Unknown",
     "categories": []
   },
   {
-    "id": 15,
+    "id": 12,
     "imageUrl": "",
-    "title": "node.js bun 버전업 필요 / node2shell 보완 문제 발생 / 2026-11-02",
-    "description": "node 와 bun 에서 발생한다고 합니다.\n조작된 Brotli 압축으로 요청을 보내면 서버를 탈취할 수 있다고 하네요\n \nNODE.JS\nnode 는 버전마다 차이가있습니다.\n22 는 22.23.4 이상 (저는 22.18.1 을 쓰고 있었군요)\n24 는 24.22.1 이상 \n26 은 26.12.1 이상\n \n21 이하랑 25 는 종료되서 사용하지 말라고 합니다.\n \nBUN\nbun 은 bun upgrade 명령으로 버전을 쉽게 올릴 수 있습니다.\n저는 1.3.6 -> 1.4.4 로 올라갔습니다.\n \n \n대응\n버전 업하는것도 서버마다 제각각이군요\nnvm 을 쓰지 않는 써버도 있었네요\nbun 버전업이 편하다보니 bun 으로 다 통일해야겠습니다.",
+    "title": "해고에 대해",
+    "description": "요새 넷플릭스가 고전하고 있다. 아직 OTT 업계에서는 최강자이고 나만 봐도 계속 넷플릭스를 구독하고 있고, 내 주변 사람들도 비슷한데, 이 회사와 업을 잘 아는 전문가 의견을 들어보면 신규 고객 획득 속도가 둔화하고 있고 히트 콘텐츠 제작 능력도 신통치 않아서 회사의 장래가 어둡다는 평가가 지배적이다. 이런 시장의 심리가 주가에 그대로 반영되면서 회사의 시가총액이 2025년 고점 대비 반토막(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1694",
-    "pubDate": "Mon, 2 Nov 2026 21:33:31 +0900",
-    "creator": "SID-NFT",
+    "link": "https://www.thestartupbible.com/2026/11/on-firing-and-how-this-can-slow-down-koreas-growth.html",
+    "pubDate": "Sun, 01 Nov 2026 21:36:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "유튜브",
-      "보안문제"
+      "Uncategorized",
+      "firing",
+      "general",
+      "hiring",
+      "korea",
+      "people"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "",
+    "title": "JetBrains Earns 180 G2 Badges in Fall 2026, Recognized for Enterprise Leadership, Usability, and Developer Experience",
+    "description": "Discover how JetBrains products are recognized for enterprise leadership, developer experience, and ease of adoption, and why this matters for engineering teams looking to improve productivity and scale with confidence. In fall 2026, JetBrains earned 180 G2 badges across multiple award categories, including Enterprise Leadership, Best Usability, Best Relationship, Easiest Setup, and Easiest Admin.  These […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/blog/2026/11/02/jetbrains-180-g2-badges/",
+    "pubDate": "Mon, 02 Nov 2026 13:27:33 +0000",
+    "creator": "Colette Des Georges",
+    "categories": [
+      "awards",
+      "developer-recognition",
+      "intellij-idea",
+      "phpstorm",
+      "pycharm",
+      "rider",
+      "webstorm"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "전월세 안심신탁 임대인 신청 방법, 가입 서류와 안심전세포털 입력 순서",
+    "description": "전월세 안심신탁 임대인 신청은 2026년 11월 4일부터 2차 모집공고 전까지 상시로 받습니다. 개인은 HUG 안심전세포털에서 온라인으로, 개인과 법인 모두 전국 HUG 지사에 방문해 신청할 수 있습니다. 주택 소재지와 관계없이 어느 지사에서나 접수합니다.\n개인 집주인이 온라인으로 신청할 때 가장 먼저 막히는 곳은 담당 공인중개사 정보 입력란입니다. 개인 임대인은 개업공인중개사의 중개로 맺는 계약만 신청할 수 있어서, 중개사무소 상호·대표자·등록번호·주소·연락처를 반드시 적어야 합니다. 서류는 신청일 기준 1개월 안에 발급한 것을 PDF로만 올릴 수 있습니다.\n이 글은 HUG 「제1차 전월세 안심신탁사업 임대인 모집 공고」, 국토교통부 보도자료(2026.11.4), 안심전세포털 사용자 매뉴얼을 2026년 11월 4일에 직접 확인해 정리했습니다.\nHUG 모집공고·온라인 신청 페이지 열기\n페이지에서 「제1차 전월세 안심신탁사업 임대인 모집 공고」를 누르면 공고문 내려받기와 「온라인 신청 바로가기」 버튼이 나옵니다. 신청이 안 되거나 조건이 헷갈리면 HUG 콜센터 1566-9009(평일 09:00~18:00)로 문의하세요.\n내 집이 대상인지 먼저 확인\n집주인과 세입자의 소득·연령·자산은 보지 않습니다. 법인·개인 모두, 임대사업자 등록 여부와 관계없이 신청할 수 있고 주택 유형과 지역 제한도 없습니다. 대신 주택과 임대 조건은 아래 기준을 모두 넘어야 합니다.\n항목기준예시\n\n\n주택가격20억 원 이하산정 방법은 아래 표\n선순위채권합계가 주택가격의 80% 이내주택가격 3억 원이면 2억 4,000만 원 이하\n예치금(보증금 상당액)적정 전세시세 이내KB·부동산테크 전세시세가 있으면 그 금액\n건축물위반건축물, 주용도가 주택·준주택이 아닌 건물은 불가건축물대장으로 확인\n권리관계압류·가압류·가등기 등 권리침해 사항이 있으면 불가건물 등기사항증명서로 확인\n세금국세·지방세 체납 등은 가입 제한납세증명서 제출\n선순위채권에는 근저당 채권최고액, 담보신탁 우선수익 한도, 등기된 임차권의 미반환 보증금 등이 들어갑니다. 단독·다가구 일부를 빌려주는 경우에는 같은 건물의 다른 세입자 보증금도 합산됩니다.\n월세를 일부 받는 준전세형 조건\n예치금 100%에 월세 0원인 전세형 말고, 세입자에게서 월세를 따로 받는 준전세형도 신청할 수 있습니다. 다만 월세는 예치금의 240분의 1보다 적어야 합니다. 예치금이 2억 원이면 직접 받는 월세는 83만 3,333원보다 적어야 합니다.\n준전세형은 월세를 지역·유형별 전월세전환율로 환산해 더한 금액이 전세시세 이내인지 다시 봅니다. 환산 방식은 「예치금 + 월세 × 12 ÷ 전월세전환율」이고, 전환율은 부동산통계정보(R-ONE) 값을 씁니다.\n주택가격은 이 순서로 정합니다\n공고문은 주택 유형마다 산정 순서를 정해 두었습니다. 앞 순서 자료가 있으면 그것을 쓰고, 2년이 지나지 않은 감정평가액은 이 순서보다 먼저 적용할 수 있습니다.\n주택 유형산정 순서\n\n\n아파트, 주거용 오피스텔, 노인복지주택① KB시세 일반평균가·부동산테크 시세(하한가와 상한가 평균) ② 공시가격의 140% ③ 안심전세 앱 시세 하한가 ④ 등기부상 1년 이내 매매가 ⑤ 준공 1년 미만은 분양가의 90% ⑥ 토지 공시지가+건물 시가표준액의 140%\n연립, 다세대① 공동주택가격의 140% ② 안심전세 앱 시세 하한가 ③ 등기부상 1년 이내 매매가 ④ 토지 공시지가+건물 시가표준액의 140%\n단독, 다중, 다가구① 개별단독주택가격의 140% ② 등기부상 1년 이내 매매가 ③ 토지 공시지가+건물 시가표준액의 140%\n아파트 최저층(1층·101호 등)과 주거용 오피스텔은 KB 하위평균가나 부동산테크 하한가를 씁니다. 건물 시가표준액은 취득세 납부확인서를 보거나 관할 지자체 세무과에 전화로 확인할 수 있습니다.\n신청 전에 준비할 서류\n서류대상메모\n\n\n참여 신청서개인·법인개인은 포털 화면에서 작성. 법인은 공고문 붙임 2·3 양식\n개인정보 수집·이용 및 제3자 제공 동의서개인·법인개인은 포털에서 작성 가능. 공동임대인은 사람마다 정자로 자필 서명한 실물 서류를 올림\n국세·지방세 납세증명서임대인 전원공동명의면 모두 제출\n신분증 사본개인 임대인 전원주민등록증 등\n계좌 사본임대인 본인 명의월 약정수익을 받을 계좌\n4대 보험 완납증명서 등법인법인 등기사항전부증명서, 사업자등록증 사본, 법인 인감증명서도 신청서에 첨부\n담당 공인중개사 정보개인(온라인 필수 입력)상호, 대표자, 등록번호, 주소, 연락처. 최대 3명까지 입력\n주택 사진세입자 매칭을 원할 때선택. 여러 장이면 PDF 하나로 합침\n신청일 기준 1개월 이내 발급한 서류만 인정합니다.\n파일은 PDF만 받습니다. 한 서류가 여러 장이면 한 장씩 찍은 뒤 PDF 하나로 합칩니다.\n원본을 스캔하거나 찍어야 합니다. 사본을 다시 스캔한 것, 인쇄미리보기 캡처, 모니터를 찍은 사진은 접수되지 않습니다.\n종이가 접히거나 잘리지 않게, 글자가 선명하게 찍어야 보완 요청을 피할 수 있습니다.\n제출서류 양식·사용자 매뉴얼 공지 열기\n공지사항의 「전월세 안심신탁 제출서류 양식」에서 동의서 등 서식을 내려받고, 「사용자 매뉴얼」에서 화면별 입력 방법을 볼 수 있습니다. 양식이 열리지 않으면 HUG 콜센터 1566-9009로 요청하세요.\n안심전세포털 온라인 신청 순서\n온라인 신청은 개인만 할 수 있고, 모바일 앱으로는 신청할 수 없습니다. 법인은 HUG 지사나 전월세안심신탁센터를 방문해야 합니다.\n안심전세포털(khug.or.kr/jeonse)에서 「전월세 안심신탁」 → 「모집공고 및 임대인 신청」으로 들어갑니다.\n「제1차 전월세 안심신탁사업 임대인 모집 공고」를 누르고 「온라인 신청 바로가기」를 누릅니다.\n휴대폰 본인인증을 합니다.\n이름과 주민등록번호를 넣고 실명확인을 누른 뒤 연락처와 주소를 입력합니다.\n등기부상 공동 소유자가 있으면 「Y」를 고르고 공동임대인 정보와 동의서·신분증·납세증명서를 올립니다. 공동임대인이 3명을 넘으면 방문 접수입니다.\n신청 주택의 주소, 주택유형, 전용면적을 등기부등본과 같게 입력합니다.\n전세형·준전세형, 예치금(준전세형은 월세도), 임대기간(2년 이상)을 넣습니다. 화면의 「예상 월세수익 계산」 버튼으로 받을 금액을 미리 볼 수 있습니다.\n계약 예정인 세입자가 있는지, 없으면 HUG 매칭 지원을 원하는지 고릅니다.\n담당 공인중개사 정보를 입력하고 신분증·계좌·납세증명서 PDF를 올립니다.\n안내 수신과 개인정보 동의에 체크하고 「신청」을 누릅니다. 접수 내역은 「임대인 신청내역 및 계약관리」에서 확인합니다.\n신청 뒤 담당자가 배정되면 포털에서 내용을 고칠 수 없습니다. 이때는 담당자에게 전화하거나 전월세안심신탁센터를 방문해 변경을 요청해야 합니다.\n집주인이 받는 금액과 지급일\n이번 공고의 약정수익률은 세전 연 4.35%이고, 계약기간과 갱신 기간 동안 그대로 유지됩니다. 수익률은 반기마다 다시 고시되며, 계약을 맺는 시점에 가장 최근 고시된 수익률이 적용됩니다.\n예치금연 수익(세전)월 수익(세전)\n\n\n1억 원435만 원36만 2,500원\n2억 원870만 원72만 5,000원\n3억 원1,305만 원108만 7,500원\n2억 원 행은 공고문 예시와 같고, 나머지는 같은 방식으로 계산했습니다. 돈은 다음 달 25일에 임대인 본인 명의 계좌로 들어오고, 계약 시작 달과 끝나는 달은 날수로 나눠 줍니다.\n이 수익은 세법상 임대소득으로 과세됩니다. 보도된 소득세·법인세 50% 감면과 농어촌특별세 비과세는 아직 \"추진\" 단계이고, 공고문은 법 개정이 끝나야 확정된다고 밝혔습니다.\n신청 뒤 입주까지 일정\n단계내용시점\n\n\n1차 검증압류·위반건축물 여부, 희망 예치금 적정성신청 접수 후\n세입자 매칭포털에 소재지·면적·조건·중개사 연락처 게시1차 검증 통과 후\n임차인 등록세입자가 포털 또는 지사에서 정보 등록매칭 후\n2차 검증최종 조건 검증, 계약서 날인양측 협의 후\n계약HUG가 정한 위탁 법무법인 입회. 세입자는 예치금 10%를 계약금으로 예치검증 후\n잔금·입주세입자가 나머지 90% 예치 후 입주2027년 1월부터 순차\n세입자를 직접 구했다면 1차 검증과 매칭을 건너뛰고 임차인 등록부터 진행합니다. HUG는 매물 정보만 올려 줄 뿐 중개나 알선은 하지 않으므로, 세입자 문의는 등록한 공인중개사가 받습니다. 신청 후 6개월 안에 계약하지 못하면 다시 신청해야 합니다.\n신청 전에 알아둘 점\n지금 세입자가 사는 집은 기존 계약이 끝나거나 합의해지되고 보증금을 돌려준 뒤에 참여할 수 있습니다.\n임대인의 배우자와 직계존비속은 세입자로 들어올 수 없고, 세입자는 개인만 됩니다.\n잔금 예치 전이라면 임대인은 계약금만큼을 세입자에게 주고, 세입자는 예치한 계약금을 포기하고 계약을 해제할 수 있습니다.\n계약이 정상 종료된 뒤 다음 안심신탁 세입자가 들어오기까지 비면 최대 2개월 치 수익을 줍니다. 종료 전에 매칭 지원을 신청한 경우만 해당하고, 주택당 1회입니다.\n집을 팔기로 매매계약을 맺으면 3일 안에 HUG에 알려야 합니다. 압류·가압류 등이 생기거나 경매개시결정을 받아도 3일 안에 알려야 합니다.\n주택 임대차 신고는 임대인과 세입자가 합니다. 보증금은 0원, 월세는 HUG가 주는 월 수익(직접 받는 월세가 있으면 합산)으로 적습니다.\n등록임대사업자는 안심신탁 계약서를 법정 표준임대차계약서의 특약으로 붙여 계약할 수 있습니다.\n3자 계약에 쓰는 전월세 안심신탁 임대차계약서는 11월 중 안심전세포털에 올라올 예정입니다(공고문 기준).\n방문 신청할 수 있는 곳\n평일 09:00~18:00에 아래 어느 곳이든 방문하면 됩니다. 법인, 공동임대인 4명 이상, 공인중개사 4명 이상인 경우는 방문 접수입니다.\n지역접수처와 주소\n\n\n전국(전담)전월세안심신탁센터: 서울 영등포구 의사당대로 8 태흥빌딩 3층\n서울북부지사: 종로구 청계천로 41 영풍빌딩 5층\n동부지사: 강남구 테헤란로 317 동훈타워 5~6층\n서부지사: 영등포구 의사당대로 8 태흥빌딩 4층\n남부지사: 서초구 서초대로 254 오퓨런스빌딩 2층\n인천인천지사: 남동구 백범로 357 한국교직원공제회 인천회관 14층\n경기경기북부지사: 의정부시 평화로 489 2층\n경기남부지사: 수원시 팔달구 권광로 178 교직원공제회관 9층\n부산·울산부산울산지사: 부산 동구 중앙대로 240 현대해상 부산사옥 14층\n대구·경북대구경북지사: 대구 수성구 동대구로 334 교직원공제회관 15층\n광주·전남광주전남지사: 서구 시청로 26 광주빛고을센터 6층\n대전·충남대전충남지사: 대전 서구 둔산북로 56 한화생명둔산사옥 10층\n강원강원지사: 원주시 북원로 2135 농협은행원주시지부 3층\n충북충북지사: 청주시 흥덕구 강서로 107 BYC빌딩 12층\n전북전북지사: 전주시 완산구 온고을로 1 한국교직원공제회 3층\n경남경남지사: 창원시 성산구 상남로 25 한국산업은행 1층\n제주제주출장소: 제주시 은남길 8 삼성화재빌딩 6층\n방문할 때는 공지사항의 양식으로 신청서와 동의서를 출력해 자필로 쓰고 서명한 뒤 가져갑니다. 대리인이 가면 위임장(공고문 붙임 5)과 위임인의 인감증명서 원본·사용인감계, 위임인·대리인 신분증 사본이 필요합니다.\n자주 묻는 질문\n모든 집주인이 꼭 참여해야 하나요?\n아닙니다. HUG Q&A에 따르면 참여를 원하는 임대인과 세입자가 스스로 신청하는 사업이고, 법적 참여 의무는 없습니다.\n보증금 전액을 맡겨야만 하나요?\n네. 안심전세포털 Q&A는 보증금 상당액 전체를 예치해야 참여할 수 있다고 안내합니다. 준전세형도 보증금은 전액 HUG에 맡기고, 집주인이 직접 받는 것은 위 조건 안의 월세뿐입니다.\nHUG가 굴리다 손실이 나면 어떻게 되나요?\nHUG Q&A는 운용 손실이 나도 세입자의 예치금은 전액 보장되고, 임대인 월 수익도 정상 지급된다고 답합니다. 예치금은 주택공급활성화펀드에서 HUG 보증부 PF 사업장 등에 투자됩니다.\n확인한 공식 자료\n주택도시보증공사 안심전세포털: 전월세 안심신탁 소개, 모집공고 및 임대인 신청(공고문 PDF 17쪽, 사용자 매뉴얼 포함)\n국토교통부 보도자료: 전월세 안심신탁 첫 임대인 모집 공고(2026.11.4)\n수익률, 세제 혜택, 계약서 게시 일정은 바뀔 수 있습니다. 신청 직전에 공고문과 안심전세포털 공지사항을 다시 확인하세요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://app-developer.tistory.com/entry/%EC%A0%84%EC%9B%94%EC%84%B8-%EC%95%88%EC%8B%AC%EC%8B%A0%ED%83%81-%EC%9E%84%EB%8C%80%EC%9D%B8-%EC%8B%A0%EC%B2%AD-%EB%B0%A9%EB%B2%95-%EA%B0%80%EC%9E%85-%EC%84%9C%EB%A5%98%EC%99%80-%EC%95%88%EC%8B%AC%EC%A0%84%EC%84%B8%ED%8F%AC%ED%84%B8-%EC%9E%85%EB%A0%A5-%EC%88%9C%EC%84%9C",
+    "pubDate": "Wed, 4 Nov 2026 13:46:25 +0900",
+    "creator": "브리핑허브",
+    "categories": [
+      "지원금&middot;신청"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "The User Group Support Program Is Becoming the Developer Communities Program",
+    "description": "Great developer communities don’t come together by accident – they’re built by people who consistently show up for others. They organize meetups after work, keep online discussions active, invite speakers, prepare workshops, and create spaces where developers can learn from each other. At JetBrains, we’ve always valued these efforts and had the privilege of supporting […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/community-programs/2026/11/the-user-group-support-program-is-becoming-the-developer-communities-program/",
+    "pubDate": "Wed, 04 Nov 2026 08:12:21 +0000",
+    "creator": "Lena Morozova",
+    "categories": [
+      "community",
+      "user-groups",
+      "community-support"
     ]
   }
 ]
