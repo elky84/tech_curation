@@ -2,81 +2,19 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Debug Unity Builds From Rider With the TeamCity CLI and MCP",
-    "description": "At GameDev Day 2026, TeamCity solutions engineer Artem Rokhin demonstrated how to investigate a CI issue from Rider using the TeamCity CLI and MCP integration. For the demo, he used a Unity game that worked locally but was missing its background on staging. Though the build had passed, Artem used the CLI to inspect the […]",
+    "title": "AI models hate Python and love PHP: we asked 12 of them 1,200 times",
+    "description": "1,200 hot takes, 14 “random” languages, zero opinions about C#, and one model that argued both sides of Go’s error handling. We asked 12 AI models for their most controversial opinion about programming languages, 1,200 times in total. We wanted to check one thing. When you give a model permission to be spicy, does it […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/11/debug-unity-builds-from-rider-with-teamcity-cli-mcp/",
-    "pubDate": "Tue, 10 Nov 2026 10:51:30 +0000",
-    "creator": "Olga Bedrina",
+    "link": "https://blog.jetbrains.com/ai/2026/11/ai-models-hate-python-and-love-php-we-asked-12-of-them-1-200-times/",
+    "pubDate": "Sun, 15 Nov 2026 17:02:29 +0000",
+    "creator": "Denis Shiryaev",
     "categories": [
-      "rider",
-      "teamcity-2",
-      "gamedev",
-      "gamedev-day",
-      "teamcity"
+      "llm-biases"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "",
-    "title": "헤르메스 에이전트 유저의 브라우저 직접 컨트롤",
-    "description": "그냥은 안되서 헤매다 영상을 찾았습니다.\n영상: https://www.youtube.com/watch?v=Bf6GUtCm2OI\n\n\n\n \n선행 조건\n설정과정이 복잡하니 재미니 같은 AI 챗에 물어보면서 설정해야했다.\nmac 에서 작업했다 먼저 크롬  (사람이 쓰는거) 앱을 복사해서 ~/crhome.app 에 복사했다.\nssh 로 복사하면 안되고 macos 에서 finder 로 수동으로 복사해야 보안 문제가 생기지 않는다.\n복사해ㅆ으면 한번 수동 실행 시켜보자\n실행된다면 보한문제가 해결된 상태이다.\n \n그 다음으로는 크롬을 모두 종료시켜야한다.\nkillall \"Google Chrome\"\n \n이제 크롬을 개발버전으로 실행한다.\n ~/chrome.app/Contents/MacOS/Google\\ Chrome \\\\n  --remote-debugging-port=9222 \\\\n     --user-data-dir=~/tmp \\\\n  --no-first-run \\\\n  --no-default-browser-check\\n\\n \n 1158  cls\n이러면 9222 포트로 서버가 열리면서 개발용 크롭이 뜨게 된다.\n \n \nhermes 콘솔에서 브라우저랑 연결한다.\n/browser connect\n \n몇번 실패했는데 껏다 켰다 도 해더니 어느샌가 되었다.\n \n문제점\n동작시켜보니 처음에 잘되다 os 의 절전기능이나 암호로 로그인 하는 화면으로 바뀌면 연결이 끊어지며 다시 살아나지 못했다.\n브라우저를 스샷을 찍어가면서 이것저것 하는거 같았다.\n \n명령어를 넣고 잠자기에 빠지지 않게 보고 있어야했는데\n지루한 하고 동작은 느렸다.\n \n \n\n\n \n \n \n \n \n \n \n/browser connect \n시작할때 이명령어를 처야 제어가 가능합니다.\n재미니에게 browser_cdp 라는 것도 물어보고 \n크롬 브라우저를 개발 모드로 켜서 9222 포트가 열리도록 해야했습니다.\n여러번 실패해서 제대로 정리를 못하겠지만 결국은 헤르메스가 브라우저의 9222 포트에 접속하게 되면 유저가 보는 브라우저를 직접 제어 합니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://serverdown.tistory.com/1701",
-    "pubDate": "Fri, 13 Nov 2026 06:55:46 +0900",
-    "creator": "SID-NFT",
-    "categories": [
-      "프로그래밍/개발메모",
-      "에이전트",
-      "헤르메스"
-    ]
-  },
-  {
-    "id": 3,
-    "imageUrl": "",
-    "title": "MSVC Build Tools Preview updates – November 2026",
-    "description": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers the last month’s updates of the Preview build tools, currently targeting the v14.53 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Although you can acquire the […]\nThe post MSVC Build Tools Preview updates – November 2026 appeared first on C++ Team Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-november-2026/",
-    "pubDate": "Fri, 13 Nov 2026 18:12:10 +0000",
-    "creator": "Eric Brumer",
-    "categories": [
-      "MSVC"
-    ]
-  },
-  {
-    "id": 4,
-    "imageUrl": "",
-    "title": "Announcing Visual Studio 2026 LTSC 18.11",
-    "description": "Today, we are announcing Visual Studio 2026 Long-Term Servicing Channel (LTSC) 18.11 alongside Visual Studio 2026 18.12 on the Stable channel. LTSC 18.11 will receive two years of support, through November 14, 2028, rather than the one year of LTSC support we previously announced. If you are using Visual Studio 2022 for its LTSC benefits […]\nThe post Announcing Visual Studio 2026 LTSC 18.11 appeared first on Visual Studio Blog.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/announcing-visual-studio-2026-ltsc-1811/",
-    "pubDate": "Tue, 10 Nov 2026 18:06:36 +0000",
-    "creator": "Jamshed Damkewala",
-    "categories": [
-      "Visual Studio"
-    ]
-  },
-  {
-    "id": 5,
-    "imageUrl": "",
-    "title": "건강보험료 조정신청 방법, 11월 지역가입자 건보료 조정 기간과 폐업&middot;퇴직&middot;해촉 서류",
-    "description": "올해 폐업, 퇴직, 해촉 등으로 소득이 줄었는데 11월 건강보험료가 그대로이거나 올랐다면 국민건강보험공단에 건강보험료 조정신청(소득 조정·정산 신청)을 할 수 있습니다. 11월 1일부터 12월 10일(11월 보험료 납부마감일) 사이에 신청하면 11월 보험료부터 조정됩니다. 12월 11일 이후에 신청하면 12월 보험료부터 적용되므로, 11월분을 줄이려면 12월 10일이 기한입니다.\n조정은 보험료를 확정해서 깎아 주는 제도가 아닙니다. 먼저 낮춰 내고, 다음 해 11월에 국세청 등에서 확인된 실제 소득으로 다시 계산해 차액을 더 내거나 돌려받습니다.\n건강보험공단 소득 조정·정산 신청 안내 열기\n이 페이지에서 대상과 서류를 확인한 뒤 '신청하기' 버튼을 누르면 신청 단계로 넘어갑니다. '신청하기' 이후 화면은 이 글에서 직접 확인하지 못했습니다. 페이지가 열리지 않거나 내 사유로 신청할 수 있는지 모르겠으면 공단 고객센터 1577-1000(유료, 평일 오전 9시~오후 6시)에 묻습니다.\n\n\n출처: 국민건강보험공단 화면 캡처\n11월 건강보험료가 달라지는 이유\n공단 안내에 따르면 지역가입자 보험료는 1~10월분은 전전년도 소득, 11~12월분은 전년도 소득으로 부과합니다. 그래서 2026년 11월분부터는 2025년 소득이 새로 반영됩니다. 작년에는 벌이가 있었지만 올해 일을 그만둔 사람은 지금 소득과 고지서가 어긋나게 됩니다.\n언론 보도 기준으로 올해 11월분에는 2026년 6월 1일 기준 재산세 과세표준도 함께 반영되고, 새 보험료는 2027년 10월분까지 적용됩니다. 이 부분은 공단 보도자료 게시판에서 올해 자료를 찾지 못해 보도 기준으로 적습니다(2026년 11월 12일 확인).\n건강보험료 조정신청 대상\n구분내용\n지역가입자소득이 줄었거나 늘어난 사람\n직장가입자보수 외 소득월액보험료를 내는 사람 중 소득이 줄었거나 늘어난 사람\n조정하는 소득사업, 근로, 이자, 배당, 연금, 기타소득\n월급에서 떼는 직장가입자의 보수월액 보험료는 이 제도의 대상이 아닙니다. 월급 외 소득이 많아 따로 보험료(보수 외 소득월액보험료)를 내는 직장가입자만 해당합니다.\n건보료 조정 기간, 신청한 날에 따라 달라지는 시작 월\n기본 규칙은 '신청한 날의 다음 달부터 그 해 12월까지'입니다. 다만 11월, 12월, 1월은 그 달 1일부터 그 달 보험료 납부마감일 사이에 신청하면 그 달 보험료부터 조정합니다.\n신청한 날조정이 시작되는 보험료\n11월 1일 ~ 12월 10일11월 보험료부터\n이 중 12월 1일 ~ 12월 10일11월 또는 12월 중 선택\n12월 11일 ~ 다음 해 1월 10일12월 보험료부터\n이 중 다음 해 1월 1일 ~ 1월 10일12월 또는 1월 중 선택\n다음 해 1월 11일 ~ 2월 10일1월 보험료부터\n그 밖의 달신청한 다음 달부터 (매달 1일 신청은 그 달부터)\n공단 제도안내의 '조정기간 예시' 기준입니다(2026년 11월 12일 확인). 11월 1일부터 12월 10일 사이에 신청한 건은 신청에 따라 다음 해 12월까지 조정할 수 있다고 적혀 있습니다. 내년 보험료까지 이어서 조정받을지는 신청할 때 정하면 됩니다.\n\n\n출처: 국민건강보험공단 화면 캡처\n신청 방법, 온라인은 소득이 줄어든 경우만\n방법가능한 경우\n공단 홈페이지소득이 감소한 경우만\n모바일앱(공단 안내 표기: 건강보험25시)소득이 감소한 경우만\n지사 방문, 우편, 팩스소득 감소와 증가 모두\n소득이 늘어서 미리 보험료를 올려 두려는 사람은 온라인으로 신청할 수 없습니다. 가까운 지사 주소와 팩스 번호는 고객센터 1577-1000에서 안내받습니다.\n위 버튼으로 공단 '소득 조정·정산 신청 및 조회' 안내 페이지를 엽니다.\n내 사유에 맞는 서류를 아래 표에서 확인해 준비합니다.\n'신청하기'를 눌러 신청합니다. 지사에 낼 때는 소득 정산부과 동의서를 함께 냅니다.\n같은 페이지의 '신청내역'에서 처리 상태를 확인합니다.\n폐업·퇴직·해촉 사유별 서류\n공통 서류는 소득 정산부과 동의서와 신분증(앞면 사본)입니다. 여기에 사유별 증빙을 더합니다.\n사유증빙 서류\n휴업·폐업휴·폐업사실증명\n퇴직(근로소득)퇴직증명서\n해촉(프리랜서 인적용역)증빙 없이 신청, 과세당국의 실시간 소득(RTI)으로 조정\n이자·배당·기타소득 감소원천징수영수증 등\n종합소득 감소(소득금액증명)매년 7~10월에만 신청 가능, 11월에는 이 사유로 신청할 수 없음\n해촉 사유는 공단이 2025년 9월부터 과세당국의 실시간 소득자료를 연계해, 증빙 서류 없이 그 금액을 기준으로 인적용역 사업소득을 조정한다고 안내합니다. 해촉증명서를 꼭 받아야 한다는 글도 있지만 공단 신청 안내에는 그렇게 적혀 있지 않습니다. 실시간 소득자료에 잡히지 않는 경우의 처리는 확인하지 못했으니 고객센터에 묻습니다.\n\n\n출처: 국민건강보험공단 화면 캡처\n신청 전에 알아 둘 소득 정산, 더 낼 수도 있습니다\n정산 시점은 매년 11월이고, 조정한 연도의 1~12월분 보험료 전체를 다시 계산합니다.\n이미 낸 보험료와 비교해 차액을 계산하므로, 소득이 줄었더라도 보험료가 추가로 나올 수 있습니다.\n정산보험료는 다시 조정해 달라고 신청할 수 없습니다.\n신청한 뒤 그 해에 소득이 생기면, 생긴 날부터 다음 달 말일까지 공단에 금액을 신고해야 합니다.\n조정으로 피부양자 자격을 얻으려면 따로 신고해야 하고, 정산 결과에 따라 취득한 날로 자격이 상실될 수 있습니다.\n조정된 보험료를 기준으로 경감이나 본인부담상한제 혜택을 받았다면 정산 결과에 따라 환수될 수 있습니다.\n예를 들어 11월에 폐업으로 조정받은 뒤 12월에 새 일을 시작했다면 다음 해 1월 말까지 신고해야 합니다.\n정산보험료가 클 때 분할, 마음이 바뀌었을 때 취소\n항목기준\n분할고지 대상정산보험료가 그 달 월 보험료 이상인 가입자\n분할 횟수12회 이내\n분할 신청 기한정산보험료 납부기한까지 (자동이체는 출금일 3영업일 전, 고지서는 납부마감 1영업일 전)\n취소 기한신청일부터 90일 이내, 정산보험료가 산정된 뒤에는 불가\n취소 방법취소 신청서를 방문·우편·팩스로 제출, 온라인 신청 건은 조정 처리 전이면 온라인 취소\n조정만 취소하거나 정산만 취소할 수는 없습니다.\n자주 찾는 질문\n12월 10일을 넘기면 조정신청을 못 하나요?\n신청은 할 수 있습니다. 다만 12월 11일부터 다음 해 1월 10일 사이에 신청하면 12월 보험료부터 조정되고, 11월 보험료는 고지된 대로 냅니다.\n조정받으면 나중에 환급도 받나요?\n다음 해 11월 정산에서 확인된 소득으로 다시 계산한 보험료가 이미 낸 보험료보다 적으면 차액을 돌려받고, 많으면 더 냅니다. 조정신청을 했다고 환급이 정해지는 것은 아닙니다.\n재산을 팔았거나 전월세 보증금이 바뀐 경우는요?\n공단은 2025년 11월 보도자료에서 재산을 매각했거나 전·월세금이 바뀐 경우도 증빙 서류를 갖춰 조정 신청할 수 있다고 안내했습니다. 올해 기준의 재산 조정 서류는 공단 화면에서 확인하지 못했으니 신청 전에 1577-1000에 확인합니다.\n이 글의 기간, 서류, 정산 기준은 국민건강보험공단 누리집의 '건강보험료 소득 정산제도'와 '소득 조정·정산 신청 및 조회' 안내를 2026년 11월 12일에 확인한 내용입니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://app-developer.tistory.com/entry/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C-%EC%A1%B0%EC%A0%95%EC%8B%A0%EC%B2%AD-%EB%B0%A9%EB%B2%95-11%EC%9B%94-%EC%A7%80%EC%97%AD%EA%B0%80%EC%9E%85%EC%9E%90-%EA%B1%B4%EB%B3%B4%EB%A3%8C-%EC%A1%B0%EC%A0%95-%EA%B8%B0%EA%B0%84%EA%B3%BC-%ED%8F%90%EC%97%85%C2%B7%ED%87%B4%EC%A7%81%C2%B7%ED%95%B4%EC%B4%89-%EC%84%9C%EB%A5%98",
-    "pubDate": "Thu, 12 Nov 2026 07:10:03 +0900",
-    "creator": "브리핑허브",
-    "categories": [
-      "지원금&middot;신청"
-    ]
-  },
-  {
-    "id": 6,
     "imageUrl": "",
     "title": "건강보험 환급금 조회 안됨 이유와 신청 방법, 보험료 환급금&middot;본인부담금환급금 차이",
     "description": "건강보험 환급금은 국민건강보험공단 누리집, 모바일 앱, 고객센터(1577-1000), 지사에서 조회하고 신청합니다. 공단은 찾아가지 않은 보험료 환급금을 돌려주려고 2026년 10월 1일부터 11월 30일까지 집중지급기간을 운영하고 있습니다. 11월 30일이 지나도 신청할 수는 있지만, 보험료 환급금은 시효(건강보험 3년)가 지나면 받지 못합니다.\n조회했는데 금액이 안 보인다면 환급금이 없어서가 아닐 수도 있습니다. 공단 안내에 따르면 인터넷 조회는 최근 3년 이내 세대주 1명만 할 수 있습니다. 아래에서 환급금 종류별 메뉴, 조회가 안 되는 이유, 대리·상속 신청 서류를 차례로 정리했습니다(2026년 11월 12일 공단 누리집 확인).\n건강보험 환급금 3가지, 메뉴가 서로 다릅니다\n'건강보험 환급금'이라고 불러도 공단 메뉴는 따로 있습니다. 내가 받을 돈이 어느 쪽인지 먼저 고르면 헤매지 않습니다.\n구분생기는 경우누리집 메뉴(민원서비스 > 서비스찾기)\n보험료 환급금보험료 이중·착오 납부, 자격 소급 상실, 보험료 소급 조정보험료 환급금 조회/신청\n본인부담금환급금병원·약국이 받은 본인부담금이 심사 결과 기준보다 많았던 경우본인부담금환급금 조회/신청\n본인부담상한액 초과금한 해 건강보험 본인부담금 합계가 개인 상한액을 넘은 경우본인부담상한액 초과금 조회/신청\n11월 30일까지 운영하는 집중지급기간은 이 중 보험료 환급금에 대한 것입니다(공단 10월 6일 보도참고자료). 본인부담금환급금은 공단이 11월 11일 따로 안내했고, 정해진 마감일 대신 신청 기한(지급신청서를 받은 날부터 3년)이 있습니다.\n공식 조회·신청 페이지\n보험료 환급금 조회·신청 안내 열기\n본인부담금환급금 조회·신청 안내 열기\n열린 안내 화면 오른쪽(모바일은 아래쪽)의 '신청하기'를 누르면 로그인 후 조회 화면으로 넘어갑니다. 신청하기 이후 화면은 이 글에서 직접 확인하지 못했습니다. 화면이 열리지 않거나 조회가 안 되면 공단 고객센터 1577-1000(유료, 평일 09~18시)이나 가까운 지사에 문의합니다.\n앱으로 조회하는 경로\n공단 보도참고자료에 적힌 모바일 앱 경로는 환급금 종류에 따라 조금 다릅니다. 공단 안내 표기의 앱 이름은 '건강보험25시'입니다.\n보험료 환급금: 홈 > 건강보험 > 환급금(지원금) 조회/신청\n본인부담금환급금: 전체메뉴 > 건강보험 > 환급금 > 환급금(지원금) 조회 및 신청\n조회가 안 될 때 확인할 4가지\n\n\n출처: 국민건강보험공단 화면 캡처\n상황이유(공단 안내)할 일\n안내문을 받았는데 조회 결과가 없음인터넷은 최근 3년 이내 세대주 1명만 조회세대주 명의로 다시 조회하거나 관할 지사에 문의\n안내문은 내가 받았는데 돈은 다른 사람에게 감환급금은 납부의무자(세대주 또는 가입자)에게 지급, 우편 수령자와 다를 수 있음세대주·가입자 본인이 신청\n조회 금액보다 적게 들어오거나 0원낼 보험료 등에 먼저 충당(대체)될 수 있음보험료 납부 내역 확인\n본인부담금환급금이 예전 계좌로 입금처음 신청한 계좌(기존계좌)로 들어갈 수 있음계좌를 바꾸려면 해당 지사에 미리 알림\n본인부담금환급금도 지역가입자라면 낼 보험료와 상계될 수 있습니다. 지급 뒤 병원·약국의 이의신청으로 적정 진료가 확인되면 이미 받은 금액의 전부 또는 일부를 다시 돌려줘야 할 수 있습니다.\n본인부담금환급금 신청과 입금 시기\n\n\n출처: 국민건강보험공단 화면 캡처\n안내: 공단이 매달 대상자에게 환급 내역과 지급신청서를 전자문서·우편 등으로 보냅니다.\n신청: 누리집, 모바일 앱, 우편(안내문에 든 회신용 봉투), 지사 방문, 고객센터, 팩스\n입금: 지급신청서 접수와 지사 심사가 끝난 다음 날 지급, 최대 7일 걸립니다.\n기한: 최초 안내문 발송일(공단 서비스 안내 표기는 지급신청서를 받은 날)부터 3년\n보험료 환급금, 본인이 아닐 때 필요한 서류\n\n\n출처: 국민건강보험공단 화면 캡처\n신청하는 사람방법과 서류\n납부의무자 본인누리집·앱·정부24에서 본인인증 후 신청. 전화는 본인 계좌로만 가능. 방문은 지급신청서와 신분증\n가족 등 대리인지사 방문: 지급신청서, 본인과 대리인 신분증 사본, 위임장\n상속인(납부의무자 사망)지사 방문: 지급신청서, 사망한 납부의무자 기준 가족관계증명서, 신청인 신분증 사본. 100만 원 초과면 상속대표선정동의서 추가\n보험료를 체납한 경우 지급이 제한될 수 있습니다. 시효는 건강보험 3년, 국민연금 5년이므로 오래된 환급금은 먼저 지사에 확인하는 편이 빠릅니다.\n다음 환급금을 자동으로 받으려면\n'건강보험료 환급금 사전계좌 동의'를 해 두면 다음에 보험료 환급금이 생겼을 때 따로 신청하지 않아도 등록한 계좌로 들어옵니다. 공단 보도참고자료 기준으로 등록은 공단 지사 방문이나 고객센터로 합니다.\n환급금 문자, 링크는 누르지 마세요\n공단은 환급금 안내 문자나 이메일에 인터넷 주소(URL)를 넣지 않는다고 밝혔습니다. 링크가 들어 있는 환급금 문자는 열지 말고 지우세요. 환급 여부는 위 공식 페이지나 앱, 1577-1000에서 직접 확인하면 됩니다.\n자주 헷갈리는 질문\n11월 30일이 지나면 환급금이 사라지나요?\n아닙니다. 11월 30일은 보험료 환급금 집중지급기간이 끝나는 날입니다. 시효(건강보험 3년)가 남아 있으면 그 뒤에도 신청할 수 있습니다.\n병원비를 많이 냈는데 본인부담금환급금이 없다고 나와요.\n본인부담금환급금은 병원이 기준보다 많이 받은 사실이 심사로 확인된 경우에만 생깁니다. 한 해 본인부담금 합계가 상한액을 넘어서 돌려받는 돈은 본인부담상한액 초과금이고, 메뉴가 따로 있습니다(비급여 등은 계산에서 빠집니다).",
@@ -90,122 +28,145 @@
     ]
   },
   {
-    "id": 7,
+    "id": 3,
     "imageUrl": "",
-    "title": "The State of Developer Ecosystem 2026: A Decade of Understanding Developers",
-    "description": "This year marks the tenth edition of the State of Developer Ecosystem report. What started in 2017 as a survey about languages and tools has grown into a comprehensive study of how developers work, what they use, and how the industry is changing. The 2026 edition is based on responses from 28,945 developers across 198 […]",
+    "title": "스마트폰&middot;PC 중복 사진 한 번에 정리하는 법: 아이폰 '중복된 항목'&middot;갤럭시&middot;윈도우 무료 도구와 AI 정리 프롬프트 (2026)",
+    "description": "휴대폰 저장공간이 꽉 찼다는 알림을 보면 대부분 사진 때문입니다. 연속 촬영, 메신저로 주고받은 사진, PC로 여러 번 옮긴 사진이 겹겹이 쌓이기 때문입니다. 연말 모임과 여행 사진이 몰리기 전인 지금이 한 번 정리해 두기 좋은 때입니다. 이 글에서는 중복 사진 정리를 아이폰·갤럭시·윈도우 PC에서 무료로 하는 방법과, 남은 사진을 깔끔하게 분류하는 AI 정리 프롬프트를 소개합니다. 아이폰 메뉴 경로와 PC 도구 버전은 2026년 11월 기준 애플 공식 사용 설명서와 배포 페이지를 확인해 반영했습니다.\n이 글의 핵심 요약\n1. 정리 전에 반드시 백업부터 합니다.\n2. 아이폰은 사진 앱의 '중복된 항목'에서 병합, 갤럭시는 갤러리·저장공간 메뉴의 중복 정리 기능을 씁니다.\n3. PC는 무료 오픈소스 Krokiet(Czkawka의 새 화면)나 dupeGuru로 중복·유사 사진을 찾습니다.\n4. 폴더 구조와 파일 이름 규칙은 AI에게 설계를 맡기면 빠릅니다.\n\n\n1. 정리 전에 백업부터\n중복 정리는 삭제 작업이라 실수하면 되돌리기 어렵습니다. 아이클라우드, 구글 포토, 삼성 클라우드 중 쓰는 곳에 백업이 켜져 있는지 먼저 확인하세요. 구글 포토는 구글 계정의 무료 저장공간 15GB를 지메일·드라이브와 함께 나눠 씁니다. 삭제한 사진은 대부분 '최근 삭제된 항목'에 일정 기간 남아 있으니, 정리 직후에는 바로 비우지 않는 것이 좋습니다.\n2. 기기별 중복 사진 정리 도구 비교\n기기\n도구\n방법\n\n\n아이폰\n사진 앱 '중복된 항목' (iOS 16 이상)\n사진 앱 → 모음 → 기타 → 중복된 항목 → 병합 (이전 버전은 유틸리티 영역)\n\n\n갤럭시\n갤러리·디바이스 케어 중복 정리\n갤러리 추천 또는 설정의 저장공간 메뉴에서 중복 파일 확인 (기종·버전별 메뉴명 확인)\n\n\n구글 포토\n공간 확보, 정리 제안\n백업된 원본을 기기에서만 삭제, 스크린샷·흐린 사진 검토\n\n\n윈도우·맥 PC\nKrokiet(Czkawka), dupeGuru (무료 오픈소스)\n폴더 지정 → 중복·유사 이미지 검색 → 확인 후 삭제\n\n\n\n \n아이폰: 병합하면 화질 좋은 한 장이 남습니다\n아이폰의 '중복된 항목'은 삭제가 아니라 병합 방식입니다. 가장 품질이 좋은 사진 한 장을 남기고 관련 정보를 합칩니다. 애플 공식 사용 설명서 기준 경로는 사진 앱 → 모음 → 기타 → 중복된 항목이고, 이전 버전에서는 앨범 또는 모음 화면의 유틸리티 영역에 있으니 '중복된 항목'이라는 이름으로 찾으세요. 여러 묶음을 한꺼번에 정리하려면 화면 위의 선택을 누른 뒤 병합합니다. 보관함에 중복 사진이 없으면 이 모음 자체가 나타나지 않습니다. 메뉴가 안 보이면 사진 분석이 끝나지 않았을 수 있으니 충전 중 와이파이에 연결해 두고 기다립니다.\n\n\nPC: Krokiet(Czkawka)로 비슷한 사진까지 찾기\nPC에 쌓인 사진은 무료 오픈소스 프로그램 Czkawka(체카브카)가 편합니다. 완전히 같은 파일뿐 아니라 크기만 다른 유사 이미지도 찾아 줍니다. 처음에는 사진 폴더 하나만 지정해 결과를 확인하고, 삭제 전에 미리보기로 꼭 비교하세요. 설치 파일은 공식 GitHub 페이지에서만 받는 것이 안전합니다.\n참고로 2026년 6월 나온 12.0 버전부터 기존 GTK 화면(Czkawka GTK)은 더 이상 새 버전이 나오지 않고, 같은 엔진을 쓰는 새 화면 Krokiet(크로키엣)이 주력 프로그램이 됐습니다. 11월 현재 최신 정식 버전은 9월 9일 배포된 12.0.2입니다. GitHub 릴리스 페이지에서 이름에 krokiet가 들어간 파일 중 내 운영체제용을 고르세요(파일 이름은 배포 페이지에서 확인하세요).\n3. 남은 사진을 AI로 깔끔하게 분류하기\n중복을 지웠다면 이제 다시 찾기 쉽게 정리할 차례입니다. AI는 사진 자체를 보지 않아도 폴더 구조와 이름 규칙을 설계하는 데 큰 도움이 됩니다.\n프롬프트 1. 나에게 맞는 사진 폴더 구조 설계\n내 PC에 사진이 약 [장 수]장 있고, 주로 [예: 가족 여행, 아이 성장 기록, 업무 자료 사진, 영수증 캡처]야.\n나중에 찾기 쉽게 폴더 구조를 3단계 이내로 제안해 줘.\n1) 연도/월 기준과 주제 기준 중 어떤 방식이 나에게 맞는지 장단점을 비교해 줘.\n2) 추천 폴더 트리를 예시로 보여 줘.\n3) 앞으로 새 사진이 생겼을 때 유지하는 월 1회 루틴도 알려 줘.\n프롬프트 2. 파일 이름 일괄 변경 스크립트\n윈도우 PowerShell로 [폴더 경로] 안의 JPG·HEIC·PNG 파일 이름을 촬영 날짜 기준 'YYYY-MM-DD_HHMMSS' 형식으로 바꾸는 스크립트를 만들어 줘.\n조건: 촬영 날짜 정보가 없으면 수정 날짜를 사용, 같은 이름이 생기면 _1, _2를 붙여 덮어쓰기 방지.\n실제로 바꾸기 전에 바뀔 이름 목록만 보여 주는 미리보기 모드를 먼저 넣어 줘. 처음에는 [테스트 폴더]에서만 실행할 거야.\n프롬프트 3. 지울 사진 기준표 만들기\n사진을 정리하려는데 무엇을 지울지 기준이 없어 망설여져.\n내 상황: [예: 스크린샷 3천 장, 연속 촬영 많음, 메신저 받은 사진 많음]\n1) 바로 지워도 되는 것 / 확인 후 지울 것 / 반드시 남길 것으로 기준표를 만들어 줘.\n2) 하루 15분씩 1주일 안에 끝내는 정리 일정표를 짜 줘.\n\n\n4. 주의할 점\n백업 먼저: 클라우드와 외장하드 중 최소 한 곳에 백업한 뒤 정리합니다.\n'유사 사진'은 직접 확인: 비슷해 보여도 표정이 다른 사진일 수 있으니 자동 삭제는 피합니다.\n동기화 주의: 클라우드 동기화가 켜져 있으면 휴대폰에서 지운 사진이 클라우드에서도 지워질 수 있습니다. 서비스별 설정을 확인하세요.\n스크립트는 테스트 폴더에서: AI가 만든 스크립트는 복사본 폴더에서 먼저 실행해 결과를 확인합니다.\n5. 자주 묻는 질문 (FAQ)\nQ1. 아이폰에 '중복된 항목'이 안 보여요.\niOS 16 이상에서 제공되며, 사진 분석이 끝나야 표시됩니다. 중복 사진이 없으면 메뉴가 나타나지 않을 수도 있습니다.\nQ2. 갤럭시는 메뉴가 기종마다 다른가요?\n네. One UI 버전에 따라 갤러리 추천 기능이나 설정의 저장공간 메뉴 등 위치가 다릅니다. 설정 검색창에 '중복'을 입력하면 빠르게 찾을 수 있습니다.\nQ3. Czkawka와 Krokiet는 다른 프로그램인가요? 안전한가요?\n같은 개발자가 만든 같은 엔진의 프로그램이고, 지금은 새 화면인 Krokiet가 주력입니다. 소스가 공개된 무료 프로그램입니다. 공식 GitHub 배포 페이지에서 내려받고, 삭제 전 결과를 꼭 확인하세요.\nQ4. AI에게 사진을 직접 올려 분류해도 되나요?\n가능은 하지만 가족 얼굴, 위치 정보가 담긴 사진이 외부 서버로 전송됩니다. 개인 사진은 폴더 구조와 규칙만 AI에게 묻고, 분류는 기기 안에서 하는 것을 권합니다.\n마무리: 한 번 정리하면 월 15분이면 충분합니다\n중복 사진만 지워도 저장공간이 눈에 띄게 늘어납니다. 오늘 백업을 확인하고, 기기별 중복 정리 기능으로 먼저 정리한 뒤, AI 프롬프트로 폴더 규칙을 정해 보세요. 연말 사진이 쏟아지기 전에 끝내 두면 훨씬 편합니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/research/2026/11/state-of-developer-ecosystem-2026/",
-    "pubDate": "Tue, 10 Nov 2026 11:51:52 +0000",
-    "creator": "Nadia Lokot",
+    "link": "https://muzbox.tistory.com/483757",
+    "pubDate": "Wed, 11 Nov 2026 08:51:13 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "deveco",
-      "research",
-      "2026",
-      "developer-research",
-      "report"
+      "AI, 미래기술/AI 인사이트",
+      "AI정리프롬프트",
+      "Czkawka",
+      "Krokiet",
+      "갤럭시중복사진",
+      "구글포토용량",
+      "사진백업",
+      "사진정리방법",
+      "아이폰중복된항목",
+      "중복사진정리"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "",
+    "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+    "description": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design represents the CPU and GPU as separate debugger processes while presenting them in one debugging session. Modern AI applications rarely execute in one place. A workload can [...]\nRead More...\nThe post Extending LLDB to Debug Applications That Span CPUs and GPUs appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+    "pubDate": "Mon, 09 Nov 2026 17:00:12 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "DevInfra"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "",
+    "title": "무대 뒤에서 본 AI의 맨얼굴",
+    "description": "토스 팟캐스트  전 구글 딥마인드 팀장이 본 AI 산업의 뒷이야기",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/54833",
+    "pubDate": "Thu, 12 Nov 2026 09:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "imageUrl": "",
+    "title": "C++ Dynamic Debugging is now generally available",
+    "description": "Introduction We are excited to announce that C++ Dynamic Debugging is now generally available in all Visual Studio 2026 channels and the Microsoft C++ (MSVC) Build Tools version 14.52. In the traditional workflow for games or large applications, switching to a debug build gives you access to debug symbols at the expense of performance. In contrast, when […]\nThe post C++ Dynamic Debugging is now generally available appeared first on C++ Team Blog.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://devblogs.microsoft.com/cppblog/c-dynamic-debugging-is-now-generally-available/",
+    "pubDate": "Thu, 12 Nov 2026 16:49:13 +0000",
+    "creator": "David Li",
+    "categories": [
+      "C++",
+      "Game Development"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "",
+    "title": "노란우산 개인정보 유출 조회 방법, 문자 안 왔을 때 확인과 엠세이퍼 명의도용 방지",
+    "description": "노란우산 개인정보 유출 대상인지는 노란우산 홈페이지의 '개인정보 조회 정황 조회' 화면에서 휴대폰 본인확인을 거쳐 직접 확인할 수 있습니다. 중소기업중앙회는 대상자에게 개별 문자를 보냈고, 문자를 받지 않았다면 현재까지 확인된 조회 의심 대상에는 들어 있지 않다고 공지했습니다. 이 조회 기능은 공지 게시일(2026년 11월 14일)부터 30일간만 열립니다.\n중기중앙회 공지에 따르면 2026년 11월 11일 노란우산 홈페이지에 외부 비인가자의 비정상적 접근이 있었습니다. 실제로 조회·유출됐는지와 그 범위는 아직 조사 중입니다. 아래 내용은 2026년 11월 14일 노란우산 공식 공지와 조회 화면을 직접 열어 확인했고, 11월 15일 오전에 공지 내용이 바뀌지 않았는지 다시 확인한 것입니다.\n노란우산 개인정보 조회 정황 조회 페이지\n노란우산 개인정보 조회 정황 조회 열기\n열린 화면에서 '본인 확인으로 조회하기'를 누르고 휴대폰 본인확인을 하면, 조회 정황이 있는지와 해당 항목을 개별로 보여 준다고 안내돼 있습니다. 본인확인 이후 화면은 직접 확인하지 못했습니다. 화면이 열리지 않으면 노란우산 고객센터(1666-9988)로 문의하세요.\n\n\n출처: 중소기업중앙회 노란우산 홈페이지 화면 캡처\n문자를 받은 사람과 안 받은 사람\n내 상황공지 기준 의미할 일\n중기중앙회 개별 문자를 받음조회 의심 대상에 포함조회 화면에서 내 항목 확인, 사칭 연락 주의, 필요하면 고객센터·메일로 피해 접수\n문자를 받지 않음현재까지 확인된 조회 의심 대상 아님불안하면 조회 화면에서 한 번 더 확인\n조사 결과가 나온 뒤실제 조회·유출 여부를 개별 안내와 홈페이지 공지로 다시 알림노란우산 공지사항 확인\n문자를 받았다고 해서 정보가 실제로 빠져나간 것으로 확정된 것은 아닙니다. 공지에는 \"실제 조회 여부와 항목은 조사 결과에 따라 달라질 수 있다\"고 적혀 있습니다.\n조회 가능성이 있는 개인정보 7가지\n성명\n주민등록번호 앞 7자리\n휴대전화번호\n자택 주소, 자택 전화번호\n이메일 주소\n문자메시지·이메일 수신 동의 여부\n주민등록번호 뒷자리는 복호화가 불가능한 방식으로 암호화해 관리한다고 공지에 적혀 있습니다. 위 목록은 의심 항목 전체이고, 사람마다 일부 항목만 해당될 수 있습니다. 아이디, 비밀번호, 계좌번호는 공지의 의심 항목에 없습니다.\n\n\n출처: 중소기업중앙회 노란우산 홈페이지 화면 캡처\n문의·피해 신고처와 주말 운영 시간\n창구연락처운영 시간\n노란우산 고객센터1666-9988평일 09:00~18:00\n11월 14일(토) 14:00~18:00, 11월 15일(일) 09:00~18:00 임시 운영\n사고 문의 메일privacy_check@kbiz.or.kr공지에 시간 안내 없음\n개인정보침해 신고센터국번 없이 118공지에 시간 안내 없음\n중기중앙회는 피해가 생기면 사실을 확인한 뒤 관계 법령에 따라 피해 구제 절차를 진행하겠다고 밝혔습니다. 개인정보침해 신고센터 홈페이지는 11월 14일 확인 당시 보안점검 안내 화면이 떠 있어서, 118 전화나 국민신문고로 접수하라는 안내만 보였습니다.\n\n\n출처: 중소기업중앙회 노란우산 홈페이지 화면 캡처\n사칭 전화·문자 구별법\n공지에 따르면 중기중앙회는 어떤 경우에도 전화나 문자로 아래를 요구하지 않습니다. 이런 연락을 받았다면 응하지 말고 1666-9988로 직접 확인하세요.\n돈을 보내라거나 대출을 받으라는 요구\n부금 납부 계좌를 바꾸라는 요구\n계좌 비밀번호 입력 요구(노란우산 홈페이지는 계좌 비밀번호를 받지 않음)\n노란우산 아이디·비밀번호 입력이나 변경 요구\n출처가 불분명한 문자·이메일의 링크는 누르지 말고, 노란우산 홈페이지는 주소창에 직접 입력해 들어가는 편이 안전합니다.\n명의도용이 걱정되면: 엠세이퍼 가입사실 조회와 가입제한\n이름, 생년월일이 들어간 주민번호 앞자리, 휴대폰 번호가 함께 노출되면 내 명의 휴대폰 개통이 걱정될 수 있습니다. 이때는 한국정보통신진흥협회가 운영하는 명의도용방지서비스(엠세이퍼)를 쓸 수 있습니다. 노란우산 공지가 권한 조치는 아니고, 개인이 추가로 할 수 있는 예방책입니다.\n엠세이퍼 명의도용방지서비스 열기\n첫 화면의 '가입사실현황조회'에서 내 명의로 개통된 통신 회선을 한꺼번에 볼 수 있고, '가입제한 서비스'로 휴대폰 신규 개통을 미리 막을 수 있습니다. 둘 다 본인확인이 필요합니다. 문의는 부정가입·명의도용 방지 상담센터(1670-1382, 평일 09:00~18:00)입니다.\n가입제한 서비스 변경 내용(엠세이퍼 11월 12일 공지)내용\n기본 제공 시작2026년 11월 20일부터 이동통신 신규가입·번호이동·명의변경 때 기본 제공(개통 단계에서 거부 가능)\n기존 가입자자동 적용 안 됨, 원하면 엠세이퍼 홈페이지·PASS앱·카카오뱅크앱·통신사 직영점에서 직접 신청\n적용 범위통신사 한 곳에만 신청해도 전체 통신사에 제한 적용\n신청·해지 시간오전 9시~오후 10시\n주의새 휴대폰을 개통하기 전에 본인이 직접 해지해야 함(대리 해지 불가)\n같은 날 알려진 '착' 개인정보 유출과는 다른 사고입니다\n11월 14일에는 한국조폐공사의 모바일 지역사랑상품권 앱 '착(chak)'에서도 이용자 3,083명의 개인정보가 조회됐다는 보도가 나왔습니다(보도 기준, 조폐공사 공지 원문은 미확인). 노란우산 조회 화면은 노란우산 가입자만 확인하는 곳입니다. 착 이용자는 조폐공사의 개별 안내를 확인하세요.\n자주 묻는 질문\n조회 화면은 언제까지 쓸 수 있나요?\n조회 화면에 \"공지 게시일로부터 30일간 이용 가능\"이라고 적혀 있습니다. 공지 게시일은 2026년 11월 14일입니다. 정확한 종료 날짜와 시각은 따로 공지되지 않았습니다.\n문자를 못 받았는데 정말 괜찮은가요?\n공지는 \"개별 문자를 받지 않은 고객은 현재까지 확인된 조회 의심 대상에 포함되어 있지 않다\"고 밝혔습니다. 다만 조사가 끝나지 않았으니 노란우산 공지사항에 올라올 결과 안내를 확인하세요.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://app-developer.tistory.com/entry/%EB%85%B8%EB%9E%80%EC%9A%B0%EC%82%B0-%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EC%9C%A0%EC%B6%9C-%EC%A1%B0%ED%9A%8C-%EB%B0%A9%EB%B2%95-%EB%AC%B8%EC%9E%90-%EC%95%88-%EC%99%94%EC%9D%84-%EB%95%8C-%ED%99%95%EC%9D%B8%EA%B3%BC-%EC%97%A0%EC%84%B8%EC%9D%B4%ED%8D%BC-%EB%AA%85%EC%9D%98%EB%8F%84%EC%9A%A9-%EB%B0%A9%EC%A7%80",
+    "pubDate": "Sun, 15 Nov 2026 06:55:53 +0900",
+    "creator": "브리핑허브",
+    "categories": [
+      "환불&middot;조회"
     ]
   },
   {
     "id": 8,
     "imageUrl": "",
-    "title": "ReSharper 2026.3: Claude Agent and Codex in Visual Studio, .NET 11 and C# 15 Support, and More",
-    "description": "ReSharper 2026.2 brought Junie to Visual Studio as ReSharper’s first coding agent. In 2026.3, you can also pick Claude Agent or Codex in the same tool window. All three agents can use ReSharper’s refactoring skill to run refactorings such as Rename. This release also supports .NET 11 and C# 15, and the test runner now […]",
+    "title": "빌려온 품격",
+    "description": "소비재, 특히 F&B에 우린 꽤 많이 투자한다. 원래도 먹고 마시고 바르고 입는 사업을 좋아했는데, 최근 몇 년 동안, 이 분야에서 한국이 두각을 나타내면서 더 집중하게 된 것 같다. 특히, 요새는 스트롱이 투자한 소비재 회사들이 어떻게 하면 한국을 나가서 해외로 잘 확장할 수 있을지 고민을 많이 하고 있다. 우리나 우리가 투자한 회사의 경영진이 가장 매력적으로 생각하는(...)",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/dotnet/2026/11/10/resharper-2026-3-release/",
-    "pubDate": "Tue, 10 Nov 2026 21:43:46 +0000",
-    "creator": "Mehul Harry",
+    "link": "https://www.thestartupbible.com/2026/11/borrowed-elegance.html",
+    "pubDate": "Sun, 15 Nov 2026 21:24:00 +0000",
+    "creator": "Kihong Bae",
     "categories": [
-      "net-tools",
-      "agentic-ai",
-      "ai",
-      "releases",
-      "resharpercplusplus",
-      "resharper",
-      "release"
+      "Uncategorized",
+      "consumer",
+      "erewhon",
+      "korea",
+      "Whole Foods"
     ]
   },
   {
     "id": 9,
     "imageUrl": "",
-    "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
-    "description": "Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton’s productive programming model.  TLX introduces explicit warp-group and cluster-level orchestration, letting developers adopt new hardware capabilities without sacrificing velocity.  TLX has demonstrated performance improvements in RecSys training, RecSys inference, and large-scale LLM pretraining. Modern GPU architectures increasingly [...]\nRead More...\nThe post How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale appeared first on Engineering at Meta.",
+    "title": "MSVC Build Tools Preview updates – November 2026",
+    "description": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers the last month’s updates of the Preview build tools, currently targeting the v14.53 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Although you can acquire the […]\nThe post MSVC Build Tools Preview updates – November 2026 appeared first on C++ Team Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
-    "pubDate": "Tue, 10 Nov 2026 16:59:31 +0000",
-    "creator": "Unknown",
+    "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-november-2026/",
+    "pubDate": "Fri, 13 Nov 2026 18:12:10 +0000",
+    "creator": "Eric Brumer",
     "categories": [
-      "DevInfra",
-      "ML Applications",
-      "Open Source",
-      "Production Engineering"
+      "MSVC"
     ]
   },
   {
     "id": 10,
     "imageUrl": "",
-    "title": "Forrester Consulting Finds IntelliJ IDEA Delivered 155% ROI and Highlights Open Approach to AI",
-    "description": "We’re excited to share Forrester’s newly released Total Economic Impact™ (TEI) study of IntelliJ IDEA, which JetBrains commissioned to understand how IntelliJ IDEA has delivered value historically and how it continues to do so. Forrester interviewed nine senior engineering and technology leaders whose organizations have between 400 and 4,000 IntelliJ IDEA seats. Based on those […]",
+    "title": "퇴사 다음 날",
+    "description": "퇴사 다음 날 지방에 내려가던 중이었다.\n휴게소에 들러 자켓을 벗는데..\n...\n...\n...\n\n\n사원증을 메고 왔다는 걸 깨달았다.\n \n그러고보니 퇴사할 때 회사에 반납했어야..",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/idea/2026/11/forrester-consulting-finds-intellij-idea-delivered-155-roi-and-highlights-open-approach-to-ai/",
-    "pubDate": "Thu, 12 Nov 2026 14:43:36 +0000",
-    "creator": "Colette Des Georges",
-    "categories": []
+    "link": "https://hodolman.tistory.com/87",
+    "pubDate": "Mon, 9 Nov 2026 15:03:39 +0900",
+    "creator": "호돌맨",
+    "categories": [
+      "우당탕탕 대모험",
+      "정신머리",
+      "퇴사"
+    ]
   },
   {
     "id": 11,
     "imageUrl": "",
-    "title": "강릉 민생지원금 신청 방법, 가족 대리신청 서류와 10월 전입&middot;출생아 지급 여부, 강릉페이 사용처",
-    "description": "강릉시 민생안정지원금(강릉 민생지원금)은 2026년 9월 30일 기준 강릉시민 1인당 10만 원을 강릉페이로 주는 지원금이고, 12월 31일(목)까지 강릉페이 앱이나 주소지 읍면동 주민센터에서 신청합니다. 이번 주는 출생연도 끝자리로 신청 요일이 나뉘고, 11월 14일(토)부터는 아무 날이나 신청할 수 있습니다. 받은 돈은 2027년 2월 28일(일)까지 쓰지 않으면 남은 금액이 자동으로 사라집니다.\n아래 내용은 강릉시 지급 공고(제2026-1692호)와 신청서·위임장 서식, 강릉시 공지사항, 민생안정지원금 신청 페이지를 2026년 11월 10일 오후에 직접 확인해 정리했습니다. 특히 가족이 대신 신청할 때 필요한 서류, 10월 이후 이사하거나 아이가 태어난 경우처럼 헷갈리는 부분을 공고 원문 기준으로 나눴습니다.\n강릉시 민생안정지원금 신청 페이지 열기\n이 페이지의 '신청하기'를 누르면 휴대폰 본인인증 창이 열리고, 강릉페이 앱에 본인 명의 강릉페이 카드가 등록돼 있어야 신청할 수 있습니다. 카드가 없거나 휴대폰 신청이 어렵다면 신분증을 들고 주소지 주민센터로 가면 됩니다. 페이지가 안 열리면 강릉시 전담 콜센터(033-640-4102~3)나 강릉페이 고객센터(1811-8682)에 문의하세요.\n\n\n출처: 강릉시 민생안정지원금 신청 페이지 화면 캡처\n이번 주 요일제와 지급일\n요일제는 창구 혼잡을 막으려고 첫 주(11월 9일~13일)에만 적용하며, 앱 신청도 같은 규칙을 따릅니다. 신청한 다음 날 강릉페이 카드로 충전되지만, 금·토·일에 신청하면 다음 주 월요일에 한꺼번에 들어옵니다.\n신청일\n출생연도 끝자리\n충전일\n\n\n\n\n11월 11일(수)\n3, 8\n11월 12일(목)\n\n\n11월 12일(목)\n4, 9\n11월 13일(금)\n\n\n11월 13일(금)\n5, 0\n11월 16일(월)\n\n\n11월 14일(토)~15일(일)\n제한 없음\n11월 16일(월)\n\n\n11월 16일(월)~12월 31일(목)\n제한 없음\n월~목 신청은 다음 날, 금~일 신청은 다음 주 월요일\n\n\n\n예를 들어 1988년생은 끝자리가 8이라 11일(수)에 신청할 수 있고, 그날을 놓쳐도 14일(토)부터 다시 신청하면 됩니다. 평일 공휴일에 신청하면 다음 평일에 충전됩니다. 주민센터 창구는 평일 9시~18시, 앱은 24시간 열려 있지만 마지막 날인 12월 31일은 18시에 마감합니다.\n받는 사람과 받지 못하는 경우\n대상은 2026년 9월 30일 23시 59분 기준으로 강릉시에 주민등록을 둔 사람, 강릉시에 체류지를 둔 결혼이민자(F-6)와 영주권자(F-5)입니다. 사망자, 주민등록 말소자, 거주불명자, 재외국민, 국외이주신고자는 받지 못합니다. 그 사이 이사하거나 출생·사망이 있었다면 아래 표로 확인하세요.\n상황\n지급\n할 일\n\n\n\n\n10월 1일 이후 강릉으로 전입\n안 됨\n기준일에 강릉 주민이 아니었으므로 대상 아님\n\n\n10월 1일 이후 다른 지역으로 전출\n됨\n기준일에 강릉 주민이었으므로 신청 가능\n\n\n9월 30일 이전 출생, 출생신고는 10월 이후\n됨\n주민센터에 이의신청 → 출생신고 확인 후 지급\n\n\n기준일 전후 사망\n안 됨\n사망신고 여부와 관계없이 지급 불가\n\n\n결혼이민자(F-6)·영주권자(F-5)\n됨\n앱 신청 불가, 주민센터 방문 신청만 가능\n\n\n\n\n\n출처: 강릉시 민생안정지원금 신청 페이지 화면 캡처\n내 몫은 누가 신청하나\n2007년 12월 31일 이전 출생자: 본인이 따로 신청하고 본인 강릉페이 카드로 받습니다. 2007년생 고3도 여기에 들어갑니다.\n2008년 1월 1일 이후 출생자(미성년자): 주민등록표상 세대주가 신청하고 세대주가 받습니다.\n성인 세대주가 없는 미성년자: 주민등록표에 세대주인 성인이 없거나 세대주와의 관계가 '동거인'으로 적혀 있으면 미성년자가 직접(또는 대리로) 신청할 수 있습니다.\n4인 가족이라도 부부는 각자 신청해야 하고, 자녀 몫은 세대주가 신청합니다. 성인 가족의 몫을 대신 받으려면 아래 대리신청 서류를 갖춰 주민센터에 가야 합니다.\n가족이 대신 신청할 때 서류\n대리신청은 아무나 할 수 있는 것이 아니라, 공고에 정한 세 가지 관계만 됩니다. 같은 집에 살지 않는 배우자나 부모·자녀가 대신 갈 때는 서류가 하나 더 필요합니다.\n대리인\n필요 서류\n\n\n\n\n법정대리인\n① 대리인 신분증\n② 지급대상자 명의 위임장\n③ 관계 증명 서류(가족관계증명서, 주민등록표 등본 등)\n\n\n주민등록상 같은 세대원('동거인' 제외)\n①+②+③\n\n\n같은 세대가 아닌 배우자, 부모·자녀 등 직계가족\n①+②+③+④ 지급대상자 신분증(사본 가능)\n\n\n\n위임장 한 장에 위임하는 사람을 4명까지 적을 수 있습니다. 위임장과 신청서 서식은 강릉시 공지사항 원문에 첨부돼 있습니다. 결혼이민자(F-6)를 배우자가 대신 신청할 때는 상세 가족관계증명서를 추가로 냅니다.\n주민센터 방문 신청 순서\n주민등록상 주소지를 관할하는 읍면동 주민센터로 갑니다.\n신분증(주민등록증, 운전면허증 등)과 본인 강릉페이 카드를 냅니다. 카드가 없으면 그 자리에서 받을 수 있습니다.\n신청서를 쓰고, 대리신청이면 위 서류를 함께 냅니다.\n다음 날(금~일 신청은 다음 주 월요일) 강릉페이 카드에 10만 원이 충전됩니다.\n외국인(F-5, F-6)은 외국인등록증이나 영주증을 가져가고, 체류자격 변경 사항이 포함된 외국인등록 사실증명을 함께 내면 접수가 빨라집니다. 강릉시 외국인근로자 지원센터는 외국인에게 가급적 11월 23일(월)부터 신청하라고 안내했습니다.\n읍면동 주민센터 전화번호\n읍면동\n전화\n읍면동\n전화\n\n\n\n\n주문진읍\n033-660-3424\n교2동\n033-660-3799\n\n\n성산면\n033-660-3531\n포남1동\n033-660-3820\n\n\n왕산면\n033-660-3546\n포남2동\n033-660-3842\n\n\n구정면\n033-660-3569\n초당동\n033-660-3864\n\n\n강동면\n033-660-3610\n송정동\n033-660-3879\n\n\n옥계면\n033-660-3644\n내곡동\n033-660-3907\n\n\n사천면\n033-660-3676\n강남동\n033-660-3931\n\n\n연곡면\n033-660-3693\n성덕동\n033-660-3957\n\n\n홍제동\n033-660-3717\n경포동\n033-660-3989\n\n\n중앙동\n033-660-3732\n옥천동\n033-660-3753\n\n\n교1동\n033-660-3775\n \n \n\n\n\n강릉페이 앱으로 신청할 때\n강릉페이 앱을 설치하고 본인 명의 강릉페이 카드를 앱에 등록합니다. 카드가 없으면 앱에서 먼저 카드를 신청합니다.\n본인 출생연도 끝자리에 맞는 날(14일부터는 아무 날)에 위 신청 페이지를 열고 '신청하기'를 누릅니다.\n휴대폰 본인인증을 마친 뒤 화면 안내에 따라 신청하고, 다음 날 '신청결과 조회'와 카드 잔액을 확인합니다.\n본인인증 뒤 화면은 실제 신청자 정보가 필요해 이 글에서는 확인하지 못했습니다. 신청 페이지는 '본인 앱에 등록된 카드로만 신청이 가능하다'고 안내하며, 자녀 몫을 앱에서 함께 신청할 수 있는지는 공고에 없으니 콜센터에 먼저 물어보세요. 위의 대리신청 서류는 주민센터 방문 신청 기준입니다.\n어디서 쓸 수 있나\n지원금은 강릉시 안의 연 매출 30억 원 이하 강릉페이 가맹점에서만 쓸 수 있고, 신청서에도 사용 지역과 업종이 제한된다고 적혀 있습니다. 같은 업종이라도 매장마다 쓸 수 있는지가 다를 수 있으니, 강릉페이 앱이나 강릉시청 홈페이지의 '강릉페이 가맹점 현황'에서 매장을 먼저 찾아보세요. 사용 가능한 매장에는 강릉시가 배포한 '사용가능매장' 스티커가 붙어 있을 수 있습니다.\n사용기한: 2027년 2월 28일(일)까지, 남은 금액은 자동 소멸\n금지: 재판매나 현금화 등 목적과 다른 사용, 거짓 신청은 환수되고 처벌받을 수 있음\n못 받았거나 대상인데 빠졌을 때\n대상인데 신청이 안 되거나 대상에서 빠졌다면 12월 31일까지 주소지 주민센터에 이의신청을 합니다. 이의신청은 온라인으로 할 수 없고, 이의신청서와 사유를 증명할 서류를 내면 시가 확인한 뒤 지급합니다. 제도 전반은 강릉시 경제진흥과 민생안정지원금 TF팀(033-640-4102, 4103)이 안내합니다.",
+    "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://app-developer.tistory.com/entry/%EA%B0%95%EB%A6%89-%EB%AF%BC%EC%83%9D%EC%A7%80%EC%9B%90%EA%B8%88-%EC%8B%A0%EC%B2%AD-%EB%B0%A9%EB%B2%95-%EA%B0%80%EC%A1%B1-%EB%8C%80%EB%A6%AC%EC%8B%A0%EC%B2%AD-%EC%84%9C%EB%A5%98%EC%99%80-10%EC%9B%94-%EC%A0%84%EC%9E%85%C2%B7%EC%B6%9C%EC%83%9D%EC%95%84-%EC%A7%80%EA%B8%89-%EC%97%AC%EB%B6%80-%EA%B0%95%EB%A6%89%ED%8E%98%EC%9D%B4-%EC%82%AC%EC%9A%A9%EC%B2%98",
-    "pubDate": "Tue, 10 Nov 2026 16:19:25 +0900",
-    "creator": "브리핑허브",
-    "categories": [
-      "지원금&middot;신청"
-    ]
+    "link": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
+    "pubDate": "Mon, 09 Nov 2026 17:01:02 GMT",
+    "creator": "Netflix Technology Blog",
+    "categories": []
   },
   {
     "id": 12,
-    "imageUrl": "",
-    "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
-    "description": "How Meta's Reality Labs brought Cuttlefish and its QEMU backend to macOS and Apple silicon. [...]\nRead More...\nThe post Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/",
-    "pubDate": "Fri, 13 Nov 2026 17:00:39 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "Android"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "ReSharper C++ 2026.3: Class Layout, Format String Analysis, And More",
-    "description": "ReSharper C++ 2026.3 is here, with a new Class Layout tool window that visualizes the memory layout of your classes and helps you spot wasted space.. This release also improves format string analysis to cover std::format, std::print, and the {fmt} library. Other highlights include updates to the Change Signature and Extract Method refactorings, as well […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/rscpp/2026/11/10/resharper-cpp-2026-3-class-layout-format-string-analysis-and-more/",
-    "pubDate": "Tue, 10 Nov 2026 16:37:04 +0000",
-    "creator": "Igor Akhmetov",
-    "categories": [
-      "net-tools",
-      "news",
-      "releases",
-      "resharpercplusplus",
-      "cpp",
-      "c-26",
-      "resharper-c"
-    ]
-  },
-  {
-    "id": 14,
     "imageUrl": "",
     "title": "겸손의 힘",
     "description": "얼마 전에 지인과 점심을 먹으면서 스트롱의 역사와 요새 내가 생각하는 벤처 시장에 관한 생각에 관해 이야기했다. 우리가 투자를 시작한지 올해가 15년차라고 하니 이 분이 깜짝 놀라면서 “15년이나 됐는데 기홍님은 질리거나 싫증나지 않나요? 기홍님 에너지가 좋아서 VC업 하신지 한 3년 된 줄 알았어요.”라는 말을 했다. 본인은 지금 다니는 회사에서 9년 일했는데 매일 아침 회사 가기가 싫어서(...)",
@@ -223,18 +184,54 @@
     ]
   },
   {
-    "id": 15,
+    "id": 13,
     "imageUrl": "",
-    "title": "695일차 - 액션게임 게속 개발중",
-    "description": "영상: https://www.youtube.com/watch?v=cELoTyG9eMY\n\n\n\n \n액션게임 계속 개발중입니다.\n잡다한 이야기 포함",
+    "title": "헤르메스 나만의 MCP 서버 붙여보자",
+    "description": "헤르메스가 아예 내가 하는 일을 처리하게 만들려면 여러가지 설정과 말을 복잡하게 만들어서 시키느니\n그냥 typescript 로 mcp 서버를 만드는게 맞는거 같다.\n \n어떻게든 mcp 서버 안만들꺼라면\n구글독스에 관련 내용이 잔뜩 올라가면 되긴한다\n\"구글독스에서 xxxx 읽어와\"\n\"처리해서 xxx 에 글 저장해\" 말을 풀어 쓰면 해결할 수 있긴하다.\n이 경우 어떻게든 구글독스에 뭔가 입력해야하는 과정이 필요한데\ntypescript 쓸줄 안다면 데이터가 들어올때 자동으로 처리해버리면된다.\n예를들어 웹페이지에 내게 요청하는 기능을 만들었다고 하면\ndb 에 저장하는 웹페이지를 구현했을 것이다.\n아직까지는 헤르메스가 이걸 알 수는 없다. db 를 읽어서 판단해야하는데 연결이 안되어있으니\n그래서 mcp 서버에 함수를 만들어서 \"내 도구 -> 대기중인 요청 가져오기\" 같은걸 만들면\n헤르메스에게 \"내 도구 에서 대기중인요청을 가져와서 알려줘\"\n이러면 가져올 수 있게 된다. \n보통은 \"가져와서 처리한다음 답장을 써줘\" 라고 필요한 도구들을 모두 생성하는 식이다.\n요청 가져오기 \n답장 저장하기 \n이런 식의 도구를 생성하면 되겠다.\nmcp 서버는 typescript 로 만들면 되는데 문제는\nmcp 서버의 이름과 설명이였다.\n이름과 설명이 AI 가 인식하는 방법이기 때문에 자세히 써야하고 이름도 통일해야한다.\n예를 들어 \"내 도구\" 를 \"맥미니 서버\" 라고 적으면 맥용 이상한 도구들을 사용하려다 실패하게 된다.\n그래서 특이한 이름을 지어야만했다.\n이름이 여러군데 적혀있으니 찾아서 통일 시켜주자\n먼저 서버 시작 부분\nconst server = new McpServer({\n  name: \"sid-mcp-server\",\n  version: \"1.0.0\",\n});\n \n버전과 이름이 있는데\n예제코드를 처음 받을때 \"단어-단어-단어\" 이런식으로 되어있어서 그대로 썼다.\n \n \n\n\n \n \n이 그림은 기능함수 에대한 코드인데 장황하게 써야했다.\n처음엔 \"내도구의 문서 불러오기\" 라고 장황하게 썼는데 \n내도구가 너무 흔한 이름이고 인식이 될떄까지 이름을 여러번 고쳐야해서 \n나중엔 함수에 앱 이름은 언급하지 않았다. \n없으면 앱이름이 바껴도 든드릴 필요가 없으니 편한다.\n함수에 대한 설명만 자세히 적자.\n \n재미니에게 hermes 애이전트용 mcp 서버 코드 만들어 달라고 하면 만들어준다.\n약간 수정해서 문서 읽기와 불러오기 만 만들었다.\n \n헤르메스 설정파일에도 써야됨\n~/.hermes/config.yaml\n을 열어서 mcp_server 를 검색한다.\nmcp_servers 를 설명하는 문서가 중간쯤에 있는데 \n거기 밑에다 적당히 붙여 넣어줬다.\nmcp_servers: \n  sid_mcp_server: \n    command: \"/Users/gunil/.bun/bin/bun\" \n    args: \n      - \"/Users/gunil/pto/pi4server/index_mac_mcp.ts\" \n    enabled: true \n\ntypescript 고 bun 으로 실행시키 때문에 bun 명령어의 정확한 주소를 적어야한다. bash 가 없기 때문에 bun 이라고만 적으면 못찾는다.\nbun 명령어 위치는 whereis bun 이라고 치면 알려준다.\n \nmcp_servers 의 하부 키값으로 sid_mcp_server 이걸 적었는데\ntypescript 코드에 \" sid-mcp-server\" 동일하게 맞췄다.\n여기서는 단어가 밑줄(_) 로 구분되는게 특징인거 같다\n\nhermes 콘솔로 들어가서 기능을 사용해본다.\n\n\n도구이름이 인식이 잘 안되서 이름을 정확하게 써줬다.\n\n\n툴을 찾는다.\n\n\n호출에  성공했다.\n \n이제는 더 복잡한 기능을 구현하면 된다.\n예를 들어 \n홈페이지에 요청자 글을 가져와서\n분문의 내용을 보고 처리해주고 \n답장을 저장해\n처리할 수 없다면 답장은 저장하지말고 나에게 매신저로 알람을 보내\n \n이런식으로 말이다.\n에이전트들이 있는 방에 메세지를 쓰도록한다면 \n\n쓴 메시지를 다른 에이전트가 처리하는 것도 가능할 것이다.\n \n메시지들을 계속 연결하다보면 자동화가 되는 것이다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://serverdown.tistory.com/1700",
-    "pubDate": "Wed, 11 Nov 2026 18:04:47 +0900",
+    "link": "https://serverdown.tistory.com/1702",
+    "pubDate": "Sun, 15 Nov 2026 05:34:01 +0900",
     "creator": "SID-NFT",
     "categories": [
-      "프로그래밍/개발메모",
-      "개발로그"
+      "프로그래밍/개발메모"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "",
+    "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
+    "description": "Your algorithm is a suite of AI-powered tools that makes Facebook recommendations more transparent and steerable, with a single editable view of the interests that shape Feed and Reels. We’re sharing how Your algorithm turns people’s natural language preferences into responsive recommendations, and how LLMs are tailored to specific tasks within the system. Traditionally, the [...]\nRead More...\nThe post Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations appeared first on Engineering at Meta.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/",
+    "pubDate": "Tue, 10 Nov 2026 17:00:49 +0000",
+    "creator": "Unknown",
+    "categories": [
+      "ML Applications"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "",
+    "title": "챗GPT&middot;제미나이로 여행 계획 10분 만에 짜기: 일정&middot;동선&middot;예산부터 항공&middot;호텔 조회까지 복사해 쓰는 프롬프트 (2026 연말 여행)",
+    "description": "여행 계획을 세우다 보면 가장 오래 걸리는 일은 검색입니다. 블로그 수십 개를 열어 놓고 동선을 맞추고, 숙소 위치를 비교하고, 예산을 엑셀에 정리하다 보면 출발 전부터 지치기 마련입니다. 이번 글에서는 챗GPT나 제미나이 같은 AI 챗봇에게 초안 작업을 맡기고, 사람은 확인과 결정만 하는 방식으로 여행 계획을 짜는 방법을 정리했습니다. 2026년 연말·2027년 연초 여행을 준비하고 있다면 오늘 바로 써먹을 수 있는 프롬프트도 함께 담았습니다.\n이 글의 핵심 요약\n1. AI에게는 날짜, 인원, 예산, 여행 스타일 4가지 조건을 먼저 알려 줍니다.\n2. 일정 초안 → 동선 정리 → 예산표 → 준비물 순서로 나눠서 물어보면 결과가 훨씬 정확합니다.\n3. 영업시간, 입장료, 교통 요금 같은 정보는 AI 답변을 그대로 믿지 말고 공식 사이트에서 다시 확인합니다.\n4. 여권번호, 예약번호 같은 개인정보는 AI 채팅창에 넣지 않습니다.\n1. 왜 AI로 여행 계획을 짜야 할까요\n작업\n직접 할 때\nAI에게 맡길 때\n\n\n일정 초안\n블로그·카페 후기 검색, 메모 정리\n조건만 알려 주면 날짜별 일정표 초안\n\n\n동선 정리\n지도 앱에서 장소를 하나씩 비교\n가까운 장소끼리 묶어 하루 코스로 재배치\n\n\n예산 계산\n항목별로 직접 표 만들기\n항목·금액 표 자동 정리, 1인당 금액 계산\n\n\n준비물\n지난 여행 기억에 의존\n날씨·일정에 맞춘 체크리스트\n\n\n\n \nAI가 잘하는 일은 흩어진 조건을 한 번에 정리해 초안을 만드는 것입니다. 반대로 실시간 가격, 휴무일, 예약 가능 여부처럼 자주 바뀌는 정보는 틀릴 수 있습니다. 그래서 \"초안은 AI, 확인은 사람\"이라는 역할 분담이 핵심입니다.\n2. STEP 1. 여행 조건 4가지 먼저 정하기\nAI에게 \"오사카 3박 4일 일정 짜 줘\"라고만 하면 누구에게나 똑같은 관광 코스가 나옵니다. 나에게 맞는 일정을 받으려면 아래 4가지를 먼저 정리해 두세요.\n날짜와 시간: 출발·도착 날짜, 항공편이나 열차 도착 시각\n인원과 구성: 성인 몇 명, 아이·부모님 동반 여부, 체력 수준\n예산: 숙소와 교통을 포함한 총예산 또는 1인당 예산\n여행 스타일: 맛집 위주, 쇼핑, 자연·산책, 사진 명소, 느긋한 휴식 등\n3. STEP 2. 일정 초안 받기 (복사해 쓰는 프롬프트)\n조건을 정리했다면 아래 프롬프트의 대괄호 부분만 바꿔서 챗GPT나 제미나이에 붙여 넣으세요.\n너는 꼼꼼한 여행 플래너야. 아래 조건으로 날짜별 여행 일정을 표로 짜 줘.\n- 여행지: [도시/지역]\n- 기간: [출발일] ~ [귀국일], 첫날 [도착 시각] 도착, 마지막 날 [출발 시각] 출발\n- 인원: [예: 성인 2명, 초등학생 1명]\n- 예산: 숙소 제외 1인당 [금액]원\n- 스타일: [예: 맛집과 산책 위주, 하루 이동은 2만 보 이내]\n표는 \"날짜 | 시간대 | 장소 | 할 일 | 예상 소요 시간\" 열로 만들고, 하루에 장소는 4곳을 넘기지 마. 영업시간이나 휴무일이 확실하지 않은 곳은 \"확인 필요\"라고 표시해 줘.\n마지막 문장이 중요합니다. AI가 모르는 정보를 아는 척하지 않도록 \"확인 필요\" 표시를 요구하면, 나중에 어떤 부분을 검색해야 하는지 바로 알 수 있습니다.\n\n\n4. STEP 3. 동선 정리와 플랜 B 만들기\n초안을 받으면 같은 날 일정인데 도시 반대편을 오가는 경우가 종종 있습니다. 이때는 이어서 동선 정리를 부탁합니다.\n방금 일정에서 하루 동안 이동 거리가 너무 긴 날이 있으면, 가까운 장소끼리 같은 날로 묶어서 다시 배치해 줘. 각 날짜마다 대표 이동 수단(도보, 지하철, 버스, 택시)도 적어 줘. 그리고 비가 오거나 장소가 문을 닫았을 때 대신 갈 수 있는 실내 장소를 날짜별로 1곳씩 플랜 B로 추가해 줘.\nAI가 정리한 장소 목록은 구글 지도나 네이버 지도에 하나씩 저장해 두면 실제 거리와 이동 시간을 눈으로 확인할 수 있습니다. 지도에서 보니 너무 멀다 싶으면 \"○일 차의 A와 B를 다른 날로 바꿔 줘\"처럼 짧게 수정 요청하면 됩니다.\n5. STEP 4. 예산표 자동으로 정리하기\n일정이 확정되면 예산을 정리할 차례입니다. 이미 알고 있는 금액(항공권, 숙소)은 직접 알려 주고, 나머지만 AI에게 예상해 달라고 하는 것이 정확합니다.\n위 일정 기준으로 여행 예산표를 만들어 줘. 항공권은 1인 [금액]원, 숙소는 총 [금액]원으로 이미 정해졌어. 나머지 식비, 현지 교통비, 입장료, 쇼핑·기타 비용은 보통 수준으로 예상해서 넣어 줘. 표는 \"항목 | 예상 금액 | 비고\" 열로 만들고, 마지막에 총액과 1인당 금액을 계산해 줘. 예상 금액은 \"추정\"이라고 표시하고, 환율은 내가 알려 주는 값 [1단위 = 금액원]을 사용해.\n환율을 직접 알려 주는 이유는 AI가 오래된 환율로 계산하는 경우가 있기 때문입니다. 표가 나오면 구글 시트나 엑셀에 붙여 넣고 여행 중 실제 지출을 옆 열에 기록해 두면 간단한 여행 가계부로도 쓸 수 있습니다.\n\n\n6. STEP 5. 준비물 체크리스트와 현지 회화\n출발 전 마지막 단계는 준비물입니다. 여행지 날씨와 일정을 반영한 체크리스트를 받아 두면 빠뜨리는 물건이 크게 줄어듭니다.\n[여행지]에 [월] [날짜]부터 [박수]박 여행을 가. 위 일정을 참고해서 준비물 체크리스트를 서류·전자기기·의류·세면도구·상비약·기타로 나눠 체크박스 형태로 만들어 줘. 아이와 함께 가는 경우 필요한 물건은 따로 표시해 줘. 마지막에 식당 주문, 길 묻기, 계산할 때 쓸 수 있는 현지어 표현 10개를 한국어 발음과 함께 정리해 줘.\n날씨는 AI가 평균적인 기후만 알려 줄 수 있으니, 출발 2~3일 전에 기상청이나 날씨 앱으로 실제 예보를 확인하고 옷차림을 조정하세요.\n7. 2026년에 달라진 점: 제미나이에서 항공편·호텔까지 바로 조회\n예전에는 AI가 만든 일정표를 들고 항공권 사이트와 숙소 사이트를 따로 오가야 했습니다. 지금은 제미나이 앱에 로그인한 상태라면 Google 항공편(Google Flights)과 Google 호텔의 공개 정보를 끌어와 항공편과 호텔을 대화 안에서 바로 찾아볼 수 있습니다. 출발·도착 도시, 날짜, 최대 가격, 경유 횟수, 인원, 좌석 등급 같은 조건으로 항공편을 찾고, 지역·날짜·박수·인원·편의시설 같은 조건으로 호텔을 찾는 방식입니다.\n[출발 도시]에서 [여행지]로 가는 항공편을 [출발일]~[귀국일] 왕복, 성인 [인원]명, 직항 우선으로 찾아 줘. 1인 왕복 [금액]원 이하인 편만 보여 주고, 같은 날짜에 [여행지] [지역] 근처 호텔 중 1박 [금액]원 이하인 곳 3곳을 함께 정리해 줘. 마지막으로 이 항공 시간에 맞춰 첫날과 마지막 날 일정을 다시 조정해 줘.\nAI가 보여 준 요금과 빈 객실은 조회 시점 기준이라 금방 바뀔 수 있습니다. 결제는 항공사나 예약 사이트에서 최종 금액을 다시 확인한 뒤에 하세요. 챗GPT에서도 익스피디아 같은 여행 앱을 연결해 숙소와 항공편을 찾는 기능이 생겼지만, 지원 국가와 언어가 계정마다 다를 수 있으니 내 계정의 앱(커넥터) 목록에 보이는지 먼저 확인하세요.\n8. 주의사항과 활용 팁\n최신 정보는 반드시 재확인: 영업시간, 휴무일, 입장료, 교통 요금, 비자·입국 조건은 공식 홈페이지나 외교부 해외안전여행 사이트에서 다시 확인합니다.\n개인정보 입력 금지: 여권번호, 항공·숙소 예약번호, 카드 정보는 AI 채팅창에 넣지 않습니다. 일정 정리에 필요한 것은 날짜와 장소뿐입니다.\n대화를 한 창에서 이어 가기: 일정, 동선, 예산, 준비물을 같은 대화창에서 순서대로 물어보면 AI가 앞의 조건을 기억해 답변이 일관됩니다.\n최종본은 따로 저장: 확정된 일정표는 메모 앱이나 구글 문서에 복사해 두고, 오프라인에서도 볼 수 있게 캡처해 두면 현지에서 인터넷이 불안정할 때도 안심입니다.\n\n\n9. 자주 묻는 질문 (FAQ)\nQ1. 챗GPT와 제미나이 중 어느 쪽이 여행 계획에 더 좋나요?\n일정표 초안과 예산 정리는 둘 다 충분히 잘합니다. 구글 서비스를 자주 쓴다면 제미나이, 대화하듯 여러 번 수정하는 데 익숙하다면 챗GPT가 편할 수 있습니다. 같은 프롬프트를 두 곳에 넣고 결과를 비교해 보는 것도 좋은 방법입니다.\nQ2. 무료 버전으로도 충분한가요?\n네. 이 글의 프롬프트는 모두 텍스트를 주고받는 작업이라 무료 버전으로도 사용할 수 있습니다. 다만 사용량 제한에 걸리면 잠시 기다렸다가 같은 대화창에서 이어서 질문하면 됩니다.\nQ3. AI가 추천한 맛집이 실제로 없으면 어떻게 하나요?\nAI는 가끔 폐업한 가게나 존재하지 않는 장소를 추천하기도 합니다. 지도 앱에서 검색되지 않거나 최근 리뷰가 없는 곳은 일정에서 빼고, \"이 장소 대신 근처에서 비슷한 곳을 추천해 줘\"라고 다시 요청하세요.\nQ4. 해외뿐 아니라 국내 여행에도 쓸 수 있나요?\n물론입니다. 국내 여행은 KTX·고속버스 시간표와 주차 정보만 따로 확인하면 같은 프롬프트로 그대로 활용할 수 있습니다.\n마무리: 계획은 AI에게, 설렘은 나에게\n여행 계획에서 정말 중요한 것은 어디에 갈지 고르는 즐거움이지, 검색 창을 수십 개 띄워 놓는 일이 아닙니다. 오늘 소개한 다섯 단계로 초안은 AI에게 맡기고, 확인과 결정에만 시간을 써 보세요. 연말 여행 준비가 훨씬 가벼워질 겁니다.",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://muzbox.tistory.com/483758",
+    "pubDate": "Fri, 13 Nov 2026 09:41:35 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
+    "categories": [
+      "AI, 미래기술/AI 인사이트",
+      "ai 여행 계획",
+      "ai 프롬프트",
+      "구글 항공편",
+      "여행 예산",
+      "여행 일정 짜기",
+      "여행 준비물",
+      "연말 여행",
+      "제미나이 여행",
+      "챗gpt 여행"
     ]
   }
 ]
