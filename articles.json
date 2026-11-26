@@ -2,50 +2,57 @@
   {
     "id": 1,
     "imageUrl": "",
-    "title": "Java4Shell (CVE-2026-114938): What It Means for TeamCity",
-    "description": "Summary On November 17, 2026, CVE-2026-114938, a memory-corruption vulnerability in the hardware-accelerated Base64 decoder of several Java runtimes, was publicly disclosed. This vulnerability allows malicious Base64 input to corrupt JVM process memory, potentially causing a crash or remote code execution. The issue is not a vulnerability in TeamCity itself. However, TeamCity’s server and build agents […]",
+    "title": "부양가족 자료제공 동의 취소 방법, 다른 형제로 바꿀 때",
+    "description": "부양가족 자료제공 동의는 홈택스 [부양가족 자료제공동의 신청/조회/취소] 화면에서 취소할 수 있어요. 다만 형에게 해 둔 동의를 동생에게 옮기려는 경우라면 먼저 취소할 필요가 없어요. 부모님이 동생에게 새로 동의하면 형에게 했던 동의는 자동으로 취소돼요.\n연말정산 간소화 서비스는 매년 1월 15일 무렵 열려요(2026년에는 1월 15일 개통). 그 전에 누가 부모님 자료를 볼지 정해 두면 1월에 서두르지 않아도 돼요. 아래 내용은 2026년 11월 23일 국세청 국세상담센터 자주묻는 Q&A와 홈택스 안내 자료로 확인했어요.\n홈택스에서 자료제공 동의 현황 확인하기\n로그인한 뒤 [장려금·연말정산·기부금] → [연말정산간소화] → [부양가족 자료제공동의 신청/조회/취소]로 들어가세요. 화면이 열리지 않거나 메뉴를 못 찾으면 국세상담센터(국번 없이 126)에 물어보세요.\n다른 형제로 바꿀 때: 취소 대신 새로 동의\n자료제공 동의는 가족 가운데 근로자 한 명에게만 해 줄 수 있어요. 의료비는 형에게, 신용카드는 동생에게 나눠 주는 방식도 안 돼요. 국세청은 첫째에게 동의한 뒤 둘째에게 다시 동의하면 첫째의 동의가 자동 취소된다고 안내해요.\n\n\n출처: 국세청 국세상담센터 자주묻는 Q&A(연말정산간소화), 2026년 11월 23일 화면\n상황할 일\n\n\n형 → 동생으로 바꾸기부모님이 동생을 자료 조회자로 넣어 새로 동의\n아무에게도 안 주기부모님이 [제공동의 취소 신청]에서 취소\n내 쪽에서 끊기근로자가 [제공동의 현황 조회]에서 해당 가족 옆 [취소]\n형 쪽 화면에서는 부모님이 '나에게 자료제공을 동의한 부양가족(과거)'으로 옮겨져 보여요. 형이 \"동의가 갑자기 없어졌다\"고 하면 이 항목을 보면 이유를 알 수 있어요.\n부양가족 본인이 취소하는 방법\n자료를 주는 가족(부모님 등)이 직접 취소할 때는 [제공동의 취소 신청] 탭을 써요. 본인 인증 수단이 있으면 바로 처리되고, 없으면 팩스나 세무서 방문으로 신청해요.\n\n\n출처: 국세청 홈택스 '부양가족 자료제공동의 신청 방법' 안내 자료(예시 화면)\n방법준비할 것\n\n\n본인인증 신청부양가족 본인 명의 인증서, 간편인증, 휴대전화, 카드, 아이핀, 생체인증 중 하나\n팩스 신청홈택스에서 출력한 취소 신청서 + 부양가족 신분증, 팩스 1544-7020\n세무서 방문제공동의(취소)신청서와 신분증, 대리인이면 민원서류위임장과 신청인 신분증 사본\n취소 화면에는 \"연말정산간소화 자료조회 동의를 귀속연도에 관계없이 모두 취소합니다\"라는 문구가 나와요. 한 해만 골라서 끊을 수 없으니, 다른 형제에게 넘기려는 경우라면 위처럼 새로 동의하는 편이 단계가 적어요.\n근로자가 직접 취소하는 방법\n자료를 받던 근로자도 취소할 수 있어요. 인증서로 로그인해 [제공동의 현황 조회]를 연 뒤, '나에게 자료제공을 동의한 부양가족(현재)' 목록에서 해당 가족의 비고란 [취소]를 누르면 돼요.\n\n\n출처: 국세청 국세상담센터 자주묻는 Q&A(연말정산간소화), 2026년 11월 23일 화면\n같은 화면의 '내 자료를 제공받는 가족'에서는 반대로 내 간소화 자료를 누가 보고 있는지 확인할 수 있어요.\n새로 동의할 때 확인할 것\n처리 시간: 본인인증 신청은 즉시, 온라인·팩스 신청은 2~3일 걸려요. 연말정산이 몰리는 시기에는 일주일 정도 걸릴 수 있어요.\n동의 범위: 'OO년부터 이후연도 자료'로 하면 다음 해에도 계속 볼 수 있고, 'OO년 당해연도 자료'로 하면 그해만 볼 수 있어요.\n만 19세 미만 자녀는 부모가 자기 인증으로 [미성년자녀 신청]을 해요. 성년이 되면 자녀 본인이 새로 동의해야 해요.\n최근 3개월 안에 가족관계증명서에 올라온 가족이나 외국인은 본인인증 신청이 안 될 수 있어요. 이때는 온라인(서류 첨부), 팩스, 세무서 방문으로 신청해요.\n자료제공 동의는 부양가족의 간소화 자료를 볼 수 있게 해 줄 뿐이에요. 부양가족 공제를 받으려면 회사에 낼 서류는 따로 확인해서 제출해야 해요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/11/java4shell-cve-2026-114938-what-it-means-for-teamcity/",
-    "pubDate": "Fri, 20 Nov 2026 16:58:43 +0000",
-    "creator": "Andrey Koltsov",
+    "link": "https://app-developer.tistory.com/entry/%EB%B6%80%EC%96%91%EA%B0%80%EC%A1%B1-%EC%9E%90%EB%A3%8C%EC%A0%9C%EA%B3%B5-%EB%8F%99%EC%9D%98-%EC%B7%A8%EC%86%8C-%EB%B0%A9%EB%B2%95-%EB%8B%A4%EB%A5%B8-%ED%98%95%EC%A0%9C%EB%A1%9C-%EB%B0%94%EA%BF%80-%EB%95%8C",
+    "pubDate": "Mon, 23 Nov 2026 08:28:19 +0900",
+    "creator": "브리핑허브",
     "categories": [
-      "news",
-      "security"
+      "환불&middot;조회"
     ]
   },
   {
     "id": 2,
     "imageUrl": "",
-    "title": "Visual Studio November Update – Faster Workflows, Better Reviews",
-    "description": "The November Visual Studio update reduces repeated work in large-solution workflows, adds MSBuild Restore in Open Folder, introduces Copilot Chat's new engine and work controls, helps organize large pull-request reviews, and adds CSS color previews and IntelliSense.\nThe post Visual Studio November Update – Faster Workflows, Better Reviews appeared first on Visual Studio Blog.",
+    "title": "Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription",
+    "description": "AI is changing the speed at which developers can produce code. And with this change, a different challenge emerges: how do we ensure that what we’re building is secure, reliable, and maintainable?  Not just an immediate answer  AI-generated code can look convincing, compile successfully, and even pass critical tests without necessarily meeting an application’s security, […]\nThe post Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription appeared first on Visual Studio Blog.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews/",
-    "pubDate": "Tue, 24 Nov 2026 17:00:00 +0000",
-    "creator": "Mark Downie",
+    "link": "https://devblogs.microsoft.com/visualstudio/beyond-the-prompt-discovering-trusted-technical-perspectives-with-your-visual-studio-subscription/",
+    "pubDate": "Tue, 24 Nov 2026 11:00:58 +0000",
+    "creator": "James Rempt",
     "categories": [
-      "Visual Studio",
-      "CSS",
-      "Git",
-      "GitHub Copilot",
-      "Productivity"
+      "Visual Studio"
     ]
   },
   {
     "id": 3,
     "imageUrl": "",
-    "title": "Splunk의 데이터 모델 가속",
-    "description": "데이터 천만 개 집계.\n\n\n\n\n\n이때 tsidx(time series index) 파일에 저장된 _time 등의 메타 필드 인덱싱 정보를 활용하는 tstats를 이용하면 검색 속도 개선이 가능하다.\n\n\n\n추가 필드 분석이 필요하면?\n\n\n데이터 모델 기능을 이용하면 tsidx에 추가 필드의 인덱싱 정보를 저장할 수 있다. 원본 테이블 구조를 사용하는 '루트 이벤트' 옵션으로 데이터 모델 생성.\n\n\n\n\n\n\n원하는 필드(log_level) 추가.\n\n\n\n\n이후 데이터 모델 가속.\n\n\n\n\n원본 인덱스 집계.\n\n\n\n\n\n데이터 모델 집계.\n\n\n\n관련 글\n\nSplunk의 sourcetype 변경",
+    "title": "Black Friday Deal: Save 40% on New JetBrains Subscriptions and Upgrades",
+    "description": "As a treat on Black Friday, you can get 40% off a new annual individual JetBrains IDE or ReSharper subscription, or an upgrade to an annual individual All Products Pack or dotUltimate one. A lot about development has changed, and your JetBrains IDE has changed with it. We recently introduced Air in IDEs, a new […]",
     "reviews": [],
     "syllabus": [],
-    "link": "https://kangmyounghun.blogspot.com/2026/11/splunk.html",
-    "pubDate": "2026-11-21T08:13:55.606Z",
-    "creator": "Unknown",
+    "link": "https://blog.jetbrains.com/blog/2026/11/25/black-friday-2026/",
+    "pubDate": "Wed, 25 Nov 2026 08:36:58 +0000",
+    "creator": "Anatolii Simakov",
     "categories": []
   },
   {
     "id": 4,
+    "imageUrl": "",
+    "title": "“우리는 모두 숨을 곳이 필요하다” 안정감이 찾아오는 공간의 조건",
+    "description": "〈건축탐구 집〉의 건축가 임형남·노은주의 안정감 큐레이션: 집 안팎의 피난처 6곳",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://toss.im/tossfeed/article/findyoursafezone-4c",
+    "pubDate": "Wed, 25 Nov 2026 08:35:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 5,
     "imageUrl": "",
     "title": "양자 보안 공격은 어덯게 이뤄지는가? / 간단하게 설명",
     "description": "양자 컴퓨터로 어덯게 공격하는지 간단하게 알려드립니다.\n현대의 인터넷 통신의 한계\n중요인물이 메일을 인터넷을 통해 본다고 칩시다.\nhttps 처럼 통신자체는 암호화 되어서 지나가게됩니다.\n하지면 적 입장에서는 일단 이 지나가는 통신을 저장해둘 수 있습니다.\n현대 통신은 다이런식이라 감청 자체는 가능합니다. 내가 강첨하는 통로로 데이터가 오지 않으면 어쩔수 없지만요.\n이부분도 적이 노린다면 어마어마하게 많은 부분을 감청하고 저장할 수도 있습니다.\n결국 암호화 된체로 저장된 데이터는 나중에\n발전된 양자컴퓨터 기술로 암호를 해제해 볼 수 있습니다.\n10년이든 100년이든 기다리면 언젠간 풀리겠죠\n이점이 가장 중요한 취약점입니다.\n \n보안책으로 사용하는 방법 \n패스키 나 2중인증으로 중요 통신은 적게 하고 자주 암호를 변경해\n(접속 시 자동으로 변경되며 유저는 몰라도 됩니다.)\n해결하려고는 하지만 결국 많은 통신을 저장함에 따라 언젠간 중요 통신이 발생할 것입니다.\n그때 슥삭 챙기면 로그인 키를 뺏길 가능성이 존재합니다.\n \n핵심은\n당장 암호가 해제된다는게 아니고\n저장해두고 풀수 있을 때 묵혀둘 수만 있다면 결국 열어볼 수 있다는 것\n \n우리가 사용하는 뱅킹 앱도 결국 통신을 감청하다 중요 로그인키를 획득하면\n상대방이 우리가 사용하는 뱅킹 앱이 로그인된채로 켜볼 수는 있다.\n2차 인증이나 계좌비밀번호 입력 같은데서 막히긴 할 꺼지만 \n잔고나 이체 내역을 볼 수 있을 것입니다.\n \n아직은 2차인증이나 OTP 같은걸로 막을 수 있지만 암호해제 속도가 빨라지다보면 몇시간만에 통신 내용을 볼 수도 있겠습니다.\n \n양자 내성 암호화 PQC\n양자 컴퓨터에 내성이 있는 암호화 방식은 이미 개발되어있고 여러개중에 표준을 정하는 중입니다.\n표준이 정해지면 네트워크 장비가 이 암호를 지원해야해서 장기전으로 모두 교체되어야합니다.\n즉 표준이 정해지면 네트워크 장비주가 호재 입니다.\n그리고 표준 3개중에 1개는 이미 탈락했고 1개가 추가로 탈락 위기에 있다고 하네요\nLWE 암호에 취약점이 발견되었다고 하니 이제 나머지 1개로 추려지겠군요",
@@ -61,40 +68,111 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "imageUrl": "",
-    "title": "같은 사업, 다른 창업가",
-    "description": "전에 ‘Second Bet’이라는 글을 썼다. 여기서도 언급했듯이, 우리는 이미 한 번 투자했던 창업가라면 첫 번째 사업의 성공이나 실패와 관계없이 다시 투자하기도 한다. 사업의 결과보다는 그 창업가와의 관계가 좋았는지, 함께 사업을 만들어가는 과정이 즐겁고 의미 있었는지가 더 중요하기 때문이다. 그런 창업가라면 다시 한번 믿고 투자한다. 스트롱도 투자를 오래하고 사업 경력이 쌓이면서 이렇게 한 창업가에게 여러 번(...)",
+    "title": "카카오톡 10차 업데이트 사용법: 톡보드 공동 편집&middot;공지 10개&middot;자동 번역 켜는 법 (단톡방 정리 AI 프롬프트 5가지)",
+    "description": "단톡방에서 \"공지 다시 올려 주세요\", \"그 링크 어디 있었죠?\" 같은 말이 자주 오가셨다면 이번 업데이트가 반가우실 겁니다. 카카오가 2026년 11월 19일 카카오톡 10차 정기 업데이트(v26.10.0)를 발표했습니다. 채팅방 게시판이 톡보드로 바뀌어 여러 명이 한 글을 동시에 고칠 수 있고, 채팅방 공지는 최대 10개까지 올릴 수 있으며, 외국어 메시지를 자동 번역해 주는 기능도 들어왔습니다.\n이 글에서는 카카오 공식 보도자료에 나온 내용만 기준으로 새 기능 5가지와 켜는 법을 정리하고, 톡보드에 바로 붙여 넣을 문서를 AI로 만드는 프롬프트를 함께 소개합니다.\n이 글의 핵심 요약\n1. 카카오톡 v26.10.0 이상에서 톡보드·공지 10개·자동 번역·인증 오픈채팅·여러 리액션을 쓸 수 있습니다.\n2. 톡보드는 제목·체크박스 등 마크다운 문서, 주제별 폴더, 편집 권한을 준 멤버의 실시간 공동 편집을 지원합니다.\n3. 자동 번역은 설정 > 카나나 연구소에서 켠 뒤 채팅방 설정 > 자동 번역을 켜면 됩니다.\n4. 공지와 톡보드 문서 초안은 AI로 만들고, 이름·연락처는 빼고 넣는 것이 안전합니다.\n1. 카카오톡 10차 업데이트, 무엇이 바뀌었나\n카카오 보도자료(2026년 11월 19일)에 나온 변경 사항을 한 표로 정리했습니다. 새 기능은 카카오톡 v26.10.0 이상 버전에서 쓸 수 있으니 먼저 앱을 최신 버전으로 업데이트하세요.\n기능\n바뀐 점\n이럴 때 유용\n\n\n톡보드 (기존 톡게시판)\n마크다운으로 제목·체크박스 등 문서 작성, 프로젝트·주제별 폴더 분류, 편집 권한 설정 시 실시간 공동 편집\n모임 준비물, 업무 체크리스트, 회의 메모\n\n\n채팅방 공지\n1개 → 최대 10개, 말풍선·투표·톡보드 글을 공지로 등록, 해제한 공지는 '지난 공지'에서 다시 확인\n일정·회비·장소처럼 안내가 여러 개인 방\n\n\n자동 번역\n'카나나'가 외국어로 감지된 수신 메시지를 설정한 언어로 번역해 원문 아래 표시\n외국인 친구, 해외 거래처, 유학생 모임\n\n\n인증 기반 오픈채팅\n톡학생증·톡사원증 인증을 참여 조건으로 설정, 학교는 입학연도·학과 조건도 가능\n학과 동기방, 회사 동료 커뮤니티\n\n\n여러 리액션\n'여러 리액션 선택하기'로 한 메시지에 최대 6개까지 동시 추가\n투표 대신 가볍게 의견 모을 때\n\n\n\n \n\n\n2. 톡보드: 여러 명이 한 글을 동시에 고친다\n기존 '톡게시판'이 톡보드로 개편됐습니다. 보도자료에 따르면 마크다운을 지원해 제목, 체크박스 등을 넣은 문서를 만들 수 있고, 작성한 글은 프로젝트나 주제별 폴더로 나눠 관리할 수 있습니다. 가장 큰 변화는 공동 편집입니다. 글에 편집 권한을 설정하면 여러 채팅방 멤버가 한 글을 실시간으로 함께 수정할 수 있습니다.\n모임: 준비물 체크리스트를 올리고 각자 챙긴 항목에 직접 체크\n업무: 프로젝트 폴더를 만들고 일정표·할 일 목록을 담당자가 직접 갱신\n가족: 명절·여행 준비 목록을 가족이 함께 채우기\n편집 권한을 주는 정확한 메뉴 위치와 지원되는 마크다운 기호의 범위는 앱 화면에서 직접 확인하세요. 보도자료에는 제목과 체크박스가 예시로 나와 있습니다.\n프롬프트 1. 모임 안내를 톡보드 문서로 만들기\n아래 모임 정보를 카카오톡 톡보드에 붙여 넣을 안내 문서로 정리해 줘.\n조건: 마크다운 형식, 맨 위 제목 1줄, 그 아래 '일시 / 장소 / 회비 / 준비물' 소제목, 준비물은 체크박스(- [ ]) 목록으로.\n사람 이름과 전화번호는 넣지 말고, 확실하지 않은 정보는 [확인 필요]로 표시해 줘.\n모임 정보: [모임 이름, 날짜와 시간, 장소, 회비, 준비물]\n프롬프트 2. 업무 프로젝트 체크리스트 만들기\n나는 [팀/부서]에서 [프로젝트 이름]을 [마감일]까지 끝내야 해.\n톡보드에 올려 팀원이 함께 체크할 수 있게 할 일 목록을 만들어 줘.\n조건: 마크다운, 단계별 소제목(준비 / 진행 / 마무리), 각 할 일은 체크박스로, 할 일 옆에 [담당: ] 빈칸을 남겨 둬.\n회사 내부 기밀이나 고객 정보는 빼고 일반적인 표현으로 써 줘.\n3. 채팅방 공지 최대 10개: 이렇게 나눠 올리세요\n이제 공지를 최대 10개까지 등록할 수 있습니다. 말풍선(일반 메시지), 투표, 톡보드 글을 공지로 올릴 수 있고, 모바일에서는 채팅방 상단에서 좌우로 넘겨 보고, PC에서는 목록을 펼치거나 접어 봅니다. 등록된 공지를 한 번에 모아 보거나, 해제한 공지도 '지난 공지'에서 다시 확인할 수 있어 늦게 들어온 사람도 안내를 놓치지 않습니다.\n공지가 많아질수록 무엇이 중요한지 흐려질 수 있으니 '고정 정보'와 '이번 일정'을 나눠 두는 방식을 추천합니다.\n공지 유형\n예시\n형식\n\n\n고정 정보\n방 규칙, 회비 계좌 안내 방식, 자주 묻는 질문\n톡보드 글\n\n\n이번 일정\n다음 모임 날짜·장소\n말풍선\n\n\n의견 모으기\n날짜 정하기, 메뉴 정하기\n투표\n\n\n지난 안내\n끝난 일정\n공지 해제 → 지난 공지에서 확인\n\n\n\n \n프롬프트 3. 흩어진 단톡 대화를 공지용으로 정리하기\n아래는 단체 채팅방 대화 일부야. 공지로 올릴 만한 정보만 뽑아서 정리해 줘.\n출력: ① 확정된 사항 ② 아직 정해지지 않은 사항 ③ 공지로 올릴 문장(각 2줄 이내, 최대 5개)\n사람 이름은 'A, B'처럼 바꾸고 전화번호·계좌번호는 지워 줘.\n대화: [이름·연락처를 지운 대화 내용 붙여넣기]\n\n\n4. 자동 번역: 외국어 메시지가 원문 아래 번역된다\n외국어로 받은 메시지 아래에 번역문을 보여 주는 자동 번역 기능이 추가됐습니다. 카카오의 AI '카나나'가 외국어로 감지된 수신 메시지를 내가 설정한 언어로 번역해 원문 아래에 표시합니다. 켜는 순서는 보도자료 기준으로 두 단계입니다.\n1단계: 카카오톡 설정 > 카나나 연구소에서 자동 번역 기능을 활성화\n2단계: 번역을 쓸 채팅방에서 채팅방 설정 > 자동 번역 켜기\n보도자료 설명은 받은 메시지를 번역해 보여 주는 기능입니다. 내가 외국어로 답장을 보낼 때는 아래 프롬프트처럼 AI에게 문장을 다듬어 달라고 하면 편합니다. 번역은 AI 결과라 계약 조건, 금액, 날짜처럼 중요한 내용은 원문과 함께 다시 확인하세요.\n프롬프트 4. 외국어 답장 자연스럽게 다듬기\n나는 카카오톡으로 [상대: 외국인 친구/해외 거래처]와 대화 중이야. 상대가 [언어]로 보낸 메시지는 '[받은 메시지]'야.\n내가 하고 싶은 말은 '[한국어로 하고 싶은 말]'이야.\n[언어]로 [친근한/정중한] 말투의 답장 2가지를 써 주고, 각 답장의 한국어 뜻도 아래에 붙여 줘. 숫자와 날짜는 원문 그대로 유지해 줘.\n5. 학생증·사원증 인증 오픈채팅방과 여러 리액션\n오픈채팅방을 만들 때 톡디지털카드 인증을 참여 조건으로 설정하면, 조건에 맞는 톡학생증이나 톡사원증을 가진 사람만 들어올 수 있습니다. 학교는 입학연도나 학과 같은 세부 조건도 정할 수 있습니다. 예전처럼 참여 코드를 돌리거나 방장이 한 명씩 승인하지 않아도 되어 학과 동기방이나 직장 동료 모임을 만들기 쉬워졌습니다. 카카오는 앞으로 거주 지역을 인증하는 동네카드 등으로 범위를 넓힐 예정이라고 밝혔습니다.\n또 한 번에 하나씩만 달 수 있던 리액션을 '여러 리액션 선택하기'로 최대 6개까지 동시에 추가할 수 있습니다.\n프롬프트 5. 인증 오픈채팅방 운영 규칙 만들기\n나는 [학교 학과/회사] 사람들만 들어오는 카카오톡 오픈채팅방을 만들려고 해. 방의 목적은 [정보 공유/친목/스터디]야.\n방 소개글(3줄), 운영 규칙 5가지, 첫 입장 환영 메시지를 만들어 줘.\n규칙에는 개인정보 공유 금지, 홍보 글 금지, 공지 확인 방법(상단 공지를 좌우로 넘겨 보기)을 꼭 넣어 줘.\n6. 업데이트 전에 알아 둘 주의사항\n버전 확인: 새 기능은 v26.10.0 이상에서 쓸 수 있습니다. 앱 스토어에서 업데이트 후에도 메뉴가 안 보이면 잠시 뒤 다시 확인하세요.\n공동 편집 권한: 편집 권한을 받은 멤버는 글을 수정할 수 있으니, 중요한 공지 원문은 권한을 좁게 주는 편이 안전합니다.\nAI에 붙여 넣는 정보: 단톡 대화를 AI에게 정리시킬 때는 이름·전화번호·계좌번호·주소를 먼저 지우세요.\n번역 확인: 자동 번역은 AI 번역이므로 금액·날짜·약속 장소는 원문으로 한 번 더 확인하세요.\n7. 자주 묻는 질문 (FAQ)\nQ1. 업데이트했는데 톡보드나 자동 번역이 안 보여요.\n먼저 카카오톡 버전이 v26.10.0 이상인지 확인하세요. 자동 번역은 설정의 '카나나 연구소'에서 먼저 활성화해야 채팅방 설정에 나타나는 구조이니 순서를 확인해 보세요.\nQ2. 공지는 아무나 10개까지 올릴 수 있나요?\n보도자료는 공지 개수가 최대 10개로 늘었다는 점만 밝히고 있습니다. 누가 공지를 등록할 수 있는지는 채팅방 종류와 설정에 따라 다를 수 있으니 앱에서 확인하세요.\nQ3. 자동 번역은 내가 보내는 메시지도 번역해 주나요?\n보도자료 설명은 외국어로 감지된 수신 메시지를 번역해 원문 아래에 보여 주는 기능입니다. 보내는 메시지는 위의 프롬프트 4처럼 AI로 미리 다듬어 보내면 됩니다.\nQ4. 인증 오픈채팅방에 들어가려면 무엇이 필요한가요?\n방장이 정한 조건에 맞는 톡학생증 또는 톡사원증이 필요합니다. 학교 조건이라면 입학연도나 학과까지 맞아야 들어갈 수 있습니다.\n\n\n마무리: 공지는 10개로, 정리는 톡보드로\n이번 10차 업데이트로 단톡방이 '흘러가는 대화'에서 '정리된 공간'에 한 걸음 가까워졌습니다. 오늘 쓰는 단톡방 하나를 골라 고정 정보는 톡보드 글로, 이번 일정은 공지로 나눠 올려 보세요. 문서 초안은 위 프롬프트로 AI에게 맡기고, 사람은 확인과 결정만 하면 됩니다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://www.thestartupbible.com/2026/11/you-only-know-what-you-know.html",
-    "pubDate": "Sun, 22 Nov 2026 21:30:00 +0000",
-    "creator": "Kihong Bae",
+    "link": "https://muzbox.tistory.com/483762",
+    "pubDate": "Fri, 20 Nov 2026 08:54:19 +0900",
+    "creator": "어떤오후의 프리웨어 이야기",
     "categories": [
-      "Uncategorized",
-      "failure",
-      "FoundersAtWork",
-      "inspiring",
-      "people",
-      "Strong"
+      "AI, 미래기술/AI 인사이트",
+      "AI프롬프트",
+      "단톡방관리",
+      "카나나",
+      "카카오톡10차업데이트",
+      "카카오톡업데이트",
+      "카톡공지10개",
+      "카톡자동번역",
+      "톡디지털카드",
+      "톡보드"
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "imageUrl": "",
-    "title": "보신각 제야의 종 시민대표 추천 방법, 후보자 연락처가 없어도 될까?",
-    "description": "보신각 제야의 종을 울릴 시민대표는 2026년 11월 30일까지 서울시 온라인 양식에서 추천할 수 있어요. 추천할 사람의 연락처는 선택 항목이라 몰라도 비워둘 수 있어요. 추천하는 본인의 이름, 연락처, 이메일은 필수예요.\n서울시 시민대표 추천 양식 열기\n양식을 열어 후보자 이름과 추천 사유를 먼저 적어 보세요. 링크가 열리지 않으면 아래 서울시 공식 안내에서 추천 버튼을 다시 찾을 수 있어요.\n추천 양식에 무엇을 적나요?\n구분입력 항목\n\n\n추천할 사람이름과 추천 사유는 필수, 연락처는 선택\n추천하는 사람본인 이름, 연락처, 이메일 모두 필수\n개인정보수집·이용 동의 필수\n추천 사유는 어떻게 쓰면 좋을까요?\n서울시는 올해 나눔을 실천했거나, 역경을 극복했거나, 용기 있는 행동으로 주변에 귀감이 된 시민 등을 추천받아요. 추천 사유에는 어떤 일을 했고 그 일이 주변 사람들에게 어떤 도움이 됐는지, 아는 범위에서 구체적으로 적어 보세요.\n제출 전에는 후보자 이름과 본인 연락처가 맞는지 확인하세요. 후보자의 연락처를 모르면 선택 항목을 비워 두면 돼요.\n추천 결과는 언제 나오나요?\n서울시는 12월 중순쯤 심사를 거쳐 선정된 타종인사에게 개별 통보하고 보도자료로 결과를 발표할 예정이에요. 타종행사는 12월 31일 서울 종로구 보신각에서 열려요.\n접수 일정과 양식 항목은 2026년 11월 22일에 확인했어요. 서울시 시민대표 추천 공식 안내",
+    "title": "국가근로장학금 신입생 신청 시기, 대학 미정이면 2차에 신청하는 이유와 참여 대학 확인",
+    "description": "국가근로장학금은 다닐 대학이 정해진 신입생만 1차에 신청할 수 있다. 수능을 막 끝내 아직 대학이 정해지지 않았다면 1차가 아니라 2차 신청기간에 신청해야 한다. 한국장학재단이 2026년 11월 19일 올린 '2027년 1학기 1차 국가근로장학금 학생신청 안내'에 이렇게 적혀 있다.\n1차 신청기간은 2026년 11월 24일(화) 9시부터 2027년 1월 7일(목) 18시까지다. 서류 제출과 가구원 동의는 2027년 1월 14일(목) 18시까지다(재단 공지, 2026년 11월 19일 16시 확인).\n재단 공지에서 참여 대학 명단 받기\n공지 아래 첨부 '붙임2'(엑셀)에서 내 대학이 있는지 찾는다. 신청은 한국장학재단 홈페이지나 앱에 로그인한 뒤 한다. 궁금한 점은 국가근로장학금 상담 1599-2290으로 묻는다.\n신입생은 1차와 2차 중 언제 신청하나\n국가장학금과 국가근로장학금은 같은 신청서에서 함께 고를 수 있다. 하지만 대학이 정해지지 않은 신입생에게 적용되는 기준은 서로 다르다.\n내 상황국가장학금국가근로장학금\n다닐 대학이 정해졌고 그 대학이 참여 대학1차 신청1차 신청 가능\n합격 발표 전, 대학 미정1차 신청 가능1차 불가, 2차에 신청\n다닐 대학이 참여 대학 명단에 없음1차 신청신청 대상 아님\n재단 신청 매뉴얼은 국가근로장학금을 '소속대학이 확정되고, 대학이 사업 참여할 경우 신청 가능'으로 안내한다. 국가장학금은 재단 2026년 9월 2일 공지에 '소속 대학이 정해지지 않은 경우에도 1차 신청 가능'으로 적혀 있다.\n\n\n출처: 한국장학재단 공지 '2027년 1학기 1차 국가근로장학금 학생신청 안내' 화면 캡처\n대학 미정 신입생이 1차에 먼저 할 일\n국가근로장학금을 지금 신청할 수 없어도 1차 기간에 해 둘 일이 있다. 근로는 학자금 지원구간이 나온 뒤에야 할 수 있기 때문이다.\n국가장학금 1차를 신청한다. 대학을 몰라도 신청할 수 있다.\n부모(또는 배우자)가 가구원 정보제공 동의를 마친다. 동의가 끝나야 소득·재산 조사가 시작된다.\n신청 1~3일 뒤 '장학금 → 장학금신청 → 서류제출현황'에서 낼 서류가 있는지 본다.\n대학이 정해지면 2차 신청기간에 국가근로장학금을 신청한다.\n재단 매뉴얼은 학자금 지원구간 산정에 8주 안팎이 걸린다고 적었다. 공지도 \"학자금 지원구간이 산정된 이후 근로 가능하므로 가급적 빠른 신청\"을 당부했다.\n2차 신청기간은 아직 날짜 미정\n2027년 1학기 2차 신청의 정확한 날짜는 아직 공지되지 않았다. 재단 2026년 9월 2일 공지는 국가장학금 2차를 2027년 2월부터 3월 중순까지로 예고했다. 국가근로장학금 매뉴얼은 1차·2차를 '통합신청 기간'으로 부르므로 2차도 같은 시기일 가능성이 크지만, 날짜는 공지가 나오면 다시 확인해야 한다.\n2027년 여름방학 집중근로에 참여하려면 1학기 신청기간(1차 또는 2차)에 국가근로장학금을 꼭 신청해 둬야 한다.\n1차에 잘못 신청하면 2차에 못 고친다\n재단 매뉴얼은 신청서 수정과 삭제가 신청한 차수 안에서만 된다고 적었다. 1차에 신청한 사람은 2차 기간에 수정하거나 삭제할 수 없다.\n대학을 짐작해 1차에 넣지 않는 편이 낫다. 소속 대학을 잘못 넣으면 심사나 장학금 지급에서 불이익이 있을 수 있다고 매뉴얼에 적혀 있다. 이미 넣었다면 1차 마감(1월 7일 18시) 전에 '신청현황'에서 고치거나 취소한다.\n참여 대학 명단 확인\n공지 첨부 '2027년 국가근로장학금 사업 참여 대학 명단(261119 기준)'에는 351개 학교가 올라 있다. 같은 대학도 캠퍼스별로 따로 적혀 있으니 본교·캠퍼스 이름까지 맞춰 본다.\n공지는 참여 대학 모집이 11월 19일까지라 명단이 바뀔 수 있다고 밝혔다. 내 학교가 없으면 대학 장학 담당 부서에 참여 여부를 묻는다.\n시급과 근로시간\n재단 안내 페이지에 올라온 금액은 2026년 기준이다. 2027년 시급은 아직 공개되지 않았다.\n항목2026년 기준\n교내근로 시급10,320원\n교외근로 시급12,790원\n최대 근로시간하루 8시간, 학기 중 월 80시간(방학 중 주 40시간), 학기당 640시간\n장애인, 다자녀가정 자녀 등 일부 학생은 학기당 최대 800시간까지 일할 수 있다. 자세한 대상은 아래 재단 화면에 나와 있다.\n\n\n출처: 한국장학재단 국가근로장학금 안내 '장학금 지원금액' 화면 캡처\n신청 자격과 선발\n대한민국 국적을 가진 참여 대학 재학생(입학예정자 포함)이다.\n학자금 지원 9구간 이하여야 한다. 재학생은 직전학기 성적 C0(70점) 이상이 필요하다.\n신청했다고 모두 뽑히지는 않는다. 장학생 선발과 근로지 배정은 대학이 자체 기준으로 한다.\n2027년 1학기부터 학자금 지원구간 이름이 바뀐다. 매뉴얼에 따르면 기존 1~3구간은 '가', 4~6구간은 '나', 7~8구간은 '다', 9구간은 '라', 10구간은 '마' 구간이 된다.\n신청 순서\n한국장학재단 홈페이지(www.kosaf.go.kr)나 앱에 로그인한다. 공동인증서, 금융인증서, 간편인증(카카오톡·PASS·네이버 등)을 쓸 수 있다.\n'장학금 → 장학금신청 → 신청서 작성'에서 국가근로장학금 '신청'을 누른다.\n동의와 서약, 학교정보, 개인·가족정보, 본인 명의 계좌를 넣는다.\n학자금유형에서 '국가근로장학금'에 체크한다. 국가장학금도 받을 사람은 함께 체크한다.\n신청을 마친 뒤 가구원에게 정보제공 동의를 받는다.\n가구원 동의는 '장학금 → 학자금 지원구간 → 가구원 정보제공 동의현황 및 동의하기'에서 부모가 직접 인증해서 한다. 국가근로장학금만 신청하면 e-러닝은 듣지 않아도 되고, 선발된 뒤 사이버 오리엔테이션을 따로 듣는다.\n자주 헷갈리는 점\n수시에 합격했는데 1차에 신청해도 되나?\n공지는 '소속대학이 확정된 학생'이라고만 적었다. 합격만 하고 등록 전이라면 확정으로 보는지 공지에 나와 있지 않다. 1599-2290이나 합격한 대학 장학 담당 부서에 먼저 확인한다.\n1차 기간에 지금 하고 있는 봉사·취업연계 근로 신청은?\n1차 신청기간(11월 24일~1월 7일)에는 2026년 2학기 봉사유형과 취업연계유형 상시 신청이 멈춘다. 1차 기간이 끝나면 다시 열린다.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://app-developer.tistory.com/entry/%EB%B3%B4%EC%8B%A0%EA%B0%81-%EC%A0%9C%EC%95%BC%EC%9D%98-%EC%A2%85-%EC%8B%9C%EB%AF%BC%EB%8C%80%ED%91%9C-%EC%B6%94%EC%B2%9C-%EB%B0%A9%EB%B2%95-%ED%9B%84%EB%B3%B4%EC%9E%90-%EC%97%B0%EB%9D%BD%EC%B2%98%EA%B0%80-%EC%97%86%EC%96%B4%EB%8F%84-%EB%90%A0%EA%B9%8C",
-    "pubDate": "Sun, 22 Nov 2026 08:16:32 +0900",
+    "link": "https://app-developer.tistory.com/entry/%EA%B5%AD%EA%B0%80%EA%B7%BC%EB%A1%9C%EC%9E%A5%ED%95%99%EA%B8%88-%EC%8B%A0%EC%9E%85%EC%83%9D-%EC%8B%A0%EC%B2%AD-%EC%8B%9C%EA%B8%B0-%EB%8C%80%ED%95%99-%EB%AF%B8%EC%A0%95%EC%9D%B4%EB%A9%B4-2%EC%B0%A8%EC%97%90-%EC%8B%A0%EC%B2%AD%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EC%99%80-%EC%B0%B8%EC%97%AC-%EB%8C%80%ED%95%99-%ED%99%95%EC%9D%B8",
+    "pubDate": "Thu, 19 Nov 2026 16:14:06 +0900",
     "creator": "브리핑허브",
     "categories": [
       "지원금&middot;신청"
     ]
   },
   {
-    "id": 7,
+    "id": 8,
+    "imageUrl": "",
+    "title": "Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents",
+    "description": "The faster sibling of Mellum2.1 Thinking, built for sub-agents, tool loops, and chat. In October, we released Mellum2.1 Thinking, an open 12B mixture-of-experts model with 2.5B active parameters, trained to work as a coding agent. Today, we are releasing its sibling, Mellum2.1 Instruct. It is built on the same architecture and trained identically, but it […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/",
+    "pubDate": "Wed, 25 Nov 2026 11:00:00 +0000",
+    "creator": "Gleb Ingman",
+    "categories": [
+      "news",
+      "releases",
+      "ai",
+      "mellum",
+      "open-source"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "",
+    "title": "GoLand Intelligence Now Available in Cursor and VS Code",
+    "description": "What if you could use GoLand’s language intelligence outside the IDE, across multiple development environments? Today, we’re taking the first step toward making this possible by releasing a public preview of the Go by GoLand LSP – an extension for VS Code-based editors, including Cursor. This will bring GoLand intelligence beyond the IntelliJ Platform, making […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/go/2026/11/25/go-by-goland-public-preview/",
+    "pubDate": "Wed, 25 Nov 2026 12:20:14 +0000",
+    "creator": "Sergey Larionov",
+    "categories": [
+      "goland",
+      "public-preview",
+      "vs-code"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "",
+    "title": "YouTrack Adds More Ways to Use AI on Your Terms",
+    "description": "YouTrack 2026.3 introduces Ask YouTrack, a new built-in agentic AI chat, where you can ask questions in natural language and take action on tasks, tickets, and articles. You can connect your preferred AI models, and administrators can monitor token usage by user. While this release expands what you can do with AI in YouTrack, using […]",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://blog.jetbrains.com/youtrack/2026/11/youtrack-adds-more-ways-to-use-ai-on-your-terms/",
+    "pubDate": "Wed, 25 Nov 2026 11:56:27 +0000",
+    "creator": "Elena Pishkova",
+    "categories": [
+      "features",
+      "news",
+      "release",
+      "youtrack",
+      "ai",
+      "apps",
+      "youtrack-cloud",
+      "youtrack-server"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "",
+    "title": "뱅크샐러드금융서비스가 보험설계사에게 DB를 '무제한 무상 지원'하는 이유",
+    "description": "“오늘, 도대체 누구를 만나야 할까?” 보험 영업 현장에서 일하는 설계사들이 매일 아침 마주하는 가장 무거운 고민입니다. 역량이 부족해서가 아닙니다. 만날 고객을 스스로 찾고 그 리스크까지 개인이 감당해야 하는 구조는 이 업계의 오랜 숙제였습니다. 뱅크샐러드금융서비스는 이 오랜 숙제를…",
+    "reviews": [],
+    "syllabus": [],
+    "link": "https://corp.banksalad.com/blog/culture/bfs-interview-2/",
+    "pubDate": "Wed, 25 Nov 2026 00:00:00 GMT",
+    "creator": "Unknown",
+    "categories": []
+  },
+  {
+    "id": 12,
     "imageUrl": "",
     "title": "Creating Polars Expression Plugins in PyCharm: A Step-by-Step Guide for Rust Beginners",
     "description": "Polars is a favorite among data scientists. It’s a high-performance, columnar DataFrame library written in Rust and powered by Apache Arrow.  Unlike traditional single-threaded tools, Polars uses full multicore CPU parallelism, efficient memory allocation, and lazy execution with query optimization. These features let data professionals execute complex joins, filters, and aggregations on large datasets significantly […]",
@@ -108,125 +186,46 @@
     ]
   },
   {
-    "id": 8,
+    "id": 13,
     "imageUrl": "",
-    "title": "Best GitHub Actions Alternatives in 2026: What 838 Organizations Actually Use",
-    "description": "GitHub Actions is the default CI/CD tool for much of the industry, because it’s built into GitHub. But 2026 gave teams reasons to look around. On July 9, hosted runner jobs were delayed or failing for more than nine hours. In May, the Megalodon campaign pushed malicious workflows to more than 5,500 repositories in one […]",
+    "title": "해돋이 열차 예매, 강릉행 KTX-이음 임시열차",
+    "description": "새해 첫날 강릉 해돋이 열차는 2026년 11월 25일(수) 오전 10시부터 코레일+ 앱, 코레일 누리집, 전국 철도역 창구에서 예매합니다. 열차는 강릉행 KTX-이음 임시열차(열차 번호 4091)로, 2027년 1월 1일(금) 서울역에서 오전 4시 36분에 출발해 청량리·상봉을 거쳐 강릉역에 오전 6시 30분에 도착합니다. 아래 내용은 코레일 공지(11월 18일 등록)를 2026년 11월 24일에 직접 확인해 정리했습니다.\n코레일 승차권 예매 화면 열기\n예매 화면에서 출발역(서울·청량리·상봉 중 하나), 도착역 강릉, 날짜 2027년 1월 1일을 넣고 열차 번호 4091을 고릅니다. 화면이 열리지 않거나 열차가 보이지 않으면 철도고객센터 1588-7788로 문의하세요.\n해돋이 임시열차 운행 정보\n항목내용\n열차KTX-이음 4091 (임시열차)\n운행일2027년 1월 1일(금), 서울 → 강릉 편도\n시간서울 4:36 출발 → 강릉 6:30 도착\n정차역청량리, 상봉\n판매 시작2026년 11월 25일(수) 10:00\n판매처코레일+ 앱, 코레일 누리집, 전국 철도역 창구\n문의철도고객센터 1588-7788\n\n\n출처: 코레일 공지사항 「강릉선 KTX-이음 임시열차 운행 알림」(2026-11-18 등록)\n공지에는 서울 출발 시각과 강릉 도착 시각만 있습니다. 청량리역과 상봉역 출발 시각, 운임은 공지에 적혀 있지 않으니 예매 화면에서 확인하세요.\n해돋이 열차 예매 순서 (25일 오전 10시)\n10시 전에 코레일+ 앱이나 누리집에 로그인하고 결제 카드를 준비합니다. 비회원도 네이버·카카오 간편인증으로 예매할 수 있습니다.\n출발역과 도착역 강릉, 날짜 2027년 1월 1일을 넣고 이른 새벽 시간대로 조회합니다.\n열차 번호 4091을 골라 좌석을 정하고 결제합니다.\n결제 뒤 모바일 티켓이 발권됐는지 승차권 확인 메뉴에서 봅니다.\n매진이면 예약대기를 걸 수 있습니다. 코레일 안내에 따르면 예약대기는 출발 2일 전까지 신청하고, 좌석이 배정되면 배정된 날 18시까지 결제해야 합니다. 결제하지 않으면 자동으로 취소됩니다.\n취소하면 위약금은 얼마인가\n1월 1일은 금요일이자 공휴일이라 코레일 환불 기준에서 '금~일, 공휴일' 줄이 적용됩니다. 새벽 4시 36분 출발 열차를 기준으로 날짜를 바꿔 보면 아래와 같습니다.\n취소 시점위약금\n12월 30일까지 (출발 2일 전까지)최저위약금 400원\n12월 31일 (출발 1일 전)5%\n1월 1일 0시 ~ 1시 36분 (당일 ~ 출발 3시간 전)10%\n1월 1일 1시 36분 ~ 4시 36분 (출발 3시간 전 ~ 출발 전)20%\n출발 후 20분까지 (역 창구)30%\n출발 후 20~60분 (역 창구)40%\n출발 60분 후 ~ 도착 전 (역 창구)70%\n\n\n출처: 코레일 「승차권 구매/환불/분실」 안내 중 일반승차권 환불 위약금 표 (2026-11-24 확인)\n출발 시각 전까지는 앱·누리집에서 직접 환불할 수 있습니다. 출발 뒤에는 역 창구에서 신청해야 합니다.\n코레일+로 산 KTX 승차권은 출발 후 10분까지, 열차 안에 있지 않은 것이 확인되면 앱에서 환불을 받아 줍니다.\n결제만 하고 발권하지 않으면 출발 시각에 자동 취소되고 출발 후 위약금이 붙습니다.\n코레일은 11월 20일 보도참고자료에서 철도노조 쟁의행위 기간에는 승차권 환불·변경 위약금을 면제한다고 밝혔습니다. 연말까지 쟁의행위가 이어질지는 확인하지 못했으니, 취소 전에 코레일 공지를 다시 보세요.\n강릉역에 내린 뒤 확인할 것\n강릉 일출 예정 시각은 오전 7시 38분께입니다(코레일 서울본부 보도 기준). 도착 뒤 약 1시간 여유가 있습니다.\n이 열차는 서울 → 강릉 편도입니다. 돌아오는 표는 일반 열차로 따로 예매해야 합니다. 일반 승차권은 출발 2개월 전 오전 7시부터 판매합니다.\n강릉역에서 경포·정동진 등 해맞이 장소까지 가는 임시 교통편과 교통통제는 이 글을 쓴 시점에 공식 공지를 찾지 못했습니다. 12월 중 강릉시 공지를 확인하세요.",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/11/github-actions-alternatives/",
-    "pubDate": "Mon, 23 Nov 2026 07:56:19 +0000",
-    "creator": "Olga Bedrina",
-    "categories": []
-  },
-  {
-    "id": 9,
-    "imageUrl": "",
-    "title": "국립공원 야영장 예약한도, 한 달에 몇 건까지 되나",
-    "description": "국립공원 야영장 예약한도는 1인당 1개월 안에 4건이고, 한 건은 최대 2박 3일입니다. 선착순 예약에서는 같은 날짜에 야영장 두 곳을 함께 잡을 수 없습니다. 2026년 11월 24일 국립공원공단 예약시스템의 예약·환불정책과 추첨제 안내에서 확인했습니다.\n오늘(11월 24일) 오전 10시부터 겨울에 문을 닫던 야영장 4곳의 선착순 예약이 열립니다. 이미 이번 달 예약이 여러 건 있다면 접수 전에 남은 건수부터 확인하세요.\n야영장 예약한도 기준\n항목기준\n\n\n최대 예약 건수1개월 안에 4건\n한 건당 이용기간최대 2박 3일. 매월 마지막 날은 1박 2일만 가능\n같은 날짜 두 곳선착순 예약은 불가. 추첨 신청은 가능(당첨은 1건만)\n대기예약한 사이트당 대기 1건, 1인당 한 달 3건\n예약 가능 시간이용 당일 14시 전까지\n취소 가능 시간이용 당일 12시 전까지\n\n\n출처: 국립공원공단 예약시스템 예약·환불정책 예약안내(2026년 11월 24일 확인)\n국립공원 야영장 예약 페이지 열기\n페이지에서 공원과 야영장을 고르면 남은 자리를 볼 수 있고, 예약은 로그인 뒤에 됩니다. 내가 몇 건을 잡았는지는 마이페이지의 '나의 예약목록'에서 봅니다. 예약이 안 되면 국립공원공단 예약안내 1670-9201(평일 9~18시, 점심 12~13시)로 문의하세요.\n추첨과 선착순은 같은 날짜 규칙이 다릅니다\n야영장은 짝수 달 1일에 두 달 치 추첨 신청을 받고, 추첨 뒤 남은 자리를 선착순으로 엽니다. 건수 한도는 둘 다 한 달 4건이지만 같은 날짜를 다루는 방식이 다릅니다.\n추첨 신청: 같은 날짜에 여러 야영장을 넣을 수 있습니다. 당첨은 그중 1건만 됩니다.\n선착순(빈자리) 예약: 같은 날짜에 두 곳을 예약할 수 없습니다. 한 곳을 잡은 날짜에는 다른 야영장 예약이 막힙니다.\n\n\n출처: 국립공원공단 예약시스템 야영장 추첨제 안내(2026년 6차, 2026년 11월 24일 확인)\n4건이 다 찼다고 나올 때 볼 것\n나의 예약목록 확인: 같은 달에 이미 잡아 둔 예약이 몇 건인지 먼저 셉니다.\n가족 회원정보 확인: 추첨제 안내에는 회원정보가 같은 예약자가 있으면 동일인 신청으로 보고 '4건 초과'로 나올 수 있다고 적혀 있습니다. 가족이 휴대전화 번호나 이메일을 같이 쓰고 있다면 회원정보에서 고친 뒤 다시 신청하라고 안내합니다.\n대기 신청 확인: 예약이 4건에 이르면 남아 있던 대기 신청은 자동으로 취소됩니다. 대기는 따로 한 달 3건까지입니다.\n예약을 취소하면 그 건수가 바로 다시 생기는지는 공식 안내에서 찾지 못했습니다. 남은 건수가 애매하면 취소하기 전에 1670-9201로 물어보는 편이 안전합니다.\n건수를 비우려고 취소할 때 위약금\n다른 야영장을 잡으려고 기존 예약을 취소하면 아래 위약금이 붙습니다. 결제한 당일에 취소하면 전액 돌려받습니다.\n취소 시점환불\n\n\n이용 3일 전까지 또는 결제 당일전액 환불\n이용 2일 전10% 공제 후 환불\n이용 1일 전20% 공제 후 환불\n이용 당일(12시 전)30% 공제 후 환불\n취소 없이 안 감환불 없음, 예약부도 이용 제한\n예약부도는 1회면 1개월, 2회 이상이면 3개월 동안 시설 예약이 제한됩니다. 같은 정책 페이지 안에서 당일 취소는 환불 표에 '부도자 이용제한 적용'으로, 부도자 안내에는 '본인이 당일 12시 전 취소하면 부도 면제'로 적혀 있어 서로 다릅니다. 당일 취소가 필요하면 미리 1670-9201로 확인하세요.\n환불은 취소 뒤 은행 영업일 기준 3~7일 정도 걸린다고 안내합니다. 재난이나 기상특보(예비특보 포함)로 이동이나 시설 이용이 어렵다고 공단이 인정하면 위약금을 물리지 않습니다.\n오늘 선착순으로 열리는 겨울 야영장 4곳\n국립공원공단은 11월 20일 공지에서 동절기에 쉬던 야영장 일부를 열고 11월 24일 10시부터 선착순으로 받는다고 밝혔습니다. 이 예약도 위 한도 4건 안에서 잡아야 합니다.\n야영장열리는 영지\n\n\n주왕산 상의야영장카라반 C2~C10\n월악산 송계야영장전체 영지(운영기간 12월 31일까지로 연장)\n내장산 내장호야영장자동차영지 28~47번, 캠핑카전용영지 16~27번\n변산반도 고사포 제1야영장전체 영지\n\n\n출처: 국립공원 예약시스템 공지사항 '동절기 휴장 야영장 일부 개방 및 선착순 예약 안내'(2026년 11월 20일)\n겨울에는 수도 동파를 막으려고 개수대와 샤워장 같은 편의시설이 제한될 수 있습니다. 대설이나 한파 특보가 나오면 이용이 제한되거나 예약이 취소될 수 있습니다. 송계야영장은 월악산국립공원사무소(043-653-3250)가 따로 안내하고 있습니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://app-developer.tistory.com/entry/%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90-%EC%95%BC%EC%98%81%EC%9E%A5-%EC%98%88%EC%95%BD%ED%95%9C%EB%8F%84-%ED%95%9C-%EB%8B%AC%EC%97%90-%EB%AA%87-%EA%B1%B4%EA%B9%8C%EC%A7%80-%EB%90%98%EB%82%98",
-    "pubDate": "Tue, 24 Nov 2026 07:13:11 +0900",
+    "link": "https://app-developer.tistory.com/entry/%ED%95%B4%EB%8F%8B%EC%9D%B4-%EC%97%B4%EC%B0%A8-%EC%98%88%EB%A7%A4-%EA%B0%95%EB%A6%89%ED%96%89-KTX-%EC%9D%B4%EC%9D%8C-%EC%9E%84%EC%8B%9C%EC%97%B4%EC%B0%A8",
+    "pubDate": "Tue, 24 Nov 2026 16:17:31 +0900",
     "creator": "브리핑허브",
     "categories": [
       "예매&middot;예약"
     ]
   },
   {
-    "id": 10,
-    "imageUrl": "",
-    "title": "Security Update for YouTrack Server: Java Vulnerability CVE-2026-114938 (Java4Shell)",
-    "description": "On November 17, 2026, a critical vulnerability in Java was publicly disclosed: CVE-2026-114938, also known as Java4Shell. It affects Java runtimes used by many applications, including YouTrack Server. We have released YouTrack Server updates that include a fixed Java runtime. YouTrack Cloud is not affected. Action required from YouTrack Server administrators If you use YouTrack […]",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://blog.jetbrains.com/youtrack/2026/11/security-update-for-youtrack-server-java-vulnerability-cve-2026-114938-java4shell/",
-    "pubDate": "Fri, 20 Nov 2026 13:24:50 +0000",
-    "creator": "Elena Pishkova",
-    "categories": [
-      "security",
-      "youtrack",
-      "youtrack-cloud",
-      "youtrack-server"
-    ]
-  },
-  {
-    "id": 11,
-    "imageUrl": "",
-    "title": "구글 문서 캡션&middot;상호 참조 사용법: 그림&middot;표 번호 자동 매기기와 캡션 목차, 워드 파일 비교까지 (보고서 정리 AI 프롬프트 5가지)",
-    "description": "보고서나 제안서를 쓰다가 중간에 그림 하나를 추가하면, 그 뒤의 \"그림 3\", \"그림 4\"를 하나하나 고쳐 본 경험이 있으실 겁니다. 본문에서 \"표 2 참고\"라고 써 둔 문장까지 다시 찾아야 하니 번거롭고 실수도 잦습니다. 구글은 2026년 11월 18일 구글 문서(Google Docs)에 인라인 캡션, 상호 참조, 캡션 표 세 가지 기능을 추가했다고 발표했습니다. 그림과 표 번호가 자동으로 매겨지고, 본문 속 참조 문구도 따라서 바뀝니다. 11월 16일에는 문서 비교 도구가 워드(.docx) 파일을 변환 없이 비교할 수 있게 바뀌었습니다. 이 글에서는 두 기능을 쓰는 순서와 함께, 보고서 정리에 바로 복사해 쓸 수 있는 AI 프롬프트 5가지를 정리했습니다.\n이 글의 핵심 요약\n1. 인라인 캡션: 그림·표·수식에 번호 라벨을 붙이면 추가·삭제·순서 변경 때 번호가 자동으로 다시 매겨집니다.\n2. 상호 참조: 본문의 \"그림 1 참고\" 같은 문구를 캡션과 연결해, 캡션이 바뀌면 표시 문구도 갱신됩니다.\n3. 캡션 표: 그림·표 목록을 페이지 번호와 함께 자동으로 만들고, 클릭하면 해당 위치로 이동합니다.\n4. 문서 비교: 이제 워드(.docx) 파일도 변환 없이 [도구 > 문서 비교]로 바뀐 부분을 확인할 수 있습니다.\n\n\n1. 이번에 추가된 기능 한눈에 보기\n구글 Workspace 업데이트 공식 블로그에 따르면 세 기능은 별도 설정 없이 바로 쓸 수 있고, 회사 계정뿐 아니라 개인 구글 계정에서도 제공됩니다. 워드(.docx) 파일과도 호환되어 가져오기와 내보내기를 해도 서식이 유지된다고 안내하고 있습니다.\n기능\n하는 일\n메뉴 위치(공식 안내 기준)\n\n\n인라인 캡션\n그림·표·수식에 \"그림 1\", \"표 1\" 같은 번호 라벨을 붙이고 자동으로 순서를 맞춤\n삽입 > 페이지 요소 > 인라인 캡션\n\n\n상호 참조\n본문에서 캡션으로 연결되는 문구를 만들고, 캡션이 바뀌면 표시 문구도 갱신\n삽입 > 페이지 요소 > 상호 참조\n\n\n캡션 표\n그림·표 목록을 라벨 종류별로 페이지 번호와 함께 자동 생성, 클릭하면 이동\n삽입 > 페이지 요소 > 캡션 표\n\n\n문서 비교(.docx 지원)\n워드 파일을 구글 문서로 변환하지 않고 두 문서의 차이를 비교\n도구 > 문서 비교\n\n\n\n \n메뉴 이름은 영어 안내(Insert > Page elements > Inline caption 등)를 우리말로 옮긴 것입니다. 한국어 화면에서는 표기가 조금 다를 수 있으니 삽입 메뉴의 '페이지 요소' 아래를 확인하세요. 기능은 순차 적용될 수 있어 아직 메뉴가 보이지 않는다면 며칠 뒤 다시 확인해 보시기 바랍니다.\n2. 인라인 캡션 넣는 법 (그림·표 번호 자동 매기기)\n캡션은 그림이나 표 아래(또는 위)에 붙는 \"그림 1. 월별 매출 추이\" 같은 설명 줄입니다. 구글 도움말에 안내된 순서는 다음과 같습니다.\n1단계: 구글 문서에서 그림, 차트, 표, 이미지 또는 수식을 선택합니다.\n2단계: 상단 메뉴에서 삽입 > 페이지 요소 > 인라인 캡션을 누릅니다.\n3단계: 오른쪽 패널에 캡션 문구를 입력하고 유형(그림, 표, 수식 또는 맞춤 라벨)을 고릅니다.\n4단계: 라벨 포함 여부와 번호 매기기 스타일을 정한 뒤 삽입을 누릅니다.\n맞춤 라벨을 쓰면 \"사진\", \"도표\", \"부록\"처럼 원하는 이름으로 번호를 매길 수도 있습니다. 중간에 그림을 넣거나 지우면 번호가 순서대로 다시 매겨지니, 더 이상 번호를 손으로 고칠 필요가 없습니다.\n프롬프트 1. 캡션 문구 다듬기\n아래는 보고서에 들어가는 그림과 표의 설명 초안입니다.\n각 항목을 캡션용 한 줄(30자 이내)로 다듬어 주세요.\n규칙: 숫자 단위와 기간을 꼭 넣고, '~에 대한' 같은 군더더기는 빼 주세요.\n결과는 \"유형 | 다듬은 캡션\" 표로 보여 주세요.\n[그림: 2026년 1~10월 지점별 매출을 비교한 막대그래프]\n[표: 고객 문의 유형별 건수와 비율]\n3. 상호 참조로 \"그림 3 참고\" 자동으로 맞추기\n상호 참조는 본문의 참조 문구를 캡션에 연결하는 기능입니다. 일반 링크는 글자가 고정되지만, 상호 참조는 캡션 번호가 바뀌면 표시 문구도 함께 바뀝니다. 문서에 캡션이 하나 이상 있어야 쓸 수 있습니다.\n넣기: 참조 문구를 넣을 위치에 커서를 두고 삽입 > 페이지 요소 > 상호 참조를 누른 뒤, 참조 유형과 연결할 캡션, 표시 형식을 고르고 삽입합니다.\n하나만 갱신: 연결된 문구를 클릭한 뒤 '상호 참조 새로고침'을 누릅니다.\n한 번에 갱신: 삽입 > 페이지 요소 > 상호 참조 > 모두 새로고침을 누릅니다.\n캡션 문구를 고친 뒤에는 제출 전에 '모두 새로고침'을 한 번 눌러 두는 습관을 들이면 참조가 어긋날 일이 줄어듭니다.\n프롬프트 2. 상호 참조로 바꿀 문장 찾기\n아래 보고서 본문에서 그림·표·수식을 가리키는 표현을 모두 찾아 주세요.\n(\"그림 2\", \"아래 표\", \"위 그래프\", \"앞의 수식\"처럼 번호가 있거나 없는 표현 모두 포함)\n결과는 \"문장 일부 | 가리키는 대상 | 상호 참조로 바꿀 추천 문구\" 표로 정리해 주세요.\n번호 없이 '아래 표'처럼 쓴 곳은 어떤 캡션을 가리키는지 추정 근거도 적어 주세요.\n[여기에 본문 붙여넣기]\n4. 캡션 표로 그림·표 목차 자동 만들기\n캡션 표는 목차의 그림·표 버전입니다. 논문이나 제안서 앞부분의 \"그림 목차\", \"표 목차\"를 자동으로 만들어 줍니다.\n만들기: 목록을 넣을 위치에 커서를 두고 삽입 > 페이지 요소 > 캡션 표를 누른 뒤, 라벨 유형과 '라벨 및 번호 포함' 여부를 고르고 삽입합니다.\n업데이트: 문서를 고친 뒤 표를 선택하고 '캡션 표 업데이트'를 누릅니다. '캡션 표 수정'으로 모양을, '캡션 표 삭제'로 삭제를 할 수 있습니다.\n페이지 번호가 안 보일 때: 문서가 '페이지 없음' 형식이면 페이지 번호와 점선이 숨겨집니다. 파일 > 페이지 설정에서 '페이지' 형식으로 바꾸세요.\n프롬프트 3. 보고서에 넣을 그림·표 구성 짜기\n나는 [주제: 2026년 하반기 고객 만족도 조사 결과] 보고서를 [분량: A4 10쪽]으로 씁니다.\n독자는 [대상: 팀장과 임원]입니다.\n본문 흐름에 맞춰 넣으면 좋은 그림·표를 8개 이내로 제안해 주세요.\n각 항목마다 \"유형(그림/표) | 캡션 초안 | 들어갈 위치(장) | 필요한 데이터\"를 표로 정리하고,\n그림 목차와 표 목차를 따로 만들 필요가 있는지도 판단해 주세요.\n\n\n5. 워드(.docx) 파일 비교: 변환 없이 바뀐 부분 찾기\n거래처나 다른 팀이 워드 파일로 수정본을 보내면, 예전에는 구글 문서로 변환한 뒤 비교해야 해서 드라이브에 사본이 쌓였습니다. 11월 16일 업데이트로 문서 비교 도구가 .docx 파일을 변환 없이 지원합니다. 개인 구글 계정에서도 쓸 수 있습니다.\n1단계: 드라이브에 올린 .docx 파일을 구글 문서에서 엽니다.\n2단계: 상단 메뉴 도구 > 문서 비교를 누르고, 비교할 다른 문서를 고릅니다.\n3단계: 결과 문서에서 추가·삭제된 부분을 제안 모드처럼 확인합니다.\n프롬프트 4. 비교 결과를 변경 요약표로 만들기\n아래는 계약서(또는 보고서) 수정 전후 비교에서 바뀐 부분을 복사한 내용입니다.\n바뀐 내용을 \"조항/위치 | 수정 전 | 수정 후 | 의미 변화(중요도 상·중·하)\" 표로 정리해 주세요.\n금액, 날짜, 책임 범위, 해지 조건이 바뀐 곳은 맨 위에 따로 모아 주세요.\n단순 맞춤법·띄어쓰기 수정은 마지막에 한 줄로 묶어 주세요.\n[여기에 비교 결과 붙여넣기]\n프롬프트 5. 수정 요청 회신 메일 쓰기\n위에서 정리한 변경 요약표를 바탕으로 [받는 사람: 거래처 담당자]에게 보낼 회신 메일을 써 주세요.\n수락하는 변경, 다시 논의할 변경, 거절하는 변경을 구분해 주세요.\n그림·표를 말할 때는 \"그림 2\", \"표 1\"처럼 캡션 번호로 정확히 가리켜 주세요.\n말투는 정중하되 간결하게, 본문 10줄 이내로 써 주세요.\n6. 쓰기 전에 알아 둘 점\n순차 적용: 공식 안내는 즉시 제공이지만 계정마다 메뉴가 보이는 시점이 다를 수 있습니다.\n메뉴 이름: 한국어 메뉴 표기는 공식 영어 안내와 다를 수 있으니 삽입 > 페이지 요소 아래를 확인하세요.\n참조는 새로고침: 캡션 문구를 고친 뒤에는 상호 참조 '모두 새로고침', 캡션 표 '업데이트'를 눌러야 최신 상태가 됩니다.\nAI에 붙여넣기 전 확인: 계약서·인사 자료처럼 민감한 문서는 이름, 금액, 연락처를 가린 뒤 AI에 넣으세요.\n7. 자주 묻는 질문 (FAQ)\nQ1. 무료 개인 계정에서도 쓸 수 있나요?\n네. 구글 공식 블로그는 캡션·상호 참조·캡션 표와 .docx 문서 비교 모두 Workspace 고객과 개인 구글 계정 사용자에게 제공된다고 밝혔습니다.\nQ2. 워드로 내보내면 캡션 번호가 깨지지 않나요?\n구글은 이 기능이 워드(.docx)와 호환되어 가져오기와 내보내기 때 서식이 유지된다고 안내합니다. 중요한 문서는 내보낸 뒤 워드에서 번호를 한 번 확인해 보세요.\nQ3. 캡션 표에 페이지 번호가 안 나와요.\n문서가 '페이지 없음' 형식이면 페이지 번호와 점선이 숨겨집니다. 파일 > 페이지 설정에서 '페이지' 형식으로 바꾸면 표시됩니다.\nQ4. 상호 참조 메뉴가 회색으로 비활성화돼 있어요.\n상호 참조는 문서에 캡션이 하나 이상 있어야 쓸 수 있습니다. 먼저 그림이나 표에 인라인 캡션을 넣은 뒤 다시 시도하세요.\n\n\n마무리: 번호 고치는 시간을 내용 다듬는 시간으로\n그림 번호와 참조 문구를 손으로 맞추던 일은 이제 구글 문서가 대신해 줍니다. 다음 보고서를 쓸 때 그림 하나에 캡션을 먼저 붙여 보고, 위 프롬프트로 캡션 문구와 참조 위치를 정리해 보세요. 기능 위치나 적용 범위는 구글 문서 도움말(캡션, 상호 참조 또는 캡션 표 추가)에서 최신 내용을 확인하시기 바랍니다.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://muzbox.tistory.com/483763",
-    "pubDate": "Sun, 22 Nov 2026 13:20:21 +0900",
-    "creator": "어떤오후의 프리웨어 이야기",
-    "categories": [
-      "AI, 미래기술/AI 인사이트",
-      "ai 프롬프트",
-      "구글 독스 신기능",
-      "구글 문서",
-      "구글 문서 캡션",
-      "그림 번호 자동",
-      "보고서 작성",
-      "상호 참조",
-      "워드 문서 비교",
-      "캡션 표"
-    ]
-  },
-  {
-    "id": 12,
-    "imageUrl": "",
-    "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
-    "description": "Our previous post in this series introduced the Ranking Engineer Agent (REA), an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models.  Now, we’re sharing how we propagate ranking model improvements like architectural advancements and training optimizations efficiently across a large and diverse fleet of ads [...]\nRead More...\nThe post How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
-    "pubDate": "Wed, 18 Nov 2026 17:00:00 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "DevInfra",
-      "ML Applications"
-    ]
-  },
-  {
-    "id": 13,
-    "imageUrl": "",
-    "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
-    "description": "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model space, creating a rising tide that lifts all the boats. At Meta, we built a template-driven approach that standardizes model design [...]\nRead More...\nThe post Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem appeared first on Engineering at Meta.",
-    "reviews": [],
-    "syllabus": [],
-    "link": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
-    "pubDate": "Wed, 18 Nov 2026 16:59:38 +0000",
-    "creator": "Unknown",
-    "categories": [
-      "DevInfra",
-      "ML Applications"
-    ]
-  },
-  {
     "id": 14,
     "imageUrl": "",
-    "title": "Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription",
-    "description": "AI is changing the speed at which developers can produce code. And with this change, a different challenge emerges: how do we ensure that what we’re building is secure, reliable, and maintainable?  Not just an immediate answer  AI-generated code can look convincing, compile successfully, and even pass critical tests without necessarily meeting an application’s security, […]\nThe post Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription appeared first on Visual Studio Blog.",
+    "title": "악역영애 4컷 만화는 한 주 쉬어갑니다.",
+    "description": "No description available",
     "reviews": [],
     "syllabus": [],
-    "link": "https://devblogs.microsoft.com/visualstudio/beyond-the-prompt-discovering-trusted-technical-perspectives-with-your-visual-studio-subscription/",
-    "pubDate": "Tue, 24 Nov 2026 11:00:58 +0000",
-    "creator": "James Rempt",
+    "link": "https://bbs.ruliweb.com/news/board/11/read/2518",
+    "pubDate": "Wed, 25 Nov 2026 14:06:51 +0900",
+    "creator": "｜RULIWEB｜",
     "categories": [
-      "Visual Studio"
+      "웹툰"
     ]
   },
   {
     "id": 15,
     "imageUrl": "",
-    "title": "Top Version Control Tools: What the Data Shows",
-    "description": "According to the JetBrains Developer Ecosystem Report 2026, GitHub is the most popular place to host code. It is used by 85.1% of developers for personal projects and by 56.0% for professional projects. GitLab ranks second in both groups, but the gap is much smaller among those hosting professional projects there. That difference is a […]",
+    "title": "704. 액션게임만들기 #8 - 맵 에디터 &amp; 물리 기능 테스트",
+    "description": "영상: https://www.youtube.com/watch?v=0lMsGZqW8cY&t=64s\n\n\n\n \n자세한 이야기를 블로그에 써야하는데 홈페이지에 써버렸군요\n홈페이지 - 소식 - https://apps.sidnft.com/ko/news/n-47\n\n \n액션게임만들기 #8 - 맵 에디터 & 물리 기능 테스트 - 74일차 | SID APPS\n스테이지 제작에 들어가서 맵 에디터를 간단하게 만들었습니다. 블록을 쌓는 형태로 간단한 기능만 동작하며, 카메라 움직임도 부자연스러워서 불편한 상태지만 충분히 활용할 수 있었습니다.\napps.sidnft.com\n\n \n\n\n\n스테이지 제작에 들어가서 맵 에디터를 간단하게 만들었습니다. 블록을 쌓는 형태로 간단한 기능만 동작하며,\n카메라 움직임도 부자연스러워서 불편한 상태지만 충분히 활용할 수 있었습니다.\n맵 에디터 개발 순서\n클릭하면 블록 면 옆에 블록을 붙일 수 있도록 제작\n블록을 검색해서 선택할 수 있도록 제작\n화면에 보이는 블록과 동일한 블록을 쌓을 수 있도록 기능 추가\n현재 어떤 블록을 편집 중인지 보여주는 커서 추가\n안 보이는 벽을 만들기 위해 맵 에디터에서만 보이는 블록 추가\n맵에 몹이 나올 수 있도록 시작 위치 블록 추가\n물리 기능 추가\n적이나 드랍 아이템에 물리 효과를 추가해서 맵에서 굴러다니도록 했습니다.\n이 기능은 컴파일사의 디스크 스테이션에 수록되어 있는 게임 미스틱 아츠에서 영감을 받아서 추가했습니다.\n참고 영상\n이 게임은 플레이어가 방향을 누르고 공격하면 그 방향으로 적들을 사정없이 밀어버리는 기능이 잘 구현되어 있습니다.\n덕분에 적들이 화면 끝까지 날아가게 됩니다.\n \n긁어다 붙였는제 잘 표시되려나 모르겠군요",
     "reviews": [],
     "syllabus": [],
-    "link": "https://blog.jetbrains.com/teamcity/2026/11/top-version-control-tools/",
-    "pubDate": "Thu, 19 Nov 2026 10:52:13 +0000",
-    "creator": "Olga Bedrina",
-    "categories": []
+    "link": "https://serverdown.tistory.com/1705",
+    "pubDate": "Sat, 21 Nov 2026 09:55:55 +0900",
+    "creator": "SID-NFT",
+    "categories": [
+      "프로그래밍/자작",
+      "개발로그"
+    ]
   }
 ]
